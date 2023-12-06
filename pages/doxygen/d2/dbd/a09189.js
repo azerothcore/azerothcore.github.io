@@ -1,15 +1,9 @@
 var a09189 =
 [
-    [ "MailSender", "d2/dbd/a09189.html#a16466924bf75ea8203ba27c0f3e6188b", null ],
-    [ "MailSender", "d2/dbd/a09189.html#a735cfef6950357644d6965978dde0309", null ],
-    [ "MailSender", "d2/dbd/a09189.html#a145000f5ef63627ee26a5699846e06cf", null ],
-    [ "MailSender", "d2/dbd/a09189.html#a9ddda06cf5ecc55efdc4525353471c5b", null ],
-    [ "MailSender", "d2/dbd/a09189.html#a7d5a5e40aa20de720f310b739f159225", null ],
-    [ "MailSender", "d2/dbd/a09189.html#a12c87bb414a3e8889c95091f3b51716b", null ],
-    [ "GetMailMessageType", "d2/dbd/a09189.html#a64c99a49ec01d2226b6bf740edb380fb", null ],
-    [ "GetSenderId", "d2/dbd/a09189.html#a03145c3fdc5bbabc64019e63e121132b", null ],
-    [ "GetStationery", "d2/dbd/a09189.html#a6a4446e52e20ad7ab4817bf024b38631", null ],
-    [ "m_messageType", "d2/dbd/a09189.html#a45a312eda342d2197f15d73b47d7787b", null ],
-    [ "m_senderId", "d2/dbd/a09189.html#a0954b3514cfcba4258b1b266dfd71ddb", null ],
-    [ "m_stationery", "d2/dbd/a09189.html#a1bbced35b4600f9a45a421d28a33393b", null ]
+    [ "LoginQueryHolder", "d2/dbd/a09189.html#a0e1a9e1b505ba40d08daee432eaa40c1", null ],
+    [ "GetAccountId", "d2/dbd/a09189.html#ac44ea5d53fa90dae955bfaa3f472ecea", null ],
+    [ "GetGuid", "d2/dbd/a09189.html#a8cdce5befc3b7f8727eef78ab1f768a2", null ],
+    [ "Initialize", "d2/dbd/a09189.html#ae21aca0c9ccc627e084b4a535b3f5774", null ],
+    [ "m_accountId", "d2/dbd/a09189.html#abc8056182803af44a062fe6153fdd009", null ],
+    [ "m_guid", "d2/dbd/a09189.html#ab4696408b2e649dcdaae0bc4330c0b9e", null ]
 ];

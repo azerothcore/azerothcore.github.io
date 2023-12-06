@@ -1,11 +1,9 @@
 var a09749 =
 [
-    [ "AllMapScript", "d2/d25/a09749.html#abaf4ffb766b2e5780a9c15c8136d8e26", null ],
-    [ "OnBeforeCreateInstanceScript", "d2/d25/a09749.html#ad398177177c6b436cc9279f5e49818b4", null ],
-    [ "OnCreateMap", "d2/d25/a09749.html#a56aa53bfb0a1cb7ad7cb677771739b46", null ],
-    [ "OnDestroyInstance", "d2/d25/a09749.html#a990130b4cd594c1cd04368aea300a49e", null ],
-    [ "OnDestroyMap", "d2/d25/a09749.html#a6bebd1e6e36b5714598439a6c6dfaad6", null ],
-    [ "OnMapUpdate", "d2/d25/a09749.html#a6edbb719d998c57caba09eef7ad559e0", null ],
-    [ "OnPlayerEnterAll", "d2/d25/a09749.html#a42e4af596effb07a00b353164f32cec9", null ],
-    [ "OnPlayerLeaveAll", "d2/d25/a09749.html#adcfd501bee055317bff2a63ef28c3eab", null ]
+    [ "entry", "d2/d25/a09749.html#a63e9b557b5e712d30580376ad811ff6c", null ],
+    [ "map", "d2/d25/a09749.html#a762951c4230f0b40a59071e20852bf77", null ],
+    [ "o", "d2/d25/a09749.html#a70e425f84949f6964a33250e6e9650ef", null ],
+    [ "x", "d2/d25/a09749.html#a46b691dd3a31a59f56a4a7b36a35a982", null ],
+    [ "y", "d2/d25/a09749.html#a38be6df7cf824ed47991c9fabb6fb06b", null ],
+    [ "z", "d2/d25/a09749.html#ade7151bc8f29d91e33e7c78790d7ea55", null ]
 ];

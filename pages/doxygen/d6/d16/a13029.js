@@ -1,7 +1,9 @@
 var a13029 =
 [
-    [ "CheckCast", "d6/d16/a13029.html#ae3172987341c8dcb29fb1f63f0dc4b34", null ],
-    [ "HandleScriptEffect", "d6/d16/a13029.html#a3476eb885cc3344cd0757cdcd024dd38", null ],
-    [ "PrepareSpellScript", "d6/d16/a13029.html#a453522c1ce36ebeb9c2c6859f0bab96c", null ],
-    [ "Register", "d6/d16/a13029.html#a242e9966946ed8352c0410cdbe857e32", null ]
+    [ "npc_demonic_vapor_trailAI", "d6/d16/a13029.html#ad1a5de140e171c8de6f5152f84cfed0f", null ],
+    [ "JustSummoned", "d6/d16/a13029.html#a1a210b80dc4ed757d3bf07583cc57adc", null ],
+    [ "Reset", "d6/d16/a13029.html#a71e3fde121e72e0cc4a1e07d17799a53", null ],
+    [ "SpellHitTarget", "d6/d16/a13029.html#a2de56cd29096804b72861ed1718d28dc", null ],
+    [ "UpdateAI", "d6/d16/a13029.html#a1762dc6690f7cb2ad579dc0fbe6383b7", null ],
+    [ "timer", "d6/d16/a13029.html#a1c19faff5d18583c90c9977f7b03ddaa", null ]
 ];

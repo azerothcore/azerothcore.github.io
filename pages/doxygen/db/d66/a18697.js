@@ -1,8 +1,7 @@
 var a18697 =
 [
-    [ "spell_sindragosa_unchained_magic_AuraScript", "d6/d9d/a18705.html", "d6/d9d/a18705" ],
-    [ "spell_sindragosa_unchained_magic_SpellScript", "df/dd9/a18701.html", "df/dd9/a18701" ],
-    [ "spell_sindragosa_unchained_magic", "db/d66/a18697.html#a6cc0b7ab6c0e4da1021d2b4ca4eea9ff", null ],
-    [ "GetAuraScript", "db/d66/a18697.html#a9c68a3d2afee4899ec68f624cfe963fd", null ],
-    [ "GetSpellScript", "db/d66/a18697.html#a634ec3152b5a66bc29b584aad54f5615", null ]
+    [ "IceTombSummonEvent", "db/d66/a18697.html#a2ead0e5f6eb0c32f5c11f38e667b65d3", null ],
+    [ "Execute", "db/d66/a18697.html#aa708b67e60ba0b4fe2334c43aaaca5c7", null ],
+    [ "_owner", "db/d66/a18697.html#a1b95617b511dfa7868c59dbdf7e6c4c7", null ],
+    [ "_sindragosaGUID", "db/d66/a18697.html#abe61867b29cd4fe3d02268f18b3618ee", null ]
 ];

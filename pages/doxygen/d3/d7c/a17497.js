@@ -1,6 +1,6 @@
 var a17497 =
 [
-    [ "HandleScriptEffect", "d3/d7c/a17497.html#ad2cc4ff984e9a82f1e843cdbf0e03b8f", null ],
-    [ "PrepareSpellScript", "d3/d7c/a17497.html#a4705f2659627e93b5bd7eb66ed2fba37", null ],
-    [ "Register", "d3/d7c/a17497.html#a42703906af9868b120dfc75fdd3941d9", null ]
+    [ "boss_drakkari_elementalAI", "d2/dd6/a17501.html", "d2/dd6/a17501" ],
+    [ "boss_drakkari_elemental", "d3/d7c/a17497.html#a143dd5d52ea7bb3c3c1d96da45af81ee", null ],
+    [ "GetAI", "d3/d7c/a17497.html#aab2f9c71ddb77164bd644d18b9e88313", null ]
 ];

@@ -1,6 +1,6 @@
 var a24565 =
 [
-    [ "boss_supremusAI", "db/db5/a24569.html", "db/db5/a24569" ],
-    [ "boss_supremus", "d9/d46/a24565.html#ab4ec1ee2fb9f8b022d6c2ec0a2813464", null ],
-    [ "GetAI", "d9/d46/a24565.html#aeac20cbc45b1f30e3aa72e7e9c1ac7d9", null ]
+    [ "spell_reliquary_of_souls_spite_AuraScript", "db/db5/a24569.html", "db/db5/a24569" ],
+    [ "spell_reliquary_of_souls_spite", "d9/d46/a24565.html#a71c632b3c34e063f8bbab597afc4e859", null ],
+    [ "GetAuraScript", "d9/d46/a24565.html#a55cee970363b07a8d77c60d24a1da228", null ]
 ];

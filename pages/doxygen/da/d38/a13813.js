@@ -1,6 +1,7 @@
 var a13813 =
 [
-    [ "boss_arlokkAI", "dc/daa/a13817.html", "dc/daa/a13817" ],
-    [ "boss_arlokk", "da/d38/a13813.html#a55bb21239e05acff18d2fb147449800e", null ],
-    [ "GetAI", "da/d38/a13813.html#a58b8cc7a198784b48faaab1b069d397c", null ]
+    [ "npc_janalai_eggAI", "da/d38/a13813.html#a75bf6d0c7fdb09ace4352cde99edda81", null ],
+    [ "Reset", "da/d38/a13813.html#aad93238c8c26d678da6df2d0191d3763", null ],
+    [ "SpellHit", "da/d38/a13813.html#a2e097705ad9710b22be38931df30bcc3", null ],
+    [ "UpdateAI", "da/d38/a13813.html#a4aa8bfac1e4584497d48097535cc77d3", null ]
 ];

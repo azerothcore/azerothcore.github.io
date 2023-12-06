@@ -1,5 +1,6 @@
 var a16709 =
 [
-    [ "PrepareAuraScript", "db/dfc/a16709.html#adb50fc2f703618600640d2af55f02f56", null ],
-    [ "Register", "db/dfc/a16709.html#a3b6782be136eafcc2cb6d03efb8bb033", null ]
+    [ "spell_faction_champion_warl_unstable_affliction_AuraScript", "d2/dca/a16713.html", "d2/dca/a16713" ],
+    [ "spell_faction_champion_warl_unstable_affliction", "db/dfc/a16709.html#abe931f01a51b99eae8c10c31cb816e3c", null ],
+    [ "GetAuraScript", "db/dfc/a16709.html#a21e86741c8718c681dd167ef4b75ccca", null ]
 ];

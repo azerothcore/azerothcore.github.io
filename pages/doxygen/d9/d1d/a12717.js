@@ -1,7 +1,7 @@
 var a12717 =
 [
-    [ "npc_apothecary_genericAI", "d9/d1d/a12717.html#afb2b04b51e28d0795e7781effa68dffd", null ],
-    [ "DoAction", "d9/d1d/a12717.html#a59074beefbd3d80104b64f8ecc2ef8e0", null ],
-    [ "MovementInform", "d9/d1d/a12717.html#a63530bd7c3ebcd66521a268e11bf2f93", null ],
-    [ "_movePos", "d9/d1d/a12717.html#a53d10ab64df212b043cc21e054f6528c", null ]
+    [ "npc_fairbanksAI", "d9/d1d/a12717.html#a7b0b6eb7aafc2a2a793e578b4dca73a7", null ],
+    [ "MoveInLineOfSight", "d9/d1d/a12717.html#ab1200fe381ad08c1fe1181d1ba939460", null ],
+    [ "Reset", "d9/d1d/a12717.html#a2290dd6189572cddd0597f622582c3a8", null ],
+    [ "SayAshbringer", "d9/d1d/a12717.html#a1ae615c8aa568d0cba3bf5259fbd3daf", null ]
 ];

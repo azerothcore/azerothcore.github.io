@@ -1,14 +1,9 @@
 var a07085 =
 [
-    [ "FilteredCommandListIterator", "de/ddd/a07085.html#abd6dc5c1e3c56eb27856eddb46d5e6a6", null ],
-    [ "_skip", "de/ddd/a07085.html#ac2f0e09b76eb9d40d1b78279a81a5e65", null ],
-    [ "operator bool", "de/ddd/a07085.html#aaeb128830c7705a455343d173dc3ae5a", null ],
-    [ "operator!", "de/ddd/a07085.html#a864e81c56946ca97bf24b392ff8f0b8f", null ],
-    [ "operator*", "de/ddd/a07085.html#a7b1008103a94f6dc068d3e839c924ea6", null ],
-    [ "operator++", "de/ddd/a07085.html#a6d4a54adde98e638428a8d314a6e4356", null ],
-    [ "operator->", "de/ddd/a07085.html#ad83cb2c649a847d0cd04b5fd8ee8494c", null ],
-    [ "_end", "de/ddd/a07085.html#a294c3b743ac4b1a1b878d02a6580d3ca", null ],
-    [ "_handler", "de/ddd/a07085.html#a0c64270cd18f8988997882ceb3e10184", null ],
-    [ "_it", "de/ddd/a07085.html#abbf6ac9d50ba494221addff9aba11b80", null ],
-    [ "_token", "de/ddd/a07085.html#acb834f907b55195f2a27d69f89d84961", null ]
+    [ "BattlegroundEYLosingPointStruct", "de/ddd/a07085.html#ae3f19e55206e1a8097fe173a8a37aa12", null ],
+    [ "DespawnObjectTypeAlliance", "de/ddd/a07085.html#a210828d05ea9948484631b7408a3bb4b", null ],
+    [ "DespawnObjectTypeHorde", "de/ddd/a07085.html#a335205cb71b7055db4c01a5e562001b6", null ],
+    [ "MessageIdAlliance", "de/ddd/a07085.html#afe89eccc8c21351edb4ce943d937e521", null ],
+    [ "MessageIdHorde", "de/ddd/a07085.html#a8295974ee1f663dd0d22bcc4f0e0fa92", null ],
+    [ "SpawnNeutralObjectType", "de/ddd/a07085.html#a57c1a6f485ea6617b5218da411cae38f", null ]
 ];

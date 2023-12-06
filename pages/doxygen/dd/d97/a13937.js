@@ -1,6 +1,5 @@
 var a13937 =
 [
-    [ "boss_mandokirAI", "d5/d1e/a13941.html", "d5/d1e/a13941" ],
-    [ "boss_mandokir", "dd/d97/a13937.html#aad13c8302cef7fb4981f0d2178630def", null ],
-    [ "GetAI", "dd/d97/a13937.html#a215842d5ab23824ec20db64e2fa4407e", null ]
+    [ "at_zulgurub_entrance_speech", "dd/d97/a13937.html#afef11c6a7e97befd07072826fa13be55", null ],
+    [ "_OnTrigger", "dd/d97/a13937.html#a55cda55ed70c63f2a0b2ce39b2ffc0a5", null ]
 ];

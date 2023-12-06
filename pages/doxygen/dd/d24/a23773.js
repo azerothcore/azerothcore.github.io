@@ -1,12 +1,8 @@
 var a23773 =
 [
-    [ "npc_time_lost_proto_drakeAI", "dd/d24/a23773.html#ab98805519233eda932c6131aca059a8b", null ],
-    [ "JustEngagedWith", "dd/d24/a23773.html#a14f41b30451b8ac8fe2411ec7102ae81", null ],
-    [ "Reset", "dd/d24/a23773.html#a418ea9621040e3c717c4e24f73539f44", null ],
-    [ "RollPath", "dd/d24/a23773.html#aabb3dd1d54a1290d500429efc8fa9e41", null ],
-    [ "UpdateEscortAI", "dd/d24/a23773.html#a1a5442a5796b27d04eaa3ab62c613199", null ],
-    [ "WaypointReached", "dd/d24/a23773.html#ad262b9dbc0edd2bac126fafbb5eb5f01", null ],
-    [ "events", "dd/d24/a23773.html#aa2e4c3396d63d85a5d0abc8c74e58a79", null ],
-    [ "rollPath", "dd/d24/a23773.html#a5431fd5a0801569bc03507818461aa7d", null ],
-    [ "setVisible", "dd/d24/a23773.html#a63558b3406c241ecb27f3e485eeb439b", null ]
+    [ "npc_vics_flying_machineAI", "dd/d24/a23773.html#a4464e0b1433c4ffb24ae7809b1a0eec5", null ],
+    [ "MovementInform", "dd/d24/a23773.html#ac4bbe0a3cccb6878d050b717b9efb320", null ],
+    [ "PassengerBoarded", "dd/d24/a23773.html#aa67dcbb4b43b047398fec2619ad61829", null ],
+    [ "SpellHit", "dd/d24/a23773.html#aa81229a104e1521d570abec4b6f7bca7", null ],
+    [ "pointId", "dd/d24/a23773.html#aa1412c23f0c3b964262e145c51aea974", null ]
 ];

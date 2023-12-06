@@ -1,8 +1,8 @@
 var a27225 =
 [
-    [ "CheckProc", "d5/d16/a27225.html#a2b0ff2594877249d0bdb4656fa67b83f", null ],
-    [ "HandleProc", "d5/d16/a27225.html#ac1aebc16e7944ac3f8305d9ff27bc998", null ],
-    [ "PrepareAuraScript", "d5/d16/a27225.html#a19557020af9ca276f72c1d3e4ba8b27b", null ],
-    [ "Register", "d5/d16/a27225.html#a43f7bb634cb165fab5e2187256f50c3f", null ],
-    [ "Validate", "d5/d16/a27225.html#a7762ce25775b98dba14b4ac465cad711", null ]
+    [ "HandleFinish", "d5/d16/a27225.html#aac1981a16cbb61bfaf20c865bcfaf6a8", null ],
+    [ "PrepareSpellScript", "d5/d16/a27225.html#a73865997890d4f58cc09d54c2c4e5243", null ],
+    [ "Register", "d5/d16/a27225.html#a106cf5d53956b66f8f548caceda41dc8", null ],
+    [ "SelectTarget", "d5/d16/a27225.html#ab33513df20e942ba354932df5082efa8", null ],
+    [ "_target", "d5/d16/a27225.html#af25d11fc93423ee6e1678ebb5dcf1276", null ]
 ];

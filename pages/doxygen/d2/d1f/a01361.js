@@ -1,6 +1,29 @@
 var a01361 =
 [
-    [ "GameEventAIHookWorker", "de/df0/a08349.html", "de/df0/a08349" ],
-    [ "IsEventActive", "d2/d1f/a01361.html#aaddb0f1fada20faf4702603241206f91", null ],
-    [ "IsHolidayActive", "d2/d1f/a01361.html#a429db26781d2673aa2f031fc1327ffaf", null ]
+    [ "HashMapHolder< T >", "df/d45/a08513.html", "df/d45/a08513" ],
+    [ "AddObject", "d2/d1f/a01361.html#a0726eba7e71a7c6d4f6f90b4dfb410f8", null ],
+    [ "AddObject", "d2/d1f/a01361.html#a2f3be0f1bc71493623f991ad879c8be4", null ],
+    [ "FindConnectedPlayer", "d2/d1f/a01361.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0", null ],
+    [ "FindPlayer", "d2/d1f/a01361.html#a9ede56180a13f102ad195136eadb97ee", null ],
+    [ "FindPlayerByLowGUID", "d2/d1f/a01361.html#a106c85352229fc2c097d9e021b4ce297", null ],
+    [ "FindPlayerByName", "d2/d1f/a01361.html#af5cb6806842c9689cf1d5f43ffdc4b0a", null ],
+    [ "GetCorpse", "d2/d1f/a01361.html#a9031db6958a68a6fda60e3c0f37d639f", null ],
+    [ "GetCreature", "d2/d1f/a01361.html#ae42e503fe79bbeaea1aaa665418c43f8", null ],
+    [ "GetCreatureOrPetOrVehicle", "d2/d1f/a01361.html#abe7c8995443541417f52b00973dbde6f", null ],
+    [ "GetDynamicObject", "d2/d1f/a01361.html#a76097a1f20df3f0e83516b1175a17397", null ],
+    [ "GetGameObject", "d2/d1f/a01361.html#a424a63829a446dac6f97a464cc64ed48", null ],
+    [ "GetObjectByTypeMask", "d2/d1f/a01361.html#a0bfd3fb4a5f43a4159bbd0b176186e19", null ],
+    [ "GetPet", "d2/d1f/a01361.html#a76e4ca902836751980d6157a3eed7967", null ],
+    [ "GetPlayer", "d2/d1f/a01361.html#aeb3657e7ad09335b9a9ffa50473aa216", null ],
+    [ "GetPlayer", "d2/d1f/a01361.html#a9179a3b50b384405892a8e8e538617b4", null ],
+    [ "GetPlayers", "d2/d1f/a01361.html#a868ecab21b3e6e3ac68beed32f4ea793", null ],
+    [ "GetSpawnedCreatureByDBGUID", "d2/d1f/a01361.html#a4cebdea9476a004a8a1bd57c40d1f3ae", null ],
+    [ "GetSpawnedGameObjectByDBGUID", "d2/d1f/a01361.html#a6639665d2704cbd06727004567caac15", null ],
+    [ "GetTransport", "d2/d1f/a01361.html#a2ddde0dc109d262af644c232a315afd7", null ],
+    [ "GetUnit", "d2/d1f/a01361.html#a02c2dfb59db7d7e2501dcc9a4f9baf07", null ],
+    [ "GetWorldObject", "d2/d1f/a01361.html#ade254f98439319c444ce701c75d4f93a", null ],
+    [ "RemoveObject", "d2/d1f/a01361.html#a43f4538cfa587672688705f6f7a60edc", null ],
+    [ "RemoveObject", "d2/d1f/a01361.html#ad72db398e2ff25a82a93e89fb67c56ff", null ],
+    [ "SaveAllPlayers", "d2/d1f/a01361.html#a0fba0222d2e46026727c6e898a7f35bc", null ],
+    [ "UpdatePlayerNameMapReference", "d2/d1f/a01361.html#a8a088e6967b9972662d788beffba14d4", null ]
 ];

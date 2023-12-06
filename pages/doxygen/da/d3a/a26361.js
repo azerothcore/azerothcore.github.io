@@ -1,6 +1,10 @@
 var a26361 =
 [
-    [ "FilterTargets", "da/d3a/a26361.html#adab73c94c659d7421c9c6887d956cd83", null ],
-    [ "PrepareSpellScript", "da/d3a/a26361.html#a8cf5e4224f46b6f836d517f90fd135d4", null ],
-    [ "Register", "da/d3a/a26361.html#a3aaf93f3746b36d5bfa4fc475aabe43b", null ]
+    [ "Absorb", "da/d3a/a26361.html#a99db0d1254ddcfa9e7afb241e73b3235", null ],
+    [ "CalculateAmount", "da/d3a/a26361.html#a279a025cac490ee3647f47584b59179f", null ],
+    [ "Load", "da/d3a/a26361.html#a3fededdbfca9d12e6dbd097620e104be", null ],
+    [ "PrepareAuraScript", "da/d3a/a26361.html#a818875a8073491eab2508182bd941e25", null ],
+    [ "Register", "da/d3a/a26361.html#a2419bff95bad81a0f63c4988f14eb3f9", null ],
+    [ "Validate", "da/d3a/a26361.html#a60eb14be1b3108b7b896a27eab35569b", null ],
+    [ "absorbPct", "da/d3a/a26361.html#ac51bad58076a6dfa520fd3e9ea0c76b5", null ]
 ];

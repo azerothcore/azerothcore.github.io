@@ -1,9 +1,6 @@
 var a26641 =
 [
-    [ "Absorb", "dc/d31/a26641.html#a8f6e773840274e07d685c891561f72d8", null ],
-    [ "CalculateAmount", "dc/d31/a26641.html#af337ef5d5cea283f4e43b943961838d6", null ],
-    [ "Load", "dc/d31/a26641.html#a65f51613dd3614f5b0e3e1dc938f56cf", null ],
-    [ "PrepareAuraScript", "dc/d31/a26641.html#a5c2eca05834a29fa6d5d7dd3c75e52ed", null ],
-    [ "Register", "dc/d31/a26641.html#a80982626e1b67374629cb6e0800ccaea", null ],
-    [ "absorbPct", "dc/d31/a26641.html#a7ce98d22bb4a28f94366b4c08f76b61a", null ]
+    [ "CheckProc", "dc/d31/a26641.html#a68d2d8168e405ea4250e2e43a1a350fa", null ],
+    [ "PrepareAuraScript", "dc/d31/a26641.html#a9d797e7bc7133f4a626f4352b2fe7141", null ],
+    [ "Register", "dc/d31/a26641.html#a5b96bb8c2ff456b63bbd200f54294251", null ]
 ];

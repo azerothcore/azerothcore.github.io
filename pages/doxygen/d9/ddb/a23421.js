@@ -1,6 +1,9 @@
 var a23421 =
 [
-    [ "spell_infected_worgen_bite_AuraScript", "d9/de3/a23425.html", "d9/de3/a23425" ],
-    [ "spell_infected_worgen_bite", "d9/ddb/a23421.html#accb43d32465202559874af3b370e5e13", null ],
-    [ "GetAuraScript", "d9/ddb/a23421.html#a54d202aeed1498529afc9e431d842668", null ]
+    [ "npc_wounded_skirmisher", "d9/ddb/a23421.html#a30fe2d901df0cfd9b66f3dbd6a1e6aea", null ],
+    [ "Initialize", "d9/ddb/a23421.html#ae5fab920fcb16b57e0ed53a1177d319b", null ],
+    [ "JustEngagedWith", "d9/ddb/a23421.html#a80357b71a1eccdcdce8c8bea87de1b66", null ],
+    [ "Reset", "d9/ddb/a23421.html#acca266640c099718d2a0fd4f6a3c47ab", null ],
+    [ "SpellHit", "d9/ddb/a23421.html#a891e879af5da1f181c94e528c59a81f1", null ],
+    [ "UpdateAI", "d9/ddb/a23421.html#a52f8e7f8df05504cad4b4438c50814a4", null ]
 ];

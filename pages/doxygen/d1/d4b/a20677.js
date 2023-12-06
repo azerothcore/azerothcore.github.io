@@ -1,9 +1,6 @@
 var a20677 =
 [
-    [ "boss_sjonnir_malformed_oozeAI", "d1/d4b/a20677.html#a0624f769d0ce5a95ea2bb877811b0409", null ],
-    [ "JustEngagedWith", "d1/d4b/a20677.html#a9e6527bc46d7b685d938833d18796cee", null ],
-    [ "MoveInLineOfSight", "d1/d4b/a20677.html#a7449e135f088a2d4b22a423c71118093", null ],
-    [ "MovementInform", "d1/d4b/a20677.html#ac04d90e974f85282737bb5081a123106", null ],
-    [ "UpdateAI", "d1/d4b/a20677.html#afccd77c8e90d129fb3a347205a2102db", null ],
-    [ "events", "d1/d4b/a20677.html#a73c135ec94b41a752fc203c5e20128d0", null ]
+    [ "boss_maiden_of_griefAI", "db/d53/a20681.html", "db/d53/a20681" ],
+    [ "boss_maiden_of_grief", "d1/d4b/a20677.html#a8361e4961ac1da09b803ca9e7fc67f95", null ],
+    [ "GetAI", "d1/d4b/a20677.html#af8d2e6392a0c73add801910945b2558e", null ]
 ];

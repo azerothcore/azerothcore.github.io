@@ -1,6 +1,6 @@
 var a12025 =
 [
-    [ "instance_molten_core_InstanceMapScript", "d9/d21/a12029.html", "d9/d21/a12029" ],
-    [ "instance_molten_core", "d5/d48/a12025.html#ad83dac834feb2fcae872dfe09b833950", null ],
-    [ "GetInstanceScript", "d5/d48/a12025.html#ab7c794f1503f0ecad8d41ace72737a5d", null ]
+    [ "boss_golemaggAI", "d9/d21/a12029.html", "d9/d21/a12029" ],
+    [ "boss_golemagg", "d5/d48/a12025.html#a66720a143f8987dfa5d6e2acb7cd73cd", null ],
+    [ "GetAI", "d5/d48/a12025.html#a6899f30975e0984306feabe47bbc8317", null ]
 ];

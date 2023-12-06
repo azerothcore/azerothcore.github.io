@@ -1,7 +1,12 @@
 var a15733 =
 [
-    [ "npc_ameAI", "d7/dfe/a15737.html", "d7/dfe/a15737" ],
-    [ "npc_ame", "d5/df8/a15733.html#a6b4a20b06bc88393dd08b4eae83c1d50", null ],
-    [ "GetAI", "d5/df8/a15733.html#a09f7688c38d56319791f7543eb32f317", null ],
-    [ "OnQuestAccept", "d5/df8/a15733.html#a69b8ec6558e70e34f7e405b397b09f43", null ]
+    [ "npc_wizzlecrank_shredderAI", "d5/df8/a15733.html#a055c4b426219aa3372a83d2e2021d916", null ],
+    [ "JustSummoned", "d5/df8/a15733.html#a7cad21f0b3286ed75256a49c315069ce", null ],
+    [ "Reset", "d5/df8/a15733.html#a86929e8a2f3433f37e4dda03e3011193", null ],
+    [ "UpdateEscortAI", "d5/df8/a15733.html#acb95eeebd0317f1d95bc48d6b9e7e962", null ],
+    [ "WaypointReached", "d5/df8/a15733.html#a369ae3d62d1289a1c840bdc3184b463d", null ],
+    [ "WaypointStart", "d5/df8/a15733.html#a00857e372e53950338ed71d672edb780", null ],
+    [ "IsPostEvent", "d5/df8/a15733.html#a9207ffdb39627b1262ec209fe41d6d0a", null ],
+    [ "PostEventCount", "d5/df8/a15733.html#aa5284a284c074f32cee85d29aea00f2f", null ],
+    [ "PostEventTimer", "d5/df8/a15733.html#a3c43ede2df7b1ea61b0f1625e2e1461c", null ]
 ];

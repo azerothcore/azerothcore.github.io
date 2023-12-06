@@ -1,6 +1,6 @@
 var a25773 =
 [
-    [ "HandleDummy", "d2/d3e/a25773.html#a4c1177fc89310598b6ba7cddf7f47cd1", null ],
-    [ "PrepareSpellScript", "d2/d3e/a25773.html#af511bcad63ff423bf04a430f56959f40", null ],
-    [ "Register", "d2/d3e/a25773.html#adaa4fc5294e2b0cb5bcb42f1a93a6f29", null ]
+    [ "npc_aeranasAI", "db/d20/a25777.html", "db/d20/a25777" ],
+    [ "npc_aeranas", "d2/d3e/a25773.html#a6ea71481ef6a223a329b805081122537", null ],
+    [ "GetAI", "d2/d3e/a25773.html#a81167df6665bdca81ee13468dec19643", null ]
 ];

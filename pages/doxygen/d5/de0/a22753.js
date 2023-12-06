@@ -1,11 +1,14 @@
 var a22753 =
 [
-    [ "npc_ichor_globuleAI", "d5/de0/a22753.html#a4d581f89c8385276fd407c000af9e569", null ],
-    [ "AttackStart", "d5/de0/a22753.html#aa4e1fc88a26d6ef41f1ca96c93abbc1a", null ],
-    [ "JustDied", "d5/de0/a22753.html#ad29c7659590933b0749e8e1c2c2e4c46", null ],
-    [ "MoveInLineOfSight", "d5/de0/a22753.html#af8ef8296512d57d934a171f1a5060e73", null ],
-    [ "SpellHit", "d5/de0/a22753.html#a1396538a446545408e3c304f3e56400f", null ],
-    [ "UpdateAI", "d5/de0/a22753.html#a6ff13c853583e5178fb3a690e17303de", null ],
-    [ "pInstance", "d5/de0/a22753.html#a94cbe93a69a28171fc3d91d71b6ec419", null ],
-    [ "uiRangeCheck_Timer", "d5/de0/a22753.html#a99914a55d2dc0b36a623dc7d6248e953", null ]
+    [ "boss_cyanigosaAI", "d5/de0/a22753.html#a4b24132889b17b3e682a15009a1ae910", null ],
+    [ "EnterEvadeMode", "d5/de0/a22753.html#a8da6ddc9b1c9f7b145920205046ce095", null ],
+    [ "JustDied", "d5/de0/a22753.html#a805117db567dd3d529a1c862bc24179c", null ],
+    [ "JustEngagedWith", "d5/de0/a22753.html#a4ef85c0178120f14f2a7b29efb7a9abf", null ],
+    [ "KilledUnit", "d5/de0/a22753.html#a5e69b631ab6844160b1e53fd1d731bae", null ],
+    [ "MoveInLineOfSight", "d5/de0/a22753.html#adb699a22dbf1c14cb80f8fdcca9c6f82", null ],
+    [ "Reset", "d5/de0/a22753.html#a7b0fdaa4f2603db8fd2d0c1ee6975817", null ],
+    [ "SpellHitTarget", "d5/de0/a22753.html#ae8218b69e6dc7489e65d891048d84da1", null ],
+    [ "UpdateAI", "d5/de0/a22753.html#ae69afba77636c962045160b610177bd9", null ],
+    [ "events", "d5/de0/a22753.html#ab5fe766d46e9445b9e7cfc605073983f", null ],
+    [ "pInstance", "d5/de0/a22753.html#a075f4a592202dc73d9b5d63ca5178093", null ]
 ];

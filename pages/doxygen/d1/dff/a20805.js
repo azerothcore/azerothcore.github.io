@@ -1,6 +1,6 @@
 var a20805 =
 [
-    [ "spell_algalon_trigger_3_adds_SpellScript", "d8/d99/a20809.html", "d8/d99/a20809" ],
-    [ "spell_algalon_trigger_3_adds", "d1/dff/a20805.html#a00657f3ac1819a1e57819eef825aa9e4", null ],
-    [ "GetSpellScript", "d1/dff/a20805.html#acc724746a7527f45016a3109707d2680", null ]
+    [ "npc_algalon_worm_holeAI", "d8/d99/a20809.html", "d8/d99/a20809" ],
+    [ "npc_algalon_worm_hole", "d1/dff/a20805.html#a72516a4824fa61a331caff46d2784c64", null ],
+    [ "GetAI", "d1/dff/a20805.html#aac6ff3a41f08f5a11baa78c0526a3556", null ]
 ];

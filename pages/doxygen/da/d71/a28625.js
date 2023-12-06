@@ -1,7 +1,7 @@
 var a28625 =
 [
-    [ "HandleApply", "da/d71/a28625.html#a046abc4b8afd26d13bcb7140165aed80", null ],
-    [ "HandleRemove", "da/d71/a28625.html#ad35716d4210572057fe67d426849931a", null ],
-    [ "PrepareAuraScript", "da/d71/a28625.html#a9af96871b8b7ac19de01e316f4350ebf", null ],
-    [ "Register", "da/d71/a28625.html#a37c4c881c563882fb72693babe545fc4", null ]
+    [ "HandleDummy", "da/d71/a28625.html#a0eae8fe2faee05bad7a34e84dddd3317", null ],
+    [ "PrepareSpellScript", "da/d71/a28625.html#a24634405a8d0ccdd22f4832815262446", null ],
+    [ "Register", "da/d71/a28625.html#a3394b9b9e5899550251d553ac9f77f8a", null ],
+    [ "Validate", "da/d71/a28625.html#ae56a900b3484fd6397d38c4ad8efe5c2", null ]
 ];

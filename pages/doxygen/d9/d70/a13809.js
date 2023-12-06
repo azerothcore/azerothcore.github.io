@@ -1,13 +1,6 @@
 var a13809 =
 [
-    [ "npc_harrison_jonesAI", "d9/d70/a13809.html#a088e61f55a0f5005a9c4b7d1f837e361", null ],
-    [ "JustEngagedWith", "d9/d70/a13809.html#a5676d911b35ddc38be61b5bd67ce5a1b", null ],
-    [ "Reset", "d9/d70/a13809.html#a57aa269677fb06a66756151d950e7eeb", null ],
-    [ "sGossipSelect", "d9/d70/a13809.html#a222ead437d88313b7d96c916433a45a9", null ],
-    [ "SpellHit", "d9/d70/a13809.html#a58134cca72886cfee57d2f56df1765fb", null ],
-    [ "UpdateAI", "d9/d70/a13809.html#a982d73b5f7ff7f65003bb87c961fd998", null ],
-    [ "_gongEvent", "d9/d70/a13809.html#a2bc677a9e8b4736a1ef1882c77fe5e16", null ],
-    [ "_gongTimer", "d9/d70/a13809.html#ae905e486190f0f984a425c1dcf7991f7", null ],
-    [ "instance", "d9/d70/a13809.html#aca87aebdeb6db3c38ee2514d5e07432d", null ],
-    [ "uiTargetGUID", "d9/d70/a13809.html#a5696b4215ebfe2671d20ddb1c00db12f", null ]
+    [ "npc_janalai_eggAI", "da/d38/a13813.html", "da/d38/a13813" ],
+    [ "npc_janalai_egg", "d9/d70/a13809.html#a3dc748dbefbbac4230603798f113697a", null ],
+    [ "GetAI", "d9/d70/a13809.html#a2ba1dd9e288342944a34b96604c6bb1e", null ]
 ];

@@ -1,9 +1,8 @@
 var a13281 =
 [
-    [ "npc_professor_phizzlethorpeAI", "d2/df2/a13281.html#a92af4732575008c1a4f061cef0f23902", null ],
-    [ "JustEngagedWith", "d2/df2/a13281.html#a8864031e3c7a32cde57ca6efbf785d53", null ],
-    [ "JustSummoned", "d2/df2/a13281.html#af8e4e706925d8837cacdc0b5a6d1f10d", null ],
-    [ "sQuestAccept", "d2/df2/a13281.html#ad4a4bd9af581abe832933da69b18d76f", null ],
-    [ "UpdateAI", "d2/df2/a13281.html#a1c62cd07da5f0da91ef572bb00619d26", null ],
-    [ "WaypointReached", "d2/df2/a13281.html#a7be58c6ecc4e5ba23ec35cc1864f19e6", null ]
+    [ "FilterTargets", "d2/df2/a13281.html#a0533596c5158b39b9d308699276f144b", null ],
+    [ "HandleScriptEffect", "d2/df2/a13281.html#a2b824179bd49a9e4b180999374bfb196", null ],
+    [ "Load", "d2/df2/a13281.html#a435f0a794f5f608711dae9629a6e4d52", null ],
+    [ "PrepareSpellScript", "d2/df2/a13281.html#a9502fdbdadb6bab033510d5878877811", null ],
+    [ "Register", "d2/df2/a13281.html#a27d540dc3844abb8b371a104044c9394", null ]
 ];

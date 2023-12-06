@@ -1,6 +1,6 @@
 var a23837 =
 [
-    [ "spell_close_rift_AuraScript", "d1/d84/a23841.html", "d1/d84/a23841" ],
-    [ "spell_close_rift", "d9/de5/a23837.html#a73a71f454030555a5f8dcdf15575cf41", null ],
-    [ "GetAuraScript", "d9/de5/a23837.html#ac1fefea4622b4a586f147d87c652d8be", null ]
+    [ "npc_roxi_ramrocket", "d9/de5/a23837.html#af7f6bf6d5f8fc468abe62605f205571b", null ],
+    [ "OnGossipHello", "d9/de5/a23837.html#adec28f778921246c56f11d09753e566e", null ],
+    [ "OnGossipSelect", "d9/de5/a23837.html#a46a9898cb4b29808f9e911c03b5759cb", null ]
 ];

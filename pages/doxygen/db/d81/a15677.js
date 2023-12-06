@@ -1,20 +1,13 @@
 var a15677 =
 [
-    [ "npc_twiggy_flatheadAI", "db/d81/a15677.html#a03aee9619eafa0f497390c520cbfaf24", null ],
-    [ "CleanUp", "db/d81/a15677.html#adfe48ed23633691608b289c4751c788a", null ],
-    [ "EnterEvadeMode", "db/d81/a15677.html#a9fd1519e6196ba4db30740b16904964b", null ],
-    [ "JustEngagedWith", "db/d81/a15677.html#aa601e079ed93d4d21f2ea2decf6cdab3", null ],
-    [ "MoveInLineOfSight", "db/d81/a15677.html#a95188ce1d3abba7dfeef5a9cbd6d3306", null ],
-    [ "Reset", "db/d81/a15677.html#ab98c38a9d8c3cb3e1ac67f321cfe90fb", null ],
-    [ "UpdateAI", "db/d81/a15677.html#a0a9cefdaf419143eed6e6aa89489e8dd", null ],
-    [ "AffrayChallenger", "db/d81/a15677.html#a42354987ab877f7c113ac44b50d4a660", null ],
-    [ "BigWill", "db/d81/a15677.html#a4a017e9153c04e34b2c9c3ae30583856", null ],
-    [ "ChallengerChecker", "db/d81/a15677.html#a9908c43715426b75c06c1e2032f4fcca", null ],
-    [ "ChallengerDown", "db/d81/a15677.html#a8777dbc5bd40e29a46d1195414a3f754", null ],
-    [ "EventBigWill", "db/d81/a15677.html#a32d931e4aabbabedd05ae243038cca8e", null ],
-    [ "EventGrate", "db/d81/a15677.html#a8bc3907272941dbf2218cc0dbafb205f", null ],
-    [ "EventInProgress", "db/d81/a15677.html#a4dd84ae18a7f79238f110659db03b984", null ],
-    [ "PlayerGUID", "db/d81/a15677.html#aa510117962fc5294113f2f88a1f2a652", null ],
-    [ "Wave", "db/d81/a15677.html#a5a38a9a8da1b9cd03e800fcd90e38d1a", null ],
-    [ "WaveTimer", "db/d81/a15677.html#a8a0d2b9db7f49cdb367dcf6f68bc1633", null ]
+    [ "npc_aquementasAI", "db/d81/a15677.html#aad63986cdb8a65c528af3ccd114d2041", null ],
+    [ "JustEngagedWith", "db/d81/a15677.html#a2c12ee9c0bb94a1fcfa23c4279aea72f", null ],
+    [ "Reset", "db/d81/a15677.html#af71a196ba667c2a8f05940ec7ec43b5e", null ],
+    [ "SendItem", "db/d81/a15677.html#a60bafbd70783411236dcf3d0bfe244de", null ],
+    [ "UpdateAI", "db/d81/a15677.html#adc5936d7648e05c98a2cdc9998aa4c6a", null ],
+    [ "AquaJetTimer", "db/d81/a15677.html#a8506acc69436af869d1404bd95109e68", null ],
+    [ "FrostShockTimer", "db/d81/a15677.html#ad52c62a0fd8de98b194596dbc998c03d", null ],
+    [ "isFriendly", "db/d81/a15677.html#a9ac02cfc998bda26a5c531a9f7dbf7c4", null ],
+    [ "SendItemTimer", "db/d81/a15677.html#a3a0883b43056b176ef2ae55673adacf3", null ],
+    [ "SwitchFactionTimer", "db/d81/a15677.html#a46f64b9883ae30c3f8d677a3b85a8c6f", null ]
 ];

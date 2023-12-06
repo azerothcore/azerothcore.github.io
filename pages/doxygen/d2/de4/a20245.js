@@ -1,6 +1,6 @@
 var a20245 =
 [
-    [ "npc_eoe_wyrmrest_skytalonAI", "d2/de4/a20245.html#a0878695bc4179e3b6e92dde9f2b5cf19", null ],
-    [ "JustDied", "d2/de4/a20245.html#aaa88ff236fd49a9c672ab29feb7377b8", null ],
-    [ "PassengerBoarded", "d2/de4/a20245.html#aa3352276e87d805cc8722eb97d10ca46", null ]
+    [ "npc_nexus_lordAI", "d0/de7/a20249.html", "d0/de7/a20249" ],
+    [ "npc_nexus_lord", "d2/de4/a20245.html#a6e58f0074451dfd04b95b3ecaa0201e3", null ],
+    [ "GetAI", "d2/de4/a20245.html#a1cea0b189b2ef8e932b51caf3d70d6ba", null ]
 ];

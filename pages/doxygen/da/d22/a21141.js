@@ -1,6 +1,6 @@
 var a21141 =
 [
-    [ "CheckAreaTarget", "da/d22/a21141.html#a2ea4771a1079520e32c624781b017487", null ],
-    [ "PrepareAuraScript", "da/d22/a21141.html#a7ed17e813528a3fb34f1547773e8fc5d", null ],
-    [ "Register", "da/d22/a21141.html#a2512c96e6d8f77cc2e7526641cf6e9c2", null ]
+    [ "spell_vehicle_throw_passenger_SpellScript", "dd/d3e/a21145.html", "dd/d3e/a21145" ],
+    [ "spell_vehicle_throw_passenger", "da/d22/a21141.html#a948e1bbd85b347aaa6103e6e6281d2e8", null ],
+    [ "GetSpellScript", "da/d22/a21141.html#af562e7cc45f74f3734f6dc738992fa88", null ]
 ];

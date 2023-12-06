@@ -1,6 +1,6 @@
 var a18473 =
 [
-    [ "spell_putricide_unbound_plague_SpellScript", "d9/d78/a18477.html", "d9/d78/a18477" ],
-    [ "spell_putricide_unbound_plague", "d9/d48/a18473.html#a94bf7b01c43ba052a89b1f52c3f1074d", null ],
-    [ "GetSpellScript", "d9/d48/a18473.html#a7d71dc1af638373af6297e6b7b7ea9c0", null ]
+    [ "FilterTargets", "d9/d48/a18473.html#a07eaa43c909f9d4afca2c90987b6be57", null ],
+    [ "PrepareSpellScript", "d9/d48/a18473.html#a60ab39b8f4bfe0903faf1a8fd1210b22", null ],
+    [ "Register", "d9/d48/a18473.html#ac55d048657610abb413698d73f42f423", null ]
 ];

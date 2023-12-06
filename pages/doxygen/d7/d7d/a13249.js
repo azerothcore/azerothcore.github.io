@@ -1,14 +1,13 @@
 var a13249 =
 [
-    [ "instance_uldaman_InstanceMapScript", "d7/d7d/a13249.html#ab2607f229d1e34852c82139ddb597712", null ],
-    [ "GetData", "d7/d7d/a13249.html#adef5f6d2dcaa50dbb615c4c134e7ecfb", null ],
-    [ "Initialize", "d7/d7d/a13249.html#a2424bcb1aec0ffc6235a8e8b384f0ed1", null ],
-    [ "OnCreatureCreate", "d7/d7d/a13249.html#a49b5562743910dc1b6b55efa8c44b6a0", null ],
-    [ "OnGameObjectCreate", "d7/d7d/a13249.html#aacb9db5f66f1f9be0d993aacc3cf4348", null ],
-    [ "ReadSaveDataMore", "d7/d7d/a13249.html#a8e0e03189463039dd31d883ad9c40e51", null ],
-    [ "SetData", "d7/d7d/a13249.html#ab24fc2db74ef83f2b3be9603d4728385", null ],
-    [ "WriteSaveDataMore", "d7/d7d/a13249.html#a3345c117f5e2ceca773843c3f51cb76f", null ],
-    [ "_encounters", "d7/d7d/a13249.html#a6840bd04d25fd1f365e0c28c725cde97", null ],
-    [ "ancientVaultDoorGUID", "d7/d7d/a13249.html#adf83ba0b0a1650462dbc3bc56182bed9", null ],
-    [ "archaedasTempleDoorGUID", "d7/d7d/a13249.html#a6bad33c43ceaa23990544e4a8feefb34", null ]
+    [ "boss_entropiusAI", "d7/d7d/a13249.html#a48cc322f304ce55878e4a07b716e661f", null ],
+    [ "EnterEvadeMode", "d7/d7d/a13249.html#a7b02f06edba8ab8f77f3badea7d6fbb0", null ],
+    [ "GetData", "d7/d7d/a13249.html#aa6f4f0405b67142acdb835a81b6b9aaa", null ],
+    [ "JustDied", "d7/d7d/a13249.html#a48ee11cbdca3270e2ca59e0b98c17394", null ],
+    [ "JustEngagedWith", "d7/d7d/a13249.html#a5be9a6203ebb7b29c33950313f7f06a9", null ],
+    [ "Reset", "d7/d7d/a13249.html#a2e848102680ffe3672ba1058b217b664", null ],
+    [ "SetData", "d7/d7d/a13249.html#a69b0bfacf1f5bc2a347401db84cfe618", null ],
+    [ "UpdateAI", "d7/d7d/a13249.html#a4a16eee2ae3ded90f7040af8bfd50ad3", null ],
+    [ "events", "d7/d7d/a13249.html#a5aac63df7001a964ad8190370e4bf988", null ],
+    [ "events2", "d7/d7d/a13249.html#a36c26fc1276c5b19d38ac190381636f9", null ]
 ];

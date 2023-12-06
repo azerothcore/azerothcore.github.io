@@ -1,7 +1,10 @@
 var a27001 =
 [
-    [ "HandleDummy", "db/d7d/a27001.html#a582208e608c9fdca7464b817c76c13b3", null ],
-    [ "PrepareSpellScript", "db/d7d/a27001.html#ac7abb7e01362a3333c0d73cd19dcee30", null ],
-    [ "Register", "db/d7d/a27001.html#a3882606b9e9201163cf76cb20b8e6364", null ],
-    [ "Validate", "db/d7d/a27001.html#a12a1cb4b6131d5959f6f541da5e8fc00", null ]
+    [ "spell_gen_summon_elemental", "db/d7d/a27001.html#ae2dece3ac20afe16430e741fab909fa1", null ],
+    [ "AfterApply", "db/d7d/a27001.html#a97fbc7e3f60b6aae5d9783bbd9a2415d", null ],
+    [ "AfterRemove", "db/d7d/a27001.html#aeec3688e66a7e9f0207b219e9dcdb265", null ],
+    [ "PrepareAuraScript", "db/d7d/a27001.html#a3ad6e5615bb080abae4e18673cd40b6d", null ],
+    [ "Register", "db/d7d/a27001.html#ac364e1a3c4b5a1cfd35d8dcec0a42345", null ],
+    [ "Validate", "db/d7d/a27001.html#ac2284d4f192fe402ebcf6ad75e777c2a", null ],
+    [ "_spellId", "db/d7d/a27001.html#a6ac27b65f909a8c832cf3d301c8db0ce", null ]
 ];

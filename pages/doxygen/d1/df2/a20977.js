@@ -1,6 +1,12 @@
 var a20977 =
 [
-    [ "boss_flame_leviathan_defense_turretAI", "dd/d0b/a20981.html", "dd/d0b/a20981" ],
-    [ "boss_flame_leviathan_defense_turret", "d1/df2/a20977.html#a939c66ff6c1eb6dfdb3d93b3d0292e40", null ],
-    [ "GetAI", "d1/df2/a20977.html#a1c3726e2b753cda18bd11d8f4ff154db", null ]
+    [ "npc_auriaya_feral_defenderAI", "d1/df2/a20977.html#a32e6fa30e4c56fdd055a728ba7227beb", null ],
+    [ "DoAction", "d1/df2/a20977.html#a2b0a176dba865e90bdc22727b2860509", null ],
+    [ "JustDied", "d1/df2/a20977.html#a7e9c49d8dc47663e70c8fcbed68746e5", null ],
+    [ "Reset", "d1/df2/a20977.html#ae127a88f18f3348a0bc388d79dcd13d4", null ],
+    [ "UpdateAI", "d1/df2/a20977.html#a1edc249808e1ebdb88605c56e19c272a", null ],
+    [ "_feralEssenceStack", "d1/df2/a20977.html#aab51096b8f57528a0a27e23a306d6762", null ],
+    [ "_feralPounceTimer", "d1/df2/a20977.html#ab91df5ebee9c12d067ff83ee64effece", null ],
+    [ "_feralRushTimer", "d1/df2/a20977.html#aa45e0baf1ad43cc4b2c223d1b9d1c3c6", null ],
+    [ "summons", "d1/df2/a20977.html#a599679f93e4fc4b3b9aa00ea33dcb047", null ]
 ];

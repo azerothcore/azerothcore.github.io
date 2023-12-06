@@ -1,19 +1,9 @@
 var a11785 =
 [
-    [ "boss_razorgoreAI", "de/dc8/a11785.html#a9690f4d8b01077270003d8a3605620bf", null ],
-    [ "CanAIAttack", "de/dc8/a11785.html#ac4635cad5e60da5755e1504608320e71", null ],
-    [ "DamageTaken", "de/dc8/a11785.html#a41a08d44cf7282fc1fd4e950013ac475", null ],
-    [ "DoAction", "de/dc8/a11785.html#a81eab09e24264d4b0f75c638522f0d53", null ],
-    [ "DoChangePhase", "de/dc8/a11785.html#a35fddf983ba4dfc16fd231e2cca43f60", null ],
-    [ "JustDied", "de/dc8/a11785.html#a4dd28e487d5eadfdb4dd008b9afff93f", null ],
-    [ "JustEngagedWith", "de/dc8/a11785.html#ab3448dfddf82046acfe8d1b9a9b3d216", null ],
-    [ "JustSummoned", "de/dc8/a11785.html#abd240288ed85bb26c07be2892cd990bb", null ],
-    [ "OnCharmed", "de/dc8/a11785.html#af39972324073464ed9ec625afbebc51f", null ],
-    [ "Reset", "de/dc8/a11785.html#a94013866e5275d7956c09e82459c29df", null ],
-    [ "SetGUID", "de/dc8/a11785.html#a9a452940701988febe58083682c59f99", null ],
-    [ "SummonMovementInform", "de/dc8/a11785.html#ab0b8fe3e7478638cd0ac9d87181934d6", null ],
-    [ "UpdateAI", "de/dc8/a11785.html#ac813528b31e7c39d2f8b74dfe6d2c556", null ],
-    [ "_charmerGUID", "de/dc8/a11785.html#a095840a314841b1cff58d606d7580da9", null ],
-    [ "_summonGUIDS", "de/dc8/a11785.html#aff8ed7cbb1e374ebde41a06a6b8a7544", null ],
-    [ "secondPhase", "de/dc8/a11785.html#a9b9febdef4433db98fc87890a2abc6c6", null ]
+    [ "npc_vaelastrasz_the_redAI", "de/dc8/a11785.html#aa800617f887a21d8a61cac099c86faed", null ],
+    [ "IsSummonedBy", "de/dc8/a11785.html#ab0eb414e7c9385e4831c4fbc6ba1de49", null ],
+    [ "UpdateAI", "de/dc8/a11785.html#a4dd74c81dc67291ed04861cf542b0d24", null ],
+    [ "_combatEnabled", "de/dc8/a11785.html#ae82e9f70dbfd6a4a75206d358de4504e", null ],
+    [ "_events2", "de/dc8/a11785.html#aa31a968cb89f2c4bb4fde836fd600ab9", null ],
+    [ "_victorGUID", "de/dc8/a11785.html#a8a4af969b8d340d5492f89499e3e90c2", null ]
 ];

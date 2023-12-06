@@ -1,6 +1,6 @@
 var a24369 =
 [
-    [ "HandleDummy", "df/d68/a24369.html#af6cdeea49cdea7d85f153cc83eae4172", null ],
-    [ "PrepareSpellScript", "df/d68/a24369.html#a1d7f564330e4594fe1fd9409c78e07a0", null ],
-    [ "Register", "df/d68/a24369.html#a4d04edc24c21a9641ef5bd6f62e54193", null ]
+    [ "HandleDummy", "df/d68/a24369.html#a710005e8656e428794f120e9dcefc0d1", null ],
+    [ "PrepareSpellScript", "df/d68/a24369.html#a0cd5c6121360ff60c489c1cc59619a1c", null ],
+    [ "Register", "df/d68/a24369.html#ad2465b228ebef77f82e8b1de81863b68", null ]
 ];

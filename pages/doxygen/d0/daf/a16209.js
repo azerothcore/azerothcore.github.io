@@ -1,8 +1,6 @@
 var a16209 =
 [
-    [ "spell_halion_marks_AuraScript", "dd/d9b/a16213.html", "dd/d9b/a16213" ],
-    [ "spell_halion_marks", "d0/daf/a16209.html#a5363431a277aae3b14aae18ac929f82d", null ],
-    [ "GetAuraScript", "d0/daf/a16209.html#a01b5344b5818228c371a989eda6520b0", null ],
-    [ "_removeSpell", "d0/daf/a16209.html#a34d0e1830abac27b00de642c98589427", null ],
-    [ "_summonSpell", "d0/daf/a16209.html#a42d9b83be5892a5a21a57eebbe77ebca", null ]
+    [ "HandleDummy", "d0/daf/a16209.html#ae69d4a305fd1d86429f50f6198140c55", null ],
+    [ "PrepareSpellScript", "d0/daf/a16209.html#a8be84ff7910084fc47e7ef19003ae2fa", null ],
+    [ "Register", "d0/daf/a16209.html#a89a67efa4114a0d5c83c3cca4e5a6c8c", null ]
 ];

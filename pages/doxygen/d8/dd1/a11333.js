@@ -1,6 +1,8 @@
 var a11333 =
 [
-    [ "npc_lokhtos_darkbargainer", "d8/dd1/a11333.html#af91685ecf0f63313968b3d82373668d2", null ],
-    [ "OnGossipHello", "d8/dd1/a11333.html#a39547487ef7db8a3942556665099893f", null ],
-    [ "OnGossipSelect", "d8/dd1/a11333.html#a5a4640678a5669c75b1fa5d787999c02", null ]
+    [ "pet_commandscript", "d8/dd1/a11333.html#a84595dcb908398e80deee0b0aa47e335", null ],
+    [ "GetCommands", "d8/dd1/a11333.html#a01026a4936774d2225d10e0f6e27b08c", null ],
+    [ "HandlePetCreateCommand", "d8/dd1/a11333.html#a993d06169aa0b0c4bbda38e124b6eea9", null ],
+    [ "HandlePetLearnCommand", "d8/dd1/a11333.html#a59a2a6bd9af23fe3a775319216337bda", null ],
+    [ "HandlePetUnlearnCommand", "d8/dd1/a11333.html#ae6d785cdde773b107ba5e619b039f7b8", null ]
 ];

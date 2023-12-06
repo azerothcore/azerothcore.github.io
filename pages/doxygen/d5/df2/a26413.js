@@ -1,6 +1,8 @@
 var a26413 =
 [
-    [ "PrepareSpellScript", "d5/df2/a26413.html#a6c49fad4dc5d080b9a5550f8f30cae4d", null ],
-    [ "RecalculateDamage", "d5/df2/a26413.html#ab6a781160532d7cbb3bb3304eb412514", null ],
-    [ "Register", "d5/df2/a26413.html#a82395d00066e90abc58103b18a5ef4dc", null ]
+    [ "HandleEffectApply", "d5/df2/a26413.html#a88e98bcb11fb16696f789878f79c665c", null ],
+    [ "HandleEffectRemove", "d5/df2/a26413.html#ab2d5f1dccd9bdf9f087ee3203b0d18c2", null ],
+    [ "PrepareAuraScript", "d5/df2/a26413.html#a64f9e0f3d0376342767b912e32642c6c", null ],
+    [ "Register", "d5/df2/a26413.html#a72d6639589588282ea15cfe83c9e9b76", null ],
+    [ "Validate", "d5/df2/a26413.html#ac936c92c3a24fba95505243cd3e79c21", null ]
 ];

@@ -1,6 +1,6 @@
 var a19381 =
 [
-    [ "PeriodicTick", "d1/d36/a19381.html#aa664b55d83a9ba57e6a59a3493ca9c02", null ],
-    [ "PrepareAuraScript", "d1/d36/a19381.html#a46bbd2f80ef2648c5a9870f700af8553", null ],
-    [ "Register", "d1/d36/a19381.html#ab13ebd46f485b15f007836f7eedd8d78", null ]
+    [ "npc_gluttonous_abominationAI", "d5/d0b/a19385.html", "d5/d0b/a19385" ],
+    [ "npc_gluttonous_abomination", "d1/d36/a19381.html#a895d1afcfc62bcaac6cc0d20465f1e7a", null ],
+    [ "GetAI", "d1/d36/a19381.html#aedbd808da5e8ea0e2111e78be9d846ce", null ]
 ];

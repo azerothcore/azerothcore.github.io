@@ -1,7 +1,6 @@
 var a19573 =
 [
-    [ "CountTargets", "de/db1/a19573.html#aaf1312cc6981c3c3b472a57552f4f5f1", null ],
-    [ "HandleScript", "de/db1/a19573.html#a90728aa9269ce808ffb26d13ac770f12", null ],
-    [ "PrepareSpellScript", "de/db1/a19573.html#abbdc05c6984bc698c5c9a195c4d35f49", null ],
-    [ "Register", "de/db1/a19573.html#a1c9762e115a598642625326dbdd424c8", null ]
+    [ "npc_arthas_teleport_visualAI", "dc/d30/a19577.html", "dc/d30/a19577" ],
+    [ "npc_arthas_teleport_visual", "de/db1/a19573.html#a62d2caed6b12355f6d7aeceabba2ddaf", null ],
+    [ "GetAI", "de/db1/a19573.html#a393d5ef960b9ee0cf8feeeeb5d81045d", null ]
 ];

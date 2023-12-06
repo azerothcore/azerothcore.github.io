@@ -1,11 +1,9 @@
 var a29761 =
 [
-    [ "icon", "d2/df6/a29761.html#ad34c7f65fc077b39b6b71a1ff1a89cf5", null ],
-    [ "id", "d2/df6/a29761.html#af9f4cd8b29daededd3d2b2f0cc53d213", null ],
-    [ "mapId", "d2/df6/a29761.html#a4a8ba812b143b55e06d8dbd88e9e6fe3", null ],
-    [ "worldState", "d2/df6/a29761.html#a9d745d26316726c861cc5a242f6a4f57", null ],
-    [ "x", "d2/df6/a29761.html#a27fd46a0c6b00a297c345a14dfd781e5", null ],
-    [ "y", "d2/df6/a29761.html#afcb7cc22d0ed260793b31f8893d13a0f", null ],
-    [ "z", "d2/df6/a29761.html#a79ca5d6a2c4332dcc6d0a51ef40d0189", null ],
-    [ "zoneId", "d2/df6/a29761.html#a0cc33089981237694ca550cba6793a3e", null ]
+    [ "CinematicSequence", "d2/df6/a29761.html#a7a0a35bbb69320565d991f4a349dc01b", null ],
+    [ "ClassID", "d2/df6/a29761.html#a9da8d8d20126e9dc161b1dd64a19fe59", null ],
+    [ "expansion", "d2/df6/a29761.html#a7c57eabd8d94849cd8536b013a8d4138", null ],
+    [ "name", "d2/df6/a29761.html#a2d0b7155b03af29bd982f31eba26ec24", null ],
+    [ "powerType", "d2/df6/a29761.html#a74aec35dc161a7e830453b9365a6f107", null ],
+    [ "spellfamily", "d2/df6/a29761.html#a43fbe48c99e297ea09e9e1f2edd6a4ea", null ]
 ];

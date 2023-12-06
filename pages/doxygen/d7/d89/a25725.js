@@ -1,6 +1,6 @@
 var a25725 =
 [
-    [ "HandleScriptEffect", "d7/d89/a25725.html#a58f27defe5d08761bee69ce504919b74", null ],
-    [ "PrepareSpellScript", "d7/d89/a25725.html#a81c1603ad82a01ee1749fdc8a2c91f6d", null ],
-    [ "Register", "d7/d89/a25725.html#a8289c4b89c38372f26ec379eaba0c045", null ]
+    [ "npc_daranelleAI", "da/d65/a25729.html", "da/d65/a25729" ],
+    [ "npc_daranelle", "d7/d89/a25725.html#a0a6e26b95d6d97821bc9e0c00b205704", null ],
+    [ "GetAI", "d7/d89/a25725.html#ad2ba5e4dfded886acaf2f9821e15738d", null ]
 ];

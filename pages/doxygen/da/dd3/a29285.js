@@ -1,8 +1,10 @@
 var a29285 =
 [
-    [ "npc_riggle_bassbaitAI", "dd/dfd/a29289.html", "dd/dfd/a29289" ],
-    [ "npc_riggle_bassbait", "da/dd3/a29285.html#afc4280099cda3c28c4634d649e636839", null ],
-    [ "GetAI", "da/dd3/a29285.html#ad5e3230dae9ac23aa83883e53b37234e", null ],
-    [ "OnGossipHello", "da/dd3/a29285.html#aeea1e5d4d59c72ce97e1f0eb8da5b6fe", null ],
-    [ "OnQuestReward", "da/dd3/a29285.html#aa3ef2b3ebd7542a4836983872c397e66", null ]
+    [ "npc_air_force_botsAI", "da/dd3/a29285.html#a062eb272826d52ffd9b72054f970b761", null ],
+    [ "GetSummonedGuard", "da/dd3/a29285.html#ac4f39049ba15caf314939f12b82ccd05", null ],
+    [ "MoveInLineOfSight", "da/dd3/a29285.html#a474231c0ce93b4db0789bcc8f6767c19", null ],
+    [ "Reset", "da/dd3/a29285.html#a016911d354f3b00e2db3e4f3722cda7f", null ],
+    [ "SummonGuard", "da/dd3/a29285.html#a8da57471dfa875f55f52c3d2b068a0f3", null ],
+    [ "SpawnAssoc", "da/dd3/a29285.html#a6f2f7ffd24dd32780c441fd6ce29dfbf", null ],
+    [ "SpawnedGUID", "da/dd3/a29285.html#a3c8ae595a3b4a436c2f94aa84cb9ee56", null ]
 ];

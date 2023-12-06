@@ -1,6 +1,5 @@
 var a14005 =
 [
-    [ "boss_thekalAI", "d1/d23/a14009.html", "d1/d23/a14009" ],
-    [ "boss_thekal", "d6/d25/a14005.html#ade26017db4a5309a5e2821e51cef1a69", null ],
-    [ "GetAI", "d6/d25/a14005.html#ae9b2e5f2bc57385ae27bea091f566ad5", null ]
+    [ "npc_brain_wash_totem", "d6/d25/a14005.html#acdecde614ba82d60ee4a10ace8545fdf", null ],
+    [ "EnterEvadeMode", "d6/d25/a14005.html#abd32e3210cc384c0c365826ca1fbae1e", null ]
 ];

@@ -1,6 +1,7 @@
 var a10817 =
 [
-    [ "EffectAbsorbHandler", "dc/d5e/a10817.html#a29bb773b8271acf651b08f33ce358720", null ],
-    [ "Call", "dc/d5e/a10817.html#a56bfb0fd0d860678920445d1182c09ef", null ],
-    [ "pEffectHandlerScript", "dc/d5e/a10817.html#a519489b8d951173a806e86cfe075faf1", null ]
+    [ "ap_bonus", "dc/d5e/a10817.html#a98410b8bb89434cd7e1747462f8039dc", null ],
+    [ "ap_dot_bonus", "dc/d5e/a10817.html#a09caeec47b138d9eff3539795416a09a", null ],
+    [ "direct_damage", "dc/d5e/a10817.html#abab1af227a6c8e592b8a9bd15589535d", null ],
+    [ "dot_damage", "dc/d5e/a10817.html#a92491d8d1e61612d88c7c830d7912be5", null ]
 ];

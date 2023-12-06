@@ -1,6 +1,6 @@
 var a29757 =
 [
-    [ "AreaGroupId", "d2/d0e/a29757.html#a2868a59574e635d5f5859cfa01811151", null ],
-    [ "AreaId", "d2/d0e/a29757.html#aabde46a6c77db2c7fb92ca211c86727a", null ],
-    [ "nextGroup", "d2/d0e/a29757.html#a1f966f2d6848e8aba2ae3c6bd8120503", null ]
+    [ "ChannelID", "d2/d0e/a29757.html#a51753c36711e100fd8dca1cd5b1e7e94", null ],
+    [ "flags", "d2/d0e/a29757.html#aa77db644555e336ccbb8dd138c192425", null ],
+    [ "pattern", "d2/d0e/a29757.html#ad8b550cf444d66eede00abcf2cefec22", null ]
 ];

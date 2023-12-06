@@ -1,8 +1,8 @@
 var a08853 =
 [
-    [ "NearestHostileUnitInAttackDistanceCheck", "d2/db4/a08853.html#a0b1d14f1347a3749a91ef6e888ccb23e", null ],
-    [ "NearestHostileUnitInAttackDistanceCheck", "d2/db4/a08853.html#a5645c9808db082b0301ec8b2ea93ce7f", null ],
-    [ "operator()", "d2/db4/a08853.html#adc28281742cd1f6a49152481b48f944e", null ],
-    [ "m_range", "d2/db4/a08853.html#ab79296a88ed07257edbe3449c2515b40", null ],
-    [ "me", "d2/db4/a08853.html#a298d2489b9bf30aa510407afca79a374", null ]
+    [ "CreatureListSearcher", "d2/db4/a08853.html#a7b16bf9b7a847a08fa6582b81b607e20", null ],
+    [ "Visit", "d2/db4/a08853.html#a48c084b8fbcbf7db7c051d1aa2aff523", null ],
+    [ "Visit", "d2/db4/a08853.html#a91fcbdcfb08964ebaacec8acae13476b", null ],
+    [ "i_check", "d2/db4/a08853.html#a985d622243d5c7c6c91eb01377b0f91b", null ],
+    [ "i_phaseMask", "d2/db4/a08853.html#a10e4e1fb5749d2b1065dd6a1245783d0", null ]
 ];

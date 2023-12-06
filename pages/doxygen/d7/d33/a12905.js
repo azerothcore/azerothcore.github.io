@@ -1,6 +1,6 @@
 var a12905 =
 [
-    [ "spell_eredar_twins_handle_touch_SpellScript", "d1/dec/a12909.html", "d1/dec/a12909" ],
-    [ "spell_eredar_twins_handle_touch", "d7/d33/a12905.html#aa3456286afd4cbc2321581368baa3ba1", null ],
-    [ "GetSpellScript", "d7/d33/a12905.html#a6aaa98b245ab7a407aac1b3f3cbc7128", null ]
+    [ "HandleSendEvent", "d7/d33/a12905.html#a0bc3c3995f8b66bf2f7ff39713b58cf1", null ],
+    [ "PrepareSpellScript", "d7/d33/a12905.html#a8535dcbf13fe48e8116258b8a572b692", null ],
+    [ "Register", "d7/d33/a12905.html#a8a5eef284845d7a4d76994c7a78b8d7d", null ]
 ];

@@ -1,9 +1,6 @@
 var a25901 =
 [
-    [ "npc_wounded_blood_elfAI", "d8/d0c/a25901.html#a2dfcd5fa17b56c44f4056ecf4861af6e", null ],
-    [ "JustEngagedWith", "d8/d0c/a25901.html#aba950ba77ff71508263cc54b28c7725b", null ],
-    [ "JustSummoned", "d8/d0c/a25901.html#aa97f5294981c44b530efca1411458a97", null ],
-    [ "Reset", "d8/d0c/a25901.html#a8e6be35a3079998f3bab829f5d963c71", null ],
-    [ "sQuestAccept", "d8/d0c/a25901.html#a56c157928c24daae6edacd5a126ef171", null ],
-    [ "WaypointReached", "d8/d0c/a25901.html#a5affcb00e28a582f8926ab2226001cd0", null ]
+    [ "HandleScriptEffect", "d8/d0c/a25901.html#a826a1179ae1c6a4167642d7cf7f5f820", null ],
+    [ "PrepareSpellScript", "d8/d0c/a25901.html#a5aa11ad35603e8248de4f6c336ed41cb", null ],
+    [ "Register", "d8/d0c/a25901.html#a698c28a17f6e6add601a0c7f4c076d8b", null ]
 ];

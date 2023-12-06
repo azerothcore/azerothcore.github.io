@@ -1,7 +1,6 @@
 var a12077 =
 [
-    [ "npc_kernobeeAI", "d8/d2e/a12081.html", "d8/d2e/a12081" ],
-    [ "npc_kernobee", "d4/d58/a12077.html#a325aa3f9962cb99b4af362a23c1b16d8", null ],
-    [ "GetAI", "d4/d58/a12077.html#a13da5b7e79ada7c5a88e84ca551ce8eb", null ],
-    [ "OnQuestAccept", "d4/d58/a12077.html#aa830285cf19211b8233620257735ab62", null ]
+    [ "spell_hate_to_zero_SpellScript", "d8/d2e/a12081.html", "d8/d2e/a12081" ],
+    [ "spell_hate_to_zero", "d4/d58/a12077.html#a2c92ea42e5fc016da890aa65ca6423c5", null ],
+    [ "GetSpellScript", "d4/d58/a12077.html#aed53cec30e195201c930e27949e668e0", null ]
 ];

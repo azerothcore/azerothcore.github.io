@@ -1,6 +1,6 @@
 var a24349 =
 [
-    [ "spell_illidan_demon_transform2_AuraScript", "d6/d38/a24353.html", "d6/d38/a24353" ],
-    [ "spell_illidan_demon_transform2", "d1/d84/a24349.html#a3f698dcf96c2ef95719ceefeb4f54184", null ],
-    [ "GetAuraScript", "d1/d84/a24349.html#ad5070a66d2f50dda585738b8712b11e3", null ]
+    [ "PrepareAuraScript", "d1/d84/a24349.html#a6662e22741cb60999b3f4700e58f6815", null ],
+    [ "Register", "d1/d84/a24349.html#a600d27e4abee9ccd8951c367f895a891", null ],
+    [ "AuraEffectHandleModes", "d1/d84/a24349.html#a7c8cc9879c68b2c464f34873f5bab6cf", null ]
 ];

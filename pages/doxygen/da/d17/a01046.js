@@ -1,17 +1,16 @@
 var a01046 =
 [
-    [ "Acore::Impl::ChatCommands::tag_base< T, typename >", "d6/dfb/a07205.html", "d6/dfb/a07205" ],
-    [ "Acore::Impl::ChatCommands::TokenizeResult", "dc/d78/a07209.html", "dc/d78/a07209" ],
-    [ "Acore::Impl::ChatCommands::are_all_assignable< T, Ts >", "da/dae/a07213.html", "da/dae/a07213" ],
-    [ "Acore::Impl::ChatCommands::are_all_assignable< void, Ts... >", "db/d73/a07217.html", "db/d73/a07217" ],
-    [ "Acore::Impl::ChatCommands::get_nth< index, T1, Ts >", "de/d7c/a07221.html", null ],
-    [ "Acore::Impl::ChatCommands::get_nth< 0, T1, Ts... >", "d7/d4a/a07225.html", "d7/d4a/a07225" ],
-    [ "Acore::Impl::ChatCommands::ChatCommandResult", "dd/d22/a07229.html", "dd/d22/a07229" ],
-    [ "get_nth_t", "da/d17/a01046.html#acf7271fa50990dbd40fd90f127b9fb3b", null ],
-    [ "tag_base_t", "da/d17/a01046.html#a61f1a636e46a7d78161298ae28844703", null ],
-    [ "FormatAcoreString", "da/d17/a01046.html#a496bce28eb0bf0ac4b5e1c54c19193b7", null ],
-    [ "GetAcoreString", "da/d17/a01046.html#a671c2d8ee25e88cc8f58246b1486f1de", null ],
-    [ "SendErrorMessageToHandler", "da/d17/a01046.html#aae4c9556d5cc172144fa280ca820226d", null ],
-    [ "tokenize", "da/d17/a01046.html#aeca95018e8d551d917cf69e0764ccef7", null ],
-    [ "COMMAND_DELIMITER", "da/d17/a01046.html#a068db55731856ca7770e1b09a4225aa2", null ]
+    [ "LinkValidator< T >", "dc/d89/a07413.html", "dc/d89/a07413" ],
+    [ "LinkValidator< LinkTags::achievement >", "d4/d79/a07417.html", "d4/d79/a07417" ],
+    [ "LinkValidator< LinkTags::item >", "df/d98/a07421.html", "df/d98/a07421" ],
+    [ "LinkValidator< LinkTags::quest >", "d9/d55/a07425.html", "d9/d55/a07425" ],
+    [ "LinkValidator< LinkTags::spell >", "d1/d5e/a07429.html", "d1/d5e/a07429" ],
+    [ "LinkValidator< LinkTags::enchant >", "d5/d97/a07433.html", "d5/d97/a07433" ],
+    [ "LinkValidator< LinkTags::glyph >", "d7/dc5/a07437.html", "d7/dc5/a07437" ],
+    [ "LinkValidator< LinkTags::talent >", "d8/d3b/a07441.html", "d8/d3b/a07441" ],
+    [ "LinkValidator< LinkTags::trade >", "dd/d6e/a07445.html", "dd/d6e/a07445" ],
+    [ "TryValidateAs", "da/d17/a01046.html#af1c86bff85f30ff113d5f78421c280af", null ],
+    [ "toHex", "da/d17/a01046.html#a0b5e4d40ad5549ddc48c127306499b6c", null ],
+    [ "ValidateAs", "da/d17/a01046.html#a1021653ddd2d2e78df34d8c4a2a7ed93", null ],
+    [ "ValidateLinkInfo", "da/d17/a01046.html#a7de61dd7d7c595063ae73f415e961cc9", null ]
 ];

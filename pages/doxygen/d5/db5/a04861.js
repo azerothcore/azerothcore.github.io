@@ -1,10 +1,10 @@
 var a04861 =
 [
-    [ "Hash", "d5/db5/a04861.html#ae23bd592ac284f3068c36688d084c24f", null ],
-    [ "Verify", "d5/db5/a04861.html#a7a041ffc17e4d4291f81d4090f31e1fd", null ],
-    [ "DEFAULT_ITERATIONS", "d5/db5/a04861.html#a898bbe9b4ffddef1eb067915740d6100", null ],
-    [ "DEFAULT_MEMORY_COST", "d5/db5/a04861.html#a413b8cdff629f26836a776412362056d", null ],
-    [ "ENCODED_HASH_LEN", "d5/db5/a04861.html#a07dd0a8033f54177570f62a2a1a0da3d", null ],
-    [ "HASH_LEN", "d5/db5/a04861.html#a923313625297d08ff3ca9a04bbe527aa", null ],
-    [ "PARALLELISM", "d5/db5/a04861.html#a4aabf2fcc43b23c9d565ced3a2adb405", null ]
+    [ "MmapTileHeader", "d5/db5/a04861.html#a0165f9a4caee4e4759ea261dfbac08a7", null ],
+    [ "dtVersion", "d5/db5/a04861.html#a34d3ed8c617139653176454d7fa7934e", null ],
+    [ "mmapMagic", "d5/db5/a04861.html#ace0ec88460c97f1438de2d0e6a9d7774", null ],
+    [ "mmapVersion", "d5/db5/a04861.html#a5cc3cd873419fe8aeb479d3187584410", null ],
+    [ "padding", "d5/db5/a04861.html#a6ca977b85a993eb6721e3bfe9fd3abfd", null ],
+    [ "size", "d5/db5/a04861.html#a69f3284a4a56b1108792ba56c250bf97", null ],
+    [ "usesLiquids", "d5/db5/a04861.html#aeb4e622161a4bb42cff42d37542f0254", null ]
 ];

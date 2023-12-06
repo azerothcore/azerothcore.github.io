@@ -1,7 +1,10 @@
 var a24645 =
 [
-    [ "VerasEnvenom", "d1/d44/a24645.html#ac8c5f4fcb63ea5141a71b56324de0b1f", null ],
-    [ "Execute", "d1/d44/a24645.html#a4b7853bb835cf28aefe2d5b955372d70", null ],
-    [ "_owner", "d1/d44/a24645.html#af9cf231119ab5592be9829784f20d2e0", null ],
-    [ "_targetGUID", "d1/d44/a24645.html#a90d62907c775565765fa87903adb94ea", null ]
+    [ "boss_illidari_councilAI", "d1/d44/a24645.html#ac639a1991077676a60da0ec628267e0e", null ],
+    [ "AttackStart", "d1/d44/a24645.html#a49f6bcecb75094c9f40f2236895ec34d", null ],
+    [ "DoAction", "d1/d44/a24645.html#af8abad57b4c536c918656167d4bf0913", null ],
+    [ "MoveInLineOfSight", "d1/d44/a24645.html#ab86dea41ba67ab2232e1aea955b2809c", null ],
+    [ "Reset", "d1/d44/a24645.html#ad4779cf805a5a485830454d08e332591", null ],
+    [ "UpdateAI", "d1/d44/a24645.html#aa4dc36b4ad3a1d34aa71821379b5fd2e", null ],
+    [ "councilGUIDs", "d1/d44/a24645.html#af04b5c3bdd292f517daab773dc73b4f2", null ]
 ];

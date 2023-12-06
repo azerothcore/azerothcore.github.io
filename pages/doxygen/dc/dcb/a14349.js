@@ -1,6 +1,5 @@
 var a14349 =
 [
-    [ "HandleEffectApply", "dc/dcb/a14349.html#a404f2134734e1d21201033b3f26e611e", null ],
-    [ "PrepareAuraScript", "dc/dcb/a14349.html#a78249009c7a1bacf058b423e317c49af", null ],
-    [ "Register", "dc/dcb/a14349.html#ad239472c15ca0c73b053d112f538ecff", null ]
+    [ "go_loosely_turned_soilAI", "dc/dcb/a14349.html#a603641bc52d26521d64afaaeed3abc4d", null ],
+    [ "CanBeSeen", "dc/dcb/a14349.html#a424b51b08d17ceb04b015cd535256889", null ]
 ];

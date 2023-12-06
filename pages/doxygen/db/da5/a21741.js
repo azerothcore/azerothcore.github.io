@@ -1,6 +1,6 @@
 var a21741 =
 [
-    [ "npc_ulduar_emergency_fire_botAI", "d8/dce/a21745.html", "d8/dce/a21745" ],
-    [ "npc_ulduar_emergency_fire_bot", "db/da5/a21741.html#a1adc05ac4602ab2b297b18f605bfd2cd", null ],
-    [ "GetAI", "db/da5/a21741.html#afb3ab952495175c5f571d4e39a5acea4", null ]
+    [ "spell_mimiron_rapid_burst_AuraScript", "d8/dce/a21745.html", "d8/dce/a21745" ],
+    [ "spell_mimiron_rapid_burst", "db/da5/a21741.html#a29b0c8d8d55a881bb2ddf01b995a5404", null ],
+    [ "GetAuraScript", "db/da5/a21741.html#a7bf964f5b84bced388701d5bec9cda98", null ]
 ];

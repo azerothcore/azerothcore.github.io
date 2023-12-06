@@ -1,11 +1,9 @@
 var a26017 =
 [
-    [ "npc_invis_infernal_casterAI", "d5/d17/a26017.html#a1188ecc4752d5ab1c2f81602187282f2", null ],
-    [ "Reset", "d5/d17/a26017.html#a05a8d5fd4828d7b1edb3b29ff8a6e61c", null ],
-    [ "SetData", "d5/d17/a26017.html#aee88dc141757384f96da969fcdc20671", null ],
-    [ "SummonInfernal", "d5/d17/a26017.html#a78d53d09e5544b3fe8301da4415d297b", null ],
-    [ "UpdateAI", "d5/d17/a26017.html#a80be204b493768ceb5f5d99d1e81f1b1", null ],
-    [ "events", "d5/d17/a26017.html#aab7aca330ae36dd2de7761984dd2a0a3", null ],
-    [ "ground", "d5/d17/a26017.html#a4c943d67b25d7c9f4ac6f16d96bbbc4f", null ],
-    [ "infernalGUID", "d5/d17/a26017.html#a5619136f90c181ecf3e4389bc2fcdafc", null ]
+    [ "npc_korkron_or_wildhammer", "d5/d17/a26017.html#a3d2252865e0e540dd76aaf87ff62a83c", null ],
+    [ "IsSummonedBy", "d5/d17/a26017.html#aa63e935c2d64716f22f4e74e43e6b639", null ],
+    [ "JustDied", "d5/d17/a26017.html#a2b216f372b3681b4c96a711568c2a93b", null ],
+    [ "MovementInform", "d5/d17/a26017.html#a598dada110aff99a3c36f3037dcf8bf4", null ],
+    [ "Reset", "d5/d17/a26017.html#a67d5cf4a8418ab3f07a387f1021080df", null ],
+    [ "_playerGUID", "d5/d17/a26017.html#a5f1a79c10b5363ee24b3941c54ff10d7", null ]
 ];

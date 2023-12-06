@@ -1,7 +1,6 @@
 var a26897 =
 [
-    [ "HandleScript", "d4/d2a/a26897.html#af386e49e9020328f123c4da7d82d4b0c", null ],
-    [ "PrepareSpellScript", "d4/d2a/a26897.html#a5e4618514d33bbc18fcc26c83279e430", null ],
-    [ "Register", "d4/d2a/a26897.html#a3560275f387f7b0de34f9d1c255241fe", null ],
-    [ "Validate", "d4/d2a/a26897.html#a108e58cb90719b572f3578f0d44d0627", null ]
+    [ "CheckSeat", "d4/d2a/a26897.html#ab4e2376e084bc2cf0e30a91e3e5a270c", null ],
+    [ "PrepareSpellScript", "d4/d2a/a26897.html#aaa9a6f31ec57542dcd657874c4eb52aa", null ],
+    [ "Register", "d4/d2a/a26897.html#a6feb7c77ba258688a83bdb86e9ee53f8", null ]
 ];

@@ -1,7 +1,11 @@
 var a27077 =
 [
-    [ "HandleEffectApply", "d9/dba/a27077.html#abf780eeca61aef7e44617aa0ed2ff8b8", null ],
-    [ "OnRemove", "d9/dba/a27077.html#af2cfa66cd7dbc7c671efa06c497cc03e", null ],
-    [ "PrepareAuraScript", "d9/dba/a27077.html#ab6c5d1fd94c763126ef77f9efd4a7116", null ],
-    [ "Register", "d9/dba/a27077.html#a473189971d0a03e7305b7b9e41dc5207", null ]
+    [ "spell_gen_apply_aura_after_expiration", "d9/dba/a27077.html#a391e5089eb034618c5e3edde26685a00", null ],
+    [ "AfterRemove", "d9/dba/a27077.html#afea2221ceeebf90cf352084d8aacf7c9", null ],
+    [ "PrepareAuraScript", "d9/dba/a27077.html#a494123635eda4c43d92a08c9c8cd5627", null ],
+    [ "Register", "d9/dba/a27077.html#a3189ba65a1d9adf252d9f0dfb70abd16", null ],
+    [ "Validate", "d9/dba/a27077.html#ad405128104d8a6528e8db96281ad0f0b", null ],
+    [ "_aura", "d9/dba/a27077.html#a8a79aef777e1397b031149c54ae9d81d", null ],
+    [ "_effect", "d9/dba/a27077.html#aa276a986ba9b67964ddeec56d6455cf9", null ],
+    [ "_spellId", "d9/dba/a27077.html#a330f1311911ba9f3ebd704c7f9a09246", null ]
 ];

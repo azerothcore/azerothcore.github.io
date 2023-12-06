@@ -1,12 +1,5 @@
 var a13953 =
 [
-    [ "npc_chained_spirit", "da/d4f/a13953.html#a5f407e700a2086f971bed0e8c0def0db", null ],
-    [ "DoAction", "da/d4f/a13953.html#a7205ef13ca0d164a9222c049bc582254", null ],
-    [ "JustDied", "da/d4f/a13953.html#a3b405503231173e7ff7aa52e34f63da5", null ],
-    [ "MovementInform", "da/d4f/a13953.html#a469a8fdc4a40857ff1dc0af9ead74d3c", null ],
-    [ "Reset", "da/d4f/a13953.html#a2a8a8a429492511aac697878b5dc4cc3", null ],
-    [ "SetGUID", "da/d4f/a13953.html#acbe42c0692e8c1d671f2745ff8c2f9bb", null ],
-    [ "UpdateAI", "da/d4f/a13953.html#a38d14b69c71bf2902a916028580fbfad", null ],
-    [ "instance", "da/d4f/a13953.html#ad5dd92208d6a23954fef6348f4abbd23", null ],
-    [ "revivePlayerGUID", "da/d4f/a13953.html#a193fddae1d3eb84bc36842adbb1fe86a", null ]
+    [ "at_zulgurub_edge_of_madness_speech", "da/d4f/a13953.html#a7d4007716e3ed634ac7e3d3dba26e6f7", null ],
+    [ "_OnTrigger", "da/d4f/a13953.html#a725de49be12116f2f7e77edd31a096ae", null ]
 ];

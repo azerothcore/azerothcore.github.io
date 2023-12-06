@@ -1,6 +1,6 @@
 var a20581 =
 [
-    [ "CalculateDamage", "de/d1a/a20581.html#a857e907dcf40f0e630b8c05c5e549672", null ],
-    [ "PrepareSpellScript", "de/d1a/a20581.html#aaa6c420d13dc3c88e9c1e5a053c932aa", null ],
-    [ "Register", "de/d1a/a20581.html#ae142275e06fe6381304137f637e641ca", null ]
+    [ "npc_stormforged_lieutenantAI", "dd/d3a/a20585.html", "dd/d3a/a20585" ],
+    [ "npc_stormforged_lieutenant", "de/d1a/a20581.html#ab58a73d33c6545815511c5c4f0ecfd9e", null ],
+    [ "GetAI", "de/d1a/a20581.html#ae3aba4b53e73097c261eaaed19f17950", null ]
 ];

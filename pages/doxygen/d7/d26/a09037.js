@@ -1,10 +1,8 @@
 var a09037 =
 [
-    [ "PlayerMoveItemData", "d7/d26/a09037.html#a2f707719b409975ddd3023d2239403d6", null ],
-    [ "CanStore", "d7/d26/a09037.html#a00680db86d45ad8e8652218fce05139d", null ],
-    [ "InitItem", "d7/d26/a09037.html#a34298fd6ac20ab0e02c6350dcc5a4d33", null ],
-    [ "IsBank", "d7/d26/a09037.html#ae4d45104dccf78581b4228a31fe192ad", null ],
-    [ "LogBankEvent", "d7/d26/a09037.html#a36516c5ca1aaa13afa9e61831a175068", null ],
-    [ "RemoveItem", "d7/d26/a09037.html#a482460f04b20349e909bac36f893a35a", null ],
-    [ "StoreItem", "d7/d26/a09037.html#a017e3bd414548e66f980587e81e598e5", null ]
+    [ "AllDeadCreaturesInRange", "d7/d26/a09037.html#a31b4976c3ea6203b9a1e7f7970a97977", null ],
+    [ "operator()", "d7/d26/a09037.html#a3638a8d3c5791b590ec717e4f1ba9cef", null ],
+    [ "_obj", "d7/d26/a09037.html#a4ca7fcf9945e698a790d01d3fadae98e", null ],
+    [ "_range", "d7/d26/a09037.html#a431ada86a2b864d53773a85b05d8da4f", null ],
+    [ "_reqAlive", "d7/d26/a09037.html#aefd0d77b69b5df9b99c148e0254fda09", null ]
 ];

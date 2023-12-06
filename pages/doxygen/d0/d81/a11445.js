@@ -1,5 +1,6 @@
 var a11445 =
 [
-    [ "boss_high_priestess_thaurissan", "d0/d81/a11445.html#a53d3fd78f6a1a3b5028c6fc2940dfbd0", null ],
-    [ "GetAI", "d0/d81/a11445.html#a7d2bb83a766b8eaa9bdbbb0f45a4fe62", null ]
+    [ "npc_grimstoneAI", "d5/d33/a11449.html", "d5/d33/a11449" ],
+    [ "npc_grimstone", "d0/d81/a11445.html#ae5c3e36bf18cb30dd4fc7cd5e7a72cfb", null ],
+    [ "GetAI", "d0/d81/a11445.html#a24cf0aa69ac28c13ac3c44e14c35406c", null ]
 ];

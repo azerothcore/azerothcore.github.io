@@ -1,7 +1,6 @@
 var a16529 =
 [
-    [ "HandleEffectPeriodic", "d6/d2f/a16529.html#ab31e19327817ea9d311e50e1aff05cc5", null ],
-    [ "PrepareAuraScript", "d6/d2f/a16529.html#a60c5051d0f57dae074fe0dfea9890f64", null ],
-    [ "Register", "d6/d2f/a16529.html#a7e143ce548143579547135243a241f6a", null ],
-    [ "Validate", "d6/d2f/a16529.html#aeea29570486b923365015b98fb4e2d0f", null ]
+    [ "npc_frost_sphereAI", "d2/d88/a16533.html", "d2/d88/a16533" ],
+    [ "npc_frost_sphere", "d6/d2f/a16529.html#a0256ba1c53853307f8b66e22b10bef24", null ],
+    [ "GetAI", "d6/d2f/a16529.html#a3e6de3551306fb4c35aabbd4fc656ee6", null ]
 ];

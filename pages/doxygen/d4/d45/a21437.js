@@ -1,7 +1,6 @@
 var a21437 =
 [
-    [ "HandleEffectPeriodic", "d4/d45/a21437.html#a7e3f9069043744aaa4178857eb2eeef5", null ],
-    [ "PrepareAuraScript", "d4/d45/a21437.html#afa326d2ea866815911c096d3a7c41555", null ],
-    [ "Register", "d4/d45/a21437.html#a8d551f5045fb1158e99b9904702ae6fa", null ],
-    [ "prev", "d4/d45/a21437.html#a1b00b8f530c999a7b57b39caf552e706", null ]
+    [ "npc_ulduar_hodir_shamanAI", "d8/dd8/a21441.html", "d8/dd8/a21441" ],
+    [ "npc_ulduar_hodir_shaman", "d4/d45/a21437.html#ae73a416c72441ab531d8a5db88183d47", null ],
+    [ "GetAI", "d4/d45/a21437.html#ab06a67b72a3954c65792a478ac90672c", null ]
 ];

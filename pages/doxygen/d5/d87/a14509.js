@@ -1,6 +1,7 @@
 var a14509 =
 [
-    [ "spell_finger_of_death_SpellScript", "d2/d09/a14513.html", "d2/d09/a14513" ],
-    [ "spell_finger_of_death", "d5/d87/a14509.html#a8b20a8c0e9b036d9afa47b7e74f38e35", null ],
-    [ "GetSpellScript", "d5/d87/a14509.html#a2bd179cc767ccbc4b09891cb15b1cec3", null ]
+    [ "HandleOnHit", "d5/d87/a14509.html#a9f1d78b4a98bc76877903b79923c1634", null ],
+    [ "PrepareSpellScript", "d5/d87/a14509.html#afb0a8a16850da30b0fbdb3d10a935f21", null ],
+    [ "Register", "d5/d87/a14509.html#ab923488eb891e1f9b1f5cb8ed61f3865", null ],
+    [ "Validate", "d5/d87/a14509.html#a57d85b1702e5c89d72972505121180ed", null ]
 ];

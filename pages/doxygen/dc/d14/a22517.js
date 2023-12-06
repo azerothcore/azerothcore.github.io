@@ -1,13 +1,10 @@
 var a22517 =
 [
-    [ "npc_ferocious_rhinoAI", "dc/d14/a22517.html#ad70d0aeba4b73330c5087bc84a533389", null ],
-    [ "DoAction", "dc/d14/a22517.html#a10395930fed95fb7809a0b5ffe224c4d", null ],
-    [ "JustDied", "dc/d14/a22517.html#a2b1af0402dc1b4940534d2e60d7ef33e", null ],
-    [ "JustEngagedWith", "dc/d14/a22517.html#aab35078fe4518b6647f98e316d02898a", null ],
-    [ "JustReachedHome", "dc/d14/a22517.html#ab8105d6c8c70037c208c83c13c35242d", null ],
-    [ "MoveInLineOfSight", "dc/d14/a22517.html#a97e32d32a692f223b96746f3ef1086c5", null ],
-    [ "Reset", "dc/d14/a22517.html#a6d317407c2de2f954b5dd2a6db137304", null ],
-    [ "UpdateAI", "dc/d14/a22517.html#a09b80e739e4df6e751c9c2846f3fb999", null ],
-    [ "events", "dc/d14/a22517.html#af23061de7d8566c7435c2c64c53dff89", null ],
-    [ "m_pInstance", "dc/d14/a22517.html#a97e00db40792c559dd06327c9960abe4", null ]
+    [ "npc_enslaved_proto_drakeAI", "dc/d14/a22517.html#a948bacd9d69613110fa10e6e39032baf", null ],
+    [ "MovementInform", "dc/d14/a22517.html#a4c15ed2904c72219d419efe98beb7857", null ],
+    [ "Reset", "dc/d14/a22517.html#a3a99b691141024906e967f5876c3da08", null ],
+    [ "SetData", "dc/d14/a22517.html#a1d1aa0027b94153b126c19688003eea8", null ],
+    [ "UpdateAI", "dc/d14/a22517.html#a7d364a448269bc9bb25b5dbab3388236", null ],
+    [ "_events", "dc/d14/a22517.html#adb4064cfb9c376945a2d6c42ed7c2420", null ],
+    [ "_setData", "dc/d14/a22517.html#a3977c9229b92cc417a6732a0b2968de9", null ]
 ];

@@ -1,13 +1,10 @@
 var a10865 =
 [
-    [ "PlayerTextBuilder", "db/d82/a10865.html#a0740c581636009448fe2c29084db41ae", null ],
-    [ "operator()", "db/d82/a10865.html#aaa9ab36016f0dd7d0e4c4aa0cb94c01a", null ],
-    [ "_gender", "db/d82/a10865.html#aece205d3d523dcf6fefbdd9914943723", null ],
-    [ "_language", "db/d82/a10865.html#a934d4a519c2c7b4017805b3bc24a4714", null ],
-    [ "_msgType", "db/d82/a10865.html#af546f2788870b8b10b3405695ef81171", null ],
-    [ "_source", "db/d82/a10865.html#a9fe9f865b0ba84b5497e63947893533e", null ],
-    [ "_talker", "db/d82/a10865.html#a8a8cd00cc76e048500800938a773aa06", null ],
-    [ "_target", "db/d82/a10865.html#ac97cf187d079c5162e47bebb7024faa5", null ],
-    [ "_textGroup", "db/d82/a10865.html#ab44fe12e73da36acb1199987e8573467", null ],
-    [ "_textId", "db/d82/a10865.html#a17b33a9a05a77722219a85a71f3bbc5e", null ]
+    [ "EffectHook", "db/d82/a10865.html#a4a197e061d918dfba2bc486f3393b00d", null ],
+    [ "~EffectHook", "db/d82/a10865.html#aa234f63b530764d12064acbe3f5c9299", null ],
+    [ "CheckEffect", "db/d82/a10865.html#ae8823c5d649d182f572818bf3db72902", null ],
+    [ "EffIndexToString", "db/d82/a10865.html#ab818ed274cfd66ecc565b8535b751517", null ],
+    [ "GetAffectedEffectsMask", "db/d82/a10865.html#a31faa86590e22f5ab3ca518f4df02840", null ],
+    [ "IsEffectAffected", "db/d82/a10865.html#a697041ffa562bb6fff792beb159c7af2", null ],
+    [ "effIndex", "db/d82/a10865.html#ab5eb48ef7ac903938f92db0e856e0295", null ]
 ];

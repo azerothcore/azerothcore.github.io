@@ -1,6 +1,9 @@
 var a29293 =
 [
-    [ "npc_training_dummyAI", "d4/da5/a29297.html", "d4/da5/a29297" ],
-    [ "npc_training_dummy", "d5/d79/a29293.html#acfed4da3b1a01bc58e599d2dc134cb7d", null ],
-    [ "GetAI", "d5/d79/a29293.html#a87a48a42e8349ce9125de91a429d4ffa", null ]
+    [ "npc_chicken_cluckAI", "d5/d79/a29293.html#a4f2eaa107e2a8b4900fac54780ac9693", null ],
+    [ "JustEngagedWith", "d5/d79/a29293.html#a854eae196c68cb1e4dd1c1773870ef9a", null ],
+    [ "ReceiveEmote", "d5/d79/a29293.html#aa5d6d3ea3ad4d0f81781581a39933fc8", null ],
+    [ "Reset", "d5/d79/a29293.html#a5a32f458a7f09282e7ac53fa7d6255b4", null ],
+    [ "UpdateAI", "d5/d79/a29293.html#a86c8f74d0a55b9a041a789f16de8189d", null ],
+    [ "ResetFlagTimer", "d5/d79/a29293.html#a0d0507ae7a1eca369df288515856e1b5", null ]
 ];

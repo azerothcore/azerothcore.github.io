@@ -1,7 +1,6 @@
 var a19845 =
 [
-    [ "npc_ioc_gunship_captainAI", "d7/d2e/a19845.html#a23477a6f29b13308067c1f42ced1e9fe", null ],
-    [ "DoAction", "d7/d2e/a19845.html#a89fb251869d6bfbefbca1e2d3178178a", null ],
-    [ "UpdateAI", "d7/d2e/a19845.html#a222b304633143bba47d3edde67ea093b", null ],
-    [ "_events", "d7/d2e/a19845.html#aa8b7c262641a5f1f86c5ae39f8b62dca", null ]
+    [ "RespawnEvent", "d7/d2e/a19845.html#accc0d5638ff7a493fa116ac2e8f2e58b", null ],
+    [ "Execute", "d7/d2e/a19845.html#a2e58f4e472fb72cf5401f11be6e5e136", null ],
+    [ "_owner", "d7/d2e/a19845.html#adb0835b4a2e7a2795bb81f0a1e3c911a", null ]
 ];

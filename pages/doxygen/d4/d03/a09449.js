@@ -1,17 +1,14 @@
 var a09449 =
 [
-    [ "ConfusedMovementGenerator", "d4/d03/a09449.html#a694dd083a1c01378e4877939f78309b8", null ],
-    [ "_InitSpecific", "d4/d03/a09449.html#aea922e45838ab8a9cfe1787f0f7c169c", null ],
-    [ "_InitSpecific", "d4/d03/a09449.html#a212665e4306ca335181c255573d30a06", null ],
-    [ "_InitSpecific", "d4/d03/a09449.html#af597e5c544e56c255b179a08290f4ccb", null ],
-    [ "DoFinalize", "d4/d03/a09449.html#a9e2a3f0e1a99436b33a883a1ac797f43", null ],
-    [ "DoFinalize", "d4/d03/a09449.html#a82c2458b43334f06cae1a91224753fd3", null ],
-    [ "DoFinalize", "d4/d03/a09449.html#ab18018803d8e194e9d2220eb8c6450ac", null ],
-    [ "DoInitialize", "d4/d03/a09449.html#a8f1e9d0e00517b0d7f88b4213fd25104", null ],
-    [ "DoReset", "d4/d03/a09449.html#a734a73ffa4008898a170b913aafce899", null ],
-    [ "DoUpdate", "d4/d03/a09449.html#a8703ba139d90194a481388a543a14de6", null ],
-    [ "GetMovementGeneratorType", "d4/d03/a09449.html#a3f0760b38745b9e065e069d6ad984d51", null ],
-    [ "i_nextMove", "d4/d03/a09449.html#ad36fe1fd2d07af01691a319c425dc92c", null ],
-    [ "i_nextMoveTime", "d4/d03/a09449.html#ad7b5bb65d55f6149e8df8cb4e2cdda50", null ],
-    [ "i_waypoints", "d4/d03/a09449.html#a02b83b879cc31fb1a0e2f90e97556ba1", null ]
+    [ "BattlegroundMap", "d4/d03/a09449.html#a3a9af8a69ac8d188d7fb86f2a9dda2c3", null ],
+    [ "~BattlegroundMap", "d4/d03/a09449.html#a327d241fd7930e9b3a98ba50014d5131", null ],
+    [ "AddPlayerToMap", "d4/d03/a09449.html#a0325279a2affc7b20a415a3b90a32fc0", null ],
+    [ "CannotEnter", "d4/d03/a09449.html#a493a1932eee44c346d9cfb7d13789bb6", null ],
+    [ "GetBG", "d4/d03/a09449.html#a2fcb965981bb03571f12c11cdbac54a4", null ],
+    [ "InitVisibilityDistance", "d4/d03/a09449.html#af2d6847765d10fab527d77b26dd770ad", null ],
+    [ "RemoveAllPlayers", "d4/d03/a09449.html#a5093cbf8005d06452eeb202513323c1e", null ],
+    [ "RemovePlayerFromMap", "d4/d03/a09449.html#aeddb9dfae8601e95b0a93cefc12c2612", null ],
+    [ "SetBG", "d4/d03/a09449.html#aaa9e5f830953b1a37a684ac566e9b768", null ],
+    [ "SetUnload", "d4/d03/a09449.html#a4c03b1aa9c4c53697ad6284825a1b9c1", null ],
+    [ "m_bg", "d4/d03/a09449.html#aa38fff695728ddedc94dd6eb6bd7bf3b", null ]
 ];

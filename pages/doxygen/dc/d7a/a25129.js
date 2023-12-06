@@ -1,6 +1,7 @@
 var a25129 =
 [
-    [ "boss_rokmar_the_crackler", "dc/d7a/a25129.html#a0aca6a30d045bbea6f434979f4f1d2e9", null ],
-    [ "JustEngagedWith", "dc/d7a/a25129.html#ae376e6a96fa07136790f3ed04ee1023b", null ],
-    [ "Reset", "dc/d7a/a25129.html#aed9cf4a866d5e70647125a08885fb809", null ]
+    [ "OnApply", "dc/d7a/a25129.html#a6189a5ea90b1951b21a7e9ef36700ed9", null ],
+    [ "PeriodicTick", "dc/d7a/a25129.html#a1c79b1016361eabb5cef57a893bccfcf", null ],
+    [ "PrepareAuraScript", "dc/d7a/a25129.html#acfa6b5217a0e0e2654b7fa9c4092abd5", null ],
+    [ "Register", "dc/d7a/a25129.html#adddddd0689f4686a40b1db142b5d6ce2", null ]
 ];

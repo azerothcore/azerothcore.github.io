@@ -1,6 +1,6 @@
 var a15921 =
 [
-    [ "boss_anub_arakAI", "d5/dc9/a15925.html", "d5/dc9/a15925" ],
-    [ "boss_anub_arak", "dd/d2c/a15921.html#ac2594f561b07069a312ed38c01d9c7da", null ],
-    [ "GetAI", "dd/d2c/a15921.html#a8687594354d514b99e026797ee71c70d", null ]
+    [ "ModDestHeight", "dd/d2c/a15921.html#a8bda9327c4244af41c513528ad5c818c", null ],
+    [ "PrepareSpellScript", "dd/d2c/a15921.html#aba5a03c94fa5d87c46a91369875c0ab2", null ],
+    [ "Register", "dd/d2c/a15921.html#a62b0ce71caeff96705b15aa240ddd09f", null ]
 ];

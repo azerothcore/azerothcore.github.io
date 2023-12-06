@@ -1,25 +1,6 @@
 var a05949 =
 [
-    [ "FollowerAI", "d6/da4/a05949.html#ab4e7a4d16884d5e484e18541569fd72e", null ],
-    [ "~FollowerAI", "d6/da4/a05949.html#a5e2b9ddccc77bfe5cb8b16323d711c1e", null ],
-    [ "AddFollowState", "d6/da4/a05949.html#ae3c6e6ae70da77c9a9adcdf09fbd28fa", null ],
-    [ "AssistPlayerInCombatAgainst", "d6/da4/a05949.html#a8424220526302983b8770fb5b8883785", null ],
-    [ "AttackStart", "d6/da4/a05949.html#a5a78e0409af05f030d1b3b429926773e", null ],
-    [ "EnterEvadeMode", "d6/da4/a05949.html#aa3f9ea2a3a454aa63c0417b6c105c3a6", null ],
-    [ "GetLeaderForFollower", "d6/da4/a05949.html#a9d6c390022beeac0777e73062ad73b73", null ],
-    [ "HasFollowState", "d6/da4/a05949.html#a68a341874cb3cdb095e9221261c51ce2", null ],
-    [ "JustDied", "d6/da4/a05949.html#a83977da1bbd73813e2efa1b594512ece", null ],
-    [ "JustRespawned", "d6/da4/a05949.html#a34d732db8b189e0243854ad3b87cb70f", null ],
-    [ "MoveInLineOfSight", "d6/da4/a05949.html#a83dec5983277d0b59980b44593332b8f", null ],
-    [ "MovementInform", "d6/da4/a05949.html#a8594920db87044310ab710e0296be488", null ],
-    [ "RemoveFollowState", "d6/da4/a05949.html#a792d64dca1699f77f9e1f5ad81db7aab", null ],
-    [ "SetFollowComplete", "d6/da4/a05949.html#aa23547887bf44a222987bcde93fc8b32", null ],
-    [ "SetFollowPaused", "d6/da4/a05949.html#a1571d129b6bf4eb6eb7a1cd4fdbb4f00", null ],
-    [ "StartFollow", "d6/da4/a05949.html#a550cfb9b8d6a9ea178a43e3c88d3e778", null ],
-    [ "UpdateAI", "d6/da4/a05949.html#ac46e0e5b06f2c02d8f3119e60b20d106", null ],
-    [ "UpdateFollowerAI", "d6/da4/a05949.html#a6381f756645b8c4a9dc4c30b8c431694", null ],
-    [ "m_pQuestForFollow", "d6/da4/a05949.html#a4aeb51a87a2ea025fa743243c587d6b2", null ],
-    [ "m_uiFollowState", "d6/da4/a05949.html#a75788e0086b4ae455b73e7d3ebd6b5f4", null ],
-    [ "m_uiLeaderGUID", "d6/da4/a05949.html#a0c833da3d0096607828aeeefef2f313b", null ],
-    [ "m_uiUpdateFollowTimer", "d6/da4/a05949.html#a21a4c066ea3d6983c1b6e1f02d24cbae", null ]
+    [ "NullGameObjectAI", "d6/da4/a05949.html#a54f6ae6e03fbe423d895ec306fe091db", null ],
+    [ "Permissible", "d6/da4/a05949.html#a850b58bfcc5e613f31fc95e556ed7f91", null ],
+    [ "UpdateAI", "d6/da4/a05949.html#a01b2b14306c75fafe58295a30e5d01e0", null ]
 ];

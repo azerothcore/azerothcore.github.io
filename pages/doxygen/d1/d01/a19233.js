@@ -1,6 +1,6 @@
 var a19233 =
 [
-    [ "ActivateSpirit", "d1/d01/a19233.html#aa85442aa12bf98813951172ba9c0c9d1", null ],
-    [ "PrepareSpellScript", "d1/d01/a19233.html#a45dd81940bcad18564dbed7ffc1a6041", null ],
-    [ "Register", "d1/d01/a19233.html#a33d1e39c3b04f81afa3c20dc140211b2", null ]
+    [ "spell_the_lich_king_soul_rip_AuraScript", "d5/dd2/a19237.html", "d5/dd2/a19237" ],
+    [ "spell_the_lich_king_soul_rip", "d1/d01/a19233.html#a42ef2ed059f9a09c2306c48052f890c7", null ],
+    [ "GetAuraScript", "d1/d01/a19233.html#a29bd3b91f9a3e5a5cdd154c7c2cef928", null ]
 ];

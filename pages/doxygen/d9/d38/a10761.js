@@ -1,10 +1,7 @@
 var a10761 =
 [
-    [ "TargetHook", "d9/d38/a10761.html#afcada203ddd8752107c74bbf0e7c24eb", null ],
-    [ "CheckEffect", "d9/d38/a10761.html#af02ad1f1fb914aac52095d7e41f12c94", null ],
-    [ "GetTarget", "d9/d38/a10761.html#a238979ffaaa644bd65ffd4e7cb20d797", null ],
-    [ "ToString", "d9/d38/a10761.html#a424e03e457dc15a2689f344e614a882f", null ],
-    [ "area", "d9/d38/a10761.html#aceec6f0ea91d45a11233122c3bc843ed", null ],
-    [ "dest", "d9/d38/a10761.html#a28f2f6f3338a2c261ee754508ee48e60", null ],
-    [ "targetType", "d9/d38/a10761.html#aed2e0e651bdd5453d716db464ac0ab55", null ]
+    [ "WorldObjectSpellAreaTargetCheck", "d9/d38/a10761.html#a2b017300220426ac42de18e3a8699219", null ],
+    [ "operator()", "d9/d38/a10761.html#a36a7194e3ffbdc2ea1c4bd5ed5997da4", null ],
+    [ "_position", "d9/d38/a10761.html#a680c45dd148161657da011a1772375ca", null ],
+    [ "_range", "d9/d38/a10761.html#a4ee3762b4a7f35d252cbb5337d61d92c", null ]
 ];

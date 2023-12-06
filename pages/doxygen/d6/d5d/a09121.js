@@ -1,8 +1,13 @@
 var a09121 =
 [
-    [ "BossInfo", "d6/d5d/a09121.html#a455f533d647927d182176c3cceb21f42", null ],
-    [ "boundary", "d6/d5d/a09121.html#aa4fb2bc78efb3393004c0f827000e4f1", null ],
-    [ "door", "d6/d5d/a09121.html#a858af8825ed4fe183ee19b6f10239304", null ],
-    [ "minion", "d6/d5d/a09121.html#abec1469d41f286d02c34223171373cd3", null ],
-    [ "state", "d6/d5d/a09121.html#a1e4413b3a8bac20ed9e7ac878e3066f7", null ]
+    [ "GroupReference", "d6/d5d/a09121.html#ab1a008e85d413c67696d4d568a98bde7", null ],
+    [ "~GroupReference", "d6/d5d/a09121.html#ab586405a850b0985e6b9f08cc6bdf32e", null ],
+    [ "getSubGroup", "d6/d5d/a09121.html#a8217ca810bc251005dfe8a2e3b810e1e", null ],
+    [ "next", "d6/d5d/a09121.html#a6f8f406f1209dd7060904d40f5424b41", null ],
+    [ "next", "d6/d5d/a09121.html#ac913ec0703c28cda068375d01c9cd72d", null ],
+    [ "setSubGroup", "d6/d5d/a09121.html#a303caf55ea463398237e6a825f30b143", null ],
+    [ "sourceObjectDestroyLink", "d6/d5d/a09121.html#a458157654c27def9b36b68ae099ca7b3", null ],
+    [ "targetObjectBuildLink", "d6/d5d/a09121.html#aa7c8acd113fefc7b6d2b9dff94bb047c", null ],
+    [ "targetObjectDestroyLink", "d6/d5d/a09121.html#a4c15e8dbb9f990f9ab66c5e1466d0616", null ],
+    [ "iSubGroup", "d6/d5d/a09121.html#a528073b16a119cfa81e6f37c6e72cc03", null ]
 ];

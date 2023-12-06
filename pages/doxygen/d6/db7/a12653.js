@@ -1,9 +1,8 @@
 var a12653 =
 [
-    [ "npc_risen_guardianAI", "d6/db7/a12653.html#a50eb3de52205fc1bbc6936f0708c68a6", null ],
-    [ "IsSummonedBy", "d6/db7/a12653.html#ad9f45b9007c1ff74d0f725fbf7f00abe", null ],
-    [ "KilledUnit", "d6/db7/a12653.html#abc7afaa685a436b34ff76edcc6c25e54", null ],
-    [ "Gandling", "d6/db7/a12653.html#a93013b905260aa51341b22d1627cc986", null ],
-    [ "instance", "d6/db7/a12653.html#a96f1835989f646c708b8ef0cc9999e63", null ],
-    [ "room", "d6/db7/a12653.html#a5862a184b6daa92da133cc6c360a993d", null ]
+    [ "DelayedSummonEvent", "d6/db7/a12653.html#a5cfa870b670fff17d2241ecb85b2ba6c", null ],
+    [ "Execute", "d6/db7/a12653.html#a65ba0f1a1dc14e07b7b93a71c92ace6b", null ],
+    [ "_entry", "d6/db7/a12653.html#a24d72110a070eb0bd03af081ef616de4", null ],
+    [ "_owner", "d6/db7/a12653.html#a2a21cc6387b3605ed4f09cad80a6168a", null ],
+    [ "_pos", "d6/db7/a12653.html#aef19987803a1cce47cbd8d9005a288ac", null ]
 ];

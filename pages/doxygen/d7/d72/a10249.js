@@ -1,11 +1,11 @@
 var a10249 =
 [
-    [ "LFGJoin", "d7/d72/a10249.html#a50c79bdef7393907673a328bc36ff8ae", null ],
-    [ "Read", "d7/d72/a10249.html#a5eca5c5a528cf00f1e6aad99ce5386ed", null ],
-    [ "Achievements", "d7/d72/a10249.html#a587e98d4a1c8ff0cacd459298a4193c8", null ],
-    [ "Comment", "d7/d72/a10249.html#a3e12e650a1fa573aafd7c03abd970aff", null ],
-    [ "Needs", "d7/d72/a10249.html#a313c16e84e2cd0b55551d16273e95917", null ],
-    [ "NoPartialClear", "d7/d72/a10249.html#aad54be871d0978034fb69a464fd5b9df", null ],
-    [ "Roles", "d7/d72/a10249.html#a5eaccbeb4fc8b21f5398e216589cb99b", null ],
-    [ "Slots", "d7/d72/a10249.html#aa14a07716504723283ad80c6357cf53f", null ]
+    [ "GuildRankTabPermissions", "df/d3f/a10253.html", "df/d3f/a10253" ],
+    [ "GuildPermissionsQueryResults", "d7/d72/a10249.html#aa643af51780fc550f3947936266d54f5", null ],
+    [ "Write", "d7/d72/a10249.html#a4a5937a8daab44b5000a5308ed0be06a", null ],
+    [ "Flags", "d7/d72/a10249.html#a368162426ab526adafc7ecb223fdf865", null ],
+    [ "NumTabs", "d7/d72/a10249.html#ab797ef0f0081c4520a6333afbe6cd5b4", null ],
+    [ "RankID", "d7/d72/a10249.html#a795ba45650991bd5c1aa03c17886d86b", null ],
+    [ "Tab", "d7/d72/a10249.html#ae54eeb1a76f5eeaf4a63bcb58bab3460", null ],
+    [ "WithdrawGoldLimit", "d7/d72/a10249.html#a9d175a8de69f15c3f8eadf237f68e84a", null ]
 ];

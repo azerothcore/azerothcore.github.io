@@ -1,5 +1,6 @@
 var a20957 =
 [
-    [ "achievement_auriaya_nine_lives", "dc/d2c/a20957.html#a750304bc946a7ecefec29dc18c429d3b", null ],
-    [ "OnCheck", "dc/d2c/a20957.html#ae1b7ee75a3e7343c3f5f8043b4e39362", null ]
+    [ "boss_auriayaAI", "df/dff/a20961.html", "df/dff/a20961" ],
+    [ "boss_auriaya", "dc/d2c/a20957.html#a8acecf02a63e846d1a46633a6ade6083", null ],
+    [ "GetAI", "dc/d2c/a20957.html#a09c7cd124672eb12ec349dbbbd3c87ef", null ]
 ];

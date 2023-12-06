@@ -1,16 +1,12 @@
 var a22793 =
 [
-    [ "boss_zuramatAI", "df/dc5/a22793.html#ab4c04fec01023295946d170a466d1c48", null ],
-    [ "EnterEvadeMode", "df/dc5/a22793.html#a991437ea0d9fd1ce7807ef9937c4cb0a", null ],
-    [ "JustDied", "df/dc5/a22793.html#a060df9b36f2f62f3fc7afb80386d51c5", null ],
-    [ "JustEngagedWith", "df/dc5/a22793.html#a85cc0f20b51e84ff1c5c16a3b2b004b9", null ],
-    [ "JustSummoned", "df/dc5/a22793.html#a6e925207ddc112f7dd7044c08023f90e", null ],
-    [ "KilledUnit", "df/dc5/a22793.html#adb79f8c244f57b88848dd44b592faf41", null ],
-    [ "MoveInLineOfSight", "df/dc5/a22793.html#aa3ef3256d203d264dee12eff4491a28c", null ],
-    [ "Reset", "df/dc5/a22793.html#a18498e4bc4bfac33ff2c591f5bf28d7d", null ],
-    [ "SummonedCreatureDespawn", "df/dc5/a22793.html#a242f814bfec2e937e1338097e78080e3", null ],
-    [ "UpdateAI", "df/dc5/a22793.html#adb591699b7d8ece0b1775afd40a4181b", null ],
-    [ "events", "df/dc5/a22793.html#a4406b42618f3e40fa90e0a34ec3ad09f", null ],
-    [ "pInstance", "df/dc5/a22793.html#a8ebb5ca6f9f18b0205e8b6a54492c06a", null ],
-    [ "summons", "df/dc5/a22793.html#a42cb09654095c8a157720f99e7957102", null ]
+    [ "boss_lavanthorAI", "df/dc5/a22793.html#aa562ad1ee029a35adebf8eac8f8249f3", null ],
+    [ "EnterEvadeMode", "df/dc5/a22793.html#a0334d92f1ddf30235efe298df622535b", null ],
+    [ "JustDied", "df/dc5/a22793.html#a300dbedf5514998e7065a2ef44a65f1f", null ],
+    [ "JustEngagedWith", "df/dc5/a22793.html#a9820ec47af72af19f00b172ee138f908", null ],
+    [ "MoveInLineOfSight", "df/dc5/a22793.html#aa613f70d93be479aa701675dfdb2d3e3", null ],
+    [ "Reset", "df/dc5/a22793.html#a55d5cc6906033b5c56daa3ed15fabf0f", null ],
+    [ "UpdateAI", "df/dc5/a22793.html#ab77ac2c78e94fed437e8ccefba4e363c", null ],
+    [ "events", "df/dc5/a22793.html#a273adc56adefe9810013bc80950f2624", null ],
+    [ "pInstance", "df/dc5/a22793.html#ad6059577c5e131523f39316c2291b421", null ]
 ];

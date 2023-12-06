@@ -1,6 +1,6 @@
 var a20165 =
 [
-    [ "instance_naxxramas_InstanceMapScript", "d5/d7c/a20169.html", "d5/d7c/a20169" ],
-    [ "instance_naxxramas", "df/d5a/a20165.html#a9d4b57f9f0f7a44565bb8d9bd3aa24a1", null ],
-    [ "GetInstanceScript", "df/d5a/a20165.html#ac5dd8d591af2239faab17727eb1ef66e", null ]
+    [ "boss_thaddius_summonAI", "d5/d7c/a20169.html", "d5/d7c/a20169" ],
+    [ "boss_thaddius_summon", "df/d5a/a20165.html#a0fd6c83b5ff6d62b1649f9a13de05c73", null ],
+    [ "GetAI", "df/d5a/a20165.html#aaab5973012f9ac55e8b29cc90f5ec98e", null ]
 ];

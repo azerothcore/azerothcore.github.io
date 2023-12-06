@@ -1,8 +1,8 @@
 var a28273 =
 [
-    [ "HandleScript", "df/d4f/a28273.html#a1e096b2b2f5a285e660f64fb133f4f8b", null ],
-    [ "Load", "df/d4f/a28273.html#ad4e3fecb64bbb0f5c63b90d445c0b9f3", null ],
-    [ "PrepareSpellScript", "df/d4f/a28273.html#a5c4b2a46dfd6bdc2d14ee02f673628c1", null ],
-    [ "Register", "df/d4f/a28273.html#aa823af94e3366ae799ebaf03e52411dd", null ],
-    [ "Validate", "df/d4f/a28273.html#ad6985954002f88436a2681e758f41fb2", null ]
+    [ "CheckCast", "df/d4f/a28273.html#a16983545e25f3e02064e2b3d573b2bb8", null ],
+    [ "CheckQuest", "df/d4f/a28273.html#abc927d932c1d5e05eab1918364d68ed5", null ],
+    [ "HandleActiveObject", "df/d4f/a28273.html#a95f7bd6dd52b19bb1c09975a7286882a", null ],
+    [ "PrepareSpellScript", "df/d4f/a28273.html#a96e69476965cc2466213a5371a57093a", null ],
+    [ "Register", "df/d4f/a28273.html#a83c48e1c42a6a6dd892f0f4d6a20687b", null ]
 ];

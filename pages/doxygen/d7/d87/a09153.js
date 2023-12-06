@@ -1,15 +1,16 @@
 var a09153 =
 [
-    [ "LootStoreItem", "d7/d87/a09153.html#a10250dce57b2b8103c6ac11aa1ac2f0f", null ],
-    [ "IsValid", "d7/d87/a09153.html#ae5fc113c31d96bc7ca31a5bc36ab2fcf", null ],
-    [ "Roll", "d7/d87/a09153.html#a87cc7956b131a16aee7bd5d4808193df", null ],
-    [ "chance", "d7/d87/a09153.html#a20411103b449a9176b3bc665f909f06f", null ],
-    [ "conditions", "d7/d87/a09153.html#a88812a51fb467a189f2824ad8b3198e8", null ],
-    [ "groupid", "d7/d87/a09153.html#abc6df381782d25490dff0e54bec63b3a", null ],
-    [ "itemid", "d7/d87/a09153.html#a5df1d4fde5f3358470bd16f7ad9154c1", null ],
-    [ "lootmode", "d7/d87/a09153.html#ab5f7b258bd5cfe4263acd9e0b253b166", null ],
-    [ "maxcount", "d7/d87/a09153.html#a96012059cc6affa8120ef544682781d2", null ],
-    [ "mincount", "d7/d87/a09153.html#ada6a4d427187361c6bc33bdde789e809", null ],
-    [ "needs_quest", "d7/d87/a09153.html#a5a2fe7ae48508b88bbdfc70fc4035f31", null ],
-    [ "reference", "d7/d87/a09153.html#a374a94e34095a1beb38abca43069d0b6", null ]
+    [ "BankEventLogEntry", "d7/d87/a09153.html#a31275c6a36f7b79d7532345d38a3739b", null ],
+    [ "BankEventLogEntry", "d7/d87/a09153.html#a1a87a93c90b6a0b6766ac46228fd1761", null ],
+    [ "~BankEventLogEntry", "d7/d87/a09153.html#a8033da0f1bd56926bd306e1cbdc1ecb9", null ],
+    [ "IsMoneyEvent", "d7/d87/a09153.html#a9a38b7966bdcc3ec9e871c024c928ce1", null ],
+    [ "IsMoneyEvent", "d7/d87/a09153.html#a49c76ead144b21da7cb1059af54a2482", null ],
+    [ "SaveToDB", "d7/d87/a09153.html#a9010bb7bd849aa6ba25b31596ac30831", null ],
+    [ "WritePacket", "d7/d87/a09153.html#a930223d8596264801d7b0cf04cea62f8", null ],
+    [ "m_bankTabId", "d7/d87/a09153.html#a836df4449b5190b4404482e46a5e5449", null ],
+    [ "m_destTabId", "d7/d87/a09153.html#a57a6aeaae26781df310a2c98fcf7164d", null ],
+    [ "m_eventType", "d7/d87/a09153.html#a180246a8eaca99431383916776a4f7ad", null ],
+    [ "m_itemOrMoney", "d7/d87/a09153.html#a689ea5c40d39fe5dc8a80351c4884b18", null ],
+    [ "m_itemStackCount", "d7/d87/a09153.html#ad4ed0df79ff061a4735538067fa4a372", null ],
+    [ "m_playerGuid", "d7/d87/a09153.html#a3b2127e193ff9f5b54cf6520cd2a2458", null ]
 ];

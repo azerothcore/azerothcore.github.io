@@ -1,6 +1,6 @@
 var a08217 =
 [
-    [ "spellIdImmunityPredicate", "d2/daf/a08217.html#a04893e34d418a0649d51dfa82b559d9c", null ],
-    [ "operator()", "d2/daf/a08217.html#ae97afff7a6b3ea5dca917d3dbb9ef818", null ],
-    [ "_type", "d2/daf/a08217.html#a125dfe727d668b5b9820adf1f7f0e0a8", null ]
+    [ "PlayerCreateInfoItem", "d2/daf/a08217.html#aba5495af3d4c463f7f65fa1851879d3b", null ],
+    [ "item_amount", "d2/daf/a08217.html#a2cc481d54ec0c8a58477803364f40b2a", null ],
+    [ "item_id", "d2/daf/a08217.html#a54e5593fe1a1e06b16963c96f1840a2a", null ]
 ];

@@ -1,9 +1,9 @@
 var a30425 =
 [
-    [ "MapTiles", "da/dc7/a30425.html#abc58d7154eab45ae26df27e2e82dac63", null ],
-    [ "MapTiles", "da/dc7/a30425.html#a406efc53593b5bceb0a491c0b7553350", null ],
-    [ "~MapTiles", "da/dc7/a30425.html#aec1baac21c06380ba71ff5e610152519", null ],
-    [ "operator==", "da/dc7/a30425.html#a4a6b1901d8a39a3d2cd50775c1e1a6b3", null ],
-    [ "m_mapId", "da/dc7/a30425.html#a2fc10edf226a6f4548c2175e1013c1b9", null ],
-    [ "m_tiles", "da/dc7/a30425.html#ab80305bb73234e35a528701d775954b5", null ]
+    [ "Flags", "da/dc7/a30425.html#a4471edebd870d3dfaaf34292341e5f60", null ],
+    [ "Id", "da/dc7/a30425.html#a6a25126338a8c3aa7d36c02c979639dd", null ],
+    [ "Position", "da/dc7/a30425.html#a8fa9a49b3195ffe74dcf1872d0fb05c1", null ],
+    [ "Rotation", "da/dc7/a30425.html#a986c3ea05d510db03ec969f0d116fb34", null ],
+    [ "Scale", "da/dc7/a30425.html#af8bcb02c541b9261dbf879353ba6893a", null ],
+    [ "UniqueId", "da/dc7/a30425.html#a374c9893af515badc54b22b2a4d5e024", null ]
 ];

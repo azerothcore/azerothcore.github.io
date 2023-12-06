@@ -1,9 +1,14 @@
 var a04421 =
 [
-    [ "ListFilesResult", "d4/d86/a04421.html#a030b28c9f552c0de4a4b4844fc5e6101", [
-      [ "LISTFILE_DIRECTORY_NOT_FOUND", "d4/d86/a04421.html#a030b28c9f552c0de4a4b4844fc5e6101a868c0f60f6afa222577730606ed493a6", null ],
-      [ "LISTFILE_OK", "d4/d86/a04421.html#a030b28c9f552c0de4a4b4844fc5e6101a952e90f65bfd2eefbd80a8b830eb5687", null ]
+    [ "guard_shattrath_scryer", "df/d8b/a29097.html", "df/d8b/a29097" ],
+    [ "guard_shattrath_scryer::guard_shattrath_scryerAI", "d4/d09/a29101.html", "d4/d09/a29101" ],
+    [ "guard_shattrath_aldor", "da/d54/a29105.html", "da/d54/a29105" ],
+    [ "guard_shattrath_aldor::guard_shattrath_aldorAI", "de/d6d/a29109.html", "de/d6d/a29109" ],
+    [ "GuardShattrath", "d4/d86/a04421.html#a7c8fcdd86e1aa9eab132e6321290e79c", [
+      [ "SPELL_BANISHED_SHATTRATH_A", "d4/d86/a04421.html#a7c8fcdd86e1aa9eab132e6321290e79ca958387dd7fcdedf036a81cf2ab4f56fe", null ],
+      [ "SPELL_BANISHED_SHATTRATH_S", "d4/d86/a04421.html#a7c8fcdd86e1aa9eab132e6321290e79ca78bb081a2031299d661fbce8fd5a3d48", null ],
+      [ "SPELL_BANISH_TELEPORT", "d4/d86/a04421.html#a7c8fcdd86e1aa9eab132e6321290e79ca7aecffca2feb1502c591610fee5566e0", null ],
+      [ "SPELL_EXILE", "d4/d86/a04421.html#a7c8fcdd86e1aa9eab132e6321290e79ca6758cdbc7bb8447df1f7b3073833463d", null ]
     ] ],
-    [ "getDirContents", "d4/d86/a04421.html#a3620968f3c1f5c1a3bb0c809ab0eb4ab", null ],
-    [ "matchWildcardFilter", "d4/d86/a04421.html#a0b1c31a5b3e8bebc7fa860b40f7997e1", null ]
+    [ "AddSC_guards", "d4/d86/a04421.html#acba582cbc90c710c629dd30926acdca4", null ]
 ];

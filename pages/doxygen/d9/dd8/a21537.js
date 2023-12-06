@@ -1,6 +1,5 @@
 var a21537 =
 [
-    [ "spell_ignis_scorch_AuraScript", "d5/de1/a21541.html", "d5/de1/a21541" ],
-    [ "spell_ignis_scorch", "d9/dd8/a21537.html#aa278414eee7e3b6462405a72a4834b0e", null ],
-    [ "GetAuraScript", "d9/dd8/a21537.html#a2088147ba5961a3f33d830870e73f084", null ]
+    [ "achievement_staying_buffed_all_winter_25", "d9/dd8/a21537.html#a91f0ab3bada837cff6414350b98a27a3", null ],
+    [ "OnCheck", "d9/dd8/a21537.html#a36591082184bc8466e124bad9a910545", null ]
 ];

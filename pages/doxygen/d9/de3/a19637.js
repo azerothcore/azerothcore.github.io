@@ -1,6 +1,6 @@
 var a19637 =
 [
-    [ "spell_icc_dark_reckoning_AuraScript", "d6/d8e/a19641.html", "d6/d8e/a19641" ],
-    [ "spell_icc_dark_reckoning", "d9/de3/a19637.html#a2c3d2d9cc55b94a2c8dc7c677dc8074b", null ],
-    [ "GetAuraScript", "d9/de3/a19637.html#afd73eb9e1a5bf7c3e5fd5bcc70bb9b39", null ]
+    [ "HandleScript", "d9/de3/a19637.html#a4aae124920b03935281b99951c17c363", null ],
+    [ "PrepareSpellScript", "d9/de3/a19637.html#adb878f25734ab1eaf26bea190c0307ea", null ],
+    [ "Register", "d9/de3/a19637.html#abc314f4d47803c3cb3a2df4663dcdc0e", null ]
 ];

@@ -1,8 +1,9 @@
 var a09473 =
 [
-    [ "Finalize", "d4/d7d/a09473.html#abf4c6547449605e703b424d8aa7f46b5", null ],
-    [ "GetMovementGeneratorType", "d4/d7d/a09473.html#aa1eb3228e14c5b145f7074e97ccdab5f", null ],
-    [ "Initialize", "d4/d7d/a09473.html#a68c249f25ef86f2e50d69698e190ed03", null ],
-    [ "Reset", "d4/d7d/a09473.html#a124e4f9506ef6f31e991e905ce38dc43", null ],
-    [ "Update", "d4/d7d/a09473.html#a4d96b744fa55fa11764873a2c4a891c5", null ]
+    [ "MapUpdateRequest", "d4/d7d/a09473.html#af71812e502bb1ceb60a286ff0d676ccd", null ],
+    [ "call", "d4/d7d/a09473.html#a2cb96db357347d47596725e5c345b02f", null ],
+    [ "m_diff", "d4/d7d/a09473.html#a3f8ff355ac6efb0a6039c7ee5bfc053b", null ],
+    [ "m_map", "d4/d7d/a09473.html#a3612f3e64bb1d2f266c8724c398f5de5", null ],
+    [ "m_updater", "d4/d7d/a09473.html#aeb063738175aa8ddc751290f922ffef2", null ],
+    [ "s_diff", "d4/d7d/a09473.html#a533a8c8a99f82e15dae0d4513c811b01", null ]
 ];

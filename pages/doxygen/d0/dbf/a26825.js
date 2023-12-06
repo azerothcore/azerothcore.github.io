@@ -1,6 +1,6 @@
 var a26825 =
 [
-    [ "CheckProc", "d0/dbf/a26825.html#a21cda631d861161c370a44a2fd2fd2f7", null ],
-    [ "PrepareAuraScript", "d0/dbf/a26825.html#a861caa47c502c42fa84d9f9de74df024", null ],
-    [ "Register", "d0/dbf/a26825.html#ab4275de186b6841a1f424863cb6c128c", null ]
+    [ "HandleScript", "d0/dbf/a26825.html#a913c8c461f291ccaad2f48614c0146c6", null ],
+    [ "PrepareSpellScript", "d0/dbf/a26825.html#a18913a7455cf3f158136f2d3bb415779", null ],
+    [ "Register", "d0/dbf/a26825.html#ac24208b646e95d87fbb340d7779cb7c5", null ]
 ];

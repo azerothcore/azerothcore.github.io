@@ -1,11 +1,13 @@
 var a09933 =
 [
-    [ "PointMoveMap", "d7/d76/a09933.html#a777e97ebcf367638578d1c189480ad99", null ],
-    [ "SystemMgr", "d7/d76/a09933.html#ac7fd54676b46afcbc520e4c58fcdce75", null ],
-    [ "~SystemMgr", "d7/d76/a09933.html#ab192b30aa7ff1edd27bb23e87a7ac4c5", null ],
-    [ "GetPointMoveList", "d7/d76/a09933.html#af9f998f9778cebce3edb39b7296994d5", null ],
-    [ "instance", "d7/d76/a09933.html#a71b78a44a3656802d55211d68fb19e12", null ],
-    [ "LoadScriptWaypoints", "d7/d76/a09933.html#af8097171a2ffc49600397c6a519dddc3", null ],
-    [ "_empty", "d7/d76/a09933.html#a4c90cb038afeb09c107979348bd3ca01", null ],
-    [ "m_mPointMoveMap", "d7/d76/a09933.html#a3603d019adf647df9f314a7ca61a25dd", null ]
+    [ "FormulaScript", "d7/d76/a09933.html#a129b3c2e4ad4423e006e3c94fb05d4c3", null ],
+    [ "OnAfterArenaRatingCalculation", "d7/d76/a09933.html#aa3510b1cfb4661cf6028e1b9f443c865", null ],
+    [ "OnBaseGainCalculation", "d7/d76/a09933.html#ab154eaf469d5fe3e86c364940816270a", null ],
+    [ "OnBeforeUpdatingPersonalRating", "d7/d76/a09933.html#a2208a5684c95b936aa9ca1ae863d9682", null ],
+    [ "OnColorCodeCalculation", "d7/d76/a09933.html#a83893099062d1fb7ce69fe38bf8c4699", null ],
+    [ "OnGainCalculation", "d7/d76/a09933.html#aa83fab65cc89bd03021da2805e935ffb", null ],
+    [ "OnGrayLevelCalculation", "d7/d76/a09933.html#affeb57234f961b9e01f5898c7738f38f", null ],
+    [ "OnGroupRateCalculation", "d7/d76/a09933.html#a1098d29595b4f9206cccf3c3c1dad5f3", null ],
+    [ "OnHonorCalculation", "d7/d76/a09933.html#a54a5e523ad5a9d3eb2dd061ced2d209f", null ],
+    [ "OnZeroDifferenceCalculation", "d7/d76/a09933.html#a7755c35bc56e6645e36de08c12a4847d", null ]
 ];

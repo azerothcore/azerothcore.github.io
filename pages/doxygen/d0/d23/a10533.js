@@ -1,8 +1,9 @@
 var a10533 =
 [
-    [ "SkillDiscoveryEntry", "d0/d23/a10533.html#a54c0f12153c6e63a37e5da44d233b271", null ],
-    [ "SkillDiscoveryEntry", "d0/d23/a10533.html#a301cae078fe1943cae045e94dc3d38ad", null ],
-    [ "chance", "d0/d23/a10533.html#a71cf2c48937e5a2a3c6dd8c499a860a7", null ],
-    [ "reqSkillValue", "d0/d23/a10533.html#a61e0edc8fee1fa4045d846668d08449c", null ],
-    [ "spellId", "d0/d23/a10533.html#a75ca40729917317173b2953c8f47f833", null ]
+    [ "TotemCreated", "d0/d23/a10533.html#a24c9e483d1edb526330311c719d750df", null ],
+    [ "Write", "d0/d23/a10533.html#a554900ae7442f00a63c983ea7ea74510", null ],
+    [ "Duration", "d0/d23/a10533.html#aff6335b86ac051bccb623124905c7180", null ],
+    [ "Slot", "d0/d23/a10533.html#a0889c816fbef728f1a0a6c530c801eac", null ],
+    [ "SpellID", "d0/d23/a10533.html#a2fe9f98b653d7c2afcf3166e86f3756e", null ],
+    [ "Totem", "d0/d23/a10533.html#a684d15c5368e8065c78e9320eebb676b", null ]
 ];

@@ -1,6 +1,6 @@
 var a22333 =
 [
-    [ "achievement_yogg_saron_darkness", "d4/db8/a22333.html#a536c7156305d47c41a062d3c1a1b16eb", null ],
-    [ "OnCheck", "d4/db8/a22333.html#a809902fca87abaeb4334132763624ed6", null ],
-    [ "_keepersCount", "d4/db8/a22333.html#a765ec4606bb489760ed1e15db10de1dc", null ]
+    [ "spell_yogg_saron_empowering_shadows_SpellScript", "d0/d75/a22337.html", "d0/d75/a22337" ],
+    [ "spell_yogg_saron_empowering_shadows", "d4/db8/a22333.html#a6204dd963111b21490ae06d121fec1e6", null ],
+    [ "GetSpellScript", "d4/db8/a22333.html#a860f4c74925de8e7a23dd0a4409e179b", null ]
 ];

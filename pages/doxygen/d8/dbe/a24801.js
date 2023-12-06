@@ -1,8 +1,6 @@
 var a24801 =
 [
-    [ "Absorb", "d8/dbe/a24801.html#a2f4d57b97976f66cae41682c5b9895be", null ],
-    [ "CalculateAmount", "d8/dbe/a24801.html#a075b82060227561a81b016acb14adb6a", null ],
-    [ "PrepareAuraScript", "d8/dbe/a24801.html#a98b3864c6e38edcfedea24f2561d8e66", null ],
-    [ "Register", "d8/dbe/a24801.html#a5180b43d5a6fac42e01d2751db8e7547", null ],
-    [ "Update", "d8/dbe/a24801.html#aa401524c4bf729bed5c46586d7214374", null ]
+    [ "HandleScriptEffect", "d8/dbe/a24801.html#a07a7ee7a354c05b286692bb93bc37d59", null ],
+    [ "PrepareSpellScript", "d8/dbe/a24801.html#a51f6fb8b0db9d315f25663dcecfa50e5", null ],
+    [ "Register", "d8/dbe/a24801.html#a728d1ab2258c75b1cfed0928e17b6a4d", null ]
 ];

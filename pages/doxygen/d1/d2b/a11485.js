@@ -1,8 +1,9 @@
 var a11485 =
 [
-    [ "boss_drakkisathAI", "d1/d2b/a11485.html#a7c347bcdb092afcd64b481b87d0895ea", null ],
-    [ "JustEngagedWith", "d1/d2b/a11485.html#a09f7c704579bdb8dad951ce63b5a54c9", null ],
-    [ "UpdateAI", "d1/d2b/a11485.html#a02ffab01744c0dbb8b5a60794e82bdb0", null ],
-    [ "_conflagrateTarget", "d1/d2b/a11485.html#a6a74b74e4e4b45aec86f70a5211ddd28", null ],
-    [ "_conflagrateThreat", "d1/d2b/a11485.html#aae3762b27c3d99b32f47293c544e4afe", null ]
+    [ "npc_burning_spiritAI", "d1/d2b/a11485.html#a52f63423d09794446b0c01da2feb325d", null ],
+    [ "EnterEvadeMode", "d1/d2b/a11485.html#a567a7a023bb83a1228bb458ea16ee2fc", null ],
+    [ "IsSummonedBy", "d1/d2b/a11485.html#a65ee7b6dd6d4394cc04a6260fc75827e", null ],
+    [ "MovementInform", "d1/d2b/a11485.html#a0a02ece5a3ff1eefa30fd27a9cc84d10", null ],
+    [ "_events", "d1/d2b/a11485.html#a9af0f46710741bba3d8401d1a1fb0556", null ],
+    [ "_flamelasherGUID", "d1/d2b/a11485.html#abfc34e3e45d1e74b328a91f6f8981191", null ]
 ];

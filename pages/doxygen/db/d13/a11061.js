@@ -1,10 +1,6 @@
 var a11061 =
 [
-    [ "bf_commandscript", "db/d13/a11061.html#a806ca440ae1b51fffefee9d298dab3df", null ],
-    [ "GetCommands", "db/d13/a11061.html#a97f0192d7ccd3532cfceaebff9f242be", null ],
-    [ "HandleBattlefieldEnable", "db/d13/a11061.html#a08dd3bdd279c760fe0f126200a01619e", null ],
-    [ "HandleBattlefieldEnd", "db/d13/a11061.html#af7100032ad26a66fbc9d9b37d1da98e1", null ],
-    [ "HandleBattlefieldStart", "db/d13/a11061.html#a55102cc3b29a3ded0832ec82be1e3a5e", null ],
-    [ "HandleBattlefieldSwitch", "db/d13/a11061.html#ac12cac377007d90b25b9797f2b2cc8de", null ],
-    [ "HandleBattlefieldTimer", "db/d13/a11061.html#a7168b3db9435d70e2c5ca5eb41fc8ef2", null ]
+    [ "FieldGuidType", "db/d13/a11061.html#a88e763ed9715ad76a0eb1c1a9ad7a59b", null ],
+    [ "FieldName", "db/d13/a11061.html#a669f1ecf12148799e59e7b3e3124d681", null ],
+    [ "IsDependentField", "db/d13/a11061.html#a241b9e8f5672e30732f0b938b02046d4", null ]
 ];

@@ -1,8 +1,6 @@
 var a25557 =
 [
-    [ "HandleEffectApply", "d0/d41/a25557.html#acd1342b1b260b495cdaf7c5c0b6f9c25", null ],
-    [ "HandleEffectRemove", "d0/d41/a25557.html#a534a2d2dbd3c35eb11eed0ae618a02d5", null ],
-    [ "PrepareAuraScript", "d0/d41/a25557.html#a37b8f6dff913fe04d8d4d68b30c2cc6a", null ],
-    [ "Register", "d0/d41/a25557.html#ab02c14d9a79430eb702a26c11afa9ad9", null ],
-    [ "_falconSet", "d0/d41/a25557.html#a9cf7ea5562216826a81d229c9a51f929", null ]
+    [ "spell_kaelthas_summon_weapons_SpellScript", "dc/d5c/a25561.html", "dc/d5c/a25561" ],
+    [ "spell_kaelthas_summon_weapons", "d0/d41/a25557.html#a7c2a3c3485ac721e9aa229ec7d981668", null ],
+    [ "GetSpellScript", "d0/d41/a25557.html#a8ddc67813022a57e6e9d4b8175c58441", null ]
 ];

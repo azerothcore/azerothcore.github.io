@@ -1,5 +1,6 @@
 var a19665 =
 [
-    [ "PrepareAuraScript", "d2/d14/a19665.html#a4148aaaa652895971f00c0c75c8d6581", null ],
-    [ "Register", "d2/d14/a19665.html#a81eb93851fe05e9f316e268a0149c9ed", null ]
+    [ "spell_icc_web_wrap_AuraScript", "da/de9/a19669.html", "da/de9/a19669" ],
+    [ "spell_icc_web_wrap", "d2/d14/a19665.html#aedb4941dc8c485d3b952d05773df8aee", null ],
+    [ "GetAuraScript", "d2/d14/a19665.html#a75a7b4c03f65c328851257385462f663", null ]
 ];

@@ -1,6 +1,6 @@
 var a29389 =
 [
-    [ "npc_pet_trainerAI", "df/d1b/a29393.html", "df/d1b/a29393" ],
-    [ "npc_pet_trainer", "d5/d2a/a29389.html#ac2279bce52e911b1c339da5e68aa2501", null ],
-    [ "GetAI", "d5/d2a/a29389.html#a4ecf9ac0abf43a00dc6bff2d2283eb37", null ]
+    [ "npc_stable_masterAI", "df/d1b/a29393.html", "df/d1b/a29393" ],
+    [ "npc_stable_master", "d5/d2a/a29389.html#ad327340f47e10bec7f077192227b0899", null ],
+    [ "GetAI", "d5/d2a/a29389.html#a7e34e18d2dad465eb88b0388fa830490", null ]
 ];

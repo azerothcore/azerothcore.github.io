@@ -1,15 +1,13 @@
 var a15153 =
 [
-    [ "boss_skeram", "d2/d6e/a15153.html#a293710a88c91a181ee1000939386e176", null ],
-    [ "DoTeleport", "d2/d6e/a15153.html#a96166ddebd5906868b872c39a6755a70", null ],
-    [ "EnterEvadeMode", "d2/d6e/a15153.html#ab050e31d661c8c089d175de231b0eeb2", null ],
-    [ "JustDied", "d2/d6e/a15153.html#a6b30a6ca5167aae41ad70bd502265d2b", null ],
-    [ "JustEngagedWith", "d2/d6e/a15153.html#a07bba9a1a62ad9ad15b9cd42b5d5b3d3", null ],
-    [ "JustSummoned", "d2/d6e/a15153.html#a3e3d74bc646a96e20a88d3541f806c62", null ],
-    [ "KilledUnit", "d2/d6e/a15153.html#a185cb6686d37e064278260ebe5fae13a", null ],
-    [ "Reset", "d2/d6e/a15153.html#a08c9c2c577ef4b713594ca67f4c87a68", null ],
-    [ "UpdateAI", "d2/d6e/a15153.html#aaf29331e0fac71479747d62fd9f1e301", null ],
-    [ "_copiesGUIDs", "d2/d6e/a15153.html#a28f1465938dc2141779d5171ea09ecd0", null ],
-    [ "_flag", "d2/d6e/a15153.html#a0abcf1e8721aa972be70774d5be7b53b", null ],
-    [ "_hpct", "d2/d6e/a15153.html#a5c8760788264a9a04a28c05a0247676c", null ]
+    [ "npc_giant_claw_tentacle", "d2/d6e/a15153.html#aa50511886122a337fc59585fba03b590", null ],
+    [ "Emerge", "d2/d6e/a15153.html#ad5fd7a9246c9c7aba0fa71d331e1f512", null ],
+    [ "JustDied", "d2/d6e/a15153.html#aaaed0a9fb39d30f5c9c7381e923a3d1e", null ],
+    [ "JustEngagedWith", "d2/d6e/a15153.html#ad4dceaafa3bb12b2e5cb7d9530c59d31", null ],
+    [ "Reset", "d2/d6e/a15153.html#a8da9c7e164bc7d7bc6e70a784420c3bc", null ],
+    [ "ScheduleTasks", "d2/d6e/a15153.html#af62d155ec2cf4f56c956869aed8fa1f9", null ],
+    [ "Submerge", "d2/d6e/a15153.html#ac4fedda976b2de295350363e9fef86ec", null ],
+    [ "UpdateAI", "d2/d6e/a15153.html#aa3cc1eac6fe92e4325ec0b5a4f7a2604", null ],
+    [ "_canAttack", "d2/d6e/a15153.html#a62be930ba345b1d2e0df832e72570752", null ],
+    [ "_portalGUID", "d2/d6e/a15153.html#a175bd11b9d5651d44cc0dd213b2c4ef5", null ]
 ];

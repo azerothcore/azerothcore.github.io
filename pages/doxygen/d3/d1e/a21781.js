@@ -1,8 +1,9 @@
 var a21781 =
 [
-    [ "npc_ulduar_expedition_commanderAI", "da/dd2/a21785.html", "da/dd2/a21785" ],
-    [ "npc_ulduar_expedition_commander", "d3/d1e/a21781.html#a8513554f686b75c29524fa5b2fa93ee4", null ],
-    [ "GetAI", "d3/d1e/a21781.html#aa888a3634a643a103075d44c8f52d28a", null ],
-    [ "OnGossipHello", "d3/d1e/a21781.html#a6b52abae7ec1be10fcb5385ec928b785", null ],
-    [ "OnGossipSelect", "d3/d1e/a21781.html#a5d212e5e21d9ffb8c60e883e065c1801", null ]
+    [ "npc_ulduar_emergency_fire_botAI", "d3/d1e/a21781.html#a98ad3308b0fa56847ce6f5583bdfaba9", null ],
+    [ "AttackStart", "d3/d1e/a21781.html#aa18e89f63e98112efeb69328f8fdc296", null ],
+    [ "MoveInLineOfSight", "d3/d1e/a21781.html#a6384437fff9349df0cfa5053b37313ea", null ],
+    [ "MovementInform", "d3/d1e/a21781.html#a2f7d5b821ea4bf80bd01d469859f6fb6", null ],
+    [ "UpdateAI", "d3/d1e/a21781.html#a71d24eb5cea764011249b8ff78c3ed6c", null ],
+    [ "events", "d3/d1e/a21781.html#a5099c03b3ab1eb437ea11a0c4e8650f1", null ]
 ];

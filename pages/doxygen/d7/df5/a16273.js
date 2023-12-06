@@ -1,6 +1,7 @@
 var a16273 =
 [
-    [ "spell_halion_twilight_cutter_SpellScript", "d1/df0/a16277.html", "d1/df0/a16277" ],
-    [ "spell_halion_twilight_cutter", "d7/df5/a16273.html#ad9ceead388f32306e9cf2e2603e01882", null ],
-    [ "GetSpellScript", "d7/df5/a16273.html#a99fd42199990727fbfbea965e5a44cd7", null ]
+    [ "Load", "d7/df5/a16273.html#a8e6c15c63b925dc55a9dfaf4d31273d3", null ],
+    [ "Phase", "d7/df5/a16273.html#a5e0d90d4751368d4dbedd1dd17c0fbd9", null ],
+    [ "PrepareSpellScript", "d7/df5/a16273.html#ae500eacb492b25784071d202c60e2525", null ],
+    [ "Register", "d7/df5/a16273.html#ae2bb0092596ef7268052e5e9d15b873c", null ]
 ];

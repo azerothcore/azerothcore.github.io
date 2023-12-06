@@ -1,6 +1,6 @@
 var a24281 =
 [
-    [ "npc_akama_illidanAI", "d4/d1d/a24285.html", "d4/d1d/a24285" ],
-    [ "npc_akama_illidan", "dc/dad/a24281.html#a85a312a767fb181f0bd626eb48e8e891", null ],
-    [ "GetAI", "dc/dad/a24281.html#a75648fc8291574b7bf16cd0c8e015384", null ]
+    [ "PrepareSpellScript", "dc/dad/a24281.html#abd6b61e7efbed1427b7603640ac7d474", null ],
+    [ "RecalculateDamage", "dc/dad/a24281.html#a02b59e5ac84c8556c9a9441ff6414461", null ],
+    [ "Register", "dc/dad/a24281.html#ab6183bf9e49d3c11c256e54053c13aa2", null ]
 ];

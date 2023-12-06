@@ -1,8 +1,10 @@
 var a20257 =
 [
-    [ "FilterTargets", "d7/df4/a20257.html#a69c9f495d5695adaf01deb9aef380bbc", null ],
-    [ "Load", "d7/df4/a20257.html#a086df5b42d189fdc3c7e643bef29603e", null ],
-    [ "PrepareSpellScript", "d7/df4/a20257.html#a8092a3659775075c2ccab2d306ff7db0", null ],
-    [ "Register", "d7/df4/a20257.html#a0c7285dc6686e691c05e51bd4d36049d", null ],
-    [ "DrakeGUID", "d7/df4/a20257.html#a1895e19686fb4aa53592451b6d6982ea", null ]
+    [ "npc_scion_of_eternityAI", "d7/df4/a20257.html#a2893db70b6a1ffa14d02dd5cea7f7c0a", null ],
+    [ "AttackStart", "d7/df4/a20257.html#a1335f9e34ff73d5501455062be025ada", null ],
+    [ "JustDied", "d7/df4/a20257.html#a81dcae5ef2bbd28b891e46c377fbe153", null ],
+    [ "MoveInLineOfSight", "d7/df4/a20257.html#a74a69fa532f0921285ef678bbd2fa761", null ],
+    [ "UpdateAI", "d7/df4/a20257.html#adb16afb6ea1583a7156b80a8d833951a", null ],
+    [ "events", "d7/df4/a20257.html#ae0e194a24a14033a499e68524da1699d", null ],
+    [ "pInstance", "d7/df4/a20257.html#aa828ca4a75696645d7aa350f1f981f40", null ]
 ];

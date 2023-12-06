@@ -1,7 +1,6 @@
 var a15281 =
 [
-    [ "npc_rizzle_sprysprocketAI", "d2/dca/a15285.html", "d2/dca/a15285" ],
-    [ "npc_rizzle_sprysprocket", "d0/d3c/a15281.html#a3bd65f716b42200cc37d2264ddedf735", null ],
-    [ "GetAI", "d0/d3c/a15281.html#ae445545476b4046db305117fa635e7f5", null ],
-    [ "OnGossipHello", "d0/d3c/a15281.html#a3a42f3ffc35683b55de5bcc8d2b24647", null ]
+    [ "HandleDummy", "d0/d3c/a15281.html#ac06b2b8e07ebc51a281c70663796dcc3", null ],
+    [ "PrepareSpellScript", "d0/d3c/a15281.html#aa60cc00f33e329fe8d010c0e1c00989a", null ],
+    [ "Register", "d0/d3c/a15281.html#aee9d14b3f45cb43478f970e9e6e173fd", null ]
 ];

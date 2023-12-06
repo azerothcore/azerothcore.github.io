@@ -1,7 +1,7 @@
 var a08501 =
 [
-    [ "IsFitToRequirements", "dd/dc7/a08501.html#ac175634ed2eab2911c3749fa208a073a", null ],
-    [ "castFlags", "dd/dc7/a08501.html#a03cd65a460ea252818de9230cb656c1c", null ],
-    [ "spellId", "dd/dc7/a08501.html#a34641755a5267b7a907d320cc5b4ddb4", null ],
-    [ "userType", "dd/dc7/a08501.html#adcf285572403481cb418bddebc5f4bfa", null ]
+    [ "equipement_id_prev", "dd/dc7/a08501.html#a93a895fa31cef29fa739225316886e78", null ],
+    [ "equipment_id", "dd/dc7/a08501.html#af21361c600fb9609f554b64bc5cfb4c2", null ],
+    [ "modelid", "dd/dc7/a08501.html#a53296cbdf02039d19610c21e0f7d5d1d", null ],
+    [ "modelid_prev", "dd/dc7/a08501.html#a976ce0cdd7c8e95465bc999d26347bde", null ]
 ];

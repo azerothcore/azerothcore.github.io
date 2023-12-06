@@ -1,5 +1,5 @@
 var a10525 =
 [
-    [ "SocketAdded", "d2/d73/a10525.html#a89b23aa46aca3772ad0c0f36f41db537", null ],
-    [ "SocketRemoved", "d2/d73/a10525.html#a4f4ec084812a4191a477f7fa9223fa6e", null ]
+    [ "RequestPetInfo", "d2/d73/a10525.html#ae0861d1fb77fe39bb48c26505e36ed2b", null ],
+    [ "Read", "d2/d73/a10525.html#a5cc9bb57bce7dc7f24243fdc63e17870", null ]
 ];

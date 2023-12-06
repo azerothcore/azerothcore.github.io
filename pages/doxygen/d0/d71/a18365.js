@@ -1,6 +1,6 @@
 var a18365 =
 [
-    [ "UnboundPlagueTargetSelector", "d0/d71/a18365.html#aedde7e013418bf6ff54cf3d3b8a70206", null ],
-    [ "operator()", "d0/d71/a18365.html#ae5fc2623d4eb0b0a82b3eaa464c92458", null ],
-    [ "_source", "d0/d71/a18365.html#a87eb77615e443ccec373d571708a156a", null ]
+    [ "spell_marrowgar_bone_spike_graveyard_SpellScript", "d3/d92/a18369.html", "d3/d92/a18369" ],
+    [ "spell_marrowgar_bone_spike_graveyard", "d0/d71/a18365.html#a864ea8ffea57aefbd4d92e0a8c960323", null ],
+    [ "GetSpellScript", "d0/d71/a18365.html#afa11cb9ccede138e06ea4e34d66cdbfa", null ]
 ];

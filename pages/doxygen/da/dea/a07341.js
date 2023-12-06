@@ -1,6 +1,4 @@
 var a07341 =
 [
-    [ "value_type", "da/dea/a07341.html#a6ffbf1b2887c79b97a1804a601ea585e", null ],
-    [ "StoreTo", "da/dea/a07341.html#a872daea2854f6243884ec35734f94d2e", null ],
-    [ "tag", "da/dea/a07341.html#acbb2b3fc4989e4bb51e3440dcb753719", null ]
+    [ "type", "da/dea/a07341.html#aac128f2d5d1c3b1eb5bdd3c76a2a65e9", null ]
 ];

@@ -1,6 +1,7 @@
 var a22289 =
 [
-    [ "spell_yogg_saron_sanity_reduce_SpellScript", "d5/d61/a22293.html", "d5/d61/a22293" ],
-    [ "spell_yogg_saron_sanity_reduce", "de/dc1/a22289.html#ae0e7e2c0654c5887bf9f98081ced0315", null ],
-    [ "GetSpellScript", "de/dc1/a22289.html#a6cfe3a8ef8222457f774e5ac93e44329", null ]
+    [ "Absorb", "de/dc1/a22289.html#adc30ef8d15141d4383e2b77eb50dc3af", null ],
+    [ "CalculateAmount", "de/dc1/a22289.html#ae6fa05fb3ae30b46152f74fd8a25a3b4", null ],
+    [ "PrepareAuraScript", "de/dc1/a22289.html#afdf2cc3c97cbe0daa9a03ab86f2de2b7", null ],
+    [ "Register", "de/dc1/a22289.html#a9b2df6c823078462db0f063ce3895651", null ]
 ];

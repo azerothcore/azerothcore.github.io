@@ -1,10 +1,7 @@
 var a07609 =
 [
-    [ "auras", "d5/dba/a07609.html#a20695ff7997e1ebd6fe898a8b41aeddb", null ],
-    [ "bytes1", "d5/dba/a07609.html#ae337bd59e1e1eb7f4c9cdee4e8c6a7b9", null ],
-    [ "bytes2", "d5/dba/a07609.html#aedf06568867bbb5db5ca8017727dab9d", null ],
-    [ "emote", "d5/dba/a07609.html#a82f7be10807af7b25dd41c643be066fc", null ],
-    [ "mount", "d5/dba/a07609.html#a4d84276a45de1b62e507ac5c763dce3a", null ],
-    [ "path_id", "d5/dba/a07609.html#aa86bac734e0e652b6bb4ea273cf62571", null ],
-    [ "visibilityDistanceType", "d5/dba/a07609.html#ad3ae39b8c5be151e15ab6f1494943bc3", null ]
+    [ "RBEntryInfo", "d5/dba/a07609.html#aa720dd6cae9ee7163bb9b84918249644", null ],
+    [ "RBEntryInfo", "d5/dba/a07609.html#a3df17ed1c70ed9b755843308d5ff6336", null ],
+    [ "comment", "d5/dba/a07609.html#a7284eac7208dba21a52b79257aad7dbc", null ],
+    [ "roles", "d5/dba/a07609.html#ab891dec65b0070ede1233080eadd0190", null ]
 ];

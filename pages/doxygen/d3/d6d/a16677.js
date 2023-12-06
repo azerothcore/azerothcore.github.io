@@ -1,7 +1,6 @@
 var a16677 =
 [
-    [ "HandleDispel", "d3/d6d/a16677.html#ab720416f0497b4ad827208e186afd79a", null ],
-    [ "PrepareAuraScript", "d3/d6d/a16677.html#a2f79b7869018b4a775c64c8d985d4a0c", null ],
-    [ "Register", "d3/d6d/a16677.html#a26c918009fa3a3cf8b0145c2d2812588", null ],
-    [ "Validate", "d3/d6d/a16677.html#a37964b313e11c1e14a7df4a1acb18c10", null ]
+    [ "npc_toc_enh_shamanAI", "db/d55/a16681.html", "db/d55/a16681" ],
+    [ "npc_toc_enh_shaman", "d3/d6d/a16677.html#ac328b63a988d2cd8640237b250c338a8", null ],
+    [ "GetAI", "d3/d6d/a16677.html#a4501c9289a06750d8f153f89565b12f3", null ]
 ];

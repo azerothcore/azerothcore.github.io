@@ -1,7 +1,6 @@
 var a14117 =
 [
-    [ "GetEmptyEntry", "d2/d6c/a14117.html#a46dfe7b2f8598d24f17868266d1571c6", null ],
-    [ "HandleAfterHit", "d2/d6c/a14117.html#a4f8ab6e42ddf2188ccca2640363b9925", null ],
-    [ "PrepareSpellScript", "d2/d6c/a14117.html#a35f0ab4b36df3d9ec1191cbd9ba88c9e", null ],
-    [ "Register", "d2/d6c/a14117.html#a25e1858e1f81891443f4b7de50a5d495", null ]
+    [ "npc_brewfest_keg_thrower", "d2/d6c/a14117.html#a29da1efd21fe6737684607e5b360ea84", null ],
+    [ "CanBeSeen", "d2/d6c/a14117.html#a36212d0f17c0070d3ef3cc25577ff7b9", null ],
+    [ "MoveInLineOfSight", "d2/d6c/a14117.html#a3938b0e63553e79302ba966c6cdcf9be", null ]
 ];

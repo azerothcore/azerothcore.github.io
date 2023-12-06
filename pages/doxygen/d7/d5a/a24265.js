@@ -1,6 +1,7 @@
 var a24265 =
 [
-    [ "spell_gurtogg_eject_SpellScript", "df/d58/a24269.html", "df/d58/a24269" ],
-    [ "spell_gurtogg_eject", "d7/d5a/a24265.html#a47643f50a74587d3912e2690e505c5af", null ],
-    [ "GetSpellScript", "d7/d5a/a24265.html#a2f5fed0293e09b18b9adb8617475f46c", null ]
+    [ "npc_voidtraveler", "d7/d5a/a24265.html#a07e473c14836a0612acd52078a93f2d8", null ],
+    [ "Reset", "d7/d5a/a24265.html#a6efe0725917c92657220de2b60579289", null ],
+    [ "UpdateAI", "d7/d5a/a24265.html#aaa907fe2f6ef1029a23fd819af0a44c3", null ],
+    [ "_scheduler", "d7/d5a/a24265.html#a1809494e7803103f6bc1698e780dcfbc", null ]
 ];

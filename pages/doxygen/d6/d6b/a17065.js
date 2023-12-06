@@ -1,5 +1,6 @@
 var a17065 =
 [
-    [ "npc_fos_leader_secondAI", "d6/d6b/a17065.html#a25df0b8760e9eb7d330779e10e3ac548", null ],
-    [ "MovementInform", "d6/d6b/a17065.html#a9cc0b500f1289dc8b764b3755468e639", null ]
+    [ "spell_bronjahm_soulstorm_targeting_SpellScript", "dc/dff/a17069.html", "dc/dff/a17069" ],
+    [ "spell_bronjahm_soulstorm_targeting", "d6/d6b/a17065.html#ab3fe64ee2014ae7bd7dc04762308f6ce", null ],
+    [ "GetSpellScript", "d6/d6b/a17065.html#af963a89a43ce6a9b1e09b173ff34c363", null ]
 ];

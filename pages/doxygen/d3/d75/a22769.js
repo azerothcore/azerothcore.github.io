@@ -1,12 +1,10 @@
 var a22769 =
 [
-    [ "boss_moraggAI", "d3/d75/a22769.html#a3ae881c9adca20a2cb894af85297d53e", null ],
-    [ "EnterEvadeMode", "d3/d75/a22769.html#a4e70e42407f452c4685c732949fd2b52", null ],
-    [ "JustDied", "d3/d75/a22769.html#a97516e6ad5f7f35d0329674130e76dd3", null ],
-    [ "JustEngagedWith", "d3/d75/a22769.html#ab1d4d863a537a3c567eeda6f95f385ca", null ],
-    [ "MoveInLineOfSight", "d3/d75/a22769.html#a52a99d72dfa017baacb76717e6db931b", null ],
-    [ "Reset", "d3/d75/a22769.html#a8b7419c94e36b4b2292cf110a2eccb01", null ],
-    [ "UpdateAI", "d3/d75/a22769.html#aec7645eaae190d1e7982aae181ff9224", null ],
-    [ "events", "d3/d75/a22769.html#acd021e4216e3920f0534da95d69ba5eb", null ],
-    [ "pInstance", "d3/d75/a22769.html#a9f179ea9b180095a1e6df11b4842c5e5", null ]
+    [ "npc_erekem_guardAI", "d3/d75/a22769.html#a1ce40b70a35fc76e6ac0af449b7f4ded", null ],
+    [ "JustEngagedWith", "d3/d75/a22769.html#a93819c5c76821b1c9559be55359d677e", null ],
+    [ "MoveInLineOfSight", "d3/d75/a22769.html#aa1140892c13f4c070b1f3f1bf2230bb5", null ],
+    [ "Reset", "d3/d75/a22769.html#a079be6dd45e96184d66e95f031dc9c5f", null ],
+    [ "UpdateAI", "d3/d75/a22769.html#ab2c55e384f624b0f671e42e381aa3a37", null ],
+    [ "events", "d3/d75/a22769.html#a15afc8dd6d6e15fcd1a632728ad8d16e", null ],
+    [ "pInstance", "d3/d75/a22769.html#a81985b8522111f2aae540353cd5641fe", null ]
 ];

@@ -1,16 +1,18 @@
 var a19937 =
 [
-    [ "boss_gluthAI", "d9/d46/a19937.html#a3ae0608d19cbc7ce5a561e0ae3e66d0d", null ],
-    [ "JustDied", "d9/d46/a19937.html#ada2c5f6b7025f5f2fb67b8ebe3b2d56c", null ],
-    [ "JustEngagedWith", "d9/d46/a19937.html#a25cf670d7254cc8331752987a854c63b", null ],
-    [ "JustSummoned", "d9/d46/a19937.html#acc09328210fbf1a6e81999d548676ae4", null ],
-    [ "KilledUnit", "d9/d46/a19937.html#a691d46055b922efc9d1ec93a8b0fb842", null ],
-    [ "MoveInLineOfSight", "d9/d46/a19937.html#a2aaf43f7d1555a005ef263ceaad8304c", null ],
-    [ "Reset", "d9/d46/a19937.html#acb9f68205a2a210737d43893a414ca52", null ],
-    [ "SelectPlayerInRoom", "d9/d46/a19937.html#a1f8f87b00291d8164f607ac6262506cf", null ],
-    [ "SummonedCreatureDies", "d9/d46/a19937.html#a115a1f1327a931067223734dbf414675", null ],
-    [ "UpdateAI", "d9/d46/a19937.html#a2505f7ebda7b623edfedf96979a4a920", null ],
-    [ "events", "d9/d46/a19937.html#adaf9581259a774087ce02725b42b6b47", null ],
-    [ "pInstance", "d9/d46/a19937.html#a2546d250e59df4666ac536e371b3aa66", null ],
-    [ "summons", "d9/d46/a19937.html#a18f6aa3d949e68e9b38398780c017082", null ]
+    [ "boss_anubrekhanAI", "d9/d46/a19937.html#a6ff658a5aab3b13c4594f5bc44a62818", null ],
+    [ "JustDied", "d9/d46/a19937.html#a8a32a256b39558e802d45ae5f4038b79", null ],
+    [ "JustEngagedWith", "d9/d46/a19937.html#a0cd5bd7a04b52abcc23a2131d5cbfd2e", null ],
+    [ "JustSummoned", "d9/d46/a19937.html#a9fa11bc9192f0b75220383b3ef876219", null ],
+    [ "KilledUnit", "d9/d46/a19937.html#a9070ebcd6ca976fc89af88b3de177bcc", null ],
+    [ "MoveInLineOfSight", "d9/d46/a19937.html#a75dd903dd059a0fe20e291713e880bc3", null ],
+    [ "Reset", "d9/d46/a19937.html#acd6ae267a6848e146128d56196d1af79", null ],
+    [ "SummonCryptGuards", "d9/d46/a19937.html#a1dbf747694350bdc835f19ed0b22741c", null ],
+    [ "SummonedCreatureDespawn", "d9/d46/a19937.html#aed898275510001cf963cf3456cbbfb25", null ],
+    [ "SummonedCreatureDies", "d9/d46/a19937.html#a4889de03a80cc4c3bc0fd41042d1d905", null ],
+    [ "UpdateAI", "d9/d46/a19937.html#acc6a5828a634f89d20984e5acfde566c", null ],
+    [ "events", "d9/d46/a19937.html#a87aec60fd4f7ffc6f93a46b6ff970bac", null ],
+    [ "pInstance", "d9/d46/a19937.html#a7a0add9c387d09b391e32e6523f35beb", null ],
+    [ "sayGreet", "d9/d46/a19937.html#ab2210c62a9a21f426f0ef0b1b1d27162", null ],
+    [ "summons", "d9/d46/a19937.html#adb999cdeb1d510798f02541184ce1637", null ]
 ];

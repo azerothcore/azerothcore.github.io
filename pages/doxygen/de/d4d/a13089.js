@@ -1,7 +1,6 @@
 var a13089 =
 [
-    [ "FilterTargets", "de/d4d/a13089.html#a89d56e369459d67389916d2c07bcb5f9", null ],
-    [ "HandleScriptEffect", "de/d4d/a13089.html#a57f0fdd0edc1df10bcf5719b73ebd028", null ],
-    [ "PrepareSpellScript", "de/d4d/a13089.html#adb382b4a53e362badddea461909782c4", null ],
-    [ "Register", "de/d4d/a13089.html#a8b8c6e648d04589e72f996ded2856128", null ]
+    [ "spell_kalecgos_spectral_blast_dummy_SpellScript", "de/db4/a13093.html", "de/db4/a13093" ],
+    [ "spell_kalecgos_spectral_blast_dummy", "de/d4d/a13089.html#a26d3ba33ac32bae860a5b1baadac2530", null ],
+    [ "GetSpellScript", "de/d4d/a13089.html#a5d7f9bd1edec3489eb2fc7bfbb7e9e33", null ]
 ];

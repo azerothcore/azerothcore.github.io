@@ -1,7 +1,7 @@
 var a10273 =
 [
-    [ "Playsound", "dd/d4f/a10273.html#a955f91d0d65c64f154f99b3b9472e273", null ],
-    [ "Playsound", "dd/d4f/a10273.html#aa242d4ca729d67d7fd58dc81985f22f9", null ],
-    [ "Write", "dd/d4f/a10273.html#acb4bdd9a1613a158832115e4c18bfcd9", null ],
-    [ "SoundKitID", "dd/d4f/a10273.html#a922cb6d06285bdf9f3d89ff990c40b0a", null ]
+    [ "GuildSetMemberNote", "dd/d4f/a10273.html#a4747c3d015cb1b0d0056928fd75e4d18", null ],
+    [ "Read", "dd/d4f/a10273.html#a3d90b6ce26d55a55bac1d953dd39b049", null ],
+    [ "Note", "dd/d4f/a10273.html#a33b7b73bd5d26c2a0ac99d6dc0131c41", null ],
+    [ "NoteeName", "dd/d4f/a10273.html#acf6beb0a5b122a04162e9d2c027203af", null ]
 ];

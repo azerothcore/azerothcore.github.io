@@ -1,9 +1,7 @@
 var a29409 =
 [
-    [ "npc_fireworkAI", "da/d93/a29409.html#a8fad089d1edc09edbaf215f07722e9e6", null ],
-    [ "FindNearestLauncher", "da/d93/a29409.html#a156e63c90f9b64cfd71c0262d28f1383", null ],
-    [ "GetFireworkGameObjectId", "da/d93/a29409.html#ae17b4abbbb2088799cec188457677d44", null ],
-    [ "GetFireworkSpell", "da/d93/a29409.html#a6270e753ab81062a7c39ca6c6b46c993", null ],
-    [ "isCluster", "da/d93/a29409.html#a4b3cdedaa2a57d23bf9f509cabdaff0c", null ],
-    [ "Reset", "da/d93/a29409.html#a3e2ce8787cd08b8bb900c009bd7e8af0", null ]
+    [ "npc_crashin_thrashin_robot", "da/d93/a29409.html#ad21336d212498b1c9ef5d46979d147ab", null ],
+    [ "IsSummonedBy", "da/d93/a29409.html#a0652cd455791461f613ab4ebf77d2c3c", null ],
+    [ "UpdateAI", "da/d93/a29409.html#a1d21cd2075f3aeba2c7f1e735a33dfec", null ],
+    [ "_scheduler", "da/d93/a29409.html#a55778501d154d0a9e77f76054e926f85", null ]
 ];

@@ -1,20 +1,9 @@
 var a18001 =
 [
-    [ "npc_muradin_bronzebeard_igbAI", "db/d37/a18001.html#aa29123d2482962c17a48e66db205207b", null ],
-    [ "AttackStart", "db/d37/a18001.html#a7b5de4a7fd5fd49847a749a82d3dbb3e", null ],
-    [ "CanAIAttack", "db/d37/a18001.html#a2e0d4d678cf315ac1d58e6bab290479f", null ],
-    [ "DamageTaken", "db/d37/a18001.html#afd7e3b65e8091e5f24367c8de65df200", null ],
-    [ "DoAction", "db/d37/a18001.html#ae57b20a747ec0421f28f6d12a55d48d3", null ],
-    [ "EnterEvadeMode", "db/d37/a18001.html#ac3ab7ebfd6ae536743d557bb26434d28", null ],
-    [ "JustEngagedWith", "db/d37/a18001.html#ad2693aba63dec87b5d57aeac7969819a", null ],
-    [ "SetData", "db/d37/a18001.html#a5416f116eb1a8707d546c99af157642d", null ],
-    [ "sGossipSelect", "db/d37/a18001.html#ad6362193938539f78d3726687f03badc", null ],
-    [ "UpdateAI", "db/d37/a18001.html#a7fe22201514986bc20fbe9e7f27d410a", null ],
-    [ "_controller", "db/d37/a18001.html#aec8a2a424ff10099437cbc7e7ca03ae3", null ],
-    [ "_events", "db/d37/a18001.html#ab72a5bf5b6313b51002ff96ca8ee4971", null ],
-    [ "_firstMageCooldown", "db/d37/a18001.html#a7cb5e81a09283c1ca915ec4419363af4", null ],
-    [ "_instance", "db/d37/a18001.html#a5d6a8a6c7b0469de2151c9363d63c0ce", null ],
-    [ "_mortarYellCooldown", "db/d37/a18001.html#af13f2f59692b16ad24d17442efe9f834", null ],
-    [ "_riflemanYellCooldown", "db/d37/a18001.html#ac7f039bb890fdd08dc616f23680d37e4", null ],
-    [ "checkTimer", "db/d37/a18001.html#a0416f980547177f722cdd4305823d99e", null ]
+    [ "BattleExperienceEvent", "db/d37/a18001.html#a3091b403089533ce2ebbb40fa38f28c9", null ],
+    [ "Execute", "db/d37/a18001.html#a3971962ec90f682baeae96fe6098fa97", null ],
+    [ "_creature", "db/d37/a18001.html#a0155536d5c2be329a1f3b57c4d852098", null ],
+    [ "_level", "db/d37/a18001.html#a22f0d7e59f579362be4576180d0977b8", null ],
+    [ "ExperiencedSpells", "db/d37/a18001.html#a5e2e06a386059ba2d9aff676648fa56b", null ],
+    [ "ExperiencedTimes", "db/d37/a18001.html#a4daf5818472ebe7c8d3938e2189d8e02", null ]
 ];

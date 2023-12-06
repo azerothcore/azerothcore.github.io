@@ -1,16 +1,11 @@
 var a04592 =
 [
-    [ "MDLCallback", "d8/d25/a04596.html", "d8/d25/a04596" ],
-    [ "ObjArray", "da/d34/a04592.html#a19e64f06ddaf36271df3c1192908042b", null ],
-    [ "BIHWrap", "da/d34/a04592.html#a8572b541e513074132ba0834e081ec05", null ],
-    [ "balance", "da/d34/a04592.html#a7a191f8c9d3b20807ef1db9be654ccd1", null ],
-    [ "insert", "da/d34/a04592.html#ab859ad633f695002cf37776c0e124bbf", null ],
-    [ "intersectPoint", "da/d34/a04592.html#affbe1a82d945190374753ab6af811ca4", null ],
-    [ "intersectRay", "da/d34/a04592.html#a6dcddc2503a0acabc0f29ddb5eace803", null ],
-    [ "remove", "da/d34/a04592.html#aeff1ff9ee3d3965dc4169ea6f0fc9839", null ],
-    [ "m_obj2Idx", "da/d34/a04592.html#a04248b957bc22dbae570a3d96a03adcd", null ],
-    [ "m_objects", "da/d34/a04592.html#a1e3b7eb01db291f5dd7febe7c7198ea3", null ],
-    [ "m_objects_to_push", "da/d34/a04592.html#abd68da8091bf1694013d1231936a8a2c", null ],
-    [ "m_tree", "da/d34/a04592.html#a13a40cee1097ab0435eb2d50518a41bf", null ],
-    [ "unbalanced_times", "da/d34/a04592.html#abc44d55ac155023c2661d2687c068a4b", null ]
+    [ "ADT::MDDF", "da/dc7/a30425.html", "da/dc7/a30425" ],
+    [ "ADT::MODF", "d0/d2e/a30429.html", "d0/d2e/a30429" ],
+    [ "ADTFile", "de/d91/a30433.html", "de/d91/a30433" ],
+    [ "fixname2", "da/d34/a04592.html#a505f827307521d389b41e8f0b238c354", null ],
+    [ "fixnamen", "da/d34/a04592.html#a4df61017ffd84478bbfc579aec447880", null ],
+    [ "GetExtension", "da/d34/a04592.html#ac3f75fc482c41471364c2c3e8bd1dd96", null ],
+    [ "GetPlainName", "da/d34/a04592.html#a5e577b4c8e75312883ba4e8c571908ca", null ],
+    [ "GetPlainName", "da/d34/a04592.html#a05f8969fb6d17548033afc24b906a83f", null ]
 ];

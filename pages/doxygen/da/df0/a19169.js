@@ -1,7 +1,6 @@
 var a19169 =
 [
-    [ "CalculateBonus", "da/df0/a19169.html#a7e01b2217f6d2b875f744b366fdd2373", null ],
-    [ "OnPeriodic", "da/df0/a19169.html#a5af46e99b9c66a8f6442fa4d657fcb2b", null ],
-    [ "PrepareAuraScript", "da/df0/a19169.html#a8990d80f14a4a0b4cfe15f99ba699883", null ],
-    [ "Register", "da/df0/a19169.html#aa104f352e770292e2de741e0311b4105", null ]
+    [ "spell_the_lich_king_vile_spirit_damage_target_search_SpellScript", "d3/d0c/a19173.html", "d3/d0c/a19173" ],
+    [ "spell_the_lich_king_vile_spirit_damage_target_search", "da/df0/a19169.html#ab2a137c97a67f23704a6f610dcf40fe2", null ],
+    [ "GetSpellScript", "da/df0/a19169.html#a01fd45ddc475ec7b2fc6e6ab940e96df", null ]
 ];

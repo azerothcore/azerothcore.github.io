@@ -1,42 +1,48 @@
 var a03221 =
 [
     [ "DataHeader", "d1/da3/a03221.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "ZFScriptName", "d1/da3/a03221.html#a8c843043d60c28e6ccd7efb1a75ec86e", null ],
-    [ "ZFPyramidPhases", "d1/da3/a03221.html#a8774900db93cf3aa38b2e231417d6cc3", [
-      [ "PYRAMID_NOT_STARTED", "d1/da3/a03221.html#a8774900db93cf3aa38b2e231417d6cc3a434ccee53d43aeb68a61adc7afc70e71", null ],
-      [ "PYRAMID_CAGES_OPEN", "d1/da3/a03221.html#a8774900db93cf3aa38b2e231417d6cc3a733f4b4c341a7c12cea4da96f394e238", null ],
-      [ "PYRAMID_ARRIVED_AT_STAIR", "d1/da3/a03221.html#a8774900db93cf3aa38b2e231417d6cc3a44fbc93058f64b77b519778b73835095", null ],
-      [ "PYRAMID_WAVE_1", "d1/da3/a03221.html#a8774900db93cf3aa38b2e231417d6cc3ad6fc2894f46a7f845ccb16b02492416d", null ],
-      [ "PYRAMID_PRE_WAVE_2", "d1/da3/a03221.html#a8774900db93cf3aa38b2e231417d6cc3a83ddd4a830b4529356e379753ef0a6b0", null ],
-      [ "PYRAMID_WAVE_2", "d1/da3/a03221.html#a8774900db93cf3aa38b2e231417d6cc3a0fea1a14ce0b618b7b407cb0ebef5257", null ],
-      [ "PYRAMID_PRE_WAVE_3", "d1/da3/a03221.html#a8774900db93cf3aa38b2e231417d6cc3aeca14c0e13407ddbc852a23a75f9e297", null ],
-      [ "PYRAMID_WAVE_3", "d1/da3/a03221.html#a8774900db93cf3aa38b2e231417d6cc3aa3061b90909a10cdcf2445a1bee4ddce", null ],
-      [ "PYRAMID_KILLED_ALL_TROLLS", "d1/da3/a03221.html#a8774900db93cf3aa38b2e231417d6cc3aa18216a575ced9cd802aef44ec6a5b55", null ],
-      [ "PYRAMID_MOVED_DOWNSTAIRS", "d1/da3/a03221.html#a8774900db93cf3aa38b2e231417d6cc3af4a5d3d2602c5283c9a3e987e6eb7cf4", null ],
-      [ "PYRAMID_DESTROY_GATES", "d1/da3/a03221.html#a8774900db93cf3aa38b2e231417d6cc3a26d165b4ebf0c18fbab9c99700d40301", null ],
-      [ "PYRAMID_GATES_DESTROYED", "d1/da3/a03221.html#a8774900db93cf3aa38b2e231417d6cc3ad3ca6408f8a6f8dacff9c606641f3682", null ],
-      [ "PYRAMID_DONE", "d1/da3/a03221.html#a8774900db93cf3aa38b2e231417d6cc3ab8014318ae3d1f73e7e31fa340a12021", null ]
+    [ "OnyxiasLairScriptName", "d1/da3/a03221.html#a411397a87d359be66de671f07dbefefe", null ],
+    [ "RegisterOnyxiasLairCreatureAI", "d1/da3/a03221.html#a4becd56438e0f64fd4e609bda9b542a4", null ],
+    [ "eAchievementData", "d1/da3/a03221.html#aca087c1cb2fbca0c938185dd321856c4", [
+      [ "ACHIEV_CRITERIA_MANY_WHELPS_10_PLAYER", "d1/da3/a03221.html#aca087c1cb2fbca0c938185dd321856c4a57918d5eb6d9b6dad01b98eec717c611", null ],
+      [ "ACHIEV_CRITERIA_MANY_WHELPS_25_PLAYER", "d1/da3/a03221.html#aca087c1cb2fbca0c938185dd321856c4ab4cb5a7391642e00f98bf8c4feca4931", null ],
+      [ "ACHIEV_CRITERIA_DEEP_BREATH_10_PLAYER", "d1/da3/a03221.html#aca087c1cb2fbca0c938185dd321856c4a7d5dc918b0b3edc2fc3863242904bb22", null ],
+      [ "ACHIEV_CRITERIA_DEEP_BREATH_25_PLAYER", "d1/da3/a03221.html#aca087c1cb2fbca0c938185dd321856c4a7c0f8695a55dfedf6c942dead4b86bb9", null ],
+      [ "ACHIEV_TIMED_START_EVENT", "d1/da3/a03221.html#aca087c1cb2fbca0c938185dd321856c4a6ac3776ff6343c84361329e38055da04", null ]
     ] ],
-    [ "ZulFarrakCreatures", "d1/da3/a03221.html#ab6a75cae3d5218b7c02408d5c4fb4b81", [
-      [ "NPC_SANDFURY_CRETIN", "d1/da3/a03221.html#ab6a75cae3d5218b7c02408d5c4fb4b81abc17ce4a19f84d1f43027e038ce1b376", null ],
-      [ "NPC_SANDFURY_SLAVE", "d1/da3/a03221.html#ab6a75cae3d5218b7c02408d5c4fb4b81a6c5f3121c15864497a7fd4445e508d9b", null ],
-      [ "NPC_SANDFURY_ACOLYTE", "d1/da3/a03221.html#ab6a75cae3d5218b7c02408d5c4fb4b81ad994cdb727fce1b96ee059a3f7d40ab8", null ],
-      [ "NPC_SANDFURY_DRUDGE", "d1/da3/a03221.html#ab6a75cae3d5218b7c02408d5c4fb4b81a3b6291c9a6afbd297befe20651cce18a", null ],
-      [ "NPC_SANDFURY_ZEALOT", "d1/da3/a03221.html#ab6a75cae3d5218b7c02408d5c4fb4b81aebf682fdf490a79a7c57fa612e9f197d", null ],
-      [ "NPC_SHADOWPRIEST_SEZZZIZ", "d1/da3/a03221.html#ab6a75cae3d5218b7c02408d5c4fb4b81a6e6e1f1c3cccf7fad5f37b40eb4d72c7", null ],
-      [ "NPC_NEKRUM_GUTCHEWER", "d1/da3/a03221.html#ab6a75cae3d5218b7c02408d5c4fb4b81ac67a7fd5df9d4f39a21fcd4b485ed031", null ],
-      [ "NPC_BLY", "d1/da3/a03221.html#ab6a75cae3d5218b7c02408d5c4fb4b81aeeeaf82fbf41331373955f22de91c48d", null ],
-      [ "NPC_RAVEN", "d1/da3/a03221.html#ab6a75cae3d5218b7c02408d5c4fb4b81af7eec9c0500aedfefe9bbbbaeb5d73b8", null ],
-      [ "NPC_ORO", "d1/da3/a03221.html#ab6a75cae3d5218b7c02408d5c4fb4b81add85ada339b5a0d2a412756a1032799b", null ],
-      [ "NPC_WEEGLI", "d1/da3/a03221.html#ab6a75cae3d5218b7c02408d5c4fb4b81a3a660c0cbddbbd8650c9632e52d7b178", null ],
-      [ "NPC_MURTA", "d1/da3/a03221.html#ab6a75cae3d5218b7c02408d5c4fb4b81ae2ffa4447246d4d51f2339edf2164b7a", null ]
+    [ "eCreatures", "d1/da3/a03221.html#a59602e8f26d052c0b6f6bdfe896510b8", [
+      [ "NPC_ONYXIA", "d1/da3/a03221.html#a59602e8f26d052c0b6f6bdfe896510b8ac5297157e46436388d2a4e835c06de6e", null ],
+      [ "NPC_ONYXIAN_WHELP", "d1/da3/a03221.html#a59602e8f26d052c0b6f6bdfe896510b8a29f399e186a17314b99be364d738371a", null ],
+      [ "NPC_ONYXIAN_LAIR_GUARD", "d1/da3/a03221.html#a59602e8f26d052c0b6f6bdfe896510b8ac5a305bf78c6e737c665da793df48e49", null ],
+      [ "NPC_KELESETH", "d5/de2/a03830.html#a59602e8f26d052c0b6f6bdfe896510b8a1aa34e102fe5c920939fbbed64fd3bdd", null ],
+      [ "NPC_DALRONN", "d5/de2/a03830.html#a59602e8f26d052c0b6f6bdfe896510b8adc8eb044588758e3cfb4ed8c699e483d", null ],
+      [ "NPC_DALRONN_GHOST", "d5/de2/a03830.html#a59602e8f26d052c0b6f6bdfe896510b8ad6b59b3f0fa1841b3dbce49b32ce88f7", null ],
+      [ "NPC_SKARVALD", "d5/de2/a03830.html#a59602e8f26d052c0b6f6bdfe896510b8a531d439e3ed6f40d45aaf591d93722af", null ],
+      [ "NPC_SKARVALD_GHOST", "d5/de2/a03830.html#a59602e8f26d052c0b6f6bdfe896510b8aa4eafbdfd4632f9b207feb03c1c9906e", null ],
+      [ "NPC_INGVAR", "d5/de2/a03830.html#a59602e8f26d052c0b6f6bdfe896510b8aa8071c2550f86111dabfe071bb8905ec", null ],
+      [ "NPC_DARK_RANGER_MARRAH", "d5/de2/a03830.html#a59602e8f26d052c0b6f6bdfe896510b8a629c86c326a68aa9c57e75b658644e27", null ],
+      [ "NPC_ENSLAVED_PROTO_DRAKE", "d5/de2/a03830.html#a59602e8f26d052c0b6f6bdfe896510b8ab4269b45260da78a67bfdab9a95d8c2c", null ],
+      [ "NPC_ICHOR_GLOBULE", "d0/d60/a03878.html#a59602e8f26d052c0b6f6bdfe896510b8a5c39abb26566ef9fb1e3afe0cecc9762", null ]
     ] ],
-    [ "ZulFarrakData", "d1/da3/a03221.html#a66cc3be5310a2efbacb38d2398d8af24", [
-      [ "DATA_PYRAMID", "d1/da3/a03221.html#a66cc3be5310a2efbacb38d2398d8af24ab1d90dc5c239d55044f1bed8e5e823e3", null ],
-      [ "DATA_GAHZRILLA", "d1/da3/a03221.html#a66cc3be5310a2efbacb38d2398d8af24a023919c11385e898d643499efd09c167", null ]
+    [ "eGameObjects", "d1/da3/a03221.html#a0b356f44d43edb1bff30f404c9469250", [
+      [ "GO_WHELP_SPAWNER", "d1/da3/a03221.html#a0b356f44d43edb1bff30f404c9469250adf4548283b784850a8154cefa0fd360d", null ],
+      [ "GO_WHELP_EGG", "d1/da3/a03221.html#a0b356f44d43edb1bff30f404c9469250a4695e1a78b0f6094399a19023996f851", null ],
+      [ "GO_MAIN_GATE", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250af7f4bfc022fbae9247e3389c3e755e0b", null ],
+      [ "GO_SOUTH_PORTCULLIS", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250a5ebaf585ae3da6d909256800aebebbfc", null ],
+      [ "GO_EAST_PORTCULLIS", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250a8a57a3fcd514b7a621e04ae73c2647c9", null ],
+      [ "GO_NORTH_PORTCULLIS", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250af8f7a209e9b9e0909610ffbcb8fe94ca", null ],
+      [ "GO_CHAMPIONS_LOOT", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250af347b8590e6d6688cd7cd8a901a01839", null ],
+      [ "GO_CHAMPIONS_LOOT_H", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250a911cbac98e241072502109aef1a58966", null ],
+      [ "GO_EADRIC_LOOT", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250ad29f747e71326720660778477708682f", null ],
+      [ "GO_EADRIC_LOOT_H", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250afec277328734b29a227e6942dcc303e1", null ],
+      [ "GO_PALETRESS_LOOT", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250a22dab9e0abcb8bbe36c42b492a6ae6b1", null ],
+      [ "GO_PALETRESS_LOOT_H", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250a558835744936913cd5345f9435739ee0", null ]
     ] ],
-    [ "ZulFarrakGameobjects", "d1/da3/a03221.html#a83f1d34de34a6a1e990edbfb47a2f78e", [
-      [ "GO_END_DOOR", "d1/da3/a03221.html#a83f1d34de34a6a1e990edbfb47a2f78ea279b9f40e76d0da56ef7eca0a2578319", null ]
+    [ "eInstanceData", "d1/da3/a03221.html#a7395e25d8049b2c60a1c7191d197f5cc", [
+      [ "DATA_ONYXIA", "d1/da3/a03221.html#a7395e25d8049b2c60a1c7191d197f5cca8fddf4be448f687691188b276d390817", null ],
+      [ "MAX_ENCOUNTER", "d1/da3/a03221.html#a7395e25d8049b2c60a1c7191d197f5cca7913656ef56deb3793c0c5f3d999d80d", null ],
+      [ "DATA_WHELP_SUMMONED", "d1/da3/a03221.html#a7395e25d8049b2c60a1c7191d197f5cca620ba8d85c596c11f1df0132b0117fbc", null ],
+      [ "DATA_DEEP_BREATH_FAILED", "d1/da3/a03221.html#a7395e25d8049b2c60a1c7191d197f5cca3678a84e6e3ed1c831e230a816a5475d", null ]
     ] ],
-    [ "GetZulFarrakAI", "d1/da3/a03221.html#afc0f10884b3d0ad6a6e73e3767fa3538", null ]
+    [ "GetOnyxiasLairAI", "d1/da3/a03221.html#a3573a392c09a4df350f96df672ce58ad", null ]
 ];

@@ -1,6 +1,6 @@
 var a22581 =
 [
-    [ "HandleDummyEffect", "df/d87/a22581.html#a955fe45a179782caa741e094bc37ab75", null ],
-    [ "PrepareSpellScript", "df/d87/a22581.html#af5324f701aabe24b38dcf21389c220db", null ],
-    [ "Register", "df/d87/a22581.html#aea51910bf97f5bbafad981bd4c433f64", null ]
+    [ "boss_skadi_graufAI", "de/d15/a22585.html", "de/d15/a22585" ],
+    [ "boss_skadi_grauf", "df/d87/a22581.html#a571db2d2ae21f38b7051319da0f042f6", null ],
+    [ "GetAI", "df/d87/a22581.html#a9b637a93a572d21691b81b80ec45206d", null ]
 ];

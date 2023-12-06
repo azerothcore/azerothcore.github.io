@@ -1,6 +1,7 @@
 var a16713 =
 [
-    [ "spell_mistress_kiss_area_SpellScript", "de/d65/a16717.html", "de/d65/a16717" ],
-    [ "spell_mistress_kiss_area", "d2/dca/a16713.html#aa565a8a7450f89c71fa484a1ea8bec18", null ],
-    [ "GetSpellScript", "d2/dca/a16713.html#a3b9714728d645ea5c8713528b51bc960", null ]
+    [ "HandleDispel", "d2/dca/a16713.html#ab720416f0497b4ad827208e186afd79a", null ],
+    [ "PrepareAuraScript", "d2/dca/a16713.html#a2f79b7869018b4a775c64c8d985d4a0c", null ],
+    [ "Register", "d2/dca/a16713.html#a26c918009fa3a3cf8b0145c2d2812588", null ],
+    [ "Validate", "d2/dca/a16713.html#a37964b313e11c1e14a7df4a1acb18c10", null ]
 ];

@@ -1,9 +1,6 @@
 var a29033 =
 [
-    [ "go_gilded_brazierAI", "d3/d3a/a29033.html#aaacf408b0f42b593a8a2897cb27886fb", null ],
-    [ "GossipHello", "d3/d3a/a29033.html#afac9e217c294e72ff5f2526422e6321e", null ],
-    [ "Initialize", "d3/d3a/a29033.html#a72d2dd8f7ecdf173e5a3847c94255786", null ],
-    [ "UpdateAI", "d3/d3a/a29033.html#a0965f0a6f3f1c75e85f184319a1f9cef", null ],
-    [ "_events", "d3/d3a/a29033.html#a35e62a272b790d6e858cc48c92e55b7b", null ],
-    [ "_playerGUID", "d3/d3a/a29033.html#a506eccb2c3ebcc126d486638fb07ae3c", null ]
+    [ "go_fel_crystalforge", "d3/d3a/a29033.html#aa44708a617edd51651da49918ab776e5", null ],
+    [ "OnGossipHello", "d3/d3a/a29033.html#aae9f4beff251efb7b29e1988ddd51eaf", null ],
+    [ "OnGossipSelect", "d3/d3a/a29033.html#a97450cce5f547e28ea84fa6a6f8ab79e", null ]
 ];

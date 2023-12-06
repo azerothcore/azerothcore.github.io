@@ -1,7 +1,6 @@
 var a24445 =
 [
-    [ "SuckBackEvent", "d7/de7/a24445.html#a6525e2aefec2680fde20e27ebf962f4c", null ],
-    [ "Execute", "d7/de7/a24445.html#aae1664e6ef9d90ec8a0e12554b991bf0", null ],
-    [ "_action", "d7/de7/a24445.html#abc54669df2dba0238723a40ababe4c0a", null ],
-    [ "_owner", "d7/de7/a24445.html#a4d8bc09803f7786022c1836457ded488", null ]
+    [ "spell_mother_shahraz_random_periodic_AuraScript", "d9/d96/a24449.html", "d9/d96/a24449" ],
+    [ "spell_mother_shahraz_random_periodic", "d7/de7/a24445.html#a41af24f633fa6be1d70aa4d053ada6e4", null ],
+    [ "GetAuraScript", "d7/de7/a24445.html#a6ae29c38aa86e094529c5f9e5e88f193", null ]
 ];

@@ -1,17 +1,12 @@
 var a17193 =
 [
-    [ "npc_hor_lich_kingAI", "d6/d36/a17193.html#a689fd445286595780c3d842976a5913f", null ],
-    [ "DoAction", "d6/d36/a17193.html#a904a57d99527b6ff47d4f9ab8751a4a5", null ],
-    [ "JustSummoned", "d6/d36/a17193.html#aed675a5238ca6a6312d1758ecbe86aa2", null ],
-    [ "MovementInform", "d6/d36/a17193.html#aeeea82d3e5869e5f604314474533975c", null ],
-    [ "Reset", "d6/d36/a17193.html#a1f1bb445ea29daaf479e7171c96db901", null ],
-    [ "SpellHitTarget", "d6/d36/a17193.html#adcee3757198acfaf4fd4dc8765b86a98", null ],
-    [ "SummonedCreatureDespawn", "d6/d36/a17193.html#a1f3a49cd9e1f9c1013a7c5c2ead3bb3d", null ],
-    [ "UpdateAI", "d6/d36/a17193.html#a127cc66ea4804da51eb9069037b9ba33", null ],
-    [ "currentWall", "d6/d36/a17193.html#a13c505b17edf9f843c6c638802eb62aa", null ],
-    [ "div2", "d6/d36/a17193.html#a63a1741fba6e0fecaf9aac6b6c397acf", null ],
-    [ "events", "d6/d36/a17193.html#a06550732cba84da4cbd708d03a7bd6bb", null ],
-    [ "pInstance", "d6/d36/a17193.html#a5c8ce256ab8e71705bc8d84f08245417", null ],
-    [ "reqKillCount", "d6/d36/a17193.html#a69da5432ed2b4ef9944fbd19c97d404d", null ],
-    [ "summons", "d6/d36/a17193.html#af55dd229cd141ffab701c6ab77304127", null ]
+    [ "npc_spectral_footmanAI", "d6/d36/a17193.html#a746b1d15b70be293f61669ce4a945732", null ],
+    [ "AttackStart", "d6/d36/a17193.html#ac6f9dadff44c805adfac855778b1c9d2", null ],
+    [ "DoAction", "d6/d36/a17193.html#a466b878e60c1bf89603c261110d88b25", null ],
+    [ "EnterEvadeMode", "d6/d36/a17193.html#a66c9cceae4c2ae5574369744486e3e57", null ],
+    [ "JustDied", "d6/d36/a17193.html#afbab6772ff97ca9355ca5f4ac194ce0d", null ],
+    [ "JustEngagedWith", "d6/d36/a17193.html#a3d3eff22cb453e2ea0164e7f45bb6e5b", null ],
+    [ "Reset", "d6/d36/a17193.html#a3a8151da7ec1d63966ffc5e5b7e9e931", null ],
+    [ "UpdateAI", "d6/d36/a17193.html#ad1da2bc8fdc3a3fce51b9a633fd56574", null ],
+    [ "events", "d6/d36/a17193.html#aa5420d5e57447c7f89c0560ae07b3503", null ]
 ];

@@ -1,6 +1,6 @@
 var a25661 =
 [
-    [ "spell_kaelthas_summon_weapons_SpellScript", "d2/d52/a25665.html", "d2/d52/a25665" ],
-    [ "spell_kaelthas_summon_weapons", "d8/d48/a25661.html#a7c2a3c3485ac721e9aa229ec7d981668", null ],
-    [ "GetSpellScript", "d8/d48/a25661.html#a8ddc67813022a57e6e9d4b8175c58441", null ]
+    [ "HandleAfterRemove", "d8/d48/a25661.html#ac9756a8f206c114ff6443331ca266184", null ],
+    [ "PrepareAuraScript", "d8/d48/a25661.html#a2f67291e6e4291c9d01cdbcbe04a7db7", null ],
+    [ "Register", "d8/d48/a25661.html#ac36d76ad8a5ecb2e437dcb8f1248386d", null ]
 ];

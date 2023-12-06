@@ -1,15 +1,10 @@
 var a09329 =
 [
-    [ "const_iterator", "d8/de3/a09329.html#a78bdb53e78488faa65effb2706140558", null ],
-    [ "iterator", "d8/de3/a09329.html#aff8f555370355b24f386c86d2f900bc3", null ],
-    [ "begin", "d8/de3/a09329.html#a6774b551f0d64628e33594c7b486a872", null ],
-    [ "begin", "d8/de3/a09329.html#a3ba9493437881e83c07f07cc992c274a", null ],
-    [ "end", "d8/de3/a09329.html#af488c0096775085791b5fbc89e5851a0", null ],
-    [ "end", "d8/de3/a09329.html#acb8ebd37d1458773b65311060e844e4b", null ],
-    [ "getFirst", "d8/de3/a09329.html#a2981143744c8e08a42104a5d08659be4", null ],
-    [ "getFirst", "d8/de3/a09329.html#a4d5eb2b65f0a586a3e809acb2c26f6cb", null ],
-    [ "getLast", "d8/de3/a09329.html#ab9c66d320815602126292a14cae69872", null ],
-    [ "getLast", "d8/de3/a09329.html#a6f7379252f5907d9240e3d364d3a8c02", null ],
-    [ "rbegin", "d8/de3/a09329.html#a147b3fe09037c1b80bb122c627000b0a", null ],
-    [ "rend", "d8/de3/a09329.html#afb985b9c750f3ff01cb1adaa6f86c78f", null ]
+    [ "MailReceiver", "d8/de3/a09329.html#a6fba3ff0ab3167197f569631d766ce14", null ],
+    [ "MailReceiver", "d8/de3/a09329.html#af0b094a704463ed76b1c08bc3cab0380", null ],
+    [ "MailReceiver", "d8/de3/a09329.html#a9f69a0951c2b9d9152685632c744cf4e", null ],
+    [ "GetPlayer", "d8/de3/a09329.html#a0113e33ef82e9f3112f8cd5793581a36", null ],
+    [ "GetPlayerGUIDLow", "d8/de3/a09329.html#a0e29fba37b58c7bc92065b0221b8e31e", null ],
+    [ "m_receiver", "d8/de3/a09329.html#a377b896e1dc7a0e89440efbc2b811ae7", null ],
+    [ "m_receiver_lowguid", "d8/de3/a09329.html#a46b62a2b8dd0ebac981e0a1752e88743", null ]
 ];

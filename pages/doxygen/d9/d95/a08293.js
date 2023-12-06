@@ -1,8 +1,9 @@
 var a08293 =
 [
-    [ "AttackPosition", "d9/d95/a08293.html#a6681bcab6c497d2c7fc6e5585f422744", null ],
-    [ "operator=", "d9/d95/a08293.html#a019fe5d4c053c1d6980789b7f97f6e54", null ],
-    [ "operator==", "d9/d95/a08293.html#a320adced006c0f70456492c9e9dc99c2", null ],
-    [ "_pos", "d9/d95/a08293.html#a77783e0e6e83836ad6e5903535ad9370", null ],
-    [ "_taken", "d9/d95/a08293.html#a113512b8ab66c879fd85c43263c3b7f1", null ]
+    [ "EntryPointData", "d9/d95/a08293.html#a1852523ba9ca889cdd6731c63de759e2", null ],
+    [ "ClearTaxiPath", "d9/d95/a08293.html#a4aee0d4ef3850fb486987ae6fe78ee91", null ],
+    [ "HasTaxiPath", "d9/d95/a08293.html#afd310b2f367ec7df76f01689ea120e6e", null ],
+    [ "joinPos", "d9/d95/a08293.html#abfdc0ccd945f60e0a3ec37d278c96940", null ],
+    [ "mountSpell", "d9/d95/a08293.html#a06e1cadac24a2ab90e57373692f829dc", null ],
+    [ "taxiPath", "d9/d95/a08293.html#a5af670fa420b250c22e0f3237e753a6f", null ]
 ];

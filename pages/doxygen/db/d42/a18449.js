@@ -1,6 +1,6 @@
 var a18449 =
 [
-    [ "spell_putricide_ooze_channel_SpellScript", "d2/dea/a18453.html", "d2/dea/a18453" ],
-    [ "spell_putricide_ooze_channel", "db/d42/a18449.html#a5f44a8bdaccc0c8af5b4a11e25623798", null ],
-    [ "GetSpellScript", "db/d42/a18449.html#ad4e450e3a0feadb336e6e6f103d2e23e", null ]
+    [ "PrepareSpellScript", "db/d42/a18449.html#ae9d9dd2d4937277c4595903769432cd7", null ],
+    [ "Register", "db/d42/a18449.html#a84945ad2f4d106ac9eb8e3077d63811b", null ],
+    [ "SelectDest", "db/d42/a18449.html#a5d20bb804da4680ee836c6835c24737b", null ]
 ];

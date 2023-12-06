@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/game/Combat/UnitEvents.h File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/game/Conditions/DisableMgr.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,162 +107,73 @@ $(document).ready(function(){initNavTree('d6/d80/a01076.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">UnitEvents.h File Reference</div></div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">DisableMgr.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">DisableMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameEventMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MMapFactory.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">OutdoorPvP.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellInfo.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">StringConvert.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Tokenize.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d3a/a07409.html">UnitBaseEvent</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d89/a07413.html">ThreatRefStatusChangeEvent</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d98/a07421.html">ThreatMgrEvent</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d40/a07573.html">DisableMgr::anonymous_namespace{DisableMgr.cpp}::DisableData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:aca3c8db6dd274b113d9c3c7755ff5d7a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d80/a01076.html#aca3c8db6dd274b113d9c3c7755ff5d7a">UEV_THREAT_REF_EVENT_MASK</a>&#160;&#160;&#160;(<a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9">UEV_THREAT_REF_ONLINE_STATUS</a> | <a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0">UEV_THREAT_REF_THREAT_CHANGE</a> | <a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0">UEV_THREAT_REF_REMOVE_FROM_LIST</a> | <a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97abd7481924e1cb036704820e5be0407db">UEV_THREAT_REF_ASSECCIBLE_STATUS</a>)</td></tr>
-<tr class="separator:aca3c8db6dd274b113d9c3c7755ff5d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28d3aa8f148208fa65f5ef1af46913cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d80/a01076.html#a28d3aa8f148208fa65f5ef1af46913cc">UEV_THREAT_MANAGER_EVENT_MASK</a>&#160;&#160;&#160;(<a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a74092d5fa151b78ce0de1ddf3ed05865">UEV_THREAT_SORT_LIST</a> | <a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97ac45249081756ba40d712bd7e08626ed9">UEV_THREAT_SET_NEXT_TARGET</a> | <a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97af02166c466fbff650b908cd08c7e4669">UEV_THREAT_VICTIM_CHANGED</a>)</td></tr>
-<tr class="separator:a28d3aa8f148208fa65f5ef1af46913cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99af7f8805c877a694d51ab4feb1e58b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d80/a01076.html#a99af7f8805c877a694d51ab4feb1e58b">UEV_ALL_EVENT_MASK</a>&#160;&#160;&#160;(0xffffffff)</td></tr>
-<tr class="separator:a99af7f8805c877a694d51ab4feb1e58b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d4/d70/a04684"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html">DisableMgr</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d7/d47/a04685"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04685.html">DisableMgr::anonymous_namespace{DisableMgr.cpp}</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a5207de6e2fb421d2579a9baf4c471e97"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97">UNIT_EVENT_TYPE</a> { <br />
-&#160;&#160;<a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9">UEV_THREAT_REF_ONLINE_STATUS</a> = 1 &lt;&lt; 0
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0">UEV_THREAT_REF_THREAT_CHANGE</a> = 1 &lt;&lt; 1
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0">UEV_THREAT_REF_REMOVE_FROM_LIST</a> = 1 &lt;&lt; 2
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97abd7481924e1cb036704820e5be0407db">UEV_THREAT_REF_ASSECCIBLE_STATUS</a> = 1 &lt;&lt; 3
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a74092d5fa151b78ce0de1ddf3ed05865">UEV_THREAT_SORT_LIST</a> = 1 &lt;&lt; 4
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97ac45249081756ba40d712bd7e08626ed9">UEV_THREAT_SET_NEXT_TARGET</a> = 1 &lt;&lt; 5
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97af02166c466fbff650b908cd08c7e4669">UEV_THREAT_VICTIM_CHANGED</a> = 1 &lt;&lt; 6
-<br />
- }</td></tr>
-<tr class="separator:a5207de6e2fb421d2579a9baf4c471e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a1dc7ac8fd11c81da83700d364483165a"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, DisableData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04685.html#a1dc7ac8fd11c81da83700d364483165a">DisableMgr::anonymous_namespace{DisableMgr.cpp}::DisableTypeMap</a></td></tr>
+<tr class="separator:a1dc7ac8fd11c81da83700d364483165a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b8dd8b0bc5f58e812c1bd969ee833d6"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d2/d4d/a01079.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64c">DisableType</a>, DisableTypeMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04685.html#a2b8dd8b0bc5f58e812c1bd969ee833d6">DisableMgr::anonymous_namespace{DisableMgr.cpp}::DisableMap</a></td></tr>
+<tr class="separator:a2b8dd8b0bc5f58e812c1bd969ee833d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:adb464165caf6cd436499fa84969eeaf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html#adb464165caf6cd436499fa84969eeaf8">DisableMgr::LoadDisables</a> ()</td></tr>
+<tr class="separator:adb464165caf6cd436499fa84969eeaf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f9fa5dadf6f2da5f01651d37d996377"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html#a2f9fa5dadf6f2da5f01651d37d996377">DisableMgr::CheckQuestDisables</a> ()</td></tr>
+<tr class="separator:a2f9fa5dadf6f2da5f01651d37d996377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6673bbc719c96febfc86a4220a988ed0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html#a6673bbc719c96febfc86a4220a988ed0">DisableMgr::IsDisabledFor</a> (<a class="el" href="../../d2/d4d/a01079.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64c">DisableType</a> type, <a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> entry, <a class="el" href="../../da/d7a/a08441.html">Unit</a> const *unit, <a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> flags)</td></tr>
+<tr class="separator:a6673bbc719c96febfc86a4220a988ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b182e1836b2197303b2809006f5148"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html#a38b182e1836b2197303b2809006f5148">DisableMgr::IsVMAPDisabledFor</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> entry, <a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> flags)</td></tr>
+<tr class="separator:a38b182e1836b2197303b2809006f5148"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a338e6f295d785a4f9256703ffbd71"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html#ad6a338e6f295d785a4f9256703ffbd71">DisableMgr::IsPathfindingEnabled</a> (const <a class="el" href="../../d2/db0/a09441.html">Map</a> *map)</td></tr>
+<tr class="separator:ad6a338e6f295d785a4f9256703ffbd71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a15af74f7cffff305a48d31529df515e7"><td class="memItemLeft" align="right" valign="top">DisableMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04685.html#a15af74f7cffff305a48d31529df515e7">DisableMgr::anonymous_namespace{DisableMgr.cpp}::m_DisableMap</a></td></tr>
+<tr class="separator:a15af74f7cffff305a48d31529df515e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55c2ff1d7d10ed3d5f30071472d692fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04685.html#a55c2ff1d7d10ed3d5f30071472d692fb">DisableMgr::anonymous_namespace{DisableMgr.cpp}::MAX_DISABLE_TYPES</a> = 11</td></tr>
+<tr class="separator:a55c2ff1d7d10ed3d5f30071472d692fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a99af7f8805c877a694d51ab4feb1e58b" name="a99af7f8805c877a694d51ab4feb1e58b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99af7f8805c877a694d51ab4feb1e58b">&#9670;&#160;</a></span>UEV_ALL_EVENT_MASK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define UEV_ALL_EVENT_MASK&#160;&#160;&#160;(0xffffffff)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a28d3aa8f148208fa65f5ef1af46913cc" name="a28d3aa8f148208fa65f5ef1af46913cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28d3aa8f148208fa65f5ef1af46913cc">&#9670;&#160;</a></span>UEV_THREAT_MANAGER_EVENT_MASK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define UEV_THREAT_MANAGER_EVENT_MASK&#160;&#160;&#160;(<a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a74092d5fa151b78ce0de1ddf3ed05865">UEV_THREAT_SORT_LIST</a> | <a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97ac45249081756ba40d712bd7e08626ed9">UEV_THREAT_SET_NEXT_TARGET</a> | <a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97af02166c466fbff650b908cd08c7e4669">UEV_THREAT_VICTIM_CHANGED</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aca3c8db6dd274b113d9c3c7755ff5d7a" name="aca3c8db6dd274b113d9c3c7755ff5d7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca3c8db6dd274b113d9c3c7755ff5d7a">&#9670;&#160;</a></span>UEV_THREAT_REF_EVENT_MASK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define UEV_THREAT_REF_EVENT_MASK&#160;&#160;&#160;(<a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9">UEV_THREAT_REF_ONLINE_STATUS</a> | <a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0">UEV_THREAT_REF_THREAT_CHANGE</a> | <a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0">UEV_THREAT_REF_REMOVE_FROM_LIST</a> | <a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97abd7481924e1cb036704820e5be0407db">UEV_THREAT_REF_ASSECCIBLE_STATUS</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a5207de6e2fb421d2579a9baf4c471e97" name="a5207de6e2fb421d2579a9baf4c471e97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5207de6e2fb421d2579a9baf4c471e97">&#9670;&#160;</a></span>UNIT_EVENT_TYPE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97">UNIT_EVENT_TYPE</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9" name="a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9"></a>UEV_THREAT_REF_ONLINE_STATUS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0" name="a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0"></a>UEV_THREAT_REF_THREAT_CHANGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0" name="a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0"></a>UEV_THREAT_REF_REMOVE_FROM_LIST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5207de6e2fb421d2579a9baf4c471e97abd7481924e1cb036704820e5be0407db" name="a5207de6e2fb421d2579a9baf4c471e97abd7481924e1cb036704820e5be0407db"></a>UEV_THREAT_REF_ASSECCIBLE_STATUS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5207de6e2fb421d2579a9baf4c471e97a74092d5fa151b78ce0de1ddf3ed05865" name="a5207de6e2fb421d2579a9baf4c471e97a74092d5fa151b78ce0de1ddf3ed05865"></a>UEV_THREAT_SORT_LIST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5207de6e2fb421d2579a9baf4c471e97ac45249081756ba40d712bd7e08626ed9" name="a5207de6e2fb421d2579a9baf4c471e97ac45249081756ba40d712bd7e08626ed9"></a>UEV_THREAT_SET_NEXT_TARGET&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5207de6e2fb421d2579a9baf4c471e97af02166c466fbff650b908cd08c7e4669" name="a5207de6e2fb421d2579a9baf4c471e97af02166c466fbff650b908cd08c7e4669"></a>UEV_THREAT_VICTIM_CHANGED&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
-<div class="line"><span class="lineno">   32</span>    <span class="comment">// Player/Pet changed on/offline status</span></div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9">UEV_THREAT_REF_ONLINE_STATUS</a>        = 1 &lt;&lt; 0,</div>
-<div class="line"><span class="lineno">   34</span> </div>
-<div class="line"><span class="lineno">   35</span>    <span class="comment">// Threat for Player/Pet changed</span></div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0">UEV_THREAT_REF_THREAT_CHANGE</a>        = 1 &lt;&lt; 1,</div>
-<div class="line"><span class="lineno">   37</span> </div>
-<div class="line"><span class="lineno">   38</span>    <span class="comment">// Player/Pet will be removed from list (dead) [for internal use]</span></div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0">UEV_THREAT_REF_REMOVE_FROM_LIST</a>     = 1 &lt;&lt; 2,</div>
-<div class="line"><span class="lineno">   40</span> </div>
-<div class="line"><span class="lineno">   41</span>    <span class="comment">// Player/Pet entered/left  water or some other place where it is/was not accessible for the creature</span></div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97abd7481924e1cb036704820e5be0407db">UEV_THREAT_REF_ASSECCIBLE_STATUS</a>    = 1 &lt;&lt; 3,</div>
-<div class="line"><span class="lineno">   43</span> </div>
-<div class="line"><span class="lineno">   44</span>    <span class="comment">// Threat list is going to be sorted (if dirty flag is set)</span></div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a74092d5fa151b78ce0de1ddf3ed05865">UEV_THREAT_SORT_LIST</a>                = 1 &lt;&lt; 4,</div>
-<div class="line"><span class="lineno">   46</span> </div>
-<div class="line"><span class="lineno">   47</span>    <span class="comment">// New target should be fetched, could tbe the current target as well</span></div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97ac45249081756ba40d712bd7e08626ed9">UEV_THREAT_SET_NEXT_TARGET</a>          = 1 &lt;&lt; 5,</div>
-<div class="line"><span class="lineno">   49</span> </div>
-<div class="line"><span class="lineno">   50</span>    <span class="comment">// A new victim (target) was set. Could be nullptr</span></div>
-<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97af02166c466fbff650b908cd08c7e4669">UEV_THREAT_VICTIM_CHANGED</a>           = 1 &lt;&lt; 6,</div>
-<div class="line"><span class="lineno">   52</span> </div>
-<div class="line"><span class="lineno">   53</span>    <span class="comment">// Future use</span></div>
-<div class="line"><span class="lineno">   54</span>    <span class="comment">//UEV_UNIT_KILLED                   = 1&lt;&lt;7,</span></div>
-<div class="line"><span class="lineno">   55</span> </div>
-<div class="line"><span class="lineno">   56</span>    <span class="comment">//Future use</span></div>
-<div class="line"><span class="lineno">   57</span>    <span class="comment">//UEV_UNIT_HEALTH_CHANGE            = 1&lt;&lt;8,</span></div>
-<div class="line"><span class="lineno">   58</span>};</div>
-<div class="ttc" id="aa01076_html_a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0"><div class="ttname"><a href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0">UEV_THREAT_REF_THREAT_CHANGE</a></div><div class="ttdeci">@ UEV_THREAT_REF_THREAT_CHANGE</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:36</div></div>
-<div class="ttc" id="aa01076_html_a5207de6e2fb421d2579a9baf4c471e97a74092d5fa151b78ce0de1ddf3ed05865"><div class="ttname"><a href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a74092d5fa151b78ce0de1ddf3ed05865">UEV_THREAT_SORT_LIST</a></div><div class="ttdeci">@ UEV_THREAT_SORT_LIST</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:45</div></div>
-<div class="ttc" id="aa01076_html_a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9"><div class="ttname"><a href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9">UEV_THREAT_REF_ONLINE_STATUS</a></div><div class="ttdeci">@ UEV_THREAT_REF_ONLINE_STATUS</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:33</div></div>
-<div class="ttc" id="aa01076_html_a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0"><div class="ttname"><a href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0">UEV_THREAT_REF_REMOVE_FROM_LIST</a></div><div class="ttdeci">@ UEV_THREAT_REF_REMOVE_FROM_LIST</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:39</div></div>
-<div class="ttc" id="aa01076_html_a5207de6e2fb421d2579a9baf4c471e97abd7481924e1cb036704820e5be0407db"><div class="ttname"><a href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97abd7481924e1cb036704820e5be0407db">UEV_THREAT_REF_ASSECCIBLE_STATUS</a></div><div class="ttdeci">@ UEV_THREAT_REF_ASSECCIBLE_STATUS</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:42</div></div>
-<div class="ttc" id="aa01076_html_a5207de6e2fb421d2579a9baf4c471e97ac45249081756ba40d712bd7e08626ed9"><div class="ttname"><a href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97ac45249081756ba40d712bd7e08626ed9">UEV_THREAT_SET_NEXT_TARGET</a></div><div class="ttdeci">@ UEV_THREAT_SET_NEXT_TARGET</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:48</div></div>
-<div class="ttc" id="aa01076_html_a5207de6e2fb421d2579a9baf4c471e97af02166c466fbff650b908cd08c7e4669"><div class="ttname"><a href="../../d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97af02166c466fbff650b908cd08c7e4669">UEV_THREAT_VICTIM_CHANGED</a></div><div class="ttdeci">@ UEV_THREAT_VICTIM_CHANGED</div><div class="ttdef"><b>Definition:</b> UnitEvents.h:51</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_6b63bbd5ab28cd54e716b5236a19bef7.html">Combat</a></li><li class="navelem"><a class="el" href="../../d6/d80/a01076.html">UnitEvents.h</a></li>
-    <li class="footer">Generated on Sun Aug 20 2023 00:18:55 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_c0da28c740234fa28d1fcf99be699b09.html">Conditions</a></li><li class="navelem"><a class="el" href="../../d6/d80/a01076.html">DisableMgr.cpp</a></li>
+    <li class="footer">Generated on Wed Dec 6 2023 22:12:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

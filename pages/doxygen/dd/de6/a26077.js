@@ -1,6 +1,6 @@
 var a26077 =
 [
-    [ "npc_torloth_the_magnificentAI", "d1/d34/a26081.html", "d1/d34/a26081" ],
-    [ "npc_torloth_the_magnificent", "dd/de6/a26077.html#a252796a19dcebe210eecb4d9ae150e5d", null ],
-    [ "GetAI", "dd/de6/a26077.html#a94c206fb75cc6f50c6127908b5b5205f", null ]
+    [ "spell_q10036_torgos_SpellScript", "d1/d34/a26081.html", "d1/d34/a26081" ],
+    [ "spell_q10036_torgos", "dd/de6/a26077.html#a0599d2c00020c5978dc66f54b360a8be", null ],
+    [ "GetSpellScript", "dd/de6/a26077.html#a0bdd5a74c9f114537d8d206536dd418c", null ]
 ];

@@ -1,6 +1,6 @@
 var a20737 =
 [
-    [ "boss_algalon_the_observerAI", "d7/d2e/a20741.html", "d7/d2e/a20741" ],
-    [ "boss_algalon_the_observer", "d2/d85/a20737.html#a0691b47a116401da58b246203ecba2cb", null ],
-    [ "GetAI", "d2/d85/a20737.html#a4c30c6ddf8dcbc7c478250846f27a261", null ]
+    [ "dark_rune_stormcallerAI", "d7/d2e/a20741.html", "d7/d2e/a20741" ],
+    [ "dark_rune_stormcaller", "d2/d85/a20737.html#ab31774011fc3e1e8ffa1a3b7c5cbfbcc", null ],
+    [ "GetAI", "d2/d85/a20737.html#a9072aaf482106cfae0d3901507b47f60", null ]
 ];

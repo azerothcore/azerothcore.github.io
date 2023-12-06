@@ -1,12 +1,12 @@
 var a13409 =
 [
-    [ "npc_corporal_keeshanAI", "d9/d1a/a13409.html#aac5b72ede6e1496f80c4c2520e886efd", null ],
-    [ "Reset", "d9/d1a/a13409.html#a311488932a3de9153490d41e3fae92fb", null ],
-    [ "sQuestAccept", "d9/d1a/a13409.html#a52dd95c74b1457ad5b496b28fd183b06", null ],
-    [ "UpdateAI", "d9/d1a/a13409.html#a973cf65978e531dc8bd7db20fc2809b6", null ],
-    [ "WaypointReached", "d9/d1a/a13409.html#a3edc9ab54068e47f955116db70454f6c", null ],
-    [ "mockingBlowTimer", "d9/d1a/a13409.html#a21cd1ca86864b8507d43e5a1c4c13e0c", null ],
-    [ "phase", "d9/d1a/a13409.html#ae79dcfdb10738d673e8c1aebc6abdee6", null ],
-    [ "shieldBashTimer", "d9/d1a/a13409.html#abb5eaa25a77dd3e6dfff7aaa0aa6c375", null ],
-    [ "timer", "d9/d1a/a13409.html#a3107368f175aa7f4e8c405248ef917df", null ]
+    [ "npc_cameron", "d9/d1a/a13409.html#a45e47ec5c9dadc6f0899e83ac2e19cff", null ],
+    [ "MoveTheChildren", "d9/d1a/a13409.html#a85ae436f19f69ffb853330f01ee152a0", null ],
+    [ "PathEndReached", "d9/d1a/a13409.html#a0bf53f40eeb4fe3ed7d62988bee0a912", null ],
+    [ "sOnGameEvent", "d9/d1a/a13409.html#ab22841871cfcdc926b28296a5b4e440c", null ],
+    [ "SoundPicker", "d9/d1a/a13409.html#a2ad97aaac0bd759921e0b75cfc88d07d", null ],
+    [ "UpdateAI", "d9/d1a/a13409.html#a32a2dd2be2c06700fb81f4072a364ce2", null ],
+    [ "_childrenGUIDs", "d9/d1a/a13409.html#ad260466902e8fb1a2e02998cc4549695", null ],
+    [ "_events", "d9/d1a/a13409.html#ad6c58f433520c4ed55f43ef3604dde28", null ],
+    [ "_started", "d9/d1a/a13409.html#a985d0590eedde340a3923e299d4dffd8", null ]
 ];

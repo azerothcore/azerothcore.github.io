@@ -1,6 +1,7 @@
 var a27505 =
 [
-    [ "HandleEffectApply", "d5/de5/a27505.html#a9e8b226f3ebb33c47de584850643994f", null ],
-    [ "PrepareAuraScript", "d5/de5/a27505.html#a30b74d44bb81a04ea1cfe1b6d5f926c7", null ],
-    [ "Register", "d5/de5/a27505.html#a1d3d32c057877b5cf00f5970e583c25e", null ]
+    [ "HandleScript", "d5/de5/a27505.html#a7c7f92d21898322c501f582a524f4052", null ],
+    [ "Load", "d5/de5/a27505.html#a600eb87e8bbedd3504e3d259f89e3785", null ],
+    [ "PrepareSpellScript", "d5/de5/a27505.html#a8ae826705bd1a1f1da3160be73926d7b", null ],
+    [ "Register", "d5/de5/a27505.html#abda715e38cf19fa7276ec4f4a12d3b63", null ]
 ];

@@ -1,6 +1,6 @@
 var a23977 =
 [
-    [ "npc_overlord_drakuru_betrayalAI", "de/dc5/a23981.html", "de/dc5/a23981" ],
-    [ "npc_overlord_drakuru_betrayal", "da/d17/a23977.html#af4092356ea86c25d91c73af1310c2eb0", null ],
-    [ "GetAI", "da/d17/a23977.html#a3bd893f08212dc94a321beb7a95eea08", null ]
+    [ "HandlePeriodicDummy", "da/d17/a23977.html#a3ebcf527c6dd6af5b3aebe0ee83b7972", null ],
+    [ "PrepareAuraScript", "da/d17/a23977.html#a93ffd9ed8122790dfb20beae3b2931d4", null ],
+    [ "Register", "da/d17/a23977.html#a36ca1a468bb03474b6e38af99e90762e", null ]
 ];

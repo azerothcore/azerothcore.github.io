@@ -1,6 +1,6 @@
 var a20201 =
 [
-    [ "npc_power_sparkAI", "d5/d35/a20205.html", "d5/d35/a20205" ],
-    [ "npc_power_spark", "dd/d30/a20201.html#a9efd2810feb5f90f9f12f51ec7282410", null ],
-    [ "GetAI", "dd/d30/a20201.html#a573198b86697d222c693581bf430453f", null ]
+    [ "instance_naxxramas_InstanceMapScript", "d5/d35/a20205.html", "d5/d35/a20205" ],
+    [ "instance_naxxramas", "dd/d30/a20201.html#a9d4b57f9f0f7a44565bb8d9bd3aa24a1", null ],
+    [ "GetInstanceScript", "dd/d30/a20201.html#ac5dd8d591af2239faab17727eb1ef66e", null ]
 ];

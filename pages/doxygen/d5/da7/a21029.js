@@ -1,6 +1,6 @@
 var a21029 =
 [
-    [ "npc_pool_of_tarAI", "d5/da7/a21029.html#a6141addc9b1cf2c0028d98ef4f4d9d37", null ],
-    [ "DamageTaken", "d5/da7/a21029.html#a4ea55aa08123f724268238e0def5b595", null ],
-    [ "SpellHit", "d5/da7/a21029.html#acb63166b396c079d5b4bb9db67a1448a", null ]
+    [ "npc_freya_wardAI", "d8/df6/a21033.html", "d8/df6/a21033" ],
+    [ "npc_freya_ward", "d5/da7/a21029.html#aebaadcc001922c78e8ec43084a827ac9", null ],
+    [ "GetAI", "d5/da7/a21029.html#a90c0e7a0be1717bf1793415b6fcafbed", null ]
 ];

@@ -1,13 +1,9 @@
 var a23109 =
 [
-    [ "npc_shandy_dalaranAI", "d5/dc9/a23109.html#ae93b853e4852ce71c4d588d4621b16a1", null ],
-    [ "Reset", "d5/dc9/a23109.html#a38f0630d4e18cea01de343afdcb96db3", null ],
-    [ "RollTask", "d5/dc9/a23109.html#acd1daa5bc99f281bd1ca78d4cdaf5a9e", null ],
-    [ "SetData", "d5/dc9/a23109.html#a5c8a0e6e0729d872c230aa72d41236a3", null ],
-    [ "UpdateAI", "d5/dc9/a23109.html#ac7c8e87b784d8738b8aacbcb58f471b1", null ],
-    [ "_aquanosGUID", "d5/dc9/a23109.html#aa1dfb61fbaae6ab2e25dd9779ec63ed1", null ],
-    [ "_canWash", "d5/dc9/a23109.html#af5b1aae6b2dd82c8199caedec3a8fdec", null ],
-    [ "_events", "d5/dc9/a23109.html#a3fbae63669c8382097b0bcb936301945", null ],
-    [ "_lCount", "d5/dc9/a23109.html#ad55bea5f33de226ff230f99059dc9ec3", null ],
-    [ "_lSource", "d5/dc9/a23109.html#a9e01cee4a79bfac56b1d1ecdac17ca3f", null ]
+    [ "npc_counselor_talbotAI", "d5/dc9/a23109.html#acf1865ab4225128b8edbc619f7d8fa93", null ],
+    [ "JustDied", "d5/dc9/a23109.html#a4dbb0c9b91be5fa182bcc5c63ac9307b", null ],
+    [ "JustEngagedWith", "d5/dc9/a23109.html#acacec95c5e74c4b71cf2345bbae2eacb", null ],
+    [ "Reset", "d5/dc9/a23109.html#a03bfaedb136c3e107a4df8e4a1646ae2", null ],
+    [ "UpdateAI", "d5/dc9/a23109.html#a7b5c739d7c85d5205a04f3c6adf367ef", null ],
+    [ "_events", "d5/dc9/a23109.html#a094ce9839bb51b73e6b5826c24cda3b6", null ]
 ];

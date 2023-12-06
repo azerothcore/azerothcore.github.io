@@ -1,6 +1,10 @@
 var a27153 =
 [
-    [ "CheckRequirement", "d5/d13/a27153.html#adb3212ff52b5ad9ae2ce824dd1cf018a", null ],
-    [ "PrepareSpellScript", "d5/d13/a27153.html#aebb88f5ea803a590a099e4e6427d8276", null ],
-    [ "Register", "d5/d13/a27153.html#a18406f867561f9baf5a4cee8ce8ea59a", null ]
+    [ "Load", "d5/d13/a27153.html#a04526f30ad35af3f629cdd0c8312e33c", null ],
+    [ "OnApply", "d5/d13/a27153.html#a83d922c434442e22482410d61aa0198f", null ],
+    [ "OnPetApply", "d5/d13/a27153.html#a6df5e59e29cb89310a1c78bf93029545", null ],
+    [ "OnRemove", "d5/d13/a27153.html#aa4efa4ed7d98c63989353c398bb2b128", null ],
+    [ "PrepareAuraScript", "d5/d13/a27153.html#a1b4d8f636c01f01bc9380c290de91a0e", null ],
+    [ "Register", "d5/d13/a27153.html#a265726c9bfa180c3b8f470eb1eee837b", null ],
+    [ "Validate", "d5/d13/a27153.html#ab318472ea9f4aaa79e45f18783586eed", null ]
 ];

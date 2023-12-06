@@ -1,6 +1,10 @@
 var a14685 =
 [
-    [ "boss_epochAI", "d8/dc0/a14689.html", "d8/dc0/a14689" ],
-    [ "boss_epoch", "d5/ddf/a14685.html#a78b7d775bc3fc44496e41c58f2ed534d", null ],
-    [ "GetAI", "d5/ddf/a14685.html#a2673a4fb8c70d62009dfdc6daf23aee2", null ]
+    [ "npc_crypt_fiendAI", "d5/ddf/a14685.html#ab55c7ded06271b33197282877bb88d44", null ],
+    [ "JustEngagedWith", "d5/ddf/a14685.html#a69eb1076d9c33323be778059d6314442", null ],
+    [ "Reset", "d5/ddf/a14685.html#a10701ab17d3b786075975149319d21ca", null ],
+    [ "UpdateAI", "d5/ddf/a14685.html#aac22e3bcb2d60ba5c6db3e338599f5c5", null ],
+    [ "WaypointReached", "d5/ddf/a14685.html#a7727ba1dddc1f5fb8a2adf9938db9211", null ],
+    [ "go", "d5/ddf/a14685.html#ac4af50533195a007b6813f0386431526", null ],
+    [ "WebTimer", "d5/ddf/a14685.html#a3c01ad115cf22b90ba2e8b47ae145554", null ]
 ];

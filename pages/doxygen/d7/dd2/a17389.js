@@ -1,11 +1,6 @@
 var a17389 =
 [
-    [ "npc_pos_leader_secondAI", "d7/dd2/a17389.html#a2ded8591da2548921cd016d592d1f1c8", null ],
-    [ "DoAction", "d7/dd2/a17389.html#a941d3b42d6a0e58496b724af56fee44a", null ],
-    [ "MovementInform", "d7/dd2/a17389.html#a32f4c5c48f1a63ded0ac9b8ee763090b", null ],
-    [ "SpellHitTarget", "d7/dd2/a17389.html#ae630b7b225379831d15a11f66507bc6a", null ],
-    [ "UpdateAI", "d7/dd2/a17389.html#a640aea9ce4a47dd13d417748e533fc33", null ],
-    [ "barrierGUID", "d7/dd2/a17389.html#a452c096475581c12bf2f4ccb12448026", null ],
-    [ "events", "d7/dd2/a17389.html#a1e1ab6c1d349a9543815a29ae185feec", null ],
-    [ "pInstance", "d7/dd2/a17389.html#aee9dac9efee94db3d84eb9c5fb8c88a2", null ]
+    [ "npc_pos_icicle_triggerAI", "d8/d2c/a17393.html", "d8/d2c/a17393" ],
+    [ "npc_pos_icicle_trigger", "d7/dd2/a17389.html#ae38155ce579f50ff7de0fa5ca50a1c3e", null ],
+    [ "GetAI", "d7/dd2/a17389.html#ad2f984f5b2b713b8307efdf4bcbcf8da", null ]
 ];

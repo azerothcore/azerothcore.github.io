@@ -1,20 +1,19 @@
 var a04127 =
 [
-    [ "boss_void_reaver", "da/d65/a25729.html", "da/d65/a25729" ],
-    [ "boss_void_reaver::boss_void_reaverAI", "da/dba/a25733.html", "da/dba/a25733" ],
-    [ "voidReaver", "dd/d90/a04127.html#a28ac0e4c009a9641eced9517d2c0e8b6", [
-      [ "SAY_AGGRO", "dd/d90/a04127.html#a28ac0e4c009a9641eced9517d2c0e8b6a47c752fff069f3e55065795eef2a9bfe", null ],
-      [ "SAY_SLAY", "dd/d90/a04127.html#a28ac0e4c009a9641eced9517d2c0e8b6a9e64f6e600dd42567d18006912811f75", null ],
-      [ "SAY_DEATH", "dd/d90/a04127.html#a28ac0e4c009a9641eced9517d2c0e8b6a04c962d9b6aaafde54ff92a54369135e", null ],
-      [ "SAY_POUNDING", "dd/d90/a04127.html#a28ac0e4c009a9641eced9517d2c0e8b6a89c7eec707b0165a5300a6e131488f85", null ],
-      [ "SPELL_POUNDING", "dd/d90/a04127.html#a28ac0e4c009a9641eced9517d2c0e8b6aea323cffcf7dd560267a165d89d9ddb0", null ],
-      [ "SPELL_ARCANE_ORB", "dd/d90/a04127.html#a28ac0e4c009a9641eced9517d2c0e8b6a37f92b258a27961515d602836cee1bef", null ],
-      [ "SPELL_KNOCK_AWAY", "dd/d90/a04127.html#a28ac0e4c009a9641eced9517d2c0e8b6aa72ede58fa3714726fab8d4b7252f5fa", null ],
-      [ "SPELL_BERSERK", "dd/d90/a04127.html#a28ac0e4c009a9641eced9517d2c0e8b6ad7b3e50b45f9949cd0e4030ca19a6b4f", null ],
-      [ "EVENT_SPELL_POUNDING", "dd/d90/a04127.html#a28ac0e4c009a9641eced9517d2c0e8b6acc05e16ddf724666bdc6bb7dbe5f0508", null ],
-      [ "EVENT_SPELL_ARCANEORB", "dd/d90/a04127.html#a28ac0e4c009a9641eced9517d2c0e8b6afeb65af9fa9a249ae44d6d1a2a9570e3", null ],
-      [ "EVENT_SPELL_KNOCK_AWAY", "dd/d90/a04127.html#a28ac0e4c009a9641eced9517d2c0e8b6abf4817be82f16d54e033a16ba44e8dd2", null ],
-      [ "EVENT_SPELL_BERSERK", "dd/d90/a04127.html#a28ac0e4c009a9641eced9517d2c0e8b6ac98fdfb490fa896cecb40ae427f4ea75", null ]
+    [ "boss_mekgineer_steamrigger", "d1/d61/a25045.html", "d1/d61/a25045" ],
+    [ "MekgineerSteamrigger", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dd", [
+      [ "SAY_MECHANICS", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4ddac616ae8f03c32cc59f26b5337aae84ba", null ],
+      [ "SAY_AGGRO", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda47c752fff069f3e55065795eef2a9bfe", null ],
+      [ "SAY_SLAY", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda9e64f6e600dd42567d18006912811f75", null ],
+      [ "SAY_DEATH", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda04c962d9b6aaafde54ff92a54369135e", null ],
+      [ "SPELL_SUPER_SHRINK_RAY", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda4499c6dfeb4c15552b20d4bdc0e63edd", null ],
+      [ "SPELL_SAW_BLADE", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4ddabe5ec412b26a2ffb5cd6071f90620e58", null ],
+      [ "SPELL_ELECTRIFIED_NET", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda8af7ec94d6adf009820da95c833d041a", null ],
+      [ "SPELL_ENRAGE", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda2a20f56307679be4d4f01a0d3d93cc7e", null ],
+      [ "SPELL_SUMMON_MECHANICS_1", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda48f35e8fc2aae6e24c0616e4c1b13d01", null ],
+      [ "SPELL_SUMMON_MECHANICS_2", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4ddae60e2ad853b074c2f53e31ca1e5f8ff1", null ],
+      [ "SPELL_SUMMON_MECHANICS_3", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda5059715773c9ffed1b3ef2ff2c8f289c", null ],
+      [ "NPC_STREAMRIGGER_MECHANIC", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda6eb80a7e6891ababaf4ac14b1d9f890e", null ]
     ] ],
-    [ "AddSC_boss_void_reaver", "dd/d90/a04127.html#a8231e3ec35a484f109599a4507751f6f", null ]
+    [ "AddSC_boss_mekgineer_steamrigger", "dd/d90/a04127.html#a9aa3518f4196a7c844ab6ffafbc91068", null ]
 ];

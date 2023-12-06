@@ -1,7 +1,7 @@
 var a10009 =
 [
-    [ "Emote", "d8/d92/a10009.html#acb1620d125ffb11fe43caf4ebf27d1be", null ],
-    [ "Write", "d8/d92/a10009.html#a3f5532f40b59f47423d2b4e3749da88e", null ],
-    [ "EmoteID", "d8/d92/a10009.html#a7f4d3ee4353b408f8c795e6fdc552e76", null ],
-    [ "Guid", "d8/d92/a10009.html#ab96a1c0933e90872f54eb0995098274a", null ]
+    [ "SpellScriptLoader", "d8/d92/a10009.html#a0ae97b8f3cf24f46b98a121d35bdeadf", null ],
+    [ "GetAuraScript", "d8/d92/a10009.html#a9c60850e39ffe3d151a128b12777859d", null ],
+    [ "GetSpellScript", "d8/d92/a10009.html#a6f3a101a0517ba1440399809cf7f5b5b", null ],
+    [ "IsDatabaseBound", "d8/d92/a10009.html#ae60bf9957b950c7f5c9927f71510dc06", null ]
 ];

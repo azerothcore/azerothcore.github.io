@@ -1,7 +1,8 @@
 var a29809 =
 [
-    [ "Displayid", "de/d23/a29809.html#adc5aee11b1e27752576b0b98156d3b3c", null ],
-    [ "ExtendedDisplayInfoID", "de/d23/a29809.html#a174d6f73393e6dcfeecf487fc09c2e6f", null ],
-    [ "ModelId", "de/d23/a29809.html#ada31381a4ee360e2fcb68403bc6d14e5", null ],
-    [ "scale", "de/d23/a29809.html#ae15b89669bf5d711cc57c21d8c8be0dd", null ]
+    [ "difficulty", "de/d23/a29809.html#a2a04df701c13dc49053b09a9587a72a8", null ],
+    [ "encounterIndex", "de/d23/a29809.html#a3d35560824a3aaeecb8db4bf8628ebfd", null ],
+    [ "encounterName", "de/d23/a29809.html#af4f26f56526b945e392ddaf6b2d43fa1", null ],
+    [ "id", "de/d23/a29809.html#aa9828ccc644a11f9cb35fbcc7d31a827", null ],
+    [ "mapId", "de/d23/a29809.html#a61c1ac724c8eb96907d2ea9402a8f9ce", null ]
 ];

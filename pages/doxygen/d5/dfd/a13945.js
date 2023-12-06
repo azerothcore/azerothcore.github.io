@@ -1,6 +1,5 @@
 var a13945 =
 [
-    [ "npc_ohganAI", "db/d85/a13949.html", "db/d85/a13949" ],
-    [ "npc_ohgan", "d5/dfd/a13945.html#ae391f2b36c68952ca5eaf773c29cbcad", null ],
-    [ "GetAI", "d5/dfd/a13945.html#a129dc2fcd449850403e0dcb99725da90", null ]
+    [ "at_zulgurub_temple_speech", "d5/dfd/a13945.html#ab727ad7cb7f0a0e8309bbab233766cde", null ],
+    [ "_OnTrigger", "d5/dfd/a13945.html#afd42cd408df7562a9dcd91e33750f3d4", null ]
 ];

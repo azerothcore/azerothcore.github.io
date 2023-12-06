@@ -1,11 +1,6 @@
 var a15557 =
 [
-    [ "npc_thrall_warchiefAI", "d4/dab/a15557.html#ada9c79c1591a8bd28c66329dc7c5d3dc", null ],
-    [ "DoAction", "d4/dab/a15557.html#a511da19703e30f6e82e59c5223bf2770", null ],
-    [ "JustEngagedWith", "d4/dab/a15557.html#a994a9030e2d8c5afaa66c21897e54f82", null ],
-    [ "Reset", "d4/dab/a15557.html#a920a29258228c9c2e7e0791d38b648e1", null ],
-    [ "UpdateAI", "d4/dab/a15557.html#a537ed9f2d0a638d01e877d9ca1e7fdf0", null ],
-    [ "_scheduler", "d4/dab/a15557.html#aee022948b7b86e17b179f78c93ba5734", null ],
-    [ "ChainLightningTimer", "d4/dab/a15557.html#ab30df9277fc84f098e0bdd70a2ab3795", null ],
-    [ "ShockTimer", "d4/dab/a15557.html#aa8609f8824f68ce7259465284c01dd35", null ]
+    [ "npc_bunthen_plainswind", "d4/dab/a15557.html#ad9b789ad3e958dee4733b142813b6302", null ],
+    [ "OnGossipHello", "d4/dab/a15557.html#ae2fe8bfb957dd8ea84d2585293c3b6eb", null ],
+    [ "OnGossipSelect", "d4/dab/a15557.html#a117f28d513ac645b9d3d908d052d2146", null ]
 ];

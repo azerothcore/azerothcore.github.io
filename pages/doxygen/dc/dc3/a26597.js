@@ -1,7 +1,9 @@
 var a26597 =
 [
-    [ "HandleScriptEffect", "dc/dc3/a26597.html#a3a33f0ec477ff3b4b19fc98760a2dae7", null ],
-    [ "PrepareSpellScript", "dc/dc3/a26597.html#ae29c4f69a34e71011192df12509e2935", null ],
-    [ "Register", "dc/dc3/a26597.html#ae37da44bde25f6bdb5b4a382ab66b7be", null ],
-    [ "Validate", "dc/dc3/a26597.html#af9056c179b8089cf0b304b3ce61ea92f", null ]
+    [ "FilterTargets", "dc/dc3/a26597.html#ae7a54b8e27f91091b479293cc62ee1f4", null ],
+    [ "PrepareSpellScript", "dc/dc3/a26597.html#a215b412cfeae9f2763b1c5d3b8a4ca31", null ],
+    [ "Register", "dc/dc3/a26597.html#ae790485f5b27fe34a0a26c3d6fc7ed41", null ],
+    [ "SetTargets", "dc/dc3/a26597.html#ac77e95af9b08118e87e3329eab5515ea", null ],
+    [ "Validate", "dc/dc3/a26597.html#a8e4b1ff1577f25334b50e25bffc021cc", null ],
+    [ "_targets", "dc/dc3/a26597.html#acc66768f54c514552f0ab01274c24f17", null ]
 ];

@@ -1,6 +1,6 @@
 var a12609 =
 [
-    [ "npc_scarlet_guardAI", "d5/d90/a12613.html", "d5/d90/a12613" ],
-    [ "npc_scarlet_guard", "da/dde/a12609.html#abcc9d9946a252880fd2116f05f7bb85f", null ],
-    [ "GetAI", "da/dde/a12609.html#a4f0dfc93389f8f22b61e7a74d940cbf2", null ]
+    [ "npc_crusade_persuadedAI", "d5/d90/a12613.html", "d5/d90/a12613" ],
+    [ "npc_crusade_persuaded", "da/dde/a12609.html#a4048e164fc99b9dfff41fd168fb542b6", null ],
+    [ "GetAI", "da/dde/a12609.html#a004833d7e6312b23eb6a07c0a6e41db6", null ]
 ];

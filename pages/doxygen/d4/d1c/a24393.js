@@ -1,9 +1,7 @@
 var a24393 =
 [
-    [ "boss_shahrazAI", "d4/d1c/a24393.html#a5429ea8d63c9e3d867f4975c36c7cdcc", null ],
-    [ "JustDied", "d4/d1c/a24393.html#a66a98bc67718c2be488cf3e725f1737b", null ],
-    [ "JustEngagedWith", "d4/d1c/a24393.html#afd3fbf43c7f1a7bdc7af6e940585e3bd", null ],
-    [ "KilledUnit", "d4/d1c/a24393.html#aef6a60e2e8d89f2bffb226b09c6e8c64", null ],
-    [ "Reset", "d4/d1c/a24393.html#a46dc2b15486bc266e1e8df6442d4c2c7", null ],
-    [ "UpdateAI", "d4/d1c/a24393.html#a0052747798b2c0cdf5e065e36dd5bcf9", null ]
+    [ "Load", "d4/d1c/a24393.html#a9dc9346ba593e42f8ff0ef866187ca3b", null ],
+    [ "OnPeriodic", "d4/d1c/a24393.html#ac97b65a2a13b276486b891a78ca4f493", null ],
+    [ "PrepareAuraScript", "d4/d1c/a24393.html#aa9dbcc3e0f2d7b51c0ccd357ae806105", null ],
+    [ "Register", "d4/d1c/a24393.html#a275b5c1e600689040cc1e136ee46906f", null ]
 ];

@@ -1,6 +1,6 @@
 var a17729 =
 [
-    [ "PrepareSpellScript", "d0/dc5/a17729.html#a791d566f3149a006b2a139f68e3039b4", null ],
-    [ "Register", "d0/dc5/a17729.html#a8fedbb4cd8da31469279d17b129dc7ef", null ],
-    [ "SetDest", "d0/dc5/a17729.html#adef4b003c17799dd12eb170200a952ec", null ]
+    [ "ChangeSummonPos", "d0/dc5/a17729.html#a06744070ccc918ae45b53a995cebc9a4", null ],
+    [ "PrepareSpellScript", "d0/dc5/a17729.html#ae47eb3968ce30d86a322112b195fb24c", null ],
+    [ "Register", "d0/dc5/a17729.html#a71434e35c3d1c8e7efc2764c705419cd", null ]
 ];

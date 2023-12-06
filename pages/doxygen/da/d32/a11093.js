@@ -1,14 +1,6 @@
 var a11093 =
 [
-    [ "deserter_commandscript", "da/d32/a11093.html#aebaaf99b9c5959f3f3418e13e252fb95", null ],
-    [ "GetCommands", "da/d32/a11093.html#ab5b48b9dde89c9215c51560f26324649", null ],
-    [ "HandleDeserterAdd", "da/d32/a11093.html#abe8c428ec09d341bb9f49882b7c071e2", null ],
-    [ "HandleDeserterBGAdd", "da/d32/a11093.html#a11fba09d369e7244244887947a91369e", null ],
-    [ "HandleDeserterBGRemove", "da/d32/a11093.html#a9bf4e146ef0f4f0cb2508c4953f8a647", null ],
-    [ "HandleDeserterBGRemoveAll", "da/d32/a11093.html#a419d404315e91b6cac1bfd3ac225a8fd", null ],
-    [ "HandleDeserterInstanceAdd", "da/d32/a11093.html#aabd2b23e2dc61fac10890077b41d8179", null ],
-    [ "HandleDeserterInstanceRemove", "da/d32/a11093.html#a3197e5228284ba50da7f3a31b3e76060", null ],
-    [ "HandleDeserterInstanceRemoveAll", "da/d32/a11093.html#adc6ad2f406fcb58ba64d2b6fd47281e2", null ],
-    [ "HandleDeserterRemove", "da/d32/a11093.html#a210dc9a7eddede6fe976157d6b22b683", null ],
-    [ "HandleDeserterRemoveAll", "da/d32/a11093.html#a6274f79b9884586069f94137b44d89e9", null ]
+    [ "Command", "da/d32/a11093.html#a65dc9a4861ab63743146c65a0a6249f2", null ],
+    [ "Data", "da/d32/a11093.html#abda0f8cc15c7fb45fa81fcf5ccad8d08", null ],
+    [ "DataSize", "da/d32/a11093.html#a279f37acfa44c06ae14c5a544dd7baf6", null ]
 ];

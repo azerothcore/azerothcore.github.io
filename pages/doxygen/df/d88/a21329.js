@@ -1,6 +1,8 @@
 var a21329 =
 [
-    [ "spell_saronite_vapors_damage_SpellScript", "d6/d9b/a21333.html", "d6/d9b/a21333" ],
-    [ "spell_saronite_vapors_damage", "df/d88/a21329.html#ac30c16cf13a845f5d320868deaeb12c4", null ],
-    [ "GetSpellScript", "df/d88/a21329.html#a7a0d0c44783fd63f7b5052970c9a0b4f", null ]
+    [ "npc_ulduar_saronite_animusAI", "df/d88/a21329.html#a2b94427feb24a7bda075b6a8f403433a", null ],
+    [ "JustDied", "df/d88/a21329.html#a30abcab01de3732bc5525864576615b0", null ],
+    [ "UpdateAI", "df/d88/a21329.html#a1490961adc8fc03ab28a992aff55b43b", null ],
+    [ "pInstance", "df/d88/a21329.html#a5d3b297355f286b0ad08ed38dbd5b0d2", null ],
+    [ "timer", "df/d88/a21329.html#a3d0345d4c503eb3f0e4acbe346f1c5e5", null ]
 ];

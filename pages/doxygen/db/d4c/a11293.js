@@ -1,15 +1,13 @@
 var a11293 =
 [
-    [ "boss_vanndarAI", "db/d4c/a11293.html#ada061b4363340602fd1f4744433d9cf9", null ],
-    [ "AttackStart", "db/d4c/a11293.html#a76ab9327e04b82b534a9b3ea59b377d1", null ],
-    [ "EnterEvadeMode", "db/d4c/a11293.html#a9ba6e2620a25728bf30d4d813a82b781", null ],
-    [ "JustEngagedWith", "db/d4c/a11293.html#abde00baf4099361b8c26e6e0cf6c1517", null ],
-    [ "Reset", "db/d4c/a11293.html#a1c2fdf4351a43047f02bec1d46423cb8", null ],
-    [ "UpdateAI", "db/d4c/a11293.html#ab410ed8d64cd91bd6c4b78b2ed678eab", null ],
-    [ "Attacked", "db/d4c/a11293.html#ac5994c76a9d84cf303021a9298673d68", null ],
-    [ "AvatarTimer", "db/d4c/a11293.html#a3bed38b10a87baf50e9c9a57229bd464", null ],
-    [ "ResetTimer", "db/d4c/a11293.html#ae1c4e16cd9ad68e4700d68ed64baa8e2", null ],
-    [ "StormboltTimer", "db/d4c/a11293.html#a71ef70c1b504be2b00be1a70e85bc18a", null ],
-    [ "ThunderclapTimer", "db/d4c/a11293.html#a681a103b6cf937dad3fb15e5be358c26", null ],
-    [ "YellTimer", "db/d4c/a11293.html#a2b8503aaae0fd5e8cd92bb9650ee6ee3", null ]
+    [ "list_commandscript", "db/d4c/a11293.html#a5a85953a46afe08fe05a11fe69c934dc", null ],
+    [ "GetCommands", "db/d4c/a11293.html#a949c6e6f372afb50e1116b6414acdd7c", null ],
+    [ "HandleListAllAurasCommand", "db/d4c/a11293.html#a93f1fe9131b917c813058899efede2a5", null ],
+    [ "HandleListAurasByIdCommand", "db/d4c/a11293.html#a3c59e8b85175ef056b07f566c231c221", null ],
+    [ "HandleListAurasByNameCommand", "db/d4c/a11293.html#a78d6be53ddae80068e2d9c04ea494e24", null ],
+    [ "HandleListCreatureCommand", "db/d4c/a11293.html#a48388f1c839cec6597c74740ec49fa68", null ],
+    [ "HandleListItemCommand", "db/d4c/a11293.html#a7d0aadb081f25c3d533951bd9841f103", null ],
+    [ "HandleListObjectCommand", "db/d4c/a11293.html#ac8b32be8650c9e54388320d650c9761b", null ],
+    [ "ListAurasCommand", "db/d4c/a11293.html#a98c9f6fb42e8030d76f234cdb02a72fb", null ],
+    [ "ShouldListAura", "db/d4c/a11293.html#afc42154ec5e978b366780fb600b17e8d", null ]
 ];

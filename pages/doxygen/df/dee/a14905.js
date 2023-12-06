@@ -1,6 +1,8 @@
 var a14905 =
 [
-    [ "npc_belnistraszAI", "de/df0/a14909.html", "de/df0/a14909" ],
-    [ "npc_belnistrasz", "df/dee/a14905.html#a7aa0e9bfcfaf74febe67cbcb94c01ddb", null ],
-    [ "GetAI", "df/dee/a14905.html#aac9d4389ec1c88be9afb6b9a828da511", null ]
+    [ "Load", "df/dee/a14905.html#a59e8723d8b73f45075db47e1e09e15fb", null ],
+    [ "PeriodicTick", "df/dee/a14905.html#ae4761ac3bce02903a7266511d80503f9", null ],
+    [ "PrepareAuraScript", "df/dee/a14905.html#a7bacc1ebd4b98e5e43b74e13471b2063", null ],
+    [ "Register", "df/dee/a14905.html#acc4db638e0d858085dc3fb2d6b45f7ec", null ],
+    [ "_ticks", "df/dee/a14905.html#ab858e9f6505fa32cc7325087d29fee8b", null ]
 ];

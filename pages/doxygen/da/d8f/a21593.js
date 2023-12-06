@@ -1,6 +1,7 @@
 var a21593 =
 [
-    [ "spell_ulduar_stone_grip_cast_target_SpellScript", "d9/d7c/a21597.html", "d9/d7c/a21597" ],
-    [ "spell_ulduar_stone_grip_cast_target", "da/d8f/a21593.html#abdd76bbf7e0fd3d91daf87584427e508", null ],
-    [ "GetSpellScript", "da/d8f/a21593.html#a710e89d5e9c037e505999543d499caec", null ]
+    [ "OnApply", "da/d8f/a21593.html#a4565fa133778ddb542ef427271375f8a", null ],
+    [ "OnRemove", "da/d8f/a21593.html#af1eeda8d523c97e65c4c540ffb14f401", null ],
+    [ "PrepareAuraScript", "da/d8f/a21593.html#af3b912319afe42cacf7ced8f38ccbf62", null ],
+    [ "Register", "da/d8f/a21593.html#a5eaca53810fbff6463e95c8eedefec81", null ]
 ];

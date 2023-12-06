@@ -1,6 +1,6 @@
 var a19833 =
 [
-    [ "npc_four_car_garageAI", "d4/d45/a19837.html", "d4/d45/a19837" ],
-    [ "npc_four_car_garage", "d3/d7e/a19833.html#ae9b811544ab5cbdcb9c44abdc2da41a8", null ],
-    [ "GetAI", "d3/d7e/a19833.html#ac55346f9733c5502a9e9f2d6d48feefb", null ]
+    [ "icecrown_citadel_teleport", "d3/d7e/a19833.html#ab74d5962073dcf3b4488c33aaa935377", null ],
+    [ "OnGossipHello", "d3/d7e/a19833.html#a97b0d94a5c7388a5dfce76f3bd3be24f", null ],
+    [ "OnGossipSelect", "d3/d7e/a19833.html#a0b160bd86341542ddb1c80f3d4bd691f", null ]
 ];

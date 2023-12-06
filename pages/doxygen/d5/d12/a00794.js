@@ -1,21 +1,12 @@
 var a00794 =
 [
-    [ "TSpellSummary", "d7/d14/a05909.html", "d7/d14/a05909" ],
-    [ "eNPCs", "d5/d12/a00794.html#abaecf87f40b40c4c71ec596a0b73e911", [
-      [ "NPC_BROODLORD", "d5/d12/a00794.html#abaecf87f40b40c4c71ec596a0b73e911a0429b55864dc1628ebf2cc160a93c1dc", null ],
-      [ "NPC_JAN_ALAI", "d5/d12/a00794.html#abaecf87f40b40c4c71ec596a0b73e911a0c9f05f129ebeb37c7b6a6bd0444caca", null ],
-      [ "NPC_SARTHARION", "d5/d12/a00794.html#abaecf87f40b40c4c71ec596a0b73e911ac5fc96320a852557e13f1d4a95c8ff10", null ],
-      [ "NPC_FREYA", "d5/d12/a00794.html#abaecf87f40b40c4c71ec596a0b73e911a5406e0387cdb4e28fe7718f28ec3d752", null ],
-      [ "NPC_INGVAR_UNDEAD", "dd/d77/a03659.html#abaecf87f40b40c4c71ec596a0b73e911ac5f7785a73b2ea4946e698f73996e906", null ],
-      [ "NPC_ANNHYLDE", "dd/d77/a03659.html#abaecf87f40b40c4c71ec596a0b73e911a244024200627132843a0b95f2fdefcb4", null ],
-      [ "NPC_THROW", "dd/d77/a03659.html#abaecf87f40b40c4c71ec596a0b73e911a5c7c851e12a8c23ef9569157753a2546", null ],
-      [ "NPC_FROST_TOMB", "d4/d2b/a03662.html#abaecf87f40b40c4c71ec596a0b73e911a8d3888198310322d79e29632f594ac76", null ],
-      [ "NPC_SKELETON", "d4/d2b/a03662.html#abaecf87f40b40c4c71ec596a0b73e911ae6d4da6ba356104e95b11d5cd561d0f3", null ]
-    ] ],
-    [ "GetClosestCreatureWithEntry", "d5/d12/a00794.html#a136c0c059281a05f9cb91237ce55be7b", null ],
-    [ "GetClosestGameObjectWithEntry", "d5/d12/a00794.html#a80b13d7c0fa3b835b0834955ed0f93d8", null ],
-    [ "GetCreatureListWithEntryInGrid", "d5/d12/a00794.html#ab6a8246d473139627106be4651f6329d", null ],
-    [ "GetDeadCreatureListInGrid", "d5/d12/a00794.html#a2e3edf6fd8a6865d815af4f8acb184af", null ],
-    [ "GetGameObjectListWithEntryInGrid", "d5/d12/a00794.html#ae9abb80c4e811509bca88e65cf817276", null ],
-    [ "SpellSummary", "d5/d12/a00794.html#ae56af266ccaa1794f1f014938b07e9cc", null ]
+    [ "Escort_Waypoint", "de/d5c/a06085.html", "de/d5c/a06085" ],
+    [ "npc_escortAI", "d5/d15/a06089.html", "d5/d15/a06089" ],
+    [ "DEFAULT_MAX_PLAYER_DISTANCE", "d5/d12/a00794.html#ad23dc39ce2da634e67360fab90e3b9e2", null ],
+    [ "eEscortState", "d5/d12/a00794.html#af40ca4990501264cb0359ab6d93fb08a", [
+      [ "STATE_ESCORT_NONE", "d5/d12/a00794.html#af40ca4990501264cb0359ab6d93fb08aa7cc35d82589d473e8265c67eccc9ecd5", null ],
+      [ "STATE_ESCORT_ESCORTING", "d5/d12/a00794.html#af40ca4990501264cb0359ab6d93fb08aa276eb485ebaeb34de738a76731763b92", null ],
+      [ "STATE_ESCORT_RETURNING", "d5/d12/a00794.html#af40ca4990501264cb0359ab6d93fb08aaae71d59813ca4d9bb6e84769e1eeec48", null ],
+      [ "STATE_ESCORT_PAUSED", "d5/d12/a00794.html#af40ca4990501264cb0359ab6d93fb08aa243ae0744c8bd5cc0191aaae1e3cb9f6", null ]
+    ] ]
 ];

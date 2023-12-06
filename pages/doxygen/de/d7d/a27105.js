@@ -1,6 +1,7 @@
 var a27105 =
 [
-    [ "CalculateAmount", "de/d7d/a27105.html#a0522f4bf54b4a71df4e09f97a28fda45", null ],
-    [ "PrepareAuraScript", "de/d7d/a27105.html#acf699e467734499dd992f401da38cf88", null ],
-    [ "Register", "de/d7d/a27105.html#a6e6396a162a532ff25b9bd7c551f05d8", null ]
+    [ "HandleScript", "de/d7d/a27105.html#a12f4c4a85f19ceb55d274428cf2b25a4", null ],
+    [ "PrepareSpellScript", "de/d7d/a27105.html#acf1173670c35c84ae7aba29be00d31cf", null ],
+    [ "Register", "de/d7d/a27105.html#a5a2c59463a0546b6f5cd375b3671b86b", null ],
+    [ "Validate", "de/d7d/a27105.html#a437a018fd6917bee51bdbba7cf29e53d", null ]
 ];

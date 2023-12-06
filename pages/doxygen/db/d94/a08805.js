@@ -1,8 +1,14 @@
 var a08805 =
 [
-    [ "NearestAttackableNoTotemUnitInObjectRangeCheck", "db/d94/a08805.html#a1f0bf90a7b9c57d05c54e3db6827aec1", null ],
-    [ "operator()", "db/d94/a08805.html#a08f8e473914c8a7bddbf26568294c18b", null ],
-    [ "i_obj", "db/d94/a08805.html#a949ff3bcc3530206d83512d293647a2b", null ],
-    [ "i_owner", "db/d94/a08805.html#a64f58427bbab3276bdc53450b33eca12", null ],
-    [ "i_range", "db/d94/a08805.html#af52388830cec17e32b1d368739b4555a", null ]
+    [ "WorldObjectLastSearcher", "db/d94/a08805.html#af8baf5ff23a3167a963ade43faec09fc", null ],
+    [ "Visit", "db/d94/a08805.html#ac011f150695eb1f3a83536175fd2a016", null ],
+    [ "Visit", "db/d94/a08805.html#af5c5a533084c436e0d7de828e1ef82ad", null ],
+    [ "Visit", "db/d94/a08805.html#a962a050f568dab037a9a48879eae0f86", null ],
+    [ "Visit", "db/d94/a08805.html#a98967233e04c6223361897c02bc0edc5", null ],
+    [ "Visit", "db/d94/a08805.html#a94d30e81eb509ff4fd3dac7c207c819b", null ],
+    [ "Visit", "db/d94/a08805.html#a39a9d66014df641c0cb08f619f9d8434", null ],
+    [ "i_check", "db/d94/a08805.html#a66afc21dd0fd740c2723516b8c33a319", null ],
+    [ "i_mapTypeMask", "db/d94/a08805.html#a5689c8aa9120bc545c98ec0916d78d56", null ],
+    [ "i_object", "db/d94/a08805.html#a765d65a90639b34a8cf9f42fdd6ae653", null ],
+    [ "i_phaseMask", "db/d94/a08805.html#a966213d495a613f33aebaa8ebda7c380", null ]
 ];

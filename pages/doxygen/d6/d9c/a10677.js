@@ -1,7 +1,8 @@
 var a10677 =
 [
-    [ "ap_bonus", "d6/d9c/a10677.html#a98410b8bb89434cd7e1747462f8039dc", null ],
-    [ "ap_dot_bonus", "d6/d9c/a10677.html#a09caeec47b138d9eff3539795416a09a", null ],
-    [ "direct_damage", "d6/d9c/a10677.html#abab1af227a6c8e592b8a9bd15589535d", null ],
-    [ "dot_damage", "d6/d9c/a10677.html#a92491d8d1e61612d88c7c830d7912be5", null ]
+    [ "SkillPerfectItemEntry", "d6/d9c/a10677.html#a683f3c6f5e9c5ef2a0f0fa09d546d2a3", null ],
+    [ "SkillPerfectItemEntry", "d6/d9c/a10677.html#a678f9908440187faad38c0e1ffaf82de", null ],
+    [ "perfectCreateChance", "d6/d9c/a10677.html#a750d5ab6bc3df0026e640f1c84de8547", null ],
+    [ "perfectItemType", "d6/d9c/a10677.html#a057605f8867d4df5cb290318598a2908", null ],
+    [ "requiredSpecialization", "d6/d9c/a10677.html#aa7ad968ab1b8804ee8f0f8f40bc6f762", null ]
 ];

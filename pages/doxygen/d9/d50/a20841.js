@@ -1,6 +1,6 @@
 var a20841 =
 [
-    [ "PrepareSpellScript", "d9/d50/a20841.html#a2a138432c985de73d2081e5855d46cf2", null ],
-    [ "RecalculateDamage", "d9/d50/a20841.html#aa041d3c35ef6cacc13b1c2b2294bfd6e", null ],
-    [ "Register", "d9/d50/a20841.html#a6a545ceeb1f37c9dbaf46d1949d8a51a", null ]
+    [ "spell_algalon_trigger_3_adds_SpellScript", "dd/da5/a20845.html", "dd/da5/a20845" ],
+    [ "spell_algalon_trigger_3_adds", "d9/d50/a20841.html#a00657f3ac1819a1e57819eef825aa9e4", null ],
+    [ "GetSpellScript", "d9/d50/a20841.html#acc724746a7527f45016a3109707d2680", null ]
 ];

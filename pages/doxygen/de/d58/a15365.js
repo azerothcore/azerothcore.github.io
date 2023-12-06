@@ -1,7 +1,8 @@
 var a15365 =
 [
-    [ "npc_kerlonianAI", "da/dbd/a15369.html", "da/dbd/a15369" ],
-    [ "npc_kerlonian", "de/d58/a15365.html#a8a5ab1fde9f21ac256d5168ef3f17f87", null ],
-    [ "GetAI", "de/d58/a15365.html#a93d93ba13d8521fee39801473b7c4b6a", null ],
-    [ "OnQuestAccept", "de/d58/a15365.html#a257d24295318605ac2fd5554315dfd63", null ]
+    [ "npc_injured_draeneiAI", "de/d58/a15365.html#a6832ec8b005e75ff66b0fd04e5ff3daa", null ],
+    [ "JustEngagedWith", "de/d58/a15365.html#adcc5750f0ab037a7ac38b9fa64b75a74", null ],
+    [ "MoveInLineOfSight", "de/d58/a15365.html#a514556f4a81c6f1f8b7caaa526c08662", null ],
+    [ "Reset", "de/d58/a15365.html#adcb601f739a91ce71926791885152471", null ],
+    [ "UpdateAI", "de/d58/a15365.html#af4d723ac0a95f9dad12e82d5bc987f50", null ]
 ];

@@ -1,6 +1,6 @@
 var a23529 =
 [
-    [ "npc_lord_areteAI", "d8/d7f/a23533.html", "d8/d7f/a23533" ],
-    [ "npc_lord_arete", "da/d70/a23529.html#a929e3f3346bf4dbaee127463eaf4ffcc", null ],
-    [ "GetAI", "da/d70/a23529.html#a212d003e9acb5f141197b5c4d10163a4", null ]
+    [ "npc_plaguehound_trackerAI", "d8/d7f/a23533.html", "d8/d7f/a23533" ],
+    [ "npc_plaguehound_tracker", "da/d70/a23529.html#a5c2803907cf06bc3e641bbb8171681d3", null ],
+    [ "GetAI", "da/d70/a23529.html#a1ec8f190139b35837a0ce6c4c2f08709", null ]
 ];

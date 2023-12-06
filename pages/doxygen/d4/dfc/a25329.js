@@ -1,12 +1,13 @@
 var a25329 =
 [
-    [ "boss_vazruden_the_herald", "d4/dfc/a25329.html#a97f761b2e3477a22cdc65c68700de72c", null ],
-    [ "AttackStart", "d4/dfc/a25329.html#a190621f4130b913348a49d6dfe76b591", null ],
-    [ "JustSummoned", "d4/dfc/a25329.html#a66d8c6252e6baf88144da3af57bf65a4", null ],
-    [ "MovementInform", "d4/dfc/a25329.html#abd89aa3911c626864f8aada889ce99c9", null ],
-    [ "Reset", "d4/dfc/a25329.html#a18076b0fd12bc9a002394d5fe3aa5f81", null ],
-    [ "SetData", "d4/dfc/a25329.html#a7dcbec1c99fdf4f740656a8379a99080", null ],
-    [ "SummonedCreatureDespawn", "d4/dfc/a25329.html#a7621077082a3b53d1d21265e6dd00dce", null ],
-    [ "SummonedCreatureDies", "d4/dfc/a25329.html#a336feba0d88e4fccce28b2730a9aea9e", null ],
-    [ "UpdateAI", "d4/dfc/a25329.html#adc98e358a751fd9881589aada4baf320", null ]
+    [ "boss_warbringer_omrogg", "d4/dfc/a25329.html#a20f790595640cd41d636ad43c8837cda", null ],
+    [ "HandleHeadTalk", "d4/dfc/a25329.html#aaa324c065f6c2bbf75688f5910be09d1", null ],
+    [ "JustDied", "d4/dfc/a25329.html#a8a2abaceda580ac2ed4f1c736281828f", null ],
+    [ "JustEngagedWith", "d4/dfc/a25329.html#ae1710f22f8a72f661498c4fbc6d108a5", null ],
+    [ "KilledUnit", "d4/dfc/a25329.html#add6b54c4744be120b6b5fd53912ce1fd", null ],
+    [ "ScheduleBurningPhase", "d4/dfc/a25329.html#afd20a8bd1f6f083e0725d962ec747e26", null ],
+    [ "ScheduleNonBurningPhase", "d4/dfc/a25329.html#a176217a0767e8153d07996461ac68f60", null ],
+    [ "SetData", "d4/dfc/a25329.html#a4d1154d64c999316f9ae02ab76cbc870", null ],
+    [ "UpdateAI", "d4/dfc/a25329.html#a90369760ed0e52f1ffc6d3e7c4e39ec2", null ],
+    [ "_headTalk", "d4/dfc/a25329.html#ae657addceb26f4d02d734fa0790a1ae2", null ]
 ];

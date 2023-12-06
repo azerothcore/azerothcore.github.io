@@ -1,11 +1,7 @@
 var a27161 =
 [
-    [ "spell_gen_consume", "d6/d96/a27161.html#a839f5e891cfbd0f83937f06c7fd049d4", null ],
-    [ "AfterRemove", "d6/d96/a27161.html#ac521cc1524ddb9dd298145f23cc8fcd1", null ],
-    [ "HandleProc", "d6/d96/a27161.html#af69251aa0415a2148162f32dd9113917", null ],
-    [ "PrepareAuraScript", "d6/d96/a27161.html#a43860e5dcb2d2cb49e52c280d4f3c7e9", null ],
-    [ "Register", "d6/d96/a27161.html#a043362a08bcf9cfe253dd23c722a60bc", null ],
-    [ "Validate", "d6/d96/a27161.html#ae9b7c2f4a1b8f26a20b5ca6d90d3c5e9", null ],
-    [ "_spellId1", "d6/d96/a27161.html#a9763527e0a95c52888847b84d8f1dd8d", null ],
-    [ "_spellId2", "d6/d96/a27161.html#aa9b47c361eaad7dac4725e0be1bfe254", null ]
+    [ "HandleScriptEffect", "d6/d96/a27161.html#ab1d476e7a07da5db80908fb669b6fa6b", null ],
+    [ "PrepareSpellScript", "d6/d96/a27161.html#acf30d245bab2e7a1ee1121008345e667", null ],
+    [ "Register", "d6/d96/a27161.html#a303a38a41f3d9be6e3083690b234e51f", null ],
+    [ "Validate", "d6/d96/a27161.html#a77a3256cdea185ce0ea95d88283c55d7", null ]
 ];

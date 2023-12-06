@@ -1,6 +1,5 @@
 var a11957 =
 [
-    [ "spell_majordomo_separation_nexiety_AuraScript", "d5/dcd/a11961.html", "d5/dcd/a11961" ],
-    [ "spell_majordomo_separation_nexiety", "d7/d43/a11957.html#ae69c130407efd4fd1bd6eb12bff83d3d", null ],
-    [ "GetAuraScript", "d7/d43/a11957.html#a33835937cebff04881b2cdf4f66b6e7b", null ]
+    [ "at_orb_of_command", "d7/d43/a11957.html#a1f0b196362b76e050eba66d3ce612623", null ],
+    [ "OnTrigger", "d7/d43/a11957.html#a8d30d303c72d5eaf59222c890ab13ca3", null ]
 ];

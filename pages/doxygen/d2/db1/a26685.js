@@ -1,9 +1,5 @@
 var a26685 =
 [
-    [ "FilterTargets", "d2/db1/a26685.html#ae7a54b8e27f91091b479293cc62ee1f4", null ],
-    [ "PrepareSpellScript", "d2/db1/a26685.html#a215b412cfeae9f2763b1c5d3b8a4ca31", null ],
-    [ "Register", "d2/db1/a26685.html#ae790485f5b27fe34a0a26c3d6fc7ed41", null ],
-    [ "SetTargets", "d2/db1/a26685.html#ac77e95af9b08118e87e3329eab5515ea", null ],
-    [ "Validate", "d2/db1/a26685.html#a8e4b1ff1577f25334b50e25bffc021cc", null ],
-    [ "_targets", "d2/db1/a26685.html#acc66768f54c514552f0ab01274c24f17", null ]
+    [ "PrepareSpellScript", "d2/db1/a26685.html#a2d0e411f3b4a9efed35ee34c7bf03252", null ],
+    [ "Register", "d2/db1/a26685.html#a560ff22e718e8a975a2e2dc2340da917", null ]
 ];

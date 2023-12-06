@@ -1,6 +1,9 @@
 var a09413 =
 [
-    [ "sourceObjectDestroyLink", "de/d56/a09413.html#a575a5bac090f5bc5b3f2a721aa64ef42", null ],
-    [ "targetObjectBuildLink", "de/d56/a09413.html#abf8c86604c3ef4349567c736090402f6", null ],
-    [ "targetObjectDestroyLink", "de/d56/a09413.html#a5cb0bab8be8116b9a489a4922c44c5c8", null ]
+    [ "LiquidData", "de/d56/a09413.html#ac2435178323f480d2dae449b49b39146", null ],
+    [ "DepthLevel", "de/d56/a09413.html#ad84c7763a6253db7ae6117ecc7144f1d", null ],
+    [ "Entry", "de/d56/a09413.html#abfed22cb0e920067c0f86a0083ef4ab6", null ],
+    [ "Flags", "de/d56/a09413.html#aa0903ec4233bcfa34494cea5068cd19c", null ],
+    [ "Level", "de/d56/a09413.html#a7c596e921e383bbdbdacbcd4307fe380", null ],
+    [ "Status", "de/d56/a09413.html#acb79cdfb4221f158ce9b29127591a8a9", null ]
 ];

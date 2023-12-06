@@ -1,9 +1,6 @@
 var a16221 =
 [
-    [ "spell_halion_damage_aoe_summon_SpellScript", "d9/dbc/a16221.html#a938738d8179132d59e94c1928df3bc5f", null ],
-    [ "HandleSummon", "d9/dbc/a16221.html#a7647ca3caf01f5fb6de8f50c980a9f67", null ],
-    [ "PrepareSpellScript", "d9/dbc/a16221.html#a7af4f5c24d44641707818e13dab3d20d", null ],
-    [ "Register", "d9/dbc/a16221.html#a08e7010450ee49524e7e39a8a2e7c615", null ],
-    [ "_auraSpell", "d9/dbc/a16221.html#a6ec3ede3544be4f5f756fc95abb37617", null ],
-    [ "_explosionSpell", "d9/dbc/a16221.html#aa2d2565a3a121094ea84c69a4078516c", null ]
+    [ "spell_halion_meteor_strike_spread_AuraScript", "da/dfa/a16225.html", "da/dfa/a16225" ],
+    [ "spell_halion_meteor_strike_spread", "d9/dbc/a16221.html#aeab821be37ef75ff53f51699a1a1b29d", null ],
+    [ "GetAuraScript", "d9/dbc/a16221.html#aea827f0dbce47732ef4690fd496b24db", null ]
 ];

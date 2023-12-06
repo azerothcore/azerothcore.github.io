@@ -1,8 +1,5 @@
 var a20697 =
 [
-    [ "dark_rune_protectorsAI", "db/d22/a20697.html#ae2f3cfd19e565ede132e38f439a930ba", null ],
-    [ "JustEngagedWith", "db/d22/a20697.html#aa71514efa488ff8f9276cb2a4c166759", null ],
-    [ "Reset", "db/d22/a20697.html#a88305b8ac016175d61a0387d1888671f", null ],
-    [ "UpdateAI", "db/d22/a20697.html#a0e27fc91a01362ee58a0eb10fb9a5176", null ],
-    [ "events", "db/d22/a20697.html#a2836d6f142a322dae0aed9ff6a4888e2", null ]
+    [ "boss_sjonnir_dwarfAI", "db/d22/a20697.html#aee7608282bef500a7eb3e0d3130fa01c", null ],
+    [ "UpdateAI", "db/d22/a20697.html#afef50cec19e4cb2018c7c8a9e36ef41c", null ]
 ];

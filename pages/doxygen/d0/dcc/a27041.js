@@ -1,7 +1,6 @@
 var a27041 =
 [
-    [ "HandleScriptEffect", "d0/dcc/a27041.html#a4444d5f146e875bae40edbcc8ed408cb", null ],
-    [ "PrepareSpellScript", "d0/dcc/a27041.html#af4320dd6567d8c9cb2a1492095a98459", null ],
-    [ "Register", "d0/dcc/a27041.html#ab9360c3a883dd5a7df9836306d9762ec", null ],
-    [ "Validate", "d0/dcc/a27041.html#a51ebef5e7fff9dfaab553ecae7be732f", null ]
+    [ "PrepareSpellScript", "d0/dcc/a27041.html#abb178100d4e5fa4032118f86aa34127d", null ],
+    [ "Register", "d0/dcc/a27041.html#a50e902cc281b909259097a8bed5651f2", null ],
+    [ "RemoveVehicleAuras", "d0/dcc/a27041.html#a4ec803f3164d6e38ddf10f4a0ca392e0", null ]
 ];

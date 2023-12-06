@@ -1,6 +1,7 @@
 var a26833 =
 [
-    [ "ModDest", "dc/dab/a26833.html#a99d08536d2555390a7399a6d2fc199e6", null ],
-    [ "PrepareSpellScript", "dc/dab/a26833.html#a361aed7e74a9f01d665018fd0c3addb1", null ],
-    [ "Register", "dc/dab/a26833.html#aa96b1ff5297d670481d1d8afa9356ef9", null ]
+    [ "HandleEffectApply", "dc/dab/a26833.html#a65ad32ded4246c3469f15b6ab167830e", null ],
+    [ "HandleEffectRemove", "dc/dab/a26833.html#a8aab4a5dab173bd0296843a0c2991142", null ],
+    [ "PrepareAuraScript", "dc/dab/a26833.html#a4925868cc5b61b7f35d59fdb27af27b6", null ],
+    [ "Register", "dc/dab/a26833.html#a0635d5e34bfc62df1ec006b7818bffb2", null ]
 ];

@@ -1,6 +1,6 @@
 var a18773 =
 [
-    [ "MysticBuffetTargetFilter", "d3/d79/a18773.html#a5cc25dc0c6de036ec8fa3e7f10ffb2ea", null ],
-    [ "operator()", "d3/d79/a18773.html#a76536b8960aa5e64fa8f7a02939d4295", null ],
-    [ "_caster", "d3/d79/a18773.html#a60ef55fa8d6f511bba566ac3c8f8328a", null ]
+    [ "HandleSpecial", "d3/d79/a18773.html#a1fcf2a7737a8151b6c99376987ee55ec", null ],
+    [ "PrepareSpellScript", "d3/d79/a18773.html#a9b1b98ffd8cad5b23b76f9f3a5fd72da", null ],
+    [ "Register", "d3/d79/a18773.html#aedc5f9180a96c9c071f97c3cc9468f5a", null ]
 ];

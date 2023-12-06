@@ -1,7 +1,6 @@
 var a22421 =
 [
-    [ "npc_frost_tombAI", "d8/d5d/a22421.html#a950f7f77bdbc7ba1db0911641f2fadcf", null ],
-    [ "JustDied", "d8/d5d/a22421.html#aeda420de208505fa93fc548693a1ff74", null ],
-    [ "UpdateAI", "d8/d5d/a22421.html#a8f323275af4ecafd1978c465e75978e0", null ],
-    [ "PrisonerGUID", "d8/d5d/a22421.html#ae1e3af77879f98a77186ec77c31da7a8", null ]
+    [ "spell_ulduar_arachnopod_damaged_AuraScript", "d9/d95/a22425.html", "d9/d95/a22425" ],
+    [ "spell_ulduar_arachnopod_damaged", "d8/d5d/a22421.html#a651a803261e90cd897d7f166a275eb26", null ],
+    [ "GetAuraScript", "d8/d5d/a22421.html#aa084d5348aabacfcdcbc71a7a6a5414f", null ]
 ];

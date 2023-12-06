@@ -1,8 +1,6 @@
 var a11461 =
 [
-    [ "boss_doomrelAI", "d9/d1c/a11465.html", "d9/d1c/a11465" ],
-    [ "boss_doomrel", "d1/d62/a11461.html#aee45a59f9a62f1d32a7dc344bd3c46c6", null ],
-    [ "GetAI", "d1/d62/a11461.html#a1b8a95208506f79c00ed40be2d51eb38", null ],
-    [ "OnGossipHello", "d1/d62/a11461.html#a3c544ae70c46a62ac7dd2fc5cca97c8b", null ],
-    [ "OnGossipSelect", "d1/d62/a11461.html#ae430a8fef70bd46267482a70084049c1", null ]
+    [ "npc_lokhtos_darkbargainer", "d1/d62/a11461.html#af91685ecf0f63313968b3d82373668d2", null ],
+    [ "OnGossipHello", "d1/d62/a11461.html#a39547487ef7db8a3942556665099893f", null ],
+    [ "OnGossipSelect", "d1/d62/a11461.html#a5a4640678a5669c75b1fa5d787999c02", null ]
 ];

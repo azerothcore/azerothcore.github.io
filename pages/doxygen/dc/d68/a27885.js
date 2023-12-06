@@ -1,9 +1,9 @@
 var a27885 =
 [
-    [ "CountTargets", "dc/d68/a27885.html#a85a60a3ada7ea2b8c995bc156be36fe2", null ],
-    [ "HandleDummy", "dc/d68/a27885.html#af51f59f6cb8e2a6d99b3c05cebfcfa89", null ],
-    [ "PrepareSpellScript", "dc/d68/a27885.html#adfb7e3fbb52aa349573b95c457823900", null ],
-    [ "Register", "dc/d68/a27885.html#a9180a01674a1f56c287d40bfbdf6d841", null ],
-    [ "Validate", "dc/d68/a27885.html#a5dd09977efde2d3433aff4d35687d5e8", null ],
-    [ "_targetCount", "dc/d68/a27885.html#aa9a0fb36eafd8535fcd2bddda56d7107", null ]
+    [ "CheckCast", "dc/d68/a27885.html#ad7bfc65b26013ad259679ae8b4a5dd9a", null ],
+    [ "HandleTriggerSpellHit", "dc/d68/a27885.html#aca027bb2995456bfcedd33c06966eb88", null ],
+    [ "HandleTriggerSpellLaunch", "dc/d68/a27885.html#aa67bf9f81086a3837037d67306979072", null ],
+    [ "PrepareSpellScript", "dc/d68/a27885.html#a9247b5f3a376bebdcf857565b5049944", null ],
+    [ "Register", "dc/d68/a27885.html#aaf056806d72da6aa2e3e6e70d46d6933", null ],
+    [ "Validate", "dc/d68/a27885.html#a4fc8f6a7ecd041dcfca4fd51d71e725c", null ]
 ];

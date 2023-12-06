@@ -1,9 +1,7 @@
 var a29777 =
 [
-    [ "HolidayWorldStateId", "d8/d69/a29777.html#a3f70ffbb1abb5a96fe91c2eec3682c8b", null ],
-    [ "id", "d8/d69/a29777.html#a52f7840f9247d2af63062dd280b37341", null ],
-    [ "mapid", "d8/d69/a29777.html#a11e1326eeb24b436b10db53acc323c13", null ],
-    [ "maxGroupSize", "d8/d69/a29777.html#adbdae47b424c3b61b76b48ea5798f52d", null ],
-    [ "name", "d8/d69/a29777.html#a9a56ca930ff8425d4b77066e47a1e09f", null ],
-    [ "type", "d8/d69/a29777.html#a647669b97599d7edf02b5a38dd1d5116", null ]
+    [ "Displayid", "d8/d69/a29777.html#adc5aee11b1e27752576b0b98156d3b3c", null ],
+    [ "ExtendedDisplayInfoID", "d8/d69/a29777.html#a174d6f73393e6dcfeecf487fc09c2e6f", null ],
+    [ "ModelId", "d8/d69/a29777.html#ada31381a4ee360e2fcb68403bc6d14e5", null ],
+    [ "scale", "d8/d69/a29777.html#ae15b89669bf5d711cc57c21d8c8be0dd", null ]
 ];

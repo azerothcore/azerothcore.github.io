@@ -1,7 +1,5 @@
 var a19813 =
 [
-    [ "DelayedCastMincharEvent", "d4/d06/a19813.html#a76d8a08ca273eec5b2e083d136336a15", null ],
-    [ "Execute", "d4/d06/a19813.html#a12aeff246d07e541ed192974320842cb", null ],
-    [ "_spellId", "d4/d06/a19813.html#af4ea90407b2c8a283f137d213ffe97be", null ],
-    [ "_trigger", "d4/d06/a19813.html#a9f3cd02e77ad35b98a6753b792383548", null ]
+    [ "at_icc_gauntlet_event", "d4/d06/a19813.html#ae8790bad655661aeda887f56b9393847", null ],
+    [ "OnTrigger", "d4/d06/a19813.html#a9329ec078db088b1c13144ac7ed7a13a", null ]
 ];

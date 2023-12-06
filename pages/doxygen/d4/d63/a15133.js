@@ -1,8 +1,5 @@
 var a15133 =
 [
-    [ "npc_ouro_spawner", "d4/d63/a15133.html#acb18739e5a1734312ffdda35321e5f34", null ],
-    [ "JustSummoned", "d4/d63/a15133.html#a722dada5bf97c730462a0de2b082d5ff", null ],
-    [ "MoveInLineOfSight", "d4/d63/a15133.html#a83c0972db4435ccf1af069574e4056f4", null ],
-    [ "Reset", "d4/d63/a15133.html#ac1591f1c172bfdda25b020e00cd0835e", null ],
-    [ "hasSummoned", "d4/d63/a15133.html#a6ac376861c1206cc1551d9fa86c0fc97", null ]
+    [ "NotInStomachSelector", "d4/d63/a15133.html#a766a75e73261ac8bb76c90e8befd21ad", null ],
+    [ "operator()", "d4/d63/a15133.html#a189c90e585ecef8ffbcbe9227c588946", null ]
 ];

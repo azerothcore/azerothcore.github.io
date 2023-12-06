@@ -1,7 +1,9 @@
 var a23877 =
 [
-    [ "npc_wg_siege_machineAI", "de/d43/a23877.html#aaeca9e73520701ce28f2cc9d1483cc6b", null ],
-    [ "CanControlVehicle", "de/d43/a23877.html#a7ce79406da48e245a0baa2fdd23622b9", null ],
-    [ "UpdateAI", "de/d43/a23877.html#a8ddd21047a857facc767a9edc0ec5408", null ],
-    [ "checkTimer", "de/d43/a23877.html#abf4b06eae50adeefedba02e2186ea48a", null ]
+    [ "HandlePeriodic", "de/d43/a23877.html#a774e4515085287681c7bf04588806754", null ],
+    [ "Load", "de/d43/a23877.html#af8a220667ef482c2740b6296e33cd647", null ],
+    [ "PrepareAuraScript", "de/d43/a23877.html#ab5e10153424e0a8f7f6554f291a3c063", null ],
+    [ "Register", "de/d43/a23877.html#a8aa3e613f18b1a246b20faa2b00f0e4d", null ],
+    [ "Validate", "de/d43/a23877.html#a719db1ff1b08b3549042928dc688a5a7", null ],
+    [ "_counter", "de/d43/a23877.html#aa4063fd51d028d343156affd87fa0336", null ]
 ];

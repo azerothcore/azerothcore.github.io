@@ -1,6 +1,6 @@
 var a16813 =
 [
-    [ "spell_valkyr_ball_periodic_dummyAuraScript", "d5/d85/a16817.html", "d5/d85/a16817" ],
-    [ "spell_valkyr_ball_periodic_dummy", "d8/d14/a16813.html#a0a8ea4997a87c486ac68cae0259d5ad5", null ],
-    [ "GetAuraScript", "d8/d14/a16813.html#abfc4ad26352893ac44d0d8468b3b22f7", null ]
+    [ "boss_fjolaAI", "d5/d85/a16817.html", "d5/d85/a16817" ],
+    [ "boss_fjola", "d8/d14/a16813.html#a44baccf91ab8c8bc5d5a9d0aa8ef943f", null ],
+    [ "GetAI", "d8/d14/a16813.html#a96d9ea0716199758b60ad933ade28de4", null ]
 ];

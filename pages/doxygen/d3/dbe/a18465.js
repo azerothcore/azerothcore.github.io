@@ -1,6 +1,6 @@
 var a18465 =
 [
-    [ "spell_putricide_mutated_plague_AuraScript", "d2/d2c/a18469.html", "d2/d2c/a18469" ],
-    [ "spell_putricide_mutated_plague", "d3/dbe/a18465.html#a32d4b2fad2e9eea8b5fd1332b54c81c8", null ],
-    [ "GetAuraScript", "d3/dbe/a18465.html#ac8f1b4a72499b4a55111d8c56f3e5981", null ]
+    [ "HandleScript", "d3/dbe/a18465.html#a124d6cce3e397f595b5395072e7802af", null ],
+    [ "PrepareSpellScript", "d3/dbe/a18465.html#a2fef07b621cd2836d1efbdf482bff2ae", null ],
+    [ "Register", "d3/dbe/a18465.html#a9c0572be514a455cfd4780ce06062642", null ]
 ];

@@ -1,7 +1,5 @@
 var a10277 =
 [
-    [ "RandomRollClient", "da/d5c/a10277.html#a6d2edee5a6dbafd5b6194b60eeb0aafb", null ],
-    [ "Read", "da/d5c/a10277.html#ab682763f35a40f776b1742927df0a336", null ],
-    [ "Max", "da/d5c/a10277.html#a45a1e140ed402f54deb4c0798360a43a", null ],
-    [ "Min", "da/d5c/a10277.html#a3cd07e7891b43b453b56013d76f51f71", null ]
+    [ "GuildDelete", "da/d5c/a10277.html#a86733335c7b60d5b9eb8616692da3a7f", null ],
+    [ "Read", "da/d5c/a10277.html#ae5ca379b187902323638f4c10be0a4d0", null ]
 ];

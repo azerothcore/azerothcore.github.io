@@ -1,7 +1,10 @@
 var a05597 =
 [
-    [ "TransactionWithResultTask", "da/d24/a05597.html#a98dfb255e7be9d5cf9ed9215b0d5e0e4", null ],
-    [ "Execute", "da/d24/a05597.html#a2a05fb2aa69032797f2065cb46fe7dc4", null ],
-    [ "GetFuture", "da/d24/a05597.html#a5bc976207b1d695c8e8c052b0eacc7a6", null ],
-    [ "m_result", "da/d24/a05597.html#aaf4d587b83977e65089bdbf92fa09ae1", null ]
+    [ "MySQLConnectionInfo", "da/d24/a05597.html#ae60c54053d71eb9325df10701b1f42d3", null ],
+    [ "database", "da/d24/a05597.html#a7e65a418ad668772e4ce1b298d92f10a", null ],
+    [ "host", "da/d24/a05597.html#a2659372561aae5feb8da121984354ef3", null ],
+    [ "password", "da/d24/a05597.html#af5a51bd38ce1d58f65444d69b0283966", null ],
+    [ "port_or_socket", "da/d24/a05597.html#a37b89660afb3ee085e817836e9d1d01f", null ],
+    [ "ssl", "da/d24/a05597.html#a90e5a934b4ec46e5783248a1a80a4830", null ],
+    [ "user", "da/d24/a05597.html#a6bf4166ebb99ea30a3894e3d8833bde6", null ]
 ];

@@ -1,6 +1,6 @@
 var a26757 =
 [
-    [ "CalculateAmount", "df/d8f/a26757.html#a9e54ae3e90ee8bf0fab966a497f761b3", null ],
-    [ "PrepareAuraScript", "df/d8f/a26757.html#a51f9c0f92100c02e1fe7d127fecd902f", null ],
-    [ "Register", "df/d8f/a26757.html#a5c89e7e53a7f41665ff25d57df8f7afb", null ]
+    [ "OnPeriodic", "df/d8f/a26757.html#a5fdf44f34765d0386d5c5490620c944a", null ],
+    [ "PrepareAuraScript", "df/d8f/a26757.html#a3c3044795e183eef2c801781100b11c7", null ],
+    [ "Register", "df/d8f/a26757.html#a1221c3287c3fd7add356e84430508684", null ]
 ];

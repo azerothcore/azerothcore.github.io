@@ -1,5 +1,8 @@
 var a21721 =
 [
-    [ "go_ulduar_do_not_push_this_button", "dd/d70/a21721.html#aa204af213a643c001161e0c2f173ee6b", null ],
-    [ "OnGossipHello", "dd/d70/a21721.html#ae11efa54b496ab21600a9c62e50b5fbe", null ]
+    [ "npc_ulduar_mimiron_rocketAI", "dd/d70/a21721.html#ad758070aaeadc4d7b2b7ff4108b76c89", null ],
+    [ "InitializeAI", "dd/d70/a21721.html#aba3bf48434dca79f56f4b9aac707d48c", null ],
+    [ "Reset", "dd/d70/a21721.html#a60fbcbae9205bfd1c63b5bef7924b3ee", null ],
+    [ "SetData", "dd/d70/a21721.html#a8e547ba872c9bc2ec95ae2f60b011fce", null ],
+    [ "UpdateAI", "dd/d70/a21721.html#a28106e303d5e7c1bce9ceaa571129dca", null ]
 ];

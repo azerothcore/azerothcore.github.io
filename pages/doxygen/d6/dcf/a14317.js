@@ -1,8 +1,13 @@
 var a14317 =
 [
-    [ "npc_love_in_air_snivel_real", "d6/dcf/a14317.html#a9f5b36d35ced9eb27375ca13fcfbc55d", null ],
-    [ "Talk", "d6/dcf/a14317.html#a0b5cc8dd6bdf7c4fbd7b7aa2ba02b028", null ],
-    [ "UpdateAI", "d6/dcf/a14317.html#a22ed25da8fe3441ef0e4183390983f40", null ],
-    [ "actionCounter", "d6/dcf/a14317.html#ab1685b1ee34c81c689af3c3466b185f0", null ],
-    [ "actionTimer", "d6/dcf/a14317.html#a3bbee1ff355581772b337268775b8fbc", null ]
+    [ "npc_costumed_orphan_matron", "d6/dcf/a14317.html#a0b913090588613ac00ea928f6273d56f", null ],
+    [ "DoAction", "d6/dcf/a14317.html#a7a7739f89604ffb5afc6bab75118340e", null ],
+    [ "GetInitXYZ", "d6/dcf/a14317.html#a3c6d0e6cecd1c4ef85b3d77c45ef6533", null ],
+    [ "Reset", "d6/dcf/a14317.html#a962de50b13079f3337c4e41eb2d98b55", null ],
+    [ "sGossipHello", "d6/dcf/a14317.html#a1a9c58c087b8addf8e482375737d6c49", null ],
+    [ "sQuestAccept", "d6/dcf/a14317.html#adac5d514261a210a701442da13ba1587", null ],
+    [ "UpdateAI", "d6/dcf/a14317.html#a4679d807df8749265ba0453c5b7588f1", null ],
+    [ "allowQuest", "d6/dcf/a14317.html#a722f4bfd0fb8b2665ff2b79d3208bc90", null ],
+    [ "eventStarted", "d6/dcf/a14317.html#a5292ab4e45fe3a858b3a59ef4a79bb34", null ],
+    [ "horseGUID", "d6/dcf/a14317.html#a92cfd09cefd26933ae322f2cc2716927", null ]
 ];

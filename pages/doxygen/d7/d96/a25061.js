@@ -1,6 +1,6 @@
 var a25061 =
 [
-    [ "spell_morogrim_tidewalker_water_globule_new_target_SpellScript", "da/d1a/a25065.html", "da/d1a/a25065" ],
-    [ "spell_morogrim_tidewalker_water_globule_new_target", "d7/d96/a25061.html#a5ff435d650e0968c36ce9df98891eac7", null ],
-    [ "GetSpellScript", "d7/d96/a25061.html#a73720cc93ddbdd0a62f81c3a9c5b4be9", null ]
+    [ "instance_steam_vault_InstanceMapScript", "da/d1a/a25065.html", "da/d1a/a25065" ],
+    [ "instance_steam_vault", "d7/d96/a25061.html#aa3417083841ccb50c8a2f29ba343e115", null ],
+    [ "GetInstanceScript", "d7/d96/a25061.html#a3a2edb84cc7067d3c8fa2151b4763c5a", null ]
 ];

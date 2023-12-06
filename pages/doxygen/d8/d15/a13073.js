@@ -1,11 +1,11 @@
 var a13073 =
 [
-    [ "npc_kalecgos_kjAI", "d8/d15/a13073.html#a767c71ddfd53a83be73581dd6bc07e2c", null ],
-    [ "DoAction", "d8/d15/a13073.html#acd76b7960d8de80b4384549723354e48", null ],
-    [ "JustSummoned", "d8/d15/a13073.html#af95048cecf0761c6bd6cb24b90b99959", null ],
-    [ "Reset", "d8/d15/a13073.html#af0fe1a73dffd23675122f2f1679f52d6", null ],
-    [ "UpdateAI", "d8/d15/a13073.html#abbbb554818e9d1aa87db8671ac49adfd", null ],
-    [ "events", "d8/d15/a13073.html#ad079b7bd8d0c0fc50b52e9105707565d", null ],
-    [ "instance", "d8/d15/a13073.html#a697d03ae3f042d5a85133f643dd46e67", null ],
-    [ "summons", "d8/d15/a13073.html#a48a8cacf3a0a36d94ad767e19d0a5b5e", null ]
+    [ "boss_kalecAI", "d8/d15/a13073.html#ab6a59e4743e74b9c36192e5d11927001", null ],
+    [ "DamageTaken", "d8/d15/a13073.html#a42cf873d30d4b902f3f9343e7eec332b", null ],
+    [ "JustDied", "d8/d15/a13073.html#aa635dc1fc5595f57eaeb9e5f35ca0be8", null ],
+    [ "JustEngagedWith", "d8/d15/a13073.html#a9ba045f376c3bb6e29de71d58da3ccb9", null ],
+    [ "Reset", "d8/d15/a13073.html#ac13d863aafad4d3a7f1759d1ab756092", null ],
+    [ "UpdateAI", "d8/d15/a13073.html#ad5d12cc394792d314061faa6ed22ea2a", null ],
+    [ "events", "d8/d15/a13073.html#aad92e2e1df667e255bb6435d5ee1b9ea", null ],
+    [ "events2", "d8/d15/a13073.html#a9a0dcb5a67c4a02aba7b0085796a41bc", null ]
 ];

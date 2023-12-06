@@ -1,6 +1,6 @@
 var a14889 =
 [
-    [ "instance_ragefire_chasm_InstanceMapScript", "de/de0/a14893.html", "de/de0/a14893" ],
-    [ "instance_ragefire_chasm", "d2/def/a14889.html#ab7f27d3e73b24d16dcf9b114f7dd4b36", null ],
-    [ "GetInstanceScript", "d2/def/a14889.html#a0568996a61ef91688b9f223cb3782e5a", null ]
+    [ "NpcRunToHome", "d2/def/a14889.html#ac190e89b494554e391e6ebd878d7f8e8", null ],
+    [ "Execute", "d2/def/a14889.html#a0da766e3bae0d8d97a46ef82b3873cc0", null ],
+    [ "_owner", "d2/def/a14889.html#a7dd38171a6e55665fc28a74212313e51", null ]
 ];

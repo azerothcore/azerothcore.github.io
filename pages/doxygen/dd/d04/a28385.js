@@ -1,6 +1,9 @@
 var a28385 =
 [
-    [ "HandleAfterCast", "dd/d04/a28385.html#a6f21938e84e45848fad74a16f1f52c48", null ],
-    [ "PrepareSpellScript", "dd/d04/a28385.html#ac7abeee05c117595696faf1ec55e11bd", null ],
-    [ "Register", "dd/d04/a28385.html#a9e90a6fa037627ac682f4ea050f557de", null ]
+    [ "HandleHeal", "dd/d04/a28385.html#ad2d854d275dc6f8b67b866d864b6febe", null ],
+    [ "Load", "dd/d04/a28385.html#a507a7a4ff11f8bf1157e034d086cd9ad", null ],
+    [ "PrepareSpellScript", "dd/d04/a28385.html#a91eb46af707897f228e5d1bbd199a833", null ],
+    [ "Register", "dd/d04/a28385.html#ae28f1b0c23511153eafc037cae067bc0", null ],
+    [ "firstHeal", "dd/d04/a28385.html#a405326e6e1cd82816aef1712fdf335a0", null ],
+    [ "riptide", "dd/d04/a28385.html#acaec32f6730bc2e04e613aa982d285bf", null ]
 ];

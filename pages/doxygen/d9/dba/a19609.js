@@ -1,6 +1,7 @@
 var a19609 =
 [
-    [ "PrepareSpellScript", "d9/dba/a19609.html#ac699ce446f257197fbc4b0c46511ebf8", null ],
-    [ "Register", "d9/dba/a19609.html#ab9771f4a92bbbad067c8bfb41c537757", null ],
-    [ "RelocateDest", "d9/dba/a19609.html#a8c8937991e4a78b4380090bfe2f4ea67", null ]
+    [ "CountTargets", "d9/dba/a19609.html#aaf1312cc6981c3c3b472a57552f4f5f1", null ],
+    [ "HandleScript", "d9/dba/a19609.html#a90728aa9269ce808ffb26d13ac770f12", null ],
+    [ "PrepareSpellScript", "d9/dba/a19609.html#abbdc05c6984bc698c5c9a195c4d35f49", null ],
+    [ "Register", "d9/dba/a19609.html#a1c9762e115a598642625326dbdd424c8", null ]
 ];

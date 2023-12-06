@@ -1,7 +1,6 @@
 var a27513 =
 [
-    [ "HandleProc", "da/d7e/a27513.html#aee71de2c7f718a443dd48ed649c72a2f", null ],
-    [ "PrepareAuraScript", "da/d7e/a27513.html#a7ba07407ce43ea4bfb03bc232ed409e3", null ],
-    [ "Register", "da/d7e/a27513.html#ad907078d049340da77dcfd25a312e32b", null ],
-    [ "Validate", "da/d7e/a27513.html#ad9987f6b17c9522be954a1b75aed1fc5", null ]
+    [ "HandleProc", "da/d7e/a27513.html#aa333d52d905e722554d8d61c4b9cb656", null ],
+    [ "PrepareAuraScript", "da/d7e/a27513.html#aac4320b061d627e4ffef737d2e858ef3", null ],
+    [ "Register", "da/d7e/a27513.html#ad58fea9afa6a3596437a324ec525982e", null ]
 ];

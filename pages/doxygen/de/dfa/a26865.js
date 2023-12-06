@@ -1,8 +1,8 @@
 var a26865 =
 [
-    [ "CheckProc", "de/dfa/a26865.html#a88cdab428be20027d939fe4765afc9e0", null ],
-    [ "HandleProc", "de/dfa/a26865.html#a8e49a1bc11fdfc1b7d3f8225c890206f", null ],
-    [ "PrepareAuraScript", "de/dfa/a26865.html#a33f53dc5834a3be78e24a1a58bdfd15a", null ],
-    [ "Register", "de/dfa/a26865.html#aacb126d871c0df43f5096124b8cda376", null ],
-    [ "Validate", "de/dfa/a26865.html#aa81adc61bd1149d9c43c4670f02a91ba", null ]
+    [ "CheckRequirement", "de/dfa/a26865.html#ad967ae7e2affa312fa4adbca6e86dd7c", null ],
+    [ "HandleScript", "de/dfa/a26865.html#aa89b60b2d757ef1ceacebae38aa5d9d9", null ],
+    [ "Load", "de/dfa/a26865.html#a9dfb5501ad6324a25966af44f233b5fb", null ],
+    [ "PrepareSpellScript", "de/dfa/a26865.html#ace75db8a6e5628df6e2edba91cd2852f", null ],
+    [ "Register", "de/dfa/a26865.html#a89d053e0ee793017c74188aac32d99d5", null ]
 ];

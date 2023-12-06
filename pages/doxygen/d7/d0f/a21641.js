@@ -1,6 +1,6 @@
 var a21641 =
 [
-    [ "boss_mimironAI", "d8/d35/a21645.html", "d8/d35/a21645" ],
-    [ "boss_mimiron", "d7/d0f/a21641.html#a72904837bd85e9f711fcf3da04c459c3", null ],
-    [ "GetAI", "d7/d0f/a21641.html#a1d4f38ecee62a2c2a608afc158fad7f2", null ]
+    [ "OnRemoveStun", "d7/d0f/a21641.html#ac320c380edf57d48fdb7d259940fd913", null ],
+    [ "PrepareAuraScript", "d7/d0f/a21641.html#a82c5ecfb50d4ec71d5b41b00e155d5de", null ],
+    [ "Register", "d7/d0f/a21641.html#ad414c6f70aafd37898da678d27b194e4", null ]
 ];

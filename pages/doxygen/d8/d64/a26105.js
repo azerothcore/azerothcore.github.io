@@ -1,6 +1,6 @@
 var a26105 =
 [
-    [ "npc_enraged_spiritAI", "d8/d21/a26109.html", "d8/d21/a26109" ],
-    [ "npc_enraged_spirit", "d8/d64/a26105.html#a17d9e2e5fb8f2795fdeff26567bbf85f", null ],
-    [ "GetAI", "d8/d64/a26105.html#aa10d5f0147cf4064a49df735ac95575e", null ]
+    [ "PrepareSpellScript", "d8/d64/a26105.html#abe1dcd583e3d3d42d86c922037ad77e6", null ],
+    [ "Register", "d8/d64/a26105.html#a8a772b805bf6772276c5895f5ad444e6", null ],
+    [ "SetDest", "d8/d64/a26105.html#a309f452b52202c9f895745d0b993751e", null ]
 ];

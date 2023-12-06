@@ -1,6 +1,6 @@
 var a16333 =
 [
-    [ "HandleScript", "de/dd1/a16333.html#ae206ef80cf9e2c68a627107c06c1cdfe", null ],
-    [ "PrepareSpellScript", "de/dd1/a16333.html#a091e035d5d15822538d49633bb0f6786", null ],
-    [ "Register", "de/dd1/a16333.html#ad627d55e3cfc06e1c5064c70cbef109e", null ]
+    [ "spell_halion_twilight_mending_SpellScript", "d3/d1e/a16337.html", "d3/d1e/a16337" ],
+    [ "spell_halion_twilight_mending", "de/dd1/a16333.html#aef14b7d915ed5712877e9ee8725c3c90", null ],
+    [ "GetSpellScript", "de/dd1/a16333.html#a8f639bdfb7f374e682ba76274231b7ec", null ]
 ];

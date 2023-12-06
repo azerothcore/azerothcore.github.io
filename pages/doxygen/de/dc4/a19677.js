@@ -1,6 +1,6 @@
 var a19677 =
 [
-    [ "spell_icc_shattered_bones_SpellScript", "d8/d26/a19681.html", "d8/d26/a19681" ],
-    [ "spell_icc_shattered_bones", "de/dc4/a19677.html#a99a48b82a1753d8923ae0ae76a1eea58", null ],
-    [ "GetSpellScript", "de/dc4/a19677.html#af7d897c510d318d43fe4443222931980", null ]
+    [ "OnPeriodic", "de/dc4/a19677.html#a8c5f8ae85a403dfb9e4459400f28cab9", null ],
+    [ "PrepareAuraScript", "de/dc4/a19677.html#ae15814f85711e37564e5cbf275e9ecae", null ],
+    [ "Register", "de/dc4/a19677.html#a1b4d681e1df57b26e4afbf7ee034c86f", null ]
 ];

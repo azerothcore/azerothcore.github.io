@@ -1,6 +1,6 @@
 var a22473 =
 [
-    [ "npc_dragonflayer_forge_masterAI", "d1/d58/a22477.html", "d1/d58/a22477" ],
-    [ "npc_dragonflayer_forge_master", "d2/ddf/a22473.html#a920e50234a4a473b28c312c29fb4835a", null ],
-    [ "GetAI", "d2/ddf/a22473.html#ac84dc301cf764c27ccf63bf02a53023c", null ]
+    [ "spell_frost_tombAuraScript", "d1/d58/a22477.html", "d1/d58/a22477" ],
+    [ "spell_frost_tomb", "d2/ddf/a22473.html#a32d5aacd94d226df0a8462a8221ed426", null ],
+    [ "GetAuraScript", "d2/ddf/a22473.html#a408b6f7b23af5caa33000b16914faefc", null ]
 ];

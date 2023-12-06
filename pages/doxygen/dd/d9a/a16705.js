@@ -1,6 +1,8 @@
 var a16705 =
 [
-    [ "spell_toc25_mistress_kiss_AuraScript", "db/dfc/a16709.html", "db/dfc/a16709" ],
-    [ "spell_toc25_mistress_kiss", "dd/d9a/a16705.html#a5e6df0da2d89b2ca71c6fc49790b3314", null ],
-    [ "GetAuraScript", "dd/d9a/a16705.html#ae4fbeb690e0fceb92fa565e2b7358592", null ]
+    [ "npc_toc_pet_hunterAI", "dd/d9a/a16705.html#a751e37388df10abf4bf9df5d3f373fa3", null ],
+    [ "EnterEvadeMode", "dd/d9a/a16705.html#a7f60ea2596fa4af2209333696dbe00e0", null ],
+    [ "myCanCast", "dd/d9a/a16705.html#aefaa41a92000d8915853988ce3fd5bc4", null ],
+    [ "UpdateAI", "dd/d9a/a16705.html#aec1d16cdcb7d86d7de4de10ca34f491d", null ],
+    [ "events", "dd/d9a/a16705.html#ade038312363f976b34868ed2cbebb58d", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/database/Updater/DBUpdater.h File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/game/Accounts/AccountMgr.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,67 +106,140 @@ $(document).ready(function(){initNavTree('d0/db6/a00692.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">DBUpdater.h File Reference</div></div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">AccountMgr.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &lt;filesystem&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
 <code>#include &lt;string&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6f/a05609.html">UpdateException</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/daa/a05613.html">DBUpdaterUtil</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/df2/a05617.html">DBUpdater&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:dd/d40/a04481"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d40/a04481.html">boost</a></td></tr>
+<tr class="memitem:d7/d94/a04672"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d94/a04672.html">AccountMgr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dc/da4/a04515"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da4/a04515.html">boost::filesystem</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a134ebf22666a6525929447b2d869d400"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db6/a00692.html#a134ebf22666a6525929447b2d869d400">MAX_ACCOUNT_STR</a>&#160;&#160;&#160;20</td></tr>
+<tr class="separator:a134ebf22666a6525929447b2d869d400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45827712253b6d66092106cef5ae724b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db6/a00692.html#a45827712253b6d66092106cef5ae724b">MAX_PASS_STR</a>&#160;&#160;&#160;16</td></tr>
+<tr class="separator:a45827712253b6d66092106cef5ae724b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a0c382fe144b0dc101a8b2b9d4ef51010"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db6/a00692.html#a0c382fe144b0dc101a8b2b9d4ef51010">BaseLocation</a> { <br />
-&#160;&#160;<a class="el" href="../../d0/db6/a00692.html#a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550">LOCATION_REPOSITORY</a>
+<tr class="memitem:a0161874ada0cecbbd1fd5d31da73703e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703e">AccountOpResult</a> { <br />
+&#160;&#160;<a class="el" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703ea73449863bb0d97def55bd65307e97f18">AOR_OK</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d0/db6/a00692.html#a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c">LOCATION_DOWNLOAD</a>
+&#160;&#160;<a class="el" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703eaec4fb519d9e6032adc269ca4a27c38f4">AOR_NAME_TOO_LONG</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703eaed91b79b9e639b8f988c5f06fcfd901c">AOR_PASS_TOO_LONG</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703eae0b6297de7a7e8b516f5fc98a4d8750c">AOR_NAME_ALREADY_EXIST</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703ea05e659ba76ce9dd582551a24f2923b24">AOR_NAME_NOT_EXIST</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703ea368516df3522ada12ce8a39c789a687d">AOR_DB_INTERNAL_ERROR</a>
 <br />
  }</td></tr>
-<tr class="separator:a0c382fe144b0dc101a8b2b9d4ef51010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a0161874ada0cecbbd1fd5d31da73703e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a7a7668ab60ae56c7e71fce77780bb214"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703e">AccountOpResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d94/a04672.html#a7a7668ab60ae56c7e71fce77780bb214">AccountMgr::CreateAccount</a> (std::string username, std::string password)</td></tr>
+<tr class="separator:a7a7668ab60ae56c7e71fce77780bb214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a120323b16b2a5aefa6aa69e8be5ccef6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703e">AccountOpResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d94/a04672.html#a120323b16b2a5aefa6aa69e8be5ccef6">AccountMgr::DeleteAccount</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId)</td></tr>
+<tr class="separator:a120323b16b2a5aefa6aa69e8be5ccef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3382c6430bfbf14e32ca11b5ac68fc23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703e">AccountOpResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d94/a04672.html#a3382c6430bfbf14e32ca11b5ac68fc23">AccountMgr::ChangeUsername</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId, std::string newUsername, std::string newPassword)</td></tr>
+<tr class="separator:a3382c6430bfbf14e32ca11b5ac68fc23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a9cb892c15d78b5de65738005234ff6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703e">AccountOpResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d94/a04672.html#a6a9cb892c15d78b5de65738005234ff6">AccountMgr::ChangePassword</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId, std::string newPassword)</td></tr>
+<tr class="separator:a6a9cb892c15d78b5de65738005234ff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17c28dfcb31af8f4241bb5210408185a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d94/a04672.html#a17c28dfcb31af8f4241bb5210408185a">AccountMgr::CheckPassword</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId, std::string password)</td></tr>
+<tr class="separator:a17c28dfcb31af8f4241bb5210408185a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa215c9a96c37b8a5d76d980ecf8de114"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d94/a04672.html#aa215c9a96c37b8a5d76d980ecf8de114">AccountMgr::GetId</a> (std::string const &amp;username)</td></tr>
+<tr class="separator:aa215c9a96c37b8a5d76d980ecf8de114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8280510b2564ec6ea76727218c1687b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d94/a04672.html#a8280510b2564ec6ea76727218c1687b3">AccountMgr::GetSecurity</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId)</td></tr>
+<tr class="separator:a8280510b2564ec6ea76727218c1687b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30b6e5cf1733f0143f86aaeff600215c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d94/a04672.html#a30b6e5cf1733f0143f86aaeff600215c">AccountMgr::GetSecurity</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId, <a class="el" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> realmId)</td></tr>
+<tr class="separator:a30b6e5cf1733f0143f86aaeff600215c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af911e3860ec519c541d6df35468ee41b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d94/a04672.html#af911e3860ec519c541d6df35468ee41b">AccountMgr::GetName</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId, std::string &amp;name)</td></tr>
+<tr class="separator:af911e3860ec519c541d6df35468ee41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fb760897161c3d463f842b28bcf7c20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d94/a04672.html#a4fb760897161c3d463f842b28bcf7c20">AccountMgr::GetCharactersCount</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId)</td></tr>
+<tr class="separator:a4fb760897161c3d463f842b28bcf7c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63751f144cb7acb57fc20f0caf5e7043"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d94/a04672.html#a63751f144cb7acb57fc20f0caf5e7043">AccountMgr::IsPlayerAccount</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> gmlevel)</td></tr>
+<tr class="separator:a63751f144cb7acb57fc20f0caf5e7043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb1b210137b09011677c74011addeefa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d94/a04672.html#adb1b210137b09011677c74011addeefa">AccountMgr::IsAdminAccount</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> gmlevel)</td></tr>
+<tr class="separator:adb1b210137b09011677c74011addeefa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81bbc2af33211a3130c6aa215f5607b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d94/a04672.html#a81bbc2af33211a3130c6aa215f5607b7">AccountMgr::IsConsoleAccount</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> gmlevel)</td></tr>
+<tr class="separator:a81bbc2af33211a3130c6aa215f5607b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a0c382fe144b0dc101a8b2b9d4ef51010" name="a0c382fe144b0dc101a8b2b9d4ef51010"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c382fe144b0dc101a8b2b9d4ef51010">&#9670;&#160;</a></span>BaseLocation</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a134ebf22666a6525929447b2d869d400" name="a134ebf22666a6525929447b2d869d400"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a134ebf22666a6525929447b2d869d400">&#9670;&#160;</a></span>MAX_ACCOUNT_STR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d0/db6/a00692.html#a0c382fe144b0dc101a8b2b9d4ef51010">BaseLocation</a></td>
+          <td class="memname">#define MAX_ACCOUNT_STR&#160;&#160;&#160;20</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a45827712253b6d66092106cef5ae724b" name="a45827712253b6d66092106cef5ae724b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45827712253b6d66092106cef5ae724b">&#9670;&#160;</a></span>MAX_PASS_STR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_PASS_STR&#160;&#160;&#160;16</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a0161874ada0cecbbd1fd5d31da73703e" name="a0161874ada0cecbbd1fd5d31da73703e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0161874ada0cecbbd1fd5d31da73703e">&#9670;&#160;</a></span>AccountOpResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703e">AccountOpResult</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550" name="a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550"></a>LOCATION_REPOSITORY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c" name="a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c"></a>LOCATION_DOWNLOAD&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0161874ada0cecbbd1fd5d31da73703ea73449863bb0d97def55bd65307e97f18" name="a0161874ada0cecbbd1fd5d31da73703ea73449863bb0d97def55bd65307e97f18"></a>AOR_OK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0161874ada0cecbbd1fd5d31da73703eaec4fb519d9e6032adc269ca4a27c38f4" name="a0161874ada0cecbbd1fd5d31da73703eaec4fb519d9e6032adc269ca4a27c38f4"></a>AOR_NAME_TOO_LONG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0161874ada0cecbbd1fd5d31da73703eaed91b79b9e639b8f988c5f06fcfd901c" name="a0161874ada0cecbbd1fd5d31da73703eaed91b79b9e639b8f988c5f06fcfd901c"></a>AOR_PASS_TOO_LONG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0161874ada0cecbbd1fd5d31da73703eae0b6297de7a7e8b516f5fc98a4d8750c" name="a0161874ada0cecbbd1fd5d31da73703eae0b6297de7a7e8b516f5fc98a4d8750c"></a>AOR_NAME_ALREADY_EXIST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0161874ada0cecbbd1fd5d31da73703ea05e659ba76ce9dd582551a24f2923b24" name="a0161874ada0cecbbd1fd5d31da73703ea05e659ba76ce9dd582551a24f2923b24"></a>AOR_NAME_NOT_EXIST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0161874ada0cecbbd1fd5d31da73703ea368516df3522ada12ce8a39c789a687d" name="a0161874ada0cecbbd1fd5d31da73703ea368516df3522ada12ce8a39c789a687d"></a>AOR_DB_INTERNAL_ERROR&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   50</span>{</div>
-<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d0/db6/a00692.html#a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550">LOCATION_REPOSITORY</a>,</div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d0/db6/a00692.html#a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c">LOCATION_DOWNLOAD</a></div>
-<div class="line"><span class="lineno">   53</span>};</div>
-<div class="ttc" id="aa00692_html_a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c"><div class="ttname"><a href="../../d0/db6/a00692.html#a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c">LOCATION_DOWNLOAD</a></div><div class="ttdeci">@ LOCATION_DOWNLOAD</div><div class="ttdef"><b>Definition:</b> DBUpdater.h:52</div></div>
-<div class="ttc" id="aa00692_html_a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550"><div class="ttname"><a href="../../d0/db6/a00692.html#a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550">LOCATION_REPOSITORY</a></div><div class="ttdeci">@ LOCATION_REPOSITORY</div><div class="ttdef"><b>Definition:</b> DBUpdater.h:51</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703ea73449863bb0d97def55bd65307e97f18">AOR_OK</a>,</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703eaec4fb519d9e6032adc269ca4a27c38f4">AOR_NAME_TOO_LONG</a>,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703eaed91b79b9e639b8f988c5f06fcfd901c">AOR_PASS_TOO_LONG</a>,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703eae0b6297de7a7e8b516f5fc98a4d8750c">AOR_NAME_ALREADY_EXIST</a>,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703ea05e659ba76ce9dd582551a24f2923b24">AOR_NAME_NOT_EXIST</a>,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703ea368516df3522ada12ce8a39c789a687d">AOR_DB_INTERNAL_ERROR</a></div>
+<div class="line"><span class="lineno">   32</span>};</div>
+<div class="ttc" id="aa00692_html_a0161874ada0cecbbd1fd5d31da73703ea05e659ba76ce9dd582551a24f2923b24"><div class="ttname"><a href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703ea05e659ba76ce9dd582551a24f2923b24">AOR_NAME_NOT_EXIST</a></div><div class="ttdeci">@ AOR_NAME_NOT_EXIST</div><div class="ttdef"><b>Definition:</b> AccountMgr.h:30</div></div>
+<div class="ttc" id="aa00692_html_a0161874ada0cecbbd1fd5d31da73703ea368516df3522ada12ce8a39c789a687d"><div class="ttname"><a href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703ea368516df3522ada12ce8a39c789a687d">AOR_DB_INTERNAL_ERROR</a></div><div class="ttdeci">@ AOR_DB_INTERNAL_ERROR</div><div class="ttdef"><b>Definition:</b> AccountMgr.h:31</div></div>
+<div class="ttc" id="aa00692_html_a0161874ada0cecbbd1fd5d31da73703ea73449863bb0d97def55bd65307e97f18"><div class="ttname"><a href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703ea73449863bb0d97def55bd65307e97f18">AOR_OK</a></div><div class="ttdeci">@ AOR_OK</div><div class="ttdef"><b>Definition:</b> AccountMgr.h:26</div></div>
+<div class="ttc" id="aa00692_html_a0161874ada0cecbbd1fd5d31da73703eae0b6297de7a7e8b516f5fc98a4d8750c"><div class="ttname"><a href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703eae0b6297de7a7e8b516f5fc98a4d8750c">AOR_NAME_ALREADY_EXIST</a></div><div class="ttdeci">@ AOR_NAME_ALREADY_EXIST</div><div class="ttdef"><b>Definition:</b> AccountMgr.h:29</div></div>
+<div class="ttc" id="aa00692_html_a0161874ada0cecbbd1fd5d31da73703eaec4fb519d9e6032adc269ca4a27c38f4"><div class="ttname"><a href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703eaec4fb519d9e6032adc269ca4a27c38f4">AOR_NAME_TOO_LONG</a></div><div class="ttdeci">@ AOR_NAME_TOO_LONG</div><div class="ttdef"><b>Definition:</b> AccountMgr.h:27</div></div>
+<div class="ttc" id="aa00692_html_a0161874ada0cecbbd1fd5d31da73703eaed91b79b9e639b8f988c5f06fcfd901c"><div class="ttname"><a href="../../d0/db6/a00692.html#a0161874ada0cecbbd1fd5d31da73703eaed91b79b9e639b8f988c5f06fcfd901c">AOR_PASS_TOO_LONG</a></div><div class="ttdeci">@ AOR_PASS_TOO_LONG</div><div class="ttdef"><b>Definition:</b> AccountMgr.h:28</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -175,8 +248,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_3906e801b468713a6f5b1f193c7ea10d.html">database</a></li><li class="navelem"><a class="el" href="../../dir_ac632e0cb7d565e729369f2b018d776c.html">Updater</a></li><li class="navelem"><a class="el" href="../../d0/db6/a00692.html">DBUpdater.h</a></li>
-    <li class="footer">Generated on Sun Aug 20 2023 00:18:55 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_f14d503eb20eb3c7d3fc8afc057e3bad.html">Accounts</a></li><li class="navelem"><a class="el" href="../../d0/db6/a00692.html">AccountMgr.h</a></li>
+    <li class="footer">Generated on Wed Dec 6 2023 22:12:01 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

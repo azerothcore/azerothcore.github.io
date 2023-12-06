@@ -1,20 +1,11 @@
 var a12645 =
 [
-    [ "boss_darkmaster_gandlingAI", "dd/dd7/a12645.html#a1fbd651c6f5ad3630ae450c6a523360c", null ],
-    [ "FindRoom", "dd/dd7/a12645.html#a7ca1847b3223c82f7c190546809c49bc", null ],
-    [ "GetData", "dd/dd7/a12645.html#a06e03e66d7a99a98ba915057c0082217", null ],
-    [ "JustDied", "dd/dd7/a12645.html#afaac9e6939e0d873f576129546560fba", null ],
-    [ "JustEngagedWith", "dd/dd7/a12645.html#aa71a73d3804187c6b89566ec3d1cd6ed", null ],
-    [ "JustSummoned", "dd/dd7/a12645.html#a24e4031367eb59ad7a9ea352bd0b4ccd", null ],
-    [ "OpenAllGates", "dd/dd7/a12645.html#ab28b7d97956c21515c9872d8f9122f18", null ],
-    [ "Reset", "dd/dd7/a12645.html#a8244b7b91de9a0413193001f41288f7f", null ],
-    [ "SetData", "dd/dd7/a12645.html#a1b7ed8e98d4a271dfd8df76738cc0072", null ],
-    [ "SetGate", "dd/dd7/a12645.html#a32fbc731852f46fbdd36b36764dd2303", null ],
-    [ "SpawnMobsInRoom", "dd/dd7/a12645.html#a68adf734efff345529dbb74bebe15798", null ],
-    [ "SpellHitTarget", "dd/dd7/a12645.html#ae98715a31cd22febb1725977556a48aa", null ],
-    [ "SummonedCreatureDespawn", "dd/dd7/a12645.html#aa0abb31ac1a05c4a99e4b8079410867a", null ],
-    [ "UpdateAI", "dd/dd7/a12645.html#a2c525445ad39ddc47366f3f632014d89", null ],
-    [ "current_room", "dd/dd7/a12645.html#a597f7ee62ee41ff6a1a12a6c9dd7cd93", null ],
-    [ "Guardians", "dd/dd7/a12645.html#a3681da718192f0f961282fa4f655355e", null ],
-    [ "summons", "dd/dd7/a12645.html#a745d411fc485892529cb4cc6f06ba3af", null ]
+    [ "npc_a_special_surpriseAI", "dd/dd7/a12645.html#acf062337317d98e491e40cf6ae9bb3ea", null ],
+    [ "MeetQuestCondition", "dd/dd7/a12645.html#a35f4db17e0301ceaaab49727d1ca8289", null ],
+    [ "MoveInLineOfSight", "dd/dd7/a12645.html#af0b183b951f1eba8114da1f7a1284d09", null ],
+    [ "Reset", "dd/dd7/a12645.html#a9526f6b257eade275b828d2b30328533", null ],
+    [ "UpdateAI", "dd/dd7/a12645.html#a8572ec4b4fdcaab93666f581edf1c852", null ],
+    [ "ExecuteSpeech_Counter", "dd/dd7/a12645.html#ae1ff67fb743b4125b015c1ecce4bc9db", null ],
+    [ "ExecuteSpeech_Timer", "dd/dd7/a12645.html#a8761840d6abdc0b195b5860b95f59b1c", null ],
+    [ "PlayerGUID", "dd/dd7/a12645.html#a683cdbd0ef9d0562842aace5b440594f", null ]
 ];

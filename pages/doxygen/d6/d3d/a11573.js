@@ -1,6 +1,5 @@
 var a11573 =
 [
-    [ "boss_solakar_flamewreathAI", "d0/db4/a11577.html", "d0/db4/a11577" ],
-    [ "boss_solakar_flamewreath", "d6/d3d/a11573.html#a0d5a9f9525303014e72cd98d45bf302f", null ],
-    [ "GetAI", "d6/d3d/a11573.html#a0bd7971406392f15f68828ed217f4d06", null ]
+    [ "boss_high_priestess_thaurissan", "d6/d3d/a11573.html#a53d3fd78f6a1a3b5028c6fc2940dfbd0", null ],
+    [ "GetAI", "d6/d3d/a11573.html#a7d2bb83a766b8eaa9bdbbb0f45a4fe62", null ]
 ];

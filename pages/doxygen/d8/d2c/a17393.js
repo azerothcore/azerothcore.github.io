@@ -1,6 +1,7 @@
 var a17393 =
 [
-    [ "spell_pos_empowered_blizzardAuraScript", "d5/d7d/a17397.html", "d5/d7d/a17397" ],
-    [ "spell_pos_empowered_blizzard", "d8/d2c/a17393.html#af6e797bcffa5819bbe861b00a91a93e5", null ],
-    [ "GetAuraScript", "d8/d2c/a17393.html#a71859a63f23e8e2ccc06a93c9d6e7adf", null ]
+    [ "npc_pos_icicle_triggerAI", "d8/d2c/a17393.html#a28477c5f88b5ec77dc3e021ec01401ce", null ],
+    [ "UpdateAI", "d8/d2c/a17393.html#a32d9b6bd2f0b994adb33e2bd99dd34ce", null ],
+    [ "pInstance", "d8/d2c/a17393.html#ad4ed0e2380c62cc6dd7d309edfd34ac1", null ],
+    [ "timer", "d8/d2c/a17393.html#a91277c41ddebffed7e9dac7098cd78bd", null ]
 ];

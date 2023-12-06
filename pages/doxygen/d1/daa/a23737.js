@@ -1,8 +1,6 @@
 var a23737 =
 [
-    [ "npc_vics_flying_machineAI", "d1/daa/a23737.html#a4464e0b1433c4ffb24ae7809b1a0eec5", null ],
-    [ "MovementInform", "d1/daa/a23737.html#ac4bbe0a3cccb6878d050b717b9efb320", null ],
-    [ "PassengerBoarded", "d1/daa/a23737.html#aa67dcbb4b43b047398fec2619ad61829", null ],
-    [ "SpellHit", "d1/daa/a23737.html#aa81229a104e1521d570abec4b6f7bca7", null ],
-    [ "pointId", "d1/daa/a23737.html#aa1412c23f0c3b964262e145c51aea974", null ]
+    [ "npc_jungle_punch_targetAI", "d3/d37/a23741.html", "d3/d37/a23741" ],
+    [ "npc_jungle_punch_target", "d1/daa/a23737.html#a69220634d9d6b84e464cdc4e0cba91a7", null ],
+    [ "GetAI", "d1/daa/a23737.html#abb38ccb55abfe0f48f360469031c6902", null ]
 ];

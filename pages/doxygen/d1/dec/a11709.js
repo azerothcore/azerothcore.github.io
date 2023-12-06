@@ -1,7 +1,6 @@
 var a11709 =
 [
-    [ "boss_ebonrocAI", "d1/dec/a11709.html#a73be20fda4e3f8cb7623796f3c32d741", null ],
-    [ "JustEngagedWith", "d1/dec/a11709.html#a2c74e0030b1093d79245978939043d53", null ],
-    [ "MovementInform", "d1/dec/a11709.html#ac1e16bb5ac18b55fbfb8af5078df270f", null ],
-    [ "UpdateAI", "d1/dec/a11709.html#aa2059c3834fbcfda3c8da5743bd2501f", null ]
+    [ "OrcMoveEvent", "d1/dec/a11709.html#a71f7fe243741a1629bdd846fc97f0112", null ],
+    [ "Execute", "d1/dec/a11709.html#a58a3c88ed3c6b534016179949b85ff9e", null ],
+    [ "_me", "d1/dec/a11709.html#ad8d09bbb659d44e9f4b9171cea7ef7e8", null ]
 ];

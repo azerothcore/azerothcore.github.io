@@ -1,6 +1,7 @@
 var a10369 =
 [
-    [ "PetStopAttack", "db/d9c/a10369.html#a4a68127f3290d4f2e288600757dd3282", null ],
-    [ "Read", "db/d9c/a10369.html#a22dd8d9fcbadbec5ba046812f5cdac51", null ],
-    [ "PetGUID", "db/d9c/a10369.html#af7b95e5b976af2fa7bb4c61319f7eb97", null ]
+    [ "GuildBankSetTabText", "db/d9c/a10369.html#aba353d3f94a88b71f49b9c0dc096be2c", null ],
+    [ "Read", "db/d9c/a10369.html#a24f580f6addcd08945c05016b3f0e544", null ],
+    [ "Tab", "db/d9c/a10369.html#ada6707c2105410d78d4335dbf4747141", null ],
+    [ "TabText", "db/d9c/a10369.html#a9bb8c3f539fdcf389caf57ed818c6164", null ]
 ];

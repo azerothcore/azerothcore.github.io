@@ -1,6 +1,6 @@
 var a12677 =
 [
-    [ "instance_scholomance_InstanceMapScript", "d0/d7a/a12681.html", "d0/d7a/a12681" ],
-    [ "instance_scholomance", "dd/dc6/a12677.html#ace7a781c45623419daad6143480d8fe2", null ],
-    [ "GetInstanceScript", "dd/dc6/a12677.html#a9e2030e41154c92dbe45d7895ddf37b8", null ]
+    [ "HandleLeapBack", "dd/dc6/a12677.html#a2f15d7dc9338501db3297d06bd636e5f", null ],
+    [ "PrepareSpellScript", "dd/dc6/a12677.html#ae587f81abbf933135acb8f91e14d9924", null ],
+    [ "Register", "dd/dc6/a12677.html#af532dc93d56441ca73161eed532bd651", null ]
 ];

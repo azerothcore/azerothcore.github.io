@@ -1,6 +1,6 @@
 var a22069 =
 [
-    [ "boss_yoggsaron_cloudAI", "da/d7d/a22073.html", "da/d7d/a22073" ],
-    [ "boss_yoggsaron_cloud", "dc/d7b/a22069.html#ab52cc1fa8b45b70dde340b9f463ef2f1", null ],
-    [ "GetAI", "dc/d7b/a22069.html#a2005f062eb9d78c7b09b045eba570b98", null ]
+    [ "HandleScript", "dc/d7b/a22069.html#a5733854b7d82568f72e37589ee9fe45e", null ],
+    [ "PrepareSpellScript", "dc/d7b/a22069.html#a0068abff528a8d213e426937f8fade93", null ],
+    [ "Register", "dc/d7b/a22069.html#a58d71e2969a3441cfeafd74cd71c1245", null ]
 ];

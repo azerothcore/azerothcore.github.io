@@ -1,6 +1,8 @@
 var a10841 =
 [
-    [ "EffectProcHandler", "de/d72/a10841.html#a613d5e85c3a7449e4f31719966dcdcc1", null ],
-    [ "Call", "de/d72/a10841.html#ae03d27451f687319629b3c54c5a7eed5", null ],
-    [ "_EffectHandlerScript", "de/d72/a10841.html#a8cb9ec4cfee59bc44063ac5cbf25844f", null ]
+    [ "first", "de/d72/a10841.html#a49aea8bfed353c2c552f6195b8e9f60a", null ],
+    [ "last", "de/d72/a10841.html#a05a8077c7ec39bcca66fe84aa1da7040", null ],
+    [ "next", "de/d72/a10841.html#a0a7791b7069912a013299e7afaf4142f", null ],
+    [ "prev", "de/d72/a10841.html#ae27b7d0aa5a2ae5cb75a7f0d397c849f", null ],
+    [ "rank", "de/d72/a10841.html#a0b58cef8fc18f91fa59b8c7d7b9f9872", null ]
 ];

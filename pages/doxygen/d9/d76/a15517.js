@@ -1,6 +1,6 @@
 var a15517 =
 [
-    [ "npc_silva_filnaveth", "d9/d76/a15517.html#a5998381865214a7b3af7823bd2557cb0", null ],
-    [ "OnGossipHello", "d9/d76/a15517.html#a32019c17271a3f504d86cd694262fd53", null ],
-    [ "OnGossipSelect", "d9/d76/a15517.html#a10f81dce3dbc3ef0a84c8c33c2cb2e29", null ]
+    [ "spell_ooze_zap_SpellScript", "d8/d42/a15521.html", "d8/d42/a15521" ],
+    [ "spell_ooze_zap", "d9/d76/a15517.html#ab92dfd9dbe728e01980083a0d9bee9d8", null ],
+    [ "GetSpellScript", "d9/d76/a15517.html#a20d8eb6a204c085398fc383c58a862cb", null ]
 ];

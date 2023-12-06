@@ -1,7 +1,7 @@
 var a09185 =
 [
-    [ "LootView", "d5/d25/a09185.html#a4cfc8ca1034e941a85d2955f38b2e894", null ],
-    [ "loot", "d5/d25/a09185.html#ac95fa4805c79923b292e8984b00de929", null ],
-    [ "permission", "d5/d25/a09185.html#a33d7eeebd6fbc854300275a4138d9030", null ],
-    [ "viewer", "d5/d25/a09185.html#af9a6926c6c871dee245f876038e49995", null ]
+    [ "AddonHandler", "d5/d25/a09185.html#a3e52b0fc5ca99a3f5d83ee6d34e16520", null ],
+    [ "~AddonHandler", "d5/d25/a09185.html#a8e4fc7c1cae505850a907e70a9febbf0", null ],
+    [ "BuildAddonPacket", "d5/d25/a09185.html#aca92dc80033c299daf8e3b42dd24ffea", null ],
+    [ "instance", "d5/d25/a09185.html#a2925b829b803dd07e96685086357ef85", null ]
 ];

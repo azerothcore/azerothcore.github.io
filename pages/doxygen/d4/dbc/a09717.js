@@ -1,13 +1,12 @@
 var a09717 =
 [
-    [ "FormulaScript", "d4/dbc/a09717.html#a129b3c2e4ad4423e006e3c94fb05d4c3", null ],
-    [ "OnAfterArenaRatingCalculation", "d4/dbc/a09717.html#aa3510b1cfb4661cf6028e1b9f443c865", null ],
-    [ "OnBaseGainCalculation", "d4/dbc/a09717.html#ab154eaf469d5fe3e86c364940816270a", null ],
-    [ "OnBeforeUpdatingPersonalRating", "d4/dbc/a09717.html#a2208a5684c95b936aa9ca1ae863d9682", null ],
-    [ "OnColorCodeCalculation", "d4/dbc/a09717.html#a83893099062d1fb7ce69fe38bf8c4699", null ],
-    [ "OnGainCalculation", "d4/dbc/a09717.html#aa83fab65cc89bd03021da2805e935ffb", null ],
-    [ "OnGrayLevelCalculation", "d4/dbc/a09717.html#affeb57234f961b9e01f5898c7738f38f", null ],
-    [ "OnGroupRateCalculation", "d4/dbc/a09717.html#a1098d29595b4f9206cccf3c3c1dad5f3", null ],
-    [ "OnHonorCalculation", "d4/dbc/a09717.html#a54a5e523ad5a9d3eb2dd061ced2d209f", null ],
-    [ "OnZeroDifferenceCalculation", "d4/dbc/a09717.html#a7755c35bc56e6645e36de08c12a4847d", null ]
+    [ "FacingInfo", "d4/dbc/a09717.html#a1ac825c359704924c66e46eada64e34e", null ],
+    [ "FacingInfo", "d4/dbc/a09717.html#a7820b3ce134dcca05b9b15299eb3b33f", null ],
+    [ "FacingInfo", "d4/dbc/a09717.html#add6411db27c1d313d2f133adf0c35755", null ],
+    [ "angle", "d4/dbc/a09717.html#ac56b304c2c5df7ab72c6fcbd2f845b02", null ],
+    [ "f", "d4/dbc/a09717.html#a17e55ba985b85927a0fc14d103ec4be5", null ],
+    [ "target", "d4/dbc/a09717.html#a064b5265b4bb2a0053908bf6031b8f65", null ],
+    [ "x", "d4/dbc/a09717.html#ac08687158cc0bcfbc9814b1cbbe95684", null ],
+    [ "y", "d4/dbc/a09717.html#ad7fcfb6b1c5402a0570748d343eadfcc", null ],
+    [ "z", "d4/dbc/a09717.html#a5ff017b732d47684f675041e44227754", null ]
 ];

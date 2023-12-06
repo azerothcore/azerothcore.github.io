@@ -1,6 +1,6 @@
 var a21133 =
 [
-    [ "OnPeriodic", "d7/d3f/a21133.html#abc1ff049ebd71372a105d08e82a5cd4e", null ],
-    [ "PrepareAuraScript", "d7/d3f/a21133.html#a55ff9d9bf90253b0f2d9510bc00e3127", null ],
-    [ "Register", "d7/d3f/a21133.html#ad4d26e672db9b8ed11368ab5143094db", null ]
+    [ "spell_pursue_SpellScript", "d3/dcc/a21137.html", "d3/dcc/a21137" ],
+    [ "spell_pursue", "d7/d3f/a21133.html#a1ba1ed11405b137a92e74a4932df3d70", null ],
+    [ "GetSpellScript", "d7/d3f/a21133.html#afbf6fce8a3c9d4d1406585367c7f6b02", null ]
 ];

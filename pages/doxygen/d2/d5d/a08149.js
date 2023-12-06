@@ -1,9 +1,16 @@
 var a08149 =
 [
-    [ "achievements", "d2/d5d/a08149.html#acfdabccf4f66aa7ebfbae0bfe185f6dc", null ],
-    [ "items", "d2/d5d/a08149.html#a2873836588f37b9a5cf691da2b6fa715", null ],
-    [ "levelMax", "d2/d5d/a08149.html#a7430d852e5426c1a32e49c77d747f4e6", null ],
-    [ "levelMin", "d2/d5d/a08149.html#a823016216268e13116a46bcb40ea0e70", null ],
-    [ "quests", "d2/d5d/a08149.html#a6150aa58762a13dcbfcb55507df77809", null ],
-    [ "reqItemLevel", "d2/d5d/a08149.html#a97f262e488e178dad0c33f228808f69e", null ]
+    [ "WorldLocation", "d2/d5d/a08149.html#a424e67f5a820f3396ed6a02c3daa05fb", null ],
+    [ "WorldLocation", "d2/d5d/a08149.html#a04d7814f5d846259c5af562ce856f468", null ],
+    [ "GetDebugInfo", "d2/d5d/a08149.html#a0b3f13522d288dde484c70cbf8ef5fc5", null ],
+    [ "GetMapId", "d2/d5d/a08149.html#a2682e56ae4f0ce4b517a8ba3cd2798b1", null ],
+    [ "GetWorldLocation", "d2/d5d/a08149.html#a48cad9058b04a5108c4b99c7fd4d0bfe", null ],
+    [ "GetWorldLocation", "d2/d5d/a08149.html#aa2623109f914fd8592f865545696d27b", null ],
+    [ "GetWorldLocation", "d2/d5d/a08149.html#a75c59d33f5aac8da8eb9b8c5e2711acf", null ],
+    [ "GetWorldLocation", "d2/d5d/a08149.html#aed21eb7d191b1e34ebd1456b427fbb2c", null ],
+    [ "GetWorldLocation", "d2/d5d/a08149.html#abb5d3b7c89fa4a39d2486f2f943159e4", null ],
+    [ "SetMapId", "d2/d5d/a08149.html#ac425c27c61ecc169fe3df61991011988", null ],
+    [ "WorldRelocate", "d2/d5d/a08149.html#a7f014ec2469e93ffca3ec7bbd03b1606", null ],
+    [ "WorldRelocate", "d2/d5d/a08149.html#adc762865d564319245ffc3363c080365", null ],
+    [ "m_mapId", "d2/d5d/a08149.html#a88161a79f13aa3ab267096cfa8e5d0ed", null ]
 ];

@@ -1,6 +1,8 @@
 var a15537 =
 [
-    [ "npc_giant_spotlightAI", "db/d29/a15541.html", "db/d29/a15541" ],
-    [ "npc_giant_spotlight", "d4/d77/a15537.html#a9d1c47de758c74a89c751b675d5cc4c0", null ],
-    [ "GetAI", "d4/d77/a15537.html#af002a3d0194c991c1f78c720de63cfea", null ]
+    [ "FilterTargets", "d4/d77/a15537.html#a976a41800f3726db5bb9aa71be006ec1", null ],
+    [ "HandleScript", "d4/d77/a15537.html#a878422cc71299a6f7a844a6d4992fde2", null ],
+    [ "PrepareSpellScript", "d4/d77/a15537.html#a14c21ded1418294856dce32e67b6e589", null ],
+    [ "Register", "d4/d77/a15537.html#a69ed173c3ae9cca71cc119cf707c0cbb", null ],
+    [ "Validate", "d4/d77/a15537.html#a72205f5187e69cdd65b6786d6360310a", null ]
 ];

@@ -1,6 +1,7 @@
 var a21125 =
 [
-    [ "HandleScript", "d6/d27/a21125.html#aa97a551583026a3b8ea69d553104ff69", null ],
-    [ "PrepareSpellScript", "d6/d27/a21125.html#a9b357121436fd2802b1dbf54e5a60b4a", null ],
-    [ "Register", "d6/d27/a21125.html#a33c4bef4dd8655afd6df5660e829f3eb", null ]
+    [ "OnApply", "d6/d27/a21125.html#aa61a32f13cdde2b6aec74c3f06f84c51", null ],
+    [ "OnRemove", "d6/d27/a21125.html#a5fe91f4516ace09eac9868f9bf877776", null ],
+    [ "PrepareAuraScript", "d6/d27/a21125.html#af4af06ffe573dec0ee809b54de32b32b", null ],
+    [ "Register", "d6/d27/a21125.html#a40cec0734fb12fb610e299a47ccdcd4b", null ]
 ];

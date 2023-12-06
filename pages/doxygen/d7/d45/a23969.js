@@ -1,6 +1,6 @@
 var a23969 =
 [
-    [ "npc_feedin_da_goolzAI", "d9/dcb/a23973.html", "d9/dcb/a23973" ],
-    [ "npc_feedin_da_goolz", "d7/d45/a23969.html#ace9fd4ca5809c0d47b49fc63ca8363be", null ],
-    [ "GetAI", "d7/d45/a23969.html#a61ab3189e2525a995a87eec06d45e355", null ]
+    [ "CheckCast", "d7/d45/a23969.html#a0556cb5e70ee9c9cc85bc16f68a45aa1", null ],
+    [ "PrepareSpellScript", "d7/d45/a23969.html#abcb6d94c5b6ff2790eb90e992d7b6d94", null ],
+    [ "Register", "d7/d45/a23969.html#a4be44c4f05683e3a56ff1f072f877bf0", null ]
 ];

@@ -1,6 +1,6 @@
 var a19081 =
 [
-    [ "ModDest", "d7/d71/a19081.html#abea9a7a54610d72c87d05e2ad1a806ca", null ],
-    [ "PrepareSpellScript", "d7/d71/a19081.html#a4164b92f03eed302f77bbd51f65df599", null ],
-    [ "Register", "d7/d71/a19081.html#a16048cb0eacd5486db5fdcd96422d13c", null ]
+    [ "spell_the_lich_king_defile_SpellScript", "d3/d7d/a19085.html", "d3/d7d/a19085" ],
+    [ "spell_the_lich_king_defile", "d7/d71/a19081.html#a752a6dcf0013c5f47a068cf120c5a6b4", null ],
+    [ "GetSpellScript", "d7/d71/a19081.html#a87a8bbe95e49874bd35e85b2a04b1dbf", null ]
 ];

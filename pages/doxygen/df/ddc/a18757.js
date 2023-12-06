@@ -1,6 +1,7 @@
 var a18757 =
 [
-    [ "FilterTargets", "df/ddc/a18757.html#ad044eb9e63eb147e5ea64408a611489e", null ],
-    [ "PrepareSpellScript", "df/ddc/a18757.html#addf06ce8b29374b925985e0656c8d73a", null ],
-    [ "Register", "df/ddc/a18757.html#ae8351cd6f679b9ca7ee763ceebef5f7e", null ]
+    [ "OnRemove", "df/ddc/a18757.html#ada2e6d5870317170eff91333ef7519be", null ],
+    [ "PrepareAuraScript", "df/ddc/a18757.html#a49944e01e52b0a74f1fe54581a24e748", null ],
+    [ "Register", "df/ddc/a18757.html#a409bb65f459b0d23e6125ceff67b1d10", null ],
+    [ "Validate", "df/ddc/a18757.html#a9e43a8646eba1480213f8a9804132407", null ]
 ];

@@ -1,9 +1,9 @@
 var a11357 =
 [
-    [ "npc_burning_spiritAI", "da/d90/a11357.html#a52f63423d09794446b0c01da2feb325d", null ],
-    [ "EnterEvadeMode", "da/d90/a11357.html#a567a7a023bb83a1228bb458ea16ee2fc", null ],
-    [ "IsSummonedBy", "da/d90/a11357.html#a65ee7b6dd6d4394cc04a6260fc75827e", null ],
-    [ "MovementInform", "da/d90/a11357.html#a0a02ece5a3ff1eefa30fd27a9cc84d10", null ],
-    [ "_events", "da/d90/a11357.html#a9af0f46710741bba3d8401d1a1fb0556", null ],
-    [ "_flamelasherGUID", "da/d90/a11357.html#abfc34e3e45d1e74b328a91f6f8981191", null ]
+    [ "send_commandscript", "da/d90/a11357.html#a3aa5d7cc0b5dcd4875e99dfd6f3dbdde", null ],
+    [ "GetCommands", "da/d90/a11357.html#a2dc60c8c414c9131b4cda1ff82f7beed", null ],
+    [ "HandleSendItemsCommand", "da/d90/a11357.html#a7ffcd07e0ad08be2eb8a1ebac0fec717", null ],
+    [ "HandleSendMailCommand", "da/d90/a11357.html#a5ad6f9387c6fb00bf536629c760ba374", null ],
+    [ "HandleSendMessageCommand", "da/d90/a11357.html#a91017e6171ac9e4dfff6c2036228de47", null ],
+    [ "HandleSendMoneyCommand", "da/d90/a11357.html#a26938bb54bb3cb678c49737a92cadb56", null ]
 ];

@@ -1,10 +1,12 @@
 var a09805 =
 [
-    [ "VehicleScript", "d3/de7/a09805.html#a9f708a7e432fcb4abe15dcabb0e5a035", null ],
-    [ "OnAddPassenger", "d3/de7/a09805.html#a4495f8900ecb85546ac23ebe4783ae7c", null ],
-    [ "OnInstall", "d3/de7/a09805.html#abbb42dcbc5fad97ed1df45ea7b3afe54", null ],
-    [ "OnInstallAccessory", "d3/de7/a09805.html#ad59ae4c47404abb86e05ae983704f6ea", null ],
-    [ "OnRemovePassenger", "d3/de7/a09805.html#ad4094366aba1fb6a1ff19361d1be9210", null ],
-    [ "OnReset", "d3/de7/a09805.html#a38fca3fec8785f015084b832f9e3b08c", null ],
-    [ "OnUninstall", "d3/de7/a09805.html#a7d4bafe42756ee73b5ce79783842c243", null ]
+    [ "QuestLocale", "d3/de7/a09805.html#a887d474a470ee0278fb4b465a7ad9547", null ],
+    [ "AreaDescription", "d3/de7/a09805.html#a5c6c5a8d1fb500afef514c80c9d87e4e", null ],
+    [ "CompletedText", "d3/de7/a09805.html#aad432417f836b2cbe03d3e53e4e76f14", null ],
+    [ "Details", "d3/de7/a09805.html#afd23d37c92f2b28e1c125bba0d670497", null ],
+    [ "Objectives", "d3/de7/a09805.html#ae1ecea0f255f34b547302bfc2c0b6ad4", null ],
+    [ "ObjectiveText", "d3/de7/a09805.html#ae41f7f50ab68e5783ceec37e6f8ff5b0", null ],
+    [ "OfferRewardText", "d3/de7/a09805.html#aaba6d07625232a77e3457454f7d4fa77", null ],
+    [ "RequestItemsText", "d3/de7/a09805.html#a764d2092084454844e59c484fb637017", null ],
+    [ "Title", "d3/de7/a09805.html#ab75b38241e31b9137c1d85334b3a3f30", null ]
 ];

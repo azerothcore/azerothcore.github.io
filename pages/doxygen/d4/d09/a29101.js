@@ -1,6 +1,10 @@
 var a29101 =
 [
-    [ "go_amberpine_outhouse", "d4/d09/a29101.html#a953ea72b3954c89b6c391de5aca3b6ce", null ],
-    [ "OnGossipHello", "d4/d09/a29101.html#a7cbfc3a091ad2332fd46140a24ac4e37", null ],
-    [ "OnGossipSelect", "d4/d09/a29101.html#aa55fe049ba43dbd548ba55d982d89d51", null ]
+    [ "guard_shattrath_scryerAI", "d4/d09/a29101.html#a97accbf467ca1190f8a05512b3857164", null ],
+    [ "Reset", "d4/d09/a29101.html#adfcd8bce42148d303fe6ec9b615ffdb1", null ],
+    [ "UpdateAI", "d4/d09/a29101.html#ad759cca08b0093522e190ddc038e2c73", null ],
+    [ "banishTimer", "d4/d09/a29101.html#aa9aa3c2e7e69df5899c84ebde1e357bd", null ],
+    [ "canTeleport", "d4/d09/a29101.html#a84188b40b44deae5714466bb23bf2f0d", null ],
+    [ "exileTimer", "d4/d09/a29101.html#a97fbc3f54c23049fd91ad432cd560698", null ],
+    [ "playerGUID", "d4/d09/a29101.html#adb40d8bbc97a6a1fa0f4e303db470db2", null ]
 ];

@@ -1,8 +1,6 @@
 var a27069 =
 [
-    [ "CheckCast", "de/de6/a27069.html#a459b6aa2fd05ffc5cb97815a53e2797c", null ],
-    [ "HandleScript", "de/de6/a27069.html#a2c1702398e4cbdcc106679d534a27743", null ],
-    [ "PrepareSpellScript", "de/de6/a27069.html#a613bdf7841744632c1e6de147e0352b9", null ],
-    [ "Register", "de/de6/a27069.html#ada961aaa5679aa00cc650d6e97487ca4", null ],
-    [ "Validate", "de/de6/a27069.html#a0a9de0825edf5c82b91dbe7326a65de9", null ]
+    [ "HandleScriptEffect", "de/de6/a27069.html#a78a131bdf6a1406604edd130c28d664b", null ],
+    [ "PrepareSpellScript", "de/de6/a27069.html#a3b2d739227e57667a284ae4600ec1bb6", null ],
+    [ "Register", "de/de6/a27069.html#a8a70913369aa733160366f37ff1c3470", null ]
 ];

@@ -1,7 +1,5 @@
 var a04793 =
 [
-    [ "WModelRayCallBack", "df/dc6/a04793.html#ac234cf795a07aab6e456c608dd80bbea", null ],
-    [ "operator()", "df/dc6/a04793.html#a8f658081b44bda2527aa568a139bfd14", null ],
-    [ "hit", "df/dc6/a04793.html#a014e322fc087c2f07617361e0bc585e3", null ],
-    [ "models", "df/dc6/a04793.html#aaad14391ed1379dc3c367e6e522b1150", null ]
+    [ "GetBounds", "df/dc6/a04793.html#aad63d9f5960111e34b0a3005e2c51d0f", null ],
+    [ "GetBounds2", "df/dc6/a04793.html#adcedbb1fa73310dff07fb945793fb23e", null ]
 ];

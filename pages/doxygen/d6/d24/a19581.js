@@ -1,7 +1,6 @@
 var a19581 =
 [
-    [ "HandleQuestComplete", "d6/d24/a19581.html#a285380743a283caa73bf4f3a5ee2f86a", null ],
-    [ "HandleScript", "d6/d24/a19581.html#a7b15569bce865a09fb3953eb77b13d62", null ],
-    [ "PrepareSpellScript", "d6/d24/a19581.html#a23bf8b265f574ebd9dd516d49dd396c5", null ],
-    [ "Register", "d6/d24/a19581.html#ad335433ca2f7399c2325b47c6bc562e9", null ]
+    [ "spell_icc_stoneform_AuraScript", "d4/def/a19585.html", "d4/def/a19585" ],
+    [ "spell_icc_stoneform", "d6/d24/a19581.html#abe86fe055ee364229b4f3c03738b1856", null ],
+    [ "GetAuraScript", "d6/d24/a19581.html#ac88c88f834624f99a62ed7daa6b00b32", null ]
 ];

@@ -1,7 +1,7 @@
 var a28457 =
 [
-    [ "HandleDummy", "d2/dd0/a28457.html#a00d36b914f5fd0466ae775e1fc95aa4f", null ],
-    [ "PrepareSpellScript", "d2/dd0/a28457.html#a86a5c2b8ff373af7e98645b8b380145c", null ],
-    [ "Register", "d2/dd0/a28457.html#a1b879ab84b8d6227ee5b2cccccd38bc2", null ],
-    [ "Validate", "d2/dd0/a28457.html#aa7d437146a96bb40c1a66a453e3e4339", null ]
+    [ "AfterRemove", "d2/dd0/a28457.html#ad0bad4a07d5a65a7834e7ab46e082b20", null ],
+    [ "PrepareAuraScript", "d2/dd0/a28457.html#af338af238305f1872275e1e5e9fdee16", null ],
+    [ "Register", "d2/dd0/a28457.html#aa266e794be35b51a399b13ee2d06199d", null ],
+    [ "Validate", "d2/dd0/a28457.html#af58098eb7a904e20846cf728f5adc18b", null ]
 ];

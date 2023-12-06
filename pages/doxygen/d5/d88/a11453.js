@@ -1,7 +1,6 @@
 var a11453 =
 [
-    [ "boss_okthorAI", "d5/d88/a11453.html#a8007cfade5c04d8b4e0b787ac5a5beff", null ],
-    [ "JustEngagedWith", "d5/d88/a11453.html#a466a618e52f40e04e873dd50f3728755", null ],
-    [ "UpdateAI", "d5/d88/a11453.html#a246c3bd9aa96eb11d2fa48be8654d726", null ],
-    [ "nextArcaneExplosionTime", "d5/d88/a11453.html#a89d8cdd528775ee77caeac1d0465d4f2", null ]
+    [ "npc_phalanxAI", "d8/d5d/a11457.html", "d8/d5d/a11457" ],
+    [ "npc_phalanx", "d5/d88/a11453.html#a947ee4659fe2a46d775119ddcefeb939", null ],
+    [ "GetAI", "d5/d88/a11453.html#ab1e2a0950ab286d5abae3d46aef3c623", null ]
 ];

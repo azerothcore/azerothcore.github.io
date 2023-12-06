@@ -1,6 +1,6 @@
 var a11949 =
 [
-    [ "spell_hate_to_zero_SpellScript", "d4/dcc/a11953.html", "d4/dcc/a11953" ],
-    [ "spell_hate_to_zero", "d7/dfe/a11949.html#a2c92ea42e5fc016da890aa65ca6423c5", null ],
-    [ "GetSpellScript", "d7/dfe/a11949.html#aed53cec30e195201c930e27949e668e0", null ]
+    [ "spell_bwl_shadowflame_SpellScript", "d4/dcc/a11953.html", "d4/dcc/a11953" ],
+    [ "spell_bwl_shadowflame", "d7/dfe/a11949.html#a06fd9b779ea7e819cd3b4ffb200244ed", null ],
+    [ "GetSpellScript", "d7/dfe/a11949.html#a6b534c397f21b63c238cadc17586b641", null ]
 ];

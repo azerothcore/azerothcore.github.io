@@ -1,6 +1,5 @@
 var a28901 =
 [
-    [ "spell_dream_fog_sleep_SpellScript", "dd/d6c/a28905.html", "dd/d6c/a28905" ],
-    [ "spell_dream_fog_sleep", "d2/dd9/a28901.html#a679dadd5a280cf4e30f6ff611aaff7d7", null ],
-    [ "GetSpellScript", "d2/dd9/a28901.html#aab87f1f4819623d2837970fab7f7a824", null ]
+    [ "go_noblegarden_colored_egg", "d2/dd9/a28901.html#a7e85d492a6c9f4e50a2c47d6e6dae535", null ],
+    [ "OnGossipHello", "d2/dd9/a28901.html#ab3d349dfa5b4c0f58ed70f80cd084029", null ]
 ];

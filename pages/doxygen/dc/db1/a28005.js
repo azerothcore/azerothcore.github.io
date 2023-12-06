@@ -1,6 +1,6 @@
 var a28005 =
 [
-    [ "CheckCast", "dc/db1/a28005.html#a2edd0bcaa3b026cc70f9f6b58f53f486", null ],
-    [ "PrepareSpellScript", "dc/db1/a28005.html#aaf1e16dbc8d33aadcbf74dc4cebe715b", null ],
-    [ "Register", "dc/db1/a28005.html#a32aaab12105c9b1c09edfa8a444ced9c", null ]
+    [ "HandleScriptEffect", "dc/db1/a28005.html#a8b60ae77f13045a582548fe5d1186d54", null ],
+    [ "PrepareSpellScript", "dc/db1/a28005.html#ad68619783c4a1aad5a24826bf5d89858", null ],
+    [ "Register", "dc/db1/a28005.html#a929c49d6dd30b6a0dedfbc23c877eb36", null ]
 ];

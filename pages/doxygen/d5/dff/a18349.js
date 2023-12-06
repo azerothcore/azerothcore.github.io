@@ -1,6 +1,6 @@
 var a18349 =
 [
-    [ "PrepareSpellScript", "d5/dff/a18349.html#a36eba217756746e85dd6f36ecafd1773", null ],
-    [ "RecalculateDamage", "d5/dff/a18349.html#adb184e0ad7c1628579d5a66bb188f98c", null ],
-    [ "Register", "d5/dff/a18349.html#a8b188ae324cdec7a0e0fad910941ee49", null ]
+    [ "npc_bone_spikeAI", "dd/d0c/a18353.html", "dd/d0c/a18353" ],
+    [ "npc_bone_spike", "d5/dff/a18349.html#ac93d7a45eaeae8d7adf2a3b313825aed", null ],
+    [ "GetAI", "d5/dff/a18349.html#a887a9156f550ca55047fa501e1709d95", null ]
 ];

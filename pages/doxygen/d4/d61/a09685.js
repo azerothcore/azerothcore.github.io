@@ -1,10 +1,6 @@
 var a09685 =
 [
-    [ "QuestStatusData", "d4/d61/a09685.html#ae71725a7f75e10aacb6f4a9ca4b72f27", null ],
-    [ "CreatureOrGOCount", "d4/d61/a09685.html#aa5892dc0744a41ac565568307f12ad35", null ],
-    [ "Explored", "d4/d61/a09685.html#a734f6a61aa35c77689d33031e88f0c0b", null ],
-    [ "ItemCount", "d4/d61/a09685.html#a466999cea52f65bf58916bc34750bf95", null ],
-    [ "PlayerCount", "d4/d61/a09685.html#a170a1e54fe45b7fd0c7934f1309f7969", null ],
-    [ "Status", "d4/d61/a09685.html#a4ce7af3a64737d7961b6dfa19189c932", null ],
-    [ "Timer", "d4/d61/a09685.html#a16343f7a162e5b7b6a1a18345420c77a", null ]
+    [ "FallInitializer", "d4/d61/a09685.html#a618345df62b821d286caadc7179b7d83", null ],
+    [ "operator()", "d4/d61/a09685.html#a7a9b294b6820e229cd95f4fc9bde825b", null ],
+    [ "start_elevation", "d4/d61/a09685.html#ab94604fb6eee50832001908c12044130", null ]
 ];

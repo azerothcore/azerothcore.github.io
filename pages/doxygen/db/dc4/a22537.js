@@ -1,5 +1,6 @@
 var a22537 =
 [
-    [ "go_palehoof_sphere", "db/dc4/a22537.html#a9e31fe7531980a5f75af95e24cbc272d", null ],
-    [ "OnGossipHello", "db/dc4/a22537.html#ad939fd46f8bdf32d4e158f32f2bcd8da", null ]
+    [ "npc_massive_jormungarAI", "d2/ddd/a22541.html", "d2/ddd/a22541" ],
+    [ "npc_massive_jormungar", "db/dc4/a22537.html#ad17b632fcfe78019dcb9e6b58fa1ac01", null ],
+    [ "GetAI", "db/dc4/a22537.html#a68e3557e967ef633ba59fa81e661b80c", null ]
 ];

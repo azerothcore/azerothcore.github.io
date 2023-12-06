@@ -1,6 +1,10 @@
 var a25389 =
 [
-    [ "instance_magtheridons_lair_InstanceMapScript", "d2/d8b/a25393.html", "d2/d8b/a25393" ],
-    [ "instance_magtheridons_lair", "d4/d49/a25389.html#a9bc61758478dc18ba413264eec2e3ca3", null ],
-    [ "GetInstanceScript", "d4/d49/a25389.html#a6c9cc959cf4f294e6173d244f54bcd02", null ]
+    [ "boss_harbinger_skyriss", "d4/d49/a25389.html#a245179f74d61c2671b397e8f2473b599", null ],
+    [ "EnterEvadeMode", "d4/d49/a25389.html#a873413da06569343225e6659f8277b2c", null ],
+    [ "JustDied", "d4/d49/a25389.html#a2b5152ddeb53d382294bd0fe7455a21e", null ],
+    [ "JustEngagedWith", "d4/d49/a25389.html#adb4cdec41f4b61f82efdb78fe995c313", null ],
+    [ "JustSummoned", "d4/d49/a25389.html#a97d84139a3e970e22d7d422f2f825f12", null ],
+    [ "KilledUnit", "d4/d49/a25389.html#a8f9e1bd87c80041e07b428ec300ceef8", null ],
+    [ "Reset", "d4/d49/a25389.html#a045ec2371ad99c3465b8f089eb604e0a", null ]
 ];

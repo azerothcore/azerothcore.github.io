@@ -1,6 +1,6 @@
 var a21269 =
 [
-    [ "achievement_freya_knock_on_wood", "d2/d24/a21269.html#ae28517e151cc9ec2b25ff57513f32d29", null ],
-    [ "OnCheck", "d2/d24/a21269.html#a07e5edf9d53d200506ab1b0d0b2eaa9e", null ],
-    [ "_elderCount", "d2/d24/a21269.html#a5a3cc4dedbc2cc6be825579cbb0a09b5", null ]
+    [ "boss_freya_lifebinderAI", "d8/dae/a21273.html", "d8/dae/a21273" ],
+    [ "boss_freya_lifebinder", "d2/d24/a21269.html#ad7a3bc09aacf35b4a6a39e65c966b824", null ],
+    [ "GetAI", "d2/d24/a21269.html#a978e4472a080f0fc53848abaa305cd77", null ]
 ];

@@ -1,6 +1,5 @@
 var a23601 =
 [
-    [ "ChangeSummonPos", "dc/d51/a23601.html#a90993dc8e875b759d80ee92f76100f15", null ],
-    [ "PrepareSpellScript", "dc/d51/a23601.html#a74120a96d56cca66dbe5568fdee9412a", null ],
-    [ "Register", "dc/d51/a23601.html#a4994a44f67732c5e5e436cf2dfe53cf2", null ]
+    [ "PrepareSpellScript", "dc/d51/a23601.html#a837c01b24c4c006d26f09106ee4f9fee", null ],
+    [ "Register", "dc/d51/a23601.html#a8ab67808fd27b58748675ec103a6661c", null ]
 ];

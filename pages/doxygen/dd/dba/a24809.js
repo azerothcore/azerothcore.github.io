@@ -1,6 +1,6 @@
 var a24809 =
 [
-    [ "HandleScriptEffect", "dd/dba/a24809.html#a07a7ee7a354c05b286692bb93bc37d59", null ],
-    [ "PrepareSpellScript", "dd/dba/a24809.html#a51f6fb8b0db9d315f25663dcecfa50e5", null ],
-    [ "Register", "dd/dba/a24809.html#a728d1ab2258c75b1cfed0928e17b6a4d", null ]
+    [ "HandleProc", "dd/dba/a24809.html#a97707b18139255da208691603ae0dbfa", null ],
+    [ "PrepareAuraScript", "dd/dba/a24809.html#a4e37616fad05e94a5a704c81a38e961a", null ],
+    [ "Register", "dd/dba/a24809.html#a9e7c8fbc8c4b8bab25b86b4ac8df4e60", null ]
 ];

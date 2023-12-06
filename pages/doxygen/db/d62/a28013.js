@@ -1,8 +1,7 @@
 var a28013 =
 [
-    [ "HandleApplyEffect", "db/d62/a28013.html#a50102ae92f44fd7c2bd9afc3fec5a291", null ],
-    [ "Load", "db/d62/a28013.html#ab6ba9d68b968ae41ee9c9869df686f02", null ],
-    [ "PrepareAuraScript", "db/d62/a28013.html#a6e212284f72320356cfa2f0c2a59999d", null ],
-    [ "Register", "db/d62/a28013.html#afcdd6cc19b59b5e6aa0cfdb9189edc99", null ],
-    [ "Validate", "db/d62/a28013.html#a985a52f71371443454d6dd36f7fe83b2", null ]
+    [ "if", "db/d62/a28013.html#aefedb14e99d2e60abfd58f7778deb39b", null ],
+    [ "PrepareAuraScript", "db/d62/a28013.html#ad61e8c804e59ca0623748acde69aeddb", null ],
+    [ "Register", "db/d62/a28013.html#af917d32bc0d7f825a52c0a916a3a2357", null ],
+    [ "AuraEffectHandleModes", "db/d62/a28013.html#accfab0bada4faf21178e3f67a79c6dfe", null ]
 ];

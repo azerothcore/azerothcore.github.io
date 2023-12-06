@@ -1,10 +1,8 @@
 var a29221 =
 [
-    [ "npc_prof_tailor", "d4/dc5/a29221.html#a481157e49fb1c09f62a3cb9de85c9da1", null ],
-    [ "HasTailorSpell", "d4/dc5/a29221.html#a188c0ac66b1972bccd031aca26f7fecd", null ],
-    [ "OnGossipHello", "d4/dc5/a29221.html#a686098ac43916ea2f82b7c321527863d", null ],
-    [ "OnGossipSelect", "d4/dc5/a29221.html#a03545eaacf3bae0d407e0e20c32740dc", null ],
-    [ "SendActionMenu", "d4/dc5/a29221.html#a03ced7d6541535097a5e4e3bd9f415f2", null ],
-    [ "SendConfirmLearn", "d4/dc5/a29221.html#a93a8692cb2c0b30ee752ae3ecd5561e5", null ],
-    [ "SendConfirmUnlearn", "d4/dc5/a29221.html#ada0be1dc79f72b7b033191c8e17a8baf", null ]
+    [ "npc_nelsonAI", "df/de4/a29225.html", "df/de4/a29225" ],
+    [ "npc_nelson", "d4/dc5/a29221.html#ada597926a6db1aa7823ddabc19945b11", null ],
+    [ "GetAI", "d4/dc5/a29221.html#a75fea281fb49249345c48236bf44b1c8", null ],
+    [ "OnGossipHello", "d4/dc5/a29221.html#aa693b365a15d4617f214f9c3c229bf89", null ],
+    [ "OnGossipSelect", "d4/dc5/a29221.html#aff8e412cfcabd7b653cd30d29878be6a", null ]
 ];

@@ -1,6 +1,7 @@
 var a18693 =
 [
-    [ "UnchainedMagicTargetSelector", "d2/d58/a18693.html#ae412c72884e6cfb1ceef8ed9fb347fbf", null ],
-    [ "operator()", "d2/d58/a18693.html#af28ce8f46154ae6152e9025775a7f84f", null ],
-    [ "_removeHealers", "d2/d58/a18693.html#a35a7981ce5495cba8b3a5391e4031431", null ]
+    [ "FrostBombExplosion", "d2/d58/a18693.html#ac7d318e241e6442e8aa084b27ea50236", null ],
+    [ "Execute", "d2/d58/a18693.html#a0b6521266f18b621260286c530ff3f36", null ],
+    [ "_owner", "d2/d58/a18693.html#aa9ff39ce43c351e8815f895896fa759b", null ],
+    [ "_sindragosaGUID", "d2/d58/a18693.html#a5afc3d543c8fa457c90735f841aa161c", null ]
 ];

@@ -1,7 +1,6 @@
 var a25577 =
 [
-    [ "CastQuill", "d3/d26/a25577.html#a923234809186bcbdf02457f4be095519", null ],
-    [ "Execute", "d3/d26/a25577.html#a26a971a575e4b9503cd1da73d43ebd1e", null ],
-    [ "_caster", "d3/d26/a25577.html#af809b9279aff141ce4007c8d1fbcc331", null ],
-    [ "_spellId", "d3/d26/a25577.html#ad6f7d8eaf69873b0ba57be4189c145cf", null ]
+    [ "PrepareSpellScript", "d3/d26/a25577.html#a63098792c69fed46a146c35585602280", null ],
+    [ "Register", "d3/d26/a25577.html#a1bae14bf94aad0748bb470a70a28c790", null ],
+    [ "SelectTarget", "d3/d26/a25577.html#a3f5eea2a6c75298ad5099183645a12a9", null ]
 ];

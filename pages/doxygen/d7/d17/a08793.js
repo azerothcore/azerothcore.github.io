@@ -1,8 +1,9 @@
 var a08793 =
 [
-    [ "FriendlyMissingBuffInRange", "d7/d17/a08793.html#a628fe94ce054a868977ef2a981bc5d6c", null ],
-    [ "operator()", "d7/d17/a08793.html#a6dce8a1248ebb4f3e57cd12a3d94b7b9", null ],
-    [ "i_obj", "d7/d17/a08793.html#aba43edf48b2b0184b52143707c3531f4", null ],
-    [ "i_range", "d7/d17/a08793.html#a54ba98f393a8bdf710f6bd65abee526c", null ],
-    [ "i_spell", "d7/d17/a08793.html#a7f34521e8789a1e1dabb867ed82ff438", null ]
+    [ "ObjectUpdater", "d7/d17/a08793.html#ad907a266bcf4c059a49195eae4758541", null ],
+    [ "Visit", "d7/d17/a08793.html#a7dc639f90a38e6156a436ef6ff1204ec", null ],
+    [ "Visit", "d7/d17/a08793.html#a2ca08c1a3f3f23111bffbd423ca47b1c", null ],
+    [ "Visit", "d7/d17/a08793.html#a283b656ac784e64b98929eca83326027", null ],
+    [ "i_largeOnly", "d7/d17/a08793.html#a8f3e4ed206f6793edf9bf358d1bdf2c2", null ],
+    [ "i_timeDiff", "d7/d17/a08793.html#a4f1acae57c44d33449a8f040b02fa5e4", null ]
 ];

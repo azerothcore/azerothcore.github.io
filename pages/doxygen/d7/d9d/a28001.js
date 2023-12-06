@@ -1,8 +1,7 @@
 var a28001 =
 [
-    [ "CalculateAmount", "d7/d9d/a28001.html#aa1810db9a7b8fbc3572621ff35e0eeb1", null ],
-    [ "PrepareAuraScript", "d7/d9d/a28001.html#ad40d44271840b8e2bd1dc22b6a04290e", null ],
-    [ "ReflectDamage", "d7/d9d/a28001.html#ad8b5f9a7952fc33d7e1fee28e4872212", null ],
-    [ "Register", "d7/d9d/a28001.html#a18b19ee8823e2d1747caeefaf457ad8d", null ],
-    [ "Validate", "d7/d9d/a28001.html#af2936ba4a29fc8735a3cabe805c77355", null ]
+    [ "if", "d7/d9d/a28001.html#a2b5a85e480bcd0ef5074d3bcf7eaf5cb", null ],
+    [ "PrepareAuraScript", "d7/d9d/a28001.html#aa31810077c241e77193e378cb297b7de", null ],
+    [ "Register", "d7/d9d/a28001.html#a7b8f537719a4155d1cd95a6f49cf6a3a", null ],
+    [ "AuraEffectHandleModes", "d7/d9d/a28001.html#a3113d8e7ec296fdf13c8f386ae74e0f3", null ]
 ];

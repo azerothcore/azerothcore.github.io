@@ -1,9 +1,10 @@
 var a08661 =
 [
-    [ "InserterType", "db/dbc/a08661.html#a8ea29aedfb1eaf2b3eac29bc61849319", null ],
-    [ "ContainerInserter", "db/dbc/a08661.html#a44cd545e2965b309c48d40f4617bc38e", null ],
-    [ "Insert", "db/dbc/a08661.html#af482d9f7940d548193fc56839bc2cb87", null ],
-    [ "InserterOf", "db/dbc/a08661.html#a003318d4ec066ca45d79ec5b669cdb8c", null ],
-    [ "inserter", "db/dbc/a08661.html#ac10b2769f02687260efd531af666fbb3", null ],
-    [ "ref", "db/dbc/a08661.html#a60d4a9120523c28d8c408c981305535e", null ]
+    [ "PetLevelInfo", "db/dbc/a08661.html#ad8e757abeae500063e963ffef5469809", null ],
+    [ "armor", "db/dbc/a08661.html#ab7097f75cf86bd6f135f21dace61a89e", null ],
+    [ "health", "db/dbc/a08661.html#a322dcab3af8f98726aa6addf38e8891b", null ],
+    [ "mana", "db/dbc/a08661.html#a27352e73d6ed3945e398e0634dee1e96", null ],
+    [ "max_dmg", "db/dbc/a08661.html#a092f2600f64f2af885142b2e96d1fe64", null ],
+    [ "min_dmg", "db/dbc/a08661.html#a299d1c7f4c28893e09de79cd816afa95", null ],
+    [ "stats", "db/dbc/a08661.html#a897aabacdbe9cbc4afcc40ab059c12be", null ]
 ];

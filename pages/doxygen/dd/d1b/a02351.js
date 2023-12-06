@@ -1,5 +1,7 @@
 var a02351 =
 [
-    [ "lookup_commandscript", "df/d9b/a11157.html", "df/d9b/a11157" ],
-    [ "AddSC_lookup_commandscript", "dd/d1b/a02351.html#aae75b0f1415c6529e5837e3b27d054f6", null ]
+    [ "UpdateTime", "df/d0a/a11037.html", "df/d0a/a11037" ],
+    [ "WorldUpdateTime", "db/d3b/a11041.html", "db/d3b/a11041" ],
+    [ "AVG_DIFF_COUNT", "dd/d1b/a02351.html#ac09527fd6979f77130f2ef6be46850eb", null ],
+    [ "sWorldUpdateTime", "dd/d1b/a02351.html#a911ff49ac052e337a0927c080aec20b2", null ]
 ];

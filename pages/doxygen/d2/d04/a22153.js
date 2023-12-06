@@ -1,6 +1,6 @@
 var a22153 =
 [
-    [ "boss_yoggsaron_influence_tentacleAI", "d2/d04/a22153.html#ae7457ed8084888b1074a44dd9a7ed0c7", null ],
-    [ "DamageTaken", "d2/d04/a22153.html#ad46e93ffb89c9c3ee9bfbe0f27c7117c", null ],
-    [ "JustDied", "d2/d04/a22153.html#ab09c96d167b9502098b9a7a2fa1b82ec", null ]
+    [ "boss_yoggsaron_corruptor_tentacleAI", "dd/d54/a22157.html", "dd/d54/a22157" ],
+    [ "boss_yoggsaron_corruptor_tentacle", "d2/d04/a22153.html#a86fbf881f0a861124dda085347bb03bd", null ],
+    [ "GetAI", "d2/d04/a22153.html#a7325d6feaa12d74c030152ba3a0ab756", null ]
 ];

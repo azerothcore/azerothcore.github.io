@@ -1,6 +1,6 @@
 var a20745 =
 [
-    [ "npc_brann_bronzebeard_algalonAI", "d9/d25/a20749.html", "d9/d25/a20749" ],
-    [ "npc_brann_bronzebeard_algalon", "de/d89/a20745.html#a2760d42de8f78250ca5862bfcb23ed2e", null ],
-    [ "GetAI", "de/d89/a20745.html#ad8bc8bde865adcce1e9f6fd6234f1a0a", null ]
+    [ "iron_golem_custodianAI", "d9/d25/a20749.html", "d9/d25/a20749" ],
+    [ "iron_golem_custodian", "de/d89/a20745.html#adc11b755e193adbad757c21e5b15e063", null ],
+    [ "GetAI", "de/d89/a20745.html#a272e0c9fe475a665aa80a95f1e1d8629", null ]
 ];

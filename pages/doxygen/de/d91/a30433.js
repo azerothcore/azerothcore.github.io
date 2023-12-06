@@ -1,8 +1,10 @@
 var a30433 =
 [
-    [ "TileConfig", "de/d91/a30433.html#a67b10c747fb0d2bc2a263e5009d42e1b", null ],
-    [ "BASE_UNIT_DIM", "de/d91/a30433.html#a5a882b0595456ab3fcca85c80af3b6f8", null ],
-    [ "TILES_PER_MAP", "de/d91/a30433.html#ae3443f89a8a698823c91096abe51a6a9", null ],
-    [ "VERTEX_PER_MAP", "de/d91/a30433.html#a46640a80428b1ab93d65d593c03d13ed", null ],
-    [ "VERTEX_PER_TILE", "de/d91/a30433.html#ae0331739074e5546818e13527a76524a", null ]
+    [ "ADTFile", "de/d91/a30433.html#a763f0f9c1106700987797864b2fdb006", null ],
+    [ "~ADTFile", "de/d91/a30433.html#ad1533f5b630a70b6ff95861e64960de0", null ],
+    [ "init", "de/d91/a30433.html#ab9ba3b1a2aac611bec5bfe4a454e4042", null ],
+    [ "_file", "de/d91/a30433.html#a7f3071e63be08fe3288d5ab03b5b8acf", null ],
+    [ "Adtfilename", "de/d91/a30433.html#a07c82112e26b96a87e22f1c7bec9c72e", null ],
+    [ "ModelInstanceNames", "de/d91/a30433.html#a6601e20fed78c54bb281ad3bd0ce7800", null ],
+    [ "WmoInstanceNames", "de/d91/a30433.html#acd96c287a01828bf3e49fb599a3b5d81", null ]
 ];

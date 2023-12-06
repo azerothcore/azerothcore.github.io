@@ -1,6 +1,6 @@
 var a17105 =
 [
-    [ "spell_hor_shared_sufferingAuraScript", "d7/dee/a17109.html", "d7/dee/a17109" ],
-    [ "spell_hor_shared_suffering", "d1/d8a/a17105.html#a3f2e4fd6fd6f1d998e0f416c89421354", null ],
-    [ "GetAuraScript", "d1/d8a/a17105.html#a1005546188769336161ad8e572b6d5fe", null ]
+    [ "spell_shield_of_bones_AuraScript", "d7/dee/a17109.html", "d7/dee/a17109" ],
+    [ "spell_shield_of_bones", "d1/d8a/a17105.html#aaa87ad7c1b219372f8a49413c2171b4c", null ],
+    [ "GetAuraScript", "d1/d8a/a17105.html#ae0ab920db1fcf6deecc4ee7d98a37322", null ]
 ];

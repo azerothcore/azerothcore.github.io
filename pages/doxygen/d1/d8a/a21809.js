@@ -1,6 +1,6 @@
 var a21809 =
 [
-    [ "npc_ulduar_dark_rune_guardianAI", "dd/dee/a21813.html", "dd/dee/a21813" ],
-    [ "npc_ulduar_dark_rune_guardian", "d1/d8a/a21809.html#a6266dd5c096402b5383af09ac361a634", null ],
-    [ "GetAI", "d1/d8a/a21809.html#a9ed188491483548658ce682bf36e6fd2", null ]
+    [ "boss_razorscaleAI", "dd/dee/a21813.html", "dd/dee/a21813" ],
+    [ "boss_razorscale", "d1/d8a/a21809.html#ad8fe81f1b553414df3fa07c646029065", null ],
+    [ "GetAI", "d1/d8a/a21809.html#a01cf25d901a5eddae9ef3ea291020ba1", null ]
 ];

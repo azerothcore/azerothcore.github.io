@@ -1,7 +1,7 @@
 var a26993 =
 [
-    [ "HandleDummy", "d5/dfc/a26993.html#af5d0fc4e596c04c6ca3faf4079f6b602", null ],
-    [ "Load", "d5/dfc/a26993.html#a4098aa621012c5e3623ee905d2d2c8eb", null ],
-    [ "PrepareSpellScript", "d5/dfc/a26993.html#ad9d1823fa4302334419e6f9a01f0a728", null ],
-    [ "Register", "d5/dfc/a26993.html#a4d683270dc086454630475d39f0105e8", null ]
+    [ "HandleProc", "d5/dfc/a26993.html#ac88c41bcfcedd9194d9d3f958d605d37", null ],
+    [ "PrepareAuraScript", "d5/dfc/a26993.html#a66c3458e88ab5802e10445df3aeb52f6", null ],
+    [ "Register", "d5/dfc/a26993.html#af02b0af51a1fece0780414ab45c8d31e", null ],
+    [ "Validate", "d5/dfc/a26993.html#a9f955b53e5905cfb3742a58c8bedab96", null ]
 ];

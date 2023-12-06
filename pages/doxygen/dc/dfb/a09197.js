@@ -1,25 +1,5 @@
 var a09197 =
 [
-    [ "MailItemMap", "dc/dfb/a09197.html#afad4472f25a020fd6c8d6452840d021c", null ],
-    [ "MailDraft", "dc/dfb/a09197.html#a8a7a37890b6a280f2b08659e5e59b354", null ],
-    [ "MailDraft", "dc/dfb/a09197.html#adbadad7d9522146672759298c981f7db", null ],
-    [ "AddCOD", "dc/dfb/a09197.html#a8d863191bb48369359ad170aab7145e0", null ],
-    [ "AddItem", "dc/dfb/a09197.html#ae0c2b4bac4dd8f2a8c53608c45cbb11a", null ],
-    [ "AddMoney", "dc/dfb/a09197.html#a4d0be4ea780f25c5302278b5748b6a6b", null ],
-    [ "deleteIncludedItems", "dc/dfb/a09197.html#a0b5a445213d5fcc598ed016f1cbf2cf8", null ],
-    [ "GetBody", "dc/dfb/a09197.html#ae60b40718fffcdda286161e342d1738d", null ],
-    [ "GetCOD", "dc/dfb/a09197.html#a2b4d799ab7ec945b60c07747981ad0a5", null ],
-    [ "GetMailTemplateId", "dc/dfb/a09197.html#ab5906ccf0213f8be241fbb177fef53bd", null ],
-    [ "GetMoney", "dc/dfb/a09197.html#a461ee77c1d85b07513d5f453c8c8507a", null ],
-    [ "GetSubject", "dc/dfb/a09197.html#a671268ee9b384c5c8c954bb62b3a41a0", null ],
-    [ "prepareItems", "dc/dfb/a09197.html#ad6481e16a4dbe15b30a942278943c1d2", null ],
-    [ "SendMailTo", "dc/dfb/a09197.html#aaee8965aaa66351954bdc7db246151d7", null ],
-    [ "SendReturnToSender", "dc/dfb/a09197.html#ab57f00b07519984be8e0f3eb03955ee2", null ],
-    [ "m_body", "dc/dfb/a09197.html#aea4413d56053710844b37518596e7b38", null ],
-    [ "m_COD", "dc/dfb/a09197.html#a73472d56d74d215494975e6ce6580008", null ],
-    [ "m_items", "dc/dfb/a09197.html#a58eef2cacd7834941404a366afc52a9d", null ],
-    [ "m_mailTemplateId", "dc/dfb/a09197.html#a8a7997191ebeaebbdd78677c99409278", null ],
-    [ "m_mailTemplateItemsNeed", "dc/dfb/a09197.html#aa8fced0ed98a18667c9d9a55027e99e9", null ],
-    [ "m_money", "dc/dfb/a09197.html#a8915b8116364db1265eba0ce0d0471c2", null ],
-    [ "m_subject", "dc/dfb/a09197.html#aa71d5223f51ffe20c1bf0c91f567d6f8", null ]
+    [ "_Delay", "dc/dfb/a09197.html#a8c4024f5818f327f29b44a26892b89a1", null ],
+    [ "_Emote", "dc/dfb/a09197.html#a701c902af6f7f472511727bcc88ceeef", null ]
 ];

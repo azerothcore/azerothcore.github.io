@@ -1,6 +1,7 @@
 var a09297 =
 [
-    [ "AllowMount", "d4/d21/a09297.html#a611108f0c1f623bb0761a174e477df22", null ],
-    [ "Parent", "d4/d21/a09297.html#a6298c3dd0c8939b1cf228727c363918e", null ],
-    [ "ScriptId", "d4/d21/a09297.html#ac9cdaf7fc486bc89b5c5d95ac13146da", null ]
+    [ "QuestItem", "d4/d21/a09297.html#a1d6e1d5de83a397b17115dbeba2a58b3", null ],
+    [ "QuestItem", "d4/d21/a09297.html#a51b978ee64ec979ebe097f3b3f4c3cd0", null ],
+    [ "index", "d4/d21/a09297.html#a0e48289882a1eabb6c8ff30032193bd2", null ],
+    [ "is_looted", "d4/d21/a09297.html#a48f2baabd2d5a07313dc38a27c6f4713", null ]
 ];

@@ -1,6 +1,7 @@
 var a21473 =
 [
-    [ "spell_hodir_storm_cloud_AuraScript", "db/d08/a21477.html", "db/d08/a21477" ],
-    [ "spell_hodir_storm_cloud", "d6/dd0/a21473.html#ab62d421bbef4e1db1b84248bb4fb53ac", null ],
-    [ "GetAuraScript", "d6/dd0/a21473.html#a23f6a731b448e6fa1d39ceda3bfb1e04", null ]
+    [ "HandleEffectPeriodic", "d6/dd0/a21473.html#a7e3f9069043744aaa4178857eb2eeef5", null ],
+    [ "PrepareAuraScript", "d6/dd0/a21473.html#afa326d2ea866815911c096d3a7c41555", null ],
+    [ "Register", "d6/dd0/a21473.html#a8d551f5045fb1158e99b9904702ae6fa", null ],
+    [ "prev", "d6/dd0/a21473.html#a1b00b8f530c999a7b57b39caf552e706", null ]
 ];

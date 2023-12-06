@@ -1,6 +1,6 @@
 var a19137 =
 [
-    [ "CheckTargetCount", "df/d50/a19137.html#aed08a9a157d0f7c7c13ecabf9405475c", null ],
-    [ "PrepareSpellScript", "df/d50/a19137.html#a91a20a6c1d3403aa695e42df910ca11a", null ],
-    [ "Register", "df/d50/a19137.html#ac72384e8323280a8e027d2b7ad07d2ec", null ]
+    [ "spell_the_lich_king_life_siphon_SpellScript", "d9/d6d/a19141.html", "d9/d6d/a19141" ],
+    [ "spell_the_lich_king_life_siphon", "df/d50/a19137.html#a235183359e7808b4c59a2ae994aad4f6", null ],
+    [ "GetSpellScript", "df/d50/a19137.html#af0b5e576ca726c43568a340b5f0a26f7", null ]
 ];

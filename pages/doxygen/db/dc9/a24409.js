@@ -1,6 +1,6 @@
 var a24409 =
 [
-    [ "PrepareAuraScript", "db/dc9/a24409.html#a4d7b95b47101de1816471ae791d07c8f", null ],
-    [ "Register", "db/dc9/a24409.html#a9eaa8dbf0e49a730995612a97e4a2ad7", null ],
-    [ "Update", "db/dc9/a24409.html#a2c4f89bacab62cbe83c48a3d4381f198", null ]
+    [ "HandleScriptEffect", "db/dc9/a24409.html#a6a7b7e35a8a608acb86d605a577e42cc", null ],
+    [ "PrepareSpellScript", "db/dc9/a24409.html#acacef6d2ffea45de3ddd457c164efbec", null ],
+    [ "Register", "db/dc9/a24409.html#a32397f20a4fe8a2313dfcbd3f59d5d62", null ]
 ];

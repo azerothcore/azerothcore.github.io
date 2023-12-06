@@ -1,7 +1,7 @@
 var a15649 =
 [
-    [ "npc_toogaAI", "d0/d84/a15653.html", "d0/d84/a15653" ],
-    [ "npc_tooga", "d4/d8d/a15649.html#a6ea6a9e4dea1ab98475dae13680ceeaf", null ],
-    [ "GetAI", "d4/d8d/a15649.html#a7847577589f3bdc1c3ea5ee0f1f9232f", null ],
-    [ "OnQuestAccept", "d4/d8d/a15649.html#ac0fdcb3959c239d614b1cc7c66623c5d", null ]
+    [ "DelayedWindstoneSummonEvent", "d4/d8d/a15649.html#aa97daf8cf3479395ffd6558b6699436a", null ],
+    [ "Execute", "d4/d8d/a15649.html#aa413bc8709bc543b89ffb3df42185475", null ],
+    [ "_playerGUID", "d4/d8d/a15649.html#ad83bb6d87b569f59e99abcc16517745b", null ],
+    [ "_summon", "d4/d8d/a15649.html#af9804d276da5daebab3a37f2c75301ea", null ]
 ];

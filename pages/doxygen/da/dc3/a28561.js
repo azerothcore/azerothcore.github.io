@@ -1,6 +1,7 @@
 var a28561 =
 [
-    [ "FilterTargets", "da/dc3/a28561.html#a4a9762943ca9b0497bbe5d686cec185f", null ],
-    [ "PrepareSpellScript", "da/dc3/a28561.html#ad547ab3bfd0def222bd15d38fa3e3584", null ],
-    [ "Register", "da/dc3/a28561.html#ad8dea8bd199cde31ce9a44c08b4db950", null ]
+    [ "HandleRemove", "da/dc3/a28561.html#a0f5a3e4d75dbb5c699ea1acbf89db318", null ],
+    [ "PrepareAuraScript", "da/dc3/a28561.html#a9e153c86e29a17b0cc20c65c635aa070", null ],
+    [ "Register", "da/dc3/a28561.html#a338ee9c0eddd309ce2a791160059bad6", null ],
+    [ "Validate", "da/dc3/a28561.html#ae8272b65a070fc959af003f701567c3c", null ]
 ];

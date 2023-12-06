@@ -1,6 +1,5 @@
 var a21513 =
 [
-    [ "spell_hodir_starlight_AuraScript", "d2/de9/a21517.html", "d2/de9/a21517" ],
-    [ "spell_hodir_starlight", "db/ddd/a21513.html#a804c2664d2d0e1e68d94d338075c5721", null ],
-    [ "GetAuraScript", "db/ddd/a21513.html#aac7f9f737cd5146cc70902b856fa8581", null ]
+    [ "PrepareAuraScript", "db/ddd/a21513.html#a42d20c228c3082cf3a7b80dfebee232d", null ],
+    [ "Register", "db/ddd/a21513.html#a2eac056e9ccad15a9ba231dd635f41d3", null ]
 ];

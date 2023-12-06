@@ -1,6 +1,5 @@
 var a12801 =
 [
-    [ "instance_sunken_temple_InstanceMapScript", "dd/d14/a12805.html", "dd/d14/a12805" ],
-    [ "instance_sunken_temple", "d5/df6/a12801.html#a123b052c1cd1487588c88bf2611bc53b", null ],
-    [ "GetInstanceScript", "d5/df6/a12801.html#a1a783056b681f1f3b90e2e33e6a4a86d", null ]
+    [ "npc_apothecary_frye", "d5/df6/a12801.html#a5546099958a9a267d237e65720588456", null ],
+    [ "JustDied", "d5/df6/a12801.html#ab1dc310e90c591b44ce4d5bcf1bac930", null ]
 ];

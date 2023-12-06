@@ -1,9 +1,7 @@
 var a08777 =
 [
-    [ "NearestGameObjectTypeInObjectRangeCheck", "d9/d3e/a08777.html#a46cde63433cf803205006ad775fe73b5", null ],
-    [ "NearestGameObjectTypeInObjectRangeCheck", "d9/d3e/a08777.html#a4bf0dee77fb4979a02eebdc610995640", null ],
-    [ "operator()", "d9/d3e/a08777.html#ac41947606f4344e19edb13aa58f0a5a7", null ],
-    [ "i_obj", "d9/d3e/a08777.html#aca71a09421fdf412489f7f54cf4bc379", null ],
-    [ "i_range", "d9/d3e/a08777.html#a37f212d5cb1ef2b8d55e19b749861a17", null ],
-    [ "i_type", "d9/d3e/a08777.html#a68965425169b93053eadad91403855e0", null ]
+    [ "CreatureRelocationNotifier", "d9/d3e/a08777.html#aa144cd2c5b69351afd312084c0e97f0d", null ],
+    [ "Visit", "d9/d3e/a08777.html#aa69e9bd551895ca3497d1bfbe5fa79ba", null ],
+    [ "Visit", "d9/d3e/a08777.html#a8b346c55d80a8ed92afa2e1f591f5807", null ],
+    [ "i_creature", "d9/d3e/a08777.html#a3116f6245816ba8fb9edb5995faa9927", null ]
 ];

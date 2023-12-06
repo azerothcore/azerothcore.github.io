@@ -1,6 +1,6 @@
 var a17413 =
 [
-    [ "spell_pos_rimefang_frost_novaSpellScript", "da/dc5/a17417.html", "da/dc5/a17417" ],
-    [ "spell_pos_rimefang_frost_nova", "dc/d10/a17413.html#a150668643f4694799fd4fd90e8e3c897", null ],
-    [ "GetSpellScript", "dc/d10/a17413.html#accac6b93fc916cadd70a90327fcb11ca", null ]
+    [ "npc_pos_freed_slaveAI", "da/dc5/a17417.html", "da/dc5/a17417" ],
+    [ "npc_pos_freed_slave", "dc/d10/a17413.html#a19fd79279646cb1c49c04056636615fc", null ],
+    [ "GetAI", "dc/d10/a17413.html#ac798c2584d48892162cc2bc779701e16", null ]
 ];

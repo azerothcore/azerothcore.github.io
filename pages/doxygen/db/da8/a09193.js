@@ -1,10 +1,9 @@
 var a09193 =
 [
-    [ "MailReceiver", "db/da8/a09193.html#a6fba3ff0ab3167197f569631d766ce14", null ],
-    [ "MailReceiver", "db/da8/a09193.html#af0b094a704463ed76b1c08bc3cab0380", null ],
-    [ "MailReceiver", "db/da8/a09193.html#a9f69a0951c2b9d9152685632c744cf4e", null ],
-    [ "GetPlayer", "db/da8/a09193.html#a0113e33ef82e9f3112f8cd5793581a36", null ],
-    [ "GetPlayerGUIDLow", "db/da8/a09193.html#a0e29fba37b58c7bc92065b0221b8e31e", null ],
-    [ "m_receiver", "db/da8/a09193.html#a377b896e1dc7a0e89440efbc2b811ae7", null ],
-    [ "m_receiver_lowguid", "db/da8/a09193.html#a46b62a2b8dd0ebac981e0a1752e88743", null ]
+    [ "EmoteChatBuilder", "db/da8/a09193.html#ae1aeb36aad24d5ef28074edfbf2f9e7e", null ],
+    [ "operator()", "db/da8/a09193.html#a133a7bb35e86cf40425910c4f19a3337", null ],
+    [ "i_emote_num", "db/da8/a09193.html#a966b8afcbf5afca3a3466d8e075a9437", null ],
+    [ "i_player", "db/da8/a09193.html#ae09dbfe01b2a24e57b63b2b1df5ad232", null ],
+    [ "i_target", "db/da8/a09193.html#abc538e056d91ea1ee8d6203c96174b1d", null ],
+    [ "i_text_emote", "db/da8/a09193.html#add0630dc3fc76fb4fdb79095e13b2fc0", null ]
 ];

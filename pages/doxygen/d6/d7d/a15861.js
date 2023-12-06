@@ -1,17 +1,19 @@
 var a15861 =
 [
-    [ "boss_volazj", "d6/d7d/a15861.html#ac1f0bc7b55a554d29e55a376680bf747", null ],
-    [ "CheckPhaseMinions", "d6/d7d/a15861.html#aa79bf97b6772956795bd2f16b85e061f", null ],
-    [ "DamageTaken", "d6/d7d/a15861.html#a494d78875526d878421b995145b74a12", null ],
-    [ "GetPlrInsanityAuraId", "d6/d7d/a15861.html#a5b6936cedb3fc411ae58f3dc3f6b689a", null ],
-    [ "InitializeAI", "d6/d7d/a15861.html#a9480c4294b18c5417895e5070be9a455", null ],
-    [ "JustDied", "d6/d7d/a15861.html#a6c85c56c2483c3e8b4de67b94a45e0a6", null ],
-    [ "JustEngagedWith", "d6/d7d/a15861.html#a135c5606742474e77ffd0ee0a3c3ee69", null ],
-    [ "KilledUnit", "d6/d7d/a15861.html#abdf2cb95f0d3d7756584c338f2e2db25", null ],
-    [ "Reset", "d6/d7d/a15861.html#a0377375b89b02db3cae01390fdd13ee2", null ],
-    [ "ResetPlayersPhaseMask", "d6/d7d/a15861.html#afbfa62f2b72a95434348f74fdda46da6", null ],
-    [ "SetData", "d6/d7d/a15861.html#aa8b5ae6214f0c764f15b096876d614d7", null ],
-    [ "UpdateAI", "d6/d7d/a15861.html#aceac85fb06c81ccd171b024ad0d57ffe", null ],
-    [ "insanityPhase", "d6/d7d/a15861.html#ae90de1e956eb3653c8c2f0c04d89585b", null ],
-    [ "insanityTimes", "d6/d7d/a15861.html#a7d2693147f9cb20a45ff2e5b6a2ca209", null ]
+    [ "npc_weegli_blastfuseAI", "d6/d7d/a15861.html#acde6b3e037d3c297e5d1beccdbe3d03a", null ],
+    [ "AttackStart", "d6/d7d/a15861.html#a5e9140b38021ed6a2808e026fd77f8f1", null ],
+    [ "DestroyDoor", "d6/d7d/a15861.html#a0cf76693b1af179c9857abdccc6931ee", null ],
+    [ "InitializeAI", "d6/d7d/a15861.html#a61490f8c63f8056ac9f145ed8dd789c7", null ],
+    [ "JustReachedHome", "d6/d7d/a15861.html#a4a88bc4bff8b5b2f75e3dd0c25927815", null ],
+    [ "MovementInform", "d6/d7d/a15861.html#a33470a45eba0cbb62b041010f6aed302", null ],
+    [ "Reset", "d6/d7d/a15861.html#abec9f353a1430afae12c21273bf32197", null ],
+    [ "sGossipHello", "d6/d7d/a15861.html#a3a8381fa5e5d4daf19f312166247bea5", null ],
+    [ "sGossipSelect", "d6/d7d/a15861.html#a0927116dcc55a1107dce7c65d1295e2a", null ],
+    [ "UpdateAI", "d6/d7d/a15861.html#a73e482ebbb1566738e6775a574500dc8", null ],
+    [ "Bomb_Timer", "d6/d7d/a15861.html#af6f68e291ce7d8cf25105ac64d7eebff", null ],
+    [ "destroyingDoor", "d6/d7d/a15861.html#a0c7f207666da8ad74ff9dc64b582a042", null ],
+    [ "instance", "d6/d7d/a15861.html#a609616e5136cf11bc16f9bb30ba92879", null ],
+    [ "LandMine_Timer", "d6/d7d/a15861.html#ad9bab1d2c7a2baf35f6f7fb2cb4a27c7", null ],
+    [ "outroStage", "d6/d7d/a15861.html#a30cdbce7bddb4d1d221925de86329a41", null ],
+    [ "outroTimer", "d6/d7d/a15861.html#a08ef419fbef2ec38b7bcd408f135cd29", null ]
 ];

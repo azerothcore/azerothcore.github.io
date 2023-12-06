@@ -1,11 +1,12 @@
 var a11133 =
 [
-    [ "instance_commandscript", "d0/d2b/a11133.html#a4d0b308b35a1aa21c66c8bd406ffa82f", null ],
-    [ "GetCommands", "d0/d2b/a11133.html#a092d62969c835f6bf2a08ca3e05f04d5", null ],
-    [ "HandleInstanceGetBossStateCommand", "d0/d2b/a11133.html#a1435d100be4cdbe146c30f96be2ec66d", null ],
-    [ "HandleInstanceListBindsCommand", "d0/d2b/a11133.html#abf42411f9c78ce59b21b34691e3d4233", null ],
-    [ "HandleInstanceSaveDataCommand", "d0/d2b/a11133.html#a4b494a8b1de470612436fbb9fa433416", null ],
-    [ "HandleInstanceSetBossStateCommand", "d0/d2b/a11133.html#aec65b5af811eae2cbcf17571e9d1473b", null ],
-    [ "HandleInstanceStatsCommand", "d0/d2b/a11133.html#a9547a0a88a3bcd7407c449f3f2f25f44", null ],
-    [ "HandleInstanceUnbindCommand", "d0/d2b/a11133.html#a7abbe257b10632f2acbdd838e1f073a9", null ]
+    [ "WardenMac", "d0/d2b/a11133.html#a576c0cf7a819e95c97cc0ac4e5962d6d", null ],
+    [ "~WardenMac", "d0/d2b/a11133.html#a5f3832580c73a0af34fa83669a92ceab", null ],
+    [ "GetModuleForClient", "d0/d2b/a11133.html#a7a31b72ea7362c70f0fc9ff6e316d80b", null ],
+    [ "HandleData", "d0/d2b/a11133.html#a024be47d39641cb0e7654b0e0999e444", null ],
+    [ "HandleHashResult", "d0/d2b/a11133.html#a7feb3f82b2e0efd8427d6d8bcabaf17c", null ],
+    [ "Init", "d0/d2b/a11133.html#ae329d60e41b9f5af2a2c7e4983936eac", null ],
+    [ "InitializeModule", "d0/d2b/a11133.html#a4fceef34e83db1a357d9eadce35efdef", null ],
+    [ "RequestChecks", "d0/d2b/a11133.html#a2437a3a5650305b05fc22d312d0006da", null ],
+    [ "RequestHash", "d0/d2b/a11133.html#af031f18554c5a96b4eb39371a92b9c51", null ]
 ];

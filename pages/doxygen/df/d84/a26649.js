@@ -1,8 +1,7 @@
 var a26649 =
 [
-    [ "AfterApply", "df/d84/a26649.html#a4d2941ebb326d603ac08f428f811c29b", null ],
-    [ "AfterRemove", "df/d84/a26649.html#ac1e50413041edbecd5cc4189a1121cb5", null ],
-    [ "PrepareAuraScript", "df/d84/a26649.html#afa99d3e45e4a54c41b59ec317ffdd9b9", null ],
-    [ "Register", "df/d84/a26649.html#a78e30a950b9fc08dff5072028816b8b4", null ],
-    [ "Validate", "df/d84/a26649.html#ac3502abb9d6ef213ffd2413eba7916b2", null ]
+    [ "CheckRequirement", "df/d84/a26649.html#a6be5f335a15226db87a04548490f488d", null ],
+    [ "PrepareSpellScript", "df/d84/a26649.html#a25463eda0ce51a124e8715baf305c8f6", null ],
+    [ "Register", "df/d84/a26649.html#a8db5a5597d8f6fe4064799766fb61502", null ],
+    [ "_level", "df/d84/a26649.html#a3d6867e8eae9afde2b03acc2e6ebe961", null ]
 ];

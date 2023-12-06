@@ -1,6 +1,6 @@
 var a21549 =
 [
-    [ "HandleScript", "d4/d6d/a21549.html#a4ada0292071501626c82145a9af95223", null ],
-    [ "PrepareSpellScript", "d4/d6d/a21549.html#a1fee32a9441d630940fb14da3c4eb98c", null ],
-    [ "Register", "d4/d6d/a21549.html#a584ab85a82281207e14fbd32ddddfbf1", null ]
+    [ "spell_hodir_starlight_AuraScript", "d3/d32/a21553.html", "d3/d32/a21553" ],
+    [ "spell_hodir_starlight", "d4/d6d/a21549.html#a804c2664d2d0e1e68d94d338075c5721", null ],
+    [ "GetAuraScript", "d4/d6d/a21549.html#aac7f9f737cd5146cc70902b856fa8581", null ]
 ];

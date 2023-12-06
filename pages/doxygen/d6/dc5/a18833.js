@@ -1,6 +1,6 @@
 var a18833 =
 [
-    [ "OrderWhelpTargetSelector", "d6/dc5/a18833.html#a5e433367ebbf88c6bb8fef9d43eafcfa", null ],
-    [ "operator()", "d6/dc5/a18833.html#abf98b730a2b794012c28b61ab8bb6b6c", null ],
-    [ "_owner", "d6/dc5/a18833.html#ae475da3cca3d6288ce7df0b84d59005e", null ]
+    [ "npc_spinestalkerAI", "d8/da7/a18837.html", "d8/da7/a18837" ],
+    [ "npc_spinestalker", "d6/dc5/a18833.html#a477f951c79045d553901b1e6b6ad2d4f", null ],
+    [ "GetAI", "d6/dc5/a18833.html#a725f1b1db90d700772bfb76e0f85f1f3", null ]
 ];

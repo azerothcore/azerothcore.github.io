@@ -1,6 +1,6 @@
 var a17421 =
 [
-    [ "spell_pos_blightAuraScript", "d0/d44/a17425.html", "d0/d44/a17425" ],
-    [ "spell_pos_blight", "d9/d3d/a17421.html#aa972b4d257e2586f1163571a594c28b0", null ],
-    [ "GetAuraScript", "d9/d3d/a17421.html#ac9e84ec46902207703d8e2dbd4ff6503", null ]
+    [ "npc_pos_leader_secondAI", "d0/d44/a17425.html", "d0/d44/a17425" ],
+    [ "npc_pos_leader_second", "d9/d3d/a17421.html#ac4758674cc97eae0937264fa028e6da5", null ],
+    [ "GetAI", "d9/d3d/a17421.html#ac403cfc86247990d78c9cf4179df8b87", null ]
 ];

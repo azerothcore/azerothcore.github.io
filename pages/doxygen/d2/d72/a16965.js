@@ -1,6 +1,6 @@
 var a16965 =
 [
-    [ "instance_drak_tharon_keep_InstanceScript", "de/d10/a16969.html", "de/d10/a16969" ],
-    [ "instance_drak_tharon_keep", "d2/d72/a16965.html#a1f375185dba1619fee36160549eb91f4", null ],
-    [ "GetInstanceScript", "d2/d72/a16965.html#aca6364452dc39e747af152695d479bf8", null ]
+    [ "boss_trollgoreAI", "de/d10/a16969.html", "de/d10/a16969" ],
+    [ "boss_trollgore", "d2/d72/a16965.html#a95102f1fae6c667e0780b8b388fc156b", null ],
+    [ "GetAI", "d2/d72/a16965.html#a6da1349da296a3dc3d29527a8e3c2b7d", null ]
 ];

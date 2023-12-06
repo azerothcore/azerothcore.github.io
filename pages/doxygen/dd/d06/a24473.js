@@ -1,6 +1,8 @@
 var a24473 =
 [
-    [ "boss_essence_of_angerAI", "dc/d93/a24477.html", "dc/d93/a24477" ],
-    [ "boss_essence_of_anger", "dd/d06/a24473.html#adf8151d1fbb4a258f174c4bdb8410cd6", null ],
-    [ "GetAI", "dd/d06/a24473.html#a70a460f31b7f878e532b695ca822ab5d", null ]
+    [ "FilterTargets", "dd/d06/a24473.html#acb326101969ede6b41b2deb995769550", null ],
+    [ "HandleTeleportUnits", "dd/d06/a24473.html#ab2b266f53c83421e7f54fb01bb8aba04", null ],
+    [ "PrepareSpellScript", "dd/d06/a24473.html#a8fc8bfb34758821fffa0eeb625f00de8", null ],
+    [ "Register", "dd/d06/a24473.html#af0f66436b6d108e837abe5be4507d052", null ],
+    [ "SetDest", "dd/d06/a24473.html#a1451ef6f8a16c4dcc4ebba48819c25a6", null ]
 ];

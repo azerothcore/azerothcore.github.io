@@ -1,7 +1,7 @@
 var a17817 =
 [
-    [ "achievement_once_bitten_twice_shy", "d2/dbd/a17817.html#ac5799e847f8ee1e2b562e4a58a00df16", null ],
-    [ "OnCheck", "d2/dbd/a17817.html#aa2e3ac3e8a14b06446174e475ac18af3", null ],
-    [ "_spawnMode", "d2/dbd/a17817.html#a6f02f5ab07143ddff553279049714902", null ],
-    [ "_wasVampire", "d2/dbd/a17817.html#a297cf6da45b0cddb4dc9fc888919bdda", null ]
+    [ "OnApply", "d2/dbd/a17817.html#ac8b9ba8782c26cf9db9f4e878e37a8ce", null ],
+    [ "OnRemove", "d2/dbd/a17817.html#abbadaa94095ce6ab9626227950f4377f", null ],
+    [ "PrepareAuraScript", "d2/dbd/a17817.html#a51ba62ba76b53667559114fd19fedc46", null ],
+    [ "Register", "d2/dbd/a17817.html#a7711deedd0b4b0ee4db4a75959089186", null ]
 ];

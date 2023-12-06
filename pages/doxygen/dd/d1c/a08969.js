@@ -1,21 +1,10 @@
 var a08969 =
 [
-    [ "PlayerVote", "dd/d1c/a08969.html#a9b86264db334335ec202909fc7130b77", null ],
-    [ "Roll", "dd/d1c/a08969.html#abffce9339088167e812f51481c336bf7", null ],
-    [ "~Roll", "dd/d1c/a08969.html#a843879734a9c86a97d7f26b672f37f2a", null ],
-    [ "getLoot", "dd/d1c/a08969.html#af0c8c87b3fa9cd45cf51e774123d3b58", null ],
-    [ "setLoot", "dd/d1c/a08969.html#a34869ee15d87708859cd51262ad160fc", null ],
-    [ "targetObjectBuildLink", "dd/d1c/a08969.html#a2dc422a05158521f857caf7dce005f72", null ],
-    [ "itemCount", "dd/d1c/a08969.html#a7c98449785629933a0e5e8bee7deb272", null ],
-    [ "itemGUID", "dd/d1c/a08969.html#af4877388e7efe95452541a3d2788fa7f", null ],
-    [ "itemid", "dd/d1c/a08969.html#a7b40118e2d489177a268301636b9994f", null ],
-    [ "itemRandomPropId", "dd/d1c/a08969.html#a5154a19624a6e0d9657a697f9b235491", null ],
-    [ "itemRandomSuffix", "dd/d1c/a08969.html#acfd3e2d5fb152a9848e6e4fe47111bad", null ],
-    [ "itemSlot", "dd/d1c/a08969.html#a6e170a8296949cd76baa7992f30a61d6", null ],
-    [ "playerVote", "dd/d1c/a08969.html#aff97626c4d749bf0acbd165f289b5a57", null ],
-    [ "rollVoteMask", "dd/d1c/a08969.html#a9c86d54397c4ce46d691e77cc476ffe6", null ],
-    [ "totalGreed", "dd/d1c/a08969.html#a6187dd03a275f9e51d489709c9cf6d13", null ],
-    [ "totalNeed", "dd/d1c/a08969.html#ae02ba19cfd317143e839cd4a3751a3eb", null ],
-    [ "totalPass", "dd/d1c/a08969.html#aeeac3fb83c410a3d256c0cbf45f48e95", null ],
-    [ "totalPlayersRolling", "dd/d1c/a08969.html#a6a6ea6885bc68272520c018a83b2106f", null ]
+    [ "AnyAoETargetUnitInObjectRangeCheck", "dd/d1c/a08969.html#a93d850e2d5f094b97ca5c09bf1d236a9", null ],
+    [ "operator()", "dd/d1c/a08969.html#af9a0c32593544a73aae22cd397eef63a", null ],
+    [ "_spellInfo", "dd/d1c/a08969.html#a1317c9df0d5792ad3122ff1ed1a31458", null ],
+    [ "i_funit", "dd/d1c/a08969.html#aa00b184a24ea73293114f92126f58f24", null ],
+    [ "i_obj", "dd/d1c/a08969.html#aa4acf0089c978408e30b08d539f2512f", null ],
+    [ "i_range", "dd/d1c/a08969.html#ad386efa8206906fd99816694a6a8d69b", null ],
+    [ "i_targetForPlayer", "dd/d1c/a08969.html#af5ce329f3493b97f59c61c3e87af48b1", null ]
 ];

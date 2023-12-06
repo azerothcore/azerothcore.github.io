@@ -1,6 +1,6 @@
 var a13561 =
 [
-    [ "npc_andorhal_towerAI", "db/d01/a13565.html", "db/d01/a13565" ],
-    [ "npc_andorhal_tower", "d6/df5/a13561.html#abf63419b6c10af47f5e5df1a4e7320e7", null ],
-    [ "GetAI", "d6/df5/a13561.html#a51139c28da736d26bf27a061862d24ee", null ]
+    [ "npc_highborne_lamenterAI", "db/d01/a13565.html", "db/d01/a13565" ],
+    [ "npc_highborne_lamenter", "d6/df5/a13561.html#a40316cf73a688e34e95dd41feef8612a", null ],
+    [ "GetAI", "d6/df5/a13561.html#aad8ccb43b325b797f60a16e338458a1e", null ]
 ];

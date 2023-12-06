@@ -1,6 +1,6 @@
 var a24713 =
 [
-    [ "PrepareAuraScript", "dd/d9b/a24713.html#a3f56591966cf19946d3b9dd063c1f196", null ],
-    [ "ReflectDamage", "dd/d9b/a24713.html#a8de503620fafc1f29f9e022b09dedae8", null ],
-    [ "Register", "dd/d9b/a24713.html#ac20a31b08d6e7f1884030ca292e7e023", null ]
+    [ "HandleScriptEffect", "dd/d9b/a24713.html#ac0d401f0930d936ef33c81591d833e2a", null ],
+    [ "PrepareSpellScript", "dd/d9b/a24713.html#a81563f381e6efcfdfdb963d96be17186", null ],
+    [ "Register", "dd/d9b/a24713.html#a137ca0652b8f00c75064d618cfc69ab4", null ]
 ];

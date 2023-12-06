@@ -1,11 +1,10 @@
 var a29265 =
 [
-    [ "npc_franklinAI", "d7/dcf/a29265.html#a8385d2e39f2d051553cf84a54f3bc5ad", null ],
-    [ "DamageTaken", "d7/dcf/a29265.html#afa494098126ce3291e234cfc2b36336f", null ],
-    [ "JustEngagedWith", "d7/dcf/a29265.html#ab15fc7bcd912a6c583d4c219ba37c756", null ],
-    [ "Reset", "d7/dcf/a29265.html#a51a260460facf06ec6bb1486f434d885", null ],
-    [ "ScheduleEncounterStart", "d7/dcf/a29265.html#a2dcd6d0467eada6bd0d244e275c07d22", null ],
-    [ "SpellHit", "d7/dcf/a29265.html#aed6b5cfccbbe258f501b2da5c9dadb40", null ],
-    [ "UpdateAI", "d7/dcf/a29265.html#a8c3158b1e6c482dd82a6326954b8bbc5", null ],
-    [ "events", "d7/dcf/a29265.html#a2f72f9659aa62f80c5d8159df0d14e9f", null ]
+    [ "npc_training_dummyAI", "d7/dcf/a29265.html#a2f10fd0b4365e99446f728883a47eb6a", null ],
+    [ "DamageTaken", "d7/dcf/a29265.html#a641c40906a6365f068ccbdba9d033923", null ],
+    [ "EnterEvadeMode", "d7/dcf/a29265.html#adb1de124bdb2a986efcfcfc287b6d824", null ],
+    [ "MoveInLineOfSight", "d7/dcf/a29265.html#a52f3516e9da6895eeddcdef7a198a6b1", null ],
+    [ "Reset", "d7/dcf/a29265.html#af63f500cb3179964c90afab0d4a2c9b7", null ],
+    [ "UpdateAI", "d7/dcf/a29265.html#a5e7892a64cd1a5cf678b401b62497bfb", null ],
+    [ "resetTimer", "d7/dcf/a29265.html#a443f2f7de257af473d6e9793f34a2071", null ]
 ];

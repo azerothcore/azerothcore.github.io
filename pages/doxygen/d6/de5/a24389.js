@@ -1,6 +1,6 @@
 var a24389 =
 [
-    [ "boss_shahrazAI", "d4/d1c/a24393.html", "d4/d1c/a24393" ],
-    [ "boss_mother_shahraz", "d6/de5/a24389.html#a05ff927e032bf11061d0271ccd5e0709", null ],
-    [ "GetAI", "d6/de5/a24389.html#a83e20ce8a6acb7caa3877ee71a035e36", null ]
+    [ "spell_illidan_demon_transform1_AuraScript", "d4/d1c/a24393.html", "d4/d1c/a24393" ],
+    [ "spell_illidan_demon_transform1", "d6/de5/a24389.html#a56bd918af65b405f96b72a65e0c6390a", null ],
+    [ "GetAuraScript", "d6/de5/a24389.html#a054e7f78301dfc8c1257c0a8690d71e3", null ]
 ];

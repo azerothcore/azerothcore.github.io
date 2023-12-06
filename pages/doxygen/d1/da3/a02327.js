@@ -1,5 +1,6 @@
 var a02327 =
 [
-    [ "guild_commandscript", "de/d7a/a11125.html", "de/d7a/a11125" ],
-    [ "AddSC_guild_commandscript", "d1/da3/a02327.html#af4f585942ab79df7bff025b621beef86", null ]
+    [ "Acore::BroadcastTextBuilder", "dc/d81/a10989.html", "dc/d81/a10989" ],
+    [ "Acore::CustomChatTextBuilder", "d3/dd7/a10993.html", "d3/dd7/a10993" ],
+    [ "Acore::AcoreStringChatBuilder", "dc/d65/a10997.html", "dc/d65/a10997" ]
 ];

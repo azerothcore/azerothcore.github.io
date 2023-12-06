@@ -1,6 +1,6 @@
 var a13133 =
 [
-    [ "spell_kiljaeden_armageddon_periodic_AuraScript", "d3/d95/a13137.html", "d3/d95/a13137" ],
-    [ "spell_kiljaeden_armageddon_periodic", "d0/d5f/a13133.html#a986f3cf8d068ebb53692d11f1bbff1b2", null ],
-    [ "GetAuraScript", "d0/d5f/a13133.html#a4e1cfaed9ee4806bd023131062eff6c3", null ]
+    [ "boss_kiljaedenAI", "d3/d95/a13137.html", "d3/d95/a13137" ],
+    [ "boss_kiljaeden", "d0/d5f/a13133.html#a39d7df3ec03957037cf506561ba01edf", null ],
+    [ "GetAI", "d0/d5f/a13133.html#ada2fb5c89ef8d27b07f131a828aae276", null ]
 ];

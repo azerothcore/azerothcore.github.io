@@ -1,8 +1,12 @@
 var a24985 =
 [
-    [ "spell_leotheras_insidious_whisper_AuraScript", "d8/d85/a24993.html", "d8/d85/a24993" ],
-    [ "spell_leotheras_insidious_whisper_SpellScript", "d7/dc6/a24989.html", "d7/dc6/a24989" ],
-    [ "spell_leotheras_insidious_whisper", "d0/d2f/a24985.html#a51e05bd3ab0e3d7fb691d8b8bb9b0967", null ],
-    [ "GetAuraScript", "d0/d2f/a24985.html#a22c21f128fd0ac4a379a689692976094", null ],
-    [ "GetSpellScript", "d0/d2f/a24985.html#aacb3d4cfc090722f0ec7d2f0e914935d", null ]
+    [ "instance_serpentshrine_cavern_InstanceMapScript", "d0/d2f/a24985.html#a3e83985648f2951ee33d440c9c98bf72", null ],
+    [ "GetData", "d0/d2f/a24985.html#a9ea722d45efe2ee4eff041e480ff1c79", null ],
+    [ "Initialize", "d0/d2f/a24985.html#a8a2214e169acace8578c1863daf0a04c", null ],
+    [ "OnCreatureCreate", "d0/d2f/a24985.html#ae5f77169c337420852962fe7ddba3006", null ],
+    [ "OnGameObjectCreate", "d0/d2f/a24985.html#a9aeb7b25aa1446fff655b4c8fd6c47ad", null ],
+    [ "SetBossState", "d0/d2f/a24985.html#ad2863bc954ae25a5d96d06db0250cda3", null ],
+    [ "SetData", "d0/d2f/a24985.html#af3ca65eef9902a029f5b836d0b6fd58a", null ],
+    [ "AliveKeepersCount", "d0/d2f/a24985.html#ad87ce23dad57eab52a474c233f70c811", null ],
+    [ "ShieldGeneratorGUID", "d0/d2f/a24985.html#a3b29c6a5ace5a9e0b83205381ae4701e", null ]
 ];

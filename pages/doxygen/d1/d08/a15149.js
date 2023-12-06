@@ -1,7 +1,9 @@
 var a15149 =
 [
-    [ "npc_sartura_royal_guard", "d1/d08/a15149.html#a3ce2aeec4e5f26916ef50bdeea624c9d", null ],
-    [ "JustEngagedWith", "d1/d08/a15149.html#a0b162e1fcc925f65fedbfe235b59eb0e", null ],
-    [ "Reset", "d1/d08/a15149.html#a2b604aada12ca7f3e712cdbd1a3f397a", null ],
-    [ "UpdateAI", "d1/d08/a15149.html#a2ed50f65847133c897facecbaa4711d8", null ]
+    [ "npc_claw_tentacle", "d1/d08/a15149.html#a10f1c68d5f49dd1614e7e939498db37b", null ],
+    [ "JustDied", "d1/d08/a15149.html#aa566b417d1b766668133dd1d6a58293f", null ],
+    [ "JustEngagedWith", "d1/d08/a15149.html#a9fbe9b30f973d3c8509ab4bbfcfe5bcc", null ],
+    [ "Reset", "d1/d08/a15149.html#aaf3a3380a33aadc2023d192dfa85cfb2", null ],
+    [ "UpdateAI", "d1/d08/a15149.html#ae7d521445680167add653717c7ae4c86", null ],
+    [ "_portalGUID", "d1/d08/a15149.html#ab979781a8f77267348595cfa17341bae", null ]
 ];

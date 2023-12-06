@@ -1,6 +1,6 @@
 var a23941 =
 [
-    [ "PrepareSpellScript", "de/d43/a23941.html#ad80665c68b78f5ae8bf54520f2a2cffb", null ],
-    [ "RecalculateDamage", "de/d43/a23941.html#ac9c02759adc50dab119bbad191a9562e", null ],
-    [ "Register", "de/d43/a23941.html#a584245a0e511f5d419177aaccf37a501", null ]
+    [ "spell_wintergrasp_create_vehicle_SpellScript", "d7/d58/a23945.html", "d7/d58/a23945" ],
+    [ "spell_wintergrasp_create_vehicle", "de/d43/a23941.html#a44c73389a55fba82dee732ffc7a637ce", null ],
+    [ "GetSpellScript", "de/d43/a23941.html#a024245eac0ebec6eb3b1098a28111483", null ]
 ];

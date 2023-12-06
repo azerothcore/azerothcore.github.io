@@ -1,10 +1,12 @@
 var a05421 =
 [
-    [ "Alias", "d2/d1d/a05421.html#ac885c365760ade7b0c74e5fead82a210", null ],
-    [ "Index", "d2/d1d/a05421.html#ad841e71a9394fc114a35f0234ef581b6", null ],
-    [ "Name", "d2/d1d/a05421.html#af8b9f87733157401cff6b0846a545fa4", null ],
-    [ "TableAlias", "d2/d1d/a05421.html#aa9ca2448829defe395b479a9a4ca3c3e", null ],
-    [ "TableName", "d2/d1d/a05421.html#ada6594cc2aa67c8d34bdb45e757fda8c", null ],
-    [ "Type", "d2/d1d/a05421.html#a76dec8aee42dce6698e4fda0ee1e3eba", null ],
-    [ "TypeName", "d2/d1d/a05421.html#aba1b90e43c4f4c545f76568cae86ad43", null ]
+    [ "Clear", "d2/d1d/a05421.html#adc64d35670bf0d41519cb9998d3db17e", null ],
+    [ "First", "d2/d1d/a05421.html#a8bbd41b304f7e69df565af75f4846bda", null ],
+    [ "IsEmpty", "d2/d1d/a05421.html#a151898f14e9a1628ddb52b6840fcc4fc", null ],
+    [ "IsGroupQueued", "d2/d1d/a05421.html#ada8edd51338da19db3f282ccc6229516", null ],
+    [ "ModifyIf", "d2/d1d/a05421.html#a0ad5b4de404b1f8312341a28a1a58b5b", null ],
+    [ "Pop", "d2/d1d/a05421.html#a5f5d6b5a4a5e4ec93ff94619485736cb", null ],
+    [ "Push", "d2/d1d/a05421.html#aff6bc8c7fae6640b555ddb027cf0f6ab", null ],
+    [ "RemoveIf", "d2/d1d/a05421.html#a6efe3145679913fde4d4cc1f8cc819e6", null ],
+    [ "container", "d2/d1d/a05421.html#acc56bddf7e586a3a950f608efb730498", null ]
 ];

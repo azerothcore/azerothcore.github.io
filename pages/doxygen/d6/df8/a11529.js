@@ -1,6 +1,6 @@
 var a11529 =
 [
-    [ "boss_overlordwyrmthalakAI", "dd/de2/a11533.html", "dd/de2/a11533" ],
-    [ "boss_overlord_wyrmthalak", "d6/df8/a11529.html#a2af6edf776c189d43cb82cc35bb838fe", null ],
-    [ "GetAI", "d6/df8/a11529.html#a56de538f25cbabc9346b987dbfe680a1", null ]
+    [ "boss_grizzleAI", "dd/de2/a11533.html", "dd/de2/a11533" ],
+    [ "boss_grizzle", "d6/df8/a11529.html#a6c9913cec9503a86e2f5358f65b97b26", null ],
+    [ "GetAI", "d6/df8/a11529.html#aa0bf6c89f13fbd20695ebb7ce965b0f5", null ]
 ];

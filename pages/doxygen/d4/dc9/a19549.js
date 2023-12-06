@@ -1,7 +1,6 @@
 var a19549 =
 [
-    [ "OnApply", "d4/dc9/a19549.html#a7061413afb54ebdf6c7aa8cc0c28f157", null ],
-    [ "OnRemove", "d4/dc9/a19549.html#a0e86241e7664c649400e68d76e90524c", null ],
-    [ "PrepareAuraScript", "d4/dc9/a19549.html#a4667e0212f438ab780c1a5fbc89be6e2", null ],
-    [ "Register", "d4/dc9/a19549.html#acffd883551560166b46618284bec513c", null ]
+    [ "npc_captain_rupertAI", "d4/dc9/a19549.html#ae91de64c440e71e612f34e37b90076d5", null ],
+    [ "Reset", "d4/dc9/a19549.html#a8ebaca725aba2c3aed8856fb23228ae1", null ],
+    [ "UpdateAI", "d4/dc9/a19549.html#a2edf4e51c9a5bde61a1875c067e963f2", null ]
 ];

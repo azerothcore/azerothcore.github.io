@@ -1,6 +1,6 @@
 var a15941 =
 [
-    [ "boss_hadronoxAI", "da/d3b/a15945.html", "da/d3b/a15945" ],
-    [ "boss_hadronox", "dc/db6/a15941.html#ae3457fd6108cc350cf9eedab3178f781", null ],
-    [ "GetAI", "dc/db6/a15941.html#a90bf0ecb218e30e61852baffeabc3dc1", null ]
+    [ "PrepareSpellScript", "dc/db6/a15941.html#a74a2601e2c160bb4a9b18d421775e6b3", null ],
+    [ "Register", "dc/db6/a15941.html#a17a07973a3c043683fc4fe0d1fc45156", null ],
+    [ "SetDest", "dc/db6/a15941.html#a3751a14d6e36140ee368d8ded6df03ee", null ]
 ];

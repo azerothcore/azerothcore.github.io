@@ -1,6 +1,6 @@
 var a14621 =
 [
-    [ "npc_crypt_fiendAI", "d4/df0/a14625.html", "d4/df0/a14625" ],
-    [ "npc_crypt_fiend", "d8/d3a/a14621.html#a15ecf6a87820a36e7e864b9dcf70a32e", null ],
-    [ "GetAI", "d8/d3a/a14621.html#a45fd0ee3f95215809bd60c79fd1a7e32", null ]
+    [ "boss_rage_winterchillAI", "d4/df0/a14625.html", "d4/df0/a14625" ],
+    [ "boss_rage_winterchill", "d8/d3a/a14621.html#a8e26398ab65b0230ad94394587155736", null ],
+    [ "GetAI", "d8/d3a/a14621.html#a16c9e106831b0f0f96944afa5fb56d84", null ]
 ];

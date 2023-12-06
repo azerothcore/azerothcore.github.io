@@ -1,8 +1,6 @@
 var a25085 =
 [
-    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger_AuraScript", "d3/df5/a25089.html", "d3/df5/a25089" ],
-    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger_SpellScript", "d9/d3d/a25093.html", "d9/d3d/a25093" ],
-    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger", "df/d0f/a25085.html#aba3d643edb1c21dd7217328534d6e0c4", null ],
-    [ "GetAuraScript", "df/d0f/a25085.html#ad2fedc8903b81b2aa5d78be2f4bcb854", null ],
-    [ "GetSpellScript", "df/d0f/a25085.html#ad2e1735d6d905613c79b6906ffed2b99", null ]
+    [ "HandlePeriodic", "df/d0f/a25085.html#af6c30bb292a69d5eaaaf75c8a76111ea", null ],
+    [ "PrepareAuraScript", "df/d0f/a25085.html#a75515896f3d94d227963a3c5258e2d0d", null ],
+    [ "Register", "df/d0f/a25085.html#aeacb1ffc287cc7128366ee0484c2994b", null ]
 ];

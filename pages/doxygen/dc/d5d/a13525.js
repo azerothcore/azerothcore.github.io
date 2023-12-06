@@ -1,7 +1,6 @@
 var a13525 =
 [
-    [ "boss_blight_wormAI", "dc/d5d/a13525.html#af267e395fbd539f871e498dc6745c610", null ],
-    [ "Reset", "dc/d5d/a13525.html#a96e27eaba5c9e422981d78123ed9c83d", null ],
-    [ "UpdateAI", "dc/d5d/a13525.html#ac8e4c5a7a251173a2afb369498c88a1d", null ],
-    [ "_events", "dc/d5d/a13525.html#a65f7fd4f73c727eeb5988d7ec77b94ce", null ]
+    [ "npc_marzon_silent_bladeAI", "d0/d49/a13529.html", "d0/d49/a13529" ],
+    [ "npc_marzon_silent_blade", "dc/d5d/a13525.html#a8fa1c0e11555df45005f37fd9de7f3a8", null ],
+    [ "GetAI", "dc/d5d/a13525.html#aadde9b84b46c594e41ae8ca3ae0265a1", null ]
 ];

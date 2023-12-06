@@ -1,7 +1,6 @@
 var a14445 =
 [
-    [ "HandleOnHit", "d0/df4/a14445.html#ae3241486a612293b5421a523f6d854d9", null ],
-    [ "PrepareSpellScript", "d0/df4/a14445.html#a20b6f0f7d403065cde55dec7f50537f9", null ],
-    [ "Register", "d0/df4/a14445.html#af6d4c6dfa15da815298ad5d88b3fede2", null ],
-    [ "Validate", "d0/df4/a14445.html#a53773b6b18b1d3a5be24f3065e8a2875", null ]
+    [ "HandleScriptEffect", "d0/df4/a14445.html#a074f54a4b022adc6ea34b3716dec745f", null ],
+    [ "PrepareSpellScript", "d0/df4/a14445.html#a725d5bc1f76614778b140f3061aa2e03", null ],
+    [ "Register", "d0/df4/a14445.html#a339df7ae9553fbae68ce791baef1df5e", null ]
 ];

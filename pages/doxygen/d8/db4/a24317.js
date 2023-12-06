@@ -1,6 +1,6 @@
 var a24317 =
 [
-    [ "spell_illidan_glaive_throw_SpellScript", "d0/d3e/a24321.html", "d0/d3e/a24321" ],
-    [ "spell_illidan_glaive_throw", "d8/db4/a24317.html#a689a320dd546eb5ae6240a7028b3703b", null ],
-    [ "GetSpellScript", "d8/db4/a24317.html#a8692d70c802ffa2695a64846929e935d", null ]
+    [ "HandleScriptEffect", "d8/db4/a24317.html#a1a7f6baeb886bf24ee12c73dcde571ab", null ],
+    [ "PrepareSpellScript", "d8/db4/a24317.html#a7cb1bd61d83bd443941564e986f35003", null ],
+    [ "Register", "d8/db4/a24317.html#a910559f44b503a281d8aea0d4f9e4a98", null ]
 ];

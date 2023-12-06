@@ -1,5 +1,6 @@
 var a21181 =
 [
-    [ "achievement_flame_leviathan_shutout", "dd/d25/a21181.html#a555e0d206b7f730665d301c7e03b23e6", null ],
-    [ "OnCheck", "dd/d25/a21181.html#af548232f563fd387bc8ee25b696a2f99", null ]
+    [ "spell_thorims_hammer_SpellScript", "d9/d76/a21185.html", "d9/d76/a21185" ],
+    [ "spell_thorims_hammer", "dd/d25/a21181.html#a0f838d61eb68084978be92d87338f07d", null ],
+    [ "GetSpellScript", "dd/d25/a21181.html#a8da4bd8438d99a1ceffeae20778a6f9a", null ]
 ];

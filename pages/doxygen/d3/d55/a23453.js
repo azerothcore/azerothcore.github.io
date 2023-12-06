@@ -1,6 +1,6 @@
 var a23453 =
 [
-    [ "spell_z_check_AuraScript", "da/d69/a23457.html", "da/d69/a23457" ],
-    [ "spell_z_check", "d3/d55/a23453.html#a7b1db80530bec8666a67536d4d30226c", null ],
-    [ "GetAuraScript", "d3/d55/a23453.html#a0b6501eab91f2e823a9893da12335d76", null ]
+    [ "spell_infected_worgen_bite_AuraScript", "da/d69/a23457.html", "da/d69/a23457" ],
+    [ "spell_infected_worgen_bite", "d3/d55/a23453.html#accb43d32465202559874af3b370e5e13", null ],
+    [ "GetAuraScript", "d3/d55/a23453.html#a54d202aeed1498529afc9e431d842668", null ]
 ];

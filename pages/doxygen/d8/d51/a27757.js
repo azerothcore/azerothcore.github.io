@@ -1,8 +1,7 @@
 var a27757 =
 [
-    [ "CheckProc", "d8/d51/a27757.html#a4f8e030154606e0781ebb89294019e0e", null ],
-    [ "HandleProc", "d8/d51/a27757.html#a3d3db432fb051785f51ece4052ec8907", null ],
-    [ "PrepareAuraScript", "d8/d51/a27757.html#aed40577ca9a1de3efc501606bcc9a8dd", null ],
-    [ "Register", "d8/d51/a27757.html#a8cfdc8d98946fca603971ad91035e21c", null ],
-    [ "Validate", "d8/d51/a27757.html#abfd3c0ad08ad287b38e8da437c18376c", null ]
+    [ "CalculateSpellAmount", "d8/d51/a27757.html#a2f93ff69f30b243fe787d72f78a2d159", null ],
+    [ "CheckCast", "d8/d51/a27757.html#af043f7ee0f80baf667e64225effd57d1", null ],
+    [ "PrepareSpellScript", "d8/d51/a27757.html#a233ac4020722078d865cf980d7fa76cf", null ],
+    [ "Register", "d8/d51/a27757.html#a3648ecd94430e21dd014795156c1eb98", null ]
 ];

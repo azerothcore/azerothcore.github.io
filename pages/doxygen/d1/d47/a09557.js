@@ -1,8 +1,10 @@
 var a09557 =
 [
-    [ "Location", "d1/d47/a09557.html#a0c601d413eeb398eb75d386c264ef5ab", null ],
-    [ "Location", "d1/d47/a09557.html#ae013ab2bf44bb250644573625bf93265", null ],
-    [ "Location", "d1/d47/a09557.html#a0d50c28ba40b409a0c5a9776bfe8ef42", null ],
-    [ "Location", "d1/d47/a09557.html#a1270aec177f47a607cb5a1472819c738", null ],
-    [ "orientation", "d1/d47/a09557.html#a9fc2637d4441d90c528eaef0f0414b98", null ]
+    [ "ChaseRange", "d1/d47/a09557.html#acd43ed01c9e4845d82e4d240b5c35167", null ],
+    [ "ChaseRange", "d1/d47/a09557.html#aaf19c63398d31699ed1703ae1ba5f1b6", null ],
+    [ "ChaseRange", "d1/d47/a09557.html#a397b3789449b1c178f11f64313498c4d", null ],
+    [ "MaxRange", "d1/d47/a09557.html#ae2a846630e79f3a15a5d93b18c68c915", null ],
+    [ "MaxTolerance", "d1/d47/a09557.html#a7909b18028d43c84eca5feee3e41469c", null ],
+    [ "MinRange", "d1/d47/a09557.html#a0e2c69e20d6a38d056505c3b5b0d9fd6", null ],
+    [ "MinTolerance", "d1/d47/a09557.html#a7b640ecfc0e80921ab36c2c33f0b10fd", null ]
 ];

@@ -1,6 +1,7 @@
 var a22305 =
 [
-    [ "spell_yogg_saron_in_the_maws_of_the_old_god_SpellScript", "df/ded/a22309.html", "df/ded/a22309" ],
-    [ "spell_yogg_saron_in_the_maws_of_the_old_god", "de/d54/a22305.html#aecbc6fe44dabfb8322cd7548d0356fd7", null ],
-    [ "GetSpellScript", "de/d54/a22305.html#af1ab217237c521a6fba6ede76526869a", null ]
+    [ "FilterTargets", "de/d54/a22305.html#a454989509b88e79ac38081112c57bc63", null ],
+    [ "HandleDummyEffect", "de/d54/a22305.html#a4d1ca1b48ce1a177b652edc2912e18db", null ],
+    [ "PrepareSpellScript", "de/d54/a22305.html#a833bbbb9350fa05619f17798b2af43c0", null ],
+    [ "Register", "de/d54/a22305.html#aaeba7a6bf3a18aea9f01a53fa00fe306", null ]
 ];

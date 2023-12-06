@@ -1,7 +1,8 @@
 var a14309 =
 [
-    [ "npc_love_in_air_supply_sentry", "d8/dc6/a14309.html#ab2742c3be0ed661a509b9eb32326bee5", null ],
-    [ "MoveInLineOfSight", "d8/dc6/a14309.html#a9df110324c74277e07183c7db231bbda", null ],
-    [ "UpdateAI", "d8/dc6/a14309.html#aaa658222954f96d45b75daf83555f6f8", null ],
-    [ "lock", "d8/dc6/a14309.html#a59bf67b114014542538165c21aa109a6", null ]
+    [ "HandleDummy", "d8/dc6/a14309.html#a47b5a6741f2782359449dcaebd40fe1c", null ],
+    [ "Load", "d8/dc6/a14309.html#a7877187ad7afb2dfbd28fb7c74d40478", null ],
+    [ "PrepareSpellScript", "d8/dc6/a14309.html#af1d1ad32d41d79008d650b388353346b", null ],
+    [ "Register", "d8/dc6/a14309.html#a53a7c4c025324b205a29f92dd48aefde", null ],
+    [ "handled", "d8/dc6/a14309.html#acf3a9296a36f131f852afbf60beb7ea4", null ]
 ];

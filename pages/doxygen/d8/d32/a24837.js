@@ -1,6 +1,6 @@
 var a24837 =
 [
-    [ "boss_doomlordkazzakAI", "da/de0/a24841.html", "da/de0/a24841" ],
-    [ "boss_doomlord_kazzak", "d8/d32/a24837.html#ae4e4844d584ba71ebd3d8a341ba91462", null ],
-    [ "GetAI", "d8/d32/a24837.html#a460a32ce37aae852b48f1990406da9a4", null ]
+    [ "spell_mark_of_kazzak_AuraScript", "da/de0/a24841.html", "da/de0/a24841" ],
+    [ "spell_mark_of_kazzak", "d8/d32/a24837.html#a37417b353f585fba14af0e8d9db4aa92", null ],
+    [ "GetAuraScript", "d8/d32/a24837.html#a634c3c18fd869d3f8df56b50bd39bda5", null ]
 ];

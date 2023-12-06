@@ -1,18 +1,13 @@
 var a11221 =
 [
-    [ "server_commandscript", "d8/dbb/a11221.html#a61d8b3a9f967996b533e62e94fe4c8ca", null ],
-    [ "GetCommands", "d8/dbb/a11221.html#a850c21f1ece40c576d3bf622f1c3e18f", null ],
-    [ "HandleServerCorpsesCommand", "d8/dbb/a11221.html#a01ae63f31c7f03f6c0006fe4583a14a3", null ],
-    [ "HandleServerDebugCommand", "d8/dbb/a11221.html#ac78145cb5c0888449756e4dbb36c005f", null ],
-    [ "HandleServerExitCommand", "d8/dbb/a11221.html#ab894b36baa95de647fb329fce6eed8fb", null ],
-    [ "HandleServerIdleRestartCommand", "d8/dbb/a11221.html#ae18a92337d6cf8e62eafdf5f39d7b5a8", null ],
-    [ "HandleServerIdleShutDownCommand", "d8/dbb/a11221.html#aa431504b2755304c4263121a7a437ce4", null ],
-    [ "HandleServerInfoCommand", "d8/dbb/a11221.html#a6c63114c474f69621b013dbb57b47bf2", null ],
-    [ "HandleServerMotdCommand", "d8/dbb/a11221.html#aa10d866fcb8567fbc625d2a297a116a6", null ],
-    [ "HandleServerRestartCommand", "d8/dbb/a11221.html#a3ec7dd1f81f3b4b8adcb5f04f4d20f3f", null ],
-    [ "HandleServerSetClosedCommand", "d8/dbb/a11221.html#a2ba489469cdb3c8da944f7d6547ae462", null ],
-    [ "HandleServerSetLogLevelCommand", "d8/dbb/a11221.html#a1ce5627c1d948b5a5c86db54357de02a", null ],
-    [ "HandleServerSetMotdCommand", "d8/dbb/a11221.html#a3155d41193baf54af3c2768f824f07a1", null ],
-    [ "HandleServerShutDownCancelCommand", "d8/dbb/a11221.html#ae64357518538c1ce4d03a8d9968b4035", null ],
-    [ "HandleServerShutDownCommand", "d8/dbb/a11221.html#a514149a8d1dfc4513e0c71b69901767d", null ]
+    [ "cheat_commandscript", "d8/dbb/a11221.html#a7449cfba3578956a09b67e569e7e6083", null ],
+    [ "GetCommands", "d8/dbb/a11221.html#a7cc6ca0c216a4ff497b60dc7622623fd", null ],
+    [ "HandleCasttimeCheatCommand", "d8/dbb/a11221.html#a119ad06c5b8be235853bb13c7cff724b", null ],
+    [ "HandleCheatStatusCommand", "d8/dbb/a11221.html#acdf487c7a96d1757d3254e3f17e728cb", null ],
+    [ "HandleCoolDownCheatCommand", "d8/dbb/a11221.html#ab31a1cfe2567b0f597c689f44ab9fd6d", null ],
+    [ "HandleExploreCheatCommand", "d8/dbb/a11221.html#a25ea712f2fb249e49f5f0b8244f743c5", null ],
+    [ "HandleGodModeCheatCommand", "d8/dbb/a11221.html#ac398dbacf025830dc871bc77938d47d6", null ],
+    [ "HandlePowerCheatCommand", "d8/dbb/a11221.html#ae406c5d444b10ba65b79f8ff9d949c24", null ],
+    [ "HandleTaxiCheatCommand", "d8/dbb/a11221.html#ab9bd840c9622d173e710058eeb763388", null ],
+    [ "HandleWaterWalkCheatCommand", "d8/dbb/a11221.html#a9162d89c049f14f29bc5ba257964df34", null ]
 ];

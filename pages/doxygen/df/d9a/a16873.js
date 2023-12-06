@@ -1,6 +1,10 @@
 var a16873 =
 [
-    [ "HandleScriptEffect", "df/d9a/a16873.html#a6dc8225ba087bb2abcc374a3ff6762b4", null ],
-    [ "PrepareSpellScript", "df/d9a/a16873.html#a2b17d482990abe4c61a62b45b3a4f0ac", null ],
-    [ "Register", "df/d9a/a16873.html#a8d32a4078cd78dbae520648d29fc3fdb", null ]
+    [ "boss_dredAI", "df/d9a/a16873.html#a4ad04fe31990a37fd6d3a23329350248", null ],
+    [ "GetData", "df/d9a/a16873.html#a7a93506d77eaf40c6f7be9e433f211e1", null ],
+    [ "JustEngagedWith", "df/d9a/a16873.html#ae6e1181dcdea763460ca72148abfcb3f", null ],
+    [ "Reset", "df/d9a/a16873.html#a5fe153ab58b1feedce5afa6b10a0d3de", null ],
+    [ "SetData", "df/d9a/a16873.html#a884f48aabc26b054dcd303a91cb88301", null ],
+    [ "UpdateAI", "df/d9a/a16873.html#afc12ced9b5026fe3b297560c30e129ed", null ],
+    [ "_raptorCount", "df/d9a/a16873.html#a95aa63c18d7e1f2dec2491ac4649a378", null ]
 ];

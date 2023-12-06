@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/shared/Realms/Realm.h File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/scripts/Pet/pet_priest.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,152 +107,172 @@ $(document).ready(function(){initNavTree('d6/ddf/a04349.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">Realm.h File Reference</div></div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">pet_priest.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">AsioHacksFwd.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PassiveAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PetAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">TotemAI.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d08/a30225.html">RealmHandle</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dda/a26253.html">npc_pet_pri_lightwell</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/a30229.html">Realm</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db1/a26257.html">npc_pet_pri_shadowfiend</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ace3f717ac43bef67791faeb2a0b2c1e2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2">RealmFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a78cb2956eac93bb478e5a6573336a0a2">REALM_FLAG_NONE</a> = 0x00
+<tr class="memitem:a8aaecfe4214ff7bd567980dd904b110f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110f">PriestSpells</a> { <br />
+&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110faabcd07781394f6b318b9bf42c0938014">SPELL_PRIEST_GLYPH_OF_SHADOWFIEND</a> = 58228
 , <br />
-&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a9e5fc6c089666cb09890f97038c44056">REALM_FLAG_VERSION_MISMATCH</a> = 0x01
+&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110fa24b5ecb3171baa6a2e1c79957bcd7fde">SPELL_PRIEST_GLYPH_OF_SHADOWFIEND_MANA</a> = 58227
 , <br />
-&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a728d61b0842461c34b1f6167e5dcdb68">REALM_FLAG_OFFLINE</a> = 0x02
+&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110fadb00d04038b22b42cfdff3f568a5c51a">SPELL_PRIEST_SHADOWFIEND_DODGE</a> = 8273
 , <br />
-&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2afda7734169f8aad2549a0a0aa4c04903">REALM_FLAG_SPECIFYBUILD</a> = 0x04
+&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2">SPELL_PRIEST_LIGHTWELL_CHARGES</a> = 59907
 , <br />
-&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a73ff031081f52c4cecfe2f899bb92304">REALM_FLAG_UNK1</a> = 0x08
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa4bd6adc8070fcaa774451c5cac40ded1">SPELL_PRIEST_DIVINE_AEGIS</a> = 47753
 , <br />
-&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a9d7b7c5ef743cf68b93360af13b7ed81">REALM_FLAG_UNK2</a> = 0x10
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fad78a13deca5dca1beb7e7304ae3e2014">SPELL_PRIEST_EMPOWERED_RENEW</a> = 63544
 , <br />
-&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2ab5051c0caffaa54a0fe3aab0d3c99b29">REALM_FLAG_RECOMMENDED</a> = 0x20
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110faa6155b51d0796813e0d96b14449698d5">SPELL_PRIEST_GLYPH_OF_CIRCLE_OF_HEALING</a> = 55675
 , <br />
-&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a214cd38c14a7209f7986ae4ca43fe73b">REALM_FLAG_NEW</a> = 0x40
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa08ad85769dce5870b0201048c1537b8d">SPELL_PRIEST_GLYPH_OF_LIGHTWELL</a> = 55673
 , <br />
-&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2acdaee6e8c961adfa63cde3a06707b952">REALM_FLAG_FULL</a> = 0x80
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fadbaba8ea6d37743ef668662c895fcb4e">SPELL_PRIEST_GLYPH_OF_PRAYER_OF_HEALING_HEAL</a> = 56161
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa2e82dca38567004533ff9b39360424c4">SPELL_PRIEST_GUARDIAN_SPIRIT_HEAL</a> = 48153
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fad0b9beecf2b1e0f1fadc6cf162bbd07d">SPELL_PRIEST_ITEM_EFFICIENCY</a> = 37595
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2">SPELL_PRIEST_LIGHTWELL_CHARGES</a> = 59907
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa4c5f8599ef6dfe01071d94bf15fdb366">SPELL_PRIEST_MANA_LEECH_PROC</a> = 34650
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa9ffd23299d870bb46db11bc57af21099">SPELL_PRIEST_PENANCE_R1</a> = 47540
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa8768589bceb883d84b4e911a44d5267d">SPELL_PRIEST_PENANCE_R1_DAMAGE</a> = 47758
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110faf42f043dbb422920b04d0521f2103c68">SPELL_PRIEST_PENANCE_R1_HEAL</a> = 47757
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa1fbf9f6af5e3402822cc04234cddaba4">SPELL_PRIEST_REFLECTIVE_SHIELD_TRIGGERED</a> = 33619
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa22705e4341a9c87d475363cb0a9f78eb">SPELL_PRIEST_REFLECTIVE_SHIELD_R1</a> = 33201
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fad1d6a6bd6506f7e5a302ca1ad7256c4f">SPELL_PRIEST_SHADOW_WORD_DEATH</a> = 32409
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110faecf270b72f7ced3aab3ce3b2f24b8a87">SPELL_PRIEST_T9_HEALING_2P</a> = 67201
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa0ecf37a43c562bc7eae7041fc137ba03">SPELL_PRIEST_VAMPIRIC_TOUCH_DISPEL</a> = 64085
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110faec0fc5ca32e9a185d596c0a931d65d9c">SPELL_PRIEST_T4_4P_FLEXIBILITY</a> = 37565
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa60a12ecf7b0c16a82500a97110ff35f0">SPELL_GENERIC_ARENA_DAMPENING</a> = 74410
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110faf1c99f5067e5ef0ef1fb7f96bd317bf4">SPELL_GENERIC_BATTLEGROUND_DAMPENING</a> = 74411
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa58a40bf575a212bf832d151e37267690">SPELL_PRIEST_TWIN_DISCIPLINE_R1</a> = 47586
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110faeee484b733ad552750cbbd4bb82f11af">SPELL_PRIEST_SPIRITUAL_HEALING_R1</a> = 14898
+, <br />
+&#160;&#160;<a class="el" href="../../de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110faead2486496bee0d1c950addeca1be8ae">SPELL_PRIEST_DIVINE_PROVIDENCE_R1</a> = 47562
 <br />
  }</td></tr>
-<tr class="separator:ace3f717ac43bef67791faeb2a0b2c1e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8ff852caf6f88797c9c3716d1acbe59"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59">RealmType</a> { <br />
-&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59accb12c63a2ee89b9c3f72e5fd2b056fb">REALM_TYPE_NORMAL</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a5b9f160cabace91bff99046f281b899c">REALM_TYPE_PVP</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a8529db1edd00f579cbeff7e0c2a88e19">REALM_TYPE_NORMAL2</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a81056f603f1158cb39b25f9ae8beb88f">REALM_TYPE_RP</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a58e3ebd90691c511e7976f5bff724fae">REALM_TYPE_RPPVP</a> = 8
-, <br />
-&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a580a3990630da9c56e3fef200d6b15be">MAX_CLIENT_REALM_TYPE</a> = 14
-, <br />
-&#160;&#160;<a class="el" href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a43cf71d6098c453fc931d7e25f729457">REALM_TYPE_FFA_PVP</a> = 16
-<br />
- }</td></tr>
-<tr class="memdesc:ae8ff852caf6f88797c9c3716d1acbe59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of server, this is values from second column of Cfg_Configs.dbc.  <a href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59">More...</a><br /></td></tr>
-<tr class="separator:ae8ff852caf6f88797c9c3716d1acbe59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a8aaecfe4214ff7bd567980dd904b110f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ac0eaa77dc1cb9a092b318e3bc3f6d5b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddf/a04349.html#ac0eaa77dc1cb9a092b318e3bc3f6d5b8">AddSC_priest_pet_scripts</a> ()</td></tr>
+<tr class="separator:ac0eaa77dc1cb9a092b318e3bc3f6d5b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ace3f717ac43bef67791faeb2a0b2c1e2" name="ace3f717ac43bef67791faeb2a0b2c1e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace3f717ac43bef67791faeb2a0b2c1e2">&#9670;&#160;</a></span>RealmFlags</h2>
+<a id="a8aaecfe4214ff7bd567980dd904b110f" name="a8aaecfe4214ff7bd567980dd904b110f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8aaecfe4214ff7bd567980dd904b110f">&#9670;&#160;</a></span>PriestSpells</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2">RealmFlags</a></td>
+          <td class="memname">enum <a class="el" href="../../d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110f">PriestSpells</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2a78cb2956eac93bb478e5a6573336a0a2" name="ace3f717ac43bef67791faeb2a0b2c1e2a78cb2956eac93bb478e5a6573336a0a2"></a>REALM_FLAG_NONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2a9e5fc6c089666cb09890f97038c44056" name="ace3f717ac43bef67791faeb2a0b2c1e2a9e5fc6c089666cb09890f97038c44056"></a>REALM_FLAG_VERSION_MISMATCH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2a728d61b0842461c34b1f6167e5dcdb68" name="ace3f717ac43bef67791faeb2a0b2c1e2a728d61b0842461c34b1f6167e5dcdb68"></a>REALM_FLAG_OFFLINE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2afda7734169f8aad2549a0a0aa4c04903" name="ace3f717ac43bef67791faeb2a0b2c1e2afda7734169f8aad2549a0a0aa4c04903"></a>REALM_FLAG_SPECIFYBUILD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2a73ff031081f52c4cecfe2f899bb92304" name="ace3f717ac43bef67791faeb2a0b2c1e2a73ff031081f52c4cecfe2f899bb92304"></a>REALM_FLAG_UNK1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2a9d7b7c5ef743cf68b93360af13b7ed81" name="ace3f717ac43bef67791faeb2a0b2c1e2a9d7b7c5ef743cf68b93360af13b7ed81"></a>REALM_FLAG_UNK2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2ab5051c0caffaa54a0fe3aab0d3c99b29" name="ace3f717ac43bef67791faeb2a0b2c1e2ab5051c0caffaa54a0fe3aab0d3c99b29"></a>REALM_FLAG_RECOMMENDED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2a214cd38c14a7209f7986ae4ca43fe73b" name="ace3f717ac43bef67791faeb2a0b2c1e2a214cd38c14a7209f7986ae4ca43fe73b"></a>REALM_FLAG_NEW&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ace3f717ac43bef67791faeb2a0b2c1e2acdaee6e8c961adfa63cde3a06707b952" name="ace3f717ac43bef67791faeb2a0b2c1e2acdaee6e8c961adfa63cde3a06707b952"></a>REALM_FLAG_FULL&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110faabcd07781394f6b318b9bf42c0938014" name="a8aaecfe4214ff7bd567980dd904b110faabcd07781394f6b318b9bf42c0938014"></a>SPELL_PRIEST_GLYPH_OF_SHADOWFIEND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110fa24b5ecb3171baa6a2e1c79957bcd7fde" name="a8aaecfe4214ff7bd567980dd904b110fa24b5ecb3171baa6a2e1c79957bcd7fde"></a>SPELL_PRIEST_GLYPH_OF_SHADOWFIEND_MANA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110fadb00d04038b22b42cfdff3f568a5c51a" name="a8aaecfe4214ff7bd567980dd904b110fadb00d04038b22b42cfdff3f568a5c51a"></a>SPELL_PRIEST_SHADOWFIEND_DODGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2" name="a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2"></a>SPELL_PRIEST_LIGHTWELL_CHARGES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110fa4bd6adc8070fcaa774451c5cac40ded1" name="a8aaecfe4214ff7bd567980dd904b110fa4bd6adc8070fcaa774451c5cac40ded1"></a>SPELL_PRIEST_DIVINE_AEGIS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110fad78a13deca5dca1beb7e7304ae3e2014" name="a8aaecfe4214ff7bd567980dd904b110fad78a13deca5dca1beb7e7304ae3e2014"></a>SPELL_PRIEST_EMPOWERED_RENEW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110faa6155b51d0796813e0d96b14449698d5" name="a8aaecfe4214ff7bd567980dd904b110faa6155b51d0796813e0d96b14449698d5"></a>SPELL_PRIEST_GLYPH_OF_CIRCLE_OF_HEALING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110fa08ad85769dce5870b0201048c1537b8d" name="a8aaecfe4214ff7bd567980dd904b110fa08ad85769dce5870b0201048c1537b8d"></a>SPELL_PRIEST_GLYPH_OF_LIGHTWELL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110fadbaba8ea6d37743ef668662c895fcb4e" name="a8aaecfe4214ff7bd567980dd904b110fadbaba8ea6d37743ef668662c895fcb4e"></a>SPELL_PRIEST_GLYPH_OF_PRAYER_OF_HEALING_HEAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110fa2e82dca38567004533ff9b39360424c4" name="a8aaecfe4214ff7bd567980dd904b110fa2e82dca38567004533ff9b39360424c4"></a>SPELL_PRIEST_GUARDIAN_SPIRIT_HEAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110fad0b9beecf2b1e0f1fadc6cf162bbd07d" name="a8aaecfe4214ff7bd567980dd904b110fad0b9beecf2b1e0f1fadc6cf162bbd07d"></a>SPELL_PRIEST_ITEM_EFFICIENCY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2" name="a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2"></a>SPELL_PRIEST_LIGHTWELL_CHARGES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110fa4c5f8599ef6dfe01071d94bf15fdb366" name="a8aaecfe4214ff7bd567980dd904b110fa4c5f8599ef6dfe01071d94bf15fdb366"></a>SPELL_PRIEST_MANA_LEECH_PROC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110fa9ffd23299d870bb46db11bc57af21099" name="a8aaecfe4214ff7bd567980dd904b110fa9ffd23299d870bb46db11bc57af21099"></a>SPELL_PRIEST_PENANCE_R1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110fa8768589bceb883d84b4e911a44d5267d" name="a8aaecfe4214ff7bd567980dd904b110fa8768589bceb883d84b4e911a44d5267d"></a>SPELL_PRIEST_PENANCE_R1_DAMAGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110faf42f043dbb422920b04d0521f2103c68" name="a8aaecfe4214ff7bd567980dd904b110faf42f043dbb422920b04d0521f2103c68"></a>SPELL_PRIEST_PENANCE_R1_HEAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110fa1fbf9f6af5e3402822cc04234cddaba4" name="a8aaecfe4214ff7bd567980dd904b110fa1fbf9f6af5e3402822cc04234cddaba4"></a>SPELL_PRIEST_REFLECTIVE_SHIELD_TRIGGERED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110fa22705e4341a9c87d475363cb0a9f78eb" name="a8aaecfe4214ff7bd567980dd904b110fa22705e4341a9c87d475363cb0a9f78eb"></a>SPELL_PRIEST_REFLECTIVE_SHIELD_R1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110fad1d6a6bd6506f7e5a302ca1ad7256c4f" name="a8aaecfe4214ff7bd567980dd904b110fad1d6a6bd6506f7e5a302ca1ad7256c4f"></a>SPELL_PRIEST_SHADOW_WORD_DEATH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110faecf270b72f7ced3aab3ce3b2f24b8a87" name="a8aaecfe4214ff7bd567980dd904b110faecf270b72f7ced3aab3ce3b2f24b8a87"></a>SPELL_PRIEST_T9_HEALING_2P&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110fa0ecf37a43c562bc7eae7041fc137ba03" name="a8aaecfe4214ff7bd567980dd904b110fa0ecf37a43c562bc7eae7041fc137ba03"></a>SPELL_PRIEST_VAMPIRIC_TOUCH_DISPEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110faec0fc5ca32e9a185d596c0a931d65d9c" name="a8aaecfe4214ff7bd567980dd904b110faec0fc5ca32e9a185d596c0a931d65d9c"></a>SPELL_PRIEST_T4_4P_FLEXIBILITY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110fa60a12ecf7b0c16a82500a97110ff35f0" name="a8aaecfe4214ff7bd567980dd904b110fa60a12ecf7b0c16a82500a97110ff35f0"></a>SPELL_GENERIC_ARENA_DAMPENING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110faf1c99f5067e5ef0ef1fb7f96bd317bf4" name="a8aaecfe4214ff7bd567980dd904b110faf1c99f5067e5ef0ef1fb7f96bd317bf4"></a>SPELL_GENERIC_BATTLEGROUND_DAMPENING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110fa58a40bf575a212bf832d151e37267690" name="a8aaecfe4214ff7bd567980dd904b110fa58a40bf575a212bf832d151e37267690"></a>SPELL_PRIEST_TWIN_DISCIPLINE_R1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110faeee484b733ad552750cbbd4bb82f11af" name="a8aaecfe4214ff7bd567980dd904b110faeee484b733ad552750cbbd4bb82f11af"></a>SPELL_PRIEST_SPIRITUAL_HEALING_R1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8aaecfe4214ff7bd567980dd904b110faead2486496bee0d1c950addeca1be8ae" name="a8aaecfe4214ff7bd567980dd904b110faead2486496bee0d1c950addeca1be8ae"></a>SPELL_PRIEST_DIVINE_PROVIDENCE_R1&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
-<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a78cb2956eac93bb478e5a6573336a0a2">REALM_FLAG_NONE</a>             = 0x00,</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a9e5fc6c089666cb09890f97038c44056">REALM_FLAG_VERSION_MISMATCH</a> = 0x01,</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a728d61b0842461c34b1f6167e5dcdb68">REALM_FLAG_OFFLINE</a>          = 0x02,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2afda7734169f8aad2549a0a0aa4c04903">REALM_FLAG_SPECIFYBUILD</a>     = 0x04,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a73ff031081f52c4cecfe2f899bb92304">REALM_FLAG_UNK1</a>             = 0x08,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a9d7b7c5ef743cf68b93360af13b7ed81">REALM_FLAG_UNK2</a>             = 0x10,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2ab5051c0caffaa54a0fe3aab0d3c99b29">REALM_FLAG_RECOMMENDED</a>      = 0x20,</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a214cd38c14a7209f7986ae4ca43fe73b">REALM_FLAG_NEW</a>              = 0x40,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2acdaee6e8c961adfa63cde3a06707b952">REALM_FLAG_FULL</a>             = 0x80</div>
+<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110faabcd07781394f6b318b9bf42c0938014">SPELL_PRIEST_GLYPH_OF_SHADOWFIEND</a>       = 58228,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110fa24b5ecb3171baa6a2e1c79957bcd7fde">SPELL_PRIEST_GLYPH_OF_SHADOWFIEND_MANA</a>  = 58227,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110fadb00d04038b22b42cfdff3f568a5c51a">SPELL_PRIEST_SHADOWFIEND_DODGE</a>          = 8273,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2">SPELL_PRIEST_LIGHTWELL_CHARGES</a>          = 59907</div>
 <div class="line"><span class="lineno">   35</span>};</div>
-<div class="ttc" id="aa04349_html_ace3f717ac43bef67791faeb2a0b2c1e2a214cd38c14a7209f7986ae4ca43fe73b"><div class="ttname"><a href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a214cd38c14a7209f7986ae4ca43fe73b">REALM_FLAG_NEW</a></div><div class="ttdeci">@ REALM_FLAG_NEW</div><div class="ttdef"><b>Definition:</b> Realm.h:33</div></div>
-<div class="ttc" id="aa04349_html_ace3f717ac43bef67791faeb2a0b2c1e2a728d61b0842461c34b1f6167e5dcdb68"><div class="ttname"><a href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a728d61b0842461c34b1f6167e5dcdb68">REALM_FLAG_OFFLINE</a></div><div class="ttdeci">@ REALM_FLAG_OFFLINE</div><div class="ttdef"><b>Definition:</b> Realm.h:28</div></div>
-<div class="ttc" id="aa04349_html_ace3f717ac43bef67791faeb2a0b2c1e2a73ff031081f52c4cecfe2f899bb92304"><div class="ttname"><a href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a73ff031081f52c4cecfe2f899bb92304">REALM_FLAG_UNK1</a></div><div class="ttdeci">@ REALM_FLAG_UNK1</div><div class="ttdef"><b>Definition:</b> Realm.h:30</div></div>
-<div class="ttc" id="aa04349_html_ace3f717ac43bef67791faeb2a0b2c1e2a78cb2956eac93bb478e5a6573336a0a2"><div class="ttname"><a href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a78cb2956eac93bb478e5a6573336a0a2">REALM_FLAG_NONE</a></div><div class="ttdeci">@ REALM_FLAG_NONE</div><div class="ttdef"><b>Definition:</b> Realm.h:26</div></div>
-<div class="ttc" id="aa04349_html_ace3f717ac43bef67791faeb2a0b2c1e2a9d7b7c5ef743cf68b93360af13b7ed81"><div class="ttname"><a href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a9d7b7c5ef743cf68b93360af13b7ed81">REALM_FLAG_UNK2</a></div><div class="ttdeci">@ REALM_FLAG_UNK2</div><div class="ttdef"><b>Definition:</b> Realm.h:31</div></div>
-<div class="ttc" id="aa04349_html_ace3f717ac43bef67791faeb2a0b2c1e2a9e5fc6c089666cb09890f97038c44056"><div class="ttname"><a href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a9e5fc6c089666cb09890f97038c44056">REALM_FLAG_VERSION_MISMATCH</a></div><div class="ttdeci">@ REALM_FLAG_VERSION_MISMATCH</div><div class="ttdef"><b>Definition:</b> Realm.h:27</div></div>
-<div class="ttc" id="aa04349_html_ace3f717ac43bef67791faeb2a0b2c1e2ab5051c0caffaa54a0fe3aab0d3c99b29"><div class="ttname"><a href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2ab5051c0caffaa54a0fe3aab0d3c99b29">REALM_FLAG_RECOMMENDED</a></div><div class="ttdeci">@ REALM_FLAG_RECOMMENDED</div><div class="ttdef"><b>Definition:</b> Realm.h:32</div></div>
-<div class="ttc" id="aa04349_html_ace3f717ac43bef67791faeb2a0b2c1e2acdaee6e8c961adfa63cde3a06707b952"><div class="ttname"><a href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2acdaee6e8c961adfa63cde3a06707b952">REALM_FLAG_FULL</a></div><div class="ttdeci">@ REALM_FLAG_FULL</div><div class="ttdef"><b>Definition:</b> Realm.h:34</div></div>
-<div class="ttc" id="aa04349_html_ace3f717ac43bef67791faeb2a0b2c1e2afda7734169f8aad2549a0a0aa4c04903"><div class="ttname"><a href="../../d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2afda7734169f8aad2549a0a0aa4c04903">REALM_FLAG_SPECIFYBUILD</a></div><div class="ttdeci">@ REALM_FLAG_SPECIFYBUILD</div><div class="ttdef"><b>Definition:</b> Realm.h:29</div></div>
+<div class="ttc" id="aa04349_html_a8aaecfe4214ff7bd567980dd904b110fa24b5ecb3171baa6a2e1c79957bcd7fde"><div class="ttname"><a href="../../d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110fa24b5ecb3171baa6a2e1c79957bcd7fde">SPELL_PRIEST_GLYPH_OF_SHADOWFIEND_MANA</a></div><div class="ttdeci">@ SPELL_PRIEST_GLYPH_OF_SHADOWFIEND_MANA</div><div class="ttdef"><b>Definition:</b> pet_priest.cpp:32</div></div>
+<div class="ttc" id="aa04349_html_a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2"><div class="ttname"><a href="../../d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2">SPELL_PRIEST_LIGHTWELL_CHARGES</a></div><div class="ttdeci">@ SPELL_PRIEST_LIGHTWELL_CHARGES</div><div class="ttdef"><b>Definition:</b> pet_priest.cpp:34</div></div>
+<div class="ttc" id="aa04349_html_a8aaecfe4214ff7bd567980dd904b110faabcd07781394f6b318b9bf42c0938014"><div class="ttname"><a href="../../d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110faabcd07781394f6b318b9bf42c0938014">SPELL_PRIEST_GLYPH_OF_SHADOWFIEND</a></div><div class="ttdeci">@ SPELL_PRIEST_GLYPH_OF_SHADOWFIEND</div><div class="ttdef"><b>Definition:</b> pet_priest.cpp:31</div></div>
+<div class="ttc" id="aa04349_html_a8aaecfe4214ff7bd567980dd904b110fadb00d04038b22b42cfdff3f568a5c51a"><div class="ttname"><a href="../../d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110fadb00d04038b22b42cfdff3f568a5c51a">SPELL_PRIEST_SHADOWFIEND_DODGE</a></div><div class="ttdeci">@ SPELL_PRIEST_SHADOWFIEND_DODGE</div><div class="ttdef"><b>Definition:</b> pet_priest.cpp:33</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ae8ff852caf6f88797c9c3716d1acbe59" name="ae8ff852caf6f88797c9c3716d1acbe59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8ff852caf6f88797c9c3716d1acbe59">&#9670;&#160;</a></span>RealmType</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ac0eaa77dc1cb9a092b318e3bc3f6d5b8" name="ac0eaa77dc1cb9a092b318e3bc3f6d5b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0eaa77dc1cb9a092b318e3bc3f6d5b8">&#9670;&#160;</a></span>AddSC_priest_pet_scripts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59">RealmType</a></td>
+          <td class="memname">void AddSC_priest_pet_scripts </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Type of server, this is values from second column of Cfg_Configs.dbc. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae8ff852caf6f88797c9c3716d1acbe59accb12c63a2ee89b9c3f72e5fd2b056fb" name="ae8ff852caf6f88797c9c3716d1acbe59accb12c63a2ee89b9c3f72e5fd2b056fb"></a>REALM_TYPE_NORMAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8ff852caf6f88797c9c3716d1acbe59a5b9f160cabace91bff99046f281b899c" name="ae8ff852caf6f88797c9c3716d1acbe59a5b9f160cabace91bff99046f281b899c"></a>REALM_TYPE_PVP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8ff852caf6f88797c9c3716d1acbe59a8529db1edd00f579cbeff7e0c2a88e19" name="ae8ff852caf6f88797c9c3716d1acbe59a8529db1edd00f579cbeff7e0c2a88e19"></a>REALM_TYPE_NORMAL2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8ff852caf6f88797c9c3716d1acbe59a81056f603f1158cb39b25f9ae8beb88f" name="ae8ff852caf6f88797c9c3716d1acbe59a81056f603f1158cb39b25f9ae8beb88f"></a>REALM_TYPE_RP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8ff852caf6f88797c9c3716d1acbe59a58e3ebd90691c511e7976f5bff724fae" name="ae8ff852caf6f88797c9c3716d1acbe59a58e3ebd90691c511e7976f5bff724fae"></a>REALM_TYPE_RPPVP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8ff852caf6f88797c9c3716d1acbe59a580a3990630da9c56e3fef200d6b15be" name="ae8ff852caf6f88797c9c3716d1acbe59a580a3990630da9c56e3fef200d6b15be"></a>MAX_CLIENT_REALM_TYPE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae8ff852caf6f88797c9c3716d1acbe59a43cf71d6098c453fc931d7e25f729457" name="ae8ff852caf6f88797c9c3716d1acbe59a43cf71d6098c453fc931d7e25f729457"></a>REALM_TYPE_FFA_PVP&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   52</span>{</div>
-<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59accb12c63a2ee89b9c3f72e5fd2b056fb">REALM_TYPE_NORMAL</a>       = 0,</div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a5b9f160cabace91bff99046f281b899c">REALM_TYPE_PVP</a>          = 1,</div>
-<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a8529db1edd00f579cbeff7e0c2a88e19">REALM_TYPE_NORMAL2</a>      = 4,</div>
-<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a81056f603f1158cb39b25f9ae8beb88f">REALM_TYPE_RP</a>           = 6,</div>
-<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a58e3ebd90691c511e7976f5bff724fae">REALM_TYPE_RPPVP</a>        = 8,</div>
-<div class="line"><span class="lineno">   58</span> </div>
-<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a580a3990630da9c56e3fef200d6b15be">MAX_CLIENT_REALM_TYPE</a>   = 14,</div>
-<div class="line"><span class="lineno">   60</span> </div>
-<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a43cf71d6098c453fc931d7e25f729457">REALM_TYPE_FFA_PVP</a>      = 16 <span class="comment">// custom, free for all pvp mode like arena PvP in all zones except rest activated places and sanctuaries</span></div>
-<div class="line"><span class="lineno">   62</span>                                 <span class="comment">// replaced by REALM_PVP in realm list</span></div>
-<div class="line"><span class="lineno">   63</span>};</div>
-<div class="ttc" id="aa04349_html_ae8ff852caf6f88797c9c3716d1acbe59a43cf71d6098c453fc931d7e25f729457"><div class="ttname"><a href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a43cf71d6098c453fc931d7e25f729457">REALM_TYPE_FFA_PVP</a></div><div class="ttdeci">@ REALM_TYPE_FFA_PVP</div><div class="ttdef"><b>Definition:</b> Realm.h:61</div></div>
-<div class="ttc" id="aa04349_html_ae8ff852caf6f88797c9c3716d1acbe59a580a3990630da9c56e3fef200d6b15be"><div class="ttname"><a href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a580a3990630da9c56e3fef200d6b15be">MAX_CLIENT_REALM_TYPE</a></div><div class="ttdeci">@ MAX_CLIENT_REALM_TYPE</div><div class="ttdef"><b>Definition:</b> Realm.h:59</div></div>
-<div class="ttc" id="aa04349_html_ae8ff852caf6f88797c9c3716d1acbe59a58e3ebd90691c511e7976f5bff724fae"><div class="ttname"><a href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a58e3ebd90691c511e7976f5bff724fae">REALM_TYPE_RPPVP</a></div><div class="ttdeci">@ REALM_TYPE_RPPVP</div><div class="ttdef"><b>Definition:</b> Realm.h:57</div></div>
-<div class="ttc" id="aa04349_html_ae8ff852caf6f88797c9c3716d1acbe59a5b9f160cabace91bff99046f281b899c"><div class="ttname"><a href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a5b9f160cabace91bff99046f281b899c">REALM_TYPE_PVP</a></div><div class="ttdeci">@ REALM_TYPE_PVP</div><div class="ttdef"><b>Definition:</b> Realm.h:54</div></div>
-<div class="ttc" id="aa04349_html_ae8ff852caf6f88797c9c3716d1acbe59a81056f603f1158cb39b25f9ae8beb88f"><div class="ttname"><a href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a81056f603f1158cb39b25f9ae8beb88f">REALM_TYPE_RP</a></div><div class="ttdeci">@ REALM_TYPE_RP</div><div class="ttdef"><b>Definition:</b> Realm.h:56</div></div>
-<div class="ttc" id="aa04349_html_ae8ff852caf6f88797c9c3716d1acbe59a8529db1edd00f579cbeff7e0c2a88e19"><div class="ttname"><a href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a8529db1edd00f579cbeff7e0c2a88e19">REALM_TYPE_NORMAL2</a></div><div class="ttdeci">@ REALM_TYPE_NORMAL2</div><div class="ttdef"><b>Definition:</b> Realm.h:55</div></div>
-<div class="ttc" id="aa04349_html_ae8ff852caf6f88797c9c3716d1acbe59accb12c63a2ee89b9c3f72e5fd2b056fb"><div class="ttname"><a href="../../d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59accb12c63a2ee89b9c3f72e5fd2b056fb">REALM_TYPE_NORMAL</a></div><div class="ttdeci">@ REALM_TYPE_NORMAL</div><div class="ttdef"><b>Definition:</b> Realm.h:53</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   80</span>{</div>
+<div class="line"><span class="lineno">   81</span>    <a class="code hl_define" href="../../d4/d93/a01955.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d4/dda/a26253.html">npc_pet_pri_lightwell</a>);</div>
+<div class="line"><span class="lineno">   82</span>    <a class="code hl_define" href="../../d4/d93/a01955.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../db/db1/a26257.html">npc_pet_pri_shadowfiend</a>);</div>
+<div class="line"><span class="lineno">   83</span>}</div>
+<div class="ttc" id="aa01955_html_a5e7352841895df7117e2830448eb533f"><div class="ttname"><a href="../../d4/d93/a01955.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a></div><div class="ttdeci">#define RegisterCreatureAI(ai_name)</div><div class="ttdef"><b>Definition:</b> CreatureScript.h:71</div></div>
+<div class="ttc" id="aa26253_html"><div class="ttname"><a href="../../d4/dda/a26253.html">npc_pet_pri_lightwell</a></div><div class="ttdef"><b>Definition:</b> pet_priest.cpp:38</div></div>
+<div class="ttc" id="aa26257_html"><div class="ttname"><a href="../../db/db1/a26257.html">npc_pet_pri_shadowfiend</a></div><div class="ttdef"><b>Definition:</b> pet_priest.cpp:57</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00071">RegisterCreatureAI</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00029">AddPetScripts()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -260,8 +280,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_777a9b9a3e1a361a798e834f8fa9f1dc.html">shared</a></li><li class="navelem"><a class="el" href="../../dir_104b7121e64315d1b2361279804102a4.html">Realms</a></li><li class="navelem"><a class="el" href="../../d6/ddf/a04349.html">Realm.h</a></li>
-    <li class="footer">Generated on Sun Aug 20 2023 00:19:19 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ff1fc60aa0464e46be01116f0901446f.html">Pet</a></li><li class="navelem"><a class="el" href="../../d6/ddf/a04349.html">pet_priest.cpp</a></li>
+    <li class="footer">Generated on Wed Dec 6 2023 22:12:27 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

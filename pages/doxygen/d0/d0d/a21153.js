@@ -1,6 +1,6 @@
 var a21153 =
 [
-    [ "spell_transitus_shield_beam_AuraScript", "d5/deb/a21157.html", "d5/deb/a21157" ],
-    [ "spell_transitus_shield_beam", "d0/d0d/a21153.html#a12f283a9cdb662a3970f46ccb4a8b8d0", null ],
-    [ "GetAuraScript", "d0/d0d/a21153.html#aec1f376dea3834281a3a8ae0f8fdd318", null ]
+    [ "OnPeriodic", "d0/d0d/a21153.html#af5d62e4702bfc61a3395bead798caf26", null ],
+    [ "PrepareAuraScript", "d0/d0d/a21153.html#a1f9cbb69c43f501de8ee3781c9dfaeb7", null ],
+    [ "Register", "d0/d0d/a21153.html#ae186c056cd4eaae21fec8176701178b1", null ]
 ];

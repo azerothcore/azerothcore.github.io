@@ -1,6 +1,6 @@
 var a18321 =
 [
-    [ "spell_marrowgar_coldflame_SpellScript", "d2/d1d/a18325.html", "d2/d1d/a18325" ],
-    [ "spell_marrowgar_coldflame", "d9/d0b/a18321.html#a970658571e0389a831c67b08ae47e437", null ],
-    [ "GetSpellScript", "d9/d0b/a18321.html#ad6af67ac48209a7116293bc1cf215a1b", null ]
+    [ "HandlePeriodicTick", "d9/d0b/a18321.html#ab0b84253639dec729376e1db4ade541f", null ],
+    [ "PrepareAuraScript", "d9/d0b/a18321.html#a3d0d59e2c16b40d7fa077824a11cbd25", null ],
+    [ "Register", "d9/d0b/a18321.html#a0d0c1aac37242a31ef1be147bb000744", null ]
 ];

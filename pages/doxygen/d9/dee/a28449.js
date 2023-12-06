@@ -1,8 +1,7 @@
 var a28449 =
 [
-    [ "CheckFireTotem", "d9/dee/a28449.html#a9d6b4368f5c72b95c25415ea87575fce", null ],
-    [ "HandleDummy", "d9/dee/a28449.html#a179d07e7090cec396a7845754e545e8e", null ],
-    [ "PrepareSpellScript", "d9/dee/a28449.html#a8311cc106da26267e90acd98698cb737", null ],
-    [ "Register", "d9/dee/a28449.html#abae5a4961888e6ba2d876e450307e362", null ],
-    [ "Validate", "d9/dee/a28449.html#a2048b0e43dbe2df6e4dfc42d912a74a7", null ]
+    [ "HandleDummy", "d9/dee/a28449.html#a6990bc24605167d38772f391aa2a5376", null ],
+    [ "PrepareSpellScript", "d9/dee/a28449.html#af85da0790eb36b91266ffa45888068d6", null ],
+    [ "Register", "d9/dee/a28449.html#a619dab878b3d6e332a15d772dd148e26", null ],
+    [ "Validate", "d9/dee/a28449.html#a5a39713deabac73334442e1bdeb00aad", null ]
 ];

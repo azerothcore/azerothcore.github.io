@@ -1,6 +1,6 @@
 var a28621 =
 [
-    [ "PrepareAuraScript", "dc/d1c/a28621.html#a65fa925d99065d028e328a92f2a13805", null ],
-    [ "Register", "dc/d1c/a28621.html#a95dc732286adf4327f68e23015d58c21", null ],
-    [ "RemoveEffect", "dc/d1c/a28621.html#a3f474c143f64739187b6049cac5e4b38", null ]
+    [ "HandleRemove", "dc/d1c/a28621.html#a0ac8fe6a39ae00e50f219bf02c26f1a4", null ],
+    [ "PrepareAuraScript", "dc/d1c/a28621.html#a0517fe77f15e1b9cf6153ed2aaf9cee8", null ],
+    [ "Register", "dc/d1c/a28621.html#ac968ede75fd5d98ba9a10dc9f6bdbb85", null ]
 ];

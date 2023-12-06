@@ -1,11 +1,7 @@
 var a18989 =
 [
-    [ "AfterDispel", "db/dbf/a18989.html#a7ea2a9d7a38ccad25b3c4830a18bf7d4", null ],
-    [ "Load", "db/dbf/a18989.html#ac7f96f56f35b0ae2eb835942a6e66f29", null ],
-    [ "OnApply", "db/dbf/a18989.html#a958378226cd6e1216fb7ad6c1a16ba83", null ],
-    [ "OnDispel", "db/dbf/a18989.html#a8af65ca29a6ea262a44ab812ca759800", null ],
-    [ "OnRemove", "db/dbf/a18989.html#a005966e3e4f6d499a9f26f98a65d2e9c", null ],
-    [ "PrepareAuraScript", "db/dbf/a18989.html#a07526da3cbb5875e157568142c8afb4a", null ],
-    [ "Register", "db/dbf/a18989.html#a28d42b9a181df20cc3f2a4ead8e37f0d", null ],
-    [ "_lastAmount", "db/dbf/a18989.html#a7e5999a9773e5771d7c30e39b1ccafb7", null ]
+    [ "HandleScript", "db/dbf/a18989.html#a1cbda75200fc754df8956a89f4794170", null ],
+    [ "PrepareSpellScript", "db/dbf/a18989.html#ac5b9fdf33f2c66dfc0504f0cdb69643c", null ],
+    [ "Register", "db/dbf/a18989.html#a4e77e8ad632c77a465b1ac97e57c71b4", null ],
+    [ "Validate", "db/dbf/a18989.html#aef9232087ab1a58be49feffaa58b20d9", null ]
 ];

@@ -1,9 +1,5 @@
 var a21985 =
 [
-    [ "npc_xt002_pummellerAI", "dd/d80/a21985.html#a2942c05c93036c2e02b9a72c784441b1", null ],
-    [ "Reset", "dd/d80/a21985.html#a6542fb3e585f100f06f6be14a1346306", null ],
-    [ "UpdateAI", "dd/d80/a21985.html#a959990310303ff2102f1c03852b4ab8e", null ],
-    [ "_arcingSmashTimer", "dd/d80/a21985.html#a830fda66756dc3f34a530939116e7556", null ],
-    [ "_trampleTimer", "dd/d80/a21985.html#ae5e450601861f83b20419405bb92ef6d", null ],
-    [ "_uppercutTimer", "dd/d80/a21985.html#a5a1bdb380438070effc091ec37db6aec", null ]
+    [ "achievement_thorim_stand_in_the_lightning", "dd/d80/a21985.html#a9339e89e4eb76151fdeacb6bcd53d7bc", null ],
+    [ "OnCheck", "dd/d80/a21985.html#ade1aec4de4c503be5a62da3e6c35e90f", null ]
 ];

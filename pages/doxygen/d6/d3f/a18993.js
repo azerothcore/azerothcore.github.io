@@ -1,6 +1,6 @@
 var a18993 =
 [
-    [ "spell_the_lich_king_shadow_trap_visual_AuraScript", "db/d01/a18997.html", "db/d01/a18997" ],
-    [ "spell_the_lich_king_shadow_trap_visual", "d6/d3f/a18993.html#a1ac053abada6c7051f61a47b0ecac2b2", null ],
-    [ "GetAuraScript", "d6/d3f/a18993.html#af43f303164e305bb66d4e54108591e49", null ]
+    [ "npc_shambling_horror_iccAI", "db/d01/a18997.html", "db/d01/a18997" ],
+    [ "npc_shambling_horror_icc", "d6/d3f/a18993.html#a68219e0c6e79f5e7bed1f353d7bb5bcb", null ],
+    [ "GetAI", "d6/d3f/a18993.html#a96fd525fcb34e793b1fc3fc5179e92ec", null ]
 ];

@@ -1,6 +1,7 @@
 var a24493 =
 [
-    [ "FilterTargets", "d6/d49/a24493.html#a0a74b1ae8e3e8b1319219fdb9f2594af", null ],
-    [ "PrepareSpellScript", "d6/d49/a24493.html#aa33cc61b79407e3998b7ff3dd03e81d9", null ],
-    [ "Register", "d6/d49/a24493.html#a40a19212bf9f77f7377f0c3feeffa4b1", null ]
+    [ "SuckBackEvent", "d6/d49/a24493.html#a6525e2aefec2680fde20e27ebf962f4c", null ],
+    [ "Execute", "d6/d49/a24493.html#aae1664e6ef9d90ec8a0e12554b991bf0", null ],
+    [ "_action", "d6/d49/a24493.html#abc54669df2dba0238723a40ababe4c0a", null ],
+    [ "_owner", "d6/d49/a24493.html#a4d8bc09803f7786022c1836457ded488", null ]
 ];

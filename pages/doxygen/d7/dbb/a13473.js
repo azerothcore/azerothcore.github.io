@@ -1,7 +1,10 @@
 var a13473 =
 [
-    [ "npc_calvin_montagueAI", "dc/dfe/a13477.html", "dc/dfe/a13477" ],
-    [ "npc_calvin_montague", "d7/dbb/a13473.html#af8af2896fc3e32a4285c3559c6f14456", null ],
-    [ "GetAI", "d7/dbb/a13473.html#a556f29fca6310d0e12bb3e0a7bf12f84", null ],
-    [ "OnQuestAccept", "d7/dbb/a13473.html#aae8c6adcb7ec68146b5b96a65b76e72b", null ]
+    [ "npc_grand_magister_rommathAI", "d7/dbb/a13473.html#a5e9404dd8bf4b513e05daac53c076314", null ],
+    [ "DoAction", "d7/dbb/a13473.html#a138bc8cd6f1312d83fefdf5499a479b7", null ],
+    [ "MoveInLineOfSight", "d7/dbb/a13473.html#ad35b64b37915484b133bcd185a832011", null ],
+    [ "UpdateAI", "d7/dbb/a13473.html#ac687bd20f0ae66b21ce52c21561af417", null ],
+    [ "announced", "d7/dbb/a13473.html#a4c9107ef5d4a85d7487ff4cf7bf6464a", null ],
+    [ "events", "d7/dbb/a13473.html#a4c1b6616bc88a9ad5074670843315bc6", null ],
+    [ "playerGUID", "d7/dbb/a13473.html#ad0ac0647feb998e837a44b0a688694e9", null ]
 ];

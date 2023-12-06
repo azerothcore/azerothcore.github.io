@@ -1,16 +1,11 @@
 var a05065 =
 [
-    [ "LogMessage", "d7/d59/a05065.html#a563286e5cd6518e04b3069a86cf6e972", null ],
-    [ "LogMessage", "d7/d59/a05065.html#a0a5626d481fe047437f213f1fa48a3aa", null ],
-    [ "LogMessage", "d7/d59/a05065.html#a727fa3a719c50572711ada4e257102ab", null ],
-    [ "getTimeStr", "d7/d59/a05065.html#aaeca452ae2fe32e7412f4abc30642da2", null ],
-    [ "getTimeStr", "d7/d59/a05065.html#af40f502e57bf12f31fc7a2fe60584fc8", null ],
-    [ "operator=", "d7/d59/a05065.html#af35b8fc183cb1848e965117497f50ab4", null ],
-    [ "Size", "d7/d59/a05065.html#ad2947063f8263da27acc82ce0bba6bc2", null ],
-    [ "level", "d7/d59/a05065.html#a44096654072d07e506ef6414a8ce4970", null ],
-    [ "mtime", "d7/d59/a05065.html#a2dab9ed7c1aa8b784e74247667295e29", null ],
-    [ "param1", "d7/d59/a05065.html#afcf2119e7c084339bd70e2ffb4c88d0e", null ],
-    [ "prefix", "d7/d59/a05065.html#afe279a591acc9740457c3cd58d43a263", null ],
-    [ "text", "d7/d59/a05065.html#a4ad799611980177ae87f3acbf2af8ff7", null ],
-    [ "type", "d7/d59/a05065.html#a77105c721645df5654e3c48ce00c2b5a", null ]
+    [ "Record", "d7/d59/a05065.html#a3303a6b7ba364777e368158052dbe1db", null ],
+    [ "getFloat", "d7/d59/a05065.html#aafb357a6edde22e701ebf85a41e1c10c", null ],
+    [ "getString", "d7/d59/a05065.html#a6b4d735fe15b3cbec91c2cd0443f9433", null ],
+    [ "getUInt", "d7/d59/a05065.html#a79d3aefe42e57f12c0e0c003fa0c907d", null ],
+    [ "getUInt8", "d7/d59/a05065.html#ac7b1685d2eae5fb64b08fb78bc08c056", null ],
+    [ "DBCFileLoader", "d7/d59/a05065.html#aa9814b507b472e781e08c803e025cc72", null ],
+    [ "file", "d7/d59/a05065.html#a146dc23a5f24a0d8a1a34f29375b9bcd", null ],
+    [ "offset", "d7/d59/a05065.html#a06e2c90771be91d9ca948840a07125e8", null ]
 ];

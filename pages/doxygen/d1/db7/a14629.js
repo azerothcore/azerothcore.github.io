@@ -1,6 +1,7 @@
 var a14629 =
 [
-    [ "npc_fel_stalkerAI", "d3/d00/a14633.html", "d3/d00/a14633" ],
-    [ "npc_fel_stalker", "d1/db7/a14629.html#af761ceff017a17061c22b61ef0fe4a6d", null ],
-    [ "GetAI", "d1/db7/a14629.html#a4b49f284f8f9b20843d2841bd8e8b7a8", null ]
+    [ "npc_jaina_proudmoore", "d1/db7/a14629.html#a433852570ca07cc535583712e104cd1e", null ],
+    [ "GetAI", "d1/db7/a14629.html#a55725bb8841810daaa288fa2ac0dcd91", null ],
+    [ "OnGossipHello", "d1/db7/a14629.html#a9a392413becf209d2dcf82fc2aeaa3e3", null ],
+    [ "OnGossipSelect", "d1/db7/a14629.html#aa6e9fe8cd2003418dabf4c787e31f036", null ]
 ];

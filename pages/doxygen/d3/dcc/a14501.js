@@ -1,6 +1,9 @@
 var a14501 =
 [
-    [ "spell_red_sky_effect_SpellScript", "d1/d89/a14505.html", "d1/d89/a14505" ],
-    [ "spell_red_sky_effect", "d3/dcc/a14501.html#ab7c4a9fc6ef6606435dc29612858a681", null ],
-    [ "GetSpellScript", "d3/dcc/a14501.html#a94107e2cb59b9b4b7410bebf70a94eee", null ]
+    [ "boss_azuregosAI", "d3/dcc/a14501.html#a839ab1e096d30062d64c1c515a7462a4", null ],
+    [ "JustDied", "d3/dcc/a14501.html#aea4d204173b7882d2d9acf8204410947", null ],
+    [ "JustEngagedWith", "d3/dcc/a14501.html#ac17c09d4de27e3b3a299bb8288ef79f8", null ],
+    [ "KilledUnit", "d3/dcc/a14501.html#aeefc791e17d2a687f8beae809c44d123", null ],
+    [ "Reset", "d3/dcc/a14501.html#a3f9584a7cf4e27f57eec2c5babb7aff1", null ],
+    [ "UpdateAI", "d3/dcc/a14501.html#aafdfce2d21d5890ead413a2d9fe1b65d", null ]
 ];

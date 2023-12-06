@@ -1,5 +1,6 @@
 var a16785 =
 [
-    [ "npc_essence_of_twin", "de/da6/a16785.html#a019de64e5e01e611acfda5db4c279b19", null ],
-    [ "OnGossipHello", "de/da6/a16785.html#a6f37b7f1152098b41b07ddbae3613c63", null ]
+    [ "boss_dreadscaleAI", "da/dc9/a16789.html", "da/dc9/a16789" ],
+    [ "boss_dreadscale", "de/da6/a16785.html#ab3276e515419303358b0ee59bc92c12e", null ],
+    [ "GetAI", "de/da6/a16785.html#ab8c8cebfa6843404338ea5bc3ac8f3f7", null ]
 ];

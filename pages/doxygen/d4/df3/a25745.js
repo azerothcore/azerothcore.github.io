@@ -1,6 +1,6 @@
 var a25745 =
 [
-    [ "spell_the_eye_counterchargeScript", "de/d70/a25749.html", "de/d70/a25749" ],
-    [ "spell_the_eye_countercharge", "d4/df3/a25745.html#a6e2db367be6755ba4a044bedf711bfa4", null ],
-    [ "GetAuraScript", "d4/df3/a25745.html#ac0ac3dd562a2264a19203bb201398551", null ]
+    [ "go_apexis_relic", "d4/df3/a25745.html#a91ff5a986ee62b628456e9f5c75f6bc9", null ],
+    [ "OnGossipHello", "d4/df3/a25745.html#ae8f7167ba5b973881e32d604691dc15a", null ],
+    [ "OnGossipSelect", "d4/df3/a25745.html#a025cc7cc9c69f0eb461445170972ab52", null ]
 ];

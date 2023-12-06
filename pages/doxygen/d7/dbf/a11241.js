@@ -1,12 +1,9 @@
 var a11241 =
 [
-    [ "wp_commandscript", "d7/dbf/a11241.html#a152610b5faf3ee05bb830bbf820b7162", null ],
-    [ "GetCommands", "d7/dbf/a11241.html#a55ecc8d67d7c240df1b177f755fc5850", null ],
-    [ "HandleWpAddCommand", "d7/dbf/a11241.html#adedc9b5184e1c29edfa80734e59b8bf0", null ],
-    [ "HandleWpEventCommand", "d7/dbf/a11241.html#a16fdb79724677307198ccf2fd6aa670d", null ],
-    [ "HandleWpLoadCommand", "d7/dbf/a11241.html#a3fae6e6c16f1f6ed1e9dc9da716d064d", null ],
-    [ "HandleWpModifyCommand", "d7/dbf/a11241.html#a83677a6b64c3e5f6e44345026775721a", null ],
-    [ "HandleWpReloadCommand", "d7/dbf/a11241.html#a671598d3727fa7e9358391008c690cb6", null ],
-    [ "HandleWpShowCommand", "d7/dbf/a11241.html#ac07358385858058e3df99bd0dd9ab5c1", null ],
-    [ "HandleWpUnLoadCommand", "d7/dbf/a11241.html#a8e0f636c31f69acf5b9b0b27e9a9462e", null ]
+    [ "event_commandscript", "d7/dbf/a11241.html#a160db0ad8874b0834ef863043b1796ae", null ],
+    [ "GetCommands", "d7/dbf/a11241.html#aac32a7f3d2d11dc73dfa3e9f8224560e", null ],
+    [ "HandleEventActiveListCommand", "d7/dbf/a11241.html#a6752be35103bb585984083a449c85714", null ],
+    [ "HandleEventInfoCommand", "d7/dbf/a11241.html#a1f0815bccd6cef61826ada4e349708d9", null ],
+    [ "HandleEventStartCommand", "d7/dbf/a11241.html#ad46dbd8892db3548d889d4127461c8e3", null ],
+    [ "HandleEventStopCommand", "d7/dbf/a11241.html#a1322b3206a1846dc0404a3fb5c74e025", null ]
 ];

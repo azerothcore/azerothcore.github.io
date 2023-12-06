@@ -1,6 +1,5 @@
 var a26153 =
 [
-    [ "PrepareSpellScript", "de/d5b/a26153.html#af3b609cbed22852cbf5f5d98c35e6ea3", null ],
-    [ "Register", "de/d5b/a26153.html#a0ae70c050d3ca489b86f68c0b9e4161b", null ],
-    [ "SetDest", "de/d5b/a26153.html#a11fcadef3fbf86766882af123e55be89", null ]
+    [ "npc_pet_dk_ghoulAI", "de/d5b/a26153.html#a7e747ba9e709eb532b0c16c8a1c1763a", null ],
+    [ "JustDied", "de/d5b/a26153.html#a7d964fafeb0a7746a7749a9e0eb93080", null ]
 ];

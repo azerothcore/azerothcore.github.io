@@ -1,6 +1,7 @@
 var a27925 =
 [
-    [ "HandleDummy", "d2/de7/a27925.html#a1e9ecf50304f5ccd8578befea898bf81", null ],
-    [ "PrepareSpellScript", "d2/de7/a27925.html#a9cf7d1dd37f6df4651ffc83e6aa0b1c0", null ],
-    [ "Register", "d2/de7/a27925.html#a98a5ad12cdb54f48d6014fda3915fd70", null ]
+    [ "HandleScriptEffect", "d2/de7/a27925.html#ad3497a9c986f65978d4b2553b0c9958f", null ],
+    [ "Load", "d2/de7/a27925.html#a33d46e5ebd418ea0242d958345cb44d2", null ],
+    [ "PrepareSpellScript", "d2/de7/a27925.html#ade09cd376d00df8b5e709026e353f409", null ],
+    [ "Register", "d2/de7/a27925.html#ad04bf0d88a3e1fde3c11b91d5ef1c7ae", null ]
 ];

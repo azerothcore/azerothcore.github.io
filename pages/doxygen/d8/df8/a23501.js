@@ -1,6 +1,7 @@
 var a23501 =
 [
-    [ "npc_razael_and_lyana", "d8/df8/a23501.html#aec7257a1136a3580e2b4542e032429d6", null ],
-    [ "OnGossipHello", "d8/df8/a23501.html#a9c9085db92853d5275c12e804a68b0fc", null ],
-    [ "OnGossipSelect", "d8/df8/a23501.html#a407d8344280e8e38efb3991fda1d52cd", null ]
+    [ "HandleScript", "d8/df8/a23501.html#a7fec959237546201ea94d5f87068e1c5", null ],
+    [ "PrepareSpellScript", "d8/df8/a23501.html#ae0c3eafc8b227078a2dcaccf1c0a278b", null ],
+    [ "Register", "d8/df8/a23501.html#a0aab07a4950f60a290491aa13103b332", null ],
+    [ "Validate", "d8/df8/a23501.html#a92d5493a43fca5c54ef89cb19ce00aa2", null ]
 ];

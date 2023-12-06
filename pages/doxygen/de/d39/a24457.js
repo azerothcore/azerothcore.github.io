@@ -1,6 +1,6 @@
 var a24457 =
 [
-    [ "boss_essence_of_sufferingAI", "df/d93/a24461.html", "df/d93/a24461" ],
-    [ "boss_essence_of_suffering", "de/d39/a24457.html#a1237f428657f0e9a0218695264358384", null ],
-    [ "GetAI", "de/d39/a24457.html#adb54519bdf220cb3e30c81627c1ba11a", null ]
+    [ "PrepareAuraScript", "de/d39/a24457.html#a4d7b95b47101de1816471ae791d07c8f", null ],
+    [ "Register", "de/d39/a24457.html#a9eaa8dbf0e49a730995612a97e4a2ad7", null ],
+    [ "Update", "de/d39/a24457.html#a2c4f89bacab62cbe83c48a3d4381f198", null ]
 ];

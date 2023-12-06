@@ -1,9 +1,6 @@
 var a27997 =
 [
-    [ "CheckCast", "dd/d3d/a27997.html#ad6b60c449d57503508c9a94ca6e919f9", null ],
-    [ "HandleDummy", "dd/d3d/a27997.html#a7f79495525687fba6229f48935b2558a", null ],
-    [ "Load", "dd/d3d/a27997.html#a0c73457e44a3d64bdccee78d28893672", null ],
-    [ "PrepareSpellScript", "dd/d3d/a27997.html#a4826d7b257ee05bfe0d6db3d30a924e9", null ],
-    [ "Register", "dd/d3d/a27997.html#ab9f09394ab301350a2abaefde90632fe", null ],
-    [ "Validate", "dd/d3d/a27997.html#a9b9d5f862e9910f1a12780ff54b067ca", null ]
+    [ "HandleFinish", "dd/d3d/a27997.html#a53263ce51581f36c2df80b49c93fa9d3", null ],
+    [ "PrepareSpellScript", "dd/d3d/a27997.html#a8113f61816473399f0ceab18b104d058", null ],
+    [ "Register", "dd/d3d/a27997.html#a36bf50cdb7be7ba03eafd4848c6ceced", null ]
 ];

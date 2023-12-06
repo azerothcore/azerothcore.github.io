@@ -1,5 +1,6 @@
 var a18557 =
 [
-    [ "RotfaceHeightCheck", "d2/d7a/a18557.html#aabdeaee465989c339fc7a3f186e20498", null ],
-    [ "operator()", "d2/d7a/a18557.html#a585743e0e76c64a5caa37acab46d04d5", null ]
+    [ "HandleSummon", "d2/d7a/a18557.html#a5389b8f55d78c1733359dd1cadb203ff", null ],
+    [ "PrepareSpellScript", "d2/d7a/a18557.html#aeee6f9c93136065ad7a97bbe8df73bb1", null ],
+    [ "Register", "d2/d7a/a18557.html#aeb51460cc2391eea79182fbc90927a76", null ]
 ];

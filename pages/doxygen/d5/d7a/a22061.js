@@ -1,6 +1,6 @@
 var a22061 =
 [
-    [ "boss_yoggsaron_saraAI", "dc/d3f/a22065.html", "dc/d3f/a22065" ],
-    [ "boss_yoggsaron_sara", "d5/d7a/a22061.html#aaf5bd5440122f6c97315b0e3b9d47586", null ],
-    [ "GetAI", "d5/d7a/a22061.html#abc83e0f3a7d12a84ea283e5b2a69826d", null ]
+    [ "PrepareSpellScript", "d5/d7a/a22061.html#a2f3f6c30edab28a8ca74dd8fe25f40e5", null ],
+    [ "Register", "d5/d7a/a22061.html#aa104a9e1fc0aa88ee8505d41769b2acd", null ],
+    [ "SelectTarget", "d5/d7a/a22061.html#a4a89ac5c151f6c7b8f908d2e93d12c9b", null ]
 ];

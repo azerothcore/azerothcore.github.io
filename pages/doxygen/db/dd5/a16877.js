@@ -1,6 +1,6 @@
 var a16877 =
 [
-    [ "spell_novos_crystal_handler_death_AuraScript", "d3/d4a/a16881.html", "d3/d4a/a16881" ],
-    [ "spell_novos_crystal_handler_death", "db/dd5/a16877.html#a65593cebb22a85b9381693bccbd1d8fe", null ],
-    [ "GetAuraScript", "db/dd5/a16877.html#adf4b7fe72615236141b1d7757ef921e4", null ]
+    [ "spell_dred_grievious_bite_AuraScript", "d3/d4a/a16881.html", "d3/d4a/a16881" ],
+    [ "spell_dred_grievious_bite", "db/dd5/a16877.html#ad24f70f1aff2fdf7a87e1a839b0c718a", null ],
+    [ "GetAuraScript", "db/dd5/a16877.html#a5ab85c63e2537c621dde39e4f3d147e9", null ]
 ];

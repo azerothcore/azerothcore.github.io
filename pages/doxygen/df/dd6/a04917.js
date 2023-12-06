@@ -1,7 +1,7 @@
 var a04917 =
 [
-    [ "SymbolPair", "df/dd6/a04917.html#ad6b1fba614fa7de6471c56078b62c57d", null ],
-    [ "operator<", "df/dd6/a04917.html#a94b5b6c8c41fb53aa2a28e089d495545", null ],
-    [ "_offset", "df/dd6/a04917.html#ac011ac111d0ced8871d315e164948bea", null ],
-    [ "_type", "df/dd6/a04917.html#a50579f45ce4d7ef0155bac20b1958254", null ]
+    [ "GameobjectModelData", "df/dd6/a04917.html#a7d259df5a5541f95e0f548674d023fc8", null ],
+    [ "bound", "df/dd6/a04917.html#ab133a32c9eefff0a35acaa4e157a3f05", null ],
+    [ "isWmo", "df/dd6/a04917.html#ac51305f0d800ff993e9a9cba2ccb6939", null ],
+    [ "name", "df/dd6/a04917.html#ac8a053b6f01a9917ee6b1fc2a738bb4e", null ]
 ];

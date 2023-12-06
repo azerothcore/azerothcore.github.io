@@ -1,6 +1,6 @@
 var a21177 =
 [
-    [ "achievement_flame_leviathan_towers", "d0/d40/a21177.html#a491d66bdd373b6044e406126719ef910", null ],
-    [ "OnCheck", "d0/d40/a21177.html#ad6e9dee3f05afaca0a355b714bf75ea6", null ],
-    [ "_towerCount", "d0/d40/a21177.html#a1099385340b30a1a75655e2e7d2ba3cc", null ]
+    [ "CheckAreaTarget", "d0/d40/a21177.html#a2ea4771a1079520e32c624781b017487", null ],
+    [ "PrepareAuraScript", "d0/d40/a21177.html#a7ed17e813528a3fb34f1547773e8fc5d", null ],
+    [ "Register", "d0/d40/a21177.html#a2512c96e6d8f77cc2e7526641cf6e9c2", null ]
 ];

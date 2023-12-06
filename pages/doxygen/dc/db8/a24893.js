@@ -1,6 +1,6 @@
 var a24893 =
 [
-    [ "spell_hydross_cleansing_field_command_AuraScript", "d2/da0/a24897.html", "d2/da0/a24897" ],
-    [ "spell_hydross_cleansing_field_command", "dc/db8/a24893.html#ad7b71c3bfbc49ec1ffa4a0f32fc8af9b", null ],
-    [ "GetAuraScript", "dc/db8/a24893.html#af27405cc94892bf99589e2357dfde993", null ]
+    [ "HandleEffectApply", "dc/db8/a24893.html#adbfce9b247a8a36d143243955372dc91", null ],
+    [ "PrepareAuraScript", "dc/db8/a24893.html#a7a04c4f4c9cb1070d02d58bfa3d0c8e6", null ],
+    [ "Register", "dc/db8/a24893.html#afb919ed484440d382b9d1ac7cf6f3f14", null ]
 ];

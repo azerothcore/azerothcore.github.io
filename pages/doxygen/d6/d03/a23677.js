@@ -1,6 +1,6 @@
 var a23677 =
 [
-    [ "npc_vekjik", "d6/d03/a23677.html#a7439c6038237b77ba8623ae92d6cf708", null ],
-    [ "OnGossipHello", "d6/d03/a23677.html#acdbba5b4970049e72477eccf6672b0e8", null ],
-    [ "OnGossipSelect", "d6/d03/a23677.html#a0bcdcb6cd57264e664c449e261d3580b", null ]
+    [ "spell_q12726_song_of_wind_and_water_SpellScript", "dc/d0d/a23681.html", "dc/d0d/a23681" ],
+    [ "spell_q12726_song_of_wind_and_water", "d6/d03/a23677.html#ae720af3421176dd403fda9595a7198ac", null ],
+    [ "GetSpellScript", "d6/d03/a23677.html#a70f8ad13d4f1d992675ba27188f2eddc", null ]
 ];

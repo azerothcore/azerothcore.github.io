@@ -1,7 +1,8 @@
 var a10513 =
 [
-    [ "EncryptablePacket", "df/d4d/a10513.html#a2c9d552b144b45ba398d9495493b3bea", null ],
-    [ "NeedsEncryption", "df/d4d/a10513.html#a18d94aef5d527c763df96ee82958fff2", null ],
-    [ "_encrypt", "df/d4d/a10513.html#a850a670a65433a381d1a3a305c70fb83", null ],
-    [ "SocketQueueLink", "df/d4d/a10513.html#a3a93402981a1fd31c84280f3852e37a1", null ]
+    [ "PetSpellAutocast", "df/d4d/a10513.html#ab858647d14031a2a6109d1e923402d08", null ],
+    [ "Read", "df/d4d/a10513.html#a5c94e7acc04efbb2a50695ed4fdf7036", null ],
+    [ "AutocastEnabled", "df/d4d/a10513.html#a3c04543dcd5382682654b3860b84c6a3", null ],
+    [ "PetGUID", "df/d4d/a10513.html#aeed828abebf683078ee61204c91e28c9", null ],
+    [ "SpellID", "df/d4d/a10513.html#a9afcd8b8bbd2e2fd07bc59219b1a80da", null ]
 ];

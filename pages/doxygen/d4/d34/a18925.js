@@ -1,6 +1,7 @@
 var a18925 =
 [
-    [ "spell_the_lich_king_quake_SpellScript", "dc/d09/a18929.html", "dc/d09/a18929" ],
-    [ "spell_the_lich_king_quake", "d4/d34/a18925.html#a46c3e7e4f08cc1b162e6ce6ee7add14e", null ],
-    [ "GetSpellScript", "d4/d34/a18925.html#a5212f9a94e700016a26900fef5d4091e", null ]
+    [ "TriggerWickedSpirit", "d4/d34/a18925.html#ace62bc037a2bd8ca9c9c56202eb811e7", null ],
+    [ "Execute", "d4/d34/a18925.html#a7c8f1b5c33fac4d6a7cd89e3e71aa36d", null ],
+    [ "_counter", "d4/d34/a18925.html#a24b85a62208f881418f97b0a8cb10f27", null ],
+    [ "_owner", "d4/d34/a18925.html#ab460675158bfedd7f17a4b8e1cc06b3c", null ]
 ];

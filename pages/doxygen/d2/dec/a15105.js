@@ -1,6 +1,6 @@
 var a15105 =
 [
-    [ "OnPeriodic", "d2/dec/a15105.html#a08dce8b98afadc134166a615b4496151", null ],
-    [ "PrepareAuraScript", "d2/dec/a15105.html#a9ebb34665b176e4e60f085da65183d8e", null ],
-    [ "Register", "d2/dec/a15105.html#a6a04dbb7c66324e701a8db0ee0334123", null ]
+    [ "HandleScript", "d2/dec/a15105.html#a88551ffd3dbe4fb9cc122a68813234f0", null ],
+    [ "PrepareSpellScript", "d2/dec/a15105.html#ae4d8cad1b5de248a30085142fcc2cc7b", null ],
+    [ "Register", "d2/dec/a15105.html#a434f0aef7f32edb6990efb992e4d57af", null ]
 ];

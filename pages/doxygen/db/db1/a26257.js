@@ -1,6 +1,6 @@
 var a26257 =
 [
-    [ "npc_pet_dk_army_of_the_deadAI", "d3/d25/a26261.html", "d3/d25/a26261" ],
-    [ "npc_pet_dk_army_of_the_dead", "db/db1/a26257.html#a0029b9a6bf26ac3419e580d437a0139f", null ],
-    [ "GetAI", "db/db1/a26257.html#a1883936b7f2905f67d3750faa8caf635", null ]
+    [ "npc_pet_pri_shadowfiend", "db/db1/a26257.html#ac35e3bcf59dc2d65a313e315516ea09b", null ],
+    [ "JustDied", "db/db1/a26257.html#a6d50edf62bf4547117f3f7b5b520f71b", null ],
+    [ "Reset", "db/db1/a26257.html#aeff1bada59ee80ae0166a82207729bad", null ]
 ];

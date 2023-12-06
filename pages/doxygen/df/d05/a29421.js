@@ -1,6 +1,5 @@
 var a29421 =
 [
-    [ "npc_stable_masterAI", "dd/dbc/a29425.html", "dd/dbc/a29425" ],
-    [ "npc_stable_master", "df/d05/a29421.html#ad327340f47e10bec7f077192227b0899", null ],
-    [ "GetAI", "df/d05/a29421.html#a7e34e18d2dad465eb88b0388fa830490", null ]
+    [ "ServerMailReward", "df/d05/a29421.html#aba48b4c171e8e8a40fca2d3bed6b7f63", null ],
+    [ "OnLogin", "df/d05/a29421.html#a8ab4fb6042c3f32ca327cf965330afd2", null ]
 ];

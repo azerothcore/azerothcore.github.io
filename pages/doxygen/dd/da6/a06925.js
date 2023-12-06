@@ -1,10 +1,9 @@
 var a06925 =
 [
-    [ "OwnerId", "dd/da6/a06925.html#ae6203d7a867838b279825925841a99df", null ],
-    [ "PrevOwnerId", "dd/da6/a06925.html#a8357cc41fe125545d473c1f14c3ffa05", null ],
-    [ "PrevState", "dd/da6/a06925.html#ab97cde6dcd3c3e91bb94bf39d104bf77", null ],
-    [ "State", "dd/da6/a06925.html#a6e2b1f8c232c27ab24e3ca8bca8f6b03", null ],
-    [ "Timer", "dd/da6/a06925.html#a945afa538fc0dd1a4be11f5b5ac74bcb", null ],
-    [ "TotalOwnerId", "dd/da6/a06925.html#aec31f39eb98a3686ead3b1b99c7abfde", null ],
-    [ "Tower", "dd/da6/a06925.html#a222db96ad937e31986c0c39a5a371dd7", null ]
+    [ "entryAlliance", "dd/da6/a06925.html#a0e5dba26d6d335a9d1e5f40e737acddd", null ],
+    [ "entryHorde", "dd/da6/a06925.html#a374fff4b069e89489395246f378b4900", null ],
+    [ "o", "dd/da6/a06925.html#af8a4ec46795bcdbc77c76302a4cfe639", null ],
+    [ "x", "dd/da6/a06925.html#ab557bbe497fc769b390cf0799b6aaed9", null ],
+    [ "y", "dd/da6/a06925.html#a44a8f3fd8d3cac7cfe61471d8b785ad4", null ],
+    [ "z", "dd/da6/a06925.html#adebb903a00687e17d9088f5da2c97f4a", null ]
 ];

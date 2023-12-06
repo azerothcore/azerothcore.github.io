@@ -1,6 +1,6 @@
 var a14745 =
 [
-    [ "npc_crate_helperAI", "d4/d54/a14745.html#ad58a2f3746da7862658fb3b9e1580836", null ],
-    [ "SpellHit", "d4/d54/a14745.html#a785bb6fdb254a050a5c5e3e9df49a850", null ],
-    [ "_marked", "d4/d54/a14745.html#a0e718e519af661b73ed7bcd87ffbea32", null ]
+    [ "boss_epochAI", "da/daf/a14749.html", "da/daf/a14749" ],
+    [ "boss_epoch", "d4/d54/a14745.html#a78b7d775bc3fc44496e41c58f2ed534d", null ],
+    [ "GetAI", "d4/d54/a14745.html#a2673a4fb8c70d62009dfdc6daf23aee2", null ]
 ];

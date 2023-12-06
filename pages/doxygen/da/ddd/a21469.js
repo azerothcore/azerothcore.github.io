@@ -1,7 +1,6 @@
 var a21469 =
 [
-    [ "HandleAfterEffectApply", "da/ddd/a21469.html#add8b4a77e26980097d82970fc1e6af37", null ],
-    [ "PrepareAuraScript", "da/ddd/a21469.html#a28320bc19a9db3f6aeab5f28145290fb", null ],
-    [ "Register", "da/ddd/a21469.html#ae1ec61eeaa82583d76fae73ea631af33", null ],
-    [ "AuraEffectHandleModes", "da/ddd/a21469.html#a1f1ea305f50cd04c5970fdef68c9a516", null ]
+    [ "spell_hodir_biting_cold_player_aura_AuraScript", "d6/dd0/a21473.html", "d6/dd0/a21473" ],
+    [ "spell_hodir_biting_cold_player_aura", "da/ddd/a21469.html#ae974a923636279b508e4cd44b9e6ae04", null ],
+    [ "GetAuraScript", "da/ddd/a21469.html#a26c18d3b8acb2e33e1aac688192c6afd", null ]
 ];

@@ -1,8 +1,6 @@
 var a24745 =
 [
-    [ "HandleEffectApply", "d3/ddf/a24745.html#a9bae91dcef4fd812e0ab11ba7c86f8d1", null ],
-    [ "HandleEffectRemove", "d3/ddf/a24745.html#ab648c35f6fa0ce78d9d4dfecd521ad87", null ],
-    [ "PrepareAuraScript", "d3/ddf/a24745.html#a7152cc3e7284f15629b954e6fe6302bd", null ],
-    [ "Register", "d3/ddf/a24745.html#a6e194b4ba74848b494a3d2277648e7af", null ],
-    [ "_turtleSet", "d3/ddf/a24745.html#a3489e8ed397307339cf9fa6c6728f1c5", null ]
+    [ "HandleScriptEffect", "d3/ddf/a24745.html#a8b48755152dd8e69ba9af49039f5d9e7", null ],
+    [ "PrepareSpellScript", "d3/ddf/a24745.html#a57b4b8dd9711b87e09473203229d6476", null ],
+    [ "Register", "d3/ddf/a24745.html#adb82970b2a99f0b692506c6c9fdfec44", null ]
 ];

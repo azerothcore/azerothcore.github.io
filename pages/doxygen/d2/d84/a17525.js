@@ -1,6 +1,6 @@
 var a17525 =
 [
-    [ "spell_galdarah_transform_SpellScript", "de/d61/a17529.html", "de/d61/a17529" ],
-    [ "spell_galdarah_transform", "d2/d84/a17525.html#a7b6274f92cba8b668787072d497e097b", null ],
-    [ "GetSpellScript", "d2/d84/a17525.html#a4561dfda971dc99defa54778a86afa2b", null ]
+    [ "HandleDummy", "d2/d84/a17525.html#ab705f48fb447a98343ddbccca22ec08a", null ],
+    [ "PrepareSpellScript", "d2/d84/a17525.html#a4daa358bab055481bd3e82c2ff0959a6", null ],
+    [ "Register", "d2/d84/a17525.html#a075190adbf978b2d015b69a68da9bbc0", null ]
 ];

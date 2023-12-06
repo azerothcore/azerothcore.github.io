@@ -1,6 +1,6 @@
 var a16329 =
 [
-    [ "spell_saviana_conflagration_throwback_SpellScript", "de/dd1/a16333.html", "de/dd1/a16333" ],
-    [ "spell_saviana_conflagration_throwback", "d4/d01/a16329.html#a078d8c95f77c99ab01027b72bc5d7167", null ],
-    [ "GetSpellScript", "d4/d01/a16329.html#aabe1dbbe6627cafc2ca6b3ef83a053b9", null ]
+    [ "HandleDummy", "d4/d01/a16329.html#a7256bc5b2bcb056db8b0d43c3e413f84", null ],
+    [ "PrepareSpellScript", "d4/d01/a16329.html#a3d487f436e0d69dcbe8378f4ec82e7b2", null ],
+    [ "Register", "d4/d01/a16329.html#a54f2aa30b6c05f85fd40ee26a6008c51", null ]
 ];

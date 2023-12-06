@@ -1,7 +1,7 @@
 var a20177 =
 [
-    [ "boss_naxxramas_miscAI", "d7/d09/a20177.html#affd990236c101d91b31f60eea7135cdf", null ],
-    [ "JustDied", "d7/d09/a20177.html#aae92d4b538907ef829f5f534f16feef1", null ],
-    [ "UpdateAI", "d7/d09/a20177.html#a02fabc7b8669f3e9358a623b4cf0e84c", null ],
-    [ "timer", "d7/d09/a20177.html#a39af06c7bc635bf85eebf4ed40798006", null ]
+    [ "HandleDamage", "d7/d09/a20177.html#a1de8f39ea65a7d85b64d3084d1fbcb31", null ],
+    [ "HandleTargets", "d7/d09/a20177.html#aee0b11cc47906027950e7c9080a5a90c", null ],
+    [ "PrepareSpellScript", "d7/d09/a20177.html#a5ced673a44c35c458f03dbfad8fb4106", null ],
+    [ "Register", "d7/d09/a20177.html#a840d5986b573e7dabee308e98984b924", null ]
 ];

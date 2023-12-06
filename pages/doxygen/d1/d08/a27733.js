@@ -1,6 +1,5 @@
 var a27733 =
 [
-    [ "HandleEffect", "d1/d08/a27733.html#a41b46d8918b59a1617f383b3eedfe343", null ],
-    [ "PrepareSpellScript", "d1/d08/a27733.html#acfc69e6323292e6c64fbe8d2e10efcdc", null ],
-    [ "Register", "d1/d08/a27733.html#a78f1476ed28eb1e80356dbf3d32918f5", null ]
+    [ "Trigger", "d1/d08/a27733.html#aa16aba75a066e83cb56660a0e29e7453", null ],
+    [ "Validate", "d1/d08/a27733.html#a6c38df91dbe0cf277d1d50a40edd4589", null ]
 ];

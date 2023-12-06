@@ -1,8 +1,6 @@
 var a17689 =
 [
-    [ "spell_valanar_kinetic_bomb_AuraScript", "db/d9b/a17697.html", "db/d9b/a17697" ],
-    [ "spell_valanar_kinetic_bomb_SpellScript", "d2/d0b/a17693.html", "d2/d0b/a17693" ],
-    [ "spell_valanar_kinetic_bomb", "d2/d41/a17689.html#a59451bedccb912150717594cc725b485", null ],
-    [ "GetAuraScript", "d2/d41/a17689.html#a159c1a287388b2f1dc0ed06a982725eb", null ],
-    [ "GetSpellScript", "d2/d41/a17689.html#a45c55df9affcacaf9249fa7b46f18964", null ]
+    [ "HandleDummyTick", "d2/d41/a17689.html#a4a065b32bd82417cf60f0c1cbdebaeb0", null ],
+    [ "PrepareAuraScript", "d2/d41/a17689.html#a7e5a00e842e88d176605a465617b834c", null ],
+    [ "Register", "d2/d41/a17689.html#afb8c4f4b7cf46adfd637dd2c70cb249e", null ]
 ];

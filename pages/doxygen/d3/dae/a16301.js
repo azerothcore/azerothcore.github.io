@@ -1,6 +1,6 @@
 var a16301 =
 [
-    [ "HandleHealPct", "d3/dae/a16301.html#a7acd2500fe7f82272047b301812d1e8b", null ],
-    [ "PrepareSpellScript", "d3/dae/a16301.html#a8a93787bef057e2c07257cfecf8bed67", null ],
-    [ "Register", "d3/dae/a16301.html#a87be4145da5d5073994b1e3b66f39ab6", null ]
+    [ "HandlePeriodic", "d3/dae/a16301.html#ae13867103bcb2179374f3a00798050d1", null ],
+    [ "PrepareAuraScript", "d3/dae/a16301.html#abb2a17cabb58e8c72267ce717f10ef3e", null ],
+    [ "Register", "d3/dae/a16301.html#aad25f15e03e1362e3379dc5ab6c1a20c", null ]
 ];

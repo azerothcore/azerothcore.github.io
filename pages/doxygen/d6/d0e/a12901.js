@@ -1,6 +1,6 @@
 var a12901 =
 [
-    [ "HandleApplyTouch", "d6/d0e/a12901.html#a8944b79cab3aeabb0b9c4b4c651decfe", null ],
-    [ "PrepareSpellScript", "d6/d0e/a12901.html#a2708fd350bfb34a91f1974c6635bdf3e", null ],
-    [ "Register", "d6/d0e/a12901.html#a4caac5bd05268671dc2f5a5fb4fb23c6", null ]
+    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer_SpellScript", "d7/d33/a12905.html", "d7/d33/a12905" ],
+    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer", "d6/d0e/a12901.html#a5eb6f05a4436b8edc8c7e71926328e30", null ],
+    [ "GetSpellScript", "d6/d0e/a12901.html#ac76a5ea53843c60d0742245971b5448d", null ]
 ];

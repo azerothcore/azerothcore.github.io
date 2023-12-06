@@ -1,18 +1,8 @@
 var a11017 =
 [
-    [ "Weather", "df/d3d/a04480.html#gaf4ec787c400c0e90101f00d022c2c9fd", null ],
-    [ "~Weather", "df/d3d/a04480.html#ga8db480edb9459ebf73a1363c6fea0b27", null ],
-    [ "GetScriptId", "df/d3d/a04480.html#ga07ff1c03b6fb225388d418496c18d3be", null ],
-    [ "GetWeatherState", "df/d3d/a04480.html#gaed38cecb6af95222638b2177fa48757c", null ],
-    [ "GetZone", "df/d3d/a04480.html#ga5cf53e440c7da53eb6524ea1d658b0e6", null ],
-    [ "ReGenerate", "df/d3d/a04480.html#gaea61d86d9a64dd5dbc8ea843aad97eb6", null ],
-    [ "SendWeatherUpdateToPlayer", "df/d3d/a04480.html#gaf9ff2442cc875af4b6ca4bec7f41c965", null ],
-    [ "SetWeather", "df/d3d/a04480.html#ga32e650a32fc1e01bdb6fbfd960fd022f", null ],
-    [ "Update", "df/d3d/a04480.html#gaf7a3484daa8221287a4c325fb3a8080c", null ],
-    [ "UpdateWeather", "df/d3d/a04480.html#gad4885daeab81309a42c2c1fdebcf33ad", null ],
-    [ "m_grade", "df/d3d/a04480.html#ga5638d204d5986f64eed9d343d086895e", null ],
-    [ "m_timer", "df/d3d/a04480.html#gadba1100bafe6db8a242bdad35663e909", null ],
-    [ "m_type", "df/d3d/a04480.html#ga19d9ed53043ba2b9eb3bdc27921501eb", null ],
-    [ "m_weatherChances", "df/d3d/a04480.html#gaeb74bbd4568c726a2443318aea6313d0", null ],
-    [ "m_zone", "df/d3d/a04480.html#ga1fd12588331e8f86399378b7bb12317b", null ]
+    [ "CreatureTextId", "da/d84/a11017.html#ae8058e922bafc69b718ca4be1be39688", null ],
+    [ "operator<", "da/d84/a11017.html#ae0c693f6cf1959c79e1b3773a2f54db9", null ],
+    [ "entry", "da/d84/a11017.html#ad69afcf7be87d1f96611fe925b68f26a", null ],
+    [ "textGroup", "da/d84/a11017.html#af1d1f3f310c219c32ca9b8917d8fb67d", null ],
+    [ "textId", "da/d84/a11017.html#a5d45808a0b84ca11c8d05c25d26341a2", null ]
 ];

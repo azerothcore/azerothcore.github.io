@@ -1,9 +1,10 @@
 var a27881 =
 [
-    [ "Load", "d9/dfe/a27881.html#ae8329a18e94b3830e19bcbcbdf055dd2", null ],
-    [ "PrepareSpellScript", "d9/dfe/a27881.html#a7a082f577937bf9f794bfb21bbc416f1", null ],
-    [ "Register", "d9/dfe/a27881.html#a7b8f209bff9c2f1dff96f3d90c66cad4", null ],
-    [ "TriggerHeal", "d9/dfe/a27881.html#acad9295c5c6b46bd969a4fb528a8ec25", null ],
-    [ "Validate", "d9/dfe/a27881.html#a5f53a97e97f7959c51e1b5947f7c4418", null ],
-    [ "healPct", "d9/dfe/a27881.html#a33b4d26c34903e45b7274e369f096ce1", null ]
+    [ "CheckCast", "d9/dfe/a27881.html#a49676a65c99a9a2d99ad78fee54d2302", null ],
+    [ "HandleScript", "d9/dfe/a27881.html#a35b9d69b8147ef06527b8533ef376e72", null ],
+    [ "Load", "d9/dfe/a27881.html#a25c373762375f207e6c3ba0a18d4a6e7", null ],
+    [ "PrepareSpellScript", "d9/dfe/a27881.html#a31d3339531f75dfa0ca3a339d34d3012", null ],
+    [ "Register", "d9/dfe/a27881.html#afd716f555ac73287bd268c6124b15b1c", null ],
+    [ "Validate", "d9/dfe/a27881.html#a0938262e1f45821b9fbef42f5c96cc56", null ],
+    [ "_manaAmount", "d9/dfe/a27881.html#add7d1cdf3abca0ada57cd719ad22602a", null ]
 ];

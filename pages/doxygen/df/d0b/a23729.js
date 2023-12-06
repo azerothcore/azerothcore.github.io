@@ -1,7 +1,7 @@
 var a23729 =
 [
-    [ "CheckCast", "df/d0b/a23729.html#a37b0a99998a7167b6ee2ba21f57f546e", null ],
-    [ "HandleDummy", "df/d0b/a23729.html#a16b86d904dd54ff4337fab4d0c69f189", null ],
-    [ "PrepareSpellScript", "df/d0b/a23729.html#a6f849599aec0b0c3f0837dce8597b9ee", null ],
-    [ "Register", "df/d0b/a23729.html#aee5e088e2fd5d27fbdef88769e932d33", null ]
+    [ "npc_engineer_heliceAI", "df/d61/a23733.html", "df/d61/a23733" ],
+    [ "npc_engineer_helice", "df/d0b/a23729.html#a445ed6b85e95db817c8117d5473a3c9d", null ],
+    [ "GetAI", "df/d0b/a23729.html#ad48e3c1ed22a71e8a45273e1338dd0f8", null ],
+    [ "OnQuestAccept", "df/d0b/a23729.html#ae0979d68744372d5d4669b6f014eb123", null ]
 ];

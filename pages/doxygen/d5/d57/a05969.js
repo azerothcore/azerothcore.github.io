@@ -1,10 +1,9 @@
 var a05969 =
 [
-    [ "WayPoint", "d5/d57/a05969.html#a3fb66d4e5cb360ce49b42518ed2b5247", null ],
-    [ "delay", "d5/d57/a05969.html#ad766ebb0355b936da137a18b593aa2e4", null ],
-    [ "id", "d5/d57/a05969.html#a42a0da500ce0495968af4d8e8568ea26", null ],
-    [ "o", "d5/d57/a05969.html#a42f341fba1d8d0406e086414bcdb7948", null ],
-    [ "x", "d5/d57/a05969.html#aff5ba831af9f5f01b7ebb5f784d085f7", null ],
-    [ "y", "d5/d57/a05969.html#adfe474d3c93a63fbe78935c1b2873cae", null ],
-    [ "z", "d5/d57/a05969.html#a4b0160c4f8941aa20772baf06c6a7286", null ]
+    [ "CritterAI", "d5/d57/a05969.html#aa211359ea8b80ac0ed27e9b337e333f1", null ],
+    [ "EnterEvadeMode", "d5/d57/a05969.html#a989d1fc00af900320dcf27cce7f247dc", null ],
+    [ "JustEngagedWith", "d5/d57/a05969.html#a2f52eb5c527895168f18ed5ddcc560a9", null ],
+    [ "MovementInform", "d5/d57/a05969.html#a54c44d28e4b2b3231afeb8de343dee43", null ],
+    [ "Permissible", "d5/d57/a05969.html#ae43183a24398fe3af1cb8275b9b4c6c6", null ],
+    [ "UpdateAI", "d5/d57/a05969.html#af860be127a671f5448cb731aa2f701b0", null ]
 ];

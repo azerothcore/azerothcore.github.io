@@ -1,25 +1,35 @@
 var a04349 =
 [
-    [ "RealmHandle", "d5/d08/a30225.html", "d5/d08/a30225" ],
-    [ "Realm", "db/d21/a30229.html", "db/d21/a30229" ],
-    [ "RealmFlags", "d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2", [
-      [ "REALM_FLAG_NONE", "d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a78cb2956eac93bb478e5a6573336a0a2", null ],
-      [ "REALM_FLAG_VERSION_MISMATCH", "d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a9e5fc6c089666cb09890f97038c44056", null ],
-      [ "REALM_FLAG_OFFLINE", "d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a728d61b0842461c34b1f6167e5dcdb68", null ],
-      [ "REALM_FLAG_SPECIFYBUILD", "d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2afda7734169f8aad2549a0a0aa4c04903", null ],
-      [ "REALM_FLAG_UNK1", "d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a73ff031081f52c4cecfe2f899bb92304", null ],
-      [ "REALM_FLAG_UNK2", "d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a9d7b7c5ef743cf68b93360af13b7ed81", null ],
-      [ "REALM_FLAG_RECOMMENDED", "d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2ab5051c0caffaa54a0fe3aab0d3c99b29", null ],
-      [ "REALM_FLAG_NEW", "d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2a214cd38c14a7209f7986ae4ca43fe73b", null ],
-      [ "REALM_FLAG_FULL", "d6/ddf/a04349.html#ace3f717ac43bef67791faeb2a0b2c1e2acdaee6e8c961adfa63cde3a06707b952", null ]
+    [ "npc_pet_pri_lightwell", "d4/dda/a26253.html", "d4/dda/a26253" ],
+    [ "npc_pet_pri_shadowfiend", "db/db1/a26257.html", "db/db1/a26257" ],
+    [ "PriestSpells", "d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110f", [
+      [ "SPELL_PRIEST_GLYPH_OF_SHADOWFIEND", "d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110faabcd07781394f6b318b9bf42c0938014", null ],
+      [ "SPELL_PRIEST_GLYPH_OF_SHADOWFIEND_MANA", "d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110fa24b5ecb3171baa6a2e1c79957bcd7fde", null ],
+      [ "SPELL_PRIEST_SHADOWFIEND_DODGE", "d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110fadb00d04038b22b42cfdff3f568a5c51a", null ],
+      [ "SPELL_PRIEST_LIGHTWELL_CHARGES", "d6/ddf/a04349.html#a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2", null ],
+      [ "SPELL_PRIEST_DIVINE_AEGIS", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa4bd6adc8070fcaa774451c5cac40ded1", null ],
+      [ "SPELL_PRIEST_EMPOWERED_RENEW", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fad78a13deca5dca1beb7e7304ae3e2014", null ],
+      [ "SPELL_PRIEST_GLYPH_OF_CIRCLE_OF_HEALING", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110faa6155b51d0796813e0d96b14449698d5", null ],
+      [ "SPELL_PRIEST_GLYPH_OF_LIGHTWELL", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa08ad85769dce5870b0201048c1537b8d", null ],
+      [ "SPELL_PRIEST_GLYPH_OF_PRAYER_OF_HEALING_HEAL", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fadbaba8ea6d37743ef668662c895fcb4e", null ],
+      [ "SPELL_PRIEST_GUARDIAN_SPIRIT_HEAL", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa2e82dca38567004533ff9b39360424c4", null ],
+      [ "SPELL_PRIEST_ITEM_EFFICIENCY", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fad0b9beecf2b1e0f1fadc6cf162bbd07d", null ],
+      [ "SPELL_PRIEST_LIGHTWELL_CHARGES", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2", null ],
+      [ "SPELL_PRIEST_MANA_LEECH_PROC", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa4c5f8599ef6dfe01071d94bf15fdb366", null ],
+      [ "SPELL_PRIEST_PENANCE_R1", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa9ffd23299d870bb46db11bc57af21099", null ],
+      [ "SPELL_PRIEST_PENANCE_R1_DAMAGE", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa8768589bceb883d84b4e911a44d5267d", null ],
+      [ "SPELL_PRIEST_PENANCE_R1_HEAL", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110faf42f043dbb422920b04d0521f2103c68", null ],
+      [ "SPELL_PRIEST_REFLECTIVE_SHIELD_TRIGGERED", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa1fbf9f6af5e3402822cc04234cddaba4", null ],
+      [ "SPELL_PRIEST_REFLECTIVE_SHIELD_R1", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa22705e4341a9c87d475363cb0a9f78eb", null ],
+      [ "SPELL_PRIEST_SHADOW_WORD_DEATH", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fad1d6a6bd6506f7e5a302ca1ad7256c4f", null ],
+      [ "SPELL_PRIEST_T9_HEALING_2P", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110faecf270b72f7ced3aab3ce3b2f24b8a87", null ],
+      [ "SPELL_PRIEST_VAMPIRIC_TOUCH_DISPEL", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa0ecf37a43c562bc7eae7041fc137ba03", null ],
+      [ "SPELL_PRIEST_T4_4P_FLEXIBILITY", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110faec0fc5ca32e9a185d596c0a931d65d9c", null ],
+      [ "SPELL_GENERIC_ARENA_DAMPENING", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa60a12ecf7b0c16a82500a97110ff35f0", null ],
+      [ "SPELL_GENERIC_BATTLEGROUND_DAMPENING", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110faf1c99f5067e5ef0ef1fb7f96bd317bf4", null ],
+      [ "SPELL_PRIEST_TWIN_DISCIPLINE_R1", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110fa58a40bf575a212bf832d151e37267690", null ],
+      [ "SPELL_PRIEST_SPIRITUAL_HEALING_R1", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110faeee484b733ad552750cbbd4bb82f11af", null ],
+      [ "SPELL_PRIEST_DIVINE_PROVIDENCE_R1", "de/d09/a04385.html#a8aaecfe4214ff7bd567980dd904b110faead2486496bee0d1c950addeca1be8ae", null ]
     ] ],
-    [ "RealmType", "d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59", [
-      [ "REALM_TYPE_NORMAL", "d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59accb12c63a2ee89b9c3f72e5fd2b056fb", null ],
-      [ "REALM_TYPE_PVP", "d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a5b9f160cabace91bff99046f281b899c", null ],
-      [ "REALM_TYPE_NORMAL2", "d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a8529db1edd00f579cbeff7e0c2a88e19", null ],
-      [ "REALM_TYPE_RP", "d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a81056f603f1158cb39b25f9ae8beb88f", null ],
-      [ "REALM_TYPE_RPPVP", "d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a58e3ebd90691c511e7976f5bff724fae", null ],
-      [ "MAX_CLIENT_REALM_TYPE", "d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a580a3990630da9c56e3fef200d6b15be", null ],
-      [ "REALM_TYPE_FFA_PVP", "d6/ddf/a04349.html#ae8ff852caf6f88797c9c3716d1acbe59a43cf71d6098c453fc931d7e25f729457", null ]
-    ] ]
+    [ "AddSC_priest_pet_scripts", "d6/ddf/a04349.html#ac0eaa77dc1cb9a092b318e3bc3f6d5b8", null ]
 ];

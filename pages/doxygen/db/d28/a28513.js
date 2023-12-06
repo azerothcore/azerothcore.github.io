@@ -1,6 +1,7 @@
 var a28513 =
 [
-    [ "HandleAuraApply", "db/d28/a28513.html#a19d8103126a6446fb5ade53d2b5d0ddb", null ],
-    [ "PrepareAuraScript", "db/d28/a28513.html#a7596065e5ffcacf099a5984f5d940c11", null ],
-    [ "Register", "db/d28/a28513.html#a8efa76b28dddad68fee132f37791f231", null ]
+    [ "HandleScriptEffect", "db/d28/a28513.html#a328c1ba6ccd98e25e477a3f784cb47ff", null ],
+    [ "PrepareSpellScript", "db/d28/a28513.html#aa211032991d8fd11d574cb364533a515", null ],
+    [ "Register", "db/d28/a28513.html#a13315f197f2e6975dca00b53cbc599d2", null ],
+    [ "Validate", "db/d28/a28513.html#a3b752f07631223199ed7ac404ed1afed", null ]
 ];

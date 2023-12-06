@@ -1,6 +1,10 @@
 var a22197 =
 [
-    [ "spell_yogg_saron_malady_of_the_mind_AuraScript", "db/d85/a22201.html", "db/d85/a22201" ],
-    [ "spell_yogg_saron_malady_of_the_mind", "dc/dac/a22197.html#a1c35ee4d30b56ac986bcb3f5abd6a09e", null ],
-    [ "GetAuraScript", "dc/dac/a22197.html#a43dbeba8cf5c6136c55c16b1c04f087a", null ]
+    [ "boss_yoggsaron_immortal_guardianAI", "dc/dac/a22197.html#a84a3ffe43a4ce49cd543f770594cd683", null ],
+    [ "DamageTaken", "dc/dac/a22197.html#aec157bcf0628a7301bcb91dd62bcc484", null ],
+    [ "Reset", "dc/dac/a22197.html#a763f772414f00c0f83402e1a635b6bd0", null ],
+    [ "SpellHit", "dc/dac/a22197.html#a60721961f2eb5e91c15890252166b872", null ],
+    [ "UpdateAI", "dc/dac/a22197.html#a7fa550f683fcf16f5bd70a307bffcb2b", null ],
+    [ "_spellTimer", "dc/dac/a22197.html#a4ed360380707195e10753436020b67eb", null ],
+    [ "_visualTimer", "dc/dac/a22197.html#a8c382c37aaa3d20cfc0fe604af52bef4", null ]
 ];

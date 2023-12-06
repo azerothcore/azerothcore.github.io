@@ -1,6 +1,6 @@
 var a11585 =
 [
-    [ "OrcDeathEvent", "dd/db5/a11585.html#ae4088ee95c3c0de9ae524a82803b0ea2", null ],
-    [ "Execute", "dd/db5/a11585.html#a293ec6667da669a27fe75965f919cd68", null ],
-    [ "_me", "dd/db5/a11585.html#a56cdf23ed08cbb800ba6fe7fb5e284b7", null ]
+    [ "boss_gloomrel", "dd/db5/a11585.html#ad655acba7b2d88779f849a685bb9fbb7", null ],
+    [ "OnGossipHello", "dd/db5/a11585.html#a6ce6898142d767a130ec09769f2be488", null ],
+    [ "OnGossipSelect", "dd/db5/a11585.html#ab7c623cdd2301f3a0a74d6b1e187a8c5", null ]
 ];

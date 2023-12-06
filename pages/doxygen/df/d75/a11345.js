@@ -1,6 +1,9 @@
 var a11345 =
 [
-    [ "boss_ambassador_flamelashAI", "de/d3e/a11349.html", "de/d3e/a11349" ],
-    [ "boss_ambassador_flamelash", "df/d75/a11345.html#a53d24a240e48033b0474970e8acac1f4", null ],
-    [ "GetAI", "df/d75/a11345.html#a332e347d803a58989445ec57d75361ab", null ]
+    [ "quest_commandscript", "df/d75/a11345.html#a98804583ded14bc50d252475289dda4f", null ],
+    [ "GetCommands", "df/d75/a11345.html#afaf8c4b169a2bc7457b8ab97d13a367c", null ],
+    [ "HandleQuestAdd", "df/d75/a11345.html#acd1410f224a1d69bba1321999ebf25bc", null ],
+    [ "HandleQuestComplete", "df/d75/a11345.html#a044c30fdaedd07060284bd37fd2e226c", null ],
+    [ "HandleQuestRemove", "df/d75/a11345.html#ac0a87854f99c510c8309e9e337d1e71f", null ],
+    [ "HandleQuestReward", "df/d75/a11345.html#ab8d38057b3630b75cf21c8e88c1ebaf0", null ]
 ];

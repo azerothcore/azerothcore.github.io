@@ -1,4 +1,5 @@
 var a16745 =
 [
-    [ "boss_acidmawAI", "dd/d7b/a16745.html#a185e04be9d28b9ac6755ade2cd552293", null ]
+    [ "PrepareAuraScript", "dd/d7b/a16745.html#adb50fc2f703618600640d2af55f02f56", null ],
+    [ "Register", "dd/d7b/a16745.html#a3b6782be136eafcc2cb6d03efb8bb033", null ]
 ];

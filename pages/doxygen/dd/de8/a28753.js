@@ -1,5 +1,5 @@
 var a28753 =
 [
-    [ "achievement_bg_sa_artillery", "dd/de8/a28753.html#aa81ae215bc91fd4598d7c9a1b02e3fcc", null ],
-    [ "OnCheck", "dd/de8/a28753.html#ac24f32f872ae32e90f06f642ea2dfebc", null ]
+    [ "achievement_not_even_a_scratch", "dd/de8/a28753.html#a0d025c09d35c3640016ab42e11dd96eb", null ],
+    [ "OnCheck", "dd/de8/a28753.html#a81f6c9bd36e5a3eea3fe0af24c9f1649", null ]
 ];

@@ -1,6 +1,6 @@
 var a15253 =
 [
-    [ "HandleApply", "db/d9d/a15253.html#aefef61bc68c13b20e9b41a6f148a9599", null ],
-    [ "PrepareAuraScript", "db/d9d/a15253.html#aabe8dc8b99dc455dfcfaf58b64fa3f18", null ],
-    [ "Register", "db/d9d/a15253.html#ade5c710416516760cc69f77750aa2a1f", null ]
+    [ "HandleOnHit", "db/d9d/a15253.html#abf5a21f1c88241024e6d3b3c5bffe449", null ],
+    [ "PrepareSpellScript", "db/d9d/a15253.html#aa78fc03dacb373c5108e6a5d92e035c6", null ],
+    [ "Register", "db/d9d/a15253.html#a1e608d67914c0071a913d96d70c625d6", null ]
 ];

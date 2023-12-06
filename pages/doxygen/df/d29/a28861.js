@@ -1,6 +1,10 @@
 var a28861 =
 [
-    [ "boss_ysondreAI", "d2/df1/a28865.html", "d2/df1/a28865" ],
-    [ "boss_ysondre", "df/d29/a28861.html#ad12dbb728f4f0cdf2f4c0ba9cd2a167d", null ],
-    [ "GetAI", "df/d29/a28861.html#a0da215d7bc8ee86216887e682b9335c3", null ]
+    [ "boss_emerissAI", "df/d29/a28861.html#ad94b3b097d9987e365f91b7e57d0f208", null ],
+    [ "DamageTaken", "df/d29/a28861.html#abb80c49c166f31cd7e2d24392fbf60e1", null ],
+    [ "ExecuteEvent", "df/d29/a28861.html#ad3839ad4b0a930bc96154b5b0aab17fe", null ],
+    [ "JustEngagedWith", "df/d29/a28861.html#a5a51b97216a27637f6bd3020ba05e0f7", null ],
+    [ "KilledUnit", "df/d29/a28861.html#ad851169bc09a362137e211dd10d30a1b", null ],
+    [ "Reset", "df/d29/a28861.html#a44dfb325c4e8413662052137edc710ef", null ],
+    [ "_stage", "df/d29/a28861.html#ae2c8c5c2d2054af41c5dbe938b3eb79a", null ]
 ];

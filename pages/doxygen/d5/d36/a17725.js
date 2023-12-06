@@ -1,6 +1,8 @@
 var a17725 =
 [
-    [ "spell_blood_council_summon_shadow_resonance_SpellScript", "d0/dc5/a17729.html", "d0/dc5/a17729" ],
-    [ "spell_blood_council_summon_shadow_resonance", "d5/d36/a17725.html#ac98fc25a6171465d496e27dc5bc8fa91", null ],
-    [ "GetSpellScript", "d5/d36/a17725.html#a8c4e89f447f532392d7340e77b989207", null ]
+    [ "spell_valanar_kinetic_bomb_AuraScript", "db/d61/a17733.html", "db/d61/a17733" ],
+    [ "spell_valanar_kinetic_bomb_SpellScript", "d0/dc5/a17729.html", "d0/dc5/a17729" ],
+    [ "spell_valanar_kinetic_bomb", "d5/d36/a17725.html#a59451bedccb912150717594cc725b485", null ],
+    [ "GetAuraScript", "d5/d36/a17725.html#a159c1a287388b2f1dc0ed06a982725eb", null ],
+    [ "GetSpellScript", "d5/d36/a17725.html#a45c55df9affcacaf9249fa7b46f18964", null ]
 ];

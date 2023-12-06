@@ -1,6 +1,7 @@
 var a21905 =
 [
-    [ "boss_thorim_runic_colossusAI", "da/d71/a21909.html", "da/d71/a21909" ],
-    [ "boss_thorim_runic_colossus", "d6/d97/a21905.html#a2ea1c08a98b689cd6c766578e98a3191", null ],
-    [ "GetAI", "d6/d97/a21905.html#a6d64427ff427a1054e10c9d987b77f53", null ]
+    [ "boss_thorim_trapAI", "d6/d97/a21905.html#aaab278dc6557a49624099b0064b8d6f3", null ],
+    [ "Reset", "d6/d97/a21905.html#ab0715e75a475409ffb6c623bf363a65d", null ],
+    [ "UpdateAI", "d6/d97/a21905.html#a40078609a67aa029f71df7971449b056", null ],
+    [ "_checkTimer", "d6/d97/a21905.html#ad3ed8edb4d06e5b98a5afc82170f3233", null ]
 ];

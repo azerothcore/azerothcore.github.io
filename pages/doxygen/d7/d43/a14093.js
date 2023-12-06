@@ -1,10 +1,6 @@
 var a14093 =
 [
-    [ "npc_brewfest_super_brew_trigger", "d7/d43/a14093.html#a3d2189978683150b1c431fa0fd637358", null ],
-    [ "AttackStart", "d7/d43/a14093.html#a9ca158a2317a599cd4af64dad6ef04cc", null ],
-    [ "JustEngagedWith", "d7/d43/a14093.html#a61be52cb8ba0cc10285820ad5324816e", null ],
-    [ "MoveInLineOfSight", "d7/d43/a14093.html#aedd26ea4a274df9eb27f9f4a22670f1e", null ],
-    [ "Reset", "d7/d43/a14093.html#a5abf05543247a4f1209fe2a5bebb5d64", null ],
-    [ "UpdateAI", "d7/d43/a14093.html#a46db84e1eab29e7f4bf99d377962ad12", null ],
-    [ "timer", "d7/d43/a14093.html#a2ebb06175e3142cca156e57e8386fe02", null ]
+    [ "boss_wushoolayAI", "d0/dae/a14097.html", "d0/dae/a14097" ],
+    [ "boss_wushoolay", "d7/d43/a14093.html#a68359ee086bb4e86c3c16c4a03e54893", null ],
+    [ "GetAI", "d7/d43/a14093.html#a70b476358956fd05d6effb75517e2b3d", null ]
 ];

@@ -1,9 +1,7 @@
 var a28421 =
 [
-    [ "HandleHeal", "da/d92/a28421.html#ad2d854d275dc6f8b67b866d864b6febe", null ],
-    [ "Load", "da/d92/a28421.html#a507a7a4ff11f8bf1157e034d086cd9ad", null ],
-    [ "PrepareSpellScript", "da/d92/a28421.html#a91eb46af707897f228e5d1bbd199a833", null ],
-    [ "Register", "da/d92/a28421.html#ae28f1b0c23511153eafc037cae067bc0", null ],
-    [ "firstHeal", "da/d92/a28421.html#a405326e6e1cd82816aef1712fdf335a0", null ],
-    [ "riptide", "da/d92/a28421.html#acaec32f6730bc2e04e613aa982d285bf", null ]
+    [ "HandleDummy", "da/d92/a28421.html#a00d36b914f5fd0466ae775e1fc95aa4f", null ],
+    [ "PrepareSpellScript", "da/d92/a28421.html#a86a5c2b8ff373af7e98645b8b380145c", null ],
+    [ "Register", "da/d92/a28421.html#a1b879ab84b8d6227ee5b2cccccd38bc2", null ],
+    [ "Validate", "da/d92/a28421.html#aa7d437146a96bb40c1a66a453e3e4339", null ]
 ];

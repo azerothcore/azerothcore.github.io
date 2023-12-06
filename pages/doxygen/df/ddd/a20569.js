@@ -1,6 +1,6 @@
 var a20569 =
 [
-    [ "boss_lokenAI", "d2/dd3/a20573.html", "d2/dd3/a20573" ],
-    [ "boss_loken", "df/ddd/a20569.html#a44ba0ee009dcdfca6ff8739e297ec786", null ],
-    [ "GetAI", "df/ddd/a20569.html#affb73db8ecdc2d035f8076ecca0c9a99", null ]
+    [ "HandleOnEffectApply", "df/ddd/a20569.html#a8f8957c26537b464a85488373385127c", null ],
+    [ "PrepareAuraScript", "df/ddd/a20569.html#aaf34f724b95a1602562253c9b2724eda", null ],
+    [ "Register", "df/ddd/a20569.html#a84107fcf8f8cac4d131ba2dda266d0f4", null ]
 ];

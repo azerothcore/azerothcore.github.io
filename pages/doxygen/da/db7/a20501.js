@@ -1,6 +1,6 @@
 var a20501 =
 [
-    [ "HandlePeriodic", "da/db7/a20501.html#ab4e35ae632057471dde8f945a642bf41", null ],
-    [ "PrepareAuraScript", "da/db7/a20501.html#a3dbf487f7f17fe7f67558da1fee533d6", null ],
-    [ "Register", "da/db7/a20501.html#a758d8f38dd0ee563a65e1028b709cae7", null ]
+    [ "spell_oculus_temporal_rift_AuraScript", "d2/dd5/a20505.html", "d2/dd5/a20505" ],
+    [ "spell_oculus_temporal_rift", "da/db7/a20501.html#a8c40cdf2bd8f2aa1eeefd51b38ec95ab", null ],
+    [ "GetAuraScript", "da/db7/a20501.html#a10fbf9d3eae79f96de715d8295ba951c", null ]
 ];

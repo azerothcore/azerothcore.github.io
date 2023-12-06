@@ -1,15 +1,13 @@
 var a25393 =
 [
-    [ "instance_magtheridons_lair_InstanceMapScript", "d2/d8b/a25393.html#a06f7e0f178d45a92f16dc06b68645fba", null ],
-    [ "Initialize", "d2/d8b/a25393.html#afa054fb11fe777019baa70f46bfd8212", null ],
-    [ "OnCreatureCreate", "d2/d8b/a25393.html#aa05f08785d9d62db41e8d29ef55db0d8", null ],
-    [ "OnCreatureRemove", "d2/d8b/a25393.html#a727d4d3bfc52391a088e86fef013617c", null ],
-    [ "OnGameObjectCreate", "d2/d8b/a25393.html#a020584d79926d170c02655c5e2841127", null ],
-    [ "OnGameObjectRemove", "d2/d8b/a25393.html#a9a6ac60b68e2a515e771696c5c88b93d", null ],
-    [ "SetBossState", "d2/d8b/a25393.html#a160269f8d4cde5297d5f70a5f8eec2b2", null ],
-    [ "SetData", "d2/d8b/a25393.html#a847abafb7b00e9b2cab73a90a16b959e", null ],
-    [ "_columnSet", "d2/d8b/a25393.html#a2593bf88b0aba019a831b3ca6a8e15b9", null ],
-    [ "_cubesSet", "d2/d8b/a25393.html#ad59566c515cbea3274d17e483f3b4ef1", null ],
-    [ "_magtheridonGUID", "d2/d8b/a25393.html#a03e70ccaf8c23d2c775051320c6c4636", null ],
-    [ "_wardersSet", "d2/d8b/a25393.html#a37b2621d50e8a8f0bee3f089dbce88f9", null ]
+    [ "boss_wrath_scryer_soccothrates", "d2/d8b/a25393.html#a771980c1022e7699c3eb02baccb68a93", null ],
+    [ "InitializeAI", "d2/d8b/a25393.html#ad29f9c200de2f25a74f548c918bb61ac", null ],
+    [ "JustDied", "d2/d8b/a25393.html#a4954041d6a9cbc754d9fcd1d4ab3d38b", null ],
+    [ "JustEngagedWith", "d2/d8b/a25393.html#a09302e6f5e1422232a3024dd24a38fd6", null ],
+    [ "KilledUnit", "d2/d8b/a25393.html#a9b9237e0c8ad1b759c2402de79b3d0bd", null ],
+    [ "MoveInLineOfSight", "d2/d8b/a25393.html#ab75e402ce24ca34c42f80116b8a0726d", null ],
+    [ "Reset", "d2/d8b/a25393.html#a85435a23d36f13e348112348a26e7d12", null ],
+    [ "UpdateAI", "d2/d8b/a25393.html#a41ad9124dec5432feb7ca823f0c8f87f", null ],
+    [ "events2", "d2/d8b/a25393.html#afd4e9a0ab16406a4a452cd89d13d1fe0", null ],
+    [ "preFight", "d2/d8b/a25393.html#a193889ee2815b93a1c9aeee394170fc4", null ]
 ];

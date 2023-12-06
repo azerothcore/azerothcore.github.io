@@ -1,6 +1,6 @@
 var a19401 =
 [
-    [ "spell_dreamwalker_summon_suppresser_AuraScript", "d8/d52/a19405.html", "d8/d52/a19405" ],
-    [ "spell_dreamwalker_summon_suppresser", "df/df1/a19401.html#a3fd10682f9a9c5a180a91e0728bc0db8", null ],
-    [ "GetAuraScript", "df/df1/a19401.html#a318fa3be05483c89ffcb0b5624372ff4", null ]
+    [ "HandleScript", "df/df1/a19401.html#ad9b92597b3d0c1ebc7ede90c9cc7e8d7", null ],
+    [ "PrepareSpellScript", "df/df1/a19401.html#a0d328e700b06fc801d626c4563ecd46a", null ],
+    [ "Register", "df/df1/a19401.html#adb8198c2a723e2f44135dc8c72a48858", null ]
 ];

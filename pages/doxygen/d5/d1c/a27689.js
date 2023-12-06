@@ -1,6 +1,5 @@
 var a27689 =
 [
-    [ "HandleDummy", "d5/d1c/a27689.html#af306009f2c418e898478720b9c4ad6ab", null ],
-    [ "PrepareSpellScript", "d5/d1c/a27689.html#a44cb481fe93fd1c691495cc1ead35e5e", null ],
-    [ "Register", "d5/d1c/a27689.html#af51e3b3cbfb469fa6230a36d8d5fcec7", null ]
+    [ "PrepareSpellScript", "d5/d1c/a27689.html#ac08a5b38ac3012ad31c8ecdf4ca36585", null ],
+    [ "Register", "d5/d1c/a27689.html#a7d6187a7aa8f8d67efe15ffc74fa1873", null ]
 ];

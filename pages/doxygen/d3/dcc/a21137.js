@@ -1,6 +1,7 @@
 var a21137 =
 [
-    [ "spell_orbital_supports_AuraScript", "da/d22/a21141.html", "da/d22/a21141" ],
-    [ "spell_orbital_supports", "d3/dcc/a21137.html#ab6189f808afdb65f93e37fb37f2faa19", null ],
-    [ "GetAuraScript", "d3/dcc/a21137.html#a6762d20a448a075cc3ffd19a967bac7c", null ]
+    [ "FilterTargets", "d3/dcc/a21137.html#aaa09aae6311b55ee0edac614dbd609bb", null ],
+    [ "HandleScript", "d3/dcc/a21137.html#ad109d7d335cbc9bf81066d88900bf327", null ],
+    [ "PrepareSpellScript", "d3/dcc/a21137.html#a719f295c0a80fad908714c23140a039e", null ],
+    [ "Register", "d3/dcc/a21137.html#a9d90f3f63de5a2c0b30f1250956a505b", null ]
 ];

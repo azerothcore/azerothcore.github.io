@@ -1,6 +1,8 @@
 var a27293 =
 [
-    [ "CheckProc", "dd/de2/a27293.html#a393946dd3404c4b03a9a8ced7913ccaa", null ],
-    [ "PrepareAuraScript", "dd/de2/a27293.html#ae28075d0d66c99fb77a2c7fef678f4e2", null ],
-    [ "Register", "dd/de2/a27293.html#a3e0279f7dc724b4d49bfda4f0e417353", null ]
+    [ "OnApply", "dd/de2/a27293.html#a75b45732648d5ba90b49725a48609a89", null ],
+    [ "OnBaseRemove", "dd/de2/a27293.html#aa6d10399bba721ff7a3651508fcdf449", null ],
+    [ "OnRemove", "dd/de2/a27293.html#a0331b3860691db793c5a7bcf53550c6f", null ],
+    [ "PrepareAuraScript", "dd/de2/a27293.html#a34ad4890c7ce30427537e36980057e57", null ],
+    [ "Register", "dd/de2/a27293.html#a713e694cad6f1cf533d45f5d633da36e", null ]
 ];

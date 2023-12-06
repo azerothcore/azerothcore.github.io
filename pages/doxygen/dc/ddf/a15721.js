@@ -1,6 +1,6 @@
 var a15721 =
 [
-    [ "npc_enraged_pantherAI", "dc/ddf/a15721.html#a4a39dde7da3ea15ad3385ea2ed5b515d", null ],
-    [ "Reset", "dc/ddf/a15721.html#ad9650ee7f454ddc19c51a2b0b831acba", null ],
-    [ "UpdateAI", "dc/ddf/a15721.html#aa29e049f4a2e4bd20e8269cc09b17b94", null ]
+    [ "npc_twiggy_flatheadAI", "d3/d8b/a15725.html", "d3/d8b/a15725" ],
+    [ "npc_twiggy_flathead", "dc/ddf/a15721.html#a36e8ae89c9138e1a88c84ecbfd694963", null ],
+    [ "GetAI", "dc/ddf/a15721.html#a48c48994c199502bc3cfb96bf713bc5f", null ]
 ];

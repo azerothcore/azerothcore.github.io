@@ -1,6 +1,6 @@
 var a17249 =
 [
-    [ "instance_halls_of_reflection_InstanceMapScript", "de/db1/a17253.html", "de/db1/a17253" ],
-    [ "instance_halls_of_reflection", "d8/d6d/a17249.html#a8872b51ceec25dbf4831f45b27206ed1", null ],
-    [ "GetInstanceScript", "d8/d6d/a17249.html#aca27a4f654f41fe6f238c905b48285b7", null ]
+    [ "npc_hor_risen_witch_doctorAI", "de/db1/a17253.html", "de/db1/a17253" ],
+    [ "npc_hor_risen_witch_doctor", "d8/d6d/a17249.html#add06a10c9b4342b136b5cab49338b095", null ],
+    [ "GetAI", "d8/d6d/a17249.html#a055a8d29d8e6a58b92968ed1c39c1b1d", null ]
 ];

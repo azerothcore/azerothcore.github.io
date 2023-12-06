@@ -1,6 +1,6 @@
 var a21085 =
 [
-    [ "spell_systems_shutdown_AuraScript", "d5/d3b/a21089.html", "d5/d3b/a21089" ],
-    [ "spell_systems_shutdown", "d6/d41/a21085.html#a835da8c4136b61bb959a1d3b06eb7525", null ],
-    [ "GetAuraScript", "d6/d41/a21085.html#a880041d31984831820d78f34e2ce3b37", null ]
+    [ "boss_flame_leviathan_safety_containerAI", "d5/d3b/a21089.html", "d5/d3b/a21089" ],
+    [ "boss_flame_leviathan_safety_container", "d6/d41/a21085.html#ae14b2e13bd6358ad03d568f2bef042b7", null ],
+    [ "GetAI", "d6/d41/a21085.html#a6bcbc4e65214a0c667875271ff9aa0dd", null ]
 ];

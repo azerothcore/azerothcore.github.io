@@ -1,14 +1,12 @@
 var a05205 =
 [
-    [ "SFMTRand", "d6/d88/a05205.html#aa40843ec8c3162e4be6cbf8067f93c9b", null ],
-    [ "operator delete", "d6/d88/a05205.html#a20ef76641899ebf23ecfdfa03933d1d9", null ],
-    [ "operator delete", "d6/d88/a05205.html#ac6267ac04c03814f574a155a4a0cffcb", null ],
-    [ "operator delete[]", "d6/d88/a05205.html#a5051cdb95e18230b7fee753beb621603", null ],
-    [ "operator delete[]", "d6/d88/a05205.html#a7cfe99d3c100b6ba124b82fce756960f", null ],
-    [ "operator new", "d6/d88/a05205.html#a2aeb7be6e4330872312d025c20f38cde", null ],
-    [ "operator new", "d6/d88/a05205.html#aca05c084eb681e29c2e6d94004d2211d", null ],
-    [ "operator new[]", "d6/d88/a05205.html#a8ec91b566c3b1defe53ea094c31e9aac", null ],
-    [ "operator new[]", "d6/d88/a05205.html#a7fc8af93666391048ac284fb21838d00", null ],
-    [ "RandomUInt32", "d6/d88/a05205.html#a8d129952ad2916419cdf54aa474c23c0", null ],
-    [ "_state", "d6/d88/a05205.html#a9bc20836138e5dd4db93f7d03a9e856b", null ]
+    [ "AppenderConsole", "d6/d88/a05205.html#aaf770a87f2151a7e6f92087751528c68", null ],
+    [ "_write", "d6/d88/a05205.html#a94e529229bd707fa2bad0a0206a386d5", null ],
+    [ "getType", "d6/d88/a05205.html#a4ae7f47c76b19eb269b26fdf13f14e48", null ],
+    [ "InitColors", "d6/d88/a05205.html#a1a4deceeafc9a111a519ea55dc646266", null ],
+    [ "ResetColor", "d6/d88/a05205.html#a4a3e55c9229947a25d4191bbfa348bf5", null ],
+    [ "SetColor", "d6/d88/a05205.html#a9303f9408e1cbfc086fba15bf9a4ce59", null ],
+    [ "_colored", "d6/d88/a05205.html#a172563f34a7277f7afb05354c8fbeb1f", null ],
+    [ "_colors", "d6/d88/a05205.html#acdf277241cd25715e48500a15ab6bd30", null ],
+    [ "type", "d6/d88/a05205.html#ab5cbc074f7d9306838974863913c8a5b", null ]
 ];

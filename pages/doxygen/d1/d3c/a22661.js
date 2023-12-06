@@ -1,6 +1,6 @@
 var a22661 =
 [
-    [ "spell_voa_flaming_cinder_SpellScript", "d2/d2b/a22665.html", "d2/d2b/a22665" ],
-    [ "spell_voa_flaming_cinder", "d1/d3c/a22661.html#a06378a1d7672c4b0f38b51b6a484e725", null ],
-    [ "GetSpellScript", "d1/d3c/a22661.html#a480861ce910dd49a48fd7f5359693605", null ]
+    [ "boss_emalonAI", "d2/d2b/a22665.html", "d2/d2b/a22665" ],
+    [ "boss_emalon", "d1/d3c/a22661.html#a2dd481292e02337bebd450f5c9821886", null ],
+    [ "GetAI", "d1/d3c/a22661.html#a345b0663ba89de5e37b87a436c48e446", null ]
 ];

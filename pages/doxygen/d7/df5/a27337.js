@@ -1,6 +1,6 @@
 var a27337 =
 [
-    [ "HandleDummyTick", "d7/df5/a27337.html#a000f8fd84e7292ac759b64a8a25d3ca2", null ],
-    [ "PrepareAuraScript", "d7/df5/a27337.html#a2848e44f1520cc32af916a8e6578c3ea", null ],
-    [ "Register", "d7/df5/a27337.html#a4a13827baeb7ed4f2681ab114d44eb37", null ]
+    [ "HandleDummy", "d7/df5/a27337.html#a7b56d07d46647a2790553d40e75da79d", null ],
+    [ "PrepareSpellScript", "d7/df5/a27337.html#aad36c108f4531c19ba552064ba0d3248", null ],
+    [ "Register", "d7/df5/a27337.html#a754fcf618f53b4b17c2bcae4740e561f", null ]
 ];

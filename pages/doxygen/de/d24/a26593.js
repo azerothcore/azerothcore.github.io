@@ -1,9 +1,7 @@
 var a26593 =
 [
-    [ "HandleApply", "de/d24/a26593.html#a1a612d0b35ed6e67042b4d038f8927ca", null ],
-    [ "HandleRemove", "de/d24/a26593.html#a54b5ffcf247f7385b50b401bc82f43ce", null ],
-    [ "PrepareAuraScript", "de/d24/a26593.html#af2b8e669737cd4282beb6a5035f496fc", null ],
-    [ "RecalculateBaseArmor", "de/d24/a26593.html#a693720558c7b2b22c41a49a402522014", null ],
-    [ "Register", "de/d24/a26593.html#aff9bc58342383afe5a08be696cddedf6", null ],
-    [ "Validate", "de/d24/a26593.html#ad712e1e05d94372defdfa4fe67e65716", null ]
+    [ "FilterTargets", "de/d24/a26593.html#a9abf4baaba572636dba3980e5ae777c5", null ],
+    [ "Load", "de/d24/a26593.html#a812e4e461c0ebed6f7c4cc36e88a3367", null ],
+    [ "PrepareSpellScript", "de/d24/a26593.html#a4e98fbf669c030263ed2e5759a5bd6e8", null ],
+    [ "Register", "de/d24/a26593.html#a2d72f5771d6563260a6e81122e4a2be5", null ]
 ];

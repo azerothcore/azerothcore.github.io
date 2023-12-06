@@ -1,6 +1,6 @@
 var a22105 =
 [
-    [ "boss_yoggsaron_death_orbAI", "d2/d22/a22105.html#a6e87b98e89748585a9f28c6f0e3a85e9", null ],
-    [ "UpdateAI", "d2/d22/a22105.html#afde5311434966ff0459dca8ce0d6b8b0", null ],
-    [ "_startTimer", "d2/d22/a22105.html#aebc8edef5f84219e1c50f2394d129443", null ]
+    [ "boss_yoggsaron_cloudAI", "d2/d3f/a22109.html", "d2/d3f/a22109" ],
+    [ "boss_yoggsaron_cloud", "d2/d22/a22105.html#ab52cc1fa8b45b70dde340b9f463ef2f1", null ],
+    [ "GetAI", "d2/d22/a22105.html#a2005f062eb9d78c7b09b045eba570b98", null ]
 ];

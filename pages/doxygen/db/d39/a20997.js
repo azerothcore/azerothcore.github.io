@@ -1,12 +1,6 @@
 var a20997 =
 [
-    [ "npc_freya_wardAI", "db/d39/a20997.html#afbc2f3d88173e240b87915cf0520b3cf", null ],
-    [ "DoAction", "db/d39/a20997.html#a4c9418b5474eb572a76168d4a460159a", null ],
-    [ "JustSummoned", "db/d39/a20997.html#a9075d763014ca50b4e0d2c815e1c23b7", null ],
-    [ "Reset", "db/d39/a20997.html#a65d304edd3b00b4a45c58bf36b926900", null ],
-    [ "SummonedCreatureDespawn", "db/d39/a20997.html#a6273b024ebde2fb36ed79eb122f7ac68", null ],
-    [ "UpdateAI", "db/d39/a20997.html#a11dd073b70e5126f580ec5122dce7bbd", null ],
-    [ "_castTimer", "db/d39/a20997.html#a6308aadc8ebf41cf045b04ac58e2244b", null ],
-    [ "_summoned", "db/d39/a20997.html#a5df6604055c5f3936a95f8d0ca5be8c1", null ],
-    [ "summons", "db/d39/a20997.html#a82932e9f2d570fa6d8394bfd3954c41e", null ]
+    [ "boss_flame_leviathanAI", "db/d2b/a21001.html", "db/d2b/a21001" ],
+    [ "boss_flame_leviathan", "db/d39/a20997.html#af4fcd38fc7095701c6c31674d849aef4", null ],
+    [ "GetAI", "db/d39/a20997.html#a3a402b002472bfe4347b512f21654c50", null ]
 ];

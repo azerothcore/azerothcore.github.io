@@ -1,7 +1,7 @@
 var a04151 =
 [
-    [ "instance_mechanar", "dc/da4/a25793.html", "dc/da4/a25793" ],
-    [ "instance_mechanar::instance_mechanar_InstanceMapScript", "d5/d29/a25797.html", "d5/d29/a25797" ],
-    [ "AddSC_instance_mechanar", "dd/d8c/a04151.html#a23f3274fbd28e19fae6647987fcdf0b9", null ],
-    [ "doorData", "dd/d8c/a04151.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
+    [ "instance_the_underbog", "da/d8d/a25117.html", "da/d8d/a25117" ],
+    [ "instance_the_underbog::instance_the_underbog_InstanceMapScript", "d7/d7c/a25121.html", "d7/d7c/a25121" ],
+    [ "AddSC_instance_the_underbog", "dd/d8c/a04151.html#acc5edb97f1bda7cd30a38061e4676698", null ],
+    [ "creatureData", "dd/d8c/a04151.html#a412286b689bd324fedd65ddd8dde8afb", null ]
 ];

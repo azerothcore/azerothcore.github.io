@@ -1,6 +1,7 @@
 var a19525 =
 [
-    [ "npc_impaling_spearAI", "dd/d18/a19529.html", "dd/d18/a19529" ],
-    [ "npc_impaling_spear", "d2/d64/a19525.html#af546ed9684fc085ad651bf5bd93e5bf7", null ],
-    [ "GetAI", "d2/d64/a19525.html#aad49164a3e7541b755c1c622b996bb9a", null ]
+    [ "npc_captain_arnathAI", "d2/d64/a19525.html#a34e3d17b89010569bf7e9cb28361c2af", null ],
+    [ "FindFriendlyCreature", "d2/d64/a19525.html#ad6411d2a87d2552bea2051f80ca16e14", null ],
+    [ "Reset", "d2/d64/a19525.html#a016fbe51f31e1c5ec1636e8d20d8cb30", null ],
+    [ "UpdateAI", "d2/d64/a19525.html#a020efd7adc0d60152007906e3229988d", null ]
 ];

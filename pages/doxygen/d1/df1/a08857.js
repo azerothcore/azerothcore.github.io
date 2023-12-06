@@ -1,7 +1,8 @@
 var a08857 =
 [
-    [ "NearestVisibleDetectableContestedGuardUnitCheck", "d1/df1/a08857.html#a470ab1e22a90a00752717d76b45a7aab", null ],
-    [ "NearestVisibleDetectableContestedGuardUnitCheck", "d1/df1/a08857.html#a042697dbc7622f5ff96bd1ade1afe5eb", null ],
-    [ "operator()", "d1/df1/a08857.html#a031abed7dd2e5523991bf72d47e8e050", null ],
-    [ "me", "d1/df1/a08857.html#a6cb490747146e1861006654deea366eb", null ]
+    [ "CreatureWorker", "d1/df1/a08857.html#a4b4dc219d034565cd83748c5f1cab2a5", null ],
+    [ "Visit", "d1/df1/a08857.html#ae67044250380c521055f80c55de0bba5", null ],
+    [ "Visit", "d1/df1/a08857.html#aa9a450b147aafe46a49135f5c5be668e", null ],
+    [ "i_do", "d1/df1/a08857.html#ac22f86d9a41701e7527d4840da256f11", null ],
+    [ "i_phaseMask", "d1/df1/a08857.html#adf514c89c894cdf2b44fc75d14c4f5b0", null ]
 ];

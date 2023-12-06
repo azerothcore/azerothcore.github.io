@@ -1,6 +1,8 @@
 var a13845 =
 [
-    [ "OnEffect", "d5/dba/a13845.html#a50c7e1c65315b5d46749b335e85e15e4", null ],
-    [ "PrepareSpellScript", "d5/dba/a13845.html#ab99c723bb71c5fdd844898eaf21cc520", null ],
-    [ "Register", "d5/dba/a13845.html#a892faa83f748d36c9c8638a12ac7f2aa", null ]
+    [ "npc_zuljin_vortexAI", "d5/dba/a13845.html#ad0bcdf626133ed7ddebf86b95859ad53", null ],
+    [ "JustEngagedWith", "d5/dba/a13845.html#a6f1a84b5795680728448bda61fa52c73", null ],
+    [ "Reset", "d5/dba/a13845.html#aeae059a3c4a55e30bde641092d7d49d6", null ],
+    [ "SpellHit", "d5/dba/a13845.html#a4bc620e49448383990efd392fcf60714", null ],
+    [ "UpdateAI", "d5/dba/a13845.html#acb20f40de5d099f8bb28a5eb8f7f09dd", null ]
 ];

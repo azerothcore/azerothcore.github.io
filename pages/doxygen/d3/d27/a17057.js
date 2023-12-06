@@ -1,8 +1,6 @@
 var a17057 =
 [
-    [ "npc_fos_leaderAI", "d3/d27/a17057.html#ae6a80f77558e0f5a62efc3b5ef1f61d6", null ],
-    [ "DoAction", "d3/d27/a17057.html#a1fd8cea6f8a6d8f76ba3c484b15c4054", null ],
-    [ "Reset", "d3/d27/a17057.html#a33364da3af4681de9f9e21b9dcf7f16c", null ],
-    [ "UpdateAI", "d3/d27/a17057.html#ac6f2aedc40e415ac0f7e8c212d4deae5", null ],
-    [ "events", "d3/d27/a17057.html#ac02a0c34096086e7baf1dc004811f4c1", null ]
+    [ "spell_bronjahm_soulstorm_visual_AuraScript", "df/dc3/a17061.html", "df/dc3/a17061" ],
+    [ "spell_bronjahm_soulstorm_visual", "d3/d27/a17057.html#afffed2d4148cbc9015408d8e6b3a3f8e", null ],
+    [ "GetAuraScript", "d3/d27/a17057.html#ae6f1e3f54f1b0c833263685f25e3395d", null ]
 ];

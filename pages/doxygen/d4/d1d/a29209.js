@@ -1,10 +1,12 @@
 var a29209 =
 [
-    [ "npc_prof_blacksmith", "d4/d1d/a29209.html#af9bd62c4c2514d79daf467e4d6d7a92e", null ],
-    [ "HasWeaponSub", "d4/d1d/a29209.html#a7ee47d061de5e2f482406469b4eaac3b", null ],
-    [ "OnGossipHello", "d4/d1d/a29209.html#a9a432c1ec33578949110c877fc6a686d", null ],
-    [ "OnGossipSelect", "d4/d1d/a29209.html#ab1edaf3dc0a8dddf064368d26930a2af", null ],
-    [ "SendActionMenu", "d4/d1d/a29209.html#af2ac8f9bfa212c34be3e45cc358dd773", null ],
-    [ "SendConfirmLearn", "d4/d1d/a29209.html#acbec7fe3eebf7eaed09e5755c6775eaa", null ],
-    [ "SendConfirmUnlearn", "d4/d1d/a29209.html#a851dc241d944bc888a00df85bff17e3a", null ]
+    [ "npc_preciousAI", "d4/d1d/a29209.html#ade66f3aa2ff9ac85c99a9d31591fcabf", null ],
+    [ "FlagForDespawn", "d4/d1d/a29209.html#a934a5147c1cc9937189011fb061657da", null ],
+    [ "InitializeAI", "d4/d1d/a29209.html#aa15843c4029f2df2ee04d21b5157602a", null ],
+    [ "JustEngagedWith", "d4/d1d/a29209.html#a58bc4149111605850f070a77ee776313", null ],
+    [ "JustReachedHome", "d4/d1d/a29209.html#a31893e9441b24398554370a58ef8bd78", null ],
+    [ "Reset", "d4/d1d/a29209.html#aa1c39ce0110827d35ae2d5ea794e1744", null ],
+    [ "UpdateAI", "d4/d1d/a29209.html#a2f3428807957bd60fdbe6f694bb6d3ef", null ],
+    [ "events", "d4/d1d/a29209.html#a69a20e759b1bcb631cef0bf1e4dd8a1b", null ],
+    [ "flaggedForDespawn", "d4/d1d/a29209.html#a48e891f8afce9408ed38c51a0e2d4005", null ]
 ];

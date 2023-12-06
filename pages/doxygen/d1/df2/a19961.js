@@ -1,6 +1,6 @@
 var a19961 =
 [
-    [ "npc_boss_gothik_minionAI", "d6/dcb/a19965.html", "d6/dcb/a19965" ],
-    [ "npc_boss_gothik_minion", "d1/df2/a19961.html#a6cabeae812639ac179133245d85a0e15", null ],
-    [ "GetAI", "d1/df2/a19961.html#a8abb1ec265f9eeb646a858bee06cfb92", null ]
+    [ "OnApply", "d1/df2/a19961.html#a133ad0ae5bce2340993c2e720e333dcf", null ],
+    [ "PrepareAuraScript", "d1/df2/a19961.html#ae460d0be44ddd8950aa52e89fe94152b", null ],
+    [ "Register", "d1/df2/a19961.html#a9ce4ddb1330cf851addedf25b3ca1431", null ]
 ];

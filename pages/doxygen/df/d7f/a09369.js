@@ -1,20 +1,14 @@
 var a09369 =
 [
-    [ "ZoneScript", "df/d7f/a09369.html#a3519b281545e348167893060c2aa352c", null ],
-    [ "~ZoneScript", "df/d7f/a09369.html#af4aa4d8f6b48d7d63fb6daa85d50c756", null ],
-    [ "GetCreatureEntry", "df/d7f/a09369.html#a8cabd274bffe18004c3fced46ae325b0", null ],
-    [ "GetData", "df/d7f/a09369.html#a8997612fdbdacbf5e28e4de60d03e805", null ],
-    [ "GetData64", "df/d7f/a09369.html#ab7aecf55fb84288840465dd69eacc8eb", null ],
-    [ "GetGameObjectEntry", "df/d7f/a09369.html#a3101d469bb171957177011fc0a76999b", null ],
-    [ "GetGuidData", "df/d7f/a09369.html#aa1483a9ca7f97cef589dd141d669cc46", null ],
-    [ "OnCreatureCreate", "df/d7f/a09369.html#ae61020e57e9ca8ae0d42a51e39b1fee0", null ],
-    [ "OnCreatureEvade", "df/d7f/a09369.html#a8113c8738b772b740dbc7a2352637669", null ],
-    [ "OnCreatureRemove", "df/d7f/a09369.html#adf80a1b08c7ab4451cd6967138727b56", null ],
-    [ "OnGameObjectCreate", "df/d7f/a09369.html#afa02089edff085ecd4eb7178b94ffe26", null ],
-    [ "OnGameObjectRemove", "df/d7f/a09369.html#a61c1ab81f65b4bfdf638eec002cb498c", null ],
-    [ "OnUnitDeath", "df/d7f/a09369.html#afaf1aecaaaac82508b8f1c50712b8204", null ],
-    [ "ProcessEvent", "df/d7f/a09369.html#ab32f7102df50af48e43f544bd107f964", null ],
-    [ "SetData", "df/d7f/a09369.html#a949e67ea24c7e4b70a20806952735576", null ],
-    [ "SetData64", "df/d7f/a09369.html#a321c2fc00f1d3d261a4887a1e74f4244", null ],
-    [ "SetGuidData", "df/d7f/a09369.html#ac465d5e7d00a7e3b935942f1627763f4", null ]
+    [ "TriangleBoundary", "df/d7f/a09369.html#acd21a26ca6b830c4d4c6ed2b4a186a30", null ],
+    [ "IsWithinBoundaryArea", "df/d7f/a09369.html#aaebce21d60856976db921e22a871aae6", null ],
+    [ "_a", "df/d7f/a09369.html#a11a5e1e039d39205450e8fde526f23c9", null ],
+    [ "_abx", "df/d7f/a09369.html#a18ad05ab00e882af42a5dbc0cf10715b", null ],
+    [ "_aby", "df/d7f/a09369.html#a50c9a60be77846c736cf278eac263b44", null ],
+    [ "_b", "df/d7f/a09369.html#abcce62f1f187bc6e42f4534bfca855e8", null ],
+    [ "_bcx", "df/d7f/a09369.html#a043b7c018baed6b098f93b667f47baed", null ],
+    [ "_bcy", "df/d7f/a09369.html#afa03a5b23a6e0d3d4e134fe7b1599df0", null ],
+    [ "_c", "df/d7f/a09369.html#a8e037f96f40d81f6c426208efb0dcd1a", null ],
+    [ "_cax", "df/d7f/a09369.html#a7c8c6e8e40ec6249d672bb735d9fbdfa", null ],
+    [ "_cay", "df/d7f/a09369.html#acbb7a9e61dd4e6188837461821843b9a", null ]
 ];

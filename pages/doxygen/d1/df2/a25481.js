@@ -1,7 +1,6 @@
 var a25481 =
 [
-    [ "HandleEffectRemove", "d1/df2/a25481.html#ae7c54bffb68953164c5ebaae6a80ff64", null ],
-    [ "PrepareAuraScript", "d1/df2/a25481.html#a410743e08d41ccfdd7cf964a91487949", null ],
-    [ "Register", "d1/df2/a25481.html#a75caf14574a9146a8ea5e123f706fc73", null ],
-    [ "AuraEffectHandleModes", "d1/df2/a25481.html#a3abc12e53e7fdf0f031aad9f3b41a399", null ]
+    [ "spell_alar_flame_quills_AuraScript", "d1/d89/a25485.html", "d1/d89/a25485" ],
+    [ "spell_alar_flame_quills", "d1/df2/a25481.html#a8a654c26568c1df707c379e665612fe3", null ],
+    [ "GetAuraScript", "d1/df2/a25481.html#a2f9439c4327475fa0fb058f89f1ae466", null ]
 ];

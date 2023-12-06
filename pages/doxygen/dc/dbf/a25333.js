@@ -1,12 +1,7 @@
 var a25333 =
 [
-    [ "boss_nazan", "dc/dbf/a25333.html#a4390d3e181c4db46e364df3302612763", null ],
-    [ "AttackStart", "dc/dbf/a25333.html#a7acea69f908e7a004c2a78c103528975", null ],
-    [ "DoAction", "dc/dbf/a25333.html#abdb49e50dabda61c5d16b420ae69ae77", null ],
-    [ "EnterEvadeMode", "dc/dbf/a25333.html#ab6338a7d240014e548b22044b788ce8f", null ],
-    [ "JustEngagedWith", "dc/dbf/a25333.html#a4d44b759530f32207a46a608fb7d6209", null ],
-    [ "MovementInform", "dc/dbf/a25333.html#ad35866322ff55263b1f8b105d2cad952", null ],
-    [ "Reset", "dc/dbf/a25333.html#a5c10e932075130399a9127869f45ce1d", null ],
-    [ "UpdateAI", "dc/dbf/a25333.html#a17942f19444ad324058d7b8c8a9aa9de", null ],
-    [ "_scheduler", "dc/dbf/a25333.html#a8915d84ec4ffb8dade18041d5e910018", null ]
+    [ "HandleOnApply", "dc/dbf/a25333.html#a4d14f81325ecd0bde345d60a135ad8ba", null ],
+    [ "HandleOnRemove", "dc/dbf/a25333.html#aed5f87523c58d94c8f98b76c06abb140", null ],
+    [ "PrepareAuraScript", "dc/dbf/a25333.html#ab32413873bec92540f9e85e8013b7ea2", null ],
+    [ "Register", "dc/dbf/a25333.html#a0653d8688f98822580a3243a0d47c17a", null ]
 ];

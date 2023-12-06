@@ -1,8 +1,11 @@
 var a22205 =
 [
-    [ "spell_yogg_saron_brain_link_AuraScript", "d0/d00/a22209.html", "d0/d00/a22209" ],
-    [ "spell_yogg_saron_brain_link_SpellScript", "d3/d14/a22213.html", "d3/d14/a22213" ],
-    [ "spell_yogg_saron_brain_link", "de/ddf/a22205.html#ab5b4e0b9d3b3926a3d76e841e9d3317d", null ],
-    [ "GetAuraScript", "de/ddf/a22205.html#a6b44989d11c3f85ce1a392e2e394e496", null ],
-    [ "GetSpellScript", "de/ddf/a22205.html#a23d84d86239ae8b67b4a487c92701492", null ]
+    [ "boss_yoggsaron_lich_kingAI", "de/ddf/a22205.html#a4fcf1be1bc20327ff8daf9c79baabde7", null ],
+    [ "NextStep", "de/ddf/a22205.html#a4f99e511d6296b56df8ab8fbe53620e6", null ],
+    [ "Reset", "de/ddf/a22205.html#a4c8f098f245e90685f0f3660028500a8", null ],
+    [ "Say", "de/ddf/a22205.html#a01217dd4c33b0ccae448aa137e83dd9b", null ],
+    [ "UpdateAI", "de/ddf/a22205.html#a3cbe18164c993fd034242b3f19d27e31", null ],
+    [ "_checkTimer", "de/ddf/a22205.html#a8f0234b32612ff56ac6a7429f6e4da09", null ],
+    [ "_running", "de/ddf/a22205.html#a9d7f0f2a8cf4f421253c8c5a6ec98111", null ],
+    [ "_step", "de/ddf/a22205.html#a6af98b3daace7852a485983167538f85", null ]
 ];

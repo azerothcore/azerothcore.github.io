@@ -1,6 +1,6 @@
 var a26433 =
 [
-    [ "HandleEffectApply", "d9/d40/a26433.html#a4bc121ecc9357709ec2f1ea395d0b6b1", null ],
-    [ "PrepareAuraScript", "d9/d40/a26433.html#ac7f16aed55aedba6da0672c3102a5fae", null ],
-    [ "Register", "d9/d40/a26433.html#a83e15d7db1b9aa4ce4fbc8a359795091", null ]
+    [ "RaiseDeadCheck", "d9/d40/a26433.html#abc6439e5b457f2f6e832f504167a392d", null ],
+    [ "operator()", "d9/d40/a26433.html#a9647e6afd21e7397f05349e66bea4326", null ],
+    [ "_caster", "d9/d40/a26433.html#a7b1647934c5e64de65d38b9fba2d343a", null ]
 ];

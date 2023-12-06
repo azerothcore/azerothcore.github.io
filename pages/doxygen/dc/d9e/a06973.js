@@ -1,9 +1,9 @@
 var a06973 =
 [
-    [ "entry", "dc/d9e/a06973.html#a4c6980a035279ca45e88a2ddc0beb0b5", null ],
-    [ "o", "dc/d9e/a06973.html#a785703f50dcafda5888fb76af82a09da", null ],
-    [ "type", "dc/d9e/a06973.html#aa21624a51b1fbfc474d0c64f4996cb9b", null ],
-    [ "x", "dc/d9e/a06973.html#a55bd18cb9ea27748a07dd91f6783de23", null ],
-    [ "y", "dc/d9e/a06973.html#a908fbf198d908963e77630b42deea147", null ],
-    [ "z", "dc/d9e/a06973.html#a4a49f5cbb58764ea9c137fc010e898c6", null ]
+    [ "Rank", "dc/d9e/a06973.html#a9bcd8dc00437bcf015565eeb43263578", null ],
+    [ "Rating", "dc/d9e/a06973.html#ab43875cc3ae58eb636a490c2c0f5c1f6", null ],
+    [ "SeasonGames", "dc/d9e/a06973.html#a124c6d64f22c13707764eedd79fe1912", null ],
+    [ "SeasonWins", "dc/d9e/a06973.html#ad274601b85ea634524b1c00979e09465", null ],
+    [ "WeekGames", "dc/d9e/a06973.html#a1d0092200b2c9428e821473949cfda77", null ],
+    [ "WeekWins", "dc/d9e/a06973.html#a313afef901bd5a9347f2074a7ca1bfe0", null ]
 ];

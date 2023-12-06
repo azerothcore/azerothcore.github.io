@@ -1,16 +1,7 @@
 var a14001 =
 [
-    [ "boss_renatakiAI", "d7/d5e/a14001.html#ac154bfadeb99d67f59e1682de257e8bf", null ],
-    [ "CanAIAttack", "d7/d5e/a14001.html#af20dc14dc56500e568a3a11bfb34a227", null ],
-    [ "CanAlwaysBeDetectable", "d7/d5e/a14001.html#af75108eacb982586f43a175beede78ef", null ],
-    [ "CanBeSeen", "d7/d5e/a14001.html#ac79db0d4488702be0cd12b5e03a9bcb9", null ],
-    [ "CanSeeAlways", "d7/d5e/a14001.html#a6e4a1e9bec67a1bdac4c9cef3da4b17d", null ],
-    [ "DamageTaken", "d7/d5e/a14001.html#a62d97adb310b55a2235737b854dc4aca", null ],
-    [ "JustEngagedWith", "d7/d5e/a14001.html#a72e9a85d2215d3da197d50b6aa0b769e", null ],
-    [ "Reset", "d7/d5e/a14001.html#ad50d8e24fb4168186497c5cdb5b39a68", null ],
-    [ "UpdateAI", "d7/d5e/a14001.html#a3a1abaef460d9abe1298080080d74c9d", null ],
-    [ "_dynamicFlags", "d7/d5e/a14001.html#a502bfa737cf97ae909144278a3e39bd0", null ],
-    [ "_enraged", "d7/d5e/a14001.html#a71e717a2ea732729762aff7970439f74", null ],
-    [ "_thousandBladesCount", "d7/d5e/a14001.html#a29dd57c66245f30d12f32d31cc25cd55", null ],
-    [ "_thousandBladesTargets", "d7/d5e/a14001.html#ab8b2b52a2ef8ea6586381234c9a3e3fc", null ]
+    [ "HandleOnHit", "d7/d5e/a14001.html#a561799e6241b1fe17cd09f17c447107b", null ],
+    [ "PrepareSpellScript", "d7/d5e/a14001.html#ad98ba2831e93bd601b51a5c6a7e8441d", null ],
+    [ "Register", "d7/d5e/a14001.html#ad9b601b73631285cb5a79e30dfe4a8cc", null ],
+    [ "Validate", "d7/d5e/a14001.html#adb339686c5e9dcb298712455dc8435bf", null ]
 ];

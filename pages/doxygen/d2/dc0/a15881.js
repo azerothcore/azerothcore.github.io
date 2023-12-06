@@ -1,6 +1,6 @@
 var a15881 =
 [
-    [ "ModDestHeight", "d2/dc0/a15881.html#a8bda9327c4244af41c513528ad5c818c", null ],
-    [ "PrepareSpellScript", "d2/dc0/a15881.html#aba5a03c94fa5d87c46a91369875c0ab2", null ],
-    [ "Register", "d2/dc0/a15881.html#a62b0ce71caeff96705b15aa240ddd09f", null ]
+    [ "HandleApply", "d2/dc0/a15881.html#aee4d5908035d06be2f1469a50db02e26", null ],
+    [ "PrepareAuraScript", "d2/dc0/a15881.html#ac8349deb2e9c8861194e80132bd72fc5", null ],
+    [ "Register", "d2/dc0/a15881.html#ac83962bef84b68cef6d7937769730598", null ]
 ];

@@ -1,6 +1,6 @@
 var a25897 =
 [
-    [ "npc_wounded_blood_elfAI", "d8/d0c/a25901.html", "d8/d0c/a25901" ],
-    [ "npc_wounded_blood_elf", "d1/dd6/a25897.html#a40e79d1412f5f399869a4d2c6fbb4260", null ],
-    [ "GetAI", "d1/dd6/a25897.html#a39d4bd877bdf6596c65e3cb834f124aa", null ]
+    [ "spell_q10612_10613_the_fel_and_the_furious_SpellScript", "d8/d0c/a25901.html", "d8/d0c/a25901" ],
+    [ "spell_q10612_10613_the_fel_and_the_furious", "d1/dd6/a25897.html#aafbc9cf0e3361230acd78c549374bf24", null ],
+    [ "GetSpellScript", "d1/dd6/a25897.html#a8994d055fe54e7598c4cba759d439c60", null ]
 ];

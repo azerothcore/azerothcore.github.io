@@ -1,18 +1,8 @@
 var a21653 =
 [
-    [ "npc_ulduar_leviathan_mkiiAI", "dc/df9/a21653.html#a5502ef972b889513a3d3d9b85d256af4", null ],
-    [ "DamageTaken", "dc/df9/a21653.html#a773f86b23d373bae4e57d4d67b270b6d", null ],
-    [ "EnterEvadeMode", "dc/df9/a21653.html#ab6d02d90b4fe5f6bda0eed4f8f05c001", null ],
-    [ "GetS3", "dc/df9/a21653.html#af76019911ce9bb993ebb7c658d30188d", null ],
-    [ "KilledUnit", "dc/df9/a21653.html#a53acdf5b1703a3feca814184a018cc3d", null ],
-    [ "MoveInLineOfSight", "dc/df9/a21653.html#a0f4f1b5876d608b01376430444e472e3", null ],
-    [ "PassengerBoarded", "dc/df9/a21653.html#a55f76a830084d7aaa3df0d6bf0630121", null ],
-    [ "Reset", "dc/df9/a21653.html#a63174d9dcdf5a0d433f9694bda6d7086", null ],
-    [ "SetData", "dc/df9/a21653.html#a214491b36ca047f666d5931365649c4c", null ],
-    [ "SpellHit", "dc/df9/a21653.html#ad9c47de936a986e6698a1b8ed6caf68f", null ],
-    [ "UpdateAI", "dc/df9/a21653.html#a4267062c75d3bee348c946be6f8d5878", null ],
-    [ "bIsEvading", "dc/df9/a21653.html#ac142b9abf799b944cd5e20cc0e9979c8", null ],
-    [ "events", "dc/df9/a21653.html#a6f12f0d68459399cf85ce030cb633d4f", null ],
-    [ "Phase", "dc/df9/a21653.html#ad9e8d511cbd34ff024799f6ec61fe1ff", null ],
-    [ "pInstance", "dc/df9/a21653.html#aa991c7f1cf64ca7e0963323222ffc1dd", null ]
+    [ "spell_kologarn_stone_shout_AuraScript", "d0/d76/a21657.html", "d0/d76/a21657" ],
+    [ "spell_kologarn_stone_shout_SpellScript", "dc/d94/a21661.html", "dc/d94/a21661" ],
+    [ "spell_kologarn_stone_shout", "dc/df9/a21653.html#ad1f1f8f84a4890941eaaeec6f0ae6e36", null ],
+    [ "GetAuraScript", "dc/df9/a21653.html#a2f13b5d4a63cf671156c83661107645a", null ],
+    [ "GetSpellScript", "dc/df9/a21653.html#af3e6f4ad55b71584ba57f6022d638c6c", null ]
 ];

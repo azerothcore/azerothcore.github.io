@@ -1,18 +1,10 @@
 var a23629 =
 [
-    [ "npc_blessed_bannerAI", "d2/d86/a23629.html#a563cd394d72a900d735f8639074deae1", null ],
-    [ "JustDied", "d2/d86/a23629.html#a06e0e0c1e673c13488bd47e130098915", null ],
-    [ "JustEngagedWith", "d2/d86/a23629.html#abfdd9e554fbbe16f6058d5cb10394a84", null ],
-    [ "JustSummoned", "d2/d86/a23629.html#a354921ca9a3603c48885a38a507347c4", null ],
-    [ "MoveInLineOfSight", "d2/d86/a23629.html#a34a0a856a4a4c05954ba300d8031e374", null ],
-    [ "Reset", "d2/d86/a23629.html#a6fe7e49f2077ed549a6406592aec345e", null ],
-    [ "UpdateAI", "d2/d86/a23629.html#a8ca070c63dd48e22823ac26d11da75be", null ],
-    [ "events", "d2/d86/a23629.html#a79b7fbee1492860fe64d42928e494e3d", null ],
-    [ "guidDalfors", "d2/d86/a23629.html#a369a837b6fa57d0960f24d9ea629ed04", null ],
-    [ "guidHalof", "d2/d86/a23629.html#aef28a7624fb88e65a7f79fe34c320a29", null ],
-    [ "guidMason", "d2/d86/a23629.html#a05e6dc20409e2271de8fe4f4b3ae7bfa", null ],
-    [ "guidPriest", "d2/d86/a23629.html#a25f4056b2d7fda02885f58502f809a9c", null ],
-    [ "HalofSpawned", "d2/d86/a23629.html#a38e98094f05c09ea19a4f44771194b2e", null ],
-    [ "PhaseCount", "d2/d86/a23629.html#a983110caf86d94374a299d7268f7458c", null ],
-    [ "Summons", "d2/d86/a23629.html#a92d7543e31c5cb367379711cb767ebd6", null ]
+    [ "npc_infra_green_bomber_genericAI", "d2/d86/a23629.html#aed712ea3625971e059e2ecd158227287", null ],
+    [ "DamageTaken", "d2/d86/a23629.html#a8f860368df96e430b441c8316db99c93", null ],
+    [ "GetSummoner", "d2/d86/a23629.html#aaf7b91ce2bbf65c3f6c4bd41f04682bc", null ],
+    [ "IsSummonedBy", "d2/d86/a23629.html#a79676717b7c6219ea74ebe5a580eab28", null ],
+    [ "SpreadFire", "d2/d86/a23629.html#a5727c839b7dd02ea64eccce3606688d1", null ],
+    [ "UpdateAI", "d2/d86/a23629.html#a252875777655e963965676a24c15e766", null ],
+    [ "events", "d2/d86/a23629.html#ae8795439197b9cbfb70bbf5a672b8019", null ]
 ];

@@ -1,9 +1,9 @@
 var a23077 =
 [
-    [ "npc_counselor_talbotAI", "d6/de3/a23077.html#acf1865ab4225128b8edbc619f7d8fa93", null ],
-    [ "JustDied", "d6/de3/a23077.html#a4dbb0c9b91be5fa182bcc5c63ac9307b", null ],
-    [ "JustEngagedWith", "d6/de3/a23077.html#acacec95c5e74c4b71cf2345bbae2eacb", null ],
-    [ "Reset", "d6/de3/a23077.html#a03bfaedb136c3e107a4df8e4a1646ae2", null ],
-    [ "UpdateAI", "d6/de3/a23077.html#a7b5c739d7c85d5205a04f3c6adf367ef", null ],
-    [ "_events", "d6/de3/a23077.html#a094ce9839bb51b73e6b5826c24cda3b6", null ]
+    [ "npc_bloodmage_laurithAI", "d6/de3/a23077.html#a75dca4f2e90318f334e7e6385d4f7a6f", null ],
+    [ "Reset", "d6/de3/a23077.html#afe9b10dfcee3b241a48e6f2e40eec657", null ],
+    [ "SetGUID", "d6/de3/a23077.html#a50a144cf1545117d79268d3a18a4b4ec", null ],
+    [ "UpdateAI", "d6/de3/a23077.html#a9752f518441071dd4a60cd63423bf9a3", null ],
+    [ "_events", "d6/de3/a23077.html#a35facab84094071d952792a4c3e5015d", null ],
+    [ "_playerGUID", "d6/de3/a23077.html#a6aab8db1d55d4fe3251b544c292711e8", null ]
 ];

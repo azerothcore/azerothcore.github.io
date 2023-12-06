@@ -1,6 +1,6 @@
 var a17449 =
 [
-    [ "entry", "de/d38/a17449.html#af2cf5df64adf9ac1575a8217b103e738", null ],
-    [ "x", "de/d38/a17449.html#aad21475d521921ea30cc0ae5d260ce69", null ],
-    [ "y", "de/d38/a17449.html#abd69e1c28ad36466c82807ea0ffb0fb7", null ]
+    [ "spell_pos_rimefang_frost_novaSpellScript", "dd/d7f/a17453.html", "dd/d7f/a17453" ],
+    [ "spell_pos_rimefang_frost_nova", "de/d38/a17449.html#a150668643f4694799fd4fd90e8e3c897", null ],
+    [ "GetSpellScript", "de/d38/a17449.html#accac6b93fc916cadd70a90327fcb11ca", null ]
 ];

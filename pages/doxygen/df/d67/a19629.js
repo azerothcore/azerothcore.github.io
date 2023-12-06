@@ -1,6 +1,7 @@
 var a19629 =
 [
-    [ "spell_icc_web_wrap_AuraScript", "d9/da8/a19633.html", "d9/da8/a19633" ],
-    [ "spell_icc_web_wrap", "df/d67/a19629.html#aedb4941dc8c485d3b952d05773df8aee", null ],
-    [ "GetAuraScript", "df/d67/a19629.html#a75a7b4c03f65c328851257385462f663", null ]
+    [ "Land", "df/d67/a19629.html#a846a1c330c97b518098faa7fe275aece", null ],
+    [ "PrepareSpellScript", "df/d67/a19629.html#ae4a4e7088b93c4a453acbc03178f069f", null ],
+    [ "Register", "df/d67/a19629.html#a2ae64909c6fb224e270c04df1c9e56c6", null ],
+    [ "RemoveAliveTarget", "df/d67/a19629.html#ace66b76e6dbcfe0af1e7c47b188d7c1c", null ]
 ];

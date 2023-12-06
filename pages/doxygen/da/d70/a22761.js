@@ -1,12 +1,14 @@
 var a22761 =
 [
-    [ "boss_lavanthorAI", "da/d70/a22761.html#aa562ad1ee029a35adebf8eac8f8249f3", null ],
-    [ "EnterEvadeMode", "da/d70/a22761.html#a0334d92f1ddf30235efe298df622535b", null ],
-    [ "JustDied", "da/d70/a22761.html#a300dbedf5514998e7065a2ef44a65f1f", null ],
-    [ "JustEngagedWith", "da/d70/a22761.html#a9820ec47af72af19f00b172ee138f908", null ],
-    [ "MoveInLineOfSight", "da/d70/a22761.html#aa613f70d93be479aa701675dfdb2d3e3", null ],
-    [ "Reset", "da/d70/a22761.html#a55d5cc6906033b5c56daa3ed15fabf0f", null ],
-    [ "UpdateAI", "da/d70/a22761.html#ab77ac2c78e94fed437e8ccefba4e363c", null ],
-    [ "events", "da/d70/a22761.html#a273adc56adefe9810013bc80950f2624", null ],
-    [ "pInstance", "da/d70/a22761.html#ad6059577c5e131523f39316c2291b421", null ]
+    [ "boss_erekemAI", "da/d70/a22761.html#aedf10fef3f0f2ac6797efa5f5a809f4a", null ],
+    [ "EnterEvadeMode", "da/d70/a22761.html#a2c9f8f444b3b28d5cfdbaa234e9d76ee", null ],
+    [ "GetChainHealTargetGUID", "da/d70/a22761.html#aa346cbaded883bbb3806acf9cb32579a", null ],
+    [ "JustDied", "da/d70/a22761.html#a12e7fb5389977dcacb4e1eadda771467", null ],
+    [ "JustEngagedWith", "da/d70/a22761.html#ad380838dbb6c2a3488fa57f2999e137c", null ],
+    [ "KilledUnit", "da/d70/a22761.html#a120a2c9a6af821ce9a5e68dbab6e800d", null ],
+    [ "MoveInLineOfSight", "da/d70/a22761.html#a5905809cba20d426c4d222b1e91055bc", null ],
+    [ "Reset", "da/d70/a22761.html#a338bbc123b1d3adef4f014c3302c4590", null ],
+    [ "UpdateAI", "da/d70/a22761.html#a234ae447260ae30a137a53fb986e5dc4", null ],
+    [ "events", "da/d70/a22761.html#a8d4445b6d35f534061818f7708f39f7e", null ],
+    [ "pInstance", "da/d70/a22761.html#aa68ece744a21ed2ef8d3e7c4b4081d8e", null ]
 ];

@@ -1,7 +1,6 @@
 var a13177 =
 [
-    [ "npc_singularityAI", "d3/d5f/a13177.html#a3385a5ff1216daed82fb8bf7bb830b21", null ],
-    [ "Reset", "d3/d5f/a13177.html#ac4fa5b0fe7e1bf62c7deb9197b54f939", null ],
-    [ "UpdateAI", "d3/d5f/a13177.html#aafa3ceeeb22492ef1ead260a33833bd3", null ],
-    [ "events", "d3/d5f/a13177.html#a68c7f293c67b7d014411d8f847925ef4", null ]
+    [ "FilterTargets", "d3/d5f/a13177.html#ab29870380b3957ad74660b896449c568", null ],
+    [ "PrepareSpellScript", "d3/d5f/a13177.html#ad40bc7ea1968bd353038747a05cf2d91", null ],
+    [ "Register", "d3/d5f/a13177.html#a5cabcbebaaf8a128ecd3c5738c6abfa4", null ]
 ];

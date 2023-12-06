@@ -1,5 +1,8 @@
 var a21753 =
 [
-    [ "npc_ulduar_rocket_strike_triggerAI", "d7/dfc/a21753.html#a6308129d11989dadf0a5948c4a268e4b", null ],
-    [ "SpellHitTarget", "d7/dfc/a21753.html#a3c254e16f62e7d2414d81062c91c2468", null ]
+    [ "HandleEffectPeriodic", "d7/dfc/a21753.html#ade51556206853c273950937e52447f41", null ],
+    [ "Load", "d7/dfc/a21753.html#a81f9c53e3052932fbdc93ef74e4b8df3", null ],
+    [ "PrepareAuraScript", "d7/dfc/a21753.html#abacc5a8478bb665fe406fdf8ff0a7543", null ],
+    [ "Register", "d7/dfc/a21753.html#a7ee06daf1f6f0716588025880a4a3931", null ],
+    [ "lastOrientation", "d7/dfc/a21753.html#a349426d5f23a7da8fbc645b72a234479", null ]
 ];

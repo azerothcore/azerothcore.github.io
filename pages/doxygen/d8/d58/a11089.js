@@ -1,8 +1,7 @@
 var a11089 =
 [
-    [ "CreatureCountWorker", "d8/d58/a11089.html#ad01e947d97d03a10ea3a891d24cb05b7", null ],
-    [ "GetTopCreatureCount", "d8/d58/a11089.html#a5d4d009b6685dd71703f96f9945a463e", null ],
-    [ "Visit", "d8/d58/a11089.html#a786d95d42f7711235e60a4f54cc3b4be", null ],
-    [ "Visit", "d8/d58/a11089.html#afa72c0c1f905f4277d650ad0cfef281d", null ],
-    [ "creatureIds", "d8/d58/a11089.html#a3a6f946c40b1006164793dbaed2b3948", null ]
+    [ "Command", "d8/d58/a11089.html#a6042a93c52d18e3a74d3cd46ac3d940f", null ],
+    [ "ModuleId", "d8/d58/a11089.html#aa2e1c1cee71fc1eb887511c655de0516", null ],
+    [ "ModuleKey", "d8/d58/a11089.html#aba0f236c39186022816bd86f8e8e9093", null ],
+    [ "Size", "d8/d58/a11089.html#a6912224c1ef6fd117a5ed02d394254d9", null ]
 ];

@@ -1,11 +1,11 @@
 var a11549 =
 [
-    [ "npc_blackhand_incarceratorAI", "d5/d74/a11549.html#adecfd5bcc6bf5fee0688459ebac03e18", null ],
-    [ "DamageTaken", "d5/d74/a11549.html#a3bc090518cba2bc64fb5c454bbb47b72", null ],
-    [ "JustEngagedWith", "d5/d74/a11549.html#a2026328f428c4e5c15551773255da21f", null ],
-    [ "Reset", "d5/d74/a11549.html#a3a98f2d5fd764c852a1d9418315cd56b", null ],
-    [ "SetData", "d5/d74/a11549.html#ae9d92237c6327abd78ada9a306ee8a09", null ],
-    [ "UpdateAI", "d5/d74/a11549.html#a1bc6aa88d7bc5163e2cc4e2cc1779076", null ],
-    [ "_events", "d5/d74/a11549.html#abcd817233c0cb85656856c4107d86793", null ],
-    [ "_fleedForAssistance", "d5/d74/a11549.html#ab4e59b91b47dffc19db6b49ecd4c9fd8", null ]
+    [ "boss_high_interrogator_gerstahnAI", "d5/d74/a11549.html#a557fda67d1d1de268ba661350ba915dc", null ],
+    [ "JustEngagedWith", "d5/d74/a11549.html#a80e01faa471f9e83e85c3c47fd815dea", null ],
+    [ "Reset", "d5/d74/a11549.html#ab63099f83037b3716d1e2b9c21d7d607", null ],
+    [ "UpdateAI", "d5/d74/a11549.html#a67b34f7cf4c62a57bc9fb556f5fb0b81", null ],
+    [ "ManaBurn_Timer", "d5/d74/a11549.html#aede307f972942c15c4b2bfa90e75856d", null ],
+    [ "PsychicScream_Timer", "d5/d74/a11549.html#a291f3484e4d125fefe437d96b12153f1", null ],
+    [ "ShadowShield_Timer", "d5/d74/a11549.html#a7ba151c46b097825dca9b8e3ac2cdee9", null ],
+    [ "ShadowWordPain_Timer", "d5/d74/a11549.html#aec0eab93e8494bc1abc87d81460fac31", null ]
 ];

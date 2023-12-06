@@ -1,7 +1,6 @@
 var a11769 =
 [
-    [ "HandleDummy", "da/dab/a11769.html#a7fca477ef5c86d543cd59571ad8dc7de", null ],
-    [ "PrepareSpellScript", "da/dab/a11769.html#a6ec124990f202af0c6063c285bf04d88", null ],
-    [ "Register", "da/dab/a11769.html#a5adf9f0bbe5b72c4c22f569086582f0f", null ],
-    [ "Validate", "da/dab/a11769.html#ae35efa08f507aac5b72166a216d01870", null ]
+    [ "near_scarshield_infiltrator", "da/dab/a11769.html#a38d2e75946c429b4d80b007f190406bc", null ],
+    [ "OnTrigger", "da/dab/a11769.html#aeb761433e3210ce85c1de4dab653a87c", null ],
+    [ "whisperedTargets", "da/dab/a11769.html#a5655e241d2551798a960cb6375c7df23", null ]
 ];

@@ -1,6 +1,6 @@
 var a21933 =
 [
-    [ "spell_thorim_lightning_pillar_P2_AuraScript", "dc/de9/a21937.html", "dc/de9/a21937" ],
-    [ "spell_thorim_lightning_pillar_P2", "de/de8/a21933.html#a5358c7a5b6f6e195e4d24ec889757072", null ],
-    [ "GetAuraScript", "de/de8/a21933.html#a406b1249c304c8aebe975f38591f5a63", null ]
+    [ "boss_thorim_gauntlet_npcsAI", "dc/de9/a21937.html", "dc/de9/a21937" ],
+    [ "boss_thorim_gauntlet_npcs", "de/de8/a21933.html#abdf2e90c5b86d3724fac46bff5e15d97", null ],
+    [ "GetAI", "de/de8/a21933.html#a2a71153ed2a9091de6668ab0b6f7674f", null ]
 ];

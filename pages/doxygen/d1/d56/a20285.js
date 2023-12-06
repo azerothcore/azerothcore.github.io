@@ -1,5 +1,5 @@
 var a20285 =
 [
-    [ "achievement_chaos_theory", "d1/d56/a20285.html#a3068009fa1fb400439a2c72f00296484", null ],
-    [ "OnCheck", "d1/d56/a20285.html#a68d9a577cb7e005d81f52077707e3555", null ]
+    [ "go_the_focusing_iris", "d1/d56/a20285.html#a9c2fa1e739ff98ebdd9b9fdcc2ab5ece", null ],
+    [ "OnGossipHello", "d1/d56/a20285.html#a7f3f1170713d63f912ca5732453a7e33", null ]
 ];

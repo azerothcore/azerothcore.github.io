@@ -1,6 +1,6 @@
 var a19645 =
 [
-    [ "spell_stinky_precious_decimate_SpellScript", "d6/dd1/a19649.html", "d6/dd1/a19649" ],
-    [ "spell_stinky_precious_decimate", "d9/d14/a19645.html#ae1cb5d26a467a52534ec4e0ae0fbe24d", null ],
-    [ "GetSpellScript", "d9/d14/a19645.html#ac735cb21e65abcb7f8353c0c3448a2f6", null ]
+    [ "PrepareSpellScript", "d9/d14/a19645.html#ac699ce446f257197fbc4b0c46511ebf8", null ],
+    [ "Register", "d9/d14/a19645.html#ab9771f4a92bbbad067c8bfb41c537757", null ],
+    [ "RelocateDest", "d9/d14/a19645.html#a8c8937991e4a78b4380090bfe2f4ea67", null ]
 ];

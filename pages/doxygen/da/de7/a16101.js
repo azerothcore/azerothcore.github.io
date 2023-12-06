@@ -1,6 +1,6 @@
 var a16101 =
 [
-    [ "CheckDistance", "da/de7/a16101.html#adbbed117455c24a20afe45891de38f43", null ],
-    [ "PrepareSpellScript", "da/de7/a16101.html#a4d26a34b0db9bebb121766908b3c329b", null ],
-    [ "Register", "da/de7/a16101.html#a698f08c5fa10042ab3e6a0ced9fbf676", null ]
+    [ "instance_obsidian_sanctum_InstanceMapScript", "d6/d21/a16105.html", "d6/d21/a16105" ],
+    [ "instance_obsidian_sanctum", "da/de7/a16101.html#a6cf2121c4167156f5748c144372b3c0b", null ],
+    [ "GetInstanceScript", "da/de7/a16101.html#a67acb36f65c1bc3d6eca59bf71a5c220", null ]
 ];

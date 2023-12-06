@@ -1,7 +1,6 @@
 var a19265 =
 [
-    [ "AuraRemoveEvent", "d7/d2b/a19265.html#a094b9437c7cadb465738daf5684c9725", null ],
-    [ "Execute", "d7/d2b/a19265.html#a14ac906a0fcff86f61983c570b0bd6ad", null ],
-    [ "_spellId", "d7/d2b/a19265.html#a6fad41839e07e9545859be7c3afcfc36", null ],
-    [ "_trigger", "d7/d2b/a19265.html#aad8c27befc102dae6823d5d74fed50b4", null ]
+    [ "spell_the_lich_king_trigger_vile_spirit_SpellScript", "d3/d9f/a19269.html", "d3/d9f/a19269" ],
+    [ "spell_the_lich_king_trigger_vile_spirit", "d7/d2b/a19265.html#a875bb4a5e6bad99f06e2c04485cbda4d", null ],
+    [ "GetSpellScript", "d7/d2b/a19265.html#a89f29a493a7be4bd17c59f46e3909404", null ]
 ];

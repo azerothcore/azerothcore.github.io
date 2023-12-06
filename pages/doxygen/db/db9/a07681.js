@@ -1,15 +1,9 @@
 var a07681 =
 [
-    [ "Minion", "db/db9/a07681.html#a4a560a702e9f655615797ee4dcd7fbb4", null ],
-    [ "GetDebugInfo", "db/db9/a07681.html#a1f9800abdfa2126e593a6ae169f20024", null ],
-    [ "GetFollowAngle", "db/db9/a07681.html#a6b4a4409bd7a8ff455bb13f8c4e5560a", null ],
-    [ "GetOwner", "db/db9/a07681.html#a4610f459936e40b530dae8429f139cfe", null ],
-    [ "InitStats", "db/db9/a07681.html#ad11b2900e990e2b5ba7d10b811cd1e5d", null ],
-    [ "IsGuardianPet", "db/db9/a07681.html#a63335ad34731e8a26ab027bf690f9d4d", null ],
-    [ "IsPetGhoul", "db/db9/a07681.html#ae56acaeea6d1cf9735345cb784f3dcd3", null ],
-    [ "RemoveFromWorld", "db/db9/a07681.html#a35f8314d0a4bafeba1987eb0b1ececf3", null ],
-    [ "setDeathState", "db/db9/a07681.html#ab954627fc409e08616cf080974d30a82", null ],
-    [ "SetFollowAngle", "db/db9/a07681.html#a3b7be3e8dc649b939056ee6a5a66c506", null ],
-    [ "m_followAngle", "db/db9/a07681.html#a02806f2eae429a33e0d2b0c115892c77", null ],
-    [ "m_owner", "db/db9/a07681.html#a135c4341d5f617d1f69ee9f7deeea755", null ]
+    [ "LFGGroupScript", "db/db9/a07681.html#adb7730ba67910121a255a6da535d2fc2", null ],
+    [ "OnAddMember", "db/db9/a07681.html#a43c29f1c4b0f78b203a8798e34e9bc4c", null ],
+    [ "OnChangeLeader", "db/db9/a07681.html#a3616c537eb39fe130c8fb24d93a0ead9", null ],
+    [ "OnDisband", "db/db9/a07681.html#a7d8d28f1919e407ed93474d970733d86", null ],
+    [ "OnInviteMember", "db/db9/a07681.html#a25add922fa708babe08c3bdaaa0c0d92", null ],
+    [ "OnRemoveMember", "db/db9/a07681.html#a1385adec817221a83653a6fa03e57858", null ]
 ];

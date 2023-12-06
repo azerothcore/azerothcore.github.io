@@ -1,6 +1,8 @@
 var a25265 =
 [
-    [ "CalculateDamage", "d2/d8f/a25265.html#a170fb61e3a7358d42cc6506067fb978a", null ],
-    [ "PrepareSpellScript", "d2/d8f/a25265.html#a197fce87e22a3e4055cabbb925b13aa1", null ],
-    [ "Register", "d2/d8f/a25265.html#aac3c6a6b34af795cb08fc299e763f6a8", null ]
+    [ "npc_target_trigger", "d2/d8f/a25265.html#a238058ba80130c6239b7267db3247196", null ],
+    [ "Reset", "d2/d8f/a25265.html#ad23d465bfd78ede0a1556f2ce1742349", null ],
+    [ "UpdateAI", "d2/d8f/a25265.html#ab5f482e209d2d8aa5c27666d3e1934f3", null ],
+    [ "_cast", "d2/d8f/a25265.html#a4ec89ca960323f7ad135d5a425a82416", null ],
+    [ "_scheduler", "d2/d8f/a25265.html#a9b418b09e25c8f96692b4e2626339c96", null ]
 ];

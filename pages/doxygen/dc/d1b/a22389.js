@@ -1,6 +1,6 @@
 var a22389 =
 [
-    [ "spell_ulduar_arachnopod_damaged_AuraScript", "d3/d55/a22393.html", "d3/d55/a22393" ],
-    [ "spell_ulduar_arachnopod_damaged", "dc/d1b/a22389.html#a651a803261e90cd897d7f166a275eb26", null ],
-    [ "GetAuraScript", "dc/d1b/a22389.html#aa084d5348aabacfcdcbc71a7a6a5414f", null ]
+    [ "npc_ulduar_keeper", "dc/d1b/a22389.html#a252b781061a2e21dc961ea94f7120d59", null ],
+    [ "OnGossipHello", "dc/d1b/a22389.html#a4db12efd22c7d2a5f18144fd16543230", null ],
+    [ "OnGossipSelect", "dc/d1b/a22389.html#acf8681577117107d16d45705e4b8463f", null ]
 ];

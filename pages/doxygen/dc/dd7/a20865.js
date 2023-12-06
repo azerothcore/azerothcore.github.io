@@ -1,6 +1,6 @@
 var a20865 =
 [
-    [ "boss_runemaster_molgeimAI", "d0/de0/a20869.html", "d0/de0/a20869" ],
-    [ "boss_runemaster_molgeim", "dc/dd7/a20865.html#a440e4e43b941ac2b956c7c586a95f991", null ],
-    [ "GetAI", "dc/dd7/a20865.html#a080e70913be1e6ad9521bab5b90a92a6", null ]
+    [ "spell_algalon_remove_phase_AuraScript", "d0/de0/a20869.html", "d0/de0/a20869" ],
+    [ "spell_algalon_remove_phase", "dc/dd7/a20865.html#a82cc71a8c3c4b5d330ae5e51da171d11", null ],
+    [ "GetAuraScript", "dc/dd7/a20865.html#acfa9371b85ab9bae73c407835375038e", null ]
 ];

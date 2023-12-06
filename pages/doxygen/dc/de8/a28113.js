@@ -1,5 +1,5 @@
 var a28113 =
 [
-    [ "PrepareSpellScript", "dc/de8/a28113.html#aee9595d4716fb2ea1bd9e2a66d26c39e", null ],
-    [ "Register", "dc/de8/a28113.html#a6318da4bfeb63dee75a971106bdc2146", null ]
+    [ "spell_q11515_fel_siphon_dummy", "dc/de8/a28113.html#a80fa790a716d1ae950f43f9a298afd66", null ],
+    [ "GetSpellScript", "dc/de8/a28113.html#a0d122972fc036d1f1e49c49acda58be3", null ]
 ];

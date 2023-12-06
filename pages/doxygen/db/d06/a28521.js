@@ -1,6 +1,6 @@
 var a28521 =
 [
-    [ "CheckCast", "db/d06/a28521.html#acdb69e605c4e3b5eb3e48f400957db28", null ],
-    [ "PrepareSpellScript", "db/d06/a28521.html#a1fb9a924ddba358d6d67943c5b2ffa24", null ],
-    [ "Register", "db/d06/a28521.html#a703b21a93ba41211ac6e6ee182eecb8b", null ]
+    [ "HandleScriptEffect", "db/d06/a28521.html#a3f8988017d088d08df08ba8b696b552b", null ],
+    [ "PrepareSpellScript", "db/d06/a28521.html#a56f5c59c7dc8d4f8117dc64d5a5a3a0b", null ],
+    [ "Register", "db/d06/a28521.html#a4ebc3c83dd77134af2ee81a46b121d19", null ]
 ];

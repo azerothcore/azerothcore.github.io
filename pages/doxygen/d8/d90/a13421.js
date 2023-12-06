@@ -1,7 +1,10 @@
 var a13421 =
 [
-    [ "pyrewood_ambushAI", "d7/dd5/a13425.html", "d7/dd5/a13425" ],
-    [ "pyrewood_ambush", "d8/d90/a13421.html#a07dfe00bcc86320c4968ca10e9480322", null ],
-    [ "GetAI", "d8/d90/a13421.html#a4067c8aca15fe1f783eadd277b635fa8", null ],
-    [ "OnQuestAccept", "d8/d90/a13421.html#add2804a9a76559dc5f051102f067e0bf", null ]
+    [ "npc_partygoer_pather", "d8/d90/a13421.html#a15a0e517e8671afb9d636ebe781a4bcd", null ],
+    [ "Initialize", "d8/d90/a13421.html#afb114b0587c550e39c41e131364da663", null ],
+    [ "PathEndReached", "d8/d90/a13421.html#a55833d306716ba411f96ecd024cc7c72", null ],
+    [ "Reset", "d8/d90/a13421.html#ade2cc36ff49001138eee5b607ec83b12", null ],
+    [ "UpdateAI", "d8/d90/a13421.html#a4d222399b6b789e7a2a2faa4765116a6", null ],
+    [ "_events", "d8/d90/a13421.html#ac210dc0286ded980e78743237a08bb23", null ],
+    [ "_path", "d8/d90/a13421.html#a4da184c44858e99eca2b07193fd48f13", null ]
 ];

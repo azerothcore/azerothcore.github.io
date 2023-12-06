@@ -1,6 +1,8 @@
 var a14853 =
 [
-    [ "instance_dire_maul_InstanceMapScript", "db/d70/a14857.html", "db/d70/a14857" ],
-    [ "instance_dire_maul", "dd/d11/a14853.html#a54ac2c7095a99481c7efbe4237533fac", null ],
-    [ "GetInstanceScript", "dd/d11/a14853.html#a7fc2511e0c9475512286006f0bbaed0b", null ]
+    [ "npc_thrall_old_hillsbradAI", "db/d70/a14857.html", "db/d70/a14857" ],
+    [ "npc_thrall_old_hillsbrad", "dd/d11/a14853.html#a3e6fa750b095af3beac806a619e18328", null ],
+    [ "GetAI", "dd/d11/a14853.html#a7b7baeb3e2e33dcb4ffb0af5d1f5930c", null ],
+    [ "OnGossipHello", "dd/d11/a14853.html#a9b3f622ab9c0dc06011cb36cd084f2e7", null ],
+    [ "OnGossipSelect", "dd/d11/a14853.html#a17fcb00850503903f430506654e035c0", null ]
 ];

@@ -1,6 +1,5 @@
 var a18425 =
 [
-    [ "spell_putricide_unstable_experiment_SpellScript", "d8/dca/a18429.html", "d8/dca/a18429" ],
-    [ "spell_putricide_unstable_experiment", "d9/dc6/a18425.html#ab567622c4dc8c561702e27e83b1b3d47", null ],
-    [ "GetSpellScript", "d9/dc6/a18425.html#a230ce55a385d4d981c6ca850cdc50c8c", null ]
+    [ "npc_volatile_oozeAI", "d9/dc6/a18425.html#af042d4c22482aabcdad6fa867dfe093f", null ],
+    [ "CastMainSpell", "d9/dc6/a18425.html#a91890785174ecc60c9553a0aedf1961b", null ]
 ];

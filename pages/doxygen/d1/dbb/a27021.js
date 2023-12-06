@@ -1,7 +1,7 @@
 var a27021 =
 [
-    [ "HandleScript", "d1/dbb/a27021.html#a8b20e2ffed94ec9438dc9b756ba76693", null ],
-    [ "PrepareSpellScript", "d1/dbb/a27021.html#a9e29ea947d5415471d991a4e1cd699ac", null ],
-    [ "Register", "d1/dbb/a27021.html#aa4bc27415893009581b317637599a85a", null ],
-    [ "Validate", "d1/dbb/a27021.html#a77ed10819633ae2bc381023da0feb31b", null ]
+    [ "PrepareSpellScript", "d1/dbb/a27021.html#a65d5717a25e371e09c44148c679dd390", null ],
+    [ "Register", "d1/dbb/a27021.html#afb5f3560c022a8ef659d82cf24a46d8a", null ],
+    [ "RemoveInvalidTargets", "d1/dbb/a27021.html#a53262865dfa222de1d020f8c7cbf15fd", null ],
+    [ "Validate", "d1/dbb/a27021.html#a27ee4f0e6d14d15e5da2119c2bc49516", null ]
 ];

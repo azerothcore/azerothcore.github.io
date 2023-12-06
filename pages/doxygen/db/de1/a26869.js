@@ -1,6 +1,6 @@
 var a26869 =
 [
-    [ "CheckAreaTarget", "db/de1/a26869.html#a90761b0145ea9d4178e77eb5e15a8ba6", null ],
-    [ "PrepareAuraScript", "db/de1/a26869.html#afbc45652033397067a439b45afd2e90e", null ],
-    [ "Register", "db/de1/a26869.html#aa24679e1243470056f74249e1b26767d", null ]
+    [ "HandleScriptEffect", "db/de1/a26869.html#a514697f3fdcbf9274453d6d71c0c4816", null ],
+    [ "PrepareSpellScript", "db/de1/a26869.html#a5bcff624e9a396a2f90115dc99d93ae9", null ],
+    [ "Register", "db/de1/a26869.html#aebcc23e4f4a1c5ab90fb06a47755ec2b", null ]
 ];

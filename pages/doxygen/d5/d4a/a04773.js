@@ -1,15 +1,18 @@
 var a04773 =
 [
-    [ "GetBounds", "d5/d4a/a04773.html#a4a112397e75fbaf5fd991a322a8a4ea4", null ],
-    [ "operator==", "d5/d4a/a04773.html#ab9713afd57c0bdf9f5ff8d5d12cd567f", null ],
-    [ "readFromFile", "d5/d4a/a04773.html#a35d7880eb3e295ed3148ca05a2f4520e", null ],
-    [ "writeToFile", "d5/d4a/a04773.html#ae8623dcb78a2af4c9aebd60f67649f34", null ],
-    [ "adtId", "d5/d4a/a04773.html#a4ebcfe8326eff028e722c9972a16200b", null ],
-    [ "flags", "d5/d4a/a04773.html#acfc7a76db09013abfad8e42aaae59f52", null ],
-    [ "iBound", "d5/d4a/a04773.html#ae1dac1aa360c4d49b61a0cd8af92399c", null ],
-    [ "ID", "d5/d4a/a04773.html#ab2fdb441870d6ac7ddc05640ec1d0598", null ],
-    [ "iPos", "d5/d4a/a04773.html#abb5966f87710bc6a1f5da766c99b3e12", null ],
-    [ "iRot", "d5/d4a/a04773.html#a6d0b4f6bde1a20b246e4b22cc43e25af", null ],
-    [ "iScale", "d5/d4a/a04773.html#aad355d0fb09ff0360ed19610bef92d8e", null ],
-    [ "name", "d5/d4a/a04773.html#a66e19a4a28f8fc0c537f1315d9bddcfb", null ]
+    [ "BuildStats", "d5/d4a/a04773.html#a9a2e28e15f755a8a0b5751d62664734f", null ],
+    [ "printStats", "d5/d4a/a04773.html#a77e7b7ff44c0f16fc2b5d4370c18751b", null ],
+    [ "updateBVH2", "d5/d4a/a04773.html#a9f30e85b3eaa67dc38a28e3472c56de3", null ],
+    [ "updateInner", "d5/d4a/a04773.html#a1a3087af9d859d25cd9d475ad8987ca3", null ],
+    [ "updateLeaf", "d5/d4a/a04773.html#ae8cf4ba9eaa7dc424914483ab3fafeba", null ],
+    [ "maxDepth", "d5/d4a/a04773.html#a855eb250661d80a9313b926556e12168", null ],
+    [ "maxObjects", "d5/d4a/a04773.html#acd34211244a97c08193421818f326ff9", null ],
+    [ "minDepth", "d5/d4a/a04773.html#a90121f1721624ae2be8b3e6860d02f23", null ],
+    [ "minObjects", "d5/d4a/a04773.html#a0d3d26a62ae4aeb18fdff7d07a4b7873", null ],
+    [ "numBVH2", "d5/d4a/a04773.html#a37d64390b3f004f36588c1467a446cd0", null ],
+    [ "numLeaves", "d5/d4a/a04773.html#a6546dd9cc0de2cba9159f6ab2477b81f", null ],
+    [ "numLeavesN", "d5/d4a/a04773.html#a208e3c10fbd61fa6d4cc6736140ddfb1", null ],
+    [ "numNodes", "d5/d4a/a04773.html#afbedc638e0117b7ca5c5f1e447846717", null ],
+    [ "sumDepth", "d5/d4a/a04773.html#a11cf172a3108b68efc5974b614187550", null ],
+    [ "sumObjects", "d5/d4a/a04773.html#a84aa8066e8e19902aecec45607d7a93d", null ]
 ];

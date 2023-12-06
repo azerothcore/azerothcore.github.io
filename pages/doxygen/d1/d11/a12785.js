@@ -1,14 +1,11 @@
 var a12785 =
 [
-    [ "boss_jarien", "d1/d11/a12785.html#a19e07a3da93e487b5984a8de0c7f26c9", null ],
-    [ "DoAction", "d1/d11/a12785.html#a8b9f1f2e7e45adf8df436b5c71555272", null ],
-    [ "IsSummonedBy", "d1/d11/a12785.html#a2e54c5ae404be944eeff3a57c96aa8ca", null ],
-    [ "JustDied", "d1/d11/a12785.html#a418380b56f3432b5aec84737012f4693", null ],
-    [ "JustEngagedWith", "d1/d11/a12785.html#ab6590cf6626a12e804520b2cde84a93e", null ],
-    [ "Reset", "d1/d11/a12785.html#ac85ca96b42aa5115500bd24454f84209", null ],
-    [ "UpdateAI", "d1/d11/a12785.html#acf7157ec7af7356beddc8a2429177b95", null ],
-    [ "_phase", "d1/d11/a12785.html#aa88435f313dc2b7880bca8f4cdb7a537", null ],
-    [ "_scheduler", "d1/d11/a12785.html#abce9540798dbae1026d1c74bfeb111a6", null ],
-    [ "_sothosDied", "d1/d11/a12785.html#a06b02c7f7dff885a86609e0116f2fd96", null ],
-    [ "_talked", "d1/d11/a12785.html#ae0c943c970990b055ebc8c31d81a7198", null ]
+    [ "npc_scholomance_occultistAI", "d1/d11/a12785.html#af78103d07aef427130d26b4aed5e5ae3", null ],
+    [ "JustEngagedWith", "d1/d11/a12785.html#a03f0f6d015065c5afcf025dc44dc6aa8", null ],
+    [ "JustReachedHome", "d1/d11/a12785.html#ac4bb0aa4009191a36dd4cebb45fd2ad5", null ],
+    [ "SelectUnitCasting", "d1/d11/a12785.html#adde187b89a74a57aac823e4eb19bfeed", null ],
+    [ "UpdateAI", "d1/d11/a12785.html#ab02edf780adb553b2314045d8effa277", null ],
+    [ "events", "d1/d11/a12785.html#a1ee55a572462a1e832a5b89c8906bd87", null ],
+    [ "instance", "d1/d11/a12785.html#a195fe4d681580c17086a5390fd4f82ba", null ],
+    [ "originalDisplayId", "d1/d11/a12785.html#a4dcc895fef36cd1e9ca8cf38bdc2f6c4", null ]
 ];

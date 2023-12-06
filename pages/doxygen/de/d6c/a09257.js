@@ -1,7 +1,8 @@
 var a09257 =
 [
-    [ "ownerGUID", "de/d6c/a09257.html#a3c89974ea78b732cbffb8a9d482d403b", null ],
-    [ "script", "de/d6c/a09257.html#ad995c862431acd9d45cc12c9d5c8b319", null ],
-    [ "sourceGUID", "de/d6c/a09257.html#acafb40cbd1e73152f9dbf390f1fc98f3", null ],
-    [ "targetGUID", "de/d6c/a09257.html#a1505a3b9a6de23dcd6b2847207a279ca", null ]
+    [ "BossInfo", "de/d6c/a09257.html#a455f533d647927d182176c3cceb21f42", null ],
+    [ "boundary", "de/d6c/a09257.html#aa4fb2bc78efb3393004c0f827000e4f1", null ],
+    [ "door", "de/d6c/a09257.html#a858af8825ed4fe183ee19b6f10239304", null ],
+    [ "minion", "de/d6c/a09257.html#abec1469d41f286d02c34223171373cd3", null ],
+    [ "state", "de/d6c/a09257.html#a1e4413b3a8bac20ed9e7ac878e3066f7", null ]
 ];

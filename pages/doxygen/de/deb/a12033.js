@@ -1,6 +1,6 @@
 var a12033 =
 [
-    [ "npc_mc_core_houndAI", "df/d0b/a12037.html", "df/d0b/a12037" ],
-    [ "npc_mc_core_hound", "de/deb/a12033.html#aee1ef71447dbd1494de5e0065bd5ae78", null ],
-    [ "GetAI", "de/deb/a12033.html#a3aa8c5332b509b4d5498cd726ab47e40", null ]
+    [ "npc_core_ragerAI", "df/d0b/a12037.html", "df/d0b/a12037" ],
+    [ "npc_core_rager", "de/deb/a12033.html#ada4acfa2a1934d1609a8f9c78da6377d", null ],
+    [ "GetAI", "de/deb/a12033.html#a0ace94ecc1ebfb0e880c50d9b68087db", null ]
 ];

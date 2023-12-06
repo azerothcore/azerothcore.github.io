@@ -1,7 +1,6 @@
 var a16181 =
 [
-    [ "OnApply", "d5/d74/a16181.html#ad8f4404f239f3e3bebc990cc85f7bda7", null ],
-    [ "OnRemove", "d5/d74/a16181.html#a3cdbc1c21d611de6e758405a51d6b131", null ],
-    [ "PrepareAuraScript", "d5/d74/a16181.html#af466e82545082d891be7d0691ed7e272", null ],
-    [ "Register", "d5/d74/a16181.html#a319622b9fee0e7b532dae4a1266e151e", null ]
+    [ "boss_twilight_halionAI", "d7/d6e/a16185.html", "d7/d6e/a16185" ],
+    [ "boss_twilight_halion", "d5/d74/a16181.html#a23ea0a61acb2cf3fd83aece3ac7d218e", null ],
+    [ "GetAI", "d5/d74/a16181.html#a56842d74b16cbd5636649cbc643c50d8", null ]
 ];

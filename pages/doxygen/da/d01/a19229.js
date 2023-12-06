@@ -1,6 +1,7 @@
 var a19229 =
 [
-    [ "spell_the_lich_king_trigger_vile_spirit_SpellScript", "d1/d01/a19233.html", "d1/d01/a19233" ],
-    [ "spell_the_lich_king_trigger_vile_spirit", "da/d01/a19229.html#a875bb4a5e6bad99f06e2c04485cbda4d", null ],
-    [ "GetSpellScript", "da/d01/a19229.html#a89f29a493a7be4bd17c59f46e3909404", null ]
+    [ "HandleProc", "da/d01/a19229.html#a5afa4b975847bb3f81de0f4312862655", null ],
+    [ "PrepareAuraScript", "da/d01/a19229.html#a258256f4d56606257abcee4d2775577d", null ],
+    [ "Register", "da/d01/a19229.html#ab7fb12a55721032f742aa28b27f1cc08", null ],
+    [ "Validate", "da/d01/a19229.html#afb81942166dd65f3cab3fe6f1c522421", null ]
 ];

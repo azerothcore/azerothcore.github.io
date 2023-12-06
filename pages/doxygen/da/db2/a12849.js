@@ -1,6 +1,6 @@
 var a12849 =
 [
-    [ "HandleActivateObject", "da/db2/a12849.html#abcce31480eac400044cc62eb888151d8", null ],
-    [ "PrepareSpellScript", "da/db2/a12849.html#a634ff3fae960dc2ecb7acde3e505df52", null ],
-    [ "Register", "da/db2/a12849.html#a0b527b830e2e4e2242c0ed6fd94aaa2d", null ]
+    [ "spell_shadowfang_keep_forsaken_skills_AuraScript", "d6/d08/a12853.html", "d6/d08/a12853" ],
+    [ "spell_shadowfang_keep_forsaken_skills", "da/db2/a12849.html#a546f43f401a1db068d50904943fe3bd5", null ],
+    [ "GetAuraScript", "da/db2/a12849.html#aa17c4342a7dbd9df903dc53cb11a36aa", null ]
 ];

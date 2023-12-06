@@ -1,6 +1,6 @@
 var a29433 =
 [
-    [ "npc_venomhide_hatchlingAI", "d7/d09/a29433.html#aa5929973ae39166ef381a3ed3c42a29c", null ],
-    [ "IsSummonedBy", "d7/d09/a29433.html#a6e1b76f43217f1eb855b50d58a069518", null ],
-    [ "SpellHit", "d7/d09/a29433.html#ac6c255438dc2f6c750ee47b61fbc20a3", null ]
+    [ "X", "d7/d09/a29433.html#a55bda49b2eb919415afaf780ca1977de", null ],
+    [ "Y", "d7/d09/a29433.html#a0bf22799258050a9b12ddc14bb2b4b11", null ],
+    [ "Z", "d7/d09/a29433.html#a7f0ceece775146d825d19a3cd22e5da3", null ]
 ];

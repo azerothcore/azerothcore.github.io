@@ -1,6 +1,6 @@
 var a22513 =
 [
-    [ "npc_ferocious_rhinoAI", "dc/d14/a22517.html", "dc/d14/a22517" ],
-    [ "npc_ferocious_rhino", "d5/d05/a22513.html#a480c1d0c24cdbe7cd3c47332ee925466", null ],
-    [ "GetAI", "d5/d05/a22513.html#aa5c3cba6b1ed6cffaac578c5449b9b4e", null ]
+    [ "npc_enslaved_proto_drakeAI", "dc/d14/a22517.html", "dc/d14/a22517" ],
+    [ "npc_enslaved_proto_drake", "d5/d05/a22513.html#a9179481566337bd785b089fb726a255e", null ],
+    [ "GetAI", "d5/d05/a22513.html#a2879ad42d2ec8c04c52d6c370c3e5bf6", null ]
 ];

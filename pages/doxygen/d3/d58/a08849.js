@@ -1,9 +1,9 @@
 var a08849 =
 [
-    [ "NearestHostileUnitCheck", "d3/d58/a08849.html#aa1d706a1eb1de6168b568e70008e2d3b", null ],
-    [ "NearestHostileUnitCheck", "d3/d58/a08849.html#a2fe620370289850eb0362823de2072d1", null ],
-    [ "operator()", "d3/d58/a08849.html#a04c85a77d660bbc74279d1062dabc375", null ],
-    [ "i_playerOnly", "d3/d58/a08849.html#a64c5fce466521a6d6d78eeda0708d65e", null ],
-    [ "m_range", "d3/d58/a08849.html#a801d56a180e196943cfc2cefb6c5dda5", null ],
-    [ "me", "d3/d58/a08849.html#a67cef25e6f725ea42f0377df34d48495", null ]
+    [ "CreatureLastSearcher", "d3/d58/a08849.html#a422c7a5a2cd4e93f7b0ad31cc4c6555d", null ],
+    [ "Visit", "d3/d58/a08849.html#ae6774df4ffff18cd4f3b4c07724db4f4", null ],
+    [ "Visit", "d3/d58/a08849.html#a08635cefbba5dca34734569816d2edb8", null ],
+    [ "i_check", "d3/d58/a08849.html#a2b9afe2c43af6e68f7fa5ba661790ef9", null ],
+    [ "i_object", "d3/d58/a08849.html#ab8a14acb8d0fc9835d1325430fa1a367", null ],
+    [ "i_phaseMask", "d3/d58/a08849.html#a9dd25e3437e1c1e5e4c8d68ab3548500", null ]
 ];

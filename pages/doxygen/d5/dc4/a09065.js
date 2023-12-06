@@ -1,9 +1,8 @@
 var a09065 =
 [
-    [ "BroadcastTextID", "d5/dc4/a09065.html#a756f24dbee852a7fbe152c0cb082c412", null ],
-    [ "Emotes", "d5/dc4/a09065.html#a0f67a651fdb3f3217279015c9e3fb292", null ],
-    [ "Language", "d5/dc4/a09065.html#a33bc5a0c156918b00380710aeb275d3d", null ],
-    [ "Probability", "d5/dc4/a09065.html#a5c743df7a7ad634c5b3f3376547fda00", null ],
-    [ "Text_0", "d5/dc4/a09065.html#a046d637b91807db067c6e7050184322d", null ],
-    [ "Text_1", "d5/dc4/a09065.html#a8d64d7b8fcdbd995cc11e22adde8c0de", null ]
+    [ "AllWorldObjectsInExactRange", "d5/dc4/a09065.html#a0281d22587b9b1bdbfbdd8dccc625186", null ],
+    [ "operator()", "d5/dc4/a09065.html#afe0bea69ddd5e275363361bf37284840", null ],
+    [ "_equals", "d5/dc4/a09065.html#aebb4cb9e84cf91cca235fe663dba8d60", null ],
+    [ "_object", "d5/dc4/a09065.html#a5fba0e3c7cde76bfe56f8e9e9716412b", null ],
+    [ "_range", "d5/dc4/a09065.html#ae40de8ce49bb429243e5059b6d14398f", null ]
 ];

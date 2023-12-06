@@ -1,7 +1,7 @@
 var a10565 =
 [
-    [ "DynObjAura", "d1/dfe/a10565.html#aef75bb5d60c10ac63821b0e9baf6eb7a", null ],
-    [ "FillTargetMap", "d1/dfe/a10565.html#af8e36643ed675ff5652e4665bee9b0c3", null ],
-    [ "Remove", "d1/dfe/a10565.html#ada3f65b4a817e2337da43da437b93a3b", null ],
-    [ "Aura::Create", "d1/dfe/a10565.html#ae2c0fdfb409846fec5e861de60797112", null ]
+    [ "OpcodeHandler", "d5/d6d/a04635.html#gad7dc8101b537abe699b18ae8de444a81", null ],
+    [ "~OpcodeHandler", "d5/d6d/a04635.html#ga5400057a3d849035aedda259828a5af5", null ],
+    [ "Name", "d5/d6d/a04635.html#ga0f1d1acde7c65e2b5c29357b232a7061", null ],
+    [ "Status", "d5/d6d/a04635.html#gace7959058ad5b5e617c7b043f5c63b7c", null ]
 ];

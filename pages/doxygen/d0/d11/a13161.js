@@ -1,9 +1,6 @@
 var a13161 =
 [
-    [ "boss_muruAI", "d0/d11/a13161.html#abeb23dd3d2bae6d20bcfcb81519ed565", null ],
-    [ "DamageTaken", "d0/d11/a13161.html#a0cdb77d995a3ccbff70d01750e4c93ff", null ],
-    [ "JustEngagedWith", "d0/d11/a13161.html#a65b45cdda68d9e4ab4b524b573185bd0", null ],
-    [ "JustSummoned", "d0/d11/a13161.html#abed2b6d273808d4035be433f3f90d7db", null ],
-    [ "Reset", "d0/d11/a13161.html#aae4a72e088576bda726fbc430c95d5d2", null ],
-    [ "UpdateAI", "d0/d11/a13161.html#aafbf4c4190401598d078478bc2bb812b", null ]
+    [ "HandlePeriodic", "d0/d11/a13161.html#abd9317fb78c0908cbf3b9c4009c39332", null ],
+    [ "PrepareAuraScript", "d0/d11/a13161.html#a5fdeeb4f6aec90caf52eec1844e2c3b9", null ],
+    [ "Register", "d0/d11/a13161.html#a737e4d3bbbb8fcb31d569aad1bb2dba0", null ]
 ];

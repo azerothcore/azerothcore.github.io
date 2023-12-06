@@ -1,6 +1,5 @@
 var a17273 =
 [
-    [ "boss_ickAI", "d5/d16/a17277.html", "d5/d16/a17277" ],
-    [ "boss_ick", "da/d3e/a17273.html#af97d7f96bc48ba245e28c18614b9369e", null ],
-    [ "GetAI", "da/d3e/a17273.html#a355285766712a31b704c23fe85d19e5f", null ]
+    [ "at_hor_battered_hilt_start", "da/d3e/a17273.html#a1b9e6d892525cf28d71757f7861e1d1a", null ],
+    [ "OnTrigger", "da/d3e/a17273.html#a5d2d0a05b17dafe7ebb5447cfd168f69", null ]
 ];

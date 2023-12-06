@@ -1,6 +1,6 @@
 var a12041 =
 [
-    [ "spell_mc_play_dead_AuraScript", "d2/d53/a12045.html", "d2/d53/a12045" ],
-    [ "spell_mc_play_dead", "d3/dc5/a12041.html#a7ba99a02f2bb182fee3c49e9949e49ca", null ],
-    [ "GetAuraScript", "d3/dc5/a12041.html#ab9d445d4fc456948f39660051a67a49f", null ]
+    [ "boss_lucifronAI", "d2/d53/a12045.html", "d2/d53/a12045" ],
+    [ "boss_lucifron", "d3/dc5/a12041.html#aa54be5c49a77524b036c167dbb6d81ea", null ],
+    [ "GetAI", "d3/dc5/a12041.html#a885366d4190bbc77dc696ee6910435ed", null ]
 ];

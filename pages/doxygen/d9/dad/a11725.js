@@ -1,6 +1,5 @@
 var a11725 =
 [
-    [ "boss_flamegorAI", "d9/dad/a11725.html#a4b3d46c3faa566095b0cedad3df9f057", null ],
-    [ "JustEngagedWith", "d9/dad/a11725.html#a6005dca71e2f20ee599e053e531377d6", null ],
-    [ "UpdateAI", "d9/dad/a11725.html#a2e5146815e533cf62e0084a54aa222d5", null ]
+    [ "at_trigger_the_beast_movement", "d9/dad/a11725.html#a9534f4b71deab4a2a9a94a36e2946fc7", null ],
+    [ "OnTrigger", "d9/dad/a11725.html#a333d685d765497a950fde35067d876a1", null ]
 ];

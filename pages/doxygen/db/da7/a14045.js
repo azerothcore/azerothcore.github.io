@@ -1,6 +1,6 @@
 var a14045 =
 [
-    [ "boss_wushoolayAI", "d3/d05/a14049.html", "d3/d05/a14049" ],
-    [ "boss_wushoolay", "db/da7/a14045.html#a68359ee086bb4e86c3c16c4a03e54893", null ],
-    [ "GetAI", "db/da7/a14045.html#a70b476358956fd05d6effb75517e2b3d", null ]
+    [ "LaunchHit", "db/da7/a14045.html#a10bb54a1a0cd992e9e944870684f3a21", null ],
+    [ "PrepareSpellScript", "db/da7/a14045.html#a95e85ecfcc5b72c250a0bc184b1d32a7", null ],
+    [ "Register", "db/da7/a14045.html#a19c6111ea0c3506ddc2d8459c192f04f", null ]
 ];

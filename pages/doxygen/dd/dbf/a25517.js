@@ -1,7 +1,6 @@
 var a25517 =
 [
-    [ "AfterApply", "dd/dbf/a25517.html#a0ba88b8ed8cfd0afa1de500a7a8d74b5", null ],
-    [ "PrepareAuraScript", "dd/dbf/a25517.html#aa98346e5f5b23fe016148426a19a719f", null ],
-    [ "Register", "dd/dbf/a25517.html#ac0edcddf6c38b933c868dbe0535f143a", null ],
-    [ "Validate", "dd/dbf/a25517.html#a616d1758aa257140f4941fe12ef21e87", null ]
+    [ "spell_astromancer_wrath_of_the_astromancer_AuraScript", "d8/d57/a25521.html", "d8/d57/a25521" ],
+    [ "spell_astromancer_wrath_of_the_astromancer", "dd/dbf/a25517.html#a14ff773560fcc3cd56d8446983e1f078", null ],
+    [ "GetAuraScript", "dd/dbf/a25517.html#ad889955b8597a64338f1f95e770f4c9f", null ]
 ];

@@ -1,6 +1,6 @@
 var a23617 =
 [
-    [ "npc_tournament_training_dummyAI", "de/da5/a23621.html", "de/da5/a23621" ],
-    [ "npc_tournament_training_dummy", "d6/d86/a23617.html#ab5308cfddfef00da9692dddd21ce4a14", null ],
-    [ "GetAI", "d6/d86/a23617.html#a31257c155c3a49c69771156800cf6340", null ]
+    [ "spell_anti_air_rocket_bomber_SpellScript", "de/da5/a23621.html", "de/da5/a23621" ],
+    [ "spell_anti_air_rocket_bomber", "d6/d86/a23617.html#a8b94d9fe0c61c7238f31fd2c11e7beee", null ],
+    [ "GetSpellScript", "d6/d86/a23617.html#a928a4174f5465f83bb020572fc96085f", null ]
 ];

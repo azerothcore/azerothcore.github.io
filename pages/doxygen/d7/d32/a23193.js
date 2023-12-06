@@ -1,6 +1,5 @@
 var a23193 =
 [
-    [ "npc_injured_7th_legion_soldierAI", "d7/d32/a23193.html#a6929ef42a003f1337d71f9b23fa37c6e", null ],
-    [ "MovementInform", "d7/d32/a23193.html#a999bc868db485578fcc70ae7e056b778", null ],
-    [ "Reset", "d7/d32/a23193.html#a3021c037acdb141fc3ca4d6f3b146bbf", null ]
+    [ "go_the_pearl_of_the_depths", "d7/d32/a23193.html#a0e09ddcde0eef050400d90e9a268823a", null ],
+    [ "OnGossipHello", "d7/d32/a23193.html#a745ea14136a78759a3afd7714c6d784a", null ]
 ];

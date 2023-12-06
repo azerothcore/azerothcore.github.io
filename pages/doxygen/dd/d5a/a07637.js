@@ -1,11 +1,7 @@
 var a07637 =
 [
-    [ "FormationInfo", "dd/d5a/a07637.html#ad00d7dd0ac811a3805a8ba2c9c1e73df", null ],
-    [ "HasGroupFlag", "dd/d5a/a07637.html#afc612acf30e8d0a047aac5b0fc2dc07b", null ],
-    [ "follow_angle", "dd/d5a/a07637.html#a928ce7047d511c316a5367faf7f96673", null ],
-    [ "follow_dist", "dd/d5a/a07637.html#a3b59ee5129e208cc3df407a921362393", null ],
-    [ "groupAI", "dd/d5a/a07637.html#af9f6dc52999efef6f0819bb8d1670fec", null ],
-    [ "leaderGUID", "dd/d5a/a07637.html#ad5af23397ae1ae835a72ce125d102ef0", null ],
-    [ "point_1", "dd/d5a/a07637.html#a84298ff533bebc633689742c7f9299ae", null ],
-    [ "point_2", "dd/d5a/a07637.html#acc308b497de18211b99eec4311b256a4", null ]
+    [ "LfgProposalPlayer", "dd/d5a/a07637.html#a80f7d0f3597201dc7fca4d08dd3b7a38", null ],
+    [ "accept", "dd/d5a/a07637.html#acbf0ce1e12307569487096dc5ca544a6", null ],
+    [ "group", "dd/d5a/a07637.html#a900f24e9caaa1569eeea93b4284139a1", null ],
+    [ "role", "dd/d5a/a07637.html#a54ab4a0f32cc3abc7489fc9c3655fe99", null ]
 ];

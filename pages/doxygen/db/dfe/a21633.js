@@ -1,5 +1,7 @@
 var a21633 =
 [
-    [ "achievement_kologarn_rubble_and_roll", "db/dfe/a21633.html#ae36bbab8d82f10ad120a1e7564a13961", null ],
-    [ "OnCheck", "db/dfe/a21633.html#acb0f72ebdf1917a3331b3fc0f9aa4300", null ]
+    [ "FilterTargetsInitial", "db/dfe/a21633.html#a404a927a655d4c76dae77597fe3e864f", null ],
+    [ "Load", "db/dfe/a21633.html#accbbbab3b0143f82b99ac787cd8ecb48", null ],
+    [ "PrepareSpellScript", "db/dfe/a21633.html#a0e03f9d1cfa74627e57f27fe74ac22e4", null ],
+    [ "Register", "db/dfe/a21633.html#a13040f82c29078f0bd75662828d9b884", null ]
 ];

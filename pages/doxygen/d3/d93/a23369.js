@@ -1,7 +1,8 @@
 var a23369 =
 [
-    [ "HandleScriptEffect", "d3/d93/a23369.html#a2d39a073c351860db735301b4cf9c79f", null ],
-    [ "PrepareSpellScript", "d3/d93/a23369.html#a3674adaef23f1531af360a65c14efadd", null ],
-    [ "Register", "d3/d93/a23369.html#a11b217c0066217f2da5ff42ce35c9a0a", null ],
-    [ "Validate", "d3/d93/a23369.html#a3dadb61ca7dd8195ba5fdac5bf49583c", null ]
+    [ "AfterApply", "d3/d93/a23369.html#a57279552b867251e9d2ee6a4ff5d7914", null ],
+    [ "PeriodicTick", "d3/d93/a23369.html#a2e86aa6efe6ab137926c1dfd1bd26a95", null ],
+    [ "PrepareAuraScript", "d3/d93/a23369.html#a9e1b74bf2d28a367caefdc90c34743c8", null ],
+    [ "Register", "d3/d93/a23369.html#a69eb0ca43a15d4995ad219459c2b39d6", null ],
+    [ "Validate", "d3/d93/a23369.html#a946248656cb755f85dd93fd4d607c9a7", null ]
 ];

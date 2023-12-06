@@ -1,6 +1,6 @@
 var a22345 =
 [
-    [ "instance_ulduar_InstanceMapScript", "d3/dce/a22349.html", "d3/dce/a22349" ],
-    [ "instance_ulduar", "dc/dc7/a22345.html#a32c2a76d1cd20f2ad1ab441eafe1b682", null ],
-    [ "GetInstanceScript", "dc/dc7/a22345.html#ad15f003a90e656910fc32d661ca9baba", null ]
+    [ "CheckCast", "dc/dc7/a22345.html#a68cac5523e6688ea5e00e472aedfac4d", null ],
+    [ "PrepareSpellScript", "dc/dc7/a22345.html#a536cc8555c7ba23624175c90745a912c", null ],
+    [ "Register", "dc/dc7/a22345.html#a2aff37d42f0a531e229b016f34560663", null ]
 ];

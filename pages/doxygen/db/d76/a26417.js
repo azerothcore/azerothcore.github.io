@@ -1,6 +1,8 @@
 var a26417 =
 [
-    [ "HandleProc", "db/d76/a26417.html#ab00bbdd8580426a621abc11c4308bdc4", null ],
-    [ "PrepareAuraScript", "db/d76/a26417.html#a2840931b939b95e6a476c07f08ca66b5", null ],
-    [ "Register", "db/d76/a26417.html#ae769fddc14aed4d1055d2f947d292fcf", null ]
+    [ "HandleEffectApply", "db/d76/a26417.html#a9a93b47a1f24554a94e364b07f74ba55", null ],
+    [ "HandleEffectRemove", "db/d76/a26417.html#abb7f01239b5a982ded0244d781c4d856", null ],
+    [ "PrepareAuraScript", "db/d76/a26417.html#a9517667d1f79557b3ec2ef6fdfd1bc1b", null ],
+    [ "Register", "db/d76/a26417.html#ae2847d4059ad2822be5703c4d0c79bdb", null ],
+    [ "Validate", "db/d76/a26417.html#abc30fd53a7f9234755c292db533ba99c", null ]
 ];

@@ -1,5 +1,5 @@
 var a25021 =
 [
-    [ "go_strange_pool", "da/d5d/a25021.html#aa44feb353ad1cb440e5b6707112af680", null ],
-    [ "OnGossipHello", "da/d5d/a25021.html#a5a2ee56e277b062e6b4757cb8b8b09a0", null ]
+    [ "boss_quagmirran", "da/d5d/a25021.html#a7f6289b86216b052f434a1417023e22c", null ],
+    [ "JustEngagedWith", "da/d5d/a25021.html#a28253b6653bd2e26e7f246c71a88b625", null ]
 ];

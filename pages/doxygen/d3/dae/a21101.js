@@ -1,7 +1,5 @@
 var a21101 =
 [
-    [ "FilterTargets", "d3/dae/a21101.html#aaa09aae6311b55ee0edac614dbd609bb", null ],
-    [ "HandleScript", "d3/dae/a21101.html#ad109d7d335cbc9bf81066d88900bf327", null ],
-    [ "PrepareSpellScript", "d3/dae/a21101.html#a719f295c0a80fad908714c23140a039e", null ],
-    [ "Register", "d3/dae/a21101.html#a9d90f3f63de5a2c0b30f1250956a505b", null ]
+    [ "go_ulduar_tower", "d3/dae/a21101.html#afc1add1a0543921f52afe1eb907f5de3", null ],
+    [ "OnDestroyed", "d3/dae/a21101.html#aa72ebefe52d49e5b07fb36232efd7e95", null ]
 ];

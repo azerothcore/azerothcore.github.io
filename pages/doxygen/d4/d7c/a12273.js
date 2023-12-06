@@ -1,6 +1,6 @@
 var a12273 =
 [
-    [ "spell_karazhan_blink_SpellScript", "d3/d60/a12277.html", "d3/d60/a12277" ],
-    [ "spell_karazhan_blink", "d4/d7c/a12273.html#a221220f450f2b4c5ccaedc4a1b4ea69c", null ],
-    [ "GetSpellScript", "d4/d7c/a12273.html#a765472080720df4b4c8465e5749dec6a", null ]
+    [ "HandleApply", "d4/d7c/a12273.html#ac9f6f1927c9f66682892c32d4a431cc4", null ],
+    [ "PrepareAuraScript", "d4/d7c/a12273.html#ae908ad87781553cc3bed05ea510a4447", null ],
+    [ "Register", "d4/d7c/a12273.html#a391dff720ed9d2d48aa69e48e69ba8df", null ]
 ];

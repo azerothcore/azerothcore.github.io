@@ -1,6 +1,12 @@
 var a16525 =
 [
-    [ "spell_gen_leeching_swarm_AuraScript", "d6/d2f/a16529.html", "d6/d2f/a16529" ],
-    [ "spell_gen_leeching_swarm", "db/da9/a16525.html#a13eb1c202d4f253e9866f462e5c59ac1", null ],
-    [ "GetAuraScript", "db/da9/a16525.html#a2c47410d2b61739f6f01ac8b2d2a0c9c", null ]
+    [ "npc_swarm_scarabAI", "db/da9/a16525.html#a0d0cefd52543044773e7df772f90fd37", null ],
+    [ "CanAIAttack", "db/da9/a16525.html#a95a27742f4f7fa1af45964b6270a9558", null ],
+    [ "DoAction", "db/da9/a16525.html#ac1fe6742ef1e7bdee4c81a3933a31659", null ],
+    [ "JustDied", "db/da9/a16525.html#a0fe99c71cac6d3ee8d360f0d46d03fcd", null ],
+    [ "JustEngagedWith", "db/da9/a16525.html#a585e1e8800e97b2aa3d6c893d54c1d2b", null ],
+    [ "Reset", "db/da9/a16525.html#aa24cc2f2b7aa4c5c534e8d2ce2957237", null ],
+    [ "UpdateAI", "db/da9/a16525.html#aa33d9e101ba7de2a25a6213baccf6df1", null ],
+    [ "despawnTimer", "db/da9/a16525.html#a6d35e43af695ac112b972badb665f06d", null ],
+    [ "determinationTimer", "db/da9/a16525.html#af319dbf16bc1d3939602465f0a87d30c", null ]
 ];

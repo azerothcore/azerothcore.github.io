@@ -1,8 +1,6 @@
 var a15957 =
 [
-    [ "spell_hadronox_summon_periodic_AuraScript", "da/d5b/a15961.html", "da/d5b/a15961" ],
-    [ "spell_hadronox_summon_periodic", "d2/dcb/a15957.html#ad3023fc3b2a4a589d970c63f021377d3", null ],
-    [ "GetAuraScript", "d2/dcb/a15957.html#a093df44b39b3c357aba07a7ed9c0e9e5", null ],
-    [ "_delay", "d2/dcb/a15957.html#af30a2ad77f6fc26e6668b17a2ad01e82", null ],
-    [ "_spellEntry", "d2/dcb/a15957.html#a2f83db03043dfb6b29b3be14485780de", null ]
+    [ "boss_anub_arakAI", "da/d5b/a15961.html", "da/d5b/a15961" ],
+    [ "boss_anub_arak", "d2/dcb/a15957.html#ac2594f561b07069a312ed38c01d9c7da", null ],
+    [ "GetAI", "d2/dcb/a15957.html#a8687594354d514b99e026797ee71c70d", null ]
 ];

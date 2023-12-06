@@ -1,6 +1,6 @@
 var a13149 =
 [
-    [ "spell_kiljaeden_dragon_breath_SpellScript", "de/de4/a13153.html", "de/de4/a13153" ],
-    [ "spell_kiljaeden_dragon_breath", "db/d89/a13149.html#a6b6fde893b284471f63796a7c0ea1837", null ],
-    [ "GetSpellScript", "db/d89/a13149.html#acfd278b469d57a49c0c88e4ef323464c", null ]
+    [ "npc_kalecgos_kjAI", "de/de4/a13153.html", "de/de4/a13153" ],
+    [ "npc_kalecgos_kj", "db/d89/a13149.html#aa8c9e532e3980f94d316b60454799c63", null ],
+    [ "GetAI", "db/d89/a13149.html#af63f0d90581189f4850414ffdddd1ba4", null ]
 ];

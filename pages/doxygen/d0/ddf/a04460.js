@@ -1,4 +1,4 @@
 var a04460 =
 [
-    [ "wdtGetPlainName", "d0/ddf/a04460.html#aec756087655d9d993d4475947742ba56", null ]
+    [ "DBCDatabaseLoader", "dd/dbc/a29425.html", "dd/dbc/a29425" ]
 ];

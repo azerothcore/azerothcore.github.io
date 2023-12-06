@@ -1,6 +1,7 @@
 var a15445 =
 [
-    [ "spell_voljin_war_drums_SpellScript", "d8/dd0/a15449.html", "d8/dd0/a15449" ],
-    [ "spell_voljin_war_drums", "d1/d77/a15445.html#a218af593728d78a1cb4bfff8c0eb9d31", null ],
-    [ "GetSpellScript", "d1/d77/a15445.html#ad7e2d0c9fbe7111541149e4b1333e52f", null ]
+    [ "npc_tharnarianAI", "d8/dd0/a15449.html", "d8/dd0/a15449" ],
+    [ "npc_tharnarian", "d1/d77/a15445.html#a39d9d9842a7a42c5381e38d10285aa15", null ],
+    [ "GetAI", "d1/d77/a15445.html#aaff8dad5d2bdb1571ed2e7a14c64899f", null ],
+    [ "OnQuestReward", "d1/d77/a15445.html#aedf88edfd99292a68b8e08f9f05d8f00", null ]
 ];

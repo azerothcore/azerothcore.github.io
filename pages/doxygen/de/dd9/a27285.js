@@ -1,8 +1,7 @@
 var a27285 =
 [
-    [ "HandleFinish", "de/dd9/a27285.html#aac1981a16cbb61bfaf20c865bcfaf6a8", null ],
-    [ "PrepareSpellScript", "de/dd9/a27285.html#a73865997890d4f58cc09d54c2c4e5243", null ],
-    [ "Register", "de/dd9/a27285.html#a106cf5d53956b66f8f548caceda41dc8", null ],
-    [ "SelectTarget", "de/dd9/a27285.html#ab33513df20e942ba354932df5082efa8", null ],
-    [ "_target", "de/dd9/a27285.html#af25d11fc93423ee6e1678ebb5dcf1276", null ]
+    [ "HandleScriptEffect", "de/dd9/a27285.html#acbcc05fa433f5bf75998b15e4e25fdad", null ],
+    [ "PrepareSpellScript", "de/dd9/a27285.html#adf5a3b94012ac871c70f5782d57ae1cd", null ],
+    [ "Register", "de/dd9/a27285.html#a00596a3f8f0699c25e52a5778d59a2b2", null ],
+    [ "SelectTarget", "de/dd9/a27285.html#a6a59b7ce696f959b2026cf8088079e89", null ]
 ];

@@ -1,9 +1,6 @@
 var a14817 =
 [
-    [ "boss_temporus", "df/d0b/a14817.html#ab9f1495b18fe2c0ee33e9c238483ce0d", null ],
-    [ "JustDied", "df/d0b/a14817.html#a9186e51d240aff2ffaab99e3b423ded9", null ],
-    [ "JustEngagedWith", "df/d0b/a14817.html#abe7f18497c1c8b31693980e98b1d1859", null ],
-    [ "KilledUnit", "df/d0b/a14817.html#a89c2a229b56b3a7dcb9e5a495ac6dbd7", null ],
-    [ "MoveInLineOfSight", "df/d0b/a14817.html#a18a0279036324498a9daf8c7d0296ffc", null ],
-    [ "OwnTalk", "df/d0b/a14817.html#a99356589a048debbc308b8431259da5c", null ]
+    [ "npc_cos_stratholme_citizienAI", "d0/dc0/a14821.html", "d0/dc0/a14821" ],
+    [ "npc_cos_stratholme_citizien", "df/d0b/a14817.html#a92f8d88ecfa9cc47d6799107e5de0107", null ],
+    [ "GetAI", "df/d0b/a14817.html#a4f5f132b903241021a4e53dd60c0f43b", null ]
 ];

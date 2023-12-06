@@ -1,12 +1,9 @@
 var a24181 =
 [
-    [ "boss_anzu", "d3/dac/a24181.html#aef8c5c57afa95936d8c2809fa1257799", null ],
-    [ "JustEngagedWith", "d3/dac/a24181.html#a2384a1ea128ad5a43d3b8fb36fe39aba", null ],
-    [ "Reset", "d3/dac/a24181.html#a61c75d6d96aa5cfb41e87faa74ec2fa5", null ],
-    [ "SummonBroods", "d3/dac/a24181.html#a7f3f8868a5648bdeccd03d08203e4cf1", null ],
-    [ "SummonedCreatureDies", "d3/dac/a24181.html#a2e35df609db069c8d31afffabcfead34", null ],
-    [ "SummonSpirits", "d3/dac/a24181.html#a23e03d1718fba49a3bd57609abb77c6a", null ],
-    [ "UpdateAI", "d3/dac/a24181.html#a06373460d454bfaf8db793e591cc0abd", null ],
-    [ "AnzuSpiritPos", "d3/dac/a24181.html#a64e42ce8856b9d10c7f24fefc0c1e0b2", null ],
-    [ "talkTimer", "d3/dac/a24181.html#a2afae53534d9e777c90d09456f834b5d", null ]
+    [ "npc_stolen_soul", "d3/dac/a24181.html#a84a0bb8320b2332545748e010d855884", null ],
+    [ "DoAction", "d3/dac/a24181.html#abcfed6b9b46ce48a15b31d062a1618f4", null ],
+    [ "Reset", "d3/dac/a24181.html#a9f18ffbb42c988067b6dfa8355a4aba6", null ],
+    [ "UpdateAI", "d3/dac/a24181.html#a7bf369dd943ee36600a364d56b85db5a", null ],
+    [ "_scheduler", "d3/dac/a24181.html#ab62526916f0ccd681383d37d19d94ccc", null ],
+    [ "myClass", "d3/dac/a24181.html#ab2ad92983075320ce389aa583c341d21", null ]
 ];

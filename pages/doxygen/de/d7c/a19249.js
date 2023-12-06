@@ -1,5 +1,6 @@
 var a19249 =
 [
-    [ "achievement_neck_deep_in_vile", "de/d7c/a19249.html#af0e54c236e7637d8c1a8cf7dbed5a195", null ],
-    [ "OnCheck", "de/d7c/a19249.html#a9861c008f302279a4ac5f4ddc14ca2d0", null ]
+    [ "spell_the_lich_king_summon_spirit_bomb_SpellScript", "d4/df6/a19253.html", "d4/df6/a19253" ],
+    [ "spell_the_lich_king_summon_spirit_bomb", "de/d7c/a19249.html#a6955a5a91128b2008e7dd573de72b3f0", null ],
+    [ "GetSpellScript", "de/d7c/a19249.html#aefd45a8d11acf6d8d3c7dbd2aa8315f0", null ]
 ];

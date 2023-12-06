@@ -1,6 +1,7 @@
 var a26197 =
 [
-    [ "PrepareSpellScript", "d6/d66/a26197.html#abe1dcd583e3d3d42d86c922037ad77e6", null ],
-    [ "Register", "d6/d66/a26197.html#a8a772b805bf6772276c5895f5ad444e6", null ],
-    [ "SetDest", "d6/d66/a26197.html#a309f452b52202c9f895745d0b993751e", null ]
+    [ "npc_pet_gen_target_following_bomb", "d6/d66/a26197.html#a447c2cd258d784ca1d79c79412a1a426", null ],
+    [ "UpdateAI", "d6/d66/a26197.html#ac68f18d68a313623c04e885f9506f287", null ],
+    [ "bombSpellId", "d6/d66/a26197.html#a3c72bd26c66d3e7a85f3152557e399c4", null ],
+    [ "checkTimer", "d6/d66/a26197.html#a694ee5f884f1bd404f0ef3d3030a212f", null ]
 ];

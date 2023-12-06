@@ -1,19 +1,7 @@
 var a09377 =
 [
-    [ "AuctionListItemsDelayEvent", "da/d6c/a09377.html#ae495f47cdcf2db992d6f5c599c969274", null ],
-    [ "Execute", "da/d6c/a09377.html#ac14c369351fe9cd6dcb063d7b8fd6448", null ],
-    [ "_auctionMainCategory", "da/d6c/a09377.html#a828416051f1e84bef716afb20f3d1e60", null ],
-    [ "_auctionSlotID", "da/d6c/a09377.html#a64c54082878561e1587715396953fd75", null ],
-    [ "_auctionSubCategory", "da/d6c/a09377.html#aa76028f94d492f2508d755e74810ac90", null ],
-    [ "_creatureguid", "da/d6c/a09377.html#a5280785705b920d5a4592b11675d4da1", null ],
-    [ "_getAll", "da/d6c/a09377.html#accbc5a8c1e0c1de696b0884d22eebeb8", null ],
-    [ "_levelmax", "da/d6c/a09377.html#a3ca2d402112451de3c09f559954f5ff6", null ],
-    [ "_levelmin", "da/d6c/a09377.html#a787db3b49334d2efb6b7f812bf6ad954", null ],
-    [ "_listfrom", "da/d6c/a09377.html#a01813c762107e6e0e43a53f7ffade16b", null ],
-    [ "_pickupTimer", "da/d6c/a09377.html#a5f3d52f0afb2e277dd3fb03e9f32103f", null ],
-    [ "_playerguid", "da/d6c/a09377.html#a3eaa2f344de186e746908627c9523b4a", null ],
-    [ "_quality", "da/d6c/a09377.html#a5b71f78b81c11f1a9ebbe58f17aeedde", null ],
-    [ "_searchedname", "da/d6c/a09377.html#a59ad8e5c53e85faec91d9bda903aad47", null ],
-    [ "_sortOrder", "da/d6c/a09377.html#a87c6f59bdf36fb858aa3a56af87f69d8", null ],
-    [ "_usable", "da/d6c/a09377.html#a0fa068377683cb71807bfa700b8c688d", null ]
+    [ "ZRangeBoundary", "da/d6c/a09377.html#ab9c77783e059de4478625f7c97713c49", null ],
+    [ "IsWithinBoundaryArea", "da/d6c/a09377.html#af1410b3eeb9e7096b1cc53caa7edd68f", null ],
+    [ "_maxZ", "da/d6c/a09377.html#a7226d6a69b9fb922a2ac06300ab060d8", null ],
+    [ "_minZ", "da/d6c/a09377.html#aee142d5bc4cfae80584b84ae451da05c", null ]
 ];

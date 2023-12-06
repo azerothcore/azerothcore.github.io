@@ -1,9 +1,6 @@
 var a17225 =
 [
-    [ "npc_hor_lumbering_abominationAI", "df/dd6/a17225.html#acc1e6e72aee030ebf2d0daa50f880f60", null ],
-    [ "JustDied", "df/dd6/a17225.html#af243a79da3028d3d66facc8a15132f78", null ],
-    [ "JustEngagedWith", "df/dd6/a17225.html#a83d0add807b5d9647328b89fed8e9bc4", null ],
-    [ "Reset", "df/dd6/a17225.html#a4270f405bbade0028fce4df0655a1987", null ],
-    [ "UpdateAI", "df/dd6/a17225.html#a995d0f7902cb70280d1448ac7731a816", null ],
-    [ "events", "df/dd6/a17225.html#aee9063950477b50e38ec904e91882689", null ]
+    [ "npc_hor_lich_kingAI", "d1/d9c/a17229.html", "d1/d9c/a17229" ],
+    [ "npc_hor_lich_king", "df/dd6/a17225.html#aab2562a7a204699735a89e7a15b3b472", null ],
+    [ "GetAI", "df/dd6/a17225.html#ad670ae69daa742c19c06267399445a11", null ]
 ];

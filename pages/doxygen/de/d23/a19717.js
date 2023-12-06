@@ -1,6 +1,6 @@
 var a19717 =
 [
-    [ "npc_icc_valkyr_heraldAI", "d1/d03/a19721.html", "d1/d03/a19721" ],
-    [ "npc_icc_valkyr_herald", "de/d23/a19717.html#a9d06e0dec8cb960d34c2089c1c0d8ccb", null ],
-    [ "GetAI", "de/d23/a19717.html#a7537269841d0380d2dc9e4641705acf9", null ]
+    [ "HandleDummy", "de/d23/a19717.html#a980fb0a8677fde5191a3df100a4a882a", null ],
+    [ "PrepareSpellScript", "de/d23/a19717.html#a9fb7becd69b9f5ceed36c81e84916558", null ],
+    [ "Register", "de/d23/a19717.html#a6c81b47089d26065bce2abbf5f5f6169", null ]
 ];

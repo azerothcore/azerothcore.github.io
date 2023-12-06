@@ -1,9 +1,12 @@
 var a19793 =
 [
-    [ "spell_trigger_spell_from_caster_SpellScript", "d1/dce/a19793.html#ac2b9b326a2babb0c329336abd55f3b8f", null ],
-    [ "HandleTrigger", "d1/dce/a19793.html#a7080e0a1876d3c570abe3908a8b64d31", null ],
-    [ "PrepareSpellScript", "d1/dce/a19793.html#adc7786ac45ef1cdd3bbc9edfc0d6e502", null ],
-    [ "Register", "d1/dce/a19793.html#aae98b696d5ca2193ef2602d5fe1389be", null ],
-    [ "Validate", "d1/dce/a19793.html#aeb12e9c66f9b2835d7b5886aecf97b5e", null ],
-    [ "_triggerId", "d1/dce/a19793.html#a6aa1e08d5803f2df1a565bf081a6c41c", null ]
+    [ "npc_icc_nerubar_broodkeeperAI", "d1/dce/a19793.html#a2e3abb6f8889b8df818e8260e6428375", null ],
+    [ "InitializeAI", "d1/dce/a19793.html#ac39bb8074ebb7106b426f507b73b368e", null ],
+    [ "JustEngagedWith", "d1/dce/a19793.html#ae69a8fd357856d0ec6a944ca8c0007ca", null ],
+    [ "MoveInLineOfSight", "d1/dce/a19793.html#a846fe2784308eb694f5f482133a33a7f", null ],
+    [ "MovementInform", "d1/dce/a19793.html#a9a5584eea4bc08f55ddfd7efe23bce2e", null ],
+    [ "Reset", "d1/dce/a19793.html#afbb260e4968865e7c4141e73a050e663", null ],
+    [ "UpdateAI", "d1/dce/a19793.html#ad63d3a91bdd677a9cdd497198860cac6", null ],
+    [ "_didWebBeam", "d1/dce/a19793.html#a8772cf938d30ddcc439d3912db578dfa", null ],
+    [ "events", "d1/dce/a19793.html#ac1b5b05f9fbaf1879c95bc7127fcb6e9", null ]
 ];

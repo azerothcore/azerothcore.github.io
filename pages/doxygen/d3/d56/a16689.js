@@ -1,6 +1,7 @@
 var a16689 =
 [
-    [ "npc_fel_infernalAI", "de/d47/a16693.html", "de/d47/a16693" ],
-    [ "npc_fel_infernal", "d3/d56/a16689.html#a2d2ed8cf09c97d30b6c79dcdf9153ed9", null ],
-    [ "GetAI", "d3/d56/a16689.html#a768201a7516c9972800c941cf2079a11", null ]
+    [ "npc_toc_retro_paladinAI", "d3/d56/a16689.html#afe933281cea61c9a4f3ded76290a3b72", null ],
+    [ "myCanCast", "d3/d56/a16689.html#a271b1d0855dbd2e38ecb6ea62140012f", null ],
+    [ "UpdateAI", "d3/d56/a16689.html#a105d6b9c133c1147b310826d7be416f5", null ],
+    [ "events", "d3/d56/a16689.html#a7078c28d5392bc77d577fa7a6f96b9d7", null ]
 ];

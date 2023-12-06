@@ -1,5 +1,8 @@
 var a10681 =
 [
-    [ "groupId", "d5/daa/a10681.html#a71a218d1ea3241f0c72205f7e2f34125", null ],
-    [ "specialFlags", "d5/daa/a10681.html#a2232afb6a6b05e5ea33f40992a09621d", null ]
+    [ "SkillExtraItemEntry", "d5/daa/a10681.html#a3f7a8bc0b81407e7d5567c7da3e65ec5", null ],
+    [ "SkillExtraItemEntry", "d5/daa/a10681.html#a39a44cb09912cb0a15a5dd3b18787d16", null ],
+    [ "additionalCreateChance", "d5/daa/a10681.html#a299d886468e9caf22f9d6ce80a64c247", null ],
+    [ "newMaxOrEntry", "d5/daa/a10681.html#adfda967d36154b039495f0b289a5c9d1", null ],
+    [ "requiredSpecialization", "d5/daa/a10681.html#a0ba0ba6f012a10b717ca4e6c2f46cf26", null ]
 ];

@@ -1,7 +1,8 @@
 var a16073 =
 [
-    [ "DelayedTalk", "d6/d38/a16073.html#a8a7ea9e6ddebd73996cfe8d9723276bc", null ],
-    [ "Execute", "d6/d38/a16073.html#a88c1915e73bcbd8ec253a537c416caf7", null ],
-    [ "_owner", "d6/d38/a16073.html#a9d13769bb3fbaed32919fc919da35006", null ],
-    [ "_talkId", "d6/d38/a16073.html#a3f3a1688a36807c653a5d071dd2bb389", null ]
+    [ "boss_sartharion_shadronAI", "d6/d38/a16073.html#a02e2e657ac74ab37a4568589511de664", null ],
+    [ "ExecuteEvent", "d6/d38/a16073.html#a6a26f1f777988be6eaf8b1a675bbbabb", null ],
+    [ "HandleExtraEvent", "d6/d38/a16073.html#a3db5e816f6253f9c4251690bfbbe1912", null ],
+    [ "Reset", "d6/d38/a16073.html#a7054cde1de2166c2b06489187115cb3f", null ],
+    [ "SummonedCreatureDies", "d6/d38/a16073.html#a8b70b3b7287108ad13caeb85a83cf26f", null ]
 ];

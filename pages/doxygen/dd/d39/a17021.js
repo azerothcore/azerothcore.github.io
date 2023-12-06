@@ -1,6 +1,6 @@
 var a17021 =
 [
-    [ "spell_bronjahm_soulstorm_visual_AuraScript", "d9/d42/a17025.html", "d9/d42/a17025" ],
-    [ "spell_bronjahm_soulstorm_visual", "dd/d39/a17021.html#afffed2d4148cbc9015408d8e6b3a3f8e", null ],
-    [ "GetAuraScript", "dd/d39/a17021.html#ae6f1e3f54f1b0c833263685f25e3395d", null ]
+    [ "HandleScriptEffect", "dd/d39/a17021.html#a9bc21e7cd5daa655b20fc457a9b7ae55", null ],
+    [ "PrepareSpellScript", "dd/d39/a17021.html#a85552d12187dcd8c27b50b558e5c6368", null ],
+    [ "Register", "dd/d39/a17021.html#a3e1a9426652c4dc3fc866cbc676945a0", null ]
 ];

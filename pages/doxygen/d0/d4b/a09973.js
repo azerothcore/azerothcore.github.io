@@ -1,6 +1,6 @@
 var a09973 =
 [
-    [ "ShowingHelm", "d0/d4b/a09973.html#a67e25a4a39b14e488b5176b02e8dc995", null ],
-    [ "Read", "d0/d4b/a09973.html#a9e6d525a7104f2a8f81564d3796c6211", null ],
-    [ "ShowHelm", "d0/d4b/a09973.html#a9f3d52d5d6a6fa76b29afbd5a56d5622", null ]
+    [ "LootScript", "d0/d4b/a09973.html#aff50b92f064c6f658fa059b85bd8d4ea", null ],
+    [ "IsDatabaseBound", "d0/d4b/a09973.html#ad60b605eac89be48efd339127e9cb9cd", null ],
+    [ "OnLootMoney", "d0/d4b/a09973.html#a56a57baead49f6815a9979b181a55375", null ]
 ];

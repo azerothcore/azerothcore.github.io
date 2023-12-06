@@ -1,6 +1,6 @@
 var a17653 =
 [
-    [ "HandleDummyTick", "da/d74/a17653.html#a4a065b32bd82417cf60f0c1cbdebaeb0", null ],
-    [ "PrepareAuraScript", "da/d74/a17653.html#a7e5a00e842e88d176605a465617b834c", null ],
-    [ "Register", "da/d74/a17653.html#afb8c4f4b7cf46adfd637dd2c70cb249e", null ]
+    [ "npc_blood_queen_lana_thelAI", "da/d38/a17657.html", "da/d38/a17657" ],
+    [ "npc_blood_queen_lana_thel", "da/d74/a17653.html#a39adef3ae54efd4433805bd8ad4719be", null ],
+    [ "GetAI", "da/d74/a17653.html#a02d928ac4ef1704cee2498ebe6533561", null ]
 ];

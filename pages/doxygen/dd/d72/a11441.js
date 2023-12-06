@@ -1,5 +1,5 @@
 var a11441 =
 [
-    [ "boss_moira_bronzebeard", "dd/d72/a11441.html#abb9a87023b8afa242e60f9694dea1c39", null ],
-    [ "GetAI", "dd/d72/a11441.html#ad99554aac80c79933b78ab4b6d42cc4f", null ]
+    [ "at_ring_of_law", "dd/d72/a11441.html#ad9bb44e898f90fb489b50cad0a711976", null ],
+    [ "OnTrigger", "dd/d72/a11441.html#a613471caae75ab3d82ce915101a20108", null ]
 ];

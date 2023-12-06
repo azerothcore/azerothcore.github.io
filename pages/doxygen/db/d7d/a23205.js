@@ -1,6 +1,6 @@
 var a23205 =
 [
-    [ "CheckCast", "db/d7d/a23205.html#a9c7e08a8a9b1c1b44ae290818826d43a", null ],
-    [ "PrepareSpellScript", "db/d7d/a23205.html#abff433d61c798d17882292b6b0956a58", null ],
-    [ "Register", "db/d7d/a23205.html#a1034967a4bf633f160cc40ae6e0fc567", null ]
+    [ "npc_future_youAI", "de/df7/a23209.html", "de/df7/a23209" ],
+    [ "npc_future_you", "db/d7d/a23205.html#a36e363156bcb32fee468989062817bd5", null ],
+    [ "GetAI", "db/d7d/a23205.html#a2e1529fef3ce307d98057dc93ce5e5fe", null ]
 ];

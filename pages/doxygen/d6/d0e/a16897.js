@@ -1,6 +1,6 @@
 var a16897 =
 [
-    [ "boss_tharon_jaAI", "d0/df5/a16901.html", "d0/df5/a16901" ],
-    [ "boss_tharon_ja", "d6/d0e/a16897.html#ac34f8f33ea75dc0107222d3720788f7a", null ],
-    [ "GetAI", "d6/d0e/a16897.html#ab24612418cb66ed0c1e64fba5ebaa50f", null ]
+    [ "boss_novosAI", "d0/df5/a16901.html", "d0/df5/a16901" ],
+    [ "boss_novos", "d6/d0e/a16897.html#a898a5ee1de69df17fde66c84dd065ac1", null ],
+    [ "GetAI", "d6/d0e/a16897.html#aaf28e2a23a8139197dccc92ae29a8be4", null ]
 ];

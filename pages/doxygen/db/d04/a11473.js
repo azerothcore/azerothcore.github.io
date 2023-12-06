@@ -1,6 +1,6 @@
 var a11473 =
 [
-    [ "instance_blackrock_depths_InstanceMapScript", "dd/d5a/a11477.html", "dd/d5a/a11477" ],
-    [ "instance_blackrock_depths", "db/d04/a11473.html#a8d906bdb520b2c7907b94b0e22b5cdf4", null ],
-    [ "GetInstanceScript", "db/d04/a11473.html#af8f8c9929cae50c098efc5a0dbdd727a", null ]
+    [ "boss_ambassador_flamelashAI", "dd/d5a/a11477.html", "dd/d5a/a11477" ],
+    [ "boss_ambassador_flamelash", "db/d04/a11473.html#a53d24a240e48033b0474970e8acac1f4", null ],
+    [ "GetAI", "db/d04/a11473.html#a332e347d803a58989445ec57d75361ab", null ]
 ];

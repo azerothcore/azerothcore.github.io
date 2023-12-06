@@ -1,6 +1,6 @@
 var a17005 =
 [
-    [ "spell_bronjahm_magic_bane_SpellScript", "df/d33/a17009.html", "df/d33/a17009" ],
-    [ "spell_bronjahm_magic_bane", "de/d5b/a17005.html#a76a7fdc271c9d83bf3037e8c28cbb1c4", null ],
-    [ "GetSpellScript", "de/d5b/a17005.html#a15100aed9749a1efe8ef9df8c5790b78", null ]
+    [ "instance_drak_tharon_keep_InstanceScript", "de/d5b/a17005.html#a15f13e67c33a7d5cfb4793b6b641842c", null ],
+    [ "OnGameObjectCreate", "de/d5b/a17005.html#ab727f29fc768c00ab48bfd7e7717a29a", null ],
+    [ "OnGameObjectRemove", "de/d5b/a17005.html#ad8115d5e1ee45a586ec0c1149d690db5", null ]
 ];

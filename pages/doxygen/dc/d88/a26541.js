@@ -1,11 +1,6 @@
 var a26541 =
 [
-    [ "HandleAfterHit", "dc/d88/a26541.html#a3cfb75da66372934ba5aaa1c9ad6c6f3", null ],
-    [ "HandleDummy", "dc/d88/a26541.html#abb3f92850fa6fff94c682b990c361fe6", null ],
-    [ "Load", "dc/d88/a26541.html#ae5900d64c9b9b2de48c494458d4bed8b", null ],
-    [ "PrepareSpellScript", "dc/d88/a26541.html#adea0e24654cd87b3aee07ce2183b9517", null ],
-    [ "Register", "dc/d88/a26541.html#a3e155e336d6a5a6a4d44eae422ef7939", null ],
-    [ "Validate", "dc/d88/a26541.html#a28bb9111c8e5116a82d4e54b7eacb92b", null ],
-    [ "guid", "dc/d88/a26541.html#a6e177d68e1d39dcb27e6643d267328a5", null ],
-    [ "multiplier", "dc/d88/a26541.html#a04ed6aae0ea28a4f1b7c1ed5f4f73a0b", null ]
+    [ "PrepareAuraScript", "dc/d88/a26541.html#a31bde31b6db4f71ce65c6e1a862df771", null ],
+    [ "Register", "dc/d88/a26541.html#aebe64c4760d13d8afaebcf4a4b1196fa", null ],
+    [ "UpdateAmount", "dc/d88/a26541.html#a621e73a09438f3f9cbaa232125df3b87", null ]
 ];

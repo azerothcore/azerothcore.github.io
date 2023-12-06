@@ -1,6 +1,6 @@
 var a18401 =
 [
-    [ "spell_putricide_slime_puddle_SpellScript", "d9/df6/a18405.html", "d9/df6/a18405" ],
-    [ "spell_putricide_slime_puddle", "d2/d7b/a18401.html#a861586ec63f0d8dc9965be77f48a99e2", null ],
-    [ "GetSpellScript", "d2/d7b/a18401.html#a2b44cd2d919031e8665517a1e478817e", null ]
+    [ "UnboundPlagueTargetSelector", "d2/d7b/a18401.html#aedde7e013418bf6ff54cf3d3b8a70206", null ],
+    [ "operator()", "d2/d7b/a18401.html#ae5fc2623d4eb0b0a82b3eaa464c92458", null ],
+    [ "_source", "d2/d7b/a18401.html#a87eb77615e443ccec373d571708a156a", null ]
 ];

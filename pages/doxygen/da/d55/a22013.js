@@ -1,7 +1,9 @@
 var a22013 =
 [
-    [ "FilterTargets", "da/d55/a22013.html#a9d09504e7ac08791d1ed9823e34fa78c", null ],
-    [ "PrepareSpellScript", "da/d55/a22013.html#a99daa4a1f43a13f62ffa8d670b2ae07f", null ],
-    [ "RecalculateDamage", "da/d55/a22013.html#a21c2ac73f4abaf4c8efb1096e97ee120", null ],
-    [ "Register", "da/d55/a22013.html#a8325393c08a7550101b43bc60cfa6b4c", null ]
+    [ "npc_xt002_scrapbotAI", "da/d55/a22013.html#a21be97bb49ff06ef090cbbe6f5006f56", null ],
+    [ "JustDied", "da/d55/a22013.html#adcab192d017e6a9e8d103a6e8b91cb26", null ],
+    [ "MovementInform", "da/d55/a22013.html#a48fd29d42280ae91852ef2ef0cecc8f6", null ],
+    [ "Reset", "da/d55/a22013.html#aab71d2a49ee96e88a2858c07c455e78d", null ],
+    [ "UpdateAI", "da/d55/a22013.html#ae2de6767f8ab502833971e4171d48c13", null ],
+    [ "_locked", "da/d55/a22013.html#add3bfe992d635629ac7e07e04c4334c9", null ]
 ];

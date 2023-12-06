@@ -1,7 +1,9 @@
 var a14169 =
 [
-    [ "FilterTargets", "d8/d52/a14169.html#af3954bbcbce6de5d4ddadd2af0ecac91", null ],
-    [ "HandleDummy", "d8/d52/a14169.html#ad3688071ca786bbb4c27d5632d1a1e56", null ],
-    [ "PrepareSpellScript", "d8/d52/a14169.html#a6ac4db072beae6ae7a700774667da613", null ],
-    [ "Register", "d8/d52/a14169.html#ae981ec2b7e097ad0fe924df7738da5b7", null ]
+    [ "CheckCast", "d8/d52/a14169.html#a02965b55e8efadbd21e5afdd824f1dec", null ],
+    [ "FilterTargets", "d8/d52/a14169.html#a9638048b4107db116474abf8e18d7760", null ],
+    [ "HandleBeforeHit", "d8/d52/a14169.html#a3567c72e999ad6ca9db15b4d6ddadafb", null ],
+    [ "HandleScriptEffect", "d8/d52/a14169.html#a47d6a6c1fcb2b04782e54d3797c1f42c", null ],
+    [ "PrepareSpellScript", "d8/d52/a14169.html#aab9211291bd9dab8255d94e4eb07bf8e", null ],
+    [ "Register", "d8/d52/a14169.html#a73e6c9c91dccb309207fa3aeb6bd9d6f", null ]
 ];

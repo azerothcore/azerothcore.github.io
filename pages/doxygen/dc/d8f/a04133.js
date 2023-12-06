@@ -1,30 +1,14 @@
 var a04133 =
 [
-    [ "DataHeader", "dc/d8f/a04133.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "TheEyeScriptName", "dc/d8f/a04133.html#a715610ea7ac0b366db509638136446dc", null ],
-    [ "EyeData", "dc/d8f/a04133.html#aeff27095b590ff4ec45857b5b09879a3", [
-      [ "DATA_ALAR", "dc/d8f/a04133.html#aeff27095b590ff4ec45857b5b09879a3a66655c20f692a6d808496086aa954bea", null ],
-      [ "DATA_ASTROMANCER", "dc/d8f/a04133.html#aeff27095b590ff4ec45857b5b09879a3ae1fb90732fdb89170e0805914fa500b9", null ],
-      [ "DATA_REAVER", "dc/d8f/a04133.html#aeff27095b590ff4ec45857b5b09879a3a2a5e1f51e98d708c07843e2dacf7007f", null ],
-      [ "DATA_KAELTHAS", "dc/d8f/a04133.html#aeff27095b590ff4ec45857b5b09879a3a9459cb9bb83f7a23115debb607cb25a3", null ],
-      [ "MAX_ENCOUNTER", "dc/d8f/a04133.html#aeff27095b590ff4ec45857b5b09879a3a7913656ef56deb3793c0c5f3d999d80d", null ],
-      [ "DATA_KAEL_ADVISOR1", "dc/d8f/a04133.html#aeff27095b590ff4ec45857b5b09879a3a5ade50477a487bc0c98429c8b18ca49e", null ],
-      [ "DATA_KAEL_ADVISOR2", "dc/d8f/a04133.html#aeff27095b590ff4ec45857b5b09879a3acda0261cf027de3497f5778c9bd22e2e", null ],
-      [ "DATA_KAEL_ADVISOR3", "dc/d8f/a04133.html#aeff27095b590ff4ec45857b5b09879a3afa5ade3cd7b05d3e399edcadd64b9638", null ],
-      [ "DATA_KAEL_ADVISOR4", "dc/d8f/a04133.html#aeff27095b590ff4ec45857b5b09879a3ad41bec663331e079e217236824e14169", null ]
+    [ "go_main_chambers_access_panel", "da/d41/a25057.html", "da/d41/a25057" ],
+    [ "instance_steam_vault", "d7/d96/a25061.html", "d7/d96/a25061" ],
+    [ "instance_steam_vault::instance_steam_vault_InstanceMapScript", "da/d1a/a25065.html", "da/d1a/a25065" ],
+    [ "MainChambersAccessPanelSays", "dc/d8f/a04133.html#aa8d293574a308aad41f620556eb63b6a", [
+      [ "SAY_FAINT_ECHO", "dc/d8f/a04133.html#aa8d293574a308aad41f620556eb63b6aadbbafef44899cd7d93e10aaa27f52992", null ],
+      [ "SAY_LOUD_RUMBLE", "dc/d8f/a04133.html#aa8d293574a308aad41f620556eb63b6aa420e4ca090aea66dfe08994ddce97884", null ]
     ] ],
-    [ "EyeGOs", "dc/d8f/a04133.html#abd7b2582f2ee738e1a53e2e92a6f654a", [
-      [ "GO_BRIDGE_WINDOW", "dc/d8f/a04133.html#abd7b2582f2ee738e1a53e2e92a6f654aad04c2fe3d81625ee29aedd4d709a4697", null ],
-      [ "GO_KAEL_STATUE_RIGHT", "dc/d8f/a04133.html#abd7b2582f2ee738e1a53e2e92a6f654aaf07783e681473fb9f52dc50b03b64311", null ],
-      [ "GO_KAEL_STATUE_LEFT", "dc/d8f/a04133.html#abd7b2582f2ee738e1a53e2e92a6f654aa9e1eee49e78e1e8cd177e9426ee1661d", null ]
-    ] ],
-    [ "EyeNPCs", "dc/d8f/a04133.html#a98f711e2be2bce9d46cfe27d8755ec80", [
-      [ "NPC_ALAR", "dc/d8f/a04133.html#a98f711e2be2bce9d46cfe27d8755ec80ab6eed3856fd4b4cd6397c3c87b1005c8", null ],
-      [ "NPC_KAELTHAS", "dc/d8f/a04133.html#a98f711e2be2bce9d46cfe27d8755ec80a3d3f4ffdbd8e886f3c232368fb4245b4", null ],
-      [ "NPC_THALADRED", "dc/d8f/a04133.html#a98f711e2be2bce9d46cfe27d8755ec80a7cde7fc8bff2cb085f1b995f6a970708", null ],
-      [ "NPC_LORD_SANGUINAR", "dc/d8f/a04133.html#a98f711e2be2bce9d46cfe27d8755ec80ac8af45bb65099dd8c9f13b621a15548b", null ],
-      [ "NPC_CAPERNIAN", "dc/d8f/a04133.html#a98f711e2be2bce9d46cfe27d8755ec80a537a4c939a96c3ee07e1ff7f60218696", null ],
-      [ "NPC_TELONICUS", "dc/d8f/a04133.html#a98f711e2be2bce9d46cfe27d8755ec80a17c6b5b4f2493d2542833fbec1139a74", null ]
-    ] ],
-    [ "GetTheEyeAI", "dc/d8f/a04133.html#a8a7e802cde8810f3be593a9ec0ba1e57", null ]
+    [ "AddSC_instance_steam_vault", "dc/d8f/a04133.html#a944f7f7f41e047f2a4f82fb9af0b4829", null ],
+    [ "creatureData", "dc/d8f/a04133.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "minionData", "dc/d8f/a04133.html#a6720238df140a3c574a711042b7f5bd3", null ],
+    [ "objectData", "dc/d8f/a04133.html#a59ddfa91084111da23b5d47482e4ff8d", null ]
 ];

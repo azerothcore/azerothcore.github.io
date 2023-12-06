@@ -1,9 +1,8 @@
 var a19261 =
 [
-    [ "DelayedCastEvent", "d1/d67/a19261.html#ae6d57612065d56ce79197aedebedf9f9", null ],
-    [ "Execute", "d1/d67/a19261.html#ae2925429b3049e44d2afd2e8b990af71", null ],
-    [ "_despawnTime", "d1/d67/a19261.html#acc9e22eb1908e4c458199fc4cccd56c6", null ],
-    [ "_originalCaster", "d1/d67/a19261.html#adb07c24a947d59d2ef1f61b8ab18d328", null ],
-    [ "_spellId", "d1/d67/a19261.html#abe28a6749101233302634ed226a289e8", null ],
-    [ "_trigger", "d1/d67/a19261.html#a85471a151a3165cc906f3a41103c3f5d", null ]
+    [ "npc_lk_spirit_bombAI", "d1/d67/a19261.html#a366fb54e68c0e603000183cd68daf6b7", null ],
+    [ "IsSummonedBy", "d1/d67/a19261.html#a9b3de8c6e2006a19ee1289455163f52c", null ],
+    [ "MovementInform", "d1/d67/a19261.html#a0e4aa94a199439962095c1d2026b2a5f", null ],
+    [ "UpdateAI", "d1/d67/a19261.html#a61b4f7c3a1dd9b9b2850b05f2117e55a", null ],
+    [ "timer", "d1/d67/a19261.html#aa0d370113b753127d4f0fd7bd3a3ba11", null ]
 ];

@@ -1,6 +1,6 @@
 var a24313 =
 [
-    [ "HandleScriptEffect", "d4/d21/a24313.html#aa962c61dc8d8c70488a049ee68f28f3d", null ],
-    [ "PrepareSpellScript", "d4/d21/a24313.html#a30d953f2abce98fd1c6c20d9b68bad22", null ],
-    [ "Register", "d4/d21/a24313.html#a1a8373a27d9b868392308c1bedb7c403", null ]
+    [ "spell_gurtogg_eject_SpellScript", "d8/db4/a24317.html", "d8/db4/a24317" ],
+    [ "spell_gurtogg_eject", "d4/d21/a24313.html#a47643f50a74587d3912e2690e505c5af", null ],
+    [ "GetSpellScript", "d4/d21/a24313.html#a2f5fed0293e09b18b9adb8617475f46c", null ]
 ];

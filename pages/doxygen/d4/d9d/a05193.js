@@ -1,9 +1,9 @@
 var a05193 =
 [
-    [ "IteratorPair", "d4/d9d/a05193.html#ad2e586dfd291c34c82ec71d66e59f36c", null ],
-    [ "IteratorPair", "d4/d9d/a05193.html#a446d4e8dd1146b053987d48d0dcef59d", null ],
-    [ "IteratorPair", "d4/d9d/a05193.html#ae8b79501762f0c0ba6e2d769c56e9f8f", null ],
-    [ "begin", "d4/d9d/a05193.html#a59ff07f1663a3f98f2e10a895ab37ae4", null ],
-    [ "end", "d4/d9d/a05193.html#aa515ca48852213fb51a4d83e9d5c91d2", null ],
-    [ "_iterators", "d4/d9d/a05193.html#a9b08728bc90076dd1db392982840c31e", null ]
+    [ "IpLocationStore", "d4/d9d/a05193.html#a1b3a38bbd932ae50d55ff15374aa2f37", null ],
+    [ "~IpLocationStore", "d4/d9d/a05193.html#a82360c1ce130670fde23d42135f91324", null ],
+    [ "GetLocationRecord", "d4/d9d/a05193.html#a06384169031d2417a7f6bac54d3187a9", null ],
+    [ "instance", "d4/d9d/a05193.html#ad740adf9b81b37cf147dc00e220b29db", null ],
+    [ "Load", "d4/d9d/a05193.html#a411302e6bf5e5e82e5cd59e78e66bd0b", null ],
+    [ "_ipLocationStore", "d4/d9d/a05193.html#af7b7a5a4fc65c6af966be27f7bf7e07d", null ]
 ];

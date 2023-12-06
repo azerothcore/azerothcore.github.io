@@ -1,7 +1,7 @@
 var a28009 =
 [
-    [ "HandleHeal", "d3/d33/a28009.html#a22e3dd3ac57c7cb95162ee56ab43bc93", null ],
-    [ "PrepareSpellScript", "d3/d33/a28009.html#a9de9260bc1e2582138c58a708e5d899c", null ],
-    [ "Register", "d3/d33/a28009.html#ab613ce86521f1381b79f6f9f3eaea3cc", null ],
-    [ "Validate", "d3/d33/a28009.html#aa300822cf5455404482124a6853fb314", null ]
+    [ "HandleEffectRemove", "d3/d33/a28009.html#a814687d3938e966f8721438e1a722f77", null ],
+    [ "PrepareAuraScript", "d3/d33/a28009.html#a2144b0602501471a4001883ce9de6db3", null ],
+    [ "Register", "d3/d33/a28009.html#a9d696dc7e58692216fa1cf6cc7c011a9", null ],
+    [ "AuraEffectHandleModes", "d3/d33/a28009.html#ab291f6c6f269ec7004df39a043f49efd", null ]
 ];

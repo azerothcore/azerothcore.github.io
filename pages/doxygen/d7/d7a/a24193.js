@@ -1,11 +1,6 @@
 var a24193 =
 [
-    [ "boss_talon_king_ikiss", "d7/d7a/a24193.html#acf8cbda5f7a33c026bfc0d6e7b31f43c", null ],
-    [ "CanAIAttack", "d7/d7a/a24193.html#ab4858d845f149b6333941d8f8ab59afb", null ],
-    [ "JustDied", "d7/d7a/a24193.html#ada1d993842d04453d6afad91e186a3fe", null ],
-    [ "JustEngagedWith", "d7/d7a/a24193.html#a325312ce6695435fcca701720434c64f", null ],
-    [ "KilledUnit", "d7/d7a/a24193.html#ae8d94f89a67f3a321c88327c076ddd77", null ],
-    [ "MoveInLineOfSight", "d7/d7a/a24193.html#ab13808b75b1ca79b856e5b2e64e67d89", null ],
-    [ "Reset", "d7/d7a/a24193.html#adcb1dca375ec548499da5a7690babc21", null ],
-    [ "_spoken", "d7/d7a/a24193.html#a3e9e3a8575dbf21262ba2b4226182373", null ]
+    [ "instance_auchenai_crypts_InstanceMapScript", "df/df0/a24197.html", "df/df0/a24197" ],
+    [ "instance_auchenai_crypts", "d7/d7a/a24193.html#a8b16924167c54a9d8120bac67bc10fed", null ],
+    [ "GetInstanceScript", "d7/d7a/a24193.html#a99e47df95fde07d4a6e7687634805b93", null ]
 ];

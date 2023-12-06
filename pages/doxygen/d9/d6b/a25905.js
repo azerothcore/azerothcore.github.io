@@ -1,6 +1,6 @@
 var a25905 =
 [
-    [ "npc_fel_guard_houndAI", "dc/d1e/a25909.html", "dc/d1e/a25909" ],
-    [ "npc_fel_guard_hound", "d9/d6b/a25905.html#a324179695f04a31b233b0ce94a46634c", null ],
-    [ "GetAI", "d9/d6b/a25905.html#a5f5c20ec379994e7d0b65133d772e18f", null ]
+    [ "spell_q10563_q10596_to_legion_hold_AuraScript", "dc/d1e/a25909.html", "dc/d1e/a25909" ],
+    [ "spell_q10563_q10596_to_legion_hold", "d9/d6b/a25905.html#a7f9e5880271f51bb12636ca15e53d810", null ],
+    [ "GetAuraScript", "d9/d6b/a25905.html#af8ddce319534951924b919b319a64f76", null ]
 ];

@@ -1,7 +1,6 @@
 var a21285 =
 [
-    [ "npc_ulduar_saronite_vaporsAI", "d1/d59/a21285.html#a8f811c588aeca2cd4a12d4d345907bd2", null ],
-    [ "IsSummonedBy", "d1/d59/a21285.html#a4692bb5c3ffadcfd133db665566c66e5", null ],
-    [ "JustDied", "d1/d59/a21285.html#a5be637500e7b5735d90e19fa40fde467", null ],
-    [ "pInstance", "d1/d59/a21285.html#a25cf8dd22f05566ae99b14a596039f5e", null ]
+    [ "boss_freya_summonsAI", "d6/df2/a21289.html", "d6/df2/a21289" ],
+    [ "boss_freya_summons", "d1/d59/a21285.html#a3445ed89967cc9a610472f18e862ecd4", null ],
+    [ "GetAI", "d1/d59/a21285.html#ac68f231c37c61d262d6c16bc87a0f1c7", null ]
 ];

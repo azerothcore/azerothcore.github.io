@@ -1,6 +1,7 @@
 var a24585 =
 [
-    [ "spell_teron_gorefiend_shadow_of_death_AuraScript", "d8/d1c/a24589.html", "d8/d1c/a24589" ],
-    [ "spell_teron_gorefiend_shadow_of_death", "d4/d2c/a24585.html#a1d34f24fc50c45ee1bbaba42837c3bd4", null ],
-    [ "GetAuraScript", "d4/d2c/a24585.html#ace2fbf71eab606dfcc5fecb7cfea3116", null ]
+    [ "HandleEffectApply", "d4/d2c/a24585.html#a5857dbdb088de67cc15717dca0c5f7b5", null ],
+    [ "HandleEffectRemove", "d4/d2c/a24585.html#aab0536f7f73d9e354a526f56f587fff0", null ],
+    [ "PrepareAuraScript", "d4/d2c/a24585.html#a80a6b51bc6c1457edc0fb8a0089513d1", null ],
+    [ "Register", "d4/d2c/a24585.html#a194ff31e6168bca23881f3804154d479", null ]
 ];

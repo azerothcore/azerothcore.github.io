@@ -1,6 +1,6 @@
 var a17517 =
 [
-    [ "spell_galdarah_impaling_charge_SpellScript", "dd/d5f/a17521.html", "dd/d5f/a17521" ],
-    [ "spell_galdarah_impaling_charge", "d1/dfd/a17517.html#a27d7815b3f71053b7a1f43abb06146a9", null ],
-    [ "GetSpellScript", "d1/dfd/a17517.html#ae551dc8cbb6fed14af674f6bbabb611a", null ]
+    [ "HandleDummy", "d1/dfd/a17517.html#a849d6414e0eb0d7c07992e295e2438a1", null ],
+    [ "PrepareSpellScript", "d1/dfd/a17517.html#abdee1ee39023eba859fd1620a5b7d080", null ],
+    [ "Register", "d1/dfd/a17517.html#ada766da7c52456d1edb6791c755627ff", null ]
 ];

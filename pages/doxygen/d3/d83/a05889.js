@@ -1,6 +1,9 @@
 var a05889 =
 [
-    [ "CreatureAIFactory", "d3/d83/a05889.html#a978af64c2793b92ee2fe57763500f8d9", null ],
-    [ "Create", "d3/d83/a05889.html#ab5f691811cc23c5079a7a0a7f3503638", null ],
-    [ "Permit", "d3/d83/a05889.html#ae5e76ee1d1f8949214dd5421bf7e4deb", null ]
+    [ "itemId", "d3/d83/a05889.html#adc6041f4426ca3d377644b18a0ba22f9", null ],
+    [ "mailTemplate", "d3/d83/a05889.html#adc59ba563519ed9e673b734c4e40e7b8", null ],
+    [ "sender", "d3/d83/a05889.html#a9a4e0b2063f2c03f8783681cca41b5d7", null ],
+    [ "subject", "d3/d83/a05889.html#a45644f308278529f822080f8274180d8", null ],
+    [ "text", "d3/d83/a05889.html#a4d57dcb4d130552f5bf756308d79307c", null ],
+    [ "titleId", "d3/d83/a05889.html#a94440f7e5c023d929e0e7f7d821bb309", null ]
 ];

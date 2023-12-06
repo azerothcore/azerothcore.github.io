@@ -1,5 +1,7 @@
 var a14225 =
 [
-    [ "npc_cw_area_triggerAI", "d8/d82/a14225.html#aede21e01dfe762922562b6f5d57bc406", null ],
-    [ "MoveInLineOfSight", "d8/d82/a14225.html#a1fb90760dac1ae429429d84ed033aa7a", null ]
+    [ "PeriodicTick", "d8/d82/a14225.html#ac8b584ffbb1a8787f70370d94586ed77", null ],
+    [ "PrepareAuraScript", "d8/d82/a14225.html#a4e860850bbab0f14eb8a160bb5e6799e", null ],
+    [ "Register", "d8/d82/a14225.html#a5def2685cedc4fb78c1a5c534c764ee9", null ],
+    [ "Validate", "d8/d82/a14225.html#a68247c2afa553411fac34582e83635c9", null ]
 ];

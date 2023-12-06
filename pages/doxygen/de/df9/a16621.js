@@ -1,7 +1,6 @@
 var a16621 =
 [
-    [ "npc_toc_warriorAI", "de/df9/a16621.html#a6eee7e4fc83ed56a0f775b6892dc8dcb", null ],
-    [ "myCanCast", "de/df9/a16621.html#ac815e13cbbe9a8833330e15213420c65", null ],
-    [ "UpdateAI", "de/df9/a16621.html#aa787deda09d9bbf2c54d51e618eb2a82", null ],
-    [ "events", "de/df9/a16621.html#ae8f9d3f5f2c9172442c7ba4a83275cc1", null ]
+    [ "npc_toc_warlockAI", "d8/dfe/a16625.html", "d8/dfe/a16625" ],
+    [ "npc_toc_warlock", "de/df9/a16621.html#a75ac1d6f6835860fed8a9197fa1cf3c2", null ],
+    [ "GetAI", "de/df9/a16621.html#ad3162c9414be83d53d9513c7aa6b75d7", null ]
 ];

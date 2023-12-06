@@ -1,6 +1,8 @@
 var a28305 =
 [
-    [ "HandleScript", "d5/dc4/a28305.html#acde0ae837d0cd3af0f38481027200291", null ],
-    [ "PrepareSpellScript", "d5/dc4/a28305.html#ac1237e0af7f88f75ebc551af52fc301c", null ],
-    [ "Register", "d5/dc4/a28305.html#a2dc2628984358628afe7d9b62ced7794", null ]
+    [ "spell_rog_killing_spree_AuraScript", "dc/dfd/a28313.html", "dc/dfd/a28313" ],
+    [ "spell_rog_killing_spree_SpellScript", "db/d41/a28309.html", "db/d41/a28309" ],
+    [ "spell_rog_killing_spree", "d5/dc4/a28305.html#a5ccbad5a5401df5eb6124506a6f555e3", null ],
+    [ "GetAuraScript", "d5/dc4/a28305.html#acf9cb243d57d47dfd416484242d5b45d", null ],
+    [ "GetSpellScript", "d5/dc4/a28305.html#ac1079a78cad04c762a9a8e77680a5bae", null ]
 ];

@@ -1,7 +1,6 @@
 var a28149 =
 [
-    [ "HandleDummy", "da/dc7/a28149.html#abc630a0c8274f5f85901b2505ff2ae04", null ],
-    [ "PrepareSpellScript", "da/dc7/a28149.html#af79cd7c2f6ed47a93dbbe17aaca6834f", null ],
-    [ "Register", "da/dc7/a28149.html#a3f1808538acca2742c19f68af9a6fd56", null ],
-    [ "Validate", "da/dc7/a28149.html#a475e1d5d8c70e0edd5957a1e493fd43e", null ]
+    [ "HandleDummy", "da/dc7/a28149.html#afb85971597df327fa44271ee0c4b3d04", null ],
+    [ "PrepareSpellScript", "da/dc7/a28149.html#a43052fedbec62cfbdbbf24fbfcbca047", null ],
+    [ "Register", "da/dc7/a28149.html#a7a249dd2bcdccf1a19d151d041a25215", null ]
 ];

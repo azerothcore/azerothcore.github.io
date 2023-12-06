@@ -1,6 +1,6 @@
 var a15793 =
 [
-    [ "spell_zulfarrak_unlocking_SpellScript", "da/dc9/a15797.html", "da/dc9/a15797" ],
-    [ "spell_zulfarrak_unlocking", "d3/d8b/a15793.html#a0bd049da60fee3bf0d49a72130e39698", null ],
-    [ "GetSpellScript", "d3/d8b/a15793.html#a50ac4f1c63de50eb4739f37ca4f70933", null ]
+    [ "SayerEntry", "d3/d8b/a15793.html#a3f9e374ec2a49823d942c29572ac2fa0", null ],
+    [ "SayTimer", "d3/d8b/a15793.html#a942073f24fd12da712184243d9f098f2", null ],
+    [ "TextEntry", "d3/d8b/a15793.html#a360822e4c069be6019c0a465cb2499cf", null ]
 ];

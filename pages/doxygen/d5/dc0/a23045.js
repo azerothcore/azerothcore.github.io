@@ -1,9 +1,7 @@
 var a23045 =
 [
-    [ "npc_bloodmage_laurithAI", "d5/dc0/a23045.html#a75dca4f2e90318f334e7e6385d4f7a6f", null ],
-    [ "Reset", "d5/dc0/a23045.html#afe9b10dfcee3b241a48e6f2e40eec657", null ],
-    [ "SetGUID", "d5/dc0/a23045.html#a50a144cf1545117d79268d3a18a4b4ec", null ],
-    [ "UpdateAI", "d5/dc0/a23045.html#a9752f518441071dd4a60cd63423bf9a3", null ],
-    [ "_events", "d5/dc0/a23045.html#a35facab84094071d952792a4c3e5015d", null ],
-    [ "_playerGUID", "d5/dc0/a23045.html#a6aab8db1d55d4fe3251b544c292711e8", null ]
+    [ "npc_valiance_keep_cannoneerAI", "d5/dc0/a23045.html#a0769e975c5c7ff1cfbfa6089e3e55e3f", null ],
+    [ "Reset", "d5/dc0/a23045.html#a65718076e65b68cae0a54ff4112fdb4b", null ],
+    [ "UpdateAI", "d5/dc0/a23045.html#a75f16f2b028ca341db6e08536be06bfa", null ],
+    [ "uiTimer", "d5/dc0/a23045.html#a0cf5f0413b1cded835252a38e272f835", null ]
 ];

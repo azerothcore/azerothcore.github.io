@@ -1,6 +1,6 @@
 var a21353 =
 [
-    [ "boss_hodirAI", "db/d67/a21357.html", "db/d67/a21357" ],
-    [ "boss_hodir", "d1/d9d/a21353.html#a5740f489f57380d2633a8ee5a18de339", null ],
-    [ "GetAI", "d1/d9d/a21353.html#a8d6ce019e9c383d2eb9ac0d211f4bc4c", null ]
+    [ "FilterTargets", "d1/d9d/a21353.html#ae402120aab16d5482da1a9306eb3004f", null ],
+    [ "PrepareSpellScript", "d1/d9d/a21353.html#a34b4255000d13229e460ecf1456cd6c7", null ],
+    [ "Register", "d1/d9d/a21353.html#a7248095987b083eb7d597dd80dc3ad36", null ]
 ];

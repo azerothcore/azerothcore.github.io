@@ -1,6 +1,6 @@
 var a14785 =
 [
-    [ "instance_old_hillsbrad_InstanceMapScript", "db/d65/a14789.html", "db/d65/a14789" ],
-    [ "instance_old_hillsbrad", "d3/d25/a14785.html#a1ba2d39ae8f9209055de4b944cc535d8", null ],
-    [ "GetInstanceScript", "d3/d25/a14785.html#a1929c38b1c745b2df1ccaf462113e220", null ]
+    [ "spell_boss_salramm_steal_flesh_AuraScript", "db/d65/a14789.html", "db/d65/a14789" ],
+    [ "spell_boss_salramm_steal_flesh", "d3/d25/a14785.html#a8fa3233257c2e313dcdec8e7ec3cd5e0", null ],
+    [ "GetAuraScript", "d3/d25/a14785.html#a10c417eca24eef7bbcb1a4e3c05c0534", null ]
 ];

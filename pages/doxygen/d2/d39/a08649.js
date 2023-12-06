@@ -1,15 +1,18 @@
 var a08649 =
 [
-    [ "MessageDistDeliverer", "d2/d39/a08649.html#aa6225d1c67760d2c50a0e6c02ec6c1af", null ],
-    [ "SendPacket", "d2/d39/a08649.html#af085a9490dfd5a1e577bda6d8333fe1d", null ],
-    [ "Visit", "d2/d39/a08649.html#af44878b494b1412f0d08248f6a88fff6", null ],
-    [ "Visit", "d2/d39/a08649.html#a2e8d0ad4bdc5fc8961d9f67b6a93b69d", null ],
-    [ "Visit", "d2/d39/a08649.html#a8c56d33ec988bfb6ba078fce00beab1a", null ],
-    [ "Visit", "d2/d39/a08649.html#a09171ca5e494d7cc4b19340e95367a64", null ],
-    [ "i_distSq", "d2/d39/a08649.html#a871dda581863f0919f1d5b2f60c2fcd9", null ],
-    [ "i_message", "d2/d39/a08649.html#ac49c2d8b9120edbafd6b04656a6d2909", null ],
-    [ "i_phaseMask", "d2/d39/a08649.html#abca07d041f9b45b4002f15dfff6e1c9e", null ],
-    [ "i_source", "d2/d39/a08649.html#aa65c4e298a1302647fdaad1b1227a3a2", null ],
-    [ "skipped_receiver", "d2/d39/a08649.html#a7f92e1c65cdc8346dd4bac47f1ba8b5b", null ],
-    [ "teamId", "d2/d39/a08649.html#acfda3713bbde51a110cb160f0325f848", null ]
+    [ "BroadcastText", "d2/d39/a08649.html#abab322532f769f25ad0241422e066c3c", null ],
+    [ "GetText", "d2/d39/a08649.html#a5002c01e04536db717167eb7d0f4c5ec", null ],
+    [ "EmoteDelay1", "d2/d39/a08649.html#a627971cd4d55f9e3e17c885791a0cfbf", null ],
+    [ "EmoteDelay2", "d2/d39/a08649.html#a101f8fcc99c6badc2a7b05a9f18aa0f5", null ],
+    [ "EmoteDelay3", "d2/d39/a08649.html#ad54e97026a67329529daaa30f997a89a", null ],
+    [ "EmoteId1", "d2/d39/a08649.html#acc72081442b6a4544533a3084b5240da", null ],
+    [ "EmoteId2", "d2/d39/a08649.html#a519449d0a5cc67e758f39c154e22f853", null ],
+    [ "EmoteId3", "d2/d39/a08649.html#acbce2101751bdaed47315c23f5058a7b", null ],
+    [ "EmotesID", "d2/d39/a08649.html#a2c7c03c32d8fe589507b575fc5c2138f", null ],
+    [ "FemaleText", "d2/d39/a08649.html#a255f95912612f11867611093ebc23a59", null ],
+    [ "Flags", "d2/d39/a08649.html#af07f883cd3deb5a1a59e23aa058e6c78", null ],
+    [ "Id", "d2/d39/a08649.html#a12594a2bbd643a1968726db708a35b79", null ],
+    [ "LanguageID", "d2/d39/a08649.html#a35ea9cc4ebd2680988e610f344086c86", null ],
+    [ "MaleText", "d2/d39/a08649.html#ab30526857fe7c7c945d84931ffa4c416", null ],
+    [ "SoundEntriesId", "d2/d39/a08649.html#aae69d8b9ca72f1cb20869b69a9601595", null ]
 ];

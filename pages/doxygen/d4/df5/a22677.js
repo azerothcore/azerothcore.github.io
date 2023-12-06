@@ -1,6 +1,6 @@
 var a22677 =
 [
-    [ "spell_flame_warder_meteor_fists_AuraScript", "d5/dac/a22681.html", "d5/dac/a22681" ],
-    [ "spell_flame_warder_meteor_fists", "d4/df5/a22677.html#a3e020771ea6ab327efe3c308b16b831c", null ],
-    [ "GetAuraScript", "d4/df5/a22677.html#a17d9260fad49dbb32c0e67745788cde0", null ]
+    [ "spell_voa_lightning_nova_SpellScript", "d5/dac/a22681.html", "d5/dac/a22681" ],
+    [ "spell_voa_lightning_nova", "d4/df5/a22677.html#a115e191504d0d03afa2947e8ac540f3c", null ],
+    [ "GetSpellScript", "d4/df5/a22677.html#aeda9c8cb8ab982f103ac5d4e97ca0751", null ]
 ];

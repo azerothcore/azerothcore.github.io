@@ -1,6 +1,6 @@
 var a23633 =
 [
-    [ "npc_frostbrood_skytalonAI", "d6/d2a/a23637.html", "d6/d2a/a23637" ],
-    [ "npc_frostbrood_skytalon", "d0/d8c/a23633.html#a1bc95edf0e624709e3836bdcfb0c503c", null ],
-    [ "GetAI", "d0/d8c/a23633.html#af5b1c3e52076fb84b83e785762ff6b6d", null ]
+    [ "spell_onslaught_or_call_bone_gryphon_SpellScript", "d6/d2a/a23637.html", "d6/d2a/a23637" ],
+    [ "spell_onslaught_or_call_bone_gryphon", "d0/d8c/a23633.html#a9f651eba94b3728fcd365f1f057fb573", null ],
+    [ "GetSpellScript", "d0/d8c/a23633.html#ae1428bab4a7b267f9b022f99aa7d3f60", null ]
 ];

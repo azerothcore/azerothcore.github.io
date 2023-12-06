@@ -1,12 +1,9 @@
 var a23149 =
 [
-    [ "npc_dalaran_warriorAI", "d2/de6/a23149.html#a0c96d8b0797a1388f9fe725753ea91bc", null ],
-    [ "Initialize", "d2/de6/a23149.html#aa04ecd7a8f988e94ab663a7994e83dd9", null ],
-    [ "JustEngagedWith", "d2/de6/a23149.html#ae6690f0681363784e457fbd653f5b3f9", null ],
-    [ "Reset", "d2/de6/a23149.html#a074d116ba39d87fa85c17fbc1764c79b", null ],
-    [ "UpdateAI", "d2/de6/a23149.html#ae2a740ecd35694b4d04c6aea7ae567fa", null ],
-    [ "Battleshout_timer", "d2/de6/a23149.html#ae36f30f816164b60232bd849e74c3da1", null ],
-    [ "disarm_timer", "d2/de6/a23149.html#a54f7ceb37d7e3456166f5af761c95e9e", null ],
-    [ "hamstring_timer", "d2/de6/a23149.html#ae0e660b8c3faf70a6061260a4b90a4af", null ],
-    [ "shout_timer", "d2/de6/a23149.html#ac91770c1e9eb31d687247450898a48ae", null ]
+    [ "npc_archmage_landalockAI", "d2/de6/a23149.html#a8e2b48a9cf243b0d6f11286cf1e301c8", null ],
+    [ "GetImageEntry", "d2/de6/a23149.html#ae09841969253c0baf72cc235b6fa058e", null ],
+    [ "JustSummoned", "d2/de6/a23149.html#af9016bfeca3db7611fdafe4337e5f64a", null ],
+    [ "UpdateAI", "d2/de6/a23149.html#abad2f45c0a5c43cc7aa7867a0291133d", null ],
+    [ "_summonGUID", "d2/de6/a23149.html#a8b59c414dfd46209dcc3d00531e2b98b", null ],
+    [ "_switchImageTimer", "d2/de6/a23149.html#a5e2fb6556bbb5cf22b77a72e9ccbc548", null ]
 ];

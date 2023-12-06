@@ -1,6 +1,7 @@
 var a25157 =
 [
-    [ "HandleAfterRemove", "d4/d4d/a25157.html#a74610b06095572aa2c898cd84e0fb229", null ],
-    [ "PrepareAuraScript", "d4/d4d/a25157.html#ac0d686490ff37810e0116dea4d0b6077", null ],
-    [ "Register", "d4/d4d/a25157.html#aad72f4aaa19f92f7a71241311f5d0582", null ]
+    [ "HandleScriptEffect", "d4/d4d/a25157.html#a534bf39998813f06c48bc920e4666692", null ],
+    [ "PrepareSpellScript", "d4/d4d/a25157.html#a5892f20a0704596cb70a995a73846368", null ],
+    [ "Register", "d4/d4d/a25157.html#a1176b4e4ad488a3b6b38ff4b8c955d64", null ],
+    [ "Validate", "d4/d4d/a25157.html#af618314a13013eaf9f36b30047de0878", null ]
 ];

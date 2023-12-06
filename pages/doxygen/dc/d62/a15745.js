@@ -1,14 +1,7 @@
 var a15745 =
 [
-    [ "npc_ringoAI", "dc/d62/a15745.html#a816dcad96afa6bec595f4b2dfe6fb11c", null ],
-    [ "ClearFaint", "dc/d62/a15745.html#abd24108debcafafa601958824d44abbb", null ],
-    [ "MoveInLineOfSight", "dc/d62/a15745.html#a6758ef2fe371338826dfc8582d6d03f0", null ],
-    [ "Reset", "dc/d62/a15745.html#a5b2cf17642bd4a560abb54b8d42bcd25", null ],
-    [ "SetFaint", "dc/d62/a15745.html#a09d3770aade34afe5a3a15e17cc64933", null ],
-    [ "SpellHit", "dc/d62/a15745.html#ad30d1a9fb84cc777d48b1363cf571d72", null ],
-    [ "UpdateFollowerAI", "dc/d62/a15745.html#a3b0effa8ec4d335a1d24d2238346b04a", null ],
-    [ "EndEventProgress", "dc/d62/a15745.html#a4df563b83103bbd7e1f0d81a78f6401a", null ],
-    [ "EndEventTimer", "dc/d62/a15745.html#a03f20114ca340c7c710bd77ee3c905ef", null ],
-    [ "FaintTimer", "dc/d62/a15745.html#a37d12c7edf3100837c99e3fb572f4bf1", null ],
-    [ "SpraggleGUID", "dc/d62/a15745.html#a3b58d34a1263355e7b11e22e0eef00a5", null ]
+    [ "npc_paoka_swiftmountainAI", "d7/d29/a15749.html", "d7/d29/a15749" ],
+    [ "npc_paoka_swiftmountain", "dc/d62/a15745.html#abb3f6fab7cca158c2e139159430f880a", null ],
+    [ "GetAI", "dc/d62/a15745.html#a3f41d2caae5acb4b79bcc75780db03d2", null ],
+    [ "OnQuestAccept", "dc/d62/a15745.html#a5bd4442350daf5a19bee1037a1b4d7b3", null ]
 ];

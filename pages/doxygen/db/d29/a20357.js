@@ -1,10 +1,8 @@
 var a20357 =
 [
-    [ "instance_nexus_InstanceMapScript", "db/d29/a20357.html#a6803f233d730f33e5af7dc9d8ecd9775", null ],
-    [ "Initialize", "db/d29/a20357.html#a2c6c42e73de2a155c04f80e37aa5d442", null ],
-    [ "OnCreatureCreate", "db/d29/a20357.html#a04806dc42aa0b171fa99eb1d8492ff61", null ],
-    [ "OnGameObjectCreate", "db/d29/a20357.html#a85c3ac915970d68a192414ca4ff8ad1f", null ],
-    [ "OnGameObjectRemove", "db/d29/a20357.html#ac148c67823484eee38ab6646dfb68530", null ],
-    [ "SetBossState", "db/d29/a20357.html#a11ac1fbc7c699084e7da5e4bf0595651", null ],
-    [ "SetData", "db/d29/a20357.html#a351052b1d3ea4ddb5d36ce69818c7e67", null ]
+    [ "HandleApply", "db/d29/a20357.html#a0207562098dbe5b5990e46e1d79a30b7", null ],
+    [ "HandleRemove", "db/d29/a20357.html#afa25e3ac2d13fc6aefbb158b92ffd1ff", null ],
+    [ "Load", "db/d29/a20357.html#ab9e52af28611eab8b7ef4f4206302208", null ],
+    [ "PrepareAuraScript", "db/d29/a20357.html#a401f6a2171bad359bb796b04c9e783d9", null ],
+    [ "Register", "db/d29/a20357.html#a9572846d57f852d555d10cd985de656e", null ]
 ];

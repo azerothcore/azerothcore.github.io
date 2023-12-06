@@ -1,7 +1,7 @@
 var a24673 =
 [
-    [ "boss_high_nethermancer_zerevorAI", "d6/d70/a24673.html#a329f6cf6f8d74af50fdfcf26755dc7f1", null ],
-    [ "AttackStart", "d6/d70/a24673.html#ad4c02d620d8433d2cbcea80566bad9ba", null ],
-    [ "JustEngagedWith", "d6/d70/a24673.html#a7b6339d68fc9fc10fe14c1f48606249e", null ],
-    [ "UpdateAI", "d6/d70/a24673.html#a7a01bd1d41fc803af47291073bc00ee2", null ]
+    [ "boss_lady_malandeAI", "d6/d70/a24673.html#a03513a150eba610edf97c00303e26213", null ],
+    [ "AttackStart", "d6/d70/a24673.html#ab176d8313c9d28bf6d9814438f23f188", null ],
+    [ "JustEngagedWith", "d6/d70/a24673.html#a9d2fc7ca2c6a2fbbbd84e082e8ef93af", null ],
+    [ "UpdateAI", "d6/d70/a24673.html#a2aa5723eba0e8f42fe269e56070dcf80", null ]
 ];

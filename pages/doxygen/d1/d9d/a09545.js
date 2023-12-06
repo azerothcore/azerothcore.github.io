@@ -1,9 +1,8 @@
 var a09545 =
 [
-    [ "counter", "d1/d9d/a09545.html#a0efb94229f4a9370dc5b256ba623385b", null ],
-    [ "getCurrent", "d1/d9d/a09545.html#afff6411c2b7f1c07d72ad26dc77d4780", null ],
-    [ "Increase", "d1/d9d/a09545.html#a463e0ba077c8398a6125e715afcd8860", null ],
-    [ "init", "d1/d9d/a09545.html#a0369662be009b781174021a2eb6b3202", null ],
-    [ "NewId", "d1/d9d/a09545.html#a06d5bc4ea248173316ed4d1ce96d6281", null ],
-    [ "m_counter", "d1/d9d/a09545.html#a297f1ba5e072e4c90b62c7242ee1b01c", null ]
+    [ "GetMotd", "d1/d9d/a09545.html#ad84d4ce9d38011c75e20ea6db6160ff7", null ],
+    [ "GetMotdPacket", "d1/d9d/a09545.html#a26277b53365c91187d78d2590e4ac6a5", null ],
+    [ "instance", "d1/d9d/a09545.html#a0eac0994f742f9a5cbd912abc308d1a7", null ],
+    [ "LoadMotd", "d1/d9d/a09545.html#a1a6ce19decdaf6cd778cf331bdc0c1ef", null ],
+    [ "SetMotd", "d1/d9d/a09545.html#af1f2bdf2b8e79e195d65d06b8764aecc", null ]
 ];

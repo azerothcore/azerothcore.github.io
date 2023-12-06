@@ -1,6 +1,7 @@
 var a26549 =
 [
-    [ "CalculateAmount", "d2/dbb/a26549.html#ada4514ba7769ebceeed1e0ab1c3a33e8", null ],
-    [ "PrepareAuraScript", "d2/dbb/a26549.html#a1faa084b17776e826242293e2aaef2f4", null ],
-    [ "Register", "d2/dbb/a26549.html#a94b21c91954385201d4bad6aff2205fc", null ]
+    [ "CalculateAmount", "d2/dbb/a26549.html#a2ed00d02a1685bc8b66e9cdfd430d1ad", null ],
+    [ "Load", "d2/dbb/a26549.html#a7ba8da2fdc3bf18cd9925b280e60affa", null ],
+    [ "PrepareAuraScript", "d2/dbb/a26549.html#a93df43072a344485c389160306b1fecd", null ],
+    [ "Register", "d2/dbb/a26549.html#a6766b6ebbba04bc595373145e4eaaa7a", null ]
 ];

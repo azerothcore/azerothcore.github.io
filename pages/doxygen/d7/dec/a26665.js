@@ -1,8 +1,6 @@
 var a26665 =
 [
-    [ "AfterApply", "d7/dec/a26665.html#a9c2591beacd941893338109719c03e3f", null ],
-    [ "AfterRemove", "d7/dec/a26665.html#a0be2a66b615dd926de7073392a8e5062", null ],
-    [ "PrepareAuraScript", "d7/dec/a26665.html#a4763d0c69c12611244f68ba5a5b1ccce", null ],
-    [ "Register", "d7/dec/a26665.html#a36fb81d0bf4cf92773db60a70de52dda", null ],
-    [ "Validate", "d7/dec/a26665.html#a86b51ec85105b0396972f0c3d7b770c1", null ]
+    [ "PrepareSpellScript", "d7/dec/a26665.html#a209f68c2a9824ad771f7b6a25d4c4663", null ],
+    [ "Register", "d7/dec/a26665.html#a759b195d4631a371bef3e6398e128034", null ],
+    [ "SelectTarget", "d7/dec/a26665.html#a676c6fdbced0ea7e945c4724c9adf145", null ]
 ];

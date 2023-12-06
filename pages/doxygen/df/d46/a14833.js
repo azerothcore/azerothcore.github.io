@@ -1,16 +1,14 @@
 var a14833 =
 [
-    [ "npc_medivh_bm", "df/d46/a14833.html#a23f04c433faf7da663b2edffb2a0440d", null ],
-    [ "AttackStart", "df/d46/a14833.html#a8eb87f4d80d83725af017657c599d458", null ],
-    [ "DoAction", "df/d46/a14833.html#aa5a54d0b2b069947dd59eee77cbdf21b", null ],
-    [ "JustDied", "df/d46/a14833.html#ad6dbbef1b6fbccd9dd224af1a15a6c90", null ],
-    [ "JustSummoned", "df/d46/a14833.html#a16d8d3be1dd148e149f4e49570f092a6", null ],
-    [ "MoveInLineOfSight", "df/d46/a14833.html#a87f092fccd5b485bdf0bd0449bd57265", null ],
-    [ "Reset", "df/d46/a14833.html#a1a33f613b083763c952882cdb82a35c1", null ],
-    [ "SummonOrcs", "df/d46/a14833.html#a9206f380773fff5df6dc7c67e37a9ba8", null ],
-    [ "UpdateAI", "df/d46/a14833.html#aefc693d7be0c06c5056cae18d4e4eb1e", null ],
-    [ "_airArray", "df/d46/a14833.html#a6e766596b69b52690635ee91e6e8d164", null ],
-    [ "_events", "df/d46/a14833.html#a1d4fe5bc964d12e812a178c68e2f037f", null ],
-    [ "_groundArray", "df/d46/a14833.html#a6fd3a75ddec2a6bda3e5d1bd3e33722c", null ],
-    [ "_instance", "df/d46/a14833.html#a45e129d61c3987e4bff94485db739eb1", null ]
+    [ "boss_captain_skarloc", "df/d46/a14833.html#a196477160ab6d07dc644ddadf756a1e0", null ],
+    [ "InitializeAI", "df/d46/a14833.html#a1c67fb99984f666b63f8f79c6783341d", null ],
+    [ "JustDied", "df/d46/a14833.html#aca0d536010a53efdf9270146f15f9058", null ],
+    [ "JustEngagedWith", "df/d46/a14833.html#aaa516f26cdc0ccd88f5c529a0a4252d4", null ],
+    [ "JustSummoned", "df/d46/a14833.html#a5f5f08ab00d18bece28dde7490e52af8", null ],
+    [ "KilledUnit", "df/d46/a14833.html#a1ead95b7cf3c4fb5b36be083e852aa21", null ],
+    [ "MovementInform", "df/d46/a14833.html#a8e16d85ca8e41bc1cb7ac749dfaea075", null ],
+    [ "Reset", "df/d46/a14833.html#a73b728cd24c8cb124f93c0e637bc8a11", null ],
+    [ "UpdateAI", "df/d46/a14833.html#aa1a9d9e781f1bc2394e2ebf879fdf196", null ],
+    [ "_spawnedAdds", "df/d46/a14833.html#ad69432da4a5beb5fcc8bbac155608a87", null ],
+    [ "summons", "df/d46/a14833.html#a83a9e5971411de1c136cbad91f73f487", null ]
 ];

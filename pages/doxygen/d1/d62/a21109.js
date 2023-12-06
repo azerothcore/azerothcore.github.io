@@ -1,6 +1,7 @@
 var a21109 =
 [
-    [ "HandleScript", "d1/d62/a21109.html#ade715ba22bff6cb5f784a00f855984e0", null ],
-    [ "PrepareSpellScript", "d1/d62/a21109.html#a5ef3f89cfd6c73970bc8096937c7b011", null ],
-    [ "Register", "d1/d62/a21109.html#af3d8192390fec368b8963236b9a1b3ba", null ]
+    [ "OnApply", "d1/d62/a21109.html#a256c8f8b183974bfc30fb23cc4283a27", null ],
+    [ "OnRemove", "d1/d62/a21109.html#a6a2d1d664c792ba77c25d2f5bf1a961e", null ],
+    [ "PrepareAuraScript", "d1/d62/a21109.html#a6854764e8ae885a1c159a40030376f1a", null ],
+    [ "Register", "d1/d62/a21109.html#aafac260d2fc1467d3cfd76bbe7fc3f2e", null ]
 ];

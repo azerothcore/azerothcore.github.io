@@ -1,6 +1,6 @@
 var a19393 =
 [
-    [ "spell_dreamwalker_summoner_SpellScript", "d1/d3c/a19397.html", "d1/d3c/a19397" ],
-    [ "spell_dreamwalker_summoner", "df/d78/a19393.html#ad10a4e75d8b22561630e33aac1165fa0", null ],
-    [ "GetSpellScript", "df/d78/a19393.html#a9abc579bbdb01a26cae788bb58f6bbc9", null ]
+    [ "HandleScript", "df/d78/a19393.html#a34eaa0324e98e96e2265c194c9e99b82", null ],
+    [ "PrepareSpellScript", "df/d78/a19393.html#a07056d5f39590927a391fbe19cbd91f2", null ],
+    [ "Register", "df/d78/a19393.html#aa889dfd1df39d9dcb105c44a0a501ef8", null ]
 ];

@@ -1,6 +1,6 @@
 var a20529 =
 [
-    [ "spell_oculus_drake_flagAuraScript", "d8/de4/a20533.html", "d8/de4/a20533" ],
-    [ "spell_oculus_drake_flag", "d7/de1/a20529.html#a925c6c48bae7a4590144d730c0bad6a5", null ],
-    [ "GetAuraScript", "d7/de1/a20529.html#a21296f4aa3cb54f6e89d097a9a1ae8a8", null ]
+    [ "PrepareSpellScript", "d7/de1/a20529.html#a9eec638feaf9551c7708da8313df1d18", null ],
+    [ "Register", "d7/de1/a20529.html#a5e772755c48a7cdfe2348433bf849330", null ],
+    [ "SetDest", "d7/de1/a20529.html#ae5361ac583508a6efef19dbd1934199e", null ]
 ];

@@ -1,6 +1,6 @@
 var a13157 =
 [
-    [ "boss_muruAI", "d0/d11/a13161.html", "d0/d11/a13161" ],
-    [ "boss_muru", "df/d1b/a13157.html#aeb09997c72ec653df211bdec5873a57a", null ],
-    [ "GetAI", "df/d1b/a13157.html#aba2fda1e0b3b6b972fe7df14247006c1", null ]
+    [ "spell_kiljaeden_shadow_spike_AuraScript", "d0/d11/a13161.html", "d0/d11/a13161" ],
+    [ "spell_kiljaeden_shadow_spike", "df/d1b/a13157.html#ad4e87c06a0229a36bb5ca396527182e7", null ],
+    [ "GetAuraScript", "df/d1b/a13157.html#aebbb4bbf708daa1957eead5620f7e4e3", null ]
 ];

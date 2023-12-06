@@ -1,6 +1,6 @@
 var a26729 =
 [
-    [ "CheckProc", "d8/db6/a26729.html#a68d2d8168e405ea4250e2e43a1a350fa", null ],
-    [ "PrepareAuraScript", "d8/db6/a26729.html#a9d797e7bc7133f4a626f4352b2fe7141", null ],
-    [ "Register", "d8/db6/a26729.html#a5b96bb8c2ff456b63bbd200f54294251", null ]
+    [ "HandleScriptEffect", "d8/db6/a26729.html#a142d6a512ba6e937985a9c21725d8d33", null ],
+    [ "PrepareSpellScript", "d8/db6/a26729.html#af46fd8adaf8fef92984376ad6aa4f9a2", null ],
+    [ "Register", "d8/db6/a26729.html#a9cbf1c0678bd0775a452aa3270dff6a0", null ]
 ];

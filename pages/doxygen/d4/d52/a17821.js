@@ -1,6 +1,6 @@
 var a17821 =
 [
-    [ "boss_deathbringer_saurfangAI", "d8/d16/a17825.html", "d8/d16/a17825" ],
-    [ "boss_deathbringer_saurfang", "d4/d52/a17821.html#ad19893be7dc3b4290d9b1ed3bb992e08", null ],
-    [ "GetAI", "d4/d52/a17821.html#a6bc1ef44b3ea9e860d62bf78cfa38c92", null ]
+    [ "spell_blood_queen_essence_of_the_blood_queen_AuraScript", "d8/d16/a17825.html", "d8/d16/a17825" ],
+    [ "spell_blood_queen_essence_of_the_blood_queen", "d4/d52/a17821.html#a670974934398d5820c991eeb83394456", null ],
+    [ "GetAuraScript", "d4/d52/a17821.html#ad85457a9ee5028fcf4fbaf5d341e6922", null ]
 ];

@@ -1,7 +1,6 @@
 var a25941 =
 [
-    [ "npc_kurenai_captiveAI", "d3/daf/a25945.html", "d3/daf/a25945" ],
-    [ "npc_kurenai_captive", "da/d48/a25941.html#ae0e283bfc476f2d9e602158fa8720cdc", null ],
-    [ "GetAI", "da/d48/a25941.html#ad6f9abf280ca7c3a1b16f7e4815fb979", null ],
-    [ "OnQuestAccept", "da/d48/a25941.html#a7ecdb782bf084f3fd0f9dc3e2e10bf4a", null ]
+    [ "npc_dragonmaw_peonAI", "d3/daf/a25945.html", "d3/daf/a25945" ],
+    [ "npc_dragonmaw_peon", "da/d48/a25941.html#a356f8f1181d62dd5a4bc41c98ab21720", null ],
+    [ "GetAI", "da/d48/a25941.html#aab1e4aee65a5465bc545a9c067200d2a", null ]
 ];

@@ -1,6 +1,6 @@
 var a13213 =
 [
-    [ "spell_entropius_black_hole_effect_SpellScript", "dd/d4e/a13217.html", "dd/d4e/a13217" ],
-    [ "spell_entropius_black_hole_effect", "df/d19/a13213.html#a60ff4a68739698fcfeeef344f772d6ac", null ],
-    [ "GetSpellScript", "df/d19/a13213.html#a78facb35baa829ab676724cd9ba4c53f", null ]
+    [ "spell_kiljaeden_armageddon_periodic_AuraScript", "dd/d4e/a13217.html", "dd/d4e/a13217" ],
+    [ "spell_kiljaeden_armageddon_periodic", "df/d19/a13213.html#a986f3cf8d068ebb53692d11f1bbff1b2", null ],
+    [ "GetAuraScript", "df/d19/a13213.html#a4e1cfaed9ee4806bd023131062eff6c3", null ]
 ];

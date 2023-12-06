@@ -1,6 +1,6 @@
 var a16945 =
 [
-    [ "spell_trollgore_corpse_explode_AuraScript", "da/d1a/a16949.html", "da/d1a/a16949" ],
-    [ "spell_trollgore_corpse_explode", "d7/d0c/a16945.html#a7d3dc22caf54093b2cf4061483986d3e", null ],
-    [ "GetAuraScript", "d7/d0c/a16945.html#ac46019482a7ecc8b523c8c1d626d2ec4", null ]
+    [ "OnPeriodic", "d7/d0c/a16945.html#a37d7c38d9e3d20626a4481226d29d2e1", null ],
+    [ "PrepareAuraScript", "d7/d0c/a16945.html#af8944636e1015d7cacab82d628b22b79", null ],
+    [ "Register", "d7/d0c/a16945.html#aa123e0e97d73915d5dc6d92eeb61fb30", null ]
 ];

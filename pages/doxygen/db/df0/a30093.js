@@ -1,8 +1,11 @@
 var a30093 =
 [
-    [ "NoRuneCost", "db/df0/a30093.html#a599b2089d52bf4a009c5fbac3b0d3279", null ],
-    [ "NoRunicPowerGain", "db/df0/a30093.html#a97da075ecd116ef27fd4265bb8380667", null ],
-    [ "ID", "db/df0/a30093.html#aed245962cf1830cfa66e369b22a7ba6f", null ],
-    [ "RuneCost", "db/df0/a30093.html#a18c2e6daaaefe1c8be4a83c55a3670ff", null ],
-    [ "runePowerGain", "db/df0/a30093.html#ac5f9c69d83ff9cf230124b9dad10008b", null ]
+    [ "addToSpellBook", "db/df0/a30093.html#ad312934d24abcc78c02d50cc5cb5403f", null ],
+    [ "Col", "db/df0/a30093.html#a0bc589c5b1425d5e889cd290b805169e", null ],
+    [ "DependsOn", "db/df0/a30093.html#a7b1aa1384777b8d94dceed3c387bb628", null ],
+    [ "DependsOnRank", "db/df0/a30093.html#a608f232669981da3423b959479ca8683", null ],
+    [ "RankID", "db/df0/a30093.html#a96d0fd120ed3aa7fbd287d104fd87c26", null ],
+    [ "Row", "db/df0/a30093.html#a136b889d2e8875b01fc7aa2be06847ac", null ],
+    [ "TalentID", "db/df0/a30093.html#aa769574106b0e5afdbc7c71c51c3b9a2", null ],
+    [ "TalentTab", "db/df0/a30093.html#acefe6f8c0a5b3893e2a9f828d500df68", null ]
 ];

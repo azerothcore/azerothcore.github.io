@@ -1,6 +1,6 @@
 var a21601 =
 [
-    [ "spell_ulduar_stone_grip_AuraScript", "d9/d2c/a21605.html", "d9/d2c/a21605" ],
-    [ "spell_ulduar_stone_grip", "da/d41/a21601.html#af309ee5d986439533b58c83b68fbc817", null ],
-    [ "GetAuraScript", "da/d41/a21601.html#a311bd0e641fb7d389cd71f2d4ece6ad2", null ]
+    [ "boss_kologarnAI", "d9/d2c/a21605.html", "d9/d2c/a21605" ],
+    [ "boss_kologarn", "da/d41/a21601.html#a5f654a0f534c4ec6c1164ea08e40a476", null ],
+    [ "GetAI", "da/d41/a21601.html#ad78c2d269e68d8c3bbd86b844ada9435", null ]
 ];

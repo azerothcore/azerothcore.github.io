@@ -1,7 +1,7 @@
 var a18545 =
 [
-    [ "HandleScript", "d9/d48/a18545.html#a039143cf28bd9c37e27cdd465fc55171", null ],
-    [ "PrepareSpellScript", "d9/d48/a18545.html#a1c12ef1ad77d485d1dcfe488f8273d6e", null ],
-    [ "Register", "d9/d48/a18545.html#aae23fe522533a7b5f5b7db42d708ed45", null ],
-    [ "SelectTarget", "d9/d48/a18545.html#a0b6be9742e192ece3e1a94c129ce0f53", null ]
+    [ "CheckRequirement", "d9/d48/a18545.html#a355fab9f6c76985ca439d159e25e44dd", null ],
+    [ "CheckRequirementInternal", "d9/d48/a18545.html#a07a3399c3a85520283a8b610b0f76f1e", null ],
+    [ "PrepareSpellScript", "d9/d48/a18545.html#ae5ba51f0eb3299371a725dd3ac18fd61", null ],
+    [ "Register", "d9/d48/a18545.html#aee0b3c6fc428d28dcea4efd44f4e8054", null ]
 ];

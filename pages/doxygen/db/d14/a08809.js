@@ -1,7 +1,13 @@
 var a08809 =
 [
-    [ "AnyUnfriendlyAttackableVisibleUnitInObjectRangeCheck", "db/d14/a08809.html#a038f512c564e4ae18571ac1836897edb", null ],
-    [ "operator()", "db/d14/a08809.html#a3bc09bf6fc4481c67190f57dc4198f6e", null ],
-    [ "i_funit", "db/d14/a08809.html#a3a0742f36f0a0a22c4ae6a2c8b8269b6", null ],
-    [ "i_range", "db/d14/a08809.html#a953943e53e25b6887bfab8cc1c19620a", null ]
+    [ "WorldObjectListSearcher", "db/d14/a08809.html#aad6ee62da3f21c7838767dd3af871ad7", null ],
+    [ "Visit", "db/d14/a08809.html#a154998e616ba17d66cf4899debc92ca1", null ],
+    [ "Visit", "db/d14/a08809.html#a64e8d7854baa93e4390703fe986f6777", null ],
+    [ "Visit", "db/d14/a08809.html#a28ded6ec2d69f1a1bd298a9aa11206e1", null ],
+    [ "Visit", "db/d14/a08809.html#a18572bc1f4cfde19476ac9df393296b2", null ],
+    [ "Visit", "db/d14/a08809.html#a2a8a0d1f3fd10e5254a47ed99e7e9ce7", null ],
+    [ "Visit", "db/d14/a08809.html#a8cebd0149bfccc4fdeb30dda9505f0c0", null ],
+    [ "i_check", "db/d14/a08809.html#a6ae05d2ed15201356600cda7d0d5a6c3", null ],
+    [ "i_mapTypeMask", "db/d14/a08809.html#a1d6dc64937ae790d7414456e4644c13b", null ],
+    [ "i_phaseMask", "db/d14/a08809.html#a6b29bb94ed2ec6f508b25d45c11f72fd", null ]
 ];

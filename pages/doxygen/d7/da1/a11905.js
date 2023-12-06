@@ -1,6 +1,7 @@
 var a11905 =
 [
-    [ "npc_core_ragerAI", "d5/d2a/a11909.html", "d5/d2a/a11909" ],
-    [ "npc_core_rager", "d7/da1/a11905.html#ada4acfa2a1934d1609a8f9c78da6377d", null ],
-    [ "GetAI", "d7/da1/a11905.html#a0ace94ecc1ebfb0e880c50d9b68087db", null ]
+    [ "HandleDummy", "d7/da1/a11905.html#a21c5eb1511cb4035f795ff1d22797e34", null ],
+    [ "PrepareSpellScript", "d7/da1/a11905.html#a5308de47023b89e4ff8680158a502ac0", null ],
+    [ "Register", "d7/da1/a11905.html#a5f148d259b1102b1046e6a3ac096fea8", null ],
+    [ "Validate", "d7/da1/a11905.html#a75f89d90b9e68288e54e1e0bd3b2ce98", null ]
 ];

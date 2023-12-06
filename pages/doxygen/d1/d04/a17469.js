@@ -1,6 +1,5 @@
 var a17469 =
 [
-    [ "npc_living_mojoAI", "d8/d10/a17473.html", "d8/d10/a17473" ],
-    [ "npc_living_mojo", "d1/d04/a17469.html#af24190023549b4ec5fa47b5959618a8a", null ],
-    [ "GetAI", "d1/d04/a17469.html#a2b8ca6e1b26debfafd74e022825c889e", null ]
+    [ "PrepareAuraScript", "d1/d04/a17469.html#a472d455cc2e317606940f8064abfc383", null ],
+    [ "Register", "d1/d04/a17469.html#aa2a6bf985447a046a6ce149fa2595bba", null ]
 ];

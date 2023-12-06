@@ -1,6 +1,6 @@
 var a23505 =
 [
-    [ "npc_black_knight_graveyardAI", "dd/d7c/a23509.html", "dd/d7c/a23509" ],
-    [ "npc_black_knight_graveyard", "de/d86/a23505.html#a2ce61ba254916f1f8b7a7658f96b67d5", null ],
-    [ "GetAI", "de/d86/a23505.html#aab382cd1b7561c0db9c9f4c81247e540", null ]
+    [ "npc_attracted_reef_bullAI", "dd/d7c/a23509.html", "dd/d7c/a23509" ],
+    [ "npc_attracted_reef_bull", "de/d86/a23505.html#acd0ade9e7ce5492c11be0b3f2696418e", null ],
+    [ "GetAI", "de/d86/a23505.html#af705e2768cd41c955af7f944c670ac85", null ]
 ];

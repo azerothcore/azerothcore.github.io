@@ -1,9 +1,8 @@
 var a20293 =
 [
-    [ "boss_commander_stoutbeardAI", "dc/d8f/a20293.html#a44bac0471ab37822be91c08e4cbd44d0", null ],
-    [ "JustDied", "dc/d8f/a20293.html#a8264fd42696a1f392b464b367f5e2933", null ],
-    [ "JustEngagedWith", "dc/d8f/a20293.html#a0bef61b70a285ab4b085ff7600fb7e77", null ],
-    [ "KilledUnit", "dc/d8f/a20293.html#ade8344d9cdf15625099d8b2550331ca6", null ],
-    [ "Reset", "dc/d8f/a20293.html#a5b7fe5b2a33eeb8f182aeca145cc62dd", null ],
-    [ "UpdateAI", "dc/d8f/a20293.html#a2e47e00e7e477c3abefe1549f1dd9c5f", null ]
+    [ "FilterTargets", "dc/d8f/a20293.html#a69c9f495d5695adaf01deb9aef380bbc", null ],
+    [ "Load", "dc/d8f/a20293.html#a086df5b42d189fdc3c7e643bef29603e", null ],
+    [ "PrepareSpellScript", "dc/d8f/a20293.html#a8092a3659775075c2ccab2d306ff7db0", null ],
+    [ "Register", "dc/d8f/a20293.html#a0c7285dc6686e691c05e51bd4d36049d", null ],
+    [ "DrakeGUID", "dc/d8f/a20293.html#a1895e19686fb4aa53592451b6d6982ea", null ]
 ];

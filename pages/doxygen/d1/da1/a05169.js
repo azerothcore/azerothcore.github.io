@@ -1,15 +1,8 @@
 var a05169 =
 [
-    [ "EnumFlag", "d1/da1/a05169.html#a877aa23dfde6aa91cff6d8c0eb9a4732", null ],
-    [ "AsUnderlyingType", "d1/da1/a05169.html#af9468dd952e12d2da9c0120d0ce9feb4", null ],
-    [ "HasAllFlags", "d1/da1/a05169.html#adb5b65ab4a3d827882634d94774a912b", null ],
-    [ "HasFlag", "d1/da1/a05169.html#a311985d41e79365bf9fd5bcb7c8fbf0c", null ],
-    [ "operator T", "d1/da1/a05169.html#a13022712c9634c84907b906e55aebe28", null ],
-    [ "operator&=", "d1/da1/a05169.html#afb2c7428dd07e4f427b0b0ca5ac0f7c3", null ],
-    [ "operator|=", "d1/da1/a05169.html#ab49498ed668ee324702c4beadf4de999", null ],
-    [ "operator~", "d1/da1/a05169.html#a3001eac7546c03530d1e51d5c1e6abfd", null ],
-    [ "RemoveFlag", "d1/da1/a05169.html#a106a00ee4112382aa0120489551bf50a", null ],
-    [ "operator&", "d1/da1/a05169.html#aa91d02e5d8b6d9ef507f47720ac6d9e6", null ],
-    [ "operator|", "d1/da1/a05169.html#add07cc2598afc632e84ffdc0bf60cd81", null ],
-    [ "_value", "d1/da1/a05169.html#a55353d720942d68d0dea86837aaca7c5", null ]
+    [ "Decode", "d1/da1/a05169.html#aacf2a55e180aa5ee475ac76c6af4d47a", null ],
+    [ "Encode", "d1/da1/a05169.html#a51c8847dc9b75161f4d2d366324dc50f", null ],
+    [ "BITS_PER_CHAR", "d1/da1/a05169.html#a10f3736ee2ed8e79e1236798e2b1d2be", null ],
+    [ "DECODE_ERROR", "d1/da1/a05169.html#ace6b211be8a36043942f0a1aaee063b1", null ],
+    [ "PADDING", "d1/da1/a05169.html#af099d69cc636a7ad298ec9e38b2f20d2", null ]
 ];

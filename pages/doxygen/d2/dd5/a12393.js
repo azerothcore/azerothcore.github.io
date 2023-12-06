@@ -1,6 +1,6 @@
 var a12393 =
 [
-    [ "boss_selin_fireheartAI", "de/d64/a12397.html", "de/d64/a12397" ],
-    [ "boss_selin_fireheart", "d2/dd5/a12393.html#a62357a6cb0ecc3cc8ffc7abcc7ee8b9c", null ],
-    [ "GetAI", "d2/dd5/a12393.html#ab5ac6797f01ed9f562cfa622919cc159", null ]
+    [ "spell_karazhan_overload_AuraScript", "de/d64/a12397.html", "de/d64/a12397" ],
+    [ "spell_karazhan_overload", "d2/dd5/a12393.html#ab93464d97df9a26eb18f3e1709adbfb9", null ],
+    [ "GetAuraScript", "d2/dd5/a12393.html#a23845f38ed1bb1f7406ad70f0208be1c", null ]
 ];

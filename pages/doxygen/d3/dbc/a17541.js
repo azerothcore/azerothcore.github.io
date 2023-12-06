@@ -1,11 +1,10 @@
 var a17541 =
 [
-    [ "boss_moorabiAI", "d3/dbc/a17541.html#a60a03c3840a3743719996929d2ca9e59", null ],
-    [ "JustDied", "d3/dbc/a17541.html#a6d866bf54dc06e4f20eb4d62ea97928a", null ],
-    [ "JustEngagedWith", "d3/dbc/a17541.html#a1fa46ac21b28ff49382c7389a46fad75", null ],
-    [ "KilledUnit", "d3/dbc/a17541.html#a265855d2972e534e927bfa609fbf2cf5", null ],
-    [ "Reset", "d3/dbc/a17541.html#a9daf89ed0f4e5795cafc63a6a81e5d1d", null ],
-    [ "SpellHitTarget", "d3/dbc/a17541.html#af1f30a0f3bf0f88725f8a146c528b77a", null ],
-    [ "UpdateAI", "d3/dbc/a17541.html#a9f9956aaaa60d5d0005a55a87d0424eb", null ],
-    [ "events2", "d3/dbc/a17541.html#a02a3bc20ca7b1b750bfd1bd29f093dd2", null ]
+    [ "boss_eckAI", "d3/dbc/a17541.html#a9de9ad13286c625241242a72c8c3ef2b", null ],
+    [ "InitializeAI", "d3/dbc/a17541.html#a37ed08383c43c53ea5a46ad8e03adb35", null ],
+    [ "JustDied", "d3/dbc/a17541.html#afa625b388a7495e7f83ea3149ad2020c", null ],
+    [ "JustEngagedWith", "d3/dbc/a17541.html#a393630157bb1b9d80a19b2da3bf0b377", null ],
+    [ "MovementInform", "d3/dbc/a17541.html#a4826dee262817fbdfa38bcf17f5723da", null ],
+    [ "Reset", "d3/dbc/a17541.html#afc33618907cb06591cc57751dfc14ca5", null ],
+    [ "UpdateAI", "d3/dbc/a17541.html#a697ceea1e138d484d80b39c80078de58", null ]
 ];

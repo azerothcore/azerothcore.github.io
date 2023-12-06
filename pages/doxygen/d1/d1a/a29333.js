@@ -1,10 +1,7 @@
 var a29333 =
 [
-    [ "npc_dancing_flamesAI", "d1/d1a/a29333.html#a3d597b2ee826c86b5a8feb3aa144a459", null ],
-    [ "JustEngagedWith", "d1/d1a/a29333.html#ae0d71d4f9074c05ea76951ede6c7702a", null ],
-    [ "ReceiveEmote", "d1/d1a/a29333.html#a13aae489e8b03121c8fbae12e83bdfaa", null ],
-    [ "Reset", "d1/d1a/a29333.html#a53b49dadc70e3e134ca49cd239b569d6", null ],
-    [ "UpdateAI", "d1/d1a/a29333.html#a555f2ed0d762c5c183ec87580bae46b1", null ],
-    [ "Active", "d1/d1a/a29333.html#aa79036bed206327847bf5ad2e768e8f6", null ],
-    [ "CanIteract", "d1/d1a/a29333.html#a866bfc106fc33433b4eb13fabd9c39c6", null ]
+    [ "npc_guardianAI", "d1/d1a/a29333.html#acc5d29a79e57fc023369c0dcd4b0d2a3", null ],
+    [ "JustEngagedWith", "d1/d1a/a29333.html#a50257f80245bc59437e53083badcb056", null ],
+    [ "Reset", "d1/d1a/a29333.html#a217df9bae079f56ffd70d27958fb2756", null ],
+    [ "UpdateAI", "d1/d1a/a29333.html#ab42c39f088ef819a5ffb5f9f4ba2c3a3", null ]
 ];

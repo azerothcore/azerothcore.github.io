@@ -1,6 +1,6 @@
 var a18421 =
 [
-    [ "HandleTriggerSpell", "d8/d76/a18421.html#ae17a13e8f5a71c4601932327f947b8f1", null ],
-    [ "PrepareAuraScript", "d8/d76/a18421.html#a2f19bc1e308600cc602a77a5a3b98ad3", null ],
-    [ "Register", "d8/d76/a18421.html#a32fd3af43e85aeb5ce02923086c554ca", null ]
+    [ "npc_volatile_oozeAI", "d9/dc6/a18425.html", "d9/dc6/a18425" ],
+    [ "npc_volatile_ooze", "d8/d76/a18421.html#a22847e44812a0b13b92cfcca3a70204e", null ],
+    [ "GetAI", "d8/d76/a18421.html#a66b4918c14d90d5550ddc8dbe90c2e01", null ]
 ];

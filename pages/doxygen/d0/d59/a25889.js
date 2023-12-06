@@ -1,6 +1,6 @@
 var a25889 =
 [
-    [ "npc_ancestral_wolfAI", "de/d60/a25893.html", "de/d60/a25893" ],
-    [ "npc_ancestral_wolf", "d0/d59/a25889.html#a7cadf2848a086db63792f8068ee9463d", null ],
-    [ "GetAI", "d0/d59/a25889.html#a201255a64d4e742ba8b118b4f2ec5cd5", null ]
+    [ "CheckCast", "d0/d59/a25889.html#ae13cc2d3da1c9911c88402d05679d447", null ],
+    [ "PrepareSpellScript", "d0/d59/a25889.html#afbed81273aa23d355c64579c71e9761d", null ],
+    [ "Register", "d0/d59/a25889.html#a7157d04dfc534aa3cb88e8dff169c676", null ]
 ];

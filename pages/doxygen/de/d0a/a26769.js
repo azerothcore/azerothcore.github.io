@@ -1,9 +1,8 @@
 var a26769 =
 [
-    [ "spell_gen_select_target_count", "de/d0a/a26769.html#a65507c155a8746ff49c58c051b7868e4", null ],
-    [ "FilterTargets", "de/d0a/a26769.html#a5de89be9ce321a0f4ac49853a700b502", null ],
-    [ "PrepareSpellScript", "de/d0a/a26769.html#a42ddce15414dcdf495b572e0f75e9486", null ],
-    [ "Register", "de/d0a/a26769.html#a94f86992275123e2e3989655cf077efd", null ],
-    [ "_count", "de/d0a/a26769.html#acdf5daa848ae185b859c45a1271df68c", null ],
-    [ "_effTarget", "de/d0a/a26769.html#a9c54508790062277c8275d2466e93fb3", null ]
+    [ "HandleEffectCalcPeriodic", "de/d0a/a26769.html#a78c46695cab8da2280686ea49d88f036", null ],
+    [ "HandleEffectPeriodic", "de/d0a/a26769.html#a65b8a9dcd836cb538d5d2bec3d03d4a2", null ],
+    [ "HandleOnEffectRemove", "de/d0a/a26769.html#af722cf30e478802784178a9346bd1bdd", null ],
+    [ "PrepareAuraScript", "de/d0a/a26769.html#a6352d1ab3dd67efd9be171f7db20a62d", null ],
+    [ "Register", "de/d0a/a26769.html#ae6c2b365463345c71ed1a4acdee04a15", null ]
 ];

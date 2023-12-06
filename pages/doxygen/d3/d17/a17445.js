@@ -1,5 +1,6 @@
 var a17445 =
 [
-    [ "entry", "d3/d17/a17445.html#a44c7a625896d6fddc15da39988e0b042", null ],
-    [ "pathId", "d3/d17/a17445.html#accd6af0ddfa248a972612d802a1e641e", null ]
+    [ "HandleDummy", "d3/d17/a17445.html#ab1910d353e1648a2bad4b39c884234f8", null ],
+    [ "PrepareSpellScript", "d3/d17/a17445.html#af7364e03bc372c76cd1d067c4c97c7c7", null ],
+    [ "Register", "d3/d17/a17445.html#a531a2b8ef44e2a6c62c7d2bc5aba51e9", null ]
 ];

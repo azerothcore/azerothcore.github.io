@@ -1,5 +1,5 @@
 var a28781 =
 [
-    [ "achievement_not_even_a_scratch", "d0/dcf/a28781.html#a0d025c09d35c3640016ab42e11dd96eb", null ],
-    [ "OnCheck", "d0/dcf/a28781.html#a81f6c9bd36e5a3eea3fe0af24c9f1649", null ]
+    [ "AreaTrigger_at_coilfang_waterfall", "d0/dcf/a28781.html#aa2e9a01adad7e195860bbc6c55131024", null ],
+    [ "OnTrigger", "d0/dcf/a28781.html#aea1c4b45ae855d0cda81dbad102b8104", null ]
 ];

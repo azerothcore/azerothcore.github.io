@@ -1,6 +1,7 @@
 var a13101 =
 [
-    [ "spell_kiljaeden_flame_dart_SpellScript", "d2/d28/a13105.html", "d2/d28/a13105" ],
-    [ "spell_kiljaeden_flame_dart", "dd/d53/a13101.html#ab8528612a0a12872412336c0b98cbd5c", null ],
-    [ "GetSpellScript", "dd/d53/a13101.html#a2a8057853081234af80909f86cea5b4e", null ]
+    [ "OnPeriodic", "dd/d53/a13101.html#a9261d2331ef250ba394db80f58500c70", null ],
+    [ "OnRemove", "dd/d53/a13101.html#a2363ffec26af0879f9cefcea4c4ba226", null ],
+    [ "PrepareAuraScript", "dd/d53/a13101.html#a4563b88ec817cbcb1f7a3519dfdb17f4", null ],
+    [ "Register", "dd/d53/a13101.html#a29c27342dea8fedd91741a74f2482782", null ]
 ];

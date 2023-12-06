@@ -1,6 +1,6 @@
 var a25621 =
 [
-    [ "spell_astromancer_wrath_of_the_astromancer_AuraScript", "d7/d6f/a25625.html", "d7/d6f/a25625" ],
-    [ "spell_astromancer_wrath_of_the_astromancer", "d7/dcb/a25621.html#a14ff773560fcc3cd56d8446983e1f078", null ],
-    [ "GetAuraScript", "d7/dcb/a25621.html#ad889955b8597a64338f1f95e770f4c9f", null ]
+    [ "HandleScriptEffect", "d7/dcb/a25621.html#a58f27defe5d08761bee69ce504919b74", null ],
+    [ "PrepareSpellScript", "d7/dcb/a25621.html#a81c1603ad82a01ee1749fdc8a2c91f6d", null ],
+    [ "Register", "d7/dcb/a25621.html#a8289c4b89c38372f26ec379eaba0c045", null ]
 ];

@@ -1,10 +1,9 @@
 var a04676 =
 [
-    [ "MmapTileHeader", "d5/def/a04676.html#a0165f9a4caee4e4759ea261dfbac08a7", null ],
-    [ "dtVersion", "d5/def/a04676.html#a34d3ed8c617139653176454d7fa7934e", null ],
-    [ "mmapMagic", "d5/def/a04676.html#ace0ec88460c97f1438de2d0e6a9d7774", null ],
-    [ "mmapVersion", "d5/def/a04676.html#a5cc3cd873419fe8aeb479d3187584410", null ],
-    [ "padding", "d5/def/a04676.html#a6ca977b85a993eb6721e3bfe9fd3abfd", null ],
-    [ "size", "d5/def/a04676.html#a69f3284a4a56b1108792ba56c250bf97", null ],
-    [ "usesLiquids", "d5/def/a04676.html#aeb4e622161a4bb42cff42d37542f0254", null ]
+    [ "PermissibleOrderPred", "db/dc8/a06041.html", "db/dc8/a06041" ],
+    [ "GetPermitFor", "d5/def/a04676.html#aaf9c138ae6c123d03859db553a39892d", null ],
+    [ "SelectAI", "d5/def/a04676.html#a10fef1ff3335f4642179ee423b1ff0d6", null ],
+    [ "SelectFactory", "d5/def/a04676.html#ad553c2186f078e696768d40d217738f8", null ],
+    [ "SelectGameObjectAI", "d5/def/a04676.html#a2ce404e9b85f551638d8783c01a19860", null ],
+    [ "SelectMovementGenerator", "d5/def/a04676.html#a203d17bf72c42c0d3fdb77626b01b679", null ]
 ];

@@ -1,7 +1,7 @@
 var a11337 =
 [
-    [ "npc_rocknotAI", "d4/db8/a11341.html", "d4/db8/a11341" ],
-    [ "npc_rocknot", "d3/ddf/a11337.html#a64a0cd215c1f4881948e5a49cf1b86d7", null ],
-    [ "GetAI", "d3/ddf/a11337.html#ac8a90d54e9303c40f0313fda1dcfea86", null ],
-    [ "OnQuestReward", "d3/ddf/a11337.html#abd8ad3d7e6dd1e557398e268409a2c98", null ]
+    [ "player_commandscript", "d3/ddf/a11337.html#a1565aa67743cfd3e5fe5179b4100bd20", null ],
+    [ "GetCommands", "d3/ddf/a11337.html#a0e1e8eec0fe449c95c5cf9dd06a0fced", null ],
+    [ "HandlePlayerLearnCommand", "d3/ddf/a11337.html#a6ca511bcecf73049665772cb80dbcf40", null ],
+    [ "HandlePlayerUnLearnCommand", "d3/ddf/a11337.html#a22fddb5da1278fe794a78a899c423bfd", null ]
 ];

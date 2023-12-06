@@ -1,9 +1,11 @@
 var a04897 =
 [
-    [ "SessionKeyGenerator", "d2/dc3/a04897.html#a8fa39e01cd3ed24e13735343ad658cbb", null ],
-    [ "Generate", "d2/dc3/a04897.html#a2162fde8dbb84fc165faedaafed706b5", null ],
-    [ "o0", "d2/dc3/a04897.html#a1eb1aafb255ccf771b0a49dcab869297", null ],
-    [ "o0it", "d2/dc3/a04897.html#a7ea5a4a796da94a2dc14570d4336c27b", null ],
-    [ "o1", "d2/dc3/a04897.html#a462354aed63797a90fc228e6399cb740", null ],
-    [ "o2", "d2/dc3/a04897.html#a617205c872f2163026d511809776a775", null ]
+    [ "ModelPosition", "d2/dc3/a04897.html#ac611d964ae36e4ccd5a3bf385457a0ac", null ],
+    [ "init", "d2/dc3/a04897.html#a5b7df306c28a7985fd3ab17d48350a27", null ],
+    [ "moveToBasePos", "d2/dc3/a04897.html#a2fe1b48319a056f110ef700877257731", null ],
+    [ "transform", "d2/dc3/a04897.html#add4c2efec70be75d8ffcd1009b6c2699", null ],
+    [ "iDir", "d2/dc3/a04897.html#a24ba62281166e60036ac8a57b26c6abd", null ],
+    [ "iPos", "d2/dc3/a04897.html#a36a3bd930273e0313e3b09c1289e9317", null ],
+    [ "iRotation", "d2/dc3/a04897.html#ae53c5b044021f5ef04ecb5d8898fd8b3", null ],
+    [ "iScale", "d2/dc3/a04897.html#a81bb029dce2aadec2f147a1329ee285e", null ]
 ];

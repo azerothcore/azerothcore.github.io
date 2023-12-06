@@ -1,6 +1,9 @@
 var a19741 =
 [
-    [ "npc_icc_vengeful_fleshreaperAI", "d4/d0a/a19745.html", "d4/d0a/a19745" ],
-    [ "npc_icc_vengeful_fleshreaper", "d9/d32/a19741.html#aa95ec1e021f3d123e5a95c356765ac36", null ],
-    [ "GetAI", "d9/d32/a19741.html#abf1903616dbf52718313c8b404b504a5", null ]
+    [ "npc_icc_skybreaker_vicarAI", "d9/d32/a19741.html#ae74a306850b328f536b55e5c24c040ab", null ],
+    [ "AttackStart", "d9/d32/a19741.html#a52b753e1f599eb02385d980a78cd3c78", null ],
+    [ "JustEngagedWith", "d9/d32/a19741.html#afdb4215cd0578de7342b152783666ed6", null ],
+    [ "Reset", "d9/d32/a19741.html#aeb11687534fa7c1e76ea22cc07deb73d", null ],
+    [ "UpdateAI", "d9/d32/a19741.html#af1726169fe63eb3ff1ed95eb0e10d2f0", null ],
+    [ "events", "d9/d32/a19741.html#a711d9571b4edb87f77eeebbd12e248b3", null ]
 ];

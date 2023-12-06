@@ -1,6 +1,6 @@
 var a25597 =
 [
-    [ "spell_alar_ember_blast_death_AuraScript", "d0/d71/a25601.html", "d0/d71/a25601" ],
-    [ "spell_alar_ember_blast_death", "dd/d3d/a25597.html#ad479ddb6ab8e6e4c8be46716679e1e16", null ],
-    [ "GetAuraScript", "dd/d3d/a25597.html#afa193a3781ebcb51dae9a066043f3d79", null ]
+    [ "lapseTeleport", "dd/d3d/a25597.html#a55c4330397214bf3a43628b3067d4634", null ],
+    [ "Execute", "dd/d3d/a25597.html#a122023ed13fce2f5bb3721e459964443", null ],
+    [ "_owner", "dd/d3d/a25597.html#a0e678c5cdb862390ea50c8d6057b7093", null ]
 ];

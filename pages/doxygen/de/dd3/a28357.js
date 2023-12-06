@@ -1,8 +1,7 @@
 var a28357 =
 [
-    [ "HandleDummy", "de/dd3/a28357.html#a308880cf9c61c76de0fdee05fff2b463", null ],
-    [ "Load", "de/dd3/a28357.html#acafb9d6ac4fde694dc44cbf13b7f97ad", null ],
-    [ "PrepareSpellScript", "de/dd3/a28357.html#a3a2672c39f36229c0dd6cdea0fad3299", null ],
-    [ "Register", "de/dd3/a28357.html#a1857b342ae34a57f079f45019645c688", null ],
-    [ "Validate", "de/dd3/a28357.html#a121c30045281eab5fee4f65d38d1dfc3", null ]
+    [ "CheckProc", "de/dd3/a28357.html#aa03bd8b92debda29f0b236fdbef73f16", null ],
+    [ "HandleProc", "de/dd3/a28357.html#a91ee1b654a3a26e027407635a45b80b3", null ],
+    [ "PrepareAuraScript", "de/dd3/a28357.html#ad2796a924fbe36dc9cd1c9de60eb9b16", null ],
+    [ "Register", "de/dd3/a28357.html#ab06a732203303d5533bdc4b217640d2d", null ]
 ];

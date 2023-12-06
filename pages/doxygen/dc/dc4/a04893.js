@@ -1,24 +1,11 @@
 var a04893 =
 [
-    [ "Digest", "dc/dc4/a04893.html#a4d7f68dcd7fdc00ae2df6451b5d7b2cd", null ],
-    [ "GenericHMAC", "dc/dc4/a04893.html#a8ad68fea0e520ed94921d4b6bbd714c0", null ],
-    [ "GenericHMAC", "dc/dc4/a04893.html#aa08e4ea008f4642f01cddb895c7713af", null ],
-    [ "GenericHMAC", "dc/dc4/a04893.html#ab443d5ecc1c5ce6c3cafae724e7d2d3e", null ],
-    [ "GenericHMAC", "dc/dc4/a04893.html#a976861745d69b282bf15b0f3ea215937", null ],
-    [ "~GenericHMAC", "dc/dc4/a04893.html#a57f8cfd9da10c9a2c1e97045c0792e72", null ],
-    [ "Finalize", "dc/dc4/a04893.html#aedfd7b158be9825a58db629e5253422e", null ],
-    [ "GetDigest", "dc/dc4/a04893.html#a8a261b6c1f1c131674ad93d606abe321", null ],
-    [ "GetDigestOf", "dc/dc4/a04893.html#abbbfe21337c9f222da3a21bae43e541a", null ],
-    [ "GetDigestOf", "dc/dc4/a04893.html#aa8cc3ef9cec05372f62f5eca77e5d67e", null ],
-    [ "operator=", "dc/dc4/a04893.html#ab26cb7c7dfaf765aee2c91c629d528db", null ],
-    [ "operator=", "dc/dc4/a04893.html#a51d42e0933431c28579f61714dc1316b", null ],
-    [ "UpdateData", "dc/dc4/a04893.html#a9c73a9275615d3cfda283ec910af759d", null ],
-    [ "UpdateData", "dc/dc4/a04893.html#ac693bf817c41351bbf4c1c4c625940fd", null ],
-    [ "UpdateData", "dc/dc4/a04893.html#a70ead2f037579bbc088c560114f902c6", null ],
-    [ "UpdateData", "dc/dc4/a04893.html#ab2132d901023ee70ddcf647438e81e8d", null ],
-    [ "UpdateData", "dc/dc4/a04893.html#a5d7ef4c214d3305189b2aaa0a2445d4a", null ],
-    [ "_ctx", "dc/dc4/a04893.html#ae96a0500880d30109c61efd6450453de", null ],
-    [ "_digest", "dc/dc4/a04893.html#a9c8bb5aa9eb4e206b77b6556022391d9", null ],
-    [ "_key", "dc/dc4/a04893.html#a86c8c6b7d776042053e7ba5ae95b7be5", null ],
-    [ "DIGEST_LENGTH", "dc/dc4/a04893.html#a5da54fdebcfdcffcc369c01991a33226", null ]
+    [ "material", "dc/dc4/a04893.html#a29addcb613bc63a100633e612d1dc2d2", null ],
+    [ "pos_x", "dc/dc4/a04893.html#a02e9d8789336d77e34bffa19adbab394", null ],
+    [ "pos_y", "dc/dc4/a04893.html#ac3162ce321a1f21e4e6fe35041e49a6a", null ],
+    [ "pos_z", "dc/dc4/a04893.html#a6e2a2d5d9151d5c6d70fd0d47e6c18e3", null ],
+    [ "xtiles", "dc/dc4/a04893.html#a94789843c68d705184e6332ac46bd69d", null ],
+    [ "xverts", "dc/dc4/a04893.html#a0548c3fdb216c115a7d3843e4fbc6de3", null ],
+    [ "ytiles", "dc/dc4/a04893.html#ac50224cdce231460c78c3e0f077b555d", null ],
+    [ "yverts", "dc/dc4/a04893.html#aa9ecb62b53af527b3bd855b8e93ba604", null ]
 ];

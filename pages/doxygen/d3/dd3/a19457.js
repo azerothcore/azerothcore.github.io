@@ -1,6 +1,7 @@
 var a19457 =
 [
-    [ "npc_frost_freeze_trapAI", "d8/d8b/a19461.html", "d8/d8b/a19461" ],
-    [ "npc_frost_freeze_trap", "d3/dd3/a19457.html#ac58ed2598fd4250f220208a91343f9b8", null ],
-    [ "GetAI", "d3/dd3/a19457.html#a88ed9aeb0403b3b625c858cd1e44a99f", null ]
+    [ "OnApply", "d3/dd3/a19457.html#aa2e15be162bb929820b2cb34296653c1", null ],
+    [ "OnRemove", "d3/dd3/a19457.html#a0e2cd4e85e1a30635c68cf35a1596195", null ],
+    [ "PrepareAuraScript", "d3/dd3/a19457.html#afc8deb180453a5b83bd05de2d4297fcc", null ],
+    [ "Register", "d3/dd3/a19457.html#a8354c5d9618a3d107076d6f7e8130d2d", null ]
 ];

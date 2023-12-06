@@ -1,6 +1,6 @@
 var a19133 =
 [
-    [ "spell_the_lich_king_vile_spirit_damage_target_search_SpellScript", "df/d50/a19137.html", "df/d50/a19137" ],
-    [ "spell_the_lich_king_vile_spirit_damage_target_search", "d9/dba/a19133.html#ab2a137c97a67f23704a6f610dcf40fe2", null ],
-    [ "GetSpellScript", "d9/dba/a19133.html#a01fd45ddc475ec7b2fc6e6ab940e96df", null ]
+    [ "HandleScript", "d9/dba/a19133.html#a98719a2a7575df29652d251d941b24aa", null ],
+    [ "PrepareSpellScript", "d9/dba/a19133.html#a37565780fd8728c45de0d9b155e16c65", null ],
+    [ "Register", "d9/dba/a19133.html#adec02fe26d51c395657156615e418df6", null ]
 ];

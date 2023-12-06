@@ -1,10 +1,26 @@
 var a10021 =
 [
-    [ "EnvironmentalDamageLog", "d9/d84/a10021.html#ab4311f6516d9b7491abf5cb2ba9a0ee0", null ],
-    [ "Write", "d9/d84/a10021.html#af7d49b8d57100cf2c3048d5415a4edc7", null ],
-    [ "Absorbed", "d9/d84/a10021.html#a443df04be3afe2021532716140ffb099", null ],
-    [ "Amount", "d9/d84/a10021.html#a073e22176d44f5806313c2a4bd3e263a", null ],
-    [ "Resisted", "d9/d84/a10021.html#ad20a9730af3088d93ac56d89b6f66b12", null ],
-    [ "Type", "d9/d84/a10021.html#a51df177d9ce6a8459bc8fa41f80cdb7a", null ],
-    [ "Victim", "d9/d84/a10021.html#a020fffe9517d30e965a4d6f6602dd05f", null ]
+    [ "UnitScript", "d9/d84/a10021.html#ab11d6d2ced5bd2f5252e97af09e61316", null ],
+    [ "CanSetPhaseMask", "d9/d84/a10021.html#a95d2e7dd7074494fdd4f530f9684c1bf", null ],
+    [ "DealDamage", "d9/d84/a10021.html#a4b161e889eee3572a41c33a144d12cdf", null ],
+    [ "IfNormalReaction", "d9/d84/a10021.html#a355d024283b4ce02a2fdcf551c75c3b2", null ],
+    [ "IsCustomBuildValuesUpdate", "d9/d84/a10021.html#a1859b5ca0970c3a358a4ba0207f281de", null ],
+    [ "IsNeedModHealPercent", "d9/d84/a10021.html#aab4fd36511815865c02e1415c2460ea2", null ],
+    [ "IsNeedModMeleeDamagePercent", "d9/d84/a10021.html#aaaf151572d72b05833905777a979c0d9", null ],
+    [ "IsNeedModSpellDamagePercent", "d9/d84/a10021.html#abef7c63663b881c66f2bcc6c3d3256b8", null ],
+    [ "ModifyHealReceived", "d9/d84/a10021.html#ac2f40d7ca52538ae874f60a7acbf443b", null ],
+    [ "ModifyMeleeDamage", "d9/d84/a10021.html#acde1701dd3d6207da2e76d7d1753f9c7", null ],
+    [ "ModifyPeriodicDamageAurasTick", "d9/d84/a10021.html#ae0703adbc70a14443c0370de77e95190", null ],
+    [ "ModifySpellDamageTaken", "d9/d84/a10021.html#a375db3302ef33bcc5c874b0b53bbc345", null ],
+    [ "OnAuraApply", "d9/d84/a10021.html#a334ac1a9d8e29aa064d3625d59c7a167", null ],
+    [ "OnAuraRemove", "d9/d84/a10021.html#a2ed2cf6d9725ae342adfada023538a28", null ],
+    [ "OnBeforeRollMeleeOutcomeAgainst", "d9/d84/a10021.html#a627a99cd078d2cbd52519874f0bd0aff", null ],
+    [ "OnBuildValuesUpdate", "d9/d84/a10021.html#a7d1aef94d7603e607163421329ac7c27", null ],
+    [ "OnDamage", "d9/d84/a10021.html#a5541573db45b4404ae0b613251ad1a13", null ],
+    [ "OnDisplayIdChange", "d9/d84/a10021.html#a43cd3dd2e6cd311b1045b8f5d7d6ac83", null ],
+    [ "OnHeal", "d9/d84/a10021.html#adcdc8430e14bccfe399a7e1a3edd2b69", null ],
+    [ "OnUnitDeath", "d9/d84/a10021.html#a7bb5f4ea3ae8edb55df455648863d93f", null ],
+    [ "OnUnitEnterCombat", "d9/d84/a10021.html#a8d04617af120a1e23ad57a45440744bb", null ],
+    [ "OnUnitEnterEvadeMode", "d9/d84/a10021.html#a9df6f81297f53007f1227778466e912f", null ],
+    [ "OnUnitUpdate", "d9/d84/a10021.html#a36e7ba9d74892f59d0a36b76e78f4f80", null ]
 ];

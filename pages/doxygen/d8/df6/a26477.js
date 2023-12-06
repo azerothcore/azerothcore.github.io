@@ -1,7 +1,7 @@
 var a26477 =
 [
-    [ "CheckClass", "d8/df6/a26477.html#a931d7a6aa2f1b574c225d3e803edbab4", null ],
-    [ "HandleScript", "d8/df6/a26477.html#a4f4f7004be5629efdc48b52b6667edba", null ],
-    [ "PrepareSpellScript", "d8/df6/a26477.html#a599ce758681c5196bd40e4c7b86635cc", null ],
-    [ "Register", "d8/df6/a26477.html#ab184b23aa446c826db39928eb3ff3ecc", null ]
+    [ "AfterApply", "d8/df6/a26477.html#adae232af9445638b3d54e81d414483b7", null ],
+    [ "AfterRemove", "d8/df6/a26477.html#abf458f1f1dd5abfbba88325cad044ab1", null ],
+    [ "PrepareAuraScript", "d8/df6/a26477.html#a305c532aa0e8740e8c8a87a6ba0abcff", null ],
+    [ "Register", "d8/df6/a26477.html#abff75ea597dcc017a359a5ef3ada4314", null ]
 ];

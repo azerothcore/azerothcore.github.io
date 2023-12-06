@@ -1,6 +1,6 @@
 var a16569 =
 [
-    [ "npc_toc_priestAI", "df/d81/a16573.html", "df/d81/a16573" ],
-    [ "npc_toc_priest", "d9/d62/a16569.html#a0e360a2cc053434d2f76826683da8eee", null ],
-    [ "GetAI", "d9/d62/a16569.html#a6056a81bef962a02537d525f07d1c302", null ]
+    [ "spell_gen_leeching_swarm_dmg_SpellScript", "df/d81/a16573.html", "df/d81/a16573" ],
+    [ "spell_gen_leeching_swarm_dmg", "d9/d62/a16569.html#a9f6b89aee3b080ce3b675635097750ff", null ],
+    [ "GetSpellScript", "d9/d62/a16569.html#a4fa3aca5964728833eb1615df4f31221", null ]
 ];

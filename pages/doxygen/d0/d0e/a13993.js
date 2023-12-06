@@ -1,7 +1,9 @@
 var a13993 =
 [
-    [ "HandleApply", "d0/d0e/a13993.html#a92734043e53b5e1ef81fa9b5ccce135e", null ],
-    [ "HandleRemove", "d0/d0e/a13993.html#a56bf9c77cf96b1e34543a59fc2a308b2", null ],
-    [ "PrepareAuraScript", "d0/d0e/a13993.html#ae3bcbf588e46cb0e81160fdd48502566", null ],
-    [ "Register", "d0/d0e/a13993.html#af2343add2ed014832bd34d11519b391b", null ]
+    [ "npc_shade_of_jindo", "d0/d0e/a13993.html#a86fa95e806aea21fd6db332ea3f18a02", null ],
+    [ "IsSummonedBy", "d0/d0e/a13993.html#aaf4eed2de98601844a32fec159f2f5fc", null ],
+    [ "JustEngagedWith", "d0/d0e/a13993.html#a450f887c97cfa3ebce91ebd058ed9849", null ],
+    [ "Reset", "d0/d0e/a13993.html#abc18dabb6f4f0b85a3b5b2e6f830804f", null ],
+    [ "UpdateAI", "d0/d0e/a13993.html#a1aca8192c0655c0ab359f49448f8fafd", null ],
+    [ "_scheduler", "d0/d0e/a13993.html#a1d74d8113f5ef117b2968f8f864fcaf4", null ]
 ];

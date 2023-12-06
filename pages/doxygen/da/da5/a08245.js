@@ -1,21 +1,10 @@
 var a08245 =
 [
-    [ "HealInfo", "da/da5/a08245.html#a25fe1984f6c3ef5eeb90049ef4749437", null ],
-    [ "AbsorbHeal", "da/da5/a08245.html#ae656cf383df85bb88c6486e5aac1df5b", null ],
-    [ "GetAbsorb", "da/da5/a08245.html#a3a29dc8e520997a58c7da005945d96e2", null ],
-    [ "GetEffectiveHeal", "da/da5/a08245.html#a3d5391116c63cc0a3cacb2cab1512a01", null ],
-    [ "GetHeal", "da/da5/a08245.html#af95a6d6c94a72874c150a3deabce20ee", null ],
-    [ "GetHealer", "da/da5/a08245.html#a2139bd1efadb23063a67d3fef35b424d", null ],
-    [ "GetSchoolMask", "da/da5/a08245.html#aca2b1e31608a7c186a06e9bbe8977a9d", null ],
-    [ "GetSpellInfo", "da/da5/a08245.html#a53b73d5b297e341be237723269c7644d", null ],
-    [ "GetTarget", "da/da5/a08245.html#ae7a08b2e27a5ac316ed2d3bca7d2395d", null ],
-    [ "SetEffectiveHeal", "da/da5/a08245.html#ac3564eb034d66a0d0199e5412db82ba8", null ],
-    [ "SetHeal", "da/da5/a08245.html#a622e0993c76b43f30d9cc774c70a92b0", null ],
-    [ "m_absorb", "da/da5/a08245.html#a383cc7bb4d30dd72cbfeaedd9b5d5042", null ],
-    [ "m_effectiveHeal", "da/da5/a08245.html#a0a00b20efbeb2e5bf515dc98e96aa12d", null ],
-    [ "m_heal", "da/da5/a08245.html#af0a2d7c40710cabbb88122de2650c705", null ],
-    [ "m_healer", "da/da5/a08245.html#ad291e8e65eb0a9a9054ac1827cf0d315", null ],
-    [ "m_schoolMask", "da/da5/a08245.html#af2fd7934b1b1cd08dd4dcfeadc9c02df", null ],
-    [ "m_spellInfo", "da/da5/a08245.html#a68d6d63fdd1efb458615e24f65e643be", null ],
-    [ "m_target", "da/da5/a08245.html#a3a13a815e870e6745888ed082e8498e8", null ]
+    [ "PvPInfo", "da/da5/a08245.html#ad956667bc89b49e5a520ee5a4f19f22e", null ],
+    [ "EndTimer", "da/da5/a08245.html#ae06b5030552c02f30fe8386633a753df", null ],
+    [ "FFAPvPEndTimer", "da/da5/a08245.html#a739dfc63dfe39429a44ea682d9120522", null ],
+    [ "IsHostile", "da/da5/a08245.html#a22a1c8f0e8c51f4a27cb8ab362028d61", null ],
+    [ "IsInFFAPvPArea", "da/da5/a08245.html#a8a654926248b3974587af1eb9c064d15", null ],
+    [ "IsInHostileArea", "da/da5/a08245.html#a92d3c8991f7e3c5d683b414d18cbbd64", null ],
+    [ "IsInNoPvPArea", "da/da5/a08245.html#a6858b8db9a441bf950f7d9fdca1587b5", null ]
 ];

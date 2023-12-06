@@ -1,6 +1,6 @@
 var a20345 =
 [
-    [ "npc_crystal_spikeAI", "dd/d3d/a20349.html", "dd/d3d/a20349" ],
-    [ "npc_crystal_spike", "de/d9a/a20345.html#a0ef00cdc85bb1c9a79845db861a5e384", null ],
-    [ "GetAI", "de/d9a/a20345.html#a51df30295395c807c0ade2abaf0bd78e", null ]
+    [ "boss_magus_telestraAI", "dd/d3d/a20349.html", "dd/d3d/a20349" ],
+    [ "boss_magus_telestra", "de/d9a/a20345.html#a0e1adaf685c4d03cd0f688cb2b131525", null ],
+    [ "GetAI", "de/d9a/a20345.html#acb56031f892034adfff7889982fb063e", null ]
 ];

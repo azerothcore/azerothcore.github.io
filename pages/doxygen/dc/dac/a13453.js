@@ -1,6 +1,6 @@
 var a13453 =
 [
-    [ "npc_marzon_silent_bladeAI", "dc/dea/a13457.html", "dc/dea/a13457" ],
-    [ "npc_marzon_silent_blade", "dc/dac/a13453.html#a8fa1c0e11555df45005f37fd9de7f3a8", null ],
-    [ "GetAI", "dc/dac/a13453.html#aadde9b84b46c594e41ae8ca3ae0265a1", null ]
+    [ "npc_bh_thalorien_dawnseekerAI", "dc/dea/a13457.html", "dc/dea/a13457" ],
+    [ "npc_bh_thalorien_dawnseeker", "dc/dac/a13453.html#a1fbee838cbbf1ada476f3dd7a82fc6e6", null ],
+    [ "GetAI", "dc/dac/a13453.html#ac5d551d5d4d05ee1006d074908599a3a", null ]
 ];

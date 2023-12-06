@@ -1,6 +1,7 @@
 var a19345 =
 [
-    [ "npc_gluttonous_abominationAI", "d1/d6f/a19349.html", "d1/d6f/a19349" ],
-    [ "npc_gluttonous_abomination", "d6/d71/a19345.html#a895d1afcfc62bcaac6cc0d20465f1e7a", null ],
-    [ "GetAI", "d6/d71/a19345.html#aedbd808da5e8ea0e2111e78be9d846ce", null ]
+    [ "npc_valithria_portalAI", "d6/d71/a19345.html#a18c1b9d2b149fbc34a17c9e87a8c70b6", null ],
+    [ "GetData", "d6/d71/a19345.html#a598ba7930900aa211bb7e7dc12f366c0", null ],
+    [ "OnSpellClick", "d6/d71/a19345.html#a457f2725e6580d7e6f3bb0445ba796a8", null ],
+    [ "_used", "d6/d71/a19345.html#a92cc0c2aaa6add0c6c641719d6846bb3", null ]
 ];

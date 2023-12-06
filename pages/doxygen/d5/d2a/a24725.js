@@ -1,6 +1,6 @@
 var a24725 =
 [
-    [ "spell_illidari_council_deadly_strike_AuraScript", "d8/dd8/a24729.html", "d8/dd8/a24729" ],
-    [ "spell_illidari_council_deadly_strike", "d5/d2a/a24725.html#a405feb16ab95d5b3e0d0e58f04bacf44", null ],
-    [ "GetAuraScript", "d5/d2a/a24725.html#a9f0a1e366fe454eff940c7ed60bd1ffc", null ]
+    [ "instance_black_temple_InstanceMapScript", "d8/dd8/a24729.html", "d8/dd8/a24729" ],
+    [ "instance_black_temple", "d5/d2a/a24725.html#a2efd6c7fff15c8fd03652ef9a65088eb", null ],
+    [ "GetInstanceScript", "d5/d2a/a24725.html#a947a1279eabde75d9884b1ef84b295a3", null ]
 ];

@@ -1,13 +1,8 @@
 var a05593 =
 [
-    [ "TransactionTask", "df/d1e/a05593.html#a13573f827891ad172847dc0e466b0b9e", null ],
-    [ "~TransactionTask", "df/d1e/a05593.html#a68bc982f025d40bbc3a7323cd8c96786", null ],
-    [ "CleanupOnFailure", "df/d1e/a05593.html#adc2f1534bce5a7ce198eeeb510fcb533", null ],
-    [ "Execute", "df/d1e/a05593.html#aa1c1df059d15fe2077ceea5cfb51ba22", null ],
-    [ "TryExecute", "df/d1e/a05593.html#a28c9ca1d9d3fdc6a722dcec68e46a38f", null ],
-    [ "DatabaseWorker", "df/d1e/a05593.html#ac8984f2167ec797d478f3a771d1c1c3f", null ],
-    [ "DatabaseWorkerPool", "df/d1e/a05593.html#a5d89109a06fa4fca3057b99bbfa84e58", null ],
-    [ "TransactionCallback", "df/d1e/a05593.html#ac3345f3314b133d53268f53e222cdc74", null ],
-    [ "_deadlockLock", "df/d1e/a05593.html#a84b48dbb670dd884e9b44ea53c8b0008", null ],
-    [ "m_trans", "df/d1e/a05593.html#a242f0cb47bc6b456b6bea9aa372df4b6", null ]
+    [ "Statements", "df/d1e/a05593.html#adaf49f7cb45d90cb041f979b1821e4a1", null ],
+    [ "WorldDatabaseConnection", "df/d1e/a05593.html#a0c03387d2c019c86d1fe4933eca6aae5", null ],
+    [ "WorldDatabaseConnection", "df/d1e/a05593.html#a015f79a049d37f742232bc5ac10e9551", null ],
+    [ "~WorldDatabaseConnection", "df/d1e/a05593.html#a2feafa80fe8e838587d8f7b641c0ab09", null ],
+    [ "DoPrepareStatements", "df/d1e/a05593.html#a280aa4a4571581c5cef8f9967631b484", null ]
 ];

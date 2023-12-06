@@ -1,6 +1,7 @@
 var a28285 =
 [
-    [ "ModDest", "d5/d8e/a28285.html#ab03387aec0a02a6b3bac1014443554b6", null ],
-    [ "PrepareSpellScript", "d5/d8e/a28285.html#a53f7da301759fb18686bc73281c4a321", null ],
-    [ "Register", "d5/d8e/a28285.html#a266198fbc6203517f9845ef6212ddf13", null ]
+    [ "CalcPeriodic", "d5/d8e/a28285.html#af787d0c8738284e757f808e7d138bdc6", null ],
+    [ "PrepareAuraScript", "d5/d8e/a28285.html#a383db196133bbecee06fe443fdb1bc24", null ],
+    [ "Register", "d5/d8e/a28285.html#a1c617b5b26805b0feb468c55337f9d4c", null ],
+    [ "Update", "d5/d8e/a28285.html#af3f4a7b82e099313d609df7f85f02d00", null ]
 ];

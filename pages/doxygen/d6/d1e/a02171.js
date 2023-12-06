@@ -1,6 +1,6 @@
 var a02171 =
 [
-    [ "Acore::BroadcastTextBuilder", "d2/d1c/a10849.html", "d2/d1c/a10849" ],
-    [ "Acore::CustomChatTextBuilder", "db/dcd/a10853.html", "db/dcd/a10853" ],
-    [ "Acore::AcoreStringChatBuilder", "d2/d59/a10857.html", "d2/d59/a10857" ]
+    [ "WorldPackets::Chat::Emote", "da/d2d/a10145.html", "da/d2d/a10145" ],
+    [ "WorldPackets::Chat::EmoteClient", "d9/db6/a10149.html", "d9/db6/a10149" ],
+    [ "WorldPackets::Chat::ChatServerMessage", "de/dd8/a10153.html", "de/dd8/a10153" ]
 ];

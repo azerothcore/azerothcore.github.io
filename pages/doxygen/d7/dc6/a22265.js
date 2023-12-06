@@ -1,6 +1,7 @@
 var a22265 =
 [
-    [ "spell_yogg_saron_insane_periodic_trigger_SpellScript", "d8/deb/a22269.html", "d8/deb/a22269" ],
-    [ "spell_yogg_saron_insane_periodic_trigger", "d7/dc6/a22265.html#aba43c27ed8507069e3b8504d1c24fd83", null ],
-    [ "GetSpellScript", "d7/dc6/a22265.html#a76032d7dbaf107e43d978c8bddbf0414", null ]
+    [ "FilterTargets", "d7/dc6/a22265.html#a737521462d054d16bc04fb4c40b6c3da", null ],
+    [ "HandleDummyEffect", "d7/dc6/a22265.html#a6b6d3a49c85d525404e9316afa38f1bc", null ],
+    [ "PrepareSpellScript", "d7/dc6/a22265.html#a6257d7c9805f9eb71f9f4fb65e6ff882", null ],
+    [ "Register", "d7/dc6/a22265.html#a2154f032901f442cfc1b7e448083fdb7", null ]
 ];

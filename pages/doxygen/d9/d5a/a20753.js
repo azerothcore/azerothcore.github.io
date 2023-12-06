@@ -1,6 +1,6 @@
 var a20753 =
 [
-    [ "npc_collapsing_starAI", "d3/dca/a20757.html", "d3/dca/a20757" ],
-    [ "npc_collapsing_star", "d9/d5a/a20753.html#a8d57987c9b4622746d4f42a2b4845b9e", null ],
-    [ "GetAI", "d9/d5a/a20753.html#a346af96d122e64c68defdeccb9183cd4", null ]
+    [ "spell_hos_dark_matter_AuraScript", "d3/dca/a20757.html", "d3/dca/a20757" ],
+    [ "spell_hos_dark_matter", "d9/d5a/a20753.html#af170db9adc5adb20f8d6a3e95cd60124", null ],
+    [ "GetAuraScript", "d9/d5a/a20753.html#a2277580897f7533440713157d9cd863f", null ]
 ];

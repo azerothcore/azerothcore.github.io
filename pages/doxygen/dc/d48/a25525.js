@@ -1,9 +1,6 @@
 var a25525 =
 [
-    [ "boss_high_botanist_freywinn", "dc/d48/a25525.html#aeecf6ed56e34cf1d9a552aab82f1f64a", null ],
-    [ "JustDied", "dc/d48/a25525.html#a7b370482ea195d0305cba339ce0cbab3", null ],
-    [ "JustEngagedWith", "dc/d48/a25525.html#a841c6f08d8d8c0e47bd8d06bfed7ab8b", null ],
-    [ "KilledUnit", "dc/d48/a25525.html#a80a997e0d12c175da0a46d7362890b9c", null ],
-    [ "ResumeEncounter", "dc/d48/a25525.html#a06adcf26cb264d35a16ca416661ab4bd", null ],
-    [ "SummonedCreatureDies", "dc/d48/a25525.html#a7f1a02d4b944191471f59ba728b6372e", null ]
+    [ "spell_astromancer_solarian_transform_AuraScript", "d6/dab/a25529.html", "d6/dab/a25529" ],
+    [ "spell_astromancer_solarian_transform", "dc/d48/a25525.html#a5350ac636d5ea6b9e0a46eb315d465ad", null ],
+    [ "GetAuraScript", "dc/d48/a25525.html#aadd4fda6306fe21d359b6b166babf1ca", null ]
 ];

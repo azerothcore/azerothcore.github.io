@@ -1,6 +1,6 @@
 var a09401 =
 [
-    [ "IsNeutralOrFriendlyToTeam", "d3/dd5/a09401.html#aeeea8efaff8fe3f5044a7d5627a89cb6", null ],
-    [ "safeLocId", "d3/dd5/a09401.html#a4f6003cc76b70c83fbb8301cc9d5a7ad", null ],
-    [ "teamId", "d3/dd5/a09401.html#a287b04900d70f8ff8c6f6542edbd40a6", null ]
+    [ "flags", "d3/dd5/a09401.html#a953acfd67349f028a839390ebe7fc398", null ],
+    [ "fourcc", "d3/dd5/a09401.html#a14d0e9cf761aae3ef914f3bff86ef216", null ],
+    [ "gridArea", "d3/dd5/a09401.html#a4ee571320d5d346bbf74709677bbee05", null ]
 ];

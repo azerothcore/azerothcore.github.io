@@ -1,9 +1,6 @@
 var a10941 =
 [
-    [ "ClientKeySeed", "d1/df8/a10941.html#a3e2df88e6fd716030d70a77850e96970", null ],
-    [ "ClientKeySeedHash", "d1/df8/a10941.html#ae2523827d6f9abae5eed0b463c00062f", null ],
-    [ "Module", "d1/df8/a10941.html#a1fcce28666a614c83d06729bc9c88bb4", null ],
-    [ "ModuleKey", "d1/df8/a10941.html#ac34f4c4997f5f64a9dcf4ad7d914a215", null ],
-    [ "Seed", "d1/df8/a10941.html#a3c8e1b5c642f12e29837800f0428f34e", null ],
-    [ "ServerKeySeed", "d1/df8/a10941.html#ad29fe1f9ba6ef32f1d35657683b0e11b", null ]
+    [ "EffectCalcAmountHandler", "d1/df8/a10941.html#a4fe66bbf0433e80b602683a278e3a709", null ],
+    [ "Call", "d1/df8/a10941.html#a4b5af2593dcb80930c6a45b7035767ca", null ],
+    [ "pEffectHandlerScript", "d1/df8/a10941.html#aa52c8c780dcc157e16d11f8222706f7a", null ]
 ];

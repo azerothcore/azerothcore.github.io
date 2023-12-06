@@ -1,6 +1,6 @@
 var a21573 =
 [
-    [ "boss_kologarn_armsAI", "d6/de8/a21577.html", "d6/de8/a21577" ],
-    [ "boss_kologarn_arms", "df/df0/a21573.html#ad540d28bb4b8a2be0ca0769f114c3eda", null ],
-    [ "GetAI", "df/df0/a21573.html#a9ffe4db97d937e01c5ab2008a011f67d", null ]
+    [ "spell_ignis_scorch_AuraScript", "d6/de8/a21577.html", "d6/de8/a21577" ],
+    [ "spell_ignis_scorch", "df/df0/a21573.html#aa278414eee7e3b6462405a72a4834b0e", null ],
+    [ "GetAuraScript", "df/df0/a21573.html#a2088147ba5961a3f33d830870e73f084", null ]
 ];

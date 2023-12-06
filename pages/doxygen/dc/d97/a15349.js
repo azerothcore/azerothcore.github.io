@@ -1,6 +1,11 @@
 var a15349 =
 [
-    [ "npc_webbed_creatureAI", "de/ddb/a15353.html", "de/ddb/a15353" ],
-    [ "npc_webbed_creature", "dc/d97/a15349.html#ae52152939766c411e45e827e9ab52d4f", null ],
-    [ "GetAI", "dc/d97/a15349.html#a30fd53b81260b7fd6ca06881930b79e9", null ]
+    [ "npc_depth_chargeAI", "dc/d97/a15349.html#a088848c16418964973107e125c20f508", null ],
+    [ "AttackStart", "dc/d97/a15349.html#a1ec6e2ea0cc61262932f63f764273cdb", null ],
+    [ "JustEngagedWith", "dc/d97/a15349.html#a90cc6eab8b63588f2567f59941eafc59", null ],
+    [ "MoveInLineOfSight", "dc/d97/a15349.html#a8342b7fc7677ac94757c725ec4063e9e", null ],
+    [ "Reset", "dc/d97/a15349.html#aaccf632a50749c0f6d6f29bb1b1bf5a4", null ],
+    [ "UpdateAI", "dc/d97/a15349.html#af34e55c3aee40f840edf695adc06495e", null ],
+    [ "WeMustDie", "dc/d97/a15349.html#a7b25b1228cf5029f1ebe653c76cf9843", null ],
+    [ "WeMustDieTimer", "dc/d97/a15349.html#a23e4f1f7079d12e78c74c21171d95cc7", null ]
 ];

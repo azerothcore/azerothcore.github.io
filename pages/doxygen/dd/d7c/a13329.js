@@ -1,12 +1,14 @@
 var a13329 =
 [
-    [ "npc_cameron", "dd/d7c/a13329.html#a45e47ec5c9dadc6f0899e83ac2e19cff", null ],
-    [ "MoveTheChildren", "dd/d7c/a13329.html#a85ae436f19f69ffb853330f01ee152a0", null ],
-    [ "PathEndReached", "dd/d7c/a13329.html#a0bf53f40eeb4fe3ed7d62988bee0a912", null ],
-    [ "sOnGameEvent", "dd/d7c/a13329.html#ab22841871cfcdc926b28296a5b4e440c", null ],
-    [ "SoundPicker", "dd/d7c/a13329.html#a2ad97aaac0bd759921e0b75cfc88d07d", null ],
-    [ "UpdateAI", "dd/d7c/a13329.html#a32a2dd2be2c06700fb81f4072a364ce2", null ],
-    [ "_childrenGUIDs", "dd/d7c/a13329.html#ad260466902e8fb1a2e02998cc4549695", null ],
-    [ "_events", "dd/d7c/a13329.html#ad6c58f433520c4ed55f43ef3604dde28", null ],
-    [ "_started", "dd/d7c/a13329.html#a985d0590eedde340a3923e299d4dffd8", null ]
+    [ "instance_uldaman_InstanceMapScript", "dd/d7c/a13329.html#ab2607f229d1e34852c82139ddb597712", null ],
+    [ "GetData", "dd/d7c/a13329.html#adef5f6d2dcaa50dbb615c4c134e7ecfb", null ],
+    [ "Initialize", "dd/d7c/a13329.html#a2424bcb1aec0ffc6235a8e8b384f0ed1", null ],
+    [ "OnCreatureCreate", "dd/d7c/a13329.html#a49b5562743910dc1b6b55efa8c44b6a0", null ],
+    [ "OnGameObjectCreate", "dd/d7c/a13329.html#aacb9db5f66f1f9be0d993aacc3cf4348", null ],
+    [ "ReadSaveDataMore", "dd/d7c/a13329.html#a8e0e03189463039dd31d883ad9c40e51", null ],
+    [ "SetData", "dd/d7c/a13329.html#ab24fc2db74ef83f2b3be9603d4728385", null ],
+    [ "WriteSaveDataMore", "dd/d7c/a13329.html#a3345c117f5e2ceca773843c3f51cb76f", null ],
+    [ "_encounters", "dd/d7c/a13329.html#a6840bd04d25fd1f365e0c28c725cde97", null ],
+    [ "ancientVaultDoorGUID", "dd/d7c/a13329.html#adf83ba0b0a1650462dbc3bc56182bed9", null ],
+    [ "archaedasTempleDoorGUID", "dd/d7c/a13329.html#a6bad33c43ceaa23990544e4a8feefb34", null ]
 ];

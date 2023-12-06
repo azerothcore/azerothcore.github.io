@@ -1,8 +1,9 @@
 var a08769 =
 [
-    [ "NearestGameObjectCheck", "de/d5d/a08769.html#aa8ede7ca83cc53cc5b4a8a057f6e8477", null ],
-    [ "NearestGameObjectCheck", "de/d5d/a08769.html#a366ef1710823d1e52eb2df650e60562f", null ],
-    [ "operator()", "de/d5d/a08769.html#a00df56adb5c6459c59b5ae4e0b85f0d3", null ],
-    [ "i_obj", "de/d5d/a08769.html#aeaec0e0f53cb870e1f0a93f8b05b74bc", null ],
-    [ "i_range", "de/d5d/a08769.html#a92fc9a7ac2995ad962173ae3a794e825", null ]
+    [ "VisibleChangesNotifier", "de/d5d/a08769.html#aacb0239ed44c9705eeeebf5ab198f7e0", null ],
+    [ "Visit", "de/d5d/a08769.html#abfc60c91aaa823cb99cdfc17a287e23e", null ],
+    [ "Visit", "de/d5d/a08769.html#aaf1dab341f34f75e56da63370af0ecd3", null ],
+    [ "Visit", "de/d5d/a08769.html#a103a8ef30ce4c0753913b6ecb6cf4e92", null ],
+    [ "Visit", "de/d5d/a08769.html#a6e856249a08d0a90b9d19f2449f30fba", null ],
+    [ "i_object", "de/d5d/a08769.html#a496b982d081957cfc288f29b99b8739d", null ]
 ];

@@ -1,6 +1,7 @@
 var a17281 =
 [
-    [ "boss_krickAI", "de/d7d/a17285.html", "de/d7d/a17285" ],
-    [ "boss_krick", "da/d2c/a17281.html#a8921ff79c0af7db7f7910634239bcd0c", null ],
-    [ "GetAI", "da/d2c/a17281.html#a9aa994da7c667b20c00b1bd1e994fed1", null ]
+    [ "UtherBatteredHiltEvent", "da/d2c/a17281.html#a7bb34b75a3e371260a231aea72f75b40", null ],
+    [ "Execute", "da/d2c/a17281.html#ad2eb37877155b6dbc9916338e30d0306", null ],
+    [ "_eventId", "da/d2c/a17281.html#a5045e057b2c5d468aa579751d2c799b8", null ],
+    [ "_owner", "da/d2c/a17281.html#a588974708f4a48f5a7b097a63a0c0899", null ]
 ];

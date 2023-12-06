@@ -1,9 +1,6 @@
 var a01097 =
 [
-    [ "FlyByCameraCollection", "d1/dfa/a01097.html#a058e5fb250bd785cecc9a6913132dfe4", null ],
-    [ "GetFlyByCameras", "d1/dfa/a01097.html#af4a9ba9da1a2f4075cc36b95cce62f6f", null ],
-    [ "LoadM2Cameras", "d1/dfa/a01097.html#a036ca5e535b8e25b87a67c20c2ad2d4c", null ],
-    [ "readCamera", "d1/dfa/a01097.html#ad7c17022a3ffed42c9d4995f5f6bb7ac", null ],
-    [ "TranslateLocation", "d1/dfa/a01097.html#a5274eb8fcc7646fe4fc3ea77ab6de2d9", null ],
-    [ "sFlyByCameraStore", "d1/dfa/a01097.html#a4acfeb7e23e1d3a74b66a1c54084e7bc", null ]
+    [ "ConcatenateDungeons", "d1/dfa/a01097.html#aeaebe53b818ad905c96d2cc56c18b7ca", null ],
+    [ "GetRolesString", "d1/dfa/a01097.html#adc336ffd636b51b0052448739671d46b", null ],
+    [ "GetStateString", "d1/dfa/a01097.html#a9d097d73fe8f096de2098ac74022b643", null ]
 ];

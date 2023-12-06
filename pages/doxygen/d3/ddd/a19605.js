@@ -1,6 +1,6 @@
 var a19605 =
 [
-    [ "spell_icc_soul_missile_SpellScript", "d9/dba/a19609.html", "d9/dba/a19609" ],
-    [ "spell_icc_soul_missile", "d3/ddd/a19605.html#a67c26ec46c5148b00e819e504abf625e", null ],
-    [ "GetSpellScript", "d3/ddd/a19605.html#a6f7e2a56dab6e7cabf5bbf345a6579f7", null ]
+    [ "spell_frost_giant_death_plague_SpellScript", "d9/dba/a19609.html", "d9/dba/a19609" ],
+    [ "spell_frost_giant_death_plague", "d3/ddd/a19605.html#abc2f490a0e051f076a47245022f0db41", null ],
+    [ "GetSpellScript", "d3/ddd/a19605.html#a183b87c54a54122cb690732c13da68e5", null ]
 ];

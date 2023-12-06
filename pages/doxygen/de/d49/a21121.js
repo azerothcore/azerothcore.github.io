@@ -1,6 +1,6 @@
 var a21121 =
 [
-    [ "spell_vehicle_grab_pyrite_SpellScript", "d6/d27/a21125.html", "d6/d27/a21125" ],
-    [ "spell_vehicle_grab_pyrite", "de/d49/a21121.html#a815b21bb1f0e08c4ada2475e2fd99970", null ],
-    [ "GetSpellScript", "de/d49/a21121.html#a9df48dbfa959c5514f0260de7cf00a38", null ]
+    [ "spell_systems_shutdown_AuraScript", "d6/d27/a21125.html", "d6/d27/a21125" ],
+    [ "spell_systems_shutdown", "de/d49/a21121.html#a835da8c4136b61bb959a1d3b06eb7525", null ],
+    [ "GetAuraScript", "de/d49/a21121.html#a880041d31984831820d78f34e2ce3b37", null ]
 ];

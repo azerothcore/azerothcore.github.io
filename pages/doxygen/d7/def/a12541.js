@@ -1,10 +1,6 @@
 var a12541 =
 [
-    [ "npc_scarlet_courierAI", "d7/def/a12541.html#a83c5e32659d38a513790322e46dcc283", null ],
-    [ "JustEngagedWith", "d7/def/a12541.html#aa470197f0949a413c421bda8c7c09279", null ],
-    [ "MovementInform", "d7/def/a12541.html#add19812d92d62b602f96ffc5fb513d6c", null ],
-    [ "Reset", "d7/def/a12541.html#ab642188631b67ae5ff5fd312eaf37ff0", null ],
-    [ "UpdateAI", "d7/def/a12541.html#ac37287a77e37785b606c742ff8d6eeeb", null ],
-    [ "uiStage", "d7/def/a12541.html#a2f920922f8c6f1a878d0e4978e081257", null ],
-    [ "uiStage_timer", "d7/def/a12541.html#a8ee22a276535a3a9c2f12a62e984d55b", null ]
+    [ "npc_scarlet_ghoulAI", "d9/d6c/a12545.html", "d9/d6c/a12545" ],
+    [ "npc_scarlet_ghoul", "d7/def/a12541.html#aa58b0d1c3fb411cac184bc1fc50f4fb3", null ],
+    [ "GetAI", "d7/def/a12541.html#a88d2639b1a4f087d3e1b95475a094d21", null ]
 ];

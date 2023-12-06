@@ -1,6 +1,6 @@
 var a27401 =
 [
-    [ "OnRemove", "de/d85/a27401.html#adcdc87bcfb9aee5eaa227ba66ad5f010", null ],
-    [ "PrepareAuraScript", "de/d85/a27401.html#a9b3985c6f2b1b88ab86ec38c8508fc16", null ],
-    [ "Register", "de/d85/a27401.html#a0bc1dae33d0a780623f4551b1dfb1fbf", null ]
+    [ "HandleOnEffectHit", "de/d85/a27401.html#a07157e7255d52acf6eb5d5e5c17e2190", null ],
+    [ "PrepareSpellScript", "de/d85/a27401.html#a0b2fd34dda3b23b574f6a5a0c4435006", null ],
+    [ "Register", "de/d85/a27401.html#a59c6a1618faa5a44e1c37337b39a3cba", null ]
 ];

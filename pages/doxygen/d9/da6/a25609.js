@@ -1,6 +1,6 @@
 var a25609 =
 [
-    [ "OnApply", "d9/da6/a25609.html#a36bae477f05e49093ff7486efb139662", null ],
-    [ "PrepareAuraScript", "d9/da6/a25609.html#a68fcadaefa5ed3df80e3e9ef09c5898c", null ],
-    [ "Register", "d9/da6/a25609.html#af1ab3aec88c75b88cb8cc78bb6249806", null ]
+    [ "spell_kaelthas_nether_beam_SpellScript", "d8/dde/a25613.html", "d8/dde/a25613" ],
+    [ "spell_kaelthas_nether_beam", "d9/da6/a25609.html#aa39a0956a0a7f28b1403bbf8405481ec", null ],
+    [ "GetSpellScript", "d9/da6/a25609.html#a7e717d2d6d66c0c818dff033a4e824b9", null ]
 ];

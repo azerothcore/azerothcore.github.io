@@ -1,12 +1,9 @@
 var a15685 =
 [
-    [ "npc_wizzlecrank_shredderAI", "de/dab/a15685.html#a055c4b426219aa3372a83d2e2021d916", null ],
-    [ "JustSummoned", "de/dab/a15685.html#a7cad21f0b3286ed75256a49c315069ce", null ],
-    [ "Reset", "de/dab/a15685.html#a86929e8a2f3433f37e4dda03e3011193", null ],
-    [ "UpdateEscortAI", "de/dab/a15685.html#acb95eeebd0317f1d95bc48d6b9e7e962", null ],
-    [ "WaypointReached", "de/dab/a15685.html#a369ae3d62d1289a1c840bdc3184b463d", null ],
-    [ "WaypointStart", "de/dab/a15685.html#a00857e372e53950338ed71d672edb780", null ],
-    [ "IsPostEvent", "de/dab/a15685.html#a9207ffdb39627b1262ec209fe41d6d0a", null ],
-    [ "PostEventCount", "de/dab/a15685.html#aa5284a284c074f32cee85d29aea00f2f", null ],
-    [ "PostEventTimer", "de/dab/a15685.html#a3c43ede2df7b1ea61b0f1625e2e1461c", null ]
+    [ "npc_custodian_of_timeAI", "de/dab/a15685.html#a2434afcda3bc5681a124bdb1a2c8d56f", null ],
+    [ "JustEngagedWith", "de/dab/a15685.html#a3b12c06566b0c1d567b6edd8b57b8332", null ],
+    [ "MoveInLineOfSight", "de/dab/a15685.html#a97b21c4ecc89e4ddd5aef4dab30a7ecf", null ],
+    [ "Reset", "de/dab/a15685.html#a56bcc694ac286488ed4b3f2328c30573", null ],
+    [ "UpdateAI", "de/dab/a15685.html#a4b43c5f6eaf70fc93dcb18c183e456dc", null ],
+    [ "WaypointReached", "de/dab/a15685.html#a963736e62fbd0caea631ee3fb69fca46", null ]
 ];

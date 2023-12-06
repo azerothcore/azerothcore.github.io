@@ -1,11 +1,6 @@
 var a16317 =
 [
-    [ "boss_saviana_ragefireAI", "d3/d3f/a16317.html#ab4fa6a2cc57c9d110bfd3cf16a016942", null ],
-    [ "JustDied", "d3/d3f/a16317.html#a30331f9cdb141cd2dbc043888b48a6eb", null ],
-    [ "JustEngagedWith", "d3/d3f/a16317.html#a458eb370872c20441b5ec6ecd2c97500", null ],
-    [ "JustReachedHome", "d3/d3f/a16317.html#a74abf893a37874eb98aa5ba9883e8d62", null ],
-    [ "KilledUnit", "d3/d3f/a16317.html#ac07513681c72d6748246cc7c349d117c", null ],
-    [ "MovementInform", "d3/d3f/a16317.html#aed4c70f571586c8cbcc044c01bdc472d", null ],
-    [ "Reset", "d3/d3f/a16317.html#a4b7f103331c566cbf007a075161505af", null ],
-    [ "UpdateAI", "d3/d3f/a16317.html#af36ca2a359f950a10214d07aad240324", null ]
+    [ "spell_halion_summon_exit_portals_SpellScript", "d1/df0/a16321.html", "d1/df0/a16321" ],
+    [ "spell_halion_summon_exit_portals", "d3/d3f/a16317.html#a2bd029e03ab6dc6fed56fdf5b419ccaa", null ],
+    [ "GetSpellScript", "d3/d3f/a16317.html#a8c35951be453fb8a95e33ab938e07a84", null ]
 ];

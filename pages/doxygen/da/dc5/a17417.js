@@ -1,6 +1,6 @@
 var a17417 =
 [
-    [ "HandleDummy", "da/dc5/a17417.html#a2461c83298c2829c9703af2542338807", null ],
-    [ "PrepareSpellScript", "da/dc5/a17417.html#a93d26752782245176f27b112f3db0c4d", null ],
-    [ "Register", "da/dc5/a17417.html#a8ec831604a24a0cd4dae59ee8d85bdb5", null ]
+    [ "npc_pos_freed_slaveAI", "da/dc5/a17417.html#ad5728e427f9f4a65cea13ec2c5a01453", null ],
+    [ "CanAIAttack", "da/dc5/a17417.html#a76818ee5fcfcc5678fa9d0957a424d9b", null ],
+    [ "EnterEvadeMode", "da/dc5/a17417.html#a234135e6bea0d91611fbdbae4dec2ea1", null ]
 ];

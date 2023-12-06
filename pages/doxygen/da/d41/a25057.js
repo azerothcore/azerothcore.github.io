@@ -1,8 +1,5 @@
 var a25057 =
 [
-    [ "HandleDummy", "da/d41/a25057.html#a9ad5ba3f1cd36365b55de85ca1aac88f", null ],
-    [ "Load", "da/d41/a25057.html#a2dcd4b498bd4edd766a7f22d4110c9c3", null ],
-    [ "PrepareSpellScript", "da/d41/a25057.html#a38f1439ad51b320474422072c1032655", null ],
-    [ "Register", "da/d41/a25057.html#a9255731c48721c3bbdfbba7e8f9c8044", null ],
-    [ "targetNumber", "da/d41/a25057.html#a9335e4a80193fdba224d61caa1bbaae5", null ]
+    [ "go_main_chambers_access_panel", "da/d41/a25057.html#a30c3c20be1892b5107ef53683d593b75", null ],
+    [ "OnGossipHello", "da/d41/a25057.html#af4b3a4a0260de68dcfac7202e0a728ee", null ]
 ];

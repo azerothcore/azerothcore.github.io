@@ -1,5 +1,6 @@
 var a21761 =
 [
-    [ "achievement_mimiron_set_up_us_the_bomb_11", "de/d8a/a21761.html#a5d8980111e029b4c9311737f3985ab61", null ],
-    [ "OnCheck", "de/d8a/a21761.html#a7682a7f2f4417dcf75ec58e34e4fd6bc", null ]
+    [ "npc_ulduar_flames_initialAI", "df/d73/a21765.html", "df/d73/a21765" ],
+    [ "npc_ulduar_flames_initial", "de/d8a/a21761.html#aee0c62a38e3e0958e015faef2c434273", null ],
+    [ "GetAI", "de/d8a/a21761.html#ac0db78c361324a594220ad644001f4eb", null ]
 ];

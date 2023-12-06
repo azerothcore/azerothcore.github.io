@@ -1,8 +1,6 @@
 var a10093 =
 [
-    [ "GuildEvent", "d1/d98/a10093.html#a78be16122c01d4c68d67e050ede92006", null ],
-    [ "Write", "d1/d98/a10093.html#a4ae1c0daaec964981ad982b97c1b0408", null ],
-    [ "Guid", "d1/d98/a10093.html#a35bcac3da7db22a22b4e8dba21ae1d0a", null ],
-    [ "Params", "d1/d98/a10093.html#a8f0faa70581ca04c26f87ebcd25cee80", null ],
-    [ "Type", "d1/d98/a10093.html#a961ae90991fa23bfc94a054dba357392", null ]
+    [ "BuyBankSlot", "d1/d98/a10093.html#a0bc11087e9359c6ac762f915b11287d8", null ],
+    [ "Read", "d1/d98/a10093.html#ac4e35f97fe3ff2b2c18a40b8b2eb59fb", null ],
+    [ "Banker", "d1/d98/a10093.html#aa9ae5777ab337f37b1c372d39a8474bf", null ]
 ];

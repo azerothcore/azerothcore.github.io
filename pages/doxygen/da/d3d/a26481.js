@@ -1,9 +1,6 @@
 var a26481 =
 [
-    [ "CheckCast", "da/d3d/a26481.html#ad68a099d3167534be3d9978d1fc2b4fe", null ],
-    [ "EntryCheck", "da/d3d/a26481.html#a8e8578447aafeea4a62e028dbe6c7419", null ],
-    [ "HandleBaseDummy", "da/d3d/a26481.html#a8534cc52f42f0598088bf8500dd5e0e5", null ],
-    [ "HandleDummy", "da/d3d/a26481.html#a34d9f5699f306b27830ced2129be506c", null ],
-    [ "PrepareSpellScript", "da/d3d/a26481.html#af7aff878540dd34138aa479f532611b6", null ],
-    [ "Register", "da/d3d/a26481.html#a78321d1589e8d7f7fe8957a4939b6197", null ]
+    [ "CheckProc", "da/d3d/a26481.html#a1b7b855383b04bd1b627c6f1e33ad7a5", null ],
+    [ "PrepareAuraScript", "da/d3d/a26481.html#a204655e4eea1cf8694c62ddae6d5a760", null ],
+    [ "Register", "da/d3d/a26481.html#a23e8088d6d9626ec4c3f8fc6e66c1e24", null ]
 ];

@@ -1,17 +1,9 @@
 var a13425 =
 [
-    [ "pyrewood_ambushAI", "d7/dd5/a13425.html#a29af91205e33cdde314edf35a44223a0", null ],
-    [ "JustDied", "d7/dd5/a13425.html#a27edb00452f9d43fc25c21b4f2e70ba3", null ],
-    [ "JustEngagedWith", "d7/dd5/a13425.html#a22f4ee8582e1f99ffa49664088ca10d2", null ],
-    [ "JustSummoned", "d7/dd5/a13425.html#abbf652df1707f706be1507122f852040", null ],
-    [ "Reset", "d7/dd5/a13425.html#a65b370d028a2d47c4c6aeec737769d08", null ],
-    [ "SummonCreatureWithRandomTarget", "d7/dd5/a13425.html#a32dfe2544ad6af64f1c4a4de0fe2acc2", null ],
-    [ "SummonedCreatureDespawn", "d7/dd5/a13425.html#aaf23bf0a443a21db123b39625cc1b3fc", null ],
-    [ "UpdateAI", "d7/dd5/a13425.html#a7bc951934bfdb04f1bdc00719c567cae", null ],
-    [ "KillCount", "d7/dd5/a13425.html#a18887d364811047446ad77525cea7386", null ],
-    [ "Phase", "d7/dd5/a13425.html#aec1fc4163f3fb2d4a6047f8849c22fae", null ],
-    [ "PlayerGUID", "d7/dd5/a13425.html#aac20edbf41d884daee88a7dc0a9fefb8", null ],
-    [ "QuestInProgress", "d7/dd5/a13425.html#a8ad845d7389f7b430c9e6878234aae82", null ],
-    [ "Summons", "d7/dd5/a13425.html#ab07bf154dfff45075900fbb4a6372623", null ],
-    [ "WaitTimer", "d7/dd5/a13425.html#a1d6ca4989cf7360a18655198ccdb5459", null ]
+    [ "npc_partygoer", "d7/dd5/a13425.html#af053caedfd1fa8173b875f521d279418", null ],
+    [ "Initialize", "d7/dd5/a13425.html#a9012ff95e5cead3c02f9eeb30f29a9f6", null ],
+    [ "Reset", "d7/dd5/a13425.html#ad1936099ec5696a2a593e5041b0360c6", null ],
+    [ "UpdateAI", "d7/dd5/a13425.html#a423df8a3de7d23221ea4d62a0c65fefc", null ],
+    [ "_events", "d7/dd5/a13425.html#ad5095ee005ecb89ca54b0663d41e20ac", null ],
+    [ "_facing", "d7/dd5/a13425.html#a9e934091894987ec091b03090bf733e5", null ]
 ];

@@ -1,11 +1,9 @@
 var a25017 =
 [
-    [ "boss_the_lurker_belowAI", "dd/df7/a25017.html#a9e31549f4fa8f06e5e102225c9c8e508", null ],
-    [ "AttackStart", "dd/df7/a25017.html#ae1827498b96bbd30ac0691ff674f0941", null ],
-    [ "DoAction", "dd/df7/a25017.html#a4a8e4c712b6ab5fb75e8c84b99193d55", null ],
-    [ "JustDied", "dd/df7/a25017.html#a7b5a2776707242dda4f3bc2299b9dff3", null ],
-    [ "JustEngagedWith", "dd/df7/a25017.html#a5dbbad89c2f5ff6ae6893322b50392b6", null ],
-    [ "JustSummoned", "dd/df7/a25017.html#ac78ec56d77088b5bc4f453847d775edb", null ],
-    [ "Reset", "dd/df7/a25017.html#af9a0290d704bc52d249aff23ba4fe7a5", null ],
-    [ "UpdateAI", "dd/df7/a25017.html#a33c78386590c7badc26ef8aaa141f497", null ]
+    [ "boss_mennu_the_betrayer", "dd/df7/a25017.html#a3f881a89d1da70d066ce9a3fe0b29a3e", null ],
+    [ "JustDied", "dd/df7/a25017.html#acf87c54cc2a3ee5c8378ef40553ab51c", null ],
+    [ "JustEngagedWith", "dd/df7/a25017.html#a535b9af1677b8af50515818a18e88d27", null ],
+    [ "JustSummoned", "dd/df7/a25017.html#a59949872270890ef794a77029074210b", null ],
+    [ "KilledUnit", "dd/df7/a25017.html#a1a55fb7f1dacc5e514e71901d66bd35e", null ],
+    [ "Reset", "dd/df7/a25017.html#a6f0043e73a55cd1cccae22a806d702ea", null ]
 ];

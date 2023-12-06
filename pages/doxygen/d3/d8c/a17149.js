@@ -1,12 +1,8 @@
 var a17149 =
 [
-    [ "npc_shadowy_mercenaryAI", "d3/d8c/a17149.html#ac631624615653a4f82ecfae2aa418455", null ],
-    [ "AttackStart", "d3/d8c/a17149.html#a001fa53e29cf8a20ed2e3312058ceb0a", null ],
-    [ "DoAction", "d3/d8c/a17149.html#a62f4e98e1dadfa0a2aeea43af9d26234", null ],
-    [ "EnterEvadeMode", "d3/d8c/a17149.html#a31a9ddf038046534fad1d41afcf76548", null ],
-    [ "JustDied", "d3/d8c/a17149.html#a33e576c92d1b10492cb6e65000ca8198", null ],
-    [ "JustEngagedWith", "d3/d8c/a17149.html#ae12ade5e863a0022ea99620f354ca51b", null ],
-    [ "Reset", "d3/d8c/a17149.html#afad174f812e2aadf6db86703a46f61d2", null ],
-    [ "UpdateAI", "d3/d8c/a17149.html#a7a0238f32aa0d608b9d883db5f170052", null ],
-    [ "events", "d3/d8c/a17149.html#a4c6e5a49dc4364477187a0189a166578", null ]
+    [ "npc_hor_leaderAI", "d7/db5/a17153.html", "d7/db5/a17153" ],
+    [ "npc_hor_leader", "d3/d8c/a17149.html#a5c8d6cce242d144755fb14879f7f17d3", null ],
+    [ "GetAI", "d3/d8c/a17149.html#a55e7357aa6dff1efdff08541e88413e9", null ],
+    [ "OnGossipHello", "d3/d8c/a17149.html#afb46ea0b6926ad5d9b87b1d6a5e04591", null ],
+    [ "OnGossipSelect", "d3/d8c/a17149.html#ab5d01ae2803bab43b2c701d0cb1d4280", null ]
 ];

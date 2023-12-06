@@ -1,6 +1,6 @@
 var a12649 =
 [
-    [ "npc_risen_guardianAI", "d6/db7/a12653.html", "d6/db7/a12653" ],
-    [ "npc_risen_guardian", "db/d6a/a12649.html#a472274c69abe912f5781c60911204eb5", null ],
-    [ "GetAI", "db/d6a/a12649.html#a568f57a442adcd64c8c3d2e4d5df729f", null ]
+    [ "HandleScriptEffect", "db/d6a/a12649.html#af265f0bba7028f45763a7f9afea2d051", null ],
+    [ "PrepareSpellScript", "db/d6a/a12649.html#a27518fd5482e65e0324100057e747d68", null ],
+    [ "Register", "db/d6a/a12649.html#a07789d7d092eb1b6633200442466c52b", null ]
 ];

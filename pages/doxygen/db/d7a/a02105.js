@@ -1,4 +1,4 @@
 var a02105 =
 [
-    [ "sWorldSocketMgr", "d7/dd6/a04479.html#ga43ae464e29649083953e305b20b3e27f", null ]
+    [ "ScriptRegistry< WorldMapScript >", "db/d7a/a02105.html#a729e333e6d0c4e5e353dd22c9612f446", null ]
 ];

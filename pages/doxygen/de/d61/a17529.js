@@ -1,6 +1,6 @@
 var a17529 =
 [
-    [ "HandleScriptEffect", "de/d61/a17529.html#a70c738381f2bba2f7cd995c31154ebb8", null ],
-    [ "PrepareSpellScript", "de/d61/a17529.html#aa8ad71522d452c90b653c3093608dabc", null ],
-    [ "Register", "de/d61/a17529.html#ac2cacccb68b963c04c654c13ce8b52ca", null ]
+    [ "spell_drakkari_colossus_face_me_SpellScript", "df/d30/a17533.html", "df/d30/a17533" ],
+    [ "spell_drakkari_colossus_face_me", "de/d61/a17529.html#a5c2c6cc7a2b8112cb081725ac8e4a0a5", null ],
+    [ "GetSpellScript", "de/d61/a17529.html#ac83d381f3113c27ca09bef54d6b22cc4", null ]
 ];

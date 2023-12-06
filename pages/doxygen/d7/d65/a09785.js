@@ -1,6 +1,6 @@
 var a09785 =
 [
-    [ "OutdoorPvPScript", "d7/d65/a09785.html#ad7882db48419888c7968007e30c2f3f7", null ],
-    [ "GetOutdoorPvP", "d7/d65/a09785.html#aa213974f384c88ab65f7b7308dadb026", null ],
-    [ "IsDatabaseBound", "d7/d65/a09785.html#ac22c6a9945738270452848f997d2818f", null ]
+    [ "PoolObject", "d7/d65/a09785.html#a772dc7bc9e1ce25edba89977bf87e3f0", null ],
+    [ "chance", "d7/d65/a09785.html#ae129795bb2f358af900dbc8892502123", null ],
+    [ "guid", "d7/d65/a09785.html#ae10fa01f5959e231fe2c16d38d9f3615", null ]
 ];

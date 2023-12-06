@@ -1,9 +1,9 @@
 var a10065 =
 [
-    [ "GuildRoster", "d3/dfc/a10065.html#a2161128d6fb6fa53a5129a95ded2b5fc", null ],
-    [ "Write", "d3/dfc/a10065.html#a544a539999827d4eb8923cbbcdf42bac", null ],
-    [ "InfoText", "d3/dfc/a10065.html#a9d457ee8feb6c173d960b360aca90fc6", null ],
-    [ "MemberData", "d3/dfc/a10065.html#a964fc72bf3ada77c171fd1f691449241", null ],
-    [ "RankData", "d3/dfc/a10065.html#a67b0a12fae93c5807030c1062f328abb", null ],
-    [ "WelcomeText", "d3/dfc/a10065.html#a5ec2c209558d2c34feee4bfd8cda201c", null ]
+    [ "fX", "d3/dfc/a10065.html#a53aeb6e82eea1dc4a4e5d8e99dfd3fc5", null ],
+    [ "fY", "d3/dfc/a10065.html#a9b158e247014eec0d35e465ab9469ac7", null ],
+    [ "fZ", "d3/dfc/a10065.html#a2e02f9738393aeb8cd62ac26dda8fc10", null ],
+    [ "uiCreatureEntry", "d3/dfc/a10065.html#ac31436c40bd0bf375635e2ea604fbf61", null ],
+    [ "uiPointId", "d3/dfc/a10065.html#acb4d9697a24d5c29deacdefe8eb0e267", null ],
+    [ "uiWaitTime", "d3/dfc/a10065.html#a305620aad71152c1139a88dea05a1887", null ]
 ];

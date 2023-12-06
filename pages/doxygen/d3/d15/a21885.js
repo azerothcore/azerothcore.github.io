@@ -1,8 +1,6 @@
 var a21885 =
 [
-    [ "boss_thorim_pillarAI", "d3/d15/a21885.html#ae00c9e72f14e3f2c94da118a1fe27130", null ],
-    [ "Reset", "d3/d15/a21885.html#ae9043ed9b72cc0eda6fb7c859355da57", null ],
-    [ "SpellHit", "d3/d15/a21885.html#a1cb3ef9fdfc9e375d15e14b9230dd51e", null ],
-    [ "UpdateAI", "d3/d15/a21885.html#afd8e05444eeea620a7ef21e97c345d41", null ],
-    [ "_resetTimer", "d3/d15/a21885.html#a6ef7c9e23280564aec1b82eb670bc4f9", null ]
+    [ "boss_thorim_sifAI", "d2/ddd/a21889.html", "d2/ddd/a21889" ],
+    [ "boss_thorim_sif", "d3/d15/a21885.html#a71ef8a92f648cbea6553ed1cc657f13d", null ],
+    [ "GetAI", "d3/d15/a21885.html#ae4eadf2bf83c41a8f05b853267b5fcf9", null ]
 ];

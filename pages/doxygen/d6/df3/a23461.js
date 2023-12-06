@@ -1,6 +1,6 @@
 var a23461 =
 [
-    [ "spell_warhead_fuse_AuraScript", "de/de8/a23465.html", "de/de8/a23465" ],
-    [ "spell_warhead_fuse", "d6/df3/a23461.html#a109e0fa257dbbb17fc10d2230bc7e843", null ],
-    [ "GetAuraScript", "d6/df3/a23461.html#add33f409ca1f8ddc114320cd4f400afe", null ]
+    [ "npc_rocket_propelled_warheadAI", "de/de8/a23465.html", "de/de8/a23465" ],
+    [ "npc_rocket_propelled_warhead", "d6/df3/a23461.html#a5c945efc6e3ca847363ac47abc5f51ca", null ],
+    [ "GetAI", "d6/df3/a23461.html#a803702c480107d197845a0ef447a5380", null ]
 ];

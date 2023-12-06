@@ -1,6 +1,6 @@
 var a21169 =
 [
-    [ "spell_demolisher_ride_vehicle_SpellScript", "d5/df6/a21173.html", "d5/df6/a21173" ],
-    [ "spell_demolisher_ride_vehicle", "de/d76/a21169.html#abfee786f470bad3c0bdc141e57d7ac69", null ],
-    [ "GetSpellScript", "de/d76/a21169.html#a52f5b57f7a32139e4e3525dcf723d22e", null ]
+    [ "OnPeriodic", "de/d76/a21169.html#abc1ff049ebd71372a105d08e82a5cd4e", null ],
+    [ "PrepareAuraScript", "de/d76/a21169.html#a55ff9d9bf90253b0f2d9510bc00e3127", null ],
+    [ "Register", "de/d76/a21169.html#ad4d26e672db9b8ed11368ab5143094db", null ]
 ];

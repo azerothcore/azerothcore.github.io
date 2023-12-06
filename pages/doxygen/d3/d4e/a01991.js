@@ -1,8 +1,8 @@
 var a01991 =
 [
-    [ "WorldPackets::Bank::AutoBankItem", "d9/dc5/a09894.html", "d9/dc5/a09894" ],
-    [ "WorldPackets::Bank::AutoStoreBankItem", "da/dda/a09898.html", "da/dda/a09898" ],
-    [ "WorldPackets::Bank::BuyBankSlot", "d8/dd7/a09902.html", "d8/dd7/a09902" ],
-    [ "WorldPackets::Bank::BuyBankSlotResult", "d6/df3/a09906.html", "d6/df3/a09906" ],
-    [ "WorldPackets::Bank::ShowBank", "d5/de9/a09910.html", "d5/de9/a09910" ]
+    [ "GameObjectScript", "d6/dc8/a09941.html", "d6/dc8/a09941" ],
+    [ "GenericGameObjectScript< AI >", "d4/d5d/a09945.html", "d4/d5d/a09945" ],
+    [ "FactoryGameObjectScript< AI, AIFactory >", "d2/dd6/a09949.html", "d2/dd6/a09949" ],
+    [ "RegisterGameObjectAI", "d3/d4e/a01991.html#a87397a2ba2a1acd88f62793eae9aa30e", null ],
+    [ "RegisterGameObjectAIWithFactory", "d3/d4e/a01991.html#a1614f98721d8a94351c4be15a72e499f", null ]
 ];

@@ -1,6 +1,5 @@
 var a29361 =
 [
-    [ "npc_guardianAI", "d6/d0d/a29365.html", "d6/d0d/a29365" ],
-    [ "npc_guardian", "df/db4/a29361.html#aa614e73ae6a6c128c323ac275652dbf1", null ],
-    [ "GetAI", "df/db4/a29361.html#a3e65ccc70be9d25b2d8563c23146ef4f", null ]
+    [ "npc_pet_trainerAI", "df/db4/a29361.html#aa5c01fd7cf2b9fad15a3059b4fe38d13", null ],
+    [ "sGossipSelect", "df/db4/a29361.html#a6768c8f8f5e37058f85cb40d35caad72", null ]
 ];

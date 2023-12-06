@@ -1,6 +1,6 @@
 var a16197 =
 [
-    [ "HandleForceCast", "d1/d18/a16197.html#a4c4c3a572e5ec8cc293d29ee308ad1e3", null ],
-    [ "PrepareSpellScript", "d1/d18/a16197.html#a41fcab749d8739962c7d0cc7f237bcc1", null ],
-    [ "Register", "d1/d18/a16197.html#a30975b5d8aa67d0ffaaf732ff495054d", null ]
+    [ "npc_orb_carrierAI", "d6/d4d/a16201.html", "d6/d4d/a16201" ],
+    [ "npc_orb_carrier", "d1/d18/a16197.html#a69fdd8cb2f0cdf7cf6cf0bdabbc0cd03", null ],
+    [ "GetAI", "d1/d18/a16197.html#ab5b7bbffc43b840c686dc889805ea401", null ]
 ];

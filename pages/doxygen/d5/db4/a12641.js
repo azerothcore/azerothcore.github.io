@@ -1,6 +1,6 @@
 var a12641 =
 [
-    [ "boss_darkmaster_gandlingAI", "dd/dd7/a12645.html", "dd/dd7/a12645" ],
-    [ "boss_darkmaster_gandling", "d5/db4/a12641.html#a6db73fa3c8324f6bfdcb1ae6a72ee39b", null ],
-    [ "GetAI", "d5/db4/a12641.html#a21ea53862614303af31a517a53d1fbf6", null ]
+    [ "npc_a_special_surpriseAI", "dd/dd7/a12645.html", "dd/dd7/a12645" ],
+    [ "npc_a_special_surprise", "d5/db4/a12641.html#ab88d74a86049c53b1569bdcc263f3dd4", null ],
+    [ "GetAI", "d5/db4/a12641.html#a930c7ba67a20fbfc55b40117ccd52c98", null ]
 ];

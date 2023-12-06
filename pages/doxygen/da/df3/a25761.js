@@ -1,8 +1,6 @@
 var a25761 =
 [
-    [ "boss_mechano_lord_capacitus", "da/df3/a25761.html#ab5867184d4e50a89a1afe25eb40e6bc3", null ],
-    [ "JustDied", "da/df3/a25761.html#a596314e7aebcc9e2e7311b4e0850b817", null ],
-    [ "JustEngagedWith", "da/df3/a25761.html#a4aa9ee50a942fe123acfdeee0350fa2d", null ],
-    [ "JustSummoned", "da/df3/a25761.html#a9a0b2cac08002db63162f95b9476c251", null ],
-    [ "KilledUnit", "da/df3/a25761.html#a6a408c654f91a44a40b3df52c0f2b093", null ]
+    [ "HandleEffect", "da/df3/a25761.html#aa1475e99087f0d270823cfd23376ce4c", null ],
+    [ "PrepareSpellScript", "da/df3/a25761.html#ae88f4d4d3697fc3c57c3d8e9a9255bd1", null ],
+    [ "Register", "da/df3/a25761.html#af45b5e3c7ff0fc360df677e5010183d8", null ]
 ];

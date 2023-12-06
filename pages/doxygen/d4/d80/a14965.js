@@ -1,9 +1,6 @@
 var a14965 =
 [
-    [ "npc_buru_egg", "d4/d80/a14965.html#a6aa2896342b802caecde1c1dffcf4907", null ],
-    [ "JustDied", "d4/d80/a14965.html#a3de169b252374f0b2daed3ecb5a11502", null ],
-    [ "JustEngagedWith", "d4/d80/a14965.html#a8cde6848569671876a17b00d75228ebe", null ],
-    [ "JustSummoned", "d4/d80/a14965.html#abebb96dcb3d653bddd4210da6567fb87", null ],
-    [ "UpdateAI", "d4/d80/a14965.html#a4d77f8b40ea8e936c9388aeff4927420", null ],
-    [ "_instance", "d4/d80/a14965.html#a5b168226755a57368f17827e3457a0ca", null ]
+    [ "npc_belnistraszAI", "db/d18/a14969.html", "db/d18/a14969" ],
+    [ "npc_belnistrasz", "d4/d80/a14965.html#a7aa0e9bfcfaf74febe67cbcb94c01ddb", null ],
+    [ "GetAI", "d4/d80/a14965.html#aac9d4389ec1c88be9afb6b9a828da511", null ]
 ];

@@ -1,8 +1,6 @@
 var a14185 =
 [
-    [ "OnApply", "de/d40/a14185.html#a6f3f05316f025ef638672a82cc855136", null ],
-    [ "PeriodicTick", "de/d40/a14185.html#a051d292f9483e6b82d773fba3ab52460", null ],
-    [ "PrepareAuraScript", "de/d40/a14185.html#ab8face95be60d7c5ba3fe15f0d05de25", null ],
-    [ "Register", "de/d40/a14185.html#a0004de73250b8523db2b9ab714c8a246", null ],
-    [ "Validate", "de/d40/a14185.html#aae1809dd5bc8baa06ee079a6d2a8b940", null ]
+    [ "CheckItem", "de/d40/a14185.html#a71f8c9bad4a102914a1047ef61d20f92", null ],
+    [ "PrepareSpellScript", "de/d40/a14185.html#a0fa160f1218cf838444f894716cb8aed", null ],
+    [ "Register", "de/d40/a14185.html#a2a6816d9ab97abddfa20cd6413a94178", null ]
 ];

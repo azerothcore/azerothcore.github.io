@@ -1,5 +1,7 @@
 var a00992 =
 [
-    [ "_characterCacheByNameStore", "d7/d76/a00992.html#a409431c82eb6a62b40d55a773cdb02c6", null ],
-    [ "_characterCacheStore", "d7/d76/a00992.html#a2a209686002fed926e50d55f7c7ca795", null ]
+    [ "WhoListPlayerInfo", "da/d8f/a07169.html", "da/d8f/a07169" ],
+    [ "WhoListCacheMgr", "d9/dd3/a07173.html", "d9/dd3/a07173" ],
+    [ "sWhoListCacheMgr", "d7/d76/a00992.html#aae5ef4cf031d5523b7d5fda6d83af41a", null ],
+    [ "WhoListInfoVector", "d7/d76/a00992.html#a88bd249c0903724edb2c2d5416962534", null ]
 ];

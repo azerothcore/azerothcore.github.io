@@ -1,6 +1,6 @@
 var a15493 =
 [
-    [ "npcs_riverbreeze_and_silversky", "d2/dbe/a15493.html#a9f012d5bbaa8b9f9822ddfbd86e7c4b2", null ],
-    [ "OnGossipHello", "d2/dbe/a15493.html#a7de032322a37f929c316aadfdadda768", null ],
-    [ "OnGossipSelect", "d2/dbe/a15493.html#a93c7b159dda733da5030de747bad30b5", null ]
+    [ "spell_mount_check_AuraScript", "d1/d74/a15497.html", "d1/d74/a15497" ],
+    [ "spell_mount_check", "d2/dbe/a15493.html#a1504dfdd0558fabfe5ae7ffaa1336c5f", null ],
+    [ "GetAuraScript", "d2/dbe/a15493.html#a276eed27e5bd98ddbe34069a5955fac1", null ]
 ];

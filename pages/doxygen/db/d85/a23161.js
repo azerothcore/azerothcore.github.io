@@ -1,5 +1,6 @@
 var a23161 =
 [
-    [ "go_the_pearl_of_the_depths", "db/d85/a23161.html#a0e09ddcde0eef050400d90e9a268823a", null ],
-    [ "OnGossipHello", "db/d85/a23161.html#a745ea14136a78759a3afd7714c6d784a", null ]
+    [ "npc_minigob_manabonkAI", "de/d80/a23165.html", "de/d80/a23165" ],
+    [ "npc_minigob_manabonk", "db/d85/a23161.html#a5fdc2ed689faba54a659e6d3d77b9db8", null ],
+    [ "GetAI", "db/d85/a23161.html#aacb77fa440c127668bcbd055eb529baf", null ]
 ];

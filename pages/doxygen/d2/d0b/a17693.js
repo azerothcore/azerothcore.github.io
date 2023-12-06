@@ -1,6 +1,6 @@
 var a17693 =
 [
-    [ "ChangeSummonPos", "d2/d0b/a17693.html#a06744070ccc918ae45b53a995cebc9a4", null ],
-    [ "PrepareSpellScript", "d2/d0b/a17693.html#ae47eb3968ce30d86a322112b195fb24c", null ],
-    [ "Register", "d2/d0b/a17693.html#a71434e35c3d1c8e7efc2764c705419cd", null ]
+    [ "spell_blood_council_shadow_prison_SpellScript", "db/d9b/a17697.html", "db/d9b/a17697" ],
+    [ "spell_blood_council_shadow_prison_damage", "d2/d0b/a17693.html#a6f490fcdb70071532ffccbc26710ec80", null ],
+    [ "GetSpellScript", "d2/d0b/a17693.html#aaafbdbd70e86d16c053e70276f6bd80e", null ]
 ];

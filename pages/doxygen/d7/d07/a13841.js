@@ -1,8 +1,6 @@
 var a13841 =
 [
-    [ "FilterTargets", "d7/d07/a13841.html#a3405b21202d423c649e0b8d341b42d9c", null ],
-    [ "HandleWipeThreat", "d7/d07/a13841.html#a2bbcce83bffebc509e9ec54778e82639", null ],
-    [ "PrepareSpellScript", "d7/d07/a13841.html#a59948484b528cab69c695f08b39b886d", null ],
-    [ "Register", "d7/d07/a13841.html#ac4106a251bd3120e122955edbcdc8e2a", null ],
-    [ "_wipeThreat", "d7/d07/a13841.html#ab5293e50bd670c0d350f190f1c9892b3", null ]
+    [ "npc_zuljin_vortexAI", "d5/dba/a13845.html", "d5/dba/a13845" ],
+    [ "npc_zuljin_vortex", "d7/d07/a13841.html#a0f58fde79a4110f90be45190355e6161", null ],
+    [ "GetAI", "d7/d07/a13841.html#af2878b4e5f11a6d43c6cc58dffddab09", null ]
 ];

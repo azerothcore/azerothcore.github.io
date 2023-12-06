@@ -1,7 +1,6 @@
 var a25981 =
 [
-    [ "npc_bessyAI", "d0/df5/a25985.html", "d0/df5/a25985" ],
-    [ "npc_bessy", "d3/d02/a25981.html#a08278c1524445054ca158433044a0824", null ],
-    [ "GetAI", "d3/d02/a25981.html#af805bc5ee3de2fd6773158e51bf09d4a", null ],
-    [ "OnQuestAccept", "d3/d02/a25981.html#a98b8e816195b81bab12cc9906df79807", null ]
+    [ "npc_lord_illidan_stormrageAI", "d0/df5/a25985.html", "d0/df5/a25985" ],
+    [ "npc_lord_illidan_stormrage", "d3/d02/a25981.html#ad2f213749e170ec4f9903396d132f5f3", null ],
+    [ "GetAI", "d3/d02/a25981.html#a9aaedc4326b90621965dad522f4af897", null ]
 ];

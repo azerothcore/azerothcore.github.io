@@ -1,7 +1,5 @@
 var a07381 =
 [
-    [ "HyperlinkDataTokenizer", "d5/d3e/a07381.html#a1fb14152c61205ce31fcf2bfeaeceeaf", null ],
-    [ "IsEmpty", "d5/d3e/a07381.html#a4f74f1647780c9f2769443dbfeba6a7e", null ],
-    [ "TryConsumeTo", "d5/d3e/a07381.html#a42e18263129c27149bf9a91b3dc42418", null ],
-    [ "_str", "d5/d3e/a07381.html#ab497f7f0b3cab4b8c4813ba443ff1c91", null ]
+    [ "value_type", "d5/d3e/a07381.html#a72f92e01d1f385cf8d6ba7c31faa77e2", null ],
+    [ "TryConsume", "d5/d3e/a07381.html#a7320475f165952ef8ebf69407b533248", null ]
 ];

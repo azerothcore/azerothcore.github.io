@@ -1,5 +1,6 @@
 var a24029 =
 [
-    [ "OutdoorPvP_eastern_plaguelands", "d5/d44/a24029.html#a5178152ee493eb90b1c1c0f611c6cd92", null ],
-    [ "GetOutdoorPvP", "d5/d44/a24029.html#abc4e99dfa8a600ef578b77ffc3956ada", null ]
+    [ "npc_drakuru_shacklesAI", "d1/d9b/a24033.html", "d1/d9b/a24033" ],
+    [ "npc_drakuru_shackles", "d5/d44/a24029.html#a2b15a214b34d86597cba09b17654e4ff", null ],
+    [ "GetAI", "d5/d44/a24029.html#a90ce98de4630771858cd3b79264a28f9", null ]
 ];

@@ -1,6 +1,6 @@
 var a28037 =
 [
-    [ "HandleDummyEffect", "d1/d5c/a28037.html#ad5421ca3dd5bf802952f98e6d1170003", null ],
-    [ "PrepareSpellScript", "d1/d5c/a28037.html#a9489556e1e16cd2e0d5c43b38d7ea5ee", null ],
-    [ "Register", "d1/d5c/a28037.html#a2ad2c00807d07aeb55a8fd848a69f9d1", null ]
+    [ "HandleScriptEffect", "d1/d5c/a28037.html#a7dc7cb2dcdd6518a253a459e2e711c89", null ],
+    [ "PrepareSpellScript", "d1/d5c/a28037.html#a9c41ae2e7ef1947c11c16d8abb48ec56", null ],
+    [ "Register", "d1/d5c/a28037.html#a5b2a218cca68177209ca42be9dfbc8ea", null ]
 ];

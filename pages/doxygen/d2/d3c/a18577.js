@@ -1,6 +1,6 @@
 var a18577 =
 [
-    [ "npc_big_oozeAI", "d5/dd6/a18581.html", "d5/dd6/a18581" ],
-    [ "npc_big_ooze", "d2/d3c/a18577.html#a8ae667b2782c53cd808f2e02e29713ee", null ],
-    [ "GetAI", "d2/d3c/a18577.html#ad06308602d69b51ff3f269bda6c465b5", null ]
+    [ "spell_putricide_eat_ooze_SpellScript", "d5/dd6/a18581.html", "d5/dd6/a18581" ],
+    [ "spell_putricide_eat_ooze", "d2/d3c/a18577.html#a1825fc77bc233990450ab33b806f3cba", null ],
+    [ "GetSpellScript", "d2/d3c/a18577.html#aedcb8def1f2f99d7564ba518b3aebedf", null ]
 ];

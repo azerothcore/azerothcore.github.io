@@ -1,9 +1,11 @@
 var a19021 =
 [
-    [ "npc_icc_ice_sphereAI", "de/de5/a19021.html#a685f45e5cd15b005646e596ff61088e8", null ],
-    [ "DoAction", "de/de5/a19021.html#ac056ecdd93bc716964054f38ab81014e", null ],
-    [ "SelectNewTarget", "de/de5/a19021.html#a9274e05e45c07d14c7df5c623e2769d4", null ],
-    [ "UpdateAI", "de/de5/a19021.html#a5a4117de9e45cea9e9086b3b4daed404", null ],
-    [ "targetGUID", "de/de5/a19021.html#a3e202f9bde2a202d329066f7aab8897c", null ],
-    [ "timer", "de/de5/a19021.html#a42842e92926e18ef2589687d81a7d0d4", null ]
+    [ "AddMissingStack", "de/de5/a19021.html#a6280fbe08d4ef2b7582c50a8a0db91e9", null ],
+    [ "CheckAura", "de/de5/a19021.html#a0cd258eaa0af63bfcaa2920aca68406a", null ],
+    [ "FilterTargets", "de/de5/a19021.html#add316679c9fbb14835be872b50d0e027", null ],
+    [ "Load", "de/de5/a19021.html#aac2c30de10149817e6d8c01764702992", null ],
+    [ "PrepareSpellScript", "de/de5/a19021.html#ad74375c3009d6b72e5a77478aff82a72", null ],
+    [ "Register", "de/de5/a19021.html#a1c622164e94874073a7934d668071c26", null ],
+    [ "_hadInitialAura", "de/de5/a19021.html#a01fcdfe5ade0a7d0654b32c069667566", null ],
+    [ "_hadJumpingAura", "de/de5/a19021.html#ac6cfe58bb5bfcee78c2d632a413faf4f", null ]
 ];

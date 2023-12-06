@@ -1,6 +1,7 @@
 var a14637 =
 [
-    [ "npc_frost_wyrmAI", "d8/de3/a14641.html", "d8/de3/a14641" ],
-    [ "npc_frost_wyrm", "d6/d90/a14637.html#aeb2e0596f4422242028e8488d62cda56", null ],
-    [ "GetAI", "d6/d90/a14637.html#af1e1bf4848c1cc289edff380f767f270", null ]
+    [ "npc_tyrande_whisperwind", "d6/d90/a14637.html#a18b631e57ad5bf0429a45b7bb04ae282", null ],
+    [ "GetAI", "d6/d90/a14637.html#a5762c68e5ef6d7b74ae90580356acfbe", null ],
+    [ "OnGossipHello", "d6/d90/a14637.html#a25283f73d9f202c33edb2ba430d8a315", null ],
+    [ "OnGossipSelect", "d6/d90/a14637.html#a8fcb001140d2f9efcc9a898fbb081aa6", null ]
 ];

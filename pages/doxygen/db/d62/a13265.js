@@ -1,8 +1,7 @@
 var a13265 =
 [
-    [ "HandleEffectApply", "db/d62/a13265.html#affb8b36a1f975be9440734c2775bae04", null ],
-    [ "HandleEffectRemove", "db/d62/a13265.html#a9aa18234139cfa0a3d96f37a5bbc1e03", null ],
-    [ "Load", "db/d62/a13265.html#a7b34beda2504b605f3fc311e2b4b5d5e", null ],
-    [ "PrepareAuraScript", "db/d62/a13265.html#a98a1b090e408ffb9e301ee39b380acb4", null ],
-    [ "Register", "db/d62/a13265.html#a8daf0993bd08a5b88a840ac87c83206d", null ]
+    [ "HandleApply", "db/d62/a13265.html#a1706fe3f2baa7dbc7d938877f1336ca2", null ],
+    [ "OnPeriodic", "db/d62/a13265.html#ae1ec2983f9ca8ed953ce2ac32394fc82", null ],
+    [ "PrepareAuraScript", "db/d62/a13265.html#af1b0bb1c1144daddad39b0032f2e9d3f", null ],
+    [ "Register", "db/d62/a13265.html#aa5e20821ece786f4460cff29a30b7803", null ]
 ];

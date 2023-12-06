@@ -1,6 +1,6 @@
 var a28085 =
 [
-    [ "HandleDummy", "de/d95/a28085.html#a42f48b9d7d657da75c8a4f5b6468011e", null ],
-    [ "PrepareSpellScript", "de/d95/a28085.html#a5efc666af2cb73c376706c20e41ace68", null ],
-    [ "Register", "de/d95/a28085.html#a46e61697212a43532e148ccb12a7d8e5", null ]
+    [ "HandleScriptEffect", "de/d95/a28085.html#a703b5a1725e05bfbfccc3b6ee5107d95", null ],
+    [ "PrepareSpellScript", "de/d95/a28085.html#ab2bb14aac4758dac46aae636ba09e50d", null ],
+    [ "Register", "de/d95/a28085.html#ae2fca7fde9af90dd7d461c2d046d9783", null ]
 ];

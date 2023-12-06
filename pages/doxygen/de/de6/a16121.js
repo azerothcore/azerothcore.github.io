@@ -1,11 +1,14 @@
 var a16121 =
 [
-    [ "boss_general_zarithrianAI", "de/de6/a16121.html#a4168a5883052810d137f59d3b104bc24", null ],
-    [ "CheckEvadeIfOutOfCombatArea", "de/de6/a16121.html#a22f6ff041e61c94df73a938162fa26f5", null ],
-    [ "JustDied", "de/de6/a16121.html#a49be533142c82a95a136dc2dcbf4843c", null ],
-    [ "JustEngagedWith", "de/de6/a16121.html#a9ec34e473b9d478277f472ab3bb7c7ef", null ],
-    [ "JustSummoned", "de/de6/a16121.html#acb694d20b35d57a315aa4662562af210", null ],
-    [ "KilledUnit", "de/de6/a16121.html#ad385477740b728e63acff7c184df3c09", null ],
-    [ "Reset", "de/de6/a16121.html#a3093369d5f3c7e2a1a5828671ac0af0a", null ],
-    [ "UpdateAI", "de/de6/a16121.html#a3a7e578d64a760cd38712c725eecc97d", null ]
+    [ "boss_baltharus_the_warbornAI", "de/de6/a16121.html#adaf6cb6ab81a461b202d40900b4b744c", null ],
+    [ "DoAction", "de/de6/a16121.html#ab22f46e2514c10ce0e8141b3f69f069d", null ],
+    [ "InitializeAI", "de/de6/a16121.html#ac188db2a727e2fb3c411f8616f8a2f41", null ],
+    [ "JustDied", "de/de6/a16121.html#aaeb3e9b1bd25464cec4a1b0adf88afbe", null ],
+    [ "JustEngagedWith", "de/de6/a16121.html#a4b670f4d89f9ed9ffeebf9d9426d79dc", null ],
+    [ "JustReachedHome", "de/de6/a16121.html#ab178ccb3ee8bfa2649f03bfc18f1e424", null ],
+    [ "JustSummoned", "de/de6/a16121.html#a7947c96290ea2cbe1b7ed6b6a8db65fe", null ],
+    [ "KilledUnit", "de/de6/a16121.html#adb1a9e2af865292215c02cc1fb959cd3", null ],
+    [ "Reset", "de/de6/a16121.html#a68e503ddac7be2f4e08d68e64aa2e725", null ],
+    [ "UpdateAI", "de/de6/a16121.html#abe2e7188e33e70d52ab1985f821fa9c5", null ],
+    [ "_introDone", "de/de6/a16121.html#a463209610cbc8e34d9839abeaf6df0e6", null ]
 ];

@@ -1,6 +1,6 @@
 var a13193 =
 [
-    [ "OnPeriodic", "d3/d2c/a13193.html#a36a5cc378f78447853ef100e297becd9", null ],
-    [ "PrepareAuraScript", "d3/d2c/a13193.html#aa10abdf4411da03f03dfa27c3df1a9a7", null ],
-    [ "Register", "d3/d2c/a13193.html#a1098b7df187ad030adcc16cb82911151", null ]
+    [ "HandleRemove", "d3/d2c/a13193.html#ae1738fb8746fada246ebc20a2a0e93f8", null ],
+    [ "PrepareAuraScript", "d3/d2c/a13193.html#af0091b08259704d94cafbb1e278e5505", null ],
+    [ "Register", "d3/d2c/a13193.html#a6c49b00b7d86d0fab033d56d0f775082", null ]
 ];

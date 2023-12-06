@@ -1,8 +1,6 @@
 var a27969 =
 [
-    [ "CheckProc", "d6/dcb/a27969.html#ac6b3ce1ff227a140b77e177198675dbf", null ],
-    [ "HandleProc", "d6/dcb/a27969.html#ae5ed8237f49454279db6348dbde653ad", null ],
-    [ "PrepareAuraScript", "d6/dcb/a27969.html#a1ee84242579d4cd81d6313f78354729b", null ],
-    [ "Register", "d6/dcb/a27969.html#a8f16147f2dfc433458ad32529f7d25d1", null ],
-    [ "Validate", "d6/dcb/a27969.html#a787639c45505da58aeb2174148ef4f83", null ]
+    [ "HandleDamage", "d6/dcb/a27969.html#ae34b85a4830066e21069e5ab8373e5c4", null ],
+    [ "PrepareSpellScript", "d6/dcb/a27969.html#a86fd53d1f9a2ecf22c4969e2f8506acf", null ],
+    [ "Register", "d6/dcb/a27969.html#a1a679fb0be26228f5fcdb45da2b994ff", null ]
 ];

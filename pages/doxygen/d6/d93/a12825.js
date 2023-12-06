@@ -1,6 +1,7 @@
 var a12825 =
 [
-    [ "HandleSendEvent", "d6/d93/a12825.html#a0bc3c3995f8b66bf2f7ff39713b58cf1", null ],
-    [ "PrepareSpellScript", "d6/d93/a12825.html#a8535dcbf13fe48e8116258b8a572b692", null ],
-    [ "Register", "d6/d93/a12825.html#a8a5eef284845d7a4d76994c7a78b8d7d", null ]
+    [ "OnPeriodic", "d6/d93/a12825.html#aa48b6f35302a8857465c6567f811dec6", null ],
+    [ "PrepareAuraScript", "d6/d93/a12825.html#ad606a06f64b85c762f3c83bc9ca5b7b3", null ],
+    [ "Register", "d6/d93/a12825.html#aa7708067531131738b86077638eda7ac", null ],
+    [ "Validate", "d6/d93/a12825.html#a665698b54201184185d96bd33f53e584", null ]
 ];

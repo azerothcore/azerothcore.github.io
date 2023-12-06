@@ -1,6 +1,10 @@
 var a08885 =
 [
-    [ "AllFriendlyCreaturesInGrid", "d6/dbe/a08885.html#a6ad66997d093ffa52e2d80337dcb5460", null ],
-    [ "operator()", "d6/dbe/a08885.html#aca2b8ed7de69c57bb270e0c663781f97", null ],
-    [ "unit", "d6/dbe/a08885.html#a3842fa1eceabaa2d40b2bab4393cb431", null ]
+    [ "AnyDeadUnitObjectInRangeCheck", "d6/dbe/a08885.html#ad51c7d9c256d8d769e7e5df2a618f233", null ],
+    [ "operator()", "d6/dbe/a08885.html#a71355418a935e1e4c4f5294c0e6a244f", null ],
+    [ "operator()", "d6/dbe/a08885.html#ae885f49537043421a92b44c201bec358", null ],
+    [ "operator()", "d6/dbe/a08885.html#a92b2dcfedf97677e84f46ee0e3affb91", null ],
+    [ "operator()", "d6/dbe/a08885.html#ae7a76a9bcc28c6e4705a2885b02be20d", null ],
+    [ "i_range", "d6/dbe/a08885.html#a1a95cfd469f27284e6ff35e9856bddcb", null ],
+    [ "i_searchObj", "d6/dbe/a08885.html#acf10f61f95961ff4b9fd4a8c162fa029", null ]
 ];

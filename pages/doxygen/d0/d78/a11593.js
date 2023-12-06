@@ -1,12 +1,11 @@
 var a11593 =
 [
-    [ "boss_thebeastAI", "d0/d78/a11593.html#a51b7d4ec10d2616d99fb21e680ff17b4", null ],
-    [ "FindNearbyOrcs", "d0/d78/a11593.html#ad832a878880ac32e05d360262546422a", null ],
-    [ "JustEngagedWith", "d0/d78/a11593.html#ab107354f10d0af4b840ab5ff8d3d0eaf", null ],
-    [ "Reset", "d0/d78/a11593.html#abfa1bca308a02ef0e80d2baf11670305", null ],
-    [ "SetData", "d0/d78/a11593.html#a6f30ed7c0451613998660b258145f801", null ],
-    [ "UpdateAI", "d0/d78/a11593.html#a0f490e907ce632e1fb921a6eb46b49c0", null ],
-    [ "_beastReached", "d0/d78/a11593.html#a01271598b4b3c85a7066e66d8150e522", null ],
-    [ "_nearbyOrcsGUIDs", "d0/d78/a11593.html#af32fb34f4c76cfe292da9bc84a5d6372", null ],
-    [ "_orcYelled", "d0/d78/a11593.html#a16df847475ea220b8ac4ea944e8d1ca4", null ]
+    [ "boss_doomrelAI", "d0/d78/a11593.html#a231cc3989d1c575af941a5462ad94cbd", null ],
+    [ "EnterEvadeMode", "d0/d78/a11593.html#ae633f4cc1747f291a3911ca50ee39370", null ],
+    [ "JustEngagedWith", "d0/d78/a11593.html#a622f673548b0a6f1db2a59ef69f31ac7", null ],
+    [ "Reset", "d0/d78/a11593.html#aec30616ad3c84ee4b6dd92f6ac8b4fbc", null ],
+    [ "UpdateAI", "d0/d78/a11593.html#a3d851f7bd5a78858fd228cac78c05f27", null ],
+    [ "_events", "d0/d78/a11593.html#aaf800dd1d20dc8288cad5aa21cd602b0", null ],
+    [ "instance", "d0/d78/a11593.html#aa0fc44bb955e83c2ef7b7373751fc2c2", null ],
+    [ "Voidwalkers", "d0/d78/a11593.html#af29d871a370a534f508f225d49c3dc9f", null ]
 ];

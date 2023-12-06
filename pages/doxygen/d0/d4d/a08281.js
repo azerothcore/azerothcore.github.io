@@ -1,8 +1,8 @@
 var a08281 =
 [
-    [ "GlobalCooldownMgr", "d0/d4d/a08281.html#a116f4af13a4e10dc5eb3c3c6a17ad863", null ],
-    [ "AddGlobalCooldown", "d0/d4d/a08281.html#acc0291e56fe4d3594d079e357f6ea3ed", null ],
-    [ "CancelGlobalCooldown", "d0/d4d/a08281.html#aed6b479416104dc536116fdb1e24fcf3", null ],
-    [ "HasGlobalCooldown", "d0/d4d/a08281.html#a7487d19ae8c59e5c5e871b2e1afabfba", null ],
-    [ "m_GlobalCooldowns", "d0/d4d/a08281.html#a80d03691d36758733f326b65992f266e", null ]
+    [ "checkLeaderOnly", "d0/d4d/a08281.html#ade8f2e22abe69a9a32085e4d901bc83b", null ],
+    [ "faction", "d0/d4d/a08281.html#a23c649e494795b27856b67225370a820", null ],
+    [ "id", "d0/d4d/a08281.html#a5d5b8f6fe0bfc5ae98c2fb10e3a18360", null ],
+    [ "note", "d0/d4d/a08281.html#a0e800dd8869fedbe71e5b14aa3c79d8a", null ],
+    [ "priority", "d0/d4d/a08281.html#a3a66018ae4e7a7e755962f1edae58d29", null ]
 ];

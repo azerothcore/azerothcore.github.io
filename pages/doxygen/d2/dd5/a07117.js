@@ -1,16 +1,13 @@
 var a07117 =
 [
-    [ "InvokerEntry", "dd/d7b/a07121.html", "dd/d7b/a07121" ],
-    [ "SubCommandEntry", "d2/dd5/a07117.html#a9a01b487be01e84573f7ebe99620541b", null ],
-    [ "ChatCommandBuilder", "d2/dd5/a07117.html#a894f6ae19d715d9d3f395736bf7cdb41", null ],
-    [ "ChatCommandBuilder", "d2/dd5/a07117.html#ad9b8a40b28eb5944512b6f3033b3a933", null ],
-    [ "ChatCommandBuilder", "d2/dd5/a07117.html#a4edc4cebdd26b55c0912b8ae0ed5fbaa", null ],
-    [ "ChatCommandBuilder", "d2/dd5/a07117.html#ac2c8cc88865de637f322b54bf6a47e13", null ],
-    [ "ChatCommandBuilder", "d2/dd5/a07117.html#a9ecbebaa3c839f57a90dcccca1473913", null ],
-    [ "ChatCommandBuilder", "d2/dd5/a07117.html#ae2cfeaf2f78687d8c6cccf42683cc379", null ],
-    [ "ChatCommandBuilder", "d2/dd5/a07117.html#a8ec5aed25a53982ccb8c5428d0501fce", null ],
-    [ "ChatCommandBuilder", "d2/dd5/a07117.html#aac8dee34deadbb581de3039d7c9b24af", null ],
-    [ "Acore::Impl::ChatCommands::ChatCommandNode", "d2/dd5/a07117.html#a3b9ea3963b82697cbe5d6ca86ff29847", null ],
-    [ "_data", "d2/dd5/a07117.html#aff0a8c833c04f98abf46aaba4fbf9374", null ],
-    [ "_name", "d2/dd5/a07117.html#a4315363c5d25bb157481cbbd3fa0286f", null ]
+    [ "banners", "d2/dd5/a07117.html#a07c98125c64d119232fec9cc80050537", null ],
+    [ "faction", "d2/dd5/a07117.html#ab3758f67da3dcb507bb1acab575e2836", null ],
+    [ "gameobject_entry", "d2/dd5/a07117.html#ae80024986e048e05dca174d6b14964d3", null ],
+    [ "gameobject_type", "d2/dd5/a07117.html#ac4760cba40ba8916d66cae3712f7c641", null ],
+    [ "last_entry", "d2/dd5/a07117.html#a968d6f412ba88b9577429910ffa511a5", null ],
+    [ "needChange", "d2/dd5/a07117.html#acecd97e26d19c82e934817ecbc2afce9", null ],
+    [ "nodeState", "d2/dd5/a07117.html#a214e160c6fd94cefb4d080a94a12ba56", null ],
+    [ "nodeType", "d2/dd5/a07117.html#a3b303a427c4a2248dade5eada6774dc9", null ],
+    [ "timer", "d2/dd5/a07117.html#a434605ed0efcc262057a65d7cd8d0128", null ],
+    [ "worldStates", "d2/dd5/a07117.html#ae5d3b4b37fc5b7983c08b54d94d6c3d2", null ]
 ];

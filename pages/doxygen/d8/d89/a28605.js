@@ -1,8 +1,6 @@
 var a28605 =
 [
-    [ "ApplyEffect", "d8/d89/a28605.html#a0c303c58064236969e17d1f2df3e0556", null ],
-    [ "PrepareAuraScript", "d8/d89/a28605.html#a716a483282946f840ac15d73c6e21a94", null ],
-    [ "Register", "d8/d89/a28605.html#ad72816bc73bdb1cf578f3c4599ec1682", null ],
-    [ "RemoveEffect", "d8/d89/a28605.html#a571b1b19f4d5b13e54288aa89ab1e9b6", null ],
-    [ "Validate", "d8/d89/a28605.html#a99eb27ead6f5c8c8f569626600f2daf9", null ]
+    [ "PrepareSpellScript", "d8/d89/a28605.html#aa784c7af6fe38069fca4dcff9a09a22b", null ],
+    [ "Register", "d8/d89/a28605.html#a81bc86c83ffc70602410912870e61700", null ],
+    [ "VictoryRushHit", "d8/d89/a28605.html#a89387a25e67af1d47ef7f5b95344ccb0", null ]
 ];

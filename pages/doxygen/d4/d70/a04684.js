@@ -1,7 +1,9 @@
 var a04684 =
 [
-    [ "AreaInfoCallback", "d4/d70/a04684.html#a80988ffb9cda6f41e269ba896332e6a1", null ],
-    [ "operator()", "d4/d70/a04684.html#ac53fe7cf79b790f501c8a3dd94cc89ff", null ],
-    [ "aInfo", "d4/d70/a04684.html#a7c38a60631dc273abcfe930847864315", null ],
-    [ "prims", "d4/d70/a04684.html#adb24cb7deeafd42035efb29ad2529b14", null ]
+    [ "anonymous_namespace{DisableMgr.cpp}", "d7/d47/a04685.html", "d7/d47/a04685" ],
+    [ "CheckQuestDisables", "d4/d70/a04684.html#a2f9fa5dadf6f2da5f01651d37d996377", null ],
+    [ "IsDisabledFor", "d4/d70/a04684.html#a6673bbc719c96febfc86a4220a988ed0", null ],
+    [ "IsPathfindingEnabled", "d4/d70/a04684.html#ad6a338e6f295d785a4f9256703ffbd71", null ],
+    [ "IsVMAPDisabledFor", "d4/d70/a04684.html#a38b182e1836b2197303b2809006f5148", null ],
+    [ "LoadDisables", "d4/d70/a04684.html#adb464165caf6cd436499fa84969eeaf8", null ]
 ];

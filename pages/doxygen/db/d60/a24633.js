@@ -1,6 +1,6 @@
 var a24633 =
 [
-    [ "spell_najentus_hurl_spine_SpellScript", "db/d0f/a24637.html", "db/d0f/a24637" ],
-    [ "spell_najentus_hurl_spine", "db/d60/a24633.html#a3b5373e075c60c6a979831fbfe4b77a5", null ],
-    [ "GetSpellScript", "db/d60/a24633.html#a06b4b12da51d6515c58ff280d77aead7", null ]
+    [ "HammerOfJusticeSelector", "db/d60/a24633.html#a5faf5b8fa541ca02b6a2e72662674b2d", null ],
+    [ "operator()", "db/d60/a24633.html#af98812fc9f9d517a8390940566928112", null ],
+    [ "_me", "db/d60/a24633.html#a445ee445f0c0a3ff3837b33a2eeda4ea", null ]
 ];

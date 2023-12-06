@@ -1,6 +1,7 @@
 var a27297 =
 [
-    [ "CheckCast", "d9/d0d/a27297.html#ac1bc3f881c31c5ab90785a62a5f5b5ae", null ],
-    [ "PrepareSpellScript", "d9/d0d/a27297.html#a2a9c657ccffbacfc661c6bb1dc41d9de", null ],
-    [ "Register", "d9/d0d/a27297.html#a4b34bd5ce9d3e948d6c712d71ed71b2d", null ]
+    [ "HandleJump", "d9/d0d/a27297.html#ac70f6d53e85af1ee2591e761e21872db", null ],
+    [ "HandleScriptEffect", "d9/d0d/a27297.html#abdaa3c5356f84429cf6d2e053a3238ff", null ],
+    [ "PrepareSpellScript", "d9/d0d/a27297.html#a7daa7cef660e9f08b8e60c7788783c99", null ],
+    [ "Register", "d9/d0d/a27297.html#a0cbd40958551e0f38850a9fdcd6f0048", null ]
 ];

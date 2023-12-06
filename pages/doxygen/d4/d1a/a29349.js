@@ -1,11 +1,8 @@
 var a29349 =
 [
-    [ "npc_injured_patientAI", "d4/d1a/a29349.html#a0973487623f1771c598648bc06a6d9a3", null ],
-    [ "JustEngagedWith", "d4/d1a/a29349.html#a621a8cc3f6b9655760431d52766ca589", null ],
-    [ "Reset", "d4/d1a/a29349.html#a007c9c7a4047374574cad17e9309d7c1", null ],
-    [ "SpellHit", "d4/d1a/a29349.html#ac9381e7c958348ae7a5e98fea7dcbe37", null ],
-    [ "UpdateAI", "d4/d1a/a29349.html#a54d0a5574175747779878dce0ebfd44f", null ],
-    [ "_scheduler", "d4/d1a/a29349.html#a60428fa97c8f6520338d53ed368c4c35", null ],
-    [ "Coord", "d4/d1a/a29349.html#af5a6f87c0379edd07a8756018b0c8661", null ],
-    [ "DoctorGUID", "d4/d1a/a29349.html#ad1de0d556a784aa16d87b8367fdb38e3", null ]
+    [ "npc_wormholeAI", "d6/d82/a29353.html", "d6/d82/a29353" ],
+    [ "npc_wormhole", "d4/d1a/a29349.html#aeace4cbf665409786b86140709191cb0", null ],
+    [ "GetAI", "d4/d1a/a29349.html#af43ec809ce2efe2cd7127029f3c3ec45", null ],
+    [ "OnGossipHello", "d4/d1a/a29349.html#a6ae1a84557f8dc0f0631b9cc7e88d78e", null ],
+    [ "OnGossipSelect", "d4/d1a/a29349.html#a73e441bf05f8a4ea7f57d767945e2d5d", null ]
 ];

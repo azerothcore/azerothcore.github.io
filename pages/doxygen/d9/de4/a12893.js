@@ -1,6 +1,6 @@
 var a12893 =
 [
-    [ "HandleApplyTouch", "d9/de4/a12893.html#a03d3cd8c6792c4c9604ec7be7d33ea0b", null ],
-    [ "PrepareSpellScript", "d9/de4/a12893.html#a3b300a0a47de87e3f51189933d0cede6", null ],
-    [ "Register", "d9/de4/a12893.html#a9cbb2e49f9a0f64b76562401c3305cb4", null ]
+    [ "spell_temple_of_atal_hakkar_hex_of_jammal_an_AuraScript", "d6/dcc/a12897.html", "d6/dcc/a12897" ],
+    [ "spell_temple_of_atal_hakkar_hex_of_jammal_an", "d9/de4/a12893.html#a7b629f4d9e40283fd159c87ba8c54227", null ],
+    [ "GetAuraScript", "d9/de4/a12893.html#a0ea9586293b46cae56ab3fce2b652f15", null ]
 ];

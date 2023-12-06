@@ -1,6 +1,7 @@
 var a13757 =
 [
-    [ "spell", "d6/de1/a13757.html#a55423d09b2f1775dc386a36168ad764d", null ],
-    [ "text", "d6/de1/a13757.html#ab604ad9429083f2e94f6a8d026bc46a5", null ],
-    [ "unaura", "d6/de1/a13757.html#a1b71fc628793ccb9027687b31d9ebcb0", null ]
+    [ "boss_fenstalkerAI", "d6/de1/a13757.html#a971234c97e2769a2fbf36b7a954198df", null ],
+    [ "Reset", "d6/de1/a13757.html#a91865286d096bcd5bc89a2b69addb422", null ],
+    [ "UpdateAI", "d6/de1/a13757.html#a6f1f861ff540f54eb99a30909feb922b", null ],
+    [ "volatileinf_timer", "d6/de1/a13757.html#ae18ae9cf7bcaff73bb341593b8d8b816", null ]
 ];

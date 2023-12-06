@@ -1,8 +1,7 @@
 var a10301 =
 [
-    [ "CrossedInebriationThreshold", "df/dad/a10301.html#a8983b7b88a76955d9a0e2241ffb1e472", null ],
-    [ "Write", "df/dad/a10301.html#a127dcfcc7e960d24e56d1b17bf9be992", null ],
-    [ "Guid", "df/dad/a10301.html#a422afb45b6c5e9c4fef58fb1801bd0ad", null ],
-    [ "ItemID", "df/dad/a10301.html#a9e48a650bf21872099cdb0626e875fd7", null ],
-    [ "Threshold", "df/dad/a10301.html#a87b756b64cbfb8f292f46cce38308095", null ]
+    [ "GuildBankBuyTab", "df/dad/a10301.html#af2195db72eeaefea13c958e5ef62c411", null ],
+    [ "Read", "df/dad/a10301.html#a502153232a314d099ed43e1101bdfc1f", null ],
+    [ "Banker", "df/dad/a10301.html#a46f3b910aa6d69f4a82c7a603f9f0fb3", null ],
+    [ "BankTab", "df/dad/a10301.html#a5df7be995a177706fa364e31a6f8df1e", null ]
 ];

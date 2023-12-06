@@ -1,6 +1,6 @@
 var a26113 =
 [
-    [ "npc_shadowmoon_tuber_nodeAI", "df/d10/a26117.html", "df/d10/a26117" ],
-    [ "npc_shadowmoon_tuber_node", "de/d8a/a26113.html#a98e8c7a84789457900fa342cca209d41", null ],
-    [ "GetAI", "de/d8a/a26113.html#a5f641af77e2fd78fe67b34fa18bf6b73", null ]
+    [ "PrepareSpellScript", "de/d8a/a26113.html#a73b5759f25e80073b9196d14db80d8dc", null ],
+    [ "Register", "de/d8a/a26113.html#a26d056e7cc507f35f8ca680edbecf320", null ],
+    [ "SetDest", "de/d8a/a26113.html#a770b5ad526d3a55d04cc281c2c2e2168", null ]
 ];

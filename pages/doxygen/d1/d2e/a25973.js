@@ -1,6 +1,6 @@
 var a25973 =
 [
-    [ "npc_phase_hunterAI", "d4/d0e/a25977.html", "d4/d0e/a25977" ],
-    [ "npc_phase_hunter", "d1/d2e/a25973.html#a7544a03d6dd55dbb8a18b95800d74891", null ],
-    [ "GetAI", "d1/d2e/a25973.html#a7d99455d2b525b96ddeb21f3177c70e1", null ]
+    [ "npc_torloth_the_magnificentAI", "d4/d0e/a25977.html", "d4/d0e/a25977" ],
+    [ "npc_torloth_the_magnificent", "d1/d2e/a25973.html#a252796a19dcebe210eecb4d9ae150e5d", null ],
+    [ "GetAI", "d1/d2e/a25973.html#a94c206fb75cc6f50c6127908b5b5205f", null ]
 ];

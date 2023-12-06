@@ -1,6 +1,6 @@
 var a20477 =
 [
-    [ "HandleDamageCalc", "d4/d2a/a20477.html#a39e5c4207b9f4650ea3f9a9cfc27c5b1", null ],
-    [ "PrepareSpellScript", "d4/d2a/a20477.html#a90ea2aaf4255fcacbdcfcc7f26a46fb4", null ],
-    [ "Register", "d4/d2a/a20477.html#a8e5f581cf15be75dba3920af8b3ef8d1", null ]
+    [ "spell_oculus_stop_time_AuraScript", "df/d91/a20481.html", "df/d91/a20481" ],
+    [ "spell_oculus_stop_time", "d4/d2a/a20477.html#a82a5cdd50fbd6c07e65d4a9d1552181e", null ],
+    [ "GetAuraScript", "d4/d2a/a20477.html#ae8214fd12fdb6559c7db15df559e0829", null ]
 ];

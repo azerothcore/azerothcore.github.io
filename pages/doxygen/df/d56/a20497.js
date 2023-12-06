@@ -1,6 +1,7 @@
 var a20497 =
 [
-    [ "spell_oculus_ride_ruby_emerald_amber_drake_que_AuraScript", "da/db7/a20501.html", "da/db7/a20501" ],
-    [ "spell_oculus_ride_ruby_emerald_amber_drake_que", "df/d56/a20497.html#a6ea180c18d9a854ddc2101fd6c3da16f", null ],
-    [ "GetAuraScript", "df/d56/a20497.html#a13c7c149389d12e2c92ac9da01800096", null ]
+    [ "CalcDamage", "df/d56/a20497.html#ab676119d2120f53a9d9d7a14725a2c6d", null ],
+    [ "PrepareSpellScript", "df/d56/a20497.html#aa76051d7076f64013fde65d1e2747c0b", null ],
+    [ "Register", "df/d56/a20497.html#a93eaa58abef2da183f9ad9273623690a", null ],
+    [ "Validate", "df/d56/a20497.html#aa76bff752ba0ebbc81d634508de8db2c", null ]
 ];

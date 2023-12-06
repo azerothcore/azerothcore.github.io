@@ -1,8 +1,8 @@
 var a08781 =
 [
-    [ "MostHPMissingInRange", "df/d52/a08781.html#afaa26b685d4e6b0b8d3e7f062ae9fe72", null ],
-    [ "operator()", "df/d52/a08781.html#a420388204d8a1420552b902fbcb2bebe", null ],
-    [ "i_hp", "df/d52/a08781.html#a4a70531f3dc19e7a2eedde0a03142297", null ],
-    [ "i_obj", "df/d52/a08781.html#a6f803fd737b4cc81c7b9c890c49b497e", null ],
-    [ "i_range", "df/d52/a08781.html#acef63da9004997c7f25056651284efa9", null ]
+    [ "AIRelocationNotifier", "df/d52/a08781.html#ab19dba99802231bc1ba7b3ae3cb4bdb3", null ],
+    [ "Visit", "df/d52/a08781.html#a06dd774a24d4a1da36a2a862c0ad97df", null ],
+    [ "Visit", "df/d52/a08781.html#a0ec9a2499d73516dd2d4a0319990924a", null ],
+    [ "i_unit", "df/d52/a08781.html#ab1dd814e4d94ed2989bb07012a24d40e", null ],
+    [ "isCreature", "df/d52/a08781.html#a199f4b91d00dd4db90855e5521d87a95", null ]
 ];

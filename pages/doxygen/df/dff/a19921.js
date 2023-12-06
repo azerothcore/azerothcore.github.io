@@ -1,6 +1,5 @@
 var a19921 =
 [
-    [ "spell_four_horsemen_mark_AuraScript", "de/d9f/a19925.html", "de/d9f/a19925" ],
-    [ "spell_four_horsemen_mark", "df/dff/a19921.html#a7b2410b1b7e294e572ecf6a738a90add", null ],
-    [ "GetAuraScript", "df/dff/a19921.html#a6b0e20052974ddaa8d4d165771dd6c7c", null ]
+    [ "PrepareAuraScript", "df/dff/a19921.html#a263e3432d88da761a858e7c5ce2ab565", null ],
+    [ "Register", "df/dff/a19921.html#a64c8f7ac4d95eec5cf548c423d91c61d", null ]
 ];

@@ -1,6 +1,6 @@
 var a19601 =
 [
-    [ "HandleScript", "d8/d31/a19601.html#a4aae124920b03935281b99951c17c363", null ],
-    [ "PrepareSpellScript", "d8/d31/a19601.html#adb878f25734ab1eaf26bea190c0307ea", null ],
-    [ "Register", "d8/d31/a19601.html#abc314f4d47803c3cb3a2df4663dcdc0e", null ]
+    [ "HandleEvent", "d8/d31/a19601.html#a81459e72d810b0f7addb3be66c6afcf6", null ],
+    [ "PrepareSpellScript", "d8/d31/a19601.html#ad7eaef81c93e36f96869ad22b2cce9ec", null ],
+    [ "Register", "d8/d31/a19601.html#aa59ee24e05e6aa1629c5bcce361249b4", null ]
 ];

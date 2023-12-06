@@ -1,6 +1,6 @@
 var a17777 =
 [
-    [ "spell_blood_queen_frenzied_bloodthirst_AuraScript", "dd/d3d/a17781.html", "dd/d3d/a17781" ],
-    [ "spell_blood_queen_frenzied_bloodthirst", "d6/d76/a17777.html#a468e5849715964f02f7e35edeafdd7d3", null ],
-    [ "GetAuraScript", "d6/d76/a17777.html#a41029f9f92bc8c25467190bf7e7d2f43", null ]
+    [ "spell_blood_queen_pact_of_the_darkfallen_dmg_AuraScript", "dd/d3d/a17781.html", "dd/d3d/a17781" ],
+    [ "spell_blood_queen_pact_of_the_darkfallen_dmg", "d6/d76/a17777.html#aefb10858613cf661d68c423478aa556c", null ],
+    [ "GetAuraScript", "d6/d76/a17777.html#a9a795d86ffcf9d73b68f93361dd449f8", null ]
 ];

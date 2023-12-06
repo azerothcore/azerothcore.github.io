@@ -1,7 +1,7 @@
 var a23893 =
 [
-    [ "HandleScript", "db/dc9/a23893.html#a6c4dc8550ae4fced64b6cfc2926e9f94", null ],
-    [ "PrepareSpellScript", "db/dc9/a23893.html#adb46c37d0589b5e2abf7c4ebd1becc27", null ],
-    [ "Register", "db/dc9/a23893.html#a424c06a1642fd80d12d83d87335b8c4e", null ],
-    [ "Validate", "db/dc9/a23893.html#a4bcb40771fc70764fe0408e22e7d67cc", null ]
+    [ "npc_wg_demolisher_engineer", "db/dc9/a23893.html#a722ff6bac34730bfb5f36584d7a62ff8", null ],
+    [ "canBuild", "db/dc9/a23893.html#a5dd51b0d0a05ebfb648faab570e27881", null ],
+    [ "OnGossipHello", "db/dc9/a23893.html#ac3b0bbfd66bb94f29a6d733999b8c6ba", null ],
+    [ "OnGossipSelect", "db/dc9/a23893.html#a3ecf69f45918bef0cb51023327ac9693", null ]
 ];

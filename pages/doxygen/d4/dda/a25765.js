@@ -1,7 +1,6 @@
 var a25765 =
 [
-    [ "HandleDamage", "d4/dda/a25765.html#add7e78111217d00bfa3dfa5b3eb490f9", null ],
-    [ "HandleTargets", "d4/dda/a25765.html#ac9e455d4ef5cc7b7ce424b70b4387c78", null ],
-    [ "PrepareSpellScript", "d4/dda/a25765.html#a46b62a09ea23cb102b0e5cf075c727d4", null ],
-    [ "Register", "d4/dda/a25765.html#a8873614ae22c908cb2cf49129fc53be2", null ]
+    [ "spell_q10935_the_exorcism_of_colonel_jules_SpellScript", "db/dec/a25769.html", "db/dec/a25769" ],
+    [ "spell_q10935_the_exorcism_of_colonel_jules", "d4/dda/a25765.html#a6991db0b226c7f9c225922e4f5103fe2", null ],
+    [ "GetSpellScript", "d4/dda/a25765.html#a614fce6182e2cc35d8a3e985d48e3426", null ]
 ];

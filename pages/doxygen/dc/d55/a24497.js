@@ -1,6 +1,6 @@
 var a24497 =
 [
-    [ "PrepareAuraScript", "dc/d55/a24497.html#ac8168dc13b599e0459a465c150515e58", null ],
-    [ "Register", "dc/d55/a24497.html#af9988a25e208e4203a3a4c5498f3c6ff", null ],
-    [ "AuraEffectHandleModes", "dc/d55/a24497.html#a28d97377305d52b19610760e16b18a92", null ]
+    [ "boss_reliquary_of_soulsAI", "d8/d14/a24501.html", "d8/d14/a24501" ],
+    [ "boss_reliquary_of_souls", "dc/d55/a24497.html#a0c73fc6221da0b19903e534932ca6406", null ],
+    [ "GetAI", "dc/d55/a24497.html#a55b717fe2b1bfdda84fec6c63852ae7c", null ]
 ];

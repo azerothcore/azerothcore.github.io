@@ -1,6 +1,5 @@
 var a29413 =
 [
-    [ "npc_spring_rabbitAI", "de/d03/a29417.html", "de/d03/a29417" ],
-    [ "npc_spring_rabbit", "d0/d71/a29413.html#a4e2ed1f556edd535a8d262d7e0bdfa1a", null ],
-    [ "GetAI", "d0/d71/a29413.html#a968933658fbcc7f7cbdfca90fd9a68dc", null ]
+    [ "npc_controller", "d0/d71/a29413.html#a3c75fb509d5cf4b4d417c97b409615b1", null ],
+    [ "OnCharmed", "d0/d71/a29413.html#a69628677de225d76a8c89b4626e0f32b", null ]
 ];

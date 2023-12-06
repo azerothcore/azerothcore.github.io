@@ -1,7 +1,5 @@
 var a30085 =
 [
-    [ "ID", "de/d1c/a30085.html#aa5db020808990dc98fc143e4a5e0d2b2", null ],
-    [ "RadiusMax", "de/d1c/a30085.html#ab82c1acb9309b17104958182d80b01d1", null ],
-    [ "RadiusMin", "de/d1c/a30085.html#acaee7da373b94a262e01d4bd3bea4f08", null ],
-    [ "RadiusPerLevel", "de/d1c/a30085.html#a74bb59afb808af45ceff6367468fca1e", null ]
+    [ "Price", "de/d1c/a30085.html#a9cf01cf0d41d49613b4ceaf1eeb1716b", null ],
+    [ "Slot", "de/d1c/a30085.html#aa53247914bda0ceca015b8b9ca117379", null ]
 ];

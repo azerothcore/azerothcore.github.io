@@ -1,8 +1,7 @@
 var a08945 =
 [
-    [ "LocalizedPacketDo", "d2/dc7/a08945.html#a9b7700f2a4958b91a67375ec9a40072c", null ],
-    [ "~LocalizedPacketDo", "d2/dc7/a08945.html#a4296260b2011e1f7c300987073863ca9", null ],
-    [ "operator()", "d2/dc7/a08945.html#a43449bdf0302e426b8cb4341326196b1", null ],
-    [ "i_builder", "d2/dc7/a08945.html#a2c794905898feb502bfc5d3760f962b8", null ],
-    [ "i_data_cache", "d2/dc7/a08945.html#a2bbff655e1a5268981c48e3ee028b104", null ]
+    [ "AnyUnfriendlyAttackableVisibleUnitInObjectRangeCheck", "d2/dc7/a08945.html#a038f512c564e4ae18571ac1836897edb", null ],
+    [ "operator()", "d2/dc7/a08945.html#a3bc09bf6fc4481c67190f57dc4198f6e", null ],
+    [ "i_funit", "d2/dc7/a08945.html#a3a0742f36f0a0a22c4ae6a2c8b8269b6", null ],
+    [ "i_range", "d2/dc7/a08945.html#a953943e53e25b6887bfab8cc1c19620a", null ]
 ];

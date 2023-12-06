@@ -1,6 +1,8 @@
 var a21817 =
 [
-    [ "npc_ulduar_dark_rune_watcherAI", "d4/d44/a21821.html", "d4/d44/a21821" ],
-    [ "npc_ulduar_dark_rune_watcher", "d3/d01/a21817.html#a0536c61d70d5c6d61496fc1720d37950", null ],
-    [ "GetAI", "d3/d01/a21817.html#a6677d6dc0d07b508e921064f3299b302", null ]
+    [ "npc_ulduar_expedition_commanderAI", "d4/d44/a21821.html", "d4/d44/a21821" ],
+    [ "npc_ulduar_expedition_commander", "d3/d01/a21817.html#a8513554f686b75c29524fa5b2fa93ee4", null ],
+    [ "GetAI", "d3/d01/a21817.html#aa888a3634a643a103075d44c8f52d28a", null ],
+    [ "OnGossipHello", "d3/d01/a21817.html#a6b52abae7ec1be10fcb5385ec928b785", null ],
+    [ "OnGossipSelect", "d3/d01/a21817.html#a5d212e5e21d9ffb8c60e883e065c1801", null ]
 ];

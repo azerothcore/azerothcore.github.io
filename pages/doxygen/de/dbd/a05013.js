@@ -1,8 +1,10 @@
 var a05013 =
 [
-    [ "Decode", "de/dbd/a05013.html#aacf2a55e180aa5ee475ac76c6af4d47a", null ],
-    [ "Encode", "de/dbd/a05013.html#a51c8847dc9b75161f4d2d366324dc50f", null ],
-    [ "BITS_PER_CHAR", "de/dbd/a05013.html#a10f3736ee2ed8e79e1236798e2b1d2be", null ],
-    [ "DECODE_ERROR", "de/dbd/a05013.html#ace6b211be8a36043942f0a1aaee063b1", null ],
-    [ "PADDING", "de/dbd/a05013.html#af099d69cc636a7ad298ec9e38b2f20d2", null ]
+    [ "ARC4", "de/dbd/a05013.html#ac05d4f85233abfc5cbcb87cd2a87bc5a", null ],
+    [ "~ARC4", "de/dbd/a05013.html#af3a8b63c2073120026c262a685eef8f2", null ],
+    [ "Init", "de/dbd/a05013.html#a68993c30cafb864abd5ae0c49ee8296e", null ],
+    [ "Init", "de/dbd/a05013.html#a13bd9c79d4535d115831303b14b5f89d", null ],
+    [ "UpdateData", "de/dbd/a05013.html#ae350945f2713305e977e4a3e4fc3d5b5", null ],
+    [ "UpdateData", "de/dbd/a05013.html#afeb8a273bac5a73417e8026421c6ea70", null ],
+    [ "_ctx", "de/dbd/a05013.html#a8539413b1e0344abe9545f742cc8e6df", null ]
 ];

@@ -1,11 +1,10 @@
 var a14085 =
 [
-    [ "npc_dark_iron_attack_mole_machine", "d1/d66/a14085.html#a473a8fb4905e5d1333196797d7d0f371", null ],
-    [ "AttackStart", "d1/d66/a14085.html#a999dd932fbaf22a8275dfdba150c3291", null ],
-    [ "JustEngagedWith", "d1/d66/a14085.html#a50e0657f33f15bf2ffe83ca4041eb483", null ],
-    [ "MoveInLineOfSight", "d1/d66/a14085.html#a2be5de913ca9d472a31cd44c07bcde57", null ],
-    [ "Reset", "d1/d66/a14085.html#a0727aab751ddfbd94ae070e60e47e768", null ],
-    [ "UpdateAI", "d1/d66/a14085.html#a1217ed510a846d011143ae0a386c6236", null ],
-    [ "goTimer", "d1/d66/a14085.html#a8686845ebef564c9fcaa115866c99749", null ],
-    [ "summonTimer", "d1/d66/a14085.html#a4713da02f4a86547a0f796167e24d8bb", null ]
+    [ "npc_zealot_zath", "d1/d66/a14085.html#a845840d0a45dd6c4b6368ee4ecf6917b", null ],
+    [ "JustDied", "d1/d66/a14085.html#ae56e2e89a6ba623200e9ee36977cee13", null ],
+    [ "JustEngagedWith", "d1/d66/a14085.html#a25e059f40de51d880f4ec209ff4dd924", null ],
+    [ "Reset", "d1/d66/a14085.html#abc4e40afd644f2c89444f3fe475817c0", null ],
+    [ "UpdateAI", "d1/d66/a14085.html#a467ce2437ec112b42f864ef412c0c976", null ],
+    [ "_scheduler", "d1/d66/a14085.html#a146679c4eb3eec444ff1dcd9a780110a", null ],
+    [ "instance", "d1/d66/a14085.html#a66dfe3182b45e984b4d81d40051e5ecc", null ]
 ];

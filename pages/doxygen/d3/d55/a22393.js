@@ -1,5 +1,6 @@
 var a22393 =
 [
-    [ "PrepareAuraScript", "d3/d55/a22393.html#a664ecc588653e376293e82f6d25daa3a", null ],
-    [ "Register", "d3/d55/a22393.html#a9d61cc982d0d8d176e8e7efba0225b68", null ]
+    [ "spell_ulduar_energy_sap_AuraScript", "d5/d41/a22397.html", "d5/d41/a22397" ],
+    [ "spell_ulduar_energy_sap", "d3/d55/a22393.html#a65d7533e93cd9c2d687153b0d55c6c7e", null ],
+    [ "GetAuraScript", "d3/d55/a22393.html#a41df0adf7bbbc29d0d4aa86b7e080e4e", null ]
 ];

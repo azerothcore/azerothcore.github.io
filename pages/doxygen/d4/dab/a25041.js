@@ -1,6 +1,7 @@
 var a25041 =
 [
-    [ "FilterTargets", "d4/dab/a25041.html#a9b79bafc1527e6c3074bd83238a9ec7f", null ],
-    [ "PrepareSpellScript", "d4/dab/a25041.html#a32dbcfa150da63331a90a3bdd9884250", null ],
-    [ "Register", "d4/dab/a25041.html#a236094cf46afd88305028272afc838e7", null ]
+    [ "boss_hydromancer_thespia", "d4/dab/a25041.html#a5747c2da9914dcf4118ee0fb37a3a3fd", null ],
+    [ "JustDied", "d4/dab/a25041.html#ad0662daabd636bbf544a6791187d71fa", null ],
+    [ "JustEngagedWith", "d4/dab/a25041.html#af230e57ec259e5c92c4034a674d1b6a5", null ],
+    [ "KilledUnit", "d4/dab/a25041.html#ae1bb4819867ef5718cb5d9130d62fa20", null ]
 ];

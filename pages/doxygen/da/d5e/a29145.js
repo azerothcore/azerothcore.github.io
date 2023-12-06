@@ -1,5 +1,6 @@
 var a29145 =
 [
-    [ "item_only_for_flight", "da/d5e/a29145.html#a8f905266dc8f24cf35598a37e7018ff7", null ],
-    [ "OnUse", "da/d5e/a29145.html#a88cdf17a85630aef703f93143ba41d4d", null ]
+    [ "generic_creatureAI", "d2/d8d/a29149.html", "d2/d8d/a29149" ],
+    [ "generic_creature", "da/d5e/a29145.html#a2da1630d1a336193ea51cf59f8cb9825", null ],
+    [ "GetAI", "da/d5e/a29145.html#a5635106fb7d3a58a27d20ee2ec07c422", null ]
 ];

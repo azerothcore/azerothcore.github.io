@@ -1,6 +1,6 @@
 var a18165 =
 [
-    [ "spell_igb_incinerating_blast_SpellScript", "d3/db6/a18169.html", "d3/db6/a18169" ],
-    [ "spell_igb_incinerating_blast", "d5/db7/a18165.html#ab0ae038b07a574d79248d40c1d5a2f09", null ],
-    [ "GetSpellScript", "d5/db7/a18165.html#aa7668dddef0d2c9178e0c66501a94159", null ]
+    [ "IgbTeleportOnVictoryCheck", "d5/db7/a18165.html#a29ee8cac93b9920e598da9205406e608", null ],
+    [ "operator()", "d5/db7/a18165.html#acf85943e238179e911434358f1593be2", null ],
+    [ "_inst", "d5/db7/a18165.html#a015353ecb66da16c697152b7ad3c527e", null ]
 ];

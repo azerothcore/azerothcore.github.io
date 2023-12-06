@@ -1,9 +1,9 @@
 var dir_23d74cf01fe3f1f57e5987f77f0efe4c =
 [
-    [ "boss_baltharus_the_warborn.cpp", "d9/d33/a03269.html", "d9/d33/a03269" ],
-    [ "boss_general_zarithrian.cpp", "d4/d1c/a03272.html", "d4/d1c/a03272" ],
-    [ "boss_halion.cpp", "d8/dbf/a03275.html", "d8/dbf/a03275" ],
-    [ "boss_saviana_ragefire.cpp", "d9/d7f/a03278.html", "d9/d7f/a03278" ],
-    [ "instance_ruby_sanctum.cpp", "d0/d84/a03281.html", "d0/d84/a03281" ],
-    [ "ruby_sanctum.h", "d6/d25/a03284.html", "d6/d25/a03284" ]
+    [ "boss_baltharus_the_warborn.cpp", "dd/dfe/a03425.html", "dd/dfe/a03425" ],
+    [ "boss_general_zarithrian.cpp", "d5/d6b/a03428.html", "d5/d6b/a03428" ],
+    [ "boss_halion.cpp", "d2/d78/a03431.html", "d2/d78/a03431" ],
+    [ "boss_saviana_ragefire.cpp", "d5/d85/a03434.html", "d5/d85/a03434" ],
+    [ "instance_ruby_sanctum.cpp", "d5/d56/a03437.html", "d5/d56/a03437" ],
+    [ "ruby_sanctum.h", "df/d89/a03440.html", "df/d89/a03440" ]
 ];

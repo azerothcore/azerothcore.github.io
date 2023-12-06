@@ -1,6 +1,7 @@
 var a08277 =
 [
-    [ "GlobalCooldown", "d2/d2d/a08277.html#a5859ccec9d1fdf0a8f11f5ab77c135a9", null ],
-    [ "cast_time", "d2/d2d/a08277.html#a7e2fe46367bad59669b0f2fd33736b30", null ],
-    [ "duration", "d2/d2d/a08277.html#a7fbf3127e4a2cc93171934148275ae1d", null ]
+    [ "ItemPosCount", "d2/d2d/a08277.html#a43458da1fc31d827b6de726754f7901e", null ],
+    [ "isContainedIn", "d2/d2d/a08277.html#a6977c544a2d39ca5872b75f27517974f", null ],
+    [ "count", "d2/d2d/a08277.html#a4e09f94aa0808f76b2d5ff23691abb27", null ],
+    [ "pos", "d2/d2d/a08277.html#ad8954f1a6323316510cfe0f332ee495f", null ]
 ];

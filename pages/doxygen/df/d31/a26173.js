@@ -1,6 +1,6 @@
 var a26173 =
 [
-    [ "HandleSendEvent", "df/d31/a26173.html#a1ff097621f64e894be024de4e0946b34", null ],
-    [ "PrepareSpellScript", "df/d31/a26173.html#ab967a899ac6d2397c2f871cc5062cfc6", null ],
-    [ "Register", "df/d31/a26173.html#a590fe9da733c8b7bf08464f277b398f7", null ]
+    [ "npc_pet_dk_dancing_rune_weaponAI", "d6/dc5/a26177.html", "d6/dc5/a26177" ],
+    [ "npc_pet_dk_dancing_rune_weapon", "df/d31/a26173.html#aaa0881509c2842d6c0442884d0947e28", null ],
+    [ "GetAI", "df/d31/a26173.html#aae11c76fbcf729f44136c53b2b3e0982", null ]
 ];

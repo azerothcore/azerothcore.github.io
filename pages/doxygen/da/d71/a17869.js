@@ -1,6 +1,12 @@
 var a17869 =
 [
-    [ "spell_deathbringer_blood_link_SpellScript", "da/d8d/a17873.html", "da/d8d/a17873" ],
-    [ "spell_deathbringer_blood_link", "da/d71/a17869.html#a288e4021c630865c38a1c3f9ff577b7f", null ],
-    [ "GetSpellScript", "da/d71/a17869.html#a5cd172d455165851fb361f808a77b506", null ]
+    [ "npc_high_overlord_saurfangAI", "da/d71/a17869.html#a5c31259d9eb26e09d2b645d826e75328", null ],
+    [ "DoAction", "da/d71/a17869.html#a4a372a14c960c48c51a1c8e34ebffc53", null ],
+    [ "MovementInform", "da/d71/a17869.html#a6a46f99ffb67a699ef9adb2a1afcbe13", null ],
+    [ "Reset", "da/d71/a17869.html#a28899c61f9b4d3612535d1a01dc05f4a", null ],
+    [ "SpellHit", "da/d71/a17869.html#a6399e9c9ecdb8c01fbd2bcd1b081811f", null ],
+    [ "UpdateAI", "da/d71/a17869.html#a92124e7490a066bf63836397a3bdc71b", null ],
+    [ "_events", "da/d71/a17869.html#a12bbe13cf8fd1eda0cb8aa75ecafddc4", null ],
+    [ "_guardList", "da/d71/a17869.html#a1d8ccb93c5c8d13767fa8a1429adb262", null ],
+    [ "_instance", "da/d71/a17869.html#a4181022e52fc10e2d5d98dcffe9ced62", null ]
 ];

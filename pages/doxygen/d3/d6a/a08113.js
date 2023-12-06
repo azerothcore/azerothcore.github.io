@@ -1,10 +1,10 @@
 var a08113 =
 [
-    [ "DuelInfo", "d3/d6a/a08113.html#a183f336e52fe7cdaa34dbb43991d0c39", null ],
-    [ "Initiator", "d3/d6a/a08113.html#ae1a6667f934c88ad8f0b160e6a8b1190", null ],
-    [ "IsMounted", "d3/d6a/a08113.html#ad80e3507a7bdfc8f7dbebd07697c464f", null ],
-    [ "Opponent", "d3/d6a/a08113.html#a2765770367c839ad28f804e2df3205cb", null ],
-    [ "OutOfBoundsTime", "d3/d6a/a08113.html#a8ff9ae1c990674b6ac0cd929f5114f23", null ],
-    [ "StartTime", "d3/d6a/a08113.html#a1b8b4c373b2e4243f8e33a391821528f", null ],
-    [ "State", "d3/d6a/a08113.html#ae8492a9857d819fcec56a10cfd5051e2", null ]
+    [ "ObjectGuidGeneratorBase", "d3/d6a/a08113.html#a8af6741cc884915ee86b489fc970fed1", null ],
+    [ "~ObjectGuidGeneratorBase", "d3/d6a/a08113.html#aaa4430614e899fb1186f52875cf8d2ea", null ],
+    [ "Generate", "d3/d6a/a08113.html#a7a6d9e5a78eef31007a46c10805c3fbe", null ],
+    [ "GetNextAfterMaxUsed", "d3/d6a/a08113.html#abf1f20b97af8071459bd850e7106a442", null ],
+    [ "HandleCounterOverflow", "d3/d6a/a08113.html#ada7a44ac47b112491c575c38465740fc", null ],
+    [ "Set", "d3/d6a/a08113.html#a18b016edddec211c9cc4b0ff8682cb30", null ],
+    [ "_nextGuid", "d3/d6a/a08113.html#a4a14102e019aa10f41b050054cacca22", null ]
 ];

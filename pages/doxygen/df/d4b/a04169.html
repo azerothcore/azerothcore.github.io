@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/scripts/Outland/zone_shadowmoon_valley.cpp File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/scripts/Outland/GruulsLair/instance_gruuls_lair.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,952 +107,139 @@ $(document).ready(function(){initNavTree('df/d4b/a04169.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">zone_shadowmoon_valley.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">instance_gruuls_lair.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedEscortAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedGossip.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">gruuls_lair.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/df3/a25997.html">spell_q10612_10613_the_fel_and_the_furious</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d77/a25185.html">instance_gruuls_lair</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d75/a26001.html">spell_q10612_10613_the_fel_and_the_furious::spell_q10612_10613_the_fel_and_the_furious_SpellScript</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a25189.html">instance_gruuls_lair::instance_gruuls_lair_InstanceMapScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d0e/a26005.html">spell_q10563_q10596_to_legion_hold</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db0/a26009.html">spell_q10563_q10596_to_legion_hold::spell_q10563_q10596_to_legion_hold_AuraScript</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd7/a26013.html">npc_invis_infernal_caster</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d17/a26017.html">npc_invis_infernal_caster::npc_invis_infernal_casterAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df9/a26021.html">npc_infernal_attacker</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dc0/a26025.html">npc_infernal_attacker::npc_infernal_attackerAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dca/a26029.html">npc_mature_netherwing_drake</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d6b/a26033.html">npc_mature_netherwing_drake::npc_mature_netherwing_drakeAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d13/a26037.html">npc_enslaved_netherwing_drake</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6e/a26041.html">npc_enslaved_netherwing_drake::npc_enslaved_netherwing_drakeAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dad/a26045.html">npc_dragonmaw_peon</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/a26049.html">npc_dragonmaw_peon::npc_dragonmaw_peonAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/a26053.html">npc_drake_dealer_hurlunk</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a26057.html">npcs_flanis_swiftwing_and_kagrosh</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc5/a26061.html">npc_karynaku</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/a26065.html">TorlothCinematic</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d29/a26069.html">Location</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d84/a26073.html">WaveDataCreature</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2e/a15569.html">SpawnSpells</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de6/a26077.html">npc_torloth_the_magnificent</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a26081.html">npc_torloth_the_magnificent::npc_torloth_the_magnificentAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d32/a26085.html">npc_lord_illidan_stormrage</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d58/a26089.html">npc_lord_illidan_stormrage::npc_lord_illidan_stormrageAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d46/a26093.html">npc_illidari_spawn</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a26097.html">npc_illidari_spawn::npc_illidari_spawnAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df9/a26101.html">go_crystal_prison</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d64/a26105.html">npc_enraged_spirit</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d21/a26109.html">npc_enraged_spirit::npc_enraged_spiritAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d8a/a26113.html">npc_shadowmoon_tuber_node</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d10/a26117.html">npc_shadowmoon_tuber_node::npc_shadowmoon_tuber_nodeAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a8a2ff2fb117ec9e7227f835b7a7be2af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#a8a2ff2fb117ec9e7227f835b7a7be2af">GOSSIP_HSK1</a>&#160;&#160;&#160;&quot;Take Flanis's Pack&quot;</td></tr>
-<tr class="separator:a8a2ff2fb117ec9e7227f835b7a7be2af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0126df4fee9368667cc7489ae9377f8e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#a0126df4fee9368667cc7489ae9377f8e">GOSSIP_HSK2</a>&#160;&#160;&#160;&quot;Take Kagrosh's Pack&quot;</td></tr>
-<tr class="separator:a0126df4fee9368667cc7489ae9377f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a310a37ec148e2e37c1123f9ced34020f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#a310a37ec148e2e37c1123f9ced34020f">QUEST_BATTLE_OF_THE_CRIMSON_WATCH</a>&#160;&#160;&#160;10781</td></tr>
-<tr class="separator:a310a37ec148e2e37c1123f9ced34020f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab69ef601d31d0264381d9af5e06f7769"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#ab69ef601d31d0264381d9af5e06f7769">EVENT_AREA_RADIUS</a>&#160;&#160;&#160;65</td></tr>
-<tr class="separator:ab69ef601d31d0264381d9af5e06f7769"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4154053cb93b323fc74dd05d04a20d7e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#a4154053cb93b323fc74dd05d04a20d7e">EVENT_COOLDOWN</a>&#160;&#160;&#160;30000</td></tr>
-<tr class="separator:a4154053cb93b323fc74dd05d04a20d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:afc71d3d9676b2a12bfa07cf43efa1981"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981">InvisInfernalCaster</a> { <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981a899ef19a4cdbde17f4b142ab87f22a2c">EVENT_CAST_SUMMON_INFERNAL</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981afbefec58dbc4796010d20c4461668228">NPC_INFERNAL_ATTACKER</a> = 21419
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981a116fbb11cfd55f4f743ab6e6b1e169c4">MODEL_INVISIBLE</a> = 20577
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981a490991c939197eb08d5889b53ef448be">MODEL_INFERNAL</a> = 17312
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981ade42ab46d5d7f906d8fb7bd16cdcc241">SPELL_SUMMON_INFERNAL</a> = 37277
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981ad8a8f951d8f106aa11eed28742d7a6c8">TYPE_INFERNAL</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981a04a6cbcda450d7a68236e4f4df039e36">DATA_DIED</a> = 1
-<br />
- }</td></tr>
-<tr class="separator:afc71d3d9676b2a12bfa07cf43efa1981"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3fa044cb8f97b19130eb0644fd422ec"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422ec">MatureNetherwing</a> { <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422ecad453298ccc9b6b3ab0523dfafb9f548f">SAY_JUST_EATEN</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca4f9d035431da4bdb746a4e08fc6425e0">SPELL_PLACE_CARCASS</a> = 38439
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca6cadc7fa90937b8d5727d19ad97478dc">SPELL_JUST_EATEN</a> = 38502
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca1f64ef182504e0be2caa5bb708cbd0fa">SPELL_NETHER_BREATH</a> = 38467
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422ecac7fd29ccba65af8d63b83beb9cdbb597">POINT_ID</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca84c159e72b76bf1699302c28c7da3016">GO_CARCASS</a> = 185155
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca0b8ea699ea2283c1b89030430b100428">QUEST_KINDNESS</a> = 10804
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca353ae26eabea41367f83995cef9290e1">NPC_EVENT_PINGER</a> = 22131
-<br />
- }</td></tr>
-<tr class="separator:ac3fa044cb8f97b19130eb0644fd422ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adac4495636f524e96492a9b0806ca846"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#adac4495636f524e96492a9b0806ca846">EnshlavedNetherwingDrake</a> { <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#adac4495636f524e96492a9b0806ca846a7eced2a85eb71427d5b4afdb72d815b2">SPELL_HIT_FORCE_OF_NELTHARAKU</a> = 38762
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#adac4495636f524e96492a9b0806ca846afe2033feee6894144f1ecd7c91ab32b1">SPELL_FORCE_OF_NELTHARAKU</a> = 38775
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#adac4495636f524e96492a9b0806ca846a71553bfde406198e8a89cc5436a381b6">NPC_DRAGONMAW_SUBJUGATOR</a> = 21718
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#adac4495636f524e96492a9b0806ca846a08ffe87232f0c55b72bd5e43b9570800">NPC_ESCAPE_DUMMY</a> = 22317
-<br />
- }</td></tr>
-<tr class="separator:adac4495636f524e96492a9b0806ca846"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae554d834b3961877059bec92621b0103"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103">DragonmawPeon</a> { <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a307d891e05530d70a32ad2047cfe6dab">SAY_1</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a1b5f3041ee91b4a664528018eed0166e">SAY_POISONED_1</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a6ab0bda74bcf7baf41bcd485a9ce0edc">SPELL_POISON</a> = 40468
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a4de29e3fa18189011f62fd209e6be3fc">SPELL_KICK</a> = 15610
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103af263a112c1204e3125fcc7b0209ef285">SPELL_SUNDER</a> = 15572
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103aab5234463aa64c76c909cd2b30631be7">SPELL_VOMIT</a> = 43327
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103aa8873414cf1cfe9b65c801881b4229ab">EVENT_KICK</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a774aeafbcc7fcca150af234e9f5ba8d3">EVENT_SUNDER</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a11bf80402c002fde8b32ece6a60dff2f">EVENT_CHECK_POISON</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a70ce837fb348f11956c1228a3ef9c325">EVENT_WALK_TO_MUTTON</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a8d45870c3c95c1b297f0b27948d74e01">EVENT_POISONED</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103aa370ba4e92a593f2bb65c2198b275380">EVENT_KILL</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a76d74da4ee3587eb152886c89f67abc9">DELICIOUS_MUTTON</a> = 185893
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103ad9223a935bb2b9781e91f78f175d41c2">QUEST_A_SLOW_DEATH</a> = 11020
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a9705e75b428b543df1304a85eee62ac1">DRAGONMAW_PEON_KILL_CREDIT</a> = 23209
-<br />
- }</td></tr>
-<tr class="separator:ae554d834b3961877059bec92621b0103"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a123c4b1ebb762013db19c932e44a4e24"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#a123c4b1ebb762013db19c932e44a4e24">Karynaku</a> { <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a123c4b1ebb762013db19c932e44a4e24a0cea5be66aa00f0a720a75b2dfe52849">QUEST_ALLY_OF_NETHER</a> = 10870
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a123c4b1ebb762013db19c932e44a4e24a8a25a8632e923dc91043d53eb9d8d45c">QUEST_ZUHULED_THE_WACK</a> = 10866
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a123c4b1ebb762013db19c932e44a4e24a9071f3130c4bfcd8cdaee5304999a930">NPC_ZUHULED_THE_WACKED</a> = 11980
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a123c4b1ebb762013db19c932e44a4e24a5e1e78493c55a69bd98f896ff332f0f1">TAXI_PATH_ID</a> = 649
-<br />
- }</td></tr>
-<tr class="separator:a123c4b1ebb762013db19c932e44a4e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90c0d27144e43f3959fcc5d52db82e89"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89">Enraged_Dpirits</a> { <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a00af6a5cf882aa60dbd00b72682e62f4">QUEST_ENRAGED_SPIRITS_FIRE_EARTH</a> = 10458
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89ac10d744c3b0fe0744414ac6287da8582">QUEST_ENRAGED_SPIRITS_AIR</a> = 10481
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89af28f06266655235767f00124047eb0cf">QUEST_ENRAGED_SPIRITS_WATER</a> = 10480
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89aae37f2ca0fb9f937d7b9a4978fd01129">ENTRY_TOTEM_OF_SPIRITS</a> = 21071
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a8cc75aff50e4b588c0c03b68843d8dd2">RADIUS_TOTEM_OF_SPIRITS</a> = 15
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a7960db784552c9c9e6844cdd45abe658">NPC_ENRAGED_EARTH_SPIRIT</a> = 21050
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89af2a1f731d0c25557696e9cd443d290ea">NPC_ENRAGED_FIRE_SPIRIT</a> = 21061
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a0aec9f00588d40567cb7dd671db50fed">NPC_ENRAGED_AIR_SPIRIT</a> = 21060
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a785b1b1793ba985baa020374d34ca3e0">NPC_ENRAGED_WATER_SPIRIT</a> = 21059
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a8a2e1108c381ff2b790a4b57839b6754">SPELL_STORMBOLT</a> = 38032
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a2ea40a0c10fd532d1c6d13fe72683bf9">SPELL_AIR_SPIRIT_CHAIN_LIGHTNING</a> = 12058
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89acc28d36f2859b93e18fa1a0c8e2e0f88">SPELL_HURRICANE</a> = 32717
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a2a20f56307679be4d4f01a0d3d93cc7e">SPELL_ENRAGE</a> = 8599
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a99ac159470e5ec6df42c6b4e8d239f19">SPELL_FEL_FIREBALL</a> = 36247
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a3a3ace68ae8e52f1ba035dfc34b9d113">SPELL_FEL_FIRE_AURA</a> = 36006
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a20aef8173bae9da58cf133712a8e9aa6">SPELL_FIERY_BOULDER</a> = 38498
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89afd5151bfc238f19eb8763743dccf425a">SPELL_SUMMON_ENRAGED_EARTH_SHARD</a> = 38365
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a7a6e0dbed6931227c0a227c71ab4f60d">NPC_EARTHEN_SOUL</a> = 21073
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89ae00c2ae7cc2379845930d79d7945a2f9">NPC_FIERY_SOUL</a> = 21097
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89af0e74bb51810c096483e41a3186f4387">NPC_ENRAGED_AIRY_SOUL</a> = 21116
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a994bd23bad1aa3506d5acbaead2f0686">NPC_ENRAGED_WATERY_SOUL</a> = 21109
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a041b06322abed018c2c8e5e4d5c1fc74">SPELL_EARTHEN_SOUL_CAPTURED_CREDIT</a> = 36108
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89ad2fd0ec562d50f32148c9252379bb20f">SPELL_FIERY_SOUL_CAPTURED_CREDIT</a> = 36117
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89aaeda6e62797e83728e0f89966984c7a6">SPELL_AIRY_SOUL_CAPTURED_CREDIT</a> = 36182
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89aa042c1a7cb5e61b67522597aa19f03bd">SPELL_WATERY_SOUL_CAPTURED_CREDIT</a> = 36171
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89adf1cf0863ae1a073c5715469f763a51c">NPC_CREDIT_FIRE</a> = 21094
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a75a68f28eff876a9f96b31591d24b49d">NPC_CREDIT_WATER</a> = 21095
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a8942f47767ef2d47701cd2211925c693">NPC_CREDIT_AIR</a> = 21096
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a96b0475391ed7efa5605477301d6911f">NPC_CREDIT_EARTH</a> = 21092
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a41055491c9356e1ef93a9e68820237ce">SPELL_SOUL_CAPTURED</a> = 36115
-<br />
- }</td></tr>
-<tr class="separator:a90c0d27144e43f3959fcc5d52db82e89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a291915ace633b26b8dce599d6e9ee70d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70d">ShadowMoonTuberEnum</a> { <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70da67567999784143ab1ea8cd3ba26ea1fd">SPELL_WHISTLE</a> = 36652
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70da85b62e76374bbd3bf54e760e565bf080">SPELL_SHADOWMOON_TUBER</a> = 36462
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70daf6bc3f9354df41639b1d269f90c7b3eb">NPC_BOAR_ENTRY</a> = 21195
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70dafe9c76701fdd7f4c9ee827d727255719">GO_SHADOWMOON_TUBER_MOUND</a> = 184701
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70dae3723de3df9db38a012d0f0cd70ead61">POINT_TUBER</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70da550a96f6a5f527aed2108c53d44a0c85">TYPE_BOAR</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70dab9c4a21bb24ba5bc3a604a720b5056de">DATA_BOAR</a> = 1
-<br />
- }</td></tr>
-<tr class="separator:a291915ace633b26b8dce599d6e9ee70d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a787e8b63075b328932e0fa7237d4f3c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#a787e8b63075b328932e0fa7237d4f3c5">AddSC_shadowmoon_valley</a> ()</td></tr>
-<tr class="separator:a787e8b63075b328932e0fa7237d4f3c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c9bd5a761d9018e8be9e0c11b8db2c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#a6c9bd5a761d9018e8be9e0c11b8db2c5">AddSC_instance_gruuls_lair</a> ()</td></tr>
+<tr class="separator:a6c9bd5a761d9018e8be9e0c11b8db2c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a7c2e0b764b580aefde5c593f077642a0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../de/d1b/a26065.html">TorlothCinematic</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#a7c2e0b764b580aefde5c593f077642a0">TorlothAnim</a> []</td></tr>
-<tr class="separator:a7c2e0b764b580aefde5c593f077642a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49b9a0d378851fc27feacce144995fc1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d29/a26069.html">Location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#a49b9a0d378851fc27feacce144995fc1">SpawnLocation</a> []</td></tr>
-<tr class="separator:a49b9a0d378851fc27feacce144995fc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdf75daa27951ff92fc1ee8b171d064a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../da/d84/a26073.html">WaveDataCreature</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#acdf75daa27951ff92fc1ee8b171d064a">WavesInfo</a> []</td></tr>
-<tr class="separator:acdf75daa27951ff92fc1ee8b171d064a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d25fd6452855fb4166558c34940caff"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d2e/a15569.html">SpawnSpells</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#a1d25fd6452855fb4166558c34940caff">SpawnCast</a> []</td></tr>
-<tr class="separator:a1d25fd6452855fb4166558c34940caff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d34/a09237.html">DoorData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#a69c4a0ca4694d5ed1d42f0373dd5d80c">doorData</a> []</td></tr>
+<tr class="separator:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a412286b689bd324fedd65ddd8dde8afb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d08/a09253.html">ObjectData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#a412286b689bd324fedd65ddd8dde8afb">creatureData</a> []</td></tr>
+<tr class="separator:a412286b689bd324fedd65ddd8dde8afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6720238df140a3c574a711042b7f5bd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/da4/a09249.html">MinionData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4b/a04169.html#a6720238df140a3c574a711042b7f5bd3">minionData</a> []</td></tr>
+<tr class="separator:a6720238df140a3c574a711042b7f5bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ab69ef601d31d0264381d9af5e06f7769" name="ab69ef601d31d0264381d9af5e06f7769"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab69ef601d31d0264381d9af5e06f7769">&#9670;&#160;</a></span>EVENT_AREA_RADIUS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define EVENT_AREA_RADIUS&#160;&#160;&#160;65</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4154053cb93b323fc74dd05d04a20d7e" name="a4154053cb93b323fc74dd05d04a20d7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4154053cb93b323fc74dd05d04a20d7e">&#9670;&#160;</a></span>EVENT_COOLDOWN</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define EVENT_COOLDOWN&#160;&#160;&#160;30000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8a2ff2fb117ec9e7227f835b7a7be2af" name="a8a2ff2fb117ec9e7227f835b7a7be2af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a2ff2fb117ec9e7227f835b7a7be2af">&#9670;&#160;</a></span>GOSSIP_HSK1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GOSSIP_HSK1&#160;&#160;&#160;&quot;Take Flanis's Pack&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0126df4fee9368667cc7489ae9377f8e" name="a0126df4fee9368667cc7489ae9377f8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0126df4fee9368667cc7489ae9377f8e">&#9670;&#160;</a></span>GOSSIP_HSK2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GOSSIP_HSK2&#160;&#160;&#160;&quot;Take Kagrosh's Pack&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a310a37ec148e2e37c1123f9ced34020f" name="a310a37ec148e2e37c1123f9ced34020f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a310a37ec148e2e37c1123f9ced34020f">&#9670;&#160;</a></span>QUEST_BATTLE_OF_THE_CRIMSON_WATCH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define QUEST_BATTLE_OF_THE_CRIMSON_WATCH&#160;&#160;&#160;10781</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ae554d834b3961877059bec92621b0103" name="ae554d834b3961877059bec92621b0103"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae554d834b3961877059bec92621b0103">&#9670;&#160;</a></span>DragonmawPeon</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103">DragonmawPeon</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae554d834b3961877059bec92621b0103a307d891e05530d70a32ad2047cfe6dab" name="ae554d834b3961877059bec92621b0103a307d891e05530d70a32ad2047cfe6dab"></a>SAY_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae554d834b3961877059bec92621b0103a1b5f3041ee91b4a664528018eed0166e" name="ae554d834b3961877059bec92621b0103a1b5f3041ee91b4a664528018eed0166e"></a>SAY_POISONED_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae554d834b3961877059bec92621b0103a6ab0bda74bcf7baf41bcd485a9ce0edc" name="ae554d834b3961877059bec92621b0103a6ab0bda74bcf7baf41bcd485a9ce0edc"></a>SPELL_POISON&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae554d834b3961877059bec92621b0103a4de29e3fa18189011f62fd209e6be3fc" name="ae554d834b3961877059bec92621b0103a4de29e3fa18189011f62fd209e6be3fc"></a>SPELL_KICK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae554d834b3961877059bec92621b0103af263a112c1204e3125fcc7b0209ef285" name="ae554d834b3961877059bec92621b0103af263a112c1204e3125fcc7b0209ef285"></a>SPELL_SUNDER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae554d834b3961877059bec92621b0103aab5234463aa64c76c909cd2b30631be7" name="ae554d834b3961877059bec92621b0103aab5234463aa64c76c909cd2b30631be7"></a>SPELL_VOMIT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae554d834b3961877059bec92621b0103aa8873414cf1cfe9b65c801881b4229ab" name="ae554d834b3961877059bec92621b0103aa8873414cf1cfe9b65c801881b4229ab"></a>EVENT_KICK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae554d834b3961877059bec92621b0103a774aeafbcc7fcca150af234e9f5ba8d3" name="ae554d834b3961877059bec92621b0103a774aeafbcc7fcca150af234e9f5ba8d3"></a>EVENT_SUNDER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae554d834b3961877059bec92621b0103a11bf80402c002fde8b32ece6a60dff2f" name="ae554d834b3961877059bec92621b0103a11bf80402c002fde8b32ece6a60dff2f"></a>EVENT_CHECK_POISON&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae554d834b3961877059bec92621b0103a70ce837fb348f11956c1228a3ef9c325" name="ae554d834b3961877059bec92621b0103a70ce837fb348f11956c1228a3ef9c325"></a>EVENT_WALK_TO_MUTTON&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae554d834b3961877059bec92621b0103a8d45870c3c95c1b297f0b27948d74e01" name="ae554d834b3961877059bec92621b0103a8d45870c3c95c1b297f0b27948d74e01"></a>EVENT_POISONED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae554d834b3961877059bec92621b0103aa370ba4e92a593f2bb65c2198b275380" name="ae554d834b3961877059bec92621b0103aa370ba4e92a593f2bb65c2198b275380"></a>EVENT_KILL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae554d834b3961877059bec92621b0103a76d74da4ee3587eb152886c89f67abc9" name="ae554d834b3961877059bec92621b0103a76d74da4ee3587eb152886c89f67abc9"></a>DELICIOUS_MUTTON&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae554d834b3961877059bec92621b0103ad9223a935bb2b9781e91f78f175d41c2" name="ae554d834b3961877059bec92621b0103ad9223a935bb2b9781e91f78f175d41c2"></a>QUEST_A_SLOW_DEATH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae554d834b3961877059bec92621b0103a9705e75b428b543df1304a85eee62ac1" name="ae554d834b3961877059bec92621b0103a9705e75b428b543df1304a85eee62ac1"></a>DRAGONMAW_PEON_KILL_CREDIT&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  563</span>{</div>
-<div class="line"><span class="lineno">  564</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a307d891e05530d70a32ad2047cfe6dab">SAY_1</a>                      = 0,</div>
-<div class="line"><span class="lineno">  565</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a1b5f3041ee91b4a664528018eed0166e">SAY_POISONED_1</a>             = 1,</div>
-<div class="line"><span class="lineno">  566</span> </div>
-<div class="line"><span class="lineno">  567</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a6ab0bda74bcf7baf41bcd485a9ce0edc">SPELL_POISON</a>               = 40468,</div>
-<div class="line"><span class="lineno">  568</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a4de29e3fa18189011f62fd209e6be3fc">SPELL_KICK</a>                 = 15610,</div>
-<div class="line"><span class="lineno">  569</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103af263a112c1204e3125fcc7b0209ef285">SPELL_SUNDER</a>               = 15572,</div>
-<div class="line"><span class="lineno">  570</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103aab5234463aa64c76c909cd2b30631be7">SPELL_VOMIT</a>                = 43327,</div>
-<div class="line"><span class="lineno">  571</span> </div>
-<div class="line"><span class="lineno">  572</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103aa8873414cf1cfe9b65c801881b4229ab">EVENT_KICK</a>                 = 1,</div>
-<div class="line"><span class="lineno">  573</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a774aeafbcc7fcca150af234e9f5ba8d3">EVENT_SUNDER</a>               = 2,</div>
-<div class="line"><span class="lineno">  574</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a11bf80402c002fde8b32ece6a60dff2f">EVENT_CHECK_POISON</a>         = 3,</div>
-<div class="line"><span class="lineno">  575</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a70ce837fb348f11956c1228a3ef9c325">EVENT_WALK_TO_MUTTON</a>       = 4,</div>
-<div class="line"><span class="lineno">  576</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a8d45870c3c95c1b297f0b27948d74e01">EVENT_POISONED</a>             = 5,</div>
-<div class="line"><span class="lineno">  577</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103aa370ba4e92a593f2bb65c2198b275380">EVENT_KILL</a>                 = 6,</div>
-<div class="line"><span class="lineno">  578</span> </div>
-<div class="line"><span class="lineno">  579</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a76d74da4ee3587eb152886c89f67abc9">DELICIOUS_MUTTON</a>           = 185893,</div>
-<div class="line"><span class="lineno">  580</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103ad9223a935bb2b9781e91f78f175d41c2">QUEST_A_SLOW_DEATH</a>         = 11020,</div>
-<div class="line"><span class="lineno">  581</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a9705e75b428b543df1304a85eee62ac1">DRAGONMAW_PEON_KILL_CREDIT</a> = 23209</div>
-<div class="line"><span class="lineno">  582</span>};</div>
-<div class="ttc" id="aa04169_html_ae554d834b3961877059bec92621b0103a11bf80402c002fde8b32ece6a60dff2f"><div class="ttname"><a href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a11bf80402c002fde8b32ece6a60dff2f">EVENT_CHECK_POISON</a></div><div class="ttdeci">@ EVENT_CHECK_POISON</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:574</div></div>
-<div class="ttc" id="aa04169_html_ae554d834b3961877059bec92621b0103a1b5f3041ee91b4a664528018eed0166e"><div class="ttname"><a href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a1b5f3041ee91b4a664528018eed0166e">SAY_POISONED_1</a></div><div class="ttdeci">@ SAY_POISONED_1</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:565</div></div>
-<div class="ttc" id="aa04169_html_ae554d834b3961877059bec92621b0103a307d891e05530d70a32ad2047cfe6dab"><div class="ttname"><a href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a307d891e05530d70a32ad2047cfe6dab">SAY_1</a></div><div class="ttdeci">@ SAY_1</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:564</div></div>
-<div class="ttc" id="aa04169_html_ae554d834b3961877059bec92621b0103a4de29e3fa18189011f62fd209e6be3fc"><div class="ttname"><a href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a4de29e3fa18189011f62fd209e6be3fc">SPELL_KICK</a></div><div class="ttdeci">@ SPELL_KICK</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:568</div></div>
-<div class="ttc" id="aa04169_html_ae554d834b3961877059bec92621b0103a6ab0bda74bcf7baf41bcd485a9ce0edc"><div class="ttname"><a href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a6ab0bda74bcf7baf41bcd485a9ce0edc">SPELL_POISON</a></div><div class="ttdeci">@ SPELL_POISON</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:567</div></div>
-<div class="ttc" id="aa04169_html_ae554d834b3961877059bec92621b0103a70ce837fb348f11956c1228a3ef9c325"><div class="ttname"><a href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a70ce837fb348f11956c1228a3ef9c325">EVENT_WALK_TO_MUTTON</a></div><div class="ttdeci">@ EVENT_WALK_TO_MUTTON</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:575</div></div>
-<div class="ttc" id="aa04169_html_ae554d834b3961877059bec92621b0103a76d74da4ee3587eb152886c89f67abc9"><div class="ttname"><a href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a76d74da4ee3587eb152886c89f67abc9">DELICIOUS_MUTTON</a></div><div class="ttdeci">@ DELICIOUS_MUTTON</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:579</div></div>
-<div class="ttc" id="aa04169_html_ae554d834b3961877059bec92621b0103a774aeafbcc7fcca150af234e9f5ba8d3"><div class="ttname"><a href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a774aeafbcc7fcca150af234e9f5ba8d3">EVENT_SUNDER</a></div><div class="ttdeci">@ EVENT_SUNDER</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:573</div></div>
-<div class="ttc" id="aa04169_html_ae554d834b3961877059bec92621b0103a8d45870c3c95c1b297f0b27948d74e01"><div class="ttname"><a href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a8d45870c3c95c1b297f0b27948d74e01">EVENT_POISONED</a></div><div class="ttdeci">@ EVENT_POISONED</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:576</div></div>
-<div class="ttc" id="aa04169_html_ae554d834b3961877059bec92621b0103a9705e75b428b543df1304a85eee62ac1"><div class="ttname"><a href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103a9705e75b428b543df1304a85eee62ac1">DRAGONMAW_PEON_KILL_CREDIT</a></div><div class="ttdeci">@ DRAGONMAW_PEON_KILL_CREDIT</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:581</div></div>
-<div class="ttc" id="aa04169_html_ae554d834b3961877059bec92621b0103aa370ba4e92a593f2bb65c2198b275380"><div class="ttname"><a href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103aa370ba4e92a593f2bb65c2198b275380">EVENT_KILL</a></div><div class="ttdeci">@ EVENT_KILL</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:577</div></div>
-<div class="ttc" id="aa04169_html_ae554d834b3961877059bec92621b0103aa8873414cf1cfe9b65c801881b4229ab"><div class="ttname"><a href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103aa8873414cf1cfe9b65c801881b4229ab">EVENT_KICK</a></div><div class="ttdeci">@ EVENT_KICK</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:572</div></div>
-<div class="ttc" id="aa04169_html_ae554d834b3961877059bec92621b0103aab5234463aa64c76c909cd2b30631be7"><div class="ttname"><a href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103aab5234463aa64c76c909cd2b30631be7">SPELL_VOMIT</a></div><div class="ttdeci">@ SPELL_VOMIT</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:570</div></div>
-<div class="ttc" id="aa04169_html_ae554d834b3961877059bec92621b0103ad9223a935bb2b9781e91f78f175d41c2"><div class="ttname"><a href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103ad9223a935bb2b9781e91f78f175d41c2">QUEST_A_SLOW_DEATH</a></div><div class="ttdeci">@ QUEST_A_SLOW_DEATH</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:580</div></div>
-<div class="ttc" id="aa04169_html_ae554d834b3961877059bec92621b0103af263a112c1204e3125fcc7b0209ef285"><div class="ttname"><a href="../../df/d4b/a04169.html#ae554d834b3961877059bec92621b0103af263a112c1204e3125fcc7b0209ef285">SPELL_SUNDER</a></div><div class="ttdeci">@ SPELL_SUNDER</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:569</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a90c0d27144e43f3959fcc5d52db82e89" name="a90c0d27144e43f3959fcc5d52db82e89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90c0d27144e43f3959fcc5d52db82e89">&#9670;&#160;</a></span>Enraged_Dpirits</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89">Enraged_Dpirits</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a00af6a5cf882aa60dbd00b72682e62f4" name="a90c0d27144e43f3959fcc5d52db82e89a00af6a5cf882aa60dbd00b72682e62f4"></a>QUEST_ENRAGED_SPIRITS_FIRE_EARTH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89ac10d744c3b0fe0744414ac6287da8582" name="a90c0d27144e43f3959fcc5d52db82e89ac10d744c3b0fe0744414ac6287da8582"></a>QUEST_ENRAGED_SPIRITS_AIR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89af28f06266655235767f00124047eb0cf" name="a90c0d27144e43f3959fcc5d52db82e89af28f06266655235767f00124047eb0cf"></a>QUEST_ENRAGED_SPIRITS_WATER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89aae37f2ca0fb9f937d7b9a4978fd01129" name="a90c0d27144e43f3959fcc5d52db82e89aae37f2ca0fb9f937d7b9a4978fd01129"></a>ENTRY_TOTEM_OF_SPIRITS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a8cc75aff50e4b588c0c03b68843d8dd2" name="a90c0d27144e43f3959fcc5d52db82e89a8cc75aff50e4b588c0c03b68843d8dd2"></a>RADIUS_TOTEM_OF_SPIRITS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a7960db784552c9c9e6844cdd45abe658" name="a90c0d27144e43f3959fcc5d52db82e89a7960db784552c9c9e6844cdd45abe658"></a>NPC_ENRAGED_EARTH_SPIRIT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89af2a1f731d0c25557696e9cd443d290ea" name="a90c0d27144e43f3959fcc5d52db82e89af2a1f731d0c25557696e9cd443d290ea"></a>NPC_ENRAGED_FIRE_SPIRIT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a0aec9f00588d40567cb7dd671db50fed" name="a90c0d27144e43f3959fcc5d52db82e89a0aec9f00588d40567cb7dd671db50fed"></a>NPC_ENRAGED_AIR_SPIRIT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a785b1b1793ba985baa020374d34ca3e0" name="a90c0d27144e43f3959fcc5d52db82e89a785b1b1793ba985baa020374d34ca3e0"></a>NPC_ENRAGED_WATER_SPIRIT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a8a2e1108c381ff2b790a4b57839b6754" name="a90c0d27144e43f3959fcc5d52db82e89a8a2e1108c381ff2b790a4b57839b6754"></a>SPELL_STORMBOLT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a2ea40a0c10fd532d1c6d13fe72683bf9" name="a90c0d27144e43f3959fcc5d52db82e89a2ea40a0c10fd532d1c6d13fe72683bf9"></a>SPELL_AIR_SPIRIT_CHAIN_LIGHTNING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89acc28d36f2859b93e18fa1a0c8e2e0f88" name="a90c0d27144e43f3959fcc5d52db82e89acc28d36f2859b93e18fa1a0c8e2e0f88"></a>SPELL_HURRICANE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a2a20f56307679be4d4f01a0d3d93cc7e" name="a90c0d27144e43f3959fcc5d52db82e89a2a20f56307679be4d4f01a0d3d93cc7e"></a>SPELL_ENRAGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a99ac159470e5ec6df42c6b4e8d239f19" name="a90c0d27144e43f3959fcc5d52db82e89a99ac159470e5ec6df42c6b4e8d239f19"></a>SPELL_FEL_FIREBALL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a3a3ace68ae8e52f1ba035dfc34b9d113" name="a90c0d27144e43f3959fcc5d52db82e89a3a3ace68ae8e52f1ba035dfc34b9d113"></a>SPELL_FEL_FIRE_AURA&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a20aef8173bae9da58cf133712a8e9aa6" name="a90c0d27144e43f3959fcc5d52db82e89a20aef8173bae9da58cf133712a8e9aa6"></a>SPELL_FIERY_BOULDER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89afd5151bfc238f19eb8763743dccf425a" name="a90c0d27144e43f3959fcc5d52db82e89afd5151bfc238f19eb8763743dccf425a"></a>SPELL_SUMMON_ENRAGED_EARTH_SHARD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a7a6e0dbed6931227c0a227c71ab4f60d" name="a90c0d27144e43f3959fcc5d52db82e89a7a6e0dbed6931227c0a227c71ab4f60d"></a>NPC_EARTHEN_SOUL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89ae00c2ae7cc2379845930d79d7945a2f9" name="a90c0d27144e43f3959fcc5d52db82e89ae00c2ae7cc2379845930d79d7945a2f9"></a>NPC_FIERY_SOUL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89af0e74bb51810c096483e41a3186f4387" name="a90c0d27144e43f3959fcc5d52db82e89af0e74bb51810c096483e41a3186f4387"></a>NPC_ENRAGED_AIRY_SOUL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a994bd23bad1aa3506d5acbaead2f0686" name="a90c0d27144e43f3959fcc5d52db82e89a994bd23bad1aa3506d5acbaead2f0686"></a>NPC_ENRAGED_WATERY_SOUL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a041b06322abed018c2c8e5e4d5c1fc74" name="a90c0d27144e43f3959fcc5d52db82e89a041b06322abed018c2c8e5e4d5c1fc74"></a>SPELL_EARTHEN_SOUL_CAPTURED_CREDIT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89ad2fd0ec562d50f32148c9252379bb20f" name="a90c0d27144e43f3959fcc5d52db82e89ad2fd0ec562d50f32148c9252379bb20f"></a>SPELL_FIERY_SOUL_CAPTURED_CREDIT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89aaeda6e62797e83728e0f89966984c7a6" name="a90c0d27144e43f3959fcc5d52db82e89aaeda6e62797e83728e0f89966984c7a6"></a>SPELL_AIRY_SOUL_CAPTURED_CREDIT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89aa042c1a7cb5e61b67522597aa19f03bd" name="a90c0d27144e43f3959fcc5d52db82e89aa042c1a7cb5e61b67522597aa19f03bd"></a>SPELL_WATERY_SOUL_CAPTURED_CREDIT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89adf1cf0863ae1a073c5715469f763a51c" name="a90c0d27144e43f3959fcc5d52db82e89adf1cf0863ae1a073c5715469f763a51c"></a>NPC_CREDIT_FIRE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a75a68f28eff876a9f96b31591d24b49d" name="a90c0d27144e43f3959fcc5d52db82e89a75a68f28eff876a9f96b31591d24b49d"></a>NPC_CREDIT_WATER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a8942f47767ef2d47701cd2211925c693" name="a90c0d27144e43f3959fcc5d52db82e89a8942f47767ef2d47701cd2211925c693"></a>NPC_CREDIT_AIR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a96b0475391ed7efa5605477301d6911f" name="a90c0d27144e43f3959fcc5d52db82e89a96b0475391ed7efa5605477301d6911f"></a>NPC_CREDIT_EARTH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90c0d27144e43f3959fcc5d52db82e89a41055491c9356e1ef93a9e68820237ce" name="a90c0d27144e43f3959fcc5d52db82e89a41055491c9356e1ef93a9e68820237ce"></a>SPELL_SOUL_CAPTURED&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno"> 1432</span>{</div>
-<div class="line"><span class="lineno"> 1433</span>    <span class="comment">// QUESTS</span></div>
-<div class="line"><span class="lineno"> 1434</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a00af6a5cf882aa60dbd00b72682e62f4">QUEST_ENRAGED_SPIRITS_FIRE_EARTH</a>        = 10458,</div>
-<div class="line"><span class="lineno"> 1435</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89ac10d744c3b0fe0744414ac6287da8582">QUEST_ENRAGED_SPIRITS_AIR</a>               = 10481,</div>
-<div class="line"><span class="lineno"> 1436</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89af28f06266655235767f00124047eb0cf">QUEST_ENRAGED_SPIRITS_WATER</a>             = 10480,</div>
-<div class="line"><span class="lineno"> 1437</span> </div>
-<div class="line"><span class="lineno"> 1438</span>    <span class="comment">// Totem</span></div>
-<div class="line"><span class="lineno"> 1439</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89aae37f2ca0fb9f937d7b9a4978fd01129">ENTRY_TOTEM_OF_SPIRITS</a>                  = 21071,</div>
-<div class="line"><span class="lineno"> 1440</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a8cc75aff50e4b588c0c03b68843d8dd2">RADIUS_TOTEM_OF_SPIRITS</a>                 = 15,</div>
-<div class="line"><span class="lineno"> 1441</span> </div>
-<div class="line"><span class="lineno"> 1442</span>    <span class="comment">// SPIRITS</span></div>
-<div class="line"><span class="lineno"> 1443</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a7960db784552c9c9e6844cdd45abe658">NPC_ENRAGED_EARTH_SPIRIT</a>                = 21050,</div>
-<div class="line"><span class="lineno"> 1444</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89af2a1f731d0c25557696e9cd443d290ea">NPC_ENRAGED_FIRE_SPIRIT</a>                 = 21061,</div>
-<div class="line"><span class="lineno"> 1445</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a0aec9f00588d40567cb7dd671db50fed">NPC_ENRAGED_AIR_SPIRIT</a>                  = 21060,</div>
-<div class="line"><span class="lineno"> 1446</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a785b1b1793ba985baa020374d34ca3e0">NPC_ENRAGED_WATER_SPIRIT</a>                = 21059,</div>
-<div class="line"><span class="lineno"> 1447</span> </div>
-<div class="line"><span class="lineno"> 1448</span>    <span class="comment">// ENRAGED WATER SPIRIT SPELLS</span></div>
-<div class="line"><span class="lineno"> 1449</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a8a2e1108c381ff2b790a4b57839b6754">SPELL_STORMBOLT</a>                         = 38032,</div>
-<div class="line"><span class="lineno"> 1450</span> </div>
-<div class="line"><span class="lineno"> 1451</span>    <span class="comment">// ENRAGED AIR SPIRIT SPELLS</span></div>
-<div class="line"><span class="lineno"> 1452</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a2ea40a0c10fd532d1c6d13fe72683bf9">SPELL_AIR_SPIRIT_CHAIN_LIGHTNING</a>        = 12058,</div>
-<div class="line"><span class="lineno"> 1453</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89acc28d36f2859b93e18fa1a0c8e2e0f88">SPELL_HURRICANE</a>                         = 32717,</div>
-<div class="line"><span class="lineno"> 1454</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a2a20f56307679be4d4f01a0d3d93cc7e">SPELL_ENRAGE</a>                            = 8599,</div>
-<div class="line"><span class="lineno"> 1455</span> </div>
-<div class="line"><span class="lineno"> 1456</span>    <span class="comment">// ENRAGED FIRE SPIRIT SPELLS - Will be using the enrage spell from Air Spirit</span></div>
-<div class="line"><span class="lineno"> 1457</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a99ac159470e5ec6df42c6b4e8d239f19">SPELL_FEL_FIREBALL</a>                      = 36247,</div>
-<div class="line"><span class="lineno"> 1458</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a3a3ace68ae8e52f1ba035dfc34b9d113">SPELL_FEL_FIRE_AURA</a>                     = 36006, <span class="comment">// Earth spirit uses this one</span></div>
-<div class="line"><span class="lineno"> 1459</span> </div>
-<div class="line"><span class="lineno"> 1460</span>    <span class="comment">// ENRAGED EARTH SPIRIT SPELLS</span></div>
-<div class="line"><span class="lineno"> 1461</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a20aef8173bae9da58cf133712a8e9aa6">SPELL_FIERY_BOULDER</a>                     = 38498,</div>
-<div class="line"><span class="lineno"> 1462</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89afd5151bfc238f19eb8763743dccf425a">SPELL_SUMMON_ENRAGED_EARTH_SHARD</a>        = 38365,</div>
-<div class="line"><span class="lineno"> 1463</span> </div>
-<div class="line"><span class="lineno"> 1464</span>    <span class="comment">// SOULS</span></div>
-<div class="line"><span class="lineno"> 1465</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a7a6e0dbed6931227c0a227c71ab4f60d">NPC_EARTHEN_SOUL</a>                        = 21073,</div>
-<div class="line"><span class="lineno"> 1466</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89ae00c2ae7cc2379845930d79d7945a2f9">NPC_FIERY_SOUL</a>                          = 21097,</div>
-<div class="line"><span class="lineno"> 1467</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89af0e74bb51810c096483e41a3186f4387">NPC_ENRAGED_AIRY_SOUL</a>                   = 21116,</div>
-<div class="line"><span class="lineno"> 1468</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a994bd23bad1aa3506d5acbaead2f0686">NPC_ENRAGED_WATERY_SOUL</a>                 = 21109, <span class="comment">// wrong model</span></div>
-<div class="line"><span class="lineno"> 1469</span> </div>
-<div class="line"><span class="lineno"> 1470</span>    <span class="comment">// SPELL KILLCREDIT - not working!?! - using KilledMonsterCredit</span></div>
-<div class="line"><span class="lineno"> 1471</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a041b06322abed018c2c8e5e4d5c1fc74">SPELL_EARTHEN_SOUL_CAPTURED_CREDIT</a>      = 36108,</div>
-<div class="line"><span class="lineno"> 1472</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89ad2fd0ec562d50f32148c9252379bb20f">SPELL_FIERY_SOUL_CAPTURED_CREDIT</a>        = 36117,</div>
-<div class="line"><span class="lineno"> 1473</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89aaeda6e62797e83728e0f89966984c7a6">SPELL_AIRY_SOUL_CAPTURED_CREDIT</a>         = 36182,</div>
-<div class="line"><span class="lineno"> 1474</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89aa042c1a7cb5e61b67522597aa19f03bd">SPELL_WATERY_SOUL_CAPTURED_CREDIT</a>       = 36171,</div>
-<div class="line"><span class="lineno"> 1475</span> </div>
-<div class="line"><span class="lineno"> 1476</span>    <span class="comment">// KilledMonsterCredit Workaround</span></div>
-<div class="line"><span class="lineno"> 1477</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89adf1cf0863ae1a073c5715469f763a51c">NPC_CREDIT_FIRE</a>                         = 21094,</div>
-<div class="line"><span class="lineno"> 1478</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a75a68f28eff876a9f96b31591d24b49d">NPC_CREDIT_WATER</a>                        = 21095,</div>
-<div class="line"><span class="lineno"> 1479</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a8942f47767ef2d47701cd2211925c693">NPC_CREDIT_AIR</a>                          = 21096,</div>
-<div class="line"><span class="lineno"> 1480</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a96b0475391ed7efa5605477301d6911f">NPC_CREDIT_EARTH</a>                        = 21092,</div>
-<div class="line"><span class="lineno"> 1481</span> </div>
-<div class="line"><span class="lineno"> 1482</span>    <span class="comment">// Captured Spell / Buff</span></div>
-<div class="line"><span class="lineno"> 1483</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a41055491c9356e1ef93a9e68820237ce">SPELL_SOUL_CAPTURED</a>                     = 36115</div>
-<div class="line"><span class="lineno"> 1484</span>};</div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a00af6a5cf882aa60dbd00b72682e62f4"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a00af6a5cf882aa60dbd00b72682e62f4">QUEST_ENRAGED_SPIRITS_FIRE_EARTH</a></div><div class="ttdeci">@ QUEST_ENRAGED_SPIRITS_FIRE_EARTH</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1434</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a041b06322abed018c2c8e5e4d5c1fc74"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a041b06322abed018c2c8e5e4d5c1fc74">SPELL_EARTHEN_SOUL_CAPTURED_CREDIT</a></div><div class="ttdeci">@ SPELL_EARTHEN_SOUL_CAPTURED_CREDIT</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1471</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a0aec9f00588d40567cb7dd671db50fed"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a0aec9f00588d40567cb7dd671db50fed">NPC_ENRAGED_AIR_SPIRIT</a></div><div class="ttdeci">@ NPC_ENRAGED_AIR_SPIRIT</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1445</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a20aef8173bae9da58cf133712a8e9aa6"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a20aef8173bae9da58cf133712a8e9aa6">SPELL_FIERY_BOULDER</a></div><div class="ttdeci">@ SPELL_FIERY_BOULDER</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1461</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a2a20f56307679be4d4f01a0d3d93cc7e"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a2a20f56307679be4d4f01a0d3d93cc7e">SPELL_ENRAGE</a></div><div class="ttdeci">@ SPELL_ENRAGE</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1454</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a2ea40a0c10fd532d1c6d13fe72683bf9"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a2ea40a0c10fd532d1c6d13fe72683bf9">SPELL_AIR_SPIRIT_CHAIN_LIGHTNING</a></div><div class="ttdeci">@ SPELL_AIR_SPIRIT_CHAIN_LIGHTNING</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1452</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a3a3ace68ae8e52f1ba035dfc34b9d113"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a3a3ace68ae8e52f1ba035dfc34b9d113">SPELL_FEL_FIRE_AURA</a></div><div class="ttdeci">@ SPELL_FEL_FIRE_AURA</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1458</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a41055491c9356e1ef93a9e68820237ce"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a41055491c9356e1ef93a9e68820237ce">SPELL_SOUL_CAPTURED</a></div><div class="ttdeci">@ SPELL_SOUL_CAPTURED</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1483</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a75a68f28eff876a9f96b31591d24b49d"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a75a68f28eff876a9f96b31591d24b49d">NPC_CREDIT_WATER</a></div><div class="ttdeci">@ NPC_CREDIT_WATER</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1478</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a785b1b1793ba985baa020374d34ca3e0"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a785b1b1793ba985baa020374d34ca3e0">NPC_ENRAGED_WATER_SPIRIT</a></div><div class="ttdeci">@ NPC_ENRAGED_WATER_SPIRIT</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1446</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a7960db784552c9c9e6844cdd45abe658"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a7960db784552c9c9e6844cdd45abe658">NPC_ENRAGED_EARTH_SPIRIT</a></div><div class="ttdeci">@ NPC_ENRAGED_EARTH_SPIRIT</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1443</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a7a6e0dbed6931227c0a227c71ab4f60d"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a7a6e0dbed6931227c0a227c71ab4f60d">NPC_EARTHEN_SOUL</a></div><div class="ttdeci">@ NPC_EARTHEN_SOUL</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1465</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a8942f47767ef2d47701cd2211925c693"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a8942f47767ef2d47701cd2211925c693">NPC_CREDIT_AIR</a></div><div class="ttdeci">@ NPC_CREDIT_AIR</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1479</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a8a2e1108c381ff2b790a4b57839b6754"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a8a2e1108c381ff2b790a4b57839b6754">SPELL_STORMBOLT</a></div><div class="ttdeci">@ SPELL_STORMBOLT</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1449</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a8cc75aff50e4b588c0c03b68843d8dd2"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a8cc75aff50e4b588c0c03b68843d8dd2">RADIUS_TOTEM_OF_SPIRITS</a></div><div class="ttdeci">@ RADIUS_TOTEM_OF_SPIRITS</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1440</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a96b0475391ed7efa5605477301d6911f"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a96b0475391ed7efa5605477301d6911f">NPC_CREDIT_EARTH</a></div><div class="ttdeci">@ NPC_CREDIT_EARTH</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1480</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a994bd23bad1aa3506d5acbaead2f0686"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a994bd23bad1aa3506d5acbaead2f0686">NPC_ENRAGED_WATERY_SOUL</a></div><div class="ttdeci">@ NPC_ENRAGED_WATERY_SOUL</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1468</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89a99ac159470e5ec6df42c6b4e8d239f19"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89a99ac159470e5ec6df42c6b4e8d239f19">SPELL_FEL_FIREBALL</a></div><div class="ttdeci">@ SPELL_FEL_FIREBALL</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1457</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89aa042c1a7cb5e61b67522597aa19f03bd"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89aa042c1a7cb5e61b67522597aa19f03bd">SPELL_WATERY_SOUL_CAPTURED_CREDIT</a></div><div class="ttdeci">@ SPELL_WATERY_SOUL_CAPTURED_CREDIT</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1474</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89aae37f2ca0fb9f937d7b9a4978fd01129"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89aae37f2ca0fb9f937d7b9a4978fd01129">ENTRY_TOTEM_OF_SPIRITS</a></div><div class="ttdeci">@ ENTRY_TOTEM_OF_SPIRITS</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1439</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89aaeda6e62797e83728e0f89966984c7a6"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89aaeda6e62797e83728e0f89966984c7a6">SPELL_AIRY_SOUL_CAPTURED_CREDIT</a></div><div class="ttdeci">@ SPELL_AIRY_SOUL_CAPTURED_CREDIT</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1473</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89ac10d744c3b0fe0744414ac6287da8582"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89ac10d744c3b0fe0744414ac6287da8582">QUEST_ENRAGED_SPIRITS_AIR</a></div><div class="ttdeci">@ QUEST_ENRAGED_SPIRITS_AIR</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1435</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89acc28d36f2859b93e18fa1a0c8e2e0f88"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89acc28d36f2859b93e18fa1a0c8e2e0f88">SPELL_HURRICANE</a></div><div class="ttdeci">@ SPELL_HURRICANE</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1453</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89ad2fd0ec562d50f32148c9252379bb20f"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89ad2fd0ec562d50f32148c9252379bb20f">SPELL_FIERY_SOUL_CAPTURED_CREDIT</a></div><div class="ttdeci">@ SPELL_FIERY_SOUL_CAPTURED_CREDIT</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1472</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89adf1cf0863ae1a073c5715469f763a51c"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89adf1cf0863ae1a073c5715469f763a51c">NPC_CREDIT_FIRE</a></div><div class="ttdeci">@ NPC_CREDIT_FIRE</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1477</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89ae00c2ae7cc2379845930d79d7945a2f9"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89ae00c2ae7cc2379845930d79d7945a2f9">NPC_FIERY_SOUL</a></div><div class="ttdeci">@ NPC_FIERY_SOUL</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1466</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89af0e74bb51810c096483e41a3186f4387"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89af0e74bb51810c096483e41a3186f4387">NPC_ENRAGED_AIRY_SOUL</a></div><div class="ttdeci">@ NPC_ENRAGED_AIRY_SOUL</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1467</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89af28f06266655235767f00124047eb0cf"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89af28f06266655235767f00124047eb0cf">QUEST_ENRAGED_SPIRITS_WATER</a></div><div class="ttdeci">@ QUEST_ENRAGED_SPIRITS_WATER</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1436</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89af2a1f731d0c25557696e9cd443d290ea"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89af2a1f731d0c25557696e9cd443d290ea">NPC_ENRAGED_FIRE_SPIRIT</a></div><div class="ttdeci">@ NPC_ENRAGED_FIRE_SPIRIT</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1444</div></div>
-<div class="ttc" id="aa04169_html_a90c0d27144e43f3959fcc5d52db82e89afd5151bfc238f19eb8763743dccf425a"><div class="ttname"><a href="../../df/d4b/a04169.html#a90c0d27144e43f3959fcc5d52db82e89afd5151bfc238f19eb8763743dccf425a">SPELL_SUMMON_ENRAGED_EARTH_SHARD</a></div><div class="ttdeci">@ SPELL_SUMMON_ENRAGED_EARTH_SHARD</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1462</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="adac4495636f524e96492a9b0806ca846" name="adac4495636f524e96492a9b0806ca846"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adac4495636f524e96492a9b0806ca846">&#9670;&#160;</a></span>EnshlavedNetherwingDrake</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../df/d4b/a04169.html#adac4495636f524e96492a9b0806ca846">EnshlavedNetherwingDrake</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adac4495636f524e96492a9b0806ca846a7eced2a85eb71427d5b4afdb72d815b2" name="adac4495636f524e96492a9b0806ca846a7eced2a85eb71427d5b4afdb72d815b2"></a>SPELL_HIT_FORCE_OF_NELTHARAKU&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adac4495636f524e96492a9b0806ca846afe2033feee6894144f1ecd7c91ab32b1" name="adac4495636f524e96492a9b0806ca846afe2033feee6894144f1ecd7c91ab32b1"></a>SPELL_FORCE_OF_NELTHARAKU&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adac4495636f524e96492a9b0806ca846a71553bfde406198e8a89cc5436a381b6" name="adac4495636f524e96492a9b0806ca846a71553bfde406198e8a89cc5436a381b6"></a>NPC_DRAGONMAW_SUBJUGATOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adac4495636f524e96492a9b0806ca846a08ffe87232f0c55b72bd5e43b9570800" name="adac4495636f524e96492a9b0806ca846a08ffe87232f0c55b72bd5e43b9570800"></a>NPC_ESCAPE_DUMMY&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  429</span>{</div>
-<div class="line"><span class="lineno">  430</span>    <span class="comment">// Spells</span></div>
-<div class="line"><span class="lineno">  431</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#adac4495636f524e96492a9b0806ca846a7eced2a85eb71427d5b4afdb72d815b2">SPELL_HIT_FORCE_OF_NELTHARAKU</a>   = 38762,</div>
-<div class="line"><span class="lineno">  432</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#adac4495636f524e96492a9b0806ca846afe2033feee6894144f1ecd7c91ab32b1">SPELL_FORCE_OF_NELTHARAKU</a>       = 38775,</div>
-<div class="line"><span class="lineno">  433</span> </div>
-<div class="line"><span class="lineno">  434</span>    <span class="comment">// Creatures</span></div>
-<div class="line"><span class="lineno">  435</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#adac4495636f524e96492a9b0806ca846a71553bfde406198e8a89cc5436a381b6">NPC_DRAGONMAW_SUBJUGATOR</a>        = 21718,</div>
-<div class="line"><span class="lineno">  436</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#adac4495636f524e96492a9b0806ca846a08ffe87232f0c55b72bd5e43b9570800">NPC_ESCAPE_DUMMY</a>                = 22317</div>
-<div class="line"><span class="lineno">  437</span>};</div>
-<div class="ttc" id="aa04169_html_adac4495636f524e96492a9b0806ca846a08ffe87232f0c55b72bd5e43b9570800"><div class="ttname"><a href="../../df/d4b/a04169.html#adac4495636f524e96492a9b0806ca846a08ffe87232f0c55b72bd5e43b9570800">NPC_ESCAPE_DUMMY</a></div><div class="ttdeci">@ NPC_ESCAPE_DUMMY</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:436</div></div>
-<div class="ttc" id="aa04169_html_adac4495636f524e96492a9b0806ca846a71553bfde406198e8a89cc5436a381b6"><div class="ttname"><a href="../../df/d4b/a04169.html#adac4495636f524e96492a9b0806ca846a71553bfde406198e8a89cc5436a381b6">NPC_DRAGONMAW_SUBJUGATOR</a></div><div class="ttdeci">@ NPC_DRAGONMAW_SUBJUGATOR</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:435</div></div>
-<div class="ttc" id="aa04169_html_adac4495636f524e96492a9b0806ca846a7eced2a85eb71427d5b4afdb72d815b2"><div class="ttname"><a href="../../df/d4b/a04169.html#adac4495636f524e96492a9b0806ca846a7eced2a85eb71427d5b4afdb72d815b2">SPELL_HIT_FORCE_OF_NELTHARAKU</a></div><div class="ttdeci">@ SPELL_HIT_FORCE_OF_NELTHARAKU</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:431</div></div>
-<div class="ttc" id="aa04169_html_adac4495636f524e96492a9b0806ca846afe2033feee6894144f1ecd7c91ab32b1"><div class="ttname"><a href="../../df/d4b/a04169.html#adac4495636f524e96492a9b0806ca846afe2033feee6894144f1ecd7c91ab32b1">SPELL_FORCE_OF_NELTHARAKU</a></div><div class="ttdeci">@ SPELL_FORCE_OF_NELTHARAKU</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:432</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="afc71d3d9676b2a12bfa07cf43efa1981" name="afc71d3d9676b2a12bfa07cf43efa1981"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc71d3d9676b2a12bfa07cf43efa1981">&#9670;&#160;</a></span>InvisInfernalCaster</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981">InvisInfernalCaster</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afc71d3d9676b2a12bfa07cf43efa1981a899ef19a4cdbde17f4b142ab87f22a2c" name="afc71d3d9676b2a12bfa07cf43efa1981a899ef19a4cdbde17f4b142ab87f22a2c"></a>EVENT_CAST_SUMMON_INFERNAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afc71d3d9676b2a12bfa07cf43efa1981afbefec58dbc4796010d20c4461668228" name="afc71d3d9676b2a12bfa07cf43efa1981afbefec58dbc4796010d20c4461668228"></a>NPC_INFERNAL_ATTACKER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afc71d3d9676b2a12bfa07cf43efa1981a116fbb11cfd55f4f743ab6e6b1e169c4" name="afc71d3d9676b2a12bfa07cf43efa1981a116fbb11cfd55f4f743ab6e6b1e169c4"></a>MODEL_INVISIBLE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afc71d3d9676b2a12bfa07cf43efa1981a490991c939197eb08d5889b53ef448be" name="afc71d3d9676b2a12bfa07cf43efa1981a490991c939197eb08d5889b53ef448be"></a>MODEL_INFERNAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afc71d3d9676b2a12bfa07cf43efa1981ade42ab46d5d7f906d8fb7bd16cdcc241" name="afc71d3d9676b2a12bfa07cf43efa1981ade42ab46d5d7f906d8fb7bd16cdcc241"></a>SPELL_SUMMON_INFERNAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afc71d3d9676b2a12bfa07cf43efa1981ad8a8f951d8f106aa11eed28742d7a6c8" name="afc71d3d9676b2a12bfa07cf43efa1981ad8a8f951d8f106aa11eed28742d7a6c8"></a>TYPE_INFERNAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afc71d3d9676b2a12bfa07cf43efa1981a04a6cbcda450d7a68236e4f4df039e36" name="afc71d3d9676b2a12bfa07cf43efa1981a04a6cbcda450d7a68236e4f4df039e36"></a>DATA_DIED&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  144</span>{</div>
-<div class="line"><span class="lineno">  145</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981a899ef19a4cdbde17f4b142ab87f22a2c">EVENT_CAST_SUMMON_INFERNAL</a> = 1,</div>
-<div class="line"><span class="lineno">  146</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981afbefec58dbc4796010d20c4461668228">NPC_INFERNAL_ATTACKER</a>      = 21419,</div>
-<div class="line"><span class="lineno">  147</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981a116fbb11cfd55f4f743ab6e6b1e169c4">MODEL_INVISIBLE</a>            = 20577,</div>
-<div class="line"><span class="lineno">  148</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981a490991c939197eb08d5889b53ef448be">MODEL_INFERNAL</a>             = 17312,</div>
-<div class="line"><span class="lineno">  149</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981ade42ab46d5d7f906d8fb7bd16cdcc241">SPELL_SUMMON_INFERNAL</a>      = 37277,</div>
-<div class="line"><span class="lineno">  150</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981ad8a8f951d8f106aa11eed28742d7a6c8">TYPE_INFERNAL</a>              = 1,</div>
-<div class="line"><span class="lineno">  151</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981a04a6cbcda450d7a68236e4f4df039e36">DATA_DIED</a>                  = 1</div>
-<div class="line"><span class="lineno">  152</span>};</div>
-<div class="ttc" id="aa04169_html_afc71d3d9676b2a12bfa07cf43efa1981a04a6cbcda450d7a68236e4f4df039e36"><div class="ttname"><a href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981a04a6cbcda450d7a68236e4f4df039e36">DATA_DIED</a></div><div class="ttdeci">@ DATA_DIED</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:151</div></div>
-<div class="ttc" id="aa04169_html_afc71d3d9676b2a12bfa07cf43efa1981a116fbb11cfd55f4f743ab6e6b1e169c4"><div class="ttname"><a href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981a116fbb11cfd55f4f743ab6e6b1e169c4">MODEL_INVISIBLE</a></div><div class="ttdeci">@ MODEL_INVISIBLE</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:147</div></div>
-<div class="ttc" id="aa04169_html_afc71d3d9676b2a12bfa07cf43efa1981a490991c939197eb08d5889b53ef448be"><div class="ttname"><a href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981a490991c939197eb08d5889b53ef448be">MODEL_INFERNAL</a></div><div class="ttdeci">@ MODEL_INFERNAL</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:148</div></div>
-<div class="ttc" id="aa04169_html_afc71d3d9676b2a12bfa07cf43efa1981a899ef19a4cdbde17f4b142ab87f22a2c"><div class="ttname"><a href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981a899ef19a4cdbde17f4b142ab87f22a2c">EVENT_CAST_SUMMON_INFERNAL</a></div><div class="ttdeci">@ EVENT_CAST_SUMMON_INFERNAL</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:145</div></div>
-<div class="ttc" id="aa04169_html_afc71d3d9676b2a12bfa07cf43efa1981ad8a8f951d8f106aa11eed28742d7a6c8"><div class="ttname"><a href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981ad8a8f951d8f106aa11eed28742d7a6c8">TYPE_INFERNAL</a></div><div class="ttdeci">@ TYPE_INFERNAL</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:150</div></div>
-<div class="ttc" id="aa04169_html_afc71d3d9676b2a12bfa07cf43efa1981ade42ab46d5d7f906d8fb7bd16cdcc241"><div class="ttname"><a href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981ade42ab46d5d7f906d8fb7bd16cdcc241">SPELL_SUMMON_INFERNAL</a></div><div class="ttdeci">@ SPELL_SUMMON_INFERNAL</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:149</div></div>
-<div class="ttc" id="aa04169_html_afc71d3d9676b2a12bfa07cf43efa1981afbefec58dbc4796010d20c4461668228"><div class="ttname"><a href="../../df/d4b/a04169.html#afc71d3d9676b2a12bfa07cf43efa1981afbefec58dbc4796010d20c4461668228">NPC_INFERNAL_ATTACKER</a></div><div class="ttdeci">@ NPC_INFERNAL_ATTACKER</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:146</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a123c4b1ebb762013db19c932e44a4e24" name="a123c4b1ebb762013db19c932e44a4e24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a123c4b1ebb762013db19c932e44a4e24">&#9670;&#160;</a></span>Karynaku</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../df/d4b/a04169.html#a123c4b1ebb762013db19c932e44a4e24">Karynaku</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a123c4b1ebb762013db19c932e44a4e24a0cea5be66aa00f0a720a75b2dfe52849" name="a123c4b1ebb762013db19c932e44a4e24a0cea5be66aa00f0a720a75b2dfe52849"></a>QUEST_ALLY_OF_NETHER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a123c4b1ebb762013db19c932e44a4e24a8a25a8632e923dc91043d53eb9d8d45c" name="a123c4b1ebb762013db19c932e44a4e24a8a25a8632e923dc91043d53eb9d8d45c"></a>QUEST_ZUHULED_THE_WACK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a123c4b1ebb762013db19c932e44a4e24a9071f3130c4bfcd8cdaee5304999a930" name="a123c4b1ebb762013db19c932e44a4e24a9071f3130c4bfcd8cdaee5304999a930"></a>NPC_ZUHULED_THE_WACKED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a123c4b1ebb762013db19c932e44a4e24a5e1e78493c55a69bd98f896ff332f0f1" name="a123c4b1ebb762013db19c932e44a4e24a5e1e78493c55a69bd98f896ff332f0f1"></a>TAXI_PATH_ID&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  787</span>{</div>
-<div class="line"><span class="lineno">  788</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a123c4b1ebb762013db19c932e44a4e24a0cea5be66aa00f0a720a75b2dfe52849">QUEST_ALLY_OF_NETHER</a>    = 10870,</div>
-<div class="line"><span class="lineno">  789</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a123c4b1ebb762013db19c932e44a4e24a8a25a8632e923dc91043d53eb9d8d45c">QUEST_ZUHULED_THE_WACK</a>  = 10866,</div>
-<div class="line"><span class="lineno">  790</span> </div>
-<div class="line"><span class="lineno">  791</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a123c4b1ebb762013db19c932e44a4e24a9071f3130c4bfcd8cdaee5304999a930">NPC_ZUHULED_THE_WACKED</a>  = 11980,</div>
-<div class="line"><span class="lineno">  792</span> </div>
-<div class="line"><span class="lineno">  793</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a123c4b1ebb762013db19c932e44a4e24a5e1e78493c55a69bd98f896ff332f0f1">TAXI_PATH_ID</a>            = 649,</div>
-<div class="line"><span class="lineno">  794</span>};</div>
-<div class="ttc" id="aa04169_html_a123c4b1ebb762013db19c932e44a4e24a0cea5be66aa00f0a720a75b2dfe52849"><div class="ttname"><a href="../../df/d4b/a04169.html#a123c4b1ebb762013db19c932e44a4e24a0cea5be66aa00f0a720a75b2dfe52849">QUEST_ALLY_OF_NETHER</a></div><div class="ttdeci">@ QUEST_ALLY_OF_NETHER</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:788</div></div>
-<div class="ttc" id="aa04169_html_a123c4b1ebb762013db19c932e44a4e24a5e1e78493c55a69bd98f896ff332f0f1"><div class="ttname"><a href="../../df/d4b/a04169.html#a123c4b1ebb762013db19c932e44a4e24a5e1e78493c55a69bd98f896ff332f0f1">TAXI_PATH_ID</a></div><div class="ttdeci">@ TAXI_PATH_ID</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:793</div></div>
-<div class="ttc" id="aa04169_html_a123c4b1ebb762013db19c932e44a4e24a8a25a8632e923dc91043d53eb9d8d45c"><div class="ttname"><a href="../../df/d4b/a04169.html#a123c4b1ebb762013db19c932e44a4e24a8a25a8632e923dc91043d53eb9d8d45c">QUEST_ZUHULED_THE_WACK</a></div><div class="ttdeci">@ QUEST_ZUHULED_THE_WACK</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:789</div></div>
-<div class="ttc" id="aa04169_html_a123c4b1ebb762013db19c932e44a4e24a9071f3130c4bfcd8cdaee5304999a930"><div class="ttname"><a href="../../df/d4b/a04169.html#a123c4b1ebb762013db19c932e44a4e24a9071f3130c4bfcd8cdaee5304999a930">NPC_ZUHULED_THE_WACKED</a></div><div class="ttdeci">@ NPC_ZUHULED_THE_WACKED</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:791</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ac3fa044cb8f97b19130eb0644fd422ec" name="ac3fa044cb8f97b19130eb0644fd422ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3fa044cb8f97b19130eb0644fd422ec">&#9670;&#160;</a></span>MatureNetherwing</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422ec">MatureNetherwing</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac3fa044cb8f97b19130eb0644fd422ecad453298ccc9b6b3ab0523dfafb9f548f" name="ac3fa044cb8f97b19130eb0644fd422ecad453298ccc9b6b3ab0523dfafb9f548f"></a>SAY_JUST_EATEN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac3fa044cb8f97b19130eb0644fd422eca4f9d035431da4bdb746a4e08fc6425e0" name="ac3fa044cb8f97b19130eb0644fd422eca4f9d035431da4bdb746a4e08fc6425e0"></a>SPELL_PLACE_CARCASS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac3fa044cb8f97b19130eb0644fd422eca6cadc7fa90937b8d5727d19ad97478dc" name="ac3fa044cb8f97b19130eb0644fd422eca6cadc7fa90937b8d5727d19ad97478dc"></a>SPELL_JUST_EATEN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac3fa044cb8f97b19130eb0644fd422eca1f64ef182504e0be2caa5bb708cbd0fa" name="ac3fa044cb8f97b19130eb0644fd422eca1f64ef182504e0be2caa5bb708cbd0fa"></a>SPELL_NETHER_BREATH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac3fa044cb8f97b19130eb0644fd422ecac7fd29ccba65af8d63b83beb9cdbb597" name="ac3fa044cb8f97b19130eb0644fd422ecac7fd29ccba65af8d63b83beb9cdbb597"></a>POINT_ID&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac3fa044cb8f97b19130eb0644fd422eca84c159e72b76bf1699302c28c7da3016" name="ac3fa044cb8f97b19130eb0644fd422eca84c159e72b76bf1699302c28c7da3016"></a>GO_CARCASS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac3fa044cb8f97b19130eb0644fd422eca0b8ea699ea2283c1b89030430b100428" name="ac3fa044cb8f97b19130eb0644fd422eca0b8ea699ea2283c1b89030430b100428"></a>QUEST_KINDNESS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac3fa044cb8f97b19130eb0644fd422eca353ae26eabea41367f83995cef9290e1" name="ac3fa044cb8f97b19130eb0644fd422eca353ae26eabea41367f83995cef9290e1"></a>NPC_EVENT_PINGER&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  286</span>{</div>
-<div class="line"><span class="lineno">  287</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422ecad453298ccc9b6b3ab0523dfafb9f548f">SAY_JUST_EATEN</a>              = 0,</div>
-<div class="line"><span class="lineno">  288</span> </div>
-<div class="line"><span class="lineno">  289</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca4f9d035431da4bdb746a4e08fc6425e0">SPELL_PLACE_CARCASS</a>         = 38439,</div>
-<div class="line"><span class="lineno">  290</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca6cadc7fa90937b8d5727d19ad97478dc">SPELL_JUST_EATEN</a>            = 38502,</div>
-<div class="line"><span class="lineno">  291</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca1f64ef182504e0be2caa5bb708cbd0fa">SPELL_NETHER_BREATH</a>         = 38467,</div>
-<div class="line"><span class="lineno">  292</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422ecac7fd29ccba65af8d63b83beb9cdbb597">POINT_ID</a>                    = 1,</div>
-<div class="line"><span class="lineno">  293</span> </div>
-<div class="line"><span class="lineno">  294</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca84c159e72b76bf1699302c28c7da3016">GO_CARCASS</a>                  = 185155,</div>
-<div class="line"><span class="lineno">  295</span> </div>
-<div class="line"><span class="lineno">  296</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca0b8ea699ea2283c1b89030430b100428">QUEST_KINDNESS</a>              = 10804,</div>
-<div class="line"><span class="lineno">  297</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca353ae26eabea41367f83995cef9290e1">NPC_EVENT_PINGER</a>            = 22131</div>
-<div class="line"><span class="lineno">  298</span>};</div>
-<div class="ttc" id="aa04169_html_ac3fa044cb8f97b19130eb0644fd422eca0b8ea699ea2283c1b89030430b100428"><div class="ttname"><a href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca0b8ea699ea2283c1b89030430b100428">QUEST_KINDNESS</a></div><div class="ttdeci">@ QUEST_KINDNESS</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:296</div></div>
-<div class="ttc" id="aa04169_html_ac3fa044cb8f97b19130eb0644fd422eca1f64ef182504e0be2caa5bb708cbd0fa"><div class="ttname"><a href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca1f64ef182504e0be2caa5bb708cbd0fa">SPELL_NETHER_BREATH</a></div><div class="ttdeci">@ SPELL_NETHER_BREATH</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:291</div></div>
-<div class="ttc" id="aa04169_html_ac3fa044cb8f97b19130eb0644fd422eca353ae26eabea41367f83995cef9290e1"><div class="ttname"><a href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca353ae26eabea41367f83995cef9290e1">NPC_EVENT_PINGER</a></div><div class="ttdeci">@ NPC_EVENT_PINGER</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:297</div></div>
-<div class="ttc" id="aa04169_html_ac3fa044cb8f97b19130eb0644fd422eca4f9d035431da4bdb746a4e08fc6425e0"><div class="ttname"><a href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca4f9d035431da4bdb746a4e08fc6425e0">SPELL_PLACE_CARCASS</a></div><div class="ttdeci">@ SPELL_PLACE_CARCASS</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:289</div></div>
-<div class="ttc" id="aa04169_html_ac3fa044cb8f97b19130eb0644fd422eca6cadc7fa90937b8d5727d19ad97478dc"><div class="ttname"><a href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca6cadc7fa90937b8d5727d19ad97478dc">SPELL_JUST_EATEN</a></div><div class="ttdeci">@ SPELL_JUST_EATEN</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:290</div></div>
-<div class="ttc" id="aa04169_html_ac3fa044cb8f97b19130eb0644fd422eca84c159e72b76bf1699302c28c7da3016"><div class="ttname"><a href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422eca84c159e72b76bf1699302c28c7da3016">GO_CARCASS</a></div><div class="ttdeci">@ GO_CARCASS</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:294</div></div>
-<div class="ttc" id="aa04169_html_ac3fa044cb8f97b19130eb0644fd422ecac7fd29ccba65af8d63b83beb9cdbb597"><div class="ttname"><a href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422ecac7fd29ccba65af8d63b83beb9cdbb597">POINT_ID</a></div><div class="ttdeci">@ POINT_ID</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:292</div></div>
-<div class="ttc" id="aa04169_html_ac3fa044cb8f97b19130eb0644fd422ecad453298ccc9b6b3ab0523dfafb9f548f"><div class="ttname"><a href="../../df/d4b/a04169.html#ac3fa044cb8f97b19130eb0644fd422ecad453298ccc9b6b3ab0523dfafb9f548f">SAY_JUST_EATEN</a></div><div class="ttdeci">@ SAY_JUST_EATEN</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:287</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a291915ace633b26b8dce599d6e9ee70d" name="a291915ace633b26b8dce599d6e9ee70d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a291915ace633b26b8dce599d6e9ee70d">&#9670;&#160;</a></span>ShadowMoonTuberEnum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70d">ShadowMoonTuberEnum</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a291915ace633b26b8dce599d6e9ee70da67567999784143ab1ea8cd3ba26ea1fd" name="a291915ace633b26b8dce599d6e9ee70da67567999784143ab1ea8cd3ba26ea1fd"></a>SPELL_WHISTLE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a291915ace633b26b8dce599d6e9ee70da85b62e76374bbd3bf54e760e565bf080" name="a291915ace633b26b8dce599d6e9ee70da85b62e76374bbd3bf54e760e565bf080"></a>SPELL_SHADOWMOON_TUBER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a291915ace633b26b8dce599d6e9ee70daf6bc3f9354df41639b1d269f90c7b3eb" name="a291915ace633b26b8dce599d6e9ee70daf6bc3f9354df41639b1d269f90c7b3eb"></a>NPC_BOAR_ENTRY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a291915ace633b26b8dce599d6e9ee70dafe9c76701fdd7f4c9ee827d727255719" name="a291915ace633b26b8dce599d6e9ee70dafe9c76701fdd7f4c9ee827d727255719"></a>GO_SHADOWMOON_TUBER_MOUND&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a291915ace633b26b8dce599d6e9ee70dae3723de3df9db38a012d0f0cd70ead61" name="a291915ace633b26b8dce599d6e9ee70dae3723de3df9db38a012d0f0cd70ead61"></a>POINT_TUBER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a291915ace633b26b8dce599d6e9ee70da550a96f6a5f527aed2108c53d44a0c85" name="a291915ace633b26b8dce599d6e9ee70da550a96f6a5f527aed2108c53d44a0c85"></a>TYPE_BOAR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a291915ace633b26b8dce599d6e9ee70dab9c4a21bb24ba5bc3a604a720b5056de" name="a291915ace633b26b8dce599d6e9ee70dab9c4a21bb24ba5bc3a604a720b5056de"></a>DATA_BOAR&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno"> 1649</span>{</div>
-<div class="line"><span class="lineno"> 1650</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70da67567999784143ab1ea8cd3ba26ea1fd">SPELL_WHISTLE</a>               = 36652,</div>
-<div class="line"><span class="lineno"> 1651</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70da85b62e76374bbd3bf54e760e565bf080">SPELL_SHADOWMOON_TUBER</a>      = 36462,</div>
-<div class="line"><span class="lineno"> 1652</span> </div>
-<div class="line"><span class="lineno"> 1653</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70daf6bc3f9354df41639b1d269f90c7b3eb">NPC_BOAR_ENTRY</a>              = 21195,</div>
-<div class="line"><span class="lineno"> 1654</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70dafe9c76701fdd7f4c9ee827d727255719">GO_SHADOWMOON_TUBER_MOUND</a>   = 184701,</div>
-<div class="line"><span class="lineno"> 1655</span> </div>
-<div class="line"><span class="lineno"> 1656</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70dae3723de3df9db38a012d0f0cd70ead61">POINT_TUBER</a>                 = 1,</div>
-<div class="line"><span class="lineno"> 1657</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70da550a96f6a5f527aed2108c53d44a0c85">TYPE_BOAR</a>                   = 1,</div>
-<div class="line"><span class="lineno"> 1658</span>    <a class="code hl_enumvalue" href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70dab9c4a21bb24ba5bc3a604a720b5056de">DATA_BOAR</a>                   = 1</div>
-<div class="line"><span class="lineno"> 1659</span>};</div>
-<div class="ttc" id="aa04169_html_a291915ace633b26b8dce599d6e9ee70da550a96f6a5f527aed2108c53d44a0c85"><div class="ttname"><a href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70da550a96f6a5f527aed2108c53d44a0c85">TYPE_BOAR</a></div><div class="ttdeci">@ TYPE_BOAR</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1657</div></div>
-<div class="ttc" id="aa04169_html_a291915ace633b26b8dce599d6e9ee70da67567999784143ab1ea8cd3ba26ea1fd"><div class="ttname"><a href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70da67567999784143ab1ea8cd3ba26ea1fd">SPELL_WHISTLE</a></div><div class="ttdeci">@ SPELL_WHISTLE</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1650</div></div>
-<div class="ttc" id="aa04169_html_a291915ace633b26b8dce599d6e9ee70da85b62e76374bbd3bf54e760e565bf080"><div class="ttname"><a href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70da85b62e76374bbd3bf54e760e565bf080">SPELL_SHADOWMOON_TUBER</a></div><div class="ttdeci">@ SPELL_SHADOWMOON_TUBER</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1651</div></div>
-<div class="ttc" id="aa04169_html_a291915ace633b26b8dce599d6e9ee70dab9c4a21bb24ba5bc3a604a720b5056de"><div class="ttname"><a href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70dab9c4a21bb24ba5bc3a604a720b5056de">DATA_BOAR</a></div><div class="ttdeci">@ DATA_BOAR</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1658</div></div>
-<div class="ttc" id="aa04169_html_a291915ace633b26b8dce599d6e9ee70dae3723de3df9db38a012d0f0cd70ead61"><div class="ttname"><a href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70dae3723de3df9db38a012d0f0cd70ead61">POINT_TUBER</a></div><div class="ttdeci">@ POINT_TUBER</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1656</div></div>
-<div class="ttc" id="aa04169_html_a291915ace633b26b8dce599d6e9ee70daf6bc3f9354df41639b1d269f90c7b3eb"><div class="ttname"><a href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70daf6bc3f9354df41639b1d269f90c7b3eb">NPC_BOAR_ENTRY</a></div><div class="ttdeci">@ NPC_BOAR_ENTRY</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1653</div></div>
-<div class="ttc" id="aa04169_html_a291915ace633b26b8dce599d6e9ee70dafe9c76701fdd7f4c9ee827d727255719"><div class="ttname"><a href="../../df/d4b/a04169.html#a291915ace633b26b8dce599d6e9ee70dafe9c76701fdd7f4c9ee827d727255719">GO_SHADOWMOON_TUBER_MOUND</a></div><div class="ttdeci">@ GO_SHADOWMOON_TUBER_MOUND</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1654</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a787e8b63075b328932e0fa7237d4f3c5" name="a787e8b63075b328932e0fa7237d4f3c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a787e8b63075b328932e0fa7237d4f3c5">&#9670;&#160;</a></span>AddSC_shadowmoon_valley()</h2>
+<a id="a6c9bd5a761d9018e8be9e0c11b8db2c5" name="a6c9bd5a761d9018e8be9e0c11b8db2c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c9bd5a761d9018e8be9e0c11b8db2c5">&#9670;&#160;</a></span>AddSC_instance_gruuls_lair()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_shadowmoon_valley </td>
+          <td class="memname">void AddSC_instance_gruuls_lair </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1739</span>{</div>
-<div class="line"><span class="lineno"> 1740</span>    <span class="comment">// Ours</span></div>
-<div class="line"><span class="lineno"> 1741</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/df3/a25997.html">spell_q10612_10613_the_fel_and_the_furious</a>();</div>
-<div class="line"><span class="lineno"> 1742</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d0e/a26005.html">spell_q10563_q10596_to_legion_hold</a>();</div>
-<div class="line"><span class="lineno"> 1743</span> </div>
-<div class="line"><span class="lineno"> 1744</span>    <span class="comment">// Theirs</span></div>
-<div class="line"><span class="lineno"> 1745</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/dd7/a26013.html">npc_invis_infernal_caster</a>();</div>
-<div class="line"><span class="lineno"> 1746</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/df9/a26021.html">npc_infernal_attacker</a>();</div>
-<div class="line"><span class="lineno"> 1747</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/dca/a26029.html">npc_mature_netherwing_drake</a>();</div>
-<div class="line"><span class="lineno"> 1748</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/d13/a26037.html">npc_enslaved_netherwing_drake</a>();</div>
-<div class="line"><span class="lineno"> 1749</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/dad/a26045.html">npc_dragonmaw_peon</a>();</div>
-<div class="line"><span class="lineno"> 1750</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d4b/a26053.html">npc_drake_dealer_hurlunk</a>();</div>
-<div class="line"><span class="lineno"> 1751</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/de0/a26057.html">npcs_flanis_swiftwing_and_kagrosh</a>();</div>
-<div class="line"><span class="lineno"> 1752</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/dc5/a26061.html">npc_karynaku</a>();</div>
-<div class="line"><span class="lineno"> 1753</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d32/a26085.html">npc_lord_illidan_stormrage</a>();</div>
-<div class="line"><span class="lineno"> 1754</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/df9/a26101.html">go_crystal_prison</a>();</div>
-<div class="line"><span class="lineno"> 1755</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/d46/a26093.html">npc_illidari_spawn</a>();</div>
-<div class="line"><span class="lineno"> 1756</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/de6/a26077.html">npc_torloth_the_magnificent</a>();</div>
-<div class="line"><span class="lineno"> 1757</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d64/a26105.html">npc_enraged_spirit</a>();</div>
-<div class="line"><span class="lineno"> 1758</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/d8a/a26113.html">npc_shadowmoon_tuber_node</a>();</div>
-<div class="line"><span class="lineno"> 1759</span>}</div>
-<div class="ttc" id="aa25997_html"><div class="ttname"><a href="../../d6/df3/a25997.html">spell_q10612_10613_the_fel_and_the_furious</a></div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:49</div></div>
-<div class="ttc" id="aa26005_html"><div class="ttname"><a href="../../d6/d0e/a26005.html">spell_q10563_q10596_to_legion_hold</a></div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:99</div></div>
-<div class="ttc" id="aa26013_html"><div class="ttname"><a href="../../d6/dd7/a26013.html">npc_invis_infernal_caster</a></div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:155</div></div>
-<div class="ttc" id="aa26021_html"><div class="ttname"><a href="../../d7/df9/a26021.html">npc_infernal_attacker</a></div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:224</div></div>
-<div class="ttc" id="aa26029_html"><div class="ttname"><a href="../../d6/dca/a26029.html">npc_mature_netherwing_drake</a></div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:301</div></div>
-<div class="ttc" id="aa26037_html"><div class="ttname"><a href="../../df/d13/a26037.html">npc_enslaved_netherwing_drake</a></div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:440</div></div>
-<div class="ttc" id="aa26045_html"><div class="ttname"><a href="../../d3/dad/a26045.html">npc_dragonmaw_peon</a></div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:585</div></div>
-<div class="ttc" id="aa26053_html"><div class="ttname"><a href="../../d6/d4b/a26053.html">npc_drake_dealer_hurlunk</a></div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:707</div></div>
-<div class="ttc" id="aa26057_html"><div class="ttname"><a href="../../dc/de0/a26057.html">npcs_flanis_swiftwing_and_kagrosh</a></div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:739</div></div>
-<div class="ttc" id="aa26061_html"><div class="ttname"><a href="../../d1/dc5/a26061.html">npc_karynaku</a></div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:797</div></div>
-<div class="ttc" id="aa26077_html"><div class="ttname"><a href="../../dd/de6/a26077.html">npc_torloth_the_magnificent</a></div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:910</div></div>
-<div class="ttc" id="aa26085_html"><div class="ttname"><a href="../../d6/d32/a26085.html">npc_lord_illidan_stormrage</a></div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1070</div></div>
-<div class="ttc" id="aa26093_html"><div class="ttname"><a href="../../da/d46/a26093.html">npc_illidari_spawn</a></div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1215</div></div>
-<div class="ttc" id="aa26101_html"><div class="ttname"><a href="../../db/df9/a26101.html">go_crystal_prison</a></div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1406</div></div>
-<div class="ttc" id="aa26105_html"><div class="ttname"><a href="../../d8/d64/a26105.html">npc_enraged_spirit</a></div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1487</div></div>
-<div class="ttc" id="aa26113_html"><div class="ttname"><a href="../../de/d8a/a26113.html">npc_shadowmoon_tuber_node</a></div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:1662</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  102</span>{</div>
+<div class="line"><span class="lineno">  103</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d77/a25185.html">instance_gruuls_lair</a>();</div>
+<div class="line"><span class="lineno">  104</span>}</div>
+<div class="ttc" id="aa25185_html"><div class="ttname"><a href="../../dd/d77/a25185.html">instance_gruuls_lair</a></div><div class="ttdef"><b>Definition:</b> instance_gruuls_lair.cpp:46</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l01072">npc_lord_illidan_stormrage::npc_lord_illidan_stormrage()</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="../../#l00122">AddOutlandScripts()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a1d25fd6452855fb4166558c34940caff" name="a1d25fd6452855fb4166558c34940caff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d25fd6452855fb4166558c34940caff">&#9670;&#160;</a></span>SpawnCast</h2>
+<a id="a412286b689bd324fedd65ddd8dde8afb" name="a412286b689bd324fedd65ddd8dde8afb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a412286b689bd324fedd65ddd8dde8afb">&#9670;&#160;</a></span>creatureData</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/d2e/a15569.html">SpawnSpells</a> SpawnCast[]</td>
+          <td class="memname"><a class="el" href="../../d6/d08/a09253.html">ObjectData</a> const creatureData[]</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
 <div class="line">{</div>
-<div class="line">    {10000, 15000, 35871},  </div>
-<div class="line">    {10000, 10000, 38985},  </div>
-<div class="line">    {35000, 35000, 22884},  </div>
-<div class="line">    {20000, 20000, 17194},  </div>
-<div class="line">    {8000, 15000, 38010},   </div>
-<div class="line">    {12000, 20000, 16102},  </div>
-<div class="line">    {10000, 15000, 15284},  </div>
-<div class="line">    {18000, 20000, 39082},  </div>
-<div class="line">    {25000, 28000, 33961}   </div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d2/dbb/a04166.html#a92f6fd626e1834a4cc509efc1186963ea61f2ef319d5203666bd8a86b5b9a2603">NPC_MAULGAR</a>, <a class="code hl_enumvalue" href="../../d2/dbb/a04166.html#afb6eb4f28419b652027fad41104a6d22ae405fe3c160f2ad583b0cfe2a99be93a">DATA_MAULGAR</a> },</div>
+<div class="line">    { 0,           0            }</div>
 <div class="line">}</div>
+<div class="ttc" id="aa04166_html_a92f6fd626e1834a4cc509efc1186963ea61f2ef319d5203666bd8a86b5b9a2603"><div class="ttname"><a href="../../d2/dbb/a04166.html#a92f6fd626e1834a4cc509efc1186963ea61f2ef319d5203666bd8a86b5b9a2603">NPC_MAULGAR</a></div><div class="ttdeci">@ NPC_MAULGAR</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:41</div></div>
+<div class="ttc" id="aa04166_html_afb6eb4f28419b652027fad41104a6d22ae405fe3c160f2ad583b0cfe2a99be93a"><div class="ttname"><a href="../../d2/dbb/a04166.html#afb6eb4f28419b652027fad41104a6d22ae405fe3c160f2ad583b0cfe2a99be93a">DATA_MAULGAR</a></div><div class="ttdeci">@ DATA_MAULGAR</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:31</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00992">npc_torloth_the_magnificent::npc_torloth_the_magnificentAI::UpdateAI()</a>, and <a class="el" href="../../#l01248">npc_illidari_spawn::npc_illidari_spawnAI::UpdateAI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00052">instance_gruuls_lair::instance_gruuls_lair_InstanceMapScript::instance_gruuls_lair_InstanceMapScript()</a>.</p>
 
 </div>
 </div>
-<a id="a49b9a0d378851fc27feacce144995fc1" name="a49b9a0d378851fc27feacce144995fc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49b9a0d378851fc27feacce144995fc1">&#9670;&#160;</a></span>SpawnLocation</h2>
+<a id="a69c4a0ca4694d5ed1d42f0373dd5d80c" name="a69c4a0ca4694d5ed1d42f0373dd5d80c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c4a0ca4694d5ed1d42f0373dd5d80c">&#9670;&#160;</a></span>doorData</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/d29/a26069.html">Location</a> SpawnLocation[]</td>
+          <td class="memname"><a class="el" href="../../dc/d34/a09237.html">DoorData</a> const doorData[]</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
 <div class="line">{</div>
-<div class="line">    </div>
-<div class="line">    {-4615.8556f, 1342.2532f, 139.9f, 1.612f}, </div>
-<div class="line">    {-4598.9365f, 1377.3182f, 139.9f, 3.917f}, </div>
-<div class="line">    {-4598.4697f, 1360.8999f, 139.9f, 2.427f}, </div>
-<div class="line">    {-4589.3599f, 1369.1061f, 139.9f, 3.165f}, </div>
-<div class="line">    {-4608.3477f, 1386.0076f, 139.9f, 4.108f}, </div>
-<div class="line">    {-4633.1889f, 1359.8033f, 139.9f, 0.949f}, </div>
-<div class="line">    {-4623.5791f, 1351.4574f, 139.9f, 0.971f}, </div>
-<div class="line">    {-4607.2988f, 1351.6099f, 139.9f, 2.416f}, </div>
-<div class="line">    {-4633.7764f, 1376.0417f, 139.9f, 5.608f}, </div>
-<div class="line">    {-4600.2461f, 1369.1240f, 139.9f, 3.056f}, </div>
-<div class="line">    {-4631.7808f, 1367.9459f, 139.9f, 0.020f}, </div>
-<div class="line">    {-4600.2461f, 1369.1240f, 139.9f, 3.056f}, </div>
-<div class="line">    {-4631.7808f, 1367.9459f, 139.9f, 0.020f}, </div>
-<div class="line">    {-4615.5586f, 1353.0031f, 139.9f, 1.540f}, </div>
-<div class="line">    {-4616.4736f, 1384.2170f, 139.9f, 4.971f}, </div>
-<div class="line">    {-4627.1240f, 1378.8752f, 139.9f, 2.544f} </div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d2/dbb/a04166.html#a57d2d4154291532e405ab880a40a999fadfeb06c530d78f6c5bfdc414ae505622">GO_MAULGAR_DOOR</a>,  <a class="code hl_enumvalue" href="../../d2/dbb/a04166.html#afb6eb4f28419b652027fad41104a6d22ae405fe3c160f2ad583b0cfe2a99be93a">DATA_MAULGAR</a>,   <a class="code hl_enumvalue" href="../../de/d1a/a01559.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d2/dbb/a04166.html#a57d2d4154291532e405ab880a40a999fac19511a30a99f3d0cb9eafbce3745768">GO_GRUUL_DOOR</a>,    <a class="code hl_enumvalue" href="../../d2/dbb/a04166.html#afb6eb4f28419b652027fad41104a6d22accf4ac52aca57b15bc50cf47c8a3e5fc">DATA_GRUUL</a>,     <a class="code hl_enumvalue" href="../../de/d1a/a01559.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a>    },</div>
+<div class="line">    { 0,                0,              <a class="code hl_enumvalue" href="../../de/d1a/a01559.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a>    } </div>
 <div class="line">}</div>
+<div class="ttc" id="aa01559_html_ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70"><div class="ttname"><a href="../../de/d1a/a01559.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a></div><div class="ttdeci">@ DOOR_TYPE_ROOM</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:67</div></div>
+<div class="ttc" id="aa01559_html_ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905"><div class="ttname"><a href="../../de/d1a/a01559.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a></div><div class="ttdeci">@ DOOR_TYPE_PASSAGE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:68</div></div>
+<div class="ttc" id="aa04166_html_a57d2d4154291532e405ab880a40a999fac19511a30a99f3d0cb9eafbce3745768"><div class="ttname"><a href="../../d2/dbb/a04166.html#a57d2d4154291532e405ab880a40a999fac19511a30a99f3d0cb9eafbce3745768">GO_GRUUL_DOOR</a></div><div class="ttdeci">@ GO_GRUUL_DOOR</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:51</div></div>
+<div class="ttc" id="aa04166_html_a57d2d4154291532e405ab880a40a999fadfeb06c530d78f6c5bfdc414ae505622"><div class="ttname"><a href="../../d2/dbb/a04166.html#a57d2d4154291532e405ab880a40a999fadfeb06c530d78f6c5bfdc414ae505622">GO_MAULGAR_DOOR</a></div><div class="ttdeci">@ GO_MAULGAR_DOOR</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:50</div></div>
+<div class="ttc" id="aa04166_html_afb6eb4f28419b652027fad41104a6d22accf4ac52aca57b15bc50cf47c8a3e5fc"><div class="ttname"><a href="../../d2/dbb/a04166.html#afb6eb4f28419b652027fad41104a6d22accf4ac52aca57b15bc50cf47c8a3e5fc">DATA_GRUUL</a></div><div class="ttdeci">@ DATA_GRUUL</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:32</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l01336">npc_lord_illidan_stormrage::npc_lord_illidan_stormrageAI::SummonNextWave()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00052">instance_gruuls_lair::instance_gruuls_lair_InstanceMapScript::instance_gruuls_lair_InstanceMapScript()</a>.</p>
 
 </div>
 </div>
-<a id="a7c2e0b764b580aefde5c593f077642a0" name="a7c2e0b764b580aefde5c593f077642a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c2e0b764b580aefde5c593f077642a0">&#9670;&#160;</a></span>TorlothAnim</h2>
+<a id="a6720238df140a3c574a711042b7f5bd3" name="a6720238df140a3c574a711042b7f5bd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6720238df140a3c574a711042b7f5bd3">&#9670;&#160;</a></span>minionData</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d1b/a26065.html">TorlothCinematic</a> TorlothAnim[]</td>
+          <td class="memname"><a class="el" href="../../d4/da4/a09249.html">MinionData</a> const minionData[]</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
 <div class="line">{</div>
-<div class="line">    {0, 2000},</div>
-<div class="line">    {1, 7000},</div>
-<div class="line">    {0, 3000},</div>
-<div class="line">    {0, 2000}, </div>
-<div class="line">    {0, 1000},</div>
-<div class="line">    {0, 3000},</div>
-<div class="line">    {0, 0}</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d2/dbb/a04166.html#a92f6fd626e1834a4cc509efc1186963ea61f2ef319d5203666bd8a86b5b9a2603">NPC_MAULGAR</a>,              <a class="code hl_enumvalue" href="../../d2/dbb/a04166.html#afb6eb4f28419b652027fad41104a6d22ae405fe3c160f2ad583b0cfe2a99be93a">DATA_MAULGAR</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d2/dbb/a04166.html#a92f6fd626e1834a4cc509efc1186963ea7e440984b10a7a2300c1caab77949a74">NPC_KROSH_FIREHAND</a>,       <a class="code hl_enumvalue" href="../../d2/dbb/a04166.html#afb6eb4f28419b652027fad41104a6d22ae405fe3c160f2ad583b0cfe2a99be93a">DATA_MAULGAR</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d2/dbb/a04166.html#a92f6fd626e1834a4cc509efc1186963eab39dfed80a659ee419a65a9f70cfecec">NPC_OLM_THE_SUMMONER</a>,     <a class="code hl_enumvalue" href="../../d2/dbb/a04166.html#afb6eb4f28419b652027fad41104a6d22ae405fe3c160f2ad583b0cfe2a99be93a">DATA_MAULGAR</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d2/dbb/a04166.html#a92f6fd626e1834a4cc509efc1186963ea8bd4e976e7d8d6748ac16eeea3862a2b">NPC_KIGGLER_THE_CRAZED</a>,   <a class="code hl_enumvalue" href="../../d2/dbb/a04166.html#afb6eb4f28419b652027fad41104a6d22ae405fe3c160f2ad583b0cfe2a99be93a">DATA_MAULGAR</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d2/dbb/a04166.html#a92f6fd626e1834a4cc509efc1186963eaf12a0c8363fc94afbd555850e6a2482a">NPC_BLINDEYE_THE_SEER</a>,    <a class="code hl_enumvalue" href="../../d2/dbb/a04166.html#afb6eb4f28419b652027fad41104a6d22ae405fe3c160f2ad583b0cfe2a99be93a">DATA_MAULGAR</a> }</div>
 <div class="line">}</div>
+<div class="ttc" id="aa04166_html_a92f6fd626e1834a4cc509efc1186963ea7e440984b10a7a2300c1caab77949a74"><div class="ttname"><a href="../../d2/dbb/a04166.html#a92f6fd626e1834a4cc509efc1186963ea7e440984b10a7a2300c1caab77949a74">NPC_KROSH_FIREHAND</a></div><div class="ttdeci">@ NPC_KROSH_FIREHAND</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:42</div></div>
+<div class="ttc" id="aa04166_html_a92f6fd626e1834a4cc509efc1186963ea8bd4e976e7d8d6748ac16eeea3862a2b"><div class="ttname"><a href="../../d2/dbb/a04166.html#a92f6fd626e1834a4cc509efc1186963ea8bd4e976e7d8d6748ac16eeea3862a2b">NPC_KIGGLER_THE_CRAZED</a></div><div class="ttdeci">@ NPC_KIGGLER_THE_CRAZED</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:44</div></div>
+<div class="ttc" id="aa04166_html_a92f6fd626e1834a4cc509efc1186963eab39dfed80a659ee419a65a9f70cfecec"><div class="ttname"><a href="../../d2/dbb/a04166.html#a92f6fd626e1834a4cc509efc1186963eab39dfed80a659ee419a65a9f70cfecec">NPC_OLM_THE_SUMMONER</a></div><div class="ttdeci">@ NPC_OLM_THE_SUMMONER</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:43</div></div>
+<div class="ttc" id="aa04166_html_a92f6fd626e1834a4cc509efc1186963eaf12a0c8363fc94afbd555850e6a2482a"><div class="ttname"><a href="../../d2/dbb/a04166.html#a92f6fd626e1834a4cc509efc1186963eaf12a0c8363fc94afbd555850e6a2482a">NPC_BLINDEYE_THE_SEER</a></div><div class="ttdeci">@ NPC_BLINDEYE_THE_SEER</div><div class="ttdef"><b>Definition:</b> gruuls_lair.h:45</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00947">npc_torloth_the_magnificent::npc_torloth_the_magnificentAI::HandleAnimation()</a>.</p>
-
-</div>
-</div>
-<a id="acdf75daa27951ff92fc1ee8b171d064a" name="acdf75daa27951ff92fc1ee8b171d064a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acdf75daa27951ff92fc1ee8b171d064a">&#9670;&#160;</a></span>WavesInfo</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../da/d84/a26073.html">WaveDataCreature</a> WavesInfo[]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    {9, 0, 22075, 10000, 7000},   </div>
-<div class="line">    {2, 9, 22074, 10000, 7000},   </div>
-<div class="line">    {4, 11, 19797, 10000, 7000},  </div>
-<div class="line">    {1, 15, 22076, 10000, 7000}   </div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l01336">npc_lord_illidan_stormrage::npc_lord_illidan_stormrageAI::SummonNextWave()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00052">instance_gruuls_lair::instance_gruuls_lair_InstanceMapScript::instance_gruuls_lair_InstanceMapScript()</a>.</p>
 
 </div>
 </div>
@@ -1061,8 +248,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_aa56e8ce1c3e0d32a59f1a16b86dbc72.html">Outland</a></li><li class="navelem"><a class="el" href="../../df/d4b/a04169.html">zone_shadowmoon_valley.cpp</a></li>
-    <li class="footer">Generated on Sun Aug 20 2023 00:19:19 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_aa56e8ce1c3e0d32a59f1a16b86dbc72.html">Outland</a></li><li class="navelem"><a class="el" href="../../dir_da01a965bae6fd871215c00876339143.html">GruulsLair</a></li><li class="navelem"><a class="el" href="../../df/d4b/a04169.html">instance_gruuls_lair.cpp</a></li>
+    <li class="footer">Generated on Wed Dec 6 2023 22:12:25 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

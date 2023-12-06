@@ -1,7 +1,7 @@
 var a27241 =
 [
-    [ "HandleDummy", "d0/dcf/a27241.html#a4b23e39151d0bced8bb729435a56352d", null ],
-    [ "Load", "d0/dcf/a27241.html#aaa341815d71652a13f3ca449af6ac14f", null ],
-    [ "PrepareSpellScript", "d0/dcf/a27241.html#ac0e7d279312a59dd62d7d91eb3ef82b7", null ],
-    [ "Register", "d0/dcf/a27241.html#a19a2247cebd2af38a1bd30af213ad633", null ]
+    [ "FilterTargets", "d0/dcf/a27241.html#affede599b86e05e6475fd64a60268e8e", null ],
+    [ "Load", "d0/dcf/a27241.html#a1343407ca8b571140ed2ecf5501bf378", null ],
+    [ "PrepareSpellScript", "d0/dcf/a27241.html#a12ff05520225209b476b3ba8422de1c6", null ],
+    [ "Register", "d0/dcf/a27241.html#ac99786385187e21fb02e65e9b9719400", null ]
 ];

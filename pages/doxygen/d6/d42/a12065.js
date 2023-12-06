@@ -1,10 +1,8 @@
 var a12065 =
 [
-    [ "instance_deadmines_InstanceMapScript", "d6/d42/a12065.html#afa12491c1b276d0d643822da562320c3", null ],
-    [ "GetSaveData", "d6/d42/a12065.html#a775c7d564b931e157a32b0909efed859", null ],
-    [ "Initialize", "d6/d42/a12065.html#a8b8bca7a1d7880bc53b8002934ceeb7a", null ],
-    [ "Load", "d6/d42/a12065.html#afff7e04cc632e2d4ddb438d03e561560", null ],
-    [ "OnGameObjectCreate", "d6/d42/a12065.html#a095202af8915f8a1d8888c045e18d6c4", null ],
-    [ "SetData", "d6/d42/a12065.html#a8cd5bf5302b1a7221c69dd9fdc9518dc", null ],
-    [ "_encounters", "d6/d42/a12065.html#a01d69e135cbd2dd885dfc84c98ed8be1", null ]
+    [ "MajordomoAddData", "d6/d42/a12065.html#aa068ada34e1275cbf97b21f74dfd2881", null ],
+    [ "MajordomoAddData", "d6/d42/a12065.html#a9b8cc2b43ffbf268e470169e00e66671", null ],
+    [ "creatureEntry", "d6/d42/a12065.html#ae3a0444e88158123f4d6359328e89a1d", null ],
+    [ "guid", "d6/d42/a12065.html#a2f2b0aaace557361a21d1072f36933dc", null ],
+    [ "spawnPos", "d6/d42/a12065.html#a31f8d24efb19c2d0e697f35b911e3237", null ]
 ];

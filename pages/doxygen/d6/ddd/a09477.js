@@ -1,12 +1,7 @@
 var a09477 =
 [
-    [ "RotateMovementGenerator", "d6/ddd/a09477.html#a89a6559b4380210972e82c6ca6d5a9db", null ],
-    [ "Finalize", "d6/ddd/a09477.html#afd7588c7877b116cc9626a774b89d584", null ],
-    [ "GetMovementGeneratorType", "d6/ddd/a09477.html#a20677803edf5d93ceae3bf76ef426a81", null ],
-    [ "Initialize", "d6/ddd/a09477.html#a18fea8760bb24912af9349a06ff7b596", null ],
-    [ "Reset", "d6/ddd/a09477.html#a3e177762fcfc11ac47aa820b46b93ed0", null ],
-    [ "Update", "d6/ddd/a09477.html#a0dc8600e3aa862a81735dfb927232e53", null ],
-    [ "m_direction", "d6/ddd/a09477.html#a8717e890670d9f4e2ff66c0981d14aa6", null ],
-    [ "m_duration", "d6/ddd/a09477.html#a2cb8d5fc3d26c24e62c7373f1ce49b13", null ],
-    [ "m_maxDuration", "d6/ddd/a09477.html#a7cf10886bdd50ccbc5900b9229958e01", null ]
+    [ "LFGUpdateRequest", "d6/ddd/a09477.html#a85900fc44d5dfb5595fbe7dc3422dfaa", null ],
+    [ "call", "d6/ddd/a09477.html#a15258001db5870a0f52bb0c72cba3587", null ],
+    [ "m_diff", "d6/ddd/a09477.html#a27e818e5d985ac91be6eca14a1ebd73f", null ],
+    [ "m_updater", "d6/ddd/a09477.html#a1bb4423241495aebab83ebc1acf66510", null ]
 ];

@@ -1,4 +1,4 @@
 var a00362 =
 [
-    [ "LockedQueue< T, StorageType >", "de/d1a/a05089.html", "de/d1a/a05089" ]
+    [ "LockedQueue< T, StorageType >", "d4/d21/a05245.html", "d4/d21/a05245" ]
 ];

@@ -1,6 +1,9 @@
 var a27269 =
 [
-    [ "CheckCast", "d3/de5/a27269.html#a849de7a9bc8d22ca1556e4e798807eaa", null ],
-    [ "PrepareSpellScript", "d3/de5/a27269.html#aadbfe7c69dac7cbc76aee2bfb790b612", null ],
-    [ "Register", "d3/de5/a27269.html#a2ca1fd7353e69d1028b8a9b2882d7931", null ]
+    [ "getMountSpellId", "d3/de5/a27269.html#afe306ed6057050baf342ee717723764d", null ],
+    [ "OnApply", "d3/de5/a27269.html#aa8bee986d413be60d00ac1d2111ef719", null ],
+    [ "OnRemove", "d3/de5/a27269.html#a162d466a1dcd2cb710abf12c06f7c2de", null ],
+    [ "PrepareAuraScript", "d3/de5/a27269.html#a7070cc7aeec4a88fbde960cebf1aef56", null ],
+    [ "Register", "d3/de5/a27269.html#a481e5295da3d789d9b3c1ed30fdaf0bd", null ],
+    [ "Validate", "d3/de5/a27269.html#a6868f6e88c9179efd921b266c83f6daf", null ]
 ];

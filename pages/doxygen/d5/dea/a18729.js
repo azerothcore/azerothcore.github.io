@@ -1,7 +1,6 @@
 var a18729 =
 [
-    [ "HandleScript", "d5/dea/a18729.html#a33c7b297a132c63a6c2a1057104bf0d7", null ],
-    [ "PrepareSpellScript", "d5/dea/a18729.html#aefddb6594c4a0c473a43e83111adf4ab", null ],
-    [ "Register", "d5/dea/a18729.html#a3b42d4efc610164c5bffeeb6183d2634", null ],
-    [ "Validate", "d5/dea/a18729.html#afa88b9c2c3a1fcd1119a1b1e895b86b1", null ]
+    [ "UnchainedMagicTargetSelector", "d5/dea/a18729.html#ae412c72884e6cfb1ceef8ed9fb347fbf", null ],
+    [ "operator()", "d5/dea/a18729.html#af28ce8f46154ae6152e9025775a7f84f", null ],
+    [ "_removeHealers", "d5/dea/a18729.html#a35a7981ce5495cba8b3a5391e4031431", null ]
 ];

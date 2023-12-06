@@ -1,7 +1,8 @@
 var a23209 =
 [
-    [ "CheckRequirement", "de/df7/a23209.html#a41beb2c890137328734d6adb14e08302", null ],
-    [ "PrepareSpellScript", "de/df7/a23209.html#aa0b9873dbd8c75a14fa88094d91eeeaa", null ],
-    [ "Register", "de/df7/a23209.html#aa0fad5e5a68131ebab5717ad0ce69669", null ],
-    [ "SetDest", "de/df7/a23209.html#a431a556ab73f91ed63f5983e537834a5", null ]
+    [ "npc_future_youAI", "de/df7/a23209.html#a7608c050dd198e3133050e222b42f62b", null ],
+    [ "EnterEvadeMode", "de/df7/a23209.html#a0b15c8af6075e323e56b2170ce4eefc0", null ],
+    [ "MoveInLineOfSight", "de/df7/a23209.html#a35b67f9e948f5ffbde8a423190ece603", null ],
+    [ "Reset", "de/df7/a23209.html#a01a8cd8f94dd614de2ffefdb19cd9f29", null ],
+    [ "UpdateAI", "de/df7/a23209.html#ac110daa6b4cf6bf26d9e9f9829577fa6", null ]
 ];

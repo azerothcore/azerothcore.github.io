@@ -1,14 +1,19 @@
 var a09453 =
 [
-    [ "EscortMovementGenerator", "d8/d03/a09453.html#a9d653e50662103f5f6661da5226ae99e", null ],
-    [ "DoFinalize", "d8/d03/a09453.html#a4c191a86f5ecc30ae5b34d7578d58d3e", null ],
-    [ "DoInitialize", "d8/d03/a09453.html#ad068798c6e186c1eb1a79f3872955e97", null ],
-    [ "DoReset", "d8/d03/a09453.html#ac4934d70ab62e08488cfc29c13355a7f", null ],
-    [ "DoUpdate", "d8/d03/a09453.html#a524bb8f72836dc5d1b63e429436b3a77", null ],
-    [ "GetMovementGeneratorType", "d8/d03/a09453.html#a0733162a5a0cab2593150f288edeb27b", null ],
-    [ "GetSplineId", "d8/d03/a09453.html#a61d74b098d1ae692ce305fa493aaa6d2", null ],
-    [ "unitSpeedChanged", "d8/d03/a09453.html#a235e330c4c3368af00d37028915684ff", null ],
-    [ "_splineId", "d8/d03/a09453.html#af6286fa4ed6afcc8a6c5f03575c774e6", null ],
-    [ "i_recalculateSpeed", "d8/d03/a09453.html#a9f7048c5e49cc09f809496312a0c6550", null ],
-    [ "m_precomputedPath", "d8/d03/a09453.html#a46eb2812a1b2a56e584b925cae2169eb", null ]
+    [ "InstancedMaps", "d8/d03/a09453.html#a2d08c599bf826c4c98aaa9109e3b7a57", null ],
+    [ "MapInstanced", "d8/d03/a09453.html#af30e91e40c171ddbf7400f310283c43c", null ],
+    [ "~MapInstanced", "d8/d03/a09453.html#aa27d6f90288f23d34117c7d68160e04c", null ],
+    [ "CannotEnter", "d8/d03/a09453.html#a29f973e3e4bdfcfb0ea9bf6639b38108", null ],
+    [ "CreateBattleground", "d8/d03/a09453.html#ad57ef8f1654b494b8c20f6af461653f4", null ],
+    [ "CreateInstance", "d8/d03/a09453.html#ad83d8860fcc67f41208f73f7938eb513", null ],
+    [ "CreateInstanceForPlayer", "d8/d03/a09453.html#a9151fb7f7438abddf7aa17d015c600ab", null ],
+    [ "DelayedUpdate", "d8/d03/a09453.html#a8f58a4c872089f8fce60ddc31623611e", null ],
+    [ "DestroyInstance", "d8/d03/a09453.html#aaff2d76ae18bb7416e0cc8c16e0375d7", null ],
+    [ "FindInstanceMap", "d8/d03/a09453.html#a6ec8d0547ce589613f53a2c8d0f4a7fa", null ],
+    [ "GetInstancedMaps", "d8/d03/a09453.html#aff2cc0a1f57f06ead9a3e999c1c7dba0", null ],
+    [ "InitVisibilityDistance", "d8/d03/a09453.html#a29380bc11b3e33278338bcff32b3cbec", null ],
+    [ "UnloadAll", "d8/d03/a09453.html#a7fb86dd2f4b60721aabf3923c461f1fc", null ],
+    [ "Update", "d8/d03/a09453.html#a0fce5af3a96e35e9cbe44d73bac8b2df", null ],
+    [ "MapMgr", "d8/d03/a09453.html#ae6ac74470769d45e3c75291134ab77df", null ],
+    [ "m_InstancedMaps", "d8/d03/a09453.html#a655e624aad00ec0345aa17ce635666bf", null ]
 ];

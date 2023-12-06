@@ -1,5 +1,6 @@
 var a23857 =
 [
-    [ "npc_wg_spirit_guideAI", "d6/d52/a23857.html#a576d15b6acedb07bfe1555bdd0ee8f12", null ],
-    [ "UpdateAI", "d6/d52/a23857.html#a32b28e8fe74db742d170bd754d11f4d7", null ]
+    [ "npc_icefangAI", "df/da5/a23861.html", "df/da5/a23861" ],
+    [ "npc_icefang", "d6/d52/a23857.html#a2e13be89b110abaa2509e597e4cf883a", null ],
+    [ "GetAI", "d6/d52/a23857.html#ad1a936b1eef30271912054a817e0c9f8", null ]
 ];

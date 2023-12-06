@@ -1,6 +1,6 @@
 var a18521 =
 [
-    [ "HandleSummon", "dc/da0/a18521.html#a5389b8f55d78c1733359dd1cadb203ff", null ],
-    [ "PrepareSpellScript", "dc/da0/a18521.html#aeee6f9c93136065ad7a97bbe8df73bb1", null ],
-    [ "Register", "dc/da0/a18521.html#aeb51460cc2391eea79182fbc90927a76", null ]
+    [ "HandlePeriodic", "dc/da0/a18521.html#a43ef64b0bc06241094d7ad3011e34bbe", null ],
+    [ "PrepareAuraScript", "dc/da0/a18521.html#a06cb2f20fdc63bd6f28338b42ac38a17", null ],
+    [ "Register", "dc/da0/a18521.html#a2ccd62d6a383e45d7c5918c32a368338", null ]
 ];

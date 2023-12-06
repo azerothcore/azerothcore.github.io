@@ -1,6 +1,6 @@
 var a18157 =
 [
-    [ "spell_igb_cannon_blast_SpellScript", "d7/d3a/a18161.html", "d7/d3a/a18161" ],
-    [ "spell_igb_cannon_blast", "de/d87/a18157.html#a8d4db0c581b4f7e8995cfdf3764ea0e6", null ],
-    [ "GetSpellScript", "de/d87/a18157.html#af9e0fe1f4352173ab46e8bc9105ba9a4", null ]
+    [ "spell_igb_explosion_SpellScript", "d7/d3a/a18161.html", "d7/d3a/a18161" ],
+    [ "spell_igb_explosion", "de/d87/a18157.html#a200411efb732957b117cfa7ead3bc467", null ],
+    [ "GetSpellScript", "de/d87/a18157.html#a7bd0d9a9bbefc856e8584a99e9d3283f", null ]
 ];

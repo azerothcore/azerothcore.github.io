@@ -1,5 +1,7 @@
 var a02273 =
 [
-    [ "achievement_commandscript", "d4/dcb/a11045.html", "d4/dcb/a11045" ],
-    [ "AddSC_achievement_commandscript", "d7/d6e/a02273.html#afeb482a8cffe8416071764bc4e78bff2", null ]
+    [ "canCreateExtraItems", "d7/d6e/a02273.html#a49687e255d65fa15dac5e6a428c5739d", null ],
+    [ "CanCreatePerfectItem", "d7/d6e/a02273.html#a818c557864790091814604b6d2175e52", null ],
+    [ "LoadSkillExtraItemTable", "d7/d6e/a02273.html#a3244d04018405bafe21acc8bc96cc743", null ],
+    [ "LoadSkillPerfectItemTable", "d7/d6e/a02273.html#a121df170a82be5ab5b05999a6be27b69", null ]
 ];

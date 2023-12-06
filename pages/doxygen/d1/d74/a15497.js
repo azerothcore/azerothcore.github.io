@@ -1,5 +1,6 @@
 var a15497 =
 [
-    [ "at_ancient_leaf", "d1/d74/a15497.html#a7c1913b5ac00659697d0b361f1a7a2fd", null ],
-    [ "OnTrigger", "d1/d74/a15497.html#a6d3a2775216cb0c864dc21f5bb5dbc79", null ]
+    [ "HandleEffectPeriodic", "d1/d74/a15497.html#a093a682bc5043b63af016aa130fdc0b8", null ],
+    [ "PrepareAuraScript", "d1/d74/a15497.html#a035cc2dfc78a0ee292ddab3633d44c10", null ],
+    [ "Register", "d1/d74/a15497.html#a74c29ca2047da995d6d6f89f17ecb52f", null ]
 ];

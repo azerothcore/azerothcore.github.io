@@ -1,11 +1,11 @@
 var a06913 =
 [
-    [ "BattlegroundABScore", "d6/d0a/a06913.html#ae219ecb551c89ad5a5cb22f1996a598b", null ],
-    [ "BuildObjectivesBlock", "d6/d0a/a06913.html#a86ac6e9b19eaa7ed257f25f9f73c22cf", null ],
-    [ "GetAttr1", "d6/d0a/a06913.html#af0f066f76f4d84e844946862ae819b4f", null ],
-    [ "GetAttr2", "d6/d0a/a06913.html#a8ac00679dd8dfeef81f159b7a2b22027", null ],
-    [ "UpdateScore", "d6/d0a/a06913.html#a43aaefd97c8880cbf70381282d81f7cf", null ],
-    [ "BattlegroundAB", "d6/d0a/a06913.html#ad5365fcb2edd84180065badd1572ba8e", null ],
-    [ "BasesAssaulted", "d6/d0a/a06913.html#a25643abf67d1ae2f8498951c11833994", null ],
-    [ "BasesDefended", "d6/d0a/a06913.html#a450504481d335230b3e035d4337694be", null ]
+    [ "gyid", "d6/d0a/a06913.html#a742fcc91d2daf1a9331f02a90496328c", null ],
+    [ "o", "d6/d0a/a06913.html#a9c761e77b7194ab1bb80d28f2b1e1f6d", null ],
+    [ "startcontrol", "d6/d0a/a06913.html#a8b0aed9e6973ce6efc5d89a0d10a4139", null ],
+    [ "textid", "d6/d0a/a06913.html#a87d80377ad632b9d667eecf11ae8faae", null ],
+    [ "type", "d6/d0a/a06913.html#ae1a4b69ea4edabe51f1378c6cb066cad", null ],
+    [ "x", "d6/d0a/a06913.html#ad69833b4e2a27999dcd13e5ac5bda892", null ],
+    [ "y", "d6/d0a/a06913.html#a405e8098772e77250683985f957ce5f3", null ],
+    [ "z", "d6/d0a/a06913.html#a844e4c9c9b1a9a22a817025ccda7f08d", null ]
 ];

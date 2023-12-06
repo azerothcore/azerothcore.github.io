@@ -1,6 +1,5 @@
 var a21465 =
 [
-    [ "spell_hodir_storm_power_AuraScript", "da/ddd/a21469.html", "da/ddd/a21469" ],
-    [ "spell_hodir_storm_power", "dc/d38/a21465.html#a70994976d36b72b069bd383cbd1e5365", null ],
-    [ "GetAuraScript", "dc/d38/a21465.html#a880331bf7f10002c0516ffa05413b333", null ]
+    [ "PrepareAuraScript", "dc/d38/a21465.html#a00cd12fa222594d14fedfb3b46048a4d", null ],
+    [ "Register", "dc/d38/a21465.html#ae1dfee5d81880091d7e0d78af0a3417a", null ]
 ];

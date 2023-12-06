@@ -1,8 +1,6 @@
 var a28673 =
 [
-    [ "HandleEffect", "d6/d31/a28673.html#a1c1a06362742abcf83e1817c468de3d3", null ],
-    [ "PrepareSpellScript", "d6/d31/a28673.html#a0e2cce13a3b2c8b8e9ace8876def8b9c", null ],
-    [ "Register", "d6/d31/a28673.html#a56108b37bc69809ce80d424e2bcb3f55", null ],
-    [ "SendMiss", "d6/d31/a28673.html#afda727460aebc8fe97d5c18d0195ea2c", null ],
-    [ "Validate", "d6/d31/a28673.html#ab9533351a176f4e0d641a6e36a75d6b9", null ]
+    [ "HandleScript", "d6/d31/a28673.html#ab2bad52272a5cd7167a7601fdfa02b1d", null ],
+    [ "PrepareSpellScript", "d6/d31/a28673.html#a60454f2c1ba8d1ea160350b5e02bf56d", null ],
+    [ "Register", "d6/d31/a28673.html#a22b9877e2cd27c925ae7b351d3d6f41b", null ]
 ];

@@ -1,6 +1,5 @@
 var a19837 =
 [
-    [ "npc_four_car_garageAI", "d4/d45/a19837.html#a2eedf5934e12d33cda0ac173d82220d5", null ],
-    [ "JustDied", "d4/d45/a19837.html#a1fba9f03dca2db37b5cb969079b25d22", null ],
-    [ "PassengerBoarded", "d4/d45/a19837.html#a144bc36a5c4ff227c8a7dc146d4167b6", null ]
+    [ "at_frozen_throne_teleport", "d4/d45/a19837.html#a8065b9f9b55b267be1757775f84de349", null ],
+    [ "OnTrigger", "d4/d45/a19837.html#ae1f9476b7f47320f545e702e9317bd03", null ]
 ];

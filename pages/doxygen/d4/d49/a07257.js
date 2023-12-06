@@ -1,12 +1,10 @@
 var a07257 =
 [
-    [ "value_type", "d4/d49/a07257.html#ad430aafb433483e30d12567e7e8c2915", null ],
-    [ "GetID", "d4/d49/a07257.html#a73dd0adf980c5c3d2e272f9709ece880", null ],
-    [ "GetName", "d4/d49/a07257.html#aae4efee3e6e7d403b0c6f5d484814b81", null ],
-    [ "operator std::string const &", "d4/d49/a07257.html#a3530d83607efda9b3f50a61959da3267", null ],
-    [ "operator std::string_view", "d4/d49/a07257.html#a6b77a74762705e00d73b751a5f947e05", null ],
-    [ "operator uint32", "d4/d49/a07257.html#abffff20cfe5d5b3936ac345c5082258f", null ],
-    [ "TryConsume", "d4/d49/a07257.html#abc0041bef0d0171b54acbdcf6b18f611", null ],
-    [ "_id", "d4/d49/a07257.html#a844e7f79db885f3076958b0e6d423b4e", null ],
-    [ "_name", "d4/d49/a07257.html#a63bb52a0619ceef7b1af1b97d52a7373", null ]
+    [ "InvokerEntry", "d4/d49/a07257.html#aa195cc806a02e56a8125bfc039b83c37", null ],
+    [ "InvokerEntry", "d4/d49/a07257.html#ab0ae915bcd0b6cb738f66398ba06bd63", null ],
+    [ "InvokerEntry", "d4/d49/a07257.html#ae0b19dcb745635a783d52bae6f237b47", null ],
+    [ "operator*", "d4/d49/a07257.html#ae42d24aad13fe622f6d5ec35d72c1c96", null ],
+    [ "_help", "d4/d49/a07257.html#a107ccda1e3b21600fd133a243a8d2c9c", null ],
+    [ "_invoker", "d4/d49/a07257.html#a1f9da7b4e2a968b1cf51b227c79f0d1d", null ],
+    [ "_permissions", "d4/d49/a07257.html#a9567278ccb4896bcb2e8293df0ab909f", null ]
 ];

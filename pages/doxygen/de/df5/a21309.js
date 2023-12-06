@@ -1,5 +1,6 @@
 var a21309 =
 [
-    [ "PrepareAuraScript", "de/df5/a21309.html#aabea53e19f63f80d6373a6844a252b7e", null ],
-    [ "Register", "de/df5/a21309.html#aafb0534b9914b3f51fa2f52bd852552c", null ]
+    [ "boss_vezaxAI", "d6/d4a/a21313.html", "d6/d4a/a21313" ],
+    [ "boss_vezax", "de/df5/a21309.html#af778f9ef3070598f8ca5109b2f6f0f82", null ],
+    [ "GetAI", "de/df5/a21309.html#a55c7f1ee93252768ba02e8d0d4634eb9", null ]
 ];

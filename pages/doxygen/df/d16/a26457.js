@@ -1,9 +1,6 @@
 var a26457 =
 [
-    [ "HandleAfterHit", "df/d16/a26457.html#ae1b4b01bd1a6903bcd594d2191e2770b", null ],
-    [ "Load", "df/d16/a26457.html#a7f0dae9dd4ead6ea10e8343810671282", null ],
-    [ "PrepareSpellScript", "df/d16/a26457.html#a293ff5d232851bce7cbc4a83aa8253b5", null ],
-    [ "Register", "df/d16/a26457.html#ae9eeb78d006bc01dd05fdd726dea9b90", null ],
-    [ "Validate", "df/d16/a26457.html#afdbb71f81aacc9ac1a5119707952ec52", null ],
-    [ "_executed", "df/d16/a26457.html#a2fe77cc280a5fa3bb324d969f1081b65", null ]
+    [ "CalculateAmount", "df/d16/a26457.html#ada4514ba7769ebceeed1e0ab1c3a33e8", null ],
+    [ "PrepareAuraScript", "df/d16/a26457.html#a1faa084b17776e826242293e2aaef2f4", null ],
+    [ "Register", "df/d16/a26457.html#a94b21c91954385201d4bad6aff2205fc", null ]
 ];

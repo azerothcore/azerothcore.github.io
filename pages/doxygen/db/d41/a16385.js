@@ -1,6 +1,6 @@
 var a16385 =
 [
-    [ "spell_eadric_radiance_SpellScript", "d5/dc2/a16389.html", "d5/dc2/a16389" ],
-    [ "spell_eadric_radiance", "db/d41/a16385.html#a72ca7ace293940036db1f66d6ae92832", null ],
-    [ "GetSpellScript", "db/d41/a16385.html#a90970e60f664eaa436e9a941c3c775a8", null ]
+    [ "CountAllies", "db/d41/a16385.html#ad14f84bc6a7aeb6684189867101d538a", null ],
+    [ "PrepareSpellScript", "db/d41/a16385.html#ae8eded8275900a3ddb32111947a1f7b2", null ],
+    [ "Register", "db/d41/a16385.html#a6a53f0ba882c65dc608697578e1b97e2", null ]
 ];

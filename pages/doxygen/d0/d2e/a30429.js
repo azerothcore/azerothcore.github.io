@@ -1,10 +1,12 @@
 var a30429 =
 [
-    [ "Tile", "d0/d2e/a30429.html#aa68e7829d0a4109a5fca036afe725756", null ],
-    [ "~Tile", "d0/d2e/a30429.html#aa5be25df0d267368c90c8f790b218f7a", null ],
-    [ "chf", "d0/d2e/a30429.html#a9cd4f4be0393e1b40d1ea83dad189a35", null ],
-    [ "cset", "d0/d2e/a30429.html#a8263aa243c049daa70ed537f206c6a15", null ],
-    [ "dmesh", "d0/d2e/a30429.html#a23efb981de3dbc2ecdbe4dafdbaa8f58", null ],
-    [ "pmesh", "d0/d2e/a30429.html#a00dde7c2b62890f4d78697e669f2a810", null ],
-    [ "solid", "d0/d2e/a30429.html#a6c263578a352c75a21570a26439d6156", null ]
+    [ "Bounds", "d0/d2e/a30429.html#a1e982b341ac3859fad38b2efc81ab8ea", null ],
+    [ "DoodadSet", "d0/d2e/a30429.html#abbf6e50e76b120be17215cfcf227a524", null ],
+    [ "Flags", "d0/d2e/a30429.html#a06f5e96119239356eea45b9acdadf6e1", null ],
+    [ "Id", "d0/d2e/a30429.html#a952442c180e8d3710af31272b54eb6ec", null ],
+    [ "NameSet", "d0/d2e/a30429.html#a55df9aed38d8cf1503b21f5fd9d5e5d0", null ],
+    [ "Position", "d0/d2e/a30429.html#a7e6463db89eaf53bc20832afb1842a5b", null ],
+    [ "Rotation", "d0/d2e/a30429.html#a2c04715e800b9f375c287cced96643d1", null ],
+    [ "Scale", "d0/d2e/a30429.html#a142716fecae07abc013c7f3bd053c0ea", null ],
+    [ "UniqueId", "d0/d2e/a30429.html#a749e920740b9e91547fe1f87933d1c7d", null ]
 ];

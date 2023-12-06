@@ -1,9 +1,6 @@
 var a24013 =
 [
-    [ "npc_crusade_recruitAI", "d5/db8/a24013.html#aa5d5e8cc4fe612fda84d971d9cee987f", null ],
-    [ "Reset", "d5/db8/a24013.html#a183360b99ecbd784b4dabbf5158f59d1", null ],
-    [ "sGossipSelect", "d5/db8/a24013.html#ab7bfdc4cc8c86645174ac154ee5db541", null ],
-    [ "UpdateAI", "d5/db8/a24013.html#a0b4dad62e1adf04013d8fbcefe310400", null ],
-    [ "_events", "d5/db8/a24013.html#a32060a04ba73fbf9ae2df8417e826ce9", null ],
-    [ "_heading", "d5/db8/a24013.html#a6e260a6e085962d54b765bff4cb17963", null ]
+    [ "npc_feedin_da_goolzAI", "d1/dd9/a24017.html", "d1/dd9/a24017" ],
+    [ "npc_feedin_da_goolz", "d5/db8/a24013.html#ace9fd4ca5809c0d47b49fc63ca8363be", null ],
+    [ "GetAI", "d5/db8/a24013.html#a61ab3189e2525a995a87eec06d45e355", null ]
 ];

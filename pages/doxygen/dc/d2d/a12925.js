@@ -1,6 +1,6 @@
 var a12925 =
 [
-    [ "CorruptTriggers", "dc/d2d/a12925.html#a5ec60254ee2ac299ce99164189087a1c", null ],
-    [ "Execute", "dc/d2d/a12925.html#a9929f3518f307e0b753782967f06c6c1", null ],
-    [ "_caster", "dc/d2d/a12925.html#a2b9e4c3d292b7e3deea57e1542b3ba12", null ]
+    [ "spell_madrigosa_activate_barrier_SpellScript", "d5/ddf/a12929.html", "d5/ddf/a12929" ],
+    [ "spell_madrigosa_activate_barrier", "dc/d2d/a12925.html#ac5d10ee2d946c5ddc7dd113fcd9ce2f2", null ],
+    [ "GetSpellScript", "dc/d2d/a12925.html#a8524f167af62a47cb720737551c14a23", null ]
 ];

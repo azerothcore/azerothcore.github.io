@@ -1,6 +1,6 @@
 var a24821 =
 [
-    [ "spell_black_temple_curse_of_vitality_AuraScript", "d2/d7f/a24825.html", "d2/d7f/a24825" ],
-    [ "spell_black_temple_curse_of_vitality", "dc/dae/a24821.html#a9becab789119f641e66ff44a13778d57", null ],
-    [ "GetAuraScript", "dc/dae/a24821.html#ace5de3f2b5684a0ddb1c3f9475237444", null ]
+    [ "spell_black_temple_dementia_AuraScript", "d2/d7f/a24825.html", "d2/d7f/a24825" ],
+    [ "spell_black_temple_dementia", "dc/dae/a24821.html#aa345d9b1d1330ed634cfbcb2f818b10a", null ],
+    [ "GetAuraScript", "dc/dae/a24821.html#afd9c4376f2b1e29dc03ba93bb33c0dfb", null ]
 ];

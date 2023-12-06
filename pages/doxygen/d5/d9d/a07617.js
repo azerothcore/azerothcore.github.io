@@ -1,11 +1,7 @@
 var a07617 =
 [
-    [ "AddItem", "d5/d9d/a07617.html#a46f6533323fd15632c3f9a8b96ef6f3f", null ],
-    [ "Clear", "d5/d9d/a07617.html#a70c7400c4bc60923fd538890774445de", null ],
-    [ "Empty", "d5/d9d/a07617.html#ab55fa73ab327294de2c5f6906fc1fbdb", null ],
-    [ "FindItemCostPair", "d5/d9d/a07617.html#a61dc4394afdd3a360559ffec1655c343", null ],
-    [ "GetItem", "d5/d9d/a07617.html#aa764da5b4647c84813e3aa6b46de7593", null ],
-    [ "GetItemCount", "d5/d9d/a07617.html#ae80634592ce705c77c5aa53960f89c24", null ],
-    [ "RemoveItem", "d5/d9d/a07617.html#a974925f2979910348a0af795893b310b", null ],
-    [ "m_items", "d5/d9d/a07617.html#aa16668e54fce8fffe8651644cdef4335", null ]
+    [ "LfgJoinResultData", "d5/d9d/a07617.html#a1d711d49a6b49f55eb3771352b294b95", null ],
+    [ "lockmap", "d5/d9d/a07617.html#aff918b3c02ca76982a964402175f8ad7", null ],
+    [ "result", "d5/d9d/a07617.html#aa713cbc1930962d520883523f6f6446c", null ],
+    [ "state", "d5/d9d/a07617.html#a2eee5e81651a7a9be245e4b717ab53ed", null ]
 ];

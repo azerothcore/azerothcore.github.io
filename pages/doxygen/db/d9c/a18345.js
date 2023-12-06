@@ -1,6 +1,7 @@
 var a18345 =
 [
-    [ "spell_marrowgar_bone_storm_SpellScript", "d5/dff/a18349.html", "d5/dff/a18349" ],
-    [ "spell_marrowgar_bone_storm", "db/d9c/a18345.html#aba9ad54bcb2e6f08ef7a0184de8516fc", null ],
-    [ "GetSpellScript", "db/d9c/a18345.html#a0e29b2d7222c922e65e2a642fa705c17", null ]
+    [ "npc_coldflameAI", "db/d9c/a18345.html#a2a8420b79357f7a2167dddbd68ec8bc0", null ],
+    [ "IsSummonedBy", "db/d9c/a18345.html#a1a330428ac8f17dc673fb1ae4d57035a", null ],
+    [ "UpdateAI", "db/d9c/a18345.html#a5a847ae7c15b309cb1393b6d16a6e220", null ],
+    [ "events", "db/d9c/a18345.html#af3b7d4ca1b268fe0d786eee83c0a3596", null ]
 ];

@@ -1,5 +1,5 @@
 var a21757 =
 [
-    [ "achievement_mimiron_firefighter", "d1/d76/a21757.html#ae26c3b2572bc9e3e75fb25537fe46a6c", null ],
-    [ "OnCheck", "d1/d76/a21757.html#a1ebd287ef20c6d367f30b1c30ba68728", null ]
+    [ "go_ulduar_do_not_push_this_button", "d1/d76/a21757.html#aa204af213a643c001161e0c2f173ee6b", null ],
+    [ "OnGossipHello", "d1/d76/a21757.html#ae11efa54b496ab21600a9c62e50b5fbe", null ]
 ];

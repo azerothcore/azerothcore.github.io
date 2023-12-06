@@ -1,6 +1,5 @@
 var a12601 =
 [
-    [ "instance_scarlet_monastery_InstanceMapScript", "d5/df9/a12605.html", "d5/df9/a12605" ],
-    [ "instance_scarlet_monastery", "d7/d5b/a12601.html#a8f068ebd98bd81dbb60dbccd795f1f3f", null ],
-    [ "GetInstanceScript", "d7/d5b/a12601.html#a1c66031217457809fbe56303085715a0", null ]
+    [ "go_inconspicuous_mine_car", "d7/d5b/a12601.html#a34e941a813079b55f66bea15cffe8f42", null ],
+    [ "OnGossipHello", "d7/d5b/a12601.html#a256a8f766dd045613c0c7159db9f74e0", null ]
 ];

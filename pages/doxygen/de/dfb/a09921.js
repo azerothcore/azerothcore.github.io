@@ -1,5 +1,7 @@
 var a09921 =
 [
-    [ "FactoryGameObjectScript", "de/dfb/a09921.html#ac0981bdae743da11b99d7df1c967a703", null ],
-    [ "GetAI", "de/dfb/a09921.html#a1abea06113fd8a4970ae46839b9c676f", null ]
+    [ "DatabaseScript", "de/dfb/a09921.html#acbfa43170e2efdb1304cee30ffe5e770", null ],
+    [ "IsDatabaseBound", "de/dfb/a09921.html#af4321bb95ed9bb3bb0e5a8a93c89c235", null ],
+    [ "OnAfterDatabaseLoadCreatureTemplates", "de/dfb/a09921.html#a2f4e91e2b1192c0ceb399cd93eb33ee3", null ],
+    [ "OnAfterDatabasesLoaded", "de/dfb/a09921.html#ab52afc833cb462693f5e0d79cff6bb3f", null ]
 ];

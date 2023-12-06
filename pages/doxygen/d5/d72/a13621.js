@@ -1,6 +1,10 @@
 var a13621 =
 [
-    [ "cooldown", "d5/d72/a13621.html#a435dff1f5801d4dda241ae37460eb9ac", null ],
-    [ "spell", "d5/d72/a13621.html#a00ee3238030686e1cc66562f7cefb27a", null ],
-    [ "target", "d5/d72/a13621.html#a16e54dbd059baac1b6e7229621339d83", null ]
+    [ "npc_lady_sylvanas_windrunner_bfuAI", "d5/d72/a13621.html#af7d495f489979690615d091bbd9d539b", null ],
+    [ "CanAIAttack", "d5/d72/a13621.html#af332a66852c9499912d8ef4959f394f5", null ],
+    [ "InitializeAI", "d5/d72/a13621.html#a66fcb4b5130ff03f1926eec3b4d9ff6a", null ],
+    [ "JustRespawned", "d5/d72/a13621.html#a70b83dd31e8a8214b5d09f9a4ca7347a", null ],
+    [ "Reset", "d5/d72/a13621.html#a2c5e519bd2a1699b74811c92bb217d20", null ],
+    [ "UpdateAI", "d5/d72/a13621.html#ae1e9308f730ac948f96d4fceba914cdb", null ],
+    [ "_events", "d5/d72/a13621.html#a7078f4c552f741afdc8ecbd1746e31c4", null ]
 ];

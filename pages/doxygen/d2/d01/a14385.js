@@ -1,6 +1,5 @@
 var a14385 =
 [
-    [ "HandleScriptEffect", "d2/d01/a14385.html#a074f54a4b022adc6ea34b3716dec745f", null ],
-    [ "PrepareSpellScript", "d2/d01/a14385.html#a725d5bc1f76614778b140f3061aa2e03", null ],
-    [ "Register", "d2/d01/a14385.html#a339df7ae9553fbae68ce791baef1df5e", null ]
+    [ "go_midsummer_bonfire", "d2/d01/a14385.html#a24ad1c4bb5ad5da56cc8bc4d6a4db812", null ],
+    [ "OnGossipSelect", "d2/d01/a14385.html#aa6f26db657350bb7fb3053365597e2ad", null ]
 ];

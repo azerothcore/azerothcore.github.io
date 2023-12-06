@@ -1,7 +1,6 @@
 var a10937 =
 [
-    [ "PlayerDumpReader", "d2/df8/a10937.html#ad630b61e298fb1ddf165481c9a14e077", null ],
-    [ "LoadDump", "d2/df8/a10937.html#a62ca90cbcb0d03ec0da52651d8c5f783", null ],
-    [ "LoadDumpFromFile", "d2/df8/a10937.html#ae1ed88a6f181cf6ad952edb1285e192e", null ],
-    [ "LoadDumpFromString", "d2/df8/a10937.html#abd4ce2c50a74922792a7b00d803f03b2", null ]
+    [ "EffectUpdatePeriodicHandler", "d2/df8/a10937.html#a6b18a259aa84c847bcc064c5243eb590", null ],
+    [ "Call", "d2/df8/a10937.html#a38802863e7859453cbbe58ad91018c67", null ],
+    [ "pEffectHandlerScript", "d2/df8/a10937.html#a0e51245e089fcd9532d5789056ab944c", null ]
 ];

@@ -1,7 +1,6 @@
 var a29853 =
 [
-    [ "EmoteType", "db/de6/a29853.html#a2d319652021081fdb02472c32a28e318", null ],
-    [ "Flags", "db/de6/a29853.html#aa1794d3ffd7f7da82f5754e1be580fe9", null ],
-    [ "Id", "db/de6/a29853.html#a3b3b641fbdb8dc88afc2421e358a75a1", null ],
-    [ "UnitStandState", "db/de6/a29853.html#ada83e548faa01917a5db19eaa15dbbec", null ]
+    [ "Id", "db/de6/a29853.html#a5d7f2d5a2890593554ea841deb38abb2", null ],
+    [ "Order", "db/de6/a29853.html#a16fca42d9a0a98e034a93984c4362b53", null ],
+    [ "TypeFlags", "db/de6/a29853.html#ac7246adc7c6c3217de8ac093983b7553", null ]
 ];

@@ -1,8 +1,11 @@
 var a16465 =
 [
-    [ "npc_announcer_toc5AI", "df/d81/a16469.html", "df/d81/a16469" ],
-    [ "npc_announcer_toc5", "d7/d07/a16465.html#abf50bb7deb9e0bb04d9ac802aff5fa41", null ],
-    [ "GetAI", "d7/d07/a16465.html#a06767a8fd1e940d4efee6dd752520e9e", null ],
-    [ "OnGossipHello", "d7/d07/a16465.html#ad2cc55ddc6696b9bfb22e68eab965fb0", null ],
-    [ "OnGossipSelect", "d7/d07/a16465.html#a9017488c652fd75882db75914f4a2db2", null ]
+    [ "npc_black_knight_ghoulAI", "d7/d07/a16465.html#a6e108052a7f9911dcd1b0ed13b2b8a0f", null ],
+    [ "JustEngagedWith", "d7/d07/a16465.html#a8353dea0de91017223c7624a5a96ebec", null ],
+    [ "Reset", "d7/d07/a16465.html#a8a33efa0719063a9565bc07143f8ad83", null ],
+    [ "SpellHit", "d7/d07/a16465.html#aa1b1fbb1a4633831774c7a7dd5cbb546", null ],
+    [ "SpellHitTarget", "d7/d07/a16465.html#a5f106a3b0edf353769db9021b9ca770d", null ],
+    [ "UpdateAI", "d7/d07/a16465.html#a6ccdb6a59b93999c01d434bcda593f25", null ],
+    [ "events", "d7/d07/a16465.html#acb56826a164e4d7da0a2f04c1efaf72b", null ],
+    [ "pInstance", "d7/d07/a16465.html#a35b8375f1b3407f5cee653ee118e0697", null ]
 ];

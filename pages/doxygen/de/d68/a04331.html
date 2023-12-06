@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/shared/Network/NetworkThread.h File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/scripts/Outland/zone_terokkar_forest.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,38 +106,498 @@ $(document).ready(function(){initNavTree('de/d68/a04331.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
-  <div class="headertitle"><div class="title">NetworkThread.h File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">zone_terokkar_forest.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">DeadlineTimer.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">IoContext.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Timer.h</a>&quot;</code><br />
-<code>#include &lt;atomic&gt;</code><br />
-<code>#include &lt;boost/asio/ip/tcp.hpp&gt;</code><br />
-<code>#include &lt;chrono&gt;</code><br />
-<code>#include &lt;memory&gt;</code><br />
-<code>#include &lt;mutex&gt;</code><br />
-<code>#include &lt;set&gt;</code><br />
-<code>#include &lt;thread&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameObjectScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedEscortAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedGossip.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuras.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScriptLoader.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db4/a30193.html">NetworkThread&lt; SocketType &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dad/a26045.html">spell_q10930_big_bone_worm</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d48/a26049.html">spell_q10930_big_bone_worm::spell_q10930_big_bone_worm_SpellScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4b/a26053.html">spell_q10930_big_bone_worm::spell_q10930_big_bone_worm_AuraScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de0/a26057.html">spell_q10929_fumping</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc5/a26061.html">spell_q10929_fumping::spell_q10929_fumping_SpellScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1b/a26065.html">spell_q10929_fumping::spell_q10929_fumping_AuraScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d29/a26069.html">npc_greatfather_aldrimus</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d84/a26073.html">npc_greatfather_aldrimus::npc_greatfather_aldrimusAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de6/a26077.html">spell_q10036_torgos</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d34/a26081.html">spell_q10036_torgos::spell_q10036_torgos_SpellScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d32/a26085.html">spell_q10923_evil_draws_near_summon</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d58/a26089.html">spell_q10923_evil_draws_near_summon::spell_q10923_evil_draws_near_summon_SpellScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d46/a26093.html">spell_q10923_evil_draws_near_periodic</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a26097.html">spell_q10923_evil_draws_near_periodic::spell_q10923_evil_draws_near_periodic_AuraScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df9/a26101.html">spell_q10923_evil_draws_near_visual</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d64/a26105.html">spell_q10923_evil_draws_near_visual::spell_q10923_evil_draws_near_visual_SpellScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d21/a26109.html">spell_q10898_skywing</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d8a/a26113.html">spell_q10898_skywing::spell_q10898_skywing_SpellScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d10/a26117.html">npc_unkor_the_ruthless</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d68/a26121.html">npc_unkor_the_ruthless::npc_unkor_the_ruthlessAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d83/a26125.html">npc_isla_starmane</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4c/a26129.html">npc_isla_starmane::npc_isla_starmaneAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd6/a26133.html">go_skull_pile</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9f/a26137.html">npc_slim</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ab162634ca3ea951211b5f98c1f38600e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d68/a04331.html#ab162634ca3ea951211b5f98c1f38600e">fumping</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ab162634ca3ea951211b5f98c1f38600ea58105c110347cf397ccfc57071de9e6d">SPELL_SUMMON_SAND_GNOME1</a> = 39240
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ab162634ca3ea951211b5f98c1f38600eaf41287c8042d2072d6bd76e64418be4d">SPELL_SUMMON_SAND_GNOME3</a> = 39247
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ab162634ca3ea951211b5f98c1f38600eabff566ebb7d0c47191ca8cdf21d0feba">SPELL_SUMMON_MATURE_BONE_SIFTER1</a> = 39241
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ab162634ca3ea951211b5f98c1f38600eab503a39610eed1540f9d059d02ea0a9b">SPELL_SUMMON_MATURE_BONE_SIFTER3</a> = 39245
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ab162634ca3ea951211b5f98c1f38600ea5b638aaec8858d63e038561f1bdd34cc">SPELL_SUMMON_HAISHULUD</a> = 39248
+<br />
+ }</td></tr>
+<tr class="separator:ab162634ca3ea951211b5f98c1f38600e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a367fc7cac7bf28a805617c33b2ccf9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d68/a04331.html#a2a367fc7cac7bf28a805617c33b2ccf9">q10036Torgos</a> { <a class="el" href="../../de/d68/a04331.html#a2a367fc7cac7bf28a805617c33b2ccf9a5d78efaeb0f7b6c08cdd646bfbdaf2f7">NPC_TORGOS</a> = 18707
+ }</td></tr>
+<tr class="separator:a2a367fc7cac7bf28a805617c33b2ccf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac8f425764fbd137acd527c44a8217e5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d68/a04331.html#aac8f425764fbd137acd527c44a8217e5">eQ10923EvilDrawsNear</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#aac8f425764fbd137acd527c44a8217e5a148039a82148e121ffa2e47d4037c198">SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL1</a> = 39256
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#aac8f425764fbd137acd527c44a8217e5a9f54f32a1b40bdd5f44006b6f874054b">SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL2</a> = 39257
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#aac8f425764fbd137acd527c44a8217e5a432569d14dc34cb8000687d2dedb8394">SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL_AURA</a> = 39259
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#aac8f425764fbd137acd527c44a8217e5aa58ecb32d07f194ffe4e46f4245770c4">NPC_AUCHENAI_DEATH_SPIRIT</a> = 21967
+<br />
+ }</td></tr>
+<tr class="separator:aac8f425764fbd137acd527c44a8217e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88cc97a269783b482b7b90a366327e02"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d68/a04331.html#a88cc97a269783b482b7b90a366327e02">UnkorTheRuthless</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#a88cc97a269783b482b7b90a366327e02ac438d344c95f2fc9bceaf8955f07a62c">SAY_SUBMIT</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#a88cc97a269783b482b7b90a366327e02a9f091068e93fe04fde1b2d77d34d5fcf">FACTION_HOSTILE</a> = 45
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#a88cc97a269783b482b7b90a366327e02ac9b055761d26e7020af8fca0ad0914e8">QUEST_DONTKILLTHEFATONE</a> = 9889
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#a88cc97a269783b482b7b90a366327e02a69dd71f7b0eefec5bcdd15cddbb128d6">SPELL_PULVERIZE</a> = 2676
+<br />
+ }</td></tr>
+<tr class="separator:a88cc97a269783b482b7b90a366327e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0ce6b8c904e723fea8344c9e2a6c468"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468">IslaStarmaneData</a> { <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468ac7ef023ed2cd6e71dcfa4b57f34ffb21">SAY_PROGRESS_1</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a967473f354dae95832b5e82733f4cced">SAY_PROGRESS_2</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a25cbd1006b2e610756fbd3227fb87dcc">SAY_PROGRESS_3</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a6b3669f06730a37dadd060c3dc0b999f">SAY_PROGRESS_4</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a0e41f71f431fea698370ec15a6a78f71">QUEST_EFTW_H</a> = 10052
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a8b79958f3e4c99d2e5db1bbb46672d43">QUEST_EFTW_A</a> = 10051
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468ab8d35951eed2c9e47bed2aa4da3fab8b">GO_CAGE</a> = 182794
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a60c2ade102a5c8cff3056e1998a8feb9">SPELL_CAT</a> = 32447
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468ab55c0e246afb46a9c3feb1a24b9735db">EVENT_SPELL_WRATH</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a89249acef2d72d2d2cefbd270ca8d5e6">EVENT_SPELL_MOONFIRE</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468abcfceb9776fee2423d4c06cb12c6a157">EVENT_SPELL_ENTANGLING_ROOTS</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468abe500eadf9d63f2f5340e4b8a94a118f">SPELL_WRATH</a> = 9739
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a0ca70102f1e7ebc514c9875b92e5490b">SPELL_MOONFIRE</a> = 15798
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a366705ee88fada6cb8aa2dab3dcd3cee">SPELL_ENTANGLING_ROOTS</a> = 33844
+<br />
+ }</td></tr>
+<tr class="separator:ae0ce6b8c904e723fea8344c9e2a6c468"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad52625e74763db1be908eb68d6f1747"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747">SkullPile</a> : uint32 { <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a778fa3329cf61d166a6168c371359e29">QUEST_ADVERSARIAL_BLOOD</a> = 11885
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a2e42b2a84bd5543395edd99e10836308">GOSSIP_MENU_SKULL_PILE</a> = 8660
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a4421c9274f70eeecac8c2001d6d3c217">GOSSIP_MENU_TEXT_SKULL_PILE</a> = 10888
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747af25d41b2abf38359aaa4e9a6e7813985">GOSSIP_MENU_TEXT_SKULL_PILE_QUEST</a> = 11057
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747ab8d817f19c8a0ee26e791ad4a270d090">GOSSIP_OPTION_SUMMON_GEZZARAK_THE_HUNTRESS</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a21b76a2a227226c67cc717f339694e90">GOSSIP_OPTION_SUMMON_DARKSCREECHER_AKKARAI</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a8c1471c1cbdafc84aac25cc6ea9e703f">GOSSIP_OPTION_SUMMON_KARROG</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747ab01073d031c0a97242ef078283d2cbd6">GOSSIP_OPTION_SUMMON_VAKKIZ_THE_WINDRAGER</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747abc3ff3d2bb8ed64fd58c4f5eb6cc4cb8">SPELL_SUMMON_GEZZARAK_THE_HUNTRESS</a> = 40632
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747add0291da1877a5245c1d72118dda56cd">SPELL_SUMMON_DARKSCREECHER_AKKARAI</a> = 40642
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a941c2f8289835f0d4d722d36f99771d2">SPELL_SUMMON_KARROG</a> = 40640
+, <br />
+&#160;&#160;<a class="el" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a5d006fae9f9d39fb5ffa345a83679bf0">SPELL_SUMMON_VAKKIZ_THE_WINDRAGER</a> = 40644
+<br />
+ }</td></tr>
+<tr class="separator:aad52625e74763db1be908eb68d6f1747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02ee5712d433b97576ee20c54707947b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d68/a04331.html#a02ee5712d433b97576ee20c54707947b">Slim</a> { <a class="el" href="../../de/d68/a04331.html#a02ee5712d433b97576ee20c54707947bad1b1eee7cc5ca5f4ddaa8929e49a0046">FACTION_CONSORTIUM</a> = 933
+ }</td></tr>
+<tr class="separator:a02ee5712d433b97576ee20c54707947b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a06eb16b2a9cfacc1641cf49759c7615e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d68/a04331.html#a06eb16b2a9cfacc1641cf49759c7615e">AddSC_terokkar_forest</a> ()</td></tr>
+<tr class="separator:a06eb16b2a9cfacc1641cf49759c7615e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="aac8f425764fbd137acd527c44a8217e5" name="aac8f425764fbd137acd527c44a8217e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac8f425764fbd137acd527c44a8217e5">&#9670;&#160;</a></span>eQ10923EvilDrawsNear</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../de/d68/a04331.html#aac8f425764fbd137acd527c44a8217e5">eQ10923EvilDrawsNear</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aac8f425764fbd137acd527c44a8217e5a148039a82148e121ffa2e47d4037c198" name="aac8f425764fbd137acd527c44a8217e5a148039a82148e121ffa2e47d4037c198"></a>SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aac8f425764fbd137acd527c44a8217e5a9f54f32a1b40bdd5f44006b6f874054b" name="aac8f425764fbd137acd527c44a8217e5a9f54f32a1b40bdd5f44006b6f874054b"></a>SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aac8f425764fbd137acd527c44a8217e5a432569d14dc34cb8000687d2dedb8394" name="aac8f425764fbd137acd527c44a8217e5a432569d14dc34cb8000687d2dedb8394"></a>SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL_AURA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aac8f425764fbd137acd527c44a8217e5aa58ecb32d07f194ffe4e46f4245770c4" name="aac8f425764fbd137acd527c44a8217e5aa58ecb32d07f194ffe4e46f4245770c4"></a>NPC_AUCHENAI_DEATH_SPIRIT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  193</span>{</div>
+<div class="line"><span class="lineno">  194</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#aac8f425764fbd137acd527c44a8217e5a148039a82148e121ffa2e47d4037c198">SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL1</a>      = 39256,</div>
+<div class="line"><span class="lineno">  195</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#aac8f425764fbd137acd527c44a8217e5a9f54f32a1b40bdd5f44006b6f874054b">SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL2</a>      = 39257,</div>
+<div class="line"><span class="lineno">  196</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#aac8f425764fbd137acd527c44a8217e5a432569d14dc34cb8000687d2dedb8394">SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL_AURA</a>  = 39259,</div>
+<div class="line"><span class="lineno">  197</span> </div>
+<div class="line"><span class="lineno">  198</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#aac8f425764fbd137acd527c44a8217e5aa58ecb32d07f194ffe4e46f4245770c4">NPC_AUCHENAI_DEATH_SPIRIT</a>               = 21967</div>
+<div class="line"><span class="lineno">  199</span>};</div>
+<div class="ttc" id="aa04331_html_aac8f425764fbd137acd527c44a8217e5a148039a82148e121ffa2e47d4037c198"><div class="ttname"><a href="../../de/d68/a04331.html#aac8f425764fbd137acd527c44a8217e5a148039a82148e121ffa2e47d4037c198">SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL1</a></div><div class="ttdeci">@ SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL1</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:194</div></div>
+<div class="ttc" id="aa04331_html_aac8f425764fbd137acd527c44a8217e5a432569d14dc34cb8000687d2dedb8394"><div class="ttname"><a href="../../de/d68/a04331.html#aac8f425764fbd137acd527c44a8217e5a432569d14dc34cb8000687d2dedb8394">SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL_AURA</a></div><div class="ttdeci">@ SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL_AURA</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:196</div></div>
+<div class="ttc" id="aa04331_html_aac8f425764fbd137acd527c44a8217e5a9f54f32a1b40bdd5f44006b6f874054b"><div class="ttname"><a href="../../de/d68/a04331.html#aac8f425764fbd137acd527c44a8217e5a9f54f32a1b40bdd5f44006b6f874054b">SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL2</a></div><div class="ttdeci">@ SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL2</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:195</div></div>
+<div class="ttc" id="aa04331_html_aac8f425764fbd137acd527c44a8217e5aa58ecb32d07f194ffe4e46f4245770c4"><div class="ttname"><a href="../../de/d68/a04331.html#aac8f425764fbd137acd527c44a8217e5aa58ecb32d07f194ffe4e46f4245770c4">NPC_AUCHENAI_DEATH_SPIRIT</a></div><div class="ttdeci">@ NPC_AUCHENAI_DEATH_SPIRIT</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:198</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab162634ca3ea951211b5f98c1f38600e" name="ab162634ca3ea951211b5f98c1f38600e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab162634ca3ea951211b5f98c1f38600e">&#9670;&#160;</a></span>fumping</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../de/d68/a04331.html#ab162634ca3ea951211b5f98c1f38600e">fumping</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab162634ca3ea951211b5f98c1f38600ea58105c110347cf397ccfc57071de9e6d" name="ab162634ca3ea951211b5f98c1f38600ea58105c110347cf397ccfc57071de9e6d"></a>SPELL_SUMMON_SAND_GNOME1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab162634ca3ea951211b5f98c1f38600eaf41287c8042d2072d6bd76e64418be4d" name="ab162634ca3ea951211b5f98c1f38600eaf41287c8042d2072d6bd76e64418be4d"></a>SPELL_SUMMON_SAND_GNOME3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab162634ca3ea951211b5f98c1f38600eabff566ebb7d0c47191ca8cdf21d0feba" name="ab162634ca3ea951211b5f98c1f38600eabff566ebb7d0c47191ca8cdf21d0feba"></a>SPELL_SUMMON_MATURE_BONE_SIFTER1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab162634ca3ea951211b5f98c1f38600eab503a39610eed1540f9d059d02ea0a9b" name="ab162634ca3ea951211b5f98c1f38600eab503a39610eed1540f9d059d02ea0a9b"></a>SPELL_SUMMON_MATURE_BONE_SIFTER3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab162634ca3ea951211b5f98c1f38600ea5b638aaec8858d63e038561f1bdd34cc" name="ab162634ca3ea951211b5f98c1f38600ea5b638aaec8858d63e038561f1bdd34cc"></a>SPELL_SUMMON_HAISHULUD&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ab162634ca3ea951211b5f98c1f38600ea58105c110347cf397ccfc57071de9e6d">SPELL_SUMMON_SAND_GNOME1</a>            = 39240,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ab162634ca3ea951211b5f98c1f38600eaf41287c8042d2072d6bd76e64418be4d">SPELL_SUMMON_SAND_GNOME3</a>            = 39247,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ab162634ca3ea951211b5f98c1f38600eabff566ebb7d0c47191ca8cdf21d0feba">SPELL_SUMMON_MATURE_BONE_SIFTER1</a>    = 39241,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ab162634ca3ea951211b5f98c1f38600eab503a39610eed1540f9d059d02ea0a9b">SPELL_SUMMON_MATURE_BONE_SIFTER3</a>    = 39245,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ab162634ca3ea951211b5f98c1f38600ea5b638aaec8858d63e038561f1bdd34cc">SPELL_SUMMON_HAISHULUD</a>              = 39248,</div>
+<div class="line"><span class="lineno">   37</span>};</div>
+<div class="ttc" id="aa04331_html_ab162634ca3ea951211b5f98c1f38600ea58105c110347cf397ccfc57071de9e6d"><div class="ttname"><a href="../../de/d68/a04331.html#ab162634ca3ea951211b5f98c1f38600ea58105c110347cf397ccfc57071de9e6d">SPELL_SUMMON_SAND_GNOME1</a></div><div class="ttdeci">@ SPELL_SUMMON_SAND_GNOME1</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:32</div></div>
+<div class="ttc" id="aa04331_html_ab162634ca3ea951211b5f98c1f38600ea5b638aaec8858d63e038561f1bdd34cc"><div class="ttname"><a href="../../de/d68/a04331.html#ab162634ca3ea951211b5f98c1f38600ea5b638aaec8858d63e038561f1bdd34cc">SPELL_SUMMON_HAISHULUD</a></div><div class="ttdeci">@ SPELL_SUMMON_HAISHULUD</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:36</div></div>
+<div class="ttc" id="aa04331_html_ab162634ca3ea951211b5f98c1f38600eab503a39610eed1540f9d059d02ea0a9b"><div class="ttname"><a href="../../de/d68/a04331.html#ab162634ca3ea951211b5f98c1f38600eab503a39610eed1540f9d059d02ea0a9b">SPELL_SUMMON_MATURE_BONE_SIFTER3</a></div><div class="ttdeci">@ SPELL_SUMMON_MATURE_BONE_SIFTER3</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:35</div></div>
+<div class="ttc" id="aa04331_html_ab162634ca3ea951211b5f98c1f38600eabff566ebb7d0c47191ca8cdf21d0feba"><div class="ttname"><a href="../../de/d68/a04331.html#ab162634ca3ea951211b5f98c1f38600eabff566ebb7d0c47191ca8cdf21d0feba">SPELL_SUMMON_MATURE_BONE_SIFTER1</a></div><div class="ttdeci">@ SPELL_SUMMON_MATURE_BONE_SIFTER1</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:34</div></div>
+<div class="ttc" id="aa04331_html_ab162634ca3ea951211b5f98c1f38600eaf41287c8042d2072d6bd76e64418be4d"><div class="ttname"><a href="../../de/d68/a04331.html#ab162634ca3ea951211b5f98c1f38600eaf41287c8042d2072d6bd76e64418be4d">SPELL_SUMMON_SAND_GNOME3</a></div><div class="ttdeci">@ SPELL_SUMMON_SAND_GNOME3</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:33</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae0ce6b8c904e723fea8344c9e2a6c468" name="ae0ce6b8c904e723fea8344c9e2a6c468"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0ce6b8c904e723fea8344c9e2a6c468">&#9670;&#160;</a></span>IslaStarmaneData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468">IslaStarmaneData</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae0ce6b8c904e723fea8344c9e2a6c468ac7ef023ed2cd6e71dcfa4b57f34ffb21" name="ae0ce6b8c904e723fea8344c9e2a6c468ac7ef023ed2cd6e71dcfa4b57f34ffb21"></a>SAY_PROGRESS_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae0ce6b8c904e723fea8344c9e2a6c468a967473f354dae95832b5e82733f4cced" name="ae0ce6b8c904e723fea8344c9e2a6c468a967473f354dae95832b5e82733f4cced"></a>SAY_PROGRESS_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae0ce6b8c904e723fea8344c9e2a6c468a25cbd1006b2e610756fbd3227fb87dcc" name="ae0ce6b8c904e723fea8344c9e2a6c468a25cbd1006b2e610756fbd3227fb87dcc"></a>SAY_PROGRESS_3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae0ce6b8c904e723fea8344c9e2a6c468a6b3669f06730a37dadd060c3dc0b999f" name="ae0ce6b8c904e723fea8344c9e2a6c468a6b3669f06730a37dadd060c3dc0b999f"></a>SAY_PROGRESS_4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae0ce6b8c904e723fea8344c9e2a6c468a0e41f71f431fea698370ec15a6a78f71" name="ae0ce6b8c904e723fea8344c9e2a6c468a0e41f71f431fea698370ec15a6a78f71"></a>QUEST_EFTW_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae0ce6b8c904e723fea8344c9e2a6c468a8b79958f3e4c99d2e5db1bbb46672d43" name="ae0ce6b8c904e723fea8344c9e2a6c468a8b79958f3e4c99d2e5db1bbb46672d43"></a>QUEST_EFTW_A&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae0ce6b8c904e723fea8344c9e2a6c468ab8d35951eed2c9e47bed2aa4da3fab8b" name="ae0ce6b8c904e723fea8344c9e2a6c468ab8d35951eed2c9e47bed2aa4da3fab8b"></a>GO_CAGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae0ce6b8c904e723fea8344c9e2a6c468a60c2ade102a5c8cff3056e1998a8feb9" name="ae0ce6b8c904e723fea8344c9e2a6c468a60c2ade102a5c8cff3056e1998a8feb9"></a>SPELL_CAT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae0ce6b8c904e723fea8344c9e2a6c468ab55c0e246afb46a9c3feb1a24b9735db" name="ae0ce6b8c904e723fea8344c9e2a6c468ab55c0e246afb46a9c3feb1a24b9735db"></a>EVENT_SPELL_WRATH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae0ce6b8c904e723fea8344c9e2a6c468a89249acef2d72d2d2cefbd270ca8d5e6" name="ae0ce6b8c904e723fea8344c9e2a6c468a89249acef2d72d2d2cefbd270ca8d5e6"></a>EVENT_SPELL_MOONFIRE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae0ce6b8c904e723fea8344c9e2a6c468abcfceb9776fee2423d4c06cb12c6a157" name="ae0ce6b8c904e723fea8344c9e2a6c468abcfceb9776fee2423d4c06cb12c6a157"></a>EVENT_SPELL_ENTANGLING_ROOTS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae0ce6b8c904e723fea8344c9e2a6c468abe500eadf9d63f2f5340e4b8a94a118f" name="ae0ce6b8c904e723fea8344c9e2a6c468abe500eadf9d63f2f5340e4b8a94a118f"></a>SPELL_WRATH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae0ce6b8c904e723fea8344c9e2a6c468a0ca70102f1e7ebc514c9875b92e5490b" name="ae0ce6b8c904e723fea8344c9e2a6c468a0ca70102f1e7ebc514c9875b92e5490b"></a>SPELL_MOONFIRE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae0ce6b8c904e723fea8344c9e2a6c468a366705ee88fada6cb8aa2dab3dcd3cee" name="ae0ce6b8c904e723fea8344c9e2a6c468a366705ee88fada6cb8aa2dab3dcd3cee"></a>SPELL_ENTANGLING_ROOTS&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  438</span>{</div>
+<div class="line"><span class="lineno">  439</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468ac7ef023ed2cd6e71dcfa4b57f34ffb21">SAY_PROGRESS_1</a>  = 0,</div>
+<div class="line"><span class="lineno">  440</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a967473f354dae95832b5e82733f4cced">SAY_PROGRESS_2</a>  = 1,</div>
+<div class="line"><span class="lineno">  441</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a25cbd1006b2e610756fbd3227fb87dcc">SAY_PROGRESS_3</a>  = 2,</div>
+<div class="line"><span class="lineno">  442</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a6b3669f06730a37dadd060c3dc0b999f">SAY_PROGRESS_4</a>  = 3,</div>
+<div class="line"><span class="lineno">  443</span> </div>
+<div class="line"><span class="lineno">  444</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a0e41f71f431fea698370ec15a6a78f71">QUEST_EFTW_H</a>    = 10052,</div>
+<div class="line"><span class="lineno">  445</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a8b79958f3e4c99d2e5db1bbb46672d43">QUEST_EFTW_A</a>    = 10051,</div>
+<div class="line"><span class="lineno">  446</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468ab8d35951eed2c9e47bed2aa4da3fab8b">GO_CAGE</a>         = 182794,</div>
+<div class="line"><span class="lineno">  447</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a60c2ade102a5c8cff3056e1998a8feb9">SPELL_CAT</a>       = 32447,</div>
+<div class="line"><span class="lineno">  448</span> </div>
+<div class="line"><span class="lineno">  449</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468ab55c0e246afb46a9c3feb1a24b9735db">EVENT_SPELL_WRATH</a>               = 1,</div>
+<div class="line"><span class="lineno">  450</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a89249acef2d72d2d2cefbd270ca8d5e6">EVENT_SPELL_MOONFIRE</a>            = 2,</div>
+<div class="line"><span class="lineno">  451</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468abcfceb9776fee2423d4c06cb12c6a157">EVENT_SPELL_ENTANGLING_ROOTS</a>    = 3,</div>
+<div class="line"><span class="lineno">  452</span> </div>
+<div class="line"><span class="lineno">  453</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468abe500eadf9d63f2f5340e4b8a94a118f">SPELL_WRATH</a>                     = 9739,</div>
+<div class="line"><span class="lineno">  454</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a0ca70102f1e7ebc514c9875b92e5490b">SPELL_MOONFIRE</a>                  = 15798,</div>
+<div class="line"><span class="lineno">  455</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a366705ee88fada6cb8aa2dab3dcd3cee">SPELL_ENTANGLING_ROOTS</a>          = 33844</div>
+<div class="line"><span class="lineno">  456</span>};</div>
+<div class="ttc" id="aa04331_html_ae0ce6b8c904e723fea8344c9e2a6c468a0ca70102f1e7ebc514c9875b92e5490b"><div class="ttname"><a href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a0ca70102f1e7ebc514c9875b92e5490b">SPELL_MOONFIRE</a></div><div class="ttdeci">@ SPELL_MOONFIRE</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:454</div></div>
+<div class="ttc" id="aa04331_html_ae0ce6b8c904e723fea8344c9e2a6c468a0e41f71f431fea698370ec15a6a78f71"><div class="ttname"><a href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a0e41f71f431fea698370ec15a6a78f71">QUEST_EFTW_H</a></div><div class="ttdeci">@ QUEST_EFTW_H</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:444</div></div>
+<div class="ttc" id="aa04331_html_ae0ce6b8c904e723fea8344c9e2a6c468a25cbd1006b2e610756fbd3227fb87dcc"><div class="ttname"><a href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a25cbd1006b2e610756fbd3227fb87dcc">SAY_PROGRESS_3</a></div><div class="ttdeci">@ SAY_PROGRESS_3</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:441</div></div>
+<div class="ttc" id="aa04331_html_ae0ce6b8c904e723fea8344c9e2a6c468a366705ee88fada6cb8aa2dab3dcd3cee"><div class="ttname"><a href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a366705ee88fada6cb8aa2dab3dcd3cee">SPELL_ENTANGLING_ROOTS</a></div><div class="ttdeci">@ SPELL_ENTANGLING_ROOTS</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:455</div></div>
+<div class="ttc" id="aa04331_html_ae0ce6b8c904e723fea8344c9e2a6c468a60c2ade102a5c8cff3056e1998a8feb9"><div class="ttname"><a href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a60c2ade102a5c8cff3056e1998a8feb9">SPELL_CAT</a></div><div class="ttdeci">@ SPELL_CAT</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:447</div></div>
+<div class="ttc" id="aa04331_html_ae0ce6b8c904e723fea8344c9e2a6c468a6b3669f06730a37dadd060c3dc0b999f"><div class="ttname"><a href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a6b3669f06730a37dadd060c3dc0b999f">SAY_PROGRESS_4</a></div><div class="ttdeci">@ SAY_PROGRESS_4</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:442</div></div>
+<div class="ttc" id="aa04331_html_ae0ce6b8c904e723fea8344c9e2a6c468a89249acef2d72d2d2cefbd270ca8d5e6"><div class="ttname"><a href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a89249acef2d72d2d2cefbd270ca8d5e6">EVENT_SPELL_MOONFIRE</a></div><div class="ttdeci">@ EVENT_SPELL_MOONFIRE</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:450</div></div>
+<div class="ttc" id="aa04331_html_ae0ce6b8c904e723fea8344c9e2a6c468a8b79958f3e4c99d2e5db1bbb46672d43"><div class="ttname"><a href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a8b79958f3e4c99d2e5db1bbb46672d43">QUEST_EFTW_A</a></div><div class="ttdeci">@ QUEST_EFTW_A</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:445</div></div>
+<div class="ttc" id="aa04331_html_ae0ce6b8c904e723fea8344c9e2a6c468a967473f354dae95832b5e82733f4cced"><div class="ttname"><a href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468a967473f354dae95832b5e82733f4cced">SAY_PROGRESS_2</a></div><div class="ttdeci">@ SAY_PROGRESS_2</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:440</div></div>
+<div class="ttc" id="aa04331_html_ae0ce6b8c904e723fea8344c9e2a6c468ab55c0e246afb46a9c3feb1a24b9735db"><div class="ttname"><a href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468ab55c0e246afb46a9c3feb1a24b9735db">EVENT_SPELL_WRATH</a></div><div class="ttdeci">@ EVENT_SPELL_WRATH</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:449</div></div>
+<div class="ttc" id="aa04331_html_ae0ce6b8c904e723fea8344c9e2a6c468ab8d35951eed2c9e47bed2aa4da3fab8b"><div class="ttname"><a href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468ab8d35951eed2c9e47bed2aa4da3fab8b">GO_CAGE</a></div><div class="ttdeci">@ GO_CAGE</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:446</div></div>
+<div class="ttc" id="aa04331_html_ae0ce6b8c904e723fea8344c9e2a6c468abcfceb9776fee2423d4c06cb12c6a157"><div class="ttname"><a href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468abcfceb9776fee2423d4c06cb12c6a157">EVENT_SPELL_ENTANGLING_ROOTS</a></div><div class="ttdeci">@ EVENT_SPELL_ENTANGLING_ROOTS</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:451</div></div>
+<div class="ttc" id="aa04331_html_ae0ce6b8c904e723fea8344c9e2a6c468abe500eadf9d63f2f5340e4b8a94a118f"><div class="ttname"><a href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468abe500eadf9d63f2f5340e4b8a94a118f">SPELL_WRATH</a></div><div class="ttdeci">@ SPELL_WRATH</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:453</div></div>
+<div class="ttc" id="aa04331_html_ae0ce6b8c904e723fea8344c9e2a6c468ac7ef023ed2cd6e71dcfa4b57f34ffb21"><div class="ttname"><a href="../../de/d68/a04331.html#ae0ce6b8c904e723fea8344c9e2a6c468ac7ef023ed2cd6e71dcfa4b57f34ffb21">SAY_PROGRESS_1</a></div><div class="ttdeci">@ SAY_PROGRESS_1</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:439</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2a367fc7cac7bf28a805617c33b2ccf9" name="a2a367fc7cac7bf28a805617c33b2ccf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a367fc7cac7bf28a805617c33b2ccf9">&#9670;&#160;</a></span>q10036Torgos</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../de/d68/a04331.html#a2a367fc7cac7bf28a805617c33b2ccf9">q10036Torgos</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2a367fc7cac7bf28a805617c33b2ccf9a5d78efaeb0f7b6c08cdd646bfbdaf2f7" name="a2a367fc7cac7bf28a805617c33b2ccf9a5d78efaeb0f7b6c08cdd646bfbdaf2f7"></a>NPC_TORGOS&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  161</span>{</div>
+<div class="line"><span class="lineno">  162</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#a2a367fc7cac7bf28a805617c33b2ccf9a5d78efaeb0f7b6c08cdd646bfbdaf2f7">NPC_TORGOS</a>                  = 18707</div>
+<div class="line"><span class="lineno">  163</span>};</div>
+<div class="ttc" id="aa04331_html_a2a367fc7cac7bf28a805617c33b2ccf9a5d78efaeb0f7b6c08cdd646bfbdaf2f7"><div class="ttname"><a href="../../de/d68/a04331.html#a2a367fc7cac7bf28a805617c33b2ccf9a5d78efaeb0f7b6c08cdd646bfbdaf2f7">NPC_TORGOS</a></div><div class="ttdeci">@ NPC_TORGOS</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:162</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aad52625e74763db1be908eb68d6f1747" name="aad52625e74763db1be908eb68d6f1747"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad52625e74763db1be908eb68d6f1747">&#9670;&#160;</a></span>SkullPile</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747">SkullPile</a> : <a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aad52625e74763db1be908eb68d6f1747a778fa3329cf61d166a6168c371359e29" name="aad52625e74763db1be908eb68d6f1747a778fa3329cf61d166a6168c371359e29"></a>QUEST_ADVERSARIAL_BLOOD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aad52625e74763db1be908eb68d6f1747a2e42b2a84bd5543395edd99e10836308" name="aad52625e74763db1be908eb68d6f1747a2e42b2a84bd5543395edd99e10836308"></a>GOSSIP_MENU_SKULL_PILE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aad52625e74763db1be908eb68d6f1747a4421c9274f70eeecac8c2001d6d3c217" name="aad52625e74763db1be908eb68d6f1747a4421c9274f70eeecac8c2001d6d3c217"></a>GOSSIP_MENU_TEXT_SKULL_PILE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aad52625e74763db1be908eb68d6f1747af25d41b2abf38359aaa4e9a6e7813985" name="aad52625e74763db1be908eb68d6f1747af25d41b2abf38359aaa4e9a6e7813985"></a>GOSSIP_MENU_TEXT_SKULL_PILE_QUEST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aad52625e74763db1be908eb68d6f1747ab8d817f19c8a0ee26e791ad4a270d090" name="aad52625e74763db1be908eb68d6f1747ab8d817f19c8a0ee26e791ad4a270d090"></a>GOSSIP_OPTION_SUMMON_GEZZARAK_THE_HUNTRESS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aad52625e74763db1be908eb68d6f1747a21b76a2a227226c67cc717f339694e90" name="aad52625e74763db1be908eb68d6f1747a21b76a2a227226c67cc717f339694e90"></a>GOSSIP_OPTION_SUMMON_DARKSCREECHER_AKKARAI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aad52625e74763db1be908eb68d6f1747a8c1471c1cbdafc84aac25cc6ea9e703f" name="aad52625e74763db1be908eb68d6f1747a8c1471c1cbdafc84aac25cc6ea9e703f"></a>GOSSIP_OPTION_SUMMON_KARROG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aad52625e74763db1be908eb68d6f1747ab01073d031c0a97242ef078283d2cbd6" name="aad52625e74763db1be908eb68d6f1747ab01073d031c0a97242ef078283d2cbd6"></a>GOSSIP_OPTION_SUMMON_VAKKIZ_THE_WINDRAGER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aad52625e74763db1be908eb68d6f1747abc3ff3d2bb8ed64fd58c4f5eb6cc4cb8" name="aad52625e74763db1be908eb68d6f1747abc3ff3d2bb8ed64fd58c4f5eb6cc4cb8"></a>SPELL_SUMMON_GEZZARAK_THE_HUNTRESS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aad52625e74763db1be908eb68d6f1747add0291da1877a5245c1d72118dda56cd" name="aad52625e74763db1be908eb68d6f1747add0291da1877a5245c1d72118dda56cd"></a>SPELL_SUMMON_DARKSCREECHER_AKKARAI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aad52625e74763db1be908eb68d6f1747a941c2f8289835f0d4d722d36f99771d2" name="aad52625e74763db1be908eb68d6f1747a941c2f8289835f0d4d722d36f99771d2"></a>SPELL_SUMMON_KARROG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aad52625e74763db1be908eb68d6f1747a5d006fae9f9d39fb5ffa345a83679bf0" name="aad52625e74763db1be908eb68d6f1747a5d006fae9f9d39fb5ffa345a83679bf0"></a>SPELL_SUMMON_VAKKIZ_THE_WINDRAGER&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  583</span>{</div>
+<div class="line"><span class="lineno">  584</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a778fa3329cf61d166a6168c371359e29">QUEST_ADVERSARIAL_BLOOD</a>                     = 11885,</div>
+<div class="line"><span class="lineno">  585</span> </div>
+<div class="line"><span class="lineno">  586</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a2e42b2a84bd5543395edd99e10836308">GOSSIP_MENU_SKULL_PILE</a>                      = 8660,</div>
+<div class="line"><span class="lineno">  587</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a4421c9274f70eeecac8c2001d6d3c217">GOSSIP_MENU_TEXT_SKULL_PILE</a>                 = 10888,</div>
+<div class="line"><span class="lineno">  588</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747af25d41b2abf38359aaa4e9a6e7813985">GOSSIP_MENU_TEXT_SKULL_PILE_QUEST</a>           = 11057,</div>
+<div class="line"><span class="lineno">  589</span> </div>
+<div class="line"><span class="lineno">  590</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747ab8d817f19c8a0ee26e791ad4a270d090">GOSSIP_OPTION_SUMMON_GEZZARAK_THE_HUNTRESS</a>  = 0,</div>
+<div class="line"><span class="lineno">  591</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a21b76a2a227226c67cc717f339694e90">GOSSIP_OPTION_SUMMON_DARKSCREECHER_AKKARAI</a>  = 1,</div>
+<div class="line"><span class="lineno">  592</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a8c1471c1cbdafc84aac25cc6ea9e703f">GOSSIP_OPTION_SUMMON_KARROG</a>                 = 2,</div>
+<div class="line"><span class="lineno">  593</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747ab01073d031c0a97242ef078283d2cbd6">GOSSIP_OPTION_SUMMON_VAKKIZ_THE_WINDRAGER</a>   = 3,</div>
+<div class="line"><span class="lineno">  594</span> </div>
+<div class="line"><span class="lineno">  595</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747abc3ff3d2bb8ed64fd58c4f5eb6cc4cb8">SPELL_SUMMON_GEZZARAK_THE_HUNTRESS</a>          = 40632,</div>
+<div class="line"><span class="lineno">  596</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747add0291da1877a5245c1d72118dda56cd">SPELL_SUMMON_DARKSCREECHER_AKKARAI</a>          = 40642,</div>
+<div class="line"><span class="lineno">  597</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a941c2f8289835f0d4d722d36f99771d2">SPELL_SUMMON_KARROG</a>                         = 40640,</div>
+<div class="line"><span class="lineno">  598</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a5d006fae9f9d39fb5ffa345a83679bf0">SPELL_SUMMON_VAKKIZ_THE_WINDRAGER</a>           = 40644,</div>
+<div class="line"><span class="lineno">  599</span>};</div>
+<div class="ttc" id="aa04331_html_aad52625e74763db1be908eb68d6f1747a21b76a2a227226c67cc717f339694e90"><div class="ttname"><a href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a21b76a2a227226c67cc717f339694e90">GOSSIP_OPTION_SUMMON_DARKSCREECHER_AKKARAI</a></div><div class="ttdeci">@ GOSSIP_OPTION_SUMMON_DARKSCREECHER_AKKARAI</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:591</div></div>
+<div class="ttc" id="aa04331_html_aad52625e74763db1be908eb68d6f1747a2e42b2a84bd5543395edd99e10836308"><div class="ttname"><a href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a2e42b2a84bd5543395edd99e10836308">GOSSIP_MENU_SKULL_PILE</a></div><div class="ttdeci">@ GOSSIP_MENU_SKULL_PILE</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:586</div></div>
+<div class="ttc" id="aa04331_html_aad52625e74763db1be908eb68d6f1747a4421c9274f70eeecac8c2001d6d3c217"><div class="ttname"><a href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a4421c9274f70eeecac8c2001d6d3c217">GOSSIP_MENU_TEXT_SKULL_PILE</a></div><div class="ttdeci">@ GOSSIP_MENU_TEXT_SKULL_PILE</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:587</div></div>
+<div class="ttc" id="aa04331_html_aad52625e74763db1be908eb68d6f1747a5d006fae9f9d39fb5ffa345a83679bf0"><div class="ttname"><a href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a5d006fae9f9d39fb5ffa345a83679bf0">SPELL_SUMMON_VAKKIZ_THE_WINDRAGER</a></div><div class="ttdeci">@ SPELL_SUMMON_VAKKIZ_THE_WINDRAGER</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:598</div></div>
+<div class="ttc" id="aa04331_html_aad52625e74763db1be908eb68d6f1747a778fa3329cf61d166a6168c371359e29"><div class="ttname"><a href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a778fa3329cf61d166a6168c371359e29">QUEST_ADVERSARIAL_BLOOD</a></div><div class="ttdeci">@ QUEST_ADVERSARIAL_BLOOD</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:584</div></div>
+<div class="ttc" id="aa04331_html_aad52625e74763db1be908eb68d6f1747a8c1471c1cbdafc84aac25cc6ea9e703f"><div class="ttname"><a href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a8c1471c1cbdafc84aac25cc6ea9e703f">GOSSIP_OPTION_SUMMON_KARROG</a></div><div class="ttdeci">@ GOSSIP_OPTION_SUMMON_KARROG</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:592</div></div>
+<div class="ttc" id="aa04331_html_aad52625e74763db1be908eb68d6f1747a941c2f8289835f0d4d722d36f99771d2"><div class="ttname"><a href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747a941c2f8289835f0d4d722d36f99771d2">SPELL_SUMMON_KARROG</a></div><div class="ttdeci">@ SPELL_SUMMON_KARROG</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:597</div></div>
+<div class="ttc" id="aa04331_html_aad52625e74763db1be908eb68d6f1747ab01073d031c0a97242ef078283d2cbd6"><div class="ttname"><a href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747ab01073d031c0a97242ef078283d2cbd6">GOSSIP_OPTION_SUMMON_VAKKIZ_THE_WINDRAGER</a></div><div class="ttdeci">@ GOSSIP_OPTION_SUMMON_VAKKIZ_THE_WINDRAGER</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:593</div></div>
+<div class="ttc" id="aa04331_html_aad52625e74763db1be908eb68d6f1747ab8d817f19c8a0ee26e791ad4a270d090"><div class="ttname"><a href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747ab8d817f19c8a0ee26e791ad4a270d090">GOSSIP_OPTION_SUMMON_GEZZARAK_THE_HUNTRESS</a></div><div class="ttdeci">@ GOSSIP_OPTION_SUMMON_GEZZARAK_THE_HUNTRESS</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:590</div></div>
+<div class="ttc" id="aa04331_html_aad52625e74763db1be908eb68d6f1747abc3ff3d2bb8ed64fd58c4f5eb6cc4cb8"><div class="ttname"><a href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747abc3ff3d2bb8ed64fd58c4f5eb6cc4cb8">SPELL_SUMMON_GEZZARAK_THE_HUNTRESS</a></div><div class="ttdeci">@ SPELL_SUMMON_GEZZARAK_THE_HUNTRESS</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:595</div></div>
+<div class="ttc" id="aa04331_html_aad52625e74763db1be908eb68d6f1747add0291da1877a5245c1d72118dda56cd"><div class="ttname"><a href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747add0291da1877a5245c1d72118dda56cd">SPELL_SUMMON_DARKSCREECHER_AKKARAI</a></div><div class="ttdeci">@ SPELL_SUMMON_DARKSCREECHER_AKKARAI</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:596</div></div>
+<div class="ttc" id="aa04331_html_aad52625e74763db1be908eb68d6f1747af25d41b2abf38359aaa4e9a6e7813985"><div class="ttname"><a href="../../de/d68/a04331.html#aad52625e74763db1be908eb68d6f1747af25d41b2abf38359aaa4e9a6e7813985">GOSSIP_MENU_TEXT_SKULL_PILE_QUEST</a></div><div class="ttdeci">@ GOSSIP_MENU_TEXT_SKULL_PILE_QUEST</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:588</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a02ee5712d433b97576ee20c54707947b" name="a02ee5712d433b97576ee20c54707947b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02ee5712d433b97576ee20c54707947b">&#9670;&#160;</a></span>Slim</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../de/d68/a04331.html#a02ee5712d433b97576ee20c54707947b">Slim</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a02ee5712d433b97576ee20c54707947bad1b1eee7cc5ca5f4ddaa8929e49a0046" name="a02ee5712d433b97576ee20c54707947bad1b1eee7cc5ca5f4ddaa8929e49a0046"></a>FACTION_CONSORTIUM&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  660</span>{</div>
+<div class="line"><span class="lineno">  661</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#a02ee5712d433b97576ee20c54707947bad1b1eee7cc5ca5f4ddaa8929e49a0046">FACTION_CONSORTIUM</a>  = 933</div>
+<div class="line"><span class="lineno">  662</span>};</div>
+<div class="ttc" id="aa04331_html_a02ee5712d433b97576ee20c54707947bad1b1eee7cc5ca5f4ddaa8929e49a0046"><div class="ttname"><a href="../../de/d68/a04331.html#a02ee5712d433b97576ee20c54707947bad1b1eee7cc5ca5f4ddaa8929e49a0046">FACTION_CONSORTIUM</a></div><div class="ttdeci">@ FACTION_CONSORTIUM</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:661</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a88cc97a269783b482b7b90a366327e02" name="a88cc97a269783b482b7b90a366327e02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88cc97a269783b482b7b90a366327e02">&#9670;&#160;</a></span>UnkorTheRuthless</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../de/d68/a04331.html#a88cc97a269783b482b7b90a366327e02">UnkorTheRuthless</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a88cc97a269783b482b7b90a366327e02ac438d344c95f2fc9bceaf8955f07a62c" name="a88cc97a269783b482b7b90a366327e02ac438d344c95f2fc9bceaf8955f07a62c"></a>SAY_SUBMIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88cc97a269783b482b7b90a366327e02a9f091068e93fe04fde1b2d77d34d5fcf" name="a88cc97a269783b482b7b90a366327e02a9f091068e93fe04fde1b2d77d34d5fcf"></a>FACTION_HOSTILE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88cc97a269783b482b7b90a366327e02ac9b055761d26e7020af8fca0ad0914e8" name="a88cc97a269783b482b7b90a366327e02ac9b055761d26e7020af8fca0ad0914e8"></a>QUEST_DONTKILLTHEFATONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a88cc97a269783b482b7b90a366327e02a69dd71f7b0eefec5bcdd15cddbb128d6" name="a88cc97a269783b482b7b90a366327e02a69dd71f7b0eefec5bcdd15cddbb128d6"></a>SPELL_PULVERIZE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  318</span>{</div>
+<div class="line"><span class="lineno">  319</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#a88cc97a269783b482b7b90a366327e02ac438d344c95f2fc9bceaf8955f07a62c">SAY_SUBMIT</a>                      = 0,</div>
+<div class="line"><span class="lineno">  320</span> </div>
+<div class="line"><span class="lineno">  321</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#a88cc97a269783b482b7b90a366327e02a9f091068e93fe04fde1b2d77d34d5fcf">FACTION_HOSTILE</a>                 = 45,</div>
+<div class="line"><span class="lineno">  322</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#a88cc97a269783b482b7b90a366327e02ac9b055761d26e7020af8fca0ad0914e8">QUEST_DONTKILLTHEFATONE</a>         = 9889,</div>
+<div class="line"><span class="lineno">  323</span> </div>
+<div class="line"><span class="lineno">  324</span>    <a class="code hl_enumvalue" href="../../de/d68/a04331.html#a88cc97a269783b482b7b90a366327e02a69dd71f7b0eefec5bcdd15cddbb128d6">SPELL_PULVERIZE</a>                 = 2676</div>
+<div class="line"><span class="lineno">  325</span>};</div>
+<div class="ttc" id="aa04331_html_a88cc97a269783b482b7b90a366327e02a69dd71f7b0eefec5bcdd15cddbb128d6"><div class="ttname"><a href="../../de/d68/a04331.html#a88cc97a269783b482b7b90a366327e02a69dd71f7b0eefec5bcdd15cddbb128d6">SPELL_PULVERIZE</a></div><div class="ttdeci">@ SPELL_PULVERIZE</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:324</div></div>
+<div class="ttc" id="aa04331_html_a88cc97a269783b482b7b90a366327e02a9f091068e93fe04fde1b2d77d34d5fcf"><div class="ttname"><a href="../../de/d68/a04331.html#a88cc97a269783b482b7b90a366327e02a9f091068e93fe04fde1b2d77d34d5fcf">FACTION_HOSTILE</a></div><div class="ttdeci">@ FACTION_HOSTILE</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:321</div></div>
+<div class="ttc" id="aa04331_html_a88cc97a269783b482b7b90a366327e02ac438d344c95f2fc9bceaf8955f07a62c"><div class="ttname"><a href="../../de/d68/a04331.html#a88cc97a269783b482b7b90a366327e02ac438d344c95f2fc9bceaf8955f07a62c">SAY_SUBMIT</a></div><div class="ttdeci">@ SAY_SUBMIT</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:319</div></div>
+<div class="ttc" id="aa04331_html_a88cc97a269783b482b7b90a366327e02ac9b055761d26e7020af8fca0ad0914e8"><div class="ttname"><a href="../../de/d68/a04331.html#a88cc97a269783b482b7b90a366327e02ac9b055761d26e7020af8fca0ad0914e8">QUEST_DONTKILLTHEFATONE</a></div><div class="ttdeci">@ QUEST_DONTKILLTHEFATONE</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:322</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a06eb16b2a9cfacc1641cf49759c7615e" name="a06eb16b2a9cfacc1641cf49759c7615e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06eb16b2a9cfacc1641cf49759c7615e">&#9670;&#160;</a></span>AddSC_terokkar_forest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddSC_terokkar_forest </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  693</span>{</div>
+<div class="line"><span class="lineno">  694</span>    <span class="comment">// Ours</span></div>
+<div class="line"><span class="lineno">  695</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/dad/a26045.html">spell_q10930_big_bone_worm</a>();</div>
+<div class="line"><span class="lineno">  696</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/de0/a26057.html">spell_q10929_fumping</a>();</div>
+<div class="line"><span class="lineno">  697</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d29/a26069.html">npc_greatfather_aldrimus</a>();</div>
+<div class="line"><span class="lineno">  698</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/de6/a26077.html">spell_q10036_torgos</a>();</div>
+<div class="line"><span class="lineno">  699</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d32/a26085.html">spell_q10923_evil_draws_near_summon</a>();</div>
+<div class="line"><span class="lineno">  700</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/d46/a26093.html">spell_q10923_evil_draws_near_periodic</a>();</div>
+<div class="line"><span class="lineno">  701</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/df9/a26101.html">spell_q10923_evil_draws_near_visual</a>();</div>
+<div class="line"><span class="lineno">  702</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d21/a26109.html">spell_q10898_skywing</a>();</div>
+<div class="line"><span class="lineno">  703</span> </div>
+<div class="line"><span class="lineno">  704</span>    <span class="comment">// Theirs</span></div>
+<div class="line"><span class="lineno">  705</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/d10/a26117.html">npc_unkor_the_ruthless</a>();</div>
+<div class="line"><span class="lineno">  706</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d83/a26125.html">npc_isla_starmane</a>();</div>
+<div class="line"><span class="lineno">  707</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/dd6/a26133.html">go_skull_pile</a>();</div>
+<div class="line"><span class="lineno">  708</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/d9f/a26137.html">npc_slim</a>();</div>
+<div class="line"><span class="lineno">  709</span>}</div>
+<div class="ttc" id="aa26045_html"><div class="ttname"><a href="../../d3/dad/a26045.html">spell_q10930_big_bone_worm</a></div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:40</div></div>
+<div class="ttc" id="aa26057_html"><div class="ttname"><a href="../../dc/de0/a26057.html">spell_q10929_fumping</a></div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:90</div></div>
+<div class="ttc" id="aa26069_html"><div class="ttname"><a href="../../dc/d29/a26069.html">npc_greatfather_aldrimus</a></div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:140</div></div>
+<div class="ttc" id="aa26077_html"><div class="ttname"><a href="../../dd/de6/a26077.html">spell_q10036_torgos</a></div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:166</div></div>
+<div class="ttc" id="aa26085_html"><div class="ttname"><a href="../../d6/d32/a26085.html">spell_q10923_evil_draws_near_summon</a></div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:202</div></div>
+<div class="ttc" id="aa26093_html"><div class="ttname"><a href="../../da/d46/a26093.html">spell_q10923_evil_draws_near_periodic</a></div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:229</div></div>
+<div class="ttc" id="aa26101_html"><div class="ttname"><a href="../../db/df9/a26101.html">spell_q10923_evil_draws_near_visual</a></div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:256</div></div>
+<div class="ttc" id="aa26109_html"><div class="ttname"><a href="../../d8/d21/a26109.html">spell_q10898_skywing</a></div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:284</div></div>
+<div class="ttc" id="aa26117_html"><div class="ttname"><a href="../../df/d10/a26117.html">npc_unkor_the_ruthless</a></div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:328</div></div>
+<div class="ttc" id="aa26125_html"><div class="ttname"><a href="../../d9/d83/a26125.html">npc_isla_starmane</a></div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:459</div></div>
+<div class="ttc" id="aa26133_html"><div class="ttname"><a href="../../d5/dd6/a26133.html">go_skull_pile</a></div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:602</div></div>
+<div class="ttc" id="aa26137_html"><div class="ttname"><a href="../../df/d9f/a26137.html">npc_slim</a></div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:665</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00122">AddOutlandScripts()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_777a9b9a3e1a361a798e834f8fa9f1dc.html">shared</a></li><li class="navelem"><a class="el" href="../../dir_a4d376dc24851cd2a191f06c51e076cb.html">Network</a></li><li class="navelem"><a class="el" href="../../de/d68/a04331.html">NetworkThread.h</a></li>
-    <li class="footer">Generated on Sun Aug 20 2023 00:19:19 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_aa56e8ce1c3e0d32a59f1a16b86dbc72.html">Outland</a></li><li class="navelem"><a class="el" href="../../de/d68/a04331.html">zone_terokkar_forest.cpp</a></li>
+    <li class="footer">Generated on Wed Dec 6 2023 22:12:27 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

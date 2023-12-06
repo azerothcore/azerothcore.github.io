@@ -1,6 +1,10 @@
 var a11281 =
 [
-    [ "boss_galvangarAI", "dc/d1f/a11285.html", "dc/d1f/a11285" ],
-    [ "boss_galvangar", "d7/ddc/a11281.html#a3949cfd3c987bdf52d313568de9379ba", null ],
-    [ "GetAI", "d7/ddc/a11281.html#a9fd978eb38ae3e2d8d65cf4214e673e3", null ]
+    [ "item_commandscript", "d7/ddc/a11281.html#a22f9cb46f2c3701fc5c9136c87c09435", null ],
+    [ "GetCommands", "d7/ddc/a11281.html#aab60aa980ef0f86938cfcb51e7ee20a8", null ],
+    [ "HandleItemMoveCommand", "d7/ddc/a11281.html#a6adae7cb08c0e69ac0a20c107f818a57", null ],
+    [ "HandleItemRefundCommand", "d7/ddc/a11281.html#af914e33be05148062abd89c754d939c9", null ],
+    [ "HandleItemRestoreCommand", "d7/ddc/a11281.html#a84c67a46c513c1aac2b9d2563d693929", null ],
+    [ "HandleItemRestoreListCommand", "d7/ddc/a11281.html#a40181310f4187a71a6f5f5f600a8f468", null ],
+    [ "HasItemDeletionConfig", "d7/ddc/a11281.html#a28d0b4083bf3352f80b6210f9ac00692", null ]
 ];

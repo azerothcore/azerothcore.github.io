@@ -1,6 +1,6 @@
 var a22045 =
 [
-    [ "PrepareSpellScript", "d6/d8f/a22045.html#afcadab50ddf14a4ce6b09aaf1ded822e", null ],
-    [ "Register", "d6/d8f/a22045.html#a085a083a8a496b6b22c0ec1f0a46fe29", null ],
-    [ "SelectTarget", "d6/d8f/a22045.html#ad156fe6ea8d0ee320a62105e7e62284c", null ]
+    [ "spell_xt002_tympanic_tantrum_SpellScript", "d5/d64/a22049.html", "d5/d64/a22049" ],
+    [ "spell_xt002_tympanic_tantrum", "d6/d8f/a22045.html#ac08790248570c9392030b2f0cbc19139", null ],
+    [ "GetSpellScript", "d6/d8f/a22045.html#aae70170ad1592e9ffa75acef067814f1", null ]
 ];

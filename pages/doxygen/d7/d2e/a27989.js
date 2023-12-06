@@ -1,6 +1,8 @@
 var a27989 =
 [
-    [ "FilterTargets", "d7/d2e/a27989.html#a23c7b977f7e213322b3702367d6a28c7", null ],
-    [ "PrepareSpellScript", "d7/d2e/a27989.html#a7000b2fd940c914933c486e847932b62", null ],
-    [ "Register", "d7/d2e/a27989.html#a870ee08d0341f6640710a87c97a6b98b", null ]
+    [ "HandleEffectApply", "d7/d2e/a27989.html#aed959961fcd07649cd4914fcd38a3214", null ],
+    [ "if", "d7/d2e/a27989.html#a1518c08cb3b5cb716b8bd01692a5160d", null ],
+    [ "PrepareAuraScript", "d7/d2e/a27989.html#a42167bc6bf7992debea8582680251da4", null ],
+    [ "Register", "d7/d2e/a27989.html#aa2c23abd2b90a276bd7980cadc0397a4", null ],
+    [ "AuraEffectHandleModes", "d7/d2e/a27989.html#ac886dec8a2ce55af4ec58ab068c589fa", null ]
 ];

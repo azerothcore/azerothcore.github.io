@@ -1,9 +1,9 @@
 var a10393 =
 [
-    [ "TotemCreated", "d6/df0/a10393.html#a24c9e483d1edb526330311c719d750df", null ],
-    [ "Write", "d6/df0/a10393.html#a554900ae7442f00a63c983ea7ea74510", null ],
-    [ "Duration", "d6/df0/a10393.html#aff6335b86ac051bccb623124905c7180", null ],
-    [ "Slot", "d6/df0/a10393.html#a0889c816fbef728f1a0a6c530c801eac", null ],
-    [ "SpellID", "d6/df0/a10393.html#a2fe9f98b653d7c2afcf3166e86f3756e", null ],
-    [ "Totem", "d6/df0/a10393.html#a684d15c5368e8065c78e9320eebb676b", null ]
+    [ "Weather", "d6/df0/a10393.html#aa404c94fec05b825454a7309827767c6", null ],
+    [ "Weather", "d6/df0/a10393.html#a28f45d81441d2dde6917380978dfb4d0", null ],
+    [ "Write", "d6/df0/a10393.html#a641c7de3e527dcdff07b3f602880b5c8", null ],
+    [ "Abrupt", "d6/df0/a10393.html#a0abe1fcb36d21ac246174cdc98c0e261", null ],
+    [ "Intensity", "d6/df0/a10393.html#ac37cee2364921a50e2b1ec1b19ed69b7", null ],
+    [ "WeatherID", "d6/df0/a10393.html#a32e56458b1e562c124cfc0288a578134", null ]
 ];

@@ -1,12 +1,10 @@
 var a26213 =
 [
-    [ "npc_unkor_the_ruthlessAI", "d1/d9e/a26213.html#a965b0f182570a54ee4c0a6a54ba8fafb", null ],
-    [ "DamageTaken", "d1/d9e/a26213.html#a88b5e4b43171be8cc62d2a10f188e363", null ],
-    [ "DoNice", "d1/d9e/a26213.html#aa673fc892b9c0d59b2789271140e6054", null ],
-    [ "JustEngagedWith", "d1/d9e/a26213.html#a537225016bfeba51b607d250c0a09be5", null ],
-    [ "Reset", "d1/d9e/a26213.html#a14ca75417c623d6d6e5fce50521963da", null ],
-    [ "UpdateAI", "d1/d9e/a26213.html#a744ea41d7f9450965419085a296c8df2", null ],
-    [ "CanDoQuest", "d1/d9e/a26213.html#a98d7d45b450f3464291ecbc05ab31f21", null ],
-    [ "Pulverize_Timer", "d1/d9e/a26213.html#a2ddc09c9241bbf95cddb6c1c4ddfc6bd", null ],
-    [ "UnkorUnfriendly_Timer", "d1/d9e/a26213.html#ae6eeb6177d655f5a0bede45183758f1f", null ]
+    [ "npc_pet_gen_imp_in_a_bottle", "d1/d9e/a26213.html#aa32b7770c2719d77d46fcf6d22989284", null ],
+    [ "InitializeAI", "d1/d9e/a26213.html#a9fde3fd30d48068a3ad1a19f65c61bf2", null ],
+    [ "UpdateAI", "d1/d9e/a26213.html#a453ec855bb21a30cb72b540ff8f77035", null ],
+    [ "_data", "d1/d9e/a26213.html#a982ec923536c2c33353a3673aa425b6a", null ],
+    [ "_hasParty", "d1/d9e/a26213.html#a192d9e2ba340040cb6ba5c0f324ffb2d", null ],
+    [ "_ownerGUID", "d1/d9e/a26213.html#a5452226bbe4f65a9bd7ce103a7648a2f", null ],
+    [ "_talkTimer", "d1/d9e/a26213.html#a07eba859ad2d5db4f6d91734c04020cf", null ]
 ];

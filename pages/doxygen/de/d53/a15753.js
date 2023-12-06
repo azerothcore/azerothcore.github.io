@@ -1,6 +1,8 @@
 var a15753 =
 [
-    [ "SayerEntry", "de/d53/a15753.html#a3f9e374ec2a49823d942c29572ac2fa0", null ],
-    [ "SayTimer", "de/d53/a15753.html#a942073f24fd12da712184243d9f098f2", null ],
-    [ "TextEntry", "de/d53/a15753.html#a360822e4c069be6019c0a465cb2499cf", null ]
+    [ "npc_pluckyAI", "dd/d5b/a15757.html", "dd/d5b/a15757" ],
+    [ "npc_plucky", "de/d53/a15753.html#a86bb2992b8af5893987145117aaf3608", null ],
+    [ "GetAI", "de/d53/a15753.html#a51e73f4e1f618aee5a000e31328efefc", null ],
+    [ "OnGossipHello", "de/d53/a15753.html#a3443f3e8c2b3fcc96955ab2e55e7fd61", null ],
+    [ "OnGossipSelect", "de/d53/a15753.html#a88fa465246b4c657b921ebdc96f7a112", null ]
 ];

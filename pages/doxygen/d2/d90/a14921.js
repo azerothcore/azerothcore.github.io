@@ -1,6 +1,6 @@
 var a14921 =
 [
-    [ "instance_razorfen_kraul_InstanceMapScript", "d3/db0/a14925.html", "d3/db0/a14925" ],
-    [ "instance_razorfen_kraul", "d2/d90/a14921.html#aedd65b901c8131a7ac21e8576734f76f", null ],
-    [ "GetInstanceScript", "d2/d90/a14921.html#a78e77010ebb055b9530733ca25533110", null ]
+    [ "instance_maraudon_InstanceMapScript", "d3/db0/a14925.html", "d3/db0/a14925" ],
+    [ "instance_maraudon", "d2/d90/a14921.html#aaae11d2569d04b42840b101a5702cf24", null ],
+    [ "GetInstanceScript", "d2/d90/a14921.html#ac4f5c7c3ee755226449c96b3e351f12d", null ]
 ];

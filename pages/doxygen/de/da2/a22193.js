@@ -1,10 +1,6 @@
 var a22193 =
 [
-    [ "boss_yoggsaron_voiceAI", "de/da2/a22193.html#ac78b27f8d4df433e1fad2ae550a4da44", null ],
-    [ "Reset", "de/da2/a22193.html#ae5561244ad7387a3614bb6f1e23a7001", null ],
-    [ "SpellHitTarget", "de/da2/a22193.html#a0cc39577b4b70eb1be16f9c8b5cb5c72", null ],
-    [ "UpdateAI", "de/da2/a22193.html#a3c8458c25f7389f5fb5218177590a4c6", null ],
-    [ "_current", "de/da2/a22193.html#ad94ddde194a32b380ba1d309f1ece14a", null ],
-    [ "_targets", "de/da2/a22193.html#ab6132214a2249fbb5de8a5115b114381", null ],
-    [ "events", "de/da2/a22193.html#ac0c6aa9efe9d9e80b29fae8c190962dc", null ]
+    [ "boss_yoggsaron_immortal_guardianAI", "dc/dac/a22197.html", "dc/dac/a22197" ],
+    [ "boss_yoggsaron_immortal_guardian", "de/da2/a22193.html#a4009759d284b54cb958ee0bb80c45f14", null ],
+    [ "GetAI", "de/da2/a22193.html#ac532ca090d93ce6d11a0332329111f2b", null ]
 ];

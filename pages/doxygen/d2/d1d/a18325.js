@@ -1,7 +1,7 @@
 var a18325 =
 [
-    [ "HandleScriptEffect", "d2/d1d/a18325.html#a5992a96d232f98606854c67037bd13ab", null ],
-    [ "PrepareSpellScript", "d2/d1d/a18325.html#a9e6aba739a16ce8bcacdc6cec2276cff", null ],
-    [ "Register", "d2/d1d/a18325.html#ae18b1e7c12081634310122bbdef0c349", null ],
-    [ "SelectTarget", "d2/d1d/a18325.html#aff49dcbd5d2f8a133868a4fc43170c6e", null ]
+    [ "OnPeriodic", "d2/d1d/a18325.html#a402e6c1a23070e3cef9b66ca0992d1af", null ],
+    [ "PrepareAuraScript", "d2/d1d/a18325.html#a0e87dae1be4f69e6412129f14056eb79", null ],
+    [ "Register", "d2/d1d/a18325.html#a1b26d102252bf7e0fd480076820d343f", null ],
+    [ "Validate", "d2/d1d/a18325.html#a211d52aa385a874730abc43b083f2d22", null ]
 ];

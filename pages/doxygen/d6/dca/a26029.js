@@ -1,6 +1,6 @@
 var a26029 =
 [
-    [ "npc_mature_netherwing_drakeAI", "d3/d6b/a26033.html", "d3/d6b/a26033" ],
-    [ "npc_mature_netherwing_drake", "d6/dca/a26029.html#a3369bd143ff9e46a4ad4c44b6d8c0ec5", null ],
-    [ "GetAI", "d6/dca/a26029.html#ac5a1dad24920396156f22ab02bfab84b", null ]
+    [ "npc_shattrathflaskvendors", "d6/dca/a26029.html#ab74b234406c2022bf519242a7842458a", null ],
+    [ "OnGossipHello", "d6/dca/a26029.html#af165d6f4640b41a92b36d77c1f1c1161", null ],
+    [ "OnGossipSelect", "d6/dca/a26029.html#ad9eb60422dfc663e6d020a630c09ee05", null ]
 ];

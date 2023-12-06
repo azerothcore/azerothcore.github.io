@@ -1,6 +1,6 @@
 var a23073 =
 [
-    [ "npc_counselor_talbotAI", "d6/de3/a23077.html", "d6/de3/a23077" ],
-    [ "npc_counselor_talbot", "d8/dda/a23073.html#a9223380bb78afeda617482bea0a3110c", null ],
-    [ "GetAI", "d8/dda/a23073.html#a3debd13352146a247d635042ecbfa155", null ]
+    [ "npc_bloodmage_laurithAI", "d6/de3/a23077.html", "d6/de3/a23077" ],
+    [ "npc_bloodmage_laurith", "d8/dda/a23073.html#a40ab80342ddc86afca3b1bd37b1ca6b5", null ],
+    [ "GetAI", "d8/dda/a23073.html#a5a5151a56de3ad1012d9a795dbfb5bd5", null ]
 ];

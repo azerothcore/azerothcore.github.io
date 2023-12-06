@@ -1,10 +1,11 @@
 var a09865 =
 [
-    [ "AchievementScript", "dd/d92/a09865.html#afe724d1d43cb6da88912f65b92afeb83", null ],
-    [ "CanCheckCriteria", "dd/d92/a09865.html#aca4cb16b55f7990c676267b8f10b4e57", null ],
-    [ "IsCompletedCriteria", "dd/d92/a09865.html#a33d7ba1a6bf82da8e2de367553c0fb52", null ],
-    [ "IsDatabaseBound", "dd/d92/a09865.html#a9ea2ed91c281e881404c31a948de0fc9", null ],
-    [ "IsRealmCompleted", "dd/d92/a09865.html#abc54c295c1bcad45e21aed99e43a3713", null ],
-    [ "OnBeforeCheckCriteria", "dd/d92/a09865.html#a0290017c5d11174da759fa584d44a4bf", null ],
-    [ "SetRealmCompleted", "dd/d92/a09865.html#acf6a63ba96da7b33a92d48a95a549d4e", null ]
+    [ "AllMapScript", "dd/d92/a09865.html#abaf4ffb766b2e5780a9c15c8136d8e26", null ],
+    [ "OnBeforeCreateInstanceScript", "dd/d92/a09865.html#ad398177177c6b436cc9279f5e49818b4", null ],
+    [ "OnCreateMap", "dd/d92/a09865.html#a56aa53bfb0a1cb7ad7cb677771739b46", null ],
+    [ "OnDestroyInstance", "dd/d92/a09865.html#a990130b4cd594c1cd04368aea300a49e", null ],
+    [ "OnDestroyMap", "dd/d92/a09865.html#a6bebd1e6e36b5714598439a6c6dfaad6", null ],
+    [ "OnMapUpdate", "dd/d92/a09865.html#a6edbb719d998c57caba09eef7ad559e0", null ],
+    [ "OnPlayerEnterAll", "dd/d92/a09865.html#a42e4af596effb07a00b353164f32cec9", null ],
+    [ "OnPlayerLeaveAll", "dd/d92/a09865.html#adcfd501bee055317bff2a63ef28c3eab", null ]
 ];

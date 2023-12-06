@@ -1,6 +1,6 @@
 var a20537 =
 [
-    [ "boss_bjarngrimAI", "df/d7c/a20541.html", "df/d7c/a20541" ],
-    [ "boss_bjarngrim", "db/ddb/a20537.html#ab509688547d41ec1fd094fdc45291959", null ],
-    [ "GetAI", "db/ddb/a20537.html#aff6455d2a327bbf3426d10a07f7b0e44", null ]
+    [ "HandlePeriodic", "db/ddb/a20537.html#ab4e35ae632057471dde8f945a642bf41", null ],
+    [ "PrepareAuraScript", "db/ddb/a20537.html#a3dbf487f7f17fe7f67558da1fee533d6", null ],
+    [ "Register", "db/ddb/a20537.html#a758d8f38dd0ee563a65e1028b709cae7", null ]
 ];

@@ -1,6 +1,6 @@
 var a25405 =
 [
-    [ "PrepareSpellScript", "dd/d0b/a25405.html#a5b17110b189b7134939aea9dbf2d724b", null ],
-    [ "Register", "dd/d0b/a25405.html#aab0cdddfc5c8188ff246a04035b8b552", null ],
-    [ "SelectRandomPlayer", "dd/d0b/a25405.html#a8a2229c61fb2eaaac3b0694008ec3ae1", null ]
+    [ "instance_arcatraz_InstanceMapScript", "d3/d76/a25409.html", "d3/d76/a25409" ],
+    [ "instance_arcatraz", "dd/d0b/a25405.html#a6fc8860651573353b54fd26bddea32aa", null ],
+    [ "GetInstanceScript", "dd/d0b/a25405.html#ad3f78e41ef2c96443ed3bd1ba4ab55bb", null ]
 ];

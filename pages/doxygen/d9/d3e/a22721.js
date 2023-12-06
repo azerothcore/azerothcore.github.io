@@ -1,14 +1,13 @@
 var a22721 =
 [
-    [ "boss_cyanigosaAI", "d9/d3e/a22721.html#a4b24132889b17b3e682a15009a1ae910", null ],
-    [ "EnterEvadeMode", "d9/d3e/a22721.html#a8da6ddc9b1c9f7b145920205046ce095", null ],
-    [ "JustDied", "d9/d3e/a22721.html#a805117db567dd3d529a1c862bc24179c", null ],
-    [ "JustEngagedWith", "d9/d3e/a22721.html#a4ef85c0178120f14f2a7b29efb7a9abf", null ],
-    [ "KilledUnit", "d9/d3e/a22721.html#a5e69b631ab6844160b1e53fd1d731bae", null ],
-    [ "MoveInLineOfSight", "d9/d3e/a22721.html#adb699a22dbf1c14cb80f8fdcca9c6f82", null ],
-    [ "Reset", "d9/d3e/a22721.html#a7b0fdaa4f2603db8fd2d0c1ee6975817", null ],
-    [ "SpellHitTarget", "d9/d3e/a22721.html#ae8218b69e6dc7489e65d891048d84da1", null ],
-    [ "UpdateAI", "d9/d3e/a22721.html#ae69afba77636c962045160b610177bd9", null ],
-    [ "events", "d9/d3e/a22721.html#ab5fe766d46e9445b9e7cfc605073983f", null ],
-    [ "pInstance", "d9/d3e/a22721.html#a075f4a592202dc73d9b5d63ca5178093", null ]
+    [ "boss_toravonAI", "d9/d3e/a22721.html#a98474fcfbc56c7850ae054b7489eaa4f", null ],
+    [ "AttackStart", "d9/d3e/a22721.html#ac4e2ed28ba7863630cd54c8f6c11455f", null ],
+    [ "JustDied", "d9/d3e/a22721.html#ad501bb34a0014be0abc965aae5383e21", null ],
+    [ "JustEngagedWith", "d9/d3e/a22721.html#af6a6cfd1ec54546c2e70ea60f871b564", null ],
+    [ "JustSummoned", "d9/d3e/a22721.html#a431dafbcc3a6581d771e810a85a92a0b", null ],
+    [ "Reset", "d9/d3e/a22721.html#a4af8eb8863e7ee1559bc156b7f28e8d8", null ],
+    [ "UpdateAI", "d9/d3e/a22721.html#a97c16b1689cfdb7fa680381964cb272a", null ],
+    [ "events", "d9/d3e/a22721.html#ae2a3b691f1580275228204ea8ccaf846", null ],
+    [ "pInstance", "d9/d3e/a22721.html#a912bcccd309ccd1f043c5aae633e78fe", null ],
+    [ "summons", "d9/d3e/a22721.html#a56ca98fa12190d6d9d459bc5e569ae04", null ]
 ];

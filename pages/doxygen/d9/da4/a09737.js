@@ -1,12 +1,12 @@
 var a09737 =
 [
-    [ "ItemScript", "d9/da4/a09737.html#a0ad18538a834261190356eab549ff192", null ],
-    [ "IsDatabaseBound", "d9/da4/a09737.html#ae0ae6754a17b88deaf3648b74a58bb9d", null ],
-    [ "OnCastItemCombatSpell", "d9/da4/a09737.html#a08a73378706fdfb0cee5e6214060ad1b", null ],
-    [ "OnExpire", "d9/da4/a09737.html#a2ac915f9f966df87a963a328363deb77", null ],
-    [ "OnGossipSelect", "d9/da4/a09737.html#a78b540902816ee3b3f9a6b108aa155ab", null ],
-    [ "OnGossipSelectCode", "d9/da4/a09737.html#a924268357fec1a667f1184c91ebcef33", null ],
-    [ "OnQuestAccept", "d9/da4/a09737.html#a87ab2f706bbb4e71921852d1ae6d78c7", null ],
-    [ "OnRemove", "d9/da4/a09737.html#a1c8d706593fce54b1e4627493c38a6d3", null ],
-    [ "OnUse", "d9/da4/a09737.html#a0e45d02f07def65de2eb94735189e7f5", null ]
+    [ "delay", "d9/da4/a09737.html#aa05ef99c3e04589501362a07d0dd032a", null ],
+    [ "event_chance", "d9/da4/a09737.html#af54f2d38ca1a11664f516799f3bb80c8", null ],
+    [ "event_id", "d9/da4/a09737.html#a083020691278af836e48f0a0c2feff96", null ],
+    [ "id", "d9/da4/a09737.html#af7248c313ceefedb5b7ff6ed4c2ffd6b", null ],
+    [ "move_type", "d9/da4/a09737.html#afb1a57b423a258e99c6921727a27e2e7", null ],
+    [ "orientation", "d9/da4/a09737.html#a971411811b0e60839538f82cd55dcfb7", null ],
+    [ "x", "d9/da4/a09737.html#a2dfd7f1f946ebef0b67d8f1542198b4b", null ],
+    [ "y", "d9/da4/a09737.html#a574c5ba7eb5e6bd55f6c55bb511c03f7", null ],
+    [ "z", "d9/da4/a09737.html#a013fa650f43e790e652016fbce2e1bd5", null ]
 ];

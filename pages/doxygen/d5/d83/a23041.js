@@ -1,6 +1,6 @@
 var a23041 =
 [
-    [ "npc_bloodmage_laurithAI", "d5/dc0/a23045.html", "d5/dc0/a23045" ],
-    [ "npc_bloodmage_laurith", "d5/d83/a23041.html#a40ab80342ddc86afca3b1bd37b1ca6b5", null ],
-    [ "GetAI", "d5/d83/a23041.html#a5a5151a56de3ad1012d9a795dbfb5bd5", null ]
+    [ "npc_valiance_keep_cannoneerAI", "d5/dc0/a23045.html", "d5/dc0/a23045" ],
+    [ "npc_valiance_keep_cannoneer", "d5/d83/a23041.html#a11f6060a7c6cd7be60001f5c259c94d3", null ],
+    [ "GetAI", "d5/d83/a23041.html#a8bfc1505dedee28d1517ba6a7738ffd5", null ]
 ];

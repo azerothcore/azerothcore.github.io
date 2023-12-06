@@ -1,7 +1,6 @@
 var a25065 =
 [
-    [ "FilterTargets", "da/d1a/a25065.html#a7e34fde3e85828d6c80fea3372673461", null ],
-    [ "HandleDummy", "da/d1a/a25065.html#a0588501dd9aa82aeb57af65fcb587c77", null ],
-    [ "PrepareSpellScript", "da/d1a/a25065.html#a0b649d2891b775123798105b8e6b338a", null ],
-    [ "Register", "da/d1a/a25065.html#a5b459b99587167d278f4b7c05e9a48e8", null ]
+    [ "instance_steam_vault_InstanceMapScript", "da/d1a/a25065.html#a1ca8d6b10fabe1a8b829dbf62b77ed51", null ],
+    [ "OnGameObjectCreate", "da/d1a/a25065.html#ace71fc6f1d7bc4b49bc2a2507f481fc2", null ],
+    [ "SetBossState", "da/d1a/a25065.html#ab1e344fbf169ee40f28741217f3dca14", null ]
 ];

@@ -1,7 +1,9 @@
 var a26225 =
 [
-    [ "go_skull_pile", "d3/d4a/a26225.html#a9cf8dfef432c4967c60f66e645585770", null ],
-    [ "OnGossipHello", "d3/d4a/a26225.html#ac95d39ea03e78fee2a10603d8c7f8840", null ],
-    [ "OnGossipSelect", "d3/d4a/a26225.html#afb8e8db2705355e975fa48c98e09f20b", null ],
-    [ "SendActionMenu", "d3/d4a/a26225.html#a9287eb499a93b8095a92bd2d7e8cb597", null ]
+    [ "npc_pet_gen_toxic_wasteling", "d3/d4a/a26225.html#a550a1a9324f605b1a9fd715571f819b7", null ],
+    [ "EnterEvadeMode", "d3/d4a/a26225.html#abe25deca7fd1c319085995657d62f22a", null ],
+    [ "MovementInform", "d3/d4a/a26225.html#aec73d567c3bd178ffee3bdece83a409e", null ],
+    [ "Reset", "d3/d4a/a26225.html#a06a8be653c8685aaf28aee1d1d3ae114", null ],
+    [ "UpdateAI", "d3/d4a/a26225.html#a22f96d995fcc722c0e95c4f5692cc128", null ],
+    [ "checkTimer", "d3/d4a/a26225.html#aafe402e0443bd39a1b7aa274d95edad6", null ]
 ];

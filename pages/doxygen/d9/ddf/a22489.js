@@ -1,6 +1,6 @@
 var a22489 =
 [
-    [ "spell_ticking_time_bomb_AuraScript", "d5/d7b/a22493.html", "d5/d7b/a22493" ],
-    [ "spell_ticking_time_bomb", "d9/ddf/a22489.html#ad1eacd09fa4a2980c32a01d8f2198038", null ],
-    [ "GetAuraScript", "d9/ddf/a22489.html#a09250ea65ea37d57cbbfd287d2463b5b", null ]
+    [ "boss_dalronn_the_controllerAI", "d5/d7b/a22493.html", "d5/d7b/a22493" ],
+    [ "boss_dalronn_the_controller", "d9/ddf/a22489.html#afb5f8ef1df5d2e70e48f88cf986d88b2", null ],
+    [ "GetAI", "d9/ddf/a22489.html#a62a12d41c5c4ed808ea8d65068a92b1f", null ]
 ];

@@ -1,6 +1,7 @@
 var a19881 =
 [
-    [ "spell_ioc_parachute_ic_AuraScript", "d6/dac/a19885.html", "d6/dac/a19885" ],
-    [ "spell_ioc_parachute_ic", "da/dd9/a19881.html#a4bf2ea1a55e04a3ff34c4ebbfad39be3", null ],
-    [ "GetAuraScript", "da/dd9/a19881.html#a79496e9131c14e1a253a9aa44cbe5d44", null ]
+    [ "npc_ioc_gunship_captainAI", "da/dd9/a19881.html#a23477a6f29b13308067c1f42ced1e9fe", null ],
+    [ "DoAction", "da/dd9/a19881.html#a89fb251869d6bfbefbca1e2d3178178a", null ],
+    [ "UpdateAI", "da/dd9/a19881.html#a222b304633143bba47d3edde67ea093b", null ],
+    [ "_events", "da/dd9/a19881.html#aa8b7c262641a5f1f86c5ae39f8b62dca", null ]
 ];

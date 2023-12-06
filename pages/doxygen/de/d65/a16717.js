@@ -1,6 +1,6 @@
 var a16717 =
 [
-    [ "HandleScript", "de/d65/a16717.html#a8d694a38875d940112ff406b84eca6ef", null ],
-    [ "PrepareSpellScript", "de/d65/a16717.html#a68caa888893ff2aeb7ce0ee5ae28546d", null ],
-    [ "Register", "de/d65/a16717.html#acd72c6d884a8963318aa73bc520c98c4", null ]
+    [ "boss_jaraxxusAI", "d8/dd9/a16721.html", "d8/dd9/a16721" ],
+    [ "boss_jaraxxus", "de/d65/a16717.html#a82cf0601aa16893d88d9b669a6d1fc72", null ],
+    [ "GetAI", "de/d65/a16717.html#a518f7af9f86ab995e5195175b5a34bc6", null ]
 ];

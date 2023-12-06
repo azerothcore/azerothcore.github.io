@@ -1,6 +1,6 @@
 var a17033 =
 [
-    [ "FilterTargets", "d8/ded/a17033.html#af555d143df147cec59b4cd51ed771c2a", null ],
-    [ "PrepareSpellScript", "d8/ded/a17033.html#a86df47dc4bcdd79c21eef18c9227b15a", null ],
-    [ "Register", "d8/ded/a17033.html#a2b8ed0c4f43728051ad495874470b97d", null ]
+    [ "npc_fos_corrupted_soul_fragmentAI", "d3/daa/a17037.html", "d3/daa/a17037" ],
+    [ "npc_fos_corrupted_soul_fragment", "d8/ded/a17033.html#a4caefccfdfee2e906eb94e34bceb064c", null ],
+    [ "GetAI", "d8/ded/a17033.html#aed663e0a313223fcaa988b89b1b02df3", null ]
 ];

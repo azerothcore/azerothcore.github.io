@@ -1,9 +1,8 @@
 var a11217 =
 [
-    [ "send_commandscript", "d2/d8f/a11217.html#a3aa5d7cc0b5dcd4875e99dfd6f3dbdde", null ],
-    [ "GetCommands", "d2/d8f/a11217.html#a2dc60c8c414c9131b4cda1ff82f7beed", null ],
-    [ "HandleSendItemsCommand", "d2/d8f/a11217.html#a7ffcd07e0ad08be2eb8a1ebac0fec717", null ],
-    [ "HandleSendMailCommand", "d2/d8f/a11217.html#a5ad6f9387c6fb00bf536629c760ba374", null ],
-    [ "HandleSendMessageCommand", "d2/d8f/a11217.html#a91017e6171ac9e4dfff6c2036228de47", null ],
-    [ "HandleSendMoneyCommand", "d2/d8f/a11217.html#a26938bb54bb3cb678c49737a92cadb56", null ]
+    [ "accountId", "d2/d8f/a11217.html#ad146b84be01ec07a5fee8184f0cc2da9", null ],
+    [ "accountName", "d2/d8f/a11217.html#a4849bd1f43fd15eea1991948abdc576d", null ],
+    [ "deleteDate", "d2/d8f/a11217.html#a65a101727094841d34e8775bb7504cba", null ],
+    [ "lowGuid", "d2/d8f/a11217.html#a11fd07e662184f750ac0a5e547a22437", null ],
+    [ "name", "d2/d8f/a11217.html#a0e85dce38305e222c5654315ed68bfc1", null ]
 ];

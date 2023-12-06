@@ -1,5 +1,8 @@
 var a09113 =
 [
-    [ "bossId", "d9/de5/a09113.html#ac7be12fc714b2760399185e96b01efe0", null ],
-    [ "entry", "d9/de5/a09113.html#adae739bf9cf30d1a8ca5c5790dc61c01", null ]
+    [ "flags", "d9/de5/a09113.html#a7ecce103d428ed7f91aa12fa5547561c", null ],
+    [ "group", "d9/de5/a09113.html#a0902606d44c8baa1a20b5b2cdd9b4787", null ],
+    [ "guid", "d9/de5/a09113.html#a97a20b4ccf1978165a5f5c7ff4ffb2b4", null ],
+    [ "name", "d9/de5/a09113.html#ab0719bb9805048b58a3e4c75e09d1ee7", null ],
+    [ "roles", "d9/de5/a09113.html#a2109aae0b3ebf74b065b97cc929c2954", null ]
 ];

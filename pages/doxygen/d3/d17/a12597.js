@@ -1,11 +1,12 @@
 var a12597 =
 [
-    [ "npc_valkyr_battle_maidenAI", "d3/d17/a12597.html#a859b63621c500c7a36150fadbb460b2b", null ],
-    [ "Reset", "d3/d17/a12597.html#a3ca06a5822f1b5ae625b1dcc71ec0c30", null ],
-    [ "UpdateAI", "d3/d17/a12597.html#a33251b8d8abb9b46a5af4cb4e92472b8", null ],
-    [ "FlyBackTimer", "d3/d17/a12597.html#a625eb33fb32f935c5109a8d3d70c5ae7", null ],
-    [ "phase", "d3/d17/a12597.html#abd5d71272aa575be8583254217194e49", null ],
-    [ "x", "d3/d17/a12597.html#a2dbae2865b6c6db4e82b7d1dc8a67739", null ],
-    [ "y", "d3/d17/a12597.html#acccea63fedf38de14f7818016830a0a9", null ],
-    [ "z", "d3/d17/a12597.html#adde328d26ad752a9e5f2ab32eab2a4e0", null ]
+    [ "npc_scarlet_minerAI", "d3/d17/a12597.html#a7f5ca173103eb4498ce41912bda5da66", null ],
+    [ "InitCartQuest", "d3/d17/a12597.html#a5d3ece8f2f02a2bae4550a41f55348b0", null ],
+    [ "InitWaypoint", "d3/d17/a12597.html#a7fe048368b6e0a43b5be501a24773b8c", null ],
+    [ "Reset", "d3/d17/a12597.html#a2a8660173dc32c38de917049eb33fff8", null ],
+    [ "UpdateAI", "d3/d17/a12597.html#a48d2c92a4d45d5e59252f9455b82cbbd", null ],
+    [ "WaypointReached", "d3/d17/a12597.html#a31f4363e269b51d3a002a132b5516dd0", null ],
+    [ "carGUID", "d3/d17/a12597.html#a963f9c0ca58ce160b43f36f5a9f7dee7", null ],
+    [ "IntroPhase", "d3/d17/a12597.html#a094c2ee20d13c88805c3de7f9f94b86e", null ],
+    [ "IntroTimer", "d3/d17/a12597.html#adae2103753dd62699359ff01ac3ba865", null ]
 ];

@@ -1,6 +1,7 @@
 var a25105 =
 [
-    [ "spell_serpentshrine_cavern_coilfang_water_AuraScript", "d3/ddc/a25109.html", "d3/ddc/a25109" ],
-    [ "spell_serpentshrine_cavern_coilfang_water", "d8/d97/a25105.html#aff1e520e8c7f3fc97c137c6feb0d83dc", null ],
-    [ "GetAuraScript", "d8/d97/a25105.html#ac6cb64edfad226f9ff7fe3ff4706ac8b", null ]
+    [ "HandleScript", "d8/d97/a25105.html#a8933535f9507b90b54032c17985cc3c6", null ],
+    [ "PrepareSpellScript", "d8/d97/a25105.html#acadb563eaeffac47b3f883f9d8c37994", null ],
+    [ "Register", "d8/d97/a25105.html#a797ae84dcb0fc13b0799934bde71809c", null ],
+    [ "Validate", "d8/d97/a25105.html#afba2983f5be230dd3b77b3b49fee8a38", null ]
 ];

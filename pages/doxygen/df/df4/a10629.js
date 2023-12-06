@@ -1,5 +1,6 @@
 var a10629 =
 [
-    [ "WorldObjectSpellTrajTargetCheck", "df/df4/a10629.html#a0c08b6b4c7878678eb419a556f718be0", null ],
-    [ "operator()", "df/df4/a10629.html#aa1f7772cdb19914cc365a325f801b5d5", null ]
+    [ "WorldSession", "df/df4/a10629.html#a65b5c30bf4f5f118a199e378d903aaf6", null ],
+    [ "Guid", "df/df4/a10629.html#a46a89b6904e59f39f4e1460a9bb45765", null ],
+    [ "Name", "df/df4/a10629.html#a4e747a555bde74f97a5fc78287e5e29d", null ]
 ];

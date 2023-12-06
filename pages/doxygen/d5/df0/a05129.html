@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::ObjectLevelLockable&lt; T, MUTEX &gt; Class Template Reference</title>
+<title>AzerothCore: ContainerUnorderedMap&lt; OBJECT, KEY_TYPE &gt; Struct Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,183 +106,37 @@ $(document).ready(function(){initNavTree('d5/df0/a05129.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="#friends">Friends</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../dc/de6/a05126.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::ObjectLevelLockable&lt; T, MUTEX &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">ContainerUnorderedMap&lt; OBJECT, KEY_TYPE &gt; Struct Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">ThreadingModel.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">TypeContainer.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d43/a05133.html">Lock</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a56f2f2722e7f56857ef1d6e7ae52891d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df0/a05129.html#a56f2f2722e7f56857ef1d6e7ae52891d">ObjectLevelLockable</a> ()</td></tr>
-<tr class="separator:a56f2f2722e7f56857ef1d6e7ae52891d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a133cb19ac25d346ba24b8405595dd174"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df0/a05129.html#a133cb19ac25d346ba24b8405595dd174">ObjectLevelLockable</a> (const <a class="el" href="../../d5/df0/a05129.html">ObjectLevelLockable</a>&lt; T, MUTEX &gt; &amp;)</td></tr>
-<tr class="separator:a133cb19ac25d346ba24b8405595dd174"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ebb63f3adccf1bf121f569f1d527e17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/df0/a05129.html">ObjectLevelLockable</a>&lt; T, MUTEX &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df0/a05129.html#a8ebb63f3adccf1bf121f569f1d527e17">operator=</a> (const <a class="el" href="../../d5/df0/a05129.html">ObjectLevelLockable</a>&lt; T, MUTEX &gt; &amp;)</td></tr>
-<tr class="separator:a8ebb63f3adccf1bf121f569f1d527e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:ae373bee24a50a7eda232b51769c042aa"><td class="memItemLeft" align="right" valign="top">MUTEX&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df0/a05129.html#ae373bee24a50a7eda232b51769c042aa">i_mtx</a></td></tr>
-<tr class="separator:ae373bee24a50a7eda232b51769c042aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:a5bf7608e05250fb524a1229bcf83ece3"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df0/a05129.html#a5bf7608e05250fb524a1229bcf83ece3">Lock</a></td></tr>
-<tr class="separator:a5bf7608e05250fb524a1229bcf83ece3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ab18c6fa467deee7af0db888ab94d0ba7"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; KEY_TYPE, OBJECT * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df0/a05129.html#ab18c6fa467deee7af0db888ab94d0ba7">_element</a></td></tr>
+<tr class="separator:ab18c6fa467deee7af0db888ab94d0ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;class T, class MUTEX&gt;<br />
-class Acore::ObjectLevelLockable&lt; T, MUTEX &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a56f2f2722e7f56857ef1d6e7ae52891d" name="a56f2f2722e7f56857ef1d6e7ae52891d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56f2f2722e7f56857ef1d6e7ae52891d">&#9670;&#160;</a></span>ObjectLevelLockable() <span class="overload">[1/2]</span></h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class OBJECT, class KEY_TYPE&gt;<br />
+struct ContainerUnorderedMap&lt; OBJECT, KEY_TYPE &gt;</div></div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab18c6fa467deee7af0db888ab94d0ba7" name="ab18c6fa467deee7af0db888ab94d0ba7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab18c6fa467deee7af0db888ab94d0ba7">&#9670;&#160;</a></span>_element</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T , class MUTEX &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
+template&lt;class OBJECT , class KEY_TYPE &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/df0/a05129.html">Acore::ObjectLevelLockable</a>&lt; T, MUTEX &gt;::ObjectLevelLockable </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">std::unordered_map&lt;KEY_TYPE, OBJECT*&gt; <a class="el" href="../../d5/df0/a05129.html">ContainerUnorderedMap</a>&lt; OBJECT, KEY_TYPE &gt;::_element</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   75</span>            : <a class="code hl_variable" href="../../d5/df0/a05129.html#ae373bee24a50a7eda232b51769c042aa">i_mtx</a>()</div>
-<div class="line"><span class="lineno">   76</span>        {</div>
-<div class="line"><span class="lineno">   77</span>        }</div>
-<div class="ttc" id="aa05129_html_ae373bee24a50a7eda232b51769c042aa"><div class="ttname"><a href="../../d5/df0/a05129.html#ae373bee24a50a7eda232b51769c042aa">Acore::ObjectLevelLockable::i_mtx</a></div><div class="ttdeci">MUTEX i_mtx</div><div class="ttdef"><b>Definition:</b> ThreadingModel.h:98</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a133cb19ac25d346ba24b8405595dd174" name="a133cb19ac25d346ba24b8405595dd174"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a133cb19ac25d346ba24b8405595dd174">&#9670;&#160;</a></span>ObjectLevelLockable() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T , class MUTEX &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d5/df0/a05129.html">Acore::ObjectLevelLockable</a>&lt; T, MUTEX &gt;::ObjectLevelLockable </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d5/df0/a05129.html">ObjectLevelLockable</a>&lt; T, MUTEX &gt; &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8ebb63f3adccf1bf121f569f1d527e17" name="a8ebb63f3adccf1bf121f569f1d527e17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ebb63f3adccf1bf121f569f1d527e17">&#9670;&#160;</a></span>operator=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T , class MUTEX &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d5/df0/a05129.html">ObjectLevelLockable</a>&lt; T, MUTEX &gt; &amp; <a class="el" href="../../d5/df0/a05129.html">Acore::ObjectLevelLockable</a>&lt; T, MUTEX &gt;::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d5/df0/a05129.html">ObjectLevelLockable</a>&lt; T, MUTEX &gt; &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a5bf7608e05250fb524a1229bcf83ece3" name="a5bf7608e05250fb524a1229bcf83ece3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bf7608e05250fb524a1229bcf83ece3">&#9670;&#160;</a></span>Lock</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T , class MUTEX &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="../../dd/d43/a05133.html">Lock</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae373bee24a50a7eda232b51769c042aa" name="ae373bee24a50a7eda232b51769c042aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae373bee24a50a7eda232b51769c042aa">&#9670;&#160;</a></span>i_mtx</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T , class MUTEX &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MUTEX <a class="el" href="../../d5/df0/a05129.html">Acore::ObjectLevelLockable</a>&lt; T, MUTEX &gt;::i_mtx</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p class="reference">Referenced by <a class="el" href="../../#l00073">Acore::Find()</a>, <a class="el" href="../../#l00037">Acore::Insert()</a>, <a class="el" href="../../#l00107">Acore::Remove()</a>, <a class="el" href="../../#l00134">Acore::Size()</a>, and <a class="el" href="../../#l00065">VisitorHelper()</a>.</p>
 
 </div>
 </div>
@@ -291,8 +145,8 @@ template&lt;class T , class MUTEX &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dd/d6e/a04485.html">Acore</a></li><li class="navelem"><a class="el" href="../../d5/df0/a05129.html">ObjectLevelLockable</a></li>
-    <li class="footer">Generated on Sun Aug 20 2023 00:21:19 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../d5/df0/a05129.html">ContainerUnorderedMap</a></li>
+    <li class="footer">Generated on Wed Dec 6 2023 22:12:44 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

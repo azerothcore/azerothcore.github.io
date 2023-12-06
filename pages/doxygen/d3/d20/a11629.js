@@ -1,5 +1,6 @@
 var a11629 =
 [
-    [ "at_dragonspire_hall", "d3/d20/a11629.html#a6adb22f328a7324b2ecf70204ab26a6d", null ],
-    [ "OnTrigger", "d3/d20/a11629.html#a0433930ec050a9dbeb60e1b1122772e3", null ]
+    [ "boss_halyconAI", "d7/d9e/a11633.html", "d7/d9e/a11633" ],
+    [ "boss_halycon", "d3/d20/a11629.html#aa149c5f8b34b9c00102f9a0758dcbd9a", null ],
+    [ "GetAI", "d3/d20/a11629.html#a861f1b0213ad9bcf572c9d59eabba699", null ]
 ];

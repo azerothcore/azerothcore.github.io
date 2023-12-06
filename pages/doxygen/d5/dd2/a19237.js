@@ -1,6 +1,6 @@
 var a19237 =
 [
-    [ "npc_lk_wicked_spiritAI", "d8/da0/a19241.html", "d8/da0/a19241" ],
-    [ "npc_lk_wicked_spirit", "d5/dd2/a19237.html#adb5f0d5db260b3e5b4df3725c0b62827", null ],
-    [ "GetAI", "d5/dd2/a19237.html#ad75b36f2f7242dea685cd67dc72d0d30", null ]
+    [ "OnPeriodic", "d5/dd2/a19237.html#a5520cfa7a11c3bbf2fd819a320298531", null ],
+    [ "PrepareAuraScript", "d5/dd2/a19237.html#acb3b20a8bf5029f4bb2a9a6030545c02", null ],
+    [ "Register", "d5/dd2/a19237.html#afa06966753ef34fa1e2a3d8299d24a67", null ]
 ];

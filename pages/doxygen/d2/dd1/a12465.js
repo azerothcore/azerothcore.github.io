@@ -1,8 +1,6 @@
 var a12465 =
 [
-    [ "npc_dkc1_gothikAI", "d2/dd1/a12465.html#a35e65bd943f86ba3a1d6841569289df6", null ],
-    [ "DoAction", "d2/dd1/a12465.html#a3193c562973bbf995ab5e0173a93d01f", null ],
-    [ "MoveInLineOfSight", "d2/dd1/a12465.html#ac2ee224af001a78aa00013f6c8c9ad3d", null ],
-    [ "UpdateAI", "d2/dd1/a12465.html#a346d32c9831babe6fb5f675b70b7a897", null ],
-    [ "spoken", "d2/dd1/a12465.html#ac6f32e953a66f9e96ddc99b663014b0c", null ]
+    [ "boss_yazzai", "d2/dd1/a12465.html#a6c92ffeff3e56f98cb1bd08f1835fe10", null ],
+    [ "JustEngagedWith", "d2/dd1/a12465.html#ab504de0e51a3715485eb65e006352a6f", null ],
+    [ "UpdateAI", "d2/dd1/a12465.html#a44e33c5012310bb4edb49ca6c0726bc0", null ]
 ];

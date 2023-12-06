@@ -1,6 +1,6 @@
 var a19709 =
 [
-    [ "npc_icc_skybreaker_luminaryAI", "d1/dc9/a19713.html", "d1/dc9/a19713" ],
-    [ "npc_icc_skybreaker_luminary", "dd/d5e/a19709.html#aff97d0425cf86a8b411ef3e2bd0cc054", null ],
-    [ "GetAI", "dd/d5e/a19709.html#ad1378aaa7438758f8a796d8e74ae0ce8", null ]
+    [ "HandleDummyLaunch", "dd/d5e/a19709.html#a1d52e1eb16e3df39a675bdd2ee64ce04", null ],
+    [ "PrepareSpellScript", "dd/d5e/a19709.html#aa37e093b8904a4a0bb3ea3511cba0b47", null ],
+    [ "Register", "dd/d5e/a19709.html#aa2ed9f01095e98f593caf410df5c3873", null ]
 ];

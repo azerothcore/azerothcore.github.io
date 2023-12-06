@@ -1,6 +1,6 @@
 var a18209 =
 [
-    [ "DamageGunship", "db/d38/a18209.html#a9db5651f7a17e92a873c4885c91c7912", null ],
-    [ "PrepareSpellScript", "db/d38/a18209.html#a381219ba066f0103dd1d8923e12a18e9", null ],
-    [ "Register", "db/d38/a18209.html#abdd321aa50f558b6a2a3edc08f01ac3f", null ]
+    [ "BurningPitchFilterCheck", "db/d38/a18209.html#a11a4816f3d29cb1a6c4845cdaaeaa3cf", null ],
+    [ "operator()", "db/d38/a18209.html#a24be987c8471d8a7096025debf6e60b1", null ],
+    [ "_entry", "db/d38/a18209.html#a7bd20aed2db0e24ad34cbcc94d9a89d6", null ]
 ];

@@ -1,5 +1,5 @@
 var a21345 =
 [
-    [ "go_ulduar_pure_saronite_deposit", "d6/d28/a21345.html#a39da51a78b9f27392ed7494e18e89b93", null ],
-    [ "OnGossipHello", "d6/d28/a21345.html#ab69c5b514e0b79ff7155e0080841d4a2", null ]
+    [ "PrepareAuraScript", "d6/d28/a21345.html#aabea53e19f63f80d6373a6844a252b7e", null ],
+    [ "Register", "d6/d28/a21345.html#aafb0534b9914b3f51fa2f52bd852552c", null ]
 ];

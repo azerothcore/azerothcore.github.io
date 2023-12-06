@@ -1,6 +1,6 @@
 var a20033 =
 [
-    [ "spell_kelthuzad_frost_blast_SpellScript", "de/de5/a20037.html", "de/de5/a20037" ],
-    [ "spell_kelthuzad_frost_blast", "d6/d14/a20033.html#aa87916774ba22d2c350fbc3b18d0ac9e", null ],
-    [ "GetSpellScript", "d6/d14/a20033.html#a14a9ccdefc65e765d5b4a022179bf9c8", null ]
+    [ "FilterTargets", "d6/d14/a20033.html#acf501f9de6e9669b75cca49d1672b701", null ],
+    [ "PrepareSpellScript", "d6/d14/a20033.html#a41a505a70b7f5cb1ffe0f2ee33bc4d2d", null ],
+    [ "Register", "d6/d14/a20033.html#ae0b1fa63655776abd7346948037d65b7", null ]
 ];

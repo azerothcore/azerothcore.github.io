@@ -1,17 +1,13 @@
 var a19481 =
 [
-    [ "npc_argent_captainAI", "d9/d69/a19481.html#a4e9d65fa7c870c98d79ff30ae262385d", null ],
-    [ "CanAIAttack", "d9/d69/a19481.html#a542075fcf2d487dedc6f11672e3507ba", null ],
-    [ "DoAction", "d9/d69/a19481.html#a77f0b2d41d631f3ff7a3ea8d13716de1", null ],
-    [ "EnterEvadeMode", "d9/d69/a19481.html#afaebff86ad9be5835c2e289625c07d16", null ],
-    [ "JustDied", "d9/d69/a19481.html#a7f132fa843ba292cc89a64c77ce48bc4", null ],
-    [ "JustEngagedWith", "d9/d69/a19481.html#a43818e75274cad597fd883f75119d63c", null ],
-    [ "KilledUnit", "d9/d69/a19481.html#abc2dbc233082f9d7626759fbcccb34a2", null ],
-    [ "Reset", "d9/d69/a19481.html#a0709350a6841b6008935c050a1db7784", null ],
-    [ "SpellHit", "d9/d69/a19481.html#a8aee635d2739564281b5af04955e4d4a", null ],
-    [ "Events", "d9/d69/a19481.html#a1cffce3d371bef959d76270608247def", null ],
-    [ "FollowAngle", "d9/d69/a19481.html#a059c34261439fc80b0bff9d62b537489", null ],
-    [ "FollowDist", "d9/d69/a19481.html#a4fde069032f7c6578f7f518b45f141d2", null ],
-    [ "instance", "d9/d69/a19481.html#a131f11a8a67e3eb60759c699fc2cec1b", null ],
-    [ "IsUndead", "d9/d69/a19481.html#a9eaf5d2c9e52650c28b8f7feef0e681c", null ]
+    [ "npc_highlord_tirion_fordringAI", "d9/d69/a19481.html#a8852f9196a6609f317b6113ac2eee9ee", null ],
+    [ "Reset", "d9/d69/a19481.html#a80051b1b2a663997304b1754a3f9ff25", null ],
+    [ "SetData", "d9/d69/a19481.html#a5642aab7afc50a7494c43ae7a130d571", null ],
+    [ "UpdateAI", "d9/d69/a19481.html#ac3c8dc2e5bf6e0c3f380f395a785ad49", null ],
+    [ "_bolvarFordragon", "d9/d69/a19481.html#a8e8ae990a6e70a70ce6de3a13300261c", null ],
+    [ "_damnedKills", "d9/d69/a19481.html#a56e035884d2ab94629c133efc1fc8feb", null ],
+    [ "_events", "d9/d69/a19481.html#a8d8d6f1b8dc65b28a8117426e3767762", null ],
+    [ "_factionNPC", "d9/d69/a19481.html#acf9a436edcbfe3fcf47f56c5cf90cfb2", null ],
+    [ "_instance", "d9/d69/a19481.html#acd16d6200b08df23576aa9ccbb060d31", null ],
+    [ "_theLichKing", "d9/d69/a19481.html#afbe85d7002e34cfcb9414f2beda4e0a2", null ]
 ];

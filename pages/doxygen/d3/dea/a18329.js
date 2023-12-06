@@ -1,6 +1,5 @@
 var a18329 =
 [
-    [ "spell_marrowgar_bone_spike_graveyard_SpellScript", "d3/d5d/a18333.html", "d3/d5d/a18333" ],
-    [ "spell_marrowgar_bone_spike_graveyard", "d3/dea/a18329.html#a864ea8ffea57aefbd4d92e0a8c960323", null ],
-    [ "GetSpellScript", "d3/dea/a18329.html#afa11cb9ccede138e06ea4e34d66cdbfa", null ]
+    [ "at_lady_deathwhisper_entrance", "d3/dea/a18329.html#a3c16844f4ff97fd0699edb1d1aca2f60", null ],
+    [ "OnTrigger", "d3/dea/a18329.html#a769c838c94a88af5492057909d88f3de", null ]
 ];

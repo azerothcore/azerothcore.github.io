@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/game/AI/GameObjectAIFactory.h File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/game/AI/ScriptedAI/ScriptedEscortAI.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,78 +106,53 @@ $(document).ready(function(){initNavTree('d4/d45/a00791.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
-  <div class="headertitle"><div class="title">GameObjectAIFactory.h File Reference</div></div>
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">ScriptedEscortAI.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ObjectRegistry.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">FactoryHolder.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptedEscortAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da8/a05901.html">SelectableGameObjectAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/a05905.html">GameObjectAIFactory&lt; REAL_GO_AI &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ac9d2663769f7235631c142a4346922a9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/a00791.html#ac9d2663769f7235631c142a4346922a9">sGameObjectAIRegistry</a>&#160;&#160;&#160;GameObjectAIRegistry::instance()</td></tr>
-<tr class="separator:ac9d2663769f7235631c142a4346922a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:abf0182bf1e43c6ea243acb940a03e6fa"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../dd/d0d/a04929.html">FactoryHolder</a>&lt; <a class="el" href="../../d5/dc0/a05801.html">GameObjectAI</a>, <a class="el" href="../../de/d5b/a07725.html">GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/a00791.html#abf0182bf1e43c6ea243acb940a03e6fa">GameObjectAICreator</a></td></tr>
-<tr class="separator:abf0182bf1e43c6ea243acb940a03e6fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9482a5649b9d911e3d058c099101f929"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../dd/d0d/a04929.html#a5384598eca62a35bc617a4c395353ecd">GameObjectAICreator::FactoryHolderRegistry</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/a00791.html#a9482a5649b9d911e3d058c099101f929">GameObjectAIRegistry</a></td></tr>
-<tr class="separator:a9482a5649b9d911e3d058c099101f929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a2604bd06487e34b78d3e50cd892f3c4d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d45/a00791.html#a2604bd06487e34b78d3e50cd892f3c4d">ePoints</a> { <br />
+&#160;&#160;<a class="el" href="../../d4/d45/a00791.html#a2604bd06487e34b78d3e50cd892f3c4da7d10089a0c5a8c42786b90cd3ba643cb">POINT_LAST_POINT</a> = 0xFFFFFF
+, <br />
+&#160;&#160;<a class="el" href="../../d4/d45/a00791.html#a2604bd06487e34b78d3e50cd892f3c4da032be97ee26935943c3313fb24491162">POINT_HOME</a> = 0xFFFFFE
+, <br />
+&#160;&#160;<a class="el" href="../../da/db8/a00797.html#a2604bd06487e34b78d3e50cd892f3c4da91adf90069f0b0a515897fbdc91e20b4">POINT_COMBAT_START</a> = 0xFFFFFF
+<br />
+ }</td></tr>
+<tr class="separator:a2604bd06487e34b78d3e50cd892f3c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ac9d2663769f7235631c142a4346922a9" name="ac9d2663769f7235631c142a4346922a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9d2663769f7235631c142a4346922a9">&#9670;&#160;</a></span>sGameObjectAIRegistry</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a2604bd06487e34b78d3e50cd892f3c4d" name="a2604bd06487e34b78d3e50cd892f3c4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2604bd06487e34b78d3e50cd892f3c4d">&#9670;&#160;</a></span>ePoints</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define sGameObjectAIRegistry&#160;&#160;&#160;GameObjectAIRegistry::instance()</td>
+          <td class="memname">enum <a class="el" href="../../d4/d45/a00791.html#a2604bd06487e34b78d3e50cd892f3c4d">ePoints</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="abf0182bf1e43c6ea243acb940a03e6fa" name="abf0182bf1e43c6ea243acb940a03e6fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf0182bf1e43c6ea243acb940a03e6fa">&#9670;&#160;</a></span>GameObjectAICreator</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../dd/d0d/a04929.html">FactoryHolder</a>&lt;<a class="el" href="../../d5/dc0/a05801.html">GameObjectAI</a>, <a class="el" href="../../de/d5b/a07725.html">GameObject</a>&gt; <a class="el" href="../../d4/d45/a00791.html#abf0182bf1e43c6ea243acb940a03e6fa">GameObjectAICreator</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9482a5649b9d911e3d058c099101f929" name="a9482a5649b9d911e3d058c099101f929"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9482a5649b9d911e3d058c099101f929">&#9670;&#160;</a></span>GameObjectAIRegistry</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../dd/d0d/a04929.html#a5384598eca62a35bc617a4c395353ecd">GameObjectAICreator::FactoryHolderRegistry</a> <a class="el" href="../../d4/d45/a00791.html#a9482a5649b9d911e3d058c099101f929">GameObjectAIRegistry</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2604bd06487e34b78d3e50cd892f3c4da7d10089a0c5a8c42786b90cd3ba643cb" name="a2604bd06487e34b78d3e50cd892f3c4da7d10089a0c5a8c42786b90cd3ba643cb"></a>POINT_LAST_POINT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2604bd06487e34b78d3e50cd892f3c4da032be97ee26935943c3313fb24491162" name="a2604bd06487e34b78d3e50cd892f3c4da032be97ee26935943c3313fb24491162"></a>POINT_HOME&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2604bd06487e34b78d3e50cd892f3c4da91adf90069f0b0a515897fbdc91e20b4" name="a2604bd06487e34b78d3e50cd892f3c4da91adf90069f0b0a515897fbdc91e20b4"></a>POINT_COMBAT_START&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d4/d45/a00791.html#a2604bd06487e34b78d3e50cd892f3c4da7d10089a0c5a8c42786b90cd3ba643cb">POINT_LAST_POINT</a>    = 0xFFFFFF,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d4/d45/a00791.html#a2604bd06487e34b78d3e50cd892f3c4da032be97ee26935943c3313fb24491162">POINT_HOME</a>          = 0xFFFFFE</div>
+<div class="line"><span class="lineno">   34</span>};</div>
+<div class="ttc" id="aa00791_html_a2604bd06487e34b78d3e50cd892f3c4da032be97ee26935943c3313fb24491162"><div class="ttname"><a href="../../d4/d45/a00791.html#a2604bd06487e34b78d3e50cd892f3c4da032be97ee26935943c3313fb24491162">POINT_HOME</a></div><div class="ttdeci">@ POINT_HOME</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:33</div></div>
+<div class="ttc" id="aa00791_html_a2604bd06487e34b78d3e50cd892f3c4da7d10089a0c5a8c42786b90cd3ba643cb"><div class="ttname"><a href="../../d4/d45/a00791.html#a2604bd06487e34b78d3e50cd892f3c4da7d10089a0c5a8c42786b90cd3ba643cb">POINT_LAST_POINT</a></div><div class="ttdeci">@ POINT_LAST_POINT</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:32</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -185,8 +160,8 @@ Typedefs</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5e5741f7891ede41bef7ecc492194021.html">AI</a></li><li class="navelem"><a class="el" href="../../d4/d45/a00791.html">GameObjectAIFactory.h</a></li>
-    <li class="footer">Generated on Sun Aug 20 2023 00:18:55 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5e5741f7891ede41bef7ecc492194021.html">AI</a></li><li class="navelem"><a class="el" href="../../dir_1f3214457037742cde290c7511bc5bd6.html">ScriptedAI</a></li><li class="navelem"><a class="el" href="../../d4/d45/a00791.html">ScriptedEscortAI.cpp</a></li>
+    <li class="footer">Generated on Wed Dec 6 2023 22:12:01 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

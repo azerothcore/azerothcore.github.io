@@ -1,7 +1,6 @@
 var a26497 =
 [
-    [ "CalcDamage", "de/de3/a26497.html#a5e06d1aa2864c296b2680a83a9f2187f", null ],
-    [ "PrepareSpellScript", "de/de3/a26497.html#a80a748b6a18d26004b04a4486df1ebe3", null ],
-    [ "Register", "de/de3/a26497.html#a857a010e6426e931ca872f66803b99b9", null ],
-    [ "Validate", "de/de3/a26497.html#ab64625ce305efb9dc92780c945b4fd62", null ]
+    [ "CheckCast", "de/de3/a26497.html#a583e19667a83ada4cd793fbf391f9e93", null ],
+    [ "PrepareSpellScript", "de/de3/a26497.html#ac6adda0dbe544cf2457060647c01de0f", null ],
+    [ "Register", "de/de3/a26497.html#a50d1284f1113bfdd0b39690efabe6b9b", null ]
 ];

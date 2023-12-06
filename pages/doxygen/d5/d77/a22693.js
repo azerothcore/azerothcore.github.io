@@ -1,6 +1,6 @@
 var a22693 =
 [
-    [ "npc_frozen_orbAI", "de/d36/a22697.html", "de/d36/a22697" ],
-    [ "npc_frozen_orb", "d5/d77/a22693.html#ac14966722e39b2b6b3a907756701ed98", null ],
-    [ "GetAI", "d5/d77/a22693.html#a2f9e1a2cb14ee9e5f24e02aa97697116", null ]
+    [ "spell_voa_flaming_cinder_SpellScript", "de/d36/a22697.html", "de/d36/a22697" ],
+    [ "spell_voa_flaming_cinder", "d5/d77/a22693.html#a06378a1d7672c4b0f38b51b6a484e725", null ],
+    [ "GetSpellScript", "d5/d77/a22693.html#a480861ce910dd49a48fd7f5359693605", null ]
 ];

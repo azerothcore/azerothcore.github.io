@@ -1,9 +1,7 @@
 var a28549 =
 [
-    [ "CheckCast", "d2/dd6/a28549.html#a441927e0d8d7304030440c19458eb34d", null ],
-    [ "HandleScriptEffect", "d2/dd6/a28549.html#a10e9691aa15869c82fba79072a314d7e", null ],
-    [ "PrepareSpellScript", "d2/dd6/a28549.html#a90b8ae945aeb85ad6e8a120501288979", null ],
-    [ "Register", "d2/dd6/a28549.html#aac95bd6f7409e1ae9d3f9cf0c7212990", null ],
-    [ "Validate", "d2/dd6/a28549.html#a00c67b65bcfdeaf56295da6a64689d58", null ],
-    [ "iTypes", "d2/dd6/a28549.html#ae852b9df34612c074eab23b025c86870", null ]
+    [ "HandleTeleport", "d2/dd6/a28549.html#a7ba7b82988dab5fd8e691b5b87c3d959", null ],
+    [ "PrepareAuraScript", "d2/dd6/a28549.html#a2307b7eccd4dd08d7e97ece704ddc4fb", null ],
+    [ "Register", "d2/dd6/a28549.html#a82432a4448d8c23ea2a39b4b26eb1b58", null ],
+    [ "Validate", "d2/dd6/a28549.html#adabf22bd591a10662ffbf0354a18a936", null ]
 ];

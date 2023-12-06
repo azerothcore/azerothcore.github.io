@@ -1,6 +1,6 @@
 var a14913 =
 [
-    [ "npc_idol_room_spawnerAI", "d6/dc5/a14917.html", "d6/dc5/a14917" ],
-    [ "npc_idol_room_spawner", "d3/dfe/a14913.html#ac51fed89c27ebf6ae3cf65ca8909eab1", null ],
-    [ "GetAI", "d3/dfe/a14913.html#a3017caa645e98a7647ec42a43c025624", null ]
+    [ "instance_dire_maul_InstanceMapScript", "d6/dc5/a14917.html", "d6/dc5/a14917" ],
+    [ "instance_dire_maul", "d3/dfe/a14913.html#a54ac2c7095a99481c7efbe4237533fac", null ],
+    [ "GetInstanceScript", "d3/dfe/a14913.html#a7fc2511e0c9475512286006f0bbaed0b", null ]
 ];

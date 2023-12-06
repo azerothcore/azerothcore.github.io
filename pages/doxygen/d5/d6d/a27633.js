@@ -1,7 +1,6 @@
 var a27633 =
 [
-    [ "HandleDummy", "d5/d6d/a27633.html#a630b3359dcecdb65992df67fbc4b197b", null ],
-    [ "PrepareSpellScript", "d5/d6d/a27633.html#a9960211eda513e642a386e0ff3bcd4c5", null ],
-    [ "Register", "d5/d6d/a27633.html#aaa1c9db89ddd7a7590b3b41b377d4cec", null ],
-    [ "Validate", "d5/d6d/a27633.html#a9af89aba8006d93b8c0ae2ce7143255e", null ]
+    [ "HandleDummy", "d5/d6d/a27633.html#af306009f2c418e898478720b9c4ad6ab", null ],
+    [ "PrepareSpellScript", "d5/d6d/a27633.html#a44cb481fe93fd1c691495cc1ead35e5e", null ],
+    [ "Register", "d5/d6d/a27633.html#af51e3b3cbfb469fa6230a36d8d5fcec7", null ]
 ];

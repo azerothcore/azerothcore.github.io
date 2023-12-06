@@ -1,6 +1,6 @@
 var a19681 =
 [
-    [ "HandleDummy", "d8/d26/a19681.html#a980fb0a8677fde5191a3df100a4a882a", null ],
-    [ "PrepareSpellScript", "d8/d26/a19681.html#a9fb7becd69b9f5ceed36c81e84916558", null ],
-    [ "Register", "d8/d26/a19681.html#a6c81b47089d26065bce2abbf5f5f6169", null ]
+    [ "spell_stinky_precious_decimate_SpellScript", "d3/d43/a19685.html", "d3/d43/a19685" ],
+    [ "spell_stinky_precious_decimate", "d8/d26/a19681.html#ae1cb5d26a467a52534ec4e0ae0fbe24d", null ],
+    [ "GetSpellScript", "d8/d26/a19681.html#ac735cb21e65abcb7f8353c0c3448a2f6", null ]
 ];

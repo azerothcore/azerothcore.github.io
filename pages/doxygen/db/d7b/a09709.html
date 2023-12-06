@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: ServerScript Class Reference</title>
+<title>AzerothCore: Movement::HoverMovementTransform Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,63 +107,30 @@ $(document).ready(function(){initNavTree('db/d7b/a09709.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d3/d3d/a09706.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">ServerScript Class Reference</div></div>
+  <div class="headertitle"><div class="title">Movement::HoverMovementTransform Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code></p>
-<div class="dynheader">
-Inheritance diagram for ServerScript:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../db/d7b/a09709.png" usemap="#ServerScript_map" alt=""/>
-  <map id="ServerScript_map" name="ServerScript_map">
-<area href="../../d1/d51/a09697.html" alt="ScriptObject" shape="rect" coords="0,0,84,24"/>
-  </map>
-</div></div>
+<p><code>#include &quot;<a class="el" href="../../">MoveSplineInit.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab51ce520816236687820d1f72bae0ed6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7b/a09709.html#ab51ce520816236687820d1f72bae0ed6">OnNetworkStart</a> ()</td></tr>
-<tr class="separator:ab51ce520816236687820d1f72bae0ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f2e87caed202bbcde98e2cb0c8f19c6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7b/a09709.html#a1f2e87caed202bbcde98e2cb0c8f19c6">OnNetworkStop</a> ()</td></tr>
-<tr class="separator:a1f2e87caed202bbcde98e2cb0c8f19c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a656f1c0dc191b8f91e0705748d286454"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7b/a09709.html#a656f1c0dc191b8f91e0705748d286454">OnSocketOpen</a> (std::shared_ptr&lt; <a class="el" href="../../d3/dd9/a10521.html">WorldSocket</a> &gt;)</td></tr>
-<tr class="separator:a656f1c0dc191b8f91e0705748d286454"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27ecdfc9c6d737d02705adcd13be9d13"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7b/a09709.html#a27ecdfc9c6d737d02705adcd13be9d13">OnSocketClose</a> (std::shared_ptr&lt; <a class="el" href="../../d3/dd9/a10521.html">WorldSocket</a> &gt;)</td></tr>
-<tr class="separator:a27ecdfc9c6d737d02705adcd13be9d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6682dfb556d137feb5fc95a66ccd6917"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7b/a09709.html#a6682dfb556d137feb5fc95a66ccd6917">CanPacketSend</a> (<a class="el" href="../../db/d43/a10505.html">WorldSession</a> *, <a class="el" href="../../de/dd4/a10461.html">WorldPacket</a> &amp;)</td></tr>
-<tr class="memdesc:a6682dfb556d137feb5fc95a66ccd6917"><td class="mdescLeft">&#160;</td><td class="mdescRight">This hook called when a packet is sent to a client. The packet object is a copy of the original packet, so reading and modifying it is safe.  <br /></td></tr>
-<tr class="separator:a6682dfb556d137feb5fc95a66ccd6917"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c817a6f922029c9c58f783c4ebc18ff"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7b/a09709.html#a9c817a6f922029c9c58f783c4ebc18ff">CanPacketReceive</a> (<a class="el" href="../../db/d43/a10505.html">WorldSession</a> *, <a class="el" href="../../de/dd4/a10461.html">WorldPacket</a> &amp;)</td></tr>
-<tr class="memdesc:a9c817a6f922029c9c58f783c4ebc18ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a (valid) packet is received by a client. The packet object is a copy of the original packet, so reading and modifying it is safe. Make sure to check <a class="el" href="../../db/d43/a10505.html" title="Player session in the World.">WorldSession</a> pointer before usage, it might be null in case of auth packets.  <br /></td></tr>
-<tr class="separator:a9c817a6f922029c9c58f783c4ebc18ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a09697"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a09697')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d1/d51/a09697.html">ScriptObject</a></td></tr>
-<tr class="memitem:a37da453729d5c8fbe2d06f905563f47c inherit pub_methods_a09697"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09697.html#a37da453729d5c8fbe2d06f905563f47c">IsDatabaseBound</a> () const</td></tr>
-<tr class="separator:a37da453729d5c8fbe2d06f905563f47c inherit pub_methods_a09697"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f66339b1cdf1fde795c61cd24c8b0a2 inherit pub_methods_a09697"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09697.html#a2f66339b1cdf1fde795c61cd24c8b0a2">isAfterLoadScript</a> () const</td></tr>
-<tr class="separator:a2f66339b1cdf1fde795c61cd24c8b0a2 inherit pub_methods_a09697"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a585e75e34aed7aa32205daad85f8fe08 inherit pub_methods_a09697"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09697.html#a585e75e34aed7aa32205daad85f8fe08">checkValidity</a> ()</td></tr>
-<tr class="separator:a585e75e34aed7aa32205daad85f8fe08 inherit pub_methods_a09697"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79588d839860d2f5caab60c5f1368f10 inherit pub_methods_a09697"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09697.html#a79588d839860d2f5caab60c5f1368f10">GetName</a> () const</td></tr>
-<tr class="separator:a79588d839860d2f5caab60c5f1368f10 inherit pub_methods_a09697"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc47d2d80c4a4a654cb60f9ad15dc63b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7b/a09709.html#afc47d2d80c4a4a654cb60f9ad15dc63b">HoverMovementTransform</a> (float z_offset)</td></tr>
+<tr class="separator:afc47d2d80c4a4a654cb60f9ad15dc63b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b4c22c7ba3332c0829832756b734809"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7b/a09709.html#a7b4c22c7ba3332c0829832756b734809">operator()</a> (Vector3 input)</td></tr>
+<tr class="separator:a7b4c22c7ba3332c0829832756b734809"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a6d5ce71ec2930f585d70ede84a8fdeb4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7b/a09709.html#a6d5ce71ec2930f585d70ede84a8fdeb4">ServerScript</a> (const char *name)</td></tr>
-<tr class="separator:a6d5ce71ec2930f585d70ede84a8fdeb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_a09697"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a09697')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d1/d51/a09697.html">ScriptObject</a></td></tr>
-<tr class="memitem:accc2205dc06b4f5e023bdfc203c529b5 inherit pro_methods_a09697"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09697.html#accc2205dc06b4f5e023bdfc203c529b5">ScriptObject</a> (const char *name)</td></tr>
-<tr class="separator:accc2205dc06b4f5e023bdfc203c529b5 inherit pro_methods_a09697"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_a09697"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a09697.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
-<tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_a09697"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a7fe74e38dbefb11af541a8750465861c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7b/a09709.html#a7fe74e38dbefb11af541a8750465861c">_offset</a></td></tr>
+<tr class="separator:a7fe74e38dbefb11af541a8750465861c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6d5ce71ec2930f585d70ede84a8fdeb4" name="a6d5ce71ec2930f585d70ede84a8fdeb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d5ce71ec2930f585d70ede84a8fdeb4">&#9670;&#160;</a></span>ServerScript()</h2>
+<a id="afc47d2d80c4a4a654cb60f9ad15dc63b" name="afc47d2d80c4a4a654cb60f9ad15dc63b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc47d2d80c4a4a654cb60f9ad15dc63b">&#9670;&#160;</a></span>HoverMovementTransform()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -172,33 +139,27 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ServerScript::ServerScript </td>
+          <td class="memname">Movement::HoverMovementTransform::HoverMovementTransform </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>z_offset</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  324</span>    : <a class="code hl_class" href="../../d1/d51/a09697.html">ScriptObject</a>(name)</div>
-<div class="line"><span class="lineno">  325</span>{</div>
-<div class="line"><span class="lineno">  326</span>    <a class="code hl_function" href="../../d0/de2/a09925.html#aec80d2fe317ee906bafab2efc75e752c">ScriptRegistry&lt;ServerScript&gt;::AddScript</a>(<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">  327</span>}</div>
-<div class="ttc" id="aa09697_html"><div class="ttname"><a href="../../d1/d51/a09697.html">ScriptObject</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:108</div></div>
-<div class="ttc" id="aa09925_html_aec80d2fe317ee906bafab2efc75e752c"><div class="ttname"><a href="../../d0/de2/a09925.html#aec80d2fe317ee906bafab2efc75e752c">ScriptRegistry::AddScript</a></div><div class="ttdeci">static void AddScript(TScript *const script)</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2780</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   57</span>: <a class="code hl_variable" href="../../db/d7b/a09709.html#a7fe74e38dbefb11af541a8750465861c">_offset</a>(z_offset) { }</div>
+<div class="ttc" id="aa09709_html_a7fe74e38dbefb11af541a8750465861c"><div class="ttname"><a href="../../db/d7b/a09709.html#a7fe74e38dbefb11af541a8750465861c">Movement::HoverMovementTransform::_offset</a></div><div class="ttdeci">float _offset</div><div class="ttdef"><b>Definition:</b> MoveSplineInit.h:65</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l02780">ScriptRegistry&lt; TScript &gt;::AddScript()</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9c817a6f922029c9c58f783c4ebc18ff" name="a9c817a6f922029c9c58f783c4ebc18ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c817a6f922029c9c58f783c4ebc18ff">&#9670;&#160;</a></span>CanPacketReceive()</h2>
+<a id="a7b4c22c7ba3332c0829832756b734809" name="a7b4c22c7ba3332c0829832756b734809"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b4c22c7ba3332c0829832756b734809">&#9670;&#160;</a></span>operator()()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -207,47 +168,31 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool ServerScript::CanPacketReceive </td>
+          <td class="memname">Vector3 Movement::HoverMovementTransform::operator() </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d43/a10505.html">WorldSession</a> *&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>input</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../de/dd4/a10461.html">WorldPacket</a> &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Called when a (valid) packet is received by a client. The packet object is a copy of the original packet, so reading and modifying it is safe. Make sure to check <a class="el" href="../../db/d43/a10505.html" title="Player session in the World.">WorldSession</a> pointer before usage, it might be null in case of auth packets. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">session</td><td>Contains information about the <a class="el" href="../../db/d43/a10505.html" title="Player session in the World.">WorldSession</a> </td></tr>
-    <tr><td class="paramname">packet</td><td>Contains information about the <a class="el" href="../../de/dd4/a10461.html">WorldPacket</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True if you want to continue receive the packet, false if you want to disallow receive the packet </dd></dl>
-<div class="fragment"><div class="line"><span class="lineno">  192</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+<div class="fragment"><div class="line"><span class="lineno">   59</span>        {</div>
+<div class="line"><span class="lineno">   60</span>            input.z += <a class="code hl_variable" href="../../db/d7b/a09709.html#a7fe74e38dbefb11af541a8750465861c">_offset</a>;</div>
+<div class="line"><span class="lineno">   61</span>            <span class="keywordflow">return</span> input;</div>
+<div class="line"><span class="lineno">   62</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00057">ScriptMgr::CanPacketReceive()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00065">_offset</a>.</p>
 
 </div>
 </div>
-<a id="a6682dfb556d137feb5fc95a66ccd6917" name="a6682dfb556d137feb5fc95a66ccd6917"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6682dfb556d137feb5fc95a66ccd6917">&#9670;&#160;</a></span>CanPacketSend()</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7fe74e38dbefb11af541a8750465861c" name="a7fe74e38dbefb11af541a8750465861c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fe74e38dbefb11af541a8750465861c">&#9670;&#160;</a></span>_offset</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -256,156 +201,17 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool ServerScript::CanPacketSend </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d43/a10505.html">WorldSession</a> *&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../de/dd4/a10461.html">WorldPacket</a> &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">float Movement::HoverMovementTransform::_offset</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>This hook called when a packet is sent to a client. The packet object is a copy of the original packet, so reading and modifying it is safe. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">session</td><td>Contains information about the <a class="el" href="../../db/d43/a10505.html" title="Player session in the World.">WorldSession</a> </td></tr>
-    <tr><td class="paramname">packet</td><td>Contains information about the <a class="el" href="../../de/dd4/a10461.html">WorldPacket</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True if you want to continue sending the packet, false if you want to disallow sending the packet </dd></dl>
-<div class="fragment"><div class="line"><span class="lineno">  182</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00077">ScriptMgr::CanPacketSend()</a>.</p>
-
-</div>
-</div>
-<a id="ab51ce520816236687820d1f72bae0ed6" name="ab51ce520816236687820d1f72bae0ed6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab51ce520816236687820d1f72bae0ed6">&#9670;&#160;</a></span>OnNetworkStart()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void ServerScript::OnNetworkStart </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  163</span>{ }</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00021">ScriptMgr::OnNetworkStart()</a>.</p>
-
-</div>
-</div>
-<a id="a1f2e87caed202bbcde98e2cb0c8f19c6" name="a1f2e87caed202bbcde98e2cb0c8f19c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f2e87caed202bbcde98e2cb0c8f19c6">&#9670;&#160;</a></span>OnNetworkStop()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void ServerScript::OnNetworkStop </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  166</span>{ }</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00029">ScriptMgr::OnNetworkStop()</a>.</p>
-
-</div>
-</div>
-<a id="a27ecdfc9c6d737d02705adcd13be9d13" name="a27ecdfc9c6d737d02705adcd13be9d13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27ecdfc9c6d737d02705adcd13be9d13">&#9670;&#160;</a></span>OnSocketClose()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void ServerScript::OnSocketClose </td>
-          <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../d3/dd9/a10521.html">WorldSocket</a> &gt;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  173</span>{ }</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00047">ScriptMgr::OnSocketClose()</a>.</p>
-
-</div>
-</div>
-<a id="a656f1c0dc191b8f91e0705748d286454" name="a656f1c0dc191b8f91e0705748d286454"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a656f1c0dc191b8f91e0705748d286454">&#9670;&#160;</a></span>OnSocketOpen()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void ServerScript::OnSocketOpen </td>
-          <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../d3/dd9/a10521.html">WorldSocket</a> &gt;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  169</span>{ }</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00037">ScriptMgr::OnSocketOpen()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00058">operator()()</a>.</p>
 
 </div>
 </div>
@@ -414,8 +220,8 @@ Protected Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../db/d7b/a09709.html">ServerScript</a></li>
-    <li class="footer">Generated on Sun Aug 20 2023 00:20:31 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../df/d72/a04688.html">Movement</a></li><li class="navelem"><a class="el" href="../../db/d7b/a09709.html">HoverMovementTransform</a></li>
+    <li class="footer">Generated on Wed Dec 6 2023 22:14:05 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

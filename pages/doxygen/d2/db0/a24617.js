@@ -1,6 +1,7 @@
 var a24617 =
 [
-    [ "boss_najentusAI", "d9/def/a24621.html", "d9/def/a24621" ],
-    [ "boss_najentus", "d2/db0/a24617.html#aaf598514efe0fcc1954ad87026841bda", null ],
-    [ "GetAI", "d2/db0/a24617.html#aea4ffc2f826ae996afa45b7cc449834a", null ]
+    [ "HandleEffectApply", "d2/db0/a24617.html#aff0dbed165d0e751db725f7eaaf76a11", null ],
+    [ "Load", "d2/db0/a24617.html#a1dfb5b2004041e7165cc9f5deb4b1e82", null ],
+    [ "PrepareAuraScript", "d2/db0/a24617.html#a3dbd01e52ed2a630f0c014f941fc1b5e", null ],
+    [ "Register", "d2/db0/a24617.html#a647f21e79e3fef72cf84439fc84e708f", null ]
 ];

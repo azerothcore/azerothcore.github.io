@@ -1,6 +1,6 @@
 var a18569 =
 [
-    [ "npc_little_oozeAI", "d8/d63/a18573.html", "d8/d63/a18573" ],
-    [ "npc_little_ooze", "da/d36/a18569.html#a9b0849057c1d3dd9f6507b9c80e67a66", null ],
-    [ "GetAI", "da/d36/a18569.html#a3e56c6dbad6239485897655a4bfbbe07", null ]
+    [ "spell_putricide_mutated_transformation_dmg_SpellScript", "d8/d63/a18573.html", "d8/d63/a18573" ],
+    [ "spell_putricide_mutated_transformation_dmg", "da/d36/a18569.html#a4708e2ca05ee63ee4baf848b84c3edc4", null ],
+    [ "GetSpellScript", "da/d36/a18569.html#ab111a751eb3cfd3e28492047f8cf6cb3", null ]
 ];

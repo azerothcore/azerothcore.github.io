@@ -1,10 +1,10 @@
 var a14869 =
 [
-    [ "CurrId", "d9/d4e/a14869.html#a126d1c0e7d475a07acd91de471cb7cab", null ],
-    [ "DestId", "d9/d4e/a14869.html#a7b12c520ee50ab29e5047a1c71b22729", null ],
-    [ "o", "d9/d4e/a14869.html#a94c284d63e66765c4d484c8edea8fdb8", null ],
-    [ "spellId", "d9/d4e/a14869.html#a7240ecd6f50a6db0e2be4eb4e55b3a48", null ],
-    [ "x", "d9/d4e/a14869.html#a41c7bdb057d984f552a41835651d84f5", null ],
-    [ "y", "d9/d4e/a14869.html#abe083129d7a4e514e97eeae7cff40af5", null ],
-    [ "z", "d9/d4e/a14869.html#ac49d886d09e2ebf8ccf8abd59a9649ec", null ]
+    [ "boss_aeonus", "d9/d4e/a14869.html#af823ef2187b852dc72d2f63020e1701b", null ],
+    [ "IsSummonedBy", "d9/d4e/a14869.html#a5f95e19dfec210d4da1f1f48145ff047", null ],
+    [ "JustDied", "d9/d4e/a14869.html#a649275c31e61f542a13fd791ee85277b", null ],
+    [ "JustEngagedWith", "d9/d4e/a14869.html#a5f193144e36a889630d5dbadb4aa665f", null ],
+    [ "JustReachedHome", "d9/d4e/a14869.html#a62df4db3ead6f9be5c3ead974613c8d5", null ],
+    [ "KilledUnit", "d9/d4e/a14869.html#a4aa2f3d82aaaf5cd3a938ad92aad059d", null ],
+    [ "MoveInLineOfSight", "d9/d4e/a14869.html#a3147774fa5bff34d01947fdcf254ba7b", null ]
 ];

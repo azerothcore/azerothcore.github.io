@@ -1,11 +1,8 @@
 var a04708 =
 [
-    [ "material", "d8/d7a/a04708.html#a29addcb613bc63a100633e612d1dc2d2", null ],
-    [ "pos_x", "d8/d7a/a04708.html#a02e9d8789336d77e34bffa19adbab394", null ],
-    [ "pos_y", "d8/d7a/a04708.html#ac3162ce321a1f21e4e6fe35041e49a6a", null ],
-    [ "pos_z", "d8/d7a/a04708.html#a6e2a2d5d9151d5c6d70fd0d47e6c18e3", null ],
-    [ "xtiles", "d8/d7a/a04708.html#a94789843c68d705184e6332ac46bd69d", null ],
-    [ "xverts", "d8/d7a/a04708.html#a0548c3fdb216c115a7d3843e4fbc6de3", null ],
-    [ "ytiles", "d8/d7a/a04708.html#ac50224cdce231460c78c3e0f077b555d", null ],
-    [ "yverts", "d8/d7a/a04708.html#aa9ecb62b53af527b3bd855b8e93ba604", null ]
+    [ "ByteSize", "d9/db1/a10465.html", "d9/db1/a10465" ],
+    [ "Hyperlinks", "d5/de8/a10473.html", "d5/de8/a10473" ],
+    [ "NoHyperlinks", "d7/d4f/a10477.html", "d7/d4f/a10477" ],
+    [ "RawBytes", "de/dd4/a10461.html", "de/dd4/a10461" ],
+    [ "Utf8", "da/dca/a10469.html", "da/dca/a10469" ]
 ];

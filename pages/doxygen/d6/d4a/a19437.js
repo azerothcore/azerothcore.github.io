@@ -1,6 +1,6 @@
 var a19437 =
 [
-    [ "CaptainSurviveTalk", "d6/d4a/a19437.html#a43a1b1da17ed41ae765aabc47c858f80", null ],
-    [ "Execute", "d6/d4a/a19437.html#a871cf08e8c7fced2971cae8abbc20454", null ],
-    [ "_owner", "d6/d4a/a19437.html#ac8de506afb4688560ea637918d07b01e", null ]
+    [ "spell_dreamwalker_summon_suppresser_AuraScript", "d8/d6c/a19441.html", "d8/d6c/a19441" ],
+    [ "spell_dreamwalker_summon_suppresser", "d6/d4a/a19437.html#a3fd10682f9a9c5a180a91e0728bc0db8", null ],
+    [ "GetAuraScript", "d6/d4a/a19437.html#a318fa3be05483c89ffcb0b5624372ff4", null ]
 ];

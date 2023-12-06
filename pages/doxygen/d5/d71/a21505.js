@@ -1,6 +1,7 @@
 var a21505 =
 [
-    [ "spell_hodir_toasty_fire_AuraScript", "d2/d05/a21509.html", "d2/d05/a21509" ],
-    [ "spell_hodir_toasty_fire", "d5/d71/a21505.html#a56cff8f3b2eb0aca665b7d0ad344ba4d", null ],
-    [ "GetAuraScript", "d5/d71/a21505.html#af7f8da6825fad5702b05dff4483ed5b7", null ]
+    [ "HandleAfterEffectApply", "d5/d71/a21505.html#add8b4a77e26980097d82970fc1e6af37", null ],
+    [ "PrepareAuraScript", "d5/d71/a21505.html#a28320bc19a9db3f6aeab5f28145290fb", null ],
+    [ "Register", "d5/d71/a21505.html#ae1ec61eeaa82583d76fae73ea631af33", null ],
+    [ "AuraEffectHandleModes", "d5/d71/a21505.html#a1f1ea305f50cd04c5970fdef68c9a516", null ]
 ];

@@ -1,6 +1,6 @@
 var a18221 =
 [
-    [ "spell_igb_on_gunship_deck_AuraScript", "d6/dca/a18225.html", "d6/dca/a18225" ],
-    [ "spell_igb_on_gunship_deck", "d7/de9/a18221.html#a1bcb12c6f555e0817e01b9ac24a1f1e6", null ],
-    [ "GetAuraScript", "d7/de9/a18221.html#adbff88f427b0caf0ab39241b48503556", null ]
+    [ "spell_igb_burning_pitch_SpellScript", "d6/dca/a18225.html", "d6/dca/a18225" ],
+    [ "spell_igb_burning_pitch", "d7/de9/a18221.html#a73e4a64db38a04b60d818904b3ef6481", null ],
+    [ "GetSpellScript", "d7/de9/a18221.html#a43a5b545b37586586d9a1e3f9914f317", null ]
 ];

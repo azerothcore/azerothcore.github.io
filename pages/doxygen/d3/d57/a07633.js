@@ -1,7 +1,7 @@
 var a07633 =
 [
-    [ "CreatureSpellCooldown", "d3/d57/a07633.html#a6d234a93951992640df5720a2885be3e", null ],
-    [ "CreatureSpellCooldown", "d3/d57/a07633.html#a53364a501b0ce66e05ec0e6638f6cb6e", null ],
-    [ "category", "d3/d57/a07633.html#a27330a80d711087f1894b2ce816c33b8", null ],
-    [ "end", "d3/d57/a07633.html#a9c1c5f2b6e9a6cd015085e79b043e483", null ]
+    [ "LfgReward", "d3/d57/a07633.html#afe2ea037fa24064c2bf04cfc6303d903", null ],
+    [ "firstQuest", "d3/d57/a07633.html#a28162b1e43a5309ab01ca99b45d29799", null ],
+    [ "maxLevel", "d3/d57/a07633.html#aae6e46155dc790ed7c63f5f0b8e08395", null ],
+    [ "otherQuest", "d3/d57/a07633.html#a96de83c64efc3009d7d5cd04a61e71b2", null ]
 ];

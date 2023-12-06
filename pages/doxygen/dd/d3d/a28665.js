@@ -1,8 +1,6 @@
 var a28665 =
 [
-    [ "HandleDummy", "dd/d3d/a28665.html#ad2eec86cff225cc0bd806e31596fb127", null ],
-    [ "PrepareSpellScript", "dd/d3d/a28665.html#a59a04dcfee911c70e13ea8d27b4a49c4", null ],
-    [ "Register", "dd/d3d/a28665.html#a6c72b4c813368774283ae94036a43ee2", null ],
-    [ "SendMiss", "dd/d3d/a28665.html#a7c6d300e60ed492c82d5c017d3e73ed1", null ],
-    [ "Validate", "dd/d3d/a28665.html#a9a5014de08f73ad5dad29354812030ac", null ]
+    [ "FilterTargets", "dd/d3d/a28665.html#af85da0bcf8c311472e6a75667fa125d0", null ],
+    [ "PrepareSpellScript", "dd/d3d/a28665.html#ad7478a1a70ebc52eda1c57dd4f143b67", null ],
+    [ "Register", "dd/d3d/a28665.html#a2fab1592d19331239b1ef63045389886", null ]
 ];

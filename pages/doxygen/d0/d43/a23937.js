@@ -1,6 +1,7 @@
 var a23937 =
 [
-    [ "spell_wg_reduce_damage_by_distance_SpellScript", "de/d43/a23941.html", "de/d43/a23941" ],
-    [ "spell_wg_reduce_damage_by_distance", "d0/d43/a23937.html#ac1334d662c4ec4cbe00469af6e82a94a", null ],
-    [ "GetSpellScript", "d0/d43/a23937.html#acc9570f42f736f17df7c06ad501a378b", null ]
+    [ "HandleScript", "d0/d43/a23937.html#a6c4dc8550ae4fced64b6cfc2926e9f94", null ],
+    [ "PrepareSpellScript", "d0/d43/a23937.html#adb46c37d0589b5e2abf7c4ebd1becc27", null ],
+    [ "Register", "d0/d43/a23937.html#a424c06a1642fd80d12d83d87335b8c4e", null ],
+    [ "Validate", "d0/d43/a23937.html#a4bcb40771fc70764fe0408e22e7d67cc", null ]
 ];

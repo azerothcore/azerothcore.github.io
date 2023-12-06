@@ -1,6 +1,6 @@
 var a27725 =
 [
-    [ "HandleOpenObject", "d4/ddb/a27725.html#ab658c13615fac1861470bb4b853e76a4", null ],
-    [ "PrepareSpellScript", "d4/ddb/a27725.html#a0fd0a3dc06fc2140add9e3d86e544bef", null ],
-    [ "Register", "d4/ddb/a27725.html#a40ff1e10d366ca7183e4e8d027c92d1b", null ]
+    [ "OnRemove", "d4/ddb/a27725.html#ae1f257e43effcb396d57d42db3063afd", null ],
+    [ "PrepareAuraScript", "d4/ddb/a27725.html#a5b13e46dc228ffe594ce2ce06a7d6799", null ],
+    [ "Register", "d4/ddb/a27725.html#a4a94d5c8efdd7f6e0dd655ebeb8c4614", null ]
 ];

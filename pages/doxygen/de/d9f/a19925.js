@@ -1,6 +1,6 @@
 var a19925 =
 [
-    [ "OnApply", "de/d9f/a19925.html#a133ad0ae5bce2340993c2e720e333dcf", null ],
-    [ "PrepareAuraScript", "de/d9f/a19925.html#ae460d0be44ddd8950aa52e89fe94152b", null ],
-    [ "Register", "de/d9f/a19925.html#a9ce4ddb1330cf851addedf25b3ca1431", null ]
+    [ "spell_ioc_launch_SpellScript", "d4/d56/a19929.html", "d4/d56/a19929" ],
+    [ "spell_ioc_launch", "de/d9f/a19925.html#ae0248b515ec7503898068edf7d29ff06", null ],
+    [ "GetSpellScript", "de/d9f/a19925.html#af0aa5982b87998cc1d9d64bc05d81e8d", null ]
 ];

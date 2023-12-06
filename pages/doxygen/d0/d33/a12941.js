@@ -1,6 +1,6 @@
 var a12941 =
 [
-    [ "npc_demonic_vaporAI", "d0/d33/a12941.html#a2ba962b2bd049d563d7788bb4cfa5be3", null ],
-    [ "Reset", "d0/d33/a12941.html#a37841718d3da8dfa245fd9a9a055b2e8", null ],
-    [ "UpdateAI", "d0/d33/a12941.html#ace430e1419edf2542fd0c9d5cfc925f1", null ]
+    [ "spell_brutallus_burn_SpellScript", "d9/d57/a12945.html", "d9/d57/a12945" ],
+    [ "spell_brutallus_burn", "d0/d33/a12941.html#a7b357ba5e7819579fe6d85ea7027ec61", null ],
+    [ "GetSpellScript", "d0/d33/a12941.html#ad1cfb257b32e6f7d8ceb9a9e5f4718c3", null ]
 ];

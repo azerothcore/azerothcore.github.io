@@ -1,6 +1,6 @@
 var a20361 =
 [
-    [ "npc_crystalline_frayerAI", "dc/d83/a20365.html", "dc/d83/a20365" ],
-    [ "npc_crystalline_frayer", "d2/d23/a20361.html#a9124f4ffcbfbb9e073d0943f3398ce5e", null ],
-    [ "GetAI", "d2/d23/a20361.html#a1780bb5b521d6e2617e90cb6cf119060", null ]
+    [ "spell_boss_magus_telestra_gravity_well_SpellScript", "dc/d83/a20365.html", "dc/d83/a20365" ],
+    [ "spell_boss_magus_telestra_gravity_well", "d2/d23/a20361.html#ae656b805e0e659eff88149d4c19ac0d9", null ],
+    [ "GetSpellScript", "d2/d23/a20361.html#aed0d2efbbb6928365c086f9fc8a28c67", null ]
 ];

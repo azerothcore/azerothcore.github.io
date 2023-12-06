@@ -1,9 +1,10 @@
 var a12037 =
 [
-    [ "npc_mc_core_houndAI", "df/d0b/a12037.html#a9b07d662e32a342419a848ecd59d6391", null ],
-    [ "DamageTaken", "df/d0b/a12037.html#aaf2b0ac9b723bb16bfaf8481165e6b4f", null ],
-    [ "Reset", "df/d0b/a12037.html#a9f4b06230ae2e4fc2fe150eb9e9d1f12", null ],
-    [ "UpdateAI", "df/d0b/a12037.html#aaba8ef0b33b9bb9acf74223ef0e9aaad", null ],
-    [ "instance", "df/d0b/a12037.html#ab47451dfeff84c8467be2b76554df897", null ],
-    [ "serratedBiteTimer", "df/d0b/a12037.html#a3a49df32c788497d3e82912d423683b7", null ]
+    [ "npc_core_ragerAI", "df/d0b/a12037.html#a3c5125e0a10043f6181c10ba749fa579", null ],
+    [ "DamageTaken", "df/d0b/a12037.html#a758eb158eb9d232d74514281028efcb3", null ],
+    [ "Reset", "df/d0b/a12037.html#acf83e469d3d8108276227a942fda28b3", null ],
+    [ "UpdateAI", "df/d0b/a12037.html#a2183cf5ab22b737413b86a657fde6d3c", null ],
+    [ "instance", "df/d0b/a12037.html#a7cfddba62f737214b8cfc7fbffa8c2e2", null ],
+    [ "mangleTimer", "df/d0b/a12037.html#a081333b967abb3812b9ddae2f933a324", null ],
+    [ "rangeCheckTimer", "df/d0b/a12037.html#ade427bdd9ec99807b6f190c890136414", null ]
 ];

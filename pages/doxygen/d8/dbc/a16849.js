@@ -1,6 +1,6 @@
 var a16849 =
 [
-    [ "spell_dred_raptor_call_SpellScript", "df/d1e/a16853.html", "df/d1e/a16853" ],
-    [ "spell_dred_raptor_call", "d8/dbc/a16849.html#a5c6c9bba099cb7c9e798026bdbf2a424", null ],
-    [ "GetSpellScript", "d8/dbc/a16849.html#a93ff1c4a954555cc1d08abfe0e3c81df", null ]
+    [ "spell_valkyr_ball_periodic_dummyAuraScript", "df/d1e/a16853.html", "df/d1e/a16853" ],
+    [ "spell_valkyr_ball_periodic_dummy", "d8/dbc/a16849.html#a0a8ea4997a87c486ac68cae0259d5ad5", null ],
+    [ "GetAuraScript", "d8/dbc/a16849.html#abfc4ad26352893ac44d0d8468b3b22f7", null ]
 ];

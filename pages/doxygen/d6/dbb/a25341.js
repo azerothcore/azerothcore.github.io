@@ -1,6 +1,8 @@
 var a25341 =
 [
-    [ "HandleScriptEffect", "d6/dbb/a25341.html#adf350bccc5862252f6928faa4ae3a001", null ],
-    [ "PrepareSpellScript", "d6/dbb/a25341.html#a0d1ff479da3b8f50ed698da9f9029589", null ],
-    [ "Register", "d6/dbb/a25341.html#afaf23967ede6e120caa7758ff2d3c974", null ]
+    [ "npc_warchief_portal", "d6/dbb/a25341.html#a1a52395a5ae66f5cc5f92c6d4ce81893", null ],
+    [ "JustSummoned", "d6/dbb/a25341.html#ad90c834dc059040f3922f58dc3bcf4a2", null ],
+    [ "SetData", "d6/dbb/a25341.html#a538ab8c6e7683aa02e8c75f9dd900be8", null ],
+    [ "UpdateAI", "d6/dbb/a25341.html#a8c400cf1b9f41696807e11f1f135c0ad", null ],
+    [ "_scheduler", "d6/dbb/a25341.html#a76bb6a89f0922ed0bc0289ee4e0f20d4", null ]
 ];

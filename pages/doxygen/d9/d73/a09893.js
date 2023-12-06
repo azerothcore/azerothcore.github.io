@@ -1,6 +1,6 @@
 var a09893 =
 [
-    [ "LootScript", "d9/d73/a09893.html#aff50b92f064c6f658fa059b85bd8d4ea", null ],
-    [ "IsDatabaseBound", "d9/d73/a09893.html#ad60b605eac89be48efd339127e9cb9cd", null ],
-    [ "OnLootMoney", "d9/d73/a09893.html#a56a57baead49f6815a9979b181a55375", null ]
+    [ "BattlegroundMapScript", "d9/d73/a09893.html#a61e1c0f145064cbc6c8708824a359e4c", null ],
+    [ "checkValidity", "d9/d73/a09893.html#a90584770132eb71cffc6e25a674750ad", null ],
+    [ "isAfterLoadScript", "d9/d73/a09893.html#a0148a79556f82c990fe0fc494d03c7ab", null ]
 ];

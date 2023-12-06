@@ -1,7 +1,9 @@
 var a22021 =
 [
-    [ "OnPeriodic", "d4/d04/a22021.html#abcada8e91ea16ca5a6c619e0952d0761", null ],
-    [ "OnRemove", "d4/d04/a22021.html#a0ed6348923f94fe03ccdd7408f11a72f", null ],
-    [ "PrepareAuraScript", "d4/d04/a22021.html#a401fb258247ce4da3b4772d2af628fef", null ],
-    [ "Register", "d4/d04/a22021.html#ac73c96f04c8c11a23dafd293bfa5654d", null ]
+    [ "npc_xt002_pummellerAI", "d4/d04/a22021.html#a2942c05c93036c2e02b9a72c784441b1", null ],
+    [ "Reset", "d4/d04/a22021.html#a6542fb3e585f100f06f6be14a1346306", null ],
+    [ "UpdateAI", "d4/d04/a22021.html#a959990310303ff2102f1c03852b4ab8e", null ],
+    [ "_arcingSmashTimer", "d4/d04/a22021.html#a830fda66756dc3f34a530939116e7556", null ],
+    [ "_trampleTimer", "d4/d04/a22021.html#ae5e450601861f83b20419405bb92ef6d", null ],
+    [ "_uppercutTimer", "d4/d04/a22021.html#a5a1bdb380438070effc091ec37db6aec", null ]
 ];

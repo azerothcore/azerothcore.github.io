@@ -1,5 +1,6 @@
 var a17905 =
 [
-    [ "achievement_ive_gone_and_made_a_mess", "de/d9d/a17905.html#a0e71ea3afae02176f81231e51155c038", null ],
-    [ "OnCheck", "de/d9d/a17905.html#a638cead986783523c7c35ecb9d885b11", null ]
+    [ "spell_deathbringer_blood_link_SpellScript", "d1/d24/a17909.html", "d1/d24/a17909" ],
+    [ "spell_deathbringer_blood_link", "de/d9d/a17905.html#a288e4021c630865c38a1c3f9ff577b7f", null ],
+    [ "GetSpellScript", "de/d9d/a17905.html#a5cd172d455165851fb361f808a77b506", null ]
 ];

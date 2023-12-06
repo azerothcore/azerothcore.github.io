@@ -1,6 +1,6 @@
 var a23405 =
 [
-    [ "npc_lake_frogAI", "df/dff/a23409.html", "df/dff/a23409" ],
-    [ "npc_lake_frog", "dc/d19/a23405.html#ac7c56b2a6443356523b468c05c36bc6c", null ],
-    [ "GetAI", "dc/d19/a23405.html#a9730da684a81fced304f10b2806c10e5", null ]
+    [ "npc_tallhorn_stagAI", "df/dff/a23409.html", "df/dff/a23409" ],
+    [ "npc_tallhorn_stag", "dc/d19/a23405.html#aff7f23376c27312894c9a042f6a0f848", null ],
+    [ "GetAI", "dc/d19/a23405.html#a3d993542271c80982adcee9a9d60e46b", null ]
 ];

@@ -1,11 +1,5 @@
 var a15317 =
 [
-    [ "npc_magwinAI", "d3/ddc/a15317.html#ad4a352dd0c7c6f76e74f110b00ec9053", null ],
-    [ "JustEngagedWith", "d3/ddc/a15317.html#aea2ab8bf79d6fcc3d2036d160274fab8", null ],
-    [ "Reset", "d3/ddc/a15317.html#a883ef3cd1b097847de148ccb9bd3e903", null ],
-    [ "sQuestAccept", "d3/ddc/a15317.html#aafef28bc7879e29d1fa79ec08f58da55", null ],
-    [ "UpdateEscortAI", "d3/ddc/a15317.html#a34236331be8842a9e2a98036ea382e18", null ],
-    [ "WaypointReached", "d3/ddc/a15317.html#a7278a3cff406af2ecb3d29c7bf90febc", null ],
-    [ "_events", "d3/ddc/a15317.html#a32dad2bde92efab7e0f0d16e809df665", null ],
-    [ "_player", "d3/ddc/a15317.html#ac3d7059ee67abcafa0586f0bed5df9cc", null ]
+    [ "at_battleguard_sartura", "d3/ddc/a15317.html#a9247cdebeb57d2ddbfa75f60da125d36", null ],
+    [ "OnTrigger", "d3/ddc/a15317.html#a6a7b9f210ce0c2844b4f2412c0fe440e", null ]
 ];

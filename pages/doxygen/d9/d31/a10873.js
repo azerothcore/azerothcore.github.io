@@ -1,4 +1,7 @@
 var a10873 =
 [
-    [ "Text", "d9/d31/a10873.html#ab4b16957cc9e845b0f763b4241ba5c89", null ]
+    [ "EffectAuraNameCheck", "d9/d31/a10873.html#a4b10ec0fcb3ffd841cf790574875017d", null ],
+    [ "Check", "d9/d31/a10873.html#a7fff405a99c65d3e846463ca29a8ddfd", null ],
+    [ "ToString", "d9/d31/a10873.html#a602fc1ddafe663e2e5ddceaeaec8b118", null ],
+    [ "effAurName", "d9/d31/a10873.html#abcf90ed5a832b5fe5ce3913a812da05d", null ]
 ];

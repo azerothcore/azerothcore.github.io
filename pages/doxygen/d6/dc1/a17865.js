@@ -1,7 +1,8 @@
 var a17865 =
 [
-    [ "CheckProc", "d6/dc1/a17865.html#a0d64439e4de0c84017a072825d09a238", null ],
-    [ "HandleProc", "d6/dc1/a17865.html#a71154e5c54212595071fe0ab00c0b843", null ],
-    [ "PrepareAuraScript", "d6/dc1/a17865.html#a6d26243e6f6bd2b1fa33952fa654f1ee", null ],
-    [ "Register", "d6/dc1/a17865.html#af373e98d828b9f0fa3f2107d0ec4b604", null ]
+    [ "npc_high_overlord_saurfangAI", "da/d71/a17869.html", "da/d71/a17869" ],
+    [ "npc_high_overlord_saurfang_icc", "d6/dc1/a17865.html#ac02fe80550572e142406c2d80c0392df", null ],
+    [ "GetAI", "d6/dc1/a17865.html#a21c04ab5b8d747c28c7355cc483ac6e3", null ],
+    [ "OnGossipHello", "d6/dc1/a17865.html#a515a87f751527412222cfdd968febe7c", null ],
+    [ "OnGossipSelect", "d6/dc1/a17865.html#a39c33a3b2e7037ca6f0f40ba65cb55db", null ]
 ];

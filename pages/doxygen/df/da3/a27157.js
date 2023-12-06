@@ -1,6 +1,10 @@
 var a27157 =
 [
-    [ "HandleScriptEffect", "df/da3/a27157.html#a78a131bdf6a1406604edd130c28d664b", null ],
-    [ "PrepareSpellScript", "df/da3/a27157.html#a3b2d739227e57667a284ae4600ec1bb6", null ],
-    [ "Register", "df/da3/a27157.html#a8a70913369aa733160366f37ff1c3470", null ]
+    [ "CheckProc", "df/da3/a27157.html#a8a7a0ac560eecc3777087622fb3f3951", null ],
+    [ "HandleProc", "df/da3/a27157.html#a90eee01f380f97f033c82d7c6ec48d00", null ],
+    [ "OnApply", "df/da3/a27157.html#a93818ec97cfd47da1dee454bb0a9318c", null ],
+    [ "OnRemove", "df/da3/a27157.html#a5e978d4d46f42ba5098eaecd9473fccb", null ],
+    [ "PrepareAuraScript", "df/da3/a27157.html#a73ae8e378b906a420955fd33d02ba6b7", null ],
+    [ "Register", "df/da3/a27157.html#a7070f64c9c47c8c1bc26e49b2b60a110", null ],
+    [ "Validate", "df/da3/a27157.html#a91c5a0e10c308332e18dc40033049996", null ]
 ];

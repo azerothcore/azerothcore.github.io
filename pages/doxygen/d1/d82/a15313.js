@@ -1,6 +1,6 @@
 var a15313 =
 [
-    [ "npc_magwinAI", "d3/ddc/a15317.html", "d3/ddc/a15317" ],
-    [ "npc_magwin", "d1/d82/a15313.html#a1a45602fd312a4c436b09fb7b90ac1d4", null ],
-    [ "GetAI", "d1/d82/a15313.html#a83bee0fd5c1494f2bb732fe9e0ed1594", null ]
+    [ "HandleApply", "d1/d82/a15313.html#aefef61bc68c13b20e9b41a6f148a9599", null ],
+    [ "PrepareAuraScript", "d1/d82/a15313.html#aabe8dc8b99dc455dfcfaf58b64fa3f18", null ],
+    [ "Register", "d1/d82/a15313.html#ade5c710416516760cc69f77750aa2a1f", null ]
 ];

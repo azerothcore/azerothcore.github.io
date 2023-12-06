@@ -1,16 +1,11 @@
 var a22785 =
 [
-    [ "boss_xevozzAI", "d7/da8/a22785.html#a422359074a43e84ee6462b61fc4ce6a9", null ],
-    [ "EnterEvadeMode", "d7/da8/a22785.html#a5557f799c862759c8fd94a98cadee7d5", null ],
-    [ "JustDied", "d7/da8/a22785.html#a6e66dec2e1bc198d9b3e855366ca8b02", null ],
-    [ "JustEngagedWith", "d7/da8/a22785.html#a0f8c06f3e0934eb22bf8a26aa3238b50", null ],
-    [ "JustSummoned", "d7/da8/a22785.html#a04787f7600a817fd63132676590505a8", null ],
-    [ "KilledUnit", "d7/da8/a22785.html#ad47008e9044815cc4475adbaf3ece543", null ],
-    [ "MoveInLineOfSight", "d7/da8/a22785.html#a519c1222ef186067dcb9a98bb84ea031", null ],
-    [ "Reset", "d7/da8/a22785.html#a435b22ca3c7e573d4e3c70e2497063e7", null ],
-    [ "SummonedCreatureDespawn", "d7/da8/a22785.html#ab6e7bb57110831079ede943a74641bd4", null ],
-    [ "UpdateAI", "d7/da8/a22785.html#aa61271e4a9d8e13ac875f6efd550aa4b", null ],
-    [ "events", "d7/da8/a22785.html#a8a5796089d42dad89c9cec5ea4d38321", null ],
-    [ "pInstance", "d7/da8/a22785.html#a9eda85f10a814efa32f7b224e1772b89", null ],
-    [ "spheres", "d7/da8/a22785.html#ab1d51bbfd433b37b8ceec15a18d62b17", null ]
+    [ "npc_ichor_globuleAI", "d7/da8/a22785.html#a4d581f89c8385276fd407c000af9e569", null ],
+    [ "AttackStart", "d7/da8/a22785.html#aa4e1fc88a26d6ef41f1ca96c93abbc1a", null ],
+    [ "JustDied", "d7/da8/a22785.html#ad29c7659590933b0749e8e1c2c2e4c46", null ],
+    [ "MoveInLineOfSight", "d7/da8/a22785.html#af8ef8296512d57d934a171f1a5060e73", null ],
+    [ "SpellHit", "d7/da8/a22785.html#a1396538a446545408e3c304f3e56400f", null ],
+    [ "UpdateAI", "d7/da8/a22785.html#a6ff13c853583e5178fb3a690e17303de", null ],
+    [ "pInstance", "d7/da8/a22785.html#a94cbe93a69a28171fc3d91d71b6ec419", null ],
+    [ "uiRangeCheck_Timer", "d7/da8/a22785.html#a99914a55d2dc0b36a623dc7d6248e953", null ]
 ];

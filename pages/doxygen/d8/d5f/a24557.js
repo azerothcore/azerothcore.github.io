@@ -1,6 +1,6 @@
 var a24557 =
 [
-    [ "spell_shade_of_akama_akama_soul_expel_SpellScript", "da/d78/a24561.html", "da/d78/a24561" ],
-    [ "spell_shade_of_akama_akama_soul_expel", "d8/d5f/a24557.html#a7e0330b93a9e5ae00a2eef301cdef0e4", null ],
-    [ "GetSpellScript", "d8/d5f/a24557.html#ac531b9d55a03413e822d13d0c0865cb5", null ]
+    [ "spell_reliquary_of_souls_aura_of_anger_AuraScript", "da/d78/a24561.html", "da/d78/a24561" ],
+    [ "spell_reliquary_of_souls_aura_of_anger", "d8/d5f/a24557.html#a4273067fa57cd2b48e15833fdb6ea4e8", null ],
+    [ "GetAuraScript", "d8/d5f/a24557.html#a00f9bdce7bce7220ff6045815f7a4549", null ]
 ];

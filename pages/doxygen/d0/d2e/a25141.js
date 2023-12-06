@@ -1,5 +1,5 @@
 var a25141 =
 [
-    [ "at_quagmirran_lair", "d0/d2e/a25141.html#a1f8cb1f59e7a179d9e4a987f716ab26f", null ],
-    [ "OnTrigger", "d0/d2e/a25141.html#aa0aab42516efaf842923b8a820942ac4", null ]
+    [ "npc_invisible_tractor_beam_source", "d0/d2e/a25141.html#a78f8adbc578ec005ae3f764e55895dc4", null ],
+    [ "IsSummonedBy", "d0/d2e/a25141.html#a4a47cd459013a783bb1cf47b6d670fce", null ]
 ];

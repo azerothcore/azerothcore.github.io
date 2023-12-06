@@ -1,7 +1,7 @@
 var a26581 =
 [
-    [ "AfterApply", "dd/dd1/a26581.html#a1849f49a9682627753b8bd39b3ff827e", null ],
-    [ "AfterRemove", "dd/dd1/a26581.html#a7c08bea735cd36840463aa942e7529b4", null ],
-    [ "PrepareAuraScript", "dd/dd1/a26581.html#ad27880f797137cae09381e860727e2f7", null ],
-    [ "Register", "dd/dd1/a26581.html#a6c105609c1ee61a8f845018550b2e3ba", null ]
+    [ "CalculateAmount", "dd/dd1/a26581.html#ab705e67f7abb72a13dfd32e7a6da4561", null ],
+    [ "Load", "dd/dd1/a26581.html#ac87f1c7ccb9aa9985d538c9d8611c850", null ],
+    [ "PrepareAuraScript", "dd/dd1/a26581.html#ae4a75ef8bc755c8220b768d5ac87a728", null ],
+    [ "Register", "dd/dd1/a26581.html#a636331452bc95a4434f1b85e85ea6e7b", null ]
 ];

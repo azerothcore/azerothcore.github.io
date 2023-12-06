@@ -1,6 +1,6 @@
 var a23289 =
 [
-    [ "npc_q24545_vegardAI", "dc/daf/a23293.html", "dc/daf/a23293" ],
-    [ "npc_q24545_vegard", "dd/dbf/a23289.html#ac12e2f143fab6b93950eaea06f5f7d85", null ],
-    [ "GetAI", "dd/dbf/a23289.html#a9a7accfb3eea9f08efbb82fbd4bd7e76", null ]
+    [ "SACDeactivateEvent", "dd/dbf/a23289.html#a14f1db2f3bf7e82d0e5c5b5135d46cf9", null ],
+    [ "Execute", "dd/dbf/a23289.html#a12179c55d1999b3cd0cfc5d51d039a31", null ],
+    [ "_owner", "dd/dbf/a23289.html#acc87b2f689bf2e6a3f19440dceb6ea6d", null ]
 ];

@@ -1,7 +1,8 @@
 var a08641 =
 [
-    [ "CreatureRelocationNotifier", "d2/d43/a08641.html#aa144cd2c5b69351afd312084c0e97f0d", null ],
-    [ "Visit", "d2/d43/a08641.html#aa69e9bd551895ca3497d1bfbe5fa79ba", null ],
-    [ "Visit", "d2/d43/a08641.html#a8b346c55d80a8ed92afa2e1f591f5807", null ],
-    [ "i_creature", "d2/d43/a08641.html#a3116f6245816ba8fb9edb5995faa9927", null ]
+    [ "target_mapId", "d2/d43/a08641.html#af6d7558707c026a6d64f2d7b65a344be", null ],
+    [ "target_Orientation", "d2/d43/a08641.html#a5f6bf883e167b683e048ce9eeebb7cb0", null ],
+    [ "target_X", "d2/d43/a08641.html#a3ef5faea7a6fd9b173ea35036b3390b2", null ],
+    [ "target_Y", "d2/d43/a08641.html#a6660d360eaa47098506f246927130e32", null ],
+    [ "target_Z", "d2/d43/a08641.html#a32fee5f497804089feb738be84548dc1", null ]
 ];

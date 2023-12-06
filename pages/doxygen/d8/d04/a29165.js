@@ -1,5 +1,5 @@
 var a29165 =
 [
-    [ "item_petrov_cluster_bombs", "d8/d04/a29165.html#a1a76760f7c4617a40d96b9833e7466df", null ],
-    [ "OnUse", "d8/d04/a29165.html#a14e8a00a532b5aebc8469ff538848f53", null ]
+    [ "trigger_deathAI", "d8/d04/a29165.html#a61c74677030fe04b45e8f2e437f6f270", null ],
+    [ "JustDied", "d8/d04/a29165.html#a325d55eee94d89137eabc823c8520ea0", null ]
 ];

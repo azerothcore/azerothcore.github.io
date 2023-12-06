@@ -1,6 +1,6 @@
 var a11929 =
 [
-    [ "spell_magmadar_lava_bomb_SpellScript", "dd/df1/a11933.html", "dd/df1/a11933" ],
-    [ "spell_magmadar_lava_bomb", "de/da2/a11929.html#a43e745c08011e0a59009bd8af1610a65", null ],
-    [ "GetSpellScript", "de/da2/a11929.html#a3a884343bc094562438a1f8dce1e4228", null ]
+    [ "boss_vaelAI", "dd/df1/a11933.html", "dd/df1/a11933" ],
+    [ "boss_vaelastrasz", "de/da2/a11929.html#a0b51f3b50cde4907bd9064e8bf51c005", null ],
+    [ "GetAI", "de/da2/a11929.html#a42dde198f5fc0ab2e7ca28ac32c42b7e", null ]
 ];

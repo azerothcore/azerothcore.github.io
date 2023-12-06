@@ -1,7 +1,6 @@
 var a24345 =
 [
-    [ "Load", "d3/db8/a24345.html#a9dc9346ba593e42f8ff0ef866187ca3b", null ],
-    [ "OnPeriodic", "d3/db8/a24345.html#ac97b65a2a13b276486b891a78ca4f493", null ],
-    [ "PrepareAuraScript", "d3/db8/a24345.html#aa9dbcc3e0f2d7b51c0ccd357ae806105", null ],
-    [ "Register", "d3/db8/a24345.html#a275b5c1e600689040cc1e136ee46906f", null ]
+    [ "spell_illidan_parasitic_shadowfiend_AuraScript", "d1/d84/a24349.html", "d1/d84/a24349" ],
+    [ "spell_illidan_parasitic_shadowfiend", "d3/db8/a24345.html#acc61a4afbc41b4e8774330419f915a45", null ],
+    [ "GetAuraScript", "d3/db8/a24345.html#a5961edc3e024dee10e5b50ec9cc75759", null ]
 ];

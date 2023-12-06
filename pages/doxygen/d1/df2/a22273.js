@@ -1,6 +1,7 @@
 var a22273 =
 [
-    [ "spell_yogg_saron_insane_AuraScript", "dd/d16/a22277.html", "dd/d16/a22277" ],
-    [ "spell_yogg_saron_insane", "d1/df2/a22273.html#ab34ed9de34999f6673588258fbc0fb10", null ],
-    [ "GetAuraScript", "d1/df2/a22273.html#a42ff92cce4e4ae398fcab4d39853407b", null ]
+    [ "FilterTargets", "d1/df2/a22273.html#a4d96c113cd60d9949e8c70ac23865ca0", null ],
+    [ "HandleDummyEffect", "d1/df2/a22273.html#a98a2ee1f10a7755e20cecb89ee384a8d", null ],
+    [ "PrepareSpellScript", "d1/df2/a22273.html#a2e8af177d9ac1a4b361b9bc6e0320226", null ],
+    [ "Register", "d1/df2/a22273.html#a07e8f3d396b56765c5b57fd32bffd636", null ]
 ];

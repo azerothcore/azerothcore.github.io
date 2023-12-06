@@ -1,6 +1,6 @@
 var a18861 =
 [
-    [ "HandleInfusion", "da/de7/a18861.html#a55dcadcfeaa8f740d974576ee2a0f268", null ],
-    [ "PrepareSpellScript", "da/de7/a18861.html#a972750817e3da3f32df03063f4efcbf4", null ],
-    [ "Register", "da/de7/a18861.html#a2b43eefb8d7774bb3b5cfe35785ed062", null ]
+    [ "npc_sindragosa_trashAI", "d3/d8c/a18865.html", "d3/d8c/a18865" ],
+    [ "npc_sindragosa_trash", "da/de7/a18861.html#a9634ea10e767b4d6e293fc3fdd491702", null ],
+    [ "GetAI", "da/de7/a18861.html#ab1de715d98236a853a793d830bc601d7", null ]
 ];

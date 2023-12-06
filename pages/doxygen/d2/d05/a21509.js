@@ -1,6 +1,6 @@
 var a21509 =
 [
-    [ "HandleAfterEffectApply", "d2/d05/a21509.html#aaab71c999a3fab33903d60ae186e6ad9", null ],
-    [ "PrepareAuraScript", "d2/d05/a21509.html#af3cd9ae6f191069b3ab64e72a257caaf", null ],
-    [ "Register", "d2/d05/a21509.html#a2df0da8c7b4dedfcf3dcae8361ab8c48", null ]
+    [ "spell_hodir_storm_cloud_AuraScript", "db/ddd/a21513.html", "db/ddd/a21513" ],
+    [ "spell_hodir_storm_cloud", "d2/d05/a21509.html#ab62d421bbef4e1db1b84248bb4fb53ac", null ],
+    [ "GetAuraScript", "d2/d05/a21509.html#a23f6a731b448e6fa1d39ceda3bfb1e04", null ]
 ];

@@ -1,9 +1,6 @@
 var a09929 =
 [
-    [ "fX", "da/db2/a09929.html#a53aeb6e82eea1dc4a4e5d8e99dfd3fc5", null ],
-    [ "fY", "da/db2/a09929.html#a9b158e247014eec0d35e465ab9469ac7", null ],
-    [ "fZ", "da/db2/a09929.html#a2e02f9738393aeb8cd62ac26dda8fc10", null ],
-    [ "uiCreatureEntry", "da/db2/a09929.html#ac31436c40bd0bf375635e2ea604fbf61", null ],
-    [ "uiPointId", "da/db2/a09929.html#acb4d9697a24d5c29deacdefe8eb0e267", null ],
-    [ "uiWaitTime", "da/db2/a09929.html#a305620aad71152c1139a88dea05a1887", null ]
+    [ "ElunaScript", "da/db2/a09929.html#a1b4a815f484b4048f7e1fa7ec5282eef", null ],
+    [ "CanAreaTrigger", "da/db2/a09929.html#a47f8793586dd27dd4eb42eb5379828b0", null ],
+    [ "OnWeatherChange", "da/db2/a09929.html#af09f40df2d02a57c92d7e05d19f35549", null ]
 ];

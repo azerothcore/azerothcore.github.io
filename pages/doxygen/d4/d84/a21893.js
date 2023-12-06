@@ -1,12 +1,6 @@
 var a21893 =
 [
-    [ "boss_thorim_start_npcsAI", "d4/d84/a21893.html#a9602af25cbe9d4b3fe8534093c237a20", null ],
-    [ "DamageTaken", "d4/d84/a21893.html#a9a848662671380a726eb7288c6507f68", null ],
-    [ "JustDied", "d4/d84/a21893.html#a3c4b8928e1e0264e88eb49d930529c41", null ],
-    [ "JustEngagedWith", "d4/d84/a21893.html#ab6c0a8ae05a408cafb8ffe359d4d0d4e", null ],
-    [ "Reset", "d4/d84/a21893.html#aedf26a4b5baaf464d70316ce79ec32b3", null ],
-    [ "UpdateAI", "d4/d84/a21893.html#a5a84827d8d85e3a9b8e374da68d2c7ed", null ],
-    [ "_isCaster", "d4/d84/a21893.html#a6b2729ab9bce244da0a7d7fe6a4280f7", null ],
-    [ "_playerAttack", "d4/d84/a21893.html#adb868f1910859c79625cfb7f9a2b4101", null ],
-    [ "events", "d4/d84/a21893.html#a8dc5693814c49003727204623cef29b7", null ]
+    [ "boss_thorim_lightning_orbAI", "dc/d88/a21897.html", "dc/d88/a21897" ],
+    [ "boss_thorim_lightning_orb", "d4/d84/a21893.html#a2aa29e8d2b3fb10e8be39d8fc3112ac2", null ],
+    [ "GetAI", "d4/d84/a21893.html#ad24d28866145c4fccf7a3971856fa87f", null ]
 ];

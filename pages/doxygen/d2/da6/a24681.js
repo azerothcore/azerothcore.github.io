@@ -1,7 +1,7 @@
 var a24681 =
 [
-    [ "boss_lady_malandeAI", "d2/da6/a24681.html#a03513a150eba610edf97c00303e26213", null ],
-    [ "AttackStart", "d2/da6/a24681.html#ab176d8313c9d28bf6d9814438f23f188", null ],
-    [ "JustEngagedWith", "d2/da6/a24681.html#a9d2fc7ca2c6a2fbbbd84e082e8ef93af", null ],
-    [ "UpdateAI", "d2/da6/a24681.html#a2aa5723eba0e8f42fe269e56070dcf80", null ]
+    [ "boss_veras_darkshadowAI", "d2/da6/a24681.html#aa37f7798341b07a7f4ab911b3542fc30", null ],
+    [ "JustEngagedWith", "d2/da6/a24681.html#a76a263ad81bc9dcf9d21074d7e87cb09", null ],
+    [ "JustSummoned", "d2/da6/a24681.html#aa30e981d5e5914ba5c7568037ff45dc1", null ],
+    [ "UpdateAI", "d2/da6/a24681.html#a93e0115b1592a2c14dbaa9304682da82", null ]
 ];

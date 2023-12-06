@@ -1,6 +1,5 @@
 var a18785 =
 [
-    [ "spell_sindragosa_soul_preservation_AuraScript", "dc/d9c/a18789.html", "dc/d9c/a18789" ],
-    [ "spell_sindragosa_soul_preservation", "df/d27/a18785.html#a54c118cea4dc69f1af41f4d69982ecf7", null ],
-    [ "GetAuraScript", "df/d27/a18785.html#a32f8c885827daee98d811b25b4c0b792", null ]
+    [ "operator()", "df/d27/a18785.html#a6a8c02f9b797ed7df8960e5ddc44f93f", null ],
+    [ "operator()", "df/d27/a18785.html#a3847988d35a9cb0c5aab4ad73ff1a427", null ]
 ];

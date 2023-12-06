@@ -1,6 +1,7 @@
 var a26977 =
 [
-    [ "CalculateAmount", "df/ddd/a26977.html#a66b009487462241e573ea23f081a140a", null ],
-    [ "PrepareAuraScript", "df/ddd/a26977.html#a0eee16c77a3c3cea882b67c78826a140", null ],
-    [ "Register", "df/ddd/a26977.html#afeafc6922b0a0389fec969e3c7191dda", null ]
+    [ "HandleDummy", "df/ddd/a26977.html#a9037eddf4c9ce96c15c57e8906bd9a5f", null ],
+    [ "Load", "df/ddd/a26977.html#a738318535196b3d55e8f1b3da4f76c95", null ],
+    [ "PrepareSpellScript", "df/ddd/a26977.html#a941a097124ed9b4917faa18ff23fc366", null ],
+    [ "Register", "df/ddd/a26977.html#aaf9d269e7d052515f31b463999e92cf4", null ]
 ];

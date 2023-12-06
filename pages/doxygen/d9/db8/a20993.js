@@ -1,6 +1,5 @@
 var a20993 =
 [
-    [ "npc_freya_wardAI", "db/d39/a20997.html", "db/d39/a20997" ],
-    [ "npc_freya_ward", "d9/db8/a20993.html#aebaadcc001922c78e8ec43084a827ac9", null ],
-    [ "GetAI", "d9/db8/a20993.html#a90c0e7a0be1717bf1793415b6fcafbed", null ]
+    [ "achievement_auriaya_nine_lives", "d9/db8/a20993.html#a750304bc946a7ecefec29dc18c429d3b", null ],
+    [ "OnCheck", "d9/db8/a20993.html#ae1b7ee75a3e7343c3f5f8043b4e39362", null ]
 ];

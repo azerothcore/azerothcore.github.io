@@ -1,6 +1,6 @@
 var a23357 =
 [
-    [ "npc_ravenous_worgAI", "d2/d96/a23361.html", "d2/d96/a23361" ],
-    [ "npc_ravenous_worg", "d7/d2d/a23357.html#ad7f8da1c82072367fe4a537620df9ac0", null ],
-    [ "GetAI", "d7/d2d/a23357.html#ac966ae31d3a86c9435b14d9f50a5f4cb", null ]
+    [ "HandleDummy", "d7/d2d/a23357.html#acb3e10b4db9c9e9b2b2552841acd556e", null ],
+    [ "PrepareSpellScript", "d7/d2d/a23357.html#a12c1261f6499d8973cb377b291f1dea3", null ],
+    [ "Register", "d7/d2d/a23357.html#ac1f0c5fc907919406f04599676028192", null ]
 ];

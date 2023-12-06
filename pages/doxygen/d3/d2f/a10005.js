@@ -1,8 +1,10 @@
 var a10005 =
 [
-    [ "PlayedTime", "d3/d2f/a10005.html#abc477d90a27dc41a7c643448302464cf", null ],
-    [ "Write", "d3/d2f/a10005.html#a147071f2545cd91213d6c92dab7438c7", null ],
-    [ "LevelTime", "d3/d2f/a10005.html#a2bf832827f9497a59bbfac714799b4b5", null ],
-    [ "TotalTime", "d3/d2f/a10005.html#ae762fe00339a8f4ca6f9e14bb8515251", null ],
-    [ "TriggerScriptEvent", "d3/d2f/a10005.html#a434b33c61ba5e2d91f084cbfe425c964", null ]
+    [ "ServerScript", "d3/d2f/a10005.html#a6d5ce71ec2930f585d70ede84a8fdeb4", null ],
+    [ "CanPacketReceive", "d3/d2f/a10005.html#a9c817a6f922029c9c58f783c4ebc18ff", null ],
+    [ "CanPacketSend", "d3/d2f/a10005.html#a6682dfb556d137feb5fc95a66ccd6917", null ],
+    [ "OnNetworkStart", "d3/d2f/a10005.html#ab51ce520816236687820d1f72bae0ed6", null ],
+    [ "OnNetworkStop", "d3/d2f/a10005.html#a1f2e87caed202bbcde98e2cb0c8f19c6", null ],
+    [ "OnSocketClose", "d3/d2f/a10005.html#a27ecdfc9c6d737d02705adcd13be9d13", null ],
+    [ "OnSocketOpen", "d3/d2f/a10005.html#a656f1c0dc191b8f91e0705748d286454", null ]
 ];

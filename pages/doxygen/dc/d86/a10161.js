@@ -1,7 +1,6 @@
 var a10161 =
 [
-    [ "GuildBankActivate", "dc/d86/a10161.html#a5b27541a26ada694d9635f6d6873ef20", null ],
-    [ "Read", "dc/d86/a10161.html#a8dbde75aaa3102024aa0ff3a8f3625da", null ],
-    [ "Banker", "dc/d86/a10161.html#a9b79075c6ee6a4f73ae18c6956eead7c", null ],
-    [ "FullUpdate", "dc/d86/a10161.html#a50b9a5333e2296e654c90fc6394bdbd3", null ]
+    [ "SetSheathed", "dc/d86/a10161.html#a0c6ff5057d2ee0c424c8539c0bf99857", null ],
+    [ "Read", "dc/d86/a10161.html#ae2158689450e3a9207b6992ea5223106", null ],
+    [ "CurrentSheathState", "dc/d86/a10161.html#a8363787ac7959f19234def2707ef0b32", null ]
 ];

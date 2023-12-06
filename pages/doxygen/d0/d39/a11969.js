@@ -1,6 +1,6 @@
 var a11969 =
 [
-    [ "HandleHit", "d0/d39/a11969.html#a99ea80788e2873dba87f6c6c72fa6f73", null ],
-    [ "PrepareSpellScript", "d0/d39/a11969.html#adfaeb84d83a48250c636bc8ef98bcb8c", null ],
-    [ "Register", "d0/d39/a11969.html#a2142c21b5f2abf968cc8eac953779f1d", null ]
+    [ "spell_geddon_inferno_AuraScript", "dd/d5c/a11973.html", "dd/d5c/a11973" ],
+    [ "spell_geddon_inferno", "d0/d39/a11969.html#a483ff441a0922389671b874ce0fb661b", null ],
+    [ "GetAuraScript", "d0/d39/a11969.html#a808ed79cda78cc61f90caa88f07a1ec4", null ]
 ];

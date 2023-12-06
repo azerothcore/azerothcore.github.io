@@ -1,10 +1,7 @@
 var a11901 =
 [
-    [ "boss_golemaggAI", "df/dcc/a11901.html#a79e2416a55a1531316d891ebff4e5575", null ],
-    [ "DamageTaken", "df/dcc/a11901.html#a5f9191609c7ff0715ba186f8ae28262b", null ],
-    [ "Reset", "df/dcc/a11901.html#aeed4cda9fae3e0b46832ec1bfecb97b0", null ],
-    [ "UpdateAI", "df/dcc/a11901.html#af7b322731241dbb08041a92cd355f273", null ],
-    [ "earthquakeTimer", "df/dcc/a11901.html#a6bfd75b1d57d8002cab075bbd5a12612", null ],
-    [ "enraged", "df/dcc/a11901.html#a52e6d8bcf979d216aff536e8fae3bf01", null ],
-    [ "pyroblastTimer", "df/dcc/a11901.html#a142ededff85d517c08744bdafd644c34", null ]
+    [ "HandleDummy", "df/dcc/a11901.html#a2299a8b99013fb9f9c2b8e81cfc541cc", null ],
+    [ "PrepareSpellScript", "df/dcc/a11901.html#ad07165f81a7f407c716f90691ecb9817", null ],
+    [ "Register", "df/dcc/a11901.html#a28fb28ca049b87dd76fddc3af222fd9c", null ],
+    [ "Validate", "df/dcc/a11901.html#a8ce6773c7d0fd501fa7b26f04fd22796", null ]
 ];

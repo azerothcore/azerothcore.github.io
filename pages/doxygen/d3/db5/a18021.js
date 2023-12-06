@@ -1,12 +1,13 @@
 var a18021 =
 [
-    [ "gunship_npc_AI", "d3/db5/a18021.html#a30c13cb755638fcf05d1ad9a476210d3", null ],
-    [ "EnterEvadeMode", "d3/db5/a18021.html#a7c2da25bb962c32fa350ee1f12f86ca4", null ],
-    [ "JustDied", "d3/db5/a18021.html#ad40c976be4decd9054dad031a4caab78", null ],
-    [ "MovementInform", "d3/db5/a18021.html#a3bae54b656fc5ed8c6fef80bd1721c71", null ],
-    [ "SetData", "d3/db5/a18021.html#acfd5e331155d7787ada33acbca73fece", null ],
-    [ "SetSlotInfo", "d3/db5/a18021.html#afdfc3f9add2952f90baf24d55425670f", null ],
-    [ "Index", "d3/db5/a18021.html#ae120874514cf5921136821b820a04da7", null ],
-    [ "Instance", "d3/db5/a18021.html#ab5276a099bcf56c5a25b3a52be516b5c", null ],
-    [ "Slot", "d3/db5/a18021.html#a59d237475ae309755d429cfac77d6630", null ]
+    [ "npc_gunshipAI", "d3/db5/a18021.html#a75444497ffd6b7365827eea57fd946f9", null ],
+    [ "DamageTaken", "d3/db5/a18021.html#a9c1825ec51aaecedd1035ae9a1ded6a0", null ],
+    [ "GetData", "d3/db5/a18021.html#a0142bec2427c1256431e55d3f74b8948", null ],
+    [ "JustDied", "d3/db5/a18021.html#aa19c815ad64f81fb5240c5e0667bccc9", null ],
+    [ "SetGUID", "d3/db5/a18021.html#a692a5a16ea75e816f2f58c469e042a1b", null ],
+    [ "_died", "d3/db5/a18021.html#af4480427460748bccae214737469ddb7", null ],
+    [ "_instance", "d3/db5/a18021.html#a21f9c24e80145db0c6847c81261d0e8d", null ],
+    [ "_shipVisits", "d3/db5/a18021.html#a6f9730b746e195a99dc11357fd0387ba", null ],
+    [ "_summonedFirstMage", "d3/db5/a18021.html#a721cc96cc76a27574a1a4eb1996b100e", null ],
+    [ "_teamIdInInstance", "d3/db5/a18021.html#a195ff7ab2c2e96ab0bcd0a96c1e21512", null ]
 ];

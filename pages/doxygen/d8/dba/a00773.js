@@ -1,8 +1,9 @@
 var a00773 =
 [
-    [ "SelectableAI", "d3/d87/a05885.html", "d3/d87/a05885" ],
-    [ "CreatureAIFactory< REAL_AI >", "d3/d83/a05889.html", "d3/d83/a05889" ],
-    [ "sCreatureAIRegistry", "d8/dba/a00773.html#a08e073e90e01d97b74e2331f15bf6122", null ],
-    [ "CreatureAICreator", "d8/dba/a00773.html#a0979444cdc957651f0b4bc9e3c24934b", null ],
-    [ "CreatureAIRegistry", "d8/dba/a00773.html#a3eebee4b886bee76d38357a472a9a5ae", null ]
+    [ "FactorySelector::PermissibleOrderPred< T >", "db/dc8/a06041.html", "db/dc8/a06041" ],
+    [ "GetPermitFor", "d8/dba/a00773.html#aaf9c138ae6c123d03859db553a39892d", null ],
+    [ "SelectAI", "d8/dba/a00773.html#a10fef1ff3335f4642179ee423b1ff0d6", null ],
+    [ "SelectFactory", "d8/dba/a00773.html#ad553c2186f078e696768d40d217738f8", null ],
+    [ "SelectGameObjectAI", "d8/dba/a00773.html#a2ce404e9b85f551638d8783c01a19860", null ],
+    [ "SelectMovementGenerator", "d8/dba/a00773.html#a203d17bf72c42c0d3fdb77626b01b679", null ]
 ];

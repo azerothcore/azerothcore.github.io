@@ -1,6 +1,8 @@
 var a23929 =
 [
-    [ "spell_wintergrasp_hide_small_elementals_AuraScript", "d5/d2b/a23933.html", "d5/d2b/a23933" ],
-    [ "spell_wintergrasp_hide_small_elementals", "d5/ded/a23929.html#aa5e03d4705fd6253bb576268eaff5a6b", null ],
-    [ "GetAuraScript", "d5/ded/a23929.html#aabf8954d35e8c5f10f16d915639a5e68", null ]
+    [ "go_wg_vehicle_teleporterAI", "d5/ded/a23929.html#af84e73765b1a4d810b41613824999186", null ],
+    [ "IsFriendly", "d5/ded/a23929.html#adca817c8919958db888d5e9c759ad545", null ],
+    [ "IsValidVehicle", "d5/ded/a23929.html#a3f790a651d5f0c67c5d528828a6bb398", null ],
+    [ "UpdateAI", "d5/ded/a23929.html#a8d8197cbfa6ab36d269f18020acbc565", null ],
+    [ "_checkTimer", "d5/ded/a23929.html#a9cbb42b4f29f94e41e80caccd87d95f4", null ]
 ];

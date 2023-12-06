@@ -1,5 +1,6 @@
 var a30117 =
 [
-    [ "Price", "d9/d57/a30117.html#a9cf01cf0d41d49613b4ceaf1eeb1716b", null ],
-    [ "Slot", "d9/d57/a30117.html#aa53247914bda0ceca015b8b9ca117379", null ]
+    [ "categoryMask", "d9/d57/a30117.html#abd8816e5dda7bda455ccd6932647c4be", null ],
+    [ "categoryType", "d9/d57/a30117.html#a954f9fca8d0d84d5aec66f4a3f642f96", null ],
+    [ "ID", "d9/d57/a30117.html#a2e0f0cb7a05da77dee49bd7221c01d60", null ]
 ];

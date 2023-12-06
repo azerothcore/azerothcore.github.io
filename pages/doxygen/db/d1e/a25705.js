@@ -1,6 +1,6 @@
 var a25705 =
 [
-    [ "spell_kaelthas_gravity_lapse_SpellScript", "d3/d25/a25709.html", "d3/d25/a25709" ],
-    [ "spell_kaelthas_gravity_lapse", "db/d1e/a25705.html#a28147e82cd72283834585227f26e9905", null ],
-    [ "GetSpellScript", "db/d1e/a25705.html#ab953ec1bffae888dc13109a2bee22ea1", null ]
+    [ "npc_deaths_fel_cannonAI", "db/d1e/a25705.html#a29d298bd85c78e2fbf0a4019aa7fbce7", null ],
+    [ "Reset", "db/d1e/a25705.html#a4096d75a98dc8a1c95920710fb48d6ff", null ],
+    [ "UpdateAI", "db/d1e/a25705.html#a942a8b1153b4ae6fde3b474cc909daad", null ]
 ];

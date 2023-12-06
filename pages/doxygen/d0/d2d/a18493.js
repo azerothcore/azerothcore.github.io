@@ -1,6 +1,6 @@
 var a18493 =
 [
-    [ "HandleScript", "d0/d2d/a18493.html#aafb60666ec1789faa1cc3094d61115fd", null ],
-    [ "PrepareSpellScript", "d0/d2d/a18493.html#a22a3a44be2abb772a092e7ae5cee6eca", null ],
-    [ "Register", "d0/d2d/a18493.html#ada32e7d992484f5263b674a7f82f8257", null ]
+    [ "spell_putricide_ooze_eruption_searcher_SpellScript", "db/d53/a18497.html", "db/d53/a18497" ],
+    [ "spell_putricide_ooze_eruption_searcher", "d0/d2d/a18493.html#a4978726ce045e0023defa06f4a6c1975", null ],
+    [ "GetSpellScript", "d0/d2d/a18493.html#ad48fb551888d75948d11fce8d9f2c3f8", null ]
 ];

@@ -1,8 +1,5 @@
 var a14353 =
 [
-    [ "HandleEffectApply", "d8/db0/a14353.html#a31d4e0da71893a8a673a2ac4f7c26c70", null ],
-    [ "HandleEffectRemove", "d8/db0/a14353.html#af8661463589640c9550bc62e8f74afcd", null ],
-    [ "PrepareAuraScript", "d8/db0/a14353.html#a2885eb37d4af8f1e90e2a4967f5acc75", null ],
-    [ "Register", "d8/db0/a14353.html#ada4a148e0b50f5853eaf02c465f6e876", null ],
-    [ "torchGUID", "d8/db0/a14353.html#a8ccf51241d3792c8c36d983bf471167e", null ]
+    [ "go_pumpkin_shrine", "d8/db0/a14353.html#ab9b05caa7ef7d740a0c46171c2160a19", null ],
+    [ "OnGossipSelect", "d8/db0/a14353.html#a35763a67d39c1d68974a9602ce26b699", null ]
 ];

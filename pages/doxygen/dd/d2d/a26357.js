@@ -1,9 +1,14 @@
 var a26357 =
 [
-    [ "npc_pet_shaman_fire_elemental", "dd/d2d/a26357.html#a3428642963fc9e7588ec92fd838f1af9", null ],
-    [ "InitializeAI", "dd/d2d/a26357.html#aef4865f83ce0c73efe0c47a11ac87594", null ],
-    [ "JustEngagedWith", "dd/d2d/a26357.html#ac274b9edb03ab13a8e95d8c4fe5055db", null ],
-    [ "UpdateAI", "dd/d2d/a26357.html#a2280e5cc5187a91917a1e517e80e960d", null ],
-    [ "_events", "dd/d2d/a26357.html#aa4578cdbe41d28e399247c84c9fe8049", null ],
-    [ "_initAttack", "dd/d2d/a26357.html#a2df79acc05dd8489e9e994e044b45404", null ]
+    [ "Absorb", "dd/d2d/a26357.html#a401274543919a81efea81008f8020ed1", null ],
+    [ "CalculateAmount", "dd/d2d/a26357.html#a837b0e3f0135f7b8393f1ee630d90c50", null ],
+    [ "HandleEffectApply", "dd/d2d/a26357.html#a0acb2be86ed6da238e8769d4871526d3", null ],
+    [ "HandleEffectRemove", "dd/d2d/a26357.html#a2b1e9dbb5d3543acd36f9253f224b9a7", null ],
+    [ "Load", "dd/d2d/a26357.html#ab22271735c240c0d375324f54efc8313", null ],
+    [ "PrepareAuraScript", "dd/d2d/a26357.html#af040fefa0f25f319f98340b9908bb85e", null ],
+    [ "Register", "dd/d2d/a26357.html#af89379413ea3b10477ea267ac8e51004", null ],
+    [ "Trigger", "dd/d2d/a26357.html#ae1704ed58255389c7483f75b5f0a227c", null ],
+    [ "Validate", "dd/d2d/a26357.html#a58faaf03fc6a0974049da2af0fc70825", null ],
+    [ "absorbPct", "dd/d2d/a26357.html#a3a9bd069cf4732f64990277227d71d0d", null ],
+    [ "hpPct", "dd/d2d/a26357.html#a83ef3e3f9534366c24311f3281a8d0b8", null ]
 ];

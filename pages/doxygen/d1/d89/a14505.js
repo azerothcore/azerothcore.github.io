@@ -1,6 +1,7 @@
 var a14505 =
 [
-    [ "HandleHit", "d1/d89/a14505.html#ab046ceb66a638c40da5efb03ee56f69c", null ],
-    [ "PrepareSpellScript", "d1/d89/a14505.html#afb3e05b08f96b3a4264cbf92e27ca730", null ],
-    [ "Register", "d1/d89/a14505.html#a023a8e12d12b806ad58450457df4e71c", null ]
+    [ "HandleOnHit", "d1/d89/a14505.html#ae3241486a612293b5421a523f6d854d9", null ],
+    [ "PrepareSpellScript", "d1/d89/a14505.html#a20b6f0f7d403065cde55dec7f50537f9", null ],
+    [ "Register", "d1/d89/a14505.html#af6d4c6dfa15da815298ad5d88b3fede2", null ],
+    [ "Validate", "d1/d89/a14505.html#a53773b6b18b1d3a5be24f3065e8a2875", null ]
 ];

@@ -1,10 +1,11 @@
 var a29317 =
 [
-    [ "npc_air_force_botsAI", "df/d60/a29317.html#a062eb272826d52ffd9b72054f970b761", null ],
-    [ "GetSummonedGuard", "df/d60/a29317.html#ac4f39049ba15caf314939f12b82ccd05", null ],
-    [ "MoveInLineOfSight", "df/d60/a29317.html#a474231c0ce93b4db0789bcc8f6767c19", null ],
-    [ "Reset", "df/d60/a29317.html#a016911d354f3b00e2db3e4f3722cda7f", null ],
-    [ "SummonGuard", "df/d60/a29317.html#a8da57471dfa875f55f52c3d2b068a0f3", null ],
-    [ "SpawnAssoc", "df/d60/a29317.html#a6f2f7ffd24dd32780c441fd6ce29dfbf", null ],
-    [ "SpawnedGUID", "df/d60/a29317.html#a3c8ae595a3b4a436c2f94aa84cb9ee56", null ]
+    [ "npc_injured_patientAI", "df/d60/a29317.html#a0973487623f1771c598648bc06a6d9a3", null ],
+    [ "JustEngagedWith", "df/d60/a29317.html#a621a8cc3f6b9655760431d52766ca589", null ],
+    [ "Reset", "df/d60/a29317.html#a007c9c7a4047374574cad17e9309d7c1", null ],
+    [ "SpellHit", "df/d60/a29317.html#ac9381e7c958348ae7a5e98fea7dcbe37", null ],
+    [ "UpdateAI", "df/d60/a29317.html#a54d0a5574175747779878dce0ebfd44f", null ],
+    [ "_scheduler", "df/d60/a29317.html#a60428fa97c8f6520338d53ed368c4c35", null ],
+    [ "Coord", "df/d60/a29317.html#af5a6f87c0379edd07a8756018b0c8661", null ],
+    [ "DoctorGUID", "df/d60/a29317.html#ad1de0d556a784aa16d87b8367fdb38e3", null ]
 ];

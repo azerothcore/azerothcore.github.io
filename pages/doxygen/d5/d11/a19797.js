@@ -1,6 +1,6 @@
 var a19797 =
 [
-    [ "icecrown_citadel_teleport", "d5/d11/a19797.html#ab74d5962073dcf3b4488c33aaa935377", null ],
-    [ "OnGossipHello", "d5/d11/a19797.html#a97b0d94a5c7388a5dfce76f3bd3be24f", null ],
-    [ "OnGossipSelect", "d5/d11/a19797.html#a0b160bd86341542ddb1c80f3d4bd691f", null ]
+    [ "npc_icc_gauntlet_controllerAI", "d4/dcb/a19801.html", "d4/dcb/a19801" ],
+    [ "npc_icc_gauntlet_controller", "d5/d11/a19797.html#a5fc4c941842e25bc3da93686e588627b", null ],
+    [ "GetAI", "d5/d11/a19797.html#a4ed1a69fb537e7ce547a3a57253990c4", null ]
 ];

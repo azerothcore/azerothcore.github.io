@@ -1,7 +1,6 @@
 var a25185 =
 [
-    [ "npc_underbog_mushroom", "dd/d77/a25185.html#a2b77b2590d46c14c783d2df4a3699c44", null ],
-    [ "InitializeAI", "dd/d77/a25185.html#a7c192010cc63715eaa3f38b1d1372936", null ],
-    [ "UpdateAI", "dd/d77/a25185.html#a9a8ed51b12809152ebe78dda69944d77", null ],
-    [ "_scheduler", "dd/d77/a25185.html#a407cdb1096e5212dd0a50ea4fa401112", null ]
+    [ "instance_gruuls_lair_InstanceMapScript", "de/db5/a25189.html", "de/db5/a25189" ],
+    [ "instance_gruuls_lair", "dd/d77/a25185.html#ae091404d09e614fe893c20e8ed90d2c4", null ],
+    [ "GetInstanceScript", "dd/d77/a25185.html#ab8b5b000f6099111244b4ea48f0ab029", null ]
 ];

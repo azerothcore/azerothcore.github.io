@@ -1,8 +1,14 @@
 var a05357 =
 [
-    [ "cmd", "df/d8b/a05357.html#a14df856ae931474a7c58d0e35caf6ad0", null ],
-    [ "number_of_keys", "df/d8b/a05357.html#aaa44734bb96b91894c038b3f34b4db0d", null ],
-    [ "R1", "df/d8b/a05357.html#a054648a96d1c66bae6fdb9a174e7b1e6", null ],
-    [ "R2", "df/d8b/a05357.html#a72fa4a4d0b6098fdf8e5c8f9a33f08ad", null ],
-    [ "R3", "df/d8b/a05357.html#a819a5ba3a19583fd0cfd0558cf218e54", null ]
+    [ "SFMTRand", "df/d8b/a05357.html#aa40843ec8c3162e4be6cbf8067f93c9b", null ],
+    [ "operator delete", "df/d8b/a05357.html#a20ef76641899ebf23ecfdfa03933d1d9", null ],
+    [ "operator delete", "df/d8b/a05357.html#ac6267ac04c03814f574a155a4a0cffcb", null ],
+    [ "operator delete[]", "df/d8b/a05357.html#a5051cdb95e18230b7fee753beb621603", null ],
+    [ "operator delete[]", "df/d8b/a05357.html#a7cfe99d3c100b6ba124b82fce756960f", null ],
+    [ "operator new", "df/d8b/a05357.html#a2aeb7be6e4330872312d025c20f38cde", null ],
+    [ "operator new", "df/d8b/a05357.html#aca05c084eb681e29c2e6d94004d2211d", null ],
+    [ "operator new[]", "df/d8b/a05357.html#a8ec91b566c3b1defe53ea094c31e9aac", null ],
+    [ "operator new[]", "df/d8b/a05357.html#a7fc8af93666391048ac284fb21838d00", null ],
+    [ "RandomUInt32", "df/d8b/a05357.html#a8d129952ad2916419cdf54aa474c23c0", null ],
+    [ "_state", "df/d8b/a05357.html#a9bc20836138e5dd4db93f7d03a9e856b", null ]
 ];

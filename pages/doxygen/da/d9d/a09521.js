@@ -1,9 +1,12 @@
 var a09521 =
 [
-    [ "PathMovementBase", "da/d9d/a09521.html#a6b76e1527ed69ff631d7a72c309f264a", null ],
-    [ "PathMovementBase", "da/d9d/a09521.html#a953fcda0cf7764f659fc5a4a19408550", null ],
-    [ "~PathMovementBase", "da/d9d/a09521.html#a33b2b53993fe897712a196bc4ad86bd1", null ],
-    [ "GetCurrentNode", "da/d9d/a09521.html#a7ceb52928f2198392980c3926516fd82", null ],
-    [ "i_currentNode", "da/d9d/a09521.html#a5420aef90d3529881ef41362ebb29934", null ],
-    [ "i_path", "da/d9d/a09521.html#a3dbc5e41e0c6245f369afc7a24081c83", null ]
+    [ "BanAccount", "da/d9d/a09521.html#af85ceffee2ae6a143df5e36f6a004f07", null ],
+    [ "BanAccountByPlayerName", "da/d9d/a09521.html#a35f92762d69fe32e49b9b239c74e4734", null ],
+    [ "BanCharacter", "da/d9d/a09521.html#ad5048b36828bfe20a95dfb85515de831", null ],
+    [ "BanIP", "da/d9d/a09521.html#a404890eab19b97773e6c9aef8cc65707", null ],
+    [ "instance", "da/d9d/a09521.html#aa495dfaab6af98c43f645acf516a5630", null ],
+    [ "RemoveBanAccount", "da/d9d/a09521.html#ae831e6227442edc70469229d5d73fa3f", null ],
+    [ "RemoveBanAccountByPlayerName", "da/d9d/a09521.html#a7b5e1ae6d34ae4f6a15e03c434953aea", null ],
+    [ "RemoveBanCharacter", "da/d9d/a09521.html#afbde6c0b26802f684ecf78c2f493cc67", null ],
+    [ "RemoveBanIP", "da/d9d/a09521.html#afcf4857007432ebff042c85c5daf2325", null ]
 ];

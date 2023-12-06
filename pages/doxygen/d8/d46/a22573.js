@@ -1,5 +1,6 @@
 var a22573 =
 [
-    [ "npc_ritual_channelerAI", "d8/d46/a22573.html#aa770f8f2b9dd5fca86f9e63de7b4000f", null ],
-    [ "AttackStart", "d8/d46/a22573.html#aff09fbdc1e701853c9953882ca73ce2a", null ]
+    [ "boss_skadiAI", "de/db7/a22577.html", "de/db7/a22577" ],
+    [ "boss_skadi", "d8/d46/a22573.html#a124c1c1de7ba232b3256a65547370464", null ],
+    [ "GetAI", "d8/d46/a22573.html#a4b66199169442af5ec6542be71c19033", null ]
 ];

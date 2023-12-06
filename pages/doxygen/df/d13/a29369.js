@@ -1,7 +1,6 @@
 var a29369 =
 [
-    [ "npc_sayge", "df/d13/a29369.html#a5b75c459665ece26cee5dbffcc0fc8ff", null ],
-    [ "OnGossipHello", "df/d13/a29369.html#ad069e6cc7fe5271c3474c8bcf537cf4c", null ],
-    [ "OnGossipSelect", "df/d13/a29369.html#aa049b4514fc2d18508d8d4f9b6616c99", null ],
-    [ "SendAction", "df/d13/a29369.html#aed1988335672423d024546654aa95298", null ]
+    [ "npc_experience", "df/d13/a29369.html#a48ea13099fd32bcae1543a152de0bdf4", null ],
+    [ "OnGossipHello", "df/d13/a29369.html#a78fccaa36d1c42e33774a9b23f867a72", null ],
+    [ "OnGossipSelect", "df/d13/a29369.html#a140ece91c8b6d91bd91d64d6e9b625e8", null ]
 ];

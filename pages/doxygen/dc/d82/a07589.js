@@ -1,5 +1,5 @@
 var a07589 =
 [
-    [ "BoxText", "dc/d82/a07589.html#a00882f98df67222d396ae9992084a1cd", null ],
-    [ "OptionText", "dc/d82/a07589.html#ab69f2dac8061cf8f6762a683243934fa", null ]
+    [ "number", "dc/d82/a07589.html#af111e542d7a276e27d2b14757293bc42", null ],
+    [ "offset_elements", "dc/d82/a07589.html#ad633b2e9afc82762c6b43675844f8fea", null ]
 ];

@@ -1,6 +1,6 @@
 var a13269 =
 [
-    [ "spell_uldaman_boss_agro_archaedas_SpellScript", "df/d70/a13273.html", "df/d70/a13273" ],
-    [ "spell_uldaman_boss_agro_archaedas", "d1/d98/a13269.html#ae269234d4a671bb20f9b525c037dd120", null ],
-    [ "GetSpellScript", "d1/d98/a13269.html#ac95cc338ef9ecf9f858d6eaf78c5eb49", null ]
+    [ "spell_muru_darkness_AuraScript", "df/d70/a13273.html", "df/d70/a13273" ],
+    [ "spell_muru_darkness", "d1/d98/a13269.html#a6b6c6d9189d28bbb54cff4bee90a75b2", null ],
+    [ "GetAuraScript", "d1/d98/a13269.html#a6403321f79158cdb2834c16cb7d7c7a8", null ]
 ];

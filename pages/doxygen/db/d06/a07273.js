@@ -1,19 +1,10 @@
 var a07273 =
 [
-    [ "base", "db/d06/a07273.html#a72ad0de027b5ed860a45d5aa64c62468", null ],
-    [ "first_type", "db/d06/a07273.html#a13738915d3dbe4912ecfe9bf84048da0", null ],
-    [ "get", "db/d06/a07273.html#a193636c84817e3ba5d58578127c2e812", null ],
-    [ "get", "db/d06/a07273.html#a193636c84817e3ba5d58578127c2e812", null ],
-    [ "get", "db/d06/a07273.html#ae32c95f7f1927bb4a572d06d014f1080", null ],
-    [ "get", "db/d06/a07273.html#ae32c95f7f1927bb4a572d06d014f1080", null ],
-    [ "holds_alternative", "db/d06/a07273.html#a85b3bbe6f4e5440fa26765d822541101", null ],
-    [ "operator std::enable_if_t< C &&!std::is_same_v< first_type, size_t > &&std::is_convertible_v< first_type, size_t >, size_t >", "db/d06/a07273.html#a3ad42ccb2bd4c870d77f97b7c2eb3a02", null ],
-    [ "operator std::enable_if_t< C, first_type >", "db/d06/a07273.html#a64e705dc1f9ead7c770f427ce66ef3c2", null ],
-    [ "operator!", "db/d06/a07273.html#a2642d31f48ea8853226464df0f994e25", null ],
-    [ "operator*", "db/d06/a07273.html#a8f32040dec3ce29beb0fa2d8778160cc", null ],
-    [ "operator=", "db/d06/a07273.html#a04f837c5b68ec10bd85153b283c65cb1", null ],
-    [ "visit", "db/d06/a07273.html#a0cc1d2f145347d4a6bb70b981f6da598", null ],
-    [ "visit", "db/d06/a07273.html#aca506a5119986228fc737f217186b47c", null ],
-    [ "operator<<", "db/d06/a07273.html#a39009e4358c42d0b9f03c7101ee1d2c6", null ],
-    [ "have_operators", "db/d06/a07273.html#a31be0827a24327470faa92595eda5996", null ]
+    [ "value_type", "db/d06/a07273.html#a821f7b556a5e7dd88e406eb856a5b635", null ],
+    [ "operator()", "db/d06/a07273.html#a51db58c653c279b30d19e9188894adec", null ],
+    [ "operator()", "db/d06/a07273.html#a6225e55f229eca06eef7e6c27531bbe9", null ],
+    [ "operator()", "db/d06/a07273.html#ab516399a6965a67daed318a1058c87ef", null ],
+    [ "operator()", "db/d06/a07273.html#abeeef774a78ec84f0020686aab425a5c", null ],
+    [ "operator()", "db/d06/a07273.html#a0d4e9cb0ae75752363793d29599afbdc", null ],
+    [ "operator()", "db/d06/a07273.html#a4a277a9ad5764e42c53746999e004b88", null ]
 ];

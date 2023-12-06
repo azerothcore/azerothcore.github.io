@@ -1,7 +1,6 @@
 var a07501 =
 [
-    [ "LfgProposalPlayer", "d7/d1e/a07501.html#a80f7d0f3597201dc7fca4d08dd3b7a38", null ],
-    [ "accept", "d7/d1e/a07501.html#acbf0ce1e12307569487096dc5ca544a6", null ],
-    [ "group", "d7/d1e/a07501.html#a900f24e9caaa1569eeea93b4284139a1", null ],
-    [ "role", "d7/d1e/a07501.html#a54ab4a0f32cc3abc7489fc9c3655fe99", null ]
+    [ "value_type", "d7/d1e/a07501.html#a77339e0f85d207328398ee7121f044d8", null ],
+    [ "StoreTo", "d7/d1e/a07501.html#a50290d7098ae9458bfb9c347934a4a0c", null ],
+    [ "tag", "d7/d1e/a07501.html#a2833cad2eab45d89d029727ce22bb808", null ]
 ];

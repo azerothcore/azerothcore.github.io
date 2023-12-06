@@ -1,6 +1,8 @@
 var a27965 =
 [
-    [ "FilterTargets", "df/de1/a27965.html#a17626abdbc4066956b76945b11b3f0c6", null ],
-    [ "PrepareSpellScript", "df/de1/a27965.html#abfeb75060c1f930b33003dd1e458f882", null ],
-    [ "Register", "df/de1/a27965.html#a8e5146a57f181b17280d198bcd2e216d", null ]
+    [ "HandleApplyEffect", "df/de1/a27965.html#a50102ae92f44fd7c2bd9afc3fec5a291", null ],
+    [ "Load", "df/de1/a27965.html#ab6ba9d68b968ae41ee9c9869df686f02", null ],
+    [ "PrepareAuraScript", "df/de1/a27965.html#a6e212284f72320356cfa2f0c2a59999d", null ],
+    [ "Register", "df/de1/a27965.html#afcdd6cc19b59b5e6aa0cfdb9189edc99", null ],
+    [ "Validate", "df/de1/a27965.html#a985a52f71371443454d6dd36f7fe83b2", null ]
 ];

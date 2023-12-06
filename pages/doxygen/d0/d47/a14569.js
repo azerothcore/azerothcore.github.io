@@ -1,7 +1,6 @@
 var a14569 =
 [
-    [ "npc_jaina_proudmoore", "d0/d47/a14569.html#a433852570ca07cc535583712e104cd1e", null ],
-    [ "GetAI", "d0/d47/a14569.html#a55725bb8841810daaa288fa2ac0dcd91", null ],
-    [ "OnGossipHello", "d0/d47/a14569.html#a9a392413becf209d2dcf82fc2aeaa3e3", null ],
-    [ "OnGossipSelect", "d0/d47/a14569.html#aa6e9fe8cd2003418dabf4c787e31f036", null ]
+    [ "spell_finger_of_death_SpellScript", "dc/df9/a14573.html", "dc/df9/a14573" ],
+    [ "spell_finger_of_death", "d0/d47/a14569.html#a8b20a8c0e9b036d9afa47b7e74f38e35", null ],
+    [ "GetSpellScript", "d0/d47/a14569.html#a2bd179cc767ccbc4b09891cb15b1cec3", null ]
 ];

@@ -1,12 +1,6 @@
 var a14689 =
 [
-    [ "boss_epochAI", "d8/dc0/a14689.html#a2986db39b7db92b1fa9d64cef5f8c08b", null ],
-    [ "JustDied", "d8/dc0/a14689.html#a780aa5bc86c80aaeeffad441b2873121", null ],
-    [ "JustEngagedWith", "d8/dc0/a14689.html#ae742dceac5979faebb58a133e9bd91f0", null ],
-    [ "KilledUnit", "d8/dc0/a14689.html#af41946feab7b86d812f706bd7abbf1bd", null ],
-    [ "Reset", "d8/dc0/a14689.html#a98cf5d8aded78694117af64ccdb6cd83", null ],
-    [ "SpellHitTarget", "d8/dc0/a14689.html#ab87dfcf635a65b02be29186d2990fef3", null ],
-    [ "UpdateAI", "d8/dc0/a14689.html#a651b11c4cc5f92881b4dd5b7f22c9d85", null ],
-    [ "events", "d8/dc0/a14689.html#af0c1477b3d9fb48cfcf55f32e21591f4", null ],
-    [ "warps", "d8/dc0/a14689.html#a478113af1ce565c729604c6039f55551", null ]
+    [ "npc_fel_stalkerAI", "d4/d06/a14693.html", "d4/d06/a14693" ],
+    [ "npc_fel_stalker", "d8/dc0/a14689.html#af761ceff017a17061c22b61ef0fe4a6d", null ],
+    [ "GetAI", "d8/dc0/a14689.html#a4b49f284f8f9b20843d2841bd8e8b7a8", null ]
 ];

@@ -1,22 +1,12 @@
 var a09149 =
 [
-    [ "LootGroup", "d7/d92/a09149.html#a66528563891f68cc71cf2e82c0c55f78", null ],
-    [ "~LootGroup", "d7/d92/a09149.html#a8e99105a3db65b4f8afcf032ce3bb33f", null ],
-    [ "LootGroup", "d7/d92/a09149.html#a0bf71d71cb78e1e8864feac535adf100", null ],
-    [ "AddEntry", "d7/d92/a09149.html#a6724f160613257f2d48c0e675a372c48", null ],
-    [ "CheckLootRefs", "d7/d92/a09149.html#a16186f3cc2025d6880e972c2c513e2c3", null ],
-    [ "CollectLootIds", "d7/d92/a09149.html#a41a24435f67bcf4fa8bf8447b5d4d9ba", null ],
-    [ "CopyConditions", "d7/d92/a09149.html#a55a98102081eca760af46fe2158ad6e4", null ],
-    [ "GetEqualChancedItemList", "d7/d92/a09149.html#a273b39ba11c62186f6b49f9eadf512c6", null ],
-    [ "GetExplicitlyChancedItemList", "d7/d92/a09149.html#a5654d18106376d9fb168dfd8e27f1355", null ],
-    [ "HasQuestDrop", "d7/d92/a09149.html#adee692736847d987093655aac3f23be8", null ],
-    [ "HasQuestDropForPlayer", "d7/d92/a09149.html#a0cc5c4a880c400b432d2ac0c482430ed", null ],
-    [ "operator=", "d7/d92/a09149.html#a7ca1a5e58a5e78430209e1207b732265", null ],
-    [ "Process", "d7/d92/a09149.html#a0f9d7b304045ed812b6203376dc442db", null ],
-    [ "RawTotalChance", "d7/d92/a09149.html#a5a4dfbbfaf6c6f87217c124f387d7951", null ],
-    [ "Roll", "d7/d92/a09149.html#a77483c54ae8cb9747726bfa0e7d7225f", null ],
-    [ "TotalChance", "d7/d92/a09149.html#ab306f81dc00d214e0ec8ac3903eff42e", null ],
-    [ "Verify", "d7/d92/a09149.html#a5486b1c43c6af31681d5c442957d5cf1", null ],
-    [ "EqualChanced", "d7/d92/a09149.html#a517a0800528f49cdb3202ff5bcf5280d", null ],
-    [ "ExplicitlyChanced", "d7/d92/a09149.html#a18c4cf84cf4c6f02a66ba45fa2978f49", null ]
+    [ "EventLogEntry", "d7/d92/a09149.html#a31726d40f7b89077b45ffbaca8396a9d", null ],
+    [ "EventLogEntry", "d7/d92/a09149.html#a96a2e3a6d565db452e7d0f1a152f63c7", null ],
+    [ "~EventLogEntry", "d7/d92/a09149.html#a8d6bf0a5a53fdc8e99ad53293d96af7c", null ],
+    [ "SaveToDB", "d7/d92/a09149.html#a2ca71e291a44f95bb42d51083aa84985", null ],
+    [ "WritePacket", "d7/d92/a09149.html#adffe90bd0265dea0ca2fd6bc83f3056e", null ],
+    [ "m_eventType", "d7/d92/a09149.html#a00216643e6856591402c21df490c1fec", null ],
+    [ "m_newRank", "d7/d92/a09149.html#ab733c92f478dc36e3b5ffc61799a6ce7", null ],
+    [ "m_playerGuid1", "d7/d92/a09149.html#a06a2b45d16860c711829f49f97624272", null ],
+    [ "m_playerGuid2", "d7/d92/a09149.html#a1f66e71f9536e484663e437bbcbcefca", null ]
 ];

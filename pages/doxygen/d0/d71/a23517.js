@@ -1,16 +1,12 @@
 var a23517 =
 [
-    [ "npc_battle_at_valhalasAI", "d0/d71/a23517.html#a2118bb3a502d2082297631e3dab298da", null ],
-    [ "CheckSummons", "d0/d71/a23517.html#a6ec21ce185cba4756dc4a00d1f65140c", null ],
-    [ "JustSummoned", "d0/d71/a23517.html#ac2c766dd298bf074f20968006a361036", null ],
-    [ "PrepareSummons", "d0/d71/a23517.html#a80e97ceef22290d241fa3f5894331c08", null ],
-    [ "Reset", "d0/d71/a23517.html#a303f268cbcc0e2c731c505c721c55da6", null ],
-    [ "ResetData", "d0/d71/a23517.html#a3bc670704f0e235ae4022ba796a333b9", null ],
-    [ "StartBattle", "d0/d71/a23517.html#a01dff1aba876527951d3c83ae8b240ff", null ],
-    [ "UpdateAI", "d0/d71/a23517.html#a3294ef4eb601df5156db0ba416d3aabe", null ],
-    [ "currentQuest", "d0/d71/a23517.html#a7c8a2c0710f68d617bd7edd71632c744", null ],
-    [ "events", "d0/d71/a23517.html#a74ac913100bb6ecd904f0b2f0e590271", null ],
-    [ "playerGUID", "d0/d71/a23517.html#aac5d72cbc9f07d43dc6d9b722d0626b8", null ],
-    [ "playerGUID2", "d0/d71/a23517.html#af29a4ea9c3c9c62364eb997258e5fa70", null ],
-    [ "summons", "d0/d71/a23517.html#a3e894857fd5e3f4ccc5fc40c47a8cabe", null ]
+    [ "npc_your_inner_turmoilAI", "d0/d71/a23517.html#a95e8039b174f6db267197e04b6bd2dd2", null ],
+    [ "DamageTaken", "d0/d71/a23517.html#a0e14a306db46e817e6d8f7a358519f83", null ],
+    [ "JustDied", "d0/d71/a23517.html#a142359bf1661542d044a7d27b764832b", null ],
+    [ "Reset", "d0/d71/a23517.html#a4e17e9642ec11712652f41495974b716", null ],
+    [ "setphase", "d0/d71/a23517.html#a17c00619bcf5818e49f67d4d8b8b35b0", null ],
+    [ "UpdateAI", "d0/d71/a23517.html#a2a4b20fccb4b5ef0f590f0a7ee92e4d2", null ],
+    [ "health50", "d0/d71/a23517.html#af5a9e355c2a5a927d38ea22fe96d89f0", null ],
+    [ "phase", "d0/d71/a23517.html#a60212e1504bcb6f7db05ba5ed09df71f", null ],
+    [ "timer", "d0/d71/a23517.html#af2c272de51aa15a41af9837f99256a62", null ]
 ];

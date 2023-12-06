@@ -1,6 +1,6 @@
 var a19201 =
 [
-    [ "OnPeriodic", "d9/db4/a19201.html#a5520cfa7a11c3bbf2fd819a320298531", null ],
-    [ "PrepareAuraScript", "d9/db4/a19201.html#acb3b20a8bf5029f4bb2a9a6030545c02", null ],
-    [ "Register", "d9/db4/a19201.html#afa06966753ef34fa1e2a3d8299d24a67", null ]
+    [ "spell_the_lich_king_lights_favor_AuraScript", "d1/d53/a19205.html", "d1/d53/a19205" ],
+    [ "spell_the_lich_king_lights_favor", "d9/db4/a19201.html#a52d86cc334cb66682e212d329c6f4813", null ],
+    [ "GetAuraScript", "d9/db4/a19201.html#a69df7e69c3d72803b3a25b1c4fdfd143", null ]
 ];

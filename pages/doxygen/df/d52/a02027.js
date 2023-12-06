@@ -1,4 +1,4 @@
 var a02027 =
 [
-    [ "WorldPackets::Combat::SetSheathed", "dd/d67/a10025.html", "dd/d67/a10025" ]
+    [ "ScriptRegistry< MailScript >", "df/d52/a02027.html#a2c63e917d984cb7f72bcae15da56850c", null ]
 ];

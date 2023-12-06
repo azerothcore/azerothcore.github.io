@@ -1,6 +1,6 @@
 var a26717 =
 [
-    [ "PrepareSpellScript", "df/d7d/a26717.html#ae8ef8bea1a6afa3f810c476e038bacc6", null ],
-    [ "RecalculateDamage", "df/d7d/a26717.html#a856fdecdde1c68a163caf61afb2b0b90", null ],
-    [ "Register", "df/d7d/a26717.html#a7f8c5c4920a87605b716e9e85b43ef47", null ]
+    [ "PrepareAuraScript", "df/d7d/a26717.html#a8a60db6939ba71ddcf723fb4e48b3146", null ],
+    [ "Register", "df/d7d/a26717.html#a8ab913cf84f55428d2b0615172f3da3b", null ],
+    [ "AuraEffectHandleModes", "df/d7d/a26717.html#aed1cfe63d82450b526e154678fb97ac4", null ]
 ];

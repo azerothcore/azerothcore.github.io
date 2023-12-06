@@ -1,8 +1,6 @@
 var a14733 =
 [
-    [ "npc_arthasAI", "d4/d84/a14737.html", "d4/d84/a14737" ],
-    [ "npc_arthas", "dc/d2c/a14733.html#a87c280ff9861187b0a713f795e657266", null ],
-    [ "GetAI", "dc/d2c/a14733.html#a4a613dd76cde27f7df834b9bb837ab6c", null ],
-    [ "OnGossipHello", "dc/d2c/a14733.html#a4bd3d5dd8eebe48b525e2bd162787172", null ],
-    [ "OnGossipSelect", "dc/d2c/a14733.html#aeca2f4baa3c943281c676c6498393165", null ]
+    [ "Cooldown", "dc/d2c/a14733.html#ad25399079776c4c78f6215f3189195ec", null ],
+    [ "SpellId", "dc/d2c/a14733.html#afe38fa1cb5ac67dd90c9b08fc2475a2e", null ],
+    [ "TargetType", "dc/d2c/a14733.html#a4fbad9e6a60f80d129fe7aedaba83cca", null ]
 ];

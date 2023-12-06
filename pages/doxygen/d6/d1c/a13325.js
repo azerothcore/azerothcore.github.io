@@ -1,6 +1,6 @@
 var a13325 =
 [
-    [ "npc_augustus_the_touched", "d6/d1c/a13325.html#abc84c884345f44cf780410569cdee10c", null ],
-    [ "OnGossipHello", "d6/d1c/a13325.html#a81e0d4f2aaa685cd5231ea430c86e7b4", null ],
-    [ "OnGossipSelect", "d6/d1c/a13325.html#a992da9b22693c1fac1148b4ba545b819", null ]
+    [ "instance_uldaman_InstanceMapScript", "dd/d7c/a13329.html", "dd/d7c/a13329" ],
+    [ "instance_uldaman", "d6/d1c/a13325.html#a854807db729d15aa4a09aad051fe3bda", null ],
+    [ "GetInstanceScript", "d6/d1c/a13325.html#a672bb8b5a16d29d25a191ab90d8007b4", null ]
 ];

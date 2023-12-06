@@ -1,11 +1,19 @@
 var a02918 =
 [
-    [ "AddEventsScripts", "d4/db9/a02918.html#a5b00ce0eeb1dcf64dc867f4bce623416", null ],
-    [ "AddSC_event_brewfest_scripts", "d4/db9/a02918.html#a7b95e86ce715aad734d059cfc0cf88d7", null ],
-    [ "AddSC_event_childrens_week", "d4/db9/a02918.html#a832536a026ab4dad8df7bb48ad0493fc", null ],
-    [ "AddSC_event_hallows_end_scripts", "d4/db9/a02918.html#a70705fe4a0f9a88d8f185363054af273", null ],
-    [ "AddSC_event_love_in_the_air", "d4/db9/a02918.html#acd28b6b284f9e0f8caa1194e2dc904f8", null ],
-    [ "AddSC_event_midsummer_scripts", "d4/db9/a02918.html#adc17dd3d30524a3c73b564d6eed54f1c", null ],
-    [ "AddSC_event_pilgrims_end_scripts", "d4/db9/a02918.html#a8e59953c9b1731e315c9c6b9148a88e6", null ],
-    [ "AddSC_event_winter_veil_scripts", "d4/db9/a02918.html#a56e93f0f5c0f4763c439d5ea4cdf6c5e", null ]
+    [ "instance_sunwell_plateau", "d1/dec/a13301.html", "d1/dec/a13301" ],
+    [ "instance_sunwell_plateau::instance_sunwell_plateau_InstanceMapScript", "d9/d34/a13305.html", "d9/d34/a13305" ],
+    [ "spell_cataclysm_breath", "d7/df6/a13309.html", "d7/df6/a13309" ],
+    [ "spell_cataclysm_breath::spell_cataclysm_breath_SpellScript", "db/d00/a13313.html", "db/d00/a13313" ],
+    [ "cataclysmBreath", "d4/db9/a02918.html#a6a5181bd462eed11e28ffb04c14a901c", [
+      [ "SPELL_CORROSIVE_POISON", "d4/db9/a02918.html#a6a5181bd462eed11e28ffb04c14a901ca818edbfea0cf0c02ff4960dc3223a5f3", null ],
+      [ "SPELL_FEVERED_FATIGUE", "d4/db9/a02918.html#a6a5181bd462eed11e28ffb04c14a901ca998a1e2cfc29e3344feb12041284e222", null ],
+      [ "SPELL_HEX", "d4/db9/a02918.html#a6a5181bd462eed11e28ffb04c14a901ca88cd9f67c5feb7f0ba6c853b8520a00b", null ],
+      [ "SPELL_NECROTIC_POISON", "d4/db9/a02918.html#a6a5181bd462eed11e28ffb04c14a901ca91659ae45d576a823387ef54f56e2c4b", null ],
+      [ "SPELL_PIERCING_SHADOW", "d4/db9/a02918.html#a6a5181bd462eed11e28ffb04c14a901cadfad6c0302dc1ae7b545b95f9b85b58d", null ],
+      [ "SPELL_SHRINK", "d4/db9/a02918.html#a6a5181bd462eed11e28ffb04c14a901ca049e0d56c3f30d8991dde2beae302c4f", null ],
+      [ "SPELL_WAVERING_WILL", "d4/db9/a02918.html#a6a5181bd462eed11e28ffb04c14a901ca799fa97283c7b88949520a98f9f00ee8", null ],
+      [ "SPELL_WITHERED_TOUCH", "d4/db9/a02918.html#a6a5181bd462eed11e28ffb04c14a901caa34a7e07cb901fc82e3dc957d620e03b", null ]
+    ] ],
+    [ "AddSC_instance_sunwell_plateau", "d4/db9/a02918.html#a6f050a93b62a1391ae6321d1d2d6450a", null ],
+    [ "doorData", "d4/db9/a02918.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
 ];

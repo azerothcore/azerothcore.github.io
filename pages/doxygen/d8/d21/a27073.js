@@ -1,7 +1,11 @@
 var a27073 =
 [
-    [ "HandleStun", "d8/d21/a27073.html#aec7b18c9fe4d03e6e61dd2e43c842a93", null ],
-    [ "PrepareAuraScript", "d8/d21/a27073.html#a26bf4bfdbe5ccf890d75bc663f228639", null ],
-    [ "Register", "d8/d21/a27073.html#a660a0e41ac5918cd365f4c47fea9c230", null ],
-    [ "Validate", "d8/d21/a27073.html#a4e89cdbc719b32576f57dd6f7e5d3f2a", null ]
+    [ "spell_gen_consume", "d8/d21/a27073.html#a839f5e891cfbd0f83937f06c7fd049d4", null ],
+    [ "AfterRemove", "d8/d21/a27073.html#ac521cc1524ddb9dd298145f23cc8fcd1", null ],
+    [ "HandleProc", "d8/d21/a27073.html#af69251aa0415a2148162f32dd9113917", null ],
+    [ "PrepareAuraScript", "d8/d21/a27073.html#a43860e5dcb2d2cb49e52c280d4f3c7e9", null ],
+    [ "Register", "d8/d21/a27073.html#a043362a08bcf9cfe253dd23c722a60bc", null ],
+    [ "Validate", "d8/d21/a27073.html#ae9b7c2f4a1b8f26a20b5ca6d90d3c5e9", null ],
+    [ "_spellId1", "d8/d21/a27073.html#a9763527e0a95c52888847b84d8f1dd8d", null ],
+    [ "_spellId2", "d8/d21/a27073.html#aa9b47c361eaad7dac4725e0be1bfe254", null ]
 ];

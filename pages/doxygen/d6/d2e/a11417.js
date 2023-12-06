@@ -1,6 +1,6 @@
 var a11417 =
 [
-    [ "boss_high_interrogator_gerstahnAI", "d7/d62/a11421.html", "d7/d62/a11421" ],
-    [ "boss_high_interrogator_gerstahn", "d6/d2e/a11417.html#a700eb542c041e9ca540f2676fc42aff9", null ],
-    [ "GetAI", "d6/d2e/a11417.html#ab4e92847a1ce6bf50f0ae460c1a7108f", null ]
+    [ "boss_vanndarAI", "d7/d62/a11421.html", "d7/d62/a11421" ],
+    [ "boss_vanndar", "d6/d2e/a11417.html#a66d190d1b48fd2259a95d88235ffb7d2", null ],
+    [ "GetAI", "d6/d2e/a11417.html#ad1879cc6123a323ada04c49a2c691349", null ]
 ];

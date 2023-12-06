@@ -1,7 +1,6 @@
 var a15761 =
 [
-    [ "npc_ranshallaAI", "de/d98/a15765.html", "de/d98/a15765" ],
-    [ "npc_ranshalla", "de/d0a/a15761.html#a0b9848c68cf955d24024071ae9beb8e5", null ],
-    [ "GetAI", "de/d0a/a15761.html#a1a81651366cc05d3ad6e9929160fe059", null ],
-    [ "OnQuestAccept", "de/d0a/a15761.html#a4ed77a4c0a48dc4922fa5ebb71949e28", null ]
+    [ "HandleDummy", "de/d0a/a15761.html#a2750ae788168e7496ea2345c5535509c", null ],
+    [ "PrepareSpellScript", "de/d0a/a15761.html#a66b4187decbfb0b5623ce5630a8fa9d3", null ],
+    [ "Register", "de/d0a/a15761.html#ab6c961d89d22761402eb4f5881cbd318", null ]
 ];

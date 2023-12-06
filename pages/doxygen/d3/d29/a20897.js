@@ -1,6 +1,6 @@
 var a20897 =
 [
-    [ "spell_assembly_meltdown_SpellScript", "d4/d56/a20901.html", "d4/d56/a20901" ],
-    [ "spell_assembly_meltdown", "d3/d29/a20897.html#a4a29a9a6204468b58af685db3fd22d82", null ],
-    [ "GetSpellScript", "d3/d29/a20897.html#aaad39858e3c6d2720a3ed97eaced4c3f", null ]
+    [ "CastRunesEvent", "d3/d29/a20897.html#aa3c5912362a4ce8a5b463da626f277b0", null ],
+    [ "Execute", "d3/d29/a20897.html#ad86f17817c8a5accb1cc90e0e5d362f3", null ],
+    [ "_owner", "d3/d29/a20897.html#a308c679c6e427e89734b5f506ad9d0d6", null ]
 ];

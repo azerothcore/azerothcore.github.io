@@ -1,8 +1,6 @@
 var a16469 =
 [
-    [ "npc_announcer_toc5AI", "df/d81/a16469.html#a96e1bd089dfd21fa252bc6422d20bada", null ],
-    [ "DamageTaken", "df/d81/a16469.html#a53458483699ac026ff2cd36b5f061571", null ],
-    [ "MovementInform", "df/d81/a16469.html#acdcf4110b3815635ad173a70e7a1e603", null ],
-    [ "Reset", "df/d81/a16469.html#ab3dca17e0350d6d46a9069f97f2d12ef", null ],
-    [ "UpdateAI", "df/d81/a16469.html#ad2c596253d67d051f497a8d77859846d", null ]
+    [ "npc_toc5_player_vehicleAI", "df/d52/a16473.html", "df/d52/a16473" ],
+    [ "npc_toc5_player_vehicle", "df/d81/a16469.html#a8786627999d3d1681d9de58cd8c46744", null ],
+    [ "GetAI", "df/d81/a16469.html#af89c559eff828130df821c0c30c61f7a", null ]
 ];

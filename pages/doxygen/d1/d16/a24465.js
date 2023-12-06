@@ -1,6 +1,7 @@
 var a24465 =
 [
-    [ "boss_essence_of_desireAI", "d7/d94/a24469.html", "d7/d94/a24469" ],
-    [ "boss_essence_of_desire", "d1/d16/a24465.html#a5006ce57dd19c2a80e961dedca8c503d", null ],
-    [ "GetAI", "d1/d16/a24465.html#a14b66470c508fa24e214062aeec0aae6", null ]
+    [ "CheckProc", "d1/d16/a24465.html#ad04e40b68ac23ff0059a4829a382f8e2", null ],
+    [ "PrepareAuraScript", "d1/d16/a24465.html#a1d33ed4db696cc364d97bce0acd30755", null ],
+    [ "Register", "d1/d16/a24465.html#a3a0deab2a7524d965c8a2ec29c3a49fa", null ],
+    [ "Update", "d1/d16/a24465.html#a45e5e1dd315baab1ceeed7a8ba0515fb", null ]
 ];

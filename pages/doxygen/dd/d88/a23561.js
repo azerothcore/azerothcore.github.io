@@ -1,8 +1,8 @@
 var a23561 =
 [
-    [ "spell_charge_shield_bomber_AuraScript", "dc/dc3/a23569.html", "dc/dc3/a23569" ],
-    [ "spell_charge_shield_bomber_SpellScript", "d5/d63/a23565.html", "d5/d63/a23565" ],
-    [ "spell_charge_shield_bomber", "dd/d88/a23561.html#ae72e123ce9928564fbbbbf535c005a04", null ],
-    [ "GetAuraScript", "dd/d88/a23561.html#a749e428d7d6497981d42e08341d64e42", null ],
-    [ "GetSpellScript", "dd/d88/a23561.html#aefe19484ebdf3529540a5c5bd9f0aec1", null ]
+    [ "npc_llod_genericAI", "dd/d88/a23561.html#ac75d85ae4b59416952788102cd1db132", null ],
+    [ "Reset", "dd/d88/a23561.html#a15bd7442fef36a551cc8797f7919f57c", null ],
+    [ "UpdateAI", "dd/d88/a23561.html#aa7dce553fb699127f63281b2c47a2f02", null ],
+    [ "attackTimer", "dd/d88/a23561.html#a28a6e700d24995e477e7e7c4cc8b5d68", null ],
+    [ "summonTimer", "dd/d88/a23561.html#aeeeef545aee565c14d86d8587923c677", null ]
 ];

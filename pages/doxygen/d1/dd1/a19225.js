@@ -1,8 +1,6 @@
 var a19225 =
 [
-    [ "npc_lk_spirit_bombAI", "d1/dd1/a19225.html#a366fb54e68c0e603000183cd68daf6b7", null ],
-    [ "IsSummonedBy", "d1/dd1/a19225.html#a9b3de8c6e2006a19ee1289455163f52c", null ],
-    [ "MovementInform", "d1/dd1/a19225.html#a0e4aa94a199439962095c1d2026b2a5f", null ],
-    [ "UpdateAI", "d1/dd1/a19225.html#a61b4f7c3a1dd9b9b2850b05f2117e55a", null ],
-    [ "timer", "d1/dd1/a19225.html#aa0d370113b753127d4f0fd7bd3a3ba11", null ]
+    [ "spell_the_lich_king_dark_hunger_AuraScript", "da/d01/a19229.html", "da/d01/a19229" ],
+    [ "spell_the_lich_king_dark_hunger", "d1/dd1/a19225.html#a3e7bab0034fd486c51574a5e97a8eec6", null ],
+    [ "GetAuraScript", "d1/dd1/a19225.html#abf411918c3ad225b1840ac40201213b4", null ]
 ];

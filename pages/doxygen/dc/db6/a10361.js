@@ -1,6 +1,6 @@
 var a10361 =
 [
-    [ "DismissCritter", "dc/db6/a10361.html#a87e35583063b340f014d21cd02c54cab", null ],
-    [ "Read", "dc/db6/a10361.html#a411b65505e8a332ecf9291a670dc38c4", null ],
-    [ "CritterGUID", "dc/db6/a10361.html#a89c071e81c9d39c099c32c4976f15304", null ]
+    [ "GuildBankTextQuery", "dc/db6/a10361.html#ab74c6b61182349e3697d6b8f2f3393d2", null ],
+    [ "Read", "dc/db6/a10361.html#af20bd5c8e58b891028613625fb14807d", null ],
+    [ "Tab", "dc/db6/a10361.html#a368054d83fb99317ffd14b4d79ffd0af", null ]
 ];

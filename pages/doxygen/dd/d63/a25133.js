@@ -1,6 +1,7 @@
 var a25133 =
 [
-    [ "instance_the_slave_pens_InstanceMapScript", "dc/d1a/a25137.html", "dc/d1a/a25137" ],
-    [ "instance_the_slave_pens", "dd/d63/a25133.html#a765f7b66ad3bed1828524ecb143742f2", null ],
-    [ "GetInstanceScript", "dd/d63/a25133.html#a0eedcecf1ddc27e139898cacf6f48965", null ]
+    [ "CalcPeriodic", "dd/d63/a25133.html#aeae100fb3ab86b9064c3923472fbd45d", null ],
+    [ "PrepareAuraScript", "dd/d63/a25133.html#a290913502dfe3dfb42b44a964468b97c", null ],
+    [ "Register", "dd/d63/a25133.html#aea7a6e4bcbc97d19393d790a28a4483a", null ],
+    [ "Update", "dd/d63/a25133.html#ab3bdb3a14c6d130d295553e635acb47c", null ]
 ];

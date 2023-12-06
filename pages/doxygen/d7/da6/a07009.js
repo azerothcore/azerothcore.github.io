@@ -1,11 +1,14 @@
 var a07009 =
 [
-    [ "BattlegroundSAScore", "d7/da6/a07009.html#afb1312e304eee973740cfe208657c5b9", null ],
-    [ "BuildObjectivesBlock", "d7/da6/a07009.html#a57bf8241b404571cda5a8e113c334eab", null ],
-    [ "GetAttr1", "d7/da6/a07009.html#aa31cd91ede928c57cd201dba61f7f585", null ],
-    [ "GetAttr2", "d7/da6/a07009.html#aba47bb1ec440f405bfde8513c60ae576", null ],
-    [ "UpdateScore", "d7/da6/a07009.html#a169a2a0a51edb6564e98c4b55f3e8a3b", null ],
-    [ "BattlegroundSA", "d7/da6/a07009.html#ab31c13442be48941f5dab4214b95cde9", null ],
-    [ "DemolishersDestroyed", "d7/da6/a07009.html#ac49c28efa42cfad7232268de4be45e66", null ],
-    [ "GatesDestroyed", "d7/da6/a07009.html#aeb1310b64150dd51f91722574a9dd3fc", null ]
+    [ "IsArena", "d7/da6/a07009.html#a8a99bf73debf5835e58537bee33fe2ad", null ],
+    [ "BattlemasterEntry", "d7/da6/a07009.html#a51ce3b9fdb2f51f439fee7c8b48e3918", null ],
+    [ "Id", "d7/da6/a07009.html#a0fca37318585903f68695452a95011a9", null ],
+    [ "MaxLevel", "d7/da6/a07009.html#a790f55d480d1454a5f6e5713c04314b7", null ],
+    [ "MaxPlayersPerTeam", "d7/da6/a07009.html#a324a4e557ce66089ec1111a9dae6e1de", null ],
+    [ "MaxStartDistSq", "d7/da6/a07009.html#a5fbb1a76221e9d15bd7cca13581f7b14", null ],
+    [ "MinLevel", "d7/da6/a07009.html#a49fdf96a08376830a06956fd501cfa78", null ],
+    [ "MinPlayersPerTeam", "d7/da6/a07009.html#ac1bea263b53de8573cdb8eb890175495", null ],
+    [ "ScriptId", "d7/da6/a07009.html#a968dd626dba22925be3d8f1a3bdc51aa", null ],
+    [ "StartLocation", "d7/da6/a07009.html#a8477d2156c8aa5bb89da038d1a779698", null ],
+    [ "Weight", "d7/da6/a07009.html#aa7a051e8453599a7e82da763a6f91da2", null ]
 ];

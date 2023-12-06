@@ -1,9 +1,6 @@
 var a23353 =
 [
-    [ "npc_mrfloppyAI", "d6/df7/a23353.html#a2994e5658035bb2cfe6f3cdab4c507fc", null ],
-    [ "EnterEvadeMode", "d6/df7/a23353.html#af0f11f715cac553c772c0dca7e5e3a22", null ],
-    [ "JustEngagedWith", "d6/df7/a23353.html#a490bf07de00cc5c59b5f0024317d8125", null ],
-    [ "MoveInLineOfSight", "d6/df7/a23353.html#af0b376c5f10b6cb43f3bb63376012a0d", null ],
-    [ "Reset", "d6/df7/a23353.html#ac2dc6204b0579e1aaf7e670f0fcb4ec5", null ],
-    [ "UpdateAI", "d6/df7/a23353.html#afad6db1ccd903fd18192f832a10a32f4", null ]
+    [ "spell_q12096_q12092_bark_SpellScript", "d7/d2d/a23357.html", "d7/d2d/a23357" ],
+    [ "spell_q12096_q12092_bark", "d6/df7/a23353.html#a85691ffb63bbe1022a2d35031c3e1d3c", null ],
+    [ "GetSpellScript", "d6/df7/a23353.html#a91517623f2883b5e9e32045b4890436b", null ]
 ];

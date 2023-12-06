@@ -1,7 +1,6 @@
 var a27245 =
 [
-    [ "HandleDummy", "d8/d78/a27245.html#a5b25d03bb22995e1ba9deb7eec4ee35a", null ],
-    [ "Load", "d8/d78/a27245.html#a833d9abe12cb4fff1700b97bc7215c1d", null ],
-    [ "PrepareSpellScript", "d8/d78/a27245.html#a547b3f71f9fc502dc589ad7b9b6f3cc2", null ],
-    [ "Register", "d8/d78/a27245.html#ae7d502253b0c47921e40da4aa87b0eef", null ]
+    [ "HandleItemRemove", "d8/d78/a27245.html#a28f8f8e6823bad14900d08ba10cab7e6", null ],
+    [ "PrepareSpellScript", "d8/d78/a27245.html#a8b43e146724a2c8b3c495e886a79d021", null ],
+    [ "Register", "d8/d78/a27245.html#af8b02c31b81dce516ea47d6a1235d683", null ]
 ];

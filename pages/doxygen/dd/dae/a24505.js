@@ -1,9 +1,6 @@
 var a24505 =
 [
-    [ "CalculateAmount", "dd/dae/a24505.html#a24023309aa98feec5c1f21360135a645", null ],
-    [ "CheckProc", "dd/dae/a24505.html#ae9f832f8e13e383de9442b59d5694c1d", null ],
-    [ "HandleProc", "dd/dae/a24505.html#ae91be3f8edae9e28bb84e797f2b9375b", null ],
-    [ "PrepareAuraScript", "dd/dae/a24505.html#a80dbbd11ed3a6867a1f3b7946cc56539", null ],
-    [ "Register", "dd/dae/a24505.html#acfc283bab17ca7d3916b606de5a1f821", null ],
-    [ "Update", "dd/dae/a24505.html#adf311ee31ca8a61ca39a75975b8d5392", null ]
+    [ "boss_essence_of_sufferingAI", "d0/d2d/a24509.html", "d0/d2d/a24509" ],
+    [ "boss_essence_of_suffering", "dd/dae/a24505.html#a1237f428657f0e9a0218695264358384", null ],
+    [ "GetAI", "dd/dae/a24505.html#adb54519bdf220cb3e30c81627c1ba11a", null ]
 ];

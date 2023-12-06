@@ -1,6 +1,6 @@
 var a26753 =
 [
-    [ "PrepareSpellScript", "d8/de1/a26753.html#a209f68c2a9824ad771f7b6a25d4c4663", null ],
-    [ "Register", "d8/de1/a26753.html#a759b195d4631a371bef3e6398e128034", null ],
-    [ "SelectTarget", "d8/de1/a26753.html#a676c6fdbced0ea7e945c4724c9adf145", null ]
+    [ "HandleDummy", "d8/de1/a26753.html#a80ab847f2528060b2e3e2e128cfc06af", null ],
+    [ "PrepareSpellScript", "d8/de1/a26753.html#af310c2b28ed816b9fbe494f81c42043c", null ],
+    [ "Register", "d8/de1/a26753.html#ae5e494ca801b35520bddb4a8a148efcd", null ]
 ];

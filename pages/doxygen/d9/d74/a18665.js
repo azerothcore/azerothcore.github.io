@@ -1,6 +1,6 @@
 var a18665 =
 [
-    [ "LastPhaseIceTombTargetSelector", "d9/d74/a18665.html#ac01f20b199bb0ee63b9c8f8206321057", null ],
-    [ "operator()", "d9/d74/a18665.html#a92a846ff557334b1f30d8e062a2c64e9", null ],
-    [ "_source", "d9/d74/a18665.html#ab10d10dd0de7717078d31ac026d4c933", null ]
+    [ "spell_rotface_unstable_ooze_explosion_SpellScript", "d2/d28/a18669.html", "d2/d28/a18669" ],
+    [ "spell_rotface_unstable_ooze_explosion", "d9/d74/a18665.html#af78c72b5f2fc3997924d645b4c08088a", null ],
+    [ "GetSpellScript", "d9/d74/a18665.html#ac889f959eaa3e178b62601b79c83fef5", null ]
 ];

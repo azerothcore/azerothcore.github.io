@@ -1,6 +1,6 @@
 var a12953 =
 [
-    [ "spell_felmyst_fog_of_corruption_SpellScript", "da/ddf/a12957.html", "da/ddf/a12957" ],
-    [ "spell_felmyst_fog_of_corruption", "d7/d5c/a12953.html#a8f34d3d602c107c4e6c2a966f7d23a8f", null ],
-    [ "GetSpellScript", "d7/d5c/a12953.html#a7f1c5197bc61dcef718d6eb49792a875", null ]
+    [ "boss_sacrolashAI", "da/ddf/a12957.html", "da/ddf/a12957" ],
+    [ "boss_sacrolash", "d7/d5c/a12953.html#a97d7451b8cc9de91da97ed29ac799fed", null ],
+    [ "GetAI", "d7/d5c/a12953.html#a67e9393b320f3dce72dd5077daea104c", null ]
 ];

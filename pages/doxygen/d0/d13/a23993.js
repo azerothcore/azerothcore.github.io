@@ -1,6 +1,5 @@
 var a23993 =
 [
-    [ "npc_captured_rageclawAI", "d7/df7/a23997.html", "d7/df7/a23997" ],
-    [ "npc_captured_rageclaw", "d0/d13/a23993.html#ad49176279e9d16a6a24c0649c576c0be", null ],
-    [ "GetAI", "d0/d13/a23993.html#aa39b6c518fe22d91b8673cfd576866a4", null ]
+    [ "achievement_wg_vehicular_gnomeslaughter", "d0/d13/a23993.html#a441b8db113ef4843f433c1ea3f3052b5", null ],
+    [ "OnCheck", "d0/d13/a23993.html#ab23a2d90e536a3a9ecbb3b64c5b0e18f", null ]
 ];

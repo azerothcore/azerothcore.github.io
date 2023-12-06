@@ -1,6 +1,6 @@
 var a23541 =
 [
-    [ "npc_boneguard_footmanAI", "d2/df3/a23541.html#a04eff1976824724b321f0c0d95e0940a", null ],
-    [ "UpdateAI", "d2/df3/a23541.html#a9cba65867824daeb50cb2b39d68ad84b", null ],
-    [ "checkTimer", "d2/df3/a23541.html#a46dd1fa8d111dca0584a8e6fb7a6a566", null ]
+    [ "npc_black_knight_graveyardAI", "d4/d8f/a23545.html", "d4/d8f/a23545" ],
+    [ "npc_black_knight_graveyard", "d2/df3/a23541.html#a2ce61ba254916f1f8b7a7658f96b67d5", null ],
+    [ "GetAI", "d2/df3/a23541.html#aab382cd1b7561c0db9c9f4c81247e540", null ]
 ];

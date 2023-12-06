@@ -1,10 +1,7 @@
 var a27089 =
 [
-    [ "spell_gen_summon_elemental", "dc/d71/a27089.html#ae2dece3ac20afe16430e741fab909fa1", null ],
-    [ "AfterApply", "dc/d71/a27089.html#a97fbc7e3f60b6aae5d9783bbd9a2415d", null ],
-    [ "AfterRemove", "dc/d71/a27089.html#aeec3688e66a7e9f0207b219e9dcdb265", null ],
-    [ "PrepareAuraScript", "dc/d71/a27089.html#a3ad6e5615bb080abae4e18673cd40b6d", null ],
-    [ "Register", "dc/d71/a27089.html#ac364e1a3c4b5a1cfd35d8dcec0a42345", null ],
-    [ "Validate", "dc/d71/a27089.html#ac2284d4f192fe402ebcf6ad75e777c2a", null ],
-    [ "_spellId", "dc/d71/a27089.html#a6ac27b65f909a8c832cf3d301c8db0ce", null ]
+    [ "HandleDummy", "dc/d71/a27089.html#a704a2f1c36b32809b22bc3edc87b3414", null ],
+    [ "PrepareSpellScript", "dc/d71/a27089.html#aad01f2888176e8a555fe7acd1bc3fd8b", null ],
+    [ "Register", "dc/d71/a27089.html#ae12fa2b2f9859b465a64fbec04345c9e", null ],
+    [ "Validate", "dc/d71/a27089.html#ad4bb369ef46122cd45c38d876884d350", null ]
 ];

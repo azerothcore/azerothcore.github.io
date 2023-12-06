@@ -1,5 +1,6 @@
 var a18793 =
 [
-    [ "achievement_all_you_can_eat", "d9/d98/a18793.html#a0995024862a445ea1f0ff5c82475fc64", null ],
-    [ "OnCheck", "d9/d98/a18793.html#a0baa07a7cbd239e4a5fcfd3e687aedf6", null ]
+    [ "FilterTargets", "d9/d98/a18793.html#ad044eb9e63eb147e5ea64408a611489e", null ],
+    [ "PrepareSpellScript", "d9/d98/a18793.html#addf06ce8b29374b925985e0656c8d73a", null ],
+    [ "Register", "d9/d98/a18793.html#ae8351cd6f679b9ca7ee763ceebef5f7e", null ]
 ];

@@ -1,6 +1,7 @@
 var a23473 =
 [
-    [ "npc_attracted_reef_bullAI", "d8/d94/a23473.html#aa8917a912fb31a5987332e53e8d268e7", null ],
-    [ "MovementInform", "d8/d94/a23473.html#a79d9539243f178a2989f017c5f9ebc8c", null ],
-    [ "SpellHit", "d8/d94/a23473.html#ab06ee7ef84d881262ae682b69fae3135", null ]
+    [ "HandleDummy", "d8/d94/a23473.html#a36ef84151fa00b771bc084e324233aff", null ],
+    [ "PrepareSpellScript", "d8/d94/a23473.html#a2404afa473d5ac5a72488a077c1ef206", null ],
+    [ "Register", "d8/d94/a23473.html#acf4eab6f5b9e2b415fd1e981d4a959d4", null ],
+    [ "Validate", "d8/d94/a23473.html#aeff8a52d29caebba642648a40ddd39b3", null ]
 ];

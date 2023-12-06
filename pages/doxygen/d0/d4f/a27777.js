@@ -1,7 +1,8 @@
 var a27777 =
 [
-    [ "OnRemove", "d0/d4f/a27777.html#a8c39ba2fbd8c9c96de622afd8d04281e", null ],
-    [ "PrepareAuraScript", "d0/d4f/a27777.html#a9e13b76ceb256dec1a6c9dccd5c6c537", null ],
-    [ "Register", "d0/d4f/a27777.html#a9fbaec43bae2f4d6f4b94b18da0144fe", null ],
-    [ "Validate", "d0/d4f/a27777.html#a8f111779a3a0e68fe5a313e6eae716b3", null ]
+    [ "HandleDummy", "d0/d4f/a27777.html#a04ff6beb930b65395ebc3df99bc53dfa", null ],
+    [ "PrepareSpellScript", "d0/d4f/a27777.html#a73eabf1e68c966f31fe8d83c2fd925c1", null ],
+    [ "Register", "d0/d4f/a27777.html#a6b03fbcf18612d9bb7361c3e4f022dc0", null ],
+    [ "Validate", "d0/d4f/a27777.html#a9df13e3e8895854bc086fbfaccfb1b2c", null ],
+    [ "PolymorhForms", "d0/d4f/a27777.html#a1443d2532a060514e697a8d5e0c21b20", null ]
 ];

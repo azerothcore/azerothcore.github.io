@@ -1,6 +1,6 @@
 var a13121 =
 [
-    [ "HandleScriptEffect", "d2/d86/a13121.html#a97e1265220ce92be23fbb58716515ddf", null ],
-    [ "PrepareSpellScript", "d2/d86/a13121.html#af1af210a76a0f5b3b2a8730ed4aa8bcc", null ],
-    [ "Register", "d2/d86/a13121.html#a801c92b06620a5846e58c217602997e6", null ]
+    [ "CastArmageddon", "d2/d86/a13121.html#a2e90929b63e6151252aa01a55dbd801f", null ],
+    [ "Execute", "d2/d86/a13121.html#a4f0651a38eaf03a07bcd73d0f88dda16", null ],
+    [ "_caster", "d2/d86/a13121.html#a1e70887099a7a47b7c26517d4363ad93", null ]
 ];

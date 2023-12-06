@@ -1,12 +1,14 @@
 var a07625 =
 [
-    [ "TrainerSpell", "da/df4/a07625.html#a87a098774b32babfcf2000e3330a25b9", null ],
-    [ "IsCastable", "da/df4/a07625.html#a2f638f0e068623d38f0dab7c346ac8ed", null ],
-    [ "learnedSpell", "da/df4/a07625.html#a2396712a58fa61f340632de48dac9b78", null ],
-    [ "reqLevel", "da/df4/a07625.html#ac71afa7c180905ae4247011b2f40f929", null ],
-    [ "reqSkill", "da/df4/a07625.html#ac0a74c104994e36ba95703689ed92964", null ],
-    [ "reqSkillValue", "da/df4/a07625.html#a1187d182a512ae0f40af6ea36a4911db", null ],
-    [ "reqSpell", "da/df4/a07625.html#a6f2d3fa6a5f4403822b924f64e796deb", null ],
-    [ "spell", "da/df4/a07625.html#af7649fcfa5e6ca77c7d0aa9ef474b44c", null ],
-    [ "spellCost", "da/df4/a07625.html#a9adb80199e22a0db5d4eb262d9edbfe8", null ]
+    [ "LfgQueueStatusData", "da/df4/a07625.html#af50fc3422feb137a7ccd820e2ac2fe44", null ],
+    [ "dps", "da/df4/a07625.html#a99a0bd2b1eeb4b8f9a7ffd088232ef0a", null ],
+    [ "dungeonId", "da/df4/a07625.html#a9a6288f9e14e593e147b4f60a1dc8991", null ],
+    [ "healers", "da/df4/a07625.html#a61b2c2f4391022c7e4ba3972c4467a74", null ],
+    [ "queuedTime", "da/df4/a07625.html#a398efafa1ef7faa6600d6fdb28306f49", null ],
+    [ "tanks", "da/df4/a07625.html#a74f54d22ca9e2b6711bf363737b9ff06", null ],
+    [ "waitTime", "da/df4/a07625.html#aa794f234bf93e66916f7eadb986f17ef", null ],
+    [ "waitTimeAvg", "da/df4/a07625.html#af44b91dd7ddfb702662663f989f026fc", null ],
+    [ "waitTimeDps", "da/df4/a07625.html#aa95e69bcfb84de1d37bc7ff1a4ece8bf", null ],
+    [ "waitTimeHealer", "da/df4/a07625.html#abf57fbbaac89b08bacf0731e3a8b65e3", null ],
+    [ "waitTimeTank", "da/df4/a07625.html#a73cdcd16181375a7d428e6b50cb1e1e6", null ]
 ];

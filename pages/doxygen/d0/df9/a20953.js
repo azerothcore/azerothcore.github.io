@@ -1,5 +1,5 @@
 var a20953 =
 [
-    [ "achievement_auriaya_crazy_cat_lady", "d0/df9/a20953.html#a1eb5d931c7c520b7cd6f516bfcb819e4", null ],
-    [ "OnCheck", "d0/df9/a20953.html#a905b9a4389521fde6d26d3c19a0fe21c", null ]
+    [ "achievement_cant_do_that_while_stunned", "d0/df9/a20953.html#a4d474b36f61631688ea723d2e4033574", null ],
+    [ "OnCheck", "d0/df9/a20953.html#a0b108bdcab0bc412975e61247f226bf8", null ]
 ];

@@ -1,6 +1,6 @@
 var a24721 =
 [
-    [ "HandleScriptEffect", "dd/dac/a24721.html#ac0d401f0930d936ef33c81591d833e2a", null ],
-    [ "PrepareSpellScript", "dd/dac/a24721.html#a81563f381e6efcfdfdb963d96be17186", null ],
-    [ "Register", "dd/dac/a24721.html#a137ca0652b8f00c75064d618cfc69ab4", null ]
+    [ "PrepareAuraScript", "dd/dac/a24721.html#a2d15732200595a5248c1ee3d4e295fe3", null ],
+    [ "Register", "dd/dac/a24721.html#af08f9e867a69e3e238805e5a78bc7267", null ],
+    [ "Update", "dd/dac/a24721.html#a2de2100333d925133e3a3c1d2c65a60f", null ]
 ];

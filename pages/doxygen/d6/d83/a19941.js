@@ -1,6 +1,6 @@
 var a19941 =
 [
-    [ "spell_gluth_decimate_SpellScript", "d9/d1a/a19945.html", "d9/d1a/a19945" ],
-    [ "spell_gluth_decimate", "d6/d83/a19941.html#a5236e7fe2dcd07287f607437226afd47", null ],
-    [ "GetSpellScript", "d6/d83/a19941.html#a5bf2e062641d7dab612033666dd1db47", null ]
+    [ "boss_faerlinaAI", "d9/d1a/a19945.html", "d9/d1a/a19945" ],
+    [ "boss_faerlina", "d6/d83/a19941.html#a86543ac855287e3de2e3ffcde66fb1cb", null ],
+    [ "GetAI", "d6/d83/a19941.html#aed8214323ff5b792d9bd6aae478e7848", null ]
 ];

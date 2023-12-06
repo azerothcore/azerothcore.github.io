@@ -1,6 +1,7 @@
 var a12817 =
 [
-    [ "OnRemove", "dd/d47/a12817.html#aa1cf7727c57d5b6a1968bafcdef63113", null ],
-    [ "PrepareAuraScript", "dd/d47/a12817.html#a1139466be6e4391d1f488d3f56758b2c", null ],
-    [ "Register", "dd/d47/a12817.html#a6ff95222d980c659653116f560ec2b80", null ]
+    [ "HandleScript", "dd/d47/a12817.html#acbff60b24bd0239880378b48cb97b6a4", null ],
+    [ "PrepareSpellScript", "dd/d47/a12817.html#a2f72b76ced4443a8eb1dfcf7bf6a4ac5", null ],
+    [ "Register", "dd/d47/a12817.html#a132d35555f1d589caa65ecd3728976d5", null ],
+    [ "Validate", "dd/d47/a12817.html#a503ce41357f8195837c9b14f2468fb5b", null ]
 ];

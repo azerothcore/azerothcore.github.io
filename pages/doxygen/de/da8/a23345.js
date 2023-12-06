@@ -1,10 +1,6 @@
 var a23345 =
 [
-    [ "npc_emilyAI", "de/da8/a23345.html#afd1e82e36c8850fbe118ab6abbdb73ce", null ],
-    [ "JustEngagedWith", "de/da8/a23345.html#a498ddc6969d398fe7a44824f4f8c8893", null ],
-    [ "JustSummoned", "de/da8/a23345.html#a4730c94b54d2ee5160011557704b35f2", null ],
-    [ "Reset", "de/da8/a23345.html#a8f196a6e1b21bef162b7ba4d7aeae208", null ],
-    [ "WaypointReached", "de/da8/a23345.html#a0a68676a6eac8fbe2b634098268eb516", null ],
-    [ "_mrfloppyGUID", "de/da8/a23345.html#a12a1fbe1ef4767698ab969e51e2f0e8e", null ],
-    [ "_RavenousworgGUID", "de/da8/a23345.html#aa2a5e45366be9f89221453e00179e1a3", null ]
+    [ "spell_q12096_q12092_dummy_SpellScript", "dd/de0/a23349.html", "dd/de0/a23349" ],
+    [ "spell_q12096_q12092_dummy", "de/da8/a23345.html#a9078394d4fd37c671de74510ebc9015f", null ],
+    [ "GetSpellScript", "de/da8/a23345.html#a71b550fb9c7727cb9ce7ff239a400480", null ]
 ];

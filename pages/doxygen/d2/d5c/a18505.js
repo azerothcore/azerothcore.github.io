@@ -1,8 +1,7 @@
 var a18505 =
 [
-    [ "spell_putricide_mutation_init_AuraScript", "d6/d02/a18513.html", "d6/d02/a18513" ],
-    [ "spell_putricide_mutation_init_SpellScript", "d5/d99/a18509.html", "d5/d99/a18509" ],
-    [ "spell_putricide_mutation_init", "d2/d5c/a18505.html#a0113370be118144e657efa83507adb6b", null ],
-    [ "GetAuraScript", "d2/d5c/a18505.html#a11fc02f6923da04518ae1355c0068c9c", null ],
-    [ "GetSpellScript", "d2/d5c/a18505.html#aeb39117181835a570763babfdcf0c3ed", null ]
+    [ "HandleTriggerSpell", "d2/d5c/a18505.html#a7d357e24034ebbbc9c4b4c8060eca2d7", null ],
+    [ "OnRemove", "d2/d5c/a18505.html#a0c5be5949555f4c5c0c0c5d63abdaad5", null ],
+    [ "PrepareAuraScript", "d2/d5c/a18505.html#a642e606b79f3e0337d7d17534d2a2020", null ],
+    [ "Register", "d2/d5c/a18505.html#ad436ecac38cc69ba3bde6a1c56042149", null ]
 ];

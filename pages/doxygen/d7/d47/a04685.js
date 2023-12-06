@@ -1,8 +1,8 @@
 var a04685 =
 [
-    [ "MMapData", "d7/d47/a04685.html#ab6aa577df2b8bc749e68515b7b5ef96c", null ],
-    [ "~MMapData", "d7/d47/a04685.html#a28ad87f05014c49373557369e9177df5", null ],
-    [ "loadedTileRefs", "d7/d47/a04685.html#afa8799db33459dd5e36b7a43eae7d16b", null ],
-    [ "navMesh", "d7/d47/a04685.html#a786a4b43773e4402451bed82cf221f66", null ],
-    [ "navMeshQueries", "d7/d47/a04685.html#abb7a9f9131b3657eff54ed17fc329b43", null ]
+    [ "DisableData", "df/d40/a07573.html", "df/d40/a07573" ],
+    [ "DisableMap", "d7/d47/a04685.html#a2b8dd8b0bc5f58e812c1bd969ee833d6", null ],
+    [ "DisableTypeMap", "d7/d47/a04685.html#a1dc7ac8fd11c81da83700d364483165a", null ],
+    [ "m_DisableMap", "d7/d47/a04685.html#a15af74f7cffff305a48d31529df515e7", null ],
+    [ "MAX_DISABLE_TYPES", "d7/d47/a04685.html#a55c2ff1d7d10ed3d5f30071472d692fb", null ]
 ];

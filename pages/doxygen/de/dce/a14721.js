@@ -1,13 +1,18 @@
 var a14721 =
 [
-    [ "boss_salrammAI", "de/dce/a14721.html#ae1055878b3919e29d44ee26efcbe044f", null ],
-    [ "ExplodeGhoul", "de/dce/a14721.html#adc64d8b10b28b98254c528732fff0516", null ],
-    [ "JustDied", "de/dce/a14721.html#a59bc42afcbb0ed2c2629bd0280836194", null ],
-    [ "JustEngagedWith", "de/dce/a14721.html#a8d3287cc74cc9d756a879c4ac796f860", null ],
-    [ "JustSummoned", "de/dce/a14721.html#afd70403a8644f310f37335c6c9bf5b55", null ],
-    [ "KilledUnit", "de/dce/a14721.html#ad3f4161c0e18c911a931d65e25693cdd", null ],
-    [ "Reset", "de/dce/a14721.html#a9ddecc950cac3fc392078df2810ec2a2", null ],
-    [ "UpdateAI", "de/dce/a14721.html#aa2350dc05884593b1361f9f09b8d9392", null ],
-    [ "events", "de/dce/a14721.html#a55c0bba93a90b5a3770c81b9c4d2fe5b", null ],
-    [ "summons", "de/dce/a14721.html#a813c09e121730d4ae2e623ac3c37d570", null ]
+    [ "hyjal_trashAI", "de/dce/a14721.html#ac63aec521bc58186de921e17739b2cef", null ],
+    [ "DamageTaken", "de/dce/a14721.html#af0850ccdd5b1334870ab087784b8e553", null ],
+    [ "JustDied", "de/dce/a14721.html#a5f1528ab0f32f9fbb593c06c7bf7b71f", null ],
+    [ "UpdateAI", "de/dce/a14721.html#a414f1f7818b6fe6cb9ba41c0e874f25e", null ],
+    [ "damageTaken", "de/dce/a14721.html#a9544098011a22b0ed7c838f6b246c72e", null ],
+    [ "Delay", "de/dce/a14721.html#a29b4b6a4960357bc808382b7ef7f7ebb", null ],
+    [ "DummyTarget", "de/dce/a14721.html#a66533757ef93a713d0e4c4e23c871933", null ],
+    [ "faction", "de/dce/a14721.html#a2de80476c73f0695af0594644287385a", null ],
+    [ "instance", "de/dce/a14721.html#aa402559aeeda4ba00d72529353e5df3e", null ],
+    [ "IsEvent", "de/dce/a14721.html#ac02c112ce1f38a17123340057fccf867", null ],
+    [ "IsOverrun", "de/dce/a14721.html#ad495ca3b753630dccaf1d3dd98e55fc7", null ],
+    [ "LastOverronPos", "de/dce/a14721.html#a3edc0a540d56e5b1bd595d7fb2e80b0c", null ],
+    [ "OverrunType", "de/dce/a14721.html#aa84d27fbbf2e1300d22f48714ac900c4", null ],
+    [ "SetupOverrun", "de/dce/a14721.html#a0c0349c797020a26cdd20d1b8eb14d7c", null ],
+    [ "useFlyPath", "de/dce/a14721.html#a171c8d1512be9c3c8dfd543f9c8013b8", null ]
 ];

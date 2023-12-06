@@ -1,6 +1,7 @@
 var a25873 =
 [
-    [ "spell_q10935_the_exorcism_of_colonel_jules_SpellScript", "d1/d9b/a25877.html", "d1/d9b/a25877" ],
-    [ "spell_q10935_the_exorcism_of_colonel_jules", "d9/d47/a25873.html#a6991db0b226c7f9c225922e4f5103fe2", null ],
-    [ "GetSpellScript", "d9/d47/a25873.html#a614fce6182e2cc35d8a3e985d48e3426", null ]
+    [ "npc_bessyAI", "d1/d9b/a25877.html", "d1/d9b/a25877" ],
+    [ "npc_bessy", "d9/d47/a25873.html#a08278c1524445054ca158433044a0824", null ],
+    [ "GetAI", "d9/d47/a25873.html#af805bc5ee3de2fd6773158e51bf09d4a", null ],
+    [ "OnQuestAccept", "d9/d47/a25873.html#a98b8e816195b81bab12cc9906df79807", null ]
 ];

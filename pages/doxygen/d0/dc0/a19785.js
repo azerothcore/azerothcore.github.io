@@ -1,5 +1,5 @@
 var a19785 =
 [
-    [ "at_icc_spire_frostwyrm", "d0/dc0/a19785.html#ac3da2c0bc3e8b1c31832fcbb4e8ceae8", null ],
-    [ "_OnTrigger", "d0/dc0/a19785.html#a67e320fb8ada7cb2c87f5944395fa174", null ]
+    [ "npc_icc_buff_switcher", "d0/dc0/a19785.html#aeabc3d97c88bf12177b824524af3ae1d", null ],
+    [ "OnGossipSelect", "d0/dc0/a19785.html#abb3310d3eb5cf4f1c2a0a3ac46ddd7ba", null ]
 ];

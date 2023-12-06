@@ -1,6 +1,11 @@
 var a14257 =
 [
-    [ "HandleScript", "dc/dc1/a14257.html#a4077b809530d28bed0a9419b5a745f42", null ],
-    [ "PrepareSpellScript", "dc/dc1/a14257.html#a97eb6d1fcdcf0628433e5bec68785932", null ],
-    [ "Register", "dc/dc1/a14257.html#ac09b1c86655eef0febaccff86533b28f", null ]
+    [ "npc_the_etymidian", "dc/dc1/a14257.html#af491016ac89b67947650a5ca9c379875", null ],
+    [ "MoveInLineOfSight", "dc/dc1/a14257.html#adde2d86e30442eb1b47219e934e24407", null ],
+    [ "Reset", "dc/dc1/a14257.html#a714edf3ba5f7a6d59242c991764effc5", null ],
+    [ "UpdateAI", "dc/dc1/a14257.html#a1f3cfddae43e443c5cd4a8a0f9f87a89", null ],
+    [ "orphanGUID", "dc/dc1/a14257.html#a9ba2c34b08d0fe61e18037b02f352d08", null ],
+    [ "phase", "dc/dc1/a14257.html#a7086e9a8a8a7287cf90688270e9933a7", null ],
+    [ "playerGUID", "dc/dc1/a14257.html#a7371e361c018360315e20086b0b99079", null ],
+    [ "timer", "dc/dc1/a14257.html#a8508a2c89eeeee2d235e1178ca77e895", null ]
 ];

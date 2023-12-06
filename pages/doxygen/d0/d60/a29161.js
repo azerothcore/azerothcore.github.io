@@ -1,5 +1,6 @@
 var a29161 =
 [
-    [ "item_disgusting_jar", "d0/d60/a29161.html#add658cf7d026ac12d3eacc0c1dc8d7fb", null ],
-    [ "OnExpire", "d0/d60/a29161.html#a4f6967035a4d247914a6034fcebac5c5", null ]
+    [ "trigger_deathAI", "d8/d04/a29165.html", "d8/d04/a29165" ],
+    [ "trigger_death", "d0/d60/a29161.html#a26fc17e99cb9650747edc3dc93691564", null ],
+    [ "GetAI", "d0/d60/a29161.html#ab77ba4dbbfb4c618a2dfc6f875a4b943", null ]
 ];

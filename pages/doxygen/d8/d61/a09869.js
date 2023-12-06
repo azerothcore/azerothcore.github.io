@@ -1,11 +1,18 @@
 var a09869 =
 [
-    [ "PetScript", "d8/d61/a09869.html#a3345c6e8c6417e3f52c3711cad5d79ae", null ],
-    [ "CanResetTalents", "d8/d61/a09869.html#ab4e5e0b19285573753ef6e9b7e8fd535", null ],
-    [ "CanUnlearnSpellDefault", "d8/d61/a09869.html#af150efd719bbb619df792ebc6705bb0a", null ],
-    [ "CanUnlearnSpellSet", "d8/d61/a09869.html#a84cba94813ffa26e1a245b814feb0349", null ],
-    [ "IsDatabaseBound", "d8/d61/a09869.html#a16fae7cdf068c6e3d9e46882548d4c20", null ],
-    [ "OnCalculateMaxTalentPointsForLevel", "d8/d61/a09869.html#a1263b06233902fbede9fc5df80cc8ad4", null ],
-    [ "OnInitStatsForLevel", "d8/d61/a09869.html#a65a33c4f374f2e9739680ad172118c26", null ],
-    [ "OnPetAddToWorld", "d8/d61/a09869.html#a3012323c5c1424512b611b6956a32554", null ]
+    [ "AllSpellScript", "d8/d61/a09869.html#a53a425afd300c37f82b53fd5d7ad0d09", null ],
+    [ "CanModAuraEffectDamageDone", "d8/d61/a09869.html#a95cc4310fb4bc275c7f467a4d71d790c", null ],
+    [ "CanModAuraEffectModDamagePercentDone", "d8/d61/a09869.html#a05230c0a96e7096b64f1bb03acedb337", null ],
+    [ "CanPrepare", "d8/d61/a09869.html#aeb2d438fdd7ca823ce670a94941bafff", null ],
+    [ "CanScalingEverything", "d8/d61/a09869.html#a026842dcd2d8c0e0c3f99718b04e86b0", null ],
+    [ "CanSelectSpecTalent", "d8/d61/a09869.html#a3cf7b45d8e9f5b23e2753d1624c4af78", null ],
+    [ "IsDatabaseBound", "d8/d61/a09869.html#a0854a57b62e310575a3e5cd8d35e8532", null ],
+    [ "OnBeforeAuraRankForLevel", "d8/d61/a09869.html#ae5a4590e4fb49d4cfe73c5ce307773ca", null ],
+    [ "OnCalcMaxDuration", "d8/d61/a09869.html#a5d02de785a4e1cf5103110828fac5e75", null ],
+    [ "OnDummyEffect", "d8/d61/a09869.html#a54e0b823c538c41507c541db025d5295", null ],
+    [ "OnDummyEffect", "d8/d61/a09869.html#a36061e5bcec2ef4dea35d1b5c9e703b4", null ],
+    [ "OnDummyEffect", "d8/d61/a09869.html#afe06aa2578b89fbc5ed5784aed38912a", null ],
+    [ "OnRemoveAuraScaleTargets", "d8/d61/a09869.html#aa055f00fe76ba2768f97e23ecf379a18", null ],
+    [ "OnScaleAuraUnitAdd", "d8/d61/a09869.html#abf3758ff33e5be1492ed4e45979a7a8d", null ],
+    [ "OnSpellCheckCast", "d8/d61/a09869.html#aae718678bb7d9a7ed1e0cbbc59db3049", null ]
 ];

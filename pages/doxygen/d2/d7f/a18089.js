@@ -1,6 +1,6 @@
 var a18089 =
 [
-    [ "PrepareSpellScript", "d2/d7f/a18089.html#ad5aa49896bec706e60ea9725969698c9", null ],
-    [ "Register", "d2/d7f/a18089.html#a8bfd04c4d3d212a9bae2ef9fb0177574", null ],
-    [ "RelocateTransportOffset", "d2/d7f/a18089.html#aecf5f2a7a4f38274460917742e80734a", null ]
+    [ "npc_gunship_gunnerAI", "df/db6/a18093.html", "df/db6/a18093" ],
+    [ "npc_gunship_gunner", "d2/d7f/a18089.html#a409711f22b35eae0c0d48bc23545e592", null ],
+    [ "GetAI", "d2/d7f/a18089.html#a2b28f5edfddf7a8c94a2a5475ec575dc", null ]
 ];

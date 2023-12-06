@@ -1,18 +1,13 @@
 var a24129 =
 [
-    [ "OutdoorPvPZM", "de/dc5/a24129.html#a8351867658985b66dd97f39e68c16b94", null ],
-    [ "FillInitialWorldStates", "de/dc5/a24129.html#a25624d1acd33ea71007aa8073e01a132", null ],
-    [ "GetAllianceTowersControlled", "de/dc5/a24129.html#a58320dcfca7519ab2a7160bb1f875a9b", null ],
-    [ "GetHordeTowersControlled", "de/dc5/a24129.html#a98bfdd944bc51f9ed30b74e1cf3217b5", null ],
-    [ "HandleKillImpl", "de/dc5/a24129.html#a6cd61b99305a2838261e36652fda42b1", null ],
-    [ "HandlePlayerEnterZone", "de/dc5/a24129.html#a8c0eb1c295f389273cf2b2c7b35c9538", null ],
-    [ "HandlePlayerLeaveZone", "de/dc5/a24129.html#a93105e3229db7798ad882fc7e538b250", null ],
-    [ "SendRemoveWorldStates", "de/dc5/a24129.html#aba24e6285ac45dd0594f557d5830ba7c", null ],
-    [ "SetAllianceTowersControlled", "de/dc5/a24129.html#ab7e230cfa2f06fa450ca40c381491c85", null ],
-    [ "SetHordeTowersControlled", "de/dc5/a24129.html#a27239875476bbce8ff18b30cdfe6815b", null ],
-    [ "SetupOutdoorPvP", "de/dc5/a24129.html#a7e71d2c2480da1a2d155981999201b99", null ],
-    [ "Update", "de/dc5/a24129.html#acd93bd13cf330ec86dde30ff9c6306de", null ],
-    [ "m_AllianceTowersControlled", "de/dc5/a24129.html#aff4124f54572e0812c39562fbc6390c3", null ],
-    [ "m_GraveYard", "de/dc5/a24129.html#ae0c3a1c02e364d63f1579c368fe7df8e", null ],
-    [ "m_HordeTowersControlled", "de/dc5/a24129.html#ad5609bc0c13d193d16560045aa4b0c71", null ]
+    [ "OutdoorPvPNA", "de/dc5/a24129.html#acbdae42245c71e4274296649d8d08e9e", null ],
+    [ "FillInitialWorldStates", "de/dc5/a24129.html#ac4eaab1f8d69ac45f168899267801198", null ],
+    [ "GetCapturePoint", "de/dc5/a24129.html#a7bab429e723c0ac1eb2f8cd3501f13be", null ],
+    [ "HandleKillImpl", "de/dc5/a24129.html#a2ede6e7dc54424d9729a094557b14792", null ],
+    [ "HandlePlayerEnterZone", "de/dc5/a24129.html#a312c5f2aaa35a9f83740c1bdd9772b9e", null ],
+    [ "HandlePlayerLeaveZone", "de/dc5/a24129.html#ae7dd540746946513cd7bf8e29296c068", null ],
+    [ "SendRemoveWorldStates", "de/dc5/a24129.html#ae9a93ddac1ca439f0f269d7ac7597593", null ],
+    [ "SetupOutdoorPvP", "de/dc5/a24129.html#a09369a62ec5584dd6ce5eddf7b2bb80f", null ],
+    [ "Update", "de/dc5/a24129.html#a4074a96974fe1b5e6d9149c8eee36e71", null ],
+    [ "m_obj", "de/dc5/a24129.html#a7538d64bb494644eae3cc7db03dd631f", null ]
 ];

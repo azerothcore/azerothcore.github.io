@@ -1,9 +1,8 @@
 var a17893 =
 [
-    [ "FilterTargetsInitial", "d7/d6d/a17893.html#a6ca136c7a521c9ff9b51d406d54273dc", null ],
-    [ "FilterTargetsSubsequent", "d7/d6d/a17893.html#a5e70bcdeff246d2a77c40742b75e491d", null ],
-    [ "Load", "d7/d6d/a17893.html#ab489a64786e9a157df8ee8d1050bfa1a", null ],
-    [ "PrepareSpellScript", "d7/d6d/a17893.html#a30130e3c80dfd90d80776bdd6c951c69", null ],
-    [ "Register", "d7/d6d/a17893.html#a7defca862c3a978955604a78b734e174", null ],
-    [ "target", "d7/d6d/a17893.html#a345674f5c5b0fab9b12bf17fdcff388c", null ]
+    [ "CheckProc", "d7/d6d/a17893.html#a95ac1c4015b2b44495564e17e5e52e98", null ],
+    [ "HandlePeriodicTick", "d7/d6d/a17893.html#a2a11b24a34ddbb04d3180d73c4fec7ff", null ],
+    [ "HandleProc", "d7/d6d/a17893.html#ada59db24628253750e1633c5db54b33a", null ],
+    [ "PrepareAuraScript", "d7/d6d/a17893.html#a9253176b1ba2e0eae45f6ea3c5a1accc", null ],
+    [ "Register", "d7/d6d/a17893.html#a5838d85fb638df65c765a574830c0989", null ]
 ];

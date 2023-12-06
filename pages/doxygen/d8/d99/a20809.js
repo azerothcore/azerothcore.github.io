@@ -1,7 +1,8 @@
 var a20809 =
 [
-    [ "HandleDummyEffect", "d8/d99/a20809.html#aa0bf93ad1a34acf3d554bb5e4f413128", null ],
-    [ "PrepareSpellScript", "d8/d99/a20809.html#ab721914c78bb30ac0664e0d2dbac1aa3", null ],
-    [ "Register", "d8/d99/a20809.html#a9e1273c189027c84ca4d223d48e93f77", null ],
-    [ "SelectTarget", "d8/d99/a20809.html#a7ef6e6c2fc7f7217791caef905a63b60", null ]
+    [ "npc_algalon_worm_holeAI", "d8/d99/a20809.html#a07b36b40972bebea6b17890aa8fee50c", null ],
+    [ "JustSummoned", "d8/d99/a20809.html#a148de5da4502813e369ec6c52b1671a0", null ],
+    [ "Reset", "d8/d99/a20809.html#a915a8e5e23062cb10da9a3dbe387cf51", null ],
+    [ "UpdateAI", "d8/d99/a20809.html#a9df88d81aa4f4dd7e1dcdf6209832c32", null ],
+    [ "_summonTimer", "d8/d99/a20809.html#a73a55560e5ff7957d883f732bc0d2a82", null ]
 ];

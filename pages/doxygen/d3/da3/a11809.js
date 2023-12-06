@@ -1,7 +1,6 @@
 var a11809 =
 [
-    [ "HandleRemove", "d3/da3/a11809.html#a754b44b62c131e20e1be94b3407e2006", null ],
-    [ "PrepareAuraScript", "d3/da3/a11809.html#a92a58e6bcde5f80c6962ce1da47aca2d", null ],
-    [ "Register", "d3/da3/a11809.html#a02cd375ec140f7614104b7e56df13430", null ],
-    [ "Validate", "d3/da3/a11809.html#a4dd592093c1b00388a54fd8aa1b86904", null ]
+    [ "boss_chromaggusAI", "d8/dfd/a11813.html", "d8/dfd/a11813" ],
+    [ "boss_chromaggus", "d3/da3/a11809.html#a55847fc0d5430d3f22074b53d7caca4b", null ],
+    [ "GetAI", "d3/da3/a11809.html#ace78172cafb122ce5961ed837201c32b", null ]
 ];

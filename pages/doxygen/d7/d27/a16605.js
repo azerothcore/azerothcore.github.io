@@ -1,8 +1,6 @@
 var a16605 =
 [
-    [ "npc_toc_hunterAI", "d7/d27/a16605.html#a80f80231bfe5b71bf415da3202c2e6fb", null ],
-    [ "JustSummoned", "d7/d27/a16605.html#aa270248ad9e0c319234ff0741270b465", null ],
-    [ "myCanCast", "d7/d27/a16605.html#a4e599ae2ee4e892795889bd57dd29e27", null ],
-    [ "UpdateAI", "d7/d27/a16605.html#a81f384607ab7e8c4ed7385bdcddfd7a5", null ],
-    [ "events", "d7/d27/a16605.html#a0cf5ecd9d7b3c92e2da836983323f378", null ]
+    [ "npc_toc_priestAI", "dd/d90/a16609.html", "dd/d90/a16609" ],
+    [ "npc_toc_priest", "d7/d27/a16605.html#a0e360a2cc053434d2f76826683da8eee", null ],
+    [ "GetAI", "d7/d27/a16605.html#a6056a81bef962a02537d525f07d1c302", null ]
 ];

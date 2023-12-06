@@ -1,6 +1,6 @@
 var a22277 =
 [
-    [ "OnRemove", "dd/d16/a22277.html#a3bae0f9d95248f659c5e11fa1d76bfc0", null ],
-    [ "PrepareAuraScript", "dd/d16/a22277.html#a6a3b368cfa649c0083393ab804bacafd", null ],
-    [ "Register", "dd/d16/a22277.html#a6826efde60ad8466aa7bee6680681806", null ]
+    [ "spell_yogg_saron_lunatic_gaze_SpellScript", "d4/dde/a22281.html", "d4/dde/a22281" ],
+    [ "spell_yogg_saron_lunatic_gaze", "dd/d16/a22277.html#abe5d72bd1d9f0aa06f7243dd55b0ec1e", null ],
+    [ "GetSpellScript", "dd/d16/a22277.html#af92cf542c2767c8a8b01bde56ec34059", null ]
 ];

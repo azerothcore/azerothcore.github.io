@@ -1,7 +1,9 @@
 var a10017 =
 [
-    [ "ChatServerMessage", "d7/d5b/a10017.html#aa649857ceeba6b2f9e060f7d502cdb7a", null ],
-    [ "Write", "d7/d5b/a10017.html#af8bad4d39693290674bda2e2ad8685bf", null ],
-    [ "MessageID", "d7/d5b/a10017.html#afde854fc17313d214fa0f0cdc48ca9a9", null ],
-    [ "StringParam", "d7/d5b/a10017.html#ac39a08d84c8f5934d0fe26e91809e60a", null ]
+    [ "TransportScript", "d7/d5b/a10017.html#a4b83123b122fa98831d304670a3de50a", null ],
+    [ "IsDatabaseBound", "d7/d5b/a10017.html#a956f0d757e5d974566fa8fac0df731e5", null ],
+    [ "OnAddCreaturePassenger", "d7/d5b/a10017.html#a5afb1f1dca2264089238ddd68b38a86d", null ],
+    [ "OnAddPassenger", "d7/d5b/a10017.html#a806f4829b47429900271f6dde7eaa625", null ],
+    [ "OnRelocate", "d7/d5b/a10017.html#a10334c1929c80fc80c76791cbd52f6dd", null ],
+    [ "OnRemovePassenger", "d7/d5b/a10017.html#a6d6a3af4fcde46101b78cfdb787a2248", null ]
 ];

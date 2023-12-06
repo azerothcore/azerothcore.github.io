@@ -1,13 +1,16 @@
 var a13449 =
 [
-    [ "npc_lord_gregor_lescovarAI", "d3/d84/a13449.html#ab3ed8a9536fc6be948f280e319d4fec7", null ],
-    [ "DoGuardsDisappearAndDie", "d3/d84/a13449.html#a8588cae3dc8aa3dd46c55439d355df9b", null ],
-    [ "EnterEvadeMode", "d3/d84/a13449.html#a95e60614808191e4c1f909f5e38e4741", null ],
-    [ "JustEngagedWith", "d3/d84/a13449.html#ad0ca7d80d68b9623b99c644daa8f4c57", null ],
-    [ "Reset", "d3/d84/a13449.html#a06df695e9acd96b07f4e58c9461a708c", null ],
-    [ "UpdateAI", "d3/d84/a13449.html#ab8cc7d7d56550e66497116e5b4233a02", null ],
-    [ "WaypointReached", "d3/d84/a13449.html#ad91850dc72d0307e28b881717bfba6db", null ],
-    [ "MarzonGUID", "d3/d84/a13449.html#a68779dfa5643ffbf0065964d72ba5ddc", null ],
-    [ "uiPhase", "d3/d84/a13449.html#a3eaf47541cabaac9ce12f830d7d3ef41", null ],
-    [ "uiTimer", "d3/d84/a13449.html#a70e6be2f5c0f88664c6bbe3f29e1d184", null ]
+    [ "npc_rinjiAI", "d3/d84/a13449.html#ab613818b92530269f0802077eccc92d0", null ],
+    [ "DoSpawnAmbush", "d3/d84/a13449.html#af2535d7364641fadc98bca91ace9c906", null ],
+    [ "JustEngagedWith", "d3/d84/a13449.html#ae5ca00ee9baead3392a9239dfb68d377", null ],
+    [ "JustRespawned", "d3/d84/a13449.html#a471f2e8da91639d4e68ad64a11d7b950", null ],
+    [ "JustSummoned", "d3/d84/a13449.html#a09d65e7bd5a76552208eee920cfcb4f9", null ],
+    [ "Reset", "d3/d84/a13449.html#ada230a1b7b0f3c8b2b41c706856681b8", null ],
+    [ "sQuestAccept", "d3/d84/a13449.html#a15b9a0756ae6cebac690c8bb997e99d2", null ],
+    [ "UpdateEscortAI", "d3/d84/a13449.html#a60f05b58b115f3f2ea11206778893547", null ],
+    [ "WaypointReached", "d3/d84/a13449.html#a9463060a57b85113b71482c8a0974f60", null ],
+    [ "_IsByOutrunner", "d3/d84/a13449.html#adecc4eb9f90969621b52b97ff594558d", null ],
+    [ "postEventCount", "d3/d84/a13449.html#a601f142bd2a04ed303611044bac91035", null ],
+    [ "postEventTimer", "d3/d84/a13449.html#a5154e551143e81d431f706ad07b78ca0", null ],
+    [ "spawnId", "d3/d84/a13449.html#a3fc84d1e0f5243c6e8f292ddcac15ace", null ]
 ];

@@ -1,7 +1,6 @@
 var a20461 =
 [
-    [ "CalcDamage", "de/d92/a20461.html#ab676119d2120f53a9d9d7a14725a2c6d", null ],
-    [ "PrepareSpellScript", "de/d92/a20461.html#aa76051d7076f64013fde65d1e2747c0b", null ],
-    [ "Register", "de/d92/a20461.html#a93eaa58abef2da183f9ad9273623690a", null ],
-    [ "Validate", "de/d92/a20461.html#aa76bff752ba0ebbc81d634508de8db2c", null ]
+    [ "npc_oculus_drakeAI", "d7/d42/a20465.html", "d7/d42/a20465" ],
+    [ "npc_oculus_drake", "de/d92/a20461.html#ad2897dd72e9337af53ef2f043cd07d55", null ],
+    [ "GetAI", "de/d92/a20461.html#afd2f1678a7faef76a231e4c16bd015e5", null ]
 ];

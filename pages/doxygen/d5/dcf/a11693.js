@@ -1,6 +1,6 @@
 var a11693 =
 [
-    [ "go_chromaggus_leverAI", "d5/dcf/a11693.html#a51406a7e313702282cebfbf067c9ce4e", null ],
-    [ "GossipHello", "d5/dcf/a11693.html#a44ece597fcfcf290234cc1ef073fbf18", null ],
-    [ "_instance", "d5/dcf/a11693.html#a364f66c7cf0a7bc4a3ea97b87ebe9f90", null ]
+    [ "npc_rookery_hatcherAI", "d3/db2/a11697.html", "d3/db2/a11697" ],
+    [ "npc_rookery_hatcher", "d5/dcf/a11693.html#aa385f8a93384d4db9b92eecd1b152ce0", null ],
+    [ "GetAI", "d5/dcf/a11693.html#a76e27f10dd58ec15a8e8f9d579f1c176", null ]
 ];

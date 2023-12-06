@@ -1,6 +1,6 @@
 var a16337 =
 [
-    [ "instance_ruby_sanctum_InstanceMapScript", "d3/dd6/a16341.html", "d3/dd6/a16341" ],
-    [ "instance_ruby_sanctum", "d3/d1e/a16337.html#a9fc9d56cfcd7d0163f25f49e1ed0baeb", null ],
-    [ "GetInstanceScript", "d3/d1e/a16337.html#ad0329f328d4be2c475d8bcd5ccefd4e1", null ]
+    [ "HandleHealPct", "d3/d1e/a16337.html#a7acd2500fe7f82272047b301812d1e8b", null ],
+    [ "PrepareSpellScript", "d3/d1e/a16337.html#a8a93787bef057e2c07257cfecf8bed67", null ],
+    [ "Register", "d3/d1e/a16337.html#a87be4145da5d5073994b1e3b66f39ab6", null ]
 ];

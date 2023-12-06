@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: ConfigMgr Class Reference</title>
+<title>AzerothCore: MMAP::MMapMgr Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,91 +107,62 @@ $(document).ready(function(){initNavTree('d6/d2e/a04845.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../df/dcf/a04842.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">ConfigMgr Class Reference</div></div>
+  <div class="headertitle"><div class="title">MMAP::MMapMgr Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">MMapMgr.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae8b4473b24540d12468cb994b89b78b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#ae8b4473b24540d12468cb994b89b78b8">LoadAppConfigs</a> (bool isReload=false)</td></tr>
-<tr class="separator:ae8b4473b24540d12468cb994b89b78b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4752375243302e81a5e8fb3f5615e776"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a4752375243302e81a5e8fb3f5615e776">LoadModulesConfigs</a> (bool isReload=false, bool isNeedPrintInfo=true)</td></tr>
-<tr class="separator:a4752375243302e81a5e8fb3f5615e776"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a600438259fbb2939b482792a550bd7a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a600438259fbb2939b482792a550bd7a4">Configure</a> (std::string const &amp;initFileName, std::vector&lt; std::string &gt; args, std::string_view modulesConfigList={})</td></tr>
-<tr class="separator:a600438259fbb2939b482792a550bd7a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66363d8377945f4b29061ce9e4ea6dc7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a66363d8377945f4b29061ce9e4ea6dc7">Reload</a> ()</td></tr>
-<tr class="separator:a66363d8377945f4b29061ce9e4ea6dc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03a1bed0e7b07a3fb3e41ea5fd80d983"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a03a1bed0e7b07a3fb3e41ea5fd80d983">OverrideWithEnvVariablesIfAny</a> ()</td></tr>
-<tr class="memdesc:a03a1bed0e7b07a3fb3e41ea5fd80d983"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overrides configuration with environment variables and returns overridden keys.  <br /></td></tr>
-<tr class="separator:a03a1bed0e7b07a3fb3e41ea5fd80d983"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad002777983ff9399976fc5d4447536de"><td class="memItemLeft" align="right" valign="top">std::string const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#ad002777983ff9399976fc5d4447536de">GetFilename</a> ()</td></tr>
-<tr class="separator:ad002777983ff9399976fc5d4447536de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a104bef8d83f8c3b643f7538ac7bf5c30"><td class="memItemLeft" align="right" valign="top">std::string const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a104bef8d83f8c3b643f7538ac7bf5c30">GetConfigPath</a> ()</td></tr>
-<tr class="separator:a104bef8d83f8c3b643f7538ac7bf5c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a824a06c1dc274c92c33d1f5681994be0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt; const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a824a06c1dc274c92c33d1f5681994be0">GetArguments</a> () const</td></tr>
-<tr class="separator:a824a06c1dc274c92c33d1f5681994be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6172d618b5f96b7f58c8dca984afecb4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a6172d618b5f96b7f58c8dca984afecb4">GetKeysByString</a> (std::string const &amp;name)</td></tr>
-<tr class="separator:a6172d618b5f96b7f58c8dca984afecb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a711be8eda4077d967a3677bd138998ac"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a711be8eda4077d967a3677bd138998ac"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a711be8eda4077d967a3677bd138998ac">GetOption</a> (std::string const &amp;name, T const &amp;def, bool showLogs=true) const</td></tr>
-<tr class="separator:a711be8eda4077d967a3677bd138998ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e952e2273feb8b7b5c7ff67f71481f5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a8e952e2273feb8b7b5c7ff67f71481f5">GetStringDefault</a> (std::string const &amp;name, const std::string &amp;def, bool showLogs=true)</td></tr>
-<tr class="separator:a8e952e2273feb8b7b5c7ff67f71481f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6657949e5ed59b6091b56ab1fd74b0d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#aa6657949e5ed59b6091b56ab1fd74b0d">GetBoolDefault</a> (std::string const &amp;name, bool def, bool showLogs=true)</td></tr>
-<tr class="separator:aa6657949e5ed59b6091b56ab1fd74b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d280b4ed358e37bce586db7a3fc9e0c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a5d280b4ed358e37bce586db7a3fc9e0c">GetIntDefault</a> (std::string const &amp;name, int def, bool showLogs=true)</td></tr>
-<tr class="separator:a5d280b4ed358e37bce586db7a3fc9e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91f6e5959a46861603e3d2daec73771d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a91f6e5959a46861603e3d2daec73771d">GetFloatDefault</a> (std::string const &amp;name, float def, bool showLogs=true)</td></tr>
-<tr class="separator:a91f6e5959a46861603e3d2daec73771d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a951307027c22fea8c88c3d0e78232413"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a951307027c22fea8c88c3d0e78232413">isDryRun</a> ()</td></tr>
-<tr class="separator:a951307027c22fea8c88c3d0e78232413"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2d5c14f32b1d8dfb3e8736f5aef5e7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#ac2d5c14f32b1d8dfb3e8736f5aef5e7e">setDryRun</a> (bool mode)</td></tr>
-<tr class="separator:ac2d5c14f32b1d8dfb3e8736f5aef5e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac30a389fa563bf0360ac833a4a029573"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:ac30a389fa563bf0360ac833a4a029573"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#ac30a389fa563bf0360ac833a4a029573">GetOption</a> (std::string const &amp;name, bool const &amp;def, bool showLogs) const</td></tr>
-<tr class="separator:ac30a389fa563bf0360ac833a4a029573"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a775439020c2e5577206c2559bbb2b042"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d6/d2e/a04845.html">ConfigMgr</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a775439020c2e5577206c2559bbb2b042">instance</a> ()</td></tr>
-<tr class="separator:a775439020c2e5577206c2559bbb2b042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd4bd2ef84d57be5000ab37ed36ded8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#abd4bd2ef84d57be5000ab37ed36ded8c">MMapMgr</a> ()=default</td></tr>
+<tr class="separator:abd4bd2ef84d57be5000ab37ed36ded8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09b83a0d5246838d42a49c5103957480"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a09b83a0d5246838d42a49c5103957480">~MMapMgr</a> ()</td></tr>
+<tr class="separator:a09b83a0d5246838d42a49c5103957480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88c7145d0475a2e5d9be5baa72a2ca7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a88c7145d0475a2e5d9be5baa72a2ca7e">InitializeThreadUnsafe</a> (const std::vector&lt; <a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt; &amp;mapIds)</td></tr>
+<tr class="separator:a88c7145d0475a2e5d9be5baa72a2ca7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa27722de47fd0f5ea0d0afac8b08e161"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#aa27722de47fd0f5ea0d0afac8b08e161">loadMap</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapId, <a class="el" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> x, <a class="el" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> y)</td></tr>
+<tr class="separator:aa27722de47fd0f5ea0d0afac8b08e161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d933fd783126e48423d81d1c06fb3f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a2d933fd783126e48423d81d1c06fb3f9">unloadMap</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapId, <a class="el" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> x, <a class="el" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> y)</td></tr>
+<tr class="separator:a2d933fd783126e48423d81d1c06fb3f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83acf8ce1357052ccb8aa6b63f6860ca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a83acf8ce1357052ccb8aa6b63f6860ca">unloadMap</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapId)</td></tr>
+<tr class="separator:a83acf8ce1357052ccb8aa6b63f6860ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa97a8352cad200ea1243e968dc1629a6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#aa97a8352cad200ea1243e968dc1629a6">unloadMapInstance</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapId, <a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> instanceId)</td></tr>
+<tr class="separator:aa97a8352cad200ea1243e968dc1629a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9b97f1e32233fef4e4828a4c8907abc"><td class="memItemLeft" align="right" valign="top">dtNavMeshQuery const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#af9b97f1e32233fef4e4828a4c8907abc">GetNavMeshQuery</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapId, <a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> instanceId)</td></tr>
+<tr class="separator:af9b97f1e32233fef4e4828a4c8907abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeae84fe910639b71a40949de59e41c91"><td class="memItemLeft" align="right" valign="top">dtNavMesh const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#aeae84fe910639b71a40949de59e41c91">GetNavMesh</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapId)</td></tr>
+<tr class="separator:aeae84fe910639b71a40949de59e41c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14fe8d762bac4d5d179af1acf8bfe84e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a14fe8d762bac4d5d179af1acf8bfe84e">getLoadedTilesCount</a> () const</td></tr>
+<tr class="separator:a14fe8d762bac4d5d179af1acf8bfe84e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b087a39387a10c17dca364b9db537f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a8b087a39387a10c17dca364b9db537f9">getLoadedMapsCount</a> () const</td></tr>
+<tr class="separator:a8b087a39387a10c17dca364b9db537f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:af5206e9fdadc2123af20aba4534d2988"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#af5206e9fdadc2123af20aba4534d2988">ConfigMgr</a> ()=default</td></tr>
-<tr class="separator:af5206e9fdadc2123af20aba4534d2988"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a809bc22f24f6330edac8f95bbdc1be2e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a809bc22f24f6330edac8f95bbdc1be2e">ConfigMgr</a> (<a class="el" href="../../d6/d2e/a04845.html">ConfigMgr</a> const &amp;)=delete</td></tr>
-<tr class="separator:a809bc22f24f6330edac8f95bbdc1be2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7257754613b850d43951a0d6e1074b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d2e/a04845.html">ConfigMgr</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#ac7257754613b850d43951a0d6e1074b9">operator=</a> (<a class="el" href="../../d6/d2e/a04845.html">ConfigMgr</a> const &amp;)=delete</td></tr>
-<tr class="separator:ac7257754613b850d43951a0d6e1074b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25f0f8dba4b71b9679ec631339ef5a57"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a25f0f8dba4b71b9679ec631339ef5a57">~ConfigMgr</a> ()=default</td></tr>
-<tr class="separator:a25f0f8dba4b71b9679ec631339ef5a57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab44a44b2613fc787f60937835bf4878f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#ab44a44b2613fc787f60937835bf4878f">LoadInitial</a> (std::string const &amp;file, bool isReload=false)</td></tr>
-<tr class="memdesc:ab44a44b2613fc787f60937835bf4878f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method used only for loading main configuration files (authserver.conf and worldserver.conf)  <br /></td></tr>
-<tr class="separator:ab44a44b2613fc787f60937835bf4878f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58c320a6a1cf51bbeb51b90f0e4f2a71"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a58c320a6a1cf51bbeb51b90f0e4f2a71">LoadAdditionalFile</a> (std::string file, bool isOptional=false, bool isReload=false)</td></tr>
-<tr class="separator:a58c320a6a1cf51bbeb51b90f0e4f2a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a122373714bb95f10e6532e30735e55"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a4a122373714bb95f10e6532e30735e55"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a4a122373714bb95f10e6532e30735e55">GetValueDefault</a> (std::string const &amp;name, T const &amp;def, bool showLogs=true) const</td></tr>
-<tr class="separator:a4a122373714bb95f10e6532e30735e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac677ea014721d0631195ba64b05c66a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#ac677ea014721d0631195ba64b05c66a0">loadMapData</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapId)</td></tr>
+<tr class="separator:ac677ea014721d0631195ba64b05c66a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace3265c248ccf2a34ca4b7c43f294e43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#ace3265c248ccf2a34ca4b7c43f294e43">packTileID</a> (<a class="el" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> x, <a class="el" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> y)</td></tr>
+<tr class="separator:ace3265c248ccf2a34ca4b7c43f294e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a755d34666349eba1d7665e510afa3453"><td class="memItemLeft" align="right" valign="top">MMapDataSet::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a755d34666349eba1d7665e510afa3453">GetMMapData</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapId) const</td></tr>
+<tr class="separator:a755d34666349eba1d7665e510afa3453"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a555709e27a884d16ef6dd91cc21b806b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a555709e27a884d16ef6dd91cc21b806b">dryRun</a> = false</td></tr>
-<tr class="separator:a555709e27a884d16ef6dd91cc21b806b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5a8c891e53c6d76cf63d0a40fd799e1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#aa5a8c891e53c6d76cf63d0a40fd799e1">_moduleConfigFiles</a></td></tr>
-<tr class="separator:aa5a8c891e53c6d76cf63d0a40fd799e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98a7d0bf952eb80340863f2336ae84d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d62/a04648.html#a7c987e5b93af6a44b28948b66804ad88">MMapDataSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a></td></tr>
+<tr class="separator:a98a7d0bf952eb80340863f2336ae84d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e2154958fcfa78d8906ccb5ccf2597c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a9e2154958fcfa78d8906ccb5ccf2597c">loadedTiles</a> {0}</td></tr>
+<tr class="separator:a9e2154958fcfa78d8906ccb5ccf2597c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89c7b087891d313e69437504dc0e449f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2e/a04845.html#a89c7b087891d313e69437504dc0e449f">thread_safe_environment</a> {true}</td></tr>
+<tr class="separator:a89c7b087891d313e69437504dc0e449f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af5206e9fdadc2123af20aba4534d2988" name="af5206e9fdadc2123af20aba4534d2988"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5206e9fdadc2123af20aba4534d2988">&#9670;&#160;</a></span>ConfigMgr() <span class="overload">[1/2]</span></h2>
+<a id="abd4bd2ef84d57be5000ab37ed36ded8c" name="abd4bd2ef84d57be5000ab37ed36ded8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd4bd2ef84d57be5000ab37ed36ded8c">&#9670;&#160;</a></span>MMapMgr()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -200,7 +171,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ConfigMgr::ConfigMgr </td>
+          <td class="memname">MMAP::MMapMgr::MMapMgr </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -208,567 +179,75 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a809bc22f24f6330edac8f95bbdc1be2e" name="a809bc22f24f6330edac8f95bbdc1be2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a809bc22f24f6330edac8f95bbdc1be2e">&#9670;&#160;</a></span>ConfigMgr() <span class="overload">[2/2]</span></h2>
+<a id="a09b83a0d5246838d42a49c5103957480" name="a09b83a0d5246838d42a49c5103957480"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09b83a0d5246838d42a49c5103957480">&#9670;&#160;</a></span>~MMapMgr()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ConfigMgr::ConfigMgr </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/d2e/a04845.html">ConfigMgr</a> const &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a25f0f8dba4b71b9679ec631339ef5a57" name="a25f0f8dba4b71b9679ec631339ef5a57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25f0f8dba4b71b9679ec631339ef5a57">&#9670;&#160;</a></span>~ConfigMgr()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ConfigMgr::~ConfigMgr </td>
+          <td class="memname">MMAP::MMapMgr::~MMapMgr </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   31</span>    {</div>
+<div class="line"><span class="lineno">   32</span>        <span class="keywordflow">for</span> (MMapDataSet::iterator i = <a class="code hl_variable" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a>.begin(); i != <a class="code hl_variable" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a>.end(); ++i)</div>
+<div class="line"><span class="lineno">   33</span>        {</div>
+<div class="line"><span class="lineno">   34</span>            <span class="keyword">delete</span> i-&gt;second;</div>
+<div class="line"><span class="lineno">   35</span>        }</div>
+<div class="line"><span class="lineno">   36</span> </div>
+<div class="line"><span class="lineno">   37</span>        <span class="comment">// by now we should not have maps loaded</span></div>
+<div class="line"><span class="lineno">   38</span>        <span class="comment">// if we had, tiles in MMapData-&gt;mmapLoadedTiles, their actual data is lost!</span></div>
+<div class="line"><span class="lineno">   39</span>    }</div>
+<div class="ttc" id="aa04845_html_a98a7d0bf952eb80340863f2336ae84d1"><div class="ttname"><a href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">MMAP::MMapMgr::loadedMMaps</a></div><div class="ttdeci">MMapDataSet loadedMMaps</div><div class="ttdef"><b>Definition:</b> MMapMgr.h:98</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00098">loadedMMaps</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a600438259fbb2939b482792a550bd7a4" name="a600438259fbb2939b482792a550bd7a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a600438259fbb2939b482792a550bd7a4">&#9670;&#160;</a></span>Configure()</h2>
+<a id="a8b087a39387a10c17dca364b9db537f9" name="a8b087a39387a10c17dca364b9db537f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b087a39387a10c17dca364b9db537f9">&#9670;&#160;</a></span>getLoadedMapsCount()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ConfigMgr::Configure </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>initFileName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
-          <td class="paramname"><em>args</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>modulesConfigList</em> = <code>{}</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  498</span>{</div>
-<div class="line"><span class="lineno">  499</span>    <a class="code hl_variable" href="../../d4/d22/a04494.html#a8bfa20db83fbdc4e649e394ea8d05d0d">_filename</a> = initFileName;</div>
-<div class="line"><span class="lineno">  500</span>    <a class="code hl_variable" href="../../d4/d22/a04494.html#aa324820f5ede7eec5a4d8eefc77298f4">_args</a> = std::move(args);</div>
-<div class="line"><span class="lineno">  501</span> </div>
-<div class="line"><span class="lineno">  502</span>    <span class="comment">// Add modules config if exist</span></div>
-<div class="line"><span class="lineno">  503</span>    <span class="keywordflow">if</span> (!modulesConfigList.empty())</div>
-<div class="line"><span class="lineno">  504</span>    {</div>
-<div class="line"><span class="lineno">  505</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; itr : <a class="code hl_function" href="../../dd/d6e/a04485.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a>(modulesConfigList, <span class="charliteral">&#39;,&#39;</span>, <span class="keyword">false</span>))</div>
-<div class="line"><span class="lineno">  506</span>        {</div>
-<div class="line"><span class="lineno">  507</span>            <a class="code hl_variable" href="../../d4/d22/a04494.html#ac4608b63b3297653b81c9c4196c12141">_additonalFiles</a>.emplace_back(itr);</div>
-<div class="line"><span class="lineno">  508</span>        }</div>
-<div class="line"><span class="lineno">  509</span>    }</div>
-<div class="line"><span class="lineno">  510</span>}</div>
-<div class="ttc" id="aa04485_html_a6b121485ace4118b9006db1fb89f90f2"><div class="ttname"><a href="../../dd/d6e/a04485.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a></div><div class="ttdeci">std::vector&lt; std::string_view &gt; Tokenize(std::string_view str, char sep, bool keepEmpty)</div><div class="ttdef"><b>Definition:</b> Tokenize.cpp:20</div></div>
-<div class="ttc" id="aa04494_html_a8bfa20db83fbdc4e649e394ea8d05d0d"><div class="ttname"><a href="../../d4/d22/a04494.html#a8bfa20db83fbdc4e649e394ea8d05d0d">anonymous_namespace{Config.cpp}::_filename</a></div><div class="ttdeci">std::string _filename</div><div class="ttdef"><b>Definition:</b> Config.cpp:31</div></div>
-<div class="ttc" id="aa04494_html_aa324820f5ede7eec5a4d8eefc77298f4"><div class="ttname"><a href="../../d4/d22/a04494.html#aa324820f5ede7eec5a4d8eefc77298f4">anonymous_namespace{Config.cpp}::_args</a></div><div class="ttdeci">std::vector&lt; std::string &gt; _args</div><div class="ttdef"><b>Definition:</b> Config.cpp:33</div></div>
-<div class="ttc" id="aa04494_html_ac4608b63b3297653b81c9c4196c12141"><div class="ttname"><a href="../../d4/d22/a04494.html#ac4608b63b3297653b81c9c4196c12141">anonymous_namespace{Config.cpp}::_additonalFiles</a></div><div class="ttdeci">std::vector&lt; std::string &gt; _additonalFiles</div><div class="ttdef"><b>Definition:</b> Config.cpp:32</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00020">Acore::Tokenize()</a>.</p>
-
-</div>
-</div>
-<a id="a824a06c1dc274c92c33d1f5681994be0" name="a824a06c1dc274c92c33d1f5681994be0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a824a06c1dc274c92c33d1f5681994be0">&#9670;&#160;</a></span>GetArguments()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt; std::string &gt; const  &amp; ConfigMgr::GetArguments </td>
+          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> MMAP::MMapMgr::getLoadedMapsCount </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  482</span>{</div>
-<div class="line"><span class="lineno">  483</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d22/a04494.html#aa324820f5ede7eec5a4d8eefc77298f4">_args</a>;</div>
-<div class="line"><span class="lineno">  484</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aa6657949e5ed59b6091b56ab1fd74b0d" name="aa6657949e5ed59b6091b56ab1fd74b0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6657949e5ed59b6091b56ab1fd74b0d">&#9670;&#160;</a></span>GetBoolDefault()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ConfigMgr::GetBoolDefault </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>def</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>showLogs</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="deprecated"><dt><b><a class="el" href="../../d1/d73/a04476.html#_deprecated000002">Deprecated:</a></b></dt><dd>DO NOT USE - use GetOption&lt;bool&gt; instead. </dd></dl>
-<div class="fragment"><div class="line"><span class="lineno">  608</span>{</div>
-<div class="line"><span class="lineno">  609</span>    <span class="keywordflow">return</span> GetOption&lt;bool&gt;(name, def, showLogs);</div>
-<div class="line"><span class="lineno">  610</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a104bef8d83f8c3b643f7538ac7bf5c30" name="a104bef8d83f8c3b643f7538ac7bf5c30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a104bef8d83f8c3b643f7538ac7bf5c30">&#9670;&#160;</a></span>GetConfigPath()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string const ConfigMgr::GetConfigPath </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  487</span>{</div>
-<div class="line"><span class="lineno">  488</span>    std::lock_guard&lt;std::mutex&gt; lock(_configLock);</div>
-<div class="line"><span class="lineno">  489</span> </div>
-<div class="line"><span class="lineno">  490</span><span class="preprocessor">#if AC_PLATFORM == AC_PLATFORM_WINDOWS</span></div>
-<div class="line"><span class="lineno">  491</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;configs/&quot;</span>;</div>
-<div class="line"><span class="lineno">  492</span><span class="preprocessor">#else</span></div>
-<div class="line"><span class="lineno">  493</span>    <span class="keywordflow">return</span> std::string(_CONF_DIR) + <span class="stringliteral">&quot;/&quot;</span>;</div>
-<div class="line"><span class="lineno">  494</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno">  495</span>}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00523">LoadModulesConfigs()</a>.</p>
-
-</div>
-</div>
-<a id="ad002777983ff9399976fc5d4447536de" name="ad002777983ff9399976fc5d4447536de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad002777983ff9399976fc5d4447536de">&#9670;&#160;</a></span>GetFilename()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string const ConfigMgr::GetFilename </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  476</span>{</div>
-<div class="line"><span class="lineno">  477</span>    std::lock_guard&lt;std::mutex&gt; lock(_configLock);</div>
-<div class="line"><span class="lineno">  478</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d22/a04494.html#a8bfa20db83fbdc4e649e394ea8d05d0d">_filename</a>;</div>
-<div class="line"><span class="lineno">  479</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a91f6e5959a46861603e3d2daec73771d" name="a91f6e5959a46861603e3d2daec73771d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91f6e5959a46861603e3d2daec73771d">&#9670;&#160;</a></span>GetFloatDefault()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float ConfigMgr::GetFloatDefault </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>def</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>showLogs</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="deprecated"><dt><b><a class="el" href="../../d1/d73/a04476.html#_deprecated000004">Deprecated:</a></b></dt><dd>DO NOT USE - use GetOption&lt;float&gt; instead. </dd></dl>
-<div class="fragment"><div class="line"><span class="lineno">  620</span>{</div>
-<div class="line"><span class="lineno">  621</span>    <span class="keywordflow">return</span> GetOption&lt;float&gt;(name, def, showLogs);</div>
-<div class="line"><span class="lineno">  622</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a5d280b4ed358e37bce586db7a3fc9e0c" name="a5d280b4ed358e37bce586db7a3fc9e0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d280b4ed358e37bce586db7a3fc9e0c">&#9670;&#160;</a></span>GetIntDefault()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int ConfigMgr::GetIntDefault </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>def</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>showLogs</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="deprecated"><dt><b><a class="el" href="../../d1/d73/a04476.html#_deprecated000003">Deprecated:</a></b></dt><dd>DO NOT USE - use GetOption&lt;int32&gt; instead. </dd></dl>
-<div class="fragment"><div class="line"><span class="lineno">  614</span>{</div>
-<div class="line"><span class="lineno">  615</span>    <span class="keywordflow">return</span> GetOption&lt;int32&gt;(name, def, showLogs);</div>
-<div class="line"><span class="lineno">  616</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a6172d618b5f96b7f58c8dca984afecb4" name="a6172d618b5f96b7f58c8dca984afecb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6172d618b5f96b7f58c8dca984afecb4">&#9670;&#160;</a></span>GetKeysByString()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt; std::string &gt; ConfigMgr::GetKeysByString </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  459</span>{</div>
-<div class="line"><span class="lineno">  460</span>    std::lock_guard&lt;std::mutex&gt; lock(_configLock);</div>
-<div class="line"><span class="lineno">  461</span> </div>
-<div class="line"><span class="lineno">  462</span>    std::vector&lt;std::string&gt; keys;</div>
-<div class="line"><span class="lineno">  463</span> </div>
-<div class="line"><span class="lineno">  464</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; [optionName, key] : _configOptions)</div>
-<div class="line"><span class="lineno">  465</span>    {</div>
-<div class="line"><span class="lineno">  466</span>        <span class="keywordflow">if</span> (!optionName.compare(0, name.length(), name))</div>
-<div class="line"><span class="lineno">  467</span>        {</div>
-<div class="line"><span class="lineno">  468</span>            keys.emplace_back(optionName);</div>
-<div class="line"><span class="lineno">  469</span>        }</div>
-<div class="line"><span class="lineno">  470</span>    }</div>
-<div class="line"><span class="lineno">  471</span> </div>
-<div class="line"><span class="lineno">  472</span>    <span class="keywordflow">return</span> keys;</div>
-<div class="line"><span class="lineno">  473</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ac30a389fa563bf0360ac833a4a029573" name="ac30a389fa563bf0360ac833a4a029573"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac30a389fa563bf0360ac833a4a029573">&#9670;&#160;</a></span>GetOption() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ConfigMgr::GetOption </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool const &amp;&#160;</td>
-          <td class="paramname"><em>def</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>showLogs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  440</span>{</div>
-<div class="line"><span class="lineno">  441</span>    std::string val = <a class="code hl_function" href="../../d6/d2e/a04845.html#a4a122373714bb95f10e6532e30735e55">GetValueDefault</a>(name, std::string(def ? <span class="stringliteral">&quot;1&quot;</span> : <span class="stringliteral">&quot;0&quot;</span>), showLogs);</div>
-<div class="line"><span class="lineno">  442</span> </div>
-<div class="line"><span class="lineno">  443</span>    <span class="keyword">auto</span> boolVal = Acore::StringTo&lt;bool&gt;(val);</div>
-<div class="line"><span class="lineno">  444</span>    <span class="keywordflow">if</span> (!boolVal)</div>
-<div class="line"><span class="lineno">  445</span>    {</div>
-<div class="line"><span class="lineno">  446</span>        <span class="keywordflow">if</span> (showLogs)</div>
-<div class="line"><span class="lineno">  447</span>        {</div>
-<div class="line"><span class="lineno">  448</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Bad value defined for name &#39;{}&#39;, going to use &#39;{}&#39; instead&quot;</span>,</div>
-<div class="line"><span class="lineno">  449</span>                name, def ? <span class="stringliteral">&quot;true&quot;</span> : <span class="stringliteral">&quot;false&quot;</span>);</div>
-<div class="line"><span class="lineno">  450</span>        }</div>
-<div class="line"><span class="lineno">  451</span> </div>
-<div class="line"><span class="lineno">  452</span>        <span class="keywordflow">return</span> def;</div>
-<div class="line"><span class="lineno">  453</span>    }</div>
-<div class="line"><span class="lineno">  454</span> </div>
-<div class="line"><span class="lineno">  455</span>    <span class="keywordflow">return</span> *boolVal;</div>
-<div class="line"><span class="lineno">  456</span>}</div>
-<div class="ttc" id="aa00317_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
-<div class="ttc" id="aa04845_html_a4a122373714bb95f10e6532e30735e55"><div class="ttname"><a href="../../d6/d2e/a04845.html#a4a122373714bb95f10e6532e30735e55">ConfigMgr::GetValueDefault</a></div><div class="ttdeci">T GetValueDefault(std::string const &amp;name, T const &amp;def, bool showLogs=true) const</div><div class="ttdef"><b>Definition:</b> Config.cpp:356</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00356">GetValueDefault()</a>, and <a class="el" href="../../#l00159">LOG_ERROR</a>.</p>
-
-</div>
-</div>
-<a id="a711be8eda4077d967a3677bd138998ac" name="a711be8eda4077d967a3677bd138998ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a711be8eda4077d967a3677bd138998ac">&#9670;&#160;</a></span>GetOption() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">T ConfigMgr::GetOption </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T const &amp;&#160;</td>
-          <td class="paramname"><em>def</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>showLogs</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  434</span>{</div>
-<div class="line"><span class="lineno">  435</span>    <span class="keywordflow">return</span> GetValueDefault&lt;T&gt;(name, def, showLogs);</div>
-<div class="line"><span class="lineno">  436</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a8e952e2273feb8b7b5c7ff67f71481f5" name="a8e952e2273feb8b7b5c7ff67f71481f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e952e2273feb8b7b5c7ff67f71481f5">&#9670;&#160;</a></span>GetStringDefault()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string ConfigMgr::GetStringDefault </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>def</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>showLogs</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="deprecated"><dt><b><a class="el" href="../../d1/d73/a04476.html#_deprecated000001">Deprecated:</a></b></dt><dd>DO NOT USE - use <a class="el" href="../../d6/d2e/a04845.html#a711be8eda4077d967a3677bd138998ac">GetOption&lt;std::string&gt;</a> instead. </dd></dl>
-<div class="fragment"><div class="line"><span class="lineno">  602</span>{</div>
-<div class="line"><span class="lineno">  603</span>    <span class="keywordflow">return</span> GetOption&lt;std::string&gt;(name, def, showLogs);</div>
-<div class="line"><span class="lineno">  604</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4a122373714bb95f10e6532e30735e55" name="a4a122373714bb95f10e6532e30735e55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a122373714bb95f10e6532e30735e55">&#9670;&#160;</a></span>GetValueDefault()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T ConfigMgr::GetValueDefault </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T const &amp;&#160;</td>
-          <td class="paramname"><em>def</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>showLogs</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  357</span>{</div>
-<div class="line"><span class="lineno">  358</span>    std::string strValue;</div>
-<div class="line"><span class="lineno">  359</span>    <span class="keyword">auto</span> <span class="keyword">const</span>&amp; itr = <a class="code hl_variable" href="../../d4/d22/a04494.html#a4c4d5bd9313e617a40ed0f27d79dbae9">_configOptions</a>.find(name);</div>
-<div class="line"><span class="lineno">  360</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d4/d22/a04494.html#a4c4d5bd9313e617a40ed0f27d79dbae9">_configOptions</a>.end())</div>
-<div class="line"><span class="lineno">  361</span>    {</div>
-<div class="line"><span class="lineno">  362</span>        <a class="code hl_typedef" href="../../de/df8/a00440.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;std::string&gt;</a> envVar = <a class="code hl_function" href="../../d4/d22/a04494.html#a4b39ee4aeace82542c39141c4c052417">EnvVarForIniKey</a>(name);</div>
-<div class="line"><span class="lineno">  363</span>        <span class="keywordflow">if</span> (!envVar)</div>
-<div class="line"><span class="lineno">  364</span>        {</div>
-<div class="line"><span class="lineno">  365</span>            <span class="keywordflow">if</span> (showLogs)</div>
-<div class="line"><span class="lineno">  366</span>            {</div>
-<div class="line"><span class="lineno">  367</span>                <a class="code hl_define" href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Missing property {} in config file {}, add \&quot;{} = {}\&quot; to this file.&quot;</span>,</div>
-<div class="line"><span class="lineno">  368</span>                    name, _filename, name, <a class="code hl_function" href="../../dd/d6e/a04485.html#ac2cb308fb001c35fbaa90489ea6cf478">Acore::ToString</a>(def));</div>
-<div class="line"><span class="lineno">  369</span>            }</div>
-<div class="line"><span class="lineno">  370</span> </div>
-<div class="line"><span class="lineno">  371</span>            <span class="keywordflow">return</span> def;</div>
-<div class="line"><span class="lineno">  372</span>        }</div>
-<div class="line"><span class="lineno">  373</span> </div>
-<div class="line"><span class="lineno">  374</span>        <span class="keywordflow">if</span> (showLogs)</div>
-<div class="line"><span class="lineno">  375</span>        {</div>
-<div class="line"><span class="lineno">  376</span>            <a class="code hl_define" href="../../da/de0/a00317.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Missing property {} in config file {}, recovered with environment &#39;{}&#39; value.&quot;</span>,</div>
-<div class="line"><span class="lineno">  377</span>                name.c_str(), <a class="code hl_variable" href="../../d4/d22/a04494.html#a8bfa20db83fbdc4e649e394ea8d05d0d">_filename</a>.c_str(), envVar-&gt;c_str());</div>
-<div class="line"><span class="lineno">  378</span>        }</div>
-<div class="line"><span class="lineno">  379</span> </div>
-<div class="line"><span class="lineno">  380</span>        strValue = *envVar;</div>
-<div class="line"><span class="lineno">  381</span>    }</div>
-<div class="line"><span class="lineno">  382</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  383</span>    {</div>
-<div class="line"><span class="lineno">  384</span>        strValue = itr-&gt;second;</div>
-<div class="line"><span class="lineno">  385</span>    }</div>
-<div class="line"><span class="lineno">  386</span> </div>
-<div class="line"><span class="lineno">  387</span>    <span class="keyword">auto</span> value = Acore::StringTo&lt;T&gt;(strValue);</div>
-<div class="line"><span class="lineno">  388</span>    <span class="keywordflow">if</span> (!value)</div>
-<div class="line"><span class="lineno">  389</span>    {</div>
-<div class="line"><span class="lineno">  390</span>        <span class="keywordflow">if</span> (showLogs)</div>
-<div class="line"><span class="lineno">  391</span>        {</div>
-<div class="line"><span class="lineno">  392</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Bad value defined for name &#39;{}&#39;, going to use &#39;{}&#39; instead&quot;</span>,</div>
-<div class="line"><span class="lineno">  393</span>                name, <a class="code hl_function" href="../../dd/d6e/a04485.html#ac2cb308fb001c35fbaa90489ea6cf478">Acore::ToString</a>(def));</div>
-<div class="line"><span class="lineno">  394</span>        }</div>
-<div class="line"><span class="lineno">  395</span> </div>
-<div class="line"><span class="lineno">  396</span>        <span class="keywordflow">return</span> def;</div>
-<div class="line"><span class="lineno">  397</span>    }</div>
-<div class="line"><span class="lineno">  398</span> </div>
-<div class="line"><span class="lineno">  399</span>    <span class="keywordflow">return</span> *value;</div>
-<div class="line"><span class="lineno">  400</span>}</div>
-<div class="ttc" id="aa00317_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../da/de0/a00317.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:163</div></div>
-<div class="ttc" id="aa00440_html_aaf8f4d77efd311ec7818ab421294ef82"><div class="ttname"><a href="../../de/df8/a00440.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a></div><div class="ttdeci">std::optional&lt; T &gt; Optional</div><div class="ttdoc">Optional helper class to wrap optional values within.</div><div class="ttdef"><b>Definition:</b> Optional.h:24</div></div>
-<div class="ttc" id="aa04485_html_ac2cb308fb001c35fbaa90489ea6cf478"><div class="ttname"><a href="../../dd/d6e/a04485.html#ac2cb308fb001c35fbaa90489ea6cf478">Acore::ToString</a></div><div class="ttdeci">std::string ToString(Type &amp;&amp;val, Params &amp;&amp;... params)</div><div class="ttdef"><b>Definition:</b> StringConvert.h:250</div></div>
-<div class="ttc" id="aa04494_html_a4b39ee4aeace82542c39141c4c052417"><div class="ttname"><a href="../../d4/d22/a04494.html#a4b39ee4aeace82542c39141c4c052417">anonymous_namespace{Config.cpp}::EnvVarForIniKey</a></div><div class="ttdeci">Optional&lt; std::string &gt; EnvVarForIniKey(std::string const &amp;key)</div><div class="ttdef"><b>Definition:</b> Config.cpp:285</div></div>
-<div class="ttc" id="aa04494_html_a4c4d5bd9313e617a40ed0f27d79dbae9"><div class="ttname"><a href="../../d4/d22/a04494.html#a4c4d5bd9313e617a40ed0f27d79dbae9">anonymous_namespace{Config.cpp}::_configOptions</a></div><div class="ttdeci">std::unordered_map&lt; std::string, std::string &gt; _configOptions</div><div class="ttdef"><b>Definition:</b> Config.cpp:34</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   91</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a>.size(); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00159">LOG_ERROR</a>, <a class="el" href="../../#l00163">LOG_WARN</a>, and <a class="el" href="../../#l00250">Acore::ToString()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00098">loadedMMaps</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00439">GetOption()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00219">mmaps_commandscript::HandleMmapStatsCommand()</a>.</p>
 
 </div>
 </div>
-<a id="a775439020c2e5577206c2559bbb2b042" name="a775439020c2e5577206c2559bbb2b042"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a775439020c2e5577206c2559bbb2b042">&#9670;&#160;</a></span>instance()</h2>
+<a id="a14fe8d762bac4d5d179af1acf8bfe84e" name="a14fe8d762bac4d5d179af1acf8bfe84e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14fe8d762bac4d5d179af1acf8bfe84e">&#9670;&#160;</a></span>getLoadedTilesCount()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -777,45 +256,10 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d2e/a04845.html">ConfigMgr</a> * ConfigMgr::instance </td>
+          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> MMAP::MMapMgr::getLoadedTilesCount </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  310</span>{</div>
-<div class="line"><span class="lineno">  311</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../d6/d2e/a04845.html">ConfigMgr</a> <a class="code hl_function" href="../../d6/d2e/a04845.html#a775439020c2e5577206c2559bbb2b042">instance</a>;</div>
-<div class="line"><span class="lineno">  312</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../d6/d2e/a04845.html#a775439020c2e5577206c2559bbb2b042">instance</a>;</div>
-<div class="line"><span class="lineno">  313</span>}</div>
-<div class="ttc" id="aa04845_html"><div class="ttname"><a href="../../d6/d2e/a04845.html">ConfigMgr</a></div><div class="ttdef"><b>Definition:</b> Config.h:27</div></div>
-<div class="ttc" id="aa04845_html_a775439020c2e5577206c2559bbb2b042"><div class="ttname"><a href="../../d6/d2e/a04845.html#a775439020c2e5577206c2559bbb2b042">ConfigMgr::instance</a></div><div class="ttdeci">static ConfigMgr * instance()</div><div class="ttdef"><b>Definition:</b> Config.cpp:309</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00309">instance()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00309">instance()</a>.</p>
-
-</div>
-</div>
-<a id="a951307027c22fea8c88c3d0e78232413" name="a951307027c22fea8c88c3d0e78232413"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a951307027c22fea8c88c3d0e78232413">&#9670;&#160;</a></span>isDryRun()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ConfigMgr::isDryRun </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -824,15 +268,17 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   73</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d2e/a04845.html#a555709e27a884d16ef6dd91cc21b806b">dryRun</a>; }</div>
-<div class="ttc" id="aa04845_html_a555709e27a884d16ef6dd91cc21b806b"><div class="ttname"><a href="../../d6/d2e/a04845.html#a555709e27a884d16ef6dd91cc21b806b">ConfigMgr::dryRun</a></div><div class="ttdeci">bool dryRun</div><div class="ttdef"><b>Definition:</b> Config.h:84</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   90</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d2e/a04845.html#a9e2154958fcfa78d8906ccb5ccf2597c">loadedTiles</a>; }</div>
+<div class="ttc" id="aa04845_html_a9e2154958fcfa78d8906ccb5ccf2597c"><div class="ttname"><a href="../../d6/d2e/a04845.html#a9e2154958fcfa78d8906ccb5ccf2597c">MMAP::MMapMgr::loadedTiles</a></div><div class="ttdeci">uint32 loadedTiles</div><div class="ttdef"><b>Definition:</b> MMapMgr.h:99</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00084">dryRun</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00099">loadedTiles</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00219">mmaps_commandscript::HandleMmapStatsCommand()</a>.</p>
 
 </div>
 </div>
-<a id="a58c320a6a1cf51bbeb51b90f0e4f2a71" name="a58c320a6a1cf51bbeb51b90f0e4f2a71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58c320a6a1cf51bbeb51b90f0e4f2a71">&#9670;&#160;</a></span>LoadAdditionalFile()</h2>
+<a id="a755d34666349eba1d7665e510afa3453" name="a755d34666349eba1d7665e510afa3453"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a755d34666349eba1d7665e510afa3453">&#9670;&#160;</a></span>GetMMapData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -841,27 +287,11 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ConfigMgr::LoadAdditionalFile </td>
+          <td class="memname">MMapDataSet::const_iterator MMAP::MMapMgr::GetMMapData </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>file</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isOptional</em> = <code>false</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isReload</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>mapId</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -870,110 +300,72 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  304</span>{</div>
-<div class="line"><span class="lineno">  305</span>    std::lock_guard&lt;std::mutex&gt; lock(_configLock);</div>
-<div class="line"><span class="lineno">  306</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d4/d22/a04494.html#a04d7cd62693d073b89d11aab4ba3342d">LoadFile</a>(file, isOptional, isReload);</div>
-<div class="line"><span class="lineno">  307</span>}</div>
-<div class="ttc" id="aa04494_html_a04d7cd62693d073b89d11aab4ba3342d"><div class="ttname"><a href="../../d4/d22/a04494.html#a04d7cd62693d073b89d11aab4ba3342d">anonymous_namespace{Config.cpp}::LoadFile</a></div><div class="ttdeci">bool LoadFile(std::string const &amp;file, bool isOptional, bool isReload)</div><div class="ttdef"><b>Definition:</b> Config.cpp:206</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   53</span>    {</div>
+<div class="line"><span class="lineno">   54</span>        <span class="comment">// return the iterator if found or end() if not found/NULL</span></div>
+<div class="line"><span class="lineno">   55</span>        MMapDataSet::const_iterator itr = <a class="code hl_variable" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a>.find(mapId);</div>
+<div class="line"><span class="lineno">   56</span>        <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a>.cend() &amp;&amp; !itr-&gt;second)</div>
+<div class="line"><span class="lineno">   57</span>        {</div>
+<div class="line"><span class="lineno">   58</span>            itr = <a class="code hl_variable" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a>.cend();</div>
+<div class="line"><span class="lineno">   59</span>        }</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>        <span class="keywordflow">return</span> itr;</div>
+<div class="line"><span class="lineno">   62</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00523">LoadModulesConfigs()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00098">loadedMMaps</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00306">GetNavMesh()</a>, <a class="el" href="../../#l00317">GetNavMeshQuery()</a>, <a class="el" href="../../#l00204">unloadMap()</a>, and <a class="el" href="../../#l00279">unloadMapInstance()</a>.</p>
 
 </div>
 </div>
-<a id="ae8b4473b24540d12468cb994b89b78b8" name="ae8b4473b24540d12468cb994b89b78b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8b4473b24540d12468cb994b89b78b8">&#9670;&#160;</a></span>LoadAppConfigs()</h2>
+<a id="aeae84fe910639b71a40949de59e41c91" name="aeae84fe910639b71a40949de59e41c91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeae84fe910639b71a40949de59e41c91">&#9670;&#160;</a></span>GetNavMesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool ConfigMgr::LoadAppConfigs </td>
+          <td class="memname">dtNavMesh const  * MMAP::MMapMgr::GetNavMesh </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isReload</em> = <code>false</code></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>mapId</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  513</span>{</div>
-<div class="line"><span class="lineno">  514</span>    <span class="comment">// #1 - Load init config file .conf</span></div>
-<div class="line"><span class="lineno">  515</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d6/d2e/a04845.html#ab44a44b2613fc787f60937835bf4878f">LoadInitial</a>(_filename, isReload))</div>
-<div class="line"><span class="lineno">  516</span>    {</div>
-<div class="line"><span class="lineno">  517</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  518</span>    }</div>
-<div class="line"><span class="lineno">  519</span> </div>
-<div class="line"><span class="lineno">  520</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  521</span>}</div>
-<div class="ttc" id="aa04845_html_ab44a44b2613fc787f60937835bf4878f"><div class="ttname"><a href="../../d6/d2e/a04845.html#ab44a44b2613fc787f60937835bf4878f">ConfigMgr::LoadInitial</a></div><div class="ttdeci">bool LoadInitial(std::string const &amp;file, bool isReload=false)</div><div class="ttdoc">Method used only for loading main configuration files (authserver.conf and worldserver....</div><div class="ttdef"><b>Definition:</b> Config.cpp:296</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  307</span>    {</div>
+<div class="line"><span class="lineno">  308</span>        MMapDataSet::const_iterator itr = <a class="code hl_function" href="../../d6/d2e/a04845.html#a755d34666349eba1d7665e510afa3453">GetMMapData</a>(mapId);</div>
+<div class="line"><span class="lineno">  309</span>        <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a>.end())</div>
+<div class="line"><span class="lineno">  310</span>        {</div>
+<div class="line"><span class="lineno">  311</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  312</span>        }</div>
+<div class="line"><span class="lineno">  313</span> </div>
+<div class="line"><span class="lineno">  314</span>        <span class="keywordflow">return</span> itr-&gt;second-&gt;navMesh;</div>
+<div class="line"><span class="lineno">  315</span>    }</div>
+<div class="ttc" id="aa04845_html_a755d34666349eba1d7665e510afa3453"><div class="ttname"><a href="../../d6/d2e/a04845.html#a755d34666349eba1d7665e510afa3453">MMAP::MMapMgr::GetMMapData</a></div><div class="ttdeci">MMapDataSet::const_iterator GetMMapData(uint32 mapId) const</div><div class="ttdef"><b>Definition:</b> MMapMgr.cpp:52</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00296">LoadInitial()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00052">GetMMapData()</a>, and <a class="el" href="../../#l00098">loadedMMaps</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00315">Reload()</a>.</p>
-
-</div>
-</div>
-<a id="ab44a44b2613fc787f60937835bf4878f" name="ab44a44b2613fc787f60937835bf4878f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab44a44b2613fc787f60937835bf4878f">&#9670;&#160;</a></span>LoadInitial()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ConfigMgr::LoadInitial </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>file</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isReload</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Method used only for loading main configuration files (authserver.conf and worldserver.conf) </p>
-<div class="fragment"><div class="line"><span class="lineno">  297</span>{</div>
-<div class="line"><span class="lineno">  298</span>    std::lock_guard&lt;std::mutex&gt; lock(_configLock);</div>
-<div class="line"><span class="lineno">  299</span>    <a class="code hl_variable" href="../../d4/d22/a04494.html#a4c4d5bd9313e617a40ed0f27d79dbae9">_configOptions</a>.clear();</div>
-<div class="line"><span class="lineno">  300</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d4/d22/a04494.html#a04d7cd62693d073b89d11aab4ba3342d">LoadFile</a>(file, <span class="keyword">false</span>, isReload);</div>
-<div class="line"><span class="lineno">  301</span>}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00512">LoadAppConfigs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00540">misc_commandscript::HandleGPSCommand()</a>, <a class="el" href="../../#l00194">mmaps_commandscript::HandleMmapLoadedTilesCommand()</a>, <a class="el" href="../../#l00131">mmaps_commandscript::HandleMmapLocCommand()</a>, <a class="el" href="../../#l00219">mmaps_commandscript::HandleMmapStatsCommand()</a>, and <a class="el" href="../../#l00029">PathGenerator::PathGenerator()</a>.</p>
 
 </div>
 </div>
-<a id="a4752375243302e81a5e8fb3f5615e776" name="a4752375243302e81a5e8fb3f5615e776"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4752375243302e81a5e8fb3f5615e776">&#9670;&#160;</a></span>LoadModulesConfigs()</h2>
+<a id="af9b97f1e32233fef4e4828a4c8907abc" name="af9b97f1e32233fef4e4828a4c8907abc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9b97f1e32233fef4e4828a4c8907abc">&#9670;&#160;</a></span>GetNavMeshQuery()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool ConfigMgr::LoadModulesConfigs </td>
+          <td class="memname">dtNavMeshQuery const  * MMAP::MMapMgr::GetNavMeshQuery </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isReload</em> = <code>false</code>, </td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>mapId</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isNeedPrintInfo</em> = <code>true</code>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>instanceId</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -982,201 +374,205 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  524</span>{</div>
-<div class="line"><span class="lineno">  525</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d22/a04494.html#ac4608b63b3297653b81c9c4196c12141">_additonalFiles</a>.empty())</div>
-<div class="line"><span class="lineno">  526</span>    {</div>
-<div class="line"><span class="lineno">  527</span>        <span class="comment">// Send successful load if no found files</span></div>
-<div class="line"><span class="lineno">  528</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  529</span>    }</div>
-<div class="line"><span class="lineno">  530</span> </div>
-<div class="line"><span class="lineno">  531</span>    <span class="keywordflow">if</span> (isNeedPrintInfo)</div>
-<div class="line"><span class="lineno">  532</span>    {</div>
-<div class="line"><span class="lineno">  533</span>        <a class="code hl_define" href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
-<div class="line"><span class="lineno">  534</span>        <a class="code hl_define" href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Loading Modules Configuration...&quot;</span>);</div>
-<div class="line"><span class="lineno">  535</span>    }</div>
-<div class="line"><span class="lineno">  536</span> </div>
-<div class="line"><span class="lineno">  537</span>    <span class="comment">// Start loading module configs</span></div>
-<div class="line"><span class="lineno">  538</span>    std::string <span class="keyword">const</span>&amp; moduleConfigPath = <a class="code hl_function" href="../../d6/d2e/a04845.html#a104bef8d83f8c3b643f7538ac7bf5c30">GetConfigPath</a>() + <span class="stringliteral">&quot;modules/&quot;</span>;</div>
-<div class="line"><span class="lineno">  539</span>    <span class="keywordtype">bool</span> isExistDefaultConfig = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  540</span>    <span class="keywordtype">bool</span> isExistDistConfig = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  541</span> </div>
-<div class="line"><span class="lineno">  542</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; distFileName : _additonalFiles)</div>
-<div class="line"><span class="lineno">  543</span>    {</div>
-<div class="line"><span class="lineno">  544</span>        std::string defaultFileName = distFileName;</div>
-<div class="line"><span class="lineno">  545</span> </div>
-<div class="line"><span class="lineno">  546</span>        <span class="keywordflow">if</span> (!defaultFileName.empty())</div>
-<div class="line"><span class="lineno">  547</span>        {</div>
-<div class="line"><span class="lineno">  548</span>            defaultFileName.erase(defaultFileName.end() - 5, defaultFileName.end());</div>
-<div class="line"><span class="lineno">  549</span>        }</div>
-<div class="line"><span class="lineno">  550</span> </div>
-<div class="line"><span class="lineno">  551</span>        <span class="comment">// Load .conf.dist config</span></div>
-<div class="line"><span class="lineno">  552</span>        isExistDistConfig = <a class="code hl_function" href="../../d6/d2e/a04845.html#a58c320a6a1cf51bbeb51b90f0e4f2a71">LoadAdditionalFile</a>(moduleConfigPath + distFileName, <span class="keyword">false</span>, isReload);</div>
-<div class="line"><span class="lineno">  553</span> </div>
-<div class="line"><span class="lineno">  554</span>        <span class="keywordflow">if</span> (!isReload &amp;&amp; !isExistDistConfig)</div>
-<div class="line"><span class="lineno">  555</span>        {</div>
-<div class="line"><span class="lineno">  556</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; ConfigMgr::LoadModulesConfigs: Not found original config &#39;{}&#39;. Stop loading&quot;</span>, distFileName);</div>
-<div class="line"><span class="lineno">  557</span>            <a class="code hl_define" href="../../dd/d52/a00221.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a>();</div>
-<div class="line"><span class="lineno">  558</span>        }</div>
-<div class="line"><span class="lineno">  559</span> </div>
-<div class="line"><span class="lineno">  560</span>        <span class="comment">// Load .conf config</span></div>
-<div class="line"><span class="lineno">  561</span>        isExistDefaultConfig = <a class="code hl_function" href="../../d6/d2e/a04845.html#a58c320a6a1cf51bbeb51b90f0e4f2a71">LoadAdditionalFile</a>(moduleConfigPath + defaultFileName, <span class="keyword">true</span>, isReload);</div>
-<div class="line"><span class="lineno">  562</span> </div>
-<div class="line"><span class="lineno">  563</span>        <span class="keywordflow">if</span> (isExistDefaultConfig &amp;&amp; isExistDistConfig)</div>
-<div class="line"><span class="lineno">  564</span>        {</div>
-<div class="line"><span class="lineno">  565</span>            <a class="code hl_variable" href="../../d6/d2e/a04845.html#aa5a8c891e53c6d76cf63d0a40fd799e1">_moduleConfigFiles</a>.emplace_back(defaultFileName);</div>
-<div class="line"><span class="lineno">  566</span>        }</div>
-<div class="line"><span class="lineno">  567</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!isExistDefaultConfig &amp;&amp; isExistDistConfig)</div>
-<div class="line"><span class="lineno">  568</span>        {</div>
-<div class="line"><span class="lineno">  569</span>            <a class="code hl_variable" href="../../d6/d2e/a04845.html#aa5a8c891e53c6d76cf63d0a40fd799e1">_moduleConfigFiles</a>.emplace_back(distFileName);</div>
-<div class="line"><span class="lineno">  570</span>        }</div>
-<div class="line"><span class="lineno">  571</span>    }</div>
-<div class="line"><span class="lineno">  572</span> </div>
-<div class="line"><span class="lineno">  573</span>    <span class="keywordflow">if</span> (isNeedPrintInfo)</div>
-<div class="line"><span class="lineno">  574</span>    {</div>
-<div class="line"><span class="lineno">  575</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/d2e/a04845.html#aa5a8c891e53c6d76cf63d0a40fd799e1">_moduleConfigFiles</a>.empty())</div>
-<div class="line"><span class="lineno">  576</span>        {</div>
-<div class="line"><span class="lineno">  577</span>            <span class="comment">// Print modules configurations</span></div>
-<div class="line"><span class="lineno">  578</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
-<div class="line"><span class="lineno">  579</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Using modules configuration:&quot;</span>);</div>
-<div class="line"><span class="lineno">  580</span> </div>
-<div class="line"><span class="lineno">  581</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; itr : <a class="code hl_variable" href="../../d6/d2e/a04845.html#aa5a8c891e53c6d76cf63d0a40fd799e1">_moduleConfigFiles</a>)</div>
-<div class="line"><span class="lineno">  582</span>            {</div>
-<div class="line"><span class="lineno">  583</span>                <a class="code hl_define" href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; {}&quot;</span>, itr);</div>
-<div class="line"><span class="lineno">  584</span>            }</div>
-<div class="line"><span class="lineno">  585</span>        }</div>
-<div class="line"><span class="lineno">  586</span>        <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  587</span>        {</div>
-<div class="line"><span class="lineno">  588</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Not found modules config files&quot;</span>);</div>
-<div class="line"><span class="lineno">  589</span>        }</div>
-<div class="line"><span class="lineno">  590</span>    }</div>
-<div class="line"><span class="lineno">  591</span> </div>
-<div class="line"><span class="lineno">  592</span>    <span class="keywordflow">if</span> (isNeedPrintInfo)</div>
-<div class="line"><span class="lineno">  593</span>    {</div>
-<div class="line"><span class="lineno">  594</span>        <a class="code hl_define" href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
-<div class="line"><span class="lineno">  595</span>    }</div>
-<div class="line"><span class="lineno">  596</span> </div>
-<div class="line"><span class="lineno">  597</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  598</span>}</div>
-<div class="ttc" id="aa00221_html_a5376571bbf4cdc9782683635f366f89a"><div class="ttname"><a href="../../dd/d52/a00221.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a></div><div class="ttdeci">#define ABORT</div><div class="ttdef"><b>Definition:</b> Errors.h:76</div></div>
-<div class="ttc" id="aa00317_html_a0e09b50c268dc6897a1c70aa46de936e"><div class="ttname"><a href="../../da/de0/a00317.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a></div><div class="ttdeci">#define LOG_FATAL(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:155</div></div>
-<div class="ttc" id="aa00317_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:167</div></div>
-<div class="ttc" id="aa04845_html_a104bef8d83f8c3b643f7538ac7bf5c30"><div class="ttname"><a href="../../d6/d2e/a04845.html#a104bef8d83f8c3b643f7538ac7bf5c30">ConfigMgr::GetConfigPath</a></div><div class="ttdeci">std::string const GetConfigPath()</div><div class="ttdef"><b>Definition:</b> Config.cpp:486</div></div>
-<div class="ttc" id="aa04845_html_a58c320a6a1cf51bbeb51b90f0e4f2a71"><div class="ttname"><a href="../../d6/d2e/a04845.html#a58c320a6a1cf51bbeb51b90f0e4f2a71">ConfigMgr::LoadAdditionalFile</a></div><div class="ttdeci">bool LoadAdditionalFile(std::string file, bool isOptional=false, bool isReload=false)</div><div class="ttdef"><b>Definition:</b> Config.cpp:303</div></div>
-<div class="ttc" id="aa04845_html_aa5a8c891e53c6d76cf63d0a40fd799e1"><div class="ttname"><a href="../../d6/d2e/a04845.html#aa5a8c891e53c6d76cf63d0a40fd799e1">ConfigMgr::_moduleConfigFiles</a></div><div class="ttdeci">std::vector&lt; std::string &gt; _moduleConfigFiles</div><div class="ttdef"><b>Definition:</b> Config.h:86</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00086">_moduleConfigFiles</a>, <a class="el" href="../../#l00076">ABORT</a>, <a class="el" href="../../#l00486">GetConfigPath()</a>, <a class="el" href="../../#l00303">LoadAdditionalFile()</a>, <a class="el" href="../../#l00155">LOG_FATAL</a>, and <a class="el" href="../../#l00167">LOG_INFO</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00315">Reload()</a>.</p>
-
-</div>
-</div>
-<a id="ac7257754613b850d43951a0d6e1074b9" name="ac7257754613b850d43951a0d6e1074b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7257754613b850d43951a0d6e1074b9">&#9670;&#160;</a></span>operator=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d6/d2e/a04845.html">ConfigMgr</a> &amp; ConfigMgr::operator= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/d2e/a04845.html">ConfigMgr</a> const &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a03a1bed0e7b07a3fb3e41ea5fd80d983" name="a03a1bed0e7b07a3fb3e41ea5fd80d983"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03a1bed0e7b07a3fb3e41ea5fd80d983">&#9670;&#160;</a></span>OverrideWithEnvVariablesIfAny()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt; std::string &gt; ConfigMgr::OverrideWithEnvVariablesIfAny </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Overrides configuration with environment variables and returns overridden keys. </p>
-<div class="fragment"><div class="line"><span class="lineno">  333</span>{</div>
-<div class="line"><span class="lineno">  334</span>    std::lock_guard&lt;std::mutex&gt; lock(_configLock);</div>
-<div class="line"><span class="lineno">  335</span> </div>
-<div class="line"><span class="lineno">  336</span>    std::vector&lt;std::string&gt; overriddenKeys;</div>
-<div class="line"><span class="lineno">  337</span> </div>
-<div class="line"><span class="lineno">  338</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; itr : _configOptions)</div>
-<div class="line"><span class="lineno">  339</span>    {</div>
-<div class="line"><span class="lineno">  340</span>        <span class="keywordflow">if</span> (itr.first.empty())</div>
-<div class="line"><span class="lineno">  341</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  342</span> </div>
-<div class="line"><span class="lineno">  343</span>        <a class="code hl_typedef" href="../../de/df8/a00440.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;std::string&gt;</a> envVar = <a class="code hl_function" href="../../d4/d22/a04494.html#a4b39ee4aeace82542c39141c4c052417">EnvVarForIniKey</a>(itr.first);</div>
-<div class="line"><span class="lineno">  344</span>        <span class="keywordflow">if</span> (!envVar)</div>
-<div class="line"><span class="lineno">  345</span>            <span class="keywordflow">continue</span>;</div>
+<div class="fragment"><div class="line"><span class="lineno">  318</span>    {</div>
+<div class="line"><span class="lineno">  319</span>        MMapDataSet::const_iterator itr = <a class="code hl_function" href="../../d6/d2e/a04845.html#a755d34666349eba1d7665e510afa3453">GetMMapData</a>(mapId);</div>
+<div class="line"><span class="lineno">  320</span>        <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a>.end())</div>
+<div class="line"><span class="lineno">  321</span>        {</div>
+<div class="line"><span class="lineno">  322</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  323</span>        }</div>
+<div class="line"><span class="lineno">  324</span> </div>
+<div class="line"><span class="lineno">  325</span>        MMapData* mmap = itr-&gt;second;</div>
+<div class="line"><span class="lineno">  326</span>        <span class="keywordflow">if</span> (mmap-&gt;navMeshQueries.find(instanceId) == mmap-&gt;navMeshQueries.end())</div>
+<div class="line"><span class="lineno">  327</span>        {</div>
+<div class="line"><span class="lineno">  328</span>            <span class="comment">// check again after acquiring mutex</span></div>
+<div class="line"><span class="lineno">  329</span>            <span class="keywordflow">if</span> (mmap-&gt;navMeshQueries.find(instanceId) == mmap-&gt;navMeshQueries.end())</div>
+<div class="line"><span class="lineno">  330</span>            {</div>
+<div class="line"><span class="lineno">  331</span>                <span class="comment">// allocate mesh query</span></div>
+<div class="line"><span class="lineno">  332</span>                dtNavMeshQuery* query = dtAllocNavMeshQuery();</div>
+<div class="line"><span class="lineno">  333</span>                <a class="code hl_define" href="../../dd/d52/a00221.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(query);</div>
+<div class="line"><span class="lineno">  334</span> </div>
+<div class="line"><span class="lineno">  335</span>                <span class="keywordflow">if</span> (dtStatusFailed(query-&gt;init(mmap-&gt;navMesh, 1024)))</div>
+<div class="line"><span class="lineno">  336</span>                {</div>
+<div class="line"><span class="lineno">  337</span>                    dtFreeNavMeshQuery(query);</div>
+<div class="line"><span class="lineno">  338</span>                    <a class="code hl_define" href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:GetNavMeshQuery: Failed to initialize dtNavMeshQuery for mapId {:03} instanceId {}&quot;</span>, mapId, instanceId);</div>
+<div class="line"><span class="lineno">  339</span>                    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  340</span>                }</div>
+<div class="line"><span class="lineno">  341</span> </div>
+<div class="line"><span class="lineno">  342</span>                <a class="code hl_define" href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:GetNavMeshQuery: created dtNavMeshQuery for mapId {:03} instanceId {}&quot;</span>, mapId, instanceId);</div>
+<div class="line"><span class="lineno">  343</span>                mmap-&gt;navMeshQueries.insert(std::pair&lt;uint32, dtNavMeshQuery*&gt;(instanceId, query));</div>
+<div class="line"><span class="lineno">  344</span>            }</div>
+<div class="line"><span class="lineno">  345</span>        }</div>
 <div class="line"><span class="lineno">  346</span> </div>
-<div class="line"><span class="lineno">  347</span>        itr.second = *envVar;</div>
-<div class="line"><span class="lineno">  348</span> </div>
-<div class="line"><span class="lineno">  349</span>        overriddenKeys.push_back(itr.first);</div>
-<div class="line"><span class="lineno">  350</span>    }</div>
-<div class="line"><span class="lineno">  351</span> </div>
-<div class="line"><span class="lineno">  352</span>    <span class="keywordflow">return</span> overriddenKeys;</div>
-<div class="line"><span class="lineno">  353</span>}</div>
+<div class="line"><span class="lineno">  347</span>        <span class="keywordflow">return</span> mmap-&gt;navMeshQueries[instanceId];</div>
+<div class="line"><span class="lineno">  348</span>    }</div>
+<div class="ttc" id="aa00221_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../dd/d52/a00221.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aa00317_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
+<div class="ttc" id="aa00317_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:169</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00315">Reload()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00052">GetMMapData()</a>, <a class="el" href="../../#l00098">loadedMMaps</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00066">MMAP::MMapData::navMesh</a>, and <a class="el" href="../../#l00065">MMAP::MMapData::navMeshQueries</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00194">mmaps_commandscript::HandleMmapLoadedTilesCommand()</a>, <a class="el" href="../../#l00131">mmaps_commandscript::HandleMmapLocCommand()</a>, and <a class="el" href="../../#l00029">PathGenerator::PathGenerator()</a>.</p>
 
 </div>
 </div>
-<a id="a66363d8377945f4b29061ce9e4ea6dc7" name="a66363d8377945f4b29061ce9e4ea6dc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66363d8377945f4b29061ce9e4ea6dc7">&#9670;&#160;</a></span>Reload()</h2>
+<a id="a88c7145d0475a2e5d9be5baa72a2ca7e" name="a88c7145d0475a2e5d9be5baa72a2ca7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88c7145d0475a2e5d9be5baa72a2ca7e">&#9670;&#160;</a></span>InitializeThreadUnsafe()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool ConfigMgr::Reload </td>
+          <td class="memname">void MMAP::MMapMgr::InitializeThreadUnsafe </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>mapIds</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  316</span>{</div>
-<div class="line"><span class="lineno">  317</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d6/d2e/a04845.html#ae8b4473b24540d12468cb994b89b78b8">LoadAppConfigs</a>(<span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">  318</span>    {</div>
-<div class="line"><span class="lineno">  319</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  320</span>    }</div>
-<div class="line"><span class="lineno">  321</span> </div>
-<div class="line"><span class="lineno">  322</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d6/d2e/a04845.html#a4752375243302e81a5e8fb3f5615e776">LoadModulesConfigs</a>(<span class="keyword">true</span>, <span class="keyword">false</span>))</div>
-<div class="line"><span class="lineno">  323</span>    {</div>
-<div class="line"><span class="lineno">  324</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  325</span>    }</div>
-<div class="line"><span class="lineno">  326</span> </div>
-<div class="line"><span class="lineno">  327</span>    <a class="code hl_function" href="../../d6/d2e/a04845.html#a03a1bed0e7b07a3fb3e41ea5fd80d983">OverrideWithEnvVariablesIfAny</a>();</div>
-<div class="line"><span class="lineno">  328</span> </div>
-<div class="line"><span class="lineno">  329</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  330</span>}</div>
-<div class="ttc" id="aa04845_html_a03a1bed0e7b07a3fb3e41ea5fd80d983"><div class="ttname"><a href="../../d6/d2e/a04845.html#a03a1bed0e7b07a3fb3e41ea5fd80d983">ConfigMgr::OverrideWithEnvVariablesIfAny</a></div><div class="ttdeci">std::vector&lt; std::string &gt; OverrideWithEnvVariablesIfAny()</div><div class="ttdoc">Overrides configuration with environment variables and returns overridden keys.</div><div class="ttdef"><b>Definition:</b> Config.cpp:332</div></div>
-<div class="ttc" id="aa04845_html_a4752375243302e81a5e8fb3f5615e776"><div class="ttname"><a href="../../d6/d2e/a04845.html#a4752375243302e81a5e8fb3f5615e776">ConfigMgr::LoadModulesConfigs</a></div><div class="ttdeci">bool LoadModulesConfigs(bool isReload=false, bool isNeedPrintInfo=true)</div><div class="ttdef"><b>Definition:</b> Config.cpp:523</div></div>
-<div class="ttc" id="aa04845_html_ae8b4473b24540d12468cb994b89b78b8"><div class="ttname"><a href="../../d6/d2e/a04845.html#ae8b4473b24540d12468cb994b89b78b8">ConfigMgr::LoadAppConfigs</a></div><div class="ttdeci">bool LoadAppConfigs(bool isReload=false)</div><div class="ttdef"><b>Definition:</b> Config.cpp:512</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   42</span>    {</div>
+<div class="line"><span class="lineno">   43</span>        <span class="comment">// the caller must pass the list of all mapIds that will be used in the VMapMgr2 lifetime</span></div>
+<div class="line"><span class="lineno">   44</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&amp; mapId : mapIds)</div>
+<div class="line"><span class="lineno">   45</span>        {</div>
+<div class="line"><span class="lineno">   46</span>            <a class="code hl_variable" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a>.emplace(mapId, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   47</span>        }</div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>        <a class="code hl_variable" href="../../d6/d2e/a04845.html#a89c7b087891d313e69437504dc0e449f">thread_safe_environment</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   50</span>    }</div>
+<div class="ttc" id="aa00230_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aa04845_html_a89c7b087891d313e69437504dc0e449f"><div class="ttname"><a href="../../d6/d2e/a04845.html#a89c7b087891d313e69437504dc0e449f">MMAP::MMapMgr::thread_safe_environment</a></div><div class="ttdeci">bool thread_safe_environment</div><div class="ttdef"><b>Definition:</b> MMapMgr.h:100</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00512">LoadAppConfigs()</a>, <a class="el" href="../../#l00523">LoadModulesConfigs()</a>, and <a class="el" href="../../#l00332">OverrideWithEnvVariablesIfAny()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00098">loadedMMaps</a>, and <a class="el" href="../../#l00100">thread_safe_environment</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01485">World::SetInitialWorldSettings()</a>.</p>
 
 </div>
 </div>
-<a id="ac2d5c14f32b1d8dfb3e8736f5aef5e7e" name="ac2d5c14f32b1d8dfb3e8736f5aef5e7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2d5c14f32b1d8dfb3e8736f5aef5e7e">&#9670;&#160;</a></span>setDryRun()</h2>
+<a id="aa27722de47fd0f5ea0d0afac8b08e161" name="aa27722de47fd0f5ea0d0afac8b08e161"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa27722de47fd0f5ea0d0afac8b08e161">&#9670;&#160;</a></span>loadMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MMAP::MMapMgr::loadMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>mapId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  129</span>    {</div>
+<div class="line"><span class="lineno">  130</span>        <span class="comment">// make sure the mmap is loaded and ready to load tiles</span></div>
+<div class="line"><span class="lineno">  131</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d6/d2e/a04845.html#ac677ea014721d0631195ba64b05c66a0">loadMapData</a>(mapId))</div>
+<div class="line"><span class="lineno">  132</span>        {</div>
+<div class="line"><span class="lineno">  133</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  134</span>        }</div>
+<div class="line"><span class="lineno">  135</span> </div>
+<div class="line"><span class="lineno">  136</span>        <span class="comment">// get this mmap data</span></div>
+<div class="line"><span class="lineno">  137</span>        MMapData* mmap = <a class="code hl_variable" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a>[mapId];</div>
+<div class="line"><span class="lineno">  138</span>        <a class="code hl_define" href="../../dd/d52/a00221.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(mmap-&gt;navMesh);</div>
+<div class="line"><span class="lineno">  139</span> </div>
+<div class="line"><span class="lineno">  140</span>        <span class="comment">// check if we already have this tile loaded</span></div>
+<div class="line"><span class="lineno">  141</span>        <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> packedGridPos = <a class="code hl_function" href="../../d6/d2e/a04845.html#ace3265c248ccf2a34ca4b7c43f294e43">packTileID</a>(x, y);</div>
+<div class="line"><span class="lineno">  142</span>        <span class="keywordflow">if</span> (mmap-&gt;loadedTileRefs.find(packedGridPos) != mmap-&gt;loadedTileRefs.end())</div>
+<div class="line"><span class="lineno">  143</span>        {</div>
+<div class="line"><span class="lineno">  144</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:loadMap: Asked to load already loaded navmesh tile. {:03}{:02}{:02}.mmtile&quot;</span>, mapId, x, y);</div>
+<div class="line"><span class="lineno">  145</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  146</span>        }</div>
+<div class="line"><span class="lineno">  147</span> </div>
+<div class="line"><span class="lineno">  148</span>        <span class="comment">// load this tile :: mmaps/MMMXXYY.mmtile</span></div>
+<div class="line"><span class="lineno">  149</span>        std::string fileName = <a class="code hl_function" href="../../df/df3/a04641.html#a20cdbbf36d71c2c01f75fd0e706a7b10">Acore::StringFormat</a>(<a class="code hl_variable" href="../../d5/d62/a04648.html#a27e34ce3b8808f2aa889e5c4e623059a">TILE_FILE_NAME_FORMAT</a>, <a class="code hl_define" href="../../d2/df5/a00137.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetOption&lt;std::string&gt;(<span class="stringliteral">&quot;DataDir&quot;</span>, <span class="stringliteral">&quot;.&quot;</span>).c_str(), mapId, x, y);</div>
+<div class="line"><span class="lineno">  150</span>        FILE* file = fopen(fileName.c_str(), <span class="stringliteral">&quot;rb&quot;</span>);</div>
+<div class="line"><span class="lineno">  151</span>        <span class="keywordflow">if</span> (!file)</div>
+<div class="line"><span class="lineno">  152</span>        {</div>
+<div class="line"><span class="lineno">  153</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:loadMap: Could not open mmtile file &#39;{}&#39;&quot;</span>, fileName);</div>
+<div class="line"><span class="lineno">  154</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  155</span>        }</div>
+<div class="line"><span class="lineno">  156</span> </div>
+<div class="line"><span class="lineno">  157</span>        <span class="comment">// read header</span></div>
+<div class="line"><span class="lineno">  158</span>        <a class="code hl_struct" href="../../d5/db5/a04861.html">MmapTileHeader</a> fileHeader;</div>
+<div class="line"><span class="lineno">  159</span>        <span class="keywordflow">if</span> (fread(&amp;fileHeader, <span class="keyword">sizeof</span>(<a class="code hl_struct" href="../../d5/db5/a04861.html">MmapTileHeader</a>), 1, file) != 1 || fileHeader.<a class="code hl_variable" href="../../d5/db5/a04861.html#ace0ec88460c97f1438de2d0e6a9d7774">mmapMagic</a> != <a class="code hl_define" href="../../db/db6/a00074.html#af7a9a5e840ab3ad1c160e832500016d1">MMAP_MAGIC</a>)</div>
+<div class="line"><span class="lineno">  160</span>        {</div>
+<div class="line"><span class="lineno">  161</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:loadMap: Bad header in mmap {:03}{:02}{:02}.mmtile&quot;</span>, mapId, x, y);</div>
+<div class="line"><span class="lineno">  162</span>            fclose(file);</div>
+<div class="line"><span class="lineno">  163</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  164</span>        }</div>
+<div class="line"><span class="lineno">  165</span> </div>
+<div class="line"><span class="lineno">  166</span>        <span class="keywordflow">if</span> (fileHeader.<a class="code hl_variable" href="../../d5/db5/a04861.html#a5cc3cd873419fe8aeb479d3187584410">mmapVersion</a> != <a class="code hl_define" href="../../db/db6/a00074.html#aea71555fdd0af33ccc21c76c67574421">MMAP_VERSION</a>)</div>
+<div class="line"><span class="lineno">  167</span>        {</div>
+<div class="line"><span class="lineno">  168</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:loadMap: {:03}{:02}{:02}.mmtile was built with generator v{}, expected v{}&quot;</span>,</div>
+<div class="line"><span class="lineno">  169</span>                           mapId, x, y, fileHeader.<a class="code hl_variable" href="../../d5/db5/a04861.html#a5cc3cd873419fe8aeb479d3187584410">mmapVersion</a>, <a class="code hl_define" href="../../db/db6/a00074.html#aea71555fdd0af33ccc21c76c67574421">MMAP_VERSION</a>);</div>
+<div class="line"><span class="lineno">  170</span>            fclose(file);</div>
+<div class="line"><span class="lineno">  171</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  172</span>        }</div>
+<div class="line"><span class="lineno">  173</span> </div>
+<div class="line"><span class="lineno">  174</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* data = (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>*)dtAlloc(fileHeader.<a class="code hl_variable" href="../../d5/db5/a04861.html#a69f3284a4a56b1108792ba56c250bf97">size</a>, DT_ALLOC_PERM);</div>
+<div class="line"><span class="lineno">  175</span>        <a class="code hl_define" href="../../dd/d52/a00221.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(data);</div>
+<div class="line"><span class="lineno">  176</span> </div>
+<div class="line"><span class="lineno">  177</span>        <span class="keywordtype">size_t</span> result = fread(data, fileHeader.<a class="code hl_variable" href="../../d5/db5/a04861.html#a69f3284a4a56b1108792ba56c250bf97">size</a>, 1, file);</div>
+<div class="line"><span class="lineno">  178</span>        <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">  179</span>        {</div>
+<div class="line"><span class="lineno">  180</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:loadMap: Bad header or data in mmap {:03}{:02}{:02}.mmtile&quot;</span>, mapId, x, y);</div>
+<div class="line"><span class="lineno">  181</span>            fclose(file);</div>
+<div class="line"><span class="lineno">  182</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  183</span>        }</div>
+<div class="line"><span class="lineno">  184</span> </div>
+<div class="line"><span class="lineno">  185</span>        fclose(file);</div>
+<div class="line"><span class="lineno">  186</span> </div>
+<div class="line"><span class="lineno">  187</span>        dtTileRef tileRef = 0;</div>
+<div class="line"><span class="lineno">  188</span> </div>
+<div class="line"><span class="lineno">  189</span>        <span class="comment">// memory allocated for data is now managed by detour, and will be deallocated when the tile is removed</span></div>
+<div class="line"><span class="lineno">  190</span>        <span class="keywordflow">if</span> (dtStatusSucceed(mmap-&gt;navMesh-&gt;addTile(data, fileHeader.<a class="code hl_variable" href="../../d5/db5/a04861.html#a69f3284a4a56b1108792ba56c250bf97">size</a>, DT_TILE_FREE_DATA, 0, &amp;tileRef)))</div>
+<div class="line"><span class="lineno">  191</span>        {</div>
+<div class="line"><span class="lineno">  192</span>            mmap-&gt;loadedTileRefs.insert(std::pair&lt;uint32, dtTileRef&gt;(packedGridPos, tileRef));</div>
+<div class="line"><span class="lineno">  193</span>            ++<a class="code hl_variable" href="../../d6/d2e/a04845.html#a9e2154958fcfa78d8906ccb5ccf2597c">loadedTiles</a>;</div>
+<div class="line"><span class="lineno">  194</span>            dtMeshHeader* header = (dtMeshHeader*)data;</div>
+<div class="line"><span class="lineno">  195</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:loadMap: Loaded mmtile {:03}[{:02},{:02}] into {:03}[{:02},{:02}]&quot;</span>, mapId, x, y, mapId, header-&gt;x, header-&gt;y);</div>
+<div class="line"><span class="lineno">  196</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  197</span>        }</div>
+<div class="line"><span class="lineno">  198</span> </div>
+<div class="line"><span class="lineno">  199</span>        <a class="code hl_define" href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:loadMap: Could not load {:03}{:02}{:02}.mmtile into navmesh&quot;</span>, mapId, x, y);</div>
+<div class="line"><span class="lineno">  200</span>        dtFree(data);</div>
+<div class="line"><span class="lineno">  201</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  202</span>    }</div>
+<div class="ttc" id="aa00074_html_aea71555fdd0af33ccc21c76c67574421"><div class="ttname"><a href="../../db/db6/a00074.html#aea71555fdd0af33ccc21c76c67574421">MMAP_VERSION</a></div><div class="ttdeci">#define MMAP_VERSION</div><div class="ttdef"><b>Definition:</b> MapDefines.h:28</div></div>
+<div class="ttc" id="aa00074_html_af7a9a5e840ab3ad1c160e832500016d1"><div class="ttname"><a href="../../db/db6/a00074.html#af7a9a5e840ab3ad1c160e832500016d1">MMAP_MAGIC</a></div><div class="ttdeci">#define MMAP_MAGIC</div><div class="ttdef"><b>Definition:</b> MapDefines.h:27</div></div>
+<div class="ttc" id="aa00137_html_a7236988e98bdd405bf435a029b70a26f"><div class="ttname"><a href="../../d2/df5/a00137.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a></div><div class="ttdeci">#define sConfigMgr</div><div class="ttdef"><b>Definition:</b> Config.h:95</div></div>
+<div class="ttc" id="aa04641_html_a20cdbbf36d71c2c01f75fd0e706a7b10"><div class="ttname"><a href="../../df/df3/a04641.html#a20cdbbf36d71c2c01f75fd0e706a7b10">Acore::StringFormat</a></div><div class="ttdeci">std::string StringFormat(Format &amp;&amp;fmt, Args &amp;&amp;... args)</div><div class="ttdoc">Default AC string format function.</div><div class="ttdef"><b>Definition:</b> StringFormat.h:30</div></div>
+<div class="ttc" id="aa04648_html_a27e34ce3b8808f2aa889e5c4e623059a"><div class="ttname"><a href="../../d5/d62/a04648.html#a27e34ce3b8808f2aa889e5c4e623059a">MMAP::TILE_FILE_NAME_FORMAT</a></div><div class="ttdeci">static char const  *const TILE_FILE_NAME_FORMAT</div><div class="ttdef"><b>Definition:</b> MMapMgr.cpp:27</div></div>
+<div class="ttc" id="aa04845_html_ac677ea014721d0631195ba64b05c66a0"><div class="ttname"><a href="../../d6/d2e/a04845.html#ac677ea014721d0631195ba64b05c66a0">MMAP::MMapMgr::loadMapData</a></div><div class="ttdeci">bool loadMapData(uint32 mapId)</div><div class="ttdef"><b>Definition:</b> MMapMgr.cpp:64</div></div>
+<div class="ttc" id="aa04845_html_ace3265c248ccf2a34ca4b7c43f294e43"><div class="ttname"><a href="../../d6/d2e/a04845.html#ace3265c248ccf2a34ca4b7c43f294e43">MMAP::MMapMgr::packTileID</a></div><div class="ttdeci">uint32 packTileID(int32 x, int32 y)</div><div class="ttdef"><b>Definition:</b> MMapMgr.cpp:123</div></div>
+<div class="ttc" id="aa04861_html"><div class="ttname"><a href="../../d5/db5/a04861.html">MmapTileHeader</a></div><div class="ttdef"><b>Definition:</b> MapDefines.h:31</div></div>
+<div class="ttc" id="aa04861_html_a5cc3cd873419fe8aeb479d3187584410"><div class="ttname"><a href="../../d5/db5/a04861.html#a5cc3cd873419fe8aeb479d3187584410">MmapTileHeader::mmapVersion</a></div><div class="ttdeci">uint32 mmapVersion</div><div class="ttdef"><b>Definition:</b> MapDefines.h:34</div></div>
+<div class="ttc" id="aa04861_html_a69f3284a4a56b1108792ba56c250bf97"><div class="ttname"><a href="../../d5/db5/a04861.html#a69f3284a4a56b1108792ba56c250bf97">MmapTileHeader::size</a></div><div class="ttdeci">uint32 size</div><div class="ttdef"><b>Definition:</b> MapDefines.h:35</div></div>
+<div class="ttc" id="aa04861_html_ace0ec88460c97f1438de2d0e6a9d7774"><div class="ttname"><a href="../../d5/db5/a04861.html#ace0ec88460c97f1438de2d0e6a9d7774">MmapTileHeader::mmapMagic</a></div><div class="ttdeci">uint32 mmapMagic</div><div class="ttdef"><b>Definition:</b> MapDefines.h:32</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00098">loadedMMaps</a>, <a class="el" href="../../#l00067">MMAP::MMapData::loadedTileRefs</a>, <a class="el" href="../../#l00099">loadedTiles</a>, <a class="el" href="../../#l00064">loadMapData()</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00027">MMAP_MAGIC</a>, <a class="el" href="../../#l00028">MMAP_VERSION</a>, <a class="el" href="../../#l00032">MmapTileHeader::mmapMagic</a>, <a class="el" href="../../#l00034">MmapTileHeader::mmapVersion</a>, <a class="el" href="../../#l00066">MMAP::MMapData::navMesh</a>, <a class="el" href="../../#l00123">packTileID()</a>, <a class="el" href="../../#l00095">sConfigMgr</a>, <a class="el" href="../../#l00035">MmapTileHeader::size</a>, <a class="el" href="../../#l00030">Acore::StringFormat()</a>, and <a class="el" href="../../#l00027">MMAP::TILE_FILE_NAME_FORMAT</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00143">Map::LoadMMap()</a>.</p>
+
+</div>
+</div>
+<a id="ac677ea014721d0631195ba64b05c66a0" name="ac677ea014721d0631195ba64b05c66a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac677ea014721d0631195ba64b05c66a0">&#9670;&#160;</a></span>loadMapData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1185,28 +581,315 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ConfigMgr::setDryRun </td>
+          <td class="memname">bool MMAP::MMapMgr::loadMapData </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>mapId</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   74</span>{ <a class="code hl_variable" href="../../d6/d2e/a04845.html#a555709e27a884d16ef6dd91cc21b806b">dryRun</a> = mode; }</div>
+<div class="fragment"><div class="line"><span class="lineno">   65</span>    {</div>
+<div class="line"><span class="lineno">   66</span>        <span class="comment">// we already have this map loaded?</span></div>
+<div class="line"><span class="lineno">   67</span>        MMapDataSet::iterator itr = <a class="code hl_variable" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a>.find(mapId);</div>
+<div class="line"><span class="lineno">   68</span>        <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a>.end())</div>
+<div class="line"><span class="lineno">   69</span>        {</div>
+<div class="line"><span class="lineno">   70</span>            <span class="keywordflow">if</span> (itr-&gt;second)</div>
+<div class="line"><span class="lineno">   71</span>            {</div>
+<div class="line"><span class="lineno">   72</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   73</span>            }</div>
+<div class="line"><span class="lineno">   74</span>        }</div>
+<div class="line"><span class="lineno">   75</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   76</span>        {</div>
+<div class="line"><span class="lineno">   77</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d2e/a04845.html#a89c7b087891d313e69437504dc0e449f">thread_safe_environment</a>)</div>
+<div class="line"><span class="lineno">   78</span>            {</div>
+<div class="line"><span class="lineno">   79</span>                itr = <a class="code hl_variable" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a>.insert(MMapDataSet::value_type(mapId, <span class="keyword">nullptr</span>)).first;</div>
+<div class="line"><span class="lineno">   80</span>            }</div>
+<div class="line"><span class="lineno">   81</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   82</span>            {</div>
+<div class="line"><span class="lineno">   83</span>                <a class="code hl_define" href="../../dd/d52/a00221.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a>(<span class="stringliteral">&quot;Invalid mapId {} passed to MMapMgr after startup in thread unsafe environment&quot;</span>, mapId);</div>
+<div class="line"><span class="lineno">   84</span>            }</div>
+<div class="line"><span class="lineno">   85</span>        }</div>
+<div class="line"><span class="lineno">   86</span> </div>
+<div class="line"><span class="lineno">   87</span>        <span class="comment">// load and init dtNavMesh - read parameters from file</span></div>
+<div class="line"><span class="lineno">   88</span>        std::string fileName = <a class="code hl_function" href="../../df/df3/a04641.html#a20cdbbf36d71c2c01f75fd0e706a7b10">Acore::StringFormat</a>(<a class="code hl_variable" href="../../d5/d62/a04648.html#a1d57d156046bda88886b7488ab0b83bc">MAP_FILE_NAME_FORMAT</a>, <a class="code hl_define" href="../../d2/df5/a00137.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetOption&lt;std::string&gt;(<span class="stringliteral">&quot;DataDir&quot;</span>, <span class="stringliteral">&quot;.&quot;</span>).c_str(), mapId);</div>
+<div class="line"><span class="lineno">   89</span> </div>
+<div class="line"><span class="lineno">   90</span>        FILE* file = fopen(fileName.c_str(), <span class="stringliteral">&quot;rb&quot;</span>);</div>
+<div class="line"><span class="lineno">   91</span>        <span class="keywordflow">if</span> (!file)</div>
+<div class="line"><span class="lineno">   92</span>        {</div>
+<div class="line"><span class="lineno">   93</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:loadMapData: Error: Could not open mmap file &#39;{}&#39;&quot;</span>, fileName);</div>
+<div class="line"><span class="lineno">   94</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   95</span>        }</div>
+<div class="line"><span class="lineno">   96</span> </div>
+<div class="line"><span class="lineno">   97</span>        dtNavMeshParams params;</div>
+<div class="line"><span class="lineno">   98</span>        <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(fread(&amp;params, <span class="keyword">sizeof</span>(dtNavMeshParams), 1, file));</div>
+<div class="line"><span class="lineno">   99</span>        fclose(file);</div>
+<div class="line"><span class="lineno">  100</span>        <span class="keywordflow">if</span> (count != 1)</div>
+<div class="line"><span class="lineno">  101</span>        {</div>
+<div class="line"><span class="lineno">  102</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:loadMapData: Error: Could not read params from file &#39;{}&#39;&quot;</span>, fileName);</div>
+<div class="line"><span class="lineno">  103</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  104</span>        }</div>
+<div class="line"><span class="lineno">  105</span> </div>
+<div class="line"><span class="lineno">  106</span>        dtNavMesh* mesh = dtAllocNavMesh();</div>
+<div class="line"><span class="lineno">  107</span>        <a class="code hl_define" href="../../dd/d52/a00221.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(mesh);</div>
+<div class="line"><span class="lineno">  108</span>        <span class="keywordflow">if</span> (DT_SUCCESS != mesh-&gt;init(&amp;params))</div>
+<div class="line"><span class="lineno">  109</span>        {</div>
+<div class="line"><span class="lineno">  110</span>            dtFreeNavMesh(mesh);</div>
+<div class="line"><span class="lineno">  111</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:loadMapData: Failed to initialize dtNavMesh for mmap {:03} from file {}&quot;</span>, mapId, fileName);</div>
+<div class="line"><span class="lineno">  112</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  113</span>        }</div>
+<div class="line"><span class="lineno">  114</span> </div>
+<div class="line"><span class="lineno">  115</span>        <a class="code hl_define" href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:loadMapData: Loaded {:03}.mmap&quot;</span>, mapId);</div>
+<div class="line"><span class="lineno">  116</span> </div>
+<div class="line"><span class="lineno">  117</span>        <span class="comment">// store inside our map list</span></div>
+<div class="line"><span class="lineno">  118</span>        MMapData* mmap_data = <span class="keyword">new</span> MMapData(mesh);</div>
+<div class="line"><span class="lineno">  119</span>        itr-&gt;second = mmap_data;</div>
+<div class="line"><span class="lineno">  120</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  121</span>    }</div>
+<div class="ttc" id="aa00221_html_a5376571bbf4cdc9782683635f366f89a"><div class="ttname"><a href="../../dd/d52/a00221.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a></div><div class="ttdeci">#define ABORT</div><div class="ttdef"><b>Definition:</b> Errors.h:76</div></div>
+<div class="ttc" id="aa04648_html_a1d57d156046bda88886b7488ab0b83bc"><div class="ttname"><a href="../../d5/d62/a04648.html#a1d57d156046bda88886b7488ab0b83bc">MMAP::MAP_FILE_NAME_FORMAT</a></div><div class="ttdeci">static char const  *const MAP_FILE_NAME_FORMAT</div><div class="ttdef"><b>Definition:</b> MMapMgr.cpp:26</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00084">dryRun</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00076">ABORT</a>, <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00098">loadedMMaps</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00026">MMAP::MAP_FILE_NAME_FORMAT</a>, <a class="el" href="../../#l00095">sConfigMgr</a>, <a class="el" href="../../#l00030">Acore::StringFormat()</a>, and <a class="el" href="../../#l00100">thread_safe_environment</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00128">loadMap()</a>.</p>
+
+</div>
+</div>
+<a id="ace3265c248ccf2a34ca4b7c43f294e43" name="ace3265c248ccf2a34ca4b7c43f294e43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace3265c248ccf2a34ca4b7c43f294e43">&#9670;&#160;</a></span>packTileID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> MMAP::MMapMgr::packTileID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  124</span>    {</div>
+<div class="line"><span class="lineno">  125</span>        <span class="keywordflow">return</span> <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(x &lt;&lt; 16 | y);</div>
+<div class="line"><span class="lineno">  126</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00128">loadMap()</a>, and <a class="el" href="../../#l00204">unloadMap()</a>.</p>
+
+</div>
+</div>
+<a id="a83acf8ce1357052ccb8aa6b63f6860ca" name="a83acf8ce1357052ccb8aa6b63f6860ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83acf8ce1357052ccb8aa6b63f6860ca">&#9670;&#160;</a></span>unloadMap() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MMAP::MMapMgr::unloadMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>mapId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  245</span>    {</div>
+<div class="line"><span class="lineno">  246</span>        MMapDataSet::iterator itr = <a class="code hl_variable" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a>.find(mapId);</div>
+<div class="line"><span class="lineno">  247</span>        <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a>.end() || !itr-&gt;second)</div>
+<div class="line"><span class="lineno">  248</span>        {</div>
+<div class="line"><span class="lineno">  249</span>            <span class="comment">// file may not exist, therefore not loaded</span></div>
+<div class="line"><span class="lineno">  250</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:unloadMap: Asked to unload not loaded navmesh map {:03}&quot;</span>, mapId);</div>
+<div class="line"><span class="lineno">  251</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  252</span>        }</div>
+<div class="line"><span class="lineno">  253</span> </div>
+<div class="line"><span class="lineno">  254</span>        <span class="comment">// unload all tiles from given map</span></div>
+<div class="line"><span class="lineno">  255</span>        MMapData* mmap = itr-&gt;second;</div>
+<div class="line"><span class="lineno">  256</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; i : mmap-&gt;loadedTileRefs)</div>
+<div class="line"><span class="lineno">  257</span>        {</div>
+<div class="line"><span class="lineno">  258</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> x = (i.first &gt;&gt; 16);</div>
+<div class="line"><span class="lineno">  259</span>            <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> y = (i.first &amp; 0x0000FFFF);</div>
+<div class="line"><span class="lineno">  260</span> </div>
+<div class="line"><span class="lineno">  261</span>            <span class="keywordflow">if</span> (dtStatusFailed(mmap-&gt;navMesh-&gt;removeTile(i.second, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>)))</div>
+<div class="line"><span class="lineno">  262</span>            {</div>
+<div class="line"><span class="lineno">  263</span>                <a class="code hl_define" href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:unloadMap: Could not unload {:03}{:02}{:02}.mmtile from navmesh&quot;</span>, mapId, x, y);</div>
+<div class="line"><span class="lineno">  264</span>            }</div>
+<div class="line"><span class="lineno">  265</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  266</span>            {</div>
+<div class="line"><span class="lineno">  267</span>                --<a class="code hl_variable" href="../../d6/d2e/a04845.html#a9e2154958fcfa78d8906ccb5ccf2597c">loadedTiles</a>;</div>
+<div class="line"><span class="lineno">  268</span>                <a class="code hl_define" href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:unloadMap: Unloaded mmtile {:03}[{:02},{:02}] from {:03}&quot;</span>, mapId, x, y, mapId);</div>
+<div class="line"><span class="lineno">  269</span>            }</div>
+<div class="line"><span class="lineno">  270</span>        }</div>
+<div class="line"><span class="lineno">  271</span> </div>
+<div class="line"><span class="lineno">  272</span>        <span class="keyword">delete</span> mmap;</div>
+<div class="line"><span class="lineno">  273</span>        itr-&gt;second = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  274</span>        <a class="code hl_define" href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:unloadMap: Unloaded {:03}.mmap&quot;</span>, mapId);</div>
+<div class="line"><span class="lineno">  275</span> </div>
+<div class="line"><span class="lineno">  276</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  277</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00098">loadedMMaps</a>, <a class="el" href="../../#l00067">MMAP::MMapData::loadedTileRefs</a>, <a class="el" href="../../#l00099">loadedTiles</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, and <a class="el" href="../../#l00066">MMAP::MMapData::navMesh</a>.</p>
+
+</div>
+</div>
+<a id="a2d933fd783126e48423d81d1c06fb3f9" name="a2d933fd783126e48423d81d1c06fb3f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d933fd783126e48423d81d1c06fb3f9">&#9670;&#160;</a></span>unloadMap() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MMAP::MMapMgr::unloadMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>mapId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  205</span>    {</div>
+<div class="line"><span class="lineno">  206</span>        <span class="comment">// check if we have this map loaded</span></div>
+<div class="line"><span class="lineno">  207</span>        MMapDataSet::const_iterator itr = <a class="code hl_function" href="../../d6/d2e/a04845.html#a755d34666349eba1d7665e510afa3453">GetMMapData</a>(mapId);</div>
+<div class="line"><span class="lineno">  208</span>        <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a>.end())</div>
+<div class="line"><span class="lineno">  209</span>        {</div>
+<div class="line"><span class="lineno">  210</span>            <span class="comment">// file may not exist, therefore not loaded</span></div>
+<div class="line"><span class="lineno">  211</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:unloadMap: Asked to unload not loaded navmesh map. {:03}{:02}{:02}.mmtile&quot;</span>, mapId, x, y);</div>
+<div class="line"><span class="lineno">  212</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  213</span>        }</div>
+<div class="line"><span class="lineno">  214</span> </div>
+<div class="line"><span class="lineno">  215</span>        MMapData* mmap = itr-&gt;second;</div>
+<div class="line"><span class="lineno">  216</span> </div>
+<div class="line"><span class="lineno">  217</span>        <span class="comment">// check if we have this tile loaded</span></div>
+<div class="line"><span class="lineno">  218</span>        <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> packedGridPos = <a class="code hl_function" href="../../d6/d2e/a04845.html#ace3265c248ccf2a34ca4b7c43f294e43">packTileID</a>(x, y);</div>
+<div class="line"><span class="lineno">  219</span>        <span class="keywordflow">if</span> (mmap-&gt;loadedTileRefs.find(packedGridPos) == mmap-&gt;loadedTileRefs.end())</div>
+<div class="line"><span class="lineno">  220</span>        {</div>
+<div class="line"><span class="lineno">  221</span>            <span class="comment">// file may not exist, therefore not loaded</span></div>
+<div class="line"><span class="lineno">  222</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:unloadMap: Asked to unload not loaded navmesh tile. {:03}{:02}{:02}.mmtile&quot;</span>, mapId, x, y);</div>
+<div class="line"><span class="lineno">  223</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  224</span>        }</div>
+<div class="line"><span class="lineno">  225</span> </div>
+<div class="line"><span class="lineno">  226</span>        dtTileRef tileRef = mmap-&gt;loadedTileRefs[packedGridPos];</div>
+<div class="line"><span class="lineno">  227</span> </div>
+<div class="line"><span class="lineno">  228</span>        <span class="comment">// unload, and mark as non loaded</span></div>
+<div class="line"><span class="lineno">  229</span>        <span class="keywordflow">if</span> (dtStatusFailed(mmap-&gt;navMesh-&gt;removeTile(tileRef, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>)))</div>
+<div class="line"><span class="lineno">  230</span>        {</div>
+<div class="line"><span class="lineno">  231</span>            <span class="comment">// this is technically a memory leak</span></div>
+<div class="line"><span class="lineno">  232</span>            <span class="comment">// if the grid is later reloaded, dtNavMesh::addTile will return error but no extra memory is used</span></div>
+<div class="line"><span class="lineno">  233</span>            <span class="comment">// we cannot recover from this error - assert out</span></div>
+<div class="line"><span class="lineno">  234</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:unloadMap: Could not unload {:03}{:02}{:02}.mmtile from navmesh&quot;</span>, mapId, x, y);</div>
+<div class="line"><span class="lineno">  235</span>            <a class="code hl_define" href="../../dd/d52/a00221.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a>();</div>
+<div class="line"><span class="lineno">  236</span>        }</div>
+<div class="line"><span class="lineno">  237</span> </div>
+<div class="line"><span class="lineno">  238</span>        mmap-&gt;loadedTileRefs.erase(packedGridPos);</div>
+<div class="line"><span class="lineno">  239</span>        --<a class="code hl_variable" href="../../d6/d2e/a04845.html#a9e2154958fcfa78d8906ccb5ccf2597c">loadedTiles</a>;</div>
+<div class="line"><span class="lineno">  240</span>        <a class="code hl_define" href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:unloadMap: Unloaded mmtile {:03}[{:02},{:02}] from {:03}&quot;</span>, mapId, x, y, mapId);</div>
+<div class="line"><span class="lineno">  241</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  242</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00076">ABORT</a>, <a class="el" href="../../#l00052">GetMMapData()</a>, <a class="el" href="../../#l00098">loadedMMaps</a>, <a class="el" href="../../#l00067">MMAP::MMapData::loadedTileRefs</a>, <a class="el" href="../../#l00099">loadedTiles</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00066">MMAP::MMapData::navMesh</a>, and <a class="el" href="../../#l00123">packTileID()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01214">Map::UnloadGrid()</a>.</p>
+
+</div>
+</div>
+<a id="aa97a8352cad200ea1243e968dc1629a6" name="aa97a8352cad200ea1243e968dc1629a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa97a8352cad200ea1243e968dc1629a6">&#9670;&#160;</a></span>unloadMapInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MMAP::MMapMgr::unloadMapInstance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>mapId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>instanceId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  280</span>    {</div>
+<div class="line"><span class="lineno">  281</span>        <span class="comment">// check if we have this map loaded</span></div>
+<div class="line"><span class="lineno">  282</span>        MMapDataSet::const_iterator itr = <a class="code hl_function" href="../../d6/d2e/a04845.html#a755d34666349eba1d7665e510afa3453">GetMMapData</a>(mapId);</div>
+<div class="line"><span class="lineno">  283</span>        <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d6/d2e/a04845.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a>.end())</div>
+<div class="line"><span class="lineno">  284</span>        {</div>
+<div class="line"><span class="lineno">  285</span>            <span class="comment">// file may not exist, therefore not loaded</span></div>
+<div class="line"><span class="lineno">  286</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:unloadMapInstance: Asked to unload not loaded navmesh map {:03}&quot;</span>, mapId);</div>
+<div class="line"><span class="lineno">  287</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  288</span>        }</div>
+<div class="line"><span class="lineno">  289</span> </div>
+<div class="line"><span class="lineno">  290</span>        MMapData* mmap = itr-&gt;second;</div>
+<div class="line"><span class="lineno">  291</span>        <span class="keywordflow">if</span> (mmap-&gt;navMeshQueries.find(instanceId) == mmap-&gt;navMeshQueries.end())</div>
+<div class="line"><span class="lineno">  292</span>        {</div>
+<div class="line"><span class="lineno">  293</span>            <a class="code hl_define" href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:unloadMapInstance: Asked to unload not loaded dtNavMeshQuery mapId {:03} instanceId {}&quot;</span>, mapId, instanceId);</div>
+<div class="line"><span class="lineno">  294</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  295</span>        }</div>
+<div class="line"><span class="lineno">  296</span> </div>
+<div class="line"><span class="lineno">  297</span>        dtNavMeshQuery* query = mmap-&gt;navMeshQueries[instanceId];</div>
+<div class="line"><span class="lineno">  298</span> </div>
+<div class="line"><span class="lineno">  299</span>        dtFreeNavMeshQuery(query);</div>
+<div class="line"><span class="lineno">  300</span>        mmap-&gt;navMeshQueries.erase(instanceId);</div>
+<div class="line"><span class="lineno">  301</span>        <a class="code hl_define" href="../../da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MMAP:unloadMapInstance: Unloaded mapId {:03} instanceId {}&quot;</span>, mapId, instanceId);</div>
+<div class="line"><span class="lineno">  302</span> </div>
+<div class="line"><span class="lineno">  303</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  304</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00052">GetMMapData()</a>, <a class="el" href="../../#l00098">loadedMMaps</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, and <a class="el" href="../../#l00065">MMAP::MMapData::navMeshQueries</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00062">Map::~Map()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa5a8c891e53c6d76cf63d0a40fd799e1" name="aa5a8c891e53c6d76cf63d0a40fd799e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5a8c891e53c6d76cf63d0a40fd799e1">&#9670;&#160;</a></span>_moduleConfigFiles</h2>
+<a id="a98a7d0bf952eb80340863f2336ae84d1" name="a98a7d0bf952eb80340863f2336ae84d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98a7d0bf952eb80340863f2336ae84d1">&#9670;&#160;</a></span>loadedMMaps</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1215,7 +898,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::string &gt; ConfigMgr::_moduleConfigFiles</td>
+          <td class="memname"><a class="el" href="../../d5/d62/a04648.html#a7c987e5b93af6a44b28948b66804ad88">MMapDataSet</a> MMAP::MMapMgr::loadedMMaps</td>
         </tr>
       </table>
   </td>
@@ -1225,12 +908,12 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00523">LoadModulesConfigs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00091">getLoadedMapsCount()</a>, <a class="el" href="../../#l00052">GetMMapData()</a>, <a class="el" href="../../#l00306">GetNavMesh()</a>, <a class="el" href="../../#l00317">GetNavMeshQuery()</a>, <a class="el" href="../../#l00041">InitializeThreadUnsafe()</a>, <a class="el" href="../../#l00128">loadMap()</a>, <a class="el" href="../../#l00064">loadMapData()</a>, <a class="el" href="../../#l00204">unloadMap()</a>, <a class="el" href="../../#l00279">unloadMapInstance()</a>, and <a class="el" href="../../#l00030">~MMapMgr()</a>.</p>
 
 </div>
 </div>
-<a id="a555709e27a884d16ef6dd91cc21b806b" name="a555709e27a884d16ef6dd91cc21b806b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a555709e27a884d16ef6dd91cc21b806b">&#9670;&#160;</a></span>dryRun</h2>
+<a id="a9e2154958fcfa78d8906ccb5ccf2597c" name="a9e2154958fcfa78d8906ccb5ccf2597c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e2154958fcfa78d8906ccb5ccf2597c">&#9670;&#160;</a></span>loadedTiles</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1239,7 +922,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ConfigMgr::dryRun = false</td>
+          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> MMAP::MMapMgr::loadedTiles {0}</td>
         </tr>
       </table>
   </td>
@@ -1249,7 +932,31 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00073">isDryRun()</a>, and <a class="el" href="../../#l00074">setDryRun()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00090">getLoadedTilesCount()</a>, <a class="el" href="../../#l00128">loadMap()</a>, and <a class="el" href="../../#l00204">unloadMap()</a>.</p>
+
+</div>
+</div>
+<a id="a89c7b087891d313e69437504dc0e449f" name="a89c7b087891d313e69437504dc0e449f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89c7b087891d313e69437504dc0e449f">&#9670;&#160;</a></span>thread_safe_environment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MMAP::MMapMgr::thread_safe_environment {true}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00041">InitializeThreadUnsafe()</a>, and <a class="el" href="../../#l00064">loadMapData()</a>.</p>
 
 </div>
 </div>
@@ -1258,8 +965,8 @@ template&lt;class T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d6/d2e/a04845.html">ConfigMgr</a></li>
-    <li class="footer">Generated on Sun Aug 20 2023 00:19:42 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../d5/d62/a04648.html">MMAP</a></li><li class="navelem"><a class="el" href="../../d6/d2e/a04845.html">MMapMgr</a></li>
+    <li class="footer">Generated on Wed Dec 6 2023 22:14:05 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

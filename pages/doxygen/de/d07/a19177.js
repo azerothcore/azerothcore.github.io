@@ -1,8 +1,6 @@
 var a19177 =
 [
-    [ "FilterTargets", "de/d07/a19177.html#a96fb9024a7c38e5962afac97c606d802", null ],
-    [ "Load", "de/d07/a19177.html#a44d47d6b1706228117aff7a5ff292827", null ],
-    [ "PrepareSpellScript", "de/d07/a19177.html#a3f4094050c659578df696abf01477a39", null ],
-    [ "Register", "de/d07/a19177.html#aa595d87a302841f15f02de69d0de17b0", null ],
-    [ "_instance", "de/d07/a19177.html#a09cdec20702be9e5221fc9775e74ab3f", null ]
+    [ "spell_the_lich_king_harvest_soul_AuraScript", "d8/d3f/a19181.html", "d8/d3f/a19181" ],
+    [ "spell_the_lich_king_harvest_soul", "de/d07/a19177.html#a727aef374356d6a97df6c5aa5f8e6315", null ],
+    [ "GetAuraScript", "de/d07/a19177.html#a6caec170f418be2920560c91dc39fe33", null ]
 ];

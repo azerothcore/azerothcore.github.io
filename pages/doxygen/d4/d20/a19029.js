@@ -1,6 +1,6 @@
 var a19029 =
 [
-    [ "HandleScript", "d4/d20/a19029.html#a74b1257b85044f68253d13cdb516f7b3", null ],
-    [ "PrepareSpellScript", "d4/d20/a19029.html#a48c9a2eae46edc07f0b004d628b9260b", null ],
-    [ "Register", "d4/d20/a19029.html#ae7f50b7a0009a9eae3d1519042363c73", null ]
+    [ "spell_the_lich_king_shadow_trap_visual_AuraScript", "d8/d20/a19033.html", "d8/d20/a19033" ],
+    [ "spell_the_lich_king_shadow_trap_visual", "d4/d20/a19029.html#a1ac053abada6c7051f61a47b0ecac2b2", null ],
+    [ "GetAuraScript", "d4/d20/a19029.html#af43f303164e305bb66d4e54108591e49", null ]
 ];

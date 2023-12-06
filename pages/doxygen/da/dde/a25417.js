@@ -1,6 +1,7 @@
 var a25417 =
 [
-    [ "boss_porung", "da/dde/a25417.html#acef31010461bbf716ac9b13d950807ee", null ],
-    [ "JustDied", "da/dde/a25417.html#ac5c36f875692f49d1d0195694d85e5c1", null ],
-    [ "JustEngagedWith", "da/dde/a25417.html#a9d44f51e4710e01bdc7d345ff3bba9dc", null ]
+    [ "AfterApply", "da/dde/a25417.html#a0ba88b8ed8cfd0afa1de500a7a8d74b5", null ],
+    [ "PrepareAuraScript", "da/dde/a25417.html#aa98346e5f5b23fe016148426a19a719f", null ],
+    [ "Register", "da/dde/a25417.html#ac0edcddf6c38b933c868dbe0535f143a", null ],
+    [ "Validate", "da/dde/a25417.html#a616d1758aa257140f4941fe12ef21e87", null ]
 ];

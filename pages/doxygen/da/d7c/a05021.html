@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: B64Impl Struct Reference</title>
+<title>AzerothCore: AuthCrypt Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,33 +106,41 @@ $(document).ready(function(){initNavTree('da/d7c/a05021.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d8/d10/a05018.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">B64Impl Struct Reference</div></div>
+  <div class="headertitle"><div class="title">AuthCrypt Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &quot;<a class="el" href="../../">AuthCrypt.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad6cde2310ca52940df1bbf93deff6b91"><td class="memItemLeft" align="right" valign="top">static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7c/a05021.html#ad6cde2310ca52940df1bbf93deff6b91">Encode</a> (<a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> v)</td></tr>
-<tr class="separator:ad6cde2310ca52940df1bbf93deff6b91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba5ab7c59ce77414bca38bfcde32d1c0"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7c/a05021.html#aba5ab7c59ce77414bca38bfcde32d1c0">Decode</a> (<a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> v)</td></tr>
-<tr class="separator:aba5ab7c59ce77414bca38bfcde32d1c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a8c5239631bd6cf700059af31f04126a3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7c/a05021.html#a8c5239631bd6cf700059af31f04126a3">AuthCrypt</a> ()=default</td></tr>
+<tr class="separator:a8c5239631bd6cf700059af31f04126a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac76e9a59dc6bcef074e3213cecb4c7b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7c/a05021.html#ac76e9a59dc6bcef074e3213cecb4c7b8">Init</a> (<a class="el" href="../../db/ddf/a00164.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a> const &amp;K)</td></tr>
+<tr class="separator:ac76e9a59dc6bcef074e3213cecb4c7b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa1322bcbbba16dea6ed986bc4106e2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7c/a05021.html#afa1322bcbbba16dea6ed986bc4106e2c">DecryptRecv</a> (<a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> *data, size_t len)</td></tr>
+<tr class="separator:afa1322bcbbba16dea6ed986bc4106e2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7866fe7d25511091a708aeb3d9f15b37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7c/a05021.html#a7866fe7d25511091a708aeb3d9f15b37">EncryptSend</a> (<a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> *data, size_t len)</td></tr>
+<tr class="separator:a7866fe7d25511091a708aeb3d9f15b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a911330ec40c0ca881af2f0c6fd6b0fef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7c/a05021.html#a911330ec40c0ca881af2f0c6fd6b0fef">IsInitialized</a> () const</td></tr>
+<tr class="separator:a911330ec40c0ca881af2f0c6fd6b0fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a5efb6c842ab7733dc26fd67f1a00ccdf"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7c/a05021.html#a5efb6c842ab7733dc26fd67f1a00ccdf">BITS_PER_CHAR</a> = 6</td></tr>
-<tr class="separator:a5efb6c842ab7733dc26fd67f1a00ccdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e5699431f24ca6b745294b935b99240"><td class="memItemLeft" align="right" valign="top">static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7c/a05021.html#a2e5699431f24ca6b745294b935b99240">PADDING</a> = '='</td></tr>
-<tr class="separator:a2e5699431f24ca6b745294b935b99240"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fccf3d4b22e835fc4dca6b942771a2a"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7c/a05021.html#a8fccf3d4b22e835fc4dca6b942771a2a">DECODE_ERROR</a> = 0xff</td></tr>
-<tr class="separator:a8fccf3d4b22e835fc4dca6b942771a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ae67fcb84288ebd120ad71bedc52086c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dbd/a05013.html">Acore::Crypto::ARC4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7c/a05021.html#ae67fcb84288ebd120ad71bedc52086c2">_clientDecrypt</a></td></tr>
+<tr class="separator:ae67fcb84288ebd120ad71bedc52086c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af30b0691f7089d52c2fbd9c5b9f52e68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dbd/a05013.html">Acore::Crypto::ARC4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7c/a05021.html#af30b0691f7089d52c2fbd9c5b9f52e68">_serverEncrypt</a></td></tr>
+<tr class="separator:af30b0691f7089d52c2fbd9c5b9f52e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99de2f8dd625cef94d70eeddefc9ac5c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7c/a05021.html#a99de2f8dd625cef94d70eeddefc9ac5c">_initialized</a> { false }</td></tr>
+<tr class="separator:a99de2f8dd625cef94d70eeddefc9ac5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="aba5ab7c59ce77414bca38bfcde32d1c0" name="aba5ab7c59ce77414bca38bfcde32d1c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba5ab7c59ce77414bca38bfcde32d1c0">&#9670;&#160;</a></span>Decode()</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a8c5239631bd6cf700059af31f04126a3" name="a8c5239631bd6cf700059af31f04126a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c5239631bd6cf700059af31f04126a3">&#9670;&#160;</a></span>AuthCrypt()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -141,73 +149,169 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> B64Impl::Decode </td>
+          <td class="memname">AuthCrypt::AuthCrypt </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   27</span>    {</div>
-<div class="line"><span class="lineno">   28</span>        <span class="keywordflow">if</span> ((<span class="charliteral">&#39;A&#39;</span> &lt;= v) &amp;&amp; (v &lt;= <span class="charliteral">&#39;Z&#39;</span>)) { <span class="keywordflow">return</span> (v - <span class="charliteral">&#39;A&#39;</span>); }</div>
-<div class="line"><span class="lineno">   29</span>        <span class="keywordflow">if</span> ((<span class="charliteral">&#39;a&#39;</span> &lt;= v) &amp;&amp; (v &lt;= <span class="charliteral">&#39;z&#39;</span>)) { <span class="keywordflow">return</span> (v - <span class="charliteral">&#39;a&#39;</span>) + 26; }</div>
-<div class="line"><span class="lineno">   30</span>        <span class="keywordflow">if</span> ((<span class="charliteral">&#39;0&#39;</span> &lt;= v) &amp;&amp; (v &lt;= <span class="charliteral">&#39;9&#39;</span>)) { <span class="keywordflow">return</span> (v - <span class="charliteral">&#39;0&#39;</span>) + 52; }</div>
-<div class="line"><span class="lineno">   31</span>        <span class="keywordflow">if</span> (v == <span class="charliteral">&#39;+&#39;</span>) { <span class="keywordflow">return</span> 62; }</div>
-<div class="line"><span class="lineno">   32</span>        <span class="keywordflow">if</span> (v == <span class="charliteral">&#39;/&#39;</span>) { <span class="keywordflow">return</span> 63; }</div>
-<div class="line"><span class="lineno">   33</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/d7c/a05021.html#a8fccf3d4b22e835fc4dca6b942771a2a">DECODE_ERROR</a>;</div>
-<div class="line"><span class="lineno">   34</span>    }</div>
-<div class="ttc" id="aa05021_html_a8fccf3d4b22e835fc4dca6b942771a2a"><div class="ttname"><a href="../../da/d7c/a05021.html#a8fccf3d4b22e835fc4dca6b942771a2a">B64Impl::DECODE_ERROR</a></div><div class="ttdeci">static constexpr uint8 DECODE_ERROR</div><div class="ttdef"><b>Definition:</b> Base64.cpp:25</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00025">DECODE_ERROR</a>.</p>
 
 </div>
 </div>
-<a id="ad6cde2310ca52940df1bbf93deff6b91" name="ad6cde2310ca52940df1bbf93deff6b91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6cde2310ca52940df1bbf93deff6b91">&#9670;&#160;</a></span>Encode()</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="afa1322bcbbba16dea6ed986bc4106e2c" name="afa1322bcbbba16dea6ed986bc4106e2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa1322bcbbba16dea6ed986bc4106e2c">&#9670;&#160;</a></span>DecryptRecv()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr char B64Impl::Encode </td>
+          <td class="memname">void AuthCrypt::DecryptRecv </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   16</span>    {</div>
-<div class="line"><span class="lineno">   17</span>        <a class="code hl_define" href="../../dd/d52/a00221.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(v &lt; 0x40);</div>
-<div class="line"><span class="lineno">   18</span>        <span class="keywordflow">if</span> (v &lt; 26) { <span class="keywordflow">return</span> <span class="charliteral">&#39;A&#39;</span> + v; }</div>
-<div class="line"><span class="lineno">   19</span>        <span class="keywordflow">if</span> (v &lt; 52) { <span class="keywordflow">return</span> <span class="charliteral">&#39;a&#39;</span> + (v - 26); }</div>
-<div class="line"><span class="lineno">   20</span>        <span class="keywordflow">if</span> (v &lt; 62) { <span class="keywordflow">return</span> <span class="charliteral">&#39;0&#39;</span> + (v - 52); }</div>
-<div class="line"><span class="lineno">   21</span>        <span class="keywordflow">if</span> (v == 62) { <span class="keywordflow">return</span> <span class="charliteral">&#39;+&#39;</span>; }</div>
-<div class="line"><span class="lineno">   22</span>        <span class="keywordflow">else</span> { <span class="keywordflow">return</span> <span class="charliteral">&#39;/&#39;</span>; }</div>
-<div class="line"><span class="lineno">   23</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">   39</span>{</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_define" href="../../dd/d52/a00221.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../da/d7c/a05021.html#a99de2f8dd625cef94d70eeddefc9ac5c">_initialized</a>);</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_variable" href="../../da/d7c/a05021.html#ae67fcb84288ebd120ad71bedc52086c2">_clientDecrypt</a>.<a class="code hl_function" href="../../de/dbd/a05013.html#afeb8a273bac5a73417e8026421c6ea70">UpdateData</a>(data, len);</div>
+<div class="line"><span class="lineno">   42</span>}</div>
 <div class="ttc" id="aa00221_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../dd/d52/a00221.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aa05013_html_afeb8a273bac5a73417e8026421c6ea70"><div class="ttname"><a href="../../de/dbd/a05013.html#afeb8a273bac5a73417e8026421c6ea70">Acore::Crypto::ARC4::UpdateData</a></div><div class="ttdeci">void UpdateData(uint8 *data, size_t len)</div><div class="ttdef"><b>Definition:</b> ARC4.cpp:51</div></div>
+<div class="ttc" id="aa05021_html_a99de2f8dd625cef94d70eeddefc9ac5c"><div class="ttname"><a href="../../da/d7c/a05021.html#a99de2f8dd625cef94d70eeddefc9ac5c">AuthCrypt::_initialized</a></div><div class="ttdeci">bool _initialized</div><div class="ttdef"><b>Definition:</b> AuthCrypt.h:38</div></div>
+<div class="ttc" id="aa05021_html_ae67fcb84288ebd120ad71bedc52086c2"><div class="ttname"><a href="../../da/d7c/a05021.html#ae67fcb84288ebd120ad71bedc52086c2">AuthCrypt::_clientDecrypt</a></div><div class="ttdeci">Acore::Crypto::ARC4 _clientDecrypt</div><div class="ttdef"><b>Definition:</b> AuthCrypt.h:36</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00036">_clientDecrypt</a>, <a class="el" href="../../#l00038">_initialized</a>, <a class="el" href="../../#l00068">ASSERT</a>, and <a class="el" href="../../#l00051">Acore::Crypto::ARC4::UpdateData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00211">WorldSocket::ReadHeaderHandler()</a>.</p>
+
+</div>
+</div>
+<a id="a7866fe7d25511091a708aeb3d9f15b37" name="a7866fe7d25511091a708aeb3d9f15b37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7866fe7d25511091a708aeb3d9f15b37">&#9670;&#160;</a></span>EncryptSend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AuthCrypt::EncryptSend </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_define" href="../../dd/d52/a00221.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../da/d7c/a05021.html#a99de2f8dd625cef94d70eeddefc9ac5c">_initialized</a>);</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_variable" href="../../da/d7c/a05021.html#af30b0691f7089d52c2fbd9c5b9f52e68">_serverEncrypt</a>.<a class="code hl_function" href="../../de/dbd/a05013.html#afeb8a273bac5a73417e8026421c6ea70">UpdateData</a>(data, len);</div>
+<div class="line"><span class="lineno">   48</span>}</div>
+<div class="ttc" id="aa05021_html_af30b0691f7089d52c2fbd9c5b9f52e68"><div class="ttname"><a href="../../da/d7c/a05021.html#af30b0691f7089d52c2fbd9c5b9f52e68">AuthCrypt::_serverEncrypt</a></div><div class="ttdeci">Acore::Crypto::ARC4 _serverEncrypt</div><div class="ttdef"><b>Definition:</b> AuthCrypt.h:37</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00038">_initialized</a>, <a class="el" href="../../#l00037">_serverEncrypt</a>, <a class="el" href="../../#l00068">ASSERT</a>, and <a class="el" href="../../#l00051">Acore::Crypto::ARC4::UpdateData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00082">WorldSocket::Update()</a>.</p>
+
+</div>
+</div>
+<a id="ac76e9a59dc6bcef074e3213cecb4c7b8" name="ac76e9a59dc6bcef074e3213cecb4c7b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac76e9a59dc6bcef074e3213cecb4c7b8">&#9670;&#160;</a></span>Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AuthCrypt::Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/ddf/a00164.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a> const &amp;&#160;</td>
+          <td class="paramname"><em>K</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   23</span>{</div>
+<div class="line"><span class="lineno">   24</span>    <a class="code hl_typedef" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> ServerEncryptionKey[] = { 0xCC, 0x98, 0xAE, 0x04, 0xE8, 0x97, 0xEA, 0xCA, 0x12, 0xDD, 0xC0, 0x93, 0x42, 0x91, 0x53, 0x57 };</div>
+<div class="line"><span class="lineno">   25</span>    <a class="code hl_variable" href="../../da/d7c/a05021.html#af30b0691f7089d52c2fbd9c5b9f52e68">_serverEncrypt</a>.<a class="code hl_function" href="../../de/dbd/a05013.html#a13bd9c79d4535d115831303b14b5f89d">Init</a>(<a class="code hl_function" href="../../db/daa/a05049.html#aa8cc3ef9cec05372f62f5eca77e5d67e">Acore::Crypto::HMAC_SHA1::GetDigestOf</a>(ServerEncryptionKey, K));</div>
+<div class="line"><span class="lineno">   26</span> </div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_typedef" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> ServerDecryptionKey[] = { 0xC2, 0xB3, 0x72, 0x3C, 0xC6, 0xAE, 0xD9, 0xB5, 0x34, 0x3C, 0x53, 0xEE, 0x2F, 0x43, 0x67, 0xCE };</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_variable" href="../../da/d7c/a05021.html#ae67fcb84288ebd120ad71bedc52086c2">_clientDecrypt</a>.<a class="code hl_function" href="../../de/dbd/a05013.html#a13bd9c79d4535d115831303b14b5f89d">Init</a>(<a class="code hl_function" href="../../db/daa/a05049.html#aa8cc3ef9cec05372f62f5eca77e5d67e">Acore::Crypto::HMAC_SHA1::GetDigestOf</a>(ServerDecryptionKey, K));</div>
+<div class="line"><span class="lineno">   29</span> </div>
+<div class="line"><span class="lineno">   30</span>    <span class="comment">// Drop first 1024 bytes, as WoW uses ARC4-drop1024.</span></div>
+<div class="line"><span class="lineno">   31</span>    std::array&lt;uint8, 1024&gt; syncBuf{};</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_variable" href="../../da/d7c/a05021.html#af30b0691f7089d52c2fbd9c5b9f52e68">_serverEncrypt</a>.<a class="code hl_function" href="../../de/dbd/a05013.html#afeb8a273bac5a73417e8026421c6ea70">UpdateData</a>(syncBuf);</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_variable" href="../../da/d7c/a05021.html#ae67fcb84288ebd120ad71bedc52086c2">_clientDecrypt</a>.<a class="code hl_function" href="../../de/dbd/a05013.html#afeb8a273bac5a73417e8026421c6ea70">UpdateData</a>(syncBuf);</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_variable" href="../../da/d7c/a05021.html#a99de2f8dd625cef94d70eeddefc9ac5c">_initialized</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   36</span>}</div>
+<div class="ttc" id="aa00230_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="aa05013_html_a13bd9c79d4535d115831303b14b5f89d"><div class="ttname"><a href="../../de/dbd/a05013.html#a13bd9c79d4535d115831303b14b5f89d">Acore::Crypto::ARC4::Init</a></div><div class="ttdeci">void Init(uint8 const *seed, size_t len)</div><div class="ttdef"><b>Definition:</b> ARC4.cpp:43</div></div>
+<div class="ttc" id="aa05049_html_aa8cc3ef9cec05372f62f5eca77e5d67e"><div class="ttname"><a href="../../db/daa/a05049.html#aa8cc3ef9cec05372f62f5eca77e5d67e">Acore::Impl::GenericHMAC::GetDigestOf</a></div><div class="ttdeci">static Digest GetDigestOf(Container const &amp;seed, uint8 const *data, size_t len)</div><div class="ttdef"><b>Definition:</b> HMAC.h:40</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00036">_clientDecrypt</a>, <a class="el" href="../../#l00038">_initialized</a>, <a class="el" href="../../#l00037">_serverEncrypt</a>, <a class="el" href="../../#l00040">Acore::Impl::GenericHMAC&lt; HashCreator, DigestLength &gt;::GetDigestOf()</a>, <a class="el" href="../../#l00043">Acore::Crypto::ARC4::Init()</a>, and <a class="el" href="../../#l00051">Acore::Crypto::ARC4::UpdateData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00459">WorldSocket::HandleAuthSessionCallback()</a>.</p>
+
+</div>
+</div>
+<a id="a911330ec40c0ca881af2f0c6fd6b0fef" name="a911330ec40c0ca881af2f0c6fd6b0fef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a911330ec40c0ca881af2f0c6fd6b0fef">&#9670;&#160;</a></span>IsInitialized()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AuthCrypt::IsInitialized </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   33</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/d7c/a05021.html#a99de2f8dd625cef94d70eeddefc9ac5c">_initialized</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00211">WorldSocket::ReadHeaderHandler()</a>, and <a class="el" href="../../#l00422">WorldSocket::SendPacket()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a5efb6c842ab7733dc26fd67f1a00ccdf" name="a5efb6c842ab7733dc26fd67f1a00ccdf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5efb6c842ab7733dc26fd67f1a00ccdf">&#9670;&#160;</a></span>BITS_PER_CHAR</h2>
+<a id="ae67fcb84288ebd120ad71bedc52086c2" name="ae67fcb84288ebd120ad71bedc52086c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae67fcb84288ebd120ad71bedc52086c2">&#9670;&#160;</a></span>_clientDecrypt</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -216,20 +320,22 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr std::size_t B64Impl::BITS_PER_CHAR = 6</td>
+          <td class="memname"><a class="el" href="../../de/dbd/a05013.html">Acore::Crypto::ARC4</a> AuthCrypt::_clientDecrypt</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="../../#l00038">DecryptRecv()</a>, and <a class="el" href="../../#l00022">Init()</a>.</p>
+
 </div>
 </div>
-<a id="a8fccf3d4b22e835fc4dca6b942771a2a" name="a8fccf3d4b22e835fc4dca6b942771a2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fccf3d4b22e835fc4dca6b942771a2a">&#9670;&#160;</a></span>DECODE_ERROR</h2>
+<a id="a99de2f8dd625cef94d70eeddefc9ac5c" name="a99de2f8dd625cef94d70eeddefc9ac5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99de2f8dd625cef94d70eeddefc9ac5c">&#9670;&#160;</a></span>_initialized</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -238,22 +344,22 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> B64Impl::DECODE_ERROR = 0xff</td>
+          <td class="memname">bool AuthCrypt::_initialized { false }</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00026">Decode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00038">DecryptRecv()</a>, <a class="el" href="../../#l00044">EncryptSend()</a>, and <a class="el" href="../../#l00022">Init()</a>.</p>
 
 </div>
 </div>
-<a id="a2e5699431f24ca6b745294b935b99240" name="a2e5699431f24ca6b745294b935b99240"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e5699431f24ca6b745294b935b99240">&#9670;&#160;</a></span>PADDING</h2>
+<a id="af30b0691f7089d52c2fbd9c5b9f52e68" name="af30b0691f7089d52c2fbd9c5b9f52e68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af30b0691f7089d52c2fbd9c5b9f52e68">&#9670;&#160;</a></span>_serverEncrypt</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -262,15 +368,17 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr char B64Impl::PADDING = '='</td>
+          <td class="memname"><a class="el" href="../../de/dbd/a05013.html">Acore::Crypto::ARC4</a> AuthCrypt::_serverEncrypt</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00044">EncryptSend()</a>, and <a class="el" href="../../#l00022">Init()</a>.</p>
 
 </div>
 </div>
@@ -279,8 +387,8 @@ Static Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../da/d7c/a05021.html">B64Impl</a></li>
-    <li class="footer">Generated on Sun Aug 20 2023 00:19:22 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../da/d7c/a05021.html">AuthCrypt</a></li>
+    <li class="footer">Generated on Wed Dec 6 2023 22:12:30 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,5 @@
 var a23901 =
 [
-    [ "HandleSummon", "db/d62/a23901.html#a3490f2145ba100aff85894a698476eaa", null ],
-    [ "PrepareSpellScript", "db/d62/a23901.html#ac23c78653aa51ff66d374a876d77cd47", null ],
-    [ "Register", "db/d62/a23901.html#ae2962ddcb25cc68ab6ec7966514743bf", null ]
+    [ "npc_wg_spirit_guideAI", "db/d62/a23901.html#a576d15b6acedb07bfe1555bdd0ee8f12", null ],
+    [ "UpdateAI", "db/d62/a23901.html#a32b28e8fe74db742d170bd754d11f4d7", null ]
 ];

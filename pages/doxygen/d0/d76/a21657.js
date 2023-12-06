@@ -1,6 +1,6 @@
 var a21657 =
 [
-    [ "npc_ulduar_vx001AI", "dc/d94/a21661.html", "dc/d94/a21661" ],
-    [ "npc_ulduar_vx001", "d0/d76/a21657.html#ae8393c02c94a94b0847e0c7837bc5469", null ],
-    [ "GetAI", "d0/d76/a21657.html#acdab817141b851deb09861230323ee58", null ]
+    [ "OnPeriodic", "d0/d76/a21657.html#a714badb5b695e610823edbf3024b6a4a", null ],
+    [ "PrepareAuraScript", "d0/d76/a21657.html#a686fb8a0c2524bf4294dea521a40caca", null ],
+    [ "Register", "d0/d76/a21657.html#ad33099cc043d5204304673f363b5cf8e", null ]
 ];

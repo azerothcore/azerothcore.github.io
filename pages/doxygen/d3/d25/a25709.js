@@ -1,8 +1,6 @@
 var a25709 =
 [
-    [ "HandleScriptEffect", "d3/d25/a25709.html#a22a3588a0781600270ba7f57e1533668", null ],
-    [ "Load", "d3/d25/a25709.html#aa25891cda4347c1cad7974532aed8a6e", null ],
-    [ "PrepareSpellScript", "d3/d25/a25709.html#a71207b739858f66f8616310bd3003891", null ],
-    [ "Register", "d3/d25/a25709.html#ab647c237bf344dd8bc78584e5d51be28", null ],
-    [ "_currentSpellId", "d3/d25/a25709.html#a5f15a0018ee0804164a432714694a3e1", null ]
+    [ "spell_npc22275_crystal_prison_AuraScript", "d3/dfb/a25713.html", "d3/dfb/a25713" ],
+    [ "spell_npc22275_crystal_prison", "d3/d25/a25709.html#ae6efa7a80701f4c98b22f0c0fef75334", null ],
+    [ "GetAuraScript", "d3/d25/a25709.html#a23b8e65fd247e1dec0faa62299c47aec", null ]
 ];

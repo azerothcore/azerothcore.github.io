@@ -1,7 +1,8 @@
 var a10425 =
 [
-    [ "OpcodeHandler", "d7/dd6/a04479.html#gad7dc8101b537abe699b18ae8de444a81", null ],
-    [ "~OpcodeHandler", "d7/dd6/a04479.html#ga5400057a3d849035aedda259828a5af5", null ],
-    [ "Name", "d7/dd6/a04479.html#ga0f1d1acde7c65e2b5c29357b232a7061", null ],
-    [ "Status", "d7/dd6/a04479.html#gace7959058ad5b5e617c7b043f5c63b7c", null ]
+    [ "PauseMirrorTimer", "d0/db3/a10425.html#a05ccc52cb56d38cadb27fbde2563df45", null ],
+    [ "PauseMirrorTimer", "d0/db3/a10425.html#ad6e7a6eb3edadc235dc5bb97802381ac", null ],
+    [ "Write", "d0/db3/a10425.html#aea61f9e668173b65eac3b9f42ddd68a1", null ],
+    [ "Paused", "d0/db3/a10425.html#a7adf6dcd7e712792ea94bad77f8be232", null ],
+    [ "Timer", "d0/db3/a10425.html#a4a041bf772ef3f145bde6be9f8ecdc13", null ]
 ];

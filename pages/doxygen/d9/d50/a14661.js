@@ -1,18 +1,12 @@
 var a14661 =
 [
-    [ "hyjal_trashAI", "d9/d50/a14661.html#ac63aec521bc58186de921e17739b2cef", null ],
-    [ "DamageTaken", "d9/d50/a14661.html#af0850ccdd5b1334870ab087784b8e553", null ],
-    [ "JustDied", "d9/d50/a14661.html#a5f1528ab0f32f9fbb593c06c7bf7b71f", null ],
-    [ "UpdateAI", "d9/d50/a14661.html#a414f1f7818b6fe6cb9ba41c0e874f25e", null ],
-    [ "damageTaken", "d9/d50/a14661.html#a9544098011a22b0ed7c838f6b246c72e", null ],
-    [ "Delay", "d9/d50/a14661.html#a29b4b6a4960357bc808382b7ef7f7ebb", null ],
-    [ "DummyTarget", "d9/d50/a14661.html#a66533757ef93a713d0e4c4e23c871933", null ],
-    [ "faction", "d9/d50/a14661.html#a2de80476c73f0695af0594644287385a", null ],
-    [ "instance", "d9/d50/a14661.html#aa402559aeeda4ba00d72529353e5df3e", null ],
-    [ "IsEvent", "d9/d50/a14661.html#ac02c112ce1f38a17123340057fccf867", null ],
-    [ "IsOverrun", "d9/d50/a14661.html#ad495ca3b753630dccaf1d3dd98e55fc7", null ],
-    [ "LastOverronPos", "d9/d50/a14661.html#a3edc0a540d56e5b1bd595d7fb2e80b0c", null ],
-    [ "OverrunType", "d9/d50/a14661.html#aa84d27fbbf2e1300d22f48714ac900c4", null ],
-    [ "SetupOverrun", "d9/d50/a14661.html#a0c0349c797020a26cdd20d1b8eb14d7c", null ],
-    [ "useFlyPath", "d9/d50/a14661.html#a171c8d1512be9c3c8dfd543f9c8013b8", null ]
+    [ "npc_ghoulAI", "d9/d50/a14661.html#af835b3c0bdba5c2c37c2dfbabdbe01ea", null ],
+    [ "JustEngagedWith", "d9/d50/a14661.html#a6ed7c5296348e23c69f9910d4742cad6", null ],
+    [ "Reset", "d9/d50/a14661.html#a521edce5edbc5efe48d53c3555644342", null ],
+    [ "UpdateAI", "d9/d50/a14661.html#a214d107691e7d07a94f90f8cc9129209", null ],
+    [ "WaypointReached", "d9/d50/a14661.html#a6d265d52e3703fd540a86e164b9603cb", null ],
+    [ "FrenzyTimer", "d9/d50/a14661.html#adc17bc938371728f50b31dc36994c94a", null ],
+    [ "go", "d9/d50/a14661.html#a673780abea5ad1a13097dc316a108ab3", null ],
+    [ "MoveTimer", "d9/d50/a14661.html#add6aff424fb7598f7cc3b09f19691d21", null ],
+    [ "RandomMove", "d9/d50/a14661.html#a9b782556b7ce91e2b151ccd57066247e", null ]
 ];

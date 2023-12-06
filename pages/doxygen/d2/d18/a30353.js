@@ -1,10 +1,13 @@
 var a30353 =
 [
-    [ "Exception", "d2/d18/a30353.html#a414c3d1a58dc27f84f70db7372c71394", null ],
-    [ "~Exception", "d2/d18/a30353.html#a1af5fa940a44522664bf8032b0ec164a", null ],
-    [ "Exception", "d2/d18/a30353.html#a414c3d1a58dc27f84f70db7372c71394", null ],
-    [ "~Exception", "d2/d18/a30353.html#a1af5fa940a44522664bf8032b0ec164a", null ],
-    [ "getMessage", "d2/d18/a30353.html#af9bfdfbfe28783d5ad6f7b08cb845c75", null ],
-    [ "getMessage", "d2/d18/a30353.html#af9bfdfbfe28783d5ad6f7b08cb845c75", null ],
-    [ "message", "d2/d18/a30353.html#aeb732542a0ba63cde3d9b3bff93f4eda", null ]
+    [ "MPQArchive", "d2/d18/a30353.html#a58d57322334966ca16a22e52e5198d9f", null ],
+    [ "~MPQArchive", "d2/d18/a30353.html#a5bce22525ca16381fbb4729540a165e2", null ],
+    [ "MPQArchive", "d2/d18/a30353.html#a58d57322334966ca16a22e52e5198d9f", null ],
+    [ "~MPQArchive", "d2/d18/a30353.html#a5bce22525ca16381fbb4729540a165e2", null ],
+    [ "close", "d2/d18/a30353.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
+    [ "close", "d2/d18/a30353.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
+    [ "GetFileListTo", "d2/d18/a30353.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
+    [ "GetFileListTo", "d2/d18/a30353.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
+    [ "isOpened", "d2/d18/a30353.html#a2026335b9ede29197acfaac8513456d5", null ],
+    [ "mpq_a", "d2/d18/a30353.html#a72b9fb96b1e3db6c7be652e426978b4a", null ]
 ];

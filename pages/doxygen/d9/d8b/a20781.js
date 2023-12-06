@@ -1,8 +1,6 @@
 var a20781 =
 [
-    [ "go_celestial_planetarium_accessAI", "d9/d8b/a20781.html#aca4d0e9babd6eefe84edc281f8a44cf2", null ],
-    [ "GossipHello", "d9/d8b/a20781.html#af159df46fecf2cd74ac4ec9fa006dc03", null ],
-    [ "UpdateAI", "d9/d8b/a20781.html#a9b2bfb74a12e3258476387fc78cde574", null ],
-    [ "_locked", "d9/d8b/a20781.html#a37f83dbbb05e461d613a4c38001f785c", null ],
-    [ "events", "d9/d8b/a20781.html#aa03b8d270054f2b71c1d625abe322fb8", null ]
+    [ "npc_brann_bronzebeard_algalonAI", "d3/dee/a20785.html", "d3/dee/a20785" ],
+    [ "npc_brann_bronzebeard_algalon", "d9/d8b/a20781.html#a2760d42de8f78250ca5862bfcb23ed2e", null ],
+    [ "GetAI", "d9/d8b/a20781.html#ad8bc8bde865adcce1e9f6fd6234f1a0a", null ]
 ];

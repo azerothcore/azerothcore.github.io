@@ -1,6 +1,6 @@
 var a17881 =
 [
-    [ "ModAuraValue", "dc/d09/a17881.html#aebb85353c7ae5af78a725074015b422d", null ],
-    [ "PrepareSpellScript", "dc/d09/a17881.html#a58dc6a33d2aa9765c143c25428d37342", null ],
-    [ "Register", "dc/d09/a17881.html#a8d296579faa0edcb4e5c119ccc4edab3", null ]
+    [ "npc_saurfang_eventAI", "dd/d6c/a17885.html", "dd/d6c/a17885" ],
+    [ "npc_saurfang_event", "dc/d09/a17881.html#a3bfce5457466360458498833098d660c", null ],
+    [ "GetAI", "dc/d09/a17881.html#a953842d2fa3380a8331faf3a42cb3177", null ]
 ];

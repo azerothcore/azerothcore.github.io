@@ -1,25 +1,6 @@
 var a12149 =
 [
-    [ "boss_nightbane", "da/d9b/a12149.html#a14e8d2773f75c8464a725c4c0e29789f", null ],
-    [ "AttackStart", "da/d9b/a12149.html#a1709459f82758e690b6f5f667ac113b2", null ],
-    [ "DoCastOnFarAwayPlayers", "da/d9b/a12149.html#a4eab2703093351c14e64c7ded0d9dcc3", null ],
-    [ "HandleTerraceDoors", "da/d9b/a12149.html#aa2f318519c6d19a0e9bb46db44cb1e5d", null ],
-    [ "JustDied", "da/d9b/a12149.html#afbb9854e5328c4bc92b0e53c1264eceb", null ],
-    [ "JustEngagedWith", "da/d9b/a12149.html#ab4878061c057f2f07eb7c35ff92b5bd7", null ],
-    [ "JustSummoned", "da/d9b/a12149.html#aebe3a054846638cb704537bb6ae8df26", null ],
-    [ "MoveInLineOfSight", "da/d9b/a12149.html#a2cdc3d7e7f83391eaf96e92f20ea703b", null ],
-    [ "MovementInform", "da/d9b/a12149.html#aebfd407ada0b093a22ba50fbfb22dc0c", null ],
-    [ "Reset", "da/d9b/a12149.html#a16e5dba8c2187d2f8b175360f40c299c", null ],
-    [ "ScheduleFly", "da/d9b/a12149.html#a536b576c59bfe91e88823634978e174d", null ],
-    [ "ScheduleGround", "da/d9b/a12149.html#aab88cfbfbf9bdb347683b6c49ee455ee", null ],
-    [ "TakeOff", "da/d9b/a12149.html#a97346e490abdf41ce3b4f59a0ffe039f", null ],
-    [ "UpdateAI", "da/d9b/a12149.html#afc9746671aab95918269375a672ecbed", null ],
-    [ "_flying", "da/d9b/a12149.html#add9e55e813dbef5bdd016b9d69c114e0", null ],
-    [ "_intro", "da/d9b/a12149.html#a72ac9962625bfee329fea0b00a6578ad", null ],
-    [ "_movement", "da/d9b/a12149.html#a780bd77fbbd2d7d0c0be6dfbfffb89dc", null ],
-    [ "_skeletonCount", "da/d9b/a12149.html#a2588f568133a843cb2bd6ef97794a03f", null ],
-    [ "_skeletonscheduler", "da/d9b/a12149.html#aff6649c16f1c929325e1941479569fc1", null ],
-    [ "_skeletonSpawnCounter", "da/d9b/a12149.html#a39ed84d01215f9f8427e5c599e424927", null ],
-    [ "MovePhase", "da/d9b/a12149.html#a8f71cd28f0dadc8e6a25c4532047134b", null ],
-    [ "Phase", "da/d9b/a12149.html#a447dea13143eceaec3c2b9db68e70617", null ]
+    [ "bossId", "da/d9b/a12149.html#a898f2ce24d96fb7d6a118e9772344c43", null ],
+    [ "circleId", "da/d9b/a12149.html#aaa379e61fda2f7225ab4089757df5d24", null ],
+    [ "runeId", "da/d9b/a12149.html#aa7ac7e2d5729aa906e00ca9c2648581d", null ]
 ];

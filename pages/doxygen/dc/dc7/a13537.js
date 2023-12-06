@@ -1,9 +1,9 @@
 var a13537 =
 [
-    [ "npc_thrall_bfuAI", "d4/d99/a13541.html", "d4/d99/a13541" ],
-    [ "npc_thrall_bfu", "dc/dc7/a13537.html#a43eb37b9a0cf06be0e2cb6180730b09f", null ],
-    [ "GetAI", "dc/dc7/a13537.html#a28b4030d189e4d967a1b16f3464c14ba", null ],
-    [ "OnGossipHello", "dc/dc7/a13537.html#a71a7108464de9245879c8a1c08932e2a", null ],
-    [ "OnGossipSelect", "dc/dc7/a13537.html#aea62ed8489bea23772a52ddefbf9c60e", null ],
-    [ "OnQuestReward", "dc/dc7/a13537.html#aee56e54615e2696dcd0e7299e4f416b5", null ]
+    [ "npc_tyrion_spybotAI", "dc/dc7/a13537.html#aedad685279012266637d29069ead9063", null ],
+    [ "Reset", "dc/dc7/a13537.html#a16f8f9fd368832aac7906c3fd8cb9698", null ],
+    [ "UpdateAI", "dc/dc7/a13537.html#ad8fc713bb9673e74bfd11bc653c71587", null ],
+    [ "WaypointReached", "dc/dc7/a13537.html#a819e987eeb8eb8d580a5ad22001a641d", null ],
+    [ "uiPhase", "dc/dc7/a13537.html#af5dbb99fe18d96665efd04bd53294636", null ],
+    [ "uiTimer", "dc/dc7/a13537.html#ab41fdff3612b29e7d0d94fb6aaa8c085", null ]
 ];

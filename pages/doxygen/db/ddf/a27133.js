@@ -1,7 +1,6 @@
 var a27133 =
 [
-    [ "EjectPassenger", "db/ddf/a27133.html#a17ead3b25e5cebda3c9d5008f54f27ef", null ],
-    [ "PrepareSpellScript", "db/ddf/a27133.html#abada0f860ea3cd6c16fbe4d73263d95a", null ],
-    [ "Register", "db/ddf/a27133.html#ad5af65bc326aebcc1a2e19dabe624ad1", null ],
-    [ "Validate", "db/ddf/a27133.html#a24ad6ca59f4f38cfa34de16c4167944e", null ]
+    [ "CalculateAmount", "db/ddf/a27133.html#a83bf0327aade6f6a33293a442ad10911", null ],
+    [ "PrepareAuraScript", "db/ddf/a27133.html#aa964f4eb7391dab54ff744fc94306de1", null ],
+    [ "Register", "db/ddf/a27133.html#a37d29d87bec2fe2908b7d3e47f5e1caa", null ]
 ];

@@ -1,10 +1,10 @@
 var a14865 =
 [
-    [ "instance_maraudon_InstanceMapScript", "d5/d7d/a14865.html#a9c46508320d3973006561444feae0586", null ],
-    [ "Initialize", "d5/d7d/a14865.html#a61cb2b2bf09bb997457bc01a41e092e9", null ],
-    [ "OnGameObjectCreate", "d5/d7d/a14865.html#a3a287b97db58c3489815f20ee0d37977", null ],
-    [ "ReadSaveDataMore", "d5/d7d/a14865.html#ac2cd336874b25ad20dac104037de1df5", null ],
-    [ "SetData", "d5/d7d/a14865.html#a6e90bf60a076c164e432128f7ec62fba", null ],
-    [ "WriteSaveDataMore", "d5/d7d/a14865.html#a6e4072342e66689d343912de85e66b34", null ],
-    [ "_encounters", "d5/d7d/a14865.html#af2e752a791d75e50001060c4a9f18173", null ]
+    [ "npc_tarethaAI", "d5/d7d/a14865.html#ad403cdcdc2648bb23687e3a3a7bdbb03", null ],
+    [ "AttackStart", "d5/d7d/a14865.html#a09d91ea8e5923ebc3c0ad01f09f93408", null ],
+    [ "DoAction", "d5/d7d/a14865.html#adbb40db0b70532a20731cf5039e44d0b", null ],
+    [ "MoveInLineOfSight", "d5/d7d/a14865.html#afa0427372e43316851018bf78274707f", null ],
+    [ "Reset", "d5/d7d/a14865.html#ae4d9f3d5751e8a8e0468a80d46f4a4c4", null ],
+    [ "WaypointReached", "d5/d7d/a14865.html#a6946bc02ec686c8af943c9e913c8aee6", null ],
+    [ "instance", "d5/d7d/a14865.html#a3c0f4a61cf5b8da6b885ef7bf9813205", null ]
 ];

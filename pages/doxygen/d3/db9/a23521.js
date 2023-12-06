@@ -1,6 +1,7 @@
 var a23521 =
 [
-    [ "npc_llod_genericAI", "d9/dcc/a23525.html", "d9/dcc/a23525" ],
-    [ "npc_llod_generic", "d3/db9/a23521.html#a97a3957c4881808facf7910e4ae4ffd4", null ],
-    [ "GetAI", "d3/db9/a23521.html#aeb2e7d9de871686e436d1e55f47085a2", null ]
+    [ "npc_Apothecary_HanesAI", "d9/dcc/a23525.html", "d9/dcc/a23525" ],
+    [ "npc_apothecary_hanes", "d3/db9/a23521.html#a90480bee491e8fe1c9e7b2c71aac28c8", null ],
+    [ "GetAI", "d3/db9/a23521.html#a7f3f86efb9a6146b86aa5d882b751e1f", null ],
+    [ "OnQuestAccept", "d3/db9/a23521.html#ae116e49b0e8865f9b5735e72c8c850fd", null ]
 ];

@@ -1,6 +1,5 @@
 var a09265 =
 [
-    [ "flags", "d5/dbc/a09265.html#a953acfd67349f028a839390ebe7fc398", null ],
-    [ "fourcc", "d5/dbc/a09265.html#a14d0e9cf761aae3ef914f3bff86ef216", null ],
-    [ "gridArea", "d5/dbc/a09265.html#a4ee571320d5d346bbf74709677bbee05", null ]
+    [ "MinionInfo", "d5/dbc/a09265.html#a537dd49ffb504aeab8b2b1734d5f44d7", null ],
+    [ "bossInfo", "d5/dbc/a09265.html#a04750e14ecb53ce6e3fac35844a713cd", null ]
 ];

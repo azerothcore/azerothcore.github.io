@@ -1,17 +1,10 @@
 var a07061 =
 [
-    [ "HasFlag", "dc/db3/a07061.html#a23315bfbd0748f82c948051697079c24", null ],
-    [ "IsModerator", "dc/db3/a07061.html#af664dc84e5a60301c4fce6fda8971062", null ],
-    [ "IsMuted", "dc/db3/a07061.html#a5d1e0f8e424033e34338940677ca054c", null ],
-    [ "IsOwner", "dc/db3/a07061.html#a4687757cb7df9778f0f5eb67714c917c", null ],
-    [ "IsOwnerGM", "dc/db3/a07061.html#ad4e1573168c91372dc4af2847d4ad454", null ],
-    [ "SetFlag", "dc/db3/a07061.html#a9cb5a3ce70a2afcc553992f4a65b80e1", null ],
-    [ "SetModerator", "dc/db3/a07061.html#a0a0cbaa77040171b7b50f89914946a8a", null ],
-    [ "SetMuted", "dc/db3/a07061.html#adf989acef0b1e53a9dc2d3210db646b7", null ],
-    [ "SetOwner", "dc/db3/a07061.html#aac6a9ea0bf478901e62c729ac6a3e9cd", null ],
-    [ "SetOwnerGM", "dc/db3/a07061.html#a2e4be6dfb921ad07ebd0de3abb81f5e4", null ],
-    [ "_gmStatus", "dc/db3/a07061.html#a15686cee4d1d0d8f39c13341bc9df624", null ],
-    [ "flags", "dc/db3/a07061.html#ae9ed61476c5f13dddf4aa5e98fe8c5c4", null ],
-    [ "player", "dc/db3/a07061.html#afba1915e2dd4109928180e33884b8412", null ],
-    [ "plrPtr", "dc/db3/a07061.html#a5c986d75e173cc42160143ae7621ab6b", null ]
+    [ "OwnerId", "dc/db3/a07061.html#ae6203d7a867838b279825925841a99df", null ],
+    [ "PrevOwnerId", "dc/db3/a07061.html#a8357cc41fe125545d473c1f14c3ffa05", null ],
+    [ "PrevState", "dc/db3/a07061.html#ab97cde6dcd3c3e91bb94bf39d104bf77", null ],
+    [ "State", "dc/db3/a07061.html#a6e2b1f8c232c27ab24e3ca8bca8f6b03", null ],
+    [ "Timer", "dc/db3/a07061.html#a945afa538fc0dd1a4be11f5b5ac74bcb", null ],
+    [ "TotalOwnerId", "dc/db3/a07061.html#aec31f39eb98a3686ead3b1b99c7abfde", null ],
+    [ "Tower", "dc/db3/a07061.html#a222db96ad937e31986c0c39a5a371dd7", null ]
 ];

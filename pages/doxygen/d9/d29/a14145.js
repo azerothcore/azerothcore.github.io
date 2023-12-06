@@ -1,10 +1,9 @@
 var a14145 =
 [
-    [ "npc_coren_direbrew_sisters", "d9/d29/a14145.html#a415ea0ebd044236f5f4c4d6c28896e00", null ],
-    [ "GetGUID", "d9/d29/a14145.html#a61863117e71ebfb7f1c4c83780ece7bc", null ],
-    [ "JustEngagedWith", "d9/d29/a14145.html#a34e0b6af032240c152c463c221d99335", null ],
-    [ "SetGUID", "d9/d29/a14145.html#ada2e446a929bbba088d3c7e09d117f93", null ],
-    [ "UpdateAI", "d9/d29/a14145.html#a7434b08d12d3f0902d1944b75323560c", null ],
-    [ "_scheduler", "d9/d29/a14145.html#a9d8ca85e7bbd3cc9c61c2bbb38b7d222", null ],
-    [ "_targetGUID", "d9/d29/a14145.html#a801a6811124a7db3a31ec492ef954b20", null ]
+    [ "HandleEffectPeriodic", "d9/d29/a14145.html#a798c8ddfc71e703bfe1e3c1f2d926cef", null ],
+    [ "HandleEffectRemove", "d9/d29/a14145.html#a96ed7366e568b70e82d622586740aa56", null ],
+    [ "Load", "d9/d29/a14145.html#a85cbc44e586330e2adfc0656a428bd7b", null ],
+    [ "PrepareAuraScript", "d9/d29/a14145.html#abd1f851112a50b79e815cdd894275bab", null ],
+    [ "Register", "d9/d29/a14145.html#aa3cd85aed063017c4737e7660fa81f37", null ],
+    [ "questTick", "d9/d29/a14145.html#ae2980e5f4934ce2ba5b755b7d45fab82", null ]
 ];

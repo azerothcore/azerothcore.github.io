@@ -1,5 +1,6 @@
 var a21637 =
 [
-    [ "achievement_kologarn_with_open_arms", "db/d4c/a21637.html#a94af961be5bbdf7783925148731ce7e4", null ],
-    [ "OnCheck", "db/d4c/a21637.html#a03c1fb5f141a15f8f63e28700b98f9b5", null ]
+    [ "spell_ulduar_stone_grip_AuraScript", "d7/d0f/a21641.html", "d7/d0f/a21641" ],
+    [ "spell_ulduar_stone_grip", "db/d4c/a21637.html#af309ee5d986439533b58c83b68fbc817", null ],
+    [ "GetAuraScript", "db/d4c/a21637.html#a311bd0e641fb7d389cd71f2d4ece6ad2", null ]
 ];

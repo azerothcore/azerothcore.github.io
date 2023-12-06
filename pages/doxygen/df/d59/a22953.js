@@ -1,7 +1,6 @@
 var a22953 =
 [
-    [ "npc_lurgglbrAI", "d5/d58/a22957.html", "d5/d58/a22957" ],
-    [ "npc_lurgglbr", "df/d59/a22953.html#a7df52667e4d789391820a4c2182db8d2", null ],
-    [ "GetAI", "df/d59/a22953.html#a2795346371e7b474c53dcacb9daf2001", null ],
-    [ "OnQuestAccept", "df/d59/a22953.html#a1b3ba7b0782dc91ff268b7044cf13e82", null ]
+    [ "HandleEffectRemove", "df/d59/a22953.html#ad38968a5bec7ddbd6fef9e7035f9b440", null ],
+    [ "PrepareAuraScript", "df/d59/a22953.html#a0563ab5ce08c910d788874081424e55f", null ],
+    [ "Register", "df/d59/a22953.html#a511e9c4f92ab480d5d3063ee4a912b74", null ]
 ];

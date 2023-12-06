@@ -1,9 +1,7 @@
 var a08925 =
 [
-    [ "UnitAuraCheck", "df/d62/a08925.html#acbc0c969db8b768720ab3b8235c28352", null ],
-    [ "operator()", "df/d62/a08925.html#abc385cad226ac51c09a908864d360fd3", null ],
-    [ "operator()", "df/d62/a08925.html#a1c85e9d5d517a852cf4c92063e6f3ed1", null ],
-    [ "_casterGUID", "df/d62/a08925.html#ab2bdf4c05792dd83e4e9542fc3083cc3", null ],
-    [ "_present", "df/d62/a08925.html#af553a0c4db5b11ec69ae7fbe9ce5ff78", null ],
-    [ "_spellId", "df/d62/a08925.html#a0dd71c851f803fb70a4543c77b672889", null ]
+    [ "FriendlyCCedInRange", "df/d62/a08925.html#ae8dcff3f285f208b0db8aa3efed202a1", null ],
+    [ "operator()", "df/d62/a08925.html#a0e241f930cee855664aeac3604d5c023", null ],
+    [ "i_obj", "df/d62/a08925.html#a73d3e29bbdc7fd4aa162be3cb7ecbe08", null ],
+    [ "i_range", "df/d62/a08925.html#a49e79f3aea0c7e8c321c9f297b71a9b2", null ]
 ];

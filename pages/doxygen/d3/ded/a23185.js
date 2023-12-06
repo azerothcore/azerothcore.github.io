@@ -1,6 +1,6 @@
 var a23185 =
 [
-    [ "npc_mindless_ghoulAI", "d3/ded/a23185.html#a4cc0dbd4aa2366115348bc1db273a5e2", null ],
-    [ "CanAIAttack", "d3/ded/a23185.html#a18fbc44ad760a69d952d003622ec75b2", null ],
-    [ "JustDied", "d3/ded/a23185.html#a272067bef6dbab24024f7de990c10b64", null ]
+    [ "npc_conversing_with_the_depths_triggerAI", "da/d6c/a23189.html", "da/d6c/a23189" ],
+    [ "npc_conversing_with_the_depths_trigger", "d3/ded/a23185.html#a55ba213da86650d44ea1493b26fdb7f2", null ],
+    [ "GetAI", "d3/ded/a23185.html#a61c337bfe1efb3589cf0df91d9082236", null ]
 ];

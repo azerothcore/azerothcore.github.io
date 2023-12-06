@@ -1,7 +1,9 @@
 var a29377 =
 [
-    [ "npc_steam_tonkAI", "d0/d36/a29377.html#a64bc74af412304d50526e5c93e01a333", null ],
-    [ "JustEngagedWith", "d0/d36/a29377.html#a95b023adf0a2e62788e0d5646b17b319", null ],
-    [ "OnPossess", "d0/d36/a29377.html#a954208c1a9826ae84a7402f59e1d7055", null ],
-    [ "Reset", "d0/d36/a29377.html#a5c76625843b30302b2af0a4ae8b85bd2", null ]
+    [ "npc_fireworkAI", "d0/d36/a29377.html#a8fad089d1edc09edbaf215f07722e9e6", null ],
+    [ "FindNearestLauncher", "d0/d36/a29377.html#a156e63c90f9b64cfd71c0262d28f1383", null ],
+    [ "GetFireworkGameObjectId", "d0/d36/a29377.html#ae17b4abbbb2088799cec188457677d44", null ],
+    [ "GetFireworkSpell", "d0/d36/a29377.html#a6270e753ab81062a7c39ca6c6b46c993", null ],
+    [ "isCluster", "d0/d36/a29377.html#a4b3cdedaa2a57d23bf9f509cabdaff0c", null ],
+    [ "Reset", "d0/d36/a29377.html#a3e2ce8787cd08b8bb900c009bd7e8af0", null ]
 ];

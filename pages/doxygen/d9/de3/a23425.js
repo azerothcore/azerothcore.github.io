@@ -1,6 +1,6 @@
 var a23425 =
 [
-    [ "HandleAfterEffectApply", "d9/de3/a23425.html#a5a1330e74d473109e34a3c76e3e3e06f", null ],
-    [ "PrepareAuraScript", "d9/de3/a23425.html#a7d9c84b6d01f822ed05e88de75c6087e", null ],
-    [ "Register", "d9/de3/a23425.html#ae826df852bf83d2a5c3a12288066f1b1", null ]
+    [ "CheckRequirement", "d9/de3/a23425.html#ad58d71b5c2bc10d9ffbfe472bd5b1a32", null ],
+    [ "PrepareSpellScript", "d9/de3/a23425.html#ae621e95feb69b54f9aef5d77577a15ae", null ],
+    [ "Register", "d9/de3/a23425.html#ab0b03fd2d1a0ed6720acc45221a582f6", null ]
 ];

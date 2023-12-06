@@ -1,6 +1,5 @@
 var a04490 =
 [
-    [ "type_identity", "d2/dc4/a05134.html", "d2/dc4/a05134" ],
-    [ "remove_cvref_t", "d5/d47/a04490.html#ac715806cfa8e6c5277bf65ddda6af591", null ],
-    [ "type_identity_t", "d5/d47/a04490.html#a172e0f55ccedf648cfcdc15e8cd1f6d5", null ]
+    [ "Socket< T >", "dc/d99/a30165.html", "dc/d99/a30165" ],
+    [ "READ_BLOCK_SIZE", "d5/d47/a04490.html#a16ba013af02b9d4400b5e47d8daa022b", null ]
 ];

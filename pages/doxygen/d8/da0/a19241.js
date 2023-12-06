@@ -1,8 +1,6 @@
 var a19241 =
 [
-    [ "npc_lk_wicked_spiritAI", "d8/da0/a19241.html#a6323ddd6c0932f3d73a6de4bd3c4d5dd", null ],
-    [ "CanAIAttack", "d8/da0/a19241.html#ae094420b1a6e134632baa0b086c806c6", null ],
-    [ "JustDied", "d8/da0/a19241.html#adf153fab1c8639b2b5790ed418afb85d", null ],
-    [ "JustRespawned", "d8/da0/a19241.html#a1acfbead42b66dd8f70a85efc8ce2e6f", null ],
-    [ "Reset", "d8/da0/a19241.html#a8b15079251b6855679d738a342126006", null ]
+    [ "npc_icc_lk_checktargetAI", "dc/d87/a19245.html", "dc/d87/a19245" ],
+    [ "npc_icc_lk_checktarget", "d8/da0/a19241.html#a3a2cc943e731e472694dcb13417090da", null ],
+    [ "GetAI", "d8/da0/a19241.html#a2cd9a5c7fec791ba8786cf1bb5b7c8bd", null ]
 ];

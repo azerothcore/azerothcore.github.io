@@ -1,6 +1,6 @@
 var a25545 =
 [
-    [ "instance_the_botanica_InstanceMapScript", "d4/dca/a25549.html", "d4/dca/a25549" ],
-    [ "instance_the_botanica", "d6/d99/a25545.html#a8f8acda65f37e45e2439707f3979cf7c", null ],
-    [ "GetInstanceScript", "d6/d99/a25545.html#a335f671443ca0fb9db5956cefdf37182", null ]
+    [ "Load", "d6/d99/a25545.html#ad83a9545284ad7076dbc23a264d51a2a", null ],
+    [ "PrepareSpellScript", "d6/d99/a25545.html#a23d183690772e6d3999369ea34b14795", null ],
+    [ "Register", "d6/d99/a25545.html#afaf214060884d9a3f8c17736b7540c20", null ]
 ];

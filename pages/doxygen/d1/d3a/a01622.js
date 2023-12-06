@@ -1,4 +1,4 @@
 var a01622 =
 [
-    [ "MapUpdater", "d1/d28/a09345.html", "d1/d28/a09345" ]
+    [ "ZoneScript", "d3/dd1/a09505.html", "d3/dd1/a09505" ]
 ];

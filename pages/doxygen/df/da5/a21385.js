@@ -1,6 +1,6 @@
 var a21385 =
 [
-    [ "npc_ulduar_hodir_priestAI", "d8/dcf/a21389.html", "d8/dcf/a21389" ],
-    [ "npc_ulduar_hodir_priest", "df/da5/a21385.html#a30d7f1b68f9a1d10bc47288b81fc517c", null ],
-    [ "GetAI", "df/da5/a21385.html#a276046b974666c1462440a46a8096de7", null ]
+    [ "id", "df/da5/a21385.html#accc6fc59e13a0897ae168fae33ee4c7d", null ],
+    [ "x", "df/da5/a21385.html#afb67a1dce0819e0da0ceb9b303f43eb9", null ],
+    [ "y", "df/da5/a21385.html#aaf4fd9f1d5b020e102c0fec3863f7020", null ]
 ];

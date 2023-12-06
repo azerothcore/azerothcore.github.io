@@ -1,33 +1,38 @@
 var a04172 =
 [
-    [ "npc_shattrathflaskvendors", "d7/d68/a26121.html", "d7/d68/a26121" ],
-    [ "npc_zephyr", "d9/d83/a26125.html", "d9/d83/a26125" ],
-    [ "npc_kservant", "d7/d4c/a26129.html", "d7/d4c/a26129" ],
-    [ "npc_kservant::npc_kservantAI", "d5/dd6/a26133.html", "d5/dd6/a26133" ],
-    [ "GOSSIP_HZ", "dc/d72/a04172.html#a589613b07e5af69d0f6548f8c26c600c", null ],
-    [ "KServant", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04b", [
-      [ "SAY1", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04bae4faba91f216dc9ffa804d762e82e09a", null ],
-      [ "WHISP1", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04ba852626a57853588410e9702e8834a782", null ],
-      [ "WHISP2", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04ba69698fd807a2e78a575e841d4dcd6ed7", null ],
-      [ "WHISP3", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04ba6843bfc854a4c39e00685acb402e590c", null ],
-      [ "WHISP4", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04ba692112c22f75620b0f7f6c33db9e041a", null ],
-      [ "WHISP5", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04ba89ccdb4c2c4237a6a828c9c91ceb75b6", null ],
-      [ "WHISP6", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04ba03e770bf3dca79e16db0021dc8a3ef71", null ],
-      [ "WHISP7", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04baf89d06dca0c2fe813bca58dc8f7c8d5c", null ],
-      [ "WHISP8", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04ba64a7bf590ec27341ff76882ad6d5d704", null ],
-      [ "WHISP9", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04ba125b4ea317d12715b14359c6236b4659", null ],
-      [ "WHISP10", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04ba95b632563a317bbcedd4314bb9176eb1", null ],
-      [ "WHISP11", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04baef3c3e796294616518e675a60c198971", null ],
-      [ "WHISP12", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04bab80ecdd3dcede68b1f5c38de5cf73bb1", null ],
-      [ "WHISP13", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04bafd2a43fb93b5220847f6af4016724718", null ],
-      [ "WHISP14", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04baa492734daa9d365190bbf870d48b5e50", null ],
-      [ "WHISP15", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04bac423f9b18e207f967d09024c8ca3b5a1", null ],
-      [ "WHISP16", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04bae9410c89c708e35f9531019383f2d600", null ],
-      [ "WHISP17", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04ba9a646943a18832c18d22a43c03661fe4", null ],
-      [ "WHISP18", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04ba54dd5f261513f2ff74ce1244ca6b1124", null ],
-      [ "WHISP19", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04ba259d6522a87397ef181b1e044655a03d", null ],
-      [ "WHISP20", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04baca440048b4dedbe24fac2eb6e11206ec", null ],
-      [ "WHISP21", "dc/d72/a04172.html#a44d53e3bd4dd0381b62455517ce5e04ba00f3861bb3a25b5cacacc8a9c6deccd7", null ]
+    [ "BloodFurnaceScriptName", "dc/d72/a04172.html#a059e1a38f9d79807d65ad8edfd39138f", null ],
+    [ "DataHeader", "dc/d72/a04172.html#a042491ef36459046f3866e90f15aae0d", null ],
+    [ "RegisterBloodFurnaceCreatureAI", "dc/d72/a04172.html#a681938cba5eeb9c62242905fbed9b7ab", null ],
+    [ "bloodFurnace", "dc/d72/a04172.html#ae8bfbe71365d644cb4c1b500e73ec521", [
+      [ "DATA_THE_MAKER", "dc/d72/a04172.html#ae8bfbe71365d644cb4c1b500e73ec521a217584223ad4e053515b9ba1c45f6f1c", null ],
+      [ "DATA_BROGGOK", "dc/d72/a04172.html#ae8bfbe71365d644cb4c1b500e73ec521ab4ee9b3fa6f2378216eaad263527118d", null ],
+      [ "DATA_KELIDAN", "dc/d72/a04172.html#ae8bfbe71365d644cb4c1b500e73ec521ace1340baa905bd7fe4ac0274481197c3", null ],
+      [ "MAX_ENCOUNTER", "dc/d72/a04172.html#ae8bfbe71365d644cb4c1b500e73ec521a7913656ef56deb3793c0c5f3d999d80d", null ],
+      [ "DATA_DOOR1", "dc/d72/a04172.html#ae8bfbe71365d644cb4c1b500e73ec521a5be731cf2d344b403486f7319fae9830", null ],
+      [ "DATA_DOOR2", "dc/d72/a04172.html#ae8bfbe71365d644cb4c1b500e73ec521ab8bd986eb150e659f71fa84f45e63bb7", null ],
+      [ "DATA_DOOR3", "dc/d72/a04172.html#ae8bfbe71365d644cb4c1b500e73ec521aa433f4d5fa76b9f181264383b4a98a7f", null ],
+      [ "DATA_BROGGOK_REAR_DOOR", "dc/d72/a04172.html#ae8bfbe71365d644cb4c1b500e73ec521a2aeb6a52358b7f3b9d29f01fd6c3c9b4", null ],
+      [ "DATA_BROGGOK_LEVER", "dc/d72/a04172.html#ae8bfbe71365d644cb4c1b500e73ec521a00c166107a310e864a95d0aa174e6a2d", null ],
+      [ "DATA_DOOR6", "dc/d72/a04172.html#ae8bfbe71365d644cb4c1b500e73ec521a06ff2fef4decc65fc813d31bc70d967a", null ],
+      [ "DATA_PRISON_CELL1", "dc/d72/a04172.html#ae8bfbe71365d644cb4c1b500e73ec521a38e1047c0f32ee1086b17ab937b93133", null ],
+      [ "DATA_PRISON_CELL2", "dc/d72/a04172.html#ae8bfbe71365d644cb4c1b500e73ec521a3073b7783a2fb29629dd8144a46cf27b", null ],
+      [ "DATA_PRISON_CELL3", "dc/d72/a04172.html#ae8bfbe71365d644cb4c1b500e73ec521a43cb03f70352747a1b21db3ad18d45cc", null ],
+      [ "DATA_PRISON_CELL4", "dc/d72/a04172.html#ae8bfbe71365d644cb4c1b500e73ec521add420385ff32f4362b994bc24207cde2", null ],
+      [ "ACTION_ACTIVATE_BROGGOK", "dc/d72/a04172.html#ae8bfbe71365d644cb4c1b500e73ec521a2839e46e2718d788680e6ab738e5304b", null ],
+      [ "ACTION_PREPARE_BROGGOK", "dc/d72/a04172.html#ae8bfbe71365d644cb4c1b500e73ec521a0a587bd74e99773bd5a5cc3d91a33aa5", null ]
     ] ],
-    [ "AddSC_shattrath_city", "dc/d72/a04172.html#a48333af9544088068e574ea5dad8ccea", null ]
+    [ "BloodFurnaceGO", "dc/d72/a04172.html#a74a34510d05b4c79015fd0ba024b4e27", [
+      [ "GO_BROGGOK_DOOR_FRONT", "dc/d72/a04172.html#a74a34510d05b4c79015fd0ba024b4e27a7f079434fee3d7babbf2e014b16ba058", null ],
+      [ "GO_BROGGOK_DOOR_REAR", "dc/d72/a04172.html#a74a34510d05b4c79015fd0ba024b4e27af6a7585ba449b6a97baf1bc94725580f", null ],
+      [ "GO_BROGGOK_LEVER", "dc/d72/a04172.html#a74a34510d05b4c79015fd0ba024b4e27ad6160ee46c205c3ad0b533952de34294", null ]
+    ] ],
+    [ "bloodFurnaceNPC", "dc/d72/a04172.html#aa518f004f7df866d1fc0e781b6a5f3a0", [
+      [ "NPC_THE_MAKER", "dc/d72/a04172.html#aa518f004f7df866d1fc0e781b6a5f3a0adee32b124f549802c329b672679b8333", null ],
+      [ "NPC_BROGGOK", "dc/d72/a04172.html#aa518f004f7df866d1fc0e781b6a5f3a0a4cf62e33a7fa35ef63ad878dfeeb0ad9", null ],
+      [ "NPC_KELIDAN", "dc/d72/a04172.html#aa518f004f7df866d1fc0e781b6a5f3a0a6332b11d449d4fd83c67fc13c06d7210", null ],
+      [ "NPC_NASCENT_FEL_ORC", "dc/d72/a04172.html#aa518f004f7df866d1fc0e781b6a5f3a0a2d648c17cf1d4c62de4d35b07d1bf8c7", null ],
+      [ "NPC_CHANNELER", "dc/d72/a04172.html#aa518f004f7df866d1fc0e781b6a5f3a0a829f7c3a21ad299d21aa23035ca5e53d", null ]
+    ] ],
+    [ "GetBloodFurnaceAI", "dc/d72/a04172.html#a4aa87dfa17e2fb43b14c2ca77bb22aeb", null ],
+    [ "EncounterCount", "dc/d72/a04172.html#ae6104e16f72c5b3e12bd4250dde032ce", null ]
 ];

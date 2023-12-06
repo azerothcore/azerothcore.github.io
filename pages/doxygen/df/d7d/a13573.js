@@ -1,12 +1,7 @@
 var a13573 =
 [
-    [ "npc_daphne_stilwellAI", "df/d7d/a13573.html#ac2e9f940bc64a70ff8a386e4f483a65e", null ],
-    [ "AttackStart", "df/d7d/a13573.html#a30056a45adb91a12cf7bcc4e9f0b2d54", null ],
-    [ "JustSummoned", "df/d7d/a13573.html#ae56554d30e9de7644efab891555c57e0", null ],
-    [ "Reset", "df/d7d/a13573.html#ae6f0b271478aecf7fd1f3e1c733d77f0", null ],
-    [ "SummonedCreatureDies", "df/d7d/a13573.html#aa6fdcf9e09031522d342b603b4c70aed", null ],
-    [ "Update", "df/d7d/a13573.html#a4099d75c4a6bca1525781a5753ef9972", null ],
-    [ "WaypointReached", "df/d7d/a13573.html#a1035eb0a1696730d8304593b5fb079e4", null ],
-    [ "summons", "df/d7d/a13573.html#a0cbf5aaf1cb2f234e725074de0acc7e6", null ],
-    [ "textCounter", "df/d7d/a13573.html#a62ab24169c1b7c3028ab33303b217f63", null ]
+    [ "o", "df/d7d/a13573.html#a455ab33d372dd2aeac9d591f3cce1013", null ],
+    [ "x", "df/d7d/a13573.html#a49ad07d6ecb902ae4818923a6414f3c1", null ],
+    [ "y", "df/d7d/a13573.html#a45ec9c234e9d909eb8fcc0db6e0d641e", null ],
+    [ "z", "df/d7d/a13573.html#abf42d988d416ebe409100c4b860d26db", null ]
 ];

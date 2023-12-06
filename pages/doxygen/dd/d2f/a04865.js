@@ -1,11 +1,9 @@
 var a04865 =
 [
-    [ "AuthCrypt", "dd/d2f/a04865.html#a8c5239631bd6cf700059af31f04126a3", null ],
-    [ "DecryptRecv", "dd/d2f/a04865.html#afa1322bcbbba16dea6ed986bc4106e2c", null ],
-    [ "EncryptSend", "dd/d2f/a04865.html#a7866fe7d25511091a708aeb3d9f15b37", null ],
-    [ "Init", "dd/d2f/a04865.html#ac76e9a59dc6bcef074e3213cecb4c7b8", null ],
-    [ "IsInitialized", "dd/d2f/a04865.html#a911330ec40c0ca881af2f0c6fd6b0fef", null ],
-    [ "_clientDecrypt", "dd/d2f/a04865.html#ae67fcb84288ebd120ad71bedc52086c2", null ],
-    [ "_initialized", "dd/d2f/a04865.html#a99de2f8dd625cef94d70eeddefc9ac5c", null ],
-    [ "_serverEncrypt", "dd/d2f/a04865.html#af30b0691f7089d52c2fbd9c5b9f52e68", null ]
+    [ "MapRayCallback", "dd/d2f/a04865.html#a1a4a654bc929dab5b5a2804c4b88389d", null ],
+    [ "didHit", "dd/d2f/a04865.html#a9d9abb0a5ffff131d2c19e88c3c8b836", null ],
+    [ "operator()", "dd/d2f/a04865.html#a0f218465b321da5f8289dfa815acbfd4", null ],
+    [ "flags", "dd/d2f/a04865.html#a88d1e6d6fa43608bcee21a822488f061", null ],
+    [ "hit", "dd/d2f/a04865.html#a6fc14ac7ae20effec9d2657a46b838fc", null ],
+    [ "prims", "dd/d2f/a04865.html#a389d8ee31e0cb665bfd9084d786750c5", null ]
 ];

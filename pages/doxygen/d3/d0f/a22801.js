@@ -1,11 +1,12 @@
 var a22801 =
 [
-    [ "npc_vh_void_sentryAI", "d3/d0f/a22801.html#a312f4bbc07e6d786e85c2b4e89d36344", null ],
-    [ "DoAction", "d3/d0f/a22801.html#a0bc95eea54b5cdc16a4d3f588f3ff900", null ],
-    [ "JustDied", "d3/d0f/a22801.html#add5121ed38a74be9ae168df5f893f89e", null ],
-    [ "SummonedCreatureDespawn", "d3/d0f/a22801.html#a24ff36cdb049da7c67c1f041361e17e4", null ],
-    [ "UpdateAI", "d3/d0f/a22801.html#ae1f683d5ef920213c9c86da35c626381", null ],
-    [ "checkTimer", "d3/d0f/a22801.html#a675bcae4119e45490403013534c731ef", null ],
-    [ "pInstance", "d3/d0f/a22801.html#a7527473944681143bab89fd12b475645", null ],
-    [ "SummonedGUID", "d3/d0f/a22801.html#a4420eb2cf4d3b6d161355b0f4ad9516d", null ]
+    [ "boss_moraggAI", "d3/d0f/a22801.html#a3ae881c9adca20a2cb894af85297d53e", null ],
+    [ "EnterEvadeMode", "d3/d0f/a22801.html#a4e70e42407f452c4685c732949fd2b52", null ],
+    [ "JustDied", "d3/d0f/a22801.html#a97516e6ad5f7f35d0329674130e76dd3", null ],
+    [ "JustEngagedWith", "d3/d0f/a22801.html#ab1d4d863a537a3c567eeda6f95f385ca", null ],
+    [ "MoveInLineOfSight", "d3/d0f/a22801.html#a52a99d72dfa017baacb76717e6db931b", null ],
+    [ "Reset", "d3/d0f/a22801.html#a8b7419c94e36b4b2292cf110a2eccb01", null ],
+    [ "UpdateAI", "d3/d0f/a22801.html#aec7645eaae190d1e7982aae181ff9224", null ],
+    [ "events", "d3/d0f/a22801.html#acd021e4216e3920f0534da95d69ba5eb", null ],
+    [ "pInstance", "d3/d0f/a22801.html#a9f179ea9b180095a1e6df11b4842c5e5", null ]
 ];

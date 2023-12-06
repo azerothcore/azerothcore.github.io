@@ -1,10 +1,14 @@
 var a15961 =
 [
-    [ "spell_hadronox_summon_periodic_AuraScript", "da/d5b/a15961.html#a1f933da953b2430a0d909dcbecf5c0a2", null ],
-    [ "HandlePeriodic", "da/d5b/a15961.html#a186fa7a3711168669e1b3253d3ca1b0f", null ],
-    [ "OnApply", "da/d5b/a15961.html#a15abd10a8c52181555133a3a7adcc5cd", null ],
-    [ "PrepareAuraScript", "da/d5b/a15961.html#a1169c5fdb25397550cd7c2d5dba5155e", null ],
-    [ "Register", "da/d5b/a15961.html#a1ec789a9a8873f4b9d67db481e5b5443", null ],
-    [ "_delay", "da/d5b/a15961.html#adc70f8a8dfcc29c5820ad180dfce3e27", null ],
-    [ "_spellEntry", "da/d5b/a15961.html#a9251bd39a67dbbe8e30300826f300857", null ]
+    [ "boss_anub_arakAI", "da/d5b/a15961.html#a9b9dc11d78456efd9c6ad69e0c12e022", null ],
+    [ "EnterEvadeMode", "da/d5b/a15961.html#a016f17a11be149cbb6cc1343f2916a4f", null ],
+    [ "JustDied", "da/d5b/a15961.html#abc93931e7698ffd717199a598e16c917", null ],
+    [ "JustEngagedWith", "da/d5b/a15961.html#a589c252516b738a8f38f9d89da11912c", null ],
+    [ "JustSummoned", "da/d5b/a15961.html#a8624e9dc8af370579bd7ef72063acbf8", null ],
+    [ "KilledUnit", "da/d5b/a15961.html#a33e26ae3907e84ecc02514e4133e3002", null ],
+    [ "MoveInLineOfSight", "da/d5b/a15961.html#ab89570d2d0ddb494fa20f24d95cac41b", null ],
+    [ "Reset", "da/d5b/a15961.html#a254a51a901c0e82da6cb87ade5eba6fa", null ],
+    [ "SummonHelpers", "da/d5b/a15961.html#a709ef4602ace41c9b9ccebe8795badec", null ],
+    [ "UpdateAI", "da/d5b/a15961.html#acf3ddec273ded62c768631be2b3299fa", null ],
+    [ "intro", "da/d5b/a15961.html#a4916d6a1ed06330e94698a13c404ee52", null ]
 ];

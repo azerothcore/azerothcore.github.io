@@ -1,6 +1,6 @@
 var a13745 =
 [
-    [ "boss_nalorakkAI", "d5/df4/a13749.html", "d5/df4/a13749" ],
-    [ "boss_nalorakk", "d9/da9/a13745.html#a1758797883b528b763c7ccee640b6440", null ],
-    [ "GetAI", "d9/da9/a13745.html#a78f1cc141e6b48c9bf867f9a84914b10", null ]
+    [ "boss_slitherAI", "d5/df4/a13749.html", "d5/df4/a13749" ],
+    [ "boss_slither", "d9/da9/a13745.html#a1b4f60f88dfef83d90f2f1ce765ea7e8", null ],
+    [ "GetAI", "d9/da9/a13745.html#a822e4cdb49a3c2f78c98909f51acab36", null ]
 ];

@@ -1,6 +1,6 @@
 var a12973 =
 [
-    [ "spell_felmyst_open_brutallus_back_doors_SpellScript", "d9/d19/a12977.html", "d9/d19/a12977" ],
-    [ "spell_felmyst_open_brutallus_back_doors", "d1/dad/a12973.html#a4afbec8a2716df47d35375e82e1a7b65", null ],
-    [ "GetSpellScript", "d1/dad/a12973.html#a06b0b9238f7d48a4eb3fba9743c850aa", null ]
+    [ "HandleApplyTouch", "d1/dad/a12973.html#a03d3cd8c6792c4c9604ec7be7d33ea0b", null ],
+    [ "PrepareSpellScript", "d1/dad/a12973.html#a3b300a0a47de87e3f51189933d0cede6", null ],
+    [ "Register", "d1/dad/a12973.html#a9cbb2e49f9a0f64b76562401c3305cb4", null ]
 ];

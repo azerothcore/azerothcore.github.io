@@ -1,12 +1,8 @@
 var a10437 =
 [
-    [ "OpcodeTable", "d7/dd6/a04479.html#gacb286fdd22f1781abfb0d820b1f345aa", null ],
-    [ "OpcodeTable", "d7/dd6/a04479.html#ga0d719536cf746ad04a8ecc4fcca4a869", null ],
-    [ "~OpcodeTable", "d7/dd6/a04479.html#gac4e0724e0795156122c4fd8f07ade628", null ],
-    [ "Initialize", "d7/dd6/a04479.html#gac64814869d378e5bb7fa18144693fac1", null ],
-    [ "operator=", "d7/dd6/a04479.html#ga2153d4fe6b752cc2269cbfec7e8c3c84", null ],
-    [ "operator[]", "d7/dd6/a04479.html#gaa2cde2ecf8628ce12487ec9ce8fa37d1", null ],
-    [ "ValidateAndSetClientOpcode", "d7/dd6/a04479.html#ga95313e8e04ed3ab47f7104db9cf1db09", null ],
-    [ "ValidateAndSetServerOpcode", "d7/dd6/a04479.html#ga42b9c6fd72c2f463ab5cb3fb562151b6", null ],
-    [ "_internalTableClient", "d7/dd6/a04479.html#ga8c0d7f9f6248f9652fd8b8021b9a7677", null ]
+    [ "CrossedInebriationThreshold", "dd/d11/a10437.html#a8983b7b88a76955d9a0e2241ffb1e472", null ],
+    [ "Write", "dd/d11/a10437.html#a127dcfcc7e960d24e56d1b17bf9be992", null ],
+    [ "Guid", "dd/d11/a10437.html#a422afb45b6c5e9c4fef58fb1801bd0ad", null ],
+    [ "ItemID", "dd/d11/a10437.html#a9e48a650bf21872099cdb0626e875fd7", null ],
+    [ "Threshold", "dd/d11/a10437.html#a87b756b64cbfb8f292f46cce38308095", null ]
 ];

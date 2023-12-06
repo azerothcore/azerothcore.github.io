@@ -1,19 +1,16 @@
 var a09345 =
 [
-    [ "MapUpdater", "d1/d28/a09345.html#a96424fd90677e0f2d0908f9c25b58d04", null ],
-    [ "~MapUpdater", "d1/d28/a09345.html#aadb5781f6ab6ffd1410486399ccaa0ee", null ],
-    [ "activate", "d1/d28/a09345.html#a2a24e93b692ffca9d48f6506787e9d23", null ],
-    [ "activated", "d1/d28/a09345.html#a9cd15656fd974278fa1d4ba30d6fcea8", null ],
-    [ "deactivate", "d1/d28/a09345.html#ab579ca346d4d19e16bd552ce84bd95b7", null ],
-    [ "schedule_lfg_update", "d1/d28/a09345.html#a4141350af5d8a86481a8e5f29f0ad7e2", null ],
-    [ "schedule_update", "d1/d28/a09345.html#aafda5775622dcce2e4869cf5d015fefc", null ],
-    [ "update_finished", "d1/d28/a09345.html#ab874c53de215037c8fae77f9dac6601c", null ],
-    [ "wait", "d1/d28/a09345.html#a608eb61de2bacf082422562b049e8652", null ],
-    [ "WorkerThread", "d1/d28/a09345.html#a3cce7e3bbab4e3e875dad9a549c142e8", null ],
-    [ "_cancelationToken", "d1/d28/a09345.html#a96c38c13ce5a71ce63ee0b83e83d5cfd", null ],
-    [ "_condition", "d1/d28/a09345.html#acf5b180bd52ae9244e0eda41bcc7573a", null ],
-    [ "_lock", "d1/d28/a09345.html#a0ed1652ffa76199e1e7d659b5c451549", null ],
-    [ "_queue", "d1/d28/a09345.html#afba30ac2a8ce0540b73f034b73ce5956", null ],
-    [ "_workerThreads", "d1/d28/a09345.html#a06a1943fe78ea8a5da2d4b0453748d90", null ],
-    [ "pending_requests", "d1/d28/a09345.html#a8ce7906e995ed3d8fef118724908ab1a", null ]
+    [ "ServerMail", "d1/d28/a09345.html#a50cf3e6929e397a3c1de83b9fcf83416", null ],
+    [ "active", "d1/d28/a09345.html#a24a12fcafd0b0f4a7c0558737d8fd71f", null ],
+    [ "body", "d1/d28/a09345.html#a58d352611dcb35126f6ec93622ddc4b9", null ],
+    [ "id", "d1/d28/a09345.html#a6b47994eff9201a6a75f8c621b64716c", null ],
+    [ "itemA", "d1/d28/a09345.html#a2d5232d5e111f5af7446940f92aaf9df", null ],
+    [ "itemCountA", "d1/d28/a09345.html#abb24673f0b21f715f3e112e232cec35b", null ],
+    [ "itemCountH", "d1/d28/a09345.html#ac9b6e655136616b040788c55d80706da", null ],
+    [ "itemH", "d1/d28/a09345.html#ab7dc4da9b86a39ecb5c28ec071f17112", null ],
+    [ "moneyA", "d1/d28/a09345.html#a6a84ca583beef891422f67bef7919c47", null ],
+    [ "moneyH", "d1/d28/a09345.html#a0e899ce54283bc000cc6afb96e6a3244", null ],
+    [ "reqLevel", "d1/d28/a09345.html#a494ce9c800d1545b023b9ff526f8b994", null ],
+    [ "reqPlayTime", "d1/d28/a09345.html#abfa7c7fe76fd085fc8726dcba600e10e", null ],
+    [ "subject", "d1/d28/a09345.html#a246e499c69c57a436aac4c039ea37d31", null ]
 ];

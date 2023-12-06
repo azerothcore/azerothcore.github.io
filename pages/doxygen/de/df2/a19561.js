@@ -1,6 +1,6 @@
 var a19561 =
 [
-    [ "spell_icc_geist_alarm_SpellScript", "de/d62/a19565.html", "de/d62/a19565" ],
-    [ "spell_icc_geist_alarm", "de/df2/a19561.html#ad82b3d7baa02b01f53815083351a4767", null ],
-    [ "GetSpellScript", "de/df2/a19561.html#af9d0263b31b6c711de87593911e9d6b3", null ]
+    [ "npc_impaling_spearAI", "de/d62/a19565.html", "de/d62/a19565" ],
+    [ "npc_impaling_spear", "de/df2/a19561.html#af546ed9684fc085ad651bf5bd93e5bf7", null ],
+    [ "GetAI", "de/df2/a19561.html#aad49164a3e7541b755c1c622b996bb9a", null ]
 ];

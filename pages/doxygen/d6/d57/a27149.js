@@ -1,7 +1,7 @@
 var a27149 =
 [
-    [ "PrepareAuraScript", "d6/d57/a27149.html#afeac0a8393b7d7bf787fca59988d0e14", null ],
-    [ "Register", "d6/d57/a27149.html#a7cbcf46dbdddea12fd6ce04bcbcea097", null ],
-    [ "TriggerFoodBuff", "d6/d57/a27149.html#a5d125413491dd377d61b8e30c4979fdd", null ],
-    [ "Validate", "d6/d57/a27149.html#a6b69d7358eb8cfe6a8f9efd47882eb80", null ]
+    [ "HandleOnEffectApply", "d6/d57/a27149.html#a90359e3dbb5c2c8caf275f21c107ee0a", null ],
+    [ "HandleOnEffectRemove", "d6/d57/a27149.html#a094d788d157474a9683387d5c340538f", null ],
+    [ "PrepareAuraScript", "d6/d57/a27149.html#aad378b8c45f11af51faf9128878c01df", null ],
+    [ "Register", "d6/d57/a27149.html#a8fcc385f504b3b357e9ceab76f11ca46", null ]
 ];

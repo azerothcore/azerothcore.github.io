@@ -1,6 +1,6 @@
 var a22805 =
 [
-    [ "instance_violet_hold_InstanceMapScript", "d0/d76/a22809.html", "d0/d76/a22809" ],
-    [ "instance_violet_hold", "df/da1/a22805.html#ae66f018196cd90683506c3cc3d8c5d7a", null ],
-    [ "GetInstanceScript", "df/da1/a22805.html#aeedcbb24b0709bd172ebbbc6d9851532", null ]
+    [ "spell_optic_linkAuraScript", "d0/d76/a22809.html", "d0/d76/a22809" ],
+    [ "spell_optic_link", "df/da1/a22805.html#a07840298df5282ca6dbef56a63edbfc7", null ],
+    [ "GetAuraScript", "df/da1/a22805.html#a05dc6977f347b1aedb439cc2b6e7618b", null ]
 ];

@@ -1,7 +1,6 @@
 var a15693 =
 [
-    [ "npc_lakota_windsongAI", "d3/d97/a15693.html#a922172a38ca75adef66a2653eda7fa98", null ],
-    [ "DoSpawnBandits", "d3/d97/a15693.html#aa63601ac87b674cb5d0594213d1e7ea9", null ],
-    [ "Reset", "d3/d97/a15693.html#aee7a86275f93021e0e5db249b636bcd4", null ],
-    [ "WaypointReached", "d3/d97/a15693.html#a6435c8b1521206789131889e5fa527a6", null ]
+    [ "npc_stone_watcher_of_norgannon", "d3/d97/a15693.html#aa838e060c8ef6d7d85981c718328d9ef", null ],
+    [ "OnGossipHello", "d3/d97/a15693.html#a00f526b1b17b68f31a86e892e0997856", null ],
+    [ "OnGossipSelect", "d3/d97/a15693.html#a5b79ebae097266ec4e1a0e3dfaa87da5", null ]
 ];

@@ -1,7 +1,6 @@
 var a20509 =
 [
-    [ "HandleOnEffectApply", "d9/d02/a20509.html#a942a69fa30d7c8d6ed62fca0669c9d8c", null ],
-    [ "HandleOnEffectRemove", "d9/d02/a20509.html#acc856a56cb81c11099e8e7d6c079b000", null ],
-    [ "PrepareAuraScript", "d9/d02/a20509.html#a1e1d36ae0f15bc69d23dd5d2a0866151", null ],
-    [ "Register", "d9/d02/a20509.html#a1cd114f0ef5ef5b4e199d4fc07459f3d", null ]
+    [ "spell_oculus_touch_the_nightmare_SpellScript", "d3/d7c/a20513.html", "d3/d7c/a20513" ],
+    [ "spell_oculus_touch_the_nightmare", "d9/d02/a20509.html#a3fe8285446d570d1821ba8d5b1b700e5", null ],
+    [ "GetSpellScript", "d9/d02/a20509.html#afa1b822ae140d0ca6bd194cdb5842613", null ]
 ];

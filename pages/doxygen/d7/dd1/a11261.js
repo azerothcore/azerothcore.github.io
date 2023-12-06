@@ -1,9 +1,10 @@
 var a11261 =
 [
-    [ "npc_water_elementalAI", "d7/dd1/a11261.html#a7a29ddbd5c1ff5877e303c1a4fea860a", null ],
-    [ "Reset", "d7/dd1/a11261.html#ae80478af439bf2120becb6fb3d22cf23", null ],
-    [ "UpdateAI", "d7/dd1/a11261.html#a1f2b9878e1ed32a5f96c67f599126ca4", null ],
-    [ "balindaGUID", "d7/dd1/a11261.html#af44d5a36fc8628e777b739b3fa701d85", null ],
-    [ "resetTimer", "d7/dd1/a11261.html#a29d456d8c3bd1f1c7cd3f25f8b546c67", null ],
-    [ "waterBoltTimer", "d7/dd1/a11261.html#a271f37ba9b1bd9581f1ed196c86bd2cf", null ]
+    [ "group_commandscript", "d7/dd1/a11261.html#ad2890427cfe3649b2e0fe0896693372c", null ],
+    [ "GetCommands", "d7/dd1/a11261.html#a5e7e069c58ecc5baca4ef1118e6c143e", null ],
+    [ "HandleGroupDisbandCommand", "d7/dd1/a11261.html#a538539340a697e02453ddcfa669fb646", null ],
+    [ "HandleGroupJoinCommand", "d7/dd1/a11261.html#a382e8532c653464e90b45569e813ae37", null ],
+    [ "HandleGroupLeaderCommand", "d7/dd1/a11261.html#a899858a63add3c68e0e1446d29216c00", null ],
+    [ "HandleGroupListCommand", "d7/dd1/a11261.html#a1b841d1c4bc59b56f2d166767089b93f", null ],
+    [ "HandleGroupRemoveCommand", "d7/dd1/a11261.html#a2bbb27e0f221ce533f0b0e94e944f7fb", null ]
 ];

@@ -1,7 +1,5 @@
 var a04901 =
 [
-    [ "Secret", "db/d24/a04901.html#aae38427994c1f4ddf3838c4e1f3f7e03", null ],
-    [ "GenerateToken", "db/d24/a04901.html#a44829d44e78247991d9c3dde270cab5c", null ],
-    [ "ValidateToken", "db/d24/a04901.html#ab6b27542814e577106ad587a5807d663", null ],
-    [ "RECOMMENDED_SECRET_LENGTH", "db/d24/a04901.html#a885fc6c1a5bda166416f161ea202eb72", null ]
+    [ "TileEntries", "db/d24/a04901.html#ac982af8210389fe769d161a12d4cdb5f", null ],
+    [ "UniqueEntries", "db/d24/a04901.html#a5ba6c948eedc6c070a7eb6aa3816d85c", null ]
 ];

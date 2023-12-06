@@ -1,6 +1,6 @@
 var a12009 =
 [
-    [ "boss_sulfuronAI", "da/d65/a12009.html#a63c76fb94131830924e2bf77477261ba", null ],
-    [ "ExecuteEvent", "da/d65/a12009.html#ae038aa8140f5b4128c39c592966321f1", null ],
-    [ "JustEngagedWith", "da/d65/a12009.html#a35394690b8d25529c91c147025f6ad92", null ]
+    [ "spell_garr_frenzy_SpellScript", "df/d89/a12013.html", "df/d89/a12013" ],
+    [ "spell_garr_frenzy", "da/d65/a12009.html#a74007eeb639bdd850b5b31b3c4ca3ee1", null ],
+    [ "GetSpellScript", "da/d65/a12009.html#aafac2d93047640369f0380905122335d", null ]
 ];

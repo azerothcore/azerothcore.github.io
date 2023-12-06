@@ -1,6 +1,7 @@
 var a25657 =
 [
-    [ "HandlePeriodic", "d9/d9b/a25657.html#a481bb370c1269cd811cf762efc22b3a9", null ],
-    [ "PrepareAuraScript", "d9/d9b/a25657.html#a0fb5cb696affa34ff6dc4692eb8e18e6", null ],
-    [ "Register", "d9/d9b/a25657.html#a642689a21ea1e63e28e1a57310748639", null ]
+    [ "HandleDamage", "d9/d9b/a25657.html#add7e78111217d00bfa3dfa5b3eb490f9", null ],
+    [ "HandleTargets", "d9/d9b/a25657.html#ac9e455d4ef5cc7b7ce424b70b4387c78", null ],
+    [ "PrepareSpellScript", "d9/d9b/a25657.html#a46b62a09ea23cb102b0e5cf075c727d4", null ],
+    [ "Register", "d9/d9b/a25657.html#a8873614ae22c908cb2cf49129fc53be2", null ]
 ];

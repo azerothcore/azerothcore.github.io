@@ -1,6 +1,6 @@
 var a16169 =
 [
-    [ "spell_halion_meteor_strike_targeting_SpellScript", "d1/db1/a16173.html", "d1/db1/a16173" ],
-    [ "spell_halion_meteor_strike_targeting", "db/d30/a16169.html#a97b362ac2b99446dbea87823ad3c6569", null ],
-    [ "GetSpellScript", "db/d30/a16169.html#a730a4d20554fcb07599ebec997d3c2e7", null ]
+    [ "SendEncounterUnit", "db/d30/a16169.html#a5300ba7c1a8001bbf52c56fc2e5dc331", null ],
+    [ "Execute", "db/d30/a16169.html#ae21b67f8fe8a0677778436563872495f", null ],
+    [ "_owner", "db/d30/a16169.html#a6e1569fb7fa159fe702defbab1e123b6", null ]
 ];

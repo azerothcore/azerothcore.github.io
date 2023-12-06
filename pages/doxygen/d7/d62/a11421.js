@@ -1,11 +1,15 @@
 var a11421 =
 [
-    [ "boss_high_interrogator_gerstahnAI", "d7/d62/a11421.html#a557fda67d1d1de268ba661350ba915dc", null ],
-    [ "JustEngagedWith", "d7/d62/a11421.html#a80e01faa471f9e83e85c3c47fd815dea", null ],
-    [ "Reset", "d7/d62/a11421.html#ab63099f83037b3716d1e2b9c21d7d607", null ],
-    [ "UpdateAI", "d7/d62/a11421.html#a67b34f7cf4c62a57bc9fb556f5fb0b81", null ],
-    [ "ManaBurn_Timer", "d7/d62/a11421.html#aede307f972942c15c4b2bfa90e75856d", null ],
-    [ "PsychicScream_Timer", "d7/d62/a11421.html#a291f3484e4d125fefe437d96b12153f1", null ],
-    [ "ShadowShield_Timer", "d7/d62/a11421.html#a7ba151c46b097825dca9b8e3ac2cdee9", null ],
-    [ "ShadowWordPain_Timer", "d7/d62/a11421.html#aec0eab93e8494bc1abc87d81460fac31", null ]
+    [ "boss_vanndarAI", "d7/d62/a11421.html#ada061b4363340602fd1f4744433d9cf9", null ],
+    [ "AttackStart", "d7/d62/a11421.html#a76ab9327e04b82b534a9b3ea59b377d1", null ],
+    [ "EnterEvadeMode", "d7/d62/a11421.html#a9ba6e2620a25728bf30d4d813a82b781", null ],
+    [ "JustEngagedWith", "d7/d62/a11421.html#abde00baf4099361b8c26e6e0cf6c1517", null ],
+    [ "Reset", "d7/d62/a11421.html#a1c2fdf4351a43047f02bec1d46423cb8", null ],
+    [ "UpdateAI", "d7/d62/a11421.html#ab410ed8d64cd91bd6c4b78b2ed678eab", null ],
+    [ "Attacked", "d7/d62/a11421.html#ac5994c76a9d84cf303021a9298673d68", null ],
+    [ "AvatarTimer", "d7/d62/a11421.html#a3bed38b10a87baf50e9c9a57229bd464", null ],
+    [ "ResetTimer", "d7/d62/a11421.html#ae1c4e16cd9ad68e4700d68ed64baa8e2", null ],
+    [ "StormboltTimer", "d7/d62/a11421.html#a71ef70c1b504be2b00be1a70e85bc18a", null ],
+    [ "ThunderclapTimer", "d7/d62/a11421.html#a681a103b6cf937dad3fb15e5be358c26", null ],
+    [ "YellTimer", "d7/d62/a11421.html#a2b8503aaae0fd5e8cd92bb9650ee6ee3", null ]
 ];

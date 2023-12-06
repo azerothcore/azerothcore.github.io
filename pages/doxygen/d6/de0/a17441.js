@@ -1,5 +1,6 @@
 var a17441 =
 [
-    [ "endPosition", "d6/de0/a17441.html#a8a88b0191d28ef6af8f41db627552602", null ],
-    [ "entry", "d6/de0/a17441.html#ac4e55af666e269440953ced038c1a8de", null ]
+    [ "spell_pos_slave_trigger_closestSpellScript", "d3/d17/a17445.html", "d3/d17/a17445" ],
+    [ "spell_pos_slave_trigger_closest", "d6/de0/a17441.html#a3982ff2508b7f82e19bfa4534dd558e4", null ],
+    [ "GetSpellScript", "d6/de0/a17441.html#a6535e26e2b006213cd9d6c2a54d3b961", null ]
 ];

@@ -1,5 +1,5 @@
 var a29081 =
 [
-    [ "go_table_theka", "d4/d77/a29081.html#a9e25a1c9313437b533e1d88a2db04a58", null ],
-    [ "OnGossipHello", "d4/d77/a29081.html#ab04480f032ce074daacdc0dcfa37ee12", null ]
+    [ "go_veil_skith_cage", "d4/d77/a29081.html#ac3fe1fdf2f12571fafc56e71a932994e", null ],
+    [ "OnGossipHello", "d4/d77/a29081.html#a6724dc73ecf83305e5234eb0a2ad1d3c", null ]
 ];

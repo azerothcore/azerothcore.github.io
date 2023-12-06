@@ -1,6 +1,6 @@
 var a17557 =
 [
-    [ "boss_slad_ranAI", "d3/d4e/a17561.html", "d3/d4e/a17561" ],
-    [ "boss_slad_ran", "d1/db9/a17557.html#a9b960242e2f186d334d7ce04b999e274", null ],
-    [ "GetAI", "d1/db9/a17557.html#a26651b7ca111bd64549283c37e34db11", null ]
+    [ "HandleApplyAura", "d1/db9/a17557.html#a2745a89ee2fdc17dbf37134870d4fe36", null ],
+    [ "PrepareSpellScript", "d1/db9/a17557.html#ac0865fce9c81ce8e48de04a465ba701d", null ],
+    [ "Register", "d1/db9/a17557.html#aa2e338dc392e5d4a54522a380e32da33", null ]
 ];

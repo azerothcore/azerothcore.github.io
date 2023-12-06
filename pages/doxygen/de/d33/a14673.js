@@ -1,6 +1,6 @@
 var a14673 =
 [
-    [ "Cooldown", "de/d33/a14673.html#ad25399079776c4c78f6215f3189195ec", null ],
-    [ "SpellId", "de/d33/a14673.html#afe38fa1cb5ac67dd90c9b08fc2475a2e", null ],
-    [ "TargetType", "de/d33/a14673.html#a4fbad9e6a60f80d129fe7aedaba83cca", null ]
+    [ "npc_bansheeAI", "d1/d7e/a14677.html", "d1/d7e/a14677" ],
+    [ "npc_banshee", "de/d33/a14673.html#a6d5246deabcfce1e12112d6b23f13b69", null ],
+    [ "GetAI", "de/d33/a14673.html#a5854c90440b8bedd5e2f61b039946ce4", null ]
 ];

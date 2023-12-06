@@ -1,8 +1,7 @@
 var a15465 =
 [
-    [ "npc_zelfraxAI", "d9/d13/a15465.html#ae11e92eadae61790b4417442358e7d04", null ],
-    [ "AttackStart", "d9/d13/a15465.html#ae76581c9818c85857c8537de59a02fd6", null ],
-    [ "MovementInform", "d9/d13/a15465.html#a95aaa09b8e527a6d93c8679e9c6593eb", null ],
-    [ "MoveToDock", "d9/d13/a15465.html#a8bf3972087ca06af02bd901ed3dc5461", null ],
-    [ "UpdateAI", "d9/d13/a15465.html#aed4265b638cbe95cdab5648ca52150aa", null ]
+    [ "npc_aged_dying_ancient_kodoAI", "d9/d13/a15465.html#aaed19d0c915891d8afecda7df75a8a75", null ],
+    [ "JustRespawned", "d9/d13/a15465.html#a9353ac81b0c209a56313b52f2257ddd2", null ],
+    [ "MoveInLineOfSight", "d9/d13/a15465.html#a295d4bef97b97c7deb31a81274f0818d", null ],
+    [ "SpellHit", "d9/d13/a15465.html#a021b82aa6bd2e118fe810f18349fda42", null ]
 ];

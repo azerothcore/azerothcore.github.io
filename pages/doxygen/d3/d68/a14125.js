@@ -1,6 +1,6 @@
 var a14125 =
 [
-    [ "HandleDummyEffect", "d3/d68/a14125.html#a3860ad8a34e37601f7a4cef395f7ab2a", null ],
-    [ "PrepareSpellScript", "d3/d68/a14125.html#a1c69fb2fd3fa623d62647fca738d27d6", null ],
-    [ "Register", "d3/d68/a14125.html#ad1cbf7ed8f7d119bb56d06fb62358458", null ]
+    [ "npc_brewfest_bark_trigger", "d3/d68/a14125.html#a110d654792e1f5dae8b17f014ea3d425", null ],
+    [ "GetTextFor", "d3/d68/a14125.html#aca27445a1d9868a2cbd3a6a89dd806df", null ],
+    [ "MoveInLineOfSight", "d3/d68/a14125.html#a271a440f21b4abddd9aa087e1e64a3d0", null ]
 ];

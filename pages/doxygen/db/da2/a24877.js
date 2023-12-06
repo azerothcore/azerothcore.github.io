@@ -1,6 +1,6 @@
 var a24877 =
 [
-    [ "boss_hydross_the_unstableAI", "d9/d5e/a24881.html", "d9/d5e/a24881" ],
-    [ "boss_hydross_the_unstable", "db/da2/a24877.html#a51aa86142f8d39123f075a25e1a5814a", null ],
-    [ "GetAI", "db/da2/a24877.html#a0141ef326b6d7e777f9ce42b50e36fd5", null ]
+    [ "OnPeriodic", "db/da2/a24877.html#a4d3d6350a06b6c7382792670c04e38e1", null ],
+    [ "PrepareAuraScript", "db/da2/a24877.html#ac9231c238adf7e733d55bc6098daddc0", null ],
+    [ "Register", "db/da2/a24877.html#aa6aa32b3adc89ac405f071fa9b804778", null ]
 ];

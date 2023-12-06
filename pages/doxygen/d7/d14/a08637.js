@@ -1,6 +1,7 @@
 var a08637 =
 [
-    [ "PlayerRelocationNotifier", "d7/d14/a08637.html#a01cbecc2a9727d822b94a90b0c3035aa", null ],
-    [ "Visit", "d7/d14/a08637.html#ab9b3ad469216db3a7a49176b41b0b1ea", null ],
-    [ "Visit", "d7/d14/a08637.html#acffc7490cb9b0cf171a1cfc6e1dbdc79", null ]
+    [ "IsFitToRequirements", "d7/d14/a08637.html#ac175634ed2eab2911c3749fa208a073a", null ],
+    [ "castFlags", "d7/d14/a08637.html#a03cd65a460ea252818de9230cb656c1c", null ],
+    [ "spellId", "d7/d14/a08637.html#a34641755a5267b7a907d320cc5b4ddb4", null ],
+    [ "userType", "d7/d14/a08637.html#adcf285572403481cb418bddebc5f4bfa", null ]
 ];

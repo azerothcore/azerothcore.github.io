@@ -1,6 +1,11 @@
 var a14133 =
 [
-    [ "OnApply", "d6/d38/a14133.html#a4a276b00d4912c210598057620368934", null ],
-    [ "PrepareAuraScript", "d6/d38/a14133.html#a20cb3aec994ffc0a06d9b4ba4f575844", null ],
-    [ "Register", "d6/d38/a14133.html#adf9962252dec76f324b8cdbf8f6b9155", null ]
+    [ "npc_dark_iron_attack_mole_machine", "d6/d38/a14133.html#a473a8fb4905e5d1333196797d7d0f371", null ],
+    [ "AttackStart", "d6/d38/a14133.html#a999dd932fbaf22a8275dfdba150c3291", null ],
+    [ "JustEngagedWith", "d6/d38/a14133.html#a50e0657f33f15bf2ffe83ca4041eb483", null ],
+    [ "MoveInLineOfSight", "d6/d38/a14133.html#a2be5de913ca9d472a31cd44c07bcde57", null ],
+    [ "Reset", "d6/d38/a14133.html#a0727aab751ddfbd94ae070e60e47e768", null ],
+    [ "UpdateAI", "d6/d38/a14133.html#a1217ed510a846d011143ae0a386c6236", null ],
+    [ "goTimer", "d6/d38/a14133.html#a8686845ebef564c9fcaa115866c99749", null ],
+    [ "summonTimer", "d6/d38/a14133.html#a4713da02f4a86547a0f796167e24d8bb", null ]
 ];

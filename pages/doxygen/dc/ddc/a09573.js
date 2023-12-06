@@ -1,6 +1,7 @@
 var a09573 =
 [
-    [ "HoverMovementTransform", "dc/ddc/a09573.html#afc47d2d80c4a4a654cb60f9ad15dc63b", null ],
-    [ "operator()", "dc/ddc/a09573.html#a7b4c22c7ba3332c0829832756b734809", null ],
-    [ "_offset", "dc/ddc/a09573.html#a7fe74e38dbefb11af541a8750465861c", null ]
+    [ "Finalize", "dc/ddc/a09573.html#a90c8b42ef67968bf58acae5678dc7496", null ],
+    [ "Initialize", "dc/ddc/a09573.html#ad6b97c3e2884dfbe3f17e2579b31ac66", null ],
+    [ "Reset", "dc/ddc/a09573.html#a6db99ea9863dc60d032bacda37afa078", null ],
+    [ "Update", "dc/ddc/a09573.html#af044c8725ef11e8a152987225521ef8b", null ]
 ];

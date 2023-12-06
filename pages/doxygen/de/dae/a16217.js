@@ -1,8 +1,7 @@
 var a16217 =
 [
-    [ "spell_halion_damage_aoe_summon_SpellScript", "d9/dbc/a16221.html", "d9/dbc/a16221" ],
-    [ "spell_halion_damage_aoe_summon", "de/dae/a16217.html#a4d7efd1593e08eb095355360ce3b603f", null ],
-    [ "GetSpellScript", "de/dae/a16217.html#a6d7cd2796769d85df92e02a946aad927", null ],
-    [ "_auraSpell", "de/dae/a16217.html#a497a74eca703470964157639a6f372e2", null ],
-    [ "_explosionSpell", "de/dae/a16217.html#ad1ad3a6f143bc84bad61070755752b2f", null ]
+    [ "OnApply", "de/dae/a16217.html#ad8f4404f239f3e3bebc990cc85f7bda7", null ],
+    [ "OnRemove", "de/dae/a16217.html#a3cdbc1c21d611de6e758405a51d6b131", null ],
+    [ "PrepareAuraScript", "de/dae/a16217.html#af466e82545082d891be7d0691ed7e272", null ],
+    [ "Register", "de/dae/a16217.html#a319622b9fee0e7b532dae4a1266e151e", null ]
 ];

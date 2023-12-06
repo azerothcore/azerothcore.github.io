@@ -1,13 +1,12 @@
 var a08673 =
 [
-    [ "WorldObjectListSearcher", "da/d27/a08673.html#aad6ee62da3f21c7838767dd3af871ad7", null ],
-    [ "Visit", "da/d27/a08673.html#a154998e616ba17d66cf4899debc92ca1", null ],
-    [ "Visit", "da/d27/a08673.html#a64e8d7854baa93e4390703fe986f6777", null ],
-    [ "Visit", "da/d27/a08673.html#a28ded6ec2d69f1a1bd298a9aa11206e1", null ],
-    [ "Visit", "da/d27/a08673.html#a18572bc1f4cfde19476ac9df393296b2", null ],
-    [ "Visit", "da/d27/a08673.html#a2a8a0d1f3fd10e5254a47ed99e7e9ce7", null ],
-    [ "Visit", "da/d27/a08673.html#a8cebd0149bfccc4fdeb30dda9505f0c0", null ],
-    [ "i_check", "da/d27/a08673.html#a6ae05d2ed15201356600cda7d0d5a6c3", null ],
-    [ "i_mapTypeMask", "da/d27/a08673.html#a1d6dc64937ae790d7414456e4644c13b", null ],
-    [ "i_phaseMask", "da/d27/a08673.html#a6b29bb94ed2ec6f508b25d45c11f72fd", null ]
+    [ "IsTeamAward1", "da/d27/a08673.html#a25f928a8f8c3a19b1aa9a5c41b0ba612", null ],
+    [ "IsTeamAward2", "da/d27/a08673.html#a053bd7825d0464ac322b449f3d243722", null ],
+    [ "RepFaction1", "da/d27/a08673.html#a4e75bb4149f8bb0b83a5aacba47800dd", null ],
+    [ "RepFaction2", "da/d27/a08673.html#a5934590811c666d06b68216428574d8a", null ],
+    [ "ReputationMaxCap1", "da/d27/a08673.html#a292b78f629723c3993a796eb256dd9b8", null ],
+    [ "ReputationMaxCap2", "da/d27/a08673.html#ac90d17e82d6c8a763d3ea868250b44a7", null ],
+    [ "RepValue1", "da/d27/a08673.html#a4c5f965e028c45d6ad4d5875f76b2458", null ],
+    [ "RepValue2", "da/d27/a08673.html#a74f46afc59593d7ae71ab65aa9e1f1c2", null ],
+    [ "TeamDependent", "da/d27/a08673.html#a66e60a90f166e5fc12ea4dbe615c998f", null ]
 ];

@@ -1,6 +1,7 @@
 var a29345 =
 [
-    [ "npc_injured_patientAI", "d4/d1a/a29349.html", "d4/d1a/a29349" ],
-    [ "npc_injured_patient", "df/d42/a29345.html#a0b7ef214aa1b20df088dee0976c73783", null ],
-    [ "GetAI", "df/d42/a29345.html#a0c042bb81e684f903d28d7879af99d4a", null ]
+    [ "npc_steam_tonkAI", "df/d42/a29345.html#a64bc74af412304d50526e5c93e01a333", null ],
+    [ "JustEngagedWith", "df/d42/a29345.html#a95b023adf0a2e62788e0d5646b17b319", null ],
+    [ "OnPossess", "df/d42/a29345.html#a954208c1a9826ae84a7402f59e1d7055", null ],
+    [ "Reset", "df/d42/a29345.html#a5c76625843b30302b2af0a4ae8b85bd2", null ]
 ];

@@ -1,7 +1,6 @@
 var a27053 =
 [
-    [ "HandleApplyEffect", "d8/dd6/a27053.html#a4e2f6d414aea8ed1339ef3caa24fc17b", null ],
-    [ "Load", "d8/dd6/a27053.html#a47a4f15ab02ba3c6ac4dbfd7c4552900", null ],
-    [ "PrepareAuraScript", "d8/dd6/a27053.html#a101d38f5ffb34f90ba9af4f787445f2e", null ],
-    [ "Register", "d8/dd6/a27053.html#aed57fbbf473b8f15fa177261e4678e96", null ]
+    [ "OnApply", "d8/dd6/a27053.html#a476bf6fc1a91784dbc8534c0e57005d6", null ],
+    [ "PrepareAuraScript", "d8/dd6/a27053.html#a159ee8a9b0af729ed01f7632adb58863", null ],
+    [ "Register", "d8/dd6/a27053.html#a0f33043317402119aa14e50a1eb6c227", null ]
 ];

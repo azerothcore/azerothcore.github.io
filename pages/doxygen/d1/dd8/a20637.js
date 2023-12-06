@@ -1,6 +1,6 @@
 var a20637 =
 [
-    [ "CalculateDamage", "d1/dd8/a20637.html#a0a92fa8b689c020193ccc8cd37be3afb", null ],
-    [ "PrepareSpellScript", "d1/dd8/a20637.html#a29e4639053fda5488848b47b9c2b35bc", null ],
-    [ "Register", "d1/dd8/a20637.html#a888add31d80ebf8bbeb54ace2dff7f96", null ]
+    [ "npc_hol_monumentAI", "de/d5a/a20641.html", "de/d5a/a20641" ],
+    [ "npc_hol_monument", "d1/dd8/a20637.html#ae70329e600ba869891e04b31d7452fc0", null ],
+    [ "GetAI", "d1/dd8/a20637.html#a8e025a4c67d3a04a231f4effe0ef3746", null ]
 ];

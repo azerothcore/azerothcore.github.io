@@ -1,6 +1,6 @@
 var a17521 =
 [
-    [ "HandleApplyAura", "dd/d5f/a17521.html#a2745a89ee2fdc17dbf37134870d4fe36", null ],
-    [ "PrepareSpellScript", "dd/d5f/a17521.html#ac0865fce9c81ce8e48de04a465ba701d", null ],
-    [ "Register", "dd/d5f/a17521.html#aa2e338dc392e5d4a54522a380e32da33", null ]
+    [ "spell_drakkari_colossus_surge_SpellScript", "d2/d84/a17525.html", "d2/d84/a17525" ],
+    [ "spell_drakkari_colossus_surge", "dd/d5f/a17521.html#a54ef2e8f916144087096ce228daf5f2c", null ],
+    [ "GetSpellScript", "dd/d5f/a17521.html#ab738efe2f0634a24169b2f1a9be72107", null ]
 ];

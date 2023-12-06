@@ -1,9 +1,7 @@
 var a08077 =
 [
-    [ "ActionButton", "d7/d51/a08077.html#a78f4e95d921fb997647f89c67c2a66b7", null ],
-    [ "GetAction", "d7/d51/a08077.html#a7c10f6089fab30179cfe8175b740477a", null ],
-    [ "GetType", "d7/d51/a08077.html#abe5bc143770d411cff0d8c8c425b1253", null ],
-    [ "SetActionAndType", "d7/d51/a08077.html#a29d804ed78d79f64e868e9741b37d7be", null ],
-    [ "packedData", "d7/d51/a08077.html#a2a34a116c4890a12255f9ebe24c1cba8", null ],
-    [ "uState", "d7/d51/a08077.html#a6384e73650da93c96d3b4cc42b151b63", null ]
+    [ "AddToGrid", "d7/d51/a08077.html#a178e3cc30d983d739e1f3f98d9eefbf0", null ],
+    [ "IsInGrid", "d7/d51/a08077.html#a996724d21d62e478f50031faa7637cd5", null ],
+    [ "RemoveFromGrid", "d7/d51/a08077.html#a29740a98fea7db66cdffd824940a2ec2", null ],
+    [ "_gridRef", "d7/d51/a08077.html#aa44ba47734267ac07b733f218623f3c5", null ]
 ];

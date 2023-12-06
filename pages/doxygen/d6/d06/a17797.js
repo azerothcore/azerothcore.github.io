@@ -1,9 +1,6 @@
 var a17797 =
 [
-    [ "CheckTarget", "d6/d06/a17797.html#a214f622264855baa611b6cc5baea04bd", null ],
-    [ "HandlePresence", "d6/d06/a17797.html#a6c306be2ab4346e219e6ef7475f7ab86", null ],
-    [ "OnCast", "d6/d06/a17797.html#aa9995a96a6bfd0ac73e2c22ba33043bc", null ],
-    [ "PrepareSpellScript", "d6/d06/a17797.html#adc0691d44cf1fa0abc71a7bc3c0d5c3a", null ],
-    [ "Register", "d6/d06/a17797.html#a97e64abe6fab68aa08b54a9659710eaf", null ],
-    [ "Validate", "d6/d06/a17797.html#a3b670779cf83b627daf83baa7fbd4048", null ]
+    [ "FilterTargets", "d6/d06/a17797.html#a14a8d259aa784a293e40b5e13f659833", null ],
+    [ "PrepareSpellScript", "d6/d06/a17797.html#ac8d834bcb84de835f9b2b185eef2b261", null ],
+    [ "Register", "d6/d06/a17797.html#a8ef6ae99ef8ed9d9b78ce732f28438c2", null ]
 ];

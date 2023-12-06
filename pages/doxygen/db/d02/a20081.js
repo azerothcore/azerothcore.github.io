@@ -1,6 +1,7 @@
 var a20081 =
 [
-    [ "boss_patchwerkAI", "d6/dca/a20085.html", "d6/dca/a20085" ],
-    [ "boss_patchwerk", "db/d02/a20081.html#a526983c4f5191a839ba4a017ac2d14e4", null ],
-    [ "GetAI", "db/d02/a20081.html#a03f2dec61192405760958e26d998d67e", null ]
+    [ "HandleScript", "db/d02/a20081.html#af4879c25e56e0a39fef5cae2febc20b9", null ],
+    [ "PrepareAuraScript", "db/d02/a20081.html#a772ffe39e00583b22f017e23c7eff0d2", null ],
+    [ "Register", "db/d02/a20081.html#aae43bd503b72844100767d4dbb76e53d", null ],
+    [ "Validate", "db/d02/a20081.html#a6f17e1d04769a79eeb8481a12b34a0b3", null ]
 ];

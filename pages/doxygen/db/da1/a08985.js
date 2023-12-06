@@ -1,13 +1,9 @@
 var a08985 =
 [
-    [ "GroupReference", "db/da1/a08985.html#ab1a008e85d413c67696d4d568a98bde7", null ],
-    [ "~GroupReference", "db/da1/a08985.html#ab586405a850b0985e6b9f08cc6bdf32e", null ],
-    [ "getSubGroup", "db/da1/a08985.html#a8217ca810bc251005dfe8a2e3b810e1e", null ],
-    [ "next", "db/da1/a08985.html#a6f8f406f1209dd7060904d40f5424b41", null ],
-    [ "next", "db/da1/a08985.html#ac913ec0703c28cda068375d01c9cd72d", null ],
-    [ "setSubGroup", "db/da1/a08985.html#a303caf55ea463398237e6a825f30b143", null ],
-    [ "sourceObjectDestroyLink", "db/da1/a08985.html#a458157654c27def9b36b68ae099ca7b3", null ],
-    [ "targetObjectBuildLink", "db/da1/a08985.html#aa7c8acd113fefc7b6d2b9dff94bb047c", null ],
-    [ "targetObjectDestroyLink", "db/da1/a08985.html#a4c15e8dbb9f990f9ab66c5e1466d0616", null ],
-    [ "iSubGroup", "db/da1/a08985.html#a528073b16a119cfa81e6f37c6e72cc03", null ]
+    [ "NearestHostileUnitCheck", "db/da1/a08985.html#aa1d706a1eb1de6168b568e70008e2d3b", null ],
+    [ "NearestHostileUnitCheck", "db/da1/a08985.html#a2fe620370289850eb0362823de2072d1", null ],
+    [ "operator()", "db/da1/a08985.html#a04c85a77d660bbc74279d1062dabc375", null ],
+    [ "i_playerOnly", "db/da1/a08985.html#a64c5fce466521a6d6d78eeda0708d65e", null ],
+    [ "m_range", "db/da1/a08985.html#a801d56a180e196943cfc2cefb6c5dda5", null ],
+    [ "me", "db/da1/a08985.html#a67cef25e6f725ea42f0377df34d48495", null ]
 ];

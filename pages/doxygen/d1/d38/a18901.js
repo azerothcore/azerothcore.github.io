@@ -1,8 +1,9 @@
 var a18901 =
 [
-    [ "NecroticPlagueTargetCheck", "d1/d38/a18901.html#abf9c21cc0041e5981a91abce8fb0a58f", null ],
-    [ "operator()", "d1/d38/a18901.html#a801a176e367a9f4446fe080845477654", null ],
-    [ "_notAura1", "d1/d38/a18901.html#a4f52417f233e1ab06210726670f719f3", null ],
-    [ "_notAura2", "d1/d38/a18901.html#affa9b300cd7a7469b0bdf2a72d380dd6", null ],
-    [ "_sourceObj", "d1/d38/a18901.html#a7cf2e485e65f2396cfdbfe8e646e4d53", null ]
+    [ "ShadowTrapLKTargetSelector", "d1/d38/a18901.html#a33561775948e07ac6ade2037f237441d", null ],
+    [ "operator()", "d1/d38/a18901.html#a3770329509c6ab2f16ae369ea8d72645", null ],
+    [ "_maxDist", "d1/d38/a18901.html#a6ee78b1ca184a05d01aa053afe499a95", null ],
+    [ "_playerOnly", "d1/d38/a18901.html#acfb3a657e430bc2ca26680bef6cf0159", null ],
+    [ "_reqLOS", "d1/d38/a18901.html#a7911be23196f59d55028affc3be23c20", null ],
+    [ "_source", "d1/d38/a18901.html#af416013aabf3b217b07228072076603d", null ]
 ];

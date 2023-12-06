@@ -1,12 +1,15 @@
 var a19757 =
 [
-    [ "npc_icc_nerubar_broodkeeperAI", "dd/d05/a19757.html#a2e3abb6f8889b8df818e8260e6428375", null ],
-    [ "InitializeAI", "dd/d05/a19757.html#ac39bb8074ebb7106b426f507b73b368e", null ],
-    [ "JustEngagedWith", "dd/d05/a19757.html#ae69a8fd357856d0ec6a944ca8c0007ca", null ],
-    [ "MoveInLineOfSight", "dd/d05/a19757.html#a846fe2784308eb694f5f482133a33a7f", null ],
-    [ "MovementInform", "dd/d05/a19757.html#a9a5584eea4bc08f55ddfd7efe23bce2e", null ],
-    [ "Reset", "dd/d05/a19757.html#afbb260e4968865e7c4141e73a050e663", null ],
-    [ "UpdateAI", "dd/d05/a19757.html#ad63d3a91bdd677a9cdd497198860cac6", null ],
-    [ "_didWebBeam", "dd/d05/a19757.html#a8772cf938d30ddcc439d3912db578dfa", null ],
-    [ "events", "dd/d05/a19757.html#ac1b5b05f9fbaf1879c95bc7127fcb6e9", null ]
+    [ "npc_icc_valkyr_heraldAI", "dd/d05/a19757.html#afd9cd5e7f1048940cdc46d1b7e93d2a1", null ],
+    [ "CanAIAttack", "dd/d05/a19757.html#a80efc0d2e192c316640c8136c533aa6b", null ],
+    [ "JustEngagedWith", "dd/d05/a19757.html#aee4e6801cb31ed631568a32c22aa809b", null ],
+    [ "JustReachedHome", "dd/d05/a19757.html#a84da1485b45ab1229fc2ca6e2e6564f8", null ],
+    [ "JustSummoned", "dd/d05/a19757.html#af63753b3de60bcdb79989bfa8d582176", null ],
+    [ "MoveInLineOfSight", "dd/d05/a19757.html#ab048b3536a8b169e85ee4297f04005ba", null ],
+    [ "Reset", "dd/d05/a19757.html#a0eefcf657c8b00b8f4a586f72467e1ca", null ],
+    [ "SpellHitTarget", "dd/d05/a19757.html#aab96b7e137f9348ab4d33629c198f011", null ],
+    [ "SummonedCreatureDespawn", "dd/d05/a19757.html#ae3e1b98b21f46d9d7c895c1e03794696", null ],
+    [ "UpdateAI", "dd/d05/a19757.html#a55cbb21aecfd78efc96d465cf61728ae", null ],
+    [ "events", "dd/d05/a19757.html#a28b3fdd5f60a2277604b9c4a4766f7bc", null ],
+    [ "summons", "dd/d05/a19757.html#a379afe20ef8acbbc510485da74a41487", null ]
 ];

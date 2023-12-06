@@ -1,6 +1,7 @@
 var a18101 =
 [
-    [ "spell_igb_gunship_fall_teleport_SpellScript", "df/df2/a18105.html", "df/df2/a18105" ],
-    [ "spell_igb_gunship_fall_teleport", "d7/dba/a18101.html#a33cc2cfca97b8921a4abea8d35598003", null ],
-    [ "GetSpellScript", "d7/dba/a18101.html#ac2b461de7cc49ee131bcd84adb8e0ca8", null ]
+    [ "npc_gunship_rocketeerAI", "d7/dba/a18101.html#aa9e722f32cd95fff8c72db5a41d0e84c", null ],
+    [ "CanAIAttack", "d7/dba/a18101.html#a4b4e2839e426bdb752beea09394f13dc", null ],
+    [ "MovementInform", "d7/dba/a18101.html#a7dd7f3625b177a96bcfdc5e46d944562", null ],
+    [ "UpdateAI", "d7/dba/a18101.html#af73d71750f116fb90be1c2acba75ca70", null ]
 ];

@@ -1,9 +1,6 @@
 var a00629 =
 [
-    [ "MySQLHandle", "df/d7d/a05461.html", null ],
-    [ "MySQLResult", "d8/d42/a05465.html", null ],
-    [ "MySQLField", "df/d17/a05469.html", null ],
-    [ "MySQLBind", "dd/da9/a05473.html", null ],
-    [ "MySQLStmt", "d4/d8b/a05477.html", null ],
-    [ "MySQLBool", "da/dd1/a00629.html#a9962b927652e90357369e67230dbc127", null ]
+    [ "GetLibraryVersion", "da/dd1/a00629.html#aefa4bd51f34aad2d1a141c00a2310092", null ],
+    [ "Library_End", "da/dd1/a00629.html#aff44554b66bd7ef0e21f1db5beb0b81a", null ],
+    [ "Library_Init", "da/dd1/a00629.html#a70b74137156f0a22792c3cf95c54decc", null ]
 ];

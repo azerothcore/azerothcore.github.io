@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: SpellScript::CastHandler Class Reference</title>
+<title>AzerothCore: Spell::GOTargetInfo Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,93 +106,88 @@ $(document).ready(function(){initNavTree('d4/d37/a10741.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d0/d24/a10738.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">SpellScript::CastHandler Class Reference</div></div>
+  <div class="headertitle"><div class="title">Spell::GOTargetInfo Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:aad22cf4791a20b9cb6704712ec3d9339"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d37/a10741.html#aad22cf4791a20b9cb6704712ec3d9339">CastHandler</a> (SpellCastFnType _pCastHandlerScript)</td></tr>
-<tr class="separator:aad22cf4791a20b9cb6704712ec3d9339"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdbd455bd010bd93e84c334fe3987bf1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d37/a10741.html#afdbd455bd010bd93e84c334fe3987bf1">Call</a> (<a class="el" href="../../d8/d5d/a10737.html">SpellScript</a> *spellScript)</td></tr>
-<tr class="separator:afdbd455bd010bd93e84c334fe3987bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a091c494c18bc81968a386bc5f2565905"><td class="memItemLeft" align="right" valign="top">SpellCastFnType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d37/a10741.html#a091c494c18bc81968a386bc5f2565905">pCastHandlerScript</a></td></tr>
-<tr class="separator:a091c494c18bc81968a386bc5f2565905"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a619f98bf094d2667048204f733d64d0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d6e/a08105.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d37/a10741.html#a619f98bf094d2667048204f733d64d0c">targetGUID</a></td></tr>
+<tr class="separator:a619f98bf094d2667048204f733d64d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab552326c0780fe62ff95b02249458492"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d37/a10741.html#ab552326c0780fe62ff95b02249458492">timeDelay</a></td></tr>
+<tr class="separator:ab552326c0780fe62ff95b02249458492"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07d70f3c2425f07a36db90e9fd5b3c97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d37/a10741.html#a07d70f3c2425f07a36db90e9fd5b3c97">effectMask</a>: 8</td></tr>
+<tr class="separator:a07d70f3c2425f07a36db90e9fd5b3c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedfa36678be863a558ecd0ecc07cc544"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d37/a10741.html#aedfa36678be863a558ecd0ecc07cc544">processed</a>: 1</td></tr>
+<tr class="separator:aedfa36678be863a558ecd0ecc07cc544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aad22cf4791a20b9cb6704712ec3d9339" name="aad22cf4791a20b9cb6704712ec3d9339"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad22cf4791a20b9cb6704712ec3d9339">&#9670;&#160;</a></span>CastHandler()</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a07d70f3c2425f07a36db90e9fd5b3c97" name="a07d70f3c2425f07a36db90e9fd5b3c97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07d70f3c2425f07a36db90e9fd5b3c97">&#9670;&#160;</a></span>effectMask</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">SpellScript::CastHandler::CastHandler </td>
-          <td>(</td>
-          <td class="paramtype">SpellCastFnType&#160;</td>
-          <td class="paramname"><em>_pCastHandlerScript</em></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Spell::GOTargetInfo::effectMask</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  167</span>{</div>
-<div class="line"><span class="lineno">  168</span>    <a class="code hl_variable" href="../../d4/d37/a10741.html#a091c494c18bc81968a386bc5f2565905">pCastHandlerScript</a> = _pCastHandlerScript;</div>
-<div class="line"><span class="lineno">  169</span>}</div>
-<div class="ttc" id="aa10741_html_a091c494c18bc81968a386bc5f2565905"><div class="ttname"><a href="../../d4/d37/a10741.html#a091c494c18bc81968a386bc5f2565905">SpellScript::CastHandler::pCastHandlerScript</a></div><div class="ttdeci">SpellCastFnType pCastHandlerScript</div><div class="ttdef"><b>Definition:</b> SpellScript.h:204</div></div>
-</div><!-- fragment -->
+
+<p class="reference">Referenced by <a class="el" href="../../#l02512">Spell::AddGOTarget()</a>, and <a class="el" href="../../#l03329">Spell::DoAllEffectOnTarget()</a>.</p>
+
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="afdbd455bd010bd93e84c334fe3987bf1" name="afdbd455bd010bd93e84c334fe3987bf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdbd455bd010bd93e84c334fe3987bf1">&#9670;&#160;</a></span>Call()</h2>
+<a id="aedfa36678be863a558ecd0ecc07cc544" name="aedfa36678be863a558ecd0ecc07cc544"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedfa36678be863a558ecd0ecc07cc544">&#9670;&#160;</a></span>processed</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void SpellScript::CastHandler::Call </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d8/d5d/a10737.html">SpellScript</a> *&#160;</td>
-          <td class="paramname"><em>spellScript</em></td><td>)</td>
-          <td></td>
+          <td class="memname">bool Spell::GOTargetInfo::processed</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  172</span>{</div>
-<div class="line"><span class="lineno">  173</span>    (spellScript-&gt;*<a class="code hl_variable" href="../../d4/d37/a10741.html#a091c494c18bc81968a386bc5f2565905">pCastHandlerScript</a>)();</div>
-<div class="line"><span class="lineno">  174</span>}</div>
-</div><!-- fragment -->
+
+<p class="reference">Referenced by <a class="el" href="../../#l02512">Spell::AddGOTarget()</a>, and <a class="el" href="../../#l03329">Spell::DoAllEffectOnTarget()</a>.</p>
+
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a091c494c18bc81968a386bc5f2565905" name="a091c494c18bc81968a386bc5f2565905"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a091c494c18bc81968a386bc5f2565905">&#9670;&#160;</a></span>pCastHandlerScript</h2>
+<a id="a619f98bf094d2667048204f733d64d0c" name="a619f98bf094d2667048204f733d64d0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a619f98bf094d2667048204f733d64d0c">&#9670;&#160;</a></span>targetGUID</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SpellCastFnType SpellScript::CastHandler::pCastHandlerScript</td>
+          <td class="memname"><a class="el" href="../../d3/d6e/a08105.html">ObjectGuid</a> Spell::GOTargetInfo::targetGUID</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l02512">Spell::AddGOTarget()</a>, and <a class="el" href="../../#l03329">Spell::DoAllEffectOnTarget()</a>.</p>
+
+</div>
+</div>
+<a id="ab552326c0780fe62ff95b02249458492" name="ab552326c0780fe62ff95b02249458492"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab552326c0780fe62ff95b02249458492">&#9670;&#160;</a></span>timeDelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> Spell::GOTargetInfo::timeDelay</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l02512">Spell::AddGOTarget()</a>.</p>
 
 </div>
 </div>
@@ -201,8 +196,8 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/d5d/a10737.html">SpellScript</a></li><li class="navelem"><a class="el" href="../../d4/d37/a10741.html">CastHandler</a></li>
-    <li class="footer">Generated on Sun Aug 20 2023 00:21:14 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../d8/d5d/a10737.html">Spell</a></li><li class="navelem"><a class="el" href="../../d4/d37/a10741.html">GOTargetInfo</a></li>
+    <li class="footer">Generated on Wed Dec 6 2023 22:13:23 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

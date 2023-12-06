@@ -1,6 +1,5 @@
 var a29025 =
 [
-    [ "go_midsummer_musicAI", "dc/d5d/a29025.html#a8cbadc16a9588c469ff48dbaf51ac71c", null ],
-    [ "UpdateAI", "dc/d5d/a29025.html#adf185ee702e9e74f65204b90786f9eb4", null ],
-    [ "_events", "dc/d5d/a29025.html#a31e45a754930cdc3206fe2b7f754d234", null ]
+    [ "go_tele_to_dalaran_crystal", "dc/d5d/a29025.html#ab41268b7d568e8f189338f27cd90a62c", null ],
+    [ "OnGossipHello", "dc/d5d/a29025.html#a7f754a29249653ca7848494310ef1a8d", null ]
 ];

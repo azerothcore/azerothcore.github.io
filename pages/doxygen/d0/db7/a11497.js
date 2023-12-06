@@ -1,8 +1,6 @@
 var a11497 =
 [
-    [ "CheckProc", "d0/db7/a11497.html#a08e84f2b2ff25ed7e260e61251f9cdb9", null ],
-    [ "HandleProc", "d0/db7/a11497.html#afd3d4786f739566056b69390553d9c71", null ],
-    [ "PrepareAuraScript", "d0/db7/a11497.html#a3ba84d4fd311a91efa685980ffec8d77", null ],
-    [ "Register", "d0/db7/a11497.html#aa36a2e10a6fd67fa74d08e20dc806744", null ],
-    [ "Validate", "d0/db7/a11497.html#aeff8b89300bb5d3589a46a4f66cfd77d", null ]
+    [ "boss_draganthaurissanAI", "de/dda/a11501.html", "de/dda/a11501" ],
+    [ "boss_emperor_dagran_thaurissan", "d0/db7/a11497.html#a8332d74b5aa1528d5687084932419ad1", null ],
+    [ "GetAI", "d0/db7/a11497.html#aca2c4ca4e32ce75d95b42ddd88c4dc99", null ]
 ];

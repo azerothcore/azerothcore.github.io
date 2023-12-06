@@ -1,7 +1,6 @@
 var a10165 =
 [
-    [ "GuildBankBuyTab", "d5/d2b/a10165.html#af2195db72eeaefea13c958e5ef62c411", null ],
-    [ "Read", "d5/d2b/a10165.html#a502153232a314d099ed43e1101bdfc1f", null ],
-    [ "Banker", "d5/d2b/a10165.html#a46f3b910aa6d69f4a82c7a603f9f0fb3", null ],
-    [ "BankTab", "d5/d2b/a10165.html#a5df7be995a177706fa364e31a6f8df1e", null ]
+    [ "QueryGuildInfo", "d5/d2b/a10165.html#a34b129b3c9fef61aa4211a9bc2783aef", null ],
+    [ "Read", "d5/d2b/a10165.html#a0396a58ca114706f7de91f51c5ab949d", null ],
+    [ "GuildId", "d5/d2b/a10165.html#ad221eecdb16233251306fff3d9801f38", null ]
 ];

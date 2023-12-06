@@ -1,6 +1,6 @@
 var a16509 =
 [
-    [ "npc_anubarak_spikeAI", "d1/d8e/a16513.html", "d1/d8e/a16513" ],
-    [ "npc_anubarak_spike", "d3/d78/a16509.html#a4e96de1910c23311ad4644960ccd5022", null ],
-    [ "GetAI", "d3/d78/a16509.html#a7d55b321eb7e595fe5886dc382134947", null ]
+    [ "HideNpcEvent", "d3/d78/a16509.html#ab454295aab0f5d4586740140232e96eb", null ],
+    [ "Execute", "d3/d78/a16509.html#aecfbbbcac3fd98675913a6381c891a59", null ],
+    [ "_owner", "d3/d78/a16509.html#ac5481c94e180900f0a455dc1f1f9851c", null ]
 ];

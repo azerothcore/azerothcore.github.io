@@ -1,6 +1,6 @@
 var a16561 =
 [
-    [ "npc_toc_paladinAI", "d0/dbc/a16565.html", "d0/dbc/a16565" ],
-    [ "npc_toc_paladin", "d3/db2/a16561.html#af11025a2a4be2b2c982ad31241d47180", null ],
-    [ "GetAI", "d3/db2/a16561.html#a15766ea4414701040c738251302177af", null ]
+    [ "spell_gen_leeching_swarm_AuraScript", "d0/dbc/a16565.html", "d0/dbc/a16565" ],
+    [ "spell_gen_leeching_swarm", "d3/db2/a16561.html#a13eb1c202d4f253e9866f462e5c59ac1", null ],
+    [ "GetAuraScript", "d3/db2/a16561.html#a2c47410d2b61739f6f01ac8b2d2a0c9c", null ]
 ];

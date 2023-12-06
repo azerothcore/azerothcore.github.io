@@ -1,5 +1,7 @@
 var a02288 =
 [
-    [ "cache_commandscript", "db/d7f/a11065.html", "db/d7f/a11065" ],
-    [ "AddSC_cache_commandscript", "dc/d1a/a02288.html#a293f65606c1750692d4046d4fe4c4adc", null ]
+    [ "AuraApplication", "d6/ddf/a10693.html", "d6/ddf/a10693" ],
+    [ "Aura", "db/d1b/a10697.html", "db/d1b/a10697" ],
+    [ "UnitAura", "d3/dba/a10701.html", "d3/dba/a10701" ],
+    [ "DynObjAura", "d3/d4e/a10705.html", "d3/d4e/a10705" ]
 ];

@@ -1,6 +1,5 @@
 var a19649 =
 [
-    [ "HandleScript", "d6/dd1/a19649.html#a51fdfe637dd4cacc79103105b61dbe6b", null ],
-    [ "PrepareSpellScript", "d6/dd1/a19649.html#a4c851026438d0690679809f6ab7b2341", null ],
-    [ "Register", "d6/dd1/a19649.html#ac28a1dec151e0ca319f50c9b3b53b3b4", null ]
+    [ "at_icc_saurfang_portal", "d6/dd1/a19649.html#a7f30058251c520634a0b7bad08380e5d", null ],
+    [ "OnTrigger", "d6/dd1/a19649.html#a8980fe0e67aa33335f0fdb947a294213", null ]
 ];

@@ -1,5 +1,6 @@
 var a13877 =
 [
-    [ "at_zulgurub_bloodfire_pit_speech", "de/df7/a13877.html#a880058a08d7da3b8d3062a8bc17367a4", null ],
-    [ "_OnTrigger", "de/df7/a13877.html#a8f1e477942ba9a5f653077632a98930f", null ]
+    [ "npc_harrison_jonesAI", "df/db7/a13881.html", "df/db7/a13881" ],
+    [ "npc_harrison_jones", "de/df7/a13877.html#afbf1c2040c87f5ca8280d18a9db97c7f", null ],
+    [ "GetAI", "de/df7/a13877.html#ac7df55d850973073266509f6e09ea367", null ]
 ];

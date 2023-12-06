@@ -1,6 +1,6 @@
 var a12977 =
 [
-    [ "FilterTargets", "d9/d19/a12977.html#a79e1a9b7b364482f773884f311a17bca", null ],
-    [ "PrepareSpellScript", "d9/d19/a12977.html#aaf7286389841b0fb298b024299ef2c7b", null ],
-    [ "Register", "d9/d19/a12977.html#a7fabe070560f8ed165850a457ee5bfc2", null ]
+    [ "spell_eredar_twins_apply_flame_touched_SpellScript", "d9/d73/a12981.html", "d9/d73/a12981" ],
+    [ "spell_eredar_twins_apply_flame_touched", "d9/d19/a12977.html#ae473aa176d4e5ba29974f204126a8d19", null ],
+    [ "GetSpellScript", "d9/d19/a12977.html#a95083b5cedfcf5faae7dd231e4889e44", null ]
 ];

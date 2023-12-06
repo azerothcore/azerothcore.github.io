@@ -1,8 +1,7 @@
 var a15037 =
 [
-    [ "npc_hivezara_stinger", "d2/d8c/a15037.html#ac9438c9dd260a41d6248f2adcc14b555", null ],
-    [ "JustEngagedWith", "d2/d8c/a15037.html#a433d31057f1732ef7ef15d2023e18b8a", null ],
-    [ "Reset", "d2/d8c/a15037.html#ae8e893c90942a469628c393d5b5380cc", null ],
-    [ "UpdateAI", "d2/d8c/a15037.html#a35a6511ebc0301ae0bb22aafc91c8524", null ],
-    [ "_scheduler", "d2/d8c/a15037.html#a04cfd3bbe2a488eabc380382c0b428fd", null ]
+    [ "go_sand_trap", "d2/d8c/a15037.html#a58d45acac672cb05988ddca78185b469", null ],
+    [ "Reset", "d2/d8c/a15037.html#a7071a3e420e9137ca133b471bc217bf3", null ],
+    [ "UpdateAI", "d2/d8c/a15037.html#a2e4a5fec4d4c790233ca97e6a7732ac4", null ],
+    [ "_scheduler", "d2/d8c/a15037.html#af845c0efb3d8ebe53d3620970a84f1e4", null ]
 ];

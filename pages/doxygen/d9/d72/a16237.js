@@ -1,7 +1,7 @@
 var a16237 =
 [
-    [ "Load", "d9/d72/a16237.html#a8e6c15c63b925dc55a9dfaf4d31273d3", null ],
-    [ "Phase", "d9/d72/a16237.html#a5e0d90d4751368d4dbedd1dd17c0fbd9", null ],
-    [ "PrepareSpellScript", "d9/d72/a16237.html#ae500eacb492b25784071d202c60e2525", null ],
-    [ "Register", "d9/d72/a16237.html#ae2bb0092596ef7268052e5e9d15b873c", null ]
+    [ "spell_halion_combustion_consumption_AuraScript", "d7/dbd/a16241.html", "d7/dbd/a16241" ],
+    [ "spell_halion_combustion_consumption", "d9/d72/a16237.html#a2eac37d7a1943b5af2b0c93f8ac6989e", null ],
+    [ "GetAuraScript", "d9/d72/a16237.html#afcfabfabb413399e50bc81224c477ea4", null ],
+    [ "_spellID", "d9/d72/a16237.html#afcf8f57becc0c82b22f5ca03015e04ac", null ]
 ];

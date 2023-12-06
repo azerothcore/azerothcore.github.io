@@ -1,6 +1,8 @@
 var a20273 =
 [
-    [ "ChargeRifts", "d2/d6f/a20273.html#aec98a12dec1f2ad98e00d399b0e2a1d5", null ],
-    [ "Execute", "d2/d6f/a20273.html#a8d01bf861d37c25413dc14eee16a2939", null ],
-    [ "_caster", "d2/d6f/a20273.html#a3cbf5f7e26de337dadd9d96a43d728b0", null ]
+    [ "npc_alexstraszaAI", "d2/d6f/a20273.html#a36cf63109e379fa4a9e3f3426d70e50c", null ],
+    [ "AttackStart", "d2/d6f/a20273.html#a120931695bf3ea649289ee4f6df9a3fd", null ],
+    [ "MoveInLineOfSight", "d2/d6f/a20273.html#af93fc8e8877cc5730db7a9386ac3d815", null ],
+    [ "UpdateAI", "d2/d6f/a20273.html#aa8cc3ee1a2a4702349b39708cc172594", null ],
+    [ "events", "d2/d6f/a20273.html#aade88413d2f2998be6dcb9d15bf85ce0", null ]
 ];

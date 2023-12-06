@@ -1,7 +1,6 @@
 var a25521 =
 [
-    [ "HandleCast", "d8/d57/a25521.html#a0084e7f81fcd032c1e04b8f86d821993", null ],
-    [ "PrepareSpellScript", "d8/d57/a25521.html#acfd6b86e5afed08fd9cf43f64e948149", null ],
-    [ "Register", "d8/d57/a25521.html#a6ae0573ea69573df64cd57ba84f99918", null ],
-    [ "Validate", "d8/d57/a25521.html#ab5794ca5c0863ce40194ed40e156279a", null ]
+    [ "AfterRemove", "d8/d57/a25521.html#afffa4b13bb60e973203b6625e5cf4576", null ],
+    [ "PrepareAuraScript", "d8/d57/a25521.html#acb444c7a5f41abc449532707300a04e7", null ],
+    [ "Register", "d8/d57/a25521.html#a2539e93205f9d3d86655a1ec7c8df369", null ]
 ];

@@ -1,6 +1,5 @@
 var a07445 =
 [
-    [ "p0", "dd/d6e/a07445.html#aaf1df5d479ef12c6bfa9b02c8d9a54ad", null ],
-    [ "p1", "dd/d6e/a07445.html#a8c5a9c6371f264469203575be48684fa", null ],
-    [ "p2", "dd/d6e/a07445.html#a40d46738768d6c2037e5978ce32a9fb8", null ]
+    [ "IsColorValid", "dd/d6e/a07445.html#a075621e69c80c128ec44cfb4f3ba0cf6", null ],
+    [ "IsTextValid", "dd/d6e/a07445.html#a33f6c3e46c24571a8eec083087618fed", null ]
 ];

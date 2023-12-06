@@ -1,6 +1,6 @@
 var a19157 =
 [
-    [ "npc_terenas_menethilAI", "d7/d4a/a19161.html", "d7/d4a/a19161" ],
-    [ "npc_terenas_menethil", "db/ddc/a19157.html#a6b6850598c582e3d44c13275302fd32d", null ],
-    [ "GetAI", "db/ddc/a19157.html#ad5f29af90c3f40ce0dad019b5ec05cf2", null ]
+    [ "ModDestHeight", "db/ddc/a19157.html#a8922316b0861e1a8303e5edfead02383", null ],
+    [ "PrepareSpellScript", "db/ddc/a19157.html#af19cbcb30f808366dc4887e8314be05d", null ],
+    [ "Register", "db/ddc/a19157.html#a335ec486683303a8c91b43a6d7979e40", null ]
 ];

@@ -1,6 +1,6 @@
 var a23645 =
 [
-    [ "HandleHealPct", "d6/db7/a23645.html#aed2ba1813d9cb2315fac39a9fa9e25f3", null ],
-    [ "PrepareSpellScript", "d6/db7/a23645.html#a40b41e8781681fc4d80170b9b9f9fca0", null ],
-    [ "Register", "d6/db7/a23645.html#af57b056e4dbae56279f65c6f2f28eff5", null ]
+    [ "npc_guardian_pavilionAI", "dc/ddc/a23649.html", "dc/ddc/a23649" ],
+    [ "npc_guardian_pavilion", "d6/db7/a23645.html#aecc7e93f2b50351584049f031362e0f0", null ],
+    [ "GetAI", "d6/db7/a23645.html#a89e55b3267cd93ae688573678851c7b9", null ]
 ];

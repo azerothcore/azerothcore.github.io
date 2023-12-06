@@ -1,6 +1,7 @@
 var a16293 =
 [
-    [ "HandleDummy", "d9/dd4/a16293.html#a7256bc5b2bcb056db8b0d43c3e413f84", null ],
-    [ "PrepareSpellScript", "d9/dd4/a16293.html#a3d487f436e0d69dcbe8378f4ec82e7b2", null ],
-    [ "Register", "d9/dd4/a16293.html#a54f2aa30b6c05f85fd40ee26a6008c51", null ]
+    [ "OnApply", "d9/dd4/a16293.html#ae0ab8c526985e5a688e862ee7208b2db", null ],
+    [ "OnRemove", "d9/dd4/a16293.html#a19fc3e0f3a8045c7428411d41186a880", null ],
+    [ "PrepareAuraScript", "d9/dd4/a16293.html#a692bff5559658e3076d56a0fc3c7c878", null ],
+    [ "Register", "d9/dd4/a16293.html#adee13380d5777691257ba3f817807285", null ]
 ];

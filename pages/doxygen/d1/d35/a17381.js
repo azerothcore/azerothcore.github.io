@@ -1,6 +1,6 @@
 var a17381 =
 [
-    [ "npc_pos_freed_slaveAI", "d1/d35/a17381.html#ad5728e427f9f4a65cea13ec2c5a01453", null ],
-    [ "CanAIAttack", "d1/d35/a17381.html#a76818ee5fcfcc5678fa9d0957a424d9b", null ],
-    [ "EnterEvadeMode", "d1/d35/a17381.html#a234135e6bea0d91611fbdbae4dec2ea1", null ]
+    [ "npc_pos_tyrannus_eventsAI", "d5/d0e/a17385.html", "d5/d0e/a17385" ],
+    [ "npc_pos_tyrannus_events", "d1/d35/a17381.html#a9e61db8b2b30e86fc5e554b3f4d51b7c", null ],
+    [ "GetAI", "d1/d35/a17381.html#ae5863e99d77815de71c1774e908b3f65", null ]
 ];

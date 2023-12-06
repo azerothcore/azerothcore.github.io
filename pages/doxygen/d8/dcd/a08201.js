@@ -1,13 +1,8 @@
 var a08201 =
 [
-    [ "PassengerSet", "d8/dcd/a08201.html#aa6421ebd51e84c819604e18e93729d27", null ],
-    [ "Transport", "d8/dcd/a08201.html#a36928c178aa490c02aa25b4b12e2bf63", null ],
-    [ "AddPassenger", "d8/dcd/a08201.html#ac5c328f816b0358a68265322219357c1", null ],
-    [ "CalculatePassengerOffset", "d8/dcd/a08201.html#a327d37eef797c4197b8bba503bd8a3f8", null ],
-    [ "CalculatePassengerPosition", "d8/dcd/a08201.html#ae4e716194ce5e9c466a8fe5c53ee0980", null ],
-    [ "GetPassengers", "d8/dcd/a08201.html#a3f70c977ba2450d4244e54e4260f6ea1", null ],
-    [ "GetPathProgress", "d8/dcd/a08201.html#a4ecab9f8617918aea3a26cc0feb9c021", null ],
-    [ "RemovePassenger", "d8/dcd/a08201.html#a1d70745a16a1cbf3307a25ff4a53c75d", null ],
-    [ "SetPathProgress", "d8/dcd/a08201.html#acb68e75a78fa196a4b514abd24c0e322", null ],
-    [ "_passengers", "d8/dcd/a08201.html#adc2089495aadaab23414ecae3b2df180", null ]
+    [ "IsInSpec", "d8/dcd/a08201.html#a77968b5562467f85bda04b6f2f41ca29", null ],
+    [ "inSpellBook", "d8/dcd/a08201.html#a650926fa9d1bbab336ee7ed3dd0b0b7d", null ],
+    [ "specMask", "d8/dcd/a08201.html#acc1913a90ca2bd23298d3590843cfbd5", null ],
+    [ "State", "d8/dcd/a08201.html#a062758af7e92f7e2263ca0a0fd329151", null ],
+    [ "talentID", "d8/dcd/a08201.html#aca9b191361652002f5178179a939e41b", null ]
 ];

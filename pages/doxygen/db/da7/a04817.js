@@ -1,6 +1,8 @@
 var a04817 =
 [
-    [ "NodeArray", "db/da7/a04817.html#ad14de28828d5dd9c425e47a261125423", null ],
-    [ "AddNode", "db/da7/a04817.html#a370b6e8633c2c739ff68c0399e315a7e", null ],
-    [ "_nodes", "db/da7/a04817.html#a581a71d15d245efc585297c218313134", null ]
+    [ "IMMapMgr", "db/da7/a04817.html#a2292f2bdacfc627ab33f02d399221ad5", null ],
+    [ "~IMMapMgr", "db/da7/a04817.html#a8298d6b3fbce5ccd835af3c287c361b6", null ],
+    [ "isEnablePathFinding", "db/da7/a04817.html#a5d6bcb413c39e82da8e4924c4754c8b0", null ],
+    [ "setEnablePathFinding", "db/da7/a04817.html#afdc7e829a374c20b4d072290363c7c62", null ],
+    [ "iEnablePathFinding", "db/da7/a04817.html#a25f8900f4546990562fb048e956bb1e0", null ]
 ];

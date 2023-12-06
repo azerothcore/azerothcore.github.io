@@ -1,6 +1,6 @@
 var a23257 =
 [
-    [ "SACDeactivateEvent", "d4/de7/a23257.html#a14f1db2f3bf7e82d0e5c5b5135d46cf9", null ],
-    [ "Execute", "d4/de7/a23257.html#a12179c55d1999b3cd0cfc5d51d039a31", null ],
-    [ "_owner", "d4/de7/a23257.html#acc87b2f689bf2e6a3f19440dceb6ea6d", null ]
+    [ "HandleSendEvent", "d4/de7/a23257.html#a44b2d9ad8915535c43c73813573411ef", null ],
+    [ "PrepareSpellScript", "d4/de7/a23257.html#af1e471d481f743bd843a809c7f60b495", null ],
+    [ "Register", "d4/de7/a23257.html#a77a85a01e4edca361fba2d66270f7f8e", null ]
 ];

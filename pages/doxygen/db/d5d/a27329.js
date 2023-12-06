@@ -1,6 +1,6 @@
 var a27329 =
 [
-    [ "HandlePreventAura", "db/d5d/a27329.html#a62b9a62f5379f4ca98921c7fe4278b58", null ],
-    [ "PrepareSpellScript", "db/d5d/a27329.html#a61b2f1d5634219f9c48a9ea75e90d423", null ],
-    [ "Register", "db/d5d/a27329.html#ab1a90b7939c146b40badfd6424c35cf7", null ]
+    [ "HandleDummy", "db/d5d/a27329.html#ad086618ff3caadcf5126e12a1359503f", null ],
+    [ "PrepareSpellScript", "db/d5d/a27329.html#a4b3a79a9ba01226038a1da886f6a2f7c", null ],
+    [ "Register", "db/d5d/a27329.html#a214526ddc986ee829daf9090678e3a7b", null ]
 ];

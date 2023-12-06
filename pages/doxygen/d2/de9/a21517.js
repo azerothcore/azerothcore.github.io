@@ -1,6 +1,5 @@
 var a21517 =
 [
-    [ "HandleAfterEffectApply", "d2/de9/a21517.html#a0d2a3845acfb34fa752a6a6593dd5928", null ],
-    [ "PrepareAuraScript", "d2/de9/a21517.html#af31ab9954303867361e7a87c215a5324", null ],
-    [ "Register", "d2/de9/a21517.html#aba6d6a48ba2aab449d7b0645deadaac0", null ]
+    [ "achievement_cheese_the_freeze", "d2/de9/a21517.html#a5ec4c344a0ed203086be2661e4e24f0e", null ],
+    [ "OnCheck", "d2/de9/a21517.html#aaf3342fb3153a4d9223d880c0f2a277a", null ]
 ];

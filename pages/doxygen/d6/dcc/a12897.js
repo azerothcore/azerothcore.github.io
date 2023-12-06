@@ -1,6 +1,6 @@
 var a12897 =
 [
-    [ "spell_eredar_twins_apply_flame_touched_SpellScript", "d6/d0e/a12901.html", "d6/d0e/a12901" ],
-    [ "spell_eredar_twins_apply_flame_touched", "d6/dcc/a12897.html#ae473aa176d4e5ba29974f204126a8d19", null ],
-    [ "GetSpellScript", "d6/dcc/a12897.html#a95083b5cedfcf5faae7dd231e4889e44", null ]
+    [ "OnRemove", "d6/dcc/a12897.html#aa1cf7727c57d5b6a1968bafcdef63113", null ],
+    [ "PrepareAuraScript", "d6/dcc/a12897.html#a1139466be6e4391d1f488d3f56758b2c", null ],
+    [ "Register", "d6/dcc/a12897.html#a6ff95222d980c659653116f560ec2b80", null ]
 ];

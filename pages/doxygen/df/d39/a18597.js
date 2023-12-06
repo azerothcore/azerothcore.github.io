@@ -1,6 +1,6 @@
 var a18597 =
 [
-    [ "spell_rotface_little_ooze_combine_SpellScript", "db/da7/a18601.html", "db/da7/a18601" ],
-    [ "spell_rotface_little_ooze_combine", "df/d39/a18597.html#a7f921989dbcdd404ce3f8665893348b1", null ],
-    [ "GetSpellScript", "df/d39/a18597.html#a0752081822d2ef1760755a73687a5abd", null ]
+    [ "boss_rotfaceAI", "db/da7/a18601.html", "db/da7/a18601" ],
+    [ "boss_rotface", "df/d39/a18597.html#a8896f5ed16c728d72a123b2e92a174fb", null ],
+    [ "GetAI", "df/d39/a18597.html#a8a3ff9ef99da7d72ce2f7827bfc2564b", null ]
 ];

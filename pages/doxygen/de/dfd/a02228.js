@@ -1,20 +1,12 @@
 var a02228 =
 [
-    [ "WardenCheck", "d4/dd9/a10969.html", "d4/dd9/a10969" ],
-    [ "WardenCheckResult", "dc/d18/a10973.html", "dc/d18/a10973" ],
-    [ "WardenCheckMgr", "dc/d8f/a10977.html", "dc/d8f/a10977" ],
-    [ "sWardenCheckMgr", "de/dfd/a02228.html#a367963ecc82479f8bea3aea9e235a85c", null ],
-    [ "WardenActions", "de/dfd/a02228.html#acd25f1c729cc9c78338c6bc117dcd5e1", [
-      [ "WARDEN_ACTION_LOG", "de/dfd/a02228.html#acd25f1c729cc9c78338c6bc117dcd5e1a886d1d7fc710f19b1f98a28dd6652d81", null ],
-      [ "WARDEN_ACTION_KICK", "de/dfd/a02228.html#acd25f1c729cc9c78338c6bc117dcd5e1a3e6856d34f7e97f6cafcce4a86315d13", null ],
-      [ "WARDEN_ACTION_BAN", "de/dfd/a02228.html#acd25f1c729cc9c78338c6bc117dcd5e1a420c50c42a2e76090d4a4ab690885ae0", null ]
-    ] ],
-    [ "WardenCheckTypes", "de/dfd/a02228.html#ad353d1b1b229bf72b97440ac296da2f0", [
-      [ "WARDEN_CHECK_MEM_TYPE", "de/dfd/a02228.html#ad353d1b1b229bf72b97440ac296da2f0a3a995022793f145e1eb48b42d3aadfb3", null ],
-      [ "WARDEN_CHECK_LUA_TYPE", "de/dfd/a02228.html#ad353d1b1b229bf72b97440ac296da2f0a78405e80a7b4bf4186706d64389e96af", null ],
-      [ "WARDEN_CHECK_OTHER_TYPE", "de/dfd/a02228.html#ad353d1b1b229bf72b97440ac296da2f0ab3ea81385a6db9185a94c0715749ffe2", null ]
-    ] ],
-    [ "MAX_WARDEN_ACTION", "de/dfd/a02228.html#afa0b1cff6db4dd71ef500011182f2834", null ],
-    [ "MAX_WARDEN_CHECK_TYPES", "de/dfd/a02228.html#a80604a840828219101f07100a7a48dad", null ],
-    [ "WARDEN_MAX_LUA_CHECK_LENGTH", "de/dfd/a02228.html#a005df8388201fb598a4eedfeac422fbc", null ]
+    [ "PacketHandler< PacketClass, HandlerFunction >", "dc/daf/a10549.html", "dc/daf/a10549" ],
+    [ "PacketHandler< WorldPacket, HandlerFunction >", "d8/d89/a10553.html", "d8/d89/a10553" ],
+    [ "get_packet_class< T >", "d2/d68/a10557.html", null ],
+    [ "get_packet_class< void(WorldSession::*)(PacketClass &)>", "d7/d0f/a10561.html", "d7/d0f/a10561" ],
+    [ "DEFINE_HANDLER", "de/dfd/a02228.html#ab23af9582942bed23ea9ab4a8747c67c", null ],
+    [ "DEFINE_SERVER_OPCODE_HANDLER", "de/dfd/a02228.html#a4bcb2df62d580f2bb5ab3c2aa5b35f5e", null ],
+    [ "GetOpcodeNameForLogging", "d5/d6d/a04635.html#ga699f5666ad5594443aa2ca21df85a1d3", null ],
+    [ "GetOpcodeNameForLoggingImpl", "de/dfd/a02228.html#a0adf4b5d8c638656581d9a62be18539e", null ],
+    [ "opcodeTable", "d5/d6d/a04635.html#gaab348862a5b8f265e05e5b0ac296162a", null ]
 ];

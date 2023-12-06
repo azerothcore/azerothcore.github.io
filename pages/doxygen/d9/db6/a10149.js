@@ -1,6 +1,6 @@
 var a10149 =
 [
-    [ "GuildPromoteMember", "d9/db6/a10149.html#af623a381aa80e827c2c29987501626ae", null ],
-    [ "Read", "d9/db6/a10149.html#a3350c1a8c81aa1368a254288849b462b", null ],
-    [ "Promotee", "d9/db6/a10149.html#af8addf6e9bc45364f595582e8f285cde", null ]
+    [ "EmoteClient", "d9/db6/a10149.html#af98c098cb1019057d8027f39c168e1a9", null ],
+    [ "Read", "d9/db6/a10149.html#abad5fca865b7b99e595ce95137e8105c", null ],
+    [ "EmoteID", "d9/db6/a10149.html#a24503de36535106220984ffbf6ba0338", null ]
 ];

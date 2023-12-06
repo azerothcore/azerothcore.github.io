@@ -1,15 +1,16 @@
 var a25945 =
 [
-    [ "npc_kurenai_captiveAI", "d3/daf/a25945.html#ab8771e4c2cefe3d5dc3e07df2eeb7b96", null ],
-    [ "JustDied", "d3/daf/a25945.html#a0778846d7d67f5d29ed3f7ef02f912f4", null ],
-    [ "JustEngagedWith", "d3/daf/a25945.html#a9e36749629568d7917353bee51be08b8", null ],
-    [ "JustSummoned", "d3/daf/a25945.html#a19a5190b72f78ee698d5fa2df6ac9b4b", null ],
-    [ "Reset", "d3/daf/a25945.html#aea5af2579f9be13620f15b82b5cc8436", null ],
-    [ "SetGUID", "d3/daf/a25945.html#a20edaf98031d7683d07b325c0b89ff69", null ],
-    [ "SpellHitTarget", "d3/daf/a25945.html#a1f0cb1afc62b1b29a71cc04a21c456f0", null ],
-    [ "UpdateEscortAI", "d3/daf/a25945.html#a3d0dfb0df190fe1b32cacb039e611dc3", null ],
-    [ "WaypointReached", "d3/daf/a25945.html#a584bfc3a62f9d856e6d918d8f8694b3e", null ],
-    [ "ChainLightningTimer", "d3/daf/a25945.html#a9aede5daebe0cf90ca2091a052c34282", null ],
-    [ "FrostShockTimer", "d3/daf/a25945.html#a224c2df273f8d032e4302958879ce4d5", null ],
-    [ "HealTimer", "d3/daf/a25945.html#a5a8d15bf6d2fd7a04818ba4535195922", null ]
+    [ "npc_dragonmaw_peonAI", "d3/daf/a25945.html#a6f1255fead5357001ec85fdaa6980249", null ],
+    [ "CreditPlayer", "d3/daf/a25945.html#a5cf28e156cab2e2066bb94bc99233a2b", null ],
+    [ "JustEngagedWith", "d3/daf/a25945.html#abd5b37793aa2fb150c808b7dc7270763", null ],
+    [ "MovementInform", "d3/daf/a25945.html#a0ee4038f90d54c75c48b2448dacb5724", null ],
+    [ "Reset", "d3/daf/a25945.html#a9d876ec76b51f743c71e67749c21d939", null ],
+    [ "SpellHit", "d3/daf/a25945.html#abe5162608ba0acd7360a630562ff5935", null ],
+    [ "UpdateAI", "d3/daf/a25945.html#a98a045606d9e689ef25a5068b81b1ebf", null ],
+    [ "events", "d3/daf/a25945.html#a7d6fb37d1953630aa79f8665eca0db61", null ],
+    [ "PlayerGUID", "d3/daf/a25945.html#ad6838d98e34a32cbed42c77cdf096070", null ],
+    [ "Tapped", "d3/daf/a25945.html#ae393f8d3cb47f38a4c4314a262826d03", null ],
+    [ "x", "d3/daf/a25945.html#acebbfa8da88d8d683ba5ea6463f6b5f7", null ],
+    [ "y", "d3/daf/a25945.html#ae5a1d416c712803ec0b80ae7ccf29e2d", null ],
+    [ "z", "d3/daf/a25945.html#a7722420716c030b5abe7b760199df14d", null ]
 ];

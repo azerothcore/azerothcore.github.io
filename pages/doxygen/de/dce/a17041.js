@@ -1,18 +1,6 @@
 var a17041 =
 [
-    [ "boss_devourer_of_soulsAI", "de/dce/a17041.html#aa54d512a3bcf22ba64872bf60ed89ca3", null ],
-    [ "CanAIAttack", "de/dce/a17041.html#a48b79a3429dec44486d6bd858d5b6edb", null ],
-    [ "EnterEvadeMode", "de/dce/a17041.html#a0c2c380955e5b24c387b8dd8f00567cc", null ],
-    [ "GetData", "de/dce/a17041.html#a7d99dba5d3c6725c5f6cbc8a0cc0ec9f", null ],
-    [ "JustDied", "de/dce/a17041.html#a6e5a944ffbf325aa1bc591ef288c593f", null ],
-    [ "JustEngagedWith", "de/dce/a17041.html#a1f3b4a9d31a0704807fb9b44237c7b4b", null ],
-    [ "JustSummoned", "de/dce/a17041.html#ae3c5c0c1d905c424102a6e3a360d61d7", null ],
-    [ "KilledUnit", "de/dce/a17041.html#aba4ed91e1f61ddd1db29509700a4e0c8", null ],
-    [ "Reset", "de/dce/a17041.html#aefc761b1142cc6941394a4e3402662d7", null ],
-    [ "SpellHitTarget", "de/dce/a17041.html#ad503ae8ea66c964bc5997019c9118856", null ],
-    [ "UpdateAI", "de/dce/a17041.html#ac387b29bcb23f1697bc8b5b1a94e9ee1", null ],
-    [ "bAchiev", "de/dce/a17041.html#ad57135868c5c631a4add0dea0067feb0", null ],
-    [ "events", "de/dce/a17041.html#ac0467332ad699f9c60cc9dc257d9e1df", null ],
-    [ "pInstance", "de/dce/a17041.html#a78204e146c22a80df48d8a6840e70790", null ],
-    [ "summons", "de/dce/a17041.html#a6602605118c8d64dabec4b96c8e99436", null ]
+    [ "spell_bronjahm_magic_bane_SpellScript", "df/d37/a17045.html", "df/d37/a17045" ],
+    [ "spell_bronjahm_magic_bane", "de/dce/a17041.html#a76a7fdc271c9d83bf3037e8c28cbb1c4", null ],
+    [ "GetSpellScript", "de/dce/a17041.html#a15100aed9749a1efe8ef9df8c5790b78", null ]
 ];

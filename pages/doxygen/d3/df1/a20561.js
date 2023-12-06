@@ -1,6 +1,8 @@
 var a20561 =
 [
-    [ "npc_spark_of_ionarAI", "d3/d39/a20565.html", "d3/d39/a20565" ],
-    [ "npc_spark_of_ionar", "d3/df1/a20561.html#a63578a0d77331849b7a48272870af04d", null ],
-    [ "GetAI", "d3/df1/a20561.html#aa1e524327b76ddc11a32e7a094e39dd1", null ]
+    [ "HandleOnEffectApply", "d3/df1/a20561.html#a883ee4fb01d3d1008d71874c65ff6f4b", null ],
+    [ "HandleOnEffectRemove", "d3/df1/a20561.html#aa3d1396bc51794a5d3c8f9028a4ba06e", null ],
+    [ "PrepareAuraScript", "d3/df1/a20561.html#af8f6231900cde9172a6d8794875c7270", null ],
+    [ "Register", "d3/df1/a20561.html#aeecd6fb45418f9b20af08533d9614f93", null ],
+    [ "_drakeGUID", "d3/df1/a20561.html#a610cf021883409465d5a8b73021b0ad7", null ]
 ];

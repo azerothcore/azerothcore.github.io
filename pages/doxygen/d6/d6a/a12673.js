@@ -1,7 +1,6 @@
 var a12673 =
 [
-    [ "HandleScript", "d6/d6a/a12673.html#a03f8c24445ee4ac82a4cf2caece38f90", null ],
-    [ "PrepareSpellScript", "d6/d6a/a12673.html#a034195e58f02225c172b70c3967fe3ad", null ],
-    [ "Register", "d6/d6a/a12673.html#afaf3a6fd54f499982bd1cfd6e4c6c1a2", null ],
-    [ "Validate", "d6/d6a/a12673.html#a8ac78c00c49b1eb2fade4100a810d367", null ]
+    [ "spell_chapter5_rebuke_SpellScript", "dd/dc6/a12677.html", "dd/dc6/a12677" ],
+    [ "spell_chapter5_rebuke", "d6/d6a/a12673.html#a93b0fd57566722c98653f66619727717", null ],
+    [ "GetSpellScript", "d6/d6a/a12673.html#ab17f0009b91b00dba9678fe681ffe683", null ]
 ];

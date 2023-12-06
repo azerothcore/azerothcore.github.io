@@ -1,7 +1,6 @@
 var a14577 =
 [
-    [ "npc_tyrande_whisperwind", "dd/d76/a14577.html#a18b631e57ad5bf0429a45b7bb04ae282", null ],
-    [ "GetAI", "dd/d76/a14577.html#a5762c68e5ef6d7b74ae90580356acfbe", null ],
-    [ "OnGossipHello", "dd/d76/a14577.html#a25283f73d9f202c33edb2ba430d8a315", null ],
-    [ "OnGossipSelect", "dd/d76/a14577.html#a8fcb001140d2f9efcc9a898fbb081aa6", null ]
+    [ "spell_hand_of_death_SpellScript", "d1/d9b/a14581.html", "d1/d9b/a14581" ],
+    [ "spell_hand_of_death", "dd/d76/a14577.html#adc3db06762e020d54b5d3ff519cc0ac3", null ],
+    [ "GetSpellScript", "dd/d76/a14577.html#aa9e0331670cbadb6893e1c97881c08e3", null ]
 ];

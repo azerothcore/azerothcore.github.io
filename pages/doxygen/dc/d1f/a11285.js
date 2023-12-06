@@ -1,14 +1,17 @@
 var a11285 =
 [
-    [ "boss_galvangarAI", "dc/d1f/a11285.html#a34a0cacc52749bd1146fcb779d006b3b", null ],
-    [ "JustEngagedWith", "dc/d1f/a11285.html#ac1898cea6887fcfa182aa8a7a535c462", null ],
-    [ "JustRespawned", "dc/d1f/a11285.html#a92139ad3720ba662f87c0b55ac77dbeb", null ],
-    [ "Reset", "dc/d1f/a11285.html#a96e1a262f368ab0f6885e955133b7ae8", null ],
-    [ "UpdateAI", "dc/d1f/a11285.html#a2e5c7511cce7dd0ff27e13cda9807928", null ],
-    [ "CleaveTimer", "dc/d1f/a11285.html#ae2f943d7e08b5ca508518cd19c675be9", null ],
-    [ "FrighteningShoutTimer", "dc/d1f/a11285.html#a6f62f62ffa1c06baa2649901f02d13dc", null ],
-    [ "MortalStrikeTimer", "dc/d1f/a11285.html#acbfa384508002ba9505d280c448f1f0e", null ],
-    [ "ResetTimer", "dc/d1f/a11285.html#aaeff7d8bffb2ddcef5591c2c9be22ae2", null ],
-    [ "Whirlwind1Timer", "dc/d1f/a11285.html#a1e1b3d242ad06e6b8b2e48fbc135b3c5", null ],
-    [ "Whirlwind2Timer", "dc/d1f/a11285.html#adb5a2609f1f065fe7a737b8da2d4aef4", null ]
+    [ "learn_commandscript", "dc/d1f/a11285.html#a7ef51367ab7ab1c360390ff5552c0f51", null ],
+    [ "GetCommands", "dc/d1f/a11285.html#a8c8f73f3c1d5dbddd5a3d2e89ea326d8", null ],
+    [ "HandleLearnAllCraftsCommand", "dc/d1f/a11285.html#ae25064fa03d022277a368f52a17e5b70", null ],
+    [ "HandleLearnAllDefaultCommand", "dc/d1f/a11285.html#a985d2a10f01808c4bff2922b1530e911", null ],
+    [ "HandleLearnAllGMCommand", "dc/d1f/a11285.html#a88e28ec43968c5a8b0bfd1f190d89a98", null ],
+    [ "HandleLearnAllLangCommand", "dc/d1f/a11285.html#aaf4d779b47511db72727fe44fb1bbd2d", null ],
+    [ "HandleLearnAllMyClassCommand", "dc/d1f/a11285.html#a956716b7743dfc6de922b0badf40aeda", null ],
+    [ "HandleLearnAllMyPetTalentsCommand", "dc/d1f/a11285.html#a2a7cc02eb4417907b50d49bab39110cf", null ],
+    [ "HandleLearnAllMySpellsCommand", "dc/d1f/a11285.html#af95e27d3bfb3cd421a0fd13f9f655755", null ],
+    [ "HandleLearnAllMyTalentsCommand", "dc/d1f/a11285.html#aaa19e92798ac56355a95e625ead56556", null ],
+    [ "HandleLearnAllRecipesCommand", "dc/d1f/a11285.html#a44b538a1031ad69bec762f1a791cf11f", null ],
+    [ "HandleLearnCommand", "dc/d1f/a11285.html#ab59da6873596596ee84509cb0060e760", null ],
+    [ "HandleLearnSkillRecipesHelper", "dc/d1f/a11285.html#ae8bd0389415fdeb70d369b694b953619", null ],
+    [ "HandleUnLearnCommand", "dc/d1f/a11285.html#a2dc980af9662b3b1c783e3603732ca01", null ]
 ];

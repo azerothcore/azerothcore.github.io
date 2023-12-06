@@ -1,9 +1,9 @@
 var a14361 =
 [
-    [ "HandleDummy", "d9/d5e/a14361.html#a41f0ab7836fccac5f3b0454588bdd0f5", null ],
-    [ "HandleFinish", "d9/d5e/a14361.html#a8927aaa07145b46067d5807c2048330a", null ],
-    [ "Load", "d9/d5e/a14361.html#aeefbba80b8ca14febeb0a147116b5545", null ],
-    [ "PrepareSpellScript", "d9/d5e/a14361.html#a5a0bfef668242fc5f21ad5a4e3e714b5", null ],
-    [ "Register", "d9/d5e/a14361.html#a1ffdc199a04bd6ead1a09bc977ae964c", null ],
-    [ "handled", "d9/d5e/a14361.html#a397dd22fed73ba3dfe025ee6c98f04cf", null ]
+    [ "npc_love_in_air_snivel", "d9/d5e/a14361.html#ab04596fb96292f54cf2a10f662dc94a3", null ],
+    [ "AllowAction", "d9/d5e/a14361.html#af1097317f62bbb8f8456124001c73576", null ],
+    [ "MoveInLineOfSight", "d9/d5e/a14361.html#ae6537707109b95fad20e521d07867cdd", null ],
+    [ "Reset", "d9/d5e/a14361.html#a2385ea44d9f44735b193add4a0d0485b", null ],
+    [ "UpdateAI", "d9/d5e/a14361.html#a9e712994663e3442359d2f574ebc812c", null ],
+    [ "delay", "d9/d5e/a14361.html#a548db6245ef875ec47279246e437934c", null ]
 ];

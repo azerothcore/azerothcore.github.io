@@ -1,6 +1,5 @@
 var a24249 =
 [
-    [ "boss_gurtogg_bloodboilAI", "d2/db5/a24253.html", "d2/db5/a24253" ],
-    [ "boss_gurtogg_bloodboil", "d0/dd2/a24249.html#ae048bbcfaadcf6d99dffa871cedf4b33", null ],
-    [ "GetAI", "d0/dd2/a24249.html#ae1cded61e19a654b562533c606938f38", null ]
+    [ "instance_sethekk_halls_InstanceMapScript", "d0/dd2/a24249.html#a037ee225b626b64436570680ae4e9ea0", null ],
+    [ "OnCreatureCreate", "d0/dd2/a24249.html#ad3555bd5d5f1d72c3bd6494339016214", null ]
 ];

@@ -1,7 +1,6 @@
 var a16093 =
 [
-    [ "npc_baltharus_the_warborn_cloneAI", "d8/d32/a16093.html#aed531e61508d4d404827f47c6348a5e6", null ],
-    [ "JustEngagedWith", "d8/d32/a16093.html#ad906b7602a34abcfaede92cba6f0a6d7", null ],
-    [ "UpdateAI", "d8/d32/a16093.html#ab0c1cf041146a3e16a33986e3e824a2d", null ],
-    [ "_events", "d8/d32/a16093.html#a6e2819f73f0fccd02b7188f0e6f1ffa9", null ]
+    [ "spell_sartharion_lava_strike_SpellScript", "d8/dcb/a16097.html", "d8/dcb/a16097" ],
+    [ "spell_sartharion_lava_strike", "d8/d32/a16093.html#a26ce932a1cd3d1833971f2c2cff422c8", null ],
+    [ "GetSpellScript", "d8/d32/a16093.html#ab4820863d87a4ca3353fd21f66b5ec0c", null ]
 ];

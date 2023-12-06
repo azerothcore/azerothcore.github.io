@@ -1,6 +1,6 @@
 var a16265 =
 [
-    [ "HandlePeriodic", "d7/dae/a16265.html#ae13867103bcb2179374f3a00798050d1", null ],
-    [ "PrepareAuraScript", "d7/dae/a16265.html#abb2a17cabb58e8c72267ce717f10ef3e", null ],
-    [ "Register", "d7/dae/a16265.html#aad25f15e03e1362e3379dc5ab6c1a20c", null ]
+    [ "HandleScriptEffect", "d7/dae/a16265.html#afbb78ed59b5acf4a5d0441590f2536bb", null ],
+    [ "PrepareSpellScript", "d7/dae/a16265.html#adf6989699fd1689e4390756fd4c4c68c", null ],
+    [ "Register", "d7/dae/a16265.html#af571bb4d110e2537149db3ad203e25c5", null ]
 ];

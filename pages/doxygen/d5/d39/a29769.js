@@ -1,5 +1,8 @@
 var a29769 =
 [
-    [ "ID", "d5/d39/a29769.html#a4f030d8b8b87aff67e0d8319c6b53310", null ],
-    [ "price", "d5/d39/a29769.html#a9b81ec4b4638763b738862d6c184e2a9", null ]
+    [ "ID", "d5/d39/a29769.html#a36958c346c8554d9ab1cfb73ac583818", null ],
+    [ "Model", "d5/d39/a29769.html#a8877a066a16c8c246a2d5a24a3661e56", null ],
+    [ "Origin", "d5/d39/a29769.html#a684c69add50ee545ee606ae456a93336", null ],
+    [ "OriginFacing", "d5/d39/a29769.html#a460723250353c7720cd87677991283cf", null ],
+    [ "SoundID", "d5/d39/a29769.html#aa56be05c7ab4015738e049d75ff365c6", null ]
 ];

@@ -1,8 +1,6 @@
 var a15473 =
 [
-    [ "CheckRequirement", "d6/d27/a15473.html#a189dfb2b4fed649421e291c3fe35d726", null ],
-    [ "HandleDummy", "d6/d27/a15473.html#afa3fb1cb0c2a4d59ef68b5bf991ac26b", null ],
-    [ "PrepareSpellScript", "d6/d27/a15473.html#a19326bdad6359203c98a36b4662b6ffb", null ],
-    [ "Register", "d6/d27/a15473.html#a9cc5859b635c1def6be7f8bcec19e56c", null ],
-    [ "Validate", "d6/d27/a15473.html#a7922f38c2c5e19c69982aea2fa136257", null ]
+    [ "npc_tiger_matriarch_creditAI", "d6/d27/a15473.html#a628772971a9c2a190ffe2fae6b0b6865", null ],
+    [ "UpdateAI", "d6/d27/a15473.html#a0fc7ca1313a21c5f74539ce2dbd7465d", null ],
+    [ "events", "d6/d27/a15473.html#ae96e0de4a36dde3237520e8a0ddd9f5f", null ]
 ];

@@ -1,6 +1,6 @@
 var a22765 =
 [
-    [ "boss_moraggAI", "d3/d75/a22769.html", "d3/d75/a22769" ],
-    [ "boss_moragg", "df/d51/a22765.html#aeb43f9cc4c41f049fd0a13e79cadfcd1", null ],
-    [ "GetAI", "df/d51/a22765.html#a5ea2f210038b3e44bf2cb9c402e1b761", null ]
+    [ "npc_erekem_guardAI", "d3/d75/a22769.html", "d3/d75/a22769" ],
+    [ "npc_erekem_guard", "df/d51/a22765.html#a78592996e90f77f81eec0325a7f11956", null ],
+    [ "GetAI", "df/d51/a22765.html#a844a6a29eda4f41547ea37a4c08fb723", null ]
 ];

@@ -1,6 +1,5 @@
 var a21381 =
 [
-    [ "npc_ulduar_toasty_fireAI", "df/d41/a21381.html#a145001c6f1c1d505f810ae545ec62c69", null ],
-    [ "DoAction", "df/d41/a21381.html#a8ab71582cc5d8386f788fb95203fbab5", null ],
-    [ "SpellHit", "df/d41/a21381.html#a0e4475382dfd754dc119d2e8dba61b7e", null ]
+    [ "go_ulduar_pure_saronite_deposit", "df/d41/a21381.html#a39da51a78b9f27392ed7494e18e89b93", null ],
+    [ "OnGossipHello", "df/d41/a21381.html#ab69c5b514e0b79ff7155e0080841d4a2", null ]
 ];

@@ -1,6 +1,6 @@
 var a17933 =
 [
-    [ "spell_festergut_blighted_spores_AuraScript", "df/da7/a17937.html", "df/da7/a17937" ],
-    [ "spell_festergut_blighted_spores", "d6/de3/a17933.html#a06f35b3041040e214aefd45cf2968da0", null ],
-    [ "GetAuraScript", "d6/de3/a17933.html#a377f4c2ee1eccee7353e896e77e64f5e", null ]
+    [ "spell_deathbringer_boiling_blood_SpellScript", "df/da7/a17937.html", "df/da7/a17937" ],
+    [ "spell_deathbringer_boiling_blood", "d6/de3/a17933.html#a6bd146702ac1cc743095e0fb609ba40d", null ],
+    [ "GetSpellScript", "d6/de3/a17933.html#a7899158c05fad4c68d00dc60fc80bb32", null ]
 ];

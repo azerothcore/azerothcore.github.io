@@ -1,6 +1,7 @@
 var a26397 =
 [
-    [ "HandleSummon", "db/de8/a26397.html#a00e265d830ea3e8a0a1952984c438071", null ],
-    [ "PrepareSpellScript", "db/de8/a26397.html#a96df13b19964b6e89babb312465b90bc", null ],
-    [ "Register", "db/de8/a26397.html#a5341e4ddf1b1ef94099c337114164ba8", null ]
+    [ "HandleDummy", "db/de8/a26397.html#a54f7f56a9122b623855eb9d11e34dfca", null ],
+    [ "PrepareSpellScript", "db/de8/a26397.html#a2fe4b009fa3741c180e18730af5853e3", null ],
+    [ "Register", "db/de8/a26397.html#a762c2320ab8d48e1284d81962a4b078f", null ],
+    [ "Validate", "db/de8/a26397.html#a42fbc381d7ae89f1ac265fb15ebd864f", null ]
 ];

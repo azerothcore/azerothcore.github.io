@@ -1,6 +1,6 @@
 var a21317 =
 [
-    [ "FilterTargets", "d6/dff/a21317.html#ae402120aab16d5482da1a9306eb3004f", null ],
-    [ "PrepareSpellScript", "d6/dff/a21317.html#a34b4255000d13229e460ecf1456cd6c7", null ],
-    [ "Register", "d6/dff/a21317.html#a7248095987b083eb7d597dd80dc3ad36", null ]
+    [ "npc_ulduar_saronite_vaporsAI", "d6/d16/a21321.html", "d6/d16/a21321" ],
+    [ "npc_ulduar_saronite_vapors", "d6/dff/a21317.html#a567c3aca8c381167ca278c2c3562e6f6", null ],
+    [ "GetAI", "d6/dff/a21317.html#a3c2e7b6263f8935da9291c736b14d139", null ]
 ];

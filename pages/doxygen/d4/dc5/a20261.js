@@ -1,7 +1,6 @@
 var a20261 =
 [
-    [ "EoEDrakeEnterVehicleEvent", "d4/dc5/a20261.html#afc529efe07da017e529dc6d5ebc6e7dc", null ],
-    [ "Execute", "d4/dc5/a20261.html#a368a613ba7861f7903b80e6f7f0dd64f", null ],
-    [ "_owner", "d4/dc5/a20261.html#ab48302fdff800afddfeec2c0d756873c", null ],
-    [ "_playerGUID", "d4/dc5/a20261.html#add56bff0695453e01f300e0434a39ec8", null ]
+    [ "npc_hover_diskAI", "d7/d1f/a20265.html", "d7/d1f/a20265" ],
+    [ "npc_hover_disk", "d4/dc5/a20261.html#af0ab534387a2af4e168915801ee855e5", null ],
+    [ "GetAI", "d4/dc5/a20261.html#adbe9285126089ca998e9b6360f42c553", null ]
 ];

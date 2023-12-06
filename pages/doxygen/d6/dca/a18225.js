@@ -1,9 +1,6 @@
 var a18225 =
 [
-    [ "CheckAreaTarget", "d6/dca/a18225.html#ad5150df78fc9881746c3281e6edf1f51", null ],
-    [ "HandleApply", "d6/dca/a18225.html#a3991de6a244924d460229e5c3c609ede", null ],
-    [ "Load", "d6/dca/a18225.html#a29c136840fc0ac1e9d222d0f4d3f2e95", null ],
-    [ "PrepareAuraScript", "d6/dca/a18225.html#a03de8f7412037e5c7954232428924d01", null ],
-    [ "Register", "d6/dca/a18225.html#a96b616bc463eedac860780420bcdd3d7", null ],
-    [ "_teamIdInInstance", "d6/dca/a18225.html#a200f12af50740f602d20be8957fef679", null ]
+    [ "HandleDummy", "d6/dca/a18225.html#a0cbade5e48c3805952e726c9d3d3b1e4", null ],
+    [ "PrepareSpellScript", "d6/dca/a18225.html#a211cd8e76872ee3c5599346c5d04dfc6", null ],
+    [ "Register", "d6/dca/a18225.html#af02bd276839f3588be337e1f6516de5f", null ]
 ];

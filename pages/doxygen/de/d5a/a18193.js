@@ -1,6 +1,6 @@
 var a18193 =
 [
-    [ "IgbArtilleryCheck", "de/d5a/a18193.html#a78b65928551ed799cf3f446f0603c50e", null ],
-    [ "operator()", "de/d5a/a18193.html#ac083bfb9a5fa2b9888c4e31254baada6", null ],
-    [ "_entry", "de/d5a/a18193.html#a98a6a0836414da82c288e372e982f69f", null ]
+    [ "spell_igb_cannon_blast_SpellScript", "d2/dce/a18197.html", "d2/dce/a18197" ],
+    [ "spell_igb_cannon_blast", "de/d5a/a18193.html#a8d4db0c581b4f7e8995cfdf3764ea0e6", null ],
+    [ "GetSpellScript", "de/d5a/a18193.html#af9e0fe1f4352173ab46e8bc9105ba9a4", null ]
 ];

@@ -1,8 +1,6 @@
 var a16037 =
 [
-    [ "boss_sartharion_shadronAI", "d2/d64/a16037.html#a02e2e657ac74ab37a4568589511de664", null ],
-    [ "ExecuteEvent", "d2/d64/a16037.html#a6a26f1f777988be6eaf8b1a675bbbabb", null ],
-    [ "HandleExtraEvent", "d2/d64/a16037.html#a3db5e816f6253f9c4251690bfbbe1912", null ],
-    [ "Reset", "d2/d64/a16037.html#a7054cde1de2166c2b06489187115cb3f", null ],
-    [ "SummonedCreatureDies", "d2/d64/a16037.html#a8b70b3b7287108ad13caeb85a83cf26f", null ]
+    [ "HandleScriptEffect", "d2/d64/a16037.html#a00b7ec2b596ffac803dac4b5bcd3af75", null ],
+    [ "PrepareSpellScript", "d2/d64/a16037.html#af800b520c55f279803272c816ef97ebd", null ],
+    [ "Register", "d2/d64/a16037.html#a389d152e7f806b8320d59fa2c110d6f4", null ]
 ];

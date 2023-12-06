@@ -1,8 +1,25 @@
 var a16053 =
 [
-    [ "npc_twilight_summonAI", "da/d19/a16053.html#a8f5dfe54a5ac1d7a058c5efb9bead77a", null ],
-    [ "DoAction", "da/d19/a16053.html#aac4c1e3bc635b30f1ceed8b25f2c7829", null ],
-    [ "Reset", "da/d19/a16053.html#a1174c827aef1b05603214e4717c78f8a", null ],
-    [ "UpdateAI", "da/d19/a16053.html#addb312c34c668b8189087de6cf89543b", null ],
-    [ "fadeArmorTimer", "da/d19/a16053.html#ace4028c8f4d0240b4e2939481312d0d2", null ]
+    [ "boss_sartharionAI", "da/d19/a16053.html#aea51fa7b0e55c9ae635a95f7a1aea161", null ],
+    [ "DamageTaken", "da/d19/a16053.html#a0f16f9865159338c46e140c01650a728", null ],
+    [ "DoAction", "da/d19/a16053.html#af3c28d7eff6df494bbca6156df5fb014", null ],
+    [ "GetData", "da/d19/a16053.html#a6d45699d2efacdc0aca88dba3f67d20a", null ],
+    [ "IsTargetInBounds", "da/d19/a16053.html#a5ed942da2e53ecc63ec15fa8cf8c3325", null ],
+    [ "JustDied", "da/d19/a16053.html#ac0a2915976f7dfb21786c161d5e43d3f", null ],
+    [ "JustEngagedWith", "da/d19/a16053.html#a15c50a40ae2a6caa873993c6e330600c", null ],
+    [ "JustSummoned", "da/d19/a16053.html#ac5dc745f044bdf673b7f92b194063d94", null ],
+    [ "KilledUnit", "da/d19/a16053.html#a8502d5c79b7baac2f9a68349e99b7b16", null ],
+    [ "Reset", "da/d19/a16053.html#ab72889e00eb1fad659f807620e81e23e", null ],
+    [ "RespawnDragons", "da/d19/a16053.html#a5014e6aebdda3b84cd22fd2f66ed691b", null ],
+    [ "SendLavaWaves", "da/d19/a16053.html#a14384c3853570d0f7580d72d0008b986", null ],
+    [ "SetData", "da/d19/a16053.html#ad992cf36966069dc00d5509a54445213", null ],
+    [ "SummonLavaWaves", "da/d19/a16053.html#aadd3b8f29b49b67685d67036c5f2775f", null ],
+    [ "SummonStartingTriggers", "da/d19/a16053.html#a17f64c07e9c83c7e25bf9fba5b9f3ba4", null ],
+    [ "UpdateAI", "da/d19/a16053.html#a7aaca15038bf53ff3baaeb39c7713bff", null ],
+    [ "below11PctReached", "da/d19/a16053.html#ae838ffe0fdee72f4d4b1c02a9cbde949", null ],
+    [ "dragonsCount", "da/d19/a16053.html#a3bb9defa2a2a3acc6caadaaa361027ee", null ],
+    [ "extraEvents", "da/d19/a16053.html#a4d2e7a5aae63664e437c1e9ac22846cb", null ],
+    [ "lastLavaSide", "da/d19/a16053.html#ab9c3a5d19c966e547328ce2a28674069", null ],
+    [ "usedBerserk", "da/d19/a16053.html#a4790e98b3e8d02021b00e14aafec3aff", null ],
+    [ "volcanoBlows", "da/d19/a16053.html#a1d6e306084fb64742d28beb1f65ef338", null ]
 ];

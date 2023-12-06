@@ -1,18 +1,14 @@
 var a16761 =
 [
-    [ "boss_icehowlAI", "d4/d3e/a16761.html#a81fbfe9bb9d6186e36af2dd24c2dca5e", null ],
-    [ "AttackStart", "d4/d3e/a16761.html#ab40b1bb5338fab72aa23f650925d5ed0", null ],
-    [ "DoTrampleIfValid", "d4/d3e/a16761.html#ae3df64882f344dddc1480574d078e9a0", null ],
-    [ "EnterEvadeMode", "d4/d3e/a16761.html#afeebf7a1039b3eed4b351e88751818b5", null ],
-    [ "JustDied", "d4/d3e/a16761.html#ae29d8fc7d1ad3e57785c1c31ec73fa86", null ],
-    [ "JustEngagedWith", "d4/d3e/a16761.html#aac8165285ec44942217e93ad25a3668b", null ],
-    [ "JustReachedHome", "d4/d3e/a16761.html#a1034e0e9f5af03cd1d36aef4df724bc9", null ],
-    [ "MovementInform", "d4/d3e/a16761.html#a664ac70b8bb380329aacdf11cfb53bf1", null ],
-    [ "UpdateAI", "d4/d3e/a16761.html#a0972a2b86426f6d0efbde3d8b802a8f3", null ],
-    [ "destX", "d4/d3e/a16761.html#ace7b1c523d1845eabe1806fbf75453aa", null ],
-    [ "destY", "d4/d3e/a16761.html#aebb7d901669fe987e805e0dfcfe9993a", null ],
-    [ "destZ", "d4/d3e/a16761.html#ab9f08e2f505368869063093f531f8794", null ],
-    [ "events", "d4/d3e/a16761.html#a302879641400e0f0b329fd960256c9fb", null ],
-    [ "pInstance", "d4/d3e/a16761.html#a4149dd25a04d661448255858e57387f4", null ],
-    [ "TargetGUID", "d4/d3e/a16761.html#ac5068efd8a3b192e8302264039c30933", null ]
+    [ "npc_snobold_vassalAI", "d4/d3e/a16761.html#a2ecc5e8289252b2936f36de9921294e0", null ],
+    [ "AttackStart", "d4/d3e/a16761.html#a50afc82c80cede8dcf3240a116463411", null ],
+    [ "DoAction", "d4/d3e/a16761.html#a8beac97ea5f7c797d2ae52e2f3c3be50", null ],
+    [ "JustDied", "d4/d3e/a16761.html#aef408460584a17f15a84e8a6435c6348", null ],
+    [ "JustEngagedWith", "d4/d3e/a16761.html#a60c1704617e99239d60d24d6b7513c1a", null ],
+    [ "MoveInLineOfSight", "d4/d3e/a16761.html#aae75a4e69e27c1e4778a7f76caff04ba", null ],
+    [ "Reset", "d4/d3e/a16761.html#af794f46b1a7af97b52683954b556c27d", null ],
+    [ "UpdateAI", "d4/d3e/a16761.html#ac1d282da6f2d9133619a212a349c777f", null ],
+    [ "events", "d4/d3e/a16761.html#adfb6df0ee8ab19b58de24da8d4e6d9df", null ],
+    [ "pInstance", "d4/d3e/a16761.html#afc140e6f9fc1ec78914aecc5150345b0", null ],
+    [ "TargetGUID", "d4/d3e/a16761.html#a0d36e4903448c5a03115df0dff3480c8", null ]
 ];

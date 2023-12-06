@@ -1,6 +1,7 @@
 var a10757 =
 [
-    [ "HitHandler", "da/db8/a10757.html#a41c5a6853bf72c113388995dc3ebaba7", null ],
-    [ "Call", "da/db8/a10757.html#a157baaa3ceba62a9910cba5377bd7699", null ],
-    [ "pHitHandlerScript", "da/db8/a10757.html#ac24144e49930a01a3049740a4072f626", null ]
+    [ "WorldObjectSpellNearbyTargetCheck", "da/db8/a10757.html#afda548f6394c5d11a7ca229fe6b3d402", null ],
+    [ "operator()", "da/db8/a10757.html#a731ee07d028a5ee63ecd14321c83664d", null ],
+    [ "_position", "da/db8/a10757.html#a7b19899dd015a73bd1ae4c71fa9ae79d", null ],
+    [ "_range", "da/db8/a10757.html#abfec0df490876b2b83dcdee4da75a77f", null ]
 ];

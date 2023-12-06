@@ -1,7 +1,8 @@
 var a08917 =
 [
-    [ "ObjectTypeIdCheck", "d4/d8a/a08917.html#a40af6d4d15e92aaaf2c9bb53ce9bb290", null ],
-    [ "operator()", "d4/d8a/a08917.html#a9cbd09a6021bef7819a0002952264293", null ],
-    [ "_equals", "d4/d8a/a08917.html#ab08a6e18731ccb822a71a1530f6966c3", null ],
-    [ "_typeId", "d4/d8a/a08917.html#a70e9a07e4c2c559bc55b8003db3af3be", null ]
+    [ "MostHPMissingInRange", "d4/d8a/a08917.html#afaa26b685d4e6b0b8d3e7f062ae9fe72", null ],
+    [ "operator()", "d4/d8a/a08917.html#a420388204d8a1420552b902fbcb2bebe", null ],
+    [ "i_hp", "d4/d8a/a08917.html#a4a70531f3dc19e7a2eedde0a03142297", null ],
+    [ "i_obj", "d4/d8a/a08917.html#a6f803fd737b4cc81c7b9c890c49b497e", null ],
+    [ "i_range", "d4/d8a/a08917.html#acef63da9004997c7f25056651284efa9", null ]
 ];

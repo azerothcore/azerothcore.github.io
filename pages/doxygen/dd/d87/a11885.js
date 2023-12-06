@@ -1,7 +1,7 @@
 var a11885 =
 [
-    [ "HandleHit", "dd/d87/a11885.html#a2d53542426dfed033df2b02392599263", null ],
-    [ "PrepareSpellScript", "dd/d87/a11885.html#a643c25c558499a8371ebc669eafa7e48", null ],
-    [ "Register", "dd/d87/a11885.html#a4a4ba3131e6a8feca7670c4a71c3ba3c", null ],
-    [ "Validate", "dd/d87/a11885.html#a542503089e738e473e9f318040b0b292", null ]
+    [ "HandlePeriodic", "dd/d87/a11885.html#a72e043202c587e6c12d0b36d679cd071", null ],
+    [ "PrepareAuraScript", "dd/d87/a11885.html#a7ca007283e34855ee825ae160653f4a3", null ],
+    [ "Register", "dd/d87/a11885.html#aebad39c65167042be8db3c3a1811a235", null ],
+    [ "Validate", "dd/d87/a11885.html#aaf87c4052fd5408f7e34e2e14500e813", null ]
 ];

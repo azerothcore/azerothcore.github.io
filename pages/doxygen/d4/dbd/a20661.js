@@ -1,5 +1,6 @@
 var a20661 =
 [
-    [ "boss_sjonnir_dwarfAI", "d4/dbd/a20661.html#aee7608282bef500a7eb3e0d3130fa01c", null ],
-    [ "UpdateAI", "d4/dbd/a20661.html#afef50cec19e4cb2018c7c8a9e36ef41c", null ]
+    [ "spell_krystallus_shatter_SpellScript", "dd/d40/a20665.html", "dd/d40/a20665" ],
+    [ "spell_krystallus_shatter", "d4/dbd/a20661.html#a3845e28e2e90252c04e5f8355cba748a", null ],
+    [ "GetSpellScript", "d4/dbd/a20661.html#a0d52e0904ed8a694adc2c40131f7c9e9", null ]
 ];

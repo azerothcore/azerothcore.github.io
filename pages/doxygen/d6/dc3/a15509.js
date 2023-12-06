@@ -1,6 +1,6 @@
 var a15509 =
 [
-    [ "npc_bunthen_plainswind", "d6/dc3/a15509.html#ad9b789ad3e958dee4733b142813b6302", null ],
-    [ "OnGossipHello", "d6/dc3/a15509.html#ae2fe8bfb957dd8ea84d2585293c3b6eb", null ],
-    [ "OnGossipSelect", "d6/dc3/a15509.html#a117f28d513ac645b9d3d908d052d2146", null ]
+    [ "spell_voodoo_SpellScript", "d5/df0/a15513.html", "d5/df0/a15513" ],
+    [ "spell_voodoo", "d6/dc3/a15509.html#a417117236c8db209efb8bbe38841a33c", null ],
+    [ "GetSpellScript", "d6/dc3/a15509.html#ab66bfee36abc8f6ccd3da85d36e2d705", null ]
 ];

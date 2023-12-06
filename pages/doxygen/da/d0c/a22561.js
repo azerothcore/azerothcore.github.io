@@ -1,6 +1,6 @@
 var a22561 =
 [
-    [ "boss_svalaAI", "d0/d50/a22565.html", "d0/d50/a22565" ],
-    [ "boss_svala", "da/d0c/a22561.html#a7ac5866eb6a013cb03f3d459b13b4a62", null ],
-    [ "GetAI", "da/d0c/a22561.html#a0c3b94635eca667a28496cf799efad25", null ]
+    [ "npc_frenzied_worgenAI", "d0/d50/a22565.html", "d0/d50/a22565" ],
+    [ "npc_frenzied_worgen", "da/d0c/a22561.html#ad46eb89ab86876950652f6dd6b7dc91a", null ],
+    [ "GetAI", "da/d0c/a22561.html#a1ed46e8e6bd001f8f35492f340ab1d56", null ]
 ];

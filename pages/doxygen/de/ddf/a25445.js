@@ -1,8 +1,6 @@
 var a25445 =
 [
-    [ "FilterTargets", "de/ddf/a25445.html#ae366594b668331a19f384ceb48654c0c", null ],
-    [ "HandleOnHit", "de/ddf/a25445.html#abe5665fde7f01fafdfb55c58d8edbcf1", null ],
-    [ "PrepareSpellScript", "de/ddf/a25445.html#a71aa4018d293391a73d3317c1e80951d", null ],
-    [ "Register", "de/ddf/a25445.html#a3da162fd2cafc2e1236db0c6d4f65440", null ],
-    [ "Validate", "de/ddf/a25445.html#a3747ad271dc659436ae7a8203b964554", null ]
+    [ "instance_the_botanica_InstanceMapScript", "d9/d36/a25449.html", "d9/d36/a25449" ],
+    [ "instance_the_botanica", "de/ddf/a25445.html#a8f8acda65f37e45e2439707f3979cf7c", null ],
+    [ "GetInstanceScript", "de/ddf/a25445.html#a335f671443ca0fb9db5956cefdf37182", null ]
 ];

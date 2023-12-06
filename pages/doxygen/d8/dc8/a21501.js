@@ -1,5 +1,6 @@
 var a21501 =
 [
-    [ "achievement_staying_buffed_all_winter_25", "d8/dc8/a21501.html#a91f0ab3bada837cff6414350b98a27a3", null ],
-    [ "OnCheck", "d8/dc8/a21501.html#a36591082184bc8466e124bad9a910545", null ]
+    [ "spell_hodir_storm_power_AuraScript", "d5/d71/a21505.html", "d5/d71/a21505" ],
+    [ "spell_hodir_storm_power", "d8/dc8/a21501.html#a70994976d36b72b069bd383cbd1e5365", null ],
+    [ "GetAuraScript", "d8/dc8/a21501.html#a880331bf7f10002c0516ffa05413b333", null ]
 ];

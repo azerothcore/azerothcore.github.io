@@ -1,7 +1,6 @@
 var a18969 =
 [
-    [ "OnPeriodic", "d0/d36/a18969.html#ae306475845b2e83a08a226d8e78a0beb", null ],
-    [ "OnUpdate", "d0/d36/a18969.html#affc809d41b0d19adb6fd62ee2923fe71", null ],
-    [ "PrepareAuraScript", "d0/d36/a18969.html#a97a51fd229180056cf87785d4ad62e1c", null ],
-    [ "Register", "d0/d36/a18969.html#af6f4af51d4297e2e221f92b30c9a69a4", null ]
+    [ "spell_the_lich_king_jump_SpellScript", "d3/de6/a18973.html", "d3/de6/a18973" ],
+    [ "spell_the_lich_king_jump", "d0/d36/a18969.html#a777d80e45c4cca2750e5d3b130002161", null ],
+    [ "GetSpellScript", "d0/d36/a18969.html#a885dd75546bececaac3110a211fadbda", null ]
 ];

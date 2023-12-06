@@ -1,8 +1,6 @@
 var a11861 =
 [
-    [ "boss_garrAI", "d8/d4e/a11861.html#a12d403a90bf4920763ddd87b252f544a", null ],
-    [ "JustEngagedWith", "d8/d4e/a11861.html#a3b2bf0e6d3b6b32c450d03b1c88f3850", null ],
-    [ "Reset", "d8/d4e/a11861.html#acb14e869dac8e7df83b5b9d858cd2b21", null ],
-    [ "UpdateAI", "d8/d4e/a11861.html#aca82837e143f4509db221de15276b90c", null ],
-    [ "massEruptionTimer", "d8/d4e/a11861.html#ab807c47afd1ba8320730c3aa733e1b15", null ]
+    [ "boss_victor_nefariusAI", "d3/db0/a11865.html", "d3/db0/a11865" ],
+    [ "boss_victor_nefarius", "d8/d4e/a11861.html#a85c529c49a0373a553bc59818fb18f49", null ],
+    [ "GetAI", "d8/d4e/a11861.html#a6ea19bde6980cbb4ca627d17cf57ae24", null ]
 ];

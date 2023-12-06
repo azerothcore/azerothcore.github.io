@@ -1,7 +1,6 @@
 var a21589 =
 [
-    [ "StoneGripTargetSelector", "d5/df1/a21589.html#a74fc772e2bc0694dee05fe82de4463e2", null ],
-    [ "operator()", "d5/df1/a21589.html#ae40653def55e656f2347029a97605395", null ],
-    [ "_me", "d5/df1/a21589.html#ae5781d6b553491a1e3e8bfde2b965c3a", null ],
-    [ "_victim", "d5/df1/a21589.html#a09c3c6f832c20776f11b72a468a4b0bb", null ]
+    [ "spell_ignis_slag_pot_AuraScript", "da/d8f/a21593.html", "da/d8f/a21593" ],
+    [ "spell_ignis_slag_pot", "d5/df1/a21589.html#a25967a1dbd6efbe87517535673fc9831", null ],
+    [ "GetAuraScript", "d5/df1/a21589.html#a4d08de1acd7e6fcb50a8876b365d818d", null ]
 ];

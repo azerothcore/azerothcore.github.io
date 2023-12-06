@@ -1,6 +1,6 @@
 var a13189 =
 [
-    [ "spell_muru_darkness_AuraScript", "d3/d2c/a13193.html", "d3/d2c/a13193" ],
-    [ "spell_muru_darkness", "d7/d19/a13189.html#a6b6c6d9189d28bbb54cff4bee90a75b2", null ],
-    [ "GetAuraScript", "d7/d19/a13189.html#a6403321f79158cdb2834c16cb7d7c7a8", null ]
+    [ "spell_kiljaeden_darkness_AuraScript", "d3/d2c/a13193.html", "d3/d2c/a13193" ],
+    [ "spell_kiljaeden_darkness", "d7/d19/a13189.html#aae321af3a7ded7b686527908a2e8960c", null ],
+    [ "GetAuraScript", "d7/d19/a13189.html#a4f2e98c678cfea3e6f3311366daa7fb8", null ]
 ];

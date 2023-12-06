@@ -1,6 +1,6 @@
 var a20761 =
 [
-    [ "npc_living_constellationAI", "d7/dbb/a20765.html", "d7/dbb/a20765" ],
-    [ "npc_living_constellation", "db/d22/a20761.html#a6ee651a525498cb5715ccfedaa26e05d", null ],
-    [ "GetAI", "db/d22/a20761.html#a4533812a4da72c0d9eff6d6c9eaf772a", null ]
+    [ "instance_halls_of_stone_InstanceMapScript", "d7/dbb/a20765.html", "d7/dbb/a20765" ],
+    [ "instance_halls_of_stone", "db/d22/a20761.html#ad0237cfaf2e48036f45181fd7746df2b", null ],
+    [ "GetInstanceScript", "db/d22/a20761.html#a784906c7710a216016101cf7a6a915f3", null ]
 ];

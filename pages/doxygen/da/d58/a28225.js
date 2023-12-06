@@ -1,6 +1,6 @@
 var a28225 =
 [
-    [ "HandleDummy", "da/d58/a28225.html#abac8aa528d6d83748cf4cdbdaa8313f6", null ],
-    [ "PrepareSpellScript", "da/d58/a28225.html#ae80dda98f66c1fbaa37741ffd52a1108", null ],
-    [ "Register", "da/d58/a28225.html#a90fbc5d1b22cbc59550a430a63c08032", null ]
+    [ "PrepareSpellScript", "da/d58/a28225.html#ac0322966abdb57fbe19c3e2117caa56b", null ],
+    [ "Register", "da/d58/a28225.html#a7ddfa827654b6bb0a11aaddf41dc62f9", null ],
+    [ "SetDest", "da/d58/a28225.html#ad1012e0f8ae1cf2ff18d886e10d6fca6", null ]
 ];

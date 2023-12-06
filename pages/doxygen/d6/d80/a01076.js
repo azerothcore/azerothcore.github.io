@@ -1,18 +1,13 @@
 var a01076 =
 [
-    [ "UnitBaseEvent", "da/d3a/a07409.html", "da/d3a/a07409" ],
-    [ "ThreatRefStatusChangeEvent", "dc/d89/a07413.html", "dc/d89/a07413" ],
-    [ "ThreatMgrEvent", "df/d98/a07421.html", "df/d98/a07421" ],
-    [ "UEV_ALL_EVENT_MASK", "d6/d80/a01076.html#a99af7f8805c877a694d51ab4feb1e58b", null ],
-    [ "UEV_THREAT_MANAGER_EVENT_MASK", "d6/d80/a01076.html#a28d3aa8f148208fa65f5ef1af46913cc", null ],
-    [ "UEV_THREAT_REF_EVENT_MASK", "d6/d80/a01076.html#aca3c8db6dd274b113d9c3c7755ff5d7a", null ],
-    [ "UNIT_EVENT_TYPE", "d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97", [
-      [ "UEV_THREAT_REF_ONLINE_STATUS", "d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9", null ],
-      [ "UEV_THREAT_REF_THREAT_CHANGE", "d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0", null ],
-      [ "UEV_THREAT_REF_REMOVE_FROM_LIST", "d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0", null ],
-      [ "UEV_THREAT_REF_ASSECCIBLE_STATUS", "d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97abd7481924e1cb036704820e5be0407db", null ],
-      [ "UEV_THREAT_SORT_LIST", "d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97a74092d5fa151b78ce0de1ddf3ed05865", null ],
-      [ "UEV_THREAT_SET_NEXT_TARGET", "d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97ac45249081756ba40d712bd7e08626ed9", null ],
-      [ "UEV_THREAT_VICTIM_CHANGED", "d6/d80/a01076.html#a5207de6e2fb421d2579a9baf4c471e97af02166c466fbff650b908cd08c7e4669", null ]
-    ] ]
+    [ "DisableMgr::anonymous_namespace{DisableMgr.cpp}::DisableData", "df/d40/a07573.html", "df/d40/a07573" ],
+    [ "DisableMap", "d6/d80/a01076.html#a2b8dd8b0bc5f58e812c1bd969ee833d6", null ],
+    [ "DisableTypeMap", "d6/d80/a01076.html#a1dc7ac8fd11c81da83700d364483165a", null ],
+    [ "CheckQuestDisables", "d6/d80/a01076.html#a2f9fa5dadf6f2da5f01651d37d996377", null ],
+    [ "IsDisabledFor", "d6/d80/a01076.html#a6673bbc719c96febfc86a4220a988ed0", null ],
+    [ "IsPathfindingEnabled", "d6/d80/a01076.html#ad6a338e6f295d785a4f9256703ffbd71", null ],
+    [ "IsVMAPDisabledFor", "d6/d80/a01076.html#a38b182e1836b2197303b2809006f5148", null ],
+    [ "LoadDisables", "d6/d80/a01076.html#adb464165caf6cd436499fa84969eeaf8", null ],
+    [ "m_DisableMap", "d6/d80/a01076.html#a15af74f7cffff305a48d31529df515e7", null ],
+    [ "MAX_DISABLE_TYPES", "d6/d80/a01076.html#a55c2ff1d7d10ed3d5f30071472d692fb", null ]
 ];

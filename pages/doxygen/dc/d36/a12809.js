@@ -1,5 +1,7 @@
 var a12809 =
 [
-    [ "at_malfurion_stormrage", "dc/d36/a12809.html#ac5da3d1a7c2ccaffee68cfaee04fb63c", null ],
-    [ "OnTrigger", "dc/d36/a12809.html#a0aa7818bd09b8a456d1ebbaa7d5f5c1d", null ]
+    [ "HandleAfterCast", "dc/d36/a12809.html#afa662fbe1b777047259ac6212961f7a5", null ],
+    [ "HandleScript", "dc/d36/a12809.html#acd21d059ce10a64a3fe648d104d75ec1", null ],
+    [ "PrepareSpellScript", "dc/d36/a12809.html#aca33d0a7c792a6ac18deaaa945a28a26", null ],
+    [ "Register", "dc/d36/a12809.html#a4a898b0b096583af33f1f691a252b2ed", null ]
 ];

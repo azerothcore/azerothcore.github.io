@@ -1,6 +1,6 @@
 var a24321 =
 [
-    [ "HandleDummy", "d0/d3e/a24321.html#a710005e8656e428794f120e9dcefc0d1", null ],
-    [ "PrepareSpellScript", "d0/d3e/a24321.html#a0cd5c6121360ff60c489c1cc59619a1c", null ],
-    [ "Register", "d0/d3e/a24321.html#ad2465b228ebef77f82e8b1de81863b68", null ]
+    [ "boss_illidan_stormrageAI", "db/d98/a24325.html", "db/d98/a24325" ],
+    [ "boss_illidan_stormrage", "d0/d3e/a24321.html#ad123b0fe64c2f430c157024aa4087290", null ],
+    [ "GetAI", "d0/d3e/a24321.html#ad413d6d6c0171643b1c14b9a39422976", null ]
 ];

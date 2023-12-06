@@ -1,6 +1,8 @@
 var a16533 =
 [
-    [ "spell_gen_leeching_swarm_dmg_SpellScript", "d4/d46/a16537.html", "d4/d46/a16537" ],
-    [ "spell_gen_leeching_swarm_dmg", "d2/d88/a16533.html#a9f6b89aee3b080ce3b675635097750ff", null ],
-    [ "GetSpellScript", "d2/d88/a16533.html#a4fa3aca5964728833eb1615df4f31221", null ]
+    [ "npc_frost_sphereAI", "d2/d88/a16533.html#ae697a98d23d94315768dc866852b6e07", null ],
+    [ "DamageTaken", "d2/d88/a16533.html#a3960f19b456f29a33016d799809a82a8", null ],
+    [ "SpellHit", "d2/d88/a16533.html#af842d47f1e8462fb6368e9dc7a070b84", null ],
+    [ "UpdateAI", "d2/d88/a16533.html#a4e866332045135c867f2b9ee871db0c2", null ],
+    [ "permafrostTimer", "d2/d88/a16533.html#adf7b1b447d0d05a498dd8603dbfab1ab", null ]
 ];

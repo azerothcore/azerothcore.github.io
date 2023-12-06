@@ -1,6 +1,6 @@
 var a28945 =
 [
-    [ "go_witherbark_totem_bundleAI", "d1/d9d/a28945.html#a955625e2315008a2e36936d44f825060", null ],
-    [ "UpdateAI", "d1/d9d/a28945.html#af688bab2dc3d938951adb303e8b8d88b", null ],
-    [ "_timer", "d1/d9d/a28945.html#a509e6d8401380c326a0f565a6b903d7a", null ]
+    [ "go_flamesAI", "db/d3b/a28949.html", "db/d3b/a28949" ],
+    [ "go_flames", "d1/d9d/a28945.html#a75d49202eaf2078b8276e59944d1ec89", null ],
+    [ "GetAI", "d1/d9d/a28945.html#aea11412e7d17b744b4e70ec754a1e6cc", null ]
 ];

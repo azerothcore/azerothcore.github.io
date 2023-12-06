@@ -1,7 +1,6 @@
 var a22285 =
 [
-    [ "HandleEffectCalcPeriodic", "da/dfa/a22285.html#aeb74b415b958635ba1d8b55dac734702", null ],
-    [ "HandleEffectPeriodic", "da/dfa/a22285.html#ab92b48c2a43fb4b205d219d6a90b16d5", null ],
-    [ "PrepareAuraScript", "da/dfa/a22285.html#ae8a68fb64eee79351412854ab7d14036", null ],
-    [ "Register", "da/dfa/a22285.html#a287cb216db4efe6976e3bcebbb868e52", null ]
+    [ "spell_yogg_saron_protective_gaze_AuraScript", "de/dc1/a22289.html", "de/dc1/a22289" ],
+    [ "spell_yogg_saron_protective_gaze", "da/dfa/a22285.html#a2be1ba1b8f3ece1026247b940389e21d", null ],
+    [ "GetAuraScript", "da/dfa/a22285.html#a80c8c5faca46119e79ea128dba168bda", null ]
 ];

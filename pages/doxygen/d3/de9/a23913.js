@@ -1,6 +1,7 @@
 var a23913 =
 [
-    [ "spell_wintergrasp_portal_SpellScript", "d0/dc8/a23917.html", "d0/dc8/a23917" ],
-    [ "spell_wintergrasp_portal", "d3/de9/a23913.html#a49dabb99b164354d4296f38cc81a21a1", null ],
-    [ "GetSpellScript", "d3/de9/a23913.html#afdef0e6418ac9e943151de621c531c50", null ]
+    [ "npc_wg_quest_giver", "d3/de9/a23913.html#a68589ab4ce9f43247154f3c66d8107b8", null ],
+    [ "GetDialogStatus", "d3/de9/a23913.html#acd5c1462fe51a350c80af4f3ab46bac8", null ],
+    [ "OnGossipHello", "d3/de9/a23913.html#ad08debc749cbaea6fad9b7bcfb5548e0", null ],
+    [ "OnGossipSelect", "d3/de9/a23913.html#a9d42e558d68eee9f0f96ac1f8cd1a409", null ]
 ];

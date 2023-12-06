@@ -1,6 +1,6 @@
 var a25053 =
 [
-    [ "spell_morogrim_tidewalker_watery_grave_SpellScript", "da/d41/a25057.html", "da/d41/a25057" ],
-    [ "spell_morogrim_tidewalker_watery_grave", "dd/d3e/a25053.html#aa69b398145cf26f614a7acbb217c7937", null ],
-    [ "GetSpellScript", "dd/d3e/a25053.html#ad79c26b93899eec1e0c6d9391c5d985c", null ]
+    [ "HandleAfterRemove", "dd/d3e/a25053.html#a74610b06095572aa2c898cd84e0fb229", null ],
+    [ "PrepareAuraScript", "dd/d3e/a25053.html#ac0d686490ff37810e0116dea4d0b6077", null ],
+    [ "Register", "dd/d3e/a25053.html#aad72f4aaa19f92f7a71241311f5d0582", null ]
 ];

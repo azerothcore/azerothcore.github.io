@@ -1,6 +1,6 @@
 var a12469 =
 [
-    [ "npc_scarlet_cannonAI", "d6/db3/a12473.html", "d6/db3/a12473" ],
-    [ "npc_scarlet_cannon", "d7/dfd/a12469.html#a10bb35cbbdae3508a2300ba3dacc1ea3", null ],
-    [ "GetAI", "d7/dfd/a12469.html#ae2b74a4dab4b34f026fd17d5ed381c99", null ]
+    [ "boss_warlord_salaris", "d7/dfd/a12469.html#afe9ace28dcd302e9b9a9ebe806e2ada5", null ],
+    [ "JustEngagedWith", "d7/dfd/a12469.html#a77b3b531466810ee17f9fd6eadf5872a", null ],
+    [ "UpdateAI", "d7/dfd/a12469.html#a265aab47f95d952125c98773b53a67bf", null ]
 ];

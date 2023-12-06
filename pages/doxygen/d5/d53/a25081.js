@@ -1,6 +1,7 @@
 var a25081 =
 [
-    [ "PrepareAuraScript", "d5/d53/a25081.html#ada2ad10f9fcd15d08b5d40c751afc446", null ],
-    [ "Register", "d5/d53/a25081.html#ab749c59bdf020e55fbb8480d6c86587f", null ],
-    [ "AuraEffectHandleModes", "d5/d53/a25081.html#a07221c7e84ccb26828793f6a4c9e69ed", null ]
+    [ "npc_underbog_mushroom", "d5/d53/a25081.html#a2b77b2590d46c14c783d2df4a3699c44", null ],
+    [ "InitializeAI", "d5/d53/a25081.html#a7c192010cc63715eaa3f38b1d1372936", null ],
+    [ "UpdateAI", "d5/d53/a25081.html#a9a8ed51b12809152ebe78dda69944d77", null ],
+    [ "_scheduler", "d5/d53/a25081.html#a407cdb1096e5212dd0a50ea4fa401112", null ]
 ];

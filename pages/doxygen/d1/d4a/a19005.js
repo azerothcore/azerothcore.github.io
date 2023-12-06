@@ -1,6 +1,7 @@
 var a19005 =
 [
-    [ "CheckTargetCount", "d1/d4a/a19005.html#a35cd079dceb69cb597622b1570a38cb8", null ],
-    [ "PrepareSpellScript", "d1/d4a/a19005.html#a47a889d9c3592fb2bf6131ad0068e419", null ],
-    [ "Register", "d1/d4a/a19005.html#a59632b3387e7880885b8a8ca9dff7b85", null ]
+    [ "OnPeriodic", "d1/d4a/a19005.html#ae306475845b2e83a08a226d8e78a0beb", null ],
+    [ "OnUpdate", "d1/d4a/a19005.html#affc809d41b0d19adb6fd62ee2923fe71", null ],
+    [ "PrepareAuraScript", "d1/d4a/a19005.html#a97a51fd229180056cf87785d4ad62e1c", null ],
+    [ "Register", "d1/d4a/a19005.html#af6f4af51d4297e2e221f92b30c9a69a4", null ]
 ];

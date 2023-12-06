@@ -1,6 +1,6 @@
 var a22189 =
 [
-    [ "boss_yoggsaron_voiceAI", "de/da2/a22193.html", "de/da2/a22193" ],
-    [ "boss_yoggsaron_voice", "df/da3/a22189.html#ae5d10416bb83e57c0e9d3ef5d6f5adc6", null ],
-    [ "GetAI", "df/da3/a22189.html#a50abcde0313df06a114a2f5f44a1d481", null ]
+    [ "boss_yoggsaron_influence_tentacleAI", "df/da3/a22189.html#ae7457ed8084888b1074a44dd9a7ed0c7", null ],
+    [ "DamageTaken", "df/da3/a22189.html#ad46e93ffb89c9c3ee9bfbe0f27c7117c", null ],
+    [ "JustDied", "df/da3/a22189.html#ab09c96d167b9502098b9a7a2fa1b82ec", null ]
 ];

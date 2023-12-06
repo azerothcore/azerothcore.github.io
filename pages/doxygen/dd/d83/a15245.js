@@ -1,9 +1,7 @@
 var a15245 =
 [
-    [ "npc_ahnqiraji_critter", "dd/d83/a15245.html#a60e2dc1c52579a410d3435126bf39684", null ],
-    [ "JustDied", "dd/d83/a15245.html#a71d3d5262bde847a18932fea89cb6648", null ],
-    [ "JustEngagedWith", "dd/d83/a15245.html#aca1df706306f9181db26cd77e5b66452", null ],
-    [ "Reset", "dd/d83/a15245.html#a645e16e9da29f6579320394201d0ada7", null ],
-    [ "UpdateAI", "dd/d83/a15245.html#a68c5ded8563c2de9429a13cdb7d38f89", null ],
-    [ "_scheduler", "dd/d83/a15245.html#a020fabd57b6943b7ac3cf58605276a4d", null ]
+    [ "boss_glob_of_viscidus", "dd/d83/a15245.html#a1ba72393766110382dc4ce4122dfd1ee", null ],
+    [ "InitializeAI", "dd/d83/a15245.html#a0247055fc4f3a60c880ffb78e96edcb9", null ],
+    [ "MovementInform", "dd/d83/a15245.html#abe0cd95930fe52fdb5a40c704d092b90", null ],
+    [ "UpdateAI", "dd/d83/a15245.html#a2e8e38ccdf4ab5e32bd750d73daf1605", null ]
 ];

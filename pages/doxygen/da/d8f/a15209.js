@@ -1,6 +1,7 @@
 var a15209 =
 [
-    [ "aqsentinelAI", "d6/da0/a15213.html", "d6/da0/a15213" ],
-    [ "npc_anubisath_sentinel", "da/d8f/a15209.html#ada1ab0d1857fe52020e798d9710a66cb", null ],
-    [ "GetAI", "da/d8f/a15209.html#ae19b8ba3766ede8f715dad5ff8d4b2d2", null ]
+    [ "npc_sartura_royal_guard", "da/d8f/a15209.html#a3ce2aeec4e5f26916ef50bdeea624c9d", null ],
+    [ "JustEngagedWith", "da/d8f/a15209.html#a0b162e1fcc925f65fedbfe235b59eb0e", null ],
+    [ "Reset", "da/d8f/a15209.html#a2b604aada12ca7f3e712cdbd1a3f397a", null ],
+    [ "UpdateAI", "da/d8f/a15209.html#a2ed50f65847133c897facecbaa4711d8", null ]
 ];

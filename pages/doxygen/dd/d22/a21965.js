@@ -1,6 +1,5 @@
 var a21965 =
 [
-    [ "npc_xt002_heartAI", "db/d43/a21969.html", "db/d43/a21969" ],
-    [ "npc_xt002_heart", "dd/d22/a21965.html#ab914ce1e945080b873cf6f93e3a6a32c", null ],
-    [ "GetAI", "dd/d22/a21965.html#af59c6623b97d1adff765e8ba4958d482", null ]
+    [ "go_thorim_lever", "dd/d22/a21965.html#a7641a89c3c369d26753a6e97dd435802", null ],
+    [ "OnGossipHello", "dd/d22/a21965.html#aa48cd4d5728bd2d012a91f51299827a0", null ]
 ];

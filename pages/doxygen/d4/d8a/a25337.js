@@ -1,14 +1,16 @@
 var a25337 =
 [
-    [ "boss_vazruden", "d4/d8a/a25337.html#a9908d6082a09d55dd0d8bb801784a151", null ],
-    [ "DamageTaken", "d4/d8a/a25337.html#a44b1e4d43bbf0d7faec7f4ee277db811", null ],
-    [ "EnterEvadeMode", "d4/d8a/a25337.html#aba006e8e9aefe522ea5c36c638bb5c3b", null ],
-    [ "JustDied", "d4/d8a/a25337.html#a525025b41b53a577bdff1eb818191ed7", null ],
-    [ "JustEngagedWith", "d4/d8a/a25337.html#a5dbbe80fcfe191ac5ae03f943496ad02", null ],
-    [ "KilledUnit", "d4/d8a/a25337.html#a8f430a0d7edb0285156c6bf68ba0aa07", null ],
-    [ "Reset", "d4/d8a/a25337.html#a11b5091dafe2f0de9afd81de7b6fde90", null ],
-    [ "UpdateAI", "d4/d8a/a25337.html#aebaf147a1a2e723cb0cb8e46f3d01e68", null ],
-    [ "_hasSpoken", "d4/d8a/a25337.html#af5b9aa9c7a343486b4dc05819e8d3ccf", null ],
-    [ "_nazanCalled", "d4/d8a/a25337.html#a44d53934c743e9beb539681719997852", null ],
-    [ "_scheduler", "d4/d8a/a25337.html#a60382206e378c2f2c493d1ee25c4ff8c", null ]
+    [ "boss_warchief_kargath_bladefist", "d4/d8a/a25337.html#a0957dbfd6c085575fa862f38c87b6b3d", null ],
+    [ "InitializeAI", "d4/d8a/a25337.html#a86d9b5b1500960235e76ae71337a6c90", null ],
+    [ "IsInRoom", "d4/d8a/a25337.html#af9d4bd9d94115a1040e1e4a4dbf8df83", null ],
+    [ "JustDied", "d4/d8a/a25337.html#a436b90336c90f6662f3ce704a62f0d90", null ],
+    [ "JustEngagedWith", "d4/d8a/a25337.html#ab3d7b0ebca4f8134e5c2f31422ff006b", null ],
+    [ "JustSummoned", "d4/d8a/a25337.html#aaa69f064d7eb3a0d107c835c806fa1de", null ],
+    [ "KilledUnit", "d4/d8a/a25337.html#a730bbd2f95a2919fba1a7300b4307b84", null ],
+    [ "MovementInform", "d4/d8a/a25337.html#a716eab9bda2b697252dde90aa513d7df", null ],
+    [ "Reset", "d4/d8a/a25337.html#a50fa7a5aed8d3f4916f0449c4fb075ac", null ],
+    [ "RespawnAssassins", "d4/d8a/a25337.html#a1397317259589ea69f77f52f60852043", null ],
+    [ "SummonedCreatureDies", "d4/d8a/a25337.html#a325da34f78d202708a58c1a543ecb8ca", null ],
+    [ "UpdateAI", "d4/d8a/a25337.html#acd463cac8e2fa8289ecb5567709db678", null ],
+    [ "_danceCount", "d4/d8a/a25337.html#af4a60caaef6388caff973295e3397a7d", null ]
 ];

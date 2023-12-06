@@ -1,14 +1,11 @@
 var a03977 =
 [
-    [ "go_main_chambers_access_panel", "d7/ddd/a25161.html", "d7/ddd/a25161" ],
-    [ "instance_steam_vault", "d2/dd8/a25165.html", "d2/dd8/a25165" ],
-    [ "instance_steam_vault::instance_steam_vault_InstanceMapScript", "d6/d89/a25169.html", "d6/d89/a25169" ],
-    [ "MainChambersAccessPanelSays", "d9/d2b/a03977.html#aa8d293574a308aad41f620556eb63b6a", [
-      [ "SAY_FAINT_ECHO", "d9/d2b/a03977.html#aa8d293574a308aad41f620556eb63b6aadbbafef44899cd7d93e10aaa27f52992", null ],
-      [ "SAY_LOUD_RUMBLE", "d9/d2b/a03977.html#aa8d293574a308aad41f620556eb63b6aa420e4ca090aea66dfe08994ddce97884", null ]
-    ] ],
-    [ "AddSC_instance_steam_vault", "d9/d2b/a03977.html#a944f7f7f41e047f2a4f82fb9af0b4829", null ],
-    [ "creatureData", "d9/d2b/a03977.html#a412286b689bd324fedd65ddd8dde8afb", null ],
-    [ "minionData", "d9/d2b/a03977.html#a6720238df140a3c574a711042b7f5bd3", null ],
-    [ "objectData", "d9/d2b/a03977.html#a59ddfa91084111da23b5d47482e4ff8d", null ]
+    [ "AddOutdoorPvPScripts", "d9/d2b/a03977.html#a489bdfb4854732e561b6b13b70f67a0f", null ],
+    [ "AddSC_outdoorpvp_ep", "d9/d2b/a03977.html#ac97adfc1efbcf82840cffa915a55fecb", null ],
+    [ "AddSC_outdoorpvp_gh", "d9/d2b/a03977.html#a04eaa29ec2e34f71e4f7addacc0405c0", null ],
+    [ "AddSC_outdoorpvp_hp", "d9/d2b/a03977.html#a69303ad6f661d8c009ee493dc4fd486c", null ],
+    [ "AddSC_outdoorpvp_na", "d9/d2b/a03977.html#a03015585e7619177355fefd05f85e1c7", null ],
+    [ "AddSC_outdoorpvp_si", "d9/d2b/a03977.html#a6dfd2849f525333510ae4febbbc3ae1f", null ],
+    [ "AddSC_outdoorpvp_tf", "d9/d2b/a03977.html#a6df553c8dd6e9b81e83110e7beab3646", null ],
+    [ "AddSC_outdoorpvp_zm", "d9/d2b/a03977.html#a3077d08865fa83f84cf956c392a9091c", null ]
 ];

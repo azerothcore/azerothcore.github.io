@@ -1,6 +1,6 @@
 var a24481 =
 [
-    [ "spell_reliquary_of_souls_aura_of_suffering_AuraScript", "d8/d1f/a24485.html", "d8/d1f/a24485" ],
-    [ "spell_reliquary_of_souls_aura_of_suffering", "d1/dc6/a24481.html#aef49cd325a2d2f96c5a50961ea06bc02", null ],
-    [ "GetAuraScript", "d1/dc6/a24481.html#a58930aa74300b51ed2fbbed397abdb4e", null ]
+    [ "HandleDummy", "d1/dc6/a24481.html#abc61270dfcd54361901f271279932424", null ],
+    [ "PrepareSpellScript", "d1/dc6/a24481.html#a92942babd0ee54c82cc8cbe062e13718", null ],
+    [ "Register", "d1/dc6/a24481.html#acce764e36e97a10ddb2cfeac0edc04d0", null ]
 ];

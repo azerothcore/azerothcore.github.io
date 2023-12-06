@@ -1,5 +1,6 @@
 var a12493 =
 [
-    [ "go_acherus_soul_prison", "dc/d4d/a12493.html#a13c858f74080b8f7963fdacc4b554019", null ],
-    [ "OnGossipHello", "dc/d4d/a12493.html#a904059cbeac3ddb3acf07ec1afe78c37", null ]
+    [ "instance_magisters_terrace_InstanceMapScript", "db/d77/a12497.html", "db/d77/a12497" ],
+    [ "instance_magisters_terrace", "dc/d4d/a12493.html#a81e23ce04c4d765193d2d2763ef78987", null ],
+    [ "GetInstanceScript", "dc/d4d/a12493.html#a465cbaebb13535cdb7f6a2108e026fc5", null ]
 ];

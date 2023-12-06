@@ -1,6 +1,6 @@
 var a18385 =
 [
-    [ "npc_volatile_oozeAI", "da/d1b/a18389.html", "da/d1b/a18389" ],
-    [ "npc_volatile_ooze", "db/daa/a18385.html#a22847e44812a0b13b92cfcca3a70204e", null ],
-    [ "GetAI", "db/daa/a18385.html#a66b4918c14d90d5550ddc8dbe90c2e01", null ]
+    [ "PrepareSpellScript", "db/daa/a18385.html#a36eba217756746e85dd6f36ecafd1773", null ],
+    [ "RecalculateDamage", "db/daa/a18385.html#adb184e0ad7c1628579d5a66bb188f98c", null ],
+    [ "Register", "db/daa/a18385.html#a8b188ae324cdec7a0e0fad910941ee49", null ]
 ];

@@ -1,12 +1,7 @@
 var a09937 =
 [
-    [ "Packet", "db/dc0/a09937.html#a316af2b7ce1ac7189fb1e57f534bad11", null ],
-    [ "~Packet", "db/dc0/a09937.html#a2ca1e6377bb2fb10bf042311e72eb5d4", null ],
-    [ "Packet", "db/dc0/a09937.html#a00213b64110a99004b3d9a6b38876cd4", null ],
-    [ "GetRawPacket", "db/dc0/a09937.html#a9d8649e1b035fe7387dcee3e0b062a5e", null ],
-    [ "GetSize", "db/dc0/a09937.html#a7e2913ab179fcaf80a65d27ff56298c7", null ],
-    [ "operator=", "db/dc0/a09937.html#a6d2afd0d4b0d7daff11868854b7c4715", null ],
-    [ "Read", "db/dc0/a09937.html#a94afc4d66c2b5bced3063bab5a666bfd", null ],
-    [ "Write", "db/dc0/a09937.html#af7c79156d7b6cfe3142fc530f9ed262a", null ],
-    [ "_worldPacket", "db/dc0/a09937.html#ab85f1c9f20117bc5015180165c7b458a", null ]
+    [ "GameEventScript", "db/dc0/a09937.html#a002972b8742b5c01f31a9aed096cf4a1", null ],
+    [ "OnEventCheck", "db/dc0/a09937.html#aadab9593da561e9b19202d09b53cba36", null ],
+    [ "OnStart", "db/dc0/a09937.html#a0e61a9e1379aef55af93a593af84a3cc", null ],
+    [ "OnStop", "db/dc0/a09937.html#a4813f26f03e5ba79a740bf30558e604c", null ]
 ];

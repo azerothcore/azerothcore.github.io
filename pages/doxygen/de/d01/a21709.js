@@ -1,5 +1,6 @@
 var a21709 =
 [
-    [ "PrepareAuraScript", "de/d01/a21709.html#a554aed7557e3c00f1c6de9b9872ee70b", null ],
-    [ "Register", "de/d01/a21709.html#a0cf02d4c43b83ba5d86eaeab024f9012", null ]
+    [ "npc_ulduar_proximity_mineAI", "d7/d92/a21713.html", "d7/d92/a21713" ],
+    [ "npc_ulduar_proximity_mine", "de/d01/a21709.html#ac33beb07e17712cdda1b3434d9dc8222", null ],
+    [ "GetAI", "de/d01/a21709.html#a7d8237b965699004f9df731e357b4020", null ]
 ];

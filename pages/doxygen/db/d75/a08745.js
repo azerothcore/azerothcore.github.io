@@ -1,9 +1,11 @@
 var a08745 =
 [
-    [ "PlayerDistWorker", "db/d75/a08745.html#a53c207607485724ba7c3aa5e9fd02b51", null ],
-    [ "Visit", "db/d75/a08745.html#a6cb5d9bdf26bc96a24e5660ca3b3758b", null ],
-    [ "Visit", "db/d75/a08745.html#a2658f12f90953f1057a9377b21824879", null ],
-    [ "i_dist", "db/d75/a08745.html#aad16511b6a9aaa3eb561f636475ffe97", null ],
-    [ "i_do", "db/d75/a08745.html#a0e1738a71d7feda9f607ee964ff1fff2", null ],
-    [ "i_searcher", "db/d75/a08745.html#a3a3bf9b1a4bd06c54c99ceb7ba39941f", null ]
+    [ "~Grid", "db/d75/a08745.html#a86be65dc86f104566acd41078429e4c4", null ],
+    [ "AddGridObject", "db/d75/a08745.html#ad78b74974ec1f4a361096c8f4d7500d7", null ],
+    [ "AddWorldObject", "db/d75/a08745.html#aac7dc4f1c3024b2286fed2ae51688a99", null ],
+    [ "Visit", "db/d75/a08745.html#aa69a55ee52da73b9ec3c62406cb4a595", null ],
+    [ "Visit", "db/d75/a08745.html#aebdcac90d763779775dbc0f0492e5279", null ],
+    [ "GridLoader", "db/d75/a08745.html#a06e47216bdac43edea86c507c93a6ed4", null ],
+    [ "i_container", "db/d75/a08745.html#a510723553d7206edb25792856c6c369b", null ],
+    [ "i_objects", "db/d75/a08745.html#a3bf441ec395e8e4cecdb8d63b6600bef", null ]
 ];

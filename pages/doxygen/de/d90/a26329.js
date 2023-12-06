@@ -1,8 +1,6 @@
 var a26329 =
 [
-    [ "npc_pet_darting_hatchling", "de/d90/a26329.html#a7ae5973061068396bf382dc21e88cd44", null ],
-    [ "SpellHit", "de/d90/a26329.html#a29ea5438bab7e606175c02165a607f9b", null ],
-    [ "UpdateAI", "de/d90/a26329.html#a23196d05aebe5fa4a65455c55368820a", null ],
-    [ "checkTimer", "de/d90/a26329.html#a3539276158abb5fd183ed1aa03a8ead8", null ],
-    [ "goFast", "de/d90/a26329.html#aaf80b40200f2b8eb2861c69b1dbd2dde", null ]
+    [ "HandleProc", "de/d90/a26329.html#a8fb0e7e5e50fcb201e8e55ee9621034e", null ],
+    [ "PrepareAuraScript", "de/d90/a26329.html#a2f42e70482f71a4c275f70897b90ed72", null ],
+    [ "Register", "de/d90/a26329.html#a048f59b6b0d52232e3a953f173324fc2", null ]
 ];

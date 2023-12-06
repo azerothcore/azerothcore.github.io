@@ -1,6 +1,6 @@
 var a13113 =
 [
-    [ "HandleRemove", "d6/d75/a13113.html#ae1738fb8746fada246ebc20a2a0e93f8", null ],
-    [ "PrepareAuraScript", "d6/d75/a13113.html#af0091b08259704d94cafbb1e278e5505", null ],
-    [ "Register", "d6/d75/a13113.html#a6c49b00b7d86d0fab033d56d0f775082", null ]
+    [ "spell_kalecgos_spectral_realm_AuraScript", "dc/d5b/a13117.html", "dc/d5b/a13117" ],
+    [ "spell_kalecgos_spectral_realm", "d6/d75/a13113.html#ad3a42e2c7426ad54f1ae78e73df44c02", null ],
+    [ "GetAuraScript", "d6/d75/a13113.html#ad1221b321ac957345a29d66dfc6c09c6", null ]
 ];

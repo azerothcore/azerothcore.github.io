@@ -1,10 +1,6 @@
 var a07561 =
 [
-    [ "AssistDelayEvent", "d8/d58/a07561.html#a022b9cf38b8e059df2dceca38e366b7d", null ],
-    [ "AssistDelayEvent", "d8/d58/a07561.html#a5371fc2a2f9334b821058b96d0c6bc13", null ],
-    [ "AddAssistant", "d8/d58/a07561.html#a987303ec41927528e9a5abfd9ab75512", null ],
-    [ "Execute", "d8/d58/a07561.html#a5afd295abeb1295e43f48b8951b24c35", null ],
-    [ "m_assistants", "d8/d58/a07561.html#ac6de6befda582bd38f92afda01204e94", null ],
-    [ "m_owner", "d8/d58/a07561.html#aabcce364c8009e8172b9d090059ce48c", null ],
-    [ "m_victim", "d8/d58/a07561.html#a47aff9ce39f5fec3718d6564e53b799e", null ]
+    [ "ConditionSourceInfo", "d8/d58/a07561.html#adc6441ec52fab3ab8d2b58a146a3fef3", null ],
+    [ "mConditionTargets", "d8/d58/a07561.html#acb67deba44021698a447e8288bca0bd4", null ],
+    [ "mLastFailedCondition", "d8/d58/a07561.html#a099d3457a0a15d8feeacc0dc8c32d439", null ]
 ];

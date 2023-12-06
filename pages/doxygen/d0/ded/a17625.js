@@ -1,6 +1,6 @@
 var a17625 =
 [
-    [ "npc_dark_nucleusAI", "d6/dcb/a17629.html", "d6/dcb/a17629" ],
-    [ "npc_dark_nucleus", "d0/ded/a17625.html#a14459f4f41ef568decbc952fdcd4ffd5", null ],
-    [ "GetAI", "d0/ded/a17625.html#a1f59ae45c1a84a6faca5a8bb62fc16fc", null ]
+    [ "ShockVortexExplodeEvent", "d0/ded/a17625.html#ad972aed372822e10a476d1592192f3ea", null ],
+    [ "Execute", "d0/ded/a17625.html#a601f777052b8a142db49e9b0ab1fa81a", null ],
+    [ "_owner", "d0/ded/a17625.html#a76b1887e486969fcd7a236a8eb7a9a2a", null ]
 ];

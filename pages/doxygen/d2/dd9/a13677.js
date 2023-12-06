@@ -1,8 +1,6 @@
 var a13677 =
 [
-    [ "boss_slitherAI", "d2/dd9/a13677.html#a4cd9ca5bc5c2121edd72bc65c2f4182b", null ],
-    [ "AttackStart", "d2/dd9/a13677.html#a8f2da73ffa694e7933d8ce0965105a97", null ],
-    [ "Reset", "d2/dd9/a13677.html#ab2de8f1b9b51c1a04664cf3864ae4ef9", null ],
-    [ "UpdateAI", "d2/dd9/a13677.html#a9df057eabc5338745786385055d1334e", null ],
-    [ "venomspit_timer", "d2/dd9/a13677.html#a33649cb1e8fc177073982ccafbd387e6", null ]
+    [ "boss_halazziAI", "d1/dab/a13681.html", "d1/dab/a13681" ],
+    [ "boss_halazzi", "d2/dd9/a13677.html#a2b0d26af83a902943f452ec8690e8ad4", null ],
+    [ "GetAI", "d2/dd9/a13677.html#abef33eb2dd6c730be7eb0f5260f584c8", null ]
 ];

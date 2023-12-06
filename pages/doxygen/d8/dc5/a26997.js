@@ -1,8 +1,9 @@
 var a26997 =
 [
-    [ "OnApply", "d8/dc5/a26997.html#a9ea247d39fa51d9722c17e6ea83a0e55", null ],
-    [ "OnRemove", "d8/dc5/a26997.html#abd45d59ecd41274bd02c17fb066a521e", null ],
-    [ "PrepareAuraScript", "d8/dc5/a26997.html#af30811301599459bf2a99a68608a053f", null ],
-    [ "Register", "d8/dc5/a26997.html#a0eb56dc80c02932a0d7cf4cca7079c75", null ],
-    [ "Validate", "d8/dc5/a26997.html#a29c5049e4455737ff96596a18af118d0", null ]
+    [ "spell_gen_lifebloom", "d8/dc5/a26997.html#a5cb52a4dda841d9d31fd00a31ddc3350", null ],
+    [ "AfterRemove", "d8/dc5/a26997.html#aea962f603e56c1bd33fccaef0c89d917", null ],
+    [ "PrepareAuraScript", "d8/dc5/a26997.html#ac11134bdc3588795ce6e256c5b02055f", null ],
+    [ "Register", "d8/dc5/a26997.html#ab4a552402ee9f90834320d6fc668cff3", null ],
+    [ "Validate", "d8/dc5/a26997.html#a599634d92b92a5635b89733b7bb3c3c8", null ],
+    [ "_spellId", "d8/dc5/a26997.html#a196484d01d2dc07163e18fdca9f60ca9", null ]
 ];

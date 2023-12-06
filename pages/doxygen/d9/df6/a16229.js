@@ -1,6 +1,6 @@
 var a16229 =
 [
-    [ "HandleScriptEffect", "d9/df6/a16229.html#afbb78ed59b5acf4a5d0441590f2536bb", null ],
-    [ "PrepareSpellScript", "d9/df6/a16229.html#adf6989699fd1689e4390756fd4c4c68c", null ],
-    [ "Register", "d9/df6/a16229.html#af571bb4d110e2537149db3ad203e25c5", null ]
+    [ "spell_halion_blazing_aura_SpellScript", "d4/dc6/a16233.html", "d4/dc6/a16233" ],
+    [ "spell_halion_blazing_aura", "d9/df6/a16229.html#afb3b9b29967d916550ec28154c61f466", null ],
+    [ "GetSpellScript", "d9/df6/a16229.html#a59ec3e872d3e4c4576c1f18266d2eaae", null ]
 ];

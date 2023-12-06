@@ -1,6 +1,6 @@
 var a20521 =
 [
-    [ "spell_oculus_rider_auraAuraScript", "d6/d76/a20525.html", "d6/d76/a20525" ],
-    [ "spell_oculus_rider_aura", "db/d39/a20521.html#a1b5d9cf803d837c1422229f2b6c4d114", null ],
-    [ "GetAuraScript", "db/d39/a20521.html#a0bbacb6e44fb8950a21b89561c7ea01b", null ]
+    [ "HandleEffectCalcAmount", "db/d39/a20521.html#a204f40b6f89b4e91c3dacde1872df3dd", null ],
+    [ "PrepareAuraScript", "db/d39/a20521.html#ac1531a1fc8c3f9e1a96c52905d61c219", null ],
+    [ "Register", "db/d39/a20521.html#aa3c64f6ea6e8cc99ff9978c820530fb1", null ]
 ];

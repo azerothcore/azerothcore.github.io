@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/game/Entities/DynamicObject/DynamicObject.h File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/game/Entities/GameObject/GameObjectData.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,56 +107,105 @@ $(document).ready(function(){initNavTree('de/db5/a01181.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">DynamicObject.h File Reference</div></div>
+  <div class="headertitle"><div class="title">GameObjectData.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Object.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/a07697.html">DynamicObject</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d31/a07865.html">GameObjectTemplate</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/a07989.html">GameObjectTemplateAddon</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d67/a07993.html">GameObjectLocale</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3b/a07997.html">GameObjectAddon</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1a/a08001.html">GameObjectData</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a7698721f2eb4f87abac1a64a64ecf676"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a01181.html#a7698721f2eb4f87abac1a64a64ecf676">MAX_GAMEOBJECT_QUEST_ITEMS</a>&#160;&#160;&#160;6</td></tr>
+<tr class="separator:a7698721f2eb4f87abac1a64a64ecf676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac148792c2982ecdddc593bf3871aa520"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a01181.html#ac148792c2982ecdddc593bf3871aa520">MAX_GO_STATE</a>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:ac148792c2982ecdddc593bf3871aa520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:aee85c2f840289bcf773609333ee91131"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a01181.html#aee85c2f840289bcf773609333ee91131">DynamicObjectType</a> { <br />
-&#160;&#160;<a class="el" href="../../de/db5/a01181.html#aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b">DYNAMIC_OBJECT_PORTAL</a> = 0x0
+<tr class="memitem:ac17cd142af80da019367bb796b15e5ab"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a01181.html#ac17cd142af80da019367bb796b15e5ab">GOState</a> { <br />
+&#160;&#160;<a class="el" href="../../de/db5/a01181.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a> = 0
 , <br />
-&#160;&#160;<a class="el" href="../../de/db5/a01181.html#aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546">DYNAMIC_OBJECT_AREA_SPELL</a> = 0x1
+&#160;&#160;<a class="el" href="../../de/db5/a01181.html#ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650">GO_STATE_READY</a> = 1
 , <br />
-&#160;&#160;<a class="el" href="../../de/db5/a01181.html#aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d">DYNAMIC_OBJECT_FARSIGHT_FOCUS</a> = 0x2
+&#160;&#160;<a class="el" href="../../de/db5/a01181.html#ac17cd142af80da019367bb796b15e5abaf8410e5f8e696adf15ecdd441dee7e0e">GO_STATE_ACTIVE_ALTERNATIVE</a> = 2
 <br />
  }</td></tr>
-<tr class="separator:aee85c2f840289bcf773609333ee91131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ac17cd142af80da019367bb796b15e5ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="aee85c2f840289bcf773609333ee91131" name="aee85c2f840289bcf773609333ee91131"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee85c2f840289bcf773609333ee91131">&#9670;&#160;</a></span>DynamicObjectType</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a7698721f2eb4f87abac1a64a64ecf676" name="a7698721f2eb4f87abac1a64a64ecf676"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7698721f2eb4f87abac1a64a64ecf676">&#9670;&#160;</a></span>MAX_GAMEOBJECT_QUEST_ITEMS</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../de/db5/a01181.html#aee85c2f840289bcf773609333ee91131">DynamicObjectType</a></td>
+          <td class="memname">#define MAX_GAMEOBJECT_QUEST_ITEMS&#160;&#160;&#160;6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac148792c2982ecdddc593bf3871aa520" name="ac148792c2982ecdddc593bf3871aa520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac148792c2982ecdddc593bf3871aa520">&#9670;&#160;</a></span>MAX_GO_STATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_GO_STATE&#160;&#160;&#160;3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ac17cd142af80da019367bb796b15e5ab" name="ac17cd142af80da019367bb796b15e5ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac17cd142af80da019367bb796b15e5ab">&#9670;&#160;</a></span>GOState</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../de/db5/a01181.html#ac17cd142af80da019367bb796b15e5ab">GOState</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b" name="aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b"></a>DYNAMIC_OBJECT_PORTAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546" name="aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546"></a>DYNAMIC_OBJECT_AREA_SPELL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d" name="aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d"></a>DYNAMIC_OBJECT_FARSIGHT_FOCUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e" name="ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e"></a>GO_STATE_ACTIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650" name="ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650"></a>GO_STATE_READY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac17cd142af80da019367bb796b15e5abaf8410e5f8e696adf15ecdd441dee7e0e" name="ac17cd142af80da019367bb796b15e5abaf8410e5f8e696adf15ecdd441dee7e0e"></a>GO_STATE_ACTIVE_ALTERNATIVE&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../de/db5/a01181.html#aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b">DYNAMIC_OBJECT_PORTAL</a>           = 0x0,      <span class="comment">// unused</span></div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../de/db5/a01181.html#aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546">DYNAMIC_OBJECT_AREA_SPELL</a>       = 0x1,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../de/db5/a01181.html#aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d">DYNAMIC_OBJECT_FARSIGHT_FOCUS</a>   = 0x2,</div>
-<div class="line"><span class="lineno">   32</span>};</div>
-<div class="ttc" id="aa01181_html_aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b"><div class="ttname"><a href="../../de/db5/a01181.html#aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b">DYNAMIC_OBJECT_PORTAL</a></div><div class="ttdeci">@ DYNAMIC_OBJECT_PORTAL</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:29</div></div>
-<div class="ttc" id="aa01181_html_aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d"><div class="ttname"><a href="../../de/db5/a01181.html#aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d">DYNAMIC_OBJECT_FARSIGHT_FOCUS</a></div><div class="ttdeci">@ DYNAMIC_OBJECT_FARSIGHT_FOCUS</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:31</div></div>
-<div class="ttc" id="aa01181_html_aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546"><div class="ttname"><a href="../../de/db5/a01181.html#aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546">DYNAMIC_OBJECT_AREA_SPELL</a></div><div class="ttdeci">@ DYNAMIC_OBJECT_AREA_SPELL</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:30</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  689</span>{</div>
+<div class="line"><span class="lineno">  690</span>    <a class="code hl_enumvalue" href="../../de/db5/a01181.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a> = 0,                        <span class="comment">// show in world as used and not reset (closed door open)</span></div>
+<div class="line"><span class="lineno">  691</span>    <a class="code hl_enumvalue" href="../../de/db5/a01181.html#ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650">GO_STATE_READY</a> = 1,                        <span class="comment">// show in world as ready (closed door close)</span></div>
+<div class="line"><span class="lineno">  692</span>    <a class="code hl_enumvalue" href="../../de/db5/a01181.html#ac17cd142af80da019367bb796b15e5abaf8410e5f8e696adf15ecdd441dee7e0e">GO_STATE_ACTIVE_ALTERNATIVE</a> = 2                         <span class="comment">// show in world as used in alt way and not reset (closed door open by cannon fire)</span></div>
+<div class="line"><span class="lineno">  693</span>};</div>
+<div class="ttc" id="aa01181_html_ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650"><div class="ttname"><a href="../../de/db5/a01181.html#ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650">GO_STATE_READY</a></div><div class="ttdeci">@ GO_STATE_READY</div><div class="ttdef"><b>Definition:</b> GameObjectData.h:691</div></div>
+<div class="ttc" id="aa01181_html_ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e"><div class="ttname"><a href="../../de/db5/a01181.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a></div><div class="ttdeci">@ GO_STATE_ACTIVE</div><div class="ttdef"><b>Definition:</b> GameObjectData.h:690</div></div>
+<div class="ttc" id="aa01181_html_ac17cd142af80da019367bb796b15e5abaf8410e5f8e696adf15ecdd441dee7e0e"><div class="ttname"><a href="../../de/db5/a01181.html#ac17cd142af80da019367bb796b15e5abaf8410e5f8e696adf15ecdd441dee7e0e">GO_STATE_ACTIVE_ALTERNATIVE</a></div><div class="ttdeci">@ GO_STATE_ACTIVE_ALTERNATIVE</div><div class="ttdef"><b>Definition:</b> GameObjectData.h:692</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -165,8 +214,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_433144acbd6159b6f819bf3bc146888c.html">DynamicObject</a></li><li class="navelem"><a class="el" href="../../de/db5/a01181.html">DynamicObject.h</a></li>
-    <li class="footer">Generated on Sun Aug 20 2023 00:18:55 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_8a86f46c68fd9f4cbeaa550d3ee2afc5.html">GameObject</a></li><li class="navelem"><a class="el" href="../../de/db5/a01181.html">GameObjectData.h</a></li>
+    <li class="footer">Generated on Wed Dec 6 2023 22:12:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

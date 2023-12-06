@@ -1,10 +1,12 @@
 var a14025 =
 [
-    [ "npc_zealot_zathAI", "d4/d02/a14025.html#a4349f90c3af28f2bafdc1d73b70b3ab5", null ],
-    [ "JustDied", "d4/d02/a14025.html#a276120361ca1d02a503fe5b08ff0dce4", null ],
-    [ "JustEngagedWith", "d4/d02/a14025.html#a2818bc9c2d3d6477c1d6e06168b15502", null ],
-    [ "Reset", "d4/d02/a14025.html#a59ff3bf94408198375823d703e764e17", null ],
-    [ "UpdateAI", "d4/d02/a14025.html#a64438c811c2a5b0aeff73f0924b36541", null ],
-    [ "_scheduler", "d4/d02/a14025.html#a6711a648a161a582c45b2138d950ff75", null ],
-    [ "instance", "d4/d02/a14025.html#aa4b1bf3038e4a9506e52b957cb3b8ec7", null ]
+    [ "npc_chained_spirit", "d4/d02/a14025.html#a5f407e700a2086f971bed0e8c0def0db", null ],
+    [ "DoAction", "d4/d02/a14025.html#a7205ef13ca0d164a9222c049bc582254", null ],
+    [ "JustDied", "d4/d02/a14025.html#a3b405503231173e7ff7aa52e34f63da5", null ],
+    [ "MovementInform", "d4/d02/a14025.html#a469a8fdc4a40857ff1dc0af9ead74d3c", null ],
+    [ "Reset", "d4/d02/a14025.html#a2a8a8a429492511aac697878b5dc4cc3", null ],
+    [ "SetGUID", "d4/d02/a14025.html#acbe42c0692e8c1d671f2745ff8c2f9bb", null ],
+    [ "UpdateAI", "d4/d02/a14025.html#a38d14b69c71bf2902a916028580fbfad", null ],
+    [ "instance", "d4/d02/a14025.html#ad5dd92208d6a23954fef6348f4abbd23", null ],
+    [ "revivePlayerGUID", "d4/d02/a14025.html#a193fddae1d3eb84bc36842adbb1fe86a", null ]
 ];

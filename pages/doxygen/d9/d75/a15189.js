@@ -1,5 +1,6 @@
 var a15189 =
 [
-    [ "npc_toxic_slime", "d9/d75/a15189.html#a4c3a03916280342ec9aec07049de161f", null ],
-    [ "InitializeAI", "d9/d75/a15189.html#ae69f228040aaa5bc4df40a652f551992", null ]
+    [ "FilterTargets", "d9/d75/a15189.html#a15ebe9125f5f4a8f66241ee4da1ac83e", null ],
+    [ "PrepareSpellScript", "d9/d75/a15189.html#a32b0be74a9127f920e22aa03c910a005", null ],
+    [ "Register", "d9/d75/a15189.html#a80efa2858d4270c497e49a1fe6a7472e", null ]
 ];

@@ -1,6 +1,5 @@
 var a15965 =
 [
-    [ "spell_hadronox_leech_poison_AuraScript", "da/da3/a15969.html", "da/da3/a15969" ],
-    [ "spell_hadronox_leech_poison", "d9/d95/a15965.html#ac728cdca360c47e36de9aa6144914083", null ],
-    [ "GetAuraScript", "d9/d95/a15965.html#a4d6b18d6c1055d314bc4d6f6d62b4345", null ]
+    [ "PrepareAuraScript", "d9/d95/a15965.html#a94b3a8e0a610afa69c3a9771f8f22b13", null ],
+    [ "Register", "d9/d95/a15965.html#a1203cbec26f64aa97d10783b567c2d62", null ]
 ];

@@ -1,8 +1,6 @@
 var a14845 =
 [
-    [ "Load", "d6/d47/a14845.html#a59e8723d8b73f45075db47e1e09e15fb", null ],
-    [ "PeriodicTick", "d6/d47/a14845.html#ae4761ac3bce02903a7266511d80503f9", null ],
-    [ "PrepareAuraScript", "d6/d47/a14845.html#a7bacc1ebd4b98e5e43b74e13471b2063", null ],
-    [ "Register", "d6/d47/a14845.html#acc4db638e0d858085dc3fb2d6b45f7ec", null ],
-    [ "_ticks", "d6/d47/a14845.html#ab858e9f6505fa32cc7325087d29fee8b", null ]
+    [ "instance_old_hillsbrad_InstanceMapScript", "d5/d02/a14849.html", "d5/d02/a14849" ],
+    [ "instance_old_hillsbrad", "d6/d47/a14845.html#a1ba2d39ae8f9209055de4b944cc535d8", null ],
+    [ "GetInstanceScript", "d6/d47/a14845.html#a1929c38b1c745b2df1ccaf462113e220", null ]
 ];

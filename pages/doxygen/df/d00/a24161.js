@@ -1,8 +1,14 @@
 var a24161 =
 [
-    [ "npc_yor", "df/d00/a24161.html#a43ed8720d06c035085d481dbe6539dca", null ],
-    [ "JustEngagedWith", "df/d00/a24161.html#a74d5cd95b98a2057f78ee9e9b12aec42", null ],
-    [ "Reset", "df/d00/a24161.html#aa698540b646fd870b33afbaf19ddbe07", null ],
-    [ "UpdateAI", "df/d00/a24161.html#a46a2cf8ff94b830348641d94e3d9cd57", null ],
-    [ "_scheduler", "df/d00/a24161.html#a4ce1e1558c9b8aa5d50b1df1a903d776", null ]
+    [ "event_enter", "df/d00/a24161.html#ac80d575f14dca1c901be55e34cc690e1", null ],
+    [ "event_leave", "df/d00/a24161.html#a3dc0a11a5c06079026d27852e7561b74", null ],
+    [ "map_tower_a", "df/d00/a24161.html#a9a65209caac3791b835c1920f5a667cf", null ],
+    [ "map_tower_h", "df/d00/a24161.html#aa30ae484db7c69137abb13adb1b3c505", null ],
+    [ "map_tower_n", "df/d00/a24161.html#a0453edceab2132e900bec183e360e210", null ],
+    [ "slider_disp", "df/d00/a24161.html#aec3c8dde769675e3f436515c7a3bcf24", null ],
+    [ "slider_n", "df/d00/a24161.html#a65015a3a24a5554643ecb5da47e24eea", null ],
+    [ "slider_pos", "df/d00/a24161.html#acc63481f7613242ac06c6bee6c136a30", null ],
+    [ "ui_tower_a", "df/d00/a24161.html#a0107bfd3b1df99568e02d6ca80042c86", null ],
+    [ "ui_tower_h", "df/d00/a24161.html#a94a5fa0517fd0713b74f50a3d1d627cc", null ],
+    [ "ui_tower_n", "df/d00/a24161.html#ae0fd99db88e6c60b829a18ff8e4be9a0", null ]
 ];

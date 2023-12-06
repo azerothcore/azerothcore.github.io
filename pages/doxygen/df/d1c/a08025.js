@@ -1,4 +1,5 @@
 var a08025 =
 [
-    [ "PetLoadQueryHolder", "df/d1c/a08025.html#a8dee71a2e729d239b7b05bc172c09e3b", null ]
+    [ "ItemStatType", "df/d1c/a08025.html#a8643f062d325b5048c839525db56af3e", null ],
+    [ "ItemStatValue", "df/d1c/a08025.html#a5a5ee42445d9121f186c084dfbc31425", null ]
 ];

@@ -1,5 +1,6 @@
 var a09537 =
 [
-    [ "Cost", "d3/df3/a09537.html#a6de1eebdd222f71e874a46e5daa354a4", null ],
-    [ "PathIndex", "d3/df3/a09537.html#aa5f8bc350f2c5aeac9d5e135c34eb662", null ]
+    [ "IsNeutralOrFriendlyToTeam", "d3/df3/a09537.html#aeeea8efaff8fe3f5044a7d5627a89cb6", null ],
+    [ "safeLocId", "d3/df3/a09537.html#a4f6003cc76b70c83fbb8301cc9d5a7ad", null ],
+    [ "teamId", "d3/df3/a09537.html#a287b04900d70f8ff8c6f6542edbd40a6", null ]
 ];

@@ -1,6 +1,6 @@
 var a25813 =
 [
-    [ "npc_deaths_fel_cannonAI", "d1/d5e/a25813.html#a29d298bd85c78e2fbf0a4019aa7fbce7", null ],
-    [ "Reset", "d1/d5e/a25813.html#a4096d75a98dc8a1c95920710fb48d6ff", null ],
-    [ "UpdateAI", "d1/d5e/a25813.html#a942a8b1153b4ae6fde3b474cc909daad", null ]
+    [ "go_beaconAI", "d1/d5e/a25813.html#a95f0f62d4e34da650c22a7ce796fc85f", null ],
+    [ "OnStateChanged", "d1/d5e/a25813.html#a10bd78bf6c2451fe95163eb9083bdf44", null ],
+    [ "creatureList", "d1/d5e/a25813.html#a8f406b85752e42cc26741aa5a13e69bc", null ]
 ];

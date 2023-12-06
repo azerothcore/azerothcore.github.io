@@ -1,5 +1,6 @@
 var a23965 =
 [
-    [ "go_finklestein_cauldron", "d6/d44/a23965.html#a8aa352319c54526069588dacd75ab883", null ],
-    [ "OnGossipHello", "d6/d44/a23965.html#aa04f55e8a6cc21cf4a1e4cdc35c6a1ae", null ]
+    [ "spell_wintergrasp_water_SpellScript", "d7/d45/a23969.html", "d7/d45/a23969" ],
+    [ "spell_wintergrasp_water", "d6/d44/a23965.html#a5d325e37681e7f7804223122632232f4", null ],
+    [ "GetSpellScript", "d6/d44/a23965.html#aa64f7089ec483e5763514b3fd9e5af77", null ]
 ];

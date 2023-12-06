@@ -1,7 +1,7 @@
 var a26485 =
 [
-    [ "CheckCast", "de/d72/a26485.html#ab215bbeea333d250ecbff0482f4f0966", null ],
-    [ "FilterTargets", "de/d72/a26485.html#a6ee8387c7fed3fd3042852a2f542c5bd", null ],
-    [ "PrepareSpellScript", "de/d72/a26485.html#a83447d184bb2299987d0c54d5af4c910", null ],
-    [ "Register", "de/d72/a26485.html#a6107ba00471dd346c363db80fe81b698", null ]
+    [ "CalculateAmount", "de/d72/a26485.html#af51a8e22ddfe0648f08a4190d730fbda", null ],
+    [ "CheckProc", "de/d72/a26485.html#a2f80dcd9e5922af55dee096c95079062", null ],
+    [ "PrepareAuraScript", "de/d72/a26485.html#af54ef254d0897140255960146507e986", null ],
+    [ "Register", "de/d72/a26485.html#ad6e4bd4390f6f88494984af792a11b90", null ]
 ];

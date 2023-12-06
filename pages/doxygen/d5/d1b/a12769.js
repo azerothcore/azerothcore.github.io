@@ -1,6 +1,7 @@
 var a12769 =
 [
-    [ "spell_shadowfang_keep_forsaken_skills_AuraScript", "d5/d1d/a12773.html", "d5/d1d/a12773" ],
-    [ "spell_shadowfang_keep_forsaken_skills", "d5/d1b/a12769.html#a546f43f401a1db068d50904943fe3bd5", null ],
-    [ "GetAuraScript", "d5/d1b/a12769.html#aa17c4342a7dbd9df903dc53cb11a36aa", null ]
+    [ "HandleEffectApply", "d5/d1b/a12769.html#a2c419ff9944a9ba52b2530059ecaa82a", null ],
+    [ "HandleEffectRemove", "d5/d1b/a12769.html#a1b2d0a4b57c5886c68a00a2cba8922a4", null ],
+    [ "PrepareAuraScript", "d5/d1b/a12769.html#abca0eded713c89a78607e582156c3ca2", null ],
+    [ "Register", "d5/d1b/a12769.html#a61be8e7fc51ae2f963721240091dafea", null ]
 ];

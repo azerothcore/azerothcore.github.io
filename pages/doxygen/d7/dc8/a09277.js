@@ -1,9 +1,14 @@
 var a09277 =
 [
-    [ "LiquidData", "d7/dc8/a09277.html#ac2435178323f480d2dae449b49b39146", null ],
-    [ "DepthLevel", "d7/dc8/a09277.html#ad84c7763a6253db7ae6117ecc7144f1d", null ],
-    [ "Entry", "d7/dc8/a09277.html#abfed22cb0e920067c0f86a0083ef4ab6", null ],
-    [ "Flags", "d7/dc8/a09277.html#aa0903ec4233bcfa34494cea5068cd19c", null ],
-    [ "Level", "d7/dc8/a09277.html#a7c596e921e383bbdbdacbcd4307fe380", null ],
-    [ "Status", "d7/dc8/a09277.html#acb79cdfb4221f158ce9b29127591a8a9", null ]
+    [ "LootItemStorage", "d7/dc8/a09277.html#aa6ece474f05744f2ce24a9fef42734af", null ],
+    [ "~LootItemStorage", "d7/dc8/a09277.html#a36faeed6ef556fd13118c4ad34e38548", null ],
+    [ "AddNewStoredLoot", "d7/dc8/a09277.html#a4c463773b50ae1b312865fbf72dfed18", null ],
+    [ "instance", "d7/dc8/a09277.html#a58d6dc6afa42364ca1dd6cbdcfb55b2b", null ],
+    [ "LoadStorageFromDB", "d7/dc8/a09277.html#a377c75f9d06eb246072b29d19baf2b62", null ],
+    [ "LoadStoredLoot", "d7/dc8/a09277.html#ad9804f564302d6ea4db4b84a6cbb093b", null ],
+    [ "RemoveEntryFromDB", "d7/dc8/a09277.html#a8ab68725c0525d162d325a2131db4c49", null ],
+    [ "RemoveStoredLoot", "d7/dc8/a09277.html#a414dee93f9852a64f01f9d9bf8dc8b40", null ],
+    [ "RemoveStoredLootItem", "d7/dc8/a09277.html#a6fd3f2ac820784ba51413b3781df3bcc", null ],
+    [ "RemoveStoredLootMoney", "d7/dc8/a09277.html#ab22d267a6701fedf824f801e4b703f70", null ],
+    [ "lootItemStore", "d7/dc8/a09277.html#a58ae52b9812e5752ba00d00a58eb56b0", null ]
 ];

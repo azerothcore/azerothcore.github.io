@@ -1,6 +1,8 @@
 var a25877 =
 [
-    [ "HandleDummy", "d1/d9b/a25877.html#af4c8b1e6de383bb1f45a20e4d7b8d345", null ],
-    [ "PrepareSpellScript", "d1/d9b/a25877.html#acf127f181c25cdbb1f72a92d9b9cf92d", null ],
-    [ "Register", "d1/d9b/a25877.html#a9d6e22dc7afeb8a4be2d67aa14765571", null ]
+    [ "npc_bessyAI", "d1/d9b/a25877.html#ad1300a563888b34689bedf97c387707c", null ],
+    [ "JustDied", "d1/d9b/a25877.html#af98e9235b2432b619e4cc01c0c1111ef", null ],
+    [ "JustSummoned", "d1/d9b/a25877.html#a4197fb122299fd152e5da335bb832ae5", null ],
+    [ "Reset", "d1/d9b/a25877.html#aed64386629e52c3b65abadde54a63cc4", null ],
+    [ "WaypointReached", "d1/d9b/a25877.html#a4611a8f41f66a1a846fb42ba1d4062c8", null ]
 ];

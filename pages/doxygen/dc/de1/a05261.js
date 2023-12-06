@@ -1,20 +1,16 @@
 var a05261 =
 [
-    [ "Task", "dc/de1/a05261.html#a15fd2d39bf79bd4d8ea432b5543f5efc", null ],
-    [ "Task", "dc/de1/a05261.html#ad9b788727c5e8dfa5c424970f882b1dc", null ],
-    [ "Task", "dc/de1/a05261.html#a7eec23707deabeb93b600ad1b17812d6", null ],
-    [ "Task", "dc/de1/a05261.html#a9acec30a90c44ffcff66c256a9caf01a", null ],
-    [ "IsInGroup", "dc/de1/a05261.html#a0bbb86f1ed4357c9af9813e551fc41d7", null ],
-    [ "operator<", "dc/de1/a05261.html#aa53b9d06447478218858aaff7634daab", null ],
-    [ "operator=", "dc/de1/a05261.html#af7f962055b0324a6fedcdd91d9d375dd", null ],
-    [ "operator=", "dc/de1/a05261.html#a97319b03103a3013d96f7abe094ab6a5", null ],
-    [ "operator==", "dc/de1/a05261.html#ac245f8900a292b6ad6ece4c44da85e11", null ],
-    [ "operator>", "dc/de1/a05261.html#a45990c164939b2c5a4fafc541103f70f", null ],
-    [ "TaskContext", "dc/de1/a05261.html#ab75a9caf07880e5ba2bb9f75068bbe7e", null ],
-    [ "TaskScheduler", "dc/de1/a05261.html#a9f0573c5408a663c3874787eeb7d599e", null ],
-    [ "_duration", "dc/de1/a05261.html#add2dd72f389df2168012eb70160f6eb3", null ],
-    [ "_end", "dc/de1/a05261.html#a09a7b8fbb3878aef1cc5f76367e4d43b", null ],
-    [ "_group", "dc/de1/a05261.html#ad9e890cbd7ed9ff7b8829e132605d432", null ],
-    [ "_repeated", "dc/de1/a05261.html#a85e8a2803a79f877e94162cc824fabbe", null ],
-    [ "_task", "dc/de1/a05261.html#a0d846eeae80d54906771ba41281fbdc0", null ]
+    [ "ProducerConsumerQueue", "dc/de1/a05261.html#ac0b490656bbc14e5f3ed827e878da3c6", null ],
+    [ "Cancel", "dc/de1/a05261.html#a7e9de516e77945411ad4f8bfa161489d", null ],
+    [ "DeleteQueuedObject", "dc/de1/a05261.html#af375e232b14a288b4e514f4e1e726f06", null ],
+    [ "DeleteQueuedObject", "dc/de1/a05261.html#a10e893856377f7f7a4be62c224a2aef3", null ],
+    [ "Empty", "dc/de1/a05261.html#a3f48e829d818260f29979a37aaa02f93", null ],
+    [ "Pop", "dc/de1/a05261.html#afe8119f67dd7d95bbcd749d7ac9404d4", null ],
+    [ "Push", "dc/de1/a05261.html#abd3bd3c88fbd7d8edb721fc5f89da5ed", null ],
+    [ "Size", "dc/de1/a05261.html#a649c5743d89cdea915ab1c389040b103", null ],
+    [ "WaitAndPop", "dc/de1/a05261.html#a172ef4211bcb237478ec57531c8dcc4d", null ],
+    [ "_condition", "dc/de1/a05261.html#ace83931f4236e97f32c58067b05d35e9", null ],
+    [ "_queue", "dc/de1/a05261.html#a5fc3a20c094041e2da999c4b37d735f0", null ],
+    [ "_queueLock", "dc/de1/a05261.html#a18c7223e356b338f9ddbc17eadc6a21e", null ],
+    [ "_shutdown", "dc/de1/a05261.html#a994ad012dfe4e9cd4d76d8eb9270f0d2", null ]
 ];

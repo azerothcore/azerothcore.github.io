@@ -1,8 +1,8 @@
 var a24189 =
 [
-    [ "boss_darkweaver_syth", "d3/d9a/a24189.html#a4f719165e07206c5a378412b3f82ff86", null ],
-    [ "JustDied", "d3/d9a/a24189.html#adf7e44e3fdc7241baa5f9eddafcb6d40", null ],
-    [ "JustEngagedWith", "d3/d9a/a24189.html#aaf6dab75e66734e930c5732749f3d69a", null ],
-    [ "KilledUnit", "d3/d9a/a24189.html#a1904c2596dd455f84625974beec4a2c8", null ],
-    [ "Reset", "d3/d9a/a24189.html#a484a6dea12ca9e5a20f0a0761461c1f5", null ]
+    [ "CalcPeriodic", "d3/d9a/a24189.html#a7a34b9bd77cd1f15a1cd7954d76d80d0", null ],
+    [ "OnRemove", "d3/d9a/a24189.html#af120bb9d6a0c3d338706613540849412", null ],
+    [ "PrepareAuraScript", "d3/d9a/a24189.html#ad413f14193013058e1775f80b457a81d", null ],
+    [ "Register", "d3/d9a/a24189.html#aa35fc5865f108712e450661e67c384ce", null ],
+    [ "Update", "d3/d9a/a24189.html#aebc61b57ed8038488ec06c14483b2099", null ]
 ];

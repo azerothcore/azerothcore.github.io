@@ -1,4 +1,6 @@
 var a16753 =
 [
-    [ "boss_dreadscaleAI", "d5/d11/a16753.html#ab0d0f8a7ec6567e8811d09721f6fa9ed", null ]
+    [ "HandleScript", "d5/d11/a16753.html#a8d694a38875d940112ff406b84eca6ef", null ],
+    [ "PrepareSpellScript", "d5/d11/a16753.html#a68caa888893ff2aeb7ce0ee5ae28546d", null ],
+    [ "Register", "d5/d11/a16753.html#acd72c6d884a8963318aa73bc520c98c4", null ]
 ];

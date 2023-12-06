@@ -1,6 +1,6 @@
 var a26673 =
 [
-    [ "OnHit", "d0/d7f/a26673.html#a56ecd2ea05f48b874b2890d7f15cc362", null ],
-    [ "PrepareSpellScript", "d0/d7f/a26673.html#a0d74ce7c43f0cb7329ca990f1b0eecdf", null ],
-    [ "Register", "d0/d7f/a26673.html#a7cd2cc858eeb7805a3efb72b081c284e", null ]
+    [ "CheckProc", "d0/d7f/a26673.html#afa477049b9a4fa18594b203a6066d205", null ],
+    [ "PrepareAuraScript", "d0/d7f/a26673.html#a9fff895957dfedb5d975e4a8e9588aa9", null ],
+    [ "Register", "d0/d7f/a26673.html#ab0746e7fa614f09708f89ed3ef93fca9", null ]
 ];

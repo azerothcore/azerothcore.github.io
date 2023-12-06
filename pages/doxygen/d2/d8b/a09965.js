@@ -1,6 +1,7 @@
 var a09965 =
 [
-    [ "ShowBank", "d2/d8b/a09965.html#a57c189db7f6338f73d4e0028d846cfcf", null ],
-    [ "Write", "d2/d8b/a09965.html#a39e1b86a7d4d6163ab504797be1af505", null ],
-    [ "Banker", "d2/d8b/a09965.html#aeceda879d837508d95b79fbd3ee8d892", null ]
+    [ "InstanceMapScript", "d2/d8b/a09965.html#a350d328f82cc5e7ea43f3c8779d25a67", null ],
+    [ "checkValidity", "d2/d8b/a09965.html#a221dd91e2d2f761e66d990a6cae42306", null ],
+    [ "GetInstanceScript", "d2/d8b/a09965.html#aa5a9acfc5a7c81a4953fe0e296f9bcc8", null ],
+    [ "IsDatabaseBound", "d2/d8b/a09965.html#ab77651bb427813a7e119057c3dc53ca8", null ]
 ];

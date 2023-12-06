@@ -1,6 +1,5 @@
 var a19661 =
 [
-    [ "spell_icc_yh_volley_AuraScript", "d2/d14/a19665.html", "d2/d14/a19665" ],
-    [ "spell_icc_yh_volley", "de/d5b/a19661.html#a91e419cb0324ebfe7b7b51e74859a7bb", null ],
-    [ "GetAuraScript", "de/d5b/a19661.html#a36374288acafc649d4fd7d83d0515bdc", null ]
+    [ "at_icc_start_frostwing_gauntlet", "de/d5b/a19661.html#a285cd9046d5658fc5d917c3427bbbe83", null ],
+    [ "OnTrigger", "de/d5b/a19661.html#a7137166f281876f00d4e03c846875d85", null ]
 ];

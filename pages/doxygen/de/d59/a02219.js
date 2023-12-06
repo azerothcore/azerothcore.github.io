@@ -1,5 +1,5 @@
 var a02219 =
 [
-    [ "keyData", "d7/d4e/a10945.html", "d7/d4e/a10945" ],
-    [ "GetWardenActionStr", "de/d59/a02219.html#a4e3c0063e5bf94a2e640c7b887fe14fc", null ]
+    [ "WorldPackets::Totem::TotemDestroyed", "d7/db8/a10529.html", "d7/db8/a10529" ],
+    [ "WorldPackets::Totem::TotemCreated", "d0/d23/a10533.html", "d0/d23/a10533" ]
 ];

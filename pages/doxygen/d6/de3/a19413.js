@@ -1,7 +1,6 @@
 var a19413 =
 [
-    [ "HandleForceCast", "d6/de3/a19413.html#a662dc95948eebbccd5fa310d0438503e", null ],
-    [ "Load", "d6/de3/a19413.html#a31c4c5d7107a31f9e8c581f8d3c04f73", null ],
-    [ "PrepareSpellScript", "d6/de3/a19413.html#a6255f0adcb0ee7642f8e58ee1527dad4", null ],
-    [ "Register", "d6/de3/a19413.html#a7744a18d51f12b259ce5c649af8a8d95", null ]
+    [ "spell_dreamwalker_mana_void_AuraScript", "da/d14/a19417.html", "da/d14/a19417" ],
+    [ "spell_dreamwalker_mana_void", "d6/de3/a19413.html#a7af80de982c5601758319fd819c606ec", null ],
+    [ "GetAuraScript", "d6/de3/a19413.html#a3c0ff5e565637f16713fb842cee3f9d3", null ]
 ];

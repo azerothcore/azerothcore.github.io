@@ -1,7 +1,8 @@
 var a17885 =
 [
-    [ "Load", "dd/d6c/a17885.html#ac5166beda0b7773af95b745d962de5b5", null ],
-    [ "PrepareAuraScript", "dd/d6c/a17885.html#a5fbf823a98a081adcbc0bf50abef3a53", null ],
-    [ "RecalculateHook", "dd/d6c/a17885.html#a70d2874c599f6d0ce088a633928ee908", null ],
-    [ "Register", "dd/d6c/a17885.html#a83f88b0aa326667b7c1f28c50c3d88d5", null ]
+    [ "npc_saurfang_eventAI", "dd/d6c/a17885.html#a8436a87576c92ecc0b45106683d20e93", null ],
+    [ "DoAction", "dd/d6c/a17885.html#a45201c4a5b94fad948efe1d08e63e262", null ],
+    [ "SetData", "dd/d6c/a17885.html#a7f012a54ebce5307940eb7957f028d52", null ],
+    [ "SpellHit", "dd/d6c/a17885.html#a2ed920f949c4d8dbc6d6ff5b9149e749", null ],
+    [ "_index", "dd/d6c/a17885.html#a793d72078bd68b34fcdb7cd6587295dd", null ]
 ];

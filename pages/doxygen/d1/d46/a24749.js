@@ -1,6 +1,6 @@
 var a24749 =
 [
-    [ "spell_black_template_free_friend_SpellScript", "da/d4d/a24753.html", "da/d4d/a24753" ],
-    [ "spell_black_template_free_friend", "d1/d46/a24749.html#afe3baea1e4417a2fd5d50f83f3e0cfd6", null ],
-    [ "GetSpellScript", "d1/d46/a24749.html#a37b646a1cc894bf0599cb3fca528ea1c", null ]
+    [ "spell_black_temple_curse_of_the_bleakheart_AuraScript", "da/d4d/a24753.html", "da/d4d/a24753" ],
+    [ "spell_black_temple_curse_of_the_bleakheart", "d1/d46/a24749.html#a6ca3284f1b69c5b1d4027fd725cba99d", null ],
+    [ "GetAuraScript", "d1/d46/a24749.html#a5df6363ccebf5e4a2a3d945af69cf4f4", null ]
 ];

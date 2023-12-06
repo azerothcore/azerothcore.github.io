@@ -1,20 +1,24 @@
 var a04424 =
 [
-    [ "map_fileheader", "d1/d42/a09261.html", "d1/d42/a09261" ],
-    [ "map_heightHeader", "d8/d8c/a09269.html", "d8/d8c/a09269" ],
-    [ "map_liquidHeader", "da/dd9/a09273.html", "da/dd9/a09273" ],
-    [ "MAP_HEIGHT_AS_INT16", "dc/d7e/a04424.html#aefa74fa33f3eba2d39b407c2fd2e8aba", null ],
-    [ "MAP_HEIGHT_AS_INT8", "dc/d7e/a04424.html#a15a9245a53c00f1a8a89dd2d798cea9d", null ],
-    [ "MAP_HEIGHT_NO_HEIGHT", "dc/d7e/a04424.html#aa5c2437972b2be5c5ff23a7ac04e2680", null ],
-    [ "MAP_LIQUID_NO_HEIGHT", "dc/d7e/a04424.html#a59daadc7c96729526e05982ec6600bb1", null ],
-    [ "MAP_LIQUID_NO_TYPE", "dc/d7e/a04424.html#a42b8b790a3d284e7116bcad1c391b8f9", null ],
-    [ "MAP_LIQUID_TYPE_DARK_WATER", "dc/d7e/a04424.html#a661f965d11d7da56890b64484d871441", null ],
-    [ "MAP_LIQUID_TYPE_MAGMA", "dc/d7e/a04424.html#a14e2a0a2291347b0ef877bc9d70f7384", null ],
-    [ "MAP_LIQUID_TYPE_NO_WATER", "dc/d7e/a04424.html#a17d4c5ea32412f0fbe04a27f63d50e13", null ],
-    [ "MAP_LIQUID_TYPE_OCEAN", "dc/d7e/a04424.html#a6d257e0effb928fba7534eeee5de602d", null ],
-    [ "MAP_LIQUID_TYPE_SLIME", "dc/d7e/a04424.html#aa56f76510545ed9c706b8fee3061b6cb", null ],
-    [ "MAP_LIQUID_TYPE_WATER", "dc/d7e/a04424.html#a5ec110bd30ec47fcd087aaf5d572de28", null ],
-    [ "holetab_h", "dc/d7e/a04424.html#abeb39e913287295598939165f99abe3b", null ],
-    [ "holetab_v", "dc/d7e/a04424.html#a8c5ddef856ef804076860bb176c6d9e1", null ],
-    [ "MAP_VERSION_MAGIC", "dc/d7e/a04424.html#aee23c8e21c084824373ce587f8fe1f04", null ]
+    [ "item_only_for_flight", "db/dc0/a29113.html", "db/dc0/a29113" ],
+    [ "item_gor_dreks_ointment", "dc/d4a/a29117.html", "dc/d4a/a29117" ],
+    [ "item_incendiary_explosives", "db/d04/a29121.html", "db/d04/a29121" ],
+    [ "item_mysterious_egg", "db/d71/a29125.html", "db/d71/a29125" ],
+    [ "item_disgusting_jar", "d9/db5/a29129.html", "d9/db5/a29129" ],
+    [ "item_petrov_cluster_bombs", "df/d92/a29133.html", "df/d92/a29133" ],
+    [ "item_captured_frog", "dc/d63/a29137.html", "dc/d63/a29137" ],
+    [ "item_generic_limit_chance_above_60", "df/d4b/a29141.html", "df/d4b/a29141" ],
+    [ "CapturedFrog", "dc/d7e/a04424.html#a3a51d3f5cfd1964cbec23fcba5046cca", [
+      [ "QUEST_THE_PERFECT_SPIES", "dc/d7e/a04424.html#a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04", null ],
+      [ "NPC_VANIRAS_SENTRY_TOTEM", "dc/d7e/a04424.html#a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f", null ]
+    ] ],
+    [ "OnlyForFlight", "dc/d7e/a04424.html#afa5a0f3082f0a49fcc796209c7828151", [
+      [ "SPELL_ARCANE_CHARGES", "dc/d7e/a04424.html#afa5a0f3082f0a49fcc796209c7828151aeefbb491736447da40481cf5a8742e2d", null ]
+    ] ],
+    [ "PetrovClusterBombs", "dc/d7e/a04424.html#a5481d2bf1b9efa370833eed302f6f94c", [
+      [ "SPELL_PETROV_BOMB", "dc/d7e/a04424.html#a5481d2bf1b9efa370833eed302f6f94ca52897b7254f1ac012c7e278d8dcbd8b6", null ],
+      [ "AREA_ID_SHATTERED_STRAITS", "dc/d7e/a04424.html#a5481d2bf1b9efa370833eed302f6f94ca61d3b5bb03fb6b0be836957c1d977e42", null ],
+      [ "ZONE_ID_HOWLING", "dc/d7e/a04424.html#a5481d2bf1b9efa370833eed302f6f94ca24b25ae9cc97c3cf213b6b0711d511b9", null ]
+    ] ],
+    [ "AddSC_item_scripts", "dc/d7e/a04424.html#a3e28ebf5a580887bb117f786689a34c6", null ]
 ];

@@ -1,14 +1,9 @@
 var a04514 =
 [
-    [ "LinkTags", "dc/da4/a04515.html", "dc/da4/a04515" ],
-    [ "AchievementLinkData", "da/d0c/a07262.html", "da/d0c/a07262" ],
-    [ "GlyphLinkData", "db/d55/a07266.html", "db/d55/a07266" ],
-    [ "HyperlinkColor", "d5/d6f/a07322.html", "d5/d6f/a07322" ],
-    [ "HyperlinkInfo", "d9/d2a/a07326.html", "d9/d2a/a07326" ],
-    [ "ItemLinkData", "d7/d12/a07270.html", "d7/d12/a07270" ],
-    [ "QuestLinkData", "de/d94/a07274.html", "de/d94/a07274" ],
-    [ "TalentLinkData", "da/dc9/a07278.html", "da/dc9/a07278" ],
-    [ "TradeskillLinkData", "d1/dd6/a07282.html", "d1/dd6/a07282" ],
-    [ "CheckAllLinks", "d1/d24/a04514.html#a02761d9aa335689ff1b8dc1155b2a3c6", null ],
-    [ "ParseSingleHyperlink", "d1/d24/a04514.html#a2c5596879f4531eeedbe15d1e4987918", null ]
+    [ "SecretInfo", "d8/de4/a30209.html", "d8/de4/a30209" ],
+    [ "SECRET_FLAG", "d1/d24/a04514.html#a70a4d0f8c2ee51e0b67794cea19657d1", null ],
+    [ "SECRET_FLAG_FOR", "d1/d24/a04514.html#a7e7cfdab68c3e6a9600329d157ed30e7", null ],
+    [ "SecretFlags", "d1/d24/a04514.html#a03463ea440a7f843bdf8415f362a49f5", null ],
+    [ "GetHexFromConfig", "d1/d24/a04514.html#a39b73180b1b7c528faf5774c3a2a7676", null ],
+    [ "secret_info", "d1/d24/a04514.html#a7a4c8b2d083fa8310d30aa4b21217766", null ]
 ];

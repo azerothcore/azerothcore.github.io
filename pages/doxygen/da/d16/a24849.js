@@ -1,8 +1,11 @@
 var a24849 =
 [
-    [ "CalculateAmount", "da/d16/a24849.html#a9e60693b75da7f63a8e985525adfe157", null ],
-    [ "OnPeriodic", "da/d16/a24849.html#a0c6d3dfabaf498f3abe8972ff6d7d4a7", null ],
-    [ "PrepareAuraScript", "da/d16/a24849.html#a410f2ff0bb6deabbb4d590d7d9d81bc8", null ],
-    [ "Register", "da/d16/a24849.html#abefc89d971a029ac9618b496264fa144", null ],
-    [ "Validate", "da/d16/a24849.html#a638d5d5f26a9d316a2e0980474835214", null ]
+    [ "boss_doomwalkerAI", "da/d16/a24849.html#ae082765a70eb42a86c93a935f4f774e5", null ],
+    [ "JustDied", "da/d16/a24849.html#a967fe49be107c641d5904d65c0d26c7f", null ],
+    [ "JustEngagedWith", "da/d16/a24849.html#aaa4b0592986a6f275a2fd8d31435b9d6", null ],
+    [ "KilledUnit", "da/d16/a24849.html#a5ea2e647402adee2e6822843de2f2342", null ],
+    [ "MoveInLineOfSight", "da/d16/a24849.html#a42f1dca462dc921f45506ae759aa01ea", null ],
+    [ "Reset", "da/d16/a24849.html#a11e26518222219f8af7cb25192e37987", null ],
+    [ "UpdateAI", "da/d16/a24849.html#a018c1164425f596cbb8d85563f885020", null ],
+    [ "_inEnrage", "da/d16/a24849.html#a81ebf029de4589fb976a03f5cba1d8b4", null ]
 ];

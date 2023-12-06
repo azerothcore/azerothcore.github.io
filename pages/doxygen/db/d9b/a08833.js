@@ -1,10 +1,10 @@
 var a08833 =
 [
-    [ "AnyAoETargetUnitInObjectRangeCheck", "db/d9b/a08833.html#a93d850e2d5f094b97ca5c09bf1d236a9", null ],
-    [ "operator()", "db/d9b/a08833.html#af9a0c32593544a73aae22cd397eef63a", null ],
-    [ "_spellInfo", "db/d9b/a08833.html#a1317c9df0d5792ad3122ff1ed1a31458", null ],
-    [ "i_funit", "db/d9b/a08833.html#aa00b184a24ea73293114f92126f58f24", null ],
-    [ "i_obj", "db/d9b/a08833.html#aa4acf0089c978408e30b08d539f2512f", null ],
-    [ "i_range", "db/d9b/a08833.html#ad386efa8206906fd99816694a6a8d69b", null ],
-    [ "i_targetForPlayer", "db/d9b/a08833.html#af5ce329f3493b97f59c61c3e87af48b1", null ]
+    [ "UnitSearcher", "db/d9b/a08833.html#a4c50b4594650d9f3f83a40ac02f1a954", null ],
+    [ "Visit", "db/d9b/a08833.html#a5e419d2cb0de5ae58373e521d3a84ac6", null ],
+    [ "Visit", "db/d9b/a08833.html#a4bf8a315ab9464bbc5b0c8cae5c27fed", null ],
+    [ "Visit", "db/d9b/a08833.html#ac65516ed337b509ff5c316fb29727854", null ],
+    [ "i_check", "db/d9b/a08833.html#a3618df5a6ae33e76b802eae9cac1e1bd", null ],
+    [ "i_object", "db/d9b/a08833.html#a3029760131a6f50883246afe2533c062", null ],
+    [ "i_phaseMask", "db/d9b/a08833.html#ab94911f3f275de6a9ce9f15f1169c81c", null ]
 ];

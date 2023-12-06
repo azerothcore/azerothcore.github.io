@@ -1,5 +1,5 @@
 var a09989 =
 [
-    [ "LogoutCancel", "d0/d0e/a09989.html#a179fccf74fa969e6a32492f35d6f28c8", null ],
-    [ "Read", "d0/d0e/a09989.html#a9ed27bc4472b7e4e225793b4f2e5a34d", null ]
+    [ "MovementHandlerScript", "d0/d0e/a09989.html#a29066636f1737b4c5c8af784c2c720fc", null ],
+    [ "OnPlayerMove", "d0/d0e/a09989.html#ac1604e58c8ecab26ce4159fb43a86a68", null ]
 ];

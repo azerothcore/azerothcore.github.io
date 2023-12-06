@@ -1,6 +1,6 @@
 var a21333 =
 [
-    [ "HandleAfterHit", "d6/d9b/a21333.html#a3e54b08d89a2b544ee6be093fa6b4444", null ],
-    [ "PrepareSpellScript", "d6/d9b/a21333.html#adbf2d7668cd1a38849028f4c7f9b9cb1", null ],
-    [ "Register", "d6/d9b/a21333.html#a09afa95f54a74f79b11fcb1fe222bccd", null ]
+    [ "spell_aura_of_despair_AuraScript", "db/de2/a21337.html", "db/de2/a21337" ],
+    [ "spell_aura_of_despair", "d6/d9b/a21333.html#a42ffb5e3cccf55fa27e58fe5b4a67499", null ],
+    [ "GetAuraScript", "d6/d9b/a21333.html#afcb5b7f5e4a423bc281cfab0a27b733b", null ]
 ];

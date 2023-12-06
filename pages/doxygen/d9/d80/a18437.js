@@ -1,6 +1,6 @@
 var a18437 =
 [
-    [ "FilterTargets", "d9/d80/a18437.html#a07eaa43c909f9d4afca2c90987b6be57", null ],
-    [ "PrepareSpellScript", "d9/d80/a18437.html#a60ab39b8f4bfe0903faf1a8fd1210b22", null ],
-    [ "Register", "d9/d80/a18437.html#ac55d048657610abb413698d73f42f423", null ]
+    [ "spell_putricide_slime_puddle_SpellScript", "d0/d97/a18441.html", "d0/d97/a18441" ],
+    [ "spell_putricide_slime_puddle", "d9/d80/a18437.html#a861586ec63f0d8dc9965be77f48a99e2", null ],
+    [ "GetSpellScript", "d9/d80/a18437.html#a2b44cd2d919031e8665517a1e478817e", null ]
 ];

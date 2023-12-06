@@ -1,14 +1,11 @@
 var a16157 =
 [
-    [ "npc_halion_controllerAI", "d0/d48/a16157.html#aabe03dbe5652db6687e7f2857ea33a20", null ],
-    [ "DoAction", "d0/d48/a16157.html#a8d295797e21c03e7d2c3d504c40ba128", null ],
-    [ "Reset", "d0/d48/a16157.html#a3004aecb50815287d5f832f2a8a0d250", null ],
-    [ "SetData", "d0/d48/a16157.html#a3ce9a62d3e44b3ccc279803d5ef87a47", null ],
-    [ "UpdateAI", "d0/d48/a16157.html#ac3ad9df40560ba8acfcd7fbabd303fde", null ],
-    [ "UpdateCorporeality", "d0/d48/a16157.html#ac82987f2b2b069b90c509c477004bae6", null ],
-    [ "_corporeality", "d0/d48/a16157.html#a4c23df1bb774ac724bdf537453592671", null ],
-    [ "_events", "d0/d48/a16157.html#a92e3f116260265a2d0dbeef769eee03e", null ],
-    [ "_instance", "d0/d48/a16157.html#a5cce2f56e6ef0b4baeb6f2f7dbfd2f73", null ],
-    [ "_materialDamage", "d0/d48/a16157.html#afcc510b0d4be10ed057d1a304b803b69", null ],
-    [ "_twilightDamage", "d0/d48/a16157.html#a13a9efcb11ed31725c45011508407287", null ]
+    [ "boss_general_zarithrianAI", "d0/d48/a16157.html#a4168a5883052810d137f59d3b104bc24", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "d0/d48/a16157.html#a22f6ff041e61c94df73a938162fa26f5", null ],
+    [ "JustDied", "d0/d48/a16157.html#a49be533142c82a95a136dc2dcbf4843c", null ],
+    [ "JustEngagedWith", "d0/d48/a16157.html#a9ec34e473b9d478277f472ab3bb7c7ef", null ],
+    [ "JustSummoned", "d0/d48/a16157.html#acb694d20b35d57a315aa4662562af210", null ],
+    [ "KilledUnit", "d0/d48/a16157.html#ad385477740b728e63acff7c184df3c09", null ],
+    [ "Reset", "d0/d48/a16157.html#a3093369d5f3c7e2a1a5828671ac0af0a", null ],
+    [ "UpdateAI", "d0/d48/a16157.html#a3a7e578d64a760cd38712c725eecc97d", null ]
 ];

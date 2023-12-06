@@ -1,9 +1,8 @@
 var a20749 =
 [
-    [ "npc_brann_bronzebeard_algalonAI", "d9/d25/a20749.html#a5ab0ff088866cf9d6af99ee3f42e897a", null ],
-    [ "DoAction", "d9/d25/a20749.html#a9de9e9b19b8a635ec4bc0a4f8c8d13c6", null ],
-    [ "MovementInform", "d9/d25/a20749.html#a7f8d3efed49f0d43a5e9e73ee8bd36e0", null ],
-    [ "UpdateAI", "d9/d25/a20749.html#a16e3fcd7f082e04f648d2341a7e83cba", null ],
-    [ "_currentPoint", "d9/d25/a20749.html#ae9da41b5b4cae16e1ed4709ab41b8964", null ],
-    [ "events", "d9/d25/a20749.html#ab71b71ac63517349cb8702bb29d76334", null ]
+    [ "iron_golem_custodianAI", "d9/d25/a20749.html#aeeeed1383f5d221eb7b5cd5d3a6ea4fb", null ],
+    [ "JustEngagedWith", "d9/d25/a20749.html#acd67b8d4df95eb8b0d0365184e47a29c", null ],
+    [ "Reset", "d9/d25/a20749.html#af3193696d665746eecd9c62128d8684d", null ],
+    [ "UpdateAI", "d9/d25/a20749.html#ab1d3910b07a6c5c53f5388a10dc48775", null ],
+    [ "events", "d9/d25/a20749.html#a9e0bcc9ae6918f9fa40cbf8085d4ec42", null ]
 ];

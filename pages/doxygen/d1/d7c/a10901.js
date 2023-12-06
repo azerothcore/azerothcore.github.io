@@ -1,11 +1,10 @@
 var a10901 =
 [
-    [ "WorldUpdateTime", "d1/d7c/a10901.html#a97552c4ce99bd40919f199c17fe203ed", null ],
-    [ "LoadFromConfig", "d1/d7c/a10901.html#acb2b9d56504fc760e7df1c93621ab788", null ],
-    [ "RecordUpdateTime", "d1/d7c/a10901.html#a88d773c8029cebeab6b99444c25c8379", null ],
-    [ "RecordUpdateTimeDuration", "d1/d7c/a10901.html#a3ae299cfba6adcbb4e38af40313428fc", null ],
-    [ "SetRecordUpdateTimeInterval", "d1/d7c/a10901.html#ada81050229ccacc49d5b6a9f6101174c", null ],
-    [ "_lastRecordTime", "d1/d7c/a10901.html#a7bc68a1a700deb4bc4d19992edf3ffa7", null ],
-    [ "_recordUpdateTimeInverval", "d1/d7c/a10901.html#a5486477b0a604f0207336e423f42c2b1", null ],
-    [ "_recordUpdateTimeMin", "d1/d7c/a10901.html#a6b8a8d1b61f9ecec591165fa334972fc", null ]
+    [ "TargetHook", "d1/d7c/a10901.html#afcada203ddd8752107c74bbf0e7c24eb", null ],
+    [ "CheckEffect", "d1/d7c/a10901.html#af02ad1f1fb914aac52095d7e41f12c94", null ],
+    [ "GetTarget", "d1/d7c/a10901.html#a238979ffaaa644bd65ffd4e7cb20d797", null ],
+    [ "ToString", "d1/d7c/a10901.html#a424e03e457dc15a2689f344e614a882f", null ],
+    [ "area", "d1/d7c/a10901.html#aceec6f0ea91d45a11233122c3bc843ed", null ],
+    [ "dest", "d1/d7c/a10901.html#a28f2f6f3338a2c261ee754508ee48e60", null ],
+    [ "targetType", "d1/d7c/a10901.html#aed2e0e651bdd5453d716db464ac0ab55", null ]
 ];

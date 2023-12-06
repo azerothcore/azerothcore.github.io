@@ -1,8 +1,6 @@
 var a16233 =
 [
-    [ "spell_halion_twilight_phasing_AuraScript", "d7/dbd/a16241.html", "d7/dbd/a16241" ],
-    [ "spell_halion_twilight_phasing_SpellScript", "d9/d72/a16237.html", "d9/d72/a16237" ],
-    [ "spell_halion_twilight_phasing", "d4/dc6/a16233.html#a8876d554440f3bb57739302c9e6580ce", null ],
-    [ "GetAuraScript", "d4/dc6/a16233.html#af2a27a9e4f9d8b39ab6741a0a944e361", null ],
-    [ "GetSpellScript", "d4/dc6/a16233.html#a96314132af270c350376f91fd3238cb2", null ]
+    [ "HandleForceCast", "d4/dc6/a16233.html#a4c4c3a572e5ec8cc293d29ee308ad1e3", null ],
+    [ "PrepareSpellScript", "d4/dc6/a16233.html#a41fcab749d8739962c7d0cc7f237bcc1", null ],
+    [ "Register", "d4/dc6/a16233.html#a30975b5d8aa67d0ffaaf732ff495054d", null ]
 ];

@@ -1,9 +1,13 @@
 var a08705 =
 [
-    [ "UnitListSearcher", "d3/dcd/a08705.html#a24c0de32dc3baa927962626421a343ae", null ],
-    [ "Visit", "d3/dcd/a08705.html#a83d86364ef2f9f9ed55b9bf9aa9bea0d", null ],
-    [ "Visit", "d3/dcd/a08705.html#a92f9b0407e609b6c61f10d93aa49912f", null ],
-    [ "Visit", "d3/dcd/a08705.html#a5fddd281a9f9cd10cf3948d4bf7b626f", null ],
-    [ "i_check", "d3/dcd/a08705.html#a508a47e6261e7ae6e5669aee853ff99e", null ],
-    [ "i_phaseMask", "d3/dcd/a08705.html#a43c863350bea423cf4a720c4c680fd4c", null ]
+    [ "QuestPOI", "d3/dcd/a08705.html#af4ce75549d1fff2042e98683119214a6", null ],
+    [ "QuestPOI", "d3/dcd/a08705.html#a4cf252fabc68cf11df5d44f192955a0b", null ],
+    [ "AreaId", "d3/dcd/a08705.html#ad81f08fa2bc5fd0ccd81d0efc42ce804", null ],
+    [ "FloorId", "d3/dcd/a08705.html#a1af6ed9fdb9ff429e18fb5d98a42ce45", null ],
+    [ "Id", "d3/dcd/a08705.html#aace0de15249c756ba3cbd5763cbb3f98", null ],
+    [ "MapId", "d3/dcd/a08705.html#a851f8e6e62373d2592173534754d757b", null ],
+    [ "ObjectiveIndex", "d3/dcd/a08705.html#ad80f65110beacd44e667008387e6bb70", null ],
+    [ "points", "d3/dcd/a08705.html#aeb505cb061a00ecaa2acc749e391f207", null ],
+    [ "Unk3", "d3/dcd/a08705.html#a1f1d8fa843c856b54ec1ca85b08d78e1", null ],
+    [ "Unk4", "d3/dcd/a08705.html#aa8089160bb8e93ea79df96b956050b70", null ]
 ];

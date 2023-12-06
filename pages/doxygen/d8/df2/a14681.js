@@ -1,30 +1,6 @@
 var a14681 =
 [
-    [ "instance_mount_hyjal_InstanceMapScript", "d8/df2/a14681.html#ab824542973eede5a3a3f7dc995e8cc28", null ],
-    [ "GetData", "d8/df2/a14681.html#ae30c50dfcced56db0c3f42c4deb2bef9", null ],
-    [ "GetGuidData", "d8/df2/a14681.html#aa3b024d9048ffbc954024212c1cb5ce8", null ],
-    [ "Initialize", "d8/df2/a14681.html#ac3fffb02ed557b60e22852bdd79cdc9a", null ],
-    [ "IsEncounterInProgress", "d8/df2/a14681.html#af16d59c7f985bebd3d341a43c0cc4f3b", null ],
-    [ "OnCreatureCreate", "d8/df2/a14681.html#a28b8c1e3332dd9ccce42fd3fcb262e2f", null ],
-    [ "OnGameObjectCreate", "d8/df2/a14681.html#a2048cde72727c5d6b493d67b56ed91f8", null ],
-    [ "ReadSaveDataMore", "d8/df2/a14681.html#a6b826cf42910080623d18e4873145ead", null ],
-    [ "SetData", "d8/df2/a14681.html#a87fd932691795e2d3fb9c8e6de12a20f", null ],
-    [ "WriteSaveDataMore", "d8/df2/a14681.html#ab9abaa72afd73603464ab2e76945b34e", null ],
-    [ "allianceRetreat", "d8/df2/a14681.html#a37e2fa56442cb2cef9872a64a0959d9b", null ],
-    [ "Anetheron", "d8/df2/a14681.html#a0f667c5467d12943849851c8bc82fd0b", null ],
-    [ "Archimonde", "d8/df2/a14681.html#a6adf04b123e018b2938756f35c2de192", null ],
-    [ "ArchiYell", "d8/df2/a14681.html#a92b220c92433c81662f264d7b70fe38f", null ],
-    [ "Azgalor", "d8/df2/a14681.html#a799aa706f1e6c460fd4ba274e0741aff", null ],
-    [ "ElfGate", "d8/df2/a14681.html#a38aaac924ff461e733a19ff1acedf4ff", null ],
-    [ "HordeGate", "d8/df2/a14681.html#ad57b2253d353acde24013e9c06c1b4c6", null ],
-    [ "hordeRetreat", "d8/df2/a14681.html#ad639760dfdf9d2b7f9ecb6ff09179db8", null ],
-    [ "JainaProudmoore", "d8/df2/a14681.html#ae8e5f1285bbea49b33ddfabd85400226", null ],
-    [ "Kazrogal", "d8/df2/a14681.html#a67fcbd7a4c0e27002eef1751261dd4ce", null ],
-    [ "m_auiEncounter", "d8/df2/a14681.html#a15bae6ca5c014dd5e001080e916f24b7", null ],
-    [ "m_uiAncientGemGUID", "d8/df2/a14681.html#a12f5892235263dcea30e06e1dbf6d89c", null ],
-    [ "RageWinterchill", "d8/df2/a14681.html#a5253651e3ce67b9bd184058868a3e76f", null ],
-    [ "RaidDamage", "d8/df2/a14681.html#a3cbadc66240be6280c23afb3decff9d7", null ],
-    [ "Thrall", "d8/df2/a14681.html#ac4f6b7cef0b73a0631936f6488fe2275", null ],
-    [ "Trash", "d8/df2/a14681.html#a4f9fb9764a9106f87e2f21bfc096c6fe", null ],
-    [ "TyrandeWhisperwind", "d8/df2/a14681.html#a950719115626b41a19645dc277f21353", null ]
+    [ "npc_crypt_fiendAI", "d5/ddf/a14685.html", "d5/ddf/a14685" ],
+    [ "npc_crypt_fiend", "d8/df2/a14681.html#a15ecf6a87820a36e7e864b9dcf70a32e", null ],
+    [ "GetAI", "d8/df2/a14681.html#a45fd0ee3f95215809bd60c79fd1a7e32", null ]
 ];

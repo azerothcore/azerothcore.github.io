@@ -1,5 +1,4 @@
 var a02063 =
 [
-    [ "WorldPackets::Totem::TotemDestroyed", "da/de8/a10389.html", "da/de8/a10389" ],
-    [ "WorldPackets::Totem::TotemCreated", "d6/df0/a10393.html", "d6/df0/a10393" ]
+    [ "ScriptRegistry< PlayerScript >", "d2/d8a/a02063.html#a9c8e85c6181ce386db051bb0a0e6a533", null ]
 ];

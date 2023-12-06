@@ -1,6 +1,9 @@
 var a05929 =
 [
-    [ "HealthCheckEventData", "dd/da9/a05929.html#a9521d84bcc568d646f6569fd2066a9d6", null ],
-    [ "_exec", "dd/da9/a05929.html#a66c38460690d77fb021c91fa676c3a12", null ],
-    [ "_healthPct", "dd/da9/a05929.html#a420edc39ff982d55ae82207a0cfe7689", null ]
+    [ "CasterAI", "dd/da9/a05929.html#ad91d5c64cbc4d56d9a84aaeb2f64b35e", null ],
+    [ "AttackStart", "dd/da9/a05929.html#a28386fd1a275c002445e5eaf90314a3d", null ],
+    [ "InitializeAI", "dd/da9/a05929.html#a2a24cdc24b665c52363dae587572fc4d", null ],
+    [ "JustEngagedWith", "dd/da9/a05929.html#ad436decd8b3da4323cf3fdb4a9e5a849", null ],
+    [ "UpdateAI", "dd/da9/a05929.html#a0fa50ac9bd99ff0c2c7e78f03a737090", null ],
+    [ "m_attackDist", "dd/da9/a05929.html#a561dbc6713a8ec58ef6b23ae4d04d81b", null ]
 ];

@@ -1,7 +1,10 @@
 var a11877 =
 [
-    [ "HandlePeriodic", "dc/d24/a11877.html#a3b2521ff80066e6a2f4ae794bfce4d3c", null ],
-    [ "PrepareAuraScript", "dc/d24/a11877.html#a65a16186e6af907305a0f2051b0a12bd", null ],
-    [ "Register", "dc/d24/a11877.html#aaad3a7a9ca7a730d12a056bd7d14cf77", null ],
-    [ "Validate", "dc/d24/a11877.html#a6121609dcaa61f2ac7904077aca61a07", null ]
+    [ "npc_drakonid_spawner", "dc/d24/a11877.html#a2b657e800dc5cc30c618391413ded116", null ],
+    [ "DoAction", "dc/d24/a11877.html#ab013cff0430c09fe1045fdc735e45182", null ],
+    [ "IsSummonedBy", "dc/d24/a11877.html#a6a2170e0f20736d69006ce6d6c769476", null ],
+    [ "SummonedCreatureDies", "dc/d24/a11877.html#a57dd1fc80cfa43f6afae58e797b4091f", null ],
+    [ "UpdateAI", "dc/d24/a11877.html#a60e79dd8f56e87a2de4a203a63c6f9e3", null ],
+    [ "_owner", "dc/d24/a11877.html#a6e0f0d2f6c265f9e5206f441dead8b2f", null ],
+    [ "_scheduler", "dc/d24/a11877.html#a5e1366e337377e66c4397ecf2efd7798", null ]
 ];

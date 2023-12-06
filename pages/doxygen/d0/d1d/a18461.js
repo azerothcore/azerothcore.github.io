@@ -1,6 +1,6 @@
 var a18461 =
 [
-    [ "HandleDummy", "d0/d1d/a18461.html#af9387c002579ab95bdda7395f399d84d", null ],
-    [ "PrepareSpellScript", "d0/d1d/a18461.html#a44de886e5ac955b90fb363adcaacadcd", null ],
-    [ "Register", "d0/d1d/a18461.html#aa3405cafd56167c1aad79e3c4412eacc", null ]
+    [ "spell_putricide_unstable_experiment_SpellScript", "d3/dbe/a18465.html", "d3/dbe/a18465" ],
+    [ "spell_putricide_unstable_experiment", "d0/d1d/a18461.html#ab567622c4dc8c561702e27e83b1b3d47", null ],
+    [ "GetSpellScript", "d0/d1d/a18461.html#a230ce55a385d4d981c6ca850cdc50c8c", null ]
 ];

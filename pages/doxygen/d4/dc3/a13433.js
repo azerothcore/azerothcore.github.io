@@ -1,13 +1,10 @@
 var a13433 =
 [
-    [ "npc_ravenclaw_apparitionAI", "d4/dc3/a13433.html#a2a8a6cdb3d74e55cc3d6786ebcfb5328", null ],
-    [ "EmoteCrowd", "d4/dc3/a13433.html#a7a407c9b00bb24c4c3d057ec2a4b0fdc", null ],
-    [ "JustDied", "d4/dc3/a13433.html#a88f9d4e72273f8f835e809b27d5b52d8", null ],
-    [ "JustSummoned", "d4/dc3/a13433.html#a1ab2f2a6b0514d192a7962cf8315ee16", null ],
-    [ "SummonCrowd", "d4/dc3/a13433.html#af3f6ea6094b82e06ce7ef2d4432bd88a", null ],
-    [ "UpdateAI", "d4/dc3/a13433.html#ab3c6c27a31f12443efcad314cbfa1129", null ],
-    [ "events", "d4/dc3/a13433.html#a27522107b5e1f54909294f800f26663f", null ],
-    [ "HasEnded", "d4/dc3/a13433.html#a1b7a57b7204f51304ef05ee3d2265774", null ],
-    [ "summons", "d4/dc3/a13433.html#a85cde0a9d4903c89b29f68318730ab7f", null ],
-    [ "TalkRNG", "d4/dc3/a13433.html#a4b41f348e6756298d6a13b09fbf13fd0", null ]
+    [ "npc_sentinel_leader", "d4/dc3/a13433.html#a583c43b047dd5c172938d60ef647ecd5", null ],
+    [ "JustEngagedWith", "d4/dc3/a13433.html#a92c83a7fcc04df1db3be1d16f4a461d0", null ],
+    [ "MovementInform", "d4/dc3/a13433.html#a6d51ada16fac1f5eda8b09aede746a4b", null ],
+    [ "Reset", "d4/dc3/a13433.html#ad638ba6ce33753af6a0165c053a90d78", null ],
+    [ "UpdateAI", "d4/dc3/a13433.html#aa689bb8189eb8cf842a0aa63bb9f1a73", null ],
+    [ "_events", "d4/dc3/a13433.html#ada65bdf153ae9b3262b0f55fb540be17", null ],
+    [ "_helpCalled", "d4/dc3/a13433.html#a803c324e790cd74e90ff6c2adde37ba3", null ]
 ];

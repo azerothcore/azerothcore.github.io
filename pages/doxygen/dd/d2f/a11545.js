@@ -1,6 +1,6 @@
 var a11545 =
 [
-    [ "npc_blackhand_incarceratorAI", "d5/d74/a11549.html", "d5/d74/a11549" ],
-    [ "npc_blackhand_incarcerator", "dd/d2f/a11545.html#a0c6bb8ea789e81803a11be57ac1b68e2", null ],
-    [ "GetAI", "dd/d2f/a11545.html#a021ddf6442812f7fb698ba7fb45b9ffb", null ]
+    [ "boss_high_interrogator_gerstahnAI", "d5/d74/a11549.html", "d5/d74/a11549" ],
+    [ "boss_high_interrogator_gerstahn", "dd/d2f/a11545.html#a700eb542c041e9ca540f2676fc42aff9", null ],
+    [ "GetAI", "dd/d2f/a11545.html#ab4e92847a1ce6bf50f0ae460c1a7108f", null ]
 ];

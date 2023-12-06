@@ -1,7 +1,10 @@
 var a26429 =
 [
-    [ "CheckProc", "d8/d71/a26429.html#a6b62e970a78ae8187989f566e6d47317", null ],
-    [ "HandleProc", "d8/d71/a26429.html#a21000167be45c4a5503813e5a508b8fd", null ],
-    [ "PrepareAuraScript", "d8/d71/a26429.html#a7f8fea0f52ed4c98120195f205d6c0d7", null ],
-    [ "Register", "d8/d71/a26429.html#a8d97a7638c682b99e466155bd819df53", null ]
+    [ "HandleEffectRemove", "d8/d71/a26429.html#a3b43cfcbbfa8fdbf170c76dd12b72074", null ],
+    [ "HandleImprovedBloodPresence", "d8/d71/a26429.html#a020c0ae1f74856ae070ab2104232a079", null ],
+    [ "HandleImprovedFrostPresence", "d8/d71/a26429.html#a262bfd40ee2f2d8ed793f999f660ba28", null ],
+    [ "HandleImprovedUnholyPresence", "d8/d71/a26429.html#a5da86bb3686327787da5f46fc756f0a0", null ],
+    [ "PrepareAuraScript", "d8/d71/a26429.html#a96453bb078359e46665e0eaa2a6cf6d1", null ],
+    [ "Register", "d8/d71/a26429.html#a6534d2b5bca9a50830d20b08bfc1b84e", null ],
+    [ "Validate", "d8/d71/a26429.html#afc23187a3a6dd48f2ad84ef354e36f3a", null ]
 ];

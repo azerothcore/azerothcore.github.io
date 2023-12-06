@@ -1,15 +1,15 @@
 var a10669 =
 [
-    [ "AttributesMask", "da/d12/a10669.html#a7cc9dfa91e034f5052ebd3bf8eaea42a", null ],
-    [ "Chance", "da/d12/a10669.html#aea5ca609c75ea7b314aec8ae0246297e", null ],
-    [ "Charges", "da/d12/a10669.html#a75f0484dad60eec59b399a188fd9908f", null ],
-    [ "Cooldown", "da/d12/a10669.html#a4e6185aea35599a3efc2e806145cb1d2", null ],
-    [ "HitMask", "da/d12/a10669.html#a8ac3331576b4eb761157fa3d0d622bea", null ],
-    [ "ProcFlags", "da/d12/a10669.html#a9e5de790c4f61537397a1ce2bce8a9b0", null ],
-    [ "ProcsPerMinute", "da/d12/a10669.html#a3815765c08f6b95cae6efb93fa98623b", null ],
-    [ "SchoolMask", "da/d12/a10669.html#acf72c4a783235770bbff952bdc002324", null ],
-    [ "SpellFamilyMask", "da/d12/a10669.html#a8688e9282cb78d4f24b310cc2521c22b", null ],
-    [ "SpellFamilyName", "da/d12/a10669.html#a2cb738b0d4579503fcb9bca7988f7e36", null ],
-    [ "SpellPhaseMask", "da/d12/a10669.html#ab4c4bfa1493a7a5924d3cd094127f973", null ],
-    [ "SpellTypeMask", "da/d12/a10669.html#a99e20d3979a532e1ca90ee83edcff3eb", null ]
+    [ "BaseSocketMgr", "da/d12/a10669.html#a6f9671b94ae64c0c3482e085cb2a252f", null ],
+    [ "WorldSocketMgr", "da/d12/a10669.html#a8e46ddcf7ba33a66c7226150400cc08b", null ],
+    [ "CreateThreads", "da/d12/a10669.html#a04e98fcb25c09ff85e9536cf43fd4e6e", null ],
+    [ "GetApplicationSendBufferSize", "da/d12/a10669.html#a8deeaffd7d25bacd8bfa15d29dff6aeb", null ],
+    [ "Instance", "da/d12/a10669.html#aaa32a527707cb66916b1499a2e283250", null ],
+    [ "OnSocketAccept", "da/d12/a10669.html#aec088639145bbea3fcb69714ac5b5b67", null ],
+    [ "OnSocketOpen", "da/d12/a10669.html#a308aacca5450fca4a4b35009ddd6142f", null ],
+    [ "StartWorldNetwork", "da/d12/a10669.html#acaf85b16b490bfda8532b49456a38b71", null ],
+    [ "StopNetwork", "da/d12/a10669.html#aede126ecfe75f2917aaf730330ea3b82", null ],
+    [ "_socketApplicationSendBufferSize", "da/d12/a10669.html#a7a5ca8c2c9165d3cb1f46adbdfe917b0", null ],
+    [ "_socketSystemSendBufferSize", "da/d12/a10669.html#a043da77b04a29c4c5fe81698ae279985", null ],
+    [ "_tcpNoDelay", "da/d12/a10669.html#a6f440c4cde2deaa72cbc5dbd348a00b6", null ]
 ];

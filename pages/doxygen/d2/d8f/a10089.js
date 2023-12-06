@@ -1,7 +1,7 @@
 var a10089 =
 [
-    [ "GuildInvite", "d2/d8f/a10089.html#a7b5ef96e9a9d4c6665b280bb844b6d54", null ],
-    [ "Write", "d2/d8f/a10089.html#a4ed1c240a53fa6268eb07b3c77d68757", null ],
-    [ "GuildName", "d2/d8f/a10089.html#ac3ae572bb65d5ea156151e5fc7abf5b8", null ],
-    [ "InviterName", "d2/d8f/a10089.html#a8a91b3f9a94776da4b23c38220c6fc3d", null ]
+    [ "AutoStoreBankItem", "d2/d8f/a10089.html#a1cdb7e9c7da7e646af14ac4ac3b7e950", null ],
+    [ "Read", "d2/d8f/a10089.html#a2a482b716f537866a815085ead9cfd38", null ],
+    [ "Bag", "d2/d8f/a10089.html#a08d2992816ee94b6757c2811b54ed437", null ],
+    [ "Slot", "d2/d8f/a10089.html#aaf2cd8c1c3d67301cc40af78f138daa0", null ]
 ];

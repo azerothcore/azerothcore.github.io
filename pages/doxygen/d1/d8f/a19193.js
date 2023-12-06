@@ -1,7 +1,6 @@
 var a19193 =
 [
-    [ "HandleProc", "d1/d8f/a19193.html#a5afa4b975847bb3f81de0f4312862655", null ],
-    [ "PrepareAuraScript", "d1/d8f/a19193.html#a258256f4d56606257abcee4d2775577d", null ],
-    [ "Register", "d1/d8f/a19193.html#ab7fb12a55721032f742aa28b27f1cc08", null ],
-    [ "Validate", "d1/d8f/a19193.html#afb81942166dd65f3cab3fe6f1c522421", null ]
+    [ "npc_terenas_menethilAI", "d8/da8/a19197.html", "d8/da8/a19197" ],
+    [ "npc_terenas_menethil", "d1/d8f/a19193.html#a6b6850598c582e3d44c13275302fd32d", null ],
+    [ "GetAI", "d1/d8f/a19193.html#ad5f29af90c3f40ce0dad019b5ec05cf2", null ]
 ];

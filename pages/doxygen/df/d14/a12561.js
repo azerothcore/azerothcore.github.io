@@ -1,6 +1,7 @@
 var a12561 =
 [
-    [ "HandleScriptEffect", "df/d14/a12561.html#af265f0bba7028f45763a7f9afea2d051", null ],
-    [ "PrepareSpellScript", "df/d14/a12561.html#a27518fd5482e65e0324100057e747d68", null ],
-    [ "Register", "df/d14/a12561.html#a07789d7d092eb1b6633200442466c52b", null ]
+    [ "npc_scarlet_cannonAI", "df/d14/a12561.html#a26720b34088b8063544f8c5db3b8d67c", null ],
+    [ "PassengerBoarded", "df/d14/a12561.html#a71241dfc9b3ebe1f664d0adf03439c41", null ],
+    [ "UpdateAI", "df/d14/a12561.html#a18ebb585e9b83f3781d3c49de5dc73b5", null ],
+    [ "summonAttackers", "df/d14/a12561.html#a9e8eeb6995dae9a9d9ec3cb0ca6a07f5", null ]
 ];

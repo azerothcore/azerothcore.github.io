@@ -1,7 +1,7 @@
 var a26133 =
 [
-    [ "npc_kservantAI", "d5/dd6/a26133.html#a0687712690f2bacd24da1c94d222e761", null ],
-    [ "IsSummonedBy", "d5/dd6/a26133.html#a6aa9c1544fffdd9916eda7a0941dc828", null ],
-    [ "Reset", "d5/dd6/a26133.html#a0756ffacb97c83a3028afc620b32f349", null ],
-    [ "WaypointReached", "d5/dd6/a26133.html#a577a2ebb91c08bfe2e09bc67eeebb4ef", null ]
+    [ "go_skull_pile", "d5/dd6/a26133.html#a9cf8dfef432c4967c60f66e645585770", null ],
+    [ "OnGossipHello", "d5/dd6/a26133.html#ac95d39ea03e78fee2a10603d8c7f8840", null ],
+    [ "OnGossipSelect", "d5/dd6/a26133.html#afb8e8db2705355e975fa48c98e09f20b", null ],
+    [ "SendActionMenu", "d5/dd6/a26133.html#a9287eb499a93b8095a92bd2d7e8cb597", null ]
 ];

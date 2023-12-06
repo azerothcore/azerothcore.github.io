@@ -1,6 +1,6 @@
 var a13077 =
 [
-    [ "spell_kiljaeden_shadow_spike_AuraScript", "d6/d37/a13081.html", "d6/d37/a13081" ],
-    [ "spell_kiljaeden_shadow_spike", "d3/da8/a13077.html#ad4e87c06a0229a36bb5ca396527182e7", null ],
-    [ "GetAuraScript", "d3/da8/a13077.html#aebbb4bbf708daa1957eead5620f7e4e3", null ]
+    [ "boss_sathrovarrAI", "d6/d37/a13081.html", "d6/d37/a13081" ],
+    [ "boss_sathrovarr", "d3/da8/a13077.html#a3ca320e73d9d56a426cc5b3a6942d29f", null ],
+    [ "GetAI", "d3/da8/a13077.html#a28cd02e568053ed6f15c0b0df3c427cf", null ]
 ];

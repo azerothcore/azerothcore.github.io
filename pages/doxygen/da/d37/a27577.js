@@ -1,8 +1,8 @@
 var a27577 =
 [
-    [ "OnRemove", "da/d37/a27577.html#a645e869079e711a87f1a957b42a35e98", null ],
-    [ "OnStackChange", "da/d37/a27577.html#adea8a4a7140e2f9fd4a44ef2a7b4d85b", null ],
-    [ "PrepareAuraScript", "da/d37/a27577.html#a5f9e9d07879705917e1cd261808f0a8f", null ],
-    [ "Register", "da/d37/a27577.html#ac86068a892255e38244c487a7456cd9f", null ],
-    [ "Validate", "da/d37/a27577.html#a74cb62725d939000a1c4ab32b4f4335f", null ]
+    [ "HandleDummy", "da/d37/a27577.html#ae5487bc9e4c7444468d076785af473ca", null ],
+    [ "Load", "da/d37/a27577.html#a3bf16100687a002a0d3b95bea11dc90f", null ],
+    [ "PrepareSpellScript", "da/d37/a27577.html#a8586b480a304f19741de62b606c9f456", null ],
+    [ "Register", "da/d37/a27577.html#a4698eab378b8cf6d4aeb595b53a9df13", null ],
+    [ "Validate", "da/d37/a27577.html#ab3e697ba71654bf9b67e1d1660b3a7ea", null ]
 ];

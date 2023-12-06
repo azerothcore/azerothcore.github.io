@@ -1,7 +1,11 @@
 var a14253 =
 [
-    [ "HandleEffectApply", "d6/daa/a14253.html#a22f3143b10155635194abe22994a397c", null ],
-    [ "HandleEffectRemove", "d6/daa/a14253.html#a2ecc50fa3c14918b6eace63eac75eb96", null ],
-    [ "PrepareAuraScript", "d6/daa/a14253.html#abb4f53a42e701323b2fc66598ec3503c", null ],
-    [ "Register", "d6/daa/a14253.html#ad1ff6d29459d9a38fcdef3f6c7007f6b", null ]
+    [ "npc_elder_kekek", "d6/daa/a14253.html#a6084af39be5c70699c9fdcf3cd58e954", null ],
+    [ "MoveInLineOfSight", "d6/daa/a14253.html#a0c673e4fdf8e75d3bc8570db166bcd95", null ],
+    [ "Reset", "d6/daa/a14253.html#a97e615bdefba5baf459960fc2987cd69", null ],
+    [ "UpdateAI", "d6/daa/a14253.html#a5823bc7164d797c40d48b9b74642d9b5", null ],
+    [ "orphanGUID", "d6/daa/a14253.html#a98c79e46e051c35819c6025828a519cb", null ],
+    [ "phase", "d6/daa/a14253.html#a99fd9d984f92d5ba8b5876675855d4f6", null ],
+    [ "playerGUID", "d6/daa/a14253.html#a614ed3332f4af3c5178aa69da968a3d3", null ],
+    [ "timer", "d6/daa/a14253.html#a445c048d8858f5dc7c1e88308ed7e5ab", null ]
 ];

@@ -1,6 +1,6 @@
 var a14485 =
 [
-    [ "npc_doomfire_targettingAI", "d4/d31/a14489.html", "d4/d31/a14489" ],
-    [ "npc_doomfire_targetting", "da/d31/a14485.html#abf2cbdcd525177dd521189eaf13d9d49", null ],
-    [ "GetAI", "da/d31/a14485.html#a949a1135bb08d51aea38355bc7b4c0d2", null ]
+    [ "HandleScriptEffect", "da/d31/a14485.html#a2acaaf3716237f147429cb07779ae49e", null ],
+    [ "PrepareSpellScript", "da/d31/a14485.html#a55df717ede47b17a32ae33ecd64617cd", null ],
+    [ "Register", "da/d31/a14485.html#ac515af62f7e42cafecc4afdf7ba15ddf", null ]
 ];

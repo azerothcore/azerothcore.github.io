@@ -1,14 +1,13 @@
 var a15141 =
 [
-    [ "npc_dirt_mound", "db/dc0/a15141.html#add7daefa1c96fb9d843248f8ca4796f6", null ],
-    [ "ChaseNewTarget", "db/dc0/a15141.html#a16656fb7ad8cda5916e8da0002cf0292", null ],
-    [ "EnterEvadeMode", "db/dc0/a15141.html#ac5fdeea9dc5553b689d3a8a9b0b73d34", null ],
-    [ "JustEngagedWith", "db/dc0/a15141.html#abf39fb8d63325eea7928b88b2b486ad2", null ],
-    [ "JustSummoned", "db/dc0/a15141.html#a5da17256d0cd4f6cb0e1256afe4b6539", null ],
-    [ "Reset", "db/dc0/a15141.html#ae1662eb73f21351e07d00a717421de68", null ],
-    [ "SetData", "db/dc0/a15141.html#a4faa65dd3260104202e4bdd34bc0b67d", null ],
-    [ "UpdateAI", "db/dc0/a15141.html#a88447191070cf8b84df96db565eef48d", null ],
-    [ "_instance", "db/dc0/a15141.html#ac9f138567a4367aeb5d7b1f6caea90c6", null ],
-    [ "_ouroHealth", "db/dc0/a15141.html#ac83391fa5069ae4574748f82d15e833d", null ],
-    [ "_scheduler", "db/dc0/a15141.html#a794eab1adbaef60394b4895ec8aac70a", null ]
+    [ "boss_cthun", "db/dc0/a15141.html#a287ee7b65708971e4fdfa7b814486935", null ],
+    [ "DoAction", "db/dc0/a15141.html#a04ae38b67d358f1d34820b855aab3869", null ],
+    [ "JustDied", "db/dc0/a15141.html#a3c6478e7de0e5a6f20f693a788bf8c86", null ],
+    [ "JustEngagedWith", "db/dc0/a15141.html#a56fe3347ac41b67fb6912f372a5879ba", null ],
+    [ "Reset", "db/dc0/a15141.html#a05bab8427cd4b4bfa50aee450e423f98", null ],
+    [ "ScheduleTasks", "db/dc0/a15141.html#a5a0514e56217bb3b30b22b2681542adb", null ],
+    [ "SummonedCreatureDies", "db/dc0/a15141.html#a49d76bb4cf30ee66fae6114313394961", null ],
+    [ "UpdateAI", "db/dc0/a15141.html#a7d2685597f1eec2459fe509e5b97681f", null ],
+    [ "_fleshTentaclesKilled", "db/dc0/a15141.html#a139de83ae488c40d40a4587509cd197d", null ],
+    [ "WisperTimer", "db/dc0/a15141.html#abad23f1df9c6989e7a6d3d62143adb05", null ]
 ];

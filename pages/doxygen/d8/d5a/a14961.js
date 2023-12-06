@@ -1,14 +1,12 @@
 var a14961 =
 [
-    [ "boss_buru", "d8/d5a/a14961.html#a586dfec9d3b0cb9497e616afb1c0b86d", null ],
-    [ "ChaseNewVictim", "d8/d5a/a14961.html#a177ec0ac9dcfbd9de51088bf50c5785c", null ],
-    [ "DamageTaken", "d8/d5a/a14961.html#a5ec0141994aac2b8e1fdce12b30c13b0", null ],
-    [ "EnterEvadeMode", "d8/d5a/a14961.html#aa534cca1e46299e8db917cc8aa5d5b51", null ],
-    [ "JustDied", "d8/d5a/a14961.html#a6d8f3265dca889bc49e747471da8597f", null ],
-    [ "JustEngagedWith", "d8/d5a/a14961.html#a61eeeb3eb1684943e94367a9318b3035", null ],
-    [ "KilledUnit", "d8/d5a/a14961.html#a7c780a29ea9f7b3d2f72eaa11bf7e19c", null ],
-    [ "ManipulateEggs", "d8/d5a/a14961.html#a4f8a92eab729c975443579560edb03a3", null ],
-    [ "SpellHit", "d8/d5a/a14961.html#ac3bc641c6bb67e585541c4e5d93dd7fa", null ],
-    [ "UpdateAI", "d8/d5a/a14961.html#af65d0026b2ea78edb6d48e3c48b6b37b", null ],
-    [ "_phase", "d8/d5a/a14961.html#aa395967af50f2a422bf1e81a087efc43", null ]
+    [ "instance_razorfen_downs_InstanceMapScript", "d8/d5a/a14961.html#a04d36b66a5570d03bb95ef2225a5c902", null ],
+    [ "GetData", "d8/d5a/a14961.html#a3d1611870945cd0c8cd7d4e7728cfd84", null ],
+    [ "Initialize", "d8/d5a/a14961.html#aed9ab9542badb0296ca0660c39541cb8", null ],
+    [ "OnGameObjectCreate", "d8/d5a/a14961.html#a567ac5d9a17514ede5b84c5d78204072", null ],
+    [ "ReadSaveDataMore", "d8/d5a/a14961.html#a7d6fefed563b0b9763b9c63136c65952", null ],
+    [ "SetData", "d8/d5a/a14961.html#a1dfd39d65b16bb6e1373fe83ba4053c5", null ],
+    [ "WriteSaveDataMore", "d8/d5a/a14961.html#ae5cd5cf84e8db976f3006dc52bb5fab4", null ],
+    [ "_firesState", "d8/d5a/a14961.html#a74809429d3d2b1db5374dacf34d8a1b7", null ],
+    [ "_gongPhase", "d8/d5a/a14961.html#a23485a35f0aa2f2ffad53398882d163a", null ]
 ];

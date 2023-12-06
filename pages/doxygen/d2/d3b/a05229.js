@@ -1,8 +1,10 @@
 var a05229 =
 [
-    [ "category", "d2/d3b/a05229.html#a6a53b4b68647fdde65e3c2363127fc4f", null ],
-    [ "char_type", "d2/d3b/a05229.html#aaecf7407fc4cff91008168377114d7cd", null ],
-    [ "ACLogSink", "d2/d3b/a05229.html#a070880d742fd84b44c4614a76952e589", null ],
-    [ "write", "d2/d3b/a05229.html#adad5e421ed10b296eae8b9c52f5e76f5", null ],
-    [ "callback_", "d2/d3b/a05229.html#a360b91b740efaa05309725f6678eb22a", null ]
+    [ "Category", "d2/d3b/a05229.html#a6a7956fedac99271428968ba339f464f", null ],
+    [ "Tags", "d2/d3b/a05229.html#ac22787b2dadd4d3991f72f6ccab5c225", null ],
+    [ "Text", "d2/d3b/a05229.html#ab63598f64896186fde81048550767b28", null ],
+    [ "Timestamp", "d2/d3b/a05229.html#a8248a27d920ca431493750e3f2dec48b", null ],
+    [ "Title", "d2/d3b/a05229.html#a857d2d4843480b9967334f079351292a", null ],
+    [ "Type", "d2/d3b/a05229.html#af9962592650ba24fd9b3c0ee9ce06f7f", null ],
+    [ "Value", "d2/d3b/a05229.html#a09832a09e989c3851e72f4ec198f0e20", null ]
 ];

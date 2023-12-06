@@ -1,12 +1,6 @@
 var a19153 =
 [
-    [ "npc_strangulate_vehicleAI", "d4/df7/a19153.html#a58e79834ed3f463ad51eca703d1c99ef", null ],
-    [ "DoAction", "d4/df7/a19153.html#acf9d5a9e2f8b07f5ceb5ca75634e58fb", null ],
-    [ "IsHeroic", "d4/df7/a19153.html#adb6ae2cefeec245196d21dc1112b2d5c", null ],
-    [ "IsSummonedBy", "d4/df7/a19153.html#a381aec40cdcdf546d70b57a43978dbe9", null ],
-    [ "OnCharmed", "d4/df7/a19153.html#a40e5537897c452d35093920ddd3669b0", null ],
-    [ "PassengerBoarded", "d4/df7/a19153.html#a819746e13af95fa964c6da3d765a7c21", null ],
-    [ "UpdateAI", "d4/df7/a19153.html#a53f567b77b7dfd0ccb5a0d98c0f5ef26", null ],
-    [ "_events", "d4/df7/a19153.html#a19b493e994d246128f63d9109e87737a", null ],
-    [ "_instance", "d4/df7/a19153.html#a7a16fbe4723a95293db01d3a2d80b569", null ]
+    [ "spell_the_lich_king_vile_spirits_visual_SpellScript", "db/ddc/a19157.html", "db/ddc/a19157" ],
+    [ "spell_the_lich_king_vile_spirits_visual", "d4/df7/a19153.html#acce941b27ab3d10ca259f9bbcf1c7eba", null ],
+    [ "GetSpellScript", "d4/df7/a19153.html#a30ed7c6a8ac7a5b7a320ff993579d626", null ]
 ];

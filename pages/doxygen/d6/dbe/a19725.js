@@ -1,8 +1,9 @@
 var a19725 =
 [
-    [ "Class", "d6/dbe/a19725.html#a095390e9023609f5836c4481ed79e1af", null ],
-    [ "cooldown_ms", "d6/dbe/a19725.html#a6f1fdab250e8557d16066c03a54fb2a4", null ],
-    [ "id", "d6/dbe/a19725.html#ae9fdf89271339b93f306c4aa0871f844", null ],
-    [ "range", "d6/dbe/a19725.html#aad126da206abceb6a66dcda1cbd3b28b", null ],
-    [ "targetType", "d6/dbe/a19725.html#ae5fc8cb423536f631591d3b72bfd06dd", null ]
+    [ "npc_icc_skybreaker_hierophantAI", "d6/dbe/a19725.html#a18330d49e510f83af7ee0120df14e633", null ],
+    [ "AttackStart", "d6/dbe/a19725.html#a9838b3edb758f6f8d0bcbb242862d5da", null ],
+    [ "JustEngagedWith", "d6/dbe/a19725.html#adddd56260b41738d69fcdfe31b677c51", null ],
+    [ "Reset", "d6/dbe/a19725.html#a2291e4a6bbf917a810b31776dee9dd24", null ],
+    [ "UpdateAI", "d6/dbe/a19725.html#a971fa0e468d9d58ffdda7c7b8aa53485", null ],
+    [ "events", "d6/dbe/a19725.html#a1c8a527d217f9b810f87da0fc020528a", null ]
 ];

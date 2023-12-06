@@ -1,7 +1,7 @@
 var a12669 =
 [
-    [ "HandleScript", "d5/d3d/a12669.html#a6ce169d6c1b106195f787b52ea433311", null ],
-    [ "PrepareSpellScript", "d5/d3d/a12669.html#a4f71583df2193274365944e6d228247c", null ],
-    [ "Register", "d5/d3d/a12669.html#aad8978dc0505d1fb80e2416f5525cbc7", null ],
-    [ "Validate", "d5/d3d/a12669.html#a51025308f88001f1f66d7f68f174f325", null ]
+    [ "OnApply", "d5/d3d/a12669.html#abc991d627be4235b8aa805aa89afb51a", null ],
+    [ "OnRemove", "d5/d3d/a12669.html#a172599e75fc719d9d48784ffe6ca07b9", null ],
+    [ "PrepareAuraScript", "d5/d3d/a12669.html#a7c89653c38a534ca5deb4d19c538b1f5", null ],
+    [ "Register", "d5/d3d/a12669.html#a8bf20b9da91a6f339b857ecfcd98d772", null ]
 ];

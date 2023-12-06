@@ -1,5 +1,5 @@
 var a12281 =
 [
-    [ "textid", "de/d51/a12281.html#a7dac5c31d7df501f28eee3e1dec0523a", null ],
-    [ "timer", "de/d51/a12281.html#ab7851f383e7221c6ff2700ee345d9504", null ]
+    [ "go_blackened_urn", "de/d51/a12281.html#aaa311353e693a0dd7fd9a6f8e617e0ab", null ],
+    [ "OnGossipHello", "de/d51/a12281.html#ab091bd54734acc65532303a391441ee2", null ]
 ];

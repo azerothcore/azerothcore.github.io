@@ -1,7 +1,7 @@
 var a17901 =
 [
-    [ "FilterTargets", "d3/df0/a17901.html#aefe0aa37d41c60235fbe477076b3161a", null ],
-    [ "Load", "d3/df0/a17901.html#af2e03a11b9e916ffd1d3b13961e4d9bb", null ],
-    [ "PrepareSpellScript", "d3/df0/a17901.html#a920b0be5e8c1b03ce33771a855727dd8", null ],
-    [ "Register", "d3/df0/a17901.html#a6e1bfad122550bda09e63be887444d04", null ]
+    [ "CheckProc", "d3/df0/a17901.html#a0d64439e4de0c84017a072825d09a238", null ],
+    [ "HandleProc", "d3/df0/a17901.html#a71154e5c54212595071fe0ab00c0b843", null ],
+    [ "PrepareAuraScript", "d3/df0/a17901.html#a6d26243e6f6bd2b1fa33952fa654f1ee", null ],
+    [ "Register", "d3/df0/a17901.html#af373e98d828b9f0fa3f2107d0ec4b604", null ]
 ];

@@ -1,7 +1,8 @@
 var a10405 =
 [
-    [ "UpdateWorldState", "da/df3/a10405.html#a1ccdf24be9a20c824b479af014f4fcb0", null ],
-    [ "Write", "da/df3/a10405.html#a76a4c5d6a06ce8d86a2d3f04f68e838d", null ],
-    [ "Value", "da/df3/a10405.html#a51fa2401d8af4c1c7848b423cb6f056f", null ],
-    [ "VariableID", "da/df3/a10405.html#aa73278b324822f509f48e6edcdaed457", null ]
+    [ "PlayObjectSound", "da/df3/a10405.html#ab322044d36abddeb2fafbf99261bb70b", null ],
+    [ "PlayObjectSound", "da/df3/a10405.html#a2c4d15099e991a9c2ddc5295536aa28e", null ],
+    [ "Write", "da/df3/a10405.html#a1162715dd557a9f7b7c25a0331bc3b74", null ],
+    [ "SoundKitID", "da/df3/a10405.html#a5e794706b8793d164a1189e9a6918735", null ],
+    [ "SourceObjectGUID", "da/df3/a10405.html#a82b226eba66e569c1f377f529e511361", null ]
 ];

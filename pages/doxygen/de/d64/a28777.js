@@ -1,5 +1,5 @@
 var a28777 =
 [
-    [ "achievement_tilted", "de/d64/a28777.html#a868d7b8a437434d6dc34b5000c429e66", null ],
-    [ "OnCheck", "de/d64/a28777.html#a61d3eb78450383485699532d96f79d93", null ]
+    [ "AreaTrigger_at_voltarus_middle", "de/d64/a28777.html#a45ca444350fe4cfde02ab33da4ce8466", null ],
+    [ "OnTrigger", "de/d64/a28777.html#a296b300feb6cf999e9e2c2625a911e9b", null ]
 ];

@@ -1,7 +1,6 @@
 var a13517 =
 [
-    [ "npc_jaina_proudmoore_bfuAI", "d2/de3/a13517.html#ad5ad1d05ef8210409c700e47b5442e24", null ],
-    [ "Reset", "d2/de3/a13517.html#a18de805428ce0954a5fbfffbf5975342", null ],
-    [ "UpdateAI", "d2/de3/a13517.html#a48b191d0812bfe3212511a52ef0df817", null ],
-    [ "_events", "d2/de3/a13517.html#a87e99e0b5fd0a3823b009025019b1fa4", null ]
+    [ "npc_lord_gregor_lescovarAI", "d4/d3e/a13521.html", "d4/d3e/a13521" ],
+    [ "npc_lord_gregor_lescovar", "d2/de3/a13517.html#a6164425b7bb6bc8aa95a6665b7d1c55c", null ],
+    [ "GetAI", "d2/de3/a13517.html#a4cf39729bb687c7db3538575a799283e", null ]
 ];

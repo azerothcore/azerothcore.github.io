@@ -1,6 +1,6 @@
 var a19985 =
 [
-    [ "boss_grobbulus_poison_cloudAI", "d6/d69/a19989.html", "d6/d69/a19989" ],
-    [ "boss_grobbulus_poison_cloud", "d9/d2d/a19985.html#a2bb8ebec0ae79f20602e551f654e0761", null ],
-    [ "GetAI", "d9/d2d/a19985.html#a34c68dd3e58b83c52f270eb1b194f2ed", null ]
+    [ "NotOnSameSide", "d9/d2d/a19985.html#ac3189b202a8c0ca4c8f52799ed54e284", null ],
+    [ "operator()", "d9/d2d/a19985.html#a59ea48b9633049180ec62d3616fe4dea", null ],
+    [ "m_inLiveSide", "d9/d2d/a19985.html#a77c1d18f54609a5f4da2e9c13f62293d", null ]
 ];

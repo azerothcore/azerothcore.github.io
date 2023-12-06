@@ -1,9 +1,11 @@
 var a10257 =
 [
-    [ "Weather", "da/d1b/a10257.html#aa404c94fec05b825454a7309827767c6", null ],
-    [ "Weather", "da/d1b/a10257.html#a28f45d81441d2dde6917380978dfb4d0", null ],
-    [ "Write", "da/d1b/a10257.html#a641c7de3e527dcdff07b3f602880b5c8", null ],
-    [ "Abrupt", "da/d1b/a10257.html#a0abe1fcb36d21ac246174cdc98c0e261", null ],
-    [ "Intensity", "da/d1b/a10257.html#ac37cee2364921a50e2b1ec1b19ed69b7", null ],
-    [ "WeatherID", "da/d1b/a10257.html#a32e56458b1e562c124cfc0288a578134", null ]
+    [ "GuildSetRankPermissions", "da/d1b/a10257.html#a8b3fd3e4da77c6fb70db28721ec46714", null ],
+    [ "Read", "da/d1b/a10257.html#a534550862a3c634697e8277f31ad4c25", null ],
+    [ "Flags", "da/d1b/a10257.html#adea48131efa7c05b84c4de596933bfbe", null ],
+    [ "RankID", "da/d1b/a10257.html#a0c4a8b29918d69580c749e3b48485515", null ],
+    [ "RankName", "da/d1b/a10257.html#a24dde2aa8dd0ae1b9e8b37317334e0d4", null ],
+    [ "TabFlags", "da/d1b/a10257.html#af19e6fd8ddfe980f8c1f1110e9332bad", null ],
+    [ "TabWithdrawItemLimit", "da/d1b/a10257.html#a9f5ddb30858ae9eca7fcd2ad9fa8ea0c", null ],
+    [ "WithdrawGoldLimit", "da/d1b/a10257.html#a1c02002facce05010028ac8dcae7fa3f", null ]
 ];

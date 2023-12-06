@@ -1,6 +1,6 @@
 var a17061 =
 [
-    [ "npc_fos_leader_secondAI", "d6/d6b/a17065.html", "d6/d6b/a17065" ],
-    [ "npc_fos_leader_second", "df/dc3/a17061.html#a0e24659ef6e834da5a3adc8d79f0db4e", null ],
-    [ "GetAI", "df/dc3/a17061.html#a96082888ccbb1c81be8327e5e0d84e03", null ]
+    [ "HandlePeriodicTick", "df/dc3/a17061.html#a68d1affd5f9c19fb6778c018ffdfd909", null ],
+    [ "PrepareAuraScript", "df/dc3/a17061.html#afab3888615b2692041c1a4d6e0ed1f4b", null ],
+    [ "Register", "df/dc3/a17061.html#ac8563a17f57e92ed5be9d57bdbfbbe50", null ]
 ];

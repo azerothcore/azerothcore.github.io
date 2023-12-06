@@ -1,10 +1,7 @@
 var a27929 =
 [
-    [ "CheckCast", "da/df8/a27929.html#a49676a65c99a9a2d99ad78fee54d2302", null ],
-    [ "HandleScript", "da/df8/a27929.html#a35b9d69b8147ef06527b8533ef376e72", null ],
-    [ "Load", "da/df8/a27929.html#a25c373762375f207e6c3ba0a18d4a6e7", null ],
-    [ "PrepareSpellScript", "da/df8/a27929.html#a31d3339531f75dfa0ca3a339d34d3012", null ],
-    [ "Register", "da/df8/a27929.html#afd716f555ac73287bd268c6124b15b1c", null ],
-    [ "Validate", "da/df8/a27929.html#a0938262e1f45821b9fbef42f5c96cc56", null ],
-    [ "_manaAmount", "da/df8/a27929.html#add7d1cdf3abca0ada57cd719ad22602a", null ]
+    [ "CalculateAmount", "da/df8/a27929.html#a5d4549ac73b46382c1beddbb65257ad0", null ],
+    [ "HandleUpdateSpellclick", "da/df8/a27929.html#a89956d7f3a6404d5b60e46034867c82c", null ],
+    [ "PrepareAuraScript", "da/df8/a27929.html#a7cbdc79c63306a8fcfcc06180998a290", null ],
+    [ "Register", "da/df8/a27929.html#a2252719e6ea995b85b7b0c5ecb6a26d3", null ]
 ];

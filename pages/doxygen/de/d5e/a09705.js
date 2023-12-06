@@ -1,7 +1,7 @@
 var a09705 =
 [
-    [ "SpellScriptLoader", "de/d5e/a09705.html#a0ae97b8f3cf24f46b98a121d35bdeadf", null ],
-    [ "GetAuraScript", "de/d5e/a09705.html#a9c60850e39ffe3d151a128b12777859d", null ],
-    [ "GetSpellScript", "de/d5e/a09705.html#a6f3a101a0517ba1440399809cf7f5b5b", null ],
-    [ "IsDatabaseBound", "de/d5e/a09705.html#ae60bf9957b950c7f5c9927f71510dc06", null ]
+    [ "TransportPathTransform", "de/d5e/a09705.html#af73e0369a2f0e4c2aabfde5b47b7520d", null ],
+    [ "operator()", "de/d5e/a09705.html#ac86e405f0d39698c400d7a8d2ab10607", null ],
+    [ "_owner", "de/d5e/a09705.html#a15428c0b9a8b11f7f63845a7d65620e8", null ],
+    [ "_transformForTransport", "de/d5e/a09705.html#afad44bc388b7d224f7a87aed7ba2e120", null ]
 ];

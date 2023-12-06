@@ -1,5 +1,5 @@
 var a29045 =
 [
-    [ "go_sacred_fire_of_life", "d4/d55/a29045.html#a7f14c8397803f8b21e492ec52c6d81e8", null ],
-    [ "OnGossipHello", "d4/d55/a29045.html#aaa078fffe5570fa532d27d1c4ea831a7", null ]
+    [ "go_arcane_prison", "d4/d55/a29045.html#ad73ac33d843027de0e516de8f90c45a0", null ],
+    [ "OnGossipHello", "d4/d55/a29045.html#a0f9d414ce1f3f3e734cb79a554f7523e", null ]
 ];

@@ -1,6 +1,6 @@
 var a24329 =
 [
-    [ "OnPeriodic", "dc/dc0/a24329.html#a6acf8994dfb8baff4a86ea746e1805c1", null ],
-    [ "PrepareAuraScript", "dc/dc0/a24329.html#a7bc4b970e20dfa89f0066c20a2a4405a", null ],
-    [ "Register", "dc/dc0/a24329.html#ac0ba16b025eb1d96811e9c2a9996a880", null ]
+    [ "npc_akama_illidanAI", "dc/dc7/a24333.html", "dc/dc7/a24333" ],
+    [ "npc_akama_illidan", "dc/dc0/a24329.html#a85a312a767fb181f0bd626eb48e8e891", null ],
+    [ "GetAI", "dc/dc0/a24329.html#a75648fc8291574b7bf16cd0c8e015384", null ]
 ];

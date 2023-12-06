@@ -1,6 +1,7 @@
 var a14861 =
 [
-    [ "instance_maraudon_InstanceMapScript", "d5/d7d/a14865.html", "d5/d7d/a14865" ],
-    [ "instance_maraudon", "db/dab/a14861.html#aaae11d2569d04b42840b101a5702cf24", null ],
-    [ "GetInstanceScript", "db/dab/a14861.html#ac4f5c7c3ee755226449c96b3e351f12d", null ]
+    [ "npc_tarethaAI", "d5/d7d/a14865.html", "d5/d7d/a14865" ],
+    [ "npc_taretha", "db/dab/a14861.html#a54379e06518ff972e91e25e295731f5a", null ],
+    [ "GetAI", "db/dab/a14861.html#a5045bb7119b12800ee0053818fcae5fe", null ],
+    [ "OnGossipHello", "db/dab/a14861.html#ac689e97b3fd54e9c9e40ed5b9aeca099", null ]
 ];

@@ -1,9 +1,8 @@
 var a08829 =
 [
-    [ "NearestAttackableUnitInObjectRangeCheck", "d0/d6b/a08829.html#ae2f43e2036047622ec88de3db08ea668", null ],
-    [ "NearestAttackableUnitInObjectRangeCheck", "d0/d6b/a08829.html#a8deef14a2c11f9ccd9613614124a7d8e", null ],
-    [ "operator()", "d0/d6b/a08829.html#a2f966e38682e6a02a120ad90ba19f7a4", null ],
-    [ "i_funit", "d0/d6b/a08829.html#a88be7342d10008fc394f21b9a5e14162", null ],
-    [ "i_obj", "d0/d6b/a08829.html#a6c1c4e5b85f6f7958578afb6c6f2af98", null ],
-    [ "i_range", "d0/d6b/a08829.html#a26242657d6f2eb61d6f8fcac30357381", null ]
+    [ "GameObjectWorker", "d0/d6b/a08829.html#a79dd3983b007d982bbb1f0b33c5c7a54", null ],
+    [ "Visit", "d0/d6b/a08829.html#a754197d7a9aa3203cda964cbee81ae9a", null ],
+    [ "Visit", "d0/d6b/a08829.html#a47a10a6790179eb5b78cbb66dd9d7b54", null ],
+    [ "_func", "d0/d6b/a08829.html#abeaa251f909368e3ebeeff4dcefbda94", null ],
+    [ "_phaseMask", "d0/d6b/a08829.html#accfe66385f5bbfb461d0493c22fde20e", null ]
 ];

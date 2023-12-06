@@ -1,6 +1,6 @@
 var a17429 =
 [
-    [ "spell_pos_glacial_strikeAuraScript", "d2/d9a/a17433.html", "d2/d9a/a17433" ],
-    [ "spell_pos_glacial_strike", "db/da8/a17429.html#a359a8215d419ac98af82226fcc89879f", null ],
-    [ "GetAuraScript", "db/da8/a17429.html#a76f93c3b958d40a413a28382ce9a69de", null ]
+    [ "spell_pos_empowered_blizzardAuraScript", "d2/d9a/a17433.html", "d2/d9a/a17433" ],
+    [ "spell_pos_empowered_blizzard", "db/da8/a17429.html#af6e797bcffa5819bbe861b00a91a93e5", null ],
+    [ "GetAuraScript", "db/da8/a17429.html#a71859a63f23e8e2ccc06a93c9d6e7adf", null ]
 ];

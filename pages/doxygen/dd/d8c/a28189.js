@@ -1,7 +1,6 @@
 var a28189 =
 [
-    [ "HandleScript", "dd/d8c/a28189.html#a1b20a7fb4487876f305aa3a8d493ed17", null ],
-    [ "PrepareSpellScript", "dd/d8c/a28189.html#a5ac848029ef03f6779cf094f4b80dd24", null ],
-    [ "Register", "dd/d8c/a28189.html#a3d378e0eac09b00792b293b2cd7f3192", null ],
-    [ "Validate", "dd/d8c/a28189.html#a36963610ad939ec36848ff70185f47a2", null ]
+    [ "HandleScript", "dd/d8c/a28189.html#a8866d650b96c4cae3201a2829cbeff3d", null ],
+    [ "PrepareSpellScript", "dd/d8c/a28189.html#aa16f51aa8a4fea2a84cadbb01d18b635", null ],
+    [ "Register", "dd/d8c/a28189.html#aeaa094c8d1f3407bf56d58d88c2238a1", null ]
 ];

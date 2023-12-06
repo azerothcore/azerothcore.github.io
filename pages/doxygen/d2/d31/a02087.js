@@ -1,4 +1,4 @@
 var a02087 =
 [
-    [ "WorldPacket", "de/dd4/a10461.html", "de/dd4/a10461" ]
+    [ "ScriptRegistry< UnitScript >", "d2/d31/a02087.html#aced42ee6099fa72848b9b4aef527ebc3", null ]
 ];

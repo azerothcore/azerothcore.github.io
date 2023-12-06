@@ -1,7 +1,9 @@
 var a28173 =
 [
-    [ "HandleDummy", "da/daf/a28173.html#ad2367c1fd551187b6f19f795abb15ea6", null ],
-    [ "PrepareSpellScript", "da/daf/a28173.html#a125f7550ce826f74ac14902bc82d5021", null ],
-    [ "Register", "da/daf/a28173.html#a35e9132e2414383caafbde699de6061d", null ],
-    [ "Validate", "da/daf/a28173.html#a530489a10287a6dd281d518683b1a3f3", null ]
+    [ "CheckCast", "da/daf/a28173.html#ae99a2b4b582c8a2c8921b8921400ffbe", null ],
+    [ "HandleActiveObject", "da/daf/a28173.html#a79a51387f0a515ed07fcc1ac9e428290", null ],
+    [ "HandleDummy", "da/daf/a28173.html#a39dd06ae92d04060ee41897318a701fd", null ],
+    [ "Load", "da/daf/a28173.html#a76fff3a9d20f48e4814ee0f258be07b8", null ],
+    [ "PrepareSpellScript", "da/daf/a28173.html#a016e480d7b2267c9bf824c9cb029f134", null ],
+    [ "Register", "da/daf/a28173.html#aa05d48c35f748d93f5d8ff1defe2d3c9", null ]
 ];

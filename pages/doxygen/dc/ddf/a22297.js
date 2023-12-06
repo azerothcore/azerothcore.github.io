@@ -1,6 +1,6 @@
 var a22297 =
 [
-    [ "spell_yogg_saron_empowering_shadows_SpellScript", "d7/d55/a22301.html", "d7/d55/a22301" ],
-    [ "spell_yogg_saron_empowering_shadows", "dc/ddf/a22297.html#a6204dd963111b21490ae06d121fec1e6", null ],
-    [ "GetSpellScript", "dc/ddf/a22297.html#a860f4c74925de8e7a23dd0a4409e179b", null ]
+    [ "OnPeriodic", "dc/ddf/a22297.html#a402927286caea4e81bfe5d444b61c8d1", null ],
+    [ "PrepareAuraScript", "dc/ddf/a22297.html#aebfba00463746ef2025ef08bf412fa65", null ],
+    [ "Register", "dc/ddf/a22297.html#acae517986d0f64d5134e2f0f23eae90d", null ]
 ];

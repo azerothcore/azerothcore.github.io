@@ -1,10 +1,12 @@
 var a10581 =
 [
-    [ "SpellValue", "d3/d0e/a10581.html#a2aebedc86822634a0a80de7a4c16dd7f", null ],
-    [ "AuraDuration", "d3/d0e/a10581.html#af44c190ba8a8636d78f8d271656bdd02", null ],
-    [ "AuraStackAmount", "d3/d0e/a10581.html#af9d7a902bd7d6a24f2ef9480e725d8e8", null ],
-    [ "EffectBasePoints", "d3/d0e/a10581.html#a4de44adea4dc620f0871215e4d4f611d", null ],
-    [ "ForcedCritResult", "d3/d0e/a10581.html#a14f0fd1b3351297e5c71e34e0c9a44fb", null ],
-    [ "MaxAffectedTargets", "d3/d0e/a10581.html#a69ea555bb8ae6642a0c9c85b3f9b373c", null ],
-    [ "RadiusMod", "d3/d0e/a10581.html#a135bbce8300101411e87a70467dbbd57", null ]
+    [ "Build", "d3/d0e/a10581.html#aa5ed2806342a36723f1317105ebc13fa", null ],
+    [ "FormatVersion", "d3/d0e/a10581.html#abf0c90aa56c9f74e4139b4a1ead3115e", null ],
+    [ "Locale", "d3/d0e/a10581.html#acdcbe4c10ad6143b756638349c185ae5", null ],
+    [ "OptionalDataSize", "d3/d0e/a10581.html#a88c79f6e69197e23ce191bcef187c0fe", null ],
+    [ "SessionKey", "d3/d0e/a10581.html#aff4e4f46725d72923bac3e197ae7d2e3", null ],
+    [ "Signature", "d3/d0e/a10581.html#a34b88d6d83daeee7827176993c152de4", null ],
+    [ "SnifferId", "d3/d0e/a10581.html#a95d3f116ef30a096970ee4f3dd10e2ed", null ],
+    [ "SniffStartTicks", "d3/d0e/a10581.html#a1884076ea4fe5af08964471d0058fd4d", null ],
+    [ "SniffStartUnixtime", "d3/d0e/a10581.html#a8923983e21b7a7f1dd3ee4f21b7df592", null ]
 ];

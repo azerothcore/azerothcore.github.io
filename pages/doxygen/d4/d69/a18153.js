@@ -1,9 +1,6 @@
 var a18153 =
 [
-    [ "HandleApply", "d4/d69/a18153.html#aa6e252011a232de954582eb2149f477a", null ],
-    [ "HandleRemove", "d4/d69/a18153.html#abbd67c77588c9f8635b0a2013cc2d6df", null ],
-    [ "Load", "d4/d69/a18153.html#a10f287fe2d5ef0cf05e7d753fe032770", null ],
-    [ "PrepareAuraScript", "d4/d69/a18153.html#a92570688586984a57e4a9925025bcb61", null ],
-    [ "Register", "d4/d69/a18153.html#a7dd7f004cc9dd5631eb487428d76bfec", null ],
-    [ "SendClientControl", "d4/d69/a18153.html#af85fb28dcb7846a9aa8d989a5b4daa15", null ]
+    [ "IgbExplosionCheck", "d4/d69/a18153.html#ae67cca111f26a275614810cbe053bcd8", null ],
+    [ "operator()", "d4/d69/a18153.html#a28ce6685366e99db2aa1e4022012f943", null ],
+    [ "_source", "d4/d69/a18153.html#a413ee8f2218621d274d118aea967dc9b", null ]
 ];

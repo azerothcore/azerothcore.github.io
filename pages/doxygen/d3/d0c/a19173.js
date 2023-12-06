@@ -1,6 +1,6 @@
 var a19173 =
 [
-    [ "spell_the_lich_king_restore_soul_SpellScript", "de/d07/a19177.html", "de/d07/a19177" ],
-    [ "spell_the_lich_king_restore_soul", "d3/d0c/a19173.html#a92e2333cc7d4ecc9124628ba7a9dcb36", null ],
-    [ "GetSpellScript", "d3/d0c/a19173.html#a05b7c9818fe34249717d56010c02de34", null ]
+    [ "CheckTargetCount", "d3/d0c/a19173.html#aed08a9a157d0f7c7c13ecabf9405475c", null ],
+    [ "PrepareSpellScript", "d3/d0c/a19173.html#a91a20a6c1d3403aa695e42df910ca11a", null ],
+    [ "Register", "d3/d0c/a19173.html#ac72384e8323280a8e027d2b7ad07d2ec", null ]
 ];

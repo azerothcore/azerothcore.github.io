@@ -1,6 +1,6 @@
 var a24829 =
 [
-    [ "spell_black_temple_dementia_AuraScript", "dd/d74/a24833.html", "dd/d74/a24833" ],
-    [ "spell_black_temple_dementia", "d6/d81/a24829.html#aa345d9b1d1330ed634cfbcb2f818b10a", null ],
-    [ "GetAuraScript", "d6/d81/a24829.html#afd9c4376f2b1e29dc03ba93bb33c0dfb", null ]
+    [ "boss_doomlordkazzakAI", "dd/d74/a24833.html", "dd/d74/a24833" ],
+    [ "boss_doomlord_kazzak", "d6/d81/a24829.html#ae4e4844d584ba71ebd3d8a341ba91462", null ],
+    [ "GetAI", "d6/d81/a24829.html#a460a32ce37aae852b48f1990406da9a4", null ]
 ];

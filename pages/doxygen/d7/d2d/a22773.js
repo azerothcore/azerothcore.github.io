@@ -1,6 +1,6 @@
 var a22773 =
 [
-    [ "spell_optic_linkAuraScript", "d9/d6f/a22777.html", "d9/d6f/a22777" ],
-    [ "spell_optic_link", "d7/d2d/a22773.html#a07840298df5282ca6dbef56a63edbfc7", null ],
-    [ "GetAuraScript", "d7/d2d/a22773.html#a05dc6977f347b1aedb439cc2b6e7618b", null ]
+    [ "boss_ichoronAI", "d9/d6f/a22777.html", "d9/d6f/a22777" ],
+    [ "boss_ichoron", "d7/d2d/a22773.html#ad4390da77a130edaf050d0bef3926882", null ],
+    [ "GetAI", "d7/d2d/a22773.html#a68051088dc2d2c738b042e2df0436b28", null ]
 ];

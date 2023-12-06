@@ -1,6 +1,6 @@
 var a21149 =
 [
-    [ "PrepareSpellScript", "da/d95/a21149.html#a123a44129d0c1a7bee28af6becc905f2", null ],
-    [ "RecalculateDamage", "da/d95/a21149.html#a61564c11230ebe3fd0845e9587eb6bb6", null ],
-    [ "Register", "da/d95/a21149.html#ab223ff9e658899dce46ad8bbe6f87890", null ]
+    [ "spell_tar_blaze_AuraScript", "d0/d0d/a21153.html", "d0/d0d/a21153" ],
+    [ "spell_tar_blaze", "da/d95/a21149.html#a221552729227b604910a805efc9da7a8", null ],
+    [ "GetAuraScript", "da/d95/a21149.html#aa4f88738b462d9dbcde1ec1eade6cfd1", null ]
 ];

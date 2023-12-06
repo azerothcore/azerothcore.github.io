@@ -1,8 +1,7 @@
 var a28473 =
 [
-    [ "CheckProc", "d7/d58/a28473.html#a33412f2b5abb1ce2160408ef13e7f0cb", null ],
-    [ "HandleProc", "d7/d58/a28473.html#ab24c3d3f697a7ebd146d6135305c7741", null ],
-    [ "PrepareAuraScript", "d7/d58/a28473.html#a8eccfbb749b85bbb850874324f17bbde", null ],
-    [ "Register", "d7/d58/a28473.html#a482dd09de6cba9f5a36a6cdad1b82a0a", null ],
-    [ "Validate", "d7/d58/a28473.html#a0c3020d44608920a2820e73e0b9e4b42", null ]
+    [ "HandleAuraApply", "d7/d58/a28473.html#afb8eb7fcc0797c3e19a9bfc5eebb5fb2", null ],
+    [ "HandleAuraRemove", "d7/d58/a28473.html#a9029865b5e06c4a9aa7f155f371c9125", null ],
+    [ "PrepareAuraScript", "d7/d58/a28473.html#a5c7d7c0b8880128121d66d39094f1965", null ],
+    [ "Register", "d7/d58/a28473.html#ae15d5175671c60a55e4a77848bc9fe1b", null ]
 ];

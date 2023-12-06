@@ -1,7 +1,6 @@
 var a22253 =
 [
-    [ "Absorb", "dd/dc3/a22253.html#adc30ef8d15141d4383e2b77eb50dc3af", null ],
-    [ "CalculateAmount", "dd/dc3/a22253.html#ae6fa05fb3ae30b46152f74fd8a25a3b4", null ],
-    [ "PrepareAuraScript", "dd/dc3/a22253.html#afdf2cc3c97cbe0daa9a03ab86f2de2b7", null ],
-    [ "Register", "dd/dc3/a22253.html#a9b2df6c823078462db0f063ce3895651", null ]
+    [ "spell_yogg_saron_shadow_beacon_AuraScript", "d9/d60/a22257.html", "d9/d60/a22257" ],
+    [ "spell_yogg_saron_shadow_beacon", "dd/dc3/a22253.html#a8c0bb2f6265a9859d03e437fe28946d2", null ],
+    [ "GetAuraScript", "dd/dc3/a22253.html#a2f5fae237242c9623fbe487b171b1784", null ]
 ];

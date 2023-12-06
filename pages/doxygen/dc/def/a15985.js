@@ -1,5 +1,6 @@
 var a15985 =
 [
-    [ "achievement_watch_him_die", "dc/def/a15985.html#a0d885871eac61d859780e08c8518bb15", null ],
-    [ "OnCheck", "dc/def/a15985.html#a6ca8851bdf8cae50084ca87c1958fb53", null ]
+    [ "npc_anub_ar_crusherAI", "d6/dfb/a15989.html", "d6/dfb/a15989" ],
+    [ "npc_anub_ar_crusher", "dc/def/a15985.html#a3397fab6358ce8c19aecaad734e0ef78", null ],
+    [ "GetAI", "dc/def/a15985.html#aeb8eb3e39612d0f7059f1910033cbbcc", null ]
 ];

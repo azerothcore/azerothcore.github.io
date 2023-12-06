@@ -1,6 +1,6 @@
 var a11481 =
 [
-    [ "boss_drakkisathAI", "d1/d2b/a11485.html", "d1/d2b/a11485" ],
-    [ "boss_drakkisath", "db/d9c/a11481.html#a73f21cbd7b81fc045ae129d7d650b455", null ],
-    [ "GetAI", "db/d9c/a11481.html#ad27999ba129b2e3617c1aba1c4b9772b", null ]
+    [ "npc_burning_spiritAI", "d1/d2b/a11485.html", "d1/d2b/a11485" ],
+    [ "npc_burning_spirit", "db/d9c/a11481.html#a596e654486c82d15d7a37b069a99856d", null ],
+    [ "GetAI", "db/d9c/a11481.html#a3c704a0856d669a1e684e5a858bc4334", null ]
 ];

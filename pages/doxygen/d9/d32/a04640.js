@@ -1,8 +1,5 @@
 var a04640 =
 [
-    [ "AreaInfo", "d9/d32/a04640.html#a5cff768781236ef358e8864269d739e4", null ],
-    [ "adtId", "d9/d32/a04640.html#a6e13cfcbd4aa9c36fb80be7913640730", null ],
-    [ "groupId", "d9/d32/a04640.html#ae0e0518b31f3a16121bf3abd0770eb57", null ],
-    [ "mogpFlags", "d9/d32/a04640.html#ace485f0168c41ce50c78c782dd6301fd", null ],
-    [ "rootId", "d9/d32/a04640.html#a225d78ba13f20c147b92c6dfac1b37ad", null ]
+    [ "basic_endpoint", "d3/de8/a04737.html", null ],
+    [ "tcp_endpoint", "d9/d32/a04640.html#a27a44b709519f6caccf33bc420c4698b", null ]
 ];

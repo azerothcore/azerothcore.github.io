@@ -1,5 +1,6 @@
 var a22405 =
 [
-    [ "npc_salvaged_siege_engine", "dd/da7/a22405.html#aa8cde891a19ebb1e53be2a81a2432442", null ],
-    [ "BeforeSpellClick", "dd/da7/a22405.html#aed2500b2315b5e508ea3d06a2355d023", null ]
+    [ "npc_ulduar_storm_tempered_keeperAI", "d6/d5c/a22409.html", "d6/d5c/a22409" ],
+    [ "npc_ulduar_storm_tempered_keeper", "dd/da7/a22405.html#aaf2ef154cad4f2ba5796e410dabf02fc", null ],
+    [ "GetAI", "dd/da7/a22405.html#aa0860236d2abedba1e521ee1610c89e8", null ]
 ];

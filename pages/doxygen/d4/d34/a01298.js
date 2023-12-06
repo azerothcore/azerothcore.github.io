@@ -1,4 +1,4 @@
 var a01298 =
 [
-    [ "PlayerTaxi", "df/d48/a08126.html", "df/d48/a08126" ]
+    [ "operator<<", "d4/d34/a01298.html#aa8a947319a6f00895a3c443f5cb258ad", null ]
 ];

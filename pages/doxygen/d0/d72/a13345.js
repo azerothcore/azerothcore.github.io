@@ -1,9 +1,8 @@
 var a13345 =
 [
-    [ "npc_partygoer", "d0/d72/a13345.html#af053caedfd1fa8173b875f521d279418", null ],
-    [ "Initialize", "d0/d72/a13345.html#a9012ff95e5cead3c02f9eeb30f29a9f6", null ],
-    [ "Reset", "d0/d72/a13345.html#ad1936099ec5696a2a593e5041b0360c6", null ],
-    [ "UpdateAI", "d0/d72/a13345.html#a423df8a3de7d23221ea4d62a0c65fefc", null ],
-    [ "_events", "d0/d72/a13345.html#ad5095ee005ecb89ca54b0663d41e20ac", null ],
-    [ "_facing", "d0/d72/a13345.html#a9e934091894987ec091b03090bf733e5", null ]
+    [ "HandleEffectApply", "d0/d72/a13345.html#affb8b36a1f975be9440734c2775bae04", null ],
+    [ "HandleEffectRemove", "d0/d72/a13345.html#a9aa18234139cfa0a3d96f37a5bbc1e03", null ],
+    [ "Load", "d0/d72/a13345.html#a7b34beda2504b605f3fc311e2b4b5d5e", null ],
+    [ "PrepareAuraScript", "d0/d72/a13345.html#a98a1b090e408ffb9e301ee39b380acb4", null ],
+    [ "Register", "d0/d72/a13345.html#a8daf0993bd08a5b88a840ac87c83206d", null ]
 ];

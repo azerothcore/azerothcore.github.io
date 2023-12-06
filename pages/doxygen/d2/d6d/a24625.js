@@ -1,6 +1,6 @@
 var a24625 =
 [
-    [ "spell_najentus_needle_spine_SpellScript", "d0/dff/a24629.html", "d0/dff/a24629" ],
-    [ "spell_najentus_needle_spine", "d2/d6d/a24625.html#af83d2c9079479c1b5c49694ced587a80", null ],
-    [ "GetSpellScript", "d2/d6d/a24625.html#af3e0f80fe10d8865a94f886fbdae6288", null ]
+    [ "HandleDummy", "d2/d6d/a24625.html#a85cbe85873c5f04c8fb94ad52e94afda", null ],
+    [ "PrepareSpellScript", "d2/d6d/a24625.html#ae483ea2ecc541f52f37456f6e9d4b380", null ],
+    [ "Register", "d2/d6d/a24625.html#a972574075c86c32593982add71dc893f", null ]
 ];

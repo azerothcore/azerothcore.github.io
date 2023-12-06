@@ -1,5 +1,5 @@
 var a23613 =
 [
-    [ "npc_guardian_pavilionAI", "d3/dcd/a23613.html#a2c116495e65c7f97063aa7dc6516f48c", null ],
-    [ "MoveInLineOfSight", "d3/dcd/a23613.html#aeae26e28be93120062d9f77c069ff32a", null ]
+    [ "PrepareSpellScript", "d3/dcd/a23613.html#a7e2a233ffb0393c3699a7461377f092d", null ],
+    [ "Register", "d3/dcd/a23613.html#ab940fe81d5e626fe1634f5b8047aec7b", null ]
 ];

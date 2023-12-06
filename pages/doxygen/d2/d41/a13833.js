@@ -1,6 +1,6 @@
 var a13833 =
 [
-    [ "boss_gahzrankaAI", "d3/d0d/a13837.html", "d3/d0d/a13837" ],
-    [ "boss_gahzranka", "d2/d41/a13833.html#a9d8e4def6fc00535eef5810127c91e12", null ],
-    [ "GetAI", "d2/d41/a13833.html#a88295e62ebacccc55dc32731863cc041", null ]
+    [ "boss_zuljinAI", "d3/d0d/a13837.html", "d3/d0d/a13837" ],
+    [ "boss_zuljin", "d2/d41/a13833.html#ab8897eaa13c21ca4169bc54b5d9270f4", null ],
+    [ "GetAI", "d2/d41/a13833.html#a92eb91c259fe70f3eb6876941cb3406a", null ]
 ];

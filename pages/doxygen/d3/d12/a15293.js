@@ -1,11 +1,8 @@
 var a15293 =
 [
-    [ "npc_depth_chargeAI", "d3/d12/a15293.html#a088848c16418964973107e125c20f508", null ],
-    [ "AttackStart", "d3/d12/a15293.html#a1ec6e2ea0cc61262932f63f764273cdb", null ],
-    [ "JustEngagedWith", "d3/d12/a15293.html#a90cc6eab8b63588f2567f59941eafc59", null ],
-    [ "MoveInLineOfSight", "d3/d12/a15293.html#a8342b7fc7677ac94757c725ec4063e9e", null ],
-    [ "Reset", "d3/d12/a15293.html#aaccf632a50749c0f6d6f29bb1b1bf5a4", null ],
-    [ "UpdateAI", "d3/d12/a15293.html#af34e55c3aee40f840edf695adc06495e", null ],
-    [ "WeMustDie", "d3/d12/a15293.html#a7b25b1228cf5029f1ebe653c76cf9843", null ],
-    [ "WeMustDieTimer", "d3/d12/a15293.html#a23e4f1f7079d12e78c74c21171d95cc7", null ]
+    [ "npc_obsidian_eradicator", "d3/d12/a15293.html#a84a6c414b3d74468143984e57f83e383", null ],
+    [ "JustEngagedWith", "d3/d12/a15293.html#ab03b7138306a04a00938bf1cdb9a7966", null ],
+    [ "Reset", "d3/d12/a15293.html#a7c76c7d3a69e464c0dcb6a96226baa61", null ],
+    [ "UpdateAI", "d3/d12/a15293.html#a1697d83e89559f047d5bab652007bb61", null ],
+    [ "_targetGUIDs", "d3/d12/a15293.html#abd83775d1eab5ab2a3aadd7fd925c3ae", null ]
 ];

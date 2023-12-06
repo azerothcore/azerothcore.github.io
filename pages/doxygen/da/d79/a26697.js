@@ -1,6 +1,6 @@
 var a26697 =
 [
-    [ "HandleScript", "da/d79/a26697.html#a7bf5f9d28a916704bd1ece8acc64fe59", null ],
-    [ "PrepareSpellScript", "da/d79/a26697.html#ab9193654a0534dc82c4c93a3158f3f7a", null ],
-    [ "Register", "da/d79/a26697.html#a0f0360e8b2db795046c3b76e6db0a97e", null ]
+    [ "CheckProc", "da/d79/a26697.html#ad1678a96784add01965d67c3d86bcd77", null ],
+    [ "PrepareAuraScript", "da/d79/a26697.html#a6e164a8e3482b566b776c5ffeeb1b6ac", null ],
+    [ "Register", "da/d79/a26697.html#a148f3fe7ee4bdc8e148fe71100779e56", null ]
 ];

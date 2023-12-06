@@ -1,6 +1,6 @@
 var a22233 =
 [
-    [ "spell_yogg_saron_titanic_storm_SpellScript", "d5/d09/a22237.html", "d5/d09/a22237" ],
-    [ "spell_yogg_saron_titanic_storm", "d9/d7b/a22233.html#adf35073dd6a9fe73e61b6b6de91a6717", null ],
-    [ "GetSpellScript", "d9/d7b/a22233.html#a05a3627cb970008631302ac2f8dbc776", null ]
+    [ "spell_yogg_saron_malady_of_the_mind_AuraScript", "d5/d09/a22237.html", "d5/d09/a22237" ],
+    [ "spell_yogg_saron_malady_of_the_mind", "d9/d7b/a22233.html#a1c35ee4d30b56ac986bcb3f5abd6a09e", null ],
+    [ "GetAuraScript", "d9/d7b/a22233.html#a43dbeba8cf5c6136c55c16b1c04f087a", null ]
 ];

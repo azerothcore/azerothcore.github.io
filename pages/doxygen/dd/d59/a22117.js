@@ -1,6 +1,8 @@
 var a22117 =
 [
-    [ "boss_yoggsaron_corruptor_tentacleAI", "d8/dc5/a22121.html", "d8/dc5/a22121" ],
-    [ "boss_yoggsaron_corruptor_tentacle", "dd/d59/a22117.html#a86fbf881f0a861124dda085347bb03bd", null ],
-    [ "GetAI", "dd/d59/a22117.html#a7325d6feaa12d74c030152ba3a0ab756", null ]
+    [ "boss_yoggsaron_guardian_of_ysAI", "dd/d59/a22117.html#a5542a4fd68a012049a79047f47dccc68", null ],
+    [ "JustDied", "dd/d59/a22117.html#ad75f0baeef73a79cdb9bf62463bc8e50", null ],
+    [ "Reset", "dd/d59/a22117.html#a43d12c19425f3caa56a9732774b6f943", null ],
+    [ "UpdateAI", "dd/d59/a22117.html#a8e1d0b14747db6ce06b882f3f9d61963", null ],
+    [ "_spellTimer", "dd/d59/a22117.html#a45dec8609328d65413ae6c88f693ba15", null ]
 ];

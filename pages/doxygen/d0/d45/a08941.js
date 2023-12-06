@@ -1,7 +1,8 @@
 var a08941 =
 [
-    [ "RaidCheck", "d0/d45/a08941.html#ad8c3717b9a645c7806c8c027a8d90ef5", null ],
-    [ "operator()", "d0/d45/a08941.html#a0c076b737e8e1eacb9aab0981ff66f51", null ],
-    [ "_compare", "d0/d45/a08941.html#a5fffdd5901fb03c5e9a9adfb58e3d759", null ],
-    [ "_equals", "d0/d45/a08941.html#a7d253c94403bd50012722a9a9b113c3a", null ]
+    [ "NearestAttackableNoTotemUnitInObjectRangeCheck", "d0/d45/a08941.html#a1f0bf90a7b9c57d05c54e3db6827aec1", null ],
+    [ "operator()", "d0/d45/a08941.html#a08f8e473914c8a7bddbf26568294c18b", null ],
+    [ "i_obj", "d0/d45/a08941.html#a949ff3bcc3530206d83512d293647a2b", null ],
+    [ "i_owner", "d0/d45/a08941.html#a64f58427bbab3276bdc53450b33eca12", null ],
+    [ "i_range", "d0/d45/a08941.html#af52388830cec17e32b1d368739b4555a", null ]
 ];

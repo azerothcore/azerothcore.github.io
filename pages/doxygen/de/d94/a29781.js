@@ -1,7 +1,5 @@
 var a29781 =
 [
-    [ "Class", "de/d94/a29781.html#abaaa0cd4d1b7f3ef5b297c5afdbc99fe", null ],
-    [ "Gender", "de/d94/a29781.html#aba6251a7020c6e66b9fc7a21859df271", null ],
-    [ "ItemId", "de/d94/a29781.html#a7d17ef6151f6b746223e44164ab5c20d", null ],
-    [ "Race", "de/d94/a29781.html#aee768679c4b8ee7cd28ea3fa899206e3", null ]
+    [ "DisplayRaceID", "de/d94/a29781.html#a5f3897281f18061c4508d752b2291552", null ],
+    [ "DisplaySexID", "de/d94/a29781.html#ae2c166b3de841da8f5848a6a79135b7f", null ]
 ];

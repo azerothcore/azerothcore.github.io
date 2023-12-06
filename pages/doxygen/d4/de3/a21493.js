@@ -1,5 +1,6 @@
 var a21493 =
 [
-    [ "achievement_i_have_the_coolest_friends", "d4/de3/a21493.html#a87fd2d5702fe33ee8b09042c66897636", null ],
-    [ "OnCheck", "d4/de3/a21493.html#aa77aa6129967601ede2f3fc44b2ee1aa", null ]
+    [ "FilterTargets", "d4/de3/a21493.html#ae93d9d0fadebf31c9bf2fb0e36f6b92b", null ],
+    [ "PrepareSpellScript", "d4/de3/a21493.html#a08c862eacb59c7681901c4ab1338649c", null ],
+    [ "Register", "d4/de3/a21493.html#a8861c6463a35fa3aaf4acecbdbf987be", null ]
 ];

@@ -1,14 +1,23 @@
 var a00905 =
 [
-    [ "BattlegroundData", "d5/dfb/a06869.html", "d5/dfb/a06869" ],
-    [ "BattlegroundTemplate", "d6/d19/a06873.html", "d6/d19/a06873" ],
-    [ "BattlegroundMgr", "d1/d85/a06877.html", "d1/d85/a06877" ],
-    [ "sBattlegroundMgr", "da/d5b/a00905.html#abe50926a988d0fff4ee6ba0358c6b278", null ],
-    [ "BattlegroundClientIdsContainer", "da/d5b/a00905.html#aa4d7efc49483e1820c6d759f0f3613f2", null ],
-    [ "BattlegroundContainer", "da/d5b/a00905.html#a33858c5514cd62b25f056e4ba170de59", null ],
-    [ "BattleMastersMap", "da/d5b/a00905.html#a0167dc8561c0fb4a41f0eaa6bea38980", null ],
-    [ "BGFreeSlotQueueContainer", "da/d5b/a00905.html#a356842317f4215b2ee31abb25b4d54e7", null ],
-    [ "bgMapRef", "da/d5b/a00905.html#a91490e6276f571e959bcc65a1a7e4007", null ],
-    [ "bgRef", "da/d5b/a00905.html#a1d8c1781106a97335f700c82ac98e915", null ],
-    [ "bgTypeRef", "da/d5b/a00905.html#ab13257a97cde6f35eb3aed651e61e20c", null ]
+    [ "BattlegroundScore", "d7/db0/a07037.html", "d7/db0/a07037" ],
+    [ "ScoreType", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18", [
+      [ "SCORE_KILLING_BLOWS", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18a22caa690e4e043a997818fdf5a449046", null ],
+      [ "SCORE_DEATHS", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18a4ba4987db8c69483e0652a21dace8412", null ],
+      [ "SCORE_HONORABLE_KILLS", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18ae7b8eadd38f6f3bf514aa4cbd2118aa7", null ],
+      [ "SCORE_BONUS_HONOR", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18a4110f3ce50e9b19ad8219687b6a6860f", null ],
+      [ "SCORE_DAMAGE_DONE", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18a755b66947282176df3f0e28c871a3527", null ],
+      [ "SCORE_HEALING_DONE", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18ac9e8c817b3b8a0e0b001f62fbfe448c2", null ],
+      [ "SCORE_FLAG_CAPTURES", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18a49ecbd479d11f177283e94e2b936b89b", null ],
+      [ "SCORE_FLAG_RETURNS", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18af4b88b5a6497049691b51da5367bec2a", null ],
+      [ "SCORE_BASES_ASSAULTED", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18a108feeea9c0953b1385ca31d65d252e1", null ],
+      [ "SCORE_BASES_DEFENDED", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18aaa34df0d06110a0e6c71c06de612e408", null ],
+      [ "SCORE_GRAVEYARDS_ASSAULTED", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18a10d874c8aa6cc5f92f3c66ed2b09ec6b", null ],
+      [ "SCORE_GRAVEYARDS_DEFENDED", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18ae38155160e05accac751eb7b1c0d1a8a", null ],
+      [ "SCORE_TOWERS_ASSAULTED", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18a6289024a3ec4b3bbd713bb620962b027", null ],
+      [ "SCORE_TOWERS_DEFENDED", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18a2e13ab0e3b8c3865cdd00d826e7f818a", null ],
+      [ "SCORE_MINES_CAPTURED", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18a663b5d13fab1724a2eeb03dab4e78015", null ],
+      [ "SCORE_DESTROYED_DEMOLISHER", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18aa091bf4f9474979e615395285650582e", null ],
+      [ "SCORE_DESTROYED_WALL", "da/d5b/a00905.html#aa5c51730b458b3ddc7b23ce42f320f18a8874623148dc5e2da10eb81e98e0be80", null ]
+    ] ]
 ];

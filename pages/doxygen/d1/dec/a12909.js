@@ -1,6 +1,6 @@
 var a12909 =
 [
-    [ "CheckCast", "d1/dec/a12909.html#a4ef64e34fa2aa54c52a690087e0ee8c8", null ],
-    [ "PrepareSpellScript", "d1/dec/a12909.html#aeb7a41febc68ff5d145a06dc30ee1ccd", null ],
-    [ "Register", "d1/dec/a12909.html#a463bfc953e83eaec374bd2e657590cc1", null ]
+    [ "boss_brutallusAI", "de/dca/a12913.html", "de/dca/a12913" ],
+    [ "boss_brutallus", "d1/dec/a12909.html#a0030c442145a411b5534028885b44e04", null ],
+    [ "GetAI", "d1/dec/a12909.html#a536baa1f734a104e4f00902f973bd87a", null ]
 ];

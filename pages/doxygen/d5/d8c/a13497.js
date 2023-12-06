@@ -1,6 +1,7 @@
 var a13497 =
 [
-    [ "npc_parqual_fintallas", "d5/d8c/a13497.html#a9edaf1f7cf4e81ce24c54faa4aed6cf6", null ],
-    [ "OnGossipHello", "d5/d8c/a13497.html#af7c1f119d91aa63ee96765f2092b0a6c", null ],
-    [ "OnGossipSelect", "d5/d8c/a13497.html#a39276ef82ec5214a1727ebd60235a506", null ]
+    [ "npc_deathstalker_erlandAI", "d5/d8c/a13497.html#aa3c6822db09bc40dc87d556f6b3cc880", null ],
+    [ "JustEngagedWith", "d5/d8c/a13497.html#ae4789c26cbb00b4ac04d646617a48a40", null ],
+    [ "Reset", "d5/d8c/a13497.html#a3def0a0dd57ed732242a09d6390ab1f0", null ],
+    [ "WaypointReached", "d5/d8c/a13497.html#af200e269d3f4b51bb5cfd08e9bf7ecc5", null ]
 ];

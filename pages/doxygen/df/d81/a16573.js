@@ -1,7 +1,6 @@
 var a16573 =
 [
-    [ "npc_toc_priestAI", "df/d81/a16573.html#aa362d2136193a8738e311bba18b87c90", null ],
-    [ "myCanCast", "df/d81/a16573.html#ad2d4286d8f51a2d5a4901487e56506dc", null ],
-    [ "UpdateAI", "df/d81/a16573.html#ae51d2ac95320909150c673b76c9856c7", null ],
-    [ "events", "df/d81/a16573.html#aa5be20e87351424e0e4698540fc1fef4", null ]
+    [ "HandleAfterHit", "df/d81/a16573.html#a72252694da7e453387e9d79d12e7e2a4", null ],
+    [ "PrepareSpellScript", "df/d81/a16573.html#aff18e189296f7379a8fde5ad6eab8ada", null ],
+    [ "Register", "df/d81/a16573.html#aa6c511fa8eb6d1123be1243bac7f0606", null ]
 ];

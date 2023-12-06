@@ -1,6 +1,6 @@
 var a24373 =
 [
-    [ "spell_illidan_cage_trap_SpellScript", "d1/d2f/a24377.html", "d1/d2f/a24377" ],
-    [ "spell_illidan_cage_trap", "db/d5a/a24373.html#acf6836f09f2373d4f918fd73ee18f7ff", null ],
-    [ "GetSpellScript", "db/d5a/a24373.html#a698bb668221ac9dec7f795ec21575c88", null ]
+    [ "spell_illidan_tear_of_azzinoth_summon_channel_AuraScript", "d1/d2f/a24377.html", "d1/d2f/a24377" ],
+    [ "spell_illidan_tear_of_azzinoth_summon_channel", "db/d5a/a24373.html#a49ba46498ce42fb23caf5306418b921c", null ],
+    [ "GetAuraScript", "db/d5a/a24373.html#a47120dcf7ac483962f1ea92df2abd21e", null ]
 ];

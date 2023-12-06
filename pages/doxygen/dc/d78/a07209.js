@@ -1,6 +1,4 @@
 var a07209 =
 [
-    [ "operator bool", "dc/d78/a07209.html#a02878c282dfcfd2b9f4eddf99a805fa3", null ],
-    [ "tail", "dc/d78/a07209.html#a0bd839d0c7a8b7ce84612c80f3ca84e7", null ],
-    [ "token", "dc/d78/a07209.html#a55e214db8a01ac3c427874d03f1bda54", null ]
+    [ "HordeChannelMgr", "dc/d78/a07209.html#a9354a4b4122500bba602254d0c9f3b98", null ]
 ];

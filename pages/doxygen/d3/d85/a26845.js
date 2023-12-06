@@ -1,6 +1,7 @@
 var a26845 =
 [
-    [ "OnPeriodic", "d3/d85/a26845.html#a5fdf44f34765d0386d5c5490620c944a", null ],
-    [ "PrepareAuraScript", "d3/d85/a26845.html#a3c3044795e183eef2c801781100b11c7", null ],
-    [ "Register", "d3/d85/a26845.html#a1221c3287c3fd7add356e84430508684", null ]
+    [ "HandleScript", "d3/d85/a26845.html#a8ec57aed0788f58e2c50fc08793a5749", null ],
+    [ "PrepareSpellScript", "d3/d85/a26845.html#a56c9ab120239252982cab8b96ac8c5fe", null ],
+    [ "Register", "d3/d85/a26845.html#a8c727b2b00858abcce058b16d66ca62a", null ],
+    [ "Validate", "d3/d85/a26845.html#af3ffb9930eaba8703065719bbcf02f56", null ]
 ];

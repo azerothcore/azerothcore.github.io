@@ -1,10 +1,6 @@
 var a16213 =
 [
-    [ "spell_halion_marks_AuraScript", "dd/d9b/a16213.html#aac8a987e645f0ca3db27e037ec3747b1", null ],
-    [ "BeforeDispel", "dd/d9b/a16213.html#a27c3abd3b58efcdfafe6f81419f867bb", null ],
-    [ "OnRemove", "dd/d9b/a16213.html#ac451606557ea323c24b740b286023e28", null ],
-    [ "PrepareAuraScript", "dd/d9b/a16213.html#af2983e9d4aa2bb00a9cacf073b7e907e", null ],
-    [ "Register", "dd/d9b/a16213.html#ae04c2f6f6a4d528672ee812269000fb6", null ],
-    [ "_removeSpellId", "dd/d9b/a16213.html#a0d9e8d531ef9ec9d16e5577476c00e9e", null ],
-    [ "_summonSpellId", "dd/d9b/a16213.html#af3fe15f771c071df728bb688ebe6b61b", null ]
+    [ "spell_halion_meteor_strike_marker_AuraScript", "de/dae/a16217.html", "de/dae/a16217" ],
+    [ "spell_halion_meteor_strike_marker", "dd/d9b/a16213.html#a1c0ad530fab100f0a8a43f758e684de7", null ],
+    [ "GetAuraScript", "dd/d9b/a16213.html#ac0e07fee504341e8abc3fe809220696c", null ]
 ];

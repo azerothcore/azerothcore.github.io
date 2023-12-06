@@ -1,5 +1,4 @@
 var a02039 =
 [
-    [ "WorldPackets::LFG::LFGJoin", "d7/d72/a10249.html", "d7/d72/a10249" ],
-    [ "WorldPackets::LFG::LFGLeave", "df/d3f/a10253.html", "df/d3f/a10253" ]
+    [ "ScriptRegistry< ModuleScript >", "d4/d9b/a02039.html#a7749cbcc2b6820dc30c515ebb6cefe36", null ]
 ];

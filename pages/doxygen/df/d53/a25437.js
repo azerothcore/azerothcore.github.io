@@ -1,16 +1,10 @@
 var a25437 =
 [
-    [ "boss_warchief_kargath_bladefist", "df/d53/a25437.html#a0957dbfd6c085575fa862f38c87b6b3d", null ],
-    [ "InitializeAI", "df/d53/a25437.html#a86d9b5b1500960235e76ae71337a6c90", null ],
-    [ "IsInRoom", "df/d53/a25437.html#af9d4bd9d94115a1040e1e4a4dbf8df83", null ],
-    [ "JustDied", "df/d53/a25437.html#a436b90336c90f6662f3ce704a62f0d90", null ],
-    [ "JustEngagedWith", "df/d53/a25437.html#ab3d7b0ebca4f8134e5c2f31422ff006b", null ],
-    [ "JustSummoned", "df/d53/a25437.html#aaa69f064d7eb3a0d107c835c806fa1de", null ],
-    [ "KilledUnit", "df/d53/a25437.html#a730bbd2f95a2919fba1a7300b4307b84", null ],
-    [ "MovementInform", "df/d53/a25437.html#a716eab9bda2b697252dde90aa513d7df", null ],
-    [ "Reset", "df/d53/a25437.html#a50fa7a5aed8d3f4916f0449c4fb075ac", null ],
-    [ "RespawnAssassins", "df/d53/a25437.html#a1397317259589ea69f77f52f60852043", null ],
-    [ "SummonedCreatureDies", "df/d53/a25437.html#a325da34f78d202708a58c1a543ecb8ca", null ],
-    [ "UpdateAI", "df/d53/a25437.html#acd463cac8e2fa8289ecb5567709db678", null ],
-    [ "_danceCount", "df/d53/a25437.html#af4a60caaef6388caff973295e3397a7d", null ]
+    [ "boss_thorngrin_the_tender", "df/d53/a25437.html#ad960b1084fc08d2870975c7c6c44ab2b", null ],
+    [ "JustDied", "df/d53/a25437.html#a4bc13108f7cb240fedb44ccae2b54047", null ],
+    [ "JustEngagedWith", "df/d53/a25437.html#a647ed5b29861b719d3c4a11fd110c512", null ],
+    [ "KilledUnit", "df/d53/a25437.html#ab3731c5b56e1c01aa5d78d84a5e60234", null ],
+    [ "MoveInLineOfSight", "df/d53/a25437.html#a9467e59287b3e917907de82507d1a16d", null ],
+    [ "Reset", "df/d53/a25437.html#af3f1471cbcdadfe3a86421d7232fb4b9", null ],
+    [ "_intro", "df/d53/a25437.html#a48fc89c7e9814d90a8724ca38c5e2fe8", null ]
 ];

@@ -1,11 +1,12 @@
 var a05565 =
 [
-    [ "SQLQueryHolderCallback", "d2/d4a/a05565.html#afc2cb6a483d17ae115e947bc88fe592b", null ],
-    [ "SQLQueryHolderCallback", "d2/d4a/a05565.html#a7fddb08e9e10cdb8a437de3ee53494db", null ],
-    [ "AfterComplete", "d2/d4a/a05565.html#a40f0a73f4b92bc0f7ad8659f748c7c17", null ],
-    [ "InvokeIfReady", "d2/d4a/a05565.html#a7e540699d496834c0a36782fb7da03f1", null ],
-    [ "operator=", "d2/d4a/a05565.html#a031861856be6b3e5f18718f3c6129f9c", null ],
-    [ "m_callback", "d2/d4a/a05565.html#aa055fe02b0158a9098e6eccdc32e9ff4", null ],
-    [ "m_future", "d2/d4a/a05565.html#a7dc3e5e72d47135660a29a0418e17c44", null ],
-    [ "m_holder", "d2/d4a/a05565.html#a09b018fb4d8e0e67249b1117c657ecc2", null ]
+    [ "DatabaseWorker", "d2/d4a/a05565.html#a64450680e7b6e31bb42ce4f79788eb27", null ],
+    [ "~DatabaseWorker", "d2/d4a/a05565.html#a170c873cbc917ece6a87591450dbe5a9", null ],
+    [ "DatabaseWorker", "d2/d4a/a05565.html#aa43f1d875400b0ba6c031e0811397ed3", null ],
+    [ "operator=", "d2/d4a/a05565.html#a15e753c757da609b55a66380f526091a", null ],
+    [ "WorkerThread", "d2/d4a/a05565.html#ab74cbccbb68bfbbab58550eced982d1a", null ],
+    [ "_cancelationToken", "d2/d4a/a05565.html#a448c50212f5d532cb4c35619b993041a", null ],
+    [ "_connection", "d2/d4a/a05565.html#a2f21d73b584d9e5f17afc7a0ac78f129", null ],
+    [ "_queue", "d2/d4a/a05565.html#a9c47ad6c0d4dca85a63be45c4e678a70", null ],
+    [ "_workerThread", "d2/d4a/a05565.html#ad02a90f600f1996c053f36e186edf292", null ]
 ];

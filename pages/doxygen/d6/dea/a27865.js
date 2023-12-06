@@ -1,8 +1,6 @@
 var a27865 =
 [
-    [ "HandleApply", "d6/dea/a27865.html#aafdf3712f163919f010d11d0becb398f", null ],
-    [ "HandleRemove", "d6/dea/a27865.html#ac3e33cb37d13b633f3938a48917a4975", null ],
-    [ "PrepareAuraScript", "d6/dea/a27865.html#a42590a0ef43a48c5309f995f9bec5c9b", null ],
-    [ "Register", "d6/dea/a27865.html#a84e7337494dc2e1772ca10dea26c675f", null ],
-    [ "Validate", "d6/dea/a27865.html#ac2558aafb3ce66ca7bbfd718eb8c6338", null ]
+    [ "CalculateAmount", "d6/dea/a27865.html#a9c4a38bb60cc61156da5bd1b89b3e116", null ],
+    [ "PrepareAuraScript", "d6/dea/a27865.html#a5bd55cb8b992f7ceb52f7193bcdbf210", null ],
+    [ "Register", "d6/dea/a27865.html#a1f717d941f8d100eb73d7e2a3b638bad", null ]
 ];

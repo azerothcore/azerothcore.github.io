@@ -1,6 +1,6 @@
 var a22353 =
 [
-    [ "npc_ulduar_keeper", "da/dcf/a22353.html#a252b781061a2e21dc961ea94f7120d59", null ],
-    [ "OnGossipHello", "da/dcf/a22353.html#a4db12efd22c7d2a5f18144fd16543230", null ],
-    [ "OnGossipSelect", "da/dcf/a22353.html#acf8681577117107d16d45705e4b8463f", null ]
+    [ "HandleScript", "da/dcf/a22353.html#a7836c79e2c52b4d0a67241dc7209f429", null ],
+    [ "PrepareSpellScript", "da/dcf/a22353.html#ab6294aa9a62d00f7cdf9698e55c59ebc", null ],
+    [ "Register", "da/dcf/a22353.html#aade9ef92025253ffcab69c4dbe8da4c5", null ]
 ];

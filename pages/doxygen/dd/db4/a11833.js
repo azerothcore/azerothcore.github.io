@@ -1,6 +1,6 @@
 var a11833 =
 [
-    [ "boss_baron_geddonAI", "da/d64/a11837.html", "da/d64/a11837" ],
-    [ "boss_baron_geddon", "dd/db4/a11833.html#ad72caf30219b4295c0be4289b9d25498", null ],
-    [ "GetAI", "dd/db4/a11833.html#a8f328680a5f99fb275cb0b3e8adf9c63", null ]
+    [ "boss_ebonrocAI", "da/d64/a11837.html", "da/d64/a11837" ],
+    [ "boss_ebonroc", "dd/db4/a11833.html#a3f71b5a687ab10a228e560429b8a4709", null ],
+    [ "GetAI", "dd/db4/a11833.html#acf2dc7391e1f642dff3c7f56024aaea5", null ]
 ];

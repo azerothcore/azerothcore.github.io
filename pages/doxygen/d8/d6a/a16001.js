@@ -1,6 +1,6 @@
 var a16001 =
 [
-    [ "HandleScriptEffect", "d8/d6a/a16001.html#a00b7ec2b596ffac803dac4b5bcd3af75", null ],
-    [ "PrepareSpellScript", "d8/d6a/a16001.html#af800b520c55f279803272c816ef97ebd", null ],
-    [ "Register", "d8/d6a/a16001.html#a389d152e7f806b8320d59fa2c110d6f4", null ]
+    [ "spell_hadronox_leech_poison_AuraScript", "d3/d48/a16005.html", "d3/d48/a16005" ],
+    [ "spell_hadronox_leech_poison", "d8/d6a/a16001.html#ac728cdca360c47e36de9aa6144914083", null ],
+    [ "GetAuraScript", "d8/d6a/a16001.html#a4d6b18d6c1055d314bc4d6f6d62b4345", null ]
 ];

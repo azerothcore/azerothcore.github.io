@@ -1,6 +1,7 @@
 var a25729 =
 [
-    [ "boss_void_reaverAI", "da/dba/a25733.html", "da/dba/a25733" ],
-    [ "boss_void_reaver", "da/d65/a25729.html#a9becc71d12c72bd5c0cde20d5f2c100b", null ],
-    [ "GetAI", "da/d65/a25729.html#a96aa3f6a0b5517f73f1d74412dc3b01d", null ]
+    [ "npc_daranelleAI", "da/d65/a25729.html#a49eeff6e0aea079a0375a92074227d12", null ],
+    [ "JustEngagedWith", "da/d65/a25729.html#aeff39dfd84986186057cdaf7632eed4f", null ],
+    [ "MoveInLineOfSight", "da/d65/a25729.html#a353e27c1485b88f0751a64260898d35b", null ],
+    [ "Reset", "da/d65/a25729.html#a33b2fbec775257e3ba0bebe37fb86349", null ]
 ];

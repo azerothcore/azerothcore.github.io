@@ -1,6 +1,6 @@
 var a13297 =
 [
-    [ "npc_maredis_firestarAI", "d0/d0a/a13297.html#ac2d4ed4b205146524dcf11585d65ae12", null ],
-    [ "sGossipHello", "d0/d0a/a13297.html#a72790dc9525249a4b558c37c4a0bd03f", null ],
-    [ "sGossipSelect", "d0/d0a/a13297.html#acefb2bc09fe8f7ad77d53ee6eb8bbb71", null ]
+    [ "HandlePull", "d0/d0a/a13297.html#ae854764446010d6c781c1569df0972d9", null ],
+    [ "PrepareSpellScript", "d0/d0a/a13297.html#a02e8286ade771a3d69245cfbaf2ddd44", null ],
+    [ "Register", "d0/d0a/a13297.html#af690014c0f89bc8cfb50c758dbc095f8", null ]
 ];

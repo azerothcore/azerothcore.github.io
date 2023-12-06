@@ -1,9 +1,9 @@
 var a23489 =
 [
-    [ "npc_Apothecary_HanesAI", "d5/d2a/a23489.html#a8e209b142a58b3b3c0d84c430a086ade", null ],
-    [ "JustDied", "d5/d2a/a23489.html#a4c681936d8e7053ace5cdeeaa1ee5ca9", null ],
-    [ "Reset", "d5/d2a/a23489.html#a23d54542e6debf39798c2a2d6e2a255d", null ],
-    [ "UpdateEscortAI", "d5/d2a/a23489.html#ab54eb5115b9c41b39f0de0f8f4412ef9", null ],
-    [ "WaypointReached", "d5/d2a/a23489.html#a7105ea4c83ddd0fd08c96a0b0ff40bd2", null ],
-    [ "PotTimer", "d5/d2a/a23489.html#a252858818b61cf15e2e031ceaaadc6b8", null ]
+    [ "spell_z_check_AuraScript", "d5/d2a/a23489.html#a044c938bb50f210bf1ab49c7cddd16d6", null ],
+    [ "HandleEffectApply", "d5/d2a/a23489.html#a4da55969bb92f8d94335f14855b8b2c0", null ],
+    [ "HandleEffectPeriodic", "d5/d2a/a23489.html#ad700db4660b5c814d1a6a6adea47adca", null ],
+    [ "PrepareAuraScript", "d5/d2a/a23489.html#ad16a3e140f32f05d262d363ede070ad2", null ],
+    [ "Register", "d5/d2a/a23489.html#a55f4cb60278feec5feed8e12f7b97770", null ],
+    [ "_posZ", "d5/d2a/a23489.html#ab7d97aef92a216e9e1704bf15c5e5b55", null ]
 ];

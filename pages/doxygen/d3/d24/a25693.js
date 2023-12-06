@@ -1,6 +1,6 @@
 var a25693 =
 [
-    [ "spell_kaelthas_flame_strike_AuraScript", "d8/db3/a25697.html", "d8/db3/a25697" ],
-    [ "spell_kaelthas_flame_strike", "d3/d24/a25693.html#a5c5ded6724be16d04a1e346fff579801", null ],
-    [ "GetAuraScript", "d3/d24/a25693.html#a7d107277d866e65cec6ad55fa8750bf0", null ]
+    [ "npc_deaths_door_fell_cannon_target_bunnyAI", "d8/db3/a25697.html", "d8/db3/a25697" ],
+    [ "npc_deaths_door_fell_cannon_target_bunny", "d3/d24/a25693.html#a1385e50777282fae0c8f8ca2f9f8a3e6", null ],
+    [ "GetAI", "d3/d24/a25693.html#a250707096229da28024960beeb7725bf", null ]
 ];

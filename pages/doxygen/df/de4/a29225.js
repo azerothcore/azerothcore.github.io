@@ -1,10 +1,13 @@
 var a29225 =
 [
-    [ "go_evil_book_for_dummies", "df/de4/a29225.html#a69f599910bce0070c6b1af547c459b72", null ],
-    [ "HasLeatherSpecialty", "df/de4/a29225.html#a3d755fa8777f33a318ffa6f004aecbed", null ],
-    [ "OnGossipHello", "df/de4/a29225.html#aeb29351e2faf135298419488eb16cc7e", null ],
-    [ "OnGossipSelect", "df/de4/a29225.html#ac4bc1c682b75c436a4d3fff118a20ca4", null ],
-    [ "SendActionMenu", "df/de4/a29225.html#a0aa21b4619ea5cc8229eb56e09d3233d", null ],
-    [ "SendConfirmLearn", "df/de4/a29225.html#a11a605c576a3c81b5ed96d413ec20f57", null ],
-    [ "SendConfirmUnlearn", "df/de4/a29225.html#af9c10b0423327d8644020e8f5e26a603", null ]
+    [ "npc_nelsonAI", "df/de4/a29225.html#af6aada5c34048ce6bda6d5c1541e0bf3", null ],
+    [ "DoAction", "df/de4/a29225.html#a13ec2adee9d671f949139dbf94c75cc3", null ],
+    [ "JustEngagedWith", "df/de4/a29225.html#accb9aeb3b3f3fc2233598b7fef40c3ec", null ],
+    [ "JustSummoned", "df/de4/a29225.html#a31d622d73a2540e159720d4c8ddc7d00", null ],
+    [ "Reset", "df/de4/a29225.html#a05fcb98153f0a24f50004f465d8f3c72", null ],
+    [ "SpellHit", "df/de4/a29225.html#afab81d8a6077c755c186bb619944d78d", null ],
+    [ "SummonedCreatureDies", "df/de4/a29225.html#ab3753c9b6848c1567ac596a5f6b498a1", null ],
+    [ "UpdateAI", "df/de4/a29225.html#ac68749942f37de5f9105556fe7b904b7", null ],
+    [ "events", "df/de4/a29225.html#a25eb289b79de306bbdc0dd099b23a2a0", null ],
+    [ "shouldDespawn", "df/de4/a29225.html#a09a68f903854fcedd8a4b2ee4c2597e2", null ]
 ];

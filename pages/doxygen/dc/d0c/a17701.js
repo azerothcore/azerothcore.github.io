@@ -1,6 +1,6 @@
 var a17701 =
 [
-    [ "spell_valanar_kinetic_bomb_absorb_AuraScript", "d6/d7a/a17705.html", "d6/d7a/a17705" ],
-    [ "spell_valanar_kinetic_bomb_absorb", "dc/d0c/a17701.html#a9d7da1a90dde027830183cb89fc1f26f", null ],
-    [ "GetAuraScript", "dc/d0c/a17701.html#ac776f43e5142aee09562bf76acca64e0", null ]
+    [ "spell_taldaram_glittering_sparks_SpellScript", "d6/d7a/a17705.html", "d6/d7a/a17705" ],
+    [ "spell_taldaram_glittering_sparks", "dc/d0c/a17701.html#a6f586802a15cfa930c273e2cb5584898", null ],
+    [ "GetSpellScript", "dc/d0c/a17701.html#a3d12794edd67a7649ae7e96ed96a0344", null ]
 ];

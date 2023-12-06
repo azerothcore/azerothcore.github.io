@@ -1,6 +1,6 @@
 var a22613 =
 [
-    [ "boss_archavonAI", "d1/d04/a22617.html", "d1/d04/a22617" ],
-    [ "boss_archavon", "df/dee/a22613.html#a44e20480f8d86cf763afe67de49c6c33", null ],
-    [ "GetAI", "df/dee/a22613.html#a5eb62d54fe1559ef9df51c2bd01f7de4", null ]
+    [ "HandleDummyEffect", "df/dee/a22613.html#a955fe45a179782caa741e094bc37ab75", null ],
+    [ "PrepareSpellScript", "df/dee/a22613.html#af5324f701aabe24b38dcf21389c220db", null ],
+    [ "Register", "df/dee/a22613.html#aea51910bf97f5bbafad981bd4c433f64", null ]
 ];

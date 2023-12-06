@@ -1,6 +1,6 @@
 var a16889 =
 [
-    [ "HandleScript", "df/dd0/a16889.html#a54f27e1e44a1544c707f85d5cd13cfd3", null ],
-    [ "PrepareSpellScript", "df/dd0/a16889.html#a7bb10b15f9b119a4a641ac5752d84112", null ],
-    [ "Register", "df/dd0/a16889.html#ae55729616c2f819addee3db2ea53d3d2", null ]
+    [ "HandleDummy", "df/dd0/a16889.html#a14338e50f8015e5182d83d289cc5f528", null ],
+    [ "PrepareSpellScript", "df/dd0/a16889.html#a58bc3d2965f51576b0fcb2ff7d0847a1", null ],
+    [ "Register", "df/dd0/a16889.html#ab481e46f350a26921af4662d91399a70", null ]
 ];

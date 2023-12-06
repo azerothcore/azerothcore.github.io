@@ -1,6 +1,9 @@
 var a12309 =
 [
-    [ "spell_mt_phoenix_burn_SpellScript", "dc/df3/a12313.html", "dc/df3/a12313" ],
-    [ "spell_mt_phoenix_burn", "d7/d18/a12309.html#aebe4d719c2d098273d02a6577702c40a", null ],
-    [ "GetSpellScript", "d7/d18/a12309.html#aecec94d80b8903c003093046d4fecab5", null ]
+    [ "FilterTargets", "d7/d18/a12309.html#a88b91e40b330d39bd04a7873128fb858", null ],
+    [ "HandleFinish", "d7/d18/a12309.html#a762ea4cc1cd0a50a65daf22cbbf4ce9c", null ],
+    [ "PrepareSpellScript", "d7/d18/a12309.html#ab4ef82283e4d651d2e5304e49970efa8", null ],
+    [ "Register", "d7/d18/a12309.html#ab2008e585589cbf313170064d37c4aa9", null ],
+    [ "Validate", "d7/d18/a12309.html#af4963be6c544a1706a6dc30dcbf18309", null ],
+    [ "_targets", "d7/d18/a12309.html#a2f75199a90e52cff770f46bce76d5149", null ]
 ];

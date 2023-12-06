@@ -1,6 +1,6 @@
 var a12053 =
 [
-    [ "boss_mr_smiteAI", "da/d58/a12057.html", "da/d58/a12057" ],
-    [ "boss_mr_smite", "d9/d4d/a12053.html#a011d41112ef7376b71d2959f806be262", null ],
-    [ "GetAI", "d9/d4d/a12053.html#a619ca0aede1eb33f992328048319c4f0", null ]
+    [ "boss_magmadarAI", "d9/d4d/a12053.html#a47207fdd6eb94fb08791da06cd4160f6", null ],
+    [ "ExecuteEvent", "d9/d4d/a12053.html#a7d4c1807cb320fdc331057209a4ce166", null ],
+    [ "JustEngagedWith", "d9/d4d/a12053.html#a5ce1495d01f28e0a38f00127e7137a4f", null ]
 ];

@@ -1,6 +1,8 @@
 var a24229 =
 [
-    [ "PrepareSpellScript", "d3/db5/a24229.html#ad8640f1c01d64f8bbca16e0b636f7f21", null ],
-    [ "Register", "d3/db5/a24229.html#aa41700bf097963c5a352442723181037", null ],
-    [ "SelectTarget", "d3/db5/a24229.html#a15d790b134de8a8c7497ee8d0a6217ba", null ]
+    [ "npc_anzu_spirit", "d3/db5/a24229.html#adb1b66d6bf6ec1991465f85a504397d5", null ],
+    [ "IsSummonedBy", "d3/db5/a24229.html#a26f0928593f75d242c8bbcc541f7b59b", null ],
+    [ "Reset", "d3/db5/a24229.html#acef3f7093f93b6c227d145523cdc487a", null ],
+    [ "UpdateAI", "d3/db5/a24229.html#a9866d91ffc04548a96cfcdc3a5c7496a", null ],
+    [ "_scheduler", "d3/db5/a24229.html#ad14937df9ddddabcf96e2d1104ca153c", null ]
 ];

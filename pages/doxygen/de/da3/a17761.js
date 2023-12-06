@@ -1,6 +1,6 @@
 var a17761 =
 [
-    [ "FilterTargets", "de/da3/a17761.html#a14a8d259aa784a293e40b5e13f659833", null ],
-    [ "PrepareSpellScript", "de/da3/a17761.html#ac8d834bcb84de835f9b2b185eef2b261", null ],
-    [ "Register", "de/da3/a17761.html#a8ef6ae99ef8ed9d9b78ce732f28438c2", null ]
+    [ "spell_blood_council_summon_shadow_resonance_SpellScript", "d1/dd0/a17765.html", "d1/dd0/a17765" ],
+    [ "spell_blood_council_summon_shadow_resonance", "de/da3/a17761.html#ac98fc25a6171465d496e27dc5bc8fa91", null ],
+    [ "GetSpellScript", "de/da3/a17761.html#a8c4e89f447f532392d7340e77b989207", null ]
 ];

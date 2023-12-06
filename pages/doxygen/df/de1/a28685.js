@@ -1,6 +1,7 @@
 var a28685 =
 [
-    [ "HandleHeal", "df/de1/a28685.html#a03afbdbdc8555fc2d558a5e48f7340a0", null ],
-    [ "PrepareSpellScript", "df/de1/a28685.html#a61a601108cd59e5d87634c02b002e20d", null ],
-    [ "Register", "df/de1/a28685.html#ae46c965fc77aa61aaa3c426c8ecc585c", null ]
+    [ "HandleScript", "df/de1/a28685.html#ab3f88b7443eb4f32339c3b687431fda2", null ],
+    [ "PrepareSpellScript", "df/de1/a28685.html#ab363d596d2d1e030f0cc07126b40e921", null ],
+    [ "Register", "df/de1/a28685.html#ab9041b811e80e220828d5db59b724682", null ],
+    [ "Validate", "df/de1/a28685.html#a1b9a4c78a43cf406f1db75c518a343ea", null ]
 ];

@@ -1,7 +1,6 @@
 var a22325 =
 [
-    [ "HandleProc", "d5/de5/a22325.html#a4a54a5d4e002d31b07b95784088835c0", null ],
-    [ "PrepareAuraScript", "d5/de5/a22325.html#a3c6b8ff79c6d848b785c91724fe408c8", null ],
-    [ "Register", "d5/de5/a22325.html#a7f9482b0133b548fbb5c46c938478f66", null ],
-    [ "Validate", "d5/de5/a22325.html#a6901ba77aedc341fff4755f1857db42e", null ]
+    [ "spell_yogg_saron_sanity_reduce_SpellScript", "dc/d02/a22329.html", "dc/d02/a22329" ],
+    [ "spell_yogg_saron_sanity_reduce", "d5/de5/a22325.html#ae0e7e2c0654c5887bf9f98081ced0315", null ],
+    [ "GetSpellScript", "d5/de5/a22325.html#a6cfe3a8ef8222457f774e5ac93e44329", null ]
 ];

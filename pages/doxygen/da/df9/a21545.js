@@ -1,6 +1,6 @@
 var a21545 =
 [
-    [ "spell_ignis_grab_initial_SpellScript", "d4/d6d/a21549.html", "d4/d6d/a21549" ],
-    [ "spell_ignis_grab_initial", "da/df9/a21545.html#a6e811c3db63d788228bb3705f0463948", null ],
-    [ "GetSpellScript", "da/df9/a21545.html#aacf557be31f03eb5e014a3963ca0b35a", null ]
+    [ "HandleAfterEffectApply", "da/df9/a21545.html#aaab71c999a3fab33903d60ae186e6ad9", null ],
+    [ "PrepareAuraScript", "da/df9/a21545.html#af3cd9ae6f191069b3ab64e72a257caaf", null ],
+    [ "Register", "da/df9/a21545.html#a2df0da8c7b4dedfcf3dcae8361ab8c48", null ]
 ];

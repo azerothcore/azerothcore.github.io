@@ -1,8 +1,7 @@
 var a09393 =
 [
-    [ "GetAINotifyDelay", "dc/dc6/a09393.html#a9efd4acfe2ff5e4dfe0cc9e8fe802cc6", null ],
-    [ "GetReqMoveDistSq", "dc/dc6/a09393.html#a58687646bbf83723e8ad2925ee50452c", null ],
-    [ "GetVisibilityNotifyDelay", "dc/dc6/a09393.html#ac402ec0cb86192ce264d7909e09da5ac", null ],
-    [ "Update", "dc/dc6/a09393.html#aa95443d7050249a44cad2f16fa0026e5", null ],
-    [ "visibilitySettingsIndex", "dc/dc6/a09393.html#a35ebd0fcbdec8a3287f714cbe9becbcc", null ]
+    [ "ownerGUID", "dc/dc6/a09393.html#a3c89974ea78b732cbffb8a9d482d403b", null ],
+    [ "script", "dc/dc6/a09393.html#ad995c862431acd9d45cc12c9d5c8b319", null ],
+    [ "sourceGUID", "dc/dc6/a09393.html#acafb40cbd1e73152f9dbf390f1fc98f3", null ],
+    [ "targetGUID", "dc/dc6/a09393.html#a1505a3b9a6de23dcd6b2847207a279ca", null ]
 ];

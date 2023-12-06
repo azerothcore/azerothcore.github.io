@@ -1,6 +1,6 @@
 var a16309 =
 [
-    [ "npc_living_infernoAI", "de/d30/a16309.html#ab33eeac6aab8e18778fc7d4ffe5038f1", null ],
-    [ "IsSummonedBy", "de/d30/a16309.html#a4b6986a392aee0741ba47651e809c76c", null ],
-    [ "JustDied", "de/d30/a16309.html#a60b2e31d24e182e97d604d91223e2dc8", null ]
+    [ "spell_halion_twilight_cutter_SpellScript", "d3/d3a/a16313.html", "d3/d3a/a16313" ],
+    [ "spell_halion_twilight_cutter", "de/d30/a16309.html#ad9ceead388f32306e9cf2e2603e01882", null ],
+    [ "GetSpellScript", "de/d30/a16309.html#a99fd42199990727fbfbea965e5a44cd7", null ]
 ];

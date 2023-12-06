@@ -1,6 +1,7 @@
 var a24401 =
 [
-    [ "PrepareAuraScript", "de/d36/a24401.html#ac12d843f4939711d65728e22a5d5a925", null ],
-    [ "Register", "de/d36/a24401.html#aea37e92d4708c8c1addb5a4e220d6907", null ],
-    [ "Update", "de/d36/a24401.html#a8b8c926218436fb435ad1f871a8e7b4b", null ]
+    [ "Load", "de/d36/a24401.html#a24abc13ceb9d8895da2d05b907207809", null ],
+    [ "OnPeriodic", "de/d36/a24401.html#ac3f6550086d0d90d19039686af32ee6b", null ],
+    [ "PrepareAuraScript", "de/d36/a24401.html#a7948adbc6c8796fb359a936e5f0d30e7", null ],
+    [ "Register", "de/d36/a24401.html#ace14a5f60f0b9c45a2a6234720c482df", null ]
 ];

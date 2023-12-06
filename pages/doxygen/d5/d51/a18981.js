@@ -1,8 +1,6 @@
 var a18981 =
 [
-    [ "spell_the_lich_king_necrotic_plague_AuraScript", "db/dbf/a18989.html", "db/dbf/a18989" ],
-    [ "spell_the_lich_king_necrotic_plague_SpellScript", "d7/dcd/a18985.html", "d7/dcd/a18985" ],
-    [ "spell_the_lich_king_necrotic_plague_jump", "d5/d51/a18981.html#abed17d9bb780335f967163f214dc2444", null ],
-    [ "GetAuraScript", "d5/d51/a18981.html#a32b48c282117d429d0775b28e416a07e", null ],
-    [ "GetSpellScript", "d5/d51/a18981.html#a5b6f223f30bd9db1572f5d0063064259", null ]
+    [ "HandleScript", "d5/d51/a18981.html#a38dc97d8a7ac2bee7b8aceb0354c4248", null ],
+    [ "PrepareSpellScript", "d5/d51/a18981.html#aab97d2050622083d63067378683071a6", null ],
+    [ "Register", "d5/d51/a18981.html#ae73654c56526c52a82e5a7cbb72a1767", null ]
 ];

@@ -1,16 +1,6 @@
 var a10977 =
 [
-    [ "CheckContainer", "dc/d8f/a10977.html#a08e083224760d2bca1996da9cd9cb014", null ],
-    [ "CheckResultContainer", "dc/d8f/a10977.html#a6ce6feb03f6e0250bc03fea4612098df", null ],
-    [ "WardenCheckMgr", "dc/d8f/a10977.html#a2de08c0613dd688f4bbbb4cc572f3d72", null ],
-    [ "~WardenCheckMgr", "dc/d8f/a10977.html#a0d89190f580435337c328da4bf2497b8", null ],
-    [ "GetMaxValidCheckId", "dc/d8f/a10977.html#a79926d8228c3252fc0eabe295f6e78a8", null ],
-    [ "GetWardenDataById", "dc/d8f/a10977.html#a290e74857c1b1a50ced0a46b7477fa4c", null ],
-    [ "GetWardenResultById", "dc/d8f/a10977.html#a8c06b4f57a84a8229ad1674a5048ced9", null ],
-    [ "instance", "dc/d8f/a10977.html#aba9de1e123070338dc0049db8d8f0663", null ],
-    [ "LoadWardenChecks", "dc/d8f/a10977.html#ad02847547a06d98c582d09992dce9d11", null ],
-    [ "LoadWardenOverrides", "dc/d8f/a10977.html#a0a82e118a8f8236fecf1b00de0e2071c", null ],
-    [ "CheckIdPool", "dc/d8f/a10977.html#ac1d20dec3028cdff0f475c4aff8af928", null ],
-    [ "CheckResultStore", "dc/d8f/a10977.html#a4f0224b8377827aced304b28fdefbda7", null ],
-    [ "CheckStore", "dc/d8f/a10977.html#aac59e154d81b838f27c577af87b86bd1", null ]
+    [ "AuraProcHandler", "dc/d8f/a10977.html#a1c0ad4a28c98d89a0afc2f8eeda9a421", null ],
+    [ "Call", "dc/d8f/a10977.html#abc0c3be9dee08e995c282f20900f3c46", null ],
+    [ "_HandlerScript", "dc/d8f/a10977.html#ada8d7a5659598b0092739a91ba2653bd", null ]
 ];

@@ -1,6 +1,7 @@
 var a25817 =
 [
-    [ "spell_npc22275_crystal_prison_AuraScript", "d7/d7d/a25821.html", "d7/d7d/a25821" ],
-    [ "spell_npc22275_crystal_prison", "d1/d08/a25817.html#ae6efa7a80701f4c98b22f0c0fef75334", null ],
-    [ "GetAuraScript", "d1/d08/a25817.html#a23b8e65fd247e1dec0faa62299c47aec", null ]
+    [ "npc_maghar_captiveAI", "d7/d7d/a25821.html", "d7/d7d/a25821" ],
+    [ "npc_maghar_captive", "d1/d08/a25817.html#a59e177f33306ed0bb3de9f640d3685e4", null ],
+    [ "GetAI", "d1/d08/a25817.html#a7f1528549b55edfb5286db4afe6ce50e", null ],
+    [ "OnQuestAccept", "d1/d08/a25817.html#a966fdfe66a65675eb1618b0698dfbb21", null ]
 ];

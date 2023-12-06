@@ -1,6 +1,5 @@
 var a19281 =
 [
-    [ "npc_green_dragon_combat_triggerAI", "d6/d4a/a19285.html", "d6/d4a/a19285" ],
-    [ "npc_green_dragon_combat_trigger", "dc/d86/a19281.html#acec675494f5e5e9609bf34b7f25cb569", null ],
-    [ "GetAI", "dc/d86/a19281.html#a945b7cd0084873c17d52b3c2cc3ede22", null ]
+    [ "achievement_been_waiting_long_time", "dc/d86/a19281.html#a839ec8cb50512bbae7125ead3ed35aec", null ],
+    [ "OnCheck", "dc/d86/a19281.html#a5e72304220d3a649d2182cb287215da6", null ]
 ];

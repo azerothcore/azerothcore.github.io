@@ -1,6 +1,6 @@
 var a12929 =
 [
-    [ "boss_felmystAI", "d5/d6b/a12933.html", "d5/d6b/a12933" ],
-    [ "boss_felmyst", "d5/ddf/a12929.html#a58de3d9bf83190b18c5e91eae5110edf", null ],
-    [ "GetAI", "d5/ddf/a12929.html#a8100e65c5060808ce8dae8ad5424e058", null ]
+    [ "HandleActivateObject", "d5/ddf/a12929.html#abcce31480eac400044cc62eb888151d8", null ],
+    [ "PrepareSpellScript", "d5/ddf/a12929.html#a634ff3fae960dc2ecb7acde3e505df52", null ],
+    [ "Register", "d5/ddf/a12929.html#a0b527b830e2e4e2242c0ed6fd94aaa2d", null ]
 ];

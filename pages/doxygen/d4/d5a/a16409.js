@@ -1,6 +1,9 @@
 var a16409 =
 [
-    [ "boss_black_knightAI", "d2/dbd/a16413.html", "d2/dbd/a16413" ],
-    [ "boss_black_knight", "d4/d5a/a16409.html#af55a307f282a68bc83e45c6de647ebf4", null ],
-    [ "GetAI", "d4/d5a/a16409.html#a3f7ac72f69cebdab0a13c61c0b9b2ed2", null ]
+    [ "npc_memoryAI", "d4/d5a/a16409.html#ad927d377d60b44f43808469042f5feb9", null ],
+    [ "JustDied", "d4/d5a/a16409.html#a7b0484919d671877f29dfa05ca1265d9", null ],
+    [ "Reset", "d4/d5a/a16409.html#a985c51bbfa2cceeb7601432491253aaf", null ],
+    [ "UpdateAI", "d4/d5a/a16409.html#a6cb74389f5aea91d2062e007ea08acd7", null ],
+    [ "events", "d4/d5a/a16409.html#a2ed2993e89728a3723456a67e13581f7", null ],
+    [ "pInstance", "d4/d5a/a16409.html#a31bcb5041844ea5e3a076ad1366897e1", null ]
 ];

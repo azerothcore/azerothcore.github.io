@@ -1,7 +1,7 @@
 var a21081 =
 [
-    [ "FilterTargets", "d8/d75/a21081.html#a2e1effe6dac650f361b0c47acb4d8be7", null ],
-    [ "HandleScript", "d8/d75/a21081.html#a3bbb39add29eed3267f7b0c49279aacd", null ],
-    [ "PrepareSpellScript", "d8/d75/a21081.html#a0ddab83c9c04812f3c5c8af28b546609", null ],
-    [ "Register", "d8/d75/a21081.html#ae8461537389e4fb23cb2d4176b6485db", null ]
+    [ "npc_storm_beacon_spawnAI", "d8/d75/a21081.html#a031c1941f177a18af58efcf4a1270654", null ],
+    [ "UpdateAI", "d8/d75/a21081.html#a249bf56b905ef0c8b34c737d95518c91", null ],
+    [ "_amount", "d8/d75/a21081.html#a3d2286247853cb04b9cc23cd8c0bfdd6", null ],
+    [ "_checkTimer", "d8/d75/a21081.html#a7fd6d449b6a20ba9463896244c513a67", null ]
 ];
