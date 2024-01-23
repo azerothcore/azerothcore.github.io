@@ -39,7 +39,7 @@
     /***/
     function _(module, exports, __webpack_require__) {
       module.exports = __webpack_require__(
-      /*! /home/helias/Documenti/sources/WoW/git-catalogue/src/main.ts */
+      /*! /Users/4009093/projects/WoW/git-catalogue/src/main.ts */
       "zUnb");
       /***/
     },
@@ -804,7 +804,8 @@
             return repo$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["switchMap"])(function (repo) {
               return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["forkJoin"])({
                 repo: Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(repo),
-                readme: _this2.catalogueService.getRawReadmeDefault(repo)
+                readme: _this2.catalogueService.getRawReadmeDefault(repo),
+                logo: Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])("https://raw.githubusercontent.com/".concat(repo.full_name, "/master/icon.png"))
               });
             }));
           }
@@ -1565,8 +1566,8 @@
             };
 
             var pages$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Observable"](function (observer) {
-              var emitItems = function emitItems(page) {
-                getPage(page).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) {
+              var fetchPage = function fetchPage(page) {
+                return getPage(page).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) {
                   if (!totalSize) {
                     totalSize = res.total_count;
                   }
@@ -1577,22 +1578,22 @@
                   var hasNextPage = perPage * page < totalSize;
 
                   if (hasNextPage) {
-                    emitItems(page + 1);
+                    fetchPage(page + 1);
                   } else {
                     observer.complete();
                   }
                 });
               };
 
-              emitItems(1);
+              fetchPage(1);
             }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["reduce"])(function (acc, val) {
               return acc.concat(val);
             }, []));
-            return this.storable(pages$, key);
+            return this.cacheable(pages$, key);
           }
         }, {
-          key: "storable",
-          value: function storable(obs, key) {
+          key: "cacheable",
+          value: function cacheable(obs, key) {
             return obs.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["tap"])({
               next: function next(data) {
                 localStorage.setItem(key, JSON.stringify({
@@ -1622,7 +1623,7 @@
               return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(JSON.parse(item).value);
             }
 
-            return this.storable(this.http.get("https://api.github.com/repositories/".concat(id)), key);
+            return this.cacheable(this.http.get("https://api.github.com/repositories/".concat(id)), key);
           }
         }, {
           key: "getRawReadmeDefault",
@@ -1632,9 +1633,17 @@
         }, {
           key: "getRawReadme",
           value: function getRawReadme(repo, defaultBranch) {
+            var _this5 = this;
+
             return this.http.get("https://raw.githubusercontent.com/".concat(repo, "/").concat(defaultBranch, "/README.md?time=").concat(Date.now()), {
               responseType: 'text'
-            });
+            }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["catchError"])(function () {
+              return _this5.http.get("https://raw.githubusercontent.com/".concat(repo, "/").concat(defaultBranch, "/.github/README.md?time=").concat(Date.now()), {
+                responseType: 'text'
+              }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["catchError"])(function () {
+                return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])('No README found');
+              }));
+            }));
           }
         }, {
           key: "confTabsKeys",
@@ -1815,7 +1824,14 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 4);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "img", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("error", function RepoDetailsComponent_div_3_Template_img_error_2_listener() {
+            var data_r1 = ctx.ngIf;
+            return data_r1.logo = "https://avatars0.githubusercontent.com/u/20147732?v=4";
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 6);
 
@@ -2013,9 +2029,9 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("alt", data_r1.repo.fullName);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("alt", data_r1.repo.full_name);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", "https://raw.githubusercontent.com/" + data_r1.repo.full_name + "/master/icon.png", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", data_r1.logo, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
 
@@ -2137,7 +2153,7 @@
         selectors: [["app-repo-details"]],
         decls: 5,
         vars: 4,
-        consts: [["href", "#/home"], [3, "icon"], ["class", "mt-3", 4, "ngIf"], [1, "mt-3"], [1, "media"], ["onerror", "this.src = 'https://avatars0.githubusercontent.com/u/20147732?v=4';", 1, "mr-3", "logo-small", "logo", 3, "src", "alt"], [1, "media-body"], [1, "mt-0", "mb-0"], [3, "href"], [1, "row"], [1, "col-12", "col-md-8"], [1, "col-12", "col-md-4"], ["id", "about"], ["target", "_blank", 1, "btn", "btn-lg", "btn-success", 3, "href"], [1, "fa", "fa-download"], [1, "list-unstyled"], [1, "float-right"], ["target", "_blank", 1, "float-right", 3, "href"], [4, "ngIf"]],
+        consts: [["href", "#/home"], [3, "icon"], ["class", "mt-3", 4, "ngIf"], [1, "mt-3"], [1, "media"], [1, "mr-3", "logo-small", "logo", 3, "src", "alt", "error"], [1, "media-body"], [1, "mt-0", "mb-0"], [3, "href"], [1, "row"], [1, "col-12", "col-md-8"], [1, "col-12", "col-md-4"], ["id", "about"], ["target", "_blank", 1, "btn", "btn-lg", "btn-success", 3, "href"], [1, "fa", "fa-download"], [1, "list-unstyled"], [1, "float-right"], ["target", "_blank", 1, "float-right", 3, "href"], [4, "ngIf"]],
         template: function RepoDetailsComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 0);

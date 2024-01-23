@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/helias/Documenti/sources/WoW/git-catalogue/src/main.ts */"zUnb");
+module.exports = __webpack_require__(/*! /Users/4009093/projects/WoW/git-catalogue/src/main.ts */"zUnb");
 
 
 /***/ }),
@@ -368,7 +368,8 @@ class RepoDetailsResolverService {
         const repo$ = this.catalogueService.getLocalRepo(id);
         return repo$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["switchMap"])((repo) => Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["forkJoin"])({
             repo: Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(repo),
-            readme: this.catalogueService.getRawReadmeDefault(repo)
+            readme: this.catalogueService.getRawReadmeDefault(repo),
+            logo: Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(`https://raw.githubusercontent.com/${repo.full_name}/master/icon.png`),
         })));
     }
 }
@@ -377,7 +378,7 @@ RepoDetailsResolverService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](RepoDetailsResolverService, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
         args: [{
-                providedIn: 'root'
+                providedIn: 'root',
             }]
     }], function () { return [{ type: _catalogue_catalogue_service__WEBPACK_IMPORTED_MODULE_3__["CatalogueService"] }]; }, null); })();
 
@@ -901,30 +902,28 @@ class CatalogueService {
             return this.http.get(`https://api.github.com/search/repositories?page=${page}&per_page=${this.CONF.perPage}&q=${orgFilter}fork:true${topicFilter}+sort:stars`);
         };
         const pages$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Observable"]((observer) => {
-            const emitItems = (page) => {
-                getPage(page)
-                    .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])((res) => {
-                    if (!totalSize) {
-                        totalSize = res.total_count;
-                    }
-                    return res.items;
-                }))
-                    .subscribe((items) => {
-                    observer.next(items);
-                    const hasNextPage = perPage * page < totalSize;
-                    if (hasNextPage) {
-                        emitItems(page + 1);
-                    }
-                    else {
-                        observer.complete();
-                    }
-                });
-            };
-            emitItems(1);
+            const fetchPage = (page) => getPage(page)
+                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])((res) => {
+                if (!totalSize) {
+                    totalSize = res.total_count;
+                }
+                return res.items;
+            }))
+                .subscribe((items) => {
+                observer.next(items);
+                const hasNextPage = perPage * page < totalSize;
+                if (hasNextPage) {
+                    fetchPage(page + 1);
+                }
+                else {
+                    observer.complete();
+                }
+            });
+            fetchPage(1);
         }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["reduce"])((acc, val) => acc.concat(val), []));
-        return this.storable(pages$, key);
+        return this.cacheable(pages$, key);
     }
-    storable(obs, key) {
+    cacheable(obs, key) {
         return obs.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["tap"])({
             next: (data) => {
                 localStorage.setItem(key, JSON.stringify({ timeDate: new Date().getTime(), value: data }));
@@ -945,7 +944,7 @@ class CatalogueService {
         if (item && !this.expireMinutes(30, JSON.parse(item).timeDate)) {
             return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(JSON.parse(item).value);
         }
-        return this.storable(this.http.get(`https://api.github.com/repositories/${id}`), key);
+        return this.cacheable(this.http.get(`https://api.github.com/repositories/${id}`), key);
     }
     get confTabsKeys() {
         var _a;
@@ -965,9 +964,15 @@ class CatalogueService {
         return this.getRawReadme(repo.full_name, repo.default_branch);
     }
     getRawReadme(repo, defaultBranch) {
-        return this.http.get(`https://raw.githubusercontent.com/${repo}/${defaultBranch}/README.md?time=${Date.now()}`, {
+        return this.http
+            .get(`https://raw.githubusercontent.com/${repo}/${defaultBranch}/README.md?time=${Date.now()}`, {
             responseType: 'text',
-        });
+        })
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["catchError"])(() => this.http
+            .get(`https://raw.githubusercontent.com/${repo}/${defaultBranch}/.github/README.md?time=${Date.now()}`, {
+            responseType: 'text',
+        })
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["catchError"])(() => Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])('No README found')))));
     }
 }
 CatalogueService.ɵfac = function CatalogueService_Factory(t) { return new (t || CatalogueService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_router__WEBPACK_IMPORTED_MODULE_4__["ActivatedRoute"])); };
@@ -1033,7 +1038,9 @@ function RepoDetailsComponent_div_3_li_66_Template(rf, ctx) { if (rf & 1) {
 function RepoDetailsComponent_div_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "img", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("error", function RepoDetailsComponent_div_3_Template_img_error_2_listener() { const data_r1 = ctx.ngIf; return data_r1.logo = "https://avatars0.githubusercontent.com/u/20147732?v=4"; });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h2", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
@@ -1132,8 +1139,8 @@ function RepoDetailsComponent_div_3_Template(rf, ctx) { if (rf & 1) {
     const data_r1 = ctx.ngIf;
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("alt", data_r1.repo.fullName);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", "https://raw.githubusercontent.com/" + data_r1.repo.full_name + "/master/icon.png", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("alt", data_r1.repo.full_name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", data_r1.logo, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](data_r1.repo.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
@@ -1198,7 +1205,7 @@ class RepoDetailsComponent {
     }
 }
 RepoDetailsComponent.ɵfac = function RepoDetailsComponent_Factory(t) { return new (t || RepoDetailsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_4__["ActivatedRoute"])); };
-RepoDetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RepoDetailsComponent, selectors: [["app-repo-details"]], decls: 5, vars: 4, consts: [["href", "#/home"], [3, "icon"], ["class", "mt-3", 4, "ngIf"], [1, "mt-3"], [1, "media"], ["onerror", "this.src = 'https://avatars0.githubusercontent.com/u/20147732?v=4';", 1, "mr-3", "logo-small", "logo", 3, "src", "alt"], [1, "media-body"], [1, "mt-0", "mb-0"], [3, "href"], [1, "row"], [1, "col-12", "col-md-8"], [1, "col-12", "col-md-4"], ["id", "about"], ["target", "_blank", 1, "btn", "btn-lg", "btn-success", 3, "href"], [1, "fa", "fa-download"], [1, "list-unstyled"], [1, "float-right"], ["target", "_blank", 1, "float-right", 3, "href"], [4, "ngIf"]], template: function RepoDetailsComponent_Template(rf, ctx) { if (rf & 1) {
+RepoDetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RepoDetailsComponent, selectors: [["app-repo-details"]], decls: 5, vars: 4, consts: [["href", "#/home"], [3, "icon"], ["class", "mt-3", 4, "ngIf"], [1, "mt-3"], [1, "media"], [1, "mr-3", "logo-small", "logo", 3, "src", "alt", "error"], [1, "media-body"], [1, "mt-0", "mb-0"], [3, "href"], [1, "row"], [1, "col-12", "col-md-8"], [1, "col-12", "col-md-4"], ["id", "about"], ["target", "_blank", 1, "btn", "btn-lg", "btn-success", 3, "href"], [1, "fa", "fa-download"], [1, "list-unstyled"], [1, "float-right"], ["target", "_blank", 1, "float-right", 3, "href"], [4, "ngIf"]], template: function RepoDetailsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "fa-icon", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " \u00A0 back to Catalogue");
