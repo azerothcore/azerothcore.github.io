@@ -34,6 +34,7 @@ document.write(`
   <a id="Player:GetAccountId" class="fn" href="../Player/GetAccountId.html">GetAccountId</a>
   <a id="Player:GetAccountName" class="fn" href="../Player/GetAccountName.html">GetAccountName</a>
   <a id="Player:GetAchievementCriteriaProgress" class="fn" href="../Player/GetAchievementCriteriaProgress.html">GetAchievementCriteriaProgress</a>
+  <a id="Player:GetAchievementPoints" class="fn" href="../Player/GetAchievementPoints.html">GetAchievementPoints</a>
   <a id="Player:GetActiveSpec" class="fn" href="../Player/GetActiveSpec.html">GetActiveSpec</a>
   <a id="Player:GetArenaPoints" class="fn" href="../Player/GetArenaPoints.html">GetArenaPoints</a>
   <a id="Player:GetBaseSkillValue" class="fn" href="../Player/GetBaseSkillValue.html">GetBaseSkillValue</a>
@@ -44,6 +45,8 @@ document.write(`
   <a id="Player:GetCoinage" class="fn" href="../Player/GetCoinage.html">GetCoinage</a>
   <a id="Player:GetComboPoints" class="fn" href="../Player/GetComboPoints.html">GetComboPoints</a>
   <a id="Player:GetComboTarget" class="fn" href="../Player/GetComboTarget.html">GetComboTarget</a>
+  <a id="Player:GetCompletedAchievementsCount" class="fn" href="../Player/GetCompletedAchievementsCount.html">GetCompletedAchievementsCount</a>
+  <a id="Player:GetCompletedQuestsCount" class="fn" href="../Player/GetCompletedQuestsCount.html">GetCompletedQuestsCount</a>
   <a id="Player:GetCorpse" class="fn" href="../Player/GetCorpse.html">GetCorpse</a>
   <a id="Player:GetDbLocaleIndex" class="fn" href="../Player/GetDbLocaleIndex.html">GetDbLocaleIndex</a>
   <a id="Player:GetDbcLocale" class="fn" href="../Player/GetDbcLocale.html">GetDbcLocale</a>
@@ -116,7 +119,10 @@ document.write(`
   <a id="Player:GroupInvite" class="fn" href="../Player/GroupInvite.html">GroupInvite</a>
   <a id="Player:HasAchieved" class="fn" href="../Player/HasAchieved.html">HasAchieved</a>
   <a id="Player:HasAtLoginFlag" class="fn" href="../Player/HasAtLoginFlag.html">HasAtLoginFlag</a>
+  <a id="Player:HasCasterSpec" class="fn" href="../Player/HasCasterSpec.html">HasCasterSpec</a>
+  <a id="Player:HasHealSpec" class="fn" href="../Player/HasHealSpec.html">HasHealSpec</a>
   <a id="Player:HasItem" class="fn" href="../Player/HasItem.html">HasItem</a>
+  <a id="Player:HasMeleeSpec" class="fn" href="../Player/HasMeleeSpec.html">HasMeleeSpec</a>
   <a id="Player:HasQuest" class="fn" href="../Player/HasQuest.html">HasQuest</a>
   <a id="Player:HasQuestForGO" class="fn" href="../Player/HasQuestForGO.html">HasQuestForGO</a>
   <a id="Player:HasQuestForItem" class="fn" href="../Player/HasQuestForItem.html">HasQuestForItem</a>
@@ -124,6 +130,7 @@ document.write(`
   <a id="Player:HasSpell" class="fn" href="../Player/HasSpell.html">HasSpell</a>
   <a id="Player:HasSpellCooldown" class="fn" href="../Player/HasSpellCooldown.html">HasSpellCooldown</a>
   <a id="Player:HasTalent" class="fn" href="../Player/HasTalent.html">HasTalent</a>
+  <a id="Player:HasTankSpec" class="fn" href="../Player/HasTankSpec.html">HasTankSpec</a>
   <a id="Player:HasTitle" class="fn" href="../Player/HasTitle.html">HasTitle</a>
   <a id="Player:InArena" class="fn" href="../Player/InArena.html">InArena</a>
   <a id="Player:InBattleground" class="fn" href="../Player/InBattleground.html">InBattleground</a>
