@@ -116,7 +116,10 @@ document.write(`
   <a id="Player:GroupInvite" class="fn" href="../Player/GroupInvite.html">GroupInvite</a>
   <a id="Player:HasAchieved" class="fn" href="../Player/HasAchieved.html">HasAchieved</a>
   <a id="Player:HasAtLoginFlag" class="fn" href="../Player/HasAtLoginFlag.html">HasAtLoginFlag</a>
+  <a id="Player:HasCasterSpec" class="fn" href="../Player/HasCasterSpec.html">HasCasterSpec</a>
+  <a id="Player:HasHealSpec" class="fn" href="../Player/HasHealSpec.html">HasHealSpec</a>
   <a id="Player:HasItem" class="fn" href="../Player/HasItem.html">HasItem</a>
+  <a id="Player:HasMeleeSpec" class="fn" href="../Player/HasMeleeSpec.html">HasMeleeSpec</a>
   <a id="Player:HasQuest" class="fn" href="../Player/HasQuest.html">HasQuest</a>
   <a id="Player:HasQuestForGO" class="fn" href="../Player/HasQuestForGO.html">HasQuestForGO</a>
   <a id="Player:HasQuestForItem" class="fn" href="../Player/HasQuestForItem.html">HasQuestForItem</a>
@@ -124,6 +127,7 @@ document.write(`
   <a id="Player:HasSpell" class="fn" href="../Player/HasSpell.html">HasSpell</a>
   <a id="Player:HasSpellCooldown" class="fn" href="../Player/HasSpellCooldown.html">HasSpellCooldown</a>
   <a id="Player:HasTalent" class="fn" href="../Player/HasTalent.html">HasTalent</a>
+  <a id="Player:HasTankSpec" class="fn" href="../Player/HasTankSpec.html">HasTankSpec</a>
   <a id="Player:HasTitle" class="fn" href="../Player/HasTitle.html">HasTitle</a>
   <a id="Player:InArena" class="fn" href="../Player/InArena.html">InArena</a>
   <a id="Player:InBattleground" class="fn" href="../Player/InBattleground.html">InBattleground</a>
