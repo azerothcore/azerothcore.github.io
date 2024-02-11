@@ -61,6 +61,7 @@ document.write(`
   <a id="Unit:GetVehicle" class="fn" href="../Unit/GetVehicle.html">GetVehicle</a>
   <a id="Unit:GetVehicleKit" class="fn" href="../Unit/GetVehicleKit.html">GetVehicleKit</a>
   <a id="Unit:GetVictim" class="fn" href="../Unit/GetVictim.html">GetVictim</a>
+  <a id="Unit:HandleStatModifier" class="fn" href="../Unit/HandleStatModifier.html">HandleStatModifier</a>
   <a id="Unit:HasAura" class="fn" href="../Unit/HasAura.html">HasAura</a>
   <a id="Unit:HasUnitState" class="fn" href="../Unit/HasUnitState.html">HasUnitState</a>
   <a id="Unit:HealthAbovePct" class="fn" href="../Unit/HealthAbovePct.html">HealthAbovePct</a>
@@ -135,6 +136,7 @@ document.write(`
   <a id="Unit:SetFaction" class="fn" href="../Unit/SetFaction.html">SetFaction</a>
   <a id="Unit:SetFeared" class="fn" href="../Unit/SetFeared.html">SetFeared</a>
   <a id="Unit:SetHealth" class="fn" href="../Unit/SetHealth.html">SetHealth</a>
+  <a id="Unit:SetImmuneTo" class="fn" href="../Unit/SetImmuneTo.html">SetImmuneTo</a>
   <a id="Unit:SetInCombatWith" class="fn" href="../Unit/SetInCombatWith.html">SetInCombatWith</a>
   <a id="Unit:SetLevel" class="fn" href="../Unit/SetLevel.html">SetLevel</a>
   <a id="Unit:SetMaxHealth" class="fn" href="../Unit/SetMaxHealth.html">SetMaxHealth</a>
