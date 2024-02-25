@@ -817,6 +817,7 @@ searchIndex["Achievement"] = {
         [3, "GetDuration", "", "Returns the spell duration of the <a class=\"mod\" href=\"Spell/index.html\">Spell</a>."],
         [3, "GetEntry", "", "Returns the entry ID of the <a class=\"mod\" href=\"Spell/index.html\">Spell</a>."],
         [3, "GetPowerCost", "", "Returns the power cost of the <a class=\"mod\" href=\"Spell/index.html\">Spell</a>."],
+        [3, "GetReagentCost", "", "Returns the reagents needed for the <a class=\"mod\" href=\"Spell/index.html\">Spell</a>."],
         [3, "GetTarget", "", "Returns the target <a class=\"mod\" href=\"Object/index.html\">Object</a> of the <a class=\"mod\" href=\"Spell/index.html\">Spell</a>."],
         [3, "GetTargetDest", "", "Returns the target destination coordinates of the <a class=\"mod\" href=\"Spell/index.html\">Spell</a>."],
         [3, "IsAutoRepeat", "", "Returns <code>true</code> if the <a class=\"mod\" href=\"Spell/index.html\">Spell</a> is automatically repeating, <code>false</code> otherwise."],

@@ -7,6 +7,7 @@ document.write(`
   <a id="Spell:GetDuration" class="fn" href="../Spell/GetDuration.html">GetDuration</a>
   <a id="Spell:GetEntry" class="fn" href="../Spell/GetEntry.html">GetEntry</a>
   <a id="Spell:GetPowerCost" class="fn" href="../Spell/GetPowerCost.html">GetPowerCost</a>
+  <a id="Spell:GetReagentCost" class="fn" href="../Spell/GetReagentCost.html">GetReagentCost</a>
   <a id="Spell:GetTarget" class="fn" href="../Spell/GetTarget.html">GetTarget</a>
   <a id="Spell:GetTargetDest" class="fn" href="../Spell/GetTargetDest.html">GetTargetDest</a>
   <a id="Spell:IsAutoRepeat" class="fn" href="../Spell/IsAutoRepeat.html">IsAutoRepeat</a>
