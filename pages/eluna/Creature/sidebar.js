@@ -30,6 +30,7 @@ document.write(`
   <a id="Creature:GetLootRecipient" class="fn" href="../Creature/GetLootRecipient.html">GetLootRecipient</a>
   <a id="Creature:GetLootRecipientGroup" class="fn" href="../Creature/GetLootRecipientGroup.html">GetLootRecipientGroup</a>
   <a id="Creature:GetNPCFlags" class="fn" href="../Creature/GetNPCFlags.html">GetNPCFlags</a>
+  <a id="Creature:GetRank" class="fn" href="../Creature/GetRank.html">GetRank</a>
   <a id="Creature:GetRespawnDelay" class="fn" href="../Creature/GetRespawnDelay.html">GetRespawnDelay</a>
   <a id="Creature:GetScriptId" class="fn" href="../Creature/GetScriptId.html">GetScriptId</a>
   <a id="Creature:GetScriptName" class="fn" href="../Creature/GetScriptName.html">GetScriptName</a>

@@ -110,6 +110,7 @@ searchIndex["Achievement"] = {
         [3, "GetLootRecipient", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a> that can loot this <a class=\"mod\" href=\"Creature/index.html\">Creature</a>."],
         [3, "GetLootRecipientGroup", "", "Returns the <a class=\"mod\" href=\"Group/index.html\">Group</a> that can loot this <a class=\"mod\" href=\"Creature/index.html\">Creature</a>."],
         [3, "GetNPCFlags", "", "Returns the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s NPC flags."],
+        [3, "GetRank", "", "Returns the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s rank."],
         [3, "GetRespawnDelay", "", "Returns the time it takes for this <a class=\"mod\" href=\"Creature/index.html\">Creature</a> to respawn once killed."],
         [3, "GetScriptId", "", "Returns the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s script ID."],
         [3, "GetScriptName", "", "Returns the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s script name."],
