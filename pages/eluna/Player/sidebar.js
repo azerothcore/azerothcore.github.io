@@ -55,6 +55,7 @@ document.write(`
   <a id="Player:GetEquippedItemBySlot" class="fn" href="../Player/GetEquippedItemBySlot.html">GetEquippedItemBySlot</a>
   <a id="Player:GetFreeTalentPoints" class="fn" href="../Player/GetFreeTalentPoints.html">GetFreeTalentPoints</a>
   <a id="Player:GetGMRank" class="fn" href="../Player/GetGMRank.html">GetGMRank</a>
+  <a id="Player:GetGlyph" class="fn" href="../Player/GetGlyph.html">GetGlyph</a>
   <a id="Player:GetGossipTextId" class="fn" href="../Player/GetGossipTextId.html">GetGossipTextId</a>
   <a id="Player:GetGroup" class="fn" href="../Player/GetGroup.html">GetGroup</a>
   <a id="Player:GetGroupInvite" class="fn" href="../Player/GetGroupInvite.html">GetGroupInvite</a>

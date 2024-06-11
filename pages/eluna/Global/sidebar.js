@@ -54,11 +54,15 @@ document.write(`
   <a id="Global:GetPlayersInWorld" class="fn" href="../Global/GetPlayersInWorld.html">GetPlayersInWorld</a>
   <a id="Global:GetQuest" class="fn" href="../Global/GetQuest.html">GetQuest</a>
   <a id="Global:GetRealmID" class="fn" href="../Global/GetRealmID.html">GetRealmID</a>
+  <a id="Global:GetStateInstanceId" class="fn" href="../Global/GetStateInstanceId.html">GetStateInstanceId</a>
+  <a id="Global:GetStateMap" class="fn" href="../Global/GetStateMap.html">GetStateMap</a>
+  <a id="Global:GetStateMapId" class="fn" href="../Global/GetStateMapId.html">GetStateMapId</a>
   <a id="Global:GetTimeDiff" class="fn" href="../Global/GetTimeDiff.html">GetTimeDiff</a>
   <a id="Global:GetUnitGUID" class="fn" href="../Global/GetUnitGUID.html">GetUnitGUID</a>
   <a id="Global:HttpRequest" class="fn" href="../Global/HttpRequest.html">HttpRequest</a>
   <a id="Global:IsBagPos" class="fn" href="../Global/IsBagPos.html">IsBagPos</a>
   <a id="Global:IsBankPos" class="fn" href="../Global/IsBankPos.html">IsBankPos</a>
+  <a id="Global:IsCompatibilityMode" class="fn" href="../Global/IsCompatibilityMode.html">IsCompatibilityMode</a>
   <a id="Global:IsEquipmentPos" class="fn" href="../Global/IsEquipmentPos.html">IsEquipmentPos</a>
   <a id="Global:IsGameEventActive" class="fn" href="../Global/IsGameEventActive.html">IsGameEventActive</a>
   <a id="Global:IsInventoryPos" class="fn" href="../Global/IsInventoryPos.html">IsInventoryPos</a>
