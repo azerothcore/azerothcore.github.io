@@ -55,6 +55,7 @@ document.write(`
   <a id="Player:GetEquippedItemBySlot" class="fn" href="../Player/GetEquippedItemBySlot.html">GetEquippedItemBySlot</a>
   <a id="Player:GetFreeTalentPoints" class="fn" href="../Player/GetFreeTalentPoints.html">GetFreeTalentPoints</a>
   <a id="Player:GetGMRank" class="fn" href="../Player/GetGMRank.html">GetGMRank</a>
+  <a id="Player:GetGlyph" class="fn" href="../Player/GetGlyph.html">GetGlyph</a>
   <a id="Player:GetGossipTextId" class="fn" href="../Player/GetGossipTextId.html">GetGossipTextId</a>
   <a id="Player:GetGroup" class="fn" href="../Player/GetGroup.html">GetGroup</a>
   <a id="Player:GetGroupInvite" class="fn" href="../Player/GetGroupInvite.html">GetGroupInvite</a>
@@ -188,6 +189,7 @@ document.write(`
   <a id="Player:ResetTypeCooldowns" class="fn" href="../Player/ResetTypeCooldowns.html">ResetTypeCooldowns</a>
   <a id="Player:ResurrectPlayer" class="fn" href="../Player/ResurrectPlayer.html">ResurrectPlayer</a>
   <a id="Player:RewardQuest" class="fn" href="../Player/RewardQuest.html">RewardQuest</a>
+  <a id="Player:RunCommand" class="fn" href="../Player/RunCommand.html">RunCommand</a>
   <a id="Player:SaveToDB" class="fn" href="../Player/SaveToDB.html">SaveToDB</a>
   <a id="Player:Say" class="fn" href="../Player/Say.html">Say</a>
   <a id="Player:SendAddonMessage" class="fn" href="../Player/SendAddonMessage.html">SendAddonMessage</a>
