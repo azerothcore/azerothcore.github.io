@@ -1,7 +1,6 @@
 var a23860 =
 [
-    [ "HandleDamage", "de/d09/a23860.html#add7e78111217d00bfa3dfa5b3eb490f9", null ],
-    [ "HandleTargets", "de/d09/a23860.html#ac9e455d4ef5cc7b7ce424b70b4387c78", null ],
-    [ "PrepareSpellScript", "de/d09/a23860.html#a46b62a09ea23cb102b0e5cf075c727d4", null ],
-    [ "Register", "de/d09/a23860.html#a8873614ae22c908cb2cf49129fc53be2", null ]
+    [ "npc_freed_protodrakeAI", "d9/df3/a23864.html", "d9/df3/a23864" ],
+    [ "npc_freed_protodrake", "de/d09/a23860.html#a56e33e186800efa3fb86ca6a614e3b0b", null ],
+    [ "GetAI", "de/d09/a23860.html#a9680bf65cb97327396f58c297df1c8f5", null ]
 ];

@@ -1,6 +1,7 @@
 var a18704 =
 [
-    [ "npc_icc_gauntlet_controllerAI", "d3/de5/a18708.html", "d3/de5/a18708" ],
-    [ "npc_icc_gauntlet_controller", "df/d34/a18704.html#a5fc4c941842e25bc3da93686e588627b", null ],
-    [ "GetAI", "df/d34/a18704.html#a4ed1a69fb537e7ce547a3a57253990c4", null ]
+    [ "FrostBombExplosion", "df/d34/a18704.html#ac7d318e241e6442e8aa084b27ea50236", null ],
+    [ "Execute", "df/d34/a18704.html#a0b6521266f18b621260286c530ff3f36", null ],
+    [ "_owner", "df/d34/a18704.html#aa9ff39ce43c351e8815f895896fa759b", null ],
+    [ "_sindragosaGUID", "df/d34/a18704.html#a5afc3d543c8fa457c90735f841aa161c", null ]
 ];

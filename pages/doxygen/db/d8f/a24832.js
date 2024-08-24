@@ -1,6 +1,8 @@
 var a24832 =
 [
-    [ "CheckAreaTarget", "db/d8f/a24832.html#aab7e3693e5744cf444e643f7cdfdf738", null ],
-    [ "PrepareAuraScript", "db/d8f/a24832.html#a551d8d6dd43c83d9a693c5971fa5c224", null ],
-    [ "Register", "db/d8f/a24832.html#a6647a8e35009cf8559e4957a666f037a", null ]
+    [ "HandleEffectApply", "db/d8f/a24832.html#a9bae91dcef4fd812e0ab11ba7c86f8d1", null ],
+    [ "HandleEffectRemove", "db/d8f/a24832.html#ab648c35f6fa0ce78d9d4dfecd521ad87", null ],
+    [ "PrepareAuraScript", "db/d8f/a24832.html#a7152cc3e7284f15629b954e6fe6302bd", null ],
+    [ "Register", "db/d8f/a24832.html#a6e194b4ba74848b494a3d2277648e7af", null ],
+    [ "_turtleSet", "db/d8f/a24832.html#a3489e8ed397307339cf9fa6c6728f1c5", null ]
 ];

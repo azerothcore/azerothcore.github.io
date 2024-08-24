@@ -1,9 +1,5 @@
 var a10368 =
 [
-    [ "GuildBankUpdateTab", "d4/d9d/a10368.html#a2950da8bfc40df57a3f5a66eee47a7ef", null ],
-    [ "Read", "d4/d9d/a10368.html#ac261ff0102489efb4d69bd866ffc9283", null ],
-    [ "Banker", "d4/d9d/a10368.html#a7ab950cee095221f9114224a624d46db", null ],
-    [ "BankTab", "d4/d9d/a10368.html#a66284a4d9cb40b025ef265d443e6e62f", null ],
-    [ "Icon", "d4/d9d/a10368.html#a75a219a9e2ab677a41920f39a1613a1b", null ],
-    [ "Name", "d4/d9d/a10368.html#a44261fbc379b3137548922faf4b5cbda", null ]
+    [ "SocketIPBytes", "d4/d9d/a10368.html#aa10551a3c7371bafa9b27919e37b16ff", null ],
+    [ "SocketPort", "d4/d9d/a10368.html#a6e6fb49cad093530f6ba650ca2ff57af", null ]
 ];

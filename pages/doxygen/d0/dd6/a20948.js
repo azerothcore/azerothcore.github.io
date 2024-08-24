@@ -1,5 +1,6 @@
 var a20948 =
 [
-    [ "AreaTrigger_at_celestial_planetarium_enterance", "d0/dd6/a20948.html#ae1503a754a05a77991d9955a2fb74265", null ],
-    [ "OnTrigger", "d0/dd6/a20948.html#aa7aa93e00170313de251af4e562c422c", null ]
+    [ "spell_assembly_meltdown_SpellScript", "d9/d71/a20952.html", "d9/d71/a20952" ],
+    [ "spell_assembly_meltdown", "d0/dd6/a20948.html#a4a29a9a6204468b58af685db3fd22d82", null ],
+    [ "GetSpellScript", "d0/dd6/a20948.html#aaad39858e3c6d2720a3ed97eaced4c3f", null ]
 ];

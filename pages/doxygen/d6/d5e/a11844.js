@@ -1,6 +1,6 @@
 var a11844 =
 [
-    [ "npc_vaelastrasz_the_redAI", "d0/d50/a11848.html", "d0/d50/a11848" ],
-    [ "npc_vaelastrasz_the_red", "d6/d5e/a11844.html#af39fcaa29b200e3b7933f97de277df6b", null ],
-    [ "GetAI", "d6/d5e/a11844.html#a59e7630d5060986dc4209d2d2b5ef42b", null ]
+    [ "boss_magmadarAI", "d6/d5e/a11844.html#a47207fdd6eb94fb08791da06cd4160f6", null ],
+    [ "ExecuteEvent", "d6/d5e/a11844.html#a7d4c1807cb320fdc331057209a4ce166", null ],
+    [ "JustEngagedWith", "d6/d5e/a11844.html#a5ce1495d01f28e0a38f00127e7137a4f", null ]
 ];

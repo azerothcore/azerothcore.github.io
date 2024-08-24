@@ -1,5 +1,6 @@
 var a26264 =
 [
-    [ "spell_q55_sacred_cleansing", "db/dd1/a26264.html#a4aa8a16350a7a55706841471fd985ca2", null ],
-    [ "GetSpellScript", "db/dd1/a26264.html#a50a8f2d777169aaeef88533b66b88fb2", null ]
+    [ "npc_illidari_spawnAI", "d9/dec/a26268.html", "d9/dec/a26268" ],
+    [ "npc_illidari_spawn", "db/dd1/a26264.html#ac8dbb30fe7f40d29a3434c8a888ace60", null ],
+    [ "GetAI", "db/dd1/a26264.html#a7198f506b0d4fd55d22fc72a90f42a09", null ]
 ];

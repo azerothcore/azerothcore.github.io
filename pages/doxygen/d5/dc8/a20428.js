@@ -1,8 +1,6 @@
 var a20428 =
 [
-    [ "npc_ulduar_expedition_commanderAI", "df/d76/a20432.html", "df/d76/a20432" ],
-    [ "npc_ulduar_expedition_commander", "d5/dc8/a20428.html#a8513554f686b75c29524fa5b2fa93ee4", null ],
-    [ "GetAI", "d5/dc8/a20428.html#aa888a3634a643a103075d44c8f52d28a", null ],
-    [ "OnGossipHello", "d5/dc8/a20428.html#a6b52abae7ec1be10fcb5385ec928b785", null ],
-    [ "OnGossipSelect", "d5/dc8/a20428.html#a5d212e5e21d9ffb8c60e883e065c1801", null ]
+    [ "npc_oculus_unstable_sphereAI", "df/d76/a20432.html", "df/d76/a20432" ],
+    [ "npc_oculus_unstable_sphere", "d5/dc8/a20428.html#a5167370a6d3fd32a5673bbeb95ed3f3c", null ],
+    [ "GetAI", "d5/dc8/a20428.html#adda2a9e7eab03444742e85729673ab2f", null ]
 ];

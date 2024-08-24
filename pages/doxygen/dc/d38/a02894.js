@@ -1,7 +1,7 @@
 var a02894 =
 [
-    [ "boss_baroness_anastari", "d2/def/a12868.html", "d2/def/a12868" ],
-    [ "boss_baroness_anastari::boss_baroness_anastariAI", "d1/d4f/a12872.html", "d1/d4f/a12872" ],
+    [ "boss_baroness_anastari", "d2/dee/a12871.html", "d2/dee/a12871" ],
+    [ "boss_baroness_anastari::boss_baroness_anastariAI", "df/d87/a12875.html", "df/d87/a12875" ],
     [ "Spells", "dc/d38/a02894.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "df/d39/a00950.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "df/d39/a00950.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

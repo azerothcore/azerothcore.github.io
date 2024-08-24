@@ -1,6 +1,8 @@
 var a21768 =
 [
-    [ "npc_q24545_wretched_ghoulAI", "d8/d57/a21772.html", "d8/d57/a21772" ],
-    [ "npc_q24545_wretched_ghoul", "d8/d11/a21768.html#a3842b5bd89c911d29d561307113fb032", null ],
-    [ "GetAI", "d8/d11/a21768.html#ada973de0ff7295f0441cbd6b6aaca9ac", null ]
+    [ "HandleEffectPeriodic", "d8/d11/a21768.html#ade51556206853c273950937e52447f41", null ],
+    [ "Load", "d8/d11/a21768.html#a81f9c53e3052932fbdc93ef74e4b8df3", null ],
+    [ "PrepareAuraScript", "d8/d11/a21768.html#abacc5a8478bb665fe406fdf8ff0a7543", null ],
+    [ "Register", "d8/d11/a21768.html#a7ee06daf1f6f0716588025880a4a3931", null ],
+    [ "lastOrientation", "d8/d11/a21768.html#a349426d5f23a7da8fbc645b72a234479", null ]
 ];

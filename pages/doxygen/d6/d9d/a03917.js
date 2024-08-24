@@ -1,7 +1,7 @@
 var a03917 =
 [
-    [ "boss_xevozz", "d4/dce/a21312.html", "d4/dce/a21312" ],
-    [ "boss_xevozz::boss_xevozzAI", "d1/d1d/a21316.html", "d1/d1d/a21316" ],
+    [ "boss_xevozz", "d6/df9/a21315.html", "d6/df9/a21315" ],
+    [ "boss_xevozz::boss_xevozzAI", "d2/df1/a21319.html", "d2/df1/a21319" ],
     [ "SPELL_ARCANE_BARRAGE_VOLLEY", "d6/d9d/a03917.html#a74dd5e3602a6029decbe85bbb026f960", null ],
     [ "SPELL_ARCANE_BUFFET", "d6/d9d/a03917.html#a428937c36c310706da702dc5abd2124b", null ],
     [ "SPELL_ARCANE_POWER", "d6/d9d/a03917.html#a55fe903722c429a165e11c9346594f67", null ],

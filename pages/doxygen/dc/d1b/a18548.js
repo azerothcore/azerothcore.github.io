@@ -1,7 +1,6 @@
 var a18548 =
 [
-    [ "OnApply", "dc/d1b/a18548.html#a5f62c11ef96edbf6f2906bd5f41109d5", null ],
-    [ "OnRemove", "dc/d1b/a18548.html#a697a7c76f944b5df956a9de07746b7a9", null ],
-    [ "PrepareAuraScript", "dc/d1b/a18548.html#a338d0fa22368d01fe7523b7cc1acea4b", null ],
-    [ "Register", "dc/d1b/a18548.html#ab915b3ede10526b3e7ccbe33f2568fae", null ]
+    [ "HandleScript", "dc/d1b/a18548.html#a4f0a18fc2d21e8018e720c9e1d6664df", null ],
+    [ "PrepareSpellScript", "dc/d1b/a18548.html#a20296c8579ae8ba80638bfaee67aec80", null ],
+    [ "Register", "dc/d1b/a18548.html#ab531ce145b25f0d71e5ce57fb1ee9202", null ]
 ];

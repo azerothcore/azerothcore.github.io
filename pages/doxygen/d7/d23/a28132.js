@@ -1,8 +1,8 @@
 var a28132 =
 [
-    [ "areaTriggerText", "d7/d23/a28132.html#a32bb8c4a4defce661d108627e25b645a", null ],
-    [ "Difficulty", "d7/d23/a28132.html#add8ed75cd6aaa3412e6222b869bb4113", null ],
-    [ "MapId", "d7/d23/a28132.html#aa107ad302ec2aa3ce2289ba392e1c32e", null ],
-    [ "maxPlayers", "d7/d23/a28132.html#a7ab33229ffee11a27861439053c79831", null ],
-    [ "resetTime", "d7/d23/a28132.html#a891a741efb049b51996e1a6110efc52d", null ]
+    [ "CheckProc", "d7/d23/a28132.html#a7796d6b90bb3452d75d28e5a6a3e6287", null ],
+    [ "HandleProc", "d7/d23/a28132.html#ab456eb468477ae465f058b05ea45aaeb", null ],
+    [ "PrepareAuraScript", "d7/d23/a28132.html#a9d255b2878f11e0ce9f9ffa81f7e4b0e", null ],
+    [ "Register", "d7/d23/a28132.html#a9c285da0ae22011d01eeed7415d37d42", null ],
+    [ "Validate", "d7/d23/a28132.html#a714d9b7afc9ae0dd190030309f1e83ca", null ]
 ];

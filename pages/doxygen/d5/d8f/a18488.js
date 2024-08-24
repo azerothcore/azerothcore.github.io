@@ -1,6 +1,6 @@
 var a18488 =
 [
-    [ "npc_captain_arnathAI", "d6/d50/a18492.html", "d6/d50/a18492" ],
-    [ "npc_captain_arnath", "d5/d8f/a18488.html#ab96afce64a7714ea84bab932f80c9302", null ],
-    [ "GetAI", "d5/d8f/a18488.html#a302ec007389e677011334d78f410207b", null ]
+    [ "spell_putricide_gaseous_bloat_AuraScript", "d6/d50/a18492.html", "d6/d50/a18492" ],
+    [ "spell_putricide_gaseous_bloat", "d5/d8f/a18488.html#a7e525439763854e3b417631f37dfceb9", null ],
+    [ "GetAuraScript", "d5/d8f/a18488.html#afe41715781ccb3627a3f42f21c8711ef", null ]
 ];

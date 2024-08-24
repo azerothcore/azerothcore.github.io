@@ -1,6 +1,7 @@
 var a14596 =
 [
-    [ "npc_cos_stratholme_citizienAI", "de/db3/a14600.html", "de/db3/a14600" ],
-    [ "npc_cos_stratholme_citizien", "d7/d3d/a14596.html#a92f8d88ecfa9cc47d6799107e5de0107", null ],
-    [ "GetAI", "d7/d3d/a14596.html#a4f5f132b903241021a4e53dd60c0f43b", null ]
+    [ "npc_tyrande_whisperwind", "d7/d3d/a14596.html#a18b631e57ad5bf0429a45b7bb04ae282", null ],
+    [ "GetAI", "d7/d3d/a14596.html#a5762c68e5ef6d7b74ae90580356acfbe", null ],
+    [ "OnGossipHello", "d7/d3d/a14596.html#a25283f73d9f202c33edb2ba430d8a315", null ],
+    [ "OnGossipSelect", "d7/d3d/a14596.html#a8fcb001140d2f9efcc9a898fbb081aa6", null ]
 ];

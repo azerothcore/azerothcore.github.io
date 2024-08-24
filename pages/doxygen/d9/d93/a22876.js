@@ -1,13 +1,15 @@
 var a22876 =
 [
-    [ "boss_teron_gorefiend", "d9/d93/a22876.html#a81845f22aa383cdc57912ee9655b7bf9", null ],
-    [ "JustDied", "d9/d93/a22876.html#aa080c8d17bc51142c1cecadf7a0376a2", null ],
-    [ "JustEngagedWith", "d9/d93/a22876.html#a9f658d42cf27a54c62a71e28b5dfadee", null ],
-    [ "JustSummoned", "d9/d93/a22876.html#a71db567c5be7396add349e2f1b455a50", null ],
-    [ "KilledUnit", "d9/d93/a22876.html#a70dbf2b2a08cf915866afd51f8a74018", null ],
-    [ "Reset", "d9/d93/a22876.html#af32df2d958c618dc08d3da40b92bf3aa", null ],
-    [ "SetData", "d9/d93/a22876.html#a139c351471a3f19c7e59cf8e40913820", null ],
-    [ "UpdateAI", "d9/d93/a22876.html#a0bdd92c94adf066fdbf8ba9bcb1a1ba1", null ],
-    [ "_intro", "d9/d93/a22876.html#a99c62157084373e8eddd4497360cc047", null ],
-    [ "_recentlySpoken", "d9/d93/a22876.html#adef80b4509a6a72e7021fd3cc11de697", null ]
+    [ "npc_vh_teleportation_portalAI", "d9/d93/a22876.html#a9d062de34e4fbc8ccc487a633efa038d", null ],
+    [ "JustDied", "d9/d93/a22876.html#aab2cc259d78492c54e21b4279697f909", null ],
+    [ "JustSummoned", "d9/d93/a22876.html#a029b105ef6f92455c41e064aeb0fd5f6", null ],
+    [ "SummonedMobDied", "d9/d93/a22876.html#ae6b5b15aeee2f7b02d5c54dd8d09aa51", null ],
+    [ "UpdateAI", "d9/d93/a22876.html#a812e330e20924cc34262363ecc0a3fc1", null ],
+    [ "addValue", "d9/d93/a22876.html#aa52f29a41d12320516737b437af62fc3", null ],
+    [ "bKorG", "d9/d93/a22876.html#ad96efd06ebb1902cc30deb22e62d7873", null ],
+    [ "events", "d9/d93/a22876.html#a329635246e80e7264cad6749ee70be40", null ],
+    [ "listOfMobs", "d9/d93/a22876.html#a470a61cf7d424711b07770fd56c74b29", null ],
+    [ "pInstance", "d9/d93/a22876.html#a10ebe705c55d898bfea2af104ce7f86e", null ],
+    [ "spawned", "d9/d93/a22876.html#a8921c314c2f4b958e11136504971f427", null ],
+    [ "wave", "d9/d93/a22876.html#a4dd689e6445e18c3e9883bc471fecdde", null ]
 ];

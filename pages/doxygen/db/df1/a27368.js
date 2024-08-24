@@ -1,10 +1,11 @@
 var a27368 =
 [
-    [ "go_evil_book_for_dummies", "db/df1/a27368.html#a69f599910bce0070c6b1af547c459b72", null ],
-    [ "HasLeatherSpecialty", "db/df1/a27368.html#a3d755fa8777f33a318ffa6f004aecbed", null ],
-    [ "OnGossipHello", "db/df1/a27368.html#aeb29351e2faf135298419488eb16cc7e", null ],
-    [ "OnGossipSelect", "db/df1/a27368.html#ac4bc1c682b75c436a4d3fff118a20ca4", null ],
-    [ "SendActionMenu", "db/df1/a27368.html#a0aa21b4619ea5cc8229eb56e09d3233d", null ],
-    [ "SendConfirmLearn", "db/df1/a27368.html#a11a605c576a3c81b5ed96d413ec20f57", null ],
-    [ "SendConfirmUnlearn", "db/df1/a27368.html#af9c10b0423327d8644020e8f5e26a603", null ]
+    [ "spell_gen_consume", "db/df1/a27368.html#a839f5e891cfbd0f83937f06c7fd049d4", null ],
+    [ "AfterRemove", "db/df1/a27368.html#ac521cc1524ddb9dd298145f23cc8fcd1", null ],
+    [ "HandleProc", "db/df1/a27368.html#af69251aa0415a2148162f32dd9113917", null ],
+    [ "PrepareAuraScript", "db/df1/a27368.html#a43860e5dcb2d2cb49e52c280d4f3c7e9", null ],
+    [ "Register", "db/df1/a27368.html#a043362a08bcf9cfe253dd23c722a60bc", null ],
+    [ "Validate", "db/df1/a27368.html#ae9b7c2f4a1b8f26a20b5ca6d90d3c5e9", null ],
+    [ "_spellId1", "db/df1/a27368.html#a9763527e0a95c52888847b84d8f1dd8d", null ],
+    [ "_spellId2", "db/df1/a27368.html#aa9b47c361eaad7dac4725e0be1bfe254", null ]
 ];

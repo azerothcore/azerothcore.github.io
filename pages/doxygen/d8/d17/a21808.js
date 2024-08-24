@@ -1,6 +1,5 @@
 var a21808 =
 [
-    [ "npc_commander_eligor_dawnbringerAI", "d4/d8e/a21812.html", "d4/d8e/a21812" ],
-    [ "npc_commander_eligor_dawnbringer", "d8/d17/a21808.html#a71d919af98464d6d63f948507f3ff08c", null ],
-    [ "GetAI", "d8/d17/a21808.html#a759b9b1aeb8cce983fe8b6d2f3d9c33d", null ]
+    [ "achievement_mimiron_firefighter", "d8/d17/a21808.html#ae26c3b2572bc9e3e75fb25537fe46a6c", null ],
+    [ "OnCheck", "d8/d17/a21808.html#a1ebd287ef20c6d367f30b1c30ba68728", null ]
 ];

@@ -1,7 +1,8 @@
 var a22748 =
 [
-    [ "OnPeriodic", "d6/df9/a22748.html#a165d47b116b0a53e37b05f664960e6ec", null ],
-    [ "PrepareAuraScript", "d6/df9/a22748.html#ac46af3566c5c03622f8146f1bb6f0ac7", null ],
-    [ "Register", "d6/df9/a22748.html#a1ac8741542c921f5e4c42b0a9a02ed3c", null ],
-    [ "Validate", "d6/df9/a22748.html#adf76f9183dd9c5e0f00c2115aaafb119", null ]
+    [ "npc_frozen_orbAI", "d6/df9/a22748.html#aa7456d1d876690e3723ee0a36866348b", null ],
+    [ "JustEngagedWith", "d6/df9/a22748.html#afd9686dbb8503d7f756b670269aed33d", null ],
+    [ "Reset", "d6/df9/a22748.html#a376dc1fcef9752e235008c4ba66e2463", null ],
+    [ "UpdateAI", "d6/df9/a22748.html#a37d7cf81197fe4344c8b847753997e93", null ],
+    [ "switchTimer", "d6/df9/a22748.html#afc63a3cf6b814df81a35b53278d722c9", null ]
 ];

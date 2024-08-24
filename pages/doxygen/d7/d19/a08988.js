@@ -1,8 +1,9 @@
 var a08988 =
 [
-    [ "FriendlyMissingBuffInRange", "d7/d19/a08988.html#a628fe94ce054a868977ef2a981bc5d6c", null ],
-    [ "operator()", "d7/d19/a08988.html#a6dce8a1248ebb4f3e57cd12a3d94b7b9", null ],
-    [ "i_obj", "d7/d19/a08988.html#aba43edf48b2b0184b52143707c3531f4", null ],
-    [ "i_range", "d7/d19/a08988.html#a54ba98f393a8bdf710f6bd65abee526c", null ],
-    [ "i_spell", "d7/d19/a08988.html#a7f34521e8789a1e1dabb867ed82ff438", null ]
+    [ "BroadcastTextID", "d7/d19/a08988.html#a756f24dbee852a7fbe152c0cb082c412", null ],
+    [ "Emotes", "d7/d19/a08988.html#a0f67a651fdb3f3217279015c9e3fb292", null ],
+    [ "Language", "d7/d19/a08988.html#a33bc5a0c156918b00380710aeb275d3d", null ],
+    [ "Probability", "d7/d19/a08988.html#a5c743df7a7ad634c5b3f3376547fda00", null ],
+    [ "Text_0", "d7/d19/a08988.html#a046d637b91807db067c6e7050184322d", null ],
+    [ "Text_1", "d7/d19/a08988.html#a8d64d7b8fcdbd995cc11e22adde8c0de", null ]
 ];

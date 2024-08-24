@@ -1,9 +1,11 @@
 var a20392 =
 [
-    [ "npc_ulduar_emergency_fire_botAI", "d4/dae/a20392.html#a98ad3308b0fa56847ce6f5583bdfaba9", null ],
-    [ "AttackStart", "d4/dae/a20392.html#aa18e89f63e98112efeb69328f8fdc296", null ],
-    [ "MoveInLineOfSight", "d4/dae/a20392.html#a6384437fff9349df0cfa5053b37313ea", null ],
-    [ "MovementInform", "d4/dae/a20392.html#a2f7d5b821ea4bf80bd01d469859f6fb6", null ],
-    [ "UpdateAI", "d4/dae/a20392.html#a71d24eb5cea764011249b8ff78c3ed6c", null ],
-    [ "events", "d4/dae/a20392.html#a5099c03b3ab1eb437ea11a0c4e8650f1", null ]
+    [ "boss_ormorokAI", "d4/dae/a20392.html#a629b681ef2d496a7f6753776ec5b21c9", null ],
+    [ "JustDied", "d4/dae/a20392.html#a221d29715aae6ca4ee527cb0b5d427c7", null ],
+    [ "JustEngagedWith", "d4/dae/a20392.html#a0c943024e4ae7c981002dfebc1d15a78", null ],
+    [ "JustSummoned", "d4/dae/a20392.html#a2ebbf4ba1abfcbf8c57de9ac65801ce1", null ],
+    [ "KilledUnit", "d4/dae/a20392.html#aed375e4abb47337674f8bb71bafa4ec8", null ],
+    [ "Reset", "d4/dae/a20392.html#ae0059fe689513c1d8073c530f1971de1", null ],
+    [ "UpdateAI", "d4/dae/a20392.html#ac799ad65e2ac9cbb807953763ad01013", null ],
+    [ "_spikesCount", "d4/dae/a20392.html#ac054b6f3659d4f2d9ad1019433a86e59", null ]
 ];

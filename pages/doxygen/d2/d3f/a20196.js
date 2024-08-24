@@ -1,5 +1,6 @@
 var a20196 =
 [
-    [ "achievement_staying_buffed_all_winter_25", "d2/d3f/a20196.html#a91f0ab3bada837cff6414350b98a27a3", null ],
-    [ "OnCheck", "d2/d3f/a20196.html#a36591082184bc8466e124bad9a910545", null ]
+    [ "spell_thaddius_polarity_shift_SpellScript", "db/d09/a20200.html", "db/d09/a20200" ],
+    [ "spell_thaddius_polarity_shift", "d2/d3f/a20196.html#a57b92c1f63d064a1a79ccbb0b5689054", null ],
+    [ "GetSpellScript", "d2/d3f/a20196.html#ad17905767229c0e5941b291f0d7f51b8", null ]
 ];

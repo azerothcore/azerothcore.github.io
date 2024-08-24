@@ -1,7 +1,6 @@
 var a14816 =
 [
-    [ "go_sand_trap", "d1/d99/a14816.html#a58d45acac672cb05988ddca78185b469", null ],
-    [ "Reset", "d1/d99/a14816.html#a7071a3e420e9137ca133b471bc217bf3", null ],
-    [ "UpdateAI", "d1/d99/a14816.html#a2e4a5fec4d4c790233ca97e6a7732ac4", null ],
-    [ "_scheduler", "d1/d99/a14816.html#af845c0efb3d8ebe53d3620970a84f1e4", null ]
+    [ "instance_old_hillsbrad_InstanceMapScript", "d8/db1/a14820.html", "d8/db1/a14820" ],
+    [ "instance_old_hillsbrad", "d1/d99/a14816.html#a1ba2d39ae8f9209055de4b944cc535d8", null ],
+    [ "GetInstanceScript", "d1/d99/a14816.html#a1929c38b1c745b2df1ccaf462113e220", null ]
 ];

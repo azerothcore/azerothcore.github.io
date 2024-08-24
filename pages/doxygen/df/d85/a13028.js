@@ -1,6 +1,7 @@
 var a13028 =
 [
-    [ "FilterTargets", "df/d85/a13028.html#ac7f7287b88cde82fbf8a625f002c86fa", null ],
-    [ "PrepareSpellScript", "df/d85/a13028.html#a222e2c8e5401c132e89b29bbd22d46a6", null ],
-    [ "Register", "df/d85/a13028.html#a1a3607dd7e3d56bde3b92cbf4bcd0e78", null ]
+    [ "FilterTargets", "df/d85/a13028.html#a3d825420d6e2c02e5e0bb07240c2efbc", null ],
+    [ "HandleDummy", "df/d85/a13028.html#aa63bfb989205495f69eafe739989e8d7", null ],
+    [ "PrepareSpellScript", "df/d85/a13028.html#acf853f6383951b47feca881f971189cc", null ],
+    [ "Register", "df/d85/a13028.html#a121a9c4945c93b1709ccb336ca2bc53e", null ]
 ];

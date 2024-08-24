@@ -1,12 +1,20 @@
 var a07440 =
 [
-    [ "value_type", "d0/daf/a07440.html#ad430aafb433483e30d12567e7e8c2915", null ],
-    [ "GetID", "d0/daf/a07440.html#a73dd0adf980c5c3d2e272f9709ece880", null ],
-    [ "GetName", "d0/daf/a07440.html#aae4efee3e6e7d403b0c6f5d484814b81", null ],
-    [ "operator std::string const &", "d0/daf/a07440.html#a3530d83607efda9b3f50a61959da3267", null ],
-    [ "operator std::string_view", "d0/daf/a07440.html#a6b77a74762705e00d73b751a5f947e05", null ],
-    [ "operator uint32", "d0/daf/a07440.html#abffff20cfe5d5b3936ac345c5082258f", null ],
-    [ "TryConsume", "d0/daf/a07440.html#abc0041bef0d0171b54acbdcf6b18f611", null ],
-    [ "_id", "d0/daf/a07440.html#a844e7f79db885f3076958b0e6d423b4e", null ],
-    [ "_name", "d0/daf/a07440.html#a63bb52a0619ceef7b1af1b97d52a7373", null ]
+    [ "LFGDungeonData", "d0/daf/a07440.html#af609ccb3be2e80fa6cd0339f91f6d094", null ],
+    [ "LFGDungeonData", "d0/daf/a07440.html#ada24faec77a2174bd436535eb283ebc2", null ],
+    [ "Entry", "d0/daf/a07440.html#ad421a384c1e1c37ff897cc50421fe3d9", null ],
+    [ "difficulty", "d0/daf/a07440.html#a310b9d83b84a6f8896ac62b89ca16be3", null ],
+    [ "expansion", "d0/daf/a07440.html#a0d5bc7c615666f52aca24ee34d849992", null ],
+    [ "group", "d0/daf/a07440.html#a8791fcc476a5ebec99327f497f53db04", null ],
+    [ "id", "d0/daf/a07440.html#ae25732254c64f1a2bca8a938a240e509", null ],
+    [ "map", "d0/daf/a07440.html#ac981fbb0aaf96ea75482273c50bc53e7", null ],
+    [ "maxlevel", "d0/daf/a07440.html#a9419e8826804b6d0a2c8b65de3b513dd", null ],
+    [ "minlevel", "d0/daf/a07440.html#a4ef8f3bbf52a2ac8c45eeaa61aa22e2d", null ],
+    [ "name", "d0/daf/a07440.html#a6eef80ccf8defe89696cec1675033ea2", null ],
+    [ "o", "d0/daf/a07440.html#a42dd178512ebfbba612889f3ff5384bb", null ],
+    [ "seasonal", "d0/daf/a07440.html#ad8b1d936512ebb1075fe2a15f29abff1", null ],
+    [ "type", "d0/daf/a07440.html#aaea170ae5069dc46022652bfacd22edf", null ],
+    [ "x", "d0/daf/a07440.html#a90ca0afe02dfe5aa50bfd378e38de865", null ],
+    [ "y", "d0/daf/a07440.html#a32ef5d26a8c16690889eed2e3e230de1", null ],
+    [ "z", "d0/daf/a07440.html#a7ec9ddbd30f0cd2c602cfef7d2eb8956", null ]
 ];

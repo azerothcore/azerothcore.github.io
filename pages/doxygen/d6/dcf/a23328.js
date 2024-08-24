@@ -1,6 +1,6 @@
 var a23328 =
 [
-    [ "HandleAfterRemove", "d6/dcf/a23328.html#a74610b06095572aa2c898cd84e0fb229", null ],
-    [ "PrepareAuraScript", "d6/dcf/a23328.html#ac0d686490ff37810e0116dea4d0b6077", null ],
-    [ "Register", "d6/dcf/a23328.html#aad72f4aaa19f92f7a71241311f5d0582", null ]
+    [ "npc_q24545_vegard_dummyAI", "dc/d8e/a23332.html", "dc/d8e/a23332" ],
+    [ "npc_q24545_vegard_dummy", "d6/dcf/a23328.html#a12363e26a720ae33b6cde0f44aec3adf", null ],
+    [ "GetAI", "d6/dcf/a23328.html#a201d1dec206887c26e33f795a0fd0887", null ]
 ];

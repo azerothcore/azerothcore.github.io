@@ -1,7 +1,7 @@
 var a13428 =
 [
-    [ "npc_calvin_montagueAI", "df/d95/a13432.html", "df/d95/a13432" ],
-    [ "npc_calvin_montague", "d3/d47/a13428.html#af8af2896fc3e32a4285c3559c6f14456", null ],
-    [ "GetAI", "d3/d47/a13428.html#a556f29fca6310d0e12bb3e0a7bf12f84", null ],
-    [ "OnQuestAccept", "d3/d47/a13428.html#aae8c6adcb7ec68146b5b96a65b76e72b", null ]
+    [ "npc_deathstalker_erlandAI", "df/d95/a13432.html", "df/d95/a13432" ],
+    [ "npc_deathstalker_erland", "d3/d47/a13428.html#ad49faf068e982f245f0d1e21f0700c40", null ],
+    [ "GetAI", "d3/d47/a13428.html#ab59235f212ddb985056cb8e32719b723", null ],
+    [ "OnQuestAccept", "d3/d47/a13428.html#a81b20bc8c7249a59d69ba63ab32a5f06", null ]
 ];

@@ -1,8 +1,6 @@
 var a26584 =
 [
-    [ "Apply", "da/d10/a26584.html#ac3145df90b6b179fece1c76da114e395", null ],
-    [ "HandleEffectPeriodic", "da/d10/a26584.html#a480dd240981f91666e25ea2f1f73e4d7", null ],
-    [ "PrepareAuraScript", "da/d10/a26584.html#aa911ba0b5a13a933bf50a072799a040f", null ],
-    [ "Register", "da/d10/a26584.html#ae0dff9b5002d3d3361d794a75645057f", null ],
-    [ "Validate", "da/d10/a26584.html#ad81184b508474a89fbafc63594ef0ab1", null ]
+    [ "FilterTargets", "da/d10/a26584.html#adab73c94c659d7421c9c6887d956cd83", null ],
+    [ "PrepareSpellScript", "da/d10/a26584.html#a8cf5e4224f46b6f836d517f90fd135d4", null ],
+    [ "Register", "da/d10/a26584.html#a3aaf93f3746b36d5bfa4fc475aabe43b", null ]
 ];

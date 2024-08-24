@@ -1,6 +1,8 @@
 var a23864 =
 [
-    [ "HandleAfterRemove", "d9/df3/a23864.html#ac9756a8f206c114ff6443331ca266184", null ],
-    [ "PrepareAuraScript", "d9/df3/a23864.html#a2f67291e6e4291c9d01cdbcbe04a7db7", null ],
-    [ "Register", "d9/df3/a23864.html#ac36d76ad8a5ecb2e437dcb8f1248386d", null ]
+    [ "npc_freed_protodrakeAI", "d9/df3/a23864.html#a9e80808035be749c87a1170f37ac3daf", null ],
+    [ "MovementInform", "d9/df3/a23864.html#af056f3c12a314acd8a7e8c6c381b9436", null ],
+    [ "Reset", "d9/df3/a23864.html#ab5781438300442bb7bcb4510aec9d233", null ],
+    [ "UpdateAI", "d9/df3/a23864.html#a9e83b133444e977c35e90b700149472c", null ],
+    [ "events", "d9/df3/a23864.html#ac2e34b9a53ff55d177327ec95dca5466", null ]
 ];

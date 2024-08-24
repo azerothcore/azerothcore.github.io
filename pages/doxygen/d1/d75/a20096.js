@@ -1,6 +1,7 @@
 var a20096 =
 [
-    [ "npc_ulduar_toasty_fireAI", "d1/d75/a20096.html#a145001c6f1c1d505f810ae545ec62c69", null ],
-    [ "DoAction", "d1/d75/a20096.html#a8ab71582cc5d8386f788fb95203fbab5", null ],
-    [ "SpellHit", "d1/d75/a20096.html#a0e4475382dfd754dc119d2e8dba61b7e", null ]
+    [ "HandleScript", "d1/d75/a20096.html#af4879c25e56e0a39fef5cae2febc20b9", null ],
+    [ "PrepareAuraScript", "d1/d75/a20096.html#a772ffe39e00583b22f017e23c7eff0d2", null ],
+    [ "Register", "d1/d75/a20096.html#aae43bd503b72844100767d4dbb76e53d", null ],
+    [ "Validate", "d1/d75/a20096.html#a6f17e1d04769a79eeb8481a12b34a0b3", null ]
 ];

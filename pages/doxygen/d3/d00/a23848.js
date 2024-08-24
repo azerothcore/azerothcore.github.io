@@ -1,7 +1,6 @@
 var a23848 =
 [
-    [ "boss_gatewatcher_gyrokill", "d3/d00/a23848.html#a82335081dd79f7a0aa1dc0c26bd878fb", null ],
-    [ "JustDied", "d3/d00/a23848.html#a4bbfb59c2a687ebb3e88bde9784af38e", null ],
-    [ "JustEngagedWith", "d3/d00/a23848.html#a95d3ae80f87be9d972ecb056e0b85412", null ],
-    [ "KilledUnit", "d3/d00/a23848.html#a274355d0303d9bf5761758f175826bd1", null ]
+    [ "npc_roxi_ramrocket", "d3/d00/a23848.html#af7f6bf6d5f8fc468abe62605f205571b", null ],
+    [ "OnGossipHello", "d3/d00/a23848.html#adec28f778921246c56f11d09753e566e", null ],
+    [ "OnGossipSelect", "d3/d00/a23848.html#a46a9898cb4b29808f9e911c03b5759cb", null ]
 ];

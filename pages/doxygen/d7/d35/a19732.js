@@ -1,12 +1,6 @@
 var a19732 =
 [
-    [ "npc_auriaya_feral_defenderAI", "d7/d35/a19732.html#a32e6fa30e4c56fdd055a728ba7227beb", null ],
-    [ "DoAction", "d7/d35/a19732.html#a2b0a176dba865e90bdc22727b2860509", null ],
-    [ "JustDied", "d7/d35/a19732.html#a7e9c49d8dc47663e70c8fcbed68746e5", null ],
-    [ "Reset", "d7/d35/a19732.html#ae127a88f18f3348a0bc388d79dcd13d4", null ],
-    [ "UpdateAI", "d7/d35/a19732.html#a1edc249808e1ebdb88605c56e19c272a", null ],
-    [ "_feralEssenceStack", "d7/d35/a19732.html#aab51096b8f57528a0a27e23a306d6762", null ],
-    [ "_feralPounceTimer", "d7/d35/a19732.html#ab91df5ebee9c12d067ff83ee64effece", null ],
-    [ "_feralRushTimer", "d7/d35/a19732.html#aa45e0baf1ad43cc4b2c223d1b9d1c3c6", null ],
-    [ "summons", "d7/d35/a19732.html#a599679f93e4fc4b3b9aa00ea33dcb047", null ]
+    [ "npc_icc_skybreaker_hierophantAI", "d6/da1/a19736.html", "d6/da1/a19736" ],
+    [ "npc_icc_skybreaker_hierophant", "d7/d35/a19732.html#a4cd3b2aa3d71c30853c687da8b8ca959", null ],
+    [ "GetAI", "d7/d35/a19732.html#a2b0627bf059dfbce556bfa3ed4e97552", null ]
 ];

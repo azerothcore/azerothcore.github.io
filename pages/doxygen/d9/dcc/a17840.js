@@ -1,7 +1,6 @@
 var a17840 =
 [
-    [ "HandleScript", "d9/dcc/a17840.html#a37b261d0df2829788d8290a9194913f5", null ],
-    [ "PrepareSpellScript", "d9/dcc/a17840.html#a69386dbef57322393a38eec90662135f", null ],
-    [ "Register", "d9/dcc/a17840.html#a5b85b01100d7f7c672c437e4bdfd7a7c", null ],
-    [ "Validate", "d9/dcc/a17840.html#a63c446574c700a895d7fbc5bb2b81508", null ]
+    [ "spell_blood_queen_vampiric_bite_SpellScript", "df/dd9/a17844.html", "df/dd9/a17844" ],
+    [ "spell_blood_queen_vampiric_bite", "d9/dcc/a17840.html#ae324b618e1ffca96853070c0e288af23", null ],
+    [ "GetSpellScript", "d9/dcc/a17840.html#ad4fe256640f5a0ae0b5f530653b41290", null ]
 ];

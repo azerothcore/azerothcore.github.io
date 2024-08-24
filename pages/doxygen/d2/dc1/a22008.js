@@ -1,9 +1,6 @@
 var a22008 =
 [
-    [ "npc_lord_areteAI", "d2/dc1/a22008.html#aebdbf8f4c2fe6948c78315e6b404119b", null ],
-    [ "InitializeAI", "d2/dc1/a22008.html#a22d0c3e2445bff2d742b28bd99f37394", null ],
-    [ "UpdateAI", "d2/dc1/a22008.html#a5cba8d4429ae191dd5b90ca5a4fe2866", null ],
-    [ "_landgrenGUID", "d2/dc1/a22008.html#ac0e3753096dfe779024acc8400791171", null ],
-    [ "_landgrenSoulGUID", "d2/dc1/a22008.html#aaa28c67691610136f0b418b30892f3cd", null ],
-    [ "events", "d2/dc1/a22008.html#ae4ec90b30320cf0aeaec4415c4125605", null ]
+    [ "boss_xt002AI", "d1/d55/a22012.html", "d1/d55/a22012" ],
+    [ "boss_xt002", "d2/dc1/a22008.html#aebd7e513b3bef6a25ad0f9766d18174e", null ],
+    [ "GetAI", "d2/dc1/a22008.html#a146e4a10da7d81213e7f63d6e86c79f2", null ]
 ];

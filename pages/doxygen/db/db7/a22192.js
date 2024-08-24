@@ -1,6 +1,6 @@
 var a22192 =
 [
-    [ "npc_frosthoundAI", "dd/d50/a22196.html", "dd/d50/a22196" ],
-    [ "npc_frosthound", "db/db7/a22192.html#a3266f5186d1db0c010f586d3272725a6", null ],
-    [ "GetAI", "db/db7/a22192.html#a49cd41753c715f166fc903df9dcfdd6b", null ]
+    [ "boss_yoggsaron_descend_portalAI", "dd/d50/a22196.html", "dd/d50/a22196" ],
+    [ "boss_yoggsaron_descend_portal", "db/db7/a22192.html#aaf546e4e546d87818bd501b4934e8ab2", null ],
+    [ "GetAI", "db/db7/a22192.html#aceb50c808eed17ca468a80b823af1907", null ]
 ];

@@ -1,6 +1,6 @@
 var a13728 =
 [
-    [ "npc_forest_frogAI", "de/d2f/a13732.html", "de/d2f/a13732" ],
-    [ "npc_forest_frog", "d8/d48/a13728.html#a31a1a10db8eaeca39a60e5dc3f028f8e", null ],
-    [ "GetAI", "d8/d48/a13728.html#a51a83289e04ed9dfa587d448d4b5b1fe", null ]
+    [ "npc_janalai_firebombAI", "de/d2f/a13732.html", "de/d2f/a13732" ],
+    [ "npc_janalai_firebomb", "d8/d48/a13728.html#aaed2bc116d1118e1240310d27241c0df", null ],
+    [ "GetAI", "d8/d48/a13728.html#a2a8d7372062720032b2811eb98c90dec", null ]
 ];

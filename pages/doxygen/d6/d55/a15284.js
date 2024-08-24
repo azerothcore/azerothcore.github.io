@@ -1,8 +1,6 @@
 var a15284 =
 [
-    [ "CheckRequirement", "d6/d55/a15284.html#ae2b5e9accd0df2cc99e976eaab2d3f35", null ],
-    [ "HandleDummy", "d6/d55/a15284.html#a6d2c75ad53f0e0f7be2df037f385d686", null ],
-    [ "PrepareSpellScript", "d6/d55/a15284.html#a5b0a5f957a7b996cbe6b219a9803069e", null ],
-    [ "Register", "d6/d55/a15284.html#a46f4aec6f7786d0abc8ded21ef16e6f6", null ],
-    [ "Validate", "d6/d55/a15284.html#ab3f8d94f3b8d44e668743cb821430a92", null ]
+    [ "HandleApply", "d6/d55/a15284.html#aefef61bc68c13b20e9b41a6f148a9599", null ],
+    [ "PrepareAuraScript", "d6/d55/a15284.html#aabe8dc8b99dc455dfcfaf58b64fa3f18", null ],
+    [ "Register", "d6/d55/a15284.html#ade5c710416516760cc69f77750aa2a1f", null ]
 ];

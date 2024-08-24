@@ -1,6 +1,6 @@
 var a25796 =
 [
-    [ "HandleDummy", "d8/dab/a25796.html#aeda7eba9ab0b80b549976a4db6e9712c", null ],
-    [ "PrepareSpellScript", "d8/dab/a25796.html#a251e93768ff684d1586286ce040a611b", null ],
-    [ "Register", "d8/dab/a25796.html#ad1d4fa3d7bda8f4354325cc4df623b65", null ]
+    [ "spell_kaelthas_summon_weapons_SpellScript", "d9/dd6/a25800.html", "d9/dd6/a25800" ],
+    [ "spell_kaelthas_summon_weapons", "d8/dab/a25796.html#a7c2a3c3485ac721e9aa229ec7d981668", null ],
+    [ "GetSpellScript", "d8/dab/a25796.html#a8ddc67813022a57e6e9d4b8175c58441", null ]
 ];

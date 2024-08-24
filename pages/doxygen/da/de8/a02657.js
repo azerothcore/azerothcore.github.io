@@ -1,8 +1,8 @@
 var a02657 =
 [
-    [ "boss_gyth", "d3/d0f/a11680.html", "d3/d0f/a11680" ],
-    [ "boss_gyth::boss_gythAI", "df/d9a/a11684.html", "df/d9a/a11684" ],
-    [ "spell_gyth_chromatic_protection", "d7/d6e/a11688.html", "d7/d6e/a11688" ],
+    [ "boss_gyth", "de/d1f/a11683.html", "de/d1f/a11683" ],
+    [ "boss_gyth::boss_gythAI", "df/d73/a11687.html", "df/d73/a11687" ],
+    [ "spell_gyth_chromatic_protection", "dc/dd7/a11691.html", "dc/dd7/a11691" ],
     [ "Events", "da/de8/a02657.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d4/d61/a02588.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d4/d61/a02588.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

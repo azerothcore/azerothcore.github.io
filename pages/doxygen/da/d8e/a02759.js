@@ -1,8 +1,8 @@
 var a02759 =
 [
-    [ "MCBossObject", "d8/dff/a12168.html", "d8/dff/a12168" ],
-    [ "instance_molten_core", "d0/daa/a12172.html", "d0/daa/a12172" ],
-    [ "instance_molten_core::instance_molten_core_InstanceMapScript", "d3/d78/a12176.html", "d3/d78/a12176" ],
+    [ "MCBossObject", "d3/ddb/a12171.html", "d3/ddb/a12171" ],
+    [ "instance_molten_core", "d4/d0e/a12175.html", "d4/d0e/a12175" ],
+    [ "instance_molten_core::instance_molten_core_InstanceMapScript", "d2/d4f/a12179.html", "d2/d4f/a12179" ],
     [ "AddSC_instance_molten_core", "da/d8e/a02759.html#aa908fb56c2f024e5bfcb38bc98b849ab", null ],
     [ "linkedBossObjData", "da/d8e/a02759.html#a69ab269a27b57bb4b00d3eee95db589e", null ],
     [ "MAX_MC_LINKED_BOSS_OBJ", "da/d8e/a02759.html#a398f000c29691c6a24707190dc4a4024", null ],

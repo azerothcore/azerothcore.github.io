@@ -1,13 +1,10 @@
 var a09808 =
 [
-    [ "entry", "de/df1/a09808.html#a300fb240386044aab139e777d6244d19", null ],
-    [ "map", "de/df1/a09808.html#a2ec529bbd5b03490899a5c3a41cf739a", null ],
-    [ "o", "de/df1/a09808.html#a379e36eac68d8ff487c90fdb9be0e83d", null ],
-    [ "rot0", "de/df1/a09808.html#a8b808a7545a7efaf0bf352ec663ca9ba", null ],
-    [ "rot1", "de/df1/a09808.html#a9aa433644fc5bedbb3749eacfd9a57fd", null ],
-    [ "rot2", "de/df1/a09808.html#ae7c9755e9ae6293b3be8bdc121040f7f", null ],
-    [ "rot3", "de/df1/a09808.html#a60460fc3030b24eef0246dae28af2282", null ],
-    [ "x", "de/df1/a09808.html#a1587c3d17c78e1a94a1f2bc30b831c02", null ],
-    [ "y", "de/df1/a09808.html#ab42ebe981ba589e3d67110487bd88255", null ],
-    [ "z", "de/df1/a09808.html#a389d430f290dbb66d46ccb81daac6f0d", null ]
+    [ "WorldObjectScript", "de/df1/a09808.html#aebb689ff553c3f80a2af426e6942e6e2", null ],
+    [ "IsDatabaseBound", "de/df1/a09808.html#a48f037dd6152ff68ebef672de68df45e", null ],
+    [ "OnWorldObjectCreate", "de/df1/a09808.html#a2b32bc661e5a377de98902f3bc16679b", null ],
+    [ "OnWorldObjectDestroy", "de/df1/a09808.html#a7856d4b561cd99a7f405f86fffd57fef", null ],
+    [ "OnWorldObjectResetMap", "de/df1/a09808.html#a32e6b907a20d84377e1ddfce79b5cfe1", null ],
+    [ "OnWorldObjectSetMap", "de/df1/a09808.html#a12cf83d65dded66b41ca54a3c1bd31cb", null ],
+    [ "OnWorldObjectUpdate", "de/df1/a09808.html#abc139d1aa728f8a70886eed65d28f566", null ]
 ];

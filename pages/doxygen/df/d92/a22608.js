@@ -1,11 +1,5 @@
 var a22608 =
 [
-    [ "boss_talon_king_ikiss", "df/d92/a22608.html#acf8cbda5f7a33c026bfc0d6e7b31f43c", null ],
-    [ "CanAIAttack", "df/d92/a22608.html#ab4858d845f149b6333941d8f8ab59afb", null ],
-    [ "JustDied", "df/d92/a22608.html#ada1d993842d04453d6afad91e186a3fe", null ],
-    [ "JustEngagedWith", "df/d92/a22608.html#a325312ce6695435fcca701720434c64f", null ],
-    [ "KilledUnit", "df/d92/a22608.html#ae8d94f89a67f3a321c88327c076ddd77", null ],
-    [ "MoveInLineOfSight", "df/d92/a22608.html#ab13808b75b1ca79b856e5b2e64e67d89", null ],
-    [ "Reset", "df/d92/a22608.html#adcb1dca375ec548499da5a7690babc21", null ],
-    [ "_spoken", "df/d92/a22608.html#a3e9e3a8575dbf21262ba2b4226182373", null ]
+    [ "go_harpoon_canon", "df/d92/a22608.html#aa7651e111cade00bbbdb9d0feced03e6", null ],
+    [ "OnGossipHello", "df/d92/a22608.html#ad0098bafd1233636bde181312126e65f", null ]
 ];

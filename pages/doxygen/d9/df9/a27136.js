@@ -1,6 +1,6 @@
 var a27136 =
 [
-    [ "go_flamesAI", "d9/df9/a27136.html#a6473bff84b5c99cc616aa2d0912ed308", null ],
-    [ "UpdateAI", "d9/df9/a27136.html#a2d4c91f0bff924335881d1096c0af313", null ],
-    [ "timer", "d9/df9/a27136.html#ae53c7c6c669e982babf304f173b58b1a", null ]
+    [ "HandleScript", "d9/df9/a27136.html#a913c8c461f291ccaad2f48614c0146c6", null ],
+    [ "PrepareSpellScript", "d9/df9/a27136.html#a18913a7455cf3f158136f2d3bb415779", null ],
+    [ "Register", "d9/df9/a27136.html#ac24208b646e95d87fbb340d7779cb7c5", null ]
 ];

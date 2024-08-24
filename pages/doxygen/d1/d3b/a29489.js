@@ -1,4 +1,5 @@
 var a29489 =
 [
-    [ "gOpenArchives", "d1/d3b/a29489.html#a8ae40ebe73635e831bc65b70e7f97f3c", null ]
+    [ "ID", "d1/d3b/a29489.html#a4a79da5825cf01d38d6ab9d98e033964", null ],
+    [ "parentCategory", "d1/d3b/a29489.html#a705e301dff461a8d7aefdc6fb29d39cc", null ]
 ];

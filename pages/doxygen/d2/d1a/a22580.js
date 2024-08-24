@@ -1,8 +1,6 @@
 var a22580 =
 [
-    [ "boss_pandemonius", "d2/d1a/a22580.html#a650746de74bb8a91e0c9c59d8a6a09ea", null ],
-    [ "JustDied", "d2/d1a/a22580.html#a64a493c0dd4bcf5917e00c3e2713f4ce", null ],
-    [ "JustEngagedWith", "d2/d1a/a22580.html#a3dbedc67006db89b95443f783cd8dbd9", null ],
-    [ "KilledUnit", "d2/d1a/a22580.html#a26a012afe8c418c8da283c7b9f983e89", null ],
-    [ "PullRoom", "d2/d1a/a22580.html#a05011127290350f11cc1a333b23dbb04", null ]
+    [ "npc_frenzied_worgenAI", "d0/db8/a22584.html", "d0/db8/a22584" ],
+    [ "npc_frenzied_worgen", "d2/d1a/a22580.html#ad46eb89ab86876950652f6dd6b7dc91a", null ],
+    [ "GetAI", "d2/d1a/a22580.html#a1ed46e8e6bd001f8f35492f340ab1d56", null ]
 ];

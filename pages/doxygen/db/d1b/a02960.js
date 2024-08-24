@@ -1,8 +1,8 @@
 var a02960 =
 [
-    [ "npc_cameron", "d3/d1d/a13296.html", "d3/d1d/a13296" ],
-    [ "npc_supervisor_raelen", "d9/d0e/a13300.html", "d9/d0e/a13300" ],
-    [ "npc_eastvale_peasent", "d0/d57/a13304.html", "d0/d57/a13304" ],
+    [ "npc_cameron", "d0/d12/a13299.html", "d0/d12/a13299" ],
+    [ "npc_supervisor_raelen", "d8/d21/a13303.html", "d8/d21/a13303" ],
+    [ "npc_eastvale_peasent", "db/d8f/a13307.html", "db/d8f/a13307" ],
     [ "COG_Creatures", "db/d1b/a02960.html#a65c53b71f65b39ebdb719ba85df40c00", [
       [ "NPC_DANA", "db/d1b/a02960.html#a65c53b71f65b39ebdb719ba85df40c00aab1360bef063d32d66b5592222983b79", null ],
       [ "NPC_CAMERON", "db/d1b/a02960.html#a65c53b71f65b39ebdb719ba85df40c00a2774529c2dae7e5aa5c9dca851e92cee", null ],

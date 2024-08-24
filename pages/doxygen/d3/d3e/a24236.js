@@ -1,7 +1,6 @@
 var a24236 =
 [
-    [ "HandleEffectRemove", "d3/d3e/a24236.html#a63c0fede080591df9ebf8b3de2cd2fc3", null ],
-    [ "PrepareAuraScript", "d3/d3e/a24236.html#a19ce53b5731b0789896612fa55f38849", null ],
-    [ "Register", "d3/d3e/a24236.html#a7d60c5b18bbf77a18ab683a101782ada", null ],
-    [ "Validate", "d3/d3e/a24236.html#ae3c3c1bce38882cd5de32295813b1a47", null ]
+    [ "boss_pandemoniusAI", "d9/dce/a24240.html", "d9/dce/a24240" ],
+    [ "boss_pandemonius", "d3/d3e/a24236.html#a1f3f7351adf69e7d05941fdc554c7e2b", null ],
+    [ "GetAI", "d3/d3e/a24236.html#ac851b83e17712bfcc94cad0cff461e37", null ]
 ];

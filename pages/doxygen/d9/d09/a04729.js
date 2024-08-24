@@ -1,13 +1,10 @@
 var a04729 =
 [
-    [ "LogoutCancel", "d4/de7/a10188.html", "d4/de7/a10188" ],
-    [ "LogoutCancelAck", "d3/d1f/a10192.html", "d3/d1f/a10192" ],
-    [ "LogoutComplete", "d9/da3/a10184.html", "d9/da3/a10184" ],
-    [ "LogoutRequest", "d6/d23/a10176.html", "d6/d23/a10176" ],
-    [ "LogoutResponse", "d2/d42/a10180.html", "d2/d42/a10180" ],
-    [ "PlayedTime", "d2/d77/a10204.html", "d2/d77/a10204" ],
-    [ "PlayedTimeClient", "d6/d42/a10200.html", "d6/d42/a10200" ],
-    [ "PlayerLogout", "d0/d7e/a10196.html", "d0/d7e/a10196" ],
-    [ "ShowingCloak", "d0/de5/a10168.html", "d0/de5/a10168" ],
-    [ "ShowingHelm", "db/d67/a10172.html", "db/d67/a10172" ]
+    [ "AreaInfo", "d9/d09/a04729.html#a1f45e5e030aaf5b16fb6c58097fa8b14", null ],
+    [ "adtId", "d9/d09/a04729.html#a95c1c986b14dfeba867fa55e77553499", null ],
+    [ "flags", "d9/d09/a04729.html#a780bdbb606fe694941d2105e14a29d70", null ],
+    [ "ground_Z", "d9/d09/a04729.html#aca4fada3b2062f74cf66cd34a63c0c86", null ],
+    [ "groupId", "d9/d09/a04729.html#a76ac6ccec6ff67f16689a6735e644e07", null ],
+    [ "result", "d9/d09/a04729.html#ab9e9a7658d5fb76be208835f786036b0", null ],
+    [ "rootId", "d9/d09/a04729.html#a6f60501d22be8c1d374a46e598d0f2e3", null ]
 ];

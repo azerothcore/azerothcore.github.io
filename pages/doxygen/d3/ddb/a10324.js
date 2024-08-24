@@ -1,6 +1,7 @@
 var a10324 =
 [
-    [ "GuildAddRank", "d3/ddb/a10324.html#a59c75f3e40e57b5e64f6fa9753a7e0b9", null ],
-    [ "Read", "d3/ddb/a10324.html#a23636e4b8bd37ea85a282fb1630a969e", null ],
-    [ "Name", "d3/ddb/a10324.html#a25969282befa638dfb08cf12f14bce53", null ]
+    [ "UpdateWorldState", "d3/ddb/a10324.html#a1ccdf24be9a20c824b479af014f4fcb0", null ],
+    [ "Write", "d3/ddb/a10324.html#a76a4c5d6a06ce8d86a2d3f04f68e838d", null ],
+    [ "Value", "d3/ddb/a10324.html#a51fa2401d8af4c1c7848b423cb6f056f", null ],
+    [ "VariableID", "d3/ddb/a10324.html#aa73278b324822f509f48e6edcdaed457", null ]
 ];

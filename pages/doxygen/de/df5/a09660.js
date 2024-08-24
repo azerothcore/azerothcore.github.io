@@ -1,8 +1,26 @@
 var a09660 =
 [
-    [ "TimedFleeingMovementGenerator", "de/df5/a09660.html#ae3eed5f4b5a8d11ad4eed67ce5329742", null ],
-    [ "Finalize", "de/df5/a09660.html#a1a18f033663fa93ef0b9885aae21f766", null ],
-    [ "GetMovementGeneratorType", "de/df5/a09660.html#a1533d13f4e786e498353805a2a2daf85", null ],
-    [ "Update", "de/df5/a09660.html#a53688aae55bfdd3a33eb24484fcc157e", null ],
-    [ "i_totalFleeTime", "de/df5/a09660.html#a2858047459ff675383e7b86805702369", null ]
+    [ "UnitScript", "de/df5/a09660.html#ab11d6d2ced5bd2f5252e97af09e61316", null ],
+    [ "CanSetPhaseMask", "de/df5/a09660.html#a95d2e7dd7074494fdd4f530f9684c1bf", null ],
+    [ "DealDamage", "de/df5/a09660.html#a4b161e889eee3572a41c33a144d12cdf", null ],
+    [ "IfNormalReaction", "de/df5/a09660.html#a355d024283b4ce02a2fdcf551c75c3b2", null ],
+    [ "IsCustomBuildValuesUpdate", "de/df5/a09660.html#a1859b5ca0970c3a358a4ba0207f281de", null ],
+    [ "IsNeedModHealPercent", "de/df5/a09660.html#aab4fd36511815865c02e1415c2460ea2", null ],
+    [ "IsNeedModMeleeDamagePercent", "de/df5/a09660.html#aaaf151572d72b05833905777a979c0d9", null ],
+    [ "IsNeedModSpellDamagePercent", "de/df5/a09660.html#abef7c63663b881c66f2bcc6c3d3256b8", null ],
+    [ "ModifyHealReceived", "de/df5/a09660.html#ac2f40d7ca52538ae874f60a7acbf443b", null ],
+    [ "ModifyMeleeDamage", "de/df5/a09660.html#acde1701dd3d6207da2e76d7d1753f9c7", null ],
+    [ "ModifyPeriodicDamageAurasTick", "de/df5/a09660.html#ae0703adbc70a14443c0370de77e95190", null ],
+    [ "ModifySpellDamageTaken", "de/df5/a09660.html#a375db3302ef33bcc5c874b0b53bbc345", null ],
+    [ "OnAuraApply", "de/df5/a09660.html#a334ac1a9d8e29aa064d3625d59c7a167", null ],
+    [ "OnAuraRemove", "de/df5/a09660.html#a2ed2cf6d9725ae342adfada023538a28", null ],
+    [ "OnBeforeRollMeleeOutcomeAgainst", "de/df5/a09660.html#a627a99cd078d2cbd52519874f0bd0aff", null ],
+    [ "OnBuildValuesUpdate", "de/df5/a09660.html#a7d1aef94d7603e607163421329ac7c27", null ],
+    [ "OnDamage", "de/df5/a09660.html#a5541573db45b4404ae0b613251ad1a13", null ],
+    [ "OnDisplayIdChange", "de/df5/a09660.html#a43cd3dd2e6cd311b1045b8f5d7d6ac83", null ],
+    [ "OnHeal", "de/df5/a09660.html#adcdc8430e14bccfe399a7e1a3edd2b69", null ],
+    [ "OnUnitDeath", "de/df5/a09660.html#a7bb5f4ea3ae8edb55df455648863d93f", null ],
+    [ "OnUnitEnterCombat", "de/df5/a09660.html#a8d04617af120a1e23ad57a45440744bb", null ],
+    [ "OnUnitEnterEvadeMode", "de/df5/a09660.html#a9df6f81297f53007f1227778466e912f", null ],
+    [ "OnUnitUpdate", "de/df5/a09660.html#a36e7ba9d74892f59d0a36b76e78f4f80", null ]
 ];

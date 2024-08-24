@@ -1,5 +1,6 @@
 var a22292 =
 [
-    [ "npc_wg_spirit_guideAI", "d4/d0d/a22292.html#a576d15b6acedb07bfe1555bdd0ee8f12", null ],
-    [ "UpdateAI", "d4/d0d/a22292.html#a32b28e8fe74db742d170bd754d11f4d7", null ]
+    [ "spell_yogg_saron_lunatic_gaze_SpellScript", "d5/d64/a22296.html", "d5/d64/a22296" ],
+    [ "spell_yogg_saron_lunatic_gaze", "d4/d0d/a22292.html#abe5d72bd1d9f0aa06f7243dd55b0ec1e", null ],
+    [ "GetSpellScript", "d4/d0d/a22292.html#af92cf542c2767c8a8b01bde56ec34059", null ]
 ];

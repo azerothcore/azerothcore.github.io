@@ -1,5 +1,6 @@
 var a20484 =
 [
-    [ "achievement_iron_dwarf_medium_rare", "d4/ddc/a20484.html#afb3716aab7693ba0493db24999e4b1ee", null ],
-    [ "OnCheck", "d4/ddc/a20484.html#aabef3a345057265ac70c6cc0c98d552d", null ]
+    [ "npc_centrifuge_constructAI", "de/dba/a20488.html", "de/dba/a20488" ],
+    [ "npc_centrifuge_construct", "d4/ddc/a20484.html#a3822eca10ab4a96126e0b4685751f4d3", null ],
+    [ "GetAI", "d4/ddc/a20484.html#a7356047de8a6d7bc6e903e982db2bc00", null ]
 ];

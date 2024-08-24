@@ -1,6 +1,6 @@
 var a17084 =
 [
-    [ "HandlePeriodic", "dc/dd2/a17084.html#a27ad5fef0695f006c2f8795ac0fbce53", null ],
-    [ "PrepareAuraScript", "dc/dd2/a17084.html#a29b00511d9a215fd0e00702e7a2dca0c", null ],
-    [ "Register", "dc/dd2/a17084.html#a9753daf5cdc812e9027c1153b450686d", null ]
+    [ "boss_devourer_of_soulsAI", "db/dbd/a17088.html", "db/dbd/a17088" ],
+    [ "boss_devourer_of_souls", "dc/dd2/a17084.html#a95b3a33be3b85a4c7ecfb4370a9ddc60", null ],
+    [ "GetAI", "dc/dd2/a17084.html#a3de68fa630c5b74104c461f88edd1d36", null ]
 ];

@@ -1,6 +1,6 @@
 var a25952 =
 [
-    [ "CalculateAmount", "dc/d98/a25952.html#a3491a0a1d2f00f76730ddc53a66c8179", null ],
-    [ "PrepareAuraScript", "dc/d98/a25952.html#a667883298cee173af941cfc07022f318", null ],
-    [ "Register", "dc/d98/a25952.html#a22514461b79f736e3ab595fa7fb48b68", null ]
+    [ "boss_pathaleon_the_calculatorAI", "d3/d65/a25956.html", "d3/d65/a25956" ],
+    [ "boss_pathaleon_the_calculator", "dc/d98/a25952.html#a751d88669ac69b987c8b4777214a01bf", null ],
+    [ "GetAI", "dc/d98/a25952.html#ab41b7cd5d5e1964ecae47550d0e4b4ea", null ]
 ];

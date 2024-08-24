@@ -1,6 +1,6 @@
 var a12604 =
 [
-    [ "npc_scarlet_minerAI", "d3/da7/a12608.html", "d3/da7/a12608" ],
-    [ "npc_scarlet_miner", "db/dd8/a12604.html#a8948afd8a41c23ab3afbda9949d9019d", null ],
-    [ "GetAI", "db/dd8/a12604.html#abd2973972788ce9b39572aaa819d0690", null ]
+    [ "HandleLeapBack", "db/dd8/a12604.html#a2f15d7dc9338501db3297d06bd636e5f", null ],
+    [ "PrepareSpellScript", "db/dd8/a12604.html#ae587f81abbf933135acb8f91e14d9924", null ],
+    [ "Register", "db/dd8/a12604.html#af532dc93d56441ca73161eed532bd651", null ]
 ];

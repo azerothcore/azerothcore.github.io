@@ -1,6 +1,7 @@
 var a23896 =
 [
-    [ "npc_deaths_door_fell_cannon_target_bunnyAI", "d6/d77/a23900.html", "d6/d77/a23900" ],
-    [ "npc_deaths_door_fell_cannon_target_bunny", "d6/d90/a23896.html#a1385e50777282fae0c8f8ca2f9f8a3e6", null ],
-    [ "GetAI", "d6/d90/a23896.html#a250707096229da28024960beeb7725bf", null ]
+    [ "npc_wg_demolisher_engineer", "d6/d90/a23896.html#a722ff6bac34730bfb5f36584d7a62ff8", null ],
+    [ "canBuild", "d6/d90/a23896.html#a5dd51b0d0a05ebfb648faab570e27881", null ],
+    [ "OnGossipHello", "d6/d90/a23896.html#ac3b0bbfd66bb94f29a6d733999b8c6ba", null ],
+    [ "OnGossipSelect", "d6/d90/a23896.html#a3ecf69f45918bef0cb51023327ac9693", null ]
 ];

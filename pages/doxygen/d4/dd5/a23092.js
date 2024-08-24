@@ -1,7 +1,9 @@
 var a23092 =
 [
-    [ "HandleEffectApply", "d4/dd5/a23092.html#acc7aeb8a002db3a846cbac29053af441", null ],
-    [ "HandleEffectRemove", "d4/dd5/a23092.html#a11de5d496bc1265ceb01c2bb91da4a57", null ],
-    [ "PrepareAuraScript", "d4/dd5/a23092.html#a7203f8808f6afc5bdaf49a26ae8b0c20", null ],
-    [ "Register", "d4/dd5/a23092.html#a7b62d651a57e2dc9d8e461f7a5c9d500", null ]
+    [ "npc_bloodmage_laurithAI", "d4/dd5/a23092.html#a75dca4f2e90318f334e7e6385d4f7a6f", null ],
+    [ "Reset", "d4/dd5/a23092.html#afe9b10dfcee3b241a48e6f2e40eec657", null ],
+    [ "SetGUID", "d4/dd5/a23092.html#a50a144cf1545117d79268d3a18a4b4ec", null ],
+    [ "UpdateAI", "d4/dd5/a23092.html#a9752f518441071dd4a60cd63423bf9a3", null ],
+    [ "_events", "d4/dd5/a23092.html#a35facab84094071d952792a4c3e5015d", null ],
+    [ "_playerGUID", "d4/dd5/a23092.html#a6aab8db1d55d4fe3251b544c292711e8", null ]
 ];

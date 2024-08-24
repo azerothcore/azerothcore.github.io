@@ -1,5 +1,11 @@
 var a27260 =
 [
-    [ "go_dragonflayer_cage", "d3/d05/a27260.html#a9f36ba678a1e3954f21b96b227fb999e", null ],
-    [ "OnGossipHello", "d3/d05/a27260.html#a542530a0b84879b21a4b9982cf4300d0", null ]
+    [ "GetPennatSpellId", "d3/d05/a27260.html#a1e327a79ce90cf7ebbec644ed15ff67f", null ],
+    [ "HandleApplyEffect", "d3/d05/a27260.html#a396c05708a89758e4038b327e09c65e8", null ],
+    [ "HandleRemoveEffect", "d3/d05/a27260.html#adf6fd3d2a36e1ff115b5c5109d37b7a4", null ],
+    [ "Load", "d3/d05/a27260.html#afc83ecf02a1702d48fb39d60419bdbf1", null ],
+    [ "PrepareAuraScript", "d3/d05/a27260.html#a0230d694e9325d7ac6ac6526ecb5a0e3", null ],
+    [ "Register", "d3/d05/a27260.html#a46782a9dfb8ee2100be00afb6aa8b9a7", null ],
+    [ "Validate", "d3/d05/a27260.html#a095b002671940f2b3504ae2646f76d5a", null ],
+    [ "_pennantSpellId", "d3/d05/a27260.html#a092f0d88ede12dea699b39d5df04131c", null ]
 ];

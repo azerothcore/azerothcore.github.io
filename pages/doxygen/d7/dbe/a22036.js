@@ -1,7 +1,9 @@
 var a22036 =
 [
-    [ "Absorb", "d7/dbe/a22036.html#a784b48553696734abac77545df2fc045", null ],
-    [ "CalculateAmount", "d7/dbe/a22036.html#a456ee99a71062f6217bda7561e4e7766", null ],
-    [ "PrepareAuraScript", "d7/dbe/a22036.html#a456b1b70fd6d9b6642ec959677fe08ff", null ],
-    [ "Register", "d7/dbe/a22036.html#aa3260fa9a1a918e13ccfc9cd57f59d19", null ]
+    [ "npc_xt002_pummellerAI", "d7/dbe/a22036.html#a2942c05c93036c2e02b9a72c784441b1", null ],
+    [ "Reset", "d7/dbe/a22036.html#a6542fb3e585f100f06f6be14a1346306", null ],
+    [ "UpdateAI", "d7/dbe/a22036.html#a959990310303ff2102f1c03852b4ab8e", null ],
+    [ "_arcingSmashTimer", "d7/dbe/a22036.html#a830fda66756dc3f34a530939116e7556", null ],
+    [ "_trampleTimer", "d7/dbe/a22036.html#ae5e450601861f83b20419405bb92ef6d", null ],
+    [ "_uppercutTimer", "d7/dbe/a22036.html#a5a1bdb380438070effc091ec37db6aec", null ]
 ];

@@ -1,5 +1,5 @@
 var a10120 =
 [
-    [ "UpdatableScript", "d4/dc0/a10120.html#a2d6cf85d1eb98438b5022804296eff11", null ],
-    [ "OnUpdate", "d4/dc0/a10120.html#abf328325e08aa0d6adf36e6f70b02328", null ]
+    [ "Icon", "d4/dc0/a10120.html#ae47c09144b18e42aa48499de3e3fe276", null ],
+    [ "Name", "d4/dc0/a10120.html#a19c79529bbfe25701c9f8253f3e0f9d8", null ]
 ];

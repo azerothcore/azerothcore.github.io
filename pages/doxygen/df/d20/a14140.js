@@ -1,5 +1,6 @@
 var a14140 =
 [
-    [ "npc_cw_area_triggerAI", "df/d20/a14140.html#aede21e01dfe762922562b6f5d57bc406", null ],
-    [ "MoveInLineOfSight", "df/d20/a14140.html#a1fb90760dac1ae429429d84ed033aa7a", null ]
+    [ "HandleDummyEffect", "df/d20/a14140.html#a3860ad8a34e37601f7a4cef395f7ab2a", null ],
+    [ "PrepareSpellScript", "df/d20/a14140.html#a1c69fb2fd3fa623d62647fca738d27d6", null ],
+    [ "Register", "df/d20/a14140.html#ad1cbf7ed8f7d119bb56d06fb62358458", null ]
 ];

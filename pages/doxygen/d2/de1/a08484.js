@@ -1,8 +1,6 @@
 var a08484 =
 [
-    [ "AttackPosition", "d2/de1/a08484.html#a6681bcab6c497d2c7fc6e5585f422744", null ],
-    [ "operator=", "d2/de1/a08484.html#a019fe5d4c053c1d6980789b7f97f6e54", null ],
-    [ "operator==", "d2/de1/a08484.html#a320adced006c0f70456492c9e9dc99c2", null ],
-    [ "_pos", "d2/de1/a08484.html#a77783e0e6e83836ad6e5903535ad9370", null ],
-    [ "_taken", "d2/de1/a08484.html#a113512b8ab66c879fd85c43263c3b7f1", null ]
+    [ "Conditions", "d2/de1/a08484.html#a93edc2f0d71164b683c844b713befa85", null ],
+    [ "MenuID", "d2/de1/a08484.html#a732aa82f621c312745ddbd6fe2e3e906", null ],
+    [ "TextID", "d2/de1/a08484.html#a6ec8df5fcc5126bdee656ca08c0a5edc", null ]
 ];

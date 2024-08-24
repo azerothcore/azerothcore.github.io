@@ -1,14 +1,17 @@
 var a25160 =
 [
-    [ "spell_gen_mount", "d5/dc6/a25160.html#aae8c5c328dda0668bf8cdabc2c9cd29f", null ],
-    [ "HandleMount", "d5/dc6/a25160.html#a81085b5efd8d9bd7c82ebb1cf6604793", null ],
-    [ "PrepareSpellScript", "d5/dc6/a25160.html#a49e2046d30352a6e22dab2530e909fa7", null ],
-    [ "Register", "d5/dc6/a25160.html#a8175ecc0c407d5c4646f038d7b62e92b", null ],
-    [ "Validate", "d5/dc6/a25160.html#accef27fc13ff34af52860ad6ac62e7f3", null ],
-    [ "_mount0", "d5/dc6/a25160.html#abd6347074186b7c47ac5a2c760f4db33", null ],
-    [ "_mount100", "d5/dc6/a25160.html#a5e56853140f188ff1babc61c507f8300", null ],
-    [ "_mount150", "d5/dc6/a25160.html#a1237697623e4831c25efcde1ab370031", null ],
-    [ "_mount280", "d5/dc6/a25160.html#aa9d0a936795d06dd78ef3c4d5aaf0320", null ],
-    [ "_mount310", "d5/dc6/a25160.html#ac06b80d14cc106281c3e6bf3f6a5c727", null ],
-    [ "_mount60", "d5/dc6/a25160.html#a53ce7d1b5a39cce2bede77aad647dc7e", null ]
+    [ "instance_serpentshrine_cavern_InstanceMapScript", "d5/dc6/a25160.html#a3e83985648f2951ee33d440c9c98bf72", null ],
+    [ "GetData", "d5/dc6/a25160.html#a9ea722d45efe2ee4eff041e480ff1c79", null ],
+    [ "GetGuidData", "d5/dc6/a25160.html#a88c5d99f3aba2ff52b8a5a587c41afd1", null ],
+    [ "Initialize", "d5/dc6/a25160.html#a8a2214e169acace8578c1863daf0a04c", null ],
+    [ "OnCreatureCreate", "d5/dc6/a25160.html#ae5f77169c337420852962fe7ddba3006", null ],
+    [ "OnGameObjectCreate", "d5/dc6/a25160.html#a9aeb7b25aa1446fff655b4c8fd6c47ad", null ],
+    [ "OnGameObjectRemove", "d5/dc6/a25160.html#a1fed44b9e0d1f1fbf41c63e3b3cf2dcd", null ],
+    [ "SetBossState", "d5/dc6/a25160.html#ad2863bc954ae25a5d96d06db0250cda3", null ],
+    [ "SetData", "d5/dc6/a25160.html#af3ca65eef9902a029f5b836d0b6fd58a", null ],
+    [ "AliveKeepersCount", "d5/dc6/a25160.html#ad87ce23dad57eab52a474c233f70c811", null ],
+    [ "LadyVashjGUID", "d5/dc6/a25160.html#ae6153dd85566bd643ba97244f4b78673", null ],
+    [ "LeotherasTheBlindGUID", "d5/dc6/a25160.html#af9a1b4524eb8afaec159528ca1151294", null ],
+    [ "LurkerBelowGUID", "d5/dc6/a25160.html#a6f244d88bae31a33420bf10c5d8ea367", null ],
+    [ "ShieldGeneratorGUID", "d5/dc6/a25160.html#a3b29c6a5ace5a9e0b83205381ae4701e", null ]
 ];

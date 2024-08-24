@@ -1,5 +1,6 @@
 var a18740 =
 [
-    [ "at_frozen_throne_teleport", "d9/d4f/a18740.html#a8065b9f9b55b267be1757775f84de349", null ],
-    [ "OnTrigger", "d9/d4f/a18740.html#ae1f9476b7f47320f545e702e9317bd03", null ]
+    [ "UnchainedMagicTargetSelector", "d9/d4f/a18740.html#ae412c72884e6cfb1ceef8ed9fb347fbf", null ],
+    [ "operator()", "d9/d4f/a18740.html#af28ce8f46154ae6152e9025775a7f84f", null ],
+    [ "_removeHealers", "d9/d4f/a18740.html#a35a7981ce5495cba8b3a5391e4031431", null ]
 ];

@@ -1,7 +1,6 @@
 var a24628 =
 [
-    [ "AfterApply", "d8/dc3/a24628.html#adae232af9445638b3d54e81d414483b7", null ],
-    [ "AfterRemove", "d8/dc3/a24628.html#abf458f1f1dd5abfbba88325cad044ab1", null ],
-    [ "PrepareAuraScript", "d8/dc3/a24628.html#a305c532aa0e8740e8c8a87a6ba0abcff", null ],
-    [ "Register", "d8/dc3/a24628.html#abff75ea597dcc017a359a5ef3ada4314", null ]
+    [ "npc_creature_generator_akamaAI", "d1/daa/a24632.html", "d1/daa/a24632" ],
+    [ "npc_creature_generator_akama", "d8/dc3/a24628.html#a9577e5696271185fcd687745cb6881d9", null ],
+    [ "GetAI", "d8/dc3/a24628.html#ab61167d0ac7de605aeba1c907cfbd888", null ]
 ];

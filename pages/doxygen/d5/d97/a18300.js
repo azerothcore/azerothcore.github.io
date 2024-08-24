@@ -1,9 +1,10 @@
 var a18300 =
 [
-    [ "DelayedCastEvent", "d5/d97/a18300.html#ae6d57612065d56ce79197aedebedf9f9", null ],
-    [ "Execute", "d5/d97/a18300.html#ae2925429b3049e44d2afd2e8b990af71", null ],
-    [ "_despawnTime", "d5/d97/a18300.html#acc9e22eb1908e4c458199fc4cccd56c6", null ],
-    [ "_originalCaster", "d5/d97/a18300.html#adb07c24a947d59d2ef1f61b8ab18d328", null ],
-    [ "_spellId", "d5/d97/a18300.html#abe28a6749101233302634ed226a289e8", null ],
-    [ "_trigger", "d5/d97/a18300.html#a85471a151a3165cc906f3a41103c3f5d", null ]
+    [ "npc_cult_fanaticAI", "d5/d97/a18300.html#a766e536288b84110f88a8bd282e97932", null ],
+    [ "JustEngagedWith", "d5/d97/a18300.html#a709b75f4b1519bc7c6988985a22d076f", null ],
+    [ "Reset", "d5/d97/a18300.html#a772830df1d16d0463c8c00f14c337db0", null ],
+    [ "SpellHit", "d5/d97/a18300.html#a17c02a83b522c9717de3d89517104e42", null ],
+    [ "UpdateAI", "d5/d97/a18300.html#ac79afdab3721d78d2b7e5da360083cea", null ],
+    [ "_instance", "d5/d97/a18300.html#a7448fdf85cccfcb12509b0274205bff4", null ],
+    [ "events", "d5/d97/a18300.html#a9576978141062fa1babbbc5ed42483c4", null ]
 ];

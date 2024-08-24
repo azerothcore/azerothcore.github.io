@@ -1,6 +1,7 @@
 var a24072 =
 [
-    [ "CheckCast", "d7/d27/a24072.html#ae13cc2d3da1c9911c88402d05679d447", null ],
-    [ "PrepareSpellScript", "d7/d27/a24072.html#afbed81273aa23d355c64579c71e9761d", null ],
-    [ "Register", "d7/d27/a24072.html#a7157d04dfc534aa3cb88e8dff169c676", null ]
+    [ "npc_storm_cloudAI", "d7/d27/a24072.html#aa4dd9409cd74f3c2c878974715e43394", null ],
+    [ "JustRespawned", "d7/d27/a24072.html#ad0f99362f7ab506b322b6d75890881c1", null ],
+    [ "Reset", "d7/d27/a24072.html#a99654ac86502e3ac2f899082269ccb01", null ],
+    [ "SpellHit", "d7/d27/a24072.html#ac51313cec4d76216f3c716d988fc4857", null ]
 ];

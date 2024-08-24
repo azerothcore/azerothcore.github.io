@@ -1,7 +1,6 @@
 var a17452 =
 [
-    [ "npc_gunship_boarding_leaderAI", "d2/d4c/a17452.html#ac20099905fd6fddda2561b88cf077b77", null ],
-    [ "JustEngagedWith", "d2/d4c/a17452.html#a448ee30c01317a7e3c842a0043b15c2a", null ],
-    [ "UpdateAI", "d2/d4c/a17452.html#ab7a105fbc49a365d609c7787b61fd75f", null ],
-    [ "_events", "d2/d4c/a17452.html#affb899bbaa288e72a48d5518367b023d", null ]
+    [ "spell_pos_slave_trigger_closestSpellScript", "da/d12/a17456.html", "da/d12/a17456" ],
+    [ "spell_pos_slave_trigger_closest", "d2/d4c/a17452.html#a3982ff2508b7f82e19bfa4534dd558e4", null ],
+    [ "GetSpellScript", "d2/d4c/a17452.html#a6535e26e2b006213cd9d6c2a54d3b961", null ]
 ];

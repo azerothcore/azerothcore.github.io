@@ -1,6 +1,8 @@
 var a21936 =
 [
-    [ "HandleOnEffectRemove", "d9/d57/a21936.html#a5aeae7d8fc2fb8c8a1ce446ba1887c51", null ],
-    [ "PrepareAuraScript", "d9/d57/a21936.html#af415e4d7ea0b4b881af94eb7ea0c3f4c", null ],
-    [ "Register", "d9/d57/a21936.html#a242faa8822f9cdb7762d8ec3b6245b30", null ]
+    [ "boss_thorim_pillarAI", "d9/d57/a21936.html#ae00c9e72f14e3f2c94da118a1fe27130", null ],
+    [ "Reset", "d9/d57/a21936.html#ae9043ed9b72cc0eda6fb7c859355da57", null ],
+    [ "SpellHit", "d9/d57/a21936.html#a1cb3ef9fdfc9e375d15e14b9230dd51e", null ],
+    [ "UpdateAI", "d9/d57/a21936.html#afd8e05444eeea620a7ef21e97c345d41", null ],
+    [ "_resetTimer", "d9/d57/a21936.html#a6ef7c9e23280564aec1b82eb670bc4f9", null ]
 ];

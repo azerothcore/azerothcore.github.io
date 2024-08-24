@@ -1,9 +1,11 @@
 var a05528 =
 [
-    [ "AccountFlags", "df/d63/a05528.html#aa8e111f748d165f854b2deff5a81577f", null ],
-    [ "cmd", "df/d63/a05528.html#a5846630b9df94b9f4784e59e7f320257", null ],
-    [ "error", "df/d63/a05528.html#a5cbbda99be5cd0549dd43fc0e546007e", null ],
-    [ "LoginFlags", "df/d63/a05528.html#adb807963195c0abbb840aca64499f630", null ],
-    [ "M2", "df/d63/a05528.html#a2199b33bc93fb6a8add5ba36eab0514e", null ],
-    [ "SurveyId", "df/d63/a05528.html#ad05c428ccd8fbdce40dc4f337de19fb8", null ]
+    [ "SQLQueryHolderCallback", "df/d63/a05528.html#afc2cb6a483d17ae115e947bc88fe592b", null ],
+    [ "SQLQueryHolderCallback", "df/d63/a05528.html#a7fddb08e9e10cdb8a437de3ee53494db", null ],
+    [ "AfterComplete", "df/d63/a05528.html#a40f0a73f4b92bc0f7ad8659f748c7c17", null ],
+    [ "InvokeIfReady", "df/d63/a05528.html#a7e540699d496834c0a36782fb7da03f1", null ],
+    [ "operator=", "df/d63/a05528.html#a031861856be6b3e5f18718f3c6129f9c", null ],
+    [ "m_callback", "df/d63/a05528.html#aa055fe02b0158a9098e6eccdc32e9ff4", null ],
+    [ "m_future", "df/d63/a05528.html#a7dc3e5e72d47135660a29a0418e17c44", null ],
+    [ "m_holder", "df/d63/a05528.html#a09b018fb4d8e0e67249b1117c657ecc2", null ]
 ];

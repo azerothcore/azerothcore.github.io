@@ -1,6 +1,7 @@
 var a23424 =
 [
-    [ "HandleScriptEffect", "d4/d84/a23424.html#abba5817280db6579e3e6e0b964655c6e", null ],
-    [ "PrepareSpellScript", "d4/d84/a23424.html#a846fa43c9907ddb6243c006327757a1c", null ],
-    [ "Register", "d4/d84/a23424.html#a7daa26f4035912bff4811b0bfee35fee", null ]
+    [ "npc_tallhorn_stagAI", "d4/d84/a23424.html#a50947c450eece979193b45728e5e1f82", null ],
+    [ "Reset", "d4/d84/a23424.html#a67dce7ad60ddea63fcba5e1e2079fa7c", null ],
+    [ "UpdateAI", "d4/d84/a23424.html#adf60f62fa92238cb315c42e0179c3f17", null ],
+    [ "_phase", "d4/d84/a23424.html#ace2ac6f418876393d2f6d3457b1bc4c0", null ]
 ];

@@ -1,7 +1,6 @@
 var a11644 =
 [
-    [ "boss_okthorAI", "d1/d79/a11644.html#a8007cfade5c04d8b4e0b787ac5a5beff", null ],
-    [ "JustEngagedWith", "d1/d79/a11644.html#a466a618e52f40e04e873dd50f3728755", null ],
-    [ "UpdateAI", "d1/d79/a11644.html#a246c3bd9aa96eb11d2fa48be8654d726", null ],
-    [ "nextArcaneExplosionTime", "d1/d79/a11644.html#a89d8cdd528775ee77caeac1d0465d4f2", null ]
+    [ "boss_flamegorAI", "d1/d79/a11644.html#a4b3d46c3faa566095b0cedad3df9f057", null ],
+    [ "JustEngagedWith", "d1/d79/a11644.html#a6005dca71e2f20ee599e053e531377d6", null ],
+    [ "UpdateAI", "d1/d79/a11644.html#a2e5146815e533cf62e0084a54aa222d5", null ]
 ];

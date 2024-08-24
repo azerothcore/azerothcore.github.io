@@ -1,7 +1,7 @@
 var a10880 =
 [
-    [ "ap_bonus", "d7/db8/a10880.html#a98410b8bb89434cd7e1747462f8039dc", null ],
-    [ "ap_dot_bonus", "d7/db8/a10880.html#a09caeec47b138d9eff3539795416a09a", null ],
-    [ "direct_damage", "d7/db8/a10880.html#abab1af227a6c8e592b8a9bd15589535d", null ],
-    [ "dot_damage", "d7/db8/a10880.html#a92491d8d1e61612d88c7c830d7912be5", null ]
+    [ "CompressedData", "d7/db8/a10880.html#a22e1d740e6c3094fea83eb1a44e40944", null ],
+    [ "CompressedSize", "d7/db8/a10880.html#ab57879b41c825623a989db13a53f2f4e", null ],
+    [ "Id", "d7/db8/a10880.html#af1e6a5cc01ee05432be5c41c88d84794", null ],
+    [ "Key", "d7/db8/a10880.html#ad100540b5c6722a19c938b134a985aed", null ]
 ];

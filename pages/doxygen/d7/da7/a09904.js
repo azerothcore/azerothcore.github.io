@@ -1,10 +1,5 @@
 var a09904 =
 [
-    [ "AchievementScript", "d7/da7/a09904.html#a85f0d7a676e7e31bc87ca64040b29489", null ],
-    [ "CanCheckCriteria", "d7/da7/a09904.html#aca4cb16b55f7990c676267b8f10b4e57", null ],
-    [ "IsCompletedCriteria", "d7/da7/a09904.html#a33d7ba1a6bf82da8e2de367553c0fb52", null ],
-    [ "IsDatabaseBound", "d7/da7/a09904.html#a9ea2ed91c281e881404c31a948de0fc9", null ],
-    [ "IsRealmCompleted", "d7/da7/a09904.html#abc54c295c1bcad45e21aed99e43a3713", null ],
-    [ "OnBeforeCheckCriteria", "d7/da7/a09904.html#afac6fc03c2ba91165fbdf2ccc5422063", null ],
-    [ "SetRealmCompleted", "d7/da7/a09904.html#acf6a63ba96da7b33a92d48a95a549d4e", null ]
+    [ "LogoutComplete", "d7/da7/a09904.html#a94f3ea0cd30d1eb44733c1c5aef05ec7", null ],
+    [ "Write", "d7/da7/a09904.html#a0d958bc07b674ed3339833351fec7d3a", null ]
 ];

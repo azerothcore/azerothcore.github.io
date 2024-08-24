@@ -1,6 +1,6 @@
 var a25536 =
 [
-    [ "HandleProc", "d2/d7a/a25536.html#a04796308cb57993dea310e0aca051c46", null ],
-    [ "PrepareAuraScript", "d2/d7a/a25536.html#a1a0291eb2ca9073b0bac8dc8c7d22550", null ],
-    [ "Register", "d2/d7a/a25536.html#a191d0bcc015b92a6f2481b3b5c196cab", null ]
+    [ "spell_tsh_shadow_bolt_SpellScript", "d7/d67/a25540.html", "d7/d67/a25540" ],
+    [ "spell_tsh_shadow_bolt", "d2/d7a/a25536.html#ac4b6e92c4f6509ccbe383345a5c1a387", null ],
+    [ "GetSpellScript", "d2/d7a/a25536.html#aec6178870f0370294c749cb513643363", null ]
 ];

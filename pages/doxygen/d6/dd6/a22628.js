@@ -1,11 +1,8 @@
 var a22628 =
 [
-    [ "boss_blackheart_the_inciter", "d6/dd6/a22628.html#a772b2b4574fa6ccd445924193985859b", null ],
-    [ "EnterEvadeMode", "d6/dd6/a22628.html#aaf2c9d37b0af1db1d35af01923eca45b", null ],
-    [ "JustDied", "d6/dd6/a22628.html#a1e7ca1ade637766d4c6039c50e9c85f7", null ],
-    [ "JustEngagedWith", "d6/dd6/a22628.html#abeb0cc4ff2543531f7a7c7993559f1cb", null ],
-    [ "KilledUnit", "d6/dd6/a22628.html#ad7de71ea14e5be6e2b126edde1c78ab6", null ],
-    [ "Reset", "d6/dd6/a22628.html#add75633d1c04d0be91e7e80f28213917", null ],
-    [ "UpdateAI", "d6/dd6/a22628.html#a0648c4bbabf30efd706b973bf8028dbb", null ],
-    [ "InciteChaos", "d6/dd6/a22628.html#a640c5301b22a0bfef2c4bcac4556a992", null ]
+    [ "spell_svala_ritual_strike_AuraScript", "d6/d37/a22636.html", "d6/d37/a22636" ],
+    [ "spell_svala_ritual_strike_SpellScript", "da/d0b/a22632.html", "da/d0b/a22632" ],
+    [ "spell_svala_ritual_strike", "d6/dd6/a22628.html#a32c376e05e3442e1198d61c584fb8e71", null ],
+    [ "GetAuraScript", "d6/dd6/a22628.html#a2c35652ad9e1252aba585b8b534890c6", null ],
+    [ "GetSpellScript", "d6/dd6/a22628.html#a494a0e1117a72cacc14dff0be45ae7ce", null ]
 ];

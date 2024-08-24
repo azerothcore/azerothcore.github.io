@@ -1,7 +1,6 @@
 var a18188 =
 [
-    [ "PrepareSpellScript", "d3/d88/a18188.html#a3283e829757b50bb52f66ee1e64033ae", null ],
-    [ "Register", "d3/d88/a18188.html#a0162c92c32210f2873686610f4f00b87", null ],
-    [ "TriggerHeal", "d3/d88/a18188.html#a3cdfca33a535bad0942beea24aefa1bb", null ],
-    [ "Validate", "d3/d88/a18188.html#a6545fe9f40c0aed036192008a2d6e28e", null ]
+    [ "spell_igb_periodic_trigger_with_power_cost_AuraScript", "d4/d90/a18192.html", "d4/d90/a18192" ],
+    [ "spell_igb_periodic_trigger_with_power_cost", "d3/d88/a18188.html#a98148d3002ff8c3615b77bbdde33618a", null ],
+    [ "GetAuraScript", "d3/d88/a18188.html#a3d6b6f45db80521f2a59fa6044e419e0", null ]
 ];

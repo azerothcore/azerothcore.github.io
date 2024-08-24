@@ -1,10 +1,18 @@
 var a09304 =
 [
-    [ "const_iterator", "d4/dd9/a09304.html#ac52d3ebfa7eaeb9d6fd08f0089b13918", null ],
-    [ "StorageType", "d4/dd9/a09304.html#a6825a379d1af4254b920c14ab0068e7b", null ],
-    [ "BossBoundaryData", "d4/dd9/a09304.html#a3f80cd89e43eae1a74e2b0a6a674d0cb", null ],
-    [ "~BossBoundaryData", "d4/dd9/a09304.html#a446a3ec16cdce76058761fce972f1e57", null ],
-    [ "begin", "d4/dd9/a09304.html#a326930360d22d5fdf9a895991f2c4e49", null ],
-    [ "end", "d4/dd9/a09304.html#ab3dc9905d861b62c4551f45ee8b08ba5", null ],
-    [ "_data", "d4/dd9/a09304.html#af60e90664c434a8d36115ca5dec889b5", null ]
+    [ "GetDiff", "d4/dd9/a09304.html#a828299da7c0b734e5f0e7d2dc96bd957", null ],
+    [ "GetList", "d4/dd9/a09304.html#ac795cff0a8ff6aac53ef6c5aef1a6d32", null ],
+    [ "GetLock", "d4/dd9/a09304.html#a33c36ffc25967152b418ef1c749a92e0", null ],
+    [ "GetTempList", "d4/dd9/a09304.html#ac39c84b0e6d8d048363898de9b000ce3", null ],
+    [ "GetTempLock", "d4/dd9/a09304.html#a1de4c44c1cf2af6e517197a9b6fd9e0d", null ],
+    [ "IsAuctionListingAllowed", "d4/dd9/a09304.html#ac4862ca300f1c40e87df69141e2aa0da", null ],
+    [ "ResetDiff", "d4/dd9/a09304.html#a3fd3b60d639b28b5e89a8e6a48598b6b", null ],
+    [ "SetAuctionListingAllowed", "d4/dd9/a09304.html#a4648452924afb8f8df858f9f042e8496", null ],
+    [ "Update", "d4/dd9/a09304.html#acfc868d3ad103174dd7413f3f68a046b", null ],
+    [ "auctionListingAllowed", "d4/dd9/a09304.html#a776b5e69d957e4c6c51a0d53a0affb45", null ],
+    [ "auctionListingDiff", "d4/dd9/a09304.html#a7a74df7377c673cb33ad2771fa3a0a63", null ],
+    [ "auctionListingList", "d4/dd9/a09304.html#ad9665932deb7777789f862755eb32b1e", null ],
+    [ "auctionListingListTemp", "d4/dd9/a09304.html#a807c7bd712bfc72a647c6cd9356c7007", null ],
+    [ "auctionListingLock", "d4/dd9/a09304.html#a151cc27a2c9047e43300d2a06ca4909b", null ],
+    [ "auctionListingTempLock", "d4/dd9/a09304.html#a6f12f53958ae9176cb5a01f56d846cc7", null ]
 ];

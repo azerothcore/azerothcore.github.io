@@ -1,9 +1,8 @@
 var a08900 =
 [
-    [ "UnitListSearcher", "d7/de1/a08900.html#a24c0de32dc3baa927962626421a343ae", null ],
-    [ "Visit", "d7/de1/a08900.html#a83d86364ef2f9f9ed55b9bf9aa9bea0d", null ],
-    [ "Visit", "d7/de1/a08900.html#a92f9b0407e609b6c61f10d93aa49912f", null ],
-    [ "Visit", "d7/de1/a08900.html#a5fddd281a9f9cd10cf3948d4bf7b626f", null ],
-    [ "i_check", "d7/de1/a08900.html#a508a47e6261e7ae6e5669aee853ff99e", null ],
-    [ "i_phaseMask", "d7/de1/a08900.html#a43c863350bea423cf4a720c4c680fd4c", null ]
+    [ "flags", "d7/de1/a08900.html#a7ecce103d428ed7f91aa12fa5547561c", null ],
+    [ "group", "d7/de1/a08900.html#a0902606d44c8baa1a20b5b2cdd9b4787", null ],
+    [ "guid", "d7/de1/a08900.html#a97a20b4ccf1978165a5f5c7ff4ffb2b4", null ],
+    [ "name", "d7/de1/a08900.html#ab0719bb9805048b58a3e4c75e09d1ee7", null ],
+    [ "roles", "d7/de1/a08900.html#a2109aae0b3ebf74b065b97cc929c2954", null ]
 ];

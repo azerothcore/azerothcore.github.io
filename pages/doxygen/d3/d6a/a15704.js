@@ -1,14 +1,7 @@
 var a15704 =
 [
-    [ "boss_anub_arakAI", "d3/d6a/a15704.html#a9b9dc11d78456efd9c6ad69e0c12e022", null ],
-    [ "EnterEvadeMode", "d3/d6a/a15704.html#a016f17a11be149cbb6cc1343f2916a4f", null ],
-    [ "JustDied", "d3/d6a/a15704.html#abc93931e7698ffd717199a598e16c917", null ],
-    [ "JustEngagedWith", "d3/d6a/a15704.html#a589c252516b738a8f38f9d89da11912c", null ],
-    [ "JustSummoned", "d3/d6a/a15704.html#a8624e9dc8af370579bd7ef72063acbf8", null ],
-    [ "KilledUnit", "d3/d6a/a15704.html#a33e26ae3907e84ecc02514e4133e3002", null ],
-    [ "MoveInLineOfSight", "d3/d6a/a15704.html#ab89570d2d0ddb494fa20f24d95cac41b", null ],
-    [ "Reset", "d3/d6a/a15704.html#a254a51a901c0e82da6cb87ade5eba6fa", null ],
-    [ "SummonHelpers", "d3/d6a/a15704.html#a709ef4602ace41c9b9ccebe8795badec", null ],
-    [ "UpdateAI", "d3/d6a/a15704.html#acf3ddec273ded62c768631be2b3299fa", null ],
-    [ "intro", "d3/d6a/a15704.html#a4916d6a1ed06330e94698a13c404ee52", null ]
+    [ "npc_giltharesAI", "d3/d6a/a15704.html#af22e42b2180987febd964784b6d49b5e", null ],
+    [ "JustEngagedWith", "d3/d6a/a15704.html#ae9ba65652db3d2d32920d1a98594727a", null ],
+    [ "Reset", "d3/d6a/a15704.html#a34d57ef71b60fe71c749f790cecf70b2", null ],
+    [ "WaypointReached", "d3/d6a/a15704.html#a9308c73760e50e0f3d04031b508526d1", null ]
 ];

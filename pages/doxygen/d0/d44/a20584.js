@@ -1,6 +1,6 @@
 var a20584 =
 [
-    [ "OnPeriodic", "d0/d44/a20584.html#a5247db3b621d1d499b9e22e16c7a951a", null ],
-    [ "PrepareAuraScript", "d0/d44/a20584.html#a6aa46e818199da206e6543005a7fe87f", null ],
-    [ "Register", "d0/d44/a20584.html#ab64dfdda3c09e65cfaeb90d20a5212ed", null ]
+    [ "HandleOnEffectApply", "d0/d44/a20584.html#a8f8957c26537b464a85488373385127c", null ],
+    [ "PrepareAuraScript", "d0/d44/a20584.html#aaf34f724b95a1602562253c9b2724eda", null ],
+    [ "Register", "d0/d44/a20584.html#a84107fcf8f8cac4d131ba2dda266d0f4", null ]
 ];

@@ -1,6 +1,6 @@
 var a24016 =
 [
-    [ "npc_creditmarker_visit_with_ancestorsAI", "d1/de0/a24020.html", "d1/de0/a24020" ],
-    [ "npc_creditmarker_visit_with_ancestors", "d1/df4/a24016.html#a60f7abac7198d8504d944828dceb1ffa", null ],
-    [ "GetAI", "d1/df4/a24016.html#a06eb335a757c9f48fbfa64bfc326bb8e", null ]
+    [ "npc_feedin_da_goolzAI", "d1/de0/a24020.html", "d1/de0/a24020" ],
+    [ "npc_feedin_da_goolz", "d1/df4/a24016.html#ace9fd4ca5809c0d47b49fc63ca8363be", null ],
+    [ "GetAI", "d1/df4/a24016.html#a61ab3189e2525a995a87eec06d45e355", null ]
 ];

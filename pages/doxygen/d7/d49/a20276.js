@@ -1,6 +1,6 @@
 var a20276 =
 [
-    [ "FilterTargets", "d7/d49/a20276.html#ae8d940a89be9b63286911bd55dcd3844", null ],
-    [ "PrepareSpellScript", "d7/d49/a20276.html#a8f4b4d82e53c8f820b620896478681a9", null ],
-    [ "Register", "d7/d49/a20276.html#a744d5cb8de927410ab1bf72008fff8b3", null ]
+    [ "npc_hover_diskAI", "dc/da0/a20280.html", "dc/da0/a20280" ],
+    [ "npc_hover_disk", "d7/d49/a20276.html#af0ab534387a2af4e168915801ee855e5", null ],
+    [ "GetAI", "d7/d49/a20276.html#adbe9285126089ca998e9b6360f42c553", null ]
 ];

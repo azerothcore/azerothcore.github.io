@@ -1,6 +1,9 @@
 var a08272 =
 [
-    [ "PlayerCreateInfoItem", "d4/da0/a08272.html#aba5495af3d4c463f7f65fa1851879d3b", null ],
-    [ "item_amount", "d4/da0/a08272.html#a2cc481d54ec0c8a58477803364f40b2a", null ],
-    [ "item_id", "d4/da0/a08272.html#a54e5593fe1a1e06b16963c96f1840a2a", null ]
+    [ "GameEventAIHookWorker", "d4/da0/a08272.html#ad72640a18d2d32a9201c965089ee49cf", null ],
+    [ "Visit", "d4/da0/a08272.html#a23d979ee43838e7d58e9123e36474a5a", null ],
+    [ "Visit", "d4/da0/a08272.html#a79106ec550d072d690bbf3496d76cb0a", null ],
+    [ "Visit", "d4/da0/a08272.html#a165476edd8b252bbb90b8b78fae963a6", null ],
+    [ "_activate", "d4/da0/a08272.html#a756665eafa08f3c8c51ccef69bdd619f", null ],
+    [ "_eventId", "d4/da0/a08272.html#ab1ee68bb7134e84780772eba2cfac766", null ]
 ];

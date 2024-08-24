@@ -1,6 +1,6 @@
 var a13196 =
 [
-    [ "instance_sunwell_plateau_InstanceMapScript", "d3/dcc/a13200.html", "d3/dcc/a13200" ],
-    [ "instance_sunwell_plateau", "da/d7b/a13196.html#a31d2245a9237c8dc4480b9d26ff3557c", null ],
-    [ "GetInstanceScript", "da/d7b/a13196.html#a5960785a845c87e2e1730cfd865b44b4", null ]
+    [ "spell_muru_summon_blood_elves_periodic_AuraScript", "d3/dcc/a13200.html", "d3/dcc/a13200" ],
+    [ "spell_muru_summon_blood_elves_periodic", "da/d7b/a13196.html#a4180a67a9277ad66a2f64f6614dc8071", null ],
+    [ "GetAuraScript", "da/d7b/a13196.html#ae3d57a4c47dda4b504b93f42cf3c8396", null ]
 ];

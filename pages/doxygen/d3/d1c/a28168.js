@@ -1,5 +1,7 @@
 var a28168 =
 [
-    [ "id", "d3/d1c/a28168.html#a4667f55651f20c85f5b3da9384bac078", null ],
-    [ "QuestRewFactionValue", "d3/d1c/a28168.html#a9a42feddeef8e054cd52b72cfc812867", null ]
+    [ "HandleScriptEffect", "d3/d1c/a28168.html#ad3497a9c986f65978d4b2553b0c9958f", null ],
+    [ "Load", "d3/d1c/a28168.html#a33d46e5ebd418ea0242d958345cb44d2", null ],
+    [ "PrepareSpellScript", "d3/d1c/a28168.html#ade09cd376d00df8b5e709026e353f409", null ],
+    [ "Register", "d3/d1c/a28168.html#ad04bf0d88a3e1fde3c11b91d5ef1c7ae", null ]
 ];

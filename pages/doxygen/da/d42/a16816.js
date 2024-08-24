@@ -1,6 +1,6 @@
 var a16816 =
 [
-    [ "npc_hor_lumbering_abominationAI", "d1/dfc/a16820.html", "d1/dfc/a16820" ],
-    [ "npc_hor_lumbering_abomination", "da/d42/a16816.html#a0d394d1ba52a05a6db0ae983daea7123", null ],
-    [ "GetAI", "da/d42/a16816.html#a0601ac0af85e545617013846c48de29a", null ]
+    [ "boss_eydisAI", "d1/dfc/a16820.html", "d1/dfc/a16820" ],
+    [ "boss_eydis", "da/d42/a16816.html#aa555f80882499bc4627e622fbb48b2a4", null ],
+    [ "GetAI", "da/d42/a16816.html#ad49a673431c479fa2f5d9b6da42bbf55", null ]
 ];

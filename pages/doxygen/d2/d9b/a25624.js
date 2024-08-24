@@ -1,7 +1,6 @@
 var a25624 =
 [
-    [ "HandleProc", "d2/d9b/a25624.html#aee71de2c7f718a443dd48ed649c72a2f", null ],
-    [ "PrepareAuraScript", "d2/d9b/a25624.html#a7ba07407ce43ea4bfb03bc232ed409e3", null ],
-    [ "Register", "d2/d9b/a25624.html#ad907078d049340da77dcfd25a312e32b", null ],
-    [ "Validate", "d2/d9b/a25624.html#ad9987f6b17c9522be954a1b75aed1fc5", null ]
+    [ "boss_wrath_scryer_soccothratesAI", "d5/d8a/a25628.html", "d5/d8a/a25628" ],
+    [ "boss_wrath_scryer_soccothrates", "d2/d9b/a25624.html#a6b548bf12eeeb5c8f0f7584549dabf8f", null ],
+    [ "GetAI", "d2/d9b/a25624.html#aa399f214d7f3410840408837cbaa4642", null ]
 ];

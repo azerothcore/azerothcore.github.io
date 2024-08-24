@@ -1,10 +1,6 @@
 var a15364 =
 [
-    [ "CreatureId", "d1/d17/a15364.html#a09f696e37f96e7da259fc026a7c4fd83", null ],
-    [ "DespTimer", "d1/d17/a15364.html#a0dfec745982b346ac1cd0af672be31fb", null ],
-    [ "SpawnCount", "d1/d17/a15364.html#ad5347ee83eaa00fe0721279099c48433", null ],
-    [ "SpawnTimer", "d1/d17/a15364.html#ab1720ffe0aeeb5669ab49fc32cb24750", null ],
-    [ "UsedSpawnPoint", "d1/d17/a15364.html#a7db57df5da62ebb3b52ecd70ec3d45f2", null ],
-    [ "WaveTextId", "d1/d17/a15364.html#a0a9807e31c2d5c769bc0a020941b234c", null ],
-    [ "YellTimer", "d1/d17/a15364.html#ac3f9997775f34babc79d4321fd1a6d6d", null ]
+    [ "npc_death_ravagerAI", "d3/d9a/a15368.html", "d3/d9a/a15368" ],
+    [ "npc_death_ravager", "d1/d17/a15364.html#a6aa04a28ce5aa0e467e638c8ffe11657", null ],
+    [ "GetAI", "d1/d17/a15364.html#a284d0b8ccf902d3f03ddfc6750fe0f1c", null ]
 ];

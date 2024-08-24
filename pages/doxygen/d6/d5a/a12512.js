@@ -1,5 +1,6 @@
 var a12512 =
 [
-    [ "npc_kalecgos", "d6/d5a/a12512.html#a858927e3bdf729e95cf37b44c5530e52", null ],
-    [ "MovementInform", "d6/d5a/a12512.html#a34063a9faffd90364101a8cd39f8011b", null ]
+    [ "npc_scarlet_miner_cartAI", "df/d4f/a12516.html", "df/d4f/a12516" ],
+    [ "npc_scarlet_miner_cart", "d6/d5a/a12512.html#a987247939c6fd576d4b8d541175ecb6b", null ],
+    [ "GetAI", "d6/d5a/a12512.html#a0f1436f0f6784af5ab62bf91df355731", null ]
 ];

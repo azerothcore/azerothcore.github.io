@@ -1,8 +1,6 @@
 var a25388 =
 [
-    [ "CheckProc", "da/dc8/a25388.html#ae0b0a45ddc782a523394e30414e0b2ba", null ],
-    [ "HandleProc", "da/dc8/a25388.html#a9cb849a8ea8afb45cc1df4d260542937", null ],
-    [ "PrepareAuraScript", "da/dc8/a25388.html#af65fc845e6625b1f0a4f4b88ba6db46e", null ],
-    [ "Register", "da/dc8/a25388.html#acc5c7607ea7a23b66d1db6cb1a38833e", null ],
-    [ "Validate", "da/dc8/a25388.html#a03621fd67cd9179ccc37a53c4d2056d9", null ]
+    [ "boss_kelidan_the_breakerAI", "db/de9/a25392.html", "db/de9/a25392" ],
+    [ "boss_kelidan_the_breaker", "da/dc8/a25388.html#a3ea623268f5c93668a890c04c2d905d3", null ],
+    [ "GetAI", "da/dc8/a25388.html#a30709d52a8c232700c3d2e1184efe5c7", null ]
 ];

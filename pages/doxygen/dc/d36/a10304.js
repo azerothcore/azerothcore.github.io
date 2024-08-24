@@ -1,6 +1,5 @@
 var a10304 =
 [
-    [ "GuildEventLogQueryResults", "dc/d36/a10304.html#af12c732cd5c81792c6f0cb5cacc096f9", null ],
-    [ "Write", "dc/d36/a10304.html#aa24738cdd040a883782b50189abdf240", null ],
-    [ "Entry", "dc/d36/a10304.html#a227ab5555fccf5c8c78ca10fa229d3d4", null ]
+    [ "RequestPetInfo", "dc/d36/a10304.html#ae0861d1fb77fe39bb48c26505e36ed2b", null ],
+    [ "Read", "dc/d36/a10304.html#a5cc9bb57bce7dc7f24243fdc63e17870", null ]
 ];

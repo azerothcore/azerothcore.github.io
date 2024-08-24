@@ -1,6 +1,7 @@
 var a18452 =
 [
-    [ "npc_rotting_frost_giantAI", "d4/d59/a18456.html", "d4/d59/a18456" ],
-    [ "npc_rotting_frost_giant", "df/d00/a18452.html#ad4440216e11a00d97af43dc5f3957e95", null ],
-    [ "GetAI", "df/d00/a18452.html#aabc388b3690f2d03e903c7f480d52842", null ]
+    [ "HandleScript", "df/d00/a18452.html#a49e76206519a749bd82463cb5a829621", null ],
+    [ "PrepareSpellScript", "df/d00/a18452.html#a8e53d6d7ccbc4d2ca05c4b97ee3e96aa", null ],
+    [ "Register", "df/d00/a18452.html#a17bc0ca5ca2c9016a652699d515761d3", null ],
+    [ "ScaleRange", "df/d00/a18452.html#a0a277779f0a84453b779d1d349a3ac48", null ]
 ];

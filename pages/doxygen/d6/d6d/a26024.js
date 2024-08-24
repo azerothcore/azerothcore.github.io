@@ -1,6 +1,6 @@
 var a26024 =
 [
-    [ "HandleEffectCalcSpellMod", "d6/d6d/a26024.html#a81395c735b9546632af71319067b575b", null ],
-    [ "PrepareAuraScript", "d6/d6d/a26024.html#ad5a716f0644b1707aa6d179d564ceb80", null ],
-    [ "Register", "d6/d6d/a26024.html#ae49a0ec525819981595c12839133a35b", null ]
+    [ "npc_oscillating_frequency_scanner_master_bunnyAI", "d5/d3c/a26028.html", "d5/d3c/a26028" ],
+    [ "npc_oscillating_frequency_scanner_master_bunny", "d6/d6d/a26024.html#a8ae11cadbd5e883bf12f8f5201700b4e", null ],
+    [ "GetAI", "d6/d6d/a26024.html#a60d55e2eda4484ceea4e475ac8653977", null ]
 ];

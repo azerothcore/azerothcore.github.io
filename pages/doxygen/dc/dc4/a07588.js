@@ -1,10 +1,12 @@
 var a07588 =
 [
-    [ "RedirectThreatInfo", "dc/dc4/a07588.html#a23b5adf3087ddba3b92133199aa42cf8", null ],
-    [ "GetTargetGUID", "dc/dc4/a07588.html#ae206110e4d7155bb87079ebd58800e3d", null ],
-    [ "GetThreatPct", "dc/dc4/a07588.html#a58bd2c745f92625ff7eac0ddca6a23a0", null ],
-    [ "ModifyThreatPct", "dc/dc4/a07588.html#ac7093218d9b8c6ea03683dd5624bde8f", null ],
-    [ "Set", "dc/dc4/a07588.html#a140b7a0adb6e6b71b21e8d6db7125ae2", null ],
-    [ "_targetGUID", "dc/dc4/a07588.html#a98f9efc5209ef7200e71ff39310520dd", null ],
-    [ "_threatPct", "dc/dc4/a07588.html#a95d6d366d664888f532d40afd1cc57d2", null ]
+    [ "QuestMenu", "dc/dc4/a07588.html#a60ba5b35499c6a9ed510300d3300421e", null ],
+    [ "~QuestMenu", "dc/dc4/a07588.html#a14df9b6699c327853121ae032704db8d", null ],
+    [ "AddMenuItem", "dc/dc4/a07588.html#ac8735756bbf9f2fa799c505bd740e070", null ],
+    [ "ClearMenu", "dc/dc4/a07588.html#ab3d3881aabe000694acab37a3774507e", null ],
+    [ "Empty", "dc/dc4/a07588.html#a1a850cb70956f299ea91cb0d732ad202", null ],
+    [ "GetItem", "dc/dc4/a07588.html#a08240a8d18dce0cb96db19f54c67dd2c", null ],
+    [ "GetMenuItemCount", "dc/dc4/a07588.html#a2338a6fb88c32bfb66fe524a8ffaa0d7", null ],
+    [ "HasItem", "dc/dc4/a07588.html#a7fe36e4a4acfc66a00f08034c470b5e3", null ],
+    [ "_questMenuItems", "dc/dc4/a07588.html#a49279a3943009f2d1475d792c2c3d21a", null ]
 ];

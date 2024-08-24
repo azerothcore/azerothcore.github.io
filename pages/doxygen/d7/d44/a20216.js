@@ -1,7 +1,6 @@
 var a20216 =
 [
-    [ "HandleEffectPeriodic", "d7/d44/a20216.html#a8d2e75ee2869dc135fe83c782ec6e223", null ],
-    [ "PrepareAuraScript", "d7/d44/a20216.html#a0996c661dbc4e9a4bd35c1368247c7eb", null ],
-    [ "Register", "d7/d44/a20216.html#aed86a298340cc05fbe2a8a68396423bb", null ],
-    [ "Validate", "d7/d44/a20216.html#a1c3ecaebf11d1040fde4ce5cb80f315c", null ]
+    [ "instance_naxxramas_InstanceMapScript", "d8/d56/a20220.html", "d8/d56/a20220" ],
+    [ "instance_naxxramas", "d7/d44/a20216.html#a9d4b57f9f0f7a44565bb8d9bd3aa24a1", null ],
+    [ "GetInstanceScript", "d7/d44/a20216.html#ac5dd8d591af2239faab17727eb1ef66e", null ]
 ];

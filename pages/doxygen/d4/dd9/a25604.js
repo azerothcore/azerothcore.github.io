@@ -1,8 +1,6 @@
 var a25604 =
 [
-    [ "HandleProc", "d4/dd9/a25604.html#ad92c7804b26bd29d135e55c8adad9093", null ],
-    [ "OnRemove", "d4/dd9/a25604.html#afa8e065ed835243f3ebb95c10792adf8", null ],
-    [ "PrepareAuraScript", "d4/dd9/a25604.html#a5e986f77b23fd0402089ea36f0360c79", null ],
-    [ "Register", "d4/dd9/a25604.html#a29d66b9790e3f7dfffb5dc398f26f9fb", null ],
-    [ "Validate", "d4/dd9/a25604.html#a51f81afec6ff0918530208d9de9dae24", null ]
+    [ "spell_arcatraz_soul_steal_AuraScript", "de/da6/a25608.html", "de/da6/a25608" ],
+    [ "spell_arcatraz_soul_steal", "d4/dd9/a25604.html#ab4bcc29347c91c793d897500c0413241", null ],
+    [ "GetAuraScript", "d4/dd9/a25604.html#ad98c09fd98e4914b25934e74377be263", null ]
 ];

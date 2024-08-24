@@ -1,14 +1,6 @@
 var a15536 =
 [
-    [ "npc_ringoAI", "d0/db9/a15536.html#a816dcad96afa6bec595f4b2dfe6fb11c", null ],
-    [ "ClearFaint", "d0/db9/a15536.html#abd24108debcafafa601958824d44abbb", null ],
-    [ "MoveInLineOfSight", "d0/db9/a15536.html#a6758ef2fe371338826dfc8582d6d03f0", null ],
-    [ "Reset", "d0/db9/a15536.html#a5b2cf17642bd4a560abb54b8d42bcd25", null ],
-    [ "SetFaint", "d0/db9/a15536.html#a09d3770aade34afe5a3a15e17cc64933", null ],
-    [ "SpellHit", "d0/db9/a15536.html#ad30d1a9fb84cc777d48b1363cf571d72", null ],
-    [ "UpdateFollowerAI", "d0/db9/a15536.html#a3b0effa8ec4d335a1d24d2238346b04a", null ],
-    [ "EndEventProgress", "d0/db9/a15536.html#a4df563b83103bbd7e1f0d81a78f6401a", null ],
-    [ "EndEventTimer", "d0/db9/a15536.html#a03f20114ca340c7c710bd77ee3c905ef", null ],
-    [ "FaintTimer", "d0/db9/a15536.html#a37d12c7edf3100837c99e3fb572f4bf1", null ],
-    [ "SpraggleGUID", "d0/db9/a15536.html#a3b58d34a1263355e7b11e22e0eef00a5", null ]
+    [ "spell_gordunni_trap_SpellScript", "d1/de9/a15540.html", "d1/de9/a15540" ],
+    [ "spell_gordunni_trap", "d0/db9/a15536.html#a4acdb3d0babdaea5ec8f7e503944e772", null ],
+    [ "GetSpellScript", "d0/db9/a15536.html#aee9958b224ab01b18e407bf5770b65c7", null ]
 ];

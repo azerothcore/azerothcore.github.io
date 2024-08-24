@@ -1,6 +1,6 @@
 var a12988 =
 [
-    [ "CorruptTriggers", "d3/db6/a12988.html#a5ec60254ee2ac299ce99164189087a1c", null ],
-    [ "Execute", "d3/db6/a12988.html#a9929f3518f307e0b753782967f06c6c1", null ],
-    [ "_caster", "d3/db6/a12988.html#a2b9e4c3d292b7e3deea57e1542b3ba12", null ]
+    [ "spell_felmyst_open_brutallus_back_doors_SpellScript", "d9/da5/a12992.html", "d9/da5/a12992" ],
+    [ "spell_felmyst_open_brutallus_back_doors", "d3/db6/a12988.html#a4afbec8a2716df47d35375e82e1a7b65", null ],
+    [ "GetSpellScript", "d3/db6/a12988.html#a06b0b9238f7d48a4eb3fba9743c850aa", null ]
 ];

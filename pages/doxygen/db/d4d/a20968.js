@@ -1,7 +1,5 @@
 var a20968 =
 [
-    [ "npc_frost_tombAI", "db/d4d/a20968.html#a950f7f77bdbc7ba1db0911641f2fadcf", null ],
-    [ "JustDied", "db/d4d/a20968.html#aeda420de208505fa93fc548693a1ff74", null ],
-    [ "UpdateAI", "db/d4d/a20968.html#a8f323275af4ecafd1978c465e75978e0", null ],
-    [ "PrisonerGUID", "db/d4d/a20968.html#ae1e3af77879f98a77186ec77c31da7a8", null ]
+    [ "achievement_cant_do_that_while_stunned", "db/d4d/a20968.html#a4d474b36f61631688ea723d2e4033574", null ],
+    [ "OnCheck", "db/d4d/a20968.html#a0b108bdcab0bc412975e61247f226bf8", null ]
 ];

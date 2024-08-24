@@ -1,6 +1,6 @@
 var a16520 =
 [
-    [ "HandleDummy", "d3/d66/a16520.html#a84fb6e08a523f375cd8bc43e9cc73eab", null ],
-    [ "PrepareSpellScript", "d3/d66/a16520.html#accbf8f40b1ab123a2be81a514c94c836", null ],
-    [ "Register", "d3/d66/a16520.html#a1805904d5e50bbf5aeccf37d2cadd09e", null ]
+    [ "HideNpcEvent", "d3/d66/a16520.html#ab454295aab0f5d4586740140232e96eb", null ],
+    [ "Execute", "d3/d66/a16520.html#aecfbbbcac3fd98675913a6381c891a59", null ],
+    [ "_owner", "d3/d66/a16520.html#ac5481c94e180900f0a455dc1f1f9851c", null ]
 ];

@@ -1,6 +1,6 @@
 var a26184 =
 [
-    [ "HandleFinish", "d2/dc8/a26184.html#a53263ce51581f36c2df80b49c93fa9d3", null ],
-    [ "PrepareSpellScript", "d2/dc8/a26184.html#a8113f61816473399f0ceab18b104d058", null ],
-    [ "Register", "d2/dc8/a26184.html#a36bf50cdb7be7ba03eafd4848c6ceced", null ]
+    [ "npc_invis_infernal_casterAI", "de/dea/a26188.html", "de/dea/a26188" ],
+    [ "npc_invis_infernal_caster", "d2/dc8/a26184.html#a9aed081ef904075830428bbc76f53874", null ],
+    [ "GetAI", "d2/dc8/a26184.html#aede0c5cc390ea423169b1cba66d929cd", null ]
 ];

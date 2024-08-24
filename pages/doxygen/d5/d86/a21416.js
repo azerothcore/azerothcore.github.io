@@ -1,8 +1,7 @@
 var a21416 =
 [
-    [ "npc_azure_captainAI", "d5/d86/a21416.html#a15b1acc73108c6802dbf3ac2ed0734c9", null ],
-    [ "Reset", "d5/d86/a21416.html#a13d25bf1612086cc4bb5bc2078105f18", null ],
-    [ "UpdateAI", "d5/d86/a21416.html#ae50ac21138e12be43caa93e37062051e", null ],
-    [ "uiMortalStrikeTimer", "d5/d86/a21416.html#a791a3ee9b67e72e1dcb392b9ebc2359a", null ],
-    [ "uiWhirlwindTimer", "d5/d86/a21416.html#a2e3439976a6e84a60be765cb0b929798", null ]
+    [ "npc_ulduar_icicleAI", "d5/d86/a21416.html#a258376e257fbe3c8a6c70b2585d44df1", null ],
+    [ "UpdateAI", "d5/d86/a21416.html#a0edf734ae2dac7a5378b21b73e3714c8", null ],
+    [ "timer1", "d5/d86/a21416.html#aa912acbe225d9056e44bc22b8d9f7473", null ],
+    [ "timer2", "d5/d86/a21416.html#a82e034fc4ccb8eb92abeb72a222764c7", null ]
 ];

@@ -1,9 +1,9 @@
 var a27448 =
 [
-    [ "npc_target_dummyAI", "d4/daf/a27448.html#a117e45559ea721877d73df4b3c18a259", null ],
-    [ "EnterEvadeMode", "d4/daf/a27448.html#a8f7f2e4decc676e378b4929516f8a147", null ],
-    [ "MoveInLineOfSight", "d4/daf/a27448.html#a05f5b1f2cb8f0926bf425e7c31d618e2", null ],
-    [ "Reset", "d4/daf/a27448.html#a4e8f8d1da604a80b60d61f72ed4ecbcf", null ],
-    [ "UpdateAI", "d4/daf/a27448.html#ae686aa48ab7e91988e5b71c71695ce47", null ],
-    [ "deathTimer", "d4/daf/a27448.html#abf5bd5122e79a62a03c19a18cd68498b", null ]
+    [ "CheckCast", "d4/daf/a27448.html#a005565dd77de97b5aa04553a1d6a0185", null ],
+    [ "HandleScript", "d4/daf/a27448.html#a7313a3d9840d7dc81e5a894e83cb6347", null ],
+    [ "Load", "d4/daf/a27448.html#aadfc8a873c72e31d65001ce00518ca45", null ],
+    [ "PrepareSpellScript", "d4/daf/a27448.html#a169b60644259855f0614271e4769f6b9", null ],
+    [ "Register", "d4/daf/a27448.html#a9e7f8cbc7ec3de507069b69678005da3", null ],
+    [ "Validate", "d4/daf/a27448.html#a9e69eb36c1a2640ff616ae5744c04f4f", null ]
 ];

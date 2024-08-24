@@ -1,6 +1,6 @@
 var a24828 =
 [
-    [ "CheckAreaTarget", "d2/d86/a24828.html#a545323b9964ee4cb3c8d054fac4e2d55", null ],
-    [ "PrepareAuraScript", "d2/d86/a24828.html#a2b6dbd33e34357917f662000a1cd932f", null ],
-    [ "Register", "d2/d86/a24828.html#a7b4a2301b3a608ea5b2dd2504e02741d", null ]
+    [ "spell_black_template_harpooners_mark_AuraScript", "db/d8f/a24832.html", "db/d8f/a24832" ],
+    [ "spell_black_template_harpooners_mark", "d2/d86/a24828.html#a5e602b8335163bef06e8f0aaad76ea01", null ],
+    [ "GetAuraScript", "d2/d86/a24828.html#a9d54051ee57b1f62a0ededb6a4915052", null ]
 ];

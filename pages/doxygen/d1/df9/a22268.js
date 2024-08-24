@@ -1,9 +1,6 @@
 var a22268 =
 [
-    [ "HandlePeriodic", "d1/df9/a22268.html#a3d9ef90ec1ddebe2b2f3dd3a8b9eb25a", null ],
-    [ "Load", "d1/df9/a22268.html#af5ed9dda3b2a2fd208fdc32de414c28a", null ],
-    [ "PrepareAuraScript", "d1/df9/a22268.html#a1057e5262d413149a023bc904a3c3751", null ],
-    [ "Register", "d1/df9/a22268.html#a47b9665b84742fd8cbb4e422d667b2ac", null ],
-    [ "Validate", "d1/df9/a22268.html#a85d7ac258d50f690574ad7656256cd05", null ],
-    [ "_counter", "d1/df9/a22268.html#a855bb93d5d9c5d8a9d06cfbb16d8d814", null ]
+    [ "spell_yogg_saron_shadow_beacon_AuraScript", "d0/d88/a22272.html", "d0/d88/a22272" ],
+    [ "spell_yogg_saron_shadow_beacon", "d1/df9/a22268.html#a8c0bb2f6265a9859d03e437fe28946d2", null ],
+    [ "GetAuraScript", "d1/df9/a22268.html#a2f5fae237242c9623fbe487b171b1784", null ]
 ];

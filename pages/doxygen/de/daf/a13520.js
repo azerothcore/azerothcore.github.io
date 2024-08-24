@@ -1,7 +1,8 @@
 var a13520 =
 [
-    [ "npc_daphne_stilwellAI", "d4/d16/a13524.html", "d4/d16/a13524" ],
-    [ "npc_daphne_stilwell", "de/daf/a13520.html#ad844c5f0409936d7068ee55271506041", null ],
-    [ "GetAI", "de/daf/a13520.html#af1872100f3eeb14e894277cfc8e1a74b", null ],
-    [ "OnQuestAccept", "de/daf/a13520.html#ad7b293efc802506a825f202e34cb0f4d", null ]
+    [ "npc_varian_wrynnAI", "d4/d16/a13524.html", "d4/d16/a13524" ],
+    [ "npc_varian_wrynn", "de/daf/a13520.html#a1dd8e4664da693f3e4ecdd4581b96c87", null ],
+    [ "GetAI", "de/daf/a13520.html#aa5aa46f24a128e84ac2a837c012b2e02", null ],
+    [ "OnGossipHello", "de/daf/a13520.html#a95f6ff3f2a7db807b278d019e187ddec", null ],
+    [ "OnGossipSelect", "de/daf/a13520.html#a65d02bafebe9c5a45d707f8990d680a3", null ]
 ];

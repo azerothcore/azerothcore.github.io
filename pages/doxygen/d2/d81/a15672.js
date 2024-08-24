@@ -1,14 +1,13 @@
 var a15672 =
 [
-    [ "npc_taldaram_flamesphere", "d2/d81/a15672.html#aad7d6696b54e39c6abd27a7252353360", null ],
-    [ "DoAction", "d2/d81/a15672.html#aa79e370c1c30eccb44a46b622e2d5f2a", null ],
-    [ "IsSummonedBy", "d2/d81/a15672.html#acb232931bc181eedf4b39d5519dd45e2", null ],
-    [ "JustDied", "d2/d81/a15672.html#ae6dfff3df39257c55495707934d5d38b", null ],
-    [ "MovementInform", "d2/d81/a15672.html#a785c491b7144420cd4975e62c9a8a711", null ],
-    [ "SetVictimPos", "d2/d81/a15672.html#a51f1683806095c760d4accff9e23f8b6", null ],
-    [ "UpdateAI", "d2/d81/a15672.html#a163341c0ff0f56986e2486e06e21b4b2", null ],
-    [ "instance", "d2/d81/a15672.html#afd0ff83cb5fba1fbeb85b7d600f1b1de", null ],
-    [ "moveTimer", "d2/d81/a15672.html#afe50ac59ec441ab11745ca9461158a00", null ],
-    [ "uiDespawnTimer", "d2/d81/a15672.html#a883b4c6429e8a8bf02878caa14e02537", null ],
-    [ "victimPos", "d2/d81/a15672.html#ae681d84f2324faf22296dcb6e08484b0", null ]
+    [ "npc_aquementasAI", "d2/d81/a15672.html#aad63986cdb8a65c528af3ccd114d2041", null ],
+    [ "JustEngagedWith", "d2/d81/a15672.html#a2c12ee9c0bb94a1fcfa23c4279aea72f", null ],
+    [ "Reset", "d2/d81/a15672.html#af71a196ba667c2a8f05940ec7ec43b5e", null ],
+    [ "SendItem", "d2/d81/a15672.html#a60bafbd70783411236dcf3d0bfe244de", null ],
+    [ "UpdateAI", "d2/d81/a15672.html#adc5936d7648e05c98a2cdc9998aa4c6a", null ],
+    [ "AquaJetTimer", "d2/d81/a15672.html#a8506acc69436af869d1404bd95109e68", null ],
+    [ "FrostShockTimer", "d2/d81/a15672.html#ad52c62a0fd8de98b194596dbc998c03d", null ],
+    [ "isFriendly", "d2/d81/a15672.html#a9ac02cfc998bda26a5c531a9f7dbf7c4", null ],
+    [ "SendItemTimer", "d2/d81/a15672.html#a3a0883b43056b176ef2ae55673adacf3", null ],
+    [ "SwitchFactionTimer", "d2/d81/a15672.html#a46f64b9883ae30c3f8d677a3b85a8c6f", null ]
 ];

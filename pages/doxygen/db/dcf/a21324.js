@@ -1,16 +1,6 @@
 var a21324 =
 [
-    [ "boss_zuramatAI", "db/dcf/a21324.html#ab4c04fec01023295946d170a466d1c48", null ],
-    [ "EnterEvadeMode", "db/dcf/a21324.html#a991437ea0d9fd1ce7807ef9937c4cb0a", null ],
-    [ "JustDied", "db/dcf/a21324.html#a060df9b36f2f62f3fc7afb80386d51c5", null ],
-    [ "JustEngagedWith", "db/dcf/a21324.html#a85cc0f20b51e84ff1c5c16a3b2b004b9", null ],
-    [ "JustSummoned", "db/dcf/a21324.html#a6e925207ddc112f7dd7044c08023f90e", null ],
-    [ "KilledUnit", "db/dcf/a21324.html#adb79f8c244f57b88848dd44b592faf41", null ],
-    [ "MoveInLineOfSight", "db/dcf/a21324.html#aa3ef3256d203d264dee12eff4491a28c", null ],
-    [ "Reset", "db/dcf/a21324.html#a18498e4bc4bfac33ff2c591f5bf28d7d", null ],
-    [ "SummonedCreatureDespawn", "db/dcf/a21324.html#a242f814bfec2e937e1338097e78080e3", null ],
-    [ "UpdateAI", "db/dcf/a21324.html#adb591699b7d8ece0b1775afd40a4181b", null ],
-    [ "events", "db/dcf/a21324.html#a4406b42618f3e40fa90e0a34ec3ad09f", null ],
-    [ "pInstance", "db/dcf/a21324.html#a8ebb5ca6f9f18b0205e8b6a54492c06a", null ],
-    [ "summons", "db/dcf/a21324.html#a42cb09654095c8a157720f99e7957102", null ]
+    [ "boss_vezaxAI", "d9/d14/a21328.html", "d9/d14/a21328" ],
+    [ "boss_vezax", "db/dcf/a21324.html#af778f9ef3070598f8ca5109b2f6f0f82", null ],
+    [ "GetAI", "db/dcf/a21324.html#a55c7f1ee93252768ba02e8d0d4634eb9", null ]
 ];

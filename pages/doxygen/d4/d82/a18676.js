@@ -1,9 +1,6 @@
 var a18676 =
 [
-    [ "npc_icc_severed_essenceAI", "d4/d82/a18676.html#a76366c33ab9ec7aa291c0df657fbef68", null ],
-    [ "CanAIAttack", "d4/d82/a18676.html#a2cc2cfc967f9ad966d76571eb0eb630f", null ],
-    [ "DoAction", "d4/d82/a18676.html#a938af3a7de5b26432e1ad515a326a032", null ],
-    [ "UpdateAI", "d4/d82/a18676.html#a66e3324baa87ba109dd968a517ee82a5", null ],
-    [ "Class", "d4/d82/a18676.html#aa627713be3a2ac01336d158d96aaccc7", null ],
-    [ "events", "d4/d82/a18676.html#a1bab216925c4123d633d9613bb80365c", null ]
+    [ "spell_rotface_unstable_ooze_explosion_SpellScript", "d7/d8f/a18680.html", "d7/d8f/a18680" ],
+    [ "spell_rotface_unstable_ooze_explosion", "d4/d82/a18676.html#af78c72b5f2fc3997924d645b4c08088a", null ],
+    [ "GetSpellScript", "d4/d82/a18676.html#ac889f959eaa3e178b62601b79c83fef5", null ]
 ];

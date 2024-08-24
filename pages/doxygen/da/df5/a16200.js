@@ -1,6 +1,6 @@
 var a16200 =
 [
-    [ "spell_gen_leeching_swarm_AuraScript", "d0/ddc/a16204.html", "d0/ddc/a16204" ],
-    [ "spell_gen_leeching_swarm", "da/df5/a16200.html#a13eb1c202d4f253e9866f462e5c59ac1", null ],
-    [ "GetAuraScript", "da/df5/a16200.html#a2c47410d2b61739f6f01ac8b2d2a0c9c", null ]
+    [ "npc_halion_controllerAI", "d0/ddc/a16204.html", "d0/ddc/a16204" ],
+    [ "npc_halion_controller", "da/df5/a16200.html#ac88ff15ce4d89d737eb6dd6b649e1218", null ],
+    [ "GetAI", "da/df5/a16200.html#a3c5ea3f0597c070005744ea788a05383", null ]
 ];

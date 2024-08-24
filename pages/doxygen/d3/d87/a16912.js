@@ -1,15 +1,19 @@
 var a16912 =
 [
-    [ "npc_pos_deathwhisper_necrolyteAI", "d3/d87/a16912.html#ae03f3fef42fcbcecedaf38692d1e9131", null ],
-    [ "DamageTaken", "d3/d87/a16912.html#aad000cc1310f22325a29131fad169cbc", null ],
-    [ "DoAction", "d3/d87/a16912.html#a5d7a324073cfdbd01ae267964959f15b", null ],
-    [ "InitializeAI", "d3/d87/a16912.html#ad84905d1385bce0e431c2baf1158a343", null ],
-    [ "JustEngagedWith", "d3/d87/a16912.html#ae095fa3ceb484cc289a086be8c2f2552", null ],
-    [ "MoveInLineOfSight", "d3/d87/a16912.html#a1d43b002628080d5faf2fd59347a7f79", null ],
-    [ "MovementInform", "d3/d87/a16912.html#a849b06a045de5529706e83b03febe135", null ],
-    [ "Reset", "d3/d87/a16912.html#a0e6b326b3c8102dd711c002537f2c339", null ],
-    [ "UpdateAI", "d3/d87/a16912.html#ade1c91217b6c6e33bfca60a69a51bbc0", null ],
-    [ "events", "d3/d87/a16912.html#a30d65bc3625ed22e11ed7e040451643c", null ],
-    [ "isInvincible", "d3/d87/a16912.html#a0216b301112656fb75907ff1f0d50d0f", null ],
-    [ "pInstance", "d3/d87/a16912.html#afb71e537115d36795c2568360b2d58ce", null ]
+    [ "boss_novosAI", "d3/d87/a16912.html#adb1ddbf486ee7690d25c00db3902e408", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "d3/d87/a16912.html#ab1e9ef1780d53447e3e39c69de2111f8", null ],
+    [ "GetData", "d3/d87/a16912.html#ab4c51470b6e1492922fa507566cfb01b", null ],
+    [ "JustDied", "d3/d87/a16912.html#a7fc57c7b0fe7befc5e3466e929bf8e40", null ],
+    [ "JustEngagedWith", "d3/d87/a16912.html#ab0d05b5f01943a2a1a4b9942b7af6a4f", null ],
+    [ "JustSummoned", "d3/d87/a16912.html#a67340b4d1b140b018a91c28cb649ce6f", null ],
+    [ "KilledUnit", "d3/d87/a16912.html#ae2a48f1b01018307d9d08b36a4b15401", null ],
+    [ "MoveInLineOfSight", "d3/d87/a16912.html#acd01b87b1f481de8f3327c3a958dd12d", null ],
+    [ "Reset", "d3/d87/a16912.html#ac62d82368e71dcb58cbac04d90731d35", null ],
+    [ "SetData", "d3/d87/a16912.html#a86825eabbf3411443ffd8f458defb0b0", null ],
+    [ "UpdateAI", "d3/d87/a16912.html#acba9623bd90132a4042c2fb9923a1c3c", null ],
+    [ "_achievement", "d3/d87/a16912.html#a00e5942a5c4c05dc168b80d60cb10d0f", null ],
+    [ "_crystalCounter", "d3/d87/a16912.html#afc81805776138a9075aac36cf268c6eb", null ],
+    [ "_stage", "d3/d87/a16912.html#a88013d55c74c4d3c86a5e254ca77e892", null ],
+    [ "_summonTargetLeftGUID", "d3/d87/a16912.html#a9c79a08d0f1814e265dc7dad59946c02", null ],
+    [ "_summonTargetRightGUID", "d3/d87/a16912.html#aeb5b0d02c11bd3e4299e05c498c8cfd8", null ]
 ];

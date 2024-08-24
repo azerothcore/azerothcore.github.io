@@ -1,20 +1,6 @@
 var a15556 =
 [
-    [ "npc_ranshallaAI", "d9/d58/a15556.html#a8d41e290f9545fb72daf5e503b3c660b", null ],
-    [ "DoChannelTorchSpell", "d9/d58/a15556.html#ade38de77f83da2f084a9ad3f8ada01d3", null ],
-    [ "DoContinueEscort", "d9/d58/a15556.html#aef1192735d87a7e83ea00cc8cb9303c7", null ],
-    [ "DoSummonPriestess", "d9/d58/a15556.html#a15f8706b9084b72359e4c8433d771d89", null ],
-    [ "GetSpeakerByEntry", "d9/d58/a15556.html#ad930520b705ab63f903f7b68d660adbb", null ],
-    [ "JustDidDialogueStep", "d9/d58/a15556.html#a6a20f536d6e360d07970955a8ff9902c", null ],
-    [ "Reset", "d9/d58/a15556.html#a0b07925593835ce4d4aaab2f672ae387", null ],
-    [ "SummonedMovementInform", "d9/d58/a15556.html#a453cfe020d81e27daa8d779be64012ee", null ],
-    [ "UpdateEscortAI", "d9/d58/a15556.html#afabe9208f01fe3d2f128feba8f18426d", null ],
-    [ "WaypointReached", "d9/d58/a15556.html#a96ff03de70b433e2ff5c35f50d062c55", null ],
-    [ "_altarGUID", "d9/d58/a15556.html#ab9e42364744d89301944b7baa852bc9f", null ],
-    [ "_delayTimer", "d9/d58/a15556.html#a219e1f257f0ddae9de5fd89ba9a338be", null ],
-    [ "_firstPriestessGUID", "d9/d58/a15556.html#ae5289a2645f3d17da452810b22a77713", null ],
-    [ "_guardEluneGUID", "d9/d58/a15556.html#a575afe78a40c8d49a928772fbec64dd9", null ],
-    [ "_secondPriestessGUID", "d9/d58/a15556.html#a800131f5a4355e293c5edc009dbbdd20", null ],
-    [ "_voiceEluneGUID", "d9/d58/a15556.html#af676158d45338ddbc2a366e399796642", null ],
-    [ "events", "d9/d58/a15556.html#a1deb2de50401297451a3e314b5369b5e", null ]
+    [ "npc_great_bear_spirit", "d9/d58/a15556.html#a141470a3623aa1152d3505661f1532c8", null ],
+    [ "OnGossipHello", "d9/d58/a15556.html#a2307b8d56fc117d918adc9814fa86f8f", null ],
+    [ "OnGossipSelect", "d9/d58/a15556.html#aae026f4cf8b0de61d36a841dcfdbd92e", null ]
 ];

@@ -1,8 +1,6 @@
 var a20348 =
 [
-    [ "npc_ulduar_magnetic_coreAI", "d3/dc3/a20348.html#a585437dff0c49ac1a6bf7929ab266ff5", null ],
-    [ "SetData", "d3/dc3/a20348.html#a27c31856d2bfe3228ae3b0b361064d7a", null ],
-    [ "UpdateAI", "d3/dc3/a20348.html#ab9113a021844aa7ea8ac46df9c50b205", null ],
-    [ "despawnTimer", "d3/dc3/a20348.html#ad244ccbaeda814b9e56fad93f06f12fe", null ],
-    [ "pInstance", "d3/dc3/a20348.html#a3e01c612a689d89bdbe3529c429a413d", null ]
+    [ "boss_keristraszaAI", "d7/d46/a20352.html", "d7/d46/a20352" ],
+    [ "boss_keristrasza", "d3/dc3/a20348.html#a3d132df1687aae57345cd55ac80f9bf4", null ],
+    [ "GetAI", "d3/dc3/a20348.html#aa94eb11d5ca7ff3063974d4ff81d4173", null ]
 ];

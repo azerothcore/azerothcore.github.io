@@ -1,6 +1,6 @@
 var a20092 =
 [
-    [ "npc_ulduar_toasty_fireAI", "d1/d75/a20096.html", "d1/d75/a20096" ],
-    [ "npc_ulduar_toasty_fire", "d8/d89/a20092.html#a5a5b77088b24f1c5743c58034190d5ab", null ],
-    [ "GetAI", "d8/d89/a20092.html#a2518ec39c3cea2f3efc5000e0a7779d0", null ]
+    [ "spell_kelthuzad_detonate_mana_AuraScript", "d1/d75/a20096.html", "d1/d75/a20096" ],
+    [ "spell_kelthuzad_detonate_mana", "d8/d89/a20092.html#a6b44476a91986e9f745730f4d83297c8", null ],
+    [ "GetAuraScript", "d8/d89/a20092.html#ad2c774dfd3b545bf95c4a381587d0426", null ]
 ];

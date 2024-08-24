@@ -1,7 +1,7 @@
 var a17724 =
 [
-    [ "HandleScript", "d3/d39/a17724.html#afc76149cb44a4d2aab48350fb4392036", null ],
-    [ "PrepareSpellScript", "d3/d39/a17724.html#a8598de219c2402596fe97b5dd32c534e", null ],
-    [ "Register", "d3/d39/a17724.html#ac9d4842632431e52932f66d09042ea70", null ],
-    [ "ScaleRange", "d3/d39/a17724.html#a9bcc80bd2a8df20ac7fc8f2256f519d9", null ]
+    [ "HandleScript", "d3/d39/a17724.html#a6d6440ca3cdcc208cd49e2c3edad0c57", null ],
+    [ "Load", "d3/d39/a17724.html#a828dfc1126fcdf77c01ea7ec1376de3f", null ],
+    [ "PrepareSpellScript", "d3/d39/a17724.html#a4598ec2c5fc788af83d978d9cce29c44", null ],
+    [ "Register", "d3/d39/a17724.html#add80d9f315d4763bf00dd40ce984871f", null ]
 ];

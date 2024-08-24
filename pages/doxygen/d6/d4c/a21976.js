@@ -1,6 +1,11 @@
 var a21976 =
 [
-    [ "npc_razael_and_lyana", "d6/d4c/a21976.html#aec7257a1136a3580e2b4542e032429d6", null ],
-    [ "OnGossipHello", "d6/d4c/a21976.html#a9c9085db92853d5275c12e804a68b0fc", null ],
-    [ "OnGossipSelect", "d6/d4c/a21976.html#a407d8344280e8e38efb3991fda1d52cd", null ]
+    [ "boss_thorim_arena_npcsAI", "d6/d4c/a21976.html#aab66eff737c803f6680ca5f93baaa6ca", null ],
+    [ "CanAIAttack", "d6/d4c/a21976.html#ae214fabcc4db1f40a15be3369e66b030", null ],
+    [ "JustEngagedWith", "d6/d4c/a21976.html#a60530453c2cbf5f22fb0d45088f90706", null ],
+    [ "Reset", "d6/d4c/a21976.html#a83cb4bdb14a757733333f94d02fbf8db", null ],
+    [ "SelectT", "d6/d4c/a21976.html#a84f22d142aad0ed7354784192bd5df3b", null ],
+    [ "UpdateAI", "d6/d4c/a21976.html#acf09c7b12bce41c38980905457d4dbb4", null ],
+    [ "_isCaster", "d6/d4c/a21976.html#a2c55eacc7b16be459935b586a0654500", null ],
+    [ "events", "d6/d4c/a21976.html#aea5a9f9c915a7827316c48a504bc992e", null ]
 ];

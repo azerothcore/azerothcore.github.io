@@ -1,7 +1,6 @@
 var a22636 =
 [
-    [ "npc_voidtraveler", "d6/d37/a22636.html#a07e473c14836a0612acd52078a93f2d8", null ],
-    [ "Reset", "d6/d37/a22636.html#a6efe0725917c92657220de2b60579289", null ],
-    [ "UpdateAI", "d6/d37/a22636.html#aaa907fe2f6ef1029a23fd819af0a44c3", null ],
-    [ "_scheduler", "d6/d37/a22636.html#a1809494e7803103f6bc1698e780dcfbc", null ]
+    [ "CalculateAmount", "d6/d37/a22636.html#a3bdb3ef1fbf81839cfad0ced507bf556", null ],
+    [ "PrepareAuraScript", "d6/d37/a22636.html#af693a6d16dbc7cb7dc61fec5f6e477bb", null ],
+    [ "Register", "d6/d37/a22636.html#ae6569450a13eef8dfb8ced66ca1ac55c", null ]
 ];

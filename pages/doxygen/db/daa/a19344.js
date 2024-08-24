@@ -1,6 +1,6 @@
 var a19344 =
 [
-    [ "PrepareSpellScript", "db/daa/a19344.html#a65c3b2c9a416b7d1bbd3c14057e5f8fc", null ],
-    [ "Register", "db/daa/a19344.html#ad8470ed0d09c2b7e79fa4ecb1867e9bf", null ],
-    [ "SetDest", "db/daa/a19344.html#a24341aae14ed77101d4c31f2fbe11463", null ]
+    [ "npc_risen_archmageAI", "d0/d56/a19348.html", "d0/d56/a19348" ],
+    [ "npc_risen_archmage", "db/daa/a19344.html#adf6dfe2a00325955939c84bcc1e4eb68", null ],
+    [ "GetAI", "db/daa/a19344.html#a8e8c4913e163c5d649fa79c2eb424864", null ]
 ];

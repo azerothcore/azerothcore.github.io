@@ -1,11 +1,15 @@
 var a24096 =
 [
-    [ "npc_invis_infernal_casterAI", "d6/d45/a24096.html#a1188ecc4752d5ab1c2f81602187282f2", null ],
-    [ "Reset", "d6/d45/a24096.html#a05a8d5fd4828d7b1edb3b29ff8a6e61c", null ],
-    [ "SetData", "d6/d45/a24096.html#aee88dc141757384f96da969fcdc20671", null ],
-    [ "SummonInfernal", "d6/d45/a24096.html#a78d53d09e5544b3fe8301da4415d297b", null ],
-    [ "UpdateAI", "d6/d45/a24096.html#a80be204b493768ceb5f5d99d1e81f1b1", null ],
-    [ "events", "d6/d45/a24096.html#aab7aca330ae36dd2de7761984dd2a0a3", null ],
-    [ "ground", "d6/d45/a24096.html#a4c943d67b25d7c9f4ac6f16d96bbbc4f", null ],
-    [ "infernalGUID", "d6/d45/a24096.html#a5619136f90c181ecf3e4389bc2fcdafc", null ]
+    [ "OutdoorPvPEP", "d6/d45/a24096.html#ab4915dfc03de08cad83eb48c4c789cb8", null ],
+    [ "BuffTeams", "d6/d45/a24096.html#ac6a61c19ba96ca843eb12952d0c09078", null ],
+    [ "FillInitialWorldStates", "d6/d45/a24096.html#a3e9ca34d696c3d644fdb7f495e11270c", null ],
+    [ "HandlePlayerEnterZone", "d6/d45/a24096.html#a9e7404160b1220dc3cc2766a07f42ad2", null ],
+    [ "HandlePlayerLeaveZone", "d6/d45/a24096.html#a251b154abfaec9cbfb1a56e657ac5214", null ],
+    [ "SendRemoveWorldStates", "d6/d45/a24096.html#afad47628bb4cfcc6060ce35396e33d9d", null ],
+    [ "SetControlledState", "d6/d45/a24096.html#abef30d5cbe7c2cd52cd32ae29da1c9ce", null ],
+    [ "SetupOutdoorPvP", "d6/d45/a24096.html#acecc8126180c027cb3d685231e55d873", null ],
+    [ "Update", "d6/d45/a24096.html#a974910b2f7f2d8cfaf43b6694bf4c2c7", null ],
+    [ "EP_ControlsId", "d6/d45/a24096.html#a7e8fcf50f88bdb56b189877721a1f006", null ],
+    [ "m_AllianceTowersControlled", "d6/d45/a24096.html#a09e5cf029656af3fc740b236596d42ee", null ],
+    [ "m_HordeTowersControlled", "d6/d45/a24096.html#a325c16f6b5f40bd5dd5f63a9d93a8cd1", null ]
 ];

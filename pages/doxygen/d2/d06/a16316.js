@@ -1,6 +1,7 @@
 var a16316 =
 [
-    [ "npc_toc_enh_shamanAI", "d2/d36/a16320.html", "d2/d36/a16320" ],
-    [ "npc_toc_enh_shaman", "d2/d06/a16316.html#ac328b63a988d2cd8640237b250c338a8", null ],
-    [ "GetAI", "d2/d06/a16316.html#a4501c9289a06750d8f153f89565b12f3", null ]
+    [ "TwilightCutterSelector", "d2/d06/a16316.html#accea6e932c44d083fbb4dc41c5102b3d", null ],
+    [ "operator()", "d2/d06/a16316.html#a6374425df156bdf202d53a2c73ef784c", null ],
+    [ "_caster", "d2/d06/a16316.html#a784c95ef6472e711f4200f194222d179", null ],
+    [ "_cutterCaster", "d2/d06/a16316.html#a7f713777a36a8d127c2865e4610b1288", null ]
 ];

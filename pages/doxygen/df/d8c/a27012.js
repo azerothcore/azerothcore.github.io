@@ -1,6 +1,7 @@
 var a27012 =
 [
-    [ "AreaTrigger_at_area_52_entrance", "df/d8c/a27012.html#a5b7e21903bca1c04bad1394c6965d032", null ],
-    [ "OnTrigger", "df/d8c/a27012.html#a1e537d133ee5e6ad1dbb0c732e23a128", null ],
-    [ "_triggerTimes", "df/d8c/a27012.html#a6c3225f46ea71d06b81b25d5fb6e8f25", null ]
+    [ "CheckProc", "df/d8c/a27012.html#ab376febda606dba5e9f7f5639f867859", null ],
+    [ "HandleProc", "df/d8c/a27012.html#aa8dac7f0a238f6f131553cbc7a142594", null ],
+    [ "PrepareAuraScript", "df/d8c/a27012.html#a7693a86824050ff5615996d0d03d0292", null ],
+    [ "Register", "df/d8c/a27012.html#a458745913288889f687bb19a147cb0fb", null ]
 ];

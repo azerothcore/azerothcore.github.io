@@ -1,19 +1,16 @@
 var a20608 =
 [
-    [ "npc_xt002_heartAI", "dd/d43/a20608.html#a4bdfd8574fb343c800934d53424596bc", null ],
-    [ "AttackStart", "dd/d43/a20608.html#ac55f7e4215a7ae03f096778f71a952ef", null ],
-    [ "DamageTaken", "dd/d43/a20608.html#a97bc8a5934b9ed345416c1295813edd0", null ],
-    [ "DoAction", "dd/d43/a20608.html#a31476950c38e83b7436eab555d5cc7ff", null ],
-    [ "JustDied", "dd/d43/a20608.html#ac385cce7c349417a28f1d6673d9ae6cd", null ],
-    [ "JustSummoned", "dd/d43/a20608.html#aeae848dbb84417f563342b05e9339680", null ],
-    [ "MoveInLineOfSight", "dd/d43/a20608.html#ad077207bb0ae0498b208312ddbd7ed91", null ],
-    [ "SendEnergyToCorner", "dd/d43/a20608.html#a80204c6952b40770c0816f1895d70119", null ],
-    [ "SpellHitTarget", "dd/d43/a20608.html#aeb37afc22d7f77ce84e983e63fe7e78f", null ],
-    [ "SummonPiles", "dd/d43/a20608.html#a6180aaee9aaca9d2744cc6bef4265640", null ],
-    [ "UpdateAI", "dd/d43/a20608.html#ac58b8690136ed260020e76a0dc4f3432", null ],
-    [ "_damageDone", "dd/d43/a20608.html#aaa9f701197998f2cba942cc4f292a8f9", null ],
-    [ "_pummelerCount", "dd/d43/a20608.html#a8179da94f961897085289568468d2bba", null ],
-    [ "_spawnSelection", "dd/d43/a20608.html#a62187aab1a7fabedb1adaad33d422506", null ],
-    [ "_timerSpawn", "dd/d43/a20608.html#ad4f2db86cd841b96c20cea4469f4aed4", null ],
-    [ "summons", "dd/d43/a20608.html#a50869f121bf9d7aa790efb6c74799c83", null ]
+    [ "boss_ionarAI", "dd/d43/a20608.html#af212102febe4e0ef406475f5e1452695", null ],
+    [ "JustDied", "dd/d43/a20608.html#a12ad910d0838b1fbb626f761b70c86c5", null ],
+    [ "JustEngagedWith", "dd/d43/a20608.html#a17bff3df427ad65453cfc440e46f76fa", null ],
+    [ "KilledUnit", "dd/d43/a20608.html#aa74b2b6cd2358b11596d34357fac194c", null ],
+    [ "Reset", "dd/d43/a20608.html#acbb2807142af2ef570aec0f12c861d36", null ],
+    [ "ScheduleEvents", "dd/d43/a20608.html#ad3f0bf773bc091cc14491cd309a4b531", null ],
+    [ "SpellHit", "dd/d43/a20608.html#a5954749594cf76a2f8db7a61874a0279", null ],
+    [ "Split", "dd/d43/a20608.html#ab10351b157e6e370d910780febdbda74", null ],
+    [ "UpdateAI", "dd/d43/a20608.html#a41767f4b491b4d59824bac8854c3090d", null ],
+    [ "events", "dd/d43/a20608.html#ae87ba5970d8d4f9fc33b94dc9abefa2f", null ],
+    [ "HealthCheck", "dd/d43/a20608.html#a05006b60fa4e7b33f589ca87b3374aa5", null ],
+    [ "m_pInstance", "dd/d43/a20608.html#a752059e06a6971d94243f283ef75be91", null ],
+    [ "summons", "dd/d43/a20608.html#ac67332dd2f94ea8bdd7c7871bc022239", null ]
 ];

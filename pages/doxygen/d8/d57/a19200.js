@@ -1,15 +1,12 @@
 var a19200 =
 [
-    [ "boss_magus_telestraAI", "d8/d57/a19200.html#a132b0f8f429a6aac111f09d4c594c801", null ],
-    [ "AttackStart", "d8/d57/a19200.html#a7fca7c0f53bbedd94db219208fe48126", null ],
-    [ "GetData", "d8/d57/a19200.html#a7895fb69b2599cb2455ffff0917a212c", null ],
-    [ "JustDied", "d8/d57/a19200.html#a08128021b57ab81bec206426834e6d08", null ],
-    [ "JustEngagedWith", "d8/d57/a19200.html#aea4ebd0b209edf1fb09ed5980c76110f", null ],
-    [ "JustSummoned", "d8/d57/a19200.html#a5d0ae6cb3ea8de7b287ce6b4bfc90ad2", null ],
-    [ "KilledUnit", "d8/d57/a19200.html#aa9e83d5f251c38d76ed427f50532b501", null ],
-    [ "Reset", "d8/d57/a19200.html#a2819ee975f6e67785115874fc825f8d1", null ],
-    [ "SpellHit", "d8/d57/a19200.html#af7533998daf2ac7816286295e05645e9", null ],
-    [ "UpdateAI", "d8/d57/a19200.html#a95325e9e6525d158407410722a5afc1e", null ],
-    [ "achievement", "d8/d57/a19200.html#a16760ea58d6f66c713de25cfaf4deff4", null ],
-    [ "copiesDied", "d8/d57/a19200.html#a720e188dcf17c43f032b45c99228c855", null ]
+    [ "npc_strangulate_vehicleAI", "d8/d57/a19200.html#a58e79834ed3f463ad51eca703d1c99ef", null ],
+    [ "DoAction", "d8/d57/a19200.html#acf9d5a9e2f8b07f5ceb5ca75634e58fb", null ],
+    [ "IsHeroic", "d8/d57/a19200.html#adb6ae2cefeec245196d21dc1112b2d5c", null ],
+    [ "IsSummonedBy", "d8/d57/a19200.html#a381aec40cdcdf546d70b57a43978dbe9", null ],
+    [ "OnCharmed", "d8/d57/a19200.html#a40e5537897c452d35093920ddd3669b0", null ],
+    [ "PassengerBoarded", "d8/d57/a19200.html#a819746e13af95fa964c6da3d765a7c21", null ],
+    [ "UpdateAI", "d8/d57/a19200.html#a53f567b77b7dfd0ccb5a0d98c0f5ef26", null ],
+    [ "_events", "d8/d57/a19200.html#a19b493e994d246128f63d9109e87737a", null ],
+    [ "_instance", "d8/d57/a19200.html#a7a16fbe4723a95293db01d3a2d80b569", null ]
 ];

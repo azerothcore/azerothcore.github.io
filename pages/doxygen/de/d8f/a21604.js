@@ -1,6 +1,6 @@
 var a21604 =
 [
-    [ "npc_steam_powered_auctioneerAI", "d5/d7d/a21608.html", "d5/d7d/a21608" ],
-    [ "npc_steam_powered_auctioneer", "de/d8f/a21604.html#ae8c918c639ce0c3ddc14b8cf7f0ef855", null ],
-    [ "GetAI", "de/d8f/a21604.html#a39a2f0c187078c759bc4a391e0a81068", null ]
+    [ "spell_ignis_slag_pot_AuraScript", "d5/d7d/a21608.html", "d5/d7d/a21608" ],
+    [ "spell_ignis_slag_pot", "de/d8f/a21604.html#a25967a1dbd6efbe87517535673fc9831", null ],
+    [ "GetAuraScript", "de/d8f/a21604.html#a4d08de1acd7e6fcb50a8876b365d818d", null ]
 ];

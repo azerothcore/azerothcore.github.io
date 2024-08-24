@@ -1,8 +1,6 @@
 var a25792 =
 [
-    [ "HandleDummy", "df/d93/a25792.html#a13b4ea32e03dec26d0cdaa9537abb3b0", null ],
-    [ "Load", "df/d93/a25792.html#a78506404ba25b054a9ab3f7176a5d4fc", null ],
-    [ "PrepareSpellScript", "df/d93/a25792.html#a070e83b84feb418f02327240daebede7", null ],
-    [ "Register", "df/d93/a25792.html#a0c2965e62feb26ca764636fcd3a1f885", null ],
-    [ "Validate", "df/d93/a25792.html#a48934cde38c6f3b18087267b616ff338", null ]
+    [ "HandlePeriodic", "df/d93/a25792.html#a481bb370c1269cd811cf762efc22b3a9", null ],
+    [ "PrepareAuraScript", "df/d93/a25792.html#a0fb5cb696affa34ff6dc4692eb8e18e6", null ],
+    [ "Register", "df/d93/a25792.html#a642689a21ea1e63e28e1a57310748639", null ]
 ];

@@ -1,6 +1,6 @@
 var a22676 =
 [
-    [ "FilterTargets", "de/d72/a22676.html#abd3fafc2120b7069790dd9822cd62adc", null ],
-    [ "PrepareSpellScript", "de/d72/a22676.html#aebc0441481a2c458fc904175df931a9e", null ],
-    [ "Register", "de/d72/a22676.html#af1173988538ad44c27ea2ed9d49fe06d", null ]
+    [ "HandleScript", "de/d72/a22676.html#ac5f5d82e34a924524bdb8f1b2d9f2e07", null ],
+    [ "PrepareSpellScript", "de/d72/a22676.html#aad2f4314b8baba8efe18db46d81cd676", null ],
+    [ "Register", "de/d72/a22676.html#a0335d861e6002c9fa58563027dc22632", null ]
 ];

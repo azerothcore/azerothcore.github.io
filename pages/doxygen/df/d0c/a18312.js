@@ -1,6 +1,6 @@
 var a18312 =
 [
-    [ "boss_valithria_dreamwalkerAI", "df/dad/a18316.html", "df/dad/a18316" ],
-    [ "boss_valithria_dreamwalker", "df/d0c/a18312.html#afcc6dc92d94330d3aed67f71452f9cd2", null ],
-    [ "GetAI", "df/d0c/a18312.html#a0f0bacefa7e3d682a5db81a14f2ff947", null ]
+    [ "npc_vengeful_shadeAI", "df/dad/a18316.html", "df/dad/a18316" ],
+    [ "npc_vengeful_shade", "df/d0c/a18312.html#a99c535efd94fbd5bded8fd9555bb6eaf", null ],
+    [ "GetAI", "df/d0c/a18312.html#afa2c672015b43d83bd55050ed020f7e5", null ]
 ];

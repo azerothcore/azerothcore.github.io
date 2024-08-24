@@ -1,8 +1,5 @@
 var a22000 =
 [
-    [ "npc_llod_genericAI", "d3/ddf/a22000.html#ac75d85ae4b59416952788102cd1db132", null ],
-    [ "Reset", "d3/ddf/a22000.html#a15bd7442fef36a551cc8797f7919f57c", null ],
-    [ "UpdateAI", "d3/ddf/a22000.html#aa7dce553fb699127f63281b2c47a2f02", null ],
-    [ "attackTimer", "d3/ddf/a22000.html#a28a6e700d24995e477e7e7c4cc8b5d68", null ],
-    [ "summonTimer", "d3/ddf/a22000.html#aeeeef545aee565c14d86d8587923c677", null ]
+    [ "achievement_thorim_stand_in_the_lightning", "d3/ddf/a22000.html#a9339e89e4eb76151fdeacb6bcd53d7bc", null ],
+    [ "OnCheck", "d3/ddf/a22000.html#ade1aec4de4c503be5a62da3e6c35e90f", null ]
 ];

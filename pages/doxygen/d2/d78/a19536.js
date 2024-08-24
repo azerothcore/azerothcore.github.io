@@ -1,8 +1,7 @@
 var a19536 =
 [
-    [ "dark_rune_stormcallerAI", "d2/d78/a19536.html#ad889fb0c50e879c958c9b8bb681e4bf7", null ],
-    [ "JustEngagedWith", "d2/d78/a19536.html#a7ddfb8afac3ff28a84b26255628fab50", null ],
-    [ "Reset", "d2/d78/a19536.html#afa9cc2e1a9f7d21cd885479e9afdcd12", null ],
-    [ "UpdateAI", "d2/d78/a19536.html#adbd245fc5180dc7c78704595a9592864", null ],
-    [ "events", "d2/d78/a19536.html#aa7d8d1d075eeb03952b47cc16846a3db", null ]
+    [ "npc_captain_arnathAI", "d2/d78/a19536.html#a34e3d17b89010569bf7e9cb28361c2af", null ],
+    [ "FindFriendlyCreature", "d2/d78/a19536.html#ad6411d2a87d2552bea2051f80ca16e14", null ],
+    [ "Reset", "d2/d78/a19536.html#a016fbe51f31e1c5ec1636e8d20d8cb30", null ],
+    [ "UpdateAI", "d2/d78/a19536.html#a020efd7adc0d60152007906e3229988d", null ]
 ];

@@ -1,11 +1,9 @@
 var a23448 =
 [
-    [ "boss_kiggler_the_crazed", "db/d36/a23448.html#a6f6cd74a8d2b12809f2710f784340fda", null ],
-    [ "AttackStart", "db/d36/a23448.html#a47c18487637dcb911852573e3aec85a2", null ],
-    [ "JustDied", "db/d36/a23448.html#acf82f68ccfeabd33bc387dbe7ea0e997", null ],
-    [ "JustEngagedWith", "db/d36/a23448.html#acd10951a5b148579d0bd4196cc2e686e", null ],
-    [ "Reset", "db/d36/a23448.html#a3bd8ca2488b2db298a198038a849189e", null ],
-    [ "UpdateAI", "db/d36/a23448.html#a16e2b767ca4b05eba79726ccb6e11204", null ],
-    [ "_scheduler", "db/d36/a23448.html#af041c254910df663a03fcc815db635da", null ],
-    [ "instance", "db/d36/a23448.html#aa78db443f19814c66b977fe008de74fa", null ]
+    [ "npc_venture_co_stragglerAI", "db/d36/a23448.html#abc3cc04b89b95fd45969ba5859bf810c", null ],
+    [ "Reset", "db/d36/a23448.html#acfeaad9db95d0b391a64cc65ca3a1cee", null ],
+    [ "SpellHit", "db/d36/a23448.html#ae1919454c270d10342079b60a727a306", null ],
+    [ "UpdateAI", "db/d36/a23448.html#a0846336d8d1333e2c2f50731a722c3b7", null ],
+    [ "_events", "db/d36/a23448.html#a9cd6e6b549e10900f35838f04e10e0f5", null ],
+    [ "_playerGUID", "db/d36/a23448.html#a649493944b143782d995b5bdda3714b4", null ]
 ];

@@ -1,6 +1,6 @@
 var a23516 =
 [
-    [ "HandleScriptEffect", "dc/dd5/a23516.html#afae95a49843aa956d627e9bd92f8820f", null ],
-    [ "PrepareSpellScript", "dc/dd5/a23516.html#a434945da0a6b64db79cab0e09cbbb286", null ],
-    [ "Register", "dc/dd5/a23516.html#a396acb663b8c9151196b8fedea3660c7", null ]
+    [ "npc_attracted_reef_bullAI", "dc/d71/a23520.html", "dc/d71/a23520" ],
+    [ "npc_attracted_reef_bull", "dc/dd5/a23516.html#acd0ade9e7ce5492c11be0b3f2696418e", null ],
+    [ "GetAI", "dc/dd5/a23516.html#af705e2768cd41c955af7f944c670ac85", null ]
 ];

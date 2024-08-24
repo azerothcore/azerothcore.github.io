@@ -1,8 +1,6 @@
 var a12408 =
 [
-    [ "CalcPeriodic", "d2/def/a12408.html#a493609298c152df8216641ba2e5861cd", null ],
-    [ "PrepareAuraScript", "d2/def/a12408.html#a30c2bac7e939cf7de2141f6cdfa51619", null ],
-    [ "Register", "d2/def/a12408.html#a44002db5980dfc1db816cf61fd446491", null ],
-    [ "Update", "d2/def/a12408.html#a7a1fc11cf4183c7202a929c72035d8e7", null ],
-    [ "Validate", "d2/def/a12408.html#a060e189aaa4396681d42906b65c9196f", null ]
+    [ "boss_selin_fireheartAI", "d8/d8e/a12412.html", "d8/d8e/a12412" ],
+    [ "boss_selin_fireheart", "d2/def/a12408.html#a62357a6cb0ecc3cc8ffc7abcc7ee8b9c", null ],
+    [ "GetAI", "d2/def/a12408.html#ab5ac6797f01ed9f562cfa622919cc159", null ]
 ];

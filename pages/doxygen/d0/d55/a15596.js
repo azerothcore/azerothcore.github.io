@@ -1,7 +1,9 @@
 var a15596 =
 [
-    [ "go_troll_cageAI", "d0/d55/a15596.html#ae742afdb7a37d64bb852b7ecd076d007", null ],
-    [ "GossipHello", "d0/d55/a15596.html#a5c91cb491021b15ba70cc8ef5f07d037", null ],
-    [ "initBlyCrewMember", "d0/d55/a15596.html#a6bfb77ec97367d8704885acfef801b74", null ],
-    [ "instance", "d0/d55/a15596.html#ad5d736dd6cbe7a23d03f21004cae530d", null ]
+    [ "npc_thrall_warchiefAI", "d8/d09/a15600.html", "d8/d09/a15600" ],
+    [ "npc_thrall_warchief", "d0/d55/a15596.html#a3958f0b444537ac8a5ebf55de44e3590", null ],
+    [ "GetAI", "d0/d55/a15596.html#a4fc3d5410b959b4289f1ced17d412c03", null ],
+    [ "OnGossipHello", "d0/d55/a15596.html#a5cd40c062fb07d2ddfffdc159f2935d3", null ],
+    [ "OnGossipSelect", "d0/d55/a15596.html#a63367ca0b252c148f625b305575fd768", null ],
+    [ "OnQuestReward", "d0/d55/a15596.html#aea53462e94121ad44e366d2743807c3c", null ]
 ];

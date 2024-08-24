@@ -1,6 +1,6 @@
 var a21948 =
 [
-    [ "npc_attracted_reef_bullAI", "d4/d82/a21948.html#aa8917a912fb31a5987332e53e8d268e7", null ],
-    [ "MovementInform", "d4/d82/a21948.html#a79d9539243f178a2989f017c5f9ebc8c", null ],
-    [ "SpellHit", "d4/d82/a21948.html#ab06ee7ef84d881262ae682b69fae3135", null ]
+    [ "boss_thorim_gauntlet_npcsAI", "de/d72/a21952.html", "de/d72/a21952" ],
+    [ "boss_thorim_gauntlet_npcs", "d4/d82/a21948.html#abdf2e90c5b86d3724fac46bff5e15d97", null ],
+    [ "GetAI", "d4/d82/a21948.html#a2a71153ed2a9091de6668ab0b6f7674f", null ]
 ];

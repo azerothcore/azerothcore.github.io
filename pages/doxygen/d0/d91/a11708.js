@@ -1,6 +1,5 @@
 var a11708 =
 [
-    [ "boss_lord_valthalakAI", "dd/da1/a11712.html", "dd/da1/a11712" ],
-    [ "boss_lord_valthalak", "d0/d91/a11708.html#a180ecb2e2b11ee79c80de18124de3dbc", null ],
-    [ "GetAI", "d0/d91/a11708.html#a771bd8ff3918d71007b5e4b05baf3df3", null ]
+    [ "go_orb_of_domination", "d0/d91/a11708.html#a1d4659e21344a12ec6084ef7ef5df7d0", null ],
+    [ "OnGossipHello", "d0/d91/a11708.html#aa88cebf1bd539b55cf63f10a25cc1bbb", null ]
 ];

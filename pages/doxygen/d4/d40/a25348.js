@@ -1,7 +1,10 @@
 var a25348 =
 [
-    [ "HandleDummy", "d4/d40/a25348.html#a4b23e39151d0bced8bb729435a56352d", null ],
-    [ "Load", "d4/d40/a25348.html#aaa341815d71652a13f3ca449af6ac14f", null ],
-    [ "PrepareSpellScript", "d4/d40/a25348.html#ac0e7d279312a59dd62d7d91eb3ef82b7", null ],
-    [ "Register", "d4/d40/a25348.html#a19a2247cebd2af38a1bd30af213ad633", null ]
+    [ "boss_high_king_maulgar", "d4/d40/a25348.html#a8a835570bd4ff5361b2025b2aaeec91f", null ],
+    [ "DoAction", "d4/d40/a25348.html#a210e9c3d42e9201b9fbee0d7776cbcc5", null ],
+    [ "JustDied", "d4/d40/a25348.html#ad235febd755745313b72394c633c3723", null ],
+    [ "JustEngagedWith", "d4/d40/a25348.html#a6ad48aba60a01df62c1ae62e6480a14d", null ],
+    [ "KilledUnit", "d4/d40/a25348.html#a2059016597039929103c053d6524ebf7", null ],
+    [ "Reset", "d4/d40/a25348.html#adf1bf1c8c75fc9bbed871af157c6663c", null ],
+    [ "UpdateAI", "d4/d40/a25348.html#ae540909dbbb3cf93e37503cd755c3001", null ]
 ];

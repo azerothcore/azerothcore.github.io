@@ -1,7 +1,6 @@
 var a14472 =
 [
-    [ "OnPeriodic", "d6/db8/a14472.html#a4ed63f32afe3831d7fb08333ff1d379f", null ],
-    [ "PrepareAuraScript", "d6/db8/a14472.html#a74be4e2b0f9c6254a87a7cfb8159fc9b", null ],
-    [ "Register", "d6/db8/a14472.html#aeb388d608830aeb3b30f707304403b41", null ],
-    [ "Validate", "d6/db8/a14472.html#af27768000c5c3232a1264f4f1f2bd7b3", null ]
+    [ "boss_anetheronAI", "db/d07/a14476.html", "db/d07/a14476" ],
+    [ "boss_anetheron", "d6/db8/a14472.html#a070d17039385be381e9923e6afa4f28f", null ],
+    [ "GetAI", "d6/db8/a14472.html#ac35e5d1a0df1c174b8f24d5a37bd2fc4", null ]
 ];

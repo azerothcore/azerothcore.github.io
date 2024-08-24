@@ -1,6 +1,5 @@
 var a11748 =
 [
-    [ "boss_rend_blackhandAI", "d7/d74/a11752.html", "d7/d74/a11752" ],
-    [ "boss_rend_blackhand", "d6/dce/a11748.html#afd12818c33de25332bf207f30c8490a1", null ],
-    [ "GetAI", "d6/dce/a11748.html#aed65d31a5a841af8aed015555bf811cb", null ]
+    [ "at_orb_of_command", "d6/dce/a11748.html#a1f0b196362b76e050eba66d3ce612623", null ],
+    [ "OnTrigger", "d6/dce/a11748.html#a8d30d303c72d5eaf59222c890ab13ca3", null ]
 ];

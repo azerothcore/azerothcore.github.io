@@ -1,6 +1,6 @@
 var a26332 =
 [
-    [ "HandleDummy", "d3/d66/a26332.html#afb85971597df327fa44271ee0c4b3d04", null ],
-    [ "PrepareSpellScript", "d3/d66/a26332.html#a43052fedbec62cfbdbbf24fbfcbca047", null ],
-    [ "Register", "d3/d66/a26332.html#a7a249dd2bcdccf1a19d151d041a25215", null ]
+    [ "HandleEffectRemove", "d3/d66/a26332.html#a6685165ea628aea8ca619404c8d52523", null ],
+    [ "PrepareAuraScript", "d3/d66/a26332.html#a64cc381b6d4db77c60629dfc5a5df9c6", null ],
+    [ "Register", "d3/d66/a26332.html#a3f5e39754a79dcd6048136372dae70a6", null ]
 ];

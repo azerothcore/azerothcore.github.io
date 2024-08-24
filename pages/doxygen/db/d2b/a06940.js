@@ -1,21 +1,11 @@
 var a06940 =
 [
-    [ "BfGraveyard", "db/d2b/a06940.html#a2e10ab7e731167473f5bbf194163660d", null ],
-    [ "AddPlayer", "db/d2b/a06940.html#acce3c0eade3e8e8afe08359de4dd7c88", null ],
-    [ "GetControlTeamId", "db/d2b/a06940.html#ac417eb4b9ff8f7c6f19e2148eb81131c", null ],
-    [ "GetDistance", "db/d2b/a06940.html#ae290db2a83278c27803d62267aebfb71", null ],
-    [ "GetGraveyardId", "db/d2b/a06940.html#ac7944db0403c37282ca90550f8ca4118", null ],
-    [ "GiveControlTo", "db/d2b/a06940.html#a9fe22d9ebbe1b652322b9a8e5f18ee91", null ],
-    [ "HasNpc", "db/d2b/a06940.html#a5f02be27972ae3f9aa8213ddb8c8b8d2", null ],
-    [ "HasPlayer", "db/d2b/a06940.html#ae85731d5d7d184749be9ec8704dde5e5", null ],
-    [ "Initialize", "db/d2b/a06940.html#ac81acd9801591e13c9f26d625d004b2f", null ],
-    [ "RelocateDeadPlayers", "db/d2b/a06940.html#ae0c6607ccfd39a3bf6806d437ce114ae", null ],
-    [ "RemovePlayer", "db/d2b/a06940.html#af21ac9d3e58cfedc9c12316e77eb875c", null ],
-    [ "Resurrect", "db/d2b/a06940.html#a94569ad820914c1f467aeaf30f977c3e", null ],
-    [ "SetSpirit", "db/d2b/a06940.html#ab4385a55321e8cf90e91bd10a04f1ddf", null ],
-    [ "m_Bf", "db/d2b/a06940.html#aa8e80e3722d725b02bfb5d450998f01a", null ],
-    [ "m_ControlTeam", "db/d2b/a06940.html#ab008468a642fb2fa450fb881704c4fbb", null ],
-    [ "m_GraveyardId", "db/d2b/a06940.html#a88e2a83e4aa220da8bc6036c2eb3fde0", null ],
-    [ "m_ResurrectQueue", "db/d2b/a06940.html#aa70f427dfa7ddd551c3880a8cc3ce445", null ],
-    [ "m_SpiritGuide", "db/d2b/a06940.html#aa8a700b633c79c7887cccebffceb772b", null ]
+    [ "BattlegroundWGScore", "db/d2b/a06940.html#a43b7933c5e217376e5bb10e9b5bb208b", null ],
+    [ "BuildObjectivesBlock", "db/d2b/a06940.html#a804e56dbd666336d961cce2b0e4d6452", null ],
+    [ "GetAttr1", "db/d2b/a06940.html#aab49f39d88989b153f1eb979fbbfaeb3", null ],
+    [ "GetAttr2", "db/d2b/a06940.html#a191e205e08ef15cc36dabedc32614fd2", null ],
+    [ "UpdateScore", "db/d2b/a06940.html#aa560d7f5f13dd235d43a9e3571090055", null ],
+    [ "BattlegroundWS", "db/d2b/a06940.html#a4285b67c5d8593dce759422a4eb78c77", null ],
+    [ "FlagCaptures", "db/d2b/a06940.html#a23ff00f10d07c1a601e9e1d0eb05b1da", null ],
+    [ "FlagReturns", "db/d2b/a06940.html#ab400c9fb692ff157eb4809f0536c05f7", null ]
 ];

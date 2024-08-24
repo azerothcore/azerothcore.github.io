@@ -1,6 +1,6 @@
 var a13772 =
 [
-    [ "boss_gahzrankaAI", "df/d36/a13776.html", "df/d36/a13776" ],
-    [ "boss_gahzranka", "d2/d12/a13772.html#a9d8e4def6fc00535eef5810127c91e12", null ],
-    [ "GetAI", "d2/d12/a13772.html#a88295e62ebacccc55dc32731863cc041", null ]
+    [ "spell", "d2/d12/a13772.html#a55423d09b2f1775dc386a36168ad764d", null ],
+    [ "text", "d2/d12/a13772.html#ab604ad9429083f2e94f6a8d026bc46a5", null ],
+    [ "unaura", "d2/d12/a13772.html#a1b71fc628793ccb9027687b31d9ebcb0", null ]
 ];

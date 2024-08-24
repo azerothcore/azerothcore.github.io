@@ -1,6 +1,6 @@
 var a25864 =
 [
-    [ "OnPeriodic", "d7/d15/a25864.html#a889285ef034aaa7eaaa8e86fb5380cf0", null ],
-    [ "PrepareAuraScript", "d7/d15/a25864.html#a3fd2da3d7b1b8a78916515b7e3e188cf", null ],
-    [ "Register", "d7/d15/a25864.html#a62e5ab81f9548e4d983d0c4dde14eaad", null ]
+    [ "boss_void_reaverAI", "df/d49/a25868.html", "df/d49/a25868" ],
+    [ "boss_void_reaver", "d7/d15/a25864.html#a9becc71d12c72bd5c0cde20d5f2c100b", null ],
+    [ "GetAI", "d7/d15/a25864.html#a96aa3f6a0b5517f73f1d74412dc3b01d", null ]
 ];

@@ -1,8 +1,7 @@
 var a28248 =
 [
-    [ "Color", "dc/d4d/a28248.html#a670fb4e2a31958f81d46047f74d9916f", null ],
-    [ "Comparator", "dc/d4d/a28248.html#ace0bdad11edd9db12e45d374da623793", null ],
-    [ "CompareColor", "dc/d4d/a28248.html#a801e2221bbb1b6aab67a57381901cf08", null ],
-    [ "ID", "dc/d4d/a28248.html#aae73769db40326d298bb1d04eef38871", null ],
-    [ "Value", "dc/d4d/a28248.html#ac314a9a6b447d386e31a286811f66538", null ]
+    [ "HandleEffectRemove", "dc/d4d/a28248.html#a814687d3938e966f8721438e1a722f77", null ],
+    [ "PrepareAuraScript", "dc/d4d/a28248.html#a2144b0602501471a4001883ce9de6db3", null ],
+    [ "Register", "dc/d4d/a28248.html#a9d696dc7e58692216fa1cf6cc7c011a9", null ],
+    [ "AuraEffectHandleModes", "dc/d4d/a28248.html#ab291f6c6f269ec7004df39a043f49efd", null ]
 ];

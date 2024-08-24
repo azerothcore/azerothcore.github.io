@@ -1,8 +1,8 @@
 var a13920 =
 [
-    [ "npc_spawn_of_marli", "de/d8f/a13920.html#a1dcd5066de108203903f5767c4b375ea", null ],
-    [ "JustEngagedWith", "de/d8f/a13920.html#a1b8afff5d90df02d16b81785026b2ff0", null ],
-    [ "Reset", "de/d8f/a13920.html#a79ef192d41af75e0dad0494776c75189", null ],
-    [ "UpdateAI", "de/d8f/a13920.html#a1c456e7deb43d2e4dd1abc6f702c3f75", null ],
-    [ "_scheduler", "de/d8f/a13920.html#ae9d30ec62ff25a454824ff4334ad2d99", null ]
+    [ "npc_batrider", "de/d8f/a13920.html#a6304a39ea92d48508a17dc059c47bc1b", null ],
+    [ "JustEngagedWith", "de/d8f/a13920.html#a90443128978c6454f058b16899eade5b", null ],
+    [ "Reset", "de/d8f/a13920.html#abee249da6f3bb6c2fd859812b02d7b65", null ],
+    [ "UpdateAI", "de/d8f/a13920.html#a84eae0bbc8ea1ff2e38a4cc375fee8e6", null ],
+    [ "_scheduler", "de/d8f/a13920.html#ad90beb6685c031a8b0ce4ec8ea3daa3f", null ]
 ];

@@ -1,6 +1,6 @@
 var a20132 =
 [
-    [ "DestroyWinterCache", "d5/de2/a20132.html#a4f4d8998d611354bce4f5531e6029d6b", null ],
-    [ "PrepareSpellScript", "d5/de2/a20132.html#a67e36939554e13ddb7fb7493968fbc3f", null ],
-    [ "Register", "d5/de2/a20132.html#a5ac6314b0a016adafd7c6e87289b5649", null ]
+    [ "boss_patchwerkAI", "d6/d0f/a20136.html", "d6/d0f/a20136" ],
+    [ "boss_patchwerk", "d5/de2/a20132.html#a526983c4f5191a839ba4a017ac2d14e4", null ],
+    [ "GetAI", "d5/de2/a20132.html#a03f2dec61192405760958e26d998d67e", null ]
 ];

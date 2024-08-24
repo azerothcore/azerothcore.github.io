@@ -1,6 +1,6 @@
 var a16236 =
 [
-    [ "npc_toc_paladinAI", "da/de1/a16240.html", "da/de1/a16240" ],
-    [ "npc_toc_paladin", "d3/d7a/a16236.html#af11025a2a4be2b2c982ad31241d47180", null ],
-    [ "GetAI", "d3/d7a/a16236.html#a15766ea4414701040c738251302177af", null ]
+    [ "HandlePeriodic", "d3/d7a/a16236.html#a78357674b106685548ae1cf002ad4c98", null ],
+    [ "PrepareAuraScript", "d3/d7a/a16236.html#a98b2eb3b23ae4ab913350fd7376e043e", null ],
+    [ "Register", "d3/d7a/a16236.html#a3af7e0e5519d4defb6029fb2de22ec11", null ]
 ];

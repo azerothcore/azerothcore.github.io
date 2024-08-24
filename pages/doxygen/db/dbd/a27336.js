@@ -1,6 +1,6 @@
 var a27336 =
 [
-    [ "trigger_periodicAI", "df/d65/a27340.html", "df/d65/a27340" ],
-    [ "trigger_periodic", "db/dbd/a27336.html#a3c947c5a3092eecb7288a8a50c76bd14", null ],
-    [ "GetAI", "db/dbd/a27336.html#a179f3aa69fcd0b145f4ede9f830c1f38", null ]
+    [ "PrepareSpellScript", "db/dbd/a27336.html#abb178100d4e5fa4032118f86aa34127d", null ],
+    [ "Register", "db/dbd/a27336.html#a50e902cc281b909259097a8bed5651f2", null ],
+    [ "RemoveVehicleAuras", "db/dbd/a27336.html#a4ec803f3164d6e38ddf10f4a0ca392e0", null ]
 ];

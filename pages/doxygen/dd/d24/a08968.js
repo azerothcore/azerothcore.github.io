@@ -1,10 +1,19 @@
 var a08968 =
 [
-    [ "NearestGameObjectEntryInObjectRangeCheck", "dd/d24/a08968.html#a7d57ae865868d4848caf088c4520b2a7", null ],
-    [ "NearestGameObjectEntryInObjectRangeCheck", "dd/d24/a08968.html#a28d97af524c2bab39e1bd2e5508e434b", null ],
-    [ "operator()", "dd/d24/a08968.html#ad0c6798e28784ed547102414f4c6a31f", null ],
-    [ "i_entry", "dd/d24/a08968.html#a5d19a23e7da2e5e5ed417d0a9623ffbb", null ],
-    [ "i_obj", "dd/d24/a08968.html#a104b8bece6ea78ba049dc592e54311be", null ],
-    [ "i_onlySpawned", "dd/d24/a08968.html#a2a58a6bcff73142e21c082bf2c11eff2", null ],
-    [ "i_range", "dd/d24/a08968.html#a94fc995a14f84060f3bfe5827f17b95e", null ]
+    [ "GuildContainer", "dd/d24/a08968.html#aa9afb05ecb2eb6ee427503a4ea76f7ca", null ],
+    [ "GuildMgr", "dd/d24/a08968.html#a0d4a44461eb4c54ddb6646dfd1c11a68", null ],
+    [ "~GuildMgr", "dd/d24/a08968.html#ae90afb785961e122afc419a61dfb20c1", null ],
+    [ "AddGuild", "dd/d24/a08968.html#a5b63dae4f2252c452c797b83477d2280", null ],
+    [ "GenerateGuildId", "dd/d24/a08968.html#a8ad7c4fc3e292e6cecd4964ad22cd135", null ],
+    [ "GetGuildById", "dd/d24/a08968.html#a04f4586ea6461c6f7165efba2bf666a1", null ],
+    [ "GetGuildByLeader", "dd/d24/a08968.html#a5198534a243b70104ce17a7871fcfb27", null ],
+    [ "GetGuildByName", "dd/d24/a08968.html#af9ff736e84a18d8dfce3826c9459df37", null ],
+    [ "GetGuildNameById", "dd/d24/a08968.html#ad32af675831da389755da5f3e4e47361", null ],
+    [ "instance", "dd/d24/a08968.html#aef69fd59528ec594c76ae390a4ba05bd", null ],
+    [ "LoadGuilds", "dd/d24/a08968.html#ac1eb56686e276e11838e9150696b5045", null ],
+    [ "RemoveGuild", "dd/d24/a08968.html#a51728f1c2780cdb105cb35947739cbd7", null ],
+    [ "ResetTimes", "dd/d24/a08968.html#ad2670ee42ff5252a879ccc5cbb730833", null ],
+    [ "SetNextGuildId", "dd/d24/a08968.html#ae1ae88575b7fcb37d4ee1d76f79c0c45", null ],
+    [ "GuildStore", "dd/d24/a08968.html#a174158d11bf6102462a094ff4a8fa402", null ],
+    [ "NextGuildId", "dd/d24/a08968.html#a75e150f66ebccfc05824a4f7b66a9210", null ]
 ];

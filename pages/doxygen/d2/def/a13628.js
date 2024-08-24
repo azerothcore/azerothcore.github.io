@@ -1,7 +1,6 @@
 var a13628 =
 [
-    [ "boss_fenstalkerAI", "d2/def/a13628.html#a971234c97e2769a2fbf36b7a954198df", null ],
-    [ "Reset", "d2/def/a13628.html#a91865286d096bcd5bc89a2b69addb422", null ],
-    [ "UpdateAI", "d2/def/a13628.html#a6f1f861ff540f54eb99a30909feb922b", null ],
-    [ "volatileinf_timer", "d2/def/a13628.html#ae18ae9cf7bcaff73bb341593b8d8b816", null ]
+    [ "npc_halazzi_lynxAI", "d1/de1/a13632.html", "d1/de1/a13632" ],
+    [ "npc_halazzi_lynx", "d2/def/a13628.html#a5f66f9d984506a3f8b70ebdde8f49df6", null ],
+    [ "GetAI", "d2/def/a13628.html#acfe913656f71658686b11afe6019579b", null ]
 ];

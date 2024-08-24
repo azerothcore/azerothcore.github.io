@@ -1,13 +1,11 @@
 var a08208 =
 [
-    [ "UpdateData", "d8/d8a/a08208.html#a7164bb9338d6362f427d75025c9026b6", null ],
-    [ "AddOutOfRangeGUID", "d8/d8a/a08208.html#a4c68f187e2f6e65da3bdb6a443ebcacf", null ],
-    [ "AddUpdateBlock", "d8/d8a/a08208.html#a620f0036078833a3b5ce1245274595f8", null ],
-    [ "AddUpdateBlock", "d8/d8a/a08208.html#af770dbf9bc4e4da1b97aba73b152b23b", null ],
-    [ "BuildPacket", "d8/d8a/a08208.html#a3bea592b01b6c9e41b863c26fd602d45", null ],
-    [ "Clear", "d8/d8a/a08208.html#adc0750db190d94fed3bfef72da75066c", null ],
-    [ "HasData", "d8/d8a/a08208.html#a067577372028ad59aea7942f0cd4a5c2", null ],
-    [ "m_blockCount", "d8/d8a/a08208.html#a791f9606867a40d018f67600e338a08e", null ],
-    [ "m_data", "d8/d8a/a08208.html#ac21a3bda51f8d1d2b71be6d00d760e38", null ],
-    [ "m_outOfRangeGUIDs", "d8/d8a/a08208.html#a60f7b1745f84b24b25c94625145dd5a2", null ]
+    [ "UnitActionBarEntry", "d8/d8a/a08208.html#a41f9020c4811b14fc543ddece6af86d7", null ],
+    [ "GetAction", "d8/d8a/a08208.html#afd77e2f64ec856059759d05ddf77876e", null ],
+    [ "GetType", "d8/d8a/a08208.html#a0615e6ad9cf5523d6dc85bd529e65f32", null ],
+    [ "IsActionBarForSpell", "d8/d8a/a08208.html#a2af43ec77fcd077b2fe9ca3a6d80123b", null ],
+    [ "SetAction", "d8/d8a/a08208.html#aa00953783b0b3de3beb755a054c77730", null ],
+    [ "SetActionAndType", "d8/d8a/a08208.html#a110840d38445795957ee0425175b4fb6", null ],
+    [ "SetType", "d8/d8a/a08208.html#a38e0dcad391d09e475f90be5a5382f78", null ],
+    [ "packedData", "d8/d8a/a08208.html#aa50957a4c707ce3dbdfd62a75e3cb8eb", null ]
 ];

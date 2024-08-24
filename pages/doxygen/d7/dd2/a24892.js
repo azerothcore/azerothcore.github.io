@@ -1,6 +1,6 @@
 var a24892 =
 [
-    [ "CheckProc", "d7/dd2/a24892.html#a21cda631d861161c370a44a2fd2fd2f7", null ],
-    [ "PrepareAuraScript", "d7/dd2/a24892.html#a861caa47c502c42fa84d9f9de74df024", null ],
-    [ "Register", "d7/dd2/a24892.html#ab4275de186b6841a1f424863cb6c128c", null ]
+    [ "spell_black_temple_bloodbolt_SpellScript", "df/d7b/a24896.html", "df/d7b/a24896" ],
+    [ "spell_black_temple_bloodbolt", "d7/dd2/a24892.html#adb48b0c059596a7a2042c6429d215b84", null ],
+    [ "GetSpellScript", "d7/dd2/a24892.html#a18ff2df7efda93ceb546a4152e838931", null ]
 ];

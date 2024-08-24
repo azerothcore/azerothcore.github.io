@@ -1,6 +1,6 @@
 var a25828 =
 [
-    [ "HandleScriptEffect", "db/d61/a25828.html#a14df2ed73118826254a6ffa923063f6c", null ],
-    [ "PrepareSpellScript", "db/d61/a25828.html#a1b20ba3fe209ebf0100f32d4013f2d08", null ],
-    [ "Register", "db/d61/a25828.html#ac70a96209898dc6f2c7b2532dc9f5e6c", null ]
+    [ "spell_kaelthas_flame_strike_AuraScript", "d2/df3/a25832.html", "d2/df3/a25832" ],
+    [ "spell_kaelthas_flame_strike", "db/d61/a25828.html#a5c5ded6724be16d04a1e346fff579801", null ],
+    [ "GetAuraScript", "db/d61/a25828.html#a7d107277d866e65cec6ad55fa8750bf0", null ]
 ];

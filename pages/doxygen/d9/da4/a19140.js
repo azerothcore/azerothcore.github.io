@@ -1,5 +1,6 @@
 var a19140 =
 [
-    [ "go_the_focusing_iris", "d9/da4/a19140.html#a9c2fa1e739ff98ebdd9b9fdcc2ab5ece", null ],
-    [ "OnGossipHello", "d9/da4/a19140.html#a7f3f1170713d63f912ca5732453a7e33", null ]
+    [ "spell_the_lich_king_cast_back_to_caster_SpellScript", "dc/d53/a19144.html", "dc/d53/a19144" ],
+    [ "spell_the_lich_king_cast_back_to_caster", "d9/da4/a19140.html#a53747fdcc3e36ee955b64093da641ced", null ],
+    [ "GetSpellScript", "d9/da4/a19140.html#a9f4439d27fc3a329bfd78db426fb0702", null ]
 ];

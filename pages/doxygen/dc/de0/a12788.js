@@ -1,7 +1,9 @@
 var a12788 =
 [
-    [ "OnApply", "dc/de0/a12788.html#af266d5c798e43fc4d7065cb0a1e5cf7c", null ],
-    [ "OnRemove", "dc/de0/a12788.html#a764f5c726042ddae0f352b326d23866b", null ],
-    [ "PrepareAuraScript", "dc/de0/a12788.html#ace35d5e3231daf694281cd54e4e79c94", null ],
-    [ "Register", "dc/de0/a12788.html#a7f44154ce5949661d62bc066939c7ea0", null ]
+    [ "HandleDummyTick", "dc/de0/a12788.html#aeeb63cb6e662c7e513b5953eb81b2cb1", null ],
+    [ "Load", "dc/de0/a12788.html#a4928bafbfbf01bdcc2cb970c50a83b32", null ],
+    [ "OnApply", "dc/de0/a12788.html#a88a767f3e15c6e70932c51f1aa8d61f2", null ],
+    [ "PrepareAuraScript", "dc/de0/a12788.html#a99473b1f1c13e5e7167a674d3e4e2a8d", null ],
+    [ "Register", "dc/de0/a12788.html#ac6ab0bc5a9b9f3b5643d59b103891b4b", null ],
+    [ "_forsakenSpell", "dc/de0/a12788.html#a02c0334f5154d908ab022d4acf41ef40", null ]
 ];

@@ -1,9 +1,6 @@
 var a23984 =
 [
-    [ "npc_wounded_blood_elfAI", "de/d19/a23984.html#a2dfcd5fa17b56c44f4056ecf4861af6e", null ],
-    [ "JustEngagedWith", "de/d19/a23984.html#aba950ba77ff71508263cc54b28c7725b", null ],
-    [ "JustSummoned", "de/d19/a23984.html#aa97f5294981c44b530efca1411458a97", null ],
-    [ "Reset", "de/d19/a23984.html#a8e6be35a3079998f3bab829f5d963c71", null ],
-    [ "sQuestAccept", "de/d19/a23984.html#a56c157928c24daae6edacd5a126ef171", null ],
-    [ "WaypointReached", "de/d19/a23984.html#a5affcb00e28a582f8926ab2226001cd0", null ]
+    [ "spell_wg_reduce_damage_by_distance_SpellScript", "d1/d5d/a23988.html", "d1/d5d/a23988" ],
+    [ "spell_wg_reduce_damage_by_distance", "de/d19/a23984.html#ac1334d662c4ec4cbe00469af6e82a94a", null ],
+    [ "GetSpellScript", "de/d19/a23984.html#acc9570f42f736f17df7c06ad501a378b", null ]
 ];

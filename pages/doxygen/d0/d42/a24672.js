@@ -1,8 +1,6 @@
 var a24672 =
 [
-    [ "AfterRemove", "d0/d42/a24672.html#afdd1575bce3b34da6e3a101eaa695c41", null ],
-    [ "HandleDispel", "d0/d42/a24672.html#a3c2ffe31074115f6cab5f4b18b05dbc3", null ],
-    [ "PrepareAuraScript", "d0/d42/a24672.html#a44e66753516d693c31dba27c9d1ad250", null ],
-    [ "Register", "d0/d42/a24672.html#aa21ecabbf52b457e163f17b3012b0f84", null ],
-    [ "Validate", "d0/d42/a24672.html#a6af7e5aa16b3c84ed1388e2f62424701", null ]
+    [ "spell_teron_gorefiend_shadow_of_death_AuraScript", "dc/d43/a24676.html", "dc/d43/a24676" ],
+    [ "spell_teron_gorefiend_shadow_of_death", "d0/d42/a24672.html#a1d34f24fc50c45ee1bbaba42837c3bd4", null ],
+    [ "GetAuraScript", "d0/d42/a24672.html#ace2fbf71eab606dfcc5fecb7cfea3116", null ]
 ];

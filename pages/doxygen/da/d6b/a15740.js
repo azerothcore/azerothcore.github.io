@@ -1,7 +1,7 @@
 var a15740 =
 [
-    [ "HandleEffectRemove", "da/d6b/a15740.html#a45ed6d3f1c80dcef3ee6c59e744f13c6", null ],
-    [ "PrepareAuraScript", "da/d6b/a15740.html#a34b88963dd81e6a8855daaedb9c238d4", null ],
-    [ "Register", "da/d6b/a15740.html#a7c0533650e772713233ea45b0264cbff", null ],
-    [ "Validate", "da/d6b/a15740.html#a7690603bd7b01ca6da2a73ac8ed36114", null ]
+    [ "npc_paoka_swiftmountainAI", "dd/d34/a15744.html", "dd/d34/a15744" ],
+    [ "npc_paoka_swiftmountain", "da/d6b/a15740.html#abb3f6fab7cca158c2e139159430f880a", null ],
+    [ "GetAI", "da/d6b/a15740.html#a3f41d2caae5acb4b79bcc75780db03d2", null ],
+    [ "OnQuestAccept", "da/d6b/a15740.html#a5bd4442350daf5a19bee1037a1b4d7b3", null ]
 ];

@@ -1,8 +1,6 @@
 var a15648 =
 [
-    [ "HandleAfterCast", "db/d71/a15648.html#aa85852ff5e5d03637d1dcc43a446843e", null ],
-    [ "HandleDummyEffect", "db/d71/a15648.html#a539c233fc820248930e1988c4074b9c8", null ],
-    [ "Load", "db/d71/a15648.html#a4fc295b4d8775dce16d913fe4a8ce8cb", null ],
-    [ "PrepareSpellScript", "db/d71/a15648.html#aad6f7f1d29414475b5e678e7bd94737f", null ],
-    [ "Register", "db/d71/a15648.html#ae90184fd34636b33755b732ec82fd52f", null ]
+    [ "go_wind_stoneAI", "de/dbd/a15652.html", "de/dbd/a15652" ],
+    [ "go_wind_stone", "db/d71/a15648.html#a70c4bcb743b0d587caad4b574c589e3e", null ],
+    [ "GetAI", "db/d71/a15648.html#ab7add0fe4e58eec422e37ae04b9338df", null ]
 ];

@@ -1,8 +1,10 @@
 var a26740 =
 [
-    [ "HandleDummyTick", "df/d76/a26740.html#ad35d90e5cdd68f4c1d3172a0860274bd", null ],
-    [ "HandleRemove", "df/d76/a26740.html#a92f2bb73ec58832eaada3c7140f7868d", null ],
-    [ "PrepareAuraScript", "df/d76/a26740.html#a06e45d5f63ef1395b5949482e8393098", null ],
-    [ "Register", "df/d76/a26740.html#abf1d49720ae43d4ed2fb1c2920387ace", null ],
-    [ "Validate", "df/d76/a26740.html#a9a2da4d163a96526e14f5de76798a784", null ]
+    [ "HandleEffectRemove", "df/d76/a26740.html#a3b43cfcbbfa8fdbf170c76dd12b72074", null ],
+    [ "HandleImprovedBloodPresence", "df/d76/a26740.html#a020c0ae1f74856ae070ab2104232a079", null ],
+    [ "HandleImprovedFrostPresence", "df/d76/a26740.html#a262bfd40ee2f2d8ed793f999f660ba28", null ],
+    [ "HandleImprovedUnholyPresence", "df/d76/a26740.html#a5da86bb3686327787da5f46fc756f0a0", null ],
+    [ "PrepareAuraScript", "df/d76/a26740.html#a96453bb078359e46665e0eaa2a6cf6d1", null ],
+    [ "Register", "df/d76/a26740.html#a6534d2b5bca9a50830d20b08bfc1b84e", null ],
+    [ "Validate", "df/d76/a26740.html#afc23187a3a6dd48f2ad84ef354e36f3a", null ]
 ];

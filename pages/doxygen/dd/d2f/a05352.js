@@ -1,6 +1,10 @@
 var a05352 =
 [
-    [ "operator()", "dd/d2f/a05352.html#a0221f13bb39f5087bce33b6075edaf3b", null ],
-    [ "operator+=", "dd/d2f/a05352.html#a685854261b2714cf924622e58a88e6b6", null ],
-    [ "functions", "dd/d2f/a05352.html#aae8c666d695a517a3ad1e08afa8c355a", null ]
+    [ "FreezeDetector", "d5/d8e/a04448.html#gae4bea4699ff716ee22295d12bc9f1b9b", null ],
+    [ "Handler", "d5/d8e/a04448.html#gad4c4e5b291e0c6c2dc169a7dbffdfabb", null ],
+    [ "Start", "d5/d8e/a04448.html#ga6a90ff702a8d363bd23334c81e2e5770", null ],
+    [ "_lastChangeMsTime", "d5/d8e/a04448.html#ga0a2b971b7ea733d846be71abf7b5dc1d", null ],
+    [ "_maxCoreStuckTimeInMs", "d5/d8e/a04448.html#ga54077eab38ea5d0db27f08c50fd0652e", null ],
+    [ "_timer", "d5/d8e/a04448.html#ga3869080cb36ab9d4f244b9f10280550a", null ],
+    [ "_worldLoopCounter", "d5/d8e/a04448.html#ga0ea988a0e070d056c16d7c9f3b1035f4", null ]
 ];

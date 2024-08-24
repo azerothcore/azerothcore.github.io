@@ -1,5 +1,6 @@
 var a13804 =
 [
-    [ "at_zulgurub_entrance_speech", "da/d96/a13804.html#afef11c6a7e97befd07072826fa13be55", null ],
-    [ "_OnTrigger", "da/d96/a13804.html#a55cda55ed70c63f2a0b2ce39b2ffc0a5", null ]
+    [ "npc_forest_frogAI", "d2/d77/a13808.html", "d2/d77/a13808" ],
+    [ "npc_forest_frog", "da/d96/a13804.html#a31a1a10db8eaeca39a60e5dc3f028f8e", null ],
+    [ "GetAI", "da/d96/a13804.html#a51a83289e04ed9dfa587d448d4b5b1fe", null ]
 ];

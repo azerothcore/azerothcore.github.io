@@ -1,9 +1,7 @@
 var a07556 =
 [
-    [ "HyperlinkColor", "da/d8f/a07556.html#a4b246814aa2e2ac930e1e9e4e79345f0", null ],
-    [ "operator==", "da/d8f/a07556.html#aad186f06a8d61834ec94d29d305fa0f2", null ],
-    [ "a", "da/d8f/a07556.html#a57d68da0bcaec609d89efb18185b7f03", null ],
-    [ "b", "da/d8f/a07556.html#a5ef7a2aab07e2e9a5097a27a466adeca", null ],
-    [ "g", "da/d8f/a07556.html#a4570365880f14c7f7c5e7d96332ae150", null ],
-    [ "r", "da/d8f/a07556.html#a1b4e0f604b95a773d28b93601af8ffe0", null ]
+    [ "CreatureSpellCooldown", "da/d8f/a07556.html#a6d234a93951992640df5720a2885be3e", null ],
+    [ "CreatureSpellCooldown", "da/d8f/a07556.html#a53364a501b0ce66e05ec0e6638f6cb6e", null ],
+    [ "category", "da/d8f/a07556.html#a27330a80d711087f1894b2ce816c33b8", null ],
+    [ "end", "da/d8f/a07556.html#a9c1c5f2b6e9a6cd015085e79b043e483", null ]
 ];

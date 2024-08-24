@@ -1,12 +1,7 @@
 var a18700 =
 [
-    [ "npc_icc_nerubar_broodkeeperAI", "df/d7a/a18700.html#a2e3abb6f8889b8df818e8260e6428375", null ],
-    [ "InitializeAI", "df/d7a/a18700.html#ac39bb8074ebb7106b426f507b73b368e", null ],
-    [ "JustEngagedWith", "df/d7a/a18700.html#ae69a8fd357856d0ec6a944ca8c0007ca", null ],
-    [ "MoveInLineOfSight", "df/d7a/a18700.html#a846fe2784308eb694f5f482133a33a7f", null ],
-    [ "MovementInform", "df/d7a/a18700.html#a9a5584eea4bc08f55ddfd7efe23bce2e", null ],
-    [ "Reset", "df/d7a/a18700.html#afbb260e4968865e7c4141e73a050e663", null ],
-    [ "UpdateAI", "df/d7a/a18700.html#ad63d3a91bdd677a9cdd497198860cac6", null ],
-    [ "_didWebBeam", "df/d7a/a18700.html#a8772cf938d30ddcc439d3912db578dfa", null ],
-    [ "events", "df/d7a/a18700.html#ac1b5b05f9fbaf1879c95bc7127fcb6e9", null ]
+    [ "FrostwyrmLandEvent", "df/d7a/a18700.html#a6b6a467c474a5b03be40e4d9a86eddc8", null ],
+    [ "Execute", "df/d7a/a18700.html#a4da77796a223e6233ac6d908f7700623", null ],
+    [ "_dest", "df/d7a/a18700.html#a7f5b4c41c459b65e30dea66f7459a7e9", null ],
+    [ "_owner", "df/d7a/a18700.html#a6336050092606ebb27a180abff55dfa2", null ]
 ];

@@ -1,6 +1,6 @@
 var a16148 =
 [
-    [ "HideNpcEvent", "dd/d90/a16148.html#ab454295aab0f5d4586740140232e96eb", null ],
-    [ "Execute", "dd/d90/a16148.html#aecfbbbcac3fd98675913a6381c891a59", null ],
-    [ "_owner", "dd/d90/a16148.html#ac5481c94e180900f0a455dc1f1f9851c", null ]
+    [ "CheckDistance", "dd/d90/a16148.html#adbbed117455c24a20afe45891de38f43", null ],
+    [ "PrepareSpellScript", "dd/d90/a16148.html#a4d26a34b0db9bebb121766908b3c329b", null ],
+    [ "Register", "dd/d90/a16148.html#a698f08c5fa10042ab3e6a0ced9fbf676", null ]
 ];

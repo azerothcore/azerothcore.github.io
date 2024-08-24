@@ -1,6 +1,6 @@
 var a09272 =
 [
-    [ "NpcTextLocale", "de/d9c/a09272.html#af1ddddeff75a1a51c51ebb1fec3f4f05", null ],
-    [ "Text_0", "de/d9c/a09272.html#adf17307b9d00e0b63b9c2827fca96320", null ],
-    [ "Text_1", "de/d9c/a09272.html#a40f69a13a202c350fdce2177288727e9", null ]
+    [ "SplineRawInitializer", "de/d9c/a09272.html#a2aba4b3ca8e2312cc9e910ef4b3a5a26", null ],
+    [ "operator()", "de/d9c/a09272.html#a878f8d8b2bc4b7c0e5c92d3055a437af", null ],
+    [ "_points", "de/d9c/a09272.html#a3cea33c8d33407f7d2d8ea96a85a58c5", null ]
 ];

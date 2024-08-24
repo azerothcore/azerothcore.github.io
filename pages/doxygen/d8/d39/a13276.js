@@ -1,7 +1,6 @@
 var a13276 =
 [
-    [ "npc_eris_hevenfireAI", "d5/d73/a13280.html", "d5/d73/a13280" ],
-    [ "npc_eris_hevenfire", "d8/d39/a13276.html#a77f0836dc0b19114316b8b67839d8033", null ],
-    [ "GetAI", "d8/d39/a13276.html#ad67a81ad20fac785c199c16fea8fe6f8", null ],
-    [ "OnQuestAccept", "d8/d39/a13276.html#a1e0baec5706cfddd678b58eb9359997e", null ]
+    [ "spell_uldaman_stoned_AuraScript", "d5/d73/a13280.html", "d5/d73/a13280" ],
+    [ "spell_uldaman_stoned", "d8/d39/a13276.html#a9200bb1fa352ba0b19d35169ac7cb479", null ],
+    [ "GetAuraScript", "d8/d39/a13276.html#a89680bd42fb16974cf366706cc0fa867", null ]
 ];

@@ -1,6 +1,6 @@
 var a24736 =
 [
-    [ "OnHit", "df/dff/a24736.html#a56ecd2ea05f48b874b2890d7f15cc362", null ],
-    [ "PrepareSpellScript", "df/dff/a24736.html#a0d74ce7c43f0cb7329ca990f1b0eecdf", null ],
-    [ "Register", "df/dff/a24736.html#a7cd2cc858eeb7805a3efb72b081c284e", null ]
+    [ "boss_illidari_councilAI", "d1/df7/a24740.html", "d1/df7/a24740" ],
+    [ "boss_illidari_council", "df/dff/a24736.html#ad9fc03c7adce1493fe8cb5272824d82b", null ],
+    [ "GetAI", "df/dff/a24736.html#aefa944e6eee2dd9670f5c39b8ea0c7e7", null ]
 ];

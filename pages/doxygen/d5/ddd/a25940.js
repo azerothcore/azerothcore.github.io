@@ -1,7 +1,8 @@
 var a25940 =
 [
-    [ "CalculateSpellAmount", "d5/ddd/a25940.html#a2f93ff69f30b243fe787d72f78a2d159", null ],
-    [ "CheckCast", "d5/ddd/a25940.html#af043f7ee0f80baf667e64225effd57d1", null ],
-    [ "PrepareSpellScript", "d5/ddd/a25940.html#a233ac4020722078d865cf980d7fa76cf", null ],
-    [ "Register", "d5/ddd/a25940.html#a3648ecd94430e21dd014795156c1eb98", null ]
+    [ "npc_ragin_flamesAI", "d5/ddd/a25940.html#a96f9e4b213d81a7c97d0477cd064e812", null ],
+    [ "JustEngagedWith", "d5/ddd/a25940.html#a78d2dfe972824e744c372ccc89eea101", null ],
+    [ "Reset", "d5/ddd/a25940.html#a5616547de04534544476926c877cf2e9", null ],
+    [ "UpdateAI", "d5/ddd/a25940.html#a6c706da1afb0b7ad7e8066eef049103e", null ],
+    [ "events", "d5/ddd/a25940.html#a20d0d7a9ee9de528dda997e13add1558", null ]
 ];

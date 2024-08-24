@@ -1,7 +1,8 @@
 var a09020 =
 [
-    [ "AnyUnitInObjectRangeCheck", "d6/dd2/a09020.html#ab96cd47c1a4c585e52590b94cf8ff021", null ],
-    [ "operator()", "d6/dd2/a09020.html#a0906cdad65a5b11dc6a8829ace8f135b", null ],
-    [ "i_obj", "d6/dd2/a09020.html#a834214b260576a0fe01908a163428757", null ],
-    [ "i_range", "d6/dd2/a09020.html#acc546656dbe9a405023ba56b028c8420", null ]
+    [ "InstResetEvent", "d6/dd2/a09020.html#aefa8f2b1b2cf29ad3472712278741fa4", null ],
+    [ "InstResetEvent", "d6/dd2/a09020.html#af6f80b924e52cd5296d21f4a5d1374c2", null ],
+    [ "difficulty", "d6/dd2/a09020.html#a67afe513dd42370ac4bb385a7128a324", null ],
+    [ "mapid", "d6/dd2/a09020.html#ad02e00b2782304fbd75973fe58eefd33", null ],
+    [ "type", "d6/dd2/a09020.html#ad211513c7ed39269d464190398dabaed", null ]
 ];

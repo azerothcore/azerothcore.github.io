@@ -1,7 +1,6 @@
 var a24596 =
 [
-    [ "HandleProc", "d2/dee/a24596.html#a6bfa44b7adfff5aebbfe96bd7b983744", null ],
-    [ "PrepareAuraScript", "d2/dee/a24596.html#adf8a9d15a105bb639ae240d6062a7041", null ],
-    [ "Register", "d2/dee/a24596.html#a7e63aa6af08411ad8e75fc69bdb84de5", null ],
-    [ "Validate", "d2/dee/a24596.html#a6a70833aaae84cbb512d3ebaa79fe301", null ]
+    [ "spell_reliquary_of_souls_aura_of_anger_AuraScript", "d8/dcf/a24600.html", "d8/dcf/a24600" ],
+    [ "spell_reliquary_of_souls_aura_of_anger", "d2/dee/a24596.html#a4273067fa57cd2b48e15833fdb6ea4e8", null ],
+    [ "GetAuraScript", "d2/dee/a24596.html#a00f9bdce7bce7220ff6045815f7a4549", null ]
 ];

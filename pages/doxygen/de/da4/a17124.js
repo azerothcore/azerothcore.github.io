@@ -1,6 +1,6 @@
 var a17124 =
 [
-    [ "boss_prince_kelesethAI", "d4/d4b/a17128.html", "d4/d4b/a17128" ],
-    [ "boss_prince_keleseth_icc", "de/da4/a17124.html#a0df14bbfc96b1d6eff19633716cea9f9", null ],
-    [ "GetAI", "de/da4/a17124.html#ae5a03bbe1d85b9bc865026f05a99545e", null ]
+    [ "entry", "de/da4/a17124.html#a80e1510436336f4ed17748a06b27178d", null ],
+    [ "pathId", "de/da4/a17124.html#a0b7e499d633e11b314852fb1154ea8e6", null ],
+    [ "startPosition", "de/da4/a17124.html#ac8c0dd74d76778aa2f5948b5c8c5ada4", null ]
 ];

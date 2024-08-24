@@ -1,13 +1,12 @@
 var a10116 =
 [
-    [ "ScriptObject", "dc/d7f/a10116.html#ae4ca97cf587379c94354e4889ff8c0c2", null ],
-    [ "~ScriptObject", "dc/d7f/a10116.html#a80c704c939f54eee6655d68509598c42", null ],
-    [ "checkValidity", "dc/d7f/a10116.html#a585e75e34aed7aa32205daad85f8fe08", null ],
-    [ "GetName", "dc/d7f/a10116.html#a79588d839860d2f5caab60c5f1368f10", null ],
-    [ "GetTotalAvailableHooks", "dc/d7f/a10116.html#a69ee35ec7d54226264efef558022c1c0", null ],
-    [ "isAfterLoadScript", "dc/d7f/a10116.html#a2f66339b1cdf1fde795c61cd24c8b0a2", null ],
-    [ "IsDatabaseBound", "dc/d7f/a10116.html#a37da453729d5c8fbe2d06f905563f47c", null ],
-    [ "ScriptMgr", "dc/d7f/a10116.html#a7a753f61d57353451e90f3f23fec4851", null ],
-    [ "_name", "dc/d7f/a10116.html#a90b63e382cac17922ae57fe22b84718c", null ],
-    [ "_totalAvailableHooks", "dc/d7f/a10116.html#ab9ecac7620b4319c634d7e5f30c30f49", null ]
+    [ "Charges", "dc/d7f/a10116.html#ada45d7e00efb3bf27afcf9db1ad4d813", null ],
+    [ "Count", "dc/d7f/a10116.html#a6f31a3d750d5c5f1b316f05e7ad9dbe9", null ],
+    [ "EnchantmentID", "dc/d7f/a10116.html#a249a204f5d72d42f562c989b1cb92fc9", null ],
+    [ "Flags", "dc/d7f/a10116.html#a3ca816132a756d3dc939877c57f6045d", null ],
+    [ "ItemID", "dc/d7f/a10116.html#a5dc7e8b40834dba07c63322d80ed73ae", null ],
+    [ "RandomPropertiesID", "dc/d7f/a10116.html#ad98a20548478fe99f9d6d345c5a3b732", null ],
+    [ "RandomPropertiesSeed", "dc/d7f/a10116.html#ae5d493dd4798e11f02d8f02a57ba4274", null ],
+    [ "Slot", "dc/d7f/a10116.html#afcc0a78c2f9a3061830679fece476a64", null ],
+    [ "SocketEnchant", "dc/d7f/a10116.html#a55545d4d1b752e4f08bd05350b22892c", null ]
 ];

@@ -1,9 +1,12 @@
 var a24184 =
 [
-    [ "npc_enraged_spiritAI", "d7/d49/a24184.html#aa487c906c1c0d15dc7761c7288e7d3c6", null ],
-    [ "JustDied", "d7/d49/a24184.html#a9322622f679dbc311bd8983f5037bd2e", null ],
-    [ "JustEngagedWith", "d7/d49/a24184.html#a1d192d0dd563dc2735b23a171b2bf659", null ],
-    [ "Reset", "d7/d49/a24184.html#a2d56572acf042ba34f468f0ff3b0bd1a", null ],
-    [ "UpdateAI", "d7/d49/a24184.html#adc3d04d66f2b4de7a970f2cd5e476a2b", null ],
-    [ "_scheduler", "d7/d49/a24184.html#afa6825696b0622849f877b392df4b326", null ]
+    [ "boss_exarch_maladaarAI", "d7/d49/a24184.html#acc710f2c684acc9a05868506ec508797", null ],
+    [ "JustDied", "d7/d49/a24184.html#a04f2bcfdc5a3ca3f59bd7267e0b5efd2", null ],
+    [ "JustEngagedWith", "d7/d49/a24184.html#ab8676e8a900d34bb6d0c124f6c2fdd95", null ],
+    [ "KilledUnit", "d7/d49/a24184.html#a5c4c75addf9814a2b28f3c6f32a64617", null ],
+    [ "MoveInLineOfSight", "d7/d49/a24184.html#a8a25c163c5ca8753b39e3048d52dd81b", null ],
+    [ "Reset", "d7/d49/a24184.html#a77345c45f5978752ab746a9393a3d543", null ],
+    [ "UpdateAI", "d7/d49/a24184.html#a17aa19842013bc877461b8031d78c2d0", null ],
+    [ "_talked", "d7/d49/a24184.html#aed8cc961170b0750f77f517abb68cde7", null ],
+    [ "events", "d7/d49/a24184.html#a717150462bfb87908cbbae7fe3c11ead", null ]
 ];

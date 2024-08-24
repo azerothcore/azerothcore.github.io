@@ -1,7 +1,10 @@
 var a07564 =
 [
-    [ "HyperlinkDataTokenizer", "d8/d57/a07564.html#a1fb14152c61205ce31fcf2bfeaeceeaf", null ],
-    [ "IsEmpty", "d8/d57/a07564.html#a4f74f1647780c9f2769443dbfeba6a7e", null ],
-    [ "TryConsumeTo", "d8/d57/a07564.html#a42e18263129c27149bf9a91b3dc42418", null ],
-    [ "_str", "d8/d57/a07564.html#ab497f7f0b3cab4b8c4813ba443ff1c91", null ]
+    [ "FormationMgr", "d8/d57/a07564.html#ade1aa22473c112aed65d537929b07908", null ],
+    [ "~FormationMgr", "d8/d57/a07564.html#a8f3ee00e25ebacfb71b71b9e7d63f6e0", null ],
+    [ "AddCreatureToGroup", "d8/d57/a07564.html#aef758bdbc8f93c8981aedd51d7e10a07", null ],
+    [ "instance", "d8/d57/a07564.html#a871fec234a94e4adae07315a008acec3", null ],
+    [ "LoadCreatureFormations", "d8/d57/a07564.html#af0ecde62fc5c4a3a2b3be16c58f51fde", null ],
+    [ "RemoveCreatureFromGroup", "d8/d57/a07564.html#a6ecac2b9dcdc8db2cd7a0bd1be0fd364", null ],
+    [ "CreatureGroupMap", "d8/d57/a07564.html#ac11a3dfbe6a4f7df01d966f14b0aecd9", null ]
 ];

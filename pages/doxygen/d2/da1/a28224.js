@@ -1,7 +1,6 @@
 var a28224 =
 [
-    [ "ID", "d2/da1/a28224.html#aa5db020808990dc98fc143e4a5e0d2b2", null ],
-    [ "RadiusMax", "d2/da1/a28224.html#ab82c1acb9309b17104958182d80b01d1", null ],
-    [ "RadiusMin", "d2/da1/a28224.html#acaee7da373b94a262e01d4bd3bea4f08", null ],
-    [ "RadiusPerLevel", "d2/da1/a28224.html#a74bb59afb808af45ceff6367468fca1e", null ]
+    [ "CheckCast", "d2/da1/a28224.html#ada9b1c9e159956cb2a79610dbdb3eaf9", null ],
+    [ "PrepareSpellScript", "d2/da1/a28224.html#aa9cc041f2e0dae1eb322713d4f140ce8", null ],
+    [ "Register", "d2/da1/a28224.html#a5f0b69ffebb256d5ee2c0f9d4615c4e6", null ]
 ];

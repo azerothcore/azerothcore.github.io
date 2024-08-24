@@ -1,11 +1,18 @@
 var a11656 =
 [
-    [ "boss_doomrelAI", "df/d16/a11656.html#a231cc3989d1c575af941a5462ad94cbd", null ],
-    [ "EnterEvadeMode", "df/d16/a11656.html#ae633f4cc1747f291a3911ca50ee39370", null ],
-    [ "JustEngagedWith", "df/d16/a11656.html#a622f673548b0a6f1db2a59ef69f31ac7", null ],
-    [ "Reset", "df/d16/a11656.html#aec30616ad3c84ee4b6dd92f6ac8b4fbc", null ],
-    [ "UpdateAI", "df/d16/a11656.html#a3d851f7bd5a78858fd228cac78c05f27", null ],
-    [ "_events", "df/d16/a11656.html#aaf800dd1d20dc8288cad5aa21cd602b0", null ],
-    [ "instance", "df/d16/a11656.html#aa0fc44bb955e83c2ef7b7373751fc2c2", null ],
-    [ "Voidwalkers", "df/d16/a11656.html#af29d871a370a534f508f225d49c3dc9f", null ]
+    [ "boss_victor_nefariusAI", "df/d16/a11656.html#a640261332db1736e27d93067fb83c959", null ],
+    [ "BeginEvent", "df/d16/a11656.html#a53b0953667a42290ed4ab7e71f2dd509", null ],
+    [ "DoAction", "df/d16/a11656.html#ac30157884fa02dce34051d2f76f94d0a", null ],
+    [ "Initialize", "df/d16/a11656.html#a68a5a2c9f0b603a52c2e69ef9559d278", null ],
+    [ "JustDied", "df/d16/a11656.html#a4104a8f6b91f568d537447cf9a9339b5", null ],
+    [ "JustReachedHome", "df/d16/a11656.html#a4e5e6b636918dcf4cc93cd2ce3c53192", null ],
+    [ "JustSummoned", "df/d16/a11656.html#a8ca86c4fee920d07cfafad3227e2203a", null ],
+    [ "Reset", "df/d16/a11656.html#a4374199f776618afaf00934c93e6e0f4", null ],
+    [ "SetData", "df/d16/a11656.html#af9dbc9026fe7baa41c6cf41b59ed81dc", null ],
+    [ "sGossipSelect", "df/d16/a11656.html#ad3d7333e624c70c9c635073a1909c67d", null ],
+    [ "SummonedCreatureDies", "df/d16/a11656.html#a704489a361ac2034ac65c95e9517772f", null ],
+    [ "UpdateAI", "df/d16/a11656.html#a5a043856458c34b47a1dc16e27eac4c9", null ],
+    [ "_nefarianLeftTunnel", "df/d16/a11656.html#a2b6132a6a89ed8f9fc215b1342642fed", null ],
+    [ "_nefarianRightTunnel", "df/d16/a11656.html#ad7e3b70d671080294811e9fb191e880a", null ],
+    [ "KilledAdds", "df/d16/a11656.html#a88f7040db2bf60fb165a406571471fbb", null ]
 ];

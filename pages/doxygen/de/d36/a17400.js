@@ -1,6 +1,6 @@
 var a17400 =
 [
-    [ "npc_gunshipAI", "d9/dea/a17404.html", "d9/dea/a17404" ],
-    [ "npc_gunship", "de/d36/a17400.html#a86b3ba622bd6e606cd21f7c7d8dddd1b", null ],
-    [ "GetAI", "de/d36/a17400.html#adcd37802a2850f4ec8892f3495d5dc16", null ]
+    [ "npc_pos_icicle_triggerAI", "d9/dea/a17404.html", "d9/dea/a17404" ],
+    [ "npc_pos_icicle_trigger", "de/d36/a17400.html#ae38155ce579f50ff7de0fa5ca50a1c3e", null ],
+    [ "GetAI", "de/d36/a17400.html#ad2f984f5b2b713b8307efdf4bcbcf8da", null ]
 ];

@@ -1,5 +1,6 @@
 var a27224 =
 [
-    [ "go_tele_to_violet_stand", "d8/d28/a27224.html#a63350db1dfd400c565e30775378d48cc", null ],
-    [ "OnGossipHello", "d8/d28/a27224.html#a4d075584f065501a2c3be9ef82387f43", null ]
+    [ "HandleDummy", "d8/d28/a27224.html#a0bcbef8a2d5978498556a217ac618fed", null ],
+    [ "PrepareSpellScript", "d8/d28/a27224.html#a5901c22f3a10fdbd21d934f5cb8cd76d", null ],
+    [ "Register", "d8/d28/a27224.html#a2c6d9c273a3d281dacefc20970912166", null ]
 ];

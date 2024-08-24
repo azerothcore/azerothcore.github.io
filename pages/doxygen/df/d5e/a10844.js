@@ -1,7 +1,7 @@
 var a10844 =
 [
-    [ "SpellImmune", "df/d5e/a10844.html#a70ebcde656db6c4d7c21fb03af44978a", null ],
-    [ "blockType", "df/d5e/a10844.html#a13a353d02a7330820df170eb46e7a26d", null ],
-    [ "spellId", "df/d5e/a10844.html#a6aeb1bebf2f079424ebfa5192c568adc", null ],
-    [ "type", "df/d5e/a10844.html#ae1a414f35b2cce61cd4f5640c761f7ea", null ]
+    [ "FieldIndices", "df/d5e/a10844.html#a06a366c804088e6fbb170881004a5cff", null ],
+    [ "TableFields", "df/d5e/a10844.html#ad5d909c6b4b062f3c4aac3f559c5eaec", null ],
+    [ "TableName", "df/d5e/a10844.html#ab00ee028c72660db98e8108583701471", null ],
+    [ "WhereFieldName", "df/d5e/a10844.html#af1be82a21f6172504e310ae27b899e5b", null ]
 ];

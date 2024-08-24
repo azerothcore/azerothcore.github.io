@@ -1,9 +1,6 @@
 var a18136 =
 [
-    [ "npc_icc_ice_sphereAI", "d9/dd1/a18136.html#a685f45e5cd15b005646e596ff61088e8", null ],
-    [ "DoAction", "d9/dd1/a18136.html#ac056ecdd93bc716964054f38ab81014e", null ],
-    [ "SelectNewTarget", "d9/dd1/a18136.html#a9274e05e45c07d14c7df5c623e2769d4", null ],
-    [ "UpdateAI", "d9/dd1/a18136.html#a5a4117de9e45cea9e9086b3b4daed404", null ],
-    [ "targetGUID", "d9/dd1/a18136.html#a3e202f9bde2a202d329066f7aab8897c", null ],
-    [ "timer", "d9/dd1/a18136.html#a42842e92926e18ef2589687d81a7d0d4", null ]
+    [ "PrepareSpellScript", "d9/dd1/a18136.html#ad5aa49896bec706e60ea9725969698c9", null ],
+    [ "Register", "d9/dd1/a18136.html#a8bfd04c4d3d212a9bae2ef9fb0177574", null ],
+    [ "RelocateTransportOffset", "d9/dd1/a18136.html#aecf5f2a7a4f38274460917742e80734a", null ]
 ];

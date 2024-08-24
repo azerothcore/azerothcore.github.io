@@ -1,9 +1,7 @@
 var a14164 =
 [
-    [ "entries", "da/d18/a14164.html#a8c55bbd253d6bea01e83c0aa7380dee5", null ],
-    [ "entries", "da/d18/a14164.html#a953850b267eb6f599bb49d82080bdf64", null ],
-    [ "revelerId", "da/d18/a14164.html#a9e4069ef00c8b4e31d8af06f34e12ad5", null ],
-    [ "schedule", "da/d18/a14164.html#ad849701425622001519334f352ea6f3e", null ],
-    [ "size", "da/d18/a14164.html#ae6a3fa59e1eb384255c247abadc962d5", null ],
-    [ "spawns", "da/d18/a14164.html#aa081965795e3b9473be5b322b0c46505", null ]
+    [ "npc_direbrew_minion", "da/d18/a14164.html#aaac7d1b1a464ea7ff1ec18ace11d54b7", null ],
+    [ "IsSummonedBy", "da/d18/a14164.html#a78d40e0f2a285b0b9c257f12876eabeb", null ],
+    [ "Reset", "da/d18/a14164.html#a21fb7a778e9025ca4185951460a96d08", null ],
+    [ "_instance", "da/d18/a14164.html#aeea9f455c014afa347ce0c3f106ebdb6", null ]
 ];

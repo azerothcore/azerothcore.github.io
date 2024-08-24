@@ -1,7 +1,7 @@
 var a25340 =
 [
-    [ "HandleDummy", "d4/d04/a25340.html#a84430c269e419acd94a2d0520b9ca639", null ],
-    [ "PrepareSpellScript", "d4/d04/a25340.html#a8ec4e9cea213739825126111d038d1a5", null ],
-    [ "Register", "d4/d04/a25340.html#a1abee3e5f324875aab8dd666ac417308", null ],
-    [ "Validate", "d4/d04/a25340.html#a393043b94f50d9379a987f9b49b8abde", null ]
+    [ "HandleScriptEffect", "d4/d04/a25340.html#a534bf39998813f06c48bc920e4666692", null ],
+    [ "PrepareSpellScript", "d4/d04/a25340.html#a5892f20a0704596cb70a995a73846368", null ],
+    [ "Register", "d4/d04/a25340.html#a1176b4e4ad488a3b6b38ff4b8c955d64", null ],
+    [ "Validate", "d4/d04/a25340.html#af618314a13013eaf9f36b30047de0878", null ]
 ];

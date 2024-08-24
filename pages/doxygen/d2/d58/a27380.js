@@ -1,6 +1,7 @@
 var a27380 =
 [
-    [ "npc_preciousAI", "d5/db6/a27384.html", "d5/db6/a27384" ],
-    [ "npc_precious", "d2/d58/a27380.html#a3c3ad9da13de64498cabc8e252e99ab2", null ],
-    [ "GetAI", "d2/d58/a27380.html#a754ad85c8b1942b400a47c28297bad62", null ]
+    [ "HandleDamage", "d2/d58/a27380.html#a9c9bbe49388cf5d04650572fdf789e5e", null ],
+    [ "PrepareSpellScript", "d2/d58/a27380.html#ac89a628f1aba54aa2ade876a4f7911b8", null ],
+    [ "Register", "d2/d58/a27380.html#a627bffccdd78c00f0f5a4241f36aeec8", null ],
+    [ "Validate", "d2/d58/a27380.html#aed63b40f8e2cc6fd32dd536a2d56c7c3", null ]
 ];

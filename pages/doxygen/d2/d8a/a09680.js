@@ -1,10 +1,18 @@
 var a09680 =
 [
-    [ "DistractMovementGenerator", "d2/d8a/a09680.html#a55879290b06f4fc86a1da791c07b7afb", null ],
-    [ "Finalize", "d2/d8a/a09680.html#aa4a2b943ecde8750bd764290d65872df", null ],
-    [ "GetMovementGeneratorType", "d2/d8a/a09680.html#a0b30745bf1cd7b5a264e970273595592", null ],
-    [ "Initialize", "d2/d8a/a09680.html#a71410ddbda2be6b34bb2276a83fea5c9", null ],
-    [ "Reset", "d2/d8a/a09680.html#ad544709b2873b63b28d27ab414c280ba", null ],
-    [ "Update", "d2/d8a/a09680.html#ad5a15c1507b8ab315b658351077629b3", null ],
-    [ "m_timer", "d2/d8a/a09680.html#a8b520d8e97704ac39ce28c2256557b42", null ]
+    [ "AllGameObjectScript", "d2/d8a/a09680.html#ac6640c81043e19d7c73ed6208dd119dd", null ],
+    [ "CanGameObjectGossipHello", "d2/d8a/a09680.html#a33efc883fe64cdc52aa9b03f9377da97", null ],
+    [ "CanGameObjectGossipSelect", "d2/d8a/a09680.html#a317305c7dc81fede50d73f65fbc2bb42", null ],
+    [ "CanGameObjectGossipSelectCode", "d2/d8a/a09680.html#ac0b0ce8b06f371a6adfb69b926797790", null ],
+    [ "CanGameObjectQuestAccept", "d2/d8a/a09680.html#a0c99183b04355ecfb3460bc371b58805", null ],
+    [ "CanGameObjectQuestReward", "d2/d8a/a09680.html#a55eb61a5e4386908db998ceff1dff359", null ],
+    [ "GetGameObjectAI", "d2/d8a/a09680.html#afe0c610693bc883415952ba350596788", null ],
+    [ "OnGameObjectAddWorld", "d2/d8a/a09680.html#ae07275a83e4e1ae65371739bdc342d7f", null ],
+    [ "OnGameObjectDamaged", "d2/d8a/a09680.html#ab551bd870ab2e6513d95fcfb3e62d8c5", null ],
+    [ "OnGameObjectDestroyed", "d2/d8a/a09680.html#a3861b881456c1af3e9231d90519367d6", null ],
+    [ "OnGameObjectLootStateChanged", "d2/d8a/a09680.html#a599b35bb426d3c91c5457c838bfe910d", null ],
+    [ "OnGameObjectRemoveWorld", "d2/d8a/a09680.html#aca2171a8521195f06ea00c21f219d8f5", null ],
+    [ "OnGameObjectSaveToDB", "d2/d8a/a09680.html#ae4bb28ae318f13a72109a3874f2ca12d", null ],
+    [ "OnGameObjectStateChanged", "d2/d8a/a09680.html#ab0ab47240bdb815d404f8bd41fb3bdaa", null ],
+    [ "OnGameObjectUpdate", "d2/d8a/a09680.html#ada8cc5373b75025199ca62856242d0ab", null ]
 ];

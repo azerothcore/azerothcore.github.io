@@ -1,9 +1,8 @@
 var a15508 =
 [
-    [ "npc_pluckyAI", "df/dcb/a15508.html#a490198dfcf06b04f7ee9a6a5354dec7e", null ],
-    [ "ReceiveEmote", "df/dcb/a15508.html#a4a4a09d6a462011154a8d871562dcaf5", null ],
-    [ "Reset", "df/dcb/a15508.html#a1a6c4a479bbbfced1ad17f2604bdba32", null ],
-    [ "UpdateAI", "df/dcb/a15508.html#a4775a736e3568940c1b92e0cdae4de4b", null ],
-    [ "NormFaction", "df/dcb/a15508.html#afd9c6fccf4c30b4fbc62bfa951665949", null ],
-    [ "ResetTimer", "df/dcb/a15508.html#ac9808c21666cd17b0603e7e67a61d015", null ]
+    [ "CheckRequirement", "df/dcb/a15508.html#a189dfb2b4fed649421e291c3fe35d726", null ],
+    [ "HandleDummy", "df/dcb/a15508.html#afa3fb1cb0c2a4d59ef68b5bf991ac26b", null ],
+    [ "PrepareSpellScript", "df/dcb/a15508.html#a19326bdad6359203c98a36b4662b6ffb", null ],
+    [ "Register", "df/dcb/a15508.html#a9cc5859b635c1def6be7f8bcec19e56c", null ],
+    [ "Validate", "df/dcb/a15508.html#a7922f38c2c5e19c69982aea2fa136257", null ]
 ];

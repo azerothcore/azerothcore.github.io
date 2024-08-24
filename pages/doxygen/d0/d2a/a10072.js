@@ -1,7 +1,6 @@
 var a10072 =
 [
-    [ "SpellScriptLoader", "d0/d2a/a10072.html#a0ae97b8f3cf24f46b98a121d35bdeadf", null ],
-    [ "GetAuraScript", "d0/d2a/a10072.html#a9c60850e39ffe3d151a128b12777859d", null ],
-    [ "GetSpellScript", "d0/d2a/a10072.html#a6f3a101a0517ba1440399809cf7f5b5b", null ],
-    [ "IsDatabaseBound", "d0/d2a/a10072.html#ae60bf9957b950c7f5c9927f71510dc06", null ]
+    [ "GuildOfficerRemoveMember", "d0/d2a/a10072.html#acd0f767ff61006c7b3c78f3dbb6da558", null ],
+    [ "Read", "d0/d2a/a10072.html#aa0c3cd629b73cb079cc3cf90bf6f8067", null ],
+    [ "Removee", "d0/d2a/a10072.html#a18ece7d865fa1b5da005c7c03397b4e2", null ]
 ];

@@ -1,12 +1,9 @@
 var a07856 =
 [
-    [ "QuestMenu", "db/d0d/a07856.html#a60ba5b35499c6a9ed510300d3300421e", null ],
-    [ "~QuestMenu", "db/d0d/a07856.html#a14df9b6699c327853121ae032704db8d", null ],
-    [ "AddMenuItem", "db/d0d/a07856.html#ac8735756bbf9f2fa799c505bd740e070", null ],
-    [ "ClearMenu", "db/d0d/a07856.html#ab3d3881aabe000694acab37a3774507e", null ],
-    [ "Empty", "db/d0d/a07856.html#a1a850cb70956f299ea91cb0d732ad202", null ],
-    [ "GetItem", "db/d0d/a07856.html#a08240a8d18dce0cb96db19f54c67dd2c", null ],
-    [ "GetMenuItemCount", "db/d0d/a07856.html#a2338a6fb88c32bfb66fe524a8ffaa0d7", null ],
-    [ "HasItem", "db/d0d/a07856.html#a7fe36e4a4acfc66a00f08034c470b5e3", null ],
-    [ "_questMenuItems", "db/d0d/a07856.html#a49279a3943009f2d1475d792c2c3d21a", null ]
+    [ "Reset", "db/d0d/a07856.html#a9c210ff536b49481f71bc6c3f60ee864", null ],
+    [ "guid", "db/d0d/a07856.html#ac115013e34f67bc1444fef4fc96c843e", null ],
+    [ "pos", "db/d0d/a07856.html#adff317cbf0c2d159d8ffddf52b4751b3", null ],
+    [ "seat", "db/d0d/a07856.html#ad57bea2ae3beb6a086a116989b0d528f", null ],
+    [ "time", "db/d0d/a07856.html#acec3991f0d19fd9f72e9837eef516057", null ],
+    [ "time2", "db/d0d/a07856.html#a426c651d2f359847b033a4d7f278a191", null ]
 ];

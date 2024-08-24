@@ -1,7 +1,6 @@
 var a25912 =
 [
-    [ "OnRemove", "d0/d93/a25912.html#a8c39ba2fbd8c9c96de622afd8d04281e", null ],
-    [ "PrepareAuraScript", "d0/d93/a25912.html#a9e13b76ceb256dec1a6c9dccd5c6c537", null ],
-    [ "Register", "d0/d93/a25912.html#a9fbaec43bae2f4d6f4b94b18da0144fe", null ],
-    [ "Validate", "d0/d93/a25912.html#a8f111779a3a0e68fe5a313e6eae716b3", null ]
+    [ "spell_capacitus_polarity_charge_SpellScript", "d4/d5f/a25916.html", "d4/d5f/a25916" ],
+    [ "spell_capacitus_polarity_charge", "d0/d93/a25912.html#a8987a05fb30594f22749f12d6642af4a", null ],
+    [ "GetSpellScript", "d0/d93/a25912.html#ac3a3ca4ec7315af68ae85f9a2694c370", null ]
 ];

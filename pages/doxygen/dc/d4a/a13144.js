@@ -1,6 +1,7 @@
 var a13144 =
 [
-    [ "PrepareSpellScript", "dc/d4a/a13144.html#a6a9436d744865971e635f23c2b331688", null ],
-    [ "Register", "dc/d4a/a13144.html#a5f8a755040c9972e1bd6f68ceacf3dff", null ],
-    [ "SetDest", "dc/d4a/a13144.html#a2d43c0d5230f7be2d9a33e8527fd8c02", null ]
+    [ "HandleApply", "dc/d4a/a13144.html#a0858eeeaae2b07e44452fefb30fc3cf6", null ],
+    [ "HandleRemove", "dc/d4a/a13144.html#a58addb11985f969b44c536f2277538d0", null ],
+    [ "PrepareAuraScript", "dc/d4a/a13144.html#a392e4061d7833de4fbf7aad8670a1d63", null ],
+    [ "Register", "dc/d4a/a13144.html#a69126dd7873fc2024333d106176931cf", null ]
 ];

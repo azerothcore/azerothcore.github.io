@@ -1,7 +1,7 @@
 var a02741 =
 [
-    [ "boss_lucifron", "d4/d1c/a12080.html", "d4/d1c/a12080" ],
-    [ "boss_lucifron::boss_lucifronAI", "d5/db8/a12084.html", "d5/db8/a12084" ],
+    [ "boss_lucifron", "d8/d75/a12083.html", "d8/d75/a12083" ],
+    [ "boss_lucifron::boss_lucifronAI", "df/d22/a12087.html", "df/d22/a12087" ],
     [ "Events", "d6/d0b/a02741.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d4/d61/a02588.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d4/d61/a02588.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

@@ -1,6 +1,6 @@
 var a24688 =
 [
-    [ "CalculateAmount", "d5/d6b/a24688.html#a60d451e6b359501b138564085c87a99f", null ],
-    [ "PrepareAuraScript", "d5/d6b/a24688.html#a22059b71bcfdfb9a3be59feaf8005d3f", null ],
-    [ "Register", "d5/d6b/a24688.html#ab33586608d444404c07edc4ffbb717ee", null ]
+    [ "spell_teron_gorefiend_spiritual_vengeance_AuraScript", "d1/d15/a24692.html", "d1/d15/a24692" ],
+    [ "spell_teron_gorefiend_spiritual_vengeance", "d5/d6b/a24688.html#a56ef2fbd687cbd0a234840b8397e7ca9", null ],
+    [ "GetAuraScript", "d5/d6b/a24688.html#a5cb0f112c6e010c61a9ee174e40d0417", null ]
 ];

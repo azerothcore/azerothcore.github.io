@@ -1,7 +1,8 @@
 var a14568 =
 [
-    [ "OnRemove", "d0/da2/a14568.html#a98bf88bd917b441d2ad81716dcd38ec1", null ],
-    [ "PrepareAuraScript", "d0/da2/a14568.html#ab082adc51983f124d0467cbff63cffb7", null ],
-    [ "Register", "d0/da2/a14568.html#a2feb8adaad212ee29d9ec6d9957575a4", null ],
-    [ "Validate", "d0/da2/a14568.html#a73421b82f483e73314dbb862fb0a11c7", null ]
+    [ "spell_mark_of_kazrogal_AuraScript", "d0/d09/a14576.html", "d0/d09/a14576" ],
+    [ "spell_mark_of_kazrogal_SpellScript", "d5/db0/a14572.html", "d5/db0/a14572" ],
+    [ "spell_mark_of_kazrogal", "d0/da2/a14568.html#a47fe5a3e2cfaceba28a8ccbea3692ec7", null ],
+    [ "GetAuraScript", "d0/da2/a14568.html#aaa9f12a66c950fd4f36a4d188cb036cc", null ],
+    [ "GetSpellScript", "d0/da2/a14568.html#a48bceb156ced587b2f14ffa1a34526a8", null ]
 ];

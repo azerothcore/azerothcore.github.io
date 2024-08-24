@@ -1,10 +1,6 @@
 var a19236 =
 [
-    [ "instance_nexus_InstanceMapScript", "d8/d26/a19236.html#a6803f233d730f33e5af7dc9d8ecd9775", null ],
-    [ "Initialize", "d8/d26/a19236.html#a2c6c42e73de2a155c04f80e37aa5d442", null ],
-    [ "OnCreatureCreate", "d8/d26/a19236.html#a04806dc42aa0b171fa99eb1d8492ff61", null ],
-    [ "OnGameObjectCreate", "d8/d26/a19236.html#a85c3ac915970d68a192414ca4ff8ad1f", null ],
-    [ "OnGameObjectRemove", "d8/d26/a19236.html#ac148c67823484eee38ab6646dfb68530", null ],
-    [ "SetBossState", "d8/d26/a19236.html#a11ac1fbc7c699084e7da5e4bf0595651", null ],
-    [ "SetData", "d8/d26/a19236.html#a351052b1d3ea4ddb5d36ce69818c7e67", null ]
+    [ "spell_the_lich_king_dark_hunger_AuraScript", "d8/d38/a19240.html", "d8/d38/a19240" ],
+    [ "spell_the_lich_king_dark_hunger", "d8/d26/a19236.html#a3e7bab0034fd486c51574a5e97a8eec6", null ],
+    [ "GetAuraScript", "d8/d26/a19236.html#abf411918c3ad225b1840ac40201213b4", null ]
 ];

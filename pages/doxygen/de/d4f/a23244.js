@@ -1,7 +1,12 @@
 var a23244 =
 [
-    [ "npc_ahune_ice_spear_bunny", "de/d4f/a23244.html#aecc30efddcf4ae9bd93504e1d727ee87", null ],
-    [ "InitializeAI", "de/d4f/a23244.html#a5e7eb38f6bf4a947bd1e09ee198eb45d", null ],
-    [ "UpdateAI", "de/d4f/a23244.html#ac7fd9b174f2ee1b1adf9d20d59c67bc2", null ],
-    [ "_scheduler", "de/d4f/a23244.html#a1a1a8b066a3cab9e15710fa97a8c83e6", null ]
+    [ "npc_wintergarde_gryphon", "de/d4f/a23244.html#ada46ecdbc8c3a33a7b3ce09296c0db72", null ],
+    [ "getVillager", "de/d4f/a23244.html#a7f20f5e124e013ad8f57ca31b9fb86d7", null ],
+    [ "IsSummonedBy", "de/d4f/a23244.html#acd7cea6226034d53b854c5ed659ff949", null ],
+    [ "JustDied", "de/d4f/a23244.html#a6c87d55ef29e14b4b8b87a0321179542", null ],
+    [ "MovementInform", "de/d4f/a23244.html#a8f2faf49533d27d971110681e050c060", null ],
+    [ "PassengerBoarded", "de/d4f/a23244.html#a16c01d26aef06358f979f59fe68c09ca", null ],
+    [ "SpellHit", "de/d4f/a23244.html#acf64143ea83321556156fde30e1a34d4", null ],
+    [ "UpdateAI", "de/d4f/a23244.html#aa161f280e7a7370696cecc27c51ee55c", null ],
+    [ "villagerGUID", "de/d4f/a23244.html#a56a7973a05061197192111ecf55ef14a", null ]
 ];

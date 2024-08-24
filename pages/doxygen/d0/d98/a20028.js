@@ -1,8 +1,6 @@
 var a20028 =
 [
-    [ "npc_ulduar_saronite_animusAI", "d0/d98/a20028.html#a2b94427feb24a7bda075b6a8f403433a", null ],
-    [ "JustDied", "d0/d98/a20028.html#a30abcab01de3732bc5525864576615b0", null ],
-    [ "UpdateAI", "d0/d98/a20028.html#a1490961adc8fc03ab28a992aff55b43b", null ],
-    [ "pInstance", "d0/d98/a20028.html#a5d3b297355f286b0ad08ed38dbd5b0d2", null ],
-    [ "timer", "d0/d98/a20028.html#a3d0345d4c503eb3f0e4acbe346f1c5e5", null ]
+    [ "boss_grobbulusAI", "da/ddb/a20032.html", "da/ddb/a20032" ],
+    [ "boss_grobbulus", "d0/d98/a20028.html#acf1b781e86e33a363b68354d34d3c015", null ],
+    [ "GetAI", "d0/d98/a20028.html#ae918614566a0b9979aef4e1aeaac394c", null ]
 ];

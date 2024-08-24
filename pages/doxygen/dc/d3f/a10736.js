@@ -1,8 +1,6 @@
 var a10736 =
 [
-    [ "SkillDiscoveryEntry", "dc/d3f/a10736.html#a54c0f12153c6e63a37e5da44d233b271", null ],
-    [ "SkillDiscoveryEntry", "dc/d3f/a10736.html#a301cae078fe1943cae045e94dc3d38ad", null ],
-    [ "chance", "dc/d3f/a10736.html#a71cf2c48937e5a2a3c6dd8c499a860a7", null ],
-    [ "reqSkillValue", "dc/d3f/a10736.html#a61e0edc8fee1fa4045d846668d08449c", null ],
-    [ "spellId", "dc/d3f/a10736.html#a75ca40729917317173b2953c8f47f833", null ]
+    [ "EffectAbsorbHandler", "dc/d3f/a10736.html#a29bb773b8271acf651b08f33ce358720", null ],
+    [ "Call", "dc/d3f/a10736.html#a56bfb0fd0d860678920445d1182c09ef", null ],
+    [ "pEffectHandlerScript", "dc/d3f/a10736.html#a519489b8d951173a806e86cfe075faf1", null ]
 ];

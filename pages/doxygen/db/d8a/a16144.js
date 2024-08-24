@@ -1,8 +1,6 @@
 var a16144 =
 [
-    [ "npc_announcer_toc5AI", "db/d8a/a16144.html#a96e1bd089dfd21fa252bc6422d20bada", null ],
-    [ "DamageTaken", "db/d8a/a16144.html#a53458483699ac026ff2cd36b5f061571", null ],
-    [ "MovementInform", "db/d8a/a16144.html#acdcf4110b3815635ad173a70e7a1e603", null ],
-    [ "Reset", "db/d8a/a16144.html#ab3dca17e0350d6d46a9069f97f2d12ef", null ],
-    [ "UpdateAI", "db/d8a/a16144.html#ad2c596253d67d051f497a8d77859846d", null ]
+    [ "spell_baltharus_enervating_brand_trigger_SpellScript", "dd/d90/a16148.html", "dd/d90/a16148" ],
+    [ "spell_baltharus_enervating_brand_trigger", "db/d8a/a16144.html#a710babc09feeab1d93fd95cc64aa3bc9", null ],
+    [ "GetSpellScript", "db/d8a/a16144.html#af8127eed9df58ae6a8f10619ea0f0ae9", null ]
 ];

@@ -1,6 +1,6 @@
 var a10504 =
 [
-    [ "UITime", "d5/d30/a10504.html#a24311ce7df9e9a0f40a3c5473cef34b3", null ],
-    [ "Write", "d5/d30/a10504.html#ab24cdd76abd5914c3a30ee42c7681855", null ],
-    [ "Time", "d5/d30/a10504.html#ac4ad6c7c425167e90fd2497f7ebaec4c", null ]
+    [ "ChannelTargetData", "d5/d30/a10504.html#a26f2a2037750712d8718d9537603e3a1", null ],
+    [ "channelGUID", "d5/d30/a10504.html#afad1c896d6a137ebb224fd636ba4d7f2", null ],
+    [ "spellDst", "d5/d30/a10504.html#aa5cfec093a599f4bf33ebf0c73a2f4ac", null ]
 ];

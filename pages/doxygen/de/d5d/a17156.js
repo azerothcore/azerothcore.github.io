@@ -1,6 +1,6 @@
 var a17156 =
 [
-    [ "npc_dark_nucleusAI", "d1/d17/a17160.html", "d1/d17/a17160" ],
-    [ "npc_dark_nucleus", "de/d5d/a17156.html#a14459f4f41ef568decbc952fdcd4ffd5", null ],
-    [ "GetAI", "de/d5d/a17156.html#a1f59ae45c1a84a6faca5a8bb62fc16fc", null ]
+    [ "OnRemove", "de/d5d/a17156.html#aea877b7b631b4d2debd8a6ea46628ef8", null ],
+    [ "PrepareAuraScript", "de/d5d/a17156.html#a0ca3bdb93768c34b2c38ff7aa957c60c", null ],
+    [ "Register", "de/d5d/a17156.html#a3855a8b7c9c54b09b43907b2debfcf25", null ]
 ];

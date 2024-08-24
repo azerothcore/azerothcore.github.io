@@ -1,10 +1,14 @@
 var a09064 =
 [
-    [ "NearestCreatureEntryWithLiveStateInObjectRangeCheck", "d0/dd8/a09064.html#aa9f15d071efe7ca7bb975489fec2afbd", null ],
-    [ "NearestCreatureEntryWithLiveStateInObjectRangeCheck", "d0/dd8/a09064.html#a1e25384d08beeee84d83e401f5a5a565", null ],
-    [ "operator()", "d0/dd8/a09064.html#abc2ab6f33a6a58a6e692cc32e8139839", null ],
-    [ "i_alive", "d0/dd8/a09064.html#a7a01388f86d25fa0728d94c6e1a7f752", null ],
-    [ "i_entry", "d0/dd8/a09064.html#ae2bf2c0a0f431f5de445fbee26b60a57", null ],
-    [ "i_obj", "d0/dd8/a09064.html#aa0340c79c37f3494b01c52f034705aa4", null ],
-    [ "i_range", "d0/dd8/a09064.html#a695af00612b17e0182ad76a5c3be2356", null ]
+    [ "LootItemStorage", "d0/dd8/a09064.html#aa6ece474f05744f2ce24a9fef42734af", null ],
+    [ "~LootItemStorage", "d0/dd8/a09064.html#a36faeed6ef556fd13118c4ad34e38548", null ],
+    [ "AddNewStoredLoot", "d0/dd8/a09064.html#a4c463773b50ae1b312865fbf72dfed18", null ],
+    [ "instance", "d0/dd8/a09064.html#a58d6dc6afa42364ca1dd6cbdcfb55b2b", null ],
+    [ "LoadStorageFromDB", "d0/dd8/a09064.html#a377c75f9d06eb246072b29d19baf2b62", null ],
+    [ "LoadStoredLoot", "d0/dd8/a09064.html#ad9804f564302d6ea4db4b84a6cbb093b", null ],
+    [ "RemoveEntryFromDB", "d0/dd8/a09064.html#a8ab68725c0525d162d325a2131db4c49", null ],
+    [ "RemoveStoredLoot", "d0/dd8/a09064.html#a414dee93f9852a64f01f9d9bf8dc8b40", null ],
+    [ "RemoveStoredLootItem", "d0/dd8/a09064.html#a6fd3f2ac820784ba51413b3781df3bcc", null ],
+    [ "RemoveStoredLootMoney", "d0/dd8/a09064.html#ab22d267a6701fedf824f801e4b703f70", null ],
+    [ "lootItemStore", "d0/dd8/a09064.html#a58ae52b9812e5752ba00d00a58eb56b0", null ]
 ];

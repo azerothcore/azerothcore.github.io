@@ -1,9 +1,9 @@
 var a09260 =
 [
-    [ "BroadcastTextID", "d6/db0/a09260.html#a756f24dbee852a7fbe152c0cb082c412", null ],
-    [ "Emotes", "d6/db0/a09260.html#a0f67a651fdb3f3217279015c9e3fb292", null ],
-    [ "Language", "d6/db0/a09260.html#a33bc5a0c156918b00380710aeb275d3d", null ],
-    [ "Probability", "d6/db0/a09260.html#a5c743df7a7ad634c5b3f3376547fda00", null ],
-    [ "Text_0", "d6/db0/a09260.html#a046d637b91807db067c6e7050184322d", null ],
-    [ "Text_1", "d6/db0/a09260.html#a8d64d7b8fcdbd995cc11e22adde8c0de", null ]
+    [ "MapUpdateRequest", "d6/db0/a09260.html#af71812e502bb1ceb60a286ff0d676ccd", null ],
+    [ "call", "d6/db0/a09260.html#a2cb96db357347d47596725e5c345b02f", null ],
+    [ "m_diff", "d6/db0/a09260.html#a3f8ff355ac6efb0a6039c7ee5bfc053b", null ],
+    [ "m_map", "d6/db0/a09260.html#a3612f3e64bb1d2f266c8724c398f5de5", null ],
+    [ "m_updater", "d6/db0/a09260.html#aeb063738175aa8ddc751290f922ffef2", null ],
+    [ "s_diff", "d6/db0/a09260.html#a533a8c8a99f82e15dae0d4513c811b01", null ]
 ];

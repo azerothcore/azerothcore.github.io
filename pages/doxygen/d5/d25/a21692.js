@@ -1,8 +1,6 @@
 var a21692 =
 [
-    [ "npc_future_youAI", "d5/d25/a21692.html#a7608c050dd198e3133050e222b42f62b", null ],
-    [ "EnterEvadeMode", "d5/d25/a21692.html#a0b15c8af6075e323e56b2170ce4eefc0", null ],
-    [ "MoveInLineOfSight", "d5/d25/a21692.html#a35b67f9e948f5ffbde8a423190ece603", null ],
-    [ "Reset", "d5/d25/a21692.html#a01a8cd8f94dd614de2ffefdb19cd9f29", null ],
-    [ "UpdateAI", "d5/d25/a21692.html#ac110daa6b4cf6bf26d9e9f9829577fa6", null ]
+    [ "boss_mimironAI", "d9/d2f/a21696.html", "d9/d2f/a21696" ],
+    [ "boss_mimiron", "d5/d25/a21692.html#a72904837bd85e9f711fcf3da04c459c3", null ],
+    [ "GetAI", "d5/d25/a21692.html#a1d4f38ecee62a2c2a608afc158fad7f2", null ]
 ];

@@ -1,7 +1,6 @@
 var a17732 =
 [
-    [ "HandleTriggerSpell", "d8/d93/a17732.html#a7d7f1731c453e5d0b70e6093aeedea87", null ],
-    [ "PrepareAuraScript", "d8/d93/a17732.html#afff0c81696ddcb427ce105d510ef93b1", null ],
-    [ "Register", "d8/d93/a17732.html#aa50c6066115d7b60704eff48e77d10bd", null ],
-    [ "Validate", "d8/d93/a17732.html#a6ef56d3d18bab2f81c810160ecf3ae96", null ]
+    [ "ModAuraStack", "d8/d93/a17732.html#af460f66403e75789701df1142decfcac", null ],
+    [ "PrepareSpellScript", "d8/d93/a17732.html#a52a666f30bda28d3f0dce153e23e438a", null ],
+    [ "Register", "d8/d93/a17732.html#a8a7531c548bf6c9d530717ab50ef4790", null ]
 ];

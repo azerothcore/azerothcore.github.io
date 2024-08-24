@@ -1,7 +1,7 @@
 var a27356 =
 [
-    [ "npc_engineering_tele_trinket", "de/d9f/a27356.html#ab891a8378a7b1b63151d05801b8b2fd1", null ],
-    [ "CanLearn", "de/d9f/a27356.html#a8a35f1c09a9df609561e76f4ed578647", null ],
-    [ "OnGossipHello", "de/d9f/a27356.html#ad11f576fb7efad0f6ea4cf22d3bc4e59", null ],
-    [ "OnGossipSelect", "de/d9f/a27356.html#a4d7125cf0333d4e5ebc299019c8feb1a", null ]
+    [ "PrepareAuraScript", "de/d9f/a27356.html#afeac0a8393b7d7bf787fca59988d0e14", null ],
+    [ "Register", "de/d9f/a27356.html#a7cbcf46dbdddea12fd6ce04bcbcea097", null ],
+    [ "TriggerFoodBuff", "de/d9f/a27356.html#a5d125413491dd377d61b8e30c4979fdd", null ],
+    [ "Validate", "de/d9f/a27356.html#a6b69d7358eb8cfe6a8f9efd47882eb80", null ]
 ];

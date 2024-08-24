@@ -1,6 +1,6 @@
 var a23788 =
 [
-    [ "HandlePeriodic", "d8/d00/a23788.html#aec3f36e2c5fedddd84478b9e3a59e6f4", null ],
-    [ "PrepareAuraScript", "d8/d00/a23788.html#a2b809a60626119f6bcf595bd3581c2be", null ],
-    [ "Register", "d8/d00/a23788.html#a299f84e9c12406c79a56999a13de5c1c", null ]
+    [ "spell_shango_tracks_SpellScript", "d3/ded/a23792.html", "d3/ded/a23792" ],
+    [ "spell_shango_tracks", "d8/d00/a23788.html#a36a33f099f88c79892c4ba0dd8bead5c", null ],
+    [ "GetSpellScript", "d8/d00/a23788.html#afa36ed651fe9775d8033ce11993878a2", null ]
 ];

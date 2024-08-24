@@ -1,6 +1,6 @@
 var a25560 =
 [
-    [ "HandlePeriodicTick", "df/dae/a25560.html#a058eeb1e0489340763a58d92d4bed832", null ],
-    [ "PrepareAuraScript", "df/dae/a25560.html#a3d71859b7e7f914a395f131dd4a6b4ab", null ],
-    [ "Register", "df/dae/a25560.html#ae5a8adc3fe7cc5c5d7dd715449d3442f", null ]
+    [ "boss_warchief_kargath_bladefistAI", "dd/d5c/a25564.html", "dd/d5c/a25564" ],
+    [ "boss_warchief_kargath_bladefist", "df/dae/a25560.html#ab32d6b38fae734bc53d9e542c25e024e", null ],
+    [ "GetAI", "df/dae/a25560.html#acb5cd31ba7d5ca763e05c5279d836c5d", null ]
 ];

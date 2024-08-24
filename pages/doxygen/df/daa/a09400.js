@@ -1,26 +1,10 @@
 var a09400 =
 [
-    [ "AddItem", "df/daa/a09400.html#ab39b529b190bafe093a7931311c24626", null ],
-    [ "HasItems", "df/daa/a09400.html#a0997971db668abca530f1869d71828dc", null ],
-    [ "IsCODPayment", "df/daa/a09400.html#a113aef1ace737f4bf119ee9cec9d69bd", null ],
-    [ "IsReturnedMail", "df/daa/a09400.html#adb7b77433c2ac76939d3fa9aa7ba5972", null ],
-    [ "IsSentByGM", "df/daa/a09400.html#a0e07f4b90ae44b9dc2a2cac9589196db", null ],
-    [ "IsSentByPlayer", "df/daa/a09400.html#a387fbf2f51eb9414bbcead134f59fa53", null ],
-    [ "RemoveItem", "df/daa/a09400.html#ab96701f1ab95184d78a1a91c87d0076c", null ],
-    [ "body", "df/daa/a09400.html#aaa91a94ee92b2712218a9cae389554f7", null ],
-    [ "checked", "df/daa/a09400.html#ae3198d4379f7f783aa40b180311ca970", null ],
-    [ "COD", "df/daa/a09400.html#ac6db3ffc26e23cc0aea607633390bb66", null ],
-    [ "deliver_time", "df/daa/a09400.html#ac418d7eae438c2c3cd297477a760f0b1", null ],
-    [ "expire_time", "df/daa/a09400.html#a5d7d7251c7a6021d9dc8b9406c0c20ff", null ],
-    [ "items", "df/daa/a09400.html#aab1074d26d11d3216df8f7e6e9b8c1f7", null ],
-    [ "mailTemplateId", "df/daa/a09400.html#afefffec74369d920ce395f1a04d8838c", null ],
-    [ "messageID", "df/daa/a09400.html#a3ee287f59b36f3154cd977a1e92c4d47", null ],
-    [ "messageType", "df/daa/a09400.html#a240dfdc4b89b7cb806330460d5256a44", null ],
-    [ "money", "df/daa/a09400.html#af326068e66a3091aa731186e5e3295ed", null ],
-    [ "receiver", "df/daa/a09400.html#a1cc9173228e34a23b635dfdb6fdf58a1", null ],
-    [ "removedItems", "df/daa/a09400.html#a4299fd5b84f08ff8b1a8fa7caadf531b", null ],
-    [ "sender", "df/daa/a09400.html#a62b403874a8e34a2ab99bc77dbe2996d", null ],
-    [ "state", "df/daa/a09400.html#ae81b243e0ef55683b282e8bfae1d7a42", null ],
-    [ "stationery", "df/daa/a09400.html#a88588149be95899c2fc30b144c4425a6", null ],
-    [ "subject", "df/daa/a09400.html#a8bc2e13257b7a771c9065e35aaf02744", null ]
+    [ "DistractMovementGenerator", "df/daa/a09400.html#a55879290b06f4fc86a1da791c07b7afb", null ],
+    [ "Finalize", "df/daa/a09400.html#aa4a2b943ecde8750bd764290d65872df", null ],
+    [ "GetMovementGeneratorType", "df/daa/a09400.html#a0b30745bf1cd7b5a264e970273595592", null ],
+    [ "Initialize", "df/daa/a09400.html#a71410ddbda2be6b34bb2276a83fea5c9", null ],
+    [ "Reset", "df/daa/a09400.html#ad544709b2873b63b28d27ab414c280ba", null ],
+    [ "Update", "df/daa/a09400.html#ad5a15c1507b8ab315b658351077629b3", null ],
+    [ "m_timer", "df/daa/a09400.html#a8b520d8e97704ac39ce28c2256557b42", null ]
 ];

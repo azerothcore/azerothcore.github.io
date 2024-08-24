@@ -1,12 +1,7 @@
 var a15660 =
 [
-    [ "npc_twilight_volunteer", "d0/db9/a15660.html#a3062041fcabf972e0a3d4753363c37b3", null ],
-    [ "AttackStart", "d0/db9/a15660.html#abc2e12fb7be5b1a7dabc4c2211e7de13", null ],
-    [ "DoAction", "d0/db9/a15660.html#ae95bcb02ee4f0ead76e249de0cba2d88", null ],
-    [ "EnterEvadeMode", "d0/db9/a15660.html#abd88e6fe0565babb92ccae17df0421d6", null ],
-    [ "MovementInform", "d0/db9/a15660.html#a4f27ae97ccf2c349a6352a0f5ba1681a", null ],
-    [ "UpdateAI", "d0/db9/a15660.html#a93288a45982b172c201e2442a4c91114", null ],
-    [ "events", "d0/db9/a15660.html#ad8cc52c1462d7adbfbe566c55c0ed244", null ],
-    [ "isSacraficeTarget", "d0/db9/a15660.html#a8350dba2c41754a2e5d15c94731ef27d", null ],
-    [ "pInstance", "d0/db9/a15660.html#ad58453e078520fa23238a96115e5f38f", null ]
+    [ "npc_kaya_flathoofAI", "de/d5a/a15664.html", "de/d5a/a15664" ],
+    [ "npc_kaya_flathoof", "d0/db9/a15660.html#a588f88b1c00927a4ad6b7cd25fc1b065", null ],
+    [ "GetAI", "d0/db9/a15660.html#ad7cce0c1a30abe5bc0bffa777c40c79a", null ],
+    [ "OnQuestAccept", "d0/db9/a15660.html#acdb20ecb1ffee4417c9b39f3aebb0591", null ]
 ];

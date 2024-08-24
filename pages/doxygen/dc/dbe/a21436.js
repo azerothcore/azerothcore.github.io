@@ -1,6 +1,6 @@
 var a21436 =
 [
-    [ "HandleEffectPeriodic", "dc/dbe/a21436.html#affa7fb949d4b1a05813df0da17fef3bb", null ],
-    [ "PrepareAuraScript", "dc/dbe/a21436.html#a79dbb866c06cd1c031cae2f1370146d5", null ],
-    [ "Register", "dc/dbe/a21436.html#a1fb46036f0860440f3a9201e0d86cdc4", null ]
+    [ "npc_ulduar_hodir_priestAI", "dc/d6b/a21440.html", "dc/d6b/a21440" ],
+    [ "npc_ulduar_hodir_priest", "dc/dbe/a21436.html#a30d7f1b68f9a1d10bc47288b81fc517c", null ],
+    [ "GetAI", "dc/dbe/a21436.html#a276046b974666c1462440a46a8096de7", null ]
 ];

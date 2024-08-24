@@ -1,10 +1,8 @@
 var a28272 =
 [
-    [ "ID", "d5/d6f/a28272.html#a090069d13cbbcc5762ecca600c506492", null ],
-    [ "map_id", "d5/d6f/a28272.html#a685931e2a361f9e0fc81c004c7467d19", null ],
-    [ "MountCreatureID", "d5/d6f/a28272.html#ab59ab7e8b302ac8858bfd67bc10d803f", null ],
-    [ "name", "d5/d6f/a28272.html#ae00db3ea736c3a470f6f0690c178e758", null ],
-    [ "x", "d5/d6f/a28272.html#a7cbd40848094fa367862d653b0f7170d", null ],
-    [ "y", "d5/d6f/a28272.html#a9380befd45cab3104003b2487464bd71", null ],
-    [ "z", "d5/d6f/a28272.html#a2e6ce98f7c96ba1469fca8ff3946404a", null ]
+    [ "HandleEffectRemove", "d5/d6f/a28272.html#a770b7ad0bb00114400a73f50c4aa6c81", null ],
+    [ "if", "d5/d6f/a28272.html#a7123c451bce0f95ad75e5acfbe58a135", null ],
+    [ "PrepareAuraScript", "d5/d6f/a28272.html#a531f51626ae4527282ad1e628911a9ea", null ],
+    [ "Register", "d5/d6f/a28272.html#ae68bd9a92239a4796f9d8040787a68b3", null ],
+    [ "AuraEffectHandleModes", "d5/d6f/a28272.html#a8af86c58f438e78d8bf878f79d4a27e2", null ]
 ];

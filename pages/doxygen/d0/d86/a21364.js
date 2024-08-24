@@ -1,6 +1,6 @@
 var a21364 =
 [
-    [ "npc_azure_invaderAI", "dd/d0c/a21368.html", "dd/d0c/a21368" ],
-    [ "npc_azure_invader", "d0/d86/a21364.html#ab318178a618f2bfdcd5ea3105c240d32", null ],
-    [ "GetAI", "d0/d86/a21364.html#a19c000084ea74a401ece81ee0e20b65c", null ]
+    [ "spell_mark_of_the_faceless_drainhealth_SpellScript", "dd/d0c/a21368.html", "dd/d0c/a21368" ],
+    [ "spell_mark_of_the_faceless_drainhealth", "d0/d86/a21364.html#a712ba0e509f60afbc30d163cd14ca539", null ],
+    [ "GetSpellScript", "d0/d86/a21364.html#add4415fee69ccfbfab702c6c18e1093c", null ]
 ];

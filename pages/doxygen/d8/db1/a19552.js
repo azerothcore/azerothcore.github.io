@@ -1,6 +1,6 @@
 var a19552 =
 [
-    [ "HandleEffectRemove", "d8/db1/a19552.html#a529d6d96d7f7a682646ac76d2738afad", null ],
-    [ "PrepareAuraScript", "d8/db1/a19552.html#ad32012414b24efa48db05cba2d8e86f2", null ],
-    [ "Register", "d8/db1/a19552.html#aa38b273ed6e9482c8c2fca712ea5b459", null ]
+    [ "npc_captain_grondelAI", "d8/db1/a19552.html#afbc971fc03584b87229318309d51a2f5", null ],
+    [ "Reset", "d8/db1/a19552.html#a7d3878822e77fba66891e87e23bd3740", null ],
+    [ "UpdateAI", "d8/db1/a19552.html#a4af8548092b49653805224bd4c0ac0a2", null ]
 ];

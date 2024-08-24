@@ -1,6 +1,8 @@
 var a11780 =
 [
-    [ "boss_thebeastAI", "d5/dcb/a11784.html", "d5/dcb/a11784" ],
-    [ "boss_the_beast", "d0/dde/a11780.html#a131344b5fada63f4a8f0b3692ecba9eb", null ],
-    [ "GetAI", "d0/dde/a11780.html#a0b40497c665c571247cb8ad8b85ac63f", null ]
+    [ "boss_garrAI", "d0/dde/a11780.html#a12d403a90bf4920763ddd87b252f544a", null ],
+    [ "JustEngagedWith", "d0/dde/a11780.html#a3b2bf0e6d3b6b32c450d03b1c88f3850", null ],
+    [ "Reset", "d0/dde/a11780.html#acb14e869dac8e7df83b5b9d858cd2b21", null ],
+    [ "UpdateAI", "d0/dde/a11780.html#aca82837e143f4509db221de15276b90c", null ],
+    [ "massEruptionTimer", "d0/dde/a11780.html#ab807c47afd1ba8320730c3aa733e1b15", null ]
 ];

@@ -1,15 +1,9 @@
 var a15752 =
 [
-    [ "boss_krik_thirAI", "dd/d49/a15752.html#a92a2b2089c890901cd438c8d8ea432c7", null ],
-    [ "GetData", "dd/d49/a15752.html#adcca5f21a596ffae3c50f102c4698c4e", null ],
-    [ "JustDied", "dd/d49/a15752.html#ab4a576f9746f7ade8f6b8f8c08795433", null ],
-    [ "JustEngagedWith", "dd/d49/a15752.html#aa99c241641fc7e94412d08bebed07475", null ],
-    [ "JustSummoned", "dd/d49/a15752.html#afff556f4bc00b87b3d2a37ffbf54c919", null ],
-    [ "KilledUnit", "dd/d49/a15752.html#aad554ec61a0c6ad9cedf6d7d1b33ed1d", null ],
-    [ "MoveInLineOfSight", "dd/d49/a15752.html#a6c72cebac0e09f66bf0a60cdc328aa4d", null ],
-    [ "Reset", "dd/d49/a15752.html#a613441fcb7bd851a03729be84d27650c", null ],
-    [ "SummonedCreatureDies", "dd/d49/a15752.html#acb7b45fbe3a736ad65b0a2556ead40ae", null ],
-    [ "UpdateAI", "dd/d49/a15752.html#ae37227df78ad9ffb9722caa0c16ffa5f", null ],
-    [ "_initTalk", "dd/d49/a15752.html#a68a4994c750979b91e46160b0cba77b4", null ],
-    [ "events2", "dd/d49/a15752.html#a8f706239d33861105a37476eecb977ec", null ]
+    [ "npc_pluckyAI", "dd/d49/a15752.html#a490198dfcf06b04f7ee9a6a5354dec7e", null ],
+    [ "ReceiveEmote", "dd/d49/a15752.html#a4a4a09d6a462011154a8d871562dcaf5", null ],
+    [ "Reset", "dd/d49/a15752.html#a1a6c4a479bbbfced1ad17f2604bdba32", null ],
+    [ "UpdateAI", "dd/d49/a15752.html#a4775a736e3568940c1b92e0cdae4de4b", null ],
+    [ "NormFaction", "dd/d49/a15752.html#afd9c6fccf4c30b4fbc62bfa951665949", null ],
+    [ "ResetTimer", "dd/d49/a15752.html#ac9808c21666cd17b0603e7e67a61d015", null ]
 ];

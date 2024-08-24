@@ -1,7 +1,8 @@
 var a26336 =
 [
-    [ "HandleDummy", "d4/d86/a26336.html#aef93741620dcf29179502f88891ad0b5", null ],
-    [ "Load", "d4/d86/a26336.html#ab8e5dcd009cca538c9921dcb9c5fe109", null ],
-    [ "PrepareSpellScript", "d4/d86/a26336.html#ac92fd133395705e4cb3730bc96e1f787", null ],
-    [ "Register", "d4/d86/a26336.html#a69336bea35240c0014693ae167d4124b", null ]
+    [ "spell_q10929_fumping_AuraScript", "dc/dc7/a26344.html", "dc/dc7/a26344" ],
+    [ "spell_q10929_fumping_SpellScript", "db/db4/a26340.html", "db/db4/a26340" ],
+    [ "spell_q10929_fumping", "d4/d86/a26336.html#ae7061535890eb5569897bcfa853cc2ea", null ],
+    [ "GetAuraScript", "d4/d86/a26336.html#a04117c33975d66738a325064821dad16", null ],
+    [ "GetSpellScript", "d4/d86/a26336.html#a7de6de9ce85fead50a34739148b61e11", null ]
 ];

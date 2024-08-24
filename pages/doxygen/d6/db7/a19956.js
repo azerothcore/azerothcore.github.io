@@ -1,10 +1,6 @@
 var a19956 =
 [
-    [ "boss_freya_elder_ironbranchAI", "d6/db7/a19956.html#a4a7350a2bf7c813b1b18fe32566e4d56", null ],
-    [ "JustDied", "d6/db7/a19956.html#aab878773508fcbb437661d316266b942", null ],
-    [ "JustEngagedWith", "d6/db7/a19956.html#ab7b5df914ee5b22c25098c188306d123", null ],
-    [ "KilledUnit", "d6/db7/a19956.html#a7dc8d3b497c2297b35f6aec70cc5447b", null ],
-    [ "Reset", "d6/db7/a19956.html#afd87a8fc3ca55d1a91f4cc08b34095c8", null ],
-    [ "UpdateAI", "d6/db7/a19956.html#a711cd2788bff7fbc648c039921297eac", null ],
-    [ "events", "d6/db7/a19956.html#a88193ba77c8a0269a5b8bdc4f3dc96d2", null ]
+    [ "boss_faerlinaAI", "d0/dc7/a19960.html", "d0/dc7/a19960" ],
+    [ "boss_faerlina", "d6/db7/a19956.html#a86543ac855287e3de2e3ffcde66fb1cb", null ],
+    [ "GetAI", "d6/db7/a19956.html#aed8214323ff5b792d9bd6aae478e7848", null ]
 ];

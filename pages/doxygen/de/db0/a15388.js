@@ -1,6 +1,7 @@
 var a15388 =
 [
-    [ "npc_anachronos_quest_triggerAI", "da/d1a/a15392.html", "da/d1a/a15392" ],
-    [ "npc_anachronos_quest_trigger", "de/db0/a15388.html#ad39871952acd3152b51820fe360f4ebd", null ],
-    [ "GetAI", "de/db0/a15388.html#a2e0e6a69ed1cbed76db9c4bd64d51330", null ]
+    [ "npc_webbed_creatureAI", "de/db0/a15388.html#a6b7507eda84c29d6bd557b1b424ee10a", null ],
+    [ "JustDied", "de/db0/a15388.html#a153d461124ec9266ffcac147a217f6d9", null ],
+    [ "JustEngagedWith", "de/db0/a15388.html#ac52ad6512bcaee35932f856abdac80d4", null ],
+    [ "Reset", "de/db0/a15388.html#a459eaadd7f0145b7a1a6caf99d1e8a5d", null ]
 ];

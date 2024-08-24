@@ -1,8 +1,7 @@
 var a15008 =
 [
-    [ "boss_veklor", "d0/d55/a15008.html#acbbe1a2e6ffcb00a28f7ae5413cd02c1", null ],
-    [ "AttackStart", "d0/d55/a15008.html#a7ecfff13457bf177c1ec250bbee75cbf", null ],
-    [ "IAmVeklor", "d0/d55/a15008.html#a4c43713c24b5537f292be1e0fcaee703", null ],
-    [ "JustEngagedWith", "d0/d55/a15008.html#a05913da666b1715eac68441195dd9df4", null ],
-    [ "SpellHit", "d0/d55/a15008.html#ab5d9ec12c18e360ce2c8749dd97f2ab0", null ]
+    [ "go_sand_trap", "d0/d55/a15008.html#a58d45acac672cb05988ddca78185b469", null ],
+    [ "Reset", "d0/d55/a15008.html#a7071a3e420e9137ca133b471bc217bf3", null ],
+    [ "UpdateAI", "d0/d55/a15008.html#a2e4a5fec4d4c790233ca97e6a7732ac4", null ],
+    [ "_scheduler", "d0/d55/a15008.html#af845c0efb3d8ebe53d3620970a84f1e4", null ]
 ];

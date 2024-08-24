@@ -1,9 +1,8 @@
 var a20824 =
 [
-    [ "HandleOnEffectApply", "d3/dd2/a20824.html#a3e35c98bd5867bbb6c77b16d89ab74a9", null ],
-    [ "OnPeriodic", "d3/dd2/a20824.html#a49ad44eba19416743bd26252d1b40d71", null ],
-    [ "PrepareAuraScript", "d3/dd2/a20824.html#ae0c475babb67cebb245d6d85b50cd694", null ],
-    [ "Register", "d3/dd2/a20824.html#af56875f1bb85d5524841a5bbb399d7d4", null ],
-    [ "Validate", "d3/dd2/a20824.html#ab383a0a207aa78b7efcd400765ad0838", null ],
-    [ "_targetGUID", "d3/dd2/a20824.html#a9e7c6087b1c7ce3c32be661da037f1e0", null ]
+    [ "npc_algalon_worm_holeAI", "d3/dd2/a20824.html#a07b36b40972bebea6b17890aa8fee50c", null ],
+    [ "JustSummoned", "d3/dd2/a20824.html#a148de5da4502813e369ec6c52b1671a0", null ],
+    [ "Reset", "d3/dd2/a20824.html#a915a8e5e23062cb10da9a3dbe387cf51", null ],
+    [ "UpdateAI", "d3/dd2/a20824.html#a9df88d81aa4f4dd7e1dcdf6209832c32", null ],
+    [ "_summonTimer", "d3/dd2/a20824.html#a73a55560e5ff7957d883f732bc0d2a82", null ]
 ];

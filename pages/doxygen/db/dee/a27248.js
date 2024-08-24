@@ -1,5 +1,6 @@
 var a27248 =
 [
-    [ "go_table_theka", "db/dee/a27248.html#a9e25a1c9313437b533e1d88a2db04a58", null ],
-    [ "OnGossipHello", "db/dee/a27248.html#ab04480f032ce074daacdc0dcfa37ee12", null ]
+    [ "HandleScriptEffect", "db/dee/a27248.html#a422a77760004d6d6fac6bacdb1d436ff", null ],
+    [ "PrepareSpellScript", "db/dee/a27248.html#a1d7e2beafb55464f928ea5904441d698", null ],
+    [ "Register", "db/dee/a27248.html#aeaa8321255f377b85884df25a455554f", null ]
 ];

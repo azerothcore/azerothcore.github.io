@@ -1,13 +1,9 @@
 var a21072 =
 [
-    [ "npc_frenzied_worgenAI", "d3/dad/a21072.html#a3a87e1285fb40a4fe31e7e9c2916f2a8", null ],
-    [ "DoAction", "d3/dad/a21072.html#a7b7b34c2206cd1003c2abff3fb839c34", null ],
-    [ "JustDied", "d3/dad/a21072.html#a33b723baef468ef79e67aaadba1b2691", null ],
-    [ "JustEngagedWith", "d3/dad/a21072.html#a902bb6f89a2a210f2e0d18ebad7613f9", null ],
-    [ "JustReachedHome", "d3/dad/a21072.html#a9b50182cd407811d0f0aeeba378a37ee", null ],
-    [ "MoveInLineOfSight", "d3/dad/a21072.html#a3c2b76ccb6e00a24619f769f0d44ba2b", null ],
-    [ "Reset", "d3/dad/a21072.html#adccac21b6eff18db096eb79dab4a27a0", null ],
-    [ "UpdateAI", "d3/dad/a21072.html#ad83478b5946fd93e1b4fe7916342b1ee", null ],
-    [ "events", "d3/dad/a21072.html#a8619650ae4396aafbdc1533f8b174ab8", null ],
-    [ "m_pInstance", "d3/dad/a21072.html#a425720ce11714b145685f6d9c78a3dc1", null ]
+    [ "npc_thorims_hammerAI", "d3/dad/a21072.html#aafda36c8d784252d271ef031ab6a3d34", null ],
+    [ "Reset", "d3/dad/a21072.html#a57975d0dc00c86946e547ba43c7151ec", null ],
+    [ "UpdateAI", "d3/dad/a21072.html#a4e01a61d09c11647e06c3547d6fa91fa", null ],
+    [ "_beamTimer", "d3/dad/a21072.html#aba7c6c078977a8187a7e673ba3126bfd", null ],
+    [ "_finishTime", "d3/dad/a21072.html#a218bd28d18a2c2f0aef6906619437209", null ],
+    [ "_removeTimer", "d3/dad/a21072.html#a958e4c975d1ae634745107af7d204f82", null ]
 ];

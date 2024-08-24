@@ -1,14 +1,16 @@
 var a20104 =
 [
-    [ "npc_ulduar_hodir_priestAI", "d8/d39/a20104.html#aaa57c813d15ebf0c08a43e4530e5acdd", null ],
-    [ "AttackStart", "d8/d39/a20104.html#a54058aacbf9e49f42f4f84779e0ec8ea", null ],
-    [ "CanAIAttack", "d8/d39/a20104.html#a769a825c8e33bce3a130dbec53072aa4", null ],
-    [ "EnterEvadeMode", "d8/d39/a20104.html#a2d92c0e03de238de439ccb3a10819cd1", null ],
-    [ "JustDied", "d8/d39/a20104.html#a23a3783dc151bb7f1c5c4183b22578b0", null ],
-    [ "MoveInLineOfSight", "d8/d39/a20104.html#aaa3764a042473d20526758553b968a39", null ],
-    [ "ScheduleAbilities", "d8/d39/a20104.html#aab32336d42900a275613a227ccba18a7", null ],
-    [ "SpellHit", "d8/d39/a20104.html#af6afbd5b0560fc4665ecb0d00010ecbc", null ],
-    [ "UpdateAI", "d8/d39/a20104.html#af2b162485414ea0cdda3b19d15c2686f", null ],
-    [ "events", "d8/d39/a20104.html#afdc842e08125223760d1eac105aef65b", null ],
-    [ "pInstance", "d8/d39/a20104.html#a9630107a0a8f128c6b62493163a9e246", null ]
+    [ "boss_loathebAI", "d8/d39/a20104.html#a60256114947b0e9c01f5308108485935", null ],
+    [ "IsInRoom", "d8/d39/a20104.html#a617d45ab3bde4184aa31c1b2c70c1a6f", null ],
+    [ "JustDied", "d8/d39/a20104.html#acf24e563d4876fb9f899a4250b19b6f5", null ],
+    [ "JustEngagedWith", "d8/d39/a20104.html#a1abcf157e05eeb634f8e857a2de35538", null ],
+    [ "JustSummoned", "d8/d39/a20104.html#a8a28f9fe6c087c230103d1139ddb73dc", null ],
+    [ "KilledUnit", "d8/d39/a20104.html#a4dac78bba24069050dd9df729dd58b45", null ],
+    [ "Reset", "d8/d39/a20104.html#a709a4c2fe45fd757ecae6afa402e4728", null ],
+    [ "SummonedCreatureDies", "d8/d39/a20104.html#aeddc6bd981a13ec133e5481b36668b0e", null ],
+    [ "UpdateAI", "d8/d39/a20104.html#ab009008f892493b822e5ea5491c58525", null ],
+    [ "doomCounter", "d8/d39/a20104.html#aed5c631ede2eea27451a74ae21221325", null ],
+    [ "events", "d8/d39/a20104.html#adc49463bbe227f892e31716516032c64", null ],
+    [ "pInstance", "d8/d39/a20104.html#ac91a2f174571d0700bd50f66a2a66718", null ],
+    [ "summons", "d8/d39/a20104.html#a37ef117714403002afb4faa4978f136b", null ]
 ];

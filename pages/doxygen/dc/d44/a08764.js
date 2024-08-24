@@ -1,13 +1,8 @@
 var a08764 =
 [
-    [ "QuestPOI", "dc/d44/a08764.html#af4ce75549d1fff2042e98683119214a6", null ],
-    [ "QuestPOI", "dc/d44/a08764.html#a4cf252fabc68cf11df5d44f192955a0b", null ],
-    [ "AreaId", "dc/d44/a08764.html#ad81f08fa2bc5fd0ccd81d0efc42ce804", null ],
-    [ "FloorId", "dc/d44/a08764.html#a1af6ed9fdb9ff429e18fb5d98a42ce45", null ],
-    [ "Id", "dc/d44/a08764.html#aace0de15249c756ba3cbd5763cbb3f98", null ],
-    [ "MapId", "dc/d44/a08764.html#a851f8e6e62373d2592173534754d757b", null ],
-    [ "ObjectiveIndex", "dc/d44/a08764.html#ad80f65110beacd44e667008387e6bb70", null ],
-    [ "points", "dc/d44/a08764.html#aeb505cb061a00ecaa2acc749e391f207", null ],
-    [ "Unk3", "dc/d44/a08764.html#a1f1d8fa843c856b54ec1ca85b08d78e1", null ],
-    [ "Unk4", "dc/d44/a08764.html#aa8089160bb8e93ea79df96b956050b70", null ]
+    [ "CallOfHelpCreatureInRangeDo", "dc/d44/a08764.html#a6ff932341f415b659d486e63cbeb5fe4", null ],
+    [ "operator()", "dc/d44/a08764.html#a06eb5dd0f8969c20ca1234e01ae15377", null ],
+    [ "i_enemy", "dc/d44/a08764.html#a8e2e259c0159fd9418777787e4c68ccd", null ],
+    [ "i_funit", "dc/d44/a08764.html#aff1768cd844e4e23821cf78f9d360e06", null ],
+    [ "i_range", "dc/d44/a08764.html#ab0544cf93f94766701b72dbb6b3b55c1", null ]
 ];

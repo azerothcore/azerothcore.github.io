@@ -1,6 +1,6 @@
 var a13752 =
 [
-    [ "boss_arlokkAI", "da/d96/a13756.html", "da/d96/a13756" ],
-    [ "boss_arlokk", "dd/d37/a13752.html#a55bb21239e05acff18d2fb147449800e", null ],
-    [ "GetAI", "dd/d37/a13752.html#a58b8cc7a198784b48faaab1b069d397c", null ]
+    [ "npc_janalai_eggAI", "da/d96/a13756.html", "da/d96/a13756" ],
+    [ "npc_janalai_egg", "dd/d37/a13752.html#a3dc748dbefbbac4230603798f113697a", null ],
+    [ "GetAI", "dd/d37/a13752.html#a2ba1dd9e288342944a34b96604c6bb1e", null ]
 ];

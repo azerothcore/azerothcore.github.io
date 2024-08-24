@@ -1,6 +1,10 @@
 var a07532 =
 [
-    [ "value_type", "d5/d6b/a07532.html#a9297944511f34279a6439ade9d83b0c6", null ],
-    [ "StoreTo", "d5/d6b/a07532.html#a1f5494d3c3472abbf8783026015b5f70", null ],
-    [ "tag", "d5/d6b/a07532.html#a08484916162055a368e768b9f5300047", null ]
+    [ "auras", "d5/d6b/a07532.html#a20695ff7997e1ebd6fe898a8b41aeddb", null ],
+    [ "bytes1", "d5/d6b/a07532.html#ae337bd59e1e1eb7f4c9cdee4e8c6a7b9", null ],
+    [ "bytes2", "d5/d6b/a07532.html#aedf06568867bbb5db5ca8017727dab9d", null ],
+    [ "emote", "d5/d6b/a07532.html#a82f7be10807af7b25dd41c643be066fc", null ],
+    [ "mount", "d5/d6b/a07532.html#a4d84276a45de1b62e507ac5c763dce3a", null ],
+    [ "path_id", "d5/d6b/a07532.html#aa86bac734e0e652b6bb4ea273cf62571", null ],
+    [ "visibilityDistanceType", "d5/d6b/a07532.html#ad3ae39b8c5be151e15ab6f1494943bc3", null ]
 ];

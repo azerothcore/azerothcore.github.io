@@ -1,9 +1,6 @@
 var a19636 =
 [
-    [ "CheckTargets", "dc/d75/a19636.html#a9340c167ef70508635092e273c23dcde", null ],
-    [ "CountTargets", "dc/d75/a19636.html#a996db37b678143fbc0a392032d29fff5", null ],
-    [ "Load", "dc/d75/a19636.html#a716bcf5bb0a24f9a57534c9dafb1a56f", null ],
-    [ "PrepareSpellScript", "dc/d75/a19636.html#a0b68ca6bdfe0f7c84236e5fe509d8fd9", null ],
-    [ "Register", "dc/d75/a19636.html#aed312a4408134589fd02bbcb844fd1b7", null ],
-    [ "_targetCount", "dc/d75/a19636.html#ac780614674e748274081f9f99a5165fe", null ]
+    [ "spell_svalna_revive_champion_SpellScript", "d2/dc7/a19640.html", "d2/dc7/a19640" ],
+    [ "spell_svalna_revive_champion", "dc/d75/a19636.html#a6df50e6469f0eea1d574952e5b296e86", null ],
+    [ "GetSpellScript", "dc/d75/a19636.html#aae683e747013a0b308c91eb8a4f14547", null ]
 ];

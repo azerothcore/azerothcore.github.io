@@ -1,7 +1,6 @@
 var a18572 =
 [
-    [ "Land", "d8/d68/a18572.html#ad2fd3d7c81e3ef22cb3767914f649fd0", null ],
-    [ "PrepareSpellScript", "d8/d68/a18572.html#a31e45adb87719c311fb5b94b2b744487", null ],
-    [ "Register", "d8/d68/a18572.html#a652eca6ec8079b2835d911807857c8a8", null ],
-    [ "RemoveAliveTarget", "d8/d68/a18572.html#abdb5f624b30a046eed9ca6ad7c347010", null ]
+    [ "spell_putricide_mutated_transformation_dismiss_AuraScript", "d0/dd1/a18576.html", "d0/dd1/a18576" ],
+    [ "spell_putricide_mutated_transformation_dismiss", "d8/d68/a18572.html#a45c8ca83e56a7543988d3cc79174c3fc", null ],
+    [ "GetAuraScript", "d8/d68/a18572.html#a51991764ba71fe36146672164643d8ba", null ]
 ];

@@ -1,7 +1,8 @@
 var a17876 =
 [
-    [ "FrostBombExplosion", "df/d0c/a17876.html#ac7d318e241e6442e8aa084b27ea50236", null ],
-    [ "Execute", "df/d0c/a17876.html#a0b6521266f18b621260286c530ff3f36", null ],
-    [ "_owner", "df/d0c/a17876.html#aa9ff39ce43c351e8815f895896fa759b", null ],
-    [ "_sindragosaGUID", "df/d0c/a17876.html#a5afc3d543c8fa457c90735f841aa161c", null ]
+    [ "npc_high_overlord_saurfangAI", "d0/dfa/a17880.html", "d0/dfa/a17880" ],
+    [ "npc_high_overlord_saurfang_icc", "df/d0c/a17876.html#ac02fe80550572e142406c2d80c0392df", null ],
+    [ "GetAI", "df/d0c/a17876.html#a21c04ab5b8d747c28c7355cc483ac6e3", null ],
+    [ "OnGossipHello", "df/d0c/a17876.html#a515a87f751527412222cfdd968febe7c", null ],
+    [ "OnGossipSelect", "df/d0c/a17876.html#a39c33a3b2e7037ca6f0f40ba65cb55db", null ]
 ];

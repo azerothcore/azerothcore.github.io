@@ -1,7 +1,6 @@
 var a16608 =
 [
-    [ "HandleScriptEffect", "db/dc0/a16608.html#a667e50b01f431dba025f692484f6e7ba", null ],
-    [ "PrepareSpellScript", "db/dc0/a16608.html#a9a5ffd28102a519c06f3715d7f2b1039", null ],
-    [ "Register", "db/dc0/a16608.html#a7ffa6eb498e9ec06d5cb4f81cff44389", null ],
-    [ "Validate", "db/dc0/a16608.html#a0ab270193a95f9043afd40c9ffd2a46b", null ]
+    [ "npc_toc_paladinAI", "d7/d47/a16612.html", "d7/d47/a16612" ],
+    [ "npc_toc_paladin", "db/dc0/a16608.html#af11025a2a4be2b2c982ad31241d47180", null ],
+    [ "GetAI", "db/dc0/a16608.html#a15766ea4414701040c738251302177af", null ]
 ];

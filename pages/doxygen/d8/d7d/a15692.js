@@ -1,8 +1,7 @@
 var a15692 =
 [
-    [ "instance_ahnkahet_InstanceScript", "d8/d7d/a15692.html#aa9a72f2f757d0b3065a6e4e25b14e86d", null ],
-    [ "IsAllSpheresActivated", "d8/d7d/a15692.html#a048a2b16ae9917c7edc9bf7023986ac3", null ],
-    [ "OnGameObjectCreate", "d8/d7d/a15692.html#ad00fdc90a61e1c927323daa2149f8466", null ],
-    [ "SetData", "d8/d7d/a15692.html#a8986038a2f25b16b9ab8ba4d41b5221a", null ],
-    [ "taldaramPlatform_GUID", "d8/d7d/a15692.html#a840ce69595c384be321c1167513d151e", null ]
+    [ "npc_toogaAI", "d6/d63/a15696.html", "d6/d63/a15696" ],
+    [ "npc_tooga", "d8/d7d/a15692.html#a6ea6a9e4dea1ab98475dae13680ceeaf", null ],
+    [ "GetAI", "d8/d7d/a15692.html#a7847577589f3bdc1c3ea5ee0f1f9232f", null ],
+    [ "OnQuestAccept", "d8/d7d/a15692.html#ac0fdcb3959c239d614b1cc7c66623c5d", null ]
 ];

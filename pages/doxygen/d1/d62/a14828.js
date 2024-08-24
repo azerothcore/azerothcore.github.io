@@ -1,6 +1,28 @@
 var a14828 =
 [
-    [ "HandleScript", "d1/d62/a14828.html#a7e6ec873a252106ba865bdef05f757f5", null ],
-    [ "PrepareSpellScript", "d1/d62/a14828.html#a98e80c8726c350aca850b6c87c5861da", null ],
-    [ "Register", "d1/d62/a14828.html#a994bb1f4670d16f6797b9e0df1d8c36c", null ]
+    [ "npc_thrall_old_hillsbradAI", "d1/d62/a14828.html#ae91bdf876060d8ff6fdf4fbf797d07d8", null ],
+    [ "DoAction", "d1/d62/a14828.html#a3f93322f50d324407bfab2ab1c78ad67", null ],
+    [ "JustDied", "d1/d62/a14828.html#ab3fac4faa54b273d67df8f1c39cc2f29", null ],
+    [ "JustEngagedWith", "d1/d62/a14828.html#ac3bb42dd096d49e138399aac2d0616c0", null ],
+    [ "JustReachedHome", "d1/d62/a14828.html#af6b067b16ecd834513590e51e6ddd485", null ],
+    [ "JustSummoned", "d1/d62/a14828.html#aa273d1429c6e82196b5b9f32c4232996", null ],
+    [ "KilledUnit", "d1/d62/a14828.html#ac36d7100de7444fcd711eaeecd510ac3", null ],
+    [ "MountSelf", "d1/d62/a14828.html#ac0f5110c0a7b10f1a14433916ca3bea9", null ],
+    [ "MovementInform", "d1/d62/a14828.html#a557d38e3dc67382567e3bb2933eac74c", null ],
+    [ "ReorderInstance", "d1/d62/a14828.html#ab3cb1a4b08608c9270b957804756d6d8", null ],
+    [ "Reset", "d1/d62/a14828.html#a52ee903a9e53dd9f91b30c388964d04d", null ],
+    [ "SummonedCreatureDespawn", "d1/d62/a14828.html#abfee2eb8ef6086b162fddcd69372ddc8", null ],
+    [ "SummonedCreatureDies", "d1/d62/a14828.html#ae097af2a0aaeecc237a73ab3d4fafb0f", null ],
+    [ "UnMountSelf", "d1/d62/a14828.html#a87af515cc9a6cf73bf602b8c9bed725e", null ],
+    [ "UpdateAI", "d1/d62/a14828.html#aa74db6940f44d81369944ec85a292a1d", null ],
+    [ "UpdateEscortAI", "d1/d62/a14828.html#a1396da1a6a45041f0736ecd3cc09927c", null ],
+    [ "WaypointReached", "d1/d62/a14828.html#a341ef3b9166257d6e8b3452af9b32887", null ],
+    [ "WaypointStart", "d1/d62/a14828.html#ae9073aa689450fca369fa99815804f61", null ],
+    [ "_barnWave", "d1/d62/a14828.html#a391d5e452e96cfcd529ca32c5f168a92", null ],
+    [ "_churchWave", "d1/d62/a14828.html#a5aad5eb0df573cdfe8d55ac53010df0d", null ],
+    [ "_mounted", "d1/d62/a14828.html#a6eb4beb5f9a5a8bf83fdb3d4268ecd54", null ],
+    [ "combatEvents", "d1/d62/a14828.html#ac0227757e89b0d86c77e3b306f12901f", null ],
+    [ "events", "d1/d62/a14828.html#addb829b3cef88f6430c2a1ae5251105f", null ],
+    [ "instance", "d1/d62/a14828.html#aeeeebf8e7c9351ce7ec6b9b86c6180da", null ],
+    [ "summons", "d1/d62/a14828.html#aa681945f635c2ff9bd23d407d48c003d", null ]
 ];

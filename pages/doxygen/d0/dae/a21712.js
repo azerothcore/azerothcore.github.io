@@ -1,12 +1,24 @@
 var a21712 =
 [
-    [ "npc_wintergarde_gryphon", "d0/dae/a21712.html#ada46ecdbc8c3a33a7b3ce09296c0db72", null ],
-    [ "getVillager", "d0/dae/a21712.html#a7f20f5e124e013ad8f57ca31b9fb86d7", null ],
-    [ "IsSummonedBy", "d0/dae/a21712.html#acd7cea6226034d53b854c5ed659ff949", null ],
-    [ "JustDied", "d0/dae/a21712.html#a6c87d55ef29e14b4b8b87a0321179542", null ],
-    [ "MovementInform", "d0/dae/a21712.html#a8f2faf49533d27d971110681e050c060", null ],
-    [ "PassengerBoarded", "d0/dae/a21712.html#a16c01d26aef06358f979f59fe68c09ca", null ],
-    [ "SpellHit", "d0/dae/a21712.html#acf64143ea83321556156fde30e1a34d4", null ],
-    [ "UpdateAI", "d0/dae/a21712.html#aa161f280e7a7370696cecc27c51ee55c", null ],
-    [ "villagerGUID", "d0/dae/a21712.html#a56a7973a05061197192111ecf55ef14a", null ]
+    [ "npc_ulduar_vx001AI", "d0/dae/a21712.html#a47b46f1110a0a376544e388501a5dc82", null ],
+    [ "AttackStart", "d0/dae/a21712.html#a5b3fdc76e6ea484a7d0fdc815dad56c7", null ],
+    [ "DamageTaken", "d0/dae/a21712.html#a41b562b4df965445e8581eec12a4bcfa", null ],
+    [ "DoAction", "d0/dae/a21712.html#aacbaae85f9870e64ca43a42c224bb12e", null ],
+    [ "EnterEvadeMode", "d0/dae/a21712.html#aed853ac2a262750d1ccb636146897f06", null ],
+    [ "GetData", "d0/dae/a21712.html#a7b7387c58924d3e05ed1e5fc9273e1fa", null ],
+    [ "KilledUnit", "d0/dae/a21712.html#a0a12f7cfd55b0e14f41b8ae3107656fc", null ],
+    [ "MoveInLineOfSight", "d0/dae/a21712.html#a37295ca8047d2cb2248faa59b68830bf", null ],
+    [ "PassengerBoarded", "d0/dae/a21712.html#a8b9f0a4a56f38f527ce1c80202ce084f", null ],
+    [ "Reset", "d0/dae/a21712.html#a07dcd2c5ce8125bff0287f172ead79d5", null ],
+    [ "SetData", "d0/dae/a21712.html#a3cfeac1b6f76d9c337ceb64dd8647980", null ],
+    [ "SpellHit", "d0/dae/a21712.html#abf25b8b64231c1aba63a381734709d76", null ],
+    [ "UpdateAI", "d0/dae/a21712.html#aeb7956153cbfcac4064a5896c231bebb", null ],
+    [ "bIsEvading", "d0/dae/a21712.html#ab0230a2e72f5a0f37abcb01428749db2", null ],
+    [ "events", "d0/dae/a21712.html#a4728fe7157b76c4841a29548817ca3be", null ],
+    [ "fighting", "d0/dae/a21712.html#a53ff3572622d29e3b58719990df8ce6a", null ],
+    [ "leftarm", "d0/dae/a21712.html#a52c6c4e1ed36f81b5d655e0399d485e1", null ],
+    [ "Phase", "d0/dae/a21712.html#a17aa1eaa6af8e450f47348096d9ed400", null ],
+    [ "pInstance", "d0/dae/a21712.html#a05d8dfa16d609a8689e7b1f01cd4333b", null ],
+    [ "spinningUpOrientation", "d0/dae/a21712.html#a2d696433e3897b0ddbc2d22da8af741f", null ],
+    [ "spinningUpTimer", "d0/dae/a21712.html#ab42021785e07a3ca000ae807c53c84a8", null ]
 ];

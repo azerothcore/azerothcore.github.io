@@ -1,5 +1,5 @@
 var a24136 =
 [
-    [ "npc_karynaku", "d4/df6/a24136.html#aa6a3cb409cdbc990f1eee4137c7519d2", null ],
-    [ "OnQuestAccept", "d4/df6/a24136.html#a4cae1950fe3b7b4ae6f2e6691800ec47", null ]
+    [ "OutdoorPvP_silithus", "d4/df6/a24136.html#a8b53dd86c265d277ad1cb49bd6a795bc", null ],
+    [ "GetOutdoorPvP", "d4/df6/a24136.html#a126d6acc77218addd10072199ccd2470", null ]
 ];

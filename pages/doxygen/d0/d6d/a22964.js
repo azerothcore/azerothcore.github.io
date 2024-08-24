@@ -1,6 +1,6 @@
 var a22964 =
 [
-    [ "CalculateAmount", "d0/d6d/a22964.html#aeeabfef0accc4e0d1f78f7422dc30a99", null ],
-    [ "PrepareAuraScript", "d0/d6d/a22964.html#a5cf70fe73d01e08e78a2d00e5bc95e8e", null ],
-    [ "Register", "d0/d6d/a22964.html#a0d2e97463f268892965e307628aaa931", null ]
+    [ "spell_q11919_q11940_drake_hunt_AuraScript", "d1/d74/a22968.html", "d1/d74/a22968" ],
+    [ "spell_q11919_q11940_drake_hunt", "d0/d6d/a22964.html#a48220c2e7f6b30932c09dafd67225529", null ],
+    [ "GetAuraScript", "d0/d6d/a22964.html#a939d86a53ff2a8d7e7bf841f35f84e17", null ]
 ];

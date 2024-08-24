@@ -1,6 +1,6 @@
 var a12492 =
 [
-    [ "boss_zelfan", "d5/d97/a12492.html#a169e72dfe50c5199bf0053828888095b", null ],
-    [ "JustEngagedWith", "d5/d97/a12492.html#a4e83c11ad95ea4dbea893a08671f17af", null ],
-    [ "UpdateAI", "d5/d97/a12492.html#aa3f6175b0ac234ee990f476ebbf2ab67", null ]
+    [ "npc_unworthy_initiateAI", "db/deb/a12496.html", "db/deb/a12496" ],
+    [ "npc_unworthy_initiate", "d5/d97/a12492.html#aaa04626b783eadc0b14bd89aa715e694", null ],
+    [ "GetAI", "d5/d97/a12492.html#a0912cc56cb2082b2de086cbd9b914b4a", null ]
 ];

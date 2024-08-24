@@ -1,7 +1,6 @@
 var a25760 =
 [
-    [ "HandleDummy", "de/dfa/a25760.html#ac3486a646322ef1b6098eeeedaec7d4b", null ],
-    [ "PrepareSpellScript", "de/dfa/a25760.html#a455bdb8fb98431d47b3e414dc3b59b13", null ],
-    [ "Register", "de/dfa/a25760.html#acdade97c38a75439b3da751a0c348e37", null ],
-    [ "Validate", "de/dfa/a25760.html#a2081334e6b7a4191801bc0556e26198c", null ]
+    [ "AfterRemove", "de/dfa/a25760.html#afffa4b13bb60e973203b6625e5cf4576", null ],
+    [ "PrepareAuraScript", "de/dfa/a25760.html#acb444c7a5f41abc449532707300a04e7", null ],
+    [ "Register", "de/dfa/a25760.html#a2539e93205f9d3d86655a1ec7c8df369", null ]
 ];

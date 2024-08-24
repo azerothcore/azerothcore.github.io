@@ -1,9 +1,9 @@
 var a09144 =
 [
-    [ "WorldPacketList", "d8/d72/a09144.html#a27bf64080270086d6dbc752f8d96ec4c", null ],
-    [ "LocalizedPacketListDo", "d8/d72/a09144.html#ab52133e238752f725f18580018a84cd2", null ],
-    [ "~LocalizedPacketListDo", "d8/d72/a09144.html#a8442452027bcb5c98d60830e016803b5", null ],
-    [ "operator()", "d8/d72/a09144.html#adea9610e36d436563ba1f472481aed85", null ],
-    [ "i_builder", "d8/d72/a09144.html#a83bda52b10d30f7fd633c285b79e740b", null ],
-    [ "i_data_cache", "d8/d72/a09144.html#ae2ec6175868c4c82274ce7a623a954a3", null ]
+    [ "RectangleBoundary", "d8/d72/a09144.html#af401f84700a15fa1d4fcf78358a74735", null ],
+    [ "IsWithinBoundaryArea", "d8/d72/a09144.html#a2d6c735d080382263a401d91da37b934", null ],
+    [ "_maxX", "d8/d72/a09144.html#a3eff421dfe942634814e7526334f1c07", null ],
+    [ "_maxY", "d8/d72/a09144.html#a9ec96dfb6b1ee804cceaae2f2dce6a22", null ],
+    [ "_minX", "d8/d72/a09144.html#a77db64ebe7e7f5e9621bbbd6e38837e1", null ],
+    [ "_minY", "d8/d72/a09144.html#af5a7e35d5d9ff23c722643141f01a916", null ]
 ];

@@ -1,7 +1,6 @@
 var a14616 =
 [
-    [ "boss_epoch_hunter", "d7/d98/a14616.html#a652d14ebfced39b8164687a713780600", null ],
-    [ "JustDied", "d7/d98/a14616.html#a38d3cbed2ce8f810fd169e0004fd91dc", null ],
-    [ "JustEngagedWith", "d7/d98/a14616.html#a2571f98f36d1271f3911617e0fdfba54", null ],
-    [ "KilledUnit", "d7/d98/a14616.html#a61456e680e9108dd841e83d97536ef1b", null ]
+    [ "npc_ghoulAI", "db/d22/a14620.html", "db/d22/a14620" ],
+    [ "npc_ghoul", "d7/d98/a14616.html#ae8caf39f572a0727df16c950c2e5bacb", null ],
+    [ "GetAI", "d7/d98/a14616.html#a7d77ead7d3093d4b574f6d8d2c364beb", null ]
 ];

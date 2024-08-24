@@ -1,13 +1,9 @@
 var a27936 =
 [
-    [ "HasFlag", "d6/d82/a27936.html#a5d13e1af17cddf3acdbfc5387869e43f", null ],
-    [ "CinematicSequence", "d6/d82/a27936.html#a33a01b1c26b21706d9898af246f2a0df", null ],
-    [ "expansion", "d6/d82/a27936.html#ab6547f8b08d4d1bf57a37f9574b71e43", null ],
-    [ "FactionID", "d6/d82/a27936.html#a5c66801f2f89aeb847699a2dd87486c7", null ],
-    [ "Flags", "d6/d82/a27936.html#a8c2d30fb87284806a93d4c1da4a6edb0", null ],
-    [ "model_f", "d6/d82/a27936.html#a4807227fd863e247b18d29db0ea8236a", null ],
-    [ "model_m", "d6/d82/a27936.html#a50b5409352d7fe3e6f5919d83c9a0eae", null ],
-    [ "name", "d6/d82/a27936.html#a4970323e45feb3f74b47420648371ab6", null ],
-    [ "RaceID", "d6/d82/a27936.html#a853f3262af3408cf2791e7cd08ec8d32", null ],
-    [ "TeamID", "d6/d82/a27936.html#addd21f5fbf6868e7cf2cd3c54c7172a1", null ]
+    [ "HandleAfterCast", "d6/d82/a27936.html#afd2fbc51ac1e99789994021af36688f3", null ],
+    [ "HandleTriggerSpell", "d6/d82/a27936.html#ae140ab00101f081454b55e12a7c54440", null ],
+    [ "Load", "d6/d82/a27936.html#a3dbb3541f0ec3f614d1f18fd92f9bc03", null ],
+    [ "PrepareSpellScript", "d6/d82/a27936.html#a7fd1a83dd49cee4f52913a40caf3ef88", null ],
+    [ "Register", "d6/d82/a27936.html#a3e9d0ff0bd71ea6d87fb9a7edcfa9a1c", null ],
+    [ "_triggerSpellId", "d6/d82/a27936.html#a9a3efd5cf45d15cf8112a82d33dca731", null ]
 ];

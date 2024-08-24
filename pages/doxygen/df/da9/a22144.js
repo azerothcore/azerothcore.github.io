@@ -1,7 +1,6 @@
 var a22144 =
 [
-    [ "npc_engineer_heliceAI", "d8/daf/a22148.html", "d8/daf/a22148" ],
-    [ "npc_engineer_helice", "df/da9/a22144.html#a445ed6b85e95db817c8117d5473a3c9d", null ],
-    [ "GetAI", "df/da9/a22144.html#ad48e3c1ed22a71e8a45273e1338dd0f8", null ],
-    [ "OnQuestAccept", "df/da9/a22144.html#ae0979d68744372d5d4669b6f014eb123", null ]
+    [ "boss_yoggsaron_brainAI", "d8/daf/a22148.html", "d8/daf/a22148" ],
+    [ "boss_yoggsaron_brain", "df/da9/a22144.html#a8094e2a062f06c5a954c1d3401ca18d4", null ],
+    [ "GetAI", "df/da9/a22144.html#a02e6b07087765d75d0f49b864e2f323f", null ]
 ];

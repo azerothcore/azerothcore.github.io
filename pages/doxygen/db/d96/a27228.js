@@ -1,6 +1,6 @@
 var a27228 =
 [
-    [ "go_fel_crystalforge", "db/d96/a27228.html#aa44708a617edd51651da49918ab776e5", null ],
-    [ "OnGossipHello", "db/d96/a27228.html#aae9f4beff251efb7b29e1988ddd51eaf", null ],
-    [ "OnGossipSelect", "db/d96/a27228.html#a97450cce5f547e28ea84fa6a6f8ab79e", null ]
+    [ "HandleEffectPeriodic", "db/d96/a27228.html#a248ba0e88498e36355491b2b89063e17", null ],
+    [ "PrepareAuraScript", "db/d96/a27228.html#ac9aed434fe7602ef846e9f052402620e", null ],
+    [ "Register", "db/d96/a27228.html#a039eec910c802276b9e979253141cdee", null ]
 ];

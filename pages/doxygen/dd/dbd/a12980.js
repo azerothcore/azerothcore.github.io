@@ -1,7 +1,7 @@
 var a12980 =
 [
-    [ "HandleScript", "dd/dbd/a12980.html#aae2f572a523431f6764f08e4719adbcf", null ],
-    [ "PrepareSpellScript", "dd/dbd/a12980.html#a20fdb423d5db4f1fa629a0f0480e2a9f", null ],
-    [ "Register", "dd/dbd/a12980.html#ae3b002197564318cc92242bd925d35af", null ],
-    [ "Validate", "dd/dbd/a12980.html#a98d9d84fd26d110efbbbaba9a19ef423", null ]
+    [ "HandleApply", "dd/dbd/a12980.html#aeda561c5f75b27b03d544b12a13e9648", null ],
+    [ "HandleRemove", "dd/dbd/a12980.html#ab75cc99eff3d103830da37f19102c42b", null ],
+    [ "PrepareAuraScript", "dd/dbd/a12980.html#a0c49e124094d27c4943725770b78816d", null ],
+    [ "Register", "dd/dbd/a12980.html#a7b7ea4518975ae1a2a3273f1e50c146e", null ]
 ];

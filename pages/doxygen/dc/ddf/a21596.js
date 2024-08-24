@@ -1,10 +1,6 @@
 var a21596 =
 [
-    [ "npc_preparations_for_war_vehicle", "dc/ddf/a21596.html#a56b37aa1c2b50cac4dfb6b907ffb6d48", null ],
-    [ "InitializeAI", "dc/ddf/a21596.html#a85eaba9e51498313f8498eaaf0e7d0d1", null ],
-    [ "MovementInform", "dc/ddf/a21596.html#ac78c5675b42563f46cc2af0f0c97bee0", null ],
-    [ "UpdateAI", "dc/ddf/a21596.html#ae40a23070d96ecf122e9de5571a845ef", null ],
-    [ "pointId", "dc/ddf/a21596.html#ae75d286eb6116b41adb346861b3c1365", null ],
-    [ "searchForShipTimer", "dc/ddf/a21596.html#a49f8a43891d61460b1d6cdde610a2e88", null ],
-    [ "transportEntry", "dc/ddf/a21596.html#aa0083566387cd42750aaa56b1fa23fed", null ]
+    [ "spell_ignis_grab_initial_SpellScript", "da/daa/a21600.html", "da/daa/a21600" ],
+    [ "spell_ignis_grab_initial", "dc/ddf/a21596.html#a6e811c3db63d788228bb3705f0463948", null ],
+    [ "GetSpellScript", "dc/ddf/a21596.html#aacf557be31f03eb5e014a3963ca0b35a", null ]
 ];

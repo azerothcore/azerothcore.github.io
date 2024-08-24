@@ -1,8 +1,11 @@
 var a14220 =
 [
-    [ "npc_hallows_end_train_fire", "d5/def/a14220.html#a0aacc53a7410590e8d1f05aa8d3e37ba", null ],
-    [ "Reset", "d5/def/a14220.html#afdda52e0adce23f56fa9d1357469a17d", null ],
-    [ "SpellHit", "d5/def/a14220.html#a5767b2a5a2ca1813812cf078b0dd1189", null ],
-    [ "UpdateAI", "d5/def/a14220.html#a686a565e1743c31166d8d57f67a0adce", null ],
-    [ "timer", "d5/def/a14220.html#a7fa7d23a587ab632d1b9a2b803f83cd4", null ]
+    [ "npc_elder_kekek", "d5/def/a14220.html#a6084af39be5c70699c9fdcf3cd58e954", null ],
+    [ "MoveInLineOfSight", "d5/def/a14220.html#a0c673e4fdf8e75d3bc8570db166bcd95", null ],
+    [ "Reset", "d5/def/a14220.html#a97e615bdefba5baf459960fc2987cd69", null ],
+    [ "UpdateAI", "d5/def/a14220.html#a5823bc7164d797c40d48b9b74642d9b5", null ],
+    [ "orphanGUID", "d5/def/a14220.html#a98c79e46e051c35819c6025828a519cb", null ],
+    [ "phase", "d5/def/a14220.html#a99fd9d984f92d5ba8b5876675855d4f6", null ],
+    [ "playerGUID", "d5/def/a14220.html#a614ed3332f4af3c5178aa69da968a3d3", null ],
+    [ "timer", "d5/def/a14220.html#a445c048d8858f5dc7c1e88308ed7e5ab", null ]
 ];

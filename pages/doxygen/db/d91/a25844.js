@@ -1,6 +1,8 @@
 var a25844 =
 [
-    [ "HandleEffect", "db/d91/a25844.html#a41b46d8918b59a1617f383b3eedfe343", null ],
-    [ "PrepareSpellScript", "db/d91/a25844.html#acfc69e6323292e6c64fbe8d2e10efcdc", null ],
-    [ "Register", "db/d91/a25844.html#a78f1476ed28eb1e80356dbf3d32918f5", null ]
+    [ "HandleScriptEffect", "db/d91/a25844.html#a22a3588a0781600270ba7f57e1533668", null ],
+    [ "Load", "db/d91/a25844.html#aa25891cda4347c1cad7974532aed8a6e", null ],
+    [ "PrepareSpellScript", "db/d91/a25844.html#a71207b739858f66f8616310bd3003891", null ],
+    [ "Register", "db/d91/a25844.html#ab647c237bf344dd8bc78584e5d51be28", null ],
+    [ "_currentSpellId", "db/d91/a25844.html#a5f15a0018ee0804164a432714694a3e1", null ]
 ];

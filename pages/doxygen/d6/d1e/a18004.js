@@ -1,8 +1,9 @@
 var a18004 =
 [
-    [ "FilterTargets", "d6/d1e/a18004.html#a14e392760361b95578bc95de10cdd8aa", null ],
-    [ "HandleForcedCast", "d6/d1e/a18004.html#afbf6d0ee66d192a81ed12f2e28e195f1", null ],
-    [ "PrepareSpellScript", "d6/d1e/a18004.html#a8bb53a933c5a2ec33966c6acd1a6da65", null ],
-    [ "Register", "d6/d1e/a18004.html#ac2105e66f692c6a991ac9190b1901505", null ],
-    [ "Validate", "d6/d1e/a18004.html#a1746786ad6daaac11aefd32e00c8d1ea", null ]
+    [ "npc_stinky_iccAI", "d6/d1e/a18004.html#a545356eb2b77cfae7af3d470e95ea2d6", null ],
+    [ "JustDied", "d6/d1e/a18004.html#a7fa392980e2d30c935b79377df8dc694", null ],
+    [ "JustEngagedWith", "d6/d1e/a18004.html#afd1cd4fc387ff7cdad58c9db60841c7a", null ],
+    [ "Reset", "d6/d1e/a18004.html#ac66e3398598576fdc889a7b56646eecf", null ],
+    [ "UpdateAI", "d6/d1e/a18004.html#af6e04824ea1682c529e8579a306d34ca", null ],
+    [ "events", "d6/d1e/a18004.html#a3ab7ae11b7f5ef5877febbd384014ce2", null ]
 ];

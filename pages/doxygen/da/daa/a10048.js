@@ -1,4 +1,5 @@
 var a10048 =
 [
-    [ "ModuleScript", "da/daa/a10048.html#a145c67a6c12a18527a4e7011a66b1760", null ]
+    [ "GuildDeleteRank", "da/daa/a10048.html#ae21057ea5cc30ed07deaa736149617b3", null ],
+    [ "Read", "da/daa/a10048.html#a91a7883299fe09e08c247c96987a8333", null ]
 ];

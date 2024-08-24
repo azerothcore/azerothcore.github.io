@@ -1,9 +1,8 @@
 var a27084 =
 [
-    [ "ChatLogScript", "d2/d17/a27084.html#ade8c407083cf094f0767412e7b6d7730", null ],
-    [ "OnChat", "d2/d17/a27084.html#a44694358d5babfd988c6c64e738a4f80", null ],
-    [ "OnChat", "d2/d17/a27084.html#ac0a0f2e7d63cb5ff94be3d1a7c7a62b4", null ],
-    [ "OnChat", "d2/d17/a27084.html#a53b69eaa690266d38f08aa3920048353", null ],
-    [ "OnChat", "d2/d17/a27084.html#a7b6ce21ddcda078a0ed32ce130a3b376", null ],
-    [ "OnChat", "d2/d17/a27084.html#ab7e9d4f50e33c4ddd49e98157deb29ba", null ]
+    [ "Absorb", "d2/d17/a27084.html#aecfcbafe098adddba0a73965c447558c", null ],
+    [ "Load", "d2/d17/a27084.html#a1883cb4c86478359dd1ff8df25e2ec65", null ],
+    [ "PrepareAuraScript", "d2/d17/a27084.html#a3a65787dd5b7c1c796b98ce79f180d4d", null ],
+    [ "Register", "d2/d17/a27084.html#ab6bea7d62539841fa21fa8f3c8122707", null ],
+    [ "limit", "d2/d17/a27084.html#abccfd60f40962072c2f720dbe0f34ee4", null ]
 ];

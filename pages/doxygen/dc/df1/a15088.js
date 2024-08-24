@@ -1,6 +1,5 @@
 var a15088 =
 [
-    [ "HandleDummy", "dc/df1/a15088.html#a09b21b3e5357c49d85ef01d9a5d4694f", null ],
-    [ "PrepareSpellScript", "dc/df1/a15088.html#ac221d3d128265d78acc72d41ebf0fd8a", null ],
-    [ "Register", "dc/df1/a15088.html#a67be525bc07ef7091d9b8148c1a01fb9", null ]
+    [ "boss_vem", "dc/df1/a15088.html#a8e303ece8ba209c6dea0ed6c888077d3", null ],
+    [ "JustEngagedWith", "dc/df1/a15088.html#ae4b7fa599d31155bdee566b31c60b237", null ]
 ];

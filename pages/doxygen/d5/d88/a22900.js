@@ -1,7 +1,6 @@
 var a22900 =
 [
-    [ "HandleOnHit", "d5/d88/a22900.html#a9f368396cef39ba3bd70480f11c44700", null ],
-    [ "PrepareSpellScript", "d5/d88/a22900.html#a3240b42a9122e61b57ea91486cb3c97b", null ],
-    [ "Register", "d5/d88/a22900.html#a99f80adcebdd9726a8df51f99d415651", null ],
-    [ "Validate", "d5/d88/a22900.html#a25e3078f0b2d71ea0e6802aae0a6c7a4", null ]
+    [ "npc_azure_mage_slayerAI", "db/dec/a22904.html", "db/dec/a22904" ],
+    [ "npc_azure_mage_slayer", "d5/d88/a22900.html#ad5e5453235c224f4fac40244516dd1ad", null ],
+    [ "GetAI", "d5/d88/a22900.html#a9b795915100f47b11a65abdfdcbf39f4", null ]
 ];

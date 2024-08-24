@@ -1,6 +1,7 @@
 var a19216 =
 [
-    [ "boss_ormorokAI", "d0/dcb/a19220.html", "d0/dcb/a19220" ],
-    [ "boss_ormorok", "d9/dc5/a19216.html#a0999bd2d1bcd5b27c6cba6293b48e7b3", null ],
-    [ "GetAI", "d9/dc5/a19216.html#a1e3c4a03a2d44d085010da8f1621e2fb", null ]
+    [ "CalculateBonus", "d9/dc5/a19216.html#a7e01b2217f6d2b875f744b366fdd2373", null ],
+    [ "OnPeriodic", "d9/dc5/a19216.html#a5af46e99b9c66a8f6442fa4d657fcb2b", null ],
+    [ "PrepareAuraScript", "d9/dc5/a19216.html#a8990d80f14a4a0b4cfe15f99ba699883", null ],
+    [ "Register", "d9/dc5/a19216.html#aa104f352e770292e2de741e0311b4105", null ]
 ];

@@ -1,7 +1,6 @@
 var a13376 =
 [
-    [ "npc_deathstalker_erlandAI", "da/d4d/a13380.html", "da/d4d/a13380" ],
-    [ "npc_deathstalker_erland", "de/d04/a13376.html#ad49faf068e982f245f0d1e21f0700c40", null ],
-    [ "GetAI", "de/d04/a13376.html#ab59235f212ddb985056cb8e32719b723", null ],
-    [ "OnQuestAccept", "de/d04/a13376.html#a81b20bc8c7249a59d69ba63ab32a5f06", null ]
+    [ "x", "de/d04/a13376.html#afeb59642abc7d5114668b2c27e315228", null ],
+    [ "y", "de/d04/a13376.html#a3e2454dd579de689289003a343e7f29c", null ],
+    [ "z", "de/d04/a13376.html#a4fbcf991d732545b4f9c19689ff9d805", null ]
 ];

@@ -1,13 +1,11 @@
 var a12848 =
 [
-    [ "instance_shadowfang_keep_InstanceMapScript", "df/d4d/a12848.html#aabb179f16f6a61d1cfc842482880ea0b", null ],
-    [ "Initialize", "df/d4d/a12848.html#a8381b4ead52e3515359cc2c10d52c29a", null ],
-    [ "OnCreatureCreate", "df/d4d/a12848.html#a3f9cca96886b97f7657edc04f4997d41", null ],
-    [ "OnGameObjectCreate", "df/d4d/a12848.html#ad420b6b549b8d76a80844d81548b1143", null ],
-    [ "ReadSaveDataMore", "df/d4d/a12848.html#a83a24703aafb973809618d3ac3ac0375", null ],
-    [ "SetData", "df/d4d/a12848.html#abdc105e9306d9abc776259be97e2488f", null ],
-    [ "WriteSaveDataMore", "df/d4d/a12848.html#a8be19e9a77d3796d3c09e75c5b31c19c", null ],
-    [ "_apothecaryHummel", "df/d4d/a12848.html#a3f77ecd2edf0989fcb957b56153807eb", null ],
-    [ "_crazedApothecaryGeneratorGUIDs", "df/d4d/a12848.html#a00880eedbbc2deb4dc36e4c851558861", null ],
-    [ "_encounters", "df/d4d/a12848.html#acfc196d008166d7b9da9b85c1ef4521e", null ]
+    [ "boss_brutallusAI", "df/d4d/a12848.html#af459f8e102817c370f63555734930477", null ],
+    [ "AttackStart", "df/d4d/a12848.html#a32695b529405d622fe61cd916f46dc65", null ],
+    [ "DamageTaken", "df/d4d/a12848.html#a0cf6c7f64b4872b72e3976e232d1cda0", null ],
+    [ "JustDied", "df/d4d/a12848.html#a6920f6ec9504245fa97119e1dceb4a52", null ],
+    [ "JustEngagedWith", "df/d4d/a12848.html#a28d35428c502d249244985b971e35ce3", null ],
+    [ "KilledUnit", "df/d4d/a12848.html#a7a0097ad95db267d227d512104bc6884", null ],
+    [ "Reset", "df/d4d/a12848.html#acf072997c47d25c7b1608664d1e0fa72", null ],
+    [ "UpdateAI", "df/d4d/a12848.html#a74214632a57228887c514340b5ba0e19", null ]
 ];

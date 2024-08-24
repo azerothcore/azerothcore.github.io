@@ -1,7 +1,6 @@
 var a25456 =
 [
-    [ "CheckProc", "db/dfc/a25456.html#a41c451e31b84a72af3a17bfa29ca02fe", null ],
-    [ "HandleProc", "db/dfc/a25456.html#a5cf9cea911ead2f261522e55e94c745a", null ],
-    [ "PrepareAuraScript", "db/dfc/a25456.html#a3f2b20607f90ad641769eb284ddfab85", null ],
-    [ "Register", "db/dfc/a25456.html#a55557026689613e91aeabce1af442237", null ]
+    [ "HandleScriptEffect", "db/dfc/a25456.html#a8920741b211ab64d875f5e88e1d72b0f", null ],
+    [ "PrepareSpellScript", "db/dfc/a25456.html#aa12817ed9ac5428281d01529ad3836a1", null ],
+    [ "Register", "db/dfc/a25456.html#ae51061078498ec31eb2f87cb6fc89d43", null ]
 ];

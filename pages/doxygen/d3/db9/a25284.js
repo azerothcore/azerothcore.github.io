@@ -1,6 +1,8 @@
 var a25284 =
 [
-    [ "CalculateDamage", "d3/db9/a25284.html#a2b0d2465c42bb32a2e0a2be1884eddb6", null ],
-    [ "PrepareSpellScript", "d3/db9/a25284.html#a4271f026fd9cddeb109761e9b864c381", null ],
-    [ "Register", "d3/db9/a25284.html#a03bb4cf19328efa783600273663b609a", null ]
+    [ "boss_the_black_stalker", "d3/db9/a25284.html#ac33519b374509cefe43b8e97701719ee", null ],
+    [ "JustEngagedWith", "d3/db9/a25284.html#a9031543d8ad4b7869e8472a1bf369a4e", null ],
+    [ "JustSummoned", "d3/db9/a25284.html#a9e0299a99df83abb7de476a765b667b9", null ],
+    [ "SummonedCreatureDies", "d3/db9/a25284.html#aede25dbe426ec26ccb0509eca0c9c6af", null ],
+    [ "UpdateAI", "d3/db9/a25284.html#a441d3a7e3d9b98703f5870c4ddb4b88c", null ]
 ];

@@ -1,7 +1,6 @@
 var a23852 =
 [
-    [ "boss_gatewatcher_iron_hand", "dc/dae/a23852.html#aef70e713007af38b510f0a3b8c082b24", null ],
-    [ "JustDied", "dc/dae/a23852.html#a36b10cd02b35b6e106687b08bc80bfa6", null ],
-    [ "JustEngagedWith", "dc/dae/a23852.html#aa6a9f456d158e4c0332816c7e65ec155", null ],
-    [ "KilledUnit", "dc/dae/a23852.html#a1973142412b4094dbd9fa51600741148", null ]
+    [ "npc_brunnhildar_prisonerAI", "da/d4e/a23856.html", "da/d4e/a23856" ],
+    [ "npc_brunnhildar_prisoner", "dc/dae/a23852.html#a4dd1b440366c0a5c4fa7c1dfab7607b5", null ],
+    [ "GetAI", "dc/dae/a23852.html#aa2a1787849c74a5163a39137c9d03d57", null ]
 ];

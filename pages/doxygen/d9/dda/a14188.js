@@ -1,6 +1,7 @@
 var a14188 =
 [
-    [ "HandleDummy", "d9/dda/a14188.html#a7e6ecd28a6b1f161619e179bc386388e", null ],
-    [ "PrepareSpellScript", "d9/dda/a14188.html#a87a787c6ab3804847c90266f570381c6", null ],
-    [ "Register", "d9/dda/a14188.html#ad5c7ab8f3bb74882eed42c6e0868ab70", null ]
+    [ "HandleScriptEffect", "d9/dda/a14188.html#ae758c224878aebdde0124b5d4ec902a5", null ],
+    [ "PrepareSpellScript", "d9/dda/a14188.html#ac3755ef09a905d90ce7df328b83d51aa", null ],
+    [ "Register", "d9/dda/a14188.html#a051d0fe383e5675e39e4ac8ed7a6e329", null ],
+    [ "Validate", "d9/dda/a14188.html#a56f71954e122f651c6e2ec68453e16cc", null ]
 ];

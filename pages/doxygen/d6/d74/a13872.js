@@ -1,5 +1,6 @@
 var a13872 =
 [
-    [ "npc_brain_wash_totem", "d6/d74/a13872.html#acdecde614ba82d60ee4a10ace8545fdf", null ],
-    [ "EnterEvadeMode", "d6/d74/a13872.html#abd32e3210cc384c0c365826ca1fbae1e", null ]
+    [ "boss_hakkarAI", "d1/dd2/a13876.html", "d1/dd2/a13876" ],
+    [ "boss_hakkar", "d6/d74/a13872.html#a834bd1f223154fbf1be94bf43136da28", null ],
+    [ "GetAI", "d6/d74/a13872.html#aff3a089e30dcddfde4db372104153723", null ]
 ];

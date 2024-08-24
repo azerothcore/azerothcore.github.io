@@ -1,7 +1,9 @@
 var a08072 =
 [
-    [ "EnchStoreItem", "df/db7/a08072.html#a89019e156774c5b978251479264e5463", null ],
-    [ "EnchStoreItem", "df/db7/a08072.html#aca83bb20eb6153faeaf599b07b97e357", null ],
-    [ "chance", "df/db7/a08072.html#a2d3d0cd28c79402b3625694d4676ed8b", null ],
-    [ "ench", "df/db7/a08072.html#ac2346b6c6c5c09bb63676d72c798d848", null ]
+    [ "achievements", "df/db7/a08072.html#acfdabccf4f66aa7ebfbae0bfe185f6dc", null ],
+    [ "items", "df/db7/a08072.html#a2873836588f37b9a5cf691da2b6fa715", null ],
+    [ "levelMax", "df/db7/a08072.html#a7430d852e5426c1a32e49c77d747f4e6", null ],
+    [ "levelMin", "df/db7/a08072.html#a823016216268e13116a46bcb40ea0e70", null ],
+    [ "quests", "df/db7/a08072.html#a6150aa58762a13dcbfcb55507df77809", null ],
+    [ "reqItemLevel", "df/db7/a08072.html#a97f262e488e178dad0c33f228808f69e", null ]
 ];

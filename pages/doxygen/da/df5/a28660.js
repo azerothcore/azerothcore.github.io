@@ -1,6 +1,7 @@
 var a28660 =
 [
-    [ "height", "da/df5/a28660.html#a7638f586a055c48a46e36471543ff72f", null ],
-    [ "unk1", "da/df5/a28660.html#a6c08b6fa33e12a9900218d0d0b8b78d5", null ],
-    [ "unk2", "da/df5/a28660.html#a394a04f6e985824aa259a42b11b97136", null ]
+    [ "HandleProc", "da/df5/a28660.html#a3878044c77e9560bcc7d531d5c119e0f", null ],
+    [ "PrepareAuraScript", "da/df5/a28660.html#a3a496539a6adddca91724d9cc77f81c3", null ],
+    [ "Register", "da/df5/a28660.html#a096f4ecd857cc642ff1d1e5119933921", null ],
+    [ "Validate", "da/df5/a28660.html#a1592084736ebe5b10a343aee4dba8050", null ]
 ];

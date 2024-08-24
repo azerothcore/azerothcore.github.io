@@ -1,6 +1,12 @@
 var a17172 =
 [
-    [ "npc_kinetic_bombAI", "d3/df8/a17176.html", "d3/df8/a17176" ],
-    [ "npc_kinetic_bomb", "d1/d27/a17172.html#abca5a72d3ac0d50a27e604e8e1491957", null ],
-    [ "GetAI", "d1/d27/a17172.html#ae00630d96dc7a93ea13841c1f9e9be3b", null ]
+    [ "npc_ghostly_priestAI", "d1/d27/a17172.html#abb6815d1395b68654eeb6ab8b4217388", null ],
+    [ "AttackStart", "d1/d27/a17172.html#a9719d1ad6e58b727bc1720cb815be3e9", null ],
+    [ "DoAction", "d1/d27/a17172.html#a89c991a1d4c07f1229436871f503c949", null ],
+    [ "EnterEvadeMode", "d1/d27/a17172.html#ab8fd2df32ef12f5f648b8af9abcc3201", null ],
+    [ "JustDied", "d1/d27/a17172.html#a004e8aec05741b9ee36b0695840e6c2a", null ],
+    [ "JustEngagedWith", "d1/d27/a17172.html#a780d530e224ca1f72e26db17cd57f44a", null ],
+    [ "Reset", "d1/d27/a17172.html#ab8f7559110be76633153842e0714554a", null ],
+    [ "UpdateAI", "d1/d27/a17172.html#ab431f451963d0b608f11129934496700", null ],
+    [ "events", "d1/d27/a17172.html#a9b49c143b5a29b4f9b4ce34ce0aecca7", null ]
 ];

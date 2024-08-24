@@ -1,14 +1,12 @@
 var a21048 =
 [
-    [ "npc_massive_jormungarAI", "d8/dbc/a21048.html#aa0b9acaec1aab155f7e4442d12d40c3e", null ],
-    [ "DoAction", "d8/dbc/a21048.html#a8084994ba056c907b2e487568fa7502a", null ],
-    [ "JustDied", "d8/dbc/a21048.html#a02b4e75227811250e2210f754e6e04f2", null ],
-    [ "JustEngagedWith", "d8/dbc/a21048.html#a93769dbb2f7d2136e5ab2603927a5f12", null ],
-    [ "JustReachedHome", "d8/dbc/a21048.html#a8ea0fe40cb4b113abadc091ab8085636", null ],
-    [ "MoveInLineOfSight", "d8/dbc/a21048.html#a55c817111fab479c3abcfca8942f16e8", null ],
-    [ "Reset", "d8/dbc/a21048.html#aca0d8ebe3b47a075a8b87666c0207620", null ],
-    [ "UpdateAI", "d8/dbc/a21048.html#a9201c4cdf74d55bb3cde52eb265aa3d9", null ],
-    [ "events", "d8/dbc/a21048.html#a92334b8178317a91a7d4336096d75f33", null ],
-    [ "m_pInstance", "d8/dbc/a21048.html#ad50a9852370798817fda318f71f27653", null ],
-    [ "summons", "d8/dbc/a21048.html#acfa84efc38b994706015e6d82fe1f653", null ]
+    [ "npc_freya_wardAI", "d8/dbc/a21048.html#afbc2f3d88173e240b87915cf0520b3cf", null ],
+    [ "DoAction", "d8/dbc/a21048.html#a4c9418b5474eb572a76168d4a460159a", null ],
+    [ "JustSummoned", "d8/dbc/a21048.html#a9075d763014ca50b4e0d2c815e1c23b7", null ],
+    [ "Reset", "d8/dbc/a21048.html#a65d304edd3b00b4a45c58bf36b926900", null ],
+    [ "SummonedCreatureDespawn", "d8/dbc/a21048.html#a6273b024ebde2fb36ed79eb122f7ac68", null ],
+    [ "UpdateAI", "d8/dbc/a21048.html#a11dd073b70e5126f580ec5122dce7bbd", null ],
+    [ "_castTimer", "d8/dbc/a21048.html#a6308aadc8ebf41cf045b04ac58e2244b", null ],
+    [ "_summoned", "d8/dbc/a21048.html#a5df6604055c5f3936a95f8d0ca5be8c1", null ],
+    [ "summons", "d8/dbc/a21048.html#a82932e9f2d570fa6d8394bfd3954c41e", null ]
 ];

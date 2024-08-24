@@ -1,6 +1,7 @@
 var a20840 =
 [
-    [ "FilterTargets", "df/dcd/a20840.html#a7efa78a7991b7ca859c7d622f973265d", null ],
-    [ "PrepareSpellScript", "df/dcd/a20840.html#a67da98b94fe491afa06b7a0cfa92982a", null ],
-    [ "Register", "df/dcd/a20840.html#a4d2c901a32f526673e968aa5b7ca9117", null ]
+    [ "HandlePeriodic", "df/dcd/a20840.html#aa6100b91667b1d3744bb51d15bfd0fac", null ],
+    [ "OnRemove", "df/dcd/a20840.html#a6d04dfc479da278f740269e533c56425", null ],
+    [ "PrepareAuraScript", "df/dcd/a20840.html#a5fbd2babce20515a9957aac7639df227", null ],
+    [ "Register", "df/dcd/a20840.html#a0c6dd191107eecbcf4de77b68d92578f", null ]
 ];

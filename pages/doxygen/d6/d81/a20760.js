@@ -1,6 +1,6 @@
 var a20760 =
 [
-    [ "boss_yoggsaron_descend_portalAI", "df/de5/a20764.html", "df/de5/a20764" ],
-    [ "boss_yoggsaron_descend_portal", "d6/d81/a20760.html#aaf546e4e546d87818bd501b4934e8ab2", null ],
-    [ "GetAI", "d6/d81/a20760.html#aceb50c808eed17ca468a80b823af1907", null ]
+    [ "iron_golem_custodianAI", "df/de5/a20764.html", "df/de5/a20764" ],
+    [ "iron_golem_custodian", "d6/d81/a20760.html#adc11b755e193adbad757c21e5b15e063", null ],
+    [ "GetAI", "d6/d81/a20760.html#a272e0c9fe475a665aa80a95f1e1d8629", null ]
 ];

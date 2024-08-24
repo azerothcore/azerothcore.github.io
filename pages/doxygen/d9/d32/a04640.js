@@ -1,6 +1,6 @@
 var a04640 =
 [
-    [ "map_id", "dd/d4e/a28532.html", "dd/d4e/a28532" ],
+    [ "map_id", "d2/ddc/a28535.html", "d2/ddc/a28535" ],
     [ "_CRT_SECURE_NO_DEPRECATE", "d9/d32/a04640.html#a411c46599e926f8cdf49c63957255359", null ],
     [ "MPQ_BLOCK_SIZE", "d9/d32/a04640.html#a402d9c2814f85cee14f9bc8dbc999de8", null ],
     [ "ExtractSingleWmo", "d9/d32/a04640.html#afc9839262206eb10094c1769141ae146", null ],

@@ -1,6 +1,6 @@
 var a26396 =
 [
-    [ "PrepareSpellScript", "df/dd1/a26396.html#a882d87de64d0e2c64b17c26d9e40d616", null ],
-    [ "Register", "df/dd1/a26396.html#ab58938808e460e843e42f2b6fa644e8a", null ],
-    [ "SetDest", "df/dd1/a26396.html#ab87932c73a2e53647bda584aeb58f789", null ]
+    [ "npc_unkor_the_ruthlessAI", "d8/da8/a26400.html", "d8/da8/a26400" ],
+    [ "npc_unkor_the_ruthless", "df/dd1/a26396.html#a4eb173932f39c5503d1db91d55f3a5b7", null ],
+    [ "GetAI", "df/dd1/a26396.html#a552a19b9a48e90f3b093e2b9e16ec867", null ]
 ];

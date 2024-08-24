@@ -1,7 +1,7 @@
 var a02690 =
 [
-    [ "boss_urok_doomhowl", "df/d78/a11796.html", "df/d78/a11796" ],
-    [ "boss_urok_doomhowl::boss_urok_doomhowlAI", "da/d21/a11800.html", "da/d21/a11800" ],
+    [ "boss_urok_doomhowl", "d6/d6c/a11799.html", "d6/d6c/a11799" ],
+    [ "boss_urok_doomhowl::boss_urok_doomhowlAI", "d6/db1/a11803.html", "d6/db1/a11803" ],
     [ "Events", "df/d5e/a02690.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d4/d61/a02588.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d4/d61/a02588.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

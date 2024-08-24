@@ -1,12 +1,7 @@
 var a09800 =
 [
-    [ "delay", "d1/d2a/a09800.html#aa05ef99c3e04589501362a07d0dd032a", null ],
-    [ "event_chance", "d1/d2a/a09800.html#af54f2d38ca1a11664f516799f3bb80c8", null ],
-    [ "event_id", "d1/d2a/a09800.html#a083020691278af836e48f0a0c2feff96", null ],
-    [ "id", "d1/d2a/a09800.html#af7248c313ceefedb5b7ff6ed4c2ffd6b", null ],
-    [ "move_type", "d1/d2a/a09800.html#afb1a57b423a258e99c6921727a27e2e7", null ],
-    [ "orientation", "d1/d2a/a09800.html#a971411811b0e60839538f82cd55dcfb7", null ],
-    [ "x", "d1/d2a/a09800.html#a2dfd7f1f946ebef0b67d8f1542198b4b", null ],
-    [ "y", "d1/d2a/a09800.html#a574c5ba7eb5e6bd55f6c55bb511c03f7", null ],
-    [ "z", "d1/d2a/a09800.html#a013fa650f43e790e652016fbce2e1bd5", null ]
+    [ "CommandSC", "d1/d2a/a09800.html#a99224ebae15566e468545faa15065a62", null ],
+    [ "CanExecuteCommand", "d1/d2a/a09800.html#ac23f599682169e26fc83966beae0e1f6", null ],
+    [ "IsDatabaseBound", "d1/d2a/a09800.html#a0a4370799ce93c33a0f68937d032c1f8", null ],
+    [ "OnHandleDevCommand", "d1/d2a/a09800.html#af60cc0a61ff6feae6aa5b52d6de6feaa", null ]
 ];

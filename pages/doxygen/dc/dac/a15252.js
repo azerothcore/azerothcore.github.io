@@ -1,6 +1,6 @@
 var a15252 =
 [
-    [ "npc_tiger_matriarch_creditAI", "dc/dac/a15252.html#a628772971a9c2a190ffe2fae6b0b6865", null ],
-    [ "UpdateAI", "dc/dac/a15252.html#a0fc7ca1313a21c5f74539ce2dbd7465d", null ],
-    [ "events", "dc/dac/a15252.html#ae96e0de4a36dde3237520e8a0ddd9f5f", null ]
+    [ "HandleDummy", "dc/dac/a15252.html#ac06b2b8e07ebc51a281c70663796dcc3", null ],
+    [ "PrepareSpellScript", "dc/dac/a15252.html#aa60cc00f33e329fe8d010c0e1c00989a", null ],
+    [ "Register", "dc/dac/a15252.html#aee9d14b3f45cb43478f970e9e6e173fd", null ]
 ];

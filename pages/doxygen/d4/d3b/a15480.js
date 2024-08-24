@@ -1,7 +1,6 @@
 var a15480 =
 [
-    [ "npc_wizzlecrank_shredderAI", "d7/d34/a15484.html", "d7/d34/a15484" ],
-    [ "npc_wizzlecrank_shredder", "d4/d3b/a15480.html#a56a29a61d6f1a5981019f6c059b4da64", null ],
-    [ "GetAI", "d4/d3b/a15480.html#a5c42cc6d8cf2642333731138077af66e", null ],
-    [ "OnQuestAccept", "d4/d3b/a15480.html#afcd5aaea5234b6510825d9ce5e809aa6", null ]
+    [ "spell_voljin_war_drums_SpellScript", "d7/d34/a15484.html", "d7/d34/a15484" ],
+    [ "spell_voljin_war_drums", "d4/d3b/a15480.html#a218af593728d78a1cb4bfff8c0eb9d31", null ],
+    [ "GetSpellScript", "d4/d3b/a15480.html#ad7e2d0c9fbe7111541149e4b1333e52f", null ]
 ];

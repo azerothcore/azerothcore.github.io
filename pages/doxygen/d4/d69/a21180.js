@@ -1,6 +1,6 @@
 var a21180 =
 [
-    [ "spell_voa_lightning_nova_SpellScript", "d8/d6d/a21184.html", "d8/d6d/a21184" ],
-    [ "spell_voa_lightning_nova", "d4/d69/a21180.html#a115e191504d0d03afa2947e8ac540f3c", null ],
-    [ "GetSpellScript", "d4/d69/a21180.html#aeda9c8cb8ab982f103ac5d4e97ca0751", null ]
+    [ "spell_vehicle_circuit_overload_AuraScript", "d8/d6d/a21184.html", "d8/d6d/a21184" ],
+    [ "spell_vehicle_circuit_overload", "d4/d69/a21180.html#aa20e37cd1a07d939bbf047aa24c815a4", null ],
+    [ "GetAuraScript", "d4/d69/a21180.html#a37ec02f72077f157b5bf467e42c3fcbb", null ]
 ];

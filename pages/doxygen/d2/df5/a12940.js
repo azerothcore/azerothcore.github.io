@@ -1,6 +1,6 @@
 var a12940 =
 [
-    [ "HandleActivateObject", "d2/df5/a12940.html#aedcb4513b7c53b9a9e972b9051da0e0f", null ],
-    [ "PrepareSpellScript", "d2/df5/a12940.html#afc844250ea7ba48330edfda305fa856c", null ],
-    [ "Register", "d2/df5/a12940.html#a6d77f6848397724e61c1db7a80de7139", null ]
+    [ "CorruptTriggers", "d2/df5/a12940.html#a5ec60254ee2ac299ce99164189087a1c", null ],
+    [ "Execute", "d2/df5/a12940.html#a9929f3518f307e0b753782967f06c6c1", null ],
+    [ "_caster", "d2/df5/a12940.html#a2b9e4c3d292b7e3deea57e1542b3ba12", null ]
 ];

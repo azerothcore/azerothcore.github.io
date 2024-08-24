@@ -1,7 +1,7 @@
 var a25316 =
 [
-    [ "HandleOnEffectApply", "d9/dd8/a25316.html#a90359e3dbb5c2c8caf275f21c107ee0a", null ],
-    [ "HandleOnEffectRemove", "d9/dd8/a25316.html#a094d788d157474a9683387d5c340538f", null ],
-    [ "PrepareAuraScript", "d9/dd8/a25316.html#aad378b8c45f11af51faf9128878c01df", null ],
-    [ "Register", "d9/dd8/a25316.html#a8fcc385f504b3b357e9ceab76f11ca46", null ]
+    [ "CalcPeriodic", "d9/dd8/a25316.html#aeae100fb3ab86b9064c3923472fbd45d", null ],
+    [ "PrepareAuraScript", "d9/dd8/a25316.html#a290913502dfe3dfb42b44a964468b97c", null ],
+    [ "Register", "d9/dd8/a25316.html#aea7a6e4bcbc97d19393d790a28a4483a", null ],
+    [ "Update", "d9/dd8/a25316.html#ab3bdb3a14c6d130d295553e635acb47c", null ]
 ];

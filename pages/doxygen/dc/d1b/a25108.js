@@ -1,7 +1,5 @@
 var a25108 =
 [
-    [ "HandleScriptEffect", "dc/d1b/a25108.html#a4444d5f146e875bae40edbcc8ed408cb", null ],
-    [ "PrepareSpellScript", "dc/d1b/a25108.html#af4320dd6567d8c9cb2a1492095a98459", null ],
-    [ "Register", "dc/d1b/a25108.html#ab9360c3a883dd5a7df9836306d9762ec", null ],
-    [ "Validate", "dc/d1b/a25108.html#a51ebef5e7fff9dfaab553ecae7be732f", null ]
+    [ "go_strange_pool", "dc/d1b/a25108.html#aa44feb353ad1cb440e5b6707112af680", null ],
+    [ "OnGossipHello", "dc/d1b/a25108.html#a5a2ee56e277b062e6b4757cb8b8b09a0", null ]
 ];

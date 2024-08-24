@@ -1,6 +1,6 @@
 var a12560 =
 [
-    [ "npc_dkc1_gothikAI", "dd/d25/a12564.html", "dd/d25/a12564" ],
-    [ "npc_dkc1_gothik", "dc/d9d/a12560.html#ae4a6aec0235b01044ebd5c9c71d400d9", null ],
-    [ "GetAI", "dc/d9d/a12560.html#aeb285cf6977cfab5d337f51ae41907ec", null ]
+    [ "npc_high_inquisitor_valrothAI", "dd/d25/a12564.html", "dd/d25/a12564" ],
+    [ "npc_high_inquisitor_valroth", "dc/d9d/a12560.html#a6e244a411249667a84f0d34ca1b1f17b", null ],
+    [ "GetAI", "dc/d9d/a12560.html#a6374b80425da8bc41d9d076e6e7d7bef", null ]
 ];

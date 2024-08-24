@@ -1,11 +1,6 @@
 var a12872 =
 [
-    [ "boss_baroness_anastariAI", "d1/d4f/a12872.html#acf180bbe881ba1f6e49c075254759c00", null ],
-    [ "JustDied", "d1/d4f/a12872.html#a1a7bf1e6c39b0b61e95390e7ee1c5e6b", null ],
-    [ "JustEngagedWith", "d1/d4f/a12872.html#a7329455d99045e7002abffe09112a4ea", null ],
-    [ "Reset", "d1/d4f/a12872.html#a80c99c59486d2a7850a3a54ffebe998b", null ],
-    [ "SchedulePossession", "d1/d4f/a12872.html#afbf2d4e9c3e8e50815c398b97afb3970", null ],
-    [ "UpdateAI", "d1/d4f/a12872.html#a962e4e3091d126682825c326af5f6922", null ],
-    [ "_possessedTargetGuid", "d1/d4f/a12872.html#a36e386b847c7032b5ce95a01070518ad", null ],
-    [ "_scheduler", "d1/d4f/a12872.html#aa59518627a5e64e371dbbb45cfced75f", null ]
+    [ "HandleActivateObject", "d1/d4f/a12872.html#aa22e6ae2e0fd4b25bb16031285e23635", null ],
+    [ "PrepareSpellScript", "d1/d4f/a12872.html#a1fd729803f64c5eaa472e87bb3f1a301", null ],
+    [ "Register", "d1/d4f/a12872.html#a6cc39f581f4e2982b137f01d9e02d9c2", null ]
 ];

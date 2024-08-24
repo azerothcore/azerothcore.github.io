@@ -1,6 +1,5 @@
 var a23716 =
 [
-    [ "instance_the_botanica_InstanceMapScript", "d6/dea/a23720.html", "d6/dea/a23720" ],
-    [ "instance_the_botanica", "dc/d52/a23716.html#a8f8acda65f37e45e2439707f3979cf7c", null ],
-    [ "GetInstanceScript", "dc/d52/a23716.html#a335f671443ca0fb9db5956cefdf37182", null ]
+    [ "go_pressure_valve", "dc/d52/a23716.html#a43a91a1379001ecd3e825d7d4fcd3c6b", null ],
+    [ "OnGossipHello", "dc/d52/a23716.html#a6b81a04a33cd5e1e577fc80a3b1f706c", null ]
 ];

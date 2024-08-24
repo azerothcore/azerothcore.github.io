@@ -1,7 +1,7 @@
 var a28268 =
 [
-    [ "ClassMask", "d8/d98/a28268.html#acae4582c147b5fd95780ae7b55d36fdc", null ],
-    [ "petTalentMask", "d8/d98/a28268.html#a22ab1cf8ad05e57d91a63e3876ae2b77", null ],
-    [ "tabpage", "d8/d98/a28268.html#aa6389276582adeb4cae76c257734795c", null ],
-    [ "TalentTabID", "d8/d98/a28268.html#ae3a71c61223b59185365819164715dc2", null ]
+    [ "CheckRequirement", "d8/d98/a28268.html#afc9206b1d92834943c9825dfd97439c9", null ],
+    [ "HandleScriptEffect", "d8/d98/a28268.html#acef8bf4c93226e1b4c95f8b8cdd80f40", null ],
+    [ "PrepareSpellScript", "d8/d98/a28268.html#a0223c05b5832c64b248e82eba770f7fa", null ],
+    [ "Register", "d8/d98/a28268.html#aef93e3c5a60633f69871bbd49d40caf5", null ]
 ];

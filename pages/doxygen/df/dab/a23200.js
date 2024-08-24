@@ -1,6 +1,6 @@
 var a23200 =
 [
-    [ "HandleEffectRemove", "df/dab/a23200.html#ab4c215a735ead9959fd78972a6da72e4", null ],
-    [ "PrepareAuraScript", "df/dab/a23200.html#a75be2f838d6773b619dfac80e32557b8", null ],
-    [ "Register", "df/dab/a23200.html#a239068b4e4ad88b5be93a031043ad7ca", null ]
+    [ "npc_conversing_with_the_depths_triggerAI", "d9/d5f/a23204.html", "d9/d5f/a23204" ],
+    [ "npc_conversing_with_the_depths_trigger", "df/dab/a23200.html#a55ba213da86650d44ea1493b26fdb7f2", null ],
+    [ "GetAI", "df/dab/a23200.html#a61c337bfe1efb3589cf0df91d9082236", null ]
 ];

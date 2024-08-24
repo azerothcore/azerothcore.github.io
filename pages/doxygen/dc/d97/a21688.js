@@ -1,6 +1,5 @@
 var a21688 =
 [
-    [ "npc_future_youAI", "d5/d25/a21692.html", "d5/d25/a21692" ],
-    [ "npc_future_you", "dc/d97/a21688.html#a36e363156bcb32fee468989062817bd5", null ],
-    [ "GetAI", "dc/d97/a21688.html#a2e1529fef3ce307d98057dc93ce5e5fe", null ]
+    [ "achievement_kologarn_with_open_arms", "dc/d97/a21688.html#a94af961be5bbdf7783925148731ce7e4", null ],
+    [ "OnCheck", "dc/d97/a21688.html#a03c1fb5f141a15f8f63e28700b98f9b5", null ]
 ];

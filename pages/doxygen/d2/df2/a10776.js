@@ -1,12 +1,10 @@
 var a10776 =
 [
-    [ "SpellDestination", "d2/df2/a10776.html#aa91f31101de3139b2e2d2976dac94686", null ],
-    [ "SpellDestination", "d2/df2/a10776.html#aa27cefe3e93fedd557174a3cc8f49fe1", null ],
-    [ "SpellDestination", "d2/df2/a10776.html#a12f65757f20436b02b7aa00bb1682c8e", null ],
-    [ "SpellDestination", "d2/df2/a10776.html#a7b8949fa80249aee8bebc56620ec746c", null ],
-    [ "Relocate", "d2/df2/a10776.html#ab565861d5013130639013e3c4d22d712", null ],
-    [ "RelocateOffset", "d2/df2/a10776.html#a0bf1d731787bfed47b593d8cb4943f2a", null ],
-    [ "_position", "d2/df2/a10776.html#a6c4587b85e295d86f3479e4feeb662e5", null ],
-    [ "_transportGUID", "d2/df2/a10776.html#ad3456cf591eb32a5dd390ffbb7b27387", null ],
-    [ "_transportOffset", "d2/df2/a10776.html#a52f0f9f741985bb4d78289145fe66ba0", null ]
+    [ "AcoreStringChatBuilder", "d2/df2/a10776.html#a7e280083c80fd119d365649fd4578fc9", null ],
+    [ "operator()", "d2/df2/a10776.html#a09a2a03dca2b8470cd1d1f7c8273868b", null ],
+    [ "_args", "d2/df2/a10776.html#aa92a28b7d6a7dd59ea7da3a76c1fb4cc", null ],
+    [ "_msgType", "d2/df2/a10776.html#adbabf871f33692b0ecddc8cc0fb75586", null ],
+    [ "_source", "d2/df2/a10776.html#ac5222737ea1b95b6d75afc532838f8be", null ],
+    [ "_target", "d2/df2/a10776.html#ab659b7c7bd6426a023cf8668322327b8", null ],
+    [ "_textId", "d2/df2/a10776.html#a3d29de9c5d80c3df488aa01fa380a84a", null ]
 ];

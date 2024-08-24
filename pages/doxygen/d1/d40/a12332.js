@@ -1,9 +1,6 @@
 var a12332 =
 [
-    [ "FilterTargets", "d1/d40/a12332.html#a88b91e40b330d39bd04a7873128fb858", null ],
-    [ "HandleFinish", "d1/d40/a12332.html#a762ea4cc1cd0a50a65daf22cbbf4ce9c", null ],
-    [ "PrepareSpellScript", "d1/d40/a12332.html#ab4ef82283e4d651d2e5304e49970efa8", null ],
-    [ "Register", "d1/d40/a12332.html#ab2008e585589cbf313170064d37c4aa9", null ],
-    [ "Validate", "d1/d40/a12332.html#af4963be6c544a1706a6dc30dcbf18309", null ],
-    [ "_targets", "d1/d40/a12332.html#a2f75199a90e52cff770f46bce76d5149", null ]
+    [ "boss_priestess_delrissaAI", "d5/da2/a12336.html", "d5/da2/a12336" ],
+    [ "boss_priestess_delrissa", "d1/d40/a12332.html#ac43e417b86a535ee66b1aea08a9786ce", null ],
+    [ "GetAI", "d1/d40/a12332.html#a27e1f072aea73da2dfe5089fe7af406a", null ]
 ];

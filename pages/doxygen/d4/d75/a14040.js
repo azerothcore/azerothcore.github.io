@@ -1,6 +1,10 @@
 var a14040 =
 [
-    [ "HandleDummyEffect", "d4/d75/a14040.html#a3860ad8a34e37601f7a4cef395f7ab2a", null ],
-    [ "PrepareSpellScript", "d4/d75/a14040.html#a1c69fb2fd3fa623d62647fca738d27d6", null ],
-    [ "Register", "d4/d75/a14040.html#ad1cbf7ed8f7d119bb56d06fb62358458", null ]
+    [ "npc_zealot_zathAI", "d4/d75/a14040.html#a4349f90c3af28f2bafdc1d73b70b3ab5", null ],
+    [ "JustDied", "d4/d75/a14040.html#a276120361ca1d02a503fe5b08ff0dce4", null ],
+    [ "JustEngagedWith", "d4/d75/a14040.html#a2818bc9c2d3d6477c1d6e06168b15502", null ],
+    [ "Reset", "d4/d75/a14040.html#a59ff3bf94408198375823d703e764e17", null ],
+    [ "UpdateAI", "d4/d75/a14040.html#a64438c811c2a5b0aeff73f0924b36541", null ],
+    [ "_scheduler", "d4/d75/a14040.html#a6711a648a161a582c45b2138d950ff75", null ],
+    [ "instance", "d4/d75/a14040.html#aa4b1bf3038e4a9506e52b957cb3b8ec7", null ]
 ];

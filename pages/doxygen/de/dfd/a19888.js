@@ -1,7 +1,6 @@
 var a19888 =
 [
-    [ "OnPeriodic", "de/dfd/a19888.html#a9407d5477a40e36863e5fb5775dda122", null ],
-    [ "PrepareAuraScript", "de/dfd/a19888.html#a1ecb6e617976cdfbeb534849db41d57a", null ],
-    [ "Register", "de/dfd/a19888.html#a34a31e96b21de9b9320d8276f7beb45e", null ],
-    [ "Validate", "de/dfd/a19888.html#a2c2ca2c0425ab3b815d246b1caebf588", null ]
+    [ "npc_four_car_garageAI", "de/dfd/a19888.html#a2eedf5934e12d33cda0ac173d82220d5", null ],
+    [ "JustDied", "de/dfd/a19888.html#a1fba9f03dca2db37b5cb969079b25d22", null ],
+    [ "PassengerBoarded", "de/dfd/a19888.html#a144bc36a5c4ff227c8a7dc146d4167b6", null ]
 ];

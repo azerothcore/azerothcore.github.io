@@ -1,6 +1,7 @@
 var a10632 =
 [
-    [ "ClientOpcodeHandler", "dd/d22/a04662.html#ga975b7c1e941b9ad11164cc5b0cf3f557", null ],
-    [ "Call", "dd/d22/a04662.html#gae6c5104e6c75c2e88a3d8dfcf9e63678", null ],
-    [ "ProcessingPlace", "dd/d22/a04662.html#gaccb7f451536a1a56ba072a82202e5a53", null ]
+    [ "CategoryRecoveryTime", "d5/d9e/a10632.html#a5a089aa55b5db1f3e3d3fa0ff61bbfdd", null ],
+    [ "RecoveryTime", "d5/d9e/a10632.html#ac0e514cfe760baf23f4f05d871e6779a", null ],
+    [ "StartRecoveryCategory", "d5/d9e/a10632.html#abb7ca704f04612ddcec3e2e52470ca77", null ],
+    [ "StartRecoveryTime", "d5/d9e/a10632.html#a3155069a4ef8d87d4c952f92df2ec42d", null ]
 ];

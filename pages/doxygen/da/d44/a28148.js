@@ -1,5 +1,6 @@
 var a28148 =
 [
-    [ "id", "da/d44/a28148.html#a22e48015dd880199e131089e35b1ce05", null ],
-    [ "spellId", "da/d44/a28148.html#a956d683b42f34eae3a1ea3f8882716fd", null ]
+    [ "FilterTargets", "da/d44/a28148.html#a81212064e51b7dfd148a1b18b69aafe0", null ],
+    [ "PrepareSpellScript", "da/d44/a28148.html#a10d26377442d7a5d0c2986a65fcb57d6", null ],
+    [ "Register", "da/d44/a28148.html#a4db02c58be57a797c26b07656d1b5409", null ]
 ];

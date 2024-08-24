@@ -1,6 +1,6 @@
 var a16348 =
 [
-    [ "spell_faction_champion_warl_unstable_affliction_AuraScript", "d5/d2e/a16352.html", "d5/d2e/a16352" ],
-    [ "spell_faction_champion_warl_unstable_affliction", "d3/d4f/a16348.html#abe931f01a51b99eae8c10c31cb816e3c", null ],
-    [ "GetAuraScript", "d3/d4f/a16348.html#a21e86741c8718c681dd167ef4b75ccca", null ]
+    [ "HandleHealPct", "d3/d4f/a16348.html#a7acd2500fe7f82272047b301812d1e8b", null ],
+    [ "PrepareSpellScript", "d3/d4f/a16348.html#a8a93787bef057e2c07257cfecf8bed67", null ],
+    [ "Register", "d3/d4f/a16348.html#a87be4145da5d5073994b1e3b66f39ab6", null ]
 ];

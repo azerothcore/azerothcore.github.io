@@ -1,7 +1,8 @@
 var a16636 =
 [
-    [ "HandlePeriodicTick", "da/d4d/a16636.html#abe9cc0a87d84504ee029cc565dd97ef5", null ],
-    [ "PrepareAuraScript", "da/d4d/a16636.html#a93e894c642101160dd51f30952c82d24", null ],
-    [ "Register", "da/d4d/a16636.html#a49172ede0f888e391b9b4a835475220a", null ],
-    [ "Validate", "da/d4d/a16636.html#a3b9998ef5ee0931afbe5b04430da10a0", null ]
+    [ "npc_toc_warlockAI", "da/d4d/a16636.html#a4c4c2f502f00ca48bb7419434d88ea3a", null ],
+    [ "JustSummoned", "da/d4d/a16636.html#a203ef748afaa400aa1f8365b5d7bf6b1", null ],
+    [ "myCanCast", "da/d4d/a16636.html#a62b2df362bc07aa4a9c14cbc63a10e05", null ],
+    [ "UpdateAI", "da/d4d/a16636.html#a554849d02d923439bd810b7d8c242afa", null ],
+    [ "events", "da/d4d/a16636.html#a3b84c70d246bbf5b70ab4dec06c647b3", null ]
 ];

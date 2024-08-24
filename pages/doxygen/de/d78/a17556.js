@@ -1,6 +1,6 @@
 var a17556 =
 [
-    [ "IgbArtilleryCheck", "de/d78/a17556.html#a78b65928551ed799cf3f446f0603c50e", null ],
-    [ "operator()", "de/d78/a17556.html#ac083bfb9a5fa2b9888c4e31254baada6", null ],
-    [ "_entry", "de/d78/a17556.html#a98a6a0836414da82c288e372e982f69f", null ]
+    [ "boss_gal_darahAI", "d6/d85/a17560.html", "d6/d85/a17560" ],
+    [ "boss_gal_darah", "de/d78/a17556.html#a687bb98f9de9cd838c57511dc6b3d086", null ],
+    [ "GetAI", "de/d78/a17556.html#a8f709568f5a06265056571061ff3a26b", null ]
 ];

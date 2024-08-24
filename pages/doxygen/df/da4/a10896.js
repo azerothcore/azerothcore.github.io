@@ -1,13 +1,16 @@
 var a10896 =
 [
-    [ "PetAuraMap", "df/da4/a10896.html#a6c020340ff467b5f2d00c3b5f9fee817", null ],
-    [ "PetAura", "df/da4/a10896.html#a8cd7e3284837b30a8a3c6739ab5cb9b3", null ],
-    [ "PetAura", "df/da4/a10896.html#a79a2f086e2d8dbe1af47716b53df0524", null ],
-    [ "AddAura", "df/da4/a10896.html#ae33bb99ab341f66fb2f296ccd6617e63", null ],
-    [ "GetAura", "df/da4/a10896.html#a6f8318410229a89e0b3aa2af28d6cb2b", null ],
-    [ "GetDamage", "df/da4/a10896.html#a38087712cef92ad55dc84f96e2b9e300", null ],
-    [ "IsRemovedOnChangePet", "df/da4/a10896.html#adc1b329e1f303b5ad3f353abb4343cdf", null ],
-    [ "auras", "df/da4/a10896.html#abacd738dfb04687810b981297b1a1567", null ],
-    [ "damage", "df/da4/a10896.html#a216021a7ad893ae6ca65ea068dd6eedb", null ],
-    [ "removeOnChangePet", "df/da4/a10896.html#aa5b3219cd2021341ce0910dce81d8b56", null ]
+    [ "CheckContainer", "df/da4/a10896.html#a08e083224760d2bca1996da9cd9cb014", null ],
+    [ "CheckResultContainer", "df/da4/a10896.html#a6ce6feb03f6e0250bc03fea4612098df", null ],
+    [ "WardenCheckMgr", "df/da4/a10896.html#a2de08c0613dd688f4bbbb4cc572f3d72", null ],
+    [ "~WardenCheckMgr", "df/da4/a10896.html#a0d89190f580435337c328da4bf2497b8", null ],
+    [ "GetMaxValidCheckId", "df/da4/a10896.html#a79926d8228c3252fc0eabe295f6e78a8", null ],
+    [ "GetWardenDataById", "df/da4/a10896.html#a290e74857c1b1a50ced0a46b7477fa4c", null ],
+    [ "GetWardenResultById", "df/da4/a10896.html#a8c06b4f57a84a8229ad1674a5048ced9", null ],
+    [ "instance", "df/da4/a10896.html#aba9de1e123070338dc0049db8d8f0663", null ],
+    [ "LoadWardenChecks", "df/da4/a10896.html#ad02847547a06d98c582d09992dce9d11", null ],
+    [ "LoadWardenOverrides", "df/da4/a10896.html#a0a82e118a8f8236fecf1b00de0e2071c", null ],
+    [ "CheckIdPool", "df/da4/a10896.html#ac1d20dec3028cdff0f475c4aff8af928", null ],
+    [ "CheckResultStore", "df/da4/a10896.html#a4f0224b8377827aced304b28fdefbda7", null ],
+    [ "CheckStore", "df/da4/a10896.html#aac59e154d81b838f27c577af87b86bd1", null ]
 ];

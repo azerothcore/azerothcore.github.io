@@ -1,7 +1,7 @@
 var a03845 =
 [
-    [ "boss_ingvar_the_plunderer", "d0/d35/a20956.html", "d0/d35/a20956" ],
-    [ "boss_ingvar_the_plunderer::boss_ingvar_the_plundererAI", "dd/d0f/a20960.html", "dd/d0f/a20960" ],
+    [ "boss_ingvar_the_plunderer", "d6/d4a/a20959.html", "d6/d4a/a20959" ],
+    [ "boss_ingvar_the_plunderer::boss_ingvar_the_plundererAI", "dc/d41/a20963.html", "dc/d41/a20963" ],
     [ "SPELL_DREADFUL_ROAR", "de/d6b/a03845.html#ac1e0e2698ab0ecb24bebdfa4c7ff14ca", null ],
     [ "SPELL_ENRAGE", "de/d6b/a03845.html#a101191d5841177786224ce21dc4ee986", null ],
     [ "SPELL_SMASH", "de/d6b/a03845.html#a29597657a2021b4ce69510ef57e5c532", null ],

@@ -1,5 +1,6 @@
 var a15096 =
 [
-    [ "at_battleguard_sartura", "d1/db8/a15096.html#a9247cdebeb57d2ddbfa75f60da125d36", null ],
-    [ "OnTrigger", "d1/db8/a15096.html#a6a7b9f210ce0c2844b4f2412c0fe440e", null ]
+    [ "HandleScriptEffect", "d1/db8/a15096.html#a0f03a3e09e80ae50a5ddedcea1f9f30e", null ],
+    [ "PrepareSpellScript", "d1/db8/a15096.html#aa109d61baba87acf5bce5d44bff55214", null ],
+    [ "Register", "d1/db8/a15096.html#ac8412777c84abfe56262d6d83163e9a1", null ]
 ];

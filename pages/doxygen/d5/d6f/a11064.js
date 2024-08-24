@@ -1,12 +1,17 @@
 var a11064 =
 [
-    [ "CreatureTextBuilder", "d5/d6f/a11064.html#a582eed3ab284675e72261a1db9808925", null ],
-    [ "operator()", "d5/d6f/a11064.html#a851cc84cc7faebfffe3267ecb0d3b3fb", null ],
-    [ "_gender", "d5/d6f/a11064.html#a615c3046f749bf44b036958fb1a50128", null ],
-    [ "_language", "d5/d6f/a11064.html#ac6e3bea125cd2b44a56f899c4aa35e1b", null ],
-    [ "_msgType", "d5/d6f/a11064.html#ac4b4f75821f4ff5855cafca91523cbca", null ],
-    [ "_source", "d5/d6f/a11064.html#ab87c45c49aa07b4434e42b6d7948e8b3", null ],
-    [ "_target", "d5/d6f/a11064.html#a5a5fd218c7162ba634455e0db6ee35a1", null ],
-    [ "_textGroup", "d5/d6f/a11064.html#afcd842c1482980c6232f3f19d21a1481", null ],
-    [ "_textId", "d5/d6f/a11064.html#a3f40b8dd1da052a372afbbc5f06700ac", null ]
+    [ "learn_commandscript", "d5/d6f/a11064.html#a7ef51367ab7ab1c360390ff5552c0f51", null ],
+    [ "GetCommands", "d5/d6f/a11064.html#a8c8f73f3c1d5dbddd5a3d2e89ea326d8", null ],
+    [ "HandleLearnAllCraftsCommand", "d5/d6f/a11064.html#ae25064fa03d022277a368f52a17e5b70", null ],
+    [ "HandleLearnAllDefaultCommand", "d5/d6f/a11064.html#a985d2a10f01808c4bff2922b1530e911", null ],
+    [ "HandleLearnAllGMCommand", "d5/d6f/a11064.html#a88e28ec43968c5a8b0bfd1f190d89a98", null ],
+    [ "HandleLearnAllLangCommand", "d5/d6f/a11064.html#aaf4d779b47511db72727fe44fb1bbd2d", null ],
+    [ "HandleLearnAllMyClassCommand", "d5/d6f/a11064.html#a956716b7743dfc6de922b0badf40aeda", null ],
+    [ "HandleLearnAllMyPetTalentsCommand", "d5/d6f/a11064.html#a2a7cc02eb4417907b50d49bab39110cf", null ],
+    [ "HandleLearnAllMySpellsCommand", "d5/d6f/a11064.html#af95e27d3bfb3cd421a0fd13f9f655755", null ],
+    [ "HandleLearnAllMyTalentsCommand", "d5/d6f/a11064.html#aaa19e92798ac56355a95e625ead56556", null ],
+    [ "HandleLearnAllRecipesCommand", "d5/d6f/a11064.html#a44b538a1031ad69bec762f1a791cf11f", null ],
+    [ "HandleLearnCommand", "d5/d6f/a11064.html#ab59da6873596596ee84509cb0060e760", null ],
+    [ "HandleLearnSkillRecipesHelper", "d5/d6f/a11064.html#ae8bd0389415fdeb70d369b694b953619", null ],
+    [ "HandleUnLearnCommand", "d5/d6f/a11064.html#a2dc980af9662b3b1c783e3603732ca01", null ]
 ];

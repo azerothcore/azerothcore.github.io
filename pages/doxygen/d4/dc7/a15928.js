@@ -1,7 +1,7 @@
 var a15928 =
 [
-    [ "npc_orb_carrierAI", "d4/dc7/a15928.html#a2011c247d2157f5f2a06db6e149743e0", null ],
-    [ "DoAction", "d4/dc7/a15928.html#a501d0bdb9d77be1229dadf60d5f8af8c", null ],
-    [ "TriggerCutter", "d4/dc7/a15928.html#a6b6b127db878ca3b79ac8d7aeff4156e", null ],
-    [ "UpdateAI", "d4/dc7/a15928.html#a99a08390fcf2b0a058aee161932392d0", null ]
+    [ "HandleRemoval", "d4/dc7/a15928.html#a2b6faeb4aeaead87fd11eb737e273049", null ],
+    [ "Load", "d4/dc7/a15928.html#ac4262148657de341040ae5735b1162a1", null ],
+    [ "PrepareAuraScript", "d4/dc7/a15928.html#a18f89cf12b5785c76c221347fc189340", null ],
+    [ "Register", "d4/dc7/a15928.html#a7dbadcf208bcc74a815381da1a7ad4ce", null ]
 ];

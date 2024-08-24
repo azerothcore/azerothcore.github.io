@@ -1,12 +1,6 @@
 var a16752 =
 [
-    [ "npc_spectral_footmanAI", "db/d38/a16752.html#a746b1d15b70be293f61669ce4a945732", null ],
-    [ "AttackStart", "db/d38/a16752.html#ac6f9dadff44c805adfac855778b1c9d2", null ],
-    [ "DoAction", "db/d38/a16752.html#a466b878e60c1bf89603c261110d88b25", null ],
-    [ "EnterEvadeMode", "db/d38/a16752.html#a66c9cceae4c2ae5574369744486e3e57", null ],
-    [ "JustDied", "db/d38/a16752.html#afbab6772ff97ca9355ca5f4ac194ce0d", null ],
-    [ "JustEngagedWith", "db/d38/a16752.html#a3d3eff22cb453e2ea0164e7f45bb6e5b", null ],
-    [ "Reset", "db/d38/a16752.html#a3a8151da7ec1d63966ffc5e5b7e9e931", null ],
-    [ "UpdateAI", "db/d38/a16752.html#ad1da2bc8fdc3a3fce51b9a633fd56574", null ],
-    [ "events", "db/d38/a16752.html#aa5420d5e57447c7f89c0560ae07b3503", null ]
+    [ "spell_toc25_mistress_kiss_AuraScript", "d0/d4f/a16756.html", "d0/d4f/a16756" ],
+    [ "spell_toc25_mistress_kiss", "db/d38/a16752.html#a5e6df0da2d89b2ca71c6fc49790b3314", null ],
+    [ "GetAuraScript", "db/d38/a16752.html#ae4fbeb690e0fceb92fa565e2b7358592", null ]
 ];

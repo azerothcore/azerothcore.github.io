@@ -1,5 +1,5 @@
 var a28352 =
 [
-    [ "ByteBufferSourceException", "dc/db3/a28352.html#ad021dff8a62dfc170ef0233294b707f6", null ],
-    [ "~ByteBufferSourceException", "dc/db3/a28352.html#afaf57c545141703ffbe696cfbee6de0f", null ]
+    [ "spell_q11515_fel_siphon_dummy", "dc/db3/a28352.html#a80fa790a716d1ae950f43f9a298afd66", null ],
+    [ "GetSpellScript", "dc/db3/a28352.html#a0d122972fc036d1f1e49c49acda58be3", null ]
 ];

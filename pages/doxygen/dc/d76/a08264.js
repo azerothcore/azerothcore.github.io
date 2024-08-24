@@ -1,9 +1,9 @@
 var a08264 =
 [
-    [ "category", "dc/d76/a08264.html#af3cd722cf59d844dcaba2d20f20d2933", null ],
-    [ "end", "dc/d76/a08264.html#a8cc857ef51745900398765164a450a50", null ],
-    [ "itemid", "dc/d76/a08264.html#a42ef844fdd55e8bf67eb5cd90c627817", null ],
-    [ "maxduration", "dc/d76/a08264.html#a94b98afb7651e2c6b99ee79f85702259", null ],
-    [ "needSendToClient", "dc/d76/a08264.html#a678f56b6723567f984a0188b85a6f9df", null ],
-    [ "sendToSpectator", "dc/d76/a08264.html#a4b5bc2c63587dd8ce5d4971ad51895cd", null ]
+    [ "VehicleAccessory", "dc/d76/a08264.html#a70576b3cfa29bb6a31fdc61588b6d3c4", null ],
+    [ "AccessoryEntry", "dc/d76/a08264.html#a6e3cd6b20680974235c146d34b16295a", null ],
+    [ "IsMinion", "dc/d76/a08264.html#ace3fd27311370e4db4103f2c3ac70410", null ],
+    [ "SeatId", "dc/d76/a08264.html#a73b54fbbfe8e18f7129acc65dadec447", null ],
+    [ "SummonedType", "dc/d76/a08264.html#afc843c62c580c860471b0e49f5901363", null ],
+    [ "SummonTime", "dc/d76/a08264.html#a13a024b3ceacf38ce4907b079d732420", null ]
 ];

@@ -1,6 +1,6 @@
 var a18684 =
 [
-    [ "npc_icc_vengeful_fleshreaperAI", "d3/d43/a18688.html", "d3/d43/a18688" ],
-    [ "npc_icc_vengeful_fleshreaper", "d9/d5a/a18684.html#aa95ec1e021f3d123e5a95c356765ac36", null ],
-    [ "GetAI", "d9/d5a/a18684.html#abf1903616dbf52718313c8b404b504a5", null ]
+    [ "spell_rotface_unstable_ooze_explosion_suicide_AuraScript", "d3/d43/a18688.html", "d3/d43/a18688" ],
+    [ "spell_rotface_unstable_ooze_explosion_suicide", "d9/d5a/a18684.html#ab74c82f3a948062d8da2b07184949d65", null ],
+    [ "GetAuraScript", "d9/d5a/a18684.html#a55ae18cc11b731c4abe9a542145611ab", null ]
 ];

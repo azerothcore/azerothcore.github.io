@@ -1,13 +1,11 @@
 var a06932 =
 [
-    [ "AutobroadcastsMap", "d0/ddc/a06932.html#a8abeae830f5692c45bd0b880ba62e743", null ],
-    [ "AutobroadcastsWeightMap", "d0/ddc/a06932.html#a75e5b978794a7010c8d9d3390d8690f9", null ],
-    [ "instance", "d0/ddc/a06932.html#aead196df7f590d43c89f179ca0bd4a68", null ],
-    [ "LoadAutobroadcasts", "d0/ddc/a06932.html#a48748969b122aee47d03697b6e9a2ee1", null ],
-    [ "SendAutobroadcasts", "d0/ddc/a06932.html#a225907be4944713af11c312185c8aea7", null ],
-    [ "SendNotificationAnnouncement", "d0/ddc/a06932.html#a942de8b823a0c8d67b6193def73d4416", null ],
-    [ "SendWorldAnnouncement", "d0/ddc/a06932.html#a64a9c246fe4b57463ecdd63d016c208b", null ],
-    [ "_announceType", "d0/ddc/a06932.html#a3889edc4001e26519d9df042a8b477fc", null ],
-    [ "_autobroadcasts", "d0/ddc/a06932.html#a06d42010fea307a03aac0ca4e6886f1d", null ],
-    [ "_autobroadcastsWeights", "d0/ddc/a06932.html#aadbd8ca926a64be4fbbe832fd633ee88", null ]
+    [ "BattlegroundSAScore", "d0/ddc/a06932.html#afb1312e304eee973740cfe208657c5b9", null ],
+    [ "BuildObjectivesBlock", "d0/ddc/a06932.html#a57bf8241b404571cda5a8e113c334eab", null ],
+    [ "GetAttr1", "d0/ddc/a06932.html#aa31cd91ede928c57cd201dba61f7f585", null ],
+    [ "GetAttr2", "d0/ddc/a06932.html#aba47bb1ec440f405bfde8513c60ae576", null ],
+    [ "UpdateScore", "d0/ddc/a06932.html#a169a2a0a51edb6564e98c4b55f3e8a3b", null ],
+    [ "BattlegroundSA", "d0/ddc/a06932.html#ab31c13442be48941f5dab4214b95cde9", null ],
+    [ "DemolishersDestroyed", "d0/ddc/a06932.html#ac49c28efa42cfad7232268de4be45e66", null ],
+    [ "GatesDestroyed", "d0/ddc/a06932.html#aeb1310b64150dd51f91722574a9dd3fc", null ]
 ];

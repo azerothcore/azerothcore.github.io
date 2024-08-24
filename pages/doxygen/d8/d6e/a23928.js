@@ -1,7 +1,6 @@
 var a23928 =
 [
-    [ "npc_daranelleAI", "d8/d6e/a23928.html#a49eeff6e0aea079a0375a92074227d12", null ],
-    [ "JustEngagedWith", "d8/d6e/a23928.html#aeff39dfd84986186057cdaf7632eed4f", null ],
-    [ "MoveInLineOfSight", "d8/d6e/a23928.html#a353e27c1485b88f0751a64260898d35b", null ],
-    [ "Reset", "d8/d6e/a23928.html#a33b2fbec775257e3ba0bebe37fb86349", null ]
+    [ "go_wg_vehicle_teleporterAI", "dc/d50/a23932.html", "dc/d50/a23932" ],
+    [ "go_wg_vehicle_teleporter", "d8/d6e/a23928.html#a074ead770a3da6e9ffa4180a3525f4c8", null ],
+    [ "GetAI", "d8/d6e/a23928.html#a113aaf42c095000c1a016bfe60df11e7", null ]
 ];

@@ -1,8 +1,9 @@
 var a23684 =
 [
-    [ "boss_commander_sarannis", "d0/da7/a23684.html#ace0957feb37f864798008849be25f607", null ],
-    [ "JustDied", "d0/da7/a23684.html#a7796429f04c049549a4a02a1eb8d35fc", null ],
-    [ "JustEngagedWith", "d0/da7/a23684.html#ad4273db7c169c6cfa9917dd3b76c9c95", null ],
-    [ "KilledUnit", "d0/da7/a23684.html#a64e77321adc5eea9d3494a3e1030f9de", null ],
-    [ "ScheduleReinforcements", "d0/da7/a23684.html#a293f0b860a66396a30c6d255eef85309", null ]
+    [ "npc_frostbrood_skytalonAI", "d0/da7/a23684.html#afc14c60466f9f0f1b20062758f18c00d", null ],
+    [ "IsSummonedBy", "d0/da7/a23684.html#a2c5729ee3371e562869878ff3a7b84bd", null ],
+    [ "MovementInform", "d0/da7/a23684.html#ae763333503176eb7e8ce407868243958", null ],
+    [ "SpellHit", "d0/da7/a23684.html#a24bb49f47dcf85c95039d0495a89e126", null ],
+    [ "UpdateAI", "d0/da7/a23684.html#a0ffc4cd2e9b61ad17c516f062d161feb", null ],
+    [ "events", "d0/da7/a23684.html#a8575d258d63e28626cffd7fc2160bee6", null ]
 ];

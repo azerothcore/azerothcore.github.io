@@ -1,6 +1,6 @@
 var a27008 =
 [
-    [ "AreaTrigger_at_brewfest", "d0/dc0/a27008.html#ad7e2916aefc6efbfb9f747a75a4a14a3", null ],
-    [ "OnTrigger", "d0/dc0/a27008.html#a17e4a8d671136466c7673789e4f69a84", null ],
-    [ "_triggerTimes", "d0/dc0/a27008.html#ab763765427796ad17338bcc8d63cf891", null ]
+    [ "CheckProc", "d0/dc0/a27008.html#ad1678a96784add01965d67c3d86bcd77", null ],
+    [ "PrepareAuraScript", "d0/dc0/a27008.html#a6e164a8e3482b566b776c5ffeeb1b6ac", null ],
+    [ "Register", "d0/dc0/a27008.html#a148f3fe7ee4bdc8e148fe71100779e56", null ]
 ];

@@ -1,6 +1,7 @@
 var a22724 =
 [
-    [ "FilterTargets", "d6/d1f/a22724.html#a91b9fdebdffcae06da1882d7d46f5460", null ],
-    [ "PrepareSpellScript", "d6/d1f/a22724.html#ae8f3906007580963bda33cd0e420299b", null ],
-    [ "Register", "d6/d1f/a22724.html#a5e191d4fca7cc95ddec8730cc3fd8ffe", null ]
+    [ "PrepareAuraScript", "d6/d1f/a22724.html#a633dc25fd58f0fb396b72103a1ec42d6", null ],
+    [ "Register", "d6/d1f/a22724.html#ab46535a9b6fae458671cccbcdfc81eb9", null ],
+    [ "TriggerFists", "d6/d1f/a22724.html#a912417196f46d7bdf6620cb4cb0a3698", null ],
+    [ "Validate", "d6/d1f/a22724.html#a66a353872f430244e09fac32cadb1aa4", null ]
 ];

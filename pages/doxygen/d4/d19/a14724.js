@@ -1,12 +1,12 @@
 var a14724 =
 [
-    [ "instance_onyxias_lair_InstanceMapScript", "d4/d19/a14724.html#a15c6f3f16f9cfa1f9fc1b7a2c62bcc64", null ],
-    [ "CheckAchievementCriteriaMeet", "d4/d19/a14724.html#a20761aa41e0f70836c4525f17faf064f", null ],
-    [ "Initialize", "d4/d19/a14724.html#a5d109b5acfa2e21e3c50e35dcdf119dd", null ],
-    [ "OnGameObjectCreate", "d4/d19/a14724.html#a1e99600992673d165382d99236e0c59f", null ],
-    [ "SetBossState", "d4/d19/a14724.html#a2a28e42ec49fce2ef47288c1ad4b6e61", null ],
-    [ "SetData", "d4/d19/a14724.html#ac5df2ecb9f88dbedbb1f59ad2bdc8b96", null ],
-    [ "bDeepBreath", "d4/d19/a14724.html#a96211e4e0e033e16d4de57b6e40f2023", null ],
-    [ "ManyWhelpsCounter", "d4/d19/a14724.html#aea148b562a4f2cd752ac73240f902993", null ],
-    [ "str_data", "d4/d19/a14724.html#ad0b65a3cfccdf07d017757751f4e15fa", null ]
+    [ "boss_mal_ganisAI", "d4/d19/a14724.html#aa8b70930372cd0729686f7c6032d3152", null ],
+    [ "DamageTaken", "d4/d19/a14724.html#a4873386266ce3b4b849377028ff746a5", null ],
+    [ "JustDied", "d4/d19/a14724.html#a83690f4a55cfa22a979ad6897b661fcc", null ],
+    [ "JustEngagedWith", "d4/d19/a14724.html#ad04c571e9e485a95d194946c1b3b7ffa", null ],
+    [ "KilledUnit", "d4/d19/a14724.html#a0ec8c95f3e6ea8c243cc28d0c893c7eb", null ],
+    [ "Reset", "d4/d19/a14724.html#abb9d38b3c26af6245bb98e131be07d4d", null ],
+    [ "UpdateAI", "d4/d19/a14724.html#a9466254da12c3aa3c1a69e812ff1a068", null ],
+    [ "events", "d4/d19/a14724.html#a194c002efe244b8c94a072faf72be771", null ],
+    [ "finished", "d4/d19/a14724.html#ac4c90c814aa55781f863c958253e9df2", null ]
 ];

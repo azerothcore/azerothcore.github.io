@@ -1,6 +1,6 @@
 var a19992 =
 [
-    [ "boss_freya_nature_bombAI", "d9/d65/a19996.html", "d9/d65/a19996" ],
-    [ "boss_freya_nature_bomb", "dd/dbb/a19992.html#a18fa6ff862a1b367ac23eb1b7bda0ed4", null ],
-    [ "GetAI", "dd/dbb/a19992.html#a73e24282c6bb29cf3f6a7da14a4de582", null ]
+    [ "spell_gluth_decimate_SpellScript", "d9/d65/a19996.html", "d9/d65/a19996" ],
+    [ "spell_gluth_decimate", "dd/dbb/a19992.html#a5236e7fe2dcd07287f607437226afd47", null ],
+    [ "GetSpellScript", "dd/dbb/a19992.html#a5bf2e062641d7dab612033666dd1db47", null ]
 ];

@@ -1,9 +1,6 @@
 var a23832 =
 [
-    [ "boss_void_reaver", "d4/dce/a23832.html#aa6373ef5b27255eca4d85345ae5fa729", null ],
-    [ "JustDied", "d4/dce/a23832.html#a49e6f52b11177bdac07adff92c2675f5", null ],
-    [ "JustEngagedWith", "d4/dce/a23832.html#a9260d05e11f4dec6fc25432a0524706b", null ],
-    [ "KilledUnit", "d4/dce/a23832.html#adc234fc43308771a42d99049876cad1b", null ],
-    [ "Reset", "d4/dce/a23832.html#a02c36ea960de24991f879943991a93c6", null ],
-    [ "_recentlySpoken", "d4/dce/a23832.html#adc1bb9a6a3340f157c3ffcbd7dcd71ac", null ]
+    [ "spell_q13003_thursting_hodirs_spear_AuraScript", "d7/db3/a23836.html", "d7/db3/a23836" ],
+    [ "spell_q13003_thursting_hodirs_spear", "d4/dce/a23832.html#a6466beac264ffad3ac9c19241acd980a", null ],
+    [ "GetAuraScript", "d4/dce/a23832.html#aed39d3210086511a77fc408898a9d076", null ]
 ];

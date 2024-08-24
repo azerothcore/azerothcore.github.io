@@ -1,8 +1,7 @@
 var a24776 =
 [
-    [ "HandleSchoolDMG", "d3/d7a/a24776.html#ab273304fdbeea8768622c3e6b222aaf2", null ],
-    [ "HandleScriptEffect", "d3/d7a/a24776.html#a06f9cf29387b49f3e5950661173c77eb", null ],
-    [ "PrepareSpellScript", "d3/d7a/a24776.html#ac1a2b89eda37ed4e6c5946a93e7a58a2", null ],
-    [ "Register", "d3/d7a/a24776.html#a9bdbf7578509976d482a26869e9068aa", null ],
-    [ "Validate", "d3/d7a/a24776.html#a20a7b3a25711a90ab5f0e14991112ea0", null ]
+    [ "boss_veras_darkshadowAI", "d3/d7a/a24776.html#aa37f7798341b07a7f4ab911b3542fc30", null ],
+    [ "JustEngagedWith", "d3/d7a/a24776.html#a76a263ad81bc9dcf9d21074d7e87cb09", null ],
+    [ "JustSummoned", "d3/d7a/a24776.html#aa30e981d5e5914ba5c7568037ff45dc1", null ],
+    [ "UpdateAI", "d3/d7a/a24776.html#a93e0115b1592a2c14dbaa9304682da82", null ]
 ];

@@ -1,6 +1,6 @@
 var a13864 =
 [
-    [ "HandleOnHit", "d7/d81/a13864.html#a76b09288d14d399735250607e2105eb3", null ],
-    [ "PrepareSpellScript", "d7/d81/a13864.html#a2270ce546ae286ffa701d094df591aa2", null ],
-    [ "Register", "d7/d81/a13864.html#a710f2a60bf6ae00909d279b98ac6b7d6", null ]
+    [ "boss_grilekAI", "d4/dd9/a13868.html", "d4/dd9/a13868" ],
+    [ "boss_grilek", "d7/d81/a13864.html#acffe0061db18c5725c8c290822c5fed7", null ],
+    [ "GetAI", "d7/d81/a13864.html#aa346fa8807069d8fc94bd4d81a014c76", null ]
 ];

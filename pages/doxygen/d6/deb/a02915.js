@@ -1,14 +1,14 @@
 var a02915 =
 [
-    [ "boss_sacrolash", "de/d2e/a12952.html", "de/d2e/a12952" ],
-    [ "boss_sacrolash::boss_sacrolashAI", "de/daa/a12956.html", "de/daa/a12956" ],
-    [ "boss_alythess", "d0/d81/a12960.html", "d0/d81/a12960" ],
-    [ "boss_alythess::boss_alythessAI", "df/d9a/a12964.html", "df/d9a/a12964" ],
-    [ "spell_eredar_twins_apply_dark_touched", "db/d91/a12968.html", "db/d91/a12968" ],
-    [ "spell_eredar_twins_apply_flame_touched", "dc/dd6/a12972.html", "dc/dd6/a12972" ],
-    [ "spell_eredar_twins_handle_touch", "db/d38/a12976.html", "db/d38/a12976" ],
-    [ "spell_eredar_twins_blaze", "dd/dbd/a12980.html", "dd/dbd/a12980" ],
-    [ "AreaTrigger_at_sunwell_eredar_twins", "df/dba/a12984.html", "df/dba/a12984" ],
+    [ "boss_sacrolash", "de/d65/a12955.html", "de/d65/a12955" ],
+    [ "boss_sacrolash::boss_sacrolashAI", "d4/df1/a12959.html", "d4/df1/a12959" ],
+    [ "boss_alythess", "d1/d4a/a12963.html", "d1/d4a/a12963" ],
+    [ "boss_alythess::boss_alythessAI", "df/d16/a12967.html", "df/d16/a12967" ],
+    [ "spell_eredar_twins_apply_dark_touched", "d6/dd2/a12971.html", "d6/dd2/a12971" ],
+    [ "spell_eredar_twins_apply_flame_touched", "dd/df8/a12975.html", "dd/df8/a12975" ],
+    [ "spell_eredar_twins_handle_touch", "da/d94/a12979.html", "da/d94/a12979" ],
+    [ "spell_eredar_twins_blaze", "d8/d0e/a12983.html", "d8/d0e/a12983" ],
+    [ "AreaTrigger_at_sunwell_eredar_twins", "dc/d3c/a12987.html", "dc/d3c/a12987" ],
     [ "Misc", "d6/deb/a02915.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d2/d80/a02645.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "da/de8/a02657.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

@@ -1,6 +1,6 @@
 var a24428 =
 [
-    [ "HandleEffectRemove", "d3/d46/a24428.html#a9472b79a272aff36be657b66883d822f", null ],
-    [ "PrepareAuraScript", "d3/d46/a24428.html#ad46fedf6ef019d1b5e93d98e7bba8417", null ],
-    [ "Register", "d3/d46/a24428.html#ace15e1f5c158f1f203862b40da2cf8fc", null ]
+    [ "spell_illidan_demon_transform1_AuraScript", "dc/d57/a24432.html", "dc/d57/a24432" ],
+    [ "spell_illidan_demon_transform1", "d3/d46/a24428.html#a56bd918af65b405f96b72a65e0c6390a", null ],
+    [ "GetAuraScript", "d3/d46/a24428.html#a054e7f78301dfc8c1257c0a8690d71e3", null ]
 ];

@@ -1,8 +1,6 @@
 var a09000 =
 [
-    [ "NearestAttackableNoTotemUnitInObjectRangeCheck", "dd/dc5/a09000.html#a1f0bf90a7b9c57d05c54e3db6827aec1", null ],
-    [ "operator()", "dd/dc5/a09000.html#a08f8e473914c8a7bddbf26568294c18b", null ],
-    [ "i_obj", "dd/dc5/a09000.html#a949ff3bcc3530206d83512d293647a2b", null ],
-    [ "i_owner", "dd/dc5/a09000.html#a64f58427bbab3276bdc53450b33eca12", null ],
-    [ "i_range", "dd/dc5/a09000.html#af52388830cec17e32b1d368739b4555a", null ]
+    [ "NpcTextLocale", "dd/dc5/a09000.html#af1ddddeff75a1a51c51ebb1fec3f4f05", null ],
+    [ "Text_0", "dd/dc5/a09000.html#adf17307b9d00e0b63b9c2827fca96320", null ],
+    [ "Text_1", "dd/dc5/a09000.html#a40f69a13a202c350fdce2177288727e9", null ]
 ];

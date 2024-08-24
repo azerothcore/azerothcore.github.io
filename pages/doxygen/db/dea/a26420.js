@@ -1,7 +1,7 @@
 var a26420 =
 [
-    [ "HandleDummy", "db/dea/a26420.html#a4c837e7342603519d1f23ab8702c3160", null ],
-    [ "PrepareSpellScript", "db/dea/a26420.html#ae9d6ab0c9b9cf87f7b86f28e9bb25371", null ],
-    [ "Register", "db/dea/a26420.html#a16a5ca3ec9a8c463c9a2975fa29eb1e9", null ],
-    [ "Validate", "db/dea/a26420.html#ad742f4ce0d0db70427f7ba849a4526df", null ]
+    [ "npc_isla_starmaneAI", "dd/d51/a26424.html", "dd/d51/a26424" ],
+    [ "npc_isla_starmane", "db/dea/a26420.html#af30b3658d8f19be0dc07cb35eeb04668", null ],
+    [ "GetAI", "db/dea/a26420.html#a0ea2dbaab4115772f92849e06aa85575", null ],
+    [ "OnQuestAccept", "db/dea/a26420.html#afeda3da3761e96e2901ea06c5a26fa3a", null ]
 ];

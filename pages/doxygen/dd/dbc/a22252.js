@@ -1,6 +1,7 @@
 var a22252 =
 [
-    [ "npc_icefangAI", "da/da1/a22256.html", "da/da1/a22256" ],
-    [ "npc_icefang", "dd/dbc/a22252.html#a2e13be89b110abaa2509e597e4cf883a", null ],
-    [ "GetAI", "dd/dbc/a22252.html#ad1a936b1eef30271912054a817e0c9f8", null ]
+    [ "OnApply", "dd/dbc/a22252.html#a2e6222a6a68358b33698126f56855106", null ],
+    [ "OnRemove", "dd/dbc/a22252.html#a3c66ced821817c5234b1c5e9270f0b85", null ],
+    [ "PrepareAuraScript", "dd/dbc/a22252.html#ac7ff17cd4c73144c06e7479e9b41b080", null ],
+    [ "Register", "dd/dbc/a22252.html#a84e06d4e2acf8c7cf7661ed6352fb9c6", null ]
 ];

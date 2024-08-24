@@ -1,6 +1,6 @@
 var a16664 =
 [
-    [ "npc_fos_leader_secondAI", "d7/dd9/a16668.html", "d7/dd9/a16668" ],
-    [ "npc_fos_leader_second", "d5/da9/a16664.html#a0e24659ef6e834da5a3adc8d79f0db4e", null ],
-    [ "GetAI", "d5/da9/a16664.html#a96082888ccbb1c81be8327e5e0d84e03", null ]
+    [ "npc_toc_warriorAI", "d7/dd9/a16668.html", "d7/dd9/a16668" ],
+    [ "npc_toc_warrior", "d5/da9/a16664.html#a3e969be07603ef59389106769010660c", null ],
+    [ "GetAI", "d5/da9/a16664.html#a557d9aa512c485e37b4a05b57ab3d1a4", null ]
 ];

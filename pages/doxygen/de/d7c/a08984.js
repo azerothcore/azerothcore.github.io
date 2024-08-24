@@ -1,7 +1,5 @@
 var a08984 =
 [
-    [ "FriendlyCCedInRange", "de/d7c/a08984.html#ae8dcff3f285f208b0db8aa3efed202a1", null ],
-    [ "operator()", "de/d7c/a08984.html#a0e241f930cee855664aeac3604d5c023", null ],
-    [ "i_obj", "de/d7c/a08984.html#a73d3e29bbdc7fd4aa162be3cb7ecbe08", null ],
-    [ "i_range", "de/d7c/a08984.html#a49e79f3aea0c7e8c321c9f297b71a9b2", null ]
+    [ "_Delay", "de/d7c/a08984.html#a8c4024f5818f327f29b44a26892b89a1", null ],
+    [ "_Emote", "de/d7c/a08984.html#a701c902af6f7f472511727bcc88ceeef", null ]
 ];

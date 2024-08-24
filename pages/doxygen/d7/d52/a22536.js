@@ -1,12 +1,10 @@
 var a22536 =
 [
-    [ "OPvPCapturePointZM_Beacon", "d7/d52/a22536.html#a9efdfd232e9aa6dd390800bbf0373442", null ],
-    [ "ChangeState", "d7/d52/a22536.html#a5bbe87c18c814358596a9648fd92b129", null ],
-    [ "FillInitialWorldStates", "d7/d52/a22536.html#aedeeea5a7c1424a0dff51fe06dfaa23a", null ],
-    [ "HandlePlayerEnter", "d7/d52/a22536.html#a7042cd6b4c3d57de89e3ae9e0b2cee2a", null ],
-    [ "HandlePlayerLeave", "d7/d52/a22536.html#a6e5bfb2751f157fc4ebc8338b7cce802", null ],
-    [ "SendChangePhase", "d7/d52/a22536.html#a0b5ad48fa0d6ddd6c768fb7454b5fb55", null ],
-    [ "UpdateTowerState", "d7/d52/a22536.html#a9622620e5b969e19ea049ebd3cc4a3dc", null ],
-    [ "m_TowerState", "d7/d52/a22536.html#a3a41cc34e7a8bd9f0d9d6f86f42a3312", null ],
-    [ "m_TowerType", "d7/d52/a22536.html#a481e79d61fcdd011632f8f0d37f940bc", null ]
+    [ "npc_enslaved_proto_drakeAI", "d7/d52/a22536.html#a948bacd9d69613110fa10e6e39032baf", null ],
+    [ "MovementInform", "d7/d52/a22536.html#a4c15ed2904c72219d419efe98beb7857", null ],
+    [ "Reset", "d7/d52/a22536.html#a3a99b691141024906e967f5876c3da08", null ],
+    [ "SetData", "d7/d52/a22536.html#a1d1aa0027b94153b126c19688003eea8", null ],
+    [ "UpdateAI", "d7/d52/a22536.html#a7d364a448269bc9bb25b5dbab3388236", null ],
+    [ "_events", "d7/d52/a22536.html#adb4064cfb9c376945a2d6c42ed7c2420", null ],
+    [ "_setData", "d7/d52/a22536.html#a3977c9229b92cc417a6732a0b2968de9", null ]
 ];

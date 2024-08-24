@@ -1,6 +1,7 @@
 var a19152 =
 [
-    [ "instance_eye_of_eternity_InstanceMapScript", "d2/d94/a19156.html", "d2/d94/a19156" ],
-    [ "instance_eye_of_eternity", "dd/d0d/a19152.html#afcab4ba969d0423871a4e398627a323d", null ],
-    [ "GetInstanceScript", "dd/d0d/a19152.html#af51319609d355fe87a77a87eb697f434", null ]
+    [ "PrepareSpellScript", "dd/d0d/a19152.html#adb3420e44415f1f077c8f4e878a0382a", null ],
+    [ "Register", "dd/d0d/a19152.html#a9971b4554d0e492a906bef4494a6be7c", null ],
+    [ "TriggerHeal", "dd/d0d/a19152.html#a458b294458edfe054bffca5820b59df6", null ],
+    [ "Validate", "dd/d0d/a19152.html#a6685bb34cff8a43a385436ebaefadf74", null ]
 ];

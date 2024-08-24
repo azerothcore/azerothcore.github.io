@@ -1,7 +1,8 @@
 var a18160 =
 [
-    [ "OnPeriodic", "db/d41/a18160.html#a9635bf496ee3098e412ba7de633250b3", null ],
-    [ "PrepareAuraScript", "db/d41/a18160.html#accb775d3a9c4ae40f5d8644c366ec39e", null ],
-    [ "Register", "db/d41/a18160.html#aa44bb97a0d3af32b90a133582f064b0e", null ],
-    [ "Validate", "db/d41/a18160.html#a5675fef373315edd34d096bb91c733b0", null ]
+    [ "Load", "db/d41/a18160.html#a16691718a2bd0901fdb7d29ec14eba08", null ],
+    [ "PeriodicTick", "db/d41/a18160.html#af6b4ea382eca8a6ec918a81254b075a3", null ],
+    [ "PrepareAuraScript", "db/d41/a18160.html#a97a737567a69f152aa577db4023d976f", null ],
+    [ "Register", "db/d41/a18160.html#a9742a2b02f47d7bfd4416e26c69cb543", null ],
+    [ "tickNo", "db/d41/a18160.html#a4d8a11b7a97ecbc6772f6e34ed011367", null ]
 ];

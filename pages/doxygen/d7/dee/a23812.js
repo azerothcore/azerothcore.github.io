@@ -1,6 +1,11 @@
 var a23812 =
 [
-    [ "lapseTeleport", "d7/dee/a23812.html#a55c4330397214bf3a43628b3067d4634", null ],
-    [ "Execute", "d7/dee/a23812.html#a122023ed13fce2f5bb3721e459964443", null ],
-    [ "_owner", "d7/dee/a23812.html#a0e678c5cdb862390ea50c8d6057b7093", null ]
+    [ "npc_iron_watcherAI", "d7/dee/a23812.html#a5f0c3d759dfba81cb2010d2a0b479909", null ],
+    [ "MovementInform", "d7/dee/a23812.html#aaf329f0160efa778abdebf86b1cf230b", null ],
+    [ "Reset", "d7/dee/a23812.html#a878f26cd41ccb9d777f9db00e2e30568", null ],
+    [ "SpellHit", "d7/dee/a23812.html#afce7cebdb4a49d9e5618ac211b235c6b", null ],
+    [ "UpdateAI", "d7/dee/a23812.html#a50391c9950fbbaf170600f13bab1e6bb", null ],
+    [ "charging", "d7/dee/a23812.html#af5be6fc6d7d234cfd2ac78f636b0ad7c", null ],
+    [ "hpTimer", "d7/dee/a23812.html#afcbb113387345361baf0351a19e6eb1d", null ],
+    [ "spellTimer", "d7/dee/a23812.html#a9bcd8d80b0a74c7abf0fc8b3bb32aa30", null ]
 ];

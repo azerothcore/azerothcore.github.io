@@ -1,9 +1,6 @@
 var a14036 =
 [
-    [ "CheckCast", "de/d7b/a14036.html#a02965b55e8efadbd21e5afdd824f1dec", null ],
-    [ "FilterTargets", "de/d7b/a14036.html#a9638048b4107db116474abf8e18d7760", null ],
-    [ "HandleBeforeHit", "de/d7b/a14036.html#a3567c72e999ad6ca9db15b4d6ddadafb", null ],
-    [ "HandleScriptEffect", "de/d7b/a14036.html#a47d6a6c1fcb2b04782e54d3797c1f42c", null ],
-    [ "PrepareSpellScript", "de/d7b/a14036.html#aab9211291bd9dab8255d94e4eb07bf8e", null ],
-    [ "Register", "de/d7b/a14036.html#a73e6c9c91dccb309207fa3aeb6bd9d6f", null ]
+    [ "npc_zealot_zathAI", "d4/d75/a14040.html", "d4/d75/a14040" ],
+    [ "npc_zealot_zath", "de/d7b/a14036.html#a213cf750bfcfbfd1a1192c76380abcd4", null ],
+    [ "GetAI", "de/d7b/a14036.html#a82697286a15c0e83186baf84b431792f", null ]
 ];

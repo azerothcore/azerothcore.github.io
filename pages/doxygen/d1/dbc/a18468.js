@@ -1,6 +1,6 @@
 var a18468 =
 [
-    [ "npc_crok_scourgebaneAI", "d6/d7c/a18472.html", "d6/d7c/a18472" ],
-    [ "npc_crok_scourgebane", "d1/dbc/a18468.html#a5f560e2c62aa618eadb5a11e2c9b90a3", null ],
-    [ "GetAI", "d1/dbc/a18468.html#afa4fcbb9d7281fbee3f8bc0f318d2e6b", null ]
+    [ "HandleTriggerSpell", "d1/dbc/a18468.html#ae17a13e8f5a71c4601932327f947b8f1", null ],
+    [ "PrepareAuraScript", "d1/dbc/a18468.html#a2f19bc1e308600cc602a77a5a3b98ad3", null ],
+    [ "Register", "d1/dbc/a18468.html#a32fd3af43e85aeb5ce02923086c554ca", null ]
 ];

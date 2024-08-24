@@ -1,7 +1,6 @@
 var a25880 =
 [
-    [ "CheckProc", "dd/de4/a25880.html#a325336c96dad74ec221c07817222fee1", null ],
-    [ "HandleProc", "dd/de4/a25880.html#a35a1ce56b84b2d8017dbaba626660d70", null ],
-    [ "PrepareAuraScript", "dd/de4/a25880.html#a30f6dd531d4316b4bbb3297af2c17e2e", null ],
-    [ "Register", "dd/de4/a25880.html#a6c86a4cf273d90086c4ebdbcaa6b6632", null ]
+    [ "spell_the_eye_counterchargeScript", "de/db1/a25884.html", "de/db1/a25884" ],
+    [ "spell_the_eye_countercharge", "dd/de4/a25880.html#a6e2db367be6755ba4a044bedf711bfa4", null ],
+    [ "GetAuraScript", "dd/de4/a25880.html#ac0ac3dd562a2264a19203bb201398551", null ]
 ];

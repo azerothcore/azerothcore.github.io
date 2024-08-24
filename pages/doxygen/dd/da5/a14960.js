@@ -1,10 +1,18 @@
 var a14960 =
 [
-    [ "boss_huhuran", "dd/da5/a14960.html#a64e0b20891992764c708cbb661c18196", null ],
-    [ "DamageTaken", "dd/da5/a14960.html#adb47086f29b41f4168ad5d1b2728547d", null ],
-    [ "JustEngagedWith", "dd/da5/a14960.html#a08f1d6550680d5bcf07332eade115730", null ],
-    [ "Reset", "dd/da5/a14960.html#a45571aa6bd0c7915fb666cae1c5c4544", null ],
-    [ "UpdateAI", "dd/da5/a14960.html#a23962e668f046b373f94ea6a2d75574a", null ],
-    [ "_berserk", "dd/da5/a14960.html#a5f3f17d0b239f95ed4eb0bfac85c4463", null ],
-    [ "_hardEnrage", "dd/da5/a14960.html#a5612bf8b1eedec159b316b28e6f4c915", null ]
+    [ "boss_ayamiss", "dd/da5/a14960.html#a0e923d4fa8bd6623ec58d7f64b5ea261", null ],
+    [ "DamageTaken", "dd/da5/a14960.html#ab7e93fad62f1b1f3257ace56668e34de", null ],
+    [ "DoAction", "dd/da5/a14960.html#a0114a79274c34fe3dfbc8a34f39920bc", null ],
+    [ "EnterEvadeMode", "dd/da5/a14960.html#a52f584da6d3d1b87fe91528dc25b8c5e", null ],
+    [ "JustDied", "dd/da5/a14960.html#acddcbb06b7d5980e199ef11103fabf7c", null ],
+    [ "JustEngagedWith", "dd/da5/a14960.html#aaaf1b765256f4a6342d16bd7767f92cf", null ],
+    [ "JustSummoned", "dd/da5/a14960.html#a4281f761256cd93c19aea0a76239512d", null ],
+    [ "MovementInform", "dd/da5/a14960.html#a6bc1f0767785efb5a5fb005b49338032", null ],
+    [ "Reset", "dd/da5/a14960.html#a10111f97236c2846181aa20f7d9b64fd", null ],
+    [ "ScheduleTasks", "dd/da5/a14960.html#a166238b9395a426a7333cf71a38c6c5c", null ],
+    [ "UpdateAI", "dd/da5/a14960.html#a3720977eed483fafdb610d0dd879586b", null ],
+    [ "_enraged", "dd/da5/a14960.html#a1a8c1ecdac3d8f3e198937c1ad43ff7a", null ],
+    [ "_phase", "dd/da5/a14960.html#a553df71681c3a317299130757c0ff7e9", null ],
+    [ "_swarmers", "dd/da5/a14960.html#aa6dd99f8085d1424acf07cc124ac210c", null ],
+    [ "homePos", "dd/da5/a14960.html#ab098ee0f8872d1cf9d34993c01971921", null ]
 ];

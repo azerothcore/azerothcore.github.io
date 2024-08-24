@@ -1,10 +1,13 @@
 var a15872 =
 [
-    [ "npc_xerestraszaAI", "d9/d47/a15872.html#a768ae45296e16b8fcada6359dfd6c7e5", null ],
-    [ "DoAction", "d9/d47/a15872.html#af696ecee315892b2bf0233113d2f89f9", null ],
-    [ "Reset", "d9/d47/a15872.html#a0eceae8fb9bf5071bc8d9cddf783507b", null ],
-    [ "UpdateAI", "d9/d47/a15872.html#a6389ab58f4b44c668590113ec75f2adf", null ],
-    [ "_events", "d9/d47/a15872.html#ae998fc6aaee14bc313ff38bb76d79e43", null ],
-    [ "_introDone", "d9/d47/a15872.html#a9d01014297290dafbb7ed25bffbe6fe6", null ],
-    [ "_isIntro", "d9/d47/a15872.html#a71ffbf3fedb77bd693beabb4ee52f57a", null ]
+    [ "npc_shadowpriest_sezzizAI", "d9/d47/a15872.html#a14c5cee1c3032b8df4ad902eb273e9b0", null ],
+    [ "AttackStart", "d9/d47/a15872.html#a8278a73501ea33164cbdef8599144f4a", null ],
+    [ "Reset", "d9/d47/a15872.html#ab08cc327c4206e4526e77eea3bf17e0b", null ],
+    [ "UpdateAI", "d9/d47/a15872.html#a1c0236b52d4cd87634659991e0dfc728", null ],
+    [ "_missingHPForHealTimer", "d9/d47/a15872.html#a1171f0cd40bd3d7198bab15b12edc131", null ],
+    [ "_missingHPForRenewTimer", "d9/d47/a15872.html#a8df4e1046348599cd5d1e31e3dc4eb0c", null ],
+    [ "_physicScreemTimer", "d9/d47/a15872.html#a43de246b93f3380d5b79ffba6434aa5a", null ],
+    [ "_shadowBoltTimer", "d9/d47/a15872.html#a34a18991ff2c0aafac15694ed9667193", null ],
+    [ "_summmonAddsCount", "d9/d47/a15872.html#a8ce2b172757d1f7d188152ecc0fe30f5", null ],
+    [ "_summonAddsTimer", "d9/d47/a15872.html#aff413ce6f4106d212f35fb7abbfa047e", null ]
 ];

@@ -1,12 +1,19 @@
 var a20976 =
 [
-    [ "boss_kelesethAI", "d2/d62/a20976.html#a32c5c3745698cc8d546509c287bb75a8", null ],
-    [ "AttackStart", "d2/d62/a20976.html#adcdedacd8308af95c2cd83f06e7defb7", null ],
-    [ "JustDied", "d2/d62/a20976.html#ae9403839d9f7bcb3b746a96f923f5732", null ],
-    [ "JustEngagedWith", "d2/d62/a20976.html#a93577fe11bbf913bcd9e8fc1673d0892", null ],
-    [ "KilledUnit", "d2/d62/a20976.html#a04dd9045e4e6ebc9007a43753daba69f", null ],
-    [ "Reset", "d2/d62/a20976.html#a5e15d439b3bb77228ab0126c0b74e956", null ],
-    [ "UpdateAI", "d2/d62/a20976.html#a6c514fc76f1137e429a1250cf40b0842", null ],
-    [ "events", "d2/d62/a20976.html#ac2791db07b1b6dc392ad76bea4e96e93", null ],
-    [ "pInstance", "d2/d62/a20976.html#aeb63f88d6a5dbaa131f7b1d54ed0ab08", null ]
+    [ "boss_auriayaAI", "d2/d62/a20976.html#a1bbc9ffd506dcd3a19925a860f94418f", null ],
+    [ "DoAction", "d2/d62/a20976.html#ac48a5399c13ccda015338649f319621b", null ],
+    [ "GetData", "d2/d62/a20976.html#afda379773808c3974679037828d00b9e", null ],
+    [ "JustDied", "d2/d62/a20976.html#af2316d1c62623c9915cecb1308310856", null ],
+    [ "JustEngagedWith", "d2/d62/a20976.html#a4b939a5e446aeac12fe6dc006a21fe3b", null ],
+    [ "JustReachedHome", "d2/d62/a20976.html#a94f4f2d836042c24e2b26b4664783570", null ],
+    [ "JustSummoned", "d2/d62/a20976.html#a61c3887481f8f7119357ef3402ed82be", null ],
+    [ "KilledUnit", "d2/d62/a20976.html#a0610a140c5b9687f345b60365badd629", null ],
+    [ "Reset", "d2/d62/a20976.html#a8e554328a8179802c3f35326b059d173", null ],
+    [ "SummonedCreatureDies", "d2/d62/a20976.html#a9b3ea0af39d0b391ef181e2846f437cd", null ],
+    [ "UpdateAI", "d2/d62/a20976.html#a9da5d29f33e9e84fdf42c03c72b2ea8a", null ],
+    [ "_feralDied", "d2/d62/a20976.html#a6bd69d474df1db36bd020fad50fbcee4", null ],
+    [ "_nineLives", "d2/d62/a20976.html#a1cfc503178c3c59ee87d2ffb9372636d", null ],
+    [ "events", "d2/d62/a20976.html#afdccfdf0d44d08d9d8ebb6cb235a7503", null ],
+    [ "m_pInstance", "d2/d62/a20976.html#a0984d626105f95a97c8c4469cd2fad8f", null ],
+    [ "summons", "d2/d62/a20976.html#a23b5c1258b56f0eb752abc77e622cc8a", null ]
 ];

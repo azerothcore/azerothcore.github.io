@@ -1,6 +1,7 @@
 var a15516 =
 [
-    [ "npc_cairne_bloodhoofAI", "d7/d93/a15520.html", "d7/d93/a15520" ],
-    [ "npc_cairne_bloodhoof", "de/d96/a15516.html#a3519d94c5fcdc3d55e31c49c7773e56c", null ],
-    [ "GetAI", "de/d96/a15516.html#a1c34470c46ae9e98684de0e786be28b7", null ]
+    [ "HandleDummy", "de/d96/a15516.html#aae5fcdbdb664abf105f4399a818b42ee", null ],
+    [ "PrepareSpellScript", "de/d96/a15516.html#a1a5d595bbb2813e8a2a659f24208e717", null ],
+    [ "Register", "de/d96/a15516.html#aee8f48b8563060f3ce2edacac2636608", null ],
+    [ "Validate", "de/d96/a15516.html#a531fad9a15d6578d25d6edfefdf0b5af", null ]
 ];

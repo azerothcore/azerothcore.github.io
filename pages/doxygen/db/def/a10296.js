@@ -1,8 +1,6 @@
 var a10296 =
 [
-    [ "OtherGUID", "db/def/a10296.html#a3f7486a2e4e07fef318414eaaa9037da", null ],
-    [ "PlayerGUID", "db/def/a10296.html#ae3d1217ddbfccd601fcbc57b78739a94", null ],
-    [ "RankID", "db/def/a10296.html#a1aebcb39f85c2b44101a311a6ccefdfd", null ],
-    [ "TransactionDate", "db/def/a10296.html#a4a8054876b35134e5dfe2cf84887e66f", null ],
-    [ "TransactionType", "db/def/a10296.html#aa48b69aa9078fb150470d66201b34786", null ]
+    [ "PetLearnedSpell", "db/def/a10296.html#a5d105cca08515b9550998f2c86b13a1a", null ],
+    [ "Write", "db/def/a10296.html#a6fd7d4bc907b0bb78c438e6a9159dc69", null ],
+    [ "SpellID", "db/def/a10296.html#a6ab11b614f13d518a2a007adfbe00ab7", null ]
 ];

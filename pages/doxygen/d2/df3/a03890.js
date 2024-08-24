@@ -1,13 +1,13 @@
 var a03890 =
 [
-    [ "boss_koralon", "d0/ddd/a21188.html", "d0/ddd/a21188" ],
-    [ "boss_koralon::boss_koralonAI", "d9/de0/a21192.html", "d9/de0/a21192" ],
-    [ "spell_voa_flaming_cinder", "d4/d1c/a21196.html", "d4/d1c/a21196" ],
-    [ "spell_voa_flaming_cinder::spell_voa_flaming_cinder_SpellScript", "d0/dc9/a21200.html", "d0/dc9/a21200" ],
-    [ "spell_koralon_meteor_fists", "de/d56/a21204.html", "de/d56/a21204" ],
-    [ "spell_koralon_meteor_fists::spell_koralon_meteor_fists_AuraScript", "d0/d4d/a21208.html", "d0/d4d/a21208" ],
-    [ "spell_flame_warder_meteor_fists", "d1/d94/a21212.html", "d1/d94/a21212" ],
-    [ "spell_flame_warder_meteor_fists::spell_flame_warder_meteor_fists_AuraScript", "d7/d65/a21216.html", "d7/d65/a21216" ],
+    [ "boss_koralon", "dc/da1/a21191.html", "dc/da1/a21191" ],
+    [ "boss_koralon::boss_koralonAI", "dd/d11/a21195.html", "dd/d11/a21195" ],
+    [ "spell_voa_flaming_cinder", "d1/d63/a21199.html", "d1/d63/a21199" ],
+    [ "spell_voa_flaming_cinder::spell_voa_flaming_cinder_SpellScript", "d5/d02/a21203.html", "d5/d02/a21203" ],
+    [ "spell_koralon_meteor_fists", "d4/d4a/a21207.html", "d4/d4a/a21207" ],
+    [ "spell_koralon_meteor_fists::spell_koralon_meteor_fists_AuraScript", "dd/d8d/a21211.html", "dd/d8d/a21211" ],
+    [ "spell_flame_warder_meteor_fists", "d5/d6a/a21215.html", "d5/d6a/a21215" ],
+    [ "spell_flame_warder_meteor_fists::spell_flame_warder_meteor_fists_AuraScript", "da/dc7/a21219.html", "da/dc7/a21219" ],
     [ "Events", "d2/df3/a03890.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d4/d61/a02588.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d4/d61/a02588.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

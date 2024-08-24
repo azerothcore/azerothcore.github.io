@@ -1,7 +1,6 @@
 var a25920 =
 [
-    [ "HandleKnockBack", "d9/d4b/a25920.html#a860fb74000a42a7d6f22d17dde93cdf6", null ],
-    [ "PrepareSpellScript", "d9/d4b/a25920.html#ab951d6403188f178f79311cead8a0a8f", null ],
-    [ "Register", "d9/d4b/a25920.html#ac62f4fdf003cdd53650fe632b3ed3ef1", null ],
-    [ "Validate", "d9/d4b/a25920.html#add1bd8f583772d4dfeb20f01b9fac8ed", null ]
+    [ "spell_capacitus_polarity_shift_SpellScript", "dc/d4a/a25924.html", "dc/d4a/a25924" ],
+    [ "spell_capacitus_polarity_shift", "d9/d4b/a25920.html#afa703b04e8217c47050a6a41cfabcd1d", null ],
+    [ "GetSpellScript", "d9/d4b/a25920.html#a159901c37535783b5a536a7972337410", null ]
 ];

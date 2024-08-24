@@ -1,14 +1,16 @@
 var a19988 =
 [
-    [ "boss_freya_summonsAI", "d7/d22/a19988.html#acbba11d918cc6368612cbd3d95310fe2", null ],
-    [ "DoAction", "d7/d22/a19988.html#ad9dd522e33ffd42bff75f7dd5f1bdc45", null ],
-    [ "JustDied", "d7/d22/a19988.html#af7668e0cb4be7d49af8be697b8fa3299", null ],
-    [ "JustEngagedWith", "d7/d22/a19988.html#a3163e12dd184dc5b8981c356e601a05a", null ],
-    [ "Reset", "d7/d22/a19988.html#a44f1ac940625fdd0cdb84454082e7ab6", null ],
-    [ "UpdateAI", "d7/d22/a19988.html#afdd17576728872509ec31188fa68505b", null ],
-    [ "_freyaGUID", "d7/d22/a19988.html#adcdf01b496a52b1d0aa2f1b3bf6a7a0a", null ],
-    [ "_hasDied", "d7/d22/a19988.html#a86f421141d31ac70e58cf63fe707ba27", null ],
-    [ "_isTrio", "d7/d22/a19988.html#ab31e8c73c3e22b031e5efe89ae95ce0e", null ],
-    [ "_stackCount", "d7/d22/a19988.html#ab7fc673ad22c1dd3bd41fa185ee03abb", null ],
-    [ "events", "d7/d22/a19988.html#a79403b4a24b92f89252db603d8ea2210", null ]
+    [ "boss_gluthAI", "d7/d22/a19988.html#a3ae0608d19cbc7ce5a561e0ae3e66d0d", null ],
+    [ "JustDied", "d7/d22/a19988.html#ada2c5f6b7025f5f2fb67b8ebe3b2d56c", null ],
+    [ "JustEngagedWith", "d7/d22/a19988.html#a25cf670d7254cc8331752987a854c63b", null ],
+    [ "JustSummoned", "d7/d22/a19988.html#acc09328210fbf1a6e81999d548676ae4", null ],
+    [ "KilledUnit", "d7/d22/a19988.html#a691d46055b922efc9d1ec93a8b0fb842", null ],
+    [ "MoveInLineOfSight", "d7/d22/a19988.html#a2aaf43f7d1555a005ef263ceaad8304c", null ],
+    [ "Reset", "d7/d22/a19988.html#acb9f68205a2a210737d43893a414ca52", null ],
+    [ "SelectPlayerInRoom", "d7/d22/a19988.html#a1f8f87b00291d8164f607ac6262506cf", null ],
+    [ "SummonedCreatureDies", "d7/d22/a19988.html#a115a1f1327a931067223734dbf414675", null ],
+    [ "UpdateAI", "d7/d22/a19988.html#a2505f7ebda7b623edfedf96979a4a920", null ],
+    [ "events", "d7/d22/a19988.html#adaf9581259a774087ce02725b42b6b47", null ],
+    [ "pInstance", "d7/d22/a19988.html#a2546d250e59df4666ac536e371b3aa66", null ],
+    [ "summons", "d7/d22/a19988.html#a18f6aa3d949e68e9b38398780c017082", null ]
 ];

@@ -1,6 +1,6 @@
 var a02525 =
 [
-    [ "misc_commandscript", "d8/d1b/a11368.html", "d8/d1b/a11368" ],
+    [ "misc_commandscript", "df/d72/a11371.html", "df/d72/a11371" ],
     [ "AddSC_misc_commandscript", "db/de8/a02525.html#ac722d20c86b9502b7c4c8ae711cc3917", null ],
     [ "GetLocalizeCreatureName", "db/de8/a02525.html#aaedbdfd3cae227b11684151f41e3b977", null ],
     [ "SPELL_FREEZE", "db/de8/a02525.html#a181bdc61e4eb1d21db975ca0227cb086", null ],

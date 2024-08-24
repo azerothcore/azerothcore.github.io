@@ -1,23 +1,10 @@
 var a08060 =
 [
-    [ "Bag", "d0/dd0/a08060.html#ae0593c22c7dd8b32cab469af92fb200c", null ],
-    [ "~Bag", "d0/dd0/a08060.html#aac5b94be9c36a9fca542bca3e32260c1", null ],
-    [ "AddToWorld", "d0/dd0/a08060.html#a1660f8f1c97cfbb512b1835946e05ea4", null ],
-    [ "BuildCreateUpdateBlockForPlayer", "d0/dd0/a08060.html#a680840268e86a6974c2d89d8bd17d338", null ],
-    [ "Create", "d0/dd0/a08060.html#a644dbcae3484ba9065f0081457d5084f", null ],
-    [ "DeleteFromDB", "d0/dd0/a08060.html#ac1f55a19c69604914ab2f7576d3be016", null ],
-    [ "GetBagSize", "d0/dd0/a08060.html#a0888242c34d30adde36a583c7352a339", null ],
-    [ "GetDebugInfo", "d0/dd0/a08060.html#a88bd93c16e7b35f299b8b013835d646e", null ],
-    [ "GetFreeSlots", "d0/dd0/a08060.html#ad5f4da5a3bc645d29c15651190a41d5e", null ],
-    [ "GetItemByPos", "d0/dd0/a08060.html#a80149f0d19426c9f8502713bce59af7e", null ],
-    [ "GetItemCount", "d0/dd0/a08060.html#ab4967fad85ab0291fef6bda19a0e7a67", null ],
-    [ "GetItemCountWithLimitCategory", "d0/dd0/a08060.html#ae6e6f304dbac50eb9ee6a0628c7cb391", null ],
-    [ "GetSlotByItemGUID", "d0/dd0/a08060.html#ad8c47ab6e44c8dd8713d4af4b07a5df4", null ],
-    [ "IsEmpty", "d0/dd0/a08060.html#a37797a614a3504571c15047fc9df131d", null ],
-    [ "LoadFromDB", "d0/dd0/a08060.html#ae34ce4a4d974410aca8880ee0db1cf18", null ],
-    [ "RemoveFromWorld", "d0/dd0/a08060.html#a2cf52acefeda5787376ae93d4679d6e9", null ],
-    [ "RemoveItem", "d0/dd0/a08060.html#abc8317240a86c65cc2e7152681e9a5e1", null ],
-    [ "SaveToDB", "d0/dd0/a08060.html#a3e7264c06a4249594fbf23d43707f635", null ],
-    [ "StoreItem", "d0/dd0/a08060.html#a1765d07e4de76b9b1cf6eccb125143a1", null ],
-    [ "m_bagslot", "d0/dd0/a08060.html#ad2fdcedba1dec947bfddfcd55a4d92a0", null ]
+    [ "EquipmentSet", "d0/dd0/a08060.html#acd3085c12c795daceae86e94448109e2", null ],
+    [ "Guid", "d0/dd0/a08060.html#aae529ea61a2ad4f114b6a108564f5474", null ],
+    [ "IconName", "d0/dd0/a08060.html#a40233dfcc23f125ff88693d6c7d7fab5", null ],
+    [ "IgnoreMask", "d0/dd0/a08060.html#af116e824d23f000f424f3b261618e827", null ],
+    [ "Items", "d0/dd0/a08060.html#a113e6e5883afe38d446a6d435cd34a01", null ],
+    [ "Name", "d0/dd0/a08060.html#a2b4691a1b44ae47e7d3c2e63f88d78ba", null ],
+    [ "state", "d0/dd0/a08060.html#a7e2270a6041dda26f8bc7f8c82597e7f", null ]
 ];

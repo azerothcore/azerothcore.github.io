@@ -1,7 +1,8 @@
 var a25244 =
 [
-    [ "HandleDummy", "dc/d6d/a25244.html#a704a2f1c36b32809b22bc3edc87b3414", null ],
-    [ "PrepareSpellScript", "dc/d6d/a25244.html#aad01f2888176e8a555fe7acd1bc3fd8b", null ],
-    [ "Register", "dc/d6d/a25244.html#ae12fa2b2f9859b465a64fbec04345c9e", null ],
-    [ "Validate", "dc/d6d/a25244.html#ad4bb369ef46122cd45c38d876884d350", null ]
+    [ "npc_naga_distiller", "dc/d6d/a25244.html#acfe3fe96bc92983a02a64129a68b7759", null ],
+    [ "DoAction", "dc/d6d/a25244.html#af7f7509778ace29a143b0c4bd62eb5d4", null ],
+    [ "Reset", "dc/d6d/a25244.html#aa2e843dd5c5bfcc978391922b6b5c2c2", null ],
+    [ "UpdateAI", "dc/d6d/a25244.html#a84c525466735915b888c2826b40c07a5", null ],
+    [ "spellTimer", "dc/d6d/a25244.html#aa414be4c69cb7c1894d5b30c077057f2", null ]
 ];

@@ -1,7 +1,6 @@
 var a18044 =
 [
-    [ "TriggerWickedSpirit", "d0/d86/a18044.html#ace62bc037a2bd8ca9c9c56202eb811e7", null ],
-    [ "Execute", "d0/d86/a18044.html#a7c8f1b5c33fac4d6a7cd89e3e71aa36d", null ],
-    [ "_counter", "d0/d86/a18044.html#a24b85a62208f881418f97b0a8cb10f27", null ],
-    [ "_owner", "d0/d86/a18044.html#ab460675158bfedd7f17a4b8e1cc06b3c", null ]
+    [ "npc_muradin_bronzebeard_igbAI", "d4/d6d/a18048.html", "d4/d6d/a18048" ],
+    [ "npc_muradin_bronzebeard_igb", "d0/d86/a18044.html#a1e6abc18a192b3acfa29bf03dd4eeed9", null ],
+    [ "GetAI", "d0/d86/a18044.html#af9b149e0780308f26d5adb1e6607a3ce", null ]
 ];

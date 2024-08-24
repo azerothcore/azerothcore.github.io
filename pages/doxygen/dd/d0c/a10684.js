@@ -1,6 +1,6 @@
 var a10684 =
 [
-    [ "WorldSessionFilter", "dd/d0c/a10684.html#aba91eb2dfd56201534743b2d458fa111", null ],
-    [ "~WorldSessionFilter", "dd/d0c/a10684.html#a5de22e3a331e0ab17fe60f34c5b9b3fa", null ],
-    [ "Process", "dd/d0c/a10684.html#a0f0acf4ed9e61bf8aeb77ee7fb310660", null ]
+    [ "ObjectAreaTargetSelectHandler", "dd/d0c/a10684.html#a89b86436bb1de38223165e7ef60f2b61", null ],
+    [ "Call", "dd/d0c/a10684.html#a11d2070610d178006231bac274d1f311", null ],
+    [ "pObjectAreaTargetSelectHandlerScript", "dd/d0c/a10684.html#a118ca963c6319802806913762c4d1fec", null ]
 ];

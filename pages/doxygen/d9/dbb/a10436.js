@@ -1,6 +1,7 @@
 var a10436 =
 [
-    [ "GuildSetGuildMaster", "d9/dbb/a10436.html#ae6ca07252de719cc506042c8d3e8285e", null ],
-    [ "Read", "d9/dbb/a10436.html#a94f16e55a840c7cba991a119af5d8263", null ],
-    [ "NewMasterName", "d9/dbb/a10436.html#a02f37610492c75373266bb93000adcbf", null ]
+    [ "IsValidOpcode", "d9/dbb/a10436.html#afdba55f89a1c7ffb9e7c302f2269687f", null ],
+    [ "IsValidSize", "d9/dbb/a10436.html#aec5192f7f57a16c9dfa244ff3874e693", null ],
+    [ "cmd", "d9/dbb/a10436.html#ad0a112cb2a8a71e6e8c20e320af63f49", null ],
+    [ "size", "d9/dbb/a10436.html#ac1d551036381db4f85b8dc92ea55d4ee", null ]
 ];

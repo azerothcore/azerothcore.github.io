@@ -1,9 +1,13 @@
 var a08908 =
 [
-    [ "CreatureLastSearcher", "d7/d5e/a08908.html#a422c7a5a2cd4e93f7b0ad31cc4c6555d", null ],
-    [ "Visit", "d7/d5e/a08908.html#ae6774df4ffff18cd4f3b4c07724db4f4", null ],
-    [ "Visit", "d7/d5e/a08908.html#a08635cefbba5dca34734569816d2edb8", null ],
-    [ "i_check", "d7/d5e/a08908.html#a2b9afe2c43af6e68f7fa5ba661790ef9", null ],
-    [ "i_object", "d7/d5e/a08908.html#ab8a14acb8d0fc9835d1325430fa1a367", null ],
-    [ "i_phaseMask", "d7/d5e/a08908.html#a9dd25e3437e1c1e5e4c8d68ab3548500", null ]
+    [ "GroupReference", "d7/d5e/a08908.html#ab1a008e85d413c67696d4d568a98bde7", null ],
+    [ "~GroupReference", "d7/d5e/a08908.html#ab586405a850b0985e6b9f08cc6bdf32e", null ],
+    [ "getSubGroup", "d7/d5e/a08908.html#a8217ca810bc251005dfe8a2e3b810e1e", null ],
+    [ "next", "d7/d5e/a08908.html#a6f8f406f1209dd7060904d40f5424b41", null ],
+    [ "next", "d7/d5e/a08908.html#ac913ec0703c28cda068375d01c9cd72d", null ],
+    [ "setSubGroup", "d7/d5e/a08908.html#a303caf55ea463398237e6a825f30b143", null ],
+    [ "sourceObjectDestroyLink", "d7/d5e/a08908.html#a458157654c27def9b36b68ae099ca7b3", null ],
+    [ "targetObjectBuildLink", "d7/d5e/a08908.html#aa7c8acd113fefc7b6d2b9dff94bb047c", null ],
+    [ "targetObjectDestroyLink", "d7/d5e/a08908.html#a4c15e8dbb9f990f9ab66c5e1466d0616", null ],
+    [ "iSubGroup", "d7/d5e/a08908.html#a528073b16a119cfa81e6f37c6e72cc03", null ]
 ];

@@ -1,7 +1,6 @@
 var a14264 =
 [
-    [ "HandleScript", "d2/df5/a14264.html#a78899a874a645d531dd4d89f2bd5478a", null ],
-    [ "PrepareSpellScript", "d2/df5/a14264.html#adc96c1dbf0b561a72d26dca57d5bfcec", null ],
-    [ "Register", "d2/df5/a14264.html#a76942c06492a48ce16bb85cf55d1e58d", null ],
-    [ "Validate", "d2/df5/a14264.html#a727f7c6ab1a2b5635e0b8fbd071d863d", null ]
+    [ "HandleDummy", "d2/df5/a14264.html#a7e6ecd28a6b1f161619e179bc386388e", null ],
+    [ "PrepareSpellScript", "d2/df5/a14264.html#a87a787c6ab3804847c90266f570381c6", null ],
+    [ "Register", "d2/df5/a14264.html#ad5c7ab8f3bb74882eed42c6e0868ab70", null ]
 ];

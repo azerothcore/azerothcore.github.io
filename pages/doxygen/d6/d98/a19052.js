@@ -1,5 +1,6 @@
 var a19052 =
 [
-    [ "at_thaddius_entrance", "d6/d98/a19052.html#ad81a60cac337baad82ea526de1d151d1", null ],
-    [ "OnTrigger", "d6/d98/a19052.html#af8635a58d4da0421b72b4451c1ebafc5", null ]
+    [ "CheckTargetCount", "d6/d98/a19052.html#a35cd079dceb69cb597622b1570a38cb8", null ],
+    [ "PrepareSpellScript", "d6/d98/a19052.html#a47a889d9c3592fb2bf6131ad0068e419", null ],
+    [ "Register", "d6/d98/a19052.html#a59632b3387e7880885b8a8ca9dff7b85", null ]
 ];

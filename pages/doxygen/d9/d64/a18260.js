@@ -1,6 +1,6 @@
 var a18260 =
 [
-    [ "HandleScript", "d9/d64/a18260.html#a910663e3fb2534c0e3aefcfd0adfe2fb", null ],
-    [ "PrepareSpellScript", "d9/d64/a18260.html#a2c6acef52962f606130d643cbd93104b", null ],
-    [ "Register", "d9/d64/a18260.html#a03ed4f257c313ba33361c16f313fdfcc", null ]
+    [ "spell_igb_below_zero_SpellScript", "df/dfa/a18264.html", "df/dfa/a18264" ],
+    [ "spell_igb_below_zero", "d9/d64/a18260.html#a24c82d899c785ed3cf0ea99d54b07695", null ],
+    [ "GetSpellScript", "d9/d64/a18260.html#a199e409277534fb8d8facde6b83b8aa0", null ]
 ];

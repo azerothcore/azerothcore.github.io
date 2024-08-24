@@ -1,10 +1,8 @@
 var a24392 =
 [
-    [ "npc_pet_hunter_snake_trap", "d7/d76/a24392.html#aaf5df574c4ac53661c0bb1968f84c6ea", null ],
-    [ "EnterEvadeMode", "d7/d76/a24392.html#a819add0c7b968063403d10275fdc289f", null ],
-    [ "MoveInLineOfSight", "d7/d76/a24392.html#a32d5ed7f4d436f2678b34f4a1d572721", null ],
-    [ "Reset", "d7/d76/a24392.html#a831cf6eea8bd03247cd9877d3be6e1ee", null ],
-    [ "UpdateAI", "d7/d76/a24392.html#a41a37efe6d39c6d97b3dcc5fabbcc812", null ],
-    [ "_init", "d7/d76/a24392.html#a1b5c1301389749f82667c35f3daff847", null ],
-    [ "_spellTimer", "d7/d76/a24392.html#ab9397451e2e8320ca77560a19baeee3f", null ]
+    [ "spell_illidan_parasitic_shadowfiend_trigger_AuraScript", "d1/df1/a24396.html", "d1/df1/a24396" ],
+    [ "spell_illidan_parasitic_shadowfiend_trigger_SpellScript", "db/dc1/a24400.html", "db/dc1/a24400" ],
+    [ "spell_illidan_parasitic_shadowfiend_trigger", "d7/d76/a24392.html#a0e4a933cfd2cefd93984e1c774688a12", null ],
+    [ "GetAuraScript", "d7/d76/a24392.html#a46fec7cd67a6b547bc94590ab7ec3979", null ],
+    [ "GetSpellScript", "d7/d76/a24392.html#a8635bc8975e80f24a40eab3da9868e34", null ]
 ];

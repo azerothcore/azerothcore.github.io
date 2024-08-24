@@ -1,6 +1,6 @@
 var a22184 =
 [
-    [ "HandleScript", "d6/d9d/a22184.html#acb343eafcfddf6fedcdef26c9b86e0ec", null ],
-    [ "PrepareSpellScript", "d6/d9d/a22184.html#a5a4ce9453638d61fe52514240f0a9384", null ],
-    [ "Register", "d6/d9d/a22184.html#a889f931aaa37d3a283f4d585b384a68e", null ]
+    [ "boss_yoggsaron_keeperAI", "de/db8/a22188.html", "de/db8/a22188" ],
+    [ "boss_yoggsaron_keeper", "d6/d9d/a22184.html#a30b6bb73b31eca2977685c84c635db5b", null ],
+    [ "GetAI", "d6/d9d/a22184.html#afc39831d2a063ec6e7f6b20a6c998e69", null ]
 ];

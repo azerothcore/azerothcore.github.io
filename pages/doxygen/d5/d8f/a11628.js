@@ -1,6 +1,7 @@
 var a11628 =
 [
-    [ "boss_high_priestess_thaurissanAI", "d5/d8f/a11628.html#acbc89b59865a5fda5a4143dd8c690b37", null ],
-    [ "JustEngagedWith", "d5/d8f/a11628.html#a6602682950aab4e9932bf6cdfac9886b", null ],
-    [ "UpdateAI", "d5/d8f/a11628.html#a216a5bc7a38aa5e13f9d025f44e04779", null ]
+    [ "boss_ebonrocAI", "d5/d8f/a11628.html#a73be20fda4e3f8cb7623796f3c32d741", null ],
+    [ "JustEngagedWith", "d5/d8f/a11628.html#a2c74e0030b1093d79245978939043d53", null ],
+    [ "MovementInform", "d5/d8f/a11628.html#ac1e16bb5ac18b55fbfb8af5078df270f", null ],
+    [ "UpdateAI", "d5/d8f/a11628.html#aa2059c3834fbcfda3c8da5743bd2501f", null ]
 ];

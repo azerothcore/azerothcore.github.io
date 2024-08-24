@@ -1,7 +1,6 @@
 var a12808 =
 [
-    [ "npc_apothecary_genericAI", "d7/da3/a12808.html#afb2b04b51e28d0795e7781effa68dffd", null ],
-    [ "DoAction", "d7/da3/a12808.html#a59074beefbd3d80104b64f8ecc2ef8e0", null ],
-    [ "MovementInform", "d7/da3/a12808.html#a63530bd7c3ebcd66521a268e11bf2f93", null ],
-    [ "_movePos", "d7/da3/a12808.html#a53d10ab64df212b043cc21e054f6528c", null ]
+    [ "instance_stratholme_InstanceMapScript", "de/d9d/a12812.html", "de/d9d/a12812" ],
+    [ "instance_stratholme", "d7/da3/a12808.html#a42ac504b2790af8c37a44e87fbd9c6c1", null ],
+    [ "GetInstanceScript", "d7/da3/a12808.html#a3d3d2e773029dd1c4bc1a59a94c4e015", null ]
 ];

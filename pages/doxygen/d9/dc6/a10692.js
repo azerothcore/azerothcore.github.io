@@ -1,6 +1,6 @@
 var a10692 =
 [
-    [ "WorldSession", "d9/dc6/a10692.html#a65b5c30bf4f5f118a199e378d903aaf6", null ],
-    [ "Guid", "d9/dc6/a10692.html#a46a89b6904e59f39f4e1460a9bb45765", null ],
-    [ "Name", "d9/dc6/a10692.html#a4e747a555bde74f97a5fc78287e5e29d", null ]
+    [ "DestinationTargetSelectHandler", "d9/dc6/a10692.html#ab5ffcc89b7232afddd6bc47e7c347b79", null ],
+    [ "Call", "d9/dc6/a10692.html#a81ae2eb856507ee22308ae2739854382", null ],
+    [ "DestinationTargetSelectHandlerScript", "d9/dc6/a10692.html#a95e882b892a79b464a521a8367b2e9b7", null ]
 ];

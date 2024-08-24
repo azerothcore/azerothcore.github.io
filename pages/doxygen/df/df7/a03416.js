@@ -1,9 +1,9 @@
 var a03416 =
 [
-    [ "boss_elder_nadox", "db/d4e/a15628.html", "db/d4e/a15628" ],
-    [ "npc_ahnkahar_nerubian", "d3/d99/a15632.html", "d3/d99/a15632" ],
-    [ "spell_ahn_kahet_swarmer_aura", "dc/ddc/a15636.html", "dc/ddc/a15636" ],
-    [ "achievement_respect_your_elders", "d4/d9b/a15640.html", "d4/d9b/a15640" ],
+    [ "boss_elder_nadox", "d6/d01/a15631.html", "d6/d01/a15631" ],
+    [ "npc_ahnkahar_nerubian", "de/dd4/a15635.html", "de/dd4/a15635" ],
+    [ "spell_ahn_kahet_swarmer_aura", "d3/daf/a15639.html", "d3/daf/a15639" ],
+    [ "achievement_respect_your_elders", "de/da9/a15643.html", "de/da9/a15643" ],
     [ "Creatures", "df/df7/a03416.html#a25a619e6b66096a4f05d048e4a96df08", [
       [ "NPC_NORTH_MARSHAL", "d4/d61/a02588.html#a25a619e6b66096a4f05d048e4a96df08abeb6d3b1ff8238f7c57911ab8acde69e", null ],
       [ "NPC_SOUTH_MARSHAL", "d4/d61/a02588.html#a25a619e6b66096a4f05d048e4a96df08a9a3360dc10641daabdef8158f42ee00e", null ],

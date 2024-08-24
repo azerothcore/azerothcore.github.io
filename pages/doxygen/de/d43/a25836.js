@@ -1,6 +1,6 @@
 var a25836 =
 [
-    [ "HandleOpenObject", "de/d43/a25836.html#ab658c13615fac1861470bb4b853e76a4", null ],
-    [ "PrepareSpellScript", "de/d43/a25836.html#a0fd0a3dc06fc2140add9e3d86e544bef", null ],
-    [ "Register", "de/d43/a25836.html#a40ff1e10d366ca7183e4e8d027c92d1b", null ]
+    [ "lapseTeleport", "de/d43/a25836.html#a55c4330397214bf3a43628b3067d4634", null ],
+    [ "Execute", "de/d43/a25836.html#a122023ed13fce2f5bb3721e459964443", null ],
+    [ "_owner", "de/d43/a25836.html#a0e678c5cdb862390ea50c8d6057b7093", null ]
 ];

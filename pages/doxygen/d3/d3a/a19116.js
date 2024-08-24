@@ -1,6 +1,6 @@
 var a19116 =
 [
-    [ "npc_hover_diskAI", "d0/d15/a19120.html", "d0/d15/a19120" ],
-    [ "npc_hover_disk", "d3/d3a/a19116.html#af0ab534387a2af4e168915801ee855e5", null ],
-    [ "GetAI", "d3/d3a/a19116.html#adbe9285126089ca998e9b6360f42c553", null ]
+    [ "spell_the_lich_king_summon_into_air_SpellScript", "d0/d15/a19120.html", "d0/d15/a19120" ],
+    [ "spell_the_lich_king_summon_into_air", "d3/d3a/a19116.html#ad96d5ad15f8bfbd7bf1904ac8e39b2aa", null ],
+    [ "GetSpellScript", "d3/d3a/a19116.html#a49b434c50bad96c2475b11bfdf4d9d6a", null ]
 ];

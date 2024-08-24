@@ -1,6 +1,6 @@
 var a19556 =
 [
-    [ "instance_halls_of_stone_InstanceMapScript", "d2/db3/a19560.html", "d2/db3/a19560" ],
-    [ "instance_halls_of_stone", "d0/dce/a19556.html#ad0237cfaf2e48036f45181fd7746df2b", null ],
-    [ "GetInstanceScript", "d0/dce/a19556.html#a784906c7710a216016101cf7a6a915f3", null ]
+    [ "npc_captain_rupertAI", "d2/db3/a19560.html", "d2/db3/a19560" ],
+    [ "npc_captain_rupert", "d0/dce/a19556.html#a7a4535a6b784b460c79722e9a50c3ff6", null ],
+    [ "GetAI", "d0/dce/a19556.html#a20afc31fc1a8bb09692ab0cc47af3c1b", null ]
 ];

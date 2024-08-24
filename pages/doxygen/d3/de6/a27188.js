@@ -1,6 +1,6 @@
 var a27188 =
 [
-    [ "go_midsummer_musicAI", "df/de2/a27192.html", "df/de2/a27192" ],
-    [ "go_midsummer_music", "d3/de6/a27188.html#a39c38fc78b47b16be9eebee0ccd5041d", null ],
-    [ "GetAI", "d3/de6/a27188.html#a1baf09bdbf67c0a85219454c1cd61d2b", null ]
+    [ "CalculateAmount", "d3/de6/a27188.html#a66b009487462241e573ea23f081a140a", null ],
+    [ "PrepareAuraScript", "d3/de6/a27188.html#a0eee16c77a3c3cea882b67c78826a140", null ],
+    [ "Register", "d3/de6/a27188.html#afeafc6922b0a0389fec969e3c7191dda", null ]
 ];

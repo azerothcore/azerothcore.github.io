@@ -1,8 +1,6 @@
 var a11572 =
 [
-    [ "boss_evisceratorAI", "d8/dff/a11572.html#a26bfcd3390e987a9fe13dd1a2bc2a7a4", null ],
-    [ "DamageTaken", "d8/dff/a11572.html#aab3e8290963ca6c312715f18727d3e82", null ],
-    [ "JustEngagedWith", "d8/dff/a11572.html#a60f3942b352206888569f60776041a28", null ],
-    [ "UpdateAI", "d8/dff/a11572.html#aa201d35455f2e6eb41df27e264c2c03c", null ],
-    [ "SpellShieldReady", "d8/dff/a11572.html#a3e5d8a40bfca16cc811f35b1293c19aa", null ]
+    [ "npc_vaelastrasz_the_redAI", "d5/d6b/a11576.html", "d5/d6b/a11576" ],
+    [ "npc_vaelastrasz_the_red", "d8/dff/a11572.html#af39fcaa29b200e3b7933f97de277df6b", null ],
+    [ "GetAI", "d8/dff/a11572.html#a59e7630d5060986dc4209d2d2b5ef42b", null ]
 ];

@@ -1,6 +1,6 @@
 var a13100 =
 [
-    [ "FixOrientation", "d0/d96/a13100.html#ac4a9654d37a73f9d5ddc73ff90ce145b", null ],
-    [ "Execute", "d0/d96/a13100.html#a7af72679731c9b86b9ae36d19d1621e5", null ],
-    [ "_owner", "d0/d96/a13100.html#a5f12db3774bdeef25a300780c00db1fb", null ]
+    [ "spell_kiljaeden_sinister_reflection_SpellScript", "db/df8/a13104.html", "db/df8/a13104" ],
+    [ "spell_kiljaeden_sinister_reflection", "d0/d96/a13100.html#add2c39e4d97c1b3800046f531ac1bc36", null ],
+    [ "GetSpellScript", "d0/d96/a13100.html#a8c905cc881ae70a7f73cead442118854", null ]
 ];

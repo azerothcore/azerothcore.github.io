@@ -1,7 +1,13 @@
 var a09636 =
 [
-    [ "Finalize", "d6/d5d/a09636.html#a90c8b42ef67968bf58acae5678dc7496", null ],
-    [ "Initialize", "d6/d5d/a09636.html#ad6b97c3e2884dfbe3f17e2579b31ac66", null ],
-    [ "Reset", "d6/d5d/a09636.html#a6db99ea9863dc60d032bacda37afa078", null ],
-    [ "Update", "d6/d5d/a09636.html#af044c8725ef11e8a152987225521ef8b", null ]
+    [ "FormulaScript", "d6/d5d/a09636.html#a129b3c2e4ad4423e006e3c94fb05d4c3", null ],
+    [ "OnAfterArenaRatingCalculation", "d6/d5d/a09636.html#aa3510b1cfb4661cf6028e1b9f443c865", null ],
+    [ "OnBaseGainCalculation", "d6/d5d/a09636.html#ab154eaf469d5fe3e86c364940816270a", null ],
+    [ "OnBeforeUpdatingPersonalRating", "d6/d5d/a09636.html#a2208a5684c95b936aa9ca1ae863d9682", null ],
+    [ "OnColorCodeCalculation", "d6/d5d/a09636.html#a83893099062d1fb7ce69fe38bf8c4699", null ],
+    [ "OnGainCalculation", "d6/d5d/a09636.html#aa83fab65cc89bd03021da2805e935ffb", null ],
+    [ "OnGrayLevelCalculation", "d6/d5d/a09636.html#affeb57234f961b9e01f5898c7738f38f", null ],
+    [ "OnGroupRateCalculation", "d6/d5d/a09636.html#a1098d29595b4f9206cccf3c3c1dad5f3", null ],
+    [ "OnHonorCalculation", "d6/d5d/a09636.html#a54a5e523ad5a9d3eb2dd061ced2d209f", null ],
+    [ "OnZeroDifferenceCalculation", "d6/d5d/a09636.html#a7755c35bc56e6645e36de08c12a4847d", null ]
 ];

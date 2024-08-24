@@ -1,9 +1,9 @@
 var a02534 =
 [
-    [ "NpcFlagText", "de/d08/a11380.html", "de/d08/a11380" ],
-    [ "MechanicImmune", "df/dc6/a11384.html", "df/dc6/a11384" ],
-    [ "SpellSchoolImmune", "da/d88/a11388.html", "da/d88/a11388" ],
-    [ "npc_commandscript", "d4/dc2/a11392.html", "d4/dc2/a11392" ],
+    [ "NpcFlagText", "d8/d69/a11383.html", "d8/d69/a11383" ],
+    [ "MechanicImmune", "d1/d5b/a11387.html", "d1/d5b/a11387" ],
+    [ "SpellSchoolImmune", "d4/d87/a11391.html", "d4/d87/a11391" ],
+    [ "npc_commandscript", "d5/d26/a11395.html", "d5/d26/a11395" ],
     [ "NPCFLAG_COUNT", "db/df5/a02534.html#afc1ed6083684621f30fbabb23d2986c0", null ],
     [ "CreatureEntry", "db/df5/a02534.html#a220449830f7fe293c9d82dcd3b84acd9", null ],
     [ "CreatureSpawnId", "db/df5/a02534.html#a5e5fd5f7a85fd4ad7fe92f2125f17acc", null ],

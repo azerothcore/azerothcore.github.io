@@ -1,7 +1,6 @@
 var a28120 =
 [
-    [ "ID", "dc/d65/a28120.html#a3af48dd3f6b92ad7f5950d99ca6dd379", null ],
-    [ "Index", "dc/d65/a28120.html#aa58e046529aae0d1d6201c08ec8107e2", null ],
-    [ "Skill", "dc/d65/a28120.html#aed5e58cf605d3c28cd0d26015722be03", null ],
-    [ "Type", "dc/d65/a28120.html#a39b0b548efd795c162926bddcdd301b5", null ]
+    [ "HandleDummy", "dc/d65/a28120.html#a1e9ecf50304f5ccd8578befea898bf81", null ],
+    [ "PrepareSpellScript", "dc/d65/a28120.html#a9cf7d1dd37f6df4651ffc83e6aa0b1c0", null ],
+    [ "Register", "dc/d65/a28120.html#a98a5ad12cdb54f48d6014fda3915fd70", null ]
 ];

@@ -1,7 +1,5 @@
 var a14076 =
 [
-    [ "go_direbrew_mole_machineAI", "d7/d77/a14076.html#a4e667ad9e572e93c045ae01f63bea648", null ],
-    [ "Reset", "d7/d77/a14076.html#a32dd801b5d898fd8634edcb6cae52bdf", null ],
-    [ "UpdateAI", "d7/d77/a14076.html#a2eaa8a0ad0907e4aa497a7e1c3a31b29", null ],
-    [ "_scheduler", "d7/d77/a14076.html#a5960ff83f21cf5964f422e3a7b297f22", null ]
+    [ "go_brazier_of_madness", "d7/d77/a14076.html#aeb900e575be02244e62c6e5e4153c855", null ],
+    [ "GossipHello", "d7/d77/a14076.html#aba3af326b01cd045523434aec189fd47", null ]
 ];

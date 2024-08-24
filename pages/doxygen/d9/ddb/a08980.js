@@ -1,10 +1,9 @@
 var a08980 =
 [
-    [ "MostHPPercentMissingInRange", "d9/ddb/a08980.html#aaef0deb21e2470b45cafc22a8c4d18a5", null ],
-    [ "operator()", "d9/ddb/a08980.html#ab1734490a3db95ad715756e85ecfaf77", null ],
-    [ "i_hpPct", "d9/ddb/a08980.html#a41a3b1c4d1f27a2d727e7a18e2e30a7d", null ],
-    [ "i_maxHpPct", "d9/ddb/a08980.html#afd12795ef0cd99e05e4e21f869582416", null ],
-    [ "i_minHpPct", "d9/ddb/a08980.html#a11c197d3eea1a8ded0b20f707e6ed5d0", null ],
-    [ "i_obj", "d9/ddb/a08980.html#a724cf058a6bcf02864a49bb288e32ce6", null ],
-    [ "i_range", "d9/ddb/a08980.html#a021acff6bdb6aef9ab24c19d8798884f", null ]
+    [ "EmoteChatBuilder", "d9/ddb/a08980.html#ae1aeb36aad24d5ef28074edfbf2f9e7e", null ],
+    [ "operator()", "d9/ddb/a08980.html#a133a7bb35e86cf40425910c4f19a3337", null ],
+    [ "i_emote_num", "d9/ddb/a08980.html#a966b8afcbf5afca3a3466d8e075a9437", null ],
+    [ "i_player", "d9/ddb/a08980.html#ae09dbfe01b2a24e57b63b2b1df5ad232", null ],
+    [ "i_target", "d9/ddb/a08980.html#abc538e056d91ea1ee8d6203c96174b1d", null ],
+    [ "i_text_emote", "d9/ddb/a08980.html#add0630dc3fc76fb4fdb79095e13b2fc0", null ]
 ];

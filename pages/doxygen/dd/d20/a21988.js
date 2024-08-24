@@ -1,7 +1,6 @@
 var a21988 =
 [
-    [ "npc_battle_at_valhalasAI", "d7/dad/a21992.html", "d7/dad/a21992" ],
-    [ "npc_battle_at_valhalas", "dd/d20/a21988.html#aacec717b5b91ae55307c9642779c15ec", null ],
-    [ "GetAI", "dd/d20/a21988.html#a3660ba847b3b40c2d358d63c63517a5e", null ],
-    [ "OnQuestAccept", "dd/d20/a21988.html#addd76fd9f4b4f8ce706693614b80966b", null ]
+    [ "OnPeriodic", "dd/d20/a21988.html#a644a6795189f2c7de6229f1f80a0f50b", null ],
+    [ "PrepareAuraScript", "dd/d20/a21988.html#a267127801385dd43239256a94badf9b3", null ],
+    [ "Register", "dd/d20/a21988.html#a581f74bc8639206a060bce55bea3dac0", null ]
 ];

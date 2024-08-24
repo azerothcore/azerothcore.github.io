@@ -1,9 +1,10 @@
 var a10772 =
 [
-    [ "SpellEvent", "d7/d0e/a10772.html#abca64eb7d39df9788cef9df7e8634368", null ],
-    [ "~SpellEvent", "d7/d0e/a10772.html#a01f8ea354ef70d0a2ee7b88b8dd9f68e", null ],
-    [ "Abort", "d7/d0e/a10772.html#ac21656467ae71def45fd78b9d1fa1c30", null ],
-    [ "Execute", "d7/d0e/a10772.html#ac8158bfbe916ff6207b2f6608308ae24", null ],
-    [ "IsDeletable", "d7/d0e/a10772.html#a2ecd9b31bacc717cc509eb9bb69c3cb3", null ],
-    [ "m_Spell", "d7/d0e/a10772.html#a22cce1d722f5086932ae3e97c58d2921", null ]
+    [ "CustomChatTextBuilder", "d7/d0e/a10772.html#a47b3e24f7100d13180ad1946647999ae", null ],
+    [ "operator()", "d7/d0e/a10772.html#ad80555f063e7de15df3c434bc90d2ca9", null ],
+    [ "_language", "d7/d0e/a10772.html#a92d1c58d76d5d450892338d0e1856dc0", null ],
+    [ "_msgType", "d7/d0e/a10772.html#a0db1501da33fde77ab3c50943666b1fd", null ],
+    [ "_source", "d7/d0e/a10772.html#ad75f22d7eb6a62d59730918f4336768c", null ],
+    [ "_target", "d7/d0e/a10772.html#aa45be322836be588d8df2b253a22ee5c", null ],
+    [ "_text", "d7/d0e/a10772.html#ab59c9b938b564329483e38466169a92c", null ]
 ];

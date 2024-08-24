@@ -1,6 +1,6 @@
 var a11568 =
 [
-    [ "boss_evisceratorAI", "d8/dff/a11572.html", "d8/dff/a11572" ],
-    [ "boss_eviscerator", "df/d3e/a11568.html#aca65400afa5ca9ca81043687d79cdad0", null ],
-    [ "GetAI", "df/d3e/a11568.html#a21203f69267ec93c46d9ff56321b8169", null ]
+    [ "OnEffect", "df/d3e/a11568.html#a1b5999f392cec9fea4431c3f746ee034", null ],
+    [ "PrepareSpellScript", "df/d3e/a11568.html#a4748a82fcc7b3794850461092ee6b2e4", null ],
+    [ "Register", "df/d3e/a11568.html#acfa32dfc22778576d0dd3096c456ebe0", null ]
 ];

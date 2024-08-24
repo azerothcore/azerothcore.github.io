@@ -1,6 +1,6 @@
 var a26820 =
 [
-    [ "HandleRemove", "d9/dbd/a26820.html#a0ac8fe6a39ae00e50f219bf02c26f1a4", null ],
-    [ "PrepareAuraScript", "d9/dbd/a26820.html#a0517fe77f15e1b9cf6153ed2aaf9cee8", null ],
-    [ "Register", "d9/dbd/a26820.html#ac968ede75fd5d98ba9a10dc9f6bdbb85", null ]
+    [ "HandleEffectCalcSpellMod", "d9/dbd/a26820.html#aaf21dafa72b58245f548ed946a49659d", null ],
+    [ "PrepareAuraScript", "d9/dbd/a26820.html#ac05d3ae466ad64ac590f399827aac0c9", null ],
+    [ "Register", "d9/dbd/a26820.html#a46a643985647d8a8e033b637b31214a5", null ]
 ];

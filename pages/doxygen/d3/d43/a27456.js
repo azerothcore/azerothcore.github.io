@@ -1,6 +1,9 @@
 var a27456 =
 [
-    [ "npc_air_force_botsAI", "d7/db3/a27460.html", "d7/db3/a27460" ],
-    [ "npc_air_force_bots", "d3/d43/a27456.html#a00b8f274bde3260a113ea21e0f68cdf8", null ],
-    [ "GetAI", "d3/d43/a27456.html#ae971e34d61b0f960d8f5940f9015523d", null ]
+    [ "CheckProc", "d3/d43/a27456.html#a073ed3648f5fd15db73d1620ba7031e3", null ],
+    [ "HandleProc", "d3/d43/a27456.html#a5345da73b9c4c9fe4ae5d272e3574955", null ],
+    [ "OnRemove", "d3/d43/a27456.html#a27b1b744d88b4c870c0baa0b8f88317f", null ],
+    [ "PrepareAuraScript", "d3/d43/a27456.html#a2e13f63459342fb749594f7fbb517c80", null ],
+    [ "Register", "d3/d43/a27456.html#a6fc9a3945a736ba4a62ad754090d8525", null ],
+    [ "Validate", "d3/d43/a27456.html#a008ec43da50deb568ec453e992f89887", null ]
 ];

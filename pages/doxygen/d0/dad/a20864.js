@@ -1,6 +1,6 @@
 var a20864 =
 [
-    [ "OnEffect", "d0/dad/a20864.html#aa24cfd6feec65f466e74c68484815c1e", null ],
-    [ "PrepareSpellScript", "d0/dad/a20864.html#a648fb610fb1914efac7f2cb6e1bb4290", null ],
-    [ "Register", "d0/dad/a20864.html#ac1c0076665edc6a2b3a0228340020a1e", null ]
+    [ "spell_algalon_cosmic_smash_damage_SpellScript", "dc/d62/a20868.html", "dc/d62/a20868" ],
+    [ "spell_algalon_cosmic_smash_damage", "d0/dad/a20864.html#aec1c2cc1cc142ae55e0ba24434821039", null ],
+    [ "GetSpellScript", "d0/dad/a20864.html#ac7cc4e2dacc6dc0309ab430c17269fa7", null ]
 ];

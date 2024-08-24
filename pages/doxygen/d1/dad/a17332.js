@@ -1,7 +1,8 @@
 var a17332 =
 [
-    [ "FilterTargets", "d1/dad/a17332.html#aeae290d20ade37eb839c1bf3c9ae59bf", null ],
-    [ "Load", "d1/dad/a17332.html#a38bf6d96c6a78e5105d0369eb993e58c", null ],
-    [ "PrepareSpellScript", "d1/dad/a17332.html#a815c99e9ef570287af5d45c32bdc5b8c", null ],
-    [ "Register", "d1/dad/a17332.html#a33342cc676adaabe5e3896fa559631b7", null ]
+    [ "boss_krickAI", "d1/dad/a17332.html#ac085bae551fd4d9e48b05481a86cca9f", null ],
+    [ "DoAction", "d1/dad/a17332.html#ace248881cb71c1e91f33ff93489b6f3f", null ],
+    [ "UpdateAI", "d1/dad/a17332.html#aea8dd89c8e4de1bebd94a26ead852119", null ],
+    [ "events", "d1/dad/a17332.html#a75349e2fc35832e7944fa4f772380baa", null ],
+    [ "pInstance", "d1/dad/a17332.html#aecc2cdee32c4e4fa14ecaeca9b3eb65f", null ]
 ];

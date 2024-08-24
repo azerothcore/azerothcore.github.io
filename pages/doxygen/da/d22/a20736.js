@@ -1,8 +1,8 @@
 var a20736 =
 [
-    [ "boss_yoggsaron_crusher_tentacleAI", "da/d22/a20736.html#a63d63a0b981c278fcfadfdda1feb5a12", null ],
-    [ "DamageTaken", "da/d22/a20736.html#ac2458922b2530929ee1adbcc0da834a0", null ],
-    [ "DoAction", "da/d22/a20736.html#abcc42381f37256e5c5ab2a42f8ef2c29", null ],
-    [ "Reset", "da/d22/a20736.html#af33db4e2ce1bb85e38437db6ca7982f7", null ],
-    [ "UpdateAI", "da/d22/a20736.html#a8329bc78fc037655d48cb9bf0abd8447", null ]
+    [ "brann_bronzebeardAI", "d0/d65/a20740.html", "d0/d65/a20740" ],
+    [ "brann_bronzebeard", "da/d22/a20736.html#a66fd8785647896a1a5f7be041242cfd6", null ],
+    [ "GetAI", "da/d22/a20736.html#a66d4ae2f243f7869106c2372b3e7166c", null ],
+    [ "OnGossipHello", "da/d22/a20736.html#a2714a2dde596db76706b8a86f97f82b8", null ],
+    [ "OnGossipSelect", "da/d22/a20736.html#a0e0068a45012e50a9f645d393bdfe163", null ]
 ];

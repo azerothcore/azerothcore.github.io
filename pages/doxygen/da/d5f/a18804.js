@@ -1,8 +1,6 @@
 var a18804 =
 [
-    [ "HandleScript", "da/d5f/a18804.html#ae0d16607f9eb3ff233513233bfb573ea", null ],
-    [ "HandleScript2", "da/d5f/a18804.html#a3ff7d46323da70df6ad11ddfcaf6cfbb", null ],
-    [ "Load", "da/d5f/a18804.html#ad41decc0a264104ca2232aef4e71cdaf", null ],
-    [ "PrepareSpellScript", "da/d5f/a18804.html#a2d1dbae570206b358878020879708000", null ],
-    [ "Register", "da/d5f/a18804.html#a7cf32445caa09f2a2b3c52f68f315ba5", null ]
+    [ "FilterTargets", "da/d5f/a18804.html#ad044eb9e63eb147e5ea64408a611489e", null ],
+    [ "PrepareSpellScript", "da/d5f/a18804.html#addf06ce8b29374b925985e0656c8d73a", null ],
+    [ "Register", "da/d5f/a18804.html#ae8351cd6f679b9ca7ee763ceebef5f7e", null ]
 ];

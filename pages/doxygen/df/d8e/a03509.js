@@ -1,6 +1,6 @@
 var a03509 =
 [
-    [ "npc_announcer_toc10", "d9/d59/a16504.html", "d9/d59/a16504" ],
+    [ "npc_announcer_toc10", "d3/deb/a16507.html", "d3/deb/a16507" ],
     [ "MenuTexts", "df/d8e/a03509.html#a5e87c460d493df2d4629af8c1a30fc5a", [
       [ "MSG_TESTED", "df/d8e/a03509.html#a5e87c460d493df2d4629af8c1a30fc5aa462de44eca88c95eb9e412dcabc36185", null ],
       [ "MSG_NEXT_STAGE", "df/d8e/a03509.html#a5e87c460d493df2d4629af8c1a30fc5aafb4b982343fbe7bdd8db85adec53db80", null ],

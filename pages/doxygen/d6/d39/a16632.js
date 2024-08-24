@@ -1,7 +1,6 @@
 var a16632 =
 [
-    [ "HandlePeriodicTick", "d6/d39/a16632.html#a7fa0334a0a33b15758b6362aa0a9bd7d", null ],
-    [ "PrepareAuraScript", "d6/d39/a16632.html#aabaef31a3c699c322e24e064f357f82f", null ],
-    [ "Register", "d6/d39/a16632.html#ae9602bc623422c124dfc37a18c0dbfec", null ],
-    [ "Validate", "d6/d39/a16632.html#a18d92a82760992bc5d8503e3f774f208", null ]
+    [ "npc_toc_warlockAI", "da/d4d/a16636.html", "da/d4d/a16636" ],
+    [ "npc_toc_warlock", "d6/d39/a16632.html#a75ac1d6f6835860fed8a9197fa1cf3c2", null ],
+    [ "GetAI", "d6/d39/a16632.html#ad3162c9414be83d53d9513c7aa6b75d7", null ]
 ];

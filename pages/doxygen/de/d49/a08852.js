@@ -1,9 +1,8 @@
 var a08852 =
 [
-    [ "ObjectUpdater", "de/d49/a08852.html#ad907a266bcf4c059a49195eae4758541", null ],
-    [ "Visit", "de/d49/a08852.html#a7dc639f90a38e6156a436ef6ff1204ec", null ],
-    [ "Visit", "de/d49/a08852.html#a2ca08c1a3f3f23111bffbd423ca47b1c", null ],
-    [ "Visit", "de/d49/a08852.html#a283b656ac784e64b98929eca83326027", null ],
-    [ "i_largeOnly", "de/d49/a08852.html#a8f3e4ed206f6793edf9bf358d1bdf2c2", null ],
-    [ "i_timeDiff", "de/d49/a08852.html#a4f1acae57c44d33449a8f040b02fa5e4", null ]
+    [ "AllWorldObjectsInExactRange", "de/d49/a08852.html#a0281d22587b9b1bdbfbdd8dccc625186", null ],
+    [ "operator()", "de/d49/a08852.html#afe0bea69ddd5e275363361bf37284840", null ],
+    [ "_equals", "de/d49/a08852.html#aebb4cb9e84cf91cca235fe663dba8d60", null ],
+    [ "_object", "de/d49/a08852.html#a5fba0e3c7cde76bfe56f8e9e9716412b", null ],
+    [ "_range", "de/d49/a08852.html#ae40de8ce49bb429243e5059b6d14398f", null ]
 ];

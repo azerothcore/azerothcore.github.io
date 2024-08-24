@@ -1,7 +1,6 @@
 var a09468 =
 [
-    [ "flags", "d4/dbf/a09468.html#a2faab5766bd3cbc09ed4e541be7e7f94", null ],
-    [ "fourcc", "d4/dbf/a09468.html#a93b48dd741d13ff036eac8a77df9f916", null ],
-    [ "gridHeight", "d4/dbf/a09468.html#a3fbdc02ff4769b6f2eacbdc02ba4d370", null ],
-    [ "gridMaxHeight", "d4/dbf/a09468.html#a1146dfae7dc4f89dddc94cda5deb7a4c", null ]
+    [ "FallInitializer", "d4/dbf/a09468.html#a618345df62b821d286caadc7179b7d83", null ],
+    [ "operator()", "d4/dbf/a09468.html#a7a9b294b6820e229cd95f4fc9bde825b", null ],
+    [ "start_elevation", "d4/dbf/a09468.html#ab94604fb6eee50832001908c12044130", null ]
 ];

@@ -1,6 +1,6 @@
 var a10604 =
 [
-    [ "WorldStateInfo", "d0/de4/a10604.html#a64fd2e4da7035ea6c01b8ab0819d2f86", null ],
-    [ "Value", "d0/de4/a10604.html#afe5a0e98713c986a17f431795c488c6c", null ],
-    [ "VariableID", "d0/de4/a10604.html#a627bba237bce23aff74fd2bf7a274657", null ]
+    [ "apPctMod", "d0/de4/a10604.html#a35f5f8f7a3ac33768299913fecc1cf8d", null ],
+    [ "flatMod", "d0/de4/a10604.html#a0d66e48d986f246e6aea08dd00837158", null ],
+    [ "pctMod", "d0/de4/a10604.html#af13802a7f6872cfce3a1d14655f30287", null ]
 ];

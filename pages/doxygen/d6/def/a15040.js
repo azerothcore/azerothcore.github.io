@@ -1,6 +1,6 @@
 var a15040 =
 [
-    [ "instance_temple_of_ahnqiraj_InstanceMapScript", "d0/ded/a15044.html", "d0/ded/a15044" ],
-    [ "instance_temple_of_ahnqiraj", "d6/def/a15040.html#a316c5e2cac59f2ee2520fba1b97407e3", null ],
-    [ "GetInstanceScript", "d6/def/a15040.html#a9e3060d9f2188f410da8aa3e9526e79d", null ]
+    [ "FilterTargets", "d6/def/a15040.html#ac4f353ac54e7a461d5411fd8eae33cc1", null ],
+    [ "PrepareSpellScript", "d6/def/a15040.html#a8cb8041b71dd3175b627fe7ec5b2c2f3", null ],
+    [ "Register", "d6/def/a15040.html#a07d56d19b95c8d24f6908815e4ceb13f", null ]
 ];

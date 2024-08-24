@@ -1,6 +1,6 @@
 var a17184 =
 [
-    [ "AddExtraDamage", "d9/d06/a17184.html#adeedfdd7555dfd009c99db6f002f7488", null ],
-    [ "PrepareSpellScript", "d9/d06/a17184.html#a5d5c32f102c525f6c25d12281a58f5f4", null ],
-    [ "Register", "d9/d06/a17184.html#affe1d9a5e9c4776d1651fdb95283caf4", null ]
+    [ "npc_phantom_hallucinationAI", "dc/ddd/a17188.html", "dc/ddd/a17188" ],
+    [ "npc_phantom_hallucination", "d9/d06/a17184.html#a685889c090152a2562ee9adef7efbf71", null ],
+    [ "GetAI", "d9/d06/a17184.html#a771ee338f87ca0a2e9a7d02d1322c5d5", null ]
 ];

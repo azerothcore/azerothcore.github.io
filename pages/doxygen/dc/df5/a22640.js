@@ -1,11 +1,13 @@
 var a22640 =
 [
-    [ "boss_murmur", "dc/df5/a22640.html#ad89ea433764c3017a3d33b37eb9e5602", null ],
-    [ "CanAIAttack", "dc/df5/a22640.html#a6b89c95747c0a37c0b37527cd360e524", null ],
-    [ "CastSupressionOOC", "dc/df5/a22640.html#a2b278a58870e9ad290177854fc011f76", null ],
-    [ "EnterEvadeMode", "dc/df5/a22640.html#aa0f549c83a92302ece2323c75dd29acc", null ],
-    [ "JustEngagedWith", "dc/df5/a22640.html#a3d872beeee7bf6ecd0c4aeaa3f8c603d", null ],
-    [ "Reset", "dc/df5/a22640.html#a1f40ead1b2269b97c69bd4db808d6bae", null ],
-    [ "SetGUID", "dc/df5/a22640.html#a88e18fd646a807ee92f1b24b43d500a6", null ],
-    [ "ShouldCastResonance", "dc/df5/a22640.html#ade07217a85655a513d7a472d24589691", null ]
+    [ "MoveX", "dc/df5/a22640.html#aaae6e8ea168850a934b887ec006d7d8b", null ],
+    [ "MoveY", "dc/df5/a22640.html#a62cd7f778cea049a1a6a4c34d21545a7", null ],
+    [ "MoveZ", "dc/df5/a22640.html#a80b842f55108fec58fe04cf02e8e0b35", null ],
+    [ "npc", "dc/df5/a22640.html#a4bdccc14156f7e5822c9a8eefc29adaa", null ],
+    [ "say", "dc/df5/a22640.html#adcd8647fc0ee9799e24173780209f2d9", null ],
+    [ "SpawnO", "dc/df5/a22640.html#a3b6b89143c8a875cda01b000cea6a7c7", null ],
+    [ "SpawnX", "dc/df5/a22640.html#af3ae27adaecafe9a09802bc202973d68", null ],
+    [ "SpawnY", "dc/df5/a22640.html#a749e9c6edcc87f258f250344d652145c", null ],
+    [ "SpawnZ", "dc/df5/a22640.html#a06a0f8e5a7d63204d57992dc9623f83b", null ],
+    [ "trigger", "dc/df5/a22640.html#ad2291d89a874c79859b3140754594ed7", null ]
 ];

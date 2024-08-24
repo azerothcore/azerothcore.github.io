@@ -1,8 +1,8 @@
 var a13692 =
 [
-    [ "entry", "d9/d9a/a13692.html#ad7431eb64907aed0a03205a37c65a735", null ],
-    [ "orient", "d9/d9a/a13692.html#ab54dc774ffa13a1cdff8cf8047330c82", null ],
-    [ "x", "d9/d9a/a13692.html#a9e2b1a05fdcb7ba5e67deed9906f2520", null ],
-    [ "y", "d9/d9a/a13692.html#ae726b332e6759612c76de6b9f38a3147", null ],
-    [ "z", "d9/d9a/a13692.html#a8a0e3c6d9e558a40cd9d543df6abf728", null ]
+    [ "boss_slitherAI", "d9/d9a/a13692.html#a4cd9ca5bc5c2121edd72bc65c2f4182b", null ],
+    [ "AttackStart", "d9/d9a/a13692.html#a8f2da73ffa694e7933d8ce0965105a97", null ],
+    [ "Reset", "d9/d9a/a13692.html#ab2de8f1b9b51c1a04664cf3864ae4ef9", null ],
+    [ "UpdateAI", "d9/d9a/a13692.html#a9df057eabc5338745786385055d1334e", null ],
+    [ "venomspit_timer", "d9/d9a/a13692.html#a33649cb1e8fc177073982ccafbd387e6", null ]
 ];

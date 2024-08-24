@@ -1,6 +1,6 @@
 var a21196 =
 [
-    [ "spell_voa_flaming_cinder_SpellScript", "d0/dc9/a21200.html", "d0/dc9/a21200" ],
-    [ "spell_voa_flaming_cinder", "d4/d1c/a21196.html#a06378a1d7672c4b0f38b51b6a484e725", null ],
-    [ "GetSpellScript", "d4/d1c/a21196.html#a480861ce910dd49a48fd7f5359693605", null ]
+    [ "spell_thorims_hammer_SpellScript", "d0/dc9/a21200.html", "d0/dc9/a21200" ],
+    [ "spell_thorims_hammer", "d4/d1c/a21196.html#a0f838d61eb68084978be92d87338f07d", null ],
+    [ "GetSpellScript", "d4/d1c/a21196.html#a8da4bd8438d99a1ceffeae20778a6f9a", null ]
 ];

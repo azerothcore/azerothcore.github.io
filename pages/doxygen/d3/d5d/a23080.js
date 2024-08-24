@@ -1,6 +1,6 @@
 var a23080 =
 [
-    [ "OnPeriodic", "d3/d5d/a23080.html#a769d30c78e4feaa9cc0c581af5264c02", null ],
-    [ "PrepareAuraScript", "d3/d5d/a23080.html#a076e4b548de5cad64b7d81ddd8c5194f", null ],
-    [ "Register", "d3/d5d/a23080.html#af1c2b7baf0ff7164cafab8f1a53bbb18", null ]
+    [ "spell_q11719_bloodspore_ruination_45997_SpellScript", "d4/d3b/a23084.html", "d4/d3b/a23084" ],
+    [ "spell_q11719_bloodspore_ruination_45997", "d3/d5d/a23080.html#a276b1ecb321f62a0ae548724f88d6978", null ],
+    [ "GetSpellScript", "d3/d5d/a23080.html#afb97c15458f335ba8932e29165d3b435", null ]
 ];

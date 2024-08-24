@@ -1,6 +1,6 @@
 var a23096 =
 [
-    [ "HandleEffectRemove", "d1/d6e/a23096.html#a9e578e576d8fa4198cf1f0e9f03ba47a", null ],
-    [ "PrepareAuraScript", "d1/d6e/a23096.html#a5fa56f4d61c63487919bb2080795e391", null ],
-    [ "Register", "d1/d6e/a23096.html#a2d0bbef8b32c688b7409837b426d9cd1", null ]
+    [ "npc_thassarianAI", "d7/db5/a23100.html", "d7/db5/a23100" ],
+    [ "npc_thassarian", "d1/d6e/a23096.html#a82bde4555821f84a6d07a69669528313", null ],
+    [ "GetAI", "d1/d6e/a23096.html#af4bbf5f6a63c3765355d6b70c2bda55b", null ]
 ];

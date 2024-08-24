@@ -1,8 +1,6 @@
 var a17468 =
 [
-    [ "npc_gunship_mageAI", "db/dcc/a17468.html#ac79cb67f21820ef88ac9cd671ca9e4c7", null ],
-    [ "AttackStart", "db/dcc/a17468.html#a41bd517c360538f568fb56bc9d2f5e55", null ],
-    [ "CanAIAttack", "db/dcc/a17468.html#aadcb217a9df96bee02287d75a23e32c2", null ],
-    [ "MovementInform", "db/dcc/a17468.html#ac0f233fa5a34cd6e080f44c798b4fc62", null ],
-    [ "UpdateAI", "db/dcc/a17468.html#aa767fc4cb2f7eba37fedaec57c4bc175", null ]
+    [ "spell_pos_blightAuraScript", "df/dca/a17472.html", "df/dca/a17472" ],
+    [ "spell_pos_blight", "db/dcc/a17468.html#aa972b4d257e2586f1163571a594c28b0", null ],
+    [ "GetAuraScript", "db/dcc/a17468.html#ac9e84ec46902207703d8e2dbd4ff6503", null ]
 ];

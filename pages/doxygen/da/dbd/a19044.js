@@ -1,6 +1,6 @@
 var a19044 =
 [
-    [ "npc_teslaAI", "de/dba/a19048.html", "de/dba/a19048" ],
-    [ "npc_tesla", "da/dbd/a19044.html#ae74ad52adbf4a160ef0c7cf97e4faea0", null ],
-    [ "GetAI", "da/dbd/a19044.html#a00d0e2ee0a8c20ed64dd2012f244a760", null ]
+    [ "OnRemove", "da/dbd/a19044.html#ab66d040befddda8dbba0ce79f81a51e8", null ],
+    [ "PrepareAuraScript", "da/dbd/a19044.html#ae1fe747bb956e6220d259b26a0ced79f", null ],
+    [ "Register", "da/dbd/a19044.html#ac81dfb7309cf00dfe2088d649eef46fc", null ]
 ];

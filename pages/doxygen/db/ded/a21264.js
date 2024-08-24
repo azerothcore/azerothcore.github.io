@@ -1,14 +1,11 @@
 var a21264 =
 [
-    [ "boss_erekemAI", "db/ded/a21264.html#aedf10fef3f0f2ac6797efa5f5a809f4a", null ],
-    [ "EnterEvadeMode", "db/ded/a21264.html#a2c9f8f444b3b28d5cfdbaa234e9d76ee", null ],
-    [ "GetChainHealTargetGUID", "db/ded/a21264.html#aa346cbaded883bbb3806acf9cb32579a", null ],
-    [ "JustDied", "db/ded/a21264.html#a12e7fb5389977dcacb4e1eadda771467", null ],
-    [ "JustEngagedWith", "db/ded/a21264.html#ad380838dbb6c2a3488fa57f2999e137c", null ],
-    [ "KilledUnit", "db/ded/a21264.html#a120a2c9a6af821ce9a5e68dbab6e800d", null ],
-    [ "MoveInLineOfSight", "db/ded/a21264.html#a5905809cba20d426c4d222b1e91055bc", null ],
-    [ "Reset", "db/ded/a21264.html#a338bbc123b1d3adef4f014c3302c4590", null ],
-    [ "UpdateAI", "db/ded/a21264.html#a234ae447260ae30a137a53fb986e5dc4", null ],
-    [ "events", "db/ded/a21264.html#a8d4445b6d35f534061818f7708f39f7e", null ],
-    [ "pInstance", "db/ded/a21264.html#aa68ece744a21ed2ef8d3e7c4b4081d8e", null ]
+    [ "boss_freya_elder_brightleafAI", "db/ded/a21264.html#a53de463d34b808b4c5d459e1339f6f30", null ],
+    [ "JustDied", "db/ded/a21264.html#aeea7300081f645d3fa83df6841c5a497", null ],
+    [ "JustEngagedWith", "db/ded/a21264.html#a956adeb9b6ea0c8fa71bdcbd3735c79d", null ],
+    [ "KilledUnit", "db/ded/a21264.html#a47935d017a2d34a888acb4079d3ff9aa", null ],
+    [ "Reset", "db/ded/a21264.html#aee11d2e1fad8bc1b18c17b1527610914", null ],
+    [ "UpdateAI", "db/ded/a21264.html#af28f94f278d279513d7f72cdc36528d4", null ],
+    [ "events", "db/ded/a21264.html#a45b4f0d12497dd8e3ffc1cde429116f6", null ],
+    [ "summons", "db/ded/a21264.html#a456123135a7fb4595d611a9e3995f461", null ]
 ];

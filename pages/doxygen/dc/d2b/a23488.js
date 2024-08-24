@@ -1,6 +1,7 @@
 var a23488 =
 [
-    [ "instance_blood_furnace_InstanceMapScript", "dd/d15/a23492.html", "dd/d15/a23492" ],
-    [ "instance_blood_furnace", "dc/d2b/a23488.html#a925a045fa518e72c1eff02fe3c66202b", null ],
-    [ "GetInstanceScript", "dc/d2b/a23488.html#a885ba94e1777dfd6586daca304622d3d", null ]
+    [ "HandleDummy", "dc/d2b/a23488.html#a36ef84151fa00b771bc084e324233aff", null ],
+    [ "PrepareSpellScript", "dc/d2b/a23488.html#a2404afa473d5ac5a72488a077c1ef206", null ],
+    [ "Register", "dc/d2b/a23488.html#acf4eab6f5b9e2b415fd1e981d4a959d4", null ],
+    [ "Validate", "dc/d2b/a23488.html#aeff8a52d29caebba642648a40ddd39b3", null ]
 ];

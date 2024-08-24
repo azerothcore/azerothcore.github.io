@@ -1,6 +1,8 @@
 var a21736 =
 [
-    [ "HandleSendEvent", "d2/d20/a21736.html#a8b8276833404f3f69c3b7f97d95b6982", null ],
-    [ "PrepareSpellScript", "d2/d20/a21736.html#aa632d381ac415feaf226f55fc2cd8520", null ],
-    [ "Register", "d2/d20/a21736.html#a72673f5054cf269cc8da511441f7bd66", null ]
+    [ "npc_ulduar_mimiron_rocketAI", "d2/d20/a21736.html#ad758070aaeadc4d7b2b7ff4108b76c89", null ],
+    [ "InitializeAI", "d2/d20/a21736.html#aba3bf48434dca79f56f4b9aac707d48c", null ],
+    [ "Reset", "d2/d20/a21736.html#a60fbcbae9205bfd1c63b5bef7924b3ee", null ],
+    [ "SetData", "d2/d20/a21736.html#a8e547ba872c9bc2ec95ae2f60b011fce", null ],
+    [ "UpdateAI", "d2/d20/a21736.html#a28106e303d5e7c1bce9ceaa571129dca", null ]
 ];

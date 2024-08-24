@@ -1,6 +1,7 @@
 var a20560 =
 [
-    [ "boss_thorim_ancient_rune_giantAI", "df/d1c/a20564.html", "df/d1c/a20564" ],
-    [ "boss_thorim_ancient_rune_giant", "d8/d9b/a20560.html#ad87dca7c6058e4b8b1234410644523dd", null ],
-    [ "GetAI", "d8/d9b/a20560.html#aa8a0ff1416d5678a5d6bb7bdc36d6617", null ]
+    [ "HandleOnEffectApply", "d8/d9b/a20560.html#a942a69fa30d7c8d6ed62fca0669c9d8c", null ],
+    [ "HandleOnEffectRemove", "d8/d9b/a20560.html#acc856a56cb81c11099e8e7d6c079b000", null ],
+    [ "PrepareAuraScript", "d8/d9b/a20560.html#a1e1d36ae0f15bc69d23dd5d2a0866151", null ],
+    [ "Register", "d8/d9b/a20560.html#a1cd114f0ef5ef5b4e199d4fc07459f3d", null ]
 ];

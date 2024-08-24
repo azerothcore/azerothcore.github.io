@@ -1,8 +1,13 @@
 var a06960 =
 [
-    [ "WintergraspCapturePoint", "db/d72/a06960.html#a36090feb3626e204e0029ea45f1d8136", null ],
-    [ "ChangeTeam", "db/d72/a06960.html#a66564dd3237538b256ebeb76d236001f", null ],
-    [ "GetTeam", "db/d72/a06960.html#a7ff4106591a5aac1ea8820016b8164bb", null ],
-    [ "LinkToWorkshop", "db/d72/a06960.html#a32d378eba7f0eea0f011b8ea8c7e6eee", null ],
-    [ "m_Workshop", "db/d72/a06960.html#a1e780ccd3759538fe4c9d7e3fc5447ed", null ]
+    [ "WhoListCacheMgr", "db/d72/a06960.html#a2190c113c3d38bd316b17a4400c113e6", null ],
+    [ "~WhoListCacheMgr", "db/d72/a06960.html#ae32706d7786014e142dc1cb9ccd29d70", null ],
+    [ "WhoListCacheMgr", "db/d72/a06960.html#a366e452317179d647042c24c56faafa1", null ],
+    [ "WhoListCacheMgr", "db/d72/a06960.html#ae0358ae9260f929410f6518f89135161", null ],
+    [ "GetWhoList", "db/d72/a06960.html#a4dec6544342fdc5052b69dcc61148453", null ],
+    [ "instance", "db/d72/a06960.html#a1e8ce970e3213cd0361af303df98b387", null ],
+    [ "operator=", "db/d72/a06960.html#a80615aa0a66ac29765f27598e605c712", null ],
+    [ "operator=", "db/d72/a06960.html#ab8aff37f9e66aef40ccb794928bc001c", null ],
+    [ "Update", "db/d72/a06960.html#a3db2ef832cf1413fb2e565ca0d922a80", null ],
+    [ "_whoListStorage", "db/d72/a06960.html#a75495cb910c6de65d60a5080248e1e25", null ]
 ];

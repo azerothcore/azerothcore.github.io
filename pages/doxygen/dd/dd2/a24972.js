@@ -1,7 +1,6 @@
 var a24972 =
 [
-    [ "HandleEffectPeriodic", "dd/dd2/a24972.html#a3a2e7653276964fd36c93b41aa8f25ea", null ],
-    [ "PrepareAuraScript", "dd/dd2/a24972.html#a893a539f4eeb0b9f027c5a306cc7bd53", null ],
-    [ "Register", "dd/dd2/a24972.html#a36792fd068ec7444aa118ec63cf972a7", null ],
-    [ "Validate", "dd/dd2/a24972.html#aa57af116294cfba007586506ba1dbeb5", null ]
+    [ "spell_hydross_cleansing_field_aura_AuraScript", "d5/d15/a24976.html", "d5/d15/a24976" ],
+    [ "spell_hydross_cleansing_field_aura", "dd/dd2/a24972.html#a3ea84711f827837e9acaf9664e7d7541", null ],
+    [ "GetAuraScript", "dd/dd2/a24972.html#aefcd6a4c7a8a13b015fb6f9fd9895608", null ]
 ];

@@ -1,13 +1,6 @@
 var a15612 =
 [
-    [ "npc_shadowpriest_sezzizAI", "d3/dfa/a15612.html#a14c5cee1c3032b8df4ad902eb273e9b0", null ],
-    [ "AttackStart", "d3/dfa/a15612.html#a8278a73501ea33164cbdef8599144f4a", null ],
-    [ "Reset", "d3/dfa/a15612.html#ab08cc327c4206e4526e77eea3bf17e0b", null ],
-    [ "UpdateAI", "d3/dfa/a15612.html#a1c0236b52d4cd87634659991e0dfc728", null ],
-    [ "_missingHPForHealTimer", "d3/dfa/a15612.html#a1171f0cd40bd3d7198bab15b12edc131", null ],
-    [ "_missingHPForRenewTimer", "d3/dfa/a15612.html#a8df4e1046348599cd5d1e31e3dc4eb0c", null ],
-    [ "_physicScreemTimer", "d3/dfa/a15612.html#a43de246b93f3380d5b79ffba6434aa5a", null ],
-    [ "_shadowBoltTimer", "d3/dfa/a15612.html#a34a18991ff2c0aafac15694ed9667193", null ],
-    [ "_summmonAddsCount", "d3/dfa/a15612.html#a8ce2b172757d1f7d188152ecc0fe30f5", null ],
-    [ "_summonAddsTimer", "d3/dfa/a15612.html#aff413ce6f4106d212f35fb7abbfa047e", null ]
+    [ "SpellId", "d3/dfa/a15612.html#a2c430be201c1fd866ee96224f1803a20", null ],
+    [ "Timer1", "d3/dfa/a15612.html#a9a35c148286e88f48b174be8b74fc5d0", null ],
+    [ "Timer2", "d3/dfa/a15612.html#a108dee679b1f5d9fb8351f7b4b4f3a56", null ]
 ];

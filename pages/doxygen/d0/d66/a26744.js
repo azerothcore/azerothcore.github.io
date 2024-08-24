@@ -1,7 +1,6 @@
 var a26744 =
 [
-    [ "HandleTeleport", "d0/d66/a26744.html#a7ba7b82988dab5fd8e691b5b87c3d959", null ],
-    [ "PrepareAuraScript", "d0/d66/a26744.html#a2307b7eccd4dd08d7e97ece704ddc4fb", null ],
-    [ "Register", "d0/d66/a26744.html#a82432a4448d8c23ea2a39b4b26eb1b58", null ],
-    [ "Validate", "d0/d66/a26744.html#adabf22bd591a10662ffbf0354a18a936", null ]
+    [ "RaiseDeadCheck", "d0/d66/a26744.html#abc6439e5b457f2f6e832f504167a392d", null ],
+    [ "operator()", "d0/d66/a26744.html#a9647e6afd21e7397f05349e66bea4326", null ],
+    [ "_caster", "d0/d66/a26744.html#a7b1647934c5e64de65d38b9fba2d343a", null ]
 ];

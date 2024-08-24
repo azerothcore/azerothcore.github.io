@@ -1,6 +1,7 @@
 var a19240 =
 [
-    [ "npc_crystalline_frayerAI", "d1/dc5/a19244.html", "d1/dc5/a19244" ],
-    [ "npc_crystalline_frayer", "d8/d38/a19240.html#a9124f4ffcbfbb9e073d0943f3398ce5e", null ],
-    [ "GetAI", "d8/d38/a19240.html#a1780bb5b521d6e2617e90cb6cf119060", null ]
+    [ "HandleProc", "d8/d38/a19240.html#a5afa4b975847bb3f81de0f4312862655", null ],
+    [ "PrepareAuraScript", "d8/d38/a19240.html#a258256f4d56606257abcee4d2775577d", null ],
+    [ "Register", "d8/d38/a19240.html#ab7fb12a55721032f742aa28b27f1cc08", null ],
+    [ "Validate", "d8/d38/a19240.html#afb81942166dd65f3cab3fe6f1c522421", null ]
 ];

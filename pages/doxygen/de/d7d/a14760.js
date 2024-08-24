@@ -1,6 +1,6 @@
 var a14760 =
 [
-    [ "instance_razorfen_kraul_InstanceMapScript", "df/d1f/a14764.html", "df/d1f/a14764" ],
-    [ "instance_razorfen_kraul", "de/d7d/a14760.html#aedd65b901c8131a7ac21e8576734f76f", null ],
-    [ "GetInstanceScript", "de/d7d/a14760.html#a78e77010ebb055b9530733ca25533110", null ]
+    [ "npc_crate_helperAI", "df/d1f/a14764.html", "df/d1f/a14764" ],
+    [ "npc_crate_helper", "de/d7d/a14760.html#ae08751928234656dcda84dd5c7e4cc37", null ],
+    [ "GetAI", "de/d7d/a14760.html#af69c9cf385ee829853985daa7f2aa8d6", null ]
 ];

@@ -1,6 +1,9 @@
 var a16092 =
 [
-    [ "npc_black_knight_skeletal_gryphonAI", "d1/d43/a16096.html", "d1/d43/a16096" ],
-    [ "npc_black_knight_skeletal_gryphon", "d4/d8c/a16092.html#a5dc83a92fbe2eb4d6faa30f23a9ac777", null ],
-    [ "GetAI", "d4/d8c/a16092.html#aad244f95877a208b56a2b6544984d724", null ]
+    [ "boss_sartharion_vesperonAI", "d4/d8c/a16092.html#afd67bf2c7a479771976673b05b0fc29e", null ],
+    [ "ClearInstance", "d4/d8c/a16092.html#aad9556374e26cbea7641461510fef9ba", null ],
+    [ "ExecuteEvent", "d4/d8c/a16092.html#aaf88a9e57c0d35f9e5d3fbcd4e2f5d09", null ],
+    [ "HandleExtraEvent", "d4/d8c/a16092.html#ab2080a14c105aeb6a9c155cf6f4ec17d", null ],
+    [ "Reset", "d4/d8c/a16092.html#aacf26c52f77ef4eb084814934f00aab1", null ],
+    [ "SummonedCreatureDies", "d4/d8c/a16092.html#a1e6fc9b1c734e73e5e27f6a17cf65d0b", null ]
 ];

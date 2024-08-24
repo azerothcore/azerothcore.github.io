@@ -1,12 +1,9 @@
 var a14844 =
 [
-    [ "npc_anubisath_guardian", "d0/d9c/a14844.html#a7db1771f9083e14c177e37d7bf6690c5", null ],
-    [ "DamageTaken", "d0/d9c/a14844.html#a2b7f307b5af7c50c86a68c4834f08ed4", null ],
-    [ "JustDied", "d0/d9c/a14844.html#a9f40c43ded16ad5934a5d5499f16ca76", null ],
-    [ "JustEngagedWith", "d0/d9c/a14844.html#a16d1e70f0ca0fcef972ac45f82e885e6", null ],
-    [ "Reset", "d0/d9c/a14844.html#af87cc86141964c48f9c57ed5bade36a5", null ],
-    [ "UpdateAI", "d0/d9c/a14844.html#a9a9c805c92a3e8e96914d01accb01051", null ],
-    [ "_enraged", "d0/d9c/a14844.html#a69b3b2cee4c84cd6dccd3465b555ad12", null ],
-    [ "_scheduler", "d0/d9c/a14844.html#ad44455c43d53426a152547d5b0770bbe", null ],
-    [ "_spells", "d0/d9c/a14844.html#aee75f952ed14f5f6fab1f5117f6b8b9e", null ]
+    [ "boss_chrono_lord_deja", "d0/d9c/a14844.html#a85f82d4bde99b7e1d05fba82177916e6", null ],
+    [ "JustDied", "d0/d9c/a14844.html#a68eb4941364f9fac121aa3d610d45f48", null ],
+    [ "JustEngagedWith", "d0/d9c/a14844.html#ab5324b2993f2fd1ec3290eb962ef6065", null ],
+    [ "KilledUnit", "d0/d9c/a14844.html#a02c279fb1cfccd38dc60ba7c610cf859", null ],
+    [ "MoveInLineOfSight", "d0/d9c/a14844.html#a535c0c157c60804188ad8c4413c277dd", null ],
+    [ "OwnTalk", "d0/d9c/a14844.html#acdef53bd447c30d87bd15af3bf4200bc", null ]
 ];

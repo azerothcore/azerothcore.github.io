@@ -1,8 +1,7 @@
 var a22172 =
 [
-    [ "CheckCast", "d8/de2/a22172.html#ab1584c391ac81b8338387acc6187001f", null ],
-    [ "HandleDummy", "d8/de2/a22172.html#abe856e2c3b986eeac0c1a62aa301eb6d", null ],
-    [ "PrepareSpellScript", "d8/de2/a22172.html#a08d9ffb7dcbe786071979166e0489336", null ],
-    [ "Register", "d8/de2/a22172.html#a5f0bbd57f3cbc0d0de3d8830dd4e6f2b", null ],
-    [ "Validate", "d8/de2/a22172.html#a82d931b4a15f6a60c27d932e8188ef78", null ]
+    [ "boss_yoggsaron_corruptor_tentacleAI", "d8/de2/a22172.html#a5f8fbd8ac772fad79f809de4d3128574", null ],
+    [ "DoAction", "d8/de2/a22172.html#abac26b3be775eea734403be36cbed4d2", null ],
+    [ "SelectCorruptionTarget", "d8/de2/a22172.html#a1d61b34d31794cd2bdcddfe91dc1103e", null ],
+    [ "UpdateAI", "d8/de2/a22172.html#a0269d1dc655af5680d7074cb093740b8", null ]
 ];

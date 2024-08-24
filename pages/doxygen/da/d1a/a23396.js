@@ -1,5 +1,6 @@
 var a23396 =
 [
-    [ "instance_the_underbog_InstanceMapScript", "da/d1a/a23396.html#ae7668c7c4432b74caa3ea46a7c7364e3", null ],
-    [ "Initialize", "da/d1a/a23396.html#a9c7c10020eef3db4794283c0f946d086", null ]
+    [ "npc_mrfloppyAI", "d6/d7a/a23400.html", "d6/d7a/a23400" ],
+    [ "npc_mrfloppy", "da/d1a/a23396.html#a0515ca75aba9b7f6f5577b53e7520f6e", null ],
+    [ "GetAI", "da/d1a/a23396.html#a88590566309f3fc155eb6dc26055a161", null ]
 ];

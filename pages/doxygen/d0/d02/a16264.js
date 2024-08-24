@@ -1,8 +1,8 @@
 var a16264 =
 [
-    [ "npc_toc_warlockAI", "d0/d02/a16264.html#a4c4c2f502f00ca48bb7419434d88ea3a", null ],
-    [ "JustSummoned", "d0/d02/a16264.html#a203ef748afaa400aa1f8365b5d7bf6b1", null ],
-    [ "myCanCast", "d0/d02/a16264.html#a62b2df362bc07aa4a9c14cbc63a10e05", null ],
-    [ "UpdateAI", "d0/d02/a16264.html#a554849d02d923439bd810b7d8c242afa", null ],
-    [ "events", "d0/d02/a16264.html#a3b84c70d246bbf5b70ab4dec06c647b3", null ]
+    [ "spell_halion_damage_aoe_summon_SpellScript", "dd/d79/a16268.html", "dd/d79/a16268" ],
+    [ "spell_halion_damage_aoe_summon", "d0/d02/a16264.html#a4d7efd1593e08eb095355360ce3b603f", null ],
+    [ "GetSpellScript", "d0/d02/a16264.html#a6d7cd2796769d85df92e02a946aad927", null ],
+    [ "_auraSpell", "d0/d02/a16264.html#a497a74eca703470964157639a6f372e2", null ],
+    [ "_explosionSpell", "d0/d02/a16264.html#ad1ad3a6f143bc84bad61070755752b2f", null ]
 ];

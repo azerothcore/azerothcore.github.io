@@ -1,7 +1,9 @@
 var a09984 =
 [
-    [ "DatabaseScript", "dc/d12/a09984.html#aab34b85df1a5ccdf17fede64baca4994", null ],
-    [ "IsDatabaseBound", "dc/d12/a09984.html#af4321bb95ed9bb3bb0e5a8a93c89c235", null ],
-    [ "OnAfterDatabaseLoadCreatureTemplates", "dc/d12/a09984.html#a2f4e91e2b1192c0ceb399cd93eb33ee3", null ],
-    [ "OnAfterDatabasesLoaded", "dc/d12/a09984.html#ab52afc833cb462693f5e0d79cff6bb3f", null ]
+    [ "GuildRoster", "dc/d12/a09984.html#a2161128d6fb6fa53a5129a95ded2b5fc", null ],
+    [ "Write", "dc/d12/a09984.html#a544a539999827d4eb8923cbbcdf42bac", null ],
+    [ "InfoText", "dc/d12/a09984.html#a9d457ee8feb6c173d960b360aca90fc6", null ],
+    [ "MemberData", "dc/d12/a09984.html#a964fc72bf3ada77c171fd1f691449241", null ],
+    [ "RankData", "dc/d12/a09984.html#a67b0a12fae93c5807030c1062f328abb", null ],
+    [ "WelcomeText", "dc/d12/a09984.html#a5ec2c209558d2c34feee4bfd8cda201c", null ]
 ];

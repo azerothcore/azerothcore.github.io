@@ -1,11 +1,9 @@
 var a17820 =
 [
-    [ "npc_little_oozeAI", "dc/df2/a17820.html#a6fb3ac6e3f2c39b96ee4fe265e4940dd", null ],
-    [ "EnterEvadeMode", "dc/df2/a17820.html#a0bd4bfcc8c373a449f297011289e5530", null ],
-    [ "IsSummonedBy", "dc/df2/a17820.html#afb9763ade36bd742398a8bca961c136b", null ],
-    [ "JustDied", "dc/df2/a17820.html#a37e5898e3dc1704be9fba2178567fd2a", null ],
-    [ "UpdateAI", "dc/df2/a17820.html#a6ee56789d528c2b6dcb04abaff6806cb", null ],
-    [ "events", "dc/df2/a17820.html#aa0d2113458887b73fe2af36f9d3ab0f1", null ],
-    [ "firstUpdate", "dc/df2/a17820.html#aa3aca24bc97bcd9a2030fccf6782cf9c", null ],
-    [ "instance", "dc/df2/a17820.html#a8a4ec828f144f071c0c6f2bf48b69cc0", null ]
+    [ "FilterTargets", "dc/df2/a17820.html#acb90b79a26360dda7421c2121d08fd7e", null ],
+    [ "HandleScript", "dc/df2/a17820.html#a8d03b1f944bc5d62dff2f897ada85aaa", null ],
+    [ "Load", "dc/df2/a17820.html#a736e5f9ced806669bd006080dd5bd966", null ],
+    [ "PrepareSpellScript", "dc/df2/a17820.html#a46c653dbcddf4d4fd15af273f1269004", null ],
+    [ "Register", "dc/df2/a17820.html#a6ebd5058c6e1f5a9dd670d5a3484ba96", null ],
+    [ "Validate", "dc/df2/a17820.html#a28a1a182b6762727788b69fdcead93a3", null ]
 ];

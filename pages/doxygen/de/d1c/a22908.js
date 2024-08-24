@@ -1,6 +1,6 @@
 var a22908 =
 [
-    [ "HandleDummy", "de/d1c/a22908.html#a85cbe85873c5f04c8fb94ad52e94afda", null ],
-    [ "PrepareSpellScript", "de/d1c/a22908.html#ae483ea2ecc541f52f37456f6e9d4b380", null ],
-    [ "Register", "de/d1c/a22908.html#a972574075c86c32593982add71dc893f", null ]
+    [ "npc_azure_raiderAI", "db/dad/a22912.html", "db/dad/a22912" ],
+    [ "npc_azure_raider", "de/d1c/a22908.html#a249abee0df263e183341193b828a310c", null ],
+    [ "GetAI", "de/d1c/a22908.html#a88a45e3b117c5105f7541d640dda8470", null ]
 ];

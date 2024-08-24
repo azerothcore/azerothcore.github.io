@@ -1,4 +1,6 @@
 var a28044 =
 [
-    [ "base", "d7/d48/a28044.html#ad5e8b55760b9007284e8acf719d7647c", null ]
+    [ "HandleRemove", "d7/d48/a28044.html#a491765056e8c4d97d9cdaaea9d11a0af", null ],
+    [ "PrepareAuraScript", "d7/d48/a28044.html#abe5d45b960fda879f48e3e98db9ad4ac", null ],
+    [ "Register", "d7/d48/a28044.html#ab00f3119d6c1bd1ad185374144f2987e", null ]
 ];

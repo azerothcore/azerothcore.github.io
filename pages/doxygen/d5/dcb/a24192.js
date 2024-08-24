@@ -1,11 +1,9 @@
 var a24192 =
 [
-    [ "npc_shadowmoon_tuber_nodeAI", "d5/dcb/a24192.html#af24a8d5ead256d158c86379e032aa889", null ],
-    [ "Reset", "d5/dcb/a24192.html#a9bcbd0b0b6b12058a8356ce274b6a597", null ],
-    [ "SetData", "d5/dcb/a24192.html#aca6ad097bd7b8e5f1a0cde6bdebb23ad", null ],
-    [ "SpellHit", "d5/dcb/a24192.html#a14523a24042d23efbafc7924f394dd04", null ],
-    [ "UpdateAI", "d5/dcb/a24192.html#ae5cd38aa2a9cc1727141298323639660", null ],
-    [ "resetTimer", "d5/dcb/a24192.html#a0d2649de651279fa6bbe3ae2f18571bb", null ],
-    [ "tapped", "d5/dcb/a24192.html#af6412de701f14a7eb325e1aaf33f28cc", null ],
-    [ "tuberGUID", "d5/dcb/a24192.html#a2deaa1aeed26b862e93055d90c9139d6", null ]
+    [ "npc_stolen_soulAI", "d5/dcb/a24192.html#aa00bb48fcb93fe9b02b8157bfe13c06a", null ],
+    [ "DoAction", "d5/dcb/a24192.html#a9291746dda6643fd77dd0076e55f4803", null ],
+    [ "Reset", "d5/dcb/a24192.html#ab4d5f1873b2c70c61e97b2910bf2fb47", null ],
+    [ "UpdateAI", "d5/dcb/a24192.html#ab868030957cc2558dae1ef9cae5ec92e", null ],
+    [ "events", "d5/dcb/a24192.html#a59445b486700065e5aded7c943b91bc3", null ],
+    [ "myClass", "d5/dcb/a24192.html#a8b084a46c1517670206935c1de176de7", null ]
 ];

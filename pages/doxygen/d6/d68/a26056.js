@@ -1,10 +1,6 @@
 var a26056 =
 [
-    [ "spell_pal_judgement", "d6/d68/a26056.html#a497aed8c1d8c6a2af22e9e8daae96e14", null ],
-    [ "HandleScriptEffect", "d6/d68/a26056.html#add419a824dbebdc168d2b6dc49d07913", null ],
-    [ "PrepareSpellScript", "d6/d68/a26056.html#a2cffed69c16a1a6189048ed52af35152", null ],
-    [ "Register", "d6/d68/a26056.html#ad8e65beb41a1bb41a2dd307f3b1da839", null ],
-    [ "SealApplication", "d6/d68/a26056.html#a0bb55f122d560c70f416e448d03d2184", null ],
-    [ "Validate", "d6/d68/a26056.html#a3971c195a279338253771675131b4802", null ],
-    [ "_spellId", "d6/d68/a26056.html#ad49ea02800078c672747f4fdbbab1d20", null ]
+    [ "npc_ancestral_wolfAI", "d4/d0c/a26060.html", "d4/d0c/a26060" ],
+    [ "npc_ancestral_wolf", "d6/d68/a26056.html#a7cadf2848a086db63792f8068ee9463d", null ],
+    [ "GetAI", "d6/d68/a26056.html#a201255a64d4e742ba8b118b4f2ec5cd5", null ]
 ];

@@ -1,5 +1,6 @@
 var a10280 =
 [
-    [ "GuildDeclineInvitation", "dc/d3a/a10280.html#a11a70a9974bb139e53f76c8b78944fe7", null ],
-    [ "Read", "dc/d3a/a10280.html#ad034438e18a7feddbac376a599c1e01a", null ]
+    [ "DismissCritter", "dc/d3a/a10280.html#a87e35583063b340f014d21cd02c54cab", null ],
+    [ "Read", "dc/d3a/a10280.html#a411b65505e8a332ecf9291a670dc38c4", null ],
+    [ "CritterGUID", "dc/d3a/a10280.html#a89c071e81c9d39c099c32c4976f15304", null ]
 ];

@@ -1,17 +1,6 @@
 var a16052 =
 [
-    [ "boss_paletressAI", "db/db7/a16052.html#a3bd22d082434895c4779b121f926a8c4", null ],
-    [ "DamageTaken", "db/db7/a16052.html#a54af3ec8de6d0fdb17ae0499645a02bd", null ],
-    [ "DoAction", "db/db7/a16052.html#a30babeb3c9644af4e9c6cbc879317299", null ],
-    [ "JustEngagedWith", "db/db7/a16052.html#ab8e8485765502d39cb4311d92ac98441", null ],
-    [ "JustSummoned", "db/db7/a16052.html#a82df372b8216703b8377ff334aa64684", null ],
-    [ "KilledUnit", "db/db7/a16052.html#af9aa74ec5a3c88475734f864ec307563", null ],
-    [ "MovementInform", "db/db7/a16052.html#a0ececc88bc520584d1c7baf8d7a5e7f6", null ],
-    [ "Reset", "db/db7/a16052.html#af216c7ce539b5e8ce80223270f202603", null ],
-    [ "SummonMemory", "db/db7/a16052.html#ae9daef57101d1ab25e9c6fb6980b05ff", null ],
-    [ "UpdateAI", "db/db7/a16052.html#a6f8c8d20fbfff32d34cd30f9c3a757a6", null ],
-    [ "events", "db/db7/a16052.html#a4b19d38e2a84097c7c47c434d66be052", null ],
-    [ "MemoryGUID", "db/db7/a16052.html#a5b2d80b38623174b7913ed4d893f03c9", null ],
-    [ "pInstance", "db/db7/a16052.html#a9ef97ec685e516e80b792fa1d7e891c1", null ],
-    [ "summoned", "db/db7/a16052.html#a6064594bc0e9bd008b76d498f4cdc36c", null ]
+    [ "spell_azjol_nerub_web_wrap_AuraScript", "dc/d2d/a16056.html", "dc/d2d/a16056" ],
+    [ "spell_azjol_nerub_web_wrap", "db/db7/a16052.html#a62c5c362c4069e5076dd18b8f8b1f741", null ],
+    [ "GetAuraScript", "db/db7/a16052.html#a902f13fbf5daab83f40a748fe4a8727d", null ]
 ];

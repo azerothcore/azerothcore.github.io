@@ -1,11 +1,7 @@
 var a19596 =
 [
-    [ "npc_living_constellationAI", "d4/df2/a19596.html#a54f4e946fad895bca07a59f4e00d10a5", null ],
-    [ "DoAction", "d4/df2/a19596.html#acdc93a7dc3019940d730fa20d115a929", null ],
-    [ "GetData", "d4/df2/a19596.html#acb5cc31d7a084e82d8bde3852f9668dd", null ],
-    [ "Reset", "d4/df2/a19596.html#a664b03bdaea184ab8dd8298ed9952790", null ],
-    [ "SpellHit", "d4/df2/a19596.html#a4c83ef2d5fe161a90d465a8fbd7eb4f8", null ],
-    [ "UpdateAI", "d4/df2/a19596.html#ad5b23c3db46b455c9321e7fb29b88572", null ],
-    [ "_isActive", "d4/df2/a19596.html#a786d2d05f83e59dd0da34f44037bdd35", null ],
-    [ "events", "d4/df2/a19596.html#a679c9fe1ed357b7c7e1ed1fac01ef8d3", null ]
+    [ "OnApply", "d4/df2/a19596.html#a7061413afb54ebdf6c7aa8cc0c28f157", null ],
+    [ "OnRemove", "d4/df2/a19596.html#a0e86241e7664c649400e68d76e90524c", null ],
+    [ "PrepareAuraScript", "d4/df2/a19596.html#a4667e0212f438ab780c1a5fbc89be6e2", null ],
+    [ "Register", "d4/df2/a19596.html#acffd883551560166b46618284bec513c", null ]
 ];

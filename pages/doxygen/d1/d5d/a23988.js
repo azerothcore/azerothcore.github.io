@@ -1,6 +1,6 @@
 var a23988 =
 [
-    [ "npc_fel_guard_houndAI", "d9/dac/a23992.html", "d9/dac/a23992" ],
-    [ "npc_fel_guard_hound", "d1/d5d/a23988.html#a324179695f04a31b233b0ce94a46634c", null ],
-    [ "GetAI", "d1/d5d/a23988.html#a5f5c20ec379994e7d0b65133d772e18f", null ]
+    [ "PrepareSpellScript", "d1/d5d/a23988.html#ad80665c68b78f5ae8bf54520f2a2cffb", null ],
+    [ "RecalculateDamage", "d1/d5d/a23988.html#ac9c02759adc50dab119bbad191a9562e", null ],
+    [ "Register", "d1/d5d/a23988.html#a584245a0e511f5d419177aaccf37a501", null ]
 ];

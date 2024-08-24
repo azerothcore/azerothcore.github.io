@@ -1,5 +1,6 @@
 var a19924 =
 [
-    [ "achievement_flame_leviathan_unbroken", "d4/d90/a19924.html#a30a94a92aacc558d6833994c11f3ee8a", null ],
-    [ "OnCheck", "d4/d90/a19924.html#a78c69e3217b6598ab238a4f51ba598eb", null ]
+    [ "spell_ioc_gunship_portal_SpellScript", "d3/d66/a19928.html", "d3/d66/a19928" ],
+    [ "spell_ioc_gunship_portal", "d4/d90/a19924.html#ab4c871ebf951ef29f21189062f9339c4", null ],
+    [ "GetSpellScript", "d4/d90/a19924.html#a5ac5f523a79656a48d0acce6dd945d51", null ]
 ];

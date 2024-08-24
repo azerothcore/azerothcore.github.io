@@ -1,7 +1,4 @@
 var a10260 =
 [
-    [ "Flags", "df/d6f/a10260.html#a46bfcae3e4788d6ea4e6ee71b8a16edd", null ],
-    [ "TabFlags", "df/d6f/a10260.html#af9c7b68d1bd48da88f65fa40a01ccc72", null ],
-    [ "TabWithdrawItemLimit", "df/d6f/a10260.html#af16392abbddf27a8b21fd21d998501e6", null ],
-    [ "WithdrawGoldLimit", "df/d6f/a10260.html#a3dc50115a24b686d3a2fa9e28a7042af", null ]
+    [ "Validate", "df/d6f/a10260.html#aefab7047da58a45e9ef17b5ea7de505e", null ]
 ];

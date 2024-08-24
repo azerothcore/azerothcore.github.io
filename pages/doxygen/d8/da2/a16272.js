@@ -1,7 +1,6 @@
 var a16272 =
 [
-    [ "npc_toc_mageAI", "d8/da2/a16272.html#a188831088c892f68cef7498468b24899", null ],
-    [ "myCanCast", "d8/da2/a16272.html#aaf7fd7b143a4eb410465c7cb34c32d2f", null ],
-    [ "UpdateAI", "d8/da2/a16272.html#a0f4393341a6c565aef2c0b79a39c0699", null ],
-    [ "events", "d8/da2/a16272.html#ab1910ce98f3d1b14e45acba22782d536", null ]
+    [ "spell_halion_clear_debuffs_SpellScript", "d3/d82/a16276.html", "d3/d82/a16276" ],
+    [ "spell_halion_clear_debuffs", "d8/da2/a16272.html#a863f55f12480a315b4579b5f1134be96", null ],
+    [ "GetSpellScript", "d8/da2/a16272.html#a75ca74031a845242dcea5489380207f3", null ]
 ];

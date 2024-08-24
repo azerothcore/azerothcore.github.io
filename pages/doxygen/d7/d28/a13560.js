@@ -1,9 +1,6 @@
 var a13560 =
 [
-    [ "npc_halazzi_lynx", "d7/d28/a13560.html#a168ee019e1c75a89f6dbc9072b722ab2", null ],
-    [ "AttackStart", "d7/d28/a13560.html#a56d53ed05b674c1ee4ba35922cb3a5df", null ],
-    [ "DamageTaken", "d7/d28/a13560.html#a8cb6a034d663f1b4e00adc2e9366b268", null ],
-    [ "JustEngagedWith", "d7/d28/a13560.html#adb3e49eed663164aede9758d9aef70d7", null ],
-    [ "Reset", "d7/d28/a13560.html#a66c022846cde0cd3573bcc3cbfd37b38", null ],
-    [ "UpdateAI", "d7/d28/a13560.html#a14254c7a9e9b7f1a09ee414eee2ff21b", null ]
+    [ "npc_lady_sylvanas_windrunner_bfuAI", "d4/d85/a13564.html", "d4/d85/a13564" ],
+    [ "npc_lady_sylvanas_windrunner_bfu", "d7/d28/a13560.html#a77e98bc345f7d27f145d4b29c4deb58e", null ],
+    [ "GetAI", "d7/d28/a13560.html#a94fdd0778818fcc6a8b818d38dde6f75", null ]
 ];

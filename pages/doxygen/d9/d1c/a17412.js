@@ -1,20 +1,9 @@
 var a17412 =
 [
-    [ "npc_high_overlord_saurfang_igbAI", "d9/d1c/a17412.html#a1fce8cbcb5259774c0019c19bae334d0", null ],
-    [ "AttackStart", "d9/d1c/a17412.html#a7c04475d2de487a26aa3e7f58ad219e5", null ],
-    [ "CanAIAttack", "d9/d1c/a17412.html#a58b5476b42ea1d249cb3795da86509db", null ],
-    [ "DamageTaken", "d9/d1c/a17412.html#ae2715e5410ddf25734469594f72c7373", null ],
-    [ "DoAction", "d9/d1c/a17412.html#acf222bf3f1204215918e339d57e6ee37", null ],
-    [ "EnterEvadeMode", "d9/d1c/a17412.html#a8c66bcf54ba7d2c5a8d89a792e89fc8f", null ],
-    [ "JustEngagedWith", "d9/d1c/a17412.html#aa98690c2c7002915c72e68f9136a9ace", null ],
-    [ "SetData", "d9/d1c/a17412.html#ae3f9c7ef83cb3841f3081a5c8391ad85", null ],
-    [ "sGossipSelect", "d9/d1c/a17412.html#af3f71dfd8888a9d7eccdaff50315bea1", null ],
-    [ "UpdateAI", "d9/d1c/a17412.html#adf12312ee9a037b7cdbf384137a8ceb4", null ],
-    [ "_axethrowersYellCooldown", "d9/d1c/a17412.html#ad98e613c8d4625687f9ab16979d21707", null ],
-    [ "_controller", "d9/d1c/a17412.html#a259a8e82ed7a58f09d546fbcb317ea33", null ],
-    [ "_events", "d9/d1c/a17412.html#a132fc1f697d32c76c10766c71948fe01", null ],
-    [ "_firstMageCooldown", "d9/d1c/a17412.html#a984e2f3d3cf2b254717e2b4d1418216d", null ],
-    [ "_instance", "d9/d1c/a17412.html#aecb488fb2e2682c107072ea66d02ea8f", null ],
-    [ "_rocketeersYellCooldown", "d9/d1c/a17412.html#a0435dba6aff5287b1d10420a54a72d28", null ],
-    [ "checkTimer", "d9/d1c/a17412.html#a1c610a1cf0ba5a27aeb98d51dff916fa", null ]
+    [ "npc_pos_collapsing_icicleAI", "d9/d1c/a17412.html#a007e4bad6ef41729d3f7b7ade4285dfe", null ],
+    [ "SpellHitTarget", "d9/d1c/a17412.html#aea107ede3b11726b3f7caae590edaf52", null ],
+    [ "UpdateAI", "d9/d1c/a17412.html#ade416a422e67ce61e8874320cce7143b", null ],
+    [ "pInstance", "d9/d1c/a17412.html#a8c7e2643c2d443b382a60f28ea74266c", null ],
+    [ "timer1", "d9/d1c/a17412.html#a5757c27b8c8840cec6ad7282f0cbf51b", null ],
+    [ "timer2", "d9/d1c/a17412.html#aee61de504cfb25d9a99651a58ea0b63c", null ]
 ];

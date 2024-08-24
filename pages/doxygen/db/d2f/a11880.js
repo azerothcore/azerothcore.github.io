@@ -1,6 +1,7 @@
 var a11880 =
 [
-    [ "go_chromaggus_leverAI", "d4/d09/a11884.html", "d4/d09/a11884" ],
-    [ "go_chromaggus_lever", "db/d2f/a11880.html#a88f8078cd5aa1863ca20c9b02a0e52d2", null ],
-    [ "GetAI", "db/d2f/a11880.html#ae307b36029147b8385b3c40878d1a3e4", null ]
+    [ "HandlePeriodic", "db/d2f/a11880.html#abeccb99b8ad85a8d728d9f42913b662d", null ],
+    [ "PrepareAuraScript", "db/d2f/a11880.html#ab58de076e839e593cc7895e7bc18ba67", null ],
+    [ "Register", "db/d2f/a11880.html#ac5c3a92dee09f64094f3ec18caeab445", null ],
+    [ "Validate", "db/d2f/a11880.html#a74da3aae7a484aac4ac728201676b541", null ]
 ];

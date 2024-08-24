@@ -1,10 +1,7 @@
 var a07032 =
 [
-    [ "Battleground2ChatBuilder", "d0/d15/a07032.html#a3e1f73fd8ca5eaa6d1154e206d7d0cb1", null ],
-    [ "operator()", "d0/d15/a07032.html#a7c0ee21531ba43d9d2ab427d95da2ec5", null ],
-    [ "_arg1", "d0/d15/a07032.html#aa6959944406804f01baa18cd898bfc41", null ],
-    [ "_arg2", "d0/d15/a07032.html#aebfaeac77c40d4c7938cbdd488defc51", null ],
-    [ "_msgtype", "d0/d15/a07032.html#a770d30e207e41a8f985776787d53f2cf", null ],
-    [ "_source", "d0/d15/a07032.html#a8867dd698d0457688202e1a9378255d2", null ],
-    [ "_textId", "d0/d15/a07032.html#a632cab30adc21c22f1a8890b1627262a", null ]
+    [ "CommandPermissions", "d0/d15/a07032.html#ad1242d9067778298c44501b5d5a962f8", null ],
+    [ "CommandPermissions", "d0/d15/a07032.html#a47f284c63f10b6c3479624845b696aa6", null ],
+    [ "AllowConsole", "d0/d15/a07032.html#a8b419033e8dff0307a22a32bc57a1dc8", null ],
+    [ "RequiredLevel", "d0/d15/a07032.html#a4918f2c3b1913eb76d09d859479ebbae", null ]
 ];

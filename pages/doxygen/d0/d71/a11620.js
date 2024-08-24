@@ -1,7 +1,7 @@
 var a11620 =
 [
-    [ "boss_magmusAI", "d0/d71/a11620.html#a8a3e5361bda492007013af9228899b8f", null ],
-    [ "JustEngagedWith", "d0/d71/a11620.html#a11e4868628564078997694373315a9d6", null ],
-    [ "Reset", "d0/d71/a11620.html#a5fe304cec86831b7e64f83caee1392d0", null ],
-    [ "UpdateAI", "d0/d71/a11620.html#aa8bb8282c794ea02fe7bd95b3d32e5ea", null ]
+    [ "HandleScript", "d0/d71/a11620.html#ac6ef94a03f602b44a5c7c22b7e41d116", null ],
+    [ "PrepareSpellScript", "d0/d71/a11620.html#ad92a56c23b9f15e36766fe64d1d0dd17", null ],
+    [ "Register", "d0/d71/a11620.html#aa8ad85cbf0403d79e55bbe0ae184407b", null ],
+    [ "Validate", "d0/d71/a11620.html#a3ad038e7bf43dceedb0fceebd4070bfa", null ]
 ];

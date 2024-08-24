@@ -1,6 +1,7 @@
 var a27564 =
 [
-    [ "npc_stable_masterAI", "dc/d2f/a27568.html", "dc/d2f/a27568" ],
-    [ "npc_stable_master", "d8/d9a/a27564.html#ad327340f47e10bec7f077192227b0899", null ],
-    [ "GetAI", "d8/d9a/a27564.html#a7e34e18d2dad465eb88b0388fa830490", null ]
+    [ "CalculateDamageAmount", "d8/d9a/a27564.html#a2f608e8391e61434ef1b164c023854fe", null ],
+    [ "CalculateManaLeechAmount", "d8/d9a/a27564.html#a8a4946d1718d8045a72c92355ff38ecb", null ],
+    [ "PrepareAuraScript", "d8/d9a/a27564.html#a63d24d3ca4b2de1aa7f67376ded7bc59", null ],
+    [ "Register", "d8/d9a/a27564.html#aa6e74e89930fd3cc564c3cba86e3687e", null ]
 ];

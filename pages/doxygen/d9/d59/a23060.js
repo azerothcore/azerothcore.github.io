@@ -1,12 +1,7 @@
 var a23060 =
 [
-    [ "boss_fathomlord_karathress", "d9/d59/a23060.html#a05c483ea61011926c260b43f6c01cac3", null ],
-    [ "DoAction", "d9/d59/a23060.html#adc5685244341e353c6dac67b0191d877", null ],
-    [ "JustDied", "d9/d59/a23060.html#a4c356359be50b626a28fab4a803386f8", null ],
-    [ "JustEngagedWith", "d9/d59/a23060.html#ae221d994f2ebb0a298288233727ea1ba", null ],
-    [ "JustReachedHome", "d9/d59/a23060.html#a1e03da049ad75a464de5dd15ac5e6d88", null ],
-    [ "JustSummoned", "d9/d59/a23060.html#a3a692ef94d555e991a7cd34dee9812d9", null ],
-    [ "KilledUnit", "d9/d59/a23060.html#a02812a3cc7de22348058dedd107bb6d0", null ],
-    [ "Reset", "d9/d59/a23060.html#a52f76cb43a32c5f59cbc7476f0df8646", null ],
-    [ "_recentlySpoken", "d9/d59/a23060.html#a81f52ead90284ca3598cd64eb9fb88ee", null ]
+    [ "npc_valiance_keep_cannoneerAI", "d9/d59/a23060.html#a0769e975c5c7ff1cfbfa6089e3e55e3f", null ],
+    [ "Reset", "d9/d59/a23060.html#a65718076e65b68cae0a54ff4112fdb4b", null ],
+    [ "UpdateAI", "d9/d59/a23060.html#a75f16f2b028ca341db6e08536be06bfa", null ],
+    [ "uiTimer", "d9/d59/a23060.html#a0cf5f0413b1cded835252a38e272f835", null ]
 ];

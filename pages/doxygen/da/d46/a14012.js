@@ -1,9 +1,6 @@
 var a14012 =
 [
-    [ "HandleEffectPeriodic", "da/d46/a14012.html#a798c8ddfc71e703bfe1e3c1f2d926cef", null ],
-    [ "HandleEffectRemove", "da/d46/a14012.html#a96ed7366e568b70e82d622586740aa56", null ],
-    [ "Load", "da/d46/a14012.html#a85cbc44e586330e2adfc0656a428bd7b", null ],
-    [ "PrepareAuraScript", "da/d46/a14012.html#abd1f851112a50b79e815cdd894275bab", null ],
-    [ "Register", "da/d46/a14012.html#aa3cd85aed063017c4737e7660fa81f37", null ],
-    [ "questTick", "da/d46/a14012.html#ae2980e5f4934ce2ba5b755b7d45fab82", null ]
+    [ "boss_renatakiAI", "db/dea/a14016.html", "db/dea/a14016" ],
+    [ "boss_renataki", "da/d46/a14012.html#a8504ed2df8c8f8a85fc9d0e99cc24ec6", null ],
+    [ "GetAI", "da/d46/a14012.html#a386b7ef3d1fc4070eb300cf4fdaa4d9a", null ]
 ];

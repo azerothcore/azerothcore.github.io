@@ -1,6 +1,7 @@
 var a15584 =
 [
-    [ "npc_sergeant_blyAI", "d5/d69/a15588.html", "d5/d69/a15588" ],
-    [ "npc_sergeant_bly", "db/d1d/a15584.html#afd5c6129098e4939e2b9f3d12b8c7058", null ],
-    [ "GetAI", "db/d1d/a15584.html#ad54ff5aabbc30de759c8f31b7ef9f46e", null ]
+    [ "npc_giant_spotlightAI", "db/d1d/a15584.html#ae0f6686aaeacafce193e0d4590cf8c09", null ],
+    [ "Reset", "db/d1d/a15584.html#a79f6703107eed52a3aeae30393507c0f", null ],
+    [ "UpdateAI", "db/d1d/a15584.html#a8567f936dd15933300497d5abe80a272", null ],
+    [ "events", "db/d1d/a15584.html#a20d1087e59daae9189d78f04ea2b2d05", null ]
 ];

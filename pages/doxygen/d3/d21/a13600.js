@@ -1,6 +1,5 @@
 var a13600 =
 [
-    [ "boss_lord_raadanAI", "d1/dc0/a13604.html", "d1/dc0/a13604" ],
-    [ "boss_lord_raadan", "d3/d21/a13600.html#a04c8d77b684f19519ab102578363a6c6", null ],
-    [ "GetAI", "d3/d21/a13600.html#ab69910b0cead6757319757b7d38983ac", null ]
+    [ "npc_mikhail", "d3/d21/a13600.html#ab63d49e91b0d4b6ca0f00ff0992f5bad", null ],
+    [ "OnQuestAccept", "d3/d21/a13600.html#a3e1d81aa9e610b73c3d856b355338d3b", null ]
 ];

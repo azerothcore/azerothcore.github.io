@@ -1,12 +1,8 @@
 var a07088 =
 [
-    [ "NodeId", "da/d1c/a07088.html#a039c468fa0b6110809f0617496c0146c", null ],
-    [ "TextAllianceAssaulted", "da/d1c/a07088.html#a345b2ce7c48e9d10d03ff484a0108389", null ],
-    [ "TextAllianceClaims", "da/d1c/a07088.html#a0671602a29f33e353a8a339540beae18", null ],
-    [ "TextAllianceDefended", "da/d1c/a07088.html#ac87cbc9c4ec307bd2f3b09f6cdcd0250", null ],
-    [ "TextAllianceTaken", "da/d1c/a07088.html#a281a0378999ed5966f5d28cc4310fbcd", null ],
-    [ "TextHordeAssaulted", "da/d1c/a07088.html#a7fb668b0b9563bb0779bf4a5daefded8", null ],
-    [ "TextHordeClaims", "da/d1c/a07088.html#acddac09017717cf5b2893ab83e1d10c8", null ],
-    [ "TextHordeDefended", "da/d1c/a07088.html#a00cea010cfe6fb9702e5cb00003e5bef", null ],
-    [ "TextHordeTaken", "da/d1c/a07088.html#a2bbd1b49b9b72784d07be9db2a27fe77", null ]
+    [ "SearchMap", "da/d1c/a07088.html#a21bc680abec11928000923003bbad93f", null ],
+    [ "MakeSearchMap", "da/d1c/a07088.html#a8dc3337ff2ed1427fa9efdf35e458d7d", null ],
+    [ "Match", "da/d1c/a07088.html#a9f447ee626e80d616c304a4d07f25987", null ],
+    [ "TryConsume", "da/d1c/a07088.html#ac5bc3cde0205d8a1b200989cf6eb09cb", null ],
+    [ "_map", "da/d1c/a07088.html#a97e69e0044967ebb5369bfa0f46bd7bf", null ]
 ];

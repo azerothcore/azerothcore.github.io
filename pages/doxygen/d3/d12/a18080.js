@@ -1,8 +1,7 @@
 var a18080 =
 [
-    [ "FilterTargets", "d3/d12/a18080.html#a242fa53c2da9ac557623281bccf2af92", null ],
-    [ "HandleSendEvent", "d3/d12/a18080.html#a6120e057e2ee39d34eaeab79782add8d", null ],
-    [ "Load", "d3/d12/a18080.html#af48cdbf87d61cf6d8392f65ae4c9b18a", null ],
-    [ "PrepareSpellScript", "d3/d12/a18080.html#a0846e73f467d9c3a63b5e9a5d795aa37", null ],
-    [ "Register", "d3/d12/a18080.html#ae83950dfc35f7c1e64806d6ec273083c", null ]
+    [ "npc_gunship_boarding_leaderAI", "d3/d12/a18080.html#ac20099905fd6fddda2561b88cf077b77", null ],
+    [ "JustEngagedWith", "d3/d12/a18080.html#a448ee30c01317a7e3c842a0043b15c2a", null ],
+    [ "UpdateAI", "d3/d12/a18080.html#ab7a105fbc49a365d609c7787b61fd75f", null ],
+    [ "_events", "d3/d12/a18080.html#affb899bbaa288e72a48d5518367b023d", null ]
 ];

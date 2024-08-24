@@ -1,9 +1,9 @@
 var a08268 =
 [
-    [ "ActionButton", "d6/d02/a08268.html#a78f4e95d921fb997647f89c67c2a66b7", null ],
-    [ "GetAction", "d6/d02/a08268.html#a7c10f6089fab30179cfe8175b740477a", null ],
-    [ "GetType", "d6/d02/a08268.html#abe5bc143770d411cff0d8c8c425b1253", null ],
-    [ "SetActionAndType", "d6/d02/a08268.html#a29d804ed78d79f64e868e9741b37d7be", null ],
-    [ "packedData", "d6/d02/a08268.html#a2a34a116c4890a12255f9ebe24c1cba8", null ],
-    [ "uState", "d6/d02/a08268.html#a6384e73650da93c96d3b4cc42b151b63", null ]
+    [ "TransportBase", "d6/d02/a08268.html#a6dba8e37217dae4e5da8f52780e63f70", null ],
+    [ "~TransportBase", "d6/d02/a08268.html#a81dca3435a1a1666a90acd8e154e3287", null ],
+    [ "CalculatePassengerOffset", "d6/d02/a08268.html#ae8c9eb64027f8e7c781f0af192e3f6c1", null ],
+    [ "CalculatePassengerOffset", "d6/d02/a08268.html#aa4d00f15dc0e6c53b4a175b0ca53021b", null ],
+    [ "CalculatePassengerPosition", "d6/d02/a08268.html#a7cb7586a6935ca4e08aa3e658982abec", null ],
+    [ "CalculatePassengerPosition", "d6/d02/a08268.html#a328fbc464c56eca89138380182a0108c", null ]
 ];

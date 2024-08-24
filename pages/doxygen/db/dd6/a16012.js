@@ -1,6 +1,6 @@
 var a16012 =
 [
-    [ "boss_saviana_ragefireAI", "d5/d7c/a16016.html", "d5/d7c/a16016" ],
-    [ "boss_saviana_ragefire", "db/dd6/a16012.html#a5964bbc510355a8b1fd08bd5f9f5f8c0", null ],
-    [ "GetAI", "db/dd6/a16012.html#a0a0073d8710af066d9711636f4d5b01e", null ]
+    [ "spell_hadronox_leech_poison_AuraScript", "d5/d7c/a16016.html", "d5/d7c/a16016" ],
+    [ "spell_hadronox_leech_poison", "db/dd6/a16012.html#ac728cdca360c47e36de9aa6144914083", null ],
+    [ "GetAuraScript", "db/dd6/a16012.html#a4d6b18d6c1055d314bc4d6f6d62b4345", null ]
 ];

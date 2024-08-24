@@ -1,7 +1,6 @@
 var a13204 =
 [
-    [ "HandleAfterCast", "dd/d2d/a13204.html#a251ddadd9d26039da542c402e4ee254f", null ],
-    [ "PrepareSpellScript", "dd/d2d/a13204.html#a91114aeb4f917ec5138a0c7b20688174", null ],
-    [ "Register", "dd/d2d/a13204.html#a42960206e2444d8e6fb8fdc4d80a534b", null ],
-    [ "Validate", "dd/d2d/a13204.html#ad4012436a41537fc5ae854c0c48f09b1", null ]
+    [ "spell_muru_darkness_AuraScript", "d8/dc2/a13208.html", "d8/dc2/a13208" ],
+    [ "spell_muru_darkness", "dd/d2d/a13204.html#a6b6c6d9189d28bbb54cff4bee90a75b2", null ],
+    [ "GetAuraScript", "dd/d2d/a13204.html#a6403321f79158cdb2834c16cb7d7c7a8", null ]
 ];

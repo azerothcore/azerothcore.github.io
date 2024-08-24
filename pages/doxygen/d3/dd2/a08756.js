@@ -1,6 +1,10 @@
 var a08756 =
 [
-    [ "Conditions", "d3/dd2/a08756.html#a93edc2f0d71164b683c844b713befa85", null ],
-    [ "MenuID", "d3/dd2/a08756.html#a732aa82f621c312745ddbd6fe2e3e906", null ],
-    [ "TextID", "d3/dd2/a08756.html#a6ec8df5fcc5126bdee656ca08c0a5edc", null ]
+    [ "AnyAoETargetUnitInObjectRangeCheck", "d3/dd2/a08756.html#a93d850e2d5f094b97ca5c09bf1d236a9", null ],
+    [ "operator()", "d3/dd2/a08756.html#af9a0c32593544a73aae22cd397eef63a", null ],
+    [ "_spellInfo", "d3/dd2/a08756.html#a1317c9df0d5792ad3122ff1ed1a31458", null ],
+    [ "i_funit", "d3/dd2/a08756.html#aa00b184a24ea73293114f92126f58f24", null ],
+    [ "i_obj", "d3/dd2/a08756.html#aa4acf0089c978408e30b08d539f2512f", null ],
+    [ "i_range", "d3/dd2/a08756.html#ad386efa8206906fd99816694a6a8d69b", null ],
+    [ "i_targetForPlayer", "d3/dd2/a08756.html#af5ce329f3493b97f59c61c3e87af48b1", null ]
 ];

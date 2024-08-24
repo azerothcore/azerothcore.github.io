@@ -1,5 +1,7 @@
 var a27320 =
 [
-    [ "item_disgusting_jar", "de/d7f/a27320.html#add658cf7d026ac12d3eacc0c1dc8d7fb", null ],
-    [ "OnExpire", "de/d7f/a27320.html#a4f6967035a4d247914a6034fcebac5c5", null ]
+    [ "CalculateAmount", "de/d7f/a27320.html#a074a7de6cd4d930c1f23f6398c738bad", null ],
+    [ "Load", "de/d7f/a27320.html#a777803a61286e0eba31246d4771630df", null ],
+    [ "PrepareAuraScript", "de/d7f/a27320.html#ab76bc3927d3ce31ae061fe8577ca25f0", null ],
+    [ "Register", "de/d7f/a27320.html#a335e1629b98bfacf6e4e565b94d4991e", null ]
 ];

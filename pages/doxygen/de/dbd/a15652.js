@@ -1,8 +1,9 @@
 var a15652 =
 [
-    [ "HandleScriptEffect", "de/dbd/a15652.html#af3e18fa5befc7124f2a3dbcd36259e6b", null ],
-    [ "Load", "de/dbd/a15652.html#ab293f8b536957558fa8886e1f4a23e74", null ],
-    [ "PrepareSpellScript", "de/dbd/a15652.html#ae4a1abf2e39c6806d804dea9ce5808ef", null ],
-    [ "Register", "de/dbd/a15652.html#a9fb54f0662982dec90c2e6f8568421ed", null ],
-    [ "Validate", "de/dbd/a15652.html#a2bee81d684c4739bb6247bfbdb74a21b", null ]
+    [ "go_wind_stoneAI", "de/dbd/a15652.html#a4370be2b59ea50bf5ea2285bfbf4e242", null ],
+    [ "GossipHello", "de/dbd/a15652.html#a73f129b7b636a1178fe3402cf1e6c50d", null ],
+    [ "GossipSelect", "de/dbd/a15652.html#aff4dedbf3a6fea405722f7064633edb1", null ],
+    [ "InitializeAI", "de/dbd/a15652.html#a33f98d1de05b539a66c4103b4c61de1f", null ],
+    [ "SummonNPC", "de/dbd/a15652.html#ab44f563b8f117a19ac78508c3cba72e9", null ],
+    [ "_creatureGuid", "de/dbd/a15652.html#a50ad8b248381a6d9fac7a291796966d6", null ]
 ];

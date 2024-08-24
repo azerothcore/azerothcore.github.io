@@ -1,8 +1,6 @@
 var a18280 =
 [
-    [ "npc_lk_wicked_spiritAI", "d3/d41/a18280.html#a6323ddd6c0932f3d73a6de4bd3c4d5dd", null ],
-    [ "CanAIAttack", "d3/d41/a18280.html#ae094420b1a6e134632baa0b086c806c6", null ],
-    [ "JustDied", "d3/d41/a18280.html#adf153fab1c8639b2b5790ed418afb85d", null ],
-    [ "JustRespawned", "d3/d41/a18280.html#a1acfbead42b66dd8f70a85efc8ce2e6f", null ],
-    [ "Reset", "d3/d41/a18280.html#a8b15079251b6855679d738a342126006", null ]
+    [ "CheckProc", "d3/d41/a18280.html#a86e62fa26606a77284c80583e7b35d27", null ],
+    [ "PrepareAuraScript", "d3/d41/a18280.html#a2c10a09e9e5015eb4f3c66d5086dbe1a", null ],
+    [ "Register", "d3/d41/a18280.html#a6214f78c5c7eb3f60371fa12530d5991", null ]
 ];

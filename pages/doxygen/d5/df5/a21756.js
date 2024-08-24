@@ -1,5 +1,6 @@
 var a21756 =
 [
-    [ "at_q24545_frostmourne_cavern", "d5/df5/a21756.html#a76e2d8424b5fcd037fabfa9b878d21e1", null ],
-    [ "OnTrigger", "d5/df5/a21756.html#a9016ef31fde1bbcaf57a17e64ea8d503", null ]
+    [ "spell_mimiron_rapid_burst_AuraScript", "dd/dab/a21760.html", "dd/dab/a21760" ],
+    [ "spell_mimiron_rapid_burst", "d5/df5/a21756.html#a29b0c8d8d55a881bb2ddf01b995a5404", null ],
+    [ "GetAuraScript", "d5/df5/a21756.html#a7bf964f5b84bced388701d5bec9cda98", null ]
 ];

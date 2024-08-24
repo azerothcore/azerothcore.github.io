@@ -1,8 +1,7 @@
 var a07596 =
 [
-    [ "UnitBaseEvent", "d6/dcc/a07596.html#a2d4586c59a7595374d427a15924c34fd", null ],
-    [ "getType", "d6/dcc/a07596.html#a7619b09043a8a729df77502786216aff", null ],
-    [ "matchesTypeMask", "d6/dcc/a07596.html#a05103aacf99310a6c9e602296d56f168", null ],
-    [ "setType", "d6/dcc/a07596.html#a1a3ae3042df9ca91d17a1c3320579867", null ],
-    [ "iType", "d6/dcc/a07596.html#a528a4023be375f43f4ac33b55f5c95d9", null ]
+    [ "entry", "d6/dcc/a07596.html#aabf7002fbd171e7f1832be5f066dbe44", null ],
+    [ "pos", "d6/dcc/a07596.html#aad6aa76796625075e4fcfb7d1a3eb88c", null ],
+    [ "time", "d6/dcc/a07596.html#a8a38eed04cdb2efb89e98f869e0d800d", null ],
+    [ "type", "d6/dcc/a07596.html#a40927a435b557e4c1e5c5eedbb5d5e5b", null ]
 ];

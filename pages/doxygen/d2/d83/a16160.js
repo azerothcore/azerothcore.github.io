@@ -1,6 +1,5 @@
 var a16160 =
 [
-    [ "npc_swarm_scarabAI", "df/dac/a16164.html", "df/dac/a16164" ],
-    [ "npc_swarm_scarab", "d2/d83/a16160.html#a1d0969526e57ca50c9a499c83f978fd2", null ],
-    [ "GetAI", "d2/d83/a16160.html#ae12fe8a7c6ee09fc16bd152f59c2d936", null ]
+    [ "at_baltharus_plateau", "d2/d83/a16160.html#ac7acc8816b298446ac9bb8d6b82f27b6", null ],
+    [ "OnTrigger", "d2/d83/a16160.html#aea08e30eb57d5d84b78b8891c4a45afb", null ]
 ];

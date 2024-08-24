@@ -1,8 +1,6 @@
 var a16344 =
 [
-    [ "npc_toc_pet_hunterAI", "d5/d52/a16344.html#a751e37388df10abf4bf9df5d3f373fa3", null ],
-    [ "EnterEvadeMode", "d5/d52/a16344.html#a7f60ea2596fa4af2209333696dbe00e0", null ],
-    [ "myCanCast", "d5/d52/a16344.html#aefaa41a92000d8915853988ce3fd5bc4", null ],
-    [ "UpdateAI", "d5/d52/a16344.html#aec1d16cdcb7d86d7de4de10ca34f491d", null ],
-    [ "events", "d5/d52/a16344.html#ade038312363f976b34868ed2cbebb58d", null ]
+    [ "spell_halion_twilight_mending_SpellScript", "d3/d4f/a16348.html", "d3/d4f/a16348" ],
+    [ "spell_halion_twilight_mending", "d5/d52/a16344.html#aef14b7d915ed5712877e9ee8725c3c90", null ],
+    [ "GetSpellScript", "d5/d52/a16344.html#a8f639bdfb7f374e682ba76274231b7ec", null ]
 ];

@@ -1,9 +1,12 @@
 var a19808 =
 [
-    [ "npc_thorims_hammerAI", "de/de9/a19808.html#aafda36c8d784252d271ef031ab6a3d34", null ],
-    [ "Reset", "de/de9/a19808.html#a57975d0dc00c86946e547ba43c7151ec", null ],
-    [ "UpdateAI", "de/de9/a19808.html#a4e01a61d09c11647e06c3547d6fa91fa", null ],
-    [ "_beamTimer", "de/de9/a19808.html#aba7c6c078977a8187a7e673ba3126bfd", null ],
-    [ "_finishTime", "de/de9/a19808.html#a218bd28d18a2c2f0aef6906619437209", null ],
-    [ "_removeTimer", "de/de9/a19808.html#a958e4c975d1ae634745107af7d204f82", null ]
+    [ "npc_icc_nerubar_broodkeeperAI", "de/de9/a19808.html#a2e3abb6f8889b8df818e8260e6428375", null ],
+    [ "JustEngagedWith", "de/de9/a19808.html#ae69a8fd357856d0ec6a944ca8c0007ca", null ],
+    [ "JustReachedHome", "de/de9/a19808.html#a0c871df28d4461debb97404d29b9904a", null ],
+    [ "MoveInLineOfSight", "de/de9/a19808.html#a846fe2784308eb694f5f482133a33a7f", null ],
+    [ "MovementInform", "de/de9/a19808.html#a9a5584eea4bc08f55ddfd7efe23bce2e", null ],
+    [ "Reset", "de/de9/a19808.html#afbb260e4968865e7c4141e73a050e663", null ],
+    [ "UpdateAI", "de/de9/a19808.html#ad63d3a91bdd677a9cdd497198860cac6", null ],
+    [ "_didWebBeam", "de/de9/a19808.html#a8772cf938d30ddcc439d3912db578dfa", null ],
+    [ "events", "de/de9/a19808.html#ac1b5b05f9fbaf1879c95bc7127fcb6e9", null ]
 ];

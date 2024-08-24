@@ -1,6 +1,5 @@
 var a23556 =
 [
-    [ "HandleHit", "d9/da4/a23556.html#ab948b958955c2413ad6e15dfa09fd3cd", null ],
-    [ "PrepareSpellScript", "d9/da4/a23556.html#a37ff09e6b82d69c85b5bd98e84968569", null ],
-    [ "Register", "d9/da4/a23556.html#acb1b681f587817614c2b3684585369db", null ]
+    [ "npc_black_knight_graveyardAI", "d9/da4/a23556.html#a908ccf6763240ba0c0ebdf2dec6e1b36", null ],
+    [ "MoveInLineOfSight", "d9/da4/a23556.html#aa5c80b5759656e3865d6721161f9f005", null ]
 ];

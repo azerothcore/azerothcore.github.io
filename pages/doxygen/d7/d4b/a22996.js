@@ -1,6 +1,5 @@
 var a22996 =
 [
-    [ "HandleScriptEffect", "d7/d4b/a22996.html#a0810dd4ad4d324c1a53e192fc99d1d35", null ],
-    [ "PrepareSpellScript", "d7/d4b/a22996.html#a0ece61d7bed3e19ee6f6175a55c0733d", null ],
-    [ "Register", "d7/d4b/a22996.html#a827cefe322562f0e8ea7cfa58b9a776b", null ]
+    [ "npc_nerubar_victimAI", "d7/d4b/a22996.html#a494976030dd48544742dd14fc09ffdbd", null ],
+    [ "JustDied", "d7/d4b/a22996.html#abe3813465cad08800708726cb7ffa021", null ]
 ];

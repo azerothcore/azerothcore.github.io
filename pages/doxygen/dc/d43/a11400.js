@@ -1,7 +1,6 @@
 var a11400 =
 [
-    [ "player_commandscript", "dc/d43/a11400.html#a1565aa67743cfd3e5fe5179b4100bd20", null ],
-    [ "GetCommands", "dc/d43/a11400.html#a0e1e8eec0fe449c95c5cf9dd06a0fced", null ],
-    [ "HandlePlayerLearnCommand", "dc/d43/a11400.html#a6ca511bcecf73049665772cb80dbcf40", null ],
-    [ "HandlePlayerUnLearnCommand", "dc/d43/a11400.html#a22fddb5da1278fe794a78a899c423bfd", null ]
+    [ "boss_drakkisathAI", "de/d22/a11404.html", "de/d22/a11404" ],
+    [ "boss_drakkisath", "dc/d43/a11400.html#a73f21cbd7b81fc045ae129d7d650b455", null ],
+    [ "GetAI", "dc/d43/a11400.html#ad27999ba129b2e3617c1aba1c4b9772b", null ]
 ];

@@ -1,8 +1,9 @@
 var a08976 =
 [
-    [ "MostHPMissingInRange", "de/d35/a08976.html#afaa26b685d4e6b0b8d3e7f062ae9fe72", null ],
-    [ "operator()", "de/d35/a08976.html#a420388204d8a1420552b902fbcb2bebe", null ],
-    [ "i_hp", "de/d35/a08976.html#a4a70531f3dc19e7a2eedde0a03142297", null ],
-    [ "i_obj", "de/d35/a08976.html#a6f803fd737b4cc81c7b9c890c49b497e", null ],
-    [ "i_range", "de/d35/a08976.html#acef63da9004997c7f25056651284efa9", null ]
+    [ "LoginQueryHolder", "de/d35/a08976.html#a0e1a9e1b505ba40d08daee432eaa40c1", null ],
+    [ "GetAccountId", "de/d35/a08976.html#ac44ea5d53fa90dae955bfaa3f472ecea", null ],
+    [ "GetGuid", "de/d35/a08976.html#a8cdce5befc3b7f8727eef78ab1f768a2", null ],
+    [ "Initialize", "de/d35/a08976.html#ae21aca0c9ccc627e084b4a535b3f5774", null ],
+    [ "m_accountId", "de/d35/a08976.html#abc8056182803af44a062fe6153fdd009", null ],
+    [ "m_guid", "de/d35/a08976.html#ab4696408b2e649dcdaae0bc4330c0b9e", null ]
 ];

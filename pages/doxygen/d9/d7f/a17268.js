@@ -1,6 +1,6 @@
 var a17268 =
 [
-    [ "HandleScript", "d9/d7f/a17268.html#acd11d50f398857dc2a24bd2d63e52222", null ],
-    [ "PrepareSpellScript", "d9/d7f/a17268.html#a3d218b009c195b6e0fab5152a95da8ad", null ],
-    [ "Register", "d9/d7f/a17268.html#ad7f12515dc21ab6b19148370fd491629", null ]
+    [ "npc_hor_lumbering_abominationAI", "df/d52/a17272.html", "df/d52/a17272" ],
+    [ "npc_hor_lumbering_abomination", "d9/d7f/a17268.html#a0d394d1ba52a05a6db0ae983daea7123", null ],
+    [ "GetAI", "d9/d7f/a17268.html#a0601ac0af85e545617013846c48de29a", null ]
 ];

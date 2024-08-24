@@ -1,7 +1,6 @@
 var a22664 =
 [
-    [ "HandleProc", "de/dc6/a22664.html#a4d12ab1b286105fdad5eb2dd20131408", null ],
-    [ "PrepareAuraScript", "de/dc6/a22664.html#a94b6499dc2e1fa95a50bd9c3c491e858", null ],
-    [ "Register", "de/dc6/a22664.html#a6b764182501a1d192f90dc20bbd6549e", null ],
-    [ "Validate", "de/dc6/a22664.html#ad89123425cca5bd02a18526a11595a1a", null ]
+    [ "boss_archavonAI", "d7/df4/a22668.html", "d7/df4/a22668" ],
+    [ "boss_archavon", "de/dc6/a22664.html#a44e20480f8d86cf763afe67de49c6c33", null ],
+    [ "GetAI", "de/dc6/a22664.html#a5eb62d54fe1559ef9df51c2bd01f7de4", null ]
 ];

@@ -1,8 +1,12 @@
 var a11080 =
 [
-    [ "CreatureTextId", "db/d6e/a11080.html#ae8058e922bafc69b718ca4be1be39688", null ],
-    [ "operator<", "db/d6e/a11080.html#ae0c693f6cf1959c79e1b3773a2f54db9", null ],
-    [ "entry", "db/d6e/a11080.html#ad69afcf7be87d1f96611fe925b68f26a", null ],
-    [ "textGroup", "db/d6e/a11080.html#af1d1f3f310c219c32ca9b8917d8fb67d", null ],
-    [ "textId", "db/d6e/a11080.html#a5d45808a0b84ca11c8d05c25d26341a2", null ]
+    [ "message_commandscript", "db/d6e/a11080.html#a2b0b67076e1cb4c51964d13ec4ab9829", null ],
+    [ "GetCommands", "db/d6e/a11080.html#a9fc83cb2d161a4158f98ec0b580bcc32", null ],
+    [ "HandleAnnounceCommand", "db/d6e/a11080.html#a85e2965e4a8fe01ba4a7775a28ef0005", null ],
+    [ "HandleGMAnnounceCommand", "db/d6e/a11080.html#a3af0a2d84a17dfdba8286c54d99c95a9", null ],
+    [ "HandleGMNameAnnounceCommand", "db/d6e/a11080.html#aa667bd6e81cf7c3dbabfa40d08c45475", null ],
+    [ "HandleGMNotifyCommand", "db/d6e/a11080.html#a0ff57aadce36fddb3c0d36adea8a3e28", null ],
+    [ "HandleNameAnnounceCommand", "db/d6e/a11080.html#a786902b70345712c6dba9f638695dd9e", null ],
+    [ "HandleNotifyCommand", "db/d6e/a11080.html#a0d53b2414931451b30abd2fe5acee1af", null ],
+    [ "HandleWhispersCommand", "db/d6e/a11080.html#a9a02c97677250136f9717968a9f47b73", null ]
 ];

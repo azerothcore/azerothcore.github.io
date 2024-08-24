@@ -1,6 +1,6 @@
 var a17276 =
 [
-    [ "boss_deathbringer_saurfangAI", "d7/dcd/a17280.html", "d7/dcd/a17280" ],
-    [ "boss_deathbringer_saurfang", "d7/d54/a17276.html#ad19893be7dc3b4290d9b1ed3bb992e08", null ],
-    [ "GetAI", "d7/d54/a17276.html#a6bc1ef44b3ea9e860d62bf78cfa38c92", null ]
+    [ "spell_hor_gunship_cannon_fireAuraScript", "d7/dcd/a17280.html", "d7/dcd/a17280" ],
+    [ "spell_hor_gunship_cannon_fire", "d7/d54/a17276.html#a1df8d0312a08979df38e8cae7f405017", null ],
+    [ "GetAuraScript", "d7/d54/a17276.html#ad6087baf8342d88812fdd39c54f139ab", null ]
 ];

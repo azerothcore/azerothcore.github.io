@@ -1,5 +1,7 @@
 var a27108 =
 [
-    [ "go_arena_ready_marker", "d0/d32/a27108.html#a614ee8efff31d928a9f4547d60b6a6a6", null ],
-    [ "OnGossipHello", "d0/d32/a27108.html#a9f51ead2b56d51427ff23be9688388d8", null ]
+    [ "HandleScript", "d0/d32/a27108.html#a628fbc7ef23ce8f93d132f7bf518d4d8", null ],
+    [ "PrepareSpellScript", "d0/d32/a27108.html#a8e5aa0a33907c5216299734a928de2fd", null ],
+    [ "Register", "d0/d32/a27108.html#a9e25da03bbbea35f13420c14c6fab0d5", null ],
+    [ "Validate", "d0/d32/a27108.html#a30cc03ed0c19074dc1fde4951a061815", null ]
 ];

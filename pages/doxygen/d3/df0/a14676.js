@@ -1,15 +1,10 @@
 var a14676 =
 [
-    [ "npc_time_rift", "d3/df0/a14676.html#ab553bcc40699a63310feaaa7b1bd2604", null ],
-    [ "DoSelectSummon", "d3/df0/a14676.html#af2932c60efaea64d27d52b118b9a8095", null ],
-    [ "DoSummonAtRift", "d3/df0/a14676.html#a6cb4717848efe7e5e0b0113a9ff7dcb5", null ],
-    [ "JustSummoned", "d3/df0/a14676.html#a1d96b081db3cb2a9c40f5adb1c9b109d", null ],
-    [ "Reset", "d3/df0/a14676.html#ad08ca716f120a45ee1688e03d2049aba", null ],
-    [ "SummonedCreatureDies", "d3/df0/a14676.html#ae0ebd0268454ac0cac83235afd7f6363", null ],
-    [ "UpdateAI", "d3/df0/a14676.html#ab5924378c7978c6fae95f9861040c63d", null ],
-    [ "_events", "d3/df0/a14676.html#a12ffd459f8d63f299269da5b65f60128", null ],
-    [ "_instance", "d3/df0/a14676.html#a8eab9c3011c885321d59e2884318d0e8", null ],
-    [ "_riftKeeperGUID", "d3/df0/a14676.html#ad554d8266ded70cadd8c00a3ff5a3321", null ],
-    [ "waveMobIndex", "d3/df0/a14676.html#aa312223ece9f0f1c4ac2861aed3988a9", null ],
-    [ "waveMobs", "d3/df0/a14676.html#a7872706f9b5bdee7e6ca2d94e39e592f", null ]
+    [ "alliance_riflemanAI", "d3/df0/a14676.html#abe3009936942a74a4d9952d2be95d72c", null ],
+    [ "JustDied", "d3/df0/a14676.html#a9f565eac063943519718c1ada1aa5bb5", null ],
+    [ "JustEngagedWith", "d3/df0/a14676.html#ad93d8a1ea26c69134c76fe7d9ea6710c", null ],
+    [ "MoveInLineOfSight", "d3/df0/a14676.html#a890289abd4ff9b39154c62dcde2f5718", null ],
+    [ "Reset", "d3/df0/a14676.html#a4d70551426e46f47399f596e4031a25f", null ],
+    [ "UpdateAI", "d3/df0/a14676.html#afbbf23790494a45cec0db0972dd05dae", null ],
+    [ "ExplodeTimer", "d3/df0/a14676.html#a42ed8e8c1f1e2f96a7238c11f4b48259", null ]
 ];

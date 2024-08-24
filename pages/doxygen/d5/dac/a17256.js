@@ -1,7 +1,8 @@
 var a17256 =
 [
-    [ "OnProc", "d5/dac/a17256.html#a5b6e96abb900da33657cdbbd137138e3", null ],
-    [ "PrepareAuraScript", "d5/dac/a17256.html#a5502476536a923e77af67c4bbcf005e3", null ],
-    [ "Register", "d5/dac/a17256.html#aca08edf219504156d6157c95702bb815", null ],
-    [ "Validate", "d5/dac/a17256.html#a52b1231f37e8b3d810614365659a98b6", null ]
+    [ "npc_hor_raging_ghoulAI", "d5/dac/a17256.html#ac4b2b3acf8a7acda73c7158f1565a274", null ],
+    [ "JustDied", "d5/dac/a17256.html#a70e581c9b3f7d88d497c1540ac9ca04c", null ],
+    [ "Reset", "d5/dac/a17256.html#aa52576d94e230797209dfc938d62187f", null ],
+    [ "UpdateAI", "d5/dac/a17256.html#ac7c8571eac32f722a5fb0c28092b7e8f", null ],
+    [ "leaped", "d5/dac/a17256.html#a12f6e6d5911b2b8b9caa01a9a83570bc", null ]
 ];

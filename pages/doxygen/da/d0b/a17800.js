@@ -1,6 +1,6 @@
 var a17800 =
 [
-    [ "ExtraEffect", "da/d0b/a17800.html#a10dfb36a835589208482e1c8833d8f46", null ],
-    [ "PrepareSpellScript", "da/d0b/a17800.html#a972ff2bdc7d3660820e05326600be6f6", null ],
-    [ "Register", "da/d0b/a17800.html#ae337e67a220b72b44878d02be33e3888", null ]
+    [ "FilterTargets", "da/d0b/a17800.html#a73a6402909c4a89462ed57174beae34a", null ],
+    [ "PrepareSpellScript", "da/d0b/a17800.html#ad49d3776f7f9cfb4c2ec453fb2db2d36", null ],
+    [ "Register", "da/d0b/a17800.html#a3227057bea9c7dacbe1b6646ca105087", null ]
 ];

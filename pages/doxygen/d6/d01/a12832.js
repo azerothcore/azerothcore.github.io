@@ -1,7 +1,6 @@
 var a12832 =
 [
-    [ "HandleScript", "d6/d01/a12832.html#ab705220b48be16090107135f9e2272cf", null ],
-    [ "PrepareSpellScript", "d6/d01/a12832.html#a8bf22d62d6e7f50315e4c14714b8457f", null ],
-    [ "Register", "d6/d01/a12832.html#ac969bf9f37d02f2b3d78d31d7f8c4625", null ],
-    [ "Validate", "d6/d01/a12832.html#ad1d90693a427a52fa728e5ae455932a3", null ]
+    [ "OnRemove", "d6/d01/a12832.html#aa1cf7727c57d5b6a1968bafcdef63113", null ],
+    [ "PrepareAuraScript", "d6/d01/a12832.html#a1139466be6e4391d1f488d3f56758b2c", null ],
+    [ "Register", "d6/d01/a12832.html#a6ff95222d980c659653116f560ec2b80", null ]
 ];

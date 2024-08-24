@@ -1,7 +1,6 @@
 var a24772 =
 [
-    [ "if", "d6/d71/a24772.html#a6b9c0d513b24e9a5c0eef8307b2eb3a8", null ],
-    [ "PrepareAuraScript", "d6/d71/a24772.html#a01d974333043452a37ec3124d23b49f2", null ],
-    [ "Register", "d6/d71/a24772.html#aeb6c695819e894aad8b210a237e6d315", null ],
-    [ "AuraEffectHandleModes", "d6/d71/a24772.html#a9b235517305f9b2fcf2d31eb3a4edbd2", null ]
+    [ "boss_veras_darkshadowAI", "d3/d7a/a24776.html", "d3/d7a/a24776" ],
+    [ "boss_veras_darkshadow", "d6/d71/a24772.html#ab5491df9e30d11b6b7c046d11b6e13c6", null ],
+    [ "GetAI", "d6/d71/a24772.html#a2c7acfe8ae8a42b572bffe8124ab43cf", null ]
 ];

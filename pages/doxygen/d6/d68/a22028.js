@@ -1,7 +1,9 @@
 var a22028 =
 [
-    [ "GetSeatNumber", "d6/d68/a22028.html#a8e18a10196667fd3dfba58d16fa281b9", null ],
-    [ "HandleDummy", "d6/d68/a22028.html#ac5945381452559e1d5655f5345bdeff3", null ],
-    [ "PrepareSpellScript", "d6/d68/a22028.html#aad375c0d3d1f0352cbda6a23cfb61272", null ],
-    [ "Register", "d6/d68/a22028.html#aad1cb82fdcd170f5a43f5007ebaadf2e", null ]
+    [ "npc_xt002_scrapbotAI", "d6/d68/a22028.html#a21be97bb49ff06ef090cbbe6f5006f56", null ],
+    [ "JustDied", "d6/d68/a22028.html#adcab192d017e6a9e8d103a6e8b91cb26", null ],
+    [ "MovementInform", "d6/d68/a22028.html#a48fd29d42280ae91852ef2ef0cecc8f6", null ],
+    [ "Reset", "d6/d68/a22028.html#aab71d2a49ee96e88a2858c07c455e78d", null ],
+    [ "UpdateAI", "d6/d68/a22028.html#ae2de6767f8ab502833971e4171d48c13", null ],
+    [ "_locked", "d6/d68/a22028.html#add3bfe992d635629ac7e07e04c4334c9", null ]
 ];

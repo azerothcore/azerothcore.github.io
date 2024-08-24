@@ -1,12 +1,5 @@
 var a13892 =
 [
-    [ "npc_chained_spirit", "de/dfe/a13892.html#a5f407e700a2086f971bed0e8c0def0db", null ],
-    [ "DoAction", "de/dfe/a13892.html#a7205ef13ca0d164a9222c049bc582254", null ],
-    [ "JustDied", "de/dfe/a13892.html#a3b405503231173e7ff7aa52e34f63da5", null ],
-    [ "MovementInform", "de/dfe/a13892.html#a469a8fdc4a40857ff1dc0af9ead74d3c", null ],
-    [ "Reset", "de/dfe/a13892.html#a2a8a8a429492511aac697878b5dc4cc3", null ],
-    [ "SetGUID", "de/dfe/a13892.html#acbe42c0692e8c1d671f2745ff8c2f9bb", null ],
-    [ "UpdateAI", "de/dfe/a13892.html#a38d14b69c71bf2902a916028580fbfad", null ],
-    [ "instance", "de/dfe/a13892.html#ad5dd92208d6a23954fef6348f4abbd23", null ],
-    [ "revivePlayerGUID", "de/dfe/a13892.html#a193fddae1d3eb84bc36842adbb1fe86a", null ]
+    [ "at_zulgurub_bloodfire_pit_speech", "de/dfe/a13892.html#a880058a08d7da3b8d3062a8bc17367a4", null ],
+    [ "_OnTrigger", "de/dfe/a13892.html#a8f1e477942ba9a5f653077632a98930f", null ]
 ];

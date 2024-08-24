@@ -1,12 +1,11 @@
 var a07560 =
 [
-    [ "HyperlinkInfo", "dc/d12/a07560.html#aa61aad1a1e2cf1a699ff67ee25cc474b", null ],
-    [ "HyperlinkInfo", "dc/d12/a07560.html#ac08518b3afb878fc7979807d764b7872", null ],
-    [ "operator bool", "dc/d12/a07560.html#a834ac95bb310f6653208026e203e065f", null ],
-    [ "color", "dc/d12/a07560.html#a38c0121d4001ad938d9bc53ca08217db", null ],
-    [ "data", "dc/d12/a07560.html#a7d7d839de8eb48a25e2b687b69a092ea", null ],
-    [ "ok", "dc/d12/a07560.html#a54c7a812f79593258002d367110b2403", null ],
-    [ "tag", "dc/d12/a07560.html#a2171d081c4eb0a23d00e637dfa64bcfc", null ],
-    [ "tail", "dc/d12/a07560.html#a065d1a0942abbe5739f44126d5c3ce00", null ],
-    [ "text", "dc/d12/a07560.html#a2b914c9bdc41771b8cb058468bfa23db", null ]
+    [ "FormationInfo", "dc/d12/a07560.html#ad00d7dd0ac811a3805a8ba2c9c1e73df", null ],
+    [ "HasGroupFlag", "dc/d12/a07560.html#afc612acf30e8d0a047aac5b0fc2dc07b", null ],
+    [ "follow_angle", "dc/d12/a07560.html#a928ce7047d511c316a5367faf7f96673", null ],
+    [ "follow_dist", "dc/d12/a07560.html#a3b59ee5129e208cc3df407a921362393", null ],
+    [ "groupAI", "dc/d12/a07560.html#af9f6dc52999efef6f0819bb8d1670fec", null ],
+    [ "leaderGUID", "dc/d12/a07560.html#ad5af23397ae1ae835a72ce125d102ef0", null ],
+    [ "point_1", "dc/d12/a07560.html#a84298ff533bebc633689742c7f9299ae", null ],
+    [ "point_2", "dc/d12/a07560.html#acc308b497de18211b99eec4311b256a4", null ]
 ];

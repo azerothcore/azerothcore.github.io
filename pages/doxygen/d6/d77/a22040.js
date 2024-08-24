@@ -1,7 +1,6 @@
 var a22040 =
 [
-    [ "HandleDummy", "d6/d77/a22040.html#a85874062bceced2694fff725649df892", null ],
-    [ "PrepareSpellScript", "d6/d77/a22040.html#a47bae4bdc488480f91517465d8e1b784", null ],
-    [ "Register", "d6/d77/a22040.html#a7131340678ca685db98e2087661321a9", null ],
-    [ "Validate", "d6/d77/a22040.html#af1b74ceee10fc48a0b85d4a284103950", null ]
+    [ "BoomEvent", "d6/d77/a22040.html#aa9b7a8785f382068bb4510ffc0b43004", null ],
+    [ "Execute", "d6/d77/a22040.html#a1a870bea5c8e0a24a8ecd347a862ee75", null ],
+    [ "_me", "d6/d77/a22040.html#a30de77ee751f1c10231088cb84942342", null ]
 ];

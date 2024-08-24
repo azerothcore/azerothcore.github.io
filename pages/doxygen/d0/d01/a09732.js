@@ -1,25 +1,9 @@
 var a09732 =
 [
-    [ "TaxiNodeChangeInfo", "d7/d5a/a09736.html", "d7/d5a/a09736" ],
-    [ "FlightPathMovementGenerator", "d0/d01/a09732.html#a2f30b03536f0f88a4b9b541f08019af0", null ],
-    [ "DoEventIfAny", "d0/d01/a09732.html#af7f2a72e9cf20bf105204b8de08400de", null ],
-    [ "DoFinalize", "d0/d01/a09732.html#af4017ff6e47601f667587fb7dd6a721c", null ],
-    [ "DoInitialize", "d0/d01/a09732.html#a4b0ab8a2be27b3640ff2155d734b467c", null ],
-    [ "DoReset", "d0/d01/a09732.html#abd78eb2841908da8c3c18936d80f18e9", null ],
-    [ "DoUpdate", "d0/d01/a09732.html#a1e4b3d248c0021a3e2a1c1446f6b7073", null ],
-    [ "GetMovementGeneratorType", "d0/d01/a09732.html#a8ef0966524b238a617487bde185de6f7", null ],
-    [ "GetPath", "d0/d01/a09732.html#a931a91b2e689d58098898f7b9533d632", null ],
-    [ "GetPathAtMapEnd", "d0/d01/a09732.html#a0493824ba23608abcf98a156cf89bb5a", null ],
-    [ "GetResetPos", "d0/d01/a09732.html#ae2cc924b7dd5252c1cb8fcf8679b7786", null ],
-    [ "HasArrived", "d0/d01/a09732.html#ad4a14cf3b7497cf30e6305d52d94ecdb", null ],
-    [ "InitEndGridInfo", "d0/d01/a09732.html#a6cf74faed9b8609fa74932148b6b4948", null ],
-    [ "LoadPath", "d0/d01/a09732.html#ae21613bcea0003b186b08761aaf525aa", null ],
-    [ "PreloadEndGrid", "d0/d01/a09732.html#ac7bb92b99dc57a2b53b0a55e0a797678", null ],
-    [ "SetCurrentNodeAfterTeleport", "d0/d01/a09732.html#a7ed3028aa5d9d71cf0d889d4063fae2a", null ],
-    [ "SkipCurrentNode", "d0/d01/a09732.html#a080a68e435698a14288f62ea6576a730", null ],
-    [ "_endGridX", "d0/d01/a09732.html#a8dd2719a015fca9fe46c8b3586b0434c", null ],
-    [ "_endGridY", "d0/d01/a09732.html#a1b0c069bcbcf3b13691b9ea80ac4c3a6", null ],
-    [ "_endMapId", "d0/d01/a09732.html#aa83bc85f1b6cd6d5367d745ae31cc6fc", null ],
-    [ "_pointsForPathSwitch", "d0/d01/a09732.html#a975eddf086fbd811fdebae405a62f2ea", null ],
-    [ "_preloadTargetNode", "d0/d01/a09732.html#a3192e87bc06fa21ea01f99ba23fe6eb1", null ]
+    [ "TransportScript", "d0/d01/a09732.html#a4b83123b122fa98831d304670a3de50a", null ],
+    [ "IsDatabaseBound", "d0/d01/a09732.html#a956f0d757e5d974566fa8fac0df731e5", null ],
+    [ "OnAddCreaturePassenger", "d0/d01/a09732.html#a5afb1f1dca2264089238ddd68b38a86d", null ],
+    [ "OnAddPassenger", "d0/d01/a09732.html#a806f4829b47429900271f6dde7eaa625", null ],
+    [ "OnRelocate", "d0/d01/a09732.html#a10334c1929c80fc80c76791cbd52f6dd", null ],
+    [ "OnRemovePassenger", "d0/d01/a09732.html#a6d6a3af4fcde46101b78cfdb787a2248", null ]
 ];

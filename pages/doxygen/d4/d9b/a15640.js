@@ -1,5 +1,5 @@
 var a15640 =
 [
-    [ "achievement_respect_your_elders", "d4/d9b/a15640.html#a2fd66ada0ff7482c00b2cb417a12e88e", null ],
-    [ "OnCheck", "d4/d9b/a15640.html#a770922be3ab19848f7a8f43a82d78b88", null ]
+    [ "go_crystalline_tear", "d4/d9b/a15640.html#a9e19c6538ecd1a758f2639171321d965", null ],
+    [ "OnQuestAccept", "d4/d9b/a15640.html#a4efd6b2b8ca37462ba3a26d05f01ec2d", null ]
 ];

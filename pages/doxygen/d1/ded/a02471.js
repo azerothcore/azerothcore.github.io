@@ -1,6 +1,6 @@
 var a02471 =
 [
-    [ "deserter_commandscript", "de/d3e/a11296.html", "de/d3e/a11296" ],
+    [ "deserter_commandscript", "d6/d6b/a11299.html", "d6/d6b/a11299" ],
     [ "Spells", "d1/ded/a02471.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "df/d39/a00950.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "df/d39/a00950.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

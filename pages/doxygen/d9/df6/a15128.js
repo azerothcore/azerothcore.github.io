@@ -1,11 +1,10 @@
 var a15128 =
 [
-    [ "npc_depth_chargeAI", "d9/df6/a15128.html#a088848c16418964973107e125c20f508", null ],
-    [ "AttackStart", "d9/df6/a15128.html#a1ec6e2ea0cc61262932f63f764273cdb", null ],
-    [ "JustEngagedWith", "d9/df6/a15128.html#a90cc6eab8b63588f2567f59941eafc59", null ],
-    [ "MoveInLineOfSight", "d9/df6/a15128.html#a8342b7fc7677ac94757c725ec4063e9e", null ],
-    [ "Reset", "d9/df6/a15128.html#aaccf632a50749c0f6d6f29bb1b1bf5a4", null ],
-    [ "UpdateAI", "d9/df6/a15128.html#af34e55c3aee40f840edf695adc06495e", null ],
-    [ "WeMustDie", "d9/df6/a15128.html#a7b25b1228cf5029f1ebe653c76cf9843", null ],
-    [ "WeMustDieTimer", "d9/df6/a15128.html#a23e4f1f7079d12e78c74c21171d95cc7", null ]
+    [ "npc_giant_eye_tentacle", "d9/df6/a15128.html#a1adebf586a8a4413bb048936b90ddd3c", null ],
+    [ "JustDied", "d9/df6/a15128.html#a72cac50a711868256a41c543d0cef3da", null ],
+    [ "JustEngagedWith", "d9/df6/a15128.html#ac26b16e709e62c429b7ca88815bbc4cd", null ],
+    [ "Reset", "d9/df6/a15128.html#a4e605a585099d136d8f6bd42b6450f1d", null ],
+    [ "UpdateAI", "d9/df6/a15128.html#aacae6ea2616af2ad9515167fc1bab61d", null ],
+    [ "_portalGUID", "d9/df6/a15128.html#af9784b6d00e50ec28ed27361aaf3442f", null ],
+    [ "_scheduler", "d9/df6/a15128.html#acf45bec8ebefb2bcd9fb7e28ee7d0593", null ]
 ];

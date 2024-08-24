@@ -1,7 +1,5 @@
 var a14248 =
 [
-    [ "npc_love_in_air_supply_sentry", "dc/d33/a14248.html#ab2742c3be0ed661a509b9eb32326bee5", null ],
-    [ "MoveInLineOfSight", "dc/d33/a14248.html#a9df110324c74277e07183c7db231bbda", null ],
-    [ "UpdateAI", "dc/d33/a14248.html#aaa658222954f96d45b75daf83555f6f8", null ],
-    [ "lock", "dc/d33/a14248.html#a59bf67b114014542538165c21aa109a6", null ]
+    [ "npc_grizzlemaw_cw_triggerAI", "dc/d33/a14248.html#a40207493c75d8a63284e08f1f75d56c4", null ],
+    [ "MoveInLineOfSight", "dc/d33/a14248.html#aef49ccdae1aff20fc469f0aa2663d8af", null ]
 ];

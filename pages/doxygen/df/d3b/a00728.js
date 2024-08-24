@@ -1,8 +1,8 @@
 var a00728 =
 [
-    [ "PassiveAI", "db/df6/a05984.html", "db/df6/a05984" ],
-    [ "PossessedAI", "d3/d71/a05988.html", "d3/d71/a05988" ],
-    [ "NullCreatureAI", "d4/dc4/a05992.html", "d4/dc4/a05992" ],
-    [ "CritterAI", "d5/d2a/a05996.html", "d5/d2a/a05996" ],
-    [ "TriggerAI", "d3/dc5/a06000.html", "d3/dc5/a06000" ]
+    [ "PassiveAI", "d4/df8/a05987.html", "d4/df8/a05987" ],
+    [ "PossessedAI", "de/d2b/a05991.html", "de/d2b/a05991" ],
+    [ "NullCreatureAI", "d2/d10/a05995.html", "d2/d10/a05995" ],
+    [ "CritterAI", "d1/d05/a05999.html", "d1/d05/a05999" ],
+    [ "TriggerAI", "d3/d59/a06003.html", "d3/d59/a06003" ]
 ];

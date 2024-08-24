@@ -1,6 +1,6 @@
 var a17464 =
 [
-    [ "npc_gunship_mageAI", "db/dcc/a17468.html", "db/dcc/a17468" ],
-    [ "npc_gunship_mage", "dd/d82/a17464.html#a52c7a072bd1426a1c22da84aa0640bca", null ],
-    [ "GetAI", "dd/d82/a17464.html#a9a0bc091a6cf8bbc7d17cf3d3172e6ff", null ]
+    [ "HandleDummy", "dd/d82/a17464.html#a2461c83298c2829c9703af2542338807", null ],
+    [ "PrepareSpellScript", "dd/d82/a17464.html#a93d26752782245176f27b112f3db0c4d", null ],
+    [ "Register", "dd/d82/a17464.html#a8ec831604a24a0cd4dae59ee8d85bdb5", null ]
 ];

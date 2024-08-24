@@ -1,6 +1,7 @@
 var a11680 =
 [
-    [ "boss_gythAI", "df/d9a/a11684.html", "df/d9a/a11684" ],
-    [ "boss_gyth", "d3/d0f/a11680.html#a286d19b0a6e317cb7e69343982b71062", null ],
-    [ "GetAI", "d3/d0f/a11680.html#a3706cbdd1bfb16112653d31cfa971b30", null ]
+    [ "HandlePeriodic", "d3/d0f/a11680.html#ac2196cc9de34e286581d44d147fe9d04", null ],
+    [ "PrepareAuraScript", "d3/d0f/a11680.html#a149c974371f23268d2d929b483637b14", null ],
+    [ "Register", "d3/d0f/a11680.html#a6a2f42867a7082d2b8406c651d5dc484", null ],
+    [ "Validate", "d3/d0f/a11680.html#ab77b8a7dca3dc9bbd20cdb498d1d317e", null ]
 ];

@@ -1,6 +1,6 @@
 var a19464 =
 [
-    [ "spell_krystallus_shatter_effect_SpellScript", "d1/d8c/a19468.html", "d1/d8c/a19468" ],
-    [ "spell_krystallus_shatter_effect", "da/df2/a19464.html#a6386cca53ddb3fadc61694483e549d57", null ],
-    [ "GetSpellScript", "da/df2/a19464.html#a16dec11a63865243b2b0f467e394a1d3", null ]
+    [ "spell_valithria_suppression_AuraScript", "d1/d8c/a19468.html", "d1/d8c/a19468" ],
+    [ "spell_valithria_suppression", "da/df2/a19464.html#a140ec1f4218fc4d6b10ff69d5b9a0039", null ],
+    [ "GetAuraScript", "da/df2/a19464.html#a6c37b9d6dda06b5a039bab9ef265c0cb", null ]
 ];

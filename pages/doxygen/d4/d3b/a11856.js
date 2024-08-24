@@ -1,7 +1,8 @@
 var a11856 =
 [
-    [ "boss_broodlordAI", "d4/d3b/a11856.html#aa7a5b16b22633439e5d20f9d47a91041", null ],
-    [ "JustDied", "d4/d3b/a11856.html#ab0c4dfdd5abc8edcf039d5207e8a63e8", null ],
-    [ "JustEngagedWith", "d4/d3b/a11856.html#ae6e26d9cd6e22426caf6ce031551f8a8", null ],
-    [ "UpdateAI", "d4/d3b/a11856.html#aea6fbbe31c96e94c2116733c3c66b59b", null ]
+    [ "MajordomoAddData", "d4/d3b/a11856.html#aa068ada34e1275cbf97b21f74dfd2881", null ],
+    [ "MajordomoAddData", "d4/d3b/a11856.html#a9b8cc2b43ffbf268e470169e00e66671", null ],
+    [ "creatureEntry", "d4/d3b/a11856.html#ae3a0444e88158123f4d6359328e89a1d", null ],
+    [ "guid", "d4/d3b/a11856.html#a2f2b0aaace557361a21d1072f36933dc", null ],
+    [ "spawnPos", "d4/d3b/a11856.html#a31f8d24efb19c2d0e697f35b911e3237", null ]
 ];

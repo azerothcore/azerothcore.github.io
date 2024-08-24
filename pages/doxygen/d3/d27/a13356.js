@@ -1,10 +1,10 @@
 var a13356 =
 [
-    [ "npc_grand_magister_rommathAI", "d3/d27/a13356.html#a5e9404dd8bf4b513e05daac53c076314", null ],
-    [ "DoAction", "d3/d27/a13356.html#a138bc8cd6f1312d83fefdf5499a479b7", null ],
-    [ "MoveInLineOfSight", "d3/d27/a13356.html#ad35b64b37915484b133bcd185a832011", null ],
-    [ "UpdateAI", "d3/d27/a13356.html#ac687bd20f0ae66b21ce52c21561af417", null ],
-    [ "announced", "d3/d27/a13356.html#a4c9107ef5d4a85d7487ff4cf7bf6464a", null ],
-    [ "events", "d3/d27/a13356.html#a4c1b6616bc88a9ad5074670843315bc6", null ],
-    [ "playerGUID", "d3/d27/a13356.html#ad0ac0647feb998e837a44b0a688694e9", null ]
+    [ "npc_partygoer_pather", "d3/d27/a13356.html#a15a0e517e8671afb9d636ebe781a4bcd", null ],
+    [ "Initialize", "d3/d27/a13356.html#afb114b0587c550e39c41e131364da663", null ],
+    [ "PathEndReached", "d3/d27/a13356.html#a55833d306716ba411f96ecd024cc7c72", null ],
+    [ "Reset", "d3/d27/a13356.html#ade2cc36ff49001138eee5b607ec83b12", null ],
+    [ "UpdateAI", "d3/d27/a13356.html#a4d222399b6b789e7a2a2faa4765116a6", null ],
+    [ "_events", "d3/d27/a13356.html#ac210dc0286ded980e78743237a08bb23", null ],
+    [ "_path", "d3/d27/a13356.html#a4da184c44858e99eca2b07193fd48f13", null ]
 ];

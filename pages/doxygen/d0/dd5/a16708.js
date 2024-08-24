@@ -1,8 +1,8 @@
 var a16708 =
 [
-    [ "npc_hor_leaderAI", "de/df2/a16712.html", "de/df2/a16712" ],
-    [ "npc_hor_leader", "d0/dd5/a16708.html#a5c8d6cce242d144755fb14879f7f17d3", null ],
-    [ "GetAI", "d0/dd5/a16708.html#a55e7357aa6dff1efdff08541e88413e9", null ],
-    [ "OnGossipHello", "d0/dd5/a16708.html#afb46ea0b6926ad5d9b87b1d6a5e04591", null ],
-    [ "OnGossipSelect", "d0/dd5/a16708.html#ab5d01ae2803bab43b2c701d0cb1d4280", null ]
+    [ "npc_toc_pet_warlockAI", "d0/dd5/a16708.html#a0f4128d5fd7a855f1fb2870465bc1ce7", null ],
+    [ "EnterEvadeMode", "d0/dd5/a16708.html#a62219f63e82fc67f63db2cbd713647a0", null ],
+    [ "myCanCast", "d0/dd5/a16708.html#a81607ebd90d8f511bb18b03ff497d9eb", null ],
+    [ "UpdateAI", "d0/dd5/a16708.html#a05a150e01f519675ac7b69d3c2a97ed4", null ],
+    [ "events", "d0/dd5/a16708.html#a8edadebd7e6660041233a24fb07173bf", null ]
 ];

@@ -1,6 +1,6 @@
 var a13828 =
 [
-    [ "HandleOnHit", "d7/d4d/a13828.html#a1f133ab9e85f80c225276bf744da6898", null ],
-    [ "PrepareSpellScript", "d7/d4d/a13828.html#ae554f8be36eabc6d23f823e6d153be2b", null ],
-    [ "Register", "d7/d4d/a13828.html#a1063358ed71ded8454f35f43442354ab", null ]
+    [ "boss_arlokkAI", "df/d98/a13832.html", "df/d98/a13832" ],
+    [ "boss_arlokk", "d7/d4d/a13828.html#a55bb21239e05acff18d2fb147449800e", null ],
+    [ "GetAI", "d7/d4d/a13828.html#a58b8cc7a198784b48faaab1b069d397c", null ]
 ];

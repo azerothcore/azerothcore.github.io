@@ -1,6 +1,8 @@
 var a19160 =
 [
-    [ "ChargeRifts", "da/d78/a19160.html#aec98a12dec1f2ad98e00d399b0e2a1d5", null ],
-    [ "Execute", "da/d78/a19160.html#a8d01bf861d37c25413dc14eee16a2939", null ],
-    [ "_caster", "da/d78/a19160.html#a3cbf5f7e26de337dadd9d96a43d728b0", null ]
+    [ "Load", "da/d78/a19160.html#aab174da140072f6d4f79c6a1d1d923b4", null ],
+    [ "OnPeriodic", "da/d78/a19160.html#a7bac29a8b91c23eb809bb3ca10b1bee3", null ],
+    [ "PrepareAuraScript", "da/d78/a19160.html#a63951f220ddd20092d80fb531c16c823", null ],
+    [ "Register", "da/d78/a19160.html#a6546adc7491d5e1f2f1456c8da0f440e", null ],
+    [ "_is25Man", "da/d78/a19160.html#af6ef75b24251d2a57dab1542da257fab", null ]
 ];

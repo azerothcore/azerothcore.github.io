@@ -1,7 +1,7 @@
 var a17960 =
 [
-    [ "PeriodicTick", "dd/d12/a17960.html#a0c365bbb4ae9b77bb9e00a1eb41b96e4", null ],
-    [ "PrepareAuraScript", "dd/d12/a17960.html#afcadfbdd84608e827b89c64bf03c8501", null ],
-    [ "Register", "dd/d12/a17960.html#a0e8e8685ce8c1eea2b60e8bf6aeed782", null ],
-    [ "Validate", "dd/d12/a17960.html#a879b657d94c1faf6225fe64f907cdf82", null ]
+    [ "npc_icc_blood_beastAI", "dd/d12/a17960.html#af52eff9f66451444c5acba6930c1bff6", null ],
+    [ "DoAction", "dd/d12/a17960.html#a5de6e46fd21fd073fde2f0aaa5dc947a", null ],
+    [ "UpdateAI", "dd/d12/a17960.html#ac9da073c33dd33097f03ca35d36ea15e", null ],
+    [ "timer1", "dd/d12/a17960.html#a1074059162f818088808795119f081be", null ]
 ];

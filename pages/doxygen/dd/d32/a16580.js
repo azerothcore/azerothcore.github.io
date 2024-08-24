@@ -1,7 +1,6 @@
 var a16580 =
 [
-    [ "HandleScriptEffect", "dd/d32/a16580.html#a62cef31900cd61167823f3e66aa2d64b", null ],
-    [ "PrepareSpellScript", "dd/d32/a16580.html#aff3fc5d7d6185bcb09d14f1408a67aad", null ],
-    [ "Register", "dd/d32/a16580.html#ac73b3f568ce54f9b59b2b23f069da3c1", null ],
-    [ "Validate", "dd/d32/a16580.html#aab4d84e896c8225d8d131558aaa71dbe", null ]
+    [ "spell_gen_leeching_swarm_dmg_SpellScript", "d2/d79/a16584.html", "d2/d79/a16584" ],
+    [ "spell_gen_leeching_swarm_dmg", "dd/d32/a16580.html#a9f6b89aee3b080ce3b675635097750ff", null ],
+    [ "GetSpellScript", "dd/d32/a16580.html#a4fa3aca5964728833eb1615df4f31221", null ]
 ];

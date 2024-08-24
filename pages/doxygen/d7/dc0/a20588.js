@@ -1,5 +1,6 @@
 var a20588 =
 [
-    [ "achievement_thorim_stand_in_the_lightning", "d7/dc0/a20588.html#a9339e89e4eb76151fdeacb6bcd53d7bc", null ],
-    [ "OnCheck", "d7/dc0/a20588.html#ade1aec4de4c503be5a62da3e6c35e90f", null ]
+    [ "boss_bjarngrimAI", "d3/d64/a20592.html", "d3/d64/a20592" ],
+    [ "boss_bjarngrim", "d7/dc0/a20588.html#ab509688547d41ec1fd094fdc45291959", null ],
+    [ "GetAI", "d7/dc0/a20588.html#aff6455d2a327bbf3426d10a07f7b0e44", null ]
 ];

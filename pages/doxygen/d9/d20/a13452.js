@@ -1,6 +1,6 @@
 var a13452 =
 [
-    [ "npc_parqual_fintallas", "d9/d20/a13452.html#a9edaf1f7cf4e81ce24c54faa4aed6cf6", null ],
-    [ "OnGossipHello", "d9/d20/a13452.html#af7c1f119d91aa63ee96765f2092b0a6c", null ],
-    [ "OnGossipSelect", "d9/d20/a13452.html#a39276ef82ec5214a1727ebd60235a506", null ]
+    [ "npc_lord_gregor_lescovarAI", "db/dba/a13456.html", "db/dba/a13456" ],
+    [ "npc_lord_gregor_lescovar", "d9/d20/a13452.html#a6164425b7bb6bc8aa95a6665b7d1c55c", null ],
+    [ "GetAI", "d9/d20/a13452.html#a4cf39729bb687c7db3538575a799283e", null ]
 ];

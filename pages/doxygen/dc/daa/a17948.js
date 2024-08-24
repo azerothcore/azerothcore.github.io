@@ -1,9 +1,7 @@
 var a17948 =
 [
-    [ "AfterApply", "dc/daa/a17948.html#a0ee1a701f75e9f0a70dc21528ffea683", null ],
-    [ "ExtraRemoveEffect", "dc/daa/a17948.html#a9f427761fcca9029eb75d586e5876fcd", null ],
-    [ "PeriodicTick", "dc/daa/a17948.html#a82430399e44001343f322b2c3b7769a5", null ],
-    [ "PrepareAuraScript", "dc/daa/a17948.html#a9c8e0ed8fde28588e11ebf5e8abd02dc", null ],
-    [ "Register", "dc/daa/a17948.html#a68be7f7edecd1bae8c962aaa9d556c3e", null ],
-    [ "Validate", "dc/daa/a17948.html#ae20873e93fbace6272a793993fb45349", null ]
+    [ "FilterTargets", "dc/daa/a17948.html#aefe0aa37d41c60235fbe477076b3161a", null ],
+    [ "Load", "dc/daa/a17948.html#af2e03a11b9e916ffd1d3b13961e4d9bb", null ],
+    [ "PrepareSpellScript", "dc/daa/a17948.html#a920b0be5e8c1b03ce33771a855727dd8", null ],
+    [ "Register", "dc/daa/a17948.html#a6e1bfad122550bda09e63be887444d04", null ]
 ];

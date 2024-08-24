@@ -1,11 +1,11 @@
 var a03014 =
 [
-    [ "SpiritInfoStruct", "d9/d9a/a13692.html", "d9/d9a/a13692" ],
-    [ "TransformStruct", "d1/d1f/a13696.html", "d1/d1f/a13696" ],
-    [ "boss_zuljin", "d7/d83/a13700.html", "d7/d83/a13700" ],
-    [ "boss_zuljin::boss_zuljinAI", "d8/dec/a13704.html", "d8/dec/a13704" ],
-    [ "npc_zuljin_vortex", "de/d69/a13708.html", "de/d69/a13708" ],
-    [ "npc_zuljin_vortex::npc_zuljin_vortexAI", "d9/d71/a13712.html", "d9/d71/a13712" ],
+    [ "SpiritInfoStruct", "d9/d98/a13695.html", "d9/d98/a13695" ],
+    [ "TransformStruct", "dc/df9/a13699.html", "dc/df9/a13699" ],
+    [ "boss_zuljin", "d1/da4/a13703.html", "d1/da4/a13703" ],
+    [ "boss_zuljin::boss_zuljinAI", "db/d8e/a13707.html", "db/d8e/a13707" ],
+    [ "npc_zuljin_vortex", "df/de9/a13711.html", "df/de9/a13711" ],
+    [ "npc_zuljin_vortex::npc_zuljin_vortexAI", "d6/d58/a13715.html", "d6/d58/a13715" ],
     [ "CENTER_X", "df/d3a/a03014.html#affb36ca3a6519ca609cfa9a0d70a682a", null ],
     [ "CENTER_Y", "df/d3a/a03014.html#a65dba9379097de8ea0bb4afd9d504b2b", null ],
     [ "CENTER_Z", "df/d3a/a03014.html#ae9571558f23ddfe120b7f1fe844e5f9d", null ],

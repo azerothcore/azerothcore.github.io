@@ -1,6 +1,6 @@
 var a17076 =
 [
-    [ "boss_moorabiAI", "d4/da0/a17080.html", "d4/da0/a17080" ],
-    [ "boss_moorabi", "d5/d29/a17076.html#a94e14b2a9b06143985f785e781d1c302", null ],
-    [ "GetAI", "d5/d29/a17076.html#ae90c7dd46fb1335a525c3c3e27040420", null ]
+    [ "spell_bronjahm_soulstorm_targeting_SpellScript", "d4/da0/a17080.html", "d4/da0/a17080" ],
+    [ "spell_bronjahm_soulstorm_targeting", "d5/d29/a17076.html#ab3fe64ee2014ae7bd7dc04762308f6ce", null ],
+    [ "GetSpellScript", "d5/d29/a17076.html#af963a89a43ce6a9b1e09b173ff34c363", null ]
 ];

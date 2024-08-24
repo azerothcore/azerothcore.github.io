@@ -1,7 +1,6 @@
 var a20516 =
 [
-    [ "boss_thorim_trapAI", "d7/ddf/a20516.html#aaab278dc6557a49624099b0064b8d6f3", null ],
-    [ "Reset", "d7/ddf/a20516.html#ab0715e75a475409ffb6c623bf363a65d", null ],
-    [ "UpdateAI", "d7/ddf/a20516.html#a40078609a67aa029f71df7971449b056", null ],
-    [ "_checkTimer", "d7/ddf/a20516.html#ad3ed8edb4d06e5b98a5afc82170f3233", null ]
+    [ "spell_oculus_temporal_rift_AuraScript", "dc/dbe/a20520.html", "dc/dbe/a20520" ],
+    [ "spell_oculus_temporal_rift", "d7/ddf/a20516.html#a8c40cdf2bd8f2aa1eeefd51b38ec95ab", null ],
+    [ "GetAuraScript", "d7/ddf/a20516.html#a10fbf9d3eae79f96de715d8295ba951c", null ]
 ];

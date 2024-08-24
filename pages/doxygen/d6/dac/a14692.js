@@ -1,6 +1,6 @@
 var a14692 =
 [
-    [ "instance_dire_maul_InstanceMapScript", "db/d15/a14696.html", "db/d15/a14696" ],
-    [ "instance_dire_maul", "d6/dac/a14692.html#a54ac2c7095a99481c7efbe4237533fac", null ],
-    [ "GetInstanceScript", "d6/dac/a14692.html#a7fc2511e0c9475512286006f0bbaed0b", null ]
+    [ "Cooldown", "d6/dac/a14692.html#ad25399079776c4c78f6215f3189195ec", null ],
+    [ "SpellId", "d6/dac/a14692.html#afe38fa1cb5ac67dd90c9b08fc2475a2e", null ],
+    [ "TargetType", "d6/dac/a14692.html#a4fbad9e6a60f80d129fe7aedaba83cca", null ]
 ];

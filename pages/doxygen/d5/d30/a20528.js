@@ -1,6 +1,6 @@
 var a20528 =
 [
-    [ "boss_thorim_pillarAI", "d4/d3d/a20532.html", "d4/d3d/a20532" ],
-    [ "boss_thorim_pillar", "d5/d30/a20528.html#a7a2cbafc1d359d7b33bb735342cdfe2d", null ],
-    [ "GetAI", "d5/d30/a20528.html#af95d5e819292af9b54a022674b74af70", null ]
+    [ "HandleDamageCalc", "d5/d30/a20528.html#a39e5c4207b9f4650ea3f9a9cfc27c5b1", null ],
+    [ "PrepareSpellScript", "d5/d30/a20528.html#a90ea2aaf4255fcacbdcfcc7f26a46fb4", null ],
+    [ "Register", "d5/d30/a20528.html#a8e5f581cf15be75dba3920af8b3ef8d1", null ]
 ];

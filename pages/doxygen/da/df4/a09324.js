@@ -1,5 +1,6 @@
 var a09324 =
 [
-    [ "MinionInfo", "da/df4/a09324.html#a537dd49ffb504aeab8b2b1734d5f44d7", null ],
-    [ "bossInfo", "da/df4/a09324.html#a04750e14ecb53ce6e3fac35844a713cd", null ]
+    [ "IsNeutralOrFriendlyToTeam", "da/df4/a09324.html#aeeea8efaff8fe3f5044a7d5627a89cb6", null ],
+    [ "safeLocId", "da/df4/a09324.html#a4f6003cc76b70c83fbb8301cc9d5a7ad", null ],
+    [ "teamId", "da/df4/a09324.html#a287b04900d70f8ff8c6f6542edbd40a6", null ]
 ];

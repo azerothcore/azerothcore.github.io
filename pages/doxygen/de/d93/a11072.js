@@ -1,15 +1,13 @@
 var a11072 =
 [
-    [ "BroadcastTextId", "de/d93/a11072.html#a12ff00d59ce642d3c27978e919f6ca17", null ],
-    [ "duration", "de/d93/a11072.html#a00b6d7cbf9ff377d30cd9e6cfab084b7", null ],
-    [ "emote", "de/d93/a11072.html#aad433a0bc12717103936e6f89b5b31ea", null ],
-    [ "entry", "de/d93/a11072.html#a3d1c888b73edee2474004de9d8714903", null ],
-    [ "group", "de/d93/a11072.html#ae2161d1dc874efacd0131baa74b4e44a", null ],
-    [ "id", "de/d93/a11072.html#ab80181d53770a2f64bd6898498b3e76e", null ],
-    [ "lang", "de/d93/a11072.html#a8405ab49781ba0cbcd8680ff6715b675", null ],
-    [ "probability", "de/d93/a11072.html#a9bec9c2053f2efbac076831d4e928045", null ],
-    [ "sound", "de/d93/a11072.html#af312efff61026445caeb4be4b52c4e66", null ],
-    [ "text", "de/d93/a11072.html#a82b3db36b60a343d340677e8df6c7925", null ],
-    [ "TextRange", "de/d93/a11072.html#a2bb58a07abc9eb7ffeb4db131de03924", null ],
-    [ "type", "de/d93/a11072.html#a5675f6bcf159e1da503029771557e2a6", null ]
+    [ "list_commandscript", "de/d93/a11072.html#a5a85953a46afe08fe05a11fe69c934dc", null ],
+    [ "GetCommands", "de/d93/a11072.html#a949c6e6f372afb50e1116b6414acdd7c", null ],
+    [ "HandleListAllAurasCommand", "de/d93/a11072.html#a93f1fe9131b917c813058899efede2a5", null ],
+    [ "HandleListAurasByIdCommand", "de/d93/a11072.html#a3c59e8b85175ef056b07f566c231c221", null ],
+    [ "HandleListAurasByNameCommand", "de/d93/a11072.html#a78d6be53ddae80068e2d9c04ea494e24", null ],
+    [ "HandleListCreatureCommand", "de/d93/a11072.html#a48388f1c839cec6597c74740ec49fa68", null ],
+    [ "HandleListItemCommand", "de/d93/a11072.html#a7d0aadb081f25c3d533951bd9841f103", null ],
+    [ "HandleListObjectCommand", "de/d93/a11072.html#ac8b32be8650c9e54388320d650c9761b", null ],
+    [ "ListAurasCommand", "de/d93/a11072.html#a98c9f6fb42e8030d76f234cdb02a72fb", null ],
+    [ "ShouldListAura", "de/d93/a11072.html#afc42154ec5e978b366780fb600b17e8d", null ]
 ];

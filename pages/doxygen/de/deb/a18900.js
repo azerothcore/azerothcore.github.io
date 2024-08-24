@@ -1,9 +1,6 @@
 var a18900 =
 [
-    [ "boss_grobbulus_poison_cloudAI", "de/deb/a18900.html#ac26671336eec2d84b56a3552d50f8e0a", null ],
-    [ "KilledUnit", "de/deb/a18900.html#a9c6ce4ace426f2e7aba5a7bf9430bbe3", null ],
-    [ "Reset", "de/deb/a18900.html#a1715ab3f3f25b56517f6ded84acdbd9f", null ],
-    [ "UpdateAI", "de/deb/a18900.html#af1b8dafb0aa47ba22b3601d8bf639c22", null ],
-    [ "auraVisualTimer", "de/deb/a18900.html#a74aea4294c26414d3b60983d14d36e31", null ],
-    [ "sizeTimer", "de/deb/a18900.html#a73f775b30ad36a595e0d8532067ba042", null ]
+    [ "PeriodicTick", "de/deb/a18900.html#a91e8bf1cfa52cf5ea7086610fcb88a21", null ],
+    [ "PrepareAuraScript", "de/deb/a18900.html#a2bb9eedead83ac91060f57af98c3d848", null ],
+    [ "Register", "de/deb/a18900.html#ae70bb017d2bbd96b075e5dd3bddf1567", null ]
 ];

@@ -1,6 +1,7 @@
 var a15856 =
 [
-    [ "npc_baltharus_the_warborn_cloneAI", "da/d76/a15860.html", "da/d76/a15860" ],
-    [ "npc_baltharus_the_warborn_clone", "df/d55/a15856.html#a7ed0731a015709ecd3c0c26fafb795ff", null ],
-    [ "GetAI", "df/d55/a15856.html#a87b50fbc3a67345f375b41c3cb2ba754", null ]
+    [ "go_troll_cageAI", "df/d55/a15856.html#ae742afdb7a37d64bb852b7ecd076d007", null ],
+    [ "GossipHello", "df/d55/a15856.html#a5c91cb491021b15ba70cc8ef5f07d037", null ],
+    [ "initBlyCrewMember", "df/d55/a15856.html#a6bfb77ec97367d8704885acfef801b74", null ],
+    [ "instance", "df/d55/a15856.html#ad5d736dd6cbe7a23d03f21004cae530d", null ]
 ];

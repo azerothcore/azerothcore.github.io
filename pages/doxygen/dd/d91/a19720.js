@@ -1,6 +1,6 @@
 var a19720 =
 [
-    [ "npc_auriaya_sanctum_sentryAI", "d9/d2e/a19724.html", "d9/d2e/a19724" ],
-    [ "npc_auriaya_sanctum_sentry", "dd/d91/a19720.html#aa275374ba3a19a2e6a8768d4f01752b2", null ],
-    [ "GetAI", "dd/d91/a19720.html#a6a8843d3f24378a2fd334e773618ab72", null ]
+    [ "HandleDummyLaunch", "dd/d91/a19720.html#a1d52e1eb16e3df39a675bdd2ee64ce04", null ],
+    [ "PrepareSpellScript", "dd/d91/a19720.html#aa37e093b8904a4a0bb3ea3511cba0b47", null ],
+    [ "Register", "dd/d91/a19720.html#aa2ed9f01095e98f593caf410df5c3873", null ]
 ];

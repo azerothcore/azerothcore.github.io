@@ -1,8 +1,5 @@
 var a21856 =
 [
-    [ "npc_ravenous_worgAI", "d5/d8c/a21856.html#a5404516869e171c84b774f2a7b8be15d", null ],
-    [ "AttackStart", "d5/d8c/a21856.html#a593d218d8cb083a7e37f81d3952c6d4c", null ],
-    [ "UpdateAI", "d5/d8c/a21856.html#aeb64d5bde5ef9d8c2a62662bb72d3049", null ],
-    [ "_attack", "d5/d8c/a21856.html#a3df5c98821ba33a40e25e7b050858b96", null ],
-    [ "_pacified", "d5/d8c/a21856.html#a0da1f59a6fc9cdf39c9cced1eb52acba", null ]
+    [ "go_ulduar_working_harpoon", "d5/d8c/a21856.html#a9aaaa16f23f07e402f20a048fd69d347", null ],
+    [ "OnGossipHello", "d5/d8c/a21856.html#a164bdd0a9538293699665a821c4f25f3", null ]
 ];

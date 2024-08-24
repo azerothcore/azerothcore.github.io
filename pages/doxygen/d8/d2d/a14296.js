@@ -1,6 +1,8 @@
 var a14296 =
 [
-    [ "OnApply", "d8/d2d/a14296.html#a30d33268b58507c228a4628031bffca0", null ],
-    [ "PrepareAuraScript", "d8/d2d/a14296.html#a16dc3f52152d63b5512690c761f9915a", null ],
-    [ "Register", "d8/d2d/a14296.html#a6494e4d7277e910ffa3b30c333117f00", null ]
+    [ "npc_hallows_end_train_fire", "d8/d2d/a14296.html#a0aacc53a7410590e8d1f05aa8d3e37ba", null ],
+    [ "Reset", "d8/d2d/a14296.html#afdda52e0adce23f56fa9d1357469a17d", null ],
+    [ "SpellHit", "d8/d2d/a14296.html#a5767b2a5a2ca1813812cf078b0dd1189", null ],
+    [ "UpdateAI", "d8/d2d/a14296.html#a686a565e1743c31166d8d57f67a0adce", null ],
+    [ "timer", "d8/d2d/a14296.html#a7fa7d23a587ab632d1b9a2b803f83cd4", null ]
 ];

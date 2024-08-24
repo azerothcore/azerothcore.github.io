@@ -1,10 +1,8 @@
 var a24512 =
 [
-    [ "Absorb", "d2/df4/a24512.html#a99db0d1254ddcfa9e7afb241e73b3235", null ],
-    [ "CalculateAmount", "d2/df4/a24512.html#a279a025cac490ee3647f47584b59179f", null ],
-    [ "Load", "d2/df4/a24512.html#a3fededdbfca9d12e6dbd097620e104be", null ],
-    [ "PrepareAuraScript", "d2/df4/a24512.html#a818875a8073491eab2508182bd941e25", null ],
-    [ "Register", "d2/df4/a24512.html#a2419bff95bad81a0f63c4988f14eb3f9", null ],
-    [ "Validate", "d2/df4/a24512.html#a60eb14be1b3108b7b896a27eab35569b", null ],
-    [ "absorbPct", "d2/df4/a24512.html#ac51bad58076a6dfa520fd3e9ea0c76b5", null ]
+    [ "FilterTargets", "d2/df4/a24512.html#acb326101969ede6b41b2deb995769550", null ],
+    [ "HandleTeleportUnits", "d2/df4/a24512.html#ab2b266f53c83421e7f54fb01bb8aba04", null ],
+    [ "PrepareSpellScript", "d2/df4/a24512.html#a8fc8bfb34758821fffa0eeb625f00de8", null ],
+    [ "Register", "d2/df4/a24512.html#af0f66436b6d108e837abe5be4507d052", null ],
+    [ "SetDest", "d2/df4/a24512.html#a1451ef6f8a16c4dcc4ebba48819c25a6", null ]
 ];

@@ -1,6 +1,6 @@
 var a25824 =
 [
-    [ "CalculateDamage", "df/da1/a25824.html#a05c6a249b32f41d8d33b40d07bd3c44d", null ],
-    [ "PrepareSpellScript", "df/da1/a25824.html#ace682a64f3ca32e4f4151034ad936ea6", null ],
-    [ "Register", "df/da1/a25824.html#a6dc3beb1f857c2c2a719bd882cc3568d", null ]
+    [ "HandlePeriodic", "df/da1/a25824.html#a219848739338caf95f676f7bae548344", null ],
+    [ "PrepareAuraScript", "df/da1/a25824.html#acf8ae9088306adf997e3e93d6c0924e7", null ],
+    [ "Register", "df/da1/a25824.html#a905e3214b77e8af2fe73f78fd070bb76", null ]
 ];

@@ -1,7 +1,6 @@
 var a17068 =
 [
-    [ "HandleScriptEffect", "d4/d6e/a17068.html#a6469efa0e1fabaf1cb366f119a1158c1", null ],
-    [ "PrepareSpellScript", "d4/d6e/a17068.html#aac410690d906867216b40a49d8f15318", null ],
-    [ "Register", "d4/d6e/a17068.html#ae8c7acabe93fc33d13f0b8848415eabf", null ],
-    [ "Validate", "d4/d6e/a17068.html#a88c3961d5757dd0c75be4acc7de6e45b", null ]
+    [ "spell_bronjahm_soulstorm_visual_AuraScript", "d6/d67/a17072.html", "d6/d67/a17072" ],
+    [ "spell_bronjahm_soulstorm_visual", "d4/d6e/a17068.html#afffed2d4148cbc9015408d8e6b3a3f8e", null ],
+    [ "GetAuraScript", "d4/d6e/a17068.html#ae6f1e3f54f1b0c833263685f25e3395d", null ]
 ];

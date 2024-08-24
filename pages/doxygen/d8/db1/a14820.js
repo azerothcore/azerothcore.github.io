@@ -1,10 +1,26 @@
 var a14820 =
 [
-    [ "boss_moam", "d8/db1/a14820.html#a9a7a9f410efc5a05e46fd05f331e96c9", null ],
-    [ "InitializeAI", "d8/db1/a14820.html#a2c8bde24fb3811e29c91a57258a243e5", null ],
-    [ "JustDied", "d8/db1/a14820.html#a06b843bddd8f2759fa733c5169e0a5e6", null ],
-    [ "JustEngagedWith", "d8/db1/a14820.html#ad33ba2f2cf9c83f37856aa6f2212637b", null ],
-    [ "Reset", "d8/db1/a14820.html#a4112940fbe1f8be8e7adee7dbc48a9ae", null ],
-    [ "SummonedCreatureDies", "d8/db1/a14820.html#a8401c5e2bd216deee197617b78d85222", null ],
-    [ "UpdateAI", "d8/db1/a14820.html#aadd8320c6194923b113967d3d6c49a5e", null ]
+    [ "instance_old_hillsbrad_InstanceMapScript", "d8/db1/a14820.html#a31fbc078e2c8d2a0f070a8a52c34ef90", null ],
+    [ "CleanupInstance", "d8/db1/a14820.html#a20b8aa23c6c9e29f34cda71554c6d7a7", null ],
+    [ "EnsureGridLoaded", "d8/db1/a14820.html#a337693ca3ad4527249b0f9f5c9a62d0f", null ],
+    [ "GetData", "d8/db1/a14820.html#aa7ae89c6d23a061385a756cf0b0200bf", null ],
+    [ "GetGuidData", "d8/db1/a14820.html#a119965a939e79b0fb395e8e3695359aa", null ],
+    [ "Initialize", "d8/db1/a14820.html#ac9e53a8a406110bbc1d454be7b87fb34", null ],
+    [ "OnCreatureCreate", "d8/db1/a14820.html#a04bf5f844ab8e802f95745f56d996716", null ],
+    [ "OnGameObjectCreate", "d8/db1/a14820.html#ae5f9223af1488f1edd99f35f7b1c7207", null ],
+    [ "OnPlayerEnter", "d8/db1/a14820.html#a29ebe48953ba6be93da519c7a43c356e", null ],
+    [ "ReadSaveDataMore", "d8/db1/a14820.html#a81322de635b72f95de486ccd1abf9644", null ],
+    [ "Reposition", "d8/db1/a14820.html#a7fcd0c449edfe21933ee055549ea7ddf", null ],
+    [ "SetData", "d8/db1/a14820.html#a961dd71754113ce6b5aecde16b6426d2", null ],
+    [ "Update", "d8/db1/a14820.html#ac0bb22a2f69eecc269c69005777d9c38", null ],
+    [ "WriteSaveDataMore", "d8/db1/a14820.html#ae409ddd2759f8eea883cefa21d045a40", null ],
+    [ "_attemptsCount", "d8/db1/a14820.html#ac5c012148a60cc7dd26e36ba6950494b", null ],
+    [ "_barrelCount", "d8/db1/a14820.html#aeb5828d54f327c5d2a30004afa86c4af", null ],
+    [ "_encounterProgress", "d8/db1/a14820.html#a9b5fff035fb76116f0cea6f6786d506e", null ],
+    [ "_events", "d8/db1/a14820.html#ab3a9785a2240d62de4dfcf0b2523520f", null ],
+    [ "_finalFlamesSet", "d8/db1/a14820.html#a914232c182475a17e3583435f2fde9bc", null ],
+    [ "_initalFlamesSet", "d8/db1/a14820.html#a2404c19bd154f8277aa539f48ae99963", null ],
+    [ "_prisonersSet", "d8/db1/a14820.html#a43e3b3d3cb4797a8c03731df72e7cb5a", null ],
+    [ "_tarethaGUID", "d8/db1/a14820.html#ada3dcc37cba14ae8361989f1b842b462", null ],
+    [ "_thrallGUID", "d8/db1/a14820.html#add8e04fa930e970ab0e88258c10f9c5d", null ]
 ];

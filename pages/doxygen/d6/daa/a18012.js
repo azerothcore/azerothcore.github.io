@@ -1,6 +1,9 @@
 var a18012 =
 [
-    [ "PeriodicTick", "d6/daa/a18012.html#af47c7ea07ee3dbe824b1c294024d0c29", null ],
-    [ "PrepareAuraScript", "d6/daa/a18012.html#aa2649c760e362cc7aa22cd770b15f7df", null ],
-    [ "Register", "d6/daa/a18012.html#ad4290158ee9af93df11d1a46a5bd26a2", null ]
+    [ "BattleExperienceEvent", "d6/daa/a18012.html#a3091b403089533ce2ebbb40fa38f28c9", null ],
+    [ "Execute", "d6/daa/a18012.html#a3971962ec90f682baeae96fe6098fa97", null ],
+    [ "_creature", "d6/daa/a18012.html#a0155536d5c2be329a1f3b57c4d852098", null ],
+    [ "_level", "d6/daa/a18012.html#a22f0d7e59f579362be4576180d0977b8", null ],
+    [ "ExperiencedSpells", "d6/daa/a18012.html#a5e2e06a386059ba2d9aff676648fa56b", null ],
+    [ "ExperiencedTimes", "d6/daa/a18012.html#a4daf5818472ebe7c8d3938e2189d8e02", null ]
 ];

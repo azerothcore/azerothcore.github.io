@@ -1,6 +1,6 @@
 var a15544 =
 [
-    [ "SayerEntry", "d4/d5c/a15544.html#a3f9e374ec2a49823d942c29572ac2fa0", null ],
-    [ "SayTimer", "d4/d5c/a15544.html#a942073f24fd12da712184243d9f098f2", null ],
-    [ "TextEntry", "d4/d5c/a15544.html#a360822e4c069be6019c0a465cb2499cf", null ]
+    [ "npc_shay_leafrunnerAI", "d5/d10/a15548.html", "d5/d10/a15548" ],
+    [ "npc_shay_leafrunner", "d4/d5c/a15544.html#a938977a88f71a6972684644232562e79", null ],
+    [ "GetAI", "d4/d5c/a15544.html#a8c05228a0f21375fd6e563baf82bcd50", null ]
 ];

@@ -1,19 +1,7 @@
 var a13944 =
 [
-    [ "boss_thekal", "dd/d84/a13944.html#a91e8fd9ba169d5096fd06471f8bd16e9", null ],
-    [ "CheckPhaseTransition", "dd/d84/a13944.html#a95aeb81565f5863eec67106ae1118ac4", null ],
-    [ "DamageTaken", "dd/d84/a13944.html#a98be9a4d815f6fdc01acbfaa916b721c", null ],
-    [ "DoAction", "dd/d84/a13944.html#aa3d81738fbb42d5575dd8e5b30d84563", null ],
-    [ "Initialize", "dd/d84/a13944.html#aec365f330eed69513e988f895ec780e7", null ],
-    [ "JustDied", "dd/d84/a13944.html#a79bc19df134cbeb17f0941865461bd0d", null ],
-    [ "JustEngagedWith", "dd/d84/a13944.html#af5e2b2b5665270f29243921e51280190", null ],
-    [ "Reset", "dd/d84/a13944.html#a684bf1fc087970a41cf79959ba57b31b", null ],
-    [ "ReviveZealot", "dd/d84/a13944.html#aab84b3390cf8cc95dc8a2067ed38b4ab", null ],
-    [ "SetData", "dd/d84/a13944.html#a586805c5f8d20a35055cf12a3c9f673f", null ],
-    [ "UpdateAI", "dd/d84/a13944.html#a4b5e7dae10900a197d047b6ea32c33ed", null ],
-    [ "UpdateZealotStatus", "dd/d84/a13944.html#ac69068240dfc1ecf30f37e36c3e51353", null ],
-    [ "_enraged", "dd/d84/a13944.html#aba5ac2c4cdac1d4a0e37e9d6cd3b1422", null ],
-    [ "_lorkhanDied", "dd/d84/a13944.html#a0f84ad2f224fe29fc4ddde3258200e10", null ],
-    [ "_wasDead", "dd/d84/a13944.html#aec4eea1f0d8ebffb1bbc2646e986f300", null ],
-    [ "_zathDied", "dd/d84/a13944.html#ae3df1561ee3dcb3887f6e646b6277b29", null ]
+    [ "HandleOnHit", "dd/d84/a13944.html#a561799e6241b1fe17cd09f17c447107b", null ],
+    [ "PrepareSpellScript", "dd/d84/a13944.html#ad98ba2831e93bd601b51a5c6a7e8441d", null ],
+    [ "Register", "dd/d84/a13944.html#ad9b601b73631285cb5a79e30dfe4a8cc", null ],
+    [ "Validate", "dd/d84/a13944.html#adb339686c5e9dcb298712455dc8435bf", null ]
 ];

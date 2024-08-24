@@ -1,6 +1,6 @@
 var a17928 =
 [
-    [ "HandleSpecial", "dc/d1e/a17928.html#afa540e8c748ca3083667528e2449bc65", null ],
-    [ "PrepareSpellScript", "dc/d1e/a17928.html#a9472211ffdaa33802099b22b2a721645", null ],
-    [ "Register", "dc/d1e/a17928.html#ab868b10372ff2ef401d19b126acf00c6", null ]
+    [ "ModAuraValue", "dc/d1e/a17928.html#aebb85353c7ae5af78a725074015b422d", null ],
+    [ "PrepareSpellScript", "dc/d1e/a17928.html#a58dc6a33d2aa9765c143c25428d37342", null ],
+    [ "Register", "dc/d1e/a17928.html#a8d296579faa0edcb4e5c119ccc4edab3", null ]
 ];

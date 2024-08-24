@@ -1,6 +1,6 @@
 var a24844 =
 [
-    [ "CheckProc", "d5/d7b/a24844.html#af742bdfd97c9202d50ed7aa1cf8e7d49", null ],
-    [ "PrepareAuraScript", "d5/d7b/a24844.html#a255a58ad99059ba28ab09a94e7cc683a", null ],
-    [ "Register", "d5/d7b/a24844.html#a4ec4dd2342a5b75c975dc6ffe0b02b79", null ]
+    [ "spell_black_temple_curse_of_the_bleakheart_AuraScript", "d2/dc6/a24848.html", "d2/dc6/a24848" ],
+    [ "spell_black_temple_curse_of_the_bleakheart", "d5/d7b/a24844.html#a6ca3284f1b69c5b1d4027fd725cba99d", null ],
+    [ "GetAuraScript", "d5/d7b/a24844.html#a5df6363ccebf5e4a2a3d945af69cf4f4", null ]
 ];

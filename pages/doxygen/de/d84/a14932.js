@@ -1,13 +1,12 @@
 var a14932 =
 [
-    [ "npc_giant_claw_tentacle", "de/d84/a14932.html#aa50511886122a337fc59585fba03b590", null ],
-    [ "Emerge", "de/d84/a14932.html#ad5fd7a9246c9c7aba0fa71d331e1f512", null ],
-    [ "JustDied", "de/d84/a14932.html#aaaed0a9fb39d30f5c9c7381e923a3d1e", null ],
-    [ "JustEngagedWith", "de/d84/a14932.html#ad4dceaafa3bb12b2e5cb7d9530c59d31", null ],
-    [ "Reset", "de/d84/a14932.html#a8da9c7e164bc7d7bc6e70a784420c3bc", null ],
-    [ "ScheduleTasks", "de/d84/a14932.html#af62d155ec2cf4f56c956869aed8fa1f9", null ],
-    [ "Submerge", "de/d84/a14932.html#ac4fedda976b2de295350363e9fef86ec", null ],
-    [ "UpdateAI", "de/d84/a14932.html#aa3cc1eac6fe92e4325ec0b5a4f7a2604", null ],
-    [ "_canAttack", "de/d84/a14932.html#a62be930ba345b1d2e0df832e72570752", null ],
-    [ "_portalGUID", "de/d84/a14932.html#a175bd11b9d5651d44cc0dd213b2c4ef5", null ]
+    [ "instance_razorfen_downs_InstanceMapScript", "de/d84/a14932.html#a04d36b66a5570d03bb95ef2225a5c902", null ],
+    [ "GetData", "de/d84/a14932.html#a3d1611870945cd0c8cd7d4e7728cfd84", null ],
+    [ "Initialize", "de/d84/a14932.html#aed9ab9542badb0296ca0660c39541cb8", null ],
+    [ "OnGameObjectCreate", "de/d84/a14932.html#a567ac5d9a17514ede5b84c5d78204072", null ],
+    [ "ReadSaveDataMore", "de/d84/a14932.html#a7d6fefed563b0b9763b9c63136c65952", null ],
+    [ "SetData", "de/d84/a14932.html#a1dfd39d65b16bb6e1373fe83ba4053c5", null ],
+    [ "WriteSaveDataMore", "de/d84/a14932.html#ae5cd5cf84e8db976f3006dc52bb5fab4", null ],
+    [ "_firesState", "de/d84/a14932.html#a74809429d3d2b1db5374dacf34d8a1b7", null ],
+    [ "_gongPhase", "de/d84/a14932.html#a23485a35f0aa2f2ffad53398882d163a", null ]
 ];

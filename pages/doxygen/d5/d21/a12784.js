@@ -1,6 +1,6 @@
 var a12784 =
 [
-    [ "spell_scholomance_boon_of_life_AuraScript", "dc/de0/a12788.html", "dc/de0/a12788" ],
-    [ "spell_scholomance_boon_of_life", "d5/d21/a12784.html#a01f4990005507debbdd5848900169b9c", null ],
-    [ "GetAuraScript", "d5/d21/a12784.html#ac5d785b66976147040cb0afd506efb7a", null ]
+    [ "spell_shadowfang_keep_forsaken_skills_AuraScript", "dc/de0/a12788.html", "dc/de0/a12788" ],
+    [ "spell_shadowfang_keep_forsaken_skills", "d5/d21/a12784.html#a546f43f401a1db068d50904943fe3bd5", null ],
+    [ "GetAuraScript", "d5/d21/a12784.html#aa17c4342a7dbd9df903dc53cb11a36aa", null ]
 ];

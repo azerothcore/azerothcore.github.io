@@ -1,6 +1,8 @@
 var a14752 =
 [
-    [ "npc_idol_room_spawnerAI", "d3/d27/a14756.html", "d3/d27/a14756" ],
-    [ "npc_idol_room_spawner", "da/d19/a14752.html#ac51fed89c27ebf6ae3cf65ca8909eab1", null ],
-    [ "GetAI", "da/d19/a14752.html#a3017caa645e98a7647ec42a43c025624", null ]
+    [ "npc_arthasAI", "d3/d27/a14756.html", "d3/d27/a14756" ],
+    [ "npc_arthas", "da/d19/a14752.html#a87c280ff9861187b0a713f795e657266", null ],
+    [ "GetAI", "da/d19/a14752.html#a4a613dd76cde27f7df834b9bb837ab6c", null ],
+    [ "OnGossipHello", "da/d19/a14752.html#a4bd3d5dd8eebe48b525e2bd162787172", null ],
+    [ "OnGossipSelect", "da/d19/a14752.html#aeca2f4baa3c943281c676c6498393165", null ]
 ];

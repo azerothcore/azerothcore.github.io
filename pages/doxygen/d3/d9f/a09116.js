@@ -1,7 +1,10 @@
 var a09116 =
 [
-    [ "ObjectGUIDCheck", "d3/d9f/a09116.html#a4932b3610ddc148ee5a30a6ce91c6f27", null ],
-    [ "operator()", "d3/d9f/a09116.html#a0f3f6e89a9e621a208cd6795722ae4ef", null ],
-    [ "_equals", "d3/d9f/a09116.html#a413d991eeee0294a54f3c803e296c3ac", null ],
-    [ "_GUID", "d3/d9f/a09116.html#a0e97bfe0e160177549a831df8e9b4555", null ]
+    [ "MailReceiver", "d3/d9f/a09116.html#a6fba3ff0ab3167197f569631d766ce14", null ],
+    [ "MailReceiver", "d3/d9f/a09116.html#af0b094a704463ed76b1c08bc3cab0380", null ],
+    [ "MailReceiver", "d3/d9f/a09116.html#a9f69a0951c2b9d9152685632c744cf4e", null ],
+    [ "GetPlayer", "d3/d9f/a09116.html#a0113e33ef82e9f3112f8cd5793581a36", null ],
+    [ "GetPlayerGUIDLow", "d3/d9f/a09116.html#a0e29fba37b58c7bc92065b0221b8e31e", null ],
+    [ "m_receiver", "d3/d9f/a09116.html#a377b896e1dc7a0e89440efbc2b811ae7", null ],
+    [ "m_receiver_lowguid", "d3/d9f/a09116.html#a46b62a2b8dd0ebac981e0a1752e88743", null ]
 ];

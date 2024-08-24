@@ -1,6 +1,6 @@
 var a19592 =
 [
-    [ "npc_living_constellationAI", "d4/df2/a19596.html", "d4/df2/a19596" ],
-    [ "npc_living_constellation", "d9/d9b/a19592.html#a6ee651a525498cb5715ccfedaa26e05d", null ],
-    [ "GetAI", "d9/d9b/a19592.html#a4533812a4da72c0d9eff6d6c9eaf772a", null ]
+    [ "spell_icc_stoneform_AuraScript", "d4/df2/a19596.html", "d4/df2/a19596" ],
+    [ "spell_icc_stoneform", "d9/d9b/a19592.html#abe86fe055ee364229b4f3c03738b1856", null ],
+    [ "GetAuraScript", "d9/d9b/a19592.html#ac88c88f834624f99a62ed7daa6b00b32", null ]
 ];

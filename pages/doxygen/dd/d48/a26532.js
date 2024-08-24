@@ -1,7 +1,10 @@
 var a26532 =
 [
-    [ "HandleEffect", "dd/d48/a26532.html#ab33c9312c9ac4096140a82f381d83235", null ],
-    [ "PrepareSpellScript", "dd/d48/a26532.html#a6117d7b2720f719d801b5f6e0e719f5f", null ],
-    [ "Register", "dd/d48/a26532.html#a1f5983124756eca5666ca6adbe5a4544", null ],
-    [ "Validate", "dd/d48/a26532.html#a08f7e508b50fc44ced0b7ff04e22b333", null ]
+    [ "npc_pet_gen_imp_in_a_bottle", "dd/d48/a26532.html#aa32b7770c2719d77d46fcf6d22989284", null ],
+    [ "InitializeAI", "dd/d48/a26532.html#a9fde3fd30d48068a3ad1a19f65c61bf2", null ],
+    [ "UpdateAI", "dd/d48/a26532.html#a453ec855bb21a30cb72b540ff8f77035", null ],
+    [ "_data", "dd/d48/a26532.html#a982ec923536c2c33353a3673aa425b6a", null ],
+    [ "_hasParty", "dd/d48/a26532.html#a192d9e2ba340040cb6ba5c0f324ffb2d", null ],
+    [ "_ownerGUID", "dd/d48/a26532.html#a5452226bbe4f65a9bd7ce103a7648a2f", null ],
+    [ "_talkTimer", "dd/d48/a26532.html#a07eba859ad2d5db4f6d91734c04020cf", null ]
 ];

@@ -1,10 +1,6 @@
 var a24764 =
 [
-    [ "HandleEffectApply", "d4/dfa/a24764.html#ac977d07e0b054af33345538f10d80c56", null ],
-    [ "HandleEffectRemove", "d4/dfa/a24764.html#acd9c460acb60eae5db8874c246014147", null ],
-    [ "PrepareAuraScript", "d4/dfa/a24764.html#a1527c59b43a26db344e5a4d2900ea9b0", null ],
-    [ "Register", "d4/dfa/a24764.html#ab0de0c0459d3414f69a0dde7669b6f79", null ],
-    [ "_hasFlag", "d4/dfa/a24764.html#adb5058ba54ea53db9fdc9251a44619aa", null ],
-    [ "_itemId", "d4/dfa/a24764.html#a28c06ecd352466e0d1076d9eb4fa8e9b", null ],
-    [ "_modelId", "d4/dfa/a24764.html#ae77b9ae8a1092e0dc144e83db4c0758c", null ]
+    [ "boss_lady_malandeAI", "db/d7d/a24768.html", "db/d7d/a24768" ],
+    [ "boss_lady_malande", "d4/dfa/a24764.html#a5c159907210c053cd82dddb1be5fff4a", null ],
+    [ "GetAI", "d4/dfa/a24764.html#a338a862e901543f8557d31f2fcaa8575", null ]
 ];

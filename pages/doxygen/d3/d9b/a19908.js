@@ -1,6 +1,6 @@
 var a19908 =
 [
-    [ "CheckCast", "d3/d9b/a19908.html#a866fd47d51b5fc4c07c3733739d07c02", null ],
-    [ "PrepareSpellScript", "d3/d9b/a19908.html#a09cbe962ae1f18811db8c1d32b856c0d", null ],
-    [ "Register", "d3/d9b/a19908.html#a240989af43e5ad6eb81d600a2f1d4769", null ]
+    [ "spell_ioc_repair_turret_AuraScript", "d0/d2a/a19912.html", "d0/d2a/a19912" ],
+    [ "spell_ioc_repair_turret", "d3/d9b/a19908.html#a697e2de10638b4bb71bc7baa378b4971", null ],
+    [ "GetAuraScript", "d3/d9b/a19908.html#a375ac83007c35f24f4dbe1f423e3c207", null ]
 ];

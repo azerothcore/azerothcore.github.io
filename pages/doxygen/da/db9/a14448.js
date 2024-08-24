@@ -1,7 +1,6 @@
 var a14448 =
 [
-    [ "PeriodicTick", "da/db9/a14448.html#aa94e4d6a31a08959a5287b863737c2e2", null ],
-    [ "PrepareAuraScript", "da/db9/a14448.html#a59a9c4dfe06859daac5bb69fa5d20e95", null ],
-    [ "Register", "da/db9/a14448.html#a24058b120f4fa06b89f6d582c53a365a", null ],
-    [ "Validate", "da/db9/a14448.html#a093b09be5abde91a1487d67a7a554d30", null ]
+    [ "instance_blackfathom_deeps_InstanceMapScript", "d5/d4b/a14452.html", "d5/d4b/a14452" ],
+    [ "instance_blackfathom_deeps", "da/db9/a14448.html#a4600a7e6191582c1bee684989a970e0f", null ],
+    [ "GetInstanceScript", "da/db9/a14448.html#a62cdab4f3118ab030b4ef55243690f73", null ]
 ];

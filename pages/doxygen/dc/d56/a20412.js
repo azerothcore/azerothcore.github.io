@@ -1,5 +1,6 @@
 var a20412 =
 [
-    [ "achievement_mimiron_set_up_us_the_bomb_12", "dc/d56/a20412.html#adc7f5769894c59710fa70604878b1e2c", null ],
-    [ "OnCheck", "dc/d56/a20412.html#ad604fa41b8c8d34b996dbdc709faac66", null ]
+    [ "npc_crystalline_frayerAI", "dd/df5/a20416.html", "dd/df5/a20416" ],
+    [ "npc_crystalline_frayer", "dc/d56/a20412.html#a9124f4ffcbfbb9e073d0943f3398ce5e", null ],
+    [ "GetAI", "dc/d56/a20412.html#a1780bb5b521d6e2617e90cb6cf119060", null ]
 ];

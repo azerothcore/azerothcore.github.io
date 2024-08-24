@@ -1,6 +1,6 @@
 var a21468 =
 [
-    [ "npc_nerubar_victimAI", "d0/d69/a21472.html", "d0/d69/a21472" ],
-    [ "npc_nerubar_victim", "db/d00/a21468.html#a4fe80597d3e56776f0f04965fc706097", null ],
-    [ "GetAI", "db/d00/a21468.html#a5bb565352ab47fb5cb572190f55df8d1", null ]
+    [ "spell_hodir_shatter_chestSpellScript", "d0/d69/a21472.html", "d0/d69/a21472" ],
+    [ "spell_hodir_shatter_chest", "db/d00/a21468.html#ad9cbebcd3ec400eeab80c1c5ca0d3b29", null ],
+    [ "GetSpellScript", "db/d00/a21468.html#a30d4802be91962f6bfa9c02c90da57fb", null ]
 ];

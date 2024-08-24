@@ -1,9 +1,9 @@
 var a03725 =
 [
-    [ "boss_ormorok", "d9/dc5/a19216.html", "d9/dc5/a19216" ],
-    [ "boss_ormorok::boss_ormorokAI", "d0/dcb/a19220.html", "d0/dcb/a19220" ],
-    [ "npc_crystal_spike", "da/d2f/a19224.html", "da/d2f/a19224" ],
-    [ "npc_crystal_spike::npc_crystal_spikeAI", "d2/ddc/a19228.html", "d2/ddc/a19228" ],
+    [ "boss_ormorok", "d7/dc1/a19219.html", "d7/dc1/a19219" ],
+    [ "boss_ormorok::boss_ormorokAI", "d6/de7/a19223.html", "d6/de7/a19223" ],
+    [ "npc_crystal_spike", "d2/d7d/a19227.html", "d2/d7d/a19227" ],
+    [ "npc_crystal_spike::npc_crystal_spikeAI", "d9/d2b/a19231.html", "d9/d2b/a19231" ],
     [ "eEnums", "d0/d69/a03725.html#a0ec08fe05ebfdddfa34c747c9c62a165", [
       [ "SPELL_FROZEN_PRISON", "d7/da7/a03719.html#a0ec08fe05ebfdddfa34c747c9c62a165a874864078de8743889d364bbecadcee6", null ],
       [ "SPELL_TAIL_SWEEP", "d7/da7/a03719.html#a0ec08fe05ebfdddfa34c747c9c62a165addcb3daa6cdc61ef04c65580e44ef823", null ],

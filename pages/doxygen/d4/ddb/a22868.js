@@ -1,6 +1,6 @@
 var a22868 =
 [
-    [ "npc_supremus_punch_invisible_stalker", "d4/ddb/a22868.html#add7d0e711ef02a16ef58d90cfc8ee733", null ],
-    [ "IsSummonedBy", "d4/ddb/a22868.html#a467d5a43bb6d2349ad859a0ef7de4c00", null ],
-    [ "UpdateAI", "d4/ddb/a22868.html#a90ecfe4257ef77a6d6a200a2f017c51a", null ]
+    [ "npc_vh_sinclari", "d4/ddb/a22868.html#ad0235f207a3031420532174c04e0c348", null ],
+    [ "OnGossipHello", "d4/ddb/a22868.html#a95f0d094d417d9d6ce99d7c8aa83496f", null ],
+    [ "OnGossipSelect", "d4/ddb/a22868.html#af0a260d7868f601ae239c226b10d4de3", null ]
 ];

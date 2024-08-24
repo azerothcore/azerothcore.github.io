@@ -1,6 +1,6 @@
 var a02078 =
 [
-    [ "PlayerScript", "d7/d9f/a10064.html", "d7/d9f/a10064" ],
+    [ "PlayerScript", "de/d01/a10067.html", "de/d01/a10067" ],
     [ "PlayerHook", "d6/d5b/a02078.html#a7d525e751616f7554a64c9ae6e12a357", [
       [ "PLAYERHOOK_ON_PLAYER_JUST_DIED", "d6/d5b/a02078.html#a7d525e751616f7554a64c9ae6e12a357a5b36d5121754e80347cec73da33b380e", null ],
       [ "PLAYERHOOK_ON_PLAYER_RELEASED_GHOST", "d6/d5b/a02078.html#a7d525e751616f7554a64c9ae6e12a357a74658712169435b0d3e9ae96f3f85c84", null ],

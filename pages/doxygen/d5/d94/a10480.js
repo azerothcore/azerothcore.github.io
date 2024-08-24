@@ -1,9 +1,12 @@
 var a10480 =
 [
-    [ "RandomRoll", "d5/d94/a10480.html#abc64acf498b3dc70b9afd23c399e3db8", null ],
-    [ "Write", "d5/d94/a10480.html#aab5879874745603dd448a7f5084d60d4", null ],
-    [ "Max", "d5/d94/a10480.html#a21460b09eddfbee6ba022f88b5f37cc7", null ],
-    [ "Min", "d5/d94/a10480.html#aee5564c9fc17613b9f30fc8ce88944c6", null ],
-    [ "Result", "d5/d94/a10480.html#a34fd2c1d018bb292836724671163ff07", null ],
-    [ "Roller", "d5/d94/a10480.html#af02aa97826259885791d0f4afc0c1a84", null ]
+    [ "UnitAura", "d5/d94/a10480.html#ada4033955271dfb21d16a95b316087f5", null ],
+    [ "_ApplyForTarget", "d5/d94/a10480.html#a920549cf55c8def37149b00ae971127d", null ],
+    [ "_UnapplyForTarget", "d5/d94/a10480.html#af4d453cee6758e633bdcae0049581898", null ],
+    [ "FillTargetMap", "d5/d94/a10480.html#add5ce04446338e078c5986420abfd16e", null ],
+    [ "GetDiminishGroup", "d5/d94/a10480.html#a8ebf7b01e7f324938f68ad4ce74d56b5", null ],
+    [ "Remove", "d5/d94/a10480.html#a28f714404942bb5c614ac844cf937546", null ],
+    [ "SetDiminishGroup", "d5/d94/a10480.html#a6d858a153c5d3046574f3387ab852050", null ],
+    [ "Aura::Create", "d5/d94/a10480.html#ae2c0fdfb409846fec5e861de60797112", null ],
+    [ "m_AuraDRGroup", "d5/d94/a10480.html#a4b413c5e62eee76875a22345059e6124", null ]
 ];

@@ -1,8 +1,8 @@
 var a10292 =
 [
-    [ "GuildEvent", "d8/d7f/a10292.html#a78be16122c01d4c68d67e050ede92006", null ],
-    [ "Write", "d8/d7f/a10292.html#a4ae1c0daaec964981ad982b97c1b0408", null ],
-    [ "Guid", "d8/d7f/a10292.html#a35bcac3da7db22a22b4e8dba21ae1d0a", null ],
-    [ "Params", "d8/d7f/a10292.html#a8f0faa70581ca04c26f87ebcd25cee80", null ],
-    [ "Type", "d8/d7f/a10292.html#a961ae90991fa23bfc94a054dba357392", null ]
+    [ "PetSpellAutocast", "d8/d7f/a10292.html#ab858647d14031a2a6109d1e923402d08", null ],
+    [ "Read", "d8/d7f/a10292.html#a5c94e7acc04efbb2a50695ed4fdf7036", null ],
+    [ "AutocastEnabled", "d8/d7f/a10292.html#a3c04543dcd5382682654b3860b84c6a3", null ],
+    [ "PetGUID", "d8/d7f/a10292.html#aeed828abebf683078ee61204c91e28c9", null ],
+    [ "SpellID", "d8/d7f/a10292.html#a9afcd8b8bbd2e2fd07bc59219b1a80da", null ]
 ];

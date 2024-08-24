@@ -1,6 +1,6 @@
 var a10972 =
 [
-    [ "ObjectTargetSelectHandler", "dd/def/a10972.html#abe96c3e266375ab64f8dec54a047a5b8", null ],
-    [ "Call", "dd/def/a10972.html#a7e18103fb5c68b2cf85f54bf7caf4b3b", null ],
-    [ "pObjectTargetSelectHandlerScript", "dd/def/a10972.html#a6982985537c0ddb8dd79647766c9ae70", null ]
+    [ "bg_commandscript", "dd/def/a10972.html#a86ffdfaed58149f5036f5c1e1040507a", null ],
+    [ "GetCommands", "dd/def/a10972.html#a911ccd6445b08c05069f7f196556c891", null ],
+    [ "HandleBagsClearCommand", "dd/def/a10972.html#a92347e90c2f78d0dfeb41eb033366319", null ]
 ];

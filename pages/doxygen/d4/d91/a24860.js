@@ -1,7 +1,6 @@
 var a24860 =
 [
-    [ "HandleApply", "d4/d91/a24860.html#a75f7fc139cf72aeaa2cc09ba30a8f119", null ],
-    [ "HandlePeriodicTimer", "d4/d91/a24860.html#ae9f438dd0833b2ad214acef0e558a8be", null ],
-    [ "PrepareAuraScript", "d4/d91/a24860.html#ac2040d944e47a4f1cc7721ead44aca77", null ],
-    [ "Register", "d4/d91/a24860.html#abc9eb056267c7effcc7f68a3ad7891da", null ]
+    [ "spell_black_temple_wyvern_sting_AuraScript", "d5/d96/a24864.html", "d5/d96/a24864" ],
+    [ "spell_black_temple_wyvern_sting", "d4/d91/a24860.html#aa0f34f9a399ecfcab30daf5e53145db1", null ],
+    [ "GetAuraScript", "d4/d91/a24860.html#ab243fab46d7af73604b012701f1dd0d3", null ]
 ];

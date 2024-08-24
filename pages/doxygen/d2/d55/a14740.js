@@ -1,12 +1,13 @@
 var a14740 =
 [
-    [ "instance_razorfen_downs_InstanceMapScript", "d2/d55/a14740.html#a04d36b66a5570d03bb95ef2225a5c902", null ],
-    [ "GetData", "d2/d55/a14740.html#a3d1611870945cd0c8cd7d4e7728cfd84", null ],
-    [ "Initialize", "d2/d55/a14740.html#aed9ab9542badb0296ca0660c39541cb8", null ],
-    [ "OnGameObjectCreate", "d2/d55/a14740.html#a567ac5d9a17514ede5b84c5d78204072", null ],
-    [ "ReadSaveDataMore", "d2/d55/a14740.html#a7d6fefed563b0b9763b9c63136c65952", null ],
-    [ "SetData", "d2/d55/a14740.html#a1dfd39d65b16bb6e1373fe83ba4053c5", null ],
-    [ "WriteSaveDataMore", "d2/d55/a14740.html#ae5cd5cf84e8db976f3006dc52bb5fab4", null ],
-    [ "_firesState", "d2/d55/a14740.html#a74809429d3d2b1db5374dacf34d8a1b7", null ],
-    [ "_gongPhase", "d2/d55/a14740.html#a23485a35f0aa2f2ffad53398882d163a", null ]
+    [ "boss_salrammAI", "d2/d55/a14740.html#ae1055878b3919e29d44ee26efcbe044f", null ],
+    [ "ExplodeGhoul", "d2/d55/a14740.html#adc64d8b10b28b98254c528732fff0516", null ],
+    [ "JustDied", "d2/d55/a14740.html#a59bc42afcbb0ed2c2629bd0280836194", null ],
+    [ "JustEngagedWith", "d2/d55/a14740.html#a8d3287cc74cc9d756a879c4ac796f860", null ],
+    [ "JustSummoned", "d2/d55/a14740.html#afd70403a8644f310f37335c6c9bf5b55", null ],
+    [ "KilledUnit", "d2/d55/a14740.html#ad3f4161c0e18c911a931d65e25693cdd", null ],
+    [ "Reset", "d2/d55/a14740.html#a9ddecc950cac3fc392078df2810ec2a2", null ],
+    [ "UpdateAI", "d2/d55/a14740.html#aa2350dc05884593b1361f9f09b8d9392", null ],
+    [ "events", "d2/d55/a14740.html#a55c0bba93a90b5a3770c81b9c4d2fe5b", null ],
+    [ "summons", "d2/d55/a14740.html#a813c09e121730d4ae2e623ac3c37d570", null ]
 ];

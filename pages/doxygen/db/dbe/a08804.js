@@ -1,11 +1,8 @@
 var a08804 =
 [
-    [ "~Grid", "db/dbe/a08804.html#a86be65dc86f104566acd41078429e4c4", null ],
-    [ "AddGridObject", "db/dbe/a08804.html#ad78b74974ec1f4a361096c8f4d7500d7", null ],
-    [ "AddWorldObject", "db/dbe/a08804.html#aac7dc4f1c3024b2286fed2ae51688a99", null ],
-    [ "Visit", "db/dbe/a08804.html#aa69a55ee52da73b9ec3c62406cb4a595", null ],
-    [ "Visit", "db/dbe/a08804.html#aebdcac90d763779775dbc0f0492e5279", null ],
-    [ "GridLoader", "db/dbe/a08804.html#a06e47216bdac43edea86c507c93a6ed4", null ],
-    [ "i_container", "db/dbe/a08804.html#a510723553d7206edb25792856c6c369b", null ],
-    [ "i_objects", "db/dbe/a08804.html#a3bf441ec395e8e4cecdb8d63b6600bef", null ]
+    [ "NearestPlayerInObjectRangeCheck", "db/dbe/a08804.html#ae8e57c69baf8bdaf0448864d4afbb1a4", null ],
+    [ "NearestPlayerInObjectRangeCheck", "db/dbe/a08804.html#aac3d406d10a036b92a55bcd955411165", null ],
+    [ "operator()", "db/dbe/a08804.html#a5d7ed3141c03d2209d5a3b1a689d1668", null ],
+    [ "i_obj", "db/dbe/a08804.html#a9cd17091269bcfc2b48fefc12ac9b127", null ],
+    [ "i_range", "db/dbe/a08804.html#ab55f93d7c5d6ca3461bcbe49010fcb83", null ]
 ];

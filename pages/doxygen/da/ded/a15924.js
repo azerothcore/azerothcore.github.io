@@ -1,6 +1,6 @@
 var a15924 =
 [
-    [ "npc_orb_carrierAI", "d4/dc7/a15928.html", "d4/dc7/a15928" ],
-    [ "npc_orb_carrier", "da/ded/a15924.html#a69fdd8cb2f0cdf7cf6cf0bdabbc0cd03", null ],
-    [ "GetAI", "da/ded/a15924.html#ab5b7bbffc43b840c686dc889805ea401", null ]
+    [ "ModDestHeight", "da/ded/a15924.html#a8bda9327c4244af41c513528ad5c818c", null ],
+    [ "PrepareSpellScript", "da/ded/a15924.html#aba5a03c94fa5d87c46a91369875c0ab2", null ],
+    [ "Register", "da/ded/a15924.html#a62b0ce71caeff96705b15aa240ddd09f", null ]
 ];

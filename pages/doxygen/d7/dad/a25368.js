@@ -1,9 +1,6 @@
 var a25368 =
 [
-    [ "CheckProc", "d7/dad/a25368.html#a073ed3648f5fd15db73d1620ba7031e3", null ],
-    [ "HandleProc", "d7/dad/a25368.html#a5345da73b9c4c9fe4ae5d272e3574955", null ],
-    [ "OnRemove", "d7/dad/a25368.html#a27b1b744d88b4c870c0baa0b8f88317f", null ],
-    [ "PrepareAuraScript", "d7/dad/a25368.html#a2e13f63459342fb749594f7fbb517c80", null ],
-    [ "Register", "d7/dad/a25368.html#a6fc9a3945a736ba4a62ad754090d8525", null ],
-    [ "Validate", "d7/dad/a25368.html#a008ec43da50deb568ec453e992f89887", null ]
+    [ "instance_gruuls_lair_InstanceMapScript", "da/d59/a25372.html", "da/d59/a25372" ],
+    [ "instance_gruuls_lair", "d7/dad/a25368.html#ae091404d09e614fe893c20e8ed90d2c4", null ],
+    [ "GetInstanceScript", "d7/dad/a25368.html#ab8b5b000f6099111244b4ea48f0ab029", null ]
 ];

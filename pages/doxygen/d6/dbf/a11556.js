@@ -1,6 +1,5 @@
 var a11556 =
 [
-    [ "boss_anubshiahAI", "d6/dbf/a11556.html#ae5bdb5509aad0d386bf73e5aad728744", null ],
-    [ "JustEngagedWith", "d6/dbf/a11556.html#ae83c1def323828814b5db6b032002438", null ],
-    [ "UpdateAI", "d6/dbf/a11556.html#a3acd88f97e2f1e3386c9b5dfa4f15d15", null ]
+    [ "go_father_flame", "d6/dbf/a11556.html#aa992bd7029a56faca4b92637688fe845", null ],
+    [ "OnLootStateChanged", "d6/dbf/a11556.html#a84c7055e791a3dac66b75d327c7662c3", null ]
 ];

@@ -1,11 +1,7 @@
 var a18112 =
 [
-    [ "AddMissingStack", "d0/d08/a18112.html#ae23dc772e58db8648a7ddbf5255bd917", null ],
-    [ "CheckAura", "d0/d08/a18112.html#a9d9e5620f61c92d35b08bec100b5a12a", null ],
-    [ "FilterTargets", "d0/d08/a18112.html#ab6c86c3680823329d5f3aad985aa316a", null ],
-    [ "Load", "d0/d08/a18112.html#a823e600ee1a350ab60ea69043e4fbef9", null ],
-    [ "PrepareSpellScript", "d0/d08/a18112.html#aff3b52df65504d7d4928b1ff69c1fa4b", null ],
-    [ "Register", "d0/d08/a18112.html#af0e6f1fc6687de1abcc1689116150088", null ],
-    [ "_hadInitialAura", "d0/d08/a18112.html#a1b553c0ad5fc4e86f02829b5284db709", null ],
-    [ "_hadJumpingAura", "d0/d08/a18112.html#ade3c2e5f78cbfbc34a3cbc8259e241db", null ]
+    [ "npc_gunship_rocketeerAI", "d0/d08/a18112.html#aa9e722f32cd95fff8c72db5a41d0e84c", null ],
+    [ "CanAIAttack", "d0/d08/a18112.html#a4b4e2839e426bdb752beea09394f13dc", null ],
+    [ "MovementInform", "d0/d08/a18112.html#a7dd7f3625b177a96bcfdc5e46d944562", null ],
+    [ "UpdateAI", "d0/d08/a18112.html#af73d71750f116fb90be1c2acba75ca70", null ]
 ];

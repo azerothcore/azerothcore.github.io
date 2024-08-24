@@ -1,6 +1,8 @@
 var a12040 =
 [
-    [ "npc_garr_fireswornAI", "d9/d57/a12044.html", "d9/d57/a12044" ],
-    [ "npc_garr_firesworn", "dc/d61/a12040.html#a54c8f5daab9b8c4e1e7ff5d7777fcddf", null ],
-    [ "GetAI", "dc/d61/a12040.html#a07e47767a44d3613f8cba2c3dfb1d14e", null ]
+    [ "boss_maiden_of_virtue", "dc/d61/a12040.html#a4cd0c7a566e23e5c3a43466214f35dd3", null ],
+    [ "JustDied", "dc/d61/a12040.html#a6eded246318f6b47b46f45168e4a8069", null ],
+    [ "JustEngagedWith", "dc/d61/a12040.html#a6ff1b9e0a17218ad4871bc5fc3748671", null ],
+    [ "KilledUnit", "dc/d61/a12040.html#a22ab02c44bd04bc7b933f98e06f0b2b6", null ],
+    [ "UpdateAI", "dc/d61/a12040.html#a64d52d4b50571b12d197a1820807187d", null ]
 ];

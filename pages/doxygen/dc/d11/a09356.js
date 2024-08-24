@@ -1,7 +1,7 @@
 var a09356 =
 [
-    [ "QuestItem", "dc/d11/a09356.html#a1d6e1d5de83a397b17115dbeba2a58b3", null ],
-    [ "QuestItem", "dc/d11/a09356.html#a51b978ee64ec979ebe097f3b3f4c3cd0", null ],
-    [ "index", "dc/d11/a09356.html#a0e48289882a1eabb6c8ff30032193bd2", null ],
-    [ "is_looted", "dc/d11/a09356.html#a48f2baabd2d5a07313dc38a27c6f4713", null ]
+    [ "Finalize", "dc/d11/a09356.html#a90c8b42ef67968bf58acae5678dc7496", null ],
+    [ "Initialize", "dc/d11/a09356.html#ad6b97c3e2884dfbe3f17e2579b31ac66", null ],
+    [ "Reset", "dc/d11/a09356.html#a6db99ea9863dc60d032bacda37afa078", null ],
+    [ "Update", "dc/d11/a09356.html#af044c8725ef11e8a152987225521ef8b", null ]
 ];

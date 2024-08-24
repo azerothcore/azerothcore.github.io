@@ -1,10 +1,11 @@
 var a07028 =
 [
-    [ "BattlegroundChatBuilder", "dd/df5/a07028.html#ad5ae3b91e81f816ca49f9358222c8b06", null ],
-    [ "do_helper", "dd/df5/a07028.html#aaeb91b7fa2efe1dd36802851e204c9c8", null ],
-    [ "operator()", "dd/df5/a07028.html#ab84296c320b09a387de6e6e6a2326b83", null ],
-    [ "_args", "dd/df5/a07028.html#a32a72bf1110179cc58dcf2df914c7389", null ],
-    [ "_msgtype", "dd/df5/a07028.html#ae73b69d72ddee4e05bb8b634a91e13b7", null ],
-    [ "_source", "dd/df5/a07028.html#aaed8a84ac72a01824d7d7fc2ea17c9af", null ],
-    [ "_textId", "dd/df5/a07028.html#a218d6cc2e99a6170b1a548fc1531e2e7", null ]
+    [ "wrapper_func", "dd/df5/a07028.html#a4ebb895343c2cfae053a605aafe0e461", null ],
+    [ "CommandInvoker", "dd/df5/a07028.html#a6541779cccd36a87d65acc1b6a9725e2", null ],
+    [ "CommandInvoker", "dd/df5/a07028.html#ad941d54b994fbfe0f572348d18a790be", null ],
+    [ "CommandInvoker", "dd/df5/a07028.html#a6b693468375cc6b92870194e10eb4140", null ],
+    [ "operator bool", "dd/df5/a07028.html#aa00bfcf3938781f5e454f7acddb12e7e", null ],
+    [ "operator()", "dd/df5/a07028.html#a611756a2205ffb2bccabb53929a4644b", null ],
+    [ "_handler", "dd/df5/a07028.html#af9bece7be346ed85c5b45cc07c7b176a", null ],
+    [ "_wrapper", "dd/df5/a07028.html#a1605d492889200f2d18d6759882913aa", null ]
 ];

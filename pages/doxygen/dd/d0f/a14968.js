@@ -1,6 +1,5 @@
 var a14968 =
 [
-    [ "FilterTargets", "dd/d0f/a14968.html#a15ebe9125f5f4a8f66241ee4da1ac83e", null ],
-    [ "PrepareSpellScript", "dd/d0f/a14968.html#a32b0be74a9127f920e22aa03c910a005", null ],
-    [ "Register", "dd/d0f/a14968.html#a80efa2858d4270c497e49a1fe6a7472e", null ]
+    [ "npc_hive_zara_swarmer", "dd/d0f/a14968.html#a374fa63e210e0be8a074af9199126a9e", null ],
+    [ "PathEndReached", "dd/d0f/a14968.html#a3b3510bd00853395b756e1d83d96a474", null ]
 ];

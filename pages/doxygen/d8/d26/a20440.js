@@ -1,10 +1,15 @@
 var a20440 =
 [
-    [ "npc_ulduar_harpoonfirestateAI", "d8/d26/a20440.html#acc6853671f37e35c746ffa3807ae10b2", null ],
-    [ "GetData", "d8/d26/a20440.html#ac23f2c901ef8c2160ceea43a0a15e185", null ],
-    [ "GetHarpoonGunIdForThisHFS", "d8/d26/a20440.html#af21c4d50febac02eb0572efe564a19b1", null ],
-    [ "Reset", "d8/d26/a20440.html#af300a8271762fe1b5582384114902ee8", null ],
-    [ "SetData", "d8/d26/a20440.html#abf485123f0a73aa84ad5178e23c4192e", null ],
-    [ "pInstance", "d8/d26/a20440.html#af576864ded6610daad973ac420d2fdb8", null ],
-    [ "repairPoints", "d8/d26/a20440.html#a5e9bcd384285b9046da93bd18804d07b", null ]
+    [ "boss_eregosAI", "d8/d26/a20440.html#a5b09dacbddd6075c2ebf4d62a387a8b6", null ],
+    [ "DamageTaken", "d8/d26/a20440.html#a7a4b4443aed576f080a56a27e15edfd4", null ],
+    [ "JustDied", "d8/d26/a20440.html#ade16be2804b857fc8e93a62d4be42380", null ],
+    [ "JustEngagedWith", "d8/d26/a20440.html#a1544782732beba5d7114c3bb70419ae1", null ],
+    [ "JustSummoned", "d8/d26/a20440.html#a33ef5a080e457f4e08e7997b467b0974", null ],
+    [ "KilledUnit", "d8/d26/a20440.html#a30ad32a4a63ae17eef4fc703a6749d38", null ],
+    [ "MoveInLineOfSight", "d8/d26/a20440.html#ac622481abb0190bdc7654b383766a9ed", null ],
+    [ "Reset", "d8/d26/a20440.html#aeec469c2c9d0ad27461478ee57c30c56", null ],
+    [ "UpdateAI", "d8/d26/a20440.html#a2a190fdb6b1c9ed4eba2b9e536c5cf36", null ],
+    [ "events", "d8/d26/a20440.html#ae6f1f2e3146525596c3dbb646283b744", null ],
+    [ "pInstance", "d8/d26/a20440.html#abf0b366d7b0931ccc30711a33736dda8", null ],
+    [ "shiftNumber", "d8/d26/a20440.html#a16c90dba1f0a7f4cc2025e294dbac455", null ]
 ];

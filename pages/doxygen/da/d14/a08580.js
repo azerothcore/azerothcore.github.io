@@ -1,8 +1,9 @@
 var a08580 =
 [
-    [ "TempSummonGroupKey", "da/d14/a08580.html#ae1bd752c8fc7d037d6942b32859ce1ad", null ],
-    [ "operator<", "da/d14/a08580.html#ae92c7712bd58b9b773ddaac3d2b8a345", null ],
-    [ "_summonerEntry", "da/d14/a08580.html#a0ecac0e82ce63c9e64f2e17d941df447", null ],
-    [ "_summonerType", "da/d14/a08580.html#ac6bf8fb36092134f63409f3cddc5f810", null ],
-    [ "_summonGroup", "da/d14/a08580.html#a1a90f3bf90363f88828cc217dd7ceda6", null ]
+    [ "ObjectUpdater", "da/d14/a08580.html#ad907a266bcf4c059a49195eae4758541", null ],
+    [ "Visit", "da/d14/a08580.html#a7dc639f90a38e6156a436ef6ff1204ec", null ],
+    [ "Visit", "da/d14/a08580.html#a2ca08c1a3f3f23111bffbd423ca47b1c", null ],
+    [ "Visit", "da/d14/a08580.html#a283b656ac784e64b98929eca83326027", null ],
+    [ "i_largeOnly", "da/d14/a08580.html#a8f3e4ed206f6793edf9bf358d1bdf2c2", null ],
+    [ "i_timeDiff", "da/d14/a08580.html#a4f1acae57c44d33449a8f040b02fa5e4", null ]
 ];

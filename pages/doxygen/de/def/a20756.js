@@ -1,9 +1,8 @@
 var a20756 =
 [
-    [ "boss_yoggsaron_keeper", "de/def/a20756.html#ad2098933656371b1bf80ec3ea859c418", null ],
-    [ "DoAction", "de/def/a20756.html#a9e3d251810b55072458003356213ae15", null ],
-    [ "JustEngagedWith", "de/def/a20756.html#a36bac93a46710f0cd3f51958b4e4223b", null ],
-    [ "JustSummoned", "de/def/a20756.html#a272a77cb6f147f38825cd68d54f56a9a", null ],
-    [ "UpdateAI", "de/def/a20756.html#afe9c18d91443f2ba3b2fd2a2fdd7dca5", null ],
-    [ "_summons", "de/def/a20756.html#aa840eff5f3d8b24225046113737936b4", null ]
+    [ "dark_rune_stormcallerAI", "de/def/a20756.html#ad889fb0c50e879c958c9b8bb681e4bf7", null ],
+    [ "JustEngagedWith", "de/def/a20756.html#a7ddfb8afac3ff28a84b26255628fab50", null ],
+    [ "Reset", "de/def/a20756.html#afa9cc2e1a9f7d21cd885479e9afdcd12", null ],
+    [ "UpdateAI", "de/def/a20756.html#adbd245fc5180dc7c78704595a9592864", null ],
+    [ "events", "de/def/a20756.html#aa7d8d1d075eeb03952b47cc16846a3db", null ]
 ];

@@ -1,5 +1,6 @@
 var a12440 =
 [
-    [ "at_karazhan_side_entrance", "de/d9e/a12440.html#abdaa7339a53941e2e89c4fcd439395fc", null ],
-    [ "_OnTrigger", "de/d9e/a12440.html#a80d0018a9442ef7f0834dc329047e135", null ]
+    [ "HandleScriptEffect", "de/d9e/a12440.html#a7b8314c8833ba7160a8ee33c5136841c", null ],
+    [ "PrepareSpellScript", "de/d9e/a12440.html#ad75019d30081514a4ab3b6301177bb06", null ],
+    [ "Register", "de/d9e/a12440.html#a8aeba569703c51b96910952db7af2bda", null ]
 ];

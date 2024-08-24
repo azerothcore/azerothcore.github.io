@@ -1,10 +1,7 @@
 var a10416 =
 [
-    [ "Count", "d1/d11/a10416.html#a97b56650a40ff3d39c6281d43261f06f", null ],
-    [ "EntryType", "d1/d11/a10416.html#a7c4db5da5d5e501172b8581e4e7bb865", null ],
-    [ "ItemID", "d1/d11/a10416.html#a1daad03864355f94d90315fea68892d4", null ],
-    [ "Money", "d1/d11/a10416.html#a856d32f52e85b2b7329f85b8e04ad0ee", null ],
-    [ "OtherTab", "d1/d11/a10416.html#a359c633cc0034dc8ae8b7db69d3dd739", null ],
-    [ "PlayerGUID", "d1/d11/a10416.html#a90e01e455d373204617b2747ca95fe04", null ],
-    [ "TimeOffset", "d1/d11/a10416.html#a11cf13b65aafbd4dc70399362f4f87fe", null ]
+    [ "Player", "d1/d11/a10416.html#a7f4241aa9ecc051c75f779af132a52ed", null ],
+    [ "WorldSession", "d1/d11/a10416.html#a65b5c30bf4f5f118a199e378d903aaf6", null ],
+    [ "FactionChange", "d1/d11/a10416.html#adff657ead29df26ead5e20a8ecf44e87", null ],
+    [ "Race", "d1/d11/a10416.html#a98d5fd43205a0c9e2d3be75d384ce00c", null ]
 ];

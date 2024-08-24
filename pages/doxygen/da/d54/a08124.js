@@ -1,9 +1,13 @@
 var a08124 =
 [
-    [ "Reset", "da/d54/a08124.html#a9c210ff536b49481f71bc6c3f60ee864", null ],
-    [ "guid", "da/d54/a08124.html#ac115013e34f67bc1444fef4fc96c843e", null ],
-    [ "pos", "da/d54/a08124.html#adff317cbf0c2d159d8ffddf52b4751b3", null ],
-    [ "seat", "da/d54/a08124.html#ad57bea2ae3beb6a086a116989b0d528f", null ],
-    [ "time", "da/d54/a08124.html#acec3991f0d19fd9f72e9837eef516057", null ],
-    [ "time2", "da/d54/a08124.html#a426c651d2f359847b033a4d7f278a191", null ]
+    [ "PassengerSet", "da/d54/a08124.html#aa6421ebd51e84c819604e18e93729d27", null ],
+    [ "Transport", "da/d54/a08124.html#a36928c178aa490c02aa25b4b12e2bf63", null ],
+    [ "AddPassenger", "da/d54/a08124.html#ac5c328f816b0358a68265322219357c1", null ],
+    [ "CalculatePassengerOffset", "da/d54/a08124.html#a327d37eef797c4197b8bba503bd8a3f8", null ],
+    [ "CalculatePassengerPosition", "da/d54/a08124.html#ae4e716194ce5e9c466a8fe5c53ee0980", null ],
+    [ "GetPassengers", "da/d54/a08124.html#a3f70c977ba2450d4244e54e4260f6ea1", null ],
+    [ "GetPathProgress", "da/d54/a08124.html#a4ecab9f8617918aea3a26cc0feb9c021", null ],
+    [ "RemovePassenger", "da/d54/a08124.html#a1d70745a16a1cbf3307a25ff4a53c75d", null ],
+    [ "SetPathProgress", "da/d54/a08124.html#acb68e75a78fa196a4b514abd24c0e322", null ],
+    [ "_passengers", "da/d54/a08124.html#adc2089495aadaab23414ecae3b2df180", null ]
 ];

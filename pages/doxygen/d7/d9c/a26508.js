@@ -1,7 +1,6 @@
 var a26508 =
 [
-    [ "CalculateAmount", "d7/d9c/a26508.html#aefeab4e58c1b5c1be87f583256d366f5", null ],
-    [ "Load", "d7/d9c/a26508.html#ae2ef0eae77137c120ec61af8698677db", null ],
-    [ "PrepareAuraScript", "d7/d9c/a26508.html#acaecc78c031aa436f432fd7145478de4", null ],
-    [ "Register", "d7/d9c/a26508.html#afd27c8bc5fd1628b7e32bf464bfe3d48", null ]
+    [ "achievement", "d7/d9c/a26508.html#abb6071e172abbcbc65020a0ad9554a03", null ],
+    [ "spell", "d7/d9c/a26508.html#a740f9162b10d31d1677a4ac4f5926db6", null ],
+    [ "text", "d7/d9c/a26508.html#aa92e42bc2c54c3b4b1022d5767fcf10c", null ]
 ];

@@ -1,18 +1,7 @@
 var a12276 =
 [
-    [ "boss_moroes", "d4/d14/a12276.html#ae477dcfd679dd7943ddd133bb0dd89df", null ],
-    [ "CheckGuestsInRoom", "d4/d14/a12276.html#ad34daa424532003e8da616aed3df6c82", null ],
-    [ "GetRandomGuest", "d4/d14/a12276.html#a73f4b3c1a3a46261cf62143f8359b55e", null ],
-    [ "InitializeAI", "d4/d14/a12276.html#a1bba38840a7e6f09720ce33c51802a77", null ],
-    [ "InitializeGuests", "d4/d14/a12276.html#a815ca169e0787c92c09a5803007355aa", null ],
-    [ "JustDied", "d4/d14/a12276.html#a7d425d58b1e64ef174ff92e1263de544", null ],
-    [ "JustEngagedWith", "d4/d14/a12276.html#aa0bf31d8298b4ec6ce205cefd0766194", null ],
-    [ "JustReachedHome", "d4/d14/a12276.html#ad67598edc4034dd87ba5260d5f19fd3d", null ],
-    [ "KilledUnit", "d4/d14/a12276.html#a3d28056a0d26d426d84363fb0c4f7e4d", null ],
-    [ "Reset", "d4/d14/a12276.html#a677f2b8375981d904183dd804f4b32b8", null ],
-    [ "UpdateAI", "d4/d14/a12276.html#aa639032a49b3e9bd4209d17e0863db32", null ],
-    [ "_activeGuests", "d4/d14/a12276.html#a651f53f476f205785d596ed9d52fdb89", null ],
-    [ "_events2", "d4/d14/a12276.html#ae1c0474e0a940a803d82d3fe6d3ff37f", null ],
-    [ "_recentlySpoken", "d4/d14/a12276.html#a6408ec64b2777dbcd322cb64af3f8c17", null ],
-    [ "_vanished", "d4/d14/a12276.html#a60d99b80815a2b2626638d6410ce64a2", null ]
+    [ "CalcPeriodic", "d4/d14/a12276.html#a1a1bd909c873d5b9f8d7771eceb87c1d", null ],
+    [ "PrepareAuraScript", "d4/d14/a12276.html#a2ffea4361a750fe9e64fc4beab36e287", null ],
+    [ "Register", "d4/d14/a12276.html#a389395358cf0991e90a452c34fcb394e", null ],
+    [ "Update", "d4/d14/a12276.html#a965b9030423114eaf99ee1f1400fdc45", null ]
 ];

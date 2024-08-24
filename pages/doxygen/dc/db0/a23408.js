@@ -1,7 +1,8 @@
 var a23408 =
 [
-    [ "CalcPeriodic", "dc/db0/a23408.html#aeae100fb3ab86b9064c3923472fbd45d", null ],
-    [ "PrepareAuraScript", "dc/db0/a23408.html#a290913502dfe3dfb42b44a964468b97c", null ],
-    [ "Register", "dc/db0/a23408.html#aea7a6e4bcbc97d19393d790a28a4483a", null ],
-    [ "Update", "dc/db0/a23408.html#ab3bdb3a14c6d130d295553e635acb47c", null ]
+    [ "npc_ravenous_worgAI", "dc/db0/a23408.html#a5404516869e171c84b774f2a7b8be15d", null ],
+    [ "AttackStart", "dc/db0/a23408.html#a593d218d8cb083a7e37f81d3952c6d4c", null ],
+    [ "UpdateAI", "dc/db0/a23408.html#aeb64d5bde5ef9d8c2a62662bb72d3049", null ],
+    [ "_attack", "dc/db0/a23408.html#a3df5c98821ba33a40e25e7b050858b96", null ],
+    [ "_pacified", "dc/db0/a23408.html#a0da1f59a6fc9cdf39c9cced1eb52acba", null ]
 ];

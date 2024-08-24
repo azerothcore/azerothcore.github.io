@@ -1,7 +1,8 @@
 var a15500 =
 [
-    [ "npc_paoka_swiftmountainAI", "d8/d38/a15500.html#a92a229f76de3bc46ae14910439db0004", null ],
-    [ "DoSpawnWyvern", "d8/d38/a15500.html#a7997a3d398db82c205e3a8af77ac1684", null ],
-    [ "Reset", "d8/d38/a15500.html#acae0427957aba04a54e6001823bc7eb4", null ],
-    [ "WaypointReached", "d8/d38/a15500.html#a262781c90fe1b5a5af2c6f94e4cc52e2", null ]
+    [ "npc_zelfraxAI", "d8/d38/a15500.html#ae11e92eadae61790b4417442358e7d04", null ],
+    [ "AttackStart", "d8/d38/a15500.html#ae76581c9818c85857c8537de59a02fd6", null ],
+    [ "MovementInform", "d8/d38/a15500.html#a95aaa09b8e527a6d93c8679e9c6593eb", null ],
+    [ "MoveToDock", "d8/d38/a15500.html#a8bf3972087ca06af02bd901ed3dc5461", null ],
+    [ "UpdateAI", "d8/d38/a15500.html#aed4265b638cbe95cdab5648ca52150aa", null ]
 ];

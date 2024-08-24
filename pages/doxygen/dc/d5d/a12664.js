@@ -1,8 +1,6 @@
 var a12664 =
 [
-    [ "DelayedSummonEvent", "dc/d5d/a12664.html#a5cfa870b670fff17d2241ecb85b2ba6c", null ],
-    [ "Execute", "dc/d5d/a12664.html#a65ba0f1a1dc14e07b7b93a71c92ace6b", null ],
-    [ "_entry", "dc/d5d/a12664.html#a24d72110a070eb0bd03af081ef616de4", null ],
-    [ "_owner", "dc/d5d/a12664.html#a2a21cc6387b3605ed4f09cad80a6168a", null ],
-    [ "_pos", "dc/d5d/a12664.html#aef19987803a1cce47cbd8d9005a288ac", null ]
+    [ "npc_risen_guardianAI", "d6/ddc/a12668.html", "d6/ddc/a12668" ],
+    [ "npc_risen_guardian", "dc/d5d/a12664.html#a472274c69abe912f5781c60911204eb5", null ],
+    [ "GetAI", "dc/d5d/a12664.html#a568f57a442adcd64c8c3d2e4d5df729f", null ]
 ];

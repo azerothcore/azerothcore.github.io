@@ -1,11 +1,11 @@
 var a23456 =
 [
-    [ "boss_krosh_firehand", "de/d6e/a23456.html#a1ef3618844f086de7875f26e7e6190f9", null ],
-    [ "AttackStart", "de/d6e/a23456.html#a74bd2c93ac45efcd163a904b9a52827b", null ],
-    [ "JustDied", "de/d6e/a23456.html#ad20c86b4a3d0cccddf91982c26f56c09", null ],
-    [ "JustEngagedWith", "de/d6e/a23456.html#ad6389c357fb6c09fdf4f3f3ef7095395", null ],
-    [ "Reset", "de/d6e/a23456.html#a989c4b762a7cdb228b245e91881d97a2", null ],
-    [ "UpdateAI", "de/d6e/a23456.html#a3d26a6f544e9d00514ca5b0ef7d4bf4f", null ],
-    [ "_scheduler", "de/d6e/a23456.html#a261ced01dc1305ab7c2d2f3322022fe5", null ],
-    [ "instance", "de/d6e/a23456.html#a876bb040d78cafa9aa22e818f60dce7f", null ]
+    [ "npc_lake_frogAI", "de/d6e/a23456.html#ac08eeed39d046ce35d7d6aa65d53cab5", null ],
+    [ "ReceiveEmote", "de/d6e/a23456.html#abd58e65b6829c70818c578ed615a980b", null ],
+    [ "Reset", "de/d6e/a23456.html#a3773b3a21ea25db316481f1da5e6dd3c", null ],
+    [ "sGossipSelect", "de/d6e/a23456.html#a95906677ff65e004408ae65df3f49b5c", null ],
+    [ "UpdateAI", "de/d6e/a23456.html#aed8368ec27fed5cd14e4a54091aa9584", null ],
+    [ "_events", "de/d6e/a23456.html#a314d7d7891c05bda288ea0d590f0cfa4", null ],
+    [ "_following", "de/d6e/a23456.html#a0078f9134a61f0ec2465ce103523e341", null ],
+    [ "_runningScript", "de/d6e/a23456.html#af76102ba6c9ffd80baa95623b7312980", null ]
 ];

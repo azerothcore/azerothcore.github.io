@@ -1,6 +1,6 @@
 var a17028 =
 [
-    [ "npc_living_mojoAI", "d1/d59/a17032.html", "d1/d59/a17032" ],
-    [ "npc_living_mojo", "da/d81/a17028.html#af24190023549b4ec5fa47b5959618a8a", null ],
-    [ "GetAI", "da/d81/a17028.html#a2b8ca6e1b26debfafd74e022825c889e", null ]
+    [ "spell_dtk_summon_random_drakkari_SpellScript", "d1/d59/a17032.html", "d1/d59/a17032" ],
+    [ "spell_dtk_summon_random_drakkari", "da/d81/a17028.html#ad90bf4e8a154773ee4f47ad3b89ad5b0", null ],
+    [ "GetSpellScript", "da/d81/a17028.html#afa275adfb26c6849750a0fe29b0bf8bf", null ]
 ];

@@ -1,6 +1,6 @@
 var a26360 =
 [
-    [ "OnApply", "d7/dc7/a26360.html#a50ced6d5a475ccad9429dfbb05130394", null ],
-    [ "PrepareAuraScript", "d7/dc7/a26360.html#abd02e129b1201449d473a66aea77d569", null ],
-    [ "Register", "d7/dc7/a26360.html#a8c09775f642335252c6e548900dc9d3a", null ]
+    [ "HandleSendEvent", "d7/dc7/a26360.html#a1ff097621f64e894be024de4e0946b34", null ],
+    [ "PrepareSpellScript", "d7/dc7/a26360.html#ab967a899ac6d2397c2f871cc5062cfc6", null ],
+    [ "Register", "d7/dc7/a26360.html#a590fe9da733c8b7bf08464f277b398f7", null ]
 ];

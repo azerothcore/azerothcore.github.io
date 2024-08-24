@@ -1,6 +1,6 @@
 var a23064 =
 [
-    [ "LeechingThrowSelector", "d6/d06/a23064.html#a4308c7be06e2e70d3a269b6dc78420cb", null ],
-    [ "operator()", "d6/d06/a23064.html#a76c7746a9b0aee52201881c4d9572bde", null ],
-    [ "_source", "d6/d06/a23064.html#a22a123333a8fbd50ccd4c37afe28d2f0", null ]
+    [ "npc_warmage_coldarraAI", "df/dbc/a23068.html", "df/dbc/a23068" ],
+    [ "npc_warmage_coldarra", "d6/d06/a23064.html#a358f8ab26991798ff076ac764cd7abe2", null ],
+    [ "GetAI", "d6/d06/a23064.html#aa29181e0ad61b44eff685267f3231382", null ]
 ];

@@ -1,6 +1,6 @@
 var a18396 =
 [
-    [ "HandleScript", "d0/d9d/a18396.html#a930b8a515b5d156c16925dc218cf8172", null ],
-    [ "PrepareSpellScript", "d0/d9d/a18396.html#a892b0ba0f6541b3557a0200be5028479", null ],
-    [ "Register", "d0/d9d/a18396.html#a1eb85bc675a89ef9679e673c1fea9a08", null ]
+    [ "PrepareSpellScript", "d0/d9d/a18396.html#a36eba217756746e85dd6f36ecafd1773", null ],
+    [ "RecalculateDamage", "d0/d9d/a18396.html#adb184e0ad7c1628579d5a66bb188f98c", null ],
+    [ "Register", "d0/d9d/a18396.html#a8b188ae324cdec7a0e0fad910941ee49", null ]
 ];

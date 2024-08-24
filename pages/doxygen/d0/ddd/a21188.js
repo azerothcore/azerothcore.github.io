@@ -1,6 +1,6 @@
 var a21188 =
 [
-    [ "boss_koralonAI", "d9/de0/a21192.html", "d9/de0/a21192" ],
-    [ "boss_koralon", "d0/ddd/a21188.html#a43b9fb1224abeba44080fb02062451b0", null ],
-    [ "GetAI", "d0/ddd/a21188.html#a7afd462b2c43ee088c09fcb7ddcb141d", null ]
+    [ "spell_orbital_supports_AuraScript", "d9/de0/a21192.html", "d9/de0/a21192" ],
+    [ "spell_orbital_supports", "d0/ddd/a21188.html#ab6189f808afdb65f93e37fb37f2faa19", null ],
+    [ "GetAuraScript", "d0/ddd/a21188.html#a6762d20a448a075cc3ffd19a967bac7c", null ]
 ];

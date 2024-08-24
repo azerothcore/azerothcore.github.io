@@ -1,8 +1,6 @@
 var a10740 =
 [
-    [ "SkillPerfectItemEntry", "de/de9/a10740.html#a683f3c6f5e9c5ef2a0f0fa09d546d2a3", null ],
-    [ "SkillPerfectItemEntry", "de/de9/a10740.html#a678f9908440187faad38c0e1ffaf82de", null ],
-    [ "perfectCreateChance", "de/de9/a10740.html#a750d5ab6bc3df0026e640f1c84de8547", null ],
-    [ "perfectItemType", "de/de9/a10740.html#a057605f8867d4df5cb290318598a2908", null ],
-    [ "requiredSpecialization", "de/de9/a10740.html#aa7ad968ab1b8804ee8f0f8f40bc6f762", null ]
+    [ "EffectManaShieldHandler", "de/de9/a10740.html#a234fb0f6749072f9cc6310f80b3b9583", null ],
+    [ "Call", "de/de9/a10740.html#a30ac72ee0a22ac3e71bcb2eeda903dbc", null ],
+    [ "pEffectHandlerScript", "de/de9/a10740.html#a1aec2af2a69a90b8038d612d9ebddc2b", null ]
 ];

@@ -1,5 +1,6 @@
 var a10052 =
 [
-    [ "MovementHandlerScript", "d0/def/a10052.html#aeeeb5fe81eebc04fc317e726782be3ab", null ],
-    [ "OnPlayerMove", "d0/def/a10052.html#ac1604e58c8ecab26ce4159fb43a86a68", null ]
+    [ "GuildUpdateInfoText", "d0/def/a10052.html#a82afd6cb3240da6870990d6f80f69cd6", null ],
+    [ "Read", "d0/def/a10052.html#a7019344fef99c5479602d7bc1176e9ee", null ],
+    [ "InfoText", "d0/def/a10052.html#a786802ce427465d66a4cea1365743975", null ]
 ];

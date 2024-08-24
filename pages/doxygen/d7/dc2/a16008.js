@@ -1,6 +1,10 @@
 var a16008 =
 [
-    [ "npc_living_infernoAI", "d7/dc2/a16008.html#ab33eeac6aab8e18778fc7d4ffe5038f1", null ],
-    [ "IsSummonedBy", "d7/dc2/a16008.html#a4b6986a392aee0741ba47651e809c76c", null ],
-    [ "JustDied", "d7/dc2/a16008.html#a60b2e31d24e182e97d604d91223e2dc8", null ]
+    [ "spell_hadronox_summon_periodic_AuraScript", "d7/dc2/a16008.html#a1f933da953b2430a0d909dcbecf5c0a2", null ],
+    [ "HandlePeriodic", "d7/dc2/a16008.html#a186fa7a3711168669e1b3253d3ca1b0f", null ],
+    [ "OnApply", "d7/dc2/a16008.html#a15abd10a8c52181555133a3a7adcc5cd", null ],
+    [ "PrepareAuraScript", "d7/dc2/a16008.html#a1169c5fdb25397550cd7c2d5dba5155e", null ],
+    [ "Register", "d7/dc2/a16008.html#a1ec789a9a8873f4b9d67db481e5b5443", null ],
+    [ "_delay", "d7/dc2/a16008.html#adc70f8a8dfcc29c5820ad180dfce3e27", null ],
+    [ "_spellEntry", "d7/dc2/a16008.html#a9251bd39a67dbbe8e30300826f300857", null ]
 ];

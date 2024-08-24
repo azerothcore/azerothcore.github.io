@@ -1,6 +1,6 @@
 var a25988 =
 [
-    [ "CheckProc", "df/dfe/a25988.html#a0f1461140b08deac3f044142067368e7", null ],
-    [ "PrepareAuraScript", "df/dfe/a25988.html#a04e0ebe416e94912d7f1ec529da7980d", null ],
-    [ "Register", "df/dfe/a25988.html#a05e31c2252c9054a18b4267be84895b9", null ]
+    [ "OnPeriodic", "df/dfe/a25988.html#af0e0091f1728592fb796c0eb96ab17c3", null ],
+    [ "PrepareAuraScript", "df/dfe/a25988.html#a7c1a4bf303dfd22f01fce3ffb9bd81a2", null ],
+    [ "Register", "df/dfe/a25988.html#a31752f9ce5796e43f0ba7f9803b9a1aa", null ]
 ];

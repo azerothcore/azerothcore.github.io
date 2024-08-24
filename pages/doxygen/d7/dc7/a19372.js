@@ -1,16 +1,7 @@
 var a19372 =
 [
-    [ "boss_bjarngrimAI", "d7/dc7/a19372.html#ab599d5f62638d622c560f5b63e645b50", null ],
-    [ "JustDied", "d7/dc7/a19372.html#adcad5667168768d8f3c8235735f357b1", null ],
-    [ "JustEngagedWith", "d7/dc7/a19372.html#a2e99538fdc107bc7e91c23898c178047", null ],
-    [ "KilledUnit", "d7/dc7/a19372.html#ad3cbbdc77909515e1573a2fb49cc1e30", null ],
-    [ "RemoveStanceAura", "d7/dc7/a19372.html#ac2bca5cebc4847af71272de0ffa3d91a", null ],
-    [ "Reset", "d7/dc7/a19372.html#a138d14f9666b03dda50f6adeea609046", null ],
-    [ "RollStance", "d7/dc7/a19372.html#a70791697fde5c6194226fd42c893385a", null ],
-    [ "UpdateEscortAI", "d7/dc7/a19372.html#a9db8e85b47e8ebb4760f99ec04a36fcb", null ],
-    [ "WaypointReached", "d7/dc7/a19372.html#a31e1bceb7b944b3db9d7e881be4246bf", null ],
-    [ "events", "d7/dc7/a19372.html#a5314bce83c4c7e80ecea99a8d5559fd8", null ],
-    [ "m_pInstance", "d7/dc7/a19372.html#af6dbef6bb9565b5ee1738e188b08748f", null ],
-    [ "m_uiStance", "d7/dc7/a19372.html#abd4d058fad17b56bc29a165d74062dd0", null ],
-    [ "summons", "d7/dc7/a19372.html#a02bd445d2c969ea186a48f68585e640c", null ]
+    [ "npc_blazing_skeletonAI", "d7/dc7/a19372.html#ad4f997a7a4cc0fa96594da35434fd921", null ],
+    [ "Reset", "d7/dc7/a19372.html#a3bbc4cf7b6dbe11d6768a0fb0626e84a", null ],
+    [ "UpdateAI", "d7/dc7/a19372.html#a0010c4befd13ec6beada0de1607f3f7a", null ],
+    [ "_events", "d7/dc7/a19372.html#aab1b04989d5e3fc289f00bc121df193d", null ]
 ];

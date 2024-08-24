@@ -1,6 +1,6 @@
 var a09960 =
 [
-    [ "BattlegroundScript", "d9/dd0/a09960.html#a306231f1c7346a00a3f877c7cef3897b", null ],
-    [ "GetBattleground", "d9/dd0/a09960.html#a782c6e81f4ed9a63f9276dcc4f0f9116", null ],
-    [ "IsDatabaseBound", "d9/dd0/a09960.html#a35b571d570c85a861af6f949b51453cb", null ]
+    [ "GuildCreate", "d9/dd0/a09960.html#a4dd11d2c4d009b1e495f792f4842d598", null ],
+    [ "Read", "d9/dd0/a09960.html#a7d4573196f53d1f068c43b4e7e466fce", null ],
+    [ "GuildName", "d9/dd0/a09960.html#a95a0859dd32b6eaf31ea53311ffaa293", null ]
 ];

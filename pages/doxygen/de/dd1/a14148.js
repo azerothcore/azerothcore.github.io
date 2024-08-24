@@ -1,5 +1,6 @@
 var a14148 =
 [
-    [ "npc_grizzlemaw_cw_triggerAI", "de/dd1/a14148.html#a40207493c75d8a63284e08f1f75d56c4", null ],
-    [ "MoveInLineOfSight", "de/dd1/a14148.html#aef49ccdae1aff20fc469f0aa2663d8af", null ]
+    [ "OnApply", "de/dd1/a14148.html#a4a276b00d4912c210598057620368934", null ],
+    [ "PrepareAuraScript", "de/dd1/a14148.html#a20cb3aec994ffc0a06d9b4ba4f575844", null ],
+    [ "Register", "de/dd1/a14148.html#adf9962252dec76f324b8cdbf8f6b9155", null ]
 ];

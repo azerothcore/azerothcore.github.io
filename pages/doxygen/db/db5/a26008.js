@@ -1,10 +1,6 @@
 var a26008 =
 [
-    [ "CheckProc", "db/db5/a26008.html#a23dfb39522f7a5437af439ef567d6ec6", null ],
-    [ "HandleEffectApply", "db/db5/a26008.html#ab83f17b45edc5dba8f4b3f3fbc88c626", null ],
-    [ "HandleEffectRemove", "db/db5/a26008.html#a7bab07fde0fb18e89388e1bc4c72c165", null ],
-    [ "HandleProc", "db/db5/a26008.html#a8352d7d9376f149fa227f7ca983e2660", null ],
-    [ "PrepareAuraScript", "db/db5/a26008.html#a309dabfa452d3279e7fb47a8e4784779", null ],
-    [ "Register", "db/db5/a26008.html#a3d020d3025f0ad086c43b4239205cd94", null ],
-    [ "Validate", "db/db5/a26008.html#ac3a5505808b3a7e718071f1202805ac5", null ]
+    [ "npc_simon_bunnyAI", "d2/db1/a26012.html", "d2/db1/a26012" ],
+    [ "npc_simon_bunny", "db/db5/a26008.html#afd3f3a24450bc8b748c0ff5b05b10da1", null ],
+    [ "GetAI", "db/db5/a26008.html#ac0c97609916321a1599c0722803a050f", null ]
 ];

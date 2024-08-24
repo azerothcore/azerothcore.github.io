@@ -1,6 +1,6 @@
 var a24868 =
 [
-    [ "HandleScriptEffect", "d0/da7/a24868.html#a1ace281bf2fd53722f8328a79369b5df", null ],
-    [ "PrepareSpellScript", "d0/da7/a24868.html#ac9a0019091f291b1b3a770ec57bd83e8", null ],
-    [ "Register", "d0/da7/a24868.html#a821a6b11a177bf7586ab666081ab222a", null ]
+    [ "spell_black_temple_charge_rage_AuraScript", "d0/dee/a24872.html", "d0/dee/a24872" ],
+    [ "spell_black_temple_charge_rage", "d0/da7/a24868.html#ae19d5195cdad1792c40b7c3f0efff8bf", null ],
+    [ "GetAuraScript", "d0/da7/a24868.html#aa18d5571095a83ad5d8eece3972cd730", null ]
 ];

@@ -1,6 +1,6 @@
 var a13228 =
 [
-    [ "HandleSendEvent", "d1/dd7/a13228.html#ac3e5c8ce6dcceaf601f0f5a8c5727291", null ],
-    [ "PrepareSpellScript", "d1/dd7/a13228.html#a5705ee1863434039b1143db0817d60a7", null ],
-    [ "Register", "d1/dd7/a13228.html#a442e4aad6ed971119a147fdf87f90aa3", null ]
+    [ "spell_entropius_black_hole_effect_SpellScript", "d5/dd3/a13232.html", "d5/dd3/a13232" ],
+    [ "spell_entropius_black_hole_effect", "d1/dd7/a13228.html#a60ff4a68739698fcfeeef344f772d6ac", null ],
+    [ "GetSpellScript", "d1/dd7/a13228.html#a78facb35baa829ab676724cd9ba4c53f", null ]
 ];

@@ -1,6 +1,6 @@
 var a17740 =
 [
-    [ "FilterTargets", "d0/dcd/a17740.html#ac2396cbd000a8d58ff22dbb08c81dfb4", null ],
-    [ "PrepareSpellScript", "d0/dcd/a17740.html#abcdfe528430e299c2eb64b24f7ff8eb0", null ],
-    [ "Register", "d0/dcd/a17740.html#a32e04a1110d651701b8eab1648c69a57", null ]
+    [ "ChangeSummonPos", "d0/dcd/a17740.html#a06744070ccc918ae45b53a995cebc9a4", null ],
+    [ "PrepareSpellScript", "d0/dcd/a17740.html#ae47eb3968ce30d86a322112b195fb24c", null ],
+    [ "Register", "d0/dcd/a17740.html#a71434e35c3d1c8e7efc2764c705419cd", null ]
 ];

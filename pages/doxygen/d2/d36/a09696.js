@@ -1,6 +1,8 @@
 var a09696 =
 [
-    [ "AssistanceMovementGenerator", "d2/d36/a09696.html#a649b7d2833aaf895a5f6f290131c88f5", null ],
-    [ "Finalize", "d2/d36/a09696.html#a6fc296a5283726cca409d7df1137743d", null ],
-    [ "GetMovementGeneratorType", "d2/d36/a09696.html#a1d4b6fe8693fdd21c364b53075c27439", null ]
+    [ "_OnTrigger", "d2/d36/a09696.html#a6da93a21c84345bd77e467377810e756", null ],
+    [ "AreaTriggerScript", "d2/d36/a09696.html#a478e4dee0f4211af9be6ea448d4e6c89", null ],
+    [ "OnTrigger", "d2/d36/a09696.html#a4ac7e4963d36c8163a560dc8401b5f34", null ],
+    [ "ResetAreaTriggerDone", "d2/d36/a09696.html#a3b44c1892c1100028b387d15bfbdae60", null ],
+    [ "ResetAreaTriggerDone", "d2/d36/a09696.html#a3917da4a6f605077720172cda25322ee", null ]
 ];

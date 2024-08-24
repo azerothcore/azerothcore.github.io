@@ -1,6 +1,6 @@
 var a24044 =
 [
-    [ "npc_commander_dawnforgeAI", "d8/d70/a24048.html", "d8/d70/a24048" ],
-    [ "npc_commander_dawnforge", "dc/daf/a24044.html#ab4d430725f68f906e9c8def66b1d6646", null ],
-    [ "GetAI", "dc/daf/a24044.html#a6089b087b7c3b18659e23c677814318b", null ]
+    [ "npc_captured_rageclawAI", "dc/daf/a24044.html#a5bb483a323330b0895f87c5381d73314", null ],
+    [ "Reset", "dc/daf/a24044.html#a9cde0a0e5015334ec8dcd277fcd99dc3", null ],
+    [ "SpellHit", "dc/daf/a24044.html#a2c63911d27435a2271a7c89d9d88318c", null ]
 ];

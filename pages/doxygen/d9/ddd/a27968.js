@@ -1,4 +1,6 @@
 var a27968 =
 [
-    [ "ID", "d9/ddd/a27968.html#a27cfc07c5aa7efe7a6f0cb62ea691f81", null ]
+    [ "OnRemove", "d9/ddd/a27968.html#ae1f257e43effcb396d57d42db3063afd", null ],
+    [ "PrepareAuraScript", "d9/ddd/a27968.html#a5b13e46dc228ffe594ce2ce06a7d6799", null ],
+    [ "Register", "d9/ddd/a27968.html#a4a94d5c8efdd7f6e0dd655ebeb8c4614", null ]
 ];

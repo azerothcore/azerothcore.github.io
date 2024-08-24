@@ -1,11 +1,18 @@
 var a16188 =
 [
-    [ "npc_anubarak_spikeAI", "db/df8/a16188.html#a1982ce33ce76e15d33bfcc222f5ad734", null ],
-    [ "DamageTaken", "db/df8/a16188.html#a3b548e629d2c6217f21644136ca7ba4b", null ],
-    [ "DoAction", "db/df8/a16188.html#ab583d97745ea69e95a1ecc0b68ac9878", null ],
-    [ "Reset", "db/df8/a16188.html#af5b4a1227467d86d9dbba57362fdf360", null ],
-    [ "SelectNewTarget", "db/df8/a16188.html#ab9ed5d53703464c488267f578a214fb8", null ],
-    [ "UpdateAI", "db/df8/a16188.html#af8d6d840785c718d963c7b150cd12d9c", null ],
-    [ "events", "db/df8/a16188.html#a52ff0006b5194edcb55f49e970a15ab8", null ],
-    [ "TargetGUID", "db/df8/a16188.html#a2f7cbaf81e159035476ee9576a0e3990", null ]
+    [ "boss_halionAI", "db/df8/a16188.html#a24d41b904ec24029887869622fbce0eb", null ],
+    [ "AttackStart", "db/df8/a16188.html#acad91c2b1e7e02f9662cc3342f272ae7", null ],
+    [ "CanAIAttack", "db/df8/a16188.html#ad15cd8d44cd1779f45cacb38caa08fe2", null ],
+    [ "DamageTaken", "db/df8/a16188.html#a911c636113639690bb6304e2f6d55499", null ],
+    [ "EnterEvadeMode", "db/df8/a16188.html#a20e451a26914adcee83e5fb77155c59d", null ],
+    [ "IsAnyPlayerValid", "db/df8/a16188.html#a6681f94156a46c75960038ed1ed80543", null ],
+    [ "JustDied", "db/df8/a16188.html#a483fbaf88780d0714ffaa47bea00cc5f", null ],
+    [ "JustEngagedWith", "db/df8/a16188.html#a16f121b5c7f3f924dc0c11adb53ff79a", null ],
+    [ "JustReachedHome", "db/df8/a16188.html#a145ef7fa9c96e32a68043e3d520f1ac3", null ],
+    [ "JustSummoned", "db/df8/a16188.html#a4fdf03de55fdd35ff849a82704ce7a3c", null ],
+    [ "KilledUnit", "db/df8/a16188.html#ac45ac7ceb0b761e90deeffcea364ceea", null ],
+    [ "Reset", "db/df8/a16188.html#aa8c06f8a1642534efb14941d9c0d9f14", null ],
+    [ "UpdateAI", "db/df8/a16188.html#abe0faa976bb1b14102b940fac9526e5b", null ],
+    [ "_events2", "db/df8/a16188.html#a677448e015db869b718e15b6809586cc", null ],
+    [ "_livingEmberCount", "db/df8/a16188.html#af6af6482467f3a08fbe1c65f3b2b1552", null ]
 ];

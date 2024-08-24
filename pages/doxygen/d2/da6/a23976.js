@@ -1,8 +1,6 @@
 var a23976 =
 [
-    [ "npc_ancestral_wolfAI", "d2/da6/a23976.html#a59ccca7093575f4bcac57a4751d977d4", null ],
-    [ "MoveInLineOfSight", "d2/da6/a23976.html#aec5788f0be3c1dcb63b3e61b50ae39c1", null ],
-    [ "Reset", "d2/da6/a23976.html#a9778a1648ca0007f7daf4ee98308d8d2", null ],
-    [ "WaypointReached", "d2/da6/a23976.html#a2b553c29823e5ef888ee02a3ed413386", null ],
-    [ "ryga", "d2/da6/a23976.html#ac238214604720e298124b58c35d58e05", null ]
+    [ "spell_wintergrasp_hide_small_elementals_AuraScript", "d8/d09/a23980.html", "d8/d09/a23980" ],
+    [ "spell_wintergrasp_hide_small_elementals", "d2/da6/a23976.html#aa5e03d4705fd6253bb576268eaff5a6b", null ],
+    [ "GetAuraScript", "d2/da6/a23976.html#aabf8954d35e8c5f10f16d915639a5e68", null ]
 ];

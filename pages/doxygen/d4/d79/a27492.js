@@ -1,11 +1,6 @@
 var a27492 =
 [
-    [ "npc_injured_patientAI", "d4/d79/a27492.html#a0973487623f1771c598648bc06a6d9a3", null ],
-    [ "JustEngagedWith", "d4/d79/a27492.html#a621a8cc3f6b9655760431d52766ca589", null ],
-    [ "Reset", "d4/d79/a27492.html#a007c9c7a4047374574cad17e9309d7c1", null ],
-    [ "SpellHit", "d4/d79/a27492.html#ac9381e7c958348ae7a5e98fea7dcbe37", null ],
-    [ "UpdateAI", "d4/d79/a27492.html#a54d0a5574175747779878dce0ebfd44f", null ],
-    [ "_scheduler", "d4/d79/a27492.html#a60428fa97c8f6520338d53ed368c4c35", null ],
-    [ "Coord", "d4/d79/a27492.html#af5a6f87c0379edd07a8756018b0c8661", null ],
-    [ "DoctorGUID", "d4/d79/a27492.html#ad1de0d556a784aa16d87b8367fdb38e3", null ]
+    [ "CheckCast", "d4/d79/a27492.html#ac1bc3f881c31c5ab90785a62a5f5b5ae", null ],
+    [ "PrepareSpellScript", "d4/d79/a27492.html#a2a9c657ccffbacfc661c6bb1dc41d9de", null ],
+    [ "Register", "d4/d79/a27492.html#a4b34bd5ce9d3e948d6c712d71ed71b2d", null ]
 ];

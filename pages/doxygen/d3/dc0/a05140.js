@@ -1,12 +1,15 @@
 var a05140 =
 [
-    [ "RegistryMapType", "d3/dc0/a05140.html#ab6a131bc0c7d0ddcb9ad34044b9c8ac2", null ],
-    [ "ObjectRegistry", "d3/dc0/a05140.html#aa3bcc30791e82bc900eacf1c5833b7f8", null ],
-    [ "~ObjectRegistry", "d3/dc0/a05140.html#a2734a0e6001f597b43e006bc9d84a6b1", null ],
-    [ "GetRegisteredItems", "d3/dc0/a05140.html#aba4a4fcc7ee59afbb4dea6df7410dc02", null ],
-    [ "GetRegistryItem", "d3/dc0/a05140.html#a474bdff0ab0f0a3db5f914b9dfaa48d1", null ],
-    [ "HasItem", "d3/dc0/a05140.html#a3c95897734a780c1f299d24a058b3595", null ],
-    [ "InsertItem", "d3/dc0/a05140.html#a55416824a5dff4138f5d828e352e3d7c", null ],
-    [ "instance", "d3/dc0/a05140.html#a7a6582a84361d5ad1142f29c9e1d9cb5", null ],
-    [ "_registeredObjects", "d3/dc0/a05140.html#a61e6a6eb75512241e82092abfeba7a65", null ]
+    [ "EnumFlag", "d3/dc0/a05140.html#a877aa23dfde6aa91cff6d8c0eb9a4732", null ],
+    [ "AsUnderlyingType", "d3/dc0/a05140.html#af9468dd952e12d2da9c0120d0ce9feb4", null ],
+    [ "HasAllFlags", "d3/dc0/a05140.html#adb5b65ab4a3d827882634d94774a912b", null ],
+    [ "HasFlag", "d3/dc0/a05140.html#a311985d41e79365bf9fd5bcb7c8fbf0c", null ],
+    [ "operator T", "d3/dc0/a05140.html#a13022712c9634c84907b906e55aebe28", null ],
+    [ "operator&=", "d3/dc0/a05140.html#afb2c7428dd07e4f427b0b0ca5ac0f7c3", null ],
+    [ "operator|=", "d3/dc0/a05140.html#ab49498ed668ee324702c4beadf4de999", null ],
+    [ "operator~", "d3/dc0/a05140.html#a3001eac7546c03530d1e51d5c1e6abfd", null ],
+    [ "RemoveFlag", "d3/dc0/a05140.html#a106a00ee4112382aa0120489551bf50a", null ],
+    [ "operator&", "d3/dc0/a05140.html#aa91d02e5d8b6d9ef507f47720ac6d9e6", null ],
+    [ "operator|", "d3/dc0/a05140.html#add07cc2598afc632e84ffdc0bf60cd81", null ],
+    [ "_value", "d3/dc0/a05140.html#a55353d720942d68d0dea86837aaca7c5", null ]
 ];

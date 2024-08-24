@@ -1,5 +1,5 @@
 var a27328 =
 [
-    [ "item_captured_frog", "dd/d38/a27328.html#ad41b743c98c9534453eca8cf1f367366", null ],
-    [ "OnUse", "dd/d38/a27328.html#a1156467ca046a077ea494f92c488bf54", null ]
+    [ "PrepareSpellScript", "dd/d38/a27328.html#a096abf53c6e622875c463060e986b5ef", null ],
+    [ "Register", "dd/d38/a27328.html#a68905cc33f09dbb42db67139193530cb", null ]
 ];

@@ -1,9 +1,6 @@
 var a24796 =
 [
-    [ "CalcPeriodic", "df/dc4/a24796.html#aa9c665ddbeda7fba9a2b2997d07117a9", null ],
-    [ "HandleEffectRemove", "df/dc4/a24796.html#a22a00dbf84f79834025e185d44576f56", null ],
-    [ "PrepareAuraScript", "df/dc4/a24796.html#ab053740be4068371076c75cd451bbc55", null ],
-    [ "Register", "df/dc4/a24796.html#a04efbc64bfa0312bc1f372e403803c32", null ],
-    [ "Update", "df/dc4/a24796.html#aa463442b994b6275b2e12fe06ae7805c", null ],
-    [ "AuraEffectHandleModes", "df/dc4/a24796.html#a21fc503ff924b8789f9409692e08f997", null ]
+    [ "spell_illidari_council_reflective_shield_AuraScript", "d6/d50/a24800.html", "d6/d50/a24800" ],
+    [ "spell_illidari_council_reflective_shield", "df/dc4/a24796.html#ad43c0da0332b861f88a8cb14ab1a73f1", null ],
+    [ "GetAuraScript", "df/dc4/a24796.html#a4d664f0a34c391b5d49ad2f23f8feaca", null ]
 ];

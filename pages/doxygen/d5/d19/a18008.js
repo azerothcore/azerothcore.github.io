@@ -1,6 +1,6 @@
 var a18008 =
 [
-    [ "HandleScript", "d5/d19/a18008.html#a038a827f7fe179ff56ab581efdf08790", null ],
-    [ "PrepareSpellScript", "d5/d19/a18008.html#a9ffd37bb54ce5e4a73d7d93eaddda2dd", null ],
-    [ "Register", "d5/d19/a18008.html#a6018f3a74a1b61042bb0ff6c02b76611", null ]
+    [ "Cooldown", "d5/d19/a18008.html#ac2f21814be8269023a2069f3eb03dfe2", null ],
+    [ "Entry", "d5/d19/a18008.html#a28ff8bdab669f7b4aec95857cc460a2f", null ],
+    [ "TargetPosition", "d5/d19/a18008.html#ac47af49622012b4ad40357cadc5214b3", null ]
 ];

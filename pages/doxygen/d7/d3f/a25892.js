@@ -1,8 +1,8 @@
 var a25892 =
 [
-    [ "CheckProc", "d7/d3f/a25892.html#a4f8e030154606e0781ebb89294019e0e", null ],
-    [ "HandleProc", "d7/d3f/a25892.html#a3d3db432fb051785f51ece4052ec8907", null ],
-    [ "PrepareAuraScript", "d7/d3f/a25892.html#aed40577ca9a1de3efc501606bcc9a8dd", null ],
-    [ "Register", "d7/d3f/a25892.html#a8cfdc8d98946fca603971ad91035e21c", null ],
-    [ "Validate", "d7/d3f/a25892.html#abfd3c0ad08ad287b38e8da437c18376c", null ]
+    [ "boss_gatewatcher_gyrokillAI", "d7/d3f/a25892.html#a49910ca681b5c2bf11554581809250e4", null ],
+    [ "JustDied", "d7/d3f/a25892.html#a21927c100d37d38e1f0ddbf5b93ee532", null ],
+    [ "JustEngagedWith", "d7/d3f/a25892.html#a40e6defbfaa7510b4e42f2f3a6e74249", null ],
+    [ "KilledUnit", "d7/d3f/a25892.html#a742426c7d3a281f0b7f06a01649794e2", null ],
+    [ "UpdateAI", "d7/d3f/a25892.html#abb51fb448ed04b615c495838fc98ed0c", null ]
 ];

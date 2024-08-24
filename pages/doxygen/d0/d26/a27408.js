@@ -1,11 +1,10 @@
 var a27408 =
 [
-    [ "npc_franklinAI", "d0/d26/a27408.html#a8385d2e39f2d051553cf84a54f3bc5ad", null ],
-    [ "DamageTaken", "d0/d26/a27408.html#afa494098126ce3291e234cfc2b36336f", null ],
-    [ "JustEngagedWith", "d0/d26/a27408.html#ab15fc7bcd912a6c583d4c219ba37c756", null ],
-    [ "Reset", "d0/d26/a27408.html#a51a260460facf06ec6bb1486f434d885", null ],
-    [ "ScheduleEncounterStart", "d0/d26/a27408.html#a2dcd6d0467eada6bd0d244e275c07d22", null ],
-    [ "SpellHit", "d0/d26/a27408.html#aed6b5cfccbbe258f501b2da5c9dadb40", null ],
-    [ "UpdateAI", "d0/d26/a27408.html#a8c3158b1e6c482dd82a6326954b8bbc5", null ],
-    [ "events", "d0/d26/a27408.html#a2f72f9659aa62f80c5d8159df0d14e9f", null ]
+    [ "Load", "d0/d26/a27408.html#a04526f30ad35af3f629cdd0c8312e33c", null ],
+    [ "OnApply", "d0/d26/a27408.html#a83d922c434442e22482410d61aa0198f", null ],
+    [ "OnPetApply", "d0/d26/a27408.html#a6df5e59e29cb89310a1c78bf93029545", null ],
+    [ "OnRemove", "d0/d26/a27408.html#aa4efa4ed7d98c63989353c398bb2b128", null ],
+    [ "PrepareAuraScript", "d0/d26/a27408.html#a1b4d8f636c01f01bc9380c290de91a0e", null ],
+    [ "Register", "d0/d26/a27408.html#a265726c9bfa180c3b8f470eb1eee837b", null ],
+    [ "Validate", "d0/d26/a27408.html#ab318472ea9f4aaa79e45f18783586eed", null ]
 ];

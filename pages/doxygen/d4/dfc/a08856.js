@@ -1,9 +1,6 @@
 var a08856 =
 [
-    [ "InserterType", "d4/dfc/a08856.html#a8ea29aedfb1eaf2b3eac29bc61849319", null ],
-    [ "ContainerInserter", "d4/dfc/a08856.html#a44cd545e2965b309c48d40f4617bc38e", null ],
-    [ "Insert", "d4/dfc/a08856.html#af482d9f7940d548193fc56839bc2cb87", null ],
-    [ "InserterOf", "d4/dfc/a08856.html#a003318d4ec066ca45d79ec5b669cdb8c", null ],
-    [ "inserter", "d4/dfc/a08856.html#ac10b2769f02687260efd531af666fbb3", null ],
-    [ "ref", "d4/dfc/a08856.html#a60d4a9120523c28d8c408c981305535e", null ]
+    [ "RandomCheck", "d4/dfc/a08856.html#aca7a234c6eef8876abb02af723e9485d", null ],
+    [ "operator()", "d4/dfc/a08856.html#a9886987fa2b675ab404102ebe828c9f3", null ],
+    [ "_chance", "d4/dfc/a08856.html#aad026a0ad4539dd5336c3a6b820e351d", null ]
 ];

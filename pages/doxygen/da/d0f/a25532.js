@@ -1,6 +1,6 @@
 var a25532 =
 [
-    [ "HandleProc", "da/d0f/a25532.html#a9a38fab6b581e9f9b4e092d7a4ecaebd", null ],
-    [ "PrepareAuraScript", "da/d0f/a25532.html#a5299aaeacead013e00e81ec7960528f8", null ],
-    [ "Register", "da/d0f/a25532.html#a3b46c5dd891d856e08cbcb9a494f2dd2", null ]
+    [ "CalculateDamageAmount", "da/d0f/a25532.html#a5c391fd16108d121346c9029184856b8", null ],
+    [ "PrepareAuraScript", "da/d0f/a25532.html#a9f9bb200766c267957fee3a7563d497f", null ],
+    [ "Register", "da/d0f/a25532.html#ab57222b715d265b6acc27e2515fb3d97", null ]
 ];

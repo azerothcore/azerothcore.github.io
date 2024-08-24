@@ -1,11 +1,7 @@
 var a14324 =
 [
-    [ "HandleFinish", "d1/d35/a14324.html#ace3a2ad0cf8ac31f7ef5345f1dbbf6e7", null ],
-    [ "HandleScript", "d1/d35/a14324.html#a2a2f005c29f0381c3c45d04a75ccc378", null ],
-    [ "Load", "d1/d35/a14324.html#a177ea78202f4d5b4c381f1712b01fe43", null ],
-    [ "PrepareSpellScript", "d1/d35/a14324.html#a9714f48de3982feb245f78efb8008f1b", null ],
-    [ "Register", "d1/d35/a14324.html#ad24c159a0dcfb86eb35a4286f606a3ab", null ],
-    [ "ThrowNextTorch", "d1/d35/a14324.html#a6ea11852ede397c1ede1ebaabb906c35", null ],
-    [ "Validate", "d1/d35/a14324.html#a026fbf7123f6780459c19ff04b370b08", null ],
-    [ "handled", "d1/d35/a14324.html#a869fde9e5d0756d3c68a8db3e10ad50d", null ]
+    [ "npc_love_in_air_supply_sentry", "d1/d35/a14324.html#ab2742c3be0ed661a509b9eb32326bee5", null ],
+    [ "MoveInLineOfSight", "d1/d35/a14324.html#a9df110324c74277e07183c7db231bbda", null ],
+    [ "UpdateAI", "d1/d35/a14324.html#aaa658222954f96d45b75daf83555f6f8", null ],
+    [ "lock", "d1/d35/a14324.html#a59bf67b114014542538165c21aa109a6", null ]
 ];

@@ -1,6 +1,6 @@
 var a19416 =
 [
-    [ "boss_volkhanAI", "d8/d00/a19420.html", "d8/d00/a19420" ],
-    [ "boss_volkhan", "db/d88/a19416.html#a9dcb6026fbf3116df9abf5acaf1bfcc2", null ],
-    [ "GetAI", "db/d88/a19416.html#aa0f76b387f9f74e0eb6dedd1b44ce34a", null ]
+    [ "spell_dreamwalker_nightmare_cloud_AuraScript", "d8/d00/a19420.html", "d8/d00/a19420" ],
+    [ "spell_dreamwalker_nightmare_cloud", "db/d88/a19416.html#ab9b57f5a909b7e5cfaf24ec5e0e75e7a", null ],
+    [ "GetAuraScript", "db/d88/a19416.html#afcdc5d8a68453b77479cf67a7078a566", null ]
 ];

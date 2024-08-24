@@ -1,13 +1,6 @@
 var a23136 =
 [
-    [ "npc_inner_demon", "d9/d68/a23136.html#a12063a0125e0e9b5ba5a73f669bfcd84", null ],
-    [ "CanAIAttack", "d9/d68/a23136.html#a7498fd32b0ace832b38dc624d07478ed", null ],
-    [ "CanBeSeen", "d9/d68/a23136.html#a5e61d5fc45bf95efaa06f81df58b5fab", null ],
-    [ "CanReceiveDamage", "d9/d68/a23136.html#a7b0bc55f8dfbba2dc3a3b7d314083bc2", null ],
-    [ "IsSummonedBy", "d9/d68/a23136.html#a5ed405dd9315cb255d14d3e5f808dc9d", null ],
-    [ "JustDied", "d9/d68/a23136.html#a15ab3cd6576055ec7ba29a5ed44e73db", null ],
-    [ "OnCalculateMeleeDamageReceived", "d9/d68/a23136.html#ae95022548b44b23ef93fae24729b5af5", null ],
-    [ "OnCalculatePeriodicTickReceived", "d9/d68/a23136.html#a546281a2257d0407d294fba1f7d3426f", null ],
-    [ "OnCalculateSpellDamageReceived", "d9/d68/a23136.html#aa40ee81a4456e1a1f7254d2169f50e88", null ],
-    [ "UpdateAI", "d9/d68/a23136.html#a977a76b54c4eae6461559d7b15cfc4b2", null ]
+    [ "npc_steam_powered_auctioneerAI", "df/d6d/a23140.html", "df/d6d/a23140" ],
+    [ "npc_steam_powered_auctioneer", "d9/d68/a23136.html#ae8c918c639ce0c3ddc14b8cf7f0ef855", null ],
+    [ "GetAI", "d9/d68/a23136.html#a39a2f0c187078c759bc4a391e0a81068", null ]
 ];

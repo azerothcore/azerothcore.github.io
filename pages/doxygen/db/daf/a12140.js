@@ -1,6 +1,6 @@
 var a12140 =
 [
-    [ "boss_shazzrahAI", "d1/d6a/a12144.html", "d1/d6a/a12144" ],
-    [ "boss_shazzrah", "db/daf/a12140.html#a99a162d6eac5c9046a27f53ec05af7e4", null ],
-    [ "GetAI", "db/daf/a12140.html#a8135f6ab246dbce4c2ebebe0e7f137d5", null ]
+    [ "npc_kilrekAI", "d1/d6a/a12144.html", "d1/d6a/a12144" ],
+    [ "npc_kilrek", "db/daf/a12140.html#a378ad1f024b83d28c6019b7bed34ee60", null ],
+    [ "GetAI", "db/daf/a12140.html#ae6baed56077287b8242f2ccecea13015", null ]
 ];

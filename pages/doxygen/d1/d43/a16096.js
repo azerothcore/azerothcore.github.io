@@ -1,8 +1,6 @@
 var a16096 =
 [
-    [ "npc_black_knight_skeletal_gryphonAI", "d1/d43/a16096.html#ada99dced1e560aebc908a0efb6c23d0a", null ],
-    [ "DoAction", "d1/d43/a16096.html#af38e129cdf4af99e99c41b6a98448e56", null ],
-    [ "Reset", "d1/d43/a16096.html#a5e20d5e17baaac92a560a5b2fe15fe7b", null ],
-    [ "UpdateAI", "d1/d43/a16096.html#a851008790128831c5c10710b4cccb196", null ],
-    [ "WaypointReached", "d1/d43/a16096.html#a74b5fb1d3631c404e7797085e45e6159", null ]
+    [ "npc_twilight_summonAI", "d5/d86/a16100.html", "d5/d86/a16100" ],
+    [ "npc_twilight_summon", "d1/d43/a16096.html#a2406ee3b02d9f1b1ebef54623d9a3c11", null ],
+    [ "GetAI", "d1/d43/a16096.html#a98bf5ce96c25bc252acd46163644bf33", null ]
 ];

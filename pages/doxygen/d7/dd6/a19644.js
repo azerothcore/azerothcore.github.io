@@ -1,6 +1,6 @@
 var a19644 =
 [
-    [ "PrepareSpellScript", "d7/dd6/a19644.html#af280f3880e2e567188ba8ca3e45c00c0", null ],
-    [ "RecalculateDamage", "d7/dd6/a19644.html#a54c26d24f62c36108f9fceb7a0c53e37", null ],
-    [ "Register", "d7/dd6/a19644.html#aac131aa2d2e5342cf0303b918a077b45", null ]
+    [ "spell_svalna_remove_spear_SpellScript", "de/dab/a19648.html", "de/dab/a19648" ],
+    [ "spell_svalna_remove_spear", "d7/dd6/a19644.html#a48fe35704276368cd9a55a00ccf30406", null ],
+    [ "GetSpellScript", "d7/dd6/a19644.html#a213318ce2f0b19b0e35f7b963daf6caf", null ]
 ];

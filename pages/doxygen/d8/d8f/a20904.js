@@ -1,6 +1,6 @@
 var a20904 =
 [
-    [ "instance_ulduar_InstanceMapScript", "d1/d03/a20908.html", "d1/d03/a20908" ],
-    [ "instance_ulduar", "d8/d8f/a20904.html#a32c2a76d1cd20f2ad1ab441eafe1b682", null ],
-    [ "GetInstanceScript", "d8/d8f/a20904.html#ad15f003a90e656910fc32d661ca9baba", null ]
+    [ "boss_steelbreakerAI", "d1/d03/a20908.html", "d1/d03/a20908" ],
+    [ "boss_steelbreaker", "d8/d8f/a20904.html#af6e4c3729874e59959b35ca67a46aa44", null ],
+    [ "GetAI", "d8/d8f/a20904.html#ac4189ffbba997719fb36a10ecdabd26c", null ]
 ];

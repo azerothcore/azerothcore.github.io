@@ -1,9 +1,14 @@
 var a07004 =
 [
-    [ "ArenaScore", "df/d08/a07004.html#a58f1391de4e67750dad211b10704499f", null ],
-    [ "AppendToPacket", "df/d08/a07004.html#a3fe2ab34a9abc4d8c4ff863334cf2c84", null ],
-    [ "BuildObjectivesBlock", "df/d08/a07004.html#ac96461b865fc7a9ba0cdfad6ae3fa96f", null ],
-    [ "ToString", "df/d08/a07004.html#ab04b30f4bfa6b1aa89e08e3195ad3b0b", null ],
-    [ "Arena", "df/d08/a07004.html#a5f488c25aa439166d145713c67e7d085", null ],
-    [ "PvPTeamId", "df/d08/a07004.html#a486ee0e05ac5160f0fb174e2a1e061bb", null ]
+    [ "Print", "df/d08/a07004.html#a7a3f746595d9ca126747f5e0ba52c71b", null ],
+    [ "CliHandler", "df/d08/a07004.html#a6a7ba928db9d41743d7cebd1ad98b084", null ],
+    [ "GetAcoreString", "df/d08/a07004.html#a84a52cac4c1ac11e36e36c37f976af0e", null ],
+    [ "GetNameLink", "df/d08/a07004.html#ae879bbfa69992caa7a0b1b2b3c7d939c", null ],
+    [ "GetSessionDbcLocale", "df/d08/a07004.html#a610f7431dc7b064c964e0d446160d19f", null ],
+    [ "GetSessionDbLocaleIndex", "df/d08/a07004.html#a5a2118d9227aa53818d736e387d77dea", null ],
+    [ "needReportToTarget", "df/d08/a07004.html#ad8c4ee6e45afff55d94dea9704bd2097", null ],
+    [ "ParseCommands", "df/d08/a07004.html#abbd02247d6094bf39b2791ba45e9942e", null ],
+    [ "SendSysMessage", "df/d08/a07004.html#a636be10a282a8d100b807dac119b3ff6", null ],
+    [ "m_callbackArg", "df/d08/a07004.html#aa1fafd68fca180506cc15680b695db9e", null ],
+    [ "m_print", "df/d08/a07004.html#aadeaa84ce5d26951f506a2656c1d64d2", null ]
 ];

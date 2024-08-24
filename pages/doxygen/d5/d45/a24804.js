@@ -1,13 +1,6 @@
 var a24804 =
 [
-    [ "CalcPeriodic", "d5/d45/a24804.html#a08dca1818a687bb5862779e261dafb00", null ],
-    [ "CalculateExpertiseAmount", "d5/d45/a24804.html#a44703f4a1c5cfb74083bf74d7b77c23c", null ],
-    [ "CalculateHitAmount", "d5/d45/a24804.html#af6e9dda7381a80d4de93c1a7402a2e2b", null ],
-    [ "CalculateSpellHitAmount", "d5/d45/a24804.html#ab31dfffdf449c1eef74c2bcd43469109", null ],
-    [ "HandleEffectApply", "d5/d45/a24804.html#a6ba389f156263462f5e80e3a9fb6f62e", null ],
-    [ "HandlePeriodic", "d5/d45/a24804.html#ac97a33580dc873af7b580d4fdf7ed9f6", null ],
-    [ "PrepareAuraScript", "d5/d45/a24804.html#ad9aeb68e7d512f55f38f5a64d1d80f7f", null ],
-    [ "Register", "d5/d45/a24804.html#a803e26c6a4c06feedd80a4d94452aca5", null ],
-    [ "cap", "d5/d45/a24804.html#a9c3e35d01ad863d146566efe7cca2637", null ],
-    [ "maxChance", "d5/d45/a24804.html#a34933c7fe8b570214c821347f4ba974b", null ]
+    [ "spell_illidari_council_judgement_SpellScript", "d4/db7/a24808.html", "d4/db7/a24808" ],
+    [ "spell_illidari_council_judgement", "d5/d45/a24804.html#a01d8947e792fa79c000067e06ed64b6b", null ],
+    [ "GetSpellScript", "d5/d45/a24804.html#ab78066e3a878108d818a826518adbaa2", null ]
 ];

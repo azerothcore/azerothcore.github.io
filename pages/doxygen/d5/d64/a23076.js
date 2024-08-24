@@ -1,13 +1,14 @@
 var a23076 =
 [
-    [ "boss_fathomguard_caribdis", "d5/d64/a23076.html#a9172b9717e5137ddde7df38bb237478c", null ],
-    [ "EnterEvadeMode", "d5/d64/a23076.html#aa666a491a776b12a042ee140aedc95eb", null ],
-    [ "JustDied", "d5/d64/a23076.html#ab821365b35a48f70a11c6033fe2ca714", null ],
-    [ "JustEngagedWith", "d5/d64/a23076.html#a5503519998f51f475420ada2210f32f0", null ],
-    [ "JustSummoned", "d5/d64/a23076.html#a39ca45ec0de50b7d7a5ec866c4017a8a", null ],
-    [ "Reset", "d5/d64/a23076.html#a0d2a3403d5934e86a897b3417ed2214a", null ],
-    [ "UpdateAI", "d5/d64/a23076.html#af4a544f37d178de21d84f2544f24431e", null ],
-    [ "_instance", "d5/d64/a23076.html#a73f567f2269aeca1435af82e1c6880e9", null ],
-    [ "_scheduler", "d5/d64/a23076.html#a08b01e9735e421d8d5bbc2b552217762", null ],
-    [ "_summons", "d5/d64/a23076.html#ac8b53cb81547a2423a13c997badb77e3", null ]
+    [ "npc_hidden_cultistAI", "d5/d64/a23076.html#a970aaa2401664337147696624cc8cac4", null ],
+    [ "AttackPlayer", "d5/d64/a23076.html#a55e3b02d05f35d134fc605a13efe9018", null ],
+    [ "Initialize", "d5/d64/a23076.html#ab9199126a5a19cc3c6dc612bc428d79c", null ],
+    [ "PreScript", "d5/d64/a23076.html#a92be5361e2b28152adcca0629b286bb8", null ],
+    [ "Reset", "d5/d64/a23076.html#afe38e448d86cdf910870d72a3890ae1f", null ],
+    [ "sGossipSelect", "d5/d64/a23076.html#adf6d85bc5a32c8bd7c125d24f67411d9", null ],
+    [ "UpdateAI", "d5/d64/a23076.html#a0bba4d10439d47d44ff856c7fec18595", null ],
+    [ "_emoteState", "d5/d64/a23076.html#adb4e884787dc480358c5be22d276ec49", null ],
+    [ "_events", "d5/d64/a23076.html#ab0494e33d16a43aa1426784d1882e41c", null ],
+    [ "_npcFlags", "d5/d64/a23076.html#aea867d06cb737e2a44445c2c8c7d6e45", null ],
+    [ "_playerGUID", "d5/d64/a23076.html#ac7ecf525ed8c0d2a3d00b34f7afdbf18", null ]
 ];

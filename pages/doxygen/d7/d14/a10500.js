@@ -1,8 +1,10 @@
 var a10500 =
 [
-    [ "CrossedInebriationThreshold", "d7/d14/a10500.html#a8983b7b88a76955d9a0e2241ffb1e472", null ],
-    [ "Write", "d7/d14/a10500.html#a127dcfcc7e960d24e56d1b17bf9be992", null ],
-    [ "Guid", "d7/d14/a10500.html#a422afb45b6c5e9c4fef58fb1801bd0ad", null ],
-    [ "ItemID", "d7/d14/a10500.html#a9e48a650bf21872099cdb0626e875fd7", null ],
-    [ "Threshold", "d7/d14/a10500.html#a87b756b64cbfb8f292f46cce38308095", null ]
+    [ "SpellValue", "d7/d14/a10500.html#a2aebedc86822634a0a80de7a4c16dd7f", null ],
+    [ "AuraDuration", "d7/d14/a10500.html#af44c190ba8a8636d78f8d271656bdd02", null ],
+    [ "AuraStackAmount", "d7/d14/a10500.html#af9d7a902bd7d6a24f2ef9480e725d8e8", null ],
+    [ "EffectBasePoints", "d7/d14/a10500.html#a4de44adea4dc620f0871215e4d4f611d", null ],
+    [ "ForcedCritResult", "d7/d14/a10500.html#a14f0fd1b3351297e5c71e34e0c9a44fb", null ],
+    [ "MaxAffectedTargets", "d7/d14/a10500.html#a69ea555bb8ae6642a0c9c85b3f9b373c", null ],
+    [ "RadiusMod", "d7/d14/a10500.html#a135bbce8300101411e87a70467dbbd57", null ]
 ];

@@ -1,7 +1,6 @@
 var a13124 =
 [
-    [ "HandleSchoolDamage", "dd/d3f/a13124.html#a4fee3e37f347d1dcfa84c1dc0454c9fa", null ],
-    [ "PrepareSpellScript", "dd/d3f/a13124.html#a8063f3d669e07dc0768607feb9a2f763", null ],
-    [ "Register", "dd/d3f/a13124.html#a83aad24c7111d1f68196fcb9765dcd97", null ],
-    [ "Validate", "dd/d3f/a13124.html#af90ae09274b0082bd8bd674ca43596f6", null ]
+    [ "spell_kiljaeden_darkness_AuraScript", "d9/d59/a13128.html", "d9/d59/a13128" ],
+    [ "spell_kiljaeden_darkness", "dd/d3f/a13124.html#aae321af3a7ded7b686527908a2e8960c", null ],
+    [ "GetAuraScript", "dd/d3f/a13124.html#a4f2e98c678cfea3e6f3311366daa7fb8", null ]
 ];

@@ -1,13 +1,7 @@
 var a14980 =
 [
-    [ "npc_dirt_mound", "da/d7d/a14980.html#add7daefa1c96fb9d843248f8ca4796f6", null ],
-    [ "ChaseNewTarget", "da/d7d/a14980.html#a16656fb7ad8cda5916e8da0002cf0292", null ],
-    [ "EnterEvadeMode", "da/d7d/a14980.html#ac5fdeea9dc5553b689d3a8a9b0b73d34", null ],
-    [ "JustEngagedWith", "da/d7d/a14980.html#abf39fb8d63325eea7928b88b2b486ad2", null ],
-    [ "JustSummoned", "da/d7d/a14980.html#a5da17256d0cd4f6cb0e1256afe4b6539", null ],
-    [ "Reset", "da/d7d/a14980.html#ae1662eb73f21351e07d00a717421de68", null ],
-    [ "SetData", "da/d7d/a14980.html#a4faa65dd3260104202e4bdd34bc0b67d", null ],
-    [ "UpdateAI", "da/d7d/a14980.html#a88447191070cf8b84df96db565eef48d", null ],
-    [ "_instance", "da/d7d/a14980.html#ac9f138567a4367aeb5d7b1f6caea90c6", null ],
-    [ "_ouroHealth", "da/d7d/a14980.html#ac83391fa5069ae4574748f82d15e833d", null ]
+    [ "HandleScript", "da/d7d/a14980.html#a8aea4a40472aec4cbb7001fbd63db24c", null ],
+    [ "Load", "da/d7d/a14980.html#a2dc1edf537f58133fb4daabde9f43843", null ],
+    [ "PrepareSpellScript", "da/d7d/a14980.html#ae856c6e70ededa95c0308596a9f980af", null ],
+    [ "Register", "da/d7d/a14980.html#ac2e82c7e626658faa968f75c26688b43", null ]
 ];

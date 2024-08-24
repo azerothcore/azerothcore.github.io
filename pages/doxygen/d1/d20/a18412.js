@@ -1,8 +1,6 @@
 var a18412 =
 [
-    [ "FilterTargets", "d1/d20/a18412.html#aed8b741160cbf50dde84cf059c8b52cb", null ],
-    [ "HandleForceCast", "d1/d20/a18412.html#ae783cf255be823bf7c9125f288479e97", null ],
-    [ "Load", "d1/d20/a18412.html#ac8f92e9284abc56d55ecf3aa73d350f8", null ],
-    [ "PrepareSpellScript", "d1/d20/a18412.html#a68074978fe2c1b137c6ddfd7b9082bfc", null ],
-    [ "Register", "d1/d20/a18412.html#a454a8909be4bb85f255ea696041ea447", null ]
+    [ "UnboundPlagueTargetSelector", "d1/d20/a18412.html#aedde7e013418bf6ff54cf3d3b8a70206", null ],
+    [ "operator()", "d1/d20/a18412.html#ae5fc2623d4eb0b0a82b3eaa464c92458", null ],
+    [ "_source", "d1/d20/a18412.html#a87eb77615e443ccec373d571708a156a", null ]
 ];

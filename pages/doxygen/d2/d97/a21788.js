@@ -1,6 +1,5 @@
 var a21788 =
 [
-    [ "npc_q24545_vegard_dummyAI", "d2/d97/a21788.html#ad354ccbe97b12f8df1186de4bf52bfcc", null ],
-    [ "UpdateAI", "d2/d97/a21788.html#aa31baac9ce3c4c951f93917b88390797", null ],
-    [ "done", "d2/d97/a21788.html#a0208fbae8e6c46d0671107530279c50c", null ]
+    [ "npc_ulduar_flames_spreadAI", "d2/d97/a21788.html#a607ee542f7c6d84f4072557e44a80905", null ],
+    [ "SpellHit", "d2/d97/a21788.html#abe69df9873fc125306a4ed757665e448", null ]
 ];

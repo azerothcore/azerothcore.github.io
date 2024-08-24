@@ -1,5 +1,6 @@
 var a20052 =
 [
-    [ "achievement_smell_saronite", "d9/d09/a20052.html#a42dce2aefa2561952dcf5289126035a8", null ],
-    [ "OnCheck", "d9/d09/a20052.html#a5180e3e53fa0f4d32d2a305d315bc8b3", null ]
+    [ "spell_grobbulus_mutating_injection_AuraScript", "d4/d29/a20056.html", "d4/d29/a20056" ],
+    [ "spell_grobbulus_mutating_injection", "d9/d09/a20052.html#abd78814e541570a4e058d180b94d0d36", null ],
+    [ "GetAuraScript", "d9/d09/a20052.html#a5eade9348eae0ce6b36e9d6ee98bbca8", null ]
 ];

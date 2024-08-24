@@ -1,6 +1,9 @@
 var a19844 =
 [
-    [ "npc_mechanoliftAI", "d5/de1/a19848.html", "d5/de1/a19848" ],
-    [ "npc_mechanolift", "dc/dfd/a19844.html#a7b753a3426213706c899745a6d0d989b", null ],
-    [ "GetAI", "dc/dfd/a19844.html#a823a929bf65f32cdbe9b56df5d33c66d", null ]
+    [ "spell_trigger_spell_from_caster_SpellScript", "dc/dfd/a19844.html#ac2b9b326a2babb0c329336abd55f3b8f", null ],
+    [ "HandleTrigger", "dc/dfd/a19844.html#a7080e0a1876d3c570abe3908a8b64d31", null ],
+    [ "PrepareSpellScript", "dc/dfd/a19844.html#adc7786ac45ef1cdd3bbc9edfc0d6e502", null ],
+    [ "Register", "dc/dfd/a19844.html#aae98b696d5ca2193ef2602d5fe1389be", null ],
+    [ "Validate", "dc/dfd/a19844.html#aeb12e9c66f9b2835d7b5886aecf97b5e", null ],
+    [ "_triggerId", "dc/dfd/a19844.html#a6aa1e08d5803f2df1a565bf081a6c41c", null ]
 ];

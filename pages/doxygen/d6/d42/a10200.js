@@ -1,6 +1,9 @@
 var a10200 =
 [
-    [ "PlayedTimeClient", "d6/d42/a10200.html#a1c82d4d153606da9887d64599f319883", null ],
-    [ "Read", "d6/d42/a10200.html#a0d25fccc9fb4fdaa5ba3bb11851a14f3", null ],
-    [ "TriggerScriptEvent", "d6/d42/a10200.html#a092b32f76df529a4f1284d7231b8fc6b", null ]
+    [ "RandomRoll", "d6/d42/a10200.html#abc64acf498b3dc70b9afd23c399e3db8", null ],
+    [ "Write", "d6/d42/a10200.html#aab5879874745603dd448a7f5084d60d4", null ],
+    [ "Max", "d6/d42/a10200.html#a21460b09eddfbee6ba022f88b5f37cc7", null ],
+    [ "Min", "d6/d42/a10200.html#aee5564c9fc17613b9f30fc8ce88944c6", null ],
+    [ "Result", "d6/d42/a10200.html#a34fd2c1d018bb292836724671163ff07", null ],
+    [ "Roller", "d6/d42/a10200.html#af02aa97826259885791d0f4afc0c1a84", null ]
 ];

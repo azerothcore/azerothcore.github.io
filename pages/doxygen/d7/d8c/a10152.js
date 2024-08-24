@@ -1,7 +1,7 @@
 var a10152 =
 [
-    [ "AutoStoreBankItem", "d7/d8c/a10152.html#a1cdb7e9c7da7e646af14ac4ac3b7e950", null ],
-    [ "Read", "d7/d8c/a10152.html#a2a482b716f537866a815085ead9cfd38", null ],
-    [ "Bag", "d7/d8c/a10152.html#a08d2992816ee94b6757c2811b54ed437", null ],
-    [ "Slot", "d7/d8c/a10152.html#aaf2cd8c1c3d67301cc40af78f138daa0", null ]
+    [ "GuildBankSetTabText", "d7/d8c/a10152.html#aba353d3f94a88b71f49b9c0dc096be2c", null ],
+    [ "Read", "d7/d8c/a10152.html#a24f580f6addcd08945c05016b3f0e544", null ],
+    [ "Tab", "d7/d8c/a10152.html#ada6707c2105410d78d4335dbf4747141", null ],
+    [ "TabText", "d7/d8c/a10152.html#a9bb8c3f539fdcf389caf57ed818c6164", null ]
 ];

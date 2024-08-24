@@ -1,7 +1,6 @@
 var a25256 =
 [
-    [ "HandleScript", "d8/d68/a25256.html#a1097b1548b2785ac7ffd916ee5531fe9", null ],
-    [ "PrepareSpellScript", "d8/d68/a25256.html#a47dc9761bf10b1290963ff7eebe0121a", null ],
-    [ "Register", "d8/d68/a25256.html#a984b2af5268fbf294a0292502b8ddb44", null ],
-    [ "Validate", "d8/d68/a25256.html#a0cfbc2dcb836e7c37dd03cb3d0728621", null ]
+    [ "instance_steam_vault_InstanceMapScript", "d8/d68/a25256.html#a1ca8d6b10fabe1a8b829dbf62b77ed51", null ],
+    [ "OnGameObjectCreate", "d8/d68/a25256.html#ace71fc6f1d7bc4b49bc2a2507f481fc2", null ],
+    [ "SetBossState", "d8/d68/a25256.html#ab1e344fbf169ee40f28741217f3dca14", null ]
 ];

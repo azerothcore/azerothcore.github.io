@@ -1,6 +1,5 @@
 var a17008 =
 [
-    [ "entry", "d0/d48/a17008.html#af2cf5df64adf9ac1575a8217b103e738", null ],
-    [ "x", "d0/d48/a17008.html#aad21475d521921ea30cc0ae5d260ce69", null ],
-    [ "y", "d0/d48/a17008.html#abd69e1c28ad36466c82807ea0ffb0fb7", null ]
+    [ "achievement_consumption_junction", "d0/d48/a17008.html#aab08732c13f41e0e8d27e9f482bd7351", null ],
+    [ "OnCheck", "d0/d48/a17008.html#a14dae1bf9d4d7c79f11de40b372f353e", null ]
 ];

@@ -1,13 +1,11 @@
 var a14208 =
 [
-    [ "npc_costumed_orphan_matron", "db/dc0/a14208.html#a0b913090588613ac00ea928f6273d56f", null ],
-    [ "DoAction", "db/dc0/a14208.html#a7a7739f89604ffb5afc6bab75118340e", null ],
-    [ "GetInitXYZ", "db/dc0/a14208.html#a3c6d0e6cecd1c4ef85b3d77c45ef6533", null ],
-    [ "Reset", "db/dc0/a14208.html#a962de50b13079f3337c4e41eb2d98b55", null ],
-    [ "sGossipHello", "db/dc0/a14208.html#a1a9c58c087b8addf8e482375737d6c49", null ],
-    [ "sQuestAccept", "db/dc0/a14208.html#adac5d514261a210a701442da13ba1587", null ],
-    [ "UpdateAI", "db/dc0/a14208.html#a4679d807df8749265ba0453c5b7588f1", null ],
-    [ "allowQuest", "db/dc0/a14208.html#a722f4bfd0fb8b2665ff2b79d3208bc90", null ],
-    [ "eventStarted", "db/dc0/a14208.html#a5292ab4e45fe3a858b3a59ef4a79bb34", null ],
-    [ "horseGUID", "db/dc0/a14208.html#a92cfd09cefd26933ae322f2cc2716927", null ]
+    [ "npc_snowfall_glade_playmate", "db/dc0/a14208.html#aa31b472ad55b240faff4bc2c1ee02ebc", null ],
+    [ "MoveInLineOfSight", "db/dc0/a14208.html#a92143d0bd0eb57b59069ca7a66e16195", null ],
+    [ "Reset", "db/dc0/a14208.html#a89040d9843852b01123e102b49509857", null ],
+    [ "UpdateAI", "db/dc0/a14208.html#a6dedc1cae1e568a792341842e8a922e8", null ],
+    [ "orphanGUID", "db/dc0/a14208.html#ad9bdbee8ec178b0a6c7ff125dc698279", null ],
+    [ "phase", "db/dc0/a14208.html#a9a5b2348313063bc389b99158fc72e3f", null ],
+    [ "playerGUID", "db/dc0/a14208.html#a4ca4198fdbf3c98291255916ee53c637", null ],
+    [ "timer", "db/dc0/a14208.html#ac3d736f2cd62289b88940e0a6ddcd957", null ]
 ];

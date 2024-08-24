@@ -1,6 +1,6 @@
 var a16600 =
 [
-    [ "instance_drak_tharon_keep_InstanceScript", "d7/d13/a16600.html#a15f13e67c33a7d5cfb4793b6b641842c", null ],
-    [ "OnGameObjectCreate", "d7/d13/a16600.html#ab727f29fc768c00ab48bfd7e7717a29a", null ],
-    [ "OnGameObjectRemove", "d7/d13/a16600.html#ad8115d5e1ee45a586ec0c1149d690db5", null ]
+    [ "npc_toc_shamanAI", "da/dfa/a16604.html", "da/dfa/a16604" ],
+    [ "npc_toc_shaman", "d7/d13/a16600.html#a26e3a539d8d918057e9f81b9ee83f17d", null ],
+    [ "GetAI", "d7/d13/a16600.html#a7102a3aec6c229a04b617c562512bf29", null ]
 ];

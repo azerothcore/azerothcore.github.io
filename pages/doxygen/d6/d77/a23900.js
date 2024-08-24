@@ -1,14 +1,8 @@
 var a23900 =
 [
-    [ "npc_deaths_door_fell_cannon_target_bunnyAI", "d6/d77/a23900.html#a258f55153ad857fbf35545cfb87c3d3a", null ],
-    [ "Initialize", "d6/d77/a23900.html#a187340b00067f2f65a7e48845a6edaba", null ],
-    [ "JustSummoned", "d6/d77/a23900.html#a10a3b9b4a2763bac4c9fe5f680850052", null ],
-    [ "Reset", "d6/d77/a23900.html#a92a6cbe0515752440284d18bae0adf66", null ],
-    [ "SpellHit", "d6/d77/a23900.html#a517f7412208de83604d0d6806fbc0b34", null ],
-    [ "UpdateAI", "d6/d77/a23900.html#ab4fb75f1b84c2722f936387a6942028b", null ],
-    [ "CannonGUID", "d6/d77/a23900.html#a220e111467cfb6f02e996f012123e09b", null ],
-    [ "count", "d6/d77/a23900.html#ac78f94033239dcf247be9a48d0535081", null ],
-    [ "events", "d6/d77/a23900.html#acf362c9e3eb844db9f66cc8c969cd22e", null ],
-    [ "PartyTime", "d6/d77/a23900.html#a1780c656fb539be6dcd74e271cea4c53", null ],
-    [ "PlayerGUID", "d6/d77/a23900.html#a686314ffe4a588a1ba8722a6cab56fc7", null ]
+    [ "npc_wg_spirit_guideAI", "d0/d7c/a23904.html", "d0/d7c/a23904" ],
+    [ "npc_wg_spirit_guide", "d6/d77/a23900.html#ad6ca047a51547203ee2c5f69efb6f2d3", null ],
+    [ "GetAI", "d6/d77/a23900.html#a769cdf4ac330b5dec71437d325aaf46a", null ],
+    [ "OnGossipHello", "d6/d77/a23900.html#a2d46078cb47f817239685d168f7f2e35", null ],
+    [ "OnGossipSelect", "d6/d77/a23900.html#aae050d38b9fa9c16d398d2733b1e5faf", null ]
 ];

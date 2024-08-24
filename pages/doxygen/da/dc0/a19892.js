@@ -1,6 +1,6 @@
 var a19892 =
 [
-    [ "CheckAreaTarget", "da/dc0/a19892.html#ad1930e308f450cb84dba4f4b28b19f58", null ],
-    [ "PrepareAuraScript", "da/dc0/a19892.html#a921b2f67c417244310398bd93061d61c", null ],
-    [ "Register", "da/dc0/a19892.html#ab21972706bae9fdc3fc6859da2f3f63e", null ]
+    [ "npc_ioc_gunship_captainAI", "d2/d15/a19896.html", "d2/d15/a19896" ],
+    [ "npc_ioc_gunship_captain", "da/dc0/a19892.html#a6463d7bc12d5fe4fc8921ba5916ec906", null ],
+    [ "GetAI", "da/dc0/a19892.html#a43f3ce178df31fbf693acbfa8c32a339", null ]
 ];

@@ -1,6 +1,6 @@
 var a14736 =
 [
-    [ "instance_razorfen_downs_InstanceMapScript", "d2/d55/a14740.html", "d2/d55/a14740" ],
-    [ "instance_razorfen_downs", "d2/de9/a14736.html#a317e5e4ce45fd88c657b8032b377ffb7", null ],
-    [ "GetInstanceScript", "d2/de9/a14736.html#a5010fc2704c3c699e39bf969f6f6ce2c", null ]
+    [ "boss_salrammAI", "d2/d55/a14740.html", "d2/d55/a14740" ],
+    [ "boss_salramm", "d2/de9/a14736.html#a62c629a03f0c7ca7f3bf14b5209342d1", null ],
+    [ "GetAI", "d2/de9/a14736.html#ab6b400f0d329d4def074d012de47f53d", null ]
 ];

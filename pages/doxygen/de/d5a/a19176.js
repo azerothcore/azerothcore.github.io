@@ -1,6 +1,9 @@
 var a19176 =
 [
-    [ "boss_commander_stoutbeardAI", "d7/d06/a19180.html", "d7/d06/a19180" ],
-    [ "boss_commander_stoutbeard", "de/d5a/a19176.html#a88d3d29efbfffc22dbe48bd9fa1de9d6", null ],
-    [ "GetAI", "de/d5a/a19176.html#a890716f1c4adf9cd3d565b62cc675f64", null ]
+    [ "HandleScript", "de/d5a/a19176.html#a98c80cdadb3f0e7d3a1830d15af2f82b", null ],
+    [ "Load", "de/d5a/a19176.html#abee1ada02ae80855377dd6b35dd5e837", null ],
+    [ "PrepareSpellScript", "de/d5a/a19176.html#acfa391f722af6de365e462442c407b15", null ],
+    [ "Register", "de/d5a/a19176.html#a4f6a7c62428f2b927b62980cbcdb47ab", null ],
+    [ "SelectTarget", "de/d5a/a19176.html#a231a1c2eec7aee19b9c56281ffe8f799", null ],
+    [ "_target", "de/d5a/a19176.html#a86fab0af27b6fac77e35262c926e9770", null ]
 ];

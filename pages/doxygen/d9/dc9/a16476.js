@@ -1,8 +1,11 @@
 var a16476 =
 [
-    [ "if", "d9/dc9/a16476.html#a05a4c1db7e7d6810209175a22db5a639", null ],
-    [ "if", "d9/dc9/a16476.html#a403e6a2968e02066641e04c98a5173b6", null ],
-    [ "PrepareAuraScript", "d9/dc9/a16476.html#ab918782945539513ae49cff3280fc352", null ],
-    [ "Register", "d9/dc9/a16476.html#af7008e54134e3f015d47af42682b1ae5", null ],
-    [ "absorbAmount", "d9/dc9/a16476.html#a72d148ef61ff66cbc2afdb3defec15ce", null ]
+    [ "npc_black_knight_ghoulAI", "d9/dc9/a16476.html#a6e108052a7f9911dcd1b0ed13b2b8a0f", null ],
+    [ "JustEngagedWith", "d9/dc9/a16476.html#a8353dea0de91017223c7624a5a96ebec", null ],
+    [ "Reset", "d9/dc9/a16476.html#a8a33efa0719063a9565bc07143f8ad83", null ],
+    [ "SpellHit", "d9/dc9/a16476.html#aa1b1fbb1a4633831774c7a7dd5cbb546", null ],
+    [ "SpellHitTarget", "d9/dc9/a16476.html#a5f106a3b0edf353769db9021b9ca770d", null ],
+    [ "UpdateAI", "d9/dc9/a16476.html#a6ccdb6a59b93999c01d434bcda593f25", null ],
+    [ "events", "d9/dc9/a16476.html#acb56826a164e4d7da0a2f04c1efaf72b", null ],
+    [ "pInstance", "d9/dc9/a16476.html#a35b8375f1b3407f5cee653ee118e0697", null ]
 ];

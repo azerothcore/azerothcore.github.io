@@ -1,6 +1,6 @@
 var a18984 =
 [
-    [ "boss_patchwerkAI", "d0/ddd/a18988.html", "d0/ddd/a18988" ],
-    [ "boss_patchwerk", "db/da3/a18984.html#a526983c4f5191a839ba4a017ac2d14e4", null ],
-    [ "GetAI", "db/da3/a18984.html#a03f2dec61192405760958e26d998d67e", null ]
+    [ "HandleScript", "db/da3/a18984.html#a70bf8090bd24161c15350d4cba2df23b", null ],
+    [ "PrepareSpellScript", "db/da3/a18984.html#a9ab5f7df330970891aaf594cf748ef90", null ],
+    [ "Register", "db/da3/a18984.html#a5204f39b29773317d5acdcbd02fe2779", null ]
 ];

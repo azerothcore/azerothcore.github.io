@@ -1,6 +1,7 @@
 var a22376 =
 [
-    [ "npc_feedin_da_goolzAI", "d4/d9b/a22380.html", "d4/d9b/a22380" ],
-    [ "npc_feedin_da_goolz", "d8/dee/a22376.html#ace9fd4ca5809c0d47b49fc63ca8363be", null ],
-    [ "GetAI", "d8/dee/a22376.html#a61ab3189e2525a995a87eec06d45e355", null ]
+    [ "HandleProc", "d8/dee/a22376.html#a4a54a5d4e002d31b07b95784088835c0", null ],
+    [ "PrepareAuraScript", "d8/dee/a22376.html#a3c6b8ff79c6d848b785c91724fe408c8", null ],
+    [ "Register", "d8/dee/a22376.html#a7f9482b0133b548fbb5c46c938478f66", null ],
+    [ "Validate", "d8/dee/a22376.html#a6901ba77aedc341fff4755f1857db42e", null ]
 ];

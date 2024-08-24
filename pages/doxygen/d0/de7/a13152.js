@@ -1,6 +1,6 @@
 var a13152 =
 [
-    [ "boss_muruAI", "d5/d2c/a13156.html", "d5/d2c/a13156" ],
-    [ "boss_muru", "d0/de7/a13152.html#aeb09997c72ec653df211bdec5873a57a", null ],
-    [ "GetAI", "d0/de7/a13152.html#aba2fda1e0b3b6b972fe7df14247006c1", null ]
+    [ "HandlePeriodic", "d0/de7/a13152.html#a8c66f9ddda384f68ebbcfa6e6600574b", null ],
+    [ "PrepareAuraScript", "d0/de7/a13152.html#a0a648b6d7448831dc41ff8982b1ef370", null ],
+    [ "Register", "d0/de7/a13152.html#aa024221c5be41a10cbb1d5eaffc07717", null ]
 ];

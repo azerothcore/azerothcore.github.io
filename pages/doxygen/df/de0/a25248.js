@@ -1,8 +1,5 @@
 var a25248 =
 [
-    [ "HandleApply", "df/de0/a25248.html#af20f30fe2bfc7a370b166a6200b44ca9", null ],
-    [ "OnPeriodic", "df/de0/a25248.html#a6b3223ef23854f22b9a3baba0d42cb11", null ],
-    [ "PrepareAuraScript", "df/de0/a25248.html#a344d1a92623865876174c0e88ce8ab4b", null ],
-    [ "Register", "df/de0/a25248.html#a352ff0e85eee6e51e9f2eea5cdd9108c", null ],
-    [ "Validate", "df/de0/a25248.html#ac4fd8fdde53f947082b23852ce149ea9", null ]
+    [ "go_main_chambers_access_panel", "df/de0/a25248.html#a30c3c20be1892b5107ef53683d593b75", null ],
+    [ "OnGossipHello", "df/de0/a25248.html#af4b3a4a0260de68dcfac7202e0a728ee", null ]
 ];

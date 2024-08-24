@@ -1,12 +1,17 @@
 var a13440 =
 [
-    [ "npc_lady_sylvanas_windrunnerAI", "d1/df9/a13440.html#ad6eefe9a14ce64b12b65a22c3ebb4db0", null ],
-    [ "JustEngagedWith", "d1/df9/a13440.html#a36324482fb264cc3cacf11c3ed542eee", null ],
-    [ "JustSummoned", "d1/df9/a13440.html#a456ee6f4b5b8cdd79647a42185265be8", null ],
-    [ "Reset", "d1/df9/a13440.html#ad4c6cb31a8d3dc280e689d5d29e27479", null ],
-    [ "SetGUID", "d1/df9/a13440.html#aa5270e7468dcafba98d3ee72752771ce", null ],
-    [ "UpdateAI", "d1/df9/a13440.html#ab704e4f3af8aa734910efd259db31407", null ],
-    [ "_events", "d1/df9/a13440.html#a621d4db4fac3a7c3d08defa2a8ed06d0", null ],
-    [ "LamentEvent", "d1/df9/a13440.html#ace9e901a965665e0f97cb9646af308aa", null ],
-    [ "playerGUID", "d1/df9/a13440.html#aa125ab2a33dbf9f1d40f238e7d45000d", null ]
+    [ "pyrewood_ambushAI", "d1/df9/a13440.html#a29af91205e33cdde314edf35a44223a0", null ],
+    [ "JustDied", "d1/df9/a13440.html#a27edb00452f9d43fc25c21b4f2e70ba3", null ],
+    [ "JustEngagedWith", "d1/df9/a13440.html#a22f4ee8582e1f99ffa49664088ca10d2", null ],
+    [ "JustSummoned", "d1/df9/a13440.html#abbf652df1707f706be1507122f852040", null ],
+    [ "Reset", "d1/df9/a13440.html#a65b370d028a2d47c4c6aeec737769d08", null ],
+    [ "SummonCreatureWithRandomTarget", "d1/df9/a13440.html#a32dfe2544ad6af64f1c4a4de0fe2acc2", null ],
+    [ "SummonedCreatureDespawn", "d1/df9/a13440.html#aaf23bf0a443a21db123b39625cc1b3fc", null ],
+    [ "UpdateAI", "d1/df9/a13440.html#a7bc951934bfdb04f1bdc00719c567cae", null ],
+    [ "KillCount", "d1/df9/a13440.html#a18887d364811047446ad77525cea7386", null ],
+    [ "Phase", "d1/df9/a13440.html#aec1fc4163f3fb2d4a6047f8849c22fae", null ],
+    [ "PlayerGUID", "d1/df9/a13440.html#aac20edbf41d884daee88a7dc0a9fefb8", null ],
+    [ "QuestInProgress", "d1/df9/a13440.html#a8ad845d7389f7b430c9e6878234aae82", null ],
+    [ "Summons", "d1/df9/a13440.html#ab07bf154dfff45075900fbb4a6372623", null ],
+    [ "WaitTimer", "d1/df9/a13440.html#a1d6ca4989cf7360a18655198ccdb5459", null ]
 ];

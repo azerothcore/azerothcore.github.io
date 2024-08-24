@@ -1,10 +1,15 @@
 var a12068 =
 [
-    [ "boss_golemaggAI", "d5/d09/a12068.html#a79e2416a55a1531316d891ebff4e5575", null ],
-    [ "DamageTaken", "d5/d09/a12068.html#a5f9191609c7ff0715ba186f8ae28262b", null ],
-    [ "Reset", "d5/d09/a12068.html#aeed4cda9fae3e0b46832ec1bfecb97b0", null ],
-    [ "UpdateAI", "d5/d09/a12068.html#af7b322731241dbb08041a92cd355f273", null ],
-    [ "earthquakeTimer", "d5/d09/a12068.html#a6bfd75b1d57d8002cab075bbd5a12612", null ],
-    [ "enraged", "d5/d09/a12068.html#a52e6d8bcf979d216aff536e8fae3bf01", null ],
-    [ "pyroblastTimer", "d5/d09/a12068.html#a142ededff85d517c08744bdafd644c34", null ]
+    [ "boss_moroes", "d5/d09/a12068.html#ae477dcfd679dd7943ddd133bb0dd89df", null ],
+    [ "GetRandomGuest", "d5/d09/a12068.html#a73f4b3c1a3a46261cf62143f8359b55e", null ],
+    [ "InitializeAI", "d5/d09/a12068.html#a1bba38840a7e6f09720ce33c51802a77", null ],
+    [ "InitializeGuests", "d5/d09/a12068.html#a815ca169e0787c92c09a5803007355aa", null ],
+    [ "JustDied", "d5/d09/a12068.html#a7d425d58b1e64ef174ff92e1263de544", null ],
+    [ "JustEngagedWith", "d5/d09/a12068.html#aa0bf31d8298b4ec6ce205cefd0766194", null ],
+    [ "JustReachedHome", "d5/d09/a12068.html#ad67598edc4034dd87ba5260d5f19fd3d", null ],
+    [ "KilledUnit", "d5/d09/a12068.html#a617a0938e1adf960fd58bb889c770a96", null ],
+    [ "Reset", "d5/d09/a12068.html#a677f2b8375981d904183dd804f4b32b8", null ],
+    [ "UpdateAI", "d5/d09/a12068.html#aa639032a49b3e9bd4209d17e0863db32", null ],
+    [ "_activeGuests", "d5/d09/a12068.html#a651f53f476f205785d596ed9d52fdb89", null ],
+    [ "_events2", "d5/d09/a12068.html#ae1c0474e0a940a803d82d3fe6d3ff37f", null ]
 ];

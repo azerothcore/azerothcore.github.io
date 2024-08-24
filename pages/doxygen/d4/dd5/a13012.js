@@ -1,9 +1,6 @@
 var a13012 =
 [
-    [ "npc_demonic_vapor_trailAI", "d4/dd5/a13012.html#ad1a5de140e171c8de6f5152f84cfed0f", null ],
-    [ "JustSummoned", "d4/dd5/a13012.html#a1a210b80dc4ed757d3bf07583cc57adc", null ],
-    [ "Reset", "d4/dd5/a13012.html#a71e3fde121e72e0cc4a1e07d17799a53", null ],
-    [ "SpellHitTarget", "d4/dd5/a13012.html#a2de56cd29096804b72861ed1718d28dc", null ],
-    [ "UpdateAI", "d4/dd5/a13012.html#a1762dc6690f7cb2ad579dc0fbe6383b7", null ],
-    [ "timer", "d4/dd5/a13012.html#a1c19faff5d18583c90c9977f7b03ddaa", null ]
+    [ "boss_sathrovarrAI", "d8/d01/a13016.html", "d8/d01/a13016" ],
+    [ "boss_sathrovarr", "d4/dd5/a13012.html#a3ca320e73d9d56a426cc5b3a6942d29f", null ],
+    [ "GetAI", "d4/dd5/a13012.html#a28cd02e568053ed6f15c0b0df3c427cf", null ]
 ];

@@ -1,6 +1,7 @@
 var a19468 =
 [
-    [ "CalculateDamage", "d1/d8c/a19468.html#a0a92fa8b689c020193ccc8cd37be3afb", null ],
-    [ "PrepareSpellScript", "d1/d8c/a19468.html#a29e4639053fda5488848b47b9c2b35bc", null ],
-    [ "Register", "d1/d8c/a19468.html#a888add31d80ebf8bbeb54ace2dff7f96", null ]
+    [ "OnApply", "d1/d8c/a19468.html#aa2e15be162bb929820b2cb34296653c1", null ],
+    [ "OnRemove", "d1/d8c/a19468.html#a0e2cd4e85e1a30635c68cf35a1596195", null ],
+    [ "PrepareAuraScript", "d1/d8c/a19468.html#afc8deb180453a5b83bd05de2d4297fcc", null ],
+    [ "Register", "d1/d8c/a19468.html#a8354c5d9618a3d107076d6f7e8130d2d", null ]
 ];

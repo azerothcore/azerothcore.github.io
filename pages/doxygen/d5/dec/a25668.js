@@ -1,7 +1,8 @@
 var a25668 =
 [
-    [ "HandleScript", "d5/dec/a25668.html#a5b35bbac405dc2b03f195cb29786d5a6", null ],
-    [ "Load", "d5/dec/a25668.html#a61f1a4514e9900e4e14fded3c0b05593", null ],
-    [ "PrepareSpellScript", "d5/dec/a25668.html#abfac1629b7724a3b17b94480c31867af", null ],
-    [ "Register", "d5/dec/a25668.html#a62b9c194106e261245496441176c8d53", null ]
+    [ "boss_laj", "d5/dec/a25668.html#a3c9323ab4b5530504588ea62aed2edff", null ],
+    [ "JustEngagedWith", "d5/dec/a25668.html#a443c395baff4b7ea91046615bce82d60", null ],
+    [ "Reset", "d5/dec/a25668.html#ace690a0662376addaa40093f3f119c31", null ],
+    [ "_lastTransform", "d5/dec/a25668.html#a097eacaaf77a09bec087530bad587b11", null ],
+    [ "_transformContainer", "d5/dec/a25668.html#ac686effcc2c1751e173daa7d921b50a1", null ]
 ];

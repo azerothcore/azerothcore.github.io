@@ -1,12 +1,9 @@
 var a08736 =
 [
-    [ "IsTeamAward1", "df/d70/a08736.html#a25f928a8f8c3a19b1aa9a5c41b0ba612", null ],
-    [ "IsTeamAward2", "df/d70/a08736.html#a053bd7825d0464ac322b449f3d243722", null ],
-    [ "RepFaction1", "df/d70/a08736.html#a4e75bb4149f8bb0b83a5aacba47800dd", null ],
-    [ "RepFaction2", "df/d70/a08736.html#a5934590811c666d06b68216428574d8a", null ],
-    [ "ReputationMaxCap1", "df/d70/a08736.html#a292b78f629723c3993a796eb256dd9b8", null ],
-    [ "ReputationMaxCap2", "df/d70/a08736.html#ac90d17e82d6c8a763d3ea868250b44a7", null ],
-    [ "RepValue1", "df/d70/a08736.html#a4c5f965e028c45d6ad4d5875f76b2458", null ],
-    [ "RepValue2", "df/d70/a08736.html#a74f46afc59593d7ae71ab65aa9e1f1c2", null ],
-    [ "TeamDependent", "df/d70/a08736.html#a66e60a90f166e5fc12ea4dbe615c998f", null ]
+    [ "AnyFriendlyUnitInObjectRangeCheck", "df/d70/a08736.html#a4ed3a469f35cb7b64ad5f144281b7910", null ],
+    [ "operator()", "df/d70/a08736.html#a6e1026191fd4b1b45696a60f45b1b7b8", null ],
+    [ "i_funit", "df/d70/a08736.html#a9ebd1a1d9716dfda55509396947c1a83", null ],
+    [ "i_obj", "df/d70/a08736.html#adacade7450b0af19540ea705e1bd438b", null ],
+    [ "i_playerOnly", "df/d70/a08736.html#a6b0d852333ee74a20281ce7de5a45b98", null ],
+    [ "i_range", "df/d70/a08736.html#a2af638499152888a698b0fc1570e46ed", null ]
 ];

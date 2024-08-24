@@ -1,9 +1,16 @@
 var a09060 =
 [
-    [ "NearestAssistCreatureInCreatureRangeCheck", "d4/df7/a09060.html#ac9e380add6c9df4afc707007528c7434", null ],
-    [ "NearestAssistCreatureInCreatureRangeCheck", "d4/df7/a09060.html#aa26e19df606a366147e1db4fd1aa6eac", null ],
-    [ "operator()", "d4/df7/a09060.html#a9a085d16b30849537441f809052ac196", null ],
-    [ "i_enemy", "d4/df7/a09060.html#a0ba09da942c48e523c278cff0e0a4139", null ],
-    [ "i_obj", "d4/df7/a09060.html#a905ea6b07b97ed23de4f4cf9946642af", null ],
-    [ "i_range", "d4/df7/a09060.html#ab82a4b97ebb2bef047ae85404b0e3da0", null ]
+    [ "StoredLootItem", "d4/df7/a09060.html#a32da4030f3e58b7fae5001511c6caa40", null ],
+    [ "conditionLootId", "d4/df7/a09060.html#a9be27c3407923df6b15bef993dd58830", null ],
+    [ "count", "d4/df7/a09060.html#a25c63cc5a94ecc3bf803e83be5aabc39", null ],
+    [ "follow_loot_rules", "d4/df7/a09060.html#ac945688a64f92c40ada1abd5847d9b0d", null ],
+    [ "freeforall", "d4/df7/a09060.html#a41a3c4caf90fc8c42d2e0e5192201d19", null ],
+    [ "is_blocked", "d4/df7/a09060.html#a895cc61dd542959c3726dbc54abf7434", null ],
+    [ "is_counted", "d4/df7/a09060.html#a801a125a5035167f3f511560a29808c4", null ],
+    [ "is_underthreshold", "d4/df7/a09060.html#ae11badaeeccbb3af7f150d4ca55347a3", null ],
+    [ "itemid", "d4/df7/a09060.html#afac1addff36f4cd08626ac7ae1ce0cff", null ],
+    [ "itemIndex", "d4/df7/a09060.html#a076564a43a586c6b6d17cd64fca8e9fb", null ],
+    [ "needs_quest", "d4/df7/a09060.html#ae7530d417ac10c5766fc25664b427d50", null ],
+    [ "randomPropertyId", "d4/df7/a09060.html#a12e1cb9403cc4f6ceb770c8cf50a1d17", null ],
+    [ "randomSuffix", "d4/df7/a09060.html#a2588c810dcd51a5c0c6558b99493602b", null ]
 ];

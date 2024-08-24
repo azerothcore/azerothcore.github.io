@@ -1,6 +1,6 @@
 var a24820 =
 [
-    [ "CalculateAmount", "df/d6e/a24820.html#a9e54ae3e90ee8bf0fab966a497f761b3", null ],
-    [ "PrepareAuraScript", "df/d6e/a24820.html#a51f9c0f92100c02e1fe7d127fecd902f", null ],
-    [ "Register", "df/d6e/a24820.html#a5c89e7e53a7f41665ff25d57df8f7afb", null ]
+    [ "instance_black_temple_InstanceMapScript", "d7/d73/a24824.html", "d7/d73/a24824" ],
+    [ "instance_black_temple", "df/d6e/a24820.html#a2efd6c7fff15c8fd03652ef9a65088eb", null ],
+    [ "GetInstanceScript", "df/d6e/a24820.html#a947a1279eabde75d9884b1ef84b295a3", null ]
 ];

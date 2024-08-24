@@ -1,6 +1,6 @@
 var a10228 =
 [
-    [ "QueryGuildInfo", "d5/d82/a10228.html#a34b129b3c9fef61aa4211a9bc2783aef", null ],
-    [ "Read", "d5/d82/a10228.html#a0396a58ca114706f7de91f51c5ab949d", null ],
-    [ "GuildId", "d5/d82/a10228.html#ad221eecdb16233251306fff3d9801f38", null ]
+    [ "InvalidStringValueException", "d5/d82/a10228.html#a4b5442d97f2bc8005cb20eefa6c13dc8", null ],
+    [ "GetInvalidValue", "d5/d82/a10228.html#a5ef59243610de6d0a9db22ddb9cd7bdd", null ],
+    [ "_value", "d5/d82/a10228.html#a8a8c86a63c34789ab7cce999455eb4bb", null ]
 ];

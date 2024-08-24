@@ -1,13 +1,9 @@
 var a08872 =
 [
-    [ "WorldObjectWorker", "d7/d5c/a08872.html#a15dd68579f1a92f015cfac8577db7422", null ],
-    [ "Visit", "d7/d5c/a08872.html#ae264461e49602fd0b8a17e30ed554c64", null ],
-    [ "Visit", "d7/d5c/a08872.html#a3021825347d132f1368a77d29a8318df", null ],
-    [ "Visit", "d7/d5c/a08872.html#a7b7869c7d151e8abc924f517ecfdef82", null ],
-    [ "Visit", "d7/d5c/a08872.html#a7de6ea339a8113d242dd099ca4d36927", null ],
-    [ "Visit", "d7/d5c/a08872.html#a29196fa36ce32a0cec68d0d67372a400", null ],
-    [ "Visit", "d7/d5c/a08872.html#a17097541c49264c15ebfe474f54aeca2", null ],
-    [ "i_do", "d7/d5c/a08872.html#aa16ce8cce21d4590ef6612e14fb48919", null ],
-    [ "i_mapTypeMask", "d7/d5c/a08872.html#a6f8e447b9693154f56ce010869acadb9", null ],
-    [ "i_phaseMask", "d7/d5c/a08872.html#affa6245985c5d271900be12104ab6bb6", null ]
+    [ "WorldPacketList", "d7/d5c/a08872.html#a27bf64080270086d6dbc752f8d96ec4c", null ],
+    [ "LocalizedPacketListDo", "d7/d5c/a08872.html#ab52133e238752f725f18580018a84cd2", null ],
+    [ "~LocalizedPacketListDo", "d7/d5c/a08872.html#a8442452027bcb5c98d60830e016803b5", null ],
+    [ "operator()", "d7/d5c/a08872.html#adea9610e36d436563ba1f472481aed85", null ],
+    [ "i_builder", "d7/d5c/a08872.html#a83bda52b10d30f7fd633c285b79e740b", null ],
+    [ "i_data_cache", "d7/d5c/a08872.html#ae2ec6175868c4c82274ce7a623a954a3", null ]
 ];

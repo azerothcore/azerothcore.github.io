@@ -1,8 +1,6 @@
 var a19228 =
 [
-    [ "npc_crystal_spikeAI", "d2/ddc/a19228.html#ac30dc3941c92fa0cda6639864f803a55", null ],
-    [ "Reset", "d2/ddc/a19228.html#ad8889e7a77daba18e3e5506855988537", null ],
-    [ "UpdateAI", "d2/ddc/a19228.html#a158ca019d06e045358ba305bd6e20bc1", null ],
-    [ "_damageTimer", "d2/ddc/a19228.html#a0bbd82d1c92be0ac595d1ab9704b6162", null ],
-    [ "_gameObjectGUID", "d2/ddc/a19228.html#acdeacf285b083f4c802295d8d0583ed7", null ]
+    [ "npc_spirit_wardenAI", "d3/dbf/a19232.html", "d3/dbf/a19232" ],
+    [ "npc_spirit_warden", "d2/ddc/a19228.html#ab585d20eadb7876752d731702db44293", null ],
+    [ "GetAI", "d2/ddc/a19228.html#ab33ab494d7fee64eed7c75464ce60489", null ]
 ];

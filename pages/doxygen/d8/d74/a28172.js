@@ -1,7 +1,7 @@
 var a28172 =
 [
-    [ "EpicPropertiesPoints", "d8/d74/a28172.html#a35dc60a15091357e03032226621340f7", null ],
-    [ "itemLevel", "d8/d74/a28172.html#a35506e3235c2c24230058dc2fb9abc4f", null ],
-    [ "RarePropertiesPoints", "d8/d74/a28172.html#a9359171635ef3e9a0029820fad286368", null ],
-    [ "UncommonPropertiesPoints", "d8/d74/a28172.html#a74acb6861a84d5d193038eaa5ac9b12f", null ]
+    [ "CalculateAmount", "d8/d74/a28172.html#a5d4549ac73b46382c1beddbb65257ad0", null ],
+    [ "HandleUpdateSpellclick", "d8/d74/a28172.html#a89956d7f3a6404d5b60e46034867c82c", null ],
+    [ "PrepareAuraScript", "d8/d74/a28172.html#a7cbdc79c63306a8fcfcc06180998a290", null ],
+    [ "Register", "d8/d74/a28172.html#a2252719e6ea995b85b7b0c5ecb6a26d3", null ]
 ];

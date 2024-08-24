@@ -1,17 +1,7 @@
 var a15644 =
 [
-    [ "boss_volazj", "da/db5/a15644.html#ac1f0bc7b55a554d29e55a376680bf747", null ],
-    [ "CheckPhaseMinions", "da/db5/a15644.html#aa79bf97b6772956795bd2f16b85e061f", null ],
-    [ "DamageTaken", "da/db5/a15644.html#a494d78875526d878421b995145b74a12", null ],
-    [ "GetPlrInsanityAuraId", "da/db5/a15644.html#a5b6936cedb3fc411ae58f3dc3f6b689a", null ],
-    [ "InitializeAI", "da/db5/a15644.html#a9480c4294b18c5417895e5070be9a455", null ],
-    [ "JustDied", "da/db5/a15644.html#a6c85c56c2483c3e8b4de67b94a45e0a6", null ],
-    [ "JustEngagedWith", "da/db5/a15644.html#a135c5606742474e77ffd0ee0a3c3ee69", null ],
-    [ "KilledUnit", "da/db5/a15644.html#abdf2cb95f0d3d7756584c338f2e2db25", null ],
-    [ "Reset", "da/db5/a15644.html#a0377375b89b02db3cae01390fdd13ee2", null ],
-    [ "ResetPlayersPhaseMask", "da/db5/a15644.html#afbfa62f2b72a95434348f74fdda46da6", null ],
-    [ "SetData", "da/db5/a15644.html#aa8b5ae6214f0c764f15b096876d614d7", null ],
-    [ "UpdateAI", "da/db5/a15644.html#aceac85fb06c81ccd171b024ad0d57ffe", null ],
-    [ "insanityPhase", "da/db5/a15644.html#ae90de1e956eb3653c8c2f0c04d89585b", null ],
-    [ "insanityTimes", "da/db5/a15644.html#a7d2693147f9cb20a45ff2e5b6a2ca209", null ]
+    [ "DelayedWindstoneSummonEvent", "da/db5/a15644.html#aa97daf8cf3479395ffd6558b6699436a", null ],
+    [ "Execute", "da/db5/a15644.html#aa413bc8709bc543b89ffb3df42185475", null ],
+    [ "_playerGUID", "da/db5/a15644.html#ad83bb6d87b569f59e99abcc16517745b", null ],
+    [ "_summon", "da/db5/a15644.html#af9804d276da5daebab3a37f2c75301ea", null ]
 ];

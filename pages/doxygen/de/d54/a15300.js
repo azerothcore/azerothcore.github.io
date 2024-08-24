@@ -1,5 +1,6 @@
 var a15300 =
 [
-    [ "at_ancient_leaf", "de/d54/a15300.html#a7c1913b5ac00659697d0b361f1a7a2fd", null ],
-    [ "OnTrigger", "de/d54/a15300.html#a6d3a2775216cb0c864dc21f5bb5dbc79", null ]
+    [ "npc_muglashAI", "dc/d2b/a15304.html", "dc/d2b/a15304" ],
+    [ "npc_muglash", "de/d54/a15300.html#a5df1b1cff0acf8be4db77b66f8a0b5f4", null ],
+    [ "GetAI", "de/d54/a15300.html#a7cfeaf756de85b1bd2fff9163e4bd5e3", null ]
 ];

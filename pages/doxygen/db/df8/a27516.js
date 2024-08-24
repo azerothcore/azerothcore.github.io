@@ -1,6 +1,7 @@
 var a27516 =
 [
-    [ "npc_steam_tonkAI", "d4/d2f/a27520.html", "d4/d2f/a27520" ],
-    [ "npc_steam_tonk", "db/df8/a27516.html#a19731e7f1bc6fe0220e8c28619ff7c50", null ],
-    [ "GetAI", "db/df8/a27516.html#a38e51485a3610a204a45677fce15c943", null ]
+    [ "CalcPeriodic", "db/df8/a27516.html#a5847ba4daad49dca2527513055fa4429", null ],
+    [ "PrepareAuraScript", "db/df8/a27516.html#a8753419b2fa1b1bb96a08bf54995e82c", null ],
+    [ "Register", "db/df8/a27516.html#a08f851e5582831d5dd05878c4a55db67", null ],
+    [ "Update", "db/df8/a27516.html#a3ab2716cbccc1311992de44e6591d966", null ]
 ];

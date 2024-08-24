@@ -1,6 +1,6 @@
 var a21916 =
 [
-    [ "npc_rocket_propelled_warheadAI", "d7/d0b/a21920.html", "d7/d0b/a21920" ],
-    [ "npc_rocket_propelled_warhead", "d0/d8c/a21916.html#a5c945efc6e3ca847363ac47abc5f51ca", null ],
-    [ "GetAI", "d0/d8c/a21916.html#a803702c480107d197845a0ef447a5380", null ]
+    [ "boss_thorim_trapAI", "d7/d0b/a21920.html", "d7/d0b/a21920" ],
+    [ "boss_thorim_trap", "d0/d8c/a21916.html#af529112badd88f9ebe4cec216d9edaeb", null ],
+    [ "GetAI", "d0/d8c/a21916.html#afd4ee85d73354b790c0d55abbfad75fd", null ]
 ];

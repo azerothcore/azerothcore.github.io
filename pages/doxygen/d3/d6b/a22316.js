@@ -1,6 +1,6 @@
 var a22316 =
 [
-    [ "go_wg_vehicle_teleporterAI", "d9/d41/a22320.html", "d9/d41/a22320" ],
-    [ "go_wg_vehicle_teleporter", "d3/d6b/a22316.html#a074ead770a3da6e9ffa4180a3525f4c8", null ],
-    [ "GetAI", "d3/d6b/a22316.html#a113aaf42c095000c1a016bfe60df11e7", null ]
+    [ "spell_yogg_saron_insane_periodic_trigger_SpellScript", "d9/d41/a22320.html", "d9/d41/a22320" ],
+    [ "spell_yogg_saron_insane_periodic_trigger", "d3/d6b/a22316.html#aba43c27ed8507069e3b8504d1c24fd83", null ],
+    [ "GetSpellScript", "d3/d6b/a22316.html#a76032d7dbaf107e43d978c8bddbf0414", null ]
 ];

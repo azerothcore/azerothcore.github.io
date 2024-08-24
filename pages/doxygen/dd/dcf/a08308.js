@@ -1,9 +1,8 @@
 var a08308 =
 [
-    [ "areaFlag", "dd/dcf/a08308.html#ac6244004ed093c1a3d83749cbc20bfe9", null ],
-    [ "areaID", "dd/dcf/a08308.html#a455a890a1d82d31873873ac497cb83b7", null ],
-    [ "x1", "dd/dcf/a08308.html#a7624a89c7eac16955dbebb47f0c721d6", null ],
-    [ "x2", "dd/dcf/a08308.html#aebdb021c0b9c40d624d5115b24616a12", null ],
-    [ "y1", "dd/dcf/a08308.html#a04a84fe41ba2bc9996eb0bd70248222a", null ],
-    [ "y2", "dd/dcf/a08308.html#a84f612cf6d1905e948c7c9a6cb870e31", null ]
+    [ "TempSummonGroupKey", "dd/dcf/a08308.html#ae1bd752c8fc7d037d6942b32859ce1ad", null ],
+    [ "operator<", "dd/dcf/a08308.html#ae92c7712bd58b9b773ddaac3d2b8a345", null ],
+    [ "_summonerEntry", "dd/dcf/a08308.html#a0ecac0e82ce63c9e64f2e17d941df447", null ],
+    [ "_summonerType", "dd/dcf/a08308.html#ac6bf8fb36092134f63409f3cddc5f810", null ],
+    [ "_summonGroup", "dd/dcf/a08308.html#a1a90f3bf90363f88828cc217dd7ceda6", null ]
 ];

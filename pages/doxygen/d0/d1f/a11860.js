@@ -1,7 +1,8 @@
 var a11860 =
 [
-    [ "go_suppression_deviceAI", "d5/d16/a11864.html", "d5/d16/a11864" ],
-    [ "go_suppression_device", "d0/d1f/a11860.html#a900713d6b029015f8868a96e5e1b9018", null ],
-    [ "GetAI", "d0/d1f/a11860.html#aa51bb6f9616022c1f4e1e711ca1130e8", null ],
-    [ "OnLootStateChanged", "d0/d1f/a11860.html#a684546c3ce0c0785d52a87eb011ef313", null ]
+    [ "boss_majordomoAI", "d5/d16/a11864.html", "d5/d16/a11864" ],
+    [ "boss_majordomo", "d0/d1f/a11860.html#a77a1ff3d2c7aafecad9f78fcd87536b1", null ],
+    [ "GetAI", "d0/d1f/a11860.html#aceae0dc662e93bf68556073e8b324964", null ],
+    [ "OnGossipHello", "d0/d1f/a11860.html#a8d1b625df61b27fef0bfe6f635a3b7ae", null ],
+    [ "OnGossipSelect", "d0/d1f/a11860.html#a69c2c5fc557b02c9a0b26bdb7b57443c", null ]
 ];

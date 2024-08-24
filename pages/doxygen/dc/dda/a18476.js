@@ -1,6 +1,6 @@
 var a18476 =
 [
-    [ "boss_sister_svalnaAI", "df/d30/a18480.html", "df/d30/a18480" ],
-    [ "boss_sister_svalna", "dc/dda/a18476.html#a233a9606db61f6ab945350e98a0929ff", null ],
-    [ "GetAI", "dc/dda/a18476.html#a5eb89badd75104dfe1dc3e03d372adc0", null ]
+    [ "HandleScript", "dc/dda/a18476.html#a124d6cce3e397f595b5395072e7802af", null ],
+    [ "PrepareSpellScript", "dc/dda/a18476.html#a2fef07b621cd2836d1efbdf482bff2ae", null ],
+    [ "Register", "dc/dda/a18476.html#a9c0572be514a455cfd4780ce06062642", null ]
 ];

@@ -1,12 +1,8 @@
 var a12648 =
 [
-    [ "npc_high_inquisitor_valrothAI", "d0/d41/a12648.html#afd15d7c3b64c9c84094234b1c369c6d6", null ],
-    [ "JustDied", "d0/d41/a12648.html#ac8f4f8594bbd5d984a330d52ef2fde74", null ],
-    [ "JustEngagedWith", "d0/d41/a12648.html#a9cf989be7062743685b2357309889585", null ],
-    [ "Reset", "d0/d41/a12648.html#a833adc603d6d0b2eb03ea34b925f88b0", null ],
-    [ "Shout", "d0/d41/a12648.html#aa80f070da5ad92297a5f5b7b6983085c", null ],
-    [ "UpdateAI", "d0/d41/a12648.html#abe6becc3a10e0195bd75bf1de2d6bcc6", null ],
-    [ "uiInquisitor_Penance_timer", "d0/d41/a12648.html#a765ef78cf5c30b1c46da303f4bbeb4d9", null ],
-    [ "uiRenew_timer", "d0/d41/a12648.html#a1fe70428102a0319031179c97f02cbab", null ],
-    [ "uiValroth_Smite_timer", "d0/d41/a12648.html#a527628708354414caea85b6bec3d0f1d", null ]
+    [ "npc_fairbanksAI", "d9/df0/a12652.html", "d9/df0/a12652" ],
+    [ "npc_fairbanks", "d0/d41/a12648.html#a7f4740bb99ce2ccc059bcb5b02057082", null ],
+    [ "GetAI", "d0/d41/a12648.html#a58f4c8c8ca0a2d9696bf443aeeb00f95", null ],
+    [ "OnGossipHello", "d0/d41/a12648.html#ab1af3dcfbffa2ef2e80af113b56c0a33", null ],
+    [ "OnGossipSelect", "d0/d41/a12648.html#a9dd78fd12450d0a74a6aa759f95c883e", null ]
 ];

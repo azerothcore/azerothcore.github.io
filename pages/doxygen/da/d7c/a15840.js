@@ -1,7 +1,6 @@
 var a15840 =
 [
-    [ "DelayedTalk", "da/d7c/a15840.html#a8a7ea9e6ddebd73996cfe8d9723276bc", null ],
-    [ "Execute", "da/d7c/a15840.html#a88c1915e73bcbd8ec253a537c416caf7", null ],
-    [ "_owner", "da/d7c/a15840.html#a9d13769bb3fbaed32919fc919da35006", null ],
-    [ "_talkId", "da/d7c/a15840.html#a3f3a1688a36807c653a5d071dd2bb389", null ]
+    [ "HandleOpenLock", "da/d7c/a15840.html#a73bf3c8126ffe231bf57c6a28e63fef8", null ],
+    [ "PrepareSpellScript", "da/d7c/a15840.html#a429cfa446af037b330ccaf2ef56c5f64", null ],
+    [ "Register", "da/d7c/a15840.html#a3719e9a8993a93e60e080548f7ad7cf6", null ]
 ];

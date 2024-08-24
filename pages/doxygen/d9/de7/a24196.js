@@ -1,9 +1,6 @@
 var a24196 =
 [
-    [ "npc_korkron_or_wildhammer", "d9/de7/a24196.html#a3d2252865e0e540dd76aaf87ff62a83c", null ],
-    [ "IsSummonedBy", "d9/de7/a24196.html#aa63e935c2d64716f22f4e74e43e6b639", null ],
-    [ "JustDied", "d9/de7/a24196.html#a2b216f372b3681b4c96a711568c2a93b", null ],
-    [ "MovementInform", "d9/de7/a24196.html#a598dada110aff99a3c36f3037dcf8bf4", null ],
-    [ "Reset", "d9/de7/a24196.html#a67d5cf4a8418ab3f07a387f1021080df", null ],
-    [ "_playerGUID", "d9/de7/a24196.html#a5f1a79c10b5363ee24b3941c54ff10d7", null ]
+    [ "boss_shirrak_the_dead_watcherAI", "d5/dff/a24200.html", "d5/dff/a24200" ],
+    [ "boss_shirrak_the_dead_watcher", "d9/de7/a24196.html#a2dd09b572d98e9389fc770fed02a7c95", null ],
+    [ "GetAI", "d9/de7/a24196.html#a4eec788e3e5405161eef5f6df46a24d0", null ]
 ];

@@ -1,11 +1,11 @@
 var a03776 =
 [
-    [ "boss_krystallus", "d2/d9e/a19448.html", "d2/d9e/a19448" ],
-    [ "boss_krystallus::boss_krystallusAI", "d3/dc4/a19452.html", "d3/dc4/a19452" ],
-    [ "spell_krystallus_shatter", "d6/d1e/a19456.html", "d6/d1e/a19456" ],
-    [ "spell_krystallus_shatter::spell_krystallus_shatter_SpellScript", "d7/d09/a19460.html", "d7/d09/a19460" ],
-    [ "spell_krystallus_shatter_effect", "da/df2/a19464.html", "da/df2/a19464" ],
-    [ "spell_krystallus_shatter_effect::spell_krystallus_shatter_effect_SpellScript", "d1/d8c/a19468.html", "d1/d8c/a19468" ],
+    [ "boss_krystallus", "da/d57/a19451.html", "da/d57/a19451" ],
+    [ "boss_krystallus::boss_krystallusAI", "dc/d39/a19455.html", "dc/d39/a19455" ],
+    [ "spell_krystallus_shatter", "da/d41/a19459.html", "da/d41/a19459" ],
+    [ "spell_krystallus_shatter::spell_krystallus_shatter_SpellScript", "d6/d18/a19463.html", "d6/d18/a19463" ],
+    [ "spell_krystallus_shatter_effect", "df/de7/a19467.html", "df/de7/a19467" ],
+    [ "spell_krystallus_shatter_effect::spell_krystallus_shatter_effect_SpellScript", "db/de5/a19471.html", "db/de5/a19471" ],
     [ "events", "df/df7/a03776.html#ad29858f6d8ab73f2970f41cb21a76b84", [
       [ "EVENT_SARTURA_WHIRLWIND", "de/d19/a03311.html#ad29858f6d8ab73f2970f41cb21a76b84ab9ca33cc16c2b82d1ff2f4361607d180", null ],
       [ "EVENT_SARTURA_WHIRLWIND_RANDOM", "de/d19/a03311.html#ad29858f6d8ab73f2970f41cb21a76b84a0963f59968bcf20bcda9da76e151f691", null ],

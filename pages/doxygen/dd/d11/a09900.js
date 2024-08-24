@@ -1,6 +1,7 @@
 var a09900 =
 [
-    [ "AchievementCriteriaScript", "dd/d11/a09900.html#a86804e8d52ebd239a85609bc1e8883ea", null ],
-    [ "IsDatabaseBound", "dd/d11/a09900.html#a2fe9a4224304d62c5c4920dbf09aab52", null ],
-    [ "OnCheck", "dd/d11/a09900.html#a9fab6f158219db6d5a65b0b302cf285e", null ]
+    [ "LogoutResponse", "dd/d11/a09900.html#a434ee19fbc4d3e336444b1c62ac2be84", null ],
+    [ "Write", "dd/d11/a09900.html#a0b08225b6ac303afd20ec213aafe4bcb", null ],
+    [ "Instant", "dd/d11/a09900.html#aad6819dc426b91b6ad43f180a53e12ef", null ],
+    [ "LogoutResult", "dd/d11/a09900.html#a5543bf1a6342e9a217cd906e4a185b2e", null ]
 ];

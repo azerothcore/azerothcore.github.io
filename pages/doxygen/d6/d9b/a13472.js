@@ -1,7 +1,9 @@
 var a13472 =
 [
-    [ "npc_jaina_proudmoore_bfuAI", "d6/d9b/a13472.html#ad5ad1d05ef8210409c700e47b5442e24", null ],
-    [ "Reset", "d6/d9b/a13472.html#a18de805428ce0954a5fbfffbf5975342", null ],
-    [ "UpdateAI", "d6/d9b/a13472.html#a48b191d0812bfe3212511a52ef0df817", null ],
-    [ "_events", "d6/d9b/a13472.html#a87e99e0b5fd0a3823b009025019b1fa4", null ]
+    [ "npc_tyrion_spybotAI", "d6/d9b/a13472.html#aedad685279012266637d29069ead9063", null ],
+    [ "Reset", "d6/d9b/a13472.html#a16f8f9fd368832aac7906c3fd8cb9698", null ],
+    [ "UpdateAI", "d6/d9b/a13472.html#ad8fc713bb9673e74bfd11bc653c71587", null ],
+    [ "WaypointReached", "d6/d9b/a13472.html#a819e987eeb8eb8d580a5ad22001a641d", null ],
+    [ "uiPhase", "d6/d9b/a13472.html#af5dbb99fe18d96665efd04bd53294636", null ],
+    [ "uiTimer", "d6/d9b/a13472.html#ab41fdff3612b29e7d0d94fb6aaa8c085", null ]
 ];

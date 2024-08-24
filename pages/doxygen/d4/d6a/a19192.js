@@ -1,5 +1,7 @@
 var a19192 =
 [
-    [ "achievement_intense_cold", "d4/d6a/a19192.html#a2377357d6bfc03e5b91354428d3da3de", null ],
-    [ "OnCheck", "d4/d6a/a19192.html#ab8a774af80a7fb1764df97c9eea57ffc", null ]
+    [ "Load", "d4/d6a/a19192.html#a2b05eb7211e6cf9274f07a91b70bb770", null ],
+    [ "OnRemove", "d4/d6a/a19192.html#a78892d673719672fdad7f64bf65d473b", null ],
+    [ "PrepareAuraScript", "d4/d6a/a19192.html#a8391353f525125772408893191d8fc81", null ],
+    [ "Register", "d4/d6a/a19192.html#a52b0bb82dd4e515584e370a46d0cfa82", null ]
 ];

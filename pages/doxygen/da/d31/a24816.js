@@ -1,6 +1,6 @@
 var a24816 =
 [
-    [ "PrepareSpellScript", "da/d31/a24816.html#a209f68c2a9824ad771f7b6a25d4c4663", null ],
-    [ "Register", "da/d31/a24816.html#a759b195d4631a371bef3e6398e128034", null ],
-    [ "SelectTarget", "da/d31/a24816.html#a676c6fdbced0ea7e945c4724c9adf145", null ]
+    [ "PrepareAuraScript", "da/d31/a24816.html#a2d15732200595a5248c1ee3d4e295fe3", null ],
+    [ "Register", "da/d31/a24816.html#af08f9e867a69e3e238805e5a78bc7267", null ],
+    [ "Update", "da/d31/a24816.html#a2de2100333d925133e3a3c1d2c65a60f", null ]
 ];

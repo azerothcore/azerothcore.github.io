@@ -1,10 +1,6 @@
 var a17052 =
 [
-    [ "boss_eckAI", "d2/def/a17052.html#a9de9ad13286c625241242a72c8c3ef2b", null ],
-    [ "InitializeAI", "d2/def/a17052.html#a37ed08383c43c53ea5a46ad8e03adb35", null ],
-    [ "JustDied", "d2/def/a17052.html#afa625b388a7495e7f83ea3149ad2020c", null ],
-    [ "JustEngagedWith", "d2/def/a17052.html#a393630157bb1b9d80a19b2da3bf0b377", null ],
-    [ "MovementInform", "d2/def/a17052.html#a4826dee262817fbdfa38bcf17f5723da", null ],
-    [ "Reset", "d2/def/a17052.html#afc33618907cb06591cc57751dfc14ca5", null ],
-    [ "UpdateAI", "d2/def/a17052.html#a697ceea1e138d484d80b39c80078de58", null ]
+    [ "spell_bronjahm_magic_bane_SpellScript", "d5/d09/a17056.html", "d5/d09/a17056" ],
+    [ "spell_bronjahm_magic_bane", "d2/def/a17052.html#a76a7fdc271c9d83bf3037e8c28cbb1c4", null ],
+    [ "GetSpellScript", "d2/def/a17052.html#a15100aed9749a1efe8ef9df8c5790b78", null ]
 ];

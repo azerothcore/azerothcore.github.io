@@ -1,6 +1,6 @@
 var a18444 =
 [
-    [ "npc_highlord_tirion_fordringAI", "d5/d57/a18448.html", "d5/d57/a18448" ],
-    [ "npc_highlord_tirion_fordring_lh", "d7/d66/a18444.html#a96102a488330c54a3e3654c767e8e1a5", null ],
-    [ "GetAI", "d7/d66/a18444.html#aea42394c04c1763cffe10eb5eba09854", null ]
+    [ "npc_gas_cloudAI", "d7/d66/a18444.html#a44e6f92ed3731beb8a36db66da9fbdef", null ],
+    [ "CastMainSpell", "d7/d66/a18444.html#a61681f6f9616fe33274302d4160c709b", null ],
+    [ "_newTargetSelectTimer", "d7/d66/a18444.html#a6989b904abaa5b71362e43664f4b084d", null ]
 ];

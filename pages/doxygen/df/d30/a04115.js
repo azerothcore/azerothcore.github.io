@@ -1,12 +1,12 @@
 var a04115 =
 [
-    [ "boss_lady_vashj", "d6/d9d/a23104.html", "d6/d9d/a23104" ],
-    [ "npc_tainted_elemental", "d0/da7/a23108.html", "d0/da7/a23108" ],
-    [ "spell_lady_vashj_magic_barrier", "d1/d2b/a23112.html", "d1/d2b/a23112" ],
-    [ "spell_lady_vashj_remove_tainted_cores", "d9/d12/a23116.html", "d9/d12/a23116" ],
-    [ "spell_lady_vashj_summon_sporebat", "df/ded/a23120.html", "df/ded/a23120" ],
-    [ "spell_lady_vashj_spore_drop_effect", "d1/d37/a23124.html", "d1/d37/a23124" ],
-    [ "spell_lady_vashj_summons", "dc/d19/a23128.html", "dc/d19/a23128" ],
+    [ "boss_lady_vashj", "d7/d72/a23107.html", "d7/d72/a23107" ],
+    [ "npc_tainted_elemental", "d7/d86/a23111.html", "d7/d86/a23111" ],
+    [ "spell_lady_vashj_magic_barrier", "d3/d96/a23115.html", "d3/d96/a23115" ],
+    [ "spell_lady_vashj_remove_tainted_cores", "de/dfd/a23119.html", "de/dfd/a23119" ],
+    [ "spell_lady_vashj_summon_sporebat", "da/dca/a23123.html", "da/dca/a23123" ],
+    [ "spell_lady_vashj_spore_drop_effect", "d4/de2/a23127.html", "d4/de2/a23127" ],
+    [ "spell_lady_vashj_summons", "d7/d1f/a23131.html", "d7/d1f/a23131" ],
     [ "Misc", "df/d30/a04115.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d2/d80/a02645.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "da/de8/a02657.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

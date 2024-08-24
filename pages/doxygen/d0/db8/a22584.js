@@ -1,8 +1,13 @@
 var a22584 =
 [
-    [ "boss_tavarok", "d0/db8/a22584.html#acf2e3ec6c28a59b205442c6ed07623af", null ],
-    [ "JustDied", "d0/db8/a22584.html#a937fc1864eab7fdf23e1be1464d9666d", null ],
-    [ "JustEngagedWith", "d0/db8/a22584.html#a64cae2439cd6e4334ced5d4ef01ef942", null ],
-    [ "KilledUnit", "d0/db8/a22584.html#a2c99df9457c548ee562fde920592ea88", null ],
-    [ "Reset", "d0/db8/a22584.html#a0bea2cc724d92616056b7c5ca2dd03c1", null ]
+    [ "npc_frenzied_worgenAI", "d0/db8/a22584.html#a3a87e1285fb40a4fe31e7e9c2916f2a8", null ],
+    [ "DoAction", "d0/db8/a22584.html#a7b7b34c2206cd1003c2abff3fb839c34", null ],
+    [ "JustDied", "d0/db8/a22584.html#a33b723baef468ef79e67aaadba1b2691", null ],
+    [ "JustEngagedWith", "d0/db8/a22584.html#a902bb6f89a2a210f2e0d18ebad7613f9", null ],
+    [ "JustReachedHome", "d0/db8/a22584.html#a9b50182cd407811d0f0aeeba378a37ee", null ],
+    [ "MoveInLineOfSight", "d0/db8/a22584.html#a3c2b76ccb6e00a24619f769f0d44ba2b", null ],
+    [ "Reset", "d0/db8/a22584.html#adccac21b6eff18db096eb79dab4a27a0", null ],
+    [ "UpdateAI", "d0/db8/a22584.html#ad83478b5946fd93e1b4fe7916342b1ee", null ],
+    [ "events", "d0/db8/a22584.html#a8619650ae4396aafbdc1533f8b174ab8", null ],
+    [ "m_pInstance", "d0/db8/a22584.html#a425720ce11714b145685f6d9c78a3dc1", null ]
 ];

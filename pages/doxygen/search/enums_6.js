@@ -52,7 +52,7 @@ var searchData=
   ['gosummontype_49',['GOSummonType',['../d1/d34/a01211.html#a3f5846dbc17f13c4c2b88a15593bbfba',1,'Object.h']]],
   ['gravitybomb_50',['GravityBomb',['../d5/de2/a03830.html#a313727b7ebcfa13720d82fc58da6c8b5',1,'boss_xt002.cpp']]],
   ['greatmotherssoulcather_51',['GreatmothersSoulcather',['../d4/d61/a04406.html#a788e0d41070e3be21e51ba780dac2712',1,'spell_item.cpp']]],
-  ['grid_52',['Grid',['../d1/d64/a04675.html#a6ddcf7a168396ad1ecedfc4e5fe04c09',1,'MMAP']]],
+  ['grid_52',['Grid',['../d5/d2c/a04678.html#a6ddcf7a168396ad1ecedfc4e5fe04c09',1,'MMAP']]],
   ['gridmaptypemask_53',['GridMapTypeMask',['../dc/dbc/a01391.html#ab566123309f520dd2c1cc7388816c0f1',1,'GridDefines.h']]],
   ['grimstonetexts_54',['GrimstoneTexts',['../d1/d23/a02603.html#a0c9ac53db659fd636b9dc88ea37a3954',1,'blackrock_depths.cpp']]],
   ['grizzle_55',['Grizzle',['../dc/d34/a02627.html#acfff5d4b983e4db1d5efb6bd5da7e7aa',1,'boss_grizzle.cpp']]],

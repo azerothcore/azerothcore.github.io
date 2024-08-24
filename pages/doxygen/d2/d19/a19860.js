@@ -1,8 +1,6 @@
 var a19860 =
 [
-    [ "FilterTargets", "d2/d19/a19860.html#a93b41db0e89710c6e0e3c764d51d37ad", null ],
-    [ "HandleScript", "d2/d19/a19860.html#a0c7d9007a9401b96a3c1f8614dc1a2db", null ],
-    [ "PrepareSpellScript", "d2/d19/a19860.html#aea46762f43b31923617f740e0545fe98", null ],
-    [ "Register", "d2/d19/a19860.html#a6ccde780ea9fba273b96d6fd9558a2d1", null ],
-    [ "Validate", "d2/d19/a19860.html#af526a7a7a82ec7621f8842e884d7b14f", null ]
+    [ "RespawnEvent", "d2/d19/a19860.html#accc0d5638ff7a493fa116ac2e8f2e58b", null ],
+    [ "Execute", "d2/d19/a19860.html#a2e58f4e472fb72cf5401f11be6e5e136", null ],
+    [ "_owner", "d2/d19/a19860.html#adb0835b4a2e7a2795bb81f0a1e3c911a", null ]
 ];

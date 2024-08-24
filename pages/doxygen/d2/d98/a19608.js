@@ -1,6 +1,6 @@
 var a19608 =
 [
-    [ "go_celestial_planetarium_accessAI", "dd/d3f/a19612.html", "dd/d3f/a19612" ],
-    [ "go_celestial_planetarium_access", "d2/d98/a19608.html#a20b7c895dd0fc2cb37bf3c113bf91278", null ],
-    [ "GetAI", "d2/d98/a19608.html#a4fc9ac64f7dceefbdda02297f7dfc42b", null ]
+    [ "spell_icc_geist_alarm_SpellScript", "dd/d3f/a19612.html", "dd/d3f/a19612" ],
+    [ "spell_icc_geist_alarm", "d2/d98/a19608.html#ad82b3d7baa02b01f53815083351a4767", null ],
+    [ "GetSpellScript", "d2/d98/a19608.html#af9d0263b31b6c711de87593911e9d6b3", null ]
 ];

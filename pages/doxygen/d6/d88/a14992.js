@@ -1,15 +1,14 @@
 var a14992 =
 [
-    [ "boss_skeram", "d6/d88/a14992.html#a293710a88c91a181ee1000939386e176", null ],
-    [ "DoTeleport", "d6/d88/a14992.html#a96166ddebd5906868b872c39a6755a70", null ],
-    [ "EnterEvadeMode", "d6/d88/a14992.html#ab050e31d661c8c089d175de231b0eeb2", null ],
-    [ "JustDied", "d6/d88/a14992.html#a6b30a6ca5167aae41ad70bd502265d2b", null ],
-    [ "JustEngagedWith", "d6/d88/a14992.html#a07bba9a1a62ad9ad15b9cd42b5d5b3d3", null ],
-    [ "JustSummoned", "d6/d88/a14992.html#a3e3d74bc646a96e20a88d3541f806c62", null ],
-    [ "KilledUnit", "d6/d88/a14992.html#a185cb6686d37e064278260ebe5fae13a", null ],
-    [ "Reset", "d6/d88/a14992.html#a08c9c2c577ef4b713594ca67f4c87a68", null ],
-    [ "UpdateAI", "d6/d88/a14992.html#aaf29331e0fac71479747d62fd9f1e301", null ],
-    [ "_copiesGUIDs", "d6/d88/a14992.html#a28f1465938dc2141779d5171ea09ecd0", null ],
-    [ "_flag", "d6/d88/a14992.html#a0abcf1e8721aa972be70774d5be7b53b", null ],
-    [ "_hpct", "d6/d88/a14992.html#a5c8760788264a9a04a28c05a0247676c", null ]
+    [ "boss_buru", "d6/d88/a14992.html#a586dfec9d3b0cb9497e616afb1c0b86d", null ],
+    [ "ChaseNewVictim", "d6/d88/a14992.html#a177ec0ac9dcfbd9de51088bf50c5785c", null ],
+    [ "DamageTaken", "d6/d88/a14992.html#a5ec0141994aac2b8e1fdce12b30c13b0", null ],
+    [ "EnterEvadeMode", "d6/d88/a14992.html#aa534cca1e46299e8db917cc8aa5d5b51", null ],
+    [ "JustDied", "d6/d88/a14992.html#a6d8f3265dca889bc49e747471da8597f", null ],
+    [ "JustEngagedWith", "d6/d88/a14992.html#a61eeeb3eb1684943e94367a9318b3035", null ],
+    [ "KilledUnit", "d6/d88/a14992.html#a7c780a29ea9f7b3d2f72eaa11bf7e19c", null ],
+    [ "ManipulateEggs", "d6/d88/a14992.html#a4f8a92eab729c975443579560edb03a3", null ],
+    [ "SpellHit", "d6/d88/a14992.html#ac3bc641c6bb67e585541c4e5d93dd7fa", null ],
+    [ "UpdateAI", "d6/d88/a14992.html#af65d0026b2ea78edb6d48e3c48b6b37b", null ],
+    [ "_phase", "d6/d88/a14992.html#aa395967af50f2a422bf1e81a087efc43", null ]
 ];

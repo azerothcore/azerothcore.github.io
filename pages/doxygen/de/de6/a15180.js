@@ -1,7 +1,7 @@
 var a15180 =
 [
-    [ "HandleEffectRemove", "de/de6/a15180.html#aa07e0bdaac9cad239bae1b24d16b433c", null ],
-    [ "PrepareAuraScript", "de/de6/a15180.html#a8ab8433afb22bbca79e028e8f082da2b", null ],
-    [ "Register", "de/de6/a15180.html#a2ee3afd6fdcb0991e419396ed65e6d4a", null ],
-    [ "AuraEffectHandleModes", "de/de6/a15180.html#af8a46c99290ce700e765c7ad5e8c866c", null ]
+    [ "npc_sartura_royal_guard", "de/de6/a15180.html#a3ce2aeec4e5f26916ef50bdeea624c9d", null ],
+    [ "JustEngagedWith", "de/de6/a15180.html#a0b162e1fcc925f65fedbfe235b59eb0e", null ],
+    [ "Reset", "de/de6/a15180.html#a2b604aada12ca7f3e712cdbd1a3f397a", null ],
+    [ "UpdateAI", "de/de6/a15180.html#a2ed50f65847133c897facecbaa4711d8", null ]
 ];

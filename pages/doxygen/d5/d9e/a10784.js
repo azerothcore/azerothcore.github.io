@@ -1,10 +1,13 @@
 var a10784 =
 [
-    [ "SpellValue", "d5/d9e/a10784.html#a2aebedc86822634a0a80de7a4c16dd7f", null ],
-    [ "AuraDuration", "d5/d9e/a10784.html#af44c190ba8a8636d78f8d271656bdd02", null ],
-    [ "AuraStackAmount", "d5/d9e/a10784.html#af9d7a902bd7d6a24f2ef9480e725d8e8", null ],
-    [ "EffectBasePoints", "d5/d9e/a10784.html#a4de44adea4dc620f0871215e4d4f611d", null ],
-    [ "ForcedCritResult", "d5/d9e/a10784.html#a14f0fd1b3351297e5c71e34e0c9a44fb", null ],
-    [ "MaxAffectedTargets", "d5/d9e/a10784.html#a69ea555bb8ae6642a0c9c85b3f9b373c", null ],
-    [ "RadiusMod", "d5/d9e/a10784.html#a135bbce8300101411e87a70467dbbd57", null ]
+    [ "PlayerTextBuilder", "d5/d9e/a10784.html#a0740c581636009448fe2c29084db41ae", null ],
+    [ "operator()", "d5/d9e/a10784.html#aaa9ab36016f0dd7d0e4c4aa0cb94c01a", null ],
+    [ "_gender", "d5/d9e/a10784.html#aece205d3d523dcf6fefbdd9914943723", null ],
+    [ "_language", "d5/d9e/a10784.html#a934d4a519c2c7b4017805b3bc24a4714", null ],
+    [ "_msgType", "d5/d9e/a10784.html#af546f2788870b8b10b3405695ef81171", null ],
+    [ "_source", "d5/d9e/a10784.html#a9fe9f865b0ba84b5497e63947893533e", null ],
+    [ "_talker", "d5/d9e/a10784.html#a8a8cd00cc76e048500800938a773aa06", null ],
+    [ "_target", "d5/d9e/a10784.html#ac97cf187d079c5162e47bebb7024faa5", null ],
+    [ "_textGroup", "d5/d9e/a10784.html#ab44fe12e73da36acb1199987e8573467", null ],
+    [ "_textId", "d5/d9e/a10784.html#a17b33a9a05a77722219a85a71f3bbc5e", null ]
 ];

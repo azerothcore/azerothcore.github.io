@@ -1,7 +1,8 @@
 var a16544 =
 [
-    [ "HandleScript", "dd/d0e/a16544.html#a927cc2ab0e5bba58a2b49e3e4e52ebaa", null ],
-    [ "PrepareSpellScript", "dd/d0e/a16544.html#a71b28156c628aacbc6cb481038c0e76c", null ],
-    [ "Register", "dd/d0e/a16544.html#a6f036bb2d42f248e0c252158a5ecedf1", null ],
-    [ "Validate", "dd/d0e/a16544.html#a7c8a5a7c47bd7a9624028f92b1d9cf9c", null ]
+    [ "npc_frost_sphereAI", "dd/d0e/a16544.html#ae697a98d23d94315768dc866852b6e07", null ],
+    [ "DamageTaken", "dd/d0e/a16544.html#a3960f19b456f29a33016d799809a82a8", null ],
+    [ "SpellHit", "dd/d0e/a16544.html#af842d47f1e8462fb6368e9dc7a070b84", null ],
+    [ "UpdateAI", "dd/d0e/a16544.html#a4e866332045135c867f2b9ee871db0c2", null ],
+    [ "permafrostTimer", "dd/d0e/a16544.html#adf7b1b447d0d05a498dd8603dbfab1ab", null ]
 ];

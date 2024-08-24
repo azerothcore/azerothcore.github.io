@@ -1,10 +1,10 @@
 var a26556 =
 [
-    [ "CalculateAPAmount", "d3/d77/a26556.html#abba0772c18bf98696dc1f236da79401e", null ],
-    [ "CalculateResistanceAmount", "d3/d77/a26556.html#a2db04d2d4af16e34cb69b71dbcd0c066", null ],
-    [ "CalculateSPAmount", "d3/d77/a26556.html#a4ecc412bb7d5e89a886c9ad4cc562187", null ],
-    [ "CalculateStatAmount", "d3/d77/a26556.html#a9269eee5ef676c466e662305389988f0", null ],
-    [ "HandleEffectApply", "d3/d77/a26556.html#aa818ca9c4e7b1320f97931525faff1c4", null ],
-    [ "PrepareAuraScript", "d3/d77/a26556.html#a5b35686a2ddd761343d811a8472c1c3b", null ],
-    [ "Register", "d3/d77/a26556.html#a9bf7cd6309b4724462b03c1080324f83", null ]
+    [ "npc_pet_hunter_snake_trap", "d3/d77/a26556.html#aaf5df574c4ac53661c0bb1968f84c6ea", null ],
+    [ "EnterEvadeMode", "d3/d77/a26556.html#a819add0c7b968063403d10275fdc289f", null ],
+    [ "MoveInLineOfSight", "d3/d77/a26556.html#a32d5ed7f4d436f2678b34f4a1d572721", null ],
+    [ "Reset", "d3/d77/a26556.html#a831cf6eea8bd03247cd9877d3be6e1ee", null ],
+    [ "UpdateAI", "d3/d77/a26556.html#a41a37efe6d39c6d97b3dcc5fabbcc812", null ],
+    [ "_init", "d3/d77/a26556.html#a1b5c1301389749f82667c35f3daff847", null ],
+    [ "_spellTimer", "d3/d77/a26556.html#ab9397451e2e8320ca77560a19baeee3f", null ]
 ];

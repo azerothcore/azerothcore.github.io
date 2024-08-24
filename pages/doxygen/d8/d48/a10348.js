@@ -1,6 +1,6 @@
 var a10348 =
 [
-    [ "GuildPromoteMember", "d8/d48/a10348.html#af623a381aa80e827c2c29987501626ae", null ],
-    [ "Read", "d8/d48/a10348.html#a3350c1a8c81aa1368a254288849b462b", null ],
-    [ "Promotee", "d8/d48/a10348.html#af8addf6e9bc45364f595582e8f285cde", null ]
+    [ "ClientOpcodeHandler", "d8/d39/a04449.html#ga975b7c1e941b9ad11164cc5b0cf3f557", null ],
+    [ "Call", "d8/d39/a04449.html#gae6c5104e6c75c2e88a3d8dfcf9e63678", null ],
+    [ "ProcessingPlace", "d8/d39/a04449.html#gaccb7f451536a1a56ba072a82202e5a53", null ]
 ];

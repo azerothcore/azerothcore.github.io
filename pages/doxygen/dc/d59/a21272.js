@@ -1,10 +1,10 @@
 var a21272 =
 [
-    [ "npc_erekem_guardAI", "dc/d59/a21272.html#a1ce40b70a35fc76e6ac0af449b7f4ded", null ],
-    [ "JustEngagedWith", "dc/d59/a21272.html#a93819c5c76821b1c9559be55359d677e", null ],
-    [ "MoveInLineOfSight", "dc/d59/a21272.html#aa1140892c13f4c070b1f3f1bf2230bb5", null ],
-    [ "Reset", "dc/d59/a21272.html#a079be6dd45e96184d66e95f031dc9c5f", null ],
-    [ "UpdateAI", "dc/d59/a21272.html#ab2c55e384f624b0f671e42e381aa3a37", null ],
-    [ "events", "dc/d59/a21272.html#a15afc8dd6d6e15fcd1a632728ad8d16e", null ],
-    [ "pInstance", "dc/d59/a21272.html#a81985b8522111f2aae540353cd5641fe", null ]
+    [ "boss_freya_elder_ironbranchAI", "dc/d59/a21272.html#a4a7350a2bf7c813b1b18fe32566e4d56", null ],
+    [ "JustDied", "dc/d59/a21272.html#aab878773508fcbb437661d316266b942", null ],
+    [ "JustEngagedWith", "dc/d59/a21272.html#ab7b5df914ee5b22c25098c188306d123", null ],
+    [ "KilledUnit", "dc/d59/a21272.html#a7dc8d3b497c2297b35f6aec70cc5447b", null ],
+    [ "Reset", "dc/d59/a21272.html#afd87a8fc3ca55d1a91f4cc08b34095c8", null ],
+    [ "UpdateAI", "dc/d59/a21272.html#a711cd2788bff7fbc648c039921297eac", null ],
+    [ "events", "dc/d59/a21272.html#a88193ba77c8a0269a5b8bdc4f3dc96d2", null ]
 ];

@@ -1,7 +1,6 @@
 var a16080 =
 [
-    [ "HandleAfterEffectAbsorb", "d1/d52/a16080.html#ab3d9f3679931b4b3b29713602d08701d", null ],
-    [ "PrepareAuraScript", "d1/d52/a16080.html#a10ee3cda9edfec8140b94e13b88266bd", null ],
-    [ "Register", "d1/d52/a16080.html#ab68a5ccfb0d96390bb83c329eb849cdd", null ],
-    [ "Validate", "d1/d52/a16080.html#a87750183d2b2d6adb67bba4a1f767029", null ]
+    [ "boss_sartharion_shadronAI", "d1/d91/a16084.html", "d1/d91/a16084" ],
+    [ "boss_sartharion_shadron", "d1/d52/a16080.html#ac297719abff8c795af10973492fc6fbe", null ],
+    [ "GetAI", "d1/d52/a16080.html#a95c7184ee7589f01920adc57a7df963b", null ]
 ];

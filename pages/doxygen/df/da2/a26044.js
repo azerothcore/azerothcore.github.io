@@ -1,6 +1,6 @@
 var a26044 =
 [
-    [ "CheckTarget", "df/da2/a26044.html#af1dae4f351ccaa7bc9b2ea315f0752c5", null ],
-    [ "PrepareSpellScript", "df/da2/a26044.html#a8f4075c80c7dcaa16f71bc1b396d005f", null ],
-    [ "Register", "df/da2/a26044.html#af4a27df3090a45ebd5db29c58e9ea47f", null ]
+    [ "HandleDummy", "df/da2/a26044.html#af4c8b1e6de383bb1f45a20e4d7b8d345", null ],
+    [ "PrepareSpellScript", "df/da2/a26044.html#acf127f181c25cdbb1f72a92d9b9cf92d", null ],
+    [ "Register", "df/da2/a26044.html#a9d6e22dc7afeb8a4be2d67aa14765571", null ]
 ];

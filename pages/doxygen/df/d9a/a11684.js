@@ -1,13 +1,8 @@
 var a11684 =
 [
-    [ "boss_gythAI", "df/d9a/a11684.html#aeec049af24b3a6f94051f1008ce107e6", null ],
-    [ "DamageTaken", "df/d9a/a11684.html#ae4a32afcb146157167649e873297a361", null ],
-    [ "EnterEvadeMode", "df/d9a/a11684.html#a20296c618ad366d7ac956f16671cc408", null ],
-    [ "IsSummonedBy", "df/d9a/a11684.html#a6800421a2e9e889e649e792ee642d8ac", null ],
-    [ "JustDied", "df/d9a/a11684.html#a979da1f3922d9575b6c237b85952fb6c", null ],
-    [ "JustEngagedWith", "df/d9a/a11684.html#a6c0ca15d87851c205d94679ea65e5193", null ],
-    [ "JustSummoned", "df/d9a/a11684.html#ab9024ce261129c82d4304d2a13834a5f", null ],
-    [ "Reset", "df/d9a/a11684.html#aa3c86b403af5394a4e4cb30781bcb46b", null ],
-    [ "UpdateAI", "df/d9a/a11684.html#a66f27f6d49b40dcc2894f177b281570f", null ],
-    [ "_summonedRend", "df/d9a/a11684.html#a0d19fedf0a77d7bcd73d5a52e2b907bf", null ]
+    [ "FilterTargets", "df/d9a/a11684.html#a03acb7fb2734d9c8e8e623600bc16859", null ],
+    [ "FilterTargetsEff", "df/d9a/a11684.html#a8aeffd2a01c805246c33d22a59274c6f", null ],
+    [ "PrepareSpellScript", "df/d9a/a11684.html#ae00bc9956c9971d62d9185c72d3bd8b5", null ],
+    [ "Register", "df/d9a/a11684.html#aba646a238c3b4b7343f3eec8c6445eb5", null ],
+    [ "targetList", "df/d9a/a11684.html#a874dc7877ecfae332c9f826f01afce0f", null ]
 ];

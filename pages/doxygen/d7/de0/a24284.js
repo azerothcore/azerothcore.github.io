@@ -1,8 +1,13 @@
 var a24284 =
 [
-    [ "go_skull_pile", "d7/de0/a24284.html#a9cf8dfef432c4967c60f66e645585770", null ],
-    [ "OnGossipHello", "d7/de0/a24284.html#ac95d39ea03e78fee2a10603d8c7f8840", null ],
-    [ "OnGossipSelect", "d7/de0/a24284.html#afb8e8db2705355e975fa48c98e09f20b", null ],
-    [ "SendActionMenu", "d7/de0/a24284.html#a048dd224b46ead864958ad524d76167f", null ],
-    [ "_result", "d7/de0/a24284.html#af74fcd75404c0886128401d661067394", null ]
+    [ "boss_blackheart_the_inciterAI", "d7/de0/a24284.html#a2eaf8ff8d96971f20d528ecbd18869db", null ],
+    [ "EnterEvadeMode", "d7/de0/a24284.html#a7516d07151bbae3f0f22246214505afd", null ],
+    [ "JustDied", "d7/de0/a24284.html#a09f3a3088e03780773ace6e5da82518e", null ],
+    [ "JustEngagedWith", "d7/de0/a24284.html#adf695044cbd624f8dc7f5478ba2b9d37", null ],
+    [ "KilledUnit", "d7/de0/a24284.html#a532bcac92a5f026a58832e081d61a3e4", null ],
+    [ "Reset", "d7/de0/a24284.html#a7ce1f43c37411d6a19ac81b6a6e8565d", null ],
+    [ "UpdateAI", "d7/de0/a24284.html#a9904aacd7f3c331b391dcd8df99eb520", null ],
+    [ "events", "d7/de0/a24284.html#a4989069362847b01cada59004a10a8ba", null ],
+    [ "InciteChaos", "d7/de0/a24284.html#a3d88eced640baa85e46cd8f997cc7693", null ],
+    [ "instance", "d7/de0/a24284.html#a55b73e947b9bbce57bdeec5f93f20f8a", null ]
 ];

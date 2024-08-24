@@ -1,5 +1,6 @@
 var a24052 =
 [
-    [ "at_commander_dawnforge", "dc/dfb/a24052.html#a1dfd7eb69ae515a59887c313001e4a4e", null ],
-    [ "OnTrigger", "dc/dfb/a24052.html#acc78f4f2f9d892c02d62548e93f7f83b", null ]
+    [ "npc_released_offspring_harkoaAI", "dc/dfb/a24052.html#ab1002f002987b6ea2366129afd48d65c", null ],
+    [ "MovementInform", "dc/dfb/a24052.html#a56d52be3fdbc2e4176efe09ba58f55c7", null ],
+    [ "Reset", "dc/dfb/a24052.html#a3ddc30ce39acef3bb5e6f8400a084393", null ]
 ];

@@ -1,13 +1,10 @@
 var a28524 =
 [
-    [ "MPQArchive", "da/dce/a28524.html#a58d57322334966ca16a22e52e5198d9f", null ],
-    [ "~MPQArchive", "da/dce/a28524.html#a5bce22525ca16381fbb4729540a165e2", null ],
-    [ "MPQArchive", "da/dce/a28524.html#a58d57322334966ca16a22e52e5198d9f", null ],
-    [ "~MPQArchive", "da/dce/a28524.html#a5bce22525ca16381fbb4729540a165e2", null ],
-    [ "close", "da/dce/a28524.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
-    [ "close", "da/dce/a28524.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
-    [ "GetFileListTo", "da/dce/a28524.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
-    [ "GetFileListTo", "da/dce/a28524.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
-    [ "isOpened", "da/dce/a28524.html#a2026335b9ede29197acfaac8513456d5", null ],
-    [ "mpq_a", "da/dce/a28524.html#a72b9fb96b1e3db6c7be652e426978b4a", null ]
+    [ "CheckProc", "da/dce/a28524.html#a5971c42af47d1cc8045a130deb218a04", null ],
+    [ "HandleProc", "da/dce/a28524.html#a45aaf5afebc2fa533240fcf8233430ed", null ],
+    [ "Load", "da/dce/a28524.html#a7664b0f67c9e3b14841ed9e30447544d", null ],
+    [ "PrepareAuraScript", "da/dce/a28524.html#a291fcf1af497d1e83a31209cd01a360d", null ],
+    [ "Register", "da/dce/a28524.html#af16d0517ad07a454145da0b92c051740", null ],
+    [ "Validate", "da/dce/a28524.html#ac768a5f4738dee9ad7d885fa6136785e", null ],
+    [ "_procTargetGUID", "da/dce/a28524.html#a13976d069846f29d2f744f3f03502787", null ]
 ];

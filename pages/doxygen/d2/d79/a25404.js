@@ -1,6 +1,6 @@
 var a25404 =
 [
-    [ "CheckCast", "d2/d79/a25404.html#ac1bc3f881c31c5ab90785a62a5f5b5ae", null ],
-    [ "PrepareSpellScript", "d2/d79/a25404.html#a2a9c657ccffbacfc661c6bb1dc41d9de", null ],
-    [ "Register", "d2/d79/a25404.html#a4b34bd5ce9d3e948d6c712d71ed71b2d", null ]
+    [ "boss_the_makerAI", "d6/d4f/a25408.html", "d6/d4f/a25408" ],
+    [ "boss_the_maker", "d2/d79/a25404.html#a4b0fe7396a92f7fd0bec23a1d16c9381", null ],
+    [ "GetAI", "d2/d79/a25404.html#aa89803a57602bfa708edb58db77626aa", null ]
 ];

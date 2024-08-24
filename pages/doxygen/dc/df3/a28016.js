@@ -1,6 +1,10 @@
 var a28016 =
 [
-    [ "color", "dc/df3/a28016.html#a2e4ee1d687af07445684907d1bcec4f4", null ],
-    [ "ID", "dc/df3/a28016.html#ac125147c2dc5546a0116f48e08f36e59", null ],
-    [ "spellitemenchantement", "dc/df3/a28016.html#a3a6329c8f5caa3cd6e61138339f37f4d", null ]
+    [ "AfterCheckProc", "dc/df3/a28016.html#aa6f32a97ece5fc68c0b0a2cfa36e33eb", null ],
+    [ "HandleProc", "dc/df3/a28016.html#a613182c741769d0983206bdfa89242f6", null ],
+    [ "PrepareAuraScript", "dc/df3/a28016.html#a4f614fe81d829d8a1ceb7500f9557948", null ],
+    [ "Register", "dc/df3/a28016.html#acd807de02a83a97a78572d672fb16027", null ],
+    [ "Validate", "dc/df3/a28016.html#a3d2d6f1a00825ac66f507a790f468198", null ],
+    [ "_spellInfo", "dc/df3/a28016.html#a66a5eb4caa7b43c34b2830d9a3d2f994", null ],
+    [ "_ticksModifier", "dc/df3/a28016.html#ae23b54499fff879a096bd459e264c4f0", null ]
 ];

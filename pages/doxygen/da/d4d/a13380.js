@@ -1,7 +1,6 @@
 var a13380 =
 [
-    [ "npc_deathstalker_erlandAI", "da/d4d/a13380.html#aa3c6822db09bc40dc87d556f6b3cc880", null ],
-    [ "JustEngagedWith", "da/d4d/a13380.html#ae4789c26cbb00b4ac04d646617a48a40", null ],
-    [ "Reset", "da/d4d/a13380.html#a3def0a0dd57ed732242a09d6390ab1f0", null ],
-    [ "WaypointReached", "da/d4d/a13380.html#af200e269d3f4b51bb5cfd08e9bf7ecc5", null ]
+    [ "npc_rinjiAI", "d9/df7/a13384.html", "d9/df7/a13384" ],
+    [ "npc_rinji", "da/d4d/a13380.html#af89b9c77b1a57dc506de0398a0d4b957", null ],
+    [ "GetAI", "da/d4d/a13380.html#a5457ac00ce0b195752640358b912af10", null ]
 ];

@@ -1,6 +1,7 @@
 var a16644 =
 [
-    [ "boss_devourer_of_soulsAI", "dd/d91/a16648.html", "dd/d91/a16648" ],
-    [ "boss_devourer_of_souls", "d7/d4e/a16644.html#a95b3a33be3b85a4c7ecfb4370a9ddc60", null ],
-    [ "GetAI", "d7/d4e/a16644.html#a3de68fa630c5b74104c461f88edd1d36", null ]
+    [ "npc_toc_mageAI", "d7/d4e/a16644.html#a188831088c892f68cef7498468b24899", null ],
+    [ "myCanCast", "d7/d4e/a16644.html#aaf7fd7b143a4eb410465c7cb34c32d2f", null ],
+    [ "UpdateAI", "d7/d4e/a16644.html#a0f4393341a6c565aef2c0b79a39c0699", null ],
+    [ "events", "d7/d4e/a16644.html#ab1910ce98f3d1b14e45acba22782d536", null ]
 ];

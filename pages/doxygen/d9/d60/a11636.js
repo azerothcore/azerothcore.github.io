@@ -1,5 +1,6 @@
 var a11636 =
 [
-    [ "boss_high_priestess_thaurissan", "d9/d60/a11636.html#a53d3fd78f6a1a3b5028c6fc2940dfbd0", null ],
-    [ "GetAI", "d9/d60/a11636.html#a7d2bb83a766b8eaa9bdbbb0f45a4fe62", null ]
+    [ "boss_firemawAI", "d9/d60/a11636.html#ab3f56c97119676b1a75662e52caecb75", null ],
+    [ "JustEngagedWith", "d9/d60/a11636.html#a04cb1d2fa18dba82b9c881b09406a076", null ],
+    [ "UpdateAI", "d9/d60/a11636.html#a6e35e47b23d713263ef00769324bbbed", null ]
 ];

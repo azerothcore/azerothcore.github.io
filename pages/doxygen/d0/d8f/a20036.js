@@ -1,7 +1,6 @@
 var a20036 =
 [
-    [ "HandleEffectPeriodic", "d0/d8f/a20036.html#ae1c6062123fb62a48f542e43b34c7bcd", null ],
-    [ "PrepareAuraScript", "d0/d8f/a20036.html#a1c54b6c86fc39d96d601b24c5b30fbdd", null ],
-    [ "Register", "d0/d8f/a20036.html#af7a5a98b5cf784d2de8b57a183c19142", null ],
-    [ "Validate", "d0/d8f/a20036.html#a16c536c913d003826ef4b86c7a497fec", null ]
+    [ "boss_grobbulus_poison_cloudAI", "d1/d94/a20040.html", "d1/d94/a20040" ],
+    [ "boss_grobbulus_poison_cloud", "d0/d8f/a20036.html#a2bb8ebec0ae79f20602e551f654e0761", null ],
+    [ "GetAI", "d0/d8f/a20036.html#a34c68dd3e58b83c52f270eb1b194f2ed", null ]
 ];

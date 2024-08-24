@@ -1,7 +1,8 @@
 var a18552 =
 [
-    [ "HandleEvent", "df/d02/a18552.html#a7aea0f5c4cd3765a8266e5478322910b", null ],
-    [ "PrepareSpellScript", "df/d02/a18552.html#a2e59f7f9eb67790c59c2e94cf877b4f3", null ],
-    [ "Register", "df/d02/a18552.html#a96c6a479141f765b9c0f96b5f148a428", null ],
-    [ "Validate", "df/d02/a18552.html#aa86d2cea5cb41b1e0a86248d95b5bfdb", null ]
+    [ "spell_putricide_mutation_init_AuraScript", "d5/d56/a18560.html", "d5/d56/a18560" ],
+    [ "spell_putricide_mutation_init_SpellScript", "dd/d90/a18556.html", "dd/d90/a18556" ],
+    [ "spell_putricide_mutation_init", "df/d02/a18552.html#a0113370be118144e657efa83507adb6b", null ],
+    [ "GetAuraScript", "df/d02/a18552.html#a11fc02f6923da04518ae1355c0068c9c", null ],
+    [ "GetSpellScript", "df/d02/a18552.html#aeb39117181835a570763babfdcf0c3ed", null ]
 ];

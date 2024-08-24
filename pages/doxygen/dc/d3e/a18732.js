@@ -1,9 +1,6 @@
 var a18732 =
 [
-    [ "spell_trigger_spell_from_caster", "dc/d3e/a18732.html#a0dc389ab8bd51fcfd839250a3bbc2dcd", null ],
-    [ "HandleTrigger", "dc/d3e/a18732.html#afc11c9408ea11cb04e476999a9bdf522", null ],
-    [ "PrepareSpellScript", "dc/d3e/a18732.html#a24a9bd70a58f051cd6c4ceaff5d7fffe", null ],
-    [ "Register", "dc/d3e/a18732.html#ae44cc1a87267c1d08603d1aff2384957", null ],
-    [ "Validate", "dc/d3e/a18732.html#a3aace9a309bc848b887b03c949c921bd", null ],
-    [ "_triggerId", "dc/d3e/a18732.html#a29af52a9035f18936515a464889fefe5", null ]
+    [ "spell_sindragosa_s_fury_SpellScript", "dd/d00/a18736.html", "dd/d00/a18736" ],
+    [ "spell_sindragosa_s_fury", "dc/d3e/a18732.html#aac89b5d1a1fb0a578f9125c8c9719074", null ],
+    [ "GetSpellScript", "dc/d3e/a18732.html#a82bcf2e518229c1c0eea946073285154", null ]
 ];

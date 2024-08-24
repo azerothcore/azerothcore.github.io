@@ -1,6 +1,7 @@
 var a21236 =
 [
-    [ "npc_frozen_orb_stalkerAI", "de/db5/a21240.html", "de/db5/a21240" ],
-    [ "npc_frozen_orb_stalker", "da/dff/a21236.html#a7f025c829106aa6668427f913d07a722", null ],
-    [ "GetAI", "da/dff/a21236.html#af33e27138a70286bac561113ed09f350", null ]
+    [ "achievement_flame_leviathan_garage", "da/dff/a21236.html#a1893b4059d7212d023c45bb828bb1905", null ],
+    [ "OnCheck", "da/dff/a21236.html#aa5897eb1fadeda4dda9f2390053d89b6", null ],
+    [ "_entry1", "da/dff/a21236.html#af482d6c1b2681b9fec572281620a86b7", null ],
+    [ "_entry2", "da/dff/a21236.html#a41e83b47c411dc6a6aff310ae7059f4e", null ]
 ];

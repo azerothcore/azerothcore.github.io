@@ -1,7 +1,6 @@
 var a24956 =
 [
-    [ "HandleProc", "db/d2e/a24956.html#af768269d315e998fc2042794c3a03b58", null ],
-    [ "PrepareAuraScript", "db/d2e/a24956.html#ae3da67d626ee11c57a85a3af99ff07a5", null ],
-    [ "Register", "db/d2e/a24956.html#a2df1cff47861cbf3198e573c6031b54e", null ],
-    [ "Validate", "db/d2e/a24956.html#a84f40eec148c55108085db5e7b05cb0e", null ]
+    [ "spell_karathress_power_of_caribdis_AuraScript", "de/d44/a24960.html", "de/d44/a24960" ],
+    [ "spell_karathress_power_of_caribdis", "db/d2e/a24956.html#a3992c9ff4ec1b94ea1b723a48109e2c8", null ],
+    [ "GetAuraScript", "db/d2e/a24956.html#ad5a86d31c2af94efc87e33bc11f67e97", null ]
 ];

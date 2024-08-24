@@ -1,7 +1,7 @@
 var a26840 =
 [
-    [ "OnProc", "d0/d98/a26840.html#a7ab183d734c543be2866c57f1e5cc508", null ],
-    [ "PrepareAuraScript", "d0/d98/a26840.html#a31118cda9f29318f4620caf38c09522a", null ],
-    [ "Register", "d0/d98/a26840.html#ac27f99aafa92ae85a247c6f25ece8c7b", null ],
-    [ "Validate", "d0/d98/a26840.html#aa193bddd2ba9efe70343c5501d737fa4", null ]
+    [ "HandleProc", "d0/d98/a26840.html#a1982ba611c17042d0bff8bac66280218", null ],
+    [ "PrepareAuraScript", "d0/d98/a26840.html#a459fde61325e3aeb1e339670138aacce", null ],
+    [ "Register", "d0/d98/a26840.html#a151f0e7f04a9ee01189de20686a15bc4", null ],
+    [ "Validate", "d0/d98/a26840.html#af57da6008a6ff796487b2da68644104b", null ]
 ];

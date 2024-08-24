@@ -1,8 +1,6 @@
 var a10676 =
 [
-    [ "PacketFilter", "d1/d9c/a10676.html#accfa43359c62d2e9d6c38086c77374bd", null ],
-    [ "~PacketFilter", "d1/d9c/a10676.html#a669531cfd9c06d5cf525986069117687", null ],
-    [ "Process", "d1/d9c/a10676.html#a03679e3c241a535757608c63ca933ac9", null ],
-    [ "ProcessUnsafe", "d1/d9c/a10676.html#a3e2bdc6d15cfd5cac1b9c130937599e3", null ],
-    [ "m_pSession", "d1/d9c/a10676.html#ad3723289ea93f1095cf82584268335d9", null ]
+    [ "HitHandler", "d1/d9c/a10676.html#a41c5a6853bf72c113388995dc3ebaba7", null ],
+    [ "Call", "d1/d9c/a10676.html#a157baaa3ceba62a9910cba5377bd7699", null ],
+    [ "pHitHandlerScript", "d1/d9c/a10676.html#ac24144e49930a01a3049740a4072f626", null ]
 ];

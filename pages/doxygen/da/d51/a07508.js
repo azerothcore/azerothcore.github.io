@@ -1,5 +1,5 @@
 var a07508 =
 [
-    [ "Quest", "da/d51/a07508.html#aca1cbcd3319031b549c0ec6441b2c821", null ],
-    [ "QuestLevel", "da/d51/a07508.html#ad162701af62caac909ef9f57f68bf848", null ]
+    [ "Name", "da/d51/a07508.html#aa971d38e5169f2b7b610cf6cf0aec928", null ],
+    [ "Title", "da/d51/a07508.html#a344cbaef4846d4c9c76e1d783dd2b4fc", null ]
 ];

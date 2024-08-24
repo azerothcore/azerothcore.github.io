@@ -1,9 +1,6 @@
 var a17540 =
 [
-    [ "CalculateDamage", "d0/d49/a17540.html#a6a9e90d9463825b38b69afc234b35b39", null ],
-    [ "PrepareSpellScript", "d0/d49/a17540.html#ae7a8d0cc36708b11f8eefebd5df0a980", null ],
-    [ "Register", "d0/d49/a17540.html#a2722814a55469e5bae572766ed36309b", null ],
-    [ "RemoveEnergy", "d0/d49/a17540.html#a0f16b4b35985d658dc185aa88ab099ed", null ],
-    [ "StoreEnergy", "d0/d49/a17540.html#aca3ecc5a6219cb3813f17be404142c6d", null ],
-    [ "_energyLeft", "d0/d49/a17540.html#af082a763f6524aeb5ae2eb3c82fd12e5", null ]
+    [ "spell_drakkari_colossus_face_me_SpellScript", "d6/d8c/a17544.html", "d6/d8c/a17544" ],
+    [ "spell_drakkari_colossus_face_me", "d0/d49/a17540.html#a5c2c6cc7a2b8112cb081725ac8e4a0a5", null ],
+    [ "GetSpellScript", "d0/d49/a17540.html#ac83d381f3113c27ca09bef54d6b22cc4", null ]
 ];

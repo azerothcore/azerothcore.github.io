@@ -1,6 +1,7 @@
 var a16212 =
 [
-    [ "HandleAfterHit", "df/d14/a16212.html#a72252694da7e453387e9d79d12e7e2a4", null ],
-    [ "PrepareSpellScript", "df/d14/a16212.html#aff18e189296f7379a8fde5ad6eab8ada", null ],
-    [ "Register", "df/d14/a16212.html#aa6c511fa8eb6d1123be1243bac7f0606", null ]
+    [ "npc_orb_carrierAI", "df/d14/a16212.html#a2011c247d2157f5f2a06db6e149743e0", null ],
+    [ "DoAction", "df/d14/a16212.html#a501d0bdb9d77be1229dadf60d5f8af8c", null ],
+    [ "TriggerCutter", "df/d14/a16212.html#a6b6b127db878ca3b79ac8d7aeff4156e", null ],
+    [ "UpdateAI", "df/d14/a16212.html#a99a08390fcf2b0a058aee161932392d0", null ]
 ];

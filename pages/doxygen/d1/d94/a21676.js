@@ -1,5 +1,6 @@
 var a21676 =
 [
-    [ "go_the_pearl_of_the_depths", "d1/d94/a21676.html#a0e09ddcde0eef050400d90e9a268823a", null ],
-    [ "OnGossipHello", "d1/d94/a21676.html#a745ea14136a78759a3afd7714c6d784a", null ]
+    [ "FilterTargets", "d1/d94/a21676.html#adc1e71477c9bb4e8b4d66c26804f283a", null ],
+    [ "PrepareSpellScript", "d1/d94/a21676.html#a70071278b2618169e4c0ef7951d02dcb", null ],
+    [ "Register", "d1/d94/a21676.html#a98cf9d736a4b6e8bce2a7bf6c675e630", null ]
 ];

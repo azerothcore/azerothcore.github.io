@@ -1,6 +1,6 @@
 var a16332 =
 [
-    [ "npc_toc_pet_warlockAI", "d7/da0/a16336.html", "d7/da0/a16336" ],
-    [ "npc_toc_pet_warlock", "d9/d4c/a16332.html#a4703f506d677d7e490c6813c6d9b060b", null ],
-    [ "GetAI", "d9/d4c/a16332.html#aebcaff82726508a14028cb22a1ef944b", null ]
+    [ "OnSummon", "d9/d4c/a16332.html#a357fe0fdfd739525e0a03bb5e7882730", null ],
+    [ "PrepareSpellScript", "d9/d4c/a16332.html#a08e6f2d704a0b2091ac8693b52dd239d", null ],
+    [ "Register", "d9/d4c/a16332.html#af65eb2921ecfdd0a92b8e9c7b6cde5f3", null ]
 ];

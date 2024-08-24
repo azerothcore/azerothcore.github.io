@@ -1,6 +1,6 @@
 var a27028 =
 [
-    [ "boss_ysondreAI", "dc/d21/a27032.html", "dc/d21/a27032" ],
-    [ "boss_ysondre", "db/dec/a27028.html#ad12dbb728f4f0cdf2f4c0ba9cd2a167d", null ],
-    [ "GetAI", "db/dec/a27028.html#a0da215d7bc8ee86216887e682b9335c3", null ]
+    [ "PrepareAuraScript", "db/dec/a27028.html#a8a60db6939ba71ddcf723fb4e48b3146", null ],
+    [ "Register", "db/dec/a27028.html#a8ab913cf84f55428d2b0615172f3da3b", null ],
+    [ "AuraEffectHandleModes", "db/dec/a27028.html#aed1cfe63d82450b526e154678fb97ac4", null ]
 ];

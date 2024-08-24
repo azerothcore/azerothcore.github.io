@@ -1,11 +1,6 @@
 var a22204 =
 [
-    [ "npc_iron_watcherAI", "d2/d4c/a22204.html#a5f0c3d759dfba81cb2010d2a0b479909", null ],
-    [ "MovementInform", "d2/d4c/a22204.html#aaf329f0160efa778abdebf86b1cf230b", null ],
-    [ "Reset", "d2/d4c/a22204.html#a878f26cd41ccb9d777f9db00e2e30568", null ],
-    [ "SpellHit", "d2/d4c/a22204.html#afce7cebdb4a49d9e5618ac211b235c6b", null ],
-    [ "UpdateAI", "d2/d4c/a22204.html#a50391c9950fbbaf170600f13bab1e6bb", null ],
-    [ "charging", "d2/d4c/a22204.html#af5be6fc6d7d234cfd2ac78f636b0ad7c", null ],
-    [ "hpTimer", "d2/d4c/a22204.html#afcbb113387345361baf0351a19e6eb1d", null ],
-    [ "spellTimer", "d2/d4c/a22204.html#a9bcd8d80b0a74c7abf0fc8b3bb32aa30", null ]
+    [ "boss_yoggsaron_influence_tentacleAI", "d2/d4c/a22204.html#ae7457ed8084888b1074a44dd9a7ed0c7", null ],
+    [ "DamageTaken", "d2/d4c/a22204.html#ad46e93ffb89c9c3ee9bfbe0f27c7117c", null ],
+    [ "JustDied", "d2/d4c/a22204.html#ab09c96d167b9502098b9a7a2fa1b82ec", null ]
 ];

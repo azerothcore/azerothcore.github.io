@@ -1,6 +1,5 @@
 var a21396 =
 [
-    [ "npc_azure_stalkerAI", "dd/d7c/a21400.html", "dd/d7c/a21400" ],
-    [ "npc_azure_stalker", "d1/d0e/a21396.html#ad069edc43b4f489e0b2c7aa4952eeb63", null ],
-    [ "GetAI", "d1/d0e/a21396.html#a1c067809f98a4d7845d2fb4269742274", null ]
+    [ "go_ulduar_pure_saronite_deposit", "d1/d0e/a21396.html#a39da51a78b9f27392ed7494e18e89b93", null ],
+    [ "OnGossipHello", "d1/d0e/a21396.html#ab69c5b514e0b79ff7155e0080841d4a2", null ]
 ];

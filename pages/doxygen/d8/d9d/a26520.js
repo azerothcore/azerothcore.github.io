@@ -1,6 +1,8 @@
 var a26520 =
 [
-    [ "HandleRemove", "d8/d9d/a26520.html#a92eb5e02c8b165caa877d368a456e5b2", null ],
-    [ "PrepareAuraScript", "d8/d9d/a26520.html#a132193c0c13a2f89b9b29391d524023a", null ],
-    [ "Register", "d8/d9d/a26520.html#a246294a7b9a128a9ec464562846332fc", null ]
+    [ "npc_pet_gen_gnomish_flame_turret", "d8/d9d/a26520.html#a6e79c0ad6219d0beb23cfb086e6d3eaf", null ],
+    [ "AttackStart", "d8/d9d/a26520.html#a2aab464c099e8e5e760a9ae4f28ac33f", null ],
+    [ "Reset", "d8/d9d/a26520.html#a46fe5703a5859d5583e7df3a57b3910a", null ],
+    [ "UpdateAI", "d8/d9d/a26520.html#ae3db08323af4b82009ffd660b3e78474", null ],
+    [ "checkTimer", "d8/d9d/a26520.html#ac6705f4980ca561a5fd33c2917488439", null ]
 ];

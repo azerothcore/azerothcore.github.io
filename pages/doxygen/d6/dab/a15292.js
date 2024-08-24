@@ -1,8 +1,6 @@
 var a15292 =
 [
-    [ "FilterTargets", "d6/dab/a15292.html#a47b8055fa1b28968e8323ca98613aa83", null ],
-    [ "HandleScript", "d6/dab/a15292.html#a8f7984e510d8947a2ae4b0734409866b", null ],
-    [ "PrepareSpellScript", "d6/dab/a15292.html#a5c12caf56e95a9f7960ed9f4a3945c7c", null ],
-    [ "Register", "d6/dab/a15292.html#adf76a5d9145f88aad5b3dd164fa4fcc4", null ],
-    [ "Validate", "d6/dab/a15292.html#aa3f9c6418eb804a2ddf235beb8491a19", null ]
+    [ "instance_wailing_caverns_InstanceMapScript", "d6/d74/a15296.html", "d6/d74/a15296" ],
+    [ "instance_wailing_caverns", "d6/dab/a15292.html#a906f59c39f59237e9eedb479dfc7d825", null ],
+    [ "GetInstanceScript", "d6/dab/a15292.html#a0f1020e86443d6902b3c4d8726f3e610", null ]
 ];

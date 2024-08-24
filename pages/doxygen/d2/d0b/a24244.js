@@ -1,7 +1,6 @@
 var a24244 =
 [
-    [ "HandleEffectRemove", "d2/d0b/a24244.html#a317c238b165ad331beb447ea5d0de7e1", null ],
-    [ "PrepareAuraScript", "d2/d0b/a24244.html#a7481f017a1382eb75e0101cb49fb4fcf", null ],
-    [ "Register", "d2/d0b/a24244.html#a13fdde1557249328306a57e159d821a7", null ],
-    [ "Validate", "d2/d0b/a24244.html#a58a383bd4e3062a5c5b1df97192b4b7e", null ]
+    [ "instance_mana_tombs_InstanceMapScript", "df/d74/a24248.html", "df/d74/a24248" ],
+    [ "instance_mana_tombs", "d2/d0b/a24244.html#a78ca8b378e4ab290f1eea2b2b5799630", null ],
+    [ "GetInstanceScript", "d2/d0b/a24244.html#a26e4dad0957df886bc446396ab48ceda", null ]
 ];

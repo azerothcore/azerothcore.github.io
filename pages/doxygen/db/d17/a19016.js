@@ -1,6 +1,7 @@
 var a19016 =
 [
-    [ "FilterTargets", "db/d17/a19016.html#a4d5340e7b2e3326ff36b4d61d1faeaa9", null ],
-    [ "PrepareSpellScript", "db/d17/a19016.html#a452937a4e95b40366f915213ec475a84", null ],
-    [ "Register", "db/d17/a19016.html#a883e383928a9b0ad0aeccf7afee4f15e", null ]
+    [ "OnPeriodic", "db/d17/a19016.html#ae306475845b2e83a08a226d8e78a0beb", null ],
+    [ "OnUpdate", "db/d17/a19016.html#affc809d41b0d19adb6fd62ee2923fe71", null ],
+    [ "PrepareAuraScript", "db/d17/a19016.html#a97a51fd229180056cf87785d4ad62e1c", null ],
+    [ "Register", "db/d17/a19016.html#af6f4af51d4297e2e221f92b30c9a69a4", null ]
 ];

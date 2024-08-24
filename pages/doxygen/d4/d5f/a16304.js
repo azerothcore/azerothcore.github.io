@@ -1,7 +1,7 @@
 var a16304 =
 [
-    [ "npc_toc_dkAI", "d4/d5f/a16304.html#aa01bf528b10ed7bbdfe9b03694e51845", null ],
-    [ "myCanCast", "d4/d5f/a16304.html#a54dee5d9b0f17bad21e8c1e275f0b222", null ],
-    [ "UpdateAI", "d4/d5f/a16304.html#ab4f4b11e2b250fb24de6c069c5e38208", null ],
-    [ "events", "d4/d5f/a16304.html#a293d5fca2940432c4eea57c5de5a1fdc", null ]
+    [ "OnApply", "d4/d5f/a16304.html#ae0ab8c526985e5a688e862ee7208b2db", null ],
+    [ "OnRemove", "d4/d5f/a16304.html#a19fc3e0f3a8045c7428411d41186a880", null ],
+    [ "PrepareAuraScript", "d4/d5f/a16304.html#a692bff5559658e3076d56a0fc3c7c878", null ],
+    [ "Register", "d4/d5f/a16304.html#adee13380d5777691257ba3f817807285", null ]
 ];

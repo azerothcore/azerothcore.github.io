@@ -1,6 +1,6 @@
 var a16868 =
 [
-    [ "boss_krickAI", "d6/d86/a16872.html", "d6/d86/a16872" ],
-    [ "boss_krick", "d3/db1/a16868.html#a8921ff79c0af7db7f7910634239bcd0c", null ],
-    [ "GetAI", "d3/db1/a16868.html#a9aa994da7c667b20c00b1bd1e994fed1", null ]
+    [ "instance_trial_of_the_crusader_InstanceMapScript", "d6/d86/a16872.html", "d6/d86/a16872" ],
+    [ "instance_trial_of_the_crusader", "d3/db1/a16868.html#a764d871d02e4ff53b7cc3a8637dcddf9", null ],
+    [ "GetInstanceScript", "d3/db1/a16868.html#a792034e9e5687bf5fa543175692bed66", null ]
 ];

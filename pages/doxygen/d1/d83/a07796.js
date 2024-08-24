@@ -1,8 +1,6 @@
 var a07796 =
 [
-    [ "bounding_radius", "d1/d83/a07796.html#a9f4a794b06bcbe31fc0a104cc97b91a4", null ],
-    [ "combat_reach", "d1/d83/a07796.html#ac271edb10093db19e4df1396053f820d", null ],
-    [ "gender", "d1/d83/a07796.html#aa5c8134851ff4f7ab6ad2af3b6e1dc1e", null ],
-    [ "is_trigger", "d1/d83/a07796.html#a52dbfa82e1525df681b87ab07ba8ead0", null ],
-    [ "modelid_other_gender", "d1/d83/a07796.html#a222b3c513a64b385954ea549e67f4255", null ]
+    [ "item_count", "d1/d83/a07796.html#a437fe00f34ad414e3c9f81d01a153d13", null ],
+    [ "setid", "d1/d83/a07796.html#ab8c24b76b1c0eb92c0fe52ca9baf293a", null ],
+    [ "spells", "d1/d83/a07796.html#af8156bad9771ed816fd861d3eb992aaa", null ]
 ];

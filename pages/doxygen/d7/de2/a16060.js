@@ -1,9 +1,6 @@
 var a16060 =
 [
-    [ "npc_memoryAI", "d7/de2/a16060.html#ad927d377d60b44f43808469042f5feb9", null ],
-    [ "JustDied", "d7/de2/a16060.html#a7b0484919d671877f29dfa05ca1265d9", null ],
-    [ "Reset", "d7/de2/a16060.html#a985c51bbfa2cceeb7601432491253aaf", null ],
-    [ "UpdateAI", "d7/de2/a16060.html#a6cb74389f5aea91d2062e007ea08acd7", null ],
-    [ "events", "d7/de2/a16060.html#a2ed2993e89728a3723456a67e13581f7", null ],
-    [ "pInstance", "d7/de2/a16060.html#a31bcb5041844ea5e3a076ad1366897e1", null ]
+    [ "boss_sartharionAI", "d9/d73/a16064.html", "d9/d73/a16064" ],
+    [ "boss_sartharion", "d7/de2/a16060.html#a6605aee69372d08fba8f4b4523896588", null ],
+    [ "GetAI", "d7/de2/a16060.html#aca5d66e0f5cdcafd6f9cd2c173f43839", null ]
 ];

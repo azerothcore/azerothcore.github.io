@@ -1,6 +1,6 @@
 var a21156 =
 [
-    [ "spell_archavon_rock_shards_SpellScript", "d0/df9/a21160.html", "d0/df9/a21160" ],
-    [ "spell_archavon_rock_shards", "d3/d92/a21156.html#a777b5bb8eb939f331f204cef2781201f", null ],
-    [ "GetSpellScript", "d3/d92/a21156.html#a60a3f5142f2f0d01ef48f5c8c64958f9", null ]
+    [ "spell_vehicle_throw_passenger_SpellScript", "d0/df9/a21160.html", "d0/df9/a21160" ],
+    [ "spell_vehicle_throw_passenger", "d3/d92/a21156.html#a948e1bbd85b347aaa6103e6e6281d2e8", null ],
+    [ "GetSpellScript", "d3/d92/a21156.html#af562e7cc45f74f3734f6dc738992fa88", null ]
 ];

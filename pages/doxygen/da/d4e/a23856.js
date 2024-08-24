@@ -1,8 +1,9 @@
 var a23856 =
 [
-    [ "boss_mechano_lord_capacitus", "da/d4e/a23856.html#ab5867184d4e50a89a1afe25eb40e6bc3", null ],
-    [ "JustDied", "da/d4e/a23856.html#a596314e7aebcc9e2e7311b4e0850b817", null ],
-    [ "JustEngagedWith", "da/d4e/a23856.html#a4aa9ee50a942fe123acfdeee0350fa2d", null ],
-    [ "JustSummoned", "da/d4e/a23856.html#a9a0b2cac08002db63162f95b9476c251", null ],
-    [ "KilledUnit", "da/d4e/a23856.html#a6a408c654f91a44a40b3df52c0f2b093", null ]
+    [ "npc_brunnhildar_prisonerAI", "da/d4e/a23856.html#ad650885c7f615f8b27ba20203c9fbb6f", null ],
+    [ "JustRespawned", "da/d4e/a23856.html#a15843fcdc5d9eb34df7869b56a0b16ac", null ],
+    [ "Reset", "da/d4e/a23856.html#ac9ba0806b9702cebe9171d9ba8962b0f", null ],
+    [ "SpellHit", "da/d4e/a23856.html#af2835ec5b951e2f4bb176ebe6bb958fd", null ],
+    [ "UpdateAI", "da/d4e/a23856.html#a0702d4cf577ac00688a7b93bfe656952", null ],
+    [ "freed", "da/d4e/a23856.html#a46e03a19bac91a800154e3c873235800", null ]
 ];

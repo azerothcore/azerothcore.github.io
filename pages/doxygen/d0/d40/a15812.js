@@ -1,6 +1,5 @@
 var a15812 =
 [
-    [ "npc_twilight_summonAI", "dc/dd9/a15816.html", "dc/dd9/a15816" ],
-    [ "npc_twilight_summon", "d0/d40/a15812.html#a2406ee3b02d9f1b1ebef54623d9a3c11", null ],
-    [ "GetAI", "d0/d40/a15812.html#a98bf5ce96c25bc252acd46163644bf33", null ]
+    [ "go_elune_fire", "d0/d40/a15812.html#a84d1b8e5a10e57cf717e10e413cb6027", null ],
+    [ "OnGossipHello", "d0/d40/a15812.html#a31e3cad89090bb7d2933e8758dbb56c4", null ]
 ];

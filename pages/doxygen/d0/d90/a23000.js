@@ -1,8 +1,7 @@
 var a23000 =
 [
-    [ "CalcPeriodic", "d0/d90/a23000.html#aad87c25b9b3255a4871bec39d9787299", null ],
-    [ "PrepareAuraScript", "d0/d90/a23000.html#a7494c41e41ffc55811c57208f80c7eb6", null ],
-    [ "Register", "d0/d90/a23000.html#acce25abc58a29dfe5a5287a8b00242ae", null ],
-    [ "Update", "d0/d90/a23000.html#a4e2a5a2d666419ccbb0ca71670332b8c", null ],
-    [ "Validate", "d0/d90/a23000.html#ae4f7bfb1cd95666acada217173876352", null ]
+    [ "npc_lurgglbrAI", "d3/d46/a23004.html", "d3/d46/a23004" ],
+    [ "npc_lurgglbr", "d0/d90/a23000.html#a7df52667e4d789391820a4c2182db8d2", null ],
+    [ "GetAI", "d0/d90/a23000.html#a2795346371e7b474c53dcacb9daf2001", null ],
+    [ "OnQuestAccept", "d0/d90/a23000.html#a1b3ba7b0782dc91ff268b7044cf13e82", null ]
 ];

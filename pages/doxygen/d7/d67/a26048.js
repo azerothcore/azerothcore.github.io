@@ -1,6 +1,6 @@
 var a26048 =
 [
-    [ "CalculateAmount", "d7/d67/a26048.html#a9c4a38bb60cc61156da5bd1b89b3e116", null ],
-    [ "PrepareAuraScript", "d7/d67/a26048.html#a5bd55cb8b992f7ceb52f7193bcdbf210", null ],
-    [ "Register", "d7/d67/a26048.html#a1f717d941f8d100eb73d7e2a3b638bad", null ]
+    [ "npc_aeranasAI", "d6/d05/a26052.html", "d6/d05/a26052" ],
+    [ "npc_aeranas", "d7/d67/a26048.html#a6ea71481ef6a223a329b805081122537", null ],
+    [ "GetAI", "d7/d67/a26048.html#a81167df6665bdca81ee13468dec19643", null ]
 ];

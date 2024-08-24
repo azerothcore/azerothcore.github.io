@@ -1,6 +1,6 @@
 var a23844 =
 [
-    [ "PrepareAuraScript", "da/d34/a23844.html#a14d4d1a75130a77e7e59e41720491bec", null ],
-    [ "PrepareProc", "da/d34/a23844.html#abea217f4bfdffc70007fbc29849e9a49", null ],
-    [ "Register", "da/d34/a23844.html#a9dbcd4c940f5941472bebb64829125e3", null ]
+    [ "HandleDummy", "da/d34/a23844.html#ada152d11494f4d6bdf5e0745cecf45f2", null ],
+    [ "PrepareSpellScript", "da/d34/a23844.html#abbeead3c448198d5f1e983651fb1d787", null ],
+    [ "Register", "da/d34/a23844.html#ad898e3769235b7a2679ab29fdabd33ed", null ]
 ];

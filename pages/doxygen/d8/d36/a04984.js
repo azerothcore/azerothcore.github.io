@@ -1,8 +1,8 @@
 var a04984 =
 [
-    [ "MeshTriangle", "d8/d36/a04984.html#af99ecf0b02af73e6727095df1dce8422", null ],
-    [ "MeshTriangle", "d8/d36/a04984.html#a36109fc79a9ca9c6bf19959fd1493e60", null ],
-    [ "idx0", "d8/d36/a04984.html#aed1048a2b6745215a7b8f70dec378371", null ],
-    [ "idx1", "d8/d36/a04984.html#a560bb163f63ff7202aade4d115f31664", null ],
-    [ "idx2", "d8/d36/a04984.html#ac939c5e66526c67c067288b9d6484cac", null ]
+    [ "Decode", "d8/d36/a04984.html#aacf2a55e180aa5ee475ac76c6af4d47a", null ],
+    [ "Encode", "d8/d36/a04984.html#a51c8847dc9b75161f4d2d366324dc50f", null ],
+    [ "BITS_PER_CHAR", "d8/d36/a04984.html#a10f3736ee2ed8e79e1236798e2b1d2be", null ],
+    [ "DECODE_ERROR", "d8/d36/a04984.html#ace6b211be8a36043942f0a1aaee063b1", null ],
+    [ "PADDING", "d8/d36/a04984.html#af099d69cc636a7ad298ec9e38b2f20d2", null ]
 ];

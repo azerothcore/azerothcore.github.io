@@ -1,13 +1,11 @@
 var a27400 =
 [
-    [ "npc_nelsonAI", "de/d92/a27400.html#af6aada5c34048ce6bda6d5c1541e0bf3", null ],
-    [ "DoAction", "de/d92/a27400.html#a13ec2adee9d671f949139dbf94c75cc3", null ],
-    [ "JustEngagedWith", "de/d92/a27400.html#accb9aeb3b3f3fc2233598b7fef40c3ec", null ],
-    [ "JustSummoned", "de/d92/a27400.html#a31d622d73a2540e159720d4c8ddc7d00", null ],
-    [ "Reset", "de/d92/a27400.html#a05fcb98153f0a24f50004f465d8f3c72", null ],
-    [ "SpellHit", "de/d92/a27400.html#afab81d8a6077c755c186bb619944d78d", null ],
-    [ "SummonedCreatureDies", "de/d92/a27400.html#ab3753c9b6848c1567ac596a5f6b498a1", null ],
-    [ "UpdateAI", "de/d92/a27400.html#ac68749942f37de5f9105556fe7b904b7", null ],
-    [ "events", "de/d92/a27400.html#a25eb289b79de306bbdc0dd099b23a2a0", null ],
-    [ "shouldDespawn", "de/d92/a27400.html#a09a68f903854fcedd8a4b2ee4c2597e2", null ]
+    [ "CalcPeriodic", "de/d92/a27400.html#ab5feede17fa79c9d02fa459586eaca41", null ],
+    [ "CalculateAPAmount", "de/d92/a27400.html#af2b1da799f1b3c0373dc6782dabbf89c", null ],
+    [ "CalculateResistanceAmount", "de/d92/a27400.html#a51828f07b0e099c5931161f7aeebaab7", null ],
+    [ "CalculateSPAmount", "de/d92/a27400.html#a255ed8f5158e715313e44b13f30b099f", null ],
+    [ "CalculateStatAmount", "de/d92/a27400.html#ade1b7256d19b526a7f4b1520f6b2f663", null ],
+    [ "HandlePeriodic", "de/d92/a27400.html#a136c8cedca7630543b8937e77571ead1", null ],
+    [ "PrepareAuraScript", "de/d92/a27400.html#a638a2544d9216bec90c433100c0663a0", null ],
+    [ "Register", "de/d92/a27400.html#a55605257006d8218250932357f325bb8", null ]
 ];

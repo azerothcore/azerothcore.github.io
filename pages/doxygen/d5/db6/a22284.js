@@ -1,7 +1,6 @@
 var a22284 =
 [
-    [ "npc_wg_demolisher_engineer", "d5/db6/a22284.html#a722ff6bac34730bfb5f36584d7a62ff8", null ],
-    [ "canBuild", "d5/db6/a22284.html#a5dd51b0d0a05ebfb648faab570e27881", null ],
-    [ "OnGossipHello", "d5/db6/a22284.html#ac3b0bbfd66bb94f29a6d733999b8c6ba", null ],
-    [ "OnGossipSelect", "d5/db6/a22284.html#a3ecf69f45918bef0cb51023327ac9693", null ]
+    [ "spell_yogg_saron_titanic_storm_SpellScript", "d5/dab/a22288.html", "d5/dab/a22288" ],
+    [ "spell_yogg_saron_titanic_storm", "d5/db6/a22284.html#adf35073dd6a9fe73e61b6b6de91a6717", null ],
+    [ "GetSpellScript", "d5/db6/a22284.html#a05a3627cb970008631302ac2f8dbc776", null ]
 ];
