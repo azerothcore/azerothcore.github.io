@@ -1,8 +1,10 @@
 var a27476 =
 [
-    [ "CheckProc", "d2/d71/a27476.html#ae0b0a45ddc782a523394e30414e0b2ba", null ],
-    [ "HandleProc", "d2/d71/a27476.html#a9cb849a8ea8afb45cc1df4d260542937", null ],
-    [ "PrepareAuraScript", "d2/d71/a27476.html#af65fc845e6625b1f0a4f4b88ba6db46e", null ],
-    [ "Register", "d2/d71/a27476.html#acc5c7607ea7a23b66d1db6cb1a38833e", null ],
-    [ "Validate", "d2/d71/a27476.html#a03621fd67cd9179ccc37a53c4d2056d9", null ]
+    [ "npc_dancing_flamesAI", "d2/d71/a27476.html#a3d597b2ee826c86b5a8feb3aa144a459", null ],
+    [ "JustEngagedWith", "d2/d71/a27476.html#ae0d71d4f9074c05ea76951ede6c7702a", null ],
+    [ "ReceiveEmote", "d2/d71/a27476.html#a13aae489e8b03121c8fbae12e83bdfaa", null ],
+    [ "Reset", "d2/d71/a27476.html#a53b49dadc70e3e134ca49cd239b569d6", null ],
+    [ "UpdateAI", "d2/d71/a27476.html#a555f2ed0d762c5c183ec87580bae46b1", null ],
+    [ "Active", "d2/d71/a27476.html#aa79036bed206327847bf5ad2e768e8f6", null ],
+    [ "CanIteract", "d2/d71/a27476.html#a866bfc106fc33433b4eb13fabd9c39c6", null ]
 ];

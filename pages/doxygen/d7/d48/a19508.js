@@ -1,7 +1,9 @@
 var a19508 =
 [
-    [ "npc_frost_freeze_trapAI", "d7/d48/a19508.html#a95c64fbbc97f55e4d0cd0b239939fdc6", null ],
-    [ "DoAction", "d7/d48/a19508.html#a8dbe0fc5c84f49363254562166c8c0a7", null ],
-    [ "UpdateAI", "d7/d48/a19508.html#ae8efccb090f38968f3c0ca51f022013b", null ],
-    [ "_events", "d7/d48/a19508.html#ae0abd3d7fcb51ac02f8d325efa93b2f2", null ]
+    [ "boss_sjonnir_malformed_oozeAI", "d7/d48/a19508.html#a0624f769d0ce5a95ea2bb877811b0409", null ],
+    [ "JustEngagedWith", "d7/d48/a19508.html#a9e6527bc46d7b685d938833d18796cee", null ],
+    [ "MoveInLineOfSight", "d7/d48/a19508.html#a7449e135f088a2d4b22a423c71118093", null ],
+    [ "MovementInform", "d7/d48/a19508.html#ac04d90e974f85282737bb5081a123106", null ],
+    [ "UpdateAI", "d7/d48/a19508.html#afccd77c8e90d129fb3a347205a2102db", null ],
+    [ "events", "d7/d48/a19508.html#a73c135ec94b41a752fc203c5e20128d0", null ]
 ];

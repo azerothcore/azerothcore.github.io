@@ -1,6 +1,6 @@
 var a17860 =
 [
-    [ "HandleScript", "d2/dbd/a17860.html#a3ab626967e5e3984225cd7a7f4478468", null ],
-    [ "PrepareSpellScript", "d2/dbd/a17860.html#aac7a680febc654701d54960f7bbf1699", null ],
-    [ "Register", "d2/dbd/a17860.html#a298a9c0d0fda14df81a1ec559bab71ad", null ]
+    [ "DespawnSelf", "d2/dbd/a17860.html#a7009dd0e842898d03caa89e92447749d", null ],
+    [ "PrepareAuraScript", "d2/dbd/a17860.html#a00f0379b4e4fadf73bed7d483e406ac5", null ],
+    [ "Register", "d2/dbd/a17860.html#a8f21cb8ab1145fe32a78a682445cfc2d", null ]
 ];

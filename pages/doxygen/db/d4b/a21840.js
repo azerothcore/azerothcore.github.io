@@ -1,6 +1,10 @@
 var a21840 =
 [
-    [ "npc_ulduar_harpoonfirestateAI", "df/db2/a21844.html", "df/db2/a21844" ],
-    [ "npc_ulduar_harpoonfirestate", "db/d4b/a21840.html#a85043e64606ba7c9ce2da7a37bbf0e8e", null ],
-    [ "GetAI", "db/d4b/a21840.html#a8c9e1882c0706cb0b576c24b62215238", null ]
+    [ "npc_emilyAI", "db/d4b/a21840.html#afd1e82e36c8850fbe118ab6abbdb73ce", null ],
+    [ "JustEngagedWith", "db/d4b/a21840.html#a498ddc6969d398fe7a44824f4f8c8893", null ],
+    [ "JustSummoned", "db/d4b/a21840.html#a4730c94b54d2ee5160011557704b35f2", null ],
+    [ "Reset", "db/d4b/a21840.html#a8f196a6e1b21bef162b7ba4d7aeae208", null ],
+    [ "WaypointReached", "db/d4b/a21840.html#a0a68676a6eac8fbe2b634098268eb516", null ],
+    [ "_mrfloppyGUID", "db/d4b/a21840.html#a12a1fbe1ef4767698ab969e51e2f0e8e", null ],
+    [ "_RavenousworgGUID", "db/d4b/a21840.html#aa2a5e45366be9f89221453e00179e1a3", null ]
 ];

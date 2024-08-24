@@ -1,4 +1,6 @@
 var a08768 =
 [
-    [ "operator()", "da/d0d/a08768.html#a5abd3d4d6d94733f3f60751d9678abd7", null ]
+    [ "lang_id", "da/d0d/a08768.html#a1fa900a467834103ac595a8a96dd28c0", null ],
+    [ "skill_id", "da/d0d/a08768.html#a37ffc91876a998fe354ca1b7dffc512a", null ],
+    [ "spell_id", "da/d0d/a08768.html#ac0acb5dfb8af32b382b3b51db4daa0f0", null ]
 ];

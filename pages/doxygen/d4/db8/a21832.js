@@ -1,8 +1,8 @@
 var a21832 =
 [
-    [ "npc_ulduar_expedition_commanderAI", "d4/d24/a21836.html", "d4/d24/a21836" ],
-    [ "npc_ulduar_expedition_commander", "d4/db8/a21832.html#a8513554f686b75c29524fa5b2fa93ee4", null ],
-    [ "GetAI", "d4/db8/a21832.html#aa888a3634a643a103075d44c8f52d28a", null ],
-    [ "OnGossipHello", "d4/db8/a21832.html#a6b52abae7ec1be10fcb5385ec928b785", null ],
-    [ "OnGossipSelect", "d4/db8/a21832.html#a5d212e5e21d9ffb8c60e883e065c1801", null ]
+    [ "AfterApply", "d4/db8/a21832.html#a57279552b867251e9d2ee6a4ff5d7914", null ],
+    [ "PeriodicTick", "d4/db8/a21832.html#a2e86aa6efe6ab137926c1dfd1bd26a95", null ],
+    [ "PrepareAuraScript", "d4/db8/a21832.html#a9e1b74bf2d28a367caefdc90c34743c8", null ],
+    [ "Register", "d4/db8/a21832.html#a69eb0ca43a15d4995ad219459c2b39d6", null ],
+    [ "Validate", "d4/db8/a21832.html#a946248656cb755f85dd93fd4d607c9a7", null ]
 ];

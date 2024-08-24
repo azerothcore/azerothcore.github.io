@@ -1,6 +1,6 @@
 var a15768 =
 [
-    [ "npc_cairne_bloodhoofAI", "d4/df1/a15772.html", "d4/df1/a15772" ],
-    [ "npc_cairne_bloodhoof", "d1/db3/a15768.html#a3519d94c5fcdc3d55e31c49c7773e56c", null ],
-    [ "GetAI", "d1/db3/a15768.html#a1c34470c46ae9e98684de0e786be28b7", null ]
+    [ "HandleScriptEffect", "d1/db3/a15768.html#aaa650972803d14e4d74be977430b04f6", null ],
+    [ "PrepareSpellScript", "d1/db3/a15768.html#a1e166c53e2051f3fae1b085a76a08c3f", null ],
+    [ "Register", "d1/db3/a15768.html#a3405c1b04f2e623662c7acaa6810278c", null ]
 ];

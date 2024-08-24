@@ -1,7 +1,8 @@
 var a16140 =
 [
-    [ "npc_baltharus_the_warborn_cloneAI", "d3/d8c/a16140.html#aed531e61508d4d404827f47c6348a5e6", null ],
-    [ "JustEngagedWith", "d3/d8c/a16140.html#ad906b7602a34abcfaede92cba6f0a6d7", null ],
-    [ "UpdateAI", "d3/d8c/a16140.html#ab0c1cf041146a3e16a33986e3e824a2d", null ],
-    [ "_events", "d3/d8c/a16140.html#a6e2819f73f0fccd02b7188f0e6f1ffa9", null ]
+    [ "npc_announcer_toc5AI", "db/d8a/a16144.html", "db/d8a/a16144" ],
+    [ "npc_announcer_toc5", "d3/d8c/a16140.html#abf50bb7deb9e0bb04d9ac802aff5fa41", null ],
+    [ "GetAI", "d3/d8c/a16140.html#a06767a8fd1e940d4efee6dd752520e9e", null ],
+    [ "OnGossipHello", "d3/d8c/a16140.html#ad2cc55ddc6696b9bfb22e68eab965fb0", null ],
+    [ "OnGossipSelect", "d3/d8c/a16140.html#a9017488c652fd75882db75914f4a2db2", null ]
 ];

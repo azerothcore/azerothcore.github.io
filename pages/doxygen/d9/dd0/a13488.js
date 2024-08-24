@@ -1,7 +1,9 @@
 var a13488 =
 [
-    [ "npc_calvin_montagueAI", "d4/d37/a13492.html", "d4/d37/a13492" ],
-    [ "npc_calvin_montague", "d9/dd0/a13488.html#af8af2896fc3e32a4285c3559c6f14456", null ],
-    [ "GetAI", "d9/dd0/a13488.html#a556f29fca6310d0e12bb3e0a7bf12f84", null ],
-    [ "OnQuestAccept", "d9/dd0/a13488.html#aae8c6adcb7ec68146b5b96a65b76e72b", null ]
+    [ "npc_thrall_bfuAI", "d4/d37/a13492.html", "d4/d37/a13492" ],
+    [ "npc_thrall_bfu", "d9/dd0/a13488.html#a43eb37b9a0cf06be0e2cb6180730b09f", null ],
+    [ "GetAI", "d9/dd0/a13488.html#a28b4030d189e4d967a1b16f3464c14ba", null ],
+    [ "OnGossipHello", "d9/dd0/a13488.html#a71a7108464de9245879c8a1c08932e2a", null ],
+    [ "OnGossipSelect", "d9/dd0/a13488.html#aea62ed8489bea23772a52ddefbf9c60e", null ],
+    [ "OnQuestReward", "d9/dd0/a13488.html#aee56e54615e2696dcd0e7299e4f416b5", null ]
 ];

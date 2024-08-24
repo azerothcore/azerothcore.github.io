@@ -1,7 +1,6 @@
 var a23924 =
 [
-    [ "npc_wg_siege_machineAI", "d7/d77/a23924.html#aaeca9e73520701ce28f2cc9d1483cc6b", null ],
-    [ "CanControlVehicle", "d7/d77/a23924.html#a7ce79406da48e245a0baa2fdd23622b9", null ],
-    [ "UpdateAI", "d7/d77/a23924.html#a8ddd21047a857facc767a9edc0ec5408", null ],
-    [ "checkTimer", "d7/d77/a23924.html#abf4b06eae50adeefedba02e2186ea48a", null ]
+    [ "npc_daranelleAI", "d8/d6e/a23928.html", "d8/d6e/a23928" ],
+    [ "npc_daranelle", "d7/d77/a23924.html#a0a6e26b95d6d97821bc9e0c00b205704", null ],
+    [ "GetAI", "d7/d77/a23924.html#ad2ba5e4dfded886acaf2f9821e15738d", null ]
 ];

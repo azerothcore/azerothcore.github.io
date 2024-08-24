@@ -1,7 +1,11 @@
 var a14124 =
 [
-    [ "CheckTarget", "dc/d10/a14124.html#a231a8f06c0f0344beb46dfa8911caa82", null ],
-    [ "HandleDummyEffect", "dc/d10/a14124.html#a1771cf8a38a84e0fd615976b388124c4", null ],
-    [ "PrepareSpellScript", "dc/d10/a14124.html#a4a6d00a2e7fba409bf45cfabb0b4ac7e", null ],
-    [ "Register", "dc/d10/a14124.html#a8edf3db6c7a6689ff6b62aeb01a784a7", null ]
+    [ "npc_the_etymidian", "dc/d10/a14124.html#af491016ac89b67947650a5ca9c379875", null ],
+    [ "MoveInLineOfSight", "dc/d10/a14124.html#adde2d86e30442eb1b47219e934e24407", null ],
+    [ "Reset", "dc/d10/a14124.html#a714edf3ba5f7a6d59242c991764effc5", null ],
+    [ "UpdateAI", "dc/d10/a14124.html#a1f3cfddae43e443c5cd4a8a0f9f87a89", null ],
+    [ "orphanGUID", "dc/d10/a14124.html#a9ba2c34b08d0fe61e18037b02f352d08", null ],
+    [ "phase", "dc/d10/a14124.html#a7086e9a8a8a7287cf90688270e9933a7", null ],
+    [ "playerGUID", "dc/d10/a14124.html#a7371e361c018360315e20086b0b99079", null ],
+    [ "timer", "dc/d10/a14124.html#a8508a2c89eeeee2d235e1178ca77e895", null ]
 ];

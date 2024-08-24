@@ -1,6 +1,10 @@
 var a22824 =
 [
-    [ "spell_optic_linkAuraScript", "d8/d5c/a22828.html", "d8/d5c/a22828" ],
-    [ "spell_optic_link", "da/dc5/a22824.html#a07840298df5282ca6dbef56a63edbfc7", null ],
-    [ "GetAuraScript", "da/dc5/a22824.html#a05dc6977f347b1aedb439cc2b6e7618b", null ]
+    [ "CalculateAmount", "da/dc5/a22824.html#a19dcb71e46cc6fb08fda251829afae6f", null ],
+    [ "CheckProc", "da/dc5/a22824.html#a8c4f5c9f3db8710aafd687a7bf304572", null ],
+    [ "HandleProc", "da/dc5/a22824.html#ab5fc5ad25ab1d7451f0b8801894ae400", null ],
+    [ "PrepareAuraScript", "da/dc5/a22824.html#a6e066884663276dbba82e46ca5f66e59", null ],
+    [ "Register", "da/dc5/a22824.html#ac4154f0746e77229e8d349021d5b9c30", null ],
+    [ "Update", "da/dc5/a22824.html#a9f5f3767f52f9755de6592f00f62a3d4", null ],
+    [ "Validate", "da/dc5/a22824.html#a4f10d23f63c47b408b70373623b877a8", null ]
 ];

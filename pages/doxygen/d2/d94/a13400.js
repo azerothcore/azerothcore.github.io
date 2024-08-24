@@ -1,6 +1,6 @@
 var a13400 =
 [
-    [ "OnEffect", "d2/d94/a13400.html#a814ab5c1e0063eb6398f767cbab28cd7", null ],
-    [ "PrepareSpellScript", "d2/d94/a13400.html#ab950bf8cf87ff2967658855c0fe08fc8", null ],
-    [ "Register", "d2/d94/a13400.html#a5cef1b024d009ab6551b18c98244fcbd", null ]
+    [ "npc_lord_gregor_lescovarAI", "d6/dfc/a13404.html", "d6/dfc/a13404" ],
+    [ "npc_lord_gregor_lescovar", "d2/d94/a13400.html#a6164425b7bb6bc8aa95a6665b7d1c55c", null ],
+    [ "GetAI", "d2/d94/a13400.html#a4cf39729bb687c7db3538575a799283e", null ]
 ];

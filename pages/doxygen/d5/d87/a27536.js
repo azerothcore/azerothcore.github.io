@@ -1,7 +1,5 @@
 var a27536 =
 [
-    [ "HandleScriptEffect", "d5/d87/a27536.html#acbcc05fa433f5bf75998b15e4e25fdad", null ],
-    [ "PrepareSpellScript", "d5/d87/a27536.html#adf5a3b94012ac871c70f5782d57ae1cd", null ],
-    [ "Register", "d5/d87/a27536.html#a00596a3f8f0699c25e52a5778d59a2b2", null ],
-    [ "SelectTarget", "d5/d87/a27536.html#a6a59b7ce696f959b2026cf8088079e89", null ]
+    [ "npc_pet_trainerAI", "d5/d87/a27536.html#aa5c01fd7cf2b9fad15a3059b4fe38d13", null ],
+    [ "sGossipSelect", "d5/d87/a27536.html#a6768c8f8f5e37058f85cb40d35caad72", null ]
 ];

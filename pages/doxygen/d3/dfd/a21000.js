@@ -1,6 +1,6 @@
 var a21000 =
 [
-    [ "FilterTargets", "d3/dfd/a21000.html#a0c95ee07e6e2a5cb68f2005a9527c32b", null ],
-    [ "PrepareSpellScript", "d3/dfd/a21000.html#a5de0292e563cff020037d38b2bee9163", null ],
-    [ "Register", "d3/dfd/a21000.html#a95345e01f8c43fa9af346a43a8b1c865", null ]
+    [ "boss_dalronn_the_controllerAI", "d8/d18/a21004.html", "d8/d18/a21004" ],
+    [ "boss_dalronn_the_controller", "d3/dfd/a21000.html#afb5f8ef1df5d2e70e48f88cf986d88b2", null ],
+    [ "GetAI", "d3/dfd/a21000.html#a62a12d41c5c4ed808ea8d65068a92b1f", null ]
 ];

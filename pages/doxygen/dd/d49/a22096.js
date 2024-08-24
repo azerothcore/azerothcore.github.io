@@ -1,6 +1,6 @@
 var a22096 =
 [
-    [ "PrepareSpellScript", "dd/d49/a22096.html#afcadab50ddf14a4ce6b09aaf1ded822e", null ],
-    [ "Register", "dd/d49/a22096.html#a085a083a8a496b6b22c0ec1f0a46fe29", null ],
-    [ "SelectTarget", "dd/d49/a22096.html#ad156fe6ea8d0ee320a62105e7e62284c", null ]
+    [ "HandleHealPct", "dd/d49/a22096.html#aa297ef88b58849610b1b3bfdb0142eab", null ],
+    [ "PrepareSpellScript", "dd/d49/a22096.html#a902b733a4b106439c49f8c80de8e9bf3", null ],
+    [ "Register", "dd/d49/a22096.html#a52f253d2a3b9b3890020107b7722ad96", null ]
 ];

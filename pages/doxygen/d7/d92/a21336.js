@@ -1,7 +1,6 @@
 var a21336 =
 [
-    [ "npc_ulduar_saronite_vaporsAI", "d7/d92/a21336.html#a8f811c588aeca2cd4a12d4d345907bd2", null ],
-    [ "IsSummonedBy", "d7/d92/a21336.html#a4692bb5c3ffadcfd133db665566c66e5", null ],
-    [ "JustDied", "d7/d92/a21336.html#a5be637500e7b5735d90e19fa40fde467", null ],
-    [ "pInstance", "d7/d92/a21336.html#a25cf8dd22f05566ae99b14a596039f5e", null ]
+    [ "instance_violet_hold_InstanceMapScript", "d8/d9d/a21340.html", "d8/d9d/a21340" ],
+    [ "instance_violet_hold", "d7/d92/a21336.html#ae66f018196cd90683506c3cc3d8c5d7a", null ],
+    [ "GetInstanceScript", "d7/d92/a21336.html#aeedcbb24b0709bd172ebbbc6d9851532", null ]
 ];

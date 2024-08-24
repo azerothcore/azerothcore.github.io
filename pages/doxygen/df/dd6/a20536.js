@@ -1,6 +1,6 @@
 var a20536 =
 [
-    [ "HandleEffectCalcAmount", "df/dd6/a20536.html#a204f40b6f89b4e91c3dacde1872df3dd", null ],
-    [ "PrepareAuraScript", "df/dd6/a20536.html#ac1531a1fc8c3f9e1a96c52905d61c219", null ],
-    [ "Register", "df/dd6/a20536.html#aa3c64f6ea6e8cc99ff9978c820530fb1", null ]
+    [ "boss_thorim_start_npcsAI", "db/d05/a20540.html", "db/d05/a20540" ],
+    [ "boss_thorim_start_npcs", "df/dd6/a20536.html#a3aa11a487ae00b2e397fd25ed2e42702", null ],
+    [ "GetAI", "df/dd6/a20536.html#a6c529b19d071b4966ccc74b44279cb08", null ]
 ];

@@ -1,9 +1,8 @@
 var a12668 =
 [
-    [ "npc_risen_guardianAI", "d6/ddc/a12668.html#a50eb3de52205fc1bbc6936f0708c68a6", null ],
-    [ "IsSummonedBy", "d6/ddc/a12668.html#ad9f45b9007c1ff74d0f725fbf7f00abe", null ],
-    [ "KilledUnit", "d6/ddc/a12668.html#abc7afaa685a436b34ff76edcc6c25e54", null ],
-    [ "Gandling", "d6/ddc/a12668.html#a93013b905260aa51341b22d1627cc986", null ],
-    [ "instance", "d6/ddc/a12668.html#a96f1835989f646c708b8ef0cc9999e63", null ],
-    [ "room", "d6/ddc/a12668.html#a5862a184b6daa92da133cc6c360a993d", null ]
+    [ "npc_highlord_darion_mograineAI", "d9/df3/a12672.html", "d9/df3/a12672" ],
+    [ "npc_highlord_darion_mograine", "d6/ddc/a12668.html#a86680b1a140c706b10fd48befc572286", null ],
+    [ "GetAI", "d6/ddc/a12668.html#a350539ed741fa372ffff92ffbc6e6260", null ],
+    [ "OnGossipHello", "d6/ddc/a12668.html#a35afc9d80b4570163af9f6013949a70c", null ],
+    [ "OnGossipSelect", "d6/ddc/a12668.html#a0539d24556c16a1a72be8258c752f5f5", null ]
 ];

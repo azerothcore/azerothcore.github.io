@@ -1,6 +1,7 @@
 var a25936 =
 [
-    [ "npc_ragin_flamesAI", "d5/ddd/a25940.html", "d5/ddd/a25940" ],
-    [ "npc_ragin_flames", "d4/dfc/a25936.html#a20e9690d0c20775708c45680af884796", null ],
-    [ "GetAI", "d4/dfc/a25936.html#a65270f910baacabac588a46480454aca", null ]
+    [ "CalculateAmount", "d4/dfc/a25936.html#a0934aa8eaf442314aa6050d85304c15b", null ],
+    [ "CalculateSpellAmount", "d4/dfc/a25936.html#ab765b87350bd3e73ac43879abef72d98", null ],
+    [ "PrepareAuraScript", "d4/dfc/a25936.html#a627c6a88ed6ce051b0d6a06d94288498", null ],
+    [ "Register", "d4/dfc/a25936.html#ae1b5265f817f1f4ec011d4e2607686eb", null ]
 ];

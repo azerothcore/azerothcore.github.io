@@ -1,6 +1,8 @@
 var a24924 =
 [
-    [ "boss_doomlordkazzakAI", "db/df2/a24928.html", "db/df2/a24928" ],
-    [ "boss_doomlord_kazzak", "d7/df7/a24924.html#ae4e4844d584ba71ebd3d8a341ba91462", null ],
-    [ "GetAI", "d7/df7/a24924.html#a460a32ce37aae852b48f1990406da9a4", null ]
+    [ "HandleEffectCalcPeriodic", "d7/df7/a24924.html#a78c46695cab8da2280686ea49d88f036", null ],
+    [ "HandleEffectPeriodic", "d7/df7/a24924.html#a65b8a9dcd836cb538d5d2bec3d03d4a2", null ],
+    [ "HandleOnEffectRemove", "d7/df7/a24924.html#af722cf30e478802784178a9346bd1bdd", null ],
+    [ "PrepareAuraScript", "d7/df7/a24924.html#a6352d1ab3dd67efd9be171f7db20a62d", null ],
+    [ "Register", "d7/df7/a24924.html#ae6c2b365463345c71ed1a4acdee04a15", null ]
 ];

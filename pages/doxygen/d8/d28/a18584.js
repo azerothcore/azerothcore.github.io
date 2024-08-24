@@ -1,6 +1,5 @@
 var a18584 =
 [
-    [ "FilterTargetsInitial", "d8/d28/a18584.html#a4cf4f0c9c2fabe550eef5fc6cbb3ffbf", null ],
-    [ "PrepareSpellScript", "d8/d28/a18584.html#a5a8694b9f5d08f073ec96e74c62e9f6f", null ],
-    [ "Register", "d8/d28/a18584.html#afde5f7c3b8ffe1c51157c105059c5ad7", null ]
+    [ "at_icc_saurfang_portal", "d8/d28/a18584.html#a7f30058251c520634a0b7bad08380e5d", null ],
+    [ "OnTrigger", "d8/d28/a18584.html#a8980fe0e67aa33335f0fdb947a294213", null ]
 ];

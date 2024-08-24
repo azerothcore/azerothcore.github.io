@@ -1,6 +1,12 @@
 var a20376 =
 [
-    [ "spell_boss_magus_telestra_gravity_well_SpellScript", "dd/dd6/a20380.html", "dd/dd6/a20380" ],
-    [ "spell_boss_magus_telestra_gravity_well", "d0/dbd/a20376.html#ae656b805e0e659eff88149d4c19ac0d9", null ],
-    [ "GetSpellScript", "d0/dbd/a20376.html#aed0d2efbbb6928365c086f9fc8a28c67", null ]
+    [ "npc_ulduar_flames_initialAI", "d0/dbd/a20376.html#a5d7202463d12fbdfcc5efdfba786ca19", null ],
+    [ "DoAction", "d0/dbd/a20376.html#a6169d12043e73e7991064decccf0926a", null ],
+    [ "RemoveAll", "d0/dbd/a20376.html#a2c39dd0d4d8040db5b18af1c1b27071a", null ],
+    [ "RemoveFlame", "d0/dbd/a20376.html#ab992d2df928b9ca2699ca48e64fb2606", null ],
+    [ "SpreadFlame", "d0/dbd/a20376.html#ae801181472a8e29208a4f305fb0307f9", null ],
+    [ "UpdateAI", "d0/dbd/a20376.html#a9d628d32d3519d0e7152c772e540b7ef", null ],
+    [ "CreateTime", "d0/dbd/a20376.html#ae50820bb38d0ed61b8687b4023aac5b9", null ],
+    [ "events", "d0/dbd/a20376.html#a89217e11f9930b336665969791fc84b9", null ],
+    [ "FlameList", "d0/dbd/a20376.html#a75b218699a42ece4959d0a1fe40713d7", null ]
 ];

@@ -1,7 +1,6 @@
 var a27232 =
 [
-    [ "HandleScript", "d9/df0/a27232.html#a8b20e2ffed94ec9438dc9b756ba76693", null ],
-    [ "PrepareSpellScript", "d9/df0/a27232.html#a9e29ea947d5415471d991a4e1cd699ac", null ],
-    [ "Register", "d9/df0/a27232.html#aa4bc27415893009581b317637599a85a", null ],
-    [ "Validate", "d9/df0/a27232.html#a77ed10819633ae2bc381023da0feb31b", null ]
+    [ "go_bashir_crystalforge", "d9/df0/a27232.html#a8b68a63933e14d82198580912fddc280", null ],
+    [ "OnGossipHello", "d9/df0/a27232.html#a4aa941ae78a17eecc5593d6ccd17ff63", null ],
+    [ "OnGossipSelect", "d9/df0/a27232.html#ac7e1b6db4ae2bee766b95049a8b0c320", null ]
 ];

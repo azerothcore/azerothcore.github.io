@@ -1,6 +1,8 @@
 var a18400 =
 [
-    [ "spell_marrowgar_bone_slice_SpellScript", "d3/d63/a18404.html", "d3/d63/a18404" ],
-    [ "spell_marrowgar_bone_slice", "d7/d96/a18400.html#a2f0c9172704a0e91da617f55afef43ba", null ],
-    [ "GetSpellScript", "d7/d96/a18400.html#a3185d10f1770b2eb0abe0122085906be", null ]
+    [ "Load", "d7/d96/a18400.html#a3a5fa4814a7724db0ba7be5c5158798b", null ],
+    [ "PeriodicTick", "d7/d96/a18400.html#a4ff0ab22db0bbd4483ddb379de069c48", null ],
+    [ "PrepareAuraScript", "d7/d96/a18400.html#a029820fbfc34af4d0ccb825a9f9d2b0d", null ],
+    [ "Register", "d7/d96/a18400.html#a909819dde9d5154f3d2cf04b04fa33f7", null ],
+    [ "_instance", "d7/d96/a18400.html#aebebb858f2ae41f2260d6843b3da8052", null ]
 ];

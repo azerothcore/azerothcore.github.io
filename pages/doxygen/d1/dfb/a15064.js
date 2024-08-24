@@ -1,25 +1,10 @@
 var a15064 =
 [
-    [ "instance_ruins_of_ahnqiraj_InstanceMapScript", "d1/dfb/a15064.html#a1dfadd96c9cc420bb7c90ec8a2d0a1a2", null ],
-    [ "CallNextRajaxxLeader", "d1/dfb/a15064.html#a12de9882d8e71f68e7b52e4b3972dca4", null ],
-    [ "GetData", "d1/dfb/a15064.html#abe72d94186f5d5b9b97c82ac65f71fd6", null ],
-    [ "GetGuidData", "d1/dfb/a15064.html#a8a2c4b3677d8da475d1e5ea035becf15", null ],
-    [ "OnCreatureCreate", "d1/dfb/a15064.html#ac2b2bfb3ae426a82affbf363a49049ef", null ],
-    [ "OnCreatureEvade", "d1/dfb/a15064.html#af59d38b0842a962b94efcbf9af8e56ca", null ],
-    [ "OnPlayerEnter", "d1/dfb/a15064.html#aca8fbf17f8d583c1568a965bdf2b22f4", null ],
-    [ "OnUnitDeath", "d1/dfb/a15064.html#afc601fed830c0d8fe63cbf7741ff1c55", null ],
-    [ "ResetRajaxxWaves", "d1/dfb/a15064.html#a3a6aa2cc867de4842b10632ea761fb1e", null ],
-    [ "SetData", "d1/dfb/a15064.html#a4a9acbb13d81d88674b62aa49ac8a2e3", null ],
-    [ "SetGuidData", "d1/dfb/a15064.html#ac8f2440e439654e977d4a9a4b2b50b52", null ],
-    [ "Update", "d1/dfb/a15064.html#ac736368ad8a4b0a0a1e7c047c91a4605", null ],
-    [ "_andorovGUID", "d1/dfb/a15064.html#a52168c9369fe1e691378577ea700115c", null ],
-    [ "_buruGUID", "d1/dfb/a15064.html#afbf08e65630819d5c60ecaa3d4d5bc42", null ],
-    [ "_buruPhase", "d1/dfb/a15064.html#ab8192edc41599ce20cc66efaaba5479a", null ],
-    [ "_kurinnaxxGUID", "d1/dfb/a15064.html#af1077bb8af7e756d9d548a4fe3fbd17b", null ],
-    [ "_moamGUID", "d1/dfb/a15064.html#a1025fdcd1b84e5d2c4eaa79d918ecd78", null ],
-    [ "_ossirianGUID", "d1/dfb/a15064.html#a254a550649a8f806f98d6eb90f593b54", null ],
-    [ "_paralyzedGUID", "d1/dfb/a15064.html#abc537534538f78cabf6534371ab090e9", null ],
-    [ "_rajaxWaveCounter", "d1/dfb/a15064.html#a010079e135c41de850419149ec2857f3", null ],
-    [ "_rajaxxGUID", "d1/dfb/a15064.html#aa92f25482c7c6d2bf7944a080beb858c", null ],
-    [ "_scheduler", "d1/dfb/a15064.html#a2bcfe52ffdefe1c5dd525e69b750b064", null ]
+    [ "npc_anubisath_defender", "d1/dfb/a15064.html#ae24a21ad3ebcaa4b8312a1fea66131ba", null ],
+    [ "DamageTaken", "d1/dfb/a15064.html#a032714b16d3d77a19bec0f918d8ef8df", null ],
+    [ "JustDied", "d1/dfb/a15064.html#a225ca1b3144953bcc5890caf0d32b606", null ],
+    [ "JustEngagedWith", "d1/dfb/a15064.html#a6505fcae0e99cae44750f16daddc3309", null ],
+    [ "Reset", "d1/dfb/a15064.html#ab10d9ac93aab97172f630e1d7d8faca0", null ],
+    [ "UpdateAI", "d1/dfb/a15064.html#a1f190f45ffbaf20f5565221780dc5cc6", null ],
+    [ "_enraged", "d1/dfb/a15064.html#a4adef63a5093e3c0ecb8b57283e94ff8", null ]
 ];

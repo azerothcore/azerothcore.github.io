@@ -1,6 +1,7 @@
 var a26404 =
 [
-    [ "npc_rotting_forest_ragerAI", "d1/df2/a26408.html", "d1/df2/a26408" ],
-    [ "npc_rotting_forest_rager", "d9/db1/a26404.html#a70ee57ef5bc4f187ab511916f47b61a9", null ],
-    [ "GetAI", "d9/db1/a26404.html#ae457fe382f3c015a2c854cc28726c4c7", null ]
+    [ "HandleDummy", "d9/db1/a26404.html#a2ea424e6c740305340001b1c09bfec91", null ],
+    [ "PrepareSpellScript", "d9/db1/a26404.html#afe722c970155b47eac94bb9861a4eb46", null ],
+    [ "Register", "d9/db1/a26404.html#a2c2b96f1c00da9884ec9d01fe897c8c1", null ],
+    [ "Validate", "d9/db1/a26404.html#ac5f782da8b5e387c31e048759baf3e16", null ]
 ];

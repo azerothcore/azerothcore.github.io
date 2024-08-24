@@ -1,6 +1,8 @@
 var a23656 =
 [
-    [ "npc_guardian_pavilionAI", "dc/dbf/a23660.html", "dc/dbf/a23660" ],
-    [ "npc_guardian_pavilion", "d2/d7e/a23656.html#aecc7e93f2b50351584049f031362e0f0", null ],
-    [ "GetAI", "d2/d7e/a23656.html#a89e55b3267cd93ae688573678851c7b9", null ]
+    [ "HandleEffectApply", "d2/d7e/a23656.html#ad75c8c6279e606d6a557a61d97ee8f42", null ],
+    [ "HandleEffectRemove", "d2/d7e/a23656.html#a7cd59f7ca82a6507024842ebcb1ba093", null ],
+    [ "PrepareAuraScript", "d2/d7e/a23656.html#a438a8ba3688e0832853bae4183695494", null ],
+    [ "Register", "d2/d7e/a23656.html#a52a86cce0afa66203cc5982ddbe5de4f", null ],
+    [ "Validate", "d2/d7e/a23656.html#ab07b244e53b397bc9e9842655617a80d", null ]
 ];

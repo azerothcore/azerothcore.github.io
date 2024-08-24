@@ -1,6 +1,7 @@
 var a20836 =
 [
-    [ "spell_algalon_phase_punch_AuraScript", "df/dcd/a20840.html", "df/dcd/a20840" ],
-    [ "spell_algalon_phase_punch", "d4/dfd/a20836.html#a3c974979ef969c5fe46bf620c371b7b9", null ],
-    [ "GetAuraScript", "d4/dfd/a20836.html#a692d05bf0cba8a3e40be5e7bc38d5b87", null ]
+    [ "FilterTargets", "d4/dfd/a20836.html#a4e27a01b87e6f003ed52da45a4bda403", null ],
+    [ "HandleDummyEffect", "d4/dfd/a20836.html#abfe7ff12346d54fe3a0c1450897e58ee", null ],
+    [ "PrepareSpellScript", "d4/dfd/a20836.html#a0c31912e28eaa5922edb1ca4c7689883", null ],
+    [ "Register", "d4/dfd/a20836.html#a337cdb940a2001ac370768b02126d3c0", null ]
 ];

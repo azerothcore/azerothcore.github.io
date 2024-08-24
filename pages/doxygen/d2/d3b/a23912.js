@@ -1,6 +1,7 @@
 var a23912 =
 [
-    [ "npc_wg_queueAI", "d2/d3b/a23912.html#a3760738d61b6148042fc30bd96b88fdc", null ],
-    [ "UpdateAI", "d2/d3b/a23912.html#a2e5f19a0f01eeb3d1585c7b02f2073b2", null ],
-    [ "events", "d2/d3b/a23912.html#ab0eb949272e48120cff1c3df27ad8e92", null ]
+    [ "OnPeriodic", "d2/d3b/a23912.html#a7ef787ac13b97aa225a5340f7bfcc4e3", null ],
+    [ "PrepareAuraScript", "d2/d3b/a23912.html#a6f7db06cc1ace68ee0076077773b1659", null ],
+    [ "Register", "d2/d3b/a23912.html#a559347bedad9fd8a0e6f4c5b14333c06", null ],
+    [ "Validate", "d2/d3b/a23912.html#aae1c2d5b8eb30341a67e261e69a4d294", null ]
 ];

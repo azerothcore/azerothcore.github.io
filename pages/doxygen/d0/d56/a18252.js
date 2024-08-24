@@ -1,6 +1,6 @@
 var a18252 =
 [
-    [ "spell_igb_rocket_artillery_explosion_SpellScript", "dd/d24/a18256.html", "dd/d24/a18256" ],
-    [ "spell_igb_rocket_artillery_explosion", "d0/d56/a18252.html#aaa24301dc1dc6c86a43a0a95810cf96e", null ],
-    [ "GetSpellScript", "d0/d56/a18252.html#a8e074c35d4fb45b8d88f0f28df8534c5", null ]
+    [ "npc_icc_lk_checktargetAI", "dd/d24/a18256.html", "dd/d24/a18256" ],
+    [ "npc_icc_lk_checktarget", "d0/d56/a18252.html#a3a2cc943e731e472694dcb13417090da", null ],
+    [ "GetAI", "d0/d56/a18252.html#a2cd9a5c7fec791ba8786cf1bb5b7c8bd", null ]
 ];

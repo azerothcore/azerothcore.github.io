@@ -1,5 +1,7 @@
 var a21532 =
 [
-    [ "achievement_cheese_the_freeze", "d0/d3d/a21532.html#a5ec4c344a0ed203086be2661e4e24f0e", null ],
-    [ "OnCheck", "d0/d3d/a21532.html#aaf3342fb3153a4d9223d880c0f2a277a", null ]
+    [ "npc_valiance_keep_cannoneerAI", "d0/d3d/a21532.html#a0769e975c5c7ff1cfbfa6089e3e55e3f", null ],
+    [ "Reset", "d0/d3d/a21532.html#a65718076e65b68cae0a54ff4112fdb4b", null ],
+    [ "UpdateAI", "d0/d3d/a21532.html#a75f16f2b028ca341db6e08536be06bfa", null ],
+    [ "uiTimer", "d0/d3d/a21532.html#a0cf5f0413b1cded835252a38e272f835", null ]
 ];

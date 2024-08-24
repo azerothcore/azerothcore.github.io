@@ -1,8 +1,6 @@
 var a13992 =
 [
-    [ "boss_marli", "db/d8e/a13992.html#abba94b400523047bfa9e3a5b34b1ee54", null ],
-    [ "JustDied", "db/d8e/a13992.html#a10ab29949ef17e0f9ebd991dc70262c7", null ],
-    [ "JustEngagedWith", "db/d8e/a13992.html#ac74bd382c3dc826f7e4426bec3557094", null ],
-    [ "Reset", "db/d8e/a13992.html#ada18ae0feb0c512267ec6bd83b8ac591", null ],
-    [ "UpdateAI", "db/d8e/a13992.html#a1f52d25586964d4414b0a3a449b2d09f", null ]
+    [ "npc_brewfest_bark_trigger", "db/d8e/a13992.html#a110d654792e1f5dae8b17f014ea3d425", null ],
+    [ "GetTextFor", "db/d8e/a13992.html#aca27445a1d9868a2cbd3a6a89dd806df", null ],
+    [ "MoveInLineOfSight", "db/d8e/a13992.html#a271a440f21b4abddd9aa087e1e64a3d0", null ]
 ];

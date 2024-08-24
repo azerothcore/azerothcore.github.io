@@ -1,6 +1,7 @@
 var a19320 =
 [
-    [ "boss_valithria_dreamwalkerAI", "da/d3c/a19324.html", "da/d3c/a19324" ],
-    [ "boss_valithria_dreamwalker", "d8/daa/a19320.html#afcc6dc92d94330d3aed67f71452f9cd2", null ],
-    [ "GetAI", "d8/daa/a19320.html#a0f0bacefa7e3d682a5db81a14f2ff947", null ]
+    [ "Apply", "d8/daa/a19320.html#add8e95d38b0c437833c11cded72fe2a7", null ],
+    [ "PrepareAuraScript", "d8/daa/a19320.html#ad2112b571d97e537983b4d11207015e6", null ],
+    [ "Register", "d8/daa/a19320.html#accf85a0d8b2fad19bb0709013caa9f1b", null ],
+    [ "Validate", "d8/daa/a19320.html#a0b89b10ee22d02655ad08a348ab91ecd", null ]
 ];

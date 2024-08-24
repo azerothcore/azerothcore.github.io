@@ -1,6 +1,6 @@
 var a26388 =
 [
-    [ "spell_q10898_skywing_SpellScript", "d9/d8b/a26392.html", "d9/d8b/a26392" ],
-    [ "spell_q10898_skywing", "d1/d03/a26388.html#a505d389341a427cb1a156f1e6a5bcdb8", null ],
-    [ "GetSpellScript", "d1/d03/a26388.html#a4312446c2eb18092f6b74d9c5ecfcd06", null ]
+    [ "HandleDummy", "d1/d03/a26388.html#a86ec9b4606ae92b070edd4ca863fe93e", null ],
+    [ "PrepareSpellScript", "d1/d03/a26388.html#a4411e4317053450a0ac5217d546952b2", null ],
+    [ "Register", "d1/d03/a26388.html#a9eea8631e0723555a9c328bdfc1e30b7", null ]
 ];

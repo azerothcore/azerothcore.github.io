@@ -1,6 +1,5 @@
 var a24404 =
 [
-    [ "spell_illidan_glaive_throw_SpellScript", "d5/d8f/a24408.html", "d5/d8f/a24408" ],
-    [ "spell_illidan_glaive_throw", "d7/dcf/a24404.html#a689a320dd546eb5ae6240a7028b3703b", null ],
-    [ "GetSpellScript", "d7/dcf/a24404.html#a8692d70c802ffa2695a64846929e935d", null ]
+    [ "npc_pet_pri_lightwell", "d7/dcf/a24404.html#aebeb192e66c7d5b4201cbaa81d46703c", null ],
+    [ "InitializeAI", "d7/dcf/a24404.html#a5244bcfab27ccad603f80c6f2b2fcd3a", null ]
 ];

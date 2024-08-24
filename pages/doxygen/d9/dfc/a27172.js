@@ -1,6 +1,6 @@
 var a27172 =
 [
-    [ "HandleScriptEffect", "d9/dfc/a27172.html#ab3f415ae783f2a778178cc3319b32773", null ],
-    [ "PrepareSpellScript", "d9/dfc/a27172.html#a4ba7f7935c4acda891190dc375086dee", null ],
-    [ "Register", "d9/dfc/a27172.html#ad9b1571b4faf7d0fc6df7f6a8eb05c8a", null ]
+    [ "go_pirate_day_musicAI", "da/de1/a27176.html", "da/de1/a27176" ],
+    [ "go_pirate_day_music", "d9/dfc/a27172.html#aa8d19102357639bd160eae9e90a87505", null ],
+    [ "GetAI", "d9/dfc/a27172.html#a3bce105696415c9a31c5cbeb9607fa95", null ]
 ];

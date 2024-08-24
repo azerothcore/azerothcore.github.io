@@ -1,7 +1,8 @@
 var a08288 =
 [
-    [ "equipement_id_prev", "d1/db3/a08288.html#a93a895fa31cef29fa739225316886e78", null ],
-    [ "equipment_id", "d1/db3/a08288.html#af21361c600fb9609f554b64bc5cfb4c2", null ],
-    [ "modelid", "d1/db3/a08288.html#a53296cbdf02039d19610c21e0f7d5d1d", null ],
-    [ "modelid_prev", "d1/db3/a08288.html#a976ce0cdd7c8e95465bc999d26347bde", null ]
+    [ "PlayerCreateInfoAction", "d1/db3/a08288.html#a50d56595c71374e132dfe9f988144e75", null ],
+    [ "PlayerCreateInfoAction", "d1/db3/a08288.html#a1e1d33b18074031e408da10f44a9a9c4", null ],
+    [ "action", "d1/db3/a08288.html#a957d05ae25fd1ca801e097f03f9cc43e", null ],
+    [ "button", "d1/db3/a08288.html#ac0c4658cfb1fc01cbb55116dd6dbe899", null ],
+    [ "type", "d1/db3/a08288.html#a41e4a38f2c12f9e68b835fe17e56bc7e", null ]
 ];

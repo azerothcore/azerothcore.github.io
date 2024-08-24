@@ -1,7 +1,6 @@
 var a20504 =
 [
-    [ "HandleProc", "df/dcd/a20504.html#adef038276dd50ef62a80a6d4cfa835ad", null ],
-    [ "PrepareAuraScript", "df/dcd/a20504.html#ad9605fafcb47d904c4aa936099afd87e", null ],
-    [ "Register", "df/dcd/a20504.html#ac0461c5117ebca14bae3e233154002aa", null ],
-    [ "Validate", "df/dcd/a20504.html#a7010ec13423da28215b91ce1abbe73ea", null ]
+    [ "boss_thorim_lightning_orbAI", "de/de7/a20508.html", "de/de7/a20508" ],
+    [ "boss_thorim_lightning_orb", "df/dcd/a20504.html#a2aa29e8d2b3fb10e8be39d8fc3112ac2", null ],
+    [ "GetAI", "df/dcd/a20504.html#ad24d28866145c4fccf7a3971856fa87f", null ]
 ];

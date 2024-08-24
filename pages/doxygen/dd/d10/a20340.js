@@ -1,6 +1,8 @@
 var a20340 =
 [
-    [ "boss_commander_stoutbeardAI", "de/d34/a20344.html", "de/d34/a20344" ],
-    [ "boss_commander_stoutbeard", "dd/d10/a20340.html#a88d3d29efbfffc22dbe48bd9fa1de9d6", null ],
-    [ "GetAI", "dd/d10/a20340.html#a890716f1c4adf9cd3d565b62cc675f64", null ]
+    [ "npc_ulduar_mimiron_rocketAI", "dd/d10/a20340.html#ad758070aaeadc4d7b2b7ff4108b76c89", null ],
+    [ "InitializeAI", "dd/d10/a20340.html#aba3bf48434dca79f56f4b9aac707d48c", null ],
+    [ "Reset", "dd/d10/a20340.html#a60fbcbae9205bfd1c63b5bef7924b3ee", null ],
+    [ "SetData", "dd/d10/a20340.html#a8e547ba872c9bc2ec95ae2f60b011fce", null ],
+    [ "UpdateAI", "dd/d10/a20340.html#a28106e303d5e7c1bce9ceaa571129dca", null ]
 ];

@@ -1,6 +1,6 @@
 var a22652 =
 [
-    [ "instance_utgarde_pinnacle_InstanceMapScript", "df/d8e/a22656.html", "df/d8e/a22656" ],
-    [ "instance_utgarde_pinnacle", "d9/d45/a22652.html#a70c1528c9c1b0d830cc7af7debd5721b", null ],
-    [ "GetInstanceScript", "d9/d45/a22652.html#a41bd06d5f42b09193c5f1b2bbb2323ac", null ]
+    [ "PrepareSpellScript", "d9/d45/a22652.html#abd6b61e7efbed1427b7603640ac7d474", null ],
+    [ "RecalculateDamage", "d9/d45/a22652.html#a02b59e5ac84c8556c9a9441ff6414461", null ],
+    [ "Register", "d9/d45/a22652.html#ab6183bf9e49d3c11c256e54053c13aa2", null ]
 ];

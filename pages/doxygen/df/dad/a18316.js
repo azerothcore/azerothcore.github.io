@@ -1,12 +1,23 @@
 var a18316 =
 [
-    [ "npc_vengeful_shadeAI", "df/dad/a18316.html#acd3961c7c81f88a341cb71888c55c882", null ],
-    [ "AttackStart", "df/dad/a18316.html#afbd441c5ebf2207d37da1a905be1a247", null ],
-    [ "EnterEvadeMode", "df/dad/a18316.html#a37bffb02c4ebf6acab8c3474581056a6", null ],
-    [ "MoveInLineOfSight", "df/dad/a18316.html#a1e8e28e76f27edc5e07574e6050d7e5f", null ],
-    [ "Reset", "df/dad/a18316.html#acf85448a221a37be819b7ab82f4f9fdc", null ],
-    [ "SpellHitTarget", "df/dad/a18316.html#af9b40af943ee8a7c9bd8866f116871fc", null ],
-    [ "UpdateAI", "df/dad/a18316.html#a3a353d677b469d750474a7497c5224a7", null ],
-    [ "targetGUID", "df/dad/a18316.html#a75c3f61506fe42e41b10a2e67f5b091d", null ],
-    [ "unroot_timer", "df/dad/a18316.html#a49ea66a0fb6e3c09730d92308bd1cac7", null ]
+    [ "boss_valithria_dreamwalkerAI", "df/dad/a18316.html#ac3637feea95738fdd9b34ee3b5a8dea4", null ],
+    [ "AttackStart", "df/dad/a18316.html#a180eb28e16672082503fa91f37dd720a", null ],
+    [ "DamageTaken", "df/dad/a18316.html#ac70447a7f7a0ac3628c0e2db11ce766d", null ],
+    [ "DoAction", "df/dad/a18316.html#a20aa23a4492739b4f171b1361a2ba53b", null ],
+    [ "GetData", "df/dad/a18316.html#a13843cdca5d222073894827db9402035", null ],
+    [ "HealReceived", "df/dad/a18316.html#a348be00901f9e6daea7868e4f9a97fda", null ],
+    [ "JustSummoned", "df/dad/a18316.html#a23f0fb75f652704a79c2530252138abb", null ],
+    [ "MoveInLineOfSight", "df/dad/a18316.html#a9dc0074d598b5432fbdc94b9bb8e012e", null ],
+    [ "Reset", "df/dad/a18316.html#a154123dc3f5463ace6d1b96a9b20576e", null ],
+    [ "SpellHit", "df/dad/a18316.html#a03d407ea24e851a95835ac92c40fa780", null ],
+    [ "SummonedCreatureDespawn", "df/dad/a18316.html#adde5d9c1a18f8dfe836925d9cb8391be", null ],
+    [ "UpdateAI", "df/dad/a18316.html#aacd9b128f978fe9c8a996cf725f05359", null ],
+    [ "_done", "df/dad/a18316.html#a4ab3dc211231f94ca371a089b9ab9461", null ],
+    [ "_events", "df/dad/a18316.html#a1a9dc9fe2969c963636d1dcd68ce2afc", null ],
+    [ "_instance", "df/dad/a18316.html#a45973c4d4e3eceda259dce148d1c9f5d", null ],
+    [ "_justDied", "df/dad/a18316.html#a10764f3e70ec8286e8af17d9b680de8b", null ],
+    [ "_missedPortals", "df/dad/a18316.html#a2a1d3d5a2662afa5826e3bc19e279c06", null ],
+    [ "_over75PercentTalkDone", "df/dad/a18316.html#a2ab09cd0b6c4c92b86314d3b324eee96", null ],
+    [ "_portalCount", "df/dad/a18316.html#ab5f5b6eec491cc063ed131bbd8bf2c3c", null ],
+    [ "_under25PercentTalkDone", "df/dad/a18316.html#a288c98af035d55bef4322f7fe91d26b9", null ]
 ];

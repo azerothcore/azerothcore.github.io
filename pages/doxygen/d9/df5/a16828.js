@@ -1,5 +1,5 @@
 var a16828 =
 [
-    [ "boss_fjolaAI", "d9/df5/a16828.html#aa46fdff841d01f28ef50aa5363082f71", null ],
-    [ "JustSummoned", "d9/df5/a16828.html#a59a3f2453f923d4f19c63e88402d1a76", null ]
+    [ "at_hor_battered_hilt_start", "d9/df5/a16828.html#a1b9e6d892525cf28d71757f7861e1d1a", null ],
+    [ "OnTrigger", "d9/df5/a16828.html#a5d2d0a05b17dafe7ebb5447cfd168f69", null ]
 ];

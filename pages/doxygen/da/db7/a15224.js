@@ -1,6 +1,7 @@
 var a15224 =
 [
-    [ "HandleOnHit", "da/db7/a15224.html#abf5a21f1c88241024e6d3b3c5bffe449", null ],
-    [ "PrepareSpellScript", "da/db7/a15224.html#aa78fc03dacb373c5108e6a5d92e035c6", null ],
-    [ "Register", "da/db7/a15224.html#a1e608d67914c0071a913d96d70c625d6", null ]
+    [ "npc_tharnarianAI", "dd/df9/a15228.html", "dd/df9/a15228" ],
+    [ "npc_tharnarian", "da/db7/a15224.html#a39d9d9842a7a42c5381e38d10285aa15", null ],
+    [ "GetAI", "da/db7/a15224.html#aaff8dad5d2bdb1571ed2e7a14c64899f", null ],
+    [ "OnQuestReward", "da/db7/a15224.html#aedf88edfd99292a68b8e08f9f05d8f00", null ]
 ];

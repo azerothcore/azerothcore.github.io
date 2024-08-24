@@ -1,6 +1,7 @@
 var a11888 =
 [
-    [ "HandleHit", "d2/d7c/a11888.html#a99ea80788e2873dba87f6c6c72fa6f73", null ],
-    [ "PrepareSpellScript", "d2/d7c/a11888.html#adfaeb84d83a48250c636bc8ef98bcb8c", null ],
-    [ "Register", "d2/d7c/a11888.html#a2142c21b5f2abf968cc8eac953779f1d", null ]
+    [ "HandleScript", "d2/d7c/a11888.html#a0d244cc1785b136bae0960d697dc761d", null ],
+    [ "PrepareSpellScript", "d2/d7c/a11888.html#a13f3ebef30c315c02090ee3a19a156e4", null ],
+    [ "Register", "d2/d7c/a11888.html#a3871fb036ec6e0ea006f869c21e88c8f", null ],
+    [ "Validate", "d2/d7c/a11888.html#a1413754f3a79caf8ec57d394c68f3499", null ]
 ];

@@ -1,6 +1,8 @@
 var a26600 =
 [
-    [ "PrepareSpellScript", "df/d80/a26600.html#a2585b06bbebf291d170df58daf6fdd4e", null ],
-    [ "RecalculateDamage", "df/d80/a26600.html#a1fe9f9d4892b0ca8cb6699b555fb9268", null ],
-    [ "Register", "df/d80/a26600.html#a834484683d2d782b4f4c027091108172", null ]
+    [ "CheckFireTotem", "df/d80/a26600.html#a9d6b4368f5c72b95c25415ea87575fce", null ],
+    [ "HandleDummy", "df/d80/a26600.html#a179d07e7090cec396a7845754e545e8e", null ],
+    [ "PrepareSpellScript", "df/d80/a26600.html#a8311cc106da26267e90acd98698cb737", null ],
+    [ "Register", "df/d80/a26600.html#abae5a4961888e6ba2d876e450307e362", null ],
+    [ "Validate", "df/d80/a26600.html#a2048b0e43dbe2df6e4dfc42d912a74a7", null ]
 ];

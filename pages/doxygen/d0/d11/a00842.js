@@ -1,6 +1,6 @@
 var a00842 =
 [
-    [ "AutobroadcastMgr", "db/d1b/a06935.html", "db/d1b/a06935" ],
+    [ "AutobroadcastMgr", "d0/ddc/a06932.html", "d0/ddc/a06932" ],
     [ "sAutobroadcastMgr", "d0/d11/a00842.html#a34abff2dadcb74370b0749fe9fda3878", null ],
     [ "AnnounceType", "d0/d11/a00842.html#a28a4ef2f64643c76d8be05bf9eafc731", [
       [ "World", "d0/d11/a00842.html#a28a4ef2f64643c76d8be05bf9eafc731af5a7924e621e84c9280a9a27e1bcb7f6", null ],

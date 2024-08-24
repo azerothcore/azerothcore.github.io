@@ -1,8 +1,6 @@
 var a19224 =
 [
-    [ "FilterTargets", "da/d2f/a19224.html#a96fb9024a7c38e5962afac97c606d802", null ],
-    [ "Load", "da/d2f/a19224.html#a44d47d6b1706228117aff7a5ff292827", null ],
-    [ "PrepareSpellScript", "da/d2f/a19224.html#a3f4094050c659578df696abf01477a39", null ],
-    [ "Register", "da/d2f/a19224.html#aa595d87a302841f15f02de69d0de17b0", null ],
-    [ "_instance", "da/d2f/a19224.html#a09cdec20702be9e5221fc9775e74ab3f", null ]
+    [ "npc_crystal_spikeAI", "d2/ddc/a19228.html", "d2/ddc/a19228" ],
+    [ "npc_crystal_spike", "da/d2f/a19224.html#a0ef00cdc85bb1c9a79845db861a5e384", null ],
+    [ "GetAI", "da/d2f/a19224.html#a51df30295395c807c0ade2abaf0bd78e", null ]
 ];

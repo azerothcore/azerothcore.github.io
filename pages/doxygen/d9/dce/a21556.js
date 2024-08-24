@@ -1,6 +1,6 @@
 var a21556 =
 [
-    [ "spell_hodir_toasty_fire_AuraScript", "dc/d82/a21560.html", "dc/d82/a21560" ],
-    [ "spell_hodir_toasty_fire", "d9/dce/a21556.html#a56cff8f3b2eb0aca665b7d0ad344ba4d", null ],
-    [ "GetAuraScript", "d9/dce/a21556.html#af7f8da6825fad5702b05dff4483ed5b7", null ]
+    [ "npc_bloodmage_laurithAI", "dc/d82/a21560.html", "dc/d82/a21560" ],
+    [ "npc_bloodmage_laurith", "d9/dce/a21556.html#a40ab80342ddc86afca3b1bd37b1ca6b5", null ],
+    [ "GetAI", "d9/dce/a21556.html#a5a5151a56de3ad1012d9a795dbfb5bd5", null ]
 ];

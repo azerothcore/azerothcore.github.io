@@ -1,9 +1,5 @@
 var a28216 =
 [
-    [ "CheckProc", "d5/d19/a28216.html#ac0e2bf5c1a96ce0502561bb6bcb6ad97", null ],
-    [ "HandleDispel", "d5/d19/a28216.html#a64235032423050de10581165c57f8b0a", null ],
-    [ "HandleProc", "d5/d19/a28216.html#ab1c1196f003f7ff0bf6f6eae5bd6de9a", null ],
-    [ "PrepareAuraScript", "d5/d19/a28216.html#af7ba0eb96dca76a288dd034665822069", null ],
-    [ "Register", "d5/d19/a28216.html#ababc8b42c64740655864d2834a639384", null ],
-    [ "Validate", "d5/d19/a28216.html#a03ecf2489369cbb7a6dff555db153a96", null ]
+    [ "ID", "d5/d19/a28216.html#a0272b3c1130508a2681035c91ee416e6", null ],
+    [ "SpellID", "d5/d19/a28216.html#a231d22a763ddcd9f1fbdab81521dcf67", null ]
 ];

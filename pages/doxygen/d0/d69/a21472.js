@@ -1,5 +1,5 @@
 var a21472 =
 [
-    [ "PrepareSpellScript", "d0/d69/a21472.html#a7f329a29e791a2b3737f7e3d408508dc", null ],
-    [ "Register", "d0/d69/a21472.html#a1048d5bae015d7003076410a39461aab", null ]
+    [ "npc_nerubar_victimAI", "d0/d69/a21472.html#a494976030dd48544742dd14fc09ffdbd", null ],
+    [ "JustDied", "d0/d69/a21472.html#abe3813465cad08800708726cb7ffa021", null ]
 ];

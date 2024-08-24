@@ -1,9 +1,17 @@
 var a23580 =
 [
-    [ "npc_lord_areteAI", "d3/d04/a23580.html#aebdbf8f4c2fe6948c78315e6b404119b", null ],
-    [ "InitializeAI", "d3/d04/a23580.html#a22d0c3e2445bff2d742b28bd99f37394", null ],
-    [ "UpdateAI", "d3/d04/a23580.html#a5cba8d4429ae191dd5b90ca5a4fe2866", null ],
-    [ "_landgrenGUID", "d3/d04/a23580.html#ac0e3753096dfe779024acc8400791171", null ],
-    [ "_landgrenSoulGUID", "d3/d04/a23580.html#aaa28c67691610136f0b418b30892f3cd", null ],
-    [ "events", "d3/d04/a23580.html#ae4ec90b30320cf0aeaec4415c4125605", null ]
+    [ "boss_grand_warlock_nethekurse", "d3/d04/a23580.html#a4eefeb639cf5f0753feb6cfd99cda187", null ],
+    [ "DoAction", "d3/d04/a23580.html#a8288f8c28b61dac574254435534b5e3f", null ],
+    [ "IntroRP", "d3/d04/a23580.html#ae071f8cc7ef44e6c6cf205295debea5f", null ],
+    [ "JustDied", "d3/d04/a23580.html#a48a2ec7beeb5c9685fc627317acea949", null ],
+    [ "JustEngagedWith", "d3/d04/a23580.html#a117d2d737433ea89b37ea1ee58e6c237", null ],
+    [ "JustReachedHome", "d3/d04/a23580.html#afe62561de66fbe7fa92c365a51f01adc", null ],
+    [ "KilledUnit", "d3/d04/a23580.html#ac29fa30bfa8377a07cbfdd1f0964ebfb", null ],
+    [ "Reset", "d3/d04/a23580.html#aceef7aace38f5246ad67a1591b7f301c", null ],
+    [ "SetData", "d3/d04/a23580.html#a6c647262ce7df78c46af6b725cbcc250", null ],
+    [ "UpdateAI", "d3/d04/a23580.html#aca0bd4c71aafd2d1c54e2ca87d538e9a", null ],
+    [ "_canAggro", "d3/d04/a23580.html#a9c577798d5bc87654e6984af02d95c34", null ],
+    [ "_introStarted", "d3/d04/a23580.html#ac7d0737aa28c51cc63d93b8774e536f0", null ],
+    [ "PeonEngagedCount", "d3/d04/a23580.html#a886a0e792cf5ac6afa9670703cb568ff", null ],
+    [ "PeonKilledCount", "d3/d04/a23580.html#a8837d810df1d8b8a505d2d6c98ac8be8", null ]
 ];

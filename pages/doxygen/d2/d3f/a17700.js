@@ -1,6 +1,27 @@
 var a17700 =
 [
-    [ "HandleDummyTick", "d2/d3f/a17700.html#a4a065b32bd82417cf60f0c1cbdebaeb0", null ],
-    [ "PrepareAuraScript", "d2/d3f/a17700.html#a7e5a00e842e88d176605a465617b834c", null ],
-    [ "Register", "d2/d3f/a17700.html#afb8c4f4b7cf46adfd637dd2c70cb249e", null ]
+    [ "boss_professor_putricideAI", "d2/d3f/a17700.html#a4b8da227d51dab70c8cd2049ef9d5785", null ],
+    [ "CanAIAttack", "d2/d3f/a17700.html#ac0b540bd1266badcbabdb50e2409d4a5", null ],
+    [ "ChangePhase", "d2/d3f/a17700.html#af3b8b1bca2e5c043b5cf7a2df771dce1", null ],
+    [ "DamageTaken", "d2/d3f/a17700.html#a721a1c4a1391c074cb92cf2d7cda278e", null ],
+    [ "DoAction", "d2/d3f/a17700.html#ae373180193d65c1555c1649af8e08f6c", null ],
+    [ "EnterEvadeMode", "d2/d3f/a17700.html#ae0b55ae5b0c63510bae45f290615ab8e", null ],
+    [ "GetData", "d2/d3f/a17700.html#a061d60b47e450e139b137e042908a1bd", null ],
+    [ "JustDied", "d2/d3f/a17700.html#ab4782624c71f99b28c2aaa3f307f6b03", null ],
+    [ "JustEngagedWith", "d2/d3f/a17700.html#ad0eb4dec4e48e63c4ce1656616ada626", null ],
+    [ "JustReachedHome", "d2/d3f/a17700.html#a80677fa12904cdf69eb5f47db190513b", null ],
+    [ "JustSummoned", "d2/d3f/a17700.html#abc47d7d06a57e9650664af1ffe2362a8", null ],
+    [ "KilledUnit", "d2/d3f/a17700.html#a1ff6312035c4bcfd773de47ae8dfda50", null ],
+    [ "MoveInLineOfSight", "d2/d3f/a17700.html#a5b888888d077ba50dd49400e3092bd37", null ],
+    [ "MovementInform", "d2/d3f/a17700.html#a0a01aa0dd2e61008dffa4f95d2dbf6d7", null ],
+    [ "Reset", "d2/d3f/a17700.html#ace23336f6204ac8eb59187e024e9cfa8", null ],
+    [ "SetData", "d2/d3f/a17700.html#af789687d10fce3b216c2d562ac7798a0", null ],
+    [ "UpdateAI", "d2/d3f/a17700.html#a2981d85544ef63fa0683d3567be043bc", null ],
+    [ "_experimentState", "d2/d3f/a17700.html#a191632077d18da7ef09254bea62b4b9d", null ],
+    [ "_phase", "d2/d3f/a17700.html#a7582bb2d0fa50e86aac9e892b55b423c", null ],
+    [ "bCallEvade", "d2/d3f/a17700.html#abc42dcf6588ebe8849e41115e17c165c", null ],
+    [ "bChangePhase", "d2/d3f/a17700.html#a4da7453534c2a600e1f5dec47a17d4b9", null ],
+    [ "bEnteredCombat", "d2/d3f/a17700.html#a1fa4d69f86408cc752ac4edab76a87dd", null ],
+    [ "sayFestergutDeathTimer", "d2/d3f/a17700.html#a432f28a03c7dc38060c6301023de5e44", null ],
+    [ "sayRotfaceDeathTimer", "d2/d3f/a17700.html#acc985a0aeaf9572ff774d11b3b8dde30", null ]
 ];

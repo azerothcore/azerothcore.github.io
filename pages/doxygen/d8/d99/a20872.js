@@ -1,6 +1,7 @@
 var a20872 =
 [
-    [ "spell_algalon_big_bang_SpellScript", "dd/d45/a20876.html", "dd/d45/a20876" ],
-    [ "spell_algalon_big_bang", "d8/d99/a20872.html#abe622065f818507182885d359a9bb681", null ],
-    [ "GetSpellScript", "d8/d99/a20872.html#a217a2818d6a44b36678f18379ec9e097", null ]
+    [ "HandleScriptEffect", "d8/d99/a20872.html#a173ee086127655cdfcca507fd5b15b2e", null ],
+    [ "PrepareSpellScript", "d8/d99/a20872.html#a005d47b18a820c35ec596b5539db94eb", null ],
+    [ "Register", "d8/d99/a20872.html#a20a0d554e80707c1517422cb747f38e8", null ],
+    [ "Validate", "d8/d99/a20872.html#a5ca44686e26def56adc2b98d88145235", null ]
 ];

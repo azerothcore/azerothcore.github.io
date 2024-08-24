@@ -1,6 +1,7 @@
 var a24988 =
 [
-    [ "spell_hydross_mark_of_hydross_AuraScript", "df/ddb/a24992.html", "df/ddb/a24992" ],
-    [ "spell_hydross_mark_of_hydross", "dc/d9c/a24988.html#afc37c0a7e618751d9df8f120b47ecbc0", null ],
-    [ "GetAuraScript", "dc/d9c/a24988.html#a08ee80a8c724baa8531414d70ec29010", null ]
+    [ "HandleEffectApply", "dc/d9c/a24988.html#a65ad32ded4246c3469f15b6ab167830e", null ],
+    [ "HandleEffectRemove", "dc/d9c/a24988.html#a8aab4a5dab173bd0296843a0c2991142", null ],
+    [ "PrepareAuraScript", "dc/d9c/a24988.html#a4925868cc5b61b7f35d59fdb27af27b6", null ],
+    [ "Register", "dc/d9c/a24988.html#a0635d5e34bfc62df1ec006b7818bffb2", null ]
 ];

@@ -1,11 +1,7 @@
 var a20136 =
 [
-    [ "boss_patchwerkAI", "d6/d0f/a20136.html#a74dfcf9ef921aa2a53d877c0e5ee9a34", null ],
-    [ "JustDied", "d6/d0f/a20136.html#aaed18187aa8e0058c70b29b1ccbe955f", null ],
-    [ "JustEngagedWith", "d6/d0f/a20136.html#a1317cb819d6247f62e0c6c725157db30", null ],
-    [ "KilledUnit", "d6/d0f/a20136.html#a17ccb5b2a1841656813a9408f5a05c4e", null ],
-    [ "Reset", "d6/d0f/a20136.html#a1d03058bf53e670f4fe9384e9f047891", null ],
-    [ "UpdateAI", "d6/d0f/a20136.html#a2db0df50a0faa88ebeaa035ea048157e", null ],
-    [ "events", "d6/d0f/a20136.html#a00c98ee5cdb3c512ba0d92a48d441006", null ],
-    [ "pInstance", "d6/d0f/a20136.html#a78a3e9a6ef289e82c3ccaedc4399607a", null ]
+    [ "HandleEffectPeriodic", "d6/d0f/a20136.html#a428d1251465cc9947e7474eab83494e3", null ],
+    [ "PrepareAuraScript", "d6/d0f/a20136.html#aa6bfb37f305531f67fa5fad67c83acb9", null ],
+    [ "Register", "d6/d0f/a20136.html#a3ccee6d2c8ac244f5370d11b6a4492b6", null ],
+    [ "Validate", "d6/d0f/a20136.html#a7d4ede9af946be71bbc5531164ed3f17", null ]
 ];

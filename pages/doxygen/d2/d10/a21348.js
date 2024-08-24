@@ -1,6 +1,6 @@
 var a21348 =
 [
-    [ "spell_aura_of_despair_AuraScript", "dd/d12/a21352.html", "dd/d12/a21352" ],
-    [ "spell_aura_of_despair", "d2/d10/a21348.html#a42ffb5e3cccf55fa27e58fe5b4a67499", null ],
-    [ "GetAuraScript", "d2/d10/a21348.html#afcb5b7f5e4a423bc281cfab0a27b733b", null ]
+    [ "npc_vh_sinclari", "d2/d10/a21348.html#ad0235f207a3031420532174c04e0c348", null ],
+    [ "OnGossipHello", "d2/d10/a21348.html#a95f0d094d417d9d6ce99d7c8aa83496f", null ],
+    [ "OnGossipSelect", "d2/d10/a21348.html#af0a260d7868f601ae239c226b10d4de3", null ]
 ];

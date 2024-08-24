@@ -1,12 +1,10 @@
 var a07840 =
 [
-    [ "WorldObjectChangeAccumulator", "d1/d49/a07840.html#a853a5c84dec75f115eddd3e1b7ff0b78", null ],
-    [ "BuildPacket", "d1/d49/a07840.html#ab4b9da3effe2a4f6e2cb6ecf268f429c", null ],
-    [ "Visit", "d1/d49/a07840.html#ae18ca5886c95a6c4c00bdbc1920a5655", null ],
-    [ "Visit", "d1/d49/a07840.html#a9afa50ac9e36cd357706e8e838df56a0", null ],
-    [ "Visit", "d1/d49/a07840.html#aec62fc91f4b364e72a3d5afd5a1a7276", null ],
-    [ "Visit", "d1/d49/a07840.html#a9815c06dbd29710cac2c99301c17b01c", null ],
-    [ "i_object", "d1/d49/a07840.html#ab94d7f943107060caf742f9b6cca92e4", null ],
-    [ "i_playerSet", "d1/d49/a07840.html#a0e17c2bf7a78cf5ef68e6fc7b29f0262", null ],
-    [ "i_updateDatas", "d1/d49/a07840.html#a1446b9dae0dfc0325228870c815da23a", null ]
+    [ "BoxMessage", "d1/d49/a07840.html#a450f6063a89db2d152370bc997c844a3", null ],
+    [ "BoxMoney", "d1/d49/a07840.html#a52a12645b55f5757cc61e9a014a71f32", null ],
+    [ "IsCoded", "d1/d49/a07840.html#accca334730f578bd28c0e9a7fe7ec0ab", null ],
+    [ "MenuItemIcon", "d1/d49/a07840.html#a987724c4673be20f5386f44245267bc9", null ],
+    [ "Message", "d1/d49/a07840.html#af130b33294cd49261b3c093cf6f9542c", null ],
+    [ "OptionType", "d1/d49/a07840.html#a3df0c5fedb028b4fcce8ad5884cc0e6f", null ],
+    [ "Sender", "d1/d49/a07840.html#aacc07cb5c755d698fe4cb2e228185e34", null ]
 ];

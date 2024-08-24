@@ -1,7 +1,6 @@
 var a15664 =
 [
-    [ "npc_kaya_flathoofAI", "de/d5a/a15664.html#a3b43992dfeeb7b3b19e777b9629c55ce", null ],
-    [ "JustSummoned", "de/d5a/a15664.html#ac365753a428009f4fc4d01ead8fe46fd", null ],
-    [ "Reset", "de/d5a/a15664.html#af9be00be9867622a16103bd21311327f", null ],
-    [ "WaypointReached", "de/d5a/a15664.html#a8fcbb19279b925138ba96d2a450fc404", null ]
+    [ "ModDestHeight", "de/d5a/a15664.html#a8bda9327c4244af41c513528ad5c818c", null ],
+    [ "PrepareSpellScript", "de/d5a/a15664.html#aba5a03c94fa5d87c46a91369875c0ab2", null ],
+    [ "Register", "de/d5a/a15664.html#a62b0ce71caeff96705b15aa240ddd09f", null ]
 ];

@@ -1,5 +1,6 @@
 var a24268 =
 [
-    [ "instance_sethekk_halls_InstanceMapScript", "dd/dee/a24268.html#a037ee225b626b64436570680ae4e9ea0", null ],
-    [ "OnCreatureCreate", "dd/dee/a24268.html#ad3555bd5d5f1d72c3bd6494339016214", null ]
+    [ "npc_unkor_the_ruthlessAI", "d7/d7b/a24272.html", "d7/d7b/a24272" ],
+    [ "npc_unkor_the_ruthless", "dd/dee/a24268.html#a4eb173932f39c5503d1db91d55f3a5b7", null ],
+    [ "GetAI", "dd/dee/a24268.html#a552a19b9a48e90f3b093e2b9e16ec867", null ]
 ];

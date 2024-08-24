@@ -1,5 +1,5 @@
 var a19852 =
 [
-    [ "at_frozen_throne_teleport", "dd/d72/a19852.html#a8065b9f9b55b267be1757775f84de349", null ],
-    [ "OnTrigger", "dd/d72/a19852.html#ae1f9476b7f47320f545e702e9317bd03", null ]
+    [ "go_ulduar_tower", "dd/d72/a19852.html#afc1add1a0543921f52afe1eb907f5de3", null ],
+    [ "OnDestroyed", "dd/d72/a19852.html#aa72ebefe52d49e5b07fb36232efd7e95", null ]
 ];

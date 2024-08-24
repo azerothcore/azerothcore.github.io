@@ -1,6 +1,9 @@
 var a17680 =
 [
-    [ "npc_ball_of_flameAI", "d7/de7/a17684.html", "d7/de7/a17684" ],
-    [ "npc_ball_of_flame", "d2/d80/a17680.html#a353bf8385dea6c2e4a489bd14c87e0fe", null ],
-    [ "GetAI", "d2/d80/a17680.html#ac0309668f9f0ca85a644d4928966e577", null ]
+    [ "CountTargets", "d2/d80/a17680.html#aa72b762d802c27047d485a8a314c6c6d", null ],
+    [ "Load", "d2/d80/a17680.html#a80a5d0f997f5d68a4fb438a81295fa52", null ],
+    [ "PrepareSpellScript", "d2/d80/a17680.html#acfd2927786a5bcefa0889d7e8aa40f72", null ],
+    [ "Register", "d2/d80/a17680.html#a86cad92c07fa31c730a3b560d33ed824", null ],
+    [ "SplitDamage", "d2/d80/a17680.html#a501a46b3e3988ae8cb8af1ff87eeac65", null ],
+    [ "_targetCount", "d2/d80/a17680.html#a39b8e5443250777594e3b4417d5ea1ec", null ]
 ];

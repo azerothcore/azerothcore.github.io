@@ -1,9 +1,7 @@
 var a27432 =
 [
-    [ "DoCheckCast", "d4/de3/a27432.html#a09c7bd66988c38cb019656842ed87366", null ],
-    [ "HandleDummy", "d4/de3/a27432.html#a183e2ac37a432ea2902b31e24a474cea", null ],
-    [ "HandleScriptEffect", "d4/de3/a27432.html#a396b1129f15056d0b22c7887f56bea99", null ],
-    [ "PrepareSpellScript", "d4/de3/a27432.html#aad4de93de822a742e02ac8d5d395d482", null ],
-    [ "Register", "d4/de3/a27432.html#a84fc18d6a2d92aefa2cc4d8095780314", null ],
-    [ "Validate", "d4/de3/a27432.html#a2565f0ad3bb988ad37dd6a60f08c995c", null ]
+    [ "npc_riggle_bassbaitAI", "d4/de3/a27432.html#ad7a1a7a6f4c4ebb7ab93878ebb3a9a5b", null ],
+    [ "CheckTournamentState", "d4/de3/a27432.html#aa7b4393b93be92fbb595648cede832be", null ],
+    [ "UpdateAI", "d4/de3/a27432.html#ad0fca96e2c770ef179d98dcdd9aaca6e", null ],
+    [ "m_uiTimer", "d4/de3/a27432.html#aec45a971a5b7aa574e905e9a2338fe90", null ]
 ];

@@ -1,6 +1,6 @@
 var a25984 =
 [
-    [ "spell_npc22275_crystal_prison_AuraScript", "df/dfe/a25988.html", "df/dfe/a25988" ],
-    [ "spell_npc22275_crystal_prison", "da/da3/a25984.html#ae6efa7a80701f4c98b22f0c0fef75334", null ],
-    [ "GetAuraScript", "da/da3/a25984.html#a23b8e65fd247e1dec0faa62299c47aec", null ]
+    [ "HandleRemove", "da/da3/a25984.html#a491765056e8c4d97d9cdaaea9d11a0af", null ],
+    [ "PrepareAuraScript", "da/da3/a25984.html#abe5d45b960fda879f48e3e98db9ad4ac", null ],
+    [ "Register", "da/da3/a25984.html#ab00f3119d6c1bd1ad185374144f2987e", null ]
 ];

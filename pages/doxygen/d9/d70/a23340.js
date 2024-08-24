@@ -1,8 +1,6 @@
 var a23340 =
 [
-    [ "npc_q24545_vegardAI", "d9/d70/a23340.html#a6a86b56508a86bf32ab5fb2bd46248c9", null ],
-    [ "JustDied", "d9/d70/a23340.html#a1f7784242bbaf39d0fb105d2930da37c", null ],
-    [ "KilledUnit", "d9/d70/a23340.html#a2d78117a6c2a29f52f1905595425964a", null ],
-    [ "UpdateAI", "d9/d70/a23340.html#a79cc34760b58ad4b29c6a0a496971f0a", null ],
-    [ "events", "d9/d70/a23340.html#a68f48d92cc5559025e635d599c2882e3", null ]
+    [ "instance_steam_vault_InstanceMapScript", "d9/d70/a23340.html#a1ca8d6b10fabe1a8b829dbf62b77ed51", null ],
+    [ "OnGameObjectCreate", "d9/d70/a23340.html#ace71fc6f1d7bc4b49bc2a2507f481fc2", null ],
+    [ "SetBossState", "d9/d70/a23340.html#ab1e344fbf169ee40f28741217f3dca14", null ]
 ];

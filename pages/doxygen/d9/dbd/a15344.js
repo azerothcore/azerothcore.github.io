@@ -1,6 +1,7 @@
 var a15344 =
 [
-    [ "npc_injured_draeneiAI", "d1/dac/a15348.html", "d1/dac/a15348" ],
-    [ "npc_injured_draenei", "d9/dbd/a15344.html#a660c0f0c4ed41d70ad0a50cde25c1d14", null ],
-    [ "GetAI", "d9/dbd/a15344.html#a753bd4a5bb1ddc9feb540a3bedc7d7bb", null ]
+    [ "npc_shenthulAI", "d1/dac/a15348.html", "d1/dac/a15348" ],
+    [ "npc_shenthul", "d9/dbd/a15344.html#a77815503c7d9c811fe3821232e308714", null ],
+    [ "GetAI", "d9/dbd/a15344.html#a1683f8c89add6270277c59951c74027e", null ],
+    [ "OnQuestAccept", "d9/dbd/a15344.html#a3a63fec338dca74eb7d071dfcc9c95b5", null ]
 ];

@@ -1,6 +1,7 @@
 var a17756 =
 [
-    [ "spell_valanar_kinetic_bomb_knockback_SpellScript", "d3/d05/a17760.html", "d3/d05/a17760" ],
-    [ "spell_valanar_kinetic_bomb_knockback", "da/dc5/a17756.html#a1c4e333ca031c6d69d2e38e3aa7ba3e1", null ],
-    [ "GetSpellScript", "da/dc5/a17756.html#add00b2ec3936cc51fedc9c3c05e95a6a", null ]
+    [ "HandleTriggerSpell", "da/dc5/a17756.html#a109dc4f189a64ac3b5949191d6abd2be", null ],
+    [ "OnRemove", "da/dc5/a17756.html#a238adc96e80c1890934b23dd4a2685b4", null ],
+    [ "PrepareAuraScript", "da/dc5/a17756.html#af9ce7433b620fdf1dea570561c514b3b", null ],
+    [ "Register", "da/dc5/a17756.html#ab36a001ea8cd87703e2694e0765635c0", null ]
 ];

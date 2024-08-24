@@ -1,17 +1,11 @@
 var a14156 =
 [
-    [ "npc_coren_direbrew", "de/d8a/a14156.html#a51ab68feb3dde3fb23c708afcdcdbd34", null ],
-    [ "CanBeSeen", "de/d8a/a14156.html#ad4db2a85c92f69e54036f4133396f201", null ],
-    [ "DamageTaken", "de/d8a/a14156.html#a782a08ed525eab8a9e9044dc1d5814b3", null ],
-    [ "DoAction", "de/d8a/a14156.html#a2d417a9310b5b75df09879678d967794", null ],
-    [ "JustDied", "de/d8a/a14156.html#a39913e601440fcd6ffbc77ad7c204ac8", null ],
-    [ "JustSummoned", "de/d8a/a14156.html#a2cb3d9de6ccdffa73f709b82cfae790a", null ],
-    [ "MoveInLineOfSight", "de/d8a/a14156.html#a9c48c7e4a97998c2091992f51b734679", null ],
-    [ "Reset", "de/d8a/a14156.html#a49eb75eb89742ee70ca957d4e2f0b5d0", null ],
-    [ "sGossipSelect", "de/d8a/a14156.html#ad8b665606985984ad633f66ad9b73bd2", null ],
-    [ "SummonedCreatureDies", "de/d8a/a14156.html#aafdc2d271d1e267f5b3deba7d00e07fc", null ],
-    [ "SummonSister", "de/d8a/a14156.html#a358fe5922a85ea3eee6abe9451869b66", null ],
-    [ "UpdateAI", "de/d8a/a14156.html#af6615292fa853883979dc37c6e247289", null ],
-    [ "_events", "de/d8a/a14156.html#a81ee26c215b7581a13faf56ee041b9fe", null ],
-    [ "_summons", "de/d8a/a14156.html#a261d4c4dea56748e66752cb11588086a", null ]
+    [ "o", "de/d8a/a14156.html#af0a1551e7a1ced5413b6096ba15db8b2", null ],
+    [ "rot0", "de/d8a/a14156.html#a1cc2b7787c803a4e126e06ab5b5c0ee6", null ],
+    [ "rot1", "de/d8a/a14156.html#a71696fa3f95eb20d950b6ba2ada153f4", null ],
+    [ "rot2", "de/d8a/a14156.html#ac2e4113330ebc9d9db379fb87eb55c03", null ],
+    [ "rot3", "de/d8a/a14156.html#a3fc28475914b0ed4afe46fd4f4ff66b1", null ],
+    [ "x", "de/d8a/a14156.html#a6e527854cf0959995d6b0133dedc94c9", null ],
+    [ "y", "de/d8a/a14156.html#a7536047696bd4883237369976b503131", null ],
+    [ "z", "de/d8a/a14156.html#a33ba4ca8ce5f406aaa5f571ba7236eb5", null ]
 ];

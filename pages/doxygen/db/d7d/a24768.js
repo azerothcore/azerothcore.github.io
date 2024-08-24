@@ -1,7 +1,10 @@
 var a24768 =
 [
-    [ "boss_lady_malandeAI", "db/d7d/a24768.html#a03513a150eba610edf97c00303e26213", null ],
-    [ "AttackStart", "db/d7d/a24768.html#ab176d8313c9d28bf6d9814438f23f188", null ],
-    [ "JustEngagedWith", "db/d7d/a24768.html#a9d2fc7ca2c6a2fbbbd84e082e8ef93af", null ],
-    [ "UpdateAI", "db/d7d/a24768.html#a2aa5723eba0e8f42fe269e56070dcf80", null ]
+    [ "FilterTargets", "db/d7d/a24768.html#a033c63470d406ad2249c5aa223c00b2f", null ],
+    [ "HandleFinish", "db/d7d/a24768.html#a3b5760ed61d0b2789ddcaef998303d38", null ],
+    [ "HandleScript", "db/d7d/a24768.html#a2c26838015f1b21715fc1438537e15d3", null ],
+    [ "Load", "db/d7d/a24768.html#a669aefa81d57358ef452f4c247b2ceff", null ],
+    [ "PrepareSpellScript", "db/d7d/a24768.html#a3b65dbff73258b45f9e345bffc7a63a8", null ],
+    [ "Register", "db/d7d/a24768.html#ac9b8d46cc77b06c427b5b3cbc1135072", null ],
+    [ "haveTarget", "db/d7d/a24768.html#a7f5a4e68fb7d948f0df35824272cbdb0", null ]
 ];

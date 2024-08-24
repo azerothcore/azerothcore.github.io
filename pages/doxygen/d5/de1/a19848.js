@@ -1,6 +1,8 @@
 var a19848 =
 [
-    [ "icecrown_citadel_teleport", "d5/de1/a19848.html#ab74d5962073dcf3b4488c33aaa935377", null ],
-    [ "OnGossipHello", "d5/de1/a19848.html#a97b0d94a5c7388a5dfce76f3bd3be24f", null ],
-    [ "OnGossipSelect", "d5/de1/a19848.html#a0b160bd86341542ddb1c80f3d4bd691f", null ]
+    [ "npc_mechanoliftAI", "d5/de1/a19848.html#ad772427e03c2bd2c3a51556b6e5968b5", null ],
+    [ "Reset", "d5/de1/a19848.html#a8198e7db2c6f4f2ceec984cfd53982b1", null ],
+    [ "UpdateAI", "d5/de1/a19848.html#a3f8634abde6b3aa00acf03c77df433be", null ],
+    [ "_evadeTimer", "d5/de1/a19848.html#a53da6899ad0dcea569ca29f57e45bf61", null ],
+    [ "_startTimer", "d5/de1/a19848.html#a9b1587bbadd8f0044e1d404d55b8ba1f", null ]
 ];

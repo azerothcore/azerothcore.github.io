@@ -1,6 +1,6 @@
 var a14884 =
 [
-    [ "instance_dire_maul_InstanceMapScript", "d2/d55/a14888.html", "d2/d55/a14888" ],
-    [ "instance_dire_maul", "df/d69/a14884.html#a54ac2c7095a99481c7efbe4237533fac", null ],
-    [ "GetInstanceScript", "df/d69/a14884.html#a7fc2511e0c9475512286006f0bbaed0b", null ]
+    [ "HandleScript", "df/d69/a14884.html#a88551ffd3dbe4fb9cc122a68813234f0", null ],
+    [ "PrepareSpellScript", "df/d69/a14884.html#ae4d8cad1b5de248a30085142fcc2cc7b", null ],
+    [ "Register", "df/d69/a14884.html#a434f0aef7f32edb6990efb992e4d57af", null ]
 ];

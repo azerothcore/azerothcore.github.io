@@ -1,6 +1,6 @@
 var a14504 =
 [
-    [ "npc_doomfire_targettingAI", "d3/dc0/a14508.html", "d3/dc0/a14508" ],
-    [ "npc_doomfire_targetting", "d1/dee/a14504.html#abf2cbdcd525177dd521189eaf13d9d49", null ],
-    [ "GetAI", "d1/dee/a14504.html#a949a1135bb08d51aea38355bc7b4c0d2", null ]
+    [ "HandleHeal", "d1/dee/a14504.html#a953536a9a393af9472bdd89018449df0", null ],
+    [ "PrepareSpellScript", "d1/dee/a14504.html#a70503fc6042001a860d361f2597b7153", null ],
+    [ "Register", "d1/dee/a14504.html#a383479896e6deb96e50b827370ccfd4d", null ]
 ];

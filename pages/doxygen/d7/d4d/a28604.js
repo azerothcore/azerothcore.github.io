@@ -1,8 +1,10 @@
 var a28604 =
 [
-    [ "FilterTargets", "d7/d4d/a28604.html#a3766e5ed1f75c242f45b24c90eef7e11", null ],
-    [ "HandleDummy", "d7/d4d/a28604.html#a2214b10da042a3af2fd3311872cc5286", null ],
-    [ "PrepareSpellScript", "d7/d4d/a28604.html#a9959966856601f79a83931a7a7ecff91", null ],
-    [ "Register", "d7/d4d/a28604.html#a6ac1d4f1d82aabb39526aca92636a41f", null ],
-    [ "Validate", "d7/d4d/a28604.html#a67d4b92cc494b6081247a90e8d4c9628", null ]
+    [ "ADTFile", "d7/d4d/a28604.html#a763f0f9c1106700987797864b2fdb006", null ],
+    [ "~ADTFile", "d7/d4d/a28604.html#ad1533f5b630a70b6ff95861e64960de0", null ],
+    [ "init", "d7/d4d/a28604.html#ab9ba3b1a2aac611bec5bfe4a454e4042", null ],
+    [ "_file", "d7/d4d/a28604.html#a7f3071e63be08fe3288d5ab03b5b8acf", null ],
+    [ "Adtfilename", "d7/d4d/a28604.html#a07c82112e26b96a87e22f1c7bec9c72e", null ],
+    [ "ModelInstanceNames", "d7/d4d/a28604.html#a6601e20fed78c54bb281ad3bd0ce7800", null ],
+    [ "WmoInstanceNames", "d7/d4d/a28604.html#acd96c287a01828bf3e49fb599a3b5d81", null ]
 ];

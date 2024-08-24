@@ -1,6 +1,9 @@
 var a26356 =
 [
-    [ "spell_q10036_torgos_SpellScript", "d7/dc7/a26360.html", "d7/dc7/a26360" ],
-    [ "spell_q10036_torgos", "db/d31/a26356.html#a0599d2c00020c5978dc66f54b360a8be", null ],
-    [ "GetSpellScript", "db/d31/a26356.html#a0bdd5a74c9f114537d8d206536dd418c", null ]
+    [ "CheckCast", "db/d31/a26356.html#ae99a2b4b582c8a2c8921b8921400ffbe", null ],
+    [ "HandleActiveObject", "db/d31/a26356.html#a79a51387f0a515ed07fcc1ac9e428290", null ],
+    [ "HandleDummy", "db/d31/a26356.html#a39dd06ae92d04060ee41897318a701fd", null ],
+    [ "Load", "db/d31/a26356.html#a76fff3a9d20f48e4814ee0f258be07b8", null ],
+    [ "PrepareSpellScript", "db/d31/a26356.html#a016e480d7b2267c9bf824c9cb029f134", null ],
+    [ "Register", "db/d31/a26356.html#aa05d48c35f748d93f5d8ff1defe2d3c9", null ]
 ];

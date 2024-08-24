@@ -1,6 +1,8 @@
 var a25960 =
 [
-    [ "instance_mechanar_InstanceMapScript", "d9/d8d/a25964.html", "d9/d8d/a25964" ],
-    [ "instance_mechanar", "d2/d05/a25960.html#ab31a66a0eb8b9ac6f79af479528ff4fd", null ],
-    [ "GetInstanceScript", "d2/d05/a25960.html#ae8e9810a9bfd6b0ec256dd6a288392ed", null ]
+    [ "HandleDummy", "d2/d05/a25960.html#a04ff6beb930b65395ebc3df99bc53dfa", null ],
+    [ "PrepareSpellScript", "d2/d05/a25960.html#a73eabf1e68c966f31fe8d83c2fd925c1", null ],
+    [ "Register", "d2/d05/a25960.html#a6b03fbcf18612d9bb7361c3e4f022dc0", null ],
+    [ "Validate", "d2/d05/a25960.html#a9df13e3e8895854bc086fbfaccfb1b2c", null ],
+    [ "PolymorhForms", "d2/d05/a25960.html#a1443d2532a060514e697a8d5e0c21b20", null ]
 ];

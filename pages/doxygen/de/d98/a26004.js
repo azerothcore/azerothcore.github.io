@@ -1,7 +1,7 @@
 var a26004 =
 [
-    [ "npc_daranelleAI", "de/d98/a26004.html#a49eeff6e0aea079a0375a92074227d12", null ],
-    [ "JustEngagedWith", "de/d98/a26004.html#aeff39dfd84986186057cdaf7632eed4f", null ],
-    [ "MoveInLineOfSight", "de/d98/a26004.html#a353e27c1485b88f0751a64260898d35b", null ],
-    [ "Reset", "de/d98/a26004.html#a33b2fbec775257e3ba0bebe37fb86349", null ]
+    [ "HandleDummy", "de/d98/a26004.html#a82ff05f6150750ecb6ef3b5f8c40f703", null ],
+    [ "PrepareSpellScript", "de/d98/a26004.html#a6856f05f2cc25267f1d3023d3cb48dc2", null ],
+    [ "Register", "de/d98/a26004.html#adadd0254d68281ac1063bcc57574ed77", null ],
+    [ "Validate", "de/d98/a26004.html#a61923f636ad8b3d48eb2dbc6a1803527", null ]
 ];

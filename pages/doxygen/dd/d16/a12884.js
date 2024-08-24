@@ -1,5 +1,6 @@
 var a12884 =
 [
-    [ "AreaTrigger_at_sunwell_madrigosa", "dd/d16/a12884.html#a6202301b3ce2dd20df77e2fd3b2f6042", null ],
-    [ "OnTrigger", "dd/d16/a12884.html#a459fbbd650883aa69ea9a21cf61370f7", null ]
+    [ "instance_stratholme_InstanceMapScript", "d6/d86/a12888.html", "d6/d86/a12888" ],
+    [ "instance_stratholme", "dd/d16/a12884.html#a42ac504b2790af8c37a44e87fbd9c6c1", null ],
+    [ "GetInstanceScript", "dd/d16/a12884.html#a3d3d2e773029dd1c4bc1a59a94c4e015", null ]
 ];

@@ -1,6 +1,9 @@
 var a14936 =
 [
-    [ "npc_belnistraszAI", "db/d18/a14940.html", "db/d18/a14940" ],
-    [ "npc_belnistrasz", "d8/dd0/a14936.html#a7aa0e9bfcfaf74febe67cbcb94c01ddb", null ],
-    [ "GetAI", "d8/dd0/a14936.html#aac9d4389ec1c88be9afb6b9a828da511", null ]
+    [ "npc_giant_eye_tentacle", "d8/dd0/a14936.html#a1adebf586a8a4413bb048936b90ddd3c", null ],
+    [ "JustDied", "d8/dd0/a14936.html#a72cac50a711868256a41c543d0cef3da", null ],
+    [ "JustEngagedWith", "d8/dd0/a14936.html#ac26b16e709e62c429b7ca88815bbc4cd", null ],
+    [ "Reset", "d8/dd0/a14936.html#a4e605a585099d136d8f6bd42b6450f1d", null ],
+    [ "UpdateAI", "d8/dd0/a14936.html#aacae6ea2616af2ad9515167fc1bab61d", null ],
+    [ "_portalGUID", "d8/dd0/a14936.html#af9784b6d00e50ec28ed27361aaf3442f", null ]
 ];

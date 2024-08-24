@@ -1,6 +1,6 @@
 var a18328 =
 [
-    [ "spell_deathwhisper_mana_barrier_AuraScript", "d0/dd0/a18332.html", "d0/dd0/a18332" ],
-    [ "spell_deathwhisper_mana_barrier", "d7/dff/a18328.html#afda99238148ea35750e1ee52b5d30d12", null ],
-    [ "GetAuraScript", "d7/dff/a18328.html#acbf06aded3ebbbab5f529b420e4ba6f2", null ]
+    [ "npc_the_lich_king_controllerAI", "d0/dd0/a18332.html", "d0/dd0/a18332" ],
+    [ "npc_the_lich_king_controller", "d7/dff/a18328.html#a32b14d699737497ba7c90d8ef17557d7", null ],
+    [ "GetAI", "d7/dff/a18328.html#ae9b6dacb0f4e8e6f12f187ab0dfd2165", null ]
 ];

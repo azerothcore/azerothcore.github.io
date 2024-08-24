@@ -1,6 +1,5 @@
 var a20452 =
 [
-    [ "boss_varosAI", "df/de2/a20456.html", "df/de2/a20456" ],
-    [ "boss_varos", "dc/dce/a20452.html#a4fdb9de9ee7a3a50ac0972fd6eb8d39c", null ],
-    [ "GetAI", "dc/dce/a20452.html#a36733c4eb6179e43d61a1c37480666ea", null ]
+    [ "go_ulduar_working_harpoon", "dc/dce/a20452.html#a9aaaa16f23f07e402f20a048fd69d347", null ],
+    [ "OnGossipHello", "dc/dce/a20452.html#a164bdd0a9538293699665a821c4f25f3", null ]
 ];

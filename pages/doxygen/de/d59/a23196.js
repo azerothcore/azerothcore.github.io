@@ -1,12 +1,12 @@
 var a23196 =
 [
-    [ "npc_dalaran_warriorAI", "de/d59/a23196.html#a0c96d8b0797a1388f9fe725753ea91bc", null ],
-    [ "Initialize", "de/d59/a23196.html#aa04ecd7a8f988e94ab663a7994e83dd9", null ],
-    [ "JustEngagedWith", "de/d59/a23196.html#ae6690f0681363784e457fbd653f5b3f9", null ],
-    [ "Reset", "de/d59/a23196.html#a074d116ba39d87fa85c17fbc1764c79b", null ],
-    [ "UpdateAI", "de/d59/a23196.html#ae2a740ecd35694b4d04c6aea7ae567fa", null ],
-    [ "Battleshout_timer", "de/d59/a23196.html#ae36f30f816164b60232bd849e74c3da1", null ],
-    [ "disarm_timer", "de/d59/a23196.html#a54f7ceb37d7e3456166f5af761c95e9e", null ],
-    [ "hamstring_timer", "de/d59/a23196.html#ae0e660b8c3faf70a6061260a4b90a4af", null ],
-    [ "shout_timer", "de/d59/a23196.html#ac91770c1e9eb31d687247450898a48ae", null ]
+    [ "instance_serpentshrine_cavern_InstanceMapScript", "de/d59/a23196.html#a3e83985648f2951ee33d440c9c98bf72", null ],
+    [ "GetData", "de/d59/a23196.html#a9ea722d45efe2ee4eff041e480ff1c79", null ],
+    [ "Initialize", "de/d59/a23196.html#a8a2214e169acace8578c1863daf0a04c", null ],
+    [ "OnCreatureCreate", "de/d59/a23196.html#ae5f77169c337420852962fe7ddba3006", null ],
+    [ "OnGameObjectCreate", "de/d59/a23196.html#a9aeb7b25aa1446fff655b4c8fd6c47ad", null ],
+    [ "SetBossState", "de/d59/a23196.html#ad2863bc954ae25a5d96d06db0250cda3", null ],
+    [ "SetData", "de/d59/a23196.html#af3ca65eef9902a029f5b836d0b6fd58a", null ],
+    [ "_aliveKeepersCount", "de/d59/a23196.html#a85b7cbeab4149b0a379f27bdb459cfd7", null ],
+    [ "_shieldGeneratorGUID", "de/d59/a23196.html#a570b73c8ecd0e1ab6ac2889405be6ef0", null ]
 ];

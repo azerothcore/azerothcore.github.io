@@ -1,5 +1,8 @@
 var a10576 =
 [
-    [ "ImplicitTargetType", "db/d03/a10576.html#adc4268d74a3f0b47902e16eea2fc854a", null ],
-    [ "UsedTargetObjectType", "db/d03/a10576.html#a7bbc11d4a7a68f9441d393c7b48f5231", null ]
+    [ "PetSpellAutocast", "db/d03/a10576.html#ab858647d14031a2a6109d1e923402d08", null ],
+    [ "Read", "db/d03/a10576.html#a5c94e7acc04efbb2a50695ed4fdf7036", null ],
+    [ "AutocastEnabled", "db/d03/a10576.html#a3c04543dcd5382682654b3860b84c6a3", null ],
+    [ "PetGUID", "db/d03/a10576.html#aeed828abebf683078ee61204c91e28c9", null ],
+    [ "SpellID", "db/d03/a10576.html#a9afcd8b8bbd2e2fd07bc59219b1a80da", null ]
 ];

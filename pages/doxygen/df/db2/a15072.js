@@ -1,9 +1,8 @@
 var a15072 =
 [
-    [ "npc_obsidian_destroyer", "df/db2/a15072.html#abd8b1614a9da9fbe9c9898246b0822b8", null ],
-    [ "JustDied", "df/db2/a15072.html#adc54ac02383f5e5bf6af980f5ba301e8", null ],
-    [ "JustEngagedWith", "df/db2/a15072.html#aaf95dd2c92a5d1745311e4162aee8dbc", null ],
-    [ "Reset", "df/db2/a15072.html#a08c6b9ec0e2f4207d48f95eedf2c26ab", null ],
-    [ "UpdateAI", "df/db2/a15072.html#a79ba48d421a636f99ea65c0e34d084e1", null ],
-    [ "_scheduler", "df/db2/a15072.html#a8f8fafff078c551530f49d8df1bb5204", null ]
+    [ "npc_obsidian_eradicator", "df/db2/a15072.html#a84a6c414b3d74468143984e57f83e383", null ],
+    [ "JustEngagedWith", "df/db2/a15072.html#ab03b7138306a04a00938bf1cdb9a7966", null ],
+    [ "Reset", "df/db2/a15072.html#a7c76c7d3a69e464c0dcb6a96226baa61", null ],
+    [ "UpdateAI", "df/db2/a15072.html#a1697d83e89559f047d5bab652007bb61", null ],
+    [ "_targetGUIDs", "df/db2/a15072.html#abd83775d1eab5ab2a3aadd7fd925c3ae", null ]
 ];

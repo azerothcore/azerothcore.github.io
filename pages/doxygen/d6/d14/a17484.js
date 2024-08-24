@@ -1,5 +1,7 @@
 var a17484 =
 [
-    [ "at_tyrannus_event_starter", "d6/d14/a17484.html#a1aef2522c20dd242e749d93a6bee66d8", null ],
-    [ "OnTrigger", "d6/d14/a17484.html#a8dcfce4cd24dbc45df987b4a9bfcbbc0", null ]
+    [ "npc_gunship_rocketeerAI", "d6/d14/a17484.html#aa9e722f32cd95fff8c72db5a41d0e84c", null ],
+    [ "CanAIAttack", "d6/d14/a17484.html#a4b4e2839e426bdb752beea09394f13dc", null ],
+    [ "MovementInform", "d6/d14/a17484.html#a7dd7f3625b177a96bcfdc5e46d944562", null ],
+    [ "UpdateAI", "d6/d14/a17484.html#af73d71750f116fb90be1c2acba75ca70", null ]
 ];

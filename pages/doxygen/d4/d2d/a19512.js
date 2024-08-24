@@ -1,6 +1,7 @@
 var a19512 =
 [
-    [ "npc_crok_scourgebaneAI", "df/d94/a19516.html", "df/d94/a19516" ],
-    [ "npc_crok_scourgebane", "d4/d2d/a19512.html#a5f560e2c62aa618eadb5a11e2c9b90a3", null ],
-    [ "GetAI", "d4/d2d/a19512.html#afa4fcbb9d7281fbee3f8bc0f318d2e6b", null ]
+    [ "creature", "d4/d2d/a19512.html#a55a6ee677ab51120867f542e5a5745b0", null ],
+    [ "sound", "d4/d2d/a19512.html#a407acf5c908aa44a169adc1e88a70ab4", null ],
+    [ "text", "d4/d2d/a19512.html#a9ed157ddf2c274d021820723b1ebe00e", null ],
+    [ "timer", "d4/d2d/a19512.html#a198a3a5a4ad037b591fc3b85675bdfe1", null ]
 ];

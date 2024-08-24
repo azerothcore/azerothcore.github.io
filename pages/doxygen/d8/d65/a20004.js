@@ -1,6 +1,6 @@
 var a20004 =
 [
-    [ "boss_gothikAI", "d2/d21/a20008.html", "d2/d21/a20008" ],
-    [ "boss_gothik", "d8/d65/a20004.html#a0c3ee990a1caf020e9a4be000f0b77e0", null ],
-    [ "GetAI", "d8/d65/a20004.html#aea7aec86c4132521fb7b9b6e87baf289", null ]
+    [ "achievement_freya_knock_on_wood", "d8/d65/a20004.html#ae28517e151cc9ec2b25ff57513f32d29", null ],
+    [ "OnCheck", "d8/d65/a20004.html#a07e5edf9d53d200506ab1b0d0b2eaa9e", null ],
+    [ "_elderCount", "d8/d65/a20004.html#a5a3cc4dedbc2cc6be825579cbb0a09b5", null ]
 ];

@@ -1,8 +1,7 @@
 var a23956 =
 [
-    [ "HandleFinish", "d1/d8f/a23956.html#a27600802c43f97721184bb901432fd20", null ],
-    [ "Load", "d1/d8f/a23956.html#afeb43e1459b808bac842306a78009c0d", null ],
-    [ "PrepareSpellScript", "d1/d8f/a23956.html#ac24cdef45940877cff1b5b2da7863d8b", null ],
-    [ "Register", "d1/d8f/a23956.html#affadd3fb72dadaa734616a858c752e25", null ],
-    [ "handled", "d1/d8f/a23956.html#ab060d9944bc88938b24645760b2b9c16", null ]
+    [ "HandleEffect", "d1/d8f/a23956.html#acb353dbdd050bfc6aa4b4b5f6433dc03", null ],
+    [ "PrepareSpellScript", "d1/d8f/a23956.html#ad95bc33917e1aa968eedc636f6e3ddcb", null ],
+    [ "Register", "d1/d8f/a23956.html#ac2b2bd2581a638553167d5c8099a70cd", null ],
+    [ "Validate", "d1/d8f/a23956.html#a7702b0e876ab5ccd750d1072ee70ed69", null ]
 ];

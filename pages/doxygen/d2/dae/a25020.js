@@ -1,6 +1,8 @@
 var a25020 =
 [
-    [ "HandleScriptEffect", "d2/dae/a25020.html#a835ad18f5dd81d13ab65f2f7ef578e6b", null ],
-    [ "PrepareSpellScript", "d2/dae/a25020.html#a6fec4606464f05f91aef0d3ed0160562", null ],
-    [ "Register", "d2/dae/a25020.html#a19956b109b82fbc2e4ee4b8079fdfc4f", null ]
+    [ "CheckRequirement", "d2/dae/a25020.html#ad967ae7e2affa312fa4adbca6e86dd7c", null ],
+    [ "HandleScript", "d2/dae/a25020.html#aa89b60b2d757ef1ceacebae38aa5d9d9", null ],
+    [ "Load", "d2/dae/a25020.html#a9dfb5501ad6324a25966af44f233b5fb", null ],
+    [ "PrepareSpellScript", "d2/dae/a25020.html#ace75db8a6e5628df6e2edba91cd2852f", null ],
+    [ "Register", "d2/dae/a25020.html#a89d053e0ee793017c74188aac32d99d5", null ]
 ];

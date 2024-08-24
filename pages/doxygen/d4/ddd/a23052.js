@@ -1,9 +1,8 @@
 var a23052 =
 [
-    [ "npc_bonker_togglevoltAI", "d4/ddd/a23052.html#adfd43a6a804a35e235262e55f0155ffe", null ],
-    [ "JustDied", "d4/ddd/a23052.html#a5ac6e89ad9ad3d3d69a87f7b9dc4026f", null ],
-    [ "Reset", "d4/ddd/a23052.html#a13efa2a2a0c5c796b3fd9f36a54ce523", null ],
-    [ "UpdateEscortAI", "d4/ddd/a23052.html#a9bf17d7ec59d800955c131dbe14a31d8", null ],
-    [ "WaypointReached", "d4/ddd/a23052.html#a06dc6c018d52f1cd1b2c7f76dbda3a2d", null ],
-    [ "Bonker_agro", "d4/ddd/a23052.html#a395e6e14f03cb0ecfe70348cc148d7ef", null ]
+    [ "CalculateAmount", "d4/ddd/a23052.html#a13d44c0d5f9b0111ae3b0d3d089e3e13", null ],
+    [ "OnPeriodic", "d4/ddd/a23052.html#ab4d3f69d50fa320886f454ddfe1076f4", null ],
+    [ "PrepareAuraScript", "d4/ddd/a23052.html#a1278420b279449c1c6a53b1a7b53f539", null ],
+    [ "Register", "d4/ddd/a23052.html#a4795011faa2f68b1068d37b81f8c1cf2", null ],
+    [ "Validate", "d4/ddd/a23052.html#a601c2db3a8e47d48b956ed102cbca104", null ]
 ];

@@ -1,6 +1,8 @@
 var a15816 =
 [
-    [ "creatureID", "dc/dd9/a15816.html#a44a9f5e58bfa58e2e2325e116e988f07", null ],
-    [ "pos", "dc/dd9/a15816.html#a9705a858cc2c3867e104514d3a0a1866", null ],
-    [ "waveID", "dc/dd9/a15816.html#a09b48f7f6da7e203ed50a8abc7f24e56", null ]
+    [ "npc_twilight_summonAI", "dc/dd9/a15816.html#a8f5dfe54a5ac1d7a058c5efb9bead77a", null ],
+    [ "DoAction", "dc/dd9/a15816.html#aac4c1e3bc635b30f1ceed8b25f2c7829", null ],
+    [ "Reset", "dc/dd9/a15816.html#a1174c827aef1b05603214e4717c78f8a", null ],
+    [ "UpdateAI", "dc/dd9/a15816.html#addb312c34c668b8189087de6cf89543b", null ],
+    [ "fadeArmorTimer", "dc/dd9/a15816.html#ace4028c8f4d0240b4e2939481312d0d2", null ]
 ];

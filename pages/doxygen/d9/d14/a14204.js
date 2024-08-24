@@ -1,11 +1,8 @@
 var a14204 =
 [
-    [ "npc_winterfin_playmate", "d9/d14/a14204.html#a9c07fb9115c21ba5c3ef7459662e8f38", null ],
-    [ "MoveInLineOfSight", "d9/d14/a14204.html#a7e8640e3bfe0a8f960ce22a2daf136a4", null ],
-    [ "Reset", "d9/d14/a14204.html#aae6b51c22dc0448608c1cf9412565e25", null ],
-    [ "UpdateAI", "d9/d14/a14204.html#a8e04dc18ee8a6d9412cd574994908eb6", null ],
-    [ "orphanGUID", "d9/d14/a14204.html#a9189bf7b93e7c46e559c22f3504f919f", null ],
-    [ "phase", "d9/d14/a14204.html#a0a1051dc971ef393843bd1ba655a2e1b", null ],
-    [ "playerGUID", "d9/d14/a14204.html#a142fe7a438ee22384f682f26ff4a9f9c", null ],
-    [ "timer", "d9/d14/a14204.html#abf4b5f3e16f32a3385b71ef002c5ee64", null ]
+    [ "CalcPeriodic", "d9/d14/a14204.html#ae2ce9c161a25385c6de1f4b7607c9935", null ],
+    [ "HandleEffectApply", "d9/d14/a14204.html#a4321da69ee59416bd50e621b804e5423", null ],
+    [ "HandleEffectPeriodicUpdate", "d9/d14/a14204.html#a3f23e4a8fecf83ba580c904f15e1e98b", null ],
+    [ "PrepareAuraScript", "d9/d14/a14204.html#a956136be8cb484efc9af2429d8779a03", null ],
+    [ "Register", "d9/d14/a14204.html#a1d4b1c43305b3133e4ac7f8b6ce70727", null ]
 ];

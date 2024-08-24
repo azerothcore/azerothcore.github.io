@@ -1,7 +1,5 @@
 var a26904 =
 [
-    [ "FilterTargets", "d7/d05/a26904.html#a9abf4baaba572636dba3980e5ae777c5", null ],
-    [ "Load", "d7/d05/a26904.html#a812e4e461c0ebed6f7c4cc36e88a3367", null ],
-    [ "PrepareSpellScript", "d7/d05/a26904.html#a4e98fbf669c030263ed2e5759a5bd6e8", null ],
-    [ "Register", "d7/d05/a26904.html#a2d72f5771d6563260a6e81122e4a2be5", null ]
+    [ "achievement_bg_control_all_nodes", "d7/d05/a26904.html#afa3c06227adff7a03998ac7c5f8147cf", null ],
+    [ "OnCheck", "d7/d05/a26904.html#a69609eb5488519fa5a1f43b13a80e280", null ]
 ];

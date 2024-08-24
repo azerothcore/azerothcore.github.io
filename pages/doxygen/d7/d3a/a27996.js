@@ -1,7 +1,5 @@
 var a27996 =
 [
-    [ "CalculateAmount", "d7/d3a/a27996.html#a0934aa8eaf442314aa6050d85304c15b", null ],
-    [ "CalculateSpellAmount", "d7/d3a/a27996.html#ab765b87350bd3e73ac43879abef72d98", null ],
-    [ "PrepareAuraScript", "d7/d3a/a27996.html#a627c6a88ed6ce051b0d6a06d94288498", null ],
-    [ "Register", "d7/d3a/a27996.html#ae1b5265f817f1f4ec011d4e2607686eb", null ]
+    [ "Id", "d7/d3a/a27996.html#a2c41c957524b31ad9f7fa361ec0e9d01", null ],
+    [ "textid", "d7/d3a/a27996.html#a7e50690fa335b759dba5ac265c9a0dd0", null ]
 ];

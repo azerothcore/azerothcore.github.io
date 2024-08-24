@@ -1,11 +1,7 @@
 var a26188 =
 [
-    [ "npc_invis_infernal_casterAI", "de/dea/a26188.html#a1188ecc4752d5ab1c2f81602187282f2", null ],
-    [ "Reset", "de/dea/a26188.html#a05a8d5fd4828d7b1edb3b29ff8a6e61c", null ],
-    [ "SetData", "de/dea/a26188.html#aee88dc141757384f96da969fcdc20671", null ],
-    [ "SummonInfernal", "de/dea/a26188.html#a78d53d09e5544b3fe8301da4415d297b", null ],
-    [ "UpdateAI", "de/dea/a26188.html#a80be204b493768ceb5f5d99d1e81f1b1", null ],
-    [ "events", "de/dea/a26188.html#aab7aca330ae36dd2de7761984dd2a0a3", null ],
-    [ "ground", "de/dea/a26188.html#a4c943d67b25d7c9f4ac6f16d96bbbc4f", null ],
-    [ "infernalGUID", "de/dea/a26188.html#a5619136f90c181ecf3e4389bc2fcdafc", null ]
+    [ "if", "de/dea/a26188.html#a2b5a85e480bcd0ef5074d3bcf7eaf5cb", null ],
+    [ "PrepareAuraScript", "de/dea/a26188.html#aa31810077c241e77193e378cb297b7de", null ],
+    [ "Register", "de/dea/a26188.html#a7b8f537719a4155d1cd95a6f49cf6a3a", null ],
+    [ "AuraEffectHandleModes", "de/dea/a26188.html#a3113d8e7ec296fdf13c8f386ae74e0f3", null ]
 ];

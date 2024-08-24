@@ -1,6 +1,5 @@
 var a19964 =
 [
-    [ "boss_four_horsemenAI", "de/de0/a19968.html", "de/de0/a19968" ],
-    [ "boss_four_horsemen", "de/d2e/a19964.html#a6bcaf9a12d854a322f50ac2f98dbb72b", null ],
-    [ "GetAI", "de/d2e/a19964.html#a3ee27da1d0da48306cc10c17c9411d1a", null ]
+    [ "boss_freya_iron_rootAI", "de/d2e/a19964.html#a5e982f5f41433f43a7a0e1d18e009b7b", null ],
+    [ "JustDied", "de/d2e/a19964.html#ad35297f0fa2039749b89d38c2b4f08b9", null ]
 ];

@@ -1,6 +1,8 @@
 var a22600 =
 [
-    [ "boss_skadi_graufAI", "d7/d8c/a22604.html", "d7/d8c/a22604" ],
-    [ "boss_skadi_grauf", "d7/d40/a22600.html#a571db2d2ae21f38b7051319da0f042f6", null ],
-    [ "GetAI", "d7/d40/a22600.html#a9b637a93a572d21691b81b80ec45206d", null ]
+    [ "npc_anzu_spirit", "d7/d40/a22600.html#adb1b66d6bf6ec1991465f85a504397d5", null ],
+    [ "IsSummonedBy", "d7/d40/a22600.html#a26f0928593f75d242c8bbcc541f7b59b", null ],
+    [ "Reset", "d7/d40/a22600.html#acef3f7093f93b6c227d145523cdc487a", null ],
+    [ "UpdateAI", "d7/d40/a22600.html#a9866d91ffc04548a96cfcdc3a5c7496a", null ],
+    [ "_scheduler", "d7/d40/a22600.html#ad14937df9ddddabcf96e2d1104ca153c", null ]
 ];

@@ -1,7 +1,8 @@
 var a25384 =
 [
-    [ "PeriodicTick", "db/d04/a25384.html#a53541105e40202e4a73ecc38d84e9eca", null ],
-    [ "PrepareAuraScript", "db/d04/a25384.html#a79c8829a86db535e254db009d5286430", null ],
-    [ "Register", "db/d04/a25384.html#a58cd762eb10d224bb188aaf167c816b9", null ],
-    [ "Validate", "db/d04/a25384.html#a0a4a1c0b460f7a0ade6ddbbedc893c6f", null ]
+    [ "OnApply", "db/d04/a25384.html#aeec705e572ce6aa870bb5cc048e02e75", null ],
+    [ "OnRemove", "db/d04/a25384.html#a38399457b6cb8ebf4c5e457e0590cb1a", null ],
+    [ "PrepareAuraScript", "db/d04/a25384.html#a8d0f2113c0212a24e94054f3f1db0ad3", null ],
+    [ "Register", "db/d04/a25384.html#a673dc5619a33632ba3d3f1793c5cfdb4", null ],
+    [ "Validate", "db/d04/a25384.html#a65722a9826b14dc90cc6df47655d3d6b", null ]
 ];

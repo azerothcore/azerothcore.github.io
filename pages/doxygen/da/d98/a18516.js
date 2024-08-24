@@ -1,7 +1,6 @@
 var a18516 =
 [
-    [ "HandleTriggerSpell", "da/d98/a18516.html#a7d357e24034ebbbc9c4b4c8060eca2d7", null ],
-    [ "OnRemove", "da/d98/a18516.html#a0c5be5949555f4c5c0c0c5d63abdaad5", null ],
-    [ "PrepareAuraScript", "da/d98/a18516.html#a642e606b79f3e0337d7d17534d2a2020", null ],
-    [ "Register", "da/d98/a18516.html#ad436ecac38cc69ba3bde6a1c56042149", null ]
+    [ "npc_captain_rupertAI", "da/d98/a18516.html#ae91de64c440e71e612f34e37b90076d5", null ],
+    [ "Reset", "da/d98/a18516.html#a8ebaca725aba2c3aed8856fb23228ae1", null ],
+    [ "UpdateAI", "da/d98/a18516.html#a2edf4e51c9a5bde61a1875c067e963f2", null ]
 ];

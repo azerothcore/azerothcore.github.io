@@ -1,6 +1,6 @@
 var a25896 =
 [
-    [ "boss_gatewatcher_iron_handAI", "dd/dce/a25900.html", "dd/dce/a25900" ],
-    [ "boss_gatewatcher_iron_hand", "d3/de1/a25896.html#a36cf8a948ebea0f8d5d32d6d5a6b2c7a", null ],
-    [ "GetAI", "d3/de1/a25896.html#a25bd87bac2aff58f6f4e3b0e2c8cce2e", null ]
+    [ "HandleDummy", "d3/de1/a25896.html#a4fde3142b38989cb37db76da6eada03c", null ],
+    [ "PrepareSpellScript", "d3/de1/a25896.html#aa694a1a7cbbe0f20226d7e616e19cefb", null ],
+    [ "Register", "d3/de1/a25896.html#a1f83fae2fb3dc0904ed56101e1254f5f", null ]
 ];

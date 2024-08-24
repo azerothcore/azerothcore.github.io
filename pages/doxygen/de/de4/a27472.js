@@ -1,8 +1,6 @@
 var a27472 =
 [
-    [ "OnApply", "de/de4/a27472.html#aeec705e572ce6aa870bb5cc048e02e75", null ],
-    [ "OnRemove", "de/de4/a27472.html#a38399457b6cb8ebf4c5e457e0590cb1a", null ],
-    [ "PrepareAuraScript", "de/de4/a27472.html#a8d0f2113c0212a24e94054f3f1db0ad3", null ],
-    [ "Register", "de/de4/a27472.html#a673dc5619a33632ba3d3f1793c5cfdb4", null ],
-    [ "Validate", "de/de4/a27472.html#a65722a9826b14dc90cc6df47655d3d6b", null ]
+    [ "npc_dancing_flamesAI", "d2/d71/a27476.html", "d2/d71/a27476" ],
+    [ "npc_dancing_flames", "de/de4/a27472.html#adec0401f876ddf159f28fdda8bc4d563", null ],
+    [ "GetAI", "de/de4/a27472.html#a1000d0b95dab3a6e73efa0ca088ce4e6", null ]
 ];

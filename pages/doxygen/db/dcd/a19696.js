@@ -1,6 +1,6 @@
 var a19696 =
 [
-    [ "HandleScript", "db/dcd/a19696.html#a51fdfe637dd4cacc79103105b61dbe6b", null ],
-    [ "PrepareSpellScript", "db/dcd/a19696.html#a4c851026438d0690679809f6ab7b2341", null ],
-    [ "Register", "db/dcd/a19696.html#ac28a1dec151e0ca319f50c9b3b53b3b4", null ]
+    [ "HandleInstaKill", "db/dcd/a19696.html#a9371a2cc86616fd04e47939d45f01cae", null ],
+    [ "PrepareSpellScript", "db/dcd/a19696.html#a38eed301f1db3ea7ac15b626e5927500", null ],
+    [ "Register", "db/dcd/a19696.html#a9aaf3e86a2c14ee79cc013b3978621ee", null ]
 ];

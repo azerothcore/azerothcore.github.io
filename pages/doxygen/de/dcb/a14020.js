@@ -1,6 +1,7 @@
 var a14020 =
 [
-    [ "boss_thekalAI", "d8/d6a/a14024.html", "d8/d6a/a14024" ],
-    [ "boss_thekal", "de/dcb/a14020.html#ade26017db4a5309a5e2821e51cef1a69", null ],
-    [ "GetAI", "de/dcb/a14020.html#ae9b2e5f2bc57385ae27bea091f566ad5", null ]
+    [ "FilterTargets", "de/dcb/a14020.html#a3498c9eb96bf1a6a85ded114e995850c", null ],
+    [ "HandleDummyEffect", "de/dcb/a14020.html#a3985ca8b79a234e44d9f46ffe6d5b232", null ],
+    [ "PrepareSpellScript", "de/dcb/a14020.html#a03f752d4d4762698e5777a4ae0e395cf", null ],
+    [ "Register", "de/dcb/a14020.html#a9af46e5f2fdb4719d65bb96f2b68a7f8", null ]
 ];

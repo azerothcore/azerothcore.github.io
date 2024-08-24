@@ -1,6 +1,7 @@
 var a15984 =
 [
-    [ "PrepareSpellScript", "d1/d0c/a15984.html#a2a3602af522bb8658c1bfdede1234efd", null ],
-    [ "Register", "d1/d0c/a15984.html#aba235111ea4e186064a85295466f2a3f", null ],
-    [ "SetDest", "d1/d0c/a15984.html#a89827e4db37bea4847c79265d95386c6", null ]
+    [ "TwilightCutterSelector", "d1/d0c/a15984.html#accea6e932c44d083fbb4dc41c5102b3d", null ],
+    [ "operator()", "d1/d0c/a15984.html#a6374425df156bdf202d53a2c73ef784c", null ],
+    [ "_caster", "d1/d0c/a15984.html#a784c95ef6472e711f4200f194222d179", null ],
+    [ "_cutterCaster", "d1/d0c/a15984.html#a7f713777a36a8d127c2865e4610b1288", null ]
 ];

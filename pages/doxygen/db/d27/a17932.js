@@ -1,7 +1,7 @@
 var a17932 =
 [
-    [ "Load", "db/d27/a17932.html#ac5166beda0b7773af95b745d962de5b5", null ],
-    [ "PrepareAuraScript", "db/d27/a17932.html#a5fbf823a98a081adcbc0bf50abef3a53", null ],
-    [ "RecalculateHook", "db/d27/a17932.html#a70d2874c599f6d0ce088a633928ee908", null ],
-    [ "Register", "db/d27/a17932.html#a83f88b0aa326667b7c1f28c50c3d88d5", null ]
+    [ "PeriodicTick", "db/d27/a17932.html#a79b63e30f37df8a961b57c4b10669800", null ],
+    [ "PrepareAuraScript", "db/d27/a17932.html#a091a72cf97d5fbd6ffbf95ad3e409aa6", null ],
+    [ "Register", "db/d27/a17932.html#a860e2bc444f5aeb78837cd1a6eff40a3", null ],
+    [ "Validate", "db/d27/a17932.html#a32cbe3a7eedf7b37229168a6154167b0", null ]
 ];

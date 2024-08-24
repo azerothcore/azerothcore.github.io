@@ -1,6 +1,6 @@
 var a16680 =
 [
-    [ "npc_toc_rogueAI", "d6/ddf/a16684.html", "d6/ddf/a16684" ],
-    [ "npc_toc_rogue", "d1/df1/a16680.html#a925840be9698e381358235a827c20b8a", null ],
-    [ "GetAI", "d1/df1/a16680.html#a6f0246b284ffd800e3870d70e9c52aac", null ]
+    [ "instance_forge_of_souls_InstanceScript", "d6/ddf/a16684.html", "d6/ddf/a16684" ],
+    [ "instance_forge_of_souls", "d1/df1/a16680.html#a504896f6e191c87ce77231c4ef267b27", null ],
+    [ "GetInstanceScript", "d1/df1/a16680.html#a64982b527cfa6057315b8e628549480b", null ]
 ];

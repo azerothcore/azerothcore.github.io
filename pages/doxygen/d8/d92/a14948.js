@@ -1,5 +1,5 @@
 var a14948 =
 [
-    [ "npc_idol_room_spawnerAI", "d8/d92/a14948.html#a77c4aa88d213271166158c8e75d41a69", null ],
-    [ "SetData", "d8/d92/a14948.html#aa0626c837086b4a275f4d51d1659a242", null ]
+    [ "at_cthun_stomach_exit", "d8/d92/a14948.html#ab37174eff353cdbba1f300464645ac63", null ],
+    [ "OnTrigger", "d8/d92/a14948.html#ab56dca3fe200dc7822459a22912247bf", null ]
 ];

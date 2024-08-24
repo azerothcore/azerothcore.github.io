@@ -1,6 +1,7 @@
 var a25088 =
 [
-    [ "OnPeriodic", "d1/d4c/a25088.html#a8ff6b401334bd88a7ca23dcc660ae066", null ],
-    [ "PrepareAuraScript", "d1/d4c/a25088.html#a8cb7f30ba0772267941871f6c49f5ac0", null ],
-    [ "Register", "d1/d4c/a25088.html#a88b11a5a819e7656e4151edc5de61d7f", null ]
+    [ "HandleScript", "d1/d4c/a25088.html#a8b20e2ffed94ec9438dc9b756ba76693", null ],
+    [ "PrepareSpellScript", "d1/d4c/a25088.html#a9e29ea947d5415471d991a4e1cd699ac", null ],
+    [ "Register", "d1/d4c/a25088.html#aa4bc27415893009581b317637599a85a", null ],
+    [ "Validate", "d1/d4c/a25088.html#a77ed10819633ae2bc381023da0feb31b", null ]
 ];

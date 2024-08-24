@@ -1,7 +1,7 @@
 var a02735 =
 [
-    [ "boss_gehennas", "d5/d27/a12059.html", "d5/d27/a12059" ],
-    [ "boss_gehennas::boss_gehennasAI", "d8/d39/a12063.html", "d8/d39/a12063" ],
+    [ "boss_gehennas", "d5/d49/a12056.html", "d5/d49/a12056" ],
+    [ "boss_gehennas::boss_gehennasAI", "d9/d14/a12060.html", "d9/d14/a12060" ],
     [ "Events", "d6/df4/a02735.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d4/d61/a02588.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d4/d61/a02588.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

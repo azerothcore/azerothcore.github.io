@@ -1,7 +1,7 @@
 var a08836 =
 [
-    [ "AllWorldObjectsInRange", "d4/d58/a08836.html#a63f46d510df0fa3153d4b3325676a468", null ],
-    [ "operator()", "d4/d58/a08836.html#a2cf23c24df93b5f7f29163b32e965a94", null ],
-    [ "m_fRange", "d4/d58/a08836.html#a6afe3ef05369dce8ee205db219f97846", null ],
-    [ "m_pObject", "d4/d58/a08836.html#ae7dde7b946d8affb79cb2d4c58eedbed", null ]
+    [ "CreatureRelocationNotifier", "d4/d58/a08836.html#aa144cd2c5b69351afd312084c0e97f0d", null ],
+    [ "Visit", "d4/d58/a08836.html#aa69e9bd551895ca3497d1bfbe5fa79ba", null ],
+    [ "Visit", "d4/d58/a08836.html#a8b346c55d80a8ed92afa2e1f591f5807", null ],
+    [ "i_creature", "d4/d58/a08836.html#a3116f6245816ba8fb9edb5995faa9927", null ]
 ];

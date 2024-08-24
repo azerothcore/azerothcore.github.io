@@ -1,8 +1,26 @@
 var a19444 =
 [
-    [ "FilterTargets", "da/dd0/a19444.html#a91a5cc1b4ccde48df0828343bf2202f7", null ],
-    [ "HandleForceCast", "da/dd0/a19444.html#a16cf66fbbe4b15c91553da654e405247", null ],
-    [ "Load", "da/dd0/a19444.html#a5d5bd913bd4594d3ff942763db04261b", null ],
-    [ "PrepareSpellScript", "da/dd0/a19444.html#a48d9bc469d8c523ec83ea8bd4c765ad7", null ],
-    [ "Register", "da/dd0/a19444.html#a5af39e4c71e88f47cebf7e322034b911", null ]
+    [ "instance_halls_of_lightning_InstanceMapScript", "da/dd0/a19444.html#a9c82cd25354abaf7707c1dabd62c9fe3", null ],
+    [ "CheckAchievementCriteriaMeet", "da/dd0/a19444.html#ad6db51b0ae7de338264d07a61daf21cc", null ],
+    [ "GetData", "da/dd0/a19444.html#ac5ffe94c706af44c1989359d398c9a74", null ],
+    [ "GetGuidData", "da/dd0/a19444.html#a71da39aef6924f1d25743acb396fe38d", null ],
+    [ "Initialize", "da/dd0/a19444.html#a11aa5cfa5c6e5a3d76f00ef2b29562f3", null ],
+    [ "IsEncounterInProgress", "da/dd0/a19444.html#ae110bf89612d9e2c6a3cf2b207d4ce6d", null ],
+    [ "OnCreatureCreate", "da/dd0/a19444.html#a870fe2a7a47c53e4846794577397b722", null ],
+    [ "OnGameObjectCreate", "da/dd0/a19444.html#a51f358749e3056e4a25eced558ac814a", null ],
+    [ "ReadSaveDataMore", "da/dd0/a19444.html#aaa57bfd43cd20fafbd66f6cabbb2128c", null ],
+    [ "SetData", "da/dd0/a19444.html#a26bd9da74d0d29e50b61df62b205f5e6", null ],
+    [ "WriteSaveDataMore", "da/dd0/a19444.html#a98e2944f3199f4820cd52231880aba3b", null ],
+    [ "bjarngrimAchievement", "da/dd0/a19444.html#a20572cd7722a65253bfd8a294476ab6f", null ],
+    [ "m_auiEncounter", "da/dd0/a19444.html#a1c14cdda037a2ff43b246542c5aba621", null ],
+    [ "m_uiBjarngrimDoorGUID", "da/dd0/a19444.html#ae6f84f7a7ae0af6349f1879b2178f36e", null ],
+    [ "m_uiGeneralBjarngrimGUID", "da/dd0/a19444.html#a7bad151c19b5d728d7f81562577509cd", null ],
+    [ "m_uiIonarDoorGUID", "da/dd0/a19444.html#a1e9fb8dd805dfdf8efd9ccca1948bc49", null ],
+    [ "m_uiIonarGUID", "da/dd0/a19444.html#a249d161cbf3b8caa1a3c6c25f95a883c", null ],
+    [ "m_uiLokenDoorGUID", "da/dd0/a19444.html#abe74e5b5247f779d75fb8f6542393b19", null ],
+    [ "m_uiLokenGlobeGUID", "da/dd0/a19444.html#a6e741bd531a91760605f407c1529973a", null ],
+    [ "m_uiLokenGUID", "da/dd0/a19444.html#a70ce7a51edff97f5095f79e5ff2b6b6a", null ],
+    [ "m_uiVolkhanDoorGUID", "da/dd0/a19444.html#ade089fe04440ea936550130f7e98ba29", null ],
+    [ "m_uiVolkhanGUID", "da/dd0/a19444.html#a0c0e420ed790c9f845aae42ea9b738f5", null ],
+    [ "volkhanAchievement", "da/dd0/a19444.html#abf142b92d4db3fefd0088f7473d2c3c7", null ]
 ];

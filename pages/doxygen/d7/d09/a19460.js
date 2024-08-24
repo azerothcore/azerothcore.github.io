@@ -1,7 +1,6 @@
 var a19460 =
 [
-    [ "HandleForceCast", "d7/d09/a19460.html#a662dc95948eebbccd5fa310d0438503e", null ],
-    [ "Load", "d7/d09/a19460.html#a31c4c5d7107a31f9e8c581f8d3c04f73", null ],
-    [ "PrepareSpellScript", "d7/d09/a19460.html#a6255f0adcb0ee7642f8e58ee1527dad4", null ],
-    [ "Register", "d7/d09/a19460.html#a7744a18d51f12b259ce5c649af8a8d95", null ]
+    [ "HandleScript", "d7/d09/a19460.html#a3af4741e2099fec9ba66639f896ba335", null ],
+    [ "PrepareSpellScript", "d7/d09/a19460.html#a9779e2fb43ce69f74678abd82439c752", null ],
+    [ "Register", "d7/d09/a19460.html#ac6ae892e75e52ae83321b2492eca6a1f", null ]
 ];

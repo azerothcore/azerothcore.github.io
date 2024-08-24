@@ -1,6 +1,6 @@
 var a15248 =
 [
-    [ "OnPeriodic", "d5/d2a/a15248.html#a5945e24db52c6bacae7221b085dc877b", null ],
-    [ "PrepareAuraScript", "d5/d2a/a15248.html#acc987aa864a8333de7bd0b770eb9018d", null ],
-    [ "Register", "d5/d2a/a15248.html#a3c5a192302ec6d531037f8b5da1565f2", null ]
+    [ "npc_tiger_matriarch_creditAI", "dc/dac/a15252.html", "dc/dac/a15252" ],
+    [ "npc_tiger_matriarch_credit", "d5/d2a/a15248.html#a9d76e8e808c828da501551025eecd8ea", null ],
+    [ "GetAI", "d5/d2a/a15248.html#ac4966a8ae43688204f97f9a1a7b4542d", null ]
 ];

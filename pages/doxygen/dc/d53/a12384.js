@@ -1,6 +1,6 @@
 var a12384 =
 [
-    [ "boss_garaxxasAI", "df/d3c/a12388.html", "df/d3c/a12388" ],
-    [ "boss_garaxxas", "dc/d53/a12384.html#a97880421faf19338bea63d21434ef310", null ],
-    [ "GetAI", "dc/d53/a12384.html#a99e8fbef4805816bdc0338c3174853d5", null ]
+    [ "npc_grandmother", "dc/d53/a12384.html#a6cffe8c574859779f6561dde0aef9666", null ],
+    [ "OnGossipHello", "dc/d53/a12384.html#ae39335d22b5fd1fc4c0f9d34e8977124", null ],
+    [ "OnGossipSelect", "dc/d53/a12384.html#a0e2b684377ed593abfbb49b730cfe9b2", null ]
 ];

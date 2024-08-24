@@ -1,10 +1,9 @@
 var a25360 =
 [
-    [ "boss_blindeye_the_seer", "d6/d51/a25360.html#a8b95c6f0a822adf018c5aefe59ecef5b", null ],
-    [ "JustDied", "d6/d51/a25360.html#ad70a72b18587da82d26bde8f10d63700", null ],
-    [ "JustEngagedWith", "d6/d51/a25360.html#a0cf082eefe75eac19cc09d2f714d5ff1", null ],
-    [ "Reset", "d6/d51/a25360.html#aabbda75266615f64ce88ce092e68bfa4", null ],
-    [ "UpdateAI", "d6/d51/a25360.html#a8ff8ae03cc528b9a2c71cfc2c7ff3f88", null ],
-    [ "events", "d6/d51/a25360.html#a4cf3029b65fc9a59449a815cf602db3e", null ],
-    [ "instance", "d6/d51/a25360.html#a74462f26d66da3ca370825858060b1c2", null ]
+    [ "CheckCast", "d6/d51/a25360.html#a005565dd77de97b5aa04553a1d6a0185", null ],
+    [ "HandleScript", "d6/d51/a25360.html#a7313a3d9840d7dc81e5a894e83cb6347", null ],
+    [ "Load", "d6/d51/a25360.html#aadfc8a873c72e31d65001ce00518ca45", null ],
+    [ "PrepareSpellScript", "d6/d51/a25360.html#a169b60644259855f0614271e4769f6b9", null ],
+    [ "Register", "d6/d51/a25360.html#a9e7f8cbc7ec3de507069b69678005da3", null ],
+    [ "Validate", "d6/d51/a25360.html#a9e69eb36c1a2640ff616ae5744c04f4f", null ]
 ];

@@ -1,6 +1,11 @@
 var a15884 =
 [
-    [ "HandleApply", "d4/dfd/a15884.html#aee4d5908035d06be2f1469a50db02e26", null ],
-    [ "PrepareAuraScript", "d4/dfd/a15884.html#ac8349deb2e9c8861194e80132bd72fc5", null ],
-    [ "Register", "d4/dfd/a15884.html#ac83962bef84b68cef6d7937769730598", null ]
+    [ "boss_general_zarithrianAI", "d4/dfd/a15884.html#a4168a5883052810d137f59d3b104bc24", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "d4/dfd/a15884.html#a22f6ff041e61c94df73a938162fa26f5", null ],
+    [ "JustDied", "d4/dfd/a15884.html#a49be533142c82a95a136dc2dcbf4843c", null ],
+    [ "JustEngagedWith", "d4/dfd/a15884.html#a9ec34e473b9d478277f472ab3bb7c7ef", null ],
+    [ "JustSummoned", "d4/dfd/a15884.html#acb694d20b35d57a315aa4662562af210", null ],
+    [ "KilledUnit", "d4/dfd/a15884.html#ad385477740b728e63acff7c184df3c09", null ],
+    [ "Reset", "d4/dfd/a15884.html#a3093369d5f3c7e2a1a5828671ac0af0a", null ],
+    [ "UpdateAI", "d4/dfd/a15884.html#a3a7e578d64a760cd38712c725eecc97d", null ]
 ];

@@ -1,9 +1,9 @@
 var a26580 =
 [
-    [ "npc_pet_shaman_fire_elemental", "d8/d21/a26580.html#a3428642963fc9e7588ec92fd838f1af9", null ],
-    [ "InitializeAI", "d8/d21/a26580.html#aef4865f83ce0c73efe0c47a11ac87594", null ],
-    [ "JustEngagedWith", "d8/d21/a26580.html#ac274b9edb03ab13a8e95d8c4fe5055db", null ],
-    [ "UpdateAI", "d8/d21/a26580.html#a2280e5cc5187a91917a1e517e80e960d", null ],
-    [ "_events", "d8/d21/a26580.html#aa4578cdbe41d28e399247c84c9fe8049", null ],
-    [ "_initAttack", "d8/d21/a26580.html#a2df79acc05dd8489e9e994e044b45404", null ]
+    [ "CalculateAmount", "d8/d21/a26580.html#a55d778b049e26c28bfa9d2e08d7920a8", null ],
+    [ "CheckProc", "d8/d21/a26580.html#aa0144f9a0260a74010ced913dd8cadbd", null ],
+    [ "HandleProc", "d8/d21/a26580.html#a741570ba77f70d90b437198f63e565f3", null ],
+    [ "PrepareAuraScript", "d8/d21/a26580.html#af4e49e2362994f247c119c16c013e4b3", null ],
+    [ "Register", "d8/d21/a26580.html#a06a3c11618cbdf15427bbaa6ac8a4273", null ],
+    [ "Validate", "d8/d21/a26580.html#a939d6815bcaee9b9d2b062313aac912a", null ]
 ];

@@ -1,10 +1,8 @@
 var a28292 =
 [
-    [ "GetTarget", "da/dda/a28292.html#a1bfcb90731a93e4897c9d4fbf46d2a01", null ],
-    [ "HandleEffectPeriodicPlatform", "da/dda/a28292.html#ac499c8adcd74206ad60a7fc24d32cc3c", null ],
-    [ "HandleEffectPeriodicSelf", "da/dda/a28292.html#a2272a970ca5edca6f7353beb2279c29c", null ],
-    [ "PerformKick", "da/dda/a28292.html#aa192aa92cc5c55f8bf2306c4463a3efc", null ],
-    [ "PrepareAuraScript", "da/dda/a28292.html#a489f1da8f8008db8f096470f28455ef9", null ],
-    [ "Register", "da/dda/a28292.html#a164c94c63cf03b98ee085b18a0a8af9a", null ],
-    [ "AuraEffectHandleModes", "da/dda/a28292.html#a91d53900d8c6d0dd2a7519a4836aa05b", null ]
+    [ "TimeSeg", "da/dda/a28292.html#ab94639ba8e26b215ebd31163967574d3", null ],
+    [ "TransportEntry", "da/dda/a28292.html#a859d25b3c11839ad7e37facd40dc79df", null ],
+    [ "X", "da/dda/a28292.html#a8fbd166503396e33a4ad77448bf307ea", null ],
+    [ "Y", "da/dda/a28292.html#a67c279b26cebd8e5c81c36576b145af6", null ],
+    [ "Z", "da/dda/a28292.html#a680689c57479a2cc1ec72ab97204d3e7", null ]
 ];

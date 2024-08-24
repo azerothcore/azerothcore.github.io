@@ -1,6 +1,6 @@
 var a24652 =
 [
-    [ "boss_supremusAI", "d5/dd5/a24656.html", "d5/dd5/a24656" ],
-    [ "boss_supremus", "da/d97/a24652.html#ab4ec1ee2fb9f8b022d6c2ec0a2813464", null ],
-    [ "GetAI", "da/d97/a24652.html#aeac20cbc45b1f30e3aa72e7e9c1ac7d9", null ]
+    [ "CalculateAmount", "da/d97/a24652.html#a8deb31d3b6244f4d8de6050c99b3192e", null ],
+    [ "PrepareAuraScript", "da/d97/a24652.html#a4090baaee0e4330d3776b5774c5c923a", null ],
+    [ "Register", "da/d97/a24652.html#a4db48f3a549a04caf746a9459b1c5640", null ]
 ];

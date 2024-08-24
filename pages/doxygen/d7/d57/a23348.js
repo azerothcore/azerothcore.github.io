@@ -1,6 +1,5 @@
 var a23348 =
 [
-    [ "npc_spiritual_insightAI", "d7/d57/a23348.html#ab173cd8b623fcf8c36406155c91bc4db", null ],
-    [ "GetSpeachId", "d7/d57/a23348.html#ad2dd22651470f47e7a7ba6f687ba54e9", null ],
-    [ "IsSummonedBy", "d7/d57/a23348.html#ab6b39190d1195915ea0b4b191d864da6", null ]
+    [ "at_underbog_ghazan", "d7/d57/a23348.html#aa6c74496bb30bf04e66ac3cd06110811", null ],
+    [ "_OnTrigger", "d7/d57/a23348.html#aff03fc0bbded7bf7fa68d0c736bfaff2", null ]
 ];

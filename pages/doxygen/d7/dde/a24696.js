@@ -1,6 +1,9 @@
 var a24696 =
 [
-    [ "spell_teron_gorefiend_shadowy_construct_AuraScript", "df/d98/a24700.html", "df/d98/a24700" ],
-    [ "spell_teron_gorefiend_shadowy_construct", "d7/dde/a24696.html#a9d94077e7fbc51d215a8a761dfad6378", null ],
-    [ "GetAuraScript", "d7/dde/a24696.html#ae022ce30719f2d87accd41a386160151", null ]
+    [ "Absorb", "d7/dde/a24696.html#af7df70d0bd68d12032b5b57faa789a87", null ],
+    [ "CalculateAmount", "d7/dde/a24696.html#a40f7cfe30b7bf2237d61665b167476fb", null ],
+    [ "Load", "d7/dde/a24696.html#a1b3e5da38a6aba7cc163bf34848ed950", null ],
+    [ "PrepareAuraScript", "d7/dde/a24696.html#ae63ad15db90ebe73d73e77e232f4d695", null ],
+    [ "Register", "d7/dde/a24696.html#ac7316995b7682a6fafe47ff2547956b0", null ],
+    [ "absorbPct", "d7/dde/a24696.html#ab5b59d975e71e0e12bf41e8d173b9491", null ]
 ];

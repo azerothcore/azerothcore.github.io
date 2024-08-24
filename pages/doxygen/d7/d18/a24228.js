@@ -1,6 +1,5 @@
 var a24228 =
 [
-    [ "npc_yorAI", "d2/ddd/a24232.html", "d2/ddd/a24232" ],
-    [ "npc_yor", "d7/d18/a24228.html#a03fa92e0c70a701889e7518d06d3b986", null ],
-    [ "GetAI", "d7/d18/a24228.html#a2de7f46d1eaedb90ae3e8cf08e3b6b8b", null ]
+    [ "npc_shattrath_daily_quest", "d7/d18/a24228.html#ab6aa71e4738fdce1b59d379249a868d5", null ],
+    [ "DoAction", "d7/d18/a24228.html#ac3e8c6de30ad7567fe5e52cd1ddfeb2c", null ]
 ];

@@ -1,8 +1,6 @@
 var a15368 =
 [
-    [ "npc_death_ravagerAI", "d3/d9a/a15368.html#ad18242b078db0883029537562a41cc20", null ],
-    [ "Reset", "d3/d9a/a15368.html#ac0fdbfe2f324785569fa742e0b244b83", null ],
-    [ "UpdateAI", "d3/d9a/a15368.html#ac3dce7d79e67f20d7a8fe161da9d5279", null ],
-    [ "EnragingBiteTimer", "d3/d9a/a15368.html#af33898ebd9bea6b1a58b673373de3c64", null ],
-    [ "RendTimer", "d3/d9a/a15368.html#ad7ff02fe6e11a0fb0d8a3ae869ed5f6d", null ]
+    [ "SpellId", "d3/d9a/a15368.html#a2c430be201c1fd866ee96224f1803a20", null ],
+    [ "Timer1", "d3/d9a/a15368.html#a9a35c148286e88f48b174be8b74fc5d0", null ],
+    [ "Timer2", "d3/d9a/a15368.html#a108dee679b1f5d9fb8351f7b4b4f3a56", null ]
 ];

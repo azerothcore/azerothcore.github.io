@@ -1,15 +1,15 @@
 var a05760 =
 [
-    [ "VehicleAI", "d1/d47/a05760.html#aeb8d08eeea0ac12a72ff5dbaf40e9835", null ],
-    [ "AttackStart", "d1/d47/a05760.html#ad06972054ef4525411e859d291226783", null ],
-    [ "CheckConditions", "d1/d47/a05760.html#afcee52b5173ec8b9850da63c1d58cded", null ],
-    [ "LoadConditions", "d1/d47/a05760.html#a2c49067fa9953ba4db4cc6b03a7a9fb0", null ],
-    [ "MoveInLineOfSight", "d1/d47/a05760.html#a48213b69fa4f0034cdc3cd60841d0636", null ],
-    [ "OnCharmed", "d1/d47/a05760.html#a2a593f895c6296c4100af075d971b5b3", null ],
-    [ "Permissible", "d1/d47/a05760.html#a39ad0764dce6586aef86fcd96c2c221c", null ],
-    [ "UpdateAI", "d1/d47/a05760.html#aac593372592d33fa008a66c6dcec1840", null ],
-    [ "conditions", "d1/d47/a05760.html#ae95dc46465404271faaae4b2dc61277a", null ],
-    [ "m_ConditionsTimer", "d1/d47/a05760.html#a3a46c5f18b019852460170e1200b11b4", null ],
-    [ "m_DismissTimer", "d1/d47/a05760.html#a34000f32495dbee3a550147e1e86d761", null ],
-    [ "m_DoDismiss", "d1/d47/a05760.html#a505c1bacb159950e19518ad3b5740a3e", null ]
+    [ "TransactionBase", "d1/d47/a05760.html#a663d13ba0b22e0711d135073ff80ee47", null ],
+    [ "~TransactionBase", "d1/d47/a05760.html#a6ce7e6ef81bb466463bace35cdd49476", null ],
+    [ "Append", "d1/d47/a05760.html#a867b7a92080104278aef5fb4975a4a52", null ],
+    [ "Append", "d1/d47/a05760.html#aa0a81814abe26d456018c3bc9153cd4d", null ],
+    [ "AppendPreparedStatement", "d1/d47/a05760.html#a8e099a4f8775b5e5e3b95ad0273a716f", null ],
+    [ "Cleanup", "d1/d47/a05760.html#a35e0ce11de325a1b286d90a2936d4aa3", null ],
+    [ "GetSize", "d1/d47/a05760.html#a261ad9d7423562ccbe2cac6d75c203bd", null ],
+    [ "DatabaseWorkerPool", "d1/d47/a05760.html#a5d89109a06fa4fca3057b99bbfa84e58", null ],
+    [ "MySQLConnection", "d1/d47/a05760.html#a06fa417f69e0a67da8f249333b1d189d", null ],
+    [ "TransactionTask", "d1/d47/a05760.html#a377add6d6b5e34e774d2497d58f4a180", null ],
+    [ "_cleanedUp", "d1/d47/a05760.html#aa82af96128bfcee997423a54396d40d4", null ],
+    [ "m_queries", "d1/d47/a05760.html#a156f1a8316358c05285778e5734eade1", null ]
 ];

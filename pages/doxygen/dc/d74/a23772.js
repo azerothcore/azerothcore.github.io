@@ -1,6 +1,11 @@
 var a23772 =
 [
-    [ "spell_q12589_shoot_rjr_SpellScript", "d3/d51/a23776.html", "d3/d51/a23776" ],
-    [ "spell_q12589_shoot_rjr", "dc/d74/a23772.html#a7f70acaf058522d3266d059f0ca1b39a", null ],
-    [ "GetSpellScript", "dc/d74/a23772.html#ad59417349e323e7befef6339661d2c24", null ]
+    [ "npc_capernian", "dc/d74/a23772.html#a0acb568664c777797eeb7104f454699d", null ],
+    [ "AttackStart", "dc/d74/a23772.html#a81e89eacbae30a1229fda5e9fe924e2b", null ],
+    [ "JustDied", "dc/d74/a23772.html#acf4b5b8e6c10cb87435723705f551c6f", null ],
+    [ "JustEngagedWith", "dc/d74/a23772.html#ae2d07a3e4031a831248b84e8b36f6972", null ],
+    [ "Reset", "dc/d74/a23772.html#ad9b91c94833a899ff33f81de2187b6ad", null ],
+    [ "UpdateAI", "dc/d74/a23772.html#a7e9116c766fa828c9bd5d0b2118e8fa1", null ],
+    [ "_hasDied", "dc/d74/a23772.html#a05976816642fad6c31a1ffe9066e5606", null ],
+    [ "_instance", "dc/d74/a23772.html#a307f6f388f96df3fb0311737f8e7ce96", null ]
 ];

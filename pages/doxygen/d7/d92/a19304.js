@@ -1,6 +1,6 @@
 var a19304 =
 [
-    [ "ManaVoidSelector", "d7/d92/a19304.html#aa57a0960e7ce90b8de23f01ae72a1fff", null ],
-    [ "operator()", "d7/d92/a19304.html#a464d63f2cf8cfe7d0c6bb5293e788a28", null ],
-    [ "_source", "d7/d92/a19304.html#ae45c999db51bc153bba7f2fdfb99f6ba", null ]
+    [ "npc_oculus_drakeAI", "d0/d87/a19308.html", "d0/d87/a19308" ],
+    [ "npc_oculus_drake", "d7/d92/a19304.html#ad2897dd72e9337af53ef2f043cd07d55", null ],
+    [ "GetAI", "d7/d92/a19304.html#afd2f1678a7faef76a231e4c16bd015e5", null ]
 ];

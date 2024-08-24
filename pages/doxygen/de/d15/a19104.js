@@ -1,7 +1,11 @@
 var a19104 =
 [
-    [ "OnPeriodic", "de/d15/a19104.html#a41bb1ea0a6c95a3804f922964b1d6336", null ],
-    [ "PrepareAuraScript", "de/d15/a19104.html#a15d8b033481768fc96667875272a3d48", null ],
-    [ "Register", "de/d15/a19104.html#af5ad23b55be688c7d200d2943c45d589", null ],
-    [ "Validate", "de/d15/a19104.html#a7b377b5ab537302980d423e141e06e37", null ]
+    [ "npc_nexus_lordAI", "de/d15/a19104.html#a8d26337fdcd055027a20ea91faf7e01b", null ],
+    [ "AttackStart", "de/d15/a19104.html#a2f56dcac815431c887b95e9c09aec361", null ],
+    [ "JustDied", "de/d15/a19104.html#a828007757a618affad71b955681945cf", null ],
+    [ "JustEngagedWith", "de/d15/a19104.html#acfcf227557b1e212eda385e22ccdb981", null ],
+    [ "UpdateAI", "de/d15/a19104.html#ad7ddb98d2daaed386e713e423de4cac9", null ],
+    [ "events", "de/d15/a19104.html#ad20a56e52b22306ca31406d8defa4aa5", null ],
+    [ "pInstance", "de/d15/a19104.html#a81fae70688bcd8c733ea90b06900503d", null ],
+    [ "timer", "de/d15/a19104.html#a8edb133f7ca01a4aa75345c572a505c7", null ]
 ];

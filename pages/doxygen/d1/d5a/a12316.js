@@ -1,6 +1,7 @@
 var a12316 =
 [
-    [ "boss_felblood_kaelthasAI", "df/da2/a12320.html", "df/da2/a12320" ],
-    [ "boss_felblood_kaelthas", "d1/d5a/a12316.html#a41d57d43ee2ea45f72a5054cb02f4934", null ],
-    [ "GetAI", "d1/d5a/a12316.html#a3cf55f3e1b38e5e5007c7af093c3af5f", null ]
+    [ "npc_malchezaar_axe", "d1/d5a/a12316.html#a1a5615f2def10add30e7917b770ebc74", null ],
+    [ "Initialize", "d1/d5a/a12316.html#a078e7f0997c026b73a4e0ab8a1c209b8", null ],
+    [ "JustEngagedWith", "d1/d5a/a12316.html#a4a9f90e66359b304622d4f79653f9fd0", null ],
+    [ "UpdateAI", "d1/d5a/a12316.html#a202ba6922a426f87909eefbccd070175", null ]
 ];

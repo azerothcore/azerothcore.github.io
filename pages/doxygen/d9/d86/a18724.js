@@ -1,6 +1,5 @@
 var a18724 =
 [
-    [ "npc_ice_tombAI", "df/daf/a18728.html", "df/daf/a18728" ],
-    [ "npc_ice_tomb", "d9/d86/a18724.html#a939c6083a77a6f4cb2a940ec9c1df55e", null ],
-    [ "GetAI", "d9/d86/a18724.html#ac99b7c9887e54a1764310bd3e079811a", null ]
+    [ "at_icc_putricide_trap", "d9/d86/a18724.html#a9d4183629deada9c22750b8a34e94583", null ],
+    [ "OnTrigger", "d9/d86/a18724.html#ad59c2f694c50fabf1946d2c7ae726413", null ]
 ];

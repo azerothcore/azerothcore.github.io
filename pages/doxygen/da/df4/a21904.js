@@ -1,11 +1,11 @@
 var a21904 =
 [
-    [ "boss_thorim_sifAI", "da/df4/a21904.html#af63f344d3a5650baaa9b96204abc39a9", null ],
-    [ "AttackStart", "da/df4/a21904.html#ae9354f2e97c88cd1af86fae050e810d6", null ],
-    [ "DoAction", "da/df4/a21904.html#a8aac66a64c5ca6491595c2b3b6cbbd95", null ],
-    [ "MoveInLineOfSight", "da/df4/a21904.html#a3e7d07ca6fc8f4619173f3fd74d63ccb", null ],
-    [ "Reset", "da/df4/a21904.html#ab30d73613bafac5b92021677d69b3aae", null ],
-    [ "UpdateAI", "da/df4/a21904.html#a09ee3373177e84a5e4e51ebb48c68525", null ],
-    [ "_allowCast", "da/df4/a21904.html#ade272764f09375d8e5fda937d42aad90", null ],
-    [ "events", "da/df4/a21904.html#a8fd3c7073a250d054e3edc73d5867fbd", null ]
+    [ "npc_lake_frogAI", "da/df4/a21904.html#ac08eeed39d046ce35d7d6aa65d53cab5", null ],
+    [ "ReceiveEmote", "da/df4/a21904.html#abd58e65b6829c70818c578ed615a980b", null ],
+    [ "Reset", "da/df4/a21904.html#a3773b3a21ea25db316481f1da5e6dd3c", null ],
+    [ "sGossipSelect", "da/df4/a21904.html#a95906677ff65e004408ae65df3f49b5c", null ],
+    [ "UpdateAI", "da/df4/a21904.html#aed8368ec27fed5cd14e4a54091aa9584", null ],
+    [ "_events", "da/df4/a21904.html#a314d7d7891c05bda288ea0d590f0cfa4", null ],
+    [ "_following", "da/df4/a21904.html#a0078f9134a61f0ec2465ce103523e341", null ],
+    [ "_runningScript", "da/df4/a21904.html#af76102ba6c9ffd80baa95623b7312980", null ]
 ];

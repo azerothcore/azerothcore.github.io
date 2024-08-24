@@ -1,6 +1,7 @@
 var a27904 =
 [
-    [ "PrepareSpellScript", "d3/d62/a27904.html#a738e105a48f6c603f3d9a690f44b8745", null ],
-    [ "Register", "d3/d62/a27904.html#a6bc9791d0f08440e19b89daa9b65892c", null ],
-    [ "SetDest", "d3/d62/a27904.html#a59641895cead08de4a4503262505ee73", null ]
+    [ "cutPercent", "d3/d62/a27904.html#a8581a6a5198dab10680f477a477a7c80", null ],
+    [ "depositPercent", "d3/d62/a27904.html#af7bb868f1a1e8d570ce7b6cb10ad87d9", null ],
+    [ "faction", "d3/d62/a27904.html#a4b857e3c4c333b2a86f7f5d08bcc883d", null ],
+    [ "houseId", "d3/d62/a27904.html#a1bf77c1b14731def0e3de44143df2eed", null ]
 ];

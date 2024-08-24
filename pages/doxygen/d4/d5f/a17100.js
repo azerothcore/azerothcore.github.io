@@ -1,8 +1,7 @@
 var a17100 =
 [
-    [ "npc_fos_leaderAI", "d2/d3b/a17104.html", "d2/d3b/a17104" ],
-    [ "npc_fos_leader", "d4/d5f/a17100.html#a4223072bc180e990ff9e01bf772def5b", null ],
-    [ "GetAI", "d4/d5f/a17100.html#a6eca5c95aa3a8498790d8bf52f0741f8", null ],
-    [ "OnGossipHello", "d4/d5f/a17100.html#a3858054505d439902624378b9355f40d", null ],
-    [ "OnGossipSelect", "d4/d5f/a17100.html#a1b743c6f270a2bdbd09940a414a1b437", null ]
+    [ "HandlePeriodic", "d4/d5f/a17100.html#a2087e4de62f7aabb72315e92c28c7bd6", null ],
+    [ "PrepareAuraScript", "d4/d5f/a17100.html#ab71db011b1cc1f3a2e85cd6b6f115242", null ],
+    [ "Register", "d4/d5f/a17100.html#ad8a16d599a11fa4409d132f66e37e04e", null ],
+    [ "Validate", "d4/d5f/a17100.html#afe821a7eb4eaf959d803c7c846f3bdf0", null ]
 ];

@@ -1,5 +1,8 @@
 var a18056 =
 [
-    [ "npc_zafod_boomboxAI", "dc/d3e/a18056.html#a6540d8f5787ce1da211123721ef659f3", null ],
-    [ "sGossipSelect", "dc/d3e/a18056.html#a6378748a168e4e668f696bd9c6dfbc31", null ]
+    [ "NecroticPlagueTargetCheck", "dc/d3e/a18056.html#abf9c21cc0041e5981a91abce8fb0a58f", null ],
+    [ "operator()", "dc/d3e/a18056.html#a801a176e367a9f4446fe080845477654", null ],
+    [ "_notAura1", "dc/d3e/a18056.html#a4f52417f233e1ab06210726670f719f3", null ],
+    [ "_notAura2", "dc/d3e/a18056.html#affa9b300cd7a7469b0bdf2a72d380dd6", null ],
+    [ "_sourceObj", "dc/d3e/a18056.html#a7cf2e485e65f2396cfdbfe8e646e4d53", null ]
 ];

@@ -1,7 +1,6 @@
 var a22064 =
 [
-    [ "FilterTargets", "dd/d61/a22064.html#a9d09504e7ac08791d1ed9823e34fa78c", null ],
-    [ "PrepareSpellScript", "dd/d61/a22064.html#a99daa4a1f43a13f62ffa8d670b2ae07f", null ],
-    [ "RecalculateDamage", "dd/d61/a22064.html#a21c2ac73f4abaf4c8efb1096e97ee120", null ],
-    [ "Register", "dd/d61/a22064.html#a8325393c08a7550101b43bc60cfa6b4c", null ]
+    [ "npc_guardian_pavilionAI", "df/d89/a22068.html", "df/d89/a22068" ],
+    [ "npc_guardian_pavilion", "dd/d61/a22064.html#aecc7e93f2b50351584049f031362e0f0", null ],
+    [ "GetAI", "dd/d61/a22064.html#a89e55b3267cd93ae688573678851c7b9", null ]
 ];

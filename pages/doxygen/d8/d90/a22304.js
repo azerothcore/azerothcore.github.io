@@ -1,7 +1,7 @@
 var a22304 =
 [
-    [ "Absorb", "d8/d90/a22304.html#adc30ef8d15141d4383e2b77eb50dc3af", null ],
-    [ "CalculateAmount", "d8/d90/a22304.html#ae6fa05fb3ae30b46152f74fd8a25a3b4", null ],
-    [ "PrepareAuraScript", "d8/d90/a22304.html#afdf2cc3c97cbe0daa9a03ab86f2de2b7", null ],
-    [ "Register", "d8/d90/a22304.html#a9b2df6c823078462db0f063ce3895651", null ]
+    [ "npc_wg_quest_giver", "d8/d90/a22304.html#a68589ab4ce9f43247154f3c66d8107b8", null ],
+    [ "GetDialogStatus", "d8/d90/a22304.html#acd5c1462fe51a350c80af4f3ab46bac8", null ],
+    [ "OnGossipHello", "d8/d90/a22304.html#ad08debc749cbaea6fad9b7bcfb5548e0", null ],
+    [ "OnGossipSelect", "d8/d90/a22304.html#a9d42e558d68eee9f0f96ac1f8cd1a409", null ]
 ];

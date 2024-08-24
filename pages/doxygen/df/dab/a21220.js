@@ -1,6 +1,6 @@
 var a21220 =
 [
-    [ "spell_demolisher_ride_vehicle_SpellScript", "d4/d0c/a21224.html", "d4/d0c/a21224" ],
-    [ "spell_demolisher_ride_vehicle", "df/dab/a21220.html#abfee786f470bad3c0bdc141e57d7ac69", null ],
-    [ "GetSpellScript", "df/dab/a21220.html#a52f5b57f7a32139e4e3525dcf723d22e", null ]
+    [ "boss_toravonAI", "d4/d0c/a21224.html", "d4/d0c/a21224" ],
+    [ "boss_toravon", "df/dab/a21220.html#abd30a86924bd7dd9474b5df16f3a8d8d", null ],
+    [ "GetAI", "df/dab/a21220.html#a6db140b1d232312300e20155830cb249", null ]
 ];

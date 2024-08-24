@@ -1,6 +1,8 @@
 var a24712 =
 [
-    [ "spell_najentus_needle_spine_SpellScript", "d2/d44/a24716.html", "d2/d44/a24716" ],
-    [ "spell_najentus_needle_spine", "d6/d1f/a24712.html#af83d2c9079479c1b5c49694ced587a80", null ],
-    [ "GetSpellScript", "d6/d1f/a24712.html#af3e0f80fe10d8865a94f886fbdae6288", null ]
+    [ "AfterApply", "d6/d1f/a24712.html#a4d2941ebb326d603ac08f428f811c29b", null ],
+    [ "AfterRemove", "d6/d1f/a24712.html#ac1e50413041edbecd5cc4189a1121cb5", null ],
+    [ "PrepareAuraScript", "d6/d1f/a24712.html#afa99d3e45e4a54c41b59ec317ffdd9b9", null ],
+    [ "Register", "d6/d1f/a24712.html#a78e30a950b9fc08dff5072028816b8b4", null ],
+    [ "Validate", "d6/d1f/a24712.html#ac3502abb9d6ef213ffd2413eba7916b2", null ]
 ];

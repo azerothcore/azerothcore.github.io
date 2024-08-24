@@ -1,6 +1,5 @@
 var a28508 =
 [
-    [ "HandleFinish", "dc/dde/a28508.html#ac4c50220d86f809644e339fc578d9b4a", null ],
-    [ "PrepareSpellScript", "dc/dde/a28508.html#a5a14594ed93150e34626a7e0edb8171b", null ],
-    [ "Register", "dc/dde/a28508.html#a9d28a3b88d57e2f89921d59f56148f74", null ]
+    [ "fcc", "dc/dde/a28508.html#a828a2845e666d6eb47d6d4705a663a3d", null ],
+    [ "fcc_txt", "dc/dde/a28508.html#acf0f4449ab5a64822833b86b41e2487c", null ]
 ];

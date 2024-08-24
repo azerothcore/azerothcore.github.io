@@ -1,6 +1,6 @@
 var a01646 =
 [
-    [ "BanMgr", "dd/dcb/a09587.html", "dd/dcb/a09587" ],
+    [ "BanMgr", "d5/dea/a09584.html", "d5/dea/a09584" ],
     [ "sBan", "df/dee/a01646.html#a7d5e9b6aab3c8157bcf25fa0f070bb17", null ],
     [ "BanReturn", "df/dee/a01646.html#a4dd4670ead55e2780d09a66ab39943a7", [
       [ "BAN_SUCCESS", "df/dee/a01646.html#a4dd4670ead55e2780d09a66ab39943a7ab48bdf9afe21b115b7550bf103d1dc28", null ],

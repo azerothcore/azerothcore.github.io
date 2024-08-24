@@ -1,6 +1,6 @@
 var a16048 =
 [
-    [ "HandleScriptEffect", "dd/d74/a16048.html#a00b7ec2b596ffac803dac4b5bcd3af75", null ],
-    [ "PrepareSpellScript", "dd/d74/a16048.html#af800b520c55f279803272c816ef97ebd", null ],
-    [ "Register", "dd/d74/a16048.html#a389d152e7f806b8320d59fa2c110d6f4", null ]
+    [ "boss_paletressAI", "db/db7/a16052.html", "db/db7/a16052" ],
+    [ "boss_paletress", "dd/d74/a16048.html#a04cbd31e71cc349b8c1058780ee6f673", null ],
+    [ "GetAI", "dd/d74/a16048.html#a2c20ff397d115cf0e8a1801184e5a3f9", null ]
 ];

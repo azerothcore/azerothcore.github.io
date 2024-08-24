@@ -1,6 +1,7 @@
 var a24484 =
 [
-    [ "spell_mother_shahraz_random_periodic_AuraScript", "d2/d9d/a24488.html", "d2/d9d/a24488" ],
-    [ "spell_mother_shahraz_random_periodic", "da/d92/a24484.html#a41af24f633fa6be1d70aa4d053ada6e4", null ],
-    [ "GetAuraScript", "da/d92/a24484.html#a6ae29c38aa86e094529c5f9e5e88f193", null ]
+    [ "CheckProc", "da/d92/a24484.html#a64414347ed5e132c3268451653082821", null ],
+    [ "HandleProc", "da/d92/a24484.html#a8a3eab47b8214b59275aeaa8a02e4240", null ],
+    [ "PrepareAuraScript", "da/d92/a24484.html#a88277eeea14f7799e27a4a897e6e8c0c", null ],
+    [ "Register", "da/d92/a24484.html#a3ce0dcd5becd38e10e2bb6e3d2f28e89", null ]
 ];

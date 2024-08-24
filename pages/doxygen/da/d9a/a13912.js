@@ -1,6 +1,6 @@
 var a13912 =
 [
-    [ "FilterTargets", "da/d9a/a13912.html#ac29f6792f36f1b5ef4a463754c725a2e", null ],
-    [ "PrepareSpellScript", "da/d9a/a13912.html#a0a1cbde8aff10303d91a791276a865f4", null ],
-    [ "Register", "da/d9a/a13912.html#a9f7d21ab52f581ad154a242ce84d8a5d", null ]
+    [ "LaunchHit", "da/d9a/a13912.html#a10bb54a1a0cd992e9e944870684f3a21", null ],
+    [ "PrepareSpellScript", "da/d9a/a13912.html#a95e85ecfcc5b72c250a0bc184b1d32a7", null ],
+    [ "Register", "da/d9a/a13912.html#a19c6111ea0c3506ddc2d8459c192f04f", null ]
 ];

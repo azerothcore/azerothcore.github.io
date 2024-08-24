@@ -1,7 +1,5 @@
 var a27116 =
 [
-    [ "HandleScript", "db/dc6/a27116.html#a2e323378559d8f11cbdbcb76e86a25ca", null ],
-    [ "PrepareSpellScript", "db/dc6/a27116.html#ad511986b26dccd1be8206f01458c2b40", null ],
-    [ "Register", "db/dc6/a27116.html#aa8ea297d751913def150dc1e29d37664", null ],
-    [ "Validate", "db/dc6/a27116.html#a81222d8ac4f55175d1dc4d7c359cc331", null ]
+    [ "go_ethereum_stasis", "db/dc6/a27116.html#aaa8fc5733678a17a37c60c9853f91e62", null ],
+    [ "OnGossipHello", "db/dc6/a27116.html#ac36da8dccbebcaee605a878df3904c60", null ]
 ];

@@ -1,6 +1,7 @@
 var a18492 =
 [
-    [ "HandleExtraEffect", "d6/d50/a18492.html#a1aaa3754eb3a616b2108578c28923760", null ],
-    [ "PrepareAuraScript", "d6/d50/a18492.html#a07d6acd47c15234dd75dadfef1f2df3f", null ],
-    [ "Register", "d6/d50/a18492.html#a92b6fc7677eae79638fb5db6b643b622", null ]
+    [ "npc_captain_arnathAI", "d6/d50/a18492.html#a34e3d17b89010569bf7e9cb28361c2af", null ],
+    [ "FindFriendlyCreature", "d6/d50/a18492.html#ad6411d2a87d2552bea2051f80ca16e14", null ],
+    [ "Reset", "d6/d50/a18492.html#a016fbe51f31e1c5ec1636e8d20d8cb30", null ],
+    [ "UpdateAI", "d6/d50/a18492.html#a020efd7adc0d60152007906e3229988d", null ]
 ];

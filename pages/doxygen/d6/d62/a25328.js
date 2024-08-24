@@ -1,8 +1,7 @@
 var a25328 =
 [
-    [ "ApplyStun", "d6/d62/a25328.html#a5a5b921dc45418485919e599e80f8ca8", null ],
-    [ "HandleScriptEffect", "d6/d62/a25328.html#a32619710179250a6a0b408856a888153", null ],
-    [ "PrepareSpellScript", "d6/d62/a25328.html#afb61d7dcc8ad52da4dcad3d7593f08ad", null ],
-    [ "Register", "d6/d62/a25328.html#aa753fd45caa1b515911d8fdf6fa78754", null ],
-    [ "Validate", "d6/d62/a25328.html#a66d91a87078c663903cd836344eec867", null ]
+    [ "HandleScriptEffect", "d6/d62/a25328.html#ab1d476e7a07da5db80908fb669b6fa6b", null ],
+    [ "PrepareSpellScript", "d6/d62/a25328.html#acf30d245bab2e7a1ee1121008345e667", null ],
+    [ "Register", "d6/d62/a25328.html#a303a38a41f3d9be6e3083690b234e51f", null ],
+    [ "Validate", "d6/d62/a25328.html#a77a3256cdea185ce0ea95d88283c55d7", null ]
 ];

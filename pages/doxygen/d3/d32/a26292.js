@@ -1,8 +1,7 @@
 var a26292 =
 [
-    [ "npc_raliq_the_drunkAI", "d5/d3a/a26296.html", "d5/d3a/a26296" ],
-    [ "npc_raliq_the_drunk", "d3/d32/a26292.html#a9fa4a6e84f975daf222c41c8c6aabdf4", null ],
-    [ "GetAI", "d3/d32/a26292.html#a928b37bd045172366b5952e6381a8274", null ],
-    [ "OnGossipHello", "d3/d32/a26292.html#a25839fa2d77606bb4d679d0e29a6ae2f", null ],
-    [ "OnGossipSelect", "d3/d32/a26292.html#a0930a7b13cbf918a283f9b703f1409e3", null ]
+    [ "HandleDummy", "d3/d32/a26292.html#a367bd26543382ad71668fbe4f524d823", null ],
+    [ "PrepareSpellScript", "d3/d32/a26292.html#a71cde3f81fdb253d8e93a19be104e9db", null ],
+    [ "Register", "d3/d32/a26292.html#a7c73e3381592bef44d2265aff296b301", null ],
+    [ "Validate", "d3/d32/a26292.html#a03d59b6859286dbe460b348df6de63d7", null ]
 ];

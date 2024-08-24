@@ -1,11 +1,9 @@
 var a04880 =
 [
-    [ "Record", "d1/dcd/a04880.html#a3303a6b7ba364777e368158052dbe1db", null ],
-    [ "getFloat", "d1/dcd/a04880.html#aafb357a6edde22e701ebf85a41e1c10c", null ],
-    [ "getString", "d1/dcd/a04880.html#a6b4d735fe15b3cbec91c2cd0443f9433", null ],
-    [ "getUInt", "d1/dcd/a04880.html#a79d3aefe42e57f12c0e0c003fa0c907d", null ],
-    [ "getUInt8", "d1/dcd/a04880.html#ac7b1685d2eae5fb64b08fb78bc08c056", null ],
-    [ "DBCFileLoader", "d1/dcd/a04880.html#aa9814b507b472e781e08c803e025cc72", null ],
-    [ "file", "d1/dcd/a04880.html#a146dc23a5f24a0d8a1a34f29375b9bcd", null ],
-    [ "offset", "d1/dcd/a04880.html#a06e2c90771be91d9ca948840a07125e8", null ]
+    [ "ManagedModel", "d1/dcd/a04880.html#ab641724be7e7791c2c95982acc13f3b0", null ],
+    [ "decRefCount", "d1/dcd/a04880.html#a5a104acbc0661b19ba2a662dc669b73d", null ],
+    [ "getModel", "d1/dcd/a04880.html#a053fc6647a16746fba19a0795610fea2", null ],
+    [ "setModel", "d1/dcd/a04880.html#aa450ae6be22d507c36a746850629831d", null ],
+    [ "iModel", "d1/dcd/a04880.html#a5e20d0157691bd6036247a83eea8d19b", null ],
+    [ "iRefCount", "d1/dcd/a04880.html#afb30ad900a5979f98276324a1ab1c328", null ]
 ];

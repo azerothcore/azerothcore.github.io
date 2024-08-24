@@ -1,6 +1,6 @@
 var a17672 =
 [
-    [ "npc_dark_nucleusAI", "d7/d8b/a17676.html", "d7/d8b/a17676" ],
-    [ "npc_dark_nucleus", "d0/d17/a17672.html#a14459f4f41ef568decbc952fdcd4ffd5", null ],
-    [ "GetAI", "d0/d17/a17672.html#a1f59ae45c1a84a6faca5a8bb62fc16fc", null ]
+    [ "HandleScriptEffect", "d0/d17/a17672.html#ac6017cbe86b328aef00f707051c67e5f", null ],
+    [ "PrepareSpellScript", "d0/d17/a17672.html#a3e21794652b0ffea67571f9b294b4961", null ],
+    [ "Register", "d0/d17/a17672.html#a4d070dff98fed842e0a3839e918f7c5a", null ]
 ];

@@ -1,7 +1,11 @@
 var a15736 =
 [
-    [ "npc_lakota_windsongAI", "d3/d0f/a15736.html#a922172a38ca75adef66a2653eda7fa98", null ],
-    [ "DoSpawnBandits", "d3/d0f/a15736.html#aa63601ac87b674cb5d0594213d1e7ea9", null ],
-    [ "Reset", "d3/d0f/a15736.html#aee7a86275f93021e0e5db249b636bcd4", null ],
-    [ "WaypointReached", "d3/d0f/a15736.html#a6435c8b1521206789131889e5fa527a6", null ]
+    [ "spell_hadronox_summon_periodic_aura", "d3/d0f/a15736.html#afcca15cddf71c0d46bd811eab9174f1a", null ],
+    [ "HandlePeriodic", "d3/d0f/a15736.html#a048695baf71d307e5aaa00e54586c9f7", null ],
+    [ "OnApply", "d3/d0f/a15736.html#a4466547bc1a5259a33354f2008d6cce7", null ],
+    [ "PrepareAuraScript", "d3/d0f/a15736.html#a4205560054e5baed86aecba3b98fc202", null ],
+    [ "Register", "d3/d0f/a15736.html#a09efdcddaed4af2833139ca20ef94376", null ],
+    [ "Validate", "d3/d0f/a15736.html#a20827683249c17625242e205bb51f9e8", null ],
+    [ "_delay", "d3/d0f/a15736.html#a191d7eec948e0753835bd41eef66f1ec", null ],
+    [ "_spellEntry", "d3/d0f/a15736.html#a52e45512e2bbe34b0bdbfaa273aeb997", null ]
 ];

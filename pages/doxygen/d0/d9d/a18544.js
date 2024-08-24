@@ -1,6 +1,8 @@
 var a18544 =
 [
-    [ "spell_putricide_clear_aura_effect_value_SpellScript", "dc/d1b/a18548.html", "dc/d1b/a18548" ],
-    [ "spell_putricide_clear_aura_effect_value", "d0/d9d/a18544.html#a06d51493609b692096847ab918463d64", null ],
-    [ "GetSpellScript", "d0/d9d/a18544.html#af1991205cb1d8a92bdf57449bde9fcb9", null ]
+    [ "npc_arthas_teleport_visualAI", "d0/d9d/a18544.html#a9b9b2ba725cde9aec898244a9e50c394", null ],
+    [ "Reset", "d0/d9d/a18544.html#a27155b8880a2a86b733bcd074e977b59", null ],
+    [ "UpdateAI", "d0/d9d/a18544.html#a23c200f2c7b9f5d02bed7af37bc69c33", null ],
+    [ "_events", "d0/d9d/a18544.html#a986f19145e46f5975f22a84a3e1b10ee", null ],
+    [ "_instance", "d0/d9d/a18544.html#a25bc023e061a0845421a652b571a6e1e", null ]
 ];

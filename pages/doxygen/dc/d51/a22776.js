@@ -1,6 +1,7 @@
 var a22776 =
 [
-    [ "boss_erekemAI", "d5/d7e/a22780.html", "d5/d7e/a22780" ],
-    [ "boss_erekem", "dc/d51/a22776.html#ab618380bd8f8c199ca85f1fe8a67db4d", null ],
-    [ "GetAI", "dc/d51/a22776.html#aa472a21bf4a855ba75bc7de05cce494c", null ]
+    [ "SuckBackEvent", "dc/d51/a22776.html#a6525e2aefec2680fde20e27ebf962f4c", null ],
+    [ "Execute", "dc/d51/a22776.html#aae1664e6ef9d90ec8a0e12554b991bf0", null ],
+    [ "_action", "dc/d51/a22776.html#abc54669df2dba0238723a40ababe4c0a", null ],
+    [ "_owner", "dc/d51/a22776.html#a4d8bc09803f7786022c1836457ded488", null ]
 ];

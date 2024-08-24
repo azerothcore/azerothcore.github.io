@@ -1,6 +1,7 @@
 var a23260 =
 [
-    [ "npc_heated_battleAI", "d0/d54/a23264.html", "d0/d54/a23264" ],
-    [ "npc_heated_battle", "dc/dbc/a23260.html#aceafde04a60940c1027a6e838ffdc137", null ],
-    [ "GetAI", "dc/dbc/a23260.html#af73fc1f330bf2fd224e53be39da1c9d3", null ]
+    [ "PeriodicTick", "dc/dbc/a23260.html#a789d2d4d2bc75e412abe80a33102fa06", null ],
+    [ "PrepareAuraScript", "dc/dbc/a23260.html#a49db8ade3bc3a3da9e043e8b9ad1759d", null ],
+    [ "Register", "dc/dbc/a23260.html#aec2d7f564107f5b294a5d5c3dd3f9b25", null ],
+    [ "Validate", "dc/dbc/a23260.html#a7c2309d3192b2a18d8035c8067849d6d", null ]
 ];

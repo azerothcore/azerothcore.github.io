@@ -1,7 +1,6 @@
 var a12596 =
 [
-    [ "OnApply", "d0/d15/a12596.html#abc991d627be4235b8aa805aa89afb51a", null ],
-    [ "OnRemove", "d0/d15/a12596.html#a172599e75fc719d9d48784ffe6ca07b9", null ],
-    [ "PrepareAuraScript", "d0/d15/a12596.html#a7c89653c38a534ca5deb4d19c538b1f5", null ],
-    [ "Register", "d0/d15/a12596.html#a8bf20b9da91a6f339b857ecfcd98d772", null ]
+    [ "npc_scarlet_miner_cartAI", "da/d53/a12600.html", "da/d53/a12600" ],
+    [ "npc_scarlet_miner_cart", "d0/d15/a12596.html#a987247939c6fd576d4b8d541175ecb6b", null ],
+    [ "GetAI", "d0/d15/a12596.html#a0f1436f0f6784af5ab62bf91df355731", null ]
 ];

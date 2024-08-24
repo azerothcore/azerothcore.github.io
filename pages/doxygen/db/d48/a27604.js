@@ -1,6 +1,6 @@
 var a27604 =
 [
-    [ "PrepareSpellScript", "db/d48/a27604.html#a72e57e8a4bdb9a4fcd73e3519b6025ea", null ],
-    [ "Register", "db/d48/a27604.html#aac4d3c8ecde3652c65c05abad5c8eaeb", null ],
-    [ "SelectTarget", "db/d48/a27604.html#a3153b6c6814922cd7220e19b06f2a602", null ]
+    [ "X", "db/d48/a27604.html#a55bda49b2eb919415afaf780ca1977de", null ],
+    [ "Y", "db/d48/a27604.html#a0bf22799258050a9b12ddc14bb2b4b11", null ],
+    [ "Z", "db/d48/a27604.html#a7f0ceece775146d825d19a3cd22e5da3", null ]
 ];

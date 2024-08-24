@@ -1,6 +1,6 @@
 var a00080 =
 [
-    [ "VMAP::LocationInfo", "d6/d45/a04907.html", "d6/d45/a04907" ],
-    [ "VMAP::StaticMapTree", "d7/dda/a04911.html", "d7/dda/a04911" ],
-    [ "VMAP::AreaInfo", "da/dea/a04915.html", "da/dea/a04915" ]
+    [ "VMAP::LocationInfo", "df/d8c/a04904.html", "df/d8c/a04904" ],
+    [ "VMAP::StaticMapTree", "da/db8/a04908.html", "da/db8/a04908" ],
+    [ "VMAP::AreaInfo", "dc/d52/a04912.html", "dc/d52/a04912" ]
 ];

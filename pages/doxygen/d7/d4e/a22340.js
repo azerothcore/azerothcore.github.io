@@ -1,6 +1,6 @@
 var a22340 =
 [
-    [ "spell_yogg_saron_sanity_reduce_SpellScript", "d6/d20/a22344.html", "d6/d20/a22344" ],
-    [ "spell_yogg_saron_sanity_reduce", "d7/d4e/a22340.html#ae0e7e2c0654c5887bf9f98081ced0315", null ],
-    [ "GetSpellScript", "d7/d4e/a22340.html#a6cfe3a8ef8222457f774e5ac93e44329", null ]
+    [ "CheckCast", "d7/d4e/a22340.html#afde7c1e90f2faa9c587490ce358a59b2", null ],
+    [ "PrepareSpellScript", "d7/d4e/a22340.html#a5139e3e9cb1c9079798cefc3cb04d387", null ],
+    [ "Register", "d7/d4e/a22340.html#a01225e48eaf2a6dfe13da245725b0a64", null ]
 ];

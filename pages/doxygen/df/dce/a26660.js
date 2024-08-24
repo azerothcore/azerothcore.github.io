@@ -1,6 +1,7 @@
 var a26660 =
 [
-    [ "CheckProc", "df/dce/a26660.html#ace3662e092d02de975929741c470230d", null ],
-    [ "PrepareAuraScript", "df/dce/a26660.html#aed547ead2b8822f08eb1530f4b29e2f8", null ],
-    [ "Register", "df/dce/a26660.html#ae6432106538261827c3eac3dde1450f2", null ]
+    [ "HandleAuraApply", "df/dce/a26660.html#afb8eb7fcc0797c3e19a9bfc5eebb5fb2", null ],
+    [ "HandleAuraRemove", "df/dce/a26660.html#a9029865b5e06c4a9aa7f155f371c9125", null ],
+    [ "PrepareAuraScript", "df/dce/a26660.html#a5c7d7c0b8880128121d66d39094f1965", null ],
+    [ "Register", "df/dce/a26660.html#ae15d5175671c60a55e4a77848bc9fe1b", null ]
 ];

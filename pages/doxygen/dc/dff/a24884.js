@@ -1,6 +1,6 @@
 var a24884 =
 [
-    [ "spell_black_temple_spell_absorption_AuraScript", "de/d6b/a24888.html", "de/d6b/a24888" ],
-    [ "spell_black_temple_spell_absorption", "dc/dff/a24884.html#ae8aba7c7971bf775c11abdcc7d3e16c1", null ],
-    [ "GetAuraScript", "dc/dff/a24884.html#a66ba42a97ce67c08e7245f4b6d2c836c", null ]
+    [ "HandleScriptEffect", "dc/dff/a24884.html#a142d6a512ba6e937985a9c21725d8d33", null ],
+    [ "PrepareSpellScript", "dc/dff/a24884.html#af46fd8adaf8fef92984376ad6aa4f9a2", null ],
+    [ "Register", "dc/dff/a24884.html#a9cbf1c0678bd0775a452aa3270dff6a0", null ]
 ];

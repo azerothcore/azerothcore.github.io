@@ -1,6 +1,6 @@
 var a17348 =
 [
-    [ "HandlePeriodicTick", "d8/d36/a17348.html#a2b3676d5cc443a64453116fe469478ef", null ],
-    [ "PrepareAuraScript", "d8/d36/a17348.html#a1f5da4d2fe9d7573988a5172fb5d840a", null ],
-    [ "Register", "d8/d36/a17348.html#ada8e4f6073e299f80854bdd902d9ddad", null ]
+    [ "boss_festergutAI", "d5/d89/a17352.html", "d5/d89/a17352" ],
+    [ "boss_festergut", "d8/d36/a17348.html#a07ac6be688118cc57e6fdc1d8e961953", null ],
+    [ "GetAI", "d8/d36/a17348.html#ab2624e1908bb376f1b195a88e4b9b146", null ]
 ];

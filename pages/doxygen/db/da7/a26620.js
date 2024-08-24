@@ -1,6 +1,7 @@
 var a26620 =
 [
-    [ "HandleSummon", "db/da7/a26620.html#a00e265d830ea3e8a0a1952984c438071", null ],
-    [ "PrepareSpellScript", "db/da7/a26620.html#a96df13b19964b6e89babb312465b90bc", null ],
-    [ "Register", "db/da7/a26620.html#a5341e4ddf1b1ef94099c337114164ba8", null ]
+    [ "HandleProc", "db/da7/a26620.html#a7e358f231f3ee72fcb95432a4705312a", null ],
+    [ "PrepareAuraScript", "db/da7/a26620.html#acda7b1b6e91a433b72c2a5dd0e165685", null ],
+    [ "Register", "db/da7/a26620.html#a33cd336a6ca68e66e6046cfdac776fee", null ],
+    [ "Validate", "db/da7/a26620.html#a5f2c7d754a37e6ae02d4aaec758841e5", null ]
 ];

@@ -1,7 +1,8 @@
 var a22288 =
 [
-    [ "FilterTargets", "d5/dab/a22288.html#a4d96c113cd60d9949e8c70ac23865ca0", null ],
-    [ "HandleDummyEffect", "d5/dab/a22288.html#a98a2ee1f10a7755e20cecb89ee384a8d", null ],
-    [ "PrepareSpellScript", "d5/dab/a22288.html#a2e8af177d9ac1a4b361b9bc6e0320226", null ],
-    [ "Register", "d5/dab/a22288.html#a07e8f3d396b56765c5b57fd32bffd636", null ]
+    [ "npc_wg_spirit_guideAI", "d4/d0d/a22292.html", "d4/d0d/a22292" ],
+    [ "npc_wg_spirit_guide", "d5/dab/a22288.html#ad6ca047a51547203ee2c5f69efb6f2d3", null ],
+    [ "GetAI", "d5/dab/a22288.html#a769cdf4ac330b5dec71437d325aaf46a", null ],
+    [ "OnGossipHello", "d5/dab/a22288.html#a2d46078cb47f817239685d168f7f2e35", null ],
+    [ "OnGossipSelect", "d5/dab/a22288.html#aae050d38b9fa9c16d398d2733b1e5faf", null ]
 ];

@@ -1,6 +1,5 @@
 var a21460 =
 [
-    [ "npc_ulduar_hodir_mageAI", "dc/da0/a21464.html", "dc/da0/a21464" ],
-    [ "npc_ulduar_hodir_mage", "dc/d09/a21460.html#afebdd0f99f0c7eaaf0a2d5731335105d", null ],
-    [ "GetAI", "dc/d09/a21460.html#abcbe0337b2a83b6eb0a64f7465d7f79a", null ]
+    [ "npc_khunok_the_behemothAI", "dc/d09/a21460.html#a435ac0418fe4bba1d2877ce6bea6451c", null ],
+    [ "MoveInLineOfSight", "dc/d09/a21460.html#a5d54954a159da764aa7b83579e03688c", null ]
 ];

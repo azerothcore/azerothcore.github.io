@@ -1,6 +1,6 @@
 var a13836 =
 [
-    [ "npc_zulian_prowlerAI", "db/dde/a13840.html", "db/dde/a13840" ],
-    [ "npc_zulian_prowler", "db/d55/a13836.html#a27ae990985976d02bb221b6d669fa849", null ],
-    [ "GetAI", "db/d55/a13836.html#a7e7d4f8164bbb728a1b83244c1e356f9", null ]
+    [ "FilterTargets", "db/d55/a13836.html#ac29f6792f36f1b5ef4a463754c725a2e", null ],
+    [ "PrepareSpellScript", "db/d55/a13836.html#a0a1cbde8aff10303d91a791276a865f4", null ],
+    [ "Register", "db/d55/a13836.html#a9f7d21ab52f581ad154a242ce84d8a5d", null ]
 ];

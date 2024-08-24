@@ -1,6 +1,7 @@
 var a14092 =
 [
-    [ "npc_brewfest_bark_trigger", "d6/dd2/a14092.html#a110d654792e1f5dae8b17f014ea3d425", null ],
-    [ "GetTextFor", "d6/dd2/a14092.html#aca27445a1d9868a2cbd3a6a89dd806df", null ],
-    [ "MoveInLineOfSight", "d6/dd2/a14092.html#a271a440f21b4abddd9aa087e1e64a3d0", null ]
+    [ "PeriodicTick", "d6/dd2/a14092.html#ac8b584ffbb1a8787f70370d94586ed77", null ],
+    [ "PrepareAuraScript", "d6/dd2/a14092.html#a4e860850bbab0f14eb8a160bb5e6799e", null ],
+    [ "Register", "d6/dd2/a14092.html#a5def2685cedc4fb78c1a5c534c764ee9", null ],
+    [ "Validate", "d6/dd2/a14092.html#a68247c2afa553411fac34582e83635c9", null ]
 ];

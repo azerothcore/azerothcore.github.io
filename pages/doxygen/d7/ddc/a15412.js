@@ -1,8 +1,6 @@
 var a15412 =
 [
-    [ "npc_prospector_remtravelAI", "d7/ddc/a15412.html#a61f26115382f16f3d65c3d4e1c720f02", null ],
-    [ "JustEngagedWith", "d7/ddc/a15412.html#adf388d36c17b69f881e3cb92d9b78b9b", null ],
-    [ "JustSummoned", "d7/ddc/a15412.html#a6b3dd1552b5313dd04d07dc80eef06fe", null ],
-    [ "Reset", "d7/ddc/a15412.html#ac145a4a4a24be227c31fcc5aefd922eb", null ],
-    [ "WaypointReached", "d7/ddc/a15412.html#a7b02b22e9dc63e1fad6b15a44b2ff9b6", null ]
+    [ "npc_braug_dimspirit", "d7/ddc/a15412.html#ade08e9ad549d80c2f7918dbfcfbf41dc", null ],
+    [ "OnGossipHello", "d7/ddc/a15412.html#aeaed026edf5a1fa82c941f667c05815b", null ],
+    [ "OnGossipSelect", "d7/ddc/a15412.html#a87ea1ba3e247c9b14c1f6c72b3addea0", null ]
 ];

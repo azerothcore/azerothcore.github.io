@@ -1,7 +1,7 @@
 var a28648 =
 [
-    [ "HandleDispel", "d5/da2/a28648.html#aeab02cfd37c20aaf57e70aca62c82d99", null ],
-    [ "PrepareAuraScript", "d5/da2/a28648.html#a9dc5d5dc34bc9aed6094c0c55533ad5e", null ],
-    [ "Register", "d5/da2/a28648.html#a9cfb0fe1465c55b97032ae528ce00bcb", null ],
-    [ "Validate", "d5/da2/a28648.html#ad29fdb4b99e9782cf8bace07384fa87c", null ]
+    [ "Paths", "d5/da2/a28648.html#aff167c694a55441bcf5504f5d1933f41", null ],
+    [ "References", "d5/da2/a28648.html#a07f0d7daa9cd934768b8a603dc52bea3", null ],
+    [ "Sets", "d5/da2/a28648.html#a43774f8dd70e85e16aa8d49b5c6a25b6", null ],
+    [ "Spawns", "d5/da2/a28648.html#a51f24c059516683f0744b81819186c0e", null ]
 ];

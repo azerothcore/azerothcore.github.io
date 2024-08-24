@@ -1,6 +1,6 @@
 var a22404 =
 [
-    [ "npc_ulduar_keeper", "d6/dd9/a22404.html#a252b781061a2e21dc961ea94f7120d59", null ],
-    [ "OnGossipHello", "d6/dd9/a22404.html#a4db12efd22c7d2a5f18144fd16543230", null ],
-    [ "OnGossipSelect", "d6/dd9/a22404.html#acf8681577117107d16d45705e4b8463f", null ]
+    [ "npc_captured_rageclawAI", "d6/dd9/a22404.html#a5bb483a323330b0895f87c5381d73314", null ],
+    [ "Reset", "d6/dd9/a22404.html#a9cde0a0e5015334ec8dcd277fcd99dc3", null ],
+    [ "SpellHit", "d6/dd9/a22404.html#a2c63911d27435a2271a7c89d9d88318c", null ]
 ];

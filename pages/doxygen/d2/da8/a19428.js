@@ -1,6 +1,10 @@
 var a19428 =
 [
-    [ "PeriodicTick", "d2/da8/a19428.html#aa664b55d83a9ba57e6a59a3493ca9c02", null ],
-    [ "PrepareAuraScript", "d2/da8/a19428.html#a46bbd2f80ef2648c5a9870f700af8553", null ],
-    [ "Register", "d2/da8/a19428.html#ab13ebd46f485b15f007836f7eedd8d78", null ]
+    [ "npc_molten_golemAI", "d2/da8/a19428.html#a5172d70649be5030fd91e1adbcad4f06", null ],
+    [ "DamageTaken", "d2/da8/a19428.html#a0dd2ca5b83f5d75c51dfa358544c018a", null ],
+    [ "DoAction", "d2/da8/a19428.html#ada2e9c39ce16f00b47df2f52971d99b1", null ],
+    [ "Reset", "d2/da8/a19428.html#a9f90e791c77377c02c66e5d809c555cc", null ],
+    [ "UpdateAI", "d2/da8/a19428.html#ade3cfd0deb27508f5f084b1b49caf13f", null ],
+    [ "events", "d2/da8/a19428.html#ad97142df8344df59eddfb92471d1a737", null ],
+    [ "m_pInstance", "d2/da8/a19428.html#ad1a300c13e98965b935c1e3fc26b9606", null ]
 ];

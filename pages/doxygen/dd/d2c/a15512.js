@@ -1,6 +1,6 @@
 var a15512 =
 [
-    [ "spell_ooze_zap_channel_end_SpellScript", "de/d96/a15516.html", "de/d96/a15516" ],
-    [ "spell_ooze_zap_channel_end", "dd/d2c/a15512.html#a59ba7ea904f340823a83086275609b08", null ],
-    [ "GetSpellScript", "dd/d2c/a15512.html#a3d7e65de563be9f9c17cc5329d1bd49d", null ]
+    [ "HandleDummy", "dd/d2c/a15512.html#a2750ae788168e7496ea2345c5535509c", null ],
+    [ "PrepareSpellScript", "dd/d2c/a15512.html#a66b4187decbfb0b5623ce5630a8fa9d3", null ],
+    [ "Register", "dd/d2c/a15512.html#ab6c961d89d22761402eb4f5881cbd318", null ]
 ];

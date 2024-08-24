@@ -1,7 +1,5 @@
 var a20228 =
 [
-    [ "boss_naxxramas_miscAI", "d2/d83/a20228.html#affd990236c101d91b31f60eea7135cdf", null ],
-    [ "JustDied", "d2/d83/a20228.html#aae92d4b538907ef829f5f534f16feef1", null ],
-    [ "UpdateAI", "d2/d83/a20228.html#a02fabc7b8669f3e9358a623b4cf0e84c", null ],
-    [ "timer", "d2/d83/a20228.html#a39af06c7bc635bf85eebf4ed40798006", null ]
+    [ "achievement_ignis_shattered", "d2/d83/a20228.html#adbe893b0dd409eb3f10768f81f182f61", null ],
+    [ "OnCheck", "d2/d83/a20228.html#a8a77a6e6979b4b09f5208e51b4faa4c1", null ]
 ];

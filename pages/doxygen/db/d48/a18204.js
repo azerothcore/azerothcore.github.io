@@ -1,6 +1,7 @@
 var a18204 =
 [
-    [ "spell_igb_cannon_blast_SpellScript", "d5/d4a/a18208.html", "d5/d4a/a18208" ],
-    [ "spell_igb_cannon_blast", "db/d48/a18204.html#a8d4db0c581b4f7e8995cfdf3764ea0e6", null ],
-    [ "GetSpellScript", "db/d48/a18204.html#af9e0fe1f4352173ab46e8bc9105ba9a4", null ]
+    [ "CheckTargetCount", "db/d48/a18204.html#a44f558248f944464c773105728cffbca", null ],
+    [ "PrepareSpellScript", "db/d48/a18204.html#a2ae927358c2480aecd18c1f3c2e6c1c7", null ],
+    [ "Register", "db/d48/a18204.html#aeda833ca8483d337311086b9d0a14081", null ],
+    [ "Validate", "db/d48/a18204.html#aee84751e352dbfc12472fc15924c48fa", null ]
 ];

@@ -1,10 +1,11 @@
 var a14108 =
 [
-    [ "npc_brewfest_super_brew_trigger", "d6/d59/a14108.html#a3d2189978683150b1c431fa0fd637358", null ],
-    [ "AttackStart", "d6/d59/a14108.html#a9ca158a2317a599cd4af64dad6ef04cc", null ],
-    [ "JustEngagedWith", "d6/d59/a14108.html#a61be52cb8ba0cc10285820ad5324816e", null ],
-    [ "MoveInLineOfSight", "d6/d59/a14108.html#aedd26ea4a274df9eb27f9f4a22670f1e", null ],
-    [ "Reset", "d6/d59/a14108.html#a5abf05543247a4f1209fe2a5bebb5d64", null ],
-    [ "UpdateAI", "d6/d59/a14108.html#a46db84e1eab29e7f4bf99d377962ad12", null ],
-    [ "timer", "d6/d59/a14108.html#a2ebb06175e3142cca156e57e8386fe02", null ]
+    [ "npc_snowfall_glade_playmate", "d6/d59/a14108.html#aa31b472ad55b240faff4bc2c1ee02ebc", null ],
+    [ "MoveInLineOfSight", "d6/d59/a14108.html#a92143d0bd0eb57b59069ca7a66e16195", null ],
+    [ "Reset", "d6/d59/a14108.html#a89040d9843852b01123e102b49509857", null ],
+    [ "UpdateAI", "d6/d59/a14108.html#a6dedc1cae1e568a792341842e8a922e8", null ],
+    [ "orphanGUID", "d6/d59/a14108.html#ad9bdbee8ec178b0a6c7ff125dc698279", null ],
+    [ "phase", "d6/d59/a14108.html#a9a5b2348313063bc389b99158fc72e3f", null ],
+    [ "playerGUID", "d6/d59/a14108.html#a4ca4198fdbf3c98291255916ee53c637", null ],
+    [ "timer", "d6/d59/a14108.html#ac3d736f2cd62289b88940e0a6ddcd957", null ]
 ];

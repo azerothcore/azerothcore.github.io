@@ -1,10 +1,10 @@
 var a27296 =
 [
-    [ "spell_gen_summon_elemental", "da/dde/a27296.html#ae2dece3ac20afe16430e741fab909fa1", null ],
-    [ "AfterApply", "da/dde/a27296.html#a97fbc7e3f60b6aae5d9783bbd9a2415d", null ],
-    [ "AfterRemove", "da/dde/a27296.html#aeec3688e66a7e9f0207b219e9dcdb265", null ],
-    [ "PrepareAuraScript", "da/dde/a27296.html#a3ad6e5615bb080abae4e18673cd40b6d", null ],
-    [ "Register", "da/dde/a27296.html#ac364e1a3c4b5a1cfd35d8dcec0a42345", null ],
-    [ "Validate", "da/dde/a27296.html#ac2284d4f192fe402ebcf6ad75e777c2a", null ],
-    [ "_spellId", "da/dde/a27296.html#a6ac27b65f909a8c832cf3d301c8db0ce", null ]
+    [ "guard_shattrath_scryerAI", "da/dde/a27296.html#a97accbf467ca1190f8a05512b3857164", null ],
+    [ "Reset", "da/dde/a27296.html#adfcd8bce42148d303fe6ec9b615ffdb1", null ],
+    [ "UpdateAI", "da/dde/a27296.html#ad759cca08b0093522e190ddc038e2c73", null ],
+    [ "banishTimer", "da/dde/a27296.html#aa9aa3c2e7e69df5899c84ebde1e357bd", null ],
+    [ "canTeleport", "da/dde/a27296.html#a84188b40b44deae5714466bb23bf2f0d", null ],
+    [ "exileTimer", "da/dde/a27296.html#a97fbc3f54c23049fd91ad432cd560698", null ],
+    [ "playerGUID", "da/dde/a27296.html#adb40d8bbc97a6a1fa0f4e303db470db2", null ]
 ];

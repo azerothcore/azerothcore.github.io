@@ -1,6 +1,6 @@
 var a19504 =
 [
-    [ "npc_frost_freeze_trapAI", "d7/d48/a19508.html", "d7/d48/a19508" ],
-    [ "npc_frost_freeze_trap", "d7/d23/a19504.html#ac58ed2598fd4250f220208a91343f9b8", null ],
-    [ "GetAI", "d7/d23/a19504.html#a88ed9aeb0403b3b625c858cd1e44a99f", null ]
+    [ "boss_sjonnir_malformed_oozeAI", "d7/d48/a19508.html", "d7/d48/a19508" ],
+    [ "boss_sjonnir_malformed_ooze", "d7/d23/a19504.html#ad151bc07b032b6cceed046d1b25ecc08", null ],
+    [ "GetAI", "d7/d23/a19504.html#a22807bb07692511c5ec87073d98c2604", null ]
 ];

@@ -1,9 +1,7 @@
 var a27520 =
 [
-    [ "getMountSpellId", "d4/d2f/a27520.html#afe306ed6057050baf342ee717723764d", null ],
-    [ "OnApply", "d4/d2f/a27520.html#aa8bee986d413be60d00ac1d2111ef719", null ],
-    [ "OnRemove", "d4/d2f/a27520.html#a162d466a1dcd2cb710abf12c06f7c2de", null ],
-    [ "PrepareAuraScript", "d4/d2f/a27520.html#a7070cc7aeec4a88fbde960cebf1aef56", null ],
-    [ "Register", "d4/d2f/a27520.html#a481e5295da3d789d9b3c1ed30fdaf0bd", null ],
-    [ "Validate", "d4/d2f/a27520.html#a6868f6e88c9179efd921b266c83f6daf", null ]
+    [ "npc_steam_tonkAI", "d4/d2f/a27520.html#a64bc74af412304d50526e5c93e01a333", null ],
+    [ "JustEngagedWith", "d4/d2f/a27520.html#a95b023adf0a2e62788e0d5646b17b319", null ],
+    [ "OnPossess", "d4/d2f/a27520.html#a954208c1a9826ae84a7402f59e1d7055", null ],
+    [ "Reset", "d4/d2f/a27520.html#a5c76625843b30302b2af0a4ae8b85bd2", null ]
 ];

@@ -1,5 +1,7 @@
 var a18796 =
 [
-    [ "operator()", "df/d47/a18796.html#a6a8c02f9b797ed7df8960e5ddc44f93f", null ],
-    [ "operator()", "df/d47/a18796.html#a3847988d35a9cb0c5aab4ad73ff1a427", null ]
+    [ "OnRemove", "df/d47/a18796.html#a4e6a66934a01d01c50208459f6771353", null ],
+    [ "PrepareAuraScript", "df/d47/a18796.html#a2320044c6c81a89af0fefd4f90c05bd5", null ],
+    [ "Register", "df/d47/a18796.html#a4890d35f2b0889156a437c95e49f528c", null ],
+    [ "Validate", "df/d47/a18796.html#a1b90f1288b3b45267edd4da2b3418b21", null ]
 ];

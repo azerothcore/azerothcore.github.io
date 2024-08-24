@@ -1,8 +1,12 @@
 var a25900 =
 [
-    [ "boss_gatewatcher_iron_handAI", "dd/dce/a25900.html#a4d17248817f21f9b8d496b71296086f0", null ],
-    [ "JustDied", "dd/dce/a25900.html#a355046979977e693df0bee9f773d6d75", null ],
-    [ "JustEngagedWith", "dd/dce/a25900.html#a01791f9608782c2f7c87d8d083a21ab9", null ],
-    [ "KilledUnit", "dd/dce/a25900.html#ac7a505bf8de00e33a7110b659d15770d", null ],
-    [ "UpdateAI", "dd/dce/a25900.html#aa4a70288c352bac160d30e7478385d3c", null ]
+    [ "CalcPeriodic", "dd/dce/a25900.html#a5b57273e0d9fc39a000c7bf4e232acb4", null ],
+    [ "CalculateAPAmount", "dd/dce/a25900.html#a65b6f1a2b322c928fd9a5992380d2e95", null ],
+    [ "CalculateResistanceAmount", "dd/dce/a25900.html#a3860e12ea334cb61a437941b6f9b81e0", null ],
+    [ "CalculateSPAmount", "dd/dce/a25900.html#abf0d76c220911d88990f3071f14a9d5a", null ],
+    [ "CalculateStatAmount", "dd/dce/a25900.html#a56489b52592e63dd00640de388926512", null ],
+    [ "HandleEffectApply", "dd/dce/a25900.html#a5180cc8beb5244bd0b957dfc89dc9cf4", null ],
+    [ "HandlePeriodic", "dd/dce/a25900.html#a67cb7b817f29dd41aa7d0dc8c87dc820", null ],
+    [ "PrepareAuraScript", "dd/dce/a25900.html#a5b65221c67283a29cbeb63cafe64457a", null ],
+    [ "Register", "dd/dce/a25900.html#acc22795ea812f31b0b9e21e6494c2d19", null ]
 ];

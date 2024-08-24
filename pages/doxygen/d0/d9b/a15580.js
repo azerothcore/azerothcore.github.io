@@ -1,6 +1,6 @@
 var a15580 =
 [
-    [ "npc_giant_spotlightAI", "db/d1d/a15584.html", "db/d1d/a15584" ],
-    [ "npc_giant_spotlight", "d0/d9b/a15580.html#a9d1c47de758c74a89c751b675d5cc4c0", null ],
-    [ "GetAI", "d0/d9b/a15580.html#af002a3d0194c991c1f78c720de63cfea", null ]
+    [ "HandleOpenLock", "d0/d9b/a15580.html#a32bfb203e9ecfbcfa75f6c3e7a17fade", null ],
+    [ "PrepareSpellScript", "d0/d9b/a15580.html#a646a42455b6a46c9f7cbb4b0229122cd", null ],
+    [ "Register", "d0/d9b/a15580.html#a5dcac6f609ec93074ec3ce195101f592", null ]
 ];

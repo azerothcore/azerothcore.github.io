@@ -1,12 +1,10 @@
 var a13840 =
 [
-    [ "npc_zulian_prowlerAI", "db/dde/a13840.html#a367613efead335b060173011267ddcff", null ],
-    [ "JustDied", "db/dde/a13840.html#a31258aadddfbf6c6e9e1d729452dd8b2", null ],
-    [ "JustEngagedWith", "db/dde/a13840.html#a207504b15ecd22b78088593b80433581", null ],
-    [ "Reset", "db/dde/a13840.html#a62d14bae970d8a70a997c683e0e94259", null ],
-    [ "SpellHit", "db/dde/a13840.html#a4051cd786d8c1974cf80c28f907cc02a", null ],
-    [ "UpdateAI", "db/dde/a13840.html#a708df3a95395f99f6ba3eebcc90a22ab", null ],
-    [ "_events", "db/dde/a13840.html#a994ae5b4e72429141155d1342830e5ad", null ],
-    [ "_instance", "db/dde/a13840.html#ad37ba6b6ff7f52a88d2a96dc4ea00c34", null ],
-    [ "_sideData", "db/dde/a13840.html#afa44e09c5677c2fc567be6a67b766bde", null ]
+    [ "boss_jeklik", "db/dde/a13840.html#a826bdba66fee3bb82b64ca6174b66c44", null ],
+    [ "EnterEvadeMode", "db/dde/a13840.html#a70dc363e0690e72846db5f779375edc1", null ],
+    [ "JustDied", "db/dde/a13840.html#ae648ba9ff49f4970612a8c3351789b66", null ],
+    [ "JustEngagedWith", "db/dde/a13840.html#aeb57cfc66104f6e2b2e36b6551207dd8", null ],
+    [ "PathEndReached", "db/dde/a13840.html#a689e8f91361de45e6f885fea0dec900a", null ],
+    [ "Reset", "db/dde/a13840.html#a7959106123e60e3584b32b50a272746c", null ],
+    [ "batRidersCount", "db/dde/a13840.html#a3d81395ec4518d4e2ca7f273fc658395", null ]
 ];

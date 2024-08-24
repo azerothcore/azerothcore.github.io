@@ -1,11 +1,6 @@
 var a05000 =
 [
-    [ "Decode", "de/d7d/a05000.html#a1017c0ca9db8f38832271dbe04a6c22c", null ],
-    [ "DecodedSize", "de/d7d/a05000.html#ae7f09527200686c22611e59e995a17ef", null ],
-    [ "Encode", "de/d7d/a05000.html#a9132df0434948b03df8f79b6cc48252c", null ],
-    [ "EncodedSize", "de/d7d/a05000.html#ab6808fd4c674e10ce28153394189abf5", null ],
-    [ "BITS_PER_CHAR", "de/d7d/a05000.html#a04facbd14c7d876af5154cb200d74e6b", null ],
-    [ "DECODE_ERROR", "de/d7d/a05000.html#ab52b675a0956909cdac9413443551086", null ],
-    [ "PAD_TO", "de/d7d/a05000.html#a8cec4e14ca170842d1eadf8b7b42b12b", null ],
-    [ "PADDING", "de/d7d/a05000.html#a328b2cd9dc377fb8d5b6740cde162b92", null ]
+    [ "NodeArray", "de/d7d/a05000.html#ad14de28828d5dd9c425e47a261125423", null ],
+    [ "AddNode", "de/d7d/a05000.html#a370b6e8633c2c739ff68c0399e315a7e", null ],
+    [ "_nodes", "de/d7d/a05000.html#a581a71d15d245efc585297c218313134", null ]
 ];

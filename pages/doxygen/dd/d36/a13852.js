@@ -1,9 +1,10 @@
 var a13852 =
 [
-    [ "boss_gahzrankaAI", "dd/d36/a13852.html#aed4f9b7e5f46c517f07d7a07f6b2b5f6", null ],
-    [ "IsSummonedBy", "dd/d36/a13852.html#a9a07b183fecda8036e90bc278af68400", null ],
-    [ "JustDied", "dd/d36/a13852.html#a100f4d3f4cd87d321280b7ff2d2ffb68", null ],
-    [ "JustEngagedWith", "dd/d36/a13852.html#a064e5fe28048240bb0febbdc3ac5b1ef", null ],
-    [ "Reset", "dd/d36/a13852.html#ae67d937f6dff9d4c7bb52c65ffe88e40", null ],
-    [ "UpdateAI", "dd/d36/a13852.html#a5dd935016dccab52d456c796809750ab", null ]
+    [ "boss_jindo", "dd/d36/a13852.html#a9aafe0282e0b5de90ce62b3f8b3cfb14", null ],
+    [ "CanAIAttack", "dd/d36/a13852.html#a6e24b8e31cda0834563d126dc74d99de", null ],
+    [ "EnterEvadeMode", "dd/d36/a13852.html#a8b80f12d0b9b8e9c7aa7ec46fbb71500", null ],
+    [ "JustEngagedWith", "dd/d36/a13852.html#a7f612a1e5033c5097856222cee41f2af", null ],
+    [ "JustSummoned", "dd/d36/a13852.html#ac7382289d174ec70703b76dc4e451d39", null ],
+    [ "UpdateAI", "dd/d36/a13852.html#aad8885f79fc527954102fc1b78ca8ad7", null ],
+    [ "_scheduler", "dd/d36/a13852.html#a7ddbdc4d85936fd54fced20ff31e91cd", null ]
 ];

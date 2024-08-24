@@ -1,6 +1,7 @@
 var a22168 =
 [
-    [ "boss_yoggsaron_corruptor_tentacleAI", "d8/de2/a22172.html", "d8/de2/a22172" ],
-    [ "boss_yoggsaron_corruptor_tentacle", "db/d02/a22168.html#a86fbf881f0a861124dda085347bb03bd", null ],
-    [ "GetAI", "db/d02/a22168.html#a7325d6feaa12d74c030152ba3a0ab756", null ]
+    [ "HandleSendEvent", "db/d02/a22168.html#afd34935d8ab7d66589ca3c99ba0bfe48", null ],
+    [ "PrepareSpellScript", "db/d02/a22168.html#af698a946e07235c18c8b785a1f775ec9", null ],
+    [ "Register", "db/d02/a22168.html#a3f6a7e6265221e9536728256f1ec88c0", null ],
+    [ "Validate", "db/d02/a22168.html#a72d441fdeb7e2fdc37ab9868f9f8ee04", null ]
 ];

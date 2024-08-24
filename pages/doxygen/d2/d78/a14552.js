@@ -1,6 +1,6 @@
 var a14552 =
 [
-    [ "npc_lesser_doomguardAI", "dd/d40/a14556.html", "dd/d40/a14556" ],
-    [ "npc_lesser_doomguard", "d2/d78/a14552.html#a620707b6d3214296029be37d64a1cafe", null ],
-    [ "GetAI", "d2/d78/a14552.html#ad4fcf359d039a0abf8719b09ab67bf77", null ]
+    [ "boss_meathookAI", "dd/d40/a14556.html", "dd/d40/a14556" ],
+    [ "boss_meathook", "d2/d78/a14552.html#a044c8ec4a419e5c5a8b290df9c0ad169", null ],
+    [ "GetAI", "d2/d78/a14552.html#ae8ee3631ff1f80f4fad99e4eca042ad8", null ]
 ];

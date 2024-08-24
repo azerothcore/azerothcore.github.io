@@ -1,6 +1,7 @@
 var a11952 =
 [
-    [ "npc_mc_core_houndAI", "d4/d75/a11956.html", "d4/d75/a11956" ],
-    [ "npc_mc_core_hound", "d8/deb/a11952.html#aee1ef71447dbd1494de5e0065bd5ae78", null ],
-    [ "GetAI", "d8/deb/a11952.html#a3aa8c5332b509b4d5498cd726ab47e40", null ]
+    [ "HandlePeriodic", "d8/deb/a11952.html#ac2196cc9de34e286581d44d147fe9d04", null ],
+    [ "PrepareAuraScript", "d8/deb/a11952.html#a149c974371f23268d2d929b483637b14", null ],
+    [ "Register", "d8/deb/a11952.html#a6a2f42867a7082d2b8406c651d5dc484", null ],
+    [ "Validate", "d8/deb/a11952.html#ab77b8a7dca3dc9bbd20cdb498d1d317e", null ]
 ];

@@ -1,6 +1,7 @@
 var a18784 =
 [
-    [ "HandleSpecial", "d3/d16/a18784.html#a1fcf2a7737a8151b6c99376987ee55ec", null ],
-    [ "PrepareSpellScript", "d3/d16/a18784.html#a9b1b98ffd8cad5b23b76f9f3a5fd72da", null ],
-    [ "Register", "d3/d16/a18784.html#aedc5f9180a96c9c071f97c3cc9468f5a", null ]
+    [ "npc_ioc_gunship_captainAI", "d3/d16/a18784.html#a23477a6f29b13308067c1f42ced1e9fe", null ],
+    [ "DoAction", "d3/d16/a18784.html#a89fb251869d6bfbefbca1e2d3178178a", null ],
+    [ "UpdateAI", "d3/d16/a18784.html#a222b304633143bba47d3edde67ea093b", null ],
+    [ "_events", "d3/d16/a18784.html#aa8b7c262641a5f1f86c5ae39f8b62dca", null ]
 ];

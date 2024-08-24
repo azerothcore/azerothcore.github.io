@@ -1,7 +1,11 @@
 var a21288 =
 [
-    [ "boss_freya_lifebinderAI", "d9/da9/a21288.html#ae421aa209690e4a2908995b6b7d322cd", null ],
-    [ "Reset", "d9/da9/a21288.html#a972bd7d390d444e0ea2bc513d5d3816a", null ],
-    [ "UpdateAI", "d9/da9/a21288.html#afb06c217c1012d6463e44689359eada9", null ],
-    [ "_healTimer", "d9/da9/a21288.html#a7021d13dceb9af343f0e820cf086046e", null ]
+    [ "npc_ichor_globuleAI", "d9/da9/a21288.html#a4d581f89c8385276fd407c000af9e569", null ],
+    [ "AttackStart", "d9/da9/a21288.html#aa4e1fc88a26d6ef41f1ca96c93abbc1a", null ],
+    [ "JustDied", "d9/da9/a21288.html#ad29c7659590933b0749e8e1c2c2e4c46", null ],
+    [ "MoveInLineOfSight", "d9/da9/a21288.html#af8ef8296512d57d934a171f1a5060e73", null ],
+    [ "SpellHit", "d9/da9/a21288.html#a1396538a446545408e3c304f3e56400f", null ],
+    [ "UpdateAI", "d9/da9/a21288.html#a6ff13c853583e5178fb3a690e17303de", null ],
+    [ "pInstance", "d9/da9/a21288.html#a94cbe93a69a28171fc3d91d71b6ec419", null ],
+    [ "uiRangeCheck_Timer", "d9/da9/a21288.html#a99914a55d2dc0b36a623dc7d6248e953", null ]
 ];

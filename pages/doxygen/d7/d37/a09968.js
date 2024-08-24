@@ -1,9 +1,6 @@
 var a09968 =
 [
-    [ "GuildInfoResponse", "d7/d37/a09968.html#a256cb81ad2e08050be99c9e1061c2009", null ],
-    [ "Write", "d7/d37/a09968.html#a3222d0018c9593400d3d01258b82371e", null ],
-    [ "CreateDate", "d7/d37/a09968.html#a1a0acf334d88751e94257ff76c9e3fd8", null ],
-    [ "GuildName", "d7/d37/a09968.html#ad8efc926197e955ed0cf8df6a74b41e8", null ],
-    [ "NumAccounts", "d7/d37/a09968.html#a21b42f1654aa10f7872d87635fea66ac", null ],
-    [ "NumMembers", "d7/d37/a09968.html#a7e748a70029e867ba8c90eaba85bf8c9", null ]
+    [ "ConditionScript", "d7/d37/a09968.html#a546130ee7ed33c7763115cb0d1506a1b", null ],
+    [ "IsDatabaseBound", "d7/d37/a09968.html#ac4f8325e3fa1e11437056818a0267342", null ],
+    [ "OnConditionCheck", "d7/d37/a09968.html#a2d8a4e71f20c290428c3a86cedfcaab7", null ]
 ];

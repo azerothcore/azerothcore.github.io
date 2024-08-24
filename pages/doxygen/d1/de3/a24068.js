@@ -1,6 +1,10 @@
 var a24068 =
 [
-    [ "npc_storm_cloudAI", "d7/d27/a24072.html", "d7/d27/a24072" ],
-    [ "npc_storm_cloud", "d1/de3/a24068.html#a8403185cdf54b2924024ba1d1d44a06a", null ],
-    [ "GetAI", "d1/de3/a24068.html#a952bd1cf5406b989182d8560d8b9e665", null ]
+    [ "npc_maxx_a_million_escortAI", "d1/de3/a24068.html#ab827933527ed7b4a04b162034876ced8", null ],
+    [ "JustDied", "d1/de3/a24068.html#a2106ab4d32d0f221f62eeffd93f71380", null ],
+    [ "Reset", "d1/de3/a24068.html#a6b9b2ed76e26f908ff2272ad8744a59e", null ],
+    [ "UpdateAI", "d1/de3/a24068.html#a3b022feb2303875d32ad981e84f66854", null ],
+    [ "WaypointReached", "d1/de3/a24068.html#acd6f45abb93f3f043cd85647405a50f6", null ],
+    [ "bTake", "d1/de3/a24068.html#ac697fc6cbc20c7f316845ed26436049b", null ],
+    [ "uiTakeTimer", "d1/de3/a24068.html#a5d4826dcf893f444a42dedba57460110", null ]
 ];

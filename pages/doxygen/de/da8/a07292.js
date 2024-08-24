@@ -1,6 +1,7 @@
 var a07292 =
 [
-    [ "value_type", "de/da8/a07292.html#a39c517c76f9109f1bccd27cd04ec88cd", null ],
-    [ "StoreTo", "de/da8/a07292.html#a5658d34ee9af224a3d19ba5d5123535e", null ],
-    [ "tag", "de/da8/a07292.html#a3538ae91cb7d37c3d0a6a4964f4baaf9", null ]
+    [ "CommandPermissions", "de/da8/a07292.html#ad1242d9067778298c44501b5d5a962f8", null ],
+    [ "CommandPermissions", "de/da8/a07292.html#a47f284c63f10b6c3479624845b696aa6", null ],
+    [ "AllowConsole", "de/da8/a07292.html#a8b419033e8dff0307a22a32bc57a1dc8", null ],
+    [ "RequiredLevel", "de/da8/a07292.html#a4918f2c3b1913eb76d09d859479ebbae", null ]
 ];

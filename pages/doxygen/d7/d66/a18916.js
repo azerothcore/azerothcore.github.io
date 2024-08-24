@@ -1,11 +1,16 @@
 var a18916 =
 [
-    [ "NonTankLKTargetSelector", "d7/d66/a18916.html#a41c5372505c0c74e93f2c583a0259777", null ],
-    [ "operator()", "d7/d66/a18916.html#a2e496088092b9885f8e2391c2df91993", null ],
-    [ "_exclude1", "d7/d66/a18916.html#abe4e56597fa2918b15a003413887ac71", null ],
-    [ "_exclude2", "d7/d66/a18916.html#a6aa63c93c4e68998f621349760d9ab43", null ],
-    [ "_maxDist", "d7/d66/a18916.html#ac7e28c908079fbd2e1ca5374731d521e", null ],
-    [ "_playerOnly", "d7/d66/a18916.html#a5ab89af79aa4840c9a024996a848540c", null ],
-    [ "_reqLOS", "d7/d66/a18916.html#a61966d6b825f25b6bbf589676cef19f9", null ],
-    [ "_source", "d7/d66/a18916.html#a86e3ebd2425b76103df7413b5ed4af70", null ]
+    [ "boss_heiganAI", "d7/d66/a18916.html#a7aab8f8d2c3ccb434c2290362d03f89e", null ],
+    [ "IsInRoom", "d7/d66/a18916.html#a3aee27fdbb0ce9c60f2115b878112ea8", null ],
+    [ "JustDied", "d7/d66/a18916.html#a4a7389a2f81677fa5c0e871bc996fe26", null ],
+    [ "JustEngagedWith", "d7/d66/a18916.html#a72a2ae89b7abede9f8a4cb3ee9d76258", null ],
+    [ "KilledUnit", "d7/d66/a18916.html#a58160aefd36208ad7f0fec161a3f8b85", null ],
+    [ "Reset", "d7/d66/a18916.html#a515a86419bdd1f755943a371b3601795", null ],
+    [ "StartFightPhase", "d7/d66/a18916.html#a211387ae4f89d54a22a4f8515239d1c3", null ],
+    [ "UpdateAI", "d7/d66/a18916.html#a9009ae9392e183758a48ebe59b9c0cf0", null ],
+    [ "currentPhase", "d7/d66/a18916.html#a7b0a9b9f53cded3bc24ed22c1b643a30", null ],
+    [ "currentSection", "d7/d66/a18916.html#a848fbc5aa8a497ae01057c6f0ba59e7a", null ],
+    [ "events", "d7/d66/a18916.html#a7cc35d445aadf1eb252482522b8cc26d", null ],
+    [ "moveRight", "d7/d66/a18916.html#a12da8a2326f0ac72e6ee8733c55139c8", null ],
+    [ "pInstance", "d7/d66/a18916.html#a4b64769f2e10e7ba598fcc115b021fd4", null ]
 ];

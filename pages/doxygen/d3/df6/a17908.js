@@ -1,6 +1,6 @@
 var a17908 =
 [
-    [ "spell_deathbringer_blood_link_blood_beast_aura_AuraScript", "dd/dbe/a17912.html", "dd/dbe/a17912" ],
-    [ "spell_deathbringer_blood_link_blood_beast_aura", "d3/df6/a17908.html#a374910553263186fd9d8dc0a3b20fbd5", null ],
-    [ "GetAuraScript", "d3/df6/a17908.html#a8c75450559b9115688ab1cf5c3842364", null ]
+    [ "UnchainedMagicTargetSelector", "d3/df6/a17908.html#ae412c72884e6cfb1ceef8ed9fb347fbf", null ],
+    [ "operator()", "d3/df6/a17908.html#af28ce8f46154ae6152e9025775a7f84f", null ],
+    [ "_removeHealers", "d3/df6/a17908.html#a35a7981ce5495cba8b3a5391e4031431", null ]
 ];

@@ -1,11 +1,11 @@
 var a03479 =
 [
-    [ "npc_toc5_player_vehicle", "dd/d96/a16111.html", "dd/d96/a16111" ],
-    [ "npc_toc5_player_vehicle::npc_toc5_player_vehicleAI", "db/d65/a16115.html", "db/d65/a16115" ],
-    [ "npc_toc5_grand_champion_minion", "d1/d06/a16119.html", "d1/d06/a16119" ],
-    [ "npc_toc5_grand_champion_minion::npc_toc5_grand_champion_minionAI", "d0/d69/a16123.html", "d0/d69/a16123" ],
-    [ "boss_grand_champion", "dc/d3a/a16127.html", "dc/d3a/a16127" ],
-    [ "boss_grand_champion::boss_grand_championAI", "d1/db1/a16131.html", "d1/db1/a16131" ],
+    [ "npc_toc5_player_vehicle", "dd/d4a/a16108.html", "dd/d4a/a16108" ],
+    [ "npc_toc5_player_vehicle::npc_toc5_player_vehicleAI", "de/d06/a16112.html", "de/d06/a16112" ],
+    [ "npc_toc5_grand_champion_minion", "dd/db6/a16116.html", "dd/db6/a16116" ],
+    [ "npc_toc5_grand_champion_minion::npc_toc5_grand_champion_minionAI", "df/d4a/a16120.html", "df/d4a/a16120" ],
+    [ "boss_grand_champion", "d9/d62/a16124.html", "d9/d62/a16124" ],
+    [ "boss_grand_champion::boss_grand_championAI", "dc/d8e/a16128.html", "dc/d8e/a16128" ],
     [ "SPELL_BLAST_WAVE", "dc/d14/a03479.html#ade3e1a0604a27ccc3e1d2044e5ac7f36", null ],
     [ "SPELL_CHAIN_LIGHTNING", "dc/d14/a03479.html#a62c2e253126f0f260aebfb5e1566f59a", null ],
     [ "SPELL_EVISCERATE", "dc/d14/a03479.html#a1fe576b1b42797377641ca138061c190", null ],

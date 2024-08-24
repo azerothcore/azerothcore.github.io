@@ -1,9 +1,7 @@
 var a17272 =
 [
-    [ "npc_hor_lumbering_abominationAI", "df/d52/a17272.html#acc1e6e72aee030ebf2d0daa50f880f60", null ],
-    [ "JustDied", "df/d52/a17272.html#af243a79da3028d3d66facc8a15132f78", null ],
-    [ "JustEngagedWith", "df/d52/a17272.html#a83d0add807b5d9647328b89fed8e9bc4", null ],
-    [ "Reset", "df/d52/a17272.html#a4270f405bbade0028fce4df0655a1987", null ],
-    [ "UpdateAI", "df/d52/a17272.html#a995d0f7902cb70280d1448ac7731a816", null ],
-    [ "events", "df/d52/a17272.html#aee9063950477b50e38ec904e91882689", null ]
+    [ "achievement_once_bitten_twice_shy", "df/d52/a17272.html#ac5799e847f8ee1e2b562e4a58a00df16", null ],
+    [ "OnCheck", "df/d52/a17272.html#aa2e3ac3e8a14b06446174e475ac18af3", null ],
+    [ "_spawnMode", "df/d52/a17272.html#a6f02f5ab07143ddff553279049714902", null ],
+    [ "_wasVampire", "df/d52/a17272.html#a297cf6da45b0cddb4dc9fc888919bdda", null ]
 ];

@@ -1,8 +1,6 @@
 var a23908 =
 [
-    [ "npc_wg_queueAI", "d2/d3b/a23912.html", "d2/d3b/a23912" ],
-    [ "npc_wg_queue", "d7/d76/a23908.html#a2cc9825e08e982ef195f117a4512c4ae", null ],
-    [ "GetAI", "d7/d76/a23908.html#ad2d7746a32b520d37ea826b03627de4e", null ],
-    [ "OnGossipHello", "d7/d76/a23908.html#a20fc6ae4e4377f237a620b7f5b1de8ee", null ],
-    [ "OnGossipSelect", "d7/d76/a23908.html#afb707da5d85affc65f7ab5a0fc018c93", null ]
+    [ "npc_deaths_fel_cannonAI", "d7/d76/a23908.html#a29d298bd85c78e2fbf0a4019aa7fbce7", null ],
+    [ "Reset", "d7/d76/a23908.html#a4096d75a98dc8a1c95920710fb48d6ff", null ],
+    [ "UpdateAI", "d7/d76/a23908.html#a942a8b1153b4ae6fde3b474cc909daad", null ]
 ];

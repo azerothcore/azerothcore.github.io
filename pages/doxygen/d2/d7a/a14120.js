@@ -1,7 +1,11 @@
 var a14120 =
 [
-    [ "FilterTargets", "d2/d7a/a14120.html#a3498c9eb96bf1a6a85ded114e995850c", null ],
-    [ "HandleDummyEffect", "d2/d7a/a14120.html#a3985ca8b79a234e44d9f46ffe6d5b232", null ],
-    [ "PrepareSpellScript", "d2/d7a/a14120.html#a03f752d4d4762698e5777a4ae0e395cf", null ],
-    [ "Register", "d2/d7a/a14120.html#a9af46e5f2fdb4719d65bb96f2b68a7f8", null ]
+    [ "npc_elder_kekek", "d2/d7a/a14120.html#a6084af39be5c70699c9fdcf3cd58e954", null ],
+    [ "MoveInLineOfSight", "d2/d7a/a14120.html#a0c673e4fdf8e75d3bc8570db166bcd95", null ],
+    [ "Reset", "d2/d7a/a14120.html#a97e615bdefba5baf459960fc2987cd69", null ],
+    [ "UpdateAI", "d2/d7a/a14120.html#a5823bc7164d797c40d48b9b74642d9b5", null ],
+    [ "orphanGUID", "d2/d7a/a14120.html#a98c79e46e051c35819c6025828a519cb", null ],
+    [ "phase", "d2/d7a/a14120.html#a99fd9d984f92d5ba8b5876675855d4f6", null ],
+    [ "playerGUID", "d2/d7a/a14120.html#a614ed3332f4af3c5178aa69da968a3d3", null ],
+    [ "timer", "d2/d7a/a14120.html#a445c048d8858f5dc7c1e88308ed7e5ab", null ]
 ];

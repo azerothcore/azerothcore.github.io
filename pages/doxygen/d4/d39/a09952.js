@@ -1,11 +1,15 @@
 var a09952 =
 [
-    [ "BackgroundColor", "d4/d39/a09952.html#abab86dd497de86088873178bf1d54b5b", null ],
-    [ "BorderColor", "d4/d39/a09952.html#abb2489b9be8a0d4a20d209d6293d7d46", null ],
-    [ "BorderStyle", "d4/d39/a09952.html#acd5105c31e0f56e680f3384e86186872", null ],
-    [ "EmblemColor", "d4/d39/a09952.html#a2e8a4768292d3566bb61009056a8a230", null ],
-    [ "EmblemStyle", "d4/d39/a09952.html#aa6309467f9f09725a8698de864b4e63c", null ],
-    [ "GuildName", "d4/d39/a09952.html#a74d4e1690c07a647c97ca2225e8488dd", null ],
-    [ "RankCount", "d4/d39/a09952.html#acddb77850a86348df197afc724c4eaa0", null ],
-    [ "Ranks", "d4/d39/a09952.html#aec9fd9a1a3bfa040375193027b32cf24", null ]
+    [ "AuctionHouseScript", "d4/d39/a09952.html#af3e9ec3b9834f9d72106430af40e8727", null ],
+    [ "OnAuctionAdd", "d4/d39/a09952.html#a39d172304de882d87f87e14d1df107da", null ],
+    [ "OnAuctionExpire", "d4/d39/a09952.html#a32e9d0decc7d341198accc84dbc4e1ab", null ],
+    [ "OnAuctionRemove", "d4/d39/a09952.html#aed67026e34ef7e8dd4d975d0b0620463", null ],
+    [ "OnAuctionSuccessful", "d4/d39/a09952.html#a57f1ea958e80a30031eded088dd3c8af", null ],
+    [ "OnBeforeAuctionHouseMgrSendAuctionCancelledToBidderMail", "d4/d39/a09952.html#a067633221bf8e745c9ae7c4abee13fba", null ],
+    [ "OnBeforeAuctionHouseMgrSendAuctionExpiredMail", "d4/d39/a09952.html#a622ac5271fb3a5ecf6444fb7fde17ed9", null ],
+    [ "OnBeforeAuctionHouseMgrSendAuctionOutbiddedMail", "d4/d39/a09952.html#acfc00998027675d76436d4d05f578f8c", null ],
+    [ "OnBeforeAuctionHouseMgrSendAuctionSalePendingMail", "d4/d39/a09952.html#a3bb999a955b7b8670264c859094fe9a0", null ],
+    [ "OnBeforeAuctionHouseMgrSendAuctionSuccessfulMail", "d4/d39/a09952.html#a0ae714b1349e20e4303523fd551874b3", null ],
+    [ "OnBeforeAuctionHouseMgrSendAuctionWonMail", "d4/d39/a09952.html#a050a47e57df42faa26c8d500b7848ecf", null ],
+    [ "OnBeforeAuctionHouseMgrUpdate", "d4/d39/a09952.html#a6b7ee2a551424c5a8442ce089d0fd1fc", null ]
 ];

@@ -1,6 +1,6 @@
 var a17496 =
 [
-    [ "entry", "df/d9d/a17496.html#af2cf5df64adf9ac1575a8217b103e738", null ],
-    [ "x", "df/d9d/a17496.html#aad21475d521921ea30cc0ae5d260ce69", null ],
-    [ "y", "df/d9d/a17496.html#abd69e1c28ad36466c82807ea0ffb0fb7", null ]
+    [ "PrepareSpellScript", "df/d9d/a17496.html#a47df21229183b628c1d82bf34cbbe396", null ],
+    [ "Register", "df/d9d/a17496.html#a3cc4a1180f66cd9fe19020c1e5f2fccb", null ],
+    [ "RelocateTransportOffset", "df/d9d/a17496.html#acab29d77b4806f5d59ddc5dc3493c8ae", null ]
 ];

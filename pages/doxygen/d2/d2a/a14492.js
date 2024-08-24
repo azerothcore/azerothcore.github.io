@@ -1,11 +1,8 @@
 var a14492 =
 [
-    [ "npc_ancient_wispAI", "d2/d2a/a14492.html#afcdee1a584ccf58cb2da2e7ebe05bef3", null ],
-    [ "DamageTaken", "d2/d2a/a14492.html#a3e533f8db04c8a4a1ef235800aba8a3b", null ],
-    [ "JustEngagedWith", "d2/d2a/a14492.html#a35b52159ebe20790cf6035c72d6e50ec", null ],
-    [ "Reset", "d2/d2a/a14492.html#ab8e654f98915a9780b24429b35568523", null ],
-    [ "UpdateAI", "d2/d2a/a14492.html#ae2730ec89168fe60a61cb167500b6e41", null ],
-    [ "ArchimondeGUID", "d2/d2a/a14492.html#a129b90e033bc5c1bff0d44a0aca608fa", null ],
-    [ "CheckTimer", "d2/d2a/a14492.html#a86685cb0ed7b8de53e801bf0186a5cc6", null ],
-    [ "instance", "d2/d2a/a14492.html#a90f67739b492c5e871874a03a4bc5c07", null ]
+    [ "hyjalThrallAI", "d2/d2a/a14492.html#a5bc01b52edeaac62e3a9c3e48f90feb2", null ],
+    [ "JustDied", "d2/d2a/a14492.html#aa13cb18c91802ad402e5fd97ec78572a", null ],
+    [ "JustEngagedWith", "d2/d2a/a14492.html#a96706138634275ae7639c14f53cdd842", null ],
+    [ "Reset", "d2/d2a/a14492.html#a6a341bfcc9d697dde64584a5a0231d73", null ],
+    [ "UpdateAI", "d2/d2a/a14492.html#a57046716d7c45a5fa4e203d73c4a7b87", null ]
 ];

@@ -1,7 +1,6 @@
 var a08064 =
 [
-    [ "ItemPosCount", "d4/dd9/a08064.html#a43458da1fc31d827b6de726754f7901e", null ],
-    [ "isContainedIn", "d4/dd9/a08064.html#a6977c544a2d39ca5872b75f27517974f", null ],
-    [ "count", "d4/dd9/a08064.html#a4e09f94aa0808f76b2d5ff23691abb27", null ],
-    [ "pos", "d4/dd9/a08064.html#ad8954f1a6323316510cfe0f332ee495f", null ]
+    [ "item_count", "d4/dd9/a08064.html#a437fe00f34ad414e3c9f81d01a153d13", null ],
+    [ "setid", "d4/dd9/a08064.html#ab8c24b76b1c0eb92c0fe52ca9baf293a", null ],
+    [ "spells", "d4/dd9/a08064.html#af8156bad9771ed816fd861d3eb992aaa", null ]
 ];

@@ -1,14 +1,6 @@
 var a27300 =
 [
-    [ "spell_gen_mount", "dd/d0f/a27300.html#aae8c5c328dda0668bf8cdabc2c9cd29f", null ],
-    [ "HandleMount", "dd/d0f/a27300.html#a81085b5efd8d9bd7c82ebb1cf6604793", null ],
-    [ "PrepareSpellScript", "dd/d0f/a27300.html#a49e2046d30352a6e22dab2530e909fa7", null ],
-    [ "Register", "dd/d0f/a27300.html#a8175ecc0c407d5c4646f038d7b62e92b", null ],
-    [ "Validate", "dd/d0f/a27300.html#accef27fc13ff34af52860ad6ac62e7f3", null ],
-    [ "_mount0", "dd/d0f/a27300.html#abd6347074186b7c47ac5a2c760f4db33", null ],
-    [ "_mount100", "dd/d0f/a27300.html#a5e56853140f188ff1babc61c507f8300", null ],
-    [ "_mount150", "dd/d0f/a27300.html#a1237697623e4831c25efcde1ab370031", null ],
-    [ "_mount280", "dd/d0f/a27300.html#aa9d0a936795d06dd78ef3c4d5aaf0320", null ],
-    [ "_mount310", "dd/d0f/a27300.html#ac06b80d14cc106281c3e6bf3f6a5c727", null ],
-    [ "_mount60", "dd/d0f/a27300.html#a53ce7d1b5a39cce2bede77aad647dc7e", null ]
+    [ "guard_shattrath_aldorAI", "d6/d29/a27304.html", "d6/d29/a27304" ],
+    [ "guard_shattrath_aldor", "dd/d0f/a27300.html#ab965295d9c3828ad814f658670b5f185", null ],
+    [ "GetAI", "dd/d0f/a27300.html#a3459a6a85c7e7286e3cbdd7f56fee704", null ]
 ];

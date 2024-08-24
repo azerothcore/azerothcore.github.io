@@ -1,6 +1,6 @@
 var a20956 =
 [
-    [ "spell_assembly_rune_of_summoning_AuraScript", "dd/d0f/a20960.html", "dd/d0f/a20960" ],
-    [ "spell_assembly_rune_of_summoning", "d0/d35/a20956.html#a999f9c3e0734dadbf84f72ee61987a62", null ],
-    [ "GetAuraScript", "d0/d35/a20956.html#adcc77c086b10236732712548a3daaf22", null ]
+    [ "boss_ingvar_the_plundererAI", "dd/d0f/a20960.html", "dd/d0f/a20960" ],
+    [ "boss_ingvar_the_plunderer", "d0/d35/a20956.html#a9e3612be4a81159dee2b883d434d811d", null ],
+    [ "GetAI", "d0/d35/a20956.html#aa0411c10b875bd1a804a7679f27dbf92", null ]
 ];

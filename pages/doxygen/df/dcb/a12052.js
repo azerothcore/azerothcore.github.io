@@ -1,6 +1,7 @@
 var a12052 =
 [
-    [ "boss_midnightAI", "d5/d49/a12056.html", "d5/d49/a12056" ],
-    [ "boss_midnight", "df/dcb/a12052.html#a237bd599437d03834a70bc8e1a016514", null ],
-    [ "GetAI", "df/dcb/a12052.html#a031a218bf482f83520e245e3afb20605", null ]
+    [ "HandleHit", "df/dcb/a12052.html#a18f86449945ade16140ee934a7d8703e", null ],
+    [ "PrepareSpellScript", "df/dcb/a12052.html#abaf09043858db27b05fbe544d7a15a8f", null ],
+    [ "Register", "df/dcb/a12052.html#abe0733be2e32ff616c48acaeeb1d39e9", null ],
+    [ "Validate", "df/dcb/a12052.html#abc970a8b4a8f27f81f392cebf81dc574", null ]
 ];

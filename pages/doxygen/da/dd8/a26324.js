@@ -1,8 +1,8 @@
 var a26324 =
 [
-    [ "spell_q10930_big_bone_worm_AuraScript", "d3/d66/a26332.html", "d3/d66/a26332" ],
-    [ "spell_q10930_big_bone_worm_SpellScript", "d8/d1e/a26328.html", "d8/d1e/a26328" ],
-    [ "spell_q10930_big_bone_worm", "da/dd8/a26324.html#a06c253df8003d80f7fe24e079261b491", null ],
-    [ "GetAuraScript", "da/dd8/a26324.html#ac391a61bade01607c44ef076b0f64267", null ],
-    [ "GetSpellScript", "da/dd8/a26324.html#ad6508cb0228b9825126575e5117bc46a", null ]
+    [ "HandleDummy", "da/dd8/a26324.html#a50203f655a85ed5984fa549fbdcc1c65", null ],
+    [ "Load", "da/dd8/a26324.html#a510f81e77597ef55a87b4f77fa324b2b", null ],
+    [ "PrepareSpellScript", "da/dd8/a26324.html#ac8dcfed4a74c85121b8b6c39856f709b", null ],
+    [ "Register", "da/dd8/a26324.html#ae7ed739883e30015e99b6ab5d6cb3f39", null ],
+    [ "Validate", "da/dd8/a26324.html#a3820e716d20809896c84c1ca781af4d1", null ]
 ];

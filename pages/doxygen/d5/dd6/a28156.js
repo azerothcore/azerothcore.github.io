@@ -1,10 +1,10 @@
 var a28156 =
 [
-    [ "Absorb", "d5/dd6/a28156.html#ab4006b00d415a94e6a49856cee7e272b", null ],
-    [ "CalculateAmount", "d5/dd6/a28156.html#a57bfd4e7178e9e7c3df12c025d0c7d9e", null ],
-    [ "Load", "d5/dd6/a28156.html#a88aa9623f587bb7b5e91da83c76f562a", null ],
-    [ "PrepareAuraScript", "d5/dd6/a28156.html#a456c1bd5b284f642d1e040de52eee24b", null ],
-    [ "Register", "d5/dd6/a28156.html#a905994099dcc4ac9512d5f27b78a778c", null ],
-    [ "Validate", "d5/dd6/a28156.html#ad99966111a1919c610a942a8eb133ea1", null ],
-    [ "healPct", "d5/dd6/a28156.html#a3b0527ce7f1fd6afaa57f942275ec81b", null ]
+    [ "PvPDifficultyEntry", "d5/dd6/a28156.html#acdf17ca6dce80b7311bd6ae79ce16001", null ],
+    [ "GetBracketId", "d5/dd6/a28156.html#a4bcbc99d34ef8eaa7c15dbd33332c480", null ],
+    [ "bracketId", "d5/dd6/a28156.html#a670bce11b1d934167d8b3e990ea49d4a", null ],
+    [ "difficulty", "d5/dd6/a28156.html#a33ac017d785a4586a78e715d97836720", null ],
+    [ "mapId", "d5/dd6/a28156.html#a58c251f56a928bedbc7b9e8c6cbdbc5d", null ],
+    [ "maxLevel", "d5/dd6/a28156.html#a1385166568239f2118b65377df8b4b55", null ],
+    [ "minLevel", "d5/dd6/a28156.html#acd07e8d759af1b73ec7543f6e70df242", null ]
 ];

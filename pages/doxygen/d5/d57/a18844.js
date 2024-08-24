@@ -1,6 +1,6 @@
 var a18844 =
 [
-    [ "npc_spinestalkerAI", "db/d27/a18848.html", "db/d27/a18848" ],
-    [ "npc_spinestalker", "d5/d57/a18844.html#a477f951c79045d553901b1e6b6ad2d4f", null ],
-    [ "GetAI", "d5/d57/a18844.html#a725f1b1db90d700772bfb76e0f85f1f3", null ]
+    [ "boss_gluthAI", "db/d27/a18848.html", "db/d27/a18848" ],
+    [ "boss_gluth", "d5/d57/a18844.html#a3ff6e361cd6799f41d00fa75784c4f76", null ],
+    [ "GetAI", "d5/d57/a18844.html#a3b19c938aaecc897d6552715064be7f8", null ]
 ];

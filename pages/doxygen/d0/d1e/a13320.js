@@ -1,5 +1,10 @@
 var a13320 =
 [
-    [ "at_twilight_grove", "d0/d1e/a13320.html#a2ef32dbac0a35aa7dc6ebbafe926125f", null ],
-    [ "OnTrigger", "d0/d1e/a13320.html#a8ee7239b8429df38a237926a7252322b", null ]
+    [ "npc_sentinel_leader", "d0/d1e/a13320.html#a583c43b047dd5c172938d60ef647ecd5", null ],
+    [ "JustEngagedWith", "d0/d1e/a13320.html#a92c83a7fcc04df1db3be1d16f4a461d0", null ],
+    [ "MovementInform", "d0/d1e/a13320.html#a6d51ada16fac1f5eda8b09aede746a4b", null ],
+    [ "Reset", "d0/d1e/a13320.html#ad638ba6ce33753af6a0165c053a90d78", null ],
+    [ "UpdateAI", "d0/d1e/a13320.html#aa689bb8189eb8cf842a0aa63bb9f1a73", null ],
+    [ "_events", "d0/d1e/a13320.html#ada65bdf153ae9b3262b0f55fb540be17", null ],
+    [ "_helpCalled", "d0/d1e/a13320.html#a803c324e790cd74e90ff6c2adde37ba3", null ]
 ];

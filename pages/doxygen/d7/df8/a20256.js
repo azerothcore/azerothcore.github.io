@@ -1,10 +1,7 @@
 var a20256 =
 [
-    [ "npc_power_sparkAI", "d7/df8/a20256.html#a3f0fd553d859c5709ed2dbd9051db3d3", null ],
-    [ "DamageTaken", "d7/df8/a20256.html#aebd86516e17e77711d3877a11a159105", null ],
-    [ "DoAction", "d7/df8/a20256.html#a54b4578be614da76cc886dedbe3d853e", null ],
-    [ "UpdateAI", "d7/df8/a20256.html#a7e9b2a161fc88d269e631d47c38bfd5e", null ],
-    [ "CheckTimer", "d7/df8/a20256.html#af98dff7dd45c258d45ce81b8520e56a8", null ],
-    [ "MoveTimer", "d7/df8/a20256.html#af16a57b82fb94eb464c51b6006f2a66b", null ],
-    [ "pInstance", "d7/df8/a20256.html#a4142b3872dd17015eeabb2eaee0c3369", null ]
+    [ "boss_kologarn_pit_kill_bunny", "d7/df8/a20256.html#a0ecbc2ae8850d4cfb84f40d2a13f4976", null ],
+    [ "Reset", "d7/df8/a20256.html#afd7482896b66f040b8d57b9b6ac37059", null ],
+    [ "UpdateAI", "d7/df8/a20256.html#ad863666aec3db81f73165148ffc98033", null ],
+    [ "_boundaryIntersect", "d7/df8/a20256.html#abc0560637830e70d54ce1fb6b6881ca6", null ]
 ];

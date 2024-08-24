@@ -1,5 +1,6 @@
 var a18276 =
 [
-    [ "achievement_im_on_a_boat", "d4/d71/a18276.html#aa25d330534aab023ec798e86976a6d50", null ],
-    [ "OnCheck", "d4/d71/a18276.html#ab4fffc061b9ff77563e7e0a5a796be1e", null ]
+    [ "npc_lk_wicked_spiritAI", "d3/d41/a18280.html", "d3/d41/a18280" ],
+    [ "npc_lk_wicked_spirit", "d4/d71/a18276.html#adb5f0d5db260b3e5b4df3725c0b62827", null ],
+    [ "GetAI", "d4/d71/a18276.html#ad75b36f2f7242dea685cd67dc72d0d30", null ]
 ];

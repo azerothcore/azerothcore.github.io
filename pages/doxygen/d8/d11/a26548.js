@@ -1,9 +1,6 @@
 var a26548 =
 [
-    [ "npc_pet_gen_fetch_ball", "d8/d11/a26548.html#a4cd4dabd5df72ad1e64bdc8d6efb2f1b", null ],
-    [ "IsSummonedBy", "d8/d11/a26548.html#abaf6308f7c47fd05acb86055bec0aea8", null ],
-    [ "SpellHitTarget", "d8/d11/a26548.html#a87bdded236f6584d9b71507a1253f7d0", null ],
-    [ "UpdateAI", "d8/d11/a26548.html#a1e0f75d5cd438d500ad94c5024bf83ae", null ],
-    [ "checkTimer", "d8/d11/a26548.html#ab8d0a3a9ba2a8e0d6f58b3867f20974e", null ],
-    [ "targetGUID", "d8/d11/a26548.html#ae474374af7c2270e218ed236d90c789c", null ]
+    [ "HandlePeriodic", "d8/d11/a26548.html#af875d62dd47650c9f2e9c3a4508ed05b", null ],
+    [ "PrepareAuraScript", "d8/d11/a26548.html#a2efdcd0902e9cb5c47e285492dd93789", null ],
+    [ "Register", "d8/d11/a26548.html#ac90afe9f5d9d55faba2282a875469311", null ]
 ];

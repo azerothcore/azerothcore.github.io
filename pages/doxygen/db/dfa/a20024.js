@@ -1,6 +1,6 @@
 var a20024 =
 [
-    [ "FilterTargets", "db/dfa/a20024.html#af4f5c60cb45e5b55f6fe81440c5f6e8a", null ],
-    [ "PrepareSpellScript", "db/dfa/a20024.html#a8f73046f97233726dd654b6ddc3a0236", null ],
-    [ "Register", "db/dfa/a20024.html#a145171dcbdee250640b5e4a69456bf6d", null ]
+    [ "npc_ulduar_saronite_animusAI", "d0/d98/a20028.html", "d0/d98/a20028" ],
+    [ "npc_ulduar_saronite_animus", "db/dfa/a20024.html#a22d552adc9db3f7d2a533ab7f58a2470", null ],
+    [ "GetAI", "db/dfa/a20024.html#a1fdd851e9d6e399f8f57d063a7dbd6d9", null ]
 ];

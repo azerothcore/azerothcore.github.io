@@ -1,6 +1,6 @@
 var a21784 =
 [
-    [ "npc_ulduar_flames_spreadAI", "d2/d97/a21788.html", "d2/d97/a21788" ],
-    [ "npc_ulduar_flames_spread", "df/d4a/a21784.html#aca9713b28d6d0c7b13b85a00c8a53ab0", null ],
-    [ "GetAI", "df/d4a/a21784.html#af492a5bc9304a05f8475a39458c6abdb", null ]
+    [ "npc_q24545_vegard_dummyAI", "d2/d97/a21788.html", "d2/d97/a21788" ],
+    [ "npc_q24545_vegard_dummy", "df/d4a/a21784.html#a12363e26a720ae33b6cde0f44aec3adf", null ],
+    [ "GetAI", "df/d4a/a21784.html#a201d1dec206887c26e33f795a0fd0887", null ]
 ];

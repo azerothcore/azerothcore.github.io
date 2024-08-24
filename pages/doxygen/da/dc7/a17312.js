@@ -1,6 +1,8 @@
 var a17312 =
 [
-    [ "spell_garfrost_permafrost_SpellScript", "db/dba/a17316.html", "db/dba/a17316" ],
-    [ "spell_garfrost_permafrost", "da/dc7/a17312.html#a4eda74f870821de6caf439f2c98ced5c", null ],
-    [ "GetSpellScript", "da/dc7/a17312.html#a5c9f59c399fde0536d3243d548f11a10", null ]
+    [ "CheckProc", "da/dc7/a17312.html#a11620e4d645b3bfd35924700b5dad289", null ],
+    [ "HandleProc", "da/dc7/a17312.html#aa80a032f2ec80aba36f6fe0208412587", null ],
+    [ "PrepareAuraScript", "da/dc7/a17312.html#afe04f0cb6539238412253b63dd3c82b9", null ],
+    [ "Register", "da/dc7/a17312.html#ac18d1d1a1d19b0dfa5cb1565377ba273", null ],
+    [ "Validate", "da/dc7/a17312.html#ac42fe3248fadf0ecca95893e06c490ee", null ]
 ];

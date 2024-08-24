@@ -1,6 +1,8 @@
 var a20844 =
 [
-    [ "spell_algalon_collapse_AuraScript", "d0/d94/a20848.html", "d0/d94/a20848" ],
-    [ "spell_algalon_collapse", "da/d23/a20844.html#ade7d608518e6f7871d327141ec176333", null ],
-    [ "GetAuraScript", "da/d23/a20844.html#a031c717feba0d0d1b6adf4d9886739d5", null ]
+    [ "Absorb", "da/d23/a20844.html#a36a7237d7bcd50626e7a07a32c91cfb4", null ],
+    [ "CalculateAmount", "da/d23/a20844.html#afe50bf22d07e68757caffb056ad55811", null ],
+    [ "PrepareAuraScript", "da/d23/a20844.html#afa4ef1f7faa36a521c208dde10d09437", null ],
+    [ "Register", "da/d23/a20844.html#aae020936d42da81c445f7d296660987b", null ],
+    [ "Validate", "da/d23/a20844.html#a5852135c5214ee3938603632b0f21917", null ]
 ];

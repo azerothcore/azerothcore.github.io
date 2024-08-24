@@ -1,6 +1,10 @@
 var a15820 =
 [
-    [ "instance_zulfarrak_InstanceMapScript", "dd/d6b/a15824.html", "dd/d6b/a15824" ],
-    [ "instance_zulfarrak", "d5/d7f/a15820.html#a7c8594fe278dc9f6c3ab6f291cf9bad2", null ],
-    [ "GetInstanceScript", "d5/d7f/a15820.html#a5f092341e49848c9d321452be2193d56", null ]
+    [ "HandleDummy", "d5/d7f/a15820.html#aebbcaa1df9a6379998bb2069089f45bd", null ],
+    [ "HandleSchoolDamage", "d5/d7f/a15820.html#a8372b7d176c94689b1b7fe99add7812e", null ],
+    [ "Load", "d5/d7f/a15820.html#ae47e8a9c4223fd65b81c842687e19f44", null ],
+    [ "PrepareSpellScript", "d5/d7f/a15820.html#a3fd71e2a93f99f19443640a2147b1663", null ],
+    [ "Register", "d5/d7f/a15820.html#a8278d362a4354ccf81665ce0067c9a06", null ],
+    [ "Validate", "d5/d7f/a15820.html#a414b1e1396910b87a671305ce9dcab09", null ],
+    [ "_spawned", "d5/d7f/a15820.html#aa657a9869f04a1d1d2ce71f6d8464b17", null ]
 ];

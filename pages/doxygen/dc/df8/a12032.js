@@ -1,6 +1,6 @@
 var a12032 =
 [
-    [ "boss_curatorAI", "d2/d7b/a12036.html", "d2/d7b/a12036" ],
-    [ "boss_curator", "dc/df8/a12032.html#a8fd4fb2963164b7c445ffd832421305a", null ],
-    [ "GetAI", "dc/df8/a12032.html#a622c358c6609048c5b172048fe3ab326", null ]
+    [ "boss_garrAI", "d2/d7b/a12036.html", "d2/d7b/a12036" ],
+    [ "boss_garr", "dc/df8/a12032.html#ab489eb068430a6aaa83c93104dd54d65", null ],
+    [ "GetAI", "dc/df8/a12032.html#abc673a3db7fce0101a0b95d5efbdefa3", null ]
 ];

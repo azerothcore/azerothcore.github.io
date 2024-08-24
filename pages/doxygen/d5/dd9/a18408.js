@@ -1,6 +1,8 @@
 var a18408 =
 [
-    [ "AbominationDespawner", "d5/dd9/a18408.html#a3bbf8c5d4e42569ffe993a3c3b8ff95e", null ],
-    [ "operator()", "d5/dd9/a18408.html#a58b8faac1cdffa7230783a1d6439fcfb", null ],
-    [ "_owner", "d5/dd9/a18408.html#af9089e566905b885887a5714ad5b0741", null ]
+    [ "DecayPeriodicTimer", "d5/dd9/a18408.html#a314ac33692cc352c490ec3d87177d67a", null ],
+    [ "Load", "d5/dd9/a18408.html#af5a498253c4c382df3b2462a30448a64", null ],
+    [ "PrepareAuraScript", "d5/dd9/a18408.html#ac5d4ee199b49e04499997355ac054554", null ],
+    [ "Register", "d5/dd9/a18408.html#a1b59480ce384f09cecd47872b39cf3c5", null ],
+    [ "_decayRate", "d5/dd9/a18408.html#a20c696ff06f9b48451d9eac43ccf5416", null ]
 ];

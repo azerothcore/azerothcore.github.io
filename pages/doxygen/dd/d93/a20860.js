@@ -1,7 +1,7 @@
 var a20860 =
 [
-    [ "HandleDummyEffect", "dd/d93/a20860.html#aa0bf93ad1a34acf3d554bb5e4f413128", null ],
-    [ "PrepareSpellScript", "dd/d93/a20860.html#ab721914c78bb30ac0664e0d2dbac1aa3", null ],
-    [ "Register", "dd/d93/a20860.html#a9e1273c189027c84ca4d223d48e93f77", null ],
-    [ "SelectTarget", "dd/d93/a20860.html#a7ef6e6c2fc7f7217791caef905a63b60", null ]
+    [ "HandleEffectCalcPeriodic", "dd/d93/a20860.html#af01eb94174952de52615734055b17c1a", null ],
+    [ "HandleEffectPeriodic", "dd/d93/a20860.html#a87b4517a6ad8630027ab2c3534b9fb8c", null ],
+    [ "PrepareAuraScript", "dd/d93/a20860.html#a95bd054accb5b72c4cfb12caccf0e004", null ],
+    [ "Register", "dd/d93/a20860.html#a2d506669ddc4c84e9ae3eb1746eadce1", null ]
 ];

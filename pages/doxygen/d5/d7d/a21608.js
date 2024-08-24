@@ -1,7 +1,5 @@
 var a21608 =
 [
-    [ "OnApply", "d5/d7d/a21608.html#a4565fa133778ddb542ef427271375f8a", null ],
-    [ "OnRemove", "d5/d7d/a21608.html#af1eeda8d523c97e65c4c540ffb14f401", null ],
-    [ "PrepareAuraScript", "d5/d7d/a21608.html#af3b912319afe42cacf7ced8f38ccbf62", null ],
-    [ "Register", "d5/d7d/a21608.html#a5eaca53810fbff6463e95c8eedefec81", null ]
+    [ "npc_steam_powered_auctioneerAI", "d5/d7d/a21608.html#a5ef3dfd385ee3e5a49bd5c0e165103fc", null ],
+    [ "CanBeSeen", "d5/d7d/a21608.html#a3352588abda326f7c72d0764a3f53370", null ]
 ];

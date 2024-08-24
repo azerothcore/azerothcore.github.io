@@ -1,10 +1,12 @@
 var a28600 =
 [
-    [ "CalculateAPAmount", "d3/db7/a28600.html#abba0772c18bf98696dc1f236da79401e", null ],
-    [ "CalculateResistanceAmount", "d3/db7/a28600.html#a2db04d2d4af16e34cb69b71dbcd0c066", null ],
-    [ "CalculateSPAmount", "d3/db7/a28600.html#a4ecc412bb7d5e89a886c9ad4cc562187", null ],
-    [ "CalculateStatAmount", "d3/db7/a28600.html#a9269eee5ef676c466e662305389988f0", null ],
-    [ "HandleEffectApply", "d3/db7/a28600.html#aa818ca9c4e7b1320f97931525faff1c4", null ],
-    [ "PrepareAuraScript", "d3/db7/a28600.html#a5b35686a2ddd761343d811a8472c1c3b", null ],
-    [ "Register", "d3/db7/a28600.html#a9bf7cd6309b4724462b03c1080324f83", null ]
+    [ "Bounds", "d3/db7/a28600.html#a1e982b341ac3859fad38b2efc81ab8ea", null ],
+    [ "DoodadSet", "d3/db7/a28600.html#abbf6e50e76b120be17215cfcf227a524", null ],
+    [ "Flags", "d3/db7/a28600.html#a06f5e96119239356eea45b9acdadf6e1", null ],
+    [ "Id", "d3/db7/a28600.html#a952442c180e8d3710af31272b54eb6ec", null ],
+    [ "NameSet", "d3/db7/a28600.html#a55df9aed38d8cf1503b21f5fd9d5e5d0", null ],
+    [ "Position", "d3/db7/a28600.html#a7e6463db89eaf53bc20832afb1842a5b", null ],
+    [ "Rotation", "d3/db7/a28600.html#a2c04715e800b9f375c287cced96643d1", null ],
+    [ "Scale", "d3/db7/a28600.html#a142716fecae07abc013c7f3bd053c0ea", null ],
+    [ "UniqueId", "d3/db7/a28600.html#a749e920740b9e91547fe1f87933d1c7d", null ]
 ];

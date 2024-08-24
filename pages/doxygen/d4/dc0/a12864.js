@@ -1,6 +1,9 @@
 var a12864 =
 [
-    [ "HandleActivateObject", "d4/dc0/a12864.html#abcce31480eac400044cc62eb888151d8", null ],
-    [ "PrepareSpellScript", "d4/dc0/a12864.html#a634ff3fae960dc2ecb7acde3e505df52", null ],
-    [ "Register", "d4/dc0/a12864.html#a0b527b830e2e4e2242c0ed6fd94aaa2d", null ]
+    [ "HandleDummyTick", "d4/dc0/a12864.html#aeeb63cb6e662c7e513b5953eb81b2cb1", null ],
+    [ "Load", "d4/dc0/a12864.html#a4928bafbfbf01bdcc2cb970c50a83b32", null ],
+    [ "OnApply", "d4/dc0/a12864.html#a88a767f3e15c6e70932c51f1aa8d61f2", null ],
+    [ "PrepareAuraScript", "d4/dc0/a12864.html#a99473b1f1c13e5e7167a674d3e4e2a8d", null ],
+    [ "Register", "d4/dc0/a12864.html#ac6ab0bc5a9b9f3b5643d59b103891b4b", null ],
+    [ "_forsakenSpell", "d4/dc0/a12864.html#a02c0334f5154d908ab022d4acf41ef40", null ]
 ];

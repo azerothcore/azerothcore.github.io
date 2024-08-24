@@ -1,6 +1,6 @@
 var a18832 =
 [
-    [ "spell_sindragosa_soul_preservation_AuraScript", "de/d73/a18836.html", "de/d73/a18836" ],
-    [ "spell_sindragosa_soul_preservation", "db/d40/a18832.html#a54c118cea4dc69f1af41f4d69982ecf7", null ],
-    [ "GetAuraScript", "db/d40/a18832.html#a32f8c885827daee98d811b25b4c0b792", null ]
+    [ "boss_four_horsemenAI", "de/d73/a18836.html", "de/d73/a18836" ],
+    [ "boss_four_horsemen", "db/d40/a18832.html#a6bcaf9a12d854a322f50ac2f98dbb72b", null ],
+    [ "GetAI", "db/d40/a18832.html#a3ee27da1d0da48306cc10c17c9411d1a", null ]
 ];

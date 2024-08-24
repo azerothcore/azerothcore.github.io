@@ -1,8 +1,5 @@
 var a21344 =
 [
-    [ "npc_ulduar_saronite_animusAI", "da/da5/a21344.html#a2b94427feb24a7bda075b6a8f403433a", null ],
-    [ "JustDied", "da/da5/a21344.html#a30abcab01de3732bc5525864576615b0", null ],
-    [ "UpdateAI", "da/da5/a21344.html#a1490961adc8fc03ab28a992aff55b43b", null ],
-    [ "pInstance", "da/da5/a21344.html#a5d3b297355f286b0ad08ed38dbd5b0d2", null ],
-    [ "timer", "da/da5/a21344.html#a3d0345d4c503eb3f0e4acbe346f1c5e5", null ]
+    [ "go_vh_activation_crystal", "da/da5/a21344.html#a4af485ac7ab6144282f3204a6d045cea", null ],
+    [ "OnGossipHello", "da/da5/a21344.html#a47a61ba67086580135559332931e9c6e", null ]
 ];

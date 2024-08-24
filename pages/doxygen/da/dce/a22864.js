@@ -1,5 +1,11 @@
 var a22864 =
 [
-    [ "go_vh_activation_crystal", "da/dce/a22864.html#a4af485ac7ab6144282f3204a6d045cea", null ],
-    [ "OnGossipHello", "da/dce/a22864.html#a47a61ba67086580135559332931e9c6e", null ]
+    [ "boss_supremus", "da/dce/a22864.html#af1f094534b0e2dec70422839a02327cd", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "da/dce/a22864.html#a2654bf5b1d5b6da723d4968219e069a9", null ],
+    [ "FindHatefulStrikeTarget", "da/dce/a22864.html#af560466902d0d372662020e1a67b627c", null ],
+    [ "JustEngagedWith", "da/dce/a22864.html#a7d3a5e2c183db7639a7c25f309359ed1", null ],
+    [ "JustSummoned", "da/dce/a22864.html#a7265a01fa79213ab6d8b82a4c92b7661", null ],
+    [ "Reset", "da/dce/a22864.html#a0eaa29849a2571417d4826d238d72e25", null ],
+    [ "SchedulePhase", "da/dce/a22864.html#a87e3943d6c645138853aa97644f9df0e", null ],
+    [ "SummonedCreatureDespawn", "da/dce/a22864.html#a2ae72bfef577654e676a64eb2e4efa7a", null ]
 ];

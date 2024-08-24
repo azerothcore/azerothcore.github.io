@@ -1,5 +1,7 @@
 var a19832 =
 [
-    [ "at_icc_putricide_trap", "de/da5/a19832.html#a9d4183629deada9c22750b8a34e94583", null ],
-    [ "OnTrigger", "de/da5/a19832.html#ad59c2f694c50fabf1946d2c7ae726413", null ]
+    [ "npc_storm_beacon_spawnAI", "de/da5/a19832.html#a031c1941f177a18af58efcf4a1270654", null ],
+    [ "UpdateAI", "de/da5/a19832.html#a249bf56b905ef0c8b34c737d95518c91", null ],
+    [ "_amount", "de/da5/a19832.html#a3d2286247853cb04b9cc23cd8c0bfdd6", null ],
+    [ "_checkTimer", "de/da5/a19832.html#a7fd6d449b6a20ba9463896244c513a67", null ]
 ];

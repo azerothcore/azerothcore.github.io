@@ -1,6 +1,8 @@
 var a13188 =
 [
-    [ "npc_singularityAI", "de/ddb/a13192.html", "de/ddb/a13192" ],
-    [ "npc_singularity", "d6/dd4/a13188.html#a6ae83c9ce2eff2bb9d532264b80e9da2", null ],
-    [ "GetAI", "d6/dd4/a13188.html#a1eb97c468c5d1dee2662c986d78d3233", null ]
+    [ "HandleApply", "d6/dd4/a13188.html#a717e3428afd59fa3a5e9916887d88273", null ],
+    [ "HandleRemove", "d6/dd4/a13188.html#ae389028340dc25ee0260ed3e9f1d5ceb", null ],
+    [ "PrepareAuraScript", "d6/dd4/a13188.html#a58e6bae0c4c203c704cfa6cfdd6d560f", null ],
+    [ "Register", "d6/dd4/a13188.html#ac2ba66696c791d47c7c485aec6028f0b", null ],
+    [ "Validate", "d6/dd4/a13188.html#a393a46618a4e1928b8149e04b4823726", null ]
 ];

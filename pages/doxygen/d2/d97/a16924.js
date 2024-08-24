@@ -1,6 +1,6 @@
 var a16924 =
 [
-    [ "spell_novos_crystal_handler_death_AuraScript", "de/d96/a16928.html", "de/d96/a16928" ],
-    [ "spell_novos_crystal_handler_death", "d2/d97/a16924.html#a65593cebb22a85b9381693bccbd1d8fe", null ],
-    [ "GetAuraScript", "d2/d97/a16924.html#adf4b7fe72615236141b1d7757ef921e4", null ]
+    [ "npc_pos_tyrannus_eventsAI", "de/d96/a16928.html", "de/d96/a16928" ],
+    [ "npc_pos_tyrannus_events", "d2/d97/a16924.html#a9e61db8b2b30e86fc5e554b3f4d51b7c", null ],
+    [ "GetAI", "d2/d97/a16924.html#ae5863e99d77815de71c1774e908b3f65", null ]
 ];

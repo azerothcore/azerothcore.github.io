@@ -1,8 +1,8 @@
 var a08500 =
 [
-    [ "DungeonEncounter", "db/d2c/a08500.html#a3e48a996a47ddcc1b18aaac339457f3d", null ],
-    [ "creditEntry", "db/d2c/a08500.html#a700a0792973678339f33ab85e7396918", null ],
-    [ "creditType", "db/d2c/a08500.html#a66a077e193f099bb7aef363dc75672d6", null ],
-    [ "dbcEntry", "db/d2c/a08500.html#a262bdd0ba443739456fc14bcad83ecda", null ],
-    [ "lastEncounterDungeon", "db/d2c/a08500.html#a67e29b891887e339dbb40515d082e781", null ]
+    [ "RedirectSpellEvent", "db/d2c/a08500.html#a77d243d64c2fc651d71c42e10a315161", null ],
+    [ "Execute", "db/d2c/a08500.html#a34ae2bc23904558bd5f5b99e8f1c5fdc", null ],
+    [ "_auraEffect", "db/d2c/a08500.html#a010f14a7d389b4e9ae9896061fa18a65", null ],
+    [ "_auraOwnerGUID", "db/d2c/a08500.html#a1b3fb598748362379fef15b3172d8e2b", null ],
+    [ "_self", "db/d2c/a08500.html#aecfa190843c1493b47652ccdac7ae9c3", null ]
 ];

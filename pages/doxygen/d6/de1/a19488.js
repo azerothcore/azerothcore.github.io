@@ -1,6 +1,6 @@
 var a19488 =
 [
-    [ "npc_highlord_tirion_fordringAI", "dd/d36/a19492.html", "dd/d36/a19492" ],
-    [ "npc_highlord_tirion_fordring_lh", "d6/de1/a19488.html#a96102a488330c54a3e3654c767e8e1a5", null ],
-    [ "GetAI", "d6/de1/a19488.html#aea42394c04c1763cffe10eb5eba09854", null ]
+    [ "boss_sjonnir_dwarfAI", "dd/d36/a19492.html", "dd/d36/a19492" ],
+    [ "boss_sjonnir_dwarf", "d6/de1/a19488.html#a3589ae3bef1bbfe0fc5381e341c0995b", null ],
+    [ "GetAI", "d6/de1/a19488.html#a945d8e753e1a54dc348848b9c2dd6cce", null ]
 ];

@@ -1,9 +1,5 @@
 var a05316 =
 [
-    [ "A", "d8/df6/a05316.html#ab94666c9208b481061cd81382ce94a5a", null ],
-    [ "clientM", "d8/df6/a05316.html#a65b25700c577d338e902dc47b4712433", null ],
-    [ "cmd", "d8/df6/a05316.html#a51b29f49e940bffa67988d9bc2b16aa4", null ],
-    [ "crc_hash", "d8/df6/a05316.html#af2ce94f814a0008c953229fb9cdff454", null ],
-    [ "number_of_keys", "d8/df6/a05316.html#ad8f9f53d462f1abd5c81413e0ed8b0a7", null ],
-    [ "securityFlags", "d8/df6/a05316.html#ae2ab466af9513c15cbcea7a20e97ddc5", null ]
+    [ "Lock", "d8/df6/a05316.html#a09c992e631ec8e778a238b38208d686b", null ],
+    [ "i_lock", "d8/df6/a05316.html#a45314b9d141b17ba5bac603afb0ffbe0", null ]
 ];

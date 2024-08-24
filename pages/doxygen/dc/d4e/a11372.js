@@ -1,7 +1,10 @@
 var a11372 =
 [
-    [ "boss_okthorAI", "dc/d4e/a11372.html#a8007cfade5c04d8b4e0b787ac5a5beff", null ],
-    [ "JustEngagedWith", "dc/d4e/a11372.html#a466a618e52f40e04e873dd50f3728755", null ],
-    [ "UpdateAI", "dc/d4e/a11372.html#a246c3bd9aa96eb11d2fa48be8654d726", null ],
-    [ "nextArcaneExplosionTime", "dc/d4e/a11372.html#a89d8cdd528775ee77caeac1d0465d4f2", null ]
+    [ "mmaps_commandscript", "dc/d4e/a11372.html#a1dbdfd26bdb685315a3012453080a56f", null ],
+    [ "GetCommands", "dc/d4e/a11372.html#aec91072f9e651c9136bf1a405a9bb95a", null ],
+    [ "HandleMmapLoadedTilesCommand", "dc/d4e/a11372.html#a40d5b7e733298210c686fe89490b6f61", null ],
+    [ "HandleMmapLocCommand", "dc/d4e/a11372.html#aa3dc699456256d8b2ab9fdd97891bd96", null ],
+    [ "HandleMmapPathCommand", "dc/d4e/a11372.html#a2c876439ad6d9ff7523f140d97743dea", null ],
+    [ "HandleMmapStatsCommand", "dc/d4e/a11372.html#a823b56cdbb0c97176990bb01af9af9fc", null ],
+    [ "HandleMmapTestArea", "dc/d4e/a11372.html#aaae2e5548a6bd9c670db0721ea7508bd", null ]
 ];

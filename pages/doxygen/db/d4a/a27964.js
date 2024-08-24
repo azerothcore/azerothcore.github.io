@@ -1,6 +1,5 @@
 var a27964 =
 [
-    [ "CheckProc", "db/d4a/a27964.html#af38c2b1c556a1fcdb1157468cd02811e", null ],
-    [ "PrepareAuraScript", "db/d4a/a27964.html#a42b97406721d3493a378394132a55981", null ],
-    [ "Register", "db/d4a/a27964.html#af4d514906f66af1b2f2392bcfc5e8b9c", null ]
+    [ "ID", "db/d4a/a27964.html#a01bcdc3543d3ff250354acf5e0724c14", null ],
+    [ "spellId", "db/d4a/a27964.html#aabbb95c091e0b0946bcb05746b1c23f3", null ]
 ];

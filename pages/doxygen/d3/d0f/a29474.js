@@ -1,5 +1,8 @@
 var a29474 =
 [
-    [ "npc_pet_trainerAI", "d3/d0f/a29474.html#aa5c01fd7cf2b9fad15a3059b4fe38d13", null ],
-    [ "sGossipSelect", "d3/d0f/a29474.html#a6768c8f8f5e37058f85cb40d35caad72", null ]
+    [ "DBCFile", "d2/d90/a28488.html", "d2/d90/a28488" ],
+    [ "DBCFile::Exception", "d8/d7a/a28492.html", "d8/d7a/a28492" ],
+    [ "DBCFile::NotFound", "dd/d2c/a28496.html", "dd/d2c/a28496" ],
+    [ "DBCFile::Record", "d1/d4d/a28500.html", "d1/d4d/a28500" ],
+    [ "DBCFile::Iterator", "df/db6/a28504.html", "df/db6/a28504" ]
 ];

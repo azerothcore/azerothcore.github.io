@@ -1,6 +1,6 @@
 var a16392 =
 [
-    [ "spell_ruby_sanctum_rallying_shout_SpellScript", "d0/d5d/a16396.html", "d0/d5d/a16396" ],
-    [ "spell_ruby_sanctum_rallying_shout", "d9/d7a/a16392.html#a84bfaedba71a24fce95217159aa73c57", null ],
-    [ "GetSpellScript", "d9/d7a/a16392.html#ad24a61e692645c276c004c57ed097112", null ]
+    [ "HandleScript", "d9/d7a/a16392.html#a8d694a38875d940112ff406b84eca6ef", null ],
+    [ "PrepareSpellScript", "d9/d7a/a16392.html#a68caa888893ff2aeb7ce0ee5ae28546d", null ],
+    [ "Register", "d9/d7a/a16392.html#acd72c6d884a8963318aa73bc520c98c4", null ]
 ];

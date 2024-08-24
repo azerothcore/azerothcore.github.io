@@ -1,7 +1,7 @@
 var a14592 =
 [
-    [ "npc_thrall", "d6/d0f/a14592.html#a24b07b9267cc4f899264f46dab3b8cd3", null ],
-    [ "GetAI", "d6/d0f/a14592.html#a46d3185df748f5f018654cf479683dba", null ],
-    [ "OnGossipHello", "d6/d0f/a14592.html#a92ed4e69be31cc4aafd1819a9dbfca34", null ],
-    [ "OnGossipSelect", "d6/d0f/a14592.html#a5a0d29628c8f4df1dbe1058c363a6e65", null ]
+    [ "npc_cos_chromie_middle", "d6/d0f/a14592.html#a1bb7229781c122d362e781d2737d0fd3", null ],
+    [ "OnGossipHello", "d6/d0f/a14592.html#a105b62bd24fe3912c0f66c234a6dc670", null ],
+    [ "OnGossipSelect", "d6/d0f/a14592.html#a37ebdd257ef22554c81cf3c062856141", null ],
+    [ "OnQuestAccept", "d6/d0f/a14592.html#a6af52ce23a90e7d8418e2c414c9c0fd4", null ]
 ];

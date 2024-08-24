@@ -1,6 +1,6 @@
 var a17236 =
 [
-    [ "npc_hor_lich_kingAI", "d2/dd5/a17240.html", "d2/dd5/a17240" ],
-    [ "npc_hor_lich_king", "d8/dc3/a17236.html#aab2562a7a204699735a89e7a15b3b472", null ],
-    [ "GetAI", "d8/dc3/a17236.html#ad670ae69daa742c19c06267399445a11", null ]
+    [ "FilterTargets", "d8/dc3/a17236.html#a7abb4397b5fcf956bf31fa4dc9960ece", null ],
+    [ "PrepareSpellScript", "d8/dc3/a17236.html#a8e9d81b34e05506569f4b910c1958de3", null ],
+    [ "Register", "d8/dc3/a17236.html#aa80980c3f68abcb0fac7a41172f70012", null ]
 ];

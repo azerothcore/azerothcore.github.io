@@ -1,17 +1,13 @@
 var a24172 =
 [
-    [ "OPvPCapturePointZM_GraveYard", "d3/da6/a24172.html#a4996bc1787009cc204047f574fc55aa3", null ],
-    [ "CanTalkTo", "d3/da6/a24172.html#aabcde0e8e3e089dccea0ae6a439e7c4a", null ],
-    [ "ChangeState", "d3/da6/a24172.html#a95394b3e6863c367e4a6257c9b9864df", null ],
-    [ "FillInitialWorldStates", "d3/da6/a24172.html#a745acfba4972d64dca84287d8db292fc", null ],
-    [ "GetGraveYardState", "d3/da6/a24172.html#a8c01f60011d967344df5895f05e1f80e", null ],
-    [ "HandleDropFlag", "d3/da6/a24172.html#a2962a45d4c4145f6ba135477ef362ec8", null ],
-    [ "HandleGossipOption", "d3/da6/a24172.html#a28ce2dba96ff5784c4758bd3d0d4e640", null ],
-    [ "HandleOpenGo", "d3/da6/a24172.html#af72356107675ab5ad6c74fda1c3b69fa", null ],
-    [ "SetBeaconState", "d3/da6/a24172.html#a8ed94a0433eab7ae25ea2686fd8e4e9a", null ],
-    [ "Update", "d3/da6/a24172.html#a5210c40f88803137e4a8fe3ea69eda14", null ],
-    [ "UpdateTowerState", "d3/da6/a24172.html#abee798494628344c9f8c1052ec248501", null ],
-    [ "m_BothControllingFactionId", "d3/da6/a24172.html#acac201bebe2ec8e214e5632a21aa8331", null ],
-    [ "m_FlagCarrierGUID", "d3/da6/a24172.html#a103cb36247799a5826c47978d451d2b7", null ],
-    [ "m_GraveYardState", "d3/da6/a24172.html#af281f3b638d2af3d3e8378614a23457f", null ]
+    [ "npc_illidari_spawnAI", "d3/da6/a24172.html#a704c1d3e07d028b04e2bddee37039941", null ],
+    [ "JustDied", "d3/da6/a24172.html#a27277d90d4a58a89386a39f4affbaee8", null ],
+    [ "JustEngagedWith", "d3/da6/a24172.html#add4ea6366614e9fb86e85613bfb910ba", null ],
+    [ "Reset", "d3/da6/a24172.html#a5347858d5da4f0718479b1d702125366", null ],
+    [ "UpdateAI", "d3/da6/a24172.html#af392a545b3dccb7a7c89780d2818a7a7", null ],
+    [ "LordIllidanGUID", "d3/da6/a24172.html#a11b411dd0b5a32a7bdd0c44242a42372", null ],
+    [ "SpellTimer1", "d3/da6/a24172.html#afbf1b352275c0fd16fdf252eac9e0c4a", null ],
+    [ "SpellTimer2", "d3/da6/a24172.html#a644616bab96e1bd9bbe2500bf1b14988", null ],
+    [ "SpellTimer3", "d3/da6/a24172.html#a9889f9673292613dc46387862f3e8849", null ],
+    [ "Timers", "d3/da6/a24172.html#a1e48e4dea7bc1ba0f3d6be2f03b6813e", null ]
 ];

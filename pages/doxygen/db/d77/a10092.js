@@ -1,7 +1,6 @@
 var a10092 =
 [
-    [ "GuildBankDepositMoney", "db/d77/a10092.html#a967628850b85038d917be69dc71e6a0e", null ],
-    [ "Read", "db/d77/a10092.html#aa1d4274b057cc4ecec6b078ac4925a94", null ],
-    [ "Banker", "db/d77/a10092.html#afdeb7ea381853078d515d8a0f157533b", null ],
-    [ "Money", "db/d77/a10092.html#a41258345b9f83dcf8e374145f517251e", null ]
+    [ "WeatherScript", "db/d77/a10092.html#a4f86b051364c95f5389d7ed473429b7b", null ],
+    [ "IsDatabaseBound", "db/d77/a10092.html#a2547902149ce080711ccacb709b10e8a", null ],
+    [ "OnChange", "db/d77/a10092.html#a10c105f1e1bff1e9fe484e98b00cf76c", null ]
 ];

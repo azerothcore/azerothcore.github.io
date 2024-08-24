@@ -1,6 +1,6 @@
 var a21268 =
 [
-    [ "boss_freya_elder_ironbranchAI", "dc/d59/a21272.html", "dc/d59/a21272" ],
-    [ "boss_freya_elder_ironbranch", "d6/d34/a21268.html#a066083e4d6fde6439f7dce80be209075", null ],
-    [ "GetAI", "d6/d34/a21268.html#a67f483d12fe801c1d840dd0f74396564", null ]
+    [ "npc_erekem_guardAI", "dc/d59/a21272.html", "dc/d59/a21272" ],
+    [ "npc_erekem_guard", "d6/d34/a21268.html#a78592996e90f77f81eec0325a7f11956", null ],
+    [ "GetAI", "d6/d34/a21268.html#a844a6a29eda4f41547ea37a4c08fb723", null ]
 ];

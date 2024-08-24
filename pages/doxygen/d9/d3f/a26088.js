@@ -1,6 +1,8 @@
 var a26088 =
 [
-    [ "npc_creditmarker_visit_with_ancestorsAI", "d2/d67/a26092.html", "d2/d67/a26092" ],
-    [ "npc_creditmarker_visit_with_ancestors", "d9/d3f/a26088.html#a60f7abac7198d8504d944828dceb1ffa", null ],
-    [ "GetAI", "d9/d3f/a26088.html#a06eb335a757c9f48fbfa64bfc326bb8e", null ]
+    [ "CheckProc", "d9/d3f/a26088.html#a9e7b83ffd7e8d5ff4cf3b59cfbc40b0e", null ],
+    [ "HandleProc", "d9/d3f/a26088.html#a772385aab5f9917d0d3fb456e0ed55e1", null ],
+    [ "PrepareAuraScript", "d9/d3f/a26088.html#a876c1bda52c99c52249444414196b1d4", null ],
+    [ "Register", "d9/d3f/a26088.html#a1409e9c24827ee51a83d732bb99dd27b", null ],
+    [ "Validate", "d9/d3f/a26088.html#a8e36353d5296c609cbe0ce63db4e7dcb", null ]
 ];

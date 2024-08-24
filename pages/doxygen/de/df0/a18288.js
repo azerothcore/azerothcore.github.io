@@ -1,6 +1,5 @@
 var a18288 =
 [
-    [ "boss_lady_deathwhisperAI", "d0/d77/a18292.html", "d0/d77/a18292" ],
-    [ "boss_lady_deathwhisper", "de/df0/a18288.html#a979411cb834611b1239f3bf9058d316d", null ],
-    [ "GetAI", "de/df0/a18288.html#ac0b86fee1e2e9dbf794ed1b53aab11d2", null ]
+    [ "achievement_neck_deep_in_vile", "de/df0/a18288.html#af0e54c236e7637d8c1a8cf7dbed5a195", null ],
+    [ "OnCheck", "de/df0/a18288.html#a9861c008f302279a4ac5f4ddc14ca2d0", null ]
 ];

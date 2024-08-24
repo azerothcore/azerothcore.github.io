@@ -1,6 +1,7 @@
 var a24996 =
 [
-    [ "startFollow", "da/d76/a24996.html#ab59ff2af9a6100b8634c6554b11cf950", null ],
-    [ "Execute", "da/d76/a24996.html#a533644301e170be15f6c112e501b7ddf", null ],
-    [ "_owner", "da/d76/a24996.html#a78716fcd2fbe575520f15c337e265ee4", null ]
+    [ "HandleEffectApply", "da/d76/a24996.html#a97a639459622c9e3e995057989cf9eda", null ],
+    [ "HandleEffectRemove", "da/d76/a24996.html#a7477bb78ffcc082c111bad4e93b9fd73", null ],
+    [ "PrepareAuraScript", "da/d76/a24996.html#aa3c4018e18eccd8f12e4607f4bc630ec", null ],
+    [ "Register", "da/d76/a24996.html#a40793c696a759db4920c4c34f5b9fa66", null ]
 ];

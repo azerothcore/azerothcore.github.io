@@ -1,6 +1,7 @@
 var a25976 =
 [
-    [ "npc_deaths_fel_cannonAI", "dd/dd4/a25980.html", "dd/dd4/a25980" ],
-    [ "npc_deaths_fel_cannon", "d7/d79/a25976.html#a87ecaca75061928600b5114d3913dd26", null ],
-    [ "GetAI", "d7/d79/a25976.html#a4cf91cd1f28637f359e06bccd30e0338", null ]
+    [ "CheckProc", "d7/d79/a25976.html#a2052750b91de67b330a2ae6a190a5d4e", null ],
+    [ "HandleProc", "d7/d79/a25976.html#a5b404a07ccb13cabf5fa6ab90db92129", null ],
+    [ "PrepareAuraScript", "d7/d79/a25976.html#af16eec48ab0f469ca3cefd149bb0d925", null ],
+    [ "Register", "d7/d79/a25976.html#a4f31c76184e4ae5bc03763e04cdac72e", null ]
 ];

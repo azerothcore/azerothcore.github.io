@@ -1,6 +1,7 @@
 var a25132 =
 [
-    [ "boss_morogrim_tidewalkerAI", "d7/d36/a25136.html", "d7/d36/a25136" ],
-    [ "boss_morogrim_tidewalker", "de/d68/a25132.html#a93c55ec23ff92447d6e54e2298e35a15", null ],
-    [ "GetAI", "de/d68/a25132.html#af6fe0579052b1c2e24aa3ca1935eb741", null ]
+    [ "HandleDummy", "de/d68/a25132.html#a9037eddf4c9ce96c15c57e8906bd9a5f", null ],
+    [ "Load", "de/d68/a25132.html#a738318535196b3d55e8f1b3da4f76c95", null ],
+    [ "PrepareSpellScript", "de/d68/a25132.html#a941a097124ed9b4917faa18ff23fc366", null ],
+    [ "Register", "de/d68/a25132.html#aaf9d269e7d052515f31b463999e92cf4", null ]
 ];

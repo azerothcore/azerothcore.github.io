@@ -1,17 +1,7 @@
 var a08184 =
 [
-    [ "SpellNonMeleeDamage", "d1/d16/a08184.html#ad9d6b798f9ed159d847affc5c4b23715", null ],
-    [ "absorb", "d1/d16/a08184.html#a485ee28c6a8cf32a22578e02633df75b", null ],
-    [ "attacker", "d1/d16/a08184.html#a5248da0c1a8609479d681ae76a77d045", null ],
-    [ "blocked", "d1/d16/a08184.html#af0cb3d2801e51d9236a6ff5185a43790", null ],
-    [ "cleanDamage", "d1/d16/a08184.html#aa49cdb425fe9c8fb483dcc3c22ca6a72", null ],
-    [ "damage", "d1/d16/a08184.html#a47e66924ae869ce34bdf36a5ed50548b", null ],
-    [ "HitInfo", "d1/d16/a08184.html#a3f99854d163cd672f881f721d5bc8a39", null ],
-    [ "overkill", "d1/d16/a08184.html#a0d578181e933091f3ea1c88ce68e857a", null ],
-    [ "physicalLog", "d1/d16/a08184.html#a34318f4d92685c855972e6fd22089e03", null ],
-    [ "resist", "d1/d16/a08184.html#ade20f4aab4a1945ccd6754cd71101fe2", null ],
-    [ "schoolMask", "d1/d16/a08184.html#a52f5ae6091fe547ed7e282d52c626361", null ],
-    [ "spellInfo", "d1/d16/a08184.html#a9e37c164672dbcc81dd43bee9ec988cb", null ],
-    [ "target", "d1/d16/a08184.html#a324ea6c84e005487560de986dceffeba", null ],
-    [ "unused", "d1/d16/a08184.html#ae991311d8290996e1c0c49f33c29c6b3", null ]
+    [ "UsedPos", "d1/d16/a08184.html#aef230e392619ad4abc2da649d11b2394", null ],
+    [ "dist", "d1/d16/a08184.html#ae73cbe8b0cf3ce714f6654df3a8874de", null ],
+    [ "sign", "d1/d16/a08184.html#a2b5f97425309d56482a1f287b6d5be69", null ],
+    [ "size", "d1/d16/a08184.html#a4ad5a2df36ae9c1cd9130c5efd27af58", null ]
 ];

@@ -1,6 +1,7 @@
 var a21724 =
 [
-    [ "npc_ulduar_proximity_mineAI", "df/d22/a21728.html", "df/d22/a21728" ],
-    [ "npc_ulduar_proximity_mine", "db/d99/a21724.html#ac33beb07e17712cdda1b3434d9dc8222", null ],
-    [ "GetAI", "db/d99/a21724.html#a7d8237b965699004f9df731e357b4020", null ]
+    [ "CheckRequirement", "db/d99/a21724.html#a41beb2c890137328734d6adb14e08302", null ],
+    [ "PrepareSpellScript", "db/d99/a21724.html#aa0b9873dbd8c75a14fa88094d91eeeaa", null ],
+    [ "Register", "db/d99/a21724.html#aa0fad5e5a68131ebab5717ad0ce69669", null ],
+    [ "SetDest", "db/d99/a21724.html#a431a556ab73f91ed63f5983e537834a5", null ]
 ];

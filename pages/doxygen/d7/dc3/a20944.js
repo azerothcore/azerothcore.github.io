@@ -1,6 +1,6 @@
 var a20944 =
 [
-    [ "OnRemove", "d7/dc3/a20944.html#a226165f61f8be02abe828ba827f55541", null ],
-    [ "PrepareAuraScript", "d7/dc3/a20944.html#ad52d5d146f82008d3989f72a7dadd08c", null ],
-    [ "Register", "d7/dc3/a20944.html#ad05da83a1f14597358970910970acf50", null ]
+    [ "HandleEffectPeriodic", "d7/dc3/a20944.html#a3dd6eaa3e5800b92e19c12e47b0ad132", null ],
+    [ "PrepareAuraScript", "d7/dc3/a20944.html#a0b24e94cfce6b57d2dc8b36c3fe1c39f", null ],
+    [ "Register", "d7/dc3/a20944.html#a4dd779cac93c2f847495dadc67c0beb2", null ]
 ];

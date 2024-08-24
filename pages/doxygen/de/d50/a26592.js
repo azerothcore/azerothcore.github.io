@@ -1,6 +1,6 @@
 var a26592 =
 [
-    [ "HandleEffectRemove", "de/d50/a26592.html#a9472b79a272aff36be657b66883d822f", null ],
-    [ "PrepareAuraScript", "de/d50/a26592.html#ad46fedf6ef019d1b5e93d98e7bba8417", null ],
-    [ "Register", "de/d50/a26592.html#ace15e1f5c158f1f203862b40da2cf8fc", null ]
+    [ "FilterTargets", "de/d50/a26592.html#af7035627c3d6dd3fd8381ee258391a0b", null ],
+    [ "PrepareSpellScript", "de/d50/a26592.html#a3211fda7263bc513d14a8f2fd1507ef8", null ],
+    [ "Register", "de/d50/a26592.html#abe63ec69fe15fd8924fb63235489e088", null ]
 ];

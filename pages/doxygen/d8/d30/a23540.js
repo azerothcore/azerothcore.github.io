@@ -1,6 +1,8 @@
 var a23540 =
 [
-    [ "npc_plaguehound_trackerAI", "d2/d1d/a23544.html", "d2/d1d/a23544" ],
-    [ "npc_plaguehound_tracker", "d8/d30/a23540.html#a5c2803907cf06bc3e641bbb8171681d3", null ],
-    [ "GetAI", "d8/d30/a23540.html#a1ec8f190139b35837a0ce6c4c2f08709", null ]
+    [ "npc_target_trigger", "d8/d30/a23540.html#a238058ba80130c6239b7267db3247196", null ],
+    [ "Reset", "d8/d30/a23540.html#ad23d465bfd78ede0a1556f2ce1742349", null ],
+    [ "UpdateAI", "d8/d30/a23540.html#ab5f482e209d2d8aa5c27666d3e1934f3", null ],
+    [ "_cast", "d8/d30/a23540.html#a4ec89ca960323f7ad135d5a425a82416", null ],
+    [ "_scheduler", "d8/d30/a23540.html#a9b418b09e25c8f96692b4e2626339c96", null ]
 ];

@@ -1,6 +1,6 @@
 var a17544 =
 [
-    [ "HandleScriptEffect", "d6/d8c/a17544.html#ad2cc4ff984e9a82f1e843cdbf0e03b8f", null ],
-    [ "PrepareSpellScript", "d6/d8c/a17544.html#a4705f2659627e93b5bd7eb66ed2fba37", null ],
-    [ "Register", "d6/d8c/a17544.html#a42703906af9868b120dfc75fdd3941d9", null ]
+    [ "BurningPitchFilterCheck", "d6/d8c/a17544.html#a11a4816f3d29cb1a6c4845cdaaeaa3cf", null ],
+    [ "operator()", "d6/d8c/a17544.html#a24be987c8471d8a7096025debf6e60b1", null ],
+    [ "_entry", "d6/d8c/a17544.html#a7bd20aed2db0e24ad34cbcc94d9a89d6", null ]
 ];

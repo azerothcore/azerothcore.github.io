@@ -1,5 +1,5 @@
 var a27324 =
 [
-    [ "PrepareSpellScript", "d9/d36/a27324.html#ae49ad5a4ad43099c4510e1666ff6415b", null ],
-    [ "Register", "d9/d36/a27324.html#ad31fa6c2099d984389c3fb12e53a5bd8", null ]
+    [ "item_petrov_cluster_bombs", "d9/d36/a27324.html#a1a76760f7c4617a40d96b9833e7466df", null ],
+    [ "OnUse", "d9/d36/a27324.html#a14e8a00a532b5aebc8469ff538848f53", null ]
 ];

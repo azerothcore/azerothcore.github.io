@@ -1,16 +1,16 @@
 var a25996 =
 [
-    [ "npc_nether_drakeAI", "d4/db9/a25996.html#a82f2c29b380be95303e1558776ea2d88", null ],
-    [ "JustEngagedWith", "d4/db9/a25996.html#a5f20faa7f7007989298009b88b3ecbc8", null ],
-    [ "MoveInLineOfSight", "d4/db9/a25996.html#a9e122d4533155c926904a13e8534d32e", null ],
-    [ "MovementInform", "d4/db9/a25996.html#ae1f5248397b606b7872f05cfc929ac0d", null ],
-    [ "Reset", "d4/db9/a25996.html#acb03513dd67988e0961632846021a42d", null ],
-    [ "SpellHit", "d4/db9/a25996.html#a40f05363f38d71954c9fb8773c382444", null ],
-    [ "UpdateAI", "d4/db9/a25996.html#aa538d9d2ead26d6e085ecf62ec7d310f", null ],
-    [ "ArcaneBlast_Timer", "d4/db9/a25996.html#ace872917954f4978f3568d7ddecf22ad", null ],
-    [ "IntangiblePresence_Timer", "d4/db9/a25996.html#acecff3846090fa83c8fc43537d788501", null ],
-    [ "IsNihil", "d4/db9/a25996.html#a37c393101e0f9b07e20cc21beb80ba44", null ],
-    [ "ManaBurn_Timer", "d4/db9/a25996.html#ae6c33df878497d29d5f61234b048009d", null ],
-    [ "NihilSpeech_Phase", "d4/db9/a25996.html#a3e68f0fdb59ce6d8749b5d8629b7ec0b", null ],
-    [ "NihilSpeech_Timer", "d4/db9/a25996.html#a40d7584c68f5f6516eb9a7deaaad7c86", null ]
+    [ "Spell", "d4/db9/a25996.html#ae62bcfdf7168a58818ffc8b302cffcb7", [
+      [ "PAL_SPELL_ARDENT_DEFENDER_DEBUFF", "d4/db9/a25996.html#ae62bcfdf7168a58818ffc8b302cffcb7a85895054b57340dab995dc14f826314b", null ],
+      [ "PAL_SPELL_ARDENT_DEFENDER_HEAL", "d4/db9/a25996.html#ae62bcfdf7168a58818ffc8b302cffcb7a717b484434bc8fda128b67bd90a123fe", null ]
+    ] ],
+    [ "spell_pal_ardent_defender", "d4/db9/a25996.html#a9bc7f72089287dbac352b308489c7781", null ],
+    [ "Absorb", "d4/db9/a25996.html#aee6b0b00078a880dc5ed6684991ee8c8", null ],
+    [ "CalculateAmount", "d4/db9/a25996.html#a749742ceb8be20f5d327becbea7c64d5", null ],
+    [ "Load", "d4/db9/a25996.html#a3718265890fad2a6c6d53b5f401d16dd", null ],
+    [ "PrepareAuraScript", "d4/db9/a25996.html#a33dd57579e724aee0c6f2a8d767fc3c8", null ],
+    [ "Register", "d4/db9/a25996.html#af405994d4be5f11ce63028d0dba1e1da", null ],
+    [ "Validate", "d4/db9/a25996.html#a74fafd4bde88c2e581cac555a131b39d", null ],
+    [ "absorbPct", "d4/db9/a25996.html#a408fe2ab57ae0adcf803c71b5f6cd724", null ],
+    [ "healPct", "d4/db9/a25996.html#a325024973959856c000f380b0bfc3bda", null ]
 ];

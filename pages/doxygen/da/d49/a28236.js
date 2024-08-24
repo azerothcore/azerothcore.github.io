@@ -1,6 +1,10 @@
 var a28236 =
 [
-    [ "HandleFinish", "da/d49/a28236.html#a53263ce51581f36c2df80b49c93fa9d3", null ],
-    [ "PrepareSpellScript", "da/d49/a28236.html#a8113f61816473399f0ceab18b104d058", null ],
-    [ "Register", "da/d49/a28236.html#a36bf50cdb7be7ba03eafd4848c6ceced", null ]
+    [ "attackSpeed", "da/d49/a28236.html#ab5242f7367e8799a556176178c72fc88", null ],
+    [ "creatureType", "da/d49/a28236.html#a3dff9074b85261932ed8a8a550c5395b", null ],
+    [ "flags1", "da/d49/a28236.html#a026745f2ce754d754858d69ee219b518", null ],
+    [ "ID", "da/d49/a28236.html#a72853ed36016e05e4cd14a9d89e9d6a8", null ],
+    [ "modelID_A", "da/d49/a28236.html#a86dfa61342583d920b7d8496bce4b49d", null ],
+    [ "modelID_H", "da/d49/a28236.html#a1ee597d6fd02507b682874929645e01d", null ],
+    [ "stanceSpell", "da/d49/a28236.html#a08f54b905e905fb5a59e449f8c613c08", null ]
 ];

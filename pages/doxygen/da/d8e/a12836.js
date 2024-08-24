@@ -1,6 +1,7 @@
 var a12836 =
 [
-    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer_SpellScript", "de/d49/a12840.html", "de/d49/a12840" ],
-    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer", "da/d8e/a12836.html#a5eb6f05a4436b8edc8c7e71926328e30", null ],
-    [ "GetSpellScript", "da/d8e/a12836.html#ac76a5ea53843c60d0742245971b5448d", null ]
+    [ "OnPeriodic", "da/d8e/a12836.html#aa48b6f35302a8857465c6567f811dec6", null ],
+    [ "PrepareAuraScript", "da/d8e/a12836.html#ad606a06f64b85c762f3c83bc9ca5b7b3", null ],
+    [ "Register", "da/d8e/a12836.html#aa7708067531131738b86077638eda7ac", null ],
+    [ "Validate", "da/d8e/a12836.html#a665698b54201184185d96bd33f53e584", null ]
 ];

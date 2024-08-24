@@ -1,6 +1,7 @@
 var a24544 =
 [
-    [ "boss_essence_of_sufferingAI", "d9/d1b/a24548.html", "d9/d1b/a24548" ],
-    [ "boss_essence_of_suffering", "d5/d8a/a24544.html#a1237f428657f0e9a0218695264358384", null ],
-    [ "GetAI", "d5/d8a/a24544.html#adb54519bdf220cb3e30c81627c1ba11a", null ]
+    [ "CheckCast", "d5/d8a/a24544.html#ab215bbeea333d250ecbff0482f4f0966", null ],
+    [ "FilterTargets", "d5/d8a/a24544.html#a6ee8387c7fed3fd3042852a2f542c5bd", null ],
+    [ "PrepareSpellScript", "d5/d8a/a24544.html#a83447d184bb2299987d0c54d5af4c910", null ],
+    [ "Register", "d5/d8a/a24544.html#a6107ba00471dd346c363db80fe81b698", null ]
 ];

@@ -1,6 +1,6 @@
 var a05576 =
 [
-    [ "CheckExecutable", "d7/d33/a05576.html#a65cf44a18a72ba92f91a667e41f9da80", null ],
-    [ "corrected_path", "d7/d33/a05576.html#a31499b458f0ff0ec518980f51d6a242a", null ],
-    [ "GetCorrectedMySQLExecutable", "d7/d33/a05576.html#a8ab8efffe5408f97f438e06766f65ec9", null ]
+    [ "Append", "d7/d33/a05576.html#a290b052f7cbd321c646e9e5e19484444", null ],
+    [ "Append", "d7/d33/a05576.html#a867b7a92080104278aef5fb4975a4a52", null ],
+    [ "Append", "d7/d33/a05576.html#aa0a81814abe26d456018c3bc9153cd4d", null ]
 ];

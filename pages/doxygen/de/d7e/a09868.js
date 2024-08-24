@@ -1,7 +1,12 @@
 var a09868 =
 [
-    [ "AutoBankItem", "de/d7e/a09868.html#a02d39ddc9eda90be709b2fa9c1f6023d", null ],
-    [ "Read", "de/d7e/a09868.html#a8651192c6040cdf5d257c134dde1208c", null ],
-    [ "Bag", "de/d7e/a09868.html#a69f9b65ecb778c94c6e9278e5f98d31b", null ],
-    [ "Slot", "de/d7e/a09868.html#a970f2ca85a76de1a25ad40a9ebf0029f", null ]
+    [ "QuestLocale", "de/d7e/a09868.html#a887d474a470ee0278fb4b465a7ad9547", null ],
+    [ "AreaDescription", "de/d7e/a09868.html#a5c6c5a8d1fb500afef514c80c9d87e4e", null ],
+    [ "CompletedText", "de/d7e/a09868.html#aad432417f836b2cbe03d3e53e4e76f14", null ],
+    [ "Details", "de/d7e/a09868.html#afd23d37c92f2b28e1c125bba0d670497", null ],
+    [ "Objectives", "de/d7e/a09868.html#ae1ecea0f255f34b547302bfc2c0b6ad4", null ],
+    [ "ObjectiveText", "de/d7e/a09868.html#ae41f7f50ab68e5783ceec37e6f8ff5b0", null ],
+    [ "OfferRewardText", "de/d7e/a09868.html#aaba6d07625232a77e3457454f7d4fa77", null ],
+    [ "RequestItemsText", "de/d7e/a09868.html#a764d2092084454844e59c484fb637017", null ],
+    [ "Title", "de/d7e/a09868.html#ab75b38241e31b9137c1d85334b3a3f30", null ]
 ];

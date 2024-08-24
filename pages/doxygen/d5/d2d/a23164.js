@@ -1,9 +1,14 @@
 var a23164 =
 [
-    [ "npc_archmage_landalockAI", "d5/d2d/a23164.html#a8e2b48a9cf243b0d6f11286cf1e301c8", null ],
-    [ "GetImageEntry", "d5/d2d/a23164.html#ae09841969253c0baf72cc235b6fa058e", null ],
-    [ "JustSummoned", "d5/d2d/a23164.html#af9016bfeca3db7611fdafe4337e5f64a", null ],
-    [ "UpdateAI", "d5/d2d/a23164.html#abad2f45c0a5c43cc7aa7867a0291133d", null ],
-    [ "_summonGUID", "d5/d2d/a23164.html#a8b59c414dfd46209dcc3d00531e2b98b", null ],
-    [ "_switchImageTimer", "d5/d2d/a23164.html#a5e2fb6556bbb5cf22b77a72e9ccbc548", null ]
+    [ "boss_the_lurker_below", "d5/d2d/a23164.html#ac76c71b6a47e1a936256d9c5901c27ab", null ],
+    [ "AttackStart", "d5/d2d/a23164.html#af0f6fbe31dbcd6df4e8f1b57730e093b", null ],
+    [ "DamageTaken", "d5/d2d/a23164.html#ae7c05744013753b29072ec1b5d9f2570", null ],
+    [ "DoAction", "d5/d2d/a23164.html#a30e07055aa632066a75ad48f3e8109e2", null ],
+    [ "EnterEvadeMode", "d5/d2d/a23164.html#a522164e819db5062225f7d5704cdaa36", null ],
+    [ "JustEngagedWith", "d5/d2d/a23164.html#aa31e26b77e0c2403a338f781bf14c94b", null ],
+    [ "Reset", "d5/d2d/a23164.html#ae592707182d64689e6578813b3617ee3", null ],
+    [ "SchedulerPhaseOne", "d5/d2d/a23164.html#a42dd2ed36209e7be61788d054e2754b5", null ],
+    [ "SchedulerPhaseTwo", "d5/d2d/a23164.html#aa910c20d3ee26d6d2e71818008eb3b5c", null ],
+    [ "SummonedCreatureDies", "d5/d2d/a23164.html#a5ec68a1bc5b22e03fe485448257ad7df", null ],
+    [ "UpdateAI", "d5/d2d/a23164.html#a92d854cb21b272bd09674c724b1aa862", null ]
 ];

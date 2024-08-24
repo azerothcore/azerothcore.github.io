@@ -1,6 +1,6 @@
 var a16504 =
 [
-    [ "instance_trial_of_the_champion_InstanceMapScript", "d5/d35/a16508.html", "d5/d35/a16508" ],
-    [ "instance_trial_of_the_champion", "d9/d59/a16504.html#a7b97e3da119a7ad33a87c74647407bd8", null ],
-    [ "GetInstanceScript", "d9/d59/a16504.html#a9227119fc47f38cd82a1fc07c04b0c86", null ]
+    [ "npc_announcer_toc10", "d9/d59/a16504.html#ae495b19328c6a743dfd8f1cbf37a0bd6", null ],
+    [ "OnGossipHello", "d9/d59/a16504.html#afcc5262e7c49b7456af146de14805a06", null ],
+    [ "OnGossipSelect", "d9/d59/a16504.html#a9a2bf1d3a215332744ca473041cc0520", null ]
 ];

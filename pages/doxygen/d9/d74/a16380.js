@@ -1,6 +1,6 @@
 var a16380 =
 [
-    [ "HandleScript", "d9/d74/a16380.html#ae206ef80cf9e2c68a627107c06c1cdfe", null ],
-    [ "PrepareSpellScript", "d9/d74/a16380.html#a091e035d5d15822538d49633bb0f6786", null ],
-    [ "Register", "d9/d74/a16380.html#ad627d55e3cfc06e1c5064c70cbef109e", null ]
+    [ "spell_toc25_mistress_kiss_AuraScript", "d1/d78/a16384.html", "d1/d78/a16384" ],
+    [ "spell_toc25_mistress_kiss", "d9/d74/a16380.html#a5e6df0da2d89b2ca71c6fc49790b3314", null ],
+    [ "GetAuraScript", "d9/d74/a16380.html#ae4fbeb690e0fceb92fa565e2b7358592", null ]
 ];

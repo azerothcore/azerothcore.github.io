@@ -1,6 +1,7 @@
 var a15632 =
 [
-    [ "npc_anachronos_quest_triggerAI", "dc/ddc/a15636.html", "dc/ddc/a15636" ],
-    [ "npc_anachronos_quest_trigger", "d3/d99/a15632.html#ad39871952acd3152b51820fe360f4ebd", null ],
-    [ "GetAI", "d3/d99/a15632.html#a2e0e6a69ed1cbed76db9c4bd64d51330", null ]
+    [ "npc_ahnkahar_nerubian", "d3/d99/a15632.html#ae18cdf09bae50751e266e95caf165f8e", null ],
+    [ "Reset", "d3/d99/a15632.html#a387831015ec8e4bc65cff8c8550bb176", null ],
+    [ "UpdateAI", "d3/d99/a15632.html#a9a773127e4f94bcdf142718355eae0e8", null ],
+    [ "uiSprintTimer", "d3/d99/a15632.html#a27a6f57a6b145cc595896d1ad453064f", null ]
 ];

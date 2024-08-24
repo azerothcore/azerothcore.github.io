@@ -1,8 +1,8 @@
 var a28112 =
 [
-    [ "CheckCast", "d1/d05/a28112.html#a0d7910cd2b9d9f4174575532502d40f9", null ],
-    [ "HandleDummy", "d1/d05/a28112.html#a1eac1eb5f39093ff48942e82728478dd", null ],
-    [ "PrepareSpellScript", "d1/d05/a28112.html#adbb58b75232560d101b291c0d99a2a20", null ],
-    [ "Register", "d1/d05/a28112.html#a6acb46e81171e13f50ac1f01bf83013b", null ],
-    [ "Validate", "d1/d05/a28112.html#a4b67c348685a8094668e4ed2f0c78446", null ]
+    [ "Id", "d1/d05/a28112.html#a6943bf760d15b3f8af4109d131652d72", null ],
+    [ "MapId", "d1/d05/a28112.html#ab0cccd760636a3b42af693d6c483bed9", null ],
+    [ "X", "d1/d05/a28112.html#a91183890254546efeb3162173cc60dad", null ],
+    [ "Y", "d1/d05/a28112.html#a19ab4d026b45d74f006479641afbc4d3", null ],
+    [ "Z", "d1/d05/a28112.html#aaa23c59f20fc96aec148b82516f30036", null ]
 ];

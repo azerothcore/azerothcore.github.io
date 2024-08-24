@@ -1,10 +1,6 @@
 var a14836 =
 [
-    [ "npc_tarethaAI", "d9/d56/a14836.html#ad403cdcdc2648bb23687e3a3a7bdbb03", null ],
-    [ "AttackStart", "d9/d56/a14836.html#a09d91ea8e5923ebc3c0ad01f09f93408", null ],
-    [ "DoAction", "d9/d56/a14836.html#adbb40db0b70532a20731cf5039e44d0b", null ],
-    [ "MoveInLineOfSight", "d9/d56/a14836.html#afa0427372e43316851018bf78274707f", null ],
-    [ "Reset", "d9/d56/a14836.html#ae4d9f3d5751e8a8e0468a80d46f4a4c4", null ],
-    [ "WaypointReached", "d9/d56/a14836.html#a6946bc02ec686c8af943c9e913c8aee6", null ],
-    [ "instance", "d9/d56/a14836.html#a3c0f4a61cf5b8da6b885ef7bf9813205", null ]
+    [ "go_ossirian_crystalAI", "d6/df4/a14840.html", "d6/df4/a14840" ],
+    [ "go_ossirian_crystal", "d9/d56/a14836.html#a783f0f0570ee0f667920e29613b565b2", null ],
+    [ "GetAI", "d9/d56/a14836.html#a2f7b12eddc6504917614913e347ec0a0", null ]
 ];

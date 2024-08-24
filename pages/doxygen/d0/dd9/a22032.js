@@ -1,6 +1,7 @@
 var a22032 =
 [
-    [ "npc_xt002_pummellerAI", "d7/dbe/a22036.html", "d7/dbe/a22036" ],
-    [ "npc_xt002_pummeller", "d0/dd9/a22032.html#af620e31a231ca8fb812324521bad4673", null ],
-    [ "GetAI", "d0/dd9/a22032.html#a9ec4e452a3763c3d03e581a17e5d7efe", null ]
+    [ "HandleDummy", "d0/dd9/a22032.html#abfb58e49821e6a563940e8ba518db850", null ],
+    [ "PrepareSpellScript", "d0/dd9/a22032.html#a61ca2f71b0fa323a54f716415b25b75e", null ],
+    [ "Register", "d0/dd9/a22032.html#a7a2cc833ae8d079b821caabf55b6f0e5", null ],
+    [ "Validate", "d0/dd9/a22032.html#a21daeadffbfd28621d897dfe67dd11a8", null ]
 ];

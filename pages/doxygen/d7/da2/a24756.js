@@ -1,6 +1,6 @@
 var a24756 =
 [
-    [ "boss_high_nethermancer_zerevorAI", "d1/dce/a24760.html", "d1/dce/a24760" ],
-    [ "boss_high_nethermancer_zerevor", "d7/da2/a24756.html#adf5392fef4baa09e55d0a95eae6fcbea", null ],
-    [ "GetAI", "d7/da2/a24756.html#abb9531ea5103a5dee62fa83e3a4e5a44", null ]
+    [ "CheckProc", "d7/da2/a24756.html#a67f31710f6a3e843b9d3539710100898", null ],
+    [ "PrepareAuraScript", "d7/da2/a24756.html#ad59ef816bd24f6215cc853386859dbb4", null ],
+    [ "Register", "d7/da2/a24756.html#af499437b1af535488792f44c18ad9bf7", null ]
 ];

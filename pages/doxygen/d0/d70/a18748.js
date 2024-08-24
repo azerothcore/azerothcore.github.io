@@ -1,6 +1,6 @@
 var a18748 =
 [
-    [ "FilterTargets", "d0/d70/a18748.html#a67190c6d0f65184c43e064b001eeb4fb", null ],
-    [ "PrepareSpellScript", "d0/d70/a18748.html#a7e41795dc658c8745fd3956822f3f755", null ],
-    [ "Register", "d0/d70/a18748.html#aef94fefc34e9b5ce6ddece8393aa0945", null ]
+    [ "RespawnEvent", "d0/d70/a18748.html#accc0d5638ff7a493fa116ac2e8f2e58b", null ],
+    [ "Execute", "d0/d70/a18748.html#a2e58f4e472fb72cf5401f11be6e5e136", null ],
+    [ "_owner", "d0/d70/a18748.html#adb0835b4a2e7a2795bb81f0a1e3c911a", null ]
 ];

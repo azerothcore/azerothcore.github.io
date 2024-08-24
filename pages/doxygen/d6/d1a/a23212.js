@@ -1,6 +1,6 @@
 var a23212 =
 [
-    [ "npc_hourglass_of_eternityAI", "d4/d76/a23216.html", "d4/d76/a23216" ],
-    [ "npc_hourglass_of_eternity", "d6/d1a/a23212.html#a40500ff582ead06bd646be86baad7d35", null ],
-    [ "GetAI", "d6/d1a/a23212.html#a6cdec424e78e5c9decac73d091eec0ed", null ]
+    [ "HandleEffectRemove", "d6/d1a/a23212.html#a4000209ccbcbc62a51db3e7b672ea69d", null ],
+    [ "PrepareAuraScript", "d6/d1a/a23212.html#adc6f982b0e3cc56039746f425cb09113", null ],
+    [ "Register", "d6/d1a/a23212.html#a5ceecc2f9a9664755b5e492fda54a560", null ]
 ];

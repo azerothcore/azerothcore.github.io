@@ -1,6 +1,6 @@
 var a26752 =
 [
-    [ "CheckTargets", "de/d94/a26752.html#abb6ffb41731b05b868f82498b373d8b9", null ],
-    [ "PrepareSpellScript", "de/d94/a26752.html#a4ce2790448bd39c19daf8caae7ef5a9d", null ],
-    [ "Register", "de/d94/a26752.html#aeefc7910c2960dbf3a49da6ed3c15523", null ]
+    [ "HandleAfterHit", "de/d94/a26752.html#a177bcf10d6b8fa586ff0cac3834367f9", null ],
+    [ "PrepareSpellScript", "de/d94/a26752.html#ac16ef2ff92440deab6c69f4824bdd619", null ],
+    [ "Register", "de/d94/a26752.html#a46fe3d7ebd663d1cb27aa473a56e81eb", null ]
 ];

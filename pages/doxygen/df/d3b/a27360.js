@@ -1,6 +1,7 @@
 var a27360 =
 [
-    [ "CheckRequirement", "df/d3b/a27360.html#adb3212ff52b5ad9ae2ce824dd1cf018a", null ],
-    [ "PrepareSpellScript", "df/d3b/a27360.html#aebb88f5ea803a590a099e4e6427d8276", null ],
-    [ "Register", "df/d3b/a27360.html#a18406f867561f9baf5a4cee8ce8ea59a", null ]
+    [ "npc_prof_leather", "df/d3b/a27360.html#a4a96f0c41a2a75ed26f52b1b0377c800", null ],
+    [ "HasLeatherSpecialty", "df/d3b/a27360.html#aefbf75b4109f8013335f36cd2d6e84de", null ],
+    [ "OnGossipHello", "df/d3b/a27360.html#a1a0dc1574c814af5e4f992c7fb199215", null ],
+    [ "OnGossipSelect", "df/d3b/a27360.html#afdf3a42c20903efd7f45ab0042f79de0", null ]
 ];

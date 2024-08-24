@@ -1,12 +1,7 @@
 var a17880 =
 [
-    [ "npc_high_overlord_saurfangAI", "d0/dfa/a17880.html#a5c31259d9eb26e09d2b645d826e75328", null ],
-    [ "DoAction", "d0/dfa/a17880.html#a4a372a14c960c48c51a1c8e34ebffc53", null ],
-    [ "MovementInform", "d0/dfa/a17880.html#a6a46f99ffb67a699ef9adb2a1afcbe13", null ],
-    [ "Reset", "d0/dfa/a17880.html#a28899c61f9b4d3612535d1a01dc05f4a", null ],
-    [ "SpellHit", "d0/dfa/a17880.html#a6399e9c9ecdb8c01fbd2bcd1b081811f", null ],
-    [ "UpdateAI", "d0/dfa/a17880.html#a92124e7490a066bf63836397a3bdc71b", null ],
-    [ "_events", "d0/dfa/a17880.html#a12bbe13cf8fd1eda0cb8aa75ecafddc4", null ],
-    [ "_guardList", "d0/dfa/a17880.html#a1d8ccb93c5c8d13767fa8a1429adb262", null ],
-    [ "_instance", "d0/dfa/a17880.html#a4181022e52fc10e2d5d98dcffe9ced62", null ]
+    [ "IceTombSummonEvent", "d0/dfa/a17880.html#a2ead0e5f6eb0c32f5c11f38e667b65d3", null ],
+    [ "Execute", "d0/dfa/a17880.html#aa708b67e60ba0b4fe2334c43aaaca5c7", null ],
+    [ "_owner", "d0/dfa/a17880.html#a1b95617b511dfa7868c59dbdf7e6c4c7", null ],
+    [ "_sindragosaGUID", "d0/dfa/a17880.html#abe61867b29cd4fe3d02268f18b3618ee", null ]
 ];

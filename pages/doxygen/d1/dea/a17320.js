@@ -1,6 +1,6 @@
 var a17320 =
 [
-    [ "boss_ickAI", "d6/d28/a17324.html", "d6/d28/a17324" ],
-    [ "boss_ick", "d1/dea/a17320.html#af97d7f96bc48ba245e28c18614b9369e", null ],
-    [ "GetAI", "d1/dea/a17320.html#a355285766712a31b704c23fe85d19e5f", null ]
+    [ "ModAuraValue", "d1/dea/a17320.html#a359453c6253beb6f729209c6d3d79af7", null ],
+    [ "PrepareSpellScript", "d1/dea/a17320.html#a4f916abef69782be10cc6be9ba0124f5", null ],
+    [ "Register", "d1/dea/a17320.html#a4a387df07c88144288c4327ce86b730a", null ]
 ];

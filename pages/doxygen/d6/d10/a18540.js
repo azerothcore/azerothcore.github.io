@@ -1,6 +1,6 @@
 var a18540 =
 [
-    [ "HandleScript", "d6/d10/a18540.html#aafb60666ec1789faa1cc3094d61115fd", null ],
-    [ "PrepareSpellScript", "d6/d10/a18540.html#a22a3a44be2abb772a092e7ae5cee6eca", null ],
-    [ "Register", "d6/d10/a18540.html#ada32e7d992484f5263b674a7f82f8257", null ]
+    [ "npc_arthas_teleport_visualAI", "d0/d9d/a18544.html", "d0/d9d/a18544" ],
+    [ "npc_arthas_teleport_visual", "d6/d10/a18540.html#a62d2caed6b12355f6d7aeceabba2ddaf", null ],
+    [ "GetAI", "d6/d10/a18540.html#a393d5ef960b9ee0cf8feeeeb5d81045d", null ]
 ];

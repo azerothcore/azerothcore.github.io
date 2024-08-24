@@ -1,8 +1,6 @@
 var a21088 =
 [
-    [ "npc_brann_radioAI", "df/d4b/a21088.html#a329ca0310efe109f7fb364045f6eccbb", null ],
-    [ "MoveInLineOfSight", "df/d4b/a21088.html#ad119431edd6f632b4c44fc4e8708d375", null ],
-    [ "Reset", "df/d4b/a21088.html#a89183942dcb38f48de1867bfbce15721", null ],
-    [ "_helpLock", "df/d4b/a21088.html#ae927b6c8143cfb029ab6574d10dde60e", null ],
-    [ "_lock", "df/d4b/a21088.html#a421cfd2b8b149a0f3ea5bc2262ba6bac", null ]
+    [ "boss_skadi_graufAI", "d7/dba/a21092.html", "d7/dba/a21092" ],
+    [ "boss_skadi_grauf", "df/d4b/a21088.html#a571db2d2ae21f38b7051319da0f042f6", null ],
+    [ "GetAI", "df/d4b/a21088.html#a9b637a93a572d21691b81b80ec45206d", null ]
 ];

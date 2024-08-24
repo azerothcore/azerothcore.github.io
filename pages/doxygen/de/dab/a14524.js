@@ -1,6 +1,27 @@
 var a14524 =
 [
-    [ "HandleHit", "de/dab/a14524.html#ab046ceb66a638c40da5efb03ee56f69c", null ],
-    [ "PrepareSpellScript", "de/dab/a14524.html#afb3e05b08f96b3a4264cbf92e27ca730", null ],
-    [ "Register", "de/dab/a14524.html#a023a8e12d12b806ad58450457df4e71c", null ]
+    [ "instance_mount_hyjal_InstanceMapScript", "de/dab/a14524.html#ab824542973eede5a3a3f7dc995e8cc28", null ],
+    [ "GetData", "de/dab/a14524.html#ae30c50dfcced56db0c3f42c4deb2bef9", null ],
+    [ "Initialize", "de/dab/a14524.html#ac3fffb02ed557b60e22852bdd79cdc9a", null ],
+    [ "OnCreatureCreate", "de/dab/a14524.html#a28b8c1e3332dd9ccce42fd3fcb262e2f", null ],
+    [ "OnGameObjectCreate", "de/dab/a14524.html#a2048cde72727c5d6b493d67b56ed91f8", null ],
+    [ "OnPlayerInWaterStateUpdate", "de/dab/a14524.html#ac07e909721d1416608ea01e8819e3b00", null ],
+    [ "OnUnitDeath", "de/dab/a14524.html#a1626532eb4df7ae481032fb9991c5d8f", null ],
+    [ "ScheduleWaves", "de/dab/a14524.html#afdcceea6e0459b9c5c1e4098227d20dd", null ],
+    [ "SetData", "de/dab/a14524.html#a87fd932691795e2d3fb9c8e6de12a20f", null ],
+    [ "Update", "de/dab/a14524.html#a4f3824bd9afad19cbffa05c62fdf517b", null ],
+    [ "_ancientGemAlliance", "de/dab/a14524.html#a1dc1a47ecf057b4d08e9827c5a859213", null ],
+    [ "_ancientGemHorde", "de/dab/a14524.html#a3cd0132363583f8ab24f37e74743abd8", null ],
+    [ "_baseAlliance", "de/dab/a14524.html#add9c97be76cdb85bb0cfd24bdf5c99e9", null ],
+    [ "_baseHorde", "de/dab/a14524.html#a74d576ec11f4b6027b42ed503e54d3e3", null ],
+    [ "_baseNightElf", "de/dab/a14524.html#a4f6a23e1e4c3c406a169908dddc64c00", null ],
+    [ "_bossWave", "de/dab/a14524.html#a57e6038adc5c5bfcf30c79559de8dd1e", null ],
+    [ "_currentWave", "de/dab/a14524.html#a419ef8bcf249e7aac9c8ea11611fb0c1", null ],
+    [ "_encounterNPCs", "de/dab/a14524.html#ae8cdcced3902234317dc419bd04126e0", null ],
+    [ "_infernalTargets", "de/dab/a14524.html#a6d48f27c687dc23bb2e60cae55fd33f4", null ],
+    [ "_retreat", "de/dab/a14524.html#ad9242c9a8e4ea51243b8e526eb82a51b", null ],
+    [ "_roaringFlameAlliance", "de/dab/a14524.html#a9c5f35107d7e4311e7d8f65a6eccfb7a", null ],
+    [ "_roaringFlameHorde", "de/dab/a14524.html#ac4a2ec6b3fb06cfd9b11486e62e076a3", null ],
+    [ "_summonedNPCs", "de/dab/a14524.html#a9bea0d89252e7b6154b2acd67960818a", null ],
+    [ "trash", "de/dab/a14524.html#a2e464c6ca35c53fab15f45381ca06aae", null ]
 ];

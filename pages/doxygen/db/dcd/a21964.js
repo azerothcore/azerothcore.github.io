@@ -1,6 +1,9 @@
 var a21964 =
 [
-    [ "boss_thorim_ancient_rune_giantAI", "d8/d39/a21968.html", "d8/d39/a21968" ],
-    [ "boss_thorim_ancient_rune_giant", "db/dcd/a21964.html#ad87dca7c6058e4b8b1234410644523dd", null ],
-    [ "GetAI", "db/dcd/a21964.html#aa8a0ff1416d5678a5d6bb7bdc36d6617", null ]
+    [ "npc_Apothecary_HanesAI", "db/dcd/a21964.html#a8e209b142a58b3b3c0d84c430a086ade", null ],
+    [ "JustDied", "db/dcd/a21964.html#a4c681936d8e7053ace5cdeeaa1ee5ca9", null ],
+    [ "Reset", "db/dcd/a21964.html#a23d54542e6debf39798c2a2d6e2a255d", null ],
+    [ "UpdateEscortAI", "db/dcd/a21964.html#ab54eb5115b9c41b39f0de0f8f4412ef9", null ],
+    [ "WaypointReached", "db/dcd/a21964.html#a7105ea4c83ddd0fd08c96a0b0ff40bd2", null ],
+    [ "PotTimer", "db/dcd/a21964.html#a252858818b61cf15e2e031ceaaadc6b8", null ]
 ];

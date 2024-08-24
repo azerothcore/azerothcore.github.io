@@ -1,11 +1,7 @@
 var a12112 =
 [
-    [ "npc_netherspite_infernal", "d5/da9/a12112.html#af9837d7a671533523ce323c083c4e847", null ],
-    [ "DamageTaken", "d5/da9/a12112.html#aee9b38f3590e08b16de1789576986a09", null ],
-    [ "JustEngagedWith", "d5/da9/a12112.html#a76d8944ca2d9b2f1aa5b635ce94bacfb", null ],
-    [ "KilledUnit", "d5/da9/a12112.html#a49c37fbebed2951c493962c1a3bd0339", null ],
-    [ "MoveInLineOfSight", "d5/da9/a12112.html#a7ecce97cef0adda03910e87d9fd82f71", null ],
-    [ "SpellHit", "d5/da9/a12112.html#abb6c7d0b5e231e460b069198b16106b7", null ],
-    [ "UpdateAI", "d5/da9/a12112.html#a575040456c0eb4d343e7c0c5f75159b4", null ],
-    [ "_scheduler", "d5/da9/a12112.html#a3cc1b110cb3b67e8bd2f0f14ef0f6921", null ]
+    [ "HandleHit", "d5/da9/a12112.html#a87777dce0e2bf1deba600b3ae7ce6b9c", null ],
+    [ "Load", "d5/da9/a12112.html#ab61b4076aab18c0a6593c234209a2c1d", null ],
+    [ "PrepareSpellScript", "d5/da9/a12112.html#a9fb8d980381264a2ef645f2e620abd21", null ],
+    [ "Register", "d5/da9/a12112.html#a4998015873f0e0ca768c20b0f95fda90", null ]
 ];

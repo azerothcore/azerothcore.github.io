@@ -1,6 +1,7 @@
 var a13980 =
 [
-    [ "OnRemove", "dd/dc7/a13980.html#abc6d916a2bebd7995cbdb4a603d9831a", null ],
-    [ "PrepareAuraScript", "dd/dc7/a13980.html#ac90c6f7806a24f21cac4cbf2a64d0b57", null ],
-    [ "Register", "dd/dc7/a13980.html#a7457949331552492cf6df83737729a08", null ]
+    [ "FilterTargets", "dd/dc7/a13980.html#a00adeba9ac3e631109308b1e4bf8f529", null ],
+    [ "HandleEffect", "dd/dc7/a13980.html#ab6dd7934cc6f10d327e80cd0b6bdfac9", null ],
+    [ "PrepareSpellScript", "dd/dc7/a13980.html#a08127992c96fb02e87e9ade65a5375d5", null ],
+    [ "Register", "dd/dc7/a13980.html#aeaf1955aece958a8e7d7773a33177e5d", null ]
 ];

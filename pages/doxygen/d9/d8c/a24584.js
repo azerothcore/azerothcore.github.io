@@ -1,6 +1,6 @@
 var a24584 =
 [
-    [ "PrepareAuraScript", "d9/d8c/a24584.html#ac8168dc13b599e0459a465c150515e58", null ],
-    [ "Register", "d9/d8c/a24584.html#af9988a25e208e4203a3a4c5498f3c6ff", null ],
-    [ "AuraEffectHandleModes", "d9/d8c/a24584.html#a28d97377305d52b19610760e16b18a92", null ]
+    [ "RaiseDeadCheck", "d9/d8c/a24584.html#abc6439e5b457f2f6e832f504167a392d", null ],
+    [ "operator()", "d9/d8c/a24584.html#a9647e6afd21e7397f05349e66bea4326", null ],
+    [ "_caster", "d9/d8c/a24584.html#a7b1647934c5e64de65d38b9fba2d343a", null ]
 ];

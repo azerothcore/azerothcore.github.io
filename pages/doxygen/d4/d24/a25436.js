@@ -1,6 +1,9 @@
 var a25436 =
 [
-    [ "boss_nazanAI", "dc/da2/a25440.html", "dc/da2/a25440" ],
-    [ "boss_nazan", "d4/d24/a25436.html#a3a97c640ec262abf69f4cedd80bf2a22", null ],
-    [ "GetAI", "d4/d24/a25436.html#acb70ec06b85d0010ca4f0e86892f4153", null ]
+    [ "getMountSpellId", "d4/d24/a25436.html#afe306ed6057050baf342ee717723764d", null ],
+    [ "OnApply", "d4/d24/a25436.html#aa8bee986d413be60d00ac1d2111ef719", null ],
+    [ "OnRemove", "d4/d24/a25436.html#a162d466a1dcd2cb710abf12c06f7c2de", null ],
+    [ "PrepareAuraScript", "d4/d24/a25436.html#a7070cc7aeec4a88fbde960cebf1aef56", null ],
+    [ "Register", "d4/d24/a25436.html#a481e5295da3d789d9b3c1ed30fdaf0bd", null ],
+    [ "Validate", "d4/d24/a25436.html#a6868f6e88c9179efd921b266c83f6daf", null ]
 ];

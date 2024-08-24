@@ -1,6 +1,6 @@
 var a16960 =
 [
-    [ "spell_tharon_ja_dummy_AuraScript", "db/d3d/a16964.html", "db/d3d/a16964" ],
-    [ "spell_tharon_ja_dummy", "d4/da9/a16960.html#a74fce5282516f975df26dea18230b783", null ],
-    [ "GetAuraScript", "d4/da9/a16960.html#af92a6a5b78d71cb286fdda6a1f3d9e78", null ]
+    [ "npc_pos_freed_slaveAI", "d4/da9/a16960.html#ad5728e427f9f4a65cea13ec2c5a01453", null ],
+    [ "CanAIAttack", "d4/da9/a16960.html#a76818ee5fcfcc5678fa9d0957a424d9b", null ],
+    [ "EnterEvadeMode", "d4/da9/a16960.html#a234135e6bea0d91611fbdbae4dec2ea1", null ]
 ];

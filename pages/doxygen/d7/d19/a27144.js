@@ -1,7 +1,6 @@
 var a27144 =
 [
-    [ "HandleEffectApply", "d7/d19/a27144.html#a96b84a256ace08dd34cc4858031158fc", null ],
-    [ "HandleEffectRemove", "d7/d19/a27144.html#a7638a66d969802e43c5123fd0c31fefe", null ],
-    [ "PrepareAuraScript", "d7/d19/a27144.html#a3e7ab7b75daf547161a3ffce3e05384b", null ],
-    [ "Register", "d7/d19/a27144.html#a3667bd30f48fe6a0262fbd0ec6284996", null ]
+    [ "go_heatAI", "d7/d19/a27144.html#a40e4ec3294126aaf3fc6875aa8b39f0a", null ],
+    [ "UpdateAI", "d7/d19/a27144.html#a2332206ee47b2cea9e4707d16ea79325", null ],
+    [ "timer", "d7/d19/a27144.html#a4f01692c9f39e2a40d2d5f9c22e0ac43", null ]
 ];

@@ -1,6 +1,8 @@
 var a22264 =
 [
-    [ "FilterTargets", "d9/d11/a22264.html#a42fcd2c37c7f4d2258b4f9ef30e351a0", null ],
-    [ "PrepareSpellScript", "d9/d11/a22264.html#a655e70dcf409e5e59c207934b3e4c3ff", null ],
-    [ "Register", "d9/d11/a22264.html#a99876313e113e3afc2370c7c483b5742", null ]
+    [ "npc_hyldsmeet_protodrakeAI", "d9/d11/a22264.html#a30794392a32b1323fb0a86615b341741", null ],
+    [ "PassengerBoarded", "d9/d11/a22264.html#acb699d519bf79702a34b7d9910fe7c9e", null ],
+    [ "UpdateAI", "d9/d11/a22264.html#afd2168f8dc7328898f5e769c31c6da5a", null ],
+    [ "_accessoryRespawnTimer", "d9/d11/a22264.html#a4c6b4236bf35278d05c4b78f1eda6b75", null ],
+    [ "_vehicleKit", "d9/d11/a22264.html#aba68a138ef44af7d012c8c7dd4c06c6d", null ]
 ];

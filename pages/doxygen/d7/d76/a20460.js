@@ -1,6 +1,8 @@
 var a20460 =
 [
-    [ "instance_oculus_InstanceMapScript", "d0/d55/a20464.html", "d0/d55/a20464" ],
-    [ "instance_oculus", "d7/d76/a20460.html#a404205ea7106531ea57307c40b9589bb", null ],
-    [ "GetInstanceScript", "d7/d76/a20460.html#ae6d28dfd615e79d4308e4384b7c8857f", null ]
+    [ "npc_ulduar_dark_rune_guardianAI", "d7/d76/a20460.html#aedb43124c923621aadecb77511204fc6", null ],
+    [ "CanAIAttack", "d7/d76/a20460.html#af23cb4a19d28f5aa57ba96de95f87c87", null ],
+    [ "Reset", "d7/d76/a20460.html#a4c1f53fbbc6189ca9ee0420bc4198684", null ],
+    [ "UpdateAI", "d7/d76/a20460.html#ad21127654d5511b6b1d9b22cdd77bd08", null ],
+    [ "timer2", "d7/d76/a20460.html#aa66f1aa48cf928ac12751cb3ca2358f3", null ]
 ];

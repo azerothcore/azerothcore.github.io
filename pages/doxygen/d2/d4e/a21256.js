@@ -1,12 +1,14 @@
 var a21256 =
 [
-    [ "boss_freya_elder_stonebarkAI", "d2/d4e/a21256.html#a492329e296aaf29861d76e12e2b94631", null ],
-    [ "DamageTaken", "d2/d4e/a21256.html#af25c675f46f5ca0d0da170f367cc8bdc", null ],
-    [ "JustDied", "d2/d4e/a21256.html#a8dcdf4a1c8df10fc8ca419de924fe136", null ],
-    [ "JustEngagedWith", "d2/d4e/a21256.html#a77a231b75bbbbb56638e1e5535827150", null ],
-    [ "KilledUnit", "d2/d4e/a21256.html#ad1ce26306c2ea2102183b0679d46efd3", null ],
-    [ "Reset", "d2/d4e/a21256.html#a0d17571be8905c4c33ed4591e963d680", null ],
-    [ "UpdateAI", "d2/d4e/a21256.html#acd21050c265f6703060f95f2e3c725f3", null ],
-    [ "_chargesCount", "d2/d4e/a21256.html#a294714a547bbc7a7364c7477bdc0422c", null ],
-    [ "events", "d2/d4e/a21256.html#a07bcbf839c3b0b3924ec1915b47af0f2", null ]
+    [ "boss_cyanigosaAI", "d2/d4e/a21256.html#a4b24132889b17b3e682a15009a1ae910", null ],
+    [ "EnterEvadeMode", "d2/d4e/a21256.html#a8da6ddc9b1c9f7b145920205046ce095", null ],
+    [ "JustDied", "d2/d4e/a21256.html#a805117db567dd3d529a1c862bc24179c", null ],
+    [ "JustEngagedWith", "d2/d4e/a21256.html#a4ef85c0178120f14f2a7b29efb7a9abf", null ],
+    [ "KilledUnit", "d2/d4e/a21256.html#a5e69b631ab6844160b1e53fd1d731bae", null ],
+    [ "MoveInLineOfSight", "d2/d4e/a21256.html#adb699a22dbf1c14cb80f8fdcca9c6f82", null ],
+    [ "Reset", "d2/d4e/a21256.html#a7b0fdaa4f2603db8fd2d0c1ee6975817", null ],
+    [ "SpellHitTarget", "d2/d4e/a21256.html#ae8218b69e6dc7489e65d891048d84da1", null ],
+    [ "UpdateAI", "d2/d4e/a21256.html#ae69afba77636c962045160b610177bd9", null ],
+    [ "events", "d2/d4e/a21256.html#ab5fe766d46e9445b9e7cfc605073983f", null ],
+    [ "pInstance", "d2/d4e/a21256.html#a075f4a592202dc73d9b5d63ca5178093", null ]
 ];

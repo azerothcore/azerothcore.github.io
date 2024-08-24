@@ -1,6 +1,8 @@
 var a16564 =
 [
-    [ "spell_pursuing_spikesAuraScript", "d3/d38/a16568.html", "d3/d38/a16568" ],
-    [ "spell_pursuing_spikes", "db/d22/a16564.html#a8885f224489fb87a4468b8fb1d0d5ef9", null ],
-    [ "GetAuraScript", "db/d22/a16564.html#ae95f7398f9185a46dd50445c5a44d9bb", null ]
+    [ "HandleEffectApply", "db/d22/a16564.html#a92b98d9b9be98c330b6efbe34dae235b", null ],
+    [ "HandleEffectRemove", "db/d22/a16564.html#a04504220319ec562b1b6691f471c1b8d", null ],
+    [ "PrepareAuraScript", "db/d22/a16564.html#a10fd29809373bcfaf38fd587fcdd1dee", null ],
+    [ "Register", "db/d22/a16564.html#a9160c940913e4829bd0a6fe269c3b5d3", null ],
+    [ "Validate", "db/d22/a16564.html#a7f7750933e122e8c672b6b93f4801cd7", null ]
 ];

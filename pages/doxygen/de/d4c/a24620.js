@@ -1,6 +1,7 @@
 var a24620 =
 [
-    [ "npc_akamaAI", "d8/da8/a24624.html", "d8/da8/a24624" ],
-    [ "npc_akama_shade", "de/d4c/a24620.html#ad18cef990a3a9c0c13cf6e1be2b2708f", null ],
-    [ "GetAI", "de/d4c/a24620.html#ae21de10a0f5b0a8b7354f132a638a532", null ]
+    [ "CheckProc", "de/d4c/a24620.html#a5a74f30b941460c8347dca81dcee1bf6", null ],
+    [ "HandleProc", "de/d4c/a24620.html#a15592382213762145eb30d85bfcbd60a", null ],
+    [ "PrepareAuraScript", "de/d4c/a24620.html#a82201b03b7b642e7898889412a617712", null ],
+    [ "Register", "de/d4c/a24620.html#aba014f9b0000d19cabbc5a9c763b934b", null ]
 ];

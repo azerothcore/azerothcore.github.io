@@ -1,5 +1,6 @@
 var a15944 =
 [
-    [ "go_prince_taldaram_sphere", "d4/dfe/a15944.html#aae7054145e5a2034029f9130f81bc36c", null ],
-    [ "OnGossipHello", "d4/dfe/a15944.html#a3385bf5995919c64f363f9083c9f4627", null ]
+    [ "HandleForceCast", "d4/dfe/a15944.html#a975b69649aba9de341f4e52c82a3c111", null ],
+    [ "PrepareSpellScript", "d4/dfe/a15944.html#a2dde8402cc4e8552faf3d8a1f4c6e60e", null ],
+    [ "Register", "d4/dfe/a15944.html#a794a59e5fd3bda75f30d559f422895b5", null ]
 ];

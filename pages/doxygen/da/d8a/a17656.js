@@ -1,6 +1,6 @@
 var a17656 =
 [
-    [ "boss_prince_valanarAI", "d6/d17/a17660.html", "d6/d17/a17660" ],
-    [ "boss_prince_valanar_icc", "da/d8a/a17656.html#a7bfa4e13fa5cc19313c7ce9877d1c631", null ],
-    [ "GetAI", "da/d8a/a17656.html#a2f7f58d57f5ed107d1f972d061105fd4", null ]
+    [ "npc_bone_spikeAI", "d6/d17/a17660.html", "d6/d17/a17660" ],
+    [ "npc_bone_spike", "da/d8a/a17656.html#ac93d7a45eaeae8d7adf2a3b313825aed", null ],
+    [ "GetAI", "da/d8a/a17656.html#a887a9156f550ca55047fa501e1709d95", null ]
 ];

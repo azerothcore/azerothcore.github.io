@@ -1,19 +1,11 @@
 var a07196 =
 [
-    [ "base", "d3/ddf/a07196.html#a72ad0de027b5ed860a45d5aa64c62468", null ],
-    [ "first_type", "d3/ddf/a07196.html#a13738915d3dbe4912ecfe9bf84048da0", null ],
-    [ "get", "d3/ddf/a07196.html#a193636c84817e3ba5d58578127c2e812", null ],
-    [ "get", "d3/ddf/a07196.html#a193636c84817e3ba5d58578127c2e812", null ],
-    [ "get", "d3/ddf/a07196.html#ae32c95f7f1927bb4a572d06d014f1080", null ],
-    [ "get", "d3/ddf/a07196.html#ae32c95f7f1927bb4a572d06d014f1080", null ],
-    [ "holds_alternative", "d3/ddf/a07196.html#a85b3bbe6f4e5440fa26765d822541101", null ],
-    [ "operator std::enable_if_t< C &&!std::is_same_v< first_type, size_t > &&std::is_convertible_v< first_type, size_t >, size_t >", "d3/ddf/a07196.html#a3ad42ccb2bd4c870d77f97b7c2eb3a02", null ],
-    [ "operator std::enable_if_t< C, first_type >", "d3/ddf/a07196.html#a64e705dc1f9ead7c770f427ce66ef3c2", null ],
-    [ "operator!", "d3/ddf/a07196.html#a2642d31f48ea8853226464df0f994e25", null ],
-    [ "operator*", "d3/ddf/a07196.html#a8f32040dec3ce29beb0fa2d8778160cc", null ],
-    [ "operator=", "d3/ddf/a07196.html#a04f837c5b68ec10bd85153b283c65cb1", null ],
-    [ "visit", "d3/ddf/a07196.html#a0cc1d2f145347d4a6bb70b981f6da598", null ],
-    [ "visit", "d3/ddf/a07196.html#aca506a5119986228fc737f217186b47c", null ],
-    [ "operator<<", "d3/ddf/a07196.html#a39009e4358c42d0b9f03c7101ee1d2c6", null ],
-    [ "have_operators", "d3/ddf/a07196.html#a31be0827a24327470faa92595eda5996", null ]
+    [ "BattlegroundWGScore", "d3/ddf/a07196.html#a43b7933c5e217376e5bb10e9b5bb208b", null ],
+    [ "BuildObjectivesBlock", "d3/ddf/a07196.html#a804e56dbd666336d961cce2b0e4d6452", null ],
+    [ "GetAttr1", "d3/ddf/a07196.html#aab49f39d88989b153f1eb979fbbfaeb3", null ],
+    [ "GetAttr2", "d3/ddf/a07196.html#a191e205e08ef15cc36dabedc32614fd2", null ],
+    [ "UpdateScore", "d3/ddf/a07196.html#aa560d7f5f13dd235d43a9e3571090055", null ],
+    [ "BattlegroundWS", "d3/ddf/a07196.html#a4285b67c5d8593dce759422a4eb78c77", null ],
+    [ "FlagCaptures", "d3/ddf/a07196.html#a23ff00f10d07c1a601e9e1d0eb05b1da", null ],
+    [ "FlagReturns", "d3/ddf/a07196.html#ab400c9fb692ff157eb4809f0536c05f7", null ]
 ];

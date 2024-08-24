@@ -1,6 +1,6 @@
 var a17716 =
 [
-    [ "HandleScript", "dd/d5f/a17716.html#aeb2e64c1615e6c247ea5e5c2470af26a", null ],
-    [ "PrepareSpellScript", "dd/d5f/a17716.html#aa929b29db99096a20ba28e6db035506a", null ],
-    [ "Register", "dd/d5f/a17716.html#a1fc0bce3eed1f7b3c7ad2c41f9010998", null ]
+    [ "npc_gas_cloudAI", "dc/de4/a17720.html", "dc/de4/a17720" ],
+    [ "npc_gas_cloud", "dd/d5f/a17716.html#a99c887cb8a5cc87bbfca026447368b8e", null ],
+    [ "GetAI", "dd/d5f/a17716.html#a1c76a148f9c1acec473f102b6a24e3bb", null ]
 ];

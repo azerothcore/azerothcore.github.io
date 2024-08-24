@@ -1,5 +1,20 @@
 var a21684 =
 [
-    [ "achievement_kologarn_rubble_and_roll", "d0/ddb/a21684.html#ae36bbab8d82f10ad120a1e7564a13961", null ],
-    [ "OnCheck", "d0/ddb/a21684.html#acb0f72ebdf1917a3331b3fc0f9aa4300", null ]
+    [ "npc_hourglass_of_eternityAI", "d0/ddb/a21684.html#a51c68ff78150b7351dc34edf7a51e1a7", null ],
+    [ "GetCopy", "d0/ddb/a21684.html#addacaa0e3ba686d9cb343689c56fc4b5", null ],
+    [ "GetPlayer", "d0/ddb/a21684.html#a1216634009d635f5a1658cae62f92133", null ],
+    [ "HideNozdormu", "d0/ddb/a21684.html#acbcf4d9602bf87b2c4c4f898c8a6f6b0", null ],
+    [ "InitializeAI", "d0/ddb/a21684.html#af592003f019ace3e78ff7a19ada3e8f6", null ],
+    [ "IsFuture", "d0/ddb/a21684.html#a19527a426055c689a36f5b02e2978307", null ],
+    [ "randEntry", "d0/ddb/a21684.html#af581d3a7697fdb0f257d72568c342df8", null ],
+    [ "randomWhisper", "d0/ddb/a21684.html#a235353e41ee463f43f3d18a7b4f5a75d", null ],
+    [ "ShowNozdormu", "d0/ddb/a21684.html#a483e2a5a89b3dc4cfd51bb78732a6af2", null ],
+    [ "UpdateAI", "d0/ddb/a21684.html#a66a80c2c36a5fa7a89b30a7c872007d8", null ],
+    [ "copyGUID", "d0/ddb/a21684.html#add68894964681b8345c3751510f7e48c", null ],
+    [ "count", "d0/ddb/a21684.html#a126b67aacdfd0d96ad443944e9244f3b", null ],
+    [ "events", "d0/ddb/a21684.html#ae2d5690e0dc5205d68bd1ddb1b0ca3a9", null ],
+    [ "lastRandomTalk", "d0/ddb/a21684.html#aa00ff56a5a906e97ddf4d10d300c85c4", null ],
+    [ "pGUID", "d0/ddb/a21684.html#a6ad97b2c11057f936dce4aad04894177", null ],
+    [ "phase", "d0/ddb/a21684.html#ad7d3755e7b13c4b37d56f14746acc1e1", null ],
+    [ "randomTalk", "d0/ddb/a21684.html#a19042362c0dc7da80b81d284d2fa7e4b", null ]
 ];

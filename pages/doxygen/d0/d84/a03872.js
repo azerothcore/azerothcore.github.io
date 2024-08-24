@@ -1,8 +1,8 @@
 var a03872 =
 [
-    [ "ActiveBoatStruct", "dd/ddb/a21127.html", "dd/ddb/a21127" ],
-    [ "boss_ymiron", "dc/dd5/a21131.html", "dc/dd5/a21131" ],
-    [ "boss_ymiron::boss_ymironAI", "df/d95/a21135.html", "df/d95/a21135" ],
+    [ "ActiveBoatStruct", "de/d5d/a21124.html", "de/d5d/a21124" ],
+    [ "boss_ymiron", "d9/d51/a21128.html", "d9/d51/a21128" ],
+    [ "boss_ymiron::boss_ymironAI", "d7/dd9/a21132.html", "d7/dd9/a21132" ],
     [ "Events", "d0/d84/a03872.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d4/d61/a02588.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d4/d61/a02588.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

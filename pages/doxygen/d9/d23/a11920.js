@@ -1,8 +1,7 @@
 var a11920 =
 [
-    [ "FilterTargets", "d9/d23/a11920.html#a2ebd519cb905cd1f6546ac4680335085", null ],
-    [ "HandleScript", "d9/d23/a11920.html#acf820219de7012cabb45656967463e35", null ],
-    [ "PrepareSpellScript", "d9/d23/a11920.html#aad7ca25676122ba052458099c652a7d2", null ],
-    [ "Register", "d9/d23/a11920.html#a145d8e31845a65c6f2458e31b63e3f0a", null ],
-    [ "Validate", "d9/d23/a11920.html#aee2ef7c78afa6f409eb7f8816383e398", null ]
+    [ "ClassCallSelector", "d9/d23/a11920.html#a223895c97121b0727aac258c12c89e0b", null ],
+    [ "operator()", "d9/d23/a11920.html#ab0d2ab1d94d72c6a202ed0cb2900dd2e", null ],
+    [ "_me", "d9/d23/a11920.html#a5347a24609a21ae0a342682104b1dc14", null ],
+    [ "_targetClass", "d9/d23/a11920.html#a7ce861956ec8d216d2f8cba82c69ea50", null ]
 ];

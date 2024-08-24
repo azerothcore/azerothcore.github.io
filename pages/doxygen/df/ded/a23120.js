@@ -1,6 +1,6 @@
 var a23120 =
 [
-    [ "npc_counselor_talbotAI", "d1/d37/a23124.html", "d1/d37/a23124" ],
-    [ "npc_counselor_talbot", "df/ded/a23120.html#a9223380bb78afeda617482bea0a3110c", null ],
-    [ "GetAI", "df/ded/a23120.html#a3debd13352146a247d635042ecbfa155", null ]
+    [ "HandleScriptEffect", "df/ded/a23120.html#a62ed9bff154c5aab74e044f8f9982263", null ],
+    [ "PrepareSpellScript", "df/ded/a23120.html#a0e87265cf22ef8b4e302b8e216123395", null ],
+    [ "Register", "df/ded/a23120.html#a0d722447d91991462245e8b392d20e10", null ]
 ];

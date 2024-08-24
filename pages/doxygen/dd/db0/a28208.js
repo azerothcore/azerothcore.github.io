@@ -1,8 +1,5 @@
 var a28208 =
 [
-    [ "HandleApplyEffect", "dd/db0/a28208.html#a50102ae92f44fd7c2bd9afc3fec5a291", null ],
-    [ "Load", "dd/db0/a28208.html#ab6ba9d68b968ae41ee9c9869df686f02", null ],
-    [ "PrepareAuraScript", "dd/db0/a28208.html#a6e212284f72320356cfa2f0c2a59999d", null ],
-    [ "Register", "dd/db0/a28208.html#afcdd6cc19b59b5e6aa0cfdb9189edc99", null ],
-    [ "Validate", "dd/db0/a28208.html#a985a52f71371443454d6dd36f7fe83b2", null ]
+    [ "CastTime", "dd/db0/a28208.html#af0bf895b1a5d61974cb63230b786c55e", null ],
+    [ "ID", "dd/db0/a28208.html#a41b1059fc4059bd198925861a9414497", null ]
 ];

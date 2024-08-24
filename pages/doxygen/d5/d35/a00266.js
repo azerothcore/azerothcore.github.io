@@ -1,4 +1,4 @@
 var a00266 =
 [
-    [ "Acore::Encoding::Base32", "de/d1b/a05203.html", "de/d1b/a05203" ]
+    [ "Acore::Encoding::Base32", "d6/d6a/a05200.html", "d6/d6a/a05200" ]
 ];

@@ -1,6 +1,6 @@
 var a11720 =
 [
-    [ "boss_vaelAI", "d4/d3f/a11724.html", "d4/d3f/a11724" ],
-    [ "boss_vaelastrasz", "da/d4f/a11720.html#a0b51f3b50cde4907bd9064e8bf51c005", null ],
-    [ "GetAI", "da/d4f/a11720.html#a42dde198f5fc0ab2e7ca28ac32c42b7e", null ]
+    [ "boss_overlordwyrmthalakAI", "d4/d3f/a11724.html", "d4/d3f/a11724" ],
+    [ "boss_overlord_wyrmthalak", "da/d4f/a11720.html#a2af6edf776c189d43cb82cc35bb838fe", null ],
+    [ "GetAI", "da/d4f/a11720.html#a56de538f25cbabc9346b987dbfe680a1", null ]
 ];

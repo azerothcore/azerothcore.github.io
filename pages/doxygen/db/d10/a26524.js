@@ -1,8 +1,6 @@
 var a26524 =
 [
-    [ "npc_pet_gen_valkyr_guardian", "db/d10/a26524.html#a546f0b0b4273de8216e9f688c2d68209", null ],
-    [ "InitializeAI", "db/d10/a26524.html#ac32c8bb1e1014015a0ab92417bbc78a9", null ],
-    [ "OwnerAttacked", "db/d10/a26524.html#a7f0bcedd78d88cdc802ba66c0ff7d927", null ],
-    [ "UpdateAI", "db/d10/a26524.html#a9a5a233763365c6cca5618459a23a816", null ],
-    [ "targetCheck", "db/d10/a26524.html#aa530b6b6415c85cd76f44d625329c2fb", null ]
+    [ "CheckCast", "db/d10/a26524.html#a97f479cccecc6f37c75b47122b47e333", null ],
+    [ "PrepareSpellScript", "db/d10/a26524.html#a7033ad7dbdab5eec532ea6f860f97427", null ],
+    [ "Register", "db/d10/a26524.html#a4c8f84e1a2cc89064ec5963321fecce7", null ]
 ];

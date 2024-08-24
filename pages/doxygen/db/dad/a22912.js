@@ -1,8 +1,6 @@
 var a22912 =
 [
-    [ "npc_azure_raiderAI", "db/dad/a22912.html#a6928428a9dc1ed483a682c8f2a281ebf", null ],
-    [ "Reset", "db/dad/a22912.html#a80d9e586e5c03d19b6b9f0e0f7607b20", null ],
-    [ "UpdateAI", "db/dad/a22912.html#a2e9833d0d25fd8c442f7ab279de6a40a", null ],
-    [ "uiConcussionBlowTimer", "db/dad/a22912.html#a4e7dfb8d4991bf7ad3d0eeb72dff770b", null ],
-    [ "uiMagicReflectionTimer", "db/dad/a22912.html#acb262ab506ea58201abfe2057525c548", null ]
+    [ "HandleSchoolDamage", "db/dad/a22912.html#ab105ff1efd0fe20585ac3dc6c60f81a2", null ],
+    [ "PrepareSpellScript", "db/dad/a22912.html#a0296aa3d00d0d12e213d95b8520c50dc", null ],
+    [ "Register", "db/dad/a22912.html#a4cd7135ff9e4ef605635f1eccc01ba65", null ]
 ];

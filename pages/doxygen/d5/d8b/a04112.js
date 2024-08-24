@@ -1,9 +1,9 @@
 var a04112 =
 [
-    [ "boss_hydross_the_unstable", "d7/ddc/a23091.html", "d7/ddc/a23091" ],
-    [ "spell_hydross_cleansing_field_aura", "df/db0/a23095.html", "df/db0/a23095" ],
-    [ "spell_hydross_cleansing_field_command", "d6/d90/a23099.html", "d6/d90/a23099" ],
-    [ "spell_hydross_mark_of_hydross", "d3/d29/a23103.html", "d3/d29/a23103" ],
+    [ "boss_hydross_the_unstable", "d8/dc9/a23088.html", "d8/dc9/a23088" ],
+    [ "spell_hydross_cleansing_field_aura", "d4/dd5/a23092.html", "d4/dd5/a23092" ],
+    [ "spell_hydross_cleansing_field_command", "d1/d6e/a23096.html", "d1/d6e/a23096" ],
+    [ "spell_hydross_mark_of_hydross", "d7/db5/a23100.html", "d7/db5/a23100" ],
     [ "Misc", "d5/d8b/a04112.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d2/d80/a02645.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "da/de8/a02657.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

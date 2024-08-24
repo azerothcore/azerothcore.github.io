@@ -1,6 +1,7 @@
 var a19148 =
 [
-    [ "spell_the_lich_king_life_siphon_SpellScript", "dd/d0d/a19152.html", "dd/d0d/a19152" ],
-    [ "spell_the_lich_king_life_siphon", "d2/d3f/a19148.html#a235183359e7808b4c59a2ae994aad4f6", null ],
-    [ "GetSpellScript", "d2/d3f/a19148.html#af0b5e576ca726c43568a340b5f0a26f7", null ]
+    [ "EoEDrakeEnterVehicleEvent", "d2/d3f/a19148.html#afc529efe07da017e529dc6d5ebc6e7dc", null ],
+    [ "Execute", "d2/d3f/a19148.html#a368a613ba7861f7903b80e6f7f0dd64f", null ],
+    [ "_owner", "d2/d3f/a19148.html#ab48302fdff800afddfeec2c0d756873c", null ],
+    [ "_playerGUID", "d2/d3f/a19148.html#add56bff0695453e01f300e0434a39ec8", null ]
 ];

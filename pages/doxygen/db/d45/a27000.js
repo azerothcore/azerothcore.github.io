@@ -1,6 +1,5 @@
 var a27000 =
 [
-    [ "CheckProc", "db/d45/a27000.html#af742bdfd97c9202d50ed7aa1cf8e7d49", null ],
-    [ "PrepareAuraScript", "db/d45/a27000.html#a255a58ad99059ba28ab09a94e7cc683a", null ],
-    [ "Register", "db/d45/a27000.html#a4ec4dd2342a5b75c975dc6ffe0b02b79", null ]
+    [ "AreaTrigger_at_nats_landing", "db/d45/a27000.html#ac366e5b1db489b4f8bb8a1d07caa83c2", null ],
+    [ "OnTrigger", "db/d45/a27000.html#a67434f74300fa3463e679afb7d344467", null ]
 ];

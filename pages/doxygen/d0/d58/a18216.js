@@ -1,9 +1,12 @@
 var a18216 =
 [
-    [ "CalculateDamage", "d0/d58/a18216.html#a845a30a016641d83fb808a2906b17fdf", null ],
-    [ "PrepareSpellScript", "d0/d58/a18216.html#ac1c2765c6c4cfd97641687990eb66271", null ],
-    [ "Register", "d0/d58/a18216.html#ab79efb4e8a4a6060802a008d0ff26d29", null ],
-    [ "RemoveEnergy", "d0/d58/a18216.html#a33892e87458b6a5498adf5c5c36f90f4", null ],
-    [ "StoreEnergy", "d0/d58/a18216.html#a4d8b7b6d59e46252e36ffcad522f31a2", null ],
-    [ "_energyLeft", "d0/d58/a18216.html#ad6a05b9ccaa0a9cb522da2877470553a", null ]
+    [ "npc_strangulate_vehicleAI", "d0/d58/a18216.html#a58e79834ed3f463ad51eca703d1c99ef", null ],
+    [ "DoAction", "d0/d58/a18216.html#acf9d5a9e2f8b07f5ceb5ca75634e58fb", null ],
+    [ "IsHeroic", "d0/d58/a18216.html#adb6ae2cefeec245196d21dc1112b2d5c", null ],
+    [ "IsSummonedBy", "d0/d58/a18216.html#a381aec40cdcdf546d70b57a43978dbe9", null ],
+    [ "OnCharmed", "d0/d58/a18216.html#a40e5537897c452d35093920ddd3669b0", null ],
+    [ "PassengerBoarded", "d0/d58/a18216.html#a819746e13af95fa964c6da3d765a7c21", null ],
+    [ "UpdateAI", "d0/d58/a18216.html#a53f567b77b7dfd0ccb5a0d98c0f5ef26", null ],
+    [ "_events", "d0/d58/a18216.html#a19b493e994d246128f63d9109e87737a", null ],
+    [ "_instance", "d0/d58/a18216.html#a7a16fbe4723a95293db01d3a2d80b569", null ]
 ];

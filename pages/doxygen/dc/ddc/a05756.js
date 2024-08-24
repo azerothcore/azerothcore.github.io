@@ -1,9 +1,11 @@
 var a05756 =
 [
-    [ "TurretAI", "dc/ddc/a05756.html#a0aaa1ee5eb1b2e83657ef24479d9a91e", null ],
-    [ "AttackStart", "dc/ddc/a05756.html#ab6eb7cf777595a4b196373123da19bea", null ],
-    [ "CanAIAttack", "dc/ddc/a05756.html#a47c1c38ddcc1f473104fb698fe338684", null ],
-    [ "Permissible", "dc/ddc/a05756.html#aac81fb574d70369fb006fb7ba22a0784", null ],
-    [ "UpdateAI", "dc/ddc/a05756.html#aa2d308443a31d8a06bbc63517695dfef", null ],
-    [ "m_minRange", "dc/ddc/a05756.html#a4cffbf9bcb29468dad6a6583c905b99a", null ]
+    [ "SQLOperation", "dc/ddc/a05756.html#a0f69657715b7d24458227b22a3b40b1a", null ],
+    [ "~SQLOperation", "dc/ddc/a05756.html#afa21cafba57dd35ed2b132ef3d18c71b", null ],
+    [ "SQLOperation", "dc/ddc/a05756.html#a91b34b81ed99ca0da54d825fec98ab6e", null ],
+    [ "call", "dc/ddc/a05756.html#ae56c06a313c4be5d0e45f5481996f1d1", null ],
+    [ "Execute", "dc/ddc/a05756.html#aff1090554bc4a6fe7a33270e63416e19", null ],
+    [ "operator=", "dc/ddc/a05756.html#ac31349ed45ea051540ac345bd4b814d5", null ],
+    [ "SetConnection", "dc/ddc/a05756.html#a52cbd1d9b8a298ab3eade0010b5e3166", null ],
+    [ "m_conn", "dc/ddc/a05756.html#adf322db48064fcf4528f713f857f1b40", null ]
 ];

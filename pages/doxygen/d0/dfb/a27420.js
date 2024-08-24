@@ -1,8 +1,8 @@
 var a27420 =
 [
-    [ "CheckProc", "d0/dfb/a27420.html#a2b0ff2594877249d0bdb4656fa67b83f", null ],
-    [ "HandleProc", "d0/dfb/a27420.html#ac1aebc16e7944ac3f8305d9ff27bc998", null ],
-    [ "PrepareAuraScript", "d0/dfb/a27420.html#a19557020af9ca276f72c1d3e4ba8b27b", null ],
-    [ "Register", "d0/dfb/a27420.html#a43f7bb634cb165fab5e2187256f50c3f", null ],
-    [ "Validate", "d0/dfb/a27420.html#a7762ce25775b98dba14b4ac465cad711", null ]
+    [ "npc_elder_clearwaterAI", "df/d9e/a27424.html", "df/d9e/a27424" ],
+    [ "npc_elder_clearwater", "d0/dfb/a27420.html#abeee1650938a71762bb0c148ea9834d1", null ],
+    [ "GetAI", "d0/dfb/a27420.html#a4ae2f507f61ee7cfc0c3b6d7dbfb7f04", null ],
+    [ "OnGossipHello", "d0/dfb/a27420.html#aae382c0a386b8bacd39c6e7a586519e4", null ],
+    [ "OnQuestReward", "d0/dfb/a27420.html#a2d316a2d2c892cecc134cea46b5bf2a8", null ]
 ];

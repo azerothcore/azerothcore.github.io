@@ -1,6 +1,6 @@
 var a25680 =
 [
-    [ "instance_the_botanica_InstanceMapScript", "dc/df0/a25684.html", "dc/df0/a25684" ],
-    [ "instance_the_botanica", "d9/dce/a25680.html#a8f8acda65f37e45e2439707f3979cf7c", null ],
-    [ "GetInstanceScript", "d9/dce/a25680.html#a335f671443ca0fb9db5956cefdf37182", null ]
+    [ "HandleProc", "d9/dce/a25680.html#aa333d52d905e722554d8d61c4b9cb656", null ],
+    [ "PrepareAuraScript", "d9/dce/a25680.html#aac4320b061d627e4ffef737d2e858ef3", null ],
+    [ "Register", "d9/dce/a25680.html#ad58fea9afa6a3596437a324ec525982e", null ]
 ];

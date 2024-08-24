@@ -1,6 +1,10 @@
 var a20924 =
 [
-    [ "npc_assembly_lightningAI", "dd/d10/a20928.html", "dd/d10/a20928" ],
-    [ "npc_assembly_lightning", "db/d9f/a20924.html#ac9776fc8cb3dd3f8bfecb1d367afefd2", null ],
-    [ "GetAI", "db/d9f/a20924.html#a4054ea8bb68b2742847b359e19b477df", null ]
+    [ "npc_ulduar_snow_mound", "db/d9f/a20924.html#a3f66ad92d616050bb67cb1a5e33ffa74", null ],
+    [ "MoveInLineOfSight", "db/d9f/a20924.html#ae5a09062d87aa1c0d446310df2ddd621", null ],
+    [ "UpdateAI", "db/d9f/a20924.html#a9d18fdaf83a2cfeea9b3ac6adbbd2687", null ],
+    [ "_activated", "db/d9f/a20924.html#ac48f6985d857276e0e59c2a429f5b359", null ],
+    [ "_count", "db/d9f/a20924.html#a1856c3bba24842f33720a83e1de40421", null ],
+    [ "_counter", "db/d9f/a20924.html#aca94a744c23b7f9771c728997ba4b8f3", null ],
+    [ "_scheduler", "db/d9f/a20924.html#aafe42af9ba1402cad91326eb1037e476", null ]
 ];

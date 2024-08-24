@@ -1,6 +1,9 @@
 var a11944 =
 [
-    [ "instance_molten_core_InstanceMapScript", "d4/d3e/a11948.html", "d4/d3e/a11948" ],
-    [ "instance_molten_core", "d0/d4d/a11944.html#ad83dac834feb2fcae872dfe09b833950", null ],
-    [ "GetInstanceScript", "d0/d4d/a11944.html#ab7c794f1503f0ecad8d41ace72737a5d", null ]
+    [ "FilterTargets", "d0/d4d/a11944.html#ae1029dd58a48c099e8bbd071898f1b12", null ],
+    [ "HandleOnHitRogue", "d0/d4d/a11944.html#a57cd6d2c45a9a73bb284272db21d1fce", null ],
+    [ "HandleOnHitWarlock", "d0/d4d/a11944.html#a76f9e5e11a6f2e25868dba567d798002", null ],
+    [ "PrepareSpellScript", "d0/d4d/a11944.html#a4792a25aa6fe6126a94900784798dbee", null ],
+    [ "Register", "d0/d4d/a11944.html#a0f6146c64a86e953c042f8404bbfe683", null ],
+    [ "Validate", "d0/d4d/a11944.html#af65d372cdbb365eff73edb8cf18734c8", null ]
 ];

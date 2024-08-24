@@ -1,6 +1,6 @@
 var a26228 =
 [
-    [ "npcs_flanis_swiftwing_and_kagrosh", "d0/dee/a26228.html#aa95eceea94521947bd443805c8ddb52d", null ],
-    [ "OnGossipHello", "d0/dee/a26228.html#a7f331c38ec82d2c69bce4b1f861527a0", null ],
-    [ "OnGossipSelect", "d0/dee/a26228.html#aff34165955ba93e1fcd2b9731894d871", null ]
+    [ "HandleDummy", "d0/dee/a26228.html#a42f48b9d7d657da75c8a4f5b6468011e", null ],
+    [ "PrepareSpellScript", "d0/dee/a26228.html#a5efc666af2cb73c376706c20e41ace68", null ],
+    [ "Register", "d0/dee/a26228.html#a46e61697212a43532e148ccb12a7d8e5", null ]
 ];

@@ -1,6 +1,8 @@
 var a23620 =
 [
-    [ "spell_fight_fire_bomber_SpellScript", "d3/dcc/a23624.html", "d3/dcc/a23624" ],
-    [ "spell_fight_fire_bomber", "d0/d32/a23620.html#a17f5533424ff53bc1d9b707ced654a92", null ],
-    [ "GetSpellScript", "d0/d32/a23620.html#a0a0ccac7c2f6127bafb68d305be47801", null ]
+    [ "npc_warchief_portal", "d0/d32/a23620.html#a1a52395a5ae66f5cc5f92c6d4ce81893", null ],
+    [ "JustSummoned", "d0/d32/a23620.html#ad90c834dc059040f3922f58dc3bcf4a2", null ],
+    [ "SetData", "d0/d32/a23620.html#a538ab8c6e7683aa02e8c75f9dd900be8", null ],
+    [ "UpdateAI", "d0/d32/a23620.html#a8c400cf1b9f41696807e11f1f135c0ad", null ],
+    [ "_scheduler", "d0/d32/a23620.html#a76bb6a89f0922ed0bc0289ee4e0f20d4", null ]
 ];

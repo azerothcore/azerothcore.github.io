@@ -1,11 +1,7 @@
 var a19364 =
 [
-    [ "npc_valithria_cloudAI", "de/d4d/a19364.html#a5b550d0154f302cecc509fbd868a53bb", null ],
-    [ "AttackStart", "de/d4d/a19364.html#a5835d5ba19e1480016e585c1e49489c9", null ],
-    [ "EnterEvadeMode", "de/d4d/a19364.html#a346fd998d41451d7d1e605afdb13b65c", null ],
-    [ "MoveInLineOfSight", "de/d4d/a19364.html#a8d4c8d082f12b96b2b77447d0b942c2c", null ],
-    [ "Reset", "de/d4d/a19364.html#abca34d7285ef23c062006df8f8ae6d53", null ],
-    [ "UpdateAI", "de/d4d/a19364.html#a6908f5731915bf7d15bb4921c960aa30", null ],
-    [ "_events", "de/d4d/a19364.html#afc5c9299d7f1f73c087a19dcfb19e096", null ],
-    [ "_instance", "de/d4d/a19364.html#a20cc2bba9d1005cc93b55dfba8bfbcf3", null ]
+    [ "HandleOnEffectApply", "de/d4d/a19364.html#a4841f7a44f5df964c4eb9965383fd747", null ],
+    [ "PrepareAuraScript", "de/d4d/a19364.html#a4cf9cf2aadb43920384ec745f6be484f", null ],
+    [ "Register", "de/d4d/a19364.html#a68fba646552678744f49d10b59704a35", null ],
+    [ "Validate", "de/d4d/a19364.html#a01169ee095aa2f0051eac1b253a5daf5", null ]
 ];

@@ -1,7 +1,7 @@
 var a03656 =
 [
-    [ "boss_faerlina", "d7/d02/a18827.html", "d7/d02/a18827" ],
-    [ "boss_faerlina::boss_faerlinaAI", "d0/d5d/a18831.html", "d0/d5d/a18831" ],
+    [ "boss_faerlina", "d8/dae/a18824.html", "d8/dae/a18824" ],
+    [ "boss_faerlina::boss_faerlinaAI", "df/d75/a18828.html", "df/d75/a18828" ],
     [ "Events", "d7/df2/a03656.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d4/d61/a02588.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d4/d61/a02588.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

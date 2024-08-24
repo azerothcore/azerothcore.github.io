@@ -1,12 +1,19 @@
 var a21576 =
 [
-    [ "npc_ulduar_iron_constructAI", "df/d7b/a21576.html#ab81224d24ab1925cde97ab76c2a514d1", null ],
-    [ "DamageTaken", "df/d7b/a21576.html#a5235538b755dd83615d80a1f7d0ec1b9", null ],
-    [ "JustDied", "df/d7b/a21576.html#a5b8e1c38257fc13c59bcaf8cb251fee2", null ],
-    [ "JustReachedHome", "df/d7b/a21576.html#a12416ffe731f96a1ca2949d995eb909c", null ],
-    [ "MoveInLineOfSight", "df/d7b/a21576.html#a12b228a1edb9460ddcb2b8232bb8209e", null ],
-    [ "Reset", "df/d7b/a21576.html#ac6dba374d72247be14923aa54898b9b5", null ],
-    [ "SpellHit", "df/d7b/a21576.html#a10a5444576af84ae50ad8af930ed5970", null ],
-    [ "UpdateAI", "df/d7b/a21576.html#ac5aabd4a48b6a2f5057eb5ee8a8c99f8", null ],
-    [ "timer", "df/d7b/a21576.html#ae1996cf79f8a82df7fe02cd60e5ce3a4", null ]
+    [ "npc_thassarian2AI", "df/d7b/a21576.html#ab1faae7ecc94a8781d5759de775ff9ba", null ],
+    [ "Cleanup", "df/d7b/a21576.html#a26730ec8ec6180a0dd7798797ba8dcd6", null ],
+    [ "Initialize", "df/d7b/a21576.html#aba9c197fb4ab9bb3fc63cf36e36747f5", null ],
+    [ "JustDied", "df/d7b/a21576.html#aa6b70b2bc438ff98a0c1da7898dc4b9b", null ],
+    [ "MovementInform", "df/d7b/a21576.html#abedd9b40189426c907473c5fb47d3a0d", null ],
+    [ "Reset", "df/d7b/a21576.html#a1bee1fb354dbf4a08c5a8f3a88bbf044", null ],
+    [ "SetData", "df/d7b/a21576.html#a7481081c44c4e092b700c449677da01f", null ],
+    [ "sGossipHello", "df/d7b/a21576.html#a12cfc66cb8ac02dbc088110576ee2460", null ],
+    [ "sGossipSelect", "df/d7b/a21576.html#a680dfc7280a3ef425de8b62eb38e6e21", null ],
+    [ "UpdateAI", "df/d7b/a21576.html#a9a1e96659da31040d41a9898d7e59db5", null ],
+    [ "_arlosGUID", "df/d7b/a21576.html#a6142b1e8045123a7eef1e546bda09943", null ],
+    [ "_arthasGUID", "df/d7b/a21576.html#a0e9aff1cc0c5cb9c266916536782332f", null ],
+    [ "_events", "df/d7b/a21576.html#a6b277a2de46cdeada7045b2b3826fd03", null ],
+    [ "_leryssaGUID", "df/d7b/a21576.html#a489159972b4e0cce65d12477e1031fcd", null ],
+    [ "_playerGUID", "df/d7b/a21576.html#af73af26991dcd12173a50883fe82627e", null ],
+    [ "_talbotGUID", "df/d7b/a21576.html#af148fd3e767999c8ebd4aa3b6eff0d3b", null ]
 ];

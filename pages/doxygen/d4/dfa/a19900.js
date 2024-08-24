@@ -1,6 +1,8 @@
 var a19900 =
 [
-    [ "boss_isle_of_conquestAI", "d8/d5c/a19904.html", "d8/d5c/a19904" ],
-    [ "boss_isle_of_conquest", "d4/dfa/a19900.html#ad4052d1b6865585d32016e1240449659", null ],
-    [ "GetAI", "d4/dfa/a19900.html#ae14201c4f8654bf2c0cd9ac8a82f3800", null ]
+    [ "HandleOnEffectApply", "d4/dfa/a19900.html#a83ff54727e886161c5568a60833932d1", null ],
+    [ "HandleOnEffectRemove", "d4/dfa/a19900.html#a9e48d1c9dc26f882ee685a2cbf59667e", null ],
+    [ "PrepareAuraScript", "d4/dfa/a19900.html#a5ec8ffeceae335423dff10f54e096e8a", null ],
+    [ "Register", "d4/dfa/a19900.html#ae07af138c6f9c565799574b4f8343492", null ],
+    [ "Validate", "d4/dfa/a19900.html#a3a24a25c9b9b118d20ca2b14fbfc5869", null ]
 ];

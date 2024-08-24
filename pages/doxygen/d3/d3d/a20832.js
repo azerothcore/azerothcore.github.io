@@ -1,8 +1,8 @@
 var a20832 =
 [
-    [ "go_celestial_planetarium_accessAI", "d3/d3d/a20832.html#aca4d0e9babd6eefe84edc281f8a44cf2", null ],
-    [ "GossipHello", "d3/d3d/a20832.html#af159df46fecf2cd74ac4ec9fa006dc03", null ],
-    [ "UpdateAI", "d3/d3d/a20832.html#a9b2bfb74a12e3258476387fc78cde574", null ],
-    [ "_locked", "d3/d3d/a20832.html#a37f83dbbb05e461d613a4c38001f785c", null ],
-    [ "events", "d3/d3d/a20832.html#aa03b8d270054f2b71c1d625abe322fb8", null ]
+    [ "FilterTargets", "d3/d3d/a20832.html#a3d92ca79a15efaff3c4dd28f0c7ede2c", null ],
+    [ "HandleDummyEffect", "d3/d3d/a20832.html#afbf3aab6724d12426ab0197fb9459562", null ],
+    [ "PrepareSpellScript", "d3/d3d/a20832.html#a7ec441904bc100c6b15ee219617489ff", null ],
+    [ "Register", "d3/d3d/a20832.html#a2796cc02d7c029f3f99264162a19e1d2", null ],
+    [ "Validate", "d3/d3d/a20832.html#a85388adbc15d449e687f9f463cce3833", null ]
 ];

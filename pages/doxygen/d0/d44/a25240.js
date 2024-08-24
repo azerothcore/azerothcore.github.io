@@ -1,8 +1,7 @@
 var a25240 =
 [
-    [ "boss_warlord_kalithresh", "d0/d44/a25240.html#afcf2288fbea2d5010c41344ce0247559", null ],
-    [ "JustDied", "d0/d44/a25240.html#a1947562aa9dafea371e2f2da824a3f65", null ],
-    [ "JustEngagedWith", "d0/d44/a25240.html#a2712f5c363c3929550b77ef2536b1385", null ],
-    [ "KilledUnit", "d0/d44/a25240.html#a06855288497f5335a236867ef681d3f8", null ],
-    [ "UpdateAI", "d0/d44/a25240.html#a834d89c556f9633d23e7dc7998953cdb", null ]
+    [ "HandleDamage", "d0/d44/a25240.html#a9c9bbe49388cf5d04650572fdf789e5e", null ],
+    [ "PrepareSpellScript", "d0/d44/a25240.html#ac89a628f1aba54aa2ade876a4f7911b8", null ],
+    [ "Register", "d0/d44/a25240.html#a627bffccdd78c00f0f5a4241f36aeec8", null ],
+    [ "Validate", "d0/d44/a25240.html#aed63b40f8e2cc6fd32dd536a2d56c7c3", null ]
 ];

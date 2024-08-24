@@ -1,7 +1,7 @@
 var a02993 =
 [
-    [ "npc_daphne_stilwell", "df/d87/a13523.html", "df/d87/a13523" ],
-    [ "npc_daphne_stilwell::npc_daphne_stilwellAI", "d6/d72/a13527.html", "d6/d72/a13527" ],
+    [ "npc_daphne_stilwell", "de/daf/a13520.html", "de/daf/a13520" ],
+    [ "npc_daphne_stilwell::npc_daphne_stilwellAI", "d4/d16/a13524.html", "d4/d16/a13524" ],
     [ "DaphneStilwell", "d6/d58/a02993.html#a49d1cb4d511d2524f3bf3459da05a2fd", [
       [ "SAY_DS_START", "d6/d58/a02993.html#a49d1cb4d511d2524f3bf3459da05a2fdaa12c38d2f57b101a5272dde45bbf430e", null ],
       [ "SAY_DS_DOWN_1", "d6/d58/a02993.html#a49d1cb4d511d2524f3bf3459da05a2fda75bd441fc5d22c60e256684d8664aa46", null ],

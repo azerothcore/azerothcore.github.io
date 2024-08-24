@@ -1,8 +1,11 @@
 var a15268 =
 [
-    [ "npc_anubisath_warder", "d2/d78/a15268.html#aebe14673e5c31000a9626e39d87c6775", null ],
-    [ "JustEngagedWith", "d2/d78/a15268.html#a579318fa519eb669573b2cea78c2fee3", null ],
-    [ "Reset", "d2/d78/a15268.html#aea0fac8f1eb28591b141ace55c49beeb", null ],
-    [ "UpdateAI", "d2/d78/a15268.html#aba428f1f1a016191aa4f168c616c3a29", null ],
-    [ "_scheduler", "d2/d78/a15268.html#acc887fda27df956403690c2f6b7d3cb1", null ]
+    [ "npc_troll_volunteerAI", "d2/d78/a15268.html#a7eb0c508122616a6781c8b23210e4062", null ],
+    [ "GetMountId", "d2/d78/a15268.html#a5edc586ded0a1146bb1bd82ca14062cc", null ],
+    [ "InitializeAI", "d2/d78/a15268.html#a1c758c7601624e0620778e13e8ec60a0", null ],
+    [ "MovementInform", "d2/d78/a15268.html#aa1d34a4f3701354899ebdd9b38670b31", null ],
+    [ "Reset", "d2/d78/a15268.html#a31439533de41c2a459af2b4d3af76139", null ],
+    [ "SpellHit", "d2/d78/a15268.html#a0604cdade2ce4da23915ca1fc4a4f475", null ],
+    [ "_complete", "d2/d78/a15268.html#ac7e1cc5f0e4f675d6aad0f6e9b449c15", null ],
+    [ "_mountModel", "d2/d78/a15268.html#ae226345bd324b9c337dc96570117d82b", null ]
 ];

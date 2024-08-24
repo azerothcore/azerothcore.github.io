@@ -1,6 +1,9 @@
 var a17328 =
 [
-    [ "boss_krickAI", "d1/dad/a17332.html", "d1/dad/a17332" ],
-    [ "boss_krick", "d4/d87/a17328.html#a8921ff79c0af7db7f7910634239bcd0c", null ],
-    [ "GetAI", "d4/d87/a17328.html#a9aa994da7c667b20c00b1bd1e994fed1", null ]
+    [ "FilterTargetsInitial", "d4/d87/a17328.html#acebf4a9f8c4cdd6111ae816d7c24b00f", null ],
+    [ "FilterTargetsSubsequent", "d4/d87/a17328.html#a11732039155235c287757980129d5a8e", null ],
+    [ "Load", "d4/d87/a17328.html#a467272ccd10ec0aff7ad00a567c0049c", null ],
+    [ "PrepareSpellScript", "d4/d87/a17328.html#a6f97c9c1dc71a87d2a82de646809f063", null ],
+    [ "Register", "d4/d87/a17328.html#a56a4e65df08a95fddde75162358155c2", null ],
+    [ "_target", "d4/d87/a17328.html#abdd93e8e80826c71ead1d9e44aaf865a", null ]
 ];

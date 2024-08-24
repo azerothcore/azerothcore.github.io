@@ -1,8 +1,8 @@
 var a03413 =
 [
-    [ "boss_amanitar", "d5/df2/a15619.html", "d5/df2/a15619" ],
-    [ "npc_amanitar_mushrooms", "d3/d0f/a15623.html", "d3/d0f/a15623" ],
-    [ "spell_amanitar_remove_mushroom_power", "db/db0/a15627.html", "db/db0/a15627" ],
+    [ "boss_amanitar", "db/df9/a15616.html", "db/df9/a15616" ],
+    [ "npc_amanitar_mushrooms", "d2/df3/a15620.html", "d2/df3/a15620" ],
+    [ "spell_amanitar_remove_mushroom_power", "d0/d0a/a15624.html", "d0/d0a/a15624" ],
     [ "Creatures", "d6/daa/a03413.html#a25a619e6b66096a4f05d048e4a96df08", [
       [ "NPC_NORTH_MARSHAL", "d4/d61/a02588.html#a25a619e6b66096a4f05d048e4a96df08abeb6d3b1ff8238f7c57911ab8acde69e", null ],
       [ "NPC_SOUTH_MARSHAL", "d4/d61/a02588.html#a25a619e6b66096a4f05d048e4a96df08a9a3360dc10641daabdef8158f42ee00e", null ],

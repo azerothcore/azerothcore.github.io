@@ -1,10 +1,10 @@
 var a11060 =
 [
-    [ "item_commandscript", "de/d45/a11060.html#a22f9cb46f2c3701fc5c9136c87c09435", null ],
-    [ "GetCommands", "de/d45/a11060.html#aab60aa980ef0f86938cfcb51e7ee20a8", null ],
-    [ "HandleItemMoveCommand", "de/d45/a11060.html#a6adae7cb08c0e69ac0a20c107f818a57", null ],
-    [ "HandleItemRefundCommand", "de/d45/a11060.html#af914e33be05148062abd89c754d939c9", null ],
-    [ "HandleItemRestoreCommand", "de/d45/a11060.html#a84c67a46c513c1aac2b9d2563d693929", null ],
-    [ "HandleItemRestoreListCommand", "de/d45/a11060.html#a40181310f4187a71a6f5f5f600a8f468", null ],
-    [ "HasItemDeletionConfig", "de/d45/a11060.html#a28d0b4083bf3352f80b6210f9ac00692", null ]
+    [ "AcoreStringChatBuilder", "de/d45/a11060.html#a7e280083c80fd119d365649fd4578fc9", null ],
+    [ "operator()", "de/d45/a11060.html#a09a2a03dca2b8470cd1d1f7c8273868b", null ],
+    [ "_args", "de/d45/a11060.html#aa92a28b7d6a7dd59ea7da3a76c1fb4cc", null ],
+    [ "_msgType", "de/d45/a11060.html#adbabf871f33692b0ecddc8cc0fb75586", null ],
+    [ "_source", "de/d45/a11060.html#ac5222737ea1b95b6d75afc532838f8be", null ],
+    [ "_target", "de/d45/a11060.html#ab659b7c7bd6426a023cf8668322327b8", null ],
+    [ "_textId", "de/d45/a11060.html#a3d29de9c5d80c3df488aa01fa380a84a", null ]
 ];

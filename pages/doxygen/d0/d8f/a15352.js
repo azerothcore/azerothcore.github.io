@@ -1,6 +1,9 @@
 var a15352 =
 [
-    [ "npc_magwinAI", "d7/d0f/a15356.html", "d7/d0f/a15356" ],
-    [ "npc_magwin", "d0/d8f/a15352.html#a1a45602fd312a4c436b09fb7b90ac1d4", null ],
-    [ "GetAI", "d0/d8f/a15352.html#a83bee0fd5c1494f2bb732fe9e0ed1594", null ]
+    [ "npc_thrall_warchiefAI", "d7/d0f/a15356.html", "d7/d0f/a15356" ],
+    [ "npc_thrall_warchief", "d0/d8f/a15352.html#a3958f0b444537ac8a5ebf55de44e3590", null ],
+    [ "GetAI", "d0/d8f/a15352.html#a4fc3d5410b959b4289f1ced17d412c03", null ],
+    [ "OnGossipHello", "d0/d8f/a15352.html#a5cd40c062fb07d2ddfffdc159f2935d3", null ],
+    [ "OnGossipSelect", "d0/d8f/a15352.html#a63367ca0b252c148f625b305575fd768", null ],
+    [ "OnQuestReward", "d0/d8f/a15352.html#aea53462e94121ad44e366d2743807c3c", null ]
 ];

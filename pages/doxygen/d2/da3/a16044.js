@@ -1,6 +1,13 @@
 var a16044 =
 [
-    [ "spell_azjol_nerub_fixate_SpellScript", "dd/d74/a16048.html", "dd/d74/a16048" ],
-    [ "spell_azjol_nerub_fixate", "d2/da3/a16044.html#ae5685db227b0d26b8708e923bbaaaddb", null ],
-    [ "GetSpellScript", "d2/da3/a16044.html#a0898550220c03823962873a7a153734b", null ]
+    [ "boss_eadricAI", "d2/da3/a16044.html#a461043fe1bff0f5478e2a57504e7477c", null ],
+    [ "DamageTaken", "d2/da3/a16044.html#a440899ffdeda7794ef4fa5530638eecc", null ],
+    [ "JustEngagedWith", "d2/da3/a16044.html#a09a0cebcdffb00e37e9d60111c582669", null ],
+    [ "KilledUnit", "d2/da3/a16044.html#a0bc5d9ba3f45460e62eebdad4e68b8bd", null ],
+    [ "MovementInform", "d2/da3/a16044.html#aa20253b3f0aec2678b2e3b1c3a9d1a47", null ],
+    [ "Reset", "d2/da3/a16044.html#a8776bc2937ed9dc4decd1e71929edf65", null ],
+    [ "SpellHit", "d2/da3/a16044.html#aef7c66b9ff0a728c140899940a2d7e85", null ],
+    [ "UpdateAI", "d2/da3/a16044.html#a38e8052f3e5d8d81bb4b79fb41717efb", null ],
+    [ "events", "d2/da3/a16044.html#a5804ea238fd1c32201c3be943d2fe5ca", null ],
+    [ "pInstance", "d2/da3/a16044.html#a43a8f2beebae9bb27ff03e0e9af2d36b", null ]
 ];

@@ -1,7 +1,5 @@
 var a16668 =
 [
-    [ "npc_toc_warriorAI", "d7/dd9/a16668.html#a6eee7e4fc83ed56a0f775b6892dc8dcb", null ],
-    [ "myCanCast", "d7/dd9/a16668.html#ac815e13cbbe9a8833330e15213420c65", null ],
-    [ "UpdateAI", "d7/dd9/a16668.html#aa787deda09d9bbf2c54d51e618eb2a82", null ],
-    [ "events", "d7/dd9/a16668.html#ae8f9d3f5f2c9172442c7ba4a83275cc1", null ]
+    [ "npc_fos_leader_secondAI", "d7/dd9/a16668.html#a25df0b8760e9eb7d330779e10e3ac548", null ],
+    [ "MovementInform", "d7/dd9/a16668.html#a9cc0b500f1289dc8b764b3755468e639", null ]
 ];

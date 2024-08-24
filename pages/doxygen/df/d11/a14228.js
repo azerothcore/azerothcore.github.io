@@ -1,12 +1,13 @@
 var a14228 =
 [
-    [ "npc_alexstraza_the_lifebinder", "df/d11/a14228.html#a7c30258540803bde75843cb070b6a288", null ],
-    [ "MoveInLineOfSight", "df/d11/a14228.html#af5960eb1cf63fb0b5b8dc2bfd86b8e47", null ],
-    [ "Reset", "df/d11/a14228.html#a8144ed8ada8cd4fb11d74393ed0c525a", null ],
-    [ "SetData", "df/d11/a14228.html#aead5ae4ffda9732829e39b8c485a3c3e", null ],
-    [ "UpdateAI", "df/d11/a14228.html#ad13b21d571833210b1c069b7ea8bea05", null ],
-    [ "orphanGUID", "df/d11/a14228.html#a7c2901f01e4fcafaea9c00ff58dbeaf3", null ],
-    [ "phase", "df/d11/a14228.html#a98216e43888854ac93f22169a0e253e5", null ],
-    [ "playerGUID", "df/d11/a14228.html#a063fc935bc8f46f5487e9c338e497ec4", null ],
-    [ "timer", "df/d11/a14228.html#a41791aaa24102383fe4d3f43c714c3bb", null ]
+    [ "boss_headless_horseman_head", "df/d11/a14228.html#a12343a1bb6e30681b0c82ba649bd5b8a", null ],
+    [ "DamageTaken", "df/d11/a14228.html#a73e75350937736ad7cfe725b785b3768", null ],
+    [ "GetOwner", "df/d11/a14228.html#ab72d1f1891401754ffe032ed0534882d", null ],
+    [ "Reset", "df/d11/a14228.html#a367e8b82d6d3bb08e7106c71295610f9", null ],
+    [ "SpellHit", "df/d11/a14228.html#adcd9ce9755f8dbc1391b4d2b3f5e1669", null ],
+    [ "SpellHitTarget", "df/d11/a14228.html#a0d73ba0831118d135137953f91e7c5d7", null ],
+    [ "UpdateAI", "df/d11/a14228.html#a300dec039465535914bf6879423a0962", null ],
+    [ "handled", "df/d11/a14228.html#a72c0d0c8c534fa8fdc1370203c30c3a3", null ],
+    [ "pct", "df/d11/a14228.html#a9752326bac7ecbcdfde5b12f55b20be2", null ],
+    [ "timer", "df/d11/a14228.html#ae7c669e65659459fd83f91b5e9ed1347", null ]
 ];

@@ -1,6 +1,6 @@
 var a26144 =
 [
-    [ "npc_phase_hunterAI", "d0/d90/a26148.html", "d0/d90/a26148" ],
-    [ "npc_phase_hunter", "dd/d00/a26144.html#a7544a03d6dd55dbb8a18b95800d74891", null ],
-    [ "GetAI", "dd/d00/a26144.html#a7d99455d2b525b96ddeb21f3177c70e1", null ]
+    [ "CheckCast", "dd/d00/a26144.html#a2edd0bcaa3b026cc70f9f6b58f53f486", null ],
+    [ "PrepareSpellScript", "dd/d00/a26144.html#aaf1e16dbc8d33aadcbf74dc4cebe715b", null ],
+    [ "Register", "dd/d00/a26144.html#a32aaab12105c9b1c09edfa8a444ced9c", null ]
 ];

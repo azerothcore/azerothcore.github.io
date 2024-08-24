@@ -1,6 +1,8 @@
 var a18268 =
 [
-    [ "spell_igb_on_gunship_deck_AuraScript", "d1/da3/a18272.html", "d1/da3/a18272" ],
-    [ "spell_igb_on_gunship_deck", "d2/d68/a18268.html#a1bcb12c6f555e0817e01b9ac24a1f1e6", null ],
-    [ "GetAuraScript", "d2/d68/a18268.html#adbff88f427b0caf0ab39241b48503556", null ]
+    [ "npc_lk_spirit_bombAI", "d2/d68/a18268.html#a366fb54e68c0e603000183cd68daf6b7", null ],
+    [ "IsSummonedBy", "d2/d68/a18268.html#a9b3de8c6e2006a19ee1289455163f52c", null ],
+    [ "MovementInform", "d2/d68/a18268.html#a0e4aa94a199439962095c1d2026b2a5f", null ],
+    [ "UpdateAI", "d2/d68/a18268.html#a61b4f7c3a1dd9b9b2850b05f2117e55a", null ],
+    [ "timer", "d2/d68/a18268.html#aa0d370113b753127d4f0fd7bd3a3ba11", null ]
 ];

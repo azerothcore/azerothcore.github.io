@@ -1,6 +1,5 @@
 var a14244 =
 [
-    [ "npc_grizzlemaw_cw_triggerAI", "dc/d33/a14248.html", "dc/d33/a14248" ],
-    [ "npc_grizzlemaw_cw_trigger", "dc/d1e/a14244.html#a4514796784d974ba6de09b5a5d4e5f3b", null ],
-    [ "GetAI", "dc/d1e/a14244.html#a1a834bda866033a3cca4fc4ece447313", null ]
+    [ "go_pumpkin_shrine", "dc/d1e/a14244.html#ab9b05caa7ef7d740a0c46171c2160a19", null ],
+    [ "OnGossipSelect", "dc/d1e/a14244.html#a35763a67d39c1d68974a9602ce26b699", null ]
 ];

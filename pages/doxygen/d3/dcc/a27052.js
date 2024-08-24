@@ -1,7 +1,6 @@
 var a27052 =
 [
-    [ "HandleEffectApply", "d3/dcc/a27052.html#a03c31d2d1ff8a01a03c7fa6f67a5c9c3", null ],
-    [ "HandleEffectRemove", "d3/dcc/a27052.html#a54420a5b6c4cc0e0b468f573cd4625bf", null ],
-    [ "PrepareAuraScript", "d3/dcc/a27052.html#a39e61e11ede11f029485a73e4d995809", null ],
-    [ "Register", "d3/dcc/a27052.html#a9b0a61f6f7ad9f01a293451705675eb0", null ]
+    [ "boss_emerissAI", "d2/dd6/a27056.html", "d2/dd6/a27056" ],
+    [ "boss_emeriss", "d3/dcc/a27052.html#a2d373e5add3f007cf214ad9763039aa2", null ],
+    [ "GetAI", "d3/dcc/a27052.html#a88a0696a12f12e612cce53c14f6b1f92", null ]
 ];

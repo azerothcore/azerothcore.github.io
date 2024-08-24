@@ -1,6 +1,6 @@
 var a17200 =
 [
-    [ "npc_spectral_footmanAI", "d6/de5/a17204.html", "d6/de5/a17204" ],
-    [ "npc_spectral_footman", "da/d73/a17200.html#a300fb06b896d2d08f9e3671422232ad2", null ],
-    [ "GetAI", "da/d73/a17200.html#adbc1b961aba6cefb97dfff3014248735", null ]
+    [ "ChangeSummonPos", "da/d73/a17200.html#a2c3d69419762c7f78688a22017a8c535", null ],
+    [ "PrepareSpellScript", "da/d73/a17200.html#a97c48254a0d7a0bd4bcf40f614bc5373", null ],
+    [ "Register", "da/d73/a17200.html#a9c1aad0131ebe9635c9fdbb3d71c9cdd", null ]
 ];

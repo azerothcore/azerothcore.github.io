@@ -1,6 +1,6 @@
 var a21764 =
 [
-    [ "spell_mimiron_p3wx2_laser_barrage_AuraScript", "d8/d11/a21768.html", "d8/d11/a21768" ],
-    [ "spell_mimiron_p3wx2_laser_barrage", "dd/d62/a21764.html#affbe3588a9cab30163a08c8ff781e29d", null ],
-    [ "GetAuraScript", "dd/d62/a21764.html#a71654b4b433b3d1731b1de15f747d8ec", null ]
+    [ "SACDeactivateEvent", "dd/d62/a21764.html#a14f1db2f3bf7e82d0e5c5b5135d46cf9", null ],
+    [ "Execute", "dd/d62/a21764.html#a12179c55d1999b3cd0cfc5d51d039a31", null ],
+    [ "_owner", "dd/d62/a21764.html#acc87b2f689bf2e6a3f19440dceb6ea6d", null ]
 ];

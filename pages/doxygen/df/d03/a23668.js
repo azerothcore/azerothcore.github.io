@@ -1,12 +1,13 @@
 var a23668 =
 [
-    [ "npc_tournament_training_dummyAI", "df/d03/a23668.html#ab84a35b5145c74f16dfbbe020dd9a73b", null ],
-    [ "DamageTaken", "df/d03/a23668.html#a98c18794124922e6946a82a324410837", null ],
-    [ "EnterEvadeMode", "df/d03/a23668.html#a3f31d705284b0fad2f00c9210ff06646", null ],
-    [ "MoveInLineOfSight", "df/d03/a23668.html#a7a05c8682767f5a2d847e99eeed8e00f", null ],
-    [ "Reset", "df/d03/a23668.html#a7339ffe52dc789f9480afca7141a169e", null ],
-    [ "SpellHit", "df/d03/a23668.html#a5cd56075333fb59ddd8d4a48dc2eecdf", null ],
-    [ "UpdateAI", "df/d03/a23668.html#a8bba917f0e0d67cd7a0121ab71d5a419", null ],
-    [ "events", "df/d03/a23668.html#a77fa2ef2f15208ab8b284c71e0227fc4", null ],
-    [ "isVulnerable", "df/d03/a23668.html#a4a4d3029a329e6eb253bc57c5f7b2a98", null ]
+    [ "boss_wrath_scryer_soccothrates", "df/d03/a23668.html#a771980c1022e7699c3eb02baccb68a93", null ],
+    [ "InitializeAI", "df/d03/a23668.html#ad29f9c200de2f25a74f548c918bb61ac", null ],
+    [ "JustDied", "df/d03/a23668.html#a4954041d6a9cbc754d9fcd1d4ab3d38b", null ],
+    [ "JustEngagedWith", "df/d03/a23668.html#a09302e6f5e1422232a3024dd24a38fd6", null ],
+    [ "KilledUnit", "df/d03/a23668.html#a9b9237e0c8ad1b759c2402de79b3d0bd", null ],
+    [ "MoveInLineOfSight", "df/d03/a23668.html#ab75e402ce24ca34c42f80116b8a0726d", null ],
+    [ "Reset", "df/d03/a23668.html#a85435a23d36f13e348112348a26e7d12", null ],
+    [ "UpdateAI", "df/d03/a23668.html#a41ad9124dec5432feb7ca823f0c8f87f", null ],
+    [ "events2", "df/d03/a23668.html#afd4e9a0ab16406a4a452cd89d13d1fe0", null ],
+    [ "preFight", "df/d03/a23668.html#a193889ee2815b93a1c9aeee394170fc4", null ]
 ];

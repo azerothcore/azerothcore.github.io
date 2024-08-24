@@ -1,12 +1,7 @@
 var a16536 =
 [
-    [ "npc_swarm_scarabAI", "d2/d57/a16536.html#a0d0cefd52543044773e7df772f90fd37", null ],
-    [ "CanAIAttack", "d2/d57/a16536.html#a95a27742f4f7fa1af45964b6270a9558", null ],
-    [ "DoAction", "d2/d57/a16536.html#ac1fe6742ef1e7bdee4c81a3933a31659", null ],
-    [ "JustDied", "d2/d57/a16536.html#a0fe99c71cac6d3ee8d360f0d46d03fcd", null ],
-    [ "JustEngagedWith", "d2/d57/a16536.html#a585e1e8800e97b2aa3d6c893d54c1d2b", null ],
-    [ "Reset", "d2/d57/a16536.html#aa24cc2f2b7aa4c5c534e8d2ce2957237", null ],
-    [ "UpdateAI", "d2/d57/a16536.html#aa33d9e101ba7de2a25a6213baccf6df1", null ],
-    [ "despawnTimer", "d2/d57/a16536.html#a6d35e43af695ac112b972badb665f06d", null ],
-    [ "determinationTimer", "d2/d57/a16536.html#af319dbf16bc1d3939602465f0a87d30c", null ]
+    [ "HandleScriptEffect", "d2/d57/a16536.html#a51064b3a11f453724ae0879c80eaf8df", null ],
+    [ "PrepareSpellScript", "d2/d57/a16536.html#aac26002ff107e609fb7258306b430f1b", null ],
+    [ "Register", "d2/d57/a16536.html#a0efef7644706940e3929ce99cd162c91", null ],
+    [ "Validate", "d2/d57/a16536.html#a7110d4136337d44aa0300ec82e5a6511", null ]
 ];

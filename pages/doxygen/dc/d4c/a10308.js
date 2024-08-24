@@ -1,6 +1,5 @@
 var a10308 =
 [
-    [ "TotemDestroyed", "dc/d4c/a10308.html#a3bcaa030b2c15d54617564cf0f5e4c36", null ],
-    [ "Read", "dc/d4c/a10308.html#a0bc6b5a33024d4fd8bc8dd4cfa25d3e2", null ],
-    [ "Slot", "dc/d4c/a10308.html#a41eebde65aa696c2dec812da0aeab633", null ]
+    [ "GuildPermissionsQuery", "dc/d4c/a10308.html#a6ab30e173d26362db0065f4f9f8fa5f8", null ],
+    [ "Read", "dc/d4c/a10308.html#aec20af8c3c8236627353287fe2eaa0a7", null ]
 ];

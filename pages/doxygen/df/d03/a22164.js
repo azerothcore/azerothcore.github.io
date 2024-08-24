@@ -1,8 +1,4 @@
 var a22164 =
 [
-    [ "boss_yoggsaron_crusher_tentacleAI", "df/d03/a22164.html#a63d63a0b981c278fcfadfdda1feb5a12", null ],
-    [ "DamageTaken", "df/d03/a22164.html#ac2458922b2530929ee1adbcc0da834a0", null ],
-    [ "DoAction", "df/d03/a22164.html#abcc42381f37256e5c5ab2a42f8ef2c29", null ],
-    [ "Reset", "df/d03/a22164.html#af33db4e2ce1bb85e38437db6ca7982f7", null ],
-    [ "UpdateAI", "df/d03/a22164.html#a8329bc78fc037655d48cb9bf0abd8447", null ]
+    [ "npc_adventurous_dwarfAI", "df/d03/a22164.html#af953c5fef2ea8abbf7835b0bc5cf1b23", null ]
 ];

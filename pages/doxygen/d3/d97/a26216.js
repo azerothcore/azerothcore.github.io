@@ -1,6 +1,7 @@
 var a26216 =
 [
-    [ "npc_dragonmaw_peonAI", "d4/de4/a26220.html", "d4/de4/a26220" ],
-    [ "npc_dragonmaw_peon", "d3/d97/a26216.html#a356f8f1181d62dd5a4bc41c98ab21720", null ],
-    [ "GetAI", "d3/d97/a26216.html#aab1e4aee65a5465bc545a9c067200d2a", null ]
+    [ "CheckRequirement", "d3/d97/a26216.html#afc9206b1d92834943c9825dfd97439c9", null ],
+    [ "HandleScriptEffect", "d3/d97/a26216.html#acef8bf4c93226e1b4c95f8b8cdd80f40", null ],
+    [ "PrepareSpellScript", "d3/d97/a26216.html#a0223c05b5832c64b248e82eba770f7fa", null ],
+    [ "Register", "d3/d97/a26216.html#aef93e3c5a60633f69871bbd49d40caf5", null ]
 ];

@@ -1,6 +1,5 @@
 var a17964 =
 [
-    [ "boss_festergutAI", "de/d77/a17968.html", "de/d77/a17968" ],
-    [ "boss_festergut", "de/dbb/a17964.html#a07ac6be688118cc57e6fdc1d8e961953", null ],
-    [ "GetAI", "de/dbb/a17964.html#ab2624e1908bb376f1b195a88e4b9b146", null ]
+    [ "achievement_all_you_can_eat", "de/dbb/a17964.html#a0995024862a445ea1f0ff5c82475fc64", null ],
+    [ "OnCheck", "de/dbb/a17964.html#a0baa07a7cbd239e4a5fcfd3e687aedf6", null ]
 ];

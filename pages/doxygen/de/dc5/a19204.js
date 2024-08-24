@@ -1,6 +1,9 @@
 var a19204 =
 [
-    [ "npc_terenas_menethilAI", "db/d3c/a19208.html", "db/d3c/a19208" ],
-    [ "npc_terenas_menethil", "de/dc5/a19204.html#a6b6850598c582e3d44c13275302fd32d", null ],
-    [ "GetAI", "de/dc5/a19204.html#ad5f29af90c3f40ce0dad019b5ec05cf2", null ]
+    [ "HandleApply", "de/dc5/a19204.html#a29679ed64fc288dc0e85beed2971d4be", null ],
+    [ "HandleRemove", "de/dc5/a19204.html#a1f1c3e0ea24174605a7be8fa02e30518", null ],
+    [ "Load", "de/dc5/a19204.html#a0b5d70a7a9bf27696295ccbbffd2a8b9", null ],
+    [ "PrepareAuraScript", "de/dc5/a19204.html#a2804f25643e59f3922291abcb055b641", null ],
+    [ "Register", "de/dc5/a19204.html#a711b5744770d0c9fb5aacb550f2384fa", null ],
+    [ "Validate", "de/dc5/a19204.html#aa239a693db5fa38ac260a37b25e0e6d9", null ]
 ];

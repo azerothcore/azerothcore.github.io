@@ -1,8 +1,6 @@
 var a17188 =
 [
-    [ "npc_phantom_hallucinationAI", "dc/ddd/a17188.html#a7b27d1c859d77220dc1c3c8323e9eef9", null ],
-    [ "EnterEvadeMode", "dc/ddd/a17188.html#a7ef7411ea780466d7c4dd185d9444aba", null ],
-    [ "JustDied", "dc/ddd/a17188.html#a5a4f05c5930a7e5bd31df2e3131f4cec", null ],
-    [ "UpdateAI", "dc/ddd/a17188.html#ad874a741c641dbac6380aa682d582d7c", null ],
-    [ "numOfUpd", "dc/ddd/a17188.html#adb78f5dcd272e8223f895079885a5461", null ]
+    [ "HandleScript", "dc/ddd/a17188.html#ace45b0d9ce3815046e842d462fdcc9b6", null ],
+    [ "PrepareSpellScript", "dc/ddd/a17188.html#a0257968b3a4d9ef3241420bbc5abb63a", null ],
+    [ "Register", "dc/ddd/a17188.html#aed524436eacc6f1dddcc2f3cb6f502fc", null ]
 ];

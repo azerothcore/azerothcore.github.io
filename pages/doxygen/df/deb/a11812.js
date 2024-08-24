@@ -1,6 +1,6 @@
 var a11812 =
 [
-    [ "boss_gehennasAI", "df/deb/a11812.html#aaefd1f10d03957477863df95143a95a9", null ],
-    [ "ExecuteEvent", "df/deb/a11812.html#a1568cecdacc6afee23b4661c3dc0ae2b", null ],
-    [ "JustEngagedWith", "df/deb/a11812.html#ad932bb3d7079f53cf1bb2b7ad143b15d", null ]
+    [ "instance_blackrock_spireMapScript", "dc/def/a11816.html", "dc/def/a11816" ],
+    [ "instance_blackrock_spire", "df/deb/a11812.html#a3238be88efcdc9669e7e6a1d725649b3", null ],
+    [ "GetInstanceScript", "df/deb/a11812.html#a5ee2cc38a36ce2cd8c1196ce9f687e2a", null ]
 ];

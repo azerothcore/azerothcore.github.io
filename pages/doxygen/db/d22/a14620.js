@@ -1,12 +1,12 @@
 var a14620 =
 [
-    [ "npc_ghoulAI", "db/d22/a14620.html#af835b3c0bdba5c2c37c2dfbabdbe01ea", null ],
-    [ "JustEngagedWith", "db/d22/a14620.html#a6ed7c5296348e23c69f9910d4742cad6", null ],
-    [ "Reset", "db/d22/a14620.html#a521edce5edbc5efe48d53c3555644342", null ],
-    [ "UpdateAI", "db/d22/a14620.html#a214d107691e7d07a94f90f8cc9129209", null ],
-    [ "WaypointReached", "db/d22/a14620.html#a6d265d52e3703fd540a86e164b9603cb", null ],
-    [ "FrenzyTimer", "db/d22/a14620.html#adc17bc938371728f50b31dc36994c94a", null ],
-    [ "go", "db/d22/a14620.html#a673780abea5ad1a13097dc316a108ab3", null ],
-    [ "MoveTimer", "db/d22/a14620.html#add6aff424fb7598f7cc3b09f19691d21", null ],
-    [ "RandomMove", "db/d22/a14620.html#a9b782556b7ce91e2b151ccd57066247e", null ]
+    [ "boss_lieutenant_drake", "db/d22/a14620.html#a67e00ef68d5b07023cc9dc7bd6a2289b", null ],
+    [ "InitializeAI", "db/d22/a14620.html#a2b3eb857c0711b89b6e7a6f3f5f05441", null ],
+    [ "JustDied", "db/d22/a14620.html#aca7654e30aac96fa509f99f3447121ec", null ],
+    [ "JustEngagedWith", "db/d22/a14620.html#ae31ac13106d09b8b447aa8fd9d864e41", null ],
+    [ "KilledUnit", "db/d22/a14620.html#a833c889c28ea35a6198fe753b604a8ed", null ],
+    [ "MovementInform", "db/d22/a14620.html#aec6e332bc5739552cbbec27569c55759", null ],
+    [ "UpdateAI", "db/d22/a14620.html#ad898722dfe01c2e4f814fc5af9f057b8", null ],
+    [ "pathId", "db/d22/a14620.html#ac63f9c885296a797799c0cd83b0ade64", null ],
+    [ "runSecondPath", "db/d22/a14620.html#a3ea53e2048224ac3bbc4dceda316d7c4", null ]
 ];

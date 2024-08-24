@@ -1,6 +1,6 @@
 var a25304 =
 [
-    [ "instance_the_underbog_InstanceMapScript", "df/d9b/a25308.html", "df/d9b/a25308" ],
-    [ "instance_the_underbog", "df/d24/a25304.html#afaf8740a3e367a1a54eaa3e76ffa483e", null ],
-    [ "GetInstanceScript", "df/d24/a25304.html#ace939fb7fd89e7c9c84c17d3ca31208b", null ]
+    [ "PrepareAuraScript", "df/d24/a25304.html#a1a06aa5d8254f0d33ecb38df72d97d20", null ],
+    [ "Register", "df/d24/a25304.html#abb54f08b1932e3638537656360d3aad8", null ],
+    [ "AuraEffectHandleModes", "df/d24/a25304.html#a9f02f6b1287d320fee15fec18b61cfe7", null ]
 ];

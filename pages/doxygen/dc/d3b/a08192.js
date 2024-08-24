@@ -1,10 +1,5 @@
 var a08192 =
 [
-    [ "RedirectThreatInfo", "dc/d3b/a08192.html#a23b5adf3087ddba3b92133199aa42cf8", null ],
-    [ "GetTargetGUID", "dc/d3b/a08192.html#ae206110e4d7155bb87079ebd58800e3d", null ],
-    [ "GetThreatPct", "dc/d3b/a08192.html#a58bd2c745f92625ff7eac0ddca6a23a0", null ],
-    [ "ModifyThreatPct", "dc/d3b/a08192.html#ac7093218d9b8c6ea03683dd5624bde8f", null ],
-    [ "Set", "dc/d3b/a08192.html#a140b7a0adb6e6b71b21e8d6db7125ae2", null ],
-    [ "_targetGUID", "dc/d3b/a08192.html#a98f9efc5209ef7200e71ff39310520dd", null ],
-    [ "_threatPct", "dc/d3b/a08192.html#a95d6d366d664888f532d40afd1cc57d2", null ]
+    [ "PositionXYStreamer", "dc/d3b/a08192.html#a6f165ea30ccb7cdeba0c4e197b3a0e5b", null ],
+    [ "Pos", "dc/d3b/a08192.html#afb17e60540233b8861b6e967d0e44e07", null ]
 ];

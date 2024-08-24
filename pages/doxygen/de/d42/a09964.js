@@ -1,5 +1,5 @@
 var a09964 =
 [
-    [ "GuildGetInfo", "de/d42/a09964.html#a585a6a49fe9747d5044ac185f1236cf5", null ],
-    [ "Read", "de/d42/a09964.html#aa2b107f35fcf348fb7f84c2971c5fa00", null ]
+    [ "CommandScript", "de/d42/a09964.html#afb9ef0145bb5eedee7fd61609868ba20", null ],
+    [ "GetCommands", "de/d42/a09964.html#a97dc7d00b78e0030ba2a950d23b2ebd2", null ]
 ];

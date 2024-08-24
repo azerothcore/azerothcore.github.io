@@ -1,17 +1,19 @@
 var a05124 =
 [
-    [ "CircularBuffer", "d0/dbf/a05124.html#aed928fe071a15c367bbdf0c551249438", null ],
-    [ "capacity", "d0/dbf/a05124.html#ae1addc6782f9a3e4d66461223f496619", null ],
-    [ "content", "d0/dbf/a05124.html#ad364f8ee7c9176b912ea053e2f3c928f", null ],
-    [ "empty", "d0/dbf/a05124.html#a7509cc5ef0dd0a9f731c47b05929580c", null ],
-    [ "full", "d0/dbf/a05124.html#a2a2f13f00dca028142c250b5f2183097", null ],
-    [ "peak_back", "d0/dbf/a05124.html#ad4bb17889033526da4605ebddd60f3c7", null ],
-    [ "put", "d0/dbf/a05124.html#a2a5e093804731b69969c18e49a206572", null ],
-    [ "size", "d0/dbf/a05124.html#a73d5df7a33d545554fffeaaf843f36d9", null ],
-    [ "buf_", "d0/dbf/a05124.html#aa2b9389da6cd912b4dd54d89ca1d69ee", null ],
-    [ "full_", "d0/dbf/a05124.html#a1dfcbf9f9d2760d7d82144c57ff8a60e", null ],
-    [ "head_", "d0/dbf/a05124.html#abd7fa51c466136b2ed4a3ed40dc72201", null ],
-    [ "max_size_", "d0/dbf/a05124.html#a588c4166b7abe2cf38e58c63026fe511", null ],
-    [ "mutex_", "d0/dbf/a05124.html#aa4762ba2167d8b9560ff39328b4b3afa", null ],
-    [ "tail_", "d0/dbf/a05124.html#ad6b796b58f9b528479e5caf45713027b", null ]
+    [ "Iterator", "d8/d2c/a05128.html", "d8/d2c/a05128" ],
+    [ "iterator", "d0/dbf/a05124.html#a57ec2565e503df8ef86e1df2889c8ee3", null ],
+    [ "LinkedListHead", "d0/dbf/a05124.html#ab9a10897505b9315f7abef37ca53ae3d", null ],
+    [ "decSize", "d0/dbf/a05124.html#ada0bbfaadb9944b904fd023291d7454e", null ],
+    [ "getFirst", "d0/dbf/a05124.html#a3bdb6df345043767ce9b319593102371", null ],
+    [ "getFirst", "d0/dbf/a05124.html#a2b67ea8030683685e442b534f6ac14ae", null ],
+    [ "getLast", "d0/dbf/a05124.html#a523c918451eb358014e821b11f000b9b", null ],
+    [ "getLast", "d0/dbf/a05124.html#a4f858b06a17f5bc17db10aebd3493142", null ],
+    [ "getSize", "d0/dbf/a05124.html#aa9c03e05aa61c1fc9fad84efd8f82db7", null ],
+    [ "incSize", "d0/dbf/a05124.html#a46d97d5710de2958555d37687df58fcb", null ],
+    [ "insertFirst", "d0/dbf/a05124.html#af28714c2195a3609871f42fa7a9dc74b", null ],
+    [ "insertLast", "d0/dbf/a05124.html#a20c91c0ace1d4404b55802fbc7704bb5", null ],
+    [ "IsEmpty", "d0/dbf/a05124.html#a5f450b83a615d010bedc7b0c6aa18d70", null ],
+    [ "iFirst", "d0/dbf/a05124.html#aee68918c2ddc42306a60a6858a2994f1", null ],
+    [ "iLast", "d0/dbf/a05124.html#a6b9e8b60fdabf4780567265f5e1ba9fa", null ],
+    [ "iSize", "d0/dbf/a05124.html#a7ebab224bc9412426c18fa3a8a9ea345", null ]
 ];

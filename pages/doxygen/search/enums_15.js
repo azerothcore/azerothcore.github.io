@@ -36,7 +36,7 @@ var searchData=
   ['victoryrushenum_33',['VictoryRushEnum',['../d9/d36/a04430.html#acef4cb7843a5797044c12329577e75e8',1,'spell_warrior.cpp']]],
   ['vilebranchspells_34',['VilebranchSpells',['../d2/de4/a03047.html#a2b453991d8b91e72ddbc2b582a5ab089',1,'boss_mandokir.cpp']]],
   ['visibilitydistancetype_35',['VisibilityDistanceType',['../d5/d32/a01214.html#ae675d6469643e2aca0b1840013245a1d',1,'ObjectDefines.h']]],
-  ['vmap_5fload_5fresult_36',['VMAP_LOAD_RESULT',['../d9/d76/a04677.html#a70f18a0d29fcdc21e145ab8306987b18',1,'VMAP']]],
+  ['vmap_5fload_5fresult_36',['VMAP_LOAD_RESULT',['../d7/de4/a04674.html#a70f18a0d29fcdc21e145ab8306987b18',1,'VMAP']]],
   ['voidreaver_37',['voidReaver',['../d5/d11/a04313.html#a28ac0e4c009a9641eced9517d2c0e8b6',1,'boss_void_reaver.cpp']]],
   ['volkahnspells_38',['VolkahnSpells',['../d1/d2f/a03767.html#a3d8eeb9f7fe68b166b8a2f065a81d72d',1,'boss_volkhan.cpp']]],
   ['volkhanevents_39',['VolkhanEvents',['../d1/d2f/a03767.html#ab7ca99e4345fc4056cdb5108fc327b53',1,'boss_volkhan.cpp']]],

@@ -1,6 +1,6 @@
 var a22892 =
 [
-    [ "npc_azure_binderAI", "d2/df0/a22896.html", "d2/df0/a22896" ],
-    [ "npc_azure_binder", "d0/da2/a22892.html#a25b8b19b6ccdae92418c47fe68537c42", null ],
-    [ "GetAI", "d0/da2/a22892.html#aad091206a8bd06a1064b68b81510eb56", null ]
+    [ "HandleEffectRemove", "d0/da2/a22892.html#a99891cf49d35a857cd014fe83bc83e43", null ],
+    [ "PrepareAuraScript", "d0/da2/a22892.html#ab8fed8e7b561146cca35fe8534ea248c", null ],
+    [ "Register", "d0/da2/a22892.html#a5a65a3fca846dc40aeb31e4ff56958ca", null ]
 ];

@@ -1,6 +1,6 @@
 var a27576 =
 [
-    [ "HandleDummy", "d1/dc7/a27576.html#aafc9efb0f8070566579724853a88ab03", null ],
-    [ "PrepareSpellScript", "d1/dc7/a27576.html#a248c1203a4f15b2cd60afed9fa33cb59", null ],
-    [ "Register", "d1/dc7/a27576.html#a362e2ab6921aaa0c10b70795a5eda0de", null ]
+    [ "npc_venomhide_hatchlingAI", "d1/dc7/a27576.html#aa5929973ae39166ef381a3ed3c42a29c", null ],
+    [ "IsSummonedBy", "d1/dc7/a27576.html#a6e1b76f43217f1eb855b50d58a069518", null ],
+    [ "SpellHit", "d1/dc7/a27576.html#ac6c255438dc2f6c750ee47b61fbc20a3", null ]
 ];

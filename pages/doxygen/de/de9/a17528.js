@@ -1,6 +1,6 @@
 var a17528 =
 [
-    [ "HandleDummy", "de/de9/a17528.html#a849d6414e0eb0d7c07992e295e2438a1", null ],
-    [ "PrepareSpellScript", "de/de9/a17528.html#abdee1ee39023eba859fd1620a5b7d080", null ],
-    [ "Register", "de/de9/a17528.html#ada766da7c52456d1edb6791c755627ff", null ]
+    [ "HandlePeriodicTick", "de/de9/a17528.html#accfe8a0cea8af9c9474d25fc3e7c7e22", null ],
+    [ "PrepareAuraScript", "de/de9/a17528.html#a9962029ce4a5223d7aa05068e8d83326", null ],
+    [ "Register", "de/de9/a17528.html#a64cf56299c8ab5292dbc9cddcee5f841", null ]
 ];

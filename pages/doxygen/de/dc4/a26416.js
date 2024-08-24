@@ -1,11 +1,9 @@
 var a26416 =
 [
-    [ "npc_floonAI", "de/dc4/a26416.html#a189ce3cc82b486178f06c340615b640b", null ],
-    [ "JustEngagedWith", "de/dc4/a26416.html#a9b1554d33ef674af8a199dfeed9849fd", null ],
-    [ "Reset", "de/dc4/a26416.html#a0bc567259daa6b3c2c70589c35425210", null ],
-    [ "UpdateAI", "de/dc4/a26416.html#a5741592304c3b97205449bbe82edd5f1", null ],
-    [ "Frostbolt_Timer", "de/dc4/a26416.html#a5895a32d35724b190108eaab2c30ae13", null ],
-    [ "FrostNova_Timer", "de/dc4/a26416.html#a53f394a8aa07fb5ee6a5ef64cc45fadd", null ],
-    [ "m_uiNormFaction", "de/dc4/a26416.html#a58960005f1ec7bbab0be0731e67d9b82", null ],
-    [ "Silence_Timer", "de/dc4/a26416.html#a1171013a4bd0227ab92a9c3c971cddd4", null ]
+    [ "HandleKnockBack", "de/dc4/a26416.html#acaa8f445874270f34ea5b42a506671db", null ],
+    [ "HandleScript", "de/dc4/a26416.html#a29e47298601cb55c5442a3fa59bb3646", null ],
+    [ "Load", "de/dc4/a26416.html#a45700aba665b601b2c860af5a869d1af", null ],
+    [ "PrepareSpellScript", "de/dc4/a26416.html#aad1c175a2611152278d847ac59f93090", null ],
+    [ "Register", "de/dc4/a26416.html#ad790d435f422fabd128e601fb2dff103", null ],
+    [ "Validate", "de/dc4/a26416.html#a889a129ddc3ea6fcd7f440fc7c163e08", null ]
 ];

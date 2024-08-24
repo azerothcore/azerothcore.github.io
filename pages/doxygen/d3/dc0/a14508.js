@@ -1,11 +1,11 @@
 var a14508 =
 [
-    [ "npc_doomfire_targettingAI", "d3/dc0/a14508.html#a07ece54edee7bcf83c0807f73b821403", null ],
-    [ "DamageTaken", "d3/dc0/a14508.html#aedb9b9cc650e648a69e5e45d1821b64a", null ],
-    [ "JustEngagedWith", "d3/dc0/a14508.html#aa28b612931636dc18ad1c498d9b0dd45", null ],
-    [ "MoveInLineOfSight", "d3/dc0/a14508.html#a1bf5c9024b607d5734e10be114cc7e65", null ],
-    [ "Reset", "d3/dc0/a14508.html#a0dc4f7aa069fd077b90799bc2a0c9627", null ],
-    [ "UpdateAI", "d3/dc0/a14508.html#abf01058da8dab586dc2f910bc17296c5", null ],
-    [ "ChangeTargetTimer", "d3/dc0/a14508.html#a5fa8995bc43274706361e8f929a5bc50", null ],
-    [ "TargetGUID", "d3/dc0/a14508.html#a9c96a59db9123dec192e0868bd775321", null ]
+    [ "npc_hyjal_ground_trash", "d3/dc0/a14508.html#a06b590bf9ef983b1ef2b94058144fc7d", null ],
+    [ "AttackStart", "d3/dc0/a14508.html#a0ab86d651644dcc579585176c2b5c07e", null ],
+    [ "DoAction", "d3/dc0/a14508.html#aa92481bcf993c4eda5ef271145200d77", null ],
+    [ "GetNearbyFriendlyTrashCreature", "d3/dc0/a14508.html#ad94fe6d4dca64fa8eec183481f82bb39", null ],
+    [ "JustEngagedWith", "d3/dc0/a14508.html#a576b909d65ae862af5dcc6500d2ff7e1", null ],
+    [ "PathEndReached", "d3/dc0/a14508.html#a035610284a56e690200f978b0fd496ab", null ],
+    [ "Reset", "d3/dc0/a14508.html#aa38b45f63841c049a2add0a9832268ef", null ],
+    [ "UpdateAI", "d3/dc0/a14508.html#a91b3ee049bf199271618afd3ad0c5f77", null ]
 ];

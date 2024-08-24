@@ -1,6 +1,6 @@
 var a15716 =
 [
-    [ "npc_twiggy_flatheadAI", "d8/d4e/a15720.html", "d8/d4e/a15720" ],
-    [ "npc_twiggy_flathead", "db/d23/a15716.html#a36e8ae89c9138e1a88c84ecbfd694963", null ],
-    [ "GetAI", "db/d23/a15716.html#a48c48994c199502bc3cfb96bf713bc5f", null ]
+    [ "PrepareSpellScript", "db/d23/a15716.html#a2a3602af522bb8658c1bfdede1234efd", null ],
+    [ "Register", "db/d23/a15716.html#aba235111ea4e186064a85295466f2a3f", null ],
+    [ "SetDest", "db/d23/a15716.html#a89827e4db37bea4847c79265d95386c6", null ]
 ];

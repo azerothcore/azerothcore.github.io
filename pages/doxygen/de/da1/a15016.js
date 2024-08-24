@@ -1,7 +1,7 @@
 var a15016 =
 [
-    [ "FilterTargets", "de/da1/a15016.html#a59e477333a54ec828a429d15b35d4936", null ],
-    [ "HandleScript", "de/da1/a15016.html#a983fe53aa52e53a45685055fde04a3b7", null ],
-    [ "PrepareSpellScript", "de/da1/a15016.html#a873e7766aa1cb6ebabbc77c31db6701c", null ],
-    [ "Register", "de/da1/a15016.html#a45ac61990990f16c98eaa7136297afc5", null ]
+    [ "FilterTargets", "de/da1/a15016.html#a76e8285baf1d14d560ad764eeab86cd5", null ],
+    [ "HandleOnHit", "de/da1/a15016.html#a587db6fa1dc5788e0cc9ec5e486e9393", null ],
+    [ "PrepareSpellScript", "de/da1/a15016.html#ad7372e543391a23c003b4121e0dd8a09", null ],
+    [ "Register", "de/da1/a15016.html#a9749c72e2c7964cd4a2b2f9a77da69ec", null ]
 ];

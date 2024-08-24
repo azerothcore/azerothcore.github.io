@@ -1,6 +1,6 @@
 var a23176 =
 [
-    [ "npc_minigob_manabonkAI", "dd/d3e/a23180.html", "dd/d3e/a23180" ],
-    [ "npc_minigob_manabonk", "d1/d6e/a23176.html#a5fdc2ed689faba54a659e6d3d77b9db8", null ],
-    [ "GetAI", "d1/d6e/a23176.html#aacb77fa440c127668bcbd055eb529baf", null ]
+    [ "FilterTargets", "d1/d6e/a23176.html#af545460920658bc8ee0444f7c0d51970", null ],
+    [ "PrepareSpellScript", "d1/d6e/a23176.html#a0bf365a43b99905fb7ae8152fe5b2687", null ],
+    [ "Register", "d1/d6e/a23176.html#ac12cde698f5b0bbcdf433821772c7519", null ]
 ];

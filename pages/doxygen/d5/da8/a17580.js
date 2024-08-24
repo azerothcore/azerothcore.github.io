@@ -1,5 +1,6 @@
 var a17580 =
 [
-    [ "achievement_share_the_love", "d5/da8/a17580.html#a3eaa89eaa356b0e2f8b5c688439baf9c", null ],
-    [ "OnCheck", "d5/da8/a17580.html#a9d6b6d19611d1482111692de9f2b1cc8", null ]
+    [ "CheckProc", "d5/da8/a17580.html#a86e62fa26606a77284c80583e7b35d27", null ],
+    [ "PrepareAuraScript", "d5/da8/a17580.html#a2c10a09e9e5015eb4f3c66d5086dbe1a", null ],
+    [ "Register", "d5/da8/a17580.html#a6214f78c5c7eb3f60371fa12530d5991", null ]
 ];

@@ -1,7 +1,7 @@
 var a02600 =
 [
-    [ "boss_vanndar", "d5/d07/a11483.html", "d5/d07/a11483" ],
-    [ "boss_vanndar::boss_vanndarAI", "d9/dc3/a11487.html", "d9/dc3/a11487" ],
+    [ "boss_vanndar", "d7/d4b/a11480.html", "d7/d4b/a11480" ],
+    [ "boss_vanndar::boss_vanndarAI", "d1/d2a/a11484.html", "d1/d2a/a11484" ],
     [ "Spells", "d1/d88/a02600.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "df/d39/a00950.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "df/d39/a00950.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

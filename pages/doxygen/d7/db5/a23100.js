@@ -1,7 +1,6 @@
 var a23100 =
 [
-    [ "npc_thassarianAI", "d7/db5/a23100.html#a92e873dc3aa97f81919225ce75a5f894", null ],
-    [ "Reset", "d7/db5/a23100.html#a8611ef17700c739dbd5e7a70660f1379", null ],
-    [ "UpdateAI", "d7/db5/a23100.html#ad09a3a063d716bc43e23b5aad5e46a7b", null ],
-    [ "_events", "d7/db5/a23100.html#aaecb5a402e4ffca1e819303dbb94f5b5", null ]
+    [ "HandleEffectApply", "d7/db5/a23100.html#adbfce9b247a8a36d143243955372dc91", null ],
+    [ "PrepareAuraScript", "d7/db5/a23100.html#a7a04c4f4c9cb1070d02d58bfa3d0c8e6", null ],
+    [ "Register", "d7/db5/a23100.html#afb919ed484440d382b9d1ac7cf6f3f14", null ]
 ];

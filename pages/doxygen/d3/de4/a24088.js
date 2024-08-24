@@ -1,13 +1,7 @@
 var a24088 =
 [
-    [ "OPvPCapturePointEP_CGT", "d3/de4/a24088.html#a82d8e9bff56eed1870b098dcf21f77cd", null ],
-    [ "ChangeState", "d3/de4/a24088.html#ab9d32c9a60bbdca9fc54d7e0b2bf8a5d", null ],
-    [ "FillInitialWorldStates", "d3/de4/a24088.html#af3fae27818d6213c2c96ce68676ede82", null ],
-    [ "HandlePlayerEnter", "d3/de4/a24088.html#a48cb29473f25ed9b469c7ff54acc9d88", null ],
-    [ "HandlePlayerLeave", "d3/de4/a24088.html#ad1886046ecf8c382e1fd0e01d6394614", null ],
-    [ "LinkGraveyard", "d3/de4/a24088.html#ada14179a31fb6235b7882a190dc96c40", null ],
-    [ "SendChangePhase", "d3/de4/a24088.html#a30d9f8701dd6a78740f7df0d2c7ceb9d", null ],
-    [ "UpdateTowerState", "d3/de4/a24088.html#a764284d6143d4879b5bc003acc52048c", null ],
-    [ "m_GraveyardSide", "d3/de4/a24088.html#aaf1f8440dc891ed45857bb7d15149d9a", null ],
-    [ "m_TowerState", "d3/de4/a24088.html#a6f434f86ed97f88368e3194a3bc3183b", null ]
+    [ "HandleEffectApply", "d3/de4/a24088.html#a362b5b818ab0029956fd22bd10b4b9ac", null ],
+    [ "HandleEffectRemove", "d3/de4/a24088.html#a96769390468dc132df62b5a0ec3a2da4", null ],
+    [ "PrepareAuraScript", "d3/de4/a24088.html#a7bad0d577281829e60c0fb577d6a7d6e", null ],
+    [ "Register", "d3/de4/a24088.html#a95905ec163c42463314a5f5bb023b4d6", null ]
 ];

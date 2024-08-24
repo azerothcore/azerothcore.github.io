@@ -1,12 +1,14 @@
 var a18324 =
 [
-    [ "npc_darnavanAI", "d2/d83/a18324.html#ae06019c24910c873877398f29f5a1737", null ],
-    [ "JustDied", "d2/d83/a18324.html#a49250dcdaed6de534de7a1fe3c5aa72c", null ],
-    [ "JustEngagedWith", "d2/d83/a18324.html#acbaedacea5ad19d82002c25b68623a27", null ],
-    [ "MovementInform", "d2/d83/a18324.html#afcd3bfd190fcb99e38f32129fb2ce861", null ],
-    [ "Reset", "d2/d83/a18324.html#a926c39a6e30507d9f9927f4f142e5a45", null ],
-    [ "UpdateAI", "d2/d83/a18324.html#a2b3b5e168989db21fc047acaf01413d9", null ],
-    [ "_canCharge", "d2/d83/a18324.html#ac37dc2ddc1787b7bd83b7e64ccdc6af8", null ],
-    [ "_canShatter", "d2/d83/a18324.html#aa7750edc8051c8ee453143491dccf122", null ],
-    [ "events", "d2/d83/a18324.html#aa8a022ccb1367432480f72d305c752ac", null ]
+    [ "npc_green_dragon_combat_triggerAI", "d2/d83/a18324.html#a4d4bd899a40ff44f8ee517b2a0328538", null ],
+    [ "AttackStart", "d2/d83/a18324.html#a5457c18c60a8301ea60ef34d810a14c9", null ],
+    [ "CanAIAttack", "d2/d83/a18324.html#aaf12ae21dddfa6b47ffa7880f65487a4", null ],
+    [ "DoAction", "d2/d83/a18324.html#abbd08537ed245084ca7d4cf852a749a2", null ],
+    [ "EnterEvadeMode", "d2/d83/a18324.html#a32bd4ed61bc62206ccedcf4acaeb8df8", null ],
+    [ "JustEngagedWith", "d2/d83/a18324.html#ad7385306f8058699ee004b7bc5f1b538", null ],
+    [ "JustReachedHome", "d2/d83/a18324.html#a2ae1c178a84c6d6899cf6400cb963e44", null ],
+    [ "MoveInLineOfSight", "d2/d83/a18324.html#ab2465cf3e5950d827eb0a30e9fc2ea47", null ],
+    [ "Reset", "d2/d83/a18324.html#a3dfe1f28c9301c30186beb27ab76f9a9", null ],
+    [ "UpdateAI", "d2/d83/a18324.html#a89ce158e08b3da1e54b0be6caa3950b8", null ],
+    [ "checkTimer", "d2/d83/a18324.html#ae5c238e2e201c431ceccc59a3a26078b", null ]
 ];

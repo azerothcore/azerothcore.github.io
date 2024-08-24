@@ -1,7 +1,6 @@
 var a13548 =
 [
-    [ "HandleScript", "de/d38/a13548.html#ad85959388a639a4eff41de6f86b993e7", null ],
-    [ "PrepareSpellScript", "de/d38/a13548.html#ab566be9bb39b22e6ac3fb3f9fe925480", null ],
-    [ "Register", "de/d38/a13548.html#aafefe99f81605c6f55f072deb2306385", null ],
-    [ "Validate", "de/d38/a13548.html#a63958630c37002d989cd32a8fc37dd37", null ]
+    [ "npc_akilzon_eagleAI", "d4/d93/a13552.html", "d4/d93/a13552" ],
+    [ "npc_akilzon_eagle", "de/d38/a13548.html#a226355ce2fa1a451ea61a212fd939ec5", null ],
+    [ "GetAI", "de/d38/a13548.html#ace5fc83cd4109ea05006660867a2dcf6", null ]
 ];

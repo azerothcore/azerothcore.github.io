@@ -1,6 +1,8 @@
 var a25688 =
 [
-    [ "spell_botanica_call_of_the_falcon_AuraScript", "d7/d25/a25692.html", "d7/d25/a25692" ],
-    [ "spell_botanica_call_of_the_falcon", "d9/d35/a25688.html#a7c868aa61cbfe256c2c510b62f8abcde", null ],
-    [ "GetAuraScript", "d9/d35/a25688.html#a732102eac1f22054aef22a420fbbbe2a", null ]
+    [ "OnRemove", "d9/d35/a25688.html#a645e869079e711a87f1a957b42a35e98", null ],
+    [ "OnStackChange", "d9/d35/a25688.html#adea8a4a7140e2f9fd4a44ef2a7b4d85b", null ],
+    [ "PrepareAuraScript", "d9/d35/a25688.html#a5f9e9d07879705917e1cd261808f0a8f", null ],
+    [ "Register", "d9/d35/a25688.html#ac86068a892255e38244c487a7456cd9f", null ],
+    [ "Validate", "d9/d35/a25688.html#a74cb62725d939000a1c4ab32b4f4335f", null ]
 ];

@@ -1,19 +1,15 @@
 var a16068 =
 [
-    [ "boss_sartharion_dragonAI", "d9/d48/a16068.html#afffee05f402a1960232c7920beb9beb9", null ],
-    [ "ClearInstance", "d9/d48/a16068.html#a9e1fb29994441dd2d41aeb2c04205d7b", null ],
-    [ "DoAction", "d9/d48/a16068.html#aeb49e63300a317f0e969159266fd8ea1", null ],
-    [ "HandleExtraEvent", "d9/d48/a16068.html#a406b4d5957efb872de3bff5c8012de2a", null ],
-    [ "JustDied", "d9/d48/a16068.html#a9c664ff661a3e83b98e1a28c81d662b0", null ],
-    [ "JustEngagedWith", "d9/d48/a16068.html#a2988e9a5a8edd9aa807d8b13867fe6d7", null ],
-    [ "JustSummoned", "d9/d48/a16068.html#a16582179f25ddc130f97bb70fe80316f", null ],
-    [ "KilledUnit", "d9/d48/a16068.html#a09428ec63c8589a527accf8b024f6666", null ],
-    [ "MoveInLineOfSight", "d9/d48/a16068.html#a75cd7f27019e4013adde104e7663e5bc", null ],
-    [ "MovementInform", "d9/d48/a16068.html#a6870b91b1d36c79add8bd86a8e1fac4d", null ],
-    [ "RemoveTwilightPortal", "d9/d48/a16068.html#a26aff742f99b04bfaf56fa46158ce306", null ],
-    [ "Reset", "d9/d48/a16068.html#a86acfe30f898bd6b709c4743ae808867", null ],
-    [ "UpdateAI", "d9/d48/a16068.html#a0e9382d8dce8251336d81539b7d82e15", null ],
-    [ "extraEvents", "d9/d48/a16068.html#a0018fdf6e4567a74e5b16e4e09a00836", null ],
-    [ "isCalledBySartharion", "d9/d48/a16068.html#a45a92a0754572b8d619fddbd1bdb234f", null ],
-    [ "portalGUID", "d9/d48/a16068.html#a852ab0dabe5b6d8e6b0a53e6425ff085", null ]
+    [ "npc_argent_soldierAI", "d9/d48/a16068.html#abbfbb5a1e116c6deb3db23f12ff8994f", null ],
+    [ "DamageTaken", "d9/d48/a16068.html#afb48cc1c2e254c292c33eade74b6fad7", null ],
+    [ "JustDied", "d9/d48/a16068.html#aedf4dcd909c1009fedfde593522454ec", null ],
+    [ "JustEngagedWith", "d9/d48/a16068.html#a0aa59fdf0668d64f3b670c595579ba81", null ],
+    [ "Reset", "d9/d48/a16068.html#a1a0c00c09c348f746730c9743d4b7b6b", null ],
+    [ "SetData", "d9/d48/a16068.html#a20b62b48f5cf92106fcd1860d9e91956", null ],
+    [ "UpdateAI", "d9/d48/a16068.html#aed2921c1f6bc0507bf9e6f02f224ab44", null ],
+    [ "WaypointReached", "d9/d48/a16068.html#af70fb91477dbeaa7e6e409f3381f0770", null ],
+    [ "bCheck", "d9/d48/a16068.html#af570597c33add7ac5ebf3d01e8c9b2df", null ],
+    [ "events", "d9/d48/a16068.html#ac458fc9a331dc7edfdc764215b1926e8", null ],
+    [ "pInstance", "d9/d48/a16068.html#ac9951514f27f343ae96e856f484e7baf", null ],
+    [ "uiWaypoint", "d9/d48/a16068.html#a87382571221c608017fd2d4cb99193dc", null ]
 ];

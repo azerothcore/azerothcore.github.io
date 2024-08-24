@@ -1,7 +1,7 @@
 var a13684 =
 [
-    [ "boss_darkheartAI", "db/de3/a13684.html#ad6d9bfca9061cfeba364c573a9121ca8", null ],
-    [ "Reset", "db/de3/a13684.html#ab1a7a8d509c332088b169b755afd81de", null ],
-    [ "UpdateAI", "db/de3/a13684.html#a69eea4895a3f93382e57409c409ce797", null ],
-    [ "psychicwail_timer", "db/de3/a13684.html#a3ef8d1d7b5dd4283d2281ca067c25b98", null ]
+    [ "npc_janalai_eggAI", "db/de3/a13684.html#a75bf6d0c7fdb09ace4352cde99edda81", null ],
+    [ "Reset", "db/de3/a13684.html#aad93238c8c26d678da6df2d0191d3763", null ],
+    [ "SpellHit", "db/de3/a13684.html#a2e097705ad9710b22be38931df30bcc3", null ],
+    [ "UpdateAI", "db/de3/a13684.html#a4aa8bfac1e4584497d48097535cc77d3", null ]
 ];

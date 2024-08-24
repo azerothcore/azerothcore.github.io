@@ -1,5 +1,11 @@
 var a19296 =
 [
-    [ "achievement_neck_deep_in_vile", "d3/d05/a19296.html#af0e54c236e7637d8c1a8cf7dbed5a195", null ],
-    [ "OnCheck", "d3/d05/a19296.html#a9861c008f302279a4ac5f4ddc14ca2d0", null ]
+    [ "npc_oculus_drakegiverAI", "d1/d40/a19300.html", "d1/d40/a19300" ],
+    [ "npc_oculus_drakegiver", "d3/d05/a19296.html#add34aba22fb2ca16f6f055dd77a2994b", null ],
+    [ "GetAI", "d3/d05/a19296.html#aa26a2b82c5e4076ce704d5884895d903", null ],
+    [ "OnGossipHello", "d3/d05/a19296.html#ac00d09d2d81121d562e3303704229c18", null ],
+    [ "OnGossipSelect", "d3/d05/a19296.html#ad0fc46e306080ccfe9988d416ef71e77", null ],
+    [ "RemoveEssence", "d3/d05/a19296.html#a70513d873111c590ca4e33cb446a4438", null ],
+    [ "StoreEssence", "d3/d05/a19296.html#ac8bbe890722aa924a7f0dee161d342c4", null ],
+    [ "openedMenu", "d3/d05/a19296.html#a650d1cd18700e29328e0fc97b1709f38", null ]
 ];

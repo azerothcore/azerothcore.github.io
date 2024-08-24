@@ -1,10 +1,18 @@
 var a28180 =
 [
-    [ "CheckProc", "d3/dcf/a28180.html#adce0da60782bcdadbb42ec1c73fddec1", null ],
-    [ "HandleProc", "d3/dcf/a28180.html#a82218c6f6319c60c26a7d4ec01b64bf9", null ],
-    [ "Load", "d3/dcf/a28180.html#ab9054a6d771022e4bf2b495c30ad8361", null ],
-    [ "PrepareAuraScript", "d3/dcf/a28180.html#ab8f483be4d01aa2460c90b043d7a441b", null ],
-    [ "Register", "d3/dcf/a28180.html#a4cb08499767ab58f0e525c382b662fbd", null ],
-    [ "Validate", "d3/dcf/a28180.html#aa6165f28706d49940dd1f62065631119", null ],
-    [ "_procTarget", "d3/dcf/a28180.html#a7b9426e18b454bf631992518c2bdbde0", null ]
+    [ "getArmorMod", "d3/dcf/a28180.html#a0e56e757faf660cabe0ba4316ee17f12", null ],
+    [ "getDPSMod", "d3/dcf/a28180.html#aa0718862ebfeea92ad299e04c9c622c8", null ],
+    [ "getFeralBonus", "d3/dcf/a28180.html#aa54c3d1add4a1b982c05138f876fd138", null ],
+    [ "getSpellBonus", "d3/dcf/a28180.html#aba240e0c9f81ca7d5f17d3631410a7b3", null ],
+    [ "getssdMultiplier", "d3/dcf/a28180.html#ab0fbc14e59c3a387b21d3f4a825d3b36", null ],
+    [ "IsTwoHand", "d3/dcf/a28180.html#ac83356dba956bfb0aa0a0fb0d976b60e", null ],
+    [ "armorMod", "d3/dcf/a28180.html#a742f8447dca5961fb39e50de8233fa86", null ],
+    [ "armorMod2", "d3/dcf/a28180.html#a36dba32ea7febb8dab627fa992de878b", null ],
+    [ "dpsMod", "d3/dcf/a28180.html#ace956cab0056bcf0e116ac0884ad3575", null ],
+    [ "Id", "d3/dcf/a28180.html#aebc75b8f80cb210b6af081077bd88e85", null ],
+    [ "Level", "d3/dcf/a28180.html#a5758f5152401efde26edf3110c0d11e2", null ],
+    [ "spellPower", "d3/dcf/a28180.html#a03804cca02fd1146dffb762bcd1274f8", null ],
+    [ "ssdMultiplier", "d3/dcf/a28180.html#a7559b9045268d8050372153c8c976946", null ],
+    [ "ssdMultiplier2", "d3/dcf/a28180.html#a57cdfb5465ced673edeb8c35bd7a3535", null ],
+    [ "ssdMultiplier3", "d3/dcf/a28180.html#ae78f00d5ed42704a4093b5df939498d7", null ]
 ];

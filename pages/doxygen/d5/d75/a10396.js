@@ -1,7 +1,12 @@
 var a10396 =
 [
-    [ "MapSessionFilter", "d5/d75/a10396.html#ad11a700c36f8f45640402e96edc74b49", null ],
-    [ "~MapSessionFilter", "d5/d75/a10396.html#a82960e741c8f64d24a764a915f14e2b8", null ],
-    [ "Process", "d5/d75/a10396.html#a54483596fe2a5a0d30fab9a13506b375", null ],
-    [ "ProcessUnsafe", "d5/d75/a10396.html#a8e3a7dd5affb24305435aea2c57718fa", null ]
+    [ "Charges", "d5/d75/a10396.html#ada45d7e00efb3bf27afcf9db1ad4d813", null ],
+    [ "Count", "d5/d75/a10396.html#a6f31a3d750d5c5f1b316f05e7ad9dbe9", null ],
+    [ "EnchantmentID", "d5/d75/a10396.html#a249a204f5d72d42f562c989b1cb92fc9", null ],
+    [ "Flags", "d5/d75/a10396.html#a3ca816132a756d3dc939877c57f6045d", null ],
+    [ "ItemID", "d5/d75/a10396.html#a5dc7e8b40834dba07c63322d80ed73ae", null ],
+    [ "RandomPropertiesID", "d5/d75/a10396.html#ad98a20548478fe99f9d6d345c5a3b732", null ],
+    [ "RandomPropertiesSeed", "d5/d75/a10396.html#ae5d493dd4798e11f02d8f02a57ba4274", null ],
+    [ "Slot", "d5/d75/a10396.html#afcc0a78c2f9a3061830679fece476a64", null ],
+    [ "SocketEnchant", "d5/d75/a10396.html#a55545d4d1b752e4f08bd05350b22892c", null ]
 ];

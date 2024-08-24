@@ -1,6 +1,7 @@
 var a23712 =
 [
-    [ "npc_mcmanus", "da/d89/a23712.html#a4e9da3fa22b74f51f72c58cbf22dc683", null ],
-    [ "OnGossipHello", "da/d89/a23712.html#acb8f8b9c10387c0bb45b7d68f7f9821f", null ],
-    [ "OnGossipSelect", "da/d89/a23712.html#a5e8c37ebcfa737ee3066ab8df3e453f8", null ]
+    [ "boss_warp_splinter", "da/d89/a23712.html#a1d0e8720baaadd1f6f4f6026597c9f63", null ],
+    [ "JustDied", "da/d89/a23712.html#a7e7850cf545e57f9fcd8d1aff42f8eb3", null ],
+    [ "JustEngagedWith", "da/d89/a23712.html#afc05b2f366e518d5e9ea3fbbfcba05cc", null ],
+    [ "KilledUnit", "da/d89/a23712.html#a0e974eb2bfae50383040fe9c7ccf74c1", null ]
 ];

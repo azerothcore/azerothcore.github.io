@@ -1,7 +1,6 @@
 var a10828 =
 [
-    [ "PlayerGuid", "d1/d4a/a10828.html#a629a600c48376d04293c225390f747ff", null ],
-    [ "PrimaryKey", "d1/d4a/a10828.html#a7c1ef4d19fb49e5813868ff2ccfe12fc", null ],
-    [ "StoredType", "d1/d4a/a10828.html#a9bea7cf549813010b55c23417d65edc6", null ],
-    [ "TableName", "d1/d4a/a10828.html#a0f308af88812c110c490c94368bda482", null ]
+    [ "WorldObjectSpellConeTargetCheck", "d1/d4a/a10828.html#a51fa6de40d065bd7ba52f4dc982f9a5e", null ],
+    [ "operator()", "d1/d4a/a10828.html#ac66207a4d1dbc9f59269127ee91f0657", null ],
+    [ "_coneAngle", "d1/d4a/a10828.html#a8f946789292320ea8b205dec5d1e1975", null ]
 ];

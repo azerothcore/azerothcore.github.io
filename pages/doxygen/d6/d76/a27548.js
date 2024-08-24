@@ -1,7 +1,6 @@
 var a27548 =
 [
-    [ "HandleJump", "d6/d76/a27548.html#ac70f6d53e85af1ee2591e761e21872db", null ],
-    [ "HandleScriptEffect", "d6/d76/a27548.html#abdaa3c5356f84429cf6d2e053a3238ff", null ],
-    [ "PrepareSpellScript", "d6/d76/a27548.html#a7daa7cef660e9f08b8e60c7788783c99", null ],
-    [ "Register", "d6/d76/a27548.html#a0cbd40958551e0f38850a9fdcd6f0048", null ]
+    [ "npc_fireworkAI", "d9/d73/a27552.html", "d9/d73/a27552" ],
+    [ "npc_firework", "d6/d76/a27548.html#a9efb6ed098e4eb3e24c30393cb5cb45d", null ],
+    [ "GetAI", "d6/d76/a27548.html#a9732f7b6eb8b3638bb6280ff7a71bcf7", null ]
 ];

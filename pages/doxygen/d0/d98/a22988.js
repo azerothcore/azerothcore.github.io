@@ -1,6 +1,8 @@
 var a22988 =
 [
-    [ "npc_iruk", "d0/d98/a22988.html#a721aeefd23371cc6bc16738a797bf50a", null ],
-    [ "OnGossipHello", "d0/d98/a22988.html#a774669099330c75ab5e0bea8d460f517", null ],
-    [ "OnGossipSelect", "d0/d98/a22988.html#ae6f7d54d224488a9e29c59c560eba471", null ]
+    [ "instance_black_temple_InstanceMapScript", "d0/d98/a22988.html#aa59f4d11ca1418bb3df3a7d5b11795b9", null ],
+    [ "OnCreatureCreate", "d0/d98/a22988.html#a814ac33238558b4e2a2ff57e6039d4fc", null ],
+    [ "OnGameObjectCreate", "d0/d98/a22988.html#a564a49814ceb3b3161a6476335ab653a", null ],
+    [ "SetBossState", "d0/d98/a22988.html#aadcbe48888eba0d0ed50eb9811ce40b0", null ],
+    [ "ashtongueGUIDs", "d0/d98/a22988.html#a85fa9c5231f13529a0741b0f92266c90", null ]
 ];

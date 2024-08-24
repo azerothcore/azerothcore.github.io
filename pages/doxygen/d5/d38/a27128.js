@@ -1,7 +1,9 @@
 var a27128 =
 [
-    [ "HandleEffectPeriodic", "d5/d38/a27128.html#a3a2e7653276964fd36c93b41aa8f25ea", null ],
-    [ "PrepareAuraScript", "d5/d38/a27128.html#a893a539f4eeb0b9f027c5a306cc7bd53", null ],
-    [ "Register", "d5/d38/a27128.html#a36792fd068ec7444aa118ec63cf972a7", null ],
-    [ "Validate", "d5/d38/a27128.html#aa57af116294cfba007586506ba1dbeb5", null ]
+    [ "go_tadpole_cageAI", "d5/d38/a27128.html#a87dc192a13cecf834d49cd04451224cd", null ],
+    [ "GossipHello", "d5/d38/a27128.html#a5c59db4b4d21b9e7de9bbb8835f31f2a", null ],
+    [ "OnStateChanged", "d5/d38/a27128.html#aa545ba4659b288c1ce1f5c2332d5e61f", null ],
+    [ "SummonTadpoles", "d5/d38/a27128.html#ab4903827c78b1b042cc17aef661a0b4f", null ],
+    [ "UpdateAI", "d5/d38/a27128.html#af6d4f5c3fe822815f58665a0207e3c32", null ],
+    [ "requireSummon", "d5/d38/a27128.html#a9884081855fc45776a6b12b9a68890e4", null ]
 ];

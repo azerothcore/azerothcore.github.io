@@ -1,8 +1,9 @@
 var a09476 =
 [
-    [ "Location", "d5/d62/a09476.html#a0c601d413eeb398eb75d386c264ef5ab", null ],
-    [ "Location", "d5/d62/a09476.html#ae013ab2bf44bb250644573625bf93265", null ],
-    [ "Location", "d5/d62/a09476.html#a0d50c28ba40b409a0c5a9776bfe8ef42", null ],
-    [ "Location", "d5/d62/a09476.html#a1270aec177f47a607cb5a1472819c738", null ],
-    [ "orientation", "d5/d62/a09476.html#a9fc2637d4441d90c528eaef0f0414b98", null ]
+    [ "LiquidData", "d5/d62/a09476.html#ac2435178323f480d2dae449b49b39146", null ],
+    [ "DepthLevel", "d5/d62/a09476.html#ad84c7763a6253db7ae6117ecc7144f1d", null ],
+    [ "Entry", "d5/d62/a09476.html#abfed22cb0e920067c0f86a0083ef4ab6", null ],
+    [ "Flags", "d5/d62/a09476.html#aa0903ec4233bcfa34494cea5068cd19c", null ],
+    [ "Level", "d5/d62/a09476.html#a7c596e921e383bbdbdacbcd4307fe380", null ],
+    [ "Status", "d5/d62/a09476.html#acb79cdfb4221f158ce9b29127591a8a9", null ]
 ];

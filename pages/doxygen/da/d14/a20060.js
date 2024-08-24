@@ -1,6 +1,5 @@
 var a20060 =
 [
-    [ "boss_heiganAI", "de/ddf/a20064.html", "de/ddf/a20064" ],
-    [ "boss_heigan", "da/d14/a20060.html#aefa3a6d870bde0d33504c5f2b56572be", null ],
-    [ "GetAI", "da/d14/a20060.html#ad9edf8eade874c1ecc2cecdac17700a1", null ]
+    [ "go_ulduar_pure_saronite_deposit", "da/d14/a20060.html#a39da51a78b9f27392ed7494e18e89b93", null ],
+    [ "OnGossipHello", "da/d14/a20060.html#ab69c5b514e0b79ff7155e0080841d4a2", null ]
 ];

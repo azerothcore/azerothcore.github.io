@@ -1,8 +1,7 @@
 var a14876 =
 [
-    [ "Load", "da/d40/a14876.html#a59e8723d8b73f45075db47e1e09e15fb", null ],
-    [ "PeriodicTick", "da/d40/a14876.html#ae4761ac3bce02903a7266511d80503f9", null ],
-    [ "PrepareAuraScript", "da/d40/a14876.html#a7bacc1ebd4b98e5e43b74e13471b2063", null ],
-    [ "Register", "da/d40/a14876.html#acc4db638e0d858085dc3fb2d6b45f7ec", null ],
-    [ "_ticks", "da/d40/a14876.html#ab858e9f6505fa32cc7325087d29fee8b", null ]
+    [ "npc_hivezara_stinger", "da/d40/a14876.html#ac9438c9dd260a41d6248f2adcc14b555", null ],
+    [ "JustEngagedWith", "da/d40/a14876.html#a433d31057f1732ef7ef15d2023e18b8a", null ],
+    [ "Reset", "da/d40/a14876.html#ae8e893c90942a469628c393d5b5380cc", null ],
+    [ "UpdateAI", "da/d40/a14876.html#a35a6511ebc0301ae0bb22aafc91c8524", null ]
 ];

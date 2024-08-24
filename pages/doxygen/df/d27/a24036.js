@@ -1,11 +1,8 @@
 var a24036 =
 [
-    [ "npc_drakuru_shacklesAI", "df/d27/a24036.html#aeb55bf23d97e963b0fb9a18596bb58b1", null ],
-    [ "LockRageclaw", "df/d27/a24036.html#aa58fff9ee8e6cbe4d2dd0d391215f1f4", null ],
-    [ "Reset", "df/d27/a24036.html#a566fba51edcddab8c5b0bf5688571f80", null ],
-    [ "SpellHit", "df/d27/a24036.html#a04a9f0cc28cd8cab89120e66972b74cf", null ],
-    [ "UnlockRageclaw", "df/d27/a24036.html#a65a4b408ac09ffa3155b955dc054d971", null ],
-    [ "UpdateAI", "df/d27/a24036.html#a8a04ac89e5ec9ce841445913765a1a73", null ],
-    [ "_rageclawGUID", "df/d27/a24036.html#a1c991305f4ef30146930747881e57de4", null ],
-    [ "timer", "df/d27/a24036.html#a2a6484216abd731ad016284a79575e1c", null ]
+    [ "npc_captain_saeedAI", "d2/d9d/a24040.html", "d2/d9d/a24040" ],
+    [ "npc_captain_saeed", "df/d27/a24036.html#a8a5bee9f908b10451b8d4720dff85670", null ],
+    [ "GetAI", "df/d27/a24036.html#aa6a232f6c2dd39483273cac41af9a7d7", null ],
+    [ "OnGossipHello", "df/d27/a24036.html#a7db9b76578743d4ee96b2c4f11dc265c", null ],
+    [ "OnGossipSelect", "df/d27/a24036.html#a8ace4d924b6f33312d914fb6ce1e0ea6", null ]
 ];

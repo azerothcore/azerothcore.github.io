@@ -1,8 +1,8 @@
 var a28644 =
 [
-    [ "CheckFireTotem", "dd/dec/a28644.html#a9d6b4368f5c72b95c25415ea87575fce", null ],
-    [ "HandleDummy", "dd/dec/a28644.html#a179d07e7090cec396a7845754e545e8e", null ],
-    [ "PrepareSpellScript", "dd/dec/a28644.html#a8311cc106da26267e90acd98698cb737", null ],
-    [ "Register", "dd/dec/a28644.html#abae5a4961888e6ba2d876e450307e362", null ],
-    [ "Validate", "dd/dec/a28644.html#a2048b0e43dbe2df6e4dfc42d912a74a7", null ]
+    [ "Color", "dd/dec/a28644.html#a379e4cf61345dbb4d93da5a8603138c0", null ],
+    [ "NameIndex", "dd/dec/a28644.html#add893e045d13a3633fd7346457a10477", null ],
+    [ "Position", "dd/dec/a28644.html#afae9056582e71160c151de2c172bc60a", null ],
+    [ "Rotation", "dd/dec/a28644.html#a48d372bc1371fa5f94db9aa39669942a", null ],
+    [ "Scale", "dd/dec/a28644.html#aefacaaf0be0745c95ffc53f410da6e8d", null ]
 ];

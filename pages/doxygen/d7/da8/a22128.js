@@ -1,6 +1,6 @@
 var a22128 =
 [
-    [ "boss_yoggsaron_guardian_of_ysAI", "de/da6/a22132.html", "de/da6/a22132" ],
-    [ "boss_yoggsaron_guardian_of_ys", "d7/da8/a22128.html#a299b346a4e9ac5190d554702dcf00faf", null ],
-    [ "GetAI", "d7/da8/a22128.html#a86380b3ad87e0070541d22d3fb74058f", null ]
+    [ "npc_vekjik", "d7/da8/a22128.html#a7439c6038237b77ba8623ae92d6cf708", null ],
+    [ "OnGossipHello", "d7/da8/a22128.html#acdbba5b4970049e72477eccf6672b0e8", null ],
+    [ "OnGossipSelect", "d7/da8/a22128.html#a0bcdcb6cd57264e664c449e261d3580b", null ]
 ];

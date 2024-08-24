@@ -1,8 +1,6 @@
 var a26060 =
 [
-    [ "npc_ancestral_wolfAI", "d4/d0c/a26060.html#a59ccca7093575f4bcac57a4751d977d4", null ],
-    [ "MoveInLineOfSight", "d4/d0c/a26060.html#aec5788f0be3c1dcb63b3e61b50ae39c1", null ],
-    [ "Reset", "d4/d0c/a26060.html#a9778a1648ca0007f7daf4ee98308d8d2", null ],
-    [ "WaypointReached", "d4/d0c/a26060.html#a2b553c29823e5ef888ee02a3ed413386", null ],
-    [ "ryga", "d4/d0c/a26060.html#ac238214604720e298124b58c35d58e05", null ]
+    [ "HandleDummy", "d4/d0c/a26060.html#a1e9ecf50304f5ccd8578befea898bf81", null ],
+    [ "PrepareSpellScript", "d4/d0c/a26060.html#a9cf7d1dd37f6df4651ffc83e6aa0b1c0", null ],
+    [ "Register", "d4/d0c/a26060.html#a98a5ad12cdb54f48d6014fda3915fd70", null ]
 ];

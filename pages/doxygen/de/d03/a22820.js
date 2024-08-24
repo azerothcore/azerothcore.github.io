@@ -1,12 +1,6 @@
 var a22820 =
 [
-    [ "boss_moraggAI", "de/d03/a22820.html#a3ae881c9adca20a2cb894af85297d53e", null ],
-    [ "EnterEvadeMode", "de/d03/a22820.html#a4e70e42407f452c4685c732949fd2b52", null ],
-    [ "JustDied", "de/d03/a22820.html#a97516e6ad5f7f35d0329674130e76dd3", null ],
-    [ "JustEngagedWith", "de/d03/a22820.html#ab1d4d863a537a3c567eeda6f95f385ca", null ],
-    [ "MoveInLineOfSight", "de/d03/a22820.html#a52a99d72dfa017baacb76717e6db931b", null ],
-    [ "Reset", "de/d03/a22820.html#a8b7419c94e36b4b2292cf110a2eccb01", null ],
-    [ "UpdateAI", "de/d03/a22820.html#aec7645eaae190d1e7982aae181ff9224", null ],
-    [ "events", "de/d03/a22820.html#acd021e4216e3920f0534da95d69ba5eb", null ],
-    [ "pInstance", "de/d03/a22820.html#a9f179ea9b180095a1e6df11b4842c5e5", null ]
+    [ "HandleEffectRemove", "de/d03/a22820.html#ae9baf688d8ac42c4ccbbf13f3b79e831", null ],
+    [ "PrepareAuraScript", "de/d03/a22820.html#a2e2668f0b5bf369ec859627e0bd8d980", null ],
+    [ "Register", "de/d03/a22820.html#acd7e22159d262a9888c744eecb978c09", null ]
 ];

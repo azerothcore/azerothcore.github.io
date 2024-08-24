@@ -1,10 +1,18 @@
 var a11992 =
 [
-    [ "instance_gnomeregan_InstanceMapScript", "df/d0e/a11992.html#a0080fdf557ad8159a8934dce5b39a535", null ],
-    [ "OnCreatureCreate", "df/d0e/a11992.html#ac607601becc7fbf4ea9c64d87c93287c", null ],
-    [ "OnGameObjectCreate", "df/d0e/a11992.html#a0c2f4d615394ef1d6e1b930ed6aff82f", null ],
-    [ "ReadSaveDataMore", "df/d0e/a11992.html#a85d3db22430a4bac7e01dcfa1a1efb5b", null ],
-    [ "SetData", "df/d0e/a11992.html#af800a1906c532f61f0299f8aa9359a66", null ],
-    [ "WriteSaveDataMore", "df/d0e/a11992.html#a1b30829b3c782bb2c52e5da4fa388d5c", null ],
-    [ "_encounters", "df/d0e/a11992.html#ae19a56e7fdcb2d0204d444cba11b7441", null ]
+    [ "boss_vaelAI", "df/d0e/a11992.html#acc7eceafe9cc5a5cb5e7045d143d5ca6", null ],
+    [ "BeginSpeech", "df/d0e/a11992.html#a448dcc64099fff57b4c18841f8715dbe", null ],
+    [ "Initialize", "df/d0e/a11992.html#a4364710f3634b6caeea3b739efe7dc56", null ],
+    [ "JustEngagedWith", "df/d0e/a11992.html#a860aa0077f235f652bd6f9a247a40e30", null ],
+    [ "JustSummoned", "df/d0e/a11992.html#a6eb3e6649d0a476fc9b2c12107cea43b", null ],
+    [ "KilledUnit", "df/d0e/a11992.html#a15e4df870d3c5263ab534cd1d2bb8a75", null ],
+    [ "Reset", "df/d0e/a11992.html#a8aab1f11a688d05289bae6acf216cf1c", null ],
+    [ "sGossipSelect", "df/d0e/a11992.html#abd3c8c7ab8d7af10ae297443ac24bd9c", null ],
+    [ "UpdateAI", "df/d0e/a11992.html#a570948cbf0c2ddde65ca77092c4b37a3", null ],
+    [ "_burningAdrenalineCast", "df/d0e/a11992.html#ab1048eb2da3e93f5cb67a8f23d35be2e", null ],
+    [ "_eventsIntro", "df/d0e/a11992.html#aed37566236cb2872b3a85de9f994f0cb", null ],
+    [ "_introDone", "df/d0e/a11992.html#aab29cb166d390a56a1d3b94dd07f1c63", null ],
+    [ "HasYelled", "df/d0e/a11992.html#a4eace0c62b5ad50f7c1a525485da08fb", null ],
+    [ "m_nefariusGuid", "df/d0e/a11992.html#a9402e7435904dffb8a494dc60d6d02e9", null ],
+    [ "PlayerGUID", "df/d0e/a11992.html#a1a86b7b15e0a435284afab6ac724968c", null ]
 ];

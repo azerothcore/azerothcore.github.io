@@ -1,6 +1,5 @@
 var a27596 =
 [
-    [ "OnRemove", "db/df9/a27596.html#adcdc87bcfb9aee5eaa227ba66ad5f010", null ],
-    [ "PrepareAuraScript", "db/df9/a27596.html#a9b3985c6f2b1b88ab86ec38c8508fc16", null ],
-    [ "Register", "db/df9/a27596.html#a0bc1dae33d0a780623f4551b1dfb1fbf", null ]
+    [ "ServerMailReward", "db/df9/a27596.html#aba48b4c171e8e8a40fca2d3bed6b7f63", null ],
+    [ "OnLogin", "db/df9/a27596.html#a8ab4fb6042c3f32ca327cf965330afd2", null ]
 ];

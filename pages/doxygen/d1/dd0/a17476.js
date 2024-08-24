@@ -1,6 +1,10 @@
 var a17476 =
 [
-    [ "spell_pos_glacial_strikeAuraScript", "d9/d40/a17480.html", "d9/d40/a17480" ],
-    [ "spell_pos_glacial_strike", "d1/dd0/a17476.html#a359a8215d419ac98af82226fcc89879f", null ],
-    [ "GetAuraScript", "d1/dd0/a17476.html#a76f93c3b958d40a413a28382ce9a69de", null ]
+    [ "npc_gunship_gunnerAI", "d1/dd0/a17476.html#a3001e77b4a20feb0eee5a9605f13ba81", null ],
+    [ "AttackStart", "d1/dd0/a17476.html#ac21b90c1892c15882794384517ef9fd2", null ],
+    [ "CanAIAttack", "d1/dd0/a17476.html#aef351305ef34fa316809697125a3bc9a", null ],
+    [ "MovementInform", "d1/dd0/a17476.html#a94d81b882dd59dd00b0952b45d61a7cb", null ],
+    [ "UpdateAI", "d1/dd0/a17476.html#a8fbb601c3accdf3b0494d317bc0d5733", null ],
+    [ "anyValid", "d1/dd0/a17476.html#a00c7dc23618c60826241133a0067c1c4", null ],
+    [ "checkTimer", "d1/dd0/a17476.html#af80cee9c2c86fa8b4c643d262042ba3c", null ]
 ];

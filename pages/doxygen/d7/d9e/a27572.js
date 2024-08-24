@@ -1,6 +1,7 @@
 var a27572 =
 [
-    [ "HandleDummy", "d7/d9e/a27572.html#a8b9510efa5af25ef698fc6eb49b19b69", null ],
-    [ "PrepareSpellScript", "d7/d9e/a27572.html#a80b89fbd2506191b897dcf367ff11500", null ],
-    [ "Register", "d7/d9e/a27572.html#a522730e5ba844728c0b3d6f423cd123a", null ]
+    [ "npc_venomhide_hatchlingAI", "d1/dc7/a27576.html", "d1/dc7/a27576" ],
+    [ "npc_venomhide_hatchling", "d7/d9e/a27572.html#a4dc217dd5950db7b270b7cce3e594e4d", null ],
+    [ "GetAI", "d7/d9e/a27572.html#a96110b752965d751ab7b466c4f67e333", null ],
+    [ "OnGossipHello", "d7/d9e/a27572.html#a404d875592b847ddb9f3250c9d954bfc", null ]
 ];

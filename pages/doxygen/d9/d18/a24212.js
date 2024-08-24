@@ -1,6 +1,6 @@
 var a24212 =
 [
-    [ "instance_auchenai_crypts_InstanceMapScript", "d3/d51/a24216.html", "d3/d51/a24216" ],
-    [ "instance_auchenai_crypts", "d9/d18/a24212.html#a8b16924167c54a9d8120bac67bc10fed", null ],
-    [ "GetInstanceScript", "d9/d18/a24212.html#a99e47df95fde07d4a6e7687634805b93", null ]
+    [ "npc_shattrathflaskvendors", "d9/d18/a24212.html#ab74b234406c2022bf519242a7842458a", null ],
+    [ "OnGossipHello", "d9/d18/a24212.html#af165d6f4640b41a92b36d77c1f1c1161", null ],
+    [ "OnGossipSelect", "d9/d18/a24212.html#ad9eb60422dfc663e6d020a630c09ee05", null ]
 ];

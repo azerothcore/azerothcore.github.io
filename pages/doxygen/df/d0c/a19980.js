@@ -1,6 +1,7 @@
 var a19980 =
 [
-    [ "HandleDamageCalc", "df/d0c/a19980.html#a0325af900821d758e0677d81cfed3db4", null ],
-    [ "PrepareSpellScript", "df/d0c/a19980.html#ab5693ad860440c7fbce7a1ba2399a43c", null ],
-    [ "Register", "df/d0c/a19980.html#a45ae1abb2c5b138742ee27df1d95007f", null ]
+    [ "boss_freya_healthy_sporeAI", "df/d0c/a19980.html#a1f72bc2b113f3b909d44fd54fff87e31", null ],
+    [ "Reset", "df/d0c/a19980.html#ad6d6562b5cc9f8232bdda99ec2204052", null ],
+    [ "UpdateAI", "df/d0c/a19980.html#ace79c59d62e597ae31425b4006e1363f", null ],
+    [ "_despawnTimer", "df/d0c/a19980.html#aaf65ef07480e5c634cc42dac0c7c734c", null ]
 ];

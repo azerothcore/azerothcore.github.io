@@ -1,9 +1,9 @@
 var a23172 =
 [
-    [ "npc_mageguard_dalaranAI", "d2/d7a/a23172.html#adb9c8b0003c070114b63f3b8e538bceb", null ],
-    [ "AttackStart", "d2/d7a/a23172.html#ac1e73ad92bd5db0d3b9fe23b36cd8dd7", null ],
-    [ "JustEngagedWith", "d2/d7a/a23172.html#aac463689ae5a488ec2acb8a0310689d8", null ],
-    [ "MoveInLineOfSight", "d2/d7a/a23172.html#aafb32462693e0efd9c80cf335f489754", null ],
-    [ "Reset", "d2/d7a/a23172.html#aa6dde0732bac407a62403bb8f0f24c26", null ],
-    [ "UpdateAI", "d2/d7a/a23172.html#a4d6ce701a4cc463a7e9c295c664d4440", null ]
+    [ "CalcPeriodic", "d2/d7a/a23172.html#a5cd39919a088cab2fd160ea6e16ee7c8", null ],
+    [ "HandleEffectApply", "d2/d7a/a23172.html#adb983cc531fa666648bbdb432684ff1d", null ],
+    [ "HandleEffectRemove", "d2/d7a/a23172.html#a99c1bfc5aa4b67318bb3572589a42b1a", null ],
+    [ "OnPeriodic", "d2/d7a/a23172.html#aecefab535157dbe8e42aff3b23cd685b", null ],
+    [ "PrepareAuraScript", "d2/d7a/a23172.html#ad9ecc1fd4bcf1a2ecb5e2d1ec2ea37f7", null ],
+    [ "Register", "d2/d7a/a23172.html#a3771abcc829883ba0cbae9587adbe751", null ]
 ];

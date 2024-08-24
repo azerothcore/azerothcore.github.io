@@ -1,6 +1,6 @@
 var a27036 =
 [
-    [ "OnPeriodic", "d8/d69/a27036.html#a3bcef6bd4501489320ef1242a66c50e8", null ],
-    [ "PrepareAuraScript", "d8/d69/a27036.html#ab18f839ab70cc61e52c5e9ddb4847140", null ],
-    [ "Register", "d8/d69/a27036.html#afbc707f30b7db0329f24b9ab8e8134e0", null ]
+    [ "boss_lethonAI", "dd/da8/a27040.html", "dd/da8/a27040" ],
+    [ "boss_lethon", "d8/d69/a27036.html#a5d758979b061646830373de64b2b3af4", null ],
+    [ "GetAI", "d8/d69/a27036.html#a493baf37aac400635dd0409e79375a1c", null ]
 ];

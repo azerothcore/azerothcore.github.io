@@ -1,6 +1,6 @@
 var a20172 =
 [
-    [ "boss_thaddiusAI", "d9/dd5/a20176.html", "d9/dd5/a20176" ],
-    [ "boss_thaddius", "df/ddf/a20172.html#aff97b030b861feb646e1b22f60ee3605", null ],
-    [ "GetAI", "df/ddf/a20172.html#acf841c6897396f517a74932fc3480e69", null ]
+    [ "HandleAfterEffectApply", "df/ddf/a20172.html#af655bb31dc24a3cede08ca371f784913", null ],
+    [ "PrepareAuraScript", "df/ddf/a20172.html#a1824853d0b369deac0745fabe2df657c", null ],
+    [ "Register", "df/ddf/a20172.html#a33e7c6cab2c99789661e6bb2d6b9a593", null ]
 ];

@@ -1,6 +1,6 @@
 var a26348 =
 [
-    [ "npc_greatfather_aldrimusAI", "d6/de7/a26352.html", "d6/de7/a26352" ],
-    [ "npc_greatfather_aldrimus", "d0/da1/a26348.html#ac4af9fa1d0fe1348d43d598bce7a69db", null ],
-    [ "GetAI", "d0/da1/a26348.html#a9fd2394e90bd9817ad51ad7d3ca15f63", null ]
+    [ "HandleDummy", "d0/da1/a26348.html#aa530b0e27c9b9ba1978a80fd4a47f68d", null ],
+    [ "PrepareSpellScript", "d0/da1/a26348.html#a22adac71d2693d17313e506f1d12532f", null ],
+    [ "Register", "d0/da1/a26348.html#a2680afcbe3d7e95404c614e2f0f93bf4", null ]
 ];

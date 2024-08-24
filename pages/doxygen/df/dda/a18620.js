@@ -1,11 +1,7 @@
 var a18620 =
 [
-    [ "npc_little_oozeAI", "df/dda/a18620.html#a6fb3ac6e3f2c39b96ee4fe265e4940dd", null ],
-    [ "EnterEvadeMode", "df/dda/a18620.html#a0bd4bfcc8c373a449f297011289e5530", null ],
-    [ "IsSummonedBy", "df/dda/a18620.html#afb9763ade36bd742398a8bca961c136b", null ],
-    [ "JustDied", "df/dda/a18620.html#a37e5898e3dc1704be9fba2178567fd2a", null ],
-    [ "UpdateAI", "df/dda/a18620.html#a6ee56789d528c2b6dcb04abaff6806cb", null ],
-    [ "events", "df/dda/a18620.html#aa0d2113458887b73fe2af36f9d3ab0f1", null ],
-    [ "firstUpdate", "df/dda/a18620.html#aa3aca24bc97bcd9a2030fccf6782cf9c", null ],
-    [ "instance", "df/dda/a18620.html#a8a4ec828f144f071c0c6f2bf48b69cc0", null ]
+    [ "HandleDummyLaunch", "df/dda/a18620.html#a4991dab04ed9cb8cfd846588a8ef01bf", null ],
+    [ "PrepareSpellScript", "df/dda/a18620.html#a8926bc8e228eaaa4a7d554643b50e48d", null ],
+    [ "Register", "df/dda/a18620.html#add5dc6c0a3b618fba3d3a73b6c76235b", null ],
+    [ "Validate", "df/dda/a18620.html#a577166695c1479e3730a70637bc18cf1", null ]
 ];

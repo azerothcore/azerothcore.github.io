@@ -1,8 +1,8 @@
 var a14500 =
 [
-    [ "npc_doomfireAI", "d0/d0b/a14500.html#a5582301a6a55f9bac432ff76fd250847", null ],
-    [ "DamageTaken", "d0/d0b/a14500.html#ae4cdc672dbfa375070178c20d9e21754", null ],
-    [ "JustEngagedWith", "d0/d0b/a14500.html#a1203ca47ab4c8843c2751761d48cebf3", null ],
-    [ "MoveInLineOfSight", "d0/d0b/a14500.html#a1b3a7385923b06ed9ea8fba18440ca3b", null ],
-    [ "Reset", "d0/d0b/a14500.html#a9263d2adef50fd4f1f085d216858a750", null ]
+    [ "hyjalTyrandeAI", "d0/d0b/a14500.html#ac2f5449b60cd137dbc1f6ddc8afe5309", null ],
+    [ "JustDied", "d0/d0b/a14500.html#af5c7b843b8e1a7c0864b55853bc62097", null ],
+    [ "JustEngagedWith", "d0/d0b/a14500.html#a158589b567d22c8f6e0be462bad8299d", null ],
+    [ "Reset", "d0/d0b/a14500.html#a5ea52a1ee3730630d1efbdac4ad24c80", null ],
+    [ "UpdateAI", "d0/d0b/a14500.html#a9e825f9d87df6227b73eb965488eff8a", null ]
 ];

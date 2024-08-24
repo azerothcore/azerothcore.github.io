@@ -1,9 +1,12 @@
 var a23068 =
 [
-    [ "npc_warmage_coldarraAI", "df/dbc/a23068.html#a9a8c2afff61ad8457aab8a9c23a4b755", null ],
-    [ "AttackStart", "df/dbc/a23068.html#a41277824ae3f6bd9a099894b6dfc7537", null ],
-    [ "JustEngagedWith", "df/dbc/a23068.html#a23a8999e34142201c6ceadc64a3df6c2", null ],
-    [ "Reset", "df/dbc/a23068.html#adf5094ba2bee34ec793124e798d5af8f", null ],
-    [ "UpdateAI", "df/dbc/a23068.html#a14b221265cc38b4061c52b687274a398", null ],
-    [ "m_uiTimer", "df/dbc/a23068.html#a338ad26d40d395dfc6ed7e8fedcc6d60", null ]
+    [ "boss_fathomguard_sharkkis", "df/dbc/a23068.html#affc3a4422ce62311879bef6df104c9b9", null ],
+    [ "EnterEvadeMode", "df/dbc/a23068.html#a344072e382566575168cdcf57d0f6481", null ],
+    [ "JustDied", "df/dbc/a23068.html#a1a4fdf91f6d8d0e3e0672e174152a59d", null ],
+    [ "JustEngagedWith", "df/dbc/a23068.html#a5724db6f55f1c5ed2e351603a1b26943", null ],
+    [ "JustSummoned", "df/dbc/a23068.html#a31098d1e91412b797663fe677114af20", null ],
+    [ "Reset", "df/dbc/a23068.html#a5d8b89e2d4a203df5ec574b96df0d489", null ],
+    [ "UpdateAI", "df/dbc/a23068.html#ab71689fda10d6d31dd2bfc72026bd755", null ],
+    [ "_instance", "df/dbc/a23068.html#ad3dc90987a8b01fcd55799f66d18906c", null ],
+    [ "_summons", "df/dbc/a23068.html#a73f887b3f829027fc336a8e4a9c5b963", null ]
 ];

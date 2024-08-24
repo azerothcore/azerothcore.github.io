@@ -1,5 +1,6 @@
 var a22588 =
 [
-    [ "go_palehoof_sphere", "df/d0a/a22588.html#a9e31fe7531980a5f75af95e24cbc272d", null ],
-    [ "OnGossipHello", "df/d0a/a22588.html#ad939fd46f8bdf32d4e158f32f2bcd8da", null ]
+    [ "instance_mana_tombs_InstanceMapScript", "db/d60/a22592.html", "db/d60/a22592" ],
+    [ "instance_mana_tombs", "df/d0a/a22588.html#a78ca8b378e4ab290f1eea2b2b5799630", null ],
+    [ "GetInstanceScript", "df/d0a/a22588.html#a26e4dad0957df886bc446396ab48ceda", null ]
 ];

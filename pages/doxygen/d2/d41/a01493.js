@@ -1,4 +1,0 @@
-var a01493 =
-[
-    [ "MAX_INBOX_CLIENT_CAPACITY", "d2/d41/a01493.html#ae1d9c2394745301897af9c167e219ca8", null ]
-];

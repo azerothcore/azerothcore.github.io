@@ -1,6 +1,5 @@
 var a10300 =
 [
-    [ "PetUnlearnedSpell", "df/d24/a10300.html#aa2b125a271228aee0d942a207de170b7", null ],
-    [ "Write", "df/d24/a10300.html#a11cf7780eba530026a0898bfafd27109", null ],
-    [ "SpellID", "df/d24/a10300.html#adfca5feb5be2408e489edc44e9cd215b", null ]
+    [ "GuildEventLogQuery", "df/d24/a10300.html#af66d667a4b722745fa4f855870ef332c", null ],
+    [ "Read", "df/d24/a10300.html#a48881f116070d5a7c03e7cace86656f6", null ]
 ];

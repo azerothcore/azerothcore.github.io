@@ -1,6 +1,6 @@
 var a24396 =
 [
-    [ "PrepareAuraScript", "d1/df1/a24396.html#a072bb705008099f6e6f49260d6ab21e4", null ],
-    [ "Register", "d1/df1/a24396.html#a302e454c209cb545ae092f4d050a955d", null ],
-    [ "AuraEffectHandleModes", "d1/df1/a24396.html#ad45984e2c33247b9a65d6ae04c9da619", null ]
+    [ "DeathEvent", "d1/df1/a24396.html#a2fb9a98c077d715c4648aede6597276e", null ],
+    [ "Execute", "d1/df1/a24396.html#a497ac46ab1acf95816020fc6be8ce03a", null ],
+    [ "_owner", "d1/df1/a24396.html#a099d0d5ae50126f00220b3ed90907617", null ]
 ];

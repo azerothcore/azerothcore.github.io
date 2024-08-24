@@ -1,6 +1,5 @@
 var a22120 =
 [
-    [ "boss_yoggsaron_cloudAI", "dd/dc4/a22124.html", "dd/dc4/a22124" ],
-    [ "boss_yoggsaron_cloud", "d6/d2b/a22120.html#ab52cc1fa8b45b70dde340b9f463ef2f1", null ],
-    [ "GetAI", "d6/d2b/a22120.html#a2005f062eb9d78c7b09b045eba570b98", null ]
+    [ "go_pressure_valve", "d6/d2b/a22120.html#a43a91a1379001ecd3e825d7d4fcd3c6b", null ],
+    [ "OnGossipHello", "d6/d2b/a22120.html#a6b81a04a33cd5e1e577fc80a3b1f706c", null ]
 ];

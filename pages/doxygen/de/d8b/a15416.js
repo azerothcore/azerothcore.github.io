@@ -1,6 +1,7 @@
 var a15416 =
 [
-    [ "npc_rabid_thistle_bearAI", "db/d9f/a15420.html", "db/d9f/a15420" ],
-    [ "npc_rabid_thistle_bear", "de/d8b/a15416.html#a34b20a4ea22d74352712dee105247d56", null ],
-    [ "GetAI", "de/d8b/a15416.html#ab5c21cd3afa0bd13c937e6acf1912af4", null ]
+    [ "npc_kaya_flathoofAI", "db/d9f/a15420.html", "db/d9f/a15420" ],
+    [ "npc_kaya_flathoof", "de/d8b/a15416.html#a588f88b1c00927a4ad6b7cd25fc1b065", null ],
+    [ "GetAI", "de/d8b/a15416.html#ad7cce0c1a30abe5bc0bffa777c40c79a", null ],
+    [ "OnQuestAccept", "de/d8b/a15416.html#acdb20ecb1ffee4417c9b39f3aebb0591", null ]
 ];

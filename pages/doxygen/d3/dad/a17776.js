@@ -1,6 +1,7 @@
 var a17776 =
 [
-    [ "PrepareSpellScript", "d3/dad/a17776.html#a791d566f3149a006b2a139f68e3039b4", null ],
-    [ "Register", "d3/dad/a17776.html#a8fedbb4cd8da31469279d17b129dc7ef", null ],
-    [ "SetDest", "d3/dad/a17776.html#adef4b003c17799dd12eb170200a952ec", null ]
+    [ "CheckRequirement", "d3/dad/a17776.html#a1568599758bdc757ae448ab5a77c1cc7", null ],
+    [ "CheckRequirementInternal", "d3/dad/a17776.html#ac2559b4a925fc0960a902fa2b306dc54", null ],
+    [ "PrepareSpellScript", "d3/dad/a17776.html#a0d6745dab09cdd228fc802e482c3d15c", null ],
+    [ "Register", "d3/dad/a17776.html#a95a250aeb3a41922c529f476d39f18e4", null ]
 ];

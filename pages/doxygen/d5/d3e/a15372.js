@@ -1,6 +1,6 @@
 var a15372 =
 [
-    [ "npc_stillpine_capitiveAI", "d3/dbe/a15376.html", "d3/dbe/a15376" ],
-    [ "npc_stillpine_capitive", "d5/d3e/a15372.html#a6c9ce06ffe8cafaea2f428ba610d6964", null ],
-    [ "GetAI", "d5/d3e/a15372.html#ad1d81ae43d3c417b8817da61afef4e4b", null ]
+    [ "npc_anachronos_the_ancientAI", "d3/dbe/a15376.html", "d3/dbe/a15376" ],
+    [ "npc_anachronos_the_ancient", "d5/d3e/a15372.html#a720884359886e6f881190471005f4cfc", null ],
+    [ "GetAI", "d5/d3e/a15372.html#a345c801231907d98f2ab2425b1d35cbc", null ]
 ];

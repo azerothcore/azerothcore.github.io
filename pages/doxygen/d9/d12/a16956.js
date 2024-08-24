@@ -1,6 +1,6 @@
 var a16956 =
 [
-    [ "OnPeriodic", "d9/d12/a16956.html#a37d7c38d9e3d20626a4481226d29d2e1", null ],
-    [ "PrepareAuraScript", "d9/d12/a16956.html#af8944636e1015d7cacab82d628b22b79", null ],
-    [ "Register", "d9/d12/a16956.html#aa123e0e97d73915d5dc6d92eeb61fb30", null ]
+    [ "npc_pos_freed_slaveAI", "d4/da9/a16960.html", "d4/da9/a16960" ],
+    [ "npc_pos_freed_slave", "d9/d12/a16956.html#a19fd79279646cb1c49c04056636615fc", null ],
+    [ "GetAI", "d9/d12/a16956.html#ac798c2584d48892162cc2bc779701e16", null ]
 ];

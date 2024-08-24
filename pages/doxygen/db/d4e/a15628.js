@@ -1,16 +1,18 @@
 var a15628 =
 [
-    [ "npc_qiraj_war_spawnAI", "db/d4e/a15628.html#a1122bc3961300ba39c02613ba0fcd909", null ],
-    [ "JustDied", "db/d4e/a15628.html#ada3362722a2f7a4ac5e3e807385c30fc", null ],
-    [ "JustEngagedWith", "db/d4e/a15628.html#a628da97f8b8bda848880c53a509ad1f5", null ],
-    [ "Reset", "db/d4e/a15628.html#a617104afe4d5cca5cd0d98fe12cb1608", null ],
-    [ "UpdateAI", "db/d4e/a15628.html#afeed6ddc214d7d6ba6156a90e4465cb2", null ],
-    [ "hasTarget", "db/d4e/a15628.html#ad36ad196f757d6014f7aa7cf7afb167b", null ],
-    [ "MobGUID", "db/d4e/a15628.html#a4148121a56275770ee84744a0288b6c5", null ],
-    [ "PlayerGUID", "db/d4e/a15628.html#a9e4294e9b7ce773263e0bd16512602ce", null ],
-    [ "SpellTimer1", "db/d4e/a15628.html#a8979a90473c62aad604857d92574e5f1", null ],
-    [ "SpellTimer2", "db/d4e/a15628.html#a91cb2356a92ef987bd1ba6d31b560ec1", null ],
-    [ "SpellTimer3", "db/d4e/a15628.html#aeea20bb2f78ece03df38a3e9aa5d8b59", null ],
-    [ "SpellTimer4", "db/d4e/a15628.html#a301971cf821e68e6be3223d4076f8b49", null ],
-    [ "Timers", "db/d4e/a15628.html#a460bbddfe94e9c84eaa0ad83e087ebf4", null ]
+    [ "boss_elder_nadox", "db/d4e/a15628.html#a718d8fffde11b1df5a44650096c474cc", null ],
+    [ "DamageTaken", "db/d4e/a15628.html#a34dd3a07faeee096b1c8574f63353893", null ],
+    [ "GetData", "db/d4e/a15628.html#ad2f80bcefb6c43370546d867fd4fc951", null ],
+    [ "JustDied", "db/d4e/a15628.html#a1342dbd6de10197c6ba4bc8e43cceace", null ],
+    [ "JustEngagedWith", "db/d4e/a15628.html#a659f83714070b7358b43d1c7eb46ac1c", null ],
+    [ "KilledUnit", "db/d4e/a15628.html#a78310e83e518b64c1373b60a946f9748", null ],
+    [ "Reset", "db/d4e/a15628.html#ab5e492f39552b64c0333b6fbce89c1ae", null ],
+    [ "SummonedCreatureDies", "db/d4e/a15628.html#a77d9861b2e2de593d0b44c2fd9449f17", null ],
+    [ "SummonHelpers", "db/d4e/a15628.html#ae65044c111e514a3050ea14f1155a7dc", null ],
+    [ "UpdateAI", "db/d4e/a15628.html#abbb783581208c76fa371f01efd481b66", null ],
+    [ "guardianEggs", "db/d4e/a15628.html#aae96b622766ab4478a8510bd1c7a9f1f", null ],
+    [ "guardianSummoned", "db/d4e/a15628.html#a5543be0c08bf1d432b36bfdb2d532f0d", null ],
+    [ "previousSwarmEgg_GUID", "db/d4e/a15628.html#add5ff92f92b8d01caef0b12a98569535", null ],
+    [ "respectYourElders", "db/d4e/a15628.html#aac97ef9511e64692a152077b43e83e75", null ],
+    [ "swarmEggs", "db/d4e/a15628.html#a28c8b6826ed86e30b573883cab83168f", null ]
 ];

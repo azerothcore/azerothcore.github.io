@@ -1,14 +1,12 @@
 var a20332 =
 [
-    [ "boss_anomalusAI", "d9/df0/a20332.html#a5f7d1b7b4d7c4d298b22dbf4c8d2e6a6", null ],
-    [ "CheckEvadeIfOutOfCombatArea", "d9/df0/a20332.html#a68c052fcb1a9bc96d82a4284eec0d132", null ],
-    [ "GetData", "d9/df0/a20332.html#a561ad0c1bfc31e9c9d04e07492a96bb2", null ],
-    [ "JustDied", "d9/df0/a20332.html#ae079850413f8f0e87a8d3677a475ba95", null ],
-    [ "JustEngagedWith", "d9/df0/a20332.html#a85da2f5caadf2d38b710a731f4ffe957", null ],
-    [ "JustSummoned", "d9/df0/a20332.html#a2e5306347151100436907dc8ea6b7c86", null ],
-    [ "Reset", "d9/df0/a20332.html#a3e2711ea84cc728716c9e207d8b35ccc", null ],
-    [ "SetData", "d9/df0/a20332.html#a26500dd41960a99400606ceca91bf3e9", null ],
-    [ "UpdateAI", "d9/df0/a20332.html#a5429e5d51739b00f92b00460335f6830", null ],
-    [ "achievement", "d9/df0/a20332.html#a40fa36e5c5fc131e7c063e90ea2468a6", null ],
-    [ "activeRifts", "d9/df0/a20332.html#a66e477fb306404cc544e13417c835138", null ]
+    [ "npc_ulduar_proximity_mineAI", "d9/df0/a20332.html#aa3001a71c8a298be688631d618745495", null ],
+    [ "AttackStart", "d9/df0/a20332.html#afe5572c8fd1f8acc64ca57304d8be254", null ],
+    [ "CanAIAttack", "d9/df0/a20332.html#a0216f41bf596eb43a9b9eea13152d262", null ],
+    [ "MoveInLineOfSight", "d9/df0/a20332.html#afe07e3cd341d6a84592ab9b33e02d6d5", null ],
+    [ "SpellHitTarget", "d9/df0/a20332.html#aaf6c9c8843a61d29326ab6c662b174f9", null ],
+    [ "UpdateAI", "d9/df0/a20332.html#adadc4c33ff356bd5eed6d82115dc888a", null ],
+    [ "exploded", "d9/df0/a20332.html#a1706ff0cfd7192040c32f13a37610c43", null ],
+    [ "timer", "d9/df0/a20332.html#a4c743646055b4c95bf379a751eb5892e", null ],
+    [ "timer2", "d9/df0/a20332.html#a446b7658fa4c165f43947a05562827b2", null ]
 ];

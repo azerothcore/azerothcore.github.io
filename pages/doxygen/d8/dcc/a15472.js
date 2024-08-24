@@ -1,6 +1,6 @@
 var a15472 =
 [
-    [ "spell_mount_check_AuraScript", "d0/d43/a15476.html", "d0/d43/a15476" ],
-    [ "spell_mount_check", "d8/dcc/a15472.html#a1504dfdd0558fabfe5ae7ffaa1336c5f", null ],
-    [ "GetAuraScript", "d8/dcc/a15472.html#a276eed27e5bd98ddbe34069a5955fac1", null ]
+    [ "npc_twiggy_flatheadAI", "d0/d43/a15476.html", "d0/d43/a15476" ],
+    [ "npc_twiggy_flathead", "d8/dcc/a15472.html#a36e8ae89c9138e1a88c84ecbfd694963", null ],
+    [ "GetAI", "d8/dcc/a15472.html#a48c48994c199502bc3cfb96bf713bc5f", null ]
 ];

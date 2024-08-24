@@ -1,10 +1,11 @@
 var a15152 =
 [
-    [ "boss_huhuran", "d1/d3d/a15152.html#a64e0b20891992764c708cbb661c18196", null ],
-    [ "DamageTaken", "d1/d3d/a15152.html#adb47086f29b41f4168ad5d1b2728547d", null ],
-    [ "JustEngagedWith", "d1/d3d/a15152.html#a08f1d6550680d5bcf07332eade115730", null ],
-    [ "Reset", "d1/d3d/a15152.html#a45571aa6bd0c7915fb666cae1c5c4544", null ],
-    [ "UpdateAI", "d1/d3d/a15152.html#a23962e668f046b373f94ea6a2d75574a", null ],
-    [ "_berserk", "d1/d3d/a15152.html#a5f3f17d0b239f95ed4eb0bfac85c4463", null ],
-    [ "_hardEnrage", "d1/d3d/a15152.html#a5612bf8b1eedec159b316b28e6f4c915", null ]
+    [ "npc_magwinAI", "d1/d3d/a15152.html#ad4a352dd0c7c6f76e74f110b00ec9053", null ],
+    [ "JustEngagedWith", "d1/d3d/a15152.html#aea2ab8bf79d6fcc3d2036d160274fab8", null ],
+    [ "Reset", "d1/d3d/a15152.html#a883ef3cd1b097847de148ccb9bd3e903", null ],
+    [ "sQuestAccept", "d1/d3d/a15152.html#aafef28bc7879e29d1fa79ec08f58da55", null ],
+    [ "UpdateEscortAI", "d1/d3d/a15152.html#a34236331be8842a9e2a98036ea382e18", null ],
+    [ "WaypointReached", "d1/d3d/a15152.html#a7278a3cff406af2ecb3d29c7bf90febc", null ],
+    [ "_events", "d1/d3d/a15152.html#a32dad2bde92efab7e0f0d16e809df665", null ],
+    [ "_player", "d1/d3d/a15152.html#ac3d7059ee67abcafa0586f0bed5df9cc", null ]
 ];

@@ -1,8 +1,9 @@
 var a16468 =
 [
-    [ "npc_black_knight_skeletal_gryphonAI", "d1/dad/a16468.html#ada99dced1e560aebc908a0efb6c23d0a", null ],
-    [ "DoAction", "d1/dad/a16468.html#af38e129cdf4af99e99c41b6a98448e56", null ],
-    [ "Reset", "d1/dad/a16468.html#a5e20d5e17baaac92a560a5b2fe15fe7b", null ],
-    [ "UpdateAI", "d1/dad/a16468.html#a851008790128831c5c10710b4cccb196", null ],
-    [ "WaypointReached", "d1/dad/a16468.html#a74b5fb1d3631c404e7797085e45e6159", null ]
+    [ "npc_concentrated_ballAI", "d1/dad/a16468.html#a5aae1554934d8e2aaa59d420a13517b6", null ],
+    [ "DoAction", "d1/dad/a16468.html#ad3284ed37cdc503a688aa6fb2537387e", null ],
+    [ "MovementInform", "d1/dad/a16468.html#a07845a436ded9c799b742ac9e27cc1bd", null ],
+    [ "MoveToNextPoint", "d1/dad/a16468.html#a89d2697d5ccf6d783e973efc3b4669aa", null ],
+    [ "UpdateAI", "d1/dad/a16468.html#a6509ff14639bca29b6877db54102d004", null ],
+    [ "despawning", "d1/dad/a16468.html#a24145c6c4c38b5a1853647d24871090d", null ]
 ];

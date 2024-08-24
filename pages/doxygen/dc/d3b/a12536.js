@@ -1,6 +1,6 @@
 var a12536 =
 [
-    [ "npc_crusade_persuadedAI", "dd/d5f/a12540.html", "dd/d5f/a12540" ],
-    [ "npc_crusade_persuaded", "dc/d3b/a12536.html#a4048e164fc99b9dfff41fd168fb542b6", null ],
-    [ "GetAI", "dc/d3b/a12536.html#a004833d7e6312b23eb6a07c0a6e41db6", null ]
+    [ "spell_item_gift_of_the_harvester_SpellScript", "dd/d5f/a12540.html", "dd/d5f/a12540" ],
+    [ "spell_item_gift_of_the_harvester", "dc/d3b/a12536.html#abf8f22a048bc20fcbbf4db5cefab5bf8", null ],
+    [ "GetSpellScript", "dc/d3b/a12536.html#ae5c916a45dffae91374af2c20c4785d3", null ]
 ];

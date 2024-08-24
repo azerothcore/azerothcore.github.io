@@ -1,6 +1,8 @@
 var a28184 =
 [
-    [ "FilterTargets", "de/da6/a28184.html#a23c7b977f7e213322b3702367d6a28c7", null ],
-    [ "PrepareSpellScript", "de/da6/a28184.html#a7000b2fd940c914933c486e847932b62", null ],
-    [ "Register", "de/da6/a28184.html#a870ee08d0341f6640710a87c97a6b98b", null ]
+    [ "ClassMask", "de/da6/a28184.html#a563ba1618ffefa5470696e37f65c70d4", null ],
+    [ "Flags", "de/da6/a28184.html#af89c32a22f018557fe016e0784a82384", null ],
+    [ "RaceMask", "de/da6/a28184.html#acff47bf5c075d669f95b0d229674f9bc", null ],
+    [ "SkillID", "de/da6/a28184.html#ab9237a8776aa854e0f81cf228a247ef0", null ],
+    [ "SkillTierID", "de/da6/a28184.html#ab6153043461b71336e12b00957499075", null ]
 ];

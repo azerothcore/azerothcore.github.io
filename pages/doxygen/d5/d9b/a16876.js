@@ -1,6 +1,7 @@
 var a16876 =
 [
-    [ "npc_announcer_toc10", "d5/d9b/a16876.html#ae495b19328c6a743dfd8f1cbf37a0bd6", null ],
-    [ "OnGossipHello", "d5/d9b/a16876.html#afcc5262e7c49b7456af146de14805a06", null ],
-    [ "OnGossipSelect", "d5/d9b/a16876.html#a9a2bf1d3a215332744ca473041cc0520", null ]
+    [ "HandlePeriodicTick", "d5/d9b/a16876.html#ac8b3f1a826e3491d4315983a89d23d2e", null ],
+    [ "PrepareAuraScript", "d5/d9b/a16876.html#ad54c3014195c5b848ab1f9cc978f72b3", null ],
+    [ "Register", "d5/d9b/a16876.html#af8e1ee8ddf7ed8290eb71fb7697428fb", null ],
+    [ "Validate", "d5/d9b/a16876.html#a6de2140f17790b63314f653b7dd0ddd3", null ]
 ];

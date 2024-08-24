@@ -1,8 +1,7 @@
 var a26832 =
 [
-    [ "AfterRemove", "d4/d38/a26832.html#afdd1575bce3b34da6e3a101eaa695c41", null ],
-    [ "HandleDispel", "d4/d38/a26832.html#a3c2ffe31074115f6cab5f4b18b05dbc3", null ],
-    [ "PrepareAuraScript", "d4/d38/a26832.html#a44e66753516d693c31dba27c9d1ad250", null ],
-    [ "Register", "d4/d38/a26832.html#aa21ecabbf52b457e163f17b3012b0f84", null ],
-    [ "Validate", "d4/d38/a26832.html#a6af7e5aa16b3c84ed1388e2f62424701", null ]
+    [ "HandleDummy", "d4/d38/a26832.html#a3af91500357eb127f813334bdf538dbd", null ],
+    [ "PrepareSpellScript", "d4/d38/a26832.html#ae34ff5e6027efecc34fa770690df5887", null ],
+    [ "Register", "d4/d38/a26832.html#add4e4d484008d1e1cf63e36c6b6e9757", null ],
+    [ "Validate", "d4/d38/a26832.html#a0b107442c0b76a018cc019f776c0b785", null ]
 ];

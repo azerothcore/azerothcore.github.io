@@ -1,10 +1,12 @@
 var a24116 =
 [
-    [ "OPvPCapturePointHP", "d6/d3e/a24116.html#a7f5fa3e3bd28924965cc08f41b5d6bd8", null ],
-    [ "ChangeState", "d6/d3e/a24116.html#aa0dc544ad3d53255dbfdab7461efcaa1", null ],
-    [ "FillInitialWorldStates", "d6/d3e/a24116.html#a4021432ef58674bf456ad2684e56b256", null ],
-    [ "HandlePlayerEnter", "d6/d3e/a24116.html#ad9738c621df084d5a3f0070c80403642", null ],
-    [ "HandlePlayerLeave", "d6/d3e/a24116.html#a86e849e5387383a6c751e69350ffa07c", null ],
-    [ "SendChangePhase", "d6/d3e/a24116.html#a42528a90eda9ec28dd00df3f0ec78a15", null ],
-    [ "m_TowerType", "d6/d3e/a24116.html#a0191bec2d9492e21957ed9b4e0fed484", null ]
+    [ "npc_enslaved_netherwing_drake", "d6/d3e/a24116.html#a9f848fa3c68b8a269f0b6016058ec364", null ],
+    [ "_GetPlayer", "d6/d3e/a24116.html#af02a965e98f35134a3c40ed9cdfb723e", null ],
+    [ "JustDied", "d6/d3e/a24116.html#acde70c9d8c675a9a9dd14695dc752184", null ],
+    [ "MovementInform", "d6/d3e/a24116.html#afa030a380365daa33c156a0d6be6a6d9", null ],
+    [ "Reset", "d6/d3e/a24116.html#aec02b19d27a09f16ef06adb694c2e65e", null ],
+    [ "SpellHit", "d6/d3e/a24116.html#a195794e88870a0b1ca35473f5f0378a7", null ],
+    [ "UpdateAI", "d6/d3e/a24116.html#aa7ac2dd17bdf4939d74fe5af85c649b9", null ],
+    [ "_playerGUID", "d6/d3e/a24116.html#a2f9a6a6cbaa9cab0e6014f6fd1c54346", null ],
+    [ "_tapped", "d6/d3e/a24116.html#a9cbafd9536ff7eca33b0b44295aaec92", null ]
 ];

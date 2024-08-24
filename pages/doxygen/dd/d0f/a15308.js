@@ -1,5 +1,6 @@
 var a15308 =
 [
-    [ "go_naga_brazier", "dd/d0f/a15308.html#a727b897b70a8a02e897ab1c38c7d43dc", null ],
-    [ "OnGossipHello", "dd/d0f/a15308.html#af014b15a8d7dfd9fdae4817ddd407798", null ]
+    [ "npc_bunthen_plainswind", "dd/d0f/a15308.html#ad9b789ad3e958dee4733b142813b6302", null ],
+    [ "OnGossipHello", "dd/d0f/a15308.html#ae2fe8bfb957dd8ea84d2585293c3b6eb", null ],
+    [ "OnGossipSelect", "dd/d0f/a15308.html#a117f28d513ac645b9d3d908d052d2146", null ]
 ];

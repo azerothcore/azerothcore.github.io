@@ -1,8 +1,6 @@
 var a25376 =
 [
-    [ "boss_broggok", "df/d71/a25376.html#ae20c04793116d3e8eab62d2ee27010df", null ],
-    [ "DoAction", "df/d71/a25376.html#af5de5a1747c502f72af015c09d050354", null ],
-    [ "JustEngagedWith", "df/d71/a25376.html#a084e3c37a0218d47c8e39b196fc6746a", null ],
-    [ "JustSummoned", "df/d71/a25376.html#a0bf2d75f7889542a9e48689b8d080a1e", null ],
-    [ "Reset", "df/d71/a25376.html#af11b4dc2aee8064a1eaad334d93e6de0", null ]
+    [ "CheckCast", "df/d71/a25376.html#a849de7a9bc8d22ca1556e4e798807eaa", null ],
+    [ "PrepareSpellScript", "df/d71/a25376.html#aadbfe7c69dac7cbc76aee2bfb790b612", null ],
+    [ "Register", "df/d71/a25376.html#a2ca1fd7353e69d1028b8a9b2882d7931", null ]
 ];

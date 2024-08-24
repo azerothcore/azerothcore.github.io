@@ -1,5 +1,6 @@
 var a21116 =
 [
-    [ "go_ulduar_tower", "dc/d42/a21116.html#afc1add1a0543921f52afe1eb907f5de3", null ],
-    [ "OnDestroyed", "dc/d42/a21116.html#aa72ebefe52d49e5b07fb36232efd7e95", null ]
+    [ "HandleDummyEffect", "dc/d42/a21116.html#a25bc99811aa2c7bf4bfbf8ad628a2771", null ],
+    [ "PrepareSpellScript", "dc/d42/a21116.html#a07376c95cb2ec41d86a24be59094d207", null ],
+    [ "Register", "dc/d42/a21116.html#aaa02dab30b29e6f646db52468fc35eb2", null ]
 ];

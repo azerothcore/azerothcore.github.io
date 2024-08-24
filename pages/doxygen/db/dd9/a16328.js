@@ -1,6 +1,7 @@
 var a16328 =
 [
-    [ "spell_halion_summon_exit_portals_SpellScript", "d9/d4c/a16332.html", "d9/d4c/a16332" ],
-    [ "spell_halion_summon_exit_portals", "db/dd9/a16328.html#a2bd029e03ab6dc6fed56fdf5b419ccaa", null ],
-    [ "GetSpellScript", "db/dd9/a16328.html#a8c35951be453fb8a95e33ab938e07a84", null ]
+    [ "npc_toc_retro_paladinAI", "db/dd9/a16328.html#afe933281cea61c9a4f3ded76290a3b72", null ],
+    [ "myCanCast", "db/dd9/a16328.html#a271b1d0855dbd2e38ecb6ea62140012f", null ],
+    [ "UpdateAI", "db/dd9/a16328.html#a105d6b9c133c1147b310826d7be416f5", null ],
+    [ "events", "db/dd9/a16328.html#a7078c28d5392bc77d577fa7a6f96b9d7", null ]
 ];

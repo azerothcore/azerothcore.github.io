@@ -1,6 +1,6 @@
 var a23192 =
 [
-    [ "npc_dalaran_warriorAI", "de/d59/a23196.html", "de/d59/a23196" ],
-    [ "npc_dalaran_warrior", "d6/d4a/a23192.html#a13d44b85173232ddedcc35184d50549c", null ],
-    [ "GetAI", "d6/d4a/a23192.html#a1e84676d2a76bac728a1f23f5f9fc25e", null ]
+    [ "instance_serpentshrine_cavern_InstanceMapScript", "de/d59/a23196.html", "de/d59/a23196" ],
+    [ "instance_serpent_shrine", "d6/d4a/a23192.html#aac4fc7113307805138ba4ce4a9adff09", null ],
+    [ "GetInstanceScript", "d6/d4a/a23192.html#aa81add2f4aeb8b2084bcc81c05b606c7", null ]
 ];

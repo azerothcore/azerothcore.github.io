@@ -1,6 +1,8 @@
 var a19048 =
 [
-    [ "spell_the_lich_king_shadow_trap_periodic_SpellScript", "d6/d98/a19052.html", "d6/d98/a19052" ],
-    [ "spell_the_lich_king_shadow_trap_periodic", "de/dba/a19048.html#af2eef3be550078a0bdf85ad5e4569df4", null ],
-    [ "GetSpellScript", "de/dba/a19048.html#a6822c3dbc3b2dde65ab681bbec4fac2d", null ]
+    [ "npc_teslaAI", "de/dba/a19048.html#a7281220648af1357b1377d6f7874d663", null ],
+    [ "DamageTaken", "de/dba/a19048.html#aa3ab570e86261bc3178e17109d76af12", null ],
+    [ "EnterEvadeMode", "de/dba/a19048.html#acc8115216989b34593a9435eeb051eda", null ],
+    [ "JustEngagedWith", "de/dba/a19048.html#add93f68bc96b3c93dc0a3271543711e6", null ],
+    [ "UpdateAI", "de/dba/a19048.html#a962745569b07e368067ee483d2379840", null ]
 ];

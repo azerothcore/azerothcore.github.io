@@ -1,6 +1,7 @@
 var a25112 =
 [
-    [ "spell_lurker_below_spout_AuraScript", "d6/dc2/a25116.html", "d6/dc2/a25116" ],
-    [ "spell_lurker_below_spout", "d7/d8d/a25112.html#aa29c750406573a112a5028424ca09689", null ],
-    [ "GetAuraScript", "d7/d8d/a25112.html#ac7682f01e835aecbd782b37b16ba8411", null ]
+    [ "CheckIfLanceEquiped", "d7/d8d/a25112.html#a3bf3a98f1eff2b2229603228a470a701", null ],
+    [ "PrepareSpellScript", "d7/d8d/a25112.html#a2af9ee2ccd34c97734c58bfcbb83c8b5", null ],
+    [ "Register", "d7/d8d/a25112.html#a4421ceaedce16777f8f04b9c40855782", null ],
+    [ "Validate", "d7/d8d/a25112.html#ab0908d7a15e7554c735d8e5554f7cd65", null ]
 ];

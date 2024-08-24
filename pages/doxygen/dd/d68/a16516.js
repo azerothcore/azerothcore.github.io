@@ -1,8 +1,6 @@
 var a16516 =
 [
-    [ "npc_announcer_toc5AI", "dd/d68/a16516.html#a96e1bd089dfd21fa252bc6422d20bada", null ],
-    [ "DamageTaken", "dd/d68/a16516.html#a53458483699ac026ff2cd36b5f061571", null ],
-    [ "MovementInform", "dd/d68/a16516.html#acdcf4110b3815635ad173a70e7a1e603", null ],
-    [ "Reset", "dd/d68/a16516.html#ab3dca17e0350d6d46a9069f97f2d12ef", null ],
-    [ "UpdateAI", "dd/d68/a16516.html#ad2c596253d67d051f497a8d77859846d", null ]
+    [ "OnPeriodic", "dd/d68/a16516.html#a6f2e191d76f894517aed395866b7e508", null ],
+    [ "PrepareAuraScript", "dd/d68/a16516.html#a571ee1c735b6095408973bfe5f91bcf7", null ],
+    [ "Register", "dd/d68/a16516.html#a6094dc303c034e49fb4e543874db080b", null ]
 ];

@@ -1,10 +1,8 @@
 var a08960 =
 [
-    [ "PlayerMoveItemData", "d4/d43/a08960.html#a2f707719b409975ddd3023d2239403d6", null ],
-    [ "CanStore", "d4/d43/a08960.html#a00680db86d45ad8e8652218fce05139d", null ],
-    [ "InitItem", "d4/d43/a08960.html#a34298fd6ac20ab0e02c6350dcc5a4d33", null ],
-    [ "IsBank", "d4/d43/a08960.html#ae4d45104dccf78581b4228a31fe192ad", null ],
-    [ "LogBankEvent", "d4/d43/a08960.html#a36516c5ca1aaa13afa9e61831a175068", null ],
-    [ "RemoveItem", "d4/d43/a08960.html#a482460f04b20349e909bac36f893a35a", null ],
-    [ "StoreItem", "d4/d43/a08960.html#a017e3bd414548e66f980587e81e598e5", null ]
+    [ "NearestGameObjectFishingHole", "d4/d43/a08960.html#ab0e4734202edf26b69881ab85abe1d93", null ],
+    [ "NearestGameObjectFishingHole", "d4/d43/a08960.html#a256c64e6c82d98349b958647d98bf4ce", null ],
+    [ "operator()", "d4/d43/a08960.html#a52e2c64f8209ab364f4e85e1f4e947dc", null ],
+    [ "i_obj", "d4/d43/a08960.html#a182fbf6b5cc68fb0eba6be26568c9d78", null ],
+    [ "i_range", "d4/d43/a08960.html#af27a870fb654a130bf1e4ac1472fdffc", null ]
 ];

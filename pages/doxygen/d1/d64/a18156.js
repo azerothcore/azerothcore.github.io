@@ -1,6 +1,8 @@
 var a18156 =
 [
-    [ "spell_igb_explosion_main_AuraScript", "db/d41/a18160.html", "db/d41/a18160" ],
-    [ "spell_igb_explosion_main", "d1/d64/a18156.html#a900769f4d9041f100c3f3d2bcb0cb837", null ],
-    [ "GetAuraScript", "d1/d64/a18156.html#a709ce8e73a5258907b9b9f1c466bf8a1", null ]
+    [ "ChangeDamageAndGrow", "d1/d64/a18156.html#a017ade08eca93f326d2e5115c4d88c33", null ],
+    [ "CorrectRange", "d1/d64/a18156.html#a9022b9efab89bc562428520b3551ff37", null ],
+    [ "PrepareSpellScript", "d1/d64/a18156.html#a3e1d1764add95728428cbf25f9b66dc4", null ],
+    [ "Register", "d1/d64/a18156.html#a998b810cdbecbca2bf65f18cee14d286", null ],
+    [ "Validate", "d1/d64/a18156.html#afe0910e903f6f8f466b272ce9ddc7a6b", null ]
 ];

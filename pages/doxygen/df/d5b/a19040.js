@@ -1,6 +1,8 @@
 var a19040 =
 [
-    [ "spell_the_lich_king_shadow_trap_visual_AuraScript", "da/dbd/a19044.html", "da/dbd/a19044" ],
-    [ "spell_the_lich_king_shadow_trap_visual", "df/d5b/a19040.html#a1ac053abada6c7051f61a47b0ecac2b2", null ],
-    [ "GetAuraScript", "df/d5b/a19040.html#af43f303164e305bb66d4e54108591e49", null ]
+    [ "HandleAfterCast", "df/d5b/a19040.html#ac816f81a668ac3018be8f5dc4698039b", null ],
+    [ "HandleDummy", "df/d5b/a19040.html#a3009faa525c22779a0b2534b96821cfd", null ],
+    [ "PrepareSpellScript", "df/d5b/a19040.html#aca38f23f080314ab73ec2494bf877716", null ],
+    [ "Register", "df/d5b/a19040.html#aa87e57dabec6e83029f4dd84913f22ca", null ],
+    [ "Validate", "df/d5b/a19040.html#af945e399992deb3aef5c81ad393ee50f", null ]
 ];

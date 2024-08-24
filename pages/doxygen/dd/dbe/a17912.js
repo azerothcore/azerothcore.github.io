@@ -1,7 +1,6 @@
 var a17912 =
 [
-    [ "CheckProc", "dd/dbe/a17912.html#a0d64439e4de0c84017a072825d09a238", null ],
-    [ "HandleProc", "dd/dbe/a17912.html#a71154e5c54212595071fe0ab00c0b843", null ],
-    [ "PrepareAuraScript", "dd/dbe/a17912.html#a6d26243e6f6bd2b1fa33952fa654f1ee", null ],
-    [ "Register", "dd/dbe/a17912.html#af373e98d828b9f0fa3f2107d0ec4b604", null ]
+    [ "FilterTargets", "dd/dbe/a17912.html#aa7e731de9e5ab1078b8ff7022393c9a7", null ],
+    [ "PrepareSpellScript", "dd/dbe/a17912.html#ae92968db6e5a1384f89e6aff9ab2d1f3", null ],
+    [ "Register", "dd/dbe/a17912.html#ae6ab0b56688bfc07262cc83e84102ccb", null ]
 ];

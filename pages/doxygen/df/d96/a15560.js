@@ -1,6 +1,5 @@
 var a15560 =
 [
-    [ "npc_silva_filnaveth", "df/d96/a15560.html#a5998381865214a7b3af7823bd2557cb0", null ],
-    [ "OnGossipHello", "df/d96/a15560.html#a32019c17271a3f504d86cd694262fd53", null ],
-    [ "OnGossipSelect", "df/d96/a15560.html#a10f81dce3dbc3ef0a84c8c33c2cb2e29", null ]
+    [ "go_elune_fire", "df/d96/a15560.html#a84d1b8e5a10e57cf717e10e413cb6027", null ],
+    [ "OnGossipHello", "df/d96/a15560.html#a31e3cad89090bb7d2933e8758dbb56c4", null ]
 ];

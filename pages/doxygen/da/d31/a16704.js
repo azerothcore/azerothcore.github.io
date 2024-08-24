@@ -1,6 +1,7 @@
 var a16704 =
 [
-    [ "npc_toc_pet_warlockAI", "d0/dd5/a16708.html", "d0/dd5/a16708" ],
-    [ "npc_toc_pet_warlock", "da/d31/a16704.html#a4703f506d677d7e490c6813c6d9b060b", null ],
-    [ "GetAI", "da/d31/a16704.html#aebcaff82726508a14028cb22a1ef944b", null ]
+    [ "OnRemove", "da/d31/a16704.html#a4b95717cb19116b81f3eec798089abad", null ],
+    [ "PrepareAuraScript", "da/d31/a16704.html#a581645fa151531aaf7b562a8739d5616", null ],
+    [ "Register", "da/d31/a16704.html#a01304c556d79001e290707551bee7622", null ],
+    [ "Validate", "da/d31/a16704.html#a96e4b9cae1f016bf87c9a09ceb6da561", null ]
 ];

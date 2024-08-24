@@ -1,6 +1,6 @@
 var a22760 =
 [
-    [ "instance_vault_of_archavon_InstanceMapScript", "d3/d9e/a22764.html", "d3/d9e/a22764" ],
-    [ "instance_vault_of_archavon", "d2/d9c/a22760.html#a0be8d95ff0f3b751e6f833689e436310", null ],
-    [ "GetInstanceScript", "d2/d9c/a22760.html#abb955a8873a3a3021e164225dd1f857a", null ]
+    [ "PrepareAuraScript", "d2/d9c/a22760.html#ac52a5dccc708f9ee63f3c6c92fbf15c1", null ],
+    [ "Register", "d2/d9c/a22760.html#acc4afbe7f2b23b67e8f7e3fe1eeb03b5", null ],
+    [ "Update", "d2/d9c/a22760.html#aa9f5924b3f12c666c53ddc2b9b80aeea", null ]
 ];

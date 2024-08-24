@@ -1,6 +1,6 @@
 var a25092 =
 [
-    [ "spell_leotheras_clear_consuming_madness_SpellScript", "db/dab/a25096.html", "db/dab/a25096" ],
-    [ "spell_leotheras_clear_consuming_madness", "d7/dbf/a25092.html#a9252f50d3154ac16ad9e2248a2d361b0", null ],
-    [ "GetSpellScript", "d7/dbf/a25092.html#a7500d6433d4a5a3f25bc96ac653353fc", null ]
+    [ "HandleScriptEffect", "d7/dbf/a25092.html#a884d0f5f8bf0f3515b4fedd54dd20ebf", null ],
+    [ "PrepareSpellScript", "d7/dbf/a25092.html#a45151bb2eacdd642e8f11564d4ef0d65", null ],
+    [ "Register", "d7/dbf/a25092.html#ae01695fd336fca36a7d2569ca741fba5", null ]
 ];

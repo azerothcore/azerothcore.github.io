@@ -1,6 +1,8 @@
 var a21932 =
 [
-    [ "boss_thorim_pillarAI", "d9/d57/a21936.html", "d9/d57/a21936" ],
-    [ "boss_thorim_pillar", "da/d4a/a21932.html#a7a2cbafc1d359d7b33bb735342cdfe2d", null ],
-    [ "GetAI", "da/d4a/a21932.html#af95d5e819292af9b54a022674b74af70", null ]
+    [ "HandleEffectApply", "da/d4a/a21932.html#a8ebf9488a7eed99c3651424754cc95c5", null ],
+    [ "HandleEffectPeriodic", "da/d4a/a21932.html#a183976530ebf604656db12e41449427e", null ],
+    [ "PrepareAuraScript", "da/d4a/a21932.html#a03faa2eda84ac74dcff9a7a6a4e57440", null ],
+    [ "Register", "da/d4a/a21932.html#a76be53d506933d4b3c758578b7c33d5f", null ],
+    [ "_posZ", "da/d4a/a21932.html#a488ded8ff40240fe8fbef1567eb091b9", null ]
 ];

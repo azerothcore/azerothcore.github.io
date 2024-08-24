@@ -1,11 +1,9 @@
 var a20468 =
 [
-    [ "npc_oculus_drakegiverAI", "d9/d37/a20472.html", "d9/d37/a20472" ],
-    [ "npc_oculus_drakegiver", "d1/d84/a20468.html#add34aba22fb2ca16f6f055dd77a2994b", null ],
-    [ "GetAI", "d1/d84/a20468.html#aa26a2b82c5e4076ce704d5884895d903", null ],
-    [ "OnGossipHello", "d1/d84/a20468.html#ac00d09d2d81121d562e3303704229c18", null ],
-    [ "OnGossipSelect", "d1/d84/a20468.html#ad0fc46e306080ccfe9988d416ef71e77", null ],
-    [ "RemoveEssence", "d1/d84/a20468.html#a70513d873111c590ca4e33cb446a4438", null ],
-    [ "StoreEssence", "d1/d84/a20468.html#ac8bbe890722aa924a7f0dee161d342c4", null ],
-    [ "openedMenu", "d1/d84/a20468.html#a650d1cd18700e29328e0fc97b1709f38", null ]
+    [ "npc_ulduar_dark_rune_watcherAI", "d1/d84/a20468.html#a2239253c2c4760b130ace4a07ef1e8c4", null ],
+    [ "CanAIAttack", "d1/d84/a20468.html#a891e354dc27f0d53e06a0cf2eea46970", null ],
+    [ "Reset", "d1/d84/a20468.html#a79a1081a50ded7afc5f81ed4234be59d", null ],
+    [ "UpdateAI", "d1/d84/a20468.html#a58c5f53f74055b89c11ed27ffe908732", null ],
+    [ "timer1", "d1/d84/a20468.html#aab38ff79ca8fc867a3d6c6512d0376c8", null ],
+    [ "timer2", "d1/d84/a20468.html#a7b4eb188939c15f11a6b2532853ad798", null ]
 ];

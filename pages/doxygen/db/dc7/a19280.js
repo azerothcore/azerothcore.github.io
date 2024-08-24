@@ -1,6 +1,6 @@
 var a19280 =
 [
-    [ "ActivateSpirit", "db/dc7/a19280.html#aa85442aa12bf98813951172ba9c0c9d1", null ],
-    [ "PrepareSpellScript", "db/dc7/a19280.html#a45dd81940bcad18564dbed7ffc1a6041", null ],
-    [ "Register", "db/dc7/a19280.html#a33d1e39c3b04f81afa3c20dc140211b2", null ]
+    [ "boss_varosAI", "d7/d87/a19284.html", "d7/d87/a19284" ],
+    [ "boss_varos", "db/dc7/a19280.html#a4fdb9de9ee7a3a50ac0972fd6eb8d39c", null ],
+    [ "GetAI", "db/dc7/a19280.html#a36733c4eb6179e43d61a1c37480666ea", null ]
 ];

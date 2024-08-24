@@ -1,6 +1,6 @@
 var a22232 =
 [
-    [ "boss_yoggsaron_neltharionAI", "de/de1/a22236.html", "de/de1/a22236" ],
-    [ "boss_yoggsaron_neltharion", "da/d50/a22232.html#a9910e0d6043e7738cba0fe9ae7e92898", null ],
-    [ "GetAI", "da/d50/a22232.html#abce5f59c35f7af3e1d5b30cc55ff48e6", null ]
+    [ "npc_roxi_ramrocket", "da/d50/a22232.html#af7f6bf6d5f8fc468abe62605f205571b", null ],
+    [ "OnGossipHello", "da/d50/a22232.html#adec28f778921246c56f11d09753e566e", null ],
+    [ "OnGossipSelect", "da/d50/a22232.html#a46a9898cb4b29808f9e911c03b5759cb", null ]
 ];

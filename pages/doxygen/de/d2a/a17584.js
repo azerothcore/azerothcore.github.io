@@ -1,6 +1,6 @@
 var a17584 =
 [
-    [ "boss_moorabiAI", "d1/d14/a17588.html", "d1/d14/a17588" ],
-    [ "boss_moorabi", "de/d2a/a17584.html#a94e14b2a9b06143985f785e781d1c302", null ],
-    [ "GetAI", "de/d2a/a17584.html#ae90c7dd46fb1335a525c3c3e27040420", null ]
+    [ "DaranavanMoveEvent", "de/d2a/a17584.html#add38d87b9108c09aa9b9fd60f12abcde", null ],
+    [ "Execute", "de/d2a/a17584.html#ada0ebc4a9c9f949dd0155a554a553543", null ],
+    [ "_darnavan", "de/d2a/a17584.html#a7585edb957755efbc6064f232d50ea4e", null ]
 ];

@@ -1,9 +1,12 @@
 var a12964 =
 [
-    [ "npc_demonic_vapor_trailAI", "df/d9a/a12964.html#ad1a5de140e171c8de6f5152f84cfed0f", null ],
-    [ "JustSummoned", "df/d9a/a12964.html#a1a210b80dc4ed757d3bf07583cc57adc", null ],
-    [ "Reset", "df/d9a/a12964.html#a71e3fde121e72e0cc4a1e07d17799a53", null ],
-    [ "SpellHitTarget", "df/d9a/a12964.html#a2de56cd29096804b72861ed1718d28dc", null ],
-    [ "UpdateAI", "df/d9a/a12964.html#a1762dc6690f7cb2ad579dc0fbe6383b7", null ],
-    [ "timer", "df/d9a/a12964.html#a1c19faff5d18583c90c9977f7b03ddaa", null ]
+    [ "boss_alythessAI", "df/d9a/a12964.html#a3675d195bee318139b0d4f1691749a7d", null ],
+    [ "DoAction", "df/d9a/a12964.html#a15d2df7ae437b6481c6f230f1df5e4a3", null ],
+    [ "EnterEvadeMode", "df/d9a/a12964.html#acef5ae15a1551d44e3bf3e8e88c50a60", null ],
+    [ "JustDied", "df/d9a/a12964.html#a00eeda9182947294201660b1285e17fc", null ],
+    [ "JustEngagedWith", "df/d9a/a12964.html#a698fa808ccb6b52e7d747d17afaef55f", null ],
+    [ "KilledUnit", "df/d9a/a12964.html#a1d1235128e9c49983496c3bf097be7c8", null ],
+    [ "Reset", "df/d9a/a12964.html#a47d6b821d1e9ff86c2e89161af704f92", null ],
+    [ "UpdateAI", "df/d9a/a12964.html#ae405bbb951f933a492ce41bff8534323", null ],
+    [ "sisterDied", "df/d9a/a12964.html#ac617d56a83f3239eb2a2d2d07ff0dd22", null ]
 ];

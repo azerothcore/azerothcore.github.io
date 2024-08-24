@@ -1,13 +1,9 @@
 var a06904 =
 [
-    [ "banners", "d7/d01/a06904.html#a07c98125c64d119232fec9cc80050537", null ],
-    [ "faction", "d7/d01/a06904.html#ab3758f67da3dcb507bb1acab575e2836", null ],
-    [ "gameobject_entry", "d7/d01/a06904.html#ae80024986e048e05dca174d6b14964d3", null ],
-    [ "gameobject_type", "d7/d01/a06904.html#ac4760cba40ba8916d66cae3712f7c641", null ],
-    [ "last_entry", "d7/d01/a06904.html#a968d6f412ba88b9577429910ffa511a5", null ],
-    [ "needChange", "d7/d01/a06904.html#acecd97e26d19c82e934817ecbc2afce9", null ],
-    [ "nodeState", "d7/d01/a06904.html#a214e160c6fd94cefb4d080a94a12ba56", null ],
-    [ "nodeType", "d7/d01/a06904.html#a3b303a427c4a2248dade5eada6774dc9", null ],
-    [ "timer", "d7/d01/a06904.html#a434605ed0efcc262057a65d7cd8d0128", null ],
-    [ "worldStates", "d7/d01/a06904.html#ae5d3b4b37fc5b7983c08b54d94d6c3d2", null ]
+    [ "ObjectGuidVector", "d7/d01/a06904.html#aa49ab82006c390e7110013b44c018c0f", null ],
+    [ "~ObjectGuidVector", "d7/d01/a06904.html#a07fe3304a0edffa1f17a0ce5f97d01e6", null ],
+    [ "GetObjectVector", "d7/d01/a06904.html#a94ee201dcf0750edb84cedb151e9ff22", null ],
+    [ "UpdateObjects", "d7/d01/a06904.html#a8b6dad1739f51bba936257410a968c6e", null ],
+    [ "_guidVector", "d7/d01/a06904.html#aefce0edc7881ca01ba8c8c98067e165d", null ],
+    [ "_objectVector", "d7/d01/a06904.html#a78137cb1ae9930c11f87a4a8ed5e7e26", null ]
 ];

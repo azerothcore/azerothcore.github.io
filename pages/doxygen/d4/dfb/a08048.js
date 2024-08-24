@@ -1,7 +1,5 @@
 var a08048 =
 [
-    [ "SetRuneState", "d4/dfb/a08048.html#a920d32d04ec7e872680a89b0c0a9b0ef", null ],
-    [ "lastUsedRune", "d4/dfb/a08048.html#a88c702716eb3032c20ae5ed74922d923", null ],
-    [ "runes", "d4/dfb/a08048.html#aac485530bfa81d54d9da3213fe917c29", null ],
-    [ "runeState", "d4/dfb/a08048.html#ae58297e0766578b234604a97641501a1", null ]
+    [ "CastBarCaption", "d4/dfb/a08048.html#ae78195bdc8edd6f4996c617e7a541e12", null ],
+    [ "Name", "d4/dfb/a08048.html#a462917eda1e095c99054495abf70cd67", null ]
 ];

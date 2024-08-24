@@ -1,11 +1,8 @@
 var a17396 =
 [
-    [ "npc_pos_tyrannus_eventsAI", "d6/da9/a17396.html#a51769d22a4cb448fae90d827e2494581", null ],
-    [ "MovementInform", "d6/da9/a17396.html#ac0d1550855988fe6f562e8a0a6ada80f", null ],
-    [ "SetData", "d6/da9/a17396.html#a8f8bbb06c50215c90cf11ddbc925ba5d", null ],
-    [ "UpdateAI", "d6/da9/a17396.html#a6c4d82c46547bbb2f86dd7f9fa88c743", null ],
-    [ "deathbringerGUID", "d6/da9/a17396.html#a21ea8c66374403d0eca83e4d24c80a7a", null ],
-    [ "events", "d6/da9/a17396.html#a317d48c75a93ef5abaa3329ab10a1c8e", null ],
-    [ "killsLeft", "d6/da9/a17396.html#ac81d85e0ceb0b571373f44475baa36df", null ],
-    [ "pInstance", "d6/da9/a17396.html#a44460335986bcedf35dc295c242df6da", null ]
+    [ "ResetEncounterEvent", "d6/da9/a17396.html#aaa1bc6d3d529524df6b0ed6be6e0966f", null ],
+    [ "Execute", "d6/da9/a17396.html#ae8d52fc7c0689620bcef8c04643191f5", null ],
+    [ "_caster", "d6/da9/a17396.html#abb37778222749b27791baa329e268c32", null ],
+    [ "_otherTransport", "d6/da9/a17396.html#a7f2d0aaade5833381e3e7624745fc504", null ],
+    [ "_spellId", "d6/da9/a17396.html#ad4c57e519201e15e23e0f56f4fbe70cb", null ]
 ];

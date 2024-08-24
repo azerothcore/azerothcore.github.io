@@ -1,7 +1,6 @@
 var a28096 =
 [
-    [ "HandleScriptEffect", "d6/d37/a28096.html#a6c1ac025fa93caa08737387a18003612", null ],
-    [ "PrepareSpellScript", "d6/d37/a28096.html#acb5ad05212399b06ed9bb64bb9203069", null ],
-    [ "Register", "d6/d37/a28096.html#afbf989d514c308f466ecfd9957d2d177", null ],
-    [ "Validate", "d6/d37/a28096.html#a2f48b1903edef1a5bb8beeddc8879aa4", null ]
+    [ "Enchantment", "d6/d37/a28096.html#a480ab806214bb138d56dfd5e9e43936f", null ],
+    [ "ID", "d6/d37/a28096.html#acb673be771124b84dd3fdd5deb300de7", null ],
+    [ "Name", "d6/d37/a28096.html#a3ad3a1b693922ff8264d90232abb3e35", null ]
 ];

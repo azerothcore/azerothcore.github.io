@@ -1,6 +1,11 @@
 var a21332 =
 [
-    [ "npc_ulduar_saronite_vaporsAI", "d7/d92/a21336.html", "d7/d92/a21336" ],
-    [ "npc_ulduar_saronite_vapors", "d6/df0/a21332.html#a567c3aca8c381167ca278c2c3562e6f6", null ],
-    [ "GetAI", "d6/df0/a21332.html#a3c2e7b6263f8935da9291c736b14d139", null ]
+    [ "npc_vh_void_sentryAI", "d6/df0/a21332.html#a312f4bbc07e6d786e85c2b4e89d36344", null ],
+    [ "DoAction", "d6/df0/a21332.html#a0bc95eea54b5cdc16a4d3f588f3ff900", null ],
+    [ "JustDied", "d6/df0/a21332.html#add5121ed38a74be9ae168df5f893f89e", null ],
+    [ "SummonedCreatureDespawn", "d6/df0/a21332.html#a24ff36cdb049da7c67c1f041361e17e4", null ],
+    [ "UpdateAI", "d6/df0/a21332.html#ae1f683d5ef920213c9c86da35c626381", null ],
+    [ "checkTimer", "d6/df0/a21332.html#a675bcae4119e45490403013534c731ef", null ],
+    [ "pInstance", "d6/df0/a21332.html#a7527473944681143bab89fd12b475645", null ],
+    [ "SummonedGUID", "d6/df0/a21332.html#a4420eb2cf4d3b6d161355b0f4ad9516d", null ]
 ];

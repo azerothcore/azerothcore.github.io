@@ -1,6 +1,6 @@
 var a20680 =
 [
-    [ "HandleScript", "d2/da6/a20680.html#a3af4741e2099fec9ba66639f896ba335", null ],
-    [ "PrepareSpellScript", "d2/da6/a20680.html#a9779e2fb43ce69f74678abd82439c752", null ],
-    [ "Register", "d2/da6/a20680.html#ac6ae892e75e52ae83321b2492eca6a1f", null ]
+    [ "x", "d2/da6/a20680.html#ae4223168378b602a0a96dbb424a22be4", null ],
+    [ "y", "d2/da6/a20680.html#a30f361d8104e4de44541d75945105963", null ],
+    [ "z", "d2/da6/a20680.html#ae68a79519c35302b89976ac29bb77e26", null ]
 ];

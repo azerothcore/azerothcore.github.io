@@ -1,11 +1,7 @@
 var a26288 =
 [
-    [ "npc_shadowmoon_tuber_nodeAI", "da/d18/a26288.html#af24a8d5ead256d158c86379e032aa889", null ],
-    [ "Reset", "da/d18/a26288.html#a9bcbd0b0b6b12058a8356ce274b6a597", null ],
-    [ "SetData", "da/d18/a26288.html#aca6ad097bd7b8e5f1a0cde6bdebb23ad", null ],
-    [ "SpellHit", "da/d18/a26288.html#a14523a24042d23efbafc7924f394dd04", null ],
-    [ "UpdateAI", "da/d18/a26288.html#ae5cd38aa2a9cc1727141298323639660", null ],
-    [ "resetTimer", "da/d18/a26288.html#a0d2649de651279fa6bbe3ae2f18571bb", null ],
-    [ "tapped", "da/d18/a26288.html#af6412de701f14a7eb325e1aaf33f28cc", null ],
-    [ "tuberGUID", "da/d18/a26288.html#a2deaa1aeed26b862e93055d90c9139d6", null ]
+    [ "HandleDummy", "da/d18/a26288.html#abc630a0c8274f5f85901b2505ff2ae04", null ],
+    [ "PrepareSpellScript", "da/d18/a26288.html#af79cd7c2f6ed47a93dbbe17aaca6834f", null ],
+    [ "Register", "da/d18/a26288.html#a3f1808538acca2742c19f68af9a6fd56", null ],
+    [ "Validate", "da/d18/a26288.html#a475e1d5d8c70e0edd5957a1e493fd43e", null ]
 ];

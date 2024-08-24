@@ -1,6 +1,9 @@
 var a14252 =
 [
-    [ "HandleScript", "de/dc5/a14252.html#aa60824ed67ae87e96117fc5bf90bec8c", null ],
-    [ "PrepareSpellScript", "de/dc5/a14252.html#aab4303fff660c68db100e07a4423c39b", null ],
-    [ "Register", "de/dc5/a14252.html#a0fbc130652e58d9418cb3c5036b6aed2", null ]
+    [ "npc_love_in_air_snivel", "de/dc5/a14252.html#ab04596fb96292f54cf2a10f662dc94a3", null ],
+    [ "AllowAction", "de/dc5/a14252.html#af1097317f62bbb8f8456124001c73576", null ],
+    [ "MoveInLineOfSight", "de/dc5/a14252.html#ae6537707109b95fad20e521d07867cdd", null ],
+    [ "Reset", "de/dc5/a14252.html#a2385ea44d9f44735b193add4a0d0485b", null ],
+    [ "UpdateAI", "de/dc5/a14252.html#a9e712994663e3442359d2f574ebc812c", null ],
+    [ "delay", "de/dc5/a14252.html#a548db6245ef875ec47279246e437934c", null ]
 ];

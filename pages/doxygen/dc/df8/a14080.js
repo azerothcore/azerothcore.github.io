@@ -1,7 +1,7 @@
 var a14080 =
 [
-    [ "FilterTargets", "dc/df8/a14080.html#a00adeba9ac3e631109308b1e4bf8f529", null ],
-    [ "HandleEffect", "dc/df8/a14080.html#ab6dd7934cc6f10d327e80cd0b6bdfac9", null ],
-    [ "PrepareSpellScript", "dc/df8/a14080.html#a08127992c96fb02e87e9ade65a5375d5", null ],
-    [ "Register", "dc/df8/a14080.html#aeaf1955aece958a8e7d7773a33177e5d", null ]
+    [ "HandleScriptEffect", "dc/df8/a14080.html#aaad3c8870d8ad748e3ac07287da32e84", null ],
+    [ "PrepareSpellScript", "dc/df8/a14080.html#a3d906994c11e52e89c842189be73ddfd", null ],
+    [ "Register", "dc/df8/a14080.html#a4cdab36e2265c696207a39e16549ab13", null ],
+    [ "Validate", "dc/df8/a14080.html#a8aaf57bd54d3b2beb48b4e29053c1125", null ]
 ];

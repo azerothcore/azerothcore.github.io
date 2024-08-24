@@ -1,12 +1,10 @@
 var a13500 =
 [
-    [ "npc_lady_sylvanas_windrunnerAI", "df/d23/a13500.html#ad6eefe9a14ce64b12b65a22c3ebb4db0", null ],
-    [ "JustEngagedWith", "df/d23/a13500.html#a36324482fb264cc3cacf11c3ed542eee", null ],
-    [ "JustSummoned", "df/d23/a13500.html#a456ee6f4b5b8cdd79647a42185265be8", null ],
-    [ "Reset", "df/d23/a13500.html#ad4c6cb31a8d3dc280e689d5d29e27479", null ],
-    [ "SetGUID", "df/d23/a13500.html#aa5270e7468dcafba98d3ee72752771ce", null ],
-    [ "UpdateAI", "df/d23/a13500.html#ab704e4f3af8aa734910efd259db31407", null ],
-    [ "_events", "df/d23/a13500.html#a621d4db4fac3a7c3d08defa2a8ed06d0", null ],
-    [ "LamentEvent", "df/d23/a13500.html#ace9e901a965665e0f97cb9646af308aa", null ],
-    [ "playerGUID", "df/d23/a13500.html#aa125ab2a33dbf9f1d40f238e7d45000d", null ]
+    [ "npc_lady_sylvanas_windrunner_bfuAI", "df/d23/a13500.html#af7d495f489979690615d091bbd9d539b", null ],
+    [ "CanAIAttack", "df/d23/a13500.html#af332a66852c9499912d8ef4959f394f5", null ],
+    [ "InitializeAI", "df/d23/a13500.html#a66fcb4b5130ff03f1926eec3b4d9ff6a", null ],
+    [ "JustRespawned", "df/d23/a13500.html#a70b83dd31e8a8214b5d09f9a4ca7347a", null ],
+    [ "Reset", "df/d23/a13500.html#a2c5e519bd2a1699b74811c92bb217d20", null ],
+    [ "UpdateAI", "df/d23/a13500.html#ae1e9308f730ac948f96d4fceba914cdb", null ],
+    [ "_events", "df/d23/a13500.html#a7078f4c552f741afdc8ecbd1746e31c4", null ]
 ];

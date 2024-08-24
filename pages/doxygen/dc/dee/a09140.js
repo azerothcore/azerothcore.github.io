@@ -1,14 +1,8 @@
 var a09140 =
 [
-    [ "DoublePosition", "dc/dee/a09140.html#a59190a2456f052c6ffa6e181ced94a4f", null ],
-    [ "DoublePosition", "dc/dee/a09140.html#a9900e06c36c6ebc4edd0ba45264990b8", null ],
-    [ "DoublePosition", "dc/dee/a09140.html#a543ff52f7b278f68cc36ee880932e744", null ],
-    [ "GetDoubleExactDist2dSq", "dc/dee/a09140.html#ae17b4e695ff23a8ec323405801f2013a", null ],
-    [ "GetDoublePositionX", "dc/dee/a09140.html#a7c769d1762f99150a46ceaa2b2bfa8e8", null ],
-    [ "GetDoublePositionY", "dc/dee/a09140.html#a201096c85022d54b1d9dbe9264df901f", null ],
-    [ "GetDoublePositionZ", "dc/dee/a09140.html#a01fc3985229b6bd03e6d1da95f871c17", null ],
-    [ "sync", "dc/dee/a09140.html#a75e75187d6663591a39c87bc1086aebd", null ],
-    [ "DoublePosX", "dc/dee/a09140.html#a4f9ffbbe4396f3ec26a81139f5868e2e", null ],
-    [ "DoublePosY", "dc/dee/a09140.html#a90839893f3a58a72a07177d3eee1d691", null ],
-    [ "DoublePosZ", "dc/dee/a09140.html#a19af503e9623ccaeb032bfe9f0a0ed63", null ]
+    [ "LocalizedPacketDo", "dc/dee/a09140.html#a9b7700f2a4958b91a67375ec9a40072c", null ],
+    [ "~LocalizedPacketDo", "dc/dee/a09140.html#a4296260b2011e1f7c300987073863ca9", null ],
+    [ "operator()", "dc/dee/a09140.html#a43449bdf0302e426b8cb4341326196b1", null ],
+    [ "i_builder", "dc/dee/a09140.html#a2c794905898feb502bfc5d3760f962b8", null ],
+    [ "i_data_cache", "dc/dee/a09140.html#a2bbff655e1a5268981c48e3ee028b104", null ]
 ];

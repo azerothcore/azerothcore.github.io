@@ -1,8 +1,8 @@
 var a02843 =
 [
-    [ "instance_magisters_terrace", "df/d1b/a12507.html", "df/d1b/a12507" ],
-    [ "instance_magisters_terrace::instance_magisters_terrace_InstanceMapScript", "d9/d53/a12511.html", "d9/d53/a12511" ],
-    [ "npc_kalecgos", "d4/d6a/a12515.html", "d4/d6a/a12515" ],
+    [ "instance_magisters_terrace", "d7/d32/a12504.html", "d7/d32/a12504" ],
+    [ "instance_magisters_terrace::instance_magisters_terrace_InstanceMapScript", "d4/dcd/a12508.html", "d4/dcd/a12508" ],
+    [ "npc_kalecgos", "d6/d5a/a12512.html", "d6/d5a/a12512" ],
     [ "MovementPoints", "d0/d45/a02843.html#a9858e93f7add1600046aa49088cbebd5", [
       [ "POINT_ID_PREPARE_LANDING", "d0/d45/a02843.html#a9858e93f7add1600046aa49088cbebd5a0a42d7a9361b4400a29077868c6d2d31", null ],
       [ "POINT_FROSTWYRM_FLY_IN", "d8/d33/a03629.html#a9858e93f7add1600046aa49088cbebd5a4a31ac9e94cf15cdb51d30c3318b86f5", null ],

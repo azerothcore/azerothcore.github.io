@@ -1,6 +1,6 @@
 var a26192 =
 [
-    [ "npc_infernal_attackerAI", "d2/df3/a26196.html", "d2/df3/a26196" ],
-    [ "npc_infernal_attacker", "dd/d6f/a26192.html#ac6fbfcf8fc918b48d6b9416a71cfe3fa", null ],
-    [ "GetAI", "dd/d6f/a26192.html#ad1d9186c186de36efbe102a07fe89de4", null ]
+    [ "HandleScriptEffect", "dd/d6f/a26192.html#a8b60ae77f13045a582548fe5d1186d54", null ],
+    [ "PrepareSpellScript", "dd/d6f/a26192.html#ad68619783c4a1aad5a24826bf5d89858", null ],
+    [ "Register", "dd/d6f/a26192.html#a929c49d6dd30b6a0dedfbc23c877eb36", null ]
 ];

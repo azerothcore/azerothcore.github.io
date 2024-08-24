@@ -1,10 +1,12 @@
 var a22212 =
 [
-    [ "boss_yoggsaron_immortal_guardianAI", "da/dda/a22212.html#a84a3ffe43a4ce49cd543f770594cd683", null ],
-    [ "DamageTaken", "da/dda/a22212.html#aec157bcf0628a7301bcb91dd62bcc484", null ],
-    [ "Reset", "da/dda/a22212.html#a763f772414f00c0f83402e1a635b6bd0", null ],
-    [ "SpellHit", "da/dda/a22212.html#a60721961f2eb5e91c15890252166b872", null ],
-    [ "UpdateAI", "da/dda/a22212.html#a7fa550f683fcf16f5bd70a307bffcb2b", null ],
-    [ "_spellTimer", "da/dda/a22212.html#a4ed360380707195e10753436020b67eb", null ],
-    [ "_visualTimer", "da/dda/a22212.html#a8c382c37aaa3d20cfc0fe604af52bef4", null ]
+    [ "npc_time_lost_proto_drakeAI", "da/dda/a22212.html#ab98805519233eda932c6131aca059a8b", null ],
+    [ "JustEngagedWith", "da/dda/a22212.html#a14f41b30451b8ac8fe2411ec7102ae81", null ],
+    [ "Reset", "da/dda/a22212.html#a418ea9621040e3c717c4e24f73539f44", null ],
+    [ "RollPath", "da/dda/a22212.html#aabb3dd1d54a1290d500429efc8fa9e41", null ],
+    [ "UpdateEscortAI", "da/dda/a22212.html#a1a5442a5796b27d04eaa3ab62c613199", null ],
+    [ "WaypointReached", "da/dda/a22212.html#ad262b9dbc0edd2bac126fafbb5eb5f01", null ],
+    [ "events", "da/dda/a22212.html#aa2e4c3396d63d85a5d0abc8c74e58a79", null ],
+    [ "rollPath", "da/dda/a22212.html#a5431fd5a0801569bc03507818461aa7d", null ],
+    [ "setVisible", "da/dda/a22212.html#a63558b3406c241ecb27f3e485eeb439b", null ]
 ];

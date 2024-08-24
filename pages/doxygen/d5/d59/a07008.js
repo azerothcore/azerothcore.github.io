@@ -1,14 +1,14 @@
 var a07008 =
 [
-    [ "FilteredCommandListIterator", "d5/d59/a07008.html#abd6dc5c1e3c56eb27856eddb46d5e6a6", null ],
-    [ "_skip", "d5/d59/a07008.html#ac2f0e09b76eb9d40d1b78279a81a5e65", null ],
-    [ "operator bool", "d5/d59/a07008.html#aaeb128830c7705a455343d173dc3ae5a", null ],
-    [ "operator!", "d5/d59/a07008.html#a864e81c56946ca97bf24b392ff8f0b8f", null ],
-    [ "operator*", "d5/d59/a07008.html#a7b1008103a94f6dc068d3e839c924ea6", null ],
-    [ "operator++", "d5/d59/a07008.html#a6d4a54adde98e638428a8d314a6e4356", null ],
-    [ "operator->", "d5/d59/a07008.html#ad83cb2c649a847d0cd04b5fd8ee8494c", null ],
-    [ "_end", "d5/d59/a07008.html#a294c3b743ac4b1a1b878d02a6580d3ca", null ],
-    [ "_handler", "d5/d59/a07008.html#a0c64270cd18f8988997882ceb3e10184", null ],
-    [ "_it", "d5/d59/a07008.html#abbf6ac9d50ba494221addff9aba11b80", null ],
-    [ "_token", "d5/d59/a07008.html#acb834f907b55195f2a27d69f89d84961", null ]
+    [ "ArenaTeamScore", "d5/d59/a07008.html#a017cd1a4d90a466b42aeab8ff1a12f3a", null ],
+    [ "~ArenaTeamScore", "d5/d59/a07008.html#ade081f31c498ee03a80f73fe70a56cc7", null ],
+    [ "Assign", "d5/d59/a07008.html#a28c3a055e1ad69693470f38fe676f0c6", null ],
+    [ "BuildRatingInfoBlock", "d5/d59/a07008.html#ae3e2b8e8a29c50ca20a42a0364349764", null ],
+    [ "BuildTeamInfoBlock", "d5/d59/a07008.html#aa876e0cf0b36f8fdb9efe8989092f143", null ],
+    [ "Reset", "d5/d59/a07008.html#a90611fd5e656d2d62917003ff0a5ff00", null ],
+    [ "Arena", "d5/d59/a07008.html#a5f488c25aa439166d145713c67e7d085", null ],
+    [ "Battleground", "d5/d59/a07008.html#a0c4048053f5f5cabe5bfbfdde8eded86", null ],
+    [ "MatchmakerRating", "d5/d59/a07008.html#a1e82169562a459371f973932d22e2f15", null ],
+    [ "RatingChange", "d5/d59/a07008.html#a61c85f158b767a6c81de87d7ad5007db", null ],
+    [ "TeamName", "d5/d59/a07008.html#ab99de3b9213f3ccab1791858df6aa3e8", null ]
 ];

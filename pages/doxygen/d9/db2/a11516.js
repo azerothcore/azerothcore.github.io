@@ -1,5 +1,6 @@
 var a11516 =
 [
-    [ "at_trigger_the_beast_movement", "d9/db2/a11516.html#a9534f4b71deab4a2a9a94a36e2946fc7", null ],
-    [ "OnTrigger", "d9/db2/a11516.html#a333d685d765497a950fde35067d876a1", null ]
+    [ "npc_phalanxAI", "db/d09/a11520.html", "db/d09/a11520" ],
+    [ "npc_phalanx", "d9/db2/a11516.html#a947ee4659fe2a46d775119ddcefeb939", null ],
+    [ "GetAI", "d9/db2/a11516.html#ab1e2a0950ab286d5abae3d46aef3c623", null ]
 ];

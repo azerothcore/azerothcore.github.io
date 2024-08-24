@@ -1,7 +1,5 @@
 var a27332 =
 [
-    [ "HandleEffectPeriodic", "db/d58/a27332.html#a76e5aea0f1a3698e8034a1cbb08f4196", null ],
-    [ "PrepareAuraScript", "db/d58/a27332.html#affc698127fe0656df25bd094c02a7e50", null ],
-    [ "Register", "db/d58/a27332.html#a4707bfaeb86b3540920a6772e1726e26", null ],
-    [ "Validate", "db/d58/a27332.html#aef839f163d7e623a54b163e1c27542cd", null ]
+    [ "item_generic_limit_chance_above_60", "db/d58/a27332.html#abc18809810f0a7668020d01c482be84b", null ],
+    [ "OnCastItemCombatSpell", "db/d58/a27332.html#aa34809cfd53edb6a77d3fa415a079d72", null ]
 ];

@@ -1,6 +1,8 @@
 var a21384 =
 [
-    [ "HandleAfterHit", "df/df6/a21384.html#a3e54b08d89a2b544ee6be093fa6b4444", null ],
-    [ "PrepareSpellScript", "df/df6/a21384.html#adbf2d7668cd1a38849028f4c7f9b9cb1", null ],
-    [ "Register", "df/df6/a21384.html#a09afa95f54a74f79b11fcb1fe222bccd", null ]
+    [ "npc_azure_mage_slayerAI", "df/df6/a21384.html#af1a57574d70a48b16d70d8a056f54018", null ],
+    [ "Reset", "df/df6/a21384.html#aabe921f0d4fd147c457779791a7af619", null ],
+    [ "UpdateAI", "df/df6/a21384.html#a7cc5ea88be6c9cf767a0cd433db7dd73", null ],
+    [ "uiArcaneEmpowermentTimer", "df/df6/a21384.html#ace0fdd5e4b57e7ce603d2355bfc838dd", null ],
+    [ "uiSpellLockTimer", "df/df6/a21384.html#ac3c4d2be0dd9ba42e40adccda7100947", null ]
 ];

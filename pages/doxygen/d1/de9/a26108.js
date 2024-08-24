@@ -1,7 +1,8 @@
 var a26108 =
 [
-    [ "npc_kurenai_captiveAI", "d2/dec/a26112.html", "d2/dec/a26112" ],
-    [ "npc_kurenai_captive", "d1/de9/a26108.html#ae0e283bfc476f2d9e602158fa8720cdc", null ],
-    [ "GetAI", "d1/de9/a26108.html#ad6f9abf280ca7c3a1b16f7e4815fb979", null ],
-    [ "OnQuestAccept", "d1/de9/a26108.html#a7ecdb782bf084f3fd0f9dc3e2e10bf4a", null ]
+    [ "CheckProc", "d1/de9/a26108.html#ac6b3ce1ff227a140b77e177198675dbf", null ],
+    [ "HandleProc", "d1/de9/a26108.html#ae5ed8237f49454279db6348dbde653ad", null ],
+    [ "PrepareAuraScript", "d1/de9/a26108.html#a1ee84242579d4cd81d6313f78354729b", null ],
+    [ "Register", "d1/de9/a26108.html#a8f16147f2dfc433458ad32529f7d25d1", null ],
+    [ "Validate", "d1/de9/a26108.html#a787639c45505da58aeb2174148ef4f83", null ]
 ];

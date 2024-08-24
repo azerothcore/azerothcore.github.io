@@ -1,6 +1,7 @@
 var a26468 =
 [
-    [ "npc_pet_dk_ebon_gargoyleAI", "da/d1b/a26472.html", "da/d1b/a26472" ],
-    [ "npc_pet_dk_ebon_gargoyle", "d1/db2/a26468.html#ae4dcaff120a52c20a8b73d97a08604d7", null ],
-    [ "GetAI", "d1/db2/a26468.html#a19ff9fd627aab738c91ce23cf6acfffd", null ]
+    [ "CalcPeriodic", "d1/db2/a26468.html#af787d0c8738284e757f808e7d138bdc6", null ],
+    [ "PrepareAuraScript", "d1/db2/a26468.html#a383db196133bbecee06fe443fdb1bc24", null ],
+    [ "Register", "d1/db2/a26468.html#a1c617b5b26805b0feb468c55337f9d4c", null ],
+    [ "Update", "d1/db2/a26468.html#af3f4a7b82e099313d609df7f85f02d00", null ]
 ];

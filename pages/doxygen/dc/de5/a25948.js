@@ -1,6 +1,7 @@
 var a25948 =
 [
-    [ "HandlePeriodic", "dc/de5/a25948.html#ad490d7f19d2649f55b78cbb8aa203bf1", null ],
-    [ "PrepareAuraScript", "dc/de5/a25948.html#a1f42506e736348addc6569e88c68480c", null ],
-    [ "Register", "dc/de5/a25948.html#a94ad55f43e2a598254ce735eee00bc91", null ]
+    [ "AfterRemove", "dc/de5/a25948.html#a9dc5ef5c5545fc382e221ca9473ac3bd", null ],
+    [ "PrepareAuraScript", "dc/de5/a25948.html#a0fd3e297a66df888f6e30f93b9f60947", null ],
+    [ "Register", "dc/de5/a25948.html#a2b1872fa0342e0f530b61fc7a5bf876b", null ],
+    [ "Validate", "dc/de5/a25948.html#ae08f33e0271166afa87208faa30684c4", null ]
 ];

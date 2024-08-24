@@ -1,7 +1,7 @@
 var a21836 =
 [
-    [ "npc_ulduar_expedition_commanderAI", "d4/d24/a21836.html#a100678bddd6a0e859c72035d4642d8e2", null ],
-    [ "MoveInLineOfSight", "d4/d24/a21836.html#a870bdc842d8d7078302a36a20ef661e4", null ],
-    [ "_instance", "d4/d24/a21836.html#a64d925b08f3f0ae59f5053121dbc495c", null ],
-    [ "_introSpoken", "d4/d24/a21836.html#ac6784a66111406f917ae4d07dbeb60a4", null ]
+    [ "npc_emilyAI", "db/d4b/a21840.html", "db/d4b/a21840" ],
+    [ "npc_emily", "d4/d24/a21836.html#ab40f581fad087b3d32a7724fca97895d", null ],
+    [ "GetAI", "d4/d24/a21836.html#a6317e4b9787c25ce119d08432cd1acf7", null ],
+    [ "OnQuestAccept", "d4/d24/a21836.html#ad434e7bf2427b3575a8459021e792152", null ]
 ];

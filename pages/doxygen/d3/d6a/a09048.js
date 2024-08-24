@@ -1,6 +1,8 @@
 var a09048 =
 [
-    [ "DoorInfo", "d3/d6a/a09048.html#a26f4849a1d68df466e6db0ccbb8d001b", null ],
-    [ "bossInfo", "d3/d6a/a09048.html#a14f7742a1b272d0cd76dda6ce28cde26", null ],
-    [ "type", "d3/d6a/a09048.html#ad77a91752ea10a11c8e73655e63dd5c1", null ]
+    [ "NearestHostileUnitInAttackDistanceCheck", "d3/d6a/a09048.html#a0b1d14f1347a3749a91ef6e888ccb23e", null ],
+    [ "NearestHostileUnitInAttackDistanceCheck", "d3/d6a/a09048.html#a5645c9808db082b0301ec8b2ea93ce7f", null ],
+    [ "operator()", "d3/d6a/a09048.html#adc28281742cd1f6a49152481b48f944e", null ],
+    [ "m_range", "d3/d6a/a09048.html#ab79296a88ed07257edbe3449c2515b40", null ],
+    [ "me", "d3/d6a/a09048.html#a298d2489b9bf30aa510407afca79a374", null ]
 ];

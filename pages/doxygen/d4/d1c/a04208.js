@@ -1,6 +1,6 @@
 var a04208 =
 [
-    [ "boss_kelidan_the_breaker", "d8/d4e/a23483.html", "d8/d4e/a23483" ],
+    [ "boss_kelidan_the_breaker", "d5/d56/a23480.html", "d5/d56/a23480" ],
     [ "Actions", "d4/d1c/a04208.html#a250372292659bed7ae290d8621f88ccf", [
       [ "ACTION_GUNSHIP_READY", "df/d39/a00950.html#a250372292659bed7ae290d8621f88ccfaae8bb35d65ee37e4d232e2a67aeca581", null ],
       [ "ACTION_TELEPORT_PLAYER_TO_TRANSPORT", "df/d39/a00950.html#a250372292659bed7ae290d8621f88ccfa6b86b0986a459bb245b3a3cd8b75040c", null ],

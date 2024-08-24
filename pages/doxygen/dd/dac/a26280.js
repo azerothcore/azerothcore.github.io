@@ -1,7 +1,7 @@
 var a26280 =
 [
-    [ "npc_enraged_spiritAI", "dd/dac/a26280.html#aa487c906c1c0d15dc7761c7288e7d3c6", null ],
-    [ "JustDied", "dd/dac/a26280.html#a9322622f679dbc311bd8983f5037bd2e", null ],
-    [ "JustEngagedWith", "dd/dac/a26280.html#a1d192d0dd563dc2735b23a171b2bf659", null ],
-    [ "Reset", "dd/dac/a26280.html#a2d56572acf042ba34f468f0ff3b0bd1a", null ]
+    [ "HandleDummy", "dd/dac/a26280.html#a123ddc812fb358b7517eba60d1f90eba", null ],
+    [ "Load", "dd/dac/a26280.html#a64ca188f58b4f34827f03ae2878deef0", null ],
+    [ "PrepareSpellScript", "dd/dac/a26280.html#a7068dd9e6f7838d9ad7023c2d61482cc", null ],
+    [ "Register", "dd/dac/a26280.html#aff7ea1c5c569022ece56ecdb3f434723", null ]
 ];

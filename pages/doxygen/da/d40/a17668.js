@@ -1,11 +1,7 @@
 var a17668 =
 [
-    [ "npc_blood_queen_lana_thelAI", "da/d40/a17668.html#a7b099b90600e433e304dee1f356a9909", null ],
-    [ "MoveInLineOfSight", "da/d40/a17668.html#af1aafdc45abcdfbdbea7f5b67f3bc620", null ],
-    [ "MovementInform", "da/d40/a17668.html#a004a878ccb5fe68b249342f6a0fce31d", null ],
-    [ "Reset", "da/d40/a17668.html#a539b0e158c800e1aade54f37aa99751e", null ],
-    [ "UpdateAI", "da/d40/a17668.html#ae9d2f6b53898db04da58efe0deeceea5", null ],
-    [ "_events", "da/d40/a17668.html#a8ec7641bab991fc584b066fae55690bf", null ],
-    [ "_instance", "da/d40/a17668.html#a9058ce72bb956d7e90eff740c0f9633a", null ],
-    [ "_introDone", "da/d40/a17668.html#a40c642758a751e072e41343bb75ad306", null ]
+    [ "HandleSpikes", "da/d40/a17668.html#a012d61aacf79b9b1f5b4b5c5c81b5ed4", null ],
+    [ "PrepareSpellScript", "da/d40/a17668.html#a6ffb6454eb4c58a1b66356814c13b659", null ],
+    [ "Register", "da/d40/a17668.html#a893345cf191d084a0f97a8464b7d381a", null ],
+    [ "Validate", "da/d40/a17668.html#aa6545760706d8695aefd4064c3c71c6b", null ]
 ];

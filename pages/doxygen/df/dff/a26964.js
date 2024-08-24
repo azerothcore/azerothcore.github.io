@@ -1,13 +1,11 @@
 var a26964 =
 [
-    [ "CalcPeriodic", "df/dff/a26964.html#a08dca1818a687bb5862779e261dafb00", null ],
-    [ "CalculateExpertiseAmount", "df/dff/a26964.html#a44703f4a1c5cfb74083bf74d7b77c23c", null ],
-    [ "CalculateHitAmount", "df/dff/a26964.html#af6e9dda7381a80d4de93c1a7402a2e2b", null ],
-    [ "CalculateSpellHitAmount", "df/dff/a26964.html#ab31dfffdf449c1eef74c2bcd43469109", null ],
-    [ "HandleEffectApply", "df/dff/a26964.html#a6ba389f156263462f5e80e3a9fb6f62e", null ],
-    [ "HandlePeriodic", "df/dff/a26964.html#ac97a33580dc873af7b580d4fdf7ed9f6", null ],
-    [ "PrepareAuraScript", "df/dff/a26964.html#ad9aeb68e7d512f55f38f5a64d1d80f7f", null ],
-    [ "Register", "df/dff/a26964.html#a803e26c6a4c06feedd80a4d94452aca5", null ],
-    [ "cap", "df/dff/a26964.html#a9c3e35d01ad863d146566efe7cca2637", null ],
-    [ "maxChance", "df/dff/a26964.html#a34933c7fe8b570214c821347f4ba974b", null ]
+    [ "AccountActionIpLogger", "df/dff/a26964.html#a73cad77bd83243cb10c4a1b4d7081e0b", null ],
+    [ "AccountIPLogAction", "df/dff/a26964.html#a9c978dafb71e67b8b278806df507e34b", null ],
+    [ "OnAccountLogin", "df/dff/a26964.html#a2952adcd73d775b924671e5a69adaccb", null ],
+    [ "OnEmailChange", "df/dff/a26964.html#aa15d0cc4e6ed3818fa18a927074f5f0c", null ],
+    [ "OnFailedAccountLogin", "df/dff/a26964.html#a8225c45bcb83e1ddd91a8dcd0f7da9cd", null ],
+    [ "OnFailedEmailChange", "df/dff/a26964.html#a9fd73dc7b6954dfb4fc94a1f1288ccd2", null ],
+    [ "OnFailedPasswordChange", "df/dff/a26964.html#a0663e15ea1a29b3daa672c8b6a25548f", null ],
+    [ "OnPasswordChange", "df/dff/a26964.html#a4b71aa9c1790e6d4033d884a17ce0a2f", null ]
 ];

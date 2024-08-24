@@ -1,6 +1,6 @@
 var a21136 =
 [
-    [ "spell_systems_shutdown_AuraScript", "d6/d25/a21140.html", "d6/d25/a21140" ],
-    [ "spell_systems_shutdown", "d1/ddf/a21136.html#a835da8c4136b61bb959a1d3b06eb7525", null ],
-    [ "GetAuraScript", "d1/ddf/a21136.html#a880041d31984831820d78f34e2ce3b37", null ]
+    [ "instance_utgarde_pinnacle_InstanceMapScript", "d6/d25/a21140.html", "d6/d25/a21140" ],
+    [ "instance_utgarde_pinnacle", "d1/ddf/a21136.html#a70c1528c9c1b0d830cc7af7debd5721b", null ],
+    [ "GetInstanceScript", "d1/ddf/a21136.html#a41bd06d5f42b09193c5f1b2bbb2323ac", null ]
 ];

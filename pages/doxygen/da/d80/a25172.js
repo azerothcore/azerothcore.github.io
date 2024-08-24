@@ -1,8 +1,6 @@
 var a25172 =
 [
-    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger_AuraScript", "d4/dc4/a25176.html", "d4/dc4/a25176" ],
-    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger_SpellScript", "d6/da7/a25180.html", "d6/da7/a25180" ],
-    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger", "da/d80/a25172.html#aba3d643edb1c21dd7217328534d6e0c4", null ],
-    [ "GetAuraScript", "da/d80/a25172.html#ad2fedc8903b81b2aa5d78be2f4bcb854", null ],
-    [ "GetSpellScript", "da/d80/a25172.html#ad2e1735d6d905613c79b6906ffed2b99", null ]
+    [ "CalculateAmount", "da/d80/a25172.html#a0522f4bf54b4a71df4e09f97a28fda45", null ],
+    [ "PrepareAuraScript", "da/d80/a25172.html#acf699e467734499dd992f401da38cf88", null ],
+    [ "Register", "da/d80/a25172.html#a6e6396a162a532ff25b9bd7c551f05d8", null ]
 ];

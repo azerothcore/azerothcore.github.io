@@ -1,10 +1,7 @@
 var a08696 =
 [
-    [ "NearestGameObjectEntryInObjectRangeCheck", "d3/d01/a08696.html#a7d57ae865868d4848caf088c4520b2a7", null ],
-    [ "NearestGameObjectEntryInObjectRangeCheck", "d3/d01/a08696.html#a28d97af524c2bab39e1bd2e5508e434b", null ],
-    [ "operator()", "d3/d01/a08696.html#ad0c6798e28784ed547102414f4c6a31f", null ],
-    [ "i_entry", "d3/d01/a08696.html#a5d19a23e7da2e5e5ed417d0a9623ffbb", null ],
-    [ "i_obj", "d3/d01/a08696.html#a104b8bece6ea78ba049dc592e54311be", null ],
-    [ "i_onlySpawned", "d3/d01/a08696.html#a2a58a6bcff73142e21c082bf2c11eff2", null ],
-    [ "i_range", "d3/d01/a08696.html#a94fc995a14f84060f3bfe5827f17b95e", null ]
+    [ "IsFitToRequirements", "d3/d01/a08696.html#ac175634ed2eab2911c3749fa208a073a", null ],
+    [ "castFlags", "d3/d01/a08696.html#a03cd65a460ea252818de9230cb656c1c", null ],
+    [ "spellId", "d3/d01/a08696.html#a34641755a5267b7a907d320cc5b4ddb4", null ],
+    [ "userType", "d3/d01/a08696.html#adcf285572403481cb418bddebc5f4bfa", null ]
 ];

@@ -1,6 +1,5 @@
 var a23332 =
 [
-    [ "npc_q24545_vegard_dummyAI", "dc/d8e/a23332.html#ad354ccbe97b12f8df1186de4bf52bfcc", null ],
-    [ "UpdateAI", "dc/d8e/a23332.html#aa31baac9ce3c4c951f93917b88390797", null ],
-    [ "done", "dc/d8e/a23332.html#a0208fbae8e6c46d0671107530279c50c", null ]
+    [ "go_main_chambers_access_panel", "dc/d8e/a23332.html#a30c3c20be1892b5107ef53683d593b75", null ],
+    [ "OnGossipHello", "dc/d8e/a23332.html#af4b3a4a0260de68dcfac7202e0a728ee", null ]
 ];

@@ -1,7 +1,10 @@
 var a11352 =
 [
-    [ "boss_moira_bronzebeardAI", "de/deb/a11352.html#a11265b6aad76574c2c76253128c79165", null ],
-    [ "CastOnEmperorIfPossible", "de/deb/a11352.html#a3f42c37e9f4cc14974106bf67ee4e583", null ],
-    [ "JustEngagedWith", "de/deb/a11352.html#a40ae00eb86e2bec048a9394d4deef106", null ],
-    [ "UpdateAI", "de/deb/a11352.html#ae3f22a059330fb564cd30e581fc0198d", null ]
+    [ "lfg_commandscript", "de/deb/a11352.html#a90faaca821e4162e0aea40a4d98af62c", null ],
+    [ "GetCommands", "de/deb/a11352.html#a324310f9b04675c277ceae44ea09fbaf", null ],
+    [ "HandleLfgCleanCommand", "de/deb/a11352.html#a93db689dbdb97a0318d62409a863767e", null ],
+    [ "HandleLfgGroupInfoCommand", "de/deb/a11352.html#a2376288a2ef82d8a19602cd66ff880f2", null ],
+    [ "HandleLfgOptionsCommand", "de/deb/a11352.html#a73187a97c883d8d1bb3765943dd98c39", null ],
+    [ "HandleLfgPlayerInfoCommand", "de/deb/a11352.html#acdf12aff45f16904df5724ab158e3b97", null ],
+    [ "HandleLfgQueueInfoCommand", "de/deb/a11352.html#a54dcdf133cc5b22961c34eda62a4f2fc", null ]
 ];

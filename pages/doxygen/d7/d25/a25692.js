@@ -1,8 +1,7 @@
 var a25692 =
 [
-    [ "HandleEffectApply", "d7/d25/a25692.html#acd1342b1b260b495cdaf7c5c0b6f9c25", null ],
-    [ "HandleEffectRemove", "d7/d25/a25692.html#a534a2d2dbd3c35eb11eed0ae618a02d5", null ],
-    [ "PrepareAuraScript", "d7/d25/a25692.html#a37b8f6dff913fe04d8d4d68b30c2cc6a", null ],
-    [ "Register", "d7/d25/a25692.html#ab02c14d9a79430eb702a26c11afa9ad9", null ],
-    [ "_falconSet", "d7/d25/a25692.html#a9cf7ea5562216826a81d229c9a51f929", null ]
+    [ "HandleDummy", "d7/d25/a25692.html#a02bb860f6d077d4c295ad8b82179174d", null ],
+    [ "PrepareSpellScript", "d7/d25/a25692.html#ad9eeff5aa428dabff7f2181d2819681d", null ],
+    [ "Register", "d7/d25/a25692.html#a2c699d4d848a01a80143d6fcc01b64a8", null ],
+    [ "Validate", "d7/d25/a25692.html#a9fd765b2c48f11837dbeb4caeedc0ae1", null ]
 ];

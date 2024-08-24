@@ -1,7 +1,6 @@
 var a27264 =
 [
-    [ "HandleApplyEffect", "d2/ddf/a27264.html#a4e2f6d414aea8ed1339ef3caa24fc17b", null ],
-    [ "Load", "d2/ddf/a27264.html#a47a4f15ab02ba3c6ac4dbfd7c4552900", null ],
-    [ "PrepareAuraScript", "d2/ddf/a27264.html#a101d38f5ffb34f90ba9af4f787445f2e", null ],
-    [ "Register", "d2/ddf/a27264.html#aed57fbbf473b8f15fa177261e4678e96", null ]
+    [ "go_amberpine_outhouse", "d2/ddf/a27264.html#a953ea72b3954c89b6c391de5aca3b6ce", null ],
+    [ "OnGossipHello", "d2/ddf/a27264.html#a7cbfc3a091ad2332fd46140a24ac4e37", null ],
+    [ "OnGossipSelect", "d2/ddf/a27264.html#aa55fe049ba43dbd548ba55d982d89d51", null ]
 ];

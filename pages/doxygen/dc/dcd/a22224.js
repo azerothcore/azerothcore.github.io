@@ -1,6 +1,8 @@
 var a22224 =
 [
-    [ "boss_yoggsaron_llaneAI", "d6/dbc/a22228.html", "d6/dbc/a22228" ],
-    [ "boss_yoggsaron_llane", "dc/dcd/a22224.html#a671df488222583aa12bc1c75695918b9", null ],
-    [ "GetAI", "dc/dcd/a22224.html#a1e7d1b4bce0ca1dbfbbe8c044b451b92", null ]
+    [ "AfterRemove", "dc/dcd/a22224.html#a06fd72c7754f34dbc62a99a9ed839302", null ],
+    [ "HandlePeriodic", "dc/dcd/a22224.html#a5aaadeed42e6a3cf1e2216a13c2d3ff9", null ],
+    [ "OnApply", "dc/dcd/a22224.html#a6617555d302923e5e95e7b1c6d8d74d6", null ],
+    [ "PrepareAuraScript", "dc/dcd/a22224.html#a47a6281c42dc9368357cc86912331c77", null ],
+    [ "Register", "dc/dcd/a22224.html#a868c79cda98b97b27b74d46f86cb980a", null ]
 ];

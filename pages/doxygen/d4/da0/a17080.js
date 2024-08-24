@@ -1,6 +1,11 @@
 var a17080 =
 [
-    [ "FilterTargets", "d4/da0/a17080.html#af555d143df147cec59b4cd51ed771c2a", null ],
-    [ "PrepareSpellScript", "d4/da0/a17080.html#a86df47dc4bcdd79c21eef18c9227b15a", null ],
-    [ "Register", "d4/da0/a17080.html#a2b8ed0c4f43728051ad495874470b97d", null ]
+    [ "boss_moorabiAI", "d4/da0/a17080.html#a60a03c3840a3743719996929d2ca9e59", null ],
+    [ "JustDied", "d4/da0/a17080.html#a6d866bf54dc06e4f20eb4d62ea97928a", null ],
+    [ "JustEngagedWith", "d4/da0/a17080.html#a1fa46ac21b28ff49382c7389a46fad75", null ],
+    [ "KilledUnit", "d4/da0/a17080.html#a265855d2972e534e927bfa609fbf2cf5", null ],
+    [ "Reset", "d4/da0/a17080.html#a9daf89ed0f4e5795cafc63a6a81e5d1d", null ],
+    [ "SpellHitTarget", "d4/da0/a17080.html#af1f30a0f3bf0f88725f8a146c528b77a", null ],
+    [ "UpdateAI", "d4/da0/a17080.html#a9f9956aaaa60d5d0005a55a87d0424eb", null ],
+    [ "events2", "d4/da0/a17080.html#a02a3bc20ca7b1b750bfd1bd29f093dd2", null ]
 ];

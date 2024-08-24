@@ -1,7 +1,5 @@
 var a27316 =
 [
-    [ "PrepareSpellScript", "da/d47/a27316.html#a65d5717a25e371e09c44148c679dd390", null ],
-    [ "Register", "da/d47/a27316.html#afb5f3560c022a8ef659d82cf24a46d8a", null ],
-    [ "RemoveInvalidTargets", "da/d47/a27316.html#a53262865dfa222de1d020f8c7cbf15fd", null ],
-    [ "Validate", "da/d47/a27316.html#a27ee4f0e6d14d15e5da2119c2bc49516", null ]
+    [ "item_mysterious_egg", "da/d47/a27316.html#ac32e296dcb700f32f6d0296f2921e6c7", null ],
+    [ "OnExpire", "da/d47/a27316.html#a5ea72284626826b75819f89b3b91c540", null ]
 ];

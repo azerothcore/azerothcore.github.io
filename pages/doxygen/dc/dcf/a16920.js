@@ -1,6 +1,9 @@
 var a16920 =
 [
-    [ "HandleScriptEffect", "dc/dcf/a16920.html#a6dc8225ba087bb2abcc374a3ff6762b4", null ],
-    [ "PrepareSpellScript", "dc/dcf/a16920.html#a2b17d482990abe4c61a62b45b3a4f0ac", null ],
-    [ "Register", "dc/dcf/a16920.html#a8d32a4078cd78dbae520648d29fc3fdb", null ]
+    [ "npc_pos_after_first_bossAI", "dc/dcf/a16920.html#a622df71849da1e10e2b73068f0adea98", null ],
+    [ "MovementInform", "dc/dcf/a16920.html#a1751506f27d4b2fc9ddb2f8a6a82dc9e", null ],
+    [ "Reset", "dc/dcf/a16920.html#ad248aa4cbfbd24e4fe47b99b38c4dd8c", null ],
+    [ "UpdateAI", "dc/dcf/a16920.html#ac45111887fd7833a041355658dd26158", null ],
+    [ "events", "dc/dcf/a16920.html#a3aaf303ee389a10edc4feeec7c38a2a6", null ],
+    [ "pInstance", "dc/dcf/a16920.html#a17a0e1e7a35f608a9ec86ce4e959b52e", null ]
 ];

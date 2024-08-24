@@ -1,16 +1,20 @@
 var a14864 =
 [
-    [ "npc_medivh_bm", "d2/d18/a14864.html#a23f04c433faf7da663b2edffb2a0440d", null ],
-    [ "AttackStart", "d2/d18/a14864.html#a8eb87f4d80d83725af017657c599d458", null ],
-    [ "DoAction", "d2/d18/a14864.html#aa5a54d0b2b069947dd59eee77cbdf21b", null ],
-    [ "JustDied", "d2/d18/a14864.html#ad6dbbef1b6fbccd9dd224af1a15a6c90", null ],
-    [ "JustSummoned", "d2/d18/a14864.html#a16d8d3be1dd148e149f4e49570f092a6", null ],
-    [ "MoveInLineOfSight", "d2/d18/a14864.html#a87f092fccd5b485bdf0bd0449bd57265", null ],
-    [ "Reset", "d2/d18/a14864.html#a1a33f613b083763c952882cdb82a35c1", null ],
-    [ "SummonOrcs", "d2/d18/a14864.html#a9206f380773fff5df6dc7c67e37a9ba8", null ],
-    [ "UpdateAI", "d2/d18/a14864.html#aefc693d7be0c06c5056cae18d4e4eb1e", null ],
-    [ "_airArray", "d2/d18/a14864.html#a6e766596b69b52690635ee91e6e8d164", null ],
-    [ "_events", "d2/d18/a14864.html#a1d4fe5bc964d12e812a178c68e2f037f", null ],
-    [ "_groundArray", "d2/d18/a14864.html#a6fd3a75ddec2a6bda3e5d1bd3e33722c", null ],
-    [ "_instance", "d2/d18/a14864.html#a45e129d61c3987e4bff94485db739eb1", null ]
+    [ "npc_general_andorov", "d2/d18/a14864.html#ac3bbdeaad9c7bb303a5de6773916dcff", null ],
+    [ "GetData", "d2/d18/a14864.html#adf1b6a0767c3633c96d41d6a8c59e670", null ],
+    [ "InitializeAI", "d2/d18/a14864.html#a701221e8fd8830a3586d9791fd8eca56", null ],
+    [ "JustDied", "d2/d18/a14864.html#ae6342cc5d033bc2900594cabccaf7233", null ],
+    [ "JustEngagedWith", "d2/d18/a14864.html#a9f1261cde233466b814b53be03406370", null ],
+    [ "JustSummoned", "d2/d18/a14864.html#a3add3fa13ffae3cd688eaf564c3f835d", null ],
+    [ "KilledUnit", "d2/d18/a14864.html#a728b73ed109ee6b2b45eb3f1415b4744", null ],
+    [ "MoveInLineOfSight", "d2/d18/a14864.html#a230803b7f29829118d105ec768941ffa", null ],
+    [ "sGossipSelect", "d2/d18/a14864.html#a38eadfe7e465c276f7496c5b51f60d03", null ],
+    [ "UpdateEscortAI", "d2/d18/a14864.html#ab5f5af15cf76071dcce833514bb8c867", null ],
+    [ "WaypointReached", "d2/d18/a14864.html#ab9edc924b6e5ade56e3f6443a7454eaa", null ],
+    [ "_initialAttackTimer", "d2/d18/a14864.html#a38dd94fea45cf2c1821cb01e3d3e70d8", null ],
+    [ "_paused", "d2/d18/a14864.html#aa0708d2c1e4829371b93697744fb10b7", null ],
+    [ "_summons", "d2/d18/a14864.html#ac8cb94b3870f655b61a52cdb5076fc4c", null ],
+    [ "Endwaypoint", "d2/d18/a14864.html#a6897bb1ed63743ce8b225786d63910df", null ],
+    [ "events", "d2/d18/a14864.html#aa7eace59bc5f630cafba513f9e2ec0f8", null ],
+    [ "instance", "d2/d18/a14864.html#ae79d42dc7fa334ace67f07651ce4720a", null ]
 ];

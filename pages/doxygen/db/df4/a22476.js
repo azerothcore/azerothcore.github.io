@@ -1,6 +1,10 @@
 var a22476 =
 [
-    [ "boss_kelesethAI", "d8/d88/a22480.html", "d8/d88/a22480" ],
-    [ "boss_keleseth", "db/df4/a22476.html#aa80ba121af9092f3a7c2d24e3018d27f", null ],
-    [ "GetAI", "db/df4/a22476.html#ac80a19a56a921e3be04a3bad1cb12912", null ]
+    [ "OPvPCapturePointHP", "db/df4/a22476.html#a7f5fa3e3bd28924965cc08f41b5d6bd8", null ],
+    [ "ChangeState", "db/df4/a22476.html#aa0dc544ad3d53255dbfdab7461efcaa1", null ],
+    [ "FillInitialWorldStates", "db/df4/a22476.html#a4021432ef58674bf456ad2684e56b256", null ],
+    [ "HandlePlayerEnter", "db/df4/a22476.html#ad9738c621df084d5a3f0070c80403642", null ],
+    [ "HandlePlayerLeave", "db/df4/a22476.html#a86e849e5387383a6c751e69350ffa07c", null ],
+    [ "SendChangePhase", "db/df4/a22476.html#a42528a90eda9ec28dd00df3f0ec78a15", null ],
+    [ "m_TowerType", "db/df4/a22476.html#a0191bec2d9492e21957ed9b4e0fed484", null ]
 ];

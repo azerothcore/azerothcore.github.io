@@ -1,7 +1,6 @@
 var a24752 =
 [
-    [ "boss_gathios_the_shattererAI", "d9/dc7/a24752.html#ae1be23d2dd2edd5e115df0dbb71e1d35", null ],
-    [ "JustEngagedWith", "d9/dc7/a24752.html#a29cbf47346558a5e76aec25554b97bf7", null ],
-    [ "SelectCouncilMember", "d9/dc7/a24752.html#a04e796303ca83b546272a7b6a533725c", null ],
-    [ "UpdateAI", "d9/dc7/a24752.html#a7cf1ae125d6d9ed4fc9524dfb305f52a", null ]
+    [ "HandleAfterCast", "d9/dc7/a24752.html#a39572ebbeee6fe39bc4454088c622bcd", null ],
+    [ "PrepareSpellScript", "d9/dc7/a24752.html#a602d7c920aa73a9c3c69222854093036", null ],
+    [ "Register", "d9/dc7/a24752.html#addbbf508a0e1074c23ebd325dd62bbe9", null ]
 ];

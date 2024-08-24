@@ -1,6 +1,8 @@
 var a25596 =
 [
-    [ "npc_warden_mellicharAI", "de/db8/a25600.html", "de/db8/a25600" ],
-    [ "npc_warden_mellichar", "dc/d54/a25596.html#aba5c3d005097430941bd40bbbb0d3562", null ],
-    [ "GetAI", "dc/d54/a25596.html#a7cb7437a61b49d8110c3b7fee43e495b", null ]
+    [ "CheckProc", "dc/d54/a25596.html#a06d76f258699bd4f78834ef33752a351", null ],
+    [ "HandleProc", "dc/d54/a25596.html#af22f22cbc38fabe4181b853727df83f8", null ],
+    [ "PrepareAuraScript", "dc/d54/a25596.html#adbc2bc54974837a9784cbf8b30ef2c1e", null ],
+    [ "Register", "dc/d54/a25596.html#a8db2cf628d44fa962bb3889b20f5dfb1", null ],
+    [ "Validate", "dc/d54/a25596.html#aa5604d45c0c11bef130d9242c4357163", null ]
 ];

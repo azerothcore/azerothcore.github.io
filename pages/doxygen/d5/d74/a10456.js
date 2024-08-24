@@ -1,8 +1,9 @@
 var a10456 =
 [
-    [ "SkillPerfectItemEntry", "d5/d74/a10456.html#a683f3c6f5e9c5ef2a0f0fa09d546d2a3", null ],
-    [ "SkillPerfectItemEntry", "d5/d74/a10456.html#a678f9908440187faad38c0e1ffaf82de", null ],
-    [ "perfectCreateChance", "d5/d74/a10456.html#a750d5ab6bc3df0026e640f1c84de8547", null ],
-    [ "perfectItemType", "d5/d74/a10456.html#a057605f8867d4df5cb290318598a2908", null ],
-    [ "requiredSpecialization", "d5/d74/a10456.html#aa7ad968ab1b8804ee8f0f8f40bc6f762", null ]
+    [ "Weather", "d5/d74/a10456.html#aa404c94fec05b825454a7309827767c6", null ],
+    [ "Weather", "d5/d74/a10456.html#a28f45d81441d2dde6917380978dfb4d0", null ],
+    [ "Write", "d5/d74/a10456.html#a641c7de3e527dcdff07b3f602880b5c8", null ],
+    [ "Abrupt", "d5/d74/a10456.html#a0abe1fcb36d21ac246174cdc98c0e261", null ],
+    [ "Intensity", "d5/d74/a10456.html#ac37cee2364921a50e2b1ec1b19ed69b7", null ],
+    [ "WeatherID", "d5/d74/a10456.html#a32e56458b1e562c124cfc0288a578134", null ]
 ];

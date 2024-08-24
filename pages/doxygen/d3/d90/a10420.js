@@ -1,5 +1,7 @@
 var a10420 =
 [
-    [ "amountCounter", "d3/d90/a10420.html#a8de1f899f55a371b77ae007c1f9a981c", null ],
-    [ "lastReceiveTime", "d3/d90/a10420.html#ae0f3f2a90a24b48d239e3df3525f8fdc", null ]
+    [ "GuildBankLogQueryResults", "d3/d90/a10420.html#a878f9545b3141a327de85771de4f1779", null ],
+    [ "Write", "d3/d90/a10420.html#aafdb5114c7d0e8a2d18a848f3c94aa38", null ],
+    [ "Entry", "d3/d90/a10420.html#a5f3704df5311f06833c3243201d35930", null ],
+    [ "Tab", "d3/d90/a10420.html#a214db612bb08e557dd41d3962c827dca", null ]
 ];

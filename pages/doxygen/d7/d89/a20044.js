@@ -1,6 +1,7 @@
 var a20044 =
 [
-    [ "spell_grobbulus_poison_SpellScript", "d7/dd6/a20048.html", "d7/dd6/a20048" ],
-    [ "spell_grobbulus_poison", "d7/d89/a20044.html#afafc55d2d4b4b56f551587639539b161", null ],
-    [ "GetSpellScript", "d7/d89/a20044.html#a1e48cf49cf7996854994d243f92eddc8", null ]
+    [ "HandleAfterEffectApply", "d7/d89/a20044.html#a672526de2c71dcae79bacef88f34dc26", null ],
+    [ "PrepareAuraScript", "d7/d89/a20044.html#a1da221b63cb7fcd0dbb580e8cf0003ce", null ],
+    [ "Register", "d7/d89/a20044.html#a9ba7c109fe96881dd47ba47366890e2b", null ],
+    [ "Validate", "d7/d89/a20044.html#ab5833f6218760a7d9829b5d453436302", null ]
 ];

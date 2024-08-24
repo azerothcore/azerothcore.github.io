@@ -1,7 +1,8 @@
 var a16288 =
 [
-    [ "OnApply", "de/dfa/a16288.html#a1715a3fa18b4b9953c65fad22a4ac80a", null ],
-    [ "OnRemove", "de/dfa/a16288.html#a07c943a10f7fa69e06a92a6b978e45bc", null ],
-    [ "PrepareAuraScript", "de/dfa/a16288.html#a30806e63f5e4a51213c07e8adad54d4b", null ],
-    [ "Register", "de/dfa/a16288.html#acbee31360b60edc391ff15a62ed390fd", null ]
+    [ "npc_toc_boomkinAI", "de/dfa/a16288.html#a12c586d57aa6dd3893889f103dbfee20", null ],
+    [ "JustSummoned", "de/dfa/a16288.html#a0d049885773b7f1abd7e03f9200852f4", null ],
+    [ "myCanCast", "de/dfa/a16288.html#a691a0250db77cc4def2bf67b25a1298c", null ],
+    [ "UpdateAI", "de/dfa/a16288.html#a64b0451537c0d27bc01d1c1ec3b5b88d", null ],
+    [ "events", "de/dfa/a16288.html#a0b367855092884b2ce30834e89fced87", null ]
 ];

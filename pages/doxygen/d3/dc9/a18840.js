@@ -1,5 +1,7 @@
 var a18840 =
 [
-    [ "achievement_all_you_can_eat", "d3/dc9/a18840.html#a0995024862a445ea1f0ff5c82475fc64", null ],
-    [ "OnCheck", "d3/dc9/a18840.html#a0baa07a7cbd239e4a5fcfd3e687aedf6", null ]
+    [ "OnApply", "d3/dc9/a18840.html#a72a01dea703436b2a220a9976da60fa6", null ],
+    [ "PrepareAuraScript", "d3/dc9/a18840.html#adb17425258d4fb2c0c464236e15f32d7", null ],
+    [ "Register", "d3/dc9/a18840.html#af026c126029c68ed8b7c6c1886720e4c", null ],
+    [ "Validate", "d3/dc9/a18840.html#a5674396828adf4e80102ed2277f1e08a", null ]
 ];

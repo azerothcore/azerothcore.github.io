@@ -1,5 +1,6 @@
 var a23208 =
 [
-    [ "go_the_pearl_of_the_depths", "d9/d2f/a23208.html#a0e09ddcde0eef050400d90e9a268823a", null ],
-    [ "OnGossipHello", "d9/d2f/a23208.html#a745ea14136a78759a3afd7714c6d784a", null ]
+    [ "HandleApplyAura", "d9/d2f/a23208.html#a4fde347d339f08cd01e2a47883d4b988", null ],
+    [ "PrepareSpellScript", "d9/d2f/a23208.html#ab22bd56638a6adc8d111250780221cb9", null ],
+    [ "Register", "d9/d2f/a23208.html#a1dd967ad59159faf694b8e0bfcd369ac", null ]
 ];

@@ -1,6 +1,6 @@
 var a11916 =
 [
-    [ "spell_shazzrah_gate_dummy_SpellScript", "d9/d23/a11920.html", "d9/d23/a11920" ],
-    [ "spell_shazzrah_gate_dummy", "df/d77/a11916.html#a6a5402c367745bb55a78411241bcdf7d", null ],
-    [ "GetSpellScript", "df/d77/a11916.html#a62ea43c0e30518e8632194921cec141f", null ]
+    [ "boss_flamegorAI", "df/d77/a11916.html#a4b3d46c3faa566095b0cedad3df9f057", null ],
+    [ "JustEngagedWith", "df/d77/a11916.html#a6005dca71e2f20ee599e053e531377d6", null ],
+    [ "UpdateAI", "df/d77/a11916.html#a2e5146815e533cf62e0084a54aa222d5", null ]
 ];

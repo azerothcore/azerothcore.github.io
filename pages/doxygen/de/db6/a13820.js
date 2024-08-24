@@ -1,6 +1,5 @@
 var a13820 =
 [
-    [ "npc_harrison_jonesAI", "d7/d67/a13824.html", "d7/d67/a13824" ],
-    [ "npc_harrison_jones", "de/db6/a13820.html#afbf1c2040c87f5ca8280d18a9db97c7f", null ],
-    [ "GetAI", "de/db6/a13820.html#ac7df55d850973073266509f6e09ea367", null ]
+    [ "at_zulgurub_edge_of_madness_speech", "de/db6/a13820.html#a7d4007716e3ed634ac7e3d3dba26e6f7", null ],
+    [ "_OnTrigger", "de/db6/a13820.html#a725de49be12116f2f7e77edd31a096ae", null ]
 ];

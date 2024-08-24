@@ -1,6 +1,6 @@
 var a01622 =
 [
-    [ "UpdateRequest", "d4/d72/a09535.html", "d4/d72/a09535" ],
-    [ "MapUpdateRequest", "d4/d2d/a09539.html", "d4/d2d/a09539" ],
-    [ "LFGUpdateRequest", "d7/dfc/a09543.html", "d7/dfc/a09543" ]
+    [ "UpdateRequest", "dd/db9/a09532.html", "dd/db9/a09532" ],
+    [ "MapUpdateRequest", "d6/df4/a09536.html", "d6/df4/a09536" ],
+    [ "LFGUpdateRequest", "da/d6c/a09540.html", "da/d6c/a09540" ]
 ];

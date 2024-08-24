@@ -1,13 +1,20 @@
 var a17420 =
 [
-    [ "npc_pos_martin_or_gorkun_secondAI", "d4/d17/a17420.html#a2b8f5479565297c95ecdc4882e7d27ae", null ],
-    [ "DoAction", "d4/d17/a17420.html#aa1df5c0f5612a9fc9a4e78fb901dc8e7", null ],
-    [ "JustSummoned", "d4/d17/a17420.html#acdfc5d370da977ab69752016368cc9b0", null ],
-    [ "MovementInform", "d4/d17/a17420.html#a95c033e4e2ca224be09ce993f4e7996d", null ],
-    [ "SummonedCreatureDespawn", "d4/d17/a17420.html#af31de5c7f901baf4d8c62964fee8ead8", null ],
-    [ "UpdateAI", "d4/d17/a17420.html#ad22fbcd52404c1e9c1fc71f3bc6b7525", null ],
-    [ "events", "d4/d17/a17420.html#a44045ae5151625a4d7aacb69e9c934e5", null ],
-    [ "i", "d4/d17/a17420.html#aa185914ee8a2352e4d233f1fc4800390", null ],
-    [ "pInstance", "d4/d17/a17420.html#ac38febd0bce9338346d0c1aa6ba50de3", null ],
-    [ "summons", "d4/d17/a17420.html#ad0f2097f168ea5983e3eece24cb82bfa", null ]
+    [ "npc_muradin_bronzebeard_igbAI", "d4/d17/a17420.html#aa29123d2482962c17a48e66db205207b", null ],
+    [ "AttackStart", "d4/d17/a17420.html#a7b5de4a7fd5fd49847a749a82d3dbb3e", null ],
+    [ "CanAIAttack", "d4/d17/a17420.html#a2e0d4d678cf315ac1d58e6bab290479f", null ],
+    [ "DamageTaken", "d4/d17/a17420.html#afd7e3b65e8091e5f24367c8de65df200", null ],
+    [ "DoAction", "d4/d17/a17420.html#ae57b20a747ec0421f28f6d12a55d48d3", null ],
+    [ "EnterEvadeMode", "d4/d17/a17420.html#ac3ab7ebfd6ae536743d557bb26434d28", null ],
+    [ "JustEngagedWith", "d4/d17/a17420.html#ad2693aba63dec87b5d57aeac7969819a", null ],
+    [ "SetData", "d4/d17/a17420.html#a5416f116eb1a8707d546c99af157642d", null ],
+    [ "sGossipSelect", "d4/d17/a17420.html#ad6362193938539f78d3726687f03badc", null ],
+    [ "UpdateAI", "d4/d17/a17420.html#a7fe22201514986bc20fbe9e7f27d410a", null ],
+    [ "_controller", "d4/d17/a17420.html#aec8a2a424ff10099437cbc7e7ca03ae3", null ],
+    [ "_events", "d4/d17/a17420.html#ab72a5bf5b6313b51002ff96ca8ee4971", null ],
+    [ "_firstMageCooldown", "d4/d17/a17420.html#a7cb5e81a09283c1ca915ec4419363af4", null ],
+    [ "_instance", "d4/d17/a17420.html#a5d6a8a6c7b0469de2151c9363d63c0ce", null ],
+    [ "_mortarYellCooldown", "d4/d17/a17420.html#af13f2f59692b16ad24d17442efe9f834", null ],
+    [ "_riflemanYellCooldown", "d4/d17/a17420.html#ac7f039bb890fdd08dc616f23680d37e4", null ],
+    [ "checkTimer", "d4/d17/a17420.html#a0416f980547177f722cdd4305823d99e", null ]
 ];

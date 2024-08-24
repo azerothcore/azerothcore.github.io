@@ -1,10 +1,12 @@
 var a09676 =
 [
-    [ "AllItemScript", "da/dfa/a09676.html#a7c0e310c69966e0eab6f2951dedcda63", null ],
-    [ "CanItemExpire", "da/dfa/a09676.html#aa2a9c691b4ba5d06f65555a7092fffc3", null ],
-    [ "CanItemQuestAccept", "da/dfa/a09676.html#a545e2bc7436a064146025954eaf5ae92", null ],
-    [ "CanItemRemove", "da/dfa/a09676.html#ad29a7f5d07d56127bc00846e1a7fb067", null ],
-    [ "CanItemUse", "da/dfa/a09676.html#a89d237f426840658e4423fb9cc7428db", null ],
-    [ "OnItemGossipSelect", "da/dfa/a09676.html#a7157f72c6d09988b60480d1671892cde", null ],
-    [ "OnItemGossipSelectCode", "da/dfa/a09676.html#a9e13f025e5cf10bf51c87a4dc1e7968d", null ]
+    [ "RotateMovementGenerator", "da/dfa/a09676.html#a89a6559b4380210972e82c6ca6d5a9db", null ],
+    [ "Finalize", "da/dfa/a09676.html#afd7588c7877b116cc9626a774b89d584", null ],
+    [ "GetMovementGeneratorType", "da/dfa/a09676.html#a20677803edf5d93ceae3bf76ef426a81", null ],
+    [ "Initialize", "da/dfa/a09676.html#a18fea8760bb24912af9349a06ff7b596", null ],
+    [ "Reset", "da/dfa/a09676.html#a3e177762fcfc11ac47aa820b46b93ed0", null ],
+    [ "Update", "da/dfa/a09676.html#a0dc8600e3aa862a81735dfb927232e53", null ],
+    [ "m_direction", "da/dfa/a09676.html#a8717e890670d9f4e2ff66c0981d14aa6", null ],
+    [ "m_duration", "da/dfa/a09676.html#a2cb8d5fc3d26c24e62c7373f1ce49b13", null ],
+    [ "m_maxDuration", "da/dfa/a09676.html#a7cf10886bdd50ccbc5900b9229958e01", null ]
 ];

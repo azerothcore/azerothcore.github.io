@@ -1,6 +1,6 @@
 var a22816 =
 [
-    [ "boss_moraggAI", "de/d03/a22820.html", "de/d03/a22820" ],
-    [ "boss_moragg", "d4/dea/a22816.html#aeb43f9cc4c41f049fd0a13e79cadfcd1", null ],
-    [ "GetAI", "d4/dea/a22816.html#a5ea2f210038b3e44bf2cb9c402e1b761", null ]
+    [ "FilterTargets", "d4/dea/a22816.html#a04973145ed594b88afe2acc0cacb10c6", null ],
+    [ "PrepareSpellScript", "d4/dea/a22816.html#a90c0513a6dba2f2e6619dd8c77544991", null ],
+    [ "Register", "d4/dea/a22816.html#a7c8ca525cd6822d21551331ce37ce5dd", null ]
 ];

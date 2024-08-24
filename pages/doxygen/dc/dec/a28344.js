@@ -1,7 +1,7 @@
 var a28344 =
 [
-    [ "HandleDummy", "dc/dec/a28344.html#abc630a0c8274f5f85901b2505ff2ae04", null ],
-    [ "PrepareSpellScript", "dc/dec/a28344.html#af79cd7c2f6ed47a93dbbe17aaca6834f", null ],
-    [ "Register", "dc/dec/a28344.html#a3f1808538acca2742c19f68af9a6fd56", null ],
-    [ "Validate", "dc/dec/a28344.html#a475e1d5d8c70e0edd5957a1e493fd43e", null ]
+    [ "~ByteBufferException", "dc/dec/a28344.html#a0ab73f9061c040127f70dbfc9a176509", null ],
+    [ "message", "dc/dec/a28344.html#ab1a64d8fc18565a04c347de29184f68c", null ],
+    [ "what", "dc/dec/a28344.html#a87896f7ab19f3032937f5f84e8cf440a", null ],
+    [ "msg_", "dc/dec/a28344.html#a314bdbb7063219f8256df894602e6b02", null ]
 ];

@@ -1,6 +1,7 @@
 var a26284 =
 [
-    [ "npc_shadowmoon_tuber_nodeAI", "da/d18/a26288.html", "da/d18/a26288" ],
-    [ "npc_shadowmoon_tuber_node", "d1/df7/a26284.html#a98e8c7a84789457900fa342cca209d41", null ],
-    [ "GetAI", "d1/df7/a26284.html#a5f641af77e2fd78fe67b34fa18bf6b73", null ]
+    [ "HandleEffectApply", "d1/df7/a26284.html#a475d0bab96e226853368be3b68c5a2d3", null ],
+    [ "HandleEffectRemove", "d1/df7/a26284.html#aa22a095e40789ac562a64c20d7eadb28", null ],
+    [ "PrepareAuraScript", "d1/df7/a26284.html#a2b06b0dc1a4c2f5b5e4657e11a097660", null ],
+    [ "Register", "d1/df7/a26284.html#a91e75a059828a30d509fd22be19048f8", null ]
 ];

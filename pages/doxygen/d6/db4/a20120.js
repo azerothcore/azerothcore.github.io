@@ -1,7 +1,15 @@
 var a20120 =
 [
-    [ "boss_maexxna_webwrapAI", "d6/db4/a20120.html#a1423b619676f650f71c8e7215aa2a2b7", null ],
-    [ "JustDied", "d6/db4/a20120.html#a1ed18e791d2a5ae26cd1c2f3cdf37d82", null ],
-    [ "SetGUID", "d6/db4/a20120.html#a5edc17c4a5d1535be3d5449c2742dc73", null ],
-    [ "victimGUID", "d6/db4/a20120.html#a54081ebfc0df639b7e18b5f079802c92", null ]
+    [ "npc_ulduar_hodir_shamanAI", "d6/db4/a20120.html#a4f18b06f254b57787b7ab31c9b422402", null ],
+    [ "AttackStart", "d6/db4/a20120.html#a022aabbc965872925698bd53fad2f84d", null ],
+    [ "CanAIAttack", "d6/db4/a20120.html#a21b3804fe0af15e59e9af30260552666", null ],
+    [ "EnterEvadeMode", "d6/db4/a20120.html#af9cfc1dc173e0a4d82f1dbc8eb1cbcba", null ],
+    [ "JustDied", "d6/db4/a20120.html#a5c06c412d38203bb10e9951e27d5760a", null ],
+    [ "MoveInLineOfSight", "d6/db4/a20120.html#a24d570f1c4a133c4f001032a1c915a27", null ],
+    [ "ScheduleAbilities", "d6/db4/a20120.html#ac197b53bc03fd8bdf44b8b2e2a64f568", null ],
+    [ "SpellHit", "d6/db4/a20120.html#a3c61b680a0d75a87bfaf4d8ae8072ea9", null ],
+    [ "SpellHitTarget", "d6/db4/a20120.html#ae829e62ec342c1e0d12a523506ea6b04", null ],
+    [ "UpdateAI", "d6/db4/a20120.html#af961f02169ab700716410e26114fd857", null ],
+    [ "events", "d6/db4/a20120.html#ad92f69d2a63313798e16cfbaf55301ca", null ],
+    [ "pInstance", "d6/db4/a20120.html#af4f0d720b9d9e4cbe4805cfc0c9a12c8", null ]
 ];

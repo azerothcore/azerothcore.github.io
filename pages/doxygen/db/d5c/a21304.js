@@ -1,14 +1,12 @@
 var a21304 =
 [
-    [ "boss_freya_summonsAI", "db/d5c/a21304.html#acbba11d918cc6368612cbd3d95310fe2", null ],
-    [ "DoAction", "db/d5c/a21304.html#ad9dd522e33ffd42bff75f7dd5f1bdc45", null ],
-    [ "JustDied", "db/d5c/a21304.html#af7668e0cb4be7d49af8be697b8fa3299", null ],
-    [ "JustEngagedWith", "db/d5c/a21304.html#a3163e12dd184dc5b8981c356e601a05a", null ],
-    [ "Reset", "db/d5c/a21304.html#a44f1ac940625fdd0cdb84454082e7ab6", null ],
-    [ "UpdateAI", "db/d5c/a21304.html#afdd17576728872509ec31188fa68505b", null ],
-    [ "_freyaGUID", "db/d5c/a21304.html#adcdf01b496a52b1d0aa2f1b3bf6a7a0a", null ],
-    [ "_hasDied", "db/d5c/a21304.html#a86f421141d31ac70e58cf63fe707ba27", null ],
-    [ "_isTrio", "db/d5c/a21304.html#ab31e8c73c3e22b031e5efe89ae95ce0e", null ],
-    [ "_stackCount", "db/d5c/a21304.html#ab7fc673ad22c1dd3bd41fa185ee03abb", null ],
-    [ "events", "db/d5c/a21304.html#a79403b4a24b92f89252db603d8ea2210", null ]
+    [ "boss_moraggAI", "db/d5c/a21304.html#a3ae881c9adca20a2cb894af85297d53e", null ],
+    [ "EnterEvadeMode", "db/d5c/a21304.html#a4e70e42407f452c4685c732949fd2b52", null ],
+    [ "JustDied", "db/d5c/a21304.html#a97516e6ad5f7f35d0329674130e76dd3", null ],
+    [ "JustEngagedWith", "db/d5c/a21304.html#ab1d4d863a537a3c567eeda6f95f385ca", null ],
+    [ "MoveInLineOfSight", "db/d5c/a21304.html#a52a99d72dfa017baacb76717e6db931b", null ],
+    [ "Reset", "db/d5c/a21304.html#a8b7419c94e36b4b2292cf110a2eccb01", null ],
+    [ "UpdateAI", "db/d5c/a21304.html#aec7645eaae190d1e7982aae181ff9224", null ],
+    [ "events", "db/d5c/a21304.html#acd021e4216e3920f0534da95d69ba5eb", null ],
+    [ "pInstance", "db/d5c/a21304.html#a9f179ea9b180095a1e6df11b4842c5e5", null ]
 ];

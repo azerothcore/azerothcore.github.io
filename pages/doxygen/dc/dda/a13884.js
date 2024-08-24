@@ -1,5 +1,6 @@
 var a13884 =
 [
-    [ "at_zulgurub_bridge_speech", "dc/dda/a13884.html#a0ef9d44dc98ddee8fe5133862339808d", null ],
-    [ "_OnTrigger", "dc/dda/a13884.html#a67234a1f4c77888a8535d0ea52e16ba9", null ]
+    [ "npc_ohganAI", "d1/df3/a13888.html", "d1/df3/a13888" ],
+    [ "npc_ohgan", "dc/dda/a13884.html#ae391f2b36c68952ca5eaf773c29cbcad", null ],
+    [ "GetAI", "dc/dda/a13884.html#a129dc2fcd449850403e0dcb99725da90", null ]
 ];

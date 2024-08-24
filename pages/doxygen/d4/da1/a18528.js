@@ -1,6 +1,6 @@
 var a18528 =
 [
-    [ "spell_putricide_unbound_plague_dmg_AuraScript", "d0/d12/a18532.html", "d0/d12/a18532" ],
-    [ "spell_putricide_unbound_plague_dmg", "d4/da1/a18528.html#a4335943600e1b5956fae27a01d545ab6", null ],
-    [ "GetAuraScript", "d4/da1/a18528.html#a162ffa548448cc6495133d589ca6d244", null ]
+    [ "npc_impaling_spearAI", "d0/d12/a18532.html", "d0/d12/a18532" ],
+    [ "npc_impaling_spear", "d4/da1/a18528.html#af546ed9684fc085ad651bf5bd93e5bf7", null ],
+    [ "GetAI", "d4/da1/a18528.html#aad49164a3e7541b755c1c622b996bb9a", null ]
 ];

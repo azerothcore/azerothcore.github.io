@@ -1,8 +1,10 @@
 var a05328 =
 [
-    [ "cmd", "d5/db3/a05328.html#a14df856ae931474a7c58d0e35caf6ad0", null ],
-    [ "number_of_keys", "d5/db3/a05328.html#aaa44734bb96b91894c038b3f34b4db0d", null ],
-    [ "R1", "d5/db3/a05328.html#a054648a96d1c66bae6fdb9a174e7b1e6", null ],
-    [ "R2", "d5/db3/a05328.html#a72fa4a4d0b6098fdf8e5c8f9a33f08ad", null ],
-    [ "R3", "d5/db3/a05328.html#a819a5ba3a19583fd0cfd0558cf218e54", null ]
+    [ "AsyncCallbackProcessor", "d5/db3/a05328.html#aee6f273ab86fad749de85cd12ea32a98", null ],
+    [ "~AsyncCallbackProcessor", "d5/db3/a05328.html#a0a1b8fb7112485c9461387b6effcd56b", null ],
+    [ "AsyncCallbackProcessor", "d5/db3/a05328.html#af575ef04d5b2440ad3a787348e5baf9a", null ],
+    [ "AddCallback", "d5/db3/a05328.html#a47ef165fe4c31f46998f69e8e16625f1", null ],
+    [ "operator=", "d5/db3/a05328.html#ae95508c8bd67d6246279f37cbe6ca8d3", null ],
+    [ "ProcessReadyCallbacks", "d5/db3/a05328.html#a4fce127f587a9da913a9e9061ba538e7", null ],
+    [ "_callbacks", "d5/db3/a05328.html#a372d9496b9a1b3e3f718cefe50164209", null ]
 ];

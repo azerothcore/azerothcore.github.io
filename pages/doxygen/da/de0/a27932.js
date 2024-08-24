@@ -1,8 +1,9 @@
 var a27932 =
 [
-    [ "HandleScript", "da/de0/a27932.html#ad99c741ef4bf707ec4b4726a3610d827", null ],
-    [ "Load", "da/de0/a27932.html#ab7aac5c557c76fdd195565a99d746dc9", null ],
-    [ "PrepareSpellScript", "da/de0/a27932.html#abb6e76d537d61b5b38ce4488d230d6de", null ],
-    [ "Register", "da/de0/a27932.html#a2f7e819dfa30f4f0d3645fde9c87408c", null ],
-    [ "Validate", "da/de0/a27932.html#a0767c66cbc288bee6ee0eb3a4fde315f", null ]
+    [ "CinematicSequence", "da/de0/a27932.html#a7a0a35bbb69320565d991f4a349dc01b", null ],
+    [ "ClassID", "da/de0/a27932.html#a9da8d8d20126e9dc161b1dd64a19fe59", null ],
+    [ "expansion", "da/de0/a27932.html#a7c57eabd8d94849cd8536b013a8d4138", null ],
+    [ "name", "da/de0/a27932.html#a2d0b7155b03af29bd982f31eba26ec24", null ],
+    [ "powerType", "da/de0/a27932.html#a74aec35dc161a7e830453b9365a6f107", null ],
+    [ "spellfamily", "da/de0/a27932.html#a43fbe48c99e297ea09e9e1f2edd6a4ea", null ]
 ];

@@ -1,5 +1,8 @@
 var a25664 =
 [
-    [ "modelId", "d3/de9/a25664.html#a6a7f030a6445a46fe55640356e9c5124", null ],
-    [ "spellId", "d3/de9/a25664.html#a6cfbffba97934cc420964f9b6d7645a3", null ]
+    [ "HandleDummy", "d3/de9/a25664.html#a57897df074b7766c022526e082b4a13b", null ],
+    [ "Load", "d3/de9/a25664.html#a47cbade67be124496c6194391ab51794", null ],
+    [ "PrepareSpellScript", "d3/de9/a25664.html#af5e5a22976adfa5588ca8e054e19a669", null ],
+    [ "Register", "d3/de9/a25664.html#ab0c3be8436b79288bb45899448fd6c1b", null ],
+    [ "Validate", "d3/de9/a25664.html#a97d037267e385e0d3fd80543a5ddb366", null ]
 ];

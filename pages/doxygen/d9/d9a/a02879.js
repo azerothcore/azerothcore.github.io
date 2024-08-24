@@ -1,13 +1,13 @@
 var a02879 =
 [
-    [ "instance_scholomance", "dc/d20/a12771.html", "dc/d20/a12771" ],
-    [ "instance_scholomance::instance_scholomance_InstanceMapScript", "d6/d89/a12775.html", "d6/d89/a12775" ],
-    [ "spell_scholomance_fixate", "d2/d33/a12779.html", "d2/d33/a12779" ],
-    [ "spell_scholomance_fixate::spell_scholomance_fixate_AuraScript", "dd/d2b/a12783.html", "dd/d2b/a12783" ],
-    [ "spell_scholomance_boon_of_life", "d2/d6e/a12787.html", "d2/d6e/a12787" ],
-    [ "spell_scholomance_boon_of_life::spell_scholomance_boon_of_life_AuraScript", "d9/d9d/a12791.html", "d9/d9d/a12791" ],
-    [ "npc_scholomance_occultist", "dc/df9/a12795.html", "dc/df9/a12795" ],
-    [ "npc_scholomance_occultist::npc_scholomance_occultistAI", "df/da2/a12799.html", "df/da2/a12799" ],
+    [ "instance_scholomance", "df/d0f/a12768.html", "df/d0f/a12768" ],
+    [ "instance_scholomance::instance_scholomance_InstanceMapScript", "de/d3a/a12772.html", "de/d3a/a12772" ],
+    [ "spell_scholomance_fixate", "dd/dc4/a12776.html", "dd/dc4/a12776" ],
+    [ "spell_scholomance_fixate::spell_scholomance_fixate_AuraScript", "d4/d14/a12780.html", "d4/d14/a12780" ],
+    [ "spell_scholomance_boon_of_life", "d5/d21/a12784.html", "d5/d21/a12784" ],
+    [ "spell_scholomance_boon_of_life::spell_scholomance_boon_of_life_AuraScript", "dc/de0/a12788.html", "dc/de0/a12788" ],
+    [ "npc_scholomance_occultist", "dc/d69/a12792.html", "dc/d69/a12792" ],
+    [ "npc_scholomance_occultist::npc_scholomance_occultistAI", "d6/d59/a12796.html", "d6/d59/a12796" ],
     [ "OccultistEntries", "d9/d9a/a02879.html#a8b43fe18f8176260ed382582db3c3818", [
       [ "CASTER_ENTRY", "d9/d9a/a02879.html#a8b43fe18f8176260ed382582db3c3818a5bb832c5eb17f3850f1178b2b3590a5a", null ],
       [ "DARK_SHADE_ENTRY", "d9/d9a/a02879.html#a8b43fe18f8176260ed382582db3c3818a404c94392628f9372866677c936edb15", null ]

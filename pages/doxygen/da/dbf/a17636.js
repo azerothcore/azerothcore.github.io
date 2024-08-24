@@ -1,6 +1,5 @@
 var a17636 =
 [
-    [ "ShockVortexExplodeEvent", "da/dbf/a17636.html#ad972aed372822e10a476d1592192f3ea", null ],
-    [ "Execute", "da/dbf/a17636.html#a601f777052b8a142db49e9b0ab1fa81a", null ],
-    [ "_owner", "da/dbf/a17636.html#a76b1887e486969fcd7a236a8eb7a9a2a", null ]
+    [ "at_lady_deathwhisper_entrance", "da/dbf/a17636.html#a3c16844f4ff97fd0699edb1d1aca2f60", null ],
+    [ "OnTrigger", "da/dbf/a17636.html#a769c838c94a88af5492057909d88f3de", null ]
 ];

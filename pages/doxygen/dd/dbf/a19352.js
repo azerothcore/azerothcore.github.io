@@ -1,6 +1,8 @@
 var a19352 =
 [
-    [ "npc_valithria_portalAI", "d0/d95/a19356.html", "d0/d95/a19356" ],
-    [ "npc_valithria_portal", "dd/dbf/a19352.html#a6014d7a57dfe5d21f63c03b3efcbdfc8", null ],
-    [ "GetAI", "dd/dbf/a19352.html#a9770ad0bc3732f2271876bbc84885dc0", null ]
+    [ "HandleOnEffectApply", "dd/dbf/a19352.html#ac852d761940494f78b50ba3b060057a2", null ],
+    [ "HandleOnEffectRemove", "dd/dbf/a19352.html#a6764750586be8b57d52a2dba87d89e76", null ],
+    [ "PrepareAuraScript", "dd/dbf/a19352.html#acc93a6d463501a23b73bd1ac1f99854e", null ],
+    [ "Register", "dd/dbf/a19352.html#a2cb77175d7341752bdd8733cfcfe8ed3", null ],
+    [ "Validate", "dd/dbf/a19352.html#a4de69fb4aa8e1506581ed01c42dc8f76", null ]
 ];

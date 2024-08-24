@@ -1,22 +1,6 @@
 var a21720 =
 [
-    [ "npc_ulduar_aerial_command_unitAI", "d4/d58/a21720.html#ac5b7a4cffa1db22c540be9893d15c2f8", null ],
-    [ "AttackStart", "d4/d58/a21720.html#ab04bb1f0ae10ef6caedde13dce26b4ff", null ],
-    [ "DamageTaken", "d4/d58/a21720.html#a7a4553548b94631c19e0f63bd4f04935", null ],
-    [ "DoAction", "d4/d58/a21720.html#a363186d09cc27fcf73e5df71765c5785", null ],
-    [ "EnterEvadeMode", "d4/d58/a21720.html#a41ff385b9260c48c200c81e2965e4ad9", null ],
-    [ "JustSummoned", "d4/d58/a21720.html#a4da89e69cd1bad30c051997862035ec0", null ],
-    [ "KilledUnit", "d4/d58/a21720.html#a172ce62da0c7554a3dfc9a9a8ff7f119", null ],
-    [ "MoveInLineOfSight", "d4/d58/a21720.html#a1625ea42db1aebe26d7d52a3e1ac3e04", null ],
-    [ "Reset", "d4/d58/a21720.html#a1bdf61f436acd06c389f7e0355488eaa", null ],
-    [ "SetData", "d4/d58/a21720.html#a9d2572ed6864acf7be5b277c22e89573", null ],
-    [ "SpellHit", "d4/d58/a21720.html#af567b17cb39e433899eac0c44e2f065d", null ],
-    [ "SummonedCreatureDespawn", "d4/d58/a21720.html#a7040c7ce5f0243b392eec91fa734213c", null ],
-    [ "UpdateAI", "d4/d58/a21720.html#ac76777bdd7ac6da1166d98c7a091aba4", null ],
-    [ "bIsEvading", "d4/d58/a21720.html#a04cffd153f3298595cd1b7da706d14bb", null ],
-    [ "events", "d4/d58/a21720.html#acb7898e896f6e217b97961ef3fa4828a", null ],
-    [ "immobilized", "d4/d58/a21720.html#a3ed685c94d7dd9d15e44ba3c313e48e4", null ],
-    [ "Phase", "d4/d58/a21720.html#af4cb9c060dcf3d2577182e2e0d3711c4", null ],
-    [ "pInstance", "d4/d58/a21720.html#a5c410a35047f835473871bd7538de1f2", null ],
-    [ "summons", "d4/d58/a21720.html#a37d8c57b1d3e5628954d19fda62f1122", null ]
+    [ "CheckCast", "d4/d58/a21720.html#a9c7e08a8a9b1c1b44ae290818826d43a", null ],
+    [ "PrepareSpellScript", "d4/d58/a21720.html#abff433d61c798d17882292b6b0956a58", null ],
+    [ "Register", "d4/d58/a21720.html#a1034967a4bf633f160cc40ae6e0fc567", null ]
 ];

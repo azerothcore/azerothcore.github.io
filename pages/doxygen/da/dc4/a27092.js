@@ -1,6 +1,5 @@
 var a27092 =
 [
-    [ "CheckAreaTarget", "da/dc4/a27092.html#a90761b0145ea9d4178e77eb5e15a8ba6", null ],
-    [ "PrepareAuraScript", "da/dc4/a27092.html#afbc45652033397067a439b45afd2e90e", null ],
-    [ "Register", "da/dc4/a27092.html#aa24679e1243470056f74249e1b26767d", null ]
+    [ "go_seer_of_zebhalak", "da/dc4/a27092.html#a423f16e878d67f7dc6ec3860afabacf4", null ],
+    [ "OnGossipHello", "da/dc4/a27092.html#a84009789ce8e8d0d7c42996fde161135", null ]
 ];

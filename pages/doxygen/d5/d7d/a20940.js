@@ -1,6 +1,13 @@
 var a20940 =
 [
-    [ "spell_shield_of_runes_AuraScript", "d7/dc3/a20944.html", "d7/dc3/a20944" ],
-    [ "spell_shield_of_runes", "d5/d7d/a20940.html#a630b593aba0bb671f024f9d6e42c3db4", null ],
-    [ "GetAuraScript", "d5/d7d/a20940.html#a2f4f791140a2c894a3eacbf26638a1b9", null ]
+    [ "npc_ulduar_arachnopod_destroyerAI", "d5/d7d/a20940.html#a52bbedf267aaa3cea68e8a5960cbc34b", null ],
+    [ "AttackStart", "d5/d7d/a20940.html#aed91dafbc50a785875b8b41c5e328d73", null ],
+    [ "DamageTaken", "d5/d7d/a20940.html#a4c2ec3cf0c5561b1b9f309bb8f180f8c", null ],
+    [ "EnterEvadeMode", "d5/d7d/a20940.html#a671a27f00e279e0a4c0827999ce26d8b", null ],
+    [ "OnCharmed", "d5/d7d/a20940.html#ae268a425326efbea1282ce116ff76e3f", null ],
+    [ "PassengerBoarded", "d5/d7d/a20940.html#a83409607638100fddd229829ee2bea40", null ],
+    [ "Reset", "d5/d7d/a20940.html#a2a7bda0ee585a7aa652081ce7ede3fa6", null ],
+    [ "UpdateAI", "d5/d7d/a20940.html#ac10669fddd193d583ecead8ed37879b3", null ],
+    [ "_spawnedMechanic", "d5/d7d/a20940.html#a2db3016e32b4e77724fea98d605eaa59", null ],
+    [ "events", "d5/d7d/a20940.html#ac61064ee3e22b476a35dce4564f65882", null ]
 ];

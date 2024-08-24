@@ -1,6 +1,7 @@
 var a26972 =
 [
-    [ "PrepareSpellScript", "d1/d2d/a26972.html#acfa320b33c00883a78c3696bbbeb7eb0", null ],
-    [ "Register", "d1/d2d/a26972.html#a6d251ba1e88d4349dcffa96978389a7f", null ],
-    [ "SelectTarget", "d1/d2d/a26972.html#a0d95f8ad8d05d2c0b100dc10988d00c9", null ]
+    [ "CharacterDeleteActionIpLogger", "d1/d2d/a26972.html#a37481de65409cf375dcff45615463949", null ],
+    [ "DeleteIPLogAction", "d1/d2d/a26972.html#a73a5ddacd8892d2300be313cfc12f534", null ],
+    [ "OnDelete", "d1/d2d/a26972.html#a35ea1362df09fccf0c4cee2e9ef6deb9", null ],
+    [ "OnFailedDelete", "d1/d2d/a26972.html#a34efd44289746078fdcfae63641b5580", null ]
 ];

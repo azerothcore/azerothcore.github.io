@@ -1,6 +1,6 @@
 var a17768 =
 [
-    [ "PrepareSpellScript", "d5/ded/a17768.html#ac5f60900e4b19ea8b7dc93d1790a5aa9", null ],
-    [ "Register", "d5/ded/a17768.html#a82e4e97831fd76545fa1803c86c064a3", null ],
-    [ "SelectDest", "d5/ded/a17768.html#a5b3e5d84d39f64b999765ff5b6a1c6d6", null ]
+    [ "HandleScript", "d5/ded/a17768.html#a54ecb69bf0c54c170b12c9a4b88b55fb", null ],
+    [ "PrepareSpellScript", "d5/ded/a17768.html#a50560d754709e6b9ec6863142c1ffce3", null ],
+    [ "Register", "d5/ded/a17768.html#ab29deadceb953d6fb5d997b21ee4bb1c", null ]
 ];

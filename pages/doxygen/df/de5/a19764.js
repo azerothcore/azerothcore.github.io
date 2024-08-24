@@ -1,6 +1,6 @@
 var a19764 =
 [
-    [ "npc_icc_valkyr_heraldAI", "db/d55/a19768.html", "db/d55/a19768" ],
-    [ "npc_icc_valkyr_herald", "df/de5/a19764.html#a9d06e0dec8cb960d34c2089c1c0d8ccb", null ],
-    [ "GetAI", "df/de5/a19764.html#a7537269841d0380d2dc9e4641705acf9", null ]
+    [ "boss_flame_leviathan_defense_turretAI", "db/d55/a19768.html", "db/d55/a19768" ],
+    [ "boss_flame_leviathan_defense_turret", "df/de5/a19764.html#a939c66ff6c1eb6dfdb3d93b3d0292e40", null ],
+    [ "GetAI", "df/de5/a19764.html#a1c3726e2b753cda18bd11d8f4ff154db", null ]
 ];

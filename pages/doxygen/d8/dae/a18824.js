@@ -1,6 +1,6 @@
 var a18824 =
 [
-    [ "spell_sindragosa_mystic_buffet_SpellScript", "df/d75/a18828.html", "df/d75/a18828" ],
-    [ "spell_sindragosa_mystic_buffet", "d8/dae/a18824.html#a9f1eaac0a4ca59ed7150867b831059a5", null ],
-    [ "GetSpellScript", "d8/dae/a18824.html#aaaf4722275f30b78464d7be03e2062aa", null ]
+    [ "boss_faerlinaAI", "df/d75/a18828.html", "df/d75/a18828" ],
+    [ "boss_faerlina", "d8/dae/a18824.html#a86543ac855287e3de2e3ffcde66fb1cb", null ],
+    [ "GetAI", "d8/dae/a18824.html#aed8214323ff5b792d9bd6aae478e7848", null ]
 ];

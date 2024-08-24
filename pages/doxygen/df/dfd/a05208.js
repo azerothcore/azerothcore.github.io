@@ -1,6 +1,5 @@
 var a05208 =
 [
-    [ "~AsyncProcessResult", "df/dfd/a05208.html#a16f0ce13c7401ce07e91b349c91365e0", null ],
-    [ "GetFutureResult", "df/dfd/a05208.html#ae0bd36d094d1fc5e325a7b7af1dd0ee8", null ],
-    [ "Terminate", "df/dfd/a05208.html#af3951c38d2b368c15c0ac7d415b96ebd", null ]
+    [ "Decode", "df/dfd/a05208.html#a9c18a834b227a8f60104100bd5c47df5", null ],
+    [ "Encode", "df/dfd/a05208.html#a2b0f76655d4e56d8a7aa9a98de87f6cf", null ]
 ];

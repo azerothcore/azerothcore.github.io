@@ -1,6 +1,6 @@
 var a11640 =
 [
-    [ "boss_flamegorAI", "d1/d79/a11644.html", "d1/d79/a11644" ],
-    [ "boss_flamegor", "da/d07/a11640.html#abc6f068c81466d08306d94667bb1974b", null ],
-    [ "GetAI", "da/d07/a11640.html#a56fb8425c55703fbda14a982d8fdcb2d", null ]
+    [ "boss_okthorAI", "d1/d79/a11644.html", "d1/d79/a11644" ],
+    [ "boss_okthor", "da/d07/a11640.html#a9e75c1da85a6db6692dfabfbb3ee3e87", null ],
+    [ "GetAI", "da/d07/a11640.html#a15d13a6c879ae260c0676fd4a4aff645", null ]
 ];

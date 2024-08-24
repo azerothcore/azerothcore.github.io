@@ -1,7 +1,5 @@
 var a27288 =
 [
-    [ "HandleProc", "df/da0/a27288.html#ac88c41bcfcedd9194d9d3f958d605d37", null ],
-    [ "PrepareAuraScript", "df/da0/a27288.html#a66c3458e88ab5802e10445df3aeb52f6", null ],
-    [ "Register", "df/da0/a27288.html#af02b0af51a1fece0780414ab45c8d31e", null ],
-    [ "Validate", "df/da0/a27288.html#a9f955b53e5905cfb3742a58c8bedab96", null ]
+    [ "go_duskwither_spire_power_source", "df/da0/a27288.html#aab69de16e8b744af2671e2ed882ee94a", null ],
+    [ "OnGossipHello", "df/da0/a27288.html#a2c7fd017e7985b99bff187119157a041", null ]
 ];

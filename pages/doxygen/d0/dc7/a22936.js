@@ -1,8 +1,7 @@
 var a22936 =
 [
-    [ "npc_azure_captainAI", "d0/dc7/a22936.html#a15b1acc73108c6802dbf3ac2ed0734c9", null ],
-    [ "Reset", "d0/dc7/a22936.html#a13d25bf1612086cc4bb5bc2078105f18", null ],
-    [ "UpdateAI", "d0/dc7/a22936.html#ae50ac21138e12be43caa93e37062051e", null ],
-    [ "uiMortalStrikeTimer", "d0/dc7/a22936.html#a791a3ee9b67e72e1dcb392b9ebc2359a", null ],
-    [ "uiWhirlwindTimer", "d0/dc7/a22936.html#a2e3439976a6e84a60be765cb0b929798", null ]
+    [ "boss_gathios_the_shattererAI", "d0/dc7/a22936.html#ae1be23d2dd2edd5e115df0dbb71e1d35", null ],
+    [ "JustEngagedWith", "d0/dc7/a22936.html#a29cbf47346558a5e76aec25554b97bf7", null ],
+    [ "SelectCouncilMember", "d0/dc7/a22936.html#a04e796303ca83b546272a7b6a533725c", null ],
+    [ "UpdateAI", "d0/dc7/a22936.html#a7cf1ae125d6d9ed4fc9524dfb305f52a", null ]
 ];

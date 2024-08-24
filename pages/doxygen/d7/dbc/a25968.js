@@ -1,6 +1,12 @@
 var a25968 =
 [
-    [ "npc_deaths_door_fell_cannon_target_bunnyAI", "d9/dff/a25972.html", "d9/dff/a25972" ],
-    [ "npc_deaths_door_fell_cannon_target_bunny", "d7/dbc/a25968.html#a1385e50777282fae0c8f8ca2f9f8a3e6", null ],
-    [ "GetAI", "d7/dbc/a25968.html#a250707096229da28024960beeb7725bf", null ]
+    [ "AfterCheckProc", "d7/dbc/a25968.html#ae6ac733a614be543c04b57379b84aaca", null ],
+    [ "CheckProc", "d7/dbc/a25968.html#aa533054a5cd434ef3e02767a0a87db62", null ],
+    [ "GetProcSpell", "d7/dbc/a25968.html#af9fc6eb0c61c4084307fc2f7fb38973b", null ],
+    [ "HandleAfterEffectProc", "d7/dbc/a25968.html#aaa577b07d61ddc6e7af175c76ce63b11", null ],
+    [ "HandleOnEffectProc", "d7/dbc/a25968.html#a5bb5345754505cca5f9c840dc5bb9dfb", null ],
+    [ "PrepareAuraScript", "d7/dbc/a25968.html#a111821352b6d26f51878ce81b173ef6d", null ],
+    [ "Register", "d7/dbc/a25968.html#a9ba0584da94cf51b8cd8fe7da50fc1b0", null ],
+    [ "_chance", "d7/dbc/a25968.html#ab644c981163424fbaa05650dc6505ae1", null ],
+    [ "_spell", "d7/dbc/a25968.html#a07a855a4806bac873eb40505f805c39f", null ]
 ];

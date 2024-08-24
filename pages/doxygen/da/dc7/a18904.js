@@ -1,6 +1,6 @@
 var a18904 =
 [
-    [ "spell_sindragosa_frost_breath_SpellScript", "d6/d35/a18908.html", "d6/d35/a18908" ],
-    [ "spell_sindragosa_frost_breath", "da/dc7/a18904.html#aca18a61fc8c84c45bb037021834bf5cf", null ],
-    [ "GetSpellScript", "da/dc7/a18904.html#a7dad965b56aa54a2591c6d9cd9259991", null ]
+    [ "FilterTargets", "da/dc7/a18904.html#a2df81e30554809a0d5b45d2f471bb71f", null ],
+    [ "PrepareSpellScript", "da/dc7/a18904.html#aa51d9c578b782fbe0e7e3cf13789b702", null ],
+    [ "Register", "da/dc7/a18904.html#a4c1eab348e54011f1a2f827fc251ca13", null ]
 ];

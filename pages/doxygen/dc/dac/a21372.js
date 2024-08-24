@@ -1,6 +1,6 @@
 var a21372 =
 [
-    [ "spell_saronite_vapors_dummy_AuraScript", "d1/db4/a21376.html", "d1/db4/a21376" ],
-    [ "spell_saronite_vapors_dummy", "dc/dac/a21372.html#a0296efd0f1e1103ef1c8f1d674db4a2d", null ],
-    [ "GetAuraScript", "dc/dac/a21372.html#a0f2fb73b742af8e626c599e38676ec53", null ]
+    [ "npc_azure_binderAI", "d1/db4/a21376.html", "d1/db4/a21376" ],
+    [ "npc_azure_binder", "dc/dac/a21372.html#a25b8b19b6ccdae92418c47fe68537c42", null ],
+    [ "GetAI", "dc/dac/a21372.html#aad091206a8bd06a1064b68b81510eb56", null ]
 ];

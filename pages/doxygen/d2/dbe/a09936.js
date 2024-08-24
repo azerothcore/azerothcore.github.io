@@ -1,7 +1,6 @@
 var a09936 =
 [
-    [ "ChatServerMessage", "d2/dbe/a09936.html#aa649857ceeba6b2f9e060f7d502cdb7a", null ],
-    [ "Write", "d2/dbe/a09936.html#af8bad4d39693290674bda2e2ad8685bf", null ],
-    [ "MessageID", "d2/dbe/a09936.html#afde854fc17313d214fa0f0cdc48ca9a9", null ],
-    [ "StringParam", "d2/dbe/a09936.html#ac39a08d84c8f5934d0fe26e91809e60a", null ]
+    [ "AreaTriggerScript", "d2/dbe/a09936.html#a478e4dee0f4211af9be6ea448d4e6c89", null ],
+    [ "IsDatabaseBound", "d2/dbe/a09936.html#ac5234a2cd020cd8f90b6d19c28ad46ae", null ],
+    [ "OnTrigger", "d2/dbe/a09936.html#abb6cdada718e9fad7da98fbb667c6d53", null ]
 ];

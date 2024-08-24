@@ -1,17 +1,12 @@
 var a22596 =
 [
-    [ "boss_skadiAI", "d4/dd5/a22596.html#a674e0cea77b25ec6413f8e52336d06db", null ],
-    [ "DoAction", "d4/dd5/a22596.html#ac0513a8e187b3d68fd320b124930ac8b", null ],
-    [ "GetGrauf", "d4/dd5/a22596.html#a48806cf61d295e6ab86a1e018b0fd30a", null ],
-    [ "JustDied", "d4/dd5/a22596.html#af963eda18854869f3a73cb22f48b0230", null ],
-    [ "JustEngagedWith", "d4/dd5/a22596.html#a2853d557da48decede7baa4845f5573f", null ],
-    [ "KilledUnit", "d4/dd5/a22596.html#aab72405691cab78ac0f224cf637f7570", null ],
-    [ "Reset", "d4/dd5/a22596.html#a7d1287f7a3cc5703a7430a15e769cb2c", null ],
-    [ "UpdateAI", "d4/dd5/a22596.html#a05690f147e2c2a584179c19b0a84a1b0", null ],
-    [ "events", "d4/dd5/a22596.html#a7dabced72e6cc2191cc29a221967159e", null ],
-    [ "EventStarted", "d4/dd5/a22596.html#aa4f75b2430f3b95dcc2a06f22f5d9680", null ],
-    [ "GraufGUID", "d4/dd5/a22596.html#a9990eed4758e5eaad8a538b09ac7ee4f", null ],
-    [ "m_pInstance", "d4/dd5/a22596.html#ae48e23b61d9cafbdc9a7811361ebcd11", null ],
-    [ "SecondPhase", "d4/dd5/a22596.html#a3a3892c0fcc148cf8d3b903a37de3e1f", null ],
-    [ "summons", "d4/dd5/a22596.html#a93762ced245b700eb6196ea3a96b143c", null ]
+    [ "boss_anzu", "d4/dd5/a22596.html#aef8c5c57afa95936d8c2809fa1257799", null ],
+    [ "JustEngagedWith", "d4/dd5/a22596.html#a2384a1ea128ad5a43d3b8fb36fe39aba", null ],
+    [ "Reset", "d4/dd5/a22596.html#a61c75d6d96aa5cfb41e87faa74ec2fa5", null ],
+    [ "SummonBroods", "d4/dd5/a22596.html#a7f3f8868a5648bdeccd03d08203e4cf1", null ],
+    [ "SummonedCreatureDies", "d4/dd5/a22596.html#a2e35df609db069c8d31afffabcfead34", null ],
+    [ "SummonSpirits", "d4/dd5/a22596.html#a23e03d1718fba49a3bd57609abb77c6a", null ],
+    [ "UpdateAI", "d4/dd5/a22596.html#a06373460d454bfaf8db793e591cc0abd", null ],
+    [ "AnzuSpiritPos", "d4/dd5/a22596.html#a64e42ce8856b9d10c7f24fefc0c1e0b2", null ],
+    [ "talkTimer", "d4/dd5/a22596.html#a2afae53534d9e777c90d09456f834b5d", null ]
 ];

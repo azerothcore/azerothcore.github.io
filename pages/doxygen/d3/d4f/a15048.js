@@ -1,7 +1,6 @@
 var a15048 =
 [
-    [ "boss_rajaxx", "d3/d4f/a15048.html#afca05f7afabb4c0e181ce3757acb3bcb", null ],
-    [ "JustDied", "d3/d4f/a15048.html#a9231a20150ed6eae0cbc79c8386f7371", null ],
-    [ "JustEngagedWith", "d3/d4f/a15048.html#a8dad79921559359b6aa7149641925fe5", null ],
-    [ "UpdateAI", "d3/d4f/a15048.html#a9b949bea61ceb45ec1b3e452f218c227", null ]
+    [ "aqsentinelAI", "d3/d5a/a15052.html", "d3/d5a/a15052" ],
+    [ "npc_anubisath_sentinel", "d3/d4f/a15048.html#ada1ab0d1857fe52020e798d9710a66cb", null ],
+    [ "GetAI", "d3/d4f/a15048.html#ae19b8ba3766ede8f715dad5ff8d4b2d2", null ]
 ];

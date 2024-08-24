@@ -1,8 +1,9 @@
 var a18632 =
 [
-    [ "spell_rotface_mutated_infection_AuraScript", "d9/daf/a18640.html", "d9/daf/a18640" ],
-    [ "spell_rotface_mutated_infection_SpellScript", "d2/d64/a18636.html", "d2/d64/a18636" ],
-    [ "spell_rotface_mutated_infection", "d5/dd1/a18632.html#a438460f71c27074da7a63427b27f5700", null ],
-    [ "GetAuraScript", "d5/dd1/a18632.html#aee4adc8f242f1940c9fe2e20f07e3c42", null ],
-    [ "GetSpellScript", "d5/dd1/a18632.html#a12e8d50196987f3cc7f681bcd3da52e5", null ]
+    [ "npc_icc_skybreaker_hierophantAI", "d5/dd1/a18632.html#a18330d49e510f83af7ee0120df14e633", null ],
+    [ "AttackStart", "d5/dd1/a18632.html#a9838b3edb758f6f8d0bcbb242862d5da", null ],
+    [ "JustEngagedWith", "d5/dd1/a18632.html#adddd56260b41738d69fcdfe31b677c51", null ],
+    [ "Reset", "d5/dd1/a18632.html#a2291e4a6bbf917a810b31776dee9dd24", null ],
+    [ "UpdateAI", "d5/dd1/a18632.html#a971fa0e468d9d58ffdda7c7b8aa53485", null ],
+    [ "events", "d5/dd1/a18632.html#a1c8a527d217f9b810f87da0fc020528a", null ]
 ];

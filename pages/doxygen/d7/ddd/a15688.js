@@ -1,6 +1,6 @@
 var a15688 =
 [
-    [ "npc_stone_watcher_of_norgannon", "d7/ddd/a15688.html#aa838e060c8ef6d7d85981c718328d9ef", null ],
-    [ "OnGossipHello", "d7/ddd/a15688.html#a00f526b1b17b68f31a86e892e0997856", null ],
-    [ "OnGossipSelect", "d7/ddd/a15688.html#a5b79ebae097266ec4e1a0e3dfaa87da5", null ]
+    [ "instance_ahnkahet_InstanceScript", "d8/d7d/a15692.html", "d8/d7d/a15692" ],
+    [ "instance_ahnkahet", "d7/ddd/a15688.html#afbe11bc040019231878cf31cc357830b", null ],
+    [ "GetInstanceScript", "d7/ddd/a15688.html#a8847099c88f11de363c45e27998f10b7", null ]
 ];

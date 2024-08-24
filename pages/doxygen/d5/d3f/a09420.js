@@ -1,10 +1,8 @@
 var a09420 =
 [
-    [ "EffectMovementGenerator", "d5/d3f/a09420.html#a4b574eb9865cffe1277d9012db653d98", null ],
-    [ "Finalize", "d5/d3f/a09420.html#a50cad77c4261bea67428b9dcd5a37ea1", null ],
-    [ "GetMovementGeneratorType", "d5/d3f/a09420.html#a42c56bc35cf3d752e24ccc36adcd2e82", null ],
-    [ "Initialize", "d5/d3f/a09420.html#a376f554231bc5dc4c95790e6c85dcb01", null ],
-    [ "Reset", "d5/d3f/a09420.html#a9627573a7206e12ff469e8e6e076862b", null ],
-    [ "Update", "d5/d3f/a09420.html#adff45ee4ce3cc72b6cc88e626c3bd0a5", null ],
-    [ "m_Id", "d5/d3f/a09420.html#a56f483336fe5c86c6d186ec4d7772d4b", null ]
+    [ "CircleBoundary", "d5/d3f/a09420.html#a1f58f718ac4e4f6de029a0d46954012e", null ],
+    [ "CircleBoundary", "d5/d3f/a09420.html#a10387b9a70013ecc15ae4f31dd1f21f3", null ],
+    [ "IsWithinBoundaryArea", "d5/d3f/a09420.html#ad8eef3c2c98ee71a7d28d1e5d93ee508", null ],
+    [ "_center", "d5/d3f/a09420.html#a65edd0aef7b73b176e5e311bb0d63738", null ],
+    [ "_radiusSq", "d5/d3f/a09420.html#acbb3cc0c546f0e557a48a45425355950", null ]
 ];

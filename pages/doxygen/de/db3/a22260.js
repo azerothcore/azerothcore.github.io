@@ -1,8 +1,9 @@
 var a22260 =
 [
-    [ "HandleOnEffectApply", "de/db3/a22260.html#aff990d6a562a78bb17547d09b39fcf7f", null ],
-    [ "OnPeriodic", "de/db3/a22260.html#aa25f9f1078a9ae3662fa6a3b2c600ec0", null ],
-    [ "PrepareAuraScript", "de/db3/a22260.html#ae632739c8000befa073a51cf9a2719aa", null ],
-    [ "Register", "de/db3/a22260.html#a2f329d5a4c19911e1572254b04b00249", null ],
-    [ "_targetGUID", "de/db3/a22260.html#aa878dd001cd1c9d4f1d8bc2e37353579", null ]
+    [ "npc_hyldsmeet_protodrakeAI", "d9/d11/a22264.html", "d9/d11/a22264" ],
+    [ "NPCs", "de/db3/a22260.html#a8f2ea95c836ba6bab370301fbf3e6822", [
+      [ "NPC_HYLDSMEET_DRAKERIDER", "de/db3/a22260.html#a8f2ea95c836ba6bab370301fbf3e6822a1b77c38a75142cff5392a89db3e765df", null ]
+    ] ],
+    [ "npc_hyldsmeet_protodrake", "de/db3/a22260.html#a2471f1d858d7ae8f801208e35860a95e", null ],
+    [ "GetAI", "de/db3/a22260.html#a791e5cff3901f9a3ec365d4049b82d25", null ]
 ];

@@ -1,13 +1,7 @@
 var a24084 =
 [
-    [ "OPvPCapturePointEP_NPT", "da/d60/a24084.html#a2cb0929c3acb81530a0bd7ea57bcc298", null ],
-    [ "ChangeState", "da/d60/a24084.html#a9e046ace6129ce67568ed7c15130b617", null ],
-    [ "FillInitialWorldStates", "da/d60/a24084.html#a92ab3651e036895f664c33d79a6ec747", null ],
-    [ "HandlePlayerEnter", "da/d60/a24084.html#ace643b7f7bc793934972c61c618045eb", null ],
-    [ "HandlePlayerLeave", "da/d60/a24084.html#a950cd355c808f40ca95c0e5a46bac0a2", null ],
-    [ "SendChangePhase", "da/d60/a24084.html#aef84a9917d5f40cfff48acb45ffdf0aa", null ],
-    [ "SummonGO", "da/d60/a24084.html#a08a54abf3668074b5878c165bd2f8ddd", null ],
-    [ "UpdateTowerState", "da/d60/a24084.html#ad8cfefcc567346273914e8039b039835", null ],
-    [ "m_SummonedGOSideId", "da/d60/a24084.html#aa034240d169c9ab7276786bb188abc70", null ],
-    [ "m_TowerState", "da/d60/a24084.html#a703b68024362d13ceaf9012202b72e7d", null ]
+    [ "HandleScriptEffect", "da/d60/a24084.html#ad018d907a85ee31d3194823a4c02a1a5", null ],
+    [ "PrepareSpellScript", "da/d60/a24084.html#a50b6bc43eaeee0ec760c02ac1685454e", null ],
+    [ "Register", "da/d60/a24084.html#a2096673a3f57cc224aeb7d3ce84526cb", null ],
+    [ "Validate", "da/d60/a24084.html#a5209de3456c374010502a94f67ff4544", null ]
 ];

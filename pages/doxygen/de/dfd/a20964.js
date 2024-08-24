@@ -1,6 +1,6 @@
 var a20964 =
 [
-    [ "achievement_assembly_of_iron", "de/dfd/a20964.html#ae90d193b039d88ce38108b6617b5b8e9", null ],
-    [ "OnCheck", "de/dfd/a20964.html#ae66b3e708b38bfe685f9d28c14c2d3f5", null ],
-    [ "_targetEntry", "de/dfd/a20964.html#a20e8938ff30b18737fb96cf0277b5680", null ]
+    [ "npc_frost_tombAI", "db/d4d/a20968.html", "db/d4d/a20968" ],
+    [ "npc_frost_tomb", "de/dfd/a20964.html#aa3449f956a9399fc24a709c4c8485bd2", null ],
+    [ "GetAI", "de/dfd/a20964.html#a6d913e6cf9138de60556ec381354e614", null ]
 ];

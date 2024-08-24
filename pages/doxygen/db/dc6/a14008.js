@@ -1,7 +1,10 @@
 var a14008 =
 [
-    [ "HandleApply", "db/dc6/a14008.html#a92734043e53b5e1ef81fa9b5ccce135e", null ],
-    [ "HandleRemove", "db/dc6/a14008.html#a56bf9c77cf96b1e34543a59fc2a308b2", null ],
-    [ "PrepareAuraScript", "db/dc6/a14008.html#ae3bcbf588e46cb0e81160fdd48502566", null ],
-    [ "Register", "db/dc6/a14008.html#af2343add2ed014832bd34d11519b391b", null ]
+    [ "npc_brewfest_super_brew_trigger", "db/dc6/a14008.html#a3d2189978683150b1c431fa0fd637358", null ],
+    [ "AttackStart", "db/dc6/a14008.html#a9ca158a2317a599cd4af64dad6ef04cc", null ],
+    [ "JustEngagedWith", "db/dc6/a14008.html#a61be52cb8ba0cc10285820ad5324816e", null ],
+    [ "MoveInLineOfSight", "db/dc6/a14008.html#aedd26ea4a274df9eb27f9f4a22670f1e", null ],
+    [ "Reset", "db/dc6/a14008.html#a5abf05543247a4f1209fe2a5bebb5d64", null ],
+    [ "UpdateAI", "db/dc6/a14008.html#a46db84e1eab29e7f4bf99d377962ad12", null ],
+    [ "timer", "db/dc6/a14008.html#a2ebb06175e3142cca156e57e8386fe02", null ]
 ];

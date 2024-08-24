@@ -1,6 +1,6 @@
 var a18164 =
 [
-    [ "IgbExplosionCheck", "d6/d35/a18164.html#ae67cca111f26a275614810cbe053bcd8", null ],
-    [ "operator()", "d6/d35/a18164.html#a28ce6685366e99db2aa1e4022012f943", null ],
-    [ "_source", "d6/d35/a18164.html#a413ee8f2218621d274d118aea967dc9b", null ]
+    [ "npc_valkyr_shadowguardAI", "d3/d75/a18168.html", "d3/d75/a18168" ],
+    [ "npc_valkyr_shadowguard", "d6/d35/a18164.html#a8ee90e21499eebf240c57419454c3829", null ],
+    [ "GetAI", "d6/d35/a18164.html#ad84cb094a17e4fb88d3e883c98ce7f5a", null ]
 ];

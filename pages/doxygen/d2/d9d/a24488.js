@@ -1,6 +1,7 @@
 var a24488 =
 [
-    [ "PrepareAuraScript", "d2/d9d/a24488.html#ac12d843f4939711d65728e22a5d5a925", null ],
-    [ "Register", "d2/d9d/a24488.html#aea37e92d4708c8c1addb5a4e220d6907", null ],
-    [ "Update", "d2/d9d/a24488.html#a8b8c926218436fb435ad1f871a8e7b4b", null ]
+    [ "CheckProc", "d2/d9d/a24488.html#a6b62e970a78ae8187989f566e6d47317", null ],
+    [ "HandleProc", "d2/d9d/a24488.html#a21000167be45c4a5503813e5a508b8fd", null ],
+    [ "PrepareAuraScript", "d2/d9d/a24488.html#a7f8fea0f52ed4c98120195f205d6c0d7", null ],
+    [ "Register", "d2/d9d/a24488.html#a8d97a7638c682b99e466155bd819df53", null ]
 ];

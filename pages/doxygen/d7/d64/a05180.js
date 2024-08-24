@@ -1,7 +1,8 @@
 var a05180 =
 [
-    [ "~SignalHandler", "d7/d64/a05180.html#a9c515cb60b156629c43d1a6fce81d58e", null ],
-    [ "handle_signal", "d7/d64/a05180.html#a56782d1718cb243bb5b0c6dc2d100042", null ],
-    [ "_handled", "d7/d64/a05180.html#a21b208a696ed4a320a7cf312006a787f", null ],
-    [ "_mutex", "d7/d64/a05180.html#a0c4d6ba642dd3877c3333b067db22db6", null ]
+    [ "Count", "d7/d64/a05180.html#a4ab8f061208d7733ee65ba768f85f513", null ],
+    [ "GetElements", "d7/d64/a05180.html#af75467b56830b1447bebbf974b2747b6", null ],
+    [ "GetElements", "d7/d64/a05180.html#abbdfddc576af5f2d49dddf5e49ad2864", null ],
+    [ "insert", "d7/d64/a05180.html#a026880bb3378687143ed19fa7b99b41b", null ],
+    [ "i_elements", "d7/d64/a05180.html#a8ef4a180d448dcba2141fc389621433d", null ]
 ];

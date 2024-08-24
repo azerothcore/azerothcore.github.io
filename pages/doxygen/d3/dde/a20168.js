@@ -1,6 +1,6 @@
 var a20168 =
 [
-    [ "FilterTargets", "d3/dde/a20168.html#a2c9dda062ee1eb6ec94c638ffd424ab0", null ],
-    [ "PrepareSpellScript", "d3/dde/a20168.html#aa453c3198e36c7da67327a188c86d4d3", null ],
-    [ "Register", "d3/dde/a20168.html#a5b4163334e905e4ca6fa07ee88b4397f", null ]
+    [ "HandleAfterEffectApply", "d3/dde/a20168.html#ac8b5cddcf66c1f43c4ab0461354e97f1", null ],
+    [ "PrepareAuraScript", "d3/dde/a20168.html#a439799df0d6ca43e6a81930e3e4b5334", null ],
+    [ "Register", "d3/dde/a20168.html#adce13201dd11c6ba83883b12ad32d1f6", null ]
 ];

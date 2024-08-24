@@ -1,15 +1,9 @@
 var a08536 =
 [
-    [ "CoordPair", "d6/d96/a08536.html#a53b5f24cfdf13b246549a0c1543924c9", null ],
-    [ "CoordPair", "d6/d96/a08536.html#aab92ece0f01ebc00cdac4966e02fa8fd", null ],
-    [ "dec_x", "d6/d96/a08536.html#a69be5b72b710722120104f0c502fbb70", null ],
-    [ "dec_y", "d6/d96/a08536.html#aefa33f8766212bb71e5fd19a318142cc", null ],
-    [ "GetId", "d6/d96/a08536.html#ae4f7f304faf2c2363cffe2170b4c5c97", null ],
-    [ "inc_x", "d6/d96/a08536.html#aa6a4942253e87ae57e2d69a2563ddef1", null ],
-    [ "inc_y", "d6/d96/a08536.html#a120946c5a8c8b49bbdf9a1ee54ded9ec", null ],
-    [ "IsCoordValid", "d6/d96/a08536.html#a082960c54e2077df370f891c0534b44f", null ],
-    [ "normalize", "d6/d96/a08536.html#afac8086374bfc499e3a8d74d6afc58db", null ],
-    [ "operator=", "d6/d96/a08536.html#a27f81c359c4ae278d663e85eccbeebb9", null ],
-    [ "x_coord", "d6/d96/a08536.html#a101dd71af6a2cba18140aea2e502ef8b", null ],
-    [ "y_coord", "d6/d96/a08536.html#aacae12844cc0c0d70e26b137ad28f700", null ]
+    [ "VehicleAccessory", "d6/d96/a08536.html#a70576b3cfa29bb6a31fdc61588b6d3c4", null ],
+    [ "AccessoryEntry", "d6/d96/a08536.html#a6e3cd6b20680974235c146d34b16295a", null ],
+    [ "IsMinion", "d6/d96/a08536.html#ace3fd27311370e4db4103f2c3ac70410", null ],
+    [ "SeatId", "d6/d96/a08536.html#a73b54fbbfe8e18f7129acc65dadec447", null ],
+    [ "SummonedType", "d6/d96/a08536.html#afc843c62c580c860471b0e49f5901363", null ],
+    [ "SummonTime", "d6/d96/a08536.html#a13a024b3ceacf38ce4907b079d732420", null ]
 ];

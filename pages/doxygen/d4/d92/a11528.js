@@ -1,7 +1,7 @@
 var a11528 =
 [
-    [ "boss_urok_doomhowlAI", "d4/d92/a11528.html#ade3d87a05eed0fd077b2e3245099ed74", null ],
-    [ "InitializeAI", "d4/d92/a11528.html#a530bef523a27523827d3a94aa5f88698", null ],
-    [ "JustEngagedWith", "d4/d92/a11528.html#abd74d844bcae5f9bd8fdd3797323af2c", null ],
-    [ "UpdateAI", "d4/d92/a11528.html#a6ab5793a48534b7c338a915a7ed8faf9", null ]
+    [ "npc_rocknotAI", "db/d70/a11532.html", "db/d70/a11532" ],
+    [ "npc_rocknot", "d4/d92/a11528.html#a64a0cd215c1f4881948e5a49cf1b86d7", null ],
+    [ "GetAI", "d4/d92/a11528.html#ac8a90d54e9303c40f0313fda1dcfea86", null ],
+    [ "OnQuestReward", "d4/d92/a11528.html#abd8ad3d7e6dd1e557398e268409a2c98", null ]
 ];

@@ -1,9 +1,9 @@
 var a01142 =
 [
-    [ "Creature", "d1/ddf/a07743.html", "d1/ddf/a07743" ],
-    [ "AssistDelayEvent", "dc/d54/a07751.html", "dc/d54/a07751" ],
-    [ "ForcedDespawnDelayEvent", "d2/d28/a07755.html", "d2/d28/a07755" ],
-    [ "TemporaryThreatModifierEvent", "da/d1e/a07759.html", "da/d1e/a07759" ],
+    [ "Creature", "dc/d00/a07740.html", "dc/d00/a07740" ],
+    [ "AssistDelayEvent", "d7/dc7/a07748.html", "d7/dc7/a07748" ],
+    [ "ForcedDespawnDelayEvent", "d7/d60/a07752.html", "d7/d60/a07752" ],
+    [ "TemporaryThreatModifierEvent", "dc/d65/a07756.html", "dc/d65/a07756" ],
     [ "CREATURE_Z_ATTACK_RANGE", "d3/ddc/a01142.html#a91a03a879f1b4df44968ae2f9f22fb0d", null ],
     [ "MAX_VENDOR_ITEMS", "d3/ddc/a01142.html#a44c3a813b92331e325ba5aae11ed72a3", null ]
 ];

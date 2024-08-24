@@ -1,6 +1,8 @@
 var a16584 =
 [
-    [ "HandleAfterHit", "d2/d79/a16584.html#a72252694da7e453387e9d79d12e7e2a4", null ],
-    [ "PrepareSpellScript", "d2/d79/a16584.html#aff18e189296f7379a8fde5ad6eab8ada", null ],
-    [ "Register", "d2/d79/a16584.html#aa6c511fa8eb6d1123be1243bac7f0606", null ]
+    [ "HandleRemove", "d2/d79/a16584.html#a362b16f69a19adae6b673bd9ead55a83", null ],
+    [ "PeriodicTick", "d2/d79/a16584.html#aa432052d61dc48066433b41b84ffbe5f", null ],
+    [ "PrepareAuraScript", "d2/d79/a16584.html#a3ffbd618820adf77b2c64a29816f5204", null ],
+    [ "Register", "d2/d79/a16584.html#ac2ac207d2e193a9c2f9904b394113c4d", null ],
+    [ "Validate", "d2/d79/a16584.html#abed6574398a7d005e95feba6b54243a1", null ]
 ];

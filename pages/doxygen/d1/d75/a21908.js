@@ -1,6 +1,7 @@
 var a21908 =
 [
-    [ "boss_thorim_lightning_orbAI", "dd/daa/a21912.html", "dd/daa/a21912" ],
-    [ "boss_thorim_lightning_orb", "d1/d75/a21908.html#a2aa29e8d2b3fb10e8be39d8fc3112ac2", null ],
-    [ "GetAI", "d1/d75/a21908.html#ad24d28866145c4fccf7a3971856fa87f", null ]
+    [ "HandleScript", "d1/d75/a21908.html#a95de3ae27cfd764380ab1648b49af38d", null ],
+    [ "Load", "d1/d75/a21908.html#a1aafe141985bc1e9c5b9467d4896d96b", null ],
+    [ "PrepareSpellScript", "d1/d75/a21908.html#a442138710213b9b120d8ce57b733205a", null ],
+    [ "Register", "d1/d75/a21908.html#af9d8f764a6a02737f8b559f067156df6", null ]
 ];

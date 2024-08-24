@@ -1,7 +1,8 @@
 var a23464 =
 [
-    [ "HandleScript", "d7/dbc/a23464.html#ac028ca72e8212460dc85432028496789", null ],
-    [ "Load", "d7/dbc/a23464.html#a3e797a6612f511f1a1391b7159cc6929", null ],
-    [ "PrepareSpellScript", "d7/dbc/a23464.html#acab3a0f7429c0b318332d5672e8fb92b", null ],
-    [ "Register", "d7/dbc/a23464.html#ad51a4cc512015baed90e734f24657c77", null ]
+    [ "instance_gruuls_lair_InstanceMapScript", "d7/dbc/a23464.html#a1ad656ccd4d41c756c4f525d079fd9b6", null ],
+    [ "GetData", "d7/dbc/a23464.html#a410630dbbe00acf0b69603cfc357d503", null ],
+    [ "SetBossState", "d7/dbc/a23464.html#a9f0752eb0ec1d9ca0681ddc5fc8d3752", null ],
+    [ "SetData", "d7/dbc/a23464.html#a4cbe09489797fa0076d976f9a717a2bd", null ],
+    [ "_addsKilled", "d7/dbc/a23464.html#a7a003811fcf620f3c2d11ff3498cb298", null ]
 ];

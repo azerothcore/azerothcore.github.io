@@ -1,8 +1,7 @@
 var a12136 =
 [
-    [ "water_elementalAI", "d5/d98/a12136.html#a9991db9eaa01ee3e776b196ba2eb2ea1", null ],
-    [ "JustEngagedWith", "d5/d98/a12136.html#a208954140616821c656343e12743745a", null ],
-    [ "Reset", "d5/d98/a12136.html#a9fe1707da5fb63983c843d1baf6f23e1", null ],
-    [ "UpdateAI", "d5/d98/a12136.html#a491ab9b1e65e3e43a73442d53e2b9267", null ],
-    [ "CastTimer", "d5/d98/a12136.html#a24ef5fd7e36391ea1118b63230f271d9", null ]
+    [ "HandleScript", "d5/d98/a12136.html#aa6a02fd6ac2fe27588cb17377e63125f", null ],
+    [ "PrepareSpellScript", "d5/d98/a12136.html#a8d200122bafb943ccb6aa1bd86a1d227", null ],
+    [ "Register", "d5/d98/a12136.html#ab1ee3baa1bd7341660bcc7a10978aff3", null ],
+    [ "Validate", "d5/d98/a12136.html#a931be0e5aa4b54e646a3ed3ade135423", null ]
 ];

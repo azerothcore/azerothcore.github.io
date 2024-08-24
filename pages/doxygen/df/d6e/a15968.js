@@ -1,6 +1,7 @@
 var a15968 =
 [
-    [ "boss_anub_arakAI", "db/d21/a15972.html", "db/d21/a15972" ],
-    [ "boss_anub_arak", "df/d6e/a15968.html#ac2594f561b07069a312ed38c01d9c7da", null ],
-    [ "GetAI", "df/d6e/a15968.html#a8687594354d514b99e026797ee71c70d", null ]
+    [ "OnApply", "df/d6e/a15968.html#a2e4fa91ed7b3270a1addb8e5b3a85d74", null ],
+    [ "OnRemove", "df/d6e/a15968.html#a781994b0be4588f4df29399fc900ec69", null ],
+    [ "PrepareAuraScript", "df/d6e/a15968.html#aee648b80e7352edffb20fd60697e1d88", null ],
+    [ "Register", "df/d6e/a15968.html#a53c56711e31500f827123c08f44072cb", null ]
 ];

@@ -1,10 +1,6 @@
 var a16552 =
 [
-    [ "npc_nerubian_burrowerAI", "d9/d14/a16552.html#a7673709e7b16a6573d9c7392ba556313", null ],
-    [ "CanAIAttack", "d9/d14/a16552.html#a82e4a5ca23ae2a94212b214aad1c69df", null ],
-    [ "JustDied", "d9/d14/a16552.html#ab5182ad65187c472b306e2177530d7b6", null ],
-    [ "Reset", "d9/d14/a16552.html#a4491965d9c08ed1d888cad6f7b06352d", null ],
-    [ "SpellHitTarget", "d9/d14/a16552.html#a64fa2c8276f7418542190e833dd72c51", null ],
-    [ "UpdateAI", "d9/d14/a16552.html#abd2c7333625ded502a00848b09ee9a40", null ],
-    [ "events", "d9/d14/a16552.html#ab45e8c6dd9ea3552fed4b926136f80e6", null ]
+    [ "boss_tharon_jaAI", "dd/dfd/a16556.html", "dd/dfd/a16556" ],
+    [ "boss_tharon_ja", "d9/d14/a16552.html#ac34f8f33ea75dc0107222d3720788f7a", null ],
+    [ "GetAI", "d9/d14/a16552.html#ab24612418cb66ed0c1e64fba5ebaa50f", null ]
 ];

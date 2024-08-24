@@ -1,9 +1,7 @@
 var a10180 =
 [
-    [ "LevelUpInfo", "d2/d42/a10180.html#ae856bb717d6ae4b03775b7bfb026850d", null ],
-    [ "Write", "d2/d42/a10180.html#af09dd1c6470516ea9422d22ed22e6d10", null ],
-    [ "HealthDelta", "d2/d42/a10180.html#ab654fc42947c0c783d3a26e6df32b29d", null ],
-    [ "Level", "d2/d42/a10180.html#a1765f693918fdd1f51d7b8dc7b2494a2", null ],
-    [ "PowerDelta", "d2/d42/a10180.html#a697da64ac234c24fe73e68d408697ee6", null ],
-    [ "StatDelta", "d2/d42/a10180.html#a580e4a3cd77631e960b7753542375d6d", null ]
+    [ "LogoutResponse", "d2/d42/a10180.html#a434ee19fbc4d3e336444b1c62ac2be84", null ],
+    [ "Write", "d2/d42/a10180.html#a0b08225b6ac303afd20ec213aafe4bcb", null ],
+    [ "Instant", "d2/d42/a10180.html#aad6819dc426b91b6ad43f180a53e12ef", null ],
+    [ "LogoutResult", "d2/d42/a10180.html#a5543bf1a6342e9a217cd906e4a185b2e", null ]
 ];

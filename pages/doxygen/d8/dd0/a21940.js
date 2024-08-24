@@ -1,6 +1,7 @@
 var a21940 =
 [
-    [ "boss_thorim_start_npcsAI", "d9/dcf/a21944.html", "d9/dcf/a21944" ],
-    [ "boss_thorim_start_npcs", "d8/dd0/a21940.html#a3aa11a487ae00b2e397fd25ed2e42702", null ],
-    [ "GetAI", "d8/dd0/a21940.html#a6c529b19d071b4966ccc74b44279cb08", null ]
+    [ "HandleScript", "d8/dd0/a21940.html#a7fec959237546201ea94d5f87068e1c5", null ],
+    [ "PrepareSpellScript", "d8/dd0/a21940.html#ae0c3eafc8b227078a2dcaccf1c0a278b", null ],
+    [ "Register", "d8/dd0/a21940.html#a0aab07a4950f60a290491aa13103b332", null ],
+    [ "Validate", "d8/dd0/a21940.html#a92d5493a43fca5c54ef89cb19ce00aa2", null ]
 ];

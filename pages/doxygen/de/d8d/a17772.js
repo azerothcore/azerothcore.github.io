@@ -1,6 +1,6 @@
 var a17772 =
 [
-    [ "spell_blood_council_summon_shadow_resonance_SpellScript", "d3/dad/a17776.html", "d3/dad/a17776" ],
-    [ "spell_blood_council_summon_shadow_resonance", "de/d8d/a17772.html#ac98fc25a6171465d496e27dc5bc8fa91", null ],
-    [ "GetSpellScript", "de/d8d/a17772.html#a8c4e89f447f532392d7340e77b989207", null ]
+    [ "HandleScript", "de/d8d/a17772.html#abd766c298f8aa363d28198b6a5d7e374", null ],
+    [ "PrepareSpellScript", "de/d8d/a17772.html#a5a4e7d674c09ebbbc9d918cf877418a3", null ],
+    [ "Register", "de/d8d/a17772.html#ae9bd26c97b3dc9c1af96304e3c67d532", null ]
 ];

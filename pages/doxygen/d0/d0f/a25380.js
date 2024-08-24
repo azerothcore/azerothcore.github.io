@@ -1,5 +1,6 @@
 var a25380 =
 [
-    [ "go_broggok_lever", "d0/d0f/a25380.html#af91c2e283c357d2f38c9932dcfb5c375", null ],
-    [ "OnGossipHello", "d0/d0f/a25380.html#af00fe1da1cfa40dc3ece286cef45090c", null ]
+    [ "CheckCast", "d0/d0f/a25380.html#a7fa12be149f0cb2202142d7f44cde0a6", null ],
+    [ "PrepareSpellScript", "d0/d0f/a25380.html#ad6867dad8bda358bd1479935c80b82e7", null ],
+    [ "Register", "d0/d0f/a25380.html#a0ab2f1f2a87db93e54dc883c4e53d7ba", null ]
 ];

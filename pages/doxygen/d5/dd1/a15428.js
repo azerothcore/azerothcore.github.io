@@ -1,13 +1,13 @@
 var a15428 =
 [
-    [ "npc_tharnarianAI", "d5/dd1/a15428.html#a8e22d45f6420aa8079f8fb7150a2a53a", null ],
-    [ "Initialize", "d5/dd1/a15428.html#ad1d89491b42a56406273a04045e7e91d", null ],
-    [ "Reset", "d5/dd1/a15428.html#a7de1f46bee4e79effc5dbb405854a7da", null ],
-    [ "SetGUID", "d5/dd1/a15428.html#a7ac84aac946afc312d8ce27f04127dfd", null ],
-    [ "sGossipSelect", "d5/dd1/a15428.html#a33b5898def48e17ba27363b98f51849b", null ],
-    [ "UpdateAI", "d5/dd1/a15428.html#a1e58a89064bdfb69e4445db72184d8b3", null ],
-    [ "_bearGUID", "d5/dd1/a15428.html#af7a116b8226ddb51e9f0f118f2d8fa22", null ],
-    [ "_events", "d5/dd1/a15428.html#aff73052a4b7407d760af3dde09fa8a07", null ],
-    [ "_facing", "d5/dd1/a15428.html#ad2120fffc0ffa93d4fca1e9e8c0a4371", null ],
-    [ "_scriptRunning", "d5/dd1/a15428.html#a5be50b02cc8ce2e7b4dd334e923a7c10", null ]
+    [ "npc_aquementasAI", "d5/dd1/a15428.html#aad63986cdb8a65c528af3ccd114d2041", null ],
+    [ "JustEngagedWith", "d5/dd1/a15428.html#a2c12ee9c0bb94a1fcfa23c4279aea72f", null ],
+    [ "Reset", "d5/dd1/a15428.html#af71a196ba667c2a8f05940ec7ec43b5e", null ],
+    [ "SendItem", "d5/dd1/a15428.html#a60bafbd70783411236dcf3d0bfe244de", null ],
+    [ "UpdateAI", "d5/dd1/a15428.html#adc5936d7648e05c98a2cdc9998aa4c6a", null ],
+    [ "AquaJetTimer", "d5/dd1/a15428.html#a8506acc69436af869d1404bd95109e68", null ],
+    [ "FrostShockTimer", "d5/dd1/a15428.html#ad52c62a0fd8de98b194596dbc998c03d", null ],
+    [ "isFriendly", "d5/dd1/a15428.html#a9ac02cfc998bda26a5c531a9f7dbf7c4", null ],
+    [ "SendItemTimer", "d5/dd1/a15428.html#a3a0883b43056b176ef2ae55673adacf3", null ],
+    [ "SwitchFactionTimer", "d5/dd1/a15428.html#a46f64b9883ae30c3f8d677a3b85a8c6f", null ]
 ];

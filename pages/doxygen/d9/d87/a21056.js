@@ -1,9 +1,13 @@
 var a21056 =
 [
-    [ "npc_hodirs_furyAI", "d9/d87/a21056.html#ae08a68a79a3fef952f6dfa50b4eaabca", null ],
-    [ "MovementInform", "d9/d87/a21056.html#a37b07ddee5403ee2de8f69904412ed42", null ],
-    [ "Reset", "d9/d87/a21056.html#a389f0f17fbc7860c5531f4859be561d3", null ],
-    [ "UpdateAI", "d9/d87/a21056.html#a5417d68891ad0f93c8130c9a14d57513", null ],
-    [ "_switchTargetTimer", "d9/d87/a21056.html#a8d15c1e290438c8a4aa50887cfffccba", null ],
-    [ "_timeToHit", "d9/d87/a21056.html#a594356602bd0068fba82bea64e284837", null ]
+    [ "npc_ferocious_rhinoAI", "d9/d87/a21056.html#ad70d0aeba4b73330c5087bc84a533389", null ],
+    [ "DoAction", "d9/d87/a21056.html#a10395930fed95fb7809a0b5ffe224c4d", null ],
+    [ "JustDied", "d9/d87/a21056.html#a2b1af0402dc1b4940534d2e60d7ef33e", null ],
+    [ "JustEngagedWith", "d9/d87/a21056.html#aab35078fe4518b6647f98e316d02898a", null ],
+    [ "JustReachedHome", "d9/d87/a21056.html#ab8105d6c8c70037c208c83c13c35242d", null ],
+    [ "MoveInLineOfSight", "d9/d87/a21056.html#a97e32d32a692f223b96746f3ef1086c5", null ],
+    [ "Reset", "d9/d87/a21056.html#a6d317407c2de2f954b5dd2a6db137304", null ],
+    [ "UpdateAI", "d9/d87/a21056.html#a09b80e739e4df6e751c9c2846f3fb999", null ],
+    [ "events", "d9/d87/a21056.html#af23061de7d8566c7435c2c64c53dff89", null ],
+    [ "m_pInstance", "d9/d87/a21056.html#a97e00db40792c559dd06327c9960abe4", null ]
 ];

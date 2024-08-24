@@ -1,7 +1,8 @@
 var a18372 =
 [
-    [ "HandleScriptEffect", "dd/da3/a18372.html#a5992a96d232f98606854c67037bd13ab", null ],
-    [ "PrepareSpellScript", "dd/da3/a18372.html#a9e6aba739a16ce8bcacdc6cec2276cff", null ],
-    [ "Register", "dd/da3/a18372.html#ae18b1e7c12081634310122bbdef0c349", null ],
-    [ "SelectTarget", "dd/da3/a18372.html#aff49dcbd5d2f8a133868a4fc43170c6e", null ]
+    [ "npc_suppresserAI", "dd/da3/a18372.html#a5787ec6eadae1fc23b84129933ea14e8", null ],
+    [ "AttackStart", "dd/da3/a18372.html#ae36105de1df1dd9841332d9a8e7799be", null ],
+    [ "IsSummonedBy", "dd/da3/a18372.html#a35ec340b2d02a14707fc353428b1298d", null ],
+    [ "UpdateAI", "dd/da3/a18372.html#a1443e8311b6e2d61d6f9abd2e5f40793", null ],
+    [ "_instance", "dd/da3/a18372.html#a3e171216b2d53e00f8e504f47759d9a6", null ]
 ];

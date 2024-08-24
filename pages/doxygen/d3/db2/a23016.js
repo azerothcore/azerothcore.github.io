@@ -1,6 +1,7 @@
 var a23016 =
 [
-    [ "npc_captured_beryl_sorcererAI", "d2/d9f/a23020.html", "d2/d9f/a23020" ],
-    [ "npc_captured_beryl_sorcerer", "d3/db2/a23016.html#ace67e76e96e3be9fa5976dc4c90041e6", null ],
-    [ "GetAI", "d3/db2/a23016.html#aa5a31390ff3c6277ebff2a5eebe72b3d", null ]
+    [ "PrepareAuraScript", "d3/db2/a23016.html#a30ec063aa1ddbc3a32066e1f868bf742", null ],
+    [ "Register", "d3/db2/a23016.html#a1e62c60bfc2b72811950b627ce1202c3", null ],
+    [ "Update", "d3/db2/a23016.html#a3f98767367564734c9877d1870aac31b", null ],
+    [ "Validate", "d3/db2/a23016.html#a450460769e0e54e06f1b64b3c63ba0de", null ]
 ];

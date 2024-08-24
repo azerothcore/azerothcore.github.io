@@ -1,6 +1,6 @@
 var a14728 =
 [
-    [ "boss_meathookAI", "dc/dec/a14732.html", "dc/dec/a14732" ],
-    [ "boss_meathook", "de/d64/a14728.html#a044c8ec4a419e5c5a8b290df9c0ad169", null ],
-    [ "GetAI", "de/d64/a14728.html#ae8ee3631ff1f80f4fad99e4eca042ad8", null ]
+    [ "instance_ragefire_chasm_InstanceMapScript", "dc/dec/a14732.html", "dc/dec/a14732" ],
+    [ "instance_ragefire_chasm", "de/d64/a14728.html#ab7f27d3e73b24d16dcf9b114f7dd4b36", null ],
+    [ "GetInstanceScript", "de/d64/a14728.html#a0568996a61ef91688b9f223cb3782e5a", null ]
 ];

@@ -1,28 +1,7 @@
 var a18424 =
 [
-    [ "boss_professor_putricideAI", "d8/ddb/a18424.html#a4b8da227d51dab70c8cd2049ef9d5785", null ],
-    [ "AttackStart", "d8/ddb/a18424.html#adf59decff2ff7448aad01cab728187bd", null ],
-    [ "CanAIAttack", "d8/ddb/a18424.html#ac0b540bd1266badcbabdb50e2409d4a5", null ],
-    [ "ChangePhase", "d8/ddb/a18424.html#af3b8b1bca2e5c043b5cf7a2df771dce1", null ],
-    [ "DamageTaken", "d8/ddb/a18424.html#a721a1c4a1391c074cb92cf2d7cda278e", null ],
-    [ "DoAction", "d8/ddb/a18424.html#ae373180193d65c1555c1649af8e08f6c", null ],
-    [ "EnterEvadeMode", "d8/ddb/a18424.html#ae0b55ae5b0c63510bae45f290615ab8e", null ],
-    [ "GetData", "d8/ddb/a18424.html#a061d60b47e450e139b137e042908a1bd", null ],
-    [ "JustDied", "d8/ddb/a18424.html#ab4782624c71f99b28c2aaa3f307f6b03", null ],
-    [ "JustEngagedWith", "d8/ddb/a18424.html#ad0eb4dec4e48e63c4ce1656616ada626", null ],
-    [ "JustReachedHome", "d8/ddb/a18424.html#a80677fa12904cdf69eb5f47db190513b", null ],
-    [ "JustSummoned", "d8/ddb/a18424.html#abc47d7d06a57e9650664af1ffe2362a8", null ],
-    [ "KilledUnit", "d8/ddb/a18424.html#a1ff6312035c4bcfd773de47ae8dfda50", null ],
-    [ "MoveInLineOfSight", "d8/ddb/a18424.html#a5b888888d077ba50dd49400e3092bd37", null ],
-    [ "MovementInform", "d8/ddb/a18424.html#a0a01aa0dd2e61008dffa4f95d2dbf6d7", null ],
-    [ "Reset", "d8/ddb/a18424.html#ace23336f6204ac8eb59187e024e9cfa8", null ],
-    [ "SetData", "d8/ddb/a18424.html#af789687d10fce3b216c2d562ac7798a0", null ],
-    [ "UpdateAI", "d8/ddb/a18424.html#a2981d85544ef63fa0683d3567be043bc", null ],
-    [ "_experimentState", "d8/ddb/a18424.html#a191632077d18da7ef09254bea62b4b9d", null ],
-    [ "_phase", "d8/ddb/a18424.html#a7582bb2d0fa50e86aac9e892b55b423c", null ],
-    [ "bCallEvade", "d8/ddb/a18424.html#abc42dcf6588ebe8849e41115e17c165c", null ],
-    [ "bChangePhase", "d8/ddb/a18424.html#a4da7453534c2a600e1f5dec47a17d4b9", null ],
-    [ "bEnteredCombat", "d8/ddb/a18424.html#a1fa4d69f86408cc752ac4edab76a87dd", null ],
-    [ "sayFestergutDeathTimer", "d8/ddb/a18424.html#a432f28a03c7dc38060c6301023de5e44", null ],
-    [ "sayRotfaceDeathTimer", "d8/ddb/a18424.html#acc985a0aeaf9572ff774d11b3b8dde30", null ]
+    [ "OnApply", "d8/ddb/a18424.html#ac35f5d98980f54470a75a72b3578681f", null ],
+    [ "OnRemove", "d8/ddb/a18424.html#a9844b3d82680bfc9756b141fcf29e1f9", null ],
+    [ "PrepareAuraScript", "d8/ddb/a18424.html#a83c90d16fa151026a1e02927e31922ee", null ],
+    [ "Register", "d8/ddb/a18424.html#a255e44ac6db7fd779d98fc3660ee91c6", null ]
 ];

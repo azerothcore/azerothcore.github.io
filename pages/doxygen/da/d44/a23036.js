@@ -1,10 +1,7 @@
 var a23036 =
 [
-    [ "npc_imprisoned_beryl_sorcererAI", "da/d44/a23036.html#a0a8159a84689dbfd8c69ed523ce03817", null ],
-    [ "GotStinged", "da/d44/a23036.html#a0729c584c3b65e5f25f4445de378f0ea", null ],
-    [ "JustEngagedWith", "da/d44/a23036.html#a2f3e45b3f762ede62aa94a6ae3f2909f", null ],
-    [ "Reset", "da/d44/a23036.html#aedc82ee3bfa193a838d5af62533e19b4", null ],
-    [ "SpellHit", "da/d44/a23036.html#a2010b53b3a8ad1e0aa6ecb5a26c8b6c9", null ],
-    [ "UpdateAI", "da/d44/a23036.html#a21def23073eeec051c1c97a813e0ea84", null ],
-    [ "rebuff", "da/d44/a23036.html#ac83c25091fdd3c7876a88927b758261f", null ]
+    [ "OnPeriodic", "da/d44/a23036.html#ad64b9ba13ef7d77cd778afb8e412ad04", null ],
+    [ "PrepareAuraScript", "da/d44/a23036.html#a40faff90cb247203d3afafad9c44bfd7", null ],
+    [ "Register", "da/d44/a23036.html#a8b2d4235784396b8c29b8e7de51e5708", null ],
+    [ "Validate", "da/d44/a23036.html#a57b481cf462f53ec76f2db326b48c9b6", null ]
 ];

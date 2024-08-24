@@ -1,6 +1,7 @@
 var a17548 =
 [
-    [ "boss_eckAI", "da/d6d/a17552.html", "da/d6d/a17552" ],
-    [ "boss_eck", "dd/d61/a17548.html#aa445927936d7759a8c3289e2899181e5", null ],
-    [ "GetAI", "dd/d61/a17548.html#a335755ec7416d3e00a4070e03569293a", null ]
+    [ "FilterTargets", "dd/d61/a17548.html#a77afd0b56c9bddd74999d5df30457b7f", null ],
+    [ "HandleDummy", "dd/d61/a17548.html#a04166e4e5a4ba082755433555855cb30", null ],
+    [ "PrepareSpellScript", "dd/d61/a17548.html#aaefa58014db12fb76e3416ae807c69e8", null ],
+    [ "Register", "dd/d61/a17548.html#a497ee30669d45341023abe549c91ddaf", null ]
 ];

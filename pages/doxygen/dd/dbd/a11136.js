@@ -1,9 +1,13 @@
 var a11136 =
 [
-    [ "send_commandscript", "dd/dbd/a11136.html#a3aa5d7cc0b5dcd4875e99dfd6f3dbdde", null ],
-    [ "GetCommands", "dd/dbd/a11136.html#a2dc60c8c414c9131b4cda1ff82f7beed", null ],
-    [ "HandleSendItemsCommand", "dd/dbd/a11136.html#a7ffcd07e0ad08be2eb8a1ebac0fec717", null ],
-    [ "HandleSendMailCommand", "dd/dbd/a11136.html#a5ad6f9387c6fb00bf536629c760ba374", null ],
-    [ "HandleSendMessageCommand", "dd/dbd/a11136.html#a91017e6171ac9e4dfff6c2036228de47", null ],
-    [ "HandleSendMoneyCommand", "dd/dbd/a11136.html#a26938bb54bb3cb678c49737a92cadb56", null ]
+    [ "PlayerDumpWriter", "dd/dbd/a11136.html#a060152c060b37c4bf1208a99edc4a840", null ],
+    [ "AppendTable", "dd/dbd/a11136.html#a7f285fddf6d33dd1664b5af801f110e9", null ],
+    [ "GetDump", "dd/dbd/a11136.html#a17457008e1262c0aed284469e55841c6", null ],
+    [ "PopulateGuids", "dd/dbd/a11136.html#aab122c84eefe801ac23211ec5a41e888", null ],
+    [ "WriteDumpToFile", "dd/dbd/a11136.html#a81612bfc0d161595f4de1a6133d5c46d", null ],
+    [ "WriteDumpToString", "dd/dbd/a11136.html#a43d30815c9b3b2608e0fecad7bba7254", null ],
+    [ "_items", "dd/dbd/a11136.html#a5da825b82a09809ded2ce2c88458cc26", null ],
+    [ "_itemSets", "dd/dbd/a11136.html#a33ff3a269064d883eff84ec83c394e92", null ],
+    [ "_mails", "dd/dbd/a11136.html#a2863e88ee13debe77e4b1d3d0960d18a", null ],
+    [ "_pets", "dd/dbd/a11136.html#a33325b0514324020bba98364a7f59de5", null ]
 ];

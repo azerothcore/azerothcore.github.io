@@ -1,9 +1,7 @@
 var a21880 =
 [
-    [ "npc_ulduar_dark_rune_sentinelAI", "de/d37/a21880.html#a533ae31e0507f12f7d94e347b6b7ebf2", null ],
-    [ "CanAIAttack", "de/d37/a21880.html#a12b2e5c621a8b04a4d80dde706a4bb2b", null ],
-    [ "Reset", "de/d37/a21880.html#ada2897f48effedd5d5baa5a260497b5a", null ],
-    [ "UpdateAI", "de/d37/a21880.html#aa9b319928a9b23cf4d47a07c1eaeb0cd", null ],
-    [ "timer1", "de/d37/a21880.html#a383a2ee113822b7eff52466f0cc0e137", null ],
-    [ "timer2", "de/d37/a21880.html#ad5c4698c5d12ff42179d62c47d9f7719", null ]
+    [ "npc_amberpine_woodsmanAI", "de/d37/a21880.html#aa0f37b54c5bfc2f923d09437b8b30424", null ],
+    [ "Reset", "de/d37/a21880.html#a8da613c7bbaadf331c95667e7a361702", null ],
+    [ "UpdateAI", "de/d37/a21880.html#a64dbf41424a710c400d51507f6457b41", null ],
+    [ "_events", "de/d37/a21880.html#aac8cd045a5518e3eaa9c24e0fb83ddaa", null ]
 ];

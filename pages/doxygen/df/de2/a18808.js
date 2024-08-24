@@ -1,8 +1,7 @@
 var a18808 =
 [
-    [ "spell_sindragosa_ice_tomb_AuraScript", "da/dc4/a18816.html", "da/dc4/a18816" ],
-    [ "spell_sindragosa_ice_tomb_SpellScript", "de/d0b/a18812.html", "de/d0b/a18812" ],
-    [ "spell_sindragosa_ice_tomb", "df/de2/a18808.html#a4a79f0ebe0a896e1ba31488d4a80f22b", null ],
-    [ "GetAuraScript", "df/de2/a18808.html#a206ede8b3c7e93f8eceb14bba0bd9fbf", null ],
-    [ "GetSpellScript", "df/de2/a18808.html#a32f1336e1db5cc521374eeca65b297a1", null ]
+    [ "HandleTriggerSpell", "df/de2/a18808.html#a0e75076c2aed1544c544b976ee9cfbcd", null ],
+    [ "PrepareAuraScript", "df/de2/a18808.html#a6ce4c5c2b6797b38225ac3348aad5892", null ],
+    [ "Register", "df/de2/a18808.html#af87272995f6eeb3bc53cf472f5c3e9d3", null ],
+    [ "Validate", "df/de2/a18808.html#a813bad39641956fff697580f271416d2", null ]
 ];

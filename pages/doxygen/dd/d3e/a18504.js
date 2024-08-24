@@ -1,6 +1,6 @@
 var a18504 =
 [
-    [ "spell_putricide_ooze_eruption_searcher_SpellScript", "d0/d41/a18508.html", "d0/d41/a18508" ],
-    [ "spell_putricide_ooze_eruption_searcher", "dd/d3e/a18504.html#a4978726ce045e0023defa06f4a6c1975", null ],
-    [ "GetSpellScript", "dd/d3e/a18504.html#ad48fb551888d75948d11fce8d9f2c3f8", null ]
+    [ "npc_captain_grondelAI", "d0/d41/a18508.html", "d0/d41/a18508" ],
+    [ "npc_captain_grondel", "dd/d3e/a18504.html#a54a53f8e3cde87405219c815a56d523c", null ],
+    [ "GetAI", "dd/d3e/a18504.html#a2a7725e81294e80701b7742d2605ec00", null ]
 ];

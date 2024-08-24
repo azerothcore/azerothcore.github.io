@@ -1,6 +1,6 @@
 var a20880 =
 [
-    [ "spell_algalon_remove_phase_AuraScript", "db/d56/a20884.html", "db/d56/a20884" ],
-    [ "spell_algalon_remove_phase", "d9/d9a/a20880.html#a82cc71a8c3c4b5d330ae5e51da171d11", null ],
-    [ "GetAuraScript", "d9/d9a/a20880.html#acfa9371b85ab9bae73c407835375038e", null ]
+    [ "HandleScript", "d9/d9a/a20880.html#ac7fc87a7585c866aa3fa1001c803bb00", null ],
+    [ "PrepareSpellScript", "d9/d9a/a20880.html#ab2a4155f6029850c61e84d7c180addae", null ],
+    [ "Register", "d9/d9a/a20880.html#a7e03062d9e28ed1917b7aa63d65f22ba", null ]
 ];

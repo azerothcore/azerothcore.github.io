@@ -1,6 +1,7 @@
 var a16936 =
 [
-    [ "HandleScript", "d4/d05/a16936.html#a54f27e1e44a1544c707f85d5cd13cfd3", null ],
-    [ "PrepareSpellScript", "d4/d05/a16936.html#a7bb10b15f9b119a4a641ac5752d84112", null ],
-    [ "Register", "d4/d05/a16936.html#ae55729616c2f819addee3db2ea53d3d2", null ]
+    [ "npc_pos_icicle_triggerAI", "d4/d05/a16936.html#a28477c5f88b5ec77dc3e021ec01401ce", null ],
+    [ "UpdateAI", "d4/d05/a16936.html#a32d9b6bd2f0b994adb33e2bd99dd34ce", null ],
+    [ "pInstance", "d4/d05/a16936.html#ad4ed0e2380c62cc6dd7d309edfd34ac1", null ],
+    [ "timer", "d4/d05/a16936.html#a91277c41ddebffed7e9dac7098cd78bd", null ]
 ];

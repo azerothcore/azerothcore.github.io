@@ -1,7 +1,8 @@
 var a27340 =
 [
-    [ "EjectPassenger", "df/d65/a27340.html#a17ead3b25e5cebda3c9d5008f54f27ef", null ],
-    [ "PrepareSpellScript", "df/d65/a27340.html#abada0f860ea3cd6c16fbe4d73263d95a", null ],
-    [ "Register", "df/d65/a27340.html#ad5af65bc326aebcc1a2e19dabe624ad1", null ],
-    [ "Validate", "df/d65/a27340.html#a24ad6ca59f4f38cfa34de16c4167944e", null ]
+    [ "trigger_periodicAI", "df/d65/a27340.html#a696d62fed28de9c67827dad111cf320b", null ],
+    [ "UpdateAI", "df/d65/a27340.html#aed31d60765eff7dd11790714e28e729e", null ],
+    [ "interval", "df/d65/a27340.html#a6e9dd149ce11dcc1c2adf039c73e8023", null ],
+    [ "spell", "df/d65/a27340.html#a618b707155edf6d9179bbedc0f0ecf1e", null ],
+    [ "timer", "df/d65/a27340.html#ac434f6a60065ae3b1adcb11d58af4299", null ]
 ];

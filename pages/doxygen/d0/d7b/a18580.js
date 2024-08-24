@@ -1,6 +1,6 @@
 var a18580 =
 [
-    [ "spell_putricide_mutated_transformation_dmg_SpellScript", "d8/d28/a18584.html", "d8/d28/a18584" ],
-    [ "spell_putricide_mutated_transformation_dmg", "d0/d7b/a18580.html#a4708e2ca05ee63ee4baf848b84c3edc4", null ],
-    [ "GetSpellScript", "d0/d7b/a18580.html#ab111a751eb3cfd3e28492047f8cf6cb3", null ]
+    [ "PrepareSpellScript", "d0/d7b/a18580.html#aac12da39c503615036120e3e0cd55622", null ],
+    [ "Register", "d0/d7b/a18580.html#a808d2283be9714c14f22a2df0a52dd61", null ],
+    [ "RelocateDest", "d0/d7b/a18580.html#a843c9dc403404ddd2de667e57e01f00c", null ]
 ];

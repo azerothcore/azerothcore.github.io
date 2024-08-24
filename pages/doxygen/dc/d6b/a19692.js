@@ -1,6 +1,7 @@
 var a19692 =
 [
-    [ "spell_stinky_precious_decimate_SpellScript", "db/dcd/a19696.html", "db/dcd/a19696" ],
-    [ "spell_stinky_precious_decimate", "dc/d6b/a19692.html#ae1cb5d26a467a52534ec4e0ae0fbe24d", null ],
-    [ "GetSpellScript", "dc/d6b/a19692.html#ac735cb21e65abcb7f8353c0c3448a2f6", null ]
+    [ "OnRemove", "dc/d6b/a19692.html#a4d7ec990112b4ed602bcacf5a6de6722", null ],
+    [ "PrepareAuraScript", "dc/d6b/a19692.html#a7cc9f0d6882b713c7b0a2585d6008437", null ],
+    [ "Register", "dc/d6b/a19692.html#ad3a66fdfb2a159461bb3deeab6f71c13", null ],
+    [ "Validate", "dc/d6b/a19692.html#a8bd121743d1153ae3fd8eb124e475d0f", null ]
 ];

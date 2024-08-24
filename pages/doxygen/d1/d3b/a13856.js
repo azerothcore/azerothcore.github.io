@@ -1,8 +1,9 @@
 var a13856 =
 [
-    [ "FilterTargets", "d1/d3b/a13856.html#a3405b21202d423c649e0b8d341b42d9c", null ],
-    [ "HandleWipeThreat", "d1/d3b/a13856.html#a2bbcce83bffebc509e9ec54778e82639", null ],
-    [ "PrepareSpellScript", "d1/d3b/a13856.html#a59948484b528cab69c695f08b39b886d", null ],
-    [ "Register", "d1/d3b/a13856.html#ac4106a251bd3120e122955edbcdc8e2a", null ],
-    [ "_wipeThreat", "d1/d3b/a13856.html#ab5293e50bd670c0d350f190f1c9892b3", null ]
+    [ "npc_healing_ward", "d1/d3b/a13856.html#a3d3c35f61502d3a83cb2581119e08903", null ],
+    [ "JustEngagedWith", "d1/d3b/a13856.html#a5faf7c5633c44ec1fa70b60b2071b97b", null ],
+    [ "Reset", "d1/d3b/a13856.html#a756d27a43d86c7ecde859df255c6bd62", null ],
+    [ "UpdateAI", "d1/d3b/a13856.html#a8b8635af33ce814602206064e0815520", null ],
+    [ "_instance", "d1/d3b/a13856.html#a65f227041ad4bdc7240637dd6cb680ec", null ],
+    [ "_scheduler", "d1/d3b/a13856.html#a0c62fe945b491cab76175217a7d10c06", null ]
 ];

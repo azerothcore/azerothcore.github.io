@@ -1,10 +1,6 @@
 var a15004 =
 [
-    [ "boss_kurinnaxx", "df/d94/a15004.html#aa8b471e6239080b2a5f70e50e07a9621", null ],
-    [ "DamageTaken", "df/d94/a15004.html#a99537f017506002c3446febd4800fd0e", null ],
-    [ "InitializeAI", "df/d94/a15004.html#a0e249007d5bf29eb0cff307045ef9eb3", null ],
-    [ "JustDied", "df/d94/a15004.html#adb749c8737888a099ad7a3d58292a612", null ],
-    [ "Reset", "df/d94/a15004.html#aebf0c67533a043704ef2017e7d31a65f", null ],
-    [ "UpdateAI", "df/d94/a15004.html#a7e543f6963b97301aad09c85725154a5", null ],
-    [ "_enraged", "df/d94/a15004.html#a5db4c72b3d9d403f9e346f4149697257", null ]
+    [ "boss_veknilash", "df/d94/a15004.html#a73a4095c3dd0ffbd9d7ef5a8a837f13f", null ],
+    [ "IAmVeklor", "df/d94/a15004.html#a454027d829b962ee0feebb6fd5687714", null ],
+    [ "JustEngagedWith", "df/d94/a15004.html#ace8de3d9a397d0571da1f5bdd2ba84d5", null ]
 ];

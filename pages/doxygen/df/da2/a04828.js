@@ -1,10 +1,9 @@
 var a04828 =
 [
-    [ "ARC4", "df/da2/a04828.html#ac05d4f85233abfc5cbcb87cd2a87bc5a", null ],
-    [ "~ARC4", "df/da2/a04828.html#af3a8b63c2073120026c262a685eef8f2", null ],
-    [ "Init", "df/da2/a04828.html#a68993c30cafb864abd5ae0c49ee8296e", null ],
-    [ "Init", "df/da2/a04828.html#a13bd9c79d4535d115831303b14b5f89d", null ],
-    [ "UpdateData", "df/da2/a04828.html#ae350945f2713305e977e4a3e4fc3d5b5", null ],
-    [ "UpdateData", "df/da2/a04828.html#afeb8a273bac5a73417e8026421c6ea70", null ],
-    [ "_ctx", "df/da2/a04828.html#a8539413b1e0344abe9545f742cc8e6df", null ]
+    [ "DynamicTreeIntersectionCallback", "df/da2/a04828.html#a77d71c68e20f4d19059317b307c27441", null ],
+    [ "didHit", "df/da2/a04828.html#a616d15c3cce00574d604591bc8af4140", null ],
+    [ "operator()", "df/da2/a04828.html#a9927d15de557ef58b7e4046e830f8dad", null ],
+    [ "_didHit", "df/da2/a04828.html#a1805d508be79660d90f991e4453c2c9a", null ],
+    [ "_ignoreFlags", "df/da2/a04828.html#a6559c66c8451c32078187a1c43b3a85e", null ],
+    [ "_phaseMask", "df/da2/a04828.html#a52e7470145db9cc4c2369024fbf7bbb8", null ]
 ];

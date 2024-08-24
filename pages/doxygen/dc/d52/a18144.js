@@ -1,10 +1,6 @@
 var a18144 =
 [
-    [ "CountTargets", "dc/d52/a18144.html#a11c717d2398a51b1eecdf8e169c1be87", null ],
-    [ "Load", "dc/d52/a18144.html#ac53d0dce4551a207e60f45b24d15367a", null ],
-    [ "PrepareSpellScript", "dc/d52/a18144.html#adc1577c969de4a2022b1284c9a0d5b39", null ],
-    [ "Register", "dc/d52/a18144.html#a0224d1a67e2c93d24b26c0930d22f09e", null ],
-    [ "TeleportPlayer", "dc/d52/a18144.html#a6354858b31fdadae07a155544ba4efd0", null ],
-    [ "TriggerWipe", "dc/d52/a18144.html#a24097fc619209fdbe42cb6e2273843d1", null ],
-    [ "_playerCount", "dc/d52/a18144.html#a3046aa44a3f1679522fff504a2378dfb", null ]
+    [ "npc_raging_spiritAI", "d9/da4/a18148.html", "d9/da4/a18148" ],
+    [ "npc_raging_spirit", "dc/d52/a18144.html#ad1a580bd394adc8c58575b600c16f9db", null ],
+    [ "GetAI", "dc/d52/a18144.html#ab572a667f6ddd0d4051fe424c8d9e21c", null ]
 ];

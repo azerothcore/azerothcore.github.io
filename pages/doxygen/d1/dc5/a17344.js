@@ -1,6 +1,7 @@
 var a17344 =
 [
-    [ "spell_exploding_orb_auto_grow_AuraScript", "d8/d36/a17348.html", "d8/d36/a17348" ],
-    [ "spell_exploding_orb_auto_grow", "d1/dc5/a17344.html#a7f7099a266ff0613625a7475bc97d519", null ],
-    [ "GetAuraScript", "d1/dc5/a17344.html#ac7ddc269f9a93d1101a56dad976aad8a", null ]
+    [ "npc_icc_blood_beastAI", "d1/dc5/a17344.html#af52eff9f66451444c5acba6930c1bff6", null ],
+    [ "DoAction", "d1/dc5/a17344.html#a5de6e46fd21fd073fde2f0aaa5dc947a", null ],
+    [ "UpdateAI", "d1/dc5/a17344.html#ac9da073c33dd33097f03ca35d36ea15e", null ],
+    [ "timer1", "d1/dc5/a17344.html#a1074059162f818088808795119f081be", null ]
 ];

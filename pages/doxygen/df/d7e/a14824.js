@@ -1,8 +1,7 @@
 var a14824 =
 [
-    [ "npc_thrall_old_hillsbradAI", "d1/d62/a14828.html", "d1/d62/a14828" ],
-    [ "npc_thrall_old_hillsbrad", "df/d7e/a14824.html#a3e6fa750b095af3beac806a619e18328", null ],
-    [ "GetAI", "df/d7e/a14824.html#a7b7baeb3e2e33dcb4ffb0af5d1f5930c", null ],
-    [ "OnGossipHello", "df/d7e/a14824.html#a9b3f622ab9c0dc06011cb36cd084f2e7", null ],
-    [ "OnGossipSelect", "df/d7e/a14824.html#a17fcb00850503903f430506654e035c0", null ]
+    [ "FilterTargets", "df/d7e/a14824.html#a59e477333a54ec828a429d15b35d4936", null ],
+    [ "HandleScript", "df/d7e/a14824.html#a983fe53aa52e53a45685055fde04a3b7", null ],
+    [ "PrepareSpellScript", "df/d7e/a14824.html#a873e7766aa1cb6ebabbc77c31db6701c", null ],
+    [ "Register", "df/d7e/a14824.html#a45ac61990990f16c98eaa7136297afc5", null ]
 ];

@@ -1,9 +1,6 @@
 var a14848 =
 [
-    [ "boss_temporus", "df/d5d/a14848.html#ab9f1495b18fe2c0ee33e9c238483ce0d", null ],
-    [ "JustDied", "df/d5d/a14848.html#a9186e51d240aff2ffaab99e3b423ded9", null ],
-    [ "JustEngagedWith", "df/d5d/a14848.html#abe7f18497c1c8b31693980e98b1d1859", null ],
-    [ "KilledUnit", "df/d5d/a14848.html#a89c2a229b56b3a7dcb9e5a495ac6dbd7", null ],
-    [ "MoveInLineOfSight", "df/d5d/a14848.html#a18a0279036324498a9daf8c7d0296ffc", null ],
-    [ "OwnTalk", "df/d5d/a14848.html#a99356589a048debbc308b8431259da5c", null ]
+    [ "FilterTargets", "df/d5d/a14848.html#ac4f353ac54e7a461d5411fd8eae33cc1", null ],
+    [ "PrepareSpellScript", "df/d5d/a14848.html#a8cb8041b71dd3175b627fe7ec5b2c2f3", null ],
+    [ "Register", "df/d5d/a14848.html#a07d56d19b95c8d24f6908815e4ceb13f", null ]
 ];

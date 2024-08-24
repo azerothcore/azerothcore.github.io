@@ -1,5 +1,6 @@
 var a27504 =
 [
-    [ "PrepareSpellScript", "da/d8b/a27504.html#aadb11335a487f83639260fc4246ba26f", null ],
-    [ "Register", "da/d8b/a27504.html#a1b83195bdc148434f10a6c1ba3c0af0d", null ]
+    [ "npc_guardianAI", "db/df7/a27508.html", "db/df7/a27508" ],
+    [ "npc_guardian", "da/d8b/a27504.html#aa614e73ae6a6c128c323ac275652dbf1", null ],
+    [ "GetAI", "da/d8b/a27504.html#a3e65ccc70be9d25b2d8563c23146ef4f", null ]
 ];

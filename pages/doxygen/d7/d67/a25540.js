@@ -1,6 +1,6 @@
 var a25540 =
 [
-    [ "PrepareSpellScript", "d7/d67/a25540.html#a92df4afd74be589b49d625bd9d94c8c1", null ],
-    [ "Register", "d7/d67/a25540.html#a50f394544ee34e6a8c753a5c757a9fb4", null ],
-    [ "SelectRandomPlayer", "d7/d67/a25540.html#a2022ea6fece62a6b391fce851a86c0f5", null ]
+    [ "PrepareSpellScript", "d7/d67/a25540.html#a3a77016a3a8314969ce41cc6483761ec", null ],
+    [ "Register", "d7/d67/a25540.html#ae1fa8b9e4a11c884d10b1f4cc0afd09e", null ],
+    [ "SetDest", "d7/d67/a25540.html#a724217c09faa57ec2e6dad034e8709ed", null ]
 ];

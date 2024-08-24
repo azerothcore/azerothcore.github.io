@@ -1,9 +1,12 @@
 var a23504 =
 [
-    [ "spell_z_check_AuraScript", "df/d29/a23504.html#a044c938bb50f210bf1ab49c7cddd16d6", null ],
-    [ "HandleEffectApply", "df/d29/a23504.html#a4da55969bb92f8d94335f14855b8b2c0", null ],
-    [ "HandleEffectPeriodic", "df/d29/a23504.html#ad700db4660b5c814d1a6a6adea47adca", null ],
-    [ "PrepareAuraScript", "df/d29/a23504.html#ad16a3e140f32f05d262d363ede070ad2", null ],
-    [ "Register", "df/d29/a23504.html#a55f4cb60278feec5feed8e12f7b97770", null ],
-    [ "_posZ", "df/d29/a23504.html#ab7d97aef92a216e9e1704bf15c5e5b55", null ]
+    [ "boss_nazan", "df/d29/a23504.html#a4390d3e181c4db46e364df3302612763", null ],
+    [ "AttackStart", "df/d29/a23504.html#a7acea69f908e7a004c2a78c103528975", null ],
+    [ "DoAction", "df/d29/a23504.html#abdb49e50dabda61c5d16b420ae69ae77", null ],
+    [ "EnterEvadeMode", "df/d29/a23504.html#ab6338a7d240014e548b22044b788ce8f", null ],
+    [ "JustEngagedWith", "df/d29/a23504.html#a4d44b759530f32207a46a608fb7d6209", null ],
+    [ "MovementInform", "df/d29/a23504.html#ad35866322ff55263b1f8b105d2cad952", null ],
+    [ "Reset", "df/d29/a23504.html#a5c10e932075130399a9127869f45ce1d", null ],
+    [ "UpdateAI", "df/d29/a23504.html#a17942f19444ad324058d7b8c8a9aa9de", null ],
+    [ "_scheduler", "df/d29/a23504.html#a8915d84ec4ffb8dade18041d5e910018", null ]
 ];

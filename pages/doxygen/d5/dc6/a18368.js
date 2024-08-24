@@ -1,6 +1,6 @@
 var a18368 =
 [
-    [ "spell_marrowgar_coldflame_SpellScript", "dd/da3/a18372.html", "dd/da3/a18372" ],
-    [ "spell_marrowgar_coldflame", "d5/dc6/a18368.html#a970658571e0389a831c67b08ae47e437", null ],
-    [ "GetSpellScript", "d5/dc6/a18368.html#ad6af67ac48209a7116293bc1cf215a1b", null ]
+    [ "npc_suppresserAI", "dd/da3/a18372.html", "dd/da3/a18372" ],
+    [ "npc_suppresser", "d5/dc6/a18368.html#a5db40aecba3c45281fe963c6b2bd8d1e", null ],
+    [ "GetAI", "d5/dc6/a18368.html#a48869515abbac1491337a93b987231da", null ]
 ];

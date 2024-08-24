@@ -1,6 +1,6 @@
 var a19684 =
 [
-    [ "spell_icc_dark_reckoning_AuraScript", "d8/d6f/a19688.html", "d8/d6f/a19688" ],
-    [ "spell_icc_dark_reckoning", "d1/d19/a19684.html#a2c3d2d9cc55b94a2c8dc7c677dc8074b", null ],
-    [ "GetAuraScript", "d1/d19/a19684.html#afd73eb9e1a5bf7c3e5fd5bcc70bb9b39", null ]
+    [ "boss_stormcaller_brundirAI", "d8/d6f/a19688.html", "d8/d6f/a19688" ],
+    [ "boss_stormcaller_brundir", "d1/d19/a19684.html#aa966d1534a58e3832c46772043956533", null ],
+    [ "GetAI", "d1/d19/a19684.html#a399b1b7cf2ee74c1e672231e922ff4fa", null ]
 ];

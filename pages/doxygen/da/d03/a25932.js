@@ -1,9 +1,10 @@
 var a25932 =
 [
-    [ "boss_nethermancer_sepethreaAI", "da/d03/a25932.html#a1658f16186351349e04ea5bbd0481e18", null ],
-    [ "JustDied", "da/d03/a25932.html#a423175bfedca97a09b11dd6856c492b5", null ],
-    [ "JustEngagedWith", "da/d03/a25932.html#a8b4bd4c95dffda63b84cd0f69396afb8", null ],
-    [ "JustSummoned", "da/d03/a25932.html#a5932f07a26ed30cc4f9a64ddc68dfaa7", null ],
-    [ "KilledUnit", "da/d03/a25932.html#a02db879d4026ed67e0a9313d8114b174", null ],
-    [ "UpdateAI", "da/d03/a25932.html#aa48c3dea17d1ab450120a7ee4c043b5e", null ]
+    [ "CheckProc", "da/d03/a25932.html#a787008462dce35eb27deda41301b146d", null ],
+    [ "HandleProc", "da/d03/a25932.html#a5b791c7cb8dae574fef801ce42dc6aa1", null ],
+    [ "Load", "da/d03/a25932.html#a9760351c28f5f9948f0b64ae2ca91c24", null ],
+    [ "PrepareAuraScript", "da/d03/a25932.html#ab3d5e71597c67ec0aed70f7e5d2319ac", null ],
+    [ "Register", "da/d03/a25932.html#aa4ef731870355dc386fcd07c5f19d090", null ],
+    [ "Validate", "da/d03/a25932.html#ad04864f0710262364cf40e071446d87c", null ],
+    [ "_procTarget", "da/d03/a25932.html#a9383231fc71c6239507fdf8765d63f3d", null ]
 ];

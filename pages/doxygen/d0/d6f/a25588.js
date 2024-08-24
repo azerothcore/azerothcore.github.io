@@ -1,6 +1,6 @@
 var a25588 =
 [
-    [ "npc_millhouse_manastormAI", "da/da0/a25592.html", "da/da0/a25592" ],
-    [ "npc_millhouse_manastorm", "d0/d6f/a25588.html#aebc8efc48d207ad7f1105fa636b9c104", null ],
-    [ "GetAI", "d0/d6f/a25588.html#ac4516785f7daf544718fc201197ba977", null ]
+    [ "CheckProc", "d0/d6f/a25588.html#acac962ba1cb72615772fe8bc81d24f9d", null ],
+    [ "PrepareAuraScript", "d0/d6f/a25588.html#aebe1c8083ba09c21125c47843b2949da", null ],
+    [ "Register", "d0/d6f/a25588.html#adde6dada6b3012c2650ba9173c6616a0", null ]
 ];

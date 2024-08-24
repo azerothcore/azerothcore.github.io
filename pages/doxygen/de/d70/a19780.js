@@ -1,9 +1,6 @@
 var a19780 =
 [
-    [ "npc_icc_severed_essenceAI", "de/d70/a19780.html#a76366c33ab9ec7aa291c0df657fbef68", null ],
-    [ "CanAIAttack", "de/d70/a19780.html#a2cc2cfc967f9ad966d76571eb0eb630f", null ],
-    [ "DoAction", "de/d70/a19780.html#a938af3a7de5b26432e1ad515a326a032", null ],
-    [ "UpdateAI", "de/d70/a19780.html#a66e3324baa87ba109dd968a517ee82a5", null ],
-    [ "Class", "de/d70/a19780.html#aa627713be3a2ac01336d158d96aaccc7", null ],
-    [ "events", "de/d70/a19780.html#a1bab216925c4123d633d9613bb80365c", null ]
+    [ "npc_freya_wardAI", "d2/d4c/a19784.html", "d2/d4c/a19784" ],
+    [ "npc_freya_ward", "de/d70/a19780.html#aebaadcc001922c78e8ec43084a827ac9", null ],
+    [ "GetAI", "de/d70/a19780.html#a90c0e7a0be1717bf1793415b6fcafbed", null ]
 ];

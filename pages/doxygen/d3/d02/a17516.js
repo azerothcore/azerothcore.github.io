@@ -1,6 +1,6 @@
 var a17516 =
 [
-    [ "npc_living_mojoAI", "df/dcc/a17520.html", "df/dcc/a17520" ],
-    [ "npc_living_mojo", "d3/d02/a17516.html#af24190023549b4ec5fa47b5959618a8a", null ],
-    [ "GetAI", "d3/d02/a17516.html#a2b8ca6e1b26debfafd74e022825c889e", null ]
+    [ "PrepareSpellScript", "d3/d02/a17516.html#a4878ffa30feb16e98d3945f8a6e3c863", null ],
+    [ "Register", "d3/d02/a17516.html#a651f52f7d242251ff69d100fd69376e4", null ],
+    [ "SelectTarget", "d3/d02/a17516.html#aede083ebebe38deb5898ff028564ef95", null ]
 ];

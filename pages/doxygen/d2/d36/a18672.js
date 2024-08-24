@@ -1,7 +1,6 @@
 var a18672 =
 [
-    [ "HandleCast", "d2/d36/a18672.html#a5bc62b13168833ab4fde2b374cb5c442", null ],
-    [ "PrepareSpellScript", "d2/d36/a18672.html#a3eef7505d30b6fa189a9ab8ee8b35a0c", null ],
-    [ "Register", "d2/d36/a18672.html#a9b7682873871e7dd979eff1d9b4f0ed0", null ],
-    [ "Validate", "d2/d36/a18672.html#a4ccc50f0842422d0756b47eb5d7d8323", null ]
+    [ "npc_icc_severed_essenceAI", "d4/d82/a18676.html", "d4/d82/a18676" ],
+    [ "npc_icc_severed_essence", "d2/d36/a18672.html#ace5b55755ef1dff3bd08a67fe2f64f94", null ],
+    [ "GetAI", "d2/d36/a18672.html#a74b8dbb95f3dc31b514a2d7ac1f18190", null ]
 ];

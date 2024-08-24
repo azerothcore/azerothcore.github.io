@@ -1,6 +1,8 @@
 var a12360 =
 [
-    [ "boss_eramas_brightblazeAI", "d5/d57/a12364.html", "d5/d57/a12364" ],
-    [ "boss_eramas_brightblaze", "de/dc4/a12360.html#aa951c5b1cd08da6b5a93ac40dd49402f", null ],
-    [ "GetAI", "de/dc4/a12360.html#a65e998723710920ed77dc307b2d60b3f", null ]
+    [ "npc_tito", "de/dc4/a12360.html#a0b3b1750e8b8840e50d27d22ebddb7c8", null ],
+    [ "JustEngagedWith", "de/dc4/a12360.html#a71335c1474e8a29edf76addacb737fa9", null ],
+    [ "UpdateAI", "de/dc4/a12360.html#ac357c29e68d8480d94349da844efd3ad", null ],
+    [ "_scheduler", "de/dc4/a12360.html#a96c47ca2e66bb984dfd2cfefa6bde643", null ],
+    [ "instance", "de/dc4/a12360.html#a9eecd226486e52d559ae1a30687bf0eb", null ]
 ];

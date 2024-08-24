@@ -1,7 +1,6 @@
 var a23256 =
 [
-    [ "CheckRequirement", "d5/d15/a23256.html#a41beb2c890137328734d6adb14e08302", null ],
-    [ "PrepareSpellScript", "d5/d15/a23256.html#aa0b9873dbd8c75a14fa88094d91eeeaa", null ],
-    [ "Register", "d5/d15/a23256.html#aa0fad5e5a68131ebab5717ad0ce69669", null ],
-    [ "SetDest", "d5/d15/a23256.html#a431a556ab73f91ed63f5983e537834a5", null ]
+    [ "HandleScript", "d5/d15/a23256.html#ad81007cd08ee18bfc7cda4221cbc8482", null ],
+    [ "PrepareSpellScript", "d5/d15/a23256.html#a60f0bb4882d3f75f0839cd0d8ab2707d", null ],
+    [ "Register", "d5/d15/a23256.html#ac06f4246c5cecc4875bc93811eaeb839", null ]
 ];

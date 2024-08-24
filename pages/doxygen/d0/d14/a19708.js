@@ -1,6 +1,5 @@
 var a19708 =
 [
-    [ "spell_icc_yh_volley_AuraScript", "d9/d67/a19712.html", "d9/d67/a19712" ],
-    [ "spell_icc_yh_volley", "d0/d14/a19708.html#a91e419cb0324ebfe7b7b51e74859a7bb", null ],
-    [ "GetAuraScript", "d0/d14/a19708.html#a36374288acafc649d4fd7d83d0515bdc", null ]
+    [ "achievement_cant_do_that_while_stunned", "d0/d14/a19708.html#a4d474b36f61631688ea723d2e4033574", null ],
+    [ "OnCheck", "d0/d14/a19708.html#a0b108bdcab0bc412975e61247f226bf8", null ]
 ];

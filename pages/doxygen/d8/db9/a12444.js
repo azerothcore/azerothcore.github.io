@@ -1,8 +1,6 @@
 var a12444 =
 [
-    [ "npc_death_knight_initiateAI", "db/de4/a12448.html", "db/de4/a12448" ],
-    [ "npc_death_knight_initiate", "d8/db9/a12444.html#a0c1b552035bed7be9af1fbdf8205b4b6", null ],
-    [ "GetAI", "d8/db9/a12444.html#ac38e0ed0ea1eac8e0de6f08664cb095a", null ],
-    [ "OnGossipHello", "d8/db9/a12444.html#a24f1b91ad0a69e4468e812747225d303", null ],
-    [ "OnGossipSelect", "d8/db9/a12444.html#ab0712bc84003b5eb72f11b49ef6e57a7", null ]
+    [ "HandleProc", "d8/db9/a12444.html#a945dad46d3c11ee4720c939390a9dc1b", null ],
+    [ "PrepareAuraScript", "d8/db9/a12444.html#a43953f2950d9a92db66a2c65a045ff6e", null ],
+    [ "Register", "d8/db9/a12444.html#a24df76ff0933685bade58deff98856d2", null ]
 ];
