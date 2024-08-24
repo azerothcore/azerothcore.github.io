@@ -1,4 +1,4 @@
 var a01946 =
 [
-    [ "ScriptRegistry< ConditionScript >", "d0/dce/a01946.html#af6b3c804d07f366580a1a5b9dd95f5fd", null ]
+    [ "ScriptRegistry< BattlegroundScript >", "d0/dce/a01946.html#a954046a61096ecb9db321b0a35da5f77", null ]
 ];

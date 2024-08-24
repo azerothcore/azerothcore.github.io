@@ -1,6 +1,6 @@
 var a00602 =
 [
-    [ "LoginDatabaseConnection", "d0/de1/a05589.html", "d0/de1/a05589" ],
+    [ "LoginDatabaseConnection", "de/dba/a05619.html", "de/dba/a05619" ],
     [ "LoginDatabaseStatements", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fb", [
       [ "LOGIN_SEL_REALMLIST", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba60f76dbe533e0e45479c1da3cf119ec9", null ],
       [ "LOGIN_DEL_EXPIRED_IP_BANS", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba391d5d5679155b59c7c5e62479acb721", null ],
@@ -41,6 +41,7 @@ var a00602 =
       [ "LOGIN_UPD_EXPANSION", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba6a9d9579215de7e7bde1b879eefa1ee2", null ],
       [ "LOGIN_UPD_ACCOUNT_LOCK", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba98ad2ada674335773cdc3a4a1b6807f1", null ],
       [ "LOGIN_UPD_ACCOUNT_LOCK_COUNTRY", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba6b1b11841dcea8ec5cc28c88fabb644d", null ],
+      [ "LOGIN_UPD_EMAIL", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba0d58bd022a55ac9c5a9be4c1443b2bf3", null ],
       [ "LOGIN_UPD_USERNAME", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba5a9324a37ef24f3d2131dd3a24960d0a", null ],
       [ "LOGIN_UPD_MUTE_TIME", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba8b27690680e6fdcd34e8544e0d7334bc", null ],
       [ "LOGIN_UPD_MUTE_TIME_LOGIN", "d5/d0a/a00602.html#a2bc6eef17d8ecd1b7027058f5fecc9fba00572e471f95be8cde9fe9cacd9a7d3e", null ],

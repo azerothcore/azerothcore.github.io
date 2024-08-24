@@ -1,6 +1,5 @@
 var a02465 =
 [
-    [ "event_commandscript", "d7/dbf/a11241.html", "d7/dbf/a11241" ],
-    [ "EventEntry", "d4/d73/a02465.html#accd9dac141ffd4618bb7d3f69e8eb716", null ],
-    [ "AddSC_event_commandscript", "d4/d73/a02465.html#a4f3834f706dcb17ca67ce6513f6aecad", null ]
+    [ "cheat_commandscript", "df/d60/a11287.html", "df/d60/a11287" ],
+    [ "AddSC_cheat_commandscript", "d4/d73/a02465.html#aafc88882ff0af0beb4632ec2c929fc8c", null ]
 ];

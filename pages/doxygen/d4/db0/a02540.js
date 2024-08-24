@@ -1,5 +1,5 @@
 var a02540 =
 [
-    [ "reset_commandscript", "de/d77/a11353.html", "de/d77/a11353" ],
-    [ "AddSC_reset_commandscript", "d4/db0/a02540.html#ae4c7679595ac3aac5f03426eb6e0e6e4", null ]
+    [ "player_commandscript", "d0/dbd/a11403.html", "d0/dbd/a11403" ],
+    [ "AddSC_player_commandscript", "d4/db0/a02540.html#a3a4a77162d5b304dab9a8c8e397c3516", null ]
 ];

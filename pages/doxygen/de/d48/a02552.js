@@ -1,5 +1,5 @@
 var a02552 =
 [
-    [ "spectator_commandscript", "db/dbd/a11365.html", "db/dbd/a11365" ],
-    [ "AddSC_spectator_commandscript", "de/d48/a02552.html#a223cb7b19bd79c486919c41509ea6ddf", null ]
+    [ "reset_commandscript", "dc/d62/a11419.html", "dc/d62/a11419" ],
+    [ "AddSC_reset_commandscript", "de/d48/a02552.html#ae4c7679595ac3aac5f03426eb6e0e6e4", null ]
 ];

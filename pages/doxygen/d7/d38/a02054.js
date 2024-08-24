@@ -1,4 +1,4 @@
 var a02054 =
 [
-    [ "OutdoorPvPScript", "df/d78/a09993.html", "df/d78/a09993" ]
+    [ "ModuleScript", "de/d4d/a10051.html", "de/d4d/a10051" ]
 ];

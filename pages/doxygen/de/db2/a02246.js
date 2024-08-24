@@ -1,6 +1,6 @@
 var a02246 =
 [
-    [ "AccountInfoQueryHolderPerRealm", "dc/d4a/a10605.html", "dc/d4a/a10605" ],
-    [ "REMOVE_VIOLATING_FLAGS", "de/db2/a02246.html#a9d7c4eaedbb2a06f275a5f59222bc747", null ],
-    [ "DefaultPlayerName", "de/db2/a02246.html#a586e06ca0d339349e13d81197056bb5f", null ]
+    [ "LogHeader", "d0/d6d/a10647.html", "d0/d6d/a10647" ],
+    [ "PacketHeader", "d5/d6f/a10651.html", "d5/d6f/a10651" ],
+    [ "PacketHeader::OptionalData", "d3/de6/a10655.html", "d3/de6/a10655" ]
 ];

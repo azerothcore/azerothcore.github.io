@@ -1,6 +1,7 @@
 var a01730 =
 [
-    [ "PointMovementGenerator< T >", "d3/d0c/a09629.html", "d3/d0c/a09629" ],
-    [ "AssistanceMovementGenerator", "d1/d24/a09633.html", "d1/d24/a09633" ],
-    [ "EffectMovementGenerator", "d2/d38/a09637.html", "d2/d38/a09637" ]
+    [ "IdleMovementGenerator", "d4/d84/a09675.html", "d4/d84/a09675" ],
+    [ "RotateMovementGenerator", "d5/d91/a09679.html", "d5/d91/a09679" ],
+    [ "DistractMovementGenerator", "d7/d95/a09683.html", "d7/d95/a09683" ],
+    [ "AssistanceDistractMovementGenerator", "db/d4f/a09687.html", "db/d4f/a09687" ]
 ];

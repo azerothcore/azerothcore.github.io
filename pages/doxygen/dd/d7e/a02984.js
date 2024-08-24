@@ -1,11 +1,11 @@
 var a02984 =
 [
-    [ "npc_the_scourge_cauldron", "d1/deb/a13625.html", "d1/deb/a13625" ],
-    [ "npc_the_scourge_cauldron::npc_the_scourge_cauldronAI", "db/ded/a13629.html", "db/ded/a13629" ],
-    [ "npc_andorhal_tower", "d6/dd3/a13633.html", "d6/dd3/a13633" ],
-    [ "npc_andorhal_tower::npc_andorhal_towerAI", "d4/d2a/a13637.html", "d4/d2a/a13637" ],
-    [ "AndorhalTower", "dd/d7e/a02984.html#a07061f0cf471fb1cb236b428c31965c8", [
-      [ "GO_BEACON_TORCH", "dd/d7e/a02984.html#a07061f0cf471fb1cb236b428c31965c8ace3e47469a19c76e79a7ae1ca2b4f798", null ]
+    [ "npc_calvin_montague", "db/d09/a13431.html", "db/d09/a13431" ],
+    [ "npc_calvin_montague::npc_calvin_montagueAI", "d3/d81/a13435.html", "d3/d81/a13435" ],
+    [ "Calvin", "dd/d7e/a02984.html#ad983c76afba625e98935573029323758", [
+      [ "SAY_COMPLETE", "dd/d7e/a02984.html#ad983c76afba625e98935573029323758ac31c61437b536671a4aac2cfc0a66fdd", null ],
+      [ "SPELL_DRINK", "dd/d7e/a02984.html#ad983c76afba625e98935573029323758a14d7769fc60a7bb1b489145b8494f966", null ],
+      [ "QUEST_590", "dd/d7e/a02984.html#ad983c76afba625e98935573029323758a260747522d474ff57d09aa8475205de8", null ]
     ] ],
-    [ "AddSC_western_plaguelands", "dd/d7e/a02984.html#a978fbc9b0f23371fedcca17926c637cb", null ]
+    [ "AddSC_tirisfal_glades", "dd/d7e/a02984.html#a721a547c5379948b604c2cf4eaa60a65", null ]
 ];

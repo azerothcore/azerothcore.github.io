@@ -1,9 +1,9 @@
 var a01748 =
 [
-    [ "PathMovementBase< T, P >", "d0/d7f/a09657.html", "d0/d7f/a09657" ],
-    [ "WaypointMovementGenerator< Creature >", "d6/d09/a09665.html", "d6/d09/a09665" ],
-    [ "FlightPathMovementGenerator", "d9/dd2/a09669.html", "d9/dd2/a09669" ],
-    [ "FlightPathMovementGenerator::TaxiNodeChangeInfo", "d4/d96/a09673.html", "d4/d96/a09673" ],
-    [ "FLIGHT_TRAVEL_UPDATE", "d9/d0d/a01748.html#af2d292bdefbb6db76ff3201ac0c0cdd6", null ],
-    [ "TIMEDIFF_NEXT_WP", "d9/d0d/a01748.html#afcff81f45a877feac68bf5bcae913560", null ]
+    [ "RandomMovementGenerator< T >", "dc/d36/a09707.html", "dc/d36/a09707" ],
+    [ "MAX_PATH_LENGHT_FACTOR", "d9/d0d/a01748.html#a6e563601030e3152f7023ecd4fa3f3c7", null ],
+    [ "MIN_WANDER_DISTANCE_AIR", "d9/d0d/a01748.html#a81b46c6e5a328cf46ead22b160a8a576", null ],
+    [ "MIN_WANDER_DISTANCE_GROUND", "d9/d0d/a01748.html#a85e56933db548199999e1edb8e96836d", null ],
+    [ "RANDOM_LINKS_COUNT", "d9/d0d/a01748.html#af447061c654f18b25537973f2739dad3", null ],
+    [ "RANDOM_POINTS_NUMBER", "d9/d0d/a01748.html#ac0f6eaac315a81192c2307dcbac20f70", null ]
 ];

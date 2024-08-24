@@ -1,37 +1,21 @@
 var a03365 =
 [
-    [ "npc_ame", "d6/d70/a15773.html", "d6/d70/a15773" ],
-    [ "npc_ame::npc_ameAI", "d7/dc0/a15777.html", "d7/dc0/a15777" ],
-    [ "npc_ringo", "d5/d27/a15781.html", "d5/d27/a15781" ],
-    [ "npc_ringo::npc_ringoAI", "d4/dcf/a15785.html", "d4/dcf/a15785" ],
-    [ "AmeData", "d7/d13/a03365.html#abbb0f5e31bd003a50e94cc712dbab7c0", [
-      [ "SAY_READY", "d7/d13/a03365.html#abbb0f5e31bd003a50e94cc712dbab7c0a82af2bd2787802be3ff2ee4588ea9be4", null ],
-      [ "SAY_AGGRO1", "d7/d13/a03365.html#abbb0f5e31bd003a50e94cc712dbab7c0a17fd4d94120185f67ee94a41652285a5", null ],
-      [ "SAY_SEARCH", "d7/d13/a03365.html#abbb0f5e31bd003a50e94cc712dbab7c0a843a1ad765b601ed599c443b66ae5d77", null ],
-      [ "SAY_AGGRO2", "d7/d13/a03365.html#abbb0f5e31bd003a50e94cc712dbab7c0af73eb45ca3cf512147f1d25e1254c224", null ],
-      [ "SAY_AGGRO3", "d7/d13/a03365.html#abbb0f5e31bd003a50e94cc712dbab7c0aa623912b4ba266583234ba5df070e02e", null ],
-      [ "SAY_FINISH", "d7/d13/a03365.html#abbb0f5e31bd003a50e94cc712dbab7c0a0e5b4f2c41b1953cea52b7f41d134838", null ],
-      [ "SPELL_DEMORALIZINGSHOUT", "d7/d13/a03365.html#abbb0f5e31bd003a50e94cc712dbab7c0a8477c04b326171f69326346981b724e1", null ],
-      [ "QUEST_CHASING_AME", "d7/d13/a03365.html#abbb0f5e31bd003a50e94cc712dbab7c0aa73d2307a32eceb7d713d314b325b827", null ],
-      [ "ENTRY_TARLORD", "d7/d13/a03365.html#abbb0f5e31bd003a50e94cc712dbab7c0ab6db2c46b771ac7d038f25d35308beec", null ],
-      [ "ENTRY_TARLORD1", "d7/d13/a03365.html#abbb0f5e31bd003a50e94cc712dbab7c0ae1f81eb98b3fa0fc40666dedb0ece35f", null ],
-      [ "ENTRY_STOMPER", "d7/d13/a03365.html#abbb0f5e31bd003a50e94cc712dbab7c0af0775f5d04bd4e00f048e939fed6e64a", null ]
+    [ "npcs_riverbreeze_and_silversky", "db/d8e/a15299.html", "db/d8e/a15299" ],
+    [ "at_ancient_leaf", "d6/d79/a15303.html", "d6/d79/a15303" ],
+    [ "GOSSIP_ITEM_BEACON", "d7/d13/a03365.html#aed16a0d3c0f5042443d68996e30f15bd", null ],
+    [ "AncientMisc", "d7/d13/a03365.html#adaffe09a7c2b9f9bfdc48d5068c18068", [
+      [ "QUEST_ANCIENT_LEAF", "d7/d13/a03365.html#adaffe09a7c2b9f9bfdc48d5068c18068aa825be5f41ad67f6007d3509e9bb87e3", null ],
+      [ "NPC_VARTRUS", "d7/d13/a03365.html#adaffe09a7c2b9f9bfdc48d5068c18068aa3648d60ebaeb2cef5c0578018150e99", null ],
+      [ "NPC_STOMA", "d7/d13/a03365.html#adaffe09a7c2b9f9bfdc48d5068c18068ab30f7bd203d11ff87b0030b3578a5e81", null ],
+      [ "NPC_HASTAT", "d7/d13/a03365.html#adaffe09a7c2b9f9bfdc48d5068c18068acc6ef71bcba7f2d82bc3164636733e04", null ],
+      [ "CREATURE_GROUP_ANCIENTS", "d7/d13/a03365.html#adaffe09a7c2b9f9bfdc48d5068c18068a929e77d337e49edf4de033ddb8ccf149", null ]
     ] ],
-    [ "Ringo", "d7/d13/a03365.html#a1eb7864fe2b6e6ec59692fb2f7c02592", [
-      [ "SAY_RIN_START", "d7/d13/a03365.html#a1eb7864fe2b6e6ec59692fb2f7c02592abd4cb0c4d5414164403e75fca667915b", null ],
-      [ "SAY_FAINT", "d7/d13/a03365.html#a1eb7864fe2b6e6ec59692fb2f7c02592a39f7b5e8a7fc4ed40e62cedfa93923bd", null ],
-      [ "SAY_WAKE", "d7/d13/a03365.html#a1eb7864fe2b6e6ec59692fb2f7c02592aadb6c63e08a18de76bcc95ca2e830a6e", null ],
-      [ "SAY_RIN_END_1", "d7/d13/a03365.html#a1eb7864fe2b6e6ec59692fb2f7c02592ae8753384ff9e53b533a5a1cebd16ce64", null ],
-      [ "SAY_SPR_END_2", "d7/d13/a03365.html#a1eb7864fe2b6e6ec59692fb2f7c02592a1a913192c37c18a19114eebee21e1a85", null ],
-      [ "SAY_RIN_END_3", "d7/d13/a03365.html#a1eb7864fe2b6e6ec59692fb2f7c02592ae29a03470647c5d13bcb1729160b1d8b", null ],
-      [ "EMOTE_RIN_END_4", "d7/d13/a03365.html#a1eb7864fe2b6e6ec59692fb2f7c02592aeeed58bd2d47e0450374129434bcf296", null ],
-      [ "EMOTE_RIN_END_5", "d7/d13/a03365.html#a1eb7864fe2b6e6ec59692fb2f7c02592ac0c11a39be96e25065c399ff7dd7c484", null ],
-      [ "SAY_RIN_END_6", "d7/d13/a03365.html#a1eb7864fe2b6e6ec59692fb2f7c02592a699867c1deab61d85853622b099cd728", null ],
-      [ "SAY_SPR_END_7", "d7/d13/a03365.html#a1eb7864fe2b6e6ec59692fb2f7c02592ac165214832e6be5740245dd6239ef2c9", null ],
-      [ "EMOTE_RIN_END_8", "d7/d13/a03365.html#a1eb7864fe2b6e6ec59692fb2f7c02592ac034860ad6513469b74ad5b7cc76edc7", null ],
-      [ "SPELL_REVIVE_RINGO", "d7/d13/a03365.html#a1eb7864fe2b6e6ec59692fb2f7c02592a9fc3d4c57ff3ca56f344b70df866e766", null ],
-      [ "QUEST_A_LITTLE_HELP", "d7/d13/a03365.html#a1eb7864fe2b6e6ec59692fb2f7c02592a6ab7d20ae4eca495ad164638b1e68b51", null ],
-      [ "NPC_SPRAGGLE", "d7/d13/a03365.html#a1eb7864fe2b6e6ec59692fb2f7c02592a4bc3afbb0cf9626825ffda0b610e2e64", null ]
+    [ "RiverbreezeAndSilversky", "d7/d13/a03365.html#acc75d54553750c832fe50b6cb0c42427", [
+      [ "SPELL_CENARION_BEACON", "d7/d13/a03365.html#acc75d54553750c832fe50b6cb0c42427aefb9fe5d61b5fc5b810f077e47334d49", null ],
+      [ "NPC_ARATHANDRIS_SILVERSKY", "d7/d13/a03365.html#acc75d54553750c832fe50b6cb0c42427a15af7b53355112caefafe032f27b15d6", null ],
+      [ "NPC_MAYBESS_RIVERBREEZE", "d7/d13/a03365.html#acc75d54553750c832fe50b6cb0c42427a3362be702aaaa11f11e1df72d0a8e149", null ],
+      [ "QUEST_CLEASING_FELWOOD_A", "d7/d13/a03365.html#acc75d54553750c832fe50b6cb0c42427ab52d337e733144a5a21fce9825f80fff", null ],
+      [ "QUEST_CLEASING_FELWOOD_H", "d7/d13/a03365.html#acc75d54553750c832fe50b6cb0c42427a24da8ad4e5cec47c9a66a1e03e07383f", null ]
     ] ],
-    [ "AddSC_ungoro_crater", "d7/d13/a03365.html#a6e2c88161cee97e0e405ef83abcc653f", null ]
+    [ "AddSC_felwood", "d7/d13/a03365.html#a63ae28c9f250057b35a18fb585c6a2cf", null ]
 ];

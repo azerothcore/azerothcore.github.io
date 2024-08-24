@@ -1,4 +1,4 @@
 var a01400 =
 [
-    [ "NGrid< N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES >", "d5/d89/a08625.html", "d5/d89/a08625" ]
+    [ "GridRefMgr< OBJECT >", "db/d10/a08815.html", "db/d10/a08815" ]
 ];

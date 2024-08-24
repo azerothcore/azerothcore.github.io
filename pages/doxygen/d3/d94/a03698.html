@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/scripts/Northrend/Nexus/Nexus/instance_nexus.cpp File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/scripts/Northrend/Naxxramas/instance_naxxramas.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,145 +107,239 @@ $(document).ready(function(){initNavTree('d3/d94/a03698.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">instance_nexus.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">instance_naxxramas.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">AreaTriggerScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PassiveAI.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">nexus.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">naxxramas.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df7/a20389.html">instance_nexus</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de6/a19059.html">instance_naxxramas</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d32/a20393.html">instance_nexus::instance_nexus_InstanceMapScript</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d07/a19063.html">instance_naxxramas::instance_naxxramas_InstanceMapScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d06/a20397.html">npc_crystalline_frayer</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ddf/a19067.html">boss_naxxramas_misc</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dab/a20401.html">npc_crystalline_frayer::npc_crystalline_frayerAI</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d39/a19071.html">boss_naxxramas_misc::boss_naxxramas_miscAI</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:afccbdf6b1fcd1d08834c371ae089cd34"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34">eFrayer</a> { <br />
-&#160;&#160;<a class="el" href="../../d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34a574104b14cbcd24794ab8666fa8dbd76">SPELL_SUMMON_SEED_POD</a> = 52796
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34ac55a6fa8082947a3cf2c03a7a6698eb7">SPELL_SEED_POD</a> = 48082
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34a16a68348d55363d0fa476afad65ed165">SPELL_AURA_OF_REGENERATION</a> = 52067
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34a2628113ed0f8c81fec3cbb2dd01123f7">SPELL_CRYSTAL_BLOOM</a> = 48058
-, <br />
-&#160;&#160;<a class="el" href="../../d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34aa84bf40a2daa426466ad7322a0ab325d">SPELL_ENSNARE</a> = 48053
-<br />
- }</td></tr>
-<tr class="separator:afccbdf6b1fcd1d08834c371ae089cd34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dae/a19075.html">at_naxxramas_hub_portal</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a77d0cce0724befee65efa7555f62f8f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d94/a03698.html#a77d0cce0724befee65efa7555f62f8f1">AddSC_instance_nexus</a> ()</td></tr>
-<tr class="separator:a77d0cce0724befee65efa7555f62f8f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a901343efd9af23ac79087eef84926a75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d94/a03698.html#a901343efd9af23ac79087eef84926a75">GetEruptionSection</a> (float x, float y)</td></tr>
+<tr class="separator:a901343efd9af23ac79087eef84926a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba1e1afda4423e51a1849a33da49a334"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d94/a03698.html#aba1e1afda4423e51a1849a33da49a334">AddSC_instance_naxxramas</a> ()</td></tr>
+<tr class="separator:aba1e1afda4423e51a1849a33da49a334"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d34/a09237.html">DoorData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d94/a03698.html#a69c4a0ca4694d5ed1d42f0373dd5d80c">doorData</a> []</td></tr>
-<tr class="separator:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a329c88a19bf7f6ee06251fb30b96aa80"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d94/a03698.html#a329c88a19bf7f6ee06251fb30b96aa80">HeiganPos</a> [2] = {2796, -3707}</td></tr>
+<tr class="separator:a329c88a19bf7f6ee06251fb30b96aa80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc813e25da4423b11b3f71a4c3434b43"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d94/a03698.html#afc813e25da4423b11b3f71a4c3434b43">HeiganEruptionSlope</a> [3]</td></tr>
+<tr class="separator:afc813e25da4423b11b3f71a4c3434b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a412286b689bd324fedd65ddd8dde8afb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d2f/a09315.html">ObjectData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d94/a03698.html#a412286b689bd324fedd65ddd8dde8afb">creatureData</a> []</td></tr>
+<tr class="separator:a412286b689bd324fedd65ddd8dde8afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1461582839e3b7fdbb7397e5d2086e31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d2f/a09315.html">ObjectData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d94/a03698.html#a1461582839e3b7fdbb7397e5d2086e31">gameObjectData</a> []</td></tr>
+<tr class="separator:a1461582839e3b7fdbb7397e5d2086e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11d995fa7a0e4c0af781d298ab2ce3a7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d9/d1e/a08191.html">Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d94/a03698.html#a11d995fa7a0e4c0af781d298ab2ce3a7">sapphironEntryTP</a> = { 3498.300049f, -5349.490234f, 144.968002f, 1.3698910f }</td></tr>
+<tr class="separator:a11d995fa7a0e4c0af781d298ab2ce3a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="afccbdf6b1fcd1d08834c371ae089cd34" name="afccbdf6b1fcd1d08834c371ae089cd34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afccbdf6b1fcd1d08834c371ae089cd34">&#9670;&#160;</a></span>eFrayer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34">eFrayer</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afccbdf6b1fcd1d08834c371ae089cd34a574104b14cbcd24794ab8666fa8dbd76" name="afccbdf6b1fcd1d08834c371ae089cd34a574104b14cbcd24794ab8666fa8dbd76"></a>SPELL_SUMMON_SEED_POD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afccbdf6b1fcd1d08834c371ae089cd34ac55a6fa8082947a3cf2c03a7a6698eb7" name="afccbdf6b1fcd1d08834c371ae089cd34ac55a6fa8082947a3cf2c03a7a6698eb7"></a>SPELL_SEED_POD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afccbdf6b1fcd1d08834c371ae089cd34a16a68348d55363d0fa476afad65ed165" name="afccbdf6b1fcd1d08834c371ae089cd34a16a68348d55363d0fa476afad65ed165"></a>SPELL_AURA_OF_REGENERATION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afccbdf6b1fcd1d08834c371ae089cd34a2628113ed0f8c81fec3cbb2dd01123f7" name="afccbdf6b1fcd1d08834c371ae089cd34a2628113ed0f8c81fec3cbb2dd01123f7"></a>SPELL_CRYSTAL_BLOOM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afccbdf6b1fcd1d08834c371ae089cd34aa84bf40a2daa426466ad7322a0ab325d" name="afccbdf6b1fcd1d08834c371ae089cd34aa84bf40a2daa426466ad7322a0ab325d"></a>SPELL_ENSNARE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  160</span>{</div>
-<div class="line"><span class="lineno">  161</span>    <a class="code hl_enumvalue" href="../../d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34a574104b14cbcd24794ab8666fa8dbd76">SPELL_SUMMON_SEED_POD</a>               = 52796,</div>
-<div class="line"><span class="lineno">  162</span>    <a class="code hl_enumvalue" href="../../d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34ac55a6fa8082947a3cf2c03a7a6698eb7">SPELL_SEED_POD</a>                      = 48082,</div>
-<div class="line"><span class="lineno">  163</span>    <a class="code hl_enumvalue" href="../../d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34a16a68348d55363d0fa476afad65ed165">SPELL_AURA_OF_REGENERATION</a>          = 52067,</div>
-<div class="line"><span class="lineno">  164</span>    <a class="code hl_enumvalue" href="../../d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34a2628113ed0f8c81fec3cbb2dd01123f7">SPELL_CRYSTAL_BLOOM</a>                 = 48058,</div>
-<div class="line"><span class="lineno">  165</span>    <a class="code hl_enumvalue" href="../../d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34aa84bf40a2daa426466ad7322a0ab325d">SPELL_ENSNARE</a>                       = 48053</div>
-<div class="line"><span class="lineno">  166</span>};</div>
-<div class="ttc" id="aa03698_html_afccbdf6b1fcd1d08834c371ae089cd34a16a68348d55363d0fa476afad65ed165"><div class="ttname"><a href="../../d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34a16a68348d55363d0fa476afad65ed165">SPELL_AURA_OF_REGENERATION</a></div><div class="ttdeci">@ SPELL_AURA_OF_REGENERATION</div><div class="ttdef"><b>Definition:</b> instance_nexus.cpp:163</div></div>
-<div class="ttc" id="aa03698_html_afccbdf6b1fcd1d08834c371ae089cd34a2628113ed0f8c81fec3cbb2dd01123f7"><div class="ttname"><a href="../../d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34a2628113ed0f8c81fec3cbb2dd01123f7">SPELL_CRYSTAL_BLOOM</a></div><div class="ttdeci">@ SPELL_CRYSTAL_BLOOM</div><div class="ttdef"><b>Definition:</b> instance_nexus.cpp:164</div></div>
-<div class="ttc" id="aa03698_html_afccbdf6b1fcd1d08834c371ae089cd34a574104b14cbcd24794ab8666fa8dbd76"><div class="ttname"><a href="../../d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34a574104b14cbcd24794ab8666fa8dbd76">SPELL_SUMMON_SEED_POD</a></div><div class="ttdeci">@ SPELL_SUMMON_SEED_POD</div><div class="ttdef"><b>Definition:</b> instance_nexus.cpp:161</div></div>
-<div class="ttc" id="aa03698_html_afccbdf6b1fcd1d08834c371ae089cd34aa84bf40a2daa426466ad7322a0ab325d"><div class="ttname"><a href="../../d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34aa84bf40a2daa426466ad7322a0ab325d">SPELL_ENSNARE</a></div><div class="ttdeci">@ SPELL_ENSNARE</div><div class="ttdef"><b>Definition:</b> instance_nexus.cpp:165</div></div>
-<div class="ttc" id="aa03698_html_afccbdf6b1fcd1d08834c371ae089cd34ac55a6fa8082947a3cf2c03a7a6698eb7"><div class="ttname"><a href="../../d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34ac55a6fa8082947a3cf2c03a7a6698eb7">SPELL_SEED_POD</a></div><div class="ttdeci">@ SPELL_SEED_POD</div><div class="ttdef"><b>Definition:</b> instance_nexus.cpp:162</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a77d0cce0724befee65efa7555f62f8f1" name="a77d0cce0724befee65efa7555f62f8f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77d0cce0724befee65efa7555f62f8f1">&#9670;&#160;</a></span>AddSC_instance_nexus()</h2>
+<a id="aba1e1afda4423e51a1849a33da49a334" name="aba1e1afda4423e51a1849a33da49a334"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba1e1afda4423e51a1849a33da49a334">&#9670;&#160;</a></span>AddSC_instance_naxxramas()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_instance_nexus </td>
+          <td class="memname">void AddSC_instance_naxxramas </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  271</span>{</div>
-<div class="line"><span class="lineno">  272</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/df7/a20389.html">instance_nexus</a>();</div>
-<div class="line"><span class="lineno">  273</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/d06/a20397.html">npc_crystalline_frayer</a>();</div>
-<div class="line"><span class="lineno">  274</span>}</div>
-<div class="ttc" id="aa20389_html"><div class="ttname"><a href="../../d0/df7/a20389.html">instance_nexus</a></div><div class="ttdef"><b>Definition:</b> instance_nexus.cpp:32</div></div>
-<div class="ttc" id="aa20397_html"><div class="ttname"><a href="../../da/d06/a20397.html">npc_crystalline_frayer</a></div><div class="ttdef"><b>Definition:</b> instance_nexus.cpp:169</div></div>
+<div class="fragment"><div class="line"><span class="lineno"> 1238</span>{</div>
+<div class="line"><span class="lineno"> 1239</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/de6/a19059.html">instance_naxxramas</a>();</div>
+<div class="line"><span class="lineno"> 1240</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/ddf/a19067.html">boss_naxxramas_misc</a>();</div>
+<div class="line"><span class="lineno"> 1241</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/dae/a19075.html">at_naxxramas_hub_portal</a>();</div>
+<div class="line"><span class="lineno"> 1242</span>}</div>
+<div class="ttc" id="aa19059_html"><div class="ttname"><a href="../../dd/de6/a19059.html">instance_naxxramas</a></div><div class="ttdef"><b>Definition:</b> instance_naxxramas.cpp:67</div></div>
+<div class="ttc" id="aa19067_html"><div class="ttname"><a href="../../d9/ddf/a19067.html">boss_naxxramas_misc</a></div><div class="ttdef"><b>Definition:</b> instance_naxxramas.cpp:1138</div></div>
+<div class="ttc" id="aa19075_html"><div class="ttname"><a href="../../d9/dae/a19075.html">at_naxxramas_hub_portal</a></div><div class="ttdef"><b>Definition:</b> instance_naxxramas.cpp:1211</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../#l00183">AddNorthrendScripts()</a>.</p>
 
 </div>
 </div>
+<a id="a901343efd9af23ac79087eef84926a75" name="a901343efd9af23ac79087eef84926a75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a901343efd9af23ac79087eef84926a75">&#9670;&#160;</a></span>GetEruptionSection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> GetEruptionSection </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
+<div class="line"><span class="lineno">   38</span>    y -= <a class="code hl_variable" href="../../d3/d94/a03698.html#a329c88a19bf7f6ee06251fb30b96aa80">HeiganPos</a>[1];</div>
+<div class="line"><span class="lineno">   39</span>    <span class="keywordflow">if</span> (y &lt; 1.0f)</div>
+<div class="line"><span class="lineno">   40</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   41</span> </div>
+<div class="line"><span class="lineno">   42</span>    x -= <a class="code hl_variable" href="../../d3/d94/a03698.html#a329c88a19bf7f6ee06251fb30b96aa80">HeiganPos</a>[0];</div>
+<div class="line"><span class="lineno">   43</span>    <span class="keywordflow">if</span> (x &gt; -1.0f)</div>
+<div class="line"><span class="lineno">   44</span>        <span class="keywordflow">return</span> 3;</div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>    <span class="keywordtype">float</span> slope = y / x;</div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; 3; ++i)</div>
+<div class="line"><span class="lineno">   48</span>    {</div>
+<div class="line"><span class="lineno">   49</span>        <span class="keywordflow">if</span> (slope &gt; <a class="code hl_variable" href="../../d3/d94/a03698.html#afc813e25da4423b11b3f71a4c3434b43">HeiganEruptionSlope</a>[i])</div>
+<div class="line"><span class="lineno">   50</span>            <span class="keywordflow">return</span> i;</div>
+<div class="line"><span class="lineno">   51</span>    }</div>
+<div class="line"><span class="lineno">   52</span>    <span class="keywordflow">return</span> 3;</div>
+<div class="line"><span class="lineno">   53</span>}</div>
+<div class="ttc" id="aa00230_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa03698_html_a329c88a19bf7f6ee06251fb30b96aa80"><div class="ttname"><a href="../../d3/d94/a03698.html#a329c88a19bf7f6ee06251fb30b96aa80">HeiganPos</a></div><div class="ttdeci">const float HeiganPos[2]</div><div class="ttdef"><b>Definition:</b> instance_naxxramas.cpp:28</div></div>
+<div class="ttc" id="aa03698_html_afc813e25da4423b11b3f71a4c3434b43"><div class="ttname"><a href="../../d3/d94/a03698.html#afc813e25da4423b11b3f71a4c3434b43">HeiganEruptionSlope</a></div><div class="ttdeci">const float HeiganEruptionSlope[3]</div><div class="ttdef"><b>Definition:</b> instance_naxxramas.cpp:29</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00029">HeiganEruptionSlope</a>, and <a class="el" href="../../#l00028">HeiganPos</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00272">instance_naxxramas::instance_naxxramas_InstanceMapScript::OnGameObjectCreate()</a>, and <a class="el" href="../../#l00519">instance_naxxramas::instance_naxxramas_InstanceMapScript::OnGameObjectRemove()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a69c4a0ca4694d5ed1d42f0373dd5d80c" name="a69c4a0ca4694d5ed1d42f0373dd5d80c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69c4a0ca4694d5ed1d42f0373dd5d80c">&#9670;&#160;</a></span>doorData</h2>
+<a id="a412286b689bd324fedd65ddd8dde8afb" name="a412286b689bd324fedd65ddd8dde8afb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a412286b689bd324fedd65ddd8dde8afb">&#9670;&#160;</a></span>creatureData</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/d34/a09237.html">DoorData</a> const doorData[]</td>
+          <td class="memname"><a class="el" href="../../dc/d2f/a09315.html">ObjectData</a> const creatureData[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div>
 <div class="line">{</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#a213e9ce155baf17b6147afe6a069d54da089f33ffb46bc05ba1c96f5a35945ee2">GO_TELESTRA_SPHERE</a>,   <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#a31365a35c315c6cb485bcd31f5ba77fda6070c92aa13cfc41ea707f2e4f317c49">DATA_TELESTRA_ORB</a>,  <a class="code hl_enumvalue" href="../../de/d1a/a01559.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#a213e9ce155baf17b6147afe6a069d54da5cb804bef6d740c87c8d774813209b30">GO_ANOMALUS_SPHERE</a>,   <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#a31365a35c315c6cb485bcd31f5ba77fda7ca67e2df8f6c5ba3b64a58ffe838f79">DATA_ANOMALUS_ORB</a>,  <a class="code hl_enumvalue" href="../../de/d1a/a01559.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#a213e9ce155baf17b6147afe6a069d54daf5b0aa3e69e1cde75a96eea26041c666">GO_ORMOROK_SPHERE</a>,    <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#a31365a35c315c6cb485bcd31f5ba77fda04925ab93b3def016402fa3d6c763cb8">DATA_ORMOROK_ORB</a>,   <a class="code hl_enumvalue" href="../../de/d1a/a01559.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
-<div class="line">    { 0,                    0,                  <a class="code hl_enumvalue" href="../../de/d1a/a01559.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a>    }</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#aa89d980cc900334f663698b1c19a0418a941599f8a8dd37d1eae178d7982beba2">NPC_RAZUVIOUS</a>, <a class="code hl_enumvalue" href="../../d4/df9/a03701.html#a50b8d798ed90e15f1532f6d604c62740abce70f4b4bcd484f364735bed148af76">DATA_RAZUVIOUS</a> },</div>
+<div class="line">    { 0,             0              }</div>
 <div class="line">}</div>
-<div class="ttc" id="aa01559_html_ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70"><div class="ttname"><a href="../../de/d1a/a01559.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a></div><div class="ttdeci">@ DOOR_TYPE_ROOM</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:67</div></div>
-<div class="ttc" id="aa01559_html_ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905"><div class="ttname"><a href="../../de/d1a/a01559.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a></div><div class="ttdeci">@ DOOR_TYPE_PASSAGE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:68</div></div>
-<div class="ttc" id="aa03701_html_a213e9ce155baf17b6147afe6a069d54da089f33ffb46bc05ba1c96f5a35945ee2"><div class="ttname"><a href="../../d4/df9/a03701.html#a213e9ce155baf17b6147afe6a069d54da089f33ffb46bc05ba1c96f5a35945ee2">GO_TELESTRA_SPHERE</a></div><div class="ttdeci">@ GO_TELESTRA_SPHERE</div><div class="ttdef"><b>Definition:</b> nexus.h:60</div></div>
-<div class="ttc" id="aa03701_html_a213e9ce155baf17b6147afe6a069d54da5cb804bef6d740c87c8d774813209b30"><div class="ttname"><a href="../../d4/df9/a03701.html#a213e9ce155baf17b6147afe6a069d54da5cb804bef6d740c87c8d774813209b30">GO_ANOMALUS_SPHERE</a></div><div class="ttdeci">@ GO_ANOMALUS_SPHERE</div><div class="ttdef"><b>Definition:</b> nexus.h:61</div></div>
-<div class="ttc" id="aa03701_html_a213e9ce155baf17b6147afe6a069d54daf5b0aa3e69e1cde75a96eea26041c666"><div class="ttname"><a href="../../d4/df9/a03701.html#a213e9ce155baf17b6147afe6a069d54daf5b0aa3e69e1cde75a96eea26041c666">GO_ORMOROK_SPHERE</a></div><div class="ttdeci">@ GO_ORMOROK_SPHERE</div><div class="ttdef"><b>Definition:</b> nexus.h:62</div></div>
-<div class="ttc" id="aa03701_html_a31365a35c315c6cb485bcd31f5ba77fda04925ab93b3def016402fa3d6c763cb8"><div class="ttname"><a href="../../d4/df9/a03701.html#a31365a35c315c6cb485bcd31f5ba77fda04925ab93b3def016402fa3d6c763cb8">DATA_ORMOROK_ORB</a></div><div class="ttdeci">@ DATA_ORMOROK_ORB</div><div class="ttdef"><b>Definition:</b> nexus.h:42</div></div>
-<div class="ttc" id="aa03701_html_a31365a35c315c6cb485bcd31f5ba77fda6070c92aa13cfc41ea707f2e4f317c49"><div class="ttname"><a href="../../d4/df9/a03701.html#a31365a35c315c6cb485bcd31f5ba77fda6070c92aa13cfc41ea707f2e4f317c49">DATA_TELESTRA_ORB</a></div><div class="ttdeci">@ DATA_TELESTRA_ORB</div><div class="ttdef"><b>Definition:</b> nexus.h:40</div></div>
-<div class="ttc" id="aa03701_html_a31365a35c315c6cb485bcd31f5ba77fda7ca67e2df8f6c5ba3b64a58ffe838f79"><div class="ttname"><a href="../../d4/df9/a03701.html#a31365a35c315c6cb485bcd31f5ba77fda7ca67e2df8f6c5ba3b64a58ffe838f79">DATA_ANOMALUS_ORB</a></div><div class="ttdeci">@ DATA_ANOMALUS_ORB</div><div class="ttdef"><b>Definition:</b> nexus.h:41</div></div>
+<div class="ttc" id="aa03701_html_a50b8d798ed90e15f1532f6d604c62740abce70f4b4bcd484f364735bed148af76"><div class="ttname"><a href="../../d4/df9/a03701.html#a50b8d798ed90e15f1532f6d604c62740abce70f4b4bcd484f364735bed148af76">DATA_RAZUVIOUS</a></div><div class="ttdeci">@ DATA_RAZUVIOUS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:60</div></div>
+<div class="ttc" id="aa03701_html_aa89d980cc900334f663698b1c19a0418a941599f8a8dd37d1eae178d7982beba2"><div class="ttname"><a href="../../d4/df9/a03701.html#aa89d980cc900334f663698b1c19a0418a941599f8a8dd37d1eae178d7982beba2">NPC_RAZUVIOUS</a></div><div class="ttdeci">@ NPC_RAZUVIOUS</div><div class="ttdef"><b>Definition:</b> naxxramas.h:141</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00045">instance_nexus::instance_nexus_InstanceMapScript::Initialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00078">instance_naxxramas::instance_naxxramas_InstanceMapScript::instance_naxxramas_InstanceMapScript()</a>.</p>
+
+</div>
+</div>
+<a id="a1461582839e3b7fdbb7397e5d2086e31" name="a1461582839e3b7fdbb7397e5d2086e31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1461582839e3b7fdbb7397e5d2086e31">&#9670;&#160;</a></span>gameObjectData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d2f/a09315.html">ObjectData</a> const gameObjectData[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    { 0,             0              }</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00078">instance_naxxramas::instance_naxxramas_InstanceMapScript::instance_naxxramas_InstanceMapScript()</a>.</p>
+
+</div>
+</div>
+<a id="afc813e25da4423b11b3f71a4c3434b43" name="afc813e25da4423b11b3f71a4c3434b43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc813e25da4423b11b3f71a4c3434b43">&#9670;&#160;</a></span>HeiganEruptionSlope</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float HeiganEruptionSlope[3]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    (-3685 - <a class="code hl_variable" href="../../d3/d94/a03698.html#a329c88a19bf7f6ee06251fb30b96aa80">HeiganPos</a>[1]) / (2724 - <a class="code hl_variable" href="../../d3/d94/a03698.html#a329c88a19bf7f6ee06251fb30b96aa80">HeiganPos</a>[0]),</div>
+<div class="line">    (-3647 - <a class="code hl_variable" href="../../d3/d94/a03698.html#a329c88a19bf7f6ee06251fb30b96aa80">HeiganPos</a>[1]) / (2749 - <a class="code hl_variable" href="../../d3/d94/a03698.html#a329c88a19bf7f6ee06251fb30b96aa80">HeiganPos</a>[0]),</div>
+<div class="line">    (-3637 - <a class="code hl_variable" href="../../d3/d94/a03698.html#a329c88a19bf7f6ee06251fb30b96aa80">HeiganPos</a>[1]) / (2771 - <a class="code hl_variable" href="../../d3/d94/a03698.html#a329c88a19bf7f6ee06251fb30b96aa80">HeiganPos</a>[0]),</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00036">GetEruptionSection()</a>.</p>
+
+</div>
+</div>
+<a id="a329c88a19bf7f6ee06251fb30b96aa80" name="a329c88a19bf7f6ee06251fb30b96aa80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a329c88a19bf7f6ee06251fb30b96aa80">&#9670;&#160;</a></span>HeiganPos</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float HeiganPos[2] = {2796, -3707}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00036">GetEruptionSection()</a>.</p>
+
+</div>
+</div>
+<a id="a11d995fa7a0e4c0af781d298ab2ce3a7" name="a11d995fa7a0e4c0af781d298ab2ce3a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11d995fa7a0e4c0af781d298ab2ce3a7">&#9670;&#160;</a></span>sapphironEntryTP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d9/d1e/a08191.html">Position</a> sapphironEntryTP = { 3498.300049f, -5349.490234f, 144.968002f, 1.3698910f }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l01215">at_naxxramas_hub_portal::OnTrigger()</a>.</p>
 
 </div>
 </div>
@@ -254,8 +348,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_894f64e3d0ac49d64247f786b5df4c8d.html">Nexus</a></li><li class="navelem"><a class="el" href="../../dir_67569fff8f49486bdc25905120705d3b.html">Nexus</a></li><li class="navelem"><a class="el" href="../../d3/d94/a03698.html">instance_nexus.cpp</a></li>
-    <li class="footer">Generated on Wed Dec 6 2023 22:12:21 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_d398bc29d4ac2bbbb9d86fcdd4564fe5.html">Naxxramas</a></li><li class="navelem"><a class="el" href="../../d3/d94/a03698.html">instance_naxxramas.cpp</a></li>
+    <li class="footer">Generated on Sat Aug 24 2024 20:27:53 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

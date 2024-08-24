@@ -1,9 +1,15 @@
 var a04520 =
 [
-    [ "PermissibleOrderPred", "dd/d35/a05897.html", "dd/d35/a05897" ],
-    [ "GetPermitFor", "d3/d83/a04520.html#aaf9c138ae6c123d03859db553a39892d", null ],
-    [ "SelectAI", "d3/d83/a04520.html#a10fef1ff3335f4642179ee423b1ff0d6", null ],
-    [ "SelectFactory", "d3/d83/a04520.html#ad553c2186f078e696768d40d217738f8", null ],
-    [ "SelectGameObjectAI", "d3/d83/a04520.html#a2ce404e9b85f551638d8783c01a19860", null ],
-    [ "SelectMovementGenerator", "d3/d83/a04520.html#a203d17bf72c42c0d3fdb77626b01b679", null ]
+    [ "Socket< T >", "de/d94/a28339.html", "de/d94/a28339" ],
+    [ "READ_BLOCK_SIZE", "d3/d83/a04520.html#a16ba013af02b9d4400b5e47d8daa022b", null ],
+    [ "ProxyHeaderAddressFamilyAndProtocol", "d3/d83/a04520.html#a7ddce6d0420753babeb6258ada50eec1", [
+      [ "PROXY_HEADER_ADDRESS_FAMILY_AND_PROTOCOL_TCP_V4", "d3/d83/a04520.html#a7ddce6d0420753babeb6258ada50eec1a9d87d0a8da10465b32fd9a322c2a8575", null ],
+      [ "PROXY_HEADER_ADDRESS_FAMILY_AND_PROTOCOL_TCP_V6", "d3/d83/a04520.html#a7ddce6d0420753babeb6258ada50eec1a5b0f57dac80a77ad98bc0d371a22f699", null ]
+    ] ],
+    [ "ProxyHeaderReadingState", "d3/d83/a04520.html#aa514bb66fa404b5b180297bb005c3272", [
+      [ "PROXY_HEADER_READING_STATE_NOT_STARTED", "d3/d83/a04520.html#aa514bb66fa404b5b180297bb005c3272a0bd44a601a6d6745f442535a457fc67c", null ],
+      [ "PROXY_HEADER_READING_STATE_STARTED", "d3/d83/a04520.html#aa514bb66fa404b5b180297bb005c3272a6b5e85386b6638d1a72fa2520f355c98", null ],
+      [ "PROXY_HEADER_READING_STATE_FINISHED", "d3/d83/a04520.html#aa514bb66fa404b5b180297bb005c3272a2898c80db946e4ae677297c1954470fb", null ],
+      [ "PROXY_HEADER_READING_STATE_FAILED", "d3/d83/a04520.html#aa514bb66fa404b5b180297bb005c3272a7a96033158689ba0590a86245f58922f", null ]
+    ] ]
 ];

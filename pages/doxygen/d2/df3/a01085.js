@@ -2,6 +2,7 @@ var a01085 =
 [
     [ "MapDifficultyMap", "d2/df3/a01085.html#ab308ce9e8dcedd62a833c94bd529dba2", null ],
     [ "SimpleFactionsList", "d2/df3/a01085.html#a1eb137e3fb7e38599557bf7ce7c8a981", null ],
+    [ "SkillLineAbilityIndexBySkillLine", "d2/df3/a01085.html#a7310e7ca73ddb97a809bce03e33cc38d", null ],
     [ "SkillRaceClassInfoBounds", "d2/df3/a01085.html#aa89da0f3bfcec6a8e8d8f702fd23ed39", null ],
     [ "SkillRaceClassInfoMap", "d2/df3/a01085.html#a7fe8bbd11c3e4c484997cfe5c5f137c8", null ],
     [ "ContentLevels", "d2/df3/a01085.html#adb4039320bbc363da97cee8d73c6cae3", [
@@ -20,6 +21,7 @@ var a01085 =
     [ "GetLiquidFlags", "d2/df3/a01085.html#a60ccc706663a742ab1d59698f00be5fd", null ],
     [ "GetMapDifficultyData", "d2/df3/a01085.html#a70a19d9511735cce2e1200aa9d695137", null ],
     [ "GetPetName", "d2/df3/a01085.html#a3633181efb030254fb5a5c6779239e85", null ],
+    [ "GetSkillLineAbilitiesBySkillLine", "d2/df3/a01085.html#a2aeaf8baea1aaf85ca9fe37004e531f3", null ],
     [ "GetSkillRaceClassInfo", "d2/df3/a01085.html#a10e6eae9259492fc3d02e034b6538583", null ],
     [ "GetTalentSpellCost", "d2/df3/a01085.html#a67c1970c378a0fdf0489c1d376d7c388", null ],
     [ "GetTalentSpellPos", "d2/df3/a01085.html#a54a2fd7b69755d6c98273a1169cf42ac", null ],
@@ -111,6 +113,7 @@ var a01085 =
     [ "sRandomPropertiesPointsStore", "d2/df3/a01085.html#a85af1e3c817d4a705f720608a9f33f7e", null ],
     [ "sScalingStatDistributionStore", "d2/df3/a01085.html#a9907247fa9853f26a90afb7c86cfdc70", null ],
     [ "sScalingStatValuesStore", "d2/df3/a01085.html#a1b0d29aae491efb8ada5ae931d7a968b", null ],
+    [ "sSkillLineAbilityIndexBySkillLine", "d2/df3/a01085.html#a24adf55f193f8eb56072886ef306dd7b", null ],
     [ "sSkillLineAbilityStore", "d2/df3/a01085.html#a37d93aff3381dc01690b012d9ba1dc3c", null ],
     [ "sSkillLineStore", "d2/df3/a01085.html#ace7930a262ef76b4cc7119616a3da108", null ],
     [ "sSkillTiersStore", "d2/df3/a01085.html#aa57995df6e9ddb569da6512bc452116f", null ],
@@ -126,7 +129,7 @@ var a01085 =
     [ "sSpellRangeStore", "d2/df3/a01085.html#a8335993d5457486bef9b7754da98a0e7", null ],
     [ "sSpellRuneCostStore", "d2/df3/a01085.html#a2d7fd7538dc4d37ee5830fd0d8d92f2a", null ],
     [ "sSpellsByCategoryStore", "d2/df3/a01085.html#a357be1b6485b6d254d478dc333999ac5", null ],
-    [ "sSpellShapeshiftStore", "d2/df3/a01085.html#a08c3b3a608b58f188c71688bed66f16e", null ],
+    [ "sSpellShapeshiftFormStore", "d2/df3/a01085.html#a7a46cdf97ec2682ecadac60a83be479d", null ],
     [ "sSpellStore", "d2/df3/a01085.html#a1ec062af8e28d0a2f82d9b1e73fd80e4", null ],
     [ "sSpellVisualStore", "d2/df3/a01085.html#a07db9078d2ad7d5e932e0f41c61bc71e", null ],
     [ "sStableSlotPricesStore", "d2/df3/a01085.html#a5d5226b5c0e2b60f76f632dc77c3b8c2", null ],

@@ -1,7 +1,7 @@
 var a01196 =
 [
-    [ "ItemSetEffect", "d1/d26/a08009.html", "d1/d26/a08009" ],
-    [ "Item", "dd/d9e/a08013.html", "dd/d9e/a08013" ],
+    [ "ItemSetEffect", "d1/d76/a08067.html", "d1/d76/a08067" ],
+    [ "Item", "d6/d72/a08071.html", "d6/d72/a08071" ],
     [ "MAX_ENCHANTMENT_OFFSET", "d2/d22/a01196.html#a468d419c5aa228b6604358f9af3f15c6", null ],
     [ "MAX_GEM_SOCKETS", "d2/d22/a01196.html#a3561178c2cb0c7f26665f84ea7f69843", null ],
     [ "MAX_ITEM_SPELLS", "d2/d22/a01196.html#a49f24aab76debb803797ffeeaec168e6", null ],
@@ -133,6 +133,10 @@ var a01196 =
       [ "EQUIP_ERR_PURCHASE_LEVEL_TOO_LOW", "d2/d22/a01196.html#a240a18445bd2335a1829e130126f20faa82fa7a28040b6cf50ae223a38b69e064", null ],
       [ "EQUIP_ERR_CANT_EQUIP_NEED_TALENT", "d2/d22/a01196.html#a240a18445bd2335a1829e130126f20faa7b8f2c491d7cee98e122b36b53a07c57", null ],
       [ "EQUIP_ERR_ITEM_MAX_LIMIT_CATEGORY_EQUIPPED_EXCEEDED", "d2/d22/a01196.html#a240a18445bd2335a1829e130126f20faa066ef6388b6ad01d0e890065cd12a069", null ]
+    ] ],
+    [ "InventorySlot", "d2/d22/a01196.html#aadcc1e3338f8cbbe511ad060db42dfb5", [
+      [ "NULL_BAG", "d2/d22/a01196.html#aadcc1e3338f8cbbe511ad060db42dfb5a843659af0a40139bfa505d7e7982477b", null ],
+      [ "NULL_SLOT", "d2/d22/a01196.html#aadcc1e3338f8cbbe511ad060db42dfb5aeb5cbd7990d2f5e679ec4ecc65e83130", null ]
     ] ],
     [ "ItemUpdateState", "d2/d22/a01196.html#a744ce838494e4dc6eb5f123b9a38bd04", [
       [ "ITEM_UNCHANGED", "d2/d22/a01196.html#a744ce838494e4dc6eb5f123b9a38bd04aa18942b26c4c175b16401bd70306389c", null ],

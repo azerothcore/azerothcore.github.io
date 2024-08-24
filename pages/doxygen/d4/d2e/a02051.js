@@ -1,4 +1,4 @@
 var a02051 =
 [
-    [ "ScriptRegistry< OutdoorPvPScript >", "d4/d2e/a02051.html#a87dac516981f5c502b37a0500f6f7882", null ]
+    [ "ScriptRegistry< ModuleScript >", "d4/d2e/a02051.html#a7749cbcc2b6820dc30c515ebb6cefe36", null ]
 ];

@@ -1,5 +1,5 @@
 var a02483 =
 [
-    [ "guild_commandscript", "d7/d23/a11265.html", "d7/d23/a11265" ],
-    [ "AddSC_guild_commandscript", "d3/de3/a02483.html#af4f585942ab79df7bff025b621beef86", null ]
+    [ "gm_commandscript", "d1/de3/a11315.html", "d1/de3/a11315" ],
+    [ "AddSC_gm_commandscript", "d3/de3/a02483.html#a65c7b128fdf4dd9807ef514c24918e7b", null ]
 ];

@@ -1,4 +1,4 @@
 var a01271 =
 [
-    [ "KillRewarder", "db/d85/a08185.html", "db/d85/a08185" ]
+    [ "KillRewarder", "dd/da9/a08243.html", "dd/da9/a08243" ]
 ];

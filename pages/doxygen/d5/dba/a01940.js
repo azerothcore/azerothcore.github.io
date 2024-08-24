@@ -1,4 +1,4 @@
 var a01940 =
 [
-    [ "ScriptRegistry< CommandScript >", "d5/dba/a01940.html#a2d714ec85ac23255244ecf61e4f48244", null ]
+    [ "ScriptRegistry< BattlegroundMapScript >", "d5/dba/a01940.html#a79e6d39d74f9bbf97afe75113cd4db80", null ]
 ];

@@ -1,48 +1,35 @@
 var a03221 =
 [
-    [ "DataHeader", "d1/da3/a03221.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "OnyxiasLairScriptName", "d1/da3/a03221.html#a411397a87d359be66de671f07dbefefe", null ],
-    [ "RegisterOnyxiasLairCreatureAI", "d1/da3/a03221.html#a4becd56438e0f64fd4e609bda9b542a4", null ],
-    [ "eAchievementData", "d1/da3/a03221.html#aca087c1cb2fbca0c938185dd321856c4", [
-      [ "ACHIEV_CRITERIA_MANY_WHELPS_10_PLAYER", "d1/da3/a03221.html#aca087c1cb2fbca0c938185dd321856c4a57918d5eb6d9b6dad01b98eec717c611", null ],
-      [ "ACHIEV_CRITERIA_MANY_WHELPS_25_PLAYER", "d1/da3/a03221.html#aca087c1cb2fbca0c938185dd321856c4ab4cb5a7391642e00f98bf8c4feca4931", null ],
-      [ "ACHIEV_CRITERIA_DEEP_BREATH_10_PLAYER", "d1/da3/a03221.html#aca087c1cb2fbca0c938185dd321856c4a7d5dc918b0b3edc2fc3863242904bb22", null ],
-      [ "ACHIEV_CRITERIA_DEEP_BREATH_25_PLAYER", "d1/da3/a03221.html#aca087c1cb2fbca0c938185dd321856c4a7c0f8695a55dfedf6c942dead4b86bb9", null ],
-      [ "ACHIEV_TIMED_START_EVENT", "d1/da3/a03221.html#aca087c1cb2fbca0c938185dd321856c4a6ac3776ff6343c84361329e38055da04", null ]
+    [ "NpcRunToHome", "db/d91/a14671.html", "db/d91/a14671" ],
+    [ "npc_medivh_bm", "d0/de8/a14675.html", "d0/de8/a14675" ],
+    [ "npc_time_rift", "d9/d93/a14679.html", "d9/d93/a14679" ],
+    [ "npc_black_morass_summoned_add", "d7/d4a/a14683.html", "d7/d4a/a14683" ],
+    [ "spell_black_morass_corrupt_medivh", "db/da4/a14687.html", "db/da4/a14687" ],
+    [ "medivhMisc", "d1/da3/a03221.html#a7d484fa8ee0c999014d29246b9ebffb3", [
+      [ "NPC_SHADOW_COUNCIL_ENFORCER", "d1/da3/a03221.html#a7d484fa8ee0c999014d29246b9ebffb3a6f4bccf9e53aef576344b1521c24e411", null ],
+      [ "GO_DARK_PORTAL", "d1/da3/a03221.html#a7d484fa8ee0c999014d29246b9ebffb3a34fd16f7266bcf80297889c35fe880c3", null ],
+      [ "EVENT_CHECK_HEALTH_25", "d1/da3/a03221.html#a7d484fa8ee0c999014d29246b9ebffb3ab4c8308b4dc44a86daf5ee851c990687", null ],
+      [ "EVENT_CHECK_HEALTH_50", "d1/da3/a03221.html#a7d484fa8ee0c999014d29246b9ebffb3a279f4abf2411c8e70eb459d7644bc65b", null ],
+      [ "EVENT_CHECK_HEALTH_75", "d1/da3/a03221.html#a7d484fa8ee0c999014d29246b9ebffb3a80f173b323e09c2480f3e15dbf3cf191", null ],
+      [ "EVENT_SUMMON_CRYSTAL", "d1/da3/a03221.html#a7d484fa8ee0c999014d29246b9ebffb3a83aaa8976010cea5ab359229b71d206b", null ],
+      [ "EVENT_SUMMON_FLYING_CRYSTAL", "d1/da3/a03221.html#a7d484fa8ee0c999014d29246b9ebffb3a087df17dd123dd098bd6effa3cac4adf", null ],
+      [ "EVENT_OUTRO_1", "d1/da3/a03221.html#a7d484fa8ee0c999014d29246b9ebffb3acb340c9de3b567d6e1f1e9e5b90ec90d", null ],
+      [ "EVENT_OUTRO_2", "d1/da3/a03221.html#a7d484fa8ee0c999014d29246b9ebffb3a20c3614363fa241f02fede94adfb3ae6", null ],
+      [ "EVENT_OUTRO_3", "d1/da3/a03221.html#a7d484fa8ee0c999014d29246b9ebffb3a267ae47905d29e505c96215636419e87", null ],
+      [ "EVENT_OUTRO_4", "d1/da3/a03221.html#a7d484fa8ee0c999014d29246b9ebffb3afaefee2aa96b9039635b6a80708a82da", null ],
+      [ "EVENT_OUTRO_5", "d1/da3/a03221.html#a7d484fa8ee0c999014d29246b9ebffb3a5e30e089c85fc4c0318c390d70997e32", null ],
+      [ "EVENT_OUTRO_6", "d1/da3/a03221.html#a7d484fa8ee0c999014d29246b9ebffb3a99f13835f6b2a5a4e44cd837c0a44680", null ],
+      [ "EVENT_OUTRO_7", "d1/da3/a03221.html#a7d484fa8ee0c999014d29246b9ebffb3a343360a691f406e01bb1372a17b5b2cc", null ],
+      [ "EVENT_OUTRO_8", "d1/da3/a03221.html#a7d484fa8ee0c999014d29246b9ebffb3a6697031d7959ad49f58bffe18fb91611", null ]
     ] ],
-    [ "eCreatures", "d1/da3/a03221.html#a59602e8f26d052c0b6f6bdfe896510b8", [
-      [ "NPC_ONYXIA", "d1/da3/a03221.html#a59602e8f26d052c0b6f6bdfe896510b8ac5297157e46436388d2a4e835c06de6e", null ],
-      [ "NPC_ONYXIAN_WHELP", "d1/da3/a03221.html#a59602e8f26d052c0b6f6bdfe896510b8a29f399e186a17314b99be364d738371a", null ],
-      [ "NPC_ONYXIAN_LAIR_GUARD", "d1/da3/a03221.html#a59602e8f26d052c0b6f6bdfe896510b8ac5a305bf78c6e737c665da793df48e49", null ],
-      [ "NPC_KELESETH", "d5/de2/a03830.html#a59602e8f26d052c0b6f6bdfe896510b8a1aa34e102fe5c920939fbbed64fd3bdd", null ],
-      [ "NPC_DALRONN", "d5/de2/a03830.html#a59602e8f26d052c0b6f6bdfe896510b8adc8eb044588758e3cfb4ed8c699e483d", null ],
-      [ "NPC_DALRONN_GHOST", "d5/de2/a03830.html#a59602e8f26d052c0b6f6bdfe896510b8ad6b59b3f0fa1841b3dbce49b32ce88f7", null ],
-      [ "NPC_SKARVALD", "d5/de2/a03830.html#a59602e8f26d052c0b6f6bdfe896510b8a531d439e3ed6f40d45aaf591d93722af", null ],
-      [ "NPC_SKARVALD_GHOST", "d5/de2/a03830.html#a59602e8f26d052c0b6f6bdfe896510b8aa4eafbdfd4632f9b207feb03c1c9906e", null ],
-      [ "NPC_INGVAR", "d5/de2/a03830.html#a59602e8f26d052c0b6f6bdfe896510b8aa8071c2550f86111dabfe071bb8905ec", null ],
-      [ "NPC_DARK_RANGER_MARRAH", "d5/de2/a03830.html#a59602e8f26d052c0b6f6bdfe896510b8a629c86c326a68aa9c57e75b658644e27", null ],
-      [ "NPC_ENSLAVED_PROTO_DRAKE", "d5/de2/a03830.html#a59602e8f26d052c0b6f6bdfe896510b8ab4269b45260da78a67bfdab9a95d8c2c", null ],
-      [ "NPC_ICHOR_GLOBULE", "d0/d60/a03878.html#a59602e8f26d052c0b6f6bdfe896510b8a5c39abb26566ef9fb1e3afe0cecc9762", null ]
+    [ "timeRift", "d1/da3/a03221.html#a88ef578bedf8b5cbdefba9b27f2566b3", [
+      [ "EVENT_SUMMON_AT_RIFT", "d1/da3/a03221.html#a88ef578bedf8b5cbdefba9b27f2566b3ad3b69472cb7814dc0d55baa46caef4e2", null ],
+      [ "EVENT_CHECK_DEATH", "d1/da3/a03221.html#a88ef578bedf8b5cbdefba9b27f2566b3a7001385aaa3b09d1fd905da6dce0bd7b", null ],
+      [ "EVENT_SUMMON_BOSS", "d1/da3/a03221.html#a88ef578bedf8b5cbdefba9b27f2566b3aa50dbf77d563d2fa849566efb87feb60", null ],
+      [ "SAY_RIFT_MOB_SUMMONED", "d1/da3/a03221.html#a88ef578bedf8b5cbdefba9b27f2566b3a060162f05198bbed56abe4eb9781b2ec", null ]
     ] ],
-    [ "eGameObjects", "d1/da3/a03221.html#a0b356f44d43edb1bff30f404c9469250", [
-      [ "GO_WHELP_SPAWNER", "d1/da3/a03221.html#a0b356f44d43edb1bff30f404c9469250adf4548283b784850a8154cefa0fd360d", null ],
-      [ "GO_WHELP_EGG", "d1/da3/a03221.html#a0b356f44d43edb1bff30f404c9469250a4695e1a78b0f6094399a19023996f851", null ],
-      [ "GO_MAIN_GATE", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250af7f4bfc022fbae9247e3389c3e755e0b", null ],
-      [ "GO_SOUTH_PORTCULLIS", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250a5ebaf585ae3da6d909256800aebebbfc", null ],
-      [ "GO_EAST_PORTCULLIS", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250a8a57a3fcd514b7a621e04ae73c2647c9", null ],
-      [ "GO_NORTH_PORTCULLIS", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250af8f7a209e9b9e0909610ffbcb8fe94ca", null ],
-      [ "GO_CHAMPIONS_LOOT", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250af347b8590e6d6688cd7cd8a901a01839", null ],
-      [ "GO_CHAMPIONS_LOOT_H", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250a911cbac98e241072502109aef1a58966", null ],
-      [ "GO_EADRIC_LOOT", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250ad29f747e71326720660778477708682f", null ],
-      [ "GO_EADRIC_LOOT_H", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250afec277328734b29a227e6942dcc303e1", null ],
-      [ "GO_PALETRESS_LOOT", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250a22dab9e0abcb8bbe36c42b492a6ae6b1", null ],
-      [ "GO_PALETRESS_LOOT_H", "d8/d01/a03458.html#a0b356f44d43edb1bff30f404c9469250a558835744936913cd5345f9435739ee0", null ]
-    ] ],
-    [ "eInstanceData", "d1/da3/a03221.html#a7395e25d8049b2c60a1c7191d197f5cc", [
-      [ "DATA_ONYXIA", "d1/da3/a03221.html#a7395e25d8049b2c60a1c7191d197f5cca8fddf4be448f687691188b276d390817", null ],
-      [ "MAX_ENCOUNTER", "d1/da3/a03221.html#a7395e25d8049b2c60a1c7191d197f5cca7913656ef56deb3793c0c5f3d999d80d", null ],
-      [ "DATA_WHELP_SUMMONED", "d1/da3/a03221.html#a7395e25d8049b2c60a1c7191d197f5cca620ba8d85c596c11f1df0132b0117fbc", null ],
-      [ "DATA_DEEP_BREATH_FAILED", "d1/da3/a03221.html#a7395e25d8049b2c60a1c7191d197f5cca3678a84e6e3ed1c831e230a816a5475d", null ]
-    ] ],
-    [ "GetOnyxiasLairAI", "d1/da3/a03221.html#a3573a392c09a4df350f96df672ce58ad", null ]
+    [ "AddSC_the_black_morass", "d1/da3/a03221.html#a40d83565d4b54b30e895e0b76768246b", null ],
+    [ "firstWave", "d1/da3/a03221.html#a60bd1cccea53e743620a4b2f0e9b1f8b", null ],
+    [ "secondWave", "d1/da3/a03221.html#ab5bc0c48fcfe78d0b75a06c16fdc5353", null ],
+    [ "thirdWave", "d1/da3/a03221.html#adb16e5a74a0d80b396b60d986cc49d4d", null ]
 ];

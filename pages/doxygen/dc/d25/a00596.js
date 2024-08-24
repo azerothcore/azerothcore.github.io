@@ -1,6 +1,6 @@
 var a00596 =
 [
-    [ "CharacterDatabaseConnection", "d3/d99/a05585.html", "d3/d99/a05585" ],
+    [ "CharacterDatabaseConnection", "da/d5c/a05615.html", "da/d5c/a05615" ],
     [ "CharacterDatabaseStatements", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7", [
       [ "CHAR_DEL_QUEST_POOL_SAVE", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7a494e95a33cf6fd5a044ae914d78eba5f", null ],
       [ "CHAR_INS_QUEST_POOL_SAVE", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7ad81f4bf1ca36a95f1881b582d1a52f08", null ],
@@ -454,7 +454,6 @@ var a00596 =
       [ "CHAR_REP_CHAR_SETTINGS", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7a0ab5f8934f7b51c9b64a20e368a1377f", null ],
       [ "CHAR_DEL_CHAR_SETTINGS", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7adead76ab7b77ee7099301f41251135c7", null ],
       [ "CHAR_SELECT_INSTANCE_SAVED_DATA", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7a85a3f4d307725f1ca10691ea34aafb78", null ],
-      [ "CHAR_UPDATE_INSTANCE_SAVED_DATA", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7a27fa4a27f201c4c96814ce869593aeae", null ],
       [ "CHAR_INSERT_INSTANCE_SAVED_DATA", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7a0e46eabbb50ba928644817de9e62bf8d", null ],
       [ "CHAR_DELETE_INSTANCE_SAVED_DATA", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7aa3faf0022028536a77494b592b73e0a6", null ],
       [ "CHAR_SANITIZE_INSTANCE_SAVED_DATA", "dc/d25/a00596.html#a76116b4fa282d8e35bf8f8e940b5cba7af587971999e37249714f8e2fc2bb71d7", null ],

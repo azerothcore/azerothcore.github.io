@@ -1,5 +1,7 @@
 var a02300 =
 [
-    [ "DispelList", "d1/d47/a02300.html#a711d5a2b2f8cbeb49153d9e33ea51bf1", null ],
-    [ "SpellEffects", "d1/d47/a02300.html#a294b5954f08aebdafe9e5a6f00e2dc82", null ]
+    [ "AuraApplication", "d7/dfd/a10759.html", "d7/dfd/a10759" ],
+    [ "Aura", "d9/ded/a10763.html", "d9/ded/a10763" ],
+    [ "UnitAura", "dd/d77/a10767.html", "dd/d77/a10767" ],
+    [ "DynObjAura", "d9/d35/a10771.html", "d9/d35/a10771" ]
 ];

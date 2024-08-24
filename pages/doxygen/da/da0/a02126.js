@@ -1,6 +1,12 @@
 var a02126 =
 [
-    [ "ScriptMgr", "db/d97/a10045.html", "db/d97/a10045" ],
-    [ "ScriptRegistry< TScript >", "d8/d45/a10049.html", "d8/d45/a10049" ],
-    [ "sScriptMgr", "da/da0/a02126.html#ae8161e629869974bc49b1cbfc73c1087", null ]
+    [ "WorldObjectScript", "d1/dd1/a10103.html", "d1/dd1/a10103" ],
+    [ "WorldObjectHook", "da/da0/a02126.html#ab8a14556853bd2637a19973d68ba6d1c", [
+      [ "WORLDOBJECTHOOK_ON_WORLD_OBJECT_DESTROY", "da/da0/a02126.html#ab8a14556853bd2637a19973d68ba6d1ca19911e8e8d81b83808647214673201ce", null ],
+      [ "WORLDOBJECTHOOK_ON_WORLD_OBJECT_CREATE", "da/da0/a02126.html#ab8a14556853bd2637a19973d68ba6d1caa4f7a14c3e5de3e6ace4c9a4bacc656c", null ],
+      [ "WORLDOBJECTHOOK_ON_WORLD_OBJECT_SET_MAP", "da/da0/a02126.html#ab8a14556853bd2637a19973d68ba6d1ca06f900f1b11de87d54d283b4433d5100", null ],
+      [ "WORLDOBJECTHOOK_ON_WORLD_OBJECT_RESET_MAP", "da/da0/a02126.html#ab8a14556853bd2637a19973d68ba6d1cac1f7c2d5eb2a8755ef8e628c8c769241", null ],
+      [ "WORLDOBJECTHOOK_ON_WORLD_OBJECT_UPDATE", "da/da0/a02126.html#ab8a14556853bd2637a19973d68ba6d1ca7fcc241c6d7db7844d86f1d88fb06144", null ],
+      [ "WORLDOBJECTHOOK_END", "da/da0/a02126.html#ab8a14556853bd2637a19973d68ba6d1ca4efa80e98b34555980ec0b06142a4c59", null ]
+    ] ]
 ];

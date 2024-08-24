@@ -1,4 +1,4 @@
 var a02000 =
 [
-    [ "ScriptRegistry< GroupScript >", "da/d51/a02000.html#a6ad2435b6116a997a5bacd47b955d688", null ]
+    [ "ScriptRegistry< GameObjectScript >", "da/d51/a02000.html#ae9014c60529a1387cccce404773fd736", null ]
 ];

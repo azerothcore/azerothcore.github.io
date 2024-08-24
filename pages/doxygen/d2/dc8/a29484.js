@@ -1,7 +1,7 @@
 var a29484 =
 [
-    [ "npc_riggle_bassbaitAI", "d2/dc8/a29484.html#ad7a1a7a6f4c4ebb7ab93878ebb3a9a5b", null ],
-    [ "CheckTournamentState", "d2/dc8/a29484.html#aa7b4393b93be92fbb595648cede832be", null ],
-    [ "UpdateAI", "d2/dc8/a29484.html#ad0fca96e2c770ef179d98dcdd9aaca6e", null ],
-    [ "m_uiTimer", "d2/dc8/a29484.html#aec45a971a5b7aa574e905e9a2338fe90", null ]
+    [ "u_map_fcc", "d4/d32/a28511.html", "d4/d32/a28511" ],
+    [ "file_MVER", "de/d70/a28515.html", "de/d70/a28515" ],
+    [ "FileLoader", "da/dad/a28523.html", "da/dad/a28523" ],
+    [ "FILE_FORMAT_VERSION", "d2/dc8/a29484.html#a6fef47739ef9998b00a2523c98cb2315", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Impl::ChatCommands::ArgInfo&lt; std::string_view, void &gt; Struct Reference</title>
+<title>AzerothCore: Member List</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -79,7 +79,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('da/dba/a07076.html','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d9/d5b/a07079.html','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -105,81 +105,40 @@ $(document).ready(function(){initNavTree('da/dba/a07076.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="../../d4/db7/a07073.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Impl::ChatCommands::ArgInfo&lt; std::string_view, void &gt; Struct Reference</div></div>
+  <div class="headertitle"><div class="title">BGQueueRemoveEvent Member List</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">ChatCommandArgs.h</a>&quot;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a2b70efed48ab12a8924e4a815c7dbee6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../df/d04/a07152.html">ChatCommandResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dba/a07076.html#a2b70efed48ab12a8924e4a815c7dbee6">TryConsume</a> (std::string_view &amp;val, <a class="el" href="../../db/d56/a07000.html">ChatHandler</a> const *, std::string_view args)</td></tr>
-<tr class="separator:a2b70efed48ab12a8924e4a815c7dbee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2b70efed48ab12a8924e4a815c7dbee6" name="a2b70efed48ab12a8924e4a815c7dbee6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b70efed48ab12a8924e4a815c7dbee6">&#9670;&#160;</a></span>TryConsume()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="../../df/d04/a07152.html">ChatCommandResult</a> <a class="el" href="../../d8/d4c/a07068.html">Acore::Impl::ChatCommands::ArgInfo</a>&lt; std::string_view, void &gt;::TryConsume </td>
-          <td>(</td>
-          <td class="paramtype">std::string_view &amp;&#160;</td>
-          <td class="paramname"><em>val</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/d56/a07000.html">ChatHandler</a> const *&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   82</span>        {</div>
-<div class="line"><span class="lineno">   83</span>            <span class="keyword">auto</span> [token, next] = <a class="code hl_function" href="../../d4/d22/a04494.html#aeca95018e8d551d917cf69e0764ccef7">tokenize</a>(args);</div>
-<div class="line"><span class="lineno">   84</span>            <span class="keywordflow">if</span> (token.empty())</div>
-<div class="line"><span class="lineno">   85</span>                <span class="keywordflow">return</span> std::nullopt;</div>
-<div class="line"><span class="lineno">   86</span>            val = token;</div>
-<div class="line"><span class="lineno">   87</span>            <span class="keywordflow">return</span> next;</div>
-<div class="line"><span class="lineno">   88</span>        }</div>
-<div class="ttc" id="aa04494_html_aeca95018e8d551d917cf69e0764ccef7"><div class="ttname"><a href="../../d4/d22/a04494.html#aeca95018e8d551d917cf69e0764ccef7">Acore::Impl::ChatCommands::tokenize</a></div><div class="ttdeci">TokenizeResult tokenize(std::string_view args)</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:55</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00055">Acore::Impl::ChatCommands::tokenize()</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../d9/d5b/a07079.html">BGQueueRemoveEvent</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d5b/a07079.html#a7d1dc829e56398ad421cb53dd51e952e">Abort</a>(uint64 e_time) override</td><td class="entry"><a class="el" href="../../d9/d5b/a07079.html">BGQueueRemoveEvent</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d3/dea/a05363.html#a3f26f839ff35d80af2a8f885ca1a1554">AbortState</a> enum name</td><td class="entry"><a class="el" href="../../d3/dea/a05363.html">BasicEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/dea/a05363.html#a9c3cd17edab7fc410f88bb680d756975">BasicEvent</a>()=default</td><td class="entry"><a class="el" href="../../d3/dea/a05363.html">BasicEvent</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d9/d5b/a07079.html#ab751b728f64b2928eefb21f756539d81">BGQueueRemoveEvent</a>(ObjectGuid pl_guid, uint32 bgInstanceGUID, BattlegroundTypeId BgTypeId, BattlegroundQueueTypeId bgQueueTypeId, uint32 removeTime)</td><td class="entry"><a class="el" href="../../d9/d5b/a07079.html">BGQueueRemoveEvent</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d5b/a07079.html#a42482ff784da4b23b568888a74a0b531">Execute</a>(uint64 e_time, uint32 p_time) override</td><td class="entry"><a class="el" href="../../d9/d5b/a07079.html">BGQueueRemoveEvent</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d3/dea/a05363.html#a4b05df0749b6a18ef0e0b4137e727d7d">IsAborted</a>() const</td><td class="entry"><a class="el" href="../../d3/dea/a05363.html">BasicEvent</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/dea/a05363.html#a1ee71d72964b7124e8e137b02c81eac2">IsAbortScheduled</a>() const</td><td class="entry"><a class="el" href="../../d3/dea/a05363.html">BasicEvent</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d3/dea/a05363.html#a62c0483af9fd1885e779cf088a50eb02">IsDeletable</a>() const</td><td class="entry"><a class="el" href="../../d3/dea/a05363.html">BasicEvent</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/dea/a05363.html#aeb6eb1bb1c54f70d5e0f88cf4e462fc2">IsRunning</a>() const</td><td class="entry"><a class="el" href="../../d3/dea/a05363.html">BasicEvent</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d3/dea/a05363.html#afd9cf18b8a00c6195b9120f3fcf7ca69">m_abortState</a></td><td class="entry"><a class="el" href="../../d3/dea/a05363.html">BasicEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/dea/a05363.html#ac236835e6298588e834cde7a8c2bfece">m_addTime</a></td><td class="entry"><a class="el" href="../../d3/dea/a05363.html">BasicEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d9/d5b/a07079.html#a4732918e6d7c42dd068f5cb147a188fc">m_BgInstanceGUID</a></td><td class="entry"><a class="el" href="../../d9/d5b/a07079.html">BGQueueRemoveEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d5b/a07079.html#ac059a823ae49bd0250eec15845bf153b">m_BgQueueTypeId</a></td><td class="entry"><a class="el" href="../../d9/d5b/a07079.html">BGQueueRemoveEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d9/d5b/a07079.html#a8bc484087ef76d627d5ae912bc5de22c">m_BgTypeId</a></td><td class="entry"><a class="el" href="../../d9/d5b/a07079.html">BGQueueRemoveEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/dea/a05363.html#a2ee03f01e03347d04eb38a215d10f036">m_eventGroup</a></td><td class="entry"><a class="el" href="../../d3/dea/a05363.html">BasicEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d3/dea/a05363.html#afbd8d5728992e7676fde628fc03dc588">m_execTime</a></td><td class="entry"><a class="el" href="../../d3/dea/a05363.html">BasicEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d5b/a07079.html#a9a1e2c09896b4d7521954d810e7193cc">m_PlayerGuid</a></td><td class="entry"><a class="el" href="../../d9/d5b/a07079.html">BGQueueRemoveEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d9/d5b/a07079.html#a0c40a46749bff9caaf1a462d7bef701e">m_RemoveTime</a></td><td class="entry"><a class="el" href="../../d9/d5b/a07079.html">BGQueueRemoveEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/dea/a05363.html#afafade0729f08b8f1193a66f50c18348">ScheduleAbort</a>()</td><td class="entry"><a class="el" href="../../d3/dea/a05363.html">BasicEvent</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d3/dea/a05363.html#a9224c2878bff4f6df28bedb973be2d27">SetAborted</a>()</td><td class="entry"><a class="el" href="../../d3/dea/a05363.html">BasicEvent</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/dea/a05363.html#a0c3860e1c8854c2db20a225944792afd">~BasicEvent</a>()=default</td><td class="entry"><a class="el" href="../../d3/dea/a05363.html">BasicEvent</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d9/d5b/a07079.html#aab9ea24041888975439aafb246c571c3">~BGQueueRemoveEvent</a>() override=default</td><td class="entry"><a class="el" href="../../d9/d5b/a07079.html">BGQueueRemoveEvent</a></td><td class="entry"></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d1/d2d/a04455.html">Acore</a></li><li class="navelem"><a class="el" href="../../dd/d3c/a04466.html">Impl</a></li><li class="navelem"><a class="el" href="../../d4/d22/a04494.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../da/dba/a07076.html">ArgInfo&lt; std::string_view, void &gt;</a></li>
-    <li class="footer">Generated on Fri Mar 17 2023 04:05:49 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Sat Aug 24 2024 20:28:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

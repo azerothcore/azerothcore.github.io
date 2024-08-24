@@ -1,7 +1,5 @@
 var a04481 =
 [
-    [ "asio", "dd/d0a/a04483.html", "dd/d0a/a04483" ],
-    [ "filesystem", "dc/da4/a04515.html", null ],
-    [ "posix_time", "d7/d2e/a04482.html", null ],
-    [ "system", "d9/d0c/a04563.html", null ]
+    [ "ServerMailReward", "dc/d72/a27599.html", "dc/d72/a27599" ],
+    [ "AddSC_server_mail", "dd/d40/a04481.html#a8c20fa2f42eb423e39f2aaafe8fadafc", null ]
 ];

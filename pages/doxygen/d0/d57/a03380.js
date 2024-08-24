@@ -1,45 +1,22 @@
 var a03380 =
 [
-    [ "AhnKahetScriptName", "d0/d57/a03380.html#a506431ce00265fd3122a043804560c86", null ],
-    [ "DataHeader", "d0/d57/a03380.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "RegisterAhnKahetCreatureAI", "d0/d57/a03380.html#aa9d11f00daa1d5fe3fccebf717ab93f6", null ],
-    [ "RegisterAhnKahetGameObjectAI", "d0/d57/a03380.html#a96eeb72211cdfcb0ac3f409be9e3d4ab", null ],
-    [ "AhnKahetActions", "d0/d57/a03380.html#ab602224ee107d47ea7a8fd34e7e11dcf", [
-      [ "ACTION_REMOVE_PRISON", "d0/d57/a03380.html#ab602224ee107d47ea7a8fd34e7e11dcfa16fb04e016b069c88508a114006910a8", null ]
+    [ "npc_braug_dimspirit", "dc/d42/a15415.html", "dc/d42/a15415" ],
+    [ "npc_kaya_flathoof", "de/ddd/a15419.html", "de/ddd/a15419" ],
+    [ "npc_kaya_flathoof::npc_kaya_flathoofAI", "d5/d8f/a15423.html", "d5/d8f/a15423" ],
+    [ "GOSSIP_HBD1", "d0/d57/a03380.html#a487e562e5e99ccd61aa7e93289874033", null ],
+    [ "GOSSIP_HBD2", "d0/d57/a03380.html#adc43152833884ed78e5debdaaf5d500d", null ],
+    [ "GOSSIP_HBD3", "d0/d57/a03380.html#aced35316178914dd542d4750f8bbb6cf", null ],
+    [ "GOSSIP_HBD4", "d0/d57/a03380.html#a182f8c24fa1421c6a7c68e289491400e", null ],
+    [ "GOSSIP_HBD5", "d0/d57/a03380.html#a34cc0e8072e5c86b2dd23a03fbc8f024", null ],
+    [ "Kaya", "d0/d57/a03380.html#ab10ce9d7e7d19709d0e99ef45b935f15", [
+      [ "FACTION_ESCORTEE_H", "d0/d57/a03380.html#ab10ce9d7e7d19709d0e99ef45b935f15a189eaa6b201834d1bd3182efbd449c1f", null ],
+      [ "NPC_GRIMTOTEM_RUFFIAN", "d0/d57/a03380.html#ab10ce9d7e7d19709d0e99ef45b935f15a01961a91f321286d0ab25df44697f94f", null ],
+      [ "NPC_GRIMTOTEM_BRUTE", "d0/d57/a03380.html#ab10ce9d7e7d19709d0e99ef45b935f15ac4f5df2a1f9d7cd9aba151ebfa864967", null ],
+      [ "NPC_GRIMTOTEM_SORCERER", "d0/d57/a03380.html#ab10ce9d7e7d19709d0e99ef45b935f15ac5803d139c1801ccfdba4b115381afd6", null ],
+      [ "SAY_START", "d0/d57/a03380.html#ab10ce9d7e7d19709d0e99ef45b935f15a2eae21cbf7d110ee89a9798ef6f00239", null ],
+      [ "SAY_AMBUSH", "d0/d57/a03380.html#ab10ce9d7e7d19709d0e99ef45b935f15a68cb8abe7aeb84b5de4ba23b8f814d1e", null ],
+      [ "SAY_END", "d0/d57/a03380.html#ab10ce9d7e7d19709d0e99ef45b935f15a40884932ffbbf14d6c380b9022bcfe97", null ],
+      [ "QUEST_PROTECT_KAYA", "d0/d57/a03380.html#ab10ce9d7e7d19709d0e99ef45b935f15a4a8a823950ae7fb8722359672b427cc6", null ]
     ] ],
-    [ "AhnKahetCreatures", "d0/d57/a03380.html#a0a7022dbeba8e4c5922bca61c1ac6be0", [
-      [ "NPC_ELDER_NADOX", "d0/d57/a03380.html#a0a7022dbeba8e4c5922bca61c1ac6be0adefb6eeafb4e1c648ef5431666cee303", null ],
-      [ "NPC_PRINCE_TALDARAM", "d0/d57/a03380.html#a0a7022dbeba8e4c5922bca61c1ac6be0ae7602060d95905d39d735be974c99c5f", null ],
-      [ "NPC_JEDOGA_SHADOWSEEKER", "d0/d57/a03380.html#a0a7022dbeba8e4c5922bca61c1ac6be0a8f4808be30a572ba6dc967dde518e092", null ],
-      [ "NPC_HERALD_JOLAZJ", "d0/d57/a03380.html#a0a7022dbeba8e4c5922bca61c1ac6be0aa32f2602e6593f19b7608568fa015d5e", null ],
-      [ "NPC_AMANITAR", "d0/d57/a03380.html#a0a7022dbeba8e4c5922bca61c1ac6be0a34c1714ae003f663cb2b8951810d661f", null ],
-      [ "NPC_JEDOGA_CONTROLLER", "d0/d57/a03380.html#a0a7022dbeba8e4c5922bca61c1ac6be0acf6f2f93580795c52ed4700df297d549", null ]
-    ] ],
-    [ "AhnkahetData", "d0/d57/a03380.html#aff905f3bb30004af8919ddfe3d29e8dd", [
-      [ "DATA_ELDER_NADOX", "d0/d57/a03380.html#aff905f3bb30004af8919ddfe3d29e8dda770adca9032e015945b302877eea180f", null ],
-      [ "DATA_PRINCE_TALDARAM", "d0/d57/a03380.html#aff905f3bb30004af8919ddfe3d29e8ddaaedbd25489af19057ce8227250867ce0", null ],
-      [ "DATA_JEDOGA_SHADOWSEEKER", "d0/d57/a03380.html#aff905f3bb30004af8919ddfe3d29e8dda5898d17f647609f063f3a809dc2fec66", null ],
-      [ "DATA_HERALD_VOLAZJ", "d0/d57/a03380.html#aff905f3bb30004af8919ddfe3d29e8dda30b8528fb302a8f32b4db9e72b4889e5", null ],
-      [ "DATA_AMANITAR", "d0/d57/a03380.html#aff905f3bb30004af8919ddfe3d29e8dda7146f172ca0fe8e80c667a510874a94f", null ],
-      [ "DATA_PRINCE_TALDARAM_PLATFORM", "d0/d57/a03380.html#aff905f3bb30004af8919ddfe3d29e8dda75ab4b9865126fdcf77107ef317fe7cc", null ]
-    ] ],
-    [ "AhnkahetObjects", "d0/d57/a03380.html#a497b1d427e80ac610cd1cc5e3bc2a02f", [
-      [ "GO_TELDARAM_DOOR", "d0/d57/a03380.html#a497b1d427e80ac610cd1cc5e3bc2a02fa597526245130273d3e77a1e411a81811", null ],
-      [ "GO_TELDARAM_SPHERE1", "d0/d57/a03380.html#a497b1d427e80ac610cd1cc5e3bc2a02fa4586ff1377f4e4c184e57a56e7f962ed", null ],
-      [ "GO_TELDARAM_SPHERE2", "d0/d57/a03380.html#a497b1d427e80ac610cd1cc5e3bc2a02fa637eb0aff225b388e0c611a9cbccd03e", null ],
-      [ "GO_TELDARAM_PLATFORM", "d0/d57/a03380.html#a497b1d427e80ac610cd1cc5e3bc2a02fa9ae027e64960ba5d20a93c5123469e74", null ]
-    ] ],
-    [ "AhnKahetPersistentData", "d0/d57/a03380.html#acc056f2f7be3fe09395716ca57e7c7f3", [
-      [ "DATA_TELDRAM_SPHERE1", "d0/d57/a03380.html#acc056f2f7be3fe09395716ca57e7c7f3a748636fe536f29e09b02edcebc095d56", null ],
-      [ "DATA_TELDRAM_SPHERE2", "d0/d57/a03380.html#acc056f2f7be3fe09395716ca57e7c7f3aa71df9961714e4f37168c84236d3ca51", null ],
-      [ "MAX_PERSISTENT_DATA", "d0/d57/a03380.html#acc056f2f7be3fe09395716ca57e7c7f3ade8daf2d97d89b7bc637c9b5550e0449", null ]
-    ] ],
-    [ "AhnkahetSpells", "d0/d57/a03380.html#a04c8c0beb3d5fd05b695be78e77cfe8d", [
-      [ "SPELL_SHADOW_SICKLE", "d0/d57/a03380.html#a04c8c0beb3d5fd05b695be78e77cfe8dacf16c95dd7397632ddf94f2d9f3c3c39", null ]
-    ] ],
-    [ "AhnKahetTexts", "d0/d57/a03380.html#ad2ad73bb93c442e3d70b9efad1b6c305", [
-      [ "SAY_SPHERE_ACTIVATED", "d0/d57/a03380.html#ad2ad73bb93c442e3d70b9efad1b6c305aea5e4c72402492816a8bafad5323cff8", null ]
-    ] ],
-    [ "GetAhnKahetAI", "d0/d57/a03380.html#a7d67882176cbe7ff747f0bb785985b00", null ],
-    [ "MAX_ENCOUNTER", "d0/d57/a03380.html#a42b654ad1177faa1b68541d8c6ca1fae", null ]
+    [ "AddSC_stonetalon_mountains", "d0/d57/a03380.html#a985f3fb3a28d1163b27b5de21b1ec6cf", null ]
 ];

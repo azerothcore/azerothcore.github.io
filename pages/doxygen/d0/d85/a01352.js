@@ -1,6 +1,7 @@
 var a01352 =
 [
-    [ "GameEventAIHookWorker", "da/de9/a08485.html", "da/de9/a08485" ],
-    [ "IsEventActive", "d0/d85/a01352.html#aaddb0f1fada20faf4702603241206f91", null ],
-    [ "IsHolidayActive", "d0/d85/a01352.html#a429db26781d2673aa2f031fc1327ffaf", null ]
+    [ "MMapTargetData", "d8/d97/a08507.html", "d8/d97/a08507" ],
+    [ "SafeUnitPointer", "d1/dab/a08511.html", "d1/dab/a08511" ],
+    [ "BuildValuesCachePosPointers", "da/dde/a08515.html", "da/dde/a08515" ],
+    [ "BuildValuesCachedBuffer", "d5/dca/a08519.html", "d5/dca/a08519" ]
 ];

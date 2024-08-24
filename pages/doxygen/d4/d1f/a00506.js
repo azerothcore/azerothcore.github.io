@@ -1,9 +1,9 @@
 var a00506 =
 [
-    [ "Finder< T, S >", "d4/d8b/a05477.html", "d4/d8b/a05477" ],
-    [ "StringCompareLessI_T", "de/d74/a05481.html", "de/d74/a05481" ],
-    [ "HookList< T >", "de/dc0/a05485.html", "de/dc0/a05485" ],
-    [ "flag96", "dd/dbd/a05489.html", "dd/dbd/a05489" ],
+    [ "Finder< T, S >", "d0/d2f/a05507.html", "d0/d2f/a05507" ],
+    [ "StringCompareLessI_T", "d4/da8/a05511.html", "d4/da8/a05511" ],
+    [ "HookList< T >", "d1/dab/a05515.html", "d1/dab/a05515" ],
+    [ "flag96", "de/d01/a05519.html", "de/d01/a05519" ],
     [ "ComparisionType", "d4/d1f/a00506.html#afd94ec4691ef4676cd4225a64bbc7c77", [
       [ "COMP_TYPE_EQ", "d4/d1f/a00506.html#afd94ec4691ef4676cd4225a64bbc7c77a7a0f7ab31474927283a2aca7a6d14133", null ],
       [ "COMP_TYPE_HIGH", "d4/d1f/a00506.html#afd94ec4691ef4676cd4225a64bbc7c77a76e46f9f049cb377e0c36841f7c7fdf7", null ],
@@ -17,7 +17,7 @@ var a00506 =
     [ "ApplyPercentModFloatVar", "d4/d1f/a00506.html#adcb1f2b25980bd4c71cb160030213f96", null ],
     [ "AsUnderlyingType", "d4/d1f/a00506.html#aa9f8f55551b813f0996c6fd351a4e4be", null ],
     [ "ByteArrayToHexStr", "d4/d1f/a00506.html#a559d532d2bfeee7ed59f0b1dbce4e86a", null ],
-    [ "ByteArrayToHexStr", "d4/d1f/a00506.html#a695b655a137b25747c0d8d00bf736dda", null ],
+    [ "ByteArrayToHexStr", "d4/d1f/a00506.html#aee21cf91c2a5f1c520d6b01dd6b2e835", null ],
     [ "CalculatePct", "d4/d1f/a00506.html#ae00607f8188c59ffcea5a3997c0120b0", null ],
     [ "charToLower", "d4/d1f/a00506.html#a97d6f234180c289dba441ab541dcff2d", null ],
     [ "charToUpper", "d4/d1f/a00506.html#ac3ee96886fd13628db9a6116762082c4", null ],
@@ -32,7 +32,7 @@ var a00506 =
     [ "GetTypeName", "d4/d1f/a00506.html#ab7a7c5d833c13e7f0e37bf05dd12a3ba", null ],
     [ "HexStrToByteArray", "d4/d1f/a00506.html#a3c91413d24aea4a44df98c7258bcb3de", null ],
     [ "HexStrToByteArray", "d4/d1f/a00506.html#a0a709bcf2ca40e60217ee113150a1ad8", null ],
-    [ "HexStrToByteArray", "d4/d1f/a00506.html#ac7354b5bd8f3eda87f83439adf11df6c", null ],
+    [ "HexStrToByteArray", "d4/d1f/a00506.html#a0a5a7e96b8beae562acc662922304ca6", null ],
     [ "isBasicLatinCharacter", "d4/d1f/a00506.html#afe20f8aa14e9b4dccd5a547a48a5c55c", null ],
     [ "isBasicLatinString", "d4/d1f/a00506.html#a78011ad560b15ee8f60de80494709c10", null ],
     [ "isCyrillicCharacter", "d4/d1f/a00506.html#ae2d53e341b68199f41a9a422da5170c4", null ],
@@ -58,14 +58,14 @@ var a00506 =
     [ "stripLineInvisibleChars", "d4/d1f/a00506.html#a6529c85ad0b9d5a1953b29d7c601cf80", null ],
     [ "TimeStringToSecs", "d4/d1f/a00506.html#a6afbc7b52fa1fe844f66ffcf8230ff93", null ],
     [ "Utf8FitTo", "d4/d1f/a00506.html#a643ef4918e58149c25d528c221b7e305", null ],
-    [ "utf8length", "d4/d1f/a00506.html#ae00769b32171e3d2a1a3e324e1620a8c", null ],
+    [ "utf8length", "d4/d1f/a00506.html#aa44a42a249be6823b5c7d313d9e019db", null ],
     [ "utf8printf", "d4/d1f/a00506.html#a8308ebf317901eac198e6ea862720f0e", null ],
     [ "utf8ToConsole", "d4/d1f/a00506.html#a69729b2650ca1a459a454fa77bf1001e", null ],
     [ "Utf8ToUpperOnlyLatin", "d4/d1f/a00506.html#a1c371cfc482404f0fb47c4c9461e92db", null ],
-    [ "Utf8toWStr", "d4/d1f/a00506.html#afd2e16488295dd36a8ad383899d6ac25", null ],
+    [ "Utf8toWStr", "d4/d1f/a00506.html#a4406545bd821f7b98b8054811d14abd2", null ],
     [ "Utf8toWStr", "d4/d1f/a00506.html#ae2513f521896e535542f7a61cd9f0ef1", null ],
-    [ "Utf8toWStr", "d4/d1f/a00506.html#aaae8b50144646af663ea8706da3e7f34", null ],
-    [ "utf8truncate", "d4/d1f/a00506.html#ae4fe16e69a1d70241791c62097f0217e", null ],
+    [ "Utf8toWStr", "d4/d1f/a00506.html#ae702a9bf372fc59cc56e7172714d81e9", null ],
+    [ "utf8truncate", "d4/d1f/a00506.html#ad881ed438a9a0c698d3c9860d78d4a2b", null ],
     [ "ValueContainsStringI", "d4/d1f/a00506.html#aa314834c255d8f8c6913d1584f2fee32", null ],
     [ "vutf8printf", "d4/d1f/a00506.html#aa7adbf5d0cb4ec79c6729b859f691c5e", null ],
     [ "wcharToLower", "d4/d1f/a00506.html#a1db644cf5a727be795913e53a287a852", null ],
@@ -74,5 +74,5 @@ var a00506 =
     [ "wstrToLower", "d4/d1f/a00506.html#a58af07e1af657c56b4a20b6c7ef83615", null ],
     [ "wstrToUpper", "d4/d1f/a00506.html#aeaeb4d14bd6ff6536728bbf053805146", null ],
     [ "WStrToUtf8", "d4/d1f/a00506.html#a1962672e0caaddbc72d55ab95ca5afa4", null ],
-    [ "WStrToUtf8", "d4/d1f/a00506.html#aea1eefaeb847b1b805c16bf961408234", null ]
+    [ "WStrToUtf8", "d4/d1f/a00506.html#a8714901fc8681c4b1d431402477c6e51", null ]
 ];

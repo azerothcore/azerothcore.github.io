@@ -1,16 +1,15 @@
 var a03698 =
 [
-    [ "instance_nexus", "d0/df7/a20389.html", "d0/df7/a20389" ],
-    [ "instance_nexus::instance_nexus_InstanceMapScript", "d1/d32/a20393.html", "d1/d32/a20393" ],
-    [ "npc_crystalline_frayer", "da/d06/a20397.html", "da/d06/a20397" ],
-    [ "npc_crystalline_frayer::npc_crystalline_frayerAI", "d8/dab/a20401.html", "d8/dab/a20401" ],
-    [ "eFrayer", "d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34", [
-      [ "SPELL_SUMMON_SEED_POD", "d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34a574104b14cbcd24794ab8666fa8dbd76", null ],
-      [ "SPELL_SEED_POD", "d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34ac55a6fa8082947a3cf2c03a7a6698eb7", null ],
-      [ "SPELL_AURA_OF_REGENERATION", "d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34a16a68348d55363d0fa476afad65ed165", null ],
-      [ "SPELL_CRYSTAL_BLOOM", "d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34a2628113ed0f8c81fec3cbb2dd01123f7", null ],
-      [ "SPELL_ENSNARE", "d3/d94/a03698.html#afccbdf6b1fcd1d08834c371ae089cd34aa84bf40a2daa426466ad7322a0ab325d", null ]
-    ] ],
-    [ "AddSC_instance_nexus", "d3/d94/a03698.html#a77d0cce0724befee65efa7555f62f8f1", null ],
-    [ "doorData", "d3/d94/a03698.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
+    [ "instance_naxxramas", "dd/de6/a19059.html", "dd/de6/a19059" ],
+    [ "instance_naxxramas::instance_naxxramas_InstanceMapScript", "d8/d07/a19063.html", "d8/d07/a19063" ],
+    [ "boss_naxxramas_misc", "d9/ddf/a19067.html", "d9/ddf/a19067" ],
+    [ "boss_naxxramas_misc::boss_naxxramas_miscAI", "d2/d39/a19071.html", "d2/d39/a19071" ],
+    [ "at_naxxramas_hub_portal", "d9/dae/a19075.html", "d9/dae/a19075" ],
+    [ "AddSC_instance_naxxramas", "d3/d94/a03698.html#aba1e1afda4423e51a1849a33da49a334", null ],
+    [ "GetEruptionSection", "d3/d94/a03698.html#a901343efd9af23ac79087eef84926a75", null ],
+    [ "creatureData", "d3/d94/a03698.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "gameObjectData", "d3/d94/a03698.html#a1461582839e3b7fdbb7397e5d2086e31", null ],
+    [ "HeiganEruptionSlope", "d3/d94/a03698.html#afc813e25da4423b11b3f71a4c3434b43", null ],
+    [ "HeiganPos", "d3/d94/a03698.html#a329c88a19bf7f6ee06251fb30b96aa80", null ],
+    [ "sapphironEntryTP", "d3/d94/a03698.html#a11d995fa7a0e4c0af781d298ab2ce3a7", null ]
 ];

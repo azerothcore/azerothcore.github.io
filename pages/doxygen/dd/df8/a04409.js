@@ -1,72 +1,65 @@
 var a04409 =
 [
-    [ "AreaTrigger_at_voltarus_middle", "de/d64/a28777.html", "de/d64/a28777" ],
-    [ "AreaTrigger_at_coilfang_waterfall", "d0/dcf/a28781.html", "d0/dcf/a28781" ],
-    [ "AreaTrigger_at_legion_teleporter", "dd/dfb/a28785.html", "dd/dfb/a28785" ],
-    [ "AreaTrigger_at_stormwright_shelf", "d6/dfe/a28789.html", "d6/dfe/a28789" ],
-    [ "AreaTrigger_at_scent_larkorwi", "db/daa/a28793.html", "db/daa/a28793" ],
-    [ "AreaTrigger_at_last_rites", "d8/d49/a28797.html", "d8/d49/a28797" ],
-    [ "AreaTrigger_at_sholazar_waygate", "d5/d21/a28801.html", "d5/d21/a28801" ],
-    [ "AreaTrigger_at_nats_landing", "d1/d8a/a28805.html", "d1/d8a/a28805" ],
-    [ "AreaTrigger_at_sentry_point", "de/de3/a28809.html", "de/de3/a28809" ],
-    [ "AreaTrigger_at_brewfest", "d4/da8/a28813.html", "d4/da8/a28813" ],
-    [ "AreaTrigger_at_area_52_entrance", "d0/d4e/a28817.html", "d0/d4e/a28817" ],
-    [ "Area52Entrance", "dd/df8/a04409.html#a7ef276a75040392ab3315082a3518c67", [
-      [ "SPELL_A52_NEURALYZER", "dd/df8/a04409.html#a7ef276a75040392ab3315082a3518c67afa491a434774607e1e712c2f79ac322a", null ],
-      [ "NPC_SPOTLIGHT", "dd/df8/a04409.html#a7ef276a75040392ab3315082a3518c67acded8211c601c5b237d60a58f65b56ac", null ],
-      [ "SUMMON_COOLDOWN", "dd/df8/a04409.html#a7ef276a75040392ab3315082a3518c67aa4b7173ec61f2859f8649f0adcbb37d1", null ],
-      [ "AT_AREA_52_SOUTH", "dd/df8/a04409.html#a7ef276a75040392ab3315082a3518c67ac9b6a7b98c7a4b2013ccd61f637851f9", null ],
-      [ "AT_AREA_52_NORTH", "dd/df8/a04409.html#a7ef276a75040392ab3315082a3518c67a7eb1ed4b6c4f3ef99e5cdd9b1505a09e", null ],
-      [ "AT_AREA_52_WEST", "dd/df8/a04409.html#a7ef276a75040392ab3315082a3518c67a69d8c4647a15efe238a70b1f049ff97f", null ],
-      [ "AT_AREA_52_EAST", "dd/df8/a04409.html#a7ef276a75040392ab3315082a3518c67a3173f419da9cf80efa68ca3e99c10528", null ]
+    [ "spell_mage_arcane_blast", "d1/d83/a25879.html", "d1/d83/a25879" ],
+    [ "spell_mage_burning_determination", "d5/d43/a25883.html", "d5/d43/a25883" ],
+    [ "spell_mage_molten_armor", "df/da7/a25887.html", "df/da7/a25887" ],
+    [ "spell_mage_mirror_image", "d1/d5f/a25891.html", "d1/d5f/a25891" ],
+    [ "spell_mage_burnout", "db/d47/a25895.html", "db/d47/a25895" ],
+    [ "spell_mage_burnout_trigger", "d9/daa/a25899.html", "d9/daa/a25899" ],
+    [ "spell_mage_pet_scaling", "df/dce/a25903.html", "df/dce/a25903" ],
+    [ "spell_mage_brain_freeze", "dd/dbb/a25907.html", "dd/dbb/a25907" ],
+    [ "spell_mage_glyph_of_eternal_water", "dc/d3a/a25911.html", "dc/d3a/a25911" ],
+    [ "spell_mage_combustion_proc", "dc/d5f/a25915.html", "dc/d5f/a25915" ],
+    [ "spell_mage_incanters_absorbtion_base_AuraScript", "db/d5c/a25919.html", "db/d5c/a25919" ],
+    [ "spell_mage_blast_wave", "dd/d31/a25923.html", "dd/d31/a25923" ],
+    [ "spell_mage_cold_snap", "d9/d42/a25927.html", "d9/d42/a25927" ],
+    [ "spell_mage_fire_frost_ward", "dd/df9/a25931.html", "dd/df9/a25931" ],
+    [ "spell_mage_focus_magic", "de/d50/a25935.html", "de/d50/a25935" ],
+    [ "spell_mage_ice_barrier_aura", "df/d21/a25939.html", "df/d21/a25939" ],
+    [ "spell_mage_ice_barrier", "d1/d18/a25943.html", "d1/d18/a25943" ],
+    [ "spell_mage_ignite", "de/d37/a25947.html", "de/d37/a25947" ],
+    [ "spell_mage_living_bomb", "d7/ddc/a25951.html", "d7/ddc/a25951" ],
+    [ "spell_mage_mana_shield", "db/ded/a25955.html", "db/ded/a25955" ],
+    [ "spell_mage_master_of_elements", "d4/dc8/a25959.html", "d4/dc8/a25959" ],
+    [ "spell_mage_polymorph_cast_visual", "d4/d99/a25963.html", "d4/d99/a25963" ],
+    [ "spell_mage_summon_water_elemental", "d3/d72/a25967.html", "d3/d72/a25967" ],
+    [ "spell_mage_fingers_of_frost_proc_aura", "dd/d57/a25971.html", "dd/d57/a25971" ],
+    [ "spell_mage_fingers_of_frost_proc", "dd/d4f/a25975.html", "dd/d4f/a25975" ],
+    [ "FingersOfFrostScriptName", "dd/df8/a04409.html#ad6bfccb0b8bd38205ed780b1ec5f9670", null ],
+    [ "spell_mage_fingers_of_frost_proc_aura_script", "dd/df8/a04409.html#aa5de9b4eecf809a3292a4697d206eaf9", null ],
+    [ "MageSpells", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124", [
+      [ "SPELL_MAGE_CLONE_ME", "d0/de0/a04376.html#ab25cd6fd3bfda5736fd43f449c1b5124a490a27b1ed91b6f3f3a8cd41b5ded635", null ],
+      [ "SPELL_MAGE_MASTERS_THREAT_LIST", "d0/de0/a04376.html#ab25cd6fd3bfda5736fd43f449c1b5124a73b29ac6b8c782654ff6d4e43542124f", null ],
+      [ "SPELL_PET_HIT_SCALING", "d0/de0/a04376.html#ab25cd6fd3bfda5736fd43f449c1b5124a0699159f7383b3918ad087631975dbd8", null ],
+      [ "SPELL_SUMMON_MIRROR_IMAGE1", "d0/de0/a04376.html#ab25cd6fd3bfda5736fd43f449c1b5124a91857de5d74978531a10d32c8fc8058f", null ],
+      [ "SPELL_SUMMON_MIRROR_IMAGE2", "d0/de0/a04376.html#ab25cd6fd3bfda5736fd43f449c1b5124ae877fb36424c6d02560270fbaee8f426", null ],
+      [ "SPELL_SUMMON_MIRROR_IMAGE3", "d0/de0/a04376.html#ab25cd6fd3bfda5736fd43f449c1b5124ad95b243bb8c22a972eec724b562abb75", null ],
+      [ "SPELL_SUMMON_MIRROR_IMAGE_GLYPH", "d0/de0/a04376.html#ab25cd6fd3bfda5736fd43f449c1b5124adfa0626e20fe30b8c54819861210e763", null ],
+      [ "SPELL_MAGE_BURNOUT_TRIGGER", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124a6581435e60a8ed6d2ef11fa4ec9de9da", null ],
+      [ "SPELL_MAGE_IMPROVED_BLIZZARD_CHILLED", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124a220f2bbe2ba928299f8e9cd759af68fc", null ],
+      [ "SPELL_MAGE_COMBUSTION", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124a599ac9067a5b4cbe42ea7557e831fc3f", null ],
+      [ "SPELL_MAGE_COLD_SNAP", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124a61b3456ff5a5cdb94c57c0be96c56f33", null ],
+      [ "SPELL_MAGE_FOCUS_MAGIC_PROC", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124a75e05026759d9b14b7d5cdbf1ce6a234", null ],
+      [ "SPELL_MAGE_FROST_WARDING_R1", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124a0c5b2cb0579c478b7f36a5aee1a45b6e", null ],
+      [ "SPELL_MAGE_FROST_WARDING_TRIGGERED", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124af5e1b0ad1e4f78d3b102c8061155459e", null ],
+      [ "SPELL_MAGE_INCANTERS_ABSORBTION_R1", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124a422f167d55affa065359ac04e732b816", null ],
+      [ "SPELL_MAGE_INCANTERS_ABSORBTION_TRIGGERED", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124acec4a9ecc4023e9709049e07f502ba83", null ],
+      [ "SPELL_MAGE_IGNITE", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124a744a819410a70bdedcaa68aeeead2d04", null ],
+      [ "SPELL_MAGE_MASTER_OF_ELEMENTS_ENERGIZE", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124a886a48f0a08f0ae2d45d535ce542dab8", null ],
+      [ "SPELL_MAGE_SQUIRREL_FORM", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124ab185e7b3efc927ff579a848f59a4dec6", null ],
+      [ "SPELL_MAGE_GIRAFFE_FORM", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124a7f4029f76569babf96dae83a4d33f32b", null ],
+      [ "SPELL_MAGE_SERPENT_FORM", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124ad5a7db4b9c62c2e4531cc589ea6b050f", null ],
+      [ "SPELL_MAGE_DRAGONHAWK_FORM", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124aa36c6d835be3d18c0a9a146f309de5dc", null ],
+      [ "SPELL_MAGE_WORGEN_FORM", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124a1d25c71ce529713654e90eede8da5dd2", null ],
+      [ "SPELL_MAGE_SHEEP_FORM", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124af6ea5812f5a9177e7bbc22f292e13983", null ],
+      [ "SPELL_MAGE_GLYPH_OF_ETERNAL_WATER", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124adf14fd7122c8f6ab97c65e5ff8b45ba3", null ],
+      [ "SPELL_MAGE_SUMMON_WATER_ELEMENTAL_PERMANENT", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124abbf4a8698fe7379264db5729ce10440f", null ],
+      [ "SPELL_MAGE_SUMMON_WATER_ELEMENTAL_TEMPORARY", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124a031b2cacce733305e8bbba4ec69cc276", null ],
+      [ "SPELL_MAGE_GLYPH_OF_BLAST_WAVE", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124ac553ca96324337663da102edbf50b474", null ],
+      [ "SPELL_MAGE_FINGERS_OF_FROST", "dd/df8/a04409.html#ab25cd6fd3bfda5736fd43f449c1b5124a8361e4d18a35c3a0b98379c6186a12ad", null ]
     ] ],
-    [ "AtLastRites", "dd/df8/a04409.html#aedd9d40d0b524b4a5da323938c6f1c99", [
-      [ "QUEST_LAST_RITES", "dd/df8/a04409.html#aedd9d40d0b524b4a5da323938c6f1c99af622e93bef1f891f43c910aec65feef2", null ],
-      [ "QUEST_BREAKING_THROUGH", "dd/df8/a04409.html#aedd9d40d0b524b4a5da323938c6f1c99a0d528966459def04c2372cb96fb03057", null ]
+    [ "SilvermoonPolymorph", "dd/df8/a04409.html#ae65dd3851c1d875d7169727f6decf29a", [
+      [ "NPC_AUROSALIA", "dd/df8/a04409.html#ae65dd3851c1d875d7169727f6decf29aa4c179df56422b04e0db366c296ebed25", null ]
     ] ],
-    [ "Brewfest", "dd/df8/a04409.html#a9b234b18092b711f6f11cda755fe0bfd", [
-      [ "NPC_TAPPER_SWINDLEKEG", "dd/df8/a04409.html#a9b234b18092b711f6f11cda755fe0bfda91dfef2ce070232ed51a69d9c6399130", null ],
-      [ "NPC_IPFELKOFER_IRONKEG", "dd/df8/a04409.html#a9b234b18092b711f6f11cda755fe0bfda39440d09522df095e726cb1da7ab817e", null ],
-      [ "AT_BREWFEST_DUROTAR", "dd/df8/a04409.html#a9b234b18092b711f6f11cda755fe0bfda6dbf4e730fdb44d7ceb232e60cee3091", null ],
-      [ "AT_BREWFEST_DUN_MOROGH", "dd/df8/a04409.html#a9b234b18092b711f6f11cda755fe0bfda91d9e35e7360f1d853d2f54f54548c61", null ],
-      [ "SAY_WELCOME", "dd/df8/a04409.html#a9b234b18092b711f6f11cda755fe0bfda53e43b5d6a57facfdbe1b6559295a32f", null ],
-      [ "AREATRIGGER_TALK_COOLDOWN", "dd/df8/a04409.html#a9b234b18092b711f6f11cda755fe0bfda7105e5d2474e31860a9bc9f5075c31e4", null ]
-    ] ],
-    [ "CoilfangGOs", "dd/df8/a04409.html#a9670aee8aef02c60b84d4c3d11c963b5", [
-      [ "GO_COILFANG_WATERFALL", "dd/df8/a04409.html#a9670aee8aef02c60b84d4c3d11c963b5a30520dfb9388b8cc7b4cbc9b3420d65d", null ]
-    ] ],
-    [ "LegionTeleporter", "dd/df8/a04409.html#ad9a6ea877cb24dbb530ccf0e03cb7012", [
-      [ "SPELL_TELE_A_TO", "dd/df8/a04409.html#ad9a6ea877cb24dbb530ccf0e03cb7012a09569d3491e5bf73c2d9e897077cd162", null ],
-      [ "QUEST_GAINING_ACCESS_A", "dd/df8/a04409.html#ad9a6ea877cb24dbb530ccf0e03cb7012a1746dcba888866f4914d5fa112323879", null ],
-      [ "SPELL_TELE_H_TO", "dd/df8/a04409.html#ad9a6ea877cb24dbb530ccf0e03cb7012a0373689ced7bf6fcd5453719eff7dff9", null ],
-      [ "QUEST_GAINING_ACCESS_H", "dd/df8/a04409.html#ad9a6ea877cb24dbb530ccf0e03cb7012a90bff047b5c92fa8418685d95440c5ea", null ]
-    ] ],
-    [ "NatsLanding", "dd/df8/a04409.html#a5ee4c50b08414290f73ada43c1c71151", [
-      [ "QUEST_NATS_BARGAIN", "dd/df8/a04409.html#a5ee4c50b08414290f73ada43c1c71151aeff02bfb540090dbb759b896b3b3627e", null ],
-      [ "SPELL_FISH_PASTE", "dd/df8/a04409.html#a5ee4c50b08414290f73ada43c1c71151a84c85ea415f324f0acec6a0e8d8eb8a6", null ],
-      [ "NPC_LURKING_SHARK", "dd/df8/a04409.html#a5ee4c50b08414290f73ada43c1c71151af67d7adb069812fe8e3d79aff3f18900", null ]
-    ] ],
-    [ "ScentLarkorwi", "dd/df8/a04409.html#a743ca0b810fe5b376233e725f346d416", [
-      [ "QUEST_SCENT_OF_LARKORWI", "dd/df8/a04409.html#a743ca0b810fe5b376233e725f346d416a105afbe1f1e3510efdd8ef9fbfe153ee", null ],
-      [ "NPC_LARKORWI_MATE", "dd/df8/a04409.html#a743ca0b810fe5b376233e725f346d416adb746f23675f0b248d264a0557ceff5d", null ]
-    ] ],
-    [ "SentryPoint", "dd/df8/a04409.html#a24ef89c28423d02750eff95a35b3a275", [
-      [ "SPELL_TELEPORT_VISUAL", "dd/df8/a04409.html#a24ef89c28423d02750eff95a35b3a275a73cc106ecf58fcd3a75fa23f9ff7a21c", null ],
-      [ "QUEST_MISSING_DIPLO_PT14", "dd/df8/a04409.html#a24ef89c28423d02750eff95a35b3a275a378a874d36260f01327d51d537b33d94", null ],
-      [ "NPC_TERVOSH", "dd/df8/a04409.html#a24ef89c28423d02750eff95a35b3a275a0ef56679b82214bad2e052fb8e979c50", null ]
-    ] ],
-    [ "StormwrightShelf", "dd/df8/a04409.html#abdd676bd524ed3ea6915b8b1348861dd", [
-      [ "QUEST_STRENGTH_OF_THE_TEMPEST", "dd/df8/a04409.html#abdd676bd524ed3ea6915b8b1348861ddae6b91cb73e581fe9558469357a90ec24", null ],
-      [ "SPELL_CREATE_TRUE_POWER_OF_THE_TEMPEST", "dd/df8/a04409.html#abdd676bd524ed3ea6915b8b1348861dda55079b9b218f67c0dcae1b7da0dcb277", null ]
-    ] ],
-    [ "Waygate", "dd/df8/a04409.html#a2236193178ebaf53d5af62fbf3b76abb", [
-      [ "SPELL_SHOLAZAR_TO_UNGORO_TELEPORT", "dd/df8/a04409.html#a2236193178ebaf53d5af62fbf3b76abba8afff48aa5a082d0085f569d43978761", null ],
-      [ "SPELL_UNGORO_TO_SHOLAZAR_TELEPORT", "dd/df8/a04409.html#a2236193178ebaf53d5af62fbf3b76abba586711e1e31861a14968d73cbd9041d5", null ],
-      [ "AT_SHOLAZAR", "dd/df8/a04409.html#a2236193178ebaf53d5af62fbf3b76abbaf1a146475aa02d59501e15498b0fe668", null ],
-      [ "AT_UNGORO", "dd/df8/a04409.html#a2236193178ebaf53d5af62fbf3b76abba7bcd65f5a22bfd6eca72a25d10dfe4d9", null ],
-      [ "QUEST_THE_MAKERS_OVERLOOK", "dd/df8/a04409.html#a2236193178ebaf53d5af62fbf3b76abba3bd1ed7bbbb657ff9ae6ea1a1ff6b5ab", null ],
-      [ "QUEST_THE_MAKERS_PERCH", "dd/df8/a04409.html#a2236193178ebaf53d5af62fbf3b76abba72261b6dd71d75e850c792ca3b2aeb3b", null ],
-      [ "QUEST_MEETING_A_GREAT_ONE", "dd/df8/a04409.html#a2236193178ebaf53d5af62fbf3b76abba20eb419c91228944788d69c97b33380d", null ]
-    ] ],
-    [ "AddSC_areatrigger_scripts", "dd/df8/a04409.html#a992f2da647f1f8748c7c9239b52079ad", null ]
+    [ "AddSC_mage_spell_scripts", "dd/df8/a04409.html#a504d82c8e95f93fa88a54d34e919ed57", null ]
 ];

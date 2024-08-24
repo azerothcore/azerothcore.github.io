@@ -9,6 +9,6 @@ var a01304 =
     [ "UpdateVisibilityOf_helper", "d6/dae/a01304.html#ac411c559a97e183268339b1ea63a84b6", null ],
     [ "UpdateVisibilityOf_helper", "d6/dae/a01304.html#a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77", null ],
     [ "bonusSkillLevels", "d6/dae/a01304.html#a72b3624ee55553e28f82ef06d7c74c6a", null ],
-    [ "bonusSkillLevelsSize", "d6/dae/a01304.html#a2462e5521a90194e3f5c525e3a62d842", null ],
+    [ "bonusSkillLevelsSize", "d6/dae/a01304.html#ad103e97f7db0cfd188ab64f5748c7464", null ],
     [ "ZONE_UPDATE_INTERVAL", "d6/dae/a01304.html#afabbcd46bf6f03c5dca10b117810b710", null ]
 ];

@@ -1,4 +1,4 @@
 var a01982 =
 [
-    [ "ScriptRegistry< GameEventScript >", "d2/d3d/a01982.html#a4026f0cd70a2a24f741b1579c24ec594", null ]
+    [ "ScriptRegistry< ElunaScript >", "d2/d3d/a01982.html#a15bab1416715725970c75b4acdc0ea37", null ]
 ];

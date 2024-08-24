@@ -1,4 +1,4 @@
 var a01886 =
 [
-    [ "AllItemScript", "dd/d42/a09861.html", "dd/d42/a09861" ]
+    [ "AllCreatureScript", "d6/d1b/a09919.html", "d6/d1b/a09919" ]
 ];

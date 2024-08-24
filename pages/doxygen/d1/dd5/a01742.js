@@ -1,6 +1,6 @@
 var a01742 =
 [
-    [ "TargetedMovementGeneratorBase", "d7/ddf/a09645.html", "d7/ddf/a09645" ],
-    [ "ChaseMovementGenerator< T >", "df/d1d/a09649.html", "df/d1d/a09649" ],
-    [ "FollowMovementGenerator< T >", "d3/d17/a09653.html", "d3/d17/a09653" ]
+    [ "PointMovementGenerator< T >", "df/dc8/a09695.html", "df/dc8/a09695" ],
+    [ "AssistanceMovementGenerator", "d1/d90/a09699.html", "d1/d90/a09699" ],
+    [ "EffectMovementGenerator", "d9/d1b/a09703.html", "d9/d1b/a09703" ]
 ];

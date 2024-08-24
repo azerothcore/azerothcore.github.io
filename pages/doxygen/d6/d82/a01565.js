@@ -1,8 +1,12 @@
 var a01565 =
 [
-    [ "StoredLootItem", "da/dd9/a09273.html", "da/dd9/a09273" ],
-    [ "LootItemStorage", "d7/dc8/a09277.html", "d7/dc8/a09277" ],
-    [ "sLootItemStorage", "d6/d82/a01565.html#a06515a8a4bd76cd02aa0ab99d3d7c64e", null ],
-    [ "LootItemContainer", "d6/d82/a01565.html#a06cc23df363d1d767959d7ab5ec29ad5", null ],
-    [ "StoredLootItemList", "d6/d82/a01565.html#aa16defe92374d7db2d28958ee8fce21d", null ]
+    [ "InstancePlayerBind", "dd/d55/a09279.html", "dd/d55/a09279" ],
+    [ "BoundInstancesMapWrapper", "dc/d3a/a09283.html", "dc/d3a/a09283" ],
+    [ "InstanceSave", "db/de3/a09287.html", "db/de3/a09287" ],
+    [ "InstanceSaveMgr", "d2/da0/a09291.html", "d2/da0/a09291" ],
+    [ "InstanceSaveMgr::InstResetEvent", "de/d58/a09295.html", "de/d58/a09295" ],
+    [ "sInstanceSaveMgr", "d6/d82/a01565.html#ae1d3c96dbd749e40f06799fa52eeb9a2", null ],
+    [ "BoundInstancesMap", "d6/d82/a01565.html#aaa779bf09b703eb355cb51ac3481a19e", null ],
+    [ "PlayerBindStorage", "d6/d82/a01565.html#a2e2e3e31db4cc3be56b24e732c84106b", null ],
+    [ "ResetTimeByMapDifficultyMap", "d6/d82/a01565.html#aecf15b673beb714ef0acaa3bac23696a", null ]
 ];

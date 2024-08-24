@@ -1,4 +1,4 @@
 var a02045 =
 [
-    [ "ScriptRegistry< MovementHandlerScript >", "d7/d13/a02045.html#adecbf467a875ee8886c336d96a2f97dc", null ]
+    [ "ScriptRegistry< MiscScript >", "d7/d13/a02045.html#a925ee1bbb5e173c3d816d0ae35b38a67", null ]
 ];

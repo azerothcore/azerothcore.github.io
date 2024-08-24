@@ -1,6 +1,6 @@
 var a00938 =
 [
-    [ "BattlegroundDS", "d9/d8e/a07077.html", "d9/d8e/a07077" ],
+    [ "BattlegroundDS", "dc/d5e/a07123.html", "dc/d5e/a07123" ],
     [ "BattlegroundDSCreatures", "d5/d54/a00938.html#a239235ff6a77dc70519faae59c868202", [
       [ "BG_DS_NPC_TYPE_WATER_SPOUT", "d5/d54/a00938.html#a239235ff6a77dc70519faae59c868202ad40b08b0df1abb642f3f0caf18301171", null ]
     ] ],

@@ -1,4 +1,12 @@
 var a01931 =
 [
-    [ "BattlegroundMapScript", "d9/d73/a09893.html", "d9/d73/a09893" ]
+    [ "ArenaTeamScript", "d8/d7d/a09951.html", "d8/d7d/a09951" ],
+    [ "ArenaTeamHook", "d5/d31/a01931.html#adfb7077026efd17516d6b85637c2b218", [
+      [ "ARENATEAMHOOK_ON_GET_SLOT_BY_TYPE", "d5/d31/a01931.html#adfb7077026efd17516d6b85637c2b218a138fd48dae9a6b0db50dd8a442045adc", null ],
+      [ "ARENATEAMHOOK_ON_GET_ARENA_POINTS", "d5/d31/a01931.html#adfb7077026efd17516d6b85637c2b218a3b21f54389f578130e4874fd75c7e6a9", null ],
+      [ "ARENATEAMHOOK_ON_TYPEID_TO_QUEUEID", "d5/d31/a01931.html#adfb7077026efd17516d6b85637c2b218ae5c1d8d5548693d43fdd43339ef152a7", null ],
+      [ "ARENATEAMHOOK_ON_QUEUEID_TO_ARENA_TYPE", "d5/d31/a01931.html#adfb7077026efd17516d6b85637c2b218a957830b5a4fb9d7a53b977999068031b", null ],
+      [ "ARENATEAMHOOK_ON_SET_ARENA_MAX_PLAYERS_PER_TEAM", "d5/d31/a01931.html#adfb7077026efd17516d6b85637c2b218aaf39f25b1610466743d5d839986bf6b6", null ],
+      [ "ARENATEAMHOOK_END", "d5/d31/a01931.html#adfb7077026efd17516d6b85637c2b218a5fe29b394fe4fe74fffe7988b90ccaf7", null ]
+    ] ]
 ];

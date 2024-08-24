@@ -1,7 +1,6 @@
 var a02135 =
 [
-    [ "ScriptObject", "d2/d89/a10053.html", "d2/d89/a10053" ],
-    [ "UpdatableScript< TObject >", "d5/d56/a10057.html", "d5/d56/a10057" ],
-    [ "MapScript< TMap >", "d2/d44/a10061.html", "d2/d44/a10061" ],
-    [ "VISIBLE_RANGE", "df/daa/a02135.html#ac7e3013df774904b0d331e5b0c6e93ad", null ]
+    [ "TSpellSummary", "d8/d7a/a06083.html", "d8/d7a/a06083" ],
+    [ "SCR_CLEAR", "df/daa/a02135.html#ab71e08e3f39b7ee7bda0306cd39b96a0", null ],
+    [ "SpellSummary", "df/daa/a02135.html#ae56af266ccaa1794f1f014938b07e9cc", null ]
 ];

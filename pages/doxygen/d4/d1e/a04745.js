@@ -1,10 +1,16 @@
 var a04745 =
 [
-    [ "IoContext", "d4/d1e/a04745.html#a6ba4b629a3704fcb5d110a71f09900be", null ],
-    [ "IoContext", "d4/d1e/a04745.html#a8dc945d02df9d28f3dda6c17f1c91502", null ],
-    [ "operator IoContextBaseNamespace::IoContextBase &", "d4/d1e/a04745.html#a51e3067d9ba9b0b4a557a7e586b1ef91", null ],
-    [ "operator IoContextBaseNamespace::IoContextBase const &", "d4/d1e/a04745.html#af4aa281948ab71b76bc8f66b735425b3", null ],
-    [ "run", "d4/d1e/a04745.html#a086cd2ed56d61cf1ec0dbfdec16c50fe", null ],
-    [ "stop", "d4/d1e/a04745.html#a1165b11f60d138d56eba43657fc299cd", null ],
-    [ "_impl", "d4/d1e/a04745.html#a22cdb3c45a6dbacb13f90f654bc0c65d", null ]
+    [ "anonymous_namespace{WeatherMgr.cpp}", "d1/d86/a04746.html", [
+      [ "WeatherMap", "d1/d86/a04746.html#afdd64650acc01e75684c5ae2b269d5c1", null ],
+      [ "WeatherZoneMap", "d1/d86/a04746.html#a77b1d830c50ce06ef7bb67f75cbd48b6", null ],
+      [ "GetWeatherData", "d1/d86/a04746.html#a8d453fe2bfb19b170807fe92e393bc51", null ],
+      [ "m_weathers", "d1/d86/a04746.html#ac2bde7e8b2ecff6ab9b2705d01ce8b2c", null ],
+      [ "mWeatherZoneMap", "d1/d86/a04746.html#a977110fadc5eac5e2efa26106382d408", null ]
+    ] ],
+    [ "AddWeather", "d7/d54/a04666.html#ga1f76350b68494335d48ae206b87e190c", null ],
+    [ "FindWeather", "d7/d54/a04666.html#gadd11deec2098fed61adf7910b8f09cc6", null ],
+    [ "LoadWeatherData", "d7/d54/a04666.html#ga6c7d8a9fc5dfce0880220f4b5b8cd623", null ],
+    [ "RemoveWeather", "d7/d54/a04666.html#ga296a3324a3a38984149fae3e5d62435f", null ],
+    [ "SendFineWeatherUpdateToPlayer", "d7/d54/a04666.html#gac86b4e254146468a7412d8fc7b0c27f2", null ],
+    [ "Update", "d7/d54/a04666.html#ga45f0da6cf9e14a99380b4b9be2890801", null ]
 ];

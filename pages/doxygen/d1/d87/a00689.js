@@ -1,5 +1,6 @@
 var a00689 =
 [
+    [ "ChangeEmail", "d1/d87/a00689.html#a2a6c83e2d4e6121855beb252f23c905b", null ],
     [ "ChangePassword", "d1/d87/a00689.html#a6a9cb892c15d78b5de65738005234ff6", null ],
     [ "ChangeUsername", "d1/d87/a00689.html#a3382c6430bfbf14e32ca11b5ac68fc23", null ],
     [ "CheckPassword", "d1/d87/a00689.html#a17c28dfcb31af8f4241bb5210408185a", null ],

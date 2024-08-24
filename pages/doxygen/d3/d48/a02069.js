@@ -1,4 +1,4 @@
 var a02069 =
 [
-    [ "ScriptRegistry< ServerScript >", "d3/d48/a02069.html#ab647e167a3a2438bcbf1e445e37a9747", null ]
+    [ "ScriptRegistry< PetScript >", "d3/d48/a02069.html#a24e9b0a598349bf70ac6cf5aa4e30043", null ]
 ];

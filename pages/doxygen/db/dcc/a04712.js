@@ -1,11 +1,14 @@
 var a04712 =
 [
-    [ "ModelPosition", "db/dcc/a04712.html#ac611d964ae36e4ccd5a3bf385457a0ac", null ],
-    [ "init", "db/dcc/a04712.html#a5b7df306c28a7985fd3ab17d48350a27", null ],
-    [ "moveToBasePos", "db/dcc/a04712.html#a2fe1b48319a056f110ef700877257731", null ],
-    [ "transform", "db/dcc/a04712.html#add4c2efec70be75d8ffcd1009b6c2699", null ],
-    [ "iDir", "db/dcc/a04712.html#a24ba62281166e60036ac8a57b26c6abd", null ],
-    [ "iPos", "db/dcc/a04712.html#a36a3bd930273e0313e3b09c1289e9317", null ],
-    [ "iRotation", "db/dcc/a04712.html#ae53c5b044021f5ef04ecb5d8898fd8b3", null ],
-    [ "iScale", "db/dcc/a04712.html#a81bb029dce2aadec2f147a1329ee285e", null ]
+    [ "LinkTags", "da/d6d/a04713.html", "da/d6d/a04713" ],
+    [ "AchievementLinkData", "dc/d7b/a07499.html", "dc/d7b/a07499" ],
+    [ "GlyphLinkData", "d0/d06/a07503.html", "d0/d06/a07503" ],
+    [ "HyperlinkColor", "df/dcb/a07559.html", "df/dcb/a07559" ],
+    [ "HyperlinkInfo", "d6/d8f/a07563.html", "d6/d8f/a07563" ],
+    [ "ItemLinkData", "df/d3b/a07507.html", "df/d3b/a07507" ],
+    [ "QuestLinkData", "d6/dfa/a07511.html", "d6/dfa/a07511" ],
+    [ "TalentLinkData", "d8/d12/a07515.html", "d8/d12/a07515" ],
+    [ "TradeskillLinkData", "db/d40/a07519.html", "db/d40/a07519" ],
+    [ "CheckAllLinks", "db/dcc/a04712.html#a02761d9aa335689ff1b8dc1155b2a3c6", null ],
+    [ "ParseSingleHyperlink", "db/dcc/a04712.html#a2c5596879f4531eeedbe15d1e4987918", null ]
 ];

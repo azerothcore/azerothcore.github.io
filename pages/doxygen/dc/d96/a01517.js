@@ -1,10 +1,11 @@
 var a01517 =
 [
-    [ "QEmote", "dc/d04/a09061.html", "dc/d04/a09061" ],
-    [ "GossipTextOption", "d5/dc4/a09065.html", "d5/dc4/a09065" ],
-    [ "GossipText", "d7/d97/a09069.html", "d7/d97/a09069" ],
-    [ "PageTextLocale", "dd/dd5/a09073.html", "dd/dd5/a09073" ],
-    [ "NpcTextLocale", "d5/d44/a09077.html", "d5/d44/a09077" ],
-    [ "MAX_GOSSIP_TEXT_EMOTES", "dc/d96/a01517.html#a705783094711e028814c1c59a16c2c4f", null ],
-    [ "MAX_GOSSIP_TEXT_OPTIONS", "dc/d96/a01517.html#a114c9636000e930cd1dc1ef7e444814f", null ]
+    [ "StableResultCode", "dc/d96/a01517.html#abee8740a43e35bc796d1287225999514", [
+      [ "STABLE_ERR_MONEY", "dc/d96/a01517.html#abee8740a43e35bc796d1287225999514a2e1a0a641b8771fd5ac124129e76b8c2", null ],
+      [ "STABLE_ERR_STABLE", "dc/d96/a01517.html#abee8740a43e35bc796d1287225999514af3160ddc997ae8fc32c4420aa8169898", null ],
+      [ "STABLE_SUCCESS_STABLE", "dc/d96/a01517.html#abee8740a43e35bc796d1287225999514a87d687b90cdb7cc884567156b95da61e", null ],
+      [ "STABLE_SUCCESS_UNSTABLE", "dc/d96/a01517.html#abee8740a43e35bc796d1287225999514afb9c62c9485c5e5f50c502a61a8f0ab1", null ],
+      [ "STABLE_SUCCESS_BUY_SLOT", "dc/d96/a01517.html#abee8740a43e35bc796d1287225999514aaa2a19926ebaa7372be4a798c5513317", null ],
+      [ "STABLE_ERR_EXOTIC", "dc/d96/a01517.html#abee8740a43e35bc796d1287225999514ac96f0f7b1cccb7a29b30b8152c780f47", null ]
+    ] ]
 ];

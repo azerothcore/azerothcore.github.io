@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: VMAP::ModelSpawn Class Reference</title>
+<title>AzerothCore: CharacterDatabaseCleaner Namespace Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,397 +106,474 @@ $(document).ready(function(){initNavTree('d8/d0e/a04744.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="../../de/d2c/a04741.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">VMAP::ModelSpawn Class Reference</div></div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">CharacterDatabaseCleaner Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &quot;<a class="el" href="../../">ModelInstance.h</a>&quot;</code></p>
-<div class="dynheader">
-Inheritance diagram for VMAP::ModelSpawn:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../d8/d0e/a04744.png" usemap="#VMAP::ModelSpawn_map" alt=""/>
-  <map id="VMAP::ModelSpawn_map" name="VMAP::ModelSpawn_map">
-<area href="../../dc/d42/a04748.html" alt="VMAP::ModelInstance" shape="rect" coords="0,56,137,80"/>
-  </map>
-</div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ab9713afd57c0bdf9f5ff8d5d12cd567f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#ab9713afd57c0bdf9f5ff8d5d12cd567f">operator==</a> (const <a class="el" href="../../d8/d0e/a04744.html">ModelSpawn</a> &amp;other) const</td></tr>
-<tr class="separator:ab9713afd57c0bdf9f5ff8d5d12cd567f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a112397e75fbaf5fd991a322a8a4ea4"><td class="memItemLeft" align="right" valign="top">const G3D::AABox &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#a4a112397e75fbaf5fd991a322a8a4ea4">GetBounds</a> () const</td></tr>
-<tr class="separator:a4a112397e75fbaf5fd991a322a8a4ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ad8ba5c50a4cd2d5193e35ccc83798c67"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#ad8ba5c50a4cd2d5193e35ccc83798c67">CleaningFlags</a> { <br />
+&#160;&#160;<a class="el" href="../../d8/d0e/a04744.html#ad8ba5c50a4cd2d5193e35ccc83798c67afdcd00f9b75d683b143cbbe0ac22d748">CLEANING_FLAG_ACHIEVEMENT_PROGRESS</a> = 0x1
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d0e/a04744.html#ad8ba5c50a4cd2d5193e35ccc83798c67ac23b2648d4cf0fe8d9ff4cd96722a714">CLEANING_FLAG_SKILLS</a> = 0x2
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d0e/a04744.html#ad8ba5c50a4cd2d5193e35ccc83798c67a39fa10b14e68e92b74ab6697d0e1d564">CLEANING_FLAG_SPELLS</a> = 0x4
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d0e/a04744.html#ad8ba5c50a4cd2d5193e35ccc83798c67a06a3fa1596c0c32ec619b9b9cb1d1550">CLEANING_FLAG_TALENTS</a> = 0x8
+, <br />
+&#160;&#160;<a class="el" href="../../d8/d0e/a04744.html#ad8ba5c50a4cd2d5193e35ccc83798c67ae0367424104049d29ca9dcf3d5b7273c">CLEANING_FLAG_QUESTSTATUS</a> = 0x10
+<br />
+ }</td></tr>
+<tr class="separator:ad8ba5c50a4cd2d5193e35ccc83798c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a35d7880eb3e295ed3148ca05a2f4520e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#a35d7880eb3e295ed3148ca05a2f4520e">readFromFile</a> (FILE *rf, <a class="el" href="../../d8/d0e/a04744.html">ModelSpawn</a> &amp;spawn)</td></tr>
-<tr class="separator:a35d7880eb3e295ed3148ca05a2f4520e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8623dcb78a2af4c9aebd60f67649f34"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#ae8623dcb78a2af4c9aebd60f67649f34">writeToFile</a> (FILE *rw, const <a class="el" href="../../d8/d0e/a04744.html">ModelSpawn</a> &amp;spawn)</td></tr>
-<tr class="separator:ae8623dcb78a2af4c9aebd60f67649f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:acfc7a76db09013abfad8e42aaae59f52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#acfc7a76db09013abfad8e42aaae59f52">flags</a></td></tr>
-<tr class="separator:acfc7a76db09013abfad8e42aaae59f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ebcfe8326eff028e722c9972a16200b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#a4ebcfe8326eff028e722c9972a16200b">adtId</a></td></tr>
-<tr class="separator:a4ebcfe8326eff028e722c9972a16200b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2fdb441870d6ac7ddc05640ec1d0598"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#ab2fdb441870d6ac7ddc05640ec1d0598">ID</a></td></tr>
-<tr class="separator:ab2fdb441870d6ac7ddc05640ec1d0598"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb5966f87710bc6a1f5da766c99b3e12"><td class="memItemLeft" align="right" valign="top">G3D::Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#abb5966f87710bc6a1f5da766c99b3e12">iPos</a></td></tr>
-<tr class="separator:abb5966f87710bc6a1f5da766c99b3e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d0b4f6bde1a20b246e4b22cc43e25af"><td class="memItemLeft" align="right" valign="top">G3D::Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#a6d0b4f6bde1a20b246e4b22cc43e25af">iRot</a></td></tr>
-<tr class="separator:a6d0b4f6bde1a20b246e4b22cc43e25af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad355d0fb09ff0360ed19610bef92d8e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#aad355d0fb09ff0360ed19610bef92d8e">iScale</a></td></tr>
-<tr class="separator:aad355d0fb09ff0360ed19610bef92d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1dac1aa360c4d49b61a0cd8af92399c"><td class="memItemLeft" align="right" valign="top">G3D::AABox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#ae1dac1aa360c4d49b61a0cd8af92399c">iBound</a></td></tr>
-<tr class="separator:ae1dac1aa360c4d49b61a0cd8af92399c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66e19a4a28f8fc0c537f1315d9bddcfb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#a66e19a4a28f8fc0c537f1315d9bddcfb">name</a></td></tr>
-<tr class="separator:a66e19a4a28f8fc0c537f1315d9bddcfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a357c8a07f912c6efb55a13cc9bc089b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#a357c8a07f912c6efb55a13cc9bc089b9">CleanDatabase</a> ()</td></tr>
+<tr class="separator:a357c8a07f912c6efb55a13cc9bc089b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab98182e5f92f72090600314cc41f0d39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#ab98182e5f92f72090600314cc41f0d39">CheckUnique</a> (const char *column, const char *table, bool(*check)(<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>))</td></tr>
+<tr class="separator:ab98182e5f92f72090600314cc41f0d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe5cf638b3ba626c9dc18258d4c528fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#afe5cf638b3ba626c9dc18258d4c528fa">AchievementProgressCheck</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> criteria)</td></tr>
+<tr class="separator:afe5cf638b3ba626c9dc18258d4c528fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f72cf24646d1ece0eb793890840992d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#a0f72cf24646d1ece0eb793890840992d">SkillCheck</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> skill)</td></tr>
+<tr class="separator:a0f72cf24646d1ece0eb793890840992d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02688f57778d28a7bcc4ca6cee2074ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#a02688f57778d28a7bcc4ca6cee2074ad">SpellCheck</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spell_id)</td></tr>
+<tr class="separator:a02688f57778d28a7bcc4ca6cee2074ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac707369555aa95807c11b1578ae80d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#aac707369555aa95807c11b1578ae80d2">TalentCheck</a> (<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> talent_id)</td></tr>
+<tr class="separator:aac707369555aa95807c11b1578ae80d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5939466cf9b4fbb63eb136baf62767f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#ae5939466cf9b4fbb63eb136baf62767f">CleanCharacterAchievementProgress</a> ()</td></tr>
+<tr class="separator:ae5939466cf9b4fbb63eb136baf62767f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c5d4dc123b8a900254bcbc82c1ffbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#ae8c5d4dc123b8a900254bcbc82c1ffbe">CleanCharacterSkills</a> ()</td></tr>
+<tr class="separator:ae8c5d4dc123b8a900254bcbc82c1ffbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca5826d283031348e5d6ae6eb75ad605"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#aca5826d283031348e5d6ae6eb75ad605">CleanCharacterSpell</a> ()</td></tr>
+<tr class="separator:aca5826d283031348e5d6ae6eb75ad605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a344f61fb209b507b775a0bbfb1315fac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#a344f61fb209b507b775a0bbfb1315fac">CleanCharacterTalent</a> ()</td></tr>
+<tr class="separator:a344f61fb209b507b775a0bbfb1315fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f512823f852120bf4c3ec78eb4bbeaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/a04744.html#a9f512823f852120bf4c3ec78eb4bbeaa">CleanCharacterQuestStatus</a> ()</td></tr>
+<tr class="separator:a9f512823f852120bf4c3ec78eb4bbeaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4a112397e75fbaf5fd991a322a8a4ea4" name="a4a112397e75fbaf5fd991a322a8a4ea4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a112397e75fbaf5fd991a322a8a4ea4">&#9670;&#160;</a></span>GetBounds()</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ad8ba5c50a4cd2d5193e35ccc83798c67" name="ad8ba5c50a4cd2d5193e35ccc83798c67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8ba5c50a4cd2d5193e35ccc83798c67">&#9670;&#160;</a></span>CleaningFlags</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const G3D::AABox &amp; VMAP::ModelSpawn::GetBounds </td>
+          <td class="memname">enum <a class="el" href="../../d8/d0e/a04744.html#ad8ba5c50a4cd2d5193e35ccc83798c67">CharacterDatabaseCleaner::CleaningFlags</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad8ba5c50a4cd2d5193e35ccc83798c67afdcd00f9b75d683b143cbbe0ac22d748" name="ad8ba5c50a4cd2d5193e35ccc83798c67afdcd00f9b75d683b143cbbe0ac22d748"></a>CLEANING_FLAG_ACHIEVEMENT_PROGRESS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8ba5c50a4cd2d5193e35ccc83798c67ac23b2648d4cf0fe8d9ff4cd96722a714" name="ad8ba5c50a4cd2d5193e35ccc83798c67ac23b2648d4cf0fe8d9ff4cd96722a714"></a>CLEANING_FLAG_SKILLS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8ba5c50a4cd2d5193e35ccc83798c67a39fa10b14e68e92b74ab6697d0e1d564" name="ad8ba5c50a4cd2d5193e35ccc83798c67a39fa10b14e68e92b74ab6697d0e1d564"></a>CLEANING_FLAG_SPELLS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8ba5c50a4cd2d5193e35ccc83798c67a06a3fa1596c0c32ec619b9b9cb1d1550" name="ad8ba5c50a4cd2d5193e35ccc83798c67a06a3fa1596c0c32ec619b9b9cb1d1550"></a>CLEANING_FLAG_TALENTS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad8ba5c50a4cd2d5193e35ccc83798c67ae0367424104049d29ca9dcf3d5b7273c" name="ad8ba5c50a4cd2d5193e35ccc83798c67ae0367424104049d29ca9dcf3d5b7273c"></a>CLEANING_FLAG_QUESTSTATUS&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   26</span>    {</div>
+<div class="line"><span class="lineno">   27</span>        <a class="code hl_enumvalue" href="../../d8/d0e/a04744.html#ad8ba5c50a4cd2d5193e35ccc83798c67afdcd00f9b75d683b143cbbe0ac22d748">CLEANING_FLAG_ACHIEVEMENT_PROGRESS</a>  = 0x1,</div>
+<div class="line"><span class="lineno">   28</span>        <a class="code hl_enumvalue" href="../../d8/d0e/a04744.html#ad8ba5c50a4cd2d5193e35ccc83798c67ac23b2648d4cf0fe8d9ff4cd96722a714">CLEANING_FLAG_SKILLS</a>                = 0x2,</div>
+<div class="line"><span class="lineno">   29</span>        <a class="code hl_enumvalue" href="../../d8/d0e/a04744.html#ad8ba5c50a4cd2d5193e35ccc83798c67a39fa10b14e68e92b74ab6697d0e1d564">CLEANING_FLAG_SPELLS</a>                = 0x4,</div>
+<div class="line"><span class="lineno">   30</span>        <a class="code hl_enumvalue" href="../../d8/d0e/a04744.html#ad8ba5c50a4cd2d5193e35ccc83798c67a06a3fa1596c0c32ec619b9b9cb1d1550">CLEANING_FLAG_TALENTS</a>               = 0x8,</div>
+<div class="line"><span class="lineno">   31</span>        <a class="code hl_enumvalue" href="../../d8/d0e/a04744.html#ad8ba5c50a4cd2d5193e35ccc83798c67ae0367424104049d29ca9dcf3d5b7273c">CLEANING_FLAG_QUESTSTATUS</a>           = 0x10</div>
+<div class="line"><span class="lineno">   32</span>    };</div>
+<div class="ttc" id="aa04744_html_ad8ba5c50a4cd2d5193e35ccc83798c67a06a3fa1596c0c32ec619b9b9cb1d1550"><div class="ttname"><a href="../../d8/d0e/a04744.html#ad8ba5c50a4cd2d5193e35ccc83798c67a06a3fa1596c0c32ec619b9b9cb1d1550">CharacterDatabaseCleaner::CLEANING_FLAG_TALENTS</a></div><div class="ttdeci">@ CLEANING_FLAG_TALENTS</div><div class="ttdef"><b>Definition:</b> CharacterDatabaseCleaner.h:30</div></div>
+<div class="ttc" id="aa04744_html_ad8ba5c50a4cd2d5193e35ccc83798c67a39fa10b14e68e92b74ab6697d0e1d564"><div class="ttname"><a href="../../d8/d0e/a04744.html#ad8ba5c50a4cd2d5193e35ccc83798c67a39fa10b14e68e92b74ab6697d0e1d564">CharacterDatabaseCleaner::CLEANING_FLAG_SPELLS</a></div><div class="ttdeci">@ CLEANING_FLAG_SPELLS</div><div class="ttdef"><b>Definition:</b> CharacterDatabaseCleaner.h:29</div></div>
+<div class="ttc" id="aa04744_html_ad8ba5c50a4cd2d5193e35ccc83798c67ac23b2648d4cf0fe8d9ff4cd96722a714"><div class="ttname"><a href="../../d8/d0e/a04744.html#ad8ba5c50a4cd2d5193e35ccc83798c67ac23b2648d4cf0fe8d9ff4cd96722a714">CharacterDatabaseCleaner::CLEANING_FLAG_SKILLS</a></div><div class="ttdeci">@ CLEANING_FLAG_SKILLS</div><div class="ttdef"><b>Definition:</b> CharacterDatabaseCleaner.h:28</div></div>
+<div class="ttc" id="aa04744_html_ad8ba5c50a4cd2d5193e35ccc83798c67ae0367424104049d29ca9dcf3d5b7273c"><div class="ttname"><a href="../../d8/d0e/a04744.html#ad8ba5c50a4cd2d5193e35ccc83798c67ae0367424104049d29ca9dcf3d5b7273c">CharacterDatabaseCleaner::CLEANING_FLAG_QUESTSTATUS</a></div><div class="ttdeci">@ CLEANING_FLAG_QUESTSTATUS</div><div class="ttdef"><b>Definition:</b> CharacterDatabaseCleaner.h:31</div></div>
+<div class="ttc" id="aa04744_html_ad8ba5c50a4cd2d5193e35ccc83798c67afdcd00f9b75d683b143cbbe0ac22d748"><div class="ttname"><a href="../../d8/d0e/a04744.html#ad8ba5c50a4cd2d5193e35ccc83798c67afdcd00f9b75d683b143cbbe0ac22d748">CharacterDatabaseCleaner::CLEANING_FLAG_ACHIEVEMENT_PROGRESS</a></div><div class="ttdeci">@ CLEANING_FLAG_ACHIEVEMENT_PROGRESS</div><div class="ttdef"><b>Definition:</b> CharacterDatabaseCleaner.h:27</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="afe5cf638b3ba626c9dc18258d4c528fa" name="afe5cf638b3ba626c9dc18258d4c528fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe5cf638b3ba626c9dc18258d4c528fa">&#9670;&#160;</a></span>AchievementProgressCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CharacterDatabaseCleaner::AchievementProgressCheck </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>criteria</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  108</span>{</div>
+<div class="line"><span class="lineno">  109</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/df1/a01082.html#a048d8954e38d54a58ce1657d2aef2475">sAchievementCriteriaStore</a>.LookupEntry(criteria);</div>
+<div class="line"><span class="lineno">  110</span>}</div>
+<div class="ttc" id="aa01082_html_a048d8954e38d54a58ce1657d2aef2475"><div class="ttname"><a href="../../dd/df1/a01082.html#a048d8954e38d54a58ce1657d2aef2475">sAchievementCriteriaStore</a></div><div class="ttdeci">DBCStorage&lt; AchievementCriteriaEntry &gt; sAchievementCriteriaStore(AchievementCriteriafmt)</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../dd/df1/a01082.html#a048d8954e38d54a58ce1657d2aef2475">sAchievementCriteriaStore</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00112">CleanCharacterAchievementProgress()</a>.</p>
+
+</div>
+</div>
+<a id="ab98182e5f92f72090600314cc41f0d39" name="ab98182e5f92f72090600314cc41f0d39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab98182e5f92f72090600314cc41f0d39">&#9670;&#160;</a></span>CheckUnique()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CharacterDatabaseCleaner::CheckUnique </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>column</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool(*)(<a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)&#160;</td>
+          <td class="paramname"><em>check</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   70</span>{</div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_typedef" href="../../d0/d3e/a00566.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d9/d19/a00560.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT DISTINCT {} FROM {}&quot;</span>, column, table);</div>
+<div class="line"><span class="lineno">   72</span>    <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">   73</span>    {</div>
+<div class="line"><span class="lineno">   74</span>        <a class="code hl_define" href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Table {} is empty.&quot;</span>, table);</div>
+<div class="line"><span class="lineno">   75</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   76</span>    }</div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>    <span class="keywordtype">bool</span> found = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   79</span>    std::ostringstream ss;</div>
+<div class="line"><span class="lineno">   80</span>    <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">   81</span>    {</div>
+<div class="line"><span class="lineno">   82</span>        <a class="code hl_class" href="../../db/de6/a05607.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">   83</span> </div>
+<div class="line"><span class="lineno">   84</span>        <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <span class="keywordtype">id</span> = fields[0].<a class="code hl_function" href="../../db/de6/a05607.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">   85</span> </div>
+<div class="line"><span class="lineno">   86</span>        <span class="keywordflow">if</span> (!check(<span class="keywordtype">id</span>))</div>
+<div class="line"><span class="lineno">   87</span>        {</div>
+<div class="line"><span class="lineno">   88</span>            <span class="keywordflow">if</span> (!found)</div>
+<div class="line"><span class="lineno">   89</span>            {</div>
+<div class="line"><span class="lineno">   90</span>                ss &lt;&lt; <span class="stringliteral">&quot;DELETE FROM &quot;</span> &lt;&lt; table &lt;&lt; <span class="stringliteral">&quot; WHERE &quot;</span> &lt;&lt; column &lt;&lt; <span class="stringliteral">&quot; IN (&quot;</span>;</div>
+<div class="line"><span class="lineno">   91</span>                found = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   92</span>            }</div>
+<div class="line"><span class="lineno">   93</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   94</span>                ss &lt;&lt; <span class="charliteral">&#39;,&#39;</span>;</div>
+<div class="line"><span class="lineno">   95</span> </div>
+<div class="line"><span class="lineno">   96</span>            ss &lt;&lt; id;</div>
+<div class="line"><span class="lineno">   97</span>        }</div>
+<div class="line"><span class="lineno">   98</span>    } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">   99</span> </div>
+<div class="line"><span class="lineno">  100</span>    <span class="keywordflow">if</span> (found)</div>
+<div class="line"><span class="lineno">  101</span>    {</div>
+<div class="line"><span class="lineno">  102</span>        ss &lt;&lt; <span class="charliteral">&#39;)&#39;</span>;</div>
+<div class="line"><span class="lineno">  103</span>        <a class="code hl_variable" href="../../d9/d19/a00560.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Execute(ss.str().c_str());</div>
+<div class="line"><span class="lineno">  104</span>    }</div>
+<div class="line"><span class="lineno">  105</span>}</div>
+<div class="ttc" id="aa00230_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa00317_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:164</div></div>
+<div class="ttc" id="aa00560_html_a7e7534bc66d79434bd280b77cb124eec"><div class="ttname"><a href="../../d9/d19/a00560.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; CharacterDatabaseConnection &gt; CharacterDatabase</div><div class="ttdoc">Accessor to the character database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:21</div></div>
+<div class="ttc" id="aa00566_html_ab0c9feeec448a181290fcb39565b8253"><div class="ttname"><a href="../../d0/d3e/a00566.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a></div><div class="ttdeci">std::shared_ptr&lt; ResultSet &gt; QueryResult</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:28</div></div>
+<div class="ttc" id="aa05607_html"><div class="ttname"><a href="../../db/de6/a05607.html">Field</a></div><div class="ttdoc">Class used to access individual fields of database query result.</div><div class="ttdef"><b>Definition:</b> Field.h:99</div></div>
+<div class="ttc" id="aa05607_html_aae507d21d3570ffdaf1643ba02946f01"><div class="ttname"><a href="../../db/de6/a05607.html#aae507d21d3570ffdaf1643ba02946f01">Field::Get</a></div><div class="ttdeci">std::enable_if_t&lt; std::is_arithmetic_v&lt; T &gt;, T &gt; Get() const</div><div class="ttdef"><b>Definition:</b> Field.h:113</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00113">Field::Get()</a>, and <a class="el" href="../../#l00164">LOG_INFO</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00112">CleanCharacterAchievementProgress()</a>, <a class="el" href="../../#l00122">CleanCharacterSkills()</a>, <a class="el" href="../../#l00132">CleanCharacterSpell()</a>, and <a class="el" href="../../#l00146">CleanCharacterTalent()</a>.</p>
+
+</div>
+</div>
+<a id="ae5939466cf9b4fbb63eb136baf62767f" name="ae5939466cf9b4fbb63eb136baf62767f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5939466cf9b4fbb63eb136baf62767f">&#9670;&#160;</a></span>CleanCharacterAchievementProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CharacterDatabaseCleaner::CleanCharacterAchievementProgress </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   56</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d0e/a04744.html#ae1dac1aa360c4d49b61a0cd8af92399c">iBound</a>; }</div>
-<div class="ttc" id="aa04744_html_ae1dac1aa360c4d49b61a0cd8af92399c"><div class="ttname"><a href="../../d8/d0e/a04744.html#ae1dac1aa360c4d49b61a0cd8af92399c">VMAP::ModelSpawn::iBound</a></div><div class="ttdeci">G3D::AABox iBound</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:51</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  113</span>{</div>
+<div class="line"><span class="lineno">  114</span>    <a class="code hl_function" href="../../d8/d0e/a04744.html#ab98182e5f92f72090600314cc41f0d39">CheckUnique</a>(<span class="stringliteral">&quot;criteria&quot;</span>, <span class="stringliteral">&quot;character_achievement_progress&quot;</span>, &amp;AchievementProgressCheck);</div>
+<div class="line"><span class="lineno">  115</span>}</div>
+<div class="ttc" id="aa04744_html_ab98182e5f92f72090600314cc41f0d39"><div class="ttname"><a href="../../d8/d0e/a04744.html#ab98182e5f92f72090600314cc41f0d39">CharacterDatabaseCleaner::CheckUnique</a></div><div class="ttdeci">void CheckUnique(const char *column, const char *table, bool(*check)(uint32))</div><div class="ttdef"><b>Definition:</b> CharacterDatabaseCleaner.cpp:69</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00051">iBound</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00107">AchievementProgressCheck()</a>, and <a class="el" href="../../#l00069">CheckUnique()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00035">BoundsTrait&lt; VMAP::ModelSpawn * &gt;::GetBounds()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00025">CleanDatabase()</a>.</p>
 
 </div>
 </div>
-<a id="ab9713afd57c0bdf9f5ff8d5d12cd567f" name="ab9713afd57c0bdf9f5ff8d5d12cd567f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9713afd57c0bdf9f5ff8d5d12cd567f">&#9670;&#160;</a></span>operator==()</h2>
+<a id="a9f512823f852120bf4c3ec78eb4bbeaa" name="a9f512823f852120bf4c3ec78eb4bbeaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f512823f852120bf4c3ec78eb4bbeaa">&#9670;&#160;</a></span>CleanCharacterQuestStatus()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool VMAP::ModelSpawn::operator== </td>
+          <td class="memname">void CharacterDatabaseCleaner::CleanCharacterQuestStatus </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d8/d0e/a04744.html">ModelSpawn</a> &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   53</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d0e/a04744.html#ab2fdb441870d6ac7ddc05640ec1d0598">ID</a> == other.ID; }</div>
-<div class="ttc" id="aa04744_html_ab2fdb441870d6ac7ddc05640ec1d0598"><div class="ttname"><a href="../../d8/d0e/a04744.html#ab2fdb441870d6ac7ddc05640ec1d0598">VMAP::ModelSpawn::ID</a></div><div class="ttdeci">uint32 ID</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:47</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  153</span>{</div>
+<div class="line"><span class="lineno">  154</span>    <a class="code hl_variable" href="../../d9/d19/a00560.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;DELETE FROM character_queststatus WHERE status = 0&quot;</span>);</div>
+<div class="line"><span class="lineno">  155</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00047">ID</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00021">CharacterDatabase</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00025">CleanDatabase()</a>.</p>
 
 </div>
 </div>
-<a id="a35d7880eb3e295ed3148ca05a2f4520e" name="a35d7880eb3e295ed3148ca05a2f4520e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35d7880eb3e295ed3148ca05a2f4520e">&#9670;&#160;</a></span>readFromFile()</h2>
+<a id="ae8c5d4dc123b8a900254bcbc82c1ffbe" name="ae8c5d4dc123b8a900254bcbc82c1ffbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8c5d4dc123b8a900254bcbc82c1ffbe">&#9670;&#160;</a></span>CleanCharacterSkills()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool VMAP::ModelSpawn::readFromFile </td>
+          <td class="memname">void CharacterDatabaseCleaner::CleanCharacterSkills </td>
           <td>(</td>
-          <td class="paramtype">FILE *&#160;</td>
-          <td class="paramname"><em>rf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d8/d0e/a04744.html">ModelSpawn</a> &amp;&#160;</td>
-          <td class="paramname"><em>spawn</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  161</span>    {</div>
-<div class="line"><span class="lineno">  162</span>        <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> check = 0, nameLen;</div>
-<div class="line"><span class="lineno">  163</span>        check += fread(&amp;spawn.flags, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, rf);</div>
-<div class="line"><span class="lineno">  164</span>        <span class="comment">// EoF?</span></div>
-<div class="line"><span class="lineno">  165</span>        <span class="keywordflow">if</span> (!check)</div>
-<div class="line"><span class="lineno">  166</span>        {</div>
-<div class="line"><span class="lineno">  167</span>            <span class="keywordflow">if</span> (ferror(rf))</div>
-<div class="line"><span class="lineno">  168</span>            {</div>
-<div class="line"><span class="lineno">  169</span>                std::cout &lt;&lt; <span class="stringliteral">&quot;Error reading ModelSpawn!\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  170</span>            }</div>
-<div class="line"><span class="lineno">  171</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  172</span>        }</div>
-<div class="line"><span class="lineno">  173</span>        check += fread(&amp;spawn.adtId, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>), 1, rf);</div>
-<div class="line"><span class="lineno">  174</span>        check += fread(&amp;spawn.ID, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, rf);</div>
-<div class="line"><span class="lineno">  175</span>        check += fread(&amp;spawn.iPos, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, rf);</div>
-<div class="line"><span class="lineno">  176</span>        check += fread(&amp;spawn.iRot, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, rf);</div>
-<div class="line"><span class="lineno">  177</span>        check += fread(&amp;spawn.iScale, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 1, rf);</div>
-<div class="line"><span class="lineno">  178</span>        <span class="keywordtype">bool</span> has_bound = (spawn.flags &amp; <a class="code hl_enumvalue" href="../../d9/d5d/a04461.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09">MOD_HAS_BOUND</a>);</div>
-<div class="line"><span class="lineno">  179</span>        <span class="keywordflow">if</span> (has_bound) <span class="comment">// only WMOs have bound in MPQ, only available after computation</span></div>
-<div class="line"><span class="lineno">  180</span>        {</div>
-<div class="line"><span class="lineno">  181</span>            Vector3 bLow, bHigh;</div>
-<div class="line"><span class="lineno">  182</span>            check += fread(&amp;bLow, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, rf);</div>
-<div class="line"><span class="lineno">  183</span>            check += fread(&amp;bHigh, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, rf);</div>
-<div class="line"><span class="lineno">  184</span>            spawn.iBound = G3D::AABox(bLow, bHigh);</div>
-<div class="line"><span class="lineno">  185</span>        }</div>
-<div class="line"><span class="lineno">  186</span>        check += fread(&amp;nameLen, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, rf);</div>
-<div class="line"><span class="lineno">  187</span>        <span class="keywordflow">if</span> (check != <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(has_bound ? 17 : 11))</div>
-<div class="line"><span class="lineno">  188</span>        {</div>
-<div class="line"><span class="lineno">  189</span>            std::cout &lt;&lt; <span class="stringliteral">&quot;Error reading ModelSpawn!\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  190</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  191</span>        }</div>
-<div class="line"><span class="lineno">  192</span>        <span class="keywordtype">char</span> nameBuff[500];</div>
-<div class="line"><span class="lineno">  193</span>        <span class="keywordflow">if</span> (nameLen &gt; 500) <span class="comment">// file names should never be that long, must be file error</span></div>
-<div class="line"><span class="lineno">  194</span>        {</div>
-<div class="line"><span class="lineno">  195</span>            std::cout &lt;&lt; <span class="stringliteral">&quot;Error reading ModelSpawn, file name too long!\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  196</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  197</span>        }</div>
-<div class="line"><span class="lineno">  198</span>        check = fread(nameBuff, <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>), nameLen, rf);</div>
-<div class="line"><span class="lineno">  199</span>        <span class="keywordflow">if</span> (check != nameLen)</div>
-<div class="line"><span class="lineno">  200</span>        {</div>
-<div class="line"><span class="lineno">  201</span>            std::cout &lt;&lt; <span class="stringliteral">&quot;Error reading ModelSpawn!\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  202</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  203</span>        }</div>
-<div class="line"><span class="lineno">  204</span>        spawn.name = std::string(nameBuff, nameLen);</div>
-<div class="line"><span class="lineno">  205</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  206</span>    }</div>
-<div class="ttc" id="aa00230_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
-<div class="ttc" id="aa00230_html_ad9c79638db63f1dfe2b085743b5cbf7b"><div class="ttname"><a href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></div><div class="ttdeci">std::uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-<div class="ttc" id="aa04461_html_ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09"><div class="ttname"><a href="../../d9/d5d/a04461.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09">VMAP::MOD_HAS_BOUND</a></div><div class="ttdeci">@ MOD_HAS_BOUND</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:38</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  123</span>{</div>
+<div class="line"><span class="lineno">  124</span>    <a class="code hl_function" href="../../d8/d0e/a04744.html#ab98182e5f92f72090600314cc41f0d39">CheckUnique</a>(<span class="stringliteral">&quot;skill&quot;</span>, <span class="stringliteral">&quot;character_skills&quot;</span>, &amp;SkillCheck);</div>
+<div class="line"><span class="lineno">  125</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00046">adtId</a>, <a class="el" href="../../#l00045">flags</a>, <a class="el" href="../../#l00051">iBound</a>, <a class="el" href="../../#l00047">ID</a>, <a class="el" href="../../#l00048">iPos</a>, <a class="el" href="../../#l00049">iRot</a>, <a class="el" href="../../#l00050">iScale</a>, <a class="el" href="../../#l00038">VMAP::MOD_HAS_BOUND</a>, and <a class="el" href="../../#l00052">name</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00069">CheckUnique()</a>, and <a class="el" href="../../#l00117">SkillCheck()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00300">VMAP::StaticMapTree::InitMap()</a>, <a class="el" href="../../#l00369">VMAP::StaticMapTree::LoadMapTile()</a>, <a class="el" href="../../#l00219">VMAP::TileAssembler::readMapSpawns()</a>, and <a class="el" href="../../#l00468">VMAP::StaticMapTree::UnloadMapTile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00025">CleanDatabase()</a>.</p>
 
 </div>
 </div>
-<a id="ae8623dcb78a2af4c9aebd60f67649f34" name="ae8623dcb78a2af4c9aebd60f67649f34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8623dcb78a2af4c9aebd60f67649f34">&#9670;&#160;</a></span>writeToFile()</h2>
+<a id="aca5826d283031348e5d6ae6eb75ad605" name="aca5826d283031348e5d6ae6eb75ad605"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca5826d283031348e5d6ae6eb75ad605">&#9670;&#160;</a></span>CleanCharacterSpell()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool VMAP::ModelSpawn::writeToFile </td>
+          <td class="memname">void CharacterDatabaseCleaner::CleanCharacterSpell </td>
           <td>(</td>
-          <td class="paramtype">FILE *&#160;</td>
-          <td class="paramname"><em>rw</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d8/d0e/a04744.html">ModelSpawn</a> &amp;&#160;</td>
-          <td class="paramname"><em>spawn</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  209</span>    {</div>
-<div class="line"><span class="lineno">  210</span>        <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> check = 0;</div>
-<div class="line"><span class="lineno">  211</span>        check += fwrite(&amp;spawn.flags, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, wf);</div>
-<div class="line"><span class="lineno">  212</span>        check += fwrite(&amp;spawn.adtId, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>), 1, wf);</div>
-<div class="line"><span class="lineno">  213</span>        check += fwrite(&amp;spawn.ID, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, wf);</div>
-<div class="line"><span class="lineno">  214</span>        check += fwrite(&amp;spawn.iPos, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, wf);</div>
-<div class="line"><span class="lineno">  215</span>        check += fwrite(&amp;spawn.iRot, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, wf);</div>
-<div class="line"><span class="lineno">  216</span>        check += fwrite(&amp;spawn.iScale, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 1, wf);</div>
-<div class="line"><span class="lineno">  217</span>        <span class="keywordtype">bool</span> has_bound = (spawn.flags &amp; <a class="code hl_enumvalue" href="../../d9/d5d/a04461.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09">MOD_HAS_BOUND</a>);</div>
-<div class="line"><span class="lineno">  218</span>        <span class="keywordflow">if</span> (has_bound) <span class="comment">// only WMOs have bound in MPQ, only available after computation</span></div>
-<div class="line"><span class="lineno">  219</span>        {</div>
-<div class="line"><span class="lineno">  220</span>            check += fwrite(&amp;spawn.iBound.low(), <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, wf);</div>
-<div class="line"><span class="lineno">  221</span>            check += fwrite(&amp;spawn.iBound.high(), <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, wf);</div>
-<div class="line"><span class="lineno">  222</span>        }</div>
-<div class="line"><span class="lineno">  223</span>        <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> nameLen = spawn.name.length();</div>
-<div class="line"><span class="lineno">  224</span>        check += fwrite(&amp;nameLen, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, wf);</div>
-<div class="line"><span class="lineno">  225</span>        <span class="keywordflow">if</span> (check != <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(has_bound ? 17 : 11)) { <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
-<div class="line"><span class="lineno">  226</span>        check = fwrite(spawn.name.c_str(), <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>), nameLen, wf);</div>
-<div class="line"><span class="lineno">  227</span>        <span class="keywordflow">if</span> (check != nameLen) { <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
-<div class="line"><span class="lineno">  228</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  229</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  133</span>{</div>
+<div class="line"><span class="lineno">  134</span>    <a class="code hl_function" href="../../d8/d0e/a04744.html#ab98182e5f92f72090600314cc41f0d39">CheckUnique</a>(<span class="stringliteral">&quot;spell&quot;</span>, <span class="stringliteral">&quot;character_spell&quot;</span>, &amp;SpellCheck);</div>
+<div class="line"><span class="lineno">  135</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00046">adtId</a>, <a class="el" href="../../#l00045">flags</a>, <a class="el" href="../../#l00051">iBound</a>, <a class="el" href="../../#l00047">ID</a>, <a class="el" href="../../#l00048">iPos</a>, <a class="el" href="../../#l00049">iRot</a>, <a class="el" href="../../#l00050">iScale</a>, <a class="el" href="../../#l00038">VMAP::MOD_HAS_BOUND</a>, and <a class="el" href="../../#l00052">name</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00069">CheckUnique()</a>, and <a class="el" href="../../#l00127">SpellCheck()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00067">VMAP::TileAssembler::convertWorld2()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00025">CleanDatabase()</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a4ebcfe8326eff028e722c9972a16200b" name="a4ebcfe8326eff028e722c9972a16200b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ebcfe8326eff028e722c9972a16200b">&#9670;&#160;</a></span>adtId</h2>
+<a id="a344f61fb209b507b775a0bbfb1315fac" name="a344f61fb209b507b775a0bbfb1315fac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a344f61fb209b507b775a0bbfb1315fac">&#9670;&#160;</a></span>CleanCharacterTalent()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> VMAP::ModelSpawn::adtId</td>
+          <td class="memname">void CharacterDatabaseCleaner::CleanCharacterTalent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  147</span>{</div>
+<div class="line"><span class="lineno">  148</span>    <a class="code hl_variable" href="../../d9/d19/a00560.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;DELETE FROM character_talent WHERE specMask &gt;= {}&quot;</span>, 1 &lt;&lt; <a class="code hl_define" href="../../d3/d56/a04553.html#a20121875e2e4c97a19ccd838f420aa63">MAX_TALENT_SPECS</a>);</div>
+<div class="line"><span class="lineno">  149</span>    <a class="code hl_function" href="../../d8/d0e/a04744.html#ab98182e5f92f72090600314cc41f0d39">CheckUnique</a>(<span class="stringliteral">&quot;spell&quot;</span>, <span class="stringliteral">&quot;character_talent&quot;</span>, &amp;TalentCheck);</div>
+<div class="line"><span class="lineno">  150</span>}</div>
+<div class="ttc" id="aa04553_html_a20121875e2e4c97a19ccd838f420aa63"><div class="ttname"><a href="../../d3/d56/a04553.html#a20121875e2e4c97a19ccd838f420aa63">MAX_TALENT_SPECS</a></div><div class="ttdeci">#define MAX_TALENT_SPECS</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:675</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00069">CheckUnique()</a>, <a class="el" href="../../#l00675">MAX_TALENT_SPECS</a>, and <a class="el" href="../../#l00137">TalentCheck()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00308">VMAP::VMapMgr2::GetAreaAndLiquidData()</a>, <a class="el" href="../../#l00066">VMAP::ModelInstance::intersectPoint()</a>, <a class="el" href="../../#l00160">readFromFile()</a>, and <a class="el" href="../../#l00208">writeToFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00025">CleanDatabase()</a>.</p>
 
 </div>
 </div>
-<a id="acfc7a76db09013abfad8e42aaae59f52" name="acfc7a76db09013abfad8e42aaae59f52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfc7a76db09013abfad8e42aaae59f52">&#9670;&#160;</a></span>flags</h2>
+<a id="a357c8a07f912c6efb55a13cc9bc089b9" name="a357c8a07f912c6efb55a13cc9bc089b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a357c8a07f912c6efb55a13cc9bc089b9">&#9670;&#160;</a></span>CleanDatabase()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> VMAP::ModelSpawn::flags</td>
+          <td class="memname">void CharacterDatabaseCleaner::CleanDatabase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <span class="comment">// config to disable</span></div>
+<div class="line"><span class="lineno">   28</span>    <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../d7/d54/a04666.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getBoolConfig(<a class="code hl_enumvalue" href="../../dc/d09/a02429.html#a1b4b88c03b7d0124998b4c22e957baf0a489bc1b64c8be3bc05baea13ea84ec04">CONFIG_CLEAN_CHARACTER_DB</a>))</div>
+<div class="line"><span class="lineno">   29</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   30</span> </div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_define" href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;misc&quot;</span>, <span class="stringliteral">&quot;Cleaning character database...&quot;</span>);</div>
+<div class="line"><span class="lineno">   32</span> </div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d4/ddf/a00488.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    <span class="comment">// check flags which clean ups are necessary</span></div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_typedef" href="../../d0/d3e/a00566.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d9/d19/a00560.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT value FROM worldstates WHERE entry = {}&quot;</span>, <a class="code hl_enumvalue" href="../../d7/d54/a04666.html#gga0deead4ad87fa303c91e30781af1cd93a01d08199cc10ac795168b08a3bd9f1c4">WS_CLEANING_FLAGS</a>);</div>
+<div class="line"><span class="lineno">   37</span>    <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">   38</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   39</span> </div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> flags = (*result)[0].Get&lt;<a class="code hl_typedef" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">   41</span> </div>
+<div class="line"><span class="lineno">   42</span>    <span class="comment">// clean up</span></div>
+<div class="line"><span class="lineno">   43</span>    <span class="keywordflow">if</span> (flags &amp; CLEANING_FLAG_ACHIEVEMENT_PROGRESS)</div>
+<div class="line"><span class="lineno">   44</span>        <a class="code hl_function" href="../../d8/d0e/a04744.html#ae5939466cf9b4fbb63eb136baf62767f">CleanCharacterAchievementProgress</a>();</div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>    <span class="keywordflow">if</span> (flags &amp; CLEANING_FLAG_SKILLS)</div>
+<div class="line"><span class="lineno">   47</span>        <a class="code hl_function" href="../../d8/d0e/a04744.html#ae8c5d4dc123b8a900254bcbc82c1ffbe">CleanCharacterSkills</a>();</div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>    <span class="keywordflow">if</span> (flags &amp; CLEANING_FLAG_SPELLS)</div>
+<div class="line"><span class="lineno">   50</span>        <a class="code hl_function" href="../../d8/d0e/a04744.html#aca5826d283031348e5d6ae6eb75ad605">CleanCharacterSpell</a>();</div>
+<div class="line"><span class="lineno">   51</span> </div>
+<div class="line"><span class="lineno">   52</span>    <span class="keywordflow">if</span> (flags &amp; CLEANING_FLAG_TALENTS)</div>
+<div class="line"><span class="lineno">   53</span>        <a class="code hl_function" href="../../d8/d0e/a04744.html#a344f61fb209b507b775a0bbfb1315fac">CleanCharacterTalent</a>();</div>
+<div class="line"><span class="lineno">   54</span> </div>
+<div class="line"><span class="lineno">   55</span>    <span class="keywordflow">if</span> (flags &amp; CLEANING_FLAG_QUESTSTATUS)</div>
+<div class="line"><span class="lineno">   56</span>        <a class="code hl_function" href="../../d8/d0e/a04744.html#a9f512823f852120bf4c3ec78eb4bbeaa">CleanCharacterQuestStatus</a>();</div>
+<div class="line"><span class="lineno">   57</span> </div>
+<div class="line"><span class="lineno">   58</span>    <span class="comment">// NOTE: In order to have persistentFlags be set in worldstates for the next cleanup,</span></div>
+<div class="line"><span class="lineno">   59</span>    <span class="comment">// you need to define them at least once in worldstates.</span></div>
+<div class="line"><span class="lineno">   60</span>    flags &amp;= <a class="code hl_define" href="../../d7/d54/a04666.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../dc/d09/a02429.html#a17aac4c166ebe43e3b8fdccf9e012e41ad8950402705db05f483054517038fdcf">CONFIG_PERSISTENT_CHARACTER_CLEAN_FLAGS</a>);</div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_variable" href="../../d9/d19/a00560.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;UPDATE worldstates SET value = {} WHERE entry = {}&quot;</span>, flags, <a class="code hl_enumvalue" href="../../d7/d54/a04666.html#gga0deead4ad87fa303c91e30781af1cd93a01d08199cc10ac795168b08a3bd9f1c4">WS_CLEANING_FLAGS</a>);</div>
+<div class="line"><span class="lineno">   62</span> </div>
+<div class="line"><span class="lineno">   63</span>    <a class="code hl_define" href="../../d7/d54/a04666.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;SetCleaningFlags(flags);</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_define" href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Cleaned character database in {} ms&quot;</span>, <a class="code hl_function" href="../../d4/ddf/a00488.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_define" href="../../da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">   67</span>}</div>
+<div class="ttc" id="aa00488_html_a23a2c8663a05f2b03a6f85501972e8c0"><div class="ttname"><a href="../../d4/ddf/a00488.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a></div><div class="ttdeci">uint32 GetMSTimeDiffToNow(uint32 oldMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:131</div></div>
+<div class="ttc" id="aa00488_html_a4476c8e13ea790c3536f2749105f9cb9"><div class="ttname"><a href="../../d4/ddf/a00488.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a></div><div class="ttdeci">uint32 getMSTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:103</div></div>
+<div class="ttc" id="aa02429_html_a17aac4c166ebe43e3b8fdccf9e012e41ad8950402705db05f483054517038fdcf"><div class="ttname"><a href="../../dc/d09/a02429.html#a17aac4c166ebe43e3b8fdccf9e012e41ad8950402705db05f483054517038fdcf">CONFIG_PERSISTENT_CHARACTER_CLEAN_FLAGS</a></div><div class="ttdeci">@ CONFIG_PERSISTENT_CHARACTER_CLEAN_FLAGS</div><div class="ttdef"><b>Definition:</b> IWorld.h:365</div></div>
+<div class="ttc" id="aa02429_html_a1b4b88c03b7d0124998b4c22e957baf0a489bc1b64c8be3bc05baea13ea84ec04"><div class="ttname"><a href="../../dc/d09/a02429.html#a1b4b88c03b7d0124998b4c22e957baf0a489bc1b64c8be3bc05baea13ea84ec04">CONFIG_CLEAN_CHARACTER_DB</a></div><div class="ttdeci">@ CONFIG_CLEAN_CHARACTER_DB</div><div class="ttdef"><b>Definition:</b> IWorld.h:74</div></div>
+<div class="ttc" id="aa04666_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../d7/d54/a04666.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:444</div></div>
+<div class="ttc" id="aa04666_html_gga0deead4ad87fa303c91e30781af1cd93a01d08199cc10ac795168b08a3bd9f1c4"><div class="ttname"><a href="../../d7/d54/a04666.html#gga0deead4ad87fa303c91e30781af1cd93a01d08199cc10ac795168b08a3bd9f1c4">WS_CLEANING_FLAGS</a></div><div class="ttdeci">@ WS_CLEANING_FLAGS</div><div class="ttdef"><b>Definition:</b> World.h:137</div></div>
+<div class="ttc" id="aa04744_html_a344f61fb209b507b775a0bbfb1315fac"><div class="ttname"><a href="../../d8/d0e/a04744.html#a344f61fb209b507b775a0bbfb1315fac">CharacterDatabaseCleaner::CleanCharacterTalent</a></div><div class="ttdeci">void CleanCharacterTalent()</div><div class="ttdef"><b>Definition:</b> CharacterDatabaseCleaner.cpp:146</div></div>
+<div class="ttc" id="aa04744_html_a9f512823f852120bf4c3ec78eb4bbeaa"><div class="ttname"><a href="../../d8/d0e/a04744.html#a9f512823f852120bf4c3ec78eb4bbeaa">CharacterDatabaseCleaner::CleanCharacterQuestStatus</a></div><div class="ttdeci">void CleanCharacterQuestStatus()</div><div class="ttdef"><b>Definition:</b> CharacterDatabaseCleaner.cpp:152</div></div>
+<div class="ttc" id="aa04744_html_aca5826d283031348e5d6ae6eb75ad605"><div class="ttname"><a href="../../d8/d0e/a04744.html#aca5826d283031348e5d6ae6eb75ad605">CharacterDatabaseCleaner::CleanCharacterSpell</a></div><div class="ttdeci">void CleanCharacterSpell()</div><div class="ttdef"><b>Definition:</b> CharacterDatabaseCleaner.cpp:132</div></div>
+<div class="ttc" id="aa04744_html_ae5939466cf9b4fbb63eb136baf62767f"><div class="ttname"><a href="../../d8/d0e/a04744.html#ae5939466cf9b4fbb63eb136baf62767f">CharacterDatabaseCleaner::CleanCharacterAchievementProgress</a></div><div class="ttdeci">void CleanCharacterAchievementProgress()</div><div class="ttdef"><b>Definition:</b> CharacterDatabaseCleaner.cpp:112</div></div>
+<div class="ttc" id="aa04744_html_ae8c5d4dc123b8a900254bcbc82c1ffbe"><div class="ttname"><a href="../../d8/d0e/a04744.html#ae8c5d4dc123b8a900254bcbc82c1ffbe">CharacterDatabaseCleaner::CleanCharacterSkills</a></div><div class="ttdeci">void CleanCharacterSkills()</div><div class="ttdef"><b>Definition:</b> CharacterDatabaseCleaner.cpp:122</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00112">CleanCharacterAchievementProgress()</a>, <a class="el" href="../../#l00152">CleanCharacterQuestStatus()</a>, <a class="el" href="../../#l00122">CleanCharacterSkills()</a>, <a class="el" href="../../#l00132">CleanCharacterSpell()</a>, <a class="el" href="../../#l00146">CleanCharacterTalent()</a>, <a class="el" href="../../#l00027">CLEANING_FLAG_ACHIEVEMENT_PROGRESS</a>, <a class="el" href="../../#l00031">CLEANING_FLAG_QUESTSTATUS</a>, <a class="el" href="../../#l00028">CLEANING_FLAG_SKILLS</a>, <a class="el" href="../../#l00029">CLEANING_FLAG_SPELLS</a>, <a class="el" href="../../#l00030">CLEANING_FLAG_TALENTS</a>, <a class="el" href="../../#l00074">CONFIG_CLEAN_CHARACTER_DB</a>, <a class="el" href="../../#l00365">CONFIG_PERSISTENT_CHARACTER_CLEAN_FLAGS</a>, <a class="el" href="../../#l00103">getMSTime()</a>, <a class="el" href="../../#l00131">GetMSTimeDiffToNow()</a>, <a class="el" href="../../#l00164">LOG_INFO</a>, <a class="el" href="../../#l00444">sWorld</a>, and <a class="el" href="../../#l00137">WS_CLEANING_FLAGS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00067">VMAP::TileAssembler::convertWorld2()</a>, <a class="el" href="../../#l00104">VMAP::ModelInstance::GetLocationInfo()</a>, <a class="el" href="../../#l00300">VMAP::StaticMapTree::InitMap()</a>, <a class="el" href="../../#l00066">VMAP::ModelInstance::intersectPoint()</a>, <a class="el" href="../../#l00369">VMAP::StaticMapTree::LoadMapTile()</a>, <a class="el" href="../../#l00160">readFromFile()</a>, and <a class="el" href="../../#l00208">writeToFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01493">World::SetInitialWorldSettings()</a>.</p>
 
 </div>
 </div>
-<a id="ae1dac1aa360c4d49b61a0cd8af92399c" name="ae1dac1aa360c4d49b61a0cd8af92399c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1dac1aa360c4d49b61a0cd8af92399c">&#9670;&#160;</a></span>iBound</h2>
+<a id="a0f72cf24646d1ece0eb793890840992d" name="a0f72cf24646d1ece0eb793890840992d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f72cf24646d1ece0eb793890840992d">&#9670;&#160;</a></span>SkillCheck()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">G3D::AABox VMAP::ModelSpawn::iBound</td>
+          <td class="memname">bool CharacterDatabaseCleaner::SkillCheck </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>skill</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  118</span>{</div>
+<div class="line"><span class="lineno">  119</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/df1/a01082.html#ab4bb35cde6511a56d8b9d23f4290f8e7">sSkillLineStore</a>.LookupEntry(skill);</div>
+<div class="line"><span class="lineno">  120</span>}</div>
+<div class="ttc" id="aa01082_html_ab4bb35cde6511a56d8b9d23f4290f8e7"><div class="ttname"><a href="../../dd/df1/a01082.html#ab4bb35cde6511a56d8b9d23f4290f8e7">sSkillLineStore</a></div><div class="ttdeci">DBCStorage&lt; SkillLineEntry &gt; sSkillLineStore(SkillLinefmt)</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../dd/df1/a01082.html#ab4bb35cde6511a56d8b9d23f4290f8e7">sSkillLineStore</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00056">GetBounds()</a>, <a class="el" href="../../#l00104">VMAP::ModelInstance::GetLocationInfo()</a>, <a class="el" href="../../#l00066">VMAP::ModelInstance::intersectPoint()</a>, <a class="el" href="../../#l00033">VMAP::ModelInstance::intersectRay()</a>, <a class="el" href="../../#l00160">readFromFile()</a>, and <a class="el" href="../../#l00208">writeToFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00122">CleanCharacterSkills()</a>.</p>
 
 </div>
 </div>
-<a id="ab2fdb441870d6ac7ddc05640ec1d0598" name="ab2fdb441870d6ac7ddc05640ec1d0598"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2fdb441870d6ac7ddc05640ec1d0598">&#9670;&#160;</a></span>ID</h2>
+<a id="a02688f57778d28a7bcc4ca6cee2074ad" name="a02688f57778d28a7bcc4ca6cee2074ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02688f57778d28a7bcc4ca6cee2074ad">&#9670;&#160;</a></span>SpellCheck()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> VMAP::ModelSpawn::ID</td>
+          <td class="memname">bool CharacterDatabaseCleaner::SpellCheck </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>spell_id</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  128</span>{</div>
+<div class="line"><span class="lineno">  129</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="../../d1/da3/a02327.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(spell_id) &amp;&amp; !<a class="code hl_function" href="../../dd/df1/a01082.html#a54a2fd7b69755d6c98273a1169cf42ac">GetTalentSpellPos</a>(spell_id);</div>
+<div class="line"><span class="lineno">  130</span>}</div>
+<div class="ttc" id="aa01082_html_a54a2fd7b69755d6c98273a1169cf42ac"><div class="ttname"><a href="../../dd/df1/a01082.html#a54a2fd7b69755d6c98273a1169cf42ac">GetTalentSpellPos</a></div><div class="ttdeci">TalentSpellPos const * GetTalentSpellPos(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> DBCStores.cpp:677</div></div>
+<div class="ttc" id="aa02327_html_aa21e14d8e1145507b746a69b5487109d"><div class="ttname"><a href="../../d1/da3/a02327.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a></div><div class="ttdeci">#define sSpellMgr</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:825</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00677">GetTalentSpellPos()</a>, and <a class="el" href="../../#l00825">sSpellMgr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00067">VMAP::TileAssembler::convertWorld2()</a>, <a class="el" href="../../#l00369">VMAP::StaticMapTree::LoadMapTile()</a>, <a class="el" href="../../#l00053">operator==()</a>, <a class="el" href="../../#l00160">readFromFile()</a>, <a class="el" href="../../#l00219">VMAP::TileAssembler::readMapSpawns()</a>, <a class="el" href="../../#l00468">VMAP::StaticMapTree::UnloadMapTile()</a>, and <a class="el" href="../../#l00208">writeToFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00132">CleanCharacterSpell()</a>.</p>
 
 </div>
 </div>
-<a id="abb5966f87710bc6a1f5da766c99b3e12" name="abb5966f87710bc6a1f5da766c99b3e12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb5966f87710bc6a1f5da766c99b3e12">&#9670;&#160;</a></span>iPos</h2>
+<a id="aac707369555aa95807c11b1578ae80d2" name="aac707369555aa95807c11b1578ae80d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac707369555aa95807c11b1578ae80d2">&#9670;&#160;</a></span>TalentCheck()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">G3D::Vector3 VMAP::ModelSpawn::iPos</td>
+          <td class="memname">bool CharacterDatabaseCleaner::TalentCheck </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/da8/a00230.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>talent_id</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  138</span>{</div>
+<div class="line"><span class="lineno">  139</span>    <a class="code hl_struct" href="../../d6/d99/a28267.html">TalentEntry</a> <span class="keyword">const</span>* talentInfo = <a class="code hl_variable" href="../../dd/df1/a01082.html#abd81359499a4a51a71b17ea8f9f7ad62">sTalentStore</a>.LookupEntry(talent_id);</div>
+<div class="line"><span class="lineno">  140</span>    <span class="keywordflow">if</span> (!talentInfo)</div>
+<div class="line"><span class="lineno">  141</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  142</span> </div>
+<div class="line"><span class="lineno">  143</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/df1/a01082.html#a111cdde159e7a6e6fe1d69cab384258c">sTalentTabStore</a>.LookupEntry(talentInfo-&gt;<a class="code hl_variable" href="../../d6/d99/a28267.html#acefe6f8c0a5b3893e2a9f828d500df68">TalentTab</a>);</div>
+<div class="line"><span class="lineno">  144</span>}</div>
+<div class="ttc" id="aa01082_html_a111cdde159e7a6e6fe1d69cab384258c"><div class="ttname"><a href="../../dd/df1/a01082.html#a111cdde159e7a6e6fe1d69cab384258c">sTalentTabStore</a></div><div class="ttdeci">DBCStorage&lt; TalentTabEntry &gt; sTalentTabStore(TalentTabEntryfmt)</div></div>
+<div class="ttc" id="aa01082_html_abd81359499a4a51a71b17ea8f9f7ad62"><div class="ttname"><a href="../../dd/df1/a01082.html#abd81359499a4a51a71b17ea8f9f7ad62">sTalentStore</a></div><div class="ttdeci">DBCStorage&lt; TalentEntry &gt; sTalentStore(TalentEntryfmt)</div></div>
+<div class="ttc" id="aa28267_html"><div class="ttname"><a href="../../d6/d99/a28267.html">TalentEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1923</div></div>
+<div class="ttc" id="aa28267_html_acefe6f8c0a5b3893e2a9f828d500df68"><div class="ttname"><a href="../../d6/d99/a28267.html#acefe6f8c0a5b3893e2a9f828d500df68">TalentEntry::TalentTab</a></div><div class="ttdeci">uint32 TalentTab</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1925</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../dd/df1/a01082.html#abd81359499a4a51a71b17ea8f9f7ad62">sTalentStore</a>, <a class="el" href="../../dd/df1/a01082.html#a111cdde159e7a6e6fe1d69cab384258c">sTalentTabStore</a>, and <a class="el" href="../../#l01925">TalentEntry::TalentTab</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00144">VMAP::ModelInstance::GetLiquidLevel()</a>, <a class="el" href="../../#l00104">VMAP::ModelInstance::GetLocationInfo()</a>, <a class="el" href="../../#l00066">VMAP::ModelInstance::intersectPoint()</a>, <a class="el" href="../../#l00033">VMAP::ModelInstance::intersectRay()</a>, <a class="el" href="../../#l00664">MMAP::TerrainBuilder::loadVMap()</a>, <a class="el" href="../../#l00160">readFromFile()</a>, and <a class="el" href="../../#l00208">writeToFile()</a>.</p>
-
-</div>
-</div>
-<a id="a6d0b4f6bde1a20b246e4b22cc43e25af" name="a6d0b4f6bde1a20b246e4b22cc43e25af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d0b4f6bde1a20b246e4b22cc43e25af">&#9670;&#160;</a></span>iRot</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">G3D::Vector3 VMAP::ModelSpawn::iRot</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00664">MMAP::TerrainBuilder::loadVMap()</a>, <a class="el" href="../../#l00027">VMAP::ModelInstance::ModelInstance()</a>, <a class="el" href="../../#l00160">readFromFile()</a>, and <a class="el" href="../../#l00208">writeToFile()</a>.</p>
-
-</div>
-</div>
-<a id="aad355d0fb09ff0360ed19610bef92d8e" name="aad355d0fb09ff0360ed19610bef92d8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad355d0fb09ff0360ed19610bef92d8e">&#9670;&#160;</a></span>iScale</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float VMAP::ModelSpawn::iScale</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00144">VMAP::ModelInstance::GetLiquidLevel()</a>, <a class="el" href="../../#l00104">VMAP::ModelInstance::GetLocationInfo()</a>, <a class="el" href="../../#l00066">VMAP::ModelInstance::intersectPoint()</a>, <a class="el" href="../../#l00033">VMAP::ModelInstance::intersectRay()</a>, <a class="el" href="../../#l00664">MMAP::TerrainBuilder::loadVMap()</a>, <a class="el" href="../../#l00027">VMAP::ModelInstance::ModelInstance()</a>, <a class="el" href="../../#l00160">readFromFile()</a>, and <a class="el" href="../../#l00208">writeToFile()</a>.</p>
-
-</div>
-</div>
-<a id="a66e19a4a28f8fc0c537f1315d9bddcfb" name="a66e19a4a28f8fc0c537f1315d9bddcfb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66e19a4a28f8fc0c537f1315d9bddcfb">&#9670;&#160;</a></span>name</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string VMAP::ModelSpawn::name</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00300">VMAP::StaticMapTree::InitMap()</a>, <a class="el" href="../../#l00369">VMAP::StaticMapTree::LoadMapTile()</a>, <a class="el" href="../../#l00664">MMAP::TerrainBuilder::loadVMap()</a>, <a class="el" href="../../#l00160">readFromFile()</a>, <a class="el" href="../../#l00353">VMAP::StaticMapTree::UnloadMap()</a>, <a class="el" href="../../#l00468">VMAP::StaticMapTree::UnloadMapTile()</a>, and <a class="el" href="../../#l00208">writeToFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00146">CleanCharacterTalent()</a>.</p>
 
 </div>
 </div>
@@ -505,8 +582,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d9/d5d/a04461.html">VMAP</a></li><li class="navelem"><a class="el" href="../../d8/d0e/a04744.html">ModelSpawn</a></li>
-    <li class="footer">Generated on Fri Mar 17 2023 04:05:51 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../d8/d0e/a04744.html">CharacterDatabaseCleaner</a></li>
+    <li class="footer">Generated on Sat Aug 24 2024 20:29:23 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

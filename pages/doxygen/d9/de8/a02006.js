@@ -1,4 +1,4 @@
 var a02006 =
 [
-    [ "ScriptRegistry< GuildScript >", "d9/de8/a02006.html#af7c126caabb7b664b2a28086b5f7737e", null ]
+    [ "ScriptRegistry< GlobalScript >", "d9/de8/a02006.html#aab5e9d371cdc72eb5a60f210f00cdc34", null ]
 ];

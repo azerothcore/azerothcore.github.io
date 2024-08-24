@@ -1,4 +1,4 @@
 var a01994 =
 [
-    [ "ScriptRegistry< GlobalScript >", "d4/dae/a01994.html#aab5e9d371cdc72eb5a60f210f00cdc34", null ]
+    [ "ScriptRegistry< GameEventScript >", "d4/dae/a01994.html#a4026f0cd70a2a24f741b1579c24ec594", null ]
 ];

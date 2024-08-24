@@ -1,4 +1,4 @@
 var a01949 =
 [
-    [ "ConditionScript", "df/daa/a09905.html", "df/daa/a09905" ]
+    [ "BattlegroundScript", "d8/dd7/a09963.html", "d8/dd7/a09963" ]
 ];

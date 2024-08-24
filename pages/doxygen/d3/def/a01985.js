@@ -1,4 +1,4 @@
 var a01985 =
 [
-    [ "GameEventScript", "db/dc0/a09937.html", "db/dc0/a09937" ]
+    [ "ElunaScript", "da/d38/a09995.html", "da/d38/a09995" ]
 ];

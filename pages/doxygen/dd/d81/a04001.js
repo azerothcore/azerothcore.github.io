@@ -1,6 +1,5 @@
 var a04001 =
 [
-    [ "instance_mana_tombs", "d1/dc3/a24217.html", "d1/dc3/a24217" ],
-    [ "instance_mana_tombs::instance_mana_tombs_InstanceMapScript", "de/d91/a24221.html", "de/d91/a24221" ],
-    [ "AddSC_instance_mana_tombs", "dd/d81/a04001.html#ab3a34e5f5a1433a62cdca43b8f13182c", null ]
+    [ "OutdoorPvP_zangarmarsh", "d1/d66/a22531.html", "d1/d66/a22531" ],
+    [ "AddSC_outdoorpvp_zm", "dd/d81/a04001.html#a3077d08865fa83f84cf956c392a9091c", null ]
 ];

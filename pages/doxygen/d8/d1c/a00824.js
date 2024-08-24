@@ -1,13 +1,13 @@
 var a00824 =
 [
-    [ "WayPoint", "d4/dc7/a06113.html", "d4/dc7/a06113" ],
-    [ "SmartEvent", "da/d28/a06117.html", "da/d28/a06117" ],
-    [ "SmartAction", "d5/d89/a06289.html", "d5/d89/a06289" ],
-    [ "SmartTarget", "db/d92/a06753.html", "db/d92/a06753" ],
-    [ "SmartScriptHolder", "d5/df0/a06857.html", "d5/df0/a06857" ],
-    [ "ObjectGuidVector", "de/db3/a06861.html", "de/db3/a06861" ],
-    [ "SmartWaypointMgr", "d5/d2d/a06865.html", "d5/d2d/a06865" ],
-    [ "SmartAIMgr", "d5/dfb/a06869.html", "d5/dfb/a06869" ],
+    [ "WayPoint", "d7/dc5/a06143.html", "d7/dc5/a06143" ],
+    [ "SmartEvent", "d1/d10/a06147.html", "d1/d10/a06147" ],
+    [ "SmartAction", "dd/d54/a06323.html", "dd/d54/a06323" ],
+    [ "SmartTarget", "de/d77/a06799.html", "de/d77/a06799" ],
+    [ "SmartScriptHolder", "da/daf/a06903.html", "da/daf/a06903" ],
+    [ "ObjectGuidVector", "d5/d4d/a06907.html", "d5/d4d/a06907" ],
+    [ "SmartWaypointMgr", "d4/d6a/a06911.html", "d4/d6a/a06911" ],
+    [ "SmartAIMgr", "dd/ddf/a06915.html", "dd/ddf/a06915" ],
     [ "sSmartScriptMgr", "d8/d1c/a00824.html#a6fcbfe722a7e6345cf5c655c860d9ad3", null ],
     [ "sSmartWaypointMgr", "d8/d1c/a00824.html#a2f98805bdaae76c9a1c2b6ce9e815d84", null ],
     [ "ObjectVector", "d8/d1c/a00824.html#a3d080db7fa99da7af5bcaa7720f359d1", null ],
@@ -170,7 +170,6 @@ var a00824 =
       [ "SMART_ACTION_EXIT_VEHICLE", "d8/d1c/a00824.html#a7b5604e647b8ac28cc6a4a64deceeebca9f776489dc53e46a169aac7570ca5eff", null ],
       [ "SMART_ACTION_SET_UNIT_MOVEMENT_FLAGS", "d8/d1c/a00824.html#a7b5604e647b8ac28cc6a4a64deceeebca4ff94ba2707039a9459bc26701cba4ec", null ],
       [ "SMART_ACTION_SET_COMBAT_DISTANCE", "d8/d1c/a00824.html#a7b5604e647b8ac28cc6a4a64deceeebca72a1b87b0eeb3118909403489af3ef8c", null ],
-      [ "SMART_ACTION_SET_CASTER_COMBAT_DIST", "d8/d1c/a00824.html#a7b5604e647b8ac28cc6a4a64deceeebcaeb918fa9ba567cc44b818e68e21114f2", null ],
       [ "SMART_ACTION_SET_HOVER", "d8/d1c/a00824.html#a7b5604e647b8ac28cc6a4a64deceeebca43c6978abbb634b5c471e5959a92c9e4", null ],
       [ "SMART_ACTION_ADD_IMMUNITY", "d8/d1c/a00824.html#a7b5604e647b8ac28cc6a4a64deceeebca7889ea2c8c5dc1998efcd8ba0381955d", null ],
       [ "SMART_ACTION_REMOVE_IMMUNITY", "d8/d1c/a00824.html#a7b5604e647b8ac28cc6a4a64deceeebcaedf7438f7eb3676e0de46489eabf94e4", null ],
@@ -196,6 +195,11 @@ var a00824 =
       [ "SMART_ACTION_PLAY_SPELL_VISUAL", "d8/d1c/a00824.html#a7b5604e647b8ac28cc6a4a64deceeebcaee7b1942c9c60cf5d8ff04f6d1a826af", null ],
       [ "SMART_ACTION_FOLLOW_GROUP", "d8/d1c/a00824.html#a7b5604e647b8ac28cc6a4a64deceeebca5b9482d48627eea5168f2a336b6627b4", null ],
       [ "SMART_ACTION_SET_ORIENTATION_TARGET", "d8/d1c/a00824.html#a7b5604e647b8ac28cc6a4a64deceeebca4dbab9b9ab906915a87dacd1d90631da", null ],
+      [ "SMART_ACTION_WAYPOINT_DATA_START", "d8/d1c/a00824.html#a7b5604e647b8ac28cc6a4a64deceeebca6bee634425a81e8c7be212ae24553400", null ],
+      [ "SMART_ACTION_WAYPOINT_DATA_RANDOM", "d8/d1c/a00824.html#a7b5604e647b8ac28cc6a4a64deceeebcac0a1c074407b534a34d7b9438485e832", null ],
+      [ "SMART_ACTION_MOVEMENT_STOP", "d8/d1c/a00824.html#a7b5604e647b8ac28cc6a4a64deceeebca3b44cdbe14461305e6bc05f301f009ae", null ],
+      [ "SMART_ACTION_MOVEMENT_PAUSE", "d8/d1c/a00824.html#a7b5604e647b8ac28cc6a4a64deceeebcaaf59e3054ca8582e258de99e02a156f9", null ],
+      [ "SMART_ACTION_MOVEMENT_RESUME", "d8/d1c/a00824.html#a7b5604e647b8ac28cc6a4a64deceeebca2b1608d8533efbcc9a63811f09c6c2ef", null ],
       [ "SMART_ACTION_AC_END", "d8/d1c/a00824.html#a7b5604e647b8ac28cc6a4a64deceeebcaacf291aa22d320776664fc49e057aae6", null ]
     ] ],
     [ "SMART_EVENT", "d8/d1c/a00824.html#a8e5d5aa0dedbff31bb70e7955ad5bf97", [
@@ -290,6 +294,9 @@ var a00824 =
       [ "SMART_EVENT_NEAR_UNIT_NEGATION", "d8/d1c/a00824.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a5504b55fa7daf2ede928952fca01baf6", null ],
       [ "SMART_EVENT_AREA_CASTING", "d8/d1c/a00824.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a3a1f0f2731ff3aa2346729d540d5337c", null ],
       [ "SMART_EVENT_AREA_RANGE", "d8/d1c/a00824.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a8e16e1ba2ac90694e9f8ccdffe191423", null ],
+      [ "SMART_EVENT_SUMMONED_UNIT_EVADE", "d8/d1c/a00824.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a9e1c657a6474a7d937ff806d5aaf0510", null ],
+      [ "SMART_EVENT_WAYPOINT_DATA_REACHED", "d8/d1c/a00824.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a72bd028c5616c67049af2cea004f5b49", null ],
+      [ "SMART_EVENT_WAYPOINT_DATA_ENDED", "d8/d1c/a00824.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a67bb3ac273003bcb87d7ec485b7d4ca1", null ],
       [ "SMART_EVENT_AC_END", "d8/d1c/a00824.html#a8e5d5aa0dedbff31bb70e7955ad5bf97ab6c11427824eb38875d928153b8c4762", null ]
     ] ],
     [ "SMART_EVENT_PHASE", "d8/d1c/a00824.html#acd26a1a0a2488cd1cfa946dab6ed4b8c", [
@@ -418,7 +425,8 @@ var a00824 =
       [ "SMART_EVENT_FLAG_DONT_RESET", "d8/d1c/a00824.html#a20d286634b226dd65acf6f7a60dfbb10a6a25e17019cbf0edf4df2227fd320192", null ],
       [ "SMART_EVENT_FLAG_WHILE_CHARMED", "d8/d1c/a00824.html#a20d286634b226dd65acf6f7a60dfbb10a2c93b369d088e7caffb9fbd9e3beab5b", null ],
       [ "SMART_EVENT_FLAG_DIFFICULTY_ALL", "d8/d1c/a00824.html#a20d286634b226dd65acf6f7a60dfbb10a4ef19775eff2303e6c0a942b3c6b5117", null ],
-      [ "SMART_EVENT_FLAGS_ALL", "d8/d1c/a00824.html#a20d286634b226dd65acf6f7a60dfbb10a900517f47580cdc10c69b79f28a17aef", null ]
+      [ "SMART_EVENT_FLAGS_ALL", "d8/d1c/a00824.html#a20d286634b226dd65acf6f7a60dfbb10a900517f47580cdc10c69b79f28a17aef", null ],
+      [ "SMART_EVENT_FLAG_TEMP_IGNORE_CHANCE_ROLL", "d8/d1c/a00824.html#a20d286634b226dd65acf6f7a60dfbb10ae3b8721ea5630f5be9f5e4085528d733", null ]
     ] ],
     [ "SmartFollowType", "d8/d1c/a00824.html#a81ef79b35706c659499bccc2d0786818", [
       [ "FOLLOW_TYPE_CIRCLE", "d8/d1c/a00824.html#a81ef79b35706c659499bccc2d0786818a3d297bf7140a15f78734a6c85fb3520b", null ],

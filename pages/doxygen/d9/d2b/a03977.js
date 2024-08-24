@@ -1,11 +1,9 @@
 var a03977 =
 [
-    [ "AddOutdoorPvPScripts", "d9/d2b/a03977.html#a489bdfb4854732e561b6b13b70f67a0f", null ],
-    [ "AddSC_outdoorpvp_ep", "d9/d2b/a03977.html#ac97adfc1efbcf82840cffa915a55fecb", null ],
-    [ "AddSC_outdoorpvp_gh", "d9/d2b/a03977.html#a04eaa29ec2e34f71e4f7addacc0405c0", null ],
+    [ "OutdoorPvP_hellfire_peninsula", "d5/d6a/a22475.html", "d5/d6a/a22475" ],
     [ "AddSC_outdoorpvp_hp", "d9/d2b/a03977.html#a69303ad6f661d8c009ee493dc4fd486c", null ],
-    [ "AddSC_outdoorpvp_na", "d9/d2b/a03977.html#a03015585e7619177355fefd05f85e1c7", null ],
-    [ "AddSC_outdoorpvp_si", "d9/d2b/a03977.html#a6dfd2849f525333510ae4febbbc3ae1f", null ],
-    [ "AddSC_outdoorpvp_tf", "d9/d2b/a03977.html#a6df553c8dd6e9b81e83110e7beab3646", null ],
-    [ "AddSC_outdoorpvp_zm", "d9/d2b/a03977.html#a3077d08865fa83f84cf956c392a9091c", null ]
+    [ "HP_LANG_CAPTURE_A", "d9/d2b/a03977.html#a642fe1233b764402bae812604b684442", null ],
+    [ "HP_LANG_CAPTURE_H", "d9/d2b/a03977.html#a3ae9bb2c949b7f3c852ce2e4552d8ccd", null ],
+    [ "HP_LANG_LOSE_A", "d9/d2b/a03977.html#a1b9adf9c71e549e4545c2e4eabe58dd5", null ],
+    [ "HP_LANG_LOSE_H", "d9/d2b/a03977.html#ad62cd8f07ac98311202494985c6ae9c8", null ]
 ];

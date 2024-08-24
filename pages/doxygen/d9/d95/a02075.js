@@ -1,4 +1,4 @@
 var a02075 =
 [
-    [ "ScriptRegistry< SpellScriptLoader >", "d9/d95/a02075.html#aae80ff7a03e35c91f47550f388c3f3bb", null ]
+    [ "ScriptRegistry< PlayerScript >", "d9/d95/a02075.html#a9c8e85c6181ce386db051bb0a0e6a533", null ]
 ];

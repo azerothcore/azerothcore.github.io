@@ -1,11 +1,16 @@
 var a04737 =
 [
-    [ "material", "d3/de8/a04737.html#a29addcb613bc63a100633e612d1dc2d2", null ],
-    [ "pos_x", "d3/de8/a04737.html#a02e9d8789336d77e34bffa19adbab394", null ],
-    [ "pos_y", "d3/de8/a04737.html#ac3162ce321a1f21e4e6fe35041e49a6a", null ],
-    [ "pos_z", "d3/de8/a04737.html#a6e2a2d5d9151d5c6d70fd0d47e6c18e3", null ],
-    [ "xtiles", "d3/de8/a04737.html#a94789843c68d705184e6332ac46bd69d", null ],
-    [ "xverts", "d3/de8/a04737.html#a0548c3fdb216c115a7d3843e4fbc6de3", null ],
-    [ "ytiles", "d3/de8/a04737.html#ac50224cdce231460c78c3e0f077b555d", null ],
-    [ "yverts", "d3/de8/a04737.html#aa9ecb62b53af527b3bd855b8e93ba604", null ]
+    [ "CrossedInebriationThreshold", "d2/d23/a10503.html", "d2/d23/a10503" ],
+    [ "DurabilityDamageDeath", "dd/d5b/a10499.html", "dd/d5b/a10499" ],
+    [ "LevelUpInfo", "de/d6e/a10463.html", "de/d6e/a10463" ],
+    [ "PauseMirrorTimer", "d0/d32/a10491.html", "d0/d32/a10491" ],
+    [ "PlayMusic", "da/db4/a10467.html", "da/db4/a10467" ],
+    [ "PlayObjectSound", "d1/d06/a10471.html", "d1/d06/a10471" ],
+    [ "Playsound", "d3/d82/a10475.html", "d3/d82/a10475" ],
+    [ "RandomRoll", "db/d13/a10483.html", "db/d13/a10483" ],
+    [ "RandomRollClient", "d3/d24/a10479.html", "d3/d24/a10479" ],
+    [ "StartMirrorTimer", "dd/d3b/a10487.html", "dd/d3b/a10487" ],
+    [ "StopMirrorTimer", "d1/d36/a10495.html", "d1/d36/a10495" ],
+    [ "UITime", "d3/d87/a10507.html", "d3/d87/a10507" ],
+    [ "Weather", "d3/d8a/a10459.html", "d3/d8a/a10459" ]
 ];

@@ -1,4 +1,4 @@
 var a02105 =
 [
-    [ "ScriptRegistry< WorldMapScript >", "db/d7a/a02105.html#a729e333e6d0c4e5e353dd22c9612f446", null ]
+    [ "ScriptRegistry< VehicleScript >", "db/d7a/a02105.html#af505a519aaa0d7e6070eb203075ff98d", null ]
 ];

@@ -1,5 +1,5 @@
 var a02546 =
 [
-    [ "send_commandscript", "da/d90/a11357.html", "da/d90/a11357" ],
-    [ "AddSC_send_commandscript", "d1/d1a/a02546.html#a9f3fee551f6ca7aa7dad83edb2dfe480", null ]
+    [ "quest_commandscript", "d6/d15/a11411.html", "d6/d15/a11411" ],
+    [ "AddSC_quest_commandscript", "d1/d1a/a02546.html#ae9edb5f21eaacbfd73cc01543cb2fcdd", null ]
 ];

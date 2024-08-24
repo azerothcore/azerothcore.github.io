@@ -1,5 +1,4 @@
 var a01670 =
 [
-    [ "GetEnableModulesList", "de/df6/a01670.html#a2a2aa3aabfbef586b9a1e63fbae0e0f7", null ],
-    [ "SetEnableModulesList", "de/df6/a01670.html#ac16569c9333f642e54fa7a4ec6a948e3", null ]
+    [ "_modulesList", "de/df6/a01670.html#aa8df8c5e3d2ad2852ea850d12636d578", null ]
 ];

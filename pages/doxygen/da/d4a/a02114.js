@@ -1,4 +1,4 @@
 var a02114 =
 [
-    [ "WorldObjectScript", "da/dbb/a10037.html", "da/dbb/a10037" ]
+    [ "WeatherScript", "d1/dc6/a10095.html", "d1/dc6/a10095" ]
 ];

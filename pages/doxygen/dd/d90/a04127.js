@@ -1,19 +1,18 @@
 var a04127 =
 [
-    [ "boss_mekgineer_steamrigger", "d1/d61/a25045.html", "d1/d61/a25045" ],
-    [ "MekgineerSteamrigger", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dd", [
-      [ "SAY_MECHANICS", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4ddac616ae8f03c32cc59f26b5337aae84ba", null ],
-      [ "SAY_AGGRO", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda47c752fff069f3e55065795eef2a9bfe", null ],
-      [ "SAY_SLAY", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda9e64f6e600dd42567d18006912811f75", null ],
-      [ "SAY_DEATH", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda04c962d9b6aaafde54ff92a54369135e", null ],
-      [ "SPELL_SUPER_SHRINK_RAY", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda4499c6dfeb4c15552b20d4bdc0e63edd", null ],
-      [ "SPELL_SAW_BLADE", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4ddabe5ec412b26a2ffb5cd6071f90620e58", null ],
-      [ "SPELL_ELECTRIFIED_NET", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda8af7ec94d6adf009820da95c833d041a", null ],
-      [ "SPELL_ENRAGE", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda2a20f56307679be4d4f01a0d3d93cc7e", null ],
-      [ "SPELL_SUMMON_MECHANICS_1", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda48f35e8fc2aae6e24c0616e4c1b13d01", null ],
-      [ "SPELL_SUMMON_MECHANICS_2", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4ddae60e2ad853b074c2f53e31ca1e5f8ff1", null ],
-      [ "SPELL_SUMMON_MECHANICS_3", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda5059715773c9ffed1b3ef2ff2c8f289c", null ],
-      [ "NPC_STREAMRIGGER_MECHANIC", "dd/d90/a04127.html#a4766bad7859befee09dc2ce208e1c4dda6eb80a7e6891ababaf4ac14b1d9f890e", null ]
-    ] ],
-    [ "AddSC_boss_mekgineer_steamrigger", "dd/d90/a04127.html#a9aa3518f4196a7c844ab6ffafbc91068", null ]
+    [ "instance_serpent_shrine", "d8/d4c/a23195.html", "d8/d4c/a23195" ],
+    [ "instance_serpent_shrine::instance_serpentshrine_cavern_InstanceMapScript", "d9/d53/a23199.html", "d9/d53/a23199" ],
+    [ "spell_serpentshrine_cavern_serpentshrine_parasite", "d5/db0/a23203.html", "d5/db0/a23203" ],
+    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger_aura", "dc/dca/a23207.html", "dc/dca/a23207" ],
+    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger", "dd/da8/a23211.html", "dd/da8/a23211" ],
+    [ "spell_serpentshrine_cavern_infection", "d9/d05/a23215.html", "d9/d05/a23215" ],
+    [ "spell_serpentshrine_cavern_coilfang_water", "d0/da4/a23219.html", "d0/da4/a23219" ],
+    [ "npc_rancid_mushroom", "da/d05/a23223.html", "da/d05/a23223" ],
+    [ "spell_rancid_spore_cloud", "d5/d4d/a23227.html", "d5/d4d/a23227" ],
+    [ "AddSC_instance_serpentshrine_cavern", "dd/d90/a04127.html#accf317168271361913093466ba7f8f0e", null ],
+    [ "boundaries", "dd/d90/a04127.html#aa75d7d0ffe0cef214f982966c33db1c1", null ],
+    [ "creatureData", "dd/d90/a04127.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "doorData", "dd/d90/a04127.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],
+    [ "gameObjectData", "dd/d90/a04127.html#a1461582839e3b7fdbb7397e5d2086e31", null ],
+    [ "minionData", "dd/d90/a04127.html#a6720238df140a3c574a711042b7f5bd3", null ]
 ];

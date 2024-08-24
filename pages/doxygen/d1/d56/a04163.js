@@ -1,36 +1,14 @@
 var a04163 =
 [
-    [ "boss_high_king_maulgar", "d2/dd8/a25165.html", "d2/dd8/a25165" ],
-    [ "boss_olm_the_summoner", "d6/d89/a25169.html", "d6/d89/a25169" ],
-    [ "boss_kiggler_the_crazed", "d0/d79/a25173.html", "d0/d79/a25173" ],
-    [ "boss_blindeye_the_seer", "dd/da4/a25177.html", "dd/da4/a25177" ],
-    [ "boss_krosh_firehand", "d8/d4c/a25181.html", "d8/d4c/a25181" ],
-    [ "HighKingMaulgar", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00", [
-      [ "SAY_AGGRO", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a47c752fff069f3e55065795eef2a9bfe", null ],
-      [ "SAY_ENRAGE", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00ac90d9311ef3cf3f33564ce22ff904f54", null ],
-      [ "SAY_OGRE_DEATH", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a95b1d5ce0a72c3cd74ad2936384e0327", null ],
-      [ "SAY_SLAY", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a9e64f6e600dd42567d18006912811f75", null ],
-      [ "SAY_DEATH", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a04c962d9b6aaafde54ff92a54369135e", null ],
-      [ "SPELL_ARCING_SMASH", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00abfd4b3a49fefdc02e654db0e63326f1e", null ],
-      [ "SPELL_MIGHTY_BLOW", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00ae9c68ac99f2257b412925e1b55e98716", null ],
-      [ "SPELL_WHIRLWIND", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00aed3f27157e41ec7644a53b6f9a827801", null ],
-      [ "SPELL_BERSERKER_C", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a3310668bd975bc2e17281127230ab8c4", null ],
-      [ "SPELL_ROAR", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a2850de7b373712096ae835fe75a3632f", null ],
-      [ "SPELL_FLURRY", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a98984f299eb2988a14d18b17e10cae58", null ],
-      [ "SPELL_DARK_DECAY", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00af01fc976fe7d4ab3beae4c372bc5920c", null ],
-      [ "SPELL_DEATH_COIL", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a196972e452f4cb5df032e5119d25f163", null ],
-      [ "SPELL_SUMMON_WFH", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a2e3a5283de8e1145f42de375883b6112", null ],
-      [ "SPELL_GREATER_POLYMORPH", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a1dd7faa947ee359df60cc4dfc87aa9df", null ],
-      [ "SPELL_LIGHTNING_BOLT", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a920803a7ad734282762d93767b701526", null ],
-      [ "SPELL_ARCANE_SHOCK", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a70217cff0adeb1a0499b1651a82f03ef", null ],
-      [ "SPELL_ARCANE_EXPLOSION", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a6cef4c5e88133771f6b27aec8b8cfdce", null ],
-      [ "SPELL_GREATER_PW_SHIELD", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a55ae8f41cbf9520dcf85fbec5a89d7d0", null ],
-      [ "SPELL_HEAL", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a69fcca2d13e03c684fa0459f960ef9a7", null ],
-      [ "SPELL_PRAYER_OH", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a60e7f4938fc88cf1649f00a81e4ea95b", null ],
-      [ "SPELL_GREATER_FIREBALL", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00ab7f9ec669b70354ccaba25559dda41d7", null ],
-      [ "SPELL_SPELLSHIELD", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a37fcb71489a9591a31c6f74520ed175e", null ],
-      [ "SPELL_BLAST_WAVE", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a70309c041527816c73053b7d9b387f88", null ],
-      [ "ACTION_ADD_DEATH", "d1/d56/a04163.html#a79b8e9b872a1c2b80ceefb2d55901a00a37c2463b1e6a48c0812bd3a0df718ffd", null ]
+    [ "go_main_chambers_access_panel", "dc/d95/a23335.html", "dc/d95/a23335" ],
+    [ "instance_steam_vault", "dc/d5f/a23339.html", "dc/d5f/a23339" ],
+    [ "instance_steam_vault::instance_steam_vault_InstanceMapScript", "d4/d96/a23343.html", "d4/d96/a23343" ],
+    [ "MainChambersAccessPanelSays", "d1/d56/a04163.html#aa8d293574a308aad41f620556eb63b6a", [
+      [ "SAY_FAINT_ECHO", "d1/d56/a04163.html#aa8d293574a308aad41f620556eb63b6aadbbafef44899cd7d93e10aaa27f52992", null ],
+      [ "SAY_LOUD_RUMBLE", "d1/d56/a04163.html#aa8d293574a308aad41f620556eb63b6aa420e4ca090aea66dfe08994ddce97884", null ]
     ] ],
-    [ "AddSC_boss_high_king_maulgar", "d1/d56/a04163.html#a834deb3700299f1a26f70d1db3e7c804", null ]
+    [ "AddSC_instance_steam_vault", "d1/d56/a04163.html#a944f7f7f41e047f2a4f82fb9af0b4829", null ],
+    [ "creatureData", "d1/d56/a04163.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "minionData", "d1/d56/a04163.html#a6720238df140a3c574a711042b7f5bd3", null ],
+    [ "objectData", "d1/d56/a04163.html#a59ddfa91084111da23b5d47482e4ff8d", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: D:/azerothcore-wotlk/src/server/scripts/Commands/cs_server.cpp File Reference</title>
+<title>AzerothCore: D:/azerothcore-wotlk/src/server/scripts/Commands/cs_reload.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -108,61 +108,65 @@ $(document).ready(function(){initNavTree('d0/df5/a02549.html','../../'); initRes
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">cs_server.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">cs_reload.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">AchievementMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">AuctionHouseMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">AutobroadcastMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlegroundMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">CommandScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GitRevision.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureTextMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DisableMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameGraveyard.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LFGMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ModuleMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">MotdMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MySQLThreading.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Realm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SkillDiscovery.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SkillExtraItems.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SmartAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">StringConvert.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">UpdateTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">VMapFactory.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">VMapMgr2.h</a>&quot;</code><br />
-<code>#include &lt;boost/version.hpp&gt;</code><br />
-<code>#include &lt;filesystem&gt;</code><br />
-<code>#include &lt;numeric&gt;</code><br />
-<code>#include &lt;openssl/crypto.h&gt;</code><br />
-<code>#include &lt;openssl/opensslv.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../">TicketMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Tokenize.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WardenCheckMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WaypointMgr.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d97/a11361.html">server_commandscript</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd0/a11415.html">reload_commandscript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aaa97392c09b5045a6040d75b224bdf22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df5/a02549.html#aaa97392c09b5045a6040d75b224bdf22">AddSC_server_commandscript</a> ()</td></tr>
-<tr class="separator:aaa97392c09b5045a6040d75b224bdf22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab72bc0a4ad4d6f90fa1e05f5591ed68f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df5/a02549.html#ab72bc0a4ad4d6f90fa1e05f5591ed68f">AddSC_reload_commandscript</a> ()</td></tr>
+<tr class="separator:ab72bc0a4ad4d6f90fa1e05f5591ed68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="aaa97392c09b5045a6040d75b224bdf22" name="aaa97392c09b5045a6040d75b224bdf22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa97392c09b5045a6040d75b224bdf22">&#9670;&#160;</a></span>AddSC_server_commandscript()</h2>
+<a id="ab72bc0a4ad4d6f90fa1e05f5591ed68f" name="ab72bc0a4ad4d6f90fa1e05f5591ed68f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab72bc0a4ad4d6f90fa1e05f5591ed68f">&#9670;&#160;</a></span>AddSC_reload_commandscript()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_server_commandscript </td>
+          <td class="memname">void AddSC_reload_commandscript </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  585</span>{</div>
-<div class="line"><span class="lineno">  586</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/d97/a11361.html">server_commandscript</a>();</div>
-<div class="line"><span class="lineno">  587</span>}</div>
-<div class="ttc" id="aa11361_html"><div class="ttname"><a href="../../d3/d97/a11361.html">server_commandscript</a></div><div class="ttdef"><b>Definition:</b> cs_server.cpp:49</div></div>
+<div class="fragment"><div class="line"><span class="lineno"> 1247</span>{</div>
+<div class="line"><span class="lineno"> 1248</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/dd0/a11415.html">reload_commandscript</a>();</div>
+<div class="line"><span class="lineno"> 1249</span>}</div>
+<div class="ttc" id="aa11415_html"><div class="ttname"><a href="../../df/dd0/a11415.html">reload_commandscript</a></div><div class="ttdef"><b>Definition:</b> cs_reload.cpp:53</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../#l00068">AddCommandsScripts()</a>.</p>
 
@@ -173,8 +177,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_2519615cc1c93425dacf3aa6e071da7e.html">Commands</a></li><li class="navelem"><a class="el" href="../../d0/df5/a02549.html">cs_server.cpp</a></li>
-    <li class="footer">Generated on Wed Dec 6 2023 22:12:04 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_2519615cc1c93425dacf3aa6e071da7e.html">Commands</a></li><li class="navelem"><a class="el" href="../../d0/df5/a02549.html">cs_reload.cpp</a></li>
+    <li class="footer">Generated on Sat Aug 24 2024 20:27:39 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

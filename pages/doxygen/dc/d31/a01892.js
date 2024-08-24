@@ -1,4 +1,4 @@
 var a01892 =
 [
-    [ "AllMapScript", "dd/d92/a09865.html", "dd/d92/a09865" ]
+    [ "AllGameObjectScript", "df/d21/a09923.html", "df/d21/a09923" ]
 ];

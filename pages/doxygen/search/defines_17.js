@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['yell_5fefforts_0',['YELL_EFFORTS',['../d7/d66/a03134.html#a8ac0173781ab1cb841df6d8d35eb8d97',1,'instance_hyjal.cpp']]],
-  ['yell_5fhurry_1',['YELL_HURRY',['../d8/dfb/a03122.html#ade1e749ab92c002d55a23b4973167d8a',1,'hyjalAI.cpp']]]
+  ['zfscriptname_0',['ZFScriptName',['../da/dc7/a03407.html#a8c843043d60c28e6ccd7efb1a75ec86e',1,'zulfarrak.h']]],
+  ['zgscriptname_1',['ZGScriptName',['../df/d48/a03071.html#ae55796445ff99fef95cd522a4da3a931',1,'zulgurub.h']]],
+  ['zulamanscriptname_2',['ZulAmanScriptName',['../d9/df8/a03023.html#ace761e31be9f593ef8cf90b8c97daf05',1,'zulaman.h']]]
 ];
