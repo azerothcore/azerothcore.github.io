@@ -17,12 +17,18 @@ jobs:
           git clone --single-branch https://github.com/azerothcore/azerothcore-wotlk
           mv azerothcore-wotlk pages/doxygen/azerothcore-wotlk
 
-      - name: Action Doxygen and GitHub Pages
-        id: ghaction
-        uses: AgarwalSaurav/ghaction-doxygen-ghpages@release/v2
+      - name: "doxygen action"
+        uses: mattnotmitt/doxygen-action@v1.9.5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          working-directory: pages/doxygen/
-          doxyfile-path: Doxyfile
-          html-output-folder: pages/doxygen/
-          target-folder: pages/doxygen/
+            working-directory: 'pages/doxygen/'
+            doxyfile-path: 'Doxyfile'
+
+      # - name: Action Doxygen and GitHub Pages
+      #   id: ghaction
+      #   uses: AgarwalSaurav/ghaction-doxygen-ghpages@release/v2
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     working-directory: pages/doxygen/
+      #     doxyfile-path: Doxyfile
+      #     html-output-folder: pages/doxygen/
+      #     target-folder: pages/doxygen/
