@@ -10,25 +10,21 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
       
-      - name: "run scripts"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: "clone azerothcore-wotlk source"
         run: |
           git clone --single-branch https://github.com/azerothcore/azerothcore-wotlk
           mv azerothcore-wotlk pages/doxygen/azerothcore-wotlk
 
-      - name: "doxygen action"
+      - name: "run doxygen"
         uses: mattnotmitt/doxygen-action@v1.9.5
         with:
             working-directory: 'pages/doxygen/'
             doxyfile-path: 'Doxyfile'
 
-      # - name: Action Doxygen and GitHub Pages
-      #   id: ghaction
-      #   uses: AgarwalSaurav/ghaction-doxygen-ghpages@release/v2
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     working-directory: pages/doxygen/
-      #     doxyfile-path: Doxyfile
-      #     html-output-folder: pages/doxygen/
-      #     target-folder: pages/doxygen/
+      - name: "check doxygen output"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ls
+          cd pages/doxygen/
+          ls
