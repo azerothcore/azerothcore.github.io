@@ -15,14 +15,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git clone --single-branch https://github.com/azerothcore/azerothcore-wotlk
-          mkdir -p docs/html
-          mkdir -p azerothcore-wotlk/docs/html
+  
 
       - name: Action Doxygen and GitHub Pages
         id: ghaction
         uses: AgarwalSaurav/ghaction-doxygen-ghpages@release/v2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          working-directory: .
+          working-directory: pages/doxygen/Doxyfile
           doxyfile-path: pages/doxygen/Doxyfile
           html-output-folder: page/doxygen/
+          target-folder: page/doxygen/
