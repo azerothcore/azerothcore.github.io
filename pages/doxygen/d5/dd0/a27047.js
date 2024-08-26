@@ -1,6 +1,9 @@
 var a27047 =
 [
-    [ "npc_spirit_shadeAI", "d2/dd5/a27051.html", "d2/dd5/a27051" ],
-    [ "npc_spirit_shade", "d5/dd0/a27047.html#a891ede5651789274496d6426daf9937d", null ],
-    [ "GetAI", "d5/dd0/a27047.html#a166f6a9abf7c0e33374c2f998c0524c3", null ]
+    [ "boss_lethonAI", "d5/dd0/a27047.html#ac5d53a746f5286776b2e510f1de86790", null ],
+    [ "DamageTaken", "d5/dd0/a27047.html#a8a67dc7f923bfd56948a16d917a5f70f", null ],
+    [ "JustEngagedWith", "d5/dd0/a27047.html#a1a3acb1e8cbceb16854aafcf51a0f99d", null ],
+    [ "Reset", "d5/dd0/a27047.html#a0e53d139f64d104557e157a91176a47a", null ],
+    [ "SpellHitTarget", "d5/dd0/a27047.html#aa478414144cb396fa67a9bdb46dcbb4c", null ],
+    [ "_stage", "d5/dd0/a27047.html#aa267296ee60efc7d39a20dc05afec081", null ]
 ];

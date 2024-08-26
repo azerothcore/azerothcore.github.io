@@ -1,9 +1,13 @@
 var a04235 =
 [
-    [ "instance_magtheridons_lair", "d7/dfe/a23571.html", "d7/dfe/a23571" ],
-    [ "instance_magtheridons_lair::instance_magtheridons_lair_InstanceMapScript", "d6/dc9/a23575.html", "d6/dc9/a23575" ],
-    [ "AddSC_instance_magtheridons_lair", "de/d93/a04235.html#a77e256ce8ca932c8d162a30715dc7c6f", null ],
-    [ "boundaries", "de/d93/a04235.html#aa75d7d0ffe0cef214f982966c33db1c1", null ],
-    [ "doorData", "de/d93/a04235.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],
-    [ "minionData", "de/d93/a04235.html#a6720238df140a3c574a711042b7f5bd3", null ]
+    [ "FollowerAI", "d4/d17/a06123.html", "d4/d17/a06123" ],
+    [ "eFollowState", "de/d93/a04235.html#a1ec9c3a60a913ecbf16778626ccf0138", [
+      [ "STATE_FOLLOW_NONE", "de/d93/a04235.html#a1ec9c3a60a913ecbf16778626ccf0138a8d3724990b83869077eeef397588a9ae", null ],
+      [ "STATE_FOLLOW_INPROGRESS", "de/d93/a04235.html#a1ec9c3a60a913ecbf16778626ccf0138aa4c302e4ec6ca00eb8d737e1b43e9e0b", null ],
+      [ "STATE_FOLLOW_RETURNING", "de/d93/a04235.html#a1ec9c3a60a913ecbf16778626ccf0138abc2b0083c7efe88c6be3c67e20de2523", null ],
+      [ "STATE_FOLLOW_PAUSED", "de/d93/a04235.html#a1ec9c3a60a913ecbf16778626ccf0138ab64828a6eee48ed5f0060f66fef4dbe6", null ],
+      [ "STATE_FOLLOW_COMPLETE", "de/d93/a04235.html#a1ec9c3a60a913ecbf16778626ccf0138a73636e044fe9883bf259a17bc617e7c9", null ],
+      [ "STATE_FOLLOW_PREEVENT", "de/d93/a04235.html#a1ec9c3a60a913ecbf16778626ccf0138a5ed17b2670a724e36c47de32fa5e821b", null ],
+      [ "STATE_FOLLOW_POSTEVENT", "de/d93/a04235.html#a1ec9c3a60a913ecbf16778626ccf0138a77b50e5da22490d74b38dcebae6e6c6a", null ]
+    ] ]
 ];

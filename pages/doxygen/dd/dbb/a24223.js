@@ -1,6 +1,6 @@
 var a24223 =
 [
-    [ "npc_kservantAI", "de/d90/a24227.html", "de/d90/a24227" ],
-    [ "npc_kservant", "dd/dbb/a24223.html#af04c8a87516e41f7d35071664034af9d", null ],
-    [ "GetAI", "dd/dbb/a24223.html#a3ae7327ec2ead5a2d3ffb043f18ccc09", null ]
+    [ "npc_zephyr", "dd/dbb/a24223.html#a3bad7bf2bd3b193960f1f53cd7d8349d", null ],
+    [ "OnGossipHello", "dd/dbb/a24223.html#a31e132e80a19bb6e63787fcdf7ffd466", null ],
+    [ "OnGossipSelect", "dd/dbb/a24223.html#a9b1f5a0d4ba24e65dda521bc94574ad8", null ]
 ];

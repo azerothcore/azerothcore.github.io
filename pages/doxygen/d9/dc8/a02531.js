@@ -1,5 +1,5 @@
 var a02531 =
 [
-    [ "modify_commandscript", "d6/d75/a11379.html", "d6/d75/a11379" ],
-    [ "AddSC_modify_commandscript", "d9/dc8/a02531.html#a9cbb6ad3c630cbeb9ba39b4552f72e87", null ]
+    [ "list_commandscript", "d1/d2f/a11359.html", "d1/d2f/a11359" ],
+    [ "AddSC_list_commandscript", "d9/dc8/a02531.html#a81af00772e7a06ad952109222b1f53a3", null ]
 ];

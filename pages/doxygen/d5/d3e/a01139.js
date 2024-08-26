@@ -1,5 +1,6 @@
 var a01139 =
 [
-    [ "lfg::LFGPlayerScript", "dc/d78/a07541.html", "dc/d78/a07541" ],
-    [ "lfg::LFGGroupScript", "d1/d15/a07545.html", "d1/d15/a07545" ]
+    [ "instance_deadmines", "d3/d0c/a12207.html", "d3/d0c/a12207" ],
+    [ "instance_deadmines::instance_deadmines_InstanceMapScript", "d9/d66/a12211.html", "d9/d66/a12211" ],
+    [ "AddSC_instance_deadmines", "d5/d3e/a01139.html#a5c92c13d577422c37a1de0e3b5b4a020", null ]
 ];

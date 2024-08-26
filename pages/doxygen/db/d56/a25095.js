@@ -1,6 +1,7 @@
 var a25095 =
 [
-    [ "HandleScriptEffect", "db/d56/a25095.html#a884d0f5f8bf0f3515b4fedd54dd20ebf", null ],
-    [ "PrepareSpellScript", "db/d56/a25095.html#a45151bb2eacdd642e8f11564d4ef0d65", null ],
-    [ "Register", "db/d56/a25095.html#ae01695fd336fca36a7d2569ca741fba5", null ]
+    [ "HandleScript", "db/d56/a25095.html#a8b20e2ffed94ec9438dc9b756ba76693", null ],
+    [ "PrepareSpellScript", "db/d56/a25095.html#a9e29ea947d5415471d991a4e1cd699ac", null ],
+    [ "Register", "db/d56/a25095.html#aa4bc27415893009581b317637599a85a", null ],
+    [ "Validate", "db/d56/a25095.html#a77ed10819633ae2bc381023da0feb31b", null ]
 ];

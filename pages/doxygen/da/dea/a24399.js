@@ -1,6 +1,10 @@
 var a24399 =
 [
-    [ "DeathEvent", "da/dea/a24399.html#a2fb9a98c077d715c4648aede6597276e", null ],
-    [ "Execute", "da/dea/a24399.html#a497ac46ab1acf95816020fc6be8ce03a", null ],
-    [ "_owner", "da/dea/a24399.html#a099d0d5ae50126f00220b3ed90907617", null ]
+    [ "npc_pet_hunter_snake_trap", "da/dea/a24399.html#aaf5df574c4ac53661c0bb1968f84c6ea", null ],
+    [ "EnterEvadeMode", "da/dea/a24399.html#a819add0c7b968063403d10275fdc289f", null ],
+    [ "MoveInLineOfSight", "da/dea/a24399.html#a32d5ed7f4d436f2678b34f4a1d572721", null ],
+    [ "Reset", "da/dea/a24399.html#a831cf6eea8bd03247cd9877d3be6e1ee", null ],
+    [ "UpdateAI", "da/dea/a24399.html#a41a37efe6d39c6d97b3dcc5fabbcc812", null ],
+    [ "_init", "da/dea/a24399.html#a1b5c1301389749f82667c35f3daff847", null ],
+    [ "_spellTimer", "da/dea/a24399.html#ab9397451e2e8320ca77560a19baeee3f", null ]
 ];

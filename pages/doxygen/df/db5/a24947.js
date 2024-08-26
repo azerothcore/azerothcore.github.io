@@ -1,8 +1,6 @@
 var a24947 =
 [
-    [ "CheckIfCorpseNear", "df/db5/a24947.html#afdf1bca2e23057d99962fb1000e9245e", null ],
-    [ "HandleDummy", "df/db5/a24947.html#a9e1bf4884a32e515d8e6b3edf7f5d462", null ],
-    [ "PrepareSpellScript", "df/db5/a24947.html#af4a1aa22ed9ccf4df29d05d3f7fb0214", null ],
-    [ "Register", "df/db5/a24947.html#a22f4c5321769384b2b708f19edea1a66", null ],
-    [ "Validate", "df/db5/a24947.html#a855fdba79c4fa087253505ed419b9966", null ]
+    [ "HandleEffectPeriodicUpdate", "df/db5/a24947.html#a554353fede78b89bf488230254d7892b", null ],
+    [ "PrepareAuraScript", "df/db5/a24947.html#adf20aaafff83bae614ff3c614a08a54b", null ],
+    [ "Register", "df/db5/a24947.html#a6ee55cc41f7b69fc12bb3dc6c7fcbaf5", null ]
 ];

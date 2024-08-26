@@ -1,29 +1,19 @@
 var a00320 =
 [
-    [ "AppenderFlags", "dd/de2/a00320.html#a94c1c25ceab6db205eb6a5d5a2e0e803", [
-      [ "APPENDER_FLAGS_NONE", "dd/de2/a00320.html#a94c1c25ceab6db205eb6a5d5a2e0e803a184efa87bd2e31eb7cbcb9d9d9da282b", null ],
-      [ "APPENDER_FLAGS_PREFIX_TIMESTAMP", "dd/de2/a00320.html#a94c1c25ceab6db205eb6a5d5a2e0e803abd5b7165060ec5de7b8db0619e2f2a46", null ],
-      [ "APPENDER_FLAGS_PREFIX_LOGLEVEL", "dd/de2/a00320.html#a94c1c25ceab6db205eb6a5d5a2e0e803adc9e7db7404463919a903d8acfeff94e", null ],
-      [ "APPENDER_FLAGS_PREFIX_LOGFILTERTYPE", "dd/de2/a00320.html#a94c1c25ceab6db205eb6a5d5a2e0e803ac133c721eb5548b0845595467e081c5b", null ],
-      [ "APPENDER_FLAGS_USE_TIMESTAMP", "dd/de2/a00320.html#a94c1c25ceab6db205eb6a5d5a2e0e803a6aec71fc9bc28024147cf9f5291c08c3", null ],
-      [ "APPENDER_FLAGS_MAKE_FILE_BACKUP", "dd/de2/a00320.html#a94c1c25ceab6db205eb6a5d5a2e0e803a6a4fbf813da7a71ddfd24f9336a7e5a2", null ]
-    ] ],
-    [ "AppenderType", "dd/de2/a00320.html#aacbd2dccb14fcb75d2651dce582364df", [
-      [ "APPENDER_NONE", "dd/de2/a00320.html#aacbd2dccb14fcb75d2651dce582364dfaceddd86331dd45bd7dbd5f8bae6c8852", null ],
-      [ "APPENDER_CONSOLE", "dd/de2/a00320.html#aacbd2dccb14fcb75d2651dce582364dfa8cc0efa84bbb87aa8207ba11f369b78a", null ],
-      [ "APPENDER_FILE", "dd/de2/a00320.html#aacbd2dccb14fcb75d2651dce582364dfa2420e38b426dcb22e37a90b6a97cc65d", null ],
-      [ "APPENDER_DB", "dd/de2/a00320.html#aacbd2dccb14fcb75d2651dce582364dfacac80dc510e850226c250af5a5600394", null ],
-      [ "APPENDER_INVALID", "dd/de2/a00320.html#aacbd2dccb14fcb75d2651dce582364dfa7cb05f13eacfc1d54ef111d7b8375301", null ]
-    ] ],
-    [ "LogLevel", "dd/de2/a00320.html#ad26ed09e30f81a5d2172b4793a3f2781", [
-      [ "LOG_LEVEL_DISABLED", "dd/de2/a00320.html#ad26ed09e30f81a5d2172b4793a3f2781ae44988e4cdc992741e4a39b3734e1f61", null ],
-      [ "LOG_LEVEL_FATAL", "dd/de2/a00320.html#ad26ed09e30f81a5d2172b4793a3f2781a779dc8dd26898fb0f88cd5f6e02ba1e5", null ],
-      [ "LOG_LEVEL_ERROR", "dd/de2/a00320.html#ad26ed09e30f81a5d2172b4793a3f2781a5b40f003febbc3b535649d63f4b8a44f", null ],
-      [ "LOG_LEVEL_WARN", "dd/de2/a00320.html#ad26ed09e30f81a5d2172b4793a3f2781a99c1e5c8e6d557f3993b9ab54a0107f4", null ],
-      [ "LOG_LEVEL_INFO", "dd/de2/a00320.html#ad26ed09e30f81a5d2172b4793a3f2781aedee1e3159bfe7d918b6e29873c5aee4", null ],
-      [ "LOG_LEVEL_DEBUG", "dd/de2/a00320.html#ad26ed09e30f81a5d2172b4793a3f2781a538b2b6e011479d408ecd2be0f6d6177", null ],
-      [ "LOG_LEVEL_TRACE", "dd/de2/a00320.html#ad26ed09e30f81a5d2172b4793a3f2781a8fa9f12103da446ab4f3d3dc2fcf7f5d", null ],
-      [ "NUM_ENABLED_LOG_LEVELS", "dd/de2/a00320.html#ad26ed09e30f81a5d2172b4793a3f2781a02115b12f9d2c08405f3ea32fb8dea7d", null ],
-      [ "LOG_LEVEL_INVALID", "dd/de2/a00320.html#ad26ed09e30f81a5d2172b4793a3f2781a385a9fffad0d67363b55e833e0395c96", null ]
+    [ "MmapTileHeader", "d3/d3a/a04891.html", "d3/d3a/a04891" ],
+    [ "MAX_NUMBER_OF_GRIDS", "dd/de2/a00320.html#a857252154f120575d940ffbdf63bace6", null ],
+    [ "MMAP_MAGIC", "dd/de2/a00320.html#af7a9a5e840ab3ad1c160e832500016d1", null ],
+    [ "MMAP_VERSION", "dd/de2/a00320.html#aea71555fdd0af33ccc21c76c67574421", null ],
+    [ "SIZE_OF_GRIDS", "dd/de2/a00320.html#a55c9adba46c0c14cd4ac80ab51228816", null ],
+    [ "NavTerrain", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5db", [
+      [ "NAV_EMPTY", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dba7e7367494e3519c95f1b756726fec9a5", null ],
+      [ "NAV_GROUND", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dbac2c74d40490a8ea42121c00a8249bd98", null ],
+      [ "NAV_MAGMA", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dba9ea5d0550a08be7bb291557f1fc4f670", null ],
+      [ "NAV_SLIME", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dbad892c321d39d49cdb700eb27fc249f75", null ],
+      [ "NAV_WATER", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dbae258322a4a7d7928a89ac183ecf137d1", null ],
+      [ "NAV_UNUSED1", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dba55b6c76a11113bfd585b61366a3f6d03", null ],
+      [ "NAV_UNUSED2", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dba4c61900269be6dee2e26cbeb4e09d0bb", null ],
+      [ "NAV_UNUSED3", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dba3055dd71ec523facb0cba2976316d530", null ],
+      [ "NAV_UNUSED4", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dba94351935a3c7389b4667144d53923d56", null ]
     ] ]
 ];

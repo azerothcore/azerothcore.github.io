@@ -1,5 +1,5 @@
 var a02492 =
 [
-    [ "group_commandscript", "d3/d22/a11327.html", "d3/d22/a11327" ],
-    [ "AddSC_group_commandscript", "d6/d90/a02492.html#ac4c9434ed910cd9636e0a8644a8e91e1", null ]
+    [ "OutdoorPvP_silithus", "d3/d3f/a22507.html", "d3/d3f/a22507" ],
+    [ "AddSC_outdoorpvp_si", "d6/d90/a02492.html#a6dfd2849f525333510ae4febbbc3ae1f", null ]
 ];

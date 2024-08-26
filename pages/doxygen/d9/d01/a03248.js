@@ -1,7 +1,7 @@
 var a03248 =
 [
-    [ "instance_onyxias_lair", "d8/d1a/a14723.html", "d8/d1a/a14723" ],
-    [ "instance_onyxias_lair::instance_onyxias_lair_InstanceMapScript", "d6/de4/a14727.html", "d6/de4/a14727" ],
-    [ "AddSC_instance_onyxias_lair", "d9/d01/a03248.html#a05fe21b6a553baae55b3b2523efaa9c3", null ],
-    [ "creatureData", "d9/d01/a03248.html#a412286b689bd324fedd65ddd8dde8afb", null ]
+    [ "EMBLEM_PRICE", "d9/d01/a03248.html#a6e37f394008ea3eb20a46c84e03512a5", null ],
+    [ "MAX_GUILD_BANK_TAB_TEXT_LEN", "d9/d01/a03248.html#a458eaf87a56d0ac3d92187c55b14f437", null ],
+    [ "_GetGuildBankTabPrice", "d9/d01/a03248.html#a039068bd46d84b88b1a6a2fa0ae07b80", null ],
+    [ "_GetGuildEventString", "d9/d01/a03248.html#a8e9e4c2d24b387f386cf2d9c02996b59", null ]
 ];

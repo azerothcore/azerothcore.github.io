@@ -1,6 +1,8 @@
 var a25027 =
 [
-    [ "HandleScriptEffect", "de/d7f/a25027.html#a514697f3fdcbf9274453d6d71c0c4816", null ],
-    [ "PrepareSpellScript", "de/d7f/a25027.html#a5bcff624e9a396a2f90115dc99d93ae9", null ],
-    [ "Register", "de/d7f/a25027.html#aebcc23e4f4a1c5ab90fb06a47755ec2b", null ]
+    [ "CheckRequirement", "de/d7f/a25027.html#ad967ae7e2affa312fa4adbca6e86dd7c", null ],
+    [ "HandleScript", "de/d7f/a25027.html#aa89b60b2d757ef1ceacebae38aa5d9d9", null ],
+    [ "Load", "de/d7f/a25027.html#a9dfb5501ad6324a25966af44f233b5fb", null ],
+    [ "PrepareSpellScript", "de/d7f/a25027.html#ace75db8a6e5628df6e2edba91cd2852f", null ],
+    [ "Register", "de/d7f/a25027.html#a89d053e0ee793017c74188aac32d99d5", null ]
 ];

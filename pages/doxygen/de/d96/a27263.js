@@ -1,5 +1,5 @@
 var a27263 =
 [
-    [ "go_dragonflayer_cage", "de/d96/a27263.html#a9f36ba678a1e3954f21b96b227fb999e", null ],
-    [ "OnGossipHello", "de/d96/a27263.html#a542530a0b84879b21a4b9982cf4300d0", null ]
+    [ "go_soulwellAI", "de/d96/a27263.html#af8c28f9d3ddf5fa3591433268d14fc98", null ],
+    [ "GossipHello", "de/d96/a27263.html#a3df147478af8930d9b6108a183e9478f", null ]
 ];

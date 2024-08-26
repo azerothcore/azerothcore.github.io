@@ -1,6 +1,11 @@
 var a01097 =
 [
-    [ "ConcatenateDungeons", "d1/dfa/a01097.html#aeaebe53b818ad905c96d2cc56c18b7ca", null ],
-    [ "GetRolesString", "d1/dfa/a01097.html#adc336ffd636b51b0052448739671d46b", null ],
-    [ "GetStateString", "d1/dfa/a01097.html#a9d097d73fe8f096de2098ac74022b643", null ]
+    [ "npc_the_scourge_cauldron", "de/d47/a13507.html", "de/d47/a13507" ],
+    [ "npc_the_scourge_cauldron::npc_the_scourge_cauldronAI", "df/d73/a13511.html", "df/d73/a13511" ],
+    [ "npc_andorhal_tower", "d2/d4b/a13515.html", "d2/d4b/a13515" ],
+    [ "npc_andorhal_tower::npc_andorhal_towerAI", "d0/d93/a13519.html", "d0/d93/a13519" ],
+    [ "AndorhalTower", "d1/dfa/a01097.html#a07061f0cf471fb1cb236b428c31965c8", [
+      [ "GO_BEACON_TORCH", "d1/dfa/a01097.html#a07061f0cf471fb1cb236b428c31965c8ace3e47469a19c76e79a7ae1ca2b4f798", null ]
+    ] ],
+    [ "AddSC_western_plaguelands", "d1/dfa/a01097.html#a978fbc9b0f23371fedcca17926c637cb", null ]
 ];

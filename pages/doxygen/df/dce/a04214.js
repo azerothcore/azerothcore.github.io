@@ -1,9 +1,6 @@
 var a04214 =
 [
-    [ "instance_blood_furnace", "df/d5d/a23491.html", "df/d5d/a23491" ],
-    [ "instance_blood_furnace::instance_blood_furnace_InstanceMapScript", "d8/dee/a23495.html", "d8/dee/a23495" ],
-    [ "AddSC_instance_blood_furnace", "df/dce/a04214.html#af803a0e2dfb7f53b6682e02b90bef865", null ],
-    [ "creatureData", "df/dce/a04214.html#a412286b689bd324fedd65ddd8dde8afb", null ],
-    [ "doorData", "df/dce/a04214.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],
-    [ "gameobjectData", "df/dce/a04214.html#a845a92716bd40c99a93eb0715cd737b0", null ]
+    [ "ConcatenateDungeons", "df/dce/a04214.html#aeaebe53b818ad905c96d2cc56c18b7ca", null ],
+    [ "GetRolesString", "df/dce/a04214.html#adc336ffd636b51b0052448739671d46b", null ],
+    [ "GetStateString", "df/dce/a04214.html#a9d097d73fe8f096de2098ac74022b643", null ]
 ];

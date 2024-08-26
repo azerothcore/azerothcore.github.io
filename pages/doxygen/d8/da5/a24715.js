@@ -1,8 +1,6 @@
 var a24715 =
 [
-    [ "AfterApply", "d8/da5/a24715.html#a4d2941ebb326d603ac08f428f811c29b", null ],
-    [ "AfterRemove", "d8/da5/a24715.html#ac1e50413041edbecd5cc4189a1121cb5", null ],
-    [ "PrepareAuraScript", "d8/da5/a24715.html#afa99d3e45e4a54c41b59ec317ffdd9b9", null ],
-    [ "Register", "d8/da5/a24715.html#a78e30a950b9fc08dff5072028816b8b4", null ],
-    [ "Validate", "d8/da5/a24715.html#ac3502abb9d6ef213ffd2413eba7916b2", null ]
+    [ "CheckCast", "d8/da5/a24715.html#a8ab8394c56201264ac4f2d859dd52092", null ],
+    [ "PrepareSpellScript", "d8/da5/a24715.html#acc6d27c8d869ec80ee5794405f6c238a", null ],
+    [ "Register", "d8/da5/a24715.html#a191085bc21ce6f5ce1d5b43d6d70f069", null ]
 ];

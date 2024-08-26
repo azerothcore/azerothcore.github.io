@@ -1,8 +1,14 @@
 var a04592 =
 [
-    [ "wdt_MPHD", "d6/d88/a28539.html", "d6/d88/a28539" ],
-    [ "wdt_MAIN", "d8/d33/a28547.html", "d8/d33/a28547" ],
-    [ "wdt_MAIN::adtData", "dc/d67/a28555.html", "dc/d67/a28555" ],
-    [ "WDT_file", "d1/d67/a28559.html", "d1/d67/a28559" ],
-    [ "WDT_MAP_SIZE", "da/d34/a04592.html#a0cf0c1d4bd3ed48612ab2a5e36b8cf10", null ]
+    [ "_CRT_SECURE_NO_DEPRECATE", "da/d34/a04592.html#a411c46599e926f8cdf49c63957255359", null ],
+    [ "isHole", "da/d34/a04592.html#a3a7e248f31dc8d832dc118d469a98bd4", null ],
+    [ "holetab_h", "da/d34/a04592.html#a7424dd5c858116f845a676e31fe5ae5d", null ],
+    [ "holetab_v", "da/d34/a04592.html#a2b1bf69bcdb58ff1605821d486da3acb", null ],
+    [ "MCINMagic", "da/d34/a04592.html#a6f946547b65d321100fd6efa2966180c", null ],
+    [ "MCLQMagic", "da/d34/a04592.html#a35ae9924cb4e3ad0020167b89d5ea86f", null ],
+    [ "MCNKMagic", "da/d34/a04592.html#aa2d85d3b667d3755f6f7a993e60c574b", null ],
+    [ "MCVTMagic", "da/d34/a04592.html#a32010e610a970d3891ae5effca03de37", null ],
+    [ "MFBOMagic", "da/d34/a04592.html#a329d005a0989137286469e197dc0c812", null ],
+    [ "MH2OMagic", "da/d34/a04592.html#aaeaf747e4bc5c25257f9e0ef1153b5a7", null ],
+    [ "MHDRMagic", "da/d34/a04592.html#ac97bd684dd5bacba0e790f355a3bdddf", null ]
 ];

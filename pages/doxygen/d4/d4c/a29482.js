@@ -1,6 +1,8 @@
 var a29482 =
 [
-    [ "npc_experience", "d4/d4c/a29482.html#a48ea13099fd32bcae1543a152de0bdf4", null ],
-    [ "OnGossipHello", "d4/d4c/a29482.html#a78fccaa36d1c42e33774a9b23f867a72", null ],
-    [ "OnGossipSelect", "d4/d4c/a29482.html#a140ece91c8b6d91bd91d64d6e9b625e8", null ]
+    [ "DBCFile", "de/d1a/a28495.html", "de/d1a/a28495" ],
+    [ "DBCFile::Exception", "d4/dd9/a28499.html", "d4/dd9/a28499" ],
+    [ "DBCFile::NotFound", "de/ddd/a28503.html", "de/ddd/a28503" ],
+    [ "DBCFile::Record", "de/ddf/a28507.html", "de/ddf/a28507" ],
+    [ "DBCFile::Iterator", "d4/d32/a28511.html", "d4/d32/a28511" ]
 ];

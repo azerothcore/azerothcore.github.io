@@ -1,17 +1,11 @@
 var a00317 =
 [
-    [ "Log", "da/dc9/a05243.html", "da/dc9/a05243" ],
-    [ "LOG_DEBUG", "da/de0/a00317.html#a47ac782b14a7531c6232777165a1a161", null ],
-    [ "LOG_ERROR", "da/de0/a00317.html#a43832e3fa8508deb4ce43e520005fcd9", null ],
-    [ "LOG_EXCEPTION_FREE", "da/de0/a00317.html#aa30f9aa89655372730e1d6fec2e40c5e", null ],
-    [ "LOG_FATAL", "da/de0/a00317.html#a0e09b50c268dc6897a1c70aa46de936e", null ],
-    [ "LOG_GM", "da/de0/a00317.html#aeeb132f13796dfa459eb05386acff8fe", null ],
-    [ "LOG_INFO", "da/de0/a00317.html#a271e427d8e8481efd5cd5f537ec9e419", null ],
-    [ "LOG_MESSAGE_BODY", "da/de0/a00317.html#a1ce833e7403b29687774e0539da6f4b9", null ],
-    [ "LOG_TRACE", "da/de0/a00317.html#ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5", null ],
-    [ "LOG_WARN", "da/de0/a00317.html#adf09840a666e1d86bcd3439105db6edc", null ],
-    [ "LOGGER_ROOT", "da/de0/a00317.html#a6f9b401329ff7cf191e6b1801caeb441", null ],
-    [ "sLog", "da/de0/a00317.html#ab5487500f5b4b12072043104b916d582", null ],
-    [ "AppenderCreatorFn", "da/de0/a00317.html#a1db7ef47a6d7bf4560a30c8b7e9f6a37", null ],
-    [ "CreateAppender", "da/de0/a00317.html#ae5d709e10423806fa5331696a9bbd657", null ]
+    [ "VMAP::ModelPosition", "de/d42/a04927.html", "de/d42/a04927" ],
+    [ "VMAP::MapSpawns", "d8/d4c/a04931.html", "d8/d4c/a04931" ],
+    [ "VMAP::GroupModel_Raw", "d3/d16/a04935.html", "d3/d16/a04935" ],
+    [ "VMAP::WorldModel_Raw", "d2/d77/a04939.html", "d2/d77/a04939" ],
+    [ "VMAP::TileAssembler", "d5/dc1/a04943.html", "d5/dc1/a04943" ],
+    [ "MapData", "da/de0/a00317.html#a28dc2e567f8620fed1128b6c4cf5b749", null ],
+    [ "TileMap", "da/de0/a00317.html#abfe766a1b58bbf69ce3b17ff14d1c101", null ],
+    [ "UniqueEntryMap", "da/de0/a00317.html#a3424b44a092b5f3d8074649ae11ee481", null ]
 ];

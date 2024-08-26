@@ -1,6 +1,7 @@
 var a27519 =
 [
-    [ "npc_steam_tonkAI", "d7/d91/a27523.html", "d7/d91/a27523" ],
-    [ "npc_steam_tonk", "d7/de5/a27519.html#a19731e7f1bc6fe0220e8c28619ff7c50", null ],
-    [ "GetAI", "d7/de5/a27519.html#a38e51485a3610a204a45677fce15c943", null ]
+    [ "npc_sayge", "d7/de5/a27519.html#a5b75c459665ece26cee5dbffcc0fc8ff", null ],
+    [ "OnGossipHello", "d7/de5/a27519.html#ad069e6cc7fe5271c3474c8bcf537cf4c", null ],
+    [ "OnGossipSelect", "d7/de5/a27519.html#aa049b4514fc2d18508d8d4f9b6616c99", null ],
+    [ "SendAction", "d7/de5/a27519.html#aed1988335672423d024546654aa95298", null ]
 ];

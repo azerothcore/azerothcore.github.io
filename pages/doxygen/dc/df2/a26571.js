@@ -1,8 +1,9 @@
 var a26571 =
 [
-    [ "ApplyDebuff", "dc/df2/a26571.html#ac22ae27019de6bd951bb00262c6df9a3", null ],
-    [ "PrepareSpellScript", "dc/df2/a26571.html#aa37525d089348f58e3d871830caa3417", null ],
-    [ "Register", "dc/df2/a26571.html#ac37a48d9742ab6b07c5e6a8dd7f23bd9", null ],
-    [ "RemoveInvalidTargets", "dc/df2/a26571.html#a0451b75aa962065a01a5806992e01b16", null ],
-    [ "Validate", "dc/df2/a26571.html#ac69d777fdf7a2d3c527621dee256690c", null ]
+    [ "Absorb", "dc/df2/a26571.html#adf0783559d4ca95bc09a5ef217291bc9", null ],
+    [ "CalculateAmount", "dc/df2/a26571.html#a820c27c2161063307a10903cbbc5c0fa", null ],
+    [ "Load", "dc/df2/a26571.html#a7b71990051faaa083110408c13b8401f", null ],
+    [ "PrepareAuraScript", "dc/df2/a26571.html#ad7a3e297fcd38fc9d020a3c3db32ace2", null ],
+    [ "Register", "dc/df2/a26571.html#aa443ab0eed74229883884fbced0426d7", null ],
+    [ "absorbPct", "dc/df2/a26571.html#a55c4409f74c86853d0bf5b157f6c194c", null ]
 ];

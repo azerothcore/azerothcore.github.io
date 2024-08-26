@@ -1,4 +1,7 @@
 var a00674 =
 [
-    [ "DEADLOCK_MAX_RETRY_TIME_MS", "d8/d73/a00674.html#ac0b52915e8b31344cafb9042ab92e830", null ]
+    [ "UpdateResult", "dc/d27/a05799.html", "dc/d27/a05799" ],
+    [ "UpdateFetcher", "d5/d41/a05803.html", "d5/d41/a05803" ],
+    [ "UpdateFetcher::AppliedFileEntry", "d2/dcf/a05807.html", "d2/dcf/a05807" ],
+    [ "UpdateFetcher::PathCompare", "da/d30/a05811.html", "da/d30/a05811" ]
 ];

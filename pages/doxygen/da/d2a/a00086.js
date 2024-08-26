@@ -1,11 +1,9 @@
 var a00086 =
 [
-    [ "VMAP::ModelPosition", "de/d42/a04927.html", "de/d42/a04927" ],
-    [ "VMAP::MapSpawns", "d8/d4c/a04931.html", "d8/d4c/a04931" ],
-    [ "VMAP::GroupModel_Raw", "d3/d16/a04935.html", "d3/d16/a04935" ],
-    [ "VMAP::WorldModel_Raw", "d2/d77/a04939.html", "d2/d77/a04939" ],
-    [ "VMAP::TileAssembler", "d5/dc1/a04943.html", "d5/dc1/a04943" ],
-    [ "MapData", "da/d2a/a00086.html#a28dc2e567f8620fed1128b6c4cf5b749", null ],
-    [ "TileMap", "da/d2a/a00086.html#abfe766a1b58bbf69ce3b17ff14d1c101", null ],
-    [ "UniqueEntryMap", "da/d2a/a00086.html#a3424b44a092b5f3d8074649ae11ee481", null ]
+    [ "getAngle", "da/d2a/a00086.html#a5ce837ff4fb41332a25e6b0dc0f5b848", null ],
+    [ "getCircleAreaByRadius", "da/d2a/a00086.html#a18ed540c327b1fd656065d8cbfc4844f", null ],
+    [ "getCirclePerimeterByRadius", "da/d2a/a00086.html#a62641094ea3c1b9506faefa7a35ba456", null ],
+    [ "getCylinderVolume", "da/d2a/a00086.html#a95ce6760beb476a4c24ff46d3069103f", null ],
+    [ "getSlopeAngle", "da/d2a/a00086.html#a61d2d33d44f335480a833a04436620ba", null ],
+    [ "getSlopeAngleAbs", "da/d2a/a00086.html#a0b02845f56a27df498d0598d259ca5e1", null ]
 ];

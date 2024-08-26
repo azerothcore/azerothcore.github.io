@@ -1,7 +1,11 @@
 var a25239 =
 [
-    [ "ModDest", "d9/dd5/a25239.html#afe0fb68de61a657ce6900e71973e4d77", null ],
-    [ "ModifyCookingSkill", "d9/dd5/a25239.html#a42dea7b58aed704a6aacd5d0aa0028d4", null ],
-    [ "PrepareSpellScript", "d9/dd5/a25239.html#a7b0446133750fce7eda19dbde5abb3b1", null ],
-    [ "Register", "d9/dd5/a25239.html#a6919079b43a816eb601a68c51ad39794", null ]
+    [ "spell_gen_apply_aura_after_expiration", "d9/dd5/a25239.html#a391e5089eb034618c5e3edde26685a00", null ],
+    [ "AfterRemove", "d9/dd5/a25239.html#afea2221ceeebf90cf352084d8aacf7c9", null ],
+    [ "PrepareAuraScript", "d9/dd5/a25239.html#a494123635eda4c43d92a08c9c8cd5627", null ],
+    [ "Register", "d9/dd5/a25239.html#a3189ba65a1d9adf252d9f0dfb70abd16", null ],
+    [ "Validate", "d9/dd5/a25239.html#ad405128104d8a6528e8db96281ad0f0b", null ],
+    [ "_aura", "d9/dd5/a25239.html#a8a79aef777e1397b031149c54ae9d81d", null ],
+    [ "_effect", "d9/dd5/a25239.html#aa276a986ba9b67964ddeec56d6455cf9", null ],
+    [ "_spellId", "d9/dd5/a25239.html#a330f1311911ba9f3ebd704c7f9a09246", null ]
 ];

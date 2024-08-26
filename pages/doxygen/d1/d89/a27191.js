@@ -1,6 +1,7 @@
 var a27191 =
 [
-    [ "go_midsummer_musicAI", "d7/dd7/a27195.html", "d7/dd7/a27195" ],
-    [ "go_midsummer_music", "d1/d89/a27191.html#a39c38fc78b47b16be9eebee0ccd5041d", null ],
-    [ "GetAI", "d1/d89/a27191.html#a1baf09bdbf67c0a85219454c1cd61d2b", null ]
+    [ "go_darkmoon_faire_musicAI", "d1/d89/a27191.html#a2ee13dd1260c1ad5b810c25665c9ec87", null ],
+    [ "UpdateAI", "d1/d89/a27191.html#af3d802bd852fc0483f72781edb13b5d5", null ],
+    [ "_events", "d1/d89/a27191.html#acc7e15d2b286b7df262623acf7ea7f03", null ],
+    [ "rnd", "d1/d89/a27191.html#a9a4c983f11c4d912f31eaaf351afc016", null ]
 ];

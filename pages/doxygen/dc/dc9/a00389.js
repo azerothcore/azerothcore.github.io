@@ -1,6 +1,6 @@
 var a00389 =
 [
-    [ "advstd::type_identity< T >", "d3/d60/a05145.html", "d3/d60/a05145" ],
-    [ "remove_cvref_t", "dc/dc9/a00389.html#ac715806cfa8e6c5277bf65ddda6af591", null ],
-    [ "type_identity_t", "dc/dc9/a00389.html#a172e0f55ccedf648cfcdc15e8cd1f6d5", null ]
+    [ "Acore::Asio::DeadlineTimer", "d8/def/a04771.html", null ],
+    [ "BasicDeadlineTimerThirdTemplateArg", "dc/dc9/a00389.html#aa00718a58368d47d518a9a0a5e9dbe48", null ],
+    [ "DeadlineTimerBase", "dc/dc9/a00389.html#af6bd04c5e5a0a7447efa9fa831408661", null ]
 ];

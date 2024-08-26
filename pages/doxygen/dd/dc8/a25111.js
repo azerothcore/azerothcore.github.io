@@ -1,7 +1,6 @@
 var a25111 =
 [
-    [ "HandleScriptEffect", "dd/dc8/a25111.html#a4444d5f146e875bae40edbcc8ed408cb", null ],
-    [ "PrepareSpellScript", "dd/dc8/a25111.html#af4320dd6567d8c9cb2a1492095a98459", null ],
-    [ "Register", "dd/dc8/a25111.html#ab9360c3a883dd5a7df9836306d9762ec", null ],
-    [ "Validate", "dd/dc8/a25111.html#a51ebef5e7fff9dfaab553ecae7be732f", null ]
+    [ "HandleScriptEffect", "dd/dc8/a25111.html#a422a77760004d6d6fac6bacdb1d436ff", null ],
+    [ "PrepareSpellScript", "dd/dc8/a25111.html#a1d7e2beafb55464f928ea5904441d698", null ],
+    [ "Register", "dd/dc8/a25111.html#aeaa8321255f377b85884df25a455554f", null ]
 ];

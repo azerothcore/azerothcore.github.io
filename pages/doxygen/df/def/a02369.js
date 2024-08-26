@@ -1,21 +1,12 @@
 var a02369 =
 [
-    [ "CleaningFlags", "df/def/a02369.html#ad8ba5c50a4cd2d5193e35ccc83798c67", [
-      [ "CLEANING_FLAG_ACHIEVEMENT_PROGRESS", "df/def/a02369.html#ad8ba5c50a4cd2d5193e35ccc83798c67afdcd00f9b75d683b143cbbe0ac22d748", null ],
-      [ "CLEANING_FLAG_SKILLS", "df/def/a02369.html#ad8ba5c50a4cd2d5193e35ccc83798c67ac23b2648d4cf0fe8d9ff4cd96722a714", null ],
-      [ "CLEANING_FLAG_SPELLS", "df/def/a02369.html#ad8ba5c50a4cd2d5193e35ccc83798c67a39fa10b14e68e92b74ab6697d0e1d564", null ],
-      [ "CLEANING_FLAG_TALENTS", "df/def/a02369.html#ad8ba5c50a4cd2d5193e35ccc83798c67a06a3fa1596c0c32ec619b9b9cb1d1550", null ],
-      [ "CLEANING_FLAG_QUESTSTATUS", "df/def/a02369.html#ad8ba5c50a4cd2d5193e35ccc83798c67ae0367424104049d29ca9dcf3d5b7273c", null ]
+    [ "instance_shadow_labyrinth", "d1/d32/a22659.html", "d1/d32/a22659" ],
+    [ "instance_shadow_labyrinth::instance_shadow_labyrinth_InstanceMapScript", "dc/df2/a22663.html", "dc/df2/a22663" ],
+    [ "spell_mark_of_malice", "d4/d28/a22667.html", "d4/d28/a22667" ],
+    [ "MarkOfMalice", "df/def/a02369.html#a5faa1e1ef40cd28efc7332da31667677", [
+      [ "SPELL_MARK_OF_MALICE_TRIGGERED", "df/def/a02369.html#a5faa1e1ef40cd28efc7332da31667677a3c3d2a42daa901d72ea35a7207267ecb", null ]
     ] ],
-    [ "AchievementProgressCheck", "df/def/a02369.html#afe5cf638b3ba626c9dc18258d4c528fa", null ],
-    [ "CheckUnique", "df/def/a02369.html#ab98182e5f92f72090600314cc41f0d39", null ],
-    [ "CleanCharacterAchievementProgress", "df/def/a02369.html#ae5939466cf9b4fbb63eb136baf62767f", null ],
-    [ "CleanCharacterQuestStatus", "df/def/a02369.html#a9f512823f852120bf4c3ec78eb4bbeaa", null ],
-    [ "CleanCharacterSkills", "df/def/a02369.html#ae8c5d4dc123b8a900254bcbc82c1ffbe", null ],
-    [ "CleanCharacterSpell", "df/def/a02369.html#aca5826d283031348e5d6ae6eb75ad605", null ],
-    [ "CleanCharacterTalent", "df/def/a02369.html#a344f61fb209b507b775a0bbfb1315fac", null ],
-    [ "CleanDatabase", "df/def/a02369.html#a357c8a07f912c6efb55a13cc9bc089b9", null ],
-    [ "SkillCheck", "df/def/a02369.html#a0f72cf24646d1ece0eb793890840992d", null ],
-    [ "SpellCheck", "df/def/a02369.html#a02688f57778d28a7bcc4ca6cee2074ad", null ],
-    [ "TalentCheck", "df/def/a02369.html#aac707369555aa95807c11b1578ae80d2", null ]
+    [ "AddSC_instance_shadow_labyrinth", "df/def/a02369.html#ad8948ff8ccd6c3cee367ad7227308846", null ],
+    [ "creatureData", "df/def/a02369.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "doorData", "df/def/a02369.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
 ];

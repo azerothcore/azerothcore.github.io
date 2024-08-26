@@ -1,12 +1,17 @@
 var a04010 =
 [
-    [ "ACScriptName", "df/d75/a04010.html#a44e28f969fff2c33cf76b8eaaff1898c", null ],
-    [ "DataHeader", "df/d75/a04010.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "RegisterAuchenaiCryptsCreatureAI", "df/d75/a04010.html#abf97bec93b670890ad0eaa7d6b4bd4b9", null ],
-    [ "ACDataTypes", "df/d75/a04010.html#aae3060cf5aa0b4d27bcbbfeee3db2856", [
-      [ "DATA_SHIRRAK_THE_DEAD_WATCHER", "df/d75/a04010.html#aae3060cf5aa0b4d27bcbbfeee3db2856a5d80917a3a5f108f9e625372181b85fe", null ],
-      [ "DATA_EXARCH_MALADAAR", "df/d75/a04010.html#aae3060cf5aa0b4d27bcbbfeee3db2856aa54edd3601b7953b0bf046fa8b1bd3f8", null ]
+    [ "GuidLinkType", "df/d75/a04010.html#a7c58fae67eb0c9a1b6f18b403121b2f5", [
+      [ "SPELL_LINK_PLAYER", "df/d75/a04010.html#a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028", null ],
+      [ "SPELL_LINK_CREATURE", "df/d75/a04010.html#a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8", null ],
+      [ "SPELL_LINK_GAMEOBJECT", "df/d75/a04010.html#a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7", null ]
     ] ],
-    [ "GetAuchenaiCryptsAI", "df/d75/a04010.html#a8c9b9cbd7dca7c2e86d7ad3fe7bfd961", null ],
-    [ "EncounterCount", "df/d75/a04010.html#a31d630c40753c29f94ceac2db5e451a8", null ]
+    [ "SpellLinkType", "df/d75/a04010.html#a39157073e48b2e925e7227a28d1f09f9", [
+      [ "SPELL_LINK_SPELL", "df/d75/a04010.html#a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd", null ],
+      [ "SPELL_LINK_TALENT", "df/d75/a04010.html#a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56", null ],
+      [ "SPELL_LINK_ENCHANT", "df/d75/a04010.html#a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654", null ],
+      [ "SPELL_LINK_TRADE", "df/d75/a04010.html#a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919", null ],
+      [ "SPELL_LINK_GLYPH", "df/d75/a04010.html#a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e", null ]
+    ] ],
+    [ "guidKeys", "df/d75/a04010.html#ae39447b85bcee503ddb354d2950d638a", null ],
+    [ "spellKeys", "df/d75/a04010.html#a493fba30c4b66be28baeb971844ea593", null ]
 ];

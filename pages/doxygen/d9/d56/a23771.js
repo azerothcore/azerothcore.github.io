@@ -1,10 +1,22 @@
 var a23771 =
 [
-    [ "npc_lord_sanguinar", "d9/d56/a23771.html#aa5ec2023d72561fe9cf062a2ba5a5469", null ],
-    [ "JustDied", "d9/d56/a23771.html#a97fbf79087f34898c87df2d88a33bd2c", null ],
-    [ "JustEngagedWith", "d9/d56/a23771.html#a8a6871900d2f49e7ce5a66d0620fec09", null ],
-    [ "Reset", "d9/d56/a23771.html#a25d998de67f88d4618f8f8d88681e68b", null ],
-    [ "UpdateAI", "d9/d56/a23771.html#a27df1dbb76a650b8039690cab4ddad68", null ],
-    [ "_hasDied", "d9/d56/a23771.html#a6f0a66b88b95412f443998190b142eaf", null ],
-    [ "_instance", "d9/d56/a23771.html#aa610a2ca98d2fff376821dd243947096", null ]
+    [ "boss_kaelthas", "d9/d56/a23771.html#a345f77793c34abb61f6bf29eed7d22fd", null ],
+    [ "AttackStart", "d9/d56/a23771.html#a861636c35e70116ddea722519bd08831", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "d9/d56/a23771.html#a8974fcc10874e2dab89f7bc9f71afe6d", null ],
+    [ "DoAction", "d9/d56/a23771.html#ab5dbc3f3adaf7567d48dc11838e3b938", null ],
+    [ "ExecuteMiddleEvent", "d9/d56/a23771.html#a42b6d919db655b50c2bd0214b9663fc9", null ],
+    [ "IntroduceNewAdvisor", "d9/d56/a23771.html#a114fca4c08c190b9e3bb0695220df408", null ],
+    [ "JustEngagedWith", "d9/d56/a23771.html#a0a93fadd54d6a3169f70cb0da99085ba", null ],
+    [ "JustSummoned", "d9/d56/a23771.html#a5e5f8d605a87019c9d9e4d613464de81", null ],
+    [ "KilledUnit", "d9/d56/a23771.html#a3d489512c3a5abc69a6359e174863893", null ],
+    [ "MoveInLineOfSight", "d9/d56/a23771.html#a52ab6dafc6c62de034131a7d62a09354", null ],
+    [ "MovementInform", "d9/d56/a23771.html#a826678b15763782107f218e1031c149b", null ],
+    [ "PhaseAllAdvisorsExecute", "d9/d56/a23771.html#adcad835ea5eedc1a8f4fe7a7bb9dfdc2", null ],
+    [ "PhaseKaelExecute", "d9/d56/a23771.html#afdf4470092452498dfcb27a4bc4c319f", null ],
+    [ "PrepareAdvisors", "d9/d56/a23771.html#a336e5b81146fe19f36b1d39fd3802aac", null ],
+    [ "Reset", "d9/d56/a23771.html#a7331287c076a765815ddca3a445dbe73", null ],
+    [ "SetData", "d9/d56/a23771.html#a71cb08d6ec4e2631ecaf4d25b1cf872b", null ],
+    [ "SetRoomState", "d9/d56/a23771.html#a1eb86aaca814d5464e76af7464db91fb", null ],
+    [ "UpdateAI", "d9/d56/a23771.html#a5f10fded416168d772109ecbf8b09e77", null ],
+    [ "_phase", "d9/d56/a23771.html#a95845de084e261ca6c6d815f4e150223", null ]
 ];

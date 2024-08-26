@@ -1,7 +1,6 @@
 var a26791 =
 [
-    [ "HandleApply", "d2/d32/a26791.html#a046abc4b8afd26d13bcb7140165aed80", null ],
-    [ "HandleRemove", "d2/d32/a26791.html#ad35716d4210572057fe67d426849931a", null ],
-    [ "PrepareAuraScript", "d2/d32/a26791.html#a9af96871b8b7ac19de01e316f4350ebf", null ],
-    [ "Register", "d2/d32/a26791.html#a37c4c881c563882fb72693babe545fc4", null ]
+    [ "PrepareAuraScript", "d2/d32/a26791.html#a65fa925d99065d028e328a92f2a13805", null ],
+    [ "Register", "d2/d32/a26791.html#a95dc732286adf4327f68e23015d58c21", null ],
+    [ "RemoveEffect", "d2/d32/a26791.html#a3f474c143f64739187b6049cac5e4b38", null ]
 ];

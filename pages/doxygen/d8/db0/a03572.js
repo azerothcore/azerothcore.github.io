@@ -1,6 +1,10 @@
 var a03572 =
 [
-    [ "instance_pit_of_saron", "d8/d21/a16895.html", "d8/d21/a16895" ],
-    [ "instance_pit_of_saron::instance_pit_of_saron_InstanceScript", "d8/d06/a16899.html", "d8/d06/a16899" ],
-    [ "AddSC_instance_pit_of_saron", "d8/db0/a03572.html#a0793b7a11993f477eea1066a2da4bbb2", null ]
+    [ "AllCommandScript", "d9/d4f/a09915.html", "d9/d4f/a09915" ],
+    [ "CommandSC", "d8/db0/a03572.html#a0c35d8c2fdd730a0360fd00502881c03", null ],
+    [ "AllCommandHook", "d8/db0/a03572.html#a57c7df35e0370887ade698d62704997b", [
+      [ "ALLCOMMANDHOOK_ON_HANDLE_DEV_COMMAND", "d8/db0/a03572.html#a57c7df35e0370887ade698d62704997bab762a34db533207a5f8f5b0db870f0b0", null ],
+      [ "ALLCOMMANDHOOK_ON_TRY_EXECUTE_COMMAND", "d8/db0/a03572.html#a57c7df35e0370887ade698d62704997bac267dc607dca6da8a2195d77a9def327", null ],
+      [ "ALLCOMMANDHOOK_END", "d8/db0/a03572.html#a57c7df35e0370887ade698d62704997bac10a14231ce403ff1812e0ec03700812", null ]
+    ] ]
 ];

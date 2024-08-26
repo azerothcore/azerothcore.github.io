@@ -1,6 +1,6 @@
 var a26527 =
 [
-    [ "CheckCast", "d7/d54/a26527.html#a97f479cccecc6f37c75b47122b47e333", null ],
-    [ "PrepareSpellScript", "d7/d54/a26527.html#a7033ad7dbdab5eec532ea6f860f97427", null ],
-    [ "Register", "d7/d54/a26527.html#a4c8f84e1a2cc89064ec5963321fecce7", null ]
+    [ "HandleRemove", "d7/d54/a26527.html#a92eb5e02c8b165caa877d368a456e5b2", null ],
+    [ "PrepareAuraScript", "d7/d54/a26527.html#a132193c0c13a2f89b9b29391d524023a", null ],
+    [ "Register", "d7/d54/a26527.html#a246294a7b9a128a9ec464562846332fc", null ]
 ];

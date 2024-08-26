@@ -1,9 +1,7 @@
 var a02249 =
 [
-    [ "PacketLog", "df/d90/a10659.html", "df/d90/a10659" ],
-    [ "sPacketLog", "dd/dc3/a02249.html#a14b702138c7f0a62a900dfc8eecc1f6f", null ],
-    [ "Direction", "dd/dc3/a02249.html#a224b9163917ac32fc95a60d8c1eec3aa", [
-      [ "CLIENT_TO_SERVER", "dd/dc3/a02249.html#a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476", null ],
-      [ "SERVER_TO_CLIENT", "dd/dc3/a02249.html#a224b9163917ac32fc95a60d8c1eec3aaa0df224cab9714b02d0718697fbce48a3", null ]
-    ] ]
+    [ "instance_the_underbog", "d1/d9d/a23399.html", "d1/d9d/a23399" ],
+    [ "instance_the_underbog::instance_the_underbog_InstanceMapScript", "d3/d34/a23403.html", "d3/d34/a23403" ],
+    [ "AddSC_instance_the_underbog", "dd/dc3/a02249.html#acc5edb97f1bda7cd30a38061e4676698", null ],
+    [ "creatureData", "dd/dc3/a02249.html#a412286b689bd324fedd65ddd8dde8afb", null ]
 ];

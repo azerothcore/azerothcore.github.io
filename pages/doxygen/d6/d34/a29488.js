@@ -1,6 +1,7 @@
 var a29488 =
 [
-    [ "npc_training_dummyAI", "df/dd3/a29492.html", "df/dd3/a29492" ],
-    [ "npc_training_dummy", "d6/d34/a29488.html#acfed4da3b1a01bc58e599d2dc134cb7d", null ],
-    [ "GetAI", "d6/d34/a29488.html#a87a48a42e8349ce9125de91a429d4ffa", null ]
+    [ "u_map_fcc", "de/d70/a28515.html", "de/d70/a28515" ],
+    [ "file_MVER", "df/d0f/a28519.html", "df/d0f/a28519" ],
+    [ "FileLoader", "d4/d1e/a28527.html", "d4/d1e/a28527" ],
+    [ "FILE_FORMAT_VERSION", "d6/d34/a29488.html#a6fef47739ef9998b00a2523c98cb2315", null ]
 ];

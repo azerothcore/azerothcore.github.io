@@ -1,6 +1,6 @@
 var a04031 =
 [
-    [ "instance_mana_tombs", "d7/d65/a22591.html", "d7/d65/a22591" ],
-    [ "instance_mana_tombs::instance_mana_tombs_InstanceMapScript", "d5/dbc/a22595.html", "d5/dbc/a22595" ],
-    [ "AddSC_instance_mana_tombs", "d4/dd6/a04031.html#ab3a34e5f5a1433a62cdca43b8f13182c", null ]
+    [ "ChatHandler", "dc/d33/a07259.html", "dc/d33/a07259" ],
+    [ "CliHandler", "df/dc1/a07263.html", "df/dc1/a07263" ],
+    [ "AddonChannelCommandHandler", "df/df8/a07267.html", "df/df8/a07267" ]
 ];

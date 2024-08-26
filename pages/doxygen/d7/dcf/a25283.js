@@ -1,7 +1,5 @@
 var a25283 =
 [
-    [ "OnApply", "d7/dcf/a25283.html#a455a885611978a390cd4bfa76b05f82b", null ],
-    [ "PrepareAuraScript", "d7/dcf/a25283.html#ac8f269db5d77cf38bdfcbcfef75a62ff", null ],
-    [ "Register", "d7/dcf/a25283.html#a4b1a28052f11b47646dafbcd60b9dad8", null ],
-    [ "Validate", "d7/dcf/a25283.html#af1174bbbaab1d170a0dcd030d2f1e990", null ]
+    [ "PrepareSpellScript", "d7/dcf/a25283.html#a7478d96ac24bc4b70a10bc83335c9b76", null ],
+    [ "Register", "d7/dcf/a25283.html#ab3ab9557cd1969fd977a3df6f2c59d7c", null ]
 ];

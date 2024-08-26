@@ -1,6 +1,7 @@
 var a23935 =
 [
-    [ "npc_simon_bunnyAI", "d8/daf/a23939.html", "d8/daf/a23939" ],
-    [ "npc_simon_bunny", "d9/d6c/a23935.html#afd3f3a24450bc8b748c0ff5b05b10da1", null ],
-    [ "GetAI", "d9/d6c/a23935.html#ac0c97609916321a1599c0722803a050f", null ]
+    [ "npc_daranelleAI", "d9/d6c/a23935.html#a49eeff6e0aea079a0375a92074227d12", null ],
+    [ "JustEngagedWith", "d9/d6c/a23935.html#aeff39dfd84986186057cdaf7632eed4f", null ],
+    [ "MoveInLineOfSight", "d9/d6c/a23935.html#a353e27c1485b88f0751a64260898d35b", null ],
+    [ "Reset", "d9/d6c/a23935.html#a33b2fbec775257e3ba0bebe37fb86349", null ]
 ];

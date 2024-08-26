@@ -28,6 +28,7 @@ var a06099 =
     [ "DoStopAttack", "df/d93/a06099.html#a3109a39616dac324a0cf2c043d905919", null ],
     [ "DoTeleportAll", "df/d93/a06099.html#a9a0fd54ad51d110908c3aacdf348ad7f", null ],
     [ "DoTeleportPlayer", "df/d93/a06099.html#a91bb9b68864798e501f04cf6b4224c19", null ],
+    [ "DoTeleportPlayer", "df/d93/a06099.html#a405a494b175c9ee5494e17876b329984", null ],
     [ "DUNGEON_MODE", "df/d93/a06099.html#a1ca3b73dcbf8a3e8b35c334a97a8dcf9", null ],
     [ "GetDifficulty", "df/d93/a06099.html#aa85301410e58ca4d6e1db96400969d60", null ],
     [ "GetPlayerAtMinimumRange", "df/d93/a06099.html#a860621620c2c40d8852574df19c0c654", null ],

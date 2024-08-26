@@ -1,7 +1,11 @@
 var a02489 =
 [
-    [ "gobject_commandscript", "d4/db3/a11323.html", "d4/db3/a11323" ],
-    [ "GameObjectEntry", "da/dbe/a02489.html#af6e4fdc2f36213d5f2a9fa6f335517b8", null ],
-    [ "GameObjectSpawnId", "da/dbe/a02489.html#ad5bd2a208bd6c6213df595ee7369126f", null ],
-    [ "AddSC_gobject_commandscript", "da/dbe/a02489.html#a0cc4be9c12b1a892f031cb1ff47e23d9", null ]
+    [ "AddOutdoorPvPScripts", "da/dbe/a02489.html#a489bdfb4854732e561b6b13b70f67a0f", null ],
+    [ "AddSC_outdoorpvp_ep", "da/dbe/a02489.html#ac97adfc1efbcf82840cffa915a55fecb", null ],
+    [ "AddSC_outdoorpvp_gh", "da/dbe/a02489.html#a04eaa29ec2e34f71e4f7addacc0405c0", null ],
+    [ "AddSC_outdoorpvp_hp", "da/dbe/a02489.html#a69303ad6f661d8c009ee493dc4fd486c", null ],
+    [ "AddSC_outdoorpvp_na", "da/dbe/a02489.html#a03015585e7619177355fefd05f85e1c7", null ],
+    [ "AddSC_outdoorpvp_si", "da/dbe/a02489.html#a6dfd2849f525333510ae4febbbc3ae1f", null ],
+    [ "AddSC_outdoorpvp_tf", "da/dbe/a02489.html#a6df553c8dd6e9b81e83110e7beab3646", null ],
+    [ "AddSC_outdoorpvp_zm", "da/dbe/a02489.html#a3077d08865fa83f84cf956c392a9091c", null ]
 ];

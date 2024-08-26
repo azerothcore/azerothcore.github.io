@@ -1,10 +1,9 @@
 var a23731 =
 [
-    [ "CheckProc", "d4/d92/a23731.html#ac176c59497cc2196c19dc8a1b9f8056d", null ],
-    [ "Load", "d4/d92/a23731.html#aad39e53d6b3fc673c115f79ca0bc9b68", null ],
-    [ "PrepareAuraScript", "d4/d92/a23731.html#a990cab2c1d9fb544bf11c9fd4e5495ac", null ],
-    [ "Register", "d4/d92/a23731.html#ae2cf612df18cf249bc4a90ce9332fc9b", null ],
-    [ "_lastForm", "d4/d92/a23731.html#ad392a897546cb64e550dd8b0709ba0ab", null ],
-    [ "_lastSchool", "d4/d92/a23731.html#afc2e3e388615ed5cf0f4dd672f26de85", null ],
-    [ "_swapTime", "d4/d92/a23731.html#af832dc200e928df3849ab7d7f93cb412", null ]
+    [ "HandleEffectApply", "d4/d92/a23731.html#ac9e030810cc1ffb3927943353bcbb764", null ],
+    [ "HandleEffectRemove", "d4/d92/a23731.html#a2524bb4614fa62fb703a3d3cf0c25da0", null ],
+    [ "Load", "d4/d92/a23731.html#a60f41c19f5104eef82048fd1e3416abd", null ],
+    [ "PrepareAuraScript", "d4/d92/a23731.html#a277d9865108acafac4b1a42bc5b5714b", null ],
+    [ "Register", "d4/d92/a23731.html#a5ffe5a8b3422382482f713ff6d8514b2", null ],
+    [ "_falconSet", "d4/d92/a23731.html#a1a20f75d251936bff7a0777831d79140", null ]
 ];

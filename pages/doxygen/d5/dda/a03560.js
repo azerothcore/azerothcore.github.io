@@ -1,7 +1,12 @@
 var a03560 =
 [
-    [ "UtherBatteredHiltEvent", "d8/d6f/a16839.html", "d8/d6f/a16839" ],
-    [ "instance_halls_of_reflection", "d5/d1f/a16843.html", "d5/d1f/a16843" ],
-    [ "instance_halls_of_reflection::instance_halls_of_reflection_InstanceMapScript", "d1/da3/a16847.html", "d1/da3/a16847" ],
-    [ "AddSC_instance_halls_of_reflection", "d5/dda/a03560.html#a0f581d4a1a046db6b8b7729c87457646", null ]
+    [ "AchievementScript", "d5/da9/a09907.html", "d5/da9/a09907" ],
+    [ "AchievementHook", "d5/dda/a03560.html#a62b7eadebfd59858b2e2f1a8713a3ae1", [
+      [ "ACHIEVEMENTHOOK_SET_REALM_COMPLETED", "d5/dda/a03560.html#a62b7eadebfd59858b2e2f1a8713a3ae1ac3fc38cd750edf07c66cf42ae357a782", null ],
+      [ "ACHIEVEMENTHOOK_IS_COMPLETED_CRITERIA", "d5/dda/a03560.html#a62b7eadebfd59858b2e2f1a8713a3ae1a12f1bcc17681be9acc81dc3fb51e8f2e", null ],
+      [ "ACHIEVEMENTHOOK_IS_REALM_COMPLETED", "d5/dda/a03560.html#a62b7eadebfd59858b2e2f1a8713a3ae1a0f6e888313610e200011072afae5b8e7", null ],
+      [ "ACHIEVEMENTHOOK_ON_BEFORE_CHECK_CRITERIA", "d5/dda/a03560.html#a62b7eadebfd59858b2e2f1a8713a3ae1a5073468c76ad4823c32a7fe0cc113048", null ],
+      [ "ACHIEVEMENTHOOK_CAN_CHECK_CRITERIA", "d5/dda/a03560.html#a62b7eadebfd59858b2e2f1a8713a3ae1aa9d01d0837118bf75263bb54b21f18b1", null ],
+      [ "ACHIEVEMENTHOOK_END", "d5/dda/a03560.html#a62b7eadebfd59858b2e2f1a8713a3ae1a2df8c3284122e09fda0d8f4b7789732c", null ]
+    ] ]
 ];

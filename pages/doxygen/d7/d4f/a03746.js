@@ -1,6 +1,8 @@
 var a03746 =
 [
-    [ "instance_oculus", "d0/d19/a19291.html", "d0/d19/a19291" ],
-    [ "instance_oculus::instance_oculus_InstanceMapScript", "d2/d08/a19295.html", "d2/d08/a19295" ],
-    [ "AddSC_instance_oculus", "d7/d4f/a03746.html#affab733b7501171ef164fa0b308883a7", null ]
+    [ "GameObjectScript", "df/de2/a10007.html", "df/de2/a10007" ],
+    [ "GenericGameObjectScript< AI >", "de/d3f/a10011.html", "de/d3f/a10011" ],
+    [ "FactoryGameObjectScript< AI, AIFactory >", "d4/db5/a10015.html", "d4/db5/a10015" ],
+    [ "RegisterGameObjectAI", "d7/d4f/a03746.html#a87397a2ba2a1acd88f62793eae9aa30e", null ],
+    [ "RegisterGameObjectAIWithFactory", "d7/d4f/a03746.html#a1614f98721d8a94351c4be15a72e499f", null ]
 ];

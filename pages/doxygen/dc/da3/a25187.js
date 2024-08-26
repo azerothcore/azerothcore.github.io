@@ -1,5 +1,7 @@
 var a25187 =
 [
-    [ "PrepareSpellScript", "dc/da3/a25187.html#ae49ad5a4ad43099c4510e1666ff6415b", null ],
-    [ "Register", "dc/da3/a25187.html#ad31fa6c2099d984389c3fb12e53a5bd8", null ]
+    [ "CalculateAmount", "dc/da3/a25187.html#a074a7de6cd4d930c1f23f6398c738bad", null ],
+    [ "Load", "dc/da3/a25187.html#a777803a61286e0eba31246d4771630df", null ],
+    [ "PrepareAuraScript", "dc/da3/a25187.html#ab76bc3927d3ce31ae061fe8577ca25f0", null ],
+    [ "Register", "dc/da3/a25187.html#a335e1629b98bfacf6e4e565b94d4991e", null ]
 ];

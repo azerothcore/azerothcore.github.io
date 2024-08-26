@@ -1,10 +1,10 @@
 var a23783 =
 [
-    [ "npc_thaladred", "d4/d80/a23783.html#a2589c19d5cc48c0a5fd504aecddfaa90", null ],
-    [ "JustDied", "d4/d80/a23783.html#acb50d54da8d8a422eab2b12aae5691b2", null ],
-    [ "JustEngagedWith", "d4/d80/a23783.html#a376664a7801ed27214b614b262b57d1c", null ],
-    [ "Reset", "d4/d80/a23783.html#a1ea5f71a78b8af971784c54048e3a6a0", null ],
-    [ "UpdateAI", "d4/d80/a23783.html#ab5d1276a3ef79239cfcada00fd48e1cd", null ],
-    [ "_hasDied", "d4/d80/a23783.html#a36d70481c9e6ebd20996fa1a4844a9d3", null ],
-    [ "_instance", "d4/d80/a23783.html#ae034800974950fd97b9bc9d0a15590d5", null ]
+    [ "npc_telonicus", "d4/d80/a23783.html#af8ba6be2d39463725bbbaf7770319a93", null ],
+    [ "JustDied", "d4/d80/a23783.html#a8748435fe676bb0a9988186006612ef8", null ],
+    [ "JustEngagedWith", "d4/d80/a23783.html#a1754b13210eefec39b2ca766cf5e1cc0", null ],
+    [ "Reset", "d4/d80/a23783.html#afa5c2f47fabde2c4d1bb9f544369fa7c", null ],
+    [ "UpdateAI", "d4/d80/a23783.html#a43e051ed780d30741cdf8403fa07595b", null ],
+    [ "_hasDied", "d4/d80/a23783.html#a28a88cd9d427691b177f74e7bd3f5e7c", null ],
+    [ "_instance", "d4/d80/a23783.html#a2d04c0bf0af6d588cf2e22faad7ec230", null ]
 ];

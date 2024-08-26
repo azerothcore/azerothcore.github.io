@@ -1,4 +1,4 @@
 var a00440 =
 [
-    [ "Optional", "de/df8/a00440.html#aaf8f4d77efd311ec7818ab421294ef82", null ]
+    [ "Acore::Crypto::TOTP", "d2/d78/a05087.html", "d2/d78/a05087" ]
 ];

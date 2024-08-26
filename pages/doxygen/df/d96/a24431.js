@@ -1,6 +1,7 @@
 var a24431 =
 [
-    [ "HandleEffectRemove", "df/d96/a24431.html#a9472b79a272aff36be657b66883d822f", null ],
-    [ "PrepareAuraScript", "df/d96/a24431.html#ad46fedf6ef019d1b5e93d98e7bba8417", null ],
-    [ "Register", "df/d96/a24431.html#ace15e1f5c158f1f203862b40da2cf8fc", null ]
+    [ "CheckCast", "df/d96/a24431.html#a0e4e62a9b1763619170b6da8487e7ee1", null ],
+    [ "HandleDummy", "df/d96/a24431.html#ac7084a563e98760d58dfbcafdd7cde11", null ],
+    [ "PrepareSpellScript", "df/d96/a24431.html#a465da282630352a289d5daae7ccb1d01", null ],
+    [ "Register", "df/d96/a24431.html#ae668f0c45a74d56d1be5be29309c9f6d", null ]
 ];

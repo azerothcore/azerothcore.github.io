@@ -1,6 +1,5 @@
 var a02237 =
 [
-    [ "WorldPackets::WorldState::InitWorldStates", "d1/deb/a10603.html", "d1/deb/a10603" ],
-    [ "WorldPackets::WorldState::InitWorldStates::WorldStateInfo", "d8/d56/a10607.html", "d8/d56/a10607" ],
-    [ "WorldPackets::WorldState::UpdateWorldState", "d9/da8/a10611.html", "d9/da8/a10611" ]
+    [ "at_quagmirran_lair", "d0/db2/a23319.html", "d0/db2/a23319" ],
+    [ "AddSC_the_slave_pens", "d9/d13/a02237.html#acc273464c0a5ce338fdb03fdd7877dd9", null ]
 ];

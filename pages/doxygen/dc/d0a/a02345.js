@@ -1,23 +1,14 @@
 var a02345 =
 [
-    [ "CreatureTextEntry", "dc/dcc/a11075.html", "dc/dcc/a11075" ],
-    [ "CreatureTextLocale", "df/d0e/a11079.html", "df/d0e/a11079" ],
-    [ "CreatureTextId", "d5/d89/a11083.html", "d5/d89/a11083" ],
-    [ "CreatureTextMgr", "de/d87/a11087.html", "de/d87/a11087" ],
-    [ "CreatureTextLocalizer< Builder >", "d1/db7/a11091.html", "d1/db7/a11091" ],
-    [ "sCreatureTextMgr", "dc/d0a/a02345.html#a2dc428da007cefe454220dcb355a1cde", null ],
-    [ "CreatureTextGroup", "dc/d0a/a02345.html#a9baeb5ff5e542c90d9058942cf0b4bbd", null ],
-    [ "CreatureTextHolder", "dc/d0a/a02345.html#aad09b58ddf486cb766cdeb242824cd2d", null ],
-    [ "CreatureTextMap", "dc/d0a/a02345.html#ac48698bcbe36b82577c41f42f3f23f09", null ],
-    [ "CreatureTextRepeatGroup", "dc/d0a/a02345.html#aa92b7ce1a721a3955751ae25cf01b22a", null ],
-    [ "CreatureTextRepeatIds", "dc/d0a/a02345.html#a4a74e5d0af63228e47e1f663570018ae", null ],
-    [ "CreatureTextRepeatMap", "dc/d0a/a02345.html#a919aeba9f103d29372eb10a72f3b1142", null ],
-    [ "LocaleCreatureTextMap", "dc/d0a/a02345.html#ab39b2d82775a84108d19ed009bd14747", null ],
-    [ "CreatureTextRange", "dc/d0a/a02345.html#adf847039afbebeda9e21210c1f4eb052", [
-      [ "TEXT_RANGE_NORMAL", "dc/d0a/a02345.html#adf847039afbebeda9e21210c1f4eb052a649e811a5e8853fa24088dbb708ce9ab", null ],
-      [ "TEXT_RANGE_AREA", "dc/d0a/a02345.html#adf847039afbebeda9e21210c1f4eb052a1982e7a678f4ba541ea6ecbfec493385", null ],
-      [ "TEXT_RANGE_ZONE", "dc/d0a/a02345.html#adf847039afbebeda9e21210c1f4eb052a182bd5362916ba67bcf6660ce37fae0a", null ],
-      [ "TEXT_RANGE_MAP", "dc/d0a/a02345.html#adf847039afbebeda9e21210c1f4eb052a90bf8cfe8ac6e4bac224bd3dd9fbc3a3", null ],
-      [ "TEXT_RANGE_WORLD", "dc/d0a/a02345.html#adf847039afbebeda9e21210c1f4eb052a3a88078985d9e80a4543acf0acde52d9", null ]
-    ] ]
+    [ "DataHeader", "dc/d0a/a02345.html#a042491ef36459046f3866e90f15aae0d", null ],
+    [ "MTScriptName", "dc/d0a/a02345.html#a772413d8818d681e2261c99f58e1268c", null ],
+    [ "RegisterManaTombsCreatureAI", "dc/d0a/a02345.html#a7e2e8ea768842320ce5d953aeaddb176", null ],
+    [ "MTDataTypes", "dc/d0a/a02345.html#a9ffea4a6410ded9f327ba6e91f8766ee", [
+      [ "DATA_PANDEMONIUS", "dc/d0a/a02345.html#a9ffea4a6410ded9f327ba6e91f8766eeab1efde1b4aaad2daab0c383563a9f02a", null ],
+      [ "DATA_TAVAROK", "dc/d0a/a02345.html#a9ffea4a6410ded9f327ba6e91f8766eea9245929feb24a0840eeff34e8c87de57", null ],
+      [ "DATA_NEXUSPRINCE_SHAFFAR", "dc/d0a/a02345.html#a9ffea4a6410ded9f327ba6e91f8766eea07473250c26fb3874461362f93a75a97", null ],
+      [ "DATA_YOR", "dc/d0a/a02345.html#a9ffea4a6410ded9f327ba6e91f8766eea738b876feae2daf42423688ca0f13289", null ]
+    ] ],
+    [ "GetManaTombsAI", "dc/d0a/a02345.html#aaec5771a3ce0808b0a1bb0116b4fb9e3", null ],
+    [ "EncounterCount", "dc/d0a/a02345.html#a31d630c40753c29f94ceac2db5e451a8", null ]
 ];

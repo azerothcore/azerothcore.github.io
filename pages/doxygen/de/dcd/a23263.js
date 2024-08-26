@@ -1,7 +1,6 @@
 var a23263 =
 [
-    [ "PeriodicTick", "de/dcd/a23263.html#a789d2d4d2bc75e412abe80a33102fa06", null ],
-    [ "PrepareAuraScript", "de/dcd/a23263.html#a49db8ade3bc3a3da9e043e8b9ad1759d", null ],
-    [ "Register", "de/dcd/a23263.html#aec2d7f564107f5b294a5d5c3dd3f9b25", null ],
-    [ "Validate", "de/dcd/a23263.html#a7c2309d3192b2a18d8035c8067849d6d", null ]
+    [ "HandleScript", "de/dcd/a23263.html#ad81007cd08ee18bfc7cda4221cbc8482", null ],
+    [ "PrepareSpellScript", "de/dcd/a23263.html#a60f0bb4882d3f75f0839cd0d8ab2707d", null ],
+    [ "Register", "de/dcd/a23263.html#ac06f4246c5cecc4875bc93811eaeb839", null ]
 ];

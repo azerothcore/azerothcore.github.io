@@ -1,4 +1,4 @@
 var a00437 =
 [
-    [ "MessageBuffer", "dd/d3d/a05379.html", "dd/d3d/a05379" ]
+    [ "Acore::Crypto::Argon2", "d3/dd5/a05047.html", "d3/dd5/a05047" ]
 ];

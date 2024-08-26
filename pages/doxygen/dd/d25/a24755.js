@@ -1,6 +1,9 @@
 var a24755 =
 [
-    [ "HandleAfterCast", "dd/d25/a24755.html#a39572ebbeee6fe39bc4454088c622bcd", null ],
-    [ "PrepareSpellScript", "dd/d25/a24755.html#a602d7c920aa73a9c3c69222854093036", null ],
-    [ "Register", "dd/d25/a24755.html#addbbf508a0e1074c23ebd325dd62bbe9", null ]
+    [ "FilterTargets", "dd/d25/a24755.html#ae7a54b8e27f91091b479293cc62ee1f4", null ],
+    [ "PrepareSpellScript", "dd/d25/a24755.html#a215b412cfeae9f2763b1c5d3b8a4ca31", null ],
+    [ "Register", "dd/d25/a24755.html#ae790485f5b27fe34a0a26c3d6fc7ed41", null ],
+    [ "SetTargets", "dd/d25/a24755.html#ac77e95af9b08118e87e3329eab5515ea", null ],
+    [ "Validate", "dd/d25/a24755.html#a8e4b1ff1577f25334b50e25bffc021cc", null ],
+    [ "_targets", "dd/d25/a24755.html#acc66768f54c514552f0ab01274c24f17", null ]
 ];

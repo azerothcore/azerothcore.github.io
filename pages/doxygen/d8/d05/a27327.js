@@ -1,5 +1,5 @@
 var a27327 =
 [
-    [ "item_petrov_cluster_bombs", "d8/d05/a27327.html#a1a76760f7c4617a40d96b9833e7466df", null ],
-    [ "OnUse", "d8/d05/a27327.html#a14e8a00a532b5aebc8469ff538848f53", null ]
+    [ "item_disgusting_jar", "d8/d05/a27327.html#add658cf7d026ac12d3eacc0c1dc8d7fb", null ],
+    [ "OnExpire", "d8/d05/a27327.html#a4f6967035a4d247914a6034fcebac5c5", null ]
 ];

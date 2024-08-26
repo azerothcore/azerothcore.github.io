@@ -1,11 +1,14 @@
 var a23135 =
 [
-    [ "boss_leotheras_the_blind", "d8/d93/a23135.html#a9229850f996812366a20508931965a87", null ],
-    [ "DemonTime", "d8/d93/a23135.html#af62091f4c045b1a85ef022fdc81b6d30", null ],
-    [ "DoAction", "d8/d93/a23135.html#a4f3fd791f12b3f176ce109237c516889", null ],
-    [ "ElfTime", "d8/d93/a23135.html#a52f101530de8883231faa7f5fe689691", null ],
-    [ "MoveToTargetIfOutOfRange", "d8/d93/a23135.html#a3481cfa1883988b8c1c3f65b9009860d", null ],
-    [ "Reset", "d8/d93/a23135.html#a5d4be42da1c7ae15c98b608f39ef82db", null ],
-    [ "UpdateAI", "d8/d93/a23135.html#a89deeb1888046d1f4756bcb6447d8f0d", null ],
-    [ "_recentlySpoken", "d8/d93/a23135.html#ad5231f13a247247dd7095b16c381fc7c", null ]
+    [ "SpellIds", "d8/d93/a23135.html#a2d0e9022edc8a9f6fc0e34330fda114a", [
+      [ "SPELL_SUMMON_WAVE_A_MOB", "d8/d93/a23135.html#a2d0e9022edc8a9f6fc0e34330fda114aa19ea6e555692392677c74fccd206380b", null ],
+      [ "SPELL_SUMMON_WAVE_B_MOB", "d8/d93/a23135.html#a2d0e9022edc8a9f6fc0e34330fda114aa938130293fb55c96d06462e407a24a89", null ],
+      [ "SPELL_SUMMON_WAVE_C_MOB", "d8/d93/a23135.html#a2d0e9022edc8a9f6fc0e34330fda114aadc855654104e4ec0a09540e9b51cb098", null ],
+      [ "SPELL_SUMMON_WAVE_D_MOB", "d8/d93/a23135.html#a2d0e9022edc8a9f6fc0e34330fda114aa3bbb32a8c4da3b06e9bf5da83f39970d", null ]
+    ] ],
+    [ "FilterTargets", "d8/d93/a23135.html#a2a1a2e5069587f52ae968c84cd702eaf", null ],
+    [ "HandleHit", "d8/d93/a23135.html#aa670812f42c3082f42e0f232ee6bee16", null ],
+    [ "PrepareSpellScript", "d8/d93/a23135.html#a7fe65229c64c27909868f02439c1ef66", null ],
+    [ "Register", "d8/d93/a23135.html#a0a8f29b524391ff257aba5cbdc355115", null ],
+    [ "Validate", "d8/d93/a23135.html#ab8bcdcfcad2a9998d95567006817711e", null ]
 ];

@@ -1,6 +1,6 @@
 var a00287 =
 [
-    [ "IpLocationRecord", "d8/d9b/a05219.html", "d8/d9b/a05219" ],
-    [ "IpLocationStore", "d7/d00/a05223.html", "d7/d00/a05223" ],
-    [ "sIPLocation", "d6/d7f/a00287.html#a85e62bd98f395189fea9c9514d44fc31", null ]
+    [ "GameObjectModelOwnerBase", "d9/d31/a04951.html", "d9/d31/a04951" ],
+    [ "GameObjectModel", "db/de9/a04955.html", "db/de9/a04955" ],
+    [ "LoadGameObjectModelList", "d6/d7f/a00287.html#a5a80774080fc05f90c7d92213fda6788", null ]
 ];

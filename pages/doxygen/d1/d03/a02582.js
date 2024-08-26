@@ -1,5 +1,5 @@
 var a02582 =
 [
-    [ "HandleLearnSpellCommand", "d1/d03/a02582.html#acbe37f872cbc981a27671ebdf10904de", null ],
-    [ "HandleUnlearnSpellCommand", "d1/d03/a02582.html#ad36f90f90b3d9aaf782f7efc859f7e7a", null ]
+    [ "titles_commandscript", "d5/d80/a11443.html", "d5/d80/a11443" ],
+    [ "AddSC_titles_commandscript", "d1/d03/a02582.html#abd13948cbed6e10bdbf797847a0f6839", null ]
 ];

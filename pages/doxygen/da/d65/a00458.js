@@ -1,4 +1,4 @@
 var a00458 =
 [
-    [ "Acore::SignalHandler", "d2/dc7/a05391.html", "d2/dc7/a05391" ]
+    [ "SessionKeyGenerator< Hash >", "d6/de9/a05083.html", "d6/de9/a05083" ]
 ];

@@ -1,6 +1,6 @@
 var a25595 =
 [
-    [ "HandleScript", "d9/d19/a25595.html#a9309c0e435240bc656b3bfde2d923a9a", null ],
-    [ "PrepareSpellScript", "d9/d19/a25595.html#a74dc9d9a57ed410b3c0d690418bfb4eb", null ],
-    [ "Register", "d9/d19/a25595.html#a8769cbce815d1f1c457979743e10535c", null ]
+    [ "CheckProc", "d9/d19/a25595.html#acac962ba1cb72615772fe8bc81d24f9d", null ],
+    [ "PrepareAuraScript", "d9/d19/a25595.html#aebe1c8083ba09c21125c47843b2949da", null ],
+    [ "Register", "d9/d19/a25595.html#adde6dada6b3012c2650ba9173c6616a0", null ]
 ];

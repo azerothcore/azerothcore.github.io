@@ -1,8 +1,6 @@
 var a27287 =
 [
-    [ "go_bellsAI", "dc/d55/a27287.html#a6f22847c66a3b5faded35da799359846", null ],
-    [ "UpdateAI", "dc/d55/a27287.html#ab466f67665577f22bfe6cdb94d0a008b", null ],
-    [ "_events", "dc/d55/a27287.html#a46c66442078cee28a76fc412746ca026", null ],
-    [ "_soundId", "dc/d55/a27287.html#ab2491e9d27266ea69a5a9163e8c1b35b", null ],
-    [ "once", "dc/d55/a27287.html#abf6ca2fc64f5764936a6d0179d40c2fa", null ]
+    [ "go_bellsAI", "dc/dbd/a27291.html", "dc/dbd/a27291" ],
+    [ "go_bells", "dc/d55/a27287.html#a9f40a13aa1aaee28ebd1254d428c0519", null ],
+    [ "GetAI", "dc/d55/a27287.html#a4f1272fb8856310d7924f8e7be1e39f8", null ]
 ];

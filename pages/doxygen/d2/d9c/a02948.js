@@ -1,10 +1,8 @@
 var a02948 =
 [
-    [ "spell_razelikh_teleport_group", "dd/d06/a13259.html", "dd/d06/a13259" ],
-    [ "DeathlyUsher", "d2/d9c/a02948.html#aaff0e89586a03a5c2b80f93a4fe0ded7", [
-      [ "SPELL_TELEPORT_SINGLE", "d2/d9c/a02948.html#aaff0e89586a03a5c2b80f93a4fe0ded7a3cdd675db7120b3a968f19df07485e7d", null ],
-      [ "SPELL_TELEPORT_SINGLE_IN_GROUP", "d2/d9c/a02948.html#aaff0e89586a03a5c2b80f93a4fe0ded7a138ccf86c6441c7347a973d3e04c62a5", null ],
-      [ "SPELL_TELEPORT_GROUP", "d2/d9c/a02948.html#aaff0e89586a03a5c2b80f93a4fe0ded7a3efb41f1943511af5c5c1abbced10dcc", null ]
-    ] ],
-    [ "AddSC_blasted_lands", "d2/d9c/a02948.html#a8c45aaff0bee880d1bac07d32d1747f1", null ]
+    [ "GUID_TRAIT_INSTANTIATE_GUID", "d2/d9c/a02948.html#a62c17cbc4f3da3f26f9c1ae3ba2c4953", null ],
+    [ "operator<<", "d2/d9c/a02948.html#a039758f4b57c94c411a4c3882334ada8", null ],
+    [ "operator<<", "d2/d9c/a02948.html#a94ab551ce00fd82dea1532d47ad908bc", null ],
+    [ "operator>>", "d2/d9c/a02948.html#a30aef535f2839648f0ae4648c746d3e2", null ],
+    [ "operator>>", "d2/d9c/a02948.html#a95f3a6eef334b9fcdcaca879532c25d4", null ]
 ];

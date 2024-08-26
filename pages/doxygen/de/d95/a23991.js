@@ -1,6 +1,9 @@
 var a23991 =
 [
-    [ "npc_fel_guard_houndAI", "db/db0/a23995.html", "db/db0/a23995" ],
-    [ "npc_fel_guard_hound", "de/d95/a23991.html#a324179695f04a31b233b0ce94a46634c", null ],
-    [ "GetAI", "de/d95/a23991.html#a5f5c20ec379994e7d0b65133d772e18f", null ]
+    [ "npc_wounded_blood_elfAI", "de/d95/a23991.html#a2dfcd5fa17b56c44f4056ecf4861af6e", null ],
+    [ "JustEngagedWith", "de/d95/a23991.html#aba950ba77ff71508263cc54b28c7725b", null ],
+    [ "JustSummoned", "de/d95/a23991.html#aa97f5294981c44b530efca1411458a97", null ],
+    [ "Reset", "de/d95/a23991.html#a8e6be35a3079998f3bab829f5d963c71", null ],
+    [ "sQuestAccept", "de/d95/a23991.html#a56c157928c24daae6edacd5a126ef171", null ],
+    [ "WaypointReached", "de/d95/a23991.html#a5affcb00e28a582f8926ab2226001cd0", null ]
 ];

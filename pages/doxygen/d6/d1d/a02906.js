@@ -1,15 +1,16 @@
 var a02906 =
 [
-    [ "instance_sunken_temple", "d6/dea/a12895.html", "d6/dea/a12895" ],
-    [ "instance_sunken_temple::instance_sunken_temple_InstanceMapScript", "d6/d2a/a12899.html", "d6/d2a/a12899" ],
-    [ "at_malfurion_stormrage", "d4/d85/a12903.html", "d4/d85/a12903" ],
-    [ "spell_temple_of_atal_hakkar_hex_of_jammal_an", "dd/df2/a12907.html", "dd/df2/a12907" ],
-    [ "spell_temple_of_atal_hakkar_hex_of_jammal_an::spell_temple_of_atal_hakkar_hex_of_jammal_an_AuraScript", "de/dee/a12911.html", "de/dee/a12911" ],
-    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer", "d0/d77/a12915.html", "d0/d77/a12915" ],
-    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer::spell_temple_of_atal_hakkar_awaken_the_soulflayer_SpellScript", "d0/d06/a12919.html", "d0/d06/a12919" ],
-    [ "MalfurionMisc", "d6/d1d/a02906.html#a754fcfafd80b5a6c2ea444f49cfbc7d1", [
-      [ "QUEST_ERANIKUS_TYRANT_OF_DREAMS", "d6/d1d/a02906.html#a754fcfafd80b5a6c2ea444f49cfbc7d1a99089f2ff32693b053abae21941aed5d", null ],
-      [ "QUEST_THE_CHARGE_OF_DRAGONFLIGHTS", "d6/d1d/a02906.html#a754fcfafd80b5a6c2ea444f49cfbc7d1aabeeb62adbb72d2616aa2e6e393f2526", null ]
+    [ "PlayerSetting", "dc/d84/a08371.html", "dc/d84/a08371" ],
+    [ "PlayerSettingMap", "d6/d1d/a02906.html#a03676554928fdf5649c8c7f77a128d04", null ],
+    [ "PlayerSettingVector", "d6/d1d/a02906.html#a5c88535ec12f87cc432b1c594bf05326", null ],
+    [ "AnnouncerFlags", "d6/d1d/a02906.html#a32dfba2d10d91879403874fc75b928fd", [
+      [ "ANNOUNCER_FLAG_DISABLE_BG_QUEUE", "d6/d1d/a02906.html#a32dfba2d10d91879403874fc75b928fdade902d5cd94d828fb33601d0d2461828", null ],
+      [ "ANNOUNCER_FLAG_DISABLE_ARENA_QUEUE", "d6/d1d/a02906.html#a32dfba2d10d91879403874fc75b928fda9135a4bbd55879aac0e222d69a6a1704", null ],
+      [ "ANNOUNCER_FLAG_DISABLE_AUTOBROADCAST", "d6/d1d/a02906.html#a32dfba2d10d91879403874fc75b928fda8cc308de4e117be878954235d6580c5e", null ]
     ] ],
-    [ "AddSC_instance_sunken_temple", "d6/d1d/a02906.html#ab3f2a91fe096585f54078e8884cb25f7", null ]
+    [ "CharacterSettingIndexes", "d6/d1d/a02906.html#acd2ee27596acf5e6804faaf9e7b6a1f5", [
+      [ "SETTING_ANNOUNCER_FLAGS", "d6/d1d/a02906.html#acd2ee27596acf5e6804faaf9e7b6a1f5a87ac7ec64e9a96e600fff40b442b4ca4", null ],
+      [ "MAX_CHAR_SETTINGS", "d6/d1d/a02906.html#acd2ee27596acf5e6804faaf9e7b6a1f5af9d926aa507c306441abf0cd93f9412c", null ]
+    ] ],
+    [ "AzerothcorePSSource", "d6/d1d/a02906.html#a50fa156f5e934ed3fa7108da4c510f28", null ]
 ];

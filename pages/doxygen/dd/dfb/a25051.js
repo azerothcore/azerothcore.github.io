@@ -1,6 +1,6 @@
 var a25051 =
 [
-    [ "CheckRequirement", "dd/dfb/a25051.html#a8a1367ad6c51a74e7cefbc2440eab697", null ],
-    [ "PrepareSpellScript", "dd/dfb/a25051.html#a859ac50e6774471c232113e5c007f602", null ],
-    [ "Register", "dd/dfb/a25051.html#aceafb7d6cfa300011935026f4d7ac491", null ]
+    [ "CalculateAmount", "dd/dfb/a25051.html#a66b009487462241e573ea23f081a140a", null ],
+    [ "PrepareAuraScript", "dd/dfb/a25051.html#a0eee16c77a3c3cea882b67c78826a140", null ],
+    [ "Register", "dd/dfb/a25051.html#afeafc6922b0a0389fec969e3c7191dda", null ]
 ];

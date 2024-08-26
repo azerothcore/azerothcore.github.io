@@ -1,6 +1,6 @@
 var a26807 =
 [
-    [ "PrepareSpellScript", "df/d60/a26807.html#aa784c7af6fe38069fca4dcff9a09a22b", null ],
-    [ "Register", "df/d60/a26807.html#a81bc86c83ffc70602410912870e61700", null ],
-    [ "VictoryRushHit", "df/d60/a26807.html#a89387a25e67af1d47ef7f5b95344ccb0", null ]
+    [ "HandleOnHit", "df/d60/a26807.html#a94893e6dd048f0028540e5ce15ed7b1d", null ],
+    [ "PrepareSpellScript", "df/d60/a26807.html#a999b019665dec9b0690a1019be428072", null ],
+    [ "Register", "df/d60/a26807.html#ab21c47d1918a9e29ebe7b041421deaf7", null ]
 ];

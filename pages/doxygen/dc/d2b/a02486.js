@@ -1,5 +1,5 @@
 var a02486 =
 [
-    [ "go_commandscript", "d5/d0f/a11319.html", "d5/d0f/a11319" ],
-    [ "AddSC_go_commandscript", "dc/d2b/a02486.html#a95fcb467686a27e069827ed3775df197", null ]
+    [ "OutdoorPvP_eastern_plaguelands", "d2/d26/a22439.html", "d2/d26/a22439" ],
+    [ "AddSC_outdoorpvp_ep", "dc/d2b/a02486.html#ac97adfc1efbcf82840cffa915a55fecb", null ]
 ];

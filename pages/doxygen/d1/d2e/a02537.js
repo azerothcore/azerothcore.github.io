@@ -1,5 +1,5 @@
 var a02537 =
 [
-    [ "pet_commandscript", "dd/de9/a11399.html", "dd/de9/a11399" ],
-    [ "AddSC_pet_commandscript", "d1/d2e/a02537.html#a9c7b2cae4f7afb6ae0c9ccc623877625", null ]
+    [ "send_commandscript", "d9/da8/a11423.html", "d9/da8/a11423" ],
+    [ "AddSC_send_commandscript", "d1/d2e/a02537.html#a9f3fee551f6ca7aa7dad83edb2dfe480", null ]
 ];
