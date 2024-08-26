@@ -26,9 +26,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd pages/doxygen/
-          ls -la
-          git config --global user.name "gh-action"
-          rm -rf pages/doxygen/azerothcore-wotlk
+          git config --global user.name "Helias"
+          git config --global user.email "stefanoborzi32@gmail.com"
+          rm -rf azerothcore-wotlk
           git add .
           git status
           git commit -m "chore: update doxygen documentation"
