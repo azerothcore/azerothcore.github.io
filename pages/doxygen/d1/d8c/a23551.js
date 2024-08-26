@@ -1,6 +1,5 @@
 var a23551 =
 [
-    [ "HandleScriptEffect", "d1/d8c/a23551.html#af0841e5c67c981b792a8d8f0d0d18edc", null ],
-    [ "PrepareSpellScript", "d1/d8c/a23551.html#a287bff28e57a86f0176921500de78fa9", null ],
-    [ "Register", "d1/d8c/a23551.html#ad5fb101794dfdef0c08551dd9397b965", null ]
+    [ "go_manticron_cube", "d1/d8c/a23551.html#a87d9571aea57f16d38067ebd9e22200d", null ],
+    [ "OnGossipHello", "d1/d8c/a23551.html#accab4a61f00f5e465fb795b4cbe672bf", null ]
 ];

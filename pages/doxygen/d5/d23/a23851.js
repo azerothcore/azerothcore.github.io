@@ -1,6 +1,6 @@
 var a23851 =
 [
-    [ "PrepareAuraScript", "d5/d23/a23851.html#a14d4d1a75130a77e7e59e41720491bec", null ],
-    [ "PrepareProc", "d5/d23/a23851.html#abea217f4bfdffc70007fbc29849e9a49", null ],
-    [ "Register", "d5/d23/a23851.html#a9dbcd4c940f5941472bebb64829125e3", null ]
+    [ "HandleAfterRemove", "d5/d23/a23851.html#ac9756a8f206c114ff6443331ca266184", null ],
+    [ "PrepareAuraScript", "d5/d23/a23851.html#a2f67291e6e4291c9d01cdbcbe04a7db7", null ],
+    [ "Register", "d5/d23/a23851.html#ac36d76ad8a5ecb2e437dcb8f1248386d", null ]
 ];

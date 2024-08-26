@@ -1,5 +1,9 @@
 var a28091 =
 [
-    [ "ID", "d2/d26/a28091.html#a65acb5af9a688346cbb7dc144710c768", null ],
-    [ "inventoryIcon", "d2/d26/a28091.html#a26b43ee179bd546c6e956dd797fc0842", null ]
+    [ "itemId", "d2/d26/a28091.html#ae125712e5569c9699b4748b6a15fbc12", null ],
+    [ "items_to_triggerspell", "d2/d26/a28091.html#a8496a2f3fa3e230def04b996fc585760", null ],
+    [ "name", "d2/d26/a28091.html#a9b62f843833d524f200782d44151503d", null ],
+    [ "required_skill_id", "d2/d26/a28091.html#ab3058ac725fb8f105b9359d5a5147942", null ],
+    [ "required_skill_value", "d2/d26/a28091.html#a58d0997a73cf48061545edbc0201f544", null ],
+    [ "spells", "d2/d26/a28091.html#a8aac032992efe1bfbba0e49693562c7f", null ]
 ];

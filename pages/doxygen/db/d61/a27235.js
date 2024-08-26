@@ -1,6 +1,5 @@
 var a27235 =
 [
-    [ "go_fel_crystalforge", "db/d61/a27235.html#aa44708a617edd51651da49918ab776e5", null ],
-    [ "OnGossipHello", "db/d61/a27235.html#aae9f4beff251efb7b29e1988ddd51eaf", null ],
-    [ "OnGossipSelect", "db/d61/a27235.html#a97450cce5f547e28ea84fa6a6f8ab79e", null ]
+    [ "go_table_theka", "db/d61/a27235.html#a9e25a1c9313437b533e1d88a2db04a58", null ],
+    [ "OnGossipHello", "db/d61/a27235.html#ab04480f032ce074daacdc0dcfa37ee12", null ]
 ];

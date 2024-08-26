@@ -1,7 +1,7 @@
 var a25119 =
 [
-    [ "CheckIfLanceEquiped", "da/dda/a25119.html#a3bf3a98f1eff2b2229603228a470a701", null ],
-    [ "PrepareSpellScript", "da/dda/a25119.html#a2af9ee2ccd34c97734c58bfcbb83c8b5", null ],
-    [ "Register", "da/dda/a25119.html#a4421ceaedce16777f8f04b9c40855782", null ],
-    [ "Validate", "da/dda/a25119.html#ab0908d7a15e7554c735d8e5554f7cd65", null ]
+    [ "HandleDummy", "da/dda/a25119.html#a9037eddf4c9ce96c15c57e8906bd9a5f", null ],
+    [ "Load", "da/dda/a25119.html#a738318535196b3d55e8f1b3da4f76c95", null ],
+    [ "PrepareSpellScript", "da/dda/a25119.html#a941a097124ed9b4917faa18ff23fc366", null ],
+    [ "Register", "da/dda/a25119.html#aaf9d269e7d052515f31b463999e92cf4", null ]
 ];

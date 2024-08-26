@@ -1,7 +1,6 @@
 var a24063 =
 [
-    [ "npc_bessyAI", "da/d7a/a24067.html", "da/d7a/a24067" ],
-    [ "npc_bessy", "da/dc6/a24063.html#a08278c1524445054ca158433044a0824", null ],
-    [ "GetAI", "da/dc6/a24063.html#af805bc5ee3de2fd6773158e51bf09d4a", null ],
-    [ "OnQuestAccept", "da/dc6/a24063.html#a98b8e816195b81bab12cc9906df79807", null ]
+    [ "HandleEffectRemove", "da/dc6/a24063.html#a2e73fd55dd7e6e658bc6c6623b650732", null ],
+    [ "PrepareAuraScript", "da/dc6/a24063.html#a9aabae3a6c57be9b17394d4a39fe24ec", null ],
+    [ "Register", "da/dc6/a24063.html#ac02217c103db141d75377e233e1e4242", null ]
 ];

@@ -1,10 +1,9 @@
 var a24399 =
 [
-    [ "npc_pet_hunter_snake_trap", "da/dea/a24399.html#aaf5df574c4ac53661c0bb1968f84c6ea", null ],
-    [ "EnterEvadeMode", "da/dea/a24399.html#a819add0c7b968063403d10275fdc289f", null ],
-    [ "MoveInLineOfSight", "da/dea/a24399.html#a32d5ed7f4d436f2678b34f4a1d572721", null ],
-    [ "Reset", "da/dea/a24399.html#a831cf6eea8bd03247cd9877d3be6e1ee", null ],
-    [ "UpdateAI", "da/dea/a24399.html#a41a37efe6d39c6d97b3dcc5fabbcc812", null ],
-    [ "_init", "da/dea/a24399.html#a1b5c1301389749f82667c35f3daff847", null ],
-    [ "_spellTimer", "da/dea/a24399.html#ab9397451e2e8320ca77560a19baeee3f", null ]
+    [ "npc_pet_shaman_earth_elemental", "da/dea/a24399.html#a07f3792cb3b5264d209f1b4726867773", null ],
+    [ "InitializeAI", "da/dea/a24399.html#a8bbca6686ae324a50cd1598125280446", null ],
+    [ "JustEngagedWith", "da/dea/a24399.html#ad9b48901b1d96e59ce60af6411a8baaf", null ],
+    [ "UpdateAI", "da/dea/a24399.html#ab28951b483cab31bf5672fc74e7323e1", null ],
+    [ "_events", "da/dea/a24399.html#ab7f72d0d574322965f1d0b23f144f1be", null ],
+    [ "_initAttack", "da/dea/a24399.html#a2af73c97ef60b5b0ade26c9760b8b379", null ]
 ];

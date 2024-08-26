@@ -1,5 +1,6 @@
 var a26999 =
 [
-    [ "AreaTrigger_at_scent_larkorwi", "d9/d6f/a26999.html#a967a43eae4cc986754eed9ee8291c17e", null ],
-    [ "OnTrigger", "d9/d6f/a26999.html#aeeb339afa5a7dd4b028aea800026998e", null ]
+    [ "AreaTrigger_at_area_52_entrance", "d9/d6f/a26999.html#a5b7e21903bca1c04bad1394c6965d032", null ],
+    [ "OnTrigger", "d9/d6f/a26999.html#a1e537d133ee5e6ad1dbb0c732e23a128", null ],
+    [ "_triggerTimes", "d9/d6f/a26999.html#a6c3225f46ea71d06b81b25d5fb6e8f25", null ]
 ];

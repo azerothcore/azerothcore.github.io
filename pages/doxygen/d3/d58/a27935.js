@@ -1,6 +1,7 @@
 var a27935 =
 [
-    [ "ChannelID", "d3/d58/a27935.html#a51753c36711e100fd8dca1cd5b1e7e94", null ],
-    [ "flags", "d3/d58/a27935.html#aa77db644555e336ccbb8dd138c192425", null ],
-    [ "pattern", "d3/d58/a27935.html#ad8b550cf444d66eede00abcf2cefec22", null ]
+    [ "Displayid", "d3/d58/a27935.html#adc5aee11b1e27752576b0b98156d3b3c", null ],
+    [ "ExtendedDisplayInfoID", "d3/d58/a27935.html#a174d6f73393e6dcfeecf487fc09c2e6f", null ],
+    [ "ModelId", "d3/d58/a27935.html#ada31381a4ee360e2fcb68403bc6d14e5", null ],
+    [ "scale", "d3/d58/a27935.html#ae15b89669bf5d711cc57c21d8c8be0dd", null ]
 ];

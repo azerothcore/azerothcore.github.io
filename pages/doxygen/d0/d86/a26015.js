@@ -1,10 +1,7 @@
 var a26015 =
 [
-    [ "CheckProc", "d0/d86/a26015.html#a23dfb39522f7a5437af439ef567d6ec6", null ],
-    [ "HandleEffectApply", "d0/d86/a26015.html#ab83f17b45edc5dba8f4b3f3fbc88c626", null ],
-    [ "HandleEffectRemove", "d0/d86/a26015.html#a7bab07fde0fb18e89388e1bc4c72c165", null ],
-    [ "HandleProc", "d0/d86/a26015.html#a8352d7d9376f149fa227f7ca983e2660", null ],
-    [ "PrepareAuraScript", "d0/d86/a26015.html#a309dabfa452d3279e7fb47a8e4784779", null ],
-    [ "Register", "d0/d86/a26015.html#a3d020d3025f0ad086c43b4239205cd94", null ],
-    [ "Validate", "d0/d86/a26015.html#ac3a5505808b3a7e718071f1202805ac5", null ]
+    [ "OnProc", "d0/d86/a26015.html#a304fd48cc79d3e7371212632d276b2ff", null ],
+    [ "PrepareAuraScript", "d0/d86/a26015.html#a239f9448d36bee4cfb46d95bf20c0148", null ],
+    [ "Register", "d0/d86/a26015.html#a28be437c5f3e8bca0f54be97cb5c5a1f", null ],
+    [ "Validate", "d0/d86/a26015.html#adc217147d7c150d66dad4d3e922cff96", null ]
 ];

@@ -1,7 +1,7 @@
 var a24963 =
 [
-    [ "HandleProc", "da/d4d/a24963.html#af768269d315e998fc2042794c3a03b58", null ],
-    [ "PrepareAuraScript", "da/d4d/a24963.html#ae3da67d626ee11c57a85a3af99ff07a5", null ],
-    [ "Register", "da/d4d/a24963.html#a2df1cff47861cbf3198e573c6031b54e", null ],
-    [ "Validate", "da/d4d/a24963.html#a84f40eec148c55108085db5e7b05cb0e", null ]
+    [ "HandleScript", "da/d4d/a24963.html#ad1ca4c264e1f89adf479254e6436dd55", null ],
+    [ "Load", "da/d4d/a24963.html#a66db2b82a0f014e49bbfeeaade4d1731", null ],
+    [ "PrepareSpellScript", "da/d4d/a24963.html#a7616d761e7a7a708c88918302b488bb9", null ],
+    [ "Register", "da/d4d/a24963.html#a8ca351c9e0e254369328865eefa3ff91", null ]
 ];

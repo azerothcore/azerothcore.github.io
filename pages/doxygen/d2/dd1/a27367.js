@@ -1,7 +1,6 @@
 var a27367 =
 [
-    [ "npc_prof_leather", "d2/dd1/a27367.html#a4a96f0c41a2a75ed26f52b1b0377c800", null ],
-    [ "HasLeatherSpecialty", "d2/dd1/a27367.html#aefbf75b4109f8013335f36cd2d6e84de", null ],
-    [ "OnGossipHello", "d2/dd1/a27367.html#a1a0dc1574c814af5e4f992c7fb199215", null ],
-    [ "OnGossipSelect", "d2/dd1/a27367.html#afdf3a42c20903efd7f45ab0042f79de0", null ]
+    [ "npc_preciousAI", "d8/dce/a27371.html", "d8/dce/a27371" ],
+    [ "npc_precious", "d2/dd1/a27367.html#a3c3ad9da13de64498cabc8e252e99ab2", null ],
+    [ "GetAI", "d2/dd1/a27367.html#a754ad85c8b1942b400a47c28297bad62", null ]
 ];

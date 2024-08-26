@@ -1,6 +1,7 @@
 var a24239 =
 [
-    [ "PrepareSpellScript", "d8/dd2/a24239.html#a6b5c1227e2d12ee5f2040dc6dacd60ac", null ],
-    [ "Register", "d8/dd2/a24239.html#ac57aee08a131bcf7db11bc105f32242c", null ],
-    [ "SetDest", "d8/dd2/a24239.html#a26362c4873890bb60c2526bf07058746", null ]
+    [ "HandleSendEvent", "d8/dd2/a24239.html#a8b32db78a3b4d5a01be230968fda3a8d", null ],
+    [ "PrepareSpellScript", "d8/dd2/a24239.html#a0adf10b63735dbdf1cb3d49c73f7da1d", null ],
+    [ "Register", "d8/dd2/a24239.html#ad6aedfed88d4a921122fdc7a8b501f0e", null ],
+    [ "Validate", "d8/dd2/a24239.html#a9b72b16ac81c53aaa7936640e5149e6c", null ]
 ];

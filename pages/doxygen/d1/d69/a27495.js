@@ -1,6 +1,7 @@
 var a27495 =
 [
-    [ "npc_injured_patientAI", "da/d7f/a27499.html", "da/d7f/a27499" ],
-    [ "npc_injured_patient", "d1/d69/a27495.html#a0b7ef214aa1b20df088dee0976c73783", null ],
-    [ "GetAI", "d1/d69/a27495.html#a0c042bb81e684f903d28d7879af99d4a", null ]
+    [ "npc_guardianAI", "d1/d69/a27495.html#acc5d29a79e57fc023369c0dcd4b0d2a3", null ],
+    [ "JustEngagedWith", "d1/d69/a27495.html#a50257f80245bc59437e53083badcb056", null ],
+    [ "Reset", "d1/d69/a27495.html#a217df9bae079f56ffd70d27958fb2756", null ],
+    [ "UpdateAI", "d1/d69/a27495.html#ab42c39f088ef819a5ffb5f9f4ba2c3a3", null ]
 ];

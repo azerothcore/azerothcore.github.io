@@ -1,10 +1,10 @@
 var a23715 =
 [
-    [ "boss_thorngrin_the_tender", "d3/db3/a23715.html#ad960b1084fc08d2870975c7c6c44ab2b", null ],
-    [ "JustDied", "d3/db3/a23715.html#a4bc13108f7cb240fedb44ccae2b54047", null ],
-    [ "JustEngagedWith", "d3/db3/a23715.html#a647ed5b29861b719d3c4a11fd110c512", null ],
-    [ "KilledUnit", "d3/db3/a23715.html#ab3731c5b56e1c01aa5d78d84a5e60234", null ],
-    [ "MoveInLineOfSight", "d3/db3/a23715.html#a9467e59287b3e917907de82507d1a16d", null ],
-    [ "Reset", "d3/db3/a23715.html#af3f1471cbcdadfe3a86421d7232fb4b9", null ],
-    [ "_intro", "d3/db3/a23715.html#a48fc89c7e9814d90a8724ca38c5e2fe8", null ]
+    [ "CheckProc", "d3/db3/a23715.html#ac176c59497cc2196c19dc8a1b9f8056d", null ],
+    [ "Load", "d3/db3/a23715.html#aad39e53d6b3fc673c115f79ca0bc9b68", null ],
+    [ "PrepareAuraScript", "d3/db3/a23715.html#a990cab2c1d9fb544bf11c9fd4e5495ac", null ],
+    [ "Register", "d3/db3/a23715.html#ae2cf612df18cf249bc4a90ce9332fc9b", null ],
+    [ "_lastForm", "d3/db3/a23715.html#ad392a897546cb64e550dd8b0709ba0ab", null ],
+    [ "_lastSchool", "d3/db3/a23715.html#afc2e3e388615ed5cf0f4dd672f26de85", null ],
+    [ "_swapTime", "d3/db3/a23715.html#af832dc200e928df3849ab7d7f93cb412", null ]
 ];

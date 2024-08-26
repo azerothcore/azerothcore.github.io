@@ -1,6 +1,6 @@
 var a26655 =
 [
-    [ "HandleKnockBack", "d9/d2b/a26655.html#abad9f9293260a3e99be98b43aabb321b", null ],
-    [ "PrepareSpellScript", "d9/d2b/a26655.html#a65787b78165631898458264e6ee310f4", null ],
-    [ "Register", "d9/d2b/a26655.html#ade4f3cb676f1cc92b0e75f85367dc3e0", null ]
+    [ "HandleAuraApply", "d9/d2b/a26655.html#a19d8103126a6446fb5ade53d2b5d0ddb", null ],
+    [ "PrepareAuraScript", "d9/d2b/a26655.html#a7596065e5ffcacf099a5984f5d940c11", null ],
+    [ "Register", "d9/d2b/a26655.html#a8efa76b28dddad68fee132f37791f231", null ]
 ];

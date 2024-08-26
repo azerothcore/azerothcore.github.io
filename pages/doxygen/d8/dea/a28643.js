@@ -1,10 +1,11 @@
 var a28643 =
 [
-    [ "WDTFile", "d8/dea/a28643.html#a10c133d9b2f8d39cb6c2b3d8c2791b78", null ],
-    [ "~WDTFile", "d8/dea/a28643.html#a445fe73204fd378e2b63a83d9f5dca0a", null ],
-    [ "GetMap", "d8/dea/a28643.html#aa952c5bfe52a1aa851984a7e6dc963c9", null ],
-    [ "init", "d8/dea/a28643.html#a91a33f89cae35254f52e8c4f1c33e2cb", null ],
-    [ "_file", "d8/dea/a28643.html#a54ab64288144b9cf4904e67bb359e524", null ],
-    [ "_wmoNames", "d8/dea/a28643.html#a6ec4f95ff866585403670b620a42a857", null ],
-    [ "filename", "d8/dea/a28643.html#ab3dac8623598bac1152a514a00126bf6", null ]
+    [ "material", "d8/dea/a28643.html#a7079e8817a9684602084eb224f2540fc", null ],
+    [ "pos_x", "d8/dea/a28643.html#ac4d971cc46506be14716124afbb5ad9c", null ],
+    [ "pos_y", "d8/dea/a28643.html#a6cd85f2a674d732e88371ffce5e46077", null ],
+    [ "pos_z", "d8/dea/a28643.html#a183ec8ec2d8d30726494c6b3d3b8606a", null ],
+    [ "xtiles", "d8/dea/a28643.html#aca34dfa64624cfe04c314c13bbed0062", null ],
+    [ "xverts", "d8/dea/a28643.html#aa5ad7ff660f7f0b5ddfd2d186496d928", null ],
+    [ "ytiles", "d8/dea/a28643.html#a9901a7e9828ac840bc290b0768831d66", null ],
+    [ "yverts", "d8/dea/a28643.html#abf24042b85692cd0df05d65d734dd99e", null ]
 ];

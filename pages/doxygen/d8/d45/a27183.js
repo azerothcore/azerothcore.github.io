@@ -1,7 +1,6 @@
 var a27183 =
 [
-    [ "go_pirate_day_musicAI", "d8/d45/a27183.html#a1abe263949b7a07e5143779efcddc7eb", null ],
-    [ "UpdateAI", "d8/d45/a27183.html#a5373bb46c866df31a3827ceb8ee4ef9b", null ],
-    [ "_events", "d8/d45/a27183.html#a233ae55a05876c665455b106ef50d57e", null ],
-    [ "rnd", "d8/d45/a27183.html#ad0ced4b4f569b91b5dde4ad93a298568", null ]
+    [ "go_gilded_brazierAI", "db/dcc/a27187.html", "db/dcc/a27187" ],
+    [ "go_gilded_brazier", "d8/d45/a27183.html#a778c753a8432131601371da8849ef004", null ],
+    [ "GetAI", "d8/d45/a27183.html#a2c8ced3e29c05c9d55745c4f10c9202d", null ]
 ];

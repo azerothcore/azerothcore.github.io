@@ -1,6 +1,6 @@
 var a24435 =
 [
-    [ "HandleEffectRemove", "da/d6e/a24435.html#a9472b79a272aff36be657b66883d822f", null ],
-    [ "PrepareAuraScript", "da/d6e/a24435.html#ad46fedf6ef019d1b5e93d98e7bba8417", null ],
-    [ "Register", "da/d6e/a24435.html#ace15e1f5c158f1f203862b40da2cf8fc", null ]
+    [ "HandleAfterCast", "da/d6e/a24435.html#aaa65e67362ded5318e89272acf073bf3", null ],
+    [ "PrepareSpellScript", "da/d6e/a24435.html#a7d0dd936965845c14e7b54846facdb89", null ],
+    [ "Register", "da/d6e/a24435.html#ab7b767743d62d9763bea710b7552a8cf", null ]
 ];

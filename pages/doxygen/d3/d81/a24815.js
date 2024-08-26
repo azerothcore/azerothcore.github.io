@@ -1,5 +1,6 @@
 var a24815 =
 [
-    [ "PrepareSpellScript", "d3/d81/a24815.html#a41169895bb29fe136e3fb0c2dd50d9fb", null ],
-    [ "Register", "d3/d81/a24815.html#ab6a32b26cc0277f71a71b9fd1d567bf1", null ]
+    [ "CheckAreaTarget", "d3/d81/a24815.html#a545323b9964ee4cb3c8d054fac4e2d55", null ],
+    [ "PrepareAuraScript", "d3/d81/a24815.html#a2b6dbd33e34357917f662000a1cd932f", null ],
+    [ "Register", "d3/d81/a24815.html#a7b4a2301b3a608ea5b2dd2504e02741d", null ]
 ];

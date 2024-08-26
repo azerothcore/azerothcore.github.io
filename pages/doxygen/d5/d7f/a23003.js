@@ -1,8 +1,8 @@
 var a23003 =
 [
-    [ "CalcPeriodic", "d5/d7f/a23003.html#aad87c25b9b3255a4871bec39d9787299", null ],
-    [ "PrepareAuraScript", "d5/d7f/a23003.html#a7494c41e41ffc55811c57208f80c7eb6", null ],
-    [ "Register", "d5/d7f/a23003.html#acce25abc58a29dfe5a5287a8b00242ae", null ],
-    [ "Update", "d5/d7f/a23003.html#a4e2a5a2d666419ccbb0ca71670332b8c", null ],
-    [ "Validate", "d5/d7f/a23003.html#ae4f7bfb1cd95666acada217173876352", null ]
+    [ "Absorb", "d5/d7f/a23003.html#a1c054ce067a620e16611cbb9e784cee1", null ],
+    [ "CalculateAmount", "d5/d7f/a23003.html#abd828dd3493339db9c0613e960792941", null ],
+    [ "PrepareAuraScript", "d5/d7f/a23003.html#a1075139fc82cd8e1b30d4bc0f89fbfe0", null ],
+    [ "Register", "d5/d7f/a23003.html#a85840e7d27a7ed256c45de87f4486d45", null ],
+    [ "Update", "d5/d7f/a23003.html#afbf28fd4eb66899a424e0b542d561656", null ]
 ];

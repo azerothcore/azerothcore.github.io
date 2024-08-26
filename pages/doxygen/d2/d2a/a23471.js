@@ -1,8 +1,9 @@
 var a23471 =
 [
-    [ "instance_gruuls_lair_InstanceMapScript", "d2/d2a/a23471.html#a1ad656ccd4d41c756c4f525d079fd9b6", null ],
-    [ "GetData", "d2/d2a/a23471.html#a410630dbbe00acf0b69603cfc357d503", null ],
-    [ "SetBossState", "d2/d2a/a23471.html#a9f0752eb0ec1d9ca0681ddc5fc8d3752", null ],
-    [ "SetData", "d2/d2a/a23471.html#a4cbe09489797fa0076d976f9a717a2bd", null ],
-    [ "_addsKilled", "d2/d2a/a23471.html#a7a003811fcf620f3c2d11ff3498cb298", null ]
+    [ "boss_the_maker", "d2/d2a/a23471.html#a478c48f225e8fdf14cde5b1f144cb6c4", null ],
+    [ "JustDied", "d2/d2a/a23471.html#a564abd0a8f52c8c58a305f9c47d8475c", null ],
+    [ "JustEngagedWith", "d2/d2a/a23471.html#a6b0a4442dbabde69ca9352017ee23675", null ],
+    [ "KilledUnit", "d2/d2a/a23471.html#a40643ca00fe7d7029a291335e47c722a", null ],
+    [ "Reset", "d2/d2a/a23471.html#a9d115e5e1ef585348937b9d6c1cd2cb1", null ],
+    [ "UpdateAI", "d2/d2a/a23471.html#a24cd8e9a97410ab290592b586962fffd", null ]
 ];

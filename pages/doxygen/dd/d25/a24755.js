@@ -1,9 +1,10 @@
 var a24755 =
 [
-    [ "FilterTargets", "dd/d25/a24755.html#ae7a54b8e27f91091b479293cc62ee1f4", null ],
-    [ "PrepareSpellScript", "dd/d25/a24755.html#a215b412cfeae9f2763b1c5d3b8a4ca31", null ],
-    [ "Register", "dd/d25/a24755.html#ae790485f5b27fe34a0a26c3d6fc7ed41", null ],
-    [ "SetTargets", "dd/d25/a24755.html#ac77e95af9b08118e87e3329eab5515ea", null ],
-    [ "Validate", "dd/d25/a24755.html#a8e4b1ff1577f25334b50e25bffc021cc", null ],
-    [ "_targets", "dd/d25/a24755.html#acc66768f54c514552f0ab01274c24f17", null ]
+    [ "FilterTargets", "dd/d25/a24755.html#a033c63470d406ad2249c5aa223c00b2f", null ],
+    [ "HandleFinish", "dd/d25/a24755.html#a3b5760ed61d0b2789ddcaef998303d38", null ],
+    [ "HandleScript", "dd/d25/a24755.html#a2c26838015f1b21715fc1438537e15d3", null ],
+    [ "Load", "dd/d25/a24755.html#a669aefa81d57358ef452f4c247b2ceff", null ],
+    [ "PrepareSpellScript", "dd/d25/a24755.html#a3b65dbff73258b45f9e345bffc7a63a8", null ],
+    [ "Register", "dd/d25/a24755.html#ac9b8d46cc77b06c427b5b3cbc1135072", null ],
+    [ "haveTarget", "dd/d25/a24755.html#a7f5a4e68fb7d948f0df35824272cbdb0", null ]
 ];

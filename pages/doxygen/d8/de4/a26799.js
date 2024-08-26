@@ -1,7 +1,8 @@
 var a26799 =
 [
-    [ "HandleApply", "d8/de4/a26799.html#aa35fa107aee605a8583150901a75ad72", null ],
-    [ "HandleRemove", "d8/de4/a26799.html#a60b6e438ff67d9db41d160020b54da40", null ],
-    [ "PrepareAuraScript", "d8/de4/a26799.html#a1da44046f2cb9fb68b18f712111c38ea", null ],
-    [ "Register", "d8/de4/a26799.html#ac7c9e15a796e91e0ac68791d24e3d4bf", null ]
+    [ "CheckProc", "d8/de4/a26799.html#a8a61fbd855294e6218cfc0e2dd3706c9", null ],
+    [ "OnProc", "d8/de4/a26799.html#a9217135a55d6612bf1d36b63ac09e7fb", null ],
+    [ "PrepareAuraScript", "d8/de4/a26799.html#a8bf573bb900773d4669708536b0b8011", null ],
+    [ "Register", "d8/de4/a26799.html#ae8ddcb6329088f904cbae3292ff92023", null ],
+    [ "Validate", "d8/de4/a26799.html#a918c9334b7f20710c0d6448a33c94601", null ]
 ];

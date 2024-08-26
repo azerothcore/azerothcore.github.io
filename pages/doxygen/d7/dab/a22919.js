@@ -1,7 +1,6 @@
 var a22919 =
 [
-    [ "VerasEnvenom", "d7/dab/a22919.html#ac8c5f4fcb63ea5141a71b56324de0b1f", null ],
-    [ "Execute", "d7/dab/a22919.html#a4b7853bb835cf28aefe2d5b955372d70", null ],
-    [ "_owner", "d7/dab/a22919.html#af9cf231119ab5592be9829784f20d2e0", null ],
-    [ "_targetGUID", "d7/dab/a22919.html#a90d62907c775565765fa87903adb94ea", null ]
+    [ "npc_supremus_punch_invisible_stalker", "d7/dab/a22919.html#add7d0e711ef02a16ef58d90cfc8ee733", null ],
+    [ "IsSummonedBy", "d7/dab/a22919.html#a467d5a43bb6d2349ad859a0ef7de4c00", null ],
+    [ "UpdateAI", "d7/dab/a22919.html#a90ecfe4257ef77a6d6a200a2f017c51a", null ]
 ];

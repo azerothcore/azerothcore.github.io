@@ -1,7 +1,7 @@
 var a25223 =
 [
-    [ "PrepareAuraScript", "d0/d88/a25223.html#afeac0a8393b7d7bf787fca59988d0e14", null ],
-    [ "Register", "d0/d88/a25223.html#a7cbcf46dbdddea12fd6ce04bcbcea097", null ],
-    [ "TriggerFoodBuff", "d0/d88/a25223.html#a5d125413491dd377d61b8e30c4979fdd", null ],
-    [ "Validate", "d0/d88/a25223.html#a6b69d7358eb8cfe6a8f9efd47882eb80", null ]
+    [ "ModDest", "d0/d88/a25223.html#afe0fb68de61a657ce6900e71973e4d77", null ],
+    [ "ModifyCookingSkill", "d0/d88/a25223.html#a42dea7b58aed704a6aacd5d0aa0028d4", null ],
+    [ "PrepareSpellScript", "d0/d88/a25223.html#a7b0446133750fce7eda19dbde5abb3b1", null ],
+    [ "Register", "d0/d88/a25223.html#a6919079b43a816eb601a68c51ad39794", null ]
 ];

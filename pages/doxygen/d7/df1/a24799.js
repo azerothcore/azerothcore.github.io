@@ -1,6 +1,6 @@
 var a24799 =
 [
-    [ "CheckProc", "d7/df1/a24799.html#a68d2d8168e405ea4250e2e43a1a350fa", null ],
-    [ "PrepareAuraScript", "d7/df1/a24799.html#a9d797e7bc7133f4a626f4352b2fe7141", null ],
-    [ "Register", "d7/df1/a24799.html#a5b96bb8c2ff456b63bbd200f54294251", null ]
+    [ "PrepareSpellScript", "d7/df1/a24799.html#acfa320b33c00883a78c3696bbbeb7eb0", null ],
+    [ "Register", "d7/df1/a24799.html#a6d251ba1e88d4349dcffa96978389a7f", null ],
+    [ "SelectTarget", "d7/df1/a24799.html#a0d95f8ad8d05d2c0b100dc10988d00c9", null ]
 ];

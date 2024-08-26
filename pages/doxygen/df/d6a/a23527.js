@@ -1,12 +1,8 @@
 var a23527 =
 [
-    [ "boss_watchkeeper_gargolmar", "df/d6a/a23527.html#acb4212c6f852f50f3edfa3880806a9d2", null ],
-    [ "JustDied", "df/d6a/a23527.html#a39be5796b39bea913105fc48dda0d186", null ],
-    [ "JustEngagedWith", "df/d6a/a23527.html#a9e3194d02d0d3b66ef38118aa32ae684", null ],
-    [ "KilledUnit", "df/d6a/a23527.html#a22736c2680f41cfd3443a76cd4de9352", null ],
-    [ "MoveInLineOfSight", "df/d6a/a23527.html#adec9837fdb2595ce57acffb279a7d011", null ],
-    [ "Reset", "df/d6a/a23527.html#a356b7fe9071b073b74b21913e35e7408", null ],
-    [ "UpdateAI", "df/d6a/a23527.html#a1453d26ccbd3e78f46cb33f054d57759", null ],
-    [ "_hasSpoken", "df/d6a/a23527.html#a3cd89b2567668b52d96b02af7eb85db8", null ],
-    [ "_taunted", "df/d6a/a23527.html#ab5623501bf92e119806ba4e2ccd0cd7a", null ]
+    [ "npc_target_trigger", "df/d6a/a23527.html#a238058ba80130c6239b7267db3247196", null ],
+    [ "Reset", "df/d6a/a23527.html#ad23d465bfd78ede0a1556f2ce1742349", null ],
+    [ "UpdateAI", "df/d6a/a23527.html#ab5f482e209d2d8aa5c27666d3e1934f3", null ],
+    [ "_cast", "df/d6a/a23527.html#a4ec89ca960323f7ad135d5a425a82416", null ],
+    [ "_scheduler", "df/d6a/a23527.html#a9b418b09e25c8f96692b4e2626339c96", null ]
 ];

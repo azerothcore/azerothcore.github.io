@@ -1,6 +1,6 @@
 var a25031 =
 [
-    [ "HandleScriptEffect", "d4/d7b/a25031.html#a514697f3fdcbf9274453d6d71c0c4816", null ],
-    [ "PrepareSpellScript", "d4/d7b/a25031.html#a5bcff624e9a396a2f90115dc99d93ae9", null ],
-    [ "Register", "d4/d7b/a25031.html#aebcc23e4f4a1c5ab90fb06a47755ec2b", null ]
+    [ "CalculateAmount", "d4/d7b/a25031.html#a66b009487462241e573ea23f081a140a", null ],
+    [ "PrepareAuraScript", "d4/d7b/a25031.html#a0eee16c77a3c3cea882b67c78826a140", null ],
+    [ "Register", "d4/d7b/a25031.html#afeafc6922b0a0389fec969e3c7191dda", null ]
 ];

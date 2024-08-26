@@ -1,9 +1,7 @@
 var a26219 =
 [
-    [ "HandleAfterCast", "db/d03/a26219.html#ac08e632064c407346649f525d030d335", null ],
-    [ "HandleDummy", "db/d03/a26219.html#a9c1dadd5a3e2e039b50a414ac589ebf4", null ],
-    [ "Load", "db/d03/a26219.html#a177525c755b036a79263c0fa6fa4082e", null ],
-    [ "PrepareSpellScript", "db/d03/a26219.html#aed99b07a53068b19bddb4daff3449a52", null ],
-    [ "Register", "db/d03/a26219.html#a946e56a325d83656d9b43af80d065e45", null ],
-    [ "_triggerSpellId", "db/d03/a26219.html#a6697a22b684784853cb1999d41fcaaa7", null ]
+    [ "CheckTarget", "db/d03/a26219.html#abaef73201d2e0bd1d6789309442019e0", null ],
+    [ "HandleScriptEffect", "db/d03/a26219.html#a545196cd976bfabbd85ba48942012e1e", null ],
+    [ "PrepareSpellScript", "db/d03/a26219.html#add5c1ecaa5a75af6e91a0df5d63bbc42", null ],
+    [ "Register", "db/d03/a26219.html#a36563a197b7377660b7c3f9e85d478bd", null ]
 ];

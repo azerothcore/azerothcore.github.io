@@ -1,6 +1,7 @@
 var a27035 =
 [
-    [ "boss_ysondreAI", "d3/d4a/a27039.html", "d3/d4a/a27039" ],
-    [ "boss_ysondre", "d0/db4/a27035.html#ad12dbb728f4f0cdf2f4c0ba9cd2a167d", null ],
-    [ "GetAI", "d0/db4/a27035.html#a0da215d7bc8ee86216887e682b9335c3", null ]
+    [ "npc_spirit_shadeAI", "d0/db4/a27035.html#a8b7bf7c7cc541a47be79aad76a9bbcbc", null ],
+    [ "IsSummonedBy", "d0/db4/a27035.html#a3a7fcb4af8e3b27e06b4665e8a864b38", null ],
+    [ "MovementInform", "d0/db4/a27035.html#ab001fdc09efe9f8c03ad1b7610124e6d", null ],
+    [ "_summonerGuid", "d0/db4/a27035.html#aa7c6abb848ab37f407a3553d04d0ad81", null ]
 ];

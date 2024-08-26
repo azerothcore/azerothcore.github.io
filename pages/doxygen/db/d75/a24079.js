@@ -1,6 +1,6 @@
 var a24079 =
 [
-    [ "CheckCast", "db/d75/a24079.html#ae13cc2d3da1c9911c88402d05679d447", null ],
-    [ "PrepareSpellScript", "db/d75/a24079.html#afbed81273aa23d355c64579c71e9761d", null ],
-    [ "Register", "db/d75/a24079.html#a7157d04dfc534aa3cb88e8dff169c676", null ]
+    [ "npc_invis_infernal_casterAI", "db/d45/a24083.html", "db/d45/a24083" ],
+    [ "npc_invis_infernal_caster", "db/d75/a24079.html#a9aed081ef904075830428bbc76f53874", null ],
+    [ "GetAI", "db/d75/a24079.html#aede0c5cc390ea423169b1cba66d929cd", null ]
 ];

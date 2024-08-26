@@ -1,7 +1,6 @@
 var a23195 =
 [
-    [ "FilterTargets", "d8/d4c/a23195.html#adb8581b4b92aa49eda8f531e6d6de1ea", null ],
-    [ "HandleDummy", "d8/d4c/a23195.html#a2fe7441bd9753cb912d11f8d36632f44", null ],
-    [ "PrepareSpellScript", "d8/d4c/a23195.html#ae7714acbe0a08781e3bc297847c47870", null ],
-    [ "Register", "d8/d4c/a23195.html#ade51d4cb00b63c46582c7a5e6e031e9d", null ]
+    [ "HandleApplyAura", "d8/d4c/a23195.html#a4fde347d339f08cd01e2a47883d4b988", null ],
+    [ "PrepareSpellScript", "d8/d4c/a23195.html#ab22bd56638a6adc8d111250780221cb9", null ],
+    [ "Register", "d8/d4c/a23195.html#a1dd967ad59159faf694b8e0bfcd369ac", null ]
 ];

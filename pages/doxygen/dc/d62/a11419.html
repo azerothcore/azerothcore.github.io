@@ -1362,14 +1362,14 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><span class="lineno">  109</span>    {</div>
-<div class="line"><span class="lineno">  110</span>        <a class="code hl_struct" href="../../d7/d79/a27939.html">ChrClassesEntry</a> <span class="keyword">const</span>* classEntry = <a class="code hl_variable" href="../../dc/d72/a04172.html#aefc3df82cbf332a6af4aeca1fbefb4e1">sChrClassesStore</a>.LookupEntry(player-&gt;<a class="code hl_function" href="../../dd/d5b/a08491.html#a58a507ebe628930b8a506144b364d84b">getClass</a>());</div>
+<div class="line"><span class="lineno">  110</span>        <a class="code hl_struct" href="../../da/dea/a27919.html">ChrClassesEntry</a> <span class="keyword">const</span>* classEntry = <a class="code hl_variable" href="../../dc/d72/a04172.html#aefc3df82cbf332a6af4aeca1fbefb4e1">sChrClassesStore</a>.LookupEntry(player-&gt;<a class="code hl_function" href="../../dd/d5b/a08491.html#a58a507ebe628930b8a506144b364d84b">getClass</a>());</div>
 <div class="line"><span class="lineno">  111</span>        <span class="keywordflow">if</span> (!classEntry)</div>
 <div class="line"><span class="lineno">  112</span>        {</div>
 <div class="line"><span class="lineno">  113</span>            <a class="code hl_define" href="../../d6/d7d/a00161.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;dbc&quot;</span>, <span class="stringliteral">&quot;Class {} not found in DBC (Wrong DBC files?)&quot;</span>, player-&gt;<a class="code hl_function" href="../../dd/d5b/a08491.html#a58a507ebe628930b8a506144b364d84b">getClass</a>());</div>
 <div class="line"><span class="lineno">  114</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">  115</span>        }</div>
 <div class="line"><span class="lineno">  116</span> </div>
-<div class="line"><span class="lineno">  117</span>        <a class="code hl_typedef" href="../../d9/d4a/a00479.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> powerType = classEntry-&gt;<a class="code hl_variable" href="../../d7/d79/a27939.html#a74aec35dc161a7e830453b9365a6f107">powerType</a>;</div>
+<div class="line"><span class="lineno">  117</span>        <a class="code hl_typedef" href="../../d9/d4a/a00479.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> powerType = classEntry-&gt;<a class="code hl_variable" href="../../da/dea/a27919.html#a74aec35dc161a7e830453b9365a6f107">powerType</a>;</div>
 <div class="line"><span class="lineno">  118</span> </div>
 <div class="line"><span class="lineno">  119</span>        <span class="comment">// reset m_form if no aura</span></div>
 <div class="line"><span class="lineno">  120</span>        <span class="keywordflow">if</span> (!player-&gt;<a class="code hl_function" href="../../dd/d5b/a08491.html#a9cd076c7f1e10e71af51ffc1ea1f9136">HasAuraType</a>(<a class="code hl_enumvalue" href="../../dd/da3/a03026.html#a538cdc259460b365f406fe0b3a981799a1c3516bb8442ba5d970c928ffc976689">SPELL_AURA_MOD_SHAPESHIFT</a>))</div>
@@ -1410,8 +1410,8 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aa08491_html_a60368071d6d8e6a23977ea4b44249de1"><div class="ttname"><a href="../../dd/d5b/a08491.html#a60368071d6d8e6a23977ea4b44249de1">Unit::getRace</a></div><div class="ttdeci">uint8 getRace(bool original=false) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20885</div></div>
 <div class="ttc" id="aa08491_html_a9cd076c7f1e10e71af51ffc1ea1f9136"><div class="ttname"><a href="../../dd/d5b/a08491.html#a9cd076c7f1e10e71af51ffc1ea1f9136">Unit::HasAuraType</a></div><div class="ttdeci">bool HasAuraType(AuraType auraType) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5649</div></div>
 <div class="ttc" id="aa08491_html_aef7ea224b5f42ee3de39782345dfe931"><div class="ttname"><a href="../../dd/d5b/a08491.html#aef7ea224b5f42ee3de39782345dfe931">Unit::SetShapeshiftForm</a></div><div class="ttdeci">void SetShapeshiftForm(ShapeshiftForm form)</div><div class="ttdef"><b>Definition:</b> Unit.h:1414</div></div>
-<div class="ttc" id="aa27939_html"><div class="ttname"><a href="../../d7/d79/a27939.html">ChrClassesEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:653</div></div>
-<div class="ttc" id="aa27939_html_a74aec35dc161a7e830453b9365a6f107"><div class="ttname"><a href="../../d7/d79/a27939.html#a74aec35dc161a7e830453b9365a6f107">ChrClassesEntry::powerType</a></div><div class="ttdeci">uint32 powerType</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:656</div></div>
+<div class="ttc" id="aa27919_html"><div class="ttname"><a href="../../da/dea/a27919.html">ChrClassesEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:653</div></div>
+<div class="ttc" id="aa27919_html_a74aec35dc161a7e830453b9365a6f107"><div class="ttname"><a href="../../da/dea/a27919.html#a74aec35dc161a7e830453b9365a6f107">ChrClassesEntry::powerType</a></div><div class="ttdeci">uint32 powerType</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:656</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00069">FORM_NONE</a>, <a class="el" href="../../#l00764">Unit::getClass()</a>, <a class="el" href="../../#l00767">Unit::getGender()</a>, <a class="el" href="../../#l20885">Unit::getRace()</a>, <a class="el" href="../../#l01413">Unit::GetShapeshiftForm()</a>, <a class="el" href="../../#l05649">Unit::HasAuraType()</a>, <a class="el" href="../../#l10572">Player::InitDisplayIds()</a>, <a class="el" href="../../#l00156">LOG_ERROR</a>, <a class="el" href="../../#l00379">PLAYER_FIELD_WATCHED_FACTION_INDEX</a>, <a class="el" href="../../#l00656">ChrClassesEntry::powerType</a>, <a class="el" href="../../#l00827">Unit::ReplaceAllUnitFlags()</a>, <a class="el" href="../../dc/d72/a04172.html#aefc3df82cbf332a6af4aeca1fbefb4e1">sChrClassesStore</a>, <a class="el" href="../../#l00750">Object::SetByteValue()</a>, <a class="el" href="../../#l05805">Player::SetFactionForRace()</a>, <a class="el" href="../../#l01414">Unit::SetShapeshiftForm()</a>, <a class="el" href="../../#l21179">Unit::SetUInt32Value()</a>, <a class="el" href="../../#l00099">SPELL_AURA_MOD_SHAPESHIFT</a>, <a class="el" href="../../#l00115">UNIT_BYTE2_FLAG_PVP</a>, <a class="el" href="../../#l00095">UNIT_FIELD_BYTES_0</a>, <a class="el" href="../../#l00161">UNIT_FIELD_BYTES_2</a>, and <a class="el" href="../../#l00232">UNIT_FLAG_PLAYER_CONTROLLED</a>.</p>
 
@@ -1969,7 +1969,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d62/a11419.html">reset_commandscript</a></li>
-    <li class="footer">Generated on Mon Aug 26 2024 16:58:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Aug 26 2024 20:39:10 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

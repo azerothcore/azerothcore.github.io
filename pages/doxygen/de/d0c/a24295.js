@@ -1,6 +1,6 @@
 var a24295 =
 [
-    [ "npc_slim", "de/d0c/a24295.html#aa227fbe22126bed821939873973e6a20", null ],
-    [ "OnGossipHello", "de/d0c/a24295.html#a34dafb9f3a82c1d2f52a95436345dd0b", null ],
-    [ "OnGossipSelect", "de/d0c/a24295.html#a426963b7bf831a3b5a75dcf0629917a9", null ]
+    [ "npc_pet_dk_risen_allyAI", "d5/dda/a24299.html", "d5/dda/a24299" ],
+    [ "npc_pet_dk_risen_ally", "de/d0c/a24295.html#a2f568fd9062b2423edcf0ab4e749efc3", null ],
+    [ "GetAI", "de/d0c/a24295.html#a7aca5d410a1a28241943914a0d1c71df", null ]
 ];

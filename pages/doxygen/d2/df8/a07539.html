@@ -211,7 +211,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno">  154</span>        <span class="keywordflow">if</span> (randomPropertyId &lt; -<span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="../../d9/d4a/a00479.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a><span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../dc/d72/a04172.html#a8f24671edcebdacd8a25038525cfde6b">sItemRandomSuffixStore</a>.GetNumRows()))</div>
 <div class="line"><span class="lineno">  155</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">  156</span> </div>
-<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../de/d44/a28107.html">ItemRandomSuffixEntry</a> <span class="keyword">const</span>* suffixEntry = <a class="code hl_variable" href="../../dc/d72/a04172.html#a8f24671edcebdacd8a25038525cfde6b">sItemRandomSuffixStore</a>.LookupEntry(-randomPropertyId))</div>
+<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d7/d87/a28087.html">ItemRandomSuffixEntry</a> <span class="keyword">const</span>* suffixEntry = <a class="code hl_variable" href="../../dc/d72/a04172.html#a8f24671edcebdacd8a25038525cfde6b">sItemRandomSuffixStore</a>.LookupEntry(-randomPropertyId))</div>
 <div class="line"><span class="lineno">  158</span>        {</div>
 <div class="line"><span class="lineno">  159</span>            val.RandomSuffix = suffixEntry;</div>
 <div class="line"><span class="lineno">  160</span>            val.RandomProperty = <span class="keyword">nullptr</span>;</div>
@@ -224,7 +224,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno">  167</span>        <span class="keywordflow">if</span> (!val.Item-&gt;RandomProperty)</div>
 <div class="line"><span class="lineno">  168</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">  169</span> </div>
-<div class="line"><span class="lineno">  170</span>        <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d4/d28/a28103.html">ItemRandomPropertiesEntry</a> <span class="keyword">const</span>* propEntry = <a class="code hl_variable" href="../../dc/d72/a04172.html#aa4df01784442d67397299862629a06e9">sItemRandomPropertiesStore</a>.LookupEntry(randomPropertyId))</div>
+<div class="line"><span class="lineno">  170</span>        <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d6/d7b/a28083.html">ItemRandomPropertiesEntry</a> <span class="keyword">const</span>* propEntry = <a class="code hl_variable" href="../../dc/d72/a04172.html#aa4df01784442d67397299862629a06e9">sItemRandomPropertiesStore</a>.LookupEntry(randomPropertyId))</div>
 <div class="line"><span class="lineno">  171</span>        {</div>
 <div class="line"><span class="lineno">  172</span>            val.RandomSuffix = <span class="keyword">nullptr</span>;</div>
 <div class="line"><span class="lineno">  173</span>            val.RandomProperty = propEntry;</div>
@@ -250,8 +250,8 @@ Static Public Member Functions</h2></td></tr>
 <div class="ttc" id="aa04172_html_a8f24671edcebdacd8a25038525cfde6b"><div class="ttname"><a href="../../dc/d72/a04172.html#a8f24671edcebdacd8a25038525cfde6b">sItemRandomSuffixStore</a></div><div class="ttdeci">DBCStorage&lt; ItemRandomSuffixEntry &gt; sItemRandomSuffixStore(ItemRandomSuffixfmt)</div></div>
 <div class="ttc" id="aa04172_html_aa4df01784442d67397299862629a06e9"><div class="ttname"><a href="../../dc/d72/a04172.html#aa4df01784442d67397299862629a06e9">sItemRandomPropertiesStore</a></div><div class="ttdeci">DBCStorage&lt; ItemRandomPropertiesEntry &gt; sItemRandomPropertiesStore(ItemRandomPropertiesfmt)</div></div>
 <div class="ttc" id="aa07567_html"><div class="ttname"><a href="../../db/d1c/a07567.html">HyperlinkDataTokenizer</a></div><div class="ttdef"><b>Definition:</b> HyperlinkTags.cpp:28</div></div>
-<div class="ttc" id="aa28103_html"><div class="ttname"><a href="../../d4/d28/a28103.html">ItemRandomPropertiesEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1207</div></div>
-<div class="ttc" id="aa28107_html"><div class="ttname"><a href="../../de/d44/a28107.html">ItemRandomSuffixEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1217</div></div>
+<div class="ttc" id="aa28083_html"><div class="ttname"><a href="../../d6/d7b/a28083.html">ItemRandomPropertiesEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1207</div></div>
+<div class="ttc" id="aa28087_html"><div class="ttname"><a href="../../d7/d87/a28087.html">ItemRandomSuffixEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1217</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00061">Acore::Hyperlinks::ItemLinkData::EnchantId</a>, <a class="el" href="../../#l00062">Acore::Hyperlinks::ItemLinkData::GemEnchantId</a>, <a class="el" href="../../#l00067">Acore::Hyperlinks::ItemLinkData::IsBuggedInspectLink</a>, <a class="el" href="../../#l00054">HyperlinkDataTokenizer::IsEmpty()</a>, <a class="el" href="../../#l00060">Acore::Hyperlinks::ItemLinkData::Item</a>, <a class="el" href="../../#l00063">Acore::Hyperlinks::ItemLinkData::RandomProperty</a>, <a class="el" href="../../#l00680">ItemTemplate::RandomProperty</a>, <a class="el" href="../../#l00064">Acore::Hyperlinks::ItemLinkData::RandomSuffix</a>, <a class="el" href="../../#l00681">ItemTemplate::RandomSuffix</a>, <a class="el" href="../../#l00065">Acore::Hyperlinks::ItemLinkData::RandomSuffixBaseAmount</a>, <a class="el" href="../../#l00066">Acore::Hyperlinks::ItemLinkData::RenderLevel</a>, <a class="el" href="../../dc/d72/a04172.html#aa4df01784442d67397299862629a06e9">sItemRandomPropertiesStore</a>, <a class="el" href="../../dc/d72/a04172.html#a8f24671edcebdacd8a25038525cfde6b">sItemRandomSuffixStore</a>, <a class="el" href="../../#l01623">sObjectMgr</a>, and <a class="el" href="../../#l00033">HyperlinkDataTokenizer::TryConsumeTo()</a>.</p>
 
@@ -289,7 +289,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/dc1/a04671.html">Acore</a></li><li class="navelem"><a class="el" href="../../db/dcc/a04712.html">Hyperlinks</a></li><li class="navelem"><a class="el" href="../../da/d6d/a04713.html">LinkTags</a></li><li class="navelem"><a class="el" href="../../d2/df8/a07539.html">item</a></li>
-    <li class="footer">Generated on Mon Aug 26 2024 16:59:05 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Aug 26 2024 20:39:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

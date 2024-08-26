@@ -1,9 +1,6 @@
 var a26363 =
 [
-    [ "CheckCast", "d3/d58/a26363.html#ae99a2b4b582c8a2c8921b8921400ffbe", null ],
-    [ "HandleActiveObject", "d3/d58/a26363.html#a79a51387f0a515ed07fcc1ac9e428290", null ],
-    [ "HandleDummy", "d3/d58/a26363.html#a39dd06ae92d04060ee41897318a701fd", null ],
-    [ "Load", "d3/d58/a26363.html#a76fff3a9d20f48e4814ee0f258be07b8", null ],
-    [ "PrepareSpellScript", "d3/d58/a26363.html#a016e480d7b2267c9bf824c9cb029f134", null ],
-    [ "Register", "d3/d58/a26363.html#aa05d48c35f748d93f5d8ff1defe2d3c9", null ]
+    [ "HandleTriggerSpell", "d3/d58/a26363.html#acd2d96959b0d8e9bf9968662218f36a1", null ],
+    [ "PrepareAuraScript", "d3/d58/a26363.html#afea43ae4a9b9e64ed8e85627d5523a1e", null ],
+    [ "Register", "d3/d58/a26363.html#ace951b4fcd48b7d4434a387d666bed9b", null ]
 ];

@@ -1,6 +1,6 @@
 var a24275 =
 [
-    [ "npc_unkor_the_ruthlessAI", "d6/d7f/a24279.html", "d6/d7f/a24279" ],
-    [ "npc_unkor_the_ruthless", "dc/d54/a24275.html#a4eb173932f39c5503d1db91d55f3a5b7", null ],
-    [ "GetAI", "dc/d54/a24275.html#a552a19b9a48e90f3b093e2b9e16ec867", null ]
+    [ "npc_slim", "dc/d54/a24275.html#aa227fbe22126bed821939873973e6a20", null ],
+    [ "OnGossipHello", "dc/d54/a24275.html#a34dafb9f3a82c1d2f52a95436345dd0b", null ],
+    [ "OnGossipSelect", "dc/d54/a24275.html#a426963b7bf831a3b5a75dcf0629917a9", null ]
 ];

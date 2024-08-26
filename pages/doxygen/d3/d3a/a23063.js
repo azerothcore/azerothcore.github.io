@@ -1,11 +1,13 @@
 var a23063 =
 [
-    [ "boss_doomwalker", "d3/d3a/a23063.html#a47811086ff98b1a09af5300af94b6c0e", null ],
-    [ "JustDied", "d3/d3a/a23063.html#aeefc6b3fdff4375c421318484e0b18a6", null ],
-    [ "JustEngagedWith", "d3/d3a/a23063.html#a01aa1cc0e5feaf9d2f49b54daaf7b13f", null ],
-    [ "KilledUnit", "d3/d3a/a23063.html#a2335eb642940397f73ee2a8051624e8e", null ],
-    [ "MoveInLineOfSight", "d3/d3a/a23063.html#ac0ffd491ac9a4923e3977e09e8ba310e", null ],
-    [ "Reset", "d3/d3a/a23063.html#aba08b227d629c9f35e59f465e29c267b", null ],
-    [ "UpdateAI", "d3/d3a/a23063.html#a3105c50e512c6f709985cece619b131f", null ],
-    [ "_inEnrage", "d3/d3a/a23063.html#a0004e96e25d8f5ad9393e3cdb3a4ce70", null ]
+    [ "boss_fathomguard_caribdis", "d3/d3a/a23063.html#a9172b9717e5137ddde7df38bb237478c", null ],
+    [ "EnterEvadeMode", "d3/d3a/a23063.html#aa666a491a776b12a042ee140aedc95eb", null ],
+    [ "JustDied", "d3/d3a/a23063.html#ab821365b35a48f70a11c6033fe2ca714", null ],
+    [ "JustEngagedWith", "d3/d3a/a23063.html#a5503519998f51f475420ada2210f32f0", null ],
+    [ "JustSummoned", "d3/d3a/a23063.html#a39ca45ec0de50b7d7a5ec866c4017a8a", null ],
+    [ "Reset", "d3/d3a/a23063.html#a0d2a3403d5934e86a897b3417ed2214a", null ],
+    [ "UpdateAI", "d3/d3a/a23063.html#af4a544f37d178de21d84f2544f24431e", null ],
+    [ "_instance", "d3/d3a/a23063.html#a73f567f2269aeca1435af82e1c6880e9", null ],
+    [ "_scheduler", "d3/d3a/a23063.html#a08b01e9735e421d8d5bbc2b552217762", null ],
+    [ "_summons", "d3/d3a/a23063.html#ac8b53cb81547a2423a13c997badb77e3", null ]
 ];

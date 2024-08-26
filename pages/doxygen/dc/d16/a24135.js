@@ -1,6 +1,8 @@
 var a24135 =
 [
-    [ "npc_drake_dealer_hurlunk", "dc/d16/a24135.html#ae6d095365d23c30d5b772b047b459ddb", null ],
-    [ "OnGossipHello", "dc/d16/a24135.html#ad04b7f906f029d9935e29c585b0de421", null ],
-    [ "OnGossipSelect", "dc/d16/a24135.html#aa23833dcdefb909899120c25d5376111", null ]
+    [ "CreatureId", "dc/d16/a24135.html#a127341c70f8785ceb556b1c11b23f477", null ],
+    [ "SpawnCount", "dc/d16/a24135.html#ad51fb68e41e04490f658a4c4f62612bd", null ],
+    [ "SpawnTimer", "dc/d16/a24135.html#aa57ff686c5fde12269e231333d8a8bef", null ],
+    [ "UsedSpawnPoint", "dc/d16/a24135.html#a2d5f42a6b1a309c8db74febcedf457eb", null ],
+    [ "YellTimer", "dc/d16/a24135.html#a6346259269af7f2936f959f87288dd69", null ]
 ];

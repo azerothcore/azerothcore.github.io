@@ -1,7 +1,12 @@
 var a25887 =
 [
-    [ "CheckProc", "df/da7/a25887.html#a325336c96dad74ec221c07817222fee1", null ],
-    [ "HandleProc", "df/da7/a25887.html#a35a1ce56b84b2d8017dbaba626660d70", null ],
-    [ "PrepareAuraScript", "df/da7/a25887.html#a30f6dd531d4316b4bbb3297af2c17e2e", null ],
-    [ "Register", "df/da7/a25887.html#a6c86a4cf273d90086c4ebdbcaa6b6632", null ]
+    [ "CalcPeriodic", "df/da7/a25887.html#a5b57273e0d9fc39a000c7bf4e232acb4", null ],
+    [ "CalculateAPAmount", "df/da7/a25887.html#a65b6f1a2b322c928fd9a5992380d2e95", null ],
+    [ "CalculateResistanceAmount", "df/da7/a25887.html#a3860e12ea334cb61a437941b6f9b81e0", null ],
+    [ "CalculateSPAmount", "df/da7/a25887.html#abf0d76c220911d88990f3071f14a9d5a", null ],
+    [ "CalculateStatAmount", "df/da7/a25887.html#a56489b52592e63dd00640de388926512", null ],
+    [ "HandleEffectApply", "df/da7/a25887.html#a5180cc8beb5244bd0b957dfc89dc9cf4", null ],
+    [ "HandlePeriodic", "df/da7/a25887.html#a67cb7b817f29dd41aa7d0dc8c87dc820", null ],
+    [ "PrepareAuraScript", "df/da7/a25887.html#a5b65221c67283a29cbeb63cafe64457a", null ],
+    [ "Register", "df/da7/a25887.html#acc22795ea812f31b0b9e21e6494c2d19", null ]
 ];

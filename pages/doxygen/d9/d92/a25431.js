@@ -1,5 +1,5 @@
 var a25431 =
 [
-    [ "PrepareSpellScript", "d9/d92/a25431.html#a999d5173e12b643e0bdcefcd099f65d1", null ],
-    [ "Register", "d9/d92/a25431.html#afd92511fb578c1df33248dba5055315e", null ]
+    [ "PrepareSpellScript", "d9/d92/a25431.html#adaaa520c889970d91f3f38c958efdad4", null ],
+    [ "Register", "d9/d92/a25431.html#a80fe694c669aa86494bd73bfa7b8ffc8", null ]
 ];

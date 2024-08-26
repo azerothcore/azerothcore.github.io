@@ -6,7 +6,6 @@ var a06107 =
     [ "_JustDied", "d0/d0b/a06107.html#acb0ee118bdfc7f7aef660e44b5fb18ae", null ],
     [ "_JustEngagedWith", "d0/d0b/a06107.html#a9619670887e8e94096e50f784b083150", null ],
     [ "_JustReachedHome", "d0/d0b/a06107.html#a06738517205eb4c3c8c091d7e3117156", null ],
-    [ "_ProccessHealthCheckEvent", "d0/d0b/a06107.html#a2303a938902b6314a55e397c96996ee4", null ],
     [ "_Reset", "d0/d0b/a06107.html#acdc89a1df0e62952becf83d9e1bd6299", null ],
     [ "CanRespawn", "d0/d0b/a06107.html#a6a937984df572744aa6c1c65a049363a", null ],
     [ "DamageTaken", "d0/d0b/a06107.html#ace268b3d2d922496c8508ddb263c1fb1", null ],

@@ -1,15 +1,11 @@
 var a22787 =
 [
-    [ "boss_reliquary_of_soulsAI", "db/d36/a22787.html#abee29aab1d28a168be3b381d0765a804", null ],
-    [ "AttackStart", "db/d36/a22787.html#af59a9972dfdb264248e78206ea0d834c", null ],
-    [ "CheckEvadeIfOutOfCombatArea", "db/d36/a22787.html#a67343cecd292c2dc40f8c5a275d95fdf", null ],
-    [ "DoAction", "db/d36/a22787.html#aa281dd9c7dc0c6f15c2bfcbf60384006", null ],
-    [ "JustDied", "db/d36/a22787.html#a6e19cb7d94579a70ac11f7173cf930c6", null ],
-    [ "JustEngagedWith", "db/d36/a22787.html#a88eef17a5f475b38a37b0e1adcc0cbbc", null ],
-    [ "JustSummoned", "db/d36/a22787.html#ad3c7679c2341951bbeb49aafad7196cd", null ],
-    [ "MoveInLineOfSight", "db/d36/a22787.html#a315a0ad69f566ff63b06fd0d47ce32d8", null ],
-    [ "PhaseTransitionSpawns", "db/d36/a22787.html#a96235ed84a30458eb5f76d87ed47dc89", null ],
-    [ "Reset", "db/d36/a22787.html#a5dc6ec0521e2ddfb63a6818ad2de0d8b", null ],
-    [ "SummonedCreatureDies", "db/d36/a22787.html#a51ac7df8689bf899eaaf4cde566d8202", null ],
-    [ "UpdateAI", "db/d36/a22787.html#a4289e678a69e35db5e4ea75fddd7e8e4", null ]
+    [ "HandleAfterCast", "db/d36/a22787.html#ae83f0cd423597b1c1e2bc1619d24fb1e", null ],
+    [ "HandleDummy", "db/d36/a22787.html#ae94594e337c2e0e6864f3723df8349bf", null ],
+    [ "Load", "db/d36/a22787.html#a301008eff6b13a43070b3916925391ae", null ],
+    [ "PrepareSpellScript", "db/d36/a22787.html#a6068412ee3d78192cc0ff735fd4e93ed", null ],
+    [ "Register", "db/d36/a22787.html#a253f9b428351519cbd4ee5c2341ea0c4", null ],
+    [ "_sharedHealth", "db/d36/a22787.html#ad4dbd85a4e7c1bb8613a053c625fbbbf", null ],
+    [ "_sharedHealthMax", "db/d36/a22787.html#a30fdfda2a644abea1d927f1cbbaf99c0", null ],
+    [ "_targetCount", "db/d36/a22787.html#ac16cb2696c4e72195de7ebddd072b3c4", null ]
 ];

@@ -1,6 +1,8 @@
 var a26163 =
 [
-    [ "HandleDamage", "d2/ddd/a26163.html#ae34b85a4830066e21069e5ab8373e5c4", null ],
-    [ "PrepareSpellScript", "d2/ddd/a26163.html#a86fd53d1f9a2ecf22c4969e2f8506acf", null ],
-    [ "Register", "d2/ddd/a26163.html#a1a679fb0be26228f5fcdb45da2b994ff", null ]
+    [ "HandleEffectApply", "d2/ddd/a26163.html#aed959961fcd07649cd4914fcd38a3214", null ],
+    [ "if", "d2/ddd/a26163.html#a1518c08cb3b5cb716b8bd01692a5160d", null ],
+    [ "PrepareAuraScript", "d2/ddd/a26163.html#a42167bc6bf7992debea8582680251da4", null ],
+    [ "Register", "d2/ddd/a26163.html#aa2c23abd2b90a276bd7980cadc0397a4", null ],
+    [ "AuraEffectHandleModes", "d2/ddd/a26163.html#ac886dec8a2ce55af4ec58ab068c589fa", null ]
 ];

@@ -1,6 +1,7 @@
 var a22935 =
 [
-    [ "boss_gathios_the_shattererAI", "df/da8/a22939.html", "df/da8/a22939" ],
-    [ "boss_gathios_the_shatterer", "d0/d25/a22935.html#a536e763140afebeb790cc48959e161d8", null ],
-    [ "GetAI", "d0/d25/a22935.html#a5ef6550172a21c0389b77510fbc4520e", null ]
+    [ "Absorb", "d0/d25/a22935.html#a227cf7329d7dee564c3f8f9f67378ffe", null ],
+    [ "HandleEffectRemove", "d0/d25/a22935.html#a3d4026e5208acb948c089a4bedba0de8", null ],
+    [ "PrepareAuraScript", "d0/d25/a22935.html#af66dc1cba6aa7511c11a071ea9a381bb", null ],
+    [ "Register", "d0/d25/a22935.html#a983cf678001efcbccc4b34a9ad919881", null ]
 ];

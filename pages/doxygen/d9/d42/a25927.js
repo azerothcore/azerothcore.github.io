@@ -1,7 +1,7 @@
 var a25927 =
 [
-    [ "HandleKnockBack", "d9/d42/a25927.html#a860fb74000a42a7d6f22d17dde93cdf6", null ],
-    [ "PrepareSpellScript", "d9/d42/a25927.html#ab951d6403188f178f79311cead8a0a8f", null ],
-    [ "Register", "d9/d42/a25927.html#ac62f4fdf003cdd53650fe632b3ed3ef1", null ],
-    [ "Validate", "d9/d42/a25927.html#add1bd8f583772d4dfeb20f01b9fac8ed", null ]
+    [ "CalculateSpellAmount", "d9/d42/a25927.html#a2f93ff69f30b243fe787d72f78a2d159", null ],
+    [ "CheckCast", "d9/d42/a25927.html#af043f7ee0f80baf667e64225effd57d1", null ],
+    [ "PrepareSpellScript", "d9/d42/a25927.html#a233ac4020722078d865cf980d7fa76cf", null ],
+    [ "Register", "d9/d42/a25927.html#a3648ecd94430e21dd014795156c1eb98", null ]
 ];

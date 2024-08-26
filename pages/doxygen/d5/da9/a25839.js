@@ -1,6 +1,6 @@
 var a25839 =
 [
-    [ "CheckCast", "d5/da9/a25839.html#a14bd28450fb989b1deb1854e2118cb6b", null ],
-    [ "PrepareSpellScript", "d5/da9/a25839.html#a2a53af0cc911e1a68b365d692df1f0af", null ],
-    [ "Register", "d5/da9/a25839.html#a67c43c4dabfb72ca54c160228b4b21c0", null ]
+    [ "PrepareSpellScript", "d5/da9/a25839.html#a7099b8d28128cfea49288792ea02606c", null ],
+    [ "Register", "d5/da9/a25839.html#a7622be3b736678ebeb3982a8d6a5b601", null ],
+    [ "UpdateTarget", "d5/da9/a25839.html#a4e808b026c89d080e309a0ca8b4f57d1", null ]
 ];

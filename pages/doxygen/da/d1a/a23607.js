@@ -1,15 +1,8 @@
 var a23607 =
 [
-    [ "npc_shattered_hand_scout", "da/d1a/a23607.html#a51a57eaaad75817a9b5a81210e01ed51", null ],
-    [ "DamageTaken", "da/d1a/a23607.html#ad37c34ae2dee082f1b4eed90bc4a3618", null ],
-    [ "FireArrows", "da/d1a/a23607.html#aa3043011d7d9e7b7c5826b9afc7581d1", null ],
-    [ "GetPorung", "da/d1a/a23607.html#a575b12c40aeccd6d0cdd63f71a3b93d6", null ],
-    [ "MoveInLineOfSight", "da/d1a/a23607.html#a2ddb6fd6aa6221768ff71257f4bdd81b", null ],
-    [ "MovementInform", "da/d1a/a23607.html#a6f6198c2faf68823b1d4c8237044784b", null ],
-    [ "Reset", "da/d1a/a23607.html#a1fcf0da2cc4a0554f04b3624b68de598", null ],
-    [ "SetData", "da/d1a/a23607.html#a9416dd89c4728538971abc5975c7080f", null ],
-    [ "UpdateAI", "da/d1a/a23607.html#a91c2c7eca064d6eaafe5ecaeca4344b4", null ],
-    [ "_firstZealots", "da/d1a/a23607.html#a2b5fd63b01e4ecb96b006e3870b37609", null ],
-    [ "_scheduler", "da/d1a/a23607.html#a376f6eab11f8399493d5d33b5c4ea35a", null ],
-    [ "_zealotGUIDs", "da/d1a/a23607.html#a26381a05bb007fdb4b7da97a19a878da", null ]
+    [ "npc_warchief_portal", "da/d1a/a23607.html#a1a52395a5ae66f5cc5f92c6d4ce81893", null ],
+    [ "JustSummoned", "da/d1a/a23607.html#ad90c834dc059040f3922f58dc3bcf4a2", null ],
+    [ "SetData", "da/d1a/a23607.html#a538ab8c6e7683aa02e8c75f9dd900be8", null ],
+    [ "UpdateAI", "da/d1a/a23607.html#a8c400cf1b9f41696807e11f1f135c0ad", null ],
+    [ "_scheduler", "da/d1a/a23607.html#a76bb6a89f0922ed0bc0289ee4e0f20d4", null ]
 ];

@@ -1,5 +1,5 @@
 var a27951 =
 [
-    [ "cinematicCamera", "d2/d7a/a27951.html#a87e5f6de255dc0c75423eace2768a1dc", null ],
-    [ "Id", "d2/d7a/a27951.html#a9c3dc0e60728c1c76594385d6860f265", null ]
+    [ "ID", "d2/d7a/a27951.html#a01bcdc3543d3ff250354acf5e0724c14", null ],
+    [ "spellId", "d2/d7a/a27951.html#aabbb95c091e0b0946bcb05746b1c23f3", null ]
 ];

@@ -1,8 +1,6 @@
 var a25967 =
 [
-    [ "HandleDummy", "d3/d72/a25967.html#a04ff6beb930b65395ebc3df99bc53dfa", null ],
-    [ "PrepareSpellScript", "d3/d72/a25967.html#a73eabf1e68c966f31fe8d83c2fd925c1", null ],
-    [ "Register", "d3/d72/a25967.html#a6b03fbcf18612d9bb7361c3e4f022dc0", null ],
-    [ "Validate", "d3/d72/a25967.html#a9df13e3e8895854bc086fbfaccfb1b2c", null ],
-    [ "PolymorhForms", "d3/d72/a25967.html#a1443d2532a060514e697a8d5e0c21b20", null ]
+    [ "FilterTargets", "d3/d72/a25967.html#aad5d183d0d7ea229cbfc11f751536624", null ],
+    [ "PrepareSpellScript", "d3/d72/a25967.html#a68ba19142ae6eb04a2547495233700df", null ],
+    [ "Register", "d3/d72/a25967.html#a22c313409438f94d29ab3e236a56c115", null ]
 ];

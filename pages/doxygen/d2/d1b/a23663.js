@@ -1,8 +1,6 @@
 var a23663 =
 [
-    [ "HandleEffectApply", "d2/d1b/a23663.html#ad75c8c6279e606d6a557a61d97ee8f42", null ],
-    [ "HandleEffectRemove", "d2/d1b/a23663.html#a7cd59f7ca82a6507024842ebcb1ba093", null ],
-    [ "PrepareAuraScript", "d2/d1b/a23663.html#a438a8ba3688e0832853bae4183695494", null ],
-    [ "Register", "d2/d1b/a23663.html#a52a86cce0afa66203cc5982ddbe5de4f", null ],
-    [ "Validate", "d2/d1b/a23663.html#ab07b244e53b397bc9e9842655617a80d", null ]
+    [ "instance_arcatraz_InstanceMapScript", "d5/d49/a23667.html", "d5/d49/a23667" ],
+    [ "instance_arcatraz", "d2/d1b/a23663.html#a6fc8860651573353b54fd26bddea32aa", null ],
+    [ "GetInstanceScript", "d2/d1b/a23663.html#ad3f78e41ef2c96443ed3bd1ba4ab55bb", null ]
 ];

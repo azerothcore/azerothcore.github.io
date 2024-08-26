@@ -1,8 +1,5 @@
 var a28239 =
 [
-    [ "NoRuneCost", "d0/dd2/a28239.html#a599b2089d52bf4a009c5fbac3b0d3279", null ],
-    [ "NoRunicPowerGain", "d0/dd2/a28239.html#a97da075ecd116ef27fd4265bb8380667", null ],
-    [ "ID", "d0/dd2/a28239.html#aed245962cf1830cfa66e369b22a7ba6f", null ],
-    [ "RuneCost", "d0/dd2/a28239.html#a18c2e6daaaefe1c8be4a83c55a3670ff", null ],
-    [ "runePowerGain", "d0/dd2/a28239.html#ac5f9c69d83ff9cf230124b9dad10008b", null ]
+    [ "HasMissile", "d0/dd2/a28239.html#af8f9e79164ee3c7a617f63552bb23816", null ],
+    [ "MissileModel", "d0/dd2/a28239.html#ae9ab544537448113f628c22ed8c91a27", null ]
 ];

@@ -1,6 +1,10 @@
 var a26467 =
 [
-    [ "HandleScript", "d1/d7c/a26467.html#a54c724bd8786c894ecaa584c164c2e53", null ],
-    [ "PrepareSpellScript", "d1/d7c/a26467.html#a4505b9196609ae9339fe7e5948963663", null ],
-    [ "Register", "d1/d7c/a26467.html#ae293d6a2a477f716f357516781246069", null ]
+    [ "Absorb", "d1/d7c/a26467.html#aedee311aa77597674b3665eaf74e98c8", null ],
+    [ "CalculateAmount", "d1/d7c/a26467.html#a5fdabb367ab86589d733d1da906446ab", null ],
+    [ "Load", "d1/d7c/a26467.html#a7418b17f23b9eeacceb0970df3cb1d99", null ],
+    [ "PrepareAuraScript", "d1/d7c/a26467.html#a1de52fae7a5ed3eeeb46be11eb2eac21", null ],
+    [ "Register", "d1/d7c/a26467.html#abfc540163e9eb34cbf8a48d39bede840", null ],
+    [ "Validate", "d1/d7c/a26467.html#a6cca564b6d13063ce7cd72ed8b6adf67", null ],
+    [ "absorbChance", "d1/d7c/a26467.html#a293be81af42d810126eda35b1d27e3bc", null ]
 ];

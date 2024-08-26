@@ -1,6 +1,6 @@
 var a26791 =
 [
-    [ "PrepareAuraScript", "d2/d32/a26791.html#a65fa925d99065d028e328a92f2a13805", null ],
-    [ "Register", "d2/d32/a26791.html#a95dc732286adf4327f68e23015d58c21", null ],
-    [ "RemoveEffect", "d2/d32/a26791.html#a3f474c143f64739187b6049cac5e4b38", null ]
+    [ "PrepareSpellScript", "d2/d32/a26791.html#aa784c7af6fe38069fca4dcff9a09a22b", null ],
+    [ "Register", "d2/d32/a26791.html#a81bc86c83ffc70602410912870e61700", null ],
+    [ "VictoryRushHit", "d2/d32/a26791.html#a89387a25e67af1d47ef7f5b95344ccb0", null ]
 ];

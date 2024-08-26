@@ -1,9 +1,13 @@
 var a22927 =
 [
-    [ "boss_illidari_councilAI", "de/dca/a22927.html#ac639a1991077676a60da0ec628267e0e", null ],
-    [ "AttackStart", "de/dca/a22927.html#a49f6bcecb75094c9f40f2236895ec34d", null ],
-    [ "DoAction", "de/dca/a22927.html#af8abad57b4c536c918656167d4bf0913", null ],
-    [ "EnterEvadeMode", "de/dca/a22927.html#ac49618874f3da9a8711862da34e5d37a", null ],
-    [ "MoveInLineOfSight", "de/dca/a22927.html#ab86dea41ba67ab2232e1aea955b2809c", null ],
-    [ "UpdateAI", "de/dca/a22927.html#aa4dc36b4ad3a1d34aa71821379b5fd2e", null ]
+    [ "boss_teron_gorefiend", "de/dca/a22927.html#a81845f22aa383cdc57912ee9655b7bf9", null ],
+    [ "JustDied", "de/dca/a22927.html#aa080c8d17bc51142c1cecadf7a0376a2", null ],
+    [ "JustEngagedWith", "de/dca/a22927.html#a9f658d42cf27a54c62a71e28b5dfadee", null ],
+    [ "JustSummoned", "de/dca/a22927.html#a71db567c5be7396add349e2f1b455a50", null ],
+    [ "KilledUnit", "de/dca/a22927.html#a70dbf2b2a08cf915866afd51f8a74018", null ],
+    [ "Reset", "de/dca/a22927.html#af32df2d958c618dc08d3da40b92bf3aa", null ],
+    [ "SetData", "de/dca/a22927.html#a139c351471a3f19c7e59cf8e40913820", null ],
+    [ "UpdateAI", "de/dca/a22927.html#a0bdd92c94adf066fdbf8ba9bcb1a1ba1", null ],
+    [ "_intro", "de/dca/a22927.html#a99c62157084373e8eddd4497360cc047", null ],
+    [ "_recentlySpoken", "de/dca/a22927.html#adef80b4509a6a72e7021fd3cc11de697", null ]
 ];

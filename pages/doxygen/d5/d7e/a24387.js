@@ -1,9 +1,13 @@
 var a24387 =
 [
-    [ "npc_pet_gen_fetch_ball", "d5/d7e/a24387.html#a4cd4dabd5df72ad1e64bdc8d6efb2f1b", null ],
-    [ "IsSummonedBy", "d5/d7e/a24387.html#abaf6308f7c47fd05acb86055bec0aea8", null ],
-    [ "SpellHitTarget", "d5/d7e/a24387.html#a87bdded236f6584d9b71507a1253f7d0", null ],
-    [ "UpdateAI", "d5/d7e/a24387.html#a1e0f75d5cd438d500ad94c5024bf83ae", null ],
-    [ "checkTimer", "d5/d7e/a24387.html#ab8d0a3a9ba2a8e0d6f58b3867f20974e", null ],
-    [ "targetGUID", "d5/d7e/a24387.html#ae474374af7c2270e218ed236d90c789c", null ]
+    [ "npc_pet_mage_mirror_image", "d5/d7e/a24387.html#a2761cc9bf3a8bb7908d3db6d929721ba", null ],
+    [ "EnterEvadeMode", "d5/d7e/a24387.html#a858b070fb53112dc78554f0b20cd876a", null ],
+    [ "InitializeAI", "d5/d7e/a24387.html#a66d513908aa88504d0cbe4ce9bf222be", null ],
+    [ "MySelectNextTarget", "d5/d7e/a24387.html#a49d57ba93cd88816f68c16d56d3b8cd2", null ],
+    [ "Reset", "d5/d7e/a24387.html#a79a8c153ab61c619d928ec5535e67077", null ],
+    [ "UpdateAI", "d5/d7e/a24387.html#aa219b3adc38b625c6885089895b941b4", null ],
+    [ "_ebonGargoyleGUID", "d5/d7e/a24387.html#a8be57d06114f108e74b850ce66722bf3", null ],
+    [ "checktarget", "d5/d7e/a24387.html#a074611355768dc2072da69ed9d72242b", null ],
+    [ "dist", "d5/d7e/a24387.html#a7fcde453faf05a64e4c7099d840c0e2b", null ],
+    [ "selectionTimer", "d5/d7e/a24387.html#a7d7a6ebd88afecd7ae7aaeda0cee6cf7", null ]
 ];

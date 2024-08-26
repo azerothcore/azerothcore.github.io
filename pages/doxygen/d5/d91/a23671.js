@@ -1,10 +1,8 @@
 var a23671 =
 [
-    [ "boss_harbinger_skyriss", "d5/d91/a23671.html#a245179f74d61c2671b397e8f2473b599", null ],
-    [ "EnterEvadeMode", "d5/d91/a23671.html#a873413da06569343225e6659f8277b2c", null ],
-    [ "JustDied", "d5/d91/a23671.html#a2b5152ddeb53d382294bd0fe7455a21e", null ],
-    [ "JustEngagedWith", "d5/d91/a23671.html#adb4cdec41f4b61f82efdb78fe995c313", null ],
-    [ "JustSummoned", "d5/d91/a23671.html#a97d84139a3e970e22d7d422f2f825f12", null ],
-    [ "KilledUnit", "d5/d91/a23671.html#a8f9e1bd87c80041e07b428ec300ceef8", null ],
-    [ "Reset", "d5/d91/a23671.html#a045ec2371ad99c3465b8f089eb604e0a", null ]
+    [ "boss_commander_sarannis", "d5/d91/a23671.html#ace0957feb37f864798008849be25f607", null ],
+    [ "JustDied", "d5/d91/a23671.html#a7796429f04c049549a4a02a1eb8d35fc", null ],
+    [ "JustEngagedWith", "d5/d91/a23671.html#ad4273db7c169c6cfa9917dd3b76c9c95", null ],
+    [ "KilledUnit", "d5/d91/a23671.html#a64e77321adc5eea9d3494a3e1030f9de", null ],
+    [ "ScheduleReinforcements", "d5/d91/a23671.html#a293f0b860a66396a30c6d255eef85309", null ]
 ];

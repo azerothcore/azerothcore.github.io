@@ -1,6 +1,7 @@
 var a24787 =
 [
-    [ "PrepareSpellScript", "da/d73/a24787.html#ae8ef8bea1a6afa3f810c476e038bacc6", null ],
-    [ "RecalculateDamage", "da/d73/a24787.html#a856fdecdde1c68a163caf61afb2b0b90", null ],
-    [ "Register", "da/d73/a24787.html#a7f8c5c4920a87605b716e9e85b43ef47", null ]
+    [ "CheckRequirement", "da/d73/a24787.html#a6be5f335a15226db87a04548490f488d", null ],
+    [ "PrepareSpellScript", "da/d73/a24787.html#a25463eda0ce51a124e8715baf305c8f6", null ],
+    [ "Register", "da/d73/a24787.html#a8db5a5597d8f6fe4064799766fb61502", null ],
+    [ "_level", "da/d73/a24787.html#a3d6867e8eae9afde2b03acc2e6ebe961", null ]
 ];

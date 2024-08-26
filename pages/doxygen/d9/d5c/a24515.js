@@ -1,14 +1,12 @@
 var a24515 =
 [
-    [ "Absorb", "d9/d5c/a24515.html#a401274543919a81efea81008f8020ed1", null ],
-    [ "CalculateAmount", "d9/d5c/a24515.html#a837b0e3f0135f7b8393f1ee630d90c50", null ],
-    [ "HandleEffectApply", "d9/d5c/a24515.html#a0acb2be86ed6da238e8769d4871526d3", null ],
-    [ "HandleEffectRemove", "d9/d5c/a24515.html#a2b1e9dbb5d3543acd36f9253f224b9a7", null ],
-    [ "Load", "d9/d5c/a24515.html#ab22271735c240c0d375324f54efc8313", null ],
-    [ "PrepareAuraScript", "d9/d5c/a24515.html#af040fefa0f25f319f98340b9908bb85e", null ],
-    [ "Register", "d9/d5c/a24515.html#af89379413ea3b10477ea267ac8e51004", null ],
-    [ "Trigger", "d9/d5c/a24515.html#ae1704ed58255389c7483f75b5f0a227c", null ],
-    [ "Validate", "d9/d5c/a24515.html#a58faaf03fc6a0974049da2af0fc70825", null ],
-    [ "absorbPct", "d9/d5c/a24515.html#a3a9bd069cf4732f64990277227d71d0d", null ],
-    [ "hpPct", "d9/d5c/a24515.html#a83ef3e3f9534366c24311f3281a8d0b8", null ]
+    [ "CheckTarget", "d9/d5c/a24515.html#a731aa2c0a2b67b8a15cab72ea2cb961a", null ],
+    [ "CheckTargets", "d9/d5c/a24515.html#a3b5bbef0c43a600387235822f3c6dbc7", null ],
+    [ "HandleCorpseExplosion", "d9/d5c/a24515.html#a201de2ee86d0cf954117df0e5343ee69", null ],
+    [ "HandleDamage", "d9/d5c/a24515.html#a810fc65eb5d7160366d63210bad9caea", null ],
+    [ "Load", "d9/d5c/a24515.html#a00b45e2f466de39c95251c2a38f6c3bd", null ],
+    [ "PrepareSpellScript", "d9/d5c/a24515.html#a4cae1673a840d8ec0d727b881a3616cf", null ],
+    [ "Register", "d9/d5c/a24515.html#a9e67ea51300569a0e163cb3e427b086e", null ],
+    [ "Validate", "d9/d5c/a24515.html#a93984e8b831cb4c37ec2726d44532d43", null ],
+    [ "_target", "d9/d5c/a24515.html#a5028b9d3166270b2b0557943e962eade", null ]
 ];

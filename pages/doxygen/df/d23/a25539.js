@@ -1,6 +1,6 @@
 var a25539 =
 [
-    [ "HandleProc", "df/d23/a25539.html#a9a38fab6b581e9f9b4e092d7a4ecaebd", null ],
-    [ "PrepareAuraScript", "df/d23/a25539.html#a5299aaeacead013e00e81ec7960528f8", null ],
-    [ "Register", "df/d23/a25539.html#a3b46c5dd891d856e08cbcb9a494f2dd2", null ]
+    [ "HandleSummon", "df/d23/a25539.html#ad1ee0eb347454d50216610a266226d68", null ],
+    [ "PrepareSpellScript", "df/d23/a25539.html#a15a545ee3ec4a926f1330ce0ad975d3e", null ],
+    [ "Register", "df/d23/a25539.html#aa145041af68291f107c3ff11ce15b85e", null ]
 ];

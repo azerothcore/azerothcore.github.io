@@ -1,6 +1,7 @@
 var a24011 =
 [
-    [ "go_beaconAI", "d2/d12/a24011.html#a95f0f62d4e34da650c22a7ce796fc85f", null ],
-    [ "OnStateChanged", "d2/d12/a24011.html#a10bd78bf6c2451fe95163eb9083bdf44", null ],
-    [ "creatureList", "d2/d12/a24011.html#a8f406b85752e42cc26741aa5a13e69bc", null ]
+    [ "npc_kurenai_captiveAI", "dd/d09/a24015.html", "dd/d09/a24015" ],
+    [ "npc_kurenai_captive", "d2/d12/a24011.html#ae0e283bfc476f2d9e602158fa8720cdc", null ],
+    [ "GetAI", "d2/d12/a24011.html#ad6f9abf280ca7c3a1b16f7e4815fb979", null ],
+    [ "OnQuestAccept", "d2/d12/a24011.html#a7ecdb782bf084f3fd0f9dc3e2e10bf4a", null ]
 ];

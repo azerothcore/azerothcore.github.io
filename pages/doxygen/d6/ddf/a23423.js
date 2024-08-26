@@ -1,5 +1,6 @@
 var a23423 =
 [
-    [ "npc_invisible_tractor_beam_source", "d6/ddf/a23423.html#a78f8adbc578ec005ae3f764e55895dc4", null ],
-    [ "IsSummonedBy", "d6/ddf/a23423.html#a4a47cd459013a783bb1cf47b6d670fce", null ]
+    [ "CalculateDamage", "d6/ddf/a23423.html#a170fb61e3a7358d42cc6506067fb978a", null ],
+    [ "PrepareSpellScript", "d6/ddf/a23423.html#a197fce87e22a3e4055cabbb925b13aa1", null ],
+    [ "Register", "d6/ddf/a23423.html#aac3c6a6b34af795cb08fc299e763f6a8", null ]
 ];

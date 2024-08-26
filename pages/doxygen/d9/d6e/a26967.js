@@ -1,5 +1,5 @@
 var a26967 =
 [
-    [ "achievement_flirt_with_disaster_perf_check", "d9/d6e/a26967.html#a8cb843ed26248ceff594ef552b0ae9ae", null ],
-    [ "OnCheck", "d9/d6e/a26967.html#a15e620be2f37f930477ba94293dbaf63", null ]
+    [ "AreaTrigger_at_coilfang_waterfall", "d9/d6e/a26967.html#aa2e9a01adad7e195860bbc6c55131024", null ],
+    [ "OnTrigger", "d9/d6e/a26967.html#aea1c4b45ae855d0cda81dbad102b8104", null ]
 ];

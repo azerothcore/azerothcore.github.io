@@ -1,9 +1,12 @@
 var a23491 =
 [
-    [ "boss_the_maker", "df/d5d/a23491.html#a478c48f225e8fdf14cde5b1f144cb6c4", null ],
-    [ "JustDied", "df/d5d/a23491.html#a564abd0a8f52c8c58a305f9c47d8475c", null ],
-    [ "JustEngagedWith", "df/d5d/a23491.html#a6b0a4442dbabde69ca9352017ee23675", null ],
-    [ "KilledUnit", "df/d5d/a23491.html#a40643ca00fe7d7029a291335e47c722a", null ],
-    [ "Reset", "df/d5d/a23491.html#a9d115e5e1ef585348937b9d6c1cd2cb1", null ],
-    [ "UpdateAI", "df/d5d/a23491.html#a24cd8e9a97410ab290592b586962fffd", null ]
+    [ "boss_nazan", "df/d5d/a23491.html#a4390d3e181c4db46e364df3302612763", null ],
+    [ "AttackStart", "df/d5d/a23491.html#a7acea69f908e7a004c2a78c103528975", null ],
+    [ "DoAction", "df/d5d/a23491.html#abdb49e50dabda61c5d16b420ae69ae77", null ],
+    [ "EnterEvadeMode", "df/d5d/a23491.html#ab6338a7d240014e548b22044b788ce8f", null ],
+    [ "JustEngagedWith", "df/d5d/a23491.html#a4d44b759530f32207a46a608fb7d6209", null ],
+    [ "MovementInform", "df/d5d/a23491.html#ad35866322ff55263b1f8b105d2cad952", null ],
+    [ "Reset", "df/d5d/a23491.html#a5c10e932075130399a9127869f45ce1d", null ],
+    [ "UpdateAI", "df/d5d/a23491.html#a17942f19444ad324058d7b8c8a9aa9de", null ],
+    [ "_scheduler", "df/d5d/a23491.html#a8915d84ec4ffb8dade18041d5e910018", null ]
 ];

@@ -1,6 +1,5 @@
 var a27307 =
 [
-    [ "guard_shattrath_aldorAI", "dd/df3/a27311.html", "dd/df3/a27311" ],
-    [ "guard_shattrath_aldor", "dc/d00/a27307.html#ab965295d9c3828ad814f658670b5f185", null ],
-    [ "GetAI", "dc/d00/a27307.html#a3459a6a85c7e7286e3cbdd7f56fee704", null ]
+    [ "item_disgusting_jar", "dc/d00/a27307.html#add658cf7d026ac12d3eacc0c1dc8d7fb", null ],
+    [ "OnExpire", "dc/d00/a27307.html#a4f6967035a4d247914a6034fcebac5c5", null ]
 ];

@@ -1,8 +1,7 @@
 var a25043 =
 [
-    [ "AchievementCredit", "d9/dc8/a25043.html#ab0ec836feb53875de355330e05367fe8", null ],
-    [ "Load", "d9/dc8/a25043.html#ae48c67f363e399f076122cb6eee10ffb", null ],
-    [ "PrepareSpellScript", "d9/dc8/a25043.html#af0bb22c618af5dca7f534bea32e7ee7f", null ],
-    [ "Register", "d9/dc8/a25043.html#a793921687c96a39f7dd872b9721096ca", null ],
-    [ "Validate", "d9/dc8/a25043.html#a5be222c322714ec62f8beaf69faab257", null ]
+    [ "CalculateAmount", "d9/dc8/a25043.html#a40ba021accd581745f07f2586545853c", null ],
+    [ "Load", "d9/dc8/a25043.html#aa963b658637360305bb5f3d59eb9d061", null ],
+    [ "PrepareAuraScript", "d9/dc8/a25043.html#a8fedbff305709145a7c004787ee50402", null ],
+    [ "Register", "d9/dc8/a25043.html#ade9b6a408a1d5a83bdadd5bd2b0fbb2a", null ]
 ];

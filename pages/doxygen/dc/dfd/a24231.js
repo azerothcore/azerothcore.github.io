@@ -1,7 +1,7 @@
 var a24231 =
 [
-    [ "npc_kservantAI", "dc/dfd/a24231.html#a0687712690f2bacd24da1c94d222e761", null ],
-    [ "IsSummonedBy", "dc/dfd/a24231.html#a6aa9c1544fffdd9916eda7a0941dc828", null ],
-    [ "Reset", "dc/dfd/a24231.html#a0756ffacb97c83a3028afc620b32f349", null ],
-    [ "WaypointReached", "dc/dfd/a24231.html#a577a2ebb91c08bfe2e09bc67eeebb4ef", null ]
+    [ "HandleEffectRemove", "dc/dfd/a24231.html#a317c238b165ad331beb447ea5d0de7e1", null ],
+    [ "PrepareAuraScript", "dc/dfd/a24231.html#a7481f017a1382eb75e0101cb49fb4fcf", null ],
+    [ "Register", "dc/dfd/a24231.html#a13fdde1557249328306a57e159d821a7", null ],
+    [ "Validate", "dc/dfd/a24231.html#a58a383bd4e3062a5c5b1df97192b4b7e", null ]
 ];

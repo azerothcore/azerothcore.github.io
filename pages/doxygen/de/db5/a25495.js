@@ -1,6 +1,6 @@
 var a25495 =
 [
-    [ "HandleDummy", "de/db5/a25495.html#a8b9510efa5af25ef698fc6eb49b19b69", null ],
-    [ "PrepareSpellScript", "de/db5/a25495.html#a80b89fbd2506191b897dcf367ff11500", null ],
-    [ "Register", "de/db5/a25495.html#a522730e5ba844728c0b3d6f423cd123a", null ]
+    [ "HandleScriptEffect", "de/db5/a25495.html#a94bbfc928beab8c8f27d84d1c9ab1558", null ],
+    [ "PrepareSpellScript", "de/db5/a25495.html#a479832175a4c77ce0c0a2f3d3f98f08c", null ],
+    [ "Register", "de/db5/a25495.html#aff9efad03d94958c29c84ea3c0d19fdb", null ]
 ];

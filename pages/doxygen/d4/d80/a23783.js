@@ -1,10 +1,6 @@
 var a23783 =
 [
-    [ "npc_telonicus", "d4/d80/a23783.html#af8ba6be2d39463725bbbaf7770319a93", null ],
-    [ "JustDied", "d4/d80/a23783.html#a8748435fe676bb0a9988186006612ef8", null ],
-    [ "JustEngagedWith", "d4/d80/a23783.html#a1754b13210eefec39b2ca766cf5e1cc0", null ],
-    [ "Reset", "d4/d80/a23783.html#afa5c2f47fabde2c4d1bb9f544369fa7c", null ],
-    [ "UpdateAI", "d4/d80/a23783.html#a43e051ed780d30741cdf8403fa07595b", null ],
-    [ "_hasDied", "d4/d80/a23783.html#a28a88cd9d427691b177f74e7bd3f5e7c", null ],
-    [ "_instance", "d4/d80/a23783.html#a2d04c0bf0af6d588cf2e22faad7ec230", null ]
+    [ "HandleBeforeCast", "d4/d80/a23783.html#afe2869e6c91068a0ed7ce09858f774dc", null ],
+    [ "PrepareSpellScript", "d4/d80/a23783.html#a8b75237de8d54dda3c7888f6d6a9684a", null ],
+    [ "Register", "d4/d80/a23783.html#a45ae470002052c87d5270e3556f0e706", null ]
 ];

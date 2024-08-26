@@ -1,7 +1,10 @@
 var a25919 =
 [
-    [ "OnRemove", "db/d5c/a25919.html#a8c39ba2fbd8c9c96de622afd8d04281e", null ],
-    [ "PrepareAuraScript", "db/d5c/a25919.html#a9e13b76ceb256dec1a6c9dccd5c6c537", null ],
-    [ "Register", "db/d5c/a25919.html#a9fbaec43bae2f4d6f4b94b18da0144fe", null ],
-    [ "Validate", "db/d5c/a25919.html#a8f111779a3a0e68fe5a313e6eae716b3", null ]
+    [ "CheckProc", "db/d5c/a25919.html#a787008462dce35eb27deda41301b146d", null ],
+    [ "HandleProc", "db/d5c/a25919.html#a5b791c7cb8dae574fef801ce42dc6aa1", null ],
+    [ "Load", "db/d5c/a25919.html#a9760351c28f5f9948f0b64ae2ca91c24", null ],
+    [ "PrepareAuraScript", "db/d5c/a25919.html#ab3d5e71597c67ec0aed70f7e5d2319ac", null ],
+    [ "Register", "db/d5c/a25919.html#aa4ef731870355dc386fcd07c5f19d090", null ],
+    [ "Validate", "db/d5c/a25919.html#ad04864f0710262364cf40e071446d87c", null ],
+    [ "_procTarget", "db/d5c/a25919.html#a9383231fc71c6239507fdf8765d63f3d", null ]
 ];

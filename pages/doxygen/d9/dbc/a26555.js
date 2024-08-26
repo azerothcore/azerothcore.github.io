@@ -1,6 +1,8 @@
 var a26555 =
 [
-    [ "HandlePeriodic", "d9/dbc/a26555.html#af875d62dd47650c9f2e9c3a4508ed05b", null ],
-    [ "PrepareAuraScript", "d9/dbc/a26555.html#a2efdcd0902e9cb5c47e285492dd93789", null ],
-    [ "Register", "d9/dbc/a26555.html#ac90afe9f5d9d55faba2282a875469311", null ]
+    [ "ApplyDebuff", "d9/dbc/a26555.html#ac22ae27019de6bd951bb00262c6df9a3", null ],
+    [ "PrepareSpellScript", "d9/dbc/a26555.html#aa37525d089348f58e3d871830caa3417", null ],
+    [ "Register", "d9/dbc/a26555.html#ac37a48d9742ab6b07c5e6a8dd7f23bd9", null ],
+    [ "RemoveInvalidTargets", "d9/dbc/a26555.html#a0451b75aa962065a01a5806992e01b16", null ],
+    [ "Validate", "d9/dbc/a26555.html#ac69d777fdf7a2d3c527621dee256690c", null ]
 ];

@@ -1,7 +1,6 @@
 var a23967 =
 [
-    [ "HandleDummy", "d1/ddc/a23967.html#a08f2f0aef00ce075572ff84643905a0a", null ],
-    [ "PrepareSpellScript", "d1/ddc/a23967.html#ac1aacfbd71224d80eaed0b9a76ff673f", null ],
-    [ "Register", "d1/ddc/a23967.html#a2046ac7f24989ff0bf50a3ee66dda104", null ],
-    [ "Validate", "d1/ddc/a23967.html#aded9f2e46cc3bf46f5699ce6fdf154ba", null ]
+    [ "npc_wounded_blood_elfAI", "df/deb/a23971.html", "df/deb/a23971" ],
+    [ "npc_wounded_blood_elf", "d1/ddc/a23967.html#a40e79d1412f5f399869a4d2c6fbb4260", null ],
+    [ "GetAI", "d1/ddc/a23967.html#a39d4bd877bdf6596c65e3cb834f124aa", null ]
 ];

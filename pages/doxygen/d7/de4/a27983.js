@@ -1,8 +1,5 @@
 var a27983 =
 [
-    [ "DamagedDisplayId", "d7/de4/a27983.html#a84d606d69c51f5e1fdecf9bc0f5705be", null ],
-    [ "DestroyedDisplayId", "d7/de4/a27983.html#afc891df0c9491a34f784e8f141434be5", null ],
-    [ "Id", "d7/de4/a27983.html#a65d7e0933cb53864413781cdeb56b6c2", null ],
-    [ "RebuildingDisplayId", "d7/de4/a27983.html#aa4e1e6be7b5b1d15872fb310c1c299af", null ],
-    [ "SmokeDisplayId", "d7/de4/a27983.html#a1a06c3e04bc2bb7d5bc29592d40b9239", null ]
+    [ "Id", "d7/de4/a27983.html#a2c41c957524b31ad9f7fa361ec0e9d01", null ],
+    [ "textid", "d7/de4/a27983.html#a7e50690fa335b759dba5ac265c9a0dd0", null ]
 ];

@@ -1,10 +1,17 @@
 var a28095 =
 [
-    [ "ID", "d6/de0/a28095.html#a906c42770a619884f08b67e2870bff93", null ],
-    [ "reqarenapoints", "d6/de0/a28095.html#a5d45007a832d6120e29c7821c07646de", null ],
-    [ "reqarenaslot", "d6/de0/a28095.html#ad1e4b8f94a743bac02bbadbc8d62ad0b", null ],
-    [ "reqhonorpoints", "d6/de0/a28095.html#aca509fb7e234bc54632ff988bf37e6ad", null ],
-    [ "reqitem", "d6/de0/a28095.html#a9cba8872c909260a55dcfdf7f4726899", null ],
-    [ "reqitemcount", "d6/de0/a28095.html#a615c5fe0966b5054303ebe1290adc9b6", null ],
-    [ "reqpersonalarenarating", "d6/de0/a28095.html#af4ff8d55234b03637e4b2fbd10778e97", null ]
+    [ "Entry", "d6/de0/a28095.html#a4e8689fabe6b3ef5c495bf84fa1945b7", null ],
+    [ "Difficulty", "d6/de0/a28095.html#aa85e97ced86b0d27c753ca924eba074b", null ],
+    [ "ExpansionLevel", "d6/de0/a28095.html#a5bbacc248aa127b889d60b3a25b12b83", null ],
+    [ "Flags", "d6/de0/a28095.html#a9481c296a064ec400b0f050097903557", null ],
+    [ "GroupID", "d6/de0/a28095.html#a7a6c2971a61b171d00c885ce452601ce", null ],
+    [ "ID", "d6/de0/a28095.html#ae0fdf0d9afd2f99e9b7e6094960e86e0", null ],
+    [ "MapID", "d6/de0/a28095.html#a6c947b111d7d356ba02eb6fffc77f5cb", null ],
+    [ "MaxLevel", "d6/de0/a28095.html#aa4fbfd45d4319c9e8319508821bf4a65", null ],
+    [ "MinLevel", "d6/de0/a28095.html#a17ae5fe60486c54a3becb2b14d5953c9", null ],
+    [ "Name", "d6/de0/a28095.html#a7cb21e4e996be24d531b03fea66ecd27", null ],
+    [ "TargetLevel", "d6/de0/a28095.html#a2e6456d16cce98666b0ac63cebf0eb82", null ],
+    [ "TargetLevelMax", "d6/de0/a28095.html#ae4a27f7bc0563f606f40d955a40fab1e", null ],
+    [ "TargetLevelMin", "d6/de0/a28095.html#a7558f3dc7d695fb17bc3b64e0c381de7", null ],
+    [ "TypeID", "d6/de0/a28095.html#a84a498b44063cc95ba1a3b565c44a81b", null ]
 ];

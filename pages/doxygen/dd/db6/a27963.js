@@ -1,12 +1,8 @@
 var a27963 =
 [
-    [ "ID", "dd/db6/a27963.html#a84ba697182123cb3e7dd3ba07241e971", null ],
-    [ "maxScale", "dd/db6/a27963.html#a23ca0ae7c45790a24f58546970194abf", null ],
-    [ "maxScaleLevel", "dd/db6/a27963.html#ad5d722d74bc08d4de3edd54c2f24addb", null ],
-    [ "minScale", "dd/db6/a27963.html#a3eacdd8639c6dd25dbd3205a58860cf9", null ],
-    [ "minScaleLevel", "dd/db6/a27963.html#a49d9d7847cc4d54891d83166eb277740", null ],
-    [ "Name", "dd/db6/a27963.html#a937fc579ab2790f4a972f07d3453a762", null ],
-    [ "petFoodMask", "dd/db6/a27963.html#a4d9dd8baa3f7981633248513bb25f4ca", null ],
-    [ "petTalentType", "dd/db6/a27963.html#a802000cefb6c4d357edfc45cc291e21e", null ],
-    [ "skillLine", "dd/db6/a27963.html#ad4498d40b31d18742ee4ac235cb58a2e", null ]
+    [ "DamagedDisplayId", "dd/db6/a27963.html#a84d606d69c51f5e1fdecf9bc0f5705be", null ],
+    [ "DestroyedDisplayId", "dd/db6/a27963.html#afc891df0c9491a34f784e8f141434be5", null ],
+    [ "Id", "dd/db6/a27963.html#a65d7e0933cb53864413781cdeb56b6c2", null ],
+    [ "RebuildingDisplayId", "dd/db6/a27963.html#aa4e1e6be7b5b1d15872fb310c1c299af", null ],
+    [ "SmokeDisplayId", "dd/db6/a27963.html#a1a06c3e04bc2bb7d5bc29592d40b9239", null ]
 ];

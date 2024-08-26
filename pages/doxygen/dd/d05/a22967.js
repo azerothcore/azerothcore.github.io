@@ -1,6 +1,6 @@
 var a22967 =
 [
-    [ "CalculateAmount", "dd/d05/a22967.html#aeeabfef0accc4e0d1f78f7422dc30a99", null ],
-    [ "PrepareAuraScript", "dd/d05/a22967.html#a5cf70fe73d01e08e78a2d00e5bc95e8e", null ],
-    [ "Register", "dd/d05/a22967.html#a0d2e97463f268892965e307628aaa931", null ]
+    [ "instance_black_temple_InstanceMapScript", "df/df0/a22971.html", "df/df0/a22971" ],
+    [ "instance_black_temple", "dd/d05/a22967.html#a2efd6c7fff15c8fd03652ef9a65088eb", null ],
+    [ "GetInstanceScript", "dd/d05/a22967.html#a947a1279eabde75d9884b1ef84b295a3", null ]
 ];

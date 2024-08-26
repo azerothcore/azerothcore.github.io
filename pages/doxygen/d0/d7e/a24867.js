@@ -1,7 +1,6 @@
 var a24867 =
 [
-    [ "HandleApply", "d0/d7e/a24867.html#a75f7fc139cf72aeaa2cc09ba30a8f119", null ],
-    [ "HandlePeriodicTimer", "d0/d7e/a24867.html#ae9f438dd0833b2ad214acef0e558a8be", null ],
-    [ "PrepareAuraScript", "d0/d7e/a24867.html#ac2040d944e47a4f1cc7721ead44aca77", null ],
-    [ "Register", "d0/d7e/a24867.html#abc9eb056267c7effcc7f68a3ad7891da", null ]
+    [ "OnPeriodic", "d0/d7e/a24867.html#a3bcef6bd4501489320ef1242a66c50e8", null ],
+    [ "PrepareAuraScript", "d0/d7e/a24867.html#ab18f839ab70cc61e52c5e9ddb4847140", null ],
+    [ "Register", "d0/d7e/a24867.html#afbc707f30b7db0329f24b9ab8e8134e0", null ]
 ];

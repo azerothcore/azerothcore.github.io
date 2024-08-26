@@ -1,7 +1,8 @@
 var a25947 =
 [
-    [ "CalculateSpellAmount", "de/d37/a25947.html#a2f93ff69f30b243fe787d72f78a2d159", null ],
-    [ "CheckCast", "de/d37/a25947.html#af043f7ee0f80baf667e64225effd57d1", null ],
-    [ "PrepareSpellScript", "de/d37/a25947.html#a233ac4020722078d865cf980d7fa76cf", null ],
-    [ "Register", "de/d37/a25947.html#a3648ecd94430e21dd014795156c1eb98", null ]
+    [ "HandleDummy", "de/d37/a25947.html#a04ff6beb930b65395ebc3df99bc53dfa", null ],
+    [ "PrepareSpellScript", "de/d37/a25947.html#a73eabf1e68c966f31fe8d83c2fd925c1", null ],
+    [ "Register", "de/d37/a25947.html#a6b03fbcf18612d9bb7361c3e4f022dc0", null ],
+    [ "Validate", "de/d37/a25947.html#a9df13e3e8895854bc086fbfaccfb1b2c", null ],
+    [ "PolymorhForms", "de/d37/a25947.html#a1443d2532a060514e697a8d5e0c21b20", null ]
 ];

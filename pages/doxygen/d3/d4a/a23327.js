@@ -1,8 +1,6 @@
 var a23327 =
 [
-    [ "boss_mekgineer_steamrigger", "d3/d4a/a23327.html#a930dcbade7135d0c689bcc0718815547", null ],
-    [ "JustDied", "d3/d4a/a23327.html#a79272c233bc0256cca62700fc7a01421", null ],
-    [ "JustEngagedWith", "d3/d4a/a23327.html#aa75dea00ffd73b45ba5115ea1e48a006", null ],
-    [ "JustSummoned", "d3/d4a/a23327.html#a7a55a9dffaf239e73962356eb0fa88ad", null ],
-    [ "KilledUnit", "d3/d4a/a23327.html#a84374438458cb7e034f91d4b65cd22f1", null ]
+    [ "instance_steam_vault_InstanceMapScript", "d3/d4a/a23327.html#a1ca8d6b10fabe1a8b829dbf62b77ed51", null ],
+    [ "OnGameObjectCreate", "d3/d4a/a23327.html#ace71fc6f1d7bc4b49bc2a2507f481fc2", null ],
+    [ "SetBossState", "d3/d4a/a23327.html#ab1e344fbf169ee40f28741217f3dca14", null ]
 ];

@@ -1,6 +1,9 @@
 var a24367 =
 [
-    [ "PrepareSpellScript", "d0/d3d/a24367.html#ae915f8f6522f0a8d308b2a5f43b8884f", null ],
-    [ "RecalculateDamage", "d0/d3d/a24367.html#af01757d0968da2a096d800782ed7e66e", null ],
-    [ "Register", "d0/d3d/a24367.html#a62b6613707a2a9b78d52bffe92de604e", null ]
+    [ "npc_pet_gen_fetch_ball", "d0/d3d/a24367.html#a4cd4dabd5df72ad1e64bdc8d6efb2f1b", null ],
+    [ "IsSummonedBy", "d0/d3d/a24367.html#abaf6308f7c47fd05acb86055bec0aea8", null ],
+    [ "SpellHitTarget", "d0/d3d/a24367.html#a87bdded236f6584d9b71507a1253f7d0", null ],
+    [ "UpdateAI", "d0/d3d/a24367.html#a1e0f75d5cd438d500ad94c5024bf83ae", null ],
+    [ "checkTimer", "d0/d3d/a24367.html#ab8d0a3a9ba2a8e0d6f58b3867f20974e", null ],
+    [ "targetGUID", "d0/d3d/a24367.html#ae474374af7c2270e218ed236d90c789c", null ]
 ];

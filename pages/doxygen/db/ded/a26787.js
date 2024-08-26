@@ -1,10 +1,6 @@
 var a26787 =
 [
-    [ "CheckProc", "db/ded/a26787.html#a257202ac9b80a67ce58d9e3491164d22", null ],
-    [ "HandleProc", "db/ded/a26787.html#aa3c74b25fbe63ac77e10260159adb8ca", null ],
-    [ "HandleTick", "db/ded/a26787.html#a5e436c530e5ef70bc4de4305676ed196", null ],
-    [ "PrepareAuraScript", "db/ded/a26787.html#aef7d1a2bbd59af36cc130f07e1204081", null ],
-    [ "Register", "db/ded/a26787.html#a11b0120ea8c8ccf1c96e5d1053d64895", null ],
-    [ "RemoveEffect", "db/ded/a26787.html#a333ad80d8478f59713ee049f935d7885", null ],
-    [ "Validate", "db/ded/a26787.html#aed3cb37f0230463978b210add84bd31d", null ]
+    [ "HandleOnHit", "db/ded/a26787.html#a94893e6dd048f0028540e5ce15ed7b1d", null ],
+    [ "PrepareSpellScript", "db/ded/a26787.html#a999b019665dec9b0690a1019be428072", null ],
+    [ "Register", "db/ded/a26787.html#ab21c47d1918a9e29ebe7b041421deaf7", null ]
 ];

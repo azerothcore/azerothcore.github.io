@@ -1,6 +1,7 @@
 var a27343 =
 [
-    [ "trigger_periodicAI", "d4/d3e/a27347.html", "d4/d3e/a27347" ],
-    [ "trigger_periodic", "d6/d83/a27343.html#a3c947c5a3092eecb7288a8a50c76bd14", null ],
-    [ "GetAI", "d6/d83/a27343.html#a179f3aa69fcd0b145f4ede9f830c1f38", null ]
+    [ "npc_engineering_tele_trinket", "d6/d83/a27343.html#ab891a8378a7b1b63151d05801b8b2fd1", null ],
+    [ "CanLearn", "d6/d83/a27343.html#a8a35f1c09a9df609561e76f4ed578647", null ],
+    [ "OnGossipHello", "d6/d83/a27343.html#ad11f576fb7efad0f6ea4cf22d3bc4e59", null ],
+    [ "OnGossipSelect", "d6/d83/a27343.html#a4d7125cf0333d4e5ebc299019c8feb1a", null ]
 ];

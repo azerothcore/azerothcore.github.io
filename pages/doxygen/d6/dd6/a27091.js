@@ -1,9 +1,6 @@
 var a27091 =
 [
-    [ "ChatLogScript", "d6/dd6/a27091.html#ade8c407083cf094f0767412e7b6d7730", null ],
-    [ "OnChat", "d6/dd6/a27091.html#a44694358d5babfd988c6c64e738a4f80", null ],
-    [ "OnChat", "d6/dd6/a27091.html#ac0a0f2e7d63cb5ff94be3d1a7c7a62b4", null ],
-    [ "OnChat", "d6/dd6/a27091.html#a53b69eaa690266d38f08aa3920048353", null ],
-    [ "OnChat", "d6/dd6/a27091.html#a7b6ce21ddcda078a0ed32ce130a3b376", null ],
-    [ "OnChat", "d6/dd6/a27091.html#ab7e9d4f50e33c4ddd49e98157deb29ba", null ]
+    [ "go_witherbark_totem_bundleAI", "d6/dd6/a27091.html#a955625e2315008a2e36936d44f825060", null ],
+    [ "UpdateAI", "d6/dd6/a27091.html#af688bab2dc3d938951adb303e8b8d88b", null ],
+    [ "_timer", "d6/dd6/a27091.html#a509e6d8401380c326a0f565a6b903d7a", null ]
 ];

@@ -1,6 +1,7 @@
 var a23995 =
 [
-    [ "npc_fel_guard_houndAI", "d1/d16/a23999.html", "d1/d16/a23999" ],
-    [ "npc_fel_guard_hound", "db/db0/a23995.html#a324179695f04a31b233b0ce94a46634c", null ],
-    [ "GetAI", "db/db0/a23995.html#a5f5c20ec379994e7d0b65133d772e18f", null ]
+    [ "npc_maghar_captiveAI", "d1/d16/a23999.html", "d1/d16/a23999" ],
+    [ "npc_maghar_captive", "db/db0/a23995.html#a59e177f33306ed0bb3de9f640d3685e4", null ],
+    [ "GetAI", "db/db0/a23995.html#a7f1528549b55edfb5286db4afe6ce50e", null ],
+    [ "OnQuestAccept", "db/db0/a23995.html#a966fdfe66a65675eb1618b0698dfbb21", null ]
 ];

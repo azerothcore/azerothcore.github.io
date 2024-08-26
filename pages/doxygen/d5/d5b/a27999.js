@@ -1,7 +1,11 @@
 var a27999 =
 [
-    [ "EmoteType", "d5/d5b/a27999.html#a2d319652021081fdb02472c32a28e318", null ],
-    [ "Flags", "d5/d5b/a27999.html#aa1794d3ffd7f7da82f5754e1be580fe9", null ],
-    [ "Id", "d5/d5b/a27999.html#a3b3b641fbdb8dc88afc2421e358a75a1", null ],
-    [ "UnitStandState", "d5/d5b/a27999.html#ada83e548faa01917a5db19eaa15dbbec", null ]
+    [ "Displayid", "d5/d5b/a27999.html#a4aa3c391401f39d6f4a595f4dff0668b", null ],
+    [ "filename", "d5/d5b/a27999.html#a0cee5b90a15b39e1ff49231e332cc320", null ],
+    [ "maxX", "d5/d5b/a27999.html#a10563ae885d34e516825a18db95b40e7", null ],
+    [ "maxY", "d5/d5b/a27999.html#a711286df6d2bd74246dee2170052c17a", null ],
+    [ "maxZ", "d5/d5b/a27999.html#acb74e32790b2c60cca5faef1caa225e4", null ],
+    [ "minX", "d5/d5b/a27999.html#a77466c3aabd4e7b6b7aa8b5f9f2a82da", null ],
+    [ "minY", "d5/d5b/a27999.html#a7168f5b3229bd27edde78e88bf7dc20a", null ],
+    [ "minZ", "d5/d5b/a27999.html#ac88aefc2530212b9dff10e018c4e9305", null ]
 ];

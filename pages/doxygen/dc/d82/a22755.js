@@ -1,9 +1,7 @@
 var a22755 =
 [
-    [ "boss_mother_shahraz", "dc/d82/a22755.html#adba94363f74975301472d79f24894df8", null ],
-    [ "JustDied", "dc/d82/a22755.html#ab69d81acde4e6e2a3f6adb032090b958", null ],
-    [ "JustEngagedWith", "dc/d82/a22755.html#a021c702e7eff266308fee8a4220a6ec7", null ],
-    [ "KilledUnit", "dc/d82/a22755.html#a81ed314ae9737c0989b62c27c9ce4cc9", null ],
-    [ "Reset", "dc/d82/a22755.html#ab9e4162ac92e786b84b6497c37251386", null ],
-    [ "_canTalk", "dc/d82/a22755.html#a821d91439c60a60ffcff07b6bdbbc070", null ]
+    [ "VerasEnvenom", "dc/d82/a22755.html#ac8c5f4fcb63ea5141a71b56324de0b1f", null ],
+    [ "Execute", "dc/d82/a22755.html#a4b7853bb835cf28aefe2d5b955372d70", null ],
+    [ "_owner", "dc/d82/a22755.html#af9cf231119ab5592be9829784f20d2e0", null ],
+    [ "_targetGUID", "dc/d82/a22755.html#a90d62907c775565765fa87903adb94ea", null ]
 ];

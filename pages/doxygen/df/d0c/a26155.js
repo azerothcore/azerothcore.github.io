@@ -1,7 +1,7 @@
 var a26155 =
 [
-    [ "HandleHeal", "df/d0c/a26155.html#a22e3dd3ac57c7cb95162ee56ab43bc93", null ],
-    [ "PrepareSpellScript", "df/d0c/a26155.html#a9de9260bc1e2582138c58a708e5d899c", null ],
-    [ "Register", "df/d0c/a26155.html#ab613ce86521f1381b79f6f9f3eaea3cc", null ],
-    [ "Validate", "df/d0c/a26155.html#aa300822cf5455404482124a6853fb314", null ]
+    [ "HandleProc", "df/d0c/a26155.html#ad5bf7ab28ac2f359c65606a1772a40d2", null ],
+    [ "PrepareAuraScript", "df/d0c/a26155.html#af4fec7fb65e1327b1a74d48453b9fddd", null ],
+    [ "Register", "df/d0c/a26155.html#a44a82b94d509eeb04f3520ded1d62891", null ],
+    [ "Validate", "df/d0c/a26155.html#a7b222bba8f0c4ced50bf4945bf0423ca", null ]
 ];

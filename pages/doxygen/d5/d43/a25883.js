@@ -1,9 +1,6 @@
 var a25883 =
 [
-    [ "HandleAfterCast", "d5/d43/a25883.html#afd2fbc51ac1e99789994021af36688f3", null ],
-    [ "HandleTriggerSpell", "d5/d43/a25883.html#ae140ab00101f081454b55e12a7c54440", null ],
-    [ "Load", "d5/d43/a25883.html#a3dbb3541f0ec3f614d1f18fd92f9bc03", null ],
-    [ "PrepareSpellScript", "d5/d43/a25883.html#a7fd1a83dd49cee4f52913a40caf3ef88", null ],
-    [ "Register", "d5/d43/a25883.html#a3e9d0ff0bd71ea6d87fb9a7edcfa9a1c", null ],
-    [ "_triggerSpellId", "d5/d43/a25883.html#a9a3efd5cf45d15cf8112a82d33dca731", null ]
+    [ "HandleDummy", "d5/d43/a25883.html#a4fde3142b38989cb37db76da6eada03c", null ],
+    [ "PrepareSpellScript", "d5/d43/a25883.html#aa694a1a7cbbe0f20226d7e616e19cefb", null ],
+    [ "Register", "d5/d43/a25883.html#a1f83fae2fb3dc0904ed56101e1254f5f", null ]
 ];

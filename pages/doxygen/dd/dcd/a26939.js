@@ -1,5 +1,5 @@
 var a26939 =
 [
-    [ "achievement_sickly_gazelle", "dd/dcd/a26939.html#abb613cb222c727923c4c5ce843db3a5f", null ],
-    [ "OnCheck", "dd/dcd/a26939.html#a5a4fcd30c92c10a9c0fb8fc1372f3857", null ]
+    [ "achievement_not_even_a_scratch", "dd/dcd/a26939.html#a0d025c09d35c3640016ab42e11dd96eb", null ],
+    [ "OnCheck", "dd/dcd/a26939.html#a81f6c9bd36e5a3eea3fe0af24c9f1649", null ]
 ];

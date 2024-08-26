@@ -1,6 +1,7 @@
 var a26099 =
 [
-    [ "FilterTargets", "d0/dc7/a26099.html#a81212064e51b7dfd148a1b18b69aafe0", null ],
-    [ "PrepareSpellScript", "d0/dc7/a26099.html#a10d26377442d7a5d0c2986a65fcb57d6", null ],
-    [ "Register", "d0/dc7/a26099.html#a4db02c58be57a797c26b07656d1b5409", null ]
+    [ "HandleScriptEffect", "d0/dc7/a26099.html#ad3497a9c986f65978d4b2553b0c9958f", null ],
+    [ "Load", "d0/dc7/a26099.html#a33d46e5ebd418ea0242d958345cb44d2", null ],
+    [ "PrepareSpellScript", "d0/dc7/a26099.html#ade09cd376d00df8b5e709026e353f409", null ],
+    [ "Register", "d0/dc7/a26099.html#ad04bf0d88a3e1fde3c11b91d5ef1c7ae", null ]
 ];

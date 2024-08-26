@@ -1,16 +1,14 @@
 var a23639 =
 [
-    [ "instance_shattered_halls_InstanceMapScript", "d0/df3/a23639.html#aa438091d2868b26d961ee4f81e9cea11", null ],
-    [ "GetGuidData", "d0/df3/a23639.html#a1a0623204ecaaa3623fc503783c4d766", null ],
-    [ "Initialize", "d0/df3/a23639.html#a3761d56e59d5bf1147986978c9fdf2e3", null ],
-    [ "OnCreatureCreate", "d0/df3/a23639.html#a9fa5637791d249553472b31c024f9fc1", null ],
-    [ "OnPlayerEnter", "d0/df3/a23639.html#afad907d6b612897299a9f392e8797e8d", null ],
-    [ "ReadSaveDataMore", "d0/df3/a23639.html#a67bc6a2dde5c649d16ef7e2c26c6069b", null ],
-    [ "SetData", "d0/df3/a23639.html#a566090f29d13977354fb50e68d92f046", null ],
-    [ "Update", "d0/df3/a23639.html#aad1666c364feff4e2b7654f5894c129f", null ],
-    [ "WriteSaveDataMore", "d0/df3/a23639.html#aaa8b1b054df41a79ac074ae48e180ee9", null ],
-    [ "executionerGUID", "d0/df3/a23639.html#aa7a664b841be7dc70cdc42a79710566e", null ],
-    [ "prisonerGUID", "d0/df3/a23639.html#a79029c1bfc8f3234482c367e9c739b57", null ],
-    [ "RescueTimer", "d0/df3/a23639.html#a8df2961264a192ab2692e3c8ca507666", null ],
-    [ "TeamIdInInstance", "d0/df3/a23639.html#a647e394629c44e1899e70a69324e8056", null ]
+    [ "npc_warden_mellicharAI", "d0/df3/a23639.html#a3486b015ccb8fecfe5e215f45e45f15e", null ],
+    [ "AttackStart", "d0/df3/a23639.html#a2b16dc3ad358e4179fe20e2066ba5c64", null ],
+    [ "DamageTaken", "d0/df3/a23639.html#a07e7b215ed7653fe7e1ee44d34a74bbd", null ],
+    [ "JustDied", "d0/df3/a23639.html#a867404a125aeb4ee3332a4e2b5a8f547", null ],
+    [ "JustEngagedWith", "d0/df3/a23639.html#ad584a3c2dd8f108cc9b4e66a6917f97b", null ],
+    [ "JustSummoned", "d0/df3/a23639.html#a3fe95a64b640fb61459da2c8621fbc9c", null ],
+    [ "MoveInLineOfSight", "d0/df3/a23639.html#aa4edaf9534e7232526fd9c7bd097b7c4", null ],
+    [ "Reset", "d0/df3/a23639.html#aebd55a8e6e618e4dc37cf253c60c3a94", null ],
+    [ "SetData", "d0/df3/a23639.html#a0d0e8d1af5179aea73aa60e060ba751a", null ],
+    [ "SummonedCreatureDies", "d0/df3/a23639.html#a58e1011986be65725d4db3d782bc72ac", null ],
+    [ "UpdateAI", "d0/df3/a23639.html#a944cff5367213d561a7e6df5faf2a216", null ]
 ];

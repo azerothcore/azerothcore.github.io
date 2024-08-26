@@ -1,7 +1,7 @@
 var a27911 =
 [
-    [ "cutPercent", "d6/d90/a27911.html#a8581a6a5198dab10680f477a477a7c80", null ],
-    [ "depositPercent", "d6/d90/a27911.html#af7bb868f1a1e8d570ce7b6cb10ad87d9", null ],
-    [ "faction", "d6/d90/a27911.html#a4b857e3c4c333b2a86f7f5d08bcc883d", null ],
-    [ "houseId", "d6/d90/a27911.html#a1bf77c1b14731def0e3de44143df2eed", null ]
+    [ "bit_index", "d6/d90/a27911.html#a1e5cb3fc001169a204507a084435a211", null ],
+    [ "ID", "d6/d90/a27911.html#a63fe7a87e019780d20e86e48efb02eac", null ],
+    [ "nameFemale", "d6/d90/a27911.html#ad0380caf2526715faaddc9330062d90a", null ],
+    [ "nameMale", "d6/d90/a27911.html#a74a767731c96d3d815ddde5a06f68599", null ]
 ];

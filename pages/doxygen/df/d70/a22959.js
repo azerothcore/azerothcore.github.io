@@ -1,6 +1,6 @@
 var a22959 =
 [
-    [ "boss_veras_darkshadowAI", "d1/d8f/a22963.html", "d1/d8f/a22963" ],
-    [ "boss_veras_darkshadow", "df/d70/a22959.html#ab5491df9e30d11b6b7c046d11b6e13c6", null ],
-    [ "GetAI", "df/d70/a22959.html#a2c7acfe8ae8a42b572bffe8124ab43cf", null ]
+    [ "HandleDummy", "df/d70/a22959.html#a85cbe85873c5f04c8fb94ad52e94afda", null ],
+    [ "PrepareSpellScript", "df/d70/a22959.html#ae483ea2ecc541f52f37456f6e9d4b380", null ],
+    [ "Register", "df/d70/a22959.html#a972574075c86c32593982add71dc893f", null ]
 ];

@@ -1,6 +1,8 @@
 var a28099 =
 [
-    [ "ID", "d8/d75/a28099.html#a7d40e334785d96a2e57d28f87a59778a", null ],
-    [ "maxCount", "d8/d75/a28099.html#a5edc6442e026b12dae654fa86440a11a", null ],
-    [ "mode", "d8/d75/a28099.html#a76553ecf9f880a5e5967f818123742fd", null ]
+    [ "Id", "d8/d75/a28099.html#a6943bf760d15b3f8af4109d131652d72", null ],
+    [ "MapId", "d8/d75/a28099.html#ab0cccd760636a3b42af693d6c483bed9", null ],
+    [ "X", "d8/d75/a28099.html#a91183890254546efeb3162173cc60dad", null ],
+    [ "Y", "d8/d75/a28099.html#a19ab4d026b45d74f006479641afbc4d3", null ],
+    [ "Z", "d8/d75/a28099.html#aaa23c59f20fc96aec148b82516f30036", null ]
 ];

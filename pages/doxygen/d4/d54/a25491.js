@@ -1,7 +1,6 @@
 var a25491 =
 [
-    [ "HandleScriptEffect", "d4/d54/a25491.html#a3ad488a1b6115bb1ec8cfe6717d3b4cf", null ],
-    [ "Load", "d4/d54/a25491.html#af89783564da25769be15e22291717f6a", null ],
-    [ "PrepareSpellScript", "d4/d54/a25491.html#a1e7e4137712fcaa378d1ac7ff1b0a6c7", null ],
-    [ "Register", "d4/d54/a25491.html#addbe722d9f3727578f817789e3010bab", null ]
+    [ "HandleDummy", "d4/d54/a25491.html#a7b56d07d46647a2790553d40e75da79d", null ],
+    [ "PrepareSpellScript", "d4/d54/a25491.html#aad36c108f4531c19ba552064ba0d3248", null ],
+    [ "Register", "d4/d54/a25491.html#a754fcf618f53b4b17c2bcae4740e561f", null ]
 ];

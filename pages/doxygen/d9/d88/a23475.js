@@ -1,8 +1,6 @@
 var a23475 =
 [
-    [ "boss_broggok", "d9/d88/a23475.html#ae20c04793116d3e8eab62d2ee27010df", null ],
-    [ "DoAction", "d9/d88/a23475.html#af5de5a1747c502f72af015c09d050354", null ],
-    [ "JustEngagedWith", "d9/d88/a23475.html#a084e3c37a0218d47c8e39b196fc6746a", null ],
-    [ "JustSummoned", "d9/d88/a23475.html#a0bf2d75f7889542a9e48689b8d080a1e", null ],
-    [ "Reset", "d9/d88/a23475.html#af11b4dc2aee8064a1eaad334d93e6de0", null ]
+    [ "instance_blood_furnace_InstanceMapScript", "df/d15/a23479.html", "df/d15/a23479" ],
+    [ "instance_blood_furnace", "d9/d88/a23475.html#a925a045fa518e72c1eff02fe3c66202b", null ],
+    [ "GetInstanceScript", "d9/d88/a23475.html#a885ba94e1777dfd6586daca304622d3d", null ]
 ];

@@ -1,10 +1,6 @@
 var a24287 =
 [
-    [ "npc_isla_starmaneAI", "df/d9c/a24287.html#a0cb655d324ddde173dcfdee069c0f694", null ],
-    [ "JustDied", "df/d9c/a24287.html#ac7132ac84a64bccbcf8895cbc4a86f9c", null ],
-    [ "JustEngagedWith", "df/d9c/a24287.html#ab40287c6bfc67b09bf7336ea53116cab", null ],
-    [ "JustRespawned", "df/d9c/a24287.html#a69b395a9b9504737109870c5e8db74c8", null ],
-    [ "UpdateEscortAI", "df/d9c/a24287.html#af4b8c80e7443bb671be253238b124910", null ],
-    [ "WaypointReached", "df/d9c/a24287.html#a5d00583afa4e811e4f3cb8400787a990", null ],
-    [ "events", "df/d9c/a24287.html#a53cfabbe7cf85ceb19286d67bb23f2ec", null ]
+    [ "npc_pet_dk_ghoulAI", "d6/d33/a24291.html", "d6/d33/a24291" ],
+    [ "npc_pet_dk_ghoul", "df/d9c/a24287.html#ac8af6ae753151a08e80d434a04ef58db", null ],
+    [ "GetAI", "df/d9c/a24287.html#a74b068bdccf5d9b25b4ef3bff0a193ef", null ]
 ];

@@ -1,8 +1,7 @@
 var a28255 =
 [
-    [ "Color", "d8/d71/a28255.html#a670fb4e2a31958f81d46047f74d9916f", null ],
-    [ "Comparator", "d8/d71/a28255.html#ace0bdad11edd9db12e45d374da623793", null ],
-    [ "CompareColor", "d8/d71/a28255.html#a801e2221bbb1b6aab67a57381901cf08", null ],
-    [ "ID", "d8/d71/a28255.html#aae73769db40326d298bb1d04eef38871", null ],
-    [ "Value", "d8/d71/a28255.html#ac314a9a6b447d386e31a286811f66538", null ]
+    [ "ClassMask", "d8/d71/a28255.html#acae4582c147b5fd95780ae7b55d36fdc", null ],
+    [ "petTalentMask", "d8/d71/a28255.html#a22ab1cf8ad05e57d91a63e3876ae2b77", null ],
+    [ "tabpage", "d8/d71/a28255.html#aa6389276582adeb4cae76c257734795c", null ],
+    [ "TalentTabID", "d8/d71/a28255.html#ae3a71c61223b59185365819164715dc2", null ]
 ];

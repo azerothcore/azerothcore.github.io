@@ -1,5 +1,7 @@
 var a25275 =
 [
-    [ "PrepareSpellScript", "de/da3/a25275.html#a5e100554f868649d4edea011fe767b8b", null ],
-    [ "Register", "de/da3/a25275.html#a0ffb1cb313060770227621edb16c3a0d", null ]
+    [ "OnRemove", "de/da3/a25275.html#ab6371347f0dc4ffc8bab6c75ca1cdf59", null ],
+    [ "PrepareAuraScript", "de/da3/a25275.html#ac2b1a2311f97ab427439b45fb0770063", null ],
+    [ "Register", "de/da3/a25275.html#a39e4914aa01769e14f61e2369ad8eda5", null ],
+    [ "Validate", "de/da3/a25275.html#a71e47e70fd18affe1bd563f68fcb2efe", null ]
 ];

@@ -1,7 +1,9 @@
 var a25355 =
 [
-    [ "HandleDummy", "db/d5f/a25355.html#a4b23e39151d0bced8bb729435a56352d", null ],
-    [ "Load", "db/d5f/a25355.html#aaa341815d71652a13f3ca449af6ac14f", null ],
-    [ "PrepareSpellScript", "db/d5f/a25355.html#ac0e7d279312a59dd62d7d91eb3ef82b7", null ],
-    [ "Register", "db/d5f/a25355.html#a19a2247cebd2af38a1bd30af213ad633", null ]
+    [ "CheckProc", "db/d5f/a25355.html#a073ed3648f5fd15db73d1620ba7031e3", null ],
+    [ "HandleProc", "db/d5f/a25355.html#a5345da73b9c4c9fe4ae5d272e3574955", null ],
+    [ "OnRemove", "db/d5f/a25355.html#a27b1b744d88b4c870c0baa0b8f88317f", null ],
+    [ "PrepareAuraScript", "db/d5f/a25355.html#a2e13f63459342fb749594f7fbb517c80", null ],
+    [ "Register", "db/d5f/a25355.html#a6fc9a3945a736ba4a62ad754090d8525", null ],
+    [ "Validate", "db/d5f/a25355.html#a008ec43da50deb568ec453e992f89887", null ]
 ];

@@ -1,6 +1,6 @@
 var a27167 =
 [
-    [ "go_l70_etc_musicAI", "d9/d8a/a27167.html#a1709414fc40d48ac7c13eb8251dfbb26", null ],
-    [ "UpdateAI", "d9/d8a/a27167.html#a182a5a9bbe53ced25740de9a4a368469", null ],
-    [ "_events", "d9/d8a/a27167.html#aa0cda672b4491b3cfc75214038aa2132", null ]
+    [ "go_darkmoon_faire_musicAI", "d1/de9/a27171.html", "d1/de9/a27171" ],
+    [ "go_darkmoon_faire_music", "d9/d8a/a27167.html#ab8dd92213e1c2815ff9498267b09b5f2", null ],
+    [ "GetAI", "d9/d8a/a27167.html#a03be3eddefe4eeba8a0af8ee02bf2839", null ]
 ];

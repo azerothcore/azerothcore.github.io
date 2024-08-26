@@ -1,6 +1,7 @@
 var a26327 =
 [
-    [ "HandleEffectApply", "dd/d8b/a26327.html#a111ce5c9e70ed563bc7b9c2ec8e79b76", null ],
-    [ "PrepareAuraScript", "dd/d8b/a26327.html#a707504eccf42af77f6e6e927d208bc8c", null ],
-    [ "Register", "dd/d8b/a26327.html#a7aeaa28997bbe966274a738cf45323ed", null ]
+    [ "HandleDummy", "dd/d8b/a26327.html#a1abe1e04be6b6c410e0ff273d8aa15c9", null ],
+    [ "Load", "dd/d8b/a26327.html#a249e9c3c74bcc20ea2c0d5ce63fbd88c", null ],
+    [ "PrepareSpellScript", "dd/d8b/a26327.html#aeffcc8db6125a35227545911fa03a850", null ],
+    [ "Register", "dd/d8b/a26327.html#a1de981482ebb05b8507b308dba7a426b", null ]
 ];

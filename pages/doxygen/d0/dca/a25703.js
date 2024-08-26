@@ -1,6 +1,7 @@
 var a25703 =
 [
-    [ "CalculateAmount", "d0/dca/a25703.html#a6faee23ed5947a904e58bfb38cf01d05", null ],
-    [ "PrepareAuraScript", "d0/dca/a25703.html#a5e7d089dd117b6b3a605ea2e8aea0b04", null ],
-    [ "Register", "d0/dca/a25703.html#a37e277143b2ae6cd88260776941b59bf", null ]
+    [ "Load", "d0/dca/a25703.html#a8be944ae201f4f8406948aff78f982d9", null ],
+    [ "OnDummyEffect", "d0/dca/a25703.html#adcb707400963e549a295e115d6f3583b", null ],
+    [ "PrepareSpellScript", "d0/dca/a25703.html#a5b2175a933df10d775bc3381f515aa96", null ],
+    [ "Register", "d0/dca/a25703.html#a6e41bf15401c540887dd321e4b2cc7d3", null ]
 ];

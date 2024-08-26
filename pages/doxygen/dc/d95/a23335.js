@@ -1,6 +1,5 @@
 var a23335 =
 [
-    [ "HandleAfterRemove", "dc/d95/a23335.html#a74610b06095572aa2c898cd84e0fb229", null ],
-    [ "PrepareAuraScript", "dc/d95/a23335.html#ac0d686490ff37810e0116dea4d0b6077", null ],
-    [ "Register", "dc/d95/a23335.html#aad72f4aaa19f92f7a71241311f5d0582", null ]
+    [ "at_underbog_ghazan", "dc/d95/a23335.html#aa6c74496bb30bf04e66ac3cd06110811", null ],
+    [ "_OnTrigger", "dc/d95/a23335.html#aff03fc0bbded7bf7fa68d0c736bfaff2", null ]
 ];

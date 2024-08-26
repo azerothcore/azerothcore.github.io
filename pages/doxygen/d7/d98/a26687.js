@@ -1,6 +1,7 @@
 var a26687 =
 [
-    [ "HandleAuraApply", "d7/d98/a26687.html#a0c17d42095cac3d4cf304df1fc83acbf", null ],
-    [ "PrepareAuraScript", "d7/d98/a26687.html#a6eedadacba366104fdca2791862be216", null ],
-    [ "Register", "d7/d98/a26687.html#a5869dc6372d479d85da1118d0c9ec8e6", null ]
+    [ "HandleScriptEffect", "d7/d98/a26687.html#a328c1ba6ccd98e25e477a3f784cb47ff", null ],
+    [ "PrepareSpellScript", "d7/d98/a26687.html#aa211032991d8fd11d574cb364533a515", null ],
+    [ "Register", "d7/d98/a26687.html#a13315f197f2e6975dca00b53cbc599d2", null ],
+    [ "Validate", "d7/d98/a26687.html#a3b752f07631223199ed7ac404ed1afed", null ]
 ];

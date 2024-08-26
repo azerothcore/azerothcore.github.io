@@ -1,14 +1,6 @@
 var a24119 =
 [
-    [ "npc_mature_netherwing_drakeAI", "d4/d75/a24119.html#a32281f8dfa1c8af8fe6bcac2a8be4220", null ],
-    [ "JustReachedHome", "d4/d75/a24119.html#a0de69b5fda6342217697ad264d64d4e6", null ],
-    [ "MovementInform", "d4/d75/a24119.html#a456b5de60672120f82506d177faf6b47", null ],
-    [ "Reset", "d4/d75/a24119.html#a72eb39e259aed0ab230d4d43722cba13", null ],
-    [ "SpellHit", "d4/d75/a24119.html#a749690b386c0c726d11b77bc705b9b01", null ],
-    [ "UpdateAI", "d4/d75/a24119.html#a624c256f29d3cefed0bb909da3841853", null ],
-    [ "bCanEat", "d4/d75/a24119.html#ad4c671be4f16f23ddf2f2f84b0bd4c94", null ],
-    [ "bIsEating", "d4/d75/a24119.html#a0519438fda724a06a0c6f8ed2d7d533d", null ],
-    [ "CastTimer", "d4/d75/a24119.html#a630312f70a2f22683311a66e5a4f9ec6", null ],
-    [ "EatTimer", "d4/d75/a24119.html#aa50d3a21103dc769d162b1c917100630", null ],
-    [ "uiPlayerGUID", "d4/d75/a24119.html#a6b9a435245ddce156d0657aa9e35175b", null ]
+    [ "npcs_flanis_swiftwing_and_kagrosh", "d4/d75/a24119.html#aa95eceea94521947bd443805c8ddb52d", null ],
+    [ "OnGossipHello", "d4/d75/a24119.html#a7f331c38ec82d2c69bce4b1f861527a0", null ],
+    [ "OnGossipSelect", "d4/d75/a24119.html#aff34165955ba93e1fcd2b9731894d871", null ]
 ];

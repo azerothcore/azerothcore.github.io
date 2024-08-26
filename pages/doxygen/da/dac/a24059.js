@@ -1,5 +1,6 @@
 var a24059 =
 [
-    [ "at_commander_dawnforge", "da/dac/a24059.html#a1dfd7eb69ae515a59887c313001e4a4e", null ],
-    [ "OnTrigger", "da/dac/a24059.html#acc78f4f2f9d892c02d62548e93f7f83b", null ]
+    [ "CheckCast", "da/dac/a24059.html#ae13cc2d3da1c9911c88402d05679d447", null ],
+    [ "PrepareSpellScript", "da/dac/a24059.html#afbed81273aa23d355c64579c71e9761d", null ],
+    [ "Register", "da/dac/a24059.html#a7157d04dfc534aa3cb88e8dff169c676", null ]
 ];

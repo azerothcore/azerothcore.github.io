@@ -1,7 +1,6 @@
 var a23919 =
 [
-    [ "OnPeriodic", "d0/dec/a23919.html#a7ef787ac13b97aa225a5340f7bfcc4e3", null ],
-    [ "PrepareAuraScript", "d0/dec/a23919.html#a6f7db06cc1ace68ee0076077773b1659", null ],
-    [ "Register", "d0/dec/a23919.html#a559347bedad9fd8a0e6f4c5b14333c06", null ],
-    [ "Validate", "d0/dec/a23919.html#aae1c2d5b8eb30341a67e261e69a4d294", null ]
+    [ "npc_simon_bunnyAI", "dd/de4/a23923.html", "dd/de4/a23923" ],
+    [ "npc_simon_bunny", "d0/dec/a23919.html#afd3f3a24450bc8b748c0ff5b05b10da1", null ],
+    [ "GetAI", "d0/dec/a23919.html#ac0c97609916321a1599c0722803a050f", null ]
 ];

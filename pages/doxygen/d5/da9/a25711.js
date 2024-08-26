@@ -1,8 +1,6 @@
 var a25711 =
 [
-    [ "CheckRequirement", "d5/da9/a25711.html#a3ed8450641baeee915fc5a129f9c7434", null ],
-    [ "HandleScript", "d5/da9/a25711.html#a92e3137bb92545876ca67028bcc86a4f", null ],
-    [ "Load", "d5/da9/a25711.html#a56326701447b3a88d9022ca1f1c184a6", null ],
-    [ "PrepareSpellScript", "d5/da9/a25711.html#a94d4155e98a4ac5764d8bfd705b05602", null ],
-    [ "Register", "d5/da9/a25711.html#a9b440dd8bf21b70d068021d05832a3fc", null ]
+    [ "HandleDummy", "d5/da9/a25711.html#ab146c4026bc8ad129bb3d421891d344b", null ],
+    [ "PrepareSpellScript", "d5/da9/a25711.html#aa9743f357b9800ab2990fb584011b0a6", null ],
+    [ "Register", "d5/da9/a25711.html#a3ca7b1dd1187fd39e362b3451b246a4c", null ]
 ];

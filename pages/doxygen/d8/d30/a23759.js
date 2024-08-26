@@ -1,11 +1,11 @@
 var a23759 =
 [
-    [ "boss_high_astromancer_solarian", "d8/d30/a23759.html#a2db48cc179539f81b55188de08a7e180", null ],
-    [ "AttackStart", "d8/d30/a23759.html#acaf94134aef553447e766a5e431c8b83", null ],
-    [ "JustDied", "d8/d30/a23759.html#a510eb2e4f0770670d6767bc2545375b7", null ],
-    [ "JustEngagedWith", "d8/d30/a23759.html#a86cd2162187f1a81932000ca1cfb7f85", null ],
-    [ "JustSummoned", "d8/d30/a23759.html#ac5b209a45a5a3ea2a8421706d181a827", null ],
-    [ "KilledUnit", "d8/d30/a23759.html#a561a78193615575b7e43e0f21387f1b8", null ],
-    [ "Reset", "d8/d30/a23759.html#a58cbb2c8a6c30855a0f9f2275338c1b5", null ],
-    [ "UpdateAI", "d8/d30/a23759.html#a07a76c34a978c31212390cf10ed3e382", null ]
+    [ "npc_capernian", "d8/d30/a23759.html#a0acb568664c777797eeb7104f454699d", null ],
+    [ "AttackStart", "d8/d30/a23759.html#a81e89eacbae30a1229fda5e9fe924e2b", null ],
+    [ "JustDied", "d8/d30/a23759.html#acf4b5b8e6c10cb87435723705f551c6f", null ],
+    [ "JustEngagedWith", "d8/d30/a23759.html#ae2d07a3e4031a831248b84e8b36f6972", null ],
+    [ "Reset", "d8/d30/a23759.html#ad9b91c94833a899ff33f81de2187b6ad", null ],
+    [ "UpdateAI", "d8/d30/a23759.html#a7e9116c766fa828c9bd5d0b2118e8fa1", null ],
+    [ "_hasDied", "d8/d30/a23759.html#a05976816642fad6c31a1ffe9066e5606", null ],
+    [ "_instance", "d8/d30/a23759.html#a307f6f388f96df3fb0311737f8e7ce96", null ]
 ];

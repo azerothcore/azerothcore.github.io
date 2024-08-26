@@ -1,13 +1,9 @@
 var a28531 =
 [
-    [ "MPQArchive", "d6/d42/a28531.html#a58d57322334966ca16a22e52e5198d9f", null ],
-    [ "~MPQArchive", "d6/d42/a28531.html#a5bce22525ca16381fbb4729540a165e2", null ],
-    [ "MPQArchive", "d6/d42/a28531.html#a58d57322334966ca16a22e52e5198d9f", null ],
-    [ "~MPQArchive", "d6/d42/a28531.html#a5bce22525ca16381fbb4729540a165e2", null ],
-    [ "close", "d6/d42/a28531.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
-    [ "close", "d6/d42/a28531.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
-    [ "GetFileListTo", "d6/d42/a28531.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
-    [ "GetFileListTo", "d6/d42/a28531.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
-    [ "isOpened", "d6/d42/a28531.html#a2026335b9ede29197acfaac8513456d5", null ],
-    [ "mpq_a", "d6/d42/a28531.html#a72b9fb96b1e3db6c7be652e426978b4a", null ]
+    [ "adtData", "d6/d88/a28539.html", "d6/d88/a28539" ],
+    [ "prepareLoadedData", "d6/d42/a28531.html#a6b755c9e341918d05105d993391429c6", null ],
+    [ "adt_list", "d6/d42/a28531.html#abe28c39e8856412c4fb182baab3218f0", null ],
+    [ "fcc", "d6/d42/a28531.html#ac8ee92a1747e31385cbfadaea16c267f", null ],
+    [ "fcc_txt", "d6/d42/a28531.html#a0657c323732de8d83b9c360c1dd03b61", null ],
+    [ "size", "d6/d42/a28531.html#a797c02773dd470a318474c7ef033ba7c", null ]
 ];

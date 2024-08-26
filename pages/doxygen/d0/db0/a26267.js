@@ -1,13 +1,7 @@
 var a26267 =
 [
-    [ "spell_generic_quest_update_entry_SpellScript", "d0/db0/a26267.html#ac4308aa1d8701e79888046e1c19137a7", null ],
-    [ "HandleDummy", "d0/db0/a26267.html#a891c357279ecee2e7fce323761607285", null ],
-    [ "PrepareSpellScript", "d0/db0/a26267.html#a3bf2605d8aa31e694b479f0de9f1703e", null ],
-    [ "Register", "d0/db0/a26267.html#af04e51cff5344f1acef7607080501736", null ],
-    [ "_despawnTime", "d0/db0/a26267.html#a0495a98565cd8292c252745956206743", null ],
-    [ "_effIndex", "d0/db0/a26267.html#a46dd459dc324dfea871c93a0b3b5d8f1", null ],
-    [ "_newEntry", "d0/db0/a26267.html#ad76d907c9200985e9aa1e2c5006d0c46", null ],
-    [ "_originalEntry", "d0/db0/a26267.html#ad7d8ddda30c4b9f322ddaee8b014c233", null ],
-    [ "_shouldAttack", "d0/db0/a26267.html#acf0c48dd134c5e8bb207983e8f520f22", null ],
-    [ "_spellEffect", "d0/db0/a26267.html#af02e04bbac8a4ad1d84c72b7f337249e", null ]
+    [ "HandleDummy", "d0/db0/a26267.html#a123ddc812fb358b7517eba60d1f90eba", null ],
+    [ "Load", "d0/db0/a26267.html#a64ca188f58b4f34827f03ae2878deef0", null ],
+    [ "PrepareSpellScript", "d0/db0/a26267.html#a7068dd9e6f7838d9ad7023c2d61482cc", null ],
+    [ "Register", "d0/db0/a26267.html#aff7ea1c5c569022ece56ecdb3f434723", null ]
 ];

@@ -1,6 +1,6 @@
 var a22911 =
 [
-    [ "HandleDummy", "d5/d7c/a22911.html#a85cbe85873c5f04c8fb94ad52e94afda", null ],
-    [ "PrepareSpellScript", "d5/d7c/a22911.html#ae483ea2ecc541f52f37456f6e9d4b380", null ],
-    [ "Register", "d5/d7c/a22911.html#a972574075c86c32593982add71dc893f", null ]
+    [ "PrepareSpellScript", "d5/d7c/a22911.html#ad786920d6180b8e2829f3a56ec50c488", null ],
+    [ "Register", "d5/d7c/a22911.html#a857be9f0017e0013f3e30e1d026eaf5a", null ],
+    [ "SetDest", "d5/d7c/a22911.html#a0ea9f9513ad607f639b28d5f8162e629", null ]
 ];

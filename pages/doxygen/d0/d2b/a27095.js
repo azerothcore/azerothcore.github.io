@@ -1,5 +1,5 @@
 var a27095 =
 [
-    [ "go_noblegarden_colored_egg", "d0/d2b/a27095.html#a7e85d492a6c9f4e50a2c47d6e6dae535", null ],
-    [ "OnGossipHello", "d0/d2b/a27095.html#ab3d349dfa5b4c0f58ed70f80cd084029", null ]
+    [ "go_arena_ready_marker", "d0/d2b/a27095.html#a614ee8efff31d928a9f4547d60b6a6a6", null ],
+    [ "OnGossipHello", "d0/d2b/a27095.html#a9f51ead2b56d51427ff23be9688388d8", null ]
 ];

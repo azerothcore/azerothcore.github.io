@@ -1,7 +1,9 @@
 var a26123 =
 [
-    [ "CalculateAmount", "df/d72/a26123.html#a5d4549ac73b46382c1beddbb65257ad0", null ],
-    [ "HandleUpdateSpellclick", "df/d72/a26123.html#a89956d7f3a6404d5b60e46034867c82c", null ],
-    [ "PrepareAuraScript", "df/d72/a26123.html#a7cbdc79c63306a8fcfcc06180998a290", null ],
-    [ "Register", "df/d72/a26123.html#a2252719e6ea995b85b7b0c5ecb6a26d3", null ]
+    [ "CheckCast", "df/d72/a26123.html#ad6b60c449d57503508c9a94ca6e919f9", null ],
+    [ "HandleDummy", "df/d72/a26123.html#a7f79495525687fba6229f48935b2558a", null ],
+    [ "Load", "df/d72/a26123.html#a0c73457e44a3d64bdccee78d28893672", null ],
+    [ "PrepareSpellScript", "df/d72/a26123.html#a4826d7b257ee05bfe0d6db3d30a924e9", null ],
+    [ "Register", "df/d72/a26123.html#ab9f09394ab301350a2abaefde90632fe", null ],
+    [ "Validate", "df/d72/a26123.html#a9b9d5f862e9910f1a12780ff54b067ca", null ]
 ];

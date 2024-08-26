@@ -1,10 +1,12 @@
 var a27371 =
 [
-    [ "npc_prof_tailor", "d8/dce/a27371.html#a481157e49fb1c09f62a3cb9de85c9da1", null ],
-    [ "HasTailorSpell", "d8/dce/a27371.html#a188c0ac66b1972bccd031aca26f7fecd", null ],
-    [ "OnGossipHello", "d8/dce/a27371.html#a686098ac43916ea2f82b7c321527863d", null ],
-    [ "OnGossipSelect", "d8/dce/a27371.html#a03545eaacf3bae0d407e0e20c32740dc", null ],
-    [ "SendActionMenu", "d8/dce/a27371.html#a03ced7d6541535097a5e4e3bd9f415f2", null ],
-    [ "SendConfirmLearn", "d8/dce/a27371.html#a93a8692cb2c0b30ee752ae3ecd5561e5", null ],
-    [ "SendConfirmUnlearn", "d8/dce/a27371.html#ada0be1dc79f72b7b033191c8e17a8baf", null ]
+    [ "npc_preciousAI", "d8/dce/a27371.html#ade66f3aa2ff9ac85c99a9d31591fcabf", null ],
+    [ "FlagForDespawn", "d8/dce/a27371.html#a934a5147c1cc9937189011fb061657da", null ],
+    [ "InitializeAI", "d8/dce/a27371.html#aa15843c4029f2df2ee04d21b5157602a", null ],
+    [ "JustEngagedWith", "d8/dce/a27371.html#a58bc4149111605850f070a77ee776313", null ],
+    [ "JustReachedHome", "d8/dce/a27371.html#a31893e9441b24398554370a58ef8bd78", null ],
+    [ "Reset", "d8/dce/a27371.html#aa1c39ce0110827d35ae2d5ea794e1744", null ],
+    [ "UpdateAI", "d8/dce/a27371.html#a2f3428807957bd60fdbe6f694bb6d3ef", null ],
+    [ "events", "d8/dce/a27371.html#a69a20e759b1bcb631cef0bf1e4dd8a1b", null ],
+    [ "flaggedForDespawn", "d8/dce/a27371.html#a48e891f8afce9408ed38c51a0e2d4005", null ]
 ];

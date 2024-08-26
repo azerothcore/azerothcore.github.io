@@ -1,5 +1,6 @@
 var a24147 =
 [
-    [ "creature", "d6/d2b/a24147.html#ab4b8f837dbfb42bcbb161f81f846aad9", null ],
-    [ "Timer", "d6/d2b/a24147.html#a2be497dc190c1f01f939e12083739882", null ]
+    [ "npc_lord_illidan_stormrageAI", "de/d91/a24151.html", "de/d91/a24151" ],
+    [ "npc_lord_illidan_stormrage", "d6/d2b/a24147.html#ad2f213749e170ec4f9903396d132f5f3", null ],
+    [ "GetAI", "d6/d2b/a24147.html#a9aaedc4326b90621965dad522f4af897", null ]
 ];

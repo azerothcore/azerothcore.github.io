@@ -1,7 +1,7 @@
 var a28351 =
 [
-    [ "~ByteBufferException", "dc/df3/a28351.html#a0ab73f9061c040127f70dbfc9a176509", null ],
-    [ "message", "dc/df3/a28351.html#ab1a64d8fc18565a04c347de29184f68c", null ],
-    [ "what", "dc/df3/a28351.html#a87896f7ab19f3032937f5f84e8cf440a", null ],
-    [ "msg_", "dc/df3/a28351.html#a314bdbb7063219f8256df894602e6b02", null ]
+    [ "RealmHandle", "dc/df3/a28351.html#a120fb45f2301188a843ab2e712f768e4", null ],
+    [ "RealmHandle", "dc/df3/a28351.html#ac3e04e9790e1ae75b9701f1a84b9f6e2", null ],
+    [ "operator<", "dc/df3/a28351.html#ad414bab23a3ecfb3cabb146d5f43bf3e", null ],
+    [ "Realm", "dc/df3/a28351.html#a31af0d9064a295b1579fce3c80217bfd", null ]
 ];

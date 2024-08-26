@@ -1,6 +1,6 @@
 var a24247 =
 [
-    [ "PrepareSpellScript", "d0/dac/a24247.html#aba1979c98f7d0e162cb7aee36c57f568", null ],
-    [ "Register", "d0/dac/a24247.html#a07f75e1ad374118ab0195dd1a17376ed", null ],
-    [ "SetDest", "d0/dac/a24247.html#a23afed27143ca0b8e4cdc477d47ab6e0", null ]
+    [ "PrepareSpellScript", "d0/dac/a24247.html#a190f6dc3d9b336324da29f627a743fe9", null ],
+    [ "Register", "d0/dac/a24247.html#a3afc8035b852bc31abd3228e88d59819", null ],
+    [ "SetDest", "d0/dac/a24247.html#a85d66a58597954501305ad5b674cc8a2", null ]
 ];

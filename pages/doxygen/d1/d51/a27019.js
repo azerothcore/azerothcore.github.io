@@ -1,6 +1,9 @@
 var a27019 =
 [
-    [ "AreaTrigger_at_area_52_entrance", "d1/d51/a27019.html#a5b7e21903bca1c04bad1394c6965d032", null ],
-    [ "OnTrigger", "d1/d51/a27019.html#a1e537d133ee5e6ad1dbb0c732e23a128", null ],
-    [ "_triggerTimes", "d1/d51/a27019.html#a6c3225f46ea71d06b81b25d5fb6e8f25", null ]
+    [ "boss_ysondreAI", "d1/d51/a27019.html#a7c5c6a9484aa035a5bda6a6d4a4cc0bc", null ],
+    [ "DamageTaken", "d1/d51/a27019.html#a99ee250e776001bb142815fc711ae75d", null ],
+    [ "ExecuteEvent", "d1/d51/a27019.html#a88e3caa536a71730c757590be1bd3de1", null ],
+    [ "JustEngagedWith", "d1/d51/a27019.html#af96597cf06d2ed71f85c7b4055793dcf", null ],
+    [ "Reset", "d1/d51/a27019.html#ac2ea95a5f8c032d7d9166d92bce51ba1", null ],
+    [ "_stage", "d1/d51/a27019.html#a5c96faa6b5e6cc350e9c53f34fe17eb1", null ]
 ];

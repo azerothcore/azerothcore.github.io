@@ -1,18 +1,10 @@
 var a24055 =
 [
-    [ "npc_commander_dawnforgeAI", "dd/d11/a24055.html#a70ff1a69374b62bf6aadf1bfabe8bdb3", null ],
-    [ "CanStartEvent", "dd/d11/a24055.html#afb3eb981fe7e7cdcd0caca8f7d7c14f9", null ],
-    [ "JustEngagedWith", "dd/d11/a24055.html#affa24c62af088b4b216aaa4789f6a40e", null ],
-    [ "JustSummoned", "dd/d11/a24055.html#a76bfbed03ad9f83b953da5f53aa45b73", null ],
-    [ "Reset", "dd/d11/a24055.html#af57a218b98606c273ee3eba5d661d5d1", null ],
-    [ "Turn_to_eachother", "dd/d11/a24055.html#a7442d526cc09f98a3cd53749e09fb6f0", null ],
-    [ "Turn_to_Pathaleons_Image", "dd/d11/a24055.html#a88cca74225a0099c85bb661c7f2ad382", null ],
-    [ "UpdateAI", "dd/d11/a24055.html#ae4ca305e3067cbdb2771d6a9e858f191", null ],
-    [ "ardonisGUID", "dd/d11/a24055.html#ad0f1b869b85c8a94e84be5714a191cab", null ],
-    [ "isEvent", "dd/d11/a24055.html#a93cf7cfcf3197543c3878278d99ff980", null ],
-    [ "pathaleonGUID", "dd/d11/a24055.html#a9b20a0ad46dc0be2fe1a65072eb3477a", null ],
-    [ "Phase", "dd/d11/a24055.html#a1a440773676ab7e2cd416eba70c90d74", null ],
-    [ "Phase_Timer", "dd/d11/a24055.html#a798cf4bf43df377f764dac07c13bc676", null ],
-    [ "PhaseSubphase", "dd/d11/a24055.html#ae8f5216936ce3a3b5aa9d5b773521523", null ],
-    [ "PlayerGUID", "dd/d11/a24055.html#ab6c0afdc952c048efeea9d665075c54f", null ]
+    [ "npc_maxx_a_million_escortAI", "dd/d11/a24055.html#ab827933527ed7b4a04b162034876ced8", null ],
+    [ "JustDied", "dd/d11/a24055.html#a2106ab4d32d0f221f62eeffd93f71380", null ],
+    [ "Reset", "dd/d11/a24055.html#a6b9b2ed76e26f908ff2272ad8744a59e", null ],
+    [ "UpdateAI", "dd/d11/a24055.html#a3b022feb2303875d32ad981e84f66854", null ],
+    [ "WaypointReached", "dd/d11/a24055.html#acd6f45abb93f3f043cd85647405a50f6", null ],
+    [ "bTake", "dd/d11/a24055.html#ac697fc6cbc20c7f316845ed26436049b", null ],
+    [ "uiTakeTimer", "dd/d11/a24055.html#a5d4826dcf893f444a42dedba57460110", null ]
 ];

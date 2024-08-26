@@ -1,8 +1,8 @@
 var a24539 =
 [
-    [ "CheckCast", "d1/d2d/a24539.html#a94851a2b6a62138e28466317e9e88480", null ],
-    [ "HandleDummy", "d1/d2d/a24539.html#a970684d219c99519512c437a8efd8d43", null ],
-    [ "PrepareSpellScript", "d1/d2d/a24539.html#a39b726e6c5809a6f8100970e8b71fc71", null ],
-    [ "Register", "d1/d2d/a24539.html#a7acf718f0a1109d384fd2b9dd23ca62c", null ],
-    [ "Validate", "d1/d2d/a24539.html#a59cca008a97447e257bf24071301b366", null ]
+    [ "HandleDamage", "d1/d2d/a24539.html#a2c5149eb0b6698240c25b63e71af0854", null ],
+    [ "PrepareSpellScript", "d1/d2d/a24539.html#a8a19b594de9ba23a59e22db7d05eb60d", null ],
+    [ "Register", "d1/d2d/a24539.html#ad29179d9159700b52b0c21a779cd060b", null ],
+    [ "Suicide", "d1/d2d/a24539.html#a981f8547eae9b317111bf9a7016510ab", null ],
+    [ "Validate", "d1/d2d/a24539.html#aa2c3399146b15f754e073e4fa08f3d5a", null ]
 ];

@@ -1,7 +1,6 @@
 var a24087 =
 [
-    [ "CheckRequirement", "d9/dc5/a24087.html#a4ad521364c6156c0ecef818a23ce7aff", null ],
-    [ "PrepareSpellScript", "d9/dc5/a24087.html#a0d995c6ae6d1da0014c053a62b37a7b7", null ],
-    [ "Register", "d9/dc5/a24087.html#a25f275e84570f674071bfae03aeb0ddc", null ],
-    [ "Validate", "d9/dc5/a24087.html#adc648151e2c61a61a0dc5883d9fa4ae0", null ]
+    [ "npc_infernal_attackerAI", "dd/d40/a24091.html", "dd/d40/a24091" ],
+    [ "npc_infernal_attacker", "d9/dc5/a24087.html#ac6fbfcf8fc918b48d6b9416a71cfe3fa", null ],
+    [ "GetAI", "d9/dc5/a24087.html#ad1d9186c186de36efbe102a07fe89de4", null ]
 ];

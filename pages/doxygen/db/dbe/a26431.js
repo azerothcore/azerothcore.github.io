@@ -1,6 +1,6 @@
 var a26431 =
 [
-    [ "ModDest", "db/dbe/a26431.html#ab03387aec0a02a6b3bac1014443554b6", null ],
-    [ "PrepareSpellScript", "db/dbe/a26431.html#a53f7da301759fb18686bc73281c4a321", null ],
-    [ "Register", "db/dbe/a26431.html#a266198fbc6203517f9845ef6212ddf13", null ]
+    [ "HandleScript", "db/dbe/a26431.html#acde0ae837d0cd3af0f38481027200291", null ],
+    [ "PrepareSpellScript", "db/dbe/a26431.html#ac1237e0af7f88f75ebc551af52fc301c", null ],
+    [ "Register", "db/dbe/a26431.html#a2dc2628984358628afe7d9b62ced7794", null ]
 ];

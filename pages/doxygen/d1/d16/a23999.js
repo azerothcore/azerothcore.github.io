@@ -1,9 +1,14 @@
 var a23999 =
 [
-    [ "npc_fel_guard_houndAI", "d1/d16/a23999.html#af8b3a9b56e4bdf8d8b654ecccd096651", null ],
-    [ "MovementInform", "d1/d16/a23999.html#a127a0d7b61fde64c0ced52192f438f12", null ],
-    [ "Reset", "d1/d16/a23999.html#ab979c3602897b1148ffd5d4a81941197", null ],
-    [ "UpdateAI", "d1/d16/a23999.html#a97a59eec672d7dfe36264d34b922d0c8", null ],
-    [ "checkTimer", "d1/d16/a23999.html#ad22bb6efafb4396cd0137c1384240029", null ],
-    [ "helboarGUID", "d1/d16/a23999.html#aadcf9b51dbcaa1e62b6619b89d865814", null ]
+    [ "npc_maghar_captiveAI", "d1/d16/a23999.html#abab2cfe84f4bb83fea3b35202a957bb5", null ],
+    [ "JustDied", "d1/d16/a23999.html#adbef78d8c908bfbce6ea506c55fb6922", null ],
+    [ "JustEngagedWith", "d1/d16/a23999.html#a2a0ec4a496c7352ba88ceef99eb769e4", null ],
+    [ "JustSummoned", "d1/d16/a23999.html#afe55f91acd8c47a758b8d08bd07d763f", null ],
+    [ "Reset", "d1/d16/a23999.html#abebcdcb102f8d338ae0b792708940cd7", null ],
+    [ "SpellHitTarget", "d1/d16/a23999.html#ab4f4deaae35fdbd602c9925f26e6d0e7", null ],
+    [ "UpdateAI", "d1/d16/a23999.html#a295cbae9196e320fabbb4cfb9dc33150", null ],
+    [ "WaypointReached", "d1/d16/a23999.html#abfbba8942df57e974ab24ad693c16e70", null ],
+    [ "ChainLightningTimer", "d1/d16/a23999.html#aa00a6978074f62d3d8ddead64d3240cf", null ],
+    [ "FrostShockTimer", "d1/d16/a23999.html#a2e4a5ef509e7f7ec33b1e83c90d2c80f", null ],
+    [ "HealTimer", "d1/d16/a23999.html#a31613adba706f3b5f948f2f7c4222038", null ]
 ];

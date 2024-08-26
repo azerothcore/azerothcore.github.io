@@ -1,6 +1,6 @@
 var a25519 =
 [
-    [ "OnRemove", "df/dc1/a25519.html#adcdc87bcfb9aee5eaa227ba66ad5f010", null ],
-    [ "PrepareAuraScript", "df/dc1/a25519.html#a9b3985c6f2b1b88ab86ec38c8508fc16", null ],
-    [ "Register", "df/dc1/a25519.html#a0bc1dae33d0a780623f4551b1dfb1fbf", null ]
+    [ "HandleProc", "df/dc1/a25519.html#a9a38fab6b581e9f9b4e092d7a4ecaebd", null ],
+    [ "PrepareAuraScript", "df/dc1/a25519.html#a5299aaeacead013e00e81ec7960528f8", null ],
+    [ "Register", "df/dc1/a25519.html#a3b46c5dd891d856e08cbcb9a494f2dd2", null ]
 ];

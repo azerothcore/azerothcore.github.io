@@ -1,5 +1,5 @@
 var a23403 =
 [
-    [ "instance_the_underbog_InstanceMapScript", "d3/d34/a23403.html#ae7668c7c4432b74caa3ea46a7c7364e3", null ],
-    [ "Initialize", "d3/d34/a23403.html#a9c7c10020eef3db4794283c0f946d086", null ]
+    [ "npc_invisible_tractor_beam_source", "d3/d34/a23403.html#a78f8adbc578ec005ae3f764e55895dc4", null ],
+    [ "IsSummonedBy", "d3/d34/a23403.html#a4a47cd459013a783bb1cf47b6d670fce", null ]
 ];

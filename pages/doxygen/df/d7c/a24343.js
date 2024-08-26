@@ -1,9 +1,8 @@
 var a24343 =
 [
-    [ "npc_pet_gen_soul_trader_beacon", "df/d7c/a24343.html#a58ef19b8c08aee764bdd55e480d9d750", null ],
-    [ "GetOwner", "df/d7c/a24343.html#a72bfd4cf6c734d1f1070a1560131667d", null ],
-    [ "SpellHitTarget", "df/d7c/a24343.html#a6c0d3181b913c5022325f66586f66bfa", null ],
-    [ "UpdateAI", "df/d7c/a24343.html#a18c06958e6b3d4306a6fdb5f9924d7ff", null ],
-    [ "events", "df/d7c/a24343.html#ae0a6d4850a0a0da4bd04227b11bae9e4", null ],
-    [ "ownerGUID", "df/d7c/a24343.html#a3a42e83216c0111a740a0c89e57c6f62", null ]
+    [ "npc_pet_gen_valkyr_guardian", "df/d7c/a24343.html#a546f0b0b4273de8216e9f688c2d68209", null ],
+    [ "InitializeAI", "df/d7c/a24343.html#ac32c8bb1e1014015a0ab92417bbc78a9", null ],
+    [ "OwnerAttacked", "df/d7c/a24343.html#a7f0bcedd78d88cdc802ba66c0ff7d927", null ],
+    [ "UpdateAI", "df/d7c/a24343.html#a9a5a233763365c6cca5618459a23a816", null ],
+    [ "targetCheck", "df/d7c/a24343.html#aa530b6b6415c85cd76f44d625329c2fb", null ]
 ];

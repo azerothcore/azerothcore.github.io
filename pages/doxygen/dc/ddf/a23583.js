@@ -1,5 +1,6 @@
 var a23583 =
 [
-    [ "spellId", "dc/ddf/a23583.html#acc63d01d5095adef28b9746c520be973", null ],
-    [ "textId", "dc/ddf/a23583.html#a5b366c702c1cda6ea10ad0b58935f97c", null ]
+    [ "boss_porung", "dc/ddf/a23583.html#acef31010461bbf716ac9b13d950807ee", null ],
+    [ "JustDied", "dc/ddf/a23583.html#ac5c36f875692f49d1d0195694d85e5c1", null ],
+    [ "JustEngagedWith", "dc/ddf/a23583.html#a9d44f51e4710e01bdc7d345ff3bba9dc", null ]
 ];

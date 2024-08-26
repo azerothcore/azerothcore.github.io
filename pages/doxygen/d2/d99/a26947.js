@@ -1,5 +1,5 @@
 var a26947 =
 [
-    [ "achievement_bg_av_perfection", "d2/d99/a26947.html#a8a0ef996bdb1244026268922b301184c", null ],
-    [ "OnCheck", "d2/d99/a26947.html#a17e700c17b5144b571f2aeed92a77749", null ]
+    [ "achievement_flirt_with_disaster_perf_check", "d2/d99/a26947.html#a8cb843ed26248ceff594ef552b0ae9ae", null ],
+    [ "OnCheck", "d2/d99/a26947.html#a15e620be2f37f930477ba94293dbaf63", null ]
 ];

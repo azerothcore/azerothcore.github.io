@@ -1,16 +1,13 @@
 var a28511 =
 [
-    [ "Iterator", "d4/d32/a28511.html#a682fe042bcd4ceb6c25dd7b4a3acbcc1", null ],
-    [ "Iterator", "d4/d32/a28511.html#a682fe042bcd4ceb6c25dd7b4a3acbcc1", null ],
-    [ "operator!=", "d4/d32/a28511.html#a7c0a38cbd02823479f349bb109a7ccf8", null ],
-    [ "operator!=", "d4/d32/a28511.html#a7c0a38cbd02823479f349bb109a7ccf8", null ],
-    [ "operator*", "d4/d32/a28511.html#a7b3de0d9987b834eaf6e909dd22f2528", null ],
-    [ "operator*", "d4/d32/a28511.html#a7b3de0d9987b834eaf6e909dd22f2528", null ],
-    [ "operator++", "d4/d32/a28511.html#af7dc5aae457d264ebe4aa42f5b700589", null ],
-    [ "operator++", "d4/d32/a28511.html#af7dc5aae457d264ebe4aa42f5b700589", null ],
-    [ "operator->", "d4/d32/a28511.html#ac57afe01d1ce6c611ca832f10f5d52fd", null ],
-    [ "operator->", "d4/d32/a28511.html#ac57afe01d1ce6c611ca832f10f5d52fd", null ],
-    [ "operator==", "d4/d32/a28511.html#a2d9cf3e798a1fcce3682c186952290df", null ],
-    [ "operator==", "d4/d32/a28511.html#a2d9cf3e798a1fcce3682c186952290df", null ],
-    [ "record", "d4/d32/a28511.html#a948512c44e53dfa177b85f82e9fd6160", null ]
+    [ "MPQArchive", "d4/d32/a28511.html#a58d57322334966ca16a22e52e5198d9f", null ],
+    [ "~MPQArchive", "d4/d32/a28511.html#a5bce22525ca16381fbb4729540a165e2", null ],
+    [ "MPQArchive", "d4/d32/a28511.html#a58d57322334966ca16a22e52e5198d9f", null ],
+    [ "~MPQArchive", "d4/d32/a28511.html#a5bce22525ca16381fbb4729540a165e2", null ],
+    [ "close", "d4/d32/a28511.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
+    [ "close", "d4/d32/a28511.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
+    [ "GetFileListTo", "d4/d32/a28511.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
+    [ "GetFileListTo", "d4/d32/a28511.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
+    [ "isOpened", "d4/d32/a28511.html#a2026335b9ede29197acfaac8513456d5", null ],
+    [ "mpq_a", "d4/d32/a28511.html#a72b9fb96b1e3db6c7be652e426978b4a", null ]
 ];

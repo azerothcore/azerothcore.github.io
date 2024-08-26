@@ -1,8 +1,9 @@
 var a24783 =
 [
-    [ "HandleSchoolDMG", "d6/dbf/a24783.html#ab273304fdbeea8768622c3e6b222aaf2", null ],
-    [ "HandleScriptEffect", "d6/dbf/a24783.html#a06f9cf29387b49f3e5950661173c77eb", null ],
-    [ "PrepareSpellScript", "d6/dbf/a24783.html#ac1a2b89eda37ed4e6c5946a93e7a58a2", null ],
-    [ "Register", "d6/dbf/a24783.html#a9bdbf7578509976d482a26869e9068aa", null ],
-    [ "Validate", "d6/dbf/a24783.html#a20a7b3a25711a90ab5f0e14991112ea0", null ]
+    [ "CalcPeriodic", "d6/dbf/a24783.html#aa9c665ddbeda7fba9a2b2997d07117a9", null ],
+    [ "HandleEffectRemove", "d6/dbf/a24783.html#a22a00dbf84f79834025e185d44576f56", null ],
+    [ "PrepareAuraScript", "d6/dbf/a24783.html#ab053740be4068371076c75cd451bbc55", null ],
+    [ "Register", "d6/dbf/a24783.html#a04efbc64bfa0312bc1f372e403803c32", null ],
+    [ "Update", "d6/dbf/a24783.html#aa463442b994b6275b2e12fe06ae7805c", null ],
+    [ "AuraEffectHandleModes", "d6/dbf/a24783.html#a21fc503ff924b8789f9409692e08f997", null ]
 ];

@@ -1,6 +1,5 @@
 var a24315 =
 [
-    [ "npc_pet_dk_risen_allyAI", "d7/d8a/a24319.html", "d7/d8a/a24319" ],
-    [ "npc_pet_dk_risen_ally", "d4/d64/a24315.html#a2f568fd9062b2423edcf0ab4e749efc3", null ],
-    [ "GetAI", "d4/d64/a24315.html#a7aca5d410a1a28241943914a0d1c71df", null ]
+    [ "npc_pet_dk_dancing_rune_weaponAI", "d4/d64/a24315.html#a6d57990a8ff05cc74356b0ed4d7d39b6", null ],
+    [ "InitializeAI", "d4/d64/a24315.html#a620ebac7c7cd5f81af47ea2e35de128c", null ]
 ];

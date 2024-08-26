@@ -1,6 +1,8 @@
 var a25987 =
 [
-    [ "FilterTargets", "da/d23/a25987.html#aad5d183d0d7ea229cbfc11f751536624", null ],
-    [ "PrepareSpellScript", "da/d23/a25987.html#a68ba19142ae6eb04a2547495233700df", null ],
-    [ "Register", "da/d23/a25987.html#a22c313409438f94d29ab3e236a56c115", null ]
+    [ "HandleApply", "da/d23/a25987.html#aafdf3712f163919f010d11d0becb398f", null ],
+    [ "HandleRemove", "da/d23/a25987.html#ac3e33cb37d13b633f3938a48917a4975", null ],
+    [ "PrepareAuraScript", "da/d23/a25987.html#a42590a0ef43a48c5309f995f9bec5c9b", null ],
+    [ "Register", "da/d23/a25987.html#a84e7337494dc2e1772ca10dea26c675f", null ],
+    [ "Validate", "da/d23/a25987.html#ac2558aafb3ce66ca7bbfd718eb8c6338", null ]
 ];

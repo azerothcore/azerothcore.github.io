@@ -1,6 +1,6 @@
 var a25667 =
 [
-    [ "HandleScript", "da/db8/a25667.html#a382dd0eb5ebc2f5da70561eaaf1f8d3d", null ],
-    [ "PrepareSpellScript", "da/db8/a25667.html#a4f0f4d29231ef1976d726b66f6277ca8", null ],
-    [ "Register", "da/db8/a25667.html#ad75843039e582b64da28b4818f48aeb3", null ]
+    [ "HandleProc", "da/db8/a25667.html#aa333d52d905e722554d8d61c4b9cb656", null ],
+    [ "PrepareAuraScript", "da/db8/a25667.html#aac4320b061d627e4ffef737d2e858ef3", null ],
+    [ "Register", "da/db8/a25667.html#ad58fea9afa6a3596437a324ec525982e", null ]
 ];

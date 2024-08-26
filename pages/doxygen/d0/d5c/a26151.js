@@ -1,6 +1,7 @@
 var a26151 =
 [
-    [ "CheckCast", "d0/d5c/a26151.html#a2edd0bcaa3b026cc70f9f6b58f53f486", null ],
-    [ "PrepareSpellScript", "d0/d5c/a26151.html#aaf1e16dbc8d33aadcbf74dc4cebe715b", null ],
-    [ "Register", "d0/d5c/a26151.html#a32aaab12105c9b1c09edfa8a444ced9c", null ]
+    [ "HandleApplyEffect", "d0/d5c/a26151.html#af95120b26a165196e0310956c245f36f", null ],
+    [ "HandleRemoveEffect", "d0/d5c/a26151.html#a59e7d23c969b03aa75ef1da3bf42f6e9", null ],
+    [ "PrepareAuraScript", "d0/d5c/a26151.html#ae19e002407db1466f0655db3d14fe0d7", null ],
+    [ "Register", "d0/d5c/a26151.html#ae776a5e913fcf1553b7e2a00374a1ee6", null ]
 ];

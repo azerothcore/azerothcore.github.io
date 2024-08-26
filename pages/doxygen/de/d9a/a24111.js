@@ -1,10 +1,16 @@
 var a24111 =
 [
-    [ "npc_infernal_attackerAI", "de/d9a/a24111.html#ae04c4e026f22bd650bb33940b923df9a", null ],
-    [ "IsSummonedBy", "de/d9a/a24111.html#a926e6cd6772784872a905de7245007ac", null ],
-    [ "JustDied", "de/d9a/a24111.html#a1822131520f98dd5f1dd637282f20ae3", null ],
-    [ "Reset", "de/d9a/a24111.html#a6c871d05d4fd0a6f72f409285f012f9c", null ],
-    [ "SpellHit", "de/d9a/a24111.html#a956f3fb1e341519817599df08afc2589", null ],
-    [ "UpdateAI", "de/d9a/a24111.html#a458ba4c884a95080e1088a07a04a9cb9", null ],
-    [ "casterGUID", "de/d9a/a24111.html#ab2e791cc0a67012bc56c3b07e3f327e9", null ]
+    [ "npc_dragonmaw_peonAI", "de/d9a/a24111.html#a6f1255fead5357001ec85fdaa6980249", null ],
+    [ "CreditPlayer", "de/d9a/a24111.html#a5cf28e156cab2e2066bb94bc99233a2b", null ],
+    [ "JustEngagedWith", "de/d9a/a24111.html#abd5b37793aa2fb150c808b7dc7270763", null ],
+    [ "MovementInform", "de/d9a/a24111.html#a0ee4038f90d54c75c48b2448dacb5724", null ],
+    [ "Reset", "de/d9a/a24111.html#a9d876ec76b51f743c71e67749c21d939", null ],
+    [ "SpellHit", "de/d9a/a24111.html#abe5162608ba0acd7360a630562ff5935", null ],
+    [ "UpdateAI", "de/d9a/a24111.html#a98a045606d9e689ef25a5068b81b1ebf", null ],
+    [ "events", "de/d9a/a24111.html#a7d6fb37d1953630aa79f8665eca0db61", null ],
+    [ "PlayerGUID", "de/d9a/a24111.html#ad6838d98e34a32cbed42c77cdf096070", null ],
+    [ "Tapped", "de/d9a/a24111.html#ae393f8d3cb47f38a4c4314a262826d03", null ],
+    [ "x", "de/d9a/a24111.html#acebbfa8da88d8d683ba5ea6463f6b5f7", null ],
+    [ "y", "de/d9a/a24111.html#ae5a1d416c712803ec0b80ae7ccf29e2d", null ],
+    [ "z", "de/d9a/a24111.html#a7722420716c030b5abe7b760199df14d", null ]
 ];

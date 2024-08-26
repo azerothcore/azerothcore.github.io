@@ -1,6 +1,7 @@
 var a26531 =
 [
-    [ "CheckCast", "db/d7b/a26531.html#a97f479cccecc6f37c75b47122b47e333", null ],
-    [ "PrepareSpellScript", "db/d7b/a26531.html#a7033ad7dbdab5eec532ea6f860f97427", null ],
-    [ "Register", "db/d7b/a26531.html#a4c8f84e1a2cc89064ec5963321fecce7", null ]
+    [ "CheckProc", "db/d7b/a26531.html#aa03bd8b92debda29f0b236fdbef73f16", null ],
+    [ "HandleProc", "db/d7b/a26531.html#a91ee1b654a3a26e027407635a45b80b3", null ],
+    [ "PrepareAuraScript", "db/d7b/a26531.html#ad2796a924fbe36dc9cd1c9de60eb9b16", null ],
+    [ "Register", "db/d7b/a26531.html#ab06a732203303d5533bdc4b217640d2d", null ]
 ];

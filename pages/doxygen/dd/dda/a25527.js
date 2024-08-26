@@ -1,6 +1,6 @@
 var a25527 =
 [
-    [ "PrepareSpellScript", "dd/dda/a25527.html#a72e57e8a4bdb9a4fcd73e3519b6025ea", null ],
-    [ "Register", "dd/dda/a25527.html#aac4d3c8ecde3652c65c05abad5c8eaeb", null ],
-    [ "SelectTarget", "dd/dda/a25527.html#a3153b6c6814922cd7220e19b06f2a602", null ]
+    [ "PrepareSpellScript", "dd/dda/a25527.html#a3a77016a3a8314969ce41cc6483761ec", null ],
+    [ "Register", "dd/dda/a25527.html#ae1fa8b9e4a11c884d10b1f4cc0afd09e", null ],
+    [ "SetDest", "dd/dda/a25527.html#a724217c09faa57ec2e6dad034e8709ed", null ]
 ];

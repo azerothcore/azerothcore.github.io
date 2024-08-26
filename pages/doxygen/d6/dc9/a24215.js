@@ -1,15 +1,5 @@
 var a24215 =
 [
-    [ "dragonmaw_race_npc", "d6/dc9/a24215.html#ad93bcd14a4fd05c9e8a1aee4dd53d4aa", null ],
-    [ "FailQuest", "d6/dc9/a24215.html#a6f96c4677f54f17ad76662453fdc35a1", null ],
-    [ "FinishRace", "d6/dc9/a24215.html#a2439f54aca4ff28c23d351245099a4fc", null ],
-    [ "MovementInform", "d6/dc9/a24215.html#ad0b4ef357605a44a4188c29292303dcf", null ],
-    [ "PathEndReached", "d6/dc9/a24215.html#a6b93a5fb6beb8e8b886f6bf8bb58d3d2", null ],
-    [ "Reset", "d6/dc9/a24215.html#a0edde2bdb8d4d2204551ebc7a7c41fe9", null ],
-    [ "sQuestAccept", "d6/dc9/a24215.html#a539fcaf1dc25a34531d032032c19182e", null ],
-    [ "StartRace", "d6/dc9/a24215.html#ac7d20cb0f2a997d2306195da5c9004e8", null ],
-    [ "StartRaceAttacks", "d6/dc9/a24215.html#a341528843b89a29711f60a1b932da616", null ],
-    [ "TakeOff", "d6/dc9/a24215.html#a8b14aeb1e67059a159f42aad578ccbfb", null ],
-    [ "UpdateAI", "d6/dc9/a24215.html#a5d84467b3fa0c3eefcf7054d0dde472c", null ],
-    [ "_player", "d6/dc9/a24215.html#af9fcf41b95cea5561960b5d91010824f", null ]
+    [ "npc_shattrath_daily_quest", "d6/dc9/a24215.html#ab6aa71e4738fdce1b59d379249a868d5", null ],
+    [ "DoAction", "d6/dc9/a24215.html#ac3e8c6de30ad7567fe5e52cd1ddfeb2c", null ]
 ];

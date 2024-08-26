@@ -1,16 +1,11 @@
 var a28251 =
 [
-    [ "amount", "d6/d83/a28251.html#a3086819447f7ae23bf5697a45cbc6f93", null ],
-    [ "aura_id", "d6/d83/a28251.html#a5866d4e8ce373b6eb9af1d27e2db2c1b", null ],
-    [ "charges", "d6/d83/a28251.html#ade74be0906ef080347ac81ed48379cd1", null ],
-    [ "description", "d6/d83/a28251.html#a7dc66c82551a59750d6294f3503a3dbc", null ],
-    [ "EnchantmentCondition", "d6/d83/a28251.html#a2416afe9ae8371b9d284dd3c176c98d1", null ],
-    [ "GemID", "d6/d83/a28251.html#a324fd42b7184f5c626c33323a4d72b07", null ],
-    [ "ID", "d6/d83/a28251.html#af46fa8808024e75705b812b695bd1590", null ],
-    [ "requiredLevel", "d6/d83/a28251.html#a53bf562ea4dfccb14bfb627c831b477e", null ],
-    [ "requiredSkill", "d6/d83/a28251.html#a6ca7dac0e1f497b3c96887a6c09097bc", null ],
-    [ "requiredSkillValue", "d6/d83/a28251.html#a7a57764dad60c9369826638c1355127e", null ],
-    [ "slot", "d6/d83/a28251.html#af64b13ce2e81d5be7e73763cd5c5e4b8", null ],
-    [ "spellid", "d6/d83/a28251.html#a694edc79cf8ba571338bff2a3aad512d", null ],
-    [ "type", "d6/d83/a28251.html#adb693b7ada8d1a65c1d8091d1055c7bf", null ]
+    [ "addToSpellBook", "d6/d83/a28251.html#ad312934d24abcc78c02d50cc5cb5403f", null ],
+    [ "Col", "d6/d83/a28251.html#a0bc589c5b1425d5e889cd290b805169e", null ],
+    [ "DependsOn", "d6/d83/a28251.html#a7b1aa1384777b8d94dceed3c387bb628", null ],
+    [ "DependsOnRank", "d6/d83/a28251.html#a608f232669981da3423b959479ca8683", null ],
+    [ "RankID", "d6/d83/a28251.html#a96d0fd120ed3aa7fbd287d104fd87c26", null ],
+    [ "Row", "d6/d83/a28251.html#a136b889d2e8875b01fc7aa2be06847ac", null ],
+    [ "TalentID", "d6/d83/a28251.html#aa769574106b0e5afdbc7c71c51c3b9a2", null ],
+    [ "TalentTab", "d6/d83/a28251.html#acefe6f8c0a5b3893e2a9f828d500df68", null ]
 ];

@@ -1,10 +1,7 @@
 var a28163 =
 [
-    [ "PvPDifficultyEntry", "db/dd3/a28163.html#acdf17ca6dce80b7311bd6ae79ce16001", null ],
-    [ "GetBracketId", "db/dd3/a28163.html#a4bcbc99d34ef8eaa7c15dbd33332c480", null ],
-    [ "bracketId", "db/dd3/a28163.html#a670bce11b1d934167d8b3e990ea49d4a", null ],
-    [ "difficulty", "db/dd3/a28163.html#a33ac017d785a4586a78e715d97836720", null ],
-    [ "mapId", "db/dd3/a28163.html#a58c251f56a928bedbc7b9e8c6cbdbc5d", null ],
-    [ "maxLevel", "db/dd3/a28163.html#a1385166568239f2118b65377df8b4b55", null ],
-    [ "minLevel", "db/dd3/a28163.html#acd07e8d759af1b73ec7543f6e70df242", null ]
+    [ "Id", "db/dd3/a28163.html#a5e2447dd0f6b60e322105d8fcafd0010", null ],
+    [ "MaxLevel", "db/dd3/a28163.html#a0392e52a26bb4e1d1927fa7f76c674b8", null ],
+    [ "Modifier", "db/dd3/a28163.html#a5ce5b18749d3c75878b310bdc8427b1f", null ],
+    [ "StatMod", "db/dd3/a28163.html#ab639dd94c53707ca160e13f71342730d", null ]
 ];

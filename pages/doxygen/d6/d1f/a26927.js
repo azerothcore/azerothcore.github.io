@@ -1,5 +1,5 @@
 var a26927 =
 [
-    [ "achievement_bg_ic_mowed_down", "d6/d1f/a26927.html#ab05387d1e14958e87123bd0fc2188445", null ],
-    [ "OnCheck", "d6/d1f/a26927.html#a385e09c605084900f374090e5e19c24f", null ]
+    [ "achievement_bg_av_perfection", "d6/d1f/a26927.html#a8a0ef996bdb1244026268922b301184c", null ],
+    [ "OnCheck", "d6/d1f/a26927.html#a17e700c17b5144b571f2aeed92a77749", null ]
 ];

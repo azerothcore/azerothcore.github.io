@@ -1,5 +1,5 @@
 var a26963 =
 [
-    [ "achievement_killed_exp_or_honor_target", "d2/dd3/a26963.html#aad432878c97af698dd1cc4019d716281", null ],
-    [ "OnCheck", "d2/dd3/a26963.html#ace8fc68ebb73e39626797be4caa45a3c", null ]
+    [ "AreaTrigger_at_voltarus_middle", "d2/dd3/a26963.html#a45ca444350fe4cfde02ab33da4ce8466", null ],
+    [ "OnTrigger", "d2/dd3/a26963.html#a296b300feb6cf999e9e2c2625a911e9b", null ]
 ];

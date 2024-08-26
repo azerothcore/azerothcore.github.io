@@ -1,12 +1,9 @@
 var a26559 =
 [
-    [ "CalcPeriodic", "de/de3/a26559.html#a35d58947074659d2692877dfcf13e4bd", null ],
-    [ "CalculateAPAmount", "de/de3/a26559.html#ac72434a046c28a4887971cf83d574a6e", null ],
-    [ "CalculateResistanceAmount", "de/de3/a26559.html#a82067899470366c2cbf21bba08061ce1", null ],
-    [ "CalculateSPAmount", "de/de3/a26559.html#a527213b389be9b1953f423ae84eb16ee", null ],
-    [ "CalculateStatAmount", "de/de3/a26559.html#ad7185292820feb168565648133c9e2cc", null ],
-    [ "HandleEffectApply", "de/de3/a26559.html#aa333430da4cf3303822d5f048cb9d5a4", null ],
-    [ "HandlePeriodic", "de/de3/a26559.html#ae2bca6c841d1ba02a8a39b1a2179ac97", null ],
-    [ "PrepareAuraScript", "de/de3/a26559.html#a671a588ae36323c11b33a45d652290de", null ],
-    [ "Register", "de/de3/a26559.html#a8aae94d6d6a9ec1fa7d47f88874cce4f", null ]
+    [ "HandleHeal", "de/de3/a26559.html#ad2d854d275dc6f8b67b866d864b6febe", null ],
+    [ "Load", "de/de3/a26559.html#a507a7a4ff11f8bf1157e034d086cd9ad", null ],
+    [ "PrepareSpellScript", "de/de3/a26559.html#a91eb46af707897f228e5d1bbd199a833", null ],
+    [ "Register", "de/de3/a26559.html#ae28f1b0c23511153eafc037cae067bc0", null ],
+    [ "firstHeal", "de/de3/a26559.html#a405326e6e1cd82816aef1712fdf335a0", null ],
+    [ "riptide", "de/de3/a26559.html#acaec32f6730bc2e04e613aa982d285bf", null ]
 ];

@@ -1,10 +1,10 @@
 var a24379 =
 [
-    [ "npc_pet_gen_plump_turkey", "df/dc7/a24379.html#acd5a9cb122cbf5a773461ce1027f28a1", null ],
-    [ "MovementInform", "df/dc7/a24379.html#af27c91388891add6d00e251bf3187743", null ],
-    [ "UpdateAI", "df/dc7/a24379.html#a93d2719bcc6a657a9a32cce06f566b19", null ],
-    [ "checkTimer", "df/dc7/a24379.html#af9e7339416ada0c3bb9829cbd8e1f5d3", null ],
-    [ "goGUID", "df/dc7/a24379.html#a5fa88e045430adea9e72a3744bf72780", null ],
-    [ "jumping", "df/dc7/a24379.html#a8486512b7594f2ce759fcb580f1baf34", null ],
-    [ "jumpTimer", "df/dc7/a24379.html#ad53a9abad41ab6a792a55b854155135d", null ]
+    [ "npc_pet_hunter_snake_trap", "df/dc7/a24379.html#aaf5df574c4ac53661c0bb1968f84c6ea", null ],
+    [ "EnterEvadeMode", "df/dc7/a24379.html#a819add0c7b968063403d10275fdc289f", null ],
+    [ "MoveInLineOfSight", "df/dc7/a24379.html#a32d5ed7f4d436f2678b34f4a1d572721", null ],
+    [ "Reset", "df/dc7/a24379.html#a831cf6eea8bd03247cd9877d3be6e1ee", null ],
+    [ "UpdateAI", "df/dc7/a24379.html#a41a37efe6d39c6d97b3dcc5fabbcc812", null ],
+    [ "_init", "df/dc7/a24379.html#a1b5c1301389749f82667c35f3daff847", null ],
+    [ "_spellTimer", "df/dc7/a24379.html#ab9397451e2e8320ca77560a19baeee3f", null ]
 ];

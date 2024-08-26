@@ -1,9 +1,6 @@
 var a24203 =
 [
-    [ "npc_korkron_or_wildhammer", "da/db2/a24203.html#a3d2252865e0e540dd76aaf87ff62a83c", null ],
-    [ "IsSummonedBy", "da/db2/a24203.html#aa63e935c2d64716f22f4e74e43e6b639", null ],
-    [ "JustDied", "da/db2/a24203.html#a2b216f372b3681b4c96a711568c2a93b", null ],
-    [ "MovementInform", "da/db2/a24203.html#a598dada110aff99a3c36f3037dcf8bf4", null ],
-    [ "Reset", "da/db2/a24203.html#a67d5cf4a8418ab3f07a387f1021080df", null ],
-    [ "_playerGUID", "da/db2/a24203.html#a5f1a79c10b5363ee24b3941c54ff10d7", null ]
+    [ "npc_zephyr", "da/db2/a24203.html#a3bad7bf2bd3b193960f1f53cd7d8349d", null ],
+    [ "OnGossipHello", "da/db2/a24203.html#a31e132e80a19bb6e63787fcdf7ffd466", null ],
+    [ "OnGossipSelect", "da/db2/a24203.html#a9b1f5a0d4ba24e65dda521bc94574ad8", null ]
 ];

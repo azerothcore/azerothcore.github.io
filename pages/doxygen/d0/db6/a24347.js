@@ -1,6 +1,6 @@
 var a24347 =
 [
-    [ "achievement", "d0/db6/a24347.html#abb6071e172abbcbc65020a0ad9554a03", null ],
-    [ "spell", "d0/db6/a24347.html#a740f9162b10d31d1677a4ac4f5926db6", null ],
-    [ "text", "d0/db6/a24347.html#aa92e42bc2c54c3b4b1022d5767fcf10c", null ]
+    [ "PrepareSpellScript", "d0/db6/a24347.html#ae915f8f6522f0a8d308b2a5f43b8884f", null ],
+    [ "RecalculateDamage", "d0/db6/a24347.html#af01757d0968da2a096d800782ed7e66e", null ],
+    [ "Register", "d0/db6/a24347.html#a62b6613707a2a9b78d52bffe92de604e", null ]
 ];

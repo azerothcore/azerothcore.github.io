@@ -1,6 +1,8 @@
 var a26127 =
 [
-    [ "HandleAfterHit", "da/d39/a26127.html#a6f0ec02c8b1429a6be76465dd9badd1c", null ],
-    [ "PrepareSpellScript", "da/d39/a26127.html#af2e6c3bfc233ee86fa2c9186cdd6b5a4", null ],
-    [ "Register", "da/d39/a26127.html#a2a780069022e62b14992a7b69626ac3d", null ]
+    [ "CalculateAmount", "da/d39/a26127.html#aa1810db9a7b8fbc3572621ff35e0eeb1", null ],
+    [ "PrepareAuraScript", "da/d39/a26127.html#ad40d44271840b8e2bd1dc22b6a04290e", null ],
+    [ "ReflectDamage", "da/d39/a26127.html#ad8b5f9a7952fc33d7e1fee28e4872212", null ],
+    [ "Register", "da/d39/a26127.html#a18b19ee8823e2d1747caeefaf457ad8d", null ],
+    [ "Validate", "da/d39/a26127.html#af2936ba4a29fc8735a3cabe805c77355", null ]
 ];

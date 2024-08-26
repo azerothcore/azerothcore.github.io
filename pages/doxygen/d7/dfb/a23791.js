@@ -1,6 +1,6 @@
 var a23791 =
 [
-    [ "Load", "d7/dfb/a23791.html#a0fa22884296d705fd28eed88351d1165", null ],
-    [ "PrepareSpellScript", "d7/dfb/a23791.html#ae04539319a7bab4965f663039c991614", null ],
-    [ "Register", "d7/dfb/a23791.html#a7c7abeb9bc621824173db2c727c28045", null ]
+    [ "HandlePeriodic", "d7/dfb/a23791.html#a0a6da7aad8b7fcc92092f7a3c5bc0768", null ],
+    [ "PrepareAuraScript", "d7/dfb/a23791.html#a75d72d196ded2ee109d0231d4342890a", null ],
+    [ "Register", "d7/dfb/a23791.html#a148013ea68bbc573bddc1c3639dba019", null ]
 ];

@@ -1,6 +1,6 @@
 var a23875 =
 [
-    [ "HandleDummy", "d2/dda/a23875.html#a4c1177fc89310598b6ba7cddf7f47cd1", null ],
-    [ "PrepareSpellScript", "d2/dda/a23875.html#af511bcad63ff423bf04a430f56959f40", null ],
-    [ "Register", "d2/dda/a23875.html#adaa4fc5294e2b0cb5bcb42f1a93a6f29", null ]
+    [ "instance_mechanar_InstanceMapScript", "d5/d5a/a23879.html", "d5/d5a/a23879" ],
+    [ "instance_mechanar", "d2/dda/a23875.html#ab31a66a0eb8b9ac6f79af479528ff4fd", null ],
+    [ "GetInstanceScript", "d2/dda/a23875.html#ae8e9810a9bfd6b0ec256dd6a288392ed", null ]
 ];

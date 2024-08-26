@@ -1,12 +1,7 @@
 var a29453 =
 [
-    [ "categoryId", "d3/da3/a29453.html#a1de0e4302757f18c08b90b40e059737b", null ],
-    [ "count", "d3/da3/a29453.html#a93aac150067979467f56d9919ff665a4", null ],
-    [ "flags", "d3/da3/a29453.html#a5c0dfb5b3c0711aff47d3d604ded2d1a", null ],
-    [ "ID", "d3/da3/a29453.html#a843fee247948d02f7aaf04144cb37ef5", null ],
-    [ "mapID", "d3/da3/a29453.html#ab3d41381808c8bdc163554f7c46f6bc6", null ],
-    [ "name", "d3/da3/a29453.html#a806cfeddc475994f1b421679bd9699e6", null ],
-    [ "points", "d3/da3/a29453.html#abc2b4cf9c6580c6bc99d5c47d7539374", null ],
-    [ "refAchievement", "d3/da3/a29453.html#a858661b2e3479fa3fc2e029ae0d8a145", null ],
-    [ "requiredFaction", "d3/da3/a29453.html#a722dbda5ed8d74f5a1e75bdec8841aa3", null ]
+    [ "checkDirectories", "d3/da3/a29453.html#ab24803c49e5019c665aa545cfd2d32dc", null ],
+    [ "finish", "d3/da3/a29453.html#a32e7545f3a98690aeb284a4eb66f272d", null ],
+    [ "handleArgs", "d3/da3/a29453.html#a9da584ba5e81bed140f90563dd648d38", null ],
+    [ "main", "d3/da3/a29453.html#a3c04138a5bfe5d72780bb7e82a18e627", null ]
 ];

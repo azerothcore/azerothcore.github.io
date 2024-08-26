@@ -1,6 +1,8 @@
 var a24659 =
 [
-    [ "CalculateAmount", "d0/dba/a24659.html#a8deb31d3b6244f4d8de6050c99b3192e", null ],
-    [ "PrepareAuraScript", "d0/dba/a24659.html#a4090baaee0e4330d3776b5774c5c923a", null ],
-    [ "Register", "d0/dba/a24659.html#a4db48f3a549a04caf746a9459b1c5640", null ]
+    [ "AfterRemove", "d0/dba/a24659.html#afdd1575bce3b34da6e3a101eaa695c41", null ],
+    [ "HandleDispel", "d0/dba/a24659.html#a3c2ffe31074115f6cab5f4b18b05dbc3", null ],
+    [ "PrepareAuraScript", "d0/dba/a24659.html#a44e66753516d693c31dba27c9d1ad250", null ],
+    [ "Register", "d0/dba/a24659.html#aa21ecabbf52b457e163f17b3012b0f84", null ],
+    [ "Validate", "d0/dba/a24659.html#a6af7e5aa16b3c84ed1388e2f62424701", null ]
 ];

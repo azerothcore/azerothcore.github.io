@@ -1,6 +1,5 @@
 var a27199 =
 [
-    [ "go_midsummer_musicAI", "dc/dc7/a27199.html#a8cbadc16a9588c469ff48dbaf51ac71c", null ],
-    [ "UpdateAI", "dc/dc7/a27199.html#adf185ee702e9e74f65204b90786f9eb4", null ],
-    [ "_events", "dc/dc7/a27199.html#a31e45a754930cdc3206fe2b7f754d234", null ]
+    [ "go_sacred_fire_of_life", "dc/dc7/a27199.html#a7f14c8397803f8b21e492ec52c6d81e8", null ],
+    [ "OnGossipHello", "dc/dc7/a27199.html#aaa078fffe5570fa532d27d1c4ea831a7", null ]
 ];

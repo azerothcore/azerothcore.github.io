@@ -1,7 +1,6 @@
 var a25183 =
 [
-    [ "PrepareSpellScript", "df/de1/a25183.html#a65d5717a25e371e09c44148c679dd390", null ],
-    [ "Register", "df/de1/a25183.html#afb5f3560c022a8ef659d82cf24a46d8a", null ],
-    [ "RemoveInvalidTargets", "df/de1/a25183.html#a53262865dfa222de1d020f8c7cbf15fd", null ],
-    [ "Validate", "df/de1/a25183.html#a27ee4f0e6d14d15e5da2119c2bc49516", null ]
+    [ "PrepareSpellScript", "df/de1/a25183.html#abb178100d4e5fa4032118f86aa34127d", null ],
+    [ "Register", "df/de1/a25183.html#a50e902cc281b909259097a8bed5651f2", null ],
+    [ "RemoveVehicleAuras", "df/de1/a25183.html#a4ec803f3164d6e38ddf10f4a0ca392e0", null ]
 ];

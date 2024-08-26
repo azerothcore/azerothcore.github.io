@@ -1,8 +1,11 @@
 var a23983 =
 [
-    [ "npc_ancestral_wolfAI", "df/db2/a23983.html#a59ccca7093575f4bcac57a4751d977d4", null ],
-    [ "MoveInLineOfSight", "df/db2/a23983.html#aec5788f0be3c1dcb63b3e61b50ae39c1", null ],
-    [ "Reset", "df/db2/a23983.html#a9778a1648ca0007f7daf4ee98308d8d2", null ],
-    [ "WaypointReached", "df/db2/a23983.html#a2b553c29823e5ef888ee02a3ed413386", null ],
-    [ "ryga", "df/db2/a23983.html#ac238214604720e298124b58c35d58e05", null ]
+    [ "npc_magister_aledis", "df/db2/a23983.html#a0e30c5d4f9fe023537a1b29258967630", null ],
+    [ "DamageTaken", "df/db2/a23983.html#a3c3b72de2dc3e2a1e2bdeab908f0691f", null ],
+    [ "Reset", "df/db2/a23983.html#ae0a701eeaacc5188b382c59ecef14518", null ],
+    [ "sGossipSelect", "df/db2/a23983.html#a9960de0b5be8b75e8b7bcc8f12c4f187", null ],
+    [ "StartFight", "df/db2/a23983.html#a9149ce0a1df781043a5590fe4612511a", null ],
+    [ "UpdateAI", "df/db2/a23983.html#aef885088193e2597e6990e3051a31ef7", null ],
+    [ "_events", "df/db2/a23983.html#a5b4cd0ab4d214547dca28b8b384f83df", null ],
+    [ "_playerGUID", "df/db2/a23983.html#a0954d3d1c9ad4eaff387bc2cf4f52aeb", null ]
 ];

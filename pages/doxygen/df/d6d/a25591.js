@@ -1,6 +1,8 @@
 var a25591 =
 [
-    [ "CalculateAmount", "df/d6d/a25591.html#ad80edf403addb2d907d0d3d778b6745f", null ],
-    [ "PrepareAuraScript", "df/d6d/a25591.html#a96c2e2cdd259d96bb7aa12eb42856cf4", null ],
-    [ "Register", "df/d6d/a25591.html#a538ab0fdebbafa3c96183f639fe8968b", null ]
+    [ "HandleProc", "df/d6d/a25591.html#ad92c7804b26bd29d135e55c8adad9093", null ],
+    [ "OnRemove", "df/d6d/a25591.html#afa8e065ed835243f3ebb95c10792adf8", null ],
+    [ "PrepareAuraScript", "df/d6d/a25591.html#a5e986f77b23fd0402089ea36f0360c79", null ],
+    [ "Register", "df/d6d/a25591.html#a29d66b9790e3f7dfffb5dc398f26f9fb", null ],
+    [ "Validate", "df/d6d/a25591.html#a51f81afec6ff0918530208d9de9dae24", null ]
 ];

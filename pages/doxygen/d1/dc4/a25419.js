@@ -1,6 +1,7 @@
 var a25419 =
 [
-    [ "HandleItemRemove", "d1/dc4/a25419.html#a28f8f8e6823bad14900d08ba10cab7e6", null ],
-    [ "PrepareSpellScript", "d1/dc4/a25419.html#a8b43e146724a2c8b3c495e886a79d021", null ],
-    [ "Register", "d1/dc4/a25419.html#af8b02c31b81dce516ea47d6a1235d683", null ]
+    [ "CalcPeriodic", "d1/dc4/a25419.html#a5847ba4daad49dca2527513055fa4429", null ],
+    [ "PrepareAuraScript", "d1/dc4/a25419.html#a8753419b2fa1b1bb96a08bf54995e82c", null ],
+    [ "Register", "d1/dc4/a25419.html#a08f851e5582831d5dd05878c4a55db67", null ],
+    [ "Update", "d1/dc4/a25419.html#a3ab2716cbccc1311992de44e6591d966", null ]
 ];

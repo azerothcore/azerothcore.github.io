@@ -1,7 +1,10 @@
 var a23767 =
 [
-    [ "OnApply", "d0/d4c/a23767.html#abab02b8307b762d070ba12358f59916d", null ],
-    [ "OnRemove", "d0/d4c/a23767.html#a5ac45a5cfa17689d241c44241216ff38", null ],
-    [ "PrepareAuraScript", "d0/d4c/a23767.html#a54f128745c3c35d7e52e9de7bb69a39a", null ],
-    [ "Register", "d0/d4c/a23767.html#ae130b3cddbe0d9ce21d888e21472d64b", null ]
+    [ "npc_thaladred", "d0/d4c/a23767.html#a2589c19d5cc48c0a5fd504aecddfaa90", null ],
+    [ "JustDied", "d0/d4c/a23767.html#acb50d54da8d8a422eab2b12aae5691b2", null ],
+    [ "JustEngagedWith", "d0/d4c/a23767.html#a376664a7801ed27214b614b262b57d1c", null ],
+    [ "Reset", "d0/d4c/a23767.html#a1ea5f71a78b8af971784c54048e3a6a0", null ],
+    [ "UpdateAI", "d0/d4c/a23767.html#ab5d1276a3ef79239cfcada00fd48e1cd", null ],
+    [ "_hasDied", "d0/d4c/a23767.html#a36d70481c9e6ebd20996fa1a4844a9d3", null ],
+    [ "_instance", "d0/d4c/a23767.html#ae034800974950fd97b9bc9d0a15590d5", null ]
 ];

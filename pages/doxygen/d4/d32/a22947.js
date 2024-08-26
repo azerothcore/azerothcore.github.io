@@ -1,7 +1,7 @@
 var a22947 =
 [
-    [ "boss_high_nethermancer_zerevorAI", "d4/d32/a22947.html#a329f6cf6f8d74af50fdfcf26755dc7f1", null ],
-    [ "AttackStart", "d4/d32/a22947.html#ad4c02d620d8433d2cbcea80566bad9ba", null ],
-    [ "JustEngagedWith", "d4/d32/a22947.html#a7b6339d68fc9fc10fe14c1f48606249e", null ],
-    [ "UpdateAI", "d4/d32/a22947.html#a7a01bd1d41fc803af47291073bc00ee2", null ]
+    [ "HandleEffectApply", "d4/d32/a22947.html#aff0dbed165d0e751db725f7eaaf76a11", null ],
+    [ "Load", "d4/d32/a22947.html#a1dfb5b2004041e7165cc9f5deb4b1e82", null ],
+    [ "PrepareAuraScript", "d4/d32/a22947.html#a3dbd01e52ed2a630f0c014f941fc1b5e", null ],
+    [ "Register", "d4/d32/a22947.html#a647f21e79e3fef72cf84439fc84e708f", null ]
 ];
