@@ -1,6 +1,8 @@
 name: generate-doxygen-doc
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '@weekly'
 
 jobs:
   build-doxygen-doc:
