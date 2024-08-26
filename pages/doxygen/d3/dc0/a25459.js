@@ -1,7 +1,7 @@
 var a25459 =
 [
-    [ "CheckProc", "d3/dc0/a25459.html#a41c451e31b84a72af3a17bfa29ca02fe", null ],
-    [ "HandleProc", "d3/dc0/a25459.html#a5cf9cea911ead2f261522e55e94c745a", null ],
-    [ "PrepareAuraScript", "d3/dc0/a25459.html#a3f2b20607f90ad641769eb284ddfab85", null ],
-    [ "Register", "d3/dc0/a25459.html#a55557026689613e91aeabce1af442237", null ]
+    [ "HandleScriptEffect", "d3/dc0/a25459.html#acbcc05fa433f5bf75998b15e4e25fdad", null ],
+    [ "PrepareSpellScript", "d3/dc0/a25459.html#adf5a3b94012ac871c70f5782d57ae1cd", null ],
+    [ "Register", "d3/dc0/a25459.html#a00596a3f8f0699c25e52a5778d59a2b2", null ],
+    [ "SelectTarget", "d3/dc0/a25459.html#a6a59b7ce696f959b2026cf8088079e89", null ]
 ];

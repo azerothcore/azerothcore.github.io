@@ -1,6 +1,6 @@
 var a27459 =
 [
-    [ "npc_air_force_botsAI", "df/dc1/a27463.html", "df/dc1/a27463" ],
-    [ "npc_air_force_bots", "d4/d66/a27459.html#a00b8f274bde3260a113ea21e0f68cdf8", null ],
-    [ "GetAI", "d4/d66/a27459.html#ae971e34d61b0f960d8f5940f9015523d", null ]
+    [ "spawnedCreatureEntry", "d4/d66/a27459.html#a32b390dfff99d5fd3c49359779718af4", null ],
+    [ "spawnType", "d4/d66/a27459.html#a056dabf4092da4ef3155a661607ca772", null ],
+    [ "thisCreatureEntry", "d4/d66/a27459.html#a97d3cd7c2751fe85d9724ff1f808ba98", null ]
 ];

@@ -1,5 +1,4 @@
 var a27975 =
 [
-    [ "BitIndex", "d0/ddc/a27975.html#a55fdf966aec0ca687cd6074683af6e7f", null ],
-    [ "ItemId", "d0/ddc/a27975.html#a998c1f6dadb823fbba56bb2154396635", null ]
+    [ "ID", "d0/ddc/a27975.html#a27cfc07c5aa7efe7a6f0cb62ea691f81", null ]
 ];

@@ -1,12 +1,10 @@
 var a03080 =
 [
-    [ "AddEventsScripts", "d1/d7a/a03080.html#a5b00ce0eeb1dcf64dc867f4bce623416", null ],
-    [ "AddSC_event_brewfest_scripts", "d1/d7a/a03080.html#a7b95e86ce715aad734d059cfc0cf88d7", null ],
-    [ "AddSC_event_childrens_week", "d1/d7a/a03080.html#a832536a026ab4dad8df7bb48ad0493fc", null ],
-    [ "AddSC_event_firework_show_scripts", "d1/d7a/a03080.html#af7a6296c13b6615a14e0823fe7e5b577", null ],
-    [ "AddSC_event_hallows_end_scripts", "d1/d7a/a03080.html#a70705fe4a0f9a88d8f185363054af273", null ],
-    [ "AddSC_event_love_in_the_air", "d1/d7a/a03080.html#acd28b6b284f9e0f8caa1194e2dc904f8", null ],
-    [ "AddSC_event_midsummer_scripts", "d1/d7a/a03080.html#adc17dd3d30524a3c73b564d6eed54f1c", null ],
-    [ "AddSC_event_pilgrims_end_scripts", "d1/d7a/a03080.html#a8e59953c9b1731e315c9c6b9148a88e6", null ],
-    [ "AddSC_event_winter_veil_scripts", "d1/d7a/a03080.html#a56e93f0f5c0f4763c439d5ea4cdf6c5e", null ]
+    [ "ObjectWorldLoader", "d1/dab/a09151.html", "d1/dab/a09151" ],
+    [ "AddObjectHelper", "d1/d7a/a03080.html#a68fc5e61b78a475e024a4f3e0f1f7197", null ],
+    [ "AddObjectHelper", "d1/d7a/a03080.html#a0881e3c2e2147fefcd2460f09f1fce04", null ],
+    [ "AddObjectHelper", "d1/d7a/a03080.html#af04925817412dce977fbf9dd300f0d94", null ],
+    [ "LoadHelper", "d1/d7a/a03080.html#a230249fa0e98051e01a6fb2b61b3c74d", null ],
+    [ "LoadHelper", "d1/d7a/a03080.html#afee9d1c6de56ec77cc8f4c9936f1d7fd", null ],
+    [ "LoadHelper", "d1/d7a/a03080.html#a58b3bbef087ecc286d081a0f8d4c1fde", null ]
 ];

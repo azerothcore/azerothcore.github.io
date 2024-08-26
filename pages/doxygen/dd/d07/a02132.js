@@ -1,20 +1,24 @@
 var a02132 =
 [
-    [ "WorldScript", "d0/d6b/a10107.html", "d0/d6b/a10107" ],
-    [ "WorldHook", "dd/d07/a02132.html#a4d497fc434376a9edca1897eabc39493", [
-      [ "WORLDHOOK_ON_OPEN_STATE_CHANGE", "dd/d07/a02132.html#a4d497fc434376a9edca1897eabc39493a1115383e9c9ccf62f08548733c8f5f1c", null ],
-      [ "WORLDHOOK_ON_AFTER_CONFIG_LOAD", "dd/d07/a02132.html#a4d497fc434376a9edca1897eabc39493af6efa892b7f5bfd295f23a9b8afc6ad7", null ],
-      [ "WORLDHOOK_ON_LOAD_CUSTOM_DATABASE_TABLE", "dd/d07/a02132.html#a4d497fc434376a9edca1897eabc39493ab212a383f870b580ecf69fd1df3f9213", null ],
-      [ "WORLDHOOK_ON_BEFORE_CONFIG_LOAD", "dd/d07/a02132.html#a4d497fc434376a9edca1897eabc39493ac0d62a83ca416843503c5c9eac516901", null ],
-      [ "WORLDHOOK_ON_MOTD_CHANGE", "dd/d07/a02132.html#a4d497fc434376a9edca1897eabc39493a7080a363df28c0ffb71d52ee18b85f8c", null ],
-      [ "WORLDHOOK_ON_SHUTDOWN_INITIATE", "dd/d07/a02132.html#a4d497fc434376a9edca1897eabc39493ab554902e66fb497dbb3ac74151fe8bb7", null ],
-      [ "WORLDHOOK_ON_SHUTDOWN_CANCEL", "dd/d07/a02132.html#a4d497fc434376a9edca1897eabc39493a86b7bcb6f946ccb6d6c444773054ecb6", null ],
-      [ "WORLDHOOK_ON_UPDATE", "dd/d07/a02132.html#a4d497fc434376a9edca1897eabc39493a891997df42f33b397fe3c92cf68e3aca", null ],
-      [ "WORLDHOOK_ON_STARTUP", "dd/d07/a02132.html#a4d497fc434376a9edca1897eabc39493abaa74ee704d5eb3634a515fe131e66fa", null ],
-      [ "WORLDHOOK_ON_SHUTDOWN", "dd/d07/a02132.html#a4d497fc434376a9edca1897eabc39493a804c550dd48cb62983e43dfed1ba2176", null ],
-      [ "WORLDHOOK_ON_AFTER_UNLOAD_ALL_MAPS", "dd/d07/a02132.html#a4d497fc434376a9edca1897eabc39493a02253717dde1cc98a2643eefd76f0d91", null ],
-      [ "WORLDHOOK_ON_BEFORE_FINALIZE_PLAYER_WORLD_SESSION", "dd/d07/a02132.html#a4d497fc434376a9edca1897eabc39493a962dfc07ec34ca7510d8759c193ba56e", null ],
-      [ "WORLDHOOK_ON_BEFORE_WORLD_INITIALIZED", "dd/d07/a02132.html#a4d497fc434376a9edca1897eabc39493a2e95fec6ec46709803e187fe3c60f427", null ],
-      [ "WORLDHOOK_END", "dd/d07/a02132.html#a4d497fc434376a9edca1897eabc39493a1a7e32e7ba7aec9dc7b8edd43a903800", null ]
-    ] ]
+    [ "instance_black_temple", "dc/d37/a22987.html", "dc/d37/a22987" ],
+    [ "instance_black_temple::instance_black_temple_InstanceMapScript", "d5/df7/a22991.html", "d5/df7/a22991" ],
+    [ "spell_black_template_harpooners_mark_aura", "df/db2/a22995.html", "df/db2/a22995" ],
+    [ "spell_black_template_free_friend", "db/da4/a22999.html", "db/da4/a22999" ],
+    [ "spell_black_temple_curse_of_the_bleakheart_aura", "d5/d7f/a23003.html", "d5/d7f/a23003" ],
+    [ "spell_black_temple_skeleton_shot_aura", "d3/d70/a23007.html", "d3/d70/a23007" ],
+    [ "spell_black_temple_wyvern_sting_aura", "d5/d2b/a23011.html", "d5/d2b/a23011" ],
+    [ "spell_black_temple_charge_rage_aura", "d3/d1c/a23015.html", "d3/d1c/a23015" ],
+    [ "spell_black_temple_shadow_inferno_aura", "db/d93/a23019.html", "db/d93/a23019" ],
+    [ "spell_black_temple_spell_absorption_aura", "da/dcd/a23023.html", "da/dcd/a23023" ],
+    [ "spell_black_temple_bloodbolt", "df/d64/a23027.html", "df/d64/a23027" ],
+    [ "spell_black_temple_consuming_strikes_aura", "dd/d9a/a23031.html", "dd/d9a/a23031" ],
+    [ "spell_black_temple_curse_of_vitality_aura", "d6/d4f/a23035.html", "d6/d4f/a23035" ],
+    [ "spell_black_temple_dementia_aura", "d2/d2c/a23039.html", "d2/d2c/a23039" ],
+    [ "spell_black_temple_summon_shadowfiends", "d5/d0b/a23043.html", "d5/d0b/a23043" ],
+    [ "spell_black_temple_l5_arcane_charge", "df/d95/a23047.html", "df/d95/a23047" ],
+    [ "AddSC_instance_black_temple", "dd/d07/a02132.html#a15f766c45ce62741982e2a1711514aa8", null ],
+    [ "boundaries", "dd/d07/a02132.html#aa75d7d0ffe0cef214f982966c33db1c1", null ],
+    [ "creatureData", "dd/d07/a02132.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "doorData", "dd/d07/a02132.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],
+    [ "objectData", "dd/d07/a02132.html#a59ddfa91084111da23b5d47482e4ff8d", null ]
 ];

@@ -1,5 +1,5 @@
 var a24143 =
 [
-    [ "creature", "d0/d76/a24143.html#ab4b8f837dbfb42bcbb161f81f846aad9", null ],
-    [ "Timer", "d0/d76/a24143.html#a2be497dc190c1f01f939e12083739882", null ]
+    [ "npc_karynaku", "d0/d76/a24143.html#aa6a3cb409cdbc990f1eee4137c7519d2", null ],
+    [ "OnQuestAccept", "d0/d76/a24143.html#a4cae1950fe3b7b4ae6f2e6691800ec47", null ]
 ];

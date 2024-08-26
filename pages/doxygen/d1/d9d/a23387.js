@@ -1,7 +1,7 @@
 var a23387 =
 [
-    [ "HandleScript", "d1/d9d/a23387.html#a359ccbdf47c9b6a1df23e6f775d5ffa8", null ],
-    [ "PrepareSpellScript", "d1/d9d/a23387.html#ac1193881ad39e7ea7cb1f8f1b6627c60", null ],
-    [ "Register", "d1/d9d/a23387.html#afb83fdd384a430e572a7959f81cdf2cb", null ],
-    [ "Validate", "d1/d9d/a23387.html#af8587f9dff4b71b7cce8ec6d70f94927", null ]
+    [ "HandleScript", "d1/d9d/a23387.html#a8933535f9507b90b54032c17985cc3c6", null ],
+    [ "PrepareSpellScript", "d1/d9d/a23387.html#acadb563eaeffac47b3f883f9d8c37994", null ],
+    [ "Register", "d1/d9d/a23387.html#a797ae84dcb0fc13b0799934bde71809c", null ],
+    [ "Validate", "d1/d9d/a23387.html#afba2983f5be230dd3b77b3b49fee8a38", null ]
 ];

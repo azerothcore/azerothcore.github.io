@@ -1,9 +1,7 @@
 var a23295 =
 [
-    [ "boss_mennu_the_betrayer", "d0/d56/a23295.html#a3f881a89d1da70d066ce9a3fe0b29a3e", null ],
-    [ "JustDied", "d0/d56/a23295.html#acf87c54cc2a3ee5c8378ef40553ab51c", null ],
-    [ "JustEngagedWith", "d0/d56/a23295.html#a535b9af1677b8af50515818a18e88d27", null ],
-    [ "JustSummoned", "d0/d56/a23295.html#a59949872270890ef794a77029074210b", null ],
-    [ "KilledUnit", "d0/d56/a23295.html#a1a55fb7f1dacc5e514e71901d66bd35e", null ],
-    [ "Reset", "d0/d56/a23295.html#a6f0043e73a55cd1cccae22a806d702ea", null ]
+    [ "HandleScriptEffect", "d0/d56/a23295.html#ace1bb0dd5a76aa75038060af16b2e09f", null ],
+    [ "PrepareSpellScript", "d0/d56/a23295.html#ab3f6d24643b75482d5f96779a5bdda11", null ],
+    [ "Register", "d0/d56/a23295.html#a14772c25b70078c0034b8de17de5b77a", null ],
+    [ "Validate", "d0/d56/a23295.html#a8318385367bf6c6b09e0978c461f5d59", null ]
 ];

@@ -1,11 +1,9 @@
 var a01646 =
 [
-    [ "BanMgr", "dd/dcb/a09587.html", "dd/dcb/a09587" ],
-    [ "sBan", "df/dee/a01646.html#a7d5e9b6aab3c8157bcf25fa0f070bb17", null ],
-    [ "BanReturn", "df/dee/a01646.html#a4dd4670ead55e2780d09a66ab39943a7", [
-      [ "BAN_SUCCESS", "df/dee/a01646.html#a4dd4670ead55e2780d09a66ab39943a7ab48bdf9afe21b115b7550bf103d1dc28", null ],
-      [ "BAN_SYNTAX_ERROR", "df/dee/a01646.html#a4dd4670ead55e2780d09a66ab39943a7a7ec21f8f8ea6d0904423dded4b8f0dc8", null ],
-      [ "BAN_NOTFOUND", "df/dee/a01646.html#a4dd4670ead55e2780d09a66ab39943a7aaefc3ea320005c27d70704fb92aed7ad", null ],
-      [ "BAN_LONGER_EXISTS", "df/dee/a01646.html#a4dd4670ead55e2780d09a66ab39943a7ac441589615fb2fe9c7decb985f6f0d3c", null ]
-    ] ]
+    [ "instance_drak_tharon_keep", "d1/d03/a16599.html", "d1/d03/a16599" ],
+    [ "instance_drak_tharon_keep::instance_drak_tharon_keep_InstanceScript", "d8/d8c/a16603.html", "d8/d8c/a16603" ],
+    [ "spell_dtk_raise_dead_aura", "d9/d5a/a16607.html", "d9/d5a/a16607" ],
+    [ "spell_dtk_summon_random_drakkari", "d1/df8/a16611.html", "d1/df8/a16611" ],
+    [ "AddSC_instance_drak_tharon_keep", "df/dee/a01646.html#a5644ddec1299c3c3988ffb003d0c3367", null ],
+    [ "doorData", "df/dee/a01646.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
 ];

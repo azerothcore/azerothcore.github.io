@@ -1,9 +1,9 @@
 var a04559 =
 [
-    [ "TEST", "d1/dce/a04559.html#a7a11632378897367b979b12423a3f5dd", null ],
-    [ "TEST", "d1/dce/a04559.html#ac23831b7258f696b9e9a4972c42b5a4c", null ],
-    [ "TEST", "d1/dce/a04559.html#a5fcf85473a490662471938a1f773d6e2", null ],
-    [ "TEST", "d1/dce/a04559.html#a8ffadf8c8dbffb858cf2a925473d6bff", null ],
-    [ "TEST", "d1/dce/a04559.html#a23ac78cb09ef0a7b924b271ffefbc6a9", null ],
-    [ "TEST", "d1/dce/a04559.html#a9b7a926251db0fa2bd2678cee360e161", null ]
+    [ "ListFilesResult", "d1/dce/a04559.html#a030b28c9f552c0de4a4b4844fc5e6101", [
+      [ "LISTFILE_DIRECTORY_NOT_FOUND", "d1/dce/a04559.html#a030b28c9f552c0de4a4b4844fc5e6101a868c0f60f6afa222577730606ed493a6", null ],
+      [ "LISTFILE_OK", "d1/dce/a04559.html#a030b28c9f552c0de4a4b4844fc5e6101a952e90f65bfd2eefbd80a8b830eb5687", null ]
+    ] ],
+    [ "getDirContents", "d1/dce/a04559.html#a3620968f3c1f5c1a3bb0c809ab0eb4ab", null ],
+    [ "matchWildcardFilter", "d1/dce/a04559.html#a0b1c31a5b3e8bebc7fa860b40f7997e1", null ]
 ];

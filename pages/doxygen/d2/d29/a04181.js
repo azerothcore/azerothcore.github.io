@@ -1,7 +1,6 @@
 var a04181 =
 [
-    [ "instance_the_underbog", "d0/d23/a23395.html", "d0/d23/a23395" ],
-    [ "instance_the_underbog::instance_the_underbog_InstanceMapScript", "d1/d9d/a23399.html", "d1/d9d/a23399" ],
-    [ "AddSC_instance_the_underbog", "d2/d29/a04181.html#acc5edb97f1bda7cd30a38061e4676698", null ],
-    [ "creatureData", "d2/d29/a04181.html#a412286b689bd324fedd65ddd8dde8afb", null ]
+    [ "FlyByCamera", "d3/d69/a07631.html", "d3/d69/a07631" ],
+    [ "GetFlyByCameras", "d2/d29/a04181.html#a8079cfd87f117ce26e31f3da14e63cf9", null ],
+    [ "LoadM2Cameras", "d2/d29/a04181.html#a9971ebb80eba223b5767bcfa8f713267", null ]
 ];

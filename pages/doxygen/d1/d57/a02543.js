@@ -1,5 +1,6 @@
 var a02543 =
 [
-    [ "player_settings_commandscript", "d2/dd2/a11407.html", "d2/dd2/a11407" ],
-    [ "AddSC_player_settings_commandscript", "d1/d57/a02543.html#a366685affd5565d164c65f8cd4a20b61", null ]
+    [ "lfg_commandscript", "d6/d95/a11355.html", "d6/d95/a11355" ],
+    [ "AddSC_lfg_commandscript", "d1/d57/a02543.html#a484938015a7f5ffa8f5b1d0e259d355b", null ],
+    [ "GetPlayerInfo", "d1/d57/a02543.html#a1d2591add059e8c4daf04b9f706da765", null ]
 ];

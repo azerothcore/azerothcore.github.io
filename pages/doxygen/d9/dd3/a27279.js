@@ -1,5 +1,5 @@
 var a27279 =
 [
-    [ "go_veil_skith_cage", "d9/dd3/a27279.html#ac3fe1fdf2f12571fafc56e71a932994e", null ],
-    [ "OnGossipHello", "d9/dd3/a27279.html#a6724dc73ecf83305e5234eb0a2ad1d3c", null ]
+    [ "go_massive_seaforium_charge", "d9/dd3/a27279.html#adae43b764f237932923cd18207e4d23c", null ],
+    [ "OnGossipHello", "d9/dd3/a27279.html#a187e28c773ad904f245d11d3f5b9d7e3", null ]
 ];

@@ -1,4 +1,4 @@
 var a00263 =
 [
-    [ "B32Impl", "d4/ddd/a05199.html", "d4/ddd/a05199" ]
+    [ "RefMgr< TO, FROM >", "db/d6b/a05139.html", "db/d6b/a05139" ]
 ];

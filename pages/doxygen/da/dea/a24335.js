@@ -1,6 +1,5 @@
 var a24335 =
 [
-    [ "HandleDamageCalc", "da/dea/a24335.html#a9e0f6fe8bb10950c2130fb7d1f07017a", null ],
-    [ "PrepareSpellScript", "da/dea/a24335.html#a183477b6269dbc705a10e60ab36c13b1", null ],
-    [ "Register", "da/dea/a24335.html#ae93d958a3a439e3401685b0d2a570f0e", null ]
+    [ "npc_pet_dk_dancing_rune_weaponAI", "da/dea/a24335.html#a6d57990a8ff05cc74356b0ed4d7d39b6", null ],
+    [ "InitializeAI", "da/dea/a24335.html#a620ebac7c7cd5f81af47ea2e35de128c", null ]
 ];

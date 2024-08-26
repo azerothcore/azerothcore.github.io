@@ -1,4 +1,4 @@
 var a00338 =
 [
-    [ "LogOperation", "d5/d12/a05255.html", "d5/d12/a05255" ]
+    [ "g_MMapMgr", "dc/d84/a00338.html#a7ca17c8e81612c16a92e901cac65113e", null ]
 ];

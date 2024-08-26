@@ -1,14 +1,12 @@
 var a23511 =
 [
-    [ "boss_vazruden", "d8/ddf/a23511.html#a9908d6082a09d55dd0d8bb801784a151", null ],
-    [ "DamageTaken", "d8/ddf/a23511.html#a44b1e4d43bbf0d7faec7f4ee277db811", null ],
-    [ "EnterEvadeMode", "d8/ddf/a23511.html#aba006e8e9aefe522ea5c36c638bb5c3b", null ],
-    [ "JustDied", "d8/ddf/a23511.html#a525025b41b53a577bdff1eb818191ed7", null ],
-    [ "JustEngagedWith", "d8/ddf/a23511.html#a5dbbe80fcfe191ac5ae03f943496ad02", null ],
-    [ "KilledUnit", "d8/ddf/a23511.html#a8f430a0d7edb0285156c6bf68ba0aa07", null ],
-    [ "Reset", "d8/ddf/a23511.html#a11b5091dafe2f0de9afd81de7b6fde90", null ],
-    [ "UpdateAI", "d8/ddf/a23511.html#aebaf147a1a2e723cb0cb8e46f3d01e68", null ],
-    [ "_hasSpoken", "d8/ddf/a23511.html#af5b9aa9c7a343486b4dc05819e8d3ccf", null ],
-    [ "_nazanCalled", "d8/ddf/a23511.html#a44d53934c743e9beb539681719997852", null ],
-    [ "_scheduler", "d8/ddf/a23511.html#a60382206e378c2f2c493d1ee25c4ff8c", null ]
+    [ "boss_nazan", "d8/ddf/a23511.html#a4390d3e181c4db46e364df3302612763", null ],
+    [ "AttackStart", "d8/ddf/a23511.html#a7acea69f908e7a004c2a78c103528975", null ],
+    [ "DoAction", "d8/ddf/a23511.html#abdb49e50dabda61c5d16b420ae69ae77", null ],
+    [ "EnterEvadeMode", "d8/ddf/a23511.html#ab6338a7d240014e548b22044b788ce8f", null ],
+    [ "JustEngagedWith", "d8/ddf/a23511.html#a4d44b759530f32207a46a608fb7d6209", null ],
+    [ "MovementInform", "d8/ddf/a23511.html#ad35866322ff55263b1f8b105d2cad952", null ],
+    [ "Reset", "d8/ddf/a23511.html#a5c10e932075130399a9127869f45ce1d", null ],
+    [ "UpdateAI", "d8/ddf/a23511.html#a17942f19444ad324058d7b8c8a9aa9de", null ],
+    [ "_scheduler", "d8/ddf/a23511.html#a8915d84ec4ffb8dade18041d5e910018", null ]
 ];

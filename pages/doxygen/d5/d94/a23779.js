@@ -1,10 +1,11 @@
 var a23779 =
 [
-    [ "npc_telonicus", "d5/d94/a23779.html#af8ba6be2d39463725bbbaf7770319a93", null ],
-    [ "JustDied", "d5/d94/a23779.html#a8748435fe676bb0a9988186006612ef8", null ],
-    [ "JustEngagedWith", "d5/d94/a23779.html#a1754b13210eefec39b2ca766cf5e1cc0", null ],
-    [ "Reset", "d5/d94/a23779.html#afa5c2f47fabde2c4d1bb9f544369fa7c", null ],
-    [ "UpdateAI", "d5/d94/a23779.html#a43e051ed780d30741cdf8403fa07595b", null ],
-    [ "_hasDied", "d5/d94/a23779.html#a28a88cd9d427691b177f74e7bd3f5e7c", null ],
-    [ "_instance", "d5/d94/a23779.html#a2d04c0bf0af6d588cf2e22faad7ec230", null ]
+    [ "npc_capernian", "d5/d94/a23779.html#a0acb568664c777797eeb7104f454699d", null ],
+    [ "AttackStart", "d5/d94/a23779.html#a81e89eacbae30a1229fda5e9fe924e2b", null ],
+    [ "JustDied", "d5/d94/a23779.html#acf4b5b8e6c10cb87435723705f551c6f", null ],
+    [ "JustEngagedWith", "d5/d94/a23779.html#ae2d07a3e4031a831248b84e8b36f6972", null ],
+    [ "Reset", "d5/d94/a23779.html#ad9b91c94833a899ff33f81de2187b6ad", null ],
+    [ "UpdateAI", "d5/d94/a23779.html#a7e9116c766fa828c9bd5d0b2118e8fa1", null ],
+    [ "_hasDied", "d5/d94/a23779.html#a05976816642fad6c31a1ffe9066e5606", null ],
+    [ "_instance", "d5/d94/a23779.html#a307f6f388f96df3fb0311737f8e7ce96", null ]
 ];

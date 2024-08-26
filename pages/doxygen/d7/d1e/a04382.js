@@ -1,49 +1,55 @@
 var a04382 =
 [
-    [ "npc_pet_shaman_earth_elemental", "d8/d81/a24415.html", "d8/d81/a24415" ],
-    [ "npc_pet_shaman_fire_elemental", "d0/db6/a24419.html", "d0/db6/a24419" ],
-    [ "ShamanEvents", "d7/d1e/a04382.html#aa2b323900a3ce0f1375b1b01093c124c", [
-      [ "EVENT_SHAMAN_ANGEREDEARTH", "d7/d1e/a04382.html#aa2b323900a3ce0f1375b1b01093c124ca55d2bc767c95df14143f82764109f9f9", null ],
-      [ "EVENT_SHAMAN_FIRENOVA", "d7/d1e/a04382.html#aa2b323900a3ce0f1375b1b01093c124caa9714e17f926812b7ab7328c42fa60ec", null ],
-      [ "EVENT_SHAMAN_FIRESHIELD", "d7/d1e/a04382.html#aa2b323900a3ce0f1375b1b01093c124ca256726c16cd0c152f1ef2d08e8681b73", null ],
-      [ "EVENT_SHAMAN_FIREBLAST", "d7/d1e/a04382.html#aa2b323900a3ce0f1375b1b01093c124cad63d80475f7c4d625393f51463234109", null ]
+    [ "BattlegroundDS", "dc/d5e/a07123.html", "dc/d5e/a07123" ],
+    [ "BattlegroundDSCreatures", "d7/d1e/a04382.html#a239235ff6a77dc70519faae59c868202", [
+      [ "BG_DS_NPC_TYPE_WATER_SPOUT", "d7/d1e/a04382.html#a239235ff6a77dc70519faae59c868202ad40b08b0df1abb642f3f0caf18301171", null ]
     ] ],
-    [ "ShamanSpells", "d7/d1e/a04382.html#aa87108001ed3860c7adcb67ee9e52019", [
-      [ "SPELL_SHAMAN_ANGEREDEARTH", "d7/d1e/a04382.html#aa87108001ed3860c7adcb67ee9e52019aa109e155dd35d935fb257e50e09747bb", null ],
-      [ "SPELL_SHAMAN_FIREBLAST", "d7/d1e/a04382.html#aa87108001ed3860c7adcb67ee9e52019ab4d2cec0ccba90360e4d378708dc2274", null ],
-      [ "SPELL_SHAMAN_FIRENOVA", "d7/d1e/a04382.html#aa87108001ed3860c7adcb67ee9e52019aa1c748f3d3c445992118bdca56e91ba5", null ],
-      [ "SPELL_SHAMAN_FIRESHIELD", "d7/d1e/a04382.html#aa87108001ed3860c7adcb67ee9e52019a384ca4eabf43f412d7d68e16d6ef7fe8", null ],
-      [ "SPELL_SHAMAN_GLYPH_OF_FERAL_SPIRIT", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019ab875e7cfb37d4193945e25abd49ac409", null ],
-      [ "SPELL_SHAMAN_ANCESTRAL_AWAKENING_PROC", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019aa1a455923bea8042e64610ed0198cc36", null ],
-      [ "SPELL_SHAMAN_BIND_SIGHT", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a33c78f07635e9e4ca4ff4fa9b447ef69", null ],
-      [ "SPELL_SHAMAN_CLEANSING_TOTEM_EFFECT", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019abd290be920822efdf04e25cb92c45c0c", null ],
-      [ "SPELL_SHAMAN_EARTH_SHIELD_HEAL", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019ae1255f0cbacdf7851f8b0a0dc9a2d836", null ],
-      [ "SPELL_SHAMAN_ELEMENTAL_MASTERY", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a72eddc09d527f5f8a01d6e043f85fa76", null ],
-      [ "SPELL_SHAMAN_ELECTRIFIED", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019aac0af1b5cbd5c35d315ae2273c17eb43", null ],
-      [ "SPELL_SHAMAN_EXHAUSTION", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019ab2ae14630088de8b52f391e14988b5e1", null ],
-      [ "SPELL_SHAMAN_FIRE_NOVA_R1", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a79d48cc31cfe1b8e228bc9236fa48c3b", null ],
-      [ "SPELL_SHAMAN_FIRE_NOVA_TRIGGERED_R1", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019ae4d68eb02284baf4168dd474f011a5b0", null ],
-      [ "SPELL_SHAMAN_GLYPH_OF_EARTH_SHIELD", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a71b0a26925bb4da743c652f284727ab1", null ],
-      [ "SPELL_SHAMAN_GLYPH_OF_HEALING_STREAM_TOTEM", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a143ad7a35158a008ba877f4a3d2454e3", null ],
-      [ "SPELL_SHAMAN_GLYPH_OF_MANA_TIDE", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a9a807b28eb58d2f4f4539bebd6dec4da", null ],
-      [ "SPELL_SHAMAN_GLYPH_OF_THUNDERSTORM", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a841e96bbe93dc3366867eb77250dc0a2", null ],
-      [ "SPELL_SHAMAN_ITEM_LIGHTNING_SHIELD", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a459a713eeb348964b181aa08fc72f5e2", null ],
-      [ "SPELL_SHAMAN_ITEM_LIGHTNING_SHIELD_DAMAGE", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a55c8be0ddb6926b0050d8fd2d4d6a990", null ],
-      [ "SPELL_SHAMAN_ITEM_MANA_SURGE", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019ae9cd9603ea6d80479a2760686391566f", null ],
-      [ "SPELL_SHAMAN_LAVA_FLOWS_R1", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a907ef88a98a8daa70d21406d41a04120", null ],
-      [ "SPELL_SHAMAN_LAVA_FLOWS_TRIGGERED_R1", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019ac4c3cf0a498a746285ed48fa0d6e1800", null ],
-      [ "SPELL_SHAMAN_MANA_SPRING_TOTEM_ENERGIZE", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019aa4a29831a1a1d7d2c43868b41f0ebf9c", null ],
-      [ "SPELL_SHAMAN_MANA_TIDE_TOTEM", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a4910331576d472088ed59ab694712d1b", null ],
-      [ "SPELL_SHAMAN_SATED", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a4df99e57e0d713d193e2578b8fdee7a4", null ],
-      [ "SPELL_SHAMAN_STORM_EARTH_AND_FIRE", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019ab7a6e3e33f811c9d9d85285a1e7e0d60", null ],
-      [ "SPELL_SHAMAN_TOTEM_EARTHBIND_EARTHGRAB", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a04c3dfea37fa8eeb0af97d7cd6e499a2", null ],
-      [ "SPELL_SHAMAN_TOTEM_EARTHBIND_TOTEM", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a4709b8c9c037c648bb265d2f7695f4e7", null ],
-      [ "SPELL_SHAMAN_TOTEM_EARTHEN_POWER", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019ab3f8d2e2ded26eb9e6ebcecb9442649e", null ],
-      [ "SPELL_SHAMAN_TOTEM_HEALING_STREAM_HEAL", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a8d0782da4d8d3aea933835cbb7dc83ef", null ],
-      [ "SPELL_SHAMAN_BLESSING_OF_THE_ETERNALS_R1", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a40689e256ce60fa29f39b2804a5c5ae2", null ],
-      [ "SPELL_SHAMAN_STORMSTRIKE", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a62dc8e40febbbc0eaa3cdb8de6c9a13f", null ],
-      [ "SPELL_SHAMAN_LAVA_LASH", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a9d65d3bf8bf2cf95bcfcce2b8a50f5a6", null ],
-      [ "SPELL_SHAMAN_LIGHTNING_BOLT_OVERLOAD", "dc/d7e/a04424.html#aa87108001ed3860c7adcb67ee9e52019a6b6e0fd0d2236e9fe5d81342e366c3ad", null ]
+    [ "BattlegroundDSCreatureTypes", "d7/d1e/a04382.html#aca2990bbe9b2261c7f9f9761c063c3f4", [
+      [ "BG_DS_NPC_WATERFALL_KNOCKBACK", "d7/d1e/a04382.html#aca2990bbe9b2261c7f9f9761c063c3f4a79cd4de05b72abd60374190c7802850a", null ],
+      [ "BG_DS_NPC_PIPE_KNOCKBACK_1", "d7/d1e/a04382.html#aca2990bbe9b2261c7f9f9761c063c3f4a499e73119219ab047050066925863cbf", null ],
+      [ "BG_DS_NPC_PIPE_KNOCKBACK_2", "d7/d1e/a04382.html#aca2990bbe9b2261c7f9f9761c063c3f4a0f7c473d66f71a2692f1a7b5e1c110b4", null ],
+      [ "BG_DS_NPC_MAX", "d7/d1e/a04382.html#aca2990bbe9b2261c7f9f9761c063c3f4aea764dbeaf590cb06750d0b4146c581a", null ]
     ] ],
-    [ "AddSC_shaman_pet_scripts", "d7/d1e/a04382.html#ab07e634ed761985e07d5c0e10f329231", null ]
+    [ "BattlegroundDSData", "d7/d1e/a04382.html#aa31b86760427e7e9348ef8bf69da141c", [
+      [ "BG_DS_PIPE_KNOCKBACK_FIRST_DELAY", "d7/d1e/a04382.html#aa31b86760427e7e9348ef8bf69da141cabbf10d8eecab52ccb852376f82fd018d", null ],
+      [ "BG_DS_PIPE_KNOCKBACK_DELAY", "d7/d1e/a04382.html#aa31b86760427e7e9348ef8bf69da141ca35f8577eea8f26daf33a3dd21e2231b5", null ],
+      [ "BG_DS_PIPE_KNOCKBACK_TOTAL_COUNT", "d7/d1e/a04382.html#aa31b86760427e7e9348ef8bf69da141cafa0805e6bb3bad41fe68cd2697758704", null ]
+    ] ],
+    [ "BattlegroundDSEvents", "d7/d1e/a04382.html#a28c190d1bc1cda7ce04873badd8dd1b9", [
+      [ "BG_DS_EVENT_WATERFALL_WARNING", "d7/d1e/a04382.html#a28c190d1bc1cda7ce04873badd8dd1b9a556b41865c0cb90edad807f781c04185", null ],
+      [ "BG_DS_EVENT_WATERFALL_ON", "d7/d1e/a04382.html#a28c190d1bc1cda7ce04873badd8dd1b9a146cc864281f18ab4b717202919f44ce", null ],
+      [ "BG_DS_EVENT_WATERFALL_OFF", "d7/d1e/a04382.html#a28c190d1bc1cda7ce04873badd8dd1b9adb0372ad161febcd2fb2b195e52da56d", null ],
+      [ "BG_DS_EVENT_WATERFALL_KNOCKBACK", "d7/d1e/a04382.html#a28c190d1bc1cda7ce04873badd8dd1b9a90015d0b077cd7e296410208637e46b4", null ],
+      [ "BG_DS_EVENT_PIPE_KNOCKBACK", "d7/d1e/a04382.html#a28c190d1bc1cda7ce04873badd8dd1b9a7fed7cfa0547c6e8ceeb5e3453fa6268", null ]
+    ] ],
+    [ "BattlegroundDSGameObjects", "d7/d1e/a04382.html#a71d8aad7096e6f4e538eadab51fc76f8", [
+      [ "BG_DS_OBJECT_TYPE_DOOR_1", "d7/d1e/a04382.html#a71d8aad7096e6f4e538eadab51fc76f8a8117a9fd3e3221f5980949e5150fe737", null ],
+      [ "BG_DS_OBJECT_TYPE_DOOR_2", "d7/d1e/a04382.html#a71d8aad7096e6f4e538eadab51fc76f8a687d200b385c99eca799508a8a3da61d", null ],
+      [ "BG_DS_OBJECT_TYPE_WATER_1", "d7/d1e/a04382.html#a71d8aad7096e6f4e538eadab51fc76f8ae42c0b118aa8e527eabad9d8302c86db", null ],
+      [ "BG_DS_OBJECT_TYPE_WATER_2", "d7/d1e/a04382.html#a71d8aad7096e6f4e538eadab51fc76f8a90ec16bb076db4028cbf2a5dbb327f1d", null ],
+      [ "BG_DS_OBJECT_TYPE_BUFF_1", "d7/d1e/a04382.html#a71d8aad7096e6f4e538eadab51fc76f8a141655234e2fa43143622578cf71ec71", null ],
+      [ "BG_DS_OBJECT_TYPE_BUFF_2", "d7/d1e/a04382.html#a71d8aad7096e6f4e538eadab51fc76f8affd7ba30f4f2024dd6429f065d5edb9f", null ]
+    ] ],
+    [ "BattlegroundDSObjectTypes", "d7/d1e/a04382.html#a8d5224d87e17a7242576ee301e628de6", [
+      [ "BG_DS_OBJECT_DOOR_1", "d7/d1e/a04382.html#a8d5224d87e17a7242576ee301e628de6a8610bd7f4f1a8e7eb1e9f2429aac5b42", null ],
+      [ "BG_DS_OBJECT_DOOR_2", "d7/d1e/a04382.html#a8d5224d87e17a7242576ee301e628de6a330db292ad2569c554efbb54f9683a65", null ],
+      [ "BG_DS_OBJECT_WATER_1", "d7/d1e/a04382.html#a8d5224d87e17a7242576ee301e628de6ad7b7d41afc57c57dfb26c89c33cc6d30", null ],
+      [ "BG_DS_OBJECT_WATER_2", "d7/d1e/a04382.html#a8d5224d87e17a7242576ee301e628de6a4afa2177f1262bb3fb3c015047d6c1f1", null ],
+      [ "BG_DS_OBJECT_BUFF_1", "d7/d1e/a04382.html#a8d5224d87e17a7242576ee301e628de6ab65c1a961954720559d3b7d2114d0f1a", null ],
+      [ "BG_DS_OBJECT_BUFF_2", "d7/d1e/a04382.html#a8d5224d87e17a7242576ee301e628de6aba69c00240803bc3130e93706ca3fd03", null ],
+      [ "BG_DS_OBJECT_READY_MARKER_1", "d7/d1e/a04382.html#a8d5224d87e17a7242576ee301e628de6a2463d4010bc80f717036a5c0980eb00e", null ],
+      [ "BG_DS_OBJECT_READY_MARKER_2", "d7/d1e/a04382.html#a8d5224d87e17a7242576ee301e628de6aaa0509a954fa3bb165e7a8b021c81720", null ],
+      [ "BG_DS_OBJECT_MAX", "d7/d1e/a04382.html#a8d5224d87e17a7242576ee301e628de6a6067df4d0384c2cbc7b6b11a0ad6abef", null ]
+    ] ],
+    [ "BattlegroundDSSpells", "d7/d1e/a04382.html#a41065fade7598429191146de35f52e86", [
+      [ "BG_DS_SPELL_FLUSH", "d7/d1e/a04382.html#a41065fade7598429191146de35f52e86a92b5731f68ff7782811d2ed6ecc27d50", null ],
+      [ "BG_DS_SPELL_FLUSH_KNOCKBACK", "d7/d1e/a04382.html#a41065fade7598429191146de35f52e86a048190b79973e03b8a950faa2e702817", null ],
+      [ "BG_DS_SPELL_WATER_SPOUT", "d7/d1e/a04382.html#a41065fade7598429191146de35f52e86a9fddcfba49dc5538f51c0d537c440f67", null ],
+      [ "SPELL_WARL_DEMONIC_CIRCLE", "d7/d1e/a04382.html#a41065fade7598429191146de35f52e86ae21b8d7e5a28c9d4fac00f918d272f71", null ]
+    ] ],
+    [ "BG_DS_WATERFALL_DURATION", "d7/d1e/a04382.html#a5ab9e4c80e884fe70b5ec7fa8a804467", null ],
+    [ "BG_DS_WATERFALL_KNOCKBACK_TIMER", "d7/d1e/a04382.html#a1b36a98e6aeda4fffe6eb42b5b97d8b9", null ],
+    [ "BG_DS_WATERFALL_TIMER_MAX", "d7/d1e/a04382.html#aa60e58163a826a5883866a7acc392a69", null ],
+    [ "BG_DS_WATERFALL_TIMER_MIN", "d7/d1e/a04382.html#a42d81786420a8cf7be3391223230530a", null ],
+    [ "BG_DS_WATERFALL_WARNING_DURATION", "d7/d1e/a04382.html#ad0d7dc59c1690e15c35f7ba622eb2fef", null ]
 ];

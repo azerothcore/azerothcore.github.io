@@ -1,7 +1,7 @@
 var a27927 =
 [
-    [ "bit_index", "db/de6/a27927.html#a1e5cb3fc001169a204507a084435a211", null ],
-    [ "ID", "db/de6/a27927.html#a63fe7a87e019780d20e86e48efb02eac", null ],
-    [ "nameFemale", "db/de6/a27927.html#ad0380caf2526715faaddc9330062d90a", null ],
-    [ "nameMale", "db/de6/a27927.html#a74a767731c96d3d815ddde5a06f68599", null ]
+    [ "Class", "db/de6/a27927.html#abaaa0cd4d1b7f3ef5b297c5afdbc99fe", null ],
+    [ "Gender", "db/de6/a27927.html#aba6251a7020c6e66b9fc7a21859df271", null ],
+    [ "ItemId", "db/de6/a27927.html#a7d17ef6151f6b746223e44164ab5c20d", null ],
+    [ "Race", "db/de6/a27927.html#aee768679c4b8ee7cd28ea3fa899206e3", null ]
 ];

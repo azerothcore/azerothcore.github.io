@@ -1,8 +1,10 @@
 var a27375 =
 [
-    [ "npc_artoriusAI", "d9/df6/a27379.html", "d9/df6/a27379" ],
-    [ "npc_artorius", "d6/d10/a27375.html#a832831aa19ef3694eee5bbae4d1d39e1", null ],
-    [ "GetAI", "d6/d10/a27375.html#a2563f90fe1fd35c6bcf3f2296652981d", null ],
-    [ "OnGossipHello", "d6/d10/a27375.html#a2c91fcd777d0e0e7ab4927290ca04359", null ],
-    [ "OnGossipSelect", "d6/d10/a27375.html#ae0d8b09e4f7ad830cac9d82ef2d2fe57", null ]
+    [ "go_evil_book_for_dummies", "d6/d10/a27375.html#a69f599910bce0070c6b1af547c459b72", null ],
+    [ "HasLeatherSpecialty", "d6/d10/a27375.html#a3d755fa8777f33a318ffa6f004aecbed", null ],
+    [ "OnGossipHello", "d6/d10/a27375.html#aeb29351e2faf135298419488eb16cc7e", null ],
+    [ "OnGossipSelect", "d6/d10/a27375.html#ac4bc1c682b75c436a4d3fff118a20ca4", null ],
+    [ "SendActionMenu", "d6/d10/a27375.html#a0aa21b4619ea5cc8229eb56e09d3233d", null ],
+    [ "SendConfirmLearn", "d6/d10/a27375.html#a11a605c576a3c81b5ed96d413ec20f57", null ],
+    [ "SendConfirmUnlearn", "d6/d10/a27375.html#af9c10b0423327d8644020e8f5e26a603", null ]
 ];

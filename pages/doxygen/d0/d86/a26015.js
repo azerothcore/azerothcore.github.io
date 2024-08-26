@@ -1,10 +1,10 @@
 var a26015 =
 [
-    [ "Load", "d0/d86/a26015.html#a4330a13b4144aa0a2e299c5cb00b1aea", null ],
-    [ "PrepareAuraScript", "d0/d86/a26015.html#ae04fa1b54e4b0219d1dcdf998e708c29", null ],
-    [ "Register", "d0/d86/a26015.html#a3031d32b7366f7f707cbb69e3cb96fc8", null ],
-    [ "Split", "d0/d86/a26015.html#aa28fe4ba6a8a501318b6d1d49a2fa9b9", null ],
-    [ "groupSize", "d0/d86/a26015.html#aa1e61b128f63c802dc623be551657df1", null ],
-    [ "minHpPct", "d0/d86/a26015.html#a279f1a2b232a7be981e4315c9e8595e4", null ],
-    [ "remainingAmount", "d0/d86/a26015.html#ad00a550f82d6b3ae77c3112c753de60b", null ]
+    [ "CheckProc", "d0/d86/a26015.html#a23dfb39522f7a5437af439ef567d6ec6", null ],
+    [ "HandleEffectApply", "d0/d86/a26015.html#ab83f17b45edc5dba8f4b3f3fbc88c626", null ],
+    [ "HandleEffectRemove", "d0/d86/a26015.html#a7bab07fde0fb18e89388e1bc4c72c165", null ],
+    [ "HandleProc", "d0/d86/a26015.html#a8352d7d9376f149fa227f7ca983e2660", null ],
+    [ "PrepareAuraScript", "d0/d86/a26015.html#a309dabfa452d3279e7fb47a8e4784779", null ],
+    [ "Register", "d0/d86/a26015.html#a3d020d3025f0ad086c43b4239205cd94", null ],
+    [ "Validate", "d0/d86/a26015.html#ac3a5505808b3a7e718071f1202805ac5", null ]
 ];

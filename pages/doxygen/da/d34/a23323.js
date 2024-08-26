@@ -1,8 +1,7 @@
 var a23323 =
 [
-    [ "boss_mekgineer_steamrigger", "da/d34/a23323.html#a930dcbade7135d0c689bcc0718815547", null ],
-    [ "JustDied", "da/d34/a23323.html#a79272c233bc0256cca62700fc7a01421", null ],
-    [ "JustEngagedWith", "da/d34/a23323.html#aa75dea00ffd73b45ba5115ea1e48a006", null ],
-    [ "JustSummoned", "da/d34/a23323.html#a7a55a9dffaf239e73962356eb0fa88ad", null ],
-    [ "KilledUnit", "da/d34/a23323.html#a84374438458cb7e034f91d4b65cd22f1", null ]
+    [ "boss_hydromancer_thespia", "da/d34/a23323.html#a5747c2da9914dcf4118ee0fb37a3a3fd", null ],
+    [ "JustDied", "da/d34/a23323.html#ad0662daabd636bbf544a6791187d71fa", null ],
+    [ "JustEngagedWith", "da/d34/a23323.html#af230e57ec259e5c92c4034a674d1b6a5", null ],
+    [ "KilledUnit", "da/d34/a23323.html#ae1bb4819867ef5718cb5d9130d62fa20", null ]
 ];

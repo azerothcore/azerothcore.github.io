@@ -1,10 +1,16 @@
 var a01415 =
 [
-    [ "ObjectWorldLoader", "d1/dab/a09151.html", "d1/dab/a09151" ],
-    [ "AddObjectHelper", "de/d70/a01415.html#a68fc5e61b78a475e024a4f3e0f1f7197", null ],
-    [ "AddObjectHelper", "de/d70/a01415.html#a0881e3c2e2147fefcd2460f09f1fce04", null ],
-    [ "AddObjectHelper", "de/d70/a01415.html#af04925817412dce977fbf9dd300f0d94", null ],
-    [ "LoadHelper", "de/d70/a01415.html#a230249fa0e98051e01a6fb2b61b3c74d", null ],
-    [ "LoadHelper", "de/d70/a01415.html#afee9d1c6de56ec77cc8f4c9936f1d7fd", null ],
-    [ "LoadHelper", "de/d70/a01415.html#a58b3bbef087ecc286d081a0f8d4c1fde", null ]
+    [ "instance_nexus", "de/d6b/a19235.html", "de/d6b/a19235" ],
+    [ "instance_nexus::instance_nexus_InstanceMapScript", "dd/d5c/a19239.html", "dd/d5c/a19239" ],
+    [ "npc_crystalline_frayer", "db/d26/a19243.html", "db/d26/a19243" ],
+    [ "npc_crystalline_frayer::npc_crystalline_frayerAI", "df/d68/a19247.html", "df/d68/a19247" ],
+    [ "eFrayer", "de/d70/a01415.html#afccbdf6b1fcd1d08834c371ae089cd34", [
+      [ "SPELL_SUMMON_SEED_POD", "de/d70/a01415.html#afccbdf6b1fcd1d08834c371ae089cd34a574104b14cbcd24794ab8666fa8dbd76", null ],
+      [ "SPELL_SEED_POD", "de/d70/a01415.html#afccbdf6b1fcd1d08834c371ae089cd34ac55a6fa8082947a3cf2c03a7a6698eb7", null ],
+      [ "SPELL_AURA_OF_REGENERATION", "de/d70/a01415.html#afccbdf6b1fcd1d08834c371ae089cd34a16a68348d55363d0fa476afad65ed165", null ],
+      [ "SPELL_CRYSTAL_BLOOM", "de/d70/a01415.html#afccbdf6b1fcd1d08834c371ae089cd34a2628113ed0f8c81fec3cbb2dd01123f7", null ],
+      [ "SPELL_ENSNARE", "de/d70/a01415.html#afccbdf6b1fcd1d08834c371ae089cd34aa84bf40a2daa426466ad7322a0ab325d", null ]
+    ] ],
+    [ "AddSC_instance_nexus", "de/d70/a01415.html#a77d0cce0724befee65efa7555f62f8f1", null ],
+    [ "doorData", "de/d70/a01415.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
 ];

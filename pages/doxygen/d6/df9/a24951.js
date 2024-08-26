@@ -1,6 +1,8 @@
 var a24951 =
 [
-    [ "HandleScript", "d6/df9/a24951.html#aa6104370d5700e43223c7138e941ba05", null ],
-    [ "PrepareSpellScript", "d6/df9/a24951.html#ae4177c84bf0c63aadaa7486603df04d0", null ],
-    [ "Register", "d6/df9/a24951.html#a88a8534a1dd825a14fd6b10933986eb7", null ]
+    [ "CheckIfCorpseNear", "d6/df9/a24951.html#afdf1bca2e23057d99962fb1000e9245e", null ],
+    [ "HandleDummy", "d6/df9/a24951.html#a9e1bf4884a32e515d8e6b3edf7f5d462", null ],
+    [ "PrepareSpellScript", "d6/df9/a24951.html#af4a1aa22ed9ccf4df29d05d3f7fb0214", null ],
+    [ "Register", "d6/df9/a24951.html#a22f4c5321769384b2b708f19edea1a66", null ],
+    [ "Validate", "d6/df9/a24951.html#a855fdba79c4fa087253505ed419b9966", null ]
 ];

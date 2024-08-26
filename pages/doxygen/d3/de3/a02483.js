@@ -1,5 +1,5 @@
 var a02483 =
 [
-    [ "gm_commandscript", "d1/de3/a11315.html", "d1/de3/a11315" ],
-    [ "AddSC_gm_commandscript", "d3/de3/a02483.html#a65c7b128fdf4dd9807ef514c24918e7b", null ]
+    [ "OutdoorPvP_grizzly_hills", "db/d05/a22463.html", "db/d05/a22463" ],
+    [ "AddSC_outdoorpvp_gh", "d3/de3/a02483.html#a04eaa29ec2e34f71e4f7addacc0405c0", null ]
 ];

@@ -1,20 +1,5 @@
 var a28503 =
 [
-    [ "Record", "de/ddd/a28503.html#a51a9cc006bb8530fe76452c1bbe7985c", null ],
-    [ "Record", "de/ddd/a28503.html#a51a9cc006bb8530fe76452c1bbe7985c", null ],
-    [ "getByte", "de/ddd/a28503.html#ab1897952fa01e930caffa262519645c5", null ],
-    [ "getFloat", "de/ddd/a28503.html#a3e6402dcebb5adc1becccdc2bbf39758", null ],
-    [ "getFloat", "de/ddd/a28503.html#a3e6402dcebb5adc1becccdc2bbf39758", null ],
-    [ "getInt", "de/ddd/a28503.html#a80c4d8d3ae4a5a42ed1dc9a9edcd6747", null ],
-    [ "getInt", "de/ddd/a28503.html#a80c4d8d3ae4a5a42ed1dc9a9edcd6747", null ],
-    [ "getString", "de/ddd/a28503.html#a3e330e9888e740bc16d4ba173c90c8d9", null ],
-    [ "getString", "de/ddd/a28503.html#a3e330e9888e740bc16d4ba173c90c8d9", null ],
-    [ "getUInt", "de/ddd/a28503.html#ace0215b88ffbaf83c69a82cde51cd45f", null ],
-    [ "getUInt", "de/ddd/a28503.html#ace0215b88ffbaf83c69a82cde51cd45f", null ],
-    [ "operator=", "de/ddd/a28503.html#a25c6e7d3b28aade82eb52d41515f0427", null ],
-    [ "DBCFile", "de/ddd/a28503.html#a6c4f02b14caa99337bbe77b30e5615ab", null ],
-    [ "DBCFile::Iterator", "de/ddd/a28503.html#a56d48f82a62e25038bf9cf339e608083", null ],
-    [ "Iterator", "de/ddd/a28503.html#a9830fc407400559db7e7783cc10a9394", null ],
-    [ "file", "de/ddd/a28503.html#adffc3b9545883356dd9bed0a0613a1fe", null ],
-    [ "offset", "de/ddd/a28503.html#ae76eb8b329fb6d580aa42484de46c95e", null ]
+    [ "NotFound", "de/ddd/a28503.html#a4739d3e517296da2f645383194b13a62", null ],
+    [ "NotFound", "de/ddd/a28503.html#a4739d3e517296da2f645383194b13a62", null ]
 ];

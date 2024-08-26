@@ -1,8 +1,10 @@
 var a24287 =
 [
-    [ "go_skull_pile", "df/d9c/a24287.html#a9cf8dfef432c4967c60f66e645585770", null ],
-    [ "OnGossipHello", "df/d9c/a24287.html#ac95d39ea03e78fee2a10603d8c7f8840", null ],
-    [ "OnGossipSelect", "df/d9c/a24287.html#afb8e8db2705355e975fa48c98e09f20b", null ],
-    [ "SendActionMenu", "df/d9c/a24287.html#a048dd224b46ead864958ad524d76167f", null ],
-    [ "_result", "df/d9c/a24287.html#af74fcd75404c0886128401d661067394", null ]
+    [ "npc_isla_starmaneAI", "df/d9c/a24287.html#a0cb655d324ddde173dcfdee069c0f694", null ],
+    [ "JustDied", "df/d9c/a24287.html#ac7132ac84a64bccbcf8895cbc4a86f9c", null ],
+    [ "JustEngagedWith", "df/d9c/a24287.html#ab40287c6bfc67b09bf7336ea53116cab", null ],
+    [ "JustRespawned", "df/d9c/a24287.html#a69b395a9b9504737109870c5e8db74c8", null ],
+    [ "UpdateEscortAI", "df/d9c/a24287.html#af4b8c80e7443bb671be253238b124910", null ],
+    [ "WaypointReached", "df/d9c/a24287.html#a5d00583afa4e811e4f3cb8400787a990", null ],
+    [ "events", "df/d9c/a24287.html#a53cfabbe7cf85ceb19286d67bb23f2ec", null ]
 ];

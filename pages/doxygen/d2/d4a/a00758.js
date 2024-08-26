@@ -1,35 +1,103 @@
 var a00758 =
 [
-    [ "CreatureAI", "de/d62/a06055.html", "de/d62/a06055" ],
-    [ "TIME_INTERVAL_LOOK", "d2/d4a/a00758.html#a8de08a341cdd207e19eef425c2f5f152", null ],
-    [ "VISIBILITY_RANGE", "d2/d4a/a00758.html#a5548091cca58d569e4226b6915ec8cb2", null ],
-    [ "CreatureBoundary", "d2/d4a/a00758.html#a7994a32cb10f6de9d90e32ef2d6c1f37", null ],
-    [ "Permitions", "d2/d4a/a00758.html#adf806592547de59418c6070d69c5efb9", [
-      [ "PERMIT_BASE_NO", "d2/d4a/a00758.html#adf806592547de59418c6070d69c5efb9a3ea8686bf6c00259f435df8f34da17c0", null ],
-      [ "PERMIT_BASE_IDLE", "d2/d4a/a00758.html#adf806592547de59418c6070d69c5efb9aa30fb6bbae2f275b7c269df6b7bac2c0", null ],
-      [ "PERMIT_BASE_REACTIVE", "d2/d4a/a00758.html#adf806592547de59418c6070d69c5efb9a8781eb0d588151b618bd98b03423dc58", null ],
-      [ "PERMIT_BASE_PROACTIVE", "d2/d4a/a00758.html#adf806592547de59418c6070d69c5efb9a06a019c60b174cae59e682299512d78c", null ],
-      [ "PERMIT_BASE_FACTION_SPECIFIC", "d2/d4a/a00758.html#adf806592547de59418c6070d69c5efb9a9935ee057ed82483ff6a6363709db059", null ],
-      [ "PERMIT_BASE_SPECIAL", "d2/d4a/a00758.html#adf806592547de59418c6070d69c5efb9a01dc7d3add2acacf44721592378df415", null ]
+    [ "BoardCell", "d4/d39/a12239.html", "d4/d39/a12239" ],
+    [ "npc_echo_of_medivh", "d7/df4/a12243.html", "d7/df4/a12243" ],
+    [ "npc_chesspiece", "dd/d4f/a12247.html", "dd/d4f/a12247" ],
+    [ "npc_chess_move_trigger", "da/def/a12251.html", "da/def/a12251" ],
+    [ "spell_control_piece", "d6/d9e/a12255.html", "d6/d9e/a12255" ],
+    [ "ChessEventTalks", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557d", [
+      [ "TALK_EVENT_BEGIN", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557da4693097f8b68000531f5ad6fe610072f", null ],
+      [ "TALK_MEDIHV_CHEAT", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557dadc33e864d043fc13e86d02717d78c17a", null ],
+      [ "TALK_MEDIHV_CHEAT_EMOTE", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557da81d26fd6e1b3bf0d24ce6fbd53c31534", null ],
+      [ "TALK_PLAYER_LOOSE_PAWN", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557da85cc3f1adfadc8110b9dfbb78a30985d", null ],
+      [ "TALK_PLAYER_LOOSE_ROOK", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557daa790faa3ded3ef9af3dfb54ba04923a0", null ],
+      [ "TALK_PLAYER_LOOSE_KNIGHT", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557da4c6c6a0651be3376429e1b127a3e59d7", null ],
+      [ "TALK_PLAYER_LOOSE_BISHOP", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557da6428da0e86c6a0fc017a6b7dc6f67f21", null ],
+      [ "TALK_PLAYER_LOOSE_QUEEN", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557da4f3eeada40b9637b83fa5f4c69126968", null ],
+      [ "TALK_PLAYER_LOOSE_KING", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557da2cbff980fbdf90ac11779d99cec3cdc3", null ],
+      [ "TALK_MEDIVH_LOOSE_PAWN", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557da5cb3dad6aa4a62e439835d8c1b8994ed", null ],
+      [ "TALK_MEDIVH_LOOSE_ROOK", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557da4d0a57ee2de7017a7f32f2eba8798c51", null ],
+      [ "TALK_MEDIVH_LOOSE_KNIGHT", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557dabb1459da832b3d2d1efbd8380ee976bb", null ],
+      [ "TALK_MEDIVH_LOOSE_BISHOP", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557da5c0d93cbdd250c15de62e4122ad0ecb5", null ],
+      [ "TALK_MEDIVH_LOOSE_QUEEN", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557da8befe39d4d62a4701f1ec063d02e9cac", null ],
+      [ "TALK_MEDIVH_LOOSE_KING", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557dae3ceccc5908c2e85bade374da1205ba0", null ],
+      [ "TALK_CHECKMATE", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557da3fe3757f298ff710e10cf46fa4344d81", null ],
+      [ "TALK_EVENT_ENDED", "d2/d4a/a00758.html#a8b868f145323416ed49f818a8dc9557da3af3ae11d5d4333816e4c9ffa36374d0", null ]
     ] ],
-    [ "SCEquip", "d2/d4a/a00758.html#a8561d766fce1bb059293efa6256c9717", [
-      [ "EQUIP_NO_CHANGE", "d2/d4a/a00758.html#a8561d766fce1bb059293efa6256c9717a52eb65358cd8ffabf53e7104b78e95a2", null ],
-      [ "EQUIP_UNEQUIP", "d2/d4a/a00758.html#a8561d766fce1bb059293efa6256c9717a435fadd0e5fa209afb6fd9363afbe54c", null ]
+    [ "ChessPieceSearchType", "d2/d4a/a00758.html#ab68224849615ea499832e57768e34427", [
+      [ "CHESS_PIECE_SEARCH_TYPE_CLOSEST", "d2/d4a/a00758.html#ab68224849615ea499832e57768e34427a6947e3d2e11d159a5a1e525ae4090907", null ],
+      [ "CHESS_PIECE_SEARCH_TYPE_RANDOM", "d2/d4a/a00758.html#ab68224849615ea499832e57768e34427a3602314ef3711007bb5e2991b3b3db39", null ]
     ] ],
-    [ "SelectEffect", "d2/d4a/a00758.html#a8b21f6463e7db78be55dee9160352869", [
-      [ "SELECT_EFFECT_DONTCARE", "d2/d4a/a00758.html#a8b21f6463e7db78be55dee9160352869a391dc42f0a158e8fdffbc0b18d9250e9", null ],
-      [ "SELECT_EFFECT_DAMAGE", "d2/d4a/a00758.html#a8b21f6463e7db78be55dee9160352869ae1b4806793cac829bda8b64d0233adae", null ],
-      [ "SELECT_EFFECT_HEALING", "d2/d4a/a00758.html#a8b21f6463e7db78be55dee9160352869a7c5e00f75a32eb7e8f1a5ea2dcb7d404", null ],
-      [ "SELECT_EFFECT_AURA", "d2/d4a/a00758.html#a8b21f6463e7db78be55dee9160352869a5e73a49eeb722bf496ce76b4448280e5", null ]
+    [ "EchoOfMedivhGossipOptions", "d2/d4a/a00758.html#a0544772b6f5c8b343db16ef7687a9b1b", [
+      [ "MEDIVH_GOSSIP_START_PVE", "d2/d4a/a00758.html#a0544772b6f5c8b343db16ef7687a9b1bac2b767c4ef16336216404d645a4cf321", null ],
+      [ "MEDIVH_GOSSIP_RESTART", "d2/d4a/a00758.html#a0544772b6f5c8b343db16ef7687a9b1ba62624203ab6be95ae8c4f924e9ae685b", null ],
+      [ "MEDIVH_GOSSIP_START_PVP", "d2/d4a/a00758.html#a0544772b6f5c8b343db16ef7687a9b1ba7e5b57a30ed4e17419134053fd123866", null ]
     ] ],
-    [ "SelectTargetType", "d2/d4a/a00758.html#a09291ebbaa06245b9f65d046a8b67621", [
-      [ "SELECT_TARGET_DONTCARE", "d2/d4a/a00758.html#a09291ebbaa06245b9f65d046a8b67621a3a0e529ee20cdfb171df9e8d67f0f749", null ],
-      [ "SELECT_TARGET_SELF", "d2/d4a/a00758.html#a09291ebbaa06245b9f65d046a8b67621ae0e226db3f7e8c664ce1958c8fdc8e4a", null ],
-      [ "SELECT_TARGET_SINGLE_ENEMY", "d2/d4a/a00758.html#a09291ebbaa06245b9f65d046a8b67621a371e0b7a2a0f1bc7809a2651c1ee6261", null ],
-      [ "SELECT_TARGET_AOE_ENEMY", "d2/d4a/a00758.html#a09291ebbaa06245b9f65d046a8b67621af8f6f83b9b85f662ac5ce0dfb463daa4", null ],
-      [ "SELECT_TARGET_ANY_ENEMY", "d2/d4a/a00758.html#a09291ebbaa06245b9f65d046a8b67621a25807921690235c31bdc32b599e04508", null ],
-      [ "SELECT_TARGET_SINGLE_FRIEND", "d2/d4a/a00758.html#a09291ebbaa06245b9f65d046a8b67621a316f9dbbb2b5f3bc0667436767f540cb", null ],
-      [ "SELECT_TARGET_AOE_FRIEND", "d2/d4a/a00758.html#a09291ebbaa06245b9f65d046a8b67621a21f9e37e67ab22ebd4bec53351757e38", null ],
-      [ "SELECT_TARGET_ANY_FRIEND", "d2/d4a/a00758.html#a09291ebbaa06245b9f65d046a8b67621a0af0a125ae9df4fecd57d759643832b3", null ]
-    ] ]
+    [ "KarazhanChessNPCs", "d2/d4a/a00758.html#aad26009b924c030eec9ddb7ef6ffde13", [
+      [ "NPC_CHESS_MOVE_TRIGGER", "d2/d4a/a00758.html#aad26009b924c030eec9ddb7ef6ffde13a98ea5b9ea5b9c6a24b53016e0d653519", null ]
+    ] ],
+    [ "KarazhanChessOrientationType", "d2/d4a/a00758.html#a776f00400884bd1d84aefbb93a4b4b7e", [
+      [ "ORI_SE", "d2/d4a/a00758.html#a776f00400884bd1d84aefbb93a4b4b7ea824f6a8582c4298cd3105c562e3b7c0a", null ],
+      [ "ORI_S", "d2/d4a/a00758.html#a776f00400884bd1d84aefbb93a4b4b7ea6847e1649e8f840015178e8270f8b21f", null ],
+      [ "ORI_SW", "d2/d4a/a00758.html#a776f00400884bd1d84aefbb93a4b4b7eaaa456b1eb23073b0ffd877d031b91083", null ],
+      [ "ORI_W", "d2/d4a/a00758.html#a776f00400884bd1d84aefbb93a4b4b7ea3d4da4d4284ea30c63f16bf9d8e727ff", null ],
+      [ "ORI_NW", "d2/d4a/a00758.html#a776f00400884bd1d84aefbb93a4b4b7ea6b35270c005580262c80aed270fc84ea", null ],
+      [ "ORI_N", "d2/d4a/a00758.html#a776f00400884bd1d84aefbb93a4b4b7ea70598bbec629e542de83e69a920d1af6", null ],
+      [ "ORI_NE", "d2/d4a/a00758.html#a776f00400884bd1d84aefbb93a4b4b7ea1b143867def82033bba19ae4dca7a628", null ],
+      [ "ORI_E", "d2/d4a/a00758.html#a776f00400884bd1d84aefbb93a4b4b7ea5ba4627583e29f7ea8ba97cd92289fff", null ],
+      [ "MAX_ORI", "d2/d4a/a00758.html#a776f00400884bd1d84aefbb93a4b4b7ea9ee6b6a5497b2bf4b5e8ed9e5d649383", null ]
+    ] ],
+    [ "KarazhanChessPiecesSpells", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cff", [
+      [ "SPELL_KING_H_1", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffa9bff823be62e141f0b7adffb1ebcc3ba", null ],
+      [ "SPELL_KING_A_1", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffa6c390167d44074b21b96b84f032411f3", null ],
+      [ "SPELL_QUEEN_H_1", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffaaa5fa1741404ae60f7e22ab967818a28", null ],
+      [ "SPELL_QUEEN_A_1", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffa7d44034f93bebf06c9cfdd19180ec54b", null ],
+      [ "SPELL_BISHOP_H_1", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffa0404f0380d45b0585b17dc08556b768b", null ],
+      [ "SPELL_BISHOP_A_1", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffa2ec7b6902e0b67ac3386718dfee83c1d", null ],
+      [ "SPELL_KNIGHT_H_1", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffa1ff426216096a91ca8fd563d250a6cab", null ],
+      [ "SPELL_KNIGHT_A_1", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffac477ca3e4a9cac1e1f4d9bf2d1c5fa39", null ],
+      [ "SPELL_ROOK_H_1", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffa2b2d792b4c3e585f0f2951abeccebf55", null ],
+      [ "SPELL_ROOK_A_1", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffadd8801c9c30af9f967c58e515baa36f6", null ],
+      [ "SPELL_PAWN_H_1", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffa6cc7e8f379dd656b539f3a6f095e516a", null ],
+      [ "SPELL_PAWN_A_1", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffa267f1511a952094f60889f8ecec5634b", null ],
+      [ "SPELL_KING_H_2", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffa3bcbae149e306622ea2c1b4c0f45dc6e", null ],
+      [ "SPELL_KING_A_2", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffaeb94242cac4f4cf099fc142eb3417416", null ],
+      [ "SPELL_QUEEN_H_2", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffa98cd4d4fa8d7399ebc6202975ec3974a", null ],
+      [ "SPELL_QUEEN_A_2", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffab13a1aae8b85d53e3b7a3667d2cb9988", null ],
+      [ "SPELL_BISHOP_H_2", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffae854a886812965077804a790cfdb546f", null ],
+      [ "SPELL_BISHOP_A_2", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffa756dfbd56ba9a107542747b8e8db88af", null ],
+      [ "SPELL_KNIGHT_H_2", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffac4a617a669a6454d394faebc6a06497d", null ],
+      [ "SPELL_KNIGHT_A_2", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffab0ee8ff5a96094148921a3aaedb4d18b", null ],
+      [ "SPELL_ROOK_H_2", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffa0b75a9d3f7e5f605adcf9701c914accd", null ],
+      [ "SPELL_ROOK_A_2", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffa5c7c1f8d785118286366aadd3fba8419", null ],
+      [ "SPELL_PAWN_H_2", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffa9584a3c8eb1d6a3c1a4915c5bed65c8c", null ],
+      [ "SPELL_PAWN_A_2", "d2/d4a/a00758.html#ae4e70411a252b8e3bb17ea3631378cffa5e46c5549fa0882d99fa53b58aebeaf0", null ]
+    ] ],
+    [ "KarazhanChessSpells", "d2/d4a/a00758.html#a93de1abbe5ca9b0310834761850021cc", [
+      [ "SPELL_MOVE_1", "d2/d4a/a00758.html#a93de1abbe5ca9b0310834761850021cca692ff4f1cc0311bbbd34a8a3f2eb905a", null ],
+      [ "SPELL_MOVE_2", "d2/d4a/a00758.html#a93de1abbe5ca9b0310834761850021cca225e78ab4733a039dab2296fa40dad5d", null ],
+      [ "SPELL_MOVE_3", "d2/d4a/a00758.html#a93de1abbe5ca9b0310834761850021cca8af9a1bece1ad080d3c270900bf86fc8", null ],
+      [ "SPELL_MOVE_4", "d2/d4a/a00758.html#a93de1abbe5ca9b0310834761850021ccac61da5837abe9b9f609b1496b04a68b1", null ],
+      [ "SPELL_MOVE_5", "d2/d4a/a00758.html#a93de1abbe5ca9b0310834761850021cca3a9bfced1cc145c51dd4c58b68e68129", null ],
+      [ "SPELL_MOVE_6", "d2/d4a/a00758.html#a93de1abbe5ca9b0310834761850021cca219975e90d2895651c2efa01e8927bc0", null ],
+      [ "SPELL_MOVE_GENERIC", "d2/d4a/a00758.html#a93de1abbe5ca9b0310834761850021ccafec1e7f2fc128374410f53054710247c", null ],
+      [ "SPELL_CHANGE_FACING", "d2/d4a/a00758.html#a93de1abbe5ca9b0310834761850021cca970a29148ef19b0f22cee4694426a6b6", null ],
+      [ "SPELL_MOVE_MARKER", "d2/d4a/a00758.html#a93de1abbe5ca9b0310834761850021cca6fbd68967c7271ea6c14ae38243ae4b3", null ],
+      [ "SPELL_MOVE_COOLDOWN", "d2/d4a/a00758.html#a93de1abbe5ca9b0310834761850021cca50500c2dd9a300d3600552c41033c925", null ],
+      [ "SPELL_CONTROL_PIECE", "d2/d4a/a00758.html#a93de1abbe5ca9b0310834761850021ccacb42ff6ac051bc2adccc227f98cd5acd", null ],
+      [ "SPELL_RECENTLY_INGAME", "d2/d4a/a00758.html#a93de1abbe5ca9b0310834761850021ccad45a23df32f5ac4029b878f7889df13c", null ],
+      [ "SPELL_FURY_OF_MEDIVH_FIRE", "d2/d4a/a00758.html#a93de1abbe5ca9b0310834761850021ccaf2f13cd2ee61b6733ce1ade32e2bf1ab", null ],
+      [ "SPELL_MELEE_ATTACK_TIMER", "d2/d4a/a00758.html#a93de1abbe5ca9b0310834761850021cca25eafc4f154a34317fe4d77d28883c80", null ],
+      [ "SPELL_MELEE_ATTACK_TIMER_TRIGGER", "d2/d4a/a00758.html#a93de1abbe5ca9b0310834761850021cca29d77be6ebfbe1c9287c7ce65ef918be", null ],
+      [ "SPELL_MELEE_DAMAGE", "d2/d4a/a00758.html#a93de1abbe5ca9b0310834761850021ccaef9adbc6fe7ba78c484dc6fd2eb433b7", null ]
+    ] ],
+    [ "KarazhanChessTeam", "d2/d4a/a00758.html#aa4645cfc0b7a0584b9ecbd37750353c9", [
+      [ "DEAD_ALLIANCE", "d2/d4a/a00758.html#aa4645cfc0b7a0584b9ecbd37750353c9a5017a5153042b7b36d8553b0ef124d6f", null ],
+      [ "DEAD_HORDE", "d2/d4a/a00758.html#aa4645cfc0b7a0584b9ecbd37750353c9ad0837cac4ab4436c80232204ecf0ff86", null ]
+    ] ],
+    [ "AddSC_boss_chess_event", "d2/d4a/a00758.html#ac8fad6c2a1b96f0fad3a0b70b59b134a", null ],
+    [ "IsFriendly", "d2/d4a/a00758.html#a867986eb772af8202e29d75011c577a5", null ],
+    [ "MAX_COL", "d2/d4a/a00758.html#a7b89596bc6b3e9c6bafe4fb48c9ae7ec", null ],
+    [ "MAX_ROW", "d2/d4a/a00758.html#a402b72f8be30cf4ebdbe49113ad0347f", null ],
+    [ "orientations", "d2/d4a/a00758.html#a2165168ff8b2e0eb34f60d2a911a2f43", null ]
 ];

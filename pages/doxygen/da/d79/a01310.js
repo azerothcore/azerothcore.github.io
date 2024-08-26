@@ -1,54 +1,38 @@
 var a01310 =
 [
-    [ "FriendInfo", "d5/de5/a08379.html", "d5/de5/a08379" ],
-    [ "PlayerSocial", "d0/dfa/a08383.html", "d0/dfa/a08383" ],
-    [ "SocialMgr", "d3/d9a/a08387.html", "d3/d9a/a08387" ],
-    [ "SOCIALMGR_FRIEND_LIMIT", "da/d79/a01310.html#afd83098f3a1e072e6ae7e54b799c5a49", null ],
-    [ "SOCIALMGR_IGNORE_LIMIT", "da/d79/a01310.html#ad75bdebf3d450d178eb4945e1b484ff3", null ],
-    [ "sSocialMgr", "da/d79/a01310.html#a92fb5a2c05247f56e16516cd911d570c", null ],
-    [ "FriendsResult", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6", [
-      [ "FRIEND_DB_ERROR", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a4078ca445ad8622845aafa78d7a16062", null ],
-      [ "FRIEND_LIST_FULL", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6af55bcbfcf673137bf0d168670d716083", null ],
-      [ "FRIEND_ONLINE", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a203bccef891dbbf575e4c76373f0f19d", null ],
-      [ "FRIEND_OFFLINE", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6aeb8cdbccefb6787280af37c18fefe642", null ],
-      [ "FRIEND_NOT_FOUND", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a3c63eb65c08b5deffd0a8e52e8622c8d", null ],
-      [ "FRIEND_REMOVED", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6abbe1415289fe7fc9fa30ab86ce3e228a", null ],
-      [ "FRIEND_ADDED_ONLINE", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a4b28b362520b714bca328eca6606a504", null ],
-      [ "FRIEND_ADDED_OFFLINE", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a32b4a0f96afd3fb80c64a5cb8d9b0fbd", null ],
-      [ "FRIEND_ALREADY", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a2e8be35fe935dc75714c2f8564cc09d7", null ],
-      [ "FRIEND_SELF", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6ab4dc9cfb6e966bdaf10deafaea3728a7", null ],
-      [ "FRIEND_ENEMY", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a2a64db13f41b90cdbf9364e45607720b", null ],
-      [ "FRIEND_IGNORE_FULL", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a0adc28c49b234ffab05c179e196eff3d", null ],
-      [ "FRIEND_IGNORE_SELF", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6aaa721075fb8f1fbfda9da8c1de49f63c", null ],
-      [ "FRIEND_IGNORE_NOT_FOUND", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a8c786e16e2a63c34d961276b484b595e", null ],
-      [ "FRIEND_IGNORE_ALREADY", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6aab82fe99f624c60d99d079170e153c20", null ],
-      [ "FRIEND_IGNORE_ADDED", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a6a2bbe4239fa0fc43704eb5ca72a3add", null ],
-      [ "FRIEND_IGNORE_REMOVED", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a0ea8886f8d39f467ec504274c4e3ad22", null ],
-      [ "FRIEND_IGNORE_AMBIGUOUS", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a68f96a81d73ae2cd5bf6197a0b0eda00", null ],
-      [ "FRIEND_MUTE_FULL", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a400b6883120411ec56a2dfbd882d4a9a", null ],
-      [ "FRIEND_MUTE_SELF", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6aafe1750fe69053e1f187e49ee71dbe2d", null ],
-      [ "FRIEND_MUTE_NOT_FOUND", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a96a7b627d818f85fe624a08d74e7f988", null ],
-      [ "FRIEND_MUTE_ALREADY", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6af981840d0b8e73adf65fb6e955bd7683", null ],
-      [ "FRIEND_MUTE_ADDED", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a9888f4108bcd2fbf360ffa89ad75c4d1", null ],
-      [ "FRIEND_MUTE_REMOVED", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a7270ef148661ace387f52103905d195f", null ],
-      [ "FRIEND_MUTE_AMBIGUOUS", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6ae215b63983c7ca72200e8f4d04e5bc64", null ],
-      [ "FRIEND_UNK1", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a1e6d34e24913928a0d022781725e06e4", null ],
-      [ "FRIEND_UNK2", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6aa5d0d1f4a55638adce21fe455c9260a0", null ],
-      [ "FRIEND_UNK3", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6a7129dc2f5f014f3a5c8754e5967c7493", null ],
-      [ "FRIEND_UNKNOWN", "da/d79/a01310.html#a0e8e0c842aa4e8be9a854c430b3af9b6af5cefc89c7948b429922f49807af1349", null ]
+    [ "DataHeader", "da/d79/a01310.html#a042491ef36459046f3866e90f15aae0d", null ],
+    [ "HallsOfStoneScriptName", "da/d79/a01310.html#a9fc40bc4c1a59259e2da1d545d7841df", null ],
+    [ "Encounter", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463", [
+      [ "BOSS_KRYSTALLUS", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463a7ba125997c106b951e55bf342c21bcd1", null ],
+      [ "BOSS_MAIDEN_OF_GRIEF", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c", null ],
+      [ "BOSS_TRIBUNAL_OF_AGES", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463ac7f6f9cbdbb2cd35ff344110e2aa662b", null ],
+      [ "BOSS_SJONNIR", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463af5f7dc4694276a77539caaf56919d5a7", null ],
+      [ "BRANN_BRONZEBEARD", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463aa20c9c8a39f4fd5ef266aa91c761f64c", null ],
+      [ "BRANN_DOOR", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463a7a0d142861e9dbe33e4d822c48020b7d", null ],
+      [ "MAX_ENCOUNTER", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463a7913656ef56deb3793c0c5f3d999d80d", null ],
+      [ "DATA_BRANN_ACHIEVEMENT", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463aa0bf8140afe40c0988666448e72ea45e", null ],
+      [ "DATA_SJONNIR_ACHIEVEMENT", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463a46d75eb0814ac6bb50b5053af850d417", null ]
     ] ],
-    [ "FriendStatus", "da/d79/a01310.html#a55ec778c8e53f4a36f26e03a8f130104", [
-      [ "FRIEND_STATUS_OFFLINE", "da/d79/a01310.html#a55ec778c8e53f4a36f26e03a8f130104ab799ab9b3c4a9ce9cac3a328d9d864da", null ],
-      [ "FRIEND_STATUS_ONLINE", "da/d79/a01310.html#a55ec778c8e53f4a36f26e03a8f130104af68a6671b04623c1cef7abcf00bbea31", null ],
-      [ "FRIEND_STATUS_AFK", "da/d79/a01310.html#a55ec778c8e53f4a36f26e03a8f130104a6c9b961dd0ede1a38e8c396c8bca4710", null ],
-      [ "FRIEND_STATUS_DND", "da/d79/a01310.html#a55ec778c8e53f4a36f26e03a8f130104a92eb4c542ce8c83e92fac0bc11257b10", null ],
-      [ "FRIEND_STATUS_RAF", "da/d79/a01310.html#a55ec778c8e53f4a36f26e03a8f130104a6c42a146ed5ab2e2bcbd13d97c5758cb", null ]
+    [ "gobjects", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9", [
+      [ "GO_TRIBUNAL_CONSOLE", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9a72eaa669813855239b4b45d21f67d3f2", null ],
+      [ "GO_TRIBUNAL_ACCESS_DOOR", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9a817f5cd077aa5003e59272fd5d781cc8", null ],
+      [ "GO_KADDRAK", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4f92627b7c119df92500d601bdcf7555", null ],
+      [ "GO_MARNAK", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9aca39bd4893330b2875c9ff0f47fbd0d5", null ],
+      [ "GO_ABEDNEUM", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4d423f09b7f646a5e91fd3a4319e624d", null ],
+      [ "GO_SKY_FLOOR", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad0205c64138779f72fe7ed8f794b537f", null ],
+      [ "GO_SJONNIR_CONSOLE", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad28a35a1d7687973b8d83632daa7c7c7", null ],
+      [ "GO_SJONNIR_DOOR", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9a9f8ac76bebd7ea6680fdfba71cddbc84", null ],
+      [ "GO_TRIBUNAL_CHEST", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9a60b4179cd50b218dbcd02d6b689037c6", null ],
+      [ "GO_TRIBUNAL_CHEST_H", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad8136ac890918a610fc1771425afdf55", null ],
+      [ "GO_LEFT_PIPE", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9a5f811c762f307a0e37df5ce632c92370", null ],
+      [ "GO_RIGHT_PIPE", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9a642e6ade65a788c0c44aa9ff6c002c7c", null ]
     ] ],
-    [ "SocialFlag", "da/d79/a01310.html#ad0ac931a69e6d8885728cb1fca06fc6e", [
-      [ "SOCIAL_FLAG_FRIEND", "da/d79/a01310.html#ad0ac931a69e6d8885728cb1fca06fc6ea88e902cf380604f7dde5102ae54cfb63", null ],
-      [ "SOCIAL_FLAG_IGNORED", "da/d79/a01310.html#ad0ac931a69e6d8885728cb1fca06fc6ea97d7bfbfcb1e9318134f55b72f5fdf2c", null ],
-      [ "SOCIAL_FLAG_MUTED", "da/d79/a01310.html#ad0ac931a69e6d8885728cb1fca06fc6ea0b36405a0edd700f5f7fa0d80f0d75fe", null ],
-      [ "SOCIAL_FLAG_UNK", "da/d79/a01310.html#ad0ac931a69e6d8885728cb1fca06fc6eab3af33ac2cf3fe32495daff66469e7f1", null ],
-      [ "SOCIAL_FLAG_ALL", "da/d79/a01310.html#ad0ac931a69e6d8885728cb1fca06fc6ea81eab5ed1dd452c57d07a29eac0043cc", null ]
-    ] ]
+    [ "npcs", "da/d79/a01310.html#a7569620d66559dad194b4764f6faf235", [
+      [ "NPC_KADDRAK", "da/d79/a01310.html#a7569620d66559dad194b4764f6faf235a0fd4c992b4e05db440cc0ea73c4ffaad", null ],
+      [ "NPC_MARNAK", "da/d79/a01310.html#a7569620d66559dad194b4764f6faf235abda16cd2dd9306be81ee1207b9989f0d", null ],
+      [ "NPC_ABEDNEUM", "da/d79/a01310.html#a7569620d66559dad194b4764f6faf235af1cdba2690be5588a967c9bd8f46815d", null ],
+      [ "NPC_SJONNIR", "da/d79/a01310.html#a7569620d66559dad194b4764f6faf235ad018155cd74db3419f72fbf599cc6242", null ],
+      [ "NPC_BRANN", "da/d79/a01310.html#a7569620d66559dad194b4764f6faf235a557fa0e4f73adcfd231bf8165ef38c5c", null ]
+    ] ],
+    [ "GetHallsOfStoneAI", "da/d79/a01310.html#a856193f50a99a86279e43578f2b5ec0a", null ]
 ];

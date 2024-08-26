@@ -1,6 +1,15 @@
 var a03116 =
 [
-    [ "fireworkShowGameobjectUndercity", "d8/d96/a03116.html#a67896d1b367cdcfcbee837b12ee9451c", null ],
-    [ "fireworkShowScheduleUndercity", "d8/d96/a03116.html#ab00bea2179a021590447cb30da50fce1", null ],
-    [ "fireworkShowUndercity", "d8/d96/a03116.html#afd61e001f4ea31858964426d56d2b3cf", null ]
+    [ "WaypointData", "d6/dbe/a09803.html", "d6/dbe/a09803" ],
+    [ "WaypointMgr", "d4/dc7/a09807.html", "d4/dc7/a09807" ],
+    [ "sWaypointMgr", "d8/d96/a03116.html#a8e3218ae672aeeb8c1d9dc23a3a1a627", null ],
+    [ "WaypointPath", "d8/d96/a03116.html#a3884c0cb3f926b9869757242cf112630", null ],
+    [ "WaypointPathContainer", "d8/d96/a03116.html#a4022be9e8c89b6ab197c2564c77b52c5", null ],
+    [ "WaypointMoveType", "d8/d96/a03116.html#ac26115060a1cd0169937b206edddd863", [
+      [ "WAYPOINT_MOVE_TYPE_WALK", "d8/d96/a03116.html#ac26115060a1cd0169937b206edddd863acc641c64fa11ca399fe52e963d2ad1ff", null ],
+      [ "WAYPOINT_MOVE_TYPE_RUN", "d8/d96/a03116.html#ac26115060a1cd0169937b206edddd863a1a68f8f06e0a7c3d6f9b007c79630f55", null ],
+      [ "WAYPOINT_MOVE_TYPE_LAND", "d8/d96/a03116.html#ac26115060a1cd0169937b206edddd863a3190ebe456b4d1effe17f57ecc3379fa", null ],
+      [ "WAYPOINT_MOVE_TYPE_TAKEOFF", "d8/d96/a03116.html#ac26115060a1cd0169937b206edddd863a6c91e1f2cbadf7be7393f34b5de1b843", null ],
+      [ "WAYPOINT_MOVE_TYPE_MAX", "d8/d96/a03116.html#ac26115060a1cd0169937b206edddd863a32847b8584f9ff3ce07eb01923c37188", null ]
+    ] ]
 ];

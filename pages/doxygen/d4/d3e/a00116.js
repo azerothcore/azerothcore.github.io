@@ -1,6 +1,10 @@
 var a00116 =
 [
-    [ "VMAP::IntersectionCallBack< TValue >", "de/d93/a05019.html", "de/d93/a05019" ],
-    [ "VMAP::MyCollisionDetection", "db/d39/a05023.html", "db/d39/a05023" ],
-    [ "IR", "d4/d3e/a00116.html#aa54c7fcd0c551f1db5fc34a2f6b11e74", null ]
+    [ "Acore::has_type< T, std::tuple< Us... > >", "d6/d94/a05479.html", null ],
+    [ "Acore::is_tuple< typename >", "d1/d27/a05483.html", null ],
+    [ "Acore::is_tuple< std::tuple< Ts... > >", "d6/ddb/a05487.html", null ],
+    [ "new_from_tuple", "d4/d3e/a00116.html#aac12e702d41e9aa126f7d39f0f295252", null ],
+    [ "new_from_tuple", "d4/d3e/a00116.html#a028fc93107022ad23a763503c9b0bbdb", null ],
+    [ "has_type_v", "d4/d3e/a00116.html#aa4e7bc2a96e641dd1642a3c61cfc96b0", null ],
+    [ "is_tuple_v", "d4/d3e/a00116.html#a4104f84ad757b701a6ffbd51f5d10b9f", null ]
 ];

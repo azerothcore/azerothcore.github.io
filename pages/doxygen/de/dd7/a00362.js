@@ -1,4 +1,4 @@
 var a00362 =
 [
-    [ "LockedQueue< T, StorageType >", "d1/dd1/a05275.html", "d1/dd1/a05275" ]
+    [ "VMAP::VMapFactory", "d1/d8e/a04879.html", "d1/d8e/a04879" ]
 ];

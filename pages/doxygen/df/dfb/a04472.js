@@ -1,75 +1,83 @@
 var a04472 =
 [
-    [ "NPCStaveQuestAI", "da/da0/a27415.html", "da/da0/a27415" ],
-    [ "Common", "df/dfb/a04472.html#a2898ea5b5bdc6f6ebd68c36327a6cecd", [
-      [ "GOSSIP_EVENT_START_OPTION_ID", "df/dfb/a04472.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf2a660132a0a17288b1831007b938936", null ],
-      [ "EVENT_ENCOUNTER_START", "df/dfb/a04472.html#a2898ea5b5bdc6f6ebd68c36327a6cecda0f5bec07177a7a6bdbdf76abcbadf05a", null ],
-      [ "EVENT_REVEAL", "df/dfb/a04472.html#a2898ea5b5bdc6f6ebd68c36327a6cecdab1074563852eb0de868ad858b218823c", null ],
-      [ "EVENT_FOOLS_PLIGHT", "df/dfb/a04472.html#a2898ea5b5bdc6f6ebd68c36327a6cecda2ec763aa4426d90ec616777639d20d1c", null ],
-      [ "EVENT_RANGE_CHECK", "df/dfb/a04472.html#a2898ea5b5bdc6f6ebd68c36327a6cecda7fcd9a3142a87856248cbc51a25268ee", null ],
-      [ "EVENT_UNFAIR_FIGHT", "df/dfb/a04472.html#a2898ea5b5bdc6f6ebd68c36327a6cecda1d894628cbd27d1bcf490577a9ae22f0", null ],
-      [ "QUEST_STAVE_OF_THE_ANCIENTS", "df/dfb/a04472.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf1e382929ce37d0beeb97fd31eaed5e2", null ],
-      [ "SPELL_FEIGN_DEATH", "df/dfb/a04472.html#a2898ea5b5bdc6f6ebd68c36327a6cecda882c4c20d663e5bbdb81fc74aacf77c8", null ],
-      [ "SPELL_DEMONIC_ENRAGE", "df/dfb/a04472.html#a2898ea5b5bdc6f6ebd68c36327a6cecda607e929a10d88ac2761d12fef6cab706", null ],
-      [ "SPELL_FOOLS_PLIGHT", "df/dfb/a04472.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf781ca12c0d42795eae352e22e9f89ee", null ]
+    [ "Roll", "de/d26/a09167.html", "de/d26/a09167" ],
+    [ "Group", "db/d6f/a09171.html", "db/d6f/a09171" ],
+    [ "Group::MemberSlot", "d4/db5/a09175.html", "d4/db5/a09175" ],
+    [ "GROUP_UPDATE_FLAGS_COUNT", "df/dfb/a04472.html#ad409013260cb0aea80c911d24d7b5d00", null ],
+    [ "MAX_RAID_SUBGROUPS", "df/dfb/a04472.html#afb58b37bfbd0e4d75c26cc40d4066a43", null ],
+    [ "MAXGROUPSIZE", "df/dfb/a04472.html#a41ded42f25275d85cb15f89e0cb21745", null ],
+    [ "MAXRAIDSIZE", "df/dfb/a04472.html#abe79d73a0524988ef836a72c9fab0afc", null ],
+    [ "TARGETICONCOUNT", "df/dfb/a04472.html#a0b29644629b2e396bfc5582dd979a657", null ],
+    [ "DifficultyPreventionChangeType", "df/dfb/a04472.html#ac137f3554eda30ca651f91eec6e2f1ff", [
+      [ "DIFFICULTY_PREVENTION_CHANGE_NONE", "df/dfb/a04472.html#ac137f3554eda30ca651f91eec6e2f1ffa9510357088e05a0d39cc541ece12e19f", null ],
+      [ "DIFFICULTY_PREVENTION_CHANGE_RECENTLY_CHANGED", "df/dfb/a04472.html#ac137f3554eda30ca651f91eec6e2f1ffaaf1cf9fc0dc14727c5370fb741ed02be", null ],
+      [ "DIFFICULTY_PREVENTION_CHANGE_BOSS_KILLED", "df/dfb/a04472.html#ac137f3554eda30ca651f91eec6e2f1ffaf7daa8b9c866100c71f1ff356bca9d37", null ]
     ] ],
-    [ "NPCArtorius", "df/dfb/a04472.html#abe201f9ef5f58feb36b74aed845c1ede", [
-      [ "ARTORIUS_EVENT_DEMONIC_DOOM", "df/dfb/a04472.html#abe201f9ef5f58feb36b74aed845c1edea5630fafdd2954b2520ba2b721872555f", null ],
-      [ "ARTORIUS_EVENT_DEMONIC_ENRAGE", "df/dfb/a04472.html#abe201f9ef5f58feb36b74aed845c1edea45adb6c2214dbf19fde4a3273ca3ad24", null ],
-      [ "ARTORIUS_WEAKNESS_EMOTE", "df/dfb/a04472.html#abe201f9ef5f58feb36b74aed845c1edea07c2a58a57c5aaac815f93d435707ba8", null ],
-      [ "ARTORIUS_SAY", "df/dfb/a04472.html#abe201f9ef5f58feb36b74aed845c1edea980b15e2a702653cf8a1d03ffb34d236", null ],
-      [ "ARTORIUS_NORMAL_ENTRY", "df/dfb/a04472.html#abe201f9ef5f58feb36b74aed845c1edea8aff1ec4cbd2e1493b173f0d079e6015", null ],
-      [ "ARTORIUS_EVIL_ENTRY", "df/dfb/a04472.html#abe201f9ef5f58feb36b74aed845c1edea5bd83368acfd9f2af012a6f80d9fc84e", null ],
-      [ "ARTORIUS_HEAD", "df/dfb/a04472.html#abe201f9ef5f58feb36b74aed845c1edea7dfe6305ba551298a4074c2aba0cdd62", null ],
-      [ "ARTORIUS_SPELL_DEMONIC_DOOM", "df/dfb/a04472.html#abe201f9ef5f58feb36b74aed845c1edeadc3e9c5249b4da7a9f2e1c97caaa900e", null ],
-      [ "ARTORIUS_SPELL_STINGING_TRAUMA", "df/dfb/a04472.html#abe201f9ef5f58feb36b74aed845c1edeaf78c2ad18353df6ab6937f7e48ee8363", null ]
+    [ "GroupMemberAssignment", "df/dfb/a04472.html#a265440bc60acb489a6d25239d788b783", [
+      [ "GROUP_ASSIGN_MAINTANK", "df/dfb/a04472.html#a265440bc60acb489a6d25239d788b783a81801fe8320b2182ad7c70d0d028d192", null ],
+      [ "GROUP_ASSIGN_MAINASSIST", "df/dfb/a04472.html#a265440bc60acb489a6d25239d788b783a365361d3311869df05371342f7082143", null ]
     ] ],
-    [ "NPCFranklin", "df/dfb/a04472.html#a16be495faad2ebc93bc68267328d78c0", [
-      [ "FRANKLIN_EVENT_DEMONIC_ENRAGE", "df/dfb/a04472.html#a16be495faad2ebc93bc68267328d78c0ae616cb7a6f91a45be7c3a8d19650b774", null ],
-      [ "FRANKLIN_SAY", "df/dfb/a04472.html#a16be495faad2ebc93bc68267328d78c0a550bafc03ddc74e0ecf73a9f4cba3a2e", null ],
-      [ "FRANKLIN_ENRAGE_EMOTE", "df/dfb/a04472.html#a16be495faad2ebc93bc68267328d78c0ab16e542061d6af16958045076a03ba67", null ],
-      [ "FRANKLIN_DESPAWN_SAY", "df/dfb/a04472.html#a16be495faad2ebc93bc68267328d78c0a844b5a83e900c9c660276a0ad26d2842", null ],
-      [ "FRANKLIN_NORMAL_ENTRY", "df/dfb/a04472.html#a16be495faad2ebc93bc68267328d78c0af9bbce82aff6a6472a73ef14ecef5a5c", null ],
-      [ "FRANKLIN_EVIL_ENTRY", "df/dfb/a04472.html#a16be495faad2ebc93bc68267328d78c0a5cf966dad889c919847929436971f40d", null ],
-      [ "FRANKLIN_HEAD", "df/dfb/a04472.html#a16be495faad2ebc93bc68267328d78c0a895e6fec3b7df29b1c8e98b1b5f5dfe0", null ],
-      [ "FRANKLIN_WEAKNESS_SCORPID_STING", "df/dfb/a04472.html#a16be495faad2ebc93bc68267328d78c0a4c2dde25de7b18cdde01eddb47a39601", null ],
-      [ "FRANKLIN_SPELL_ENTROPIC_STING", "df/dfb/a04472.html#a16be495faad2ebc93bc68267328d78c0aee0f260a794aacbd8616fa9970c47589", null ]
+    [ "GroupMemberFlags", "df/dfb/a04472.html#a7199c0fc3344f944250290234c6110bd", [
+      [ "MEMBER_FLAG_ASSISTANT", "df/dfb/a04472.html#a7199c0fc3344f944250290234c6110bda0b79d2026cebf021e0df83bf82e1e3bf", null ],
+      [ "MEMBER_FLAG_MAINTANK", "df/dfb/a04472.html#a7199c0fc3344f944250290234c6110bdab4244bc75cc8b303dab133abe583dd7b", null ],
+      [ "MEMBER_FLAG_MAINASSIST", "df/dfb/a04472.html#a7199c0fc3344f944250290234c6110bda5977481471e2d61bda65201ddf3db54a", null ]
     ] ],
-    [ "NPCNelson", "df/dfb/a04472.html#ad8c06f7bd08693fefc384a9896581248", [
-      [ "NELSON_EVENT_DREADFUL_FRIGHT", "df/dfb/a04472.html#ad8c06f7bd08693fefc384a9896581248a0110a6743a2be1f6b1686e1c80a1ab9f", null ],
-      [ "NELSON_EVENT_CREEPING_DOOM", "df/dfb/a04472.html#ad8c06f7bd08693fefc384a9896581248a570c75d31f474e305588b313cb74fa2a", null ],
-      [ "NELSON_SAY", "df/dfb/a04472.html#ad8c06f7bd08693fefc384a9896581248a3a8074ec57e11c8646aa853eb0fc574d", null ],
-      [ "NELSON_WEAKNESS_EMOTE", "df/dfb/a04472.html#ad8c06f7bd08693fefc384a9896581248abb3404c3907acebfdbf1102d6dc34041", null ],
-      [ "NELSON_DESPAWN_SAY", "df/dfb/a04472.html#ad8c06f7bd08693fefc384a9896581248a5df97a8c38be38427c8dea2f63034605", null ],
-      [ "NELSON_NORMAL_ENTRY", "df/dfb/a04472.html#ad8c06f7bd08693fefc384a9896581248a0fe2e60baa947b6fcd3d0a6736a9a7ff", null ],
-      [ "NELSON_EVIL_ENTRY", "df/dfb/a04472.html#ad8c06f7bd08693fefc384a9896581248aea664410af0966c75d8c81ca790c1463", null ],
-      [ "CREEPING_DOOM_ENTRY", "df/dfb/a04472.html#ad8c06f7bd08693fefc384a9896581248a9300940a11d265d7b0c4f85422830a50", null ],
-      [ "NELSON_HEAD", "df/dfb/a04472.html#ad8c06f7bd08693fefc384a9896581248a32250a2a128ab64840b48aa2e45594fb", null ],
-      [ "NELSON_WEAKNESS_WING_CLIP", "df/dfb/a04472.html#ad8c06f7bd08693fefc384a9896581248a74f08862597370408b33e568ea6a173a", null ],
-      [ "NELSON_WEAKNESS_FROST_TRAP", "df/dfb/a04472.html#ad8c06f7bd08693fefc384a9896581248a67cc21ff77c5f4888e7be11fe8b76de1", null ],
-      [ "NELSON_SPELL_SOUL_FLAME", "df/dfb/a04472.html#ad8c06f7bd08693fefc384a9896581248a90773794bb36fe4afd1df8465b4476ae", null ],
-      [ "NELSON_SPELL_DREADFUL_FRIGHT", "df/dfb/a04472.html#ad8c06f7bd08693fefc384a9896581248ab5e17fcc103d5693704ebb772ced41c8", null ],
-      [ "NELSON_SPELL_CRIPPLING_CLIP", "df/dfb/a04472.html#ad8c06f7bd08693fefc384a9896581248af258b492afa6684ce60918ec506e0474", null ],
-      [ "NELSON_SPELL_CREEPING_DOOM", "df/dfb/a04472.html#ad8c06f7bd08693fefc384a9896581248a2b343ce324b5fb0ffc7109e79ce0ec80", null ]
+    [ "GroupMemberOnlineStatus", "df/dfb/a04472.html#a330da2ab05c167f677e54f82a222ef9d", [
+      [ "MEMBER_STATUS_OFFLINE", "df/dfb/a04472.html#a330da2ab05c167f677e54f82a222ef9da3d85c38ccfdc94eda5fe36f186dcb75c", null ],
+      [ "MEMBER_STATUS_ONLINE", "df/dfb/a04472.html#a330da2ab05c167f677e54f82a222ef9da5b80950bd3340d7de2b5a769001b9fec", null ],
+      [ "MEMBER_STATUS_PVP", "df/dfb/a04472.html#a330da2ab05c167f677e54f82a222ef9da56b0705f4b91684e2bc6536d45c628bd", null ],
+      [ "MEMBER_STATUS_DEAD", "df/dfb/a04472.html#a330da2ab05c167f677e54f82a222ef9da68c1ec7408566a34bc264bd9eca1cb53", null ],
+      [ "MEMBER_STATUS_GHOST", "df/dfb/a04472.html#a330da2ab05c167f677e54f82a222ef9daab8058da6edb35b7c3c459a000e9dd0c", null ],
+      [ "MEMBER_STATUS_PVP_FFA", "df/dfb/a04472.html#a330da2ab05c167f677e54f82a222ef9daff365b501c0206847eac2c3d02b21961", null ],
+      [ "MEMBER_STATUS_UNK3", "df/dfb/a04472.html#a330da2ab05c167f677e54f82a222ef9da795eafeca5cb33a35458e5d646975039", null ],
+      [ "MEMBER_STATUS_AFK", "df/dfb/a04472.html#a330da2ab05c167f677e54f82a222ef9da0fd180911ad96ed8d444b6dfc6fd8777", null ],
+      [ "MEMBER_STATUS_DND", "df/dfb/a04472.html#a330da2ab05c167f677e54f82a222ef9dacd9a792ab0f7517ea210ea164e3f8b9f", null ]
     ] ],
-    [ "NPCPrecious", "df/dfb/a04472.html#aa5ed2f1543f33f7119a73d663739cb5a", [
-      [ "PRECIOUS_NORMAL_ENTRY", "df/dfb/a04472.html#aa5ed2f1543f33f7119a73d663739cb5aa01a00ad67f65745c45300c65fb85a329", null ],
-      [ "PRECIOUS_EVIL_ENTRY", "df/dfb/a04472.html#aa5ed2f1543f33f7119a73d663739cb5aa537440d3949e818014bd5962f1faab81", null ]
+    [ "GroupType", "df/dfb/a04472.html#a3de1267c3b87dda21863fd739439d918", [
+      [ "GROUPTYPE_NORMAL", "df/dfb/a04472.html#a3de1267c3b87dda21863fd739439d918a06d2671866631d30309707bd4a233b71", null ],
+      [ "GROUPTYPE_BG", "df/dfb/a04472.html#a3de1267c3b87dda21863fd739439d918aed783b5eaca8785fa2448debdec0b139", null ],
+      [ "GROUPTYPE_RAID", "df/dfb/a04472.html#a3de1267c3b87dda21863fd739439d918a1d64f52216490e026252bf5be0ce72ea", null ],
+      [ "GROUPTYPE_BGRAID", "df/dfb/a04472.html#a3de1267c3b87dda21863fd739439d918ae34858409fbfe501ddd8500da4154860", null ],
+      [ "GROUPTYPE_LFG_RESTRICTED", "df/dfb/a04472.html#a3de1267c3b87dda21863fd739439d918a071dd896c0ef9e458b00ceece61212dc", null ],
+      [ "GROUPTYPE_LFG", "df/dfb/a04472.html#a3de1267c3b87dda21863fd739439d918ab0ab78acc1d675d1a7b3285b29c92900", null ]
     ] ],
-    [ "NPCSimone", "df/dfb/a04472.html#ac2bd4827fd0d6efa51d00cda84192699", [
-      [ "SIMONE_EVENT_TALK", "df/dfb/a04472.html#ac2bd4827fd0d6efa51d00cda84192699a816e796693162a325889759fec978faf", null ],
-      [ "SIMONE_EVENT_CHECK_PET_STATE", "df/dfb/a04472.html#ac2bd4827fd0d6efa51d00cda84192699aaaf2d11bfd889a617e21d7d27c4a147d", null ],
-      [ "SIMONE_EVENT_CHAIN_LIGHTNING", "df/dfb/a04472.html#ac2bd4827fd0d6efa51d00cda84192699a1479d23f092d0513368359e90ef569c2", null ],
-      [ "SIMONE_EVENT_TEMPTRESS_KISS", "df/dfb/a04472.html#ac2bd4827fd0d6efa51d00cda84192699af60fa3aee8dd197cc23ec263218d2757", null ],
-      [ "SIMONE_EMOTE", "df/dfb/a04472.html#ac2bd4827fd0d6efa51d00cda84192699a5fe44bebd8a62f2d15aff79bddeb5786", null ],
-      [ "SIMONE_SAY", "df/dfb/a04472.html#ac2bd4827fd0d6efa51d00cda84192699a5a37bd0ac82d9ed49b7cf13b0921293d", null ],
-      [ "SIMONE_WEAKNESS_EMOTE", "df/dfb/a04472.html#ac2bd4827fd0d6efa51d00cda84192699a1efe1796dc81c4cc729abeaf3bebdf45", null ],
-      [ "SIMONE_NORMAL_ENTRY", "df/dfb/a04472.html#ac2bd4827fd0d6efa51d00cda84192699a7b49323d8ed43bd879d95e4798eadbd0", null ],
-      [ "SIMONE_EVIL_ENTRY", "df/dfb/a04472.html#ac2bd4827fd0d6efa51d00cda84192699a782c849344053aef075d44e2a306fd80", null ],
-      [ "SIMONE_HEAD", "df/dfb/a04472.html#ac2bd4827fd0d6efa51d00cda84192699a3e7f38d02528648ac55edd93db080e9f", null ],
-      [ "SIMONE_SPELL_WEAKNESS_VIPER_STING", "df/dfb/a04472.html#ac2bd4827fd0d6efa51d00cda84192699ad4d7fe972b6e280e7b144da8d2ebefd8", null ],
-      [ "SIMONE_SPELL_TEMPTRESS_KISS", "df/dfb/a04472.html#ac2bd4827fd0d6efa51d00cda84192699abb9f754a03ddaddc3e1f21615562d1b6", null ],
-      [ "SIMONE_SPELL_CHAIN_LIGHTNING", "df/dfb/a04472.html#ac2bd4827fd0d6efa51d00cda84192699a98bccf366154d8dbc5a65b4c1e9a466d", null ],
-      [ "SIMONE_SPELL_SILENCE", "df/dfb/a04472.html#ac2bd4827fd0d6efa51d00cda84192699a06f4aa887fa7256bf35a2f460bce1b76", null ]
-    ] ]
+    [ "GroupUpdateFlags", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22", [
+      [ "GROUP_UPDATE_FLAG_NONE", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22aabf53171e29489386fb5f82c83b8291c", null ],
+      [ "GROUP_UPDATE_FLAG_STATUS", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22a84be5c25600d56528690fa6c4f693c39", null ],
+      [ "GROUP_UPDATE_FLAG_CUR_HP", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22a053bf2b40e15c99b4d87212b6224edf5", null ],
+      [ "GROUP_UPDATE_FLAG_MAX_HP", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22a51f854cd0a192b6a26f2ad93cb04f290", null ],
+      [ "GROUP_UPDATE_FLAG_POWER_TYPE", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22a18568d1a780d4ee8bd1261f04789ddec", null ],
+      [ "GROUP_UPDATE_FLAG_CUR_POWER", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22aff7d60d1b0cadfb6faf0a9cc0fb4c647", null ],
+      [ "GROUP_UPDATE_FLAG_MAX_POWER", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22a8e989903a18a03c2c1b04c93a6f7b806", null ],
+      [ "GROUP_UPDATE_FLAG_LEVEL", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22ac3d0e3f073f9bd3b10dfe6815879d721", null ],
+      [ "GROUP_UPDATE_FLAG_ZONE", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22a8ff7f1354cb854bfd7acc1a15572e1ec", null ],
+      [ "GROUP_UPDATE_FLAG_POSITION", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22ab08e141bb44f5282877077ceef93f4db", null ],
+      [ "GROUP_UPDATE_FLAG_AURAS", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22abfc7c4cf05e71e2c6a263d14c50c300e", null ],
+      [ "GROUP_UPDATE_FLAG_PET_GUID", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22ae059ba28d829c215698fb53fb9c46b81", null ],
+      [ "GROUP_UPDATE_FLAG_PET_NAME", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22ab34868446bbc6c7214746ae0ee07298e", null ],
+      [ "GROUP_UPDATE_FLAG_PET_MODEL_ID", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22ab29f0639aa4364f2937eafa3cf3c9bfd", null ],
+      [ "GROUP_UPDATE_FLAG_PET_CUR_HP", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22a0828c5fe18a98dcec2e52be5a6faf62a", null ],
+      [ "GROUP_UPDATE_FLAG_PET_MAX_HP", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22afc364631361127107eede68c44672067", null ],
+      [ "GROUP_UPDATE_FLAG_PET_POWER_TYPE", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22a8654981d5a32b737e43bb9f799891ab8", null ],
+      [ "GROUP_UPDATE_FLAG_PET_CUR_POWER", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22a356f93308e4e05d59544bb68adeff09e", null ],
+      [ "GROUP_UPDATE_FLAG_PET_MAX_POWER", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22a4110160e7fd5360f13bf4527effcf436", null ],
+      [ "GROUP_UPDATE_FLAG_PET_AURAS", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22abb4365d738698af44649fda4435825af", null ],
+      [ "GROUP_UPDATE_FLAG_VEHICLE_SEAT", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22a8055f4324e3e38e102f8ae430283f109", null ],
+      [ "GROUP_UPDATE_PET", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22ac4eec7ebcdd88fe72703af3fbcdeef65", null ],
+      [ "GROUP_UPDATE_FULL", "df/dfb/a04472.html#a914819bad74fbd5e30a14b5250e00e22a23d5a8a1b2b3ff72c3fc74d801590ef6", null ]
+    ] ],
+    [ "lfgGroupFlags", "df/dfb/a04472.html#a76b58859b594b12f70d10ee9ee17345f", [
+      [ "GROUP_LFG_FLAG_APPLY_RANDOM_BUFF", "df/dfb/a04472.html#a76b58859b594b12f70d10ee9ee17345fa7531c04c229a92e02108024d2d5e3590", null ],
+      [ "GROUP_LFG_FLAG_IS_RANDOM_INSTANCE", "df/dfb/a04472.html#a76b58859b594b12f70d10ee9ee17345faebe9e5142f049394b9311d27ab5d1f2e", null ],
+      [ "GROUP_LFG_FLAG_IS_HEROIC", "df/dfb/a04472.html#a76b58859b594b12f70d10ee9ee17345fa1ed91d7e1faa0986f9353cad3ddf1cfc", null ]
+    ] ],
+    [ "RollVote", "df/dfb/a04472.html#a1cf1e13f9c5c24c7e321364f6d349d5f", [
+      [ "PASS", "df/dfb/a04472.html#a1cf1e13f9c5c24c7e321364f6d349d5fa0afa825567e442a46d131be6c71cb40f", null ],
+      [ "NEED", "df/dfb/a04472.html#a1cf1e13f9c5c24c7e321364f6d349d5fa79a6b7f188a0c6c0f32beb8d40d5804a", null ],
+      [ "GREED", "df/dfb/a04472.html#a1cf1e13f9c5c24c7e321364f6d349d5fac623c8a2364508457861e33034f25d10", null ],
+      [ "DISENCHANT", "df/dfb/a04472.html#a1cf1e13f9c5c24c7e321364f6d349d5fa899d0f089060a2adb6d35bde6c361d13", null ],
+      [ "NOT_EMITED_YET", "df/dfb/a04472.html#a1cf1e13f9c5c24c7e321364f6d349d5fa1b7e37d6dc247df81321e83d0ffe008a", null ],
+      [ "NOT_VALID", "df/dfb/a04472.html#a1cf1e13f9c5c24c7e321364f6d349d5fa7f1ec5eb59564ae05005b9260e1d974e", null ]
+    ] ],
+    [ "GroupUpdateLength", "df/dfb/a04472.html#a65e699af45b8fc9a4a8bac43fe403d5c", null ]
 ];

@@ -1,5 +1,5 @@
 var a28171 =
 [
-    [ "id", "d6/d4c/a28171.html#a4667f55651f20c85f5b3da9384bac078", null ],
-    [ "QuestRewFactionValue", "d6/d4c/a28171.html#a9a42feddeef8e054cd52b72cfc812867", null ]
+    [ "Exp", "d6/d4c/a28171.html#aa34490babd6ccdc45857947db3f36d60", null ],
+    [ "id", "d6/d4c/a28171.html#abe177efe7ea9d1d1ae8e7d09655c7193", null ]
 ];

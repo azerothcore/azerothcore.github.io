@@ -1,9 +1,10 @@
 var a23187 =
 [
-    [ "FilterTargets", "d1/d55/a23187.html#a9049c113d65b15a9a8e1143980a84b23", null ],
-    [ "HandleDummy", "d1/d55/a23187.html#a21fd59ba177fd7b04eb1fcafe869f33a", null ],
-    [ "Load", "d1/d55/a23187.html#a8cad82701e0147e14f826243175e1c32", null ],
-    [ "PrepareSpellScript", "d1/d55/a23187.html#aa05839a8dd785a2472e8e5f3a9fc58b0", null ],
-    [ "Register", "d1/d55/a23187.html#a0e7e246c322b89c3b6ee08797984f7e6", null ],
-    [ "_targetNumber", "d1/d55/a23187.html#a34f80edf782ade371e7a6fc908b47b4f", null ]
+    [ "boss_morogrim_tidewalker", "d1/d55/a23187.html#a138a200da298f64697e2e47fb8004ccb", null ],
+    [ "JustDied", "d1/d55/a23187.html#a139d87e7cffe03183538eb493e063195", null ],
+    [ "JustEngagedWith", "d1/d55/a23187.html#a3244672aeb994673e1f46708699bcc2c", null ],
+    [ "JustSummoned", "d1/d55/a23187.html#a2b669007520094948138c95468b77f9f", null ],
+    [ "KilledUnit", "d1/d55/a23187.html#a2db94919e6d6f3d4eda4addc4248976e", null ],
+    [ "Reset", "d1/d55/a23187.html#a78ed1d1f8c55407497a4fb679587975d", null ],
+    [ "_recentlySpoken", "d1/d55/a23187.html#a63edb4b20baa9e1cf5238c3db5974c56", null ]
 ];

@@ -1,23 +1,45 @@
 var a02957 =
 [
-    [ "npc_eris_hevenfire", "dd/d96/a13279.html", "dd/d96/a13279" ],
-    [ "npc_eris_hevenfire::npc_eris_hevenfireAI", "dd/d2c/a13283.html", "dd/d2c/a13283" ],
-    [ "npc_balance_of_light_and_shadow", "d1/d98/a13287.html", "d1/d98/a13287" ],
-    [ "npc_balance_of_light_and_shadow::npc_balance_of_light_and_shadowAI", "d0/d9b/a13291.html", "d0/d9b/a13291" ],
-    [ "npc_augustus_the_touched", "d2/d69/a13295.html", "d2/d69/a13295" ],
-    [ "eEris", "dd/d08/a02957.html#a0846b7169aa45fd1ef72775a5f6e36fe", [
-      [ "QUEST_BALANCE_OF_LIGHT_AND_SHADOW", "dd/d08/a02957.html#a0846b7169aa45fd1ef72775a5f6e36fea893fed7c9aba464b46eda93ba0ff910e", null ],
-      [ "ITEM_EYE_OF_DIVINITY", "dd/d08/a02957.html#a0846b7169aa45fd1ef72775a5f6e36feaa330f1e90d7e18c5cec4f6ac9eccbf9b", null ],
-      [ "NPC_INJURED_PEASANT", "dd/d08/a02957.html#a0846b7169aa45fd1ef72775a5f6e36feaae13148e0ec5731f2bc25c5cd83fb54a", null ],
-      [ "NPC_PLAGUED_PEASANT", "dd/d08/a02957.html#a0846b7169aa45fd1ef72775a5f6e36fea2e04645dc1fe7fae413d5c2c903c89d2", null ],
-      [ "NPC_SCOURGE_ARCHER", "dd/d08/a02957.html#a0846b7169aa45fd1ef72775a5f6e36fea50dd59f1eeb08594a61c6ad576ad2814", null ],
-      [ "EVENT_SUMMON_PEASANTS", "dd/d08/a02957.html#a0846b7169aa45fd1ef72775a5f6e36fea499f23b6c79690c613e046b3e6394937", null ],
-      [ "EVENT_CHECK_PLAYER", "dd/d08/a02957.html#a0846b7169aa45fd1ef72775a5f6e36fea3d3d147dbdefaa5a8280f3d1bcc15ea8", null ],
-      [ "EVENT_SUMMON_ARCHERS", "dd/d08/a02957.html#a0846b7169aa45fd1ef72775a5f6e36fea84afa1291830b37278989be41610fb72", null ],
-      [ "SPELL_SHOOT", "dd/d08/a02957.html#a0846b7169aa45fd1ef72775a5f6e36fea1b728fa1bb0194534b5b491d35ed871c", null ],
-      [ "SPELL_DEATHS_DOOR", "dd/d08/a02957.html#a0846b7169aa45fd1ef72775a5f6e36fea59bc5812f6dcf3f0e45b673f923490e7", null ],
-      [ "SPELL_SEETHING_PLAGUE", "dd/d08/a02957.html#a0846b7169aa45fd1ef72775a5f6e36feac366f4ed224210fd4352c0ac9fb1c12a", null ],
-      [ "SPELL_ERIS_BLESSING", "dd/d08/a02957.html#a0846b7169aa45fd1ef72775a5f6e36feaaedc6f0db3ab3db342fe3379082ce633", null ]
+    [ "Object", "d6/d96/a08115.html", "d6/d96/a08115" ],
+    [ "MovementInfo", "de/d7d/a08123.html", "de/d7d/a08123" ],
+    [ "MovementInfo::TransportInfo", "d9/d7a/a08127.html", "d9/d7a/a08127" ],
+    [ "MovementInfo::JumpInfo", "d3/d76/a08131.html", "d3/d76/a08131" ],
+    [ "GridObject< T >", "da/d59/a08135.html", "da/d59/a08135" ],
+    [ "FlaggedValuesArray32< T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE >", "d2/dec/a08139.html", "d2/dec/a08139" ],
+    [ "MovableMapObject", "da/ddf/a08143.html", "da/ddf/a08143" ],
+    [ "WorldObject", "d4/d47/a08147.html", "d4/d47/a08147" ],
+    [ "Acore::ObjectDistanceOrderPred", "d4/dcc/a08151.html", "d4/dcc/a08151" ],
+    [ "UpdateDataMapType", "dd/d08/a02957.html#ac58dd2c514e262c6b68700fb72c69231", null ],
+    [ "UpdatePlayerSet", "dd/d08/a02957.html#abc4c822bd43dd0c1ea669b791c856405", null ],
+    [ "GOSummonType", "dd/d08/a02957.html#a3f5846dbc17f13c4c2b88a15593bbfba", [
+      [ "GO_SUMMON_TIMED_OR_CORPSE_DESPAWN", "dd/d08/a02957.html#a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1", null ],
+      [ "GO_SUMMON_TIMED_DESPAWN", "dd/d08/a02957.html#a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50", null ]
     ] ],
-    [ "AddSC_eastern_plaguelands", "dd/d08/a02957.html#aaef7747656518bf0ce052d780430ed88", null ]
+    [ "MapObjectCellMoveState", "dd/d08/a02957.html#a1833d9b1810b160d0c00f297af237b07", [
+      [ "MAP_OBJECT_CELL_MOVE_NONE", "dd/d08/a02957.html#a1833d9b1810b160d0c00f297af237b07afb882558defaa808483ae0d24e1d12e1", null ],
+      [ "MAP_OBJECT_CELL_MOVE_ACTIVE", "dd/d08/a02957.html#a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58", null ],
+      [ "MAP_OBJECT_CELL_MOVE_INACTIVE", "dd/d08/a02957.html#a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a", null ]
+    ] ],
+    [ "NotifyFlags", "dd/d08/a02957.html#ae6d03ea53b22c98f9dd7e3ce829cf389", [
+      [ "NOTIFY_NONE", "dd/d08/a02957.html#ae6d03ea53b22c98f9dd7e3ce829cf389aae40b53764f8cda7335d348860245cb9", null ],
+      [ "NOTIFY_AI_RELOCATION", "dd/d08/a02957.html#ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d", null ],
+      [ "NOTIFY_VISIBILITY_CHANGED", "dd/d08/a02957.html#ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053", null ],
+      [ "NOTIFY_ALL", "dd/d08/a02957.html#ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c", null ]
+    ] ],
+    [ "PhaseMasks", "dd/d08/a02957.html#a154255f23e41069883118fc4f0d23157", [
+      [ "PHASEMASK_NORMAL", "dd/d08/a02957.html#a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060", null ],
+      [ "PHASEMASK_ANYWHERE", "dd/d08/a02957.html#a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57", null ]
+    ] ],
+    [ "TempSummonType", "dd/d08/a02957.html#a38c6d8d01cbe0c49b035f348f7724148", [
+      [ "TEMPSUMMON_TIMED_OR_DEAD_DESPAWN", "dd/d08/a02957.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39", null ],
+      [ "TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN", "dd/d08/a02957.html#a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882", null ],
+      [ "TEMPSUMMON_TIMED_DESPAWN", "dd/d08/a02957.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2", null ],
+      [ "TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT", "dd/d08/a02957.html#a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a", null ],
+      [ "TEMPSUMMON_CORPSE_DESPAWN", "dd/d08/a02957.html#a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9", null ],
+      [ "TEMPSUMMON_CORPSE_TIMED_DESPAWN", "dd/d08/a02957.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a", null ],
+      [ "TEMPSUMMON_DEAD_DESPAWN", "dd/d08/a02957.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493", null ],
+      [ "TEMPSUMMON_MANUAL_DESPAWN", "dd/d08/a02957.html#a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a", null ],
+      [ "TEMPSUMMON_DESPAWNED", "dd/d08/a02957.html#a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687", null ],
+      [ "TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE", "dd/d08/a02957.html#a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7", null ]
+    ] ]
 ];

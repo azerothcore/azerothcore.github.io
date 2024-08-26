@@ -1,5 +1,5 @@
 var a01796 =
 [
-    [ "Movement::SplineBase", "d4/d17/a09795.html", "d4/d17/a09795" ],
-    [ "Movement::Spline< length_type >", "d6/da5/a09799.html", "d6/da5/a09799" ]
+    [ "ChatLogScript", "d6/dd6/a27091.html", "d6/dd6/a27091" ],
+    [ "AddSC_chat_log", "d3/d92/a01796.html#ae796ad81a78a552e5c31fcf6c5c135fa", null ]
 ];

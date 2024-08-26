@@ -1,7 +1,6 @@
 var a25215 =
 [
-    [ "OnApply", "d6/d5c/a25215.html#afda219a18001505ae7a2d01b1d5b25c0", null ],
-    [ "OnRemove", "d6/d5c/a25215.html#a54bcd84599d6e5a6d7f538e2b40b890b", null ],
-    [ "PrepareAuraScript", "d6/d5c/a25215.html#a9a7b549e059b6bd2d22802f60e952658", null ],
-    [ "Register", "d6/d5c/a25215.html#aae603735281daf02ceca157e218d5c9f", null ]
+    [ "OnApply", "d6/d5c/a25215.html#a476bf6fc1a91784dbc8534c0e57005d6", null ],
+    [ "PrepareAuraScript", "d6/d5c/a25215.html#a159ee8a9b0af729ed01f7632adb58863", null ],
+    [ "Register", "d6/d5c/a25215.html#a0f33043317402119aa14e50a1eb6c227", null ]
 ];

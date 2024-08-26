@@ -1,16 +1,13 @@
 var a00788 =
 [
-    [ "SummonList", "df/df6/a06087.html", "df/df6/a06087" ],
-    [ "EntryCheckPredicate", "d0/d1b/a06091.html", "d0/d1b/a06091" ],
-    [ "PlayerOrPetCheck", "db/d00/a06095.html", "db/d00/a06095" ],
-    [ "ScriptedAI", "df/d93/a06099.html", "df/d93/a06099" ],
-    [ "HealthCheckEventData", "d2/da1/a06103.html", "d2/da1/a06103" ],
-    [ "BossAI", "d0/d0b/a06107.html", "d0/d0b/a06107" ],
-    [ "WorldBossAI", "dc/dda/a06111.html", "dc/dda/a06111" ],
-    [ "ObjectList", "df/d0c/a00788.html#acc68161fe019b33e9356ea1473fba71d", null ],
-    [ "GetClosestCreatureWithEntry", "df/d0c/a00788.html#a9ffd6f6c01576a8d3369c3a4f6dbaa0b", null ],
-    [ "GetClosestGameObjectWithEntry", "df/d0c/a00788.html#acaba34b4ac104e5289c265c1f8524b15", null ],
-    [ "GetCreatureListWithEntryInGrid", "df/d0c/a00788.html#ab6a8246d473139627106be4651f6329d", null ],
-    [ "GetDeadCreatureListInGrid", "df/d0c/a00788.html#a4a92c9585e18b56cdbe0d0c0976de7d1", null ],
-    [ "GetGameObjectListWithEntryInGrid", "df/d0c/a00788.html#ae9abb80c4e811509bca88e65cf817276", null ]
+    [ "instance_karazhan", "da/df9/a12403.html", "da/df9/a12403" ],
+    [ "instance_karazhan::instance_karazhan_InstanceMapScript", "d5/ddf/a12407.html", "d5/ddf/a12407" ],
+    [ "spell_karazhan_brittle_bones_aura", "d3/d2e/a12411.html", "d3/d2e/a12411" ],
+    [ "spell_karazhan_overload_aura", "db/d4c/a12415.html", "db/d4c/a12415" ],
+    [ "spell_karazhan_blink", "d2/d95/a12419.html", "d2/d95/a12419" ],
+    [ "AddSC_instance_karazhan", "df/d0c/a00788.html#adc62e82adedf1c9e8d47332aaa7a4cf5", null ],
+    [ "creatureData", "df/d0c/a00788.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "doorData", "df/d0c/a00788.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],
+    [ "gameObjectData", "df/d0c/a00788.html#a1461582839e3b7fdbb7397e5d2086e31", null ],
+    [ "OptionalSpawn", "df/d0c/a00788.html#a9dacd53568280ba4bb7d0a7c7f65f6cf", null ]
 ];

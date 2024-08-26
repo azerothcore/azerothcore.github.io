@@ -1,11 +1,10 @@
 var a23775 =
 [
-    [ "npc_capernian", "d5/d6d/a23775.html#a0acb568664c777797eeb7104f454699d", null ],
-    [ "AttackStart", "d5/d6d/a23775.html#a81e89eacbae30a1229fda5e9fe924e2b", null ],
-    [ "JustDied", "d5/d6d/a23775.html#acf4b5b8e6c10cb87435723705f551c6f", null ],
-    [ "JustEngagedWith", "d5/d6d/a23775.html#ae2d07a3e4031a831248b84e8b36f6972", null ],
-    [ "Reset", "d5/d6d/a23775.html#ad9b91c94833a899ff33f81de2187b6ad", null ],
-    [ "UpdateAI", "d5/d6d/a23775.html#a7e9116c766fa828c9bd5d0b2118e8fa1", null ],
-    [ "_hasDied", "d5/d6d/a23775.html#a05976816642fad6c31a1ffe9066e5606", null ],
-    [ "_instance", "d5/d6d/a23775.html#a307f6f388f96df3fb0311737f8e7ce96", null ]
+    [ "npc_lord_sanguinar", "d5/d6d/a23775.html#aa5ec2023d72561fe9cf062a2ba5a5469", null ],
+    [ "JustDied", "d5/d6d/a23775.html#a97fbf79087f34898c87df2d88a33bd2c", null ],
+    [ "JustEngagedWith", "d5/d6d/a23775.html#a8a6871900d2f49e7ce5a66d0620fec09", null ],
+    [ "Reset", "d5/d6d/a23775.html#a25d998de67f88d4618f8f8d88681e68b", null ],
+    [ "UpdateAI", "d5/d6d/a23775.html#a27df1dbb76a650b8039690cab4ddad68", null ],
+    [ "_hasDied", "d5/d6d/a23775.html#a6f0a66b88b95412f443998190b142eaf", null ],
+    [ "_instance", "d5/d6d/a23775.html#aa610a2ca98d2fff376821dd243947096", null ]
 ];

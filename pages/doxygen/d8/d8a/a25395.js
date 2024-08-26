@@ -1,8 +1,8 @@
 var a25395 =
 [
-    [ "HandleFinish", "d8/d8a/a25395.html#aac1981a16cbb61bfaf20c865bcfaf6a8", null ],
-    [ "PrepareSpellScript", "d8/d8a/a25395.html#a73865997890d4f58cc09d54c2c4e5243", null ],
-    [ "Register", "d8/d8a/a25395.html#a106cf5d53956b66f8f548caceda41dc8", null ],
-    [ "SelectTarget", "d8/d8a/a25395.html#ab33513df20e942ba354932df5082efa8", null ],
-    [ "_target", "d8/d8a/a25395.html#af25d11fc93423ee6e1678ebb5dcf1276", null ]
+    [ "CheckProc", "d8/d8a/a25395.html#ae0b0a45ddc782a523394e30414e0b2ba", null ],
+    [ "HandleProc", "d8/d8a/a25395.html#a9cb849a8ea8afb45cc1df4d260542937", null ],
+    [ "PrepareAuraScript", "d8/d8a/a25395.html#af65fc845e6625b1f0a4f4b88ba6db46e", null ],
+    [ "Register", "d8/d8a/a25395.html#acc5c7607ea7a23b66d1db6cb1a38833e", null ],
+    [ "Validate", "d8/d8a/a25395.html#a03621fd67cd9179ccc37a53c4d2056d9", null ]
 ];

@@ -1,6 +1,6 @@
 var a24007 =
 [
-    [ "go_beaconAI", "da/d85/a24007.html#a95f0f62d4e34da650c22a7ce796fc85f", null ],
-    [ "OnStateChanged", "da/d85/a24007.html#a10bd78bf6c2451fe95163eb9083bdf44", null ],
-    [ "creatureList", "da/d85/a24007.html#a8f406b85752e42cc26741aa5a13e69bc", null ]
+    [ "go_beaconAI", "d2/d12/a24011.html", "d2/d12/a24011" ],
+    [ "go_beacon", "da/d85/a24007.html#ad4224cabdc7210d9a0a46fb1eed1a23b", null ],
+    [ "GetAI", "da/d85/a24007.html#abd168f0c1ac9a64cece280758f3120d4", null ]
 ];

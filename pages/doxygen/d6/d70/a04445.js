@@ -1,5 +1,7 @@
 var a04445 =
 [
-    [ "ChatLogScript", "d4/de1/a27087.html", "d4/de1/a27087" ],
-    [ "AddSC_chat_log", "d6/d70/a04445.html#ae796ad81a78a552e5c31fcf6c5c135fa", null ]
+    [ "AddTime", "d6/d70/a04445.html#aae074176c44fa3d99280320c869fde46", null ],
+    [ "GetTime", "d6/d70/a04445.html#ae44f550ac340528abe454269c2273d73", null ],
+    [ "IsCorrectDelay", "d6/d70/a04445.html#a18121c73cd31656af9ee5e5da754e4bd", null ],
+    [ "_players", "d6/d70/a04445.html#af8ad5db2c36ddfbca0b6b18e3478c2c5", null ]
 ];

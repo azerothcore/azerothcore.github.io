@@ -1,8 +1,8 @@
 var a24359 =
 [
-    [ "npc_pet_gen_valkyr_guardian", "da/d2a/a24359.html#a546f0b0b4273de8216e9f688c2d68209", null ],
-    [ "InitializeAI", "da/d2a/a24359.html#ac32c8bb1e1014015a0ab92417bbc78a9", null ],
-    [ "OwnerAttacked", "da/d2a/a24359.html#a7f0bcedd78d88cdc802ba66c0ff7d927", null ],
-    [ "UpdateAI", "da/d2a/a24359.html#a9a5a233763365c6cca5618459a23a816", null ],
-    [ "targetCheck", "da/d2a/a24359.html#aa530b6b6415c85cd76f44d625329c2fb", null ]
+    [ "npc_pet_gen_gnomish_flame_turret", "da/d2a/a24359.html#a6e79c0ad6219d0beb23cfb086e6d3eaf", null ],
+    [ "AttackStart", "da/d2a/a24359.html#a2aab464c099e8e5e760a9ae4f28ac33f", null ],
+    [ "Reset", "da/d2a/a24359.html#a46fe5703a5859d5583e7df3a57b3910a", null ],
+    [ "UpdateAI", "da/d2a/a24359.html#ae3db08323af4b82009ffd660b3e78474", null ],
+    [ "checkTimer", "da/d2a/a24359.html#ac6705f4980ca561a5fd33c2917488439", null ]
 ];

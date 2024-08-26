@@ -1,5 +1,5 @@
 var a27003 =
 [
-    [ "AreaTrigger_at_nats_landing", "d4/dc6/a27003.html#ac366e5b1db489b4f8bb8a1d07caa83c2", null ],
-    [ "OnTrigger", "d4/dc6/a27003.html#a67434f74300fa3463e679afb7d344467", null ]
+    [ "AreaTrigger_at_last_rites", "d4/dc6/a27003.html#a30d1930c76920ab12cf4f9b04fd5f0e4", null ],
+    [ "OnTrigger", "d4/dc6/a27003.html#a48f6e2041cda24812a165fa0fb62f1b6", null ]
 ];

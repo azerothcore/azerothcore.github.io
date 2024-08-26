@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['earthenpowertargetselector_0',['EarthenPowerTargetSelector',['../d5/d31/a26591.html',1,'']]],
+  ['earthenpowertargetselector_0',['EarthenPowerTargetSelector',['../d3/dca/a26595.html',1,'']]],
   ['effectabsorbhandler_1',['EffectAbsorbHandler',['../df/d2c/a11023.html',1,'AuraScript']]],
   ['effectapplyhandler_2',['EffectApplyHandler',['../dd/d69/a11019.html',1,'AuraScript']]],
   ['effectauranamecheck_3',['EffectAuraNameCheck',['../d7/de2/a10939.html',1,'_SpellScript']]],
@@ -20,12 +20,12 @@ var searchData=
   ['ellipseboundary_17',['EllipseBoundary',['../d9/d1b/a09427.html',1,'']]],
   ['elunascript_18',['ElunaScript',['../da/d38/a09995.html',1,'']]],
   ['embleminfo_19',['EmblemInfo',['../d6/dc3/a09191.html',1,'']]],
-  ['emerald_5fdragonai_20',['emerald_dragonAI',['../d1/d51/a27019.html',1,'']]],
+  ['emerald_5fdragonai_20',['emerald_dragonAI',['../da/d8d/a27023.html',1,'']]],
   ['emote_21',['Emote',['../d7/d0f/a10211.html',1,'WorldPackets::Chat']]],
   ['emotechatbuilder_22',['EmoteChatBuilder',['../d2/d40/a09255.html',1,'Acore']]],
   ['emoteclient_23',['EmoteClient',['../db/d6a/a10215.html',1,'WorldPackets::Chat']]],
-  ['emotesentry_24',['EmotesEntry',['../d6/da6/a27995.html',1,'']]],
-  ['emotestextentry_25',['EmotesTextEntry',['../d5/d5b/a27999.html',1,'']]],
+  ['emotesentry_24',['EmotesEntry',['../d5/d5b/a27999.html',1,'']]],
+  ['emotestextentry_25',['EmotesTextEntry',['../de/de3/a28003.html',1,'']]],
   ['enchant_26',['enchant',['../d3/d77/a07531.html',1,'Acore::Hyperlinks::LinkTags']]],
   ['enchantduration_27',['EnchantDuration',['../df/dd4/a08323.html',1,'']]],
   ['enchstoreitem_28',['EnchStoreItem',['../dc/d82/a08075.html',1,'']]],
@@ -47,5 +47,5 @@ var searchData=
   ['eventmap_44',['EventMap',['../d1/dab/a05359.html',1,'']]],
   ['eventprocessor_45',['EventProcessor',['../df/d06/a05371.html',1,'']]],
   ['exactsequence_46',['ExactSequence',['../d8/dcd/a07427.html',1,'Acore::ChatCommands']]],
-  ['exception_47',['Exception',['../de/d1a/a28495.html',1,'DBCFile']]]
+  ['exception_47',['Exception',['../d4/dd9/a28499.html',1,'DBCFile']]]
 ];

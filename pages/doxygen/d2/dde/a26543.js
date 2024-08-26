@@ -1,6 +1,6 @@
 var a26543 =
 [
-    [ "CheckCast", "d2/dde/a26543.html#aecbecbd753b8ed32d51971a090063ef4", null ],
-    [ "PrepareSpellScript", "d2/dde/a26543.html#a0efb319154edb2c798460de72d6a56ed", null ],
-    [ "Register", "d2/dde/a26543.html#acd6ecb0204dd369c410e465551328f56", null ]
+    [ "HandleAfterCast", "d2/dde/a26543.html#a6f21938e84e45848fad74a16f1f52c48", null ],
+    [ "PrepareSpellScript", "d2/dde/a26543.html#ac7abeee05c117595696faf1ec55e11bd", null ],
+    [ "Register", "d2/dde/a26543.html#a9e90a6fa037627ac682f4ea050f557de", null ]
 ];

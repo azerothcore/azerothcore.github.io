@@ -1,11 +1,10 @@
 var a02759 =
 [
-    [ "MCBossObject", "d3/ddb/a12171.html", "d3/ddb/a12171" ],
-    [ "instance_molten_core", "d4/d0e/a12175.html", "d4/d0e/a12175" ],
-    [ "instance_molten_core::instance_molten_core_InstanceMapScript", "d2/d4f/a12179.html", "d2/d4f/a12179" ],
-    [ "AddSC_instance_molten_core", "da/d8e/a02759.html#aa908fb56c2f024e5bfcb38bc98b849ab", null ],
-    [ "linkedBossObjData", "da/d8e/a02759.html#a69ab269a27b57bb4b00d3eee95db589e", null ],
-    [ "MAX_MC_LINKED_BOSS_OBJ", "da/d8e/a02759.html#a398f000c29691c6a24707190dc4a4024", null ],
-    [ "minionData", "da/d8e/a02759.html#a6720238df140a3c574a711042b7f5bd3", null ],
-    [ "SAY_SPAWN", "da/d8e/a02759.html#a1712840a822c3d823764d3c974c6ea31", null ]
+    [ "EnchStoreItem", "dc/d82/a08075.html", "dc/d82/a08075" ],
+    [ "EnchantmentStore", "da/d8e/a02759.html#ab462bc366dd954f1c0b539c408b74c01", null ],
+    [ "EnchStoreList", "da/d8e/a02759.html#ab5e9dd6a265a402e7a9499fdaae1e850", null ],
+    [ "GenerateEnchSuffixFactor", "da/d8e/a02759.html#a25026e783b088b45eebd4db8295b1b87", null ],
+    [ "GetItemEnchantMod", "da/d8e/a02759.html#a76d03c9ceb2d3ac35582eaea4624544f", null ],
+    [ "LoadRandomEnchantmentsTable", "da/d8e/a02759.html#a376fabf7bba54eaf928217f860f1c33b", null ],
+    [ "RandomItemEnch", "da/d8e/a02759.html#a6aeb6f30f019ca8d9839fcf41beb1ac7", null ]
 ];

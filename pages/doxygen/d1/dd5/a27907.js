@@ -1,7 +1,11 @@
 var a27907 =
 [
-    [ "cutPercent", "d1/dd5/a27907.html#a8581a6a5198dab10680f477a477a7c80", null ],
-    [ "depositPercent", "d1/dd5/a27907.html#af7bb868f1a1e8d570ce7b6cb10ad87d9", null ],
-    [ "faction", "d1/dd5/a27907.html#a4b857e3c4c333b2a86f7f5d08bcc883d", null ],
-    [ "houseId", "d1/dd5/a27907.html#a1bf77c1b14731def0e3de44143df2eed", null ]
+    [ "icon", "d1/dd5/a27907.html#ad34c7f65fc077b39b6b71a1ff1a89cf5", null ],
+    [ "id", "d1/dd5/a27907.html#af9f4cd8b29daededd3d2b2f0cc53d213", null ],
+    [ "mapId", "d1/dd5/a27907.html#a4a8ba812b143b55e06d8dbd88e9e6fe3", null ],
+    [ "worldState", "d1/dd5/a27907.html#a9d745d26316726c861cc5a242f6a4f57", null ],
+    [ "x", "d1/dd5/a27907.html#a27fd46a0c6b00a297c345a14dfd781e5", null ],
+    [ "y", "d1/dd5/a27907.html#afcb7cc22d0ed260793b31f8893d13a0f", null ],
+    [ "z", "d1/dd5/a27907.html#a79ca5d6a2c4332dcc6d0a51ef40d0189", null ],
+    [ "zoneId", "d1/dd5/a27907.html#a0cc33089981237694ca550cba6793a3e", null ]
 ];

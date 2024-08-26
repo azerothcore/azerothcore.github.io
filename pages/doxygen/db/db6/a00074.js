@@ -1,19 +1,12 @@
 var a00074 =
 [
-    [ "MmapTileHeader", "d3/d3a/a04891.html", "d3/d3a/a04891" ],
-    [ "MAX_NUMBER_OF_GRIDS", "db/db6/a00074.html#a857252154f120575d940ffbdf63bace6", null ],
-    [ "MMAP_MAGIC", "db/db6/a00074.html#af7a9a5e840ab3ad1c160e832500016d1", null ],
-    [ "MMAP_VERSION", "db/db6/a00074.html#aea71555fdd0af33ccc21c76c67574421", null ],
-    [ "SIZE_OF_GRIDS", "db/db6/a00074.html#a55c9adba46c0c14cd4ac80ab51228816", null ],
-    [ "NavTerrain", "db/db6/a00074.html#a8a4d0b36dd46d60b691b894fb8c1c5db", [
-      [ "NAV_EMPTY", "db/db6/a00074.html#a8a4d0b36dd46d60b691b894fb8c1c5dba7e7367494e3519c95f1b756726fec9a5", null ],
-      [ "NAV_GROUND", "db/db6/a00074.html#a8a4d0b36dd46d60b691b894fb8c1c5dbac2c74d40490a8ea42121c00a8249bd98", null ],
-      [ "NAV_MAGMA", "db/db6/a00074.html#a8a4d0b36dd46d60b691b894fb8c1c5dba9ea5d0550a08be7bb291557f1fc4f670", null ],
-      [ "NAV_SLIME", "db/db6/a00074.html#a8a4d0b36dd46d60b691b894fb8c1c5dbad892c321d39d49cdb700eb27fc249f75", null ],
-      [ "NAV_WATER", "db/db6/a00074.html#a8a4d0b36dd46d60b691b894fb8c1c5dbae258322a4a7d7928a89ac183ecf137d1", null ],
-      [ "NAV_UNUSED1", "db/db6/a00074.html#a8a4d0b36dd46d60b691b894fb8c1c5dba55b6c76a11113bfd585b61366a3f6d03", null ],
-      [ "NAV_UNUSED2", "db/db6/a00074.html#a8a4d0b36dd46d60b691b894fb8c1c5dba4c61900269be6dee2e26cbeb4e09d0bb", null ],
-      [ "NAV_UNUSED3", "db/db6/a00074.html#a8a4d0b36dd46d60b691b894fb8c1c5dba3055dd71ec523facb0cba2976316d530", null ],
-      [ "NAV_UNUSED4", "db/db6/a00074.html#a8a4d0b36dd46d60b691b894fb8c1c5dba94351935a3c7389b4667144d53923d56", null ]
-    ] ]
+    [ "EnumFlag< T >", "df/d5e/a05351.html", "df/d5e/a05351" ],
+    [ "DEFINE_ENUM_FLAG", "db/db6/a00074.html#a9f556f9c539f21ae6fd639abe4c39c75", null ],
+    [ "IsFlag", "db/db6/a00074.html#a7294b75cb336d554d5ce2b75b05c37d6", null ],
+    [ "IsEnumFlag", "db/db6/a00074.html#ae0992e010612850442fc56bcf2d44b47", null ],
+    [ "operator&", "db/db6/a00074.html#a27ef39aed098304d7387af8257f7cee3", null ],
+    [ "operator&=", "db/db6/a00074.html#a24a78ca9e9dcd1b92829560e580c3134", null ],
+    [ "operator|", "db/db6/a00074.html#ac8aaa198de31cb5a3b217d0968f30a3b", null ],
+    [ "operator|=", "db/db6/a00074.html#a7808a2b72bed2b70553d802ed11e27c4", null ],
+    [ "operator~", "db/db6/a00074.html#abe3f4d2eafbceebe9ec46ffcd15cfa76", null ]
 ];

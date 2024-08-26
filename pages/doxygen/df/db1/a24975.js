@@ -1,7 +1,8 @@
 var a24975 =
 [
-    [ "HandleEffectPeriodic", "df/db1/a24975.html#a3a2e7653276964fd36c93b41aa8f25ea", null ],
-    [ "PrepareAuraScript", "df/db1/a24975.html#a893a539f4eeb0b9f027c5a306cc7bd53", null ],
-    [ "Register", "df/db1/a24975.html#a36792fd068ec7444aa118ec63cf972a7", null ],
-    [ "Validate", "df/db1/a24975.html#aa57af116294cfba007586506ba1dbeb5", null ]
+    [ "CheckProc", "df/db1/a24975.html#a1ba43a41ca6909f2bd377290b1b0b12b", null ],
+    [ "OnProc", "df/db1/a24975.html#a6ffad33ef5c8433705c65a2c693d5527", null ],
+    [ "PrepareAuraScript", "df/db1/a24975.html#af474a768c441fb666163f4ebd5068393", null ],
+    [ "Register", "df/db1/a24975.html#ae533e87550b1aedc67b67c217495286d", null ],
+    [ "Validate", "df/db1/a24975.html#ab6e36f24dea949c8cedaaed0d5fa9517", null ]
 ];

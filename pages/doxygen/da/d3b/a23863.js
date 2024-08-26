@@ -1,7 +1,8 @@
 var a23863 =
 [
-    [ "HandleDamage", "da/d3b/a23863.html#add7e78111217d00bfa3dfa5b3eb490f9", null ],
-    [ "HandleTargets", "da/d3b/a23863.html#ac9e455d4ef5cc7b7ce424b70b4387c78", null ],
-    [ "PrepareSpellScript", "da/d3b/a23863.html#a46b62a09ea23cb102b0e5cf075c727d4", null ],
-    [ "Register", "da/d3b/a23863.html#a8873614ae22c908cb2cf49129fc53be2", null ]
+    [ "boss_mechano_lord_capacitus", "da/d3b/a23863.html#ab5867184d4e50a89a1afe25eb40e6bc3", null ],
+    [ "JustDied", "da/d3b/a23863.html#a596314e7aebcc9e2e7311b4e0850b817", null ],
+    [ "JustEngagedWith", "da/d3b/a23863.html#a4aa9ee50a942fe123acfdeee0350fa2d", null ],
+    [ "JustSummoned", "da/d3b/a23863.html#a9a0b2cac08002db63162f95b9476c251", null ],
+    [ "KilledUnit", "da/d3b/a23863.html#a6a408c654f91a44a40b3df52c0f2b093", null ]
 ];

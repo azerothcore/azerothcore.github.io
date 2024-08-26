@@ -1,6 +1,7 @@
 var a23115 =
 [
-    [ "HandleEffectRemove", "d3/d96/a23115.html#adfbbb75ace34ab5c0fec35e6aa88505a", null ],
-    [ "PrepareAuraScript", "d3/d96/a23115.html#a94b91d27b9a218b5fdce91d6a6e72f62", null ],
-    [ "Register", "d3/d96/a23115.html#a2b7fb2d6d0f92a970a45e0b9c409408d", null ]
+    [ "npc_tainted_elemental", "d3/d96/a23115.html#a71736892dc20a5be304a161dac183bc9", null ],
+    [ "JustEngagedWith", "d3/d96/a23115.html#a51a05405b3acb9cc0bd27ff14fc61cd2", null ],
+    [ "Reset", "d3/d96/a23115.html#aa6792680e31edf8597948b77f5ff2218", null ],
+    [ "UpdateAI", "d3/d96/a23115.html#a32a68a990c764a0f73d3420b93e3b97c", null ]
 ];

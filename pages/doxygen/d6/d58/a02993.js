@@ -1,17 +1,29 @@
 var a02993 =
 [
-    [ "npc_daphne_stilwell", "df/d87/a13523.html", "df/d87/a13523" ],
-    [ "npc_daphne_stilwell::npc_daphne_stilwellAI", "d6/d72/a13527.html", "d6/d72/a13527" ],
-    [ "DaphneStilwell", "d6/d58/a02993.html#a49d1cb4d511d2524f3bf3459da05a2fd", [
-      [ "SAY_DS_START", "d6/d58/a02993.html#a49d1cb4d511d2524f3bf3459da05a2fdaa12c38d2f57b101a5272dde45bbf430e", null ],
-      [ "SAY_DS_DOWN_1", "d6/d58/a02993.html#a49d1cb4d511d2524f3bf3459da05a2fda75bd441fc5d22c60e256684d8664aa46", null ],
-      [ "SAY_DS_DOWN_2", "d6/d58/a02993.html#a49d1cb4d511d2524f3bf3459da05a2fda2fd750f4c8a0d85a69375e139be43d75", null ],
-      [ "SAY_DS_DOWN_3", "d6/d58/a02993.html#a49d1cb4d511d2524f3bf3459da05a2fda14433601b23e5a16dcc971ea746d1128", null ],
-      [ "SAY_DS_PROLOGUE", "d6/d58/a02993.html#a49d1cb4d511d2524f3bf3459da05a2fda402570a024e9b48018ca6b53ff7b83f8", null ],
-      [ "SPELL_SHOOT", "d6/d58/a02993.html#a49d1cb4d511d2524f3bf3459da05a2fda1b728fa1bb0194534b5b491d35ed871c", null ],
-      [ "QUEST_TOME_VALOR", "d6/d58/a02993.html#a49d1cb4d511d2524f3bf3459da05a2fda041a2f4b3f03948fc2f61e32e673973c", null ],
-      [ "NPC_DEFIAS_RAIDER", "d6/d58/a02993.html#a49d1cb4d511d2524f3bf3459da05a2fda8455beedf9f49cb74c0f11bfb5a83050", null ],
-      [ "EQUIP_ID_RIFLE", "d6/d58/a02993.html#a49d1cb4d511d2524f3bf3459da05a2fda31e0ac414da424f6923680055dd801d3", null ]
-    ] ],
-    [ "AddSC_westfall", "d6/d58/a02993.html#a9c6e961944f462fc3c48a6400c76266c", null ]
+    [ "HashMapHolder< T >", "d4/db4/a08575.html", "d4/db4/a08575" ],
+    [ "AddObject", "d6/d58/a02993.html#a0726eba7e71a7c6d4f6f90b4dfb410f8", null ],
+    [ "AddObject", "d6/d58/a02993.html#a2f3be0f1bc71493623f991ad879c8be4", null ],
+    [ "FindConnectedPlayer", "d6/d58/a02993.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0", null ],
+    [ "FindPlayer", "d6/d58/a02993.html#a9ede56180a13f102ad195136eadb97ee", null ],
+    [ "FindPlayerByLowGUID", "d6/d58/a02993.html#a106c85352229fc2c097d9e021b4ce297", null ],
+    [ "FindPlayerByName", "d6/d58/a02993.html#af5cb6806842c9689cf1d5f43ffdc4b0a", null ],
+    [ "GetCorpse", "d6/d58/a02993.html#a9031db6958a68a6fda60e3c0f37d639f", null ],
+    [ "GetCreature", "d6/d58/a02993.html#ae42e503fe79bbeaea1aaa665418c43f8", null ],
+    [ "GetCreatureOrPetOrVehicle", "d6/d58/a02993.html#abe7c8995443541417f52b00973dbde6f", null ],
+    [ "GetDynamicObject", "d6/d58/a02993.html#a76097a1f20df3f0e83516b1175a17397", null ],
+    [ "GetGameObject", "d6/d58/a02993.html#a424a63829a446dac6f97a464cc64ed48", null ],
+    [ "GetObjectByTypeMask", "d6/d58/a02993.html#a0bfd3fb4a5f43a4159bbd0b176186e19", null ],
+    [ "GetPet", "d6/d58/a02993.html#a76e4ca902836751980d6157a3eed7967", null ],
+    [ "GetPlayer", "d6/d58/a02993.html#aeb3657e7ad09335b9a9ffa50473aa216", null ],
+    [ "GetPlayer", "d6/d58/a02993.html#a9179a3b50b384405892a8e8e538617b4", null ],
+    [ "GetPlayers", "d6/d58/a02993.html#a868ecab21b3e6e3ac68beed32f4ea793", null ],
+    [ "GetSpawnedCreatureByDBGUID", "d6/d58/a02993.html#a4cebdea9476a004a8a1bd57c40d1f3ae", null ],
+    [ "GetSpawnedGameObjectByDBGUID", "d6/d58/a02993.html#a6639665d2704cbd06727004567caac15", null ],
+    [ "GetTransport", "d6/d58/a02993.html#a2ddde0dc109d262af644c232a315afd7", null ],
+    [ "GetUnit", "d6/d58/a02993.html#a02c2dfb59db7d7e2501dcc9a4f9baf07", null ],
+    [ "GetWorldObject", "d6/d58/a02993.html#ade254f98439319c444ce701c75d4f93a", null ],
+    [ "RemoveObject", "d6/d58/a02993.html#a43f4538cfa587672688705f6f7a60edc", null ],
+    [ "RemoveObject", "d6/d58/a02993.html#ad72db398e2ff25a82a93e89fb67c56ff", null ],
+    [ "SaveAllPlayers", "d6/d58/a02993.html#a0fba0222d2e46026727c6e898a7f35bc", null ],
+    [ "UpdatePlayerNameMapReference", "d6/d58/a02993.html#a8a088e6967b9972662d788beffba14d4", null ]
 ];

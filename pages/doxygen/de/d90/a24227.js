@@ -1,7 +1,6 @@
 var a24227 =
 [
-    [ "npc_kservantAI", "de/d90/a24227.html#a0687712690f2bacd24da1c94d222e761", null ],
-    [ "IsSummonedBy", "de/d90/a24227.html#a6aa9c1544fffdd9916eda7a0941dc828", null ],
-    [ "Reset", "de/d90/a24227.html#a0756ffacb97c83a3028afc620b32f349", null ],
-    [ "WaypointReached", "de/d90/a24227.html#a577a2ebb91c08bfe2e09bc67eeebb4ef", null ]
+    [ "npc_kservantAI", "dc/dfd/a24231.html", "dc/dfd/a24231" ],
+    [ "npc_kservant", "de/d90/a24227.html#af04c8a87516e41f7d35071664034af9d", null ],
+    [ "GetAI", "de/d90/a24227.html#a3ae7327ec2ead5a2d3ffb043f18ccc09", null ]
 ];

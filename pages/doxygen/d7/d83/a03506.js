@@ -1,7 +1,8 @@
 var a03506 =
 [
-    [ "instance_trial_of_the_crusader", "d8/d5a/a16499.html", "d8/d5a/a16499" ],
-    [ "instance_trial_of_the_crusader::instance_trial_of_the_crusader_InstanceMapScript", "d7/df9/a16503.html", "d7/df9/a16503" ],
-    [ "AddSC_instance_trial_of_the_crusader", "d7/d83/a03506.html#af823cabf441f9e6a5443da42df4fda4f", null ],
-    [ "validDedicatedInsanityItems", "d7/d83/a03506.html#ad29a01125872f689fb9953e9b3beb8e8", null ]
+    [ "WorldPackets::Bank::AutoBankItem", "d9/d28/a10151.html", "d9/d28/a10151" ],
+    [ "WorldPackets::Bank::AutoStoreBankItem", "dc/dea/a10155.html", "dc/dea/a10155" ],
+    [ "WorldPackets::Bank::BuyBankSlot", "da/d3a/a10159.html", "da/d3a/a10159" ],
+    [ "WorldPackets::Bank::BuyBankSlotResult", "d2/d29/a10163.html", "d2/d29/a10163" ],
+    [ "WorldPackets::Bank::ShowBank", "d3/d24/a10167.html", "d3/d24/a10167" ]
 ];

@@ -1,6 +1,6 @@
 var a25383 =
 [
-    [ "CheckCast", "df/d3d/a25383.html#a7fa12be149f0cb2202142d7f44cde0a6", null ],
-    [ "PrepareSpellScript", "df/d3d/a25383.html#ad6867dad8bda358bd1479935c80b82e7", null ],
-    [ "Register", "df/d3d/a25383.html#a0ab2f1f2a87db93e54dc883c4e53d7ba", null ]
+    [ "CheckCast", "df/d3d/a25383.html#a849de7a9bc8d22ca1556e4e798807eaa", null ],
+    [ "PrepareSpellScript", "df/d3d/a25383.html#aadbfe7c69dac7cbc76aee2bfb790b612", null ],
+    [ "Register", "df/d3d/a25383.html#a2ca1fd7353e69d1028b8a9b2882d7931", null ]
 ];
