@@ -28,8 +28,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd pages/doxygen/
-          git config --global user.name "Helias"
-          git config --global user.email "stefanoborzi32@gmail.com"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           rm -rf azerothcore-wotlk
           git add .
           git commit -m "chore: update doxygen documentation"
