@@ -1,7 +1,8 @@
 var a27272 =
 [
-    [ "PrepareSpellScript", "d6/d1b/a27272.html#aad8061898087fbf5eb6527cbaa70927d", null ],
-    [ "RecalculateDamage", "d6/d1b/a27272.html#a6f03ccb77ce43c4e36996ae344780ee3", null ],
-    [ "Register", "d6/d1b/a27272.html#abc7e406244a1a5ea9d7c3d8feb10b8ae", null ],
-    [ "_damagePct", "d6/d1b/a27272.html#a3ab5f5ec279f30dda50fa3ca3f5e6715", null ]
+    [ "go_bellsAI", "d6/d1b/a27272.html#a6f22847c66a3b5faded35da799359846", null ],
+    [ "UpdateAI", "d6/d1b/a27272.html#ab466f67665577f22bfe6cdb94d0a008b", null ],
+    [ "_events", "d6/d1b/a27272.html#a46c66442078cee28a76fc412746ca026", null ],
+    [ "_soundId", "d6/d1b/a27272.html#ab2491e9d27266ea69a5a9163e8c1b35b", null ],
+    [ "once", "d6/d1b/a27272.html#abf6ca2fc64f5764936a6d0179d40c2fa", null ]
 ];

@@ -1,6 +1,5 @@
 var a26940 =
 [
-    [ "PrepareSpellScript", "d2/d3b/a26940.html#ae8ef8bea1a6afa3f810c476e038bacc6", null ],
-    [ "RecalculateDamage", "d2/d3b/a26940.html#a856fdecdde1c68a163caf61afb2b0b90", null ],
-    [ "Register", "d2/d3b/a26940.html#a7f8c5c4920a87605b716e9e85b43ef47", null ]
+    [ "achievement_not_even_a_scratch", "d2/d3b/a26940.html#a0d025c09d35c3640016ab42e11dd96eb", null ],
+    [ "OnCheck", "d2/d3b/a26940.html#a81f6c9bd36e5a3eea3fe0af24c9f1649", null ]
 ];

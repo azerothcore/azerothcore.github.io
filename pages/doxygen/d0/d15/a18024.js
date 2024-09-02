@@ -1,8 +1,5 @@
 var a18024 =
 [
-    [ "ResetEncounterEvent", "d0/d15/a18024.html#aaa1bc6d3d529524df6b0ed6be6e0966f", null ],
-    [ "Execute", "d0/d15/a18024.html#ae8d52fc7c0689620bcef8c04643191f5", null ],
-    [ "_caster", "d0/d15/a18024.html#abb37778222749b27791baa329e268c32", null ],
-    [ "_otherTransport", "d0/d15/a18024.html#a7f2d0aaade5833381e3e7624745fc504", null ],
-    [ "_spellId", "d0/d15/a18024.html#ad4c57e519201e15e23e0f56f4fbe70cb", null ]
+    [ "FrozenThroneResetWorker", "d0/d15/a18024.html#afd21e9c1449d4e391713256e197bc92b", null ],
+    [ "operator()", "d0/d15/a18024.html#a7119548d30d760ae817a87cacf712cf6", null ]
 ];

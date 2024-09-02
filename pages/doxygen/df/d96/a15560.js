@@ -1,6 +1,6 @@
 var a15560 =
 [
-    [ "npc_silva_filnaveth", "df/d96/a15560.html#a5998381865214a7b3af7823bd2557cb0", null ],
-    [ "OnGossipHello", "df/d96/a15560.html#a32019c17271a3f504d86cd694262fd53", null ],
-    [ "OnGossipSelect", "df/d96/a15560.html#a10f81dce3dbc3ef0a84c8c33c2cb2e29", null ]
+    [ "instance_zulfarrak_InstanceMapScript", "d3/d25/a15564.html", "d3/d25/a15564" ],
+    [ "instance_zulfarrak", "df/d96/a15560.html#a7c8594fe278dc9f6c3ab6f291cf9bad2", null ],
+    [ "GetInstanceScript", "df/d96/a15560.html#a5f092341e49848c9d321452be2193d56", null ]
 ];

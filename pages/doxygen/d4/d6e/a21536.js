@@ -1,5 +1,6 @@
 var a21536 =
 [
-    [ "achievement_getting_cold_in_here", "d4/d6e/a21536.html#a57fe7262a09036ffa88e985cb7e2f123", null ],
-    [ "OnCheck", "d4/d6e/a21536.html#aeafd382d378381f754da6ee04d382276", null ]
+    [ "npc_hidden_cultistAI", "dd/dd0/a21540.html", "dd/dd0/a21540" ],
+    [ "npc_hidden_cultist", "d4/d6e/a21536.html#ab455b35fea966360e01fb8975adad989", null ],
+    [ "GetAI", "d4/d6e/a21536.html#a4897006d9416f1177b0bc0e41df60293", null ]
 ];

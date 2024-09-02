@@ -1,6 +1,7 @@
 var a18608 =
 [
-    [ "boss_rotfaceAI", "d4/de5/a18612.html", "d4/de5/a18612" ],
-    [ "boss_rotface", "d6/d71/a18608.html#a8896f5ed16c728d72a123b2e92a174fb", null ],
-    [ "GetAI", "d6/d71/a18608.html#a8a3ff9ef99da7d72ce2f7827bfc2564b", null ]
+    [ "HandleEffectPeriodic", "d6/d71/a18608.html#a57615f1d8b891ab5a5c01de1543235cb", null ],
+    [ "PrepareAuraScript", "d6/d71/a18608.html#ae040da0db1147652266e1f373838df37", null ],
+    [ "Register", "d6/d71/a18608.html#ab11b84522134ee4d13504df3c19f69b8", null ],
+    [ "Validate", "d6/d71/a18608.html#af3c3c90256913ffe188c11a21fc2dcc8", null ]
 ];

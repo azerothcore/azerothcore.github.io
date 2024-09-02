@@ -1,9 +1,7 @@
 var a26812 =
 [
-    [ "HandleApply", "d1/d20/a26812.html#a1a612d0b35ed6e67042b4d038f8927ca", null ],
-    [ "HandleRemove", "d1/d20/a26812.html#a54b5ffcf247f7385b50b401bc82f43ce", null ],
-    [ "PrepareAuraScript", "d1/d20/a26812.html#af2b8e669737cd4282beb6a5035f496fc", null ],
-    [ "RecalculateBaseArmor", "d1/d20/a26812.html#a693720558c7b2b22c41a49a402522014", null ],
-    [ "Register", "d1/d20/a26812.html#aff9bc58342383afe5a08be696cddedf6", null ],
-    [ "Validate", "d1/d20/a26812.html#ad712e1e05d94372defdfa4fe67e65716", null ]
+    [ "HandleDummy", "d1/d20/a26812.html#a0eae8fe2faee05bad7a34e84dddd3317", null ],
+    [ "PrepareSpellScript", "d1/d20/a26812.html#a24634405a8d0ccdd22f4832815262446", null ],
+    [ "Register", "d1/d20/a26812.html#a3394b9b9e5899550251d553ac9f77f8a", null ],
+    [ "Validate", "d1/d20/a26812.html#ae56a900b3484fd6397d38c4ad8efe5c2", null ]
 ];

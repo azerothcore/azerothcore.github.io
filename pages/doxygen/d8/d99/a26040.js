@@ -1,6 +1,8 @@
 var a26040 =
 [
-    [ "spell_q10935_the_exorcism_of_colonel_jules_SpellScript", "df/da2/a26044.html", "df/da2/a26044" ],
-    [ "spell_q10935_the_exorcism_of_colonel_jules", "d8/d99/a26040.html#a6991db0b226c7f9c225922e4f5103fe2", null ],
-    [ "GetSpellScript", "d8/d99/a26040.html#a614fce6182e2cc35d8a3e985d48e3426", null ]
+    [ "CheckCast", "d8/d99/a26040.html#a0d7910cd2b9d9f4174575532502d40f9", null ],
+    [ "HandleDummy", "d8/d99/a26040.html#a1eac1eb5f39093ff48942e82728478dd", null ],
+    [ "PrepareSpellScript", "d8/d99/a26040.html#adbb58b75232560d101b291c0d99a2a20", null ],
+    [ "Register", "d8/d99/a26040.html#a6acb46e81171e13f50ac1f01bf83013b", null ],
+    [ "Validate", "d8/d99/a26040.html#a4b67c348685a8094668e4ed2f0c78446", null ]
 ];

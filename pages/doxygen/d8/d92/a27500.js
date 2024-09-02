@@ -1,5 +1,7 @@
 var a27500 =
 [
-    [ "PrepareSpellScript", "d8/d92/a27500.html#a9137654c01f41c735f477b85e4ec6d73", null ],
-    [ "Register", "d8/d92/a27500.html#af1002e90bc0801c0759393d2d4af8778", null ]
+    [ "npc_sayge", "d8/d92/a27500.html#a5b75c459665ece26cee5dbffcc0fc8ff", null ],
+    [ "OnGossipHello", "d8/d92/a27500.html#ad069e6cc7fe5271c3474c8bcf537cf4c", null ],
+    [ "OnGossipSelect", "d8/d92/a27500.html#aa049b4514fc2d18508d8d4f9b6616c99", null ],
+    [ "SendAction", "d8/d92/a27500.html#aed1988335672423d024546654aa95298", null ]
 ];

@@ -1,28 +1,6 @@
 var a11736 =
 [
-    [ "instance_blackwing_lair_InstanceMapScript", "d2/d10/a11736.html#a9cf94352442fc16d348cf4d422410fe1", null ],
-    [ "CheckRequiredBosses", "d2/d10/a11736.html#a182101e5a87320126812527c7a9d5284", null ],
-    [ "GetData", "d2/d10/a11736.html#a9a03ee3eece1b15d547f64ab5070c30b", null ],
-    [ "GetGuidData", "d2/d10/a11736.html#a50ef4d022d7001fa9eada56af5e35649", null ],
-    [ "Initialize", "d2/d10/a11736.html#a045d3f8f41da01e70a04975d9cc7caca", null ],
-    [ "OnCreatureCreate", "d2/d10/a11736.html#ab65352275d06c7d5b7f1e15c0dffb4db", null ],
-    [ "OnGameObjectCreate", "d2/d10/a11736.html#a4127b0f7b3307ae74386d48218a7a04f", null ],
-    [ "OnGameObjectRemove", "d2/d10/a11736.html#a18d50b6c508ac265785cebc0ef71e2c2", null ],
-    [ "OnUnitDeath", "d2/d10/a11736.html#a765e061b6e9c989443c23d44b07f7962", null ],
-    [ "ReadSaveDataMore", "d2/d10/a11736.html#a90ef90e7bcf2d6578c0a22b9443fa64e", null ],
-    [ "SetBossState", "d2/d10/a11736.html#ac811176530020d9a175c6658353f2a71", null ],
-    [ "SetData", "d2/d10/a11736.html#ae25b1640368ec23e1b460becb6a1c6c1", null ],
-    [ "Update", "d2/d10/a11736.html#a22c7a6191db476b53def56710c429049", null ],
-    [ "WriteSaveDataMore", "d2/d10/a11736.html#a931bef98e77201e130d8f89ad5b27486", null ],
-    [ "_events", "d2/d10/a11736.html#a7ae6c97f0e29c47f0fa5694d99e11cc8", null ],
-    [ "addsCount", "d2/d10/a11736.html#a4472694b3e10a52fa69a399ea716e349", null ],
-    [ "EggCount", "d2/d10/a11736.html#a2d77ac46e819402980f16d2e2d7abafe", null ],
-    [ "EggEvent", "d2/d10/a11736.html#abf892481c634ac48009ec366e8410e3c", null ],
-    [ "EggList", "d2/d10/a11736.html#a69e6b9ddb34e398f1b93adde1d422288", null ],
-    [ "guardList", "d2/d10/a11736.html#a25502eb6ebe27e24b8311e4518466445", null ],
-    [ "nefarianDoorGUID", "d2/d10/a11736.html#aa2aceddb53255eb977446cc76ec7f201", null ],
-    [ "nefarianGUID", "d2/d10/a11736.html#ab72e14e96cb291310d8284c02d14a855", null ],
-    [ "NefarianLeftTunnel", "d2/d10/a11736.html#a946bb26f4db468867efe40f26c77064b", null ],
-    [ "NefarianRightTunnel", "d2/d10/a11736.html#a0136578bdcea8c39163b7813f359e1c8", null ],
-    [ "razorgoreGUID", "d2/d10/a11736.html#aa7aec41b51c994602d75c38e4e51f2d4", null ]
+    [ "npc_blackhand_incarceratorAI", "d2/d0a/a11740.html", "d2/d0a/a11740" ],
+    [ "npc_blackhand_incarcerator", "d2/d10/a11736.html#a0c6bb8ea789e81803a11be57ac1b68e2", null ],
+    [ "GetAI", "d2/d10/a11736.html#a021ddf6442812f7fb698ba7fb45b9ffb", null ]
 ];

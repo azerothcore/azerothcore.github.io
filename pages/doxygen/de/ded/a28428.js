@@ -1,6 +1,7 @@
 var a28428 =
 [
-    [ "HandleScript", "de/ded/a28428.html#a8866d650b96c4cae3201a2829cbeff3d", null ],
-    [ "PrepareSpellScript", "de/ded/a28428.html#aa16f51aa8a4fea2a84cadbb01d18b635", null ],
-    [ "Register", "de/ded/a28428.html#aeaa094c8d1f3407bf56d58d88c2238a1", null ]
+    [ "asyncId", "de/ded/a28428.html#afd18849875b4562e4a532903676ce25d", null ],
+    [ "flags", "de/ded/a28428.html#a9b9c3cec4acbd87911aa047dd52ae443", null ],
+    [ "offsMCNK", "de/ded/a28428.html#a063c5dc62c44038e882340221bf8228a", null ],
+    [ "size", "de/ded/a28428.html#a47a5eeb595d53de009651ae02d2b416d", null ]
 ];

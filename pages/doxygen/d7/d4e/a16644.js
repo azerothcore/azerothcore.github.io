@@ -1,7 +1,9 @@
 var a16644 =
 [
-    [ "npc_toc_mageAI", "d7/d4e/a16644.html#a188831088c892f68cef7498468b24899", null ],
-    [ "myCanCast", "d7/d4e/a16644.html#aaf7fd7b143a4eb410465c7cb34c32d2f", null ],
-    [ "UpdateAI", "d7/d4e/a16644.html#a0f4393341a6c565aef2c0b79a39c0699", null ],
-    [ "events", "d7/d4e/a16644.html#ab1910ce98f3d1b14e45acba22782d536", null ]
+    [ "HandlePeriodicTick", "d7/d4e/a16644.html#a8d3713d113cbcfd610938544e52fe6ec", null ],
+    [ "Load", "d7/d4e/a16644.html#a6f2cb6a9dd83a887314cdd9f7741acae", null ],
+    [ "PrepareAuraScript", "d7/d4e/a16644.html#a0d00fd1bbc8dfce6cbc3234865bab42b", null ],
+    [ "Register", "d7/d4e/a16644.html#a75dbd486e1ccb8c12bbf8001434ae66a", null ],
+    [ "Validate", "d7/d4e/a16644.html#aae7b42d8e7fa2dc76d2584534877625c", null ],
+    [ "dir", "d7/d4e/a16644.html#a7dd1959596e8ad1628498215249eb7a2", null ]
 ];

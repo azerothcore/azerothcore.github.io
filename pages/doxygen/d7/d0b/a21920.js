@@ -1,7 +1,7 @@
 var a21920 =
 [
-    [ "boss_thorim_trapAI", "d7/d0b/a21920.html#aaab278dc6557a49624099b0064b8d6f3", null ],
-    [ "Reset", "d7/d0b/a21920.html#ab0715e75a475409ffb6c623bf363a65d", null ],
-    [ "UpdateAI", "d7/d0b/a21920.html#a40078609a67aa029f71df7971449b056", null ],
-    [ "_checkTimer", "d7/d0b/a21920.html#ad3ed8edb4d06e5b98a5afc82170f3233", null ]
+    [ "HandleDummy", "d7/d0b/a21920.html#a98e8a4b7bbe947b00f1bc32632736d59", null ],
+    [ "PrepareSpellScript", "d7/d0b/a21920.html#a65b1ddf275eb5ee14ca32a1e25bf6e0e", null ],
+    [ "Register", "d7/d0b/a21920.html#acdfa4e1fc8e26a887e80521b1bea5150", null ],
+    [ "Validate", "d7/d0b/a21920.html#aeec15705a41ad2ac0e59d90086591d96", null ]
 ];

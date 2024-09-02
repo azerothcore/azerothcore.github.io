@@ -1,6 +1,6 @@
 var a25532 =
 [
-    [ "CalculateDamageAmount", "da/d0f/a25532.html#a5c391fd16108d121346c9029184856b8", null ],
-    [ "PrepareAuraScript", "da/d0f/a25532.html#a9f9bb200766c267957fee3a7563d497f", null ],
-    [ "Register", "da/d0f/a25532.html#ab57222b715d265b6acc27e2515fb3d97", null ]
+    [ "HandlePeriodicTick", "da/d0f/a25532.html#a1bd15727da421fdbfc3a60136bfa9bc9", null ],
+    [ "PrepareAuraScript", "da/d0f/a25532.html#a1c4f592511c8886d0b9a5e64eb19cda7", null ],
+    [ "Register", "da/d0f/a25532.html#ac019a52a6f62f1251d20efcfadba1e78", null ]
 ];

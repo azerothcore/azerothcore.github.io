@@ -1,7 +1,6 @@
 var a16228 =
 [
-    [ "OnApply", "d6/d86/a16228.html#ad8f4404f239f3e3bebc990cc85f7bda7", null ],
-    [ "OnRemove", "d6/d86/a16228.html#a3cdbc1c21d611de6e758405a51d6b131", null ],
-    [ "PrepareAuraScript", "d6/d86/a16228.html#af466e82545082d891be7d0691ed7e272", null ],
-    [ "Register", "d6/d86/a16228.html#a319622b9fee0e7b532dae4a1266e151e", null ]
+    [ "npc_toc_paladinAI", "df/d80/a16232.html", "df/d80/a16232" ],
+    [ "npc_toc_paladin", "d6/d86/a16228.html#af11025a2a4be2b2c982ad31241d47180", null ],
+    [ "GetAI", "d6/d86/a16228.html#a15766ea4414701040c738251302177af", null ]
 ];

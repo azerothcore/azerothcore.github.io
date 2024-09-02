@@ -1,8 +1,10 @@
 var a28360 =
 [
-    [ "HandleDummy", "d5/da2/a28360.html#a923fa966dc7109f7cb02c25bbd23b0ff", null ],
-    [ "Load", "d5/da2/a28360.html#a5b336f402a256c80d8d3f8c5b1cbda2f", null ],
-    [ "PrepareSpellScript", "d5/da2/a28360.html#a79dc24ba1f2f059d77a06b457a78fcf1", null ],
-    [ "Register", "d5/da2/a28360.html#afb1c744f263b21c30a5dfd3675acb364", null ],
-    [ "Validate", "d5/da2/a28360.html#acaaeacf371538cafbbb4cc7cc036280e", null ]
+    [ "BugfixVersion", "d5/da2/a28360.html#a461f8c749a874405584dc1fd3fe1d805", null ],
+    [ "Build", "d5/da2/a28360.html#a6cc7aff1b397df7333b9bb0003282abd", null ],
+    [ "HotfixVersion", "d5/da2/a28360.html#a0df61c036a57b8a3efde5d180dc38131", null ],
+    [ "MacHash", "d5/da2/a28360.html#ad59772e86371318fe975760e303fa7d9", null ],
+    [ "MajorVersion", "d5/da2/a28360.html#a0eb78564680f771e325536a0ab77382a", null ],
+    [ "MinorVersion", "d5/da2/a28360.html#a7140f7ef9540eff08fabf74ded68b9cc", null ],
+    [ "WindowsHash", "d5/da2/a28360.html#a96abd69a458dfc4363c4e545fc7fabab", null ]
 ];

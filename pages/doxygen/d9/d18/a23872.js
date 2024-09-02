@@ -1,12 +1,11 @@
 var a23872 =
 [
-    [ "npc_icefangAI", "d9/d18/a23872.html#ab74b58a77e3c1349ed308f7febef794a", null ],
-    [ "AttackStart", "d9/d18/a23872.html#a56615ecdb45389aa793374d26a636d45", null ],
-    [ "EnterEvadeMode", "d9/d18/a23872.html#a1465c4779ea8b080f934163c8db6c99c", null ],
-    [ "JustDied", "d9/d18/a23872.html#a3140c8306a384833cca1580ad964d73a", null ],
-    [ "JustEngagedWith", "d9/d18/a23872.html#a8455dd4afb5ef5a694ca9237848df907", null ],
-    [ "OnCharmed", "d9/d18/a23872.html#ad7f3465f5730cd9ebd42bb4092ec8e68", null ],
-    [ "PassengerBoarded", "d9/d18/a23872.html#acf6e8e273830d022eaca3a28a4bd5320", null ],
-    [ "UpdateAI", "d9/d18/a23872.html#ab4d752f2273062c48339b53e611e617c", null ],
-    [ "WaypointReached", "d9/d18/a23872.html#ae315a1d22317edb2864e4d796f808ffb", null ]
+    [ "boss_pathaleon_the_calculator", "d9/d18/a23872.html#a679dc3ccc23c6def44e0f0669822e146", null ],
+    [ "CanAIAttack", "d9/d18/a23872.html#abcbb5f1236ebfbec680241ae8c5cbb00", null ],
+    [ "DoAction", "d9/d18/a23872.html#a814cb56cc18277cb4adbd7dc8a82b06d", null ],
+    [ "JustDied", "d9/d18/a23872.html#a0224d47bc85fe54c0cfded69b55e57b3", null ],
+    [ "JustEngagedWith", "d9/d18/a23872.html#a3ba024e86ceb83ebb26afcc11a75791d", null ],
+    [ "KilledUnit", "d9/d18/a23872.html#a899fd2e1e01ac1347e43bcb290babc5b", null ],
+    [ "Reset", "d9/d18/a23872.html#adc48067c3656bf768c3013ff266565c0", null ],
+    [ "_isEnraged", "d9/d18/a23872.html#ab875fb787d71eaf008b7267c81a2a4df", null ]
 ];

@@ -1,7 +1,6 @@
 var a26320 =
 [
-    [ "npc_kservantAI", "dd/dc6/a26320.html#a0687712690f2bacd24da1c94d222e761", null ],
-    [ "IsSummonedBy", "dd/dc6/a26320.html#a6aa9c1544fffdd9916eda7a0941dc828", null ],
-    [ "Reset", "dd/dc6/a26320.html#a0756ffacb97c83a3028afc620b32f349", null ],
-    [ "WaypointReached", "dd/dc6/a26320.html#a577a2ebb91c08bfe2e09bc67eeebb4ef", null ]
+    [ "HandleDummy", "dd/dc6/a26320.html#afb85971597df327fa44271ee0c4b3d04", null ],
+    [ "PrepareSpellScript", "dd/dc6/a26320.html#a43052fedbec62cfbdbbf24fbfcbca047", null ],
+    [ "Register", "dd/dc6/a26320.html#a7a249dd2bcdccf1a19d151d041a25215", null ]
 ];

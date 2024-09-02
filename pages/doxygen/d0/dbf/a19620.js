@@ -1,7 +1,7 @@
 var a19620 =
 [
-    [ "CountTargets", "d0/dbf/a19620.html#aaf1312cc6981c3c3b472a57552f4f5f1", null ],
-    [ "HandleScript", "d0/dbf/a19620.html#a90728aa9269ce808ffb26d13ac770f12", null ],
-    [ "PrepareSpellScript", "d0/dbf/a19620.html#abbdc05c6984bc698c5c9a195c4d35f49", null ],
-    [ "Register", "d0/dbf/a19620.html#a1c9762e115a598642625326dbdd424c8", null ]
+    [ "HandleDummyEffect", "d0/dbf/a19620.html#ae95c1ce60db79c360e9c1431f27705cb", null ],
+    [ "PrepareSpellScript", "d0/dbf/a19620.html#a84a4f52928873e58b1fc49e783c5083a", null ],
+    [ "Register", "d0/dbf/a19620.html#a90c00bcb1768d696addab407425e406a", null ],
+    [ "SelectTarget", "d0/dbf/a19620.html#a2e7a7c05a30ae1e0c5aa14dc2af19345", null ]
 ];

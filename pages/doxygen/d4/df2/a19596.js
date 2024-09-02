@@ -1,7 +1,8 @@
 var a19596 =
 [
-    [ "OnApply", "d4/df2/a19596.html#a7061413afb54ebdf6c7aa8cc0c28f157", null ],
-    [ "OnRemove", "d4/df2/a19596.html#a0e86241e7664c649400e68d76e90524c", null ],
-    [ "PrepareAuraScript", "d4/df2/a19596.html#a4667e0212f438ab780c1a5fbc89be6e2", null ],
-    [ "Register", "d4/df2/a19596.html#acffd883551560166b46618284bec513c", null ]
+    [ "npc_algalon_worm_holeAI", "d4/df2/a19596.html#a07b36b40972bebea6b17890aa8fee50c", null ],
+    [ "JustSummoned", "d4/df2/a19596.html#a148de5da4502813e369ec6c52b1671a0", null ],
+    [ "Reset", "d4/df2/a19596.html#a915a8e5e23062cb10da9a3dbe387cf51", null ],
+    [ "UpdateAI", "d4/df2/a19596.html#a9df88d81aa4f4dd7e1dcdf6209832c32", null ],
+    [ "_summonTimer", "d4/df2/a19596.html#a73a55560e5ff7957d883f732bc0d2a82", null ]
 ];

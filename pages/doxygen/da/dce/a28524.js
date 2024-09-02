@@ -1,10 +1,15 @@
 var a28524 =
 [
-    [ "CheckProc", "da/dce/a28524.html#a5971c42af47d1cc8045a130deb218a04", null ],
-    [ "HandleProc", "da/dce/a28524.html#a45aaf5afebc2fa533240fcf8233430ed", null ],
-    [ "Load", "da/dce/a28524.html#a7664b0f67c9e3b14841ed9e30447544d", null ],
-    [ "PrepareAuraScript", "da/dce/a28524.html#a291fcf1af497d1e83a31209cd01a360d", null ],
-    [ "Register", "da/dce/a28524.html#af16d0517ad07a454145da0b92c051740", null ],
-    [ "Validate", "da/dce/a28524.html#ac768a5f4738dee9ad7d885fa6136785e", null ],
-    [ "_procTargetGUID", "da/dce/a28524.html#a13976d069846f29d2f744f3f03502787", null ]
+    [ "prepareLoadedData", "da/dce/a28524.html#ace847b2eee40844bb3fa880e3c1d1aa5", null ],
+    [ "data1", "da/dce/a28524.html#a9e2886eb133eb0e0bc8fa21a5b166d20", null ],
+    [ "data2", "da/dce/a28524.html#a53f0a49fd2de7f29032556fe3a4e9110", null ],
+    [ "data3", "da/dce/a28524.html#a2092bb81ccdea07c4752a2df49cba4c2", null ],
+    [ "data4", "da/dce/a28524.html#a2bfc7b7268caaa684c6fece0d0769b9e", null ],
+    [ "data5", "da/dce/a28524.html#a9536fcb98293d1c09a1975b753f02ae8", null ],
+    [ "data6", "da/dce/a28524.html#ad43914a6df430c32a0c2f56bb8f1f4d7", null ],
+    [ "data7", "da/dce/a28524.html#a7508e9fa38ab965ecf8e21b1f859a918", null ],
+    [ "data8", "da/dce/a28524.html#ae926543e029695e268ed950edf625bdb", null ],
+    [ "fcc", "da/dce/a28524.html#aa0ccc34e7e7a2de4e9866819dbe0c72a", null ],
+    [ "fcc_txt", "da/dce/a28524.html#aaa61a13b39e23a3efba960645e3e14a9", null ],
+    [ "size", "da/dce/a28524.html#a1af89d5193eff2f32cf37d131f9ef7b8", null ]
 ];

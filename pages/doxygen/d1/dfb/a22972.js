@@ -1,6 +1,9 @@
 var a22972 =
 [
-    [ "npc_sinkhole_kill_creditAI", "d3/d15/a22976.html", "d3/d15/a22976" ],
-    [ "npc_sinkhole_kill_credit", "d1/dfb/a22972.html#a627d01aaaa3408986f2b4d171624e680", null ],
-    [ "GetAI", "d1/dfb/a22972.html#a4d734432f132bea2c4525d049fbcfa67", null ]
+    [ "HandleEffectApply", "d1/dfb/a22972.html#aca8ff864832d30e45bccfca12256560a", null ],
+    [ "HandleEffectRemove", "d1/dfb/a22972.html#a2e16e86ce6e3231cf3fabc1d5bb1a6e7", null ],
+    [ "Load", "d1/dfb/a22972.html#a3b9838f26673ce344ca40f9f487ef878", null ],
+    [ "PrepareAuraScript", "d1/dfb/a22972.html#a79b93c86a01d31d08cba15436856b794", null ],
+    [ "Register", "d1/dfb/a22972.html#aa6c04279944abd31c42bb5dc4319aaf2", null ],
+    [ "_turtleSet", "d1/dfb/a22972.html#a308b9e032576ae058e9f2469dcc8ff23", null ]
 ];

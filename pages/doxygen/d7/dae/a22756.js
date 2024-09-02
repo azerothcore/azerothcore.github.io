@@ -1,6 +1,10 @@
 var a22756 =
 [
-    [ "npc_frozen_orb_stalkerAI", "d7/dae/a22756.html#afd8d187ecbf508d02824d1ff8f3cb5cf", null ],
-    [ "JustSummoned", "d7/dae/a22756.html#a73d7d5e55d2a00c9aee6f595e2678b17", null ],
-    [ "Reset", "d7/dae/a22756.html#a064ccb90afeb9b36d501850482c60bc4", null ]
+    [ "boss_gathios_the_shatterer", "d7/dae/a22756.html#a34708f52c610e567c5acf62962e90d4e", null ],
+    [ "JustEngagedWith", "d7/dae/a22756.html#a98ad625cf2ac9b1d8d9b41001ba4fb34", null ],
+    [ "SelectCouncilMember", "d7/dae/a22756.html#a3d33c1a29b7ba2feb22ea9d3941b39ed", null ],
+    [ "UpdateAI", "d7/dae/a22756.html#a1541f1efd3978a4c91b80e411aec6442", null ],
+    [ "_toggleAura", "d7/dae/a22756.html#aa983e2d9018a9e53ee29840781f47c33", null ],
+    [ "_toggleBlessing", "d7/dae/a22756.html#a52e9b7d3b1af46d3ecb6ca9432ee3957", null ],
+    [ "_toggleSeal", "d7/dae/a22756.html#ad7e6f9e03968e2abac570d0c7a5de9e2", null ]
 ];

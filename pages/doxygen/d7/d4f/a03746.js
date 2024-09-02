@@ -1,8 +1,11 @@
 var a03746 =
 [
-    [ "GameObjectScript", "df/de2/a10007.html", "df/de2/a10007" ],
-    [ "GenericGameObjectScript< AI >", "de/d3f/a10011.html", "de/d3f/a10011" ],
-    [ "FactoryGameObjectScript< AI, AIFactory >", "d4/db5/a10015.html", "d4/db5/a10015" ],
-    [ "RegisterGameObjectAI", "d7/d4f/a03746.html#a87397a2ba2a1acd88f62793eae9aa30e", null ],
-    [ "RegisterGameObjectAIWithFactory", "d7/d4f/a03746.html#a1614f98721d8a94351c4be15a72e499f", null ]
+    [ "AddOutdoorPvPScripts", "d7/d4f/a03746.html#a489bdfb4854732e561b6b13b70f67a0f", null ],
+    [ "AddSC_outdoorpvp_ep", "d7/d4f/a03746.html#ac97adfc1efbcf82840cffa915a55fecb", null ],
+    [ "AddSC_outdoorpvp_gh", "d7/d4f/a03746.html#a04eaa29ec2e34f71e4f7addacc0405c0", null ],
+    [ "AddSC_outdoorpvp_hp", "d7/d4f/a03746.html#a69303ad6f661d8c009ee493dc4fd486c", null ],
+    [ "AddSC_outdoorpvp_na", "d7/d4f/a03746.html#a03015585e7619177355fefd05f85e1c7", null ],
+    [ "AddSC_outdoorpvp_si", "d7/d4f/a03746.html#a6dfd2849f525333510ae4febbbc3ae1f", null ],
+    [ "AddSC_outdoorpvp_tf", "d7/d4f/a03746.html#a6df553c8dd6e9b81e83110e7beab3646", null ],
+    [ "AddSC_outdoorpvp_zm", "d7/d4f/a03746.html#a3077d08865fa83f84cf956c392a9091c", null ]
 ];

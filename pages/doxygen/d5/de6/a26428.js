@@ -1,7 +1,7 @@
 var a26428 =
 [
-    [ "go_skull_pile", "d5/de6/a26428.html#a9cf8dfef432c4967c60f66e645585770", null ],
-    [ "OnGossipHello", "d5/de6/a26428.html#ac95d39ea03e78fee2a10603d8c7f8840", null ],
-    [ "OnGossipSelect", "d5/de6/a26428.html#afb8e8db2705355e975fa48c98e09f20b", null ],
-    [ "SendActionMenu", "d5/de6/a26428.html#a9287eb499a93b8095a92bd2d7e8cb597", null ]
+    [ "HandleScript", "d5/de6/a26428.html#ad22b87be8f47886650d7bf9e98eee495", null ],
+    [ "PrepareSpellScript", "d5/de6/a26428.html#a806f934cd684039425ce3fca037b0e8c", null ],
+    [ "Register", "d5/de6/a26428.html#a9bd3ea5aa5fb16aac87f6097db31e113", null ],
+    [ "Validate", "d5/de6/a26428.html#a96d189c452a969850121323faef1d9c1", null ]
 ];

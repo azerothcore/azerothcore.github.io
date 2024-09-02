@@ -1,9 +1,7 @@
 var a25908 =
 [
-    [ "boss_mechano_lord_capacitusAI", "d9/dd8/a25908.html#a398142cc18ac96396a486cac884fd0b6", null ],
-    [ "JustDied", "d9/dd8/a25908.html#a736b09f0d76a4947bd307df912a070cc", null ],
-    [ "JustEngagedWith", "d9/dd8/a25908.html#ace4ea47766b1772d147ce817ad44d1a0", null ],
-    [ "JustSummoned", "d9/dd8/a25908.html#a71a0987e4cb74bee32924759b878c428", null ],
-    [ "KilledUnit", "d9/dd8/a25908.html#abf94cfd55b8ac3dc3d606190b9ff713e", null ],
-    [ "UpdateAI", "d9/dd8/a25908.html#ad4c24019baca62358de48d09d57bb071", null ]
+    [ "HandleKnockBack", "d9/dd8/a25908.html#a860fb74000a42a7d6f22d17dde93cdf6", null ],
+    [ "PrepareSpellScript", "d9/dd8/a25908.html#ab951d6403188f178f79311cead8a0a8f", null ],
+    [ "Register", "d9/dd8/a25908.html#ac62f4fdf003cdd53650fe632b3ed3ef1", null ],
+    [ "Validate", "d9/dd8/a25908.html#add1bd8f583772d4dfeb20f01b9fac8ed", null ]
 ];

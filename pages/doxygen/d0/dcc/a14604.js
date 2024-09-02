@@ -1,14 +1,14 @@
 var a14604 =
 [
-    [ "npc_giant_infernalAI", "d0/dcc/a14604.html#a190427cb5cfc5fe4d86c47da0db97d85", null ],
-    [ "JustEngagedWith", "d0/dcc/a14604.html#a2e6ab2d555084a499dd9e0e56cb46928", null ],
-    [ "Reset", "d0/dcc/a14604.html#a94a378d4509e96867b6c9d18b253506a", null ],
-    [ "UpdateAI", "d0/dcc/a14604.html#ace77fc1b5809f7e3b4714c9841448103", null ],
-    [ "WaypointReached", "d0/dcc/a14604.html#a447c52c22d3870da7af824be413c11fe", null ],
-    [ "CanMove", "d0/dcc/a14604.html#aafd67276a02d739f363afbf63d5f3df5", null ],
-    [ "FlameBuffetTimer", "d0/dcc/a14604.html#a32e005039f875397cefb355fea50a5d9", null ],
-    [ "go", "d0/dcc/a14604.html#aac773924c00240be00d6d1329603e9da", null ],
-    [ "imol", "d0/dcc/a14604.html#a664b2fbcbd65855028bf2f48d4a01a42", null ],
-    [ "meteor", "d0/dcc/a14604.html#a4d752fe21dce23e7515f482b1e2c075f", null ],
-    [ "spawnTimer", "d0/dcc/a14604.html#a155230a8c2dac9983d3a6e0bafc8c159", null ]
+    [ "boss_captain_skarloc", "d0/dcc/a14604.html#a196477160ab6d07dc644ddadf756a1e0", null ],
+    [ "InitializeAI", "d0/dcc/a14604.html#a1c67fb99984f666b63f8f79c6783341d", null ],
+    [ "JustDied", "d0/dcc/a14604.html#aca0d536010a53efdf9270146f15f9058", null ],
+    [ "JustEngagedWith", "d0/dcc/a14604.html#aaa516f26cdc0ccd88f5c529a0a4252d4", null ],
+    [ "JustSummoned", "d0/dcc/a14604.html#a5f5f08ab00d18bece28dde7490e52af8", null ],
+    [ "KilledUnit", "d0/dcc/a14604.html#a1ead95b7cf3c4fb5b36be083e852aa21", null ],
+    [ "MovementInform", "d0/dcc/a14604.html#a8e16d85ca8e41bc1cb7ac749dfaea075", null ],
+    [ "Reset", "d0/dcc/a14604.html#a73b728cd24c8cb124f93c0e637bc8a11", null ],
+    [ "UpdateAI", "d0/dcc/a14604.html#aa1a9d9e781f1bc2394e2ebf879fdf196", null ],
+    [ "_spawnedAdds", "d0/dcc/a14604.html#ad69432da4a5beb5fcc8bbac155608a87", null ],
+    [ "summons", "d0/dcc/a14604.html#a83a9e5971411de1c136cbad91f73f487", null ]
 ];

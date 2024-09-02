@@ -1,6 +1,6 @@
 var a15676 =
 [
-    [ "npc_custodian_of_timeAI", "de/d35/a15680.html", "de/d35/a15680" ],
-    [ "npc_custodian_of_time", "d3/ddc/a15676.html#a6018b30119ce819853a3c662b3d5347e", null ],
-    [ "GetAI", "d3/ddc/a15676.html#a57217b2dab1cab110f1c59526ca13c86", null ]
+    [ "PrepareSpellScript", "d3/ddc/a15676.html#a74a2601e2c160bb4a9b18d421775e6b3", null ],
+    [ "Register", "d3/ddc/a15676.html#a17a07973a3c043683fc4fe0d1fc45156", null ],
+    [ "SetDest", "d3/ddc/a15676.html#a3751a14d6e36140ee368d8ded6df03ee", null ]
 ];

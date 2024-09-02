@@ -1,6 +1,9 @@
 var a17376 =
 [
-    [ "npc_pos_deathwhisper_necrolyteAI", "d8/d8c/a17380.html", "d8/d8c/a17380" ],
-    [ "npc_pos_deathwhisper_necrolyte", "db/d58/a17376.html#a0dcdb5b1dfed44f74b04663758b531a0", null ],
-    [ "GetAI", "db/d58/a17376.html#ae765669f95f4f14b393b88bf7ecbbfd6", null ]
+    [ "BattleExperienceEvent", "db/d58/a17376.html#a3091b403089533ce2ebbb40fa38f28c9", null ],
+    [ "Execute", "db/d58/a17376.html#a3971962ec90f682baeae96fe6098fa97", null ],
+    [ "_creature", "db/d58/a17376.html#a0155536d5c2be329a1f3b57c4d852098", null ],
+    [ "_level", "db/d58/a17376.html#a22f0d7e59f579362be4576180d0977b8", null ],
+    [ "ExperiencedSpells", "db/d58/a17376.html#a5e2e06a386059ba2d9aff676648fa56b", null ],
+    [ "ExperiencedTimes", "db/d58/a17376.html#a4daf5818472ebe7c8d3938e2189d8e02", null ]
 ];

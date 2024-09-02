@@ -1,6 +1,6 @@
 var a17612 =
 [
-    [ "spell_sladran_grip_of_sladran_AuraScript", "d9/d4d/a17616.html", "d9/d4d/a17616" ],
-    [ "spell_sladran_grip_of_sladran", "d1/d59/a17612.html#afebeb00658802c5789bbf71064a82aac", null ],
-    [ "GetAuraScript", "d1/d59/a17612.html#aec734e122914c3ad42f8980957d1da71", null ]
+    [ "npc_darnavanAI", "d9/d4d/a17616.html", "d9/d4d/a17616" ],
+    [ "npc_darnavan", "d1/d59/a17612.html#ac358ca123155165395fa5f7ec02c9dab", null ],
+    [ "GetAI", "d1/d59/a17612.html#a9eeb6e5fba1e6d671af1f23f443c509a", null ]
 ];

@@ -1,5 +1,6 @@
 var a21688 =
 [
-    [ "achievement_kologarn_with_open_arms", "dc/d97/a21688.html#a94af961be5bbdf7783925148731ce7e4", null ],
-    [ "OnCheck", "dc/d97/a21688.html#a03c1fb5f141a15f8f63e28700b98f9b5", null ]
+    [ "npc_mindless_ghoulAI", "d5/d25/a21692.html", "d5/d25/a21692" ],
+    [ "npc_mindless_ghoul", "dc/d97/a21688.html#ac5bf71e719c0df04687f426a022fd65e", null ],
+    [ "GetAI", "dc/d97/a21688.html#ac5a087aa742827dc8eb0f3dc195920ec", null ]
 ];

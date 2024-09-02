@@ -1,6 +1,6 @@
 var a18920 =
 [
-    [ "DefileTargetSelector", "d1/d85/a18920.html#a9c13a04378d6550dd135d2cb41c9bc1c", null ],
-    [ "operator()", "d1/d85/a18920.html#a2ffea7bb2c62e0fa069e3d1ffec3ab11", null ],
-    [ "_source", "d1/d85/a18920.html#a427b4304b5a93f26741eda90d20ff13b", null ]
+    [ "boss_kelthuzad_minionAI", "d7/d11/a18924.html", "d7/d11/a18924" ],
+    [ "boss_kelthuzad_minion", "d1/d85/a18920.html#a4c6d430035c964b4063139c0cda6bfff", null ],
+    [ "GetAI", "d1/d85/a18920.html#ab951068fedced148653ebf9124ba5e3d", null ]
 ];

@@ -1,6 +1,9 @@
 var a17672 =
 [
-    [ "npc_dark_nucleusAI", "d7/d8b/a17676.html", "d7/d8b/a17676" ],
-    [ "npc_dark_nucleus", "d0/d17/a17672.html#a14459f4f41ef568decbc952fdcd4ffd5", null ],
-    [ "GetAI", "d0/d17/a17672.html#a1f59ae45c1a84a6faca5a8bb62fc16fc", null ]
+    [ "CountTargets", "d0/d17/a17672.html#aa72b762d802c27047d485a8a314c6c6d", null ],
+    [ "Load", "d0/d17/a17672.html#a80a5d0f997f5d68a4fb438a81295fa52", null ],
+    [ "PrepareSpellScript", "d0/d17/a17672.html#acfd2927786a5bcefa0889d7e8aa40f72", null ],
+    [ "Register", "d0/d17/a17672.html#a86cad92c07fa31c730a3b560d33ed824", null ],
+    [ "SplitDamage", "d0/d17/a17672.html#a501a46b3e3988ae8cb8af1ff87eeac65", null ],
+    [ "_targetCount", "d0/d17/a17672.html#a39b8e5443250777594e3b4417d5ea1ec", null ]
 ];

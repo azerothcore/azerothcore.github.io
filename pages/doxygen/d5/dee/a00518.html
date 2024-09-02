@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/apps/authserver/Server/AuthSession.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Battlegrounds/Zones/BattlegroundSA.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,87 +105,103 @@ $(document).ready(function(){initNavTree('d5/dee/a00518.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">AuthSession.h File Reference</div></div>
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">BattlegroundSA.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">AsyncCallbackProcessor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BigNumber.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ByteBuffer.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CryptoHash.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Optional.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">QueryResult.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SRP6.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Socket.h</a>&quot;</code><br />
-<code>#include &lt;boost/asio/ip/tcp.hpp&gt;</code><br />
-<code>#include &lt;memory&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">BattlegroundSA.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameGraveyard.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameObject.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d0f/a05543.html">AccountInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfb/a05547.html">AuthSession</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddf/a05551.html">AuthHandler</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a9bc15a6035dd7c4983d87a5ccb3d5834"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834">AuthStatus</a> { <br />
-&#160;&#160;<a class="el" href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834a90b814e742d5a0b33f968164487ecac4">STATUS_CHALLENGE</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834a940d23c4c5ae99bdf01c40c4e975df16">STATUS_LOGON_PROOF</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834a2a06e7508d5944327eec6c08c11db734">STATUS_RECONNECT_PROOF</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834ad7eacfaf1a48a468f2383034940ef72b">STATUS_AUTHED</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834a570e0aef98212ddcd09f1ec9254ffdf0">STATUS_WAITING_FOR_REALM_LIST</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834a78785eb1e6f5b92eaea5c78b3cc0dd94">STATUS_CLOSED</a>
-<br />
- }</td></tr>
-<tr class="separator:a9bc15a6035dd7c4983d87a5ccb3d5834"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a2ec6635cf59771fcfd56b16cd670eebc"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="../../d7/dba/a04502.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dee/a00518.html#a2ec6635cf59771fcfd56b16cd670eebc">BG_SA_BOAT_START</a> = 1min</td></tr>
+<tr class="separator:a2ec6635cf59771fcfd56b16cd670eebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7447506b77b9babea7568349335ea705"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="../../d7/dba/a04502.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dee/a00518.html#a7447506b77b9babea7568349335ea705">BG_SA_WARMUPLENGTH</a> = 2min</td></tr>
+<tr class="separator:a7447506b77b9babea7568349335ea705"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1197e8f288608511601a41e8e8ea80ce"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="../../d7/dba/a04502.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dee/a00518.html#a1197e8f288608511601a41e8e8ea80ce">BG_SA_ROUNDLENGTH</a> = 10min</td></tr>
+<tr class="separator:a1197e8f288608511601a41e8e8ea80ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a9bc15a6035dd7c4983d87a5ccb3d5834" name="a9bc15a6035dd7c4983d87a5ccb3d5834"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bc15a6035dd7c4983d87a5ccb3d5834">&#9670;&#160;</a></span>AuthStatus</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a2ec6635cf59771fcfd56b16cd670eebc" name="a2ec6635cf59771fcfd56b16cd670eebc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ec6635cf59771fcfd56b16cd670eebc">&#9670;&#160;</a></span>BG_SA_BOAT_START</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834">AuthStatus</a></td>
+          <td class="memname">constexpr <a class="el" href="../../d7/dba/a04502.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> BG_SA_BOAT_START = 1min</td>
         </tr>
       </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9bc15a6035dd7c4983d87a5ccb3d5834a90b814e742d5a0b33f968164487ecac4" name="a9bc15a6035dd7c4983d87a5ccb3d5834a90b814e742d5a0b33f968164487ecac4"></a>STATUS_CHALLENGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9bc15a6035dd7c4983d87a5ccb3d5834a940d23c4c5ae99bdf01c40c4e975df16" name="a9bc15a6035dd7c4983d87a5ccb3d5834a940d23c4c5ae99bdf01c40c4e975df16"></a>STATUS_LOGON_PROOF&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9bc15a6035dd7c4983d87a5ccb3d5834a2a06e7508d5944327eec6c08c11db734" name="a9bc15a6035dd7c4983d87a5ccb3d5834a2a06e7508d5944327eec6c08c11db734"></a>STATUS_RECONNECT_PROOF&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9bc15a6035dd7c4983d87a5ccb3d5834ad7eacfaf1a48a468f2383034940ef72b" name="a9bc15a6035dd7c4983d87a5ccb3d5834ad7eacfaf1a48a468f2383034940ef72b"></a>STATUS_AUTHED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9bc15a6035dd7c4983d87a5ccb3d5834a570e0aef98212ddcd09f1ec9254ffdf0" name="a9bc15a6035dd7c4983d87a5ccb3d5834a570e0aef98212ddcd09f1ec9254ffdf0"></a>STATUS_WAITING_FOR_REALM_LIST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9bc15a6035dd7c4983d87a5ccb3d5834a78785eb1e6f5b92eaea5c78b3cc0dd94" name="a9bc15a6035dd7c4983d87a5ccb3d5834a78785eb1e6f5b92eaea5c78b3cc0dd94"></a>STATUS_CLOSED&#160;</td><td class="fielddoc"></td></tr>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   39</span>{</div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834a90b814e742d5a0b33f968164487ecac4">STATUS_CHALLENGE</a> = 0,</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834a940d23c4c5ae99bdf01c40c4e975df16">STATUS_LOGON_PROOF</a>,</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834a2a06e7508d5944327eec6c08c11db734">STATUS_RECONNECT_PROOF</a>,</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834ad7eacfaf1a48a468f2383034940ef72b">STATUS_AUTHED</a>,</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834a570e0aef98212ddcd09f1ec9254ffdf0">STATUS_WAITING_FOR_REALM_LIST</a>,</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834a78785eb1e6f5b92eaea5c78b3cc0dd94">STATUS_CLOSED</a></div>
-<div class="line"><span class="lineno">   46</span>};</div>
-<div class="ttc" id="aa00518_html_a9bc15a6035dd7c4983d87a5ccb3d5834a2a06e7508d5944327eec6c08c11db734"><div class="ttname"><a href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834a2a06e7508d5944327eec6c08c11db734">STATUS_RECONNECT_PROOF</a></div><div class="ttdeci">@ STATUS_RECONNECT_PROOF</div><div class="ttdef"><b>Definition:</b> AuthSession.h:42</div></div>
-<div class="ttc" id="aa00518_html_a9bc15a6035dd7c4983d87a5ccb3d5834a570e0aef98212ddcd09f1ec9254ffdf0"><div class="ttname"><a href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834a570e0aef98212ddcd09f1ec9254ffdf0">STATUS_WAITING_FOR_REALM_LIST</a></div><div class="ttdeci">@ STATUS_WAITING_FOR_REALM_LIST</div><div class="ttdef"><b>Definition:</b> AuthSession.h:44</div></div>
-<div class="ttc" id="aa00518_html_a9bc15a6035dd7c4983d87a5ccb3d5834a78785eb1e6f5b92eaea5c78b3cc0dd94"><div class="ttname"><a href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834a78785eb1e6f5b92eaea5c78b3cc0dd94">STATUS_CLOSED</a></div><div class="ttdeci">@ STATUS_CLOSED</div><div class="ttdef"><b>Definition:</b> AuthSession.h:45</div></div>
-<div class="ttc" id="aa00518_html_a9bc15a6035dd7c4983d87a5ccb3d5834a90b814e742d5a0b33f968164487ecac4"><div class="ttname"><a href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834a90b814e742d5a0b33f968164487ecac4">STATUS_CHALLENGE</a></div><div class="ttdeci">@ STATUS_CHALLENGE</div><div class="ttdef"><b>Definition:</b> AuthSession.h:40</div></div>
-<div class="ttc" id="aa00518_html_a9bc15a6035dd7c4983d87a5ccb3d5834a940d23c4c5ae99bdf01c40c4e975df16"><div class="ttname"><a href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834a940d23c4c5ae99bdf01c40c4e975df16">STATUS_LOGON_PROOF</a></div><div class="ttdeci">@ STATUS_LOGON_PROOF</div><div class="ttdef"><b>Definition:</b> AuthSession.h:41</div></div>
-<div class="ttc" id="aa00518_html_a9bc15a6035dd7c4983d87a5ccb3d5834ad7eacfaf1a48a468f2383034940ef72b"><div class="ttname"><a href="../../d5/dee/a00518.html#a9bc15a6035dd7c4983d87a5ccb3d5834ad7eacfaf1a48a468f2383034940ef72b">STATUS_AUTHED</a></div><div class="ttdeci">@ STATUS_AUTHED</div><div class="ttdef"><b>Definition:</b> AuthSession.h:43</div></div>
-</div><!-- fragment -->
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00316">BattlegroundSA::PostUpdateImpl()</a>.</p>
+
+</div>
+</div>
+<a id="a1197e8f288608511601a41e8e8ea80ce" name="a1197e8f288608511601a41e8e8ea80ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1197e8f288608511601a41e8e8ea80ce">&#9670;&#160;</a></span>BG_SA_ROUNDLENGTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="../../d7/dba/a04502.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> BG_SA_ROUNDLENGTH = 10min</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00316">BattlegroundSA::PostUpdateImpl()</a>.</p>
+
+</div>
+</div>
+<a id="a7447506b77b9babea7568349335ea705" name="a7447506b77b9babea7568349335ea705"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7447506b77b9babea7568349335ea705">&#9670;&#160;</a></span>BG_SA_WARMUPLENGTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="../../d7/dba/a04502.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> BG_SA_WARMUPLENGTH = 2min</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00316">BattlegroundSA::PostUpdateImpl()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -193,8 +209,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c8498b4bff487486cc5ffdac4c412cf7.html">apps</a></li><li class="navelem"><a class="el" href="../../dir_5048a8ff141d56662c703e95f88ef858.html">authserver</a></li><li class="navelem"><a class="el" href="../../dir_7be2eb097abf40d728561c0a9bef8726.html">Server</a></li><li class="navelem"><a class="el" href="../../d5/dee/a00518.html">AuthSession.h</a></li>
-    <li class="footer">Generated on Tue Aug 27 2024 09:59:26 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_fc52f0b797d74b4b54bfd04593b84648.html">Battlegrounds</a></li><li class="navelem"><a class="el" href="../../dir_d9de844c1d859dc2cc6a65181dd33644.html">Zones</a></li><li class="navelem"><a class="el" href="../../d5/dee/a00518.html">BattlegroundSA.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 2 2024 20:38:52 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

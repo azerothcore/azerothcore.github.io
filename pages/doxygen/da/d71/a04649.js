@@ -1,16 +1,9 @@
 var a04649 =
 [
-    [ "ModelFlags", "da/d71/a04649.html#a829dc978e29d88ada1059ea4ca6c4cd3", [
-      [ "MOD_M2", "da/d71/a04649.html#a829dc978e29d88ada1059ea4ca6c4cd3a36c4baaa0c832deca9bc0f05addf1168", null ],
-      [ "MOD_WORLDSPAWN", "da/d71/a04649.html#a829dc978e29d88ada1059ea4ca6c4cd3aa5609345ab3d1b82637666503b9bb0b4", null ],
-      [ "MOD_HAS_BOUND", "da/d71/a04649.html#a829dc978e29d88ada1059ea4ca6c4cd3ae86efc863566bd1ba59ca8ad8cb72851", null ]
-    ] ],
-    [ "ExtractGameobjectModels", "da/d71/a04649.html#a7b3d0cbf404ed32359e354ccf6e34392", null ],
-    [ "ExtractSingleModel", "da/d71/a04649.html#a6a96194f748b715f0400249583336ae5", null ],
-    [ "ExtractSingleWmo", "da/d71/a04649.html#afc9839262206eb10094c1769141ae146", null ],
-    [ "FileExists", "da/d71/a04649.html#aab524156a5705c5cd09f96106eaac92d", null ],
-    [ "GenerateUniqueObjectId", "da/d71/a04649.html#a6a3d179f34597554b17a122f27cd6be5", null ],
-    [ "strToLower", "da/d71/a04649.html#ac9e88429cc2168db83793cb7074bc69f", null ],
-    [ "szWorkDirWmo", "da/d71/a04649.html#ac706bf73d4ee9783a3b882fad9c3cbea", null ],
-    [ "WmoDoodads", "da/d71/a04649.html#a17b22c7645963c9e5c277b72605a4966", null ]
+    [ "TEST", "da/d71/a04649.html#a7a11632378897367b979b12423a3f5dd", null ],
+    [ "TEST", "da/d71/a04649.html#ac23831b7258f696b9e9a4972c42b5a4c", null ],
+    [ "TEST", "da/d71/a04649.html#a5fcf85473a490662471938a1f773d6e2", null ],
+    [ "TEST", "da/d71/a04649.html#a8ffadf8c8dbffb858cf2a925473d6bff", null ],
+    [ "TEST", "da/d71/a04649.html#a23ac78cb09ef0a7b924b271ffefbc6a9", null ],
+    [ "TEST", "da/d71/a04649.html#a9b7a926251db0fa2bd2678cee360e161", null ]
 ];

@@ -1,6 +1,10 @@
 var a14052 =
 [
-    [ "npc_razzashi_cobra_venoxis_AI", "df/d0c/a14056.html", "df/d0c/a14056" ],
-    [ "npc_razzashi_cobra_venoxis", "d6/de7/a14052.html#a195ae8d73ab8e855a9220384e9b4c801", null ],
-    [ "GetAI", "d6/de7/a14052.html#afdd4d030ec97b193926898ad8c980a6b", null ]
+    [ "npc_coren_direbrew_sisters", "d6/de7/a14052.html#a415ea0ebd044236f5f4c4d6c28896e00", null ],
+    [ "GetGUID", "d6/de7/a14052.html#a61863117e71ebfb7f1c4c83780ece7bc", null ],
+    [ "JustEngagedWith", "d6/de7/a14052.html#a34e0b6af032240c152c463c221d99335", null ],
+    [ "SetGUID", "d6/de7/a14052.html#ada2e446a929bbba088d3c7e09d117f93", null ],
+    [ "UpdateAI", "d6/de7/a14052.html#a7434b08d12d3f0902d1944b75323560c", null ],
+    [ "_scheduler", "d6/de7/a14052.html#a9d8ca85e7bbd3cc9c61c2bbb38b7d222", null ],
+    [ "_targetGUID", "d6/de7/a14052.html#a801a6811124a7db3a31ec492ef954b20", null ]
 ];

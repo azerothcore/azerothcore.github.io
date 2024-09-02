@@ -1,7 +1,8 @@
 var a23256 =
 [
-    [ "CheckRequirement", "d5/d15/a23256.html#a41beb2c890137328734d6adb14e08302", null ],
-    [ "PrepareSpellScript", "d5/d15/a23256.html#aa0b9873dbd8c75a14fa88094d91eeeaa", null ],
-    [ "Register", "d5/d15/a23256.html#aa0fad5e5a68131ebab5717ad0ce69669", null ],
-    [ "SetDest", "d5/d15/a23256.html#a431a556ab73f91ed63f5983e537834a5", null ]
+    [ "FilterTargets", "d5/d15/a23256.html#a8687ba9c22299e62e5911a3729fa4a0a", null ],
+    [ "HandleDummy", "d5/d15/a23256.html#addb3580259be74126b7de36d1b0a8a97", null ],
+    [ "PrepareSpellScript", "d5/d15/a23256.html#aba82de0886d03037de4564f9908b8c89", null ],
+    [ "Register", "d5/d15/a23256.html#a1650962493d48f5553a9e2771e594f1f", null ],
+    [ "Validate", "d5/d15/a23256.html#a0a29926e43bd5ff58ca7ad79df6f8cc1", null ]
 ];

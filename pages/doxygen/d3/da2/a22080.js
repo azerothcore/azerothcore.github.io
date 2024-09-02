@@ -1,6 +1,6 @@
 var a22080 =
 [
-    [ "spell_xt002_gravity_bomb_damage_SpellScript", "da/db8/a22084.html", "da/db8/a22084" ],
-    [ "spell_xt002_gravity_bomb_damage", "d3/da2/a22080.html#a4a3a78db361da8c61a05697342e43f97", null ],
-    [ "GetSpellScript", "d3/da2/a22080.html#a8c138ef13a8ded72be02284c9a3a5cd0", null ]
+    [ "npc_frostbrood_skytalonAI", "da/db8/a22084.html", "da/db8/a22084" ],
+    [ "npc_frostbrood_skytalon", "d3/da2/a22080.html#a1bc95edf0e624709e3836bdcfb0c503c", null ],
+    [ "GetAI", "d3/da2/a22080.html#af5b1c3e52076fb84b83e785762ff6b6d", null ]
 ];

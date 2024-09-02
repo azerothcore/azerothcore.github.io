@@ -1,6 +1,6 @@
 var a16956 =
 [
-    [ "OnPeriodic", "d9/d12/a16956.html#a37d7c38d9e3d20626a4481226d29d2e1", null ],
-    [ "PrepareAuraScript", "d9/d12/a16956.html#af8944636e1015d7cacab82d628b22b79", null ],
-    [ "Register", "d9/d12/a16956.html#aa123e0e97d73915d5dc6d92eeb61fb30", null ]
+    [ "npc_pos_leader_secondAI", "d4/da9/a16960.html", "d4/da9/a16960" ],
+    [ "npc_pos_leader_second", "d9/d12/a16956.html#ac4758674cc97eae0937264fa028e6da5", null ],
+    [ "GetAI", "d9/d12/a16956.html#ac403cfc86247990d78c9cf4179df8b87", null ]
 ];

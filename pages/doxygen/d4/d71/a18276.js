@@ -1,5 +1,5 @@
 var a18276 =
 [
-    [ "achievement_im_on_a_boat", "d4/d71/a18276.html#aa25d330534aab023ec798e86976a6d50", null ],
-    [ "OnCheck", "d4/d71/a18276.html#ab4fffc061b9ff77563e7e0a5a796be1e", null ]
+    [ "achievement_been_waiting_long_time", "d4/d71/a18276.html#a839ec8cb50512bbae7125ead3ed35aec", null ],
+    [ "OnCheck", "d4/d71/a18276.html#a5e72304220d3a649d2182cb287215da6", null ]
 ];

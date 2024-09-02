@@ -1,6 +1,5 @@
 var a26900 =
 [
-    [ "HandleKnockBack", "d0/dbb/a26900.html#ae50d143953074b83183482770046e131", null ],
-    [ "PrepareSpellScript", "d0/dbb/a26900.html#a73666b297ef8bbfd490fee6075b06b3a", null ],
-    [ "Register", "d0/dbb/a26900.html#a035df6b2e29aa0d2b5558e1cfef96ead", null ]
+    [ "achievement_bg_ic_resource_glut", "d0/dbb/a26900.html#ace247962dccee2601ceade593b0874d4", null ],
+    [ "OnCheck", "d0/dbb/a26900.html#a9910cf8b16b8c956df382161cc5f2c84", null ]
 ];

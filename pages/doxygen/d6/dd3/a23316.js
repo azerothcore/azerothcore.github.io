@@ -1,6 +1,5 @@
 var a23316 =
 [
-    [ "GhoulTargetCheck", "d6/dd3/a23316.html#acd743b2b1407c5171fbf410a02ff07bf", null ],
-    [ "operator()", "d6/dd3/a23316.html#a6722cfe5a1ceecccf2c07924b2975f46", null ],
-    [ "_alive", "d6/dd3/a23316.html#ab44092ca1cd6d7c17d7c63e0a8333453", null ]
+    [ "go_main_chambers_access_panel", "d6/dd3/a23316.html#a30c3c20be1892b5107ef53683d593b75", null ],
+    [ "OnGossipHello", "d6/dd3/a23316.html#af4b3a4a0260de68dcfac7202e0a728ee", null ]
 ];

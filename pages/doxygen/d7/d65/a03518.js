@@ -1,6 +1,7 @@
 var a03518 =
 [
-    [ "TSpellSummary", "d8/d7a/a06083.html", "d8/d7a/a06083" ],
-    [ "SCR_CLEAR", "d7/d65/a03518.html#ab71e08e3f39b7ee7bda0306cd39b96a0", null ],
-    [ "SpellSummary", "d7/d65/a03518.html#ae56af266ccaa1794f1f014938b07e9cc", null ]
+    [ "instance_ulduar", "d8/d69/a20896.html", "d8/d69/a20896" ],
+    [ "instance_ulduar::instance_ulduar_InstanceMapScript", "de/dd3/a20900.html", "de/dd3/a20900" ],
+    [ "AddSC_instance_ulduar", "d7/d65/a03518.html#a93e6e71a7717be3946c53d3b6093e517", null ],
+    [ "vehiclePositions", "d7/d65/a03518.html#a41c6fcb7a2c575fa74a8e566a49bf1e1", null ]
 ];

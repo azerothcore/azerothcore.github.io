@@ -1,10 +1,9 @@
 var a08876 =
 [
-    [ "ObjectWorldLoader", "db/d89/a08876.html#a0a8c45ae44540c419b5835d89b5344f3", null ],
-    [ "Visit", "db/d89/a08876.html#a71682452fdaa18866cb8f5cb233003e1", null ],
-    [ "Visit", "db/d89/a08876.html#a8d670d361e01ff4ac05518ac52ebdee9", null ],
-    [ "i_cell", "db/d89/a08876.html#ac4435eef761adcc938b6ca7996f0e1b7", null ],
-    [ "i_corpses", "db/d89/a08876.html#a360b772d5dab408faf62c9c0fd381fbe", null ],
-    [ "i_grid", "db/d89/a08876.html#ab8cc37ce842ca73e8971a88680b5f453", null ],
-    [ "i_map", "db/d89/a08876.html#aeafce0a2c8bd7f5a1201c8b2af469284", null ]
+    [ "GameObjectSearcher", "db/d89/a08876.html#a6625a6afd81bea2f9cdd10fad6d4a5a4", null ],
+    [ "Visit", "db/d89/a08876.html#a16685c62e1e69fdc5df55b2b3920a579", null ],
+    [ "Visit", "db/d89/a08876.html#a1105dd396e4fe8c366fc453b5a4bec02", null ],
+    [ "i_check", "db/d89/a08876.html#a71152e100ea7c72eceb5cda470d5a2f3", null ],
+    [ "i_object", "db/d89/a08876.html#ad1c14442e0f1b5d9ee43639077c75876", null ],
+    [ "i_phaseMask", "db/d89/a08876.html#ac11e036da088f6e62556c42965530040", null ]
 ];

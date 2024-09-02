@@ -1,6 +1,7 @@
 var a16232 =
 [
-    [ "spell_halion_meteor_strike_spread_AuraScript", "d3/d7a/a16236.html", "d3/d7a/a16236" ],
-    [ "spell_halion_meteor_strike_spread", "df/d80/a16232.html#aeab821be37ef75ff53f51699a1a1b29d", null ],
-    [ "GetAuraScript", "df/d80/a16232.html#aea827f0dbce47732ef4690fd496b24db", null ]
+    [ "npc_toc_paladinAI", "df/d80/a16232.html#a025d39c04e864ebd77f4f930ec20b1e5", null ],
+    [ "myCanCast", "df/d80/a16232.html#a06130e6e440d0b25d8b5566de6190cbc", null ],
+    [ "UpdateAI", "df/d80/a16232.html#a32943f1c3ffd0239c85ac1b81786f049", null ],
+    [ "events", "df/d80/a16232.html#ae47a32bbb05cf2f634ae18bc672ec004", null ]
 ];

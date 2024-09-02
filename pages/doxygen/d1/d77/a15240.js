@@ -1,6 +1,6 @@
 var a15240 =
 [
-    [ "aqsentinelAI", "d5/d23/a15244.html", "d5/d23/a15244" ],
-    [ "npc_anubisath_sentinel", "d1/d77/a15240.html#ada1ab0d1857fe52020e798d9710a66cb", null ],
-    [ "GetAI", "d1/d77/a15240.html#ae19b8ba3766ede8f715dad5ff8d4b2d2", null ]
+    [ "npc_tiger_matriarch_creditAI", "d5/d23/a15244.html", "d5/d23/a15244" ],
+    [ "npc_tiger_matriarch_credit", "d1/d77/a15240.html#a9d76e8e808c828da501551025eecd8ea", null ],
+    [ "GetAI", "d1/d77/a15240.html#ac4966a8ae43688204f97f9a1a7b4542d", null ]
 ];

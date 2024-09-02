@@ -1,6 +1,9 @@
 var a16052 =
 [
-    [ "spell_azjol_nerub_web_wrap_AuraScript", "dc/d2d/a16056.html", "dc/d2d/a16056" ],
-    [ "spell_azjol_nerub_web_wrap", "db/db7/a16052.html#a62c5c362c4069e5076dd18b8f8b1f741", null ],
-    [ "GetAuraScript", "db/db7/a16052.html#a902f13fbf5daab83f40a748fe4a8727d", null ]
+    [ "npc_memoryAI", "db/db7/a16052.html#ad927d377d60b44f43808469042f5feb9", null ],
+    [ "JustDied", "db/db7/a16052.html#a7b0484919d671877f29dfa05ca1265d9", null ],
+    [ "Reset", "db/db7/a16052.html#a985c51bbfa2cceeb7601432491253aaf", null ],
+    [ "UpdateAI", "db/db7/a16052.html#a6cb74389f5aea91d2062e007ea08acd7", null ],
+    [ "events", "db/db7/a16052.html#a2ed2993e89728a3723456a67e13581f7", null ],
+    [ "pInstance", "db/db7/a16052.html#a31bcb5041844ea5e3a076ad1366897e1", null ]
 ];

@@ -1,5 +1,6 @@
 var a03917 =
 [
-    [ "BattlefieldMgr", "d2/dc3/a06951.html", "d2/dc3/a06951" ],
-    [ "sBattlefieldMgr", "d6/d9d/a03917.html#a4545b2a440043037e8dad52c0f644f48", null ]
+    [ "ResultIterator< T >", "d2/db8/a05740.html", "d2/db8/a05740" ],
+    [ "ResultSet", "d5/d12/a05744.html", "d5/d12/a05744" ],
+    [ "PreparedResultSet", "db/d37/a05748.html", "db/d37/a05748" ]
 ];

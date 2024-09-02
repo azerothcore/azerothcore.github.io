@@ -1,6 +1,9 @@
 var a16848 =
 [
-    [ "if", "de/d38/a16848.html#a05a4c1db7e7d6810209175a22db5a639", null ],
-    [ "PrepareAuraScript", "de/d38/a16848.html#ab918782945539513ae49cff3280fc352", null ],
-    [ "absorbAmount", "de/d38/a16848.html#a72d148ef61ff66cbc2afdb3defec15ce", null ]
+    [ "FilterTargets", "de/d38/a16848.html#aefebf504286394cf3caffa566543e4a4", null ],
+    [ "FilterTargetsNext", "de/d38/a16848.html#a356b6ace97d07df22a232d2287072b5e", null ],
+    [ "PrepareSpellScript", "de/d38/a16848.html#a893e0eb620e19909b2f2a715ea946f6b", null ],
+    [ "Register", "de/d38/a16848.html#a962651920a94190f4864a3b1c7fcd1d3", null ],
+    [ "Unload", "de/d38/a16848.html#a6adc9b6ca86da6cd9465fa0da150dcca", null ],
+    [ "targetList", "de/d38/a16848.html#a3c839185938e0b67b97f652d1d15e213", null ]
 ];

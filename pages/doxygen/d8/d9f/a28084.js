@@ -1,6 +1,6 @@
 var a28084 =
 [
-    [ "HandleEffectCalcSpellMod", "d8/d9f/a28084.html#a81395c735b9546632af71319067b575b", null ],
-    [ "PrepareAuraScript", "d8/d9f/a28084.html#ad5a716f0644b1707aa6d179d564ceb80", null ],
-    [ "Register", "d8/d9f/a28084.html#ae49a0ec525819981595c12839133a35b", null ]
+    [ "Enchantment", "d8/d9f/a28084.html#a480ab806214bb138d56dfd5e9e43936f", null ],
+    [ "ID", "d8/d9f/a28084.html#acb673be771124b84dd3fdd5deb300de7", null ],
+    [ "Name", "d8/d9f/a28084.html#a3ad3a1b693922ff8264d90232abb3e35", null ]
 ];

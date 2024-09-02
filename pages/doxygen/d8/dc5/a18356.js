@@ -1,7 +1,7 @@
 var a18356 =
 [
-    [ "npc_coldflameAI", "d8/dc5/a18356.html#a2a8420b79357f7a2167dddbd68ec8bc0", null ],
-    [ "IsSummonedBy", "d8/dc5/a18356.html#a1a330428ac8f17dc673fb1ae4d57035a", null ],
-    [ "UpdateAI", "d8/dc5/a18356.html#a5a847ae7c15b309cb1393b6d16a6e220", null ],
-    [ "events", "d8/dc5/a18356.html#af3b7d4ca1b268fe0d786eee83c0a3596", null ]
+    [ "npc_blazing_skeletonAI", "d8/dc5/a18356.html#ad4f997a7a4cc0fa96594da35434fd921", null ],
+    [ "Reset", "d8/dc5/a18356.html#a3bbc4cf7b6dbe11d6768a0fb0626e84a", null ],
+    [ "UpdateAI", "d8/dc5/a18356.html#a0010c4befd13ec6beada0de1607f3f7a", null ],
+    [ "_events", "d8/dc5/a18356.html#aab1b04989d5e3fc289f00bc121df193d", null ]
 ];

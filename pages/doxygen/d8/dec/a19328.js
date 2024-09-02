@@ -1,6 +1,6 @@
 var a19328 =
 [
-    [ "npc_green_dragon_combat_triggerAI", "d0/db0/a19332.html", "d0/db0/a19332" ],
-    [ "npc_green_dragon_combat_trigger", "d8/dec/a19328.html#acec675494f5e5e9609bf34b7f25cb569", null ],
-    [ "GetAI", "d8/dec/a19328.html#a945b7cd0084873c17d52b3c2cc3ede22", null ]
+    [ "HandleDamageCalc", "d8/dec/a19328.html#a71b88fbad5acbba47028dd1ff82b4836", null ],
+    [ "PrepareSpellScript", "d8/dec/a19328.html#a754da297cd5801616e24bf2d802d0b38", null ],
+    [ "Register", "d8/dec/a19328.html#a231f29ea69a354ddb2963cb4ef9a3f4e", null ]
 ];

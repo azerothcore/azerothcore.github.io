@@ -1,6 +1,6 @@
 var a26396 =
 [
-    [ "npc_unkor_the_ruthlessAI", "d8/da8/a26400.html", "d8/da8/a26400" ],
-    [ "npc_unkor_the_ruthless", "df/dd1/a26396.html#a4eb173932f39c5503d1db91d55f3a5b7", null ],
-    [ "GetAI", "df/dd1/a26396.html#a552a19b9a48e90f3b093e2b9e16ec867", null ]
+    [ "PrepareSpellScript", "df/dd1/a26396.html#ac0322966abdb57fbe19c3e2117caa56b", null ],
+    [ "Register", "df/dd1/a26396.html#a7ddfa827654b6bb0a11aaddf41dc62f9", null ],
+    [ "SetDest", "df/dd1/a26396.html#ad1012e0f8ae1cf2ff18d886e10d6fca6", null ]
 ];

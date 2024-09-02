@@ -1,6 +1,7 @@
 var a21732 =
 [
-    [ "npc_ulduar_mimiron_rocketAI", "d2/d20/a21736.html", "d2/d20/a21736" ],
-    [ "npc_ulduar_mimiron_rocket", "d3/d4b/a21732.html#afcd90dbd893ec5e8424eb4197e7dec6d", null ],
-    [ "GetAI", "d3/d4b/a21732.html#ad1c6162db0f69a1a6b5016ae505e5535", null ]
+    [ "HandleApplyEffect", "d3/d4b/a21732.html#aab7bd30368c51a6a209f6cad5a93ba79", null ],
+    [ "HandleRemoveEffect", "d3/d4b/a21732.html#a243933fec9ccd650303ea5badbea725b", null ],
+    [ "PrepareAuraScript", "d3/d4b/a21732.html#ac0e1fc0694dd51e245340d3658592447", null ],
+    [ "Register", "d3/d4b/a21732.html#a0f6e6c6892d56a6fceb927f68c734bde", null ]
 ];

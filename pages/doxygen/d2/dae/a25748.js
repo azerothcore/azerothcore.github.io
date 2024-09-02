@@ -1,6 +1,7 @@
 var a25748 =
 [
-    [ "boss_high_astromancer_solarianAI", "db/df8/a25752.html", "db/df8/a25752" ],
-    [ "boss_high_astromancer_solarian", "d2/dae/a25748.html#a36282f8b5da61bc84cf2eff73745b1cb", null ],
-    [ "GetAI", "d2/dae/a25748.html#ab3f776fbf3a10d3e859a7e21659fd9bd", null ]
+    [ "HandleDummy", "d2/dae/a25748.html#ac3486a646322ef1b6098eeeedaec7d4b", null ],
+    [ "PrepareSpellScript", "d2/dae/a25748.html#a455bdb8fb98431d47b3e414dc3b59b13", null ],
+    [ "Register", "d2/dae/a25748.html#acdade97c38a75439b3da751a0c348e37", null ],
+    [ "Validate", "d2/dae/a25748.html#a2081334e6b7a4191801bc0556e26198c", null ]
 ];

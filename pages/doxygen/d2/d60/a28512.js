@@ -1,8 +1,13 @@
 var a28512 =
 [
-    [ "CheckCast", "d2/d60/a28512.html#a16983545e25f3e02064e2b3d573b2bb8", null ],
-    [ "CheckQuest", "d2/d60/a28512.html#abc927d932c1d5e05eab1918364d68ed5", null ],
-    [ "HandleActiveObject", "d2/d60/a28512.html#a95f7bd6dd52b19bb1c09975a7286882a", null ],
-    [ "PrepareSpellScript", "d2/d60/a28512.html#a96e69476965cc2466213a5371a57093a", null ],
-    [ "Register", "d2/d60/a28512.html#a83c48e1c42a6a6dd892f0f4d6a20687b", null ]
+    [ "MPQArchive", "d2/d60/a28512.html#a58d57322334966ca16a22e52e5198d9f", null ],
+    [ "~MPQArchive", "d2/d60/a28512.html#a5bce22525ca16381fbb4729540a165e2", null ],
+    [ "MPQArchive", "d2/d60/a28512.html#a58d57322334966ca16a22e52e5198d9f", null ],
+    [ "~MPQArchive", "d2/d60/a28512.html#a5bce22525ca16381fbb4729540a165e2", null ],
+    [ "close", "d2/d60/a28512.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
+    [ "close", "d2/d60/a28512.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
+    [ "GetFileListTo", "d2/d60/a28512.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
+    [ "GetFileListTo", "d2/d60/a28512.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
+    [ "isOpened", "d2/d60/a28512.html#a2026335b9ede29197acfaac8513456d5", null ],
+    [ "mpq_a", "d2/d60/a28512.html#a72b9fb96b1e3db6c7be652e426978b4a", null ]
 ];

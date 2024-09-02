@@ -1,11 +1,9 @@
 var a20816 =
 [
-    [ "npc_living_constellationAI", "d8/df2/a20816.html#a54f4e946fad895bca07a59f4e00d10a5", null ],
-    [ "DoAction", "d8/df2/a20816.html#acdc93a7dc3019940d730fa20d115a929", null ],
-    [ "GetData", "d8/df2/a20816.html#acb5cc31d7a084e82d8bde3852f9668dd", null ],
-    [ "Reset", "d8/df2/a20816.html#a664b03bdaea184ab8dd8298ed9952790", null ],
-    [ "SpellHit", "d8/df2/a20816.html#a4c83ef2d5fe161a90d465a8fbd7eb4f8", null ],
-    [ "UpdateAI", "d8/df2/a20816.html#ad5b23c3db46b455c9321e7fb29b88572", null ],
-    [ "_isActive", "d8/df2/a20816.html#a786d2d05f83e59dd0da34f44037bdd35", null ],
-    [ "events", "d8/df2/a20816.html#a679c9fe1ed357b7c7e1ed1fac01ef8d3", null ]
+    [ "HandleOnEffectApply", "d8/df2/a20816.html#a3e35c98bd5867bbb6c77b16d89ab74a9", null ],
+    [ "OnPeriodic", "d8/df2/a20816.html#a49ad44eba19416743bd26252d1b40d71", null ],
+    [ "PrepareAuraScript", "d8/df2/a20816.html#ae0c475babb67cebb245d6d85b50cd694", null ],
+    [ "Register", "d8/df2/a20816.html#af56875f1bb85d5524841a5bbb399d7d4", null ],
+    [ "Validate", "d8/df2/a20816.html#ab383a0a207aa78b7efcd400765ad0838", null ],
+    [ "_targetGUID", "d8/df2/a20816.html#a9e7c6087b1c7ce3c32be661da037f1e0", null ]
 ];

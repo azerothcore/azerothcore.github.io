@@ -1,6 +1,6 @@
 var a24892 =
 [
-    [ "spell_black_temple_bloodbolt_SpellScript", "df/d7b/a24896.html", "df/d7b/a24896" ],
-    [ "spell_black_temple_bloodbolt", "d7/dd2/a24892.html#adb48b0c059596a7a2042c6429d215b84", null ],
-    [ "GetSpellScript", "d7/dd2/a24892.html#a18ff2df7efda93ceb546a4152e838931", null ]
+    [ "HandleDummy", "d7/dd2/a24892.html#a9f9c27bdfed0a457f7e851c8598f3625", null ],
+    [ "PrepareSpellScript", "d7/dd2/a24892.html#ab666b72cd7cb0ef92ba6c417be5ac7cc", null ],
+    [ "Register", "d7/dd2/a24892.html#a7b78161fda34b3dc3c844c392ce7e30e", null ]
 ];

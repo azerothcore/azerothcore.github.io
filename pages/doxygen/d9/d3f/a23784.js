@@ -1,8 +1,7 @@
 var a23784 =
 [
-    [ "npc_vics_flying_machineAI", "d9/d3f/a23784.html#a4464e0b1433c4ffb24ae7809b1a0eec5", null ],
-    [ "MovementInform", "d9/d3f/a23784.html#ac4bbe0a3cccb6878d050b717b9efb320", null ],
-    [ "PassengerBoarded", "d9/d3f/a23784.html#aa67dcbb4b43b047398fec2619ad61829", null ],
-    [ "SpellHit", "d9/d3f/a23784.html#aa81229a104e1521d570abec4b6f7bca7", null ],
-    [ "pointId", "d9/d3f/a23784.html#aa1412c23f0c3b964262e145c51aea974", null ]
+    [ "HandleEffect", "d9/d3f/a23784.html#ac0fb38f62cc9a41eb70b2ca951f9d1dc", null ],
+    [ "PrepareSpellScript", "d9/d3f/a23784.html#abbbffa0a53dc2a55df5e7b17a7f4d38f", null ],
+    [ "Register", "d9/d3f/a23784.html#ac406946bb793125d49006e3a877c9638", null ],
+    [ "SelectTarget", "d9/d3f/a23784.html#ac36f3d88a0ef8ccaee5bac17bffcaf49", null ]
 ];

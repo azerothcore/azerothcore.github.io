@@ -1,6 +1,6 @@
 var a23236 =
 [
-    [ "npc_injured_7th_legion_soldierAI", "df/d94/a23240.html", "df/d94/a23240" ],
-    [ "npc_injured_7th_legion_soldier", "dd/d9b/a23236.html#a9d3c647f485dbca5efeec8f784efba1b", null ],
-    [ "GetAI", "dd/d9b/a23236.html#a0feca7aedcf3c07253d4d402266189cc", null ]
+    [ "go_ahune_ice_stone", "dd/d9b/a23236.html#ab7b665f01da80751ea97705c5113bde7", null ],
+    [ "GossipSelect", "dd/d9b/a23236.html#aadb4db41ed84922c0a2d0463b8616876", null ],
+    [ "_instance", "dd/d9b/a23236.html#a43651f471ac777b59fb8ba67b830cd35", null ]
 ];

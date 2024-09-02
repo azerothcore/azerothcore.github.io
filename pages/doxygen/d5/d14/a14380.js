@@ -1,9 +1,6 @@
 var a14380 =
 [
-    [ "HandleDummy", "d5/d14/a14380.html#a41f0ab7836fccac5f3b0454588bdd0f5", null ],
-    [ "HandleFinish", "d5/d14/a14380.html#a8927aaa07145b46067d5807c2048330a", null ],
-    [ "Load", "d5/d14/a14380.html#aeefbba80b8ca14febeb0a147116b5545", null ],
-    [ "PrepareSpellScript", "d5/d14/a14380.html#a5a0bfef668242fc5f21ad5a4e3e714b5", null ],
-    [ "Register", "d5/d14/a14380.html#a1ffdc199a04bd6ead1a09bc977ae964c", null ],
-    [ "handled", "d5/d14/a14380.html#a397dd22fed73ba3dfe025ee6c98f04cf", null ]
+    [ "HandleTriggerSpell", "d5/d14/a14380.html#a7e5a03d304f0f6fe8d06ed5df12259dd", null ],
+    [ "PrepareSpellScript", "d5/d14/a14380.html#a76a070da8e719198463010499f595599", null ],
+    [ "Register", "d5/d14/a14380.html#ae237c4972167a5a17b59800983496a9d", null ]
 ];

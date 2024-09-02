@@ -1,8 +1,10 @@
 var a19420 =
 [
-    [ "Load", "d8/d00/a19420.html#abf5b27507142094bd8005982c155e0ea", null ],
-    [ "PeriodicTick", "d8/d00/a19420.html#a830b0947b6e1360630bf3a0e381c6506", null ],
-    [ "PrepareAuraScript", "d8/d00/a19420.html#a2fa5cabca9e20f24ee4a967d0900525e", null ],
-    [ "Register", "d8/d00/a19420.html#a77c811cb813c3d2a9125aa05b4529b8e", null ],
-    [ "_instance", "d8/d00/a19420.html#a4f831deea16c0e94b75ab2a64f2eee81", null ]
+    [ "npc_molten_golemAI", "d8/d00/a19420.html#a5172d70649be5030fd91e1adbcad4f06", null ],
+    [ "DamageTaken", "d8/d00/a19420.html#a0dd2ca5b83f5d75c51dfa358544c018a", null ],
+    [ "DoAction", "d8/d00/a19420.html#ada2e9c39ce16f00b47df2f52971d99b1", null ],
+    [ "Reset", "d8/d00/a19420.html#a9f90e791c77377c02c66e5d809c555cc", null ],
+    [ "UpdateAI", "d8/d00/a19420.html#ade3cfd0deb27508f5f084b1b49caf13f", null ],
+    [ "events", "d8/d00/a19420.html#ad97142df8344df59eddfb92471d1a737", null ],
+    [ "m_pInstance", "d8/d00/a19420.html#ad1a300c13e98965b935c1e3fc26b9606", null ]
 ];

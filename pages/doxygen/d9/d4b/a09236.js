@@ -1,14 +1,16 @@
 var a09236 =
 [
-    [ "BattlegroundMap", "d9/d4b/a09236.html#a3a9af8a69ac8d188d7fb86f2a9dda2c3", null ],
-    [ "~BattlegroundMap", "d9/d4b/a09236.html#a327d241fd7930e9b3a98ba50014d5131", null ],
-    [ "AddPlayerToMap", "d9/d4b/a09236.html#a0325279a2affc7b20a415a3b90a32fc0", null ],
-    [ "CannotEnter", "d9/d4b/a09236.html#a493a1932eee44c346d9cfb7d13789bb6", null ],
-    [ "GetBG", "d9/d4b/a09236.html#a2fcb965981bb03571f12c11cdbac54a4", null ],
-    [ "InitVisibilityDistance", "d9/d4b/a09236.html#af2d6847765d10fab527d77b26dd770ad", null ],
-    [ "RemoveAllPlayers", "d9/d4b/a09236.html#a5093cbf8005d06452eeb202513323c1e", null ],
-    [ "RemovePlayerFromMap", "d9/d4b/a09236.html#aeddb9dfae8601e95b0a93cefc12c2612", null ],
-    [ "SetBG", "d9/d4b/a09236.html#aaa9e5f830953b1a37a684ac566e9b768", null ],
-    [ "SetUnload", "d9/d4b/a09236.html#a4c03b1aa9c4c53697ad6284825a1b9c1", null ],
-    [ "m_bg", "d9/d4b/a09236.html#aa38fff695728ddedc94dd6eb6bd7bf3b", null ]
+    [ "BankMoveItemData", "d9/d4b/a09236.html#a9edb987f4866e8bc473fe853597bebae", null ],
+    [ "_ReserveSpace", "d9/d4b/a09236.html#a109e8d55108b005426110626815ba866", null ],
+    [ "_StoreItem", "d9/d4b/a09236.html#aa11267f5d6202753310da567c0be0e57", null ],
+    [ "CanStore", "d9/d4b/a09236.html#ade47c73460329ca1af752921173ca75e", null ],
+    [ "CanStoreItemInTab", "d9/d4b/a09236.html#a5ca7975887e5583466d066c86b3a205f", null ],
+    [ "HasStoreRights", "d9/d4b/a09236.html#acd684824cab9ccb4d8fd9cbb1f1782e1", null ],
+    [ "HasWithdrawRights", "d9/d4b/a09236.html#ae9d8f497b4459c982ac73ee8b5742aad", null ],
+    [ "InitItem", "d9/d4b/a09236.html#a69d6b28ccdda7790f821f5181da0db96", null ],
+    [ "IsBank", "d9/d4b/a09236.html#a6f1787e15918092ba000ee8bd0852b09", null ],
+    [ "LogAction", "d9/d4b/a09236.html#a4f23cdffba39ffa78c38851ff7aa7d0c", null ],
+    [ "LogBankEvent", "d9/d4b/a09236.html#a054ca0f7eecfd404651c11b886d106bf", null ],
+    [ "RemoveItem", "d9/d4b/a09236.html#abd15e25136ec2a00bcddbc0e81978a78", null ],
+    [ "StoreItem", "d9/d4b/a09236.html#a9367b938768eefcaf5bb88e74dde9aa3", null ]
 ];

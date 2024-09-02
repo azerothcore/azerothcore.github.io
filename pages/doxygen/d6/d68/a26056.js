@@ -1,6 +1,9 @@
 var a26056 =
 [
-    [ "npc_ancestral_wolfAI", "d4/d0c/a26060.html", "d4/d0c/a26060" ],
-    [ "npc_ancestral_wolf", "d6/d68/a26056.html#a7cadf2848a086db63792f8068ee9463d", null ],
-    [ "GetAI", "d6/d68/a26056.html#a201255a64d4e742ba8b118b4f2ec5cd5", null ]
+    [ "CheckCast", "d6/d68/a26056.html#ad7bfc65b26013ad259679ae8b4a5dd9a", null ],
+    [ "HandleTriggerSpellHit", "d6/d68/a26056.html#aca027bb2995456bfcedd33c06966eb88", null ],
+    [ "HandleTriggerSpellLaunch", "d6/d68/a26056.html#aa67bf9f81086a3837037d67306979072", null ],
+    [ "PrepareSpellScript", "d6/d68/a26056.html#a9247b5f3a376bebdcf857565b5049944", null ],
+    [ "Register", "d6/d68/a26056.html#aaf056806d72da6aa2e3e6e70d46d6933", null ],
+    [ "Validate", "d6/d68/a26056.html#a4fc8f6a7ecd041dcfca4fd51d71e725c", null ]
 ];

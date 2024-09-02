@@ -1,5 +1,6 @@
 var a15288 =
 [
-    [ "at_battleguard_sartura", "de/d36/a15288.html#a9247cdebeb57d2ddbfa75f60da125d36", null ],
-    [ "OnTrigger", "de/d36/a15288.html#a6a7b9f210ce0c2844b4f2412c0fe440e", null ]
+    [ "npcs_riverbreeze_and_silversky", "de/d36/a15288.html#a9f012d5bbaa8b9f9822ddfbd86e7c4b2", null ],
+    [ "OnGossipHello", "de/d36/a15288.html#a7de032322a37f929c316aadfdadda768", null ],
+    [ "OnGossipSelect", "de/d36/a15288.html#a93c7b159dda733da5030de747bad30b5", null ]
 ];

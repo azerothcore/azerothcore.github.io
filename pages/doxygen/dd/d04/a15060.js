@@ -1,6 +1,7 @@
 var a15060 =
 [
-    [ "instance_ruins_of_ahnqiraj_InstanceMapScript", "d1/dfb/a15064.html", "d1/dfb/a15064" ],
-    [ "instance_ruins_of_ahnqiraj", "dd/d04/a15060.html#adeacb1c68e4b12995a335d1bedde075a", null ],
-    [ "GetInstanceScript", "dd/d04/a15060.html#a6a661e961c2599498de0ccd41c0763b4", null ]
+    [ "npc_vekniss_stinger", "dd/d04/a15060.html#ad48098961715a924270cb8bbbe77e4b0", null ],
+    [ "JustEngagedWith", "dd/d04/a15060.html#ae7c758687c81cfb223066f0a9348eab8", null ],
+    [ "Reset", "dd/d04/a15060.html#a2a79f3775aad83410ff2670aa438e811", null ],
+    [ "UpdateAI", "dd/d04/a15060.html#a1ff479e8f45710f6aa36473933bb87e0", null ]
 ];

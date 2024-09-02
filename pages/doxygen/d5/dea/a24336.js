@@ -1,6 +1,7 @@
 var a24336 =
 [
-    [ "boss_gurtogg_bloodboilAI", "d5/d5d/a24340.html", "d5/d5d/a24340" ],
-    [ "boss_gurtogg_bloodboil", "d5/dea/a24336.html#ae048bbcfaadcf6d99dffa871cedf4b33", null ],
-    [ "GetAI", "d5/dea/a24336.html#ae1cded61e19a654b562533c606938f38", null ]
+    [ "npc_pet_gen_target_following_bomb", "d5/dea/a24336.html#a447c2cd258d784ca1d79c79412a1a426", null ],
+    [ "UpdateAI", "d5/dea/a24336.html#ac68f18d68a313623c04e885f9506f287", null ],
+    [ "bombSpellId", "d5/dea/a24336.html#a3c72bd26c66d3e7a85f3152557e399c4", null ],
+    [ "checkTimer", "d5/dea/a24336.html#a694ee5f884f1bd404f0ef3d3030a212f", null ]
 ];

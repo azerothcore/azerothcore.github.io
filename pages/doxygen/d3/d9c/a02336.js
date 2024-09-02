@@ -1,12 +1,11 @@
 var a02336 =
 [
-    [ "ACScriptName", "d3/d9c/a02336.html#a44e28f969fff2c33cf76b8eaaff1898c", null ],
-    [ "DataHeader", "d3/d9c/a02336.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "RegisterAuchenaiCryptsCreatureAI", "d3/d9c/a02336.html#abf97bec93b670890ad0eaa7d6b4bd4b9", null ],
-    [ "ACDataTypes", "d3/d9c/a02336.html#aae3060cf5aa0b4d27bcbbfeee3db2856", [
-      [ "DATA_SHIRRAK_THE_DEAD_WATCHER", "d3/d9c/a02336.html#aae3060cf5aa0b4d27bcbbfeee3db2856a5d80917a3a5f108f9e625372181b85fe", null ],
-      [ "DATA_EXARCH_MALADAAR", "d3/d9c/a02336.html#aae3060cf5aa0b4d27bcbbfeee3db2856aa54edd3601b7953b0bf046fa8b1bd3f8", null ]
-    ] ],
-    [ "GetAuchenaiCryptsAI", "d3/d9c/a02336.html#a8c9b9cbd7dca7c2e86d7ad3fe7bfd961", null ],
-    [ "EncounterCount", "d3/d9c/a02336.html#a31d630c40753c29f94ceac2db5e451a8", null ]
+    [ "instance_the_eye", "d8/daf/a23824.html", "d8/daf/a23824" ],
+    [ "instance_the_eye::instance_the_eye_InstanceMapScript", "d2/d36/a23828.html", "d2/d36/a23828" ],
+    [ "spell_the_eye_countercharge_aura", "d4/dce/a23832.html", "d4/dce/a23832" ],
+    [ "AddSC_instance_the_eye", "d3/d9c/a02336.html#a2edbd129d024cabd379cca055dd3e341", null ],
+    [ "boundaries", "d3/d9c/a02336.html#aa75d7d0ffe0cef214f982966c33db1c1", null ],
+    [ "creatureData", "d3/d9c/a02336.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "doorData", "d3/d9c/a02336.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],
+    [ "gameObjectData", "d3/d9c/a02336.html#a1461582839e3b7fdbb7397e5d2086e31", null ]
 ];

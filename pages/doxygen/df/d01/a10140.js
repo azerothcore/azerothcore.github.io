@@ -1,7 +1,9 @@
 var a10140 =
 [
-    [ "GuildBankLogQueryResults", "df/d01/a10140.html#a878f9545b3141a327de85771de4f1779", null ],
-    [ "Write", "df/d01/a10140.html#aafdb5114c7d0e8a2d18a848f3c94aa38", null ],
-    [ "Entry", "df/d01/a10140.html#a5f3704df5311f06833c3243201d35930", null ],
-    [ "Tab", "df/d01/a10140.html#a214db612bb08e557dd41d3962c827dca", null ]
+    [ "ServerPacket", "df/d01/a10140.html#a4d2bf169dd705b886da8ff58a7ef4bd2", null ],
+    [ "Clear", "df/d01/a10140.html#aa54f2fa66cfe4682ca56cf01f9e1296a", null ],
+    [ "GetOpcode", "df/d01/a10140.html#a639ab6c078d7c746bcb328526df705be", null ],
+    [ "Move", "df/d01/a10140.html#a659397042201ae571bb564872e54d2c6", null ],
+    [ "Read", "df/d01/a10140.html#ae49aa7bce566d9f0ea3c7bbb487a119d", null ],
+    [ "ShrinkToFit", "df/d01/a10140.html#a6fa19a94d57484aaff3498be01495258", null ]
 ];

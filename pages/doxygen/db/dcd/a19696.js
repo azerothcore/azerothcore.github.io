@@ -1,6 +1,6 @@
 var a19696 =
 [
-    [ "HandleScript", "db/dcd/a19696.html#a51fdfe637dd4cacc79103105b61dbe6b", null ],
-    [ "PrepareSpellScript", "db/dcd/a19696.html#a4c851026438d0690679809f6ab7b2341", null ],
-    [ "Register", "db/dcd/a19696.html#ac28a1dec151e0ca319f50c9b3b53b3b4", null ]
+    [ "achievement_assembly_of_iron", "db/dcd/a19696.html#ae90d193b039d88ce38108b6617b5b8e9", null ],
+    [ "OnCheck", "db/dcd/a19696.html#ae66b3e708b38bfe685f9d28c14c2d3f5", null ],
+    [ "_targetEntry", "db/dcd/a19696.html#a20e8938ff30b18737fb96cf0277b5680", null ]
 ];

@@ -1,6 +1,6 @@
 var a25856 =
 [
-    [ "spell_kaelthas_summon_nether_vapor_SpellScript", "db/d18/a25860.html", "db/d18/a25860" ],
-    [ "spell_kaelthas_summon_nether_vapor", "dc/d28/a25856.html#ada9b4c4d8a4a5b3225466a9b075b532e", null ],
-    [ "GetSpellScript", "dc/d28/a25856.html#a0aed56030a421f9f8ea51c4da5310077", null ]
+    [ "OnPeriodic", "dc/d28/a25856.html#a3368e8fad4a5ecd242056da38ad8f23a", null ],
+    [ "PrepareAuraScript", "dc/d28/a25856.html#ad3d091510685ebc2d87aadb658cacf58", null ],
+    [ "Register", "dc/d28/a25856.html#a9552ba0f4c18623b6b00ababa034942c", null ]
 ];

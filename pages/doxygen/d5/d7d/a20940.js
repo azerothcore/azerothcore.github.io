@@ -1,6 +1,5 @@
 var a20940 =
 [
-    [ "spell_shield_of_runes_AuraScript", "d7/dc3/a20944.html", "d7/dc3/a20944" ],
-    [ "spell_shield_of_runes", "d5/d7d/a20940.html#a630b593aba0bb671f024f9d6e42c3db4", null ],
-    [ "GetAuraScript", "d5/d7d/a20940.html#a2f4f791140a2c894a3eacbf26638a1b9", null ]
+    [ "AreaTrigger_at_celestial_planetarium_enterance", "d5/d7d/a20940.html#ae1503a754a05a77991d9955a2fb74265", null ],
+    [ "OnTrigger", "d5/d7d/a20940.html#aa7aa93e00170313de251af4e562c422c", null ]
 ];

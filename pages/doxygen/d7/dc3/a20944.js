@@ -1,6 +1,5 @@
 var a20944 =
 [
-    [ "OnRemove", "d7/dc3/a20944.html#a226165f61f8be02abe828ba827f55541", null ],
-    [ "PrepareAuraScript", "d7/dc3/a20944.html#ad52d5d146f82008d3989f72a7dadd08c", null ],
-    [ "Register", "d7/dc3/a20944.html#ad05da83a1f14597358970910970acf50", null ]
+    [ "npc_salvaged_siege_engine", "d7/dc3/a20944.html#aa8cde891a19ebb1e53be2a81a2432442", null ],
+    [ "BeforeSpellClick", "d7/dc3/a20944.html#aed2500b2315b5e508ea3d06a2355d023", null ]
 ];

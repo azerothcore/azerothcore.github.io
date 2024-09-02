@@ -1,5 +1,7 @@
 var a26136 =
 [
-    [ "at_commander_dawnforge", "d9/dba/a26136.html#a1dfd7eb69ae515a59887c313001e4a4e", null ],
-    [ "OnTrigger", "d9/dba/a26136.html#acc78f4f2f9d892c02d62548e93f7f83b", null ]
+    [ "HandleHeal", "d9/dba/a26136.html#a22e3dd3ac57c7cb95162ee56ab43bc93", null ],
+    [ "PrepareSpellScript", "d9/dba/a26136.html#a9de9260bc1e2582138c58a708e5d899c", null ],
+    [ "Register", "d9/dba/a26136.html#ab613ce86521f1381b79f6f9f3eaea3cc", null ],
+    [ "Validate", "d9/dba/a26136.html#aa300822cf5455404482124a6853fb314", null ]
 ];

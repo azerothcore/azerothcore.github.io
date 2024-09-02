@@ -1,11 +1,11 @@
 var a14100 =
 [
-    [ "npc_dark_iron_attack_mole_machine", "d6/d4d/a14100.html#a473a8fb4905e5d1333196797d7d0f371", null ],
-    [ "AttackStart", "d6/d4d/a14100.html#a999dd932fbaf22a8275dfdba150c3291", null ],
-    [ "JustEngagedWith", "d6/d4d/a14100.html#a50e0657f33f15bf2ffe83ca4041eb483", null ],
-    [ "MoveInLineOfSight", "d6/d4d/a14100.html#a2be5de913ca9d472a31cd44c07bcde57", null ],
-    [ "Reset", "d6/d4d/a14100.html#a0727aab751ddfbd94ae070e60e47e768", null ],
-    [ "UpdateAI", "d6/d4d/a14100.html#a1217ed510a846d011143ae0a386c6236", null ],
-    [ "goTimer", "d6/d4d/a14100.html#a8686845ebef564c9fcaa115866c99749", null ],
-    [ "summonTimer", "d6/d4d/a14100.html#a4713da02f4a86547a0f796167e24d8bb", null ]
+    [ "npc_snowfall_glade_playmate", "d6/d4d/a14100.html#aa31b472ad55b240faff4bc2c1ee02ebc", null ],
+    [ "MoveInLineOfSight", "d6/d4d/a14100.html#a92143d0bd0eb57b59069ca7a66e16195", null ],
+    [ "Reset", "d6/d4d/a14100.html#a89040d9843852b01123e102b49509857", null ],
+    [ "UpdateAI", "d6/d4d/a14100.html#a6dedc1cae1e568a792341842e8a922e8", null ],
+    [ "orphanGUID", "d6/d4d/a14100.html#ad9bdbee8ec178b0a6c7ff125dc698279", null ],
+    [ "phase", "d6/d4d/a14100.html#a9a5b2348313063bc389b99158fc72e3f", null ],
+    [ "playerGUID", "d6/d4d/a14100.html#a4ca4198fdbf3c98291255916ee53c637", null ],
+    [ "timer", "d6/d4d/a14100.html#ac3d736f2cd62289b88940e0a6ddcd957", null ]
 ];

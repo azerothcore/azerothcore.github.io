@@ -1,6 +1,6 @@
 var a10592 =
 [
-    [ "customChance", "d3/d30/a10592.html#ac5d048f7ee803d61d5d3c59bb80a015d", null ],
-    [ "PPMChance", "d3/d30/a10592.html#adb76c11f0073a2738374c98c01fda009", null ],
-    [ "procEx", "d3/d30/a10592.html#a28bcdd11e64ad96be5a3ca0e0dd447c7", null ]
+    [ "TotemDestroyed", "d3/d30/a10592.html#a3bcaa030b2c15d54617564cf0f5e4c36", null ],
+    [ "Read", "d3/d30/a10592.html#a0bc6b5a33024d4fd8bc8dd4cfa25d3e2", null ],
+    [ "Slot", "d3/d30/a10592.html#a41eebde65aa696c2dec812da0aeab633", null ]
 ];

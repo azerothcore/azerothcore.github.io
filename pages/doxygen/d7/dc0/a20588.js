@@ -1,6 +1,6 @@
 var a20588 =
 [
-    [ "boss_bjarngrimAI", "d3/d64/a20592.html", "d3/d64/a20592" ],
-    [ "boss_bjarngrim", "d7/dc0/a20588.html#ab509688547d41ec1fd094fdc45291959", null ],
-    [ "GetAI", "d7/dc0/a20588.html#aff6455d2a327bbf3426d10a07f7b0e44", null ]
+    [ "boss_xt002AI", "d3/d64/a20592.html", "d3/d64/a20592" ],
+    [ "boss_xt002", "d7/dc0/a20588.html#aebd7e513b3bef6a25ad0f9766d18174e", null ],
+    [ "GetAI", "d7/dc0/a20588.html#a146e4a10da7d81213e7f63d6e86c79f2", null ]
 ];

@@ -1,6 +1,8 @@
 var a16136 =
 [
-    [ "npc_baltharus_the_warborn_cloneAI", "d3/d8c/a16140.html", "d3/d8c/a16140" ],
-    [ "npc_baltharus_the_warborn_clone", "d2/ddc/a16136.html#a7ed0731a015709ecd3c0c26fafb795ff", null ],
-    [ "GetAI", "d2/ddc/a16136.html#a87b50fbc3a67345f375b41c3cb2ba754", null ]
+    [ "npc_announcer_toc5AI", "d2/ddc/a16136.html#a96e1bd089dfd21fa252bc6422d20bada", null ],
+    [ "DamageTaken", "d2/ddc/a16136.html#a53458483699ac026ff2cd36b5f061571", null ],
+    [ "MovementInform", "d2/ddc/a16136.html#acdcf4110b3815635ad173a70e7a1e603", null ],
+    [ "Reset", "d2/ddc/a16136.html#ab3dca17e0350d6d46a9069f97f2d12ef", null ],
+    [ "UpdateAI", "d2/ddc/a16136.html#ad2c596253d67d051f497a8d77859846d", null ]
 ];

@@ -1,6 +1,6 @@
 var a11508 =
 [
-    [ "boss_thebeastAI", "d6/d5a/a11512.html", "d6/d5a/a11512" ],
-    [ "boss_the_beast", "dc/dda/a11508.html#a131344b5fada63f4a8f0b3692ecba9eb", null ],
-    [ "GetAI", "dc/dda/a11508.html#a0b40497c665c571247cb8ad8b85ac63f", null ]
+    [ "npc_grimstoneAI", "d6/d5a/a11512.html", "d6/d5a/a11512" ],
+    [ "npc_grimstone", "dc/dda/a11508.html#ae5c3e36bf18cb30dd4fc7cd5e7a72cfb", null ],
+    [ "GetAI", "dc/dda/a11508.html#a24cf0aa69ac28c13ac3c44e14c35406c", null ]
 ];

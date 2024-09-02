@@ -1,6 +1,6 @@
 var a12852 =
 [
-    [ "npc_madrigosaAI", "d4/dde/a12856.html", "d4/dde/a12856" ],
-    [ "npc_madrigosa", "d8/d51/a12852.html#a173d8f6611181fe4985fab39629c06cf", null ],
-    [ "GetAI", "d8/d51/a12852.html#a7f5fc53ca22c7ffbbbaa91d447ac6f3e", null ]
+    [ "spell_shadowfang_keep_haunting_spirits_AuraScript", "d4/dde/a12856.html", "d4/dde/a12856" ],
+    [ "spell_shadowfang_keep_haunting_spirits", "d8/d51/a12852.html#ab8754717ad87fd1c1f636132e8264f9c", null ],
+    [ "GetAuraScript", "d8/d51/a12852.html#a2883b70d379098f68e904e124749db5b", null ]
 ];

@@ -1,6 +1,6 @@
 var a17708 =
 [
-    [ "AddExtraDamage", "d7/d81/a17708.html#a9a806f767736f20134480220554aab15", null ],
-    [ "PrepareSpellScript", "d7/d81/a17708.html#a622eecf35c9b7a657f97a00f558a7a91", null ],
-    [ "Register", "d7/d81/a17708.html#a5132a61f8ca744cf5041c37e4e0dd014", null ]
+    [ "npc_gas_cloudAI", "dd/d40/a17712.html", "dd/d40/a17712" ],
+    [ "npc_gas_cloud", "d7/d81/a17708.html#a99c887cb8a5cc87bbfca026447368b8e", null ],
+    [ "GetAI", "d7/d81/a17708.html#a1c76a148f9c1acec473f102b6a24e3bb", null ]
 ];

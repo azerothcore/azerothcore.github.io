@@ -1,10 +1,8 @@
 var a14964 =
 [
-    [ "npc_hive_zara_larva", "d3/d00/a14964.html#a50fb5738d7b0818689216fee0915a0de", null ],
-    [ "AttackStart", "d3/d00/a14964.html#aa21aee8b83f7331ecd2578b5eadaa054", null ],
-    [ "JustSummoned", "d3/d00/a14964.html#a2a1d80f70ae265b1db50e3a7165fa099", null ],
-    [ "MoveInLineOfSight", "d3/d00/a14964.html#acee981a1aaa092f77ee2613d0c5b8450", null ],
-    [ "MovementInform", "d3/d00/a14964.html#a6890c58106450d654062f548a80cb42f", null ],
-    [ "UpdateAI", "d3/d00/a14964.html#ab7452ec3ea8fa7caee7a45ae1ebbde9a", null ],
-    [ "_instance", "d3/d00/a14964.html#aa8333a25c0e184dd75db580b03ef9cb2", null ]
+    [ "npc_ouro_spawner", "d3/d00/a14964.html#acb18739e5a1734312ffdda35321e5f34", null ],
+    [ "JustSummoned", "d3/d00/a14964.html#a722dada5bf97c730462a0de2b082d5ff", null ],
+    [ "MoveInLineOfSight", "d3/d00/a14964.html#a83c0972db4435ccf1af069574e4056f4", null ],
+    [ "Reset", "d3/d00/a14964.html#ac1591f1c172bfdda25b020e00cd0835e", null ],
+    [ "hasSummoned", "d3/d00/a14964.html#a6ac376861c1206cc1551d9fa86c0fc97", null ]
 ];

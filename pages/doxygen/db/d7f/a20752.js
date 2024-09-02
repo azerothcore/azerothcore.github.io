@@ -1,6 +1,6 @@
 var a20752 =
 [
-    [ "dark_rune_stormcallerAI", "de/def/a20756.html", "de/def/a20756" ],
-    [ "dark_rune_stormcaller", "db/d7f/a20752.html#ab31774011fc3e1e8ffa1a3b7c5cbfbcc", null ],
-    [ "GetAI", "db/d7f/a20752.html#a9072aaf482106cfae0d3901507b47f60", null ]
+    [ "boss_yoggsaron_descend_portalAI", "de/def/a20756.html", "de/def/a20756" ],
+    [ "boss_yoggsaron_descend_portal", "db/d7f/a20752.html#aaf546e4e546d87818bd501b4934e8ab2", null ],
+    [ "GetAI", "db/d7f/a20752.html#aceb50c808eed17ca468a80b823af1907", null ]
 ];

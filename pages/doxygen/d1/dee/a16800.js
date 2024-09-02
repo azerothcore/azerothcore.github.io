@@ -1,4 +1,6 @@
 var a16800 =
 [
-    [ "boss_dreadscaleAI", "d1/dee/a16800.html#ab0d0f8a7ec6567e8811d09721f6fa9ed", null ]
+    [ "npc_hor_risen_witch_doctorAI", "d1/d4c/a16804.html", "d1/d4c/a16804" ],
+    [ "npc_hor_risen_witch_doctor", "d1/dee/a16800.html#add06a10c9b4342b136b5cab49338b095", null ],
+    [ "GetAI", "d1/dee/a16800.html#a055a8d29d8e6a58b92968ed1c39c1b1d", null ]
 ];

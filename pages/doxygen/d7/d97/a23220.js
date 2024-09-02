@@ -1,6 +1,13 @@
 var a23220 =
 [
-    [ "npc_future_youAI", "da/d19/a23224.html", "da/d19/a23224" ],
-    [ "npc_future_you", "d7/d97/a23220.html#a36e363156bcb32fee468989062817bd5", null ],
-    [ "GetAI", "d7/d97/a23220.html#a2e1529fef3ce307d98057dc93ce5e5fe", null ]
+    [ "npc_ahune_bunny", "d7/d97/a23220.html#ae28e0d2dbaab082488d5582b75cd8482", null ],
+    [ "DoAction", "d7/d97/a23220.html#ad071787c47254f603ba7692889733202", null ],
+    [ "JustDied", "d7/d97/a23220.html#a8733a3e495ebf69df4f9d1213df50170", null ],
+    [ "JustSummoned", "d7/d97/a23220.html#a2c5c97b497cd15a1453bbd21d279a29b", null ],
+    [ "ResetFlameCallers", "d7/d97/a23220.html#a60a74aabbf42116079081134a332a100", null ],
+    [ "UpdateAI", "d7/d97/a23220.html#aa8dff40dde7820b1ce4e06c8d27e4ecb", null ],
+    [ "_events", "d7/d97/a23220.html#af84154fff16cbdb15586b3b07223e010", null ],
+    [ "_instance", "d7/d97/a23220.html#a9be0d062379e5a3dfa19af1eb1a4243e", null ],
+    [ "_submerged", "d7/d97/a23220.html#a15fdcc2fda18e118f398ccc055f52942", null ],
+    [ "_summons", "d7/d97/a23220.html#a8f9e25f0d8a66b18e887b061592c6950", null ]
 ];

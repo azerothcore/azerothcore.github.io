@@ -1,6 +1,7 @@
 var a18416 =
 [
-    [ "MalleableGooSelector", "d2/d18/a18416.html#a5adb1e89ab7d5733514a8fefc5de6a35", null ],
-    [ "operator()", "d2/d18/a18416.html#adf73957539fdcc604f849944473e0015", null ],
-    [ "me", "d2/d18/a18416.html#a6cd991b360895b4b3405f0cd9e63879f", null ]
+    [ "OnApply", "d2/d18/a18416.html#ac35f5d98980f54470a75a72b3578681f", null ],
+    [ "OnRemove", "d2/d18/a18416.html#a9844b3d82680bfc9756b141fcf29e1f9", null ],
+    [ "PrepareAuraScript", "d2/d18/a18416.html#a83c90d16fa151026a1e02927e31922ee", null ],
+    [ "Register", "d2/d18/a18416.html#a255e44ac6db7fd779d98fc3660ee91c6", null ]
 ];

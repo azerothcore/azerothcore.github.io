@@ -1,7 +1,9 @@
 var a07804 =
 [
-    [ "EnchStoreItem", "d3/dd0/a07804.html#a89019e156774c5b978251479264e5463", null ],
-    [ "EnchStoreItem", "d3/dd0/a07804.html#aca83bb20eb6153faeaf599b07b97e357", null ],
-    [ "chance", "d3/dd0/a07804.html#a2d3d0cd28c79402b3625694d4676ed8b", null ],
-    [ "ench", "d3/dd0/a07804.html#ac2346b6c6c5c09bb63676d72c798d848", null ]
+    [ "VendorItem", "d3/dd0/a07804.html#ae79c26c304bee575a722f8a82fc79fd2", null ],
+    [ "IsGoldRequired", "d3/dd0/a07804.html#a5f335ffdb5d82418cdb4eb7a606692c1", null ],
+    [ "ExtendedCost", "d3/dd0/a07804.html#a18234f38ff242b8687265f9acf70dbe0", null ],
+    [ "incrtime", "d3/dd0/a07804.html#afe3bb3324faf1beae6ee17c223678e9b", null ],
+    [ "item", "d3/dd0/a07804.html#a6b26a96440c885684c173ee17d788896", null ],
+    [ "maxcount", "d3/dd0/a07804.html#a98be1e0499d9ae9cfb176063991f72ee", null ]
 ];

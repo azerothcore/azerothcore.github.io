@@ -1,6 +1,7 @@
 var a15280 =
 [
-    [ "HandleDummy", "d3/da4/a15280.html#a09b21b3e5357c49d85ef01d9a5d4694f", null ],
-    [ "PrepareSpellScript", "d3/da4/a15280.html#ac221d3d128265d78acc72d41ebf0fd8a", null ],
-    [ "Register", "d3/da4/a15280.html#a67be525bc07ef7091d9b8148c1a01fb9", null ]
+    [ "HandleDummy", "d3/da4/a15280.html#a30a87266b89021caf7d05c45397f70d1", null ],
+    [ "PrepareSpellScript", "d3/da4/a15280.html#a43a92b346088d710719722e8feed9634", null ],
+    [ "Register", "d3/da4/a15280.html#ad7a53cc6a24197c050ed8577f6c6cc12", null ],
+    [ "Validate", "d3/da4/a15280.html#a8b5097b623adbc1d8a10d7b1c4c248ab", null ]
 ];

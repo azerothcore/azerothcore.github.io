@@ -1,6 +1,5 @@
 var a13528 =
 [
-    [ "npc_jaina_proudmoore_bfuAI", "d2/de2/a13532.html", "d2/de2/a13532" ],
-    [ "npc_jaina_proudmoore_bfu", "dc/deb/a13528.html#af96c4fac318f44cf6e70817b6960999f", null ],
-    [ "GetAI", "dc/deb/a13528.html#a4ed6349a5ebdd90053f9d67d24ab6991", null ]
+    [ "npc_mikhail", "dc/deb/a13528.html#ab63d49e91b0d4b6ca0f00ff0992f5bad", null ],
+    [ "OnQuestAccept", "dc/deb/a13528.html#a3e1d81aa9e610b73c3d856b355338d3b", null ]
 ];

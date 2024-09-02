@@ -1,6 +1,6 @@
 var a15768 =
 [
-    [ "npc_cairne_bloodhoofAI", "d4/df1/a15772.html", "d4/df1/a15772" ],
-    [ "npc_cairne_bloodhoof", "d1/db3/a15768.html#a3519d94c5fcdc3d55e31c49c7773e56c", null ],
-    [ "GetAI", "d1/db3/a15768.html#a1c34470c46ae9e98684de0e786be28b7", null ]
+    [ "boss_sartharionAI", "d4/df1/a15772.html", "d4/df1/a15772" ],
+    [ "boss_sartharion", "d1/db3/a15768.html#a6605aee69372d08fba8f4b4523896588", null ],
+    [ "GetAI", "d1/db3/a15768.html#aca5d66e0f5cdcafd6f9cd2c173f43839", null ]
 ];

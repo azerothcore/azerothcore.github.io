@@ -1,6 +1,5 @@
 var a28200 =
 [
-    [ "CheckCast", "d5/dad/a28200.html#a2edd0bcaa3b026cc70f9f6b58f53f486", null ],
-    [ "PrepareSpellScript", "d5/dad/a28200.html#aaf1e16dbc8d33aadcbf74dc4cebe715b", null ],
-    [ "Register", "d5/dad/a28200.html#a32aaab12105c9b1c09edfa8a444ced9c", null ]
+    [ "Flags", "d5/dad/a28200.html#a0cb97c73af91dcfdd151c38aa46828cc", null ],
+    [ "Id", "d5/dad/a28200.html#a85e0e36dbc79f309d7f50b087ebcd166", null ]
 ];

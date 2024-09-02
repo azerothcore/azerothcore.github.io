@@ -1,19 +1,5 @@
 var a00320 =
 [
-    [ "MmapTileHeader", "d3/d3a/a04891.html", "d3/d3a/a04891" ],
-    [ "MAX_NUMBER_OF_GRIDS", "dd/de2/a00320.html#a857252154f120575d940ffbdf63bace6", null ],
-    [ "MMAP_MAGIC", "dd/de2/a00320.html#af7a9a5e840ab3ad1c160e832500016d1", null ],
-    [ "MMAP_VERSION", "dd/de2/a00320.html#aea71555fdd0af33ccc21c76c67574421", null ],
-    [ "SIZE_OF_GRIDS", "dd/de2/a00320.html#a55c9adba46c0c14cd4ac80ab51228816", null ],
-    [ "NavTerrain", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5db", [
-      [ "NAV_EMPTY", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dba7e7367494e3519c95f1b756726fec9a5", null ],
-      [ "NAV_GROUND", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dbac2c74d40490a8ea42121c00a8249bd98", null ],
-      [ "NAV_MAGMA", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dba9ea5d0550a08be7bb291557f1fc4f670", null ],
-      [ "NAV_SLIME", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dbad892c321d39d49cdb700eb27fc249f75", null ],
-      [ "NAV_WATER", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dbae258322a4a7d7928a89ac183ecf137d1", null ],
-      [ "NAV_UNUSED1", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dba55b6c76a11113bfd585b61366a3f6d03", null ],
-      [ "NAV_UNUSED2", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dba4c61900269be6dee2e26cbeb4e09d0bb", null ],
-      [ "NAV_UNUSED3", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dba3055dd71ec523facb0cba2976316d530", null ],
-      [ "NAV_UNUSED4", "dd/de2/a00320.html#a8a4d0b36dd46d60b691b894fb8c1c5dba94351935a3c7389b4667144d53923d56", null ]
-    ] ]
+    [ "achievIdByArenaSlot", "dd/de2/a00320.html#a5264f22d916c9472e9a16ac52140f87c", null ],
+    [ "achievIdForDungeon", "dd/de2/a00320.html#ac50d520adf892744d066d8c5187046b0", null ]
 ];

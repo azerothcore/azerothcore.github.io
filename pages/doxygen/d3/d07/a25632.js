@@ -1,7 +1,7 @@
 var a25632 =
 [
-    [ "boss_zereketh_the_unbound", "d3/d07/a25632.html#abb2fc5cbe7514142160818016fda1936", null ],
-    [ "JustDied", "d3/d07/a25632.html#ac5d96da9a33a536f2002cce11453ded3", null ],
-    [ "JustEngagedWith", "d3/d07/a25632.html#ad0305f3eeb578d6dcd2db835331eb10f", null ],
-    [ "KilledUnit", "d3/d07/a25632.html#a07d3a1264e6d78c2696990755fc7fe45", null ]
+    [ "HandleDummy", "d3/d07/a25632.html#ae1321cc7d119e1f2c8c2029f8ada60a3", null ],
+    [ "PrepareSpellScript", "d3/d07/a25632.html#a527f606fd6e583eab56146a689f73e69", null ],
+    [ "Register", "d3/d07/a25632.html#ac34b3d95ea2888a164deaa3db6671e8b", null ],
+    [ "Validate", "d3/d07/a25632.html#a2a414ce6309b0bbbdb3fb4612215ca03", null ]
 ];

@@ -1,7 +1,6 @@
 var a27112 =
 [
-    [ "HandleProc", "db/dcd/a27112.html#af768269d315e998fc2042794c3a03b58", null ],
-    [ "PrepareAuraScript", "db/dcd/a27112.html#ae3da67d626ee11c57a85a3af99ff07a5", null ],
-    [ "Register", "db/dcd/a27112.html#a2df1cff47861cbf3198e573c6031b54e", null ],
-    [ "Validate", "db/dcd/a27112.html#a84f40eec148c55108085db5e7b05cb0e", null ]
+    [ "go_tadpole_cageAI", "db/dc6/a27116.html", "db/dc6/a27116" ],
+    [ "go_tadpole_cage", "db/dcd/a27112.html#a1a9acacd0ebff33d402018d4205e415b", null ],
+    [ "GetAI", "db/dcd/a27112.html#a38990dc5edd725623b6c35dba7802612", null ]
 ];

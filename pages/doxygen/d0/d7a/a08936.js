@@ -1,12 +1,8 @@
 var a08936 =
 [
-    [ "EventLogEntry", "d0/d7a/a08936.html#a31726d40f7b89077b45ffbaca8396a9d", null ],
-    [ "EventLogEntry", "d0/d7a/a08936.html#a96a2e3a6d565db452e7d0f1a152f63c7", null ],
-    [ "~EventLogEntry", "d0/d7a/a08936.html#a8d6bf0a5a53fdc8e99ad53293d96af7c", null ],
-    [ "SaveToDB", "d0/d7a/a08936.html#a2ca71e291a44f95bb42d51083aa84985", null ],
-    [ "WritePacket", "d0/d7a/a08936.html#adffe90bd0265dea0ca2fd6bc83f3056e", null ],
-    [ "m_eventType", "d0/d7a/a08936.html#a00216643e6856591402c21df490c1fec", null ],
-    [ "m_newRank", "d0/d7a/a08936.html#ab733c92f478dc36e3b5ffc61799a6ce7", null ],
-    [ "m_playerGuid1", "d0/d7a/a08936.html#a06a2b45d16860c711829f49f97624272", null ],
-    [ "m_playerGuid2", "d0/d7a/a08936.html#a1f66e71f9536e484663e437bbcbcefca", null ]
+    [ "PlayerWorker", "d0/d7a/a08936.html#ac7c16ec87b533b7b58b768cac116d7a2", null ],
+    [ "Visit", "d0/d7a/a08936.html#a018b799be67c284d6ed5c7a368ef1985", null ],
+    [ "Visit", "d0/d7a/a08936.html#a19c56b5bde9e57ea0152a89ac05e292b", null ],
+    [ "i_do", "d0/d7a/a08936.html#ae09b42f770e895b1c283ea7ca7527b7a", null ],
+    [ "i_phaseMask", "d0/d7a/a08936.html#aa23944bde7aa8e3a77f33b0a93f92c57", null ]
 ];

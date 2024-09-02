@@ -1,6 +1,6 @@
 var a16892 =
 [
-    [ "OnPeriodic", "dc/d25/a16892.html#accee172deb2831747767444496cd8f95", null ],
-    [ "PrepareAuraScript", "dc/d25/a16892.html#a2c1ef65892419ac740e6626b3a4d3fea", null ],
-    [ "Register", "dc/d25/a16892.html#a11631f7419021c9da178d9efd95bcd5e", null ]
+    [ "npc_pos_leaderAI", "d6/da1/a16896.html", "d6/da1/a16896" ],
+    [ "npc_pos_leader", "dc/d25/a16892.html#a690956ba5c822f4cbea9c27c95d5924c", null ],
+    [ "GetAI", "dc/d25/a16892.html#a0c0b85bef0b04989dc80d861fa70f463", null ]
 ];

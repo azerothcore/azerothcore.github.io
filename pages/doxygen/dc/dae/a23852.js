@@ -1,6 +1,6 @@
 var a23852 =
 [
-    [ "npc_brunnhildar_prisonerAI", "da/d4e/a23856.html", "da/d4e/a23856" ],
-    [ "npc_brunnhildar_prisoner", "dc/dae/a23852.html#a4dd1b440366c0a5c4fa7c1dfab7607b5", null ],
-    [ "GetAI", "dc/dae/a23852.html#aa2a1787849c74a5163a39137c9d03d57", null ]
+    [ "HandleAfterRemove", "dc/dae/a23852.html#ac9756a8f206c114ff6443331ca266184", null ],
+    [ "PrepareAuraScript", "dc/dae/a23852.html#a2f67291e6e4291c9d01cdbcbe04a7db7", null ],
+    [ "Register", "dc/dae/a23852.html#ac36d76ad8a5ecb2e437dcb8f1248386d", null ]
 ];

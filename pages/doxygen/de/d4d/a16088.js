@@ -1,6 +1,8 @@
 var a16088 =
 [
-    [ "boss_sartharion_vesperonAI", "d4/d8c/a16092.html", "d4/d8c/a16092" ],
-    [ "boss_sartharion_vesperon", "de/d4d/a16088.html#a53af67abd9f9bff7f72ee2441e885500", null ],
-    [ "GetAI", "de/d4d/a16088.html#ad045054b44910461e704c412a524bdc4", null ]
+    [ "npc_black_knight_skeletal_gryphonAI", "de/d4d/a16088.html#ada99dced1e560aebc908a0efb6c23d0a", null ],
+    [ "DoAction", "de/d4d/a16088.html#af38e129cdf4af99e99c41b6a98448e56", null ],
+    [ "Reset", "de/d4d/a16088.html#a5e20d5e17baaac92a560a5b2fe15fe7b", null ],
+    [ "UpdateAI", "de/d4d/a16088.html#a851008790128831c5c10710b4cccb196", null ],
+    [ "WaypointReached", "de/d4d/a16088.html#a74b5fb1d3631c404e7797085e45e6159", null ]
 ];

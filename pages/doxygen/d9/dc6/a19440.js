@@ -1,6 +1,6 @@
 var a19440 =
 [
-    [ "spell_dreamwalker_summoner_SpellScript", "da/dd0/a19444.html", "da/dd0/a19444" ],
-    [ "spell_dreamwalker_summoner", "d9/dc6/a19440.html#ad10a4e75d8b22561630e33aac1165fa0", null ],
-    [ "GetSpellScript", "d9/dc6/a19440.html#a9abc579bbdb01a26cae788bb58f6bbc9", null ]
+    [ "boss_krystallusAI", "da/dd0/a19444.html", "da/dd0/a19444" ],
+    [ "boss_krystallus", "d9/dc6/a19440.html#a1d7453c9d67594bfdbd650fea897666a", null ],
+    [ "GetAI", "d9/dc6/a19440.html#aba14bcfa00a5d997959abd94af647bf4", null ]
 ];

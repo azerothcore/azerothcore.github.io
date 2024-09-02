@@ -1,5 +1,6 @@
 var a22392 =
 [
-    [ "achievement_yogg_saron_kiss_and_make_up", "da/d8d/a22392.html#a9f2e5fe9de59a9b5a00c0e73e8f9b376", null ],
-    [ "OnCheck", "da/d8d/a22392.html#a8ce7df713b804d5bdd5f6f47d77fc1b8", null ]
+    [ "npc_captured_rageclawAI", "d7/d1c/a22396.html", "d7/d1c/a22396" ],
+    [ "npc_captured_rageclaw", "da/d8d/a22392.html#ad49176279e9d16a6a24c0649c576c0be", null ],
+    [ "GetAI", "da/d8d/a22392.html#aa39b6c518fe22d91b8673cfd576866a4", null ]
 ];

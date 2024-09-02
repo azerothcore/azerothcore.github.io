@@ -1,6 +1,8 @@
 var a14264 =
 [
-    [ "HandleDummy", "d2/df5/a14264.html#a7e6ecd28a6b1f161619e179bc386388e", null ],
-    [ "PrepareSpellScript", "d2/df5/a14264.html#a87a787c6ab3804847c90266f570381c6", null ],
-    [ "Register", "d2/df5/a14264.html#ad5c7ab8f3bb74882eed42c6e0868ab70", null ]
+    [ "OnApply", "d2/df5/a14264.html#aa38abcc9fa49fc2c397edbfff2c0ea0d", null ],
+    [ "OnRemove", "d2/df5/a14264.html#a64018d24a33565e615c6c2d3eb4810f8", null ],
+    [ "PrepareAuraScript", "d2/df5/a14264.html#acb57b284b9d9116b6b0c0a758e09a8d5", null ],
+    [ "Register", "d2/df5/a14264.html#a9cd1e664cb6ccec5dc897b586203faf1", null ],
+    [ "Validate", "d2/df5/a14264.html#a77ed6196af0fcf75c6d1071e236f6210", null ]
 ];

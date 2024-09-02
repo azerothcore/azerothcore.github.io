@@ -1,6 +1,7 @@
 var a25276 =
 [
-    [ "HandlePeriodic", "df/ddd/a25276.html#af6c30bb292a69d5eaaaf75c8a76111ea", null ],
-    [ "PrepareAuraScript", "df/ddd/a25276.html#a75515896f3d94d227963a3c5258e2d0d", null ],
-    [ "Register", "df/ddd/a25276.html#aeacb1ffc287cc7128366ee0484c2994b", null ]
+    [ "OnRemove", "df/ddd/a25276.html#ab6371347f0dc4ffc8bab6c75ca1cdf59", null ],
+    [ "PrepareAuraScript", "df/ddd/a25276.html#ac2b1a2311f97ab427439b45fb0770063", null ],
+    [ "Register", "df/ddd/a25276.html#a39e4914aa01769e14f61e2369ad8eda5", null ],
+    [ "Validate", "df/ddd/a25276.html#a71e47e70fd18affe1bd563f68fcb2efe", null ]
 ];

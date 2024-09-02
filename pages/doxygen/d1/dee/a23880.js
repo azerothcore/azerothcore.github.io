@@ -1,8 +1,8 @@
 var a23880 =
 [
-    [ "npc_hyldsmeet_protodrakeAI", "d1/dee/a23880.html#a30794392a32b1323fb0a86615b341741", null ],
-    [ "PassengerBoarded", "d1/dee/a23880.html#acb699d519bf79702a34b7d9910fe7c9e", null ],
-    [ "UpdateAI", "d1/dee/a23880.html#afd2168f8dc7328898f5e769c31c6da5a", null ],
-    [ "_accessoryRespawnTimer", "d1/dee/a23880.html#a4c6b4236bf35278d05c4b78f1eda6b75", null ],
-    [ "_vehicleKit", "d1/dee/a23880.html#aba68a138ef44af7d012c8c7dd4c06c6d", null ]
+    [ "instance_mechanar_InstanceMapScript", "d1/dee/a23880.html#a728d427162c0f56e7d229c55ff88bfbd", null ],
+    [ "OnCreatureCreate", "d1/dee/a23880.html#aa0c6a84a6ace9299b18f0cc54263b398", null ],
+    [ "OnGameObjectCreate", "d1/dee/a23880.html#a236a8c67ca57ffc7d2161c00e8acbd64", null ],
+    [ "OnGameObjectRemove", "d1/dee/a23880.html#ac79c4f1dad7f2caf1278e242ec8fadc9", null ],
+    [ "_pathaleonGUID", "d1/dee/a23880.html#aaf5c80af5ba2ba46b3c53ccffaaa1d3b", null ]
 ];

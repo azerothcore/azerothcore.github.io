@@ -1,6 +1,6 @@
 var a27136 =
 [
-    [ "HandleScript", "d9/df9/a27136.html#a913c8c461f291ccaad2f48614c0146c6", null ],
-    [ "PrepareSpellScript", "d9/df9/a27136.html#a18913a7455cf3f158136f2d3bb415779", null ],
-    [ "Register", "d9/df9/a27136.html#ac24208b646e95d87fbb340d7779cb7c5", null ]
+    [ "go_bear_trapAI", "d0/dd9/a27140.html", "d0/dd9/a27140" ],
+    [ "go_bear_trap", "d9/df9/a27136.html#a6301aa23009ac2599fc37b81bb3a0750", null ],
+    [ "GetAI", "d9/df9/a27136.html#afb882fd4cc2e4379bb8d5afff210a679", null ]
 ];

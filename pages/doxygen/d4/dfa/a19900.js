@@ -1,6 +1,6 @@
 var a19900 =
 [
-    [ "boss_isle_of_conquestAI", "d8/d5c/a19904.html", "d8/d5c/a19904" ],
-    [ "boss_isle_of_conquest", "d4/dfa/a19900.html#ad4052d1b6865585d32016e1240449659", null ],
-    [ "GetAI", "d4/dfa/a19900.html#ae14201c4f8654bf2c0cd9ac8a82f3800", null ]
+    [ "CheckCast", "d4/dfa/a19900.html#a866fd47d51b5fc4c07c3733739d07c02", null ],
+    [ "PrepareSpellScript", "d4/dfa/a19900.html#a09cbe962ae1f18811db8c1d32b856c0d", null ],
+    [ "Register", "d4/dfa/a19900.html#a240989af43e5ad6eb81d600a2f1d4769", null ]
 ];

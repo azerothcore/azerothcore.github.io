@@ -1,6 +1,7 @@
 var a18800 =
 [
-    [ "spell_sindragosa_ice_tomb_filter_SpellScript", "da/d5f/a18804.html", "da/d5f/a18804" ],
-    [ "spell_sindragosa_ice_tomb_filter", "d6/d76/a18800.html#a363c2d6614220dc6bf218c7c4eef5251", null ],
-    [ "GetSpellScript", "d6/d76/a18800.html#af06952eacb4068618f184b9828146041", null ]
+    [ "HandleTriggerSpell", "d6/d76/a18800.html#a0e75076c2aed1544c544b976ee9cfbcd", null ],
+    [ "PrepareAuraScript", "d6/d76/a18800.html#a6ce4c5c2b6797b38225ac3348aad5892", null ],
+    [ "Register", "d6/d76/a18800.html#af87272995f6eeb3bc53cf472f5c3e9d3", null ],
+    [ "Validate", "d6/d76/a18800.html#a813bad39641956fff697580f271416d2", null ]
 ];

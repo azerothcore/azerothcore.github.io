@@ -1,9 +1,8 @@
 var a20728 =
 [
-    [ "boss_sjonnir_malformed_oozeAI", "de/df8/a20728.html#a0624f769d0ce5a95ea2bb877811b0409", null ],
-    [ "JustEngagedWith", "de/df8/a20728.html#a9e6527bc46d7b685d938833d18796cee", null ],
-    [ "MoveInLineOfSight", "de/df8/a20728.html#a7449e135f088a2d4b22a423c71118093", null ],
-    [ "MovementInform", "de/df8/a20728.html#ac04d90e974f85282737bb5081a123106", null ],
-    [ "UpdateAI", "de/df8/a20728.html#afccd77c8e90d129fb3a347205a2102db", null ],
-    [ "events", "de/df8/a20728.html#a73c135ec94b41a752fc203c5e20128d0", null ]
+    [ "boss_yoggsaron_crusher_tentacleAI", "de/df8/a20728.html#a63d63a0b981c278fcfadfdda1feb5a12", null ],
+    [ "DamageTaken", "de/df8/a20728.html#ac2458922b2530929ee1adbcc0da834a0", null ],
+    [ "DoAction", "de/df8/a20728.html#abcc42381f37256e5c5ab2a42f8ef2c29", null ],
+    [ "Reset", "de/df8/a20728.html#af33db4e2ce1bb85e38437db6ca7982f7", null ],
+    [ "UpdateAI", "de/df8/a20728.html#a8329bc78fc037655d48cb9bf0abd8447", null ]
 ];

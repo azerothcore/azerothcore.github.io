@@ -1,9 +1,9 @@
 var a28532 =
 [
-    [ "HandleAfterHit", "dd/d4e/a28532.html#a05341e7a67f50c6ced4bf4bd3892f39a", null ],
-    [ "HandleBeforeHit", "dd/d4e/a28532.html#a7ca0fe15f6679c73aa77818ef3d94eed", null ],
-    [ "Load", "dd/d4e/a28532.html#a6b2a1f378c0f5a2762ce1d34740d310e", null ],
-    [ "PrepareSpellScript", "dd/d4e/a28532.html#a496c27472579be3b8989868765ec19ef", null ],
-    [ "Register", "dd/d4e/a28532.html#a133e338413e960c442446a2a4a13b85b", null ],
-    [ "_stackAmount", "dd/d4e/a28532.html#a3aa304a5386f6c0ee4aa428bf4ed12bb", null ]
+    [ "adtData", "d4/d3e/a28540.html", "d4/d3e/a28540" ],
+    [ "prepareLoadedData", "dd/d4e/a28532.html#a6b755c9e341918d05105d993391429c6", null ],
+    [ "adt_list", "dd/d4e/a28532.html#abe28c39e8856412c4fb182baab3218f0", null ],
+    [ "fcc", "dd/d4e/a28532.html#ac8ee92a1747e31385cbfadaea16c267f", null ],
+    [ "fcc_txt", "dd/d4e/a28532.html#a0657c323732de8d83b9c360c1dd03b61", null ],
+    [ "size", "dd/d4e/a28532.html#a797c02773dd470a318474c7ef033ba7c", null ]
 ];

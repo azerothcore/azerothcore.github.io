@@ -1,7 +1,7 @@
 var a16628 =
 [
-    [ "npc_toc_shadow_priestAI", "d6/d41/a16628.html#af13a18be542fb314c19af52f89d216b8", null ],
-    [ "myCanCast", "d6/d41/a16628.html#a83422ff3e140b57a484d98876a9a8070", null ],
-    [ "UpdateAI", "d6/d41/a16628.html#afc23ba15d3ee925212e77b5211504c2b", null ],
-    [ "events", "d6/d41/a16628.html#a31665a22920b416d7423958a3e2928ec", null ]
+    [ "HandlePeriodicTick", "d6/d41/a16628.html#abe9cc0a87d84504ee029cc565dd97ef5", null ],
+    [ "PrepareAuraScript", "d6/d41/a16628.html#a93e894c642101160dd51f30952c82d24", null ],
+    [ "Register", "d6/d41/a16628.html#a49172ede0f888e391b9b4a835475220a", null ],
+    [ "Validate", "d6/d41/a16628.html#a3b9998ef5ee0931afbe5b04430da10a0", null ]
 ];

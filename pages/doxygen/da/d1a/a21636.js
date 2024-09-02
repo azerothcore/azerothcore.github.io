@@ -1,10 +1,9 @@
 var a21636 =
 [
-    [ "boss_kologarn_eyebeamAI", "da/d1a/a21636.html#add083b2a9067753458de1eeb6bdca4c0", null ],
-    [ "DamageDealt", "da/d1a/a21636.html#a94a9181da10ffe737611cb281d60a952", null ],
-    [ "UpdateAI", "da/d1a/a21636.html#add60a709a1edf1684bd21358769590b4", null ],
-    [ "_damaged", "da/d1a/a21636.html#a7b49d9826efcf492c6e7ee003f481ccb", null ],
-    [ "_timer", "da/d1a/a21636.html#a766ad3e10016d97235499d1512c4da27", null ],
-    [ "justSpawned", "da/d1a/a21636.html#a8f01309b6533ea0adf85f43ba1ba1c26", null ],
-    [ "m_pInstance", "da/d1a/a21636.html#a4145bd7e5c80c4e62144b437d38624a4", null ]
+    [ "npc_minigob_manabonk", "da/d1a/a21636.html#aade5e005b68b25ede4e653629390ceb9", null ],
+    [ "Reset", "da/d1a/a21636.html#a18b3fcf1e2ada8f0178a0efd2e206a8e", null ],
+    [ "SelectTargetInDalaran", "da/d1a/a21636.html#a74a14a6e1839d7b8cc81712d57666ec5", null ],
+    [ "SendMailToPlayer", "da/d1a/a21636.html#a1973b7885c9fce15aab9843722bf112e", null ],
+    [ "UpdateAI", "da/d1a/a21636.html#abca8214a8c13d9d9c5c03f659fef53a9", null ],
+    [ "playerGUID", "da/d1a/a21636.html#ac8dccd333691f717fdbffe22126330d5", null ]
 ];

@@ -1,6 +1,6 @@
 var a24420 =
 [
-    [ "spell_illidan_shadow_prison_SpellScript", "da/dae/a24424.html", "da/dae/a24424" ],
-    [ "spell_illidan_shadow_prison", "d7/db8/a24420.html#a46757a3b8e45bb5e3eeeac997158a0a5", null ],
-    [ "GetSpellScript", "d7/db8/a24420.html#a49d7dd84bc7db56401281ed7ccb1bb4a", null ]
+    [ "FilterTargets", "d7/db8/a24420.html#a991a944f31680e4d53cc2a46d8c8b8bf", null ],
+    [ "PrepareSpellScript", "d7/db8/a24420.html#aea49df3f6b93223ed72c3a9875232b74", null ],
+    [ "Register", "d7/db8/a24420.html#a8f0e0b6363303def780d35415c88b4d6", null ]
 ];

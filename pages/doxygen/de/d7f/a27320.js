@@ -1,7 +1,5 @@
 var a27320 =
 [
-    [ "CalculateAmount", "de/d7f/a27320.html#a074a7de6cd4d930c1f23f6398c738bad", null ],
-    [ "Load", "de/d7f/a27320.html#a777803a61286e0eba31246d4771630df", null ],
-    [ "PrepareAuraScript", "de/d7f/a27320.html#ab76bc3927d3ce31ae061fe8577ca25f0", null ],
-    [ "Register", "de/d7f/a27320.html#a335e1629b98bfacf6e4e565b94d4991e", null ]
+    [ "item_generic_limit_chance_above_60", "de/d7f/a27320.html#abc18809810f0a7668020d01c482be84b", null ],
+    [ "OnCastItemCombatSpell", "de/d7f/a27320.html#aa34809cfd53edb6a77d3fa415a079d72", null ]
 ];

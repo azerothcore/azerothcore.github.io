@@ -1,12 +1,10 @@
 var a14636 =
 [
-    [ "npc_bansheeAI", "dd/d35/a14636.html#ac04bc22b0fee5747c03dfa88dbc127b9", null ],
-    [ "JustEngagedWith", "dd/d35/a14636.html#a09259c061c4fe3135e267320713a98f4", null ],
-    [ "Reset", "dd/d35/a14636.html#aba4ab124746e9d1bd244f29723c760b4", null ],
-    [ "UpdateAI", "dd/d35/a14636.html#aae8702d1cf77b695a29636d279d0ebc3", null ],
-    [ "WaypointReached", "dd/d35/a14636.html#a7cb2ba74cc0f8b4d4005d22553a22f3f", null ],
-    [ "CourseTimer", "dd/d35/a14636.html#a97f9cb11c6e825319f75ba4d1b6746e3", null ],
-    [ "go", "dd/d35/a14636.html#a60ffb0e7a31c9c77169c86039609ebb8", null ],
-    [ "ShellTimer", "dd/d35/a14636.html#a485087830b01b64761ef69016a016cfc", null ],
-    [ "WailTimer", "dd/d35/a14636.html#a381f58e7c9249ee7f9ba6b1176608f2c", null ]
+    [ "npc_tarethaAI", "dd/d35/a14636.html#ad403cdcdc2648bb23687e3a3a7bdbb03", null ],
+    [ "AttackStart", "dd/d35/a14636.html#a09d91ea8e5923ebc3c0ad01f09f93408", null ],
+    [ "DoAction", "dd/d35/a14636.html#adbb40db0b70532a20731cf5039e44d0b", null ],
+    [ "MoveInLineOfSight", "dd/d35/a14636.html#afa0427372e43316851018bf78274707f", null ],
+    [ "Reset", "dd/d35/a14636.html#ae4d9f3d5751e8a8e0468a80d46f4a4c4", null ],
+    [ "WaypointReached", "dd/d35/a14636.html#a6946bc02ec686c8af943c9e913c8aee6", null ],
+    [ "instance", "dd/d35/a14636.html#a3c0f4a61cf5b8da6b885ef7bf9813205", null ]
 ];

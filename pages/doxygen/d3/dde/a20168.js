@@ -1,6 +1,5 @@
 var a20168 =
 [
-    [ "FilterTargets", "d3/dde/a20168.html#a2c9dda062ee1eb6ec94c638ffd424ab0", null ],
-    [ "PrepareSpellScript", "d3/dde/a20168.html#aa453c3198e36c7da67327a188c86d4d3", null ],
-    [ "Register", "d3/dde/a20168.html#a5b4163334e905e4ca6fa07ee88b4397f", null ]
+    [ "achievement_cheese_the_freeze", "d3/dde/a20168.html#a5ec4c344a0ed203086be2661e4e24f0e", null ],
+    [ "OnCheck", "d3/dde/a20168.html#aaf3342fb3153a4d9223d880c0f2a277a", null ]
 ];

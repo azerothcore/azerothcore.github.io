@@ -1,11 +1,8 @@
 var a13596 =
 [
-    [ "npc_tapoke_slim_jahnAI", "d8/d59/a13596.html#aeb2bca4d3233d8790b1ccfdd559f2e41", null ],
-    [ "AttackedBy", "d8/d59/a13596.html#a25bf491c19fe0bb3116c6df46cb370e5", null ],
-    [ "DamageTaken", "d8/d59/a13596.html#a3dbb7abb6559a6f853cc77423d7153e9", null ],
-    [ "JustEngagedWith", "d8/d59/a13596.html#a544b8eaee365217a4a735ed39b4607b2", null ],
-    [ "JustSummoned", "d8/d59/a13596.html#ae468305fbe930baf0a1547f2e6de9953", null ],
-    [ "Reset", "d8/d59/a13596.html#a5aeaa5511584d1095639e7df584019c5", null ],
-    [ "WaypointReached", "d8/d59/a13596.html#a886ba3133f77a93cfae9c4a7e9fb0609", null ],
-    [ "IsFriendSummoned", "d8/d59/a13596.html#a1e4291187ff400e6f326ef4acbff41ee", null ]
+    [ "boss_lord_raadanAI", "d8/d59/a13596.html#aba5e41836a1f666dd2cec379113d9d60", null ],
+    [ "Reset", "d8/d59/a13596.html#a37074e7600a1eca8dc2dd51123c7a2cd", null ],
+    [ "UpdateAI", "d8/d59/a13596.html#a1dd2c16a7b1363ea39ad10bfc51de1a2", null ],
+    [ "flamebreath_timer", "d8/d59/a13596.html#a312a486bbfd2bc0a7c731814f0979df0", null ],
+    [ "thunderclap_timer", "d8/d59/a13596.html#a6dc87fef0ed6cc04249325f1eb4f0de8", null ]
 ];

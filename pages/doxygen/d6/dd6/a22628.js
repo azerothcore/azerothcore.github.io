@@ -1,8 +1,7 @@
 var a22628 =
 [
-    [ "spell_svala_ritual_strike_AuraScript", "d6/d37/a22636.html", "d6/d37/a22636" ],
-    [ "spell_svala_ritual_strike_SpellScript", "da/d0b/a22632.html", "da/d0b/a22632" ],
-    [ "spell_svala_ritual_strike", "d6/dd6/a22628.html#a32c376e05e3442e1198d61c584fb8e71", null ],
-    [ "GetAuraScript", "d6/dd6/a22628.html#a2c35652ad9e1252aba585b8b534890c6", null ],
-    [ "GetSpellScript", "d6/dd6/a22628.html#a494a0e1117a72cacc14dff0be45ae7ce", null ]
+    [ "npc_voidtraveler", "d6/dd6/a22628.html#a07e473c14836a0612acd52078a93f2d8", null ],
+    [ "Reset", "d6/dd6/a22628.html#a6efe0725917c92657220de2b60579289", null ],
+    [ "UpdateAI", "d6/dd6/a22628.html#aaa907fe2f6ef1029a23fd819af0a44c3", null ],
+    [ "_scheduler", "d6/dd6/a22628.html#a1809494e7803103f6bc1698e780dcfbc", null ]
 ];

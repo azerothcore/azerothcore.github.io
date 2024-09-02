@@ -1,8 +1,5 @@
 var a27084 =
 [
-    [ "Absorb", "d2/d17/a27084.html#aecfcbafe098adddba0a73965c447558c", null ],
-    [ "Load", "d2/d17/a27084.html#a1883cb4c86478359dd1ff8df25e2ec65", null ],
-    [ "PrepareAuraScript", "d2/d17/a27084.html#a3a65787dd5b7c1c796b98ce79f180d4d", null ],
-    [ "Register", "d2/d17/a27084.html#ab6bea7d62539841fa21fa8f3c8122707", null ],
-    [ "limit", "d2/d17/a27084.html#abccfd60f40962072c2f720dbe0f34ee4", null ]
+    [ "go_mistwhisper_treasure", "d2/d17/a27084.html#a87c90caa9f6a628cb0eea3556b58449e", null ],
+    [ "OnGossipHello", "d2/d17/a27084.html#a03b6b19faba005ced7ff921fdf8ab493", null ]
 ];

@@ -1,4 +1,4 @@
 var a04478 =
 [
-    [ "CanRollOnItem", "d1/d6c/a04478.html#afbaf3417177da71d9f3c8be9eab09c2b", null ]
+    [ "Acore::String::Trim< std::string >", "d1/d6c/a04478.html#a39e286b6ca47198eba4d5e31cef66aa5", null ]
 ];

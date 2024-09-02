@@ -1,7 +1,6 @@
 var a25712 =
 [
-    [ "CastQuill", "df/d28/a25712.html#a923234809186bcbdf02457f4be095519", null ],
-    [ "Execute", "df/d28/a25712.html#a26a971a575e4b9503cd1da73d43ebd1e", null ],
-    [ "_caster", "df/d28/a25712.html#af809b9279aff141ce4007c8d1fbcc331", null ],
-    [ "_spellId", "df/d28/a25712.html#ad6f7d8eaf69873b0ba57be4189c145cf", null ]
+    [ "HandleDummy", "df/d28/a25712.html#ab146c4026bc8ad129bb3d421891d344b", null ],
+    [ "PrepareSpellScript", "df/d28/a25712.html#aa9743f357b9800ab2990fb584011b0a6", null ],
+    [ "Register", "df/d28/a25712.html#a3ca7b1dd1187fd39e362b3451b246a4c", null ]
 ];

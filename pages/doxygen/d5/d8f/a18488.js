@@ -1,6 +1,6 @@
 var a18488 =
 [
-    [ "spell_putricide_gaseous_bloat_AuraScript", "d6/d50/a18492.html", "d6/d50/a18492" ],
-    [ "spell_putricide_gaseous_bloat", "d5/d8f/a18488.html#a7e525439763854e3b417631f37dfceb9", null ],
-    [ "GetAuraScript", "d5/d8f/a18488.html#afe41715781ccb3627a3f42f21c8711ef", null ]
+    [ "npc_captain_brandonAI", "d6/d50/a18492.html", "d6/d50/a18492" ],
+    [ "npc_captain_brandon", "d5/d8f/a18488.html#ad522dd280882d894b5d32e7c888f2360", null ],
+    [ "GetAI", "d5/d8f/a18488.html#a3d77951d8d9dbc14fad2fd52d84118a3", null ]
 ];

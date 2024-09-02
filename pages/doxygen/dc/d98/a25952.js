@@ -1,6 +1,6 @@
 var a25952 =
 [
-    [ "boss_pathaleon_the_calculatorAI", "d3/d65/a25956.html", "d3/d65/a25956" ],
-    [ "boss_pathaleon_the_calculator", "dc/d98/a25952.html#a751d88669ac69b987c8b4777214a01bf", null ],
-    [ "GetAI", "dc/d98/a25952.html#ab41b7cd5d5e1964ecae47550d0e4b4ea", null ]
+    [ "HandleDummy", "dc/d98/a25952.html#acb433ef020fbd090259ac969a35842ea", null ],
+    [ "PrepareSpellScript", "dc/d98/a25952.html#a9440e067db7bc5c48c973dfd61f1a95e", null ],
+    [ "Register", "dc/d98/a25952.html#a349e674aa5e07f59dc0a0d78a25aa0cd", null ]
 ];

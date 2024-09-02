@@ -1,6 +1,6 @@
 var a17124 =
 [
-    [ "entry", "de/da4/a17124.html#a80e1510436336f4ed17748a06b27178d", null ],
-    [ "pathId", "de/da4/a17124.html#a0b7e499d633e11b314852fb1154ea8e6", null ],
-    [ "startPosition", "de/da4/a17124.html#ac8c0dd74d76778aa2f5948b5c8c5ada4", null ]
+    [ "boss_prince_taldaramAI", "d4/d4b/a17128.html", "d4/d4b/a17128" ],
+    [ "boss_prince_taldaram_icc", "de/da4/a17124.html#abe14f754e1daf597aa2b7d401f337c8d", null ],
+    [ "GetAI", "de/da4/a17124.html#a2a8c89206ab72afc68260f41a246da3b", null ]
 ];

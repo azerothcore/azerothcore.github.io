@@ -1,6 +1,6 @@
 var a18492 =
 [
-    [ "HandleExtraEffect", "d6/d50/a18492.html#a1aaa3754eb3a616b2108578c28923760", null ],
-    [ "PrepareAuraScript", "d6/d50/a18492.html#a07d6acd47c15234dd75dadfef1f2df3f", null ],
-    [ "Register", "d6/d50/a18492.html#a92b6fc7677eae79638fb5db6b643b622", null ]
+    [ "npc_captain_brandonAI", "d6/d50/a18492.html#a1fe09b93be658660ba3c127c142e2ee6", null ],
+    [ "Reset", "d6/d50/a18492.html#a13226b321707eee9faf5f073c81403e4", null ],
+    [ "UpdateAI", "d6/d50/a18492.html#a721f8f7395cd57d4dba74f66ae40169f", null ]
 ];

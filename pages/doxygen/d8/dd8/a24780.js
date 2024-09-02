@@ -1,6 +1,6 @@
 var a24780 =
 [
-    [ "spell_illidari_council_balance_of_power_AuraScript", "d4/dc8/a24784.html", "d4/dc8/a24784" ],
-    [ "spell_illidari_council_balance_of_power", "d8/dd8/a24780.html#a81a22601f4d37f69c02b9e59f0f7ffc7", null ],
-    [ "GetAuraScript", "d8/dd8/a24780.html#a675f1d2a27969c4b87f77132d7946892", null ]
+    [ "CheckProc", "d8/dd8/a24780.html#a68d2d8168e405ea4250e2e43a1a350fa", null ],
+    [ "PrepareAuraScript", "d8/dd8/a24780.html#a9d797e7bc7133f4a626f4352b2fe7141", null ],
+    [ "Register", "d8/dd8/a24780.html#a5b96bb8c2ff456b63bbd200f54294251", null ]
 ];

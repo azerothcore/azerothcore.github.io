@@ -1,6 +1,6 @@
 var a27592 =
 [
-    [ "HandleScriptEffect", "df/de6/a27592.html#a94bbfc928beab8c8f27d84d1c9ab1558", null ],
-    [ "PrepareSpellScript", "df/de6/a27592.html#a479832175a4c77ce0c0a2f3d3f98f08c", null ],
-    [ "Register", "df/de6/a27592.html#aff9efad03d94958c29c84ea3c0d19fdb", null ]
+    [ "X", "df/de6/a27592.html#a55bda49b2eb919415afaf780ca1977de", null ],
+    [ "Y", "df/de6/a27592.html#a0bf22799258050a9b12ddc14bb2b4b11", null ],
+    [ "Z", "df/de6/a27592.html#a7f0ceece775146d825d19a3cd22e5da3", null ]
 ];

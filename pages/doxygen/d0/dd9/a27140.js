@@ -1,7 +1,7 @@
 var a27140 =
 [
-    [ "HandleScript", "d0/dd9/a27140.html#a9fb69011ce5245925eb6a4fd011d18b2", null ],
-    [ "PrepareSpellScript", "d0/dd9/a27140.html#ab9300ff0efc4a36d652a1b56c031dc2f", null ],
-    [ "Register", "d0/dd9/a27140.html#aa0828fa1a3cf75e8222607a4f2fff950", null ],
-    [ "Validate", "d0/dd9/a27140.html#a9469ebca2d40dd2944f2fb7286fc64ff", null ]
+    [ "go_bear_trapAI", "d0/dd9/a27140.html#ad97484d73bcea6a84909004c099eec34", null ],
+    [ "Initialize", "d0/dd9/a27140.html#a89c76f1563f541c572c48f8cf633aa6a", null ],
+    [ "UpdateAI", "d0/dd9/a27140.html#a8901922d736bb0391da5618593ced5c5", null ],
+    [ "_events", "d0/dd9/a27140.html#a59f37a130326818dd922763ae9058fe7", null ]
 ];

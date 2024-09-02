@@ -1,6 +1,7 @@
 var a21708 =
 [
-    [ "npc_ulduar_vx001AI", "d0/dae/a21712.html", "d0/dae/a21712" ],
-    [ "npc_ulduar_vx001", "d1/d05/a21708.html#ae8393c02c94a94b0847e0c7837bc5469", null ],
-    [ "GetAI", "d1/d05/a21708.html#acdab817141b851deb09861230323ee58", null ]
+    [ "CheckCast", "d1/d05/a21708.html#af0eb00a8dbff89d780beb07f3a714fff", null ],
+    [ "HandleScript", "d1/d05/a21708.html#a8128bb2d7588409dae73bed78d5285a7", null ],
+    [ "PrepareSpellScript", "d1/d05/a21708.html#aee17a8a21ec5df027082c6990189dccc", null ],
+    [ "Register", "d1/d05/a21708.html#a2a97265e102e9ce31997d99275b42973", null ]
 ];

@@ -1,18 +1,17 @@
 var a22616 =
 [
-    [ "boss_svalaAI", "d3/dba/a22616.html#a568466d621043157958bea38595d42a8", null ],
-    [ "EnterEvadeMode", "d3/dba/a22616.html#a7808767e79ebe4c5ac784ff7a32874f6", null ],
-    [ "JustDied", "d3/dba/a22616.html#aa85b0d305074d0df887fbb7ba42a3b20", null ],
-    [ "JustEngagedWith", "d3/dba/a22616.html#ae36faacbbd22ddde8d8f25540e583c14", null ],
-    [ "JustSummoned", "d3/dba/a22616.html#ad4bf163bf81dee06bead6f9a8aaa2a3a", null ],
-    [ "KilledUnit", "d3/dba/a22616.html#a440053a21489b6e4691fc4a6e5984908", null ],
-    [ "Reset", "d3/dba/a22616.html#a9c6fca6d70c7c53048b137b7d8cc0861", null ],
-    [ "SetData", "d3/dba/a22616.html#a86f376743055f99c066ad1a7c960b6c7", null ],
-    [ "UpdateAI", "d3/dba/a22616.html#a47b7405bd2fd6789f61172cbacd12fa0", null ],
-    [ "ArthasGUID", "d3/dba/a22616.html#a42e1753c8a66cc292799c890b9177a3e", null ],
-    [ "events", "d3/dba/a22616.html#abe87bb56b844c75dd9b24a4d45c94e7f", null ],
-    [ "events2", "d3/dba/a22616.html#a542d2bc22970ee5835b2e15322dc2e58", null ],
-    [ "instance", "d3/dba/a22616.html#a58f451d373d8336d5b8b38e33a1eeea8", null ],
-    [ "Started", "d3/dba/a22616.html#a5d4b4c94062db7601fdc918f9727e03b", null ],
-    [ "summons", "d3/dba/a22616.html#a3d14b708a8156a6c9025ff92aa3774c4", null ]
+    [ "boss_ambassador_hellmaw", "d3/dba/a22616.html#ae774dfa4379b7321ff194a796c9eb842", null ],
+    [ "AttackStart", "d3/dba/a22616.html#aa072ff0e9ce6e68f3ba0b4e51fb92f04", null ],
+    [ "CanAIAttack", "d3/dba/a22616.html#a35579b31dec1d0c110b459230ee129e4", null ],
+    [ "DoAction", "d3/dba/a22616.html#a3cbd58fb11fe8d297907bb40d69e4ccb", null ],
+    [ "DoMeleeAttackIfReady", "d3/dba/a22616.html#a8dd75d368f0f567561db45e1c53ad785", null ],
+    [ "InitializeAI", "d3/dba/a22616.html#a9b0170a49751def614126265240bb87c", null ],
+    [ "JustDied", "d3/dba/a22616.html#ae0e04500073a4c02c9656b4bcd63be9c", null ],
+    [ "JustEngagedWith", "d3/dba/a22616.html#a9ea9d60b8fa90a228951a38fc2f59325", null ],
+    [ "KilledUnit", "d3/dba/a22616.html#a5f7564ef25a36395cddf4e2c2dbc2dfc", null ],
+    [ "MoveInLineOfSight", "d3/dba/a22616.html#af3949b46f82863af699396729e88928b", null ],
+    [ "PathEndReached", "d3/dba/a22616.html#a46b9b96ec5e4c121d994560e85266dfe", null ],
+    [ "Reset", "d3/dba/a22616.html#a4881f868ac11eb66f3d15b44c94938bf", null ],
+    [ "UpdateAI", "d3/dba/a22616.html#a44dae5d6517e22dd2be399d08fa67a71", null ],
+    [ "isBanished", "d3/dba/a22616.html#a4805244997c42f5791400c5b1f5e6204", null ]
 ];

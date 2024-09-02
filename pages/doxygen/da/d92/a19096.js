@@ -1,7 +1,11 @@
 var a19096 =
 [
-    [ "ChangeDamageAndGrow", "da/d92/a19096.html#a80c257482316a338c63f60ba08b57727", null ],
-    [ "CorrectRange", "da/d92/a19096.html#aee053b79667b1491b4453ee109383db0", null ],
-    [ "PrepareSpellScript", "da/d92/a19096.html#a3361609cf1f5d3348e6ee8e028acf9f2", null ],
-    [ "Register", "da/d92/a19096.html#ad81bc34e922ba418cbedf5065af82c4c", null ]
+    [ "npc_nexus_lordAI", "da/d92/a19096.html#a8d26337fdcd055027a20ea91faf7e01b", null ],
+    [ "AttackStart", "da/d92/a19096.html#a2f56dcac815431c887b95e9c09aec361", null ],
+    [ "JustDied", "da/d92/a19096.html#a828007757a618affad71b955681945cf", null ],
+    [ "JustEngagedWith", "da/d92/a19096.html#acfcf227557b1e212eda385e22ccdb981", null ],
+    [ "UpdateAI", "da/d92/a19096.html#ad7ddb98d2daaed386e713e423de4cac9", null ],
+    [ "events", "da/d92/a19096.html#ad20a56e52b22306ca31406d8defa4aa5", null ],
+    [ "pInstance", "da/d92/a19096.html#a81fae70688bcd8c733ea90b06900503d", null ],
+    [ "timer", "da/d92/a19096.html#a8edb133f7ca01a4aa75345c572a505c7", null ]
 ];

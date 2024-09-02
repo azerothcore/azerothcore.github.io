@@ -1,6 +1,6 @@
 var a19764 =
 [
-    [ "npc_icc_valkyr_heraldAI", "db/d55/a19768.html", "db/d55/a19768" ],
-    [ "npc_icc_valkyr_herald", "df/de5/a19764.html#a9d06e0dec8cb960d34c2089c1c0d8ccb", null ],
-    [ "GetAI", "df/de5/a19764.html#a7537269841d0380d2dc9e4641705acf9", null ]
+    [ "boss_flame_leviathan_overload_deviceAI", "db/d55/a19768.html", "db/d55/a19768" ],
+    [ "boss_flame_leviathan_overload_device", "df/de5/a19764.html#ad00f601170c1af833aadb17eab5d19a8", null ],
+    [ "GetAI", "df/de5/a19764.html#a73988d2b1cfe61d0356ec1f317d90162", null ]
 ];

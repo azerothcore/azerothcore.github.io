@@ -1,10 +1,16 @@
 var a27992 =
 [
-    [ "CheckProc", "df/dec/a27992.html#a787008462dce35eb27deda41301b146d", null ],
-    [ "HandleProc", "df/dec/a27992.html#a5b791c7cb8dae574fef801ce42dc6aa1", null ],
-    [ "Load", "df/dec/a27992.html#a9760351c28f5f9948f0b64ae2ca91c24", null ],
-    [ "PrepareAuraScript", "df/dec/a27992.html#ab3d5e71597c67ec0aed70f7e5d2319ac", null ],
-    [ "Register", "df/dec/a27992.html#aa4ef731870355dc386fcd07c5f19d090", null ],
-    [ "Validate", "df/dec/a27992.html#ad04864f0710262364cf40e071446d87c", null ],
-    [ "_procTarget", "df/dec/a27992.html#a9383231fc71c6239507fdf8765d63f3d", null ]
+    [ "IsContestedGuardFaction", "df/dec/a27992.html#a52d5e1e5b01946a3d6d66158910e9f6d", null ],
+    [ "IsFriendlyTo", "df/dec/a27992.html#ac70cef62b2ec646d593d8742a3c02f08", null ],
+    [ "IsHostileTo", "df/dec/a27992.html#a1aadbf23c1c81a958665d96e5bf76093", null ],
+    [ "IsHostileToPlayers", "df/dec/a27992.html#a349650c7af717e3c67392a0b9d1970e1", null ],
+    [ "IsNeutralToAll", "df/dec/a27992.html#a99cb471bcc9071a3c152266caa4579ae", null ],
+    [ "enemyFaction", "df/dec/a27992.html#ae53f6799be5ae4bf7ab047fd97a4a969", null ],
+    [ "faction", "df/dec/a27992.html#a2cb03ed38c15f6e6db7b556200282541", null ],
+    [ "factionFlags", "df/dec/a27992.html#af20e4983d34c419b4a14c60d8049d9f4", null ],
+    [ "friendFaction", "df/dec/a27992.html#a9c89b58067e28de89cedf2572b5e0e31", null ],
+    [ "friendlyMask", "df/dec/a27992.html#a6842badfb5e7e0ad3a26d250426c64b6", null ],
+    [ "hostileMask", "df/dec/a27992.html#ab395ab86c3e553ea4a9b1ae901c6e7cb", null ],
+    [ "ID", "df/dec/a27992.html#a22657898486c71df39da27b968e405d5", null ],
+    [ "ourMask", "df/dec/a27992.html#a822685376430441eeb85c24fd26473b0", null ]
 ];

@@ -1,5 +1,11 @@
 var a15144 =
 [
-    [ "at_cthun_center", "db/d64/a15144.html#a75cf2b77215e0d50c1c89ec9b522ebc3", null ],
-    [ "OnTrigger", "db/d64/a15144.html#af744df9577e84ab64749076324e574c9", null ]
+    [ "npc_magwinAI", "db/d64/a15144.html#ad4a352dd0c7c6f76e74f110b00ec9053", null ],
+    [ "JustEngagedWith", "db/d64/a15144.html#aea2ab8bf79d6fcc3d2036d160274fab8", null ],
+    [ "Reset", "db/d64/a15144.html#a883ef3cd1b097847de148ccb9bd3e903", null ],
+    [ "sQuestAccept", "db/d64/a15144.html#aafef28bc7879e29d1fa79ec08f58da55", null ],
+    [ "UpdateEscortAI", "db/d64/a15144.html#a34236331be8842a9e2a98036ea382e18", null ],
+    [ "WaypointReached", "db/d64/a15144.html#a7278a3cff406af2ecb3d29c7bf90febc", null ],
+    [ "_events", "db/d64/a15144.html#a32dad2bde92efab7e0f0d16e809df665", null ],
+    [ "_player", "db/d64/a15144.html#ac3d7059ee67abcafa0586f0bed5df9cc", null ]
 ];

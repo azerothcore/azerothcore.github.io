@@ -1,6 +1,5 @@
 var a15552 =
 [
-    [ "npc_bunthen_plainswind", "dc/ddc/a15552.html#ad9b789ad3e958dee4733b142813b6302", null ],
-    [ "OnGossipHello", "dc/ddc/a15552.html#ae2fe8bfb957dd8ea84d2585293c3b6eb", null ],
-    [ "OnGossipSelect", "dc/ddc/a15552.html#a117f28d513ac645b9d3d908d052d2146", null ]
+    [ "go_elune_fire", "dc/ddc/a15552.html#a84d1b8e5a10e57cf717e10e413cb6027", null ],
+    [ "OnGossipHello", "dc/ddc/a15552.html#a31e3cad89090bb7d2933e8758dbb56c4", null ]
 ];

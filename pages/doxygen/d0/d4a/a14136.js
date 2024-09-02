@@ -1,9 +1,6 @@
 var a14136 =
 [
-    [ "CheckCast", "d0/d4a/a14136.html#a02965b55e8efadbd21e5afdd824f1dec", null ],
-    [ "FilterTargets", "d0/d4a/a14136.html#a9638048b4107db116474abf8e18d7760", null ],
-    [ "HandleBeforeHit", "d0/d4a/a14136.html#a3567c72e999ad6ca9db15b4d6ddadafb", null ],
-    [ "HandleScriptEffect", "d0/d4a/a14136.html#a47d6a6c1fcb2b04782e54d3797c1f42c", null ],
-    [ "PrepareSpellScript", "d0/d4a/a14136.html#aab9211291bd9dab8255d94e4eb07bf8e", null ],
-    [ "Register", "d0/d4a/a14136.html#a73e6c9c91dccb309207fa3aeb6bd9d6f", null ]
+    [ "npc_grizzlemaw_cw_triggerAI", "df/d20/a14140.html", "df/d20/a14140" ],
+    [ "npc_grizzlemaw_cw_trigger", "d0/d4a/a14136.html#a4514796784d974ba6de09b5a5d4e5f3b", null ],
+    [ "GetAI", "d0/d4a/a14136.html#a1a834bda866033a3cca4fc4ece447313", null ]
 ];

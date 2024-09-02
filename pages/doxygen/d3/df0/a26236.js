@@ -1,5 +1,5 @@
 var a26236 =
 [
-    [ "creature", "d3/df0/a26236.html#ab4b8f837dbfb42bcbb161f81f846aad9", null ],
-    [ "Timer", "d3/df0/a26236.html#a2be497dc190c1f01f939e12083739882", null ]
+    [ "PrepareSpellScript", "d3/df0/a26236.html#aa2d9d885e55c1685c2ce9cbc5b4d4279", null ],
+    [ "Register", "d3/df0/a26236.html#a721430db1738b255f114483bdddef5e2", null ]
 ];

@@ -1,9 +1,13 @@
 var a21216 =
 [
-    [ "Absorb", "d7/d65/a21216.html#a3b52a917b2cfa7238de514590f9765d2", null ],
-    [ "CalculateAmount", "d7/d65/a21216.html#a6923d1ab706487355688c46a7138e24c", null ],
-    [ "Load", "d7/d65/a21216.html#a50de32f0781a713afa27f38b9f87f351", null ],
-    [ "PrepareAuraScript", "d7/d65/a21216.html#ae093bb68ec776c0791f02e2f2f1e7e0f", null ],
-    [ "Register", "d7/d65/a21216.html#abdb4511065e48994ff89a3c11f627af0", null ],
-    [ "absorbPct", "d7/d65/a21216.html#a8220c184e7cc17517d06a2f9297f154c", null ]
+    [ "boss_toravonAI", "d7/d65/a21216.html#a98474fcfbc56c7850ae054b7489eaa4f", null ],
+    [ "AttackStart", "d7/d65/a21216.html#ac4e2ed28ba7863630cd54c8f6c11455f", null ],
+    [ "JustDied", "d7/d65/a21216.html#ad501bb34a0014be0abc965aae5383e21", null ],
+    [ "JustEngagedWith", "d7/d65/a21216.html#af6a6cfd1ec54546c2e70ea60f871b564", null ],
+    [ "JustSummoned", "d7/d65/a21216.html#a431dafbcc3a6581d771e810a85a92a0b", null ],
+    [ "Reset", "d7/d65/a21216.html#a4af8eb8863e7ee1559bc156b7f28e8d8", null ],
+    [ "UpdateAI", "d7/d65/a21216.html#a97c16b1689cfdb7fa680381964cb272a", null ],
+    [ "events", "d7/d65/a21216.html#ae2a3b691f1580275228204ea8ccaf846", null ],
+    [ "pInstance", "d7/d65/a21216.html#a912bcccd309ccd1f043c5aae633e78fe", null ],
+    [ "summons", "d7/d65/a21216.html#a56ca98fa12190d6d9d459bc5e569ae04", null ]
 ];

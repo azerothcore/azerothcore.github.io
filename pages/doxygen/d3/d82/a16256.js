@@ -1,8 +1,8 @@
 var a16256 =
 [
-    [ "spell_halion_marks_AuraScript", "dd/d91/a16260.html", "dd/d91/a16260" ],
-    [ "spell_halion_marks", "d3/d82/a16256.html#a5363431a277aae3b14aae18ac929f82d", null ],
-    [ "GetAuraScript", "d3/d82/a16256.html#a01b5344b5818228c371a989eda6520b0", null ],
-    [ "_removeSpell", "d3/d82/a16256.html#a34d0e1830abac27b00de642c98589427", null ],
-    [ "_summonSpell", "d3/d82/a16256.html#a42d9b83be5892a5a21a57eebbe77ebca", null ]
+    [ "npc_toc_warlockAI", "d3/d82/a16256.html#a4c4c2f502f00ca48bb7419434d88ea3a", null ],
+    [ "JustSummoned", "d3/d82/a16256.html#a203ef748afaa400aa1f8365b5d7bf6b1", null ],
+    [ "myCanCast", "d3/d82/a16256.html#a62b2df362bc07aa4a9c14cbc63a10e05", null ],
+    [ "UpdateAI", "d3/d82/a16256.html#a554849d02d923439bd810b7d8c242afa", null ],
+    [ "events", "d3/d82/a16256.html#a3b84c70d246bbf5b70ab4dec06c647b3", null ]
 ];

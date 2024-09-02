@@ -1,8 +1,9 @@
 var a15500 =
 [
-    [ "npc_zelfraxAI", "d8/d38/a15500.html#ae11e92eadae61790b4417442358e7d04", null ],
-    [ "AttackStart", "d8/d38/a15500.html#ae76581c9818c85857c8537de59a02fd6", null ],
-    [ "MovementInform", "d8/d38/a15500.html#a95aaa09b8e527a6d93c8679e9c6593eb", null ],
-    [ "MoveToDock", "d8/d38/a15500.html#a8bf3972087ca06af02bd901ed3dc5461", null ],
-    [ "UpdateAI", "d8/d38/a15500.html#aed4265b638cbe95cdab5648ca52150aa", null ]
+    [ "npc_pluckyAI", "d8/d38/a15500.html#a490198dfcf06b04f7ee9a6a5354dec7e", null ],
+    [ "ReceiveEmote", "d8/d38/a15500.html#a4a4a09d6a462011154a8d871562dcaf5", null ],
+    [ "Reset", "d8/d38/a15500.html#a1a6c4a479bbbfced1ad17f2604bdba32", null ],
+    [ "UpdateAI", "d8/d38/a15500.html#a4775a736e3568940c1b92e0cdae4de4b", null ],
+    [ "NormFaction", "d8/d38/a15500.html#afd9c6fccf4c30b4fbc62bfa951665949", null ],
+    [ "ResetTimer", "d8/d38/a15500.html#ac9808c21666cd17b0603e7e67a61d015", null ]
 ];

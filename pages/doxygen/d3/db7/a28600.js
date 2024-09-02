@@ -1,10 +1,12 @@
 var a28600 =
 [
-    [ "CalculateAPAmount", "d3/db7/a28600.html#abba0772c18bf98696dc1f236da79401e", null ],
-    [ "CalculateResistanceAmount", "d3/db7/a28600.html#a2db04d2d4af16e34cb69b71dbcd0c066", null ],
-    [ "CalculateSPAmount", "d3/db7/a28600.html#a4ecc412bb7d5e89a886c9ad4cc562187", null ],
-    [ "CalculateStatAmount", "d3/db7/a28600.html#a9269eee5ef676c466e662305389988f0", null ],
-    [ "HandleEffectApply", "d3/db7/a28600.html#aa818ca9c4e7b1320f97931525faff1c4", null ],
-    [ "PrepareAuraScript", "d3/db7/a28600.html#a5b35686a2ddd761343d811a8472c1c3b", null ],
-    [ "Register", "d3/db7/a28600.html#a9bf7cd6309b4724462b03c1080324f83", null ]
+    [ "Model", "d3/db7/a28600.html#ae102b5fc584185113e89fb7b39a72bd1", null ],
+    [ "~Model", "d3/db7/a28600.html#ad6ebd2062a0b823db841a0b88baac4c0", null ],
+    [ "_unload", "d3/db7/a28600.html#a9b02ed73fa006bc057157b636029ab6f", null ],
+    [ "ConvertToVMAPModel", "d3/db7/a28600.html#ae6fd5d754d9a880359b8afaf50c5753e", null ],
+    [ "open", "d3/db7/a28600.html#a6ed3a71ff468f5acaccc61f5c2c87a0e", null ],
+    [ "filename", "d3/db7/a28600.html#a4c43746e9c460e29cabd1ba2db6ba222", null ],
+    [ "header", "d3/db7/a28600.html#a2f6e66bbf4acc662d73e8fe8e5a0e085", null ],
+    [ "indices", "d3/db7/a28600.html#a3b61d3316481e7b9c38bf50806ebded6", null ],
+    [ "vertices", "d3/db7/a28600.html#a1af9857df4d0e16ab9940846300fa8fe", null ]
 ];

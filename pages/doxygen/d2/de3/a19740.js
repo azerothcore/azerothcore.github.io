@@ -1,6 +1,6 @@
 var a19740 =
 [
-    [ "npc_icc_skybreaker_marksmanAI", "d2/d18/a19744.html", "d2/d18/a19744" ],
-    [ "npc_icc_skybreaker_marksman", "d2/de3/a19740.html#a1d870b78e1acf2d17782265e28698d1c", null ],
-    [ "GetAI", "d2/de3/a19740.html#a374017d37da15705d51ab8edc75683ff", null ]
+    [ "boss_flame_leviathanAI", "d2/d18/a19744.html", "d2/d18/a19744" ],
+    [ "boss_flame_leviathan", "d2/de3/a19740.html#af4fcd38fc7095701c6c31674d849aef4", null ],
+    [ "GetAI", "d2/de3/a19740.html#a3a402b002472bfe4347b512f21654c50", null ]
 ];

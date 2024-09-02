@@ -1,6 +1,6 @@
 var a27048 =
 [
-    [ "CheckProc", "da/de6/a27048.html#a21cda631d861161c370a44a2fd2fd2f7", null ],
-    [ "PrepareAuraScript", "da/de6/a27048.html#a861caa47c502c42fa84d9f9de74df024", null ],
-    [ "Register", "da/de6/a27048.html#ab4275de186b6841a1f424863cb6c128c", null ]
+    [ "boss_taerarAI", "d3/dcc/a27052.html", "d3/dcc/a27052" ],
+    [ "boss_taerar", "da/de6/a27048.html#a100c1b80a50faf93088db870faa21b58", null ],
+    [ "GetAI", "da/de6/a27048.html#ae6615da6ee14c4f7cb3087b4ee5d6246", null ]
 ];

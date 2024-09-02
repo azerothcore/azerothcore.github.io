@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/EasternKingdoms/zone_wetlands.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/GlobalScript.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,105 +105,36 @@ $(document).ready(function(){initNavTree('d5/d32/a01214.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">zone_wetlands.cpp File Reference</div></div>
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">GlobalScript.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">GlobalScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedEscortAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgrMacros.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d41/a13531.html">npc_tapoke_slim_jahn</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d75/a13535.html">npc_tapoke_slim_jahn::npc_tapoke_slim_jahnAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dab/a13539.html">npc_mikhail</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ad5b3ef2d2393f509f0cbf4e70303fab9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a01214.html#ad5b3ef2d2393f509f0cbf4e70303fab9">TapokeSlim</a> { <br />
-&#160;&#160;<a class="el" href="../../d5/d32/a01214.html#ad5b3ef2d2393f509f0cbf4e70303fab9afdacf3720ad6627ab1c120619b4628a2">QUEST_MISSING_DIPLO_PT11</a> = 1249
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d32/a01214.html#ad5b3ef2d2393f509f0cbf4e70303fab9ab05b1ff486cc81800d4e40014eae5576">SPELL_STEALTH</a> = 1785
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d32/a01214.html#ad5b3ef2d2393f509f0cbf4e70303fab9a6cc72f5b401e64cbeb4986e9dc90c779">SPELL_CALL_FRIENDS</a> = 16457
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d32/a01214.html#ad5b3ef2d2393f509f0cbf4e70303fab9afc7e4b6611738777f37002c70bb946c1">NPC_SLIMS_FRIEND</a> = 4971
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d32/a01214.html#ad5b3ef2d2393f509f0cbf4e70303fab9a2853dfe2482cee57da6a01e6bc030bda">NPC_TAPOKE_SLIM_JAHN</a> = 4962
-<br />
- }</td></tr>
-<tr class="separator:ad5b3ef2d2393f509f0cbf4e70303fab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a96be3075a4a99658d93ffe3d69ba369a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a01214.html#a96be3075a4a99658d93ffe3d69ba369a">AddSC_wetlands</a> ()</td></tr>
-<tr class="separator:a96be3075a4a99658d93ffe3d69ba369a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:aab5e9d371cdc72eb5a60f210f00cdc34"><td class="memItemLeft" align="right" valign="top">template class <a class="el" href="../../d1/dd3/a04427.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a01214.html#aab5e9d371cdc72eb5a60f210f00cdc34">ScriptRegistry&lt; GlobalScript &gt;</a></td></tr>
+<tr class="separator:aab5e9d371cdc72eb5a60f210f00cdc34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ad5b3ef2d2393f509f0cbf4e70303fab9" name="ad5b3ef2d2393f509f0cbf4e70303fab9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5b3ef2d2393f509f0cbf4e70303fab9">&#9670;&#160;</a></span>TapokeSlim</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="aab5e9d371cdc72eb5a60f210f00cdc34" name="aab5e9d371cdc72eb5a60f210f00cdc34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab5e9d371cdc72eb5a60f210f00cdc34">&#9670;&#160;</a></span>ScriptRegistry&lt; GlobalScript &gt;</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d5/d32/a01214.html#ad5b3ef2d2393f509f0cbf4e70303fab9">TapokeSlim</a></td>
+          <td class="memname">template class <a class="el" href="../../d1/dd3/a04427.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> <a class="el" href="../../d9/da4/a10112.html">ScriptRegistry</a>&lt; <a class="el" href="../../d1/d7c/a10016.html">GlobalScript</a> &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad5b3ef2d2393f509f0cbf4e70303fab9afdacf3720ad6627ab1c120619b4628a2" name="ad5b3ef2d2393f509f0cbf4e70303fab9afdacf3720ad6627ab1c120619b4628a2"></a>QUEST_MISSING_DIPLO_PT11&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad5b3ef2d2393f509f0cbf4e70303fab9ab05b1ff486cc81800d4e40014eae5576" name="ad5b3ef2d2393f509f0cbf4e70303fab9ab05b1ff486cc81800d4e40014eae5576"></a>SPELL_STEALTH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad5b3ef2d2393f509f0cbf4e70303fab9a6cc72f5b401e64cbeb4986e9dc90c779" name="ad5b3ef2d2393f509f0cbf4e70303fab9a6cc72f5b401e64cbeb4986e9dc90c779"></a>SPELL_CALL_FRIENDS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad5b3ef2d2393f509f0cbf4e70303fab9afc7e4b6611738777f37002c70bb946c1" name="ad5b3ef2d2393f509f0cbf4e70303fab9afc7e4b6611738777f37002c70bb946c1"></a>NPC_SLIMS_FRIEND&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad5b3ef2d2393f509f0cbf4e70303fab9a2853dfe2482cee57da6a01e6bc030bda" name="ad5b3ef2d2393f509f0cbf4e70303fab9a2853dfe2482cee57da6a01e6bc030bda"></a>NPC_TAPOKE_SLIM_JAHN&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   40</span>{</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#ad5b3ef2d2393f509f0cbf4e70303fab9afdacf3720ad6627ab1c120619b4628a2">QUEST_MISSING_DIPLO_PT11</a>    = 1249,</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#ad5b3ef2d2393f509f0cbf4e70303fab9ab05b1ff486cc81800d4e40014eae5576">SPELL_STEALTH</a>               = 1785,</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#ad5b3ef2d2393f509f0cbf4e70303fab9a6cc72f5b401e64cbeb4986e9dc90c779">SPELL_CALL_FRIENDS</a>          = 16457,                    <span class="comment">//summons 1x friend</span></div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#ad5b3ef2d2393f509f0cbf4e70303fab9afc7e4b6611738777f37002c70bb946c1">NPC_SLIMS_FRIEND</a>            = 4971,</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d5/d32/a01214.html#ad5b3ef2d2393f509f0cbf4e70303fab9a2853dfe2482cee57da6a01e6bc030bda">NPC_TAPOKE_SLIM_JAHN</a>        = 4962</div>
-<div class="line"><span class="lineno">   46</span>};</div>
-<div class="ttc" id="aa01214_html_ad5b3ef2d2393f509f0cbf4e70303fab9a2853dfe2482cee57da6a01e6bc030bda"><div class="ttname"><a href="../../d5/d32/a01214.html#ad5b3ef2d2393f509f0cbf4e70303fab9a2853dfe2482cee57da6a01e6bc030bda">NPC_TAPOKE_SLIM_JAHN</a></div><div class="ttdeci">@ NPC_TAPOKE_SLIM_JAHN</div><div class="ttdef"><b>Definition:</b> zone_wetlands.cpp:45</div></div>
-<div class="ttc" id="aa01214_html_ad5b3ef2d2393f509f0cbf4e70303fab9a6cc72f5b401e64cbeb4986e9dc90c779"><div class="ttname"><a href="../../d5/d32/a01214.html#ad5b3ef2d2393f509f0cbf4e70303fab9a6cc72f5b401e64cbeb4986e9dc90c779">SPELL_CALL_FRIENDS</a></div><div class="ttdeci">@ SPELL_CALL_FRIENDS</div><div class="ttdef"><b>Definition:</b> zone_wetlands.cpp:43</div></div>
-<div class="ttc" id="aa01214_html_ad5b3ef2d2393f509f0cbf4e70303fab9ab05b1ff486cc81800d4e40014eae5576"><div class="ttname"><a href="../../d5/d32/a01214.html#ad5b3ef2d2393f509f0cbf4e70303fab9ab05b1ff486cc81800d4e40014eae5576">SPELL_STEALTH</a></div><div class="ttdeci">@ SPELL_STEALTH</div><div class="ttdef"><b>Definition:</b> zone_wetlands.cpp:42</div></div>
-<div class="ttc" id="aa01214_html_ad5b3ef2d2393f509f0cbf4e70303fab9afc7e4b6611738777f37002c70bb946c1"><div class="ttname"><a href="../../d5/d32/a01214.html#ad5b3ef2d2393f509f0cbf4e70303fab9afc7e4b6611738777f37002c70bb946c1">NPC_SLIMS_FRIEND</a></div><div class="ttdeci">@ NPC_SLIMS_FRIEND</div><div class="ttdef"><b>Definition:</b> zone_wetlands.cpp:44</div></div>
-<div class="ttc" id="aa01214_html_ad5b3ef2d2393f509f0cbf4e70303fab9afdacf3720ad6627ab1c120619b4628a2"><div class="ttname"><a href="../../d5/d32/a01214.html#ad5b3ef2d2393f509f0cbf4e70303fab9afdacf3720ad6627ab1c120619b4628a2">QUEST_MISSING_DIPLO_PT11</a></div><div class="ttdeci">@ QUEST_MISSING_DIPLO_PT11</div><div class="ttdef"><b>Definition:</b> zone_wetlands.cpp:41</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a96be3075a4a99658d93ffe3d69ba369a" name="a96be3075a4a99658d93ffe3d69ba369a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96be3075a4a99658d93ffe3d69ba369a">&#9670;&#160;</a></span>AddSC_wetlands()</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_wetlands </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  164</span>{</div>
-<div class="line"><span class="lineno">  165</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/d41/a13531.html">npc_tapoke_slim_jahn</a>();</div>
-<div class="line"><span class="lineno">  166</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/dab/a13539.html">npc_mikhail</a>();</div>
-<div class="line"><span class="lineno">  167</span>}</div>
-<div class="ttc" id="aa13531_html"><div class="ttname"><a href="../../d4/d41/a13531.html">npc_tapoke_slim_jahn</a></div><div class="ttdef"><b>Definition:</b> zone_wetlands.cpp:49</div></div>
-<div class="ttc" id="aa13539_html"><div class="ttname"><a href="../../d6/dab/a13539.html">npc_mikhail</a></div><div class="ttdef"><b>Definition:</b> zone_wetlands.cpp:136</div></div>
-</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -211,8 +142,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ddeb450e5fe586f747c0635391d1d1d6.html">EasternKingdoms</a></li><li class="navelem"><a class="el" href="../../d5/d32/a01214.html">zone_wetlands.cpp</a></li>
-    <li class="footer">Generated on Tue Aug 27 2024 09:59:42 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d5/d32/a01214.html">GlobalScript.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 2 2024 20:38:53 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

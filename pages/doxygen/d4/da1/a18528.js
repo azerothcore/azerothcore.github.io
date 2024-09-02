@@ -1,6 +1,5 @@
 var a18528 =
 [
-    [ "spell_putricide_unbound_plague_dmg_AuraScript", "d0/d12/a18532.html", "d0/d12/a18532" ],
-    [ "spell_putricide_unbound_plague_dmg", "d4/da1/a18528.html#a4335943600e1b5956fae27a01d545ab6", null ],
-    [ "GetAuraScript", "d4/da1/a18528.html#a162ffa548448cc6495133d589ca6d244", null ]
+    [ "npc_alchemist_adrianna", "d4/da1/a18528.html#a310d375bc73c51e407580b063a6543fa", null ],
+    [ "OnGossipHello", "d4/da1/a18528.html#a02ec6a66037d72e30bbe821ceee38691", null ]
 ];

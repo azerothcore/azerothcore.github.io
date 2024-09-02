@@ -1,5 +1,6 @@
 var a22864 =
 [
-    [ "go_vh_activation_crystal", "da/dce/a22864.html#a4af485ac7ab6144282f3204a6d045cea", null ],
-    [ "OnGossipHello", "da/dce/a22864.html#a47a61ba67086580135559332931e9c6e", null ]
+    [ "FilterTargets", "da/dce/a22864.html#a04973145ed594b88afe2acc0cacb10c6", null ],
+    [ "PrepareSpellScript", "da/dce/a22864.html#a90c0513a6dba2f2e6619dd8c77544991", null ],
+    [ "Register", "da/dce/a22864.html#a7c8ca525cd6822d21551331ce37ce5dd", null ]
 ];

@@ -1,9 +1,10 @@
 var a08744 =
 [
-    [ "AnyGroupedUnitInObjectRangeCheck", "d1/d74/a08744.html#a2c775f62eeabcb8af5306cbcedae322e", null ],
-    [ "operator()", "d1/d74/a08744.html#a3c316eacdd1c74c69d8297871f84d7b9", null ],
-    [ "_raid", "d1/d74/a08744.html#a6a9cffd02435913a5d7ee53cd1e8cc0b", null ],
-    [ "_range", "d1/d74/a08744.html#a01b4592ac61d58ff39e5bb2eb1a1b997", null ],
-    [ "_refUnit", "d1/d74/a08744.html#ad083243ef5487aa374b19e3c82b0457c", null ],
-    [ "_source", "d1/d74/a08744.html#a91de967d2376ea96b1fc0838094915cf", null ]
+    [ "Flags", "d1/d74/a08744.html#a5292a64de662f608915844d58199542f", null ],
+    [ "Icon", "d1/d74/a08744.html#ab7460f125e05509baf9331e424b8bacf", null ],
+    [ "ID", "d1/d74/a08744.html#a94b184ecd7c82419fa6d59a59c1d95da", null ],
+    [ "Importance", "d1/d74/a08744.html#a623d8bdc2bf5eea161466340ae8e3cd1", null ],
+    [ "Name", "d1/d74/a08744.html#a45c6eb50f0d56bbdabd6c3b3469c607c", null ],
+    [ "PositionX", "d1/d74/a08744.html#a561763556f1ac77e988c350c37a3a0a1", null ],
+    [ "PositionY", "d1/d74/a08744.html#abec7b2b3e649263f0b963f3fedef60fe", null ]
 ];

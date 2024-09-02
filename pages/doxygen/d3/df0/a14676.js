@@ -1,10 +1,8 @@
 var a14676 =
 [
-    [ "alliance_riflemanAI", "d3/df0/a14676.html#abe3009936942a74a4d9952d2be95d72c", null ],
-    [ "JustDied", "d3/df0/a14676.html#a9f565eac063943519718c1ada1aa5bb5", null ],
-    [ "JustEngagedWith", "d3/df0/a14676.html#ad93d8a1ea26c69134c76fe7d9ea6710c", null ],
-    [ "MoveInLineOfSight", "d3/df0/a14676.html#a890289abd4ff9b39154c62dcde2f5718", null ],
-    [ "Reset", "d3/df0/a14676.html#a4d70551426e46f47399f596e4031a25f", null ],
-    [ "UpdateAI", "d3/df0/a14676.html#afbbf23790494a45cec0db0972dd05dae", null ],
-    [ "ExplodeTimer", "d3/df0/a14676.html#a42ed8e8c1f1e2f96a7238c11f4b48259", null ]
+    [ "Load", "d3/df0/a14676.html#a59e8723d8b73f45075db47e1e09e15fb", null ],
+    [ "PeriodicTick", "d3/df0/a14676.html#ae4761ac3bce02903a7266511d80503f9", null ],
+    [ "PrepareAuraScript", "d3/df0/a14676.html#a7bacc1ebd4b98e5e43b74e13471b2063", null ],
+    [ "Register", "d3/df0/a14676.html#acc4db638e0d858085dc3fb2d6b45f7ec", null ],
+    [ "_ticks", "d3/df0/a14676.html#ab858e9f6505fa32cc7325087d29fee8b", null ]
 ];

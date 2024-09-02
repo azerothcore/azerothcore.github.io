@@ -1,12 +1,13 @@
 var a21048 =
 [
-    [ "npc_freya_wardAI", "d8/dbc/a21048.html#afbc2f3d88173e240b87915cf0520b3cf", null ],
-    [ "DoAction", "d8/dbc/a21048.html#a4c9418b5474eb572a76168d4a460159a", null ],
-    [ "JustSummoned", "d8/dbc/a21048.html#a9075d763014ca50b4e0d2c815e1c23b7", null ],
-    [ "Reset", "d8/dbc/a21048.html#a65d304edd3b00b4a45c58bf36b926900", null ],
-    [ "SummonedCreatureDespawn", "d8/dbc/a21048.html#a6273b024ebde2fb36ed79eb122f7ac68", null ],
-    [ "UpdateAI", "d8/dbc/a21048.html#a11dd073b70e5126f580ec5122dce7bbd", null ],
-    [ "_castTimer", "d8/dbc/a21048.html#a6308aadc8ebf41cf045b04ac58e2244b", null ],
-    [ "_summoned", "d8/dbc/a21048.html#a5df6604055c5f3936a95f8d0ca5be8c1", null ],
-    [ "summons", "d8/dbc/a21048.html#a82932e9f2d570fa6d8394bfd3954c41e", null ]
+    [ "npc_ferocious_rhinoAI", "d8/dbc/a21048.html#ad70d0aeba4b73330c5087bc84a533389", null ],
+    [ "DoAction", "d8/dbc/a21048.html#a10395930fed95fb7809a0b5ffe224c4d", null ],
+    [ "JustDied", "d8/dbc/a21048.html#a2b1af0402dc1b4940534d2e60d7ef33e", null ],
+    [ "JustEngagedWith", "d8/dbc/a21048.html#aab35078fe4518b6647f98e316d02898a", null ],
+    [ "JustReachedHome", "d8/dbc/a21048.html#ab8105d6c8c70037c208c83c13c35242d", null ],
+    [ "MoveInLineOfSight", "d8/dbc/a21048.html#a97e32d32a692f223b96746f3ef1086c5", null ],
+    [ "Reset", "d8/dbc/a21048.html#a6d317407c2de2f954b5dd2a6db137304", null ],
+    [ "UpdateAI", "d8/dbc/a21048.html#a09b80e739e4df6e751c9c2846f3fb999", null ],
+    [ "events", "d8/dbc/a21048.html#af23061de7d8566c7435c2c64c53dff89", null ],
+    [ "m_pInstance", "d8/dbc/a21048.html#a97e00db40792c559dd06327c9960abe4", null ]
 ];

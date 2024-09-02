@@ -1,6 +1,8 @@
 var a25008 =
 [
-    [ "spell_lady_vashj_magic_barrier_AuraScript", "d6/d7e/a25012.html", "d6/d7e/a25012" ],
-    [ "spell_lady_vashj_magic_barrier", "d2/d2b/a25008.html#a3e8fa5d39d34d084895a098f911c2f1f", null ],
-    [ "GetAuraScript", "d2/d2b/a25008.html#ab533be534b1f9316e59d1eceb7860fb4", null ]
+    [ "CheckRequirement", "d2/d2b/a25008.html#ad967ae7e2affa312fa4adbca6e86dd7c", null ],
+    [ "HandleScript", "d2/d2b/a25008.html#aa89b60b2d757ef1ceacebae38aa5d9d9", null ],
+    [ "Load", "d2/d2b/a25008.html#a9dfb5501ad6324a25966af44f233b5fb", null ],
+    [ "PrepareSpellScript", "d2/d2b/a25008.html#ace75db8a6e5628df6e2edba91cd2852f", null ],
+    [ "Register", "d2/d2b/a25008.html#a89d053e0ee793017c74188aac32d99d5", null ]
 ];

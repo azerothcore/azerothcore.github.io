@@ -1,6 +1,6 @@
 var a16464 =
 [
-    [ "npc_black_knight_skeletal_gryphonAI", "d1/dad/a16468.html", "d1/dad/a16468" ],
-    [ "npc_black_knight_skeletal_gryphon", "d9/dcf/a16464.html#a5dc83a92fbe2eb4d6faa30f23a9ac777", null ],
-    [ "GetAI", "d9/dcf/a16464.html#aad244f95877a208b56a2b6544984d724", null ]
+    [ "spell_valkyr_essence_auraAuraScript", "d1/dad/a16468.html", "d1/dad/a16468" ],
+    [ "spell_valkyr_essence", "d9/dcf/a16464.html#ab867f769df26243ad4cdb3aea3abbed7", null ],
+    [ "GetAuraScript", "d9/dcf/a16464.html#ace21eeaab7725a5e04b0a95dc61b1ea6", null ]
 ];

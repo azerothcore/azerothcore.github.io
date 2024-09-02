@@ -1,6 +1,7 @@
 var a21524 =
 [
-    [ "spell_hodir_storm_cloud_AuraScript", "d6/d83/a21528.html", "d6/d83/a21528" ],
-    [ "spell_hodir_storm_cloud", "d3/dc4/a21524.html#ab62d421bbef4e1db1b84248bb4fb53ac", null ],
-    [ "GetAuraScript", "d3/dc4/a21524.html#a23f6a731b448e6fa1d39ceda3bfb1e04", null ]
+    [ "npc_valiance_keep_cannoneerAI", "d3/dc4/a21524.html#a0769e975c5c7ff1cfbfa6089e3e55e3f", null ],
+    [ "Reset", "d3/dc4/a21524.html#a65718076e65b68cae0a54ff4112fdb4b", null ],
+    [ "UpdateAI", "d3/dc4/a21524.html#a75f16f2b028ca341db6e08536be06bfa", null ],
+    [ "uiTimer", "d3/dc4/a21524.html#a0cf5f0413b1cded835252a38e272f835", null ]
 ];

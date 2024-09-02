@@ -1,6 +1,8 @@
 var a22216 =
 [
-    [ "boss_yoggsaron_lich_kingAI", "d6/d73/a22220.html", "d6/d73/a22220" ],
-    [ "boss_yoggsaron_lich_king", "d3/d1f/a22216.html#a1655d608683e90ccafd350204eed2d31", null ],
-    [ "GetAI", "d3/d1f/a22216.html#aa65cd9c9eafba12ae065903868ee5319", null ]
+    [ "AfterRemove", "d3/d1f/a22216.html#a06fd72c7754f34dbc62a99a9ed839302", null ],
+    [ "HandlePeriodic", "d3/d1f/a22216.html#a5aaadeed42e6a3cf1e2216a13c2d3ff9", null ],
+    [ "OnApply", "d3/d1f/a22216.html#a6617555d302923e5e95e7b1c6d8d74d6", null ],
+    [ "PrepareAuraScript", "d3/d1f/a22216.html#a47a6281c42dc9368357cc86912331c77", null ],
+    [ "Register", "d3/d1f/a22216.html#a868c79cda98b97b27b74d46f86cb980a", null ]
 ];

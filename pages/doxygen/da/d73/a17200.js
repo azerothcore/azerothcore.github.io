@@ -1,6 +1,6 @@
 var a17200 =
 [
-    [ "npc_spectral_footmanAI", "d6/de5/a17204.html", "d6/de5/a17204" ],
-    [ "npc_spectral_footman", "da/d73/a17200.html#a300fb06b896d2d08f9e3671422232ad2", null ],
-    [ "GetAI", "da/d73/a17200.html#adbc1b961aba6cefb97dfff3014248735", null ]
+    [ "OnAbsorb", "da/d73/a17200.html#aa6582457cd0502ca263433d04b40b64f", null ],
+    [ "PrepareAuraScript", "da/d73/a17200.html#a0b6916dd3f6172e59edf477f203c85b1", null ],
+    [ "Register", "da/d73/a17200.html#a945ec4037120992e8a2986e7fd2e2c96", null ]
 ];

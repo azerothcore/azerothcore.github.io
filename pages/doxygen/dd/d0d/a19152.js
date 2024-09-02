@@ -1,7 +1,6 @@
 var a19152 =
 [
-    [ "PrepareSpellScript", "dd/d0d/a19152.html#adb3420e44415f1f077c8f4e878a0382a", null ],
-    [ "Register", "dd/d0d/a19152.html#a9971b4554d0e492a906bef4494a6be7c", null ],
-    [ "TriggerHeal", "dd/d0d/a19152.html#a458b294458edfe054bffca5820b59df6", null ],
-    [ "Validate", "dd/d0d/a19152.html#a6685bb34cff8a43a385436ebaefadf74", null ]
+    [ "ChargeRifts", "dd/d0d/a19152.html#aec98a12dec1f2ad98e00d399b0e2a1d5", null ],
+    [ "Execute", "dd/d0d/a19152.html#a8d01bf861d37c25413dc14eee16a2939", null ],
+    [ "_caster", "dd/d0d/a19152.html#a3cbf5f7e26de337dadd9d96a43d728b0", null ]
 ];

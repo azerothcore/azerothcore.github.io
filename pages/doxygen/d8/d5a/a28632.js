@@ -1,5 +1,8 @@
 var a28632 =
 [
-    [ "EarthenPowerTargetSelector", "d8/d5a/a28632.html#a61290afcc621c73682160a4e6a6e0f5d", null ],
-    [ "operator()", "d8/d5a/a28632.html#a9f3d7e7bdb3a3affa72da57903f28940", null ]
+    [ "Color", "d8/d5a/a28632.html#a379e4cf61345dbb4d93da5a8603138c0", null ],
+    [ "NameIndex", "d8/d5a/a28632.html#add893e045d13a3633fd7346457a10477", null ],
+    [ "Position", "d8/d5a/a28632.html#afae9056582e71160c151de2c172bc60a", null ],
+    [ "Rotation", "d8/d5a/a28632.html#a48d372bc1371fa5f94db9aa39669942a", null ],
+    [ "Scale", "d8/d5a/a28632.html#aefacaaf0be0745c95ffc53f410da6e8d", null ]
 ];

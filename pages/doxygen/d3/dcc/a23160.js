@@ -1,6 +1,6 @@
 var a23160 =
 [
-    [ "npc_archmage_landalockAI", "d5/d2d/a23164.html", "d5/d2d/a23164" ],
-    [ "npc_archmage_landalock", "d3/dcc/a23160.html#ac7379ff07740123312af66ead64df4c6", null ],
-    [ "GetAI", "d3/dcc/a23160.html#a92cfa8c2660413681297bfe12815c938", null ]
+    [ "FilterTargets", "d3/dcc/a23160.html#af545460920658bc8ee0444f7c0d51970", null ],
+    [ "PrepareSpellScript", "d3/dcc/a23160.html#a0bf365a43b99905fb7ae8152fe5b2687", null ],
+    [ "Register", "d3/dcc/a23160.html#ac12cde698f5b0bbcdf433821772c7519", null ]
 ];

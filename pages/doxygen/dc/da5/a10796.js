@@ -1,8 +1,10 @@
 var a10796 =
 [
-    [ "CreatureTextId", "dc/da5/a10796.html#ae8058e922bafc69b718ca4be1be39688", null ],
-    [ "operator<", "dc/da5/a10796.html#ae0c693f6cf1959c79e1b3773a2f54db9", null ],
-    [ "entry", "dc/da5/a10796.html#ad69afcf7be87d1f96611fe925b68f26a", null ],
-    [ "textGroup", "dc/da5/a10796.html#af1d1f3f310c219c32ca9b8917d8fb67d", null ],
-    [ "textId", "dc/da5/a10796.html#a5d45808a0b84ca11c8d05c25d26341a2", null ]
+    [ "TriggeredByAuraSpellData", "dc/da5/a10796.html#a3f4704eed73af1e37a3d09434cfcddae", null ],
+    [ "Init", "dc/da5/a10796.html#a782e0056967e006748318af3112c0e43", null ],
+    [ "operator bool", "dc/da5/a10796.html#a85d4782b76b060c172aaa6f914d400da", null ],
+    [ "operator!", "dc/da5/a10796.html#af7290a4c37b1829a98e436486fa8b6cd", null ],
+    [ "effectIndex", "dc/da5/a10796.html#a9bbee8d48d4beb8a21721a10e0380c41", null ],
+    [ "spellInfo", "dc/da5/a10796.html#af58f62fb168e9da7011f7b570f08e977", null ],
+    [ "tickNumber", "dc/da5/a10796.html#afbb1ffd006dc6eb00ccd65add87b1b22", null ]
 ];

@@ -1,6 +1,6 @@
 var a20776 =
 [
-    [ "instance_halls_of_stone_InstanceMapScript", "d6/d61/a20780.html", "d6/d61/a20780" ],
-    [ "instance_halls_of_stone", "d8/df3/a20776.html#ad0237cfaf2e48036f45181fd7746df2b", null ],
-    [ "GetInstanceScript", "d8/df3/a20776.html#a784906c7710a216016101cf7a6a915f3", null ]
+    [ "boss_yoggsaron_lich_kingAI", "d6/d61/a20780.html", "d6/d61/a20780" ],
+    [ "boss_yoggsaron_lich_king", "d8/df3/a20776.html#a1655d608683e90ccafd350204eed2d31", null ],
+    [ "GetAI", "d8/df3/a20776.html#aa65cd9c9eafba12ae065903868ee5319", null ]
 ];

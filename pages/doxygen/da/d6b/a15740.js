@@ -1,7 +1,6 @@
 var a15740 =
 [
-    [ "npc_paoka_swiftmountainAI", "dd/d34/a15744.html", "dd/d34/a15744" ],
-    [ "npc_paoka_swiftmountain", "da/d6b/a15740.html#abb3f6fab7cca158c2e139159430f880a", null ],
-    [ "GetAI", "da/d6b/a15740.html#a3f41d2caae5acb4b79bcc75780db03d2", null ],
-    [ "OnQuestAccept", "da/d6b/a15740.html#a5bd4442350daf5a19bee1037a1b4d7b3", null ]
+    [ "boss_krik_thirAI", "dd/d34/a15744.html", "dd/d34/a15744" ],
+    [ "boss_krik_thir", "da/d6b/a15740.html#ab7001cd05e8e5e371cbd6ee2b25f3522", null ],
+    [ "GetAI", "da/d6b/a15740.html#a10e582440092d5c6558c2a11d60907aa", null ]
 ];

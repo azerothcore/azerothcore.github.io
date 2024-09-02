@@ -1,6 +1,6 @@
 var a26048 =
 [
-    [ "npc_aeranasAI", "d6/d05/a26052.html", "d6/d05/a26052" ],
-    [ "npc_aeranas", "d7/d67/a26048.html#a6ea71481ef6a223a329b805081122537", null ],
-    [ "GetAI", "d7/d67/a26048.html#a81167df6665bdca81ee13468dec19643", null ]
+    [ "HandleDummy", "d7/d67/a26048.html#a1e9ecf50304f5ccd8578befea898bf81", null ],
+    [ "PrepareSpellScript", "d7/d67/a26048.html#a9cf7d1dd37f6df4651ffc83e6aa0b1c0", null ],
+    [ "Register", "d7/d67/a26048.html#a98a5ad12cdb54f48d6014fda3915fd70", null ]
 ];

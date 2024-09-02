@@ -1,5 +1,6 @@
 var a21884 =
 [
-    [ "achievement_quick_shave", "d5/db5/a21884.html#a6c2f1e60d2311922abbaf7e22e1e9e4b", null ],
-    [ "OnCheck", "d5/db5/a21884.html#a151c479da3d4cec05999ad8a249b100c", null ]
+    [ "npc_venture_co_stragglerAI", "da/da0/a21888.html", "da/da0/a21888" ],
+    [ "npc_venture_co_straggler", "d5/db5/a21884.html#a9d928b33dfcd3a6ccb7e1f7a1964762f", null ],
+    [ "GetAI", "d5/db5/a21884.html#a5f95d20c67553ae8a27f00ebb92e3627", null ]
 ];

@@ -1,13 +1,16 @@
 var a14740 =
 [
-    [ "boss_salrammAI", "d2/d55/a14740.html#ae1055878b3919e29d44ee26efcbe044f", null ],
-    [ "ExplodeGhoul", "d2/d55/a14740.html#adc64d8b10b28b98254c528732fff0516", null ],
-    [ "JustDied", "d2/d55/a14740.html#a59bc42afcbb0ed2c2629bd0280836194", null ],
-    [ "JustEngagedWith", "d2/d55/a14740.html#a8d3287cc74cc9d756a879c4ac796f860", null ],
-    [ "JustSummoned", "d2/d55/a14740.html#afd70403a8644f310f37335c6c9bf5b55", null ],
-    [ "KilledUnit", "d2/d55/a14740.html#ad3f4161c0e18c911a931d65e25693cdd", null ],
-    [ "Reset", "d2/d55/a14740.html#a9ddecc950cac3fc392078df2810ec2a2", null ],
-    [ "UpdateAI", "d2/d55/a14740.html#aa2350dc05884593b1361f9f09b8d9392", null ],
-    [ "events", "d2/d55/a14740.html#a55c0bba93a90b5a3770c81b9c4d2fe5b", null ],
-    [ "summons", "d2/d55/a14740.html#a813c09e121730d4ae2e623ac3c37d570", null ]
+    [ "npc_belnistraszAI", "d2/d55/a14740.html#ac57c5de9140d8d37b15b4a30f4ffc0a1", null ],
+    [ "JustDied", "d2/d55/a14740.html#aece63cabcfb2bcf54992dc2b4832ca92", null ],
+    [ "JustEngagedWith", "d2/d55/a14740.html#ab03f29b1f76b7d67e7d7bb3407e2cd41", null ],
+    [ "MovementInform", "d2/d55/a14740.html#ae64e10d0cc860bf033b76538455b9f8e", null ],
+    [ "Reset", "d2/d55/a14740.html#aecf1ef9b7f6eecec9489d27ce41deea2", null ],
+    [ "sQuestAccept", "d2/d55/a14740.html#aa18258b7f80c040d6a5fb9fbbb321efe", null ],
+    [ "UpdateAI", "d2/d55/a14740.html#a45481c2ef18ab3fec727813de96eb1b6", null ],
+    [ "channeling", "d2/d55/a14740.html#a88ff13ec705d11475de5a2080998c905", null ],
+    [ "eventInProgress", "d2/d55/a14740.html#ae9ce796b17c7791d83e949fa406a2b80", null ],
+    [ "eventProgress", "d2/d55/a14740.html#ad32a0387dbf95b6aa40b3311d6ba8348", null ],
+    [ "events", "d2/d55/a14740.html#af9c1f14a7a7b7380e9fb99ecdaf80126", null ],
+    [ "instance", "d2/d55/a14740.html#a61f3bcbf36e630bbb455405eb89ccf00", null ],
+    [ "spawnerCount", "d2/d55/a14740.html#aa5124160ecba044a3752f68945068776", null ]
 ];

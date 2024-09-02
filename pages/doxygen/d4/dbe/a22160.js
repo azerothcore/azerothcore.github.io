@@ -1,6 +1,7 @@
 var a22160 =
 [
-    [ "boss_yoggsaron_crusher_tentacleAI", "df/d03/a22164.html", "df/d03/a22164" ],
-    [ "boss_yoggsaron_crusher_tentacle", "d4/dbe/a22160.html#a9bb0c5535bf98e186d39f235f5786ff0", null ],
-    [ "GetAI", "d4/dbe/a22160.html#a82b6a328197ec81223c1d00dabb79a66", null ]
+    [ "HandleSendEvent", "d4/dbe/a22160.html#afd34935d8ab7d66589ca3c99ba0bfe48", null ],
+    [ "PrepareSpellScript", "d4/dbe/a22160.html#af698a946e07235c18c8b785a1f775ec9", null ],
+    [ "Register", "d4/dbe/a22160.html#a3f6a7e6265221e9536728256f1ec88c0", null ],
+    [ "Validate", "d4/dbe/a22160.html#a72d441fdeb7e2fdc37ab9868f9f8ee04", null ]
 ];

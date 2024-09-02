@@ -1,6 +1,6 @@
 var a16384 =
 [
-    [ "instance_ruby_sanctum_InstanceMapScript", "db/dac/a16388.html", "db/dac/a16388" ],
-    [ "instance_ruby_sanctum", "d1/d78/a16384.html#a9fc9d56cfcd7d0163f25f49e1ed0baeb", null ],
-    [ "GetInstanceScript", "d1/d78/a16384.html#ad0329f328d4be2c475d8bcd5ccefd4e1", null ]
+    [ "HandleScript", "d1/d78/a16384.html#a8d694a38875d940112ff406b84eca6ef", null ],
+    [ "PrepareSpellScript", "d1/d78/a16384.html#a68caa888893ff2aeb7ce0ee5ae28546d", null ],
+    [ "Register", "d1/d78/a16384.html#acd72c6d884a8963318aa73bc520c98c4", null ]
 ];

@@ -1,7 +1,12 @@
 var a14456 =
 [
-    [ "boss_azuregosAI", "df/d14/a14460.html", "df/d14/a14460" ],
-    [ "boss_azuregos", "d9/d4a/a14456.html#a48590db0037870ca5c9425a468e5ea3a", null ],
-    [ "GetAI", "d9/d4a/a14456.html#a3ea1fd967b8ab158a9b2bb5cdd7dcf83", null ],
-    [ "OnGossipSelect", "d9/d4a/a14456.html#a73220e54a3a53931e740f3c53c3bf20c", null ]
+    [ "boss_kazrogal", "d9/d4a/a14456.html#a2b3cc0e99c478c55f907898fbec2b8b2", null ],
+    [ "DoAction", "d9/d4a/a14456.html#a7721debceeefaeb69e71855b8e8742f8", null ],
+    [ "GetMarkRepeatTimer", "d9/d4a/a14456.html#a0b54f8c935d09367d7e6b7dbf6c4ce61", null ],
+    [ "JustDied", "d9/d4a/a14456.html#abc839abddfbb5fb1e1dd3a67e0b661cb", null ],
+    [ "JustEngagedWith", "d9/d4a/a14456.html#a2c0aafd271b2500d32f5add7e75cd990", null ],
+    [ "KilledUnit", "d9/d4a/a14456.html#ab1439114a84d85947106d979f38d12fa", null ],
+    [ "Reset", "d9/d4a/a14456.html#acb9f4ee5d97b43082bf6fc0c424685ab", null ],
+    [ "_markCounter", "d9/d4a/a14456.html#a54ef8b88bf62e260e19a964d1926ef4a", null ],
+    [ "_recentlySpoken", "d9/d4a/a14456.html#ad7401abae1b25d58ed93cc800d75bc26", null ]
 ];

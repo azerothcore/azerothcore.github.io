@@ -1,6 +1,6 @@
 var a20948 =
 [
-    [ "spell_assembly_meltdown_SpellScript", "d9/d71/a20952.html", "d9/d71/a20952" ],
-    [ "spell_assembly_meltdown", "d0/dd6/a20948.html#a4a29a9a6204468b58af685db3fd22d82", null ],
-    [ "GetSpellScript", "d0/dd6/a20948.html#aaad39858e3c6d2720a3ed97eaced4c3f", null ]
+    [ "boss_ingvar_the_plundererAI", "d9/d71/a20952.html", "d9/d71/a20952" ],
+    [ "boss_ingvar_the_plunderer", "d0/dd6/a20948.html#a9e3612be4a81159dee2b883d434d811d", null ],
+    [ "GetAI", "d0/dd6/a20948.html#aa0411c10b875bd1a804a7679f27dbf92", null ]
 ];

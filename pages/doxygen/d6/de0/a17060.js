@@ -1,6 +1,7 @@
 var a17060 =
 [
-    [ "spell_bronjahm_soulstorm_channel_ooc_AuraScript", "da/dce/a17064.html", "da/dce/a17064" ],
-    [ "spell_bronjahm_soulstorm_channel_ooc", "d6/de0/a17060.html#a6b2da64710710d009ca467936e44e82a", null ],
-    [ "GetAuraScript", "d6/de0/a17060.html#a72a24eb36f090bf0bf9713f267b13fc9", null ]
+    [ "HandleScriptEffect", "d6/de0/a17060.html#a6469efa0e1fabaf1cb366f119a1158c1", null ],
+    [ "PrepareSpellScript", "d6/de0/a17060.html#aac410690d906867216b40a49d8f15318", null ],
+    [ "Register", "d6/de0/a17060.html#ae8c7acabe93fc33d13f0b8848415eabf", null ],
+    [ "Validate", "d6/de0/a17060.html#a88c3961d5757dd0c75be4acc7de6e45b", null ]
 ];

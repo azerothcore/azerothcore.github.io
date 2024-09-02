@@ -1,6 +1,7 @@
 var a26492 =
 [
-    [ "npc_pet_dk_dancing_rune_weaponAI", "d5/de2/a26496.html", "d5/de2/a26496" ],
-    [ "npc_pet_dk_dancing_rune_weapon", "da/de9/a26492.html#aaa0881509c2842d6c0442884d0947e28", null ],
-    [ "GetAI", "da/de9/a26492.html#aae11c76fbcf729f44136c53b2b3e0982", null ]
+    [ "HandleEffectPeriodic", "da/de9/a26492.html#abb9ec1dd08954e80cf6dbcacbe44e2ba", null ],
+    [ "PrepareAuraScript", "da/de9/a26492.html#ae151331af09510cc91b63b65a30bdcbf", null ],
+    [ "Register", "da/de9/a26492.html#ac2e23fa8c9cfec9b9689512f3363a56e", null ],
+    [ "Validate", "da/de9/a26492.html#ad5cc7a5aa1164092f267071c82752bb5", null ]
 ];

@@ -1,6 +1,6 @@
 var a20528 =
 [
-    [ "HandleDamageCalc", "d5/d30/a20528.html#a39e5c4207b9f4650ea3f9a9cfc27c5b1", null ],
-    [ "PrepareSpellScript", "d5/d30/a20528.html#a90ea2aaf4255fcacbdcfcc7f26a46fb4", null ],
-    [ "Register", "d5/d30/a20528.html#a8e5f581cf15be75dba3920af8b3ef8d1", null ]
+    [ "boss_thorim_start_npcsAI", "d4/d3d/a20532.html", "d4/d3d/a20532" ],
+    [ "boss_thorim_start_npcs", "d5/d30/a20528.html#a3aa11a487ae00b2e397fd25ed2e42702", null ],
+    [ "GetAI", "d5/d30/a20528.html#a6c529b19d071b4966ccc74b44279cb08", null ]
 ];

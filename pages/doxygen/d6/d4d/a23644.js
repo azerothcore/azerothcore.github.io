@@ -1,6 +1,9 @@
 var a23644 =
 [
-    [ "spell_onslaught_or_call_bone_gryphon_SpellScript", "d6/d0b/a23648.html", "d6/d0b/a23648" ],
-    [ "spell_onslaught_or_call_bone_gryphon", "d6/d4d/a23644.html#a9f651eba94b3728fcd365f1f057fb573", null ],
-    [ "GetSpellScript", "d6/d4d/a23644.html#ae1428bab4a7b267f9b022f99aa7d3f60", null ]
+    [ "boss_dalliah_the_doomsayer", "d6/d4d/a23644.html#ad6edf9623942297b28bc7420ec0cc733", null ],
+    [ "InitializeAI", "d6/d4d/a23644.html#a85342ef80a64ce05f87cf7d90a8bfe79", null ],
+    [ "JustDied", "d6/d4d/a23644.html#a431edc9c25fb125d7d267073eb1c1423", null ],
+    [ "JustEngagedWith", "d6/d4d/a23644.html#a6d3d8d027ddb08417dd11f1606a1418f", null ],
+    [ "KilledUnit", "d6/d4d/a23644.html#af28bfc1166ad45bf7bc046f5906a8b11", null ],
+    [ "Reset", "d6/d4d/a23644.html#a5b4f186225a55afdf1de80b7126d10eb", null ]
 ];

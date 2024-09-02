@@ -1,6 +1,12 @@
 var a23352 =
 [
-    [ "npc_commander_eligor_dawnbringerAI", "d8/de0/a23356.html", "d8/de0/a23356" ],
-    [ "npc_commander_eligor_dawnbringer", "d7/d93/a23352.html#a71d919af98464d6d63f948507f3ff08c", null ],
-    [ "GetAI", "d7/d93/a23352.html#a759b9b1aeb8cce983fe8b6d2f3d9c33d", null ]
+    [ "boss_swamplord_muselek", "d7/d93/a23352.html#a94ca982b8b9c1785a59040d23e72fc0e", null ],
+    [ "AttackStart", "d7/d93/a23352.html#a0732fdf14c972ae955eb43417a6d86a1", null ],
+    [ "CanShootVictim", "d7/d93/a23352.html#af84af5e4b344fc5f5da9f2047519710a", null ],
+    [ "JustDied", "d7/d93/a23352.html#a4020748c43bf03cb338e3d64a1dfd840", null ],
+    [ "JustEngagedWith", "d7/d93/a23352.html#a7b22bff5b78dcd1e5e1cc42858735655", null ],
+    [ "KilledUnit", "d7/d93/a23352.html#a9f2afd6aacb9befa956079a42fbace37", null ],
+    [ "Reset", "d7/d93/a23352.html#a6e03d7feca2de668c82d8f056d95fc6a", null ],
+    [ "_canChase", "d7/d93/a23352.html#aca3298f0e9bbbd7366f4e6456cfff621", null ],
+    [ "_markTarget", "d7/d93/a23352.html#a957d3f9ad935dbfa0537c75e39316ce3", null ]
 ];

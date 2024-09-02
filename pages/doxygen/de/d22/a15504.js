@@ -1,6 +1,6 @@
 var a15504 =
 [
-    [ "spell_ooze_zap_SpellScript", "df/dcb/a15508.html", "df/dcb/a15508" ],
-    [ "spell_ooze_zap", "de/d22/a15504.html#ab92dfd9dbe728e01980083a0d9bee9d8", null ],
-    [ "GetSpellScript", "de/d22/a15504.html#a20d8eb6a204c085398fc383c58a862cb", null ]
+    [ "HandleDummy", "de/d22/a15504.html#a2750ae788168e7496ea2345c5535509c", null ],
+    [ "PrepareSpellScript", "de/d22/a15504.html#a66b4187decbfb0b5623ce5630a8fa9d3", null ],
+    [ "Register", "de/d22/a15504.html#ab6c961d89d22761402eb4f5881cbd318", null ]
 ];

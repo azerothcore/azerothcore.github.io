@@ -1,8 +1,7 @@
 var a21864 =
 [
-    [ "npc_ulduar_dark_rune_guardianAI", "d3/dbd/a21864.html#aedb43124c923621aadecb77511204fc6", null ],
-    [ "CanAIAttack", "d3/dbd/a21864.html#af23cb4a19d28f5aa57ba96de95f87c87", null ],
-    [ "Reset", "d3/dbd/a21864.html#a4c1f53fbbc6189ca9ee0420bc4198684", null ],
-    [ "UpdateAI", "d3/dbd/a21864.html#ad21127654d5511b6b1d9b22cdd77bd08", null ],
-    [ "timer2", "d3/dbd/a21864.html#aa66f1aa48cf928ac12751cb3ca2358f3", null ]
+    [ "npc_tallhorn_stagAI", "d3/dbd/a21864.html#a50947c450eece979193b45728e5e1f82", null ],
+    [ "Reset", "d3/dbd/a21864.html#a67dce7ad60ddea63fcba5e1e2079fa7c", null ],
+    [ "UpdateAI", "d3/dbd/a21864.html#adf60f62fa92238cb315c42e0179c3f17", null ],
+    [ "_phase", "d3/dbd/a21864.html#ace2ac6f418876393d2f6d3457b1bc4c0", null ]
 ];

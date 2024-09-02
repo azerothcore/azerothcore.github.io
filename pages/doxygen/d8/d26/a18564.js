@@ -1,6 +1,7 @@
 var a18564 =
 [
-    [ "spell_putricide_mutated_transformation_SpellScript", "d8/da7/a18568.html", "d8/da7/a18568" ],
-    [ "spell_putricide_mutated_transformation", "d8/d26/a18564.html#a1a7b6a2573e7dff05f14caf096ccaed8", null ],
-    [ "GetSpellScript", "d8/d26/a18564.html#a988f8a37f0954494695febbbaf83bbe3", null ]
+    [ "Land", "d8/d26/a18564.html#ad2fd3d7c81e3ef22cb3767914f649fd0", null ],
+    [ "PrepareSpellScript", "d8/d26/a18564.html#a31e45adb87719c311fb5b94b2b744487", null ],
+    [ "Register", "d8/d26/a18564.html#a652eca6ec8079b2835d911807857c8a8", null ],
+    [ "RemoveAliveTarget", "d8/d26/a18564.html#abdb5f624b30a046eed9ca6ad7c347010", null ]
 ];

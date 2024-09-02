@@ -1,6 +1,7 @@
 var a24948 =
 [
-    [ "boss_fathomlord_karathressAI", "d4/d21/a24952.html", "d4/d21/a24952" ],
-    [ "boss_fathomlord_karathress", "de/d0c/a24948.html#af0a7c24c3c8fd875da5e46e3e4ccfbec", null ],
-    [ "GetAI", "de/d0c/a24948.html#acace3fbd6e51b92d7e1bdf19de041665", null ]
+    [ "HandleScript", "de/d0c/a24948.html#a2e323378559d8f11cbdbcb76e86a25ca", null ],
+    [ "PrepareSpellScript", "de/d0c/a24948.html#ad511986b26dccd1be8206f01458c2b40", null ],
+    [ "Register", "de/d0c/a24948.html#aa8ea297d751913def150dc1e29d37664", null ],
+    [ "Validate", "de/d0c/a24948.html#a81222d8ac4f55175d1dc4d7c359cc331", null ]
 ];

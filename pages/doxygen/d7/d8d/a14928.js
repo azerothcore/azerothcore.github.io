@@ -1,6 +1,9 @@
 var a14928 =
 [
-    [ "instance_razorfen_downs_InstanceMapScript", "de/d84/a14932.html", "de/d84/a14932" ],
-    [ "instance_razorfen_downs", "d7/d8d/a14928.html#a317e5e4ce45fd88c657b8032b377ffb7", null ],
-    [ "GetInstanceScript", "d7/d8d/a14928.html#a5010fc2704c3c699e39bf969f6f6ce2c", null ]
+    [ "npc_giant_eye_tentacle", "d7/d8d/a14928.html#a1adebf586a8a4413bb048936b90ddd3c", null ],
+    [ "JustDied", "d7/d8d/a14928.html#a72cac50a711868256a41c543d0cef3da", null ],
+    [ "JustEngagedWith", "d7/d8d/a14928.html#ac26b16e709e62c429b7ca88815bbc4cd", null ],
+    [ "Reset", "d7/d8d/a14928.html#a4e605a585099d136d8f6bd42b6450f1d", null ],
+    [ "UpdateAI", "d7/d8d/a14928.html#aacae6ea2616af2ad9515167fc1bab61d", null ],
+    [ "_portalGUID", "d7/d8d/a14928.html#af9784b6d00e50ec28ed27361aaf3442f", null ]
 ];

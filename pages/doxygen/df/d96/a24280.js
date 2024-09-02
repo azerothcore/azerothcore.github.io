@@ -1,6 +1,6 @@
 var a24280 =
 [
-    [ "boss_blackheart_the_inciterAI", "d7/de0/a24284.html", "d7/de0/a24284" ],
-    [ "boss_blackheart_the_inciter", "df/d96/a24280.html#a968ac3f57bf6b3429685c7f16f48a346", null ],
-    [ "GetAI", "df/d96/a24280.html#a7b87c57357e3077c2d755e4cb4e9379b", null ]
+    [ "npc_pet_dk_ebon_gargoyleAI", "d7/de0/a24284.html", "d7/de0/a24284" ],
+    [ "npc_pet_dk_ebon_gargoyle", "df/d96/a24280.html#ae4dcaff120a52c20a8b73d97a08604d7", null ],
+    [ "GetAI", "df/d96/a24280.html#a19ff9fd627aab738c91ce23cf6acfffd", null ]
 ];

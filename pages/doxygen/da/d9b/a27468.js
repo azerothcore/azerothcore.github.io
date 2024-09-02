@@ -1,6 +1,7 @@
 var a27468 =
 [
-    [ "CheckCast", "da/d9b/a27468.html#a7fa12be149f0cb2202142d7f44cde0a6", null ],
-    [ "PrepareSpellScript", "da/d9b/a27468.html#ad6867dad8bda358bd1479935c80b82e7", null ],
-    [ "Register", "da/d9b/a27468.html#a0ab2f1f2a87db93e54dc883c4e53d7ba", null ]
+    [ "npc_doctorAI", "de/de4/a27472.html", "de/de4/a27472" ],
+    [ "npc_doctor", "da/d9b/a27468.html#a8471bcd3e83b1a7a69de7bde00846698", null ],
+    [ "GetAI", "da/d9b/a27468.html#a3da4d53b2402ad7338eeb6ea463a62f6", null ],
+    [ "OnQuestAccept", "da/d9b/a27468.html#a990668aee39a9fa6ec90d0f6095ce48a", null ]
 ];

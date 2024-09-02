@@ -1,19 +1,9 @@
 var a26124 =
 [
-    [ "npc_captain_saeedAI", "de/dc4/a26124.html#a794f43bb0e26fffe7bb74cb8fe3a42a6", null ],
-    [ "CorpseRemoved", "de/dc4/a26124.html#aca7fa593af007f1ca0c49156336c0fe3", null ],
-    [ "EnterEvadeMode", "de/dc4/a26124.html#a8e48660d5f0349572bb5d7a760e0afc0", null ],
-    [ "GetData", "de/dc4/a26124.html#a5e9999a3a8dcce054e9f2f5f367318d1", null ],
-    [ "JustDied", "de/dc4/a26124.html#a72e72ced5223360eea3b511de988b2bd", null ],
-    [ "JustEngagedWith", "de/dc4/a26124.html#abbe76c4dbe8292e3ec00cb0f396b7da8", null ],
-    [ "MoveInLineOfSight", "de/dc4/a26124.html#a92e8d7c84407a16d608a163cb8dadc6e", null ],
-    [ "Reset", "de/dc4/a26124.html#aae80afee1e69e188264e04ba12b00682", null ],
-    [ "SetGUID", "de/dc4/a26124.html#a6351c8cab1e99414f49d8f095cae0c7d", null ],
-    [ "SummonsAction", "de/dc4/a26124.html#a7ffef7c2b998062ecc3544b2b8508a4c", null ],
-    [ "UpdateAI", "de/dc4/a26124.html#a2e3fd3ec84807f5b35ba6745c5ca7788", null ],
-    [ "WaypointReached", "de/dc4/a26124.html#a2af760112f66b315ee36ecc2c4205d44", null ],
-    [ "events", "de/dc4/a26124.html#a3e48ae282cea46e17e9558864f87aa3b", null ],
-    [ "fight", "de/dc4/a26124.html#a19f52a735bbd742862a417fb3adb23a2", null ],
-    [ "started", "de/dc4/a26124.html#a30299a3d26b5e6d4ff56b48754f0023c", null ],
-    [ "summons", "de/dc4/a26124.html#a5b82a1e7e182e67338e5aeca3b678ea7", null ]
+    [ "CheckCast", "de/dc4/a26124.html#ad6b60c449d57503508c9a94ca6e919f9", null ],
+    [ "HandleDummy", "de/dc4/a26124.html#a7f79495525687fba6229f48935b2558a", null ],
+    [ "Load", "de/dc4/a26124.html#a0c73457e44a3d64bdccee78d28893672", null ],
+    [ "PrepareSpellScript", "de/dc4/a26124.html#a4826d7b257ee05bfe0d6db3d30a924e9", null ],
+    [ "Register", "de/dc4/a26124.html#ab9f09394ab301350a2abaefde90632fe", null ],
+    [ "Validate", "de/dc4/a26124.html#a9b9d5f862e9910f1a12780ff54b067ca", null ]
 ];

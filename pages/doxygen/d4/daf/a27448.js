@@ -1,9 +1,10 @@
 var a27448 =
 [
-    [ "CheckCast", "d4/daf/a27448.html#a005565dd77de97b5aa04553a1d6a0185", null ],
-    [ "HandleScript", "d4/daf/a27448.html#a7313a3d9840d7dc81e5a894e83cb6347", null ],
-    [ "Load", "d4/daf/a27448.html#aadfc8a873c72e31d65001ce00518ca45", null ],
-    [ "PrepareSpellScript", "d4/daf/a27448.html#a169b60644259855f0614271e4769f6b9", null ],
-    [ "Register", "d4/daf/a27448.html#a9e7f8cbc7ec3de507069b69678005da3", null ],
-    [ "Validate", "d4/daf/a27448.html#a9e69eb36c1a2640ff616ae5744c04f4f", null ]
+    [ "npc_air_force_botsAI", "d4/daf/a27448.html#a062eb272826d52ffd9b72054f970b761", null ],
+    [ "GetSummonedGuard", "d4/daf/a27448.html#ac4f39049ba15caf314939f12b82ccd05", null ],
+    [ "MoveInLineOfSight", "d4/daf/a27448.html#a474231c0ce93b4db0789bcc8f6767c19", null ],
+    [ "Reset", "d4/daf/a27448.html#a016911d354f3b00e2db3e4f3722cda7f", null ],
+    [ "SummonGuard", "d4/daf/a27448.html#a8da57471dfa875f55f52c3d2b068a0f3", null ],
+    [ "SpawnAssoc", "d4/daf/a27448.html#a6f2f7ffd24dd32780c441fd6ce29dfbf", null ],
+    [ "SpawnedGUID", "d4/daf/a27448.html#a3c8ae595a3b4a436c2f94aa84cb9ee56", null ]
 ];

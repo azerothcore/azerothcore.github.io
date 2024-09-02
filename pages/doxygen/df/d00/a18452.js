@@ -1,7 +1,6 @@
 var a18452 =
 [
-    [ "HandleScript", "df/d00/a18452.html#a49e76206519a749bd82463cb5a829621", null ],
-    [ "PrepareSpellScript", "df/d00/a18452.html#a8e53d6d7ccbc4d2ca05c4b97ee3e96aa", null ],
-    [ "Register", "df/d00/a18452.html#a17bc0ca5ca2c9016a652699d515761d3", null ],
-    [ "ScaleRange", "df/d00/a18452.html#a0a277779f0a84453b779d1d349a3ac48", null ]
+    [ "npc_frost_freeze_trapAI", "d4/d59/a18456.html", "d4/d59/a18456" ],
+    [ "npc_frost_freeze_trap", "df/d00/a18452.html#ac58ed2598fd4250f220208a91343f9b8", null ],
+    [ "GetAI", "df/d00/a18452.html#a88ed9aeb0403b3b625c858cd1e44a99f", null ]
 ];

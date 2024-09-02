@@ -1,6 +1,9 @@
 var a24492 =
 [
-    [ "spell_mother_shahraz_beam_periodic_AuraScript", "d0/da9/a24496.html", "d0/da9/a24496" ],
-    [ "spell_mother_shahraz_beam_periodic", "d7/de9/a24492.html#a47f5abbfddf4e49aa1b0b76f10be3adf", null ],
-    [ "GetAuraScript", "d7/de9/a24492.html#ad1c172684c01fbbec3e0d8ca4e1fe8b0", null ]
+    [ "Absorb", "d7/de9/a24492.html#ade7f8805491a627cf3e8accdee178f3e", null ],
+    [ "CalculateAmount", "d7/de9/a24492.html#a1194d2bd96632cbc3eab58300a5f9a46", null ],
+    [ "Load", "d7/de9/a24492.html#a49277dbcc2d7cc79f29226e9b242120b", null ],
+    [ "PrepareAuraScript", "d7/de9/a24492.html#a9eb3dc519bd595b7c0193ae3519c136e", null ],
+    [ "Register", "d7/de9/a24492.html#a730528baddf2087fb1c0898ac7ad76c5", null ],
+    [ "absorbPct", "d7/de9/a24492.html#a58c03a57bdfcba203159ae38683fdf14", null ]
 ];

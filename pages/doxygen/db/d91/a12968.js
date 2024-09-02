@@ -1,6 +1,7 @@
 var a12968 =
 [
-    [ "spell_felmyst_fog_of_corruption_SpellScript", "dc/dd6/a12972.html", "dc/dd6/a12972" ],
-    [ "spell_felmyst_fog_of_corruption", "db/d91/a12968.html#a8f34d3d602c107c4e6c2a966f7d23a8f", null ],
-    [ "GetSpellScript", "db/d91/a12968.html#a7f1c5197bc61dcef718d6eb49792a875", null ]
+    [ "HandleApplyTouch", "db/d91/a12968.html#a2d7866cda1e12ac2e3f843405d618d40", null ],
+    [ "PrepareSpellScript", "db/d91/a12968.html#ae3fb5dbf490ef78d6990e4cd92bf3aa3", null ],
+    [ "Register", "db/d91/a12968.html#a019ea17d4f02a69f331f9adc973a65a5", null ],
+    [ "Validate", "db/d91/a12968.html#ae2a45916c1d5aefbe076e93c25ab23b6", null ]
 ];

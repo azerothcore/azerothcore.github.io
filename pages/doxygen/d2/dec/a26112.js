@@ -1,15 +1,10 @@
 var a26112 =
 [
-    [ "npc_kurenai_captiveAI", "d2/dec/a26112.html#ab8771e4c2cefe3d5dc3e07df2eeb7b96", null ],
-    [ "JustDied", "d2/dec/a26112.html#a0778846d7d67f5d29ed3f7ef02f912f4", null ],
-    [ "JustEngagedWith", "d2/dec/a26112.html#a9e36749629568d7917353bee51be08b8", null ],
-    [ "JustSummoned", "d2/dec/a26112.html#a19a5190b72f78ee698d5fa2df6ac9b4b", null ],
-    [ "Reset", "d2/dec/a26112.html#aea5af2579f9be13620f15b82b5cc8436", null ],
-    [ "SetGUID", "d2/dec/a26112.html#a20edaf98031d7683d07b325c0b89ff69", null ],
-    [ "SpellHitTarget", "d2/dec/a26112.html#a1f0cb1afc62b1b29a71cc04a21c456f0", null ],
-    [ "UpdateEscortAI", "d2/dec/a26112.html#a3d0dfb0df190fe1b32cacb039e611dc3", null ],
-    [ "WaypointReached", "d2/dec/a26112.html#a584bfc3a62f9d856e6d918d8f8694b3e", null ],
-    [ "ChainLightningTimer", "d2/dec/a26112.html#a9aede5daebe0cf90ca2091a052c34282", null ],
-    [ "FrostShockTimer", "d2/dec/a26112.html#a224c2df273f8d032e4302958879ce4d5", null ],
-    [ "HealTimer", "d2/dec/a26112.html#a5a8d15bf6d2fd7a04818ba4535195922", null ]
+    [ "CheckProc", "d2/dec/a26112.html#adce0da60782bcdadbb42ec1c73fddec1", null ],
+    [ "HandleProc", "d2/dec/a26112.html#a82218c6f6319c60c26a7d4ec01b64bf9", null ],
+    [ "Load", "d2/dec/a26112.html#ab9054a6d771022e4bf2b495c30ad8361", null ],
+    [ "PrepareAuraScript", "d2/dec/a26112.html#ab8f483be4d01aa2460c90b043d7a441b", null ],
+    [ "Register", "d2/dec/a26112.html#a4cb08499767ab58f0e525c382b662fbd", null ],
+    [ "Validate", "d2/dec/a26112.html#aa6165f28706d49940dd1f62065631119", null ],
+    [ "_procTarget", "d2/dec/a26112.html#a7b9426e18b454bf631992518c2bdbde0", null ]
 ];

@@ -1,6 +1,6 @@
 var a23568 =
 [
-    [ "npc_llod_genericAI", "d1/de0/a23572.html", "d1/de0/a23572" ],
-    [ "npc_llod_generic", "d4/d75/a23568.html#a97a3957c4881808facf7910e4ae4ffd4", null ],
-    [ "GetAI", "d4/d75/a23568.html#aeb2e7d9de871686e436d1e55f47085a2", null ]
+    [ "PrepareSpellScript", "d4/d75/a23568.html#a5b17110b189b7134939aea9dbf2d724b", null ],
+    [ "Register", "d4/d75/a23568.html#aab0cdddfc5c8188ff246a04035b8b552", null ],
+    [ "SelectRandomPlayer", "d4/d75/a23568.html#a8a2229c61fb2eaaac3b0694008ec3ae1", null ]
 ];

@@ -1,5 +1,6 @@
 var a03884 =
 [
-    [ "SortAuction", "d6/db7/a03884.html#a133d1ac4ff60f0426e9f1472373251fd", null ],
-    [ "AH_MINIMUM_DEPOSIT", "d6/db7/a03884.html#ae6debe42dd0e5674dcf1b874cebafe98", null ]
+    [ "CharacterDatabase", "d6/db7/a03884.html#a7e7534bc66d79434bd280b77cb124eec", null ],
+    [ "LoginDatabase", "d6/db7/a03884.html#a2cf25eafe7f2f73b61ccde11d55daf0c", null ],
+    [ "WorldDatabase", "d6/db7/a03884.html#afa9a6509f9913c9c7dd3081523badd7c", null ]
 ];

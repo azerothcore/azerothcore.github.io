@@ -1,6 +1,7 @@
 var a18408 =
 [
-    [ "AbominationDespawner", "d5/dd9/a18408.html#a3bbf8c5d4e42569ffe993a3c3b8ff95e", null ],
-    [ "operator()", "d5/dd9/a18408.html#a58b8faac1cdffa7230783a1d6439fcfb", null ],
-    [ "_owner", "d5/dd9/a18408.html#af9089e566905b885887a5714ad5b0741", null ]
+    [ "PeriodicTick", "d5/dd9/a18408.html#ac1bace4fc66349364c84b5784967e9bf", null ],
+    [ "PrepareAuraScript", "d5/dd9/a18408.html#a358193e3340112c04f79c043548c3de0", null ],
+    [ "Register", "d5/dd9/a18408.html#a28f52bc253899aa407e67f9a089c815c", null ],
+    [ "Validate", "d5/dd9/a18408.html#a0dde3447e38e45cea94df44449a19a01", null ]
 ];

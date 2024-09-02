@@ -1,8 +1,5 @@
 var a28196 =
 [
-    [ "CalculateAmount", "d5/d40/a28196.html#aa1810db9a7b8fbc3572621ff35e0eeb1", null ],
-    [ "PrepareAuraScript", "d5/d40/a28196.html#ad40d44271840b8e2bd1dc22b6a04290e", null ],
-    [ "ReflectDamage", "d5/d40/a28196.html#ad8b5f9a7952fc33d7e1fee28e4872212", null ],
-    [ "Register", "d5/d40/a28196.html#a18b19ee8823e2d1747caeefaf457ad8d", null ],
-    [ "Validate", "d5/d40/a28196.html#af2936ba4a29fc8735a3cabe805c77355", null ]
+    [ "CastTime", "d5/d40/a28196.html#af0bf895b1a5d61974cb63230b786c55e", null ],
+    [ "ID", "d5/d40/a28196.html#a41b1059fc4059bd198925861a9414497", null ]
 ];

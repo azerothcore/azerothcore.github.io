@@ -1,9 +1,7 @@
 var a28264 =
 [
-    [ "HandleAfterCast", "d2/d83/a28264.html#ac08e632064c407346649f525d030d335", null ],
-    [ "HandleDummy", "d2/d83/a28264.html#a9c1dadd5a3e2e039b50a414ac589ebf4", null ],
-    [ "Load", "d2/d83/a28264.html#a177525c755b036a79263c0fa6fa4082e", null ],
-    [ "PrepareSpellScript", "d2/d83/a28264.html#aed99b07a53068b19bddb4daff3449a52", null ],
-    [ "Register", "d2/d83/a28264.html#a946e56a325d83656d9b43af80d065e45", null ],
-    [ "_triggerSpellId", "d2/d83/a28264.html#a6697a22b684784853cb1999d41fcaaa7", null ]
+    [ "from", "d2/d83/a28264.html#a8e87b02059c2c1e4b1dd2760c99cb004", null ],
+    [ "ID", "d2/d83/a28264.html#a4375feed48ce5ac7291dced992c9bbf4", null ],
+    [ "price", "d2/d83/a28264.html#a44fc4c13d3426fcbc7b1108e513973de", null ],
+    [ "to", "d2/d83/a28264.html#a6b24cdac137b2b8d9472b5d1aca4178f", null ]
 ];

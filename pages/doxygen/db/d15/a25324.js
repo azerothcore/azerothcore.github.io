@@ -1,5 +1,7 @@
 var a25324 =
 [
-    [ "npc_invisible_tractor_beam_source", "db/d15/a25324.html#a78f8adbc578ec005ae3f764e55895dc4", null ],
-    [ "IsSummonedBy", "db/d15/a25324.html#a4a47cd459013a783bb1cf47b6d670fce", null ]
+    [ "HandleScriptEffect", "db/d15/a25324.html#ae3c2900d98c2fd51ff0888ea5d1072c4", null ],
+    [ "PrepareSpellScript", "db/d15/a25324.html#a29ac1789b8023ef3339a7b40ee9c31ab", null ],
+    [ "Register", "db/d15/a25324.html#a321098d2325bfb9cea674d1137348350", null ],
+    [ "Validate", "db/d15/a25324.html#aa16a67bf42f51b838d22dcbe4b5b6f7b", null ]
 ];

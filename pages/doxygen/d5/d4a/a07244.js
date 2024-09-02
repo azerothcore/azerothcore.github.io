@@ -1,11 +1,20 @@
 var a07244 =
 [
-    [ "EnchantId", "d5/d4a/a07244.html#ad68d4f09195ba9c2a74bc9187e1cc1dd", null ],
-    [ "GemEnchantId", "d5/d4a/a07244.html#a680481a1dcc0a163cabeb02e426d89cd", null ],
-    [ "IsBuggedInspectLink", "d5/d4a/a07244.html#a1db96c31b140774302c633e99bcea93f", null ],
-    [ "Item", "d5/d4a/a07244.html#a89b08bf0a3fb31ef6c0f71919b05195e", null ],
-    [ "RandomProperty", "d5/d4a/a07244.html#a07871677ea967da347a6debafa7c91e7", null ],
-    [ "RandomSuffix", "d5/d4a/a07244.html#a39126c77bdd1d3d850a20cf02bb034ae", null ],
-    [ "RandomSuffixBaseAmount", "d5/d4a/a07244.html#aa9a99d071ee623b0df6f456199e1262a", null ],
-    [ "RenderLevel", "d5/d4a/a07244.html#acb1024455a3b847ea13390c05b79cd0c", null ]
+    [ "ChannelMap", "d5/d4a/a07244.html#a84c686f095464d67f750309244a47ba5", null ],
+    [ "ChannelRightsMap", "d5/d4a/a07244.html#a4e153c81aede8182160b0a5ab89e5b4b", null ],
+    [ "ChannelMgr", "d5/d4a/a07244.html#aa671334be6933f374466666ec5c6cc46", null ],
+    [ "~ChannelMgr", "d5/d4a/a07244.html#a2f9099cf528aacae9110d349841e57a7", null ],
+    [ "forTeam", "d5/d4a/a07244.html#a62fd837572c3c88d8848115c98587401", null ],
+    [ "GetChannel", "d5/d4a/a07244.html#a89dbd4095eeeb79ae59947beb2d2cd17", null ],
+    [ "GetChannelRightsFor", "d5/d4a/a07244.html#a5cc03c09dfc33a89d3d4f59d1e92d757", null ],
+    [ "GetJoinChannel", "d5/d4a/a07244.html#a92540d37b38ccc032665fa220349a4ec", null ],
+    [ "LoadChannelRights", "d5/d4a/a07244.html#a4fa043d2c61f5013d62b192d46bd453a", null ],
+    [ "LoadChannels", "d5/d4a/a07244.html#a73e822c758aacb7f959407b100b9aff6", null ],
+    [ "MakeNotOnPacket", "d5/d4a/a07244.html#ae85b95eac40037d5066efa17fb484bc5", null ],
+    [ "SetChannelRightsFor", "d5/d4a/a07244.html#a1d672ab806b5e00bdd96d3a56fe3520b", null ],
+    [ "_channelIdMax", "d5/d4a/a07244.html#a41bbe928d2e50c899a10b4b7da0e1a68", null ],
+    [ "_teamId", "d5/d4a/a07244.html#a1ac5de545c0cb91088176fae883748ed", null ],
+    [ "channelRightsEmpty", "d5/d4a/a07244.html#aecb848ba8e3cfa8ccdb84a1f62a26ab9", null ],
+    [ "channels", "d5/d4a/a07244.html#a823810bd463e51a0fb007712717f13dd", null ],
+    [ "channels_rights", "d5/d4a/a07244.html#adfc7c2e0156b2dc290c1c0f307a6911f", null ]
 ];

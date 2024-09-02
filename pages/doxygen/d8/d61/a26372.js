@@ -1,6 +1,6 @@
 var a26372 =
 [
-    [ "spell_q10923_evil_draws_near_periodic_AuraScript", "da/d26/a26376.html", "da/d26/a26376" ],
-    [ "spell_q10923_evil_draws_near_periodic", "d8/d61/a26372.html#aa4b9a813a30e42b9432205b9f2d86233", null ],
-    [ "GetAuraScript", "d8/d61/a26372.html#a18ebac1d4fb94cd6435049228265a4d0", null ]
+    [ "HandleEffectPeriodic", "d8/d61/a26372.html#ab283b40ceb6dcd0a835550531321ce92", null ],
+    [ "PrepareAuraScript", "d8/d61/a26372.html#a6d6efe0be7cefeb20c386c83dee561d4", null ],
+    [ "Register", "d8/d61/a26372.html#a4c69f350a68c1f4dd429ab52a791f3cd", null ]
 ];

@@ -1,12 +1,14 @@
 var a21256 =
 [
-    [ "boss_freya_elder_stonebarkAI", "d2/d4e/a21256.html#a492329e296aaf29861d76e12e2b94631", null ],
-    [ "DamageTaken", "d2/d4e/a21256.html#af25c675f46f5ca0d0da170f367cc8bdc", null ],
-    [ "JustDied", "d2/d4e/a21256.html#a8dcdf4a1c8df10fc8ca419de924fe136", null ],
-    [ "JustEngagedWith", "d2/d4e/a21256.html#a77a231b75bbbbb56638e1e5535827150", null ],
-    [ "KilledUnit", "d2/d4e/a21256.html#ad1ce26306c2ea2102183b0679d46efd3", null ],
-    [ "Reset", "d2/d4e/a21256.html#a0d17571be8905c4c33ed4591e963d680", null ],
-    [ "UpdateAI", "d2/d4e/a21256.html#acd21050c265f6703060f95f2e3c725f3", null ],
-    [ "_chargesCount", "d2/d4e/a21256.html#a294714a547bbc7a7364c7477bdc0422c", null ],
-    [ "events", "d2/d4e/a21256.html#a07bcbf839c3b0b3924ec1915b47af0f2", null ]
+    [ "boss_erekemAI", "d2/d4e/a21256.html#aedf10fef3f0f2ac6797efa5f5a809f4a", null ],
+    [ "EnterEvadeMode", "d2/d4e/a21256.html#a2c9f8f444b3b28d5cfdbaa234e9d76ee", null ],
+    [ "GetChainHealTargetGUID", "d2/d4e/a21256.html#aa346cbaded883bbb3806acf9cb32579a", null ],
+    [ "JustDied", "d2/d4e/a21256.html#a12e7fb5389977dcacb4e1eadda771467", null ],
+    [ "JustEngagedWith", "d2/d4e/a21256.html#ad380838dbb6c2a3488fa57f2999e137c", null ],
+    [ "KilledUnit", "d2/d4e/a21256.html#a120a2c9a6af821ce9a5e68dbab6e800d", null ],
+    [ "MoveInLineOfSight", "d2/d4e/a21256.html#a5905809cba20d426c4d222b1e91055bc", null ],
+    [ "Reset", "d2/d4e/a21256.html#a338bbc123b1d3adef4f014c3302c4590", null ],
+    [ "UpdateAI", "d2/d4e/a21256.html#a234ae447260ae30a137a53fb986e5dc4", null ],
+    [ "events", "d2/d4e/a21256.html#a8d4445b6d35f534061818f7708f39f7e", null ],
+    [ "pInstance", "d2/d4e/a21256.html#aa68ece744a21ed2ef8d3e7c4b4081d8e", null ]
 ];

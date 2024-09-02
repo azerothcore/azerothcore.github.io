@@ -1,6 +1,6 @@
 var a26452 =
 [
-    [ "npc_mortog_steamhead", "d5/def/a26452.html#a610e23b977016fbc77220e9bbc96f473", null ],
-    [ "OnGossipHello", "d5/def/a26452.html#a32133054bfc5a11f1d8bddd32af7a106", null ],
-    [ "OnGossipSelect", "d5/def/a26452.html#a2ef792744bf43ffea00a5d3171fd4246", null ]
+    [ "HandleSendEvent", "d5/def/a26452.html#a8126102215aa6eedd638b89d1a6b7110", null ],
+    [ "PrepareSpellScript", "d5/def/a26452.html#abc57ba05637e2c51bf2d1fb918a93667", null ],
+    [ "Register", "d5/def/a26452.html#ac37abad48c398bdb22529c1a44327d34", null ]
 ];

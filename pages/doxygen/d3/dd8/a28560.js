@@ -1,7 +1,8 @@
 var a28560 =
 [
-    [ "CalculateAmount", "d3/dd8/a28560.html#aefeab4e58c1b5c1be87f583256d366f5", null ],
-    [ "Load", "d3/dd8/a28560.html#ae2ef0eae77137c120ec61af8698677db", null ],
-    [ "PrepareAuraScript", "d3/dd8/a28560.html#acaecc78c031aa436f432fd7145478de4", null ],
-    [ "Register", "d3/dd8/a28560.html#afd27c8bc5fd1628b7e32bf464bfe3d48", null ]
+    [ "TileConfig", "d3/dd8/a28560.html#a67b10c747fb0d2bc2a263e5009d42e1b", null ],
+    [ "BASE_UNIT_DIM", "d3/dd8/a28560.html#a5a882b0595456ab3fcca85c80af3b6f8", null ],
+    [ "TILES_PER_MAP", "d3/dd8/a28560.html#ae3443f89a8a698823c91096abe51a6a9", null ],
+    [ "VERTEX_PER_MAP", "d3/dd8/a28560.html#a46640a80428b1ab93d65d593c03d13ed", null ],
+    [ "VERTEX_PER_TILE", "d3/dd8/a28560.html#ae0331739074e5546818e13527a76524a", null ]
 ];

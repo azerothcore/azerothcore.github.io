@@ -1,6 +1,10 @@
 var a23860 =
 [
-    [ "npc_freed_protodrakeAI", "d9/df3/a23864.html", "d9/df3/a23864" ],
-    [ "npc_freed_protodrake", "de/d09/a23860.html#a56e33e186800efa3fb86ca6a614e3b0b", null ],
-    [ "GetAI", "de/d09/a23860.html#a9680bf65cb97327396f58c297df1c8f5", null ]
+    [ "boss_nethermancer_sepethrea", "de/d09/a23860.html#aae77446e9a8f2ac41601049d3fe9ffd4", null ],
+    [ "CanAIAttack", "de/d09/a23860.html#a34fbf871d99519306469c010d5fed9c7", null ],
+    [ "EnterEvadeMode", "de/d09/a23860.html#a0ac9dd29b73e8734318851ffd9a09162", null ],
+    [ "JustDied", "de/d09/a23860.html#a2ac13176ebffa245fd9e0ba6173f30cc", null ],
+    [ "JustEngagedWith", "de/d09/a23860.html#a89851b9f6eb94270fe22151d3a968bec", null ],
+    [ "JustSummoned", "de/d09/a23860.html#acf98dbddcd55131cb9cdebe6d319e2c2", null ],
+    [ "KilledUnit", "de/d09/a23860.html#ad9606ca8c1fe6f68f72ec415cc70ef2f", null ]
 ];

@@ -1,8 +1,7 @@
 var a24512 =
 [
-    [ "FilterTargets", "d2/df4/a24512.html#acb326101969ede6b41b2deb995769550", null ],
-    [ "HandleTeleportUnits", "d2/df4/a24512.html#ab2b266f53c83421e7f54fb01bb8aba04", null ],
-    [ "PrepareSpellScript", "d2/df4/a24512.html#a8fc8bfb34758821fffa0eeb625f00de8", null ],
-    [ "Register", "d2/df4/a24512.html#af0f66436b6d108e837abe5be4507d052", null ],
-    [ "SetDest", "d2/df4/a24512.html#a1451ef6f8a16c4dcc4ebba48819c25a6", null ]
+    [ "CorpseExplosionCheck", "d2/df4/a24512.html#aa8b7957705df1d878f5123ffa31a7fd7", null ],
+    [ "operator()", "d2/df4/a24512.html#aeab379880a8d912d6d0f7b41639edbd4", null ],
+    [ "_allowGhoul", "d2/df4/a24512.html#abd42a0731af969ceccdfceae722ba276", null ],
+    [ "_casterGUID", "d2/df4/a24512.html#a497df87745f452716c652e9b1be6d46f", null ]
 ];

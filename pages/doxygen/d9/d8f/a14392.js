@@ -1,5 +1,6 @@
 var a14392 =
 [
-    [ "npc_pilgrims_bounty_plate", "d9/d8f/a14392.html#ac0217b8fb3a0fbf418ce2d3ca286f2eb", null ],
-    [ "SpellHit", "d9/d8f/a14392.html#a7797b7a532336542ef37f0643df8dec0", null ]
+    [ "instance_blackfathom_deeps_InstanceMapScript", "df/d34/a14396.html", "df/d34/a14396" ],
+    [ "instance_blackfathom_deeps", "d9/d8f/a14392.html#a4600a7e6191582c1bee684989a970e0f", null ],
+    [ "GetInstanceScript", "d9/d8f/a14392.html#a62cdab4f3118ab030b4ef55243690f73", null ]
 ];

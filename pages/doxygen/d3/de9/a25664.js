@@ -1,5 +1,8 @@
 var a25664 =
 [
-    [ "modelId", "d3/de9/a25664.html#a6a7f030a6445a46fe55640356e9c5124", null ],
-    [ "spellId", "d3/de9/a25664.html#a6cfbffba97934cc420964f9b6d7645a3", null ]
+    [ "CheckProc", "d3/de9/a25664.html#a8b3f8cf17dda2322d0e9f8f4211cbd20", null ],
+    [ "HandleProc", "d3/de9/a25664.html#ae034bd626880858c9701ed963de993c9", null ],
+    [ "isException", "d3/de9/a25664.html#aa5f4fcd1b9b710e2931460207cfc6dea", null ],
+    [ "PrepareAuraScript", "d3/de9/a25664.html#a50348fd27947f67df03bf4ddbec89cca", null ],
+    [ "Register", "d3/de9/a25664.html#aaa14b34ac54b4caee76ff72d07dd5c2d", null ]
 ];

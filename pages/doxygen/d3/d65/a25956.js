@@ -1,9 +1,12 @@
 var a25956 =
 [
-    [ "boss_pathaleon_the_calculatorAI", "d3/d65/a25956.html#a5acf55c184386b062d16560a12770915", null ],
-    [ "InitializeAI", "d3/d65/a25956.html#aef4ad6f8a8aeaf902df2e0fbced70566", null ],
-    [ "JustDied", "d3/d65/a25956.html#ad9b6caf2ec258195717439edfa166dd4", null ],
-    [ "JustEngagedWith", "d3/d65/a25956.html#a61dde2b37b2d074898b134dcb0c688f7", null ],
-    [ "KilledUnit", "d3/d65/a25956.html#aba2d0dc698e161e5926a85251645e695", null ],
-    [ "UpdateAI", "d3/d65/a25956.html#a9b278c665619e94bf23ddfcdaebc7a71", null ]
+    [ "AfterCheckProc", "d3/d65/a25956.html#ae6ac733a614be543c04b57379b84aaca", null ],
+    [ "CheckProc", "d3/d65/a25956.html#aa533054a5cd434ef3e02767a0a87db62", null ],
+    [ "GetProcSpell", "d3/d65/a25956.html#af9fc6eb0c61c4084307fc2f7fb38973b", null ],
+    [ "HandleAfterEffectProc", "d3/d65/a25956.html#aaa577b07d61ddc6e7af175c76ce63b11", null ],
+    [ "HandleOnEffectProc", "d3/d65/a25956.html#a5bb5345754505cca5f9c840dc5bb9dfb", null ],
+    [ "PrepareAuraScript", "d3/d65/a25956.html#a111821352b6d26f51878ce81b173ef6d", null ],
+    [ "Register", "d3/d65/a25956.html#a9ba0584da94cf51b8cd8fe7da50fc1b0", null ],
+    [ "_chance", "d3/d65/a25956.html#ab644c981163424fbaa05650dc6505ae1", null ],
+    [ "_spell", "d3/d65/a25956.html#a07a855a4806bac873eb40505f805c39f", null ]
 ];

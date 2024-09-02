@@ -1,8 +1,5 @@
 var a27932 =
 [
-    [ "HandleScript", "da/de0/a27932.html#ad99c741ef4bf707ec4b4726a3610d827", null ],
-    [ "Load", "da/de0/a27932.html#ab7aac5c557c76fdd195565a99d746dc9", null ],
-    [ "PrepareSpellScript", "da/de0/a27932.html#abb6e76d537d61b5b38ce4488d230d6de", null ],
-    [ "Register", "da/de0/a27932.html#a2f7e819dfa30f4f0d3645fde9c87408c", null ],
-    [ "Validate", "da/de0/a27932.html#a0767c66cbc288bee6ee0eb3a4fde315f", null ]
+    [ "cinematicCamera", "da/de0/a27932.html#a87e5f6de255dc0c75423eace2768a1dc", null ],
+    [ "Id", "da/de0/a27932.html#a9c3dc0e60728c1c76594385d6860f265", null ]
 ];

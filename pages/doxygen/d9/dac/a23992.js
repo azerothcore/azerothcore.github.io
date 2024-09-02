@@ -1,5 +1,6 @@
 var a23992 =
 [
-    [ "achievement_wg_didnt_stand_a_chance", "d9/dac/a23992.html#afb397c74f00d1f5c59a24ef74b0cd1cd", null ],
-    [ "OnCheck", "d9/dac/a23992.html#ae575bae454689e05c161e8480a13fa18", null ]
+    [ "go_beaconAI", "d9/dac/a23992.html#a95f0f62d4e34da650c22a7ce796fc85f", null ],
+    [ "OnStateChanged", "d9/dac/a23992.html#a10bd78bf6c2451fe95163eb9083bdf44", null ],
+    [ "creatureList", "d9/dac/a23992.html#a8f406b85752e42cc26741aa5a13e69bc", null ]
 ];

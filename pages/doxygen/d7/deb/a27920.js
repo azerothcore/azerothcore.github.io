@@ -1,6 +1,9 @@
 var a27920 =
 [
-    [ "HandleOpenObject", "d7/deb/a27920.html#ab658c13615fac1861470bb4b853e76a4", null ],
-    [ "PrepareSpellScript", "d7/deb/a27920.html#a0fd0a3dc06fc2140add9e3d86e544bef", null ],
-    [ "Register", "d7/deb/a27920.html#a40ff1e10d366ca7183e4e8d027c92d1b", null ]
+    [ "CinematicSequence", "d7/deb/a27920.html#a7a0a35bbb69320565d991f4a349dc01b", null ],
+    [ "ClassID", "d7/deb/a27920.html#a9da8d8d20126e9dc161b1dd64a19fe59", null ],
+    [ "expansion", "d7/deb/a27920.html#a7c57eabd8d94849cd8536b013a8d4138", null ],
+    [ "name", "d7/deb/a27920.html#a2d0b7155b03af29bd982f31eba26ec24", null ],
+    [ "powerType", "d7/deb/a27920.html#a74aec35dc161a7e830453b9365a6f107", null ],
+    [ "spellfamily", "d7/deb/a27920.html#a43fbe48c99e297ea09e9e1f2edd6a4ea", null ]
 ];

@@ -1,13 +1,18 @@
 var a24284 =
 [
-    [ "boss_blackheart_the_inciterAI", "d7/de0/a24284.html#a2eaf8ff8d96971f20d528ecbd18869db", null ],
-    [ "EnterEvadeMode", "d7/de0/a24284.html#a7516d07151bbae3f0f22246214505afd", null ],
-    [ "JustDied", "d7/de0/a24284.html#a09f3a3088e03780773ace6e5da82518e", null ],
-    [ "JustEngagedWith", "d7/de0/a24284.html#adf695044cbd624f8dc7f5478ba2b9d37", null ],
-    [ "KilledUnit", "d7/de0/a24284.html#a532bcac92a5f026a58832e081d61a3e4", null ],
-    [ "Reset", "d7/de0/a24284.html#a7ce1f43c37411d6a19ac81b6a6e8565d", null ],
-    [ "UpdateAI", "d7/de0/a24284.html#a9904aacd7f3c331b391dcd8df99eb520", null ],
-    [ "events", "d7/de0/a24284.html#a4989069362847b01cada59004a10a8ba", null ],
-    [ "InciteChaos", "d7/de0/a24284.html#a3d88eced640baa85e46cd8f997cc7693", null ],
-    [ "instance", "d7/de0/a24284.html#a55b73e947b9bbce57bdeec5f93f20f8a", null ]
+    [ "npc_pet_dk_ebon_gargoyleAI", "d7/de0/a24284.html#a5181a22e0e3b242112095552b6a9a0ab", null ],
+    [ "AttackStart", "d7/de0/a24284.html#a46a5511e57af5f9e5128f922c691fc4f", null ],
+    [ "FlyAway", "d7/de0/a24284.html#a9af7240d389affb09dc8656417d902fa", null ],
+    [ "InitializeAI", "d7/de0/a24284.html#a63e7284a03c4ad3ba2242f5cc61ab33f", null ],
+    [ "MovementInform", "d7/de0/a24284.html#a82b40fd7eeccef8c52cf31dd8d20da9a", null ],
+    [ "MySelectNextTarget", "d7/de0/a24284.html#a67471ffe36c1535f1034a7037f9ae607", null ],
+    [ "RemoveTargetAura", "d7/de0/a24284.html#a2fb3b35fadc56c1bdab31b21785f9b75", null ],
+    [ "Reset", "d7/de0/a24284.html#a0a47ddb3568b8683a109489bdf5a018e", null ],
+    [ "UpdateAI", "d7/de0/a24284.html#ae37e2b9453449eb1e8c629af49b48e82", null ],
+    [ "_despawning", "d7/de0/a24284.html#afd200dfb3b8ceb05ff70c5413cd8a961", null ],
+    [ "_despawnTimer", "d7/de0/a24284.html#ab53127c5db2ccb85d260bdf29a6f714b", null ],
+    [ "_initialCastTimer", "d7/de0/a24284.html#a921dcc19257c708a2f84f515ae5df113", null ],
+    [ "_initialSelection", "d7/de0/a24284.html#aac259fa5c5ca81b8be77cd0c33f58e1f", null ],
+    [ "_selectionTimer", "d7/de0/a24284.html#a3fb591687748bacef72990ecac0ea246", null ],
+    [ "_targetGUID", "d7/de0/a24284.html#af1f5d442840812b4d73f9411226e6925", null ]
 ];

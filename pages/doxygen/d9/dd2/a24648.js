@@ -1,6 +1,7 @@
 var a24648 =
 [
-    [ "PrepareSpellScript", "d9/dd2/a24648.html#aa8b0deb1d8462833aa25acb2a3cc5602", null ],
-    [ "Register", "d9/dd2/a24648.html#ab9f89db75affa5609ea1922ff30e7905", null ],
-    [ "SetDest", "d9/dd2/a24648.html#a62165233197c189486d76e8e53d09756", null ]
+    [ "HandleScriptEffect", "d9/dd2/a24648.html#a3a33f0ec477ff3b4b19fc98760a2dae7", null ],
+    [ "PrepareSpellScript", "d9/dd2/a24648.html#ae29c4f69a34e71011192df12509e2935", null ],
+    [ "Register", "d9/dd2/a24648.html#ae37da44bde25f6bdb5b4a382ab66b7be", null ],
+    [ "Validate", "d9/dd2/a24648.html#af9056c179b8089cf0b304b3ce61ea92f", null ]
 ];

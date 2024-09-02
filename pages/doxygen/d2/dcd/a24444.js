@@ -1,6 +1,6 @@
 var a24444 =
 [
-    [ "spell_illidan_flame_burst_SpellScript", "dd/d63/a24448.html", "dd/d63/a24448" ],
-    [ "spell_illidan_flame_burst", "d2/dcd/a24444.html#a8275945762e5991d82233d27e550c661", null ],
-    [ "GetSpellScript", "d2/dcd/a24444.html#a9796deff45f8f6563c5bb25bab3e3005", null ]
+    [ "HandleSummon", "d2/dcd/a24444.html#a00e265d830ea3e8a0a1952984c438071", null ],
+    [ "PrepareSpellScript", "d2/dcd/a24444.html#a96df13b19964b6e89babb312465b90bc", null ],
+    [ "Register", "d2/dcd/a24444.html#a5341e4ddf1b1ef94099c337114164ba8", null ]
 ];

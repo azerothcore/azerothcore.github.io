@@ -1,6 +1,10 @@
 var a16504 =
 [
-    [ "instance_trial_of_the_champion_InstanceMapScript", "d5/d35/a16508.html", "d5/d35/a16508" ],
-    [ "instance_trial_of_the_champion", "d9/d59/a16504.html#a7b97e3da119a7ad33a87c74647407bd8", null ],
-    [ "GetInstanceScript", "d9/d59/a16504.html#a9227119fc47f38cd82a1fc07c04b0c86", null ]
+    [ "boss_dredAI", "d9/d59/a16504.html#a4ad04fe31990a37fd6d3a23329350248", null ],
+    [ "GetData", "d9/d59/a16504.html#a7a93506d77eaf40c6f7be9e433f211e1", null ],
+    [ "JustEngagedWith", "d9/d59/a16504.html#ae6e1181dcdea763460ca72148abfcb3f", null ],
+    [ "Reset", "d9/d59/a16504.html#a5fe153ab58b1feedce5afa6b10a0d3de", null ],
+    [ "SetData", "d9/d59/a16504.html#a884f48aabc26b054dcd303a91cb88301", null ],
+    [ "UpdateAI", "d9/d59/a16504.html#afc12ced9b5026fe3b297560c30e129ed", null ],
+    [ "_raptorCount", "d9/d59/a16504.html#a95aa63c18d7e1f2dec2491ac4649a378", null ]
 ];

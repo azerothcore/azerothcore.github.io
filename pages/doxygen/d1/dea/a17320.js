@@ -1,6 +1,9 @@
 var a17320 =
 [
-    [ "boss_ickAI", "d6/d28/a17324.html", "d6/d28/a17324" ],
-    [ "boss_ick", "d1/dea/a17320.html#af97d7f96bc48ba245e28c18614b9369e", null ],
-    [ "GetAI", "d1/dea/a17320.html#a355285766712a31b704c23fe85d19e5f", null ]
+    [ "FilterTargetsInitial", "d1/dea/a17320.html#acebf4a9f8c4cdd6111ae816d7c24b00f", null ],
+    [ "FilterTargetsSubsequent", "d1/dea/a17320.html#a11732039155235c287757980129d5a8e", null ],
+    [ "Load", "d1/dea/a17320.html#a467272ccd10ec0aff7ad00a567c0049c", null ],
+    [ "PrepareSpellScript", "d1/dea/a17320.html#a6f97c9c1dc71a87d2a82de646809f063", null ],
+    [ "Register", "d1/dea/a17320.html#a56a4e65df08a95fddde75162358155c2", null ],
+    [ "_target", "d1/dea/a17320.html#abdd93e8e80826c71ead1d9e44aaf865a", null ]
 ];

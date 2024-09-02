@@ -1,7 +1,9 @@
 var a28248 =
 [
-    [ "HandleEffectRemove", "dc/d4d/a28248.html#a814687d3938e966f8721438e1a722f77", null ],
-    [ "PrepareAuraScript", "dc/d4d/a28248.html#a2144b0602501471a4001883ce9de6db3", null ],
-    [ "Register", "dc/d4d/a28248.html#a9d696dc7e58692216fa1cf6cc7c011a9", null ],
-    [ "AuraEffectHandleModes", "dc/d4d/a28248.html#ab291f6c6f269ec7004df39a043f49efd", null ]
+    [ "Category", "dc/d4d/a28248.html#acd933f251a1faa1f705420307136681d", null ],
+    [ "Faction", "dc/d4d/a28248.html#a4876df0f9a92e10634b7bc0b389ade00", null ],
+    [ "Flags", "dc/d4d/a28248.html#a8b41ed573eae71196664a61bac83fe3e", null ],
+    [ "Id", "dc/d4d/a28248.html#ae0b89d5ae5f82b4f807a2f8dbbec351a", null ],
+    [ "Slot", "dc/d4d/a28248.html#a24449c3e3fd89ae3dbe4be3f64248115", null ],
+    [ "Type", "dc/d4d/a28248.html#aa1cbad19aaa973e21fdbd74cec5119f6", null ]
 ];

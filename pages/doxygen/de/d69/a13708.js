@@ -1,8 +1,9 @@
 var a13708 =
 [
-    [ "boss_koraggAI", "de/d69/a13708.html#a775881915da438552ef2249cb08a10fc", null ],
-    [ "Reset", "de/d69/a13708.html#aac902c569f9cb941daed858b67368fdf", null ],
-    [ "UpdateAI", "de/d69/a13708.html#a9032ca8162a12af65007aabd52a8deb9", null ],
-    [ "coldstare_timer", "de/d69/a13708.html#a41e14de5c2b6123962c10cb229589b2e", null ],
-    [ "mightyblow_timer", "de/d69/a13708.html#a0370ce3226c5238c45bd433aa2a0543d", null ]
+    [ "go", "de/d69/a13708.html#ac14168f8c25efe7fa22ec802259b3a11", null ],
+    [ "npc", "de/d69/a13708.html#a04d6e67fa2fb208ca747798ccc53083d", null ],
+    [ "o", "de/d69/a13708.html#ad373b4889544b05525959b21e33e1a87", null ],
+    [ "x", "de/d69/a13708.html#a62ded7186ff0a2718d7f32084e6687e0", null ],
+    [ "y", "de/d69/a13708.html#ac4dbf51ebefdd80ef537ff0ec4297123", null ],
+    [ "z", "de/d69/a13708.html#aa4c6c3ef78633083bd33a13f7a7ace77", null ]
 ];

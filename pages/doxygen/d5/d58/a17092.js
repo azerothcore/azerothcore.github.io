@@ -1,6 +1,7 @@
 var a17092 =
 [
-    [ "spell_wailing_souls_periodic_AuraScript", "df/dd5/a17096.html", "df/dd5/a17096" ],
-    [ "spell_wailing_souls_periodic", "d5/d58/a17092.html#a0a94238eacacc59b92e37c358e0293c7", null ],
-    [ "GetAuraScript", "d5/d58/a17092.html#a2b770aab6874713a135c3ed2b2b65bcc", null ]
+    [ "HandlePeriodic", "d5/d58/a17092.html#a2087e4de62f7aabb72315e92c28c7bd6", null ],
+    [ "PrepareAuraScript", "d5/d58/a17092.html#ab71db011b1cc1f3a2e85cd6b6f115242", null ],
+    [ "Register", "d5/d58/a17092.html#ad8a16d599a11fa4409d132f66e37e04e", null ],
+    [ "Validate", "d5/d58/a17092.html#afe821a7eb4eaf959d803c7c846f3bdf0", null ]
 ];

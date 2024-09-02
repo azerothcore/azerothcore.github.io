@@ -1,7 +1,14 @@
 var a04643 =
 [
-    [ "Model", "d6/d93/a28599.html", "d6/d93/a28599" ],
-    [ "Extract", "da/de7/a04643.html#aaece844099afc9d83362feb37427d5ae", null ],
-    [ "ExtractSet", "da/de7/a04643.html#afd641f15b5ca6e58b68f26ef17a02912", null ],
-    [ "fixCoordSystem", "da/de7/a04643.html#a8d0afbab5641bb7d88196fbad79e4cf1", null ]
+    [ "_CRT_SECURE_NO_DEPRECATE", "da/de7/a04643.html#a411c46599e926f8cdf49c63957255359", null ],
+    [ "isHole", "da/de7/a04643.html#a3a7e248f31dc8d832dc118d469a98bd4", null ],
+    [ "holetab_h", "da/de7/a04643.html#a7424dd5c858116f845a676e31fe5ae5d", null ],
+    [ "holetab_v", "da/de7/a04643.html#a2b1bf69bcdb58ff1605821d486da3acb", null ],
+    [ "MCINMagic", "da/de7/a04643.html#a6f946547b65d321100fd6efa2966180c", null ],
+    [ "MCLQMagic", "da/de7/a04643.html#a35ae9924cb4e3ad0020167b89d5ea86f", null ],
+    [ "MCNKMagic", "da/de7/a04643.html#aa2d85d3b667d3755f6f7a993e60c574b", null ],
+    [ "MCVTMagic", "da/de7/a04643.html#a32010e610a970d3891ae5effca03de37", null ],
+    [ "MFBOMagic", "da/de7/a04643.html#a329d005a0989137286469e197dc0c812", null ],
+    [ "MH2OMagic", "da/de7/a04643.html#aaeaf747e4bc5c25257f9e0ef1153b5a7", null ],
+    [ "MHDRMagic", "da/de7/a04643.html#ac97bd684dd5bacba0e790f355a3bdddf", null ]
 ];

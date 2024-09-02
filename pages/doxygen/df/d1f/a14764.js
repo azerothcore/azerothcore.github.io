@@ -1,6 +1,7 @@
 var a14764 =
 [
-    [ "npc_crate_helperAI", "df/d1f/a14764.html#ad58a2f3746da7862658fb3b9e1580836", null ],
-    [ "SpellHit", "df/d1f/a14764.html#a785bb6fdb254a050a5c5e3e9df49a850", null ],
-    [ "_marked", "df/d1f/a14764.html#a0e718e519af661b73ed7bcd87ffbea32", null ]
+    [ "npc_hive_zara_larva", "df/d1f/a14764.html#a50fb5738d7b0818689216fee0915a0de", null ],
+    [ "JustSummoned", "df/d1f/a14764.html#a2a1d80f70ae265b1db50e3a7165fa099", null ],
+    [ "MovementInform", "df/d1f/a14764.html#a6890c58106450d654062f548a80cb42f", null ],
+    [ "_instance", "df/d1f/a14764.html#aa8333a25c0e184dd75db580b03ef9cb2", null ]
 ];

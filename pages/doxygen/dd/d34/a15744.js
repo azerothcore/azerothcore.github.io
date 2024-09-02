@@ -1,7 +1,15 @@
 var a15744 =
 [
-    [ "npc_paoka_swiftmountainAI", "dd/d34/a15744.html#a92a229f76de3bc46ae14910439db0004", null ],
-    [ "DoSpawnWyvern", "dd/d34/a15744.html#a7997a3d398db82c205e3a8af77ac1684", null ],
-    [ "Reset", "dd/d34/a15744.html#acae0427957aba04a54e6001823bc7eb4", null ],
-    [ "WaypointReached", "dd/d34/a15744.html#a262781c90fe1b5a5af2c6f94e4cc52e2", null ]
+    [ "boss_krik_thirAI", "dd/d34/a15744.html#a92a2b2089c890901cd438c8d8ea432c7", null ],
+    [ "GetData", "dd/d34/a15744.html#adcca5f21a596ffae3c50f102c4698c4e", null ],
+    [ "JustDied", "dd/d34/a15744.html#ab4a576f9746f7ade8f6b8f8c08795433", null ],
+    [ "JustEngagedWith", "dd/d34/a15744.html#aa99c241641fc7e94412d08bebed07475", null ],
+    [ "JustSummoned", "dd/d34/a15744.html#afff556f4bc00b87b3d2a37ffbf54c919", null ],
+    [ "KilledUnit", "dd/d34/a15744.html#aad554ec61a0c6ad9cedf6d7d1b33ed1d", null ],
+    [ "MoveInLineOfSight", "dd/d34/a15744.html#a6c72cebac0e09f66bf0a60cdc328aa4d", null ],
+    [ "Reset", "dd/d34/a15744.html#a613441fcb7bd851a03729be84d27650c", null ],
+    [ "SummonedCreatureDies", "dd/d34/a15744.html#acb7b45fbe3a736ad65b0a2556ead40ae", null ],
+    [ "UpdateAI", "dd/d34/a15744.html#ae37227df78ad9ffb9722caa0c16ffa5f", null ],
+    [ "_initTalk", "dd/d34/a15744.html#a68a4994c750979b91e46160b0cba77b4", null ],
+    [ "events2", "dd/d34/a15744.html#a8f706239d33861105a37476eecb977ec", null ]
 ];

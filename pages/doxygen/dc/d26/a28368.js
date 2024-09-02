@@ -1,7 +1,9 @@
 var a28368 =
 [
-    [ "HandleDummy", "dc/d26/a28368.html#ad2367c1fd551187b6f19f795abb15ea6", null ],
-    [ "PrepareSpellScript", "dc/d26/a28368.html#a125f7550ce826f74ac14902bc82d5021", null ],
-    [ "Register", "dc/d26/a28368.html#a35e9132e2414383caafbde699de6061d", null ],
-    [ "Validate", "dc/d26/a28368.html#a530489a10287a6dd281d518683b1a3f3", null ]
+    [ "flags", "dc/d26/a28368.html#a064de2e88c563121bbb78549a7bab868", null ],
+    [ "_flags", "dc/d26/a28368.html#a16f1b30a57eb6703e8073ef55d988391", null ],
+    [ "bits", "dc/d26/a28368.html#a529f1856635132646457c57f3546f4ec", null ],
+    [ "configKey", "dc/d26/a28368.html#af14d118016b9e01612769c00f13aa2d6", null ],
+    [ "oldKey", "dc/d26/a28368.html#a29605b536523f6d022bbac0e12d1d8dc", null ],
+    [ "owner", "dc/d26/a28368.html#a24aaa1c473c3932c83dd49aad84f8361", null ]
 ];

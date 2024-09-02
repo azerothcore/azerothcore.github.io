@@ -1,14 +1,13 @@
 var a15340 =
 [
-    [ "npc_draenei_survivorAI", "d7/d6b/a15340.html#a8766dcf9afd6d26d619bead82b549a8f", null ],
-    [ "JustEngagedWith", "d7/d6b/a15340.html#a6d0b790ad7466b14bf0bba0aa37eebf2", null ],
-    [ "MoveInLineOfSight", "d7/d6b/a15340.html#a2b3f0a595fde04ad1e054331a596e225", null ],
-    [ "Reset", "d7/d6b/a15340.html#a3db19a846ce3b4810321eb02d314633f", null ],
-    [ "SpellHit", "d7/d6b/a15340.html#a079789d2f6a03b1c7b0ac7dc43a2550a", null ],
-    [ "UpdateAI", "d7/d6b/a15340.html#aa3fd8e3747fa69b5156e932fddaf6fa7", null ],
-    [ "CanSayHelp", "d7/d6b/a15340.html#a6bf8c4eb06fe661da0c850424843bd42", null ],
-    [ "pCaster", "d7/d6b/a15340.html#a35ad8350e51fd520b75cd0289f19cb09", null ],
-    [ "RunAwayTimer", "d7/d6b/a15340.html#a233885b12615bfbc927d8845d0cff3fd", null ],
-    [ "SayHelpTimer", "d7/d6b/a15340.html#a8d77b110c6af6615d5d39e0870cbe890", null ],
-    [ "SayThanksTimer", "d7/d6b/a15340.html#a4f2d829af97d6fb5ef13e3922ebe99e8", null ]
+    [ "npc_shenthulAI", "d7/d6b/a15340.html#ae056474022c27be5565bf018a1b56f0b", null ],
+    [ "JustEngagedWith", "d7/d6b/a15340.html#acb202ef530bc11ea807f580ff5dfc621", null ],
+    [ "ReceiveEmote", "d7/d6b/a15340.html#ab2ddc3e447b36cb0fceffdaff0fca592", null ],
+    [ "Reset", "d7/d6b/a15340.html#af077e96eb8bf89af2d6eb79907444a17", null ],
+    [ "UpdateAI", "d7/d6b/a15340.html#a2ae643c11c6ea3808be922de96a24e8f", null ],
+    [ "CanEmote", "d7/d6b/a15340.html#a920209c374e611e96347d209337c044f", null ],
+    [ "CanTalk", "d7/d6b/a15340.html#a82ea8d2ee50538135add120be7616f86", null ],
+    [ "PlayerGUID", "d7/d6b/a15340.html#a4b262388aca789d19231426a8cb73379", null ],
+    [ "ResetTimer", "d7/d6b/a15340.html#a475a141d639f0136ac943e6afb1ecd15", null ],
+    [ "SaluteTimer", "d7/d6b/a15340.html#ae76b4bbde77b6029a788abfbbbe84df8", null ]
 ];

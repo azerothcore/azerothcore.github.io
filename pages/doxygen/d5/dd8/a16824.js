@@ -1,6 +1,5 @@
 var a16824 =
 [
-    [ "boss_fjolaAI", "d9/df5/a16828.html", "d9/df5/a16828" ],
-    [ "boss_fjola", "d5/dd8/a16824.html#a44baccf91ab8c8bc5d5a9d0aa8ef943f", null ],
-    [ "GetAI", "d5/dd8/a16824.html#a96d9ea0716199758b60ad933ade28de4", null ]
+    [ "at_hor_battered_hilt_throw", "d5/dd8/a16824.html#a857812bd67ee2e62c5e450fae591cd9d", null ],
+    [ "OnTrigger", "d5/dd8/a16824.html#a30c72b4dc7e48fc87374cbfc2cdf0f50", null ]
 ];

@@ -1,6 +1,9 @@
 var a19196 =
 [
-    [ "npc_strangulate_vehicleAI", "d8/d57/a19200.html", "d8/d57/a19200" ],
-    [ "npc_strangulate_vehicle", "db/df0/a19196.html#a04532bc5902af45b1e9c76cf1cec9add", null ],
-    [ "GetAI", "db/df0/a19196.html#aa5813442234d7b18fc4e7ed44a0b30bc", null ]
+    [ "HandleApply", "db/df0/a19196.html#a29679ed64fc288dc0e85beed2971d4be", null ],
+    [ "HandleRemove", "db/df0/a19196.html#a1f1c3e0ea24174605a7be8fa02e30518", null ],
+    [ "Load", "db/df0/a19196.html#a0b5d70a7a9bf27696295ccbbffd2a8b9", null ],
+    [ "PrepareAuraScript", "db/df0/a19196.html#a2804f25643e59f3922291abcb055b641", null ],
+    [ "Register", "db/df0/a19196.html#a711b5744770d0c9fb5aacb550f2384fa", null ],
+    [ "Validate", "db/df0/a19196.html#aa239a693db5fa38ac260a37b25e0e6d9", null ]
 ];

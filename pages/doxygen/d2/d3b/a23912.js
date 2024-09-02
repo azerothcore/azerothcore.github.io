@@ -1,6 +1,6 @@
 var a23912 =
 [
-    [ "npc_wg_queueAI", "d2/d3b/a23912.html#a3760738d61b6148042fc30bd96b88fdc", null ],
-    [ "UpdateAI", "d2/d3b/a23912.html#a2e5f19a0f01eeb3d1585c7b02f2073b2", null ],
-    [ "events", "d2/d3b/a23912.html#ab0eb949272e48120cff1c3df27ad8e92", null ]
+    [ "npc_daranelleAI", "dc/dc8/a23916.html", "dc/dc8/a23916" ],
+    [ "npc_daranelle", "d2/d3b/a23912.html#a0a6e26b95d6d97821bc9e0c00b205704", null ],
+    [ "GetAI", "d2/d3b/a23912.html#ad2ba5e4dfded886acaf2f9821e15738d", null ]
 ];

@@ -1,5 +1,6 @@
 var a19660 =
 [
-    [ "at_icc_saurfang_portal", "d2/dc1/a19660.html#a7f30058251c520634a0b7bad08380e5d", null ],
-    [ "OnTrigger", "d2/dc1/a19660.html#a8980fe0e67aa33335f0fdb947a294213", null ]
+    [ "boss_runemaster_molgeimAI", "dc/de0/a19664.html", "dc/de0/a19664" ],
+    [ "boss_runemaster_molgeim", "d2/dc1/a19660.html#a440e4e43b941ac2b956c7c586a95f991", null ],
+    [ "GetAI", "d2/dc1/a19660.html#a080e70913be1e6ad9521bab5b90a92a6", null ]
 ];

@@ -1,14 +1,20 @@
 var a24152 =
 [
-    [ "OPvPCapturePointTF", "d4/dae/a24152.html#af71fd9e2b7cdfa8c4a352bb5f4ce3d33", null ],
-    [ "ChangeState", "d4/dae/a24152.html#aa1e2611ef1b260ab363fd2645de142b0", null ],
-    [ "FillInitialWorldStates", "d4/dae/a24152.html#ad8ec5b055da6a7d34b8db0e8a75e65c8", null ],
-    [ "HandlePlayerEnter", "d4/dae/a24152.html#ae73763b63f5c1522c9b9c5950a6e5dfe", null ],
-    [ "HandlePlayerLeave", "d4/dae/a24152.html#ace20d19311478a136ae0b75016c36ea8", null ],
-    [ "ResetToTeamControlled", "d4/dae/a24152.html#a7ad637f6a4005da3166601dafda52d1b", null ],
-    [ "SendChangePhase", "d4/dae/a24152.html#a16efee78249e510e211b18694ea868f2", null ],
-    [ "Update", "d4/dae/a24152.html#a15b0758d901bf98f65fa2ee87bb4b401", null ],
-    [ "UpdateTowerState", "d4/dae/a24152.html#a3f6cbfddd3322e3d948a1330cfa0e4d8", null ],
-    [ "m_TowerState", "d4/dae/a24152.html#a74e1c07d3186fb6ba54b65efa9700989", null ],
-    [ "m_TowerType", "d4/dae/a24152.html#ace7e183b6dd438b9649e9ee60c6d00e2", null ]
+    [ "npc_lord_illidan_stormrageAI", "d4/dae/a24152.html#a3b48b42c72b51bbdb222f6cd03e50ec8", null ],
+    [ "AttackStart", "d4/dae/a24152.html#a5f73b83a07f24403cf55de7ef485c003", null ],
+    [ "CheckEventFail", "d4/dae/a24152.html#aef1607c2132ae78b45d4f209a4320a88", null ],
+    [ "JustEngagedWith", "d4/dae/a24152.html#af7166b3c7401a74615cdb5c0964200f6", null ],
+    [ "LiveCounter", "d4/dae/a24152.html#a625b2891d3f9807da7733f678ea29313", null ],
+    [ "MoveInLineOfSight", "d4/dae/a24152.html#a5c2313ac5767339cd26196f52ff05c5f", null ],
+    [ "Reset", "d4/dae/a24152.html#a035b85302d54adf9bd7af82cadfd0317", null ],
+    [ "SummonNextWave", "d4/dae/a24152.html#a240ee54d49248a1700e767568fe93648", null ],
+    [ "UpdateAI", "d4/dae/a24152.html#a9cf7d73c5f81980c08f785dc3af47dec", null ],
+    [ "Announced", "d4/dae/a24152.html#a448ba6e2b21273b8e07b6d0a79e856e2", null ],
+    [ "AnnounceTimer", "d4/dae/a24152.html#a7037e4b43f274f3e2ce45143c029b070", null ],
+    [ "EventStarted", "d4/dae/a24152.html#a41b3b39d2ea0eeca4b60960f3a903ee8", null ],
+    [ "Failed", "d4/dae/a24152.html#aba564e34f0358d6c2a3c6ae91e17bf10", null ],
+    [ "LiveCount", "d4/dae/a24152.html#ab86239a6470a82749f96eb5515c46c59", null ],
+    [ "PlayerGUID", "d4/dae/a24152.html#af30c5c09f0262479b8920269f7bf198a", null ],
+    [ "WaveCount", "d4/dae/a24152.html#abdd03400f582e9477bb376e2b34e7a0e", null ],
+    [ "WaveTimer", "d4/dae/a24152.html#ae727157e6b52817051fea075c2cb7cb1", null ]
 ];

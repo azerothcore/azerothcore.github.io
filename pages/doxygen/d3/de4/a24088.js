@@ -1,13 +1,6 @@
 var a24088 =
 [
-    [ "OPvPCapturePointEP_CGT", "d3/de4/a24088.html#a82d8e9bff56eed1870b098dcf21f77cd", null ],
-    [ "ChangeState", "d3/de4/a24088.html#ab9d32c9a60bbdca9fc54d7e0b2bf8a5d", null ],
-    [ "FillInitialWorldStates", "d3/de4/a24088.html#af3fae27818d6213c2c96ce68676ede82", null ],
-    [ "HandlePlayerEnter", "d3/de4/a24088.html#a48cb29473f25ed9b469c7ff54acc9d88", null ],
-    [ "HandlePlayerLeave", "d3/de4/a24088.html#ad1886046ecf8c382e1fd0e01d6394614", null ],
-    [ "LinkGraveyard", "d3/de4/a24088.html#ada14179a31fb6235b7882a190dc96c40", null ],
-    [ "SendChangePhase", "d3/de4/a24088.html#a30d9f8701dd6a78740f7df0d2c7ceb9d", null ],
-    [ "UpdateTowerState", "d3/de4/a24088.html#a764284d6143d4879b5bc003acc52048c", null ],
-    [ "m_GraveyardSide", "d3/de4/a24088.html#aaf1f8440dc891ed45857bb7d15149d9a", null ],
-    [ "m_TowerState", "d3/de4/a24088.html#a6f434f86ed97f88368e3194a3bc3183b", null ]
+    [ "npc_infernal_attackerAI", "d7/d5c/a24092.html", "d7/d5c/a24092" ],
+    [ "npc_infernal_attacker", "d3/de4/a24088.html#ac6fbfcf8fc918b48d6b9416a71cfe3fa", null ],
+    [ "GetAI", "d3/de4/a24088.html#ad1d9186c186de36efbe102a07fe89de4", null ]
 ];

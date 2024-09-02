@@ -1,6 +1,8 @@
 var a13576 =
 [
-    [ "npc_andorhal_towerAI", "d8/de9/a13580.html", "d8/de9/a13580" ],
-    [ "npc_andorhal_tower", "d9/dbb/a13576.html#abf63419b6c10af47f5e5df1a4e7320e7", null ],
-    [ "GetAI", "d9/dbb/a13576.html#a51139c28da736d26bf27a061862d24ee", null ]
+    [ "boss_thurgAI", "d9/dbb/a13576.html#af5bd973e7d0f1d08cacf85cfe5a06647", null ],
+    [ "Reset", "d9/dbb/a13576.html#a5869d7f8a857c39bd7f62d6355d7e486", null ],
+    [ "UpdateAI", "d9/dbb/a13576.html#a78e306ae070f37638a39a5ac3cd50398", null ],
+    [ "bloodlust_timer", "d9/dbb/a13576.html#abdc6852f5de5a7b9710ab3a57fa7f096", null ],
+    [ "cleave_timer", "d9/dbb/a13576.html#ac0d627bc0189f3f969007ef688d17056", null ]
 ];

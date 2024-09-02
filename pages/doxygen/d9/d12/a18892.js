@@ -1,8 +1,9 @@
 var a18892 =
 [
-    [ "spell_frostwarden_handler_focus_fire_AuraScript", "de/deb/a18900.html", "de/deb/a18900" ],
-    [ "spell_frostwarden_handler_focus_fire_SpellScript", "d3/d7d/a18896.html", "d3/d7d/a18896" ],
-    [ "spell_frostwarden_handler_focus_fire", "d9/d12/a18892.html#a360f8ea19eeac02faca6a24993d7280d", null ],
-    [ "GetAuraScript", "d9/d12/a18892.html#a218ab55912b31ae22baadd46d5c1bdd4", null ],
-    [ "GetSpellScript", "d9/d12/a18892.html#a2b75940774394ecf03e993d272cc4201", null ]
+    [ "boss_grobbulus_poison_cloudAI", "d9/d12/a18892.html#ac26671336eec2d84b56a3552d50f8e0a", null ],
+    [ "KilledUnit", "d9/d12/a18892.html#a9c6ce4ace426f2e7aba5a7bf9430bbe3", null ],
+    [ "Reset", "d9/d12/a18892.html#a1715ab3f3f25b56517f6ded84acdbd9f", null ],
+    [ "UpdateAI", "d9/d12/a18892.html#af1b8dafb0aa47ba22b3601d8bf639c22", null ],
+    [ "auraVisualTimer", "d9/d12/a18892.html#a74aea4294c26414d3b60983d14d36e31", null ],
+    [ "sizeTimer", "d9/d12/a18892.html#a73f775b30ad36a595e0d8532067ba042", null ]
 ];

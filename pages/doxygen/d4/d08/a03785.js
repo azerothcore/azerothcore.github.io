@@ -1,8 +1,9 @@
 var a03785 =
 [
-    [ "MailScript", "d7/db3/a10043.html", "d7/db3/a10043" ],
-    [ "MailHook", "d4/d08/a03785.html#a7a2fb0cc0937712e8aff65574e1068d6", [
-      [ "MAILHOOK_ON_BEFORE_MAIL_DRAFT_SEND_MAIL_TO", "d4/d08/a03785.html#a7a2fb0cc0937712e8aff65574e1068d6a8f3555a10968fd2749e256067782760f", null ],
-      [ "MAILHOOK_END", "d4/d08/a03785.html#a7a2fb0cc0937712e8aff65574e1068d6a97af521f76b0d427812db0ac3303f285", null ]
-    ] ]
+    [ "OutdoorPvP_hellfire_peninsula", "d1/df4/a22464.html", "d1/df4/a22464" ],
+    [ "AddSC_outdoorpvp_hp", "d4/d08/a03785.html#a69303ad6f661d8c009ee493dc4fd486c", null ],
+    [ "HP_LANG_CAPTURE_A", "d4/d08/a03785.html#a642fe1233b764402bae812604b684442", null ],
+    [ "HP_LANG_CAPTURE_H", "d4/d08/a03785.html#a3ae9bb2c949b7f3c852ce2e4552d8ccd", null ],
+    [ "HP_LANG_LOSE_A", "d4/d08/a03785.html#a1b9adf9c71e549e4545c2e4eabe58dd5", null ],
+    [ "HP_LANG_LOSE_H", "d4/d08/a03785.html#ad62cd8f07ac98311202494985c6ae9c8", null ]
 ];

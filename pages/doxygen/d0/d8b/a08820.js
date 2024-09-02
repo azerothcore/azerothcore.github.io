@@ -1,8 +1,21 @@
 var a08820 =
 [
-    [ "MostHPMissingGroupInRange", "d0/d8b/a08820.html#ab7cd80daa30d8a39289c704cc0a2064f", null ],
-    [ "operator()", "d0/d8b/a08820.html#ad1b4a4894dd652237a7a789ef5619f4b", null ],
-    [ "i_hp", "d0/d8b/a08820.html#ae61cafc52cb6d33cd78422c41bd3bb08", null ],
-    [ "i_obj", "d0/d8b/a08820.html#ae0d85f9738301b40c3e950b02ee20026", null ],
-    [ "i_range", "d0/d8b/a08820.html#a712e9b1ff341ccde4a6d6962ba6002a4", null ]
+    [ "GridType", "d0/d8b/a08820.html#ab0a1340c0a1ce99ef8654117ac2a162f", null ],
+    [ "NGrid", "d0/d8b/a08820.html#a999002f6ec7e7dbf2e8c2dc255d0af62", null ],
+    [ "GetGridId", "d0/d8b/a08820.html#a81dffef11eb9d0f62b9c041b732ed697", null ],
+    [ "GetGridType", "d0/d8b/a08820.html#a7c4d5e00697dab2fe7b1a6fe7007076a", null ],
+    [ "GetGridType", "d0/d8b/a08820.html#add7b9ed347781a4ecf70454d998e49c8", null ],
+    [ "getX", "d0/d8b/a08820.html#a203052accd192465ea77751c959b692d", null ],
+    [ "getY", "d0/d8b/a08820.html#ab73787c40fa65141f26543c5b27275c9", null ],
+    [ "isGridObjectDataLoaded", "d0/d8b/a08820.html#a051e7a030bf18b35d7bbef13735f128b", null ],
+    [ "link", "d0/d8b/a08820.html#ab06a72bd62796b385c87178d0991d8e4", null ],
+    [ "setGridObjectDataLoaded", "d0/d8b/a08820.html#a36f821272204e44ba24afefc7a8e0195", null ],
+    [ "VisitAllGrids", "d0/d8b/a08820.html#af33978784c3bdff490f6e40c18e9e712", null ],
+    [ "VisitGrid", "d0/d8b/a08820.html#aabcd6c2d4edaaf016fb9905752fdfccd", null ],
+    [ "i_cells", "d0/d8b/a08820.html#aa44eb852ebf5fec4406070f354f5e5b7", null ],
+    [ "i_gridId", "d0/d8b/a08820.html#aaadf4847c4da61dd2fe722584c65e164", null ],
+    [ "i_GridObjectDataLoaded", "d0/d8b/a08820.html#a716e98131c07b0b695b04ddaa02c4eeb", null ],
+    [ "i_Reference", "d0/d8b/a08820.html#a1af2fa2ddc39e932b013f3f07c13ddc8", null ],
+    [ "i_x", "d0/d8b/a08820.html#add9e3f5f9ffaab894bfa11cacaf76370", null ],
+    [ "i_y", "d0/d8b/a08820.html#a3407a6554a941d2496db0987384f70e7", null ]
 ];

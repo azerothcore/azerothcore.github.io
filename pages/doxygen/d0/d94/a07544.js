@@ -1,7 +1,6 @@
 var a07544 =
 [
-    [ "VendorItemCount", "d0/d94/a07544.html#abdf2d2900f75bb2b8d9727bab8fcbbc3", null ],
-    [ "count", "d0/d94/a07544.html#aff4c062138792ffb37dadb19b725c87c", null ],
-    [ "itemId", "d0/d94/a07544.html#a225158bbb56d6666ba4918155f08f993", null ],
-    [ "lastIncrementTime", "d0/d94/a07544.html#a0b88ba4ea590abbdc9234ff4a2a335fa", null ]
+    [ "value_type", "d0/d94/a07544.html#ac481731c1965ea0420cd7820e1e89881", null ],
+    [ "StoreTo", "d0/d94/a07544.html#a36969f95d224ae4561d46a3ca7b20d26", null ],
+    [ "tag", "d0/d94/a07544.html#a24d00ca0725d6b4f236bccd7cf5ecbc7", null ]
 ];

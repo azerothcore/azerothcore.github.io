@@ -1,6 +1,25 @@
 var a15648 =
 [
-    [ "go_wind_stoneAI", "de/dbd/a15652.html", "de/dbd/a15652" ],
-    [ "go_wind_stone", "db/d71/a15648.html#a70c4bcb743b0d587caad4b574c589e3e", null ],
-    [ "GetAI", "db/d71/a15648.html#ab7add0fe4e58eec422e37ae04b9338df", null ]
+    [ "boss_jedoga_shadowseeker", "db/d71/a15648.html#ab9cbbc07add92d5e02910660d54bac52", null ],
+    [ "DamageTaken", "db/d71/a15648.html#a049fa9b95e231bbbbc0f9d1970d1281d", null ],
+    [ "DespawnOOCSummons", "db/d71/a15648.html#ac52f5994af533906e5b60e539c48abb4", null ],
+    [ "DoAction", "db/d71/a15648.html#aa1c42164d1eb87240443c21c96805bfa", null ],
+    [ "GetData", "db/d71/a15648.html#a7829368c62ef80d41480e0f8fdfacd06", null ],
+    [ "JustDied", "db/d71/a15648.html#af2ea97b4d6b74b81b5abc0520e832dbc", null ],
+    [ "JustEngagedWith", "db/d71/a15648.html#acbd8518cd3d32ddb98d79659a2aa4313", null ],
+    [ "JustSummoned", "db/d71/a15648.html#a69cef8ffc1b62eab23538cb3d7f342d7", null ],
+    [ "KilledUnit", "db/d71/a15648.html#a1d6db2fdd85d4df233a65f8963dcd2ad", null ],
+    [ "MoveInLineOfSight", "db/d71/a15648.html#a3d70de2d7a6d2c50083a684b9d969550", null ],
+    [ "MovementInform", "db/d71/a15648.html#a4522476699ac513e209d9ee2d56309f0", null ],
+    [ "ReschedulleCombatEvents", "db/d71/a15648.html#a501370436e01fb860433a8d782b7b37e", null ],
+    [ "Reset", "db/d71/a15648.html#a3def3996c41da5a5f5ad1368b1cb973d", null ],
+    [ "SummonedCreatureDies", "db/d71/a15648.html#a3efaecfd3dcf2987b1a8afced8f674b2", null ],
+    [ "UpdateAI", "db/d71/a15648.html#a7f1d6998efe3fdeb60ba1743c6561902", null ],
+    [ "combatSummonsSummoned", "db/d71/a15648.html#af300322d9b1f7705289588e217e120a3", null ],
+    [ "oocSummons", "db/d71/a15648.html#a8ab34fcd605e5c15c4dab7fb3f5a3160", null ],
+    [ "oocTriggers", "db/d71/a15648.html#adcec05da7f5feeca36e5e9054fba871f", null ],
+    [ "ritualTriggered", "db/d71/a15648.html#a28837c2f84acf08657cc301e8d382cfc", null ],
+    [ "sacraficeTarget_GUID", "db/d71/a15648.html#abb1ee99eb8429b0b8d94b75ea41ced9b", null ],
+    [ "sayPreachTimer", "db/d71/a15648.html#ac4e501a54c8da479cede1378db0c953c", null ],
+    [ "volunteerWork", "db/d71/a15648.html#aa0ff8d7556662b8db97aebcf27e0d5e4", null ]
 ];

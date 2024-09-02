@@ -1,7 +1,7 @@
 var a18112 =
 [
-    [ "npc_gunship_rocketeerAI", "d0/d08/a18112.html#aa9e722f32cd95fff8c72db5a41d0e84c", null ],
-    [ "CanAIAttack", "d0/d08/a18112.html#a4b4e2839e426bdb752beea09394f13dc", null ],
-    [ "MovementInform", "d0/d08/a18112.html#a7dd7f3625b177a96bcfdc5e46d944562", null ],
-    [ "UpdateAI", "d0/d08/a18112.html#af73d71750f116fb90be1c2acba75ca70", null ]
+    [ "OnRemove", "d0/d08/a18112.html#a106935d92ef6ba7909c57264e26b5522", null ],
+    [ "PrepareAuraScript", "d0/d08/a18112.html#a8ce8f5d4ebd4279fdfd192ba3b01b894", null ],
+    [ "Register", "d0/d08/a18112.html#a095e7530a0f2e7a76dc8bd3f75759089", null ],
+    [ "Validate", "d0/d08/a18112.html#a0b4283bdb19a4ceef505aab41c99abe8", null ]
 ];

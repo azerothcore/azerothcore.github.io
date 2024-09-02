@@ -1,6 +1,7 @@
 var a25928 =
 [
-    [ "boss_nethermancer_sepethreaAI", "da/d03/a25932.html", "da/d03/a25932" ],
-    [ "boss_nethermancer_sepethrea", "d0/d57/a25928.html#a8d7e713967bd567f19c0d213afbef03d", null ],
-    [ "GetAI", "d0/d57/a25928.html#ab116e78cf61a5bde2b49d5a730217f4a", null ]
+    [ "CalculateSpellAmount", "d0/d57/a25928.html#a2f93ff69f30b243fe787d72f78a2d159", null ],
+    [ "CheckCast", "d0/d57/a25928.html#af043f7ee0f80baf667e64225effd57d1", null ],
+    [ "PrepareSpellScript", "d0/d57/a25928.html#a233ac4020722078d865cf980d7fa76cf", null ],
+    [ "Register", "d0/d57/a25928.html#a3648ecd94430e21dd014795156c1eb98", null ]
 ];

@@ -1,6 +1,11 @@
 var a16960 =
 [
-    [ "spell_tharon_ja_dummy_AuraScript", "db/d3d/a16964.html", "db/d3d/a16964" ],
-    [ "spell_tharon_ja_dummy", "d4/da9/a16960.html#a74fce5282516f975df26dea18230b783", null ],
-    [ "GetAuraScript", "d4/da9/a16960.html#af92a6a5b78d71cb286fdda6a1f3d9e78", null ]
+    [ "npc_pos_leader_secondAI", "d4/da9/a16960.html#a2ded8591da2548921cd016d592d1f1c8", null ],
+    [ "DoAction", "d4/da9/a16960.html#a941d3b42d6a0e58496b724af56fee44a", null ],
+    [ "MovementInform", "d4/da9/a16960.html#a32f4c5c48f1a63ded0ac9b8ee763090b", null ],
+    [ "SpellHitTarget", "d4/da9/a16960.html#ae630b7b225379831d15a11f66507bc6a", null ],
+    [ "UpdateAI", "d4/da9/a16960.html#a640aea9ce4a47dd13d417748e533fc33", null ],
+    [ "barrierGUID", "d4/da9/a16960.html#a452c096475581c12bf2f4ccb12448026", null ],
+    [ "events", "d4/da9/a16960.html#a1e1ab6c1d349a9543815a29ae185feec", null ],
+    [ "pInstance", "d4/da9/a16960.html#aee9dac9efee94db3d84eb9c5fb8c88a2", null ]
 ];

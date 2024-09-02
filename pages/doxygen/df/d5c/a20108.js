@@ -1,6 +1,6 @@
 var a20108 =
 [
-    [ "boss_maexxnaAI", "da/d80/a20112.html", "da/d80/a20112" ],
-    [ "boss_maexxna", "df/d5c/a20108.html#ae47a789ac8abe50932b9e000c83b02b2", null ],
-    [ "GetAI", "df/d5c/a20108.html#ab438df4cb61625da35552ca7c867dc64", null ]
+    [ "npc_ulduar_hodir_shamanAI", "da/d80/a20112.html", "da/d80/a20112" ],
+    [ "npc_ulduar_hodir_shaman", "df/d5c/a20108.html#ae73a416c72441ab531d8a5db88183d47", null ],
+    [ "GetAI", "df/d5c/a20108.html#ab06a67b72a3954c65792a478ac90672c", null ]
 ];

@@ -1,6 +1,6 @@
 var a24840 =
 [
-    [ "HandleScriptEffect", "d1/d2a/a24840.html#a8b48755152dd8e69ba9af49039f5d9e7", null ],
-    [ "PrepareSpellScript", "d1/d2a/a24840.html#a57b4b8dd9711b87e09473203229d6476", null ],
-    [ "Register", "d1/d2a/a24840.html#adb82970b2a99f0b692506c6c9fdfec44", null ]
+    [ "CheckProc", "d1/d2a/a24840.html#ad1678a96784add01965d67c3d86bcd77", null ],
+    [ "PrepareAuraScript", "d1/d2a/a24840.html#a6e164a8e3482b566b776c5ffeeb1b6ac", null ],
+    [ "Register", "d1/d2a/a24840.html#a148f3fe7ee4bdc8e148fe71100779e56", null ]
 ];

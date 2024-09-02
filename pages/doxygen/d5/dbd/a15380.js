@@ -1,5 +1,6 @@
 var a15380 =
 [
-    [ "go_bristlelimb_cage", "d5/dbd/a15380.html#ab965b9c529577a5e58639285fa35d3d7", null ],
-    [ "OnGossipHello", "d5/dbd/a15380.html#a6f29e07550767c1c0610f46e4921503f", null ]
+    [ "npc_anachronos_quest_triggerAI", "d1/d75/a15384.html", "d1/d75/a15384" ],
+    [ "npc_anachronos_quest_trigger", "d5/dbd/a15380.html#ad39871952acd3152b51820fe360f4ebd", null ],
+    [ "GetAI", "d5/dbd/a15380.html#a2e0e6a69ed1cbed76db9c4bd64d51330", null ]
 ];

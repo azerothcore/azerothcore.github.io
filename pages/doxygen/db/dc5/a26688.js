@@ -1,7 +1,7 @@
 var a26688 =
 [
-    [ "CorpseExplosionCheck", "db/dc5/a26688.html#aa8b7957705df1d878f5123ffa31a7fd7", null ],
-    [ "operator()", "db/dc5/a26688.html#aeab379880a8d912d6d0f7b41639edbd4", null ],
-    [ "_allowGhoul", "db/dc5/a26688.html#abd42a0731af969ceccdfceae722ba276", null ],
-    [ "_casterGUID", "db/dc5/a26688.html#a497df87745f452716c652e9b1be6d46f", null ]
+    [ "HandleScriptEffect", "db/dc5/a26688.html#a328c1ba6ccd98e25e477a3f784cb47ff", null ],
+    [ "PrepareSpellScript", "db/dc5/a26688.html#aa211032991d8fd11d574cb364533a515", null ],
+    [ "Register", "db/dc5/a26688.html#a13315f197f2e6975dca00b53cbc599d2", null ],
+    [ "Validate", "db/dc5/a26688.html#a3b752f07631223199ed7ac404ed1afed", null ]
 ];

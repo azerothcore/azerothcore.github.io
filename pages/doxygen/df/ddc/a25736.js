@@ -1,7 +1,9 @@
 var a25736 =
 [
-    [ "OnApply", "df/ddc/a25736.html#a6d8b2c1a671ac698826daaee2c1b6b18", null ],
-    [ "OnRemove", "df/ddc/a25736.html#a299fd3e8c173f9cfcadc79dff43a4ffd", null ],
-    [ "PrepareAuraScript", "df/ddc/a25736.html#abeb51278b6d97afaa05ae92132d0df39", null ],
-    [ "Register", "df/ddc/a25736.html#ad752a04a5c42ff66d446bbe7c407959d", null ]
+    [ "CheckRequirement", "df/ddc/a25736.html#adab261a5221ca54b15cc414d291908fe", null ],
+    [ "HandleDummy", "df/ddc/a25736.html#abb7a734244bb18d75304a0510f9efb8d", null ],
+    [ "Load", "df/ddc/a25736.html#a418eef16d1e3aeff67013f45409c092a", null ],
+    [ "PrepareSpellScript", "df/ddc/a25736.html#ab3e73a456ec7384720827a4ff7f5abc7", null ],
+    [ "Register", "df/ddc/a25736.html#a5dbf60e33f2cdca3921f623cd1098948", null ],
+    [ "Validate", "df/ddc/a25736.html#a1dcba4f3c2874a952ca422b0a3cdafb1", null ]
 ];

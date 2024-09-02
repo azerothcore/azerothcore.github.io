@@ -1,11 +1,12 @@
 var a10032 =
 [
-    [ "GuildRankTabPermissions", "db/d64/a10036.html", "db/d64/a10036" ],
-    [ "GuildPermissionsQueryResults", "d9/d0a/a10032.html#aa643af51780fc550f3947936266d54f5", null ],
-    [ "Write", "d9/d0a/a10032.html#a4a5937a8daab44b5000a5308ed0be06a", null ],
-    [ "Flags", "d9/d0a/a10032.html#a368162426ab526adafc7ecb223fdf865", null ],
-    [ "NumTabs", "d9/d0a/a10032.html#ab797ef0f0081c4520a6333afbe6cd5b4", null ],
-    [ "RankID", "d9/d0a/a10032.html#a795ba45650991bd5c1aa03c17886d86b", null ],
-    [ "Tab", "d9/d0a/a10032.html#ae54eeb1a76f5eeaf4a63bcb58bab3460", null ],
-    [ "WithdrawGoldLimit", "d9/d0a/a10032.html#a9d175a8de69f15c3f8eadf237f68e84a", null ]
+    [ "ItemScript", "d9/d0a/a10032.html#a0ad18538a834261190356eab549ff192", null ],
+    [ "IsDatabaseBound", "d9/d0a/a10032.html#ae0ae6754a17b88deaf3648b74a58bb9d", null ],
+    [ "OnCastItemCombatSpell", "d9/d0a/a10032.html#a08a73378706fdfb0cee5e6214060ad1b", null ],
+    [ "OnExpire", "d9/d0a/a10032.html#a2ac915f9f966df87a963a328363deb77", null ],
+    [ "OnGossipSelect", "d9/d0a/a10032.html#a78b540902816ee3b3f9a6b108aa155ab", null ],
+    [ "OnGossipSelectCode", "d9/d0a/a10032.html#a924268357fec1a667f1184c91ebcef33", null ],
+    [ "OnQuestAccept", "d9/d0a/a10032.html#a87ab2f706bbb4e71921852d1ae6d78c7", null ],
+    [ "OnRemove", "d9/d0a/a10032.html#a1c8d706593fce54b1e4627493c38a6d3", null ],
+    [ "OnUse", "d9/d0a/a10032.html#a0e45d02f07def65de2eb94735189e7f5", null ]
 ];

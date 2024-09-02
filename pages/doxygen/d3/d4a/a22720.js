@@ -1,6 +1,8 @@
 var a22720 =
 [
-    [ "spell_koralon_meteor_fists_AuraScript", "d6/d1f/a22724.html", "d6/d1f/a22724" ],
-    [ "spell_koralon_meteor_fists", "d3/d4a/a22720.html#aac98b15864fcca09bab4fe8e2393765a", null ],
-    [ "GetAuraScript", "d3/d4a/a22720.html#ac953d13c4a6059752b87b28a4bc8308d", null ]
+    [ "Load", "d3/d4a/a22720.html#a4ff26763f05b07d882cd8d209464910e", null ],
+    [ "OnPeriodic", "d3/d4a/a22720.html#a3e3bb503a6b5f90741a4df668851accf", null ],
+    [ "PrepareAuraScript", "d3/d4a/a22720.html#a4126d35669859963f10ed1425a054298", null ],
+    [ "Register", "d3/d4a/a22720.html#adb6a44892d80aeaaf4c15c71a47f422e", null ],
+    [ "Validate", "d3/d4a/a22720.html#a22d6c338ea1f2af9be0eb02aceba42bd", null ]
 ];

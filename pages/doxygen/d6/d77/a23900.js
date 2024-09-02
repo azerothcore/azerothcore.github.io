@@ -1,8 +1,7 @@
 var a23900 =
 [
-    [ "npc_wg_spirit_guideAI", "d0/d7c/a23904.html", "d0/d7c/a23904" ],
-    [ "npc_wg_spirit_guide", "d6/d77/a23900.html#ad6ca047a51547203ee2c5f69efb6f2d3", null ],
-    [ "GetAI", "d6/d77/a23900.html#a769cdf4ac330b5dec71437d325aaf46a", null ],
-    [ "OnGossipHello", "d6/d77/a23900.html#a2d46078cb47f817239685d168f7f2e35", null ],
-    [ "OnGossipSelect", "d6/d77/a23900.html#aae050d38b9fa9c16d398d2733b1e5faf", null ]
+    [ "OnPeriodic", "d6/d77/a23900.html#a7ef787ac13b97aa225a5340f7bfcc4e3", null ],
+    [ "PrepareAuraScript", "d6/d77/a23900.html#a6f7db06cc1ace68ee0076077773b1659", null ],
+    [ "Register", "d6/d77/a23900.html#a559347bedad9fd8a0e6f4c5b14333c06", null ],
+    [ "Validate", "d6/d77/a23900.html#aae1c2d5b8eb30341a67e261e69a4d294", null ]
 ];

@@ -1,6 +1,6 @@
 var a16244 =
 [
-    [ "HandleForceCast", "dc/d9d/a16244.html#a4c4c3a572e5ec8cc293d29ee308ad1e3", null ],
-    [ "PrepareSpellScript", "dc/d9d/a16244.html#a41fcab749d8739962c7d0cc7f237bcc1", null ],
-    [ "Register", "dc/d9d/a16244.html#a30975b5d8aa67d0ffaaf732ff495054d", null ]
+    [ "npc_toc_shadow_priestAI", "d8/ddd/a16248.html", "d8/ddd/a16248" ],
+    [ "npc_toc_shadow_priest", "dc/d9d/a16244.html#a05020cd5c5363933dcea7a5901d1ac21", null ],
+    [ "GetAI", "dc/d9d/a16244.html#a93b38d23759da3b7417dbb94b4a951da", null ]
 ];

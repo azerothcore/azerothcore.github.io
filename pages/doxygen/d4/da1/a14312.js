@@ -1,7 +1,8 @@
 var a14312 =
 [
-    [ "go_loosely_turned_soilAI", "dc/d6c/a14316.html", "dc/d6c/a14316" ],
-    [ "go_loosely_turned_soil", "d4/da1/a14312.html#a3b4d51e2b3a604e030962127269236f1", null ],
-    [ "GetAI", "d4/da1/a14312.html#acead5810a848f8837fa65af1f2ac00bd", null ],
-    [ "OnQuestReward", "d4/da1/a14312.html#a1ac57b34c5b3e21c033330eaeefaa6a8", null ]
+    [ "HandleEffectApply", "d4/da1/a14312.html#a31d4e0da71893a8a673a2ac4f7c26c70", null ],
+    [ "HandleEffectRemove", "d4/da1/a14312.html#af8661463589640c9550bc62e8f74afcd", null ],
+    [ "PrepareAuraScript", "d4/da1/a14312.html#a2885eb37d4af8f1e90e2a4967f5acc75", null ],
+    [ "Register", "d4/da1/a14312.html#ada4a148e0b50f5853eaf02c465f6e876", null ],
+    [ "torchGUID", "d4/da1/a14312.html#a8ccf51241d3792c8c36d983bf471167e", null ]
 ];

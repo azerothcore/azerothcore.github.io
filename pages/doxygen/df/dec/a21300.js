@@ -1,6 +1,6 @@
 var a21300 =
 [
-    [ "boss_freya_summonsAI", "db/d5c/a21304.html", "db/d5c/a21304" ],
-    [ "boss_freya_summons", "df/dec/a21300.html#a3445ed89967cc9a610472f18e862ecd4", null ],
-    [ "GetAI", "df/dec/a21300.html#ac68f231c37c61d262d6c16bc87a0f1c7", null ]
+    [ "HandleEffectPeriodic", "df/dec/a21300.html#a508ff9e362d586497839aa29ceae1227", null ],
+    [ "PrepareAuraScript", "df/dec/a21300.html#a4e7d5317d28207136b1fd3477a51ae06", null ],
+    [ "Register", "df/dec/a21300.html#a4b08cefe7d334635b70d389cc9df4901", null ]
 ];

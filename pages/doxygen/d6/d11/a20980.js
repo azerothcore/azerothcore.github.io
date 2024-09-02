@@ -1,6 +1,7 @@
 var a20980 =
 [
-    [ "npc_auriaya_sanctum_sentryAI", "d1/d1b/a20984.html", "d1/d1b/a20984" ],
-    [ "npc_auriaya_sanctum_sentry", "d6/d11/a20980.html#aa275374ba3a19a2e6a8768d4f01752b2", null ],
-    [ "GetAI", "d6/d11/a20980.html#a6a8843d3f24378a2fd334e773618ab72", null ]
+    [ "HandleEffectPeriodic", "d6/d11/a20980.html#a5741a78ba0cc8c723e80b1847b3eb1bc", null ],
+    [ "PrepareAuraScript", "d6/d11/a20980.html#a748cd347867557b5048d9ba0c112cd80", null ],
+    [ "Register", "d6/d11/a20980.html#a3c24d37ab4a6e16a577983c3f6bc2722", null ],
+    [ "Validate", "d6/d11/a20980.html#afa86789ef14b1d06094705ba6cfb9205", null ]
 ];

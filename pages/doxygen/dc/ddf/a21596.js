@@ -1,6 +1,6 @@
 var a21596 =
 [
-    [ "spell_ignis_grab_initial_SpellScript", "da/daa/a21600.html", "da/daa/a21600" ],
-    [ "spell_ignis_grab_initial", "dc/ddf/a21596.html#a6e811c3db63d788228bb3705f0463948", null ],
-    [ "GetSpellScript", "dc/ddf/a21596.html#aacf557be31f03eb5e014a3963ca0b35a", null ]
+    [ "npc_steam_powered_auctioneerAI", "da/daa/a21600.html", "da/daa/a21600" ],
+    [ "npc_steam_powered_auctioneer", "dc/ddf/a21596.html#ae8c918c639ce0c3ddc14b8cf7f0ef855", null ],
+    [ "GetAI", "dc/ddf/a21596.html#a39a2f0c187078c759bc4a391e0a81068", null ]
 ];

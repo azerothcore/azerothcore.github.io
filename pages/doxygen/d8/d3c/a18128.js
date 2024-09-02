@@ -1,9 +1,9 @@
 var a18128 =
 [
-    [ "CheckAreaTarget", "d8/d3c/a18128.html#a3c63a80369c39fff14b49e2d75e3afdb", null ],
-    [ "HandleApply", "d8/d3c/a18128.html#a041680de2214f9169b8f70082c07656c", null ],
-    [ "HandleRemove", "d8/d3c/a18128.html#a2d19687e629843bce5691110592fc834", null ],
-    [ "Load", "d8/d3c/a18128.html#a2e842d63103fa4495201fec7eab5c8d0", null ],
-    [ "PrepareAuraScript", "d8/d3c/a18128.html#a50e0015cf2e2211511de80345b5ee1aa", null ],
-    [ "Register", "d8/d3c/a18128.html#aa57f5e3327eadf73ee772427f67ad423", null ]
+    [ "npc_icc_ice_sphereAI", "d8/d3c/a18128.html#a685f45e5cd15b005646e596ff61088e8", null ],
+    [ "DoAction", "d8/d3c/a18128.html#ac056ecdd93bc716964054f38ab81014e", null ],
+    [ "SelectNewTarget", "d8/d3c/a18128.html#a9274e05e45c07d14c7df5c623e2769d4", null ],
+    [ "UpdateAI", "d8/d3c/a18128.html#a5a4117de9e45cea9e9086b3b4daed404", null ],
+    [ "targetGUID", "d8/d3c/a18128.html#a3e202f9bde2a202d329066f7aab8897c", null ],
+    [ "timer", "d8/d3c/a18128.html#a42842e92926e18ef2589687d81a7d0d4", null ]
 ];

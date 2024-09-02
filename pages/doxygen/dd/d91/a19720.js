@@ -1,6 +1,6 @@
 var a19720 =
 [
-    [ "HandleDummyLaunch", "dd/d91/a19720.html#a1d52e1eb16e3df39a675bdd2ee64ce04", null ],
-    [ "PrepareSpellScript", "dd/d91/a19720.html#aa37e093b8904a4a0bb3ea3511cba0b47", null ],
-    [ "Register", "dd/d91/a19720.html#aa2ed9f01095e98f593caf410df5c3873", null ]
+    [ "npc_auriaya_feral_defenderAI", "d9/d2e/a19724.html", "d9/d2e/a19724" ],
+    [ "npc_auriaya_feral_defender", "dd/d91/a19720.html#ae1afc396a1d9e6c9c2042ee0f58fb270", null ],
+    [ "GetAI", "dd/d91/a19720.html#abec35e280e42154af82f3e7e4fcec48d", null ]
 ];

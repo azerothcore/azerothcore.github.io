@@ -1,6 +1,6 @@
 var a19556 =
 [
-    [ "npc_captain_rupertAI", "d2/db3/a19560.html", "d2/db3/a19560" ],
-    [ "npc_captain_rupert", "d0/dce/a19556.html#a7a4535a6b784b460c79722e9a50c3ff6", null ],
-    [ "GetAI", "d0/dce/a19556.html#a20afc31fc1a8bb09692ab0cc47af3c1b", null ]
+    [ "CosmicSmashDamageEvent", "d0/dce/a19556.html#a5c9606791b560d8be1825a9c73f2393e", null ],
+    [ "Execute", "d0/dce/a19556.html#a2d4b301e1b7e0852ec47280ad97871f2", null ],
+    [ "_caster", "d0/dce/a19556.html#ab7af2459d3962831812ee2362ee9de2b", null ]
 ];

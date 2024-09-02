@@ -1,6 +1,6 @@
 var a18548 =
 [
-    [ "HandleScript", "dc/d1b/a18548.html#a4f0a18fc2d21e8018e720c9e1d6664df", null ],
-    [ "PrepareSpellScript", "dc/d1b/a18548.html#a20296c8579ae8ba80638bfaee67aec80", null ],
-    [ "Register", "dc/d1b/a18548.html#ab531ce145b25f0d71e5ce57fb1ee9202", null ]
+    [ "HandleEvent", "dc/d1b/a18548.html#a7936a64a1142a47b2addfd746dccfcef", null ],
+    [ "PrepareSpellScript", "dc/d1b/a18548.html#a00e2be07131c674558d0364df98849ab", null ],
+    [ "Register", "dc/d1b/a18548.html#a89364583504d2eaa75473586850bc3d5", null ]
 ];

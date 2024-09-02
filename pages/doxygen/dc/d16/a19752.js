@@ -1,9 +1,11 @@
 var a19752 =
 [
-    [ "npc_icc_skybreaker_vicarAI", "dc/d16/a19752.html#ae74a306850b328f536b55e5c24c040ab", null ],
-    [ "AttackStart", "dc/d16/a19752.html#a52b753e1f599eb02385d980a78cd3c78", null ],
-    [ "JustEngagedWith", "dc/d16/a19752.html#afdb4215cd0578de7342b152783666ed6", null ],
-    [ "Reset", "dc/d16/a19752.html#aeb11687534fa7c1e76ea22cc07deb73d", null ],
-    [ "UpdateAI", "dc/d16/a19752.html#af1726169fe63eb3ff1ed95eb0e10d2f0", null ],
-    [ "events", "dc/d16/a19752.html#a711d9571b4edb87f77eeebbd12e248b3", null ]
+    [ "boss_flame_leviathan_seatAI", "dc/d16/a19752.html#ab830db7804ee9b9815e4ea3398a6d856", null ],
+    [ "AttackStart", "dc/d16/a19752.html#a39efb927928e19a040144bab7dfa3ba2", null ],
+    [ "EnterEvadeMode", "dc/d16/a19752.html#aeda2ad4d596c86aa5c19acb1c710cc9f", null ],
+    [ "PassengerBoarded", "dc/d16/a19752.html#af4939f3daef8aae9a1eafe2020ab205e", null ],
+    [ "Reset", "dc/d16/a19752.html#a1e134e9bb2b1048f69dc310a52be9473", null ],
+    [ "UpdateAI", "dc/d16/a19752.html#a857b1e927ae6574e00e25a20a21d4427", null ],
+    [ "_despawnTimer", "dc/d16/a19752.html#ac3d1d8f405a37d2344c5f4e34519e2cb", null ],
+    [ "vehicle", "dc/d16/a19752.html#a9d0624a45613676a39def53b2a2fdce0", null ]
 ];

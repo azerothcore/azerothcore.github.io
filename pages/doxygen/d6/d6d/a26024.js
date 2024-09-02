@@ -1,6 +1,7 @@
 var a26024 =
 [
-    [ "npc_oscillating_frequency_scanner_master_bunnyAI", "d5/d3c/a26028.html", "d5/d3c/a26028" ],
-    [ "npc_oscillating_frequency_scanner_master_bunny", "d6/d6d/a26024.html#a8ae11cadbd5e883bf12f8f5201700b4e", null ],
-    [ "GetAI", "d6/d6d/a26024.html#a60d55e2eda4484ceea4e475ac8653977", null ]
+    [ "HandleScriptEffect", "d6/d6d/a26024.html#a6c1ac025fa93caa08737387a18003612", null ],
+    [ "PrepareSpellScript", "d6/d6d/a26024.html#acb5ad05212399b06ed9bb64bb9203069", null ],
+    [ "Register", "d6/d6d/a26024.html#afbf989d514c308f466ecfd9957d2d177", null ],
+    [ "Validate", "d6/d6d/a26024.html#a2f48b1903edef1a5bb8beeddc8879aa4", null ]
 ];

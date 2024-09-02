@@ -1,12 +1,9 @@
 var a09248 =
 [
-    [ "MapReference", "d2/de1/a09248.html#abfbeb2ab5831f1f2a52bcb506318d85e", null ],
-    [ "~MapReference", "d2/de1/a09248.html#a1e93b44871737991140718322fd1cd69", null ],
-    [ "next", "d2/de1/a09248.html#a352ef695a8968a17e921861b7d6242c1", null ],
-    [ "next", "d2/de1/a09248.html#ae0383c7748749a344bb2395fd6e8baa4", null ],
-    [ "nocheck_prev", "d2/de1/a09248.html#a6cfff18295cf049ff554b0f140680890", null ],
-    [ "nockeck_prev", "d2/de1/a09248.html#adcb903a8a67951fe3da8e99e270b5c91", null ],
-    [ "sourceObjectDestroyLink", "d2/de1/a09248.html#ade5aa7b9b67ab49e523e4885460c3917", null ],
-    [ "targetObjectBuildLink", "d2/de1/a09248.html#acc64fa182a97583a2d9b78d54ec07ca0", null ],
-    [ "targetObjectDestroyLink", "d2/de1/a09248.html#aaa51bc8d8b47e0bbe5cfa828e4ae6604", null ]
+    [ "LoginQueryHolder", "d2/de1/a09248.html#a0e1a9e1b505ba40d08daee432eaa40c1", null ],
+    [ "GetAccountId", "d2/de1/a09248.html#ac44ea5d53fa90dae955bfaa3f472ecea", null ],
+    [ "GetGuid", "d2/de1/a09248.html#a8cdce5befc3b7f8727eef78ab1f768a2", null ],
+    [ "Initialize", "d2/de1/a09248.html#ae21aca0c9ccc627e084b4a535b3f5774", null ],
+    [ "m_accountId", "d2/de1/a09248.html#abc8056182803af44a062fe6153fdd009", null ],
+    [ "m_guid", "d2/de1/a09248.html#ab4696408b2e649dcdaae0bc4330c0b9e", null ]
 ];

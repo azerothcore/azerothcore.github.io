@@ -1,6 +1,7 @@
 var a18236 =
 [
-    [ "HandleDummy", "d4/d20/a18236.html#a0cbade5e48c3805952e726c9d3d3b1e4", null ],
-    [ "PrepareSpellScript", "d4/d20/a18236.html#a211cd8e76872ee3c5599346c5d04dfc6", null ],
-    [ "Register", "d4/d20/a18236.html#af02bd276839f3588be337e1f6516de5f", null ]
+    [ "HandleProc", "d4/d20/a18236.html#af06730a865009127c7d3e5423afd4d44", null ],
+    [ "PrepareAuraScript", "d4/d20/a18236.html#a71a81a19a0c543a4aa43d6bf002b7bb9", null ],
+    [ "Register", "d4/d20/a18236.html#a6c97b787ce00491a259c575d26189f8c", null ],
+    [ "Validate", "d4/d20/a18236.html#aed9c98e20d916359629e119d6dd2a94f", null ]
 ];

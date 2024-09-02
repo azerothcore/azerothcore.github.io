@@ -1,6 +1,10 @@
 var a26464 =
 [
-    [ "npc_timothy_daniels", "da/d94/a26464.html#ad9d62848105372a163e24faa3716118f", null ],
-    [ "OnGossipHello", "da/d94/a26464.html#a23e893f2604693a681190ed9425f965a", null ],
-    [ "OnGossipSelect", "da/d94/a26464.html#a4b7c1a007167cf2684a97b7ead74c519", null ]
+    [ "CheckProc", "da/d94/a26464.html#a5971c42af47d1cc8045a130deb218a04", null ],
+    [ "HandleProc", "da/d94/a26464.html#a45aaf5afebc2fa533240fcf8233430ed", null ],
+    [ "Load", "da/d94/a26464.html#a7664b0f67c9e3b14841ed9e30447544d", null ],
+    [ "PrepareAuraScript", "da/d94/a26464.html#a291fcf1af497d1e83a31209cd01a360d", null ],
+    [ "Register", "da/d94/a26464.html#af16d0517ad07a454145da0b92c051740", null ],
+    [ "Validate", "da/d94/a26464.html#ac768a5f4738dee9ad7d885fa6136785e", null ],
+    [ "_procTargetGUID", "da/d94/a26464.html#a13976d069846f29d2f744f3f03502787", null ]
 ];

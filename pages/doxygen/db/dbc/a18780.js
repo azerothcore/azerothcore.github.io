@@ -1,6 +1,6 @@
 var a18780 =
 [
-    [ "spell_sindragosa_icy_grip_jump_SpellScript", "d3/d16/a18784.html", "d3/d16/a18784" ],
-    [ "spell_sindragosa_icy_grip_jump", "db/dbc/a18780.html#a4bcdb417ebdb65fa0e7865acac881220", null ],
-    [ "GetSpellScript", "db/dbc/a18780.html#af78cf133504cae252225d7470d882a94", null ]
+    [ "boss_isle_of_conquestAI", "d3/d16/a18784.html", "d3/d16/a18784" ],
+    [ "boss_isle_of_conquest", "db/dbc/a18780.html#ad4052d1b6865585d32016e1240449659", null ],
+    [ "GetAI", "db/dbc/a18780.html#ae14201c4f8654bf2c0cd9ac8a82f3800", null ]
 ];

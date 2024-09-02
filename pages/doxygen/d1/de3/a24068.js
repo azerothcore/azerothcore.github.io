@@ -1,6 +1,7 @@
 var a24068 =
 [
-    [ "npc_storm_cloudAI", "d7/d27/a24072.html", "d7/d27/a24072" ],
-    [ "npc_storm_cloud", "d1/de3/a24068.html#a8403185cdf54b2924024ba1d1d44a06a", null ],
-    [ "GetAI", "d1/de3/a24068.html#a952bd1cf5406b989182d8560d8b9e665", null ]
+    [ "CheckRequirement", "d1/de3/a24068.html#a4ad521364c6156c0ecef818a23ce7aff", null ],
+    [ "PrepareSpellScript", "d1/de3/a24068.html#a0d995c6ae6d1da0014c053a62b37a7b7", null ],
+    [ "Register", "d1/de3/a24068.html#a25f275e84570f674071bfae03aeb0ddc", null ],
+    [ "Validate", "d1/de3/a24068.html#adc648151e2c61a61a0dc5883d9fa4ae0", null ]
 ];

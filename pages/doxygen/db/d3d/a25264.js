@@ -1,5 +1,5 @@
 var a25264 =
 [
-    [ "at_underbog_ghazan", "db/d3d/a25264.html#aa6c74496bb30bf04e66ac3cd06110811", null ],
-    [ "_OnTrigger", "db/d3d/a25264.html#aff03fc0bbded7bf7fa68d0c736bfaff2", null ]
+    [ "PrepareSpellScript", "db/d3d/a25264.html#a7478d96ac24bc4b70a10bc83335c9b76", null ],
+    [ "Register", "db/d3d/a25264.html#ab3ab9557cd1969fd977a3df6f2c59d7c", null ]
 ];

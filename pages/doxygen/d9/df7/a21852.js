@@ -1,11 +1,7 @@
 var a21852 =
 [
-    [ "npc_ulduar_expedition_engineerAI", "d9/df7/a21852.html#a48e29edad38f8ecbab54579203c93044", null ],
-    [ "Reset", "d9/df7/a21852.html#a8a68e3a58133913d0eb0bf9fd2532db2", null ],
-    [ "SetData", "d9/df7/a21852.html#a31db1ae61777b8f1a38d381e785ce158", null ],
-    [ "UpdateAI", "d9/df7/a21852.html#ab6d29aaae95038282fece78479448459", null ],
-    [ "fixingGUID", "d9/df7/a21852.html#ae0ba3ddbff054a948709e70f0bf9961a", null ],
-    [ "pInstance", "d9/df7/a21852.html#a6b858d46eda05493ec0cac22e174854c", null ],
-    [ "timer", "d9/df7/a21852.html#a926b343da3d3953d386b18f24bc72867", null ],
-    [ "working", "d9/df7/a21852.html#ab8e436472efd91f2d400c02c1b500746", null ]
+    [ "HandleScriptEffect", "d9/df7/a21852.html#ad3f1231ac90b96650b5c8c3403d69195", null ],
+    [ "PrepareSpellScript", "d9/df7/a21852.html#a1fdd85c5833bf6f17395f56e2ea11fed", null ],
+    [ "Register", "d9/df7/a21852.html#a278206630f9f45f2dba50b259a6115c1", null ],
+    [ "Validate", "d9/df7/a21852.html#a8f6332b2d4e7ac7ba6a68331b1d4512f", null ]
 ];

@@ -1,10 +1,12 @@
 var a00245 =
 [
-    [ "TypeList< HEAD, TAIL >", "dc/d65/a05195.html", "dc/d65/a05195" ],
-    [ "TYPELIST_1", "d6/d22/a00245.html#a6a7a6aa3dece450c8d239713e2952df7", null ],
-    [ "TYPELIST_2", "d6/d22/a00245.html#a311cb99af993804c6737ae46c5cbfaff", null ],
-    [ "TYPELIST_3", "d6/d22/a00245.html#a0309f68a543c5c0994f9edc0e56dc59f", null ],
-    [ "TYPELIST_4", "d6/d22/a00245.html#a7a156c571ab21a16b0495e1c882a07fa", null ],
-    [ "TYPELIST_5", "d6/d22/a00245.html#aad5d9b3c82c8503c85c625acd41c0a2f", null ],
-    [ "TYPELIST_6", "d6/d22/a00245.html#ac6f3277dcaade98ceeaa5c0e1c454816", null ]
+    [ "AddonInfo", "d7/d35/a05936.html", "d7/d35/a05936" ],
+    [ "SavedAddon", "da/d70/a05940.html", "da/d70/a05940" ],
+    [ "BannedAddon", "df/d42/a05944.html", "df/d42/a05944" ],
+    [ "STANDARD_ADDON_CRC", "d6/d22/a00245.html#a084249e215f787f3163d5d06ad2d256f", null ],
+    [ "BannedAddonList", "d6/d22/a00245.html#a2ea3deb6be3c64b7b58ed27ccf60c779", null ],
+    [ "GetAddonInfo", "d6/d22/a00245.html#a65cb6a88902972060e44c57d7d9ec738", null ],
+    [ "GetBannedAddons", "d6/d22/a00245.html#ad7d0938e7463238a86e8c811e1a58800", null ],
+    [ "LoadFromDB", "d6/d22/a00245.html#aaa12f5b754e6b664dbfb2428478bee03", null ],
+    [ "SaveAddon", "d6/d22/a00245.html#a85021021149b7eb4d78cbe81e43d3d45", null ]
 ];

@@ -1,6 +1,6 @@
 var a24320 =
 [
-    [ "spell_murmur_thundering_storm_SpellScript", "d2/d1e/a24324.html", "d2/d1e/a24324" ],
-    [ "spell_murmur_thundering_storm", "dc/d04/a24320.html#a6d31853ed1dc170d0d3efeaa0deb70f0", null ],
-    [ "GetSpellScript", "dc/d04/a24320.html#a865345e04150723d8ace07af13a30466", null ]
+    [ "HandleDamageCalc", "dc/d04/a24320.html#a9e0f6fe8bb10950c2130fb7d1f07017a", null ],
+    [ "PrepareSpellScript", "dc/d04/a24320.html#a183477b6269dbc705a10e60ab36c13b1", null ],
+    [ "Register", "dc/d04/a24320.html#ae93d958a3a439e3401685b0d2a570f0e", null ]
 ];

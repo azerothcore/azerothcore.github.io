@@ -1,7 +1,5 @@
 var a27200 =
 [
-    [ "CalculateAmount", "df/d7e/a27200.html#a40ba021accd581745f07f2586545853c", null ],
-    [ "Load", "df/d7e/a27200.html#aa963b658637360305bb5f3d59eb9d061", null ],
-    [ "PrepareAuraScript", "df/d7e/a27200.html#a8fedbff305709145a7c004787ee50402", null ],
-    [ "Register", "df/d7e/a27200.html#ade9b6a408a1d5a83bdadd5bd2b0fbb2a", null ]
+    [ "go_sacred_fire_of_life", "df/d7e/a27200.html#a7f14c8397803f8b21e492ec52c6d81e8", null ],
+    [ "OnGossipHello", "df/d7e/a27200.html#aaa078fffe5570fa532d27d1c4ea831a7", null ]
 ];

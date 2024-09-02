@@ -1,6 +1,6 @@
 var a19584 =
 [
-    [ "npc_arthas_teleport_visualAI", "df/dbd/a19588.html", "df/dbd/a19588" ],
-    [ "npc_arthas_teleport_visual", "de/df9/a19584.html#a62d2caed6b12355f6d7aeceabba2ddaf", null ],
-    [ "GetAI", "de/df9/a19584.html#a393d5ef960b9ee0cf8feeeeb5d81045d", null ]
+    [ "npc_living_constellationAI", "df/dbd/a19588.html", "df/dbd/a19588" ],
+    [ "npc_living_constellation", "de/df9/a19584.html#a6ee651a525498cb5715ccfedaa26e05d", null ],
+    [ "GetAI", "de/df9/a19584.html#a4533812a4da72c0d9eff6d6c9eaf772a", null ]
 ];

@@ -1,8 +1,11 @@
 var a27480 =
 [
-    [ "HandleFinish", "de/dd8/a27480.html#aac1981a16cbb61bfaf20c865bcfaf6a8", null ],
-    [ "PrepareSpellScript", "de/dd8/a27480.html#a73865997890d4f58cc09d54c2c4e5243", null ],
-    [ "Register", "de/dd8/a27480.html#a106cf5d53956b66f8f548caceda41dc8", null ],
-    [ "SelectTarget", "de/dd8/a27480.html#ab33513df20e942ba354932df5082efa8", null ],
-    [ "_target", "de/dd8/a27480.html#af25d11fc93423ee6e1678ebb5dcf1276", null ]
+    [ "npc_injured_patientAI", "de/dd8/a27480.html#a0973487623f1771c598648bc06a6d9a3", null ],
+    [ "JustEngagedWith", "de/dd8/a27480.html#a621a8cc3f6b9655760431d52766ca589", null ],
+    [ "Reset", "de/dd8/a27480.html#a007c9c7a4047374574cad17e9309d7c1", null ],
+    [ "SpellHit", "de/dd8/a27480.html#ac9381e7c958348ae7a5e98fea7dcbe37", null ],
+    [ "UpdateAI", "de/dd8/a27480.html#a54d0a5574175747779878dce0ebfd44f", null ],
+    [ "_scheduler", "de/dd8/a27480.html#a60428fa97c8f6520338d53ed368c4c35", null ],
+    [ "Coord", "de/dd8/a27480.html#af5a6f87c0379edd07a8756018b0c8661", null ],
+    [ "DoctorGUID", "de/dd8/a27480.html#ad1de0d556a784aa16d87b8367fdb38e3", null ]
 ];

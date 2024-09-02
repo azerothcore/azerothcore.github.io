@@ -1,7 +1,7 @@
 var a20960 =
 [
-    [ "OnPeriodic", "dd/d0f/a20960.html#a61d444dfcedd84d67a25f4fbd2b9494b", null ],
-    [ "OnRemove", "dd/d0f/a20960.html#aa7522b4b63137dce61ab07577a36f385", null ],
-    [ "PrepareAuraScript", "dd/d0f/a20960.html#a313883fe121ad981aa2b593198e408a4", null ],
-    [ "Register", "dd/d0f/a20960.html#a2eae4edaa1e3bbe19e58b0da028c7c2b", null ]
+    [ "npc_frost_tombAI", "dd/d0f/a20960.html#a950f7f77bdbc7ba1db0911641f2fadcf", null ],
+    [ "JustDied", "dd/d0f/a20960.html#aeda420de208505fa93fc548693a1ff74", null ],
+    [ "UpdateAI", "dd/d0f/a20960.html#a8f323275af4ecafd1978c465e75978e0", null ],
+    [ "PrisonerGUID", "dd/d0f/a20960.html#ae1e3af77879f98a77186ec77c31da7a8", null ]
 ];

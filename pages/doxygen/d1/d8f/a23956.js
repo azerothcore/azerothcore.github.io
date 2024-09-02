@@ -1,8 +1,9 @@
 var a23956 =
 [
-    [ "HandleFinish", "d1/d8f/a23956.html#a27600802c43f97721184bb901432fd20", null ],
-    [ "Load", "d1/d8f/a23956.html#afeb43e1459b808bac842306a78009c0d", null ],
-    [ "PrepareSpellScript", "d1/d8f/a23956.html#ac24cdef45940877cff1b5b2da7863d8b", null ],
-    [ "Register", "d1/d8f/a23956.html#affadd3fb72dadaa734616a858c752e25", null ],
-    [ "handled", "d1/d8f/a23956.html#ab060d9944bc88938b24645760b2b9c16", null ]
+    [ "npc_aeranasAI", "d1/d8f/a23956.html#a2142cebc84e64919fa5c2ef630453282", null ],
+    [ "Reset", "d1/d8f/a23956.html#a2c1bbe079c065745782adfa13b030515", null ],
+    [ "UpdateAI", "d1/d8f/a23956.html#ae192a3b38c0ec65cddfce3b95d15555a", null ],
+    [ "envelopingWinds_Timer", "d1/d8f/a23956.html#a566b5d648abe630efc191f9d6d4938a2", null ],
+    [ "faction_Timer", "d1/d8f/a23956.html#aac071887c100f91cc7ffc545ea6439d9", null ],
+    [ "shock_Timer", "d1/d8f/a23956.html#aba8ad016f0e470b07163fef07b603380", null ]
 ];

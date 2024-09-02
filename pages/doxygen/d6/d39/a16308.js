@@ -1,6 +1,6 @@
 var a16308 =
 [
-    [ "spell_halion_twilight_cutter_periodic_AuraScript", "d6/dd6/a16312.html", "d6/dd6/a16312" ],
-    [ "spell_halion_twilight_cutter_periodic", "d6/d39/a16308.html#ad0b79bcd216563ec6c42a985f523b055", null ],
-    [ "GetAuraScript", "d6/d39/a16308.html#a63f6882ac06a86719a105fef05f5bd01", null ]
+    [ "npc_toc_enh_shamanAI", "d6/dd6/a16312.html", "d6/dd6/a16312" ],
+    [ "npc_toc_enh_shaman", "d6/d39/a16308.html#ac328b63a988d2cd8640237b250c338a8", null ],
+    [ "GetAI", "d6/d39/a16308.html#a4501c9289a06750d8f153f89565b12f3", null ]
 ];

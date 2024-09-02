@@ -1,7 +1,7 @@
 var a16304 =
 [
-    [ "OnApply", "d4/d5f/a16304.html#ae0ab8c526985e5a688e862ee7208b2db", null ],
-    [ "OnRemove", "d4/d5f/a16304.html#a19fc3e0f3a8045c7428411d41186a880", null ],
-    [ "PrepareAuraScript", "d4/d5f/a16304.html#a692bff5559658e3076d56a0fc3c7c878", null ],
-    [ "Register", "d4/d5f/a16304.html#adee13380d5777691257ba3f817807285", null ]
+    [ "npc_toc_rogueAI", "d4/d5f/a16304.html#a34027e7d10edbfba8e046f4785e37899", null ],
+    [ "myCanCast", "d4/d5f/a16304.html#a85ed8e251dd8356e678536f1e3f3c93d", null ],
+    [ "UpdateAI", "d4/d5f/a16304.html#a49b0655def227684f07bd60a3c1e0ce1", null ],
+    [ "events", "d4/d5f/a16304.html#a1519bebb81b64d57b2b0b34a059b83f8", null ]
 ];

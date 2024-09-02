@@ -1,8 +1,7 @@
 var a13676 =
 [
-    [ "boss_lord_raadanAI", "d1/d53/a13676.html#aba5e41836a1f666dd2cec379113d9d60", null ],
-    [ "Reset", "d1/d53/a13676.html#a37074e7600a1eca8dc2dd51123c7a2cd", null ],
-    [ "UpdateAI", "d1/d53/a13676.html#a1dd2c16a7b1363ea39ad10bfc51de1a2", null ],
-    [ "flamebreath_timer", "d1/d53/a13676.html#a312a486bbfd2bc0a7c731814f0979df0", null ],
-    [ "thunderclap_timer", "d1/d53/a13676.html#a6dc87fef0ed6cc04249325f1eb4f0de8", null ]
+    [ "npc_janalai_eggAI", "d1/d53/a13676.html#a75bf6d0c7fdb09ace4352cde99edda81", null ],
+    [ "Reset", "d1/d53/a13676.html#aad93238c8c26d678da6df2d0191d3763", null ],
+    [ "SpellHit", "d1/d53/a13676.html#a2e097705ad9710b22be38931df30bcc3", null ],
+    [ "UpdateAI", "d1/d53/a13676.html#a4aa8bfac1e4584497d48097535cc77d3", null ]
 ];

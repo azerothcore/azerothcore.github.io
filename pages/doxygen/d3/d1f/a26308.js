@@ -1,6 +1,6 @@
 var a26308 =
 [
-    [ "npc_shattrathflaskvendors", "d3/d1f/a26308.html#ab74b234406c2022bf519242a7842458a", null ],
-    [ "OnGossipHello", "d3/d1f/a26308.html#af165d6f4640b41a92b36d77c1f1c1161", null ],
-    [ "OnGossipSelect", "d3/d1f/a26308.html#ad9eb60422dfc663e6d020a630c09ee05", null ]
+    [ "HandleEffectApply", "d3/d1f/a26308.html#a111ce5c9e70ed563bc7b9c2ec8e79b76", null ],
+    [ "PrepareAuraScript", "d3/d1f/a26308.html#a707504eccf42af77f6e6e927d208bc8c", null ],
+    [ "Register", "d3/d1f/a26308.html#a7aeaa28997bbe966274a738cf45323ed", null ]
 ];

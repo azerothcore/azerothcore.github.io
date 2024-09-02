@@ -1,7 +1,6 @@
 var a22072 =
 [
-    [ "OnPeriodic", "de/df4/a22072.html#abcada8e91ea16ca5a6c619e0952d0761", null ],
-    [ "OnRemove", "de/df4/a22072.html#a0ed6348923f94fe03ccdd7408f11a72f", null ],
-    [ "PrepareAuraScript", "de/df4/a22072.html#a401fb258247ce4da3b4772d2af628fef", null ],
-    [ "Register", "de/df4/a22072.html#ac73c96f04c8c11a23dafd293bfa5654d", null ]
+    [ "npc_blessed_bannerAI", "d0/d68/a22076.html", "d0/d68/a22076" ],
+    [ "npc_blessed_banner", "de/df4/a22072.html#a779a0c653088b2d206226e146a19101f", null ],
+    [ "GetAI", "de/df4/a22072.html#a43dabbf2f2d54ae201cde37df792a41d", null ]
 ];

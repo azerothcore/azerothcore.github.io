@@ -1,5 +1,7 @@
 var a00530 =
 [
-    [ "AuthSocketMgr", "dd/df2/a05555.html", "dd/df2/a05555" ],
-    [ "sAuthSocketMgr", "da/d7e/a00530.html#abd297ee25e8d77bf56f22d43561d9451", null ]
+    [ "AddTime", "da/d7e/a00530.html#aae074176c44fa3d99280320c869fde46", null ],
+    [ "GetTime", "da/d7e/a00530.html#ae44f550ac340528abe454269c2273d73", null ],
+    [ "IsCorrectDelay", "da/d7e/a00530.html#a18121c73cd31656af9ee5e5da754e4bd", null ],
+    [ "_players", "da/d7e/a00530.html#af8ad5db2c36ddfbca0b6b18e3478c2c5", null ]
 ];

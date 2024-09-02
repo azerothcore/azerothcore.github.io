@@ -1,6 +1,7 @@
 var a21508 =
 [
-    [ "FilterTargets", "db/d1d/a21508.html#ae93d9d0fadebf31c9bf2fb0e36f6b92b", null ],
-    [ "PrepareSpellScript", "db/d1d/a21508.html#a08c862eacb59c7681901c4ab1338649c", null ],
-    [ "Register", "db/d1d/a21508.html#a8861c6463a35fa3aaf4acecbdbf987be", null ]
+    [ "npc_mootoo_the_youngerAI", "db/d1d/a21508.html#a70a5a502dab9a90a790a90eabc5c3acd", null ],
+    [ "JustDied", "db/d1d/a21508.html#a766612f646a6d22d3f0e6f93298e34bc", null ],
+    [ "Reset", "db/d1d/a21508.html#a04624b9b4d552d6b27308edc3ad44644", null ],
+    [ "WaypointReached", "db/d1d/a21508.html#ac758a992ed0d62a272930c84d617b348", null ]
 ];

@@ -1,6 +1,6 @@
 var a16372 =
 [
-    [ "HandleDummy", "d8/d80/a16372.html#aff3caae92f57b78038cb9d133cff4258", null ],
-    [ "PrepareSpellScript", "d8/d80/a16372.html#a9bdf8118c902f63feb984584687608b0", null ],
-    [ "Register", "d8/d80/a16372.html#aab014d01d3541aca393a53daa115608f", null ]
+    [ "spell_toc25_mistress_kiss_AuraScript", "df/dae/a16376.html", "df/dae/a16376" ],
+    [ "spell_toc25_mistress_kiss", "d8/d80/a16372.html#a5e6df0da2d89b2ca71c6fc49790b3314", null ],
+    [ "GetAuraScript", "d8/d80/a16372.html#ae4fbeb690e0fceb92fa565e2b7358592", null ]
 ];

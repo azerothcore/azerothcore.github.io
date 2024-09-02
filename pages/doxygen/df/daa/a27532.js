@@ -1,6 +1,6 @@
 var a27532 =
 [
-    [ "HandleDummyTick", "df/daa/a27532.html#a000f8fd84e7292ac759b64a8a25d3ca2", null ],
-    [ "PrepareAuraScript", "df/daa/a27532.html#a2848e44f1520cc32af916a8e6578c3ea", null ],
-    [ "Register", "df/daa/a27532.html#a4a13827baeb7ed4f2681ab114d44eb37", null ]
+    [ "npc_experience", "df/daa/a27532.html#a48ea13099fd32bcae1543a152de0bdf4", null ],
+    [ "OnGossipHello", "df/daa/a27532.html#a78fccaa36d1c42e33774a9b23f867a72", null ],
+    [ "OnGossipSelect", "df/daa/a27532.html#a140ece91c8b6d91bd91d64d6e9b625e8", null ]
 ];

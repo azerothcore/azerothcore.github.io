@@ -1,5 +1,6 @@
 var a15360 =
 [
-    [ "go_ravager_cage", "d7/de9/a15360.html#a632c767a4ab0075ee40d40e977fe7c18", null ],
-    [ "OnGossipHello", "d7/de9/a15360.html#a83c9086cefea0d6d11a5de7a781d84db", null ]
+    [ "SpellId", "d7/de9/a15360.html#a2c430be201c1fd866ee96224f1803a20", null ],
+    [ "Timer1", "d7/de9/a15360.html#a9a35c148286e88f48b174be8b74fc5d0", null ],
+    [ "Timer2", "d7/de9/a15360.html#a108dee679b1f5d9fb8351f7b4b4f3a56", null ]
 ];

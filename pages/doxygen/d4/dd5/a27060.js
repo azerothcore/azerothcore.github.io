@@ -1,6 +1,5 @@
 var a27060 =
 [
-    [ "HandleDummy", "d4/dd5/a27060.html#a9f9c27bdfed0a457f7e851c8598f3625", null ],
-    [ "PrepareSpellScript", "d4/dd5/a27060.html#ab666b72cd7cb0ef92ba6c417be5ac7cc", null ],
-    [ "Register", "d4/dd5/a27060.html#a7b78161fda34b3dc3c844c392ce7e30e", null ]
+    [ "MarkOfNatureTargetSelector", "d4/dd5/a27060.html#ae737da5ff93360fde8c4c818f41d7853", null ],
+    [ "operator()", "d4/dd5/a27060.html#a1515fd40dcccaba5947e93eabf241336", null ]
 ];

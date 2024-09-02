@@ -1,6 +1,8 @@
 var a22372 =
 [
-    [ "spell_yogg_saron_grim_reprisal_AuraScript", "d8/dee/a22376.html", "d8/dee/a22376" ],
-    [ "spell_yogg_saron_grim_reprisal", "de/d72/a22372.html#a05984d6fab833dae40537e5acd8772da", null ],
-    [ "GetAuraScript", "de/d72/a22372.html#a4481bc9ec41278a6c2ff8f64688f138a", null ]
+    [ "npc_feedin_da_goolzAI", "de/d72/a22372.html#ada9ba6b4a0dfa5858b76986f8ebaa5d0", null ],
+    [ "UpdateAI", "de/d72/a22372.html#a7cbe5e54620e2356601c09effbe22928", null ],
+    [ "checkTimer", "de/d72/a22372.html#a834f91e84fc2dff6a07e46f0b677de3e", null ],
+    [ "findTimer", "de/d72/a22372.html#a91b49f7c12fed4ddd958171187ccfb47", null ],
+    [ "ghoulFed", "de/d72/a22372.html#adf256f6a4311f8b7cf6758259cc78f3f", null ]
 ];

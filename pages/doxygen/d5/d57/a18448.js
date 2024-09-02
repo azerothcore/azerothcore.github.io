@@ -1,6 +1,8 @@
 var a18448 =
 [
-    [ "spell_putricide_slime_puddle_SpellScript", "df/d00/a18452.html", "df/d00/a18452" ],
-    [ "spell_putricide_slime_puddle", "d5/d57/a18448.html#a861586ec63f0d8dc9965be77f48a99e2", null ],
-    [ "GetSpellScript", "d5/d57/a18448.html#a2b44cd2d919031e8665517a1e478817e", null ]
+    [ "npc_rotting_frost_giantAI", "d5/d57/a18448.html#a7b412075e17a81bf50aba63f96c16e53", null ],
+    [ "JustDied", "d5/d57/a18448.html#a68b4e823de82fdfd31ccf765192e8768", null ],
+    [ "Reset", "d5/d57/a18448.html#ae96994e7c02a1fb8df8ef9fe80d7bc41", null ],
+    [ "UpdateAI", "d5/d57/a18448.html#a7bb99a6ff894c085bf3fb2e2708f3914", null ],
+    [ "_events", "d5/d57/a18448.html#ab061ea54c2b36f6f1c2ec7841202e684", null ]
 ];

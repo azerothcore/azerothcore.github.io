@@ -1,6 +1,7 @@
 var a14632 =
 [
-    [ "npc_bansheeAI", "dd/d35/a14636.html", "dd/d35/a14636" ],
-    [ "npc_banshee", "d3/d7b/a14632.html#a6d5246deabcfce1e12112d6b23f13b69", null ],
-    [ "GetAI", "d3/d7b/a14632.html#a5854c90440b8bedd5e2f61b039946ce4", null ]
+    [ "npc_tarethaAI", "dd/d35/a14636.html", "dd/d35/a14636" ],
+    [ "npc_taretha", "d3/d7b/a14632.html#a54379e06518ff972e91e25e295731f5a", null ],
+    [ "GetAI", "d3/d7b/a14632.html#a5045bb7119b12800ee0053818fcae5fe", null ],
+    [ "OnGossipHello", "d3/d7b/a14632.html#ac689e97b3fd54e9c9e40ed5b9aeca099", null ]
 ];

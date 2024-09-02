@@ -1,6 +1,6 @@
 var a18188 =
 [
-    [ "spell_igb_periodic_trigger_with_power_cost_AuraScript", "d4/d90/a18192.html", "d4/d90/a18192" ],
-    [ "spell_igb_periodic_trigger_with_power_cost", "d3/d88/a18188.html#a98148d3002ff8c3615b77bbdde33618a", null ],
-    [ "GetAuraScript", "d3/d88/a18188.html#a3d6b6f45db80521f2a59fa6044e419e0", null ]
+    [ "ModDestHeight", "d3/d88/a18188.html#aafab48e58a2eb18c286f71fa907e9bc8", null ],
+    [ "PrepareSpellScript", "d3/d88/a18188.html#a3c84b7044f448a5596e18f72e7b2f11a", null ],
+    [ "Register", "d3/d88/a18188.html#ad3900c969dfb05a61ebc750eb3425bc0", null ]
 ];

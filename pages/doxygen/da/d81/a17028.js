@@ -1,6 +1,7 @@
 var a17028 =
 [
-    [ "spell_dtk_summon_random_drakkari_SpellScript", "d1/d59/a17032.html", "d1/d59/a17032" ],
-    [ "spell_dtk_summon_random_drakkari", "da/d81/a17028.html#ad90bf4e8a154773ee4f47ad3b89ad5b0", null ],
-    [ "GetSpellScript", "da/d81/a17028.html#afa275adfb26c6849750a0fe29b0bf8bf", null ]
+    [ "HandleDummy", "da/d81/a17028.html#ab614c27fbeb0fc6cac42c3e8f981e11d", null ],
+    [ "PrepareSpellScript", "da/d81/a17028.html#a3ef0564565ea49265800422c835432b0", null ],
+    [ "Register", "da/d81/a17028.html#a7b685926a8d511397889616e97bbd563", null ],
+    [ "Validate", "da/d81/a17028.html#aecd40c136e44dfc9c5e4dd572d577578", null ]
 ];

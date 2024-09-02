@@ -1,6 +1,7 @@
 var a23544 =
 [
-    [ "npc_plaguehound_trackerAI", "d2/d1d/a23544.html#a7530f500b42ad9bb38593193d3113da8", null ],
-    [ "Reset", "d2/d1d/a23544.html#a05c351ab3aca0cd18209405075bb0f47", null ],
-    [ "WaypointReached", "d2/d1d/a23544.html#a67c345f49572cde76d9109a1baff6788", null ]
+    [ "FilterTargets", "d2/d1d/a23544.html#a921450a09e51585beb9dd2ce9b00bac9", null ],
+    [ "HandleHit", "d2/d1d/a23544.html#adb30857a5a320bb24b8cc0bcb9d60040", null ],
+    [ "PrepareSpellScript", "d2/d1d/a23544.html#a376618b9811b2e1ec18697431094e22f", null ],
+    [ "Register", "d2/d1d/a23544.html#ae7f4f54446d5a1ebb20d49ab9deaed81", null ]
 ];

@@ -1,6 +1,6 @@
 var a19656 =
 [
-    [ "PrepareSpellScript", "df/deb/a19656.html#ac699ce446f257197fbc4b0c46511ebf8", null ],
-    [ "Register", "df/deb/a19656.html#ab9771f4a92bbbad067c8bfb41c537757", null ],
-    [ "RelocateDest", "df/deb/a19656.html#a8c8937991e4a78b4380090bfe2f4ea67", null ]
+    [ "CastRunesEvent", "df/deb/a19656.html#aa3c5912362a4ce8a5b463da626f277b0", null ],
+    [ "Execute", "df/deb/a19656.html#ad86f17817c8a5accb1cc90e0e5d362f3", null ],
+    [ "_owner", "df/deb/a19656.html#a308c679c6e427e89734b5f506ad9d0d6", null ]
 ];

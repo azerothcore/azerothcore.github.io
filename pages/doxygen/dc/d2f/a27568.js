@@ -1,7 +1,9 @@
 var a27568 =
 [
-    [ "HandleScriptEffect", "dc/d2f/a27568.html#a3ad488a1b6115bb1ec8cfe6717d3b4cf", null ],
-    [ "Load", "dc/d2f/a27568.html#af89783564da25769be15e22291717f6a", null ],
-    [ "PrepareSpellScript", "dc/d2f/a27568.html#a1e7e4137712fcaa378d1ac7ff1b0a6c7", null ],
-    [ "Register", "dc/d2f/a27568.html#addbe722d9f3727578f817789e3010bab", null ]
+    [ "npc_arcanite_dragonling", "dc/d2f/a27568.html#a9b7e4cefa312a16c90018d655ad94758", null ],
+    [ "CanAIAttack", "dc/d2f/a27568.html#a374e127ef749dc72ec70137bcd13a0b9", null ],
+    [ "IsSummonedBy", "dc/d2f/a27568.html#a921b35a91c4f21258efdb41fd87413db", null ],
+    [ "JustEngagedWith", "dc/d2f/a27568.html#a65f6d779681861117f750b70154b3e0d", null ],
+    [ "Reset", "dc/d2f/a27568.html#a4468d91430add821bf7a7ab11d8063da", null ],
+    [ "UpdateAI", "dc/d2f/a27568.html#aebe430b9a3079a5ccbfd979a74e532f3", null ]
 ];

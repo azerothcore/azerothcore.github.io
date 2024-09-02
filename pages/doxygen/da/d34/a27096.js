@@ -1,6 +1,5 @@
 var a27096 =
 [
-    [ "HandleEffectPeriodicUpdate", "da/d34/a27096.html#a554353fede78b89bf488230254d7892b", null ],
-    [ "PrepareAuraScript", "da/d34/a27096.html#adf20aaafff83bae614ff3c614a08a54b", null ],
-    [ "Register", "da/d34/a27096.html#a6ee55cc41f7b69fc12bb3dc6c7fcbaf5", null ]
+    [ "go_arena_ready_marker", "da/d34/a27096.html#a614ee8efff31d928a9f4547d60b6a6a6", null ],
+    [ "OnGossipHello", "da/d34/a27096.html#a9f51ead2b56d51427ff23be9688388d8", null ]
 ];

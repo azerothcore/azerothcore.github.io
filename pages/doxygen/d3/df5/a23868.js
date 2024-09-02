@@ -1,6 +1,6 @@
 var a23868 =
 [
-    [ "npc_icefangAI", "d9/d18/a23872.html", "d9/d18/a23872" ],
-    [ "npc_icefang", "d3/df5/a23868.html#a2e13be89b110abaa2509e597e4cf883a", null ],
-    [ "GetAI", "d3/df5/a23868.html#ad1a936b1eef30271912054a817e0c9f8", null ]
+    [ "HandlePeriodic", "d3/df5/a23868.html#a0838d4449351f46a1f9f485abaf35c2b", null ],
+    [ "PrepareAuraScript", "d3/df5/a23868.html#a438425f3002028a0978e0dbab580ca03", null ],
+    [ "Register", "d3/df5/a23868.html#af4b26607e8838b7bbbe8777f57601341", null ]
 ];

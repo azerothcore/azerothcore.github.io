@@ -1,6 +1,6 @@
 var a17640 =
 [
-    [ "boss_prince_kelesethAI", "db/dbd/a17644.html", "db/dbd/a17644" ],
-    [ "boss_prince_keleseth_icc", "d8/d6e/a17640.html#a0df14bbfc96b1d6eff19633716cea9f9", null ],
-    [ "GetAI", "d8/d6e/a17640.html#ae5a03bbe1d85b9bc865026f05a99545e", null ]
+    [ "npc_coldflameAI", "db/dbd/a17644.html", "db/dbd/a17644" ],
+    [ "npc_coldflame", "d8/d6e/a17640.html#a573b887358e2ba2281c4c119a267c33f", null ],
+    [ "GetAI", "d8/d6e/a17640.html#ac33d0528cdc3c3a0fb7acc4d46b1c2b1", null ]
 ];

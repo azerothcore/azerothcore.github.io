@@ -1,6 +1,6 @@
 var a14356 =
 [
-    [ "npc_midsummer_bonfire", "da/d50/a14356.html#a07c8b1add555697fdb29fda89f42c4af", null ],
-    [ "SpellHit", "da/d50/a14356.html#a034c8022198805ac6013f857cc5c43de", null ],
-    [ "goGUID", "da/d50/a14356.html#af31285399f8d117d2f7d40c20bc60ee2", null ]
+    [ "PrepareAuraScript", "da/d50/a14356.html#a80660b1417ab33edaf2c4cd517e10e30", null ],
+    [ "RecalculateHook", "da/d50/a14356.html#af3952993947dfb24381083d21a9e64cb", null ],
+    [ "Register", "da/d50/a14356.html#ab7f0aa924dfe8043e44cd794f72e4555", null ]
 ];

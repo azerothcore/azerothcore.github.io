@@ -1,8 +1,7 @@
 var a23836 =
 [
-    [ "AfterRemove", "d7/db3/a23836.html#af8f8c4db119b5522657a50ed644c73c7", null ],
-    [ "HandlePeriodic", "d7/db3/a23836.html#abd98fe2db991f2473f7a029754a73392", null ],
-    [ "OnApply", "d7/db3/a23836.html#aa22cca375661b7acf7c6f2154806ad7c", null ],
-    [ "PrepareAuraScript", "d7/db3/a23836.html#af085aafe496fb20a5812273c4fbc5999", null ],
-    [ "Register", "d7/db3/a23836.html#a92079c67944124d07a1d6c73744a120e", null ]
+    [ "boss_gatewatcher_gyrokill", "d7/db3/a23836.html#a82335081dd79f7a0aa1dc0c26bd878fb", null ],
+    [ "JustDied", "d7/db3/a23836.html#a4bbfb59c2a687ebb3e88bde9784af38e", null ],
+    [ "JustEngagedWith", "d7/db3/a23836.html#a95d3ae80f87be9d972ecb056e0b85412", null ],
+    [ "KilledUnit", "d7/db3/a23836.html#a274355d0303d9bf5761758f175826bd1", null ]
 ];

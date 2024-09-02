@@ -1,6 +1,6 @@
 var a17000 =
 [
-    [ "spell_trollgore_invader_taunt_SpellScript", "de/d22/a17004.html", "de/d22/a17004" ],
-    [ "spell_trollgore_invader_taunt", "da/d39/a17000.html#af4055ce1ebaa788dc45a9e6a29f9bbaf", null ],
-    [ "GetSpellScript", "da/d39/a17000.html#ae739e0b2f5d6b0ca3a459f6ea1dbed44", null ]
+    [ "entry", "da/d39/a17000.html#af2cf5df64adf9ac1575a8217b103e738", null ],
+    [ "x", "da/d39/a17000.html#aad21475d521921ea30cc0ae5d260ce69", null ],
+    [ "y", "da/d39/a17000.html#abd69e1c28ad36466c82807ea0ffb0fb7", null ]
 ];

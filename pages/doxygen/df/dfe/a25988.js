@@ -1,6 +1,8 @@
 var a25988 =
 [
-    [ "OnPeriodic", "df/dfe/a25988.html#af0e0091f1728592fb796c0eb96ab17c3", null ],
-    [ "PrepareAuraScript", "df/dfe/a25988.html#a7c1a4bf303dfd22f01fce3ffb9bd81a2", null ],
-    [ "Register", "df/dfe/a25988.html#a31752f9ce5796e43f0ba7f9803b9a1aa", null ]
+    [ "HandleApply", "df/dfe/a25988.html#aafdf3712f163919f010d11d0becb398f", null ],
+    [ "HandleRemove", "df/dfe/a25988.html#ac3e33cb37d13b633f3938a48917a4975", null ],
+    [ "PrepareAuraScript", "df/dfe/a25988.html#a42590a0ef43a48c5309f995f9bec5c9b", null ],
+    [ "Register", "df/dfe/a25988.html#a84e7337494dc2e1772ca10dea26c675f", null ],
+    [ "Validate", "df/dfe/a25988.html#ac2558aafb3ce66ca7bbfd718eb8c6338", null ]
 ];

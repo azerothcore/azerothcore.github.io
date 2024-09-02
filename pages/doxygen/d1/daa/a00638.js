@@ -1,6 +1,6 @@
 var a00638 =
 [
-    [ "GetLibraryVersion", "d1/daa/a00638.html#aefa4bd51f34aad2d1a141c00a2310092", null ],
-    [ "Library_End", "d1/daa/a00638.html#aff44554b66bd7ef0e21f1db5beb0b81a", null ],
-    [ "Library_Init", "d1/daa/a00638.html#a70b74137156f0a22792c3cf95c54decc", null ]
+    [ "Bag", "d0/dd0/a08060.html", "d0/dd0/a08060" ],
+    [ "MAX_BAG_SIZE", "d1/daa/a00638.html#a60a065b8fab298fb24dfd8f22f657d77", null ],
+    [ "NewItemOrBag", "d1/daa/a00638.html#a6b74a54b7de3ced0e27f4128f0d95c64", null ]
 ];

@@ -1,6 +1,5 @@
 var a23576 =
 [
-    [ "npc_lord_areteAI", "d3/d04/a23580.html", "d3/d04/a23580" ],
-    [ "npc_lord_arete", "db/d9f/a23576.html#a929e3f3346bf4dbaee127463eaf4ffcc", null ],
-    [ "GetAI", "db/d9f/a23576.html#a212d003e9acb5f141197b5c4d10163a4", null ]
+    [ "at_rp_nethekurse", "db/d9f/a23576.html#ac0a1891f90b674ad0ccbeb27f170e643", null ],
+    [ "_OnTrigger", "db/d9f/a23576.html#a93001d6dda7b2711f1efe100ffab5879", null ]
 ];

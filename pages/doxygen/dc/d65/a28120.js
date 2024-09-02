@@ -1,6 +1,8 @@
 var a28120 =
 [
-    [ "HandleDummy", "dc/d65/a28120.html#a1e9ecf50304f5ccd8578befea898bf81", null ],
-    [ "PrepareSpellScript", "dc/d65/a28120.html#a9cf7d1dd37f6df4651ffc83e6aa0b1c0", null ],
-    [ "Register", "dc/d65/a28120.html#a98a5ad12cdb54f48d6014fda3915fd70", null ]
+    [ "areaTriggerText", "dc/d65/a28120.html#a32bb8c4a4defce661d108627e25b645a", null ],
+    [ "Difficulty", "dc/d65/a28120.html#add8ed75cd6aaa3412e6222b869bb4113", null ],
+    [ "MapId", "dc/d65/a28120.html#aa107ad302ec2aa3ce2289ba392e1c32e", null ],
+    [ "maxPlayers", "dc/d65/a28120.html#a7ab33229ffee11a27861439053c79831", null ],
+    [ "resetTime", "dc/d65/a28120.html#a891a741efb049b51996e1a6110efc52d", null ]
 ];

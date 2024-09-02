@@ -1,6 +1,6 @@
 var a17700 =
 [
-    [ "HandleDummyTick", "d2/d3f/a17700.html#a4a065b32bd82417cf60f0c1cbdebaeb0", null ],
-    [ "PrepareAuraScript", "d2/d3f/a17700.html#a7e5a00e842e88d176605a465617b834c", null ],
-    [ "Register", "d2/d3f/a17700.html#afb8c4f4b7cf46adfd637dd2c70cb249e", null ]
+    [ "npc_volatile_oozeAI", "d8/d85/a17704.html", "d8/d85/a17704" ],
+    [ "npc_volatile_ooze", "d2/d3f/a17700.html#a22847e44812a0b13b92cfcca3a70204e", null ],
+    [ "GetAI", "d2/d3f/a17700.html#a66b4918c14d90d5550ddc8dbe90c2e01", null ]
 ];

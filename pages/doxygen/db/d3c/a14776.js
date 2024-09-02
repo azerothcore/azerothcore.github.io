@@ -1,6 +1,7 @@
 var a14776 =
 [
-    [ "npc_cos_stratholme_citizienAI", "d6/d8c/a14780.html", "d6/d8c/a14780" ],
-    [ "npc_cos_stratholme_citizien", "db/d3c/a14776.html#a92f8d88ecfa9cc47d6799107e5de0107", null ],
-    [ "GetAI", "db/d3c/a14776.html#a4f5f132b903241021a4e53dd60c0f43b", null ]
+    [ "HandleScript", "db/d3c/a14776.html#ad1654a408e94012a0ac2ade09d61a63e", null ],
+    [ "PrepareSpellScript", "db/d3c/a14776.html#a53e1a8632ca51beefe4fc97a3e471ad7", null ],
+    [ "Register", "db/d3c/a14776.html#aff966352a2babe6e6daed91f02e1190a", null ],
+    [ "Validate", "db/d3c/a14776.html#a6ffcf81642f31ee93f3ec213cdc8f92e", null ]
 ];

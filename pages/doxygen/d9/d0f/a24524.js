@@ -1,6 +1,7 @@
 var a24524 =
 [
-    [ "spell_mother_shahraz_fatal_attraction_aura_AuraScript", "d3/d6a/a24528.html", "d3/d6a/a24528" ],
-    [ "spell_mother_shahraz_fatal_attraction_aura", "d9/d0f/a24524.html#ae31acaf46ab8bc8414df3c2c9e7b6410", null ],
-    [ "GetAuraScript", "d9/d0f/a24524.html#aced41a7e3a1a79d36c1783284fc74bac", null ]
+    [ "CheckClass", "d9/d0f/a24524.html#a931d7a6aa2f1b574c225d3e803edbab4", null ],
+    [ "HandleScript", "d9/d0f/a24524.html#a4f4f7004be5629efdc48b52b6667edba", null ],
+    [ "PrepareSpellScript", "d9/d0f/a24524.html#a599ce758681c5196bd40e4c7b86635cc", null ],
+    [ "Register", "d9/d0f/a24524.html#ab184b23aa446c826db39928eb3ff3ecc", null ]
 ];

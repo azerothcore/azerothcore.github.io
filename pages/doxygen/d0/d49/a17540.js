@@ -1,6 +1,7 @@
 var a17540 =
 [
-    [ "spell_drakkari_colossus_face_me_SpellScript", "d6/d8c/a17544.html", "d6/d8c/a17544" ],
-    [ "spell_drakkari_colossus_face_me", "d0/d49/a17540.html#a5c2c6cc7a2b8112cb081725ac8e4a0a5", null ],
-    [ "GetSpellScript", "d0/d49/a17540.html#ac83d381f3113c27ca09bef54d6b22cc4", null ]
+    [ "FilterTargets", "d0/d49/a17540.html#a77afd0b56c9bddd74999d5df30457b7f", null ],
+    [ "HandleDummy", "d0/d49/a17540.html#a04166e4e5a4ba082755433555855cb30", null ],
+    [ "PrepareSpellScript", "d0/d49/a17540.html#aaefa58014db12fb76e3416ae807c69e8", null ],
+    [ "Register", "d0/d49/a17540.html#a497ee30669d45341023abe549c91ddaf", null ]
 ];

@@ -1,6 +1,6 @@
 var a14684 =
 [
-    [ "IsBoss", "d1/d59/a14684.html#ae0472288bba023e2559d34950108c8ce", null ],
-    [ "Mob", "d1/d59/a14684.html#a81faea0b5e3ba3ec626031aeb0fbbda4", null ],
-    [ "WaveTimer", "d1/d59/a14684.html#a7e0e6c1a0cdac6240f541e477d41ffdb", null ]
+    [ "instance_dire_maul_InstanceMapScript", "de/d8e/a14688.html", "de/d8e/a14688" ],
+    [ "instance_dire_maul", "d1/d59/a14684.html#a54ac2c7095a99481c7efbe4237533fac", null ],
+    [ "GetInstanceScript", "d1/d59/a14684.html#a7fc2511e0c9475512286006f0bbaed0b", null ]
 ];

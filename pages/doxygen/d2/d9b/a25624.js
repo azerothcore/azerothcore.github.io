@@ -1,6 +1,8 @@
 var a25624 =
 [
-    [ "boss_wrath_scryer_soccothratesAI", "d5/d8a/a25628.html", "d5/d8a/a25628" ],
-    [ "boss_wrath_scryer_soccothrates", "d2/d9b/a25624.html#a6b548bf12eeeb5c8f0f7584549dabf8f", null ],
-    [ "GetAI", "d2/d9b/a25624.html#aa399f214d7f3410840408837cbaa4642", null ]
+    [ "HandleDummy", "d2/d9b/a25624.html#ad303a5c1bbbab3766bd5e9ab753b2a01", null ],
+    [ "Load", "d2/d9b/a25624.html#a054d9083b24183f4427fc0cb4985ba62", null ],
+    [ "PrepareSpellScript", "d2/d9b/a25624.html#aa4904ed55b5e216e0af5e32508372d4e", null ],
+    [ "Register", "d2/d9b/a25624.html#a5679f34290f90dbcaf15f09eca0fb20f", null ],
+    [ "Validate", "d2/d9b/a25624.html#a0a01f5e290b91e58b4b0f8ba443eb7bf", null ]
 ];

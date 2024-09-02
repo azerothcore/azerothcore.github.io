@@ -1,6 +1,6 @@
 var a27220 =
 [
-    [ "HandleDummy", "d9/db8/a27220.html#a63bc85e32a1478d03b381c61a33d0dff", null ],
-    [ "PrepareSpellScript", "d9/db8/a27220.html#adae41617f38a71ccec183f419d677cfd", null ],
-    [ "Register", "d9/db8/a27220.html#a820e8b506de36a24411ae4a1c5930417", null ]
+    [ "go_bashir_crystalforge", "d9/db8/a27220.html#a8b68a63933e14d82198580912fddc280", null ],
+    [ "OnGossipHello", "d9/db8/a27220.html#a4aa941ae78a17eecc5593d6ccd17ff63", null ],
+    [ "OnGossipSelect", "d9/db8/a27220.html#ac7e1b6db4ae2bee766b95049a8b0c320", null ]
 ];

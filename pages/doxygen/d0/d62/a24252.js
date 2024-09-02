@@ -1,9 +1,6 @@
 var a24252 =
 [
-    [ "boss_anzu", "d0/d62/a24252.html#aef8c5c57afa95936d8c2809fa1257799", null ],
-    [ "JustEngagedWith", "d0/d62/a24252.html#a2384a1ea128ad5a43d3b8fb36fe39aba", null ],
-    [ "SummonBroods", "d0/d62/a24252.html#a7f3f8868a5648bdeccd03d08203e4cf1", null ],
-    [ "SummonedCreatureDies", "d0/d62/a24252.html#a2e35df609db069c8d31afffabcfead34", null ],
-    [ "UpdateAI", "d0/d62/a24252.html#a06373460d454bfaf8db793e591cc0abd", null ],
-    [ "talkTimer", "d0/d62/a24252.html#a2afae53534d9e777c90d09456f834b5d", null ]
+    [ "PrepareSpellScript", "d0/d62/a24252.html#ac781a5ff389268d1f18867ff5585ca71", null ],
+    [ "Register", "d0/d62/a24252.html#a5cb9e02774ea6c307e76183253ffb472", null ],
+    [ "SetDest", "d0/d62/a24252.html#a5fec9885b1dd6cf80fb47af321fad98e", null ]
 ];

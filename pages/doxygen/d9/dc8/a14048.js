@@ -1,14 +1,17 @@
 var a14048 =
 [
-    [ "boss_venoxisAI", "d9/dc8/a14048.html#a6114e988ad15b1d70f9fa31b96d719ff", null ],
-    [ "DamageTaken", "d9/dc8/a14048.html#abeae02251eba525557c78912ce4ae2e9", null ],
-    [ "JustDied", "d9/dc8/a14048.html#ad21b70ce968212efad989f6c47c5a48a", null ],
-    [ "JustEngagedWith", "d9/dc8/a14048.html#a8b950e3f19ed752b0b188fc40c55d442", null ],
-    [ "Reset", "d9/dc8/a14048.html#a951384be9faf35e0ebbd16804d22cb79", null ],
-    [ "SetCombatCombras", "d9/dc8/a14048.html#a37cdf2e8042c7cb9557b7ab47da8e14b", null ],
-    [ "SpawnCobras", "d9/dc8/a14048.html#a335444889817cfe818b65ba8ea10a3ba", null ],
-    [ "UpdateAI", "d9/dc8/a14048.html#a02cac2f1cee85885b2f76706c4089d6f", null ],
-    [ "_frenzied", "d9/dc8/a14048.html#a5ec8693b68efa84d27b41bc078900dae", null ],
-    [ "_inMeleeRange", "d9/dc8/a14048.html#a257841a8622003d1bc95292a5c65353c", null ],
-    [ "_transformed", "d9/dc8/a14048.html#a923886f7325ebccf104d0705fa0ba6d3", null ]
+    [ "npc_coren_direbrew", "d9/dc8/a14048.html#a51ab68feb3dde3fb23c708afcdcdbd34", null ],
+    [ "CanBeSeen", "d9/dc8/a14048.html#ad4db2a85c92f69e54036f4133396f201", null ],
+    [ "DamageTaken", "d9/dc8/a14048.html#a782a08ed525eab8a9e9044dc1d5814b3", null ],
+    [ "DoAction", "d9/dc8/a14048.html#a2d417a9310b5b75df09879678d967794", null ],
+    [ "JustDied", "d9/dc8/a14048.html#a39913e601440fcd6ffbc77ad7c204ac8", null ],
+    [ "JustSummoned", "d9/dc8/a14048.html#a2cb3d9de6ccdffa73f709b82cfae790a", null ],
+    [ "MoveInLineOfSight", "d9/dc8/a14048.html#a9c48c7e4a97998c2091992f51b734679", null ],
+    [ "Reset", "d9/dc8/a14048.html#a49eb75eb89742ee70ca957d4e2f0b5d0", null ],
+    [ "sGossipSelect", "d9/dc8/a14048.html#ad8b665606985984ad633f66ad9b73bd2", null ],
+    [ "SummonedCreatureDies", "d9/dc8/a14048.html#aafdc2d271d1e267f5b3deba7d00e07fc", null ],
+    [ "SummonSister", "d9/dc8/a14048.html#a358fe5922a85ea3eee6abe9451869b66", null ],
+    [ "UpdateAI", "d9/dc8/a14048.html#af6615292fa853883979dc37c6e247289", null ],
+    [ "_events", "d9/dc8/a14048.html#a81ee26c215b7581a13faf56ee041b9fe", null ],
+    [ "_summons", "d9/dc8/a14048.html#a261d4c4dea56748e66752cb11588086a", null ]
 ];

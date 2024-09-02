@@ -1,10 +1,6 @@
 var a26684 =
 [
-    [ "CheckProc", "d0/db5/a26684.html#a7bab1f02db05ce2c7b52ad9a2f5f6f02", null ],
-    [ "HandleProc", "d0/db5/a26684.html#ac90b54e946baa80589cab2f66aca1f5f", null ],
-    [ "Load", "d0/db5/a26684.html#ada85014de8a3602e83912d5e1a0165c5", null ],
-    [ "PrepareAuraScript", "d0/db5/a26684.html#a769f2b77b2972c40e3e43e70d2ff5820", null ],
-    [ "Register", "d0/db5/a26684.html#ab8a35292c0d4d392d9dd9db438d59cc4", null ],
-    [ "Validate", "d0/db5/a26684.html#aba8bd9ae5ec9e92eccb04163114c4802", null ],
-    [ "_procTarget", "d0/db5/a26684.html#a0c3ba33c7117195dac4c1df3a6e8529a", null ]
+    [ "HandleBanish", "d0/db5/a26684.html#ab8dd3ab2fd7b9aff3556e6284c515474", null ],
+    [ "PrepareSpellScript", "d0/db5/a26684.html#a56118e3ed7525cdf575531a4c2f2d93f", null ],
+    [ "Register", "d0/db5/a26684.html#ad6c066c9d6a64a5d89d3c347600559a9", null ]
 ];

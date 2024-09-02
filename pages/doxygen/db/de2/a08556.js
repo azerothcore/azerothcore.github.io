@@ -1,9 +1,18 @@
 var a08556 =
 [
-    [ "VisibleChangesNotifier", "db/de2/a08556.html#aacb0239ed44c9705eeeebf5ab198f7e0", null ],
-    [ "Visit", "db/de2/a08556.html#abfc60c91aaa823cb99cdfc17a287e23e", null ],
-    [ "Visit", "db/de2/a08556.html#aaf1dab341f34f75e56da63370af0ecd3", null ],
-    [ "Visit", "db/de2/a08556.html#a103a8ef30ce4c0753913b6ecb6cf4e92", null ],
-    [ "Visit", "db/de2/a08556.html#a6e856249a08d0a90b9d19f2449f30fba", null ],
-    [ "i_object", "db/de2/a08556.html#a496b982d081957cfc288f29b99b8739d", null ]
+    [ "GameEventData", "db/de2/a08556.html#ab7963b01d9e138d79f06274ea57b9590", null ],
+    [ "isValid", "db/de2/a08556.html#a7a91c9c9cc68593812b13f6efd2ea4ff", null ],
+    [ "announce", "db/de2/a08556.html#a7271996d66a36e41b21502fa4d5305fe", null ],
+    [ "conditions", "db/de2/a08556.html#adca87b4b2205273a29dd2a547be90da6", null ],
+    [ "description", "db/de2/a08556.html#aebdadbaadbba367601674146a27a283f", null ],
+    [ "end", "db/de2/a08556.html#a1bf3980d02cd0dc304b2ffbd5afb7b9f", null ],
+    [ "eventId", "db/de2/a08556.html#a858501847212a8771f676641ad61aacd", null ],
+    [ "holiday_id", "db/de2/a08556.html#aa13c2c2eacb9475e18c1d1370566e988", null ],
+    [ "holidayStage", "db/de2/a08556.html#a23a3f6d7f036f6c5b47b84ef1242d056", null ],
+    [ "length", "db/de2/a08556.html#ac45297bad99ddb339b3aa18ec5912c1c", null ],
+    [ "nextstart", "db/de2/a08556.html#ae0259f021337b3ad47dfbbc1f361965f", null ],
+    [ "occurence", "db/de2/a08556.html#a04c813525fef572000608f32650565ff", null ],
+    [ "prerequisite_events", "db/de2/a08556.html#acd7a8d00e76cd09cbbbd345987b8644f", null ],
+    [ "start", "db/de2/a08556.html#ac4da43ddbb3b95f00589f49ed250092d", null ],
+    [ "state", "db/de2/a08556.html#a54a6e90fd4b68093a99e32b198eab2fb", null ]
 ];

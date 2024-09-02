@@ -1,6 +1,5 @@
 var a20396 =
 [
-    [ "npc_crystal_spikeAI", "de/d96/a20400.html", "de/d96/a20400" ],
-    [ "npc_crystal_spike", "d4/d9d/a20396.html#a0ef00cdc85bb1c9a79845db861a5e384", null ],
-    [ "GetAI", "d4/d9d/a20396.html#a51df30295395c807c0ade2abaf0bd78e", null ]
+    [ "achievement_mimiron_firefighter", "d4/d9d/a20396.html#ae26c3b2572bc9e3e75fb25537fe46a6c", null ],
+    [ "OnCheck", "d4/d9d/a20396.html#a1ebd287ef20c6d367f30b1c30ba68728", null ]
 ];

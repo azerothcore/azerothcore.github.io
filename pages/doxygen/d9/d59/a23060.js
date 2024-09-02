@@ -1,7 +1,13 @@
 var a23060 =
 [
-    [ "npc_valiance_keep_cannoneerAI", "d9/d59/a23060.html#a0769e975c5c7ff1cfbfa6089e3e55e3f", null ],
-    [ "Reset", "d9/d59/a23060.html#a65718076e65b68cae0a54ff4112fdb4b", null ],
-    [ "UpdateAI", "d9/d59/a23060.html#a75f16f2b028ca341db6e08536be06bfa", null ],
-    [ "uiTimer", "d9/d59/a23060.html#a0cf5f0413b1cded835252a38e272f835", null ]
+    [ "boss_fathomguard_caribdis", "d9/d59/a23060.html#a9172b9717e5137ddde7df38bb237478c", null ],
+    [ "EnterEvadeMode", "d9/d59/a23060.html#aa666a491a776b12a042ee140aedc95eb", null ],
+    [ "JustDied", "d9/d59/a23060.html#ab821365b35a48f70a11c6033fe2ca714", null ],
+    [ "JustEngagedWith", "d9/d59/a23060.html#a5503519998f51f475420ada2210f32f0", null ],
+    [ "JustSummoned", "d9/d59/a23060.html#a39ca45ec0de50b7d7a5ec866c4017a8a", null ],
+    [ "Reset", "d9/d59/a23060.html#a0d2a3403d5934e86a897b3417ed2214a", null ],
+    [ "UpdateAI", "d9/d59/a23060.html#af4a544f37d178de21d84f2544f24431e", null ],
+    [ "_instance", "d9/d59/a23060.html#a73f567f2269aeca1435af82e1c6880e9", null ],
+    [ "_scheduler", "d9/d59/a23060.html#a08b01e9735e421d8d5bbc2b552217762", null ],
+    [ "_summons", "d9/d59/a23060.html#ac8b53cb81547a2423a13c997badb77e3", null ]
 ];

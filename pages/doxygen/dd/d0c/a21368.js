@@ -1,6 +1,10 @@
 var a21368 =
 [
-    [ "FilterTargets", "dd/d0c/a21368.html#ae402120aab16d5482da1a9306eb3004f", null ],
-    [ "PrepareSpellScript", "dd/d0c/a21368.html#a34b4255000d13229e460ecf1456cd6c7", null ],
-    [ "Register", "dd/d0c/a21368.html#a7248095987b083eb7d597dd80dc3ad36", null ]
+    [ "npc_azure_binderAI", "dd/d0c/a21368.html#ad532d350493a35804660f90a9f00f3cf", null ],
+    [ "Reset", "dd/d0c/a21368.html#aa317ce32f3439286e9a4ac0928d48b3a", null ],
+    [ "UpdateAI", "dd/d0c/a21368.html#a322ae0210ccb24206aee49c4fa7fe2bc", null ],
+    [ "uiArcainBarrageTimer", "dd/d0c/a21368.html#a0e577611e3e11209cc175cd71cd86bc9", null ],
+    [ "uiArcaneExplosionTimer", "dd/d0c/a21368.html#aa5cc777f777166e88a21e98a4ce2b8d3", null ],
+    [ "uiFrostboltTimer", "dd/d0c/a21368.html#a405ec0f2d92e4a1f5f7901e725465604", null ],
+    [ "uiFrostNovaTimer", "dd/d0c/a21368.html#a0f6396376e14711f87f1a046728ce386", null ]
 ];

@@ -1,6 +1,6 @@
 var a19976 =
 [
-    [ "OnApply", "d6/dec/a19976.html#a133ad0ae5bce2340993c2e720e333dcf", null ],
-    [ "PrepareAuraScript", "d6/dec/a19976.html#ae460d0be44ddd8950aa52e89fe94152b", null ],
-    [ "Register", "d6/dec/a19976.html#a9ce4ddb1330cf851addedf25b3ca1431", null ]
+    [ "boss_freya_summonsAI", "df/d0c/a19980.html", "df/d0c/a19980" ],
+    [ "boss_freya_summons", "d6/dec/a19976.html#a3445ed89967cc9a610472f18e862ecd4", null ],
+    [ "GetAI", "d6/dec/a19976.html#ac68f231c37c61d262d6c16bc87a0f1c7", null ]
 ];

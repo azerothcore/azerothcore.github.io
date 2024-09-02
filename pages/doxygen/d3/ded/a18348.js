@@ -1,18 +1,11 @@
 var a18348 =
 [
-    [ "boss_lord_marrowgar", "d3/ded/a18348.html#ab6a4afec9ed7153054b2d5ffb8f3b8ab", null ],
-    [ "CanAIAttack", "d3/ded/a18348.html#a019816e930781889f39c561577eaecc0", null ],
-    [ "GetGUID", "d3/ded/a18348.html#a0f3d27442ce651574ab66c2f94d27c88", null ],
-    [ "JustDied", "d3/ded/a18348.html#a8f1143de6695cf3fc2e54d5dc29ae9f2", null ],
-    [ "JustEngagedWith", "d3/ded/a18348.html#a3fa8b012f5e3ae94cecb537aa1952b63", null ],
-    [ "JustReachedHome", "d3/ded/a18348.html#ac59e0e13d5226fcdb4af08a1f9eff089", null ],
-    [ "KilledUnit", "d3/ded/a18348.html#acfe53ec83fa2056b37269608182fb25b", null ],
-    [ "MoveInLineOfSight", "d3/ded/a18348.html#ab3a7a37af22ab4dd7178f1cce2e2ab6a", null ],
-    [ "MovementInform", "d3/ded/a18348.html#abba7e15c065a80677fc88a6dafa8ecfd", null ],
-    [ "Reset", "d3/ded/a18348.html#a2692d00185ef27f50af01d125e39d549", null ],
-    [ "SpellHitTarget", "d3/ded/a18348.html#adf886210abbd492f897b39145748f78a", null ],
-    [ "UpdateAI", "d3/ded/a18348.html#aa19fdc486c0c9cca1033e0747d631a7e", null ],
-    [ "_boneSlice", "d3/ded/a18348.html#a50478639cd1f13732646fcc2349c5474", null ],
-    [ "_introDone", "d3/ded/a18348.html#a87f5036e8ba62e54ed7c502469cffe10", null ],
-    [ "_lastBoneSliceTargets", "d3/ded/a18348.html#aaf8ca2baf4c68ea64d4c163ede7813c8", null ]
+    [ "npc_valithria_cloudAI", "d3/ded/a18348.html#a5b550d0154f302cecc509fbd868a53bb", null ],
+    [ "AttackStart", "d3/ded/a18348.html#a5835d5ba19e1480016e585c1e49489c9", null ],
+    [ "EnterEvadeMode", "d3/ded/a18348.html#a346fd998d41451d7d1e605afdb13b65c", null ],
+    [ "MoveInLineOfSight", "d3/ded/a18348.html#a8d4c8d082f12b96b2b77447d0b942c2c", null ],
+    [ "Reset", "d3/ded/a18348.html#abca34d7285ef23c062006df8f8ae6d53", null ],
+    [ "UpdateAI", "d3/ded/a18348.html#a6908f5731915bf7d15bb4921c960aa30", null ],
+    [ "_events", "d3/ded/a18348.html#afc5c9299d7f1f73c087a19dcfb19e096", null ],
+    [ "_instance", "d3/ded/a18348.html#a20cc2bba9d1005cc93b55dfba8bfbcf3", null ]
 ];

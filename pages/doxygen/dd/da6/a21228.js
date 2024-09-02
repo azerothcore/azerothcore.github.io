@@ -1,6 +1,6 @@
 var a21228 =
 [
-    [ "achievement_flame_leviathan_towers", "dd/da6/a21228.html#a491d66bdd373b6044e406126719ef910", null ],
-    [ "OnCheck", "dd/da6/a21228.html#ad6e9dee3f05afaca0a355b714bf75ea6", null ],
-    [ "_towerCount", "dd/da6/a21228.html#a1099385340b30a1a75655e2e7d2ba3cc", null ]
+    [ "npc_frozen_orb_stalkerAI", "d8/d8d/a21232.html", "d8/d8d/a21232" ],
+    [ "npc_frozen_orb_stalker", "dd/da6/a21228.html#a7f025c829106aa6668427f913d07a722", null ],
+    [ "GetAI", "dd/da6/a21228.html#af33e27138a70286bac561113ed09f350", null ]
 ];

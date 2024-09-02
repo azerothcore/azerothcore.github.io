@@ -1,6 +1,6 @@
 var a13984 =
 [
-    [ "LaunchHit", "de/d90/a13984.html#a715c86c4057fe8c60abf02d895ac3c5a", null ],
-    [ "PrepareSpellScript", "de/d90/a13984.html#a4ad316b68d84921255577aedabb5ad3f", null ],
-    [ "Register", "de/d90/a13984.html#a50fa3ede9bebb2b54c4ec10091017c07", null ]
+    [ "npc_brewfest_bark_trigger", "de/d90/a13984.html#a110d654792e1f5dae8b17f014ea3d425", null ],
+    [ "GetTextFor", "de/d90/a13984.html#aca27445a1d9868a2cbd3a6a89dd806df", null ],
+    [ "MoveInLineOfSight", "de/d90/a13984.html#a271a440f21b4abddd9aa087e1e64a3d0", null ]
 ];

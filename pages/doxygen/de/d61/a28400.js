@@ -1,7 +1,13 @@
 var a28400 =
 [
-    [ "HandleScript", "de/d61/a28400.html#aa00117e677af1e236962c59b688d8a98", null ],
-    [ "Load", "de/d61/a28400.html#ad05b65848e35d87fb9ef1ae413de6256", null ],
-    [ "PrepareSpellScript", "de/d61/a28400.html#afbffeadede1cc7f08a0a52f4a7bee680", null ],
-    [ "Register", "de/d61/a28400.html#a52d4828ccd5430a622a32b1279943f9b", null ]
+    [ "liquid_data", "d6/d4b/a28408.html", "d6/d4b/a28408" ],
+    [ "prepareLoadedData", "de/d61/a28400.html#a999cde9ad5c0e4ee49e620c2ff52cb06", null ],
+    [ "data", "de/d61/a28400.html#aa3f6e6de7453b4a1acc7dfe4c83eac69", null ],
+    [ "fcc", "de/d61/a28400.html#ab0181729f82eb0f02da5cb95ec48cda1", null ],
+    [ "fcc_txt", "de/d61/a28400.html#a9a2576f7b8923089b3b6020d4f8d97fc", null ],
+    [ "flags", "de/d61/a28400.html#ac21d785a3a457baa84cbfd33ebb69bd4", null ],
+    [ "height1", "de/d61/a28400.html#a7b4a59ac372261c74236b2b4cfc3626a", null ],
+    [ "height2", "de/d61/a28400.html#ab03dc912a304c0585d2725596adb4b49", null ],
+    [ "liquid", "de/d61/a28400.html#aae29940e6fdf046f9a29cf519ef61936", null ],
+    [ "size", "de/d61/a28400.html#a11581f9fb52a4ca433765e6312168288", null ]
 ];

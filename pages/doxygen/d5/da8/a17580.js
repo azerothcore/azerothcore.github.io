@@ -1,5 +1,6 @@
 var a17580 =
 [
-    [ "achievement_share_the_love", "d5/da8/a17580.html#a3eaa89eaa356b0e2f8b5c688439baf9c", null ],
-    [ "OnCheck", "d5/da8/a17580.html#a9d6b6d19611d1482111692de9f2b1cc8", null ]
+    [ "boss_lady_deathwhisperAI", "de/d2a/a17584.html", "de/d2a/a17584" ],
+    [ "boss_lady_deathwhisper", "d5/da8/a17580.html#a979411cb834611b1239f3bf9058d316d", null ],
+    [ "GetAI", "d5/da8/a17580.html#ac0b86fee1e2e9dbf794ed1b53aab11d2", null ]
 ];

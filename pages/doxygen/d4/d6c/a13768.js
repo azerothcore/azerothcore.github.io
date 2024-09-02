@@ -1,8 +1,9 @@
 var a13768 =
 [
-    [ "entry", "d4/d6c/a13768.html#ad7431eb64907aed0a03205a37c65a735", null ],
-    [ "orient", "d4/d6c/a13768.html#ab54dc774ffa13a1cdff8cf8047330c82", null ],
-    [ "x", "d4/d6c/a13768.html#a9e2b1a05fdcb7ba5e67deed9906f2520", null ],
-    [ "y", "d4/d6c/a13768.html#ae726b332e6759612c76de6b9f38a3147", null ],
-    [ "z", "d4/d6c/a13768.html#a8a0e3c6d9e558a40cd9d543df6abf728", null ]
+    [ "boss_gahzrankaAI", "d4/d6c/a13768.html#aed4f9b7e5f46c517f07d7a07f6b2b5f6", null ],
+    [ "IsSummonedBy", "d4/d6c/a13768.html#a9a07b183fecda8036e90bc278af68400", null ],
+    [ "JustDied", "d4/d6c/a13768.html#a100f4d3f4cd87d321280b7ff2d2ffb68", null ],
+    [ "JustEngagedWith", "d4/d6c/a13768.html#a064e5fe28048240bb0febbdc3ac5b1ef", null ],
+    [ "Reset", "d4/d6c/a13768.html#ae67d937f6dff9d4c7bb52c65ffe88e40", null ],
+    [ "UpdateAI", "d4/d6c/a13768.html#a5dd935016dccab52d456c796809750ab", null ]
 ];

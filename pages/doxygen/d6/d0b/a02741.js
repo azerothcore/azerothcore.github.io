@@ -1,9 +1,11 @@
 var a02741 =
 [
-    [ "FactionState", "df/d3f/a09891.html", "df/d3f/a09891" ],
-    [ "ReputationMgr", "d7/dd7/a09895.html", "d7/dd7/a09895" ],
-    [ "FactionStateList", "d6/d0b/a02741.html#ad6532434415723ae38cfd01814db70c4", null ],
-    [ "ForcedReactions", "d6/d0b/a02741.html#a7f488a06b2477791f620e975ea444f4e", null ],
-    [ "RepListID", "d6/d0b/a02741.html#a5d6355bb0de767f549aeb8f1e6481624", null ],
-    [ "ReputationRankStrIndex", "d6/d0b/a02741.html#a6fbbe7a01d0d6b56a15a773ad0199b5b", null ]
+    [ "MCBossObject", "d8/dff/a12168.html", "d8/dff/a12168" ],
+    [ "instance_molten_core", "d0/daa/a12172.html", "d0/daa/a12172" ],
+    [ "instance_molten_core::instance_molten_core_InstanceMapScript", "d3/d78/a12176.html", "d3/d78/a12176" ],
+    [ "AddSC_instance_molten_core", "d6/d0b/a02741.html#aa908fb56c2f024e5bfcb38bc98b849ab", null ],
+    [ "linkedBossObjData", "d6/d0b/a02741.html#a69ab269a27b57bb4b00d3eee95db589e", null ],
+    [ "MAX_MC_LINKED_BOSS_OBJ", "d6/d0b/a02741.html#a398f000c29691c6a24707190dc4a4024", null ],
+    [ "minionData", "d6/d0b/a02741.html#a6720238df140a3c574a711042b7f5bd3", null ],
+    [ "SAY_SPAWN", "d6/d0b/a02741.html#a1712840a822c3d823764d3c974c6ea31", null ]
 ];

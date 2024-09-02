@@ -1,9 +1,25 @@
 var a17120 =
 [
-    [ "HandleAfterEffectAbsorb", "db/dd5/a17120.html#a678f446c74e2ca1b3452aae69aff5e04", null ],
-    [ "Load", "db/dd5/a17120.html#a9fdd96c87e60b2fa7f7b96209f3c1386", null ],
-    [ "PrepareAuraScript", "db/dd5/a17120.html#a8d3b25eb4197cfe45a6a188de6085494", null ],
-    [ "Register", "db/dd5/a17120.html#a36f244df0bdd5238437c3eb3b2f3f108", null ],
-    [ "amount", "db/dd5/a17120.html#a4660bdb675532fbbc015219c20c83303", null ],
-    [ "fired", "db/dd5/a17120.html#ad7757f565735b176d896b37c909a7b85", null ]
+    [ "boss_prince_kelesethAI", "db/dd5/a17120.html#a5743d3b9db43e31b7de861338f657a3e", null ],
+    [ "AttackStart", "db/dd5/a17120.html#a48fa8a4094331da081e93470af5a34b4", null ],
+    [ "DamageDealt", "db/dd5/a17120.html#a534908423aeec2993c8260a09ab22692", null ],
+    [ "DamageTaken", "db/dd5/a17120.html#a5cc920075198e9dfdbfae94d32099392", null ],
+    [ "DoAction", "db/dd5/a17120.html#a32615a07ab4974923a9f8ed3fb6b5eb5", null ],
+    [ "EnterEvadeMode", "db/dd5/a17120.html#a812b4f1348c8c73b30cf48373602798c", null ],
+    [ "InitializeAI", "db/dd5/a17120.html#a89fe035de2076c7d82434a6b955ced3f", null ],
+    [ "JustDied", "db/dd5/a17120.html#adf0e15ab7cae6d73d0ac4d97d63de6b3", null ],
+    [ "JustEngagedWith", "db/dd5/a17120.html#a46179701796a35d3cfdbcd6bef481bfc", null ],
+    [ "JustReachedHome", "db/dd5/a17120.html#af9896279a3bdcdf78682aac943821e8a", null ],
+    [ "JustRespawned", "db/dd5/a17120.html#ae15f486fd0942f9f310b0b60cc29b288", null ],
+    [ "JustSummoned", "db/dd5/a17120.html#ae6a8cdf1ce40ab5898e4ab906d0ed41b", null ],
+    [ "KilledUnit", "db/dd5/a17120.html#a4bd0bc39045aa42c024489957bacb630", null ],
+    [ "Reset", "db/dd5/a17120.html#aac80ae1b85bde17ae6c71193f31df52e", null ],
+    [ "SpellHit", "db/dd5/a17120.html#a16265a5ba6d78302034b2a2804e59e24", null ],
+    [ "UpdateAI", "db/dd5/a17120.html#a68abd0f9cfe5dd0813d5e7e9b29e4914", null ],
+    [ "_canDie", "db/dd5/a17120.html#ae4492fa7c4e6fdab52e2a31c1a0b078a", null ],
+    [ "_evading", "db/dd5/a17120.html#a643617bf24bdc575e439bcf22a8dd050", null ],
+    [ "_isEmpowered", "db/dd5/a17120.html#a6caada5f7cd8afac81256f1ca6a57af7", null ],
+    [ "events", "db/dd5/a17120.html#acb14e5177a73ffe49c5113f5ea5ddf13", null ],
+    [ "instance", "db/dd5/a17120.html#a3eb78ce24d15d0a4df15cf4f19f78c00", null ],
+    [ "summons", "db/dd5/a17120.html#ad1e9ac4b158ee387369ac1aeeb5abe4c", null ]
 ];

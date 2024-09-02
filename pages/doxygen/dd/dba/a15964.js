@@ -1,6 +1,7 @@
 var a15964 =
 [
-    [ "HandlePeriodic", "dd/dba/a15964.html#ad22b433005b2678bde3516a01eaaaa60", null ],
-    [ "PrepareAuraScript", "dd/dba/a15964.html#a3711004edaef7242d9cae1f23f9b7467", null ],
-    [ "Register", "dd/dba/a15964.html#ad570e51a3d2dd5d3cc4b91aebeefd9ef", null ]
+    [ "OnApply", "dd/dba/a15964.html#ad072d243dd148e1b34aea29a2e5d175e", null ],
+    [ "PrepareAuraScript", "dd/dba/a15964.html#ae657ceca517aa3f725ba72c18ddbaf1c", null ],
+    [ "Register", "dd/dba/a15964.html#a4eab0bd70eb884f7736e90f9001d3cc7", null ],
+    [ "Validate", "dd/dba/a15964.html#a2c9e4d82bd25f439e01a05700563b122", null ]
 ];

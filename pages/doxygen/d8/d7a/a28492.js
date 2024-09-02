@@ -1,6 +1,16 @@
 var a28492 =
 [
-    [ "HandleScript", "d8/d7a/a28492.html#ad0885113f3bd8eea8ff3db30b55cc240", null ],
-    [ "PrepareSpellScript", "d8/d7a/a28492.html#a8410b746f810eaeb7f71c3a7de607a84", null ],
-    [ "Register", "d8/d7a/a28492.html#ab8f5c857ee42a6767d10277b52a7da01", null ]
+    [ "Iterator", "d8/d7a/a28492.html#a682fe042bcd4ceb6c25dd7b4a3acbcc1", null ],
+    [ "Iterator", "d8/d7a/a28492.html#a682fe042bcd4ceb6c25dd7b4a3acbcc1", null ],
+    [ "operator!=", "d8/d7a/a28492.html#a7c0a38cbd02823479f349bb109a7ccf8", null ],
+    [ "operator!=", "d8/d7a/a28492.html#a7c0a38cbd02823479f349bb109a7ccf8", null ],
+    [ "operator*", "d8/d7a/a28492.html#a7b3de0d9987b834eaf6e909dd22f2528", null ],
+    [ "operator*", "d8/d7a/a28492.html#a7b3de0d9987b834eaf6e909dd22f2528", null ],
+    [ "operator++", "d8/d7a/a28492.html#af7dc5aae457d264ebe4aa42f5b700589", null ],
+    [ "operator++", "d8/d7a/a28492.html#af7dc5aae457d264ebe4aa42f5b700589", null ],
+    [ "operator->", "d8/d7a/a28492.html#ac57afe01d1ce6c611ca832f10f5d52fd", null ],
+    [ "operator->", "d8/d7a/a28492.html#ac57afe01d1ce6c611ca832f10f5d52fd", null ],
+    [ "operator==", "d8/d7a/a28492.html#a2d9cf3e798a1fcce3682c186952290df", null ],
+    [ "operator==", "d8/d7a/a28492.html#a2d9cf3e798a1fcce3682c186952290df", null ],
+    [ "record", "d8/d7a/a28492.html#a948512c44e53dfa177b85f82e9fd6160", null ]
 ];

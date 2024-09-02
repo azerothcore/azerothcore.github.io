@@ -1,6 +1,6 @@
 var a24680 =
 [
-    [ "spell_teron_gorefiend_spirit_lance_AuraScript", "d3/dff/a24684.html", "d3/dff/a24684" ],
-    [ "spell_teron_gorefiend_spirit_lance", "db/d84/a24680.html#ae0af7fa094d1ccd7f99548081cd01bfd", null ],
-    [ "GetAuraScript", "db/d84/a24680.html#ac9e061bcafae1a4683c3a28fc0cdd9f6", null ]
+    [ "PrepareAuraScript", "db/d84/a24680.html#a31bde31b6db4f71ce65c6e1a862df771", null ],
+    [ "Register", "db/d84/a24680.html#aebe64c4760d13d8afaebcf4a4b1196fa", null ],
+    [ "UpdateAmount", "db/d84/a24680.html#a621e73a09438f3f9cbaa232125df3b87", null ]
 ];

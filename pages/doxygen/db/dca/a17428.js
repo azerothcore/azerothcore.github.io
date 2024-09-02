@@ -1,6 +1,6 @@
 var a17428 =
 [
-    [ "npc_pos_freed_slaveAI", "db/dca/a17428.html#ad5728e427f9f4a65cea13ec2c5a01453", null ],
-    [ "CanAIAttack", "db/dca/a17428.html#a76818ee5fcfcc5678fa9d0957a424d9b", null ],
-    [ "EnterEvadeMode", "db/dca/a17428.html#a234135e6bea0d91611fbdbae4dec2ea1", null ]
+    [ "npc_igb_ship_crewAI", "db/dca/a17428.html#a3ca741b305e3235b0521f094d7abe732", null ],
+    [ "CanAIAttack", "db/dca/a17428.html#a2c834dc151493957fc116865699ae7f5", null ],
+    [ "_instance", "db/dca/a17428.html#a288bd5f8b4eaed7b1a960ed738330ae4", null ]
 ];

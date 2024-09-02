@@ -1,6 +1,7 @@
 var a18240 =
 [
-    [ "IgbArtilleryCheck", "d8/de3/a18240.html#a78b65928551ed799cf3f446f0603c50e", null ],
-    [ "operator()", "d8/de3/a18240.html#ac083bfb9a5fa2b9888c4e31254baada6", null ],
-    [ "_entry", "d8/de3/a18240.html#a98a6a0836414da82c288e372e982f69f", null ]
+    [ "OnPeriodic", "d8/de3/a18240.html#adfbfcf4ad8671ca4eaa439705f7b6c2a", null ],
+    [ "PrepareAuraScript", "d8/de3/a18240.html#a5bb82c03f7c34e6febd3fe8aa57d4723", null ],
+    [ "Register", "d8/de3/a18240.html#a0fc7ca43a0d82058fc04277742231388", null ],
+    [ "Validate", "d8/de3/a18240.html#ae52c7c189a45a0bb5f3a627f502e3730", null ]
 ];

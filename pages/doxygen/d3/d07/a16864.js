@@ -1,5 +1,8 @@
 var a16864 =
 [
-    [ "PrepareAuraScript", "d3/d07/a16864.html#ad096de801049800aa7793453f38220a4", null ],
-    [ "Register", "d3/d07/a16864.html#a717a7e21f9028dede890b14feca484d0", null ]
+    [ "boss_krickAI", "d3/d07/a16864.html#ac085bae551fd4d9e48b05481a86cca9f", null ],
+    [ "DoAction", "d3/d07/a16864.html#ace248881cb71c1e91f33ff93489b6f3f", null ],
+    [ "UpdateAI", "d3/d07/a16864.html#aea8dd89c8e4de1bebd94a26ead852119", null ],
+    [ "events", "d3/d07/a16864.html#a75349e2fc35832e7944fa4f772380baa", null ],
+    [ "pInstance", "d3/d07/a16864.html#aecc2cdee32c4e4fa14ecaeca9b3eb65f", null ]
 ];

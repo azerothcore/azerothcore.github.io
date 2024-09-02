@@ -1,10 +1,15 @@
 var a15012 =
 [
-    [ "boss_moam", "d3/d7e/a15012.html#a9a7a9f410efc5a05e46fd05f331e96c9", null ],
-    [ "InitializeAI", "d3/d7e/a15012.html#a2c8bde24fb3811e29c91a57258a243e5", null ],
-    [ "JustDied", "d3/d7e/a15012.html#a06b843bddd8f2759fa733c5169e0a5e6", null ],
-    [ "JustEngagedWith", "d3/d7e/a15012.html#ad33ba2f2cf9c83f37856aa6f2212637b", null ],
-    [ "Reset", "d3/d7e/a15012.html#a4112940fbe1f8be8e7adee7dbc48a9ae", null ],
-    [ "SummonedCreatureDies", "d3/d7e/a15012.html#a8401c5e2bd216deee197617b78d85222", null ],
-    [ "UpdateAI", "d3/d7e/a15012.html#aadd8320c6194923b113967d3d6c49a5e", null ]
+    [ "boss_viscidus", "d3/d7e/a15012.html#a41dd3ce982a180a2ad415b559508f0ff", null ],
+    [ "CheckInRoom", "d3/d7e/a15012.html#a528a368eceb55cc7d41d615c6c1ebf15", null ],
+    [ "DamageTaken", "d3/d7e/a15012.html#adb41e6f64c1fe61cf623539353b0c959", null ],
+    [ "InitSpells", "d3/d7e/a15012.html#a24357bfc552ecb5205e50241cadb05f4", null ],
+    [ "JustEngagedWith", "d3/d7e/a15012.html#a7dfb0ba7d90697d3deac263249cfa977", null ],
+    [ "Reset", "d3/d7e/a15012.html#ac9153bd98e4c39b63547c3a9a8798d80", null ],
+    [ "SoftReset", "d3/d7e/a15012.html#ad2b4c6835ff113e4a538024f02ff968e", null ],
+    [ "SpellHit", "d3/d7e/a15012.html#a43df1ee33d5a9b4794b246ce680a6318", null ],
+    [ "SummonedCreatureDies", "d3/d7e/a15012.html#a6a52391b49ba3501a1bb5e8c55f07683", null ],
+    [ "UpdateAI", "d3/d7e/a15012.html#a1a194c161b485d2abbb862506b6c239f", null ],
+    [ "_hitcounter", "d3/d7e/a15012.html#a12ee60a91dab2f95aab6e9914351344a", null ],
+    [ "_phase", "d3/d7e/a15012.html#a321f1f96af51d3d70de0cca89512d965", null ]
 ];

@@ -1,9 +1,6 @@
 var a18004 =
 [
-    [ "npc_stinky_iccAI", "d6/d1e/a18004.html#a545356eb2b77cfae7af3d470e95ea2d6", null ],
-    [ "JustDied", "d6/d1e/a18004.html#a7fa392980e2d30c935b79377df8dc694", null ],
-    [ "JustEngagedWith", "d6/d1e/a18004.html#afd1cd4fc387ff7cdad58c9db60841c7a", null ],
-    [ "Reset", "d6/d1e/a18004.html#ac66e3398598576fdc889a7b56646eecf", null ],
-    [ "UpdateAI", "d6/d1e/a18004.html#af6e04824ea1682c529e8579a306d34ca", null ],
-    [ "events", "d6/d1e/a18004.html#a3ab7ae11b7f5ef5877febbd384014ce2", null ]
+    [ "PeriodicTick", "d6/d1e/a18004.html#af47c7ea07ee3dbe824b1c294024d0c29", null ],
+    [ "PrepareAuraScript", "d6/d1e/a18004.html#aa2649c760e362cc7aa22cd770b15f7df", null ],
+    [ "Register", "d6/d1e/a18004.html#ad4290158ee9af93df11d1a46a5bd26a2", null ]
 ];

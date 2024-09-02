@@ -1,9 +1,9 @@
 var a27456 =
 [
-    [ "CheckProc", "d3/d43/a27456.html#a073ed3648f5fd15db73d1620ba7031e3", null ],
-    [ "HandleProc", "d3/d43/a27456.html#a5345da73b9c4c9fe4ae5d272e3574955", null ],
-    [ "OnRemove", "d3/d43/a27456.html#a27b1b744d88b4c870c0baa0b8f88317f", null ],
-    [ "PrepareAuraScript", "d3/d43/a27456.html#a2e13f63459342fb749594f7fbb517c80", null ],
-    [ "Register", "d3/d43/a27456.html#a6fc9a3945a736ba4a62ad754090d8525", null ],
-    [ "Validate", "d3/d43/a27456.html#a008ec43da50deb568ec453e992f89887", null ]
+    [ "npc_chicken_cluckAI", "d3/d43/a27456.html#a4f2eaa107e2a8b4900fac54780ac9693", null ],
+    [ "JustEngagedWith", "d3/d43/a27456.html#a854eae196c68cb1e4dd1c1773870ef9a", null ],
+    [ "ReceiveEmote", "d3/d43/a27456.html#aa5d6d3ea3ad4d0f81781581a39933fc8", null ],
+    [ "Reset", "d3/d43/a27456.html#a5a32f458a7f09282e7ac53fa7d6255b4", null ],
+    [ "UpdateAI", "d3/d43/a27456.html#a86c8f74d0a55b9a041a789f16de8189d", null ],
+    [ "ResetFlagTimer", "d3/d43/a27456.html#a0d0507ae7a1eca369df288515856e1b5", null ]
 ];

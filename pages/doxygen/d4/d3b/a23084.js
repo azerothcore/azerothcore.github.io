@@ -1,6 +1,6 @@
 var a23084 =
 [
-    [ "HandleEffect", "d4/d3b/a23084.html#a84dab0a2289f341404850f8439d9de57", null ],
-    [ "PrepareSpellScript", "d4/d3b/a23084.html#a08b28c7d34fc2933a776e9ae59d87ef9", null ],
-    [ "Register", "d4/d3b/a23084.html#acbb270e8d0de0f548a90346f85753b05", null ]
+    [ "HandleEffectApply", "d4/d3b/a23084.html#adbfce9b247a8a36d143243955372dc91", null ],
+    [ "PrepareAuraScript", "d4/d3b/a23084.html#a7a04c4f4c9cb1070d02d58bfa3d0c8e6", null ],
+    [ "Register", "d4/d3b/a23084.html#afb919ed484440d382b9d1ac7cf6f3f14", null ]
 ];

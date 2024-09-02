@@ -1,8 +1,6 @@
 var a26244 =
 [
-    [ "CreatureId", "d0/d63/a26244.html#a127341c70f8785ceb556b1c11b23f477", null ],
-    [ "SpawnCount", "d0/d63/a26244.html#ad51fb68e41e04490f658a4c4f62612bd", null ],
-    [ "SpawnTimer", "d0/d63/a26244.html#aa57ff686c5fde12269e231333d8a8bef", null ],
-    [ "UsedSpawnPoint", "d0/d63/a26244.html#a2d5f42a6b1a309c8db74febcedf457eb", null ],
-    [ "YellTimer", "d0/d63/a26244.html#a6346259269af7f2936f959f87288dd69", null ]
+    [ "CheckProc", "d0/d63/a26244.html#aa9cf64a1965bd7924ce5a9c639d85fb3", null ],
+    [ "PrepareAuraScript", "d0/d63/a26244.html#a87d2959523a306f85c69aa5a7a5b3de5", null ],
+    [ "Register", "d0/d63/a26244.html#a9dee4c4568f36f82b82148cb847d50ca", null ]
 ];

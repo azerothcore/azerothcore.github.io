@@ -1,6 +1,6 @@
 var a18836 =
 [
-    [ "PeriodicTick", "de/d73/a18836.html#a4dd01e039ddc0f976db5962078b8d8bf", null ],
-    [ "PrepareAuraScript", "de/d73/a18836.html#ac032efda9941d5384ab2bf67c3ba4b79", null ],
-    [ "Register", "de/d73/a18836.html#a8f2a898d50a745d6a865ced7cb464956", null ]
+    [ "boss_gluthAI", "d3/dc9/a18840.html", "d3/dc9/a18840" ],
+    [ "boss_gluth", "de/d73/a18836.html#a3ff6e361cd6799f41d00fa75784c4f76", null ],
+    [ "GetAI", "de/d73/a18836.html#a3b19c938aaecc897d6552715064be7f8", null ]
 ];

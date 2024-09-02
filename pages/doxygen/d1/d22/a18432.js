@@ -1,6 +1,6 @@
 var a18432 =
 [
-    [ "npc_volatile_oozeAI", "d1/d11/a18436.html", "d1/d11/a18436" ],
-    [ "npc_volatile_ooze", "d1/d22/a18432.html#a22847e44812a0b13b92cfcca3a70204e", null ],
-    [ "GetAI", "d1/d22/a18432.html#a66b4918c14d90d5550ddc8dbe90c2e01", null ]
+    [ "CaptainSurviveTalk", "d1/d22/a18432.html#a43a1b1da17ed41ae765aabc47c858f80", null ],
+    [ "Execute", "d1/d22/a18432.html#a871cf08e8c7fced2971cae8abbc20454", null ],
+    [ "_owner", "d1/d22/a18432.html#ac8de506afb4688560ea637918d07b01e", null ]
 ];

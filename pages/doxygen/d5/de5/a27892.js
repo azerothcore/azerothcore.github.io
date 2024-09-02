@@ -1,7 +1,7 @@
 var a27892 =
 [
-    [ "HandleScript", "d5/de5/a27892.html#aad0be226a2d294d3361c1afbf644c5e4", null ],
-    [ "PrepareSpellScript", "d5/de5/a27892.html#a85dee311aab08d796a3a0c1bc9e9390d", null ],
-    [ "Register", "d5/de5/a27892.html#a2b22be9826db241ecf3f99ff16c309c0", null ],
-    [ "Validate", "d5/de5/a27892.html#a98df659504307fc0666fe2b1001eaa00", null ]
+    [ "cutPercent", "d5/de5/a27892.html#a8581a6a5198dab10680f477a477a7c80", null ],
+    [ "depositPercent", "d5/de5/a27892.html#af7bb868f1a1e8d570ce7b6cb10ad87d9", null ],
+    [ "faction", "d5/de5/a27892.html#a4b857e3c4c333b2a86f7f5d08bcc883d", null ],
+    [ "houseId", "d5/de5/a27892.html#a1bf77c1b14731def0e3de44143df2eed", null ]
 ];

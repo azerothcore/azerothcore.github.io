@@ -1,10 +1,6 @@
 var a14900 =
 [
-    [ "CurrId", "d4/dd6/a14900.html#a126d1c0e7d475a07acd91de471cb7cab", null ],
-    [ "DestId", "d4/dd6/a14900.html#a7b12c520ee50ab29e5047a1c71b22729", null ],
-    [ "o", "d4/dd6/a14900.html#a94c284d63e66765c4d484c8edea8fdb8", null ],
-    [ "spellId", "d4/dd6/a14900.html#a7240ecd6f50a6db0e2be4eb4e55b3a48", null ],
-    [ "x", "d4/dd6/a14900.html#a41c7bdb057d984f552a41835651d84f5", null ],
-    [ "y", "d4/dd6/a14900.html#abe083129d7a4e514e97eeae7cff40af5", null ],
-    [ "z", "d4/dd6/a14900.html#ac49d886d09e2ebf8ccf8abd59a9649ec", null ]
+    [ "FilterTargets", "d4/dd6/a14900.html#a8fa6932a6cf291d8ab40140b171e1c17", null ],
+    [ "PrepareSpellScript", "d4/dd6/a14900.html#a5e93e2cb92db31be03703ab2e5d082cd", null ],
+    [ "Register", "d4/dd6/a14900.html#a0e3a6fd6f3de3d81f535d67451568c45", null ]
 ];

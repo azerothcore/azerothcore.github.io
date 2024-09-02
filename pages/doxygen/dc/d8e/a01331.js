@@ -1,6 +1,6 @@
 var a01331 =
 [
-    [ "instance_halls_of_lightning", "dc/d49/a19443.html", "dc/d49/a19443" ],
-    [ "instance_halls_of_lightning::instance_halls_of_lightning_InstanceMapScript", "d0/df9/a19447.html", "d0/df9/a19447" ],
-    [ "AddSC_instance_halls_of_lightning", "dc/d8e/a01331.html#acb5e7d848388449d05e307ed07fbcfc6", null ]
+    [ "WorldPackets::WorldState::InitWorldStates", "d7/d93/a10600.html", "d7/d93/a10600" ],
+    [ "WorldPackets::WorldState::InitWorldStates::WorldStateInfo", "d0/de4/a10604.html", "d0/de4/a10604" ],
+    [ "WorldPackets::WorldState::UpdateWorldState", "d9/d2e/a10608.html", "d9/d2e/a10608" ]
 ];

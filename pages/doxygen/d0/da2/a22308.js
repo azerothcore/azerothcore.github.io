@@ -1,6 +1,6 @@
 var a22308 =
 [
-    [ "spell_yogg_saron_empowered_AuraScript", "de/d84/a22312.html", "de/d84/a22312" ],
-    [ "spell_yogg_saron_empowered", "d0/da2/a22308.html#a318838339de4383931987bd964e6d449", null ],
-    [ "GetAuraScript", "d0/da2/a22308.html#a7fd58e334ed304132f89da774edd5be9", null ]
+    [ "go_wg_vehicle_teleporterAI", "de/d84/a22312.html", "de/d84/a22312" ],
+    [ "go_wg_vehicle_teleporter", "d0/da2/a22308.html#a074ead770a3da6e9ffa4180a3525f4c8", null ],
+    [ "GetAI", "d0/da2/a22308.html#a113aaf42c095000c1a016bfe60df11e7", null ]
 ];

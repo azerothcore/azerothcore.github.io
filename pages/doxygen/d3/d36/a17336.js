@@ -1,6 +1,7 @@
 var a17336 =
 [
-    [ "spell_krick_explosive_barrage_AuraScript", "d2/d9c/a17340.html", "d2/d9c/a17340" ],
-    [ "spell_krick_explosive_barrage", "d3/d36/a17336.html#a3104cb4a6d44281f04a68c55bbe6c815", null ],
-    [ "GetAuraScript", "d3/d36/a17336.html#a83055c6e2618b131a89b5365d255b92b", null ]
+    [ "npc_icc_blood_beastAI", "d3/d36/a17336.html#af52eff9f66451444c5acba6930c1bff6", null ],
+    [ "DoAction", "d3/d36/a17336.html#a5de6e46fd21fd073fde2f0aaa5dc947a", null ],
+    [ "UpdateAI", "d3/d36/a17336.html#ac9da073c33dd33097f03ca35d36ea15e", null ],
+    [ "timer1", "d3/d36/a17336.html#a1074059162f818088808795119f081be", null ]
 ];

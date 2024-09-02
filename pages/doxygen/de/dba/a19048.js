@@ -1,6 +1,6 @@
 var a19048 =
 [
-    [ "spell_the_lich_king_shadow_trap_periodic_SpellScript", "d6/d98/a19052.html", "d6/d98/a19052" ],
-    [ "spell_the_lich_king_shadow_trap_periodic", "de/dba/a19048.html#af2eef3be550078a0bdf85ad5e4569df4", null ],
-    [ "GetSpellScript", "de/dba/a19048.html#a6822c3dbc3b2dde65ab681bbec4fac2d", null ]
+    [ "instance_naxxramas_InstanceMapScript", "d6/d98/a19052.html", "d6/d98/a19052" ],
+    [ "instance_naxxramas", "de/dba/a19048.html#a9d4b57f9f0f7a44565bb8d9bd3aa24a1", null ],
+    [ "GetInstanceScript", "de/dba/a19048.html#ac5dd8d591af2239faab17727eb1ef66e", null ]
 ];

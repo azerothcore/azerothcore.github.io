@@ -1,6 +1,6 @@
 var a21672 =
 [
-    [ "OnPeriodic", "d7/df2/a21672.html#a714badb5b695e610823edbf3024b6a4a", null ],
-    [ "PrepareAuraScript", "d7/df2/a21672.html#a686fb8a0c2524bf4294dea521a40caca", null ],
-    [ "Register", "d7/df2/a21672.html#ad33099cc043d5204304673f363b5cf8e", null ]
+    [ "npc_hourglass_of_eternityAI", "d1/d94/a21676.html", "d1/d94/a21676" ],
+    [ "npc_hourglass_of_eternity", "d7/df2/a21672.html#a40500ff582ead06bd646be86baad7d35", null ],
+    [ "GetAI", "d7/df2/a21672.html#a6cdec424e78e5c9decac73d091eec0ed", null ]
 ];

@@ -1,6 +1,6 @@
 var a19540 =
 [
-    [ "npc_captain_brandonAI", "d8/d18/a19544.html", "d8/d18/a19544" ],
-    [ "npc_captain_brandon", "d2/d5b/a19540.html#ad522dd280882d894b5d32e7c888f2360", null ],
-    [ "GetAI", "d2/d5b/a19540.html#a3d77951d8d9dbc14fad2fd52d84118a3", null ]
+    [ "spell_hos_dark_matter_AuraScript", "d8/d18/a19544.html", "d8/d18/a19544" ],
+    [ "spell_hos_dark_matter", "d2/d5b/a19540.html#af170db9adc5adb20f8d6a3e95cd60124", null ],
+    [ "GetAuraScript", "d2/d5b/a19540.html#a2277580897f7533440713157d9cd863f", null ]
 ];

@@ -1,6 +1,5 @@
 var a10704 =
 [
-    [ "AuraDispelHandler", "d6/dfb/a10704.html#ab6e675b4db931c601b3d6aef65ae0ff6", null ],
-    [ "Call", "d6/dfb/a10704.html#a147d8a6d95f011f27600d052ef7b4000", null ],
-    [ "pHandlerScript", "d6/dfb/a10704.html#ab7dd73a36aa517354a023deb7db0cf19", null ]
+    [ "amountCounter", "d6/dfb/a10704.html#a8de1f899f55a371b77ae007c1f9a981c", null ],
+    [ "lastReceiveTime", "d6/dfb/a10704.html#ae0f3f2a90a24b48d239e3df3525f8fdc", null ]
 ];

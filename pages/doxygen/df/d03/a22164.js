@@ -1,8 +1,8 @@
 var a22164 =
 [
-    [ "boss_yoggsaron_crusher_tentacleAI", "df/d03/a22164.html#a63d63a0b981c278fcfadfdda1feb5a12", null ],
-    [ "DamageTaken", "df/d03/a22164.html#ac2458922b2530929ee1adbcc0da834a0", null ],
-    [ "DoAction", "df/d03/a22164.html#abcc42381f37256e5c5ab2a42f8ef2c29", null ],
-    [ "Reset", "df/d03/a22164.html#af33db4e2ce1bb85e38437db6ca7982f7", null ],
-    [ "UpdateAI", "df/d03/a22164.html#a8329bc78fc037655d48cb9bf0abd8447", null ]
+    [ "CheckCast", "df/d03/a22164.html#ab1584c391ac81b8338387acc6187001f", null ],
+    [ "HandleDummy", "df/d03/a22164.html#abe856e2c3b986eeac0c1a62aa301eb6d", null ],
+    [ "PrepareSpellScript", "df/d03/a22164.html#a08d9ffb7dcbe786071979166e0489336", null ],
+    [ "Register", "df/d03/a22164.html#a5f0bbd57f3cbc0d0de3d8830dd4e6f2b", null ],
+    [ "Validate", "df/d03/a22164.html#a82d931b4a15f6a60c27d932e8188ef78", null ]
 ];

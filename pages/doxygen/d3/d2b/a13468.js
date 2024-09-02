@@ -1,6 +1,6 @@
 var a13468 =
 [
-    [ "npc_tyrion_spybotAI", "d6/d9b/a13472.html", "d6/d9b/a13472" ],
-    [ "npc_tyrion_spybot", "d3/d2b/a13468.html#a7e0eed1b51ffe1df2d8ae2ad37f26528", null ],
-    [ "GetAI", "d3/d2b/a13468.html#af81b70437703edc8d99fe24249891dd6", null ]
+    [ "boss_blight_wormAI", "d6/d9b/a13472.html", "d6/d9b/a13472" ],
+    [ "boss_blight_worm", "d3/d2b/a13468.html#a6dea51baebc6b44ef94342565136e56d", null ],
+    [ "GetAI", "d3/d2b/a13468.html#a1cb9043482e9b3c3eff3fd75057a2fb2", null ]
 ];

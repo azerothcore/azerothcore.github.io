@@ -1,6 +1,7 @@
 var a22760 =
 [
-    [ "instance_vault_of_archavon_InstanceMapScript", "d3/d9e/a22764.html", "d3/d9e/a22764" ],
-    [ "instance_vault_of_archavon", "d2/d9c/a22760.html#a0be8d95ff0f3b751e6f833689e436310", null ],
-    [ "GetInstanceScript", "d2/d9c/a22760.html#abb955a8873a3a3021e164225dd1f857a", null ]
+    [ "boss_high_nethermancer_zerevor", "d2/d9c/a22760.html#a2d3ce1a6d972c0b58efe5aad31014c09", null ],
+    [ "AttackStart", "d2/d9c/a22760.html#a270961bd3af6ce65eebc79130f4e3d47", null ],
+    [ "JustEngagedWith", "d2/d9c/a22760.html#a390f939ba01ee189fc55670eb4ff1a7e", null ],
+    [ "UpdateAI", "d2/d9c/a22760.html#ae1ec04a655525cbb2a6a3c7e382cf078", null ]
 ];

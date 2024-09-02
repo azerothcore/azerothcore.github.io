@@ -1,22 +1,24 @@
 var a04619 =
 [
-    [ "WMO::MODS", "dd/d8c/a28627.html", "dd/d8c/a28627" ],
-    [ "WMO::MODD", "d9/dfe/a28631.html", "d9/dfe/a28631" ],
-    [ "WMODoodadData", "d8/d4a/a28635.html", "d8/d4a/a28635" ],
-    [ "WMORoot", "d2/ddb/a28639.html", "d2/ddb/a28639" ],
-    [ "WMOLiquidHeader", "d8/dea/a28643.html", "d8/dea/a28643" ],
-    [ "WMOLiquidVert", "de/d16/a28647.html", "de/d16/a28647" ],
-    [ "WMOGroup", "d2/d95/a28651.html", "d2/d95/a28651" ],
-    [ "MopyFlags", "de/d22/a04619.html#a0673ad4a8399eb24693f8694a261e3da", [
-      [ "WHO_MATERIAL_UNK01", "de/d22/a04619.html#a0673ad4a8399eb24693f8694a261e3daa4887238124bff7f472762f37b14f084b", null ],
-      [ "WMO_MATERIAL_NOCAMCOLLIDE", "de/d22/a04619.html#a0673ad4a8399eb24693f8694a261e3daae8fbdf74c986d20ec35a1bc8540ab5f6", null ],
-      [ "WMO_MATERIAL_DETAIL", "de/d22/a04619.html#a0673ad4a8399eb24693f8694a261e3daa02dedf8ad6e2e81ec7ce4f51c2003d20", null ],
-      [ "WMO_MATERIAL_COLLISION", "de/d22/a04619.html#a0673ad4a8399eb24693f8694a261e3daa26cd74a7fba8ff77edd7fcad4b174192", null ],
-      [ "WMO_MATERIAL_HINT", "de/d22/a04619.html#a0673ad4a8399eb24693f8694a261e3daaeda4c860284ded0a951980ea981503f2", null ],
-      [ "WMO_MATERIAL_RENDER", "de/d22/a04619.html#a0673ad4a8399eb24693f8694a261e3daa79016e869a8c491c5e7c762416645edc", null ],
-      [ "WMO_MATERIAL_WALL_SURFACE", "de/d22/a04619.html#a0673ad4a8399eb24693f8694a261e3daaa806842158937b60f3b6af093b50497a", null ],
-      [ "WMO_MATERIAL_COLLIDE_HIT", "de/d22/a04619.html#a0673ad4a8399eb24693f8694a261e3daad1b64a17d5df9a320ad54ab47e9c0885", null ]
+    [ "MMAP::MeshData", "d2/d4b/a28576.html", "d2/d4b/a28576" ],
+    [ "MMAP::TerrainBuilder", "d6/dfc/a28580.html", "d6/dfc/a28580" ],
+    [ "Grid", "de/d22/a04619.html#a6ddcf7a168396ad1ecedfc4e5fe04c09", [
+      [ "GRID_V8", "de/d22/a04619.html#a6ddcf7a168396ad1ecedfc4e5fe04c09a1b3d969edeab4d39be8a3a59ebca6e0b", null ],
+      [ "GRID_V9", "de/d22/a04619.html#a6ddcf7a168396ad1ecedfc4e5fe04c09a90e846a47ab162703bf2dc5664a61289", null ]
     ] ],
-    [ "Extract", "de/d22/a04619.html#a9148b3ef5b412564a285737b0bd104dd", null ],
-    [ "fixCoords", "de/d22/a04619.html#ab265837fe64577975f97318431c69e9c", null ]
+    [ "Spot", "de/d22/a04619.html#aa0140172b3856ff5a4e0db0227a41165", [
+      [ "TOP", "de/d22/a04619.html#aa0140172b3856ff5a4e0db0227a41165aecf8447d11b71464b1a20efa4b87cef1", null ],
+      [ "RIGHT", "de/d22/a04619.html#aa0140172b3856ff5a4e0db0227a41165a7ba16840bb5803d51ebe597bc881851e", null ],
+      [ "LEFT", "de/d22/a04619.html#aa0140172b3856ff5a4e0db0227a41165a5bf23f4bd225a5f4caadf6820404332b", null ],
+      [ "BOTTOM", "de/d22/a04619.html#aa0140172b3856ff5a4e0db0227a41165a8f0736dff0eeeaeeb131796615680d04", null ],
+      [ "ENTIRE", "de/d22/a04619.html#aa0140172b3856ff5a4e0db0227a41165a333ed540d45ff2a6bc5ac8a954e93f12", null ]
+    ] ],
+    [ "GRID_PART_SIZE", "de/d22/a04619.html#a39bc2d4fa649e77addef85b06c49b369", null ],
+    [ "GRID_SIZE", "de/d22/a04619.html#a16e4fdf7de4239156a5a8eb83dcc9e8c", null ],
+    [ "INVALID_MAP_LIQ_HEIGHT", "de/d22/a04619.html#a44bbf7085ddd1deacaae673ea4ec357c", null ],
+    [ "INVALID_MAP_LIQ_HEIGHT_MAX", "de/d22/a04619.html#a26a6da9ce81eb096651bf47cb90f947f", null ],
+    [ "V8_SIZE", "de/d22/a04619.html#a6918d13eba00db309998162fbff2fb7c", null ],
+    [ "V8_SIZE_SQ", "de/d22/a04619.html#a94a0ee7c4f225dfc488737a7ba825bae", null ],
+    [ "V9_SIZE", "de/d22/a04619.html#a32c90e1638c0f8693e2fc95201d2ec3f", null ],
+    [ "V9_SIZE_SQ", "de/d22/a04619.html#a7eb8c24e8759cfd1ebd37b1efc72618b", null ]
 ];

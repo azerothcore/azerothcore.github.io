@@ -1,6 +1,8 @@
 var a14784 =
 [
-    [ "instance_culling_of_stratholme_InstanceMapScript", "d7/d14/a14788.html", "d7/d14/a14788" ],
-    [ "instance_culling_of_stratholme", "d8/d5c/a14784.html#a0b07e751032e15e7fcf2f86bf29a39be", null ],
-    [ "GetInstanceScript", "d8/d5c/a14784.html#ad8cbcb198666d44d79d6255d066c8315", null ]
+    [ "HandleScript", "d8/d5c/a14784.html#ac58aef1b295e32c8a44852278edc18f8", null ],
+    [ "Load", "d8/d5c/a14784.html#a2f7b9372dd36444c5161f3bc50424d99", null ],
+    [ "PrepareSpellScript", "d8/d5c/a14784.html#adc1301a318f86b4e147a191f4c63e3bf", null ],
+    [ "Register", "d8/d5c/a14784.html#a95f4abd67d6baf75980ff28a7518503d", null ],
+    [ "Validate", "d8/d5c/a14784.html#a98271e7adb17b11e39241154a83b0d0d", null ]
 ];

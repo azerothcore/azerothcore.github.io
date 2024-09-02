@@ -1,7 +1,6 @@
 var a13224 =
 [
-    [ "HandleApply", "db/d02/a13224.html#a173361f5cb4ae9f4d0595339662ee2dd", null ],
-    [ "HandleRemove", "db/d02/a13224.html#a589dae6926b7b04cfb8d723cfbc52f1a", null ],
-    [ "PrepareAuraScript", "db/d02/a13224.html#ab464f859fd95cf2e5d2f568d4049b2be", null ],
-    [ "Register", "db/d02/a13224.html#a30336ae89a687c350d88da2b8ffe3aa4", null ]
+    [ "spell_uldaman_sub_boss_agro_keepers_SpellScript", "d1/dd7/a13228.html", "d1/dd7/a13228" ],
+    [ "spell_uldaman_sub_boss_agro_keepers", "db/d02/a13224.html#abf3c4ac5e131f66ee8c7dcafa6d78279", null ],
+    [ "GetSpellScript", "db/d02/a13224.html#a2db1d5f97da0387d1565809f8b090f2f", null ]
 ];

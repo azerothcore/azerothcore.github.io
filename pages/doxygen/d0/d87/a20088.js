@@ -1,6 +1,6 @@
 var a20088 =
 [
-    [ "FilterTargets", "d0/d87/a20088.html#a776e40c38103f85a423da217b0db1028", null ],
-    [ "PrepareSpellScript", "d0/d87/a20088.html#a16ebca472cdfb69b4619dff6ba3bd263", null ],
-    [ "Register", "d0/d87/a20088.html#ac533b76dfa8b01f0943ce35fa4a7eadd", null ]
+    [ "npc_ulduar_toasty_fireAI", "d0/d87/a20088.html#a145001c6f1c1d505f810ae545ec62c69", null ],
+    [ "DoAction", "d0/d87/a20088.html#a8ab71582cc5d8386f788fb95203fbab5", null ],
+    [ "SpellHit", "d0/d87/a20088.html#a0e4475382dfd754dc119d2e8dba61b7e", null ]
 ];

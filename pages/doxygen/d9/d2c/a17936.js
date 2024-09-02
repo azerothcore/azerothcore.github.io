@@ -1,6 +1,9 @@
 var a17936 =
 [
-    [ "spell_deathbringer_blood_nova_targeting_SpellScript", "d7/dcb/a17940.html", "d7/dcb/a17940" ],
-    [ "spell_deathbringer_blood_nova_targeting", "d9/d2c/a17936.html#ad6850493f02b51a29e8d5e49e1321ccb", null ],
-    [ "GetSpellScript", "d9/d2c/a17936.html#ac049d17f25fdd8235460572f9ddbf2e9", null ]
+    [ "FilterTargets", "d9/d2c/a17936.html#ae0c0320b523076e03c01f69b9d0df4bd", null ],
+    [ "FilterTargetsSubseq", "d9/d2c/a17936.html#a88a53a855e01b550fbd106ac318a891e", null ],
+    [ "PrepareSpellScript", "d9/d2c/a17936.html#ae5c08d71d0e1d30f0b126ca593763697", null ],
+    [ "Register", "d9/d2c/a17936.html#a27e8768422b311f6db16757e167f4102", null ],
+    [ "Validate", "d9/d2c/a17936.html#a96ef76527449a138685830b52fa95146", null ],
+    [ "_targetList", "d9/d2c/a17936.html#afcfbcf16c29b3bda1d7b85f79c624db1", null ]
 ];

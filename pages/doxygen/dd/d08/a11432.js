@@ -1,8 +1,14 @@
 var a11432 =
 [
-    [ "boss_highlordomokkAI", "dd/d08/a11432.html#ae6906b2f86eb2d8efe51de92376be0da", null ],
-    [ "JustDied", "dd/d08/a11432.html#ac7e125b4350880d3d195b915c8be9de0", null ],
-    [ "JustEngagedWith", "dd/d08/a11432.html#a072dc582f931deb7d1e0db9ad535f146", null ],
-    [ "Reset", "dd/d08/a11432.html#a627390013798de7a53a95817624417e3", null ],
-    [ "UpdateAI", "dd/d08/a11432.html#a38e6008d616131d2876ae5a085a083ff", null ]
+    [ "tele_commandscript", "dd/d08/a11432.html#a13d522c3480c5b82071d5f77bd41f942", null ],
+    [ "DoNameTeleport", "dd/d08/a11432.html#aeab9bf62f33fd1d55055ba2ae7925f82", null ],
+    [ "GetCommands", "dd/d08/a11432.html#a296b26e39d5d575ebe68728ff1b49f68", null ],
+    [ "HandleTeleAddCommand", "dd/d08/a11432.html#a8d429a38c01a19f8c89c87937ef24248", null ],
+    [ "HandleTeleCommand", "dd/d08/a11432.html#ac7d7dbb28f3a908fa5116ffb9ca6f7fa", null ],
+    [ "HandleTeleDelCommand", "dd/d08/a11432.html#ad3d85b0057797de2aceeb620cf62efc0", null ],
+    [ "HandleTeleGroupCommand", "dd/d08/a11432.html#af83e529b482654851a7a1ee77beb107e", null ],
+    [ "HandleTeleNameCommand", "dd/d08/a11432.html#a70fcde1c7c5a9e5297035862adca55c4", null ],
+    [ "HandleTeleNameNpcIdCommand", "dd/d08/a11432.html#a52852b7f3d7a6bbf68164e6918b9a141", null ],
+    [ "HandleTeleNameNpcNameCommand", "dd/d08/a11432.html#a2f68bad0f1af5d40fcefb8c394472b65", null ],
+    [ "HandleTeleNameNpcSpawnIdCommand", "dd/d08/a11432.html#a7a45fa39afa6bae2359a68b11a504bc5", null ]
 ];

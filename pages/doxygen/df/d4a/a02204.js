@@ -1,6 +1,5 @@
 var a02204 =
 [
-    [ "instance_hellfire_ramparts", "dc/d1a/a23515.html", "dc/d1a/a23515" ],
-    [ "instance_hellfire_ramparts::instance_hellfire_ramparts_InstanceMapScript", "dd/d81/a23519.html", "dd/d81/a23519" ],
-    [ "AddSC_instance_hellfire_ramparts", "df/d4a/a02204.html#a4172290a7e1e8ffcbf19519225978acf", null ]
+    [ "player_commandscript", "dc/d43/a11400.html", "dc/d43/a11400" ],
+    [ "AddSC_player_commandscript", "df/d4a/a02204.html#a3a4a77162d5b304dab9a8c8e397c3516", null ]
 ];

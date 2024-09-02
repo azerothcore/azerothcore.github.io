@@ -1,7 +1,9 @@
 var a19372 =
 [
-    [ "npc_blazing_skeletonAI", "d7/dc7/a19372.html#ad4f997a7a4cc0fa96594da35434fd921", null ],
-    [ "Reset", "d7/dc7/a19372.html#a3bbc4cf7b6dbe11d6768a0fb0626e84a", null ],
-    [ "UpdateAI", "d7/dc7/a19372.html#a0010c4befd13ec6beada0de1607f3f7a", null ],
-    [ "_events", "d7/dc7/a19372.html#aab1b04989d5e3fc289f00bc121df193d", null ]
+    [ "npc_stormforged_lieutenantAI", "d7/dc7/a19372.html#a74d84534c39e7e6f3774099fd6b28d29", null ],
+    [ "JustEngagedWith", "d7/dc7/a19372.html#a112bd4adaa290afd04d229347a96ff4a", null ],
+    [ "Reset", "d7/dc7/a19372.html#aaef10316b8f7c3e980082cab722ffe9f", null ],
+    [ "UpdateAI", "d7/dc7/a19372.html#a3944886823dad81bcd5d72e020910143", null ],
+    [ "BjarngrimGUID", "d7/dc7/a19372.html#a4003deba30ff47ed3296325112b6cb0e", null ],
+    [ "events", "d7/dc7/a19372.html#a530d16086a9e613f6f0299186f8bcc33", null ]
 ];

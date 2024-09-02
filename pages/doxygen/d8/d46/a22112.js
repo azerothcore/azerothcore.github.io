@@ -1,6 +1,5 @@
 var a22112 =
 [
-    [ "boss_yoggsaron_saraAI", "d9/d90/a22116.html", "d9/d90/a22116" ],
-    [ "boss_yoggsaron_sara", "d8/d46/a22112.html#aaf5bd5440122f6c97315b0e3b9d47586", null ],
-    [ "GetAI", "d8/d46/a22112.html#abc83e0f3a7d12a84ea283e5b2a69826d", null ]
+    [ "go_pressure_valve", "d8/d46/a22112.html#a43a91a1379001ecd3e825d7d4fcd3c6b", null ],
+    [ "OnGossipHello", "d8/d46/a22112.html#a6b81a04a33cd5e1e577fc80a3b1f706c", null ]
 ];

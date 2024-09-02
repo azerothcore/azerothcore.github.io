@@ -1,7 +1,7 @@
 var a07864 =
 [
-    [ "AddToGrid", "d2/deb/a07864.html#a178e3cc30d983d739e1f3f98d9eefbf0", null ],
-    [ "IsInGrid", "d2/deb/a07864.html#a996724d21d62e478f50031faa7637cd5", null ],
-    [ "RemoveFromGrid", "d2/deb/a07864.html#a29740a98fea7db66cdffd824940a2ec2", null ],
-    [ "_gridRef", "d2/deb/a07864.html#aa44ba47734267ac07b733f218623f3c5", null ]
+    [ "entry", "d2/deb/a07864.html#aabf7002fbd171e7f1832be5f066dbe44", null ],
+    [ "pos", "d2/deb/a07864.html#aad6aa76796625075e4fcfb7d1a3eb88c", null ],
+    [ "time", "d2/deb/a07864.html#a8a38eed04cdb2efb89e98f869e0d800d", null ],
+    [ "type", "d2/deb/a07864.html#a40927a435b557e4c1e5c5eedbb5d5e5b", null ]
 ];

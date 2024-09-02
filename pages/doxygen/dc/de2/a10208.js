@@ -1,8 +1,7 @@
 var a10208 =
 [
-    [ "PauseMirrorTimer", "dc/de2/a10208.html#a05ccc52cb56d38cadb27fbde2563df45", null ],
-    [ "PauseMirrorTimer", "dc/de2/a10208.html#ad6e7a6eb3edadc235dc5bb97802381ac", null ],
-    [ "Write", "dc/de2/a10208.html#aea61f9e668173b65eac3b9f42ddd68a1", null ],
-    [ "Paused", "dc/de2/a10208.html#a7adf6dcd7e712792ea94bad77f8be232", null ],
-    [ "Timer", "dc/de2/a10208.html#a4a041bf772ef3f145bde6be9f8ecdc13", null ]
+    [ "Emote", "dc/de2/a10208.html#acb1620d125ffb11fe43caf4ebf27d1be", null ],
+    [ "Write", "dc/de2/a10208.html#a3f5532f40b59f47423d2b4e3749da88e", null ],
+    [ "EmoteID", "dc/de2/a10208.html#a7f4d3ee4353b408f8c795e6fdc552e76", null ],
+    [ "Guid", "dc/de2/a10208.html#ab96a1c0933e90872f54eb0995098274a", null ]
 ];

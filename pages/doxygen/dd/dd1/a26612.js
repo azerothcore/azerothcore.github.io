@@ -1,6 +1,8 @@
 var a26612 =
 [
-    [ "HandleAfterCast", "dd/dd1/a26612.html#aaa65e67362ded5318e89272acf073bf3", null ],
-    [ "PrepareSpellScript", "dd/dd1/a26612.html#a7d0dd936965845c14e7b54846facdb89", null ],
-    [ "Register", "dd/dd1/a26612.html#ab7b767743d62d9763bea710b7552a8cf", null ]
+    [ "CheckProc", "dd/dd1/a26612.html#a33412f2b5abb1ce2160408ef13e7f0cb", null ],
+    [ "HandleProc", "dd/dd1/a26612.html#ab24c3d3f697a7ebd146d6135305c7741", null ],
+    [ "PrepareAuraScript", "dd/dd1/a26612.html#a8eccfbb749b85bbb850874324f17bbde", null ],
+    [ "Register", "dd/dd1/a26612.html#a482dd09de6cba9f5a36a6cdad1b82a0a", null ],
+    [ "Validate", "dd/dd1/a26612.html#a0c3020d44608920a2820e73e0b9e4b42", null ]
 ];

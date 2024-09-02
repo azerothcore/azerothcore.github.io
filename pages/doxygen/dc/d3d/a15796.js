@@ -1,6 +1,6 @@
 var a15796 =
 [
-    [ "SayerEntry", "dc/d3d/a15796.html#a3f9e374ec2a49823d942c29572ac2fa0", null ],
-    [ "SayTimer", "dc/d3d/a15796.html#a942073f24fd12da712184243d9f098f2", null ],
-    [ "TextEntry", "dc/d3d/a15796.html#a360822e4c069be6019c0a465cb2499cf", null ]
+    [ "boss_sartharion_vesperonAI", "d0/d14/a15800.html", "d0/d14/a15800" ],
+    [ "boss_sartharion_vesperon", "dc/d3d/a15796.html#a53af67abd9f9bff7f72ee2441e885500", null ],
+    [ "GetAI", "dc/d3d/a15796.html#ad045054b44910461e704c412a524bdc4", null ]
 ];

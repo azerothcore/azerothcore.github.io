@@ -1,6 +1,9 @@
 var a22232 =
 [
-    [ "boss_yoggsaron_neltharionAI", "de/de1/a22236.html", "de/de1/a22236" ],
-    [ "boss_yoggsaron_neltharion", "da/d50/a22232.html#a9910e0d6043e7738cba0fe9ae7e92898", null ],
-    [ "GetAI", "da/d50/a22232.html#abce5f59c35f7af3e1d5b30cc55ff48e6", null ]
+    [ "npc_brunnhildar_prisonerAI", "da/d50/a22232.html#ad650885c7f615f8b27ba20203c9fbb6f", null ],
+    [ "JustRespawned", "da/d50/a22232.html#a15843fcdc5d9eb34df7869b56a0b16ac", null ],
+    [ "Reset", "da/d50/a22232.html#ac9ba0806b9702cebe9171d9ba8962b0f", null ],
+    [ "SpellHit", "da/d50/a22232.html#af2835ec5b951e2f4bb176ebe6bb958fd", null ],
+    [ "UpdateAI", "da/d50/a22232.html#a0702d4cf577ac00688a7b93bfe656952", null ],
+    [ "freed", "da/d50/a22232.html#a46e03a19bac91a800154e3c873235800", null ]
 ];

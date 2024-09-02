@@ -1,6 +1,7 @@
 var a26744 =
 [
-    [ "RaiseDeadCheck", "d0/d66/a26744.html#abc6439e5b457f2f6e832f504167a392d", null ],
-    [ "operator()", "d0/d66/a26744.html#a9647e6afd21e7397f05349e66bea4326", null ],
-    [ "_caster", "d0/d66/a26744.html#a7b1647934c5e64de65d38b9fba2d343a", null ]
+    [ "HandleRemove", "d0/d66/a26744.html#a0f5a3e4d75dbb5c699ea1acbf89db318", null ],
+    [ "PrepareAuraScript", "d0/d66/a26744.html#a9e153c86e29a17b0cc20c65c635aa070", null ],
+    [ "Register", "d0/d66/a26744.html#a338ee9c0eddd309ce2a791160059bad6", null ],
+    [ "Validate", "d0/d66/a26744.html#ae8272b65a070fc959af003f701567c3c", null ]
 ];

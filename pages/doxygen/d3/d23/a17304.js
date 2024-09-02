@@ -1,6 +1,8 @@
 var a17304 =
 [
-    [ "boss_garfrostAI", "da/ddd/a17308.html", "da/ddd/a17308" ],
-    [ "boss_garfrost", "d3/d23/a17304.html#ac116491cf252ee476cedee55ea292827", null ],
-    [ "GetAI", "d3/d23/a17304.html#a8a67bb09249655a8706868bb26b5124d", null ]
+    [ "CheckProc", "d3/d23/a17304.html#a11620e4d645b3bfd35924700b5dad289", null ],
+    [ "HandleProc", "d3/d23/a17304.html#aa80a032f2ec80aba36f6fe0208412587", null ],
+    [ "PrepareAuraScript", "d3/d23/a17304.html#afe04f0cb6539238412253b63dd3c82b9", null ],
+    [ "Register", "d3/d23/a17304.html#ac18d1d1a1d19b0dfa5cb1565377ba273", null ],
+    [ "Validate", "d3/d23/a17304.html#ac42fe3248fadf0ecca95893e06c490ee", null ]
 ];

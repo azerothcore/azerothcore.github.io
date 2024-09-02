@@ -1,19 +1,15 @@
 var a00587 =
 [
-    [ "QueryResultFieldMetadata", "db/dd0/a05603.html", "db/dd0/a05603" ],
-    [ "Field", "db/de6/a05607.html", "db/de6/a05607" ],
-    [ "Binary", "de/dde/a00587.html#a45c2b15f675e85c1f4462be09f27c59e", null ],
-    [ "is_chrono_v", "de/dde/a00587.html#aa6a7b1e80be2ae7ec2efb76185ee7b44", null ],
-    [ "DatabaseFieldTypes", "de/dde/a00587.html#a52858f4c2cc23ac9372ab466fb82c091", [
-      [ "Null", "de/dde/a00587.html#a52858f4c2cc23ac9372ab466fb82c091abbb93ef26e3c101ff11cdd21cab08a94", null ],
-      [ "Int8", "de/dde/a00587.html#a52858f4c2cc23ac9372ab466fb82c091a7d839b2c12bfd40ac121b4cc9e81c539", null ],
-      [ "Int16", "de/dde/a00587.html#a52858f4c2cc23ac9372ab466fb82c091a39bc2ae44b184207f560ff8619823208", null ],
-      [ "Int32", "de/dde/a00587.html#a52858f4c2cc23ac9372ab466fb82c091ac06129f6e6e15c09328365e553f1dc31", null ],
-      [ "Int64", "de/dde/a00587.html#a52858f4c2cc23ac9372ab466fb82c091afbde23b11d7e59af7828e81144c8b487", null ],
-      [ "Float", "de/dde/a00587.html#a52858f4c2cc23ac9372ab466fb82c091a22ae0e2b89e5e3d477f988cc36d3272b", null ],
-      [ "Double", "de/dde/a00587.html#a52858f4c2cc23ac9372ab466fb82c091ad909d38d705ce75386dd86e611a82f5b", null ],
-      [ "Decimal", "de/dde/a00587.html#a52858f4c2cc23ac9372ab466fb82c091a937504f318f04eaf0f1d701df4c4d7f3", null ],
-      [ "Date", "de/dde/a00587.html#a52858f4c2cc23ac9372ab466fb82c091a44749712dbec183e983dcd78a7736c41", null ],
-      [ "Binary", "de/dde/a00587.html#a52858f4c2cc23ac9372ab466fb82c091a6ce976e8f061b2b5cfe4d0c50c3405dd", null ]
-    ] ]
+    [ "Position", "db/d54/a08188.html", "db/d54/a08188" ],
+    [ "Position::PositionXYStreamer", "dc/d3b/a08192.html", "dc/d3b/a08192" ],
+    [ "Position::PositionXYZStreamer", "d9/da6/a08196.html", "d9/da6/a08196" ],
+    [ "Position::PositionXYZOStreamer", "da/d3e/a08200.html", "da/d3e/a08200" ],
+    [ "WorldLocation", "d3/d6d/a08204.html", "d3/d6d/a08204" ],
+    [ "MAPID_INVALID", "de/dde/a00587.html#af69a1d112a89b89894dafd5da53e7490", null ],
+    [ "operator<<", "de/dde/a00587.html#a09519787a0405fc17b028180b2da4cdd", null ],
+    [ "operator<<", "de/dde/a00587.html#a71323635f122d24189054da615cb39e1", null ],
+    [ "operator<<", "de/dde/a00587.html#ab63323f8a9ade40ddd90338538b5c9b5", null ],
+    [ "operator>>", "de/dde/a00587.html#a188cc2956d39298323a99c4aa5ceede6", null ],
+    [ "operator>>", "de/dde/a00587.html#a72e22c3226b5f361848aef2c75a6d3fb", null ],
+    [ "operator>>", "de/dde/a00587.html#af223d782e9dcf0f80ed4009360aa0d80", null ]
 ];

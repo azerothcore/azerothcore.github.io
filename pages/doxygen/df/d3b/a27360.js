@@ -1,6 +1,8 @@
 var a27360 =
 [
-    [ "CheckRequirement", "df/d3b/a27360.html#adb3212ff52b5ad9ae2ce824dd1cf018a", null ],
-    [ "PrepareSpellScript", "df/d3b/a27360.html#aebb88f5ea803a590a099e4e6427d8276", null ],
-    [ "Register", "df/d3b/a27360.html#a18406f867561f9baf5a4cee8ce8ea59a", null ]
+    [ "npc_artoriusAI", "d4/da8/a27364.html", "d4/da8/a27364" ],
+    [ "npc_artorius", "df/d3b/a27360.html#a832831aa19ef3694eee5bbae4d1d39e1", null ],
+    [ "GetAI", "df/d3b/a27360.html#a2563f90fe1fd35c6bcf3f2296652981d", null ],
+    [ "OnGossipHello", "df/d3b/a27360.html#a2c91fcd777d0e0e7ab4927290ca04359", null ],
+    [ "OnGossipSelect", "df/d3b/a27360.html#ae0d8b09e4f7ad830cac9d82ef2d2fe57", null ]
 ];

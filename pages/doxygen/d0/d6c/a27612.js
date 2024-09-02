@@ -1,7 +1,12 @@
 var a27612 =
 [
-    [ "CheckProc", "d0/d6c/a27612.html#afbd6d4a64b7da0d0dc15c62eb81746c9", null ],
-    [ "HandleProc", "d0/d6c/a27612.html#a27569fe686e50246768fca4a7625fe0d", null ],
-    [ "PrepareAuraScript", "d0/d6c/a27612.html#a4f4eaa4aeeac9257804957671c16233f", null ],
-    [ "Register", "d0/d6c/a27612.html#ab9a662bebdb5e03c5c10a807b892a9bf", null ]
+    [ "categoryId", "d0/d6c/a27612.html#a1de0e4302757f18c08b90b40e059737b", null ],
+    [ "count", "d0/d6c/a27612.html#a93aac150067979467f56d9919ff665a4", null ],
+    [ "flags", "d0/d6c/a27612.html#a5c0dfb5b3c0711aff47d3d604ded2d1a", null ],
+    [ "ID", "d0/d6c/a27612.html#a843fee247948d02f7aaf04144cb37ef5", null ],
+    [ "mapID", "d0/d6c/a27612.html#ab3d41381808c8bdc163554f7c46f6bc6", null ],
+    [ "name", "d0/d6c/a27612.html#a806cfeddc475994f1b421679bd9699e6", null ],
+    [ "points", "d0/d6c/a27612.html#abc2b4cf9c6580c6bc99d5c47d7539374", null ],
+    [ "refAchievement", "d0/d6c/a27612.html#a858661b2e3479fa3fc2e029ae0d8a145", null ],
+    [ "requiredFaction", "d0/d6c/a27612.html#a722dbda5ed8d74f5a1e75bdec8841aa3", null ]
 ];

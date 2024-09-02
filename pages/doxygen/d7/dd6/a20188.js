@@ -1,6 +1,5 @@
 var a20188 =
 [
-    [ "spell_thaddius_pos_neg_charge_SpellScript", "d0/d80/a20192.html", "d0/d80/a20192" ],
-    [ "spell_thaddius_pos_neg_charge", "d7/dd6/a20188.html#aecf627540c5e863b9c7187829482cb3b", null ],
-    [ "GetSpellScript", "d7/dd6/a20188.html#a548cd99333f6cbddd91ca8173451ecbf", null ]
+    [ "achievement_staying_buffed_all_winter_25", "d7/dd6/a20188.html#a91f0ab3bada837cff6414350b98a27a3", null ],
+    [ "OnCheck", "d7/dd6/a20188.html#a36591082184bc8466e124bad9a910545", null ]
 ];

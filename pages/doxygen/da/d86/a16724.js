@@ -1,7 +1,6 @@
 var a16724 =
 [
-    [ "HandleDispel", "da/d86/a16724.html#ab720416f0497b4ad827208e186afd79a", null ],
-    [ "PrepareAuraScript", "da/d86/a16724.html#a2f79b7869018b4a775c64c8d985d4a0c", null ],
-    [ "Register", "da/d86/a16724.html#a26c918009fa3a3cf8b0145c2d2812588", null ],
-    [ "Validate", "da/d86/a16724.html#a37964b313e11c1e14a7df4a1acb18c10", null ]
+    [ "npc_phantom_hallucinationAI", "d0/d19/a16728.html", "d0/d19/a16728" ],
+    [ "npc_phantom_hallucination", "da/d86/a16724.html#a685889c090152a2562ee9adef7efbf71", null ],
+    [ "GetAI", "da/d86/a16724.html#a771ee338f87ca0a2e9a7d02d1322c5d5", null ]
 ];

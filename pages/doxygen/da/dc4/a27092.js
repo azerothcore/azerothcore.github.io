@@ -1,6 +1,6 @@
 var a27092 =
 [
-    [ "CheckAreaTarget", "da/dc4/a27092.html#a90761b0145ea9d4178e77eb5e15a8ba6", null ],
-    [ "PrepareAuraScript", "da/dc4/a27092.html#afbc45652033397067a439b45afd2e90e", null ],
-    [ "Register", "da/dc4/a27092.html#aa24679e1243470056f74249e1b26767d", null ]
+    [ "go_witherbark_totem_bundleAI", "da/dc4/a27092.html#a955625e2315008a2e36936d44f825060", null ],
+    [ "UpdateAI", "da/dc4/a27092.html#af688bab2dc3d938951adb303e8b8d88b", null ],
+    [ "_timer", "da/dc4/a27092.html#a509e6d8401380c326a0f565a6b903d7a", null ]
 ];

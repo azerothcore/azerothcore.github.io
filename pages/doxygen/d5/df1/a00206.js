@@ -1,5 +1,5 @@
 var a00206 =
 [
-    [ "HMAC_RESULT_SIZE", "d5/df1/a00206.html#abdb09168f87cd99a498636550843012d", null ],
-    [ "TOTP_INTERVAL", "d5/df1/a00206.html#abcaccdfb09251b1b2856cc0c48c64eda", null ]
+    [ "AddonHandler", "de/df4/a09244.html", "de/df4/a09244" ],
+    [ "sAddOnHandler", "d5/df1/a00206.html#a53c18d341aaa47d117be75333e4ab43d", null ]
 ];

@@ -1,9 +1,11 @@
 var a14112 =
 [
-    [ "HandleEffectPeriodic", "dd/d3b/a14112.html#a798c8ddfc71e703bfe1e3c1f2d926cef", null ],
-    [ "HandleEffectRemove", "dd/d3b/a14112.html#a96ed7366e568b70e82d622586740aa56", null ],
-    [ "Load", "dd/d3b/a14112.html#a85cbc44e586330e2adfc0656a428bd7b", null ],
-    [ "PrepareAuraScript", "dd/d3b/a14112.html#abd1f851112a50b79e815cdd894275bab", null ],
-    [ "Register", "dd/d3b/a14112.html#aa3cd85aed063017c4737e7660fa81f37", null ],
-    [ "questTick", "dd/d3b/a14112.html#ae2980e5f4934ce2ba5b755b7d45fab82", null ]
+    [ "npc_elder_kekek", "dd/d3b/a14112.html#a6084af39be5c70699c9fdcf3cd58e954", null ],
+    [ "MoveInLineOfSight", "dd/d3b/a14112.html#a0c673e4fdf8e75d3bc8570db166bcd95", null ],
+    [ "Reset", "dd/d3b/a14112.html#a97e615bdefba5baf459960fc2987cd69", null ],
+    [ "UpdateAI", "dd/d3b/a14112.html#a5823bc7164d797c40d48b9b74642d9b5", null ],
+    [ "orphanGUID", "dd/d3b/a14112.html#a98c79e46e051c35819c6025828a519cb", null ],
+    [ "phase", "dd/d3b/a14112.html#a99fd9d984f92d5ba8b5876675855d4f6", null ],
+    [ "playerGUID", "dd/d3b/a14112.html#a614ed3332f4af3c5178aa69da968a3d3", null ],
+    [ "timer", "dd/d3b/a14112.html#a445c048d8858f5dc7c1e88308ed7e5ab", null ]
 ];

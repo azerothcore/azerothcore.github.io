@@ -1,11 +1,12 @@
 var a11052 =
 [
-    [ "instance_commandscript", "d1/dc1/a11052.html#a4d0b308b35a1aa21c66c8bd406ffa82f", null ],
-    [ "GetCommands", "d1/dc1/a11052.html#a092d62969c835f6bf2a08ca3e05f04d5", null ],
-    [ "HandleInstanceGetBossStateCommand", "d1/dc1/a11052.html#a1435d100be4cdbe146c30f96be2ec66d", null ],
-    [ "HandleInstanceListBindsCommand", "d1/dc1/a11052.html#abf42411f9c78ce59b21b34691e3d4233", null ],
-    [ "HandleInstanceSaveDataCommand", "d1/dc1/a11052.html#a4b494a8b1de470612436fbb9fa433416", null ],
-    [ "HandleInstanceSetBossStateCommand", "d1/dc1/a11052.html#aec65b5af811eae2cbcf17571e9d1473b", null ],
-    [ "HandleInstanceStatsCommand", "d1/dc1/a11052.html#a9547a0a88a3bcd7407c449f3f2f25f44", null ],
-    [ "HandleInstanceUnbindCommand", "d1/dc1/a11052.html#a7abbe257b10632f2acbdd838e1f073a9", null ]
+    [ "BroadcastTextBuilder", "d1/dc1/a11052.html#adafc60b68bed31fdd87f5c71244c96f2", null ],
+    [ "operator()", "d1/dc1/a11052.html#a16f9719278e00013c25902846fa1be5b", null ],
+    [ "operator()", "d1/dc1/a11052.html#ac87701626dddffb6b09bf504b97c4d55", null ],
+    [ "_achievementId", "d1/dc1/a11052.html#a82de25331657b17ce0de33f2b374abda", null ],
+    [ "_gender", "d1/dc1/a11052.html#a71032b0749dd75f552107503528e8166", null ],
+    [ "_msgType", "d1/dc1/a11052.html#a232325cefa217843da5cc6db7e5d80fe", null ],
+    [ "_source", "d1/dc1/a11052.html#ab73315225b3aa36a309f45596f7089f4", null ],
+    [ "_target", "d1/dc1/a11052.html#a958b154f3c82188e9684be0f0b7dae56", null ],
+    [ "_textId", "d1/dc1/a11052.html#a0bbe45b38a92967f145fb1d608d647b1", null ]
 ];

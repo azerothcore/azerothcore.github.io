@@ -1,9 +1,6 @@
 var a19780 =
 [
-    [ "npc_icc_severed_essenceAI", "de/d70/a19780.html#a76366c33ab9ec7aa291c0df657fbef68", null ],
-    [ "CanAIAttack", "de/d70/a19780.html#a2cc2cfc967f9ad966d76571eb0eb630f", null ],
-    [ "DoAction", "de/d70/a19780.html#a938af3a7de5b26432e1ad515a326a032", null ],
-    [ "UpdateAI", "de/d70/a19780.html#a66e3324baa87ba109dd968a517ee82a5", null ],
-    [ "Class", "de/d70/a19780.html#aa627713be3a2ac01336d158d96aaccc7", null ],
-    [ "events", "de/d70/a19780.html#a1bab216925c4123d633d9613bb80365c", null ]
+    [ "npc_hodirs_furyAI", "d2/d4c/a19784.html", "d2/d4c/a19784" ],
+    [ "npc_hodirs_fury", "de/d70/a19780.html#af5e0f1cb4c478bd4fc9ec246aa7d7e08", null ],
+    [ "GetAI", "de/d70/a19780.html#ad8856a6da86a8f4ce744d57614ee16e6", null ]
 ];

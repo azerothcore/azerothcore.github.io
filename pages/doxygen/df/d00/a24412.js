@@ -1,6 +1,7 @@
 var a24412 =
 [
-    [ "spell_illidan_tear_of_azzinoth_summon_channel_AuraScript", "de/db8/a24416.html", "de/db8/a24416" ],
-    [ "spell_illidan_tear_of_azzinoth_summon_channel", "df/d00/a24412.html#a49ba46498ce42fb23caf5306418b921c", null ],
-    [ "GetAuraScript", "df/d00/a24412.html#a47120dcf7ac483962f1ea92df2abd21e", null ]
+    [ "CheckCast", "df/d00/a24412.html#a0e4e62a9b1763619170b6da8487e7ee1", null ],
+    [ "HandleDummy", "df/d00/a24412.html#ac7084a563e98760d58dfbcafdd7cde11", null ],
+    [ "PrepareSpellScript", "df/d00/a24412.html#a465da282630352a289d5daae7ccb1d01", null ],
+    [ "Register", "df/d00/a24412.html#ae668f0c45a74d56d1be5be29309c9f6d", null ]
 ];

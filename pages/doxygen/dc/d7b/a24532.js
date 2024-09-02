@@ -1,7 +1,7 @@
 var a24532 =
 [
-    [ "SuckBackEvent", "dc/d7b/a24532.html#a6525e2aefec2680fde20e27ebf962f4c", null ],
-    [ "Execute", "dc/d7b/a24532.html#aae1664e6ef9d90ec8a0e12554b991bf0", null ],
-    [ "_action", "dc/d7b/a24532.html#abc54669df2dba0238723a40ababe4c0a", null ],
-    [ "_owner", "dc/d7b/a24532.html#a4d8bc09803f7786022c1836457ded488", null ]
+    [ "CheckCast", "dc/d7b/a24532.html#ab215bbeea333d250ecbff0482f4f0966", null ],
+    [ "FilterTargets", "dc/d7b/a24532.html#a6ee8387c7fed3fd3042852a2f542c5bd", null ],
+    [ "PrepareSpellScript", "dc/d7b/a24532.html#a83447d184bb2299987d0c54d5af4c910", null ],
+    [ "Register", "dc/d7b/a24532.html#a6107ba00471dd346c363db80fe81b698", null ]
 ];

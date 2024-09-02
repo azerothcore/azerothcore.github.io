@@ -1,6 +1,6 @@
 var a22808 =
 [
-    [ "boss_lavanthorAI", "d0/d35/a22812.html", "d0/d35/a22812" ],
-    [ "boss_lavanthor", "d2/d36/a22808.html#aa935ffe07f59db59b9b8484f22927026", null ],
-    [ "GetAI", "d2/d36/a22808.html#aae09ecbe56efac6538bdfb6120e0be40", null ]
+    [ "PrepareAuraScript", "d2/d36/a22808.html#ac52a5dccc708f9ee63f3c6c92fbf15c1", null ],
+    [ "Register", "d2/d36/a22808.html#acc4afbe7f2b23b67e8f7e3fe1eeb03b5", null ],
+    [ "Update", "d2/d36/a22808.html#aa9f5924b3f12c666c53ddc2b9b80aeea", null ]
 ];

@@ -1,8 +1,6 @@
 var a25940 =
 [
-    [ "npc_ragin_flamesAI", "d5/ddd/a25940.html#a96f9e4b213d81a7c97d0477cd064e812", null ],
-    [ "JustEngagedWith", "d5/ddd/a25940.html#a78d2dfe972824e744c372ccc89eea101", null ],
-    [ "Reset", "d5/ddd/a25940.html#a5616547de04534544476926c877cf2e9", null ],
-    [ "UpdateAI", "d5/ddd/a25940.html#a6c706da1afb0b7ad7e8066eef049103e", null ],
-    [ "events", "d5/ddd/a25940.html#a20d0d7a9ee9de528dda997e13add1558", null ]
+    [ "CalculateAmount", "d5/ddd/a25940.html#a3491a0a1d2f00f76730ddc53a66c8179", null ],
+    [ "PrepareAuraScript", "d5/ddd/a25940.html#a667883298cee173af941cfc07022f318", null ],
+    [ "Register", "d5/ddd/a25940.html#a22514461b79f736e3ab595fa7fb48b68", null ]
 ];

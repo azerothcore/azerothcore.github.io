@@ -1,7 +1,10 @@
 var a13944 =
 [
-    [ "HandleOnHit", "dd/d84/a13944.html#a561799e6241b1fe17cd09f17c447107b", null ],
-    [ "PrepareSpellScript", "dd/d84/a13944.html#ad98ba2831e93bd601b51a5c6a7e8441d", null ],
-    [ "Register", "dd/d84/a13944.html#ad9b601b73631285cb5a79e30dfe4a8cc", null ],
-    [ "Validate", "dd/d84/a13944.html#adb339686c5e9dcb298712455dc8435bf", null ]
+    [ "npc_zealot_zath", "dd/d84/a13944.html#a845840d0a45dd6c4b6368ee4ecf6917b", null ],
+    [ "JustDied", "dd/d84/a13944.html#ae56e2e89a6ba623200e9ee36977cee13", null ],
+    [ "JustEngagedWith", "dd/d84/a13944.html#a25e059f40de51d880f4ec209ff4dd924", null ],
+    [ "Reset", "dd/d84/a13944.html#abc4e40afd644f2c89444f3fe475817c0", null ],
+    [ "UpdateAI", "dd/d84/a13944.html#a467ce2437ec112b42f864ef412c0c976", null ],
+    [ "_scheduler", "dd/d84/a13944.html#a146679c4eb3eec444ff1dcd9a780110a", null ],
+    [ "instance", "dd/d84/a13944.html#a66dfe3182b45e984b4d81d40051e5ecc", null ]
 ];

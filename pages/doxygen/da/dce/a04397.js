@@ -1,7 +1,4 @@
 var a04397 =
 [
-    [ "BG_RV_CLOSE_FIRE_TIMER", "da/dce/a04397.html#adea63e30cefe486dd1cbeb0353fdaeb2", null ],
-    [ "BG_RV_FIRE_TO_PILLAR_TIMER", "da/dce/a04397.html#a20f119684cfae65594c4cb1fc59e60c1", null ],
-    [ "BG_RV_FIRST_TIMER", "da/dce/a04397.html#abb49be7549db0a88e8b5fcd470741084", null ],
-    [ "BG_RV_PILLAR_SWITCH_TIMER", "da/dce/a04397.html#a6ecc5972946e4de12babadf07ce85e2f", null ]
+    [ "Reference< TO, FROM >", "d9/d4c/a05132.html", "d9/d4c/a05132" ]
 ];

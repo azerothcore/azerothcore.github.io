@@ -1,5 +1,6 @@
 var a26116 =
 [
-    [ "go_warmaul_prison", "da/d0b/a26116.html#adffbb532d7ee3c5a67543fe15ce5b67b", null ],
-    [ "OnGossipHello", "da/d0b/a26116.html#ac9e66eeb30bf951d37f2d0917a295705", null ]
+    [ "FilterTargets", "da/d0b/a26116.html#a23c7b977f7e213322b3702367d6a28c7", null ],
+    [ "PrepareSpellScript", "da/d0b/a26116.html#a7000b2fd940c914933c486e847932b62", null ],
+    [ "Register", "da/d0b/a26116.html#a870ee08d0341f6640710a87c97a6b98b", null ]
 ];

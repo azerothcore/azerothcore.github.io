@@ -1,8 +1,6 @@
 var a16636 =
 [
-    [ "npc_toc_warlockAI", "da/d4d/a16636.html#a4c4c2f502f00ca48bb7419434d88ea3a", null ],
-    [ "JustSummoned", "da/d4d/a16636.html#a203ef748afaa400aa1f8365b5d7bf6b1", null ],
-    [ "myCanCast", "da/d4d/a16636.html#a62b2df362bc07aa4a9c14cbc63a10e05", null ],
-    [ "UpdateAI", "da/d4d/a16636.html#a554849d02d923439bd810b7d8c242afa", null ],
-    [ "events", "da/d4d/a16636.html#a3b84c70d246bbf5b70ab4dec06c647b3", null ]
+    [ "boss_devourer_of_soulsAI", "d8/dce/a16640.html", "d8/dce/a16640" ],
+    [ "boss_devourer_of_souls", "da/d4d/a16636.html#a95b3a33be3b85a4c7ecfb4370a9ddc60", null ],
+    [ "GetAI", "da/d4d/a16636.html#a3de68fa630c5b74104c461f88edd1d36", null ]
 ];

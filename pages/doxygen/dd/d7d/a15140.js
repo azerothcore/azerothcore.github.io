@@ -1,5 +1,6 @@
 var a15140 =
 [
-    [ "at_cthun_stomach_exit", "dd/d7d/a15140.html#ab37174eff353cdbba1f300464645ac63", null ],
-    [ "OnTrigger", "dd/d7d/a15140.html#ab56dca3fe200dc7822459a22912247bf", null ]
+    [ "npc_magwinAI", "db/d64/a15144.html", "db/d64/a15144" ],
+    [ "npc_magwin", "dd/d7d/a15140.html#a1a45602fd312a4c436b09fb7b90ac1d4", null ],
+    [ "GetAI", "dd/d7d/a15140.html#a83bee0fd5c1494f2bb732fe9e0ed1594", null ]
 ];

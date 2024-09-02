@@ -1,6 +1,7 @@
 var a15480 =
 [
-    [ "spell_voljin_war_drums_SpellScript", "d7/d34/a15484.html", "d7/d34/a15484" ],
-    [ "spell_voljin_war_drums", "d4/d3b/a15480.html#a218af593728d78a1cb4bfff8c0eb9d31", null ],
-    [ "GetSpellScript", "d4/d3b/a15480.html#ad7e2d0c9fbe7111541149e4b1333e52f", null ]
+    [ "npc_lakota_windsongAI", "d7/d34/a15484.html", "d7/d34/a15484" ],
+    [ "npc_lakota_windsong", "d4/d3b/a15480.html#a08a585ac36189ec23354c7acb26d223d", null ],
+    [ "GetAI", "d4/d3b/a15480.html#af2f27ed2c4bd7298a9478495d2d7ca65", null ],
+    [ "OnQuestAccept", "d4/d3b/a15480.html#a47ccf0b8bef84724f7aa7e2ad564dfe6", null ]
 ];

@@ -1,6 +1,8 @@
 var a15136 =
 [
-    [ "OnPeriodic", "de/daa/a15136.html#a08dce8b98afadc134166a615b4496151", null ],
-    [ "PrepareAuraScript", "de/daa/a15136.html#a9ebb34665b176e4e60f085da65183d8e", null ],
-    [ "Register", "de/daa/a15136.html#a6a04dbb7c66324e701a8db0ee0334123", null ]
+    [ "npc_injured_draeneiAI", "de/daa/a15136.html#a6832ec8b005e75ff66b0fd04e5ff3daa", null ],
+    [ "JustEngagedWith", "de/daa/a15136.html#adcc5750f0ab037a7ac38b9fa64b75a74", null ],
+    [ "MoveInLineOfSight", "de/daa/a15136.html#a514556f4a81c6f1f8b7caaa526c08662", null ],
+    [ "Reset", "de/daa/a15136.html#adcb601f739a91ce71926791885152471", null ],
+    [ "UpdateAI", "de/daa/a15136.html#af4d723ac0a95f9dad12e82d5bc987f50", null ]
 ];

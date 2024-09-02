@@ -1,6 +1,7 @@
 var a18196 =
 [
-    [ "spell_igb_overheat_AuraScript", "d4/db8/a18200.html", "d4/db8/a18200" ],
-    [ "spell_igb_overheat", "d6/d3e/a18196.html#a1c1e037f57b113b0bcede90e281ebf2d", null ],
-    [ "GetAuraScript", "d6/d3e/a18196.html#a2936669905a6c9a014f13988ae97a9ca", null ]
+    [ "CheckTargetCount", "d6/d3e/a18196.html#a44f558248f944464c773105728cffbca", null ],
+    [ "PrepareSpellScript", "d6/d3e/a18196.html#a2ae927358c2480aecd18c1f3c2e6c1c7", null ],
+    [ "Register", "d6/d3e/a18196.html#aeda833ca8483d337311086b9d0a14081", null ],
+    [ "Validate", "d6/d3e/a18196.html#aee84751e352dbfc12472fc15924c48fa", null ]
 ];

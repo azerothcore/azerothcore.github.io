@@ -1,7 +1,10 @@
 var a27352 =
 [
-    [ "OnApply", "d4/d8c/a27352.html#afda219a18001505ae7a2d01b1d5b25c0", null ],
-    [ "OnRemove", "d4/d8c/a27352.html#a54bcd84599d6e5a6d7f538e2b40b890b", null ],
-    [ "PrepareAuraScript", "d4/d8c/a27352.html#a9a7b549e059b6bd2d22802f60e952658", null ],
-    [ "Register", "d4/d8c/a27352.html#aae603735281daf02ceca157e218d5c9f", null ]
+    [ "npc_prof_tailor", "d4/d8c/a27352.html#a481157e49fb1c09f62a3cb9de85c9da1", null ],
+    [ "HasTailorSpell", "d4/d8c/a27352.html#a188c0ac66b1972bccd031aca26f7fecd", null ],
+    [ "OnGossipHello", "d4/d8c/a27352.html#a686098ac43916ea2f82b7c321527863d", null ],
+    [ "OnGossipSelect", "d4/d8c/a27352.html#a03545eaacf3bae0d407e0e20c32740dc", null ],
+    [ "SendActionMenu", "d4/d8c/a27352.html#a03ced7d6541535097a5e4e3bd9f415f2", null ],
+    [ "SendConfirmLearn", "d4/d8c/a27352.html#a93a8692cb2c0b30ee752ae3ecd5561e5", null ],
+    [ "SendConfirmUnlearn", "d4/d8c/a27352.html#ada0be1dc79f72b7b033191c8e17a8baf", null ]
 ];

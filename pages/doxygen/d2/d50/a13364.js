@@ -1,7 +1,7 @@
 var a13364 =
 [
-    [ "npc_ranger_lilatha", "d2/d50/a13364.html#abd13a89b41a289edefb9bc21588f8d29", null ],
-    [ "Reset", "d2/d50/a13364.html#a3e804e483b51961193ee1079caba40be", null ],
-    [ "sQuestAccept", "d2/d50/a13364.html#acc38d4feacb5e7fa5ce9658b10447c4d", null ],
-    [ "WaypointReached", "d2/d50/a13364.html#a193bd47c7d7c4fb3d832a59bf55e8412", null ]
+    [ "npc_greengill_slaveAI", "d2/d50/a13364.html#a1a4268b745e63992f4d0fc2028b717aa", null ],
+    [ "JustEngagedWith", "d2/d50/a13364.html#ad7fcb8c711782d3a76e9e4566334fc21", null ],
+    [ "SpellHit", "d2/d50/a13364.html#a0e75a3e8eb3503fdb3aea12e65ccc6e4", null ],
+    [ "UpdateAI", "d2/d50/a13364.html#a6fa27328cf47bef81c3465b8a3e2ace1", null ]
 ];

@@ -1,8 +1,6 @@
 var a21936 =
 [
-    [ "boss_thorim_pillarAI", "d9/d57/a21936.html#ae00c9e72f14e3f2c94da118a1fe27130", null ],
-    [ "Reset", "d9/d57/a21936.html#ae9043ed9b72cc0eda6fb7c859355da57", null ],
-    [ "SpellHit", "d9/d57/a21936.html#a1cb3ef9fdfc9e375d15e14b9230dd51e", null ],
-    [ "UpdateAI", "d9/d57/a21936.html#afd8e05444eeea620a7ef21e97c345d41", null ],
-    [ "_resetTimer", "d9/d57/a21936.html#a6ef7c9e23280564aec1b82eb670bc4f9", null ]
+    [ "npc_attracted_reef_bullAI", "d8/dd0/a21940.html", "d8/dd0/a21940" ],
+    [ "npc_attracted_reef_bull", "d9/d57/a21936.html#acd0ade9e7ce5492c11be0b3f2696418e", null ],
+    [ "GetAI", "d9/d57/a21936.html#af705e2768cd41c955af7f944c670ac85", null ]
 ];

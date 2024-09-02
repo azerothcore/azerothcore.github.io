@@ -1,8 +1,6 @@
 var a26440 =
 [
-    [ "npc_cooshcooshAI", "da/d23/a26444.html", "da/d23/a26444" ],
-    [ "npc_cooshcoosh", "d1/dd4/a26440.html#ac03dee47e035a069b203e4ff0d1953cc", null ],
-    [ "GetAI", "d1/dd4/a26440.html#a0a7bb853e06c3777018f9fc91feca701", null ],
-    [ "OnGossipHello", "d1/dd4/a26440.html#ab537b7b5affac884441052850ca4a6e5", null ],
-    [ "OnGossipSelect", "d1/dd4/a26440.html#a70545a6ef2d9c8838f172afb0de59e74", null ]
+    [ "HandleFinish", "d1/dd4/a26440.html#ac4c50220d86f809644e339fc578d9b4a", null ],
+    [ "PrepareSpellScript", "d1/dd4/a26440.html#a5a14594ed93150e34626a7e0edb8171b", null ],
+    [ "Register", "d1/dd4/a26440.html#a9d28a3b88d57e2f89921d59f56148f74", null ]
 ];

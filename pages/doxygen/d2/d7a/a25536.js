@@ -1,6 +1,6 @@
 var a25536 =
 [
-    [ "spell_tsh_shadow_bolt_SpellScript", "d7/d67/a25540.html", "d7/d67/a25540" ],
-    [ "spell_tsh_shadow_bolt", "d2/d7a/a25536.html#ac4b6e92c4f6509ccbe383345a5c1a387", null ],
-    [ "GetSpellScript", "d2/d7a/a25536.html#aec6178870f0370294c749cb513643363", null ]
+    [ "HandleSummon", "d2/d7a/a25536.html#aadfea4a2238754473a8abbc487fd7f7b", null ],
+    [ "PrepareSpellScript", "d2/d7a/a25536.html#a4974a3687df394d51db322210ebb5ddb", null ],
+    [ "Register", "d2/d7a/a25536.html#a89146ab41d1408c18ce2bff403ae8e4e", null ]
 ];

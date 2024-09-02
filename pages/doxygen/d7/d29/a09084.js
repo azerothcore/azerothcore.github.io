@@ -1,7 +1,8 @@
 var a09084 =
 [
-    [ "QuestItem", "d7/d29/a09084.html#a1d6e1d5de83a397b17115dbeba2a58b3", null ],
-    [ "QuestItem", "d7/d29/a09084.html#a51b978ee64ec979ebe097f3b3f4c3cd0", null ],
-    [ "index", "d7/d29/a09084.html#a0e48289882a1eabb6c8ff30032193bd2", null ],
-    [ "is_looted", "d7/d29/a09084.html#a48f2baabd2d5a07313dc38a27c6f4713", null ]
+    [ "AllGameObjectsWithEntryInRange", "d7/d29/a09084.html#ab5a57e9a5f8b927b28f1fc9d6f6fce56", null ],
+    [ "operator()", "d7/d29/a09084.html#a342aa18d98413620fce4c676fcf75305", null ],
+    [ "m_fRange", "d7/d29/a09084.html#a7cce16670c95c19f3eb68e5914160513", null ],
+    [ "m_pObject", "d7/d29/a09084.html#a5c898c20992999f11204aab6479d71f6", null ],
+    [ "m_uiEntry", "d7/d29/a09084.html#a64ff0c14c71e218b8f9a8888b1017fec", null ]
 ];

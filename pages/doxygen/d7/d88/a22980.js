@@ -1,6 +1,8 @@
 var a22980 =
 [
-    [ "npc_khunok_the_behemothAI", "dd/df7/a22984.html", "dd/df7/a22984" ],
-    [ "npc_khunok_the_behemoth", "d7/d88/a22980.html#a0370959631c00581495dbd7c37263236", null ],
-    [ "GetAI", "d7/d88/a22980.html#a201aa35dd119d23126b192a1e3786c09", null ]
+    [ "CalcPeriodic", "d7/d88/a22980.html#aad87c25b9b3255a4871bec39d9787299", null ],
+    [ "PrepareAuraScript", "d7/d88/a22980.html#a7494c41e41ffc55811c57208f80c7eb6", null ],
+    [ "Register", "d7/d88/a22980.html#acce25abc58a29dfe5a5287a8b00242ae", null ],
+    [ "Update", "d7/d88/a22980.html#a4e2a5a2d666419ccbb0ca71670332b8c", null ],
+    [ "Validate", "d7/d88/a22980.html#ae4f7bfb1cd95666acada217173876352", null ]
 ];

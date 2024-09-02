@@ -1,6 +1,9 @@
 var a23200 =
 [
-    [ "npc_conversing_with_the_depths_triggerAI", "d9/d5f/a23204.html", "d9/d5f/a23204" ],
-    [ "npc_conversing_with_the_depths_trigger", "df/dab/a23200.html#a55ba213da86650d44ea1493b26fdb7f2", null ],
-    [ "GetAI", "df/dab/a23200.html#a61c337bfe1efb3589cf0df91d9082236", null ]
+    [ "CalcPeriodic", "df/dab/a23200.html#a4c5a034d23253b2cf08cb86f12821184", null ],
+    [ "HandleEffectApply", "df/dab/a23200.html#af60491946062054504b20e16273ed594", null ],
+    [ "HandleEffectRemove", "df/dab/a23200.html#abfd43cd8e9df873e6c0867779bad13c1", null ],
+    [ "HandlePeriodic", "df/dab/a23200.html#a5137e24394fa14129c44d92c79eef117", null ],
+    [ "PrepareAuraScript", "df/dab/a23200.html#ac1f10b9e9d9883c25e28ae313242d41e", null ],
+    [ "Register", "df/dab/a23200.html#a69108d90f7c3fa95adfc29c14bd8c9fe", null ]
 ];

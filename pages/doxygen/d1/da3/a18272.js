@@ -1,9 +1,8 @@
 var a18272 =
 [
-    [ "CheckAreaTarget", "d1/da3/a18272.html#ad5150df78fc9881746c3281e6edf1f51", null ],
-    [ "HandleApply", "d1/da3/a18272.html#a3991de6a244924d460229e5c3c609ede", null ],
-    [ "Load", "d1/da3/a18272.html#a29c136840fc0ac1e9d222d0f4d3f2e95", null ],
-    [ "PrepareAuraScript", "d1/da3/a18272.html#a03de8f7412037e5c7954232428924d01", null ],
-    [ "Register", "d1/da3/a18272.html#a96b616bc463eedac860780420bcdd3d7", null ],
-    [ "_teamIdInInstance", "d1/da3/a18272.html#a200f12af50740f602d20be8957fef679", null ]
+    [ "npc_lk_wicked_spiritAI", "d1/da3/a18272.html#a6323ddd6c0932f3d73a6de4bd3c4d5dd", null ],
+    [ "CanAIAttack", "d1/da3/a18272.html#ae094420b1a6e134632baa0b086c806c6", null ],
+    [ "JustDied", "d1/da3/a18272.html#adf153fab1c8639b2b5790ed418afb85d", null ],
+    [ "JustRespawned", "d1/da3/a18272.html#a1acfbead42b66dd8f70a85efc8ce2e6f", null ],
+    [ "Reset", "d1/da3/a18272.html#a8b15079251b6855679d738a342126006", null ]
 ];

@@ -1,6 +1,6 @@
 var a17268 =
 [
-    [ "npc_hor_lumbering_abominationAI", "df/d52/a17272.html", "df/d52/a17272" ],
-    [ "npc_hor_lumbering_abomination", "d9/d7f/a17268.html#a0d394d1ba52a05a6db0ae983daea7123", null ],
-    [ "GetAI", "d9/d7f/a17268.html#a0601ac0af85e545617013846c48de29a", null ]
+    [ "boss_deathbringer_saurfangAI", "df/d52/a17272.html", "df/d52/a17272" ],
+    [ "boss_deathbringer_saurfang", "d9/d7f/a17268.html#ad19893be7dc3b4290d9b1ed3bb992e08", null ],
+    [ "GetAI", "d9/d7f/a17268.html#a6bc1ef44b3ea9e860d62bf78cfa38c92", null ]
 ];

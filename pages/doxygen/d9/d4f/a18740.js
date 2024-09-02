@@ -1,6 +1,6 @@
 var a18740 =
 [
-    [ "UnchainedMagicTargetSelector", "d9/d4f/a18740.html#ae412c72884e6cfb1ceef8ed9fb347fbf", null ],
-    [ "operator()", "d9/d4f/a18740.html#af28ce8f46154ae6152e9025775a7f84f", null ],
-    [ "_removeHealers", "d9/d4f/a18740.html#a35a7981ce5495cba8b3a5391e4031431", null ]
+    [ "RespawnEvent", "d9/d4f/a18740.html#accc0d5638ff7a493fa116ac2e8f2e58b", null ],
+    [ "Execute", "d9/d4f/a18740.html#a2e58f4e472fb72cf5401f11be6e5e136", null ],
+    [ "_owner", "d9/d4f/a18740.html#adb0835b4a2e7a2795bb81f0a1e3c911a", null ]
 ];

@@ -1,6 +1,6 @@
 var a22992 =
 [
-    [ "npc_nerubar_victimAI", "d7/d4b/a22996.html", "d7/d4b/a22996" ],
-    [ "npc_nerubar_victim", "db/dca/a22992.html#a4fe80597d3e56776f0f04965fc706097", null ],
-    [ "GetAI", "db/dca/a22992.html#a5bb565352ab47fb5cb572190f55df8d1", null ]
+    [ "PrepareAuraScript", "db/dca/a22992.html#a0dca39c324a5431d4861c1f20a34355e", null ],
+    [ "Register", "db/dca/a22992.html#a8f52092f25bdbf453d4126c56ff69f0a", null ],
+    [ "Update", "db/dca/a22992.html#a6201eaa3b961e838a535b80679996ada", null ]
 ];

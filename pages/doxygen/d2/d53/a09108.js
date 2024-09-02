@@ -1,7 +1,7 @@
 var a09108 =
 [
-    [ "LootView", "d2/d53/a09108.html#a4cfc8ca1034e941a85d2955f38b2e894", null ],
-    [ "loot", "d2/d53/a09108.html#ac95fa4805c79923b292e8984b00de929", null ],
-    [ "permission", "d2/d53/a09108.html#a33d7eeebd6fbc854300275a4138d9030", null ],
-    [ "viewer", "d2/d53/a09108.html#af9a6926c6c871dee245f876038e49995", null ]
+    [ "AllWorldObjectsInRange", "d2/d53/a09108.html#a63f46d510df0fa3153d4b3325676a468", null ],
+    [ "operator()", "d2/d53/a09108.html#a2cf23c24df93b5f7f29163b32e965a94", null ],
+    [ "m_fRange", "d2/d53/a09108.html#a6afe3ef05369dce8ee205db219f97846", null ],
+    [ "m_pObject", "d2/d53/a09108.html#ae7dde7b946d8affb79cb2d4c58eedbed", null ]
 ];

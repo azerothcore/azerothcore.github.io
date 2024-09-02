@@ -1,7 +1,6 @@
 var a13444 =
 [
-    [ "npc_bartlebyAI", "de/d39/a13448.html", "de/d39/a13448" ],
-    [ "npc_bartleby", "dc/dac/a13444.html#a4933c9ff03d3d074df0598ee564de009", null ],
-    [ "GetAI", "dc/dac/a13444.html#a1fb3a8a2ef01c05b09fc8e916b4c1179", null ],
-    [ "OnQuestAccept", "dc/dac/a13444.html#a61725af49cbdc18fa7e8feb16d7bca06", null ]
+    [ "npc_parqual_fintallas", "dc/dac/a13444.html#a9edaf1f7cf4e81ce24c54faa4aed6cf6", null ],
+    [ "OnGossipHello", "dc/dac/a13444.html#af7c1f119d91aa63ee96765f2092b0a6c", null ],
+    [ "OnGossipSelect", "dc/dac/a13444.html#a39276ef82ec5214a1727ebd60235a506", null ]
 ];

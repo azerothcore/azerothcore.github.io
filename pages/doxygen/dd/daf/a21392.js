@@ -1,5 +1,9 @@
 var a21392 =
 [
-    [ "achievement_shadowdodger", "dd/daf/a21392.html#a8389a4972968fcc6cd7807e96ee5e527", null ],
-    [ "OnCheck", "dd/daf/a21392.html#a3ee0baca0c9163a601cd4bcfa9ebeb04", null ]
+    [ "npc_azure_stalkerAI", "dd/daf/a21392.html#a1499e734f0d95d491bcd23c2e858a1ee", null ],
+    [ "Reset", "dd/daf/a21392.html#a9bd36e95ce7c3157a2ac53400da51d23", null ],
+    [ "UpdateAI", "dd/daf/a21392.html#a8c4ea046d69b269e886960ba9562fd0c", null ],
+    [ "TacticalBlinkCasted", "dd/daf/a21392.html#a875a272380251fcc7f98e5c0f84bb41a", null ],
+    [ "uiBackstabTimer", "dd/daf/a21392.html#ad03ba957706a62e3d8091d025ddd50dc", null ],
+    [ "uiTacticalBlinkTimer", "dd/daf/a21392.html#ab817fb9f2f06715f0a08a99e12693697", null ]
 ];

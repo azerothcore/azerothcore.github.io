@@ -1,7 +1,7 @@
 var a17724 =
 [
-    [ "HandleScript", "d3/d39/a17724.html#a6d6440ca3cdcc208cd49e2c3edad0c57", null ],
-    [ "Load", "d3/d39/a17724.html#a828dfc1126fcdf77c01ea7ec1376de3f", null ],
-    [ "PrepareSpellScript", "d3/d39/a17724.html#a4598ec2c5fc788af83d978d9cce29c44", null ],
-    [ "Register", "d3/d39/a17724.html#add80d9f315d4763bf00dd40ce984871f", null ]
+    [ "HandleTriggerSpell", "d3/d39/a17724.html#a7d7f1731c453e5d0b70e6093aeedea87", null ],
+    [ "PrepareAuraScript", "d3/d39/a17724.html#afff0c81696ddcb427ce105d510ef93b1", null ],
+    [ "Register", "d3/d39/a17724.html#aa50c6066115d7b60704eff48e77d10bd", null ],
+    [ "Validate", "d3/d39/a17724.html#a6ef56d3d18bab2f81c810160ecf3ae96", null ]
 ];

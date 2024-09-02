@@ -1,19 +1,19 @@
 var a04403 =
 [
-    [ "BattlegroundRL", "d7/d50/a07179.html", "d7/d50/a07179" ],
-    [ "BattlegroundRLObjects", "d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497a", [
-      [ "BG_RL_OBJECT_TYPE_DOOR_1", "d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497aa4af54ddc0fa71a41b26c859580db7fb0", null ],
-      [ "BG_RL_OBJECT_TYPE_DOOR_2", "d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497aa13210caaf34c5aa100455cf4f74d43d1", null ],
-      [ "BG_RL_OBJECT_TYPE_BUFF_1", "d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497aaf7212d012d9018e008f475bd21bae934", null ],
-      [ "BG_RL_OBJECT_TYPE_BUFF_2", "d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497aa5e706f8c7f110903f7301b47b0487921", null ]
-    ] ],
-    [ "BattlegroundRLObjectTypes", "d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24", [
-      [ "BG_RL_OBJECT_DOOR_1", "d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24ab647ed9553d4e532699cd1b551014636", null ],
-      [ "BG_RL_OBJECT_DOOR_2", "d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a9dfe9b550ad26c408445bfe72f064058", null ],
-      [ "BG_RL_OBJECT_BUFF_1", "d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a793477ef5d11b6f41cfb62d8c354e8d4", null ],
-      [ "BG_RL_OBJECT_BUFF_2", "d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a670a77d5efbe30024d0ffb16acd5dfac", null ],
-      [ "BG_RL_OBJECT_READY_MARKER_1", "d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a2ea82a43036f0e733ad4aab7a53ea0b2", null ],
-      [ "BG_RL_OBJECT_READY_MARKER_2", "d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a199d2d1b5ee7f52820b2aae38a98a755", null ],
-      [ "BG_RL_OBJECT_MAX", "d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a7b6737d574968476c6ecb6d1bbf03813", null ]
-    ] ]
+    [ "Find", "d3/dd8/a04403.html#a516e9fe262b5a1c4dcd65da7ccf71b5a", null ],
+    [ "Find", "d3/dd8/a04403.html#a6823f2f647f14752459f26981d4c26b7", null ],
+    [ "Find", "d3/dd8/a04403.html#a4bfb4bddc798432f29bd818e89944edf", null ],
+    [ "Find", "d3/dd8/a04403.html#a19feef3708a949a3dcdf70f3fe86ff0e", null ],
+    [ "Find", "d3/dd8/a04403.html#ae166e7e76c33c81464ce6c03126a9851", null ],
+    [ "Find", "d3/dd8/a04403.html#a6c9d620966c3418af1971dc8326ccb4a", null ],
+    [ "Find", "d3/dd8/a04403.html#a5ebe906ee0f2f706bcc950236459a7f8", null ],
+    [ "Find", "d3/dd8/a04403.html#a63a0d0d14ac1e3ecbed175c4206b87f2", null ],
+    [ "Insert", "d3/dd8/a04403.html#ae7e83af9675f10ea565b725be25b8c5e", null ],
+    [ "Insert", "d3/dd8/a04403.html#a2cb738cb02deb5f4d7d30a7d860a45ff", null ],
+    [ "Insert", "d3/dd8/a04403.html#a9113786a11594dfcecc6d3bb4e1aadb2", null ],
+    [ "Insert", "d3/dd8/a04403.html#a3bc394692e5fd3b096a149b1208e3675", null ],
+    [ "Remove", "d3/dd8/a04403.html#a3714737e66e682a43beb71292ccd564e", null ],
+    [ "Remove", "d3/dd8/a04403.html#ac344e92ea8d73f94dc08c6a52001ec3e", null ],
+    [ "Remove", "d3/dd8/a04403.html#aecc909b333bb7f55f438bfcf1ea3085f", null ],
+    [ "Remove", "d3/dd8/a04403.html#a36e61ba9bc4e287e215444ea9314a656", null ]
 ];

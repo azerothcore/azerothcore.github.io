@@ -1,7 +1,11 @@
 var a15724 =
 [
-    [ "npc_wizzlecrank_shredderAI", "d8/d57/a15728.html", "d8/d57/a15728" ],
-    [ "npc_wizzlecrank_shredder", "d8/da8/a15724.html#a56a29a61d6f1a5981019f6c059b4da64", null ],
-    [ "GetAI", "d8/da8/a15724.html#a5c42cc6d8cf2642333731138077af66e", null ],
-    [ "OnQuestAccept", "d8/da8/a15724.html#afcd5aaea5234b6510825d9ce5e809aa6", null ]
+    [ "npc_anub_ar_crusherAI", "d8/da8/a15724.html#a35866e3cad208bb70bbc5a146301c28d", null ],
+    [ "DoAction", "d8/da8/a15724.html#ac11795153811d2465b106bc1fdea508a", null ],
+    [ "JustEngagedWith", "d8/da8/a15724.html#a02d3b78427bc247cde28620470c43331", null ],
+    [ "JustSummoned", "d8/da8/a15724.html#a6d484f8d3f54bb7c7ad572027501f2ab", null ],
+    [ "Reset", "d8/da8/a15724.html#a85f60e0733ac4ccd8f7941e8df0f88d9", null ],
+    [ "UpdateAI", "d8/da8/a15724.html#aaeda7e00410766857ee4bd73a8e15b89", null ],
+    [ "events", "d8/da8/a15724.html#ad4a2111d4301f0b928fbd01b6783fb6c", null ],
+    [ "summons", "d8/da8/a15724.html#a3136ecd40bf228fade0e40d3c5d22e5d", null ]
 ];

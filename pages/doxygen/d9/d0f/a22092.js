@@ -1,6 +1,6 @@
 var a22092 =
 [
-    [ "OnRemove", "d9/d0f/a22092.html#ac4d50b0f256b0b38313b8d7a5910f198", null ],
-    [ "PrepareAuraScript", "d9/d0f/a22092.html#a1a3486f24b1e00b94be808a43e16204f", null ],
-    [ "Register", "d9/d0f/a22092.html#ab43761783386b9956f8549046d190422", null ]
+    [ "npc_artruis_the_hearthlessAI", "dd/d49/a22096.html", "dd/d49/a22096" ],
+    [ "npc_artruis_the_hearthless", "d9/d0f/a22092.html#abeed70f4306113bd5df242eae91bfdb0", null ],
+    [ "GetAI", "d9/d0f/a22092.html#a1a7674c5e3e9e0de848bfb0d906ac06c", null ]
 ];

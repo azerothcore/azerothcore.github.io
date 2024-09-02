@@ -1,7 +1,6 @@
 var a27440 =
 [
-    [ "HandleDummy", "d0/de2/a27440.html#a5b25d03bb22995e1ba9deb7eec4ee35a", null ],
-    [ "Load", "d0/de2/a27440.html#a833d9abe12cb4fff1700b97bc7215c1d", null ],
-    [ "PrepareSpellScript", "d0/de2/a27440.html#a547b3f71f9fc502dc589ad7b9b6f3cc2", null ],
-    [ "Register", "d0/de2/a27440.html#ae7d502253b0c47921e40da4aa87b0eef", null ]
+    [ "spawnedCreatureEntry", "d0/de2/a27440.html#a32b390dfff99d5fd3c49359779718af4", null ],
+    [ "spawnType", "d0/de2/a27440.html#a056dabf4092da4ef3155a661607ca772", null ],
+    [ "thisCreatureEntry", "d0/de2/a27440.html#a97d3cd7c2751fe85d9724ff1f808ba98", null ]
 ];

@@ -1,7 +1,5 @@
 var a04445 =
 [
-    [ "AddTime", "d6/d70/a04445.html#aae074176c44fa3d99280320c869fde46", null ],
-    [ "GetTime", "d6/d70/a04445.html#ae44f550ac340528abe454269c2273d73", null ],
-    [ "IsCorrectDelay", "d6/d70/a04445.html#a18121c73cd31656af9ee5e5da754e4bd", null ],
-    [ "_players", "d6/d70/a04445.html#af8ad5db2c36ddfbca0b6b18e3478c2c5", null ]
+    [ "getOutOfWater", "d6/d70/a04445.html#a92646d631d9334b64b0b487ebf87d769", null ],
+    [ "getWeight", "d6/d70/a04445.html#a44526122378fe7ee8622f1ffc822dc20", null ]
 ];

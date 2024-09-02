@@ -1,6 +1,6 @@
 var a16908 =
 [
-    [ "boss_novosAI", "d3/d87/a16912.html", "d3/d87/a16912" ],
-    [ "boss_novos", "d9/d40/a16908.html#a898a5ee1de69df17fde66c84dd065ac1", null ],
-    [ "GetAI", "d9/d40/a16908.html#aaf28e2a23a8139197dccc92ae29a8be4", null ]
+    [ "npc_pos_after_first_bossAI", "d3/d87/a16912.html", "d3/d87/a16912" ],
+    [ "npc_pos_after_first_boss", "d9/d40/a16908.html#a76ae57195ceca454928245f2db12f68c", null ],
+    [ "GetAI", "d9/d40/a16908.html#a3f807335f79218ecc70c32f5496267a6", null ]
 ];

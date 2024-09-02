@@ -1,39 +1,14 @@
 var a00227 =
 [
-    [ "Acore::unary_function< ArgumentType, ResultType >", "d1/d82/a05027.html", "d1/d82/a05027" ],
-    [ "DEFAULT_LOCALE", "d9/d01/a00227.html#a900ed91bceba26c1e05048bd3a9ec4fd", null ],
-    [ "MAX_ACCOUNT_TUTORIAL_VALUES", "d9/d01/a00227.html#aeb4958d609f89151a2aed8c6e375ed40", null ],
-    [ "MAX_LOCALES", "d9/d01/a00227.html#aa0ae9c82be025ecc48dd4a5f19b641be", null ],
-    [ "MAX_NETCLIENT_PACKET_SIZE", "d9/d01/a00227.html#a7485324c284eb57b36d226c49ba3ecc6", null ],
-    [ "MAX_QUERY_LEN", "d9/d01/a00227.html#a5799c8932ad35c57edbd997ef75f8fce", null ],
-    [ "STRINGIZE", "d9/d01/a00227.html#aa2ec973aa55e3816c2ca393e8ce204ac", null ],
-    [ "AccountTypes", "d9/d01/a00227.html#adaa1cabfe05f8df3c272bdcfd89cdac7", [
-      [ "SEC_PLAYER", "d9/d01/a00227.html#adaa1cabfe05f8df3c272bdcfd89cdac7a5d534fd54528d86d0f997fa130159df0", null ],
-      [ "SEC_MODERATOR", "d9/d01/a00227.html#adaa1cabfe05f8df3c272bdcfd89cdac7a87035c2f608d637b9bf5cbe0b42ca7a0", null ],
-      [ "SEC_GAMEMASTER", "d9/d01/a00227.html#adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1", null ],
-      [ "SEC_ADMINISTRATOR", "d9/d01/a00227.html#adaa1cabfe05f8df3c272bdcfd89cdac7a6a04b5fbbc52adb152bfb45b600db102", null ],
-      [ "SEC_CONSOLE", "d9/d01/a00227.html#adaa1cabfe05f8df3c272bdcfd89cdac7ae1fc38747d44c8d316f3b74ae10a5399", null ]
-    ] ],
-    [ "LocaleConstant", "d9/d01/a00227.html#a54c9b637be7283ba1a04fb5215594332", [
-      [ "LOCALE_enUS", "d9/d01/a00227.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3", null ],
-      [ "LOCALE_koKR", "d9/d01/a00227.html#a54c9b637be7283ba1a04fb5215594332ac6d5ea257439760889da46ead8591eef", null ],
-      [ "LOCALE_frFR", "d9/d01/a00227.html#a54c9b637be7283ba1a04fb5215594332aadd4752b3cf04e791bcc0dc870966c44", null ],
-      [ "LOCALE_deDE", "d9/d01/a00227.html#a54c9b637be7283ba1a04fb5215594332a281c0f5535aff3244ec305e89f0b3782", null ],
-      [ "LOCALE_zhCN", "d9/d01/a00227.html#a54c9b637be7283ba1a04fb5215594332a18fb868b783aee3194172ddd0a4948f7", null ],
-      [ "LOCALE_zhTW", "d9/d01/a00227.html#a54c9b637be7283ba1a04fb5215594332a3db18a97e69ddc026c865a65b0f0b10c", null ],
-      [ "LOCALE_esES", "d9/d01/a00227.html#a54c9b637be7283ba1a04fb5215594332a78ce40f4d8ee5d738749b73afca2935b", null ],
-      [ "LOCALE_esMX", "d9/d01/a00227.html#a54c9b637be7283ba1a04fb5215594332ad6156ed9e7fedc7341c683d6921862e7", null ],
-      [ "LOCALE_ruRU", "d9/d01/a00227.html#a54c9b637be7283ba1a04fb5215594332a8fe79e0066f95ece0bb1769c01ea38d9", null ],
-      [ "TOTAL_LOCALES", "d9/d01/a00227.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8", null ]
-    ] ],
-    [ "CleanStringForMysqlQuery", "d9/d01/a00227.html#a3de291e93c6c35b96ebb4fe810183863", null ],
-    [ "GetLocaleByName", "d9/d01/a00227.html#a81800cc16f876fcd41a0b7736b5a321d", null ],
-    [ "DAY", "d9/d01/a00227.html#a219e927a5d306db9cd363487d1f94366", null ],
-    [ "HOUR", "d9/d01/a00227.html#ac78ba8a81d12635c129fe2f92ca46c6f", null ],
-    [ "IN_MILLISECONDS", "d9/d01/a00227.html#a84190f79c8167211609f67284e066c58", null ],
-    [ "localeNames", "d9/d01/a00227.html#ada00613111bb83c03f962083970ca2a0", null ],
-    [ "MINUTE", "d9/d01/a00227.html#afacf27522adfacf698390ddafc53fa30", null ],
-    [ "MONTH", "d9/d01/a00227.html#add49e81cdd2c0bb5eb745bed627d5022", null ],
-    [ "WEEK", "d9/d01/a00227.html#a688431b3f57feed4c5408d11114cdf1a", null ],
-    [ "YEAR", "d9/d01/a00227.html#a0552dd357fedab8892f8550548357a55", null ]
+    [ "WeatherMap", "d9/d01/a00227.html#afdd64650acc01e75684c5ae2b269d5c1", null ],
+    [ "WeatherZoneMap", "d9/d01/a00227.html#a77b1d830c50ce06ef7bb67f75cbd48b6", null ],
+    [ "AddWeather", "d9/d01/a00227.html#ga1f76350b68494335d48ae206b87e190c", null ],
+    [ "FindWeather", "d9/d01/a00227.html#gadd11deec2098fed61adf7910b8f09cc6", null ],
+    [ "GetWeatherData", "d9/d01/a00227.html#a8d453fe2bfb19b170807fe92e393bc51", null ],
+    [ "LoadWeatherData", "d9/d01/a00227.html#ga6c7d8a9fc5dfce0880220f4b5b8cd623", null ],
+    [ "RemoveWeather", "d9/d01/a00227.html#ga296a3324a3a38984149fae3e5d62435f", null ],
+    [ "SendFineWeatherUpdateToPlayer", "d9/d01/a00227.html#gac86b4e254146468a7412d8fc7b0c27f2", null ],
+    [ "Update", "d9/d01/a00227.html#ga45f0da6cf9e14a99380b4b9be2890801", null ],
+    [ "m_weathers", "d9/d01/a00227.html#ac2bde7e8b2ecff6ab9b2705d01ce8b2c", null ],
+    [ "mWeatherZoneMap", "d9/d01/a00227.html#a977110fadc5eac5e2efa26106382d408", null ]
 ];

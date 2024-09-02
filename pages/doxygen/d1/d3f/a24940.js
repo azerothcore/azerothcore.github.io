@@ -1,6 +1,7 @@
 var a24940 =
 [
-    [ "boss_doomwalkerAI", "dc/d94/a24944.html", "dc/d94/a24944" ],
-    [ "boss_doomwalker", "d1/d3f/a24940.html#a09dd994df11f0c225eebb53442eaefff", null ],
-    [ "GetAI", "d1/d3f/a24940.html#ac4d9ab46c1868a71282f8eaecafddbcc", null ]
+    [ "HandleScript", "d1/d3f/a24940.html#a628fbc7ef23ce8f93d132f7bf518d4d8", null ],
+    [ "PrepareSpellScript", "d1/d3f/a24940.html#a8e5aa0a33907c5216299734a928de2fd", null ],
+    [ "Register", "d1/d3f/a24940.html#a9e25da03bbbea35f13420c14c6fab0d5", null ],
+    [ "Validate", "d1/d3f/a24940.html#a30cc03ed0c19074dc1fde4951a061815", null ]
 ];

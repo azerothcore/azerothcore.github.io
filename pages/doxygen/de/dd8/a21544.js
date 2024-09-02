@@ -1,5 +1,6 @@
 var a21544 =
 [
-    [ "achievement_i_have_the_coolest_friends", "de/dd8/a21544.html#a87fd2d5702fe33ee8b09042c66897636", null ],
-    [ "OnCheck", "de/dd8/a21544.html#aa77aa6129967601ede2f3fc44b2ee1aa", null ]
+    [ "HandleEffect", "de/dd8/a21544.html#a6732d51d5de34b3e737cc785fb2ab43e", null ],
+    [ "PrepareSpellScript", "de/dd8/a21544.html#aec199e9f9651267fac88bd86be326bb4", null ],
+    [ "Register", "de/dd8/a21544.html#a14bd854db86750704c8377d457dea360", null ]
 ];

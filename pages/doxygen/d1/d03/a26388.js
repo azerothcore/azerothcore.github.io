@@ -1,6 +1,7 @@
 var a26388 =
 [
-    [ "spell_q10898_skywing_SpellScript", "d9/d8b/a26392.html", "d9/d8b/a26392" ],
-    [ "spell_q10898_skywing", "d1/d03/a26388.html#a505d389341a427cb1a156f1e6a5bcdb8", null ],
-    [ "GetSpellScript", "d1/d03/a26388.html#a4312446c2eb18092f6b74d9c5ecfcd06", null ]
+    [ "HandleEffectPeriodic", "d1/d03/a26388.html#a2fab66e86d3c0207183db72ecbb6fc6c", null ],
+    [ "PrepareAuraScript", "d1/d03/a26388.html#ae0e3b459c71933c25da8136cdcddf200", null ],
+    [ "Register", "d1/d03/a26388.html#ac924ebbc893476cabab5f05120d0cd8d", null ],
+    [ "Validate", "d1/d03/a26388.html#ada327cf500aec62fdf34f9d8a4ccd6e2", null ]
 ];

@@ -1,7 +1,11 @@
 var a24776 =
 [
-    [ "boss_veras_darkshadowAI", "d3/d7a/a24776.html#aa37f7798341b07a7f4ab911b3542fc30", null ],
-    [ "JustEngagedWith", "d3/d7a/a24776.html#a76a263ad81bc9dcf9d21074d7e87cb09", null ],
-    [ "JustSummoned", "d3/d7a/a24776.html#aa30e981d5e5914ba5c7568037ff45dc1", null ],
-    [ "UpdateAI", "d3/d7a/a24776.html#a93e0115b1592a2c14dbaa9304682da82", null ]
+    [ "spell_gen_relocaste_dest", "d3/d7a/a24776.html#a5b839f3bd5571ff3b23701c0cd862568", null ],
+    [ "PrepareSpellScript", "d3/d7a/a24776.html#a135638c19c130f43f7f3c3c14f1d1570", null ],
+    [ "Register", "d3/d7a/a24776.html#a9fd403a48ac9cec79fdf4ac485bbaa6a", null ],
+    [ "RelocateDest", "d3/d7a/a24776.html#a1efeb8d17fa6f7cfd9d098d7e97381d9", null ],
+    [ "_o", "d3/d7a/a24776.html#a31ecfa99e580c8fb828c1a4ee988ac94", null ],
+    [ "_x", "d3/d7a/a24776.html#aa0d6afcc49e6fa41b6ae37d16e0c25e5", null ],
+    [ "_y", "d3/d7a/a24776.html#a0152bc47b5950546d9e9505512ed842b", null ],
+    [ "_z", "d3/d7a/a24776.html#a40136ab0219829dfb0dcfe234aa73af7", null ]
 ];

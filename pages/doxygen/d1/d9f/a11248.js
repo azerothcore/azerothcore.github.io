@@ -1,9 +1,7 @@
 var a11248 =
 [
-    [ "npc_phalanxAI", "d1/d9f/a11248.html#a1a09cd0b0cf765dec20ca9c3c5bb9373", null ],
-    [ "Reset", "d1/d9f/a11248.html#a41a14315d82b169528bd764335c16d52", null ],
-    [ "UpdateAI", "d1/d9f/a11248.html#a78092bfb2d9b8455b5348d872afc6521", null ],
-    [ "FireballVolley_Timer", "d1/d9f/a11248.html#a0e7bedf19d7a69707fcfec9cbd3649e5", null ],
-    [ "MightyBlow_Timer", "d1/d9f/a11248.html#ae8fe8a7313f573e910763d5a82303e66", null ],
-    [ "ThunderClap_Timer", "d1/d9f/a11248.html#ab68781dcd728e2a0d021a0d52e43fd71", null ]
+    [ "achievement_commandscript", "d1/d9f/a11248.html#ac1c40d7b3b628cc206c44eae18592292", null ],
+    [ "GetCommands", "d1/d9f/a11248.html#adeac4e6f74f006daa76b0ebb8ea1469c", null ],
+    [ "HandleAchievementAddCommand", "d1/d9f/a11248.html#ac4f6addfb0c52d584bf8081436aa3d7a", null ],
+    [ "HandleAchievementCheckAllCommand", "d1/d9f/a11248.html#a0e3b83961ff20899a8492c8d8b7c13be", null ]
 ];

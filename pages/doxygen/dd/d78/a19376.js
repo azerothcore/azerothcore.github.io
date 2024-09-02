@@ -1,6 +1,6 @@
 var a19376 =
 [
-    [ "npc_suppresserAI", "db/d03/a19380.html", "db/d03/a19380" ],
-    [ "npc_suppresser", "dd/d78/a19376.html#a5db40aecba3c45281fe963c6b2bd8d1e", null ],
-    [ "GetAI", "dd/d78/a19376.html#a48869515abbac1491337a93b987231da", null ]
+    [ "boss_ionarAI", "db/d03/a19380.html", "db/d03/a19380" ],
+    [ "boss_ionar", "dd/d78/a19376.html#a284da7d86f0b386e352587e0321bf465", null ],
+    [ "GetAI", "dd/d78/a19376.html#a0c0f28f832458df7326842f04413af5d", null ]
 ];

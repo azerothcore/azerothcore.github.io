@@ -1,12 +1,15 @@
 var a18068 =
 [
-    [ "gunship_npc_AI", "d9/d53/a18068.html#a30c13cb755638fcf05d1ad9a476210d3", null ],
-    [ "EnterEvadeMode", "d9/d53/a18068.html#a7c2da25bb962c32fa350ee1f12f86ca4", null ],
-    [ "JustDied", "d9/d53/a18068.html#ad40c976be4decd9054dad031a4caab78", null ],
-    [ "MovementInform", "d9/d53/a18068.html#a3bae54b656fc5ed8c6fef80bd1721c71", null ],
-    [ "SetData", "d9/d53/a18068.html#acfd5e331155d7787ada33acbca73fece", null ],
-    [ "SetSlotInfo", "d9/d53/a18068.html#afdfc3f9add2952f90baf24d55425670f", null ],
-    [ "Index", "d9/d53/a18068.html#ae120874514cf5921136821b820a04da7", null ],
-    [ "Instance", "d9/d53/a18068.html#ab5276a099bcf56c5a25b3a52be516b5c", null ],
-    [ "Slot", "d9/d53/a18068.html#a59d237475ae309755d429cfac77d6630", null ]
+    [ "npc_tirion_fordringAI", "d9/d53/a18068.html#aa0f94cef85e96cda4a2e280eaa7110de", null ],
+    [ "CanAIAttack", "d9/d53/a18068.html#a1bdef323e9c7364fab789abc39ef00a0", null ],
+    [ "DoAction", "d9/d53/a18068.html#a5fd5b3fde84ed04c794546d11fe946d7", null ],
+    [ "EnterEvadeMode", "d9/d53/a18068.html#a1275cee8f49c67920041ad8d50c62aa4", null ],
+    [ "JustReachedHome", "d9/d53/a18068.html#a6e6c7c2f4f8e60126fd4adc42fe3b4f4", null ],
+    [ "MovementInform", "d9/d53/a18068.html#a7284240c4eafbc80748d5e2867a64a9f", null ],
+    [ "Reset", "d9/d53/a18068.html#ac41e569535322bb5907fa4116bbac739", null ],
+    [ "sGossipSelect", "d9/d53/a18068.html#a56599a97f019121160b2f6ac43019772", null ],
+    [ "SpellHit", "d9/d53/a18068.html#ae68b900f87c646cfb3ece5518b59e687", null ],
+    [ "UpdateAI", "d9/d53/a18068.html#a3f729624820266f1cf1e5577c5047c3b", null ],
+    [ "_events", "d9/d53/a18068.html#a7bb0d243cc9b3e836dd99864f2a5e669", null ],
+    [ "_instance", "d9/d53/a18068.html#a223a7f09ae03971487bb55e770503f7e", null ]
 ];

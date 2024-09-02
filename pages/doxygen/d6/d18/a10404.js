@@ -1,16 +1,13 @@
 var a10404 =
 [
-    [ "Player", "d6/d18/a10404.html#a7f4241aa9ecc051c75f779af132a52ed", null ],
-    [ "WorldSession", "d6/d18/a10404.html#a65b5c30bf4f5f118a199e378d903aaf6", null ],
-    [ "CharCount", "d6/d18/a10404.html#aad61b8ca0caf09d6b62ee9fffd78cceb", null ],
-    [ "Class", "d6/d18/a10404.html#a41e354593f59bc8546688a37c2a5e504", null ],
-    [ "Face", "d6/d18/a10404.html#aba49d87691e9d2b10d430450c3f66493", null ],
-    [ "FacialHair", "d6/d18/a10404.html#a5a88b2c2556dd1239c417ea4fcc55287", null ],
-    [ "Gender", "d6/d18/a10404.html#ac4ed75d1527549051a92cbb958fa8eb4", null ],
-    [ "HairColor", "d6/d18/a10404.html#a0ded70bbcf30bba4de4ac0ee88fb6eb6", null ],
-    [ "HairStyle", "d6/d18/a10404.html#aa4b2800384a89a5c30c2edb7ff567865", null ],
-    [ "Name", "d6/d18/a10404.html#a4f81603fda1ae148e6d6174ea8d861fe", null ],
-    [ "OutfitId", "d6/d18/a10404.html#a15baddc70b46d48bd9f128e73aaac606", null ],
-    [ "Race", "d6/d18/a10404.html#aeee5ee1a2dc34e1b2ad1f8edd31679ff", null ],
-    [ "Skin", "d6/d18/a10404.html#a0fbfb41f3fd0c9d0ba2bfc7f04df648e", null ]
+    [ "GuildBankQueryResults", "d6/d18/a10404.html#a8203a35b76fdc674794c5bd3c1acb9ed", null ],
+    [ "SetWithdrawalsRemaining", "d6/d18/a10404.html#a52af0d2b4e092daf0719bdf325c51652", null ],
+    [ "Write", "d6/d18/a10404.html#a4598c0c9d1f94c5aa0671f210e1597d4", null ],
+    [ "_withdrawalsRemainingPos", "d6/d18/a10404.html#abe711cd2da225fdc73eabe2ad6bd3f5d", null ],
+    [ "FullUpdate", "d6/d18/a10404.html#a42ca9b48981d7d338aecb7840c248f0f", null ],
+    [ "ItemInfo", "d6/d18/a10404.html#ad799195b259f92aa4e71e1ee8fd99741", null ],
+    [ "Money", "d6/d18/a10404.html#ad401eb3444f5ae50781e634e1f55eba1", null ],
+    [ "Tab", "d6/d18/a10404.html#a72ac06ace5e7974d666e3fc3d626e3c0", null ],
+    [ "TabInfo", "d6/d18/a10404.html#ad36f0ae1d897ef504ad9761c00db77ca", null ],
+    [ "WithdrawalsRemaining", "d6/d18/a10404.html#a211288bde5a15f2d21df65acf087c7d0", null ]
 ];

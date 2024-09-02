@@ -1,8 +1,6 @@
 var a27544 =
 [
-    [ "OnApply", "dc/d64/a27544.html#a75b45732648d5ba90b49725a48609a89", null ],
-    [ "OnBaseRemove", "dc/d64/a27544.html#aa6d10399bba721ff7a3651508fcdf449", null ],
-    [ "OnRemove", "dc/d64/a27544.html#a0331b3860691db793c5a7bcf53550c6f", null ],
-    [ "PrepareAuraScript", "dc/d64/a27544.html#a34ad4890c7ce30427537e36980057e57", null ],
-    [ "Register", "dc/d64/a27544.html#a713e694cad6f1cf533d45f5d633da36e", null ]
+    [ "npc_spring_rabbitAI", "d6/d76/a27548.html", "d6/d76/a27548" ],
+    [ "npc_spring_rabbit", "dc/d64/a27544.html#a4e2ed1f556edd535a8d262d7e0bdfa1a", null ],
+    [ "GetAI", "dc/d64/a27544.html#a968933658fbcc7f7cbdfca90fd9a68dc", null ]
 ];

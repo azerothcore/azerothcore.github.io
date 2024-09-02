@@ -1,6 +1,6 @@
 var a18992 =
 [
-    [ "HandleScript", "d2/d28/a18992.html#a38dc97d8a7ac2bee7b8aceb0354c4248", null ],
-    [ "PrepareSpellScript", "d2/d28/a18992.html#aab97d2050622083d63067378683071a6", null ],
-    [ "Register", "d2/d28/a18992.html#ae73654c56526c52a82e5a7cbb72a1767", null ]
+    [ "boss_razuvious_minionAI", "d4/d11/a18996.html", "d4/d11/a18996" ],
+    [ "boss_razuvious_minion", "d2/d28/a18992.html#ae23d51c9ebfe31f624a749578d27252c", null ],
+    [ "GetAI", "d2/d28/a18992.html#afab8dccbc0b098a1fa058ef8479ba865", null ]
 ];

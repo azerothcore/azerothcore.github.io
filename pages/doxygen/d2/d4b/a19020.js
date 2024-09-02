@@ -1,6 +1,6 @@
 var a19020 =
 [
-    [ "spell_the_lich_king_necrotic_plague_AuraScript", "df/d10/a19024.html", "df/d10/a19024" ],
-    [ "spell_the_lich_king_necrotic_plague", "d2/d4b/a19020.html#aaa5c7b7f66f27ace917564abccb29e8f", null ],
-    [ "GetAuraScript", "d2/d4b/a19020.html#a0db35ed29a94b30dfd4948dbb44f7437", null ]
+    [ "boss_thaddius_summonAI", "df/d10/a19024.html", "df/d10/a19024" ],
+    [ "boss_thaddius_summon", "d2/d4b/a19020.html#a0fd6c83b5ff6d62b1649f9a13de05c73", null ],
+    [ "GetAI", "d2/d4b/a19020.html#aaab5973012f9ac55e8b29cc90f5ec98e", null ]
 ];

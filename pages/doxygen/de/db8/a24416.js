@@ -1,6 +1,6 @@
 var a24416 =
 [
-    [ "OnPeriodic", "de/db8/a24416.html#a6acf8994dfb8baff4a86ea746e1805c1", null ],
-    [ "PrepareAuraScript", "de/db8/a24416.html#a7bc4b970e20dfa89f0066c20a2a4405a", null ],
-    [ "Register", "de/db8/a24416.html#ac0ba16b025eb1d96811e9c2a9996a880", null ]
+    [ "HandleEffectRemove", "de/db8/a24416.html#a9472b79a272aff36be657b66883d822f", null ],
+    [ "PrepareAuraScript", "de/db8/a24416.html#ad46fedf6ef019d1b5e93d98e7bba8417", null ],
+    [ "Register", "de/db8/a24416.html#ace15e1f5c158f1f203862b40da2cf8fc", null ]
 ];

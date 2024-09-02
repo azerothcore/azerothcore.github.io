@@ -1,6 +1,6 @@
 var a14528 =
 [
-    [ "spell_finger_of_death_SpellScript", "d2/dda/a14532.html", "d2/dda/a14532" ],
-    [ "spell_finger_of_death", "da/dde/a14528.html#a8b20a8c0e9b036d9afa47b7e74f38e35", null ],
-    [ "GetSpellScript", "da/dde/a14528.html#a2bd179cc767ccbc4b09891cb15b1cec3", null ]
+    [ "boss_infinite_corruptorAI", "d2/dda/a14532.html", "d2/dda/a14532" ],
+    [ "boss_infinite_corruptor", "da/dde/a14528.html#a78a939073ab44b818cefdb25419f92be", null ],
+    [ "GetAI", "da/dde/a14528.html#ab6eaf2f9d1928817e45b092a3a87bda4", null ]
 ];

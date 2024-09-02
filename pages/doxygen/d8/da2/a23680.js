@@ -1,6 +1,9 @@
 var a23680 =
 [
-    [ "npc_frostbrood_skytalonAI", "d0/da7/a23684.html", "d0/da7/a23684" ],
-    [ "npc_frostbrood_skytalon", "d8/da2/a23680.html#a1bc95edf0e624709e3836bdcfb0c503c", null ],
-    [ "GetAI", "d8/da2/a23680.html#af5b1c3e52076fb84b83e785762ff6b6d", null ]
+    [ "boss_high_botanist_freywinn", "d8/da2/a23680.html#aeecf6ed56e34cf1d9a552aab82f1f64a", null ],
+    [ "JustDied", "d8/da2/a23680.html#a7b370482ea195d0305cba339ce0cbab3", null ],
+    [ "JustEngagedWith", "d8/da2/a23680.html#a841c6f08d8d8c0e47bd8d06bfed7ab8b", null ],
+    [ "KilledUnit", "d8/da2/a23680.html#a80a997e0d12c175da0a46d7362890b9c", null ],
+    [ "ResumeEncounter", "d8/da2/a23680.html#a06adcf26cb264d35a16ca416661ab4bd", null ],
+    [ "SummonedCreatureDies", "d8/da2/a23680.html#a7f1a02d4b944191471f59ba728b6372e", null ]
 ];

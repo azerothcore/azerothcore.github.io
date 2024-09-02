@@ -1,9 +1,11 @@
 var a19760 =
 [
-    [ "npc_icc_skybreaker_luminaryAI", "d0/d46/a19760.html#a91868021309239f5582bb7ee89baec13", null ],
-    [ "AttackStart", "d0/d46/a19760.html#acf8d1eaebdc68cb53866155d8aad6e48", null ],
-    [ "JustEngagedWith", "d0/d46/a19760.html#a12927240144022174e3d190be6b34976", null ],
-    [ "Reset", "d0/d46/a19760.html#ac925b84b81ec1d1e118f3e62edfbdd15", null ],
-    [ "UpdateAI", "d0/d46/a19760.html#a969a36e147006971a93711349f90c193", null ],
-    [ "events", "d0/d46/a19760.html#a8521aef674b9a295c27f7e5725af4ffe", null ]
+    [ "boss_flame_leviathan_defense_turretAI", "d0/d46/a19760.html#aedf30f06fe89c805019f7cc254646ff1", null ],
+    [ "CanAIAttack", "d0/d46/a19760.html#a76efa1d88ce029775809abb3ec88efb3", null ],
+    [ "DamageTaken", "d0/d46/a19760.html#adedbbeeb01da20843bc85ac2daaed12a", null ],
+    [ "JustDied", "d0/d46/a19760.html#af261cc1f0458984719ab1bb4518bdc64", null ],
+    [ "KilledUnit", "d0/d46/a19760.html#aed3f2a4bac3391683989eec94697ef16", null ],
+    [ "UpdateAI", "d0/d46/a19760.html#a575eb381d1aa31af60484271ae6e4627", null ],
+    [ "_instance", "d0/d46/a19760.html#a8c0658a5d32355607cb16f6e1c83f83e", null ],
+    [ "_setHealth", "d0/d46/a19760.html#aeb220ded0a6515674a428716a8be9f48", null ]
 ];

@@ -1,6 +1,6 @@
 var a18136 =
 [
-    [ "PrepareSpellScript", "d9/dd1/a18136.html#ad5aa49896bec706e60ea9725969698c9", null ],
-    [ "Register", "d9/dd1/a18136.html#a8bfd04c4d3d212a9bae2ef9fb0177574", null ],
-    [ "RelocateTransportOffset", "d9/dd1/a18136.html#aecf5f2a7a4f38274460917742e80734a", null ]
+    [ "npc_raging_spiritAI", "d3/dad/a18140.html", "d3/dad/a18140" ],
+    [ "npc_raging_spirit", "d9/dd1/a18136.html#ad1a580bd394adc8c58575b600c16f9db", null ],
+    [ "GetAI", "d9/dd1/a18136.html#ab572a667f6ddd0d4051fe424c8d9e21c", null ]
 ];

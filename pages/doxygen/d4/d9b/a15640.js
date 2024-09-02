@@ -1,5 +1,8 @@
 var a15640 =
 [
-    [ "go_crystalline_tear", "d4/d9b/a15640.html#a9e19c6538ecd1a758f2639171321d965", null ],
-    [ "OnQuestAccept", "d4/d9b/a15640.html#a4efd6b2b8ca37462ba3a26d05f01ec2d", null ]
+    [ "HandleAfterCast", "d4/d9b/a15640.html#aa85852ff5e5d03637d1dcc43a446843e", null ],
+    [ "HandleDummyEffect", "d4/d9b/a15640.html#a539c233fc820248930e1988c4074b9c8", null ],
+    [ "Load", "d4/d9b/a15640.html#a4fc295b4d8775dce16d913fe4a8ce8cb", null ],
+    [ "PrepareSpellScript", "d4/d9b/a15640.html#aad6f7f1d29414475b5e678e7bd94737f", null ],
+    [ "Register", "d4/d9b/a15640.html#ae90184fd34636b33755b732ec82fd52f", null ]
 ];

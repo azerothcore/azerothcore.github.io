@@ -1,6 +1,7 @@
 var a27908 =
 [
-    [ "CalculateDamage", "da/df2/a27908.html#a05c6a249b32f41d8d33b40d07bd3c44d", null ],
-    [ "PrepareSpellScript", "da/df2/a27908.html#ace682a64f3ca32e4f4151034ad936ea6", null ],
-    [ "Register", "da/df2/a27908.html#a6dc3beb1f857c2c2a719bd882cc3568d", null ]
+    [ "Class", "da/df2/a27908.html#abaaa0cd4d1b7f3ef5b297c5afdbc99fe", null ],
+    [ "Gender", "da/df2/a27908.html#aba6251a7020c6e66b9fc7a21859df271", null ],
+    [ "ItemId", "da/df2/a27908.html#a7d17ef6151f6b746223e44164ab5c20d", null ],
+    [ "Race", "da/df2/a27908.html#aee768679c4b8ee7cd28ea3fa899206e3", null ]
 ];

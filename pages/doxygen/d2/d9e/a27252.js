@@ -1,7 +1,6 @@
 var a27252 =
 [
-    [ "HandleScriptEffect", "d2/d9e/a27252.html#a4444d5f146e875bae40edbcc8ed408cb", null ],
-    [ "PrepareSpellScript", "d2/d9e/a27252.html#af4320dd6567d8c9cb2a1492095a98459", null ],
-    [ "Register", "d2/d9e/a27252.html#ab9360c3a883dd5a7df9836306d9762ec", null ],
-    [ "Validate", "d2/d9e/a27252.html#a51ebef5e7fff9dfaab553ecae7be732f", null ]
+    [ "go_amberpine_outhouse", "d2/d9e/a27252.html#a953ea72b3954c89b6c391de5aca3b6ce", null ],
+    [ "OnGossipHello", "d2/d9e/a27252.html#a7cbfc3a091ad2332fd46140a24ac4e37", null ],
+    [ "OnGossipSelect", "d2/d9e/a27252.html#aa55fe049ba43dbd548ba55d982d89d51", null ]
 ];

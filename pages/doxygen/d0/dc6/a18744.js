@@ -1,8 +1,7 @@
 var a18744 =
 [
-    [ "spell_sindragosa_unchained_magic_AuraScript", "d5/de4/a18752.html", "d5/de4/a18752" ],
-    [ "spell_sindragosa_unchained_magic_SpellScript", "d0/d70/a18748.html", "d0/d70/a18748" ],
-    [ "spell_sindragosa_unchained_magic", "d0/dc6/a18744.html#a6cc0b7ab6c0e4da1021d2b4ca4eea9ff", null ],
-    [ "GetAuraScript", "d0/dc6/a18744.html#a9c68a3d2afee4899ec68f624cfe963fd", null ],
-    [ "GetSpellScript", "d0/dc6/a18744.html#a634ec3152b5a66bc29b584aad54f5615", null ]
+    [ "DelayedCastMincharEvent", "d0/dc6/a18744.html#a76d8a08ca273eec5b2e083d136336a15", null ],
+    [ "Execute", "d0/dc6/a18744.html#a12aeff246d07e541ed192974320842cb", null ],
+    [ "_spellId", "d0/dc6/a18744.html#af4ea90407b2c8a283f137d213ffe97be", null ],
+    [ "_trigger", "d0/dc6/a18744.html#a9f3cd02e77ad35b98a6753b792383548", null ]
 ];

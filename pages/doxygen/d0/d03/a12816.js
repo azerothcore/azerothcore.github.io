@@ -1,6 +1,8 @@
 var a12816 =
 [
-    [ "instance_sunken_temple_InstanceMapScript", "d9/de5/a12820.html", "d9/de5/a12820" ],
-    [ "instance_sunken_temple", "d0/d03/a12816.html#a123b052c1cd1487588c88bf2611bc53b", null ],
-    [ "GetInstanceScript", "d0/d03/a12816.html#a1a783056b681f1f3b90e2e33e6a4a86d", null ]
+    [ "npc_apothecary_baxter", "d0/d03/a12816.html#a4a41816ff4f857a15a4665b8da1aec99", null ],
+    [ "JustDied", "d0/d03/a12816.html#a9bf2362ba1b1e3a290ca12f1ceb54ab9", null ],
+    [ "Reset", "d0/d03/a12816.html#afee5103029bd761c48cbf6a11655c44a", null ],
+    [ "UpdateAI", "d0/d03/a12816.html#ad06090f599d0fda3a88f3182c990a49f", null ],
+    [ "_scheduler", "d0/d03/a12816.html#a6d813041e055f3c2b28be7cba3acde13", null ]
 ];

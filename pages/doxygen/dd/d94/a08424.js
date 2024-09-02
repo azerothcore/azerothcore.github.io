@@ -1,7 +1,6 @@
 var a08424 =
 [
-    [ "IsFitToRequirements", "dd/d94/a08424.html#ac175634ed2eab2911c3749fa208a073a", null ],
-    [ "castFlags", "dd/d94/a08424.html#a03cd65a460ea252818de9230cb656c1c", null ],
-    [ "spellId", "dd/d94/a08424.html#a34641755a5267b7a907d320cc5b4ddb4", null ],
-    [ "userType", "dd/d94/a08424.html#adcf285572403481cb418bddebc5f4bfa", null ]
+    [ "SplineHandler", "dd/d94/a08424.html#a7c5aac2d12e13bad1c38c4e8860ed27f", null ],
+    [ "operator()", "dd/d94/a08424.html#aa5d1bddc2435eee76f493229740ecf9e", null ],
+    [ "_unit", "dd/d94/a08424.html#aaafb07271736d8bc89d07aafbbae7f25", null ]
 ];

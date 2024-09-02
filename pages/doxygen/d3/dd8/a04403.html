@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Battlegrounds/Zones/BattlegroundRL.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Dynamic/TypeContainerFunctionsPtr.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,128 +105,80 @@ $(document).ready(function(){initNavTree('d3/dd8/a04403.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">BattlegroundRL.h File Reference</div></div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">TypeContainerFunctionsPtr.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Arena.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;Platform/Define.h&quot;</code><br />
+<code>#include &quot;Utilities/TypeList.h&quot;</code><br />
+<code>#include &lt;map&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d50/a07179.html">BattlegroundRL</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d5/d43/a04668"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html">Acore</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a5b40294f7ef8f041d61eaa6911993b24"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24">BattlegroundRLObjectTypes</a> { <br />
-&#160;&#160;<a class="el" href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24ab647ed9553d4e532699cd1b551014636">BG_RL_OBJECT_DOOR_1</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a9dfe9b550ad26c408445bfe72f064058">BG_RL_OBJECT_DOOR_2</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a793477ef5d11b6f41cfb62d8c354e8d4">BG_RL_OBJECT_BUFF_1</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a670a77d5efbe30024d0ffb16acd5dfac">BG_RL_OBJECT_BUFF_2</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a2ea82a43036f0e733ad4aab7a53ea0b2">BG_RL_OBJECT_READY_MARKER_1</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a199d2d1b5ee7f52820b2aae38a98a755">BG_RL_OBJECT_READY_MARKER_2</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a7b6737d574968476c6ecb6d1bbf03813">BG_RL_OBJECT_MAX</a> = 6
-<br />
- }</td></tr>
-<tr class="separator:a5b40294f7ef8f041d61eaa6911993b24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07ba947d37c83568823ee5313377497a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497a">BattlegroundRLObjects</a> { <br />
-&#160;&#160;<a class="el" href="../../d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497aa4af54ddc0fa71a41b26c859580db7fb0">BG_RL_OBJECT_TYPE_DOOR_1</a> = 185918
-, <br />
-&#160;&#160;<a class="el" href="../../d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497aa13210caaf34c5aa100455cf4f74d43d1">BG_RL_OBJECT_TYPE_DOOR_2</a> = 185917
-, <br />
-&#160;&#160;<a class="el" href="../../d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497aaf7212d012d9018e008f475bd21bae934">BG_RL_OBJECT_TYPE_BUFF_1</a> = 184663
-, <br />
-&#160;&#160;<a class="el" href="../../d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497aa5e706f8c7f110903f7301b47b0487921">BG_RL_OBJECT_TYPE_BUFF_2</a> = 184664
-<br />
- }</td></tr>
-<tr class="separator:a07ba947d37c83568823ee5313377497a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ae166e7e76c33c81464ce6c03126a9851"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE &gt; </td></tr>
+<tr class="memitem:ae166e7e76c33c81464ce6c03126a9851"><td class="memTemplItemLeft" align="right" valign="top">CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#ae166e7e76c33c81464ce6c03126a9851">Acore::Find</a> (<a class="el" href="../../dc/ddb/a05144.html">ContainerMapList</a>&lt; SPECIFIC_TYPE &gt; &amp;elements, OBJECT_HANDLE hdl, CountedPtr&lt; SPECIFIC_TYPE &gt; *)</td></tr>
+<tr class="separator:ae166e7e76c33c81464ce6c03126a9851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63a0d0d14ac1e3ecbed175c4206b87f2"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE &gt; </td></tr>
+<tr class="memitem:a63a0d0d14ac1e3ecbed175c4206b87f2"><td class="memTemplItemLeft" align="right" valign="top">CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#a63a0d0d14ac1e3ecbed175c4206b87f2">Acore::Find</a> (<a class="el" href="../../dc/ddb/a05144.html">ContainerMapList</a>&lt; TypeNull &gt; &amp;elements, OBJECT_HANDLE hdl, CountedPtr&lt; SPECIFIC_TYPE &gt; *)</td></tr>
+<tr class="separator:a63a0d0d14ac1e3ecbed175c4206b87f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c9d620966c3418af1971dc8326ccb4a"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class T &gt; </td></tr>
+<tr class="memitem:a6c9d620966c3418af1971dc8326ccb4a"><td class="memTemplItemLeft" align="right" valign="top">CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#a6c9d620966c3418af1971dc8326ccb4a">Acore::Find</a> (<a class="el" href="../../dc/ddb/a05144.html">ContainerMapList</a>&lt; T &gt; &amp;elements, OBJECT_HANDLE hdl, CountedPtr&lt; SPECIFIC_TYPE &gt; *)</td></tr>
+<tr class="separator:a6c9d620966c3418af1971dc8326ccb4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ebe906ee0f2f706bcc950236459a7f8"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class H , class T &gt; </td></tr>
+<tr class="memitem:a5ebe906ee0f2f706bcc950236459a7f8"><td class="memTemplItemLeft" align="right" valign="top">CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#a5ebe906ee0f2f706bcc950236459a7f8">Acore::Find</a> (<a class="el" href="../../dc/ddb/a05144.html">ContainerMapList</a>&lt; <a class="el" href="../../d9/d4a/a05192.html">TypeList</a>&lt; H, T &gt; &gt; &amp;elements, OBJECT_HANDLE hdl, CountedPtr&lt; SPECIFIC_TYPE &gt; *fake)</td></tr>
+<tr class="separator:a5ebe906ee0f2f706bcc950236459a7f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a516e9fe262b5a1c4dcd65da7ccf71b5a"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE &gt; </td></tr>
+<tr class="memitem:a516e9fe262b5a1c4dcd65da7ccf71b5a"><td class="memTemplItemLeft" align="right" valign="top">const CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#a516e9fe262b5a1c4dcd65da7ccf71b5a">Acore::Find</a> (const <a class="el" href="../../dc/ddb/a05144.html">ContainerMapList</a>&lt; SPECIFIC_TYPE &gt; &amp;elements, OBJECT_HANDLE hdl, CountedPtr&lt; SPECIFIC_TYPE &gt; *)</td></tr>
+<tr class="separator:a516e9fe262b5a1c4dcd65da7ccf71b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19feef3708a949a3dcdf70f3fe86ff0e"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE &gt; </td></tr>
+<tr class="memitem:a19feef3708a949a3dcdf70f3fe86ff0e"><td class="memTemplItemLeft" align="right" valign="top">const CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#a19feef3708a949a3dcdf70f3fe86ff0e">Acore::Find</a> (const <a class="el" href="../../dc/ddb/a05144.html">ContainerMapList</a>&lt; TypeNull &gt; &amp;elements, OBJECT_HANDLE hdl, CountedPtr&lt; SPECIFIC_TYPE &gt; *)</td></tr>
+<tr class="separator:a19feef3708a949a3dcdf70f3fe86ff0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6823f2f647f14752459f26981d4c26b7"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class T &gt; </td></tr>
+<tr class="memitem:a6823f2f647f14752459f26981d4c26b7"><td class="memTemplItemLeft" align="right" valign="top">const CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#a6823f2f647f14752459f26981d4c26b7">Acore::Find</a> (const <a class="el" href="../../dc/ddb/a05144.html">ContainerMapList</a>&lt; T &gt; &amp;elements, OBJECT_HANDLE hdl, CountedPtr&lt; SPECIFIC_TYPE &gt; *)</td></tr>
+<tr class="separator:a6823f2f647f14752459f26981d4c26b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bfb4bddc798432f29bd818e89944edf"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class H , class T &gt; </td></tr>
+<tr class="memitem:a4bfb4bddc798432f29bd818e89944edf"><td class="memTemplItemLeft" align="right" valign="top">CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#a4bfb4bddc798432f29bd818e89944edf">Acore::Find</a> (const <a class="el" href="../../dc/ddb/a05144.html">ContainerMapList</a>&lt; <a class="el" href="../../d9/d4a/a05192.html">TypeList</a>&lt; H, T &gt; &gt; &amp;elements, OBJECT_HANDLE hdl, CountedPtr&lt; SPECIFIC_TYPE &gt; *fake)</td></tr>
+<tr class="separator:a4bfb4bddc798432f29bd818e89944edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7e83af9675f10ea565b725be25b8c5e"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE &gt; </td></tr>
+<tr class="memitem:ae7e83af9675f10ea565b725be25b8c5e"><td class="memTemplItemLeft" align="right" valign="top">CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#ae7e83af9675f10ea565b725be25b8c5e">Acore::Insert</a> (<a class="el" href="../../dc/ddb/a05144.html">ContainerMapList</a>&lt; SPECIFIC_TYPE &gt; &amp;elements, CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;obj, OBJECT_HANDLE hdl)</td></tr>
+<tr class="separator:ae7e83af9675f10ea565b725be25b8c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bc394692e5fd3b096a149b1208e3675"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE &gt; </td></tr>
+<tr class="memitem:a3bc394692e5fd3b096a149b1208e3675"><td class="memTemplItemLeft" align="right" valign="top">CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#a3bc394692e5fd3b096a149b1208e3675">Acore::Insert</a> (<a class="el" href="../../dc/ddb/a05144.html">ContainerMapList</a>&lt; TypeNull &gt; &amp;elements, CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;obj, OBJECT_HANDLE hdl)</td></tr>
+<tr class="separator:a3bc394692e5fd3b096a149b1208e3675"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cb738cb02deb5f4d7d30a7d860a45ff"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class T &gt; </td></tr>
+<tr class="memitem:a2cb738cb02deb5f4d7d30a7d860a45ff"><td class="memTemplItemLeft" align="right" valign="top">CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#a2cb738cb02deb5f4d7d30a7d860a45ff">Acore::Insert</a> (<a class="el" href="../../dc/ddb/a05144.html">ContainerMapList</a>&lt; T &gt; &amp;elements, CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;obj, OBJECT_HANDLE hdl)</td></tr>
+<tr class="separator:a2cb738cb02deb5f4d7d30a7d860a45ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9113786a11594dfcecc6d3bb4e1aadb2"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class H , class T &gt; </td></tr>
+<tr class="memitem:a9113786a11594dfcecc6d3bb4e1aadb2"><td class="memTemplItemLeft" align="right" valign="top">CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#a9113786a11594dfcecc6d3bb4e1aadb2">Acore::Insert</a> (<a class="el" href="../../dc/ddb/a05144.html">ContainerMapList</a>&lt; <a class="el" href="../../d9/d4a/a05192.html">TypeList</a>&lt; H, T &gt; &gt; &amp;elements, CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;obj, OBJECT_HANDLE hdl)</td></tr>
+<tr class="separator:a9113786a11594dfcecc6d3bb4e1aadb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3714737e66e682a43beb71292ccd564e"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE &gt; </td></tr>
+<tr class="memitem:a3714737e66e682a43beb71292ccd564e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#a3714737e66e682a43beb71292ccd564e">Acore::Remove</a> (<a class="el" href="../../dc/ddb/a05144.html">ContainerMapList</a>&lt; SPECIFIC_TYPE &gt; &amp;elements, CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;obj, OBJECT_HANDLE hdl)</td></tr>
+<tr class="separator:a3714737e66e682a43beb71292ccd564e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36e61ba9bc4e287e215444ea9314a656"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE &gt; </td></tr>
+<tr class="memitem:a36e61ba9bc4e287e215444ea9314a656"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#a36e61ba9bc4e287e215444ea9314a656">Acore::Remove</a> (<a class="el" href="../../dc/ddb/a05144.html">ContainerMapList</a>&lt; TypeNull &gt; &amp;elements, CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;obj, OBJECT_HANDLE hdl)</td></tr>
+<tr class="separator:a36e61ba9bc4e287e215444ea9314a656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac344e92ea8d73f94dc08c6a52001ec3e"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class T &gt; </td></tr>
+<tr class="memitem:ac344e92ea8d73f94dc08c6a52001ec3e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#ac344e92ea8d73f94dc08c6a52001ec3e">Acore::Remove</a> (<a class="el" href="../../dc/ddb/a05144.html">ContainerMapList</a>&lt; T &gt; &amp;elements, CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;obj, OBJECT_HANDLE hdl)</td></tr>
+<tr class="separator:ac344e92ea8d73f94dc08c6a52001ec3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecc909b333bb7f55f438bfcf1ea3085f"><td class="memTemplParams" colspan="2">template&lt;class SPECIFIC_TYPE , class T , class H &gt; </td></tr>
+<tr class="memitem:aecc909b333bb7f55f438bfcf1ea3085f"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#aecc909b333bb7f55f438bfcf1ea3085f">Acore::Remove</a> (<a class="el" href="../../dc/ddb/a05144.html">ContainerMapList</a>&lt; <a class="el" href="../../d9/d4a/a05192.html">TypeList</a>&lt; H, T &gt; &gt; &amp;elements, CountedPtr&lt; SPECIFIC_TYPE &gt; &amp;obj, OBJECT_HANDLE hdl)</td></tr>
+<tr class="separator:aecc909b333bb7f55f438bfcf1ea3085f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a07ba947d37c83568823ee5313377497a" name="a07ba947d37c83568823ee5313377497a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07ba947d37c83568823ee5313377497a">&#9670;&#160;</a></span>BattlegroundRLObjects</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497a">BattlegroundRLObjects</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a07ba947d37c83568823ee5313377497aa4af54ddc0fa71a41b26c859580db7fb0" name="a07ba947d37c83568823ee5313377497aa4af54ddc0fa71a41b26c859580db7fb0"></a>BG_RL_OBJECT_TYPE_DOOR_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a07ba947d37c83568823ee5313377497aa13210caaf34c5aa100455cf4f74d43d1" name="a07ba947d37c83568823ee5313377497aa13210caaf34c5aa100455cf4f74d43d1"></a>BG_RL_OBJECT_TYPE_DOOR_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a07ba947d37c83568823ee5313377497aaf7212d012d9018e008f475bd21bae934" name="a07ba947d37c83568823ee5313377497aaf7212d012d9018e008f475bd21bae934"></a>BG_RL_OBJECT_TYPE_BUFF_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a07ba947d37c83568823ee5313377497aa5e706f8c7f110903f7301b47b0487921" name="a07ba947d37c83568823ee5313377497aa5e706f8c7f110903f7301b47b0487921"></a>BG_RL_OBJECT_TYPE_BUFF_2&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497aa4af54ddc0fa71a41b26c859580db7fb0">BG_RL_OBJECT_TYPE_DOOR_1</a>    = 185918,</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497aa13210caaf34c5aa100455cf4f74d43d1">BG_RL_OBJECT_TYPE_DOOR_2</a>    = 185917,</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497aaf7212d012d9018e008f475bd21bae934">BG_RL_OBJECT_TYPE_BUFF_1</a>    = 184663,</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497aa5e706f8c7f110903f7301b47b0487921">BG_RL_OBJECT_TYPE_BUFF_2</a>    = 184664</div>
-<div class="line"><span class="lineno">   40</span>};</div>
-<div class="ttc" id="aa04403_html_a07ba947d37c83568823ee5313377497aa13210caaf34c5aa100455cf4f74d43d1"><div class="ttname"><a href="../../d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497aa13210caaf34c5aa100455cf4f74d43d1">BG_RL_OBJECT_TYPE_DOOR_2</a></div><div class="ttdeci">@ BG_RL_OBJECT_TYPE_DOOR_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRL.h:37</div></div>
-<div class="ttc" id="aa04403_html_a07ba947d37c83568823ee5313377497aa4af54ddc0fa71a41b26c859580db7fb0"><div class="ttname"><a href="../../d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497aa4af54ddc0fa71a41b26c859580db7fb0">BG_RL_OBJECT_TYPE_DOOR_1</a></div><div class="ttdeci">@ BG_RL_OBJECT_TYPE_DOOR_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRL.h:36</div></div>
-<div class="ttc" id="aa04403_html_a07ba947d37c83568823ee5313377497aa5e706f8c7f110903f7301b47b0487921"><div class="ttname"><a href="../../d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497aa5e706f8c7f110903f7301b47b0487921">BG_RL_OBJECT_TYPE_BUFF_2</a></div><div class="ttdeci">@ BG_RL_OBJECT_TYPE_BUFF_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRL.h:39</div></div>
-<div class="ttc" id="aa04403_html_a07ba947d37c83568823ee5313377497aaf7212d012d9018e008f475bd21bae934"><div class="ttname"><a href="../../d3/dd8/a04403.html#a07ba947d37c83568823ee5313377497aaf7212d012d9018e008f475bd21bae934">BG_RL_OBJECT_TYPE_BUFF_1</a></div><div class="ttdeci">@ BG_RL_OBJECT_TYPE_BUFF_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRL.h:38</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a5b40294f7ef8f041d61eaa6911993b24" name="a5b40294f7ef8f041d61eaa6911993b24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b40294f7ef8f041d61eaa6911993b24">&#9670;&#160;</a></span>BattlegroundRLObjectTypes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24">BattlegroundRLObjectTypes</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5b40294f7ef8f041d61eaa6911993b24ab647ed9553d4e532699cd1b551014636" name="a5b40294f7ef8f041d61eaa6911993b24ab647ed9553d4e532699cd1b551014636"></a>BG_RL_OBJECT_DOOR_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5b40294f7ef8f041d61eaa6911993b24a9dfe9b550ad26c408445bfe72f064058" name="a5b40294f7ef8f041d61eaa6911993b24a9dfe9b550ad26c408445bfe72f064058"></a>BG_RL_OBJECT_DOOR_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5b40294f7ef8f041d61eaa6911993b24a793477ef5d11b6f41cfb62d8c354e8d4" name="a5b40294f7ef8f041d61eaa6911993b24a793477ef5d11b6f41cfb62d8c354e8d4"></a>BG_RL_OBJECT_BUFF_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5b40294f7ef8f041d61eaa6911993b24a670a77d5efbe30024d0ffb16acd5dfac" name="a5b40294f7ef8f041d61eaa6911993b24a670a77d5efbe30024d0ffb16acd5dfac"></a>BG_RL_OBJECT_BUFF_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5b40294f7ef8f041d61eaa6911993b24a2ea82a43036f0e733ad4aab7a53ea0b2" name="a5b40294f7ef8f041d61eaa6911993b24a2ea82a43036f0e733ad4aab7a53ea0b2"></a>BG_RL_OBJECT_READY_MARKER_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5b40294f7ef8f041d61eaa6911993b24a199d2d1b5ee7f52820b2aae38a98a755" name="a5b40294f7ef8f041d61eaa6911993b24a199d2d1b5ee7f52820b2aae38a98a755"></a>BG_RL_OBJECT_READY_MARKER_2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5b40294f7ef8f041d61eaa6911993b24a7b6737d574968476c6ecb6d1bbf03813" name="a5b40294f7ef8f041d61eaa6911993b24a7b6737d574968476c6ecb6d1bbf03813"></a>BG_RL_OBJECT_MAX&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   24</span>{</div>
-<div class="line"><span class="lineno">   25</span>    <a class="code hl_enumvalue" href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24ab647ed9553d4e532699cd1b551014636">BG_RL_OBJECT_DOOR_1</a>         = 0,</div>
-<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a9dfe9b550ad26c408445bfe72f064058">BG_RL_OBJECT_DOOR_2</a>         = 1,</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a793477ef5d11b6f41cfb62d8c354e8d4">BG_RL_OBJECT_BUFF_1</a>         = 2,</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a670a77d5efbe30024d0ffb16acd5dfac">BG_RL_OBJECT_BUFF_2</a>         = 3,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a2ea82a43036f0e733ad4aab7a53ea0b2">BG_RL_OBJECT_READY_MARKER_1</a> = 4,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a199d2d1b5ee7f52820b2aae38a98a755">BG_RL_OBJECT_READY_MARKER_2</a> = 5,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a7b6737d574968476c6ecb6d1bbf03813">BG_RL_OBJECT_MAX</a>            = 6</div>
-<div class="line"><span class="lineno">   32</span>};</div>
-<div class="ttc" id="aa04403_html_a5b40294f7ef8f041d61eaa6911993b24a199d2d1b5ee7f52820b2aae38a98a755"><div class="ttname"><a href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a199d2d1b5ee7f52820b2aae38a98a755">BG_RL_OBJECT_READY_MARKER_2</a></div><div class="ttdeci">@ BG_RL_OBJECT_READY_MARKER_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRL.h:30</div></div>
-<div class="ttc" id="aa04403_html_a5b40294f7ef8f041d61eaa6911993b24a2ea82a43036f0e733ad4aab7a53ea0b2"><div class="ttname"><a href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a2ea82a43036f0e733ad4aab7a53ea0b2">BG_RL_OBJECT_READY_MARKER_1</a></div><div class="ttdeci">@ BG_RL_OBJECT_READY_MARKER_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRL.h:29</div></div>
-<div class="ttc" id="aa04403_html_a5b40294f7ef8f041d61eaa6911993b24a670a77d5efbe30024d0ffb16acd5dfac"><div class="ttname"><a href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a670a77d5efbe30024d0ffb16acd5dfac">BG_RL_OBJECT_BUFF_2</a></div><div class="ttdeci">@ BG_RL_OBJECT_BUFF_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRL.h:28</div></div>
-<div class="ttc" id="aa04403_html_a5b40294f7ef8f041d61eaa6911993b24a793477ef5d11b6f41cfb62d8c354e8d4"><div class="ttname"><a href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a793477ef5d11b6f41cfb62d8c354e8d4">BG_RL_OBJECT_BUFF_1</a></div><div class="ttdeci">@ BG_RL_OBJECT_BUFF_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRL.h:27</div></div>
-<div class="ttc" id="aa04403_html_a5b40294f7ef8f041d61eaa6911993b24a7b6737d574968476c6ecb6d1bbf03813"><div class="ttname"><a href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a7b6737d574968476c6ecb6d1bbf03813">BG_RL_OBJECT_MAX</a></div><div class="ttdeci">@ BG_RL_OBJECT_MAX</div><div class="ttdef"><b>Definition:</b> BattlegroundRL.h:31</div></div>
-<div class="ttc" id="aa04403_html_a5b40294f7ef8f041d61eaa6911993b24a9dfe9b550ad26c408445bfe72f064058"><div class="ttname"><a href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24a9dfe9b550ad26c408445bfe72f064058">BG_RL_OBJECT_DOOR_2</a></div><div class="ttdeci">@ BG_RL_OBJECT_DOOR_2</div><div class="ttdef"><b>Definition:</b> BattlegroundRL.h:26</div></div>
-<div class="ttc" id="aa04403_html_a5b40294f7ef8f041d61eaa6911993b24ab647ed9553d4e532699cd1b551014636"><div class="ttname"><a href="../../d3/dd8/a04403.html#a5b40294f7ef8f041d61eaa6911993b24ab647ed9553d4e532699cd1b551014636">BG_RL_OBJECT_DOOR_1</a></div><div class="ttdeci">@ BG_RL_OBJECT_DOOR_1</div><div class="ttdef"><b>Definition:</b> BattlegroundRL.h:25</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_fc52f0b797d74b4b54bfd04593b84648.html">Battlegrounds</a></li><li class="navelem"><a class="el" href="../../dir_d9de844c1d859dc2cc6a65181dd33644.html">Zones</a></li><li class="navelem"><a class="el" href="../../d3/dd8/a04403.html">BattlegroundRL.h</a></li>
-    <li class="footer">Generated on Tue Aug 27 2024 09:59:27 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_5e90094e25781d2f0c122fad038cf6ce.html">Dynamic</a></li><li class="navelem"><a class="el" href="../../d3/dd8/a04403.html">TypeContainerFunctionsPtr.h</a></li>
+    <li class="footer">Generated on Mon Sep 2 2024 20:38:51 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

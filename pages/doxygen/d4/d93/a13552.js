@@ -1,9 +1,9 @@
 var a13552 =
 [
-    [ "npc_thrall_bfuAI", "d0/dcf/a13556.html", "d0/dcf/a13556" ],
-    [ "npc_thrall_bfu", "d4/d93/a13552.html#a43eb37b9a0cf06be0e2cb6180730b09f", null ],
-    [ "GetAI", "d4/d93/a13552.html#a28b4030d189e4d967a1b16f3464c14ba", null ],
-    [ "OnGossipHello", "d4/d93/a13552.html#a71a7108464de9245879c8a1c08932e2a", null ],
-    [ "OnGossipSelect", "d4/d93/a13552.html#aea62ed8489bea23772a52ddefbf9c60e", null ],
-    [ "OnQuestReward", "d4/d93/a13552.html#aee56e54615e2696dcd0e7299e4f416b5", null ]
+    [ "npc_halazzi_lynx", "d4/d93/a13552.html#a168ee019e1c75a89f6dbc9072b722ab2", null ],
+    [ "AttackStart", "d4/d93/a13552.html#a56d53ed05b674c1ee4ba35922cb3a5df", null ],
+    [ "DamageTaken", "d4/d93/a13552.html#a8cb6a034d663f1b4e00adc2e9366b268", null ],
+    [ "JustEngagedWith", "d4/d93/a13552.html#adb3e49eed663164aede9758d9aef70d7", null ],
+    [ "Reset", "d4/d93/a13552.html#a66c022846cde0cd3573bcc3cbfd37b38", null ],
+    [ "UpdateAI", "d4/d93/a13552.html#a14254c7a9e9b7f1a09ee414eee2ff21b", null ]
 ];

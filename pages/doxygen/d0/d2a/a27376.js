@@ -1,7 +1,8 @@
 var a27376 =
 [
-    [ "ModDest", "d0/d2a/a27376.html#afe0fb68de61a657ce6900e71973e4d77", null ],
-    [ "ModifyCookingSkill", "d0/d2a/a27376.html#a42dea7b58aed704a6aacd5d0aa0028d4", null ],
-    [ "PrepareSpellScript", "d0/d2a/a27376.html#a7b0446133750fce7eda19dbde5abb3b1", null ],
-    [ "Register", "d0/d2a/a27376.html#a6919079b43a816eb601a68c51ad39794", null ]
+    [ "npc_simoneAI", "d2/d58/a27380.html", "d2/d58/a27380" ],
+    [ "npc_simone", "d0/d2a/a27376.html#acf3e759dea12cc5fbe1376213bd3585c", null ],
+    [ "GetAI", "d0/d2a/a27376.html#a36d94c5ab6c910cd3853e579d6a5ab5a", null ],
+    [ "OnGossipHello", "d0/d2a/a27376.html#ae1a0cd1fbee6bee0a54a1a666c8367dd", null ],
+    [ "OnGossipSelect", "d0/d2a/a27376.html#ae2b1a653be3767881769b54607219757", null ]
 ];

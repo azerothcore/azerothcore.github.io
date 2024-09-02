@@ -1,5 +1,6 @@
 var a21232 =
 [
-    [ "achievement_flame_leviathan_shutout", "d8/d8d/a21232.html#a555e0d206b7f730665d301c7e03b23e6", null ],
-    [ "OnCheck", "d8/d8d/a21232.html#af548232f563fd387bc8ee25b696a2f99", null ]
+    [ "npc_frozen_orb_stalkerAI", "d8/d8d/a21232.html#afd8d187ecbf508d02824d1ff8f3cb5cf", null ],
+    [ "JustSummoned", "d8/d8d/a21232.html#a73d7d5e55d2a00c9aee6f595e2678b17", null ],
+    [ "Reset", "d8/d8d/a21232.html#a064ccb90afeb9b36d501850482c60bc4", null ]
 ];

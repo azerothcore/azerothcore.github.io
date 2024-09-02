@@ -1,6 +1,6 @@
 var a17732 =
 [
-    [ "ModAuraStack", "d8/d93/a17732.html#af460f66403e75789701df1142decfcac", null ],
-    [ "PrepareSpellScript", "d8/d93/a17732.html#a52a666f30bda28d3f0dce153e23e438a", null ],
-    [ "Register", "d8/d93/a17732.html#a8a7531c548bf6c9d530717ab50ef4790", null ]
+    [ "FilterTargets", "d8/d93/a17732.html#ac2396cbd000a8d58ff22dbb08c81dfb4", null ],
+    [ "PrepareSpellScript", "d8/d93/a17732.html#abcdfe528430e299c2eb64b24f7ff8eb0", null ],
+    [ "Register", "d8/d93/a17732.html#a32e04a1110d651701b8eab1648c69a57", null ]
 ];

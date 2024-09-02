@@ -1,9 +1,8 @@
 var a27900 =
 [
-    [ "OnEffectHitTargetDisarm", "db/d30/a27900.html#ae8ce5a315886ede30eda7d3682e4ef06", null ],
-    [ "OnEffectHitTargetStun", "db/d30/a27900.html#a5a5253b6d152b1af78de663c09451536", null ],
-    [ "OnEffectLaunchTargetDisarm", "db/d30/a27900.html#a2bbcf5ee2d41362c80a4649a4cf7e260", null ],
-    [ "OnEffectLaunchTargetStun", "db/d30/a27900.html#ac3d5052bf045082fb8bc02c72a0dba39", null ],
-    [ "PrepareSpellScript", "db/d30/a27900.html#a113219d3376a23f8889f26f10744e7cb", null ],
-    [ "Register", "db/d30/a27900.html#a12ef13dbc3e9cd95fb1d57bf393735e3", null ]
+    [ "gender", "db/d30/a27900.html#a571684c3aa6f2b0192b545d2a38ab333", null ],
+    [ "hair_id", "db/d30/a27900.html#af4646a9adb0a1dc18b34158de2116b84", null ],
+    [ "Id", "db/d30/a27900.html#a05de87081cf628e806d6518eef1424e4", null ],
+    [ "race", "db/d30/a27900.html#a458f5a1e2aca1fd34bb1afadeb5f6db2", null ],
+    [ "type", "db/d30/a27900.html#a289bb362ba13235c754647ba67be1e56", null ]
 ];

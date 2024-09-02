@@ -1,6 +1,7 @@
 var a14808 =
 [
-    [ "boss_lieutenant_drakeAI", "d2/d74/a14812.html", "d2/d74/a14812" ],
-    [ "boss_lieutenant_drake", "d4/d0a/a14808.html#a35e6e635877d1a4daa0a320cd40c1516", null ],
-    [ "GetAI", "d4/d0a/a14808.html#abe95d3f2dd8538860ac01c7c4493ff6e", null ]
+    [ "go_sand_trap", "d4/d0a/a14808.html#a58d45acac672cb05988ddca78185b469", null ],
+    [ "Reset", "d4/d0a/a14808.html#a7071a3e420e9137ca133b471bc217bf3", null ],
+    [ "UpdateAI", "d4/d0a/a14808.html#a2e4a5fec4d4c790233ca97e6a7732ac4", null ],
+    [ "_scheduler", "d4/d0a/a14808.html#af845c0efb3d8ebe53d3620970a84f1e4", null ]
 ];

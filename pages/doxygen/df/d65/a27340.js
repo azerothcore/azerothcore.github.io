@@ -1,7 +1,10 @@
 var a27340 =
 [
-    [ "EjectPassenger", "df/d65/a27340.html#a17ead3b25e5cebda3c9d5008f54f27ef", null ],
-    [ "PrepareSpellScript", "df/d65/a27340.html#abada0f860ea3cd6c16fbe4d73263d95a", null ],
-    [ "Register", "df/d65/a27340.html#ad5af65bc326aebcc1a2e19dabe624ad1", null ],
-    [ "Validate", "df/d65/a27340.html#a24ad6ca59f4f38cfa34de16c4167944e", null ]
+    [ "npc_prof_blacksmith", "df/d65/a27340.html#af9bd62c4c2514d79daf467e4d6d7a92e", null ],
+    [ "HasWeaponSub", "df/d65/a27340.html#a7ee47d061de5e2f482406469b4eaac3b", null ],
+    [ "OnGossipHello", "df/d65/a27340.html#a9a432c1ec33578949110c877fc6a686d", null ],
+    [ "OnGossipSelect", "df/d65/a27340.html#ab1edaf3dc0a8dddf064368d26930a2af", null ],
+    [ "SendActionMenu", "df/d65/a27340.html#af2ac8f9bfa212c34be3e45cc358dd773", null ],
+    [ "SendConfirmLearn", "df/d65/a27340.html#acbec7fe3eebf7eaed09e5755c6775eaa", null ],
+    [ "SendConfirmUnlearn", "df/d65/a27340.html#a851dc241d944bc888a00df85bff17e3a", null ]
 ];

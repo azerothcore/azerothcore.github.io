@@ -1,5 +1,6 @@
 var a24064 =
 [
-    [ "go_scourge_enclosure", "db/da1/a24064.html#a3611232cb735f336087d4d3c90f66b8d", null ],
-    [ "OnGossipHello", "db/da1/a24064.html#af505dd0a5d9224cd7586878d1fbd3351", null ]
+    [ "HandleEffectRemove", "db/da1/a24064.html#a2e73fd55dd7e6e658bc6c6623b650732", null ],
+    [ "PrepareAuraScript", "db/da1/a24064.html#a9aabae3a6c57be9b17394d4a39fe24ec", null ],
+    [ "Register", "db/da1/a24064.html#ac02217c103db141d75377e233e1e4242", null ]
 ];

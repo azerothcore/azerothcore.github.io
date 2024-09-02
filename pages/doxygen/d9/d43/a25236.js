@@ -1,9 +1,8 @@
 var a25236 =
 [
-    [ "npc_steamrigger_mechanic", "d9/d43/a25236.html#ab0fc02747021cb3ee6244b94fef58fa9", null ],
-    [ "JustEngagedWith", "d9/d43/a25236.html#a21f1ee6fafe3df3a3991f56acd2bb6e9", null ],
-    [ "MoveInLineOfSight", "d9/d43/a25236.html#a1f4f3ab677004455a4fbfba7d5de9403", null ],
-    [ "Reset", "d9/d43/a25236.html#ab7d59ba23a5c7ff7851487980d64f57d", null ],
-    [ "UpdateAI", "d9/d43/a25236.html#a6647ce01a15fda167b5985e6c729663f", null ],
-    [ "_scheduler", "d9/d43/a25236.html#a330272295aadb4d35e98d6dd12ad4ab3", null ]
+    [ "HandleApply", "d9/d43/a25236.html#af20f30fe2bfc7a370b166a6200b44ca9", null ],
+    [ "OnPeriodic", "d9/d43/a25236.html#a6b3223ef23854f22b9a3baba0d42cb11", null ],
+    [ "PrepareAuraScript", "d9/d43/a25236.html#a344d1a92623865876174c0e88ce8ab4b", null ],
+    [ "Register", "d9/d43/a25236.html#a352ff0e85eee6e51e9f2eea5cdd9108c", null ],
+    [ "Validate", "d9/d43/a25236.html#ac4fd8fdde53f947082b23852ce149ea9", null ]
 ];

@@ -1,12 +1,6 @@
 var a14376 =
 [
-    [ "CheckCast", "de/d10/a14376.html#aef2d9619e0d5919594cb01294c9295b9", null ],
-    [ "HandleFinish", "de/d10/a14376.html#ace3a2ad0cf8ac31f7ef5345f1dbbf6e7", null ],
-    [ "HandleScript", "de/d10/a14376.html#a2a2f005c29f0381c3c45d04a75ccc378", null ],
-    [ "Load", "de/d10/a14376.html#a177ea78202f4d5b4c381f1712b01fe43", null ],
-    [ "PrepareSpellScript", "de/d10/a14376.html#a9714f48de3982feb245f78efb8008f1b", null ],
-    [ "Register", "de/d10/a14376.html#ad24c159a0dcfb86eb35a4286f606a3ab", null ],
-    [ "ThrowNextTorch", "de/d10/a14376.html#a6ea11852ede397c1ede1ebaabb906c35", null ],
-    [ "_crList", "de/d10/a14376.html#ab61923e40731d07c7c22288795c53a27", null ],
-    [ "handled", "de/d10/a14376.html#a869fde9e5d0756d3c68a8db3e10ad50d", null ]
+    [ "HandleScriptEffect", "de/d10/a14376.html#aebd700897688157ca62405c92fe58680", null ],
+    [ "PrepareSpellScript", "de/d10/a14376.html#a09e11d1938279a2302fb8805e71c6c36", null ],
+    [ "Register", "de/d10/a14376.html#aa0679665ba2c496e0a5aa5f6864d7230", null ]
 ];

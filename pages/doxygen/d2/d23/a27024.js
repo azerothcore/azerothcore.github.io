@@ -1,6 +1,6 @@
 var a27024 =
 [
-    [ "HandleScriptEffect", "d2/d23/a27024.html#a1ace281bf2fd53722f8328a79369b5df", null ],
-    [ "PrepareSpellScript", "d2/d23/a27024.html#ac9a0019091f291b1b3a770ec57bd83e8", null ],
-    [ "Register", "d2/d23/a27024.html#a821a6b11a177bf7586ab666081ab222a", null ]
+    [ "boss_lethonAI", "db/dec/a27028.html", "db/dec/a27028" ],
+    [ "boss_lethon", "d2/d23/a27024.html#a5d758979b061646830373de64b2b3af4", null ],
+    [ "GetAI", "d2/d23/a27024.html#a493baf37aac400635dd0409e79375a1c", null ]
 ];

@@ -1,6 +1,7 @@
 var a17868 =
 [
-    [ "boss_deathbringer_saurfangAI", "d0/d25/a17872.html", "d0/d25/a17872" ],
-    [ "boss_deathbringer_saurfang", "d8/da6/a17868.html#ad19893be7dc3b4290d9b1ed3bb992e08", null ],
-    [ "GetAI", "d8/da6/a17868.html#a6bc1ef44b3ea9e860d62bf78cfa38c92", null ]
+    [ "FrostBombExplosion", "d8/da6/a17868.html#ac7d318e241e6442e8aa084b27ea50236", null ],
+    [ "Execute", "d8/da6/a17868.html#a0b6521266f18b621260286c530ff3f36", null ],
+    [ "_owner", "d8/da6/a17868.html#aa9ff39ce43c351e8815f895896fa759b", null ],
+    [ "_sindragosaGUID", "d8/da6/a17868.html#a5afc3d543c8fa457c90735f841aa161c", null ]
 ];

@@ -1,7 +1,6 @@
 var a28384 =
 [
-    [ "HandleScript", "db/d7b/a28384.html#a1b20a7fb4487876f305aa3a8d493ed17", null ],
-    [ "PrepareSpellScript", "db/d7b/a28384.html#a5ac848029ef03f6779cf094f4b80dd24", null ],
-    [ "Register", "db/d7b/a28384.html#a3d378e0eac09b00792b293b2cd7f3192", null ],
-    [ "Validate", "db/d7b/a28384.html#a36963610ad939ec36848ff70185f47a2", null ]
+    [ "SetUp", "db/d7b/a28384.html#af04bbb2661f10d3bf442c590ebdf1a2b", null ],
+    [ "TearDown", "db/d7b/a28384.html#a3bc271279472966f9dae906f9f77119b", null ],
+    [ "confFilePath", "db/d7b/a28384.html#aaaccdda1669c76b94483bf2db2615d4e", null ]
 ];

@@ -1,9 +1,12 @@
 var a23052 =
 [
-    [ "npc_bonker_togglevoltAI", "d4/ddd/a23052.html#adfd43a6a804a35e235262e55f0155ffe", null ],
-    [ "JustDied", "d4/ddd/a23052.html#a5ac6e89ad9ad3d3d69a87f7b9dc4026f", null ],
-    [ "Reset", "d4/ddd/a23052.html#a13efa2a2a0c5c796b3fd9f36a54ce523", null ],
-    [ "UpdateEscortAI", "d4/ddd/a23052.html#a9bf17d7ec59d800955c131dbe14a31d8", null ],
-    [ "WaypointReached", "d4/ddd/a23052.html#a06dc6c018d52f1cd1b2c7f76dbda3a2d", null ],
-    [ "Bonker_agro", "d4/ddd/a23052.html#a395e6e14f03cb0ecfe70348cc148d7ef", null ]
+    [ "boss_fathomguard_sharkkis", "d4/ddd/a23052.html#affc3a4422ce62311879bef6df104c9b9", null ],
+    [ "EnterEvadeMode", "d4/ddd/a23052.html#a344072e382566575168cdcf57d0f6481", null ],
+    [ "JustDied", "d4/ddd/a23052.html#a1a4fdf91f6d8d0e3e0672e174152a59d", null ],
+    [ "JustEngagedWith", "d4/ddd/a23052.html#a5724db6f55f1c5ed2e351603a1b26943", null ],
+    [ "JustSummoned", "d4/ddd/a23052.html#a31098d1e91412b797663fe677114af20", null ],
+    [ "Reset", "d4/ddd/a23052.html#a5d8b89e2d4a203df5ec574b96df0d489", null ],
+    [ "UpdateAI", "d4/ddd/a23052.html#ab71689fda10d6d31dd2bfc72026bd755", null ],
+    [ "_instance", "d4/ddd/a23052.html#ad3dc90987a8b01fcd55799f66d18906c", null ],
+    [ "_summons", "d4/ddd/a23052.html#a73f887b3f829027fc336a8e4a9c5b963", null ]
 ];

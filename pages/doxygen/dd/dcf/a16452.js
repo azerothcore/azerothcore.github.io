@@ -1,5 +1,5 @@
 var a16452 =
 [
-    [ "PrepareAuraScript", "dd/dcf/a16452.html#a4581e64bd531406398146e305806f45a", null ],
-    [ "dmgInfo", "dd/dcf/a16452.html#a26105658b07b59da02c9fc2bb151c8ec", null ]
+    [ "npc_essence_of_twin", "dd/dcf/a16452.html#a019de64e5e01e611acfda5db4c279b19", null ],
+    [ "OnGossipHello", "dd/dcf/a16452.html#a6f37b7f1152098b41b07ddbae3613c63", null ]
 ];

@@ -1,6 +1,6 @@
 var a16764 =
 [
-    [ "HandleScript", "db/d4f/a16764.html#a8d694a38875d940112ff406b84eca6ef", null ],
-    [ "PrepareSpellScript", "db/d4f/a16764.html#a68caa888893ff2aeb7ce0ee5ae28546d", null ],
-    [ "Register", "db/d4f/a16764.html#acd72c6d884a8963318aa73bc520c98c4", null ]
+    [ "npc_hor_spiritual_reflectionAI", "d7/d7c/a16768.html", "d7/d7c/a16768" ],
+    [ "npc_hor_spiritual_reflection", "db/d4f/a16764.html#a5f43c7b336335698468092f72c804fea", null ],
+    [ "GetAI", "db/d4f/a16764.html#ab6aafc6db10943662fb66b0f77fc34ec", null ]
 ];

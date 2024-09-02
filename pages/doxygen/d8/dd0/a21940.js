@@ -1,6 +1,6 @@
 var a21940 =
 [
-    [ "boss_thorim_start_npcsAI", "d9/dcf/a21944.html", "d9/dcf/a21944" ],
-    [ "boss_thorim_start_npcs", "d8/dd0/a21940.html#a3aa11a487ae00b2e397fd25ed2e42702", null ],
-    [ "GetAI", "d8/dd0/a21940.html#a6c529b19d071b4966ccc74b44279cb08", null ]
+    [ "npc_attracted_reef_bullAI", "d8/dd0/a21940.html#aa8917a912fb31a5987332e53e8d268e7", null ],
+    [ "MovementInform", "d8/dd0/a21940.html#a79d9539243f178a2989f017c5f9ebc8c", null ],
+    [ "SpellHit", "d8/dd0/a21940.html#ab06ee7ef84d881262ae682b69fae3135", null ]
 ];

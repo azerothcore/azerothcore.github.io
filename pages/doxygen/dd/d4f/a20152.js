@@ -1,9 +1,7 @@
 var a20152 =
 [
-    [ "boss_razuvious_minionAI", "dd/d4f/a20152.html#aca1f9208c8ab44e415a971d1bc4f037e", null ],
-    [ "JustEngagedWith", "dd/d4f/a20152.html#ada2e7a5ac1f129572a0689afce49d310", null ],
-    [ "KilledUnit", "dd/d4f/a20152.html#ab1a6f582098c9d1218551af0aae1815d", null ],
-    [ "Reset", "dd/d4f/a20152.html#a170de8517a03a0e78b1e67652869fd9a", null ],
-    [ "UpdateAI", "dd/d4f/a20152.html#ad56fca0ae00fba6e575baefd72c7a8d0", null ],
-    [ "events", "dd/d4f/a20152.html#a7af99633cb0b9e69105e207b2d94fa28", null ]
+    [ "HandleAfterEffectApply", "dd/d4f/a20152.html#adab765d78094eec673abce5140145267", null ],
+    [ "OnApply", "dd/d4f/a20152.html#aab4331a7a55dc6f713db02726ec22e3a", null ],
+    [ "PrepareAuraScript", "dd/d4f/a20152.html#acb827ae4299ae482d9b7f3fb09bbcc52", null ],
+    [ "Register", "dd/d4f/a20152.html#ac1007ce2ee5e046639829558855f0188", null ]
 ];

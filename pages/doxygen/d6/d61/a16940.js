@@ -1,5 +1,6 @@
 var a16940 =
 [
-    [ "achievement_oh_novos", "d6/d61/a16940.html#a31ca1f458c384401af107cb8f709ef61", null ],
-    [ "OnCheck", "d6/d61/a16940.html#a3b922d9ed709ed46edca794f5ccf858f", null ]
+    [ "npc_pos_martin_or_gorkun_secondAI", "d6/dca/a16944.html", "d6/dca/a16944" ],
+    [ "npc_pos_martin_or_gorkun_second", "d6/d61/a16940.html#a3027c88a65aa523cc99f2fa79e1e376c", null ],
+    [ "GetAI", "d6/d61/a16940.html#a180936e3bb98eb55d29ebd51350906c0", null ]
 ];

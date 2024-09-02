@@ -1,6 +1,5 @@
 var a13796 =
 [
-    [ "instance_zulaman_InstanceMapScript", "d8/dd2/a13800.html", "d8/dd2/a13800" ],
-    [ "instance_zulaman", "d6/dde/a13796.html#a5a81dddc07dea599e2a197737206427b", null ],
-    [ "GetInstanceScript", "d6/dde/a13796.html#a2144a517b22c5d6e7f6cc31d344669fc", null ]
+    [ "at_zulgurub_entrance_speech", "d6/dde/a13796.html#afef11c6a7e97befd07072826fa13be55", null ],
+    [ "_OnTrigger", "d6/dde/a13796.html#a55cda55ed70c63f2a0b2ce39b2ffc0a5", null ]
 ];

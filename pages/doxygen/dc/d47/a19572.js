@@ -1,6 +1,9 @@
 var a19572 =
 [
-    [ "npc_impaling_spearAI", "d8/d5d/a19576.html", "d8/d5d/a19576" ],
-    [ "npc_impaling_spear", "dc/d47/a19572.html#af546ed9684fc085ad651bf5bd93e5bf7", null ],
-    [ "GetAI", "dc/d47/a19572.html#aad49164a3e7541b755c1c622b996bb9a", null ]
+    [ "npc_brann_bronzebeard_algalonAI", "dc/d47/a19572.html#a5ab0ff088866cf9d6af99ee3f42e897a", null ],
+    [ "DoAction", "dc/d47/a19572.html#a9de9e9b19b8a635ec4bc0a4f8c8d13c6", null ],
+    [ "MovementInform", "dc/d47/a19572.html#a7f8d3efed49f0d43a5e9e73ee8bd36e0", null ],
+    [ "UpdateAI", "dc/d47/a19572.html#a16e3fcd7f082e04f648d2341a7e83cba", null ],
+    [ "_currentPoint", "dc/d47/a19572.html#ae9da41b5b4cae16e1ed4709ab41b8964", null ],
+    [ "events", "dc/d47/a19572.html#ab71b71ac63517349cb8702bb29d76334", null ]
 ];

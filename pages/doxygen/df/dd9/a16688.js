@@ -1,6 +1,6 @@
 var a16688 =
 [
-    [ "npc_toc_enh_shamanAI", "dc/da9/a16692.html", "dc/da9/a16692" ],
-    [ "npc_toc_enh_shaman", "df/dd9/a16688.html#ac328b63a988d2cd8640237b250c338a8", null ],
-    [ "GetAI", "df/dd9/a16688.html#a4501c9289a06750d8f153f89565b12f3", null ]
+    [ "boss_marwynAI", "dc/da9/a16692.html", "dc/da9/a16692" ],
+    [ "boss_marwyn", "df/dd9/a16688.html#a4be337e1a6b4ab6d48aa1380f3956ad4", null ],
+    [ "GetAI", "df/dd9/a16688.html#af1c83878d2121163994bc327ae8e04f7", null ]
 ];

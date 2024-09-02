@@ -1,6 +1,7 @@
 var a25084 =
 [
-    [ "spell_leotheras_demon_link_AuraScript", "d1/d4c/a25088.html", "d1/d4c/a25088" ],
-    [ "spell_leotheras_demon_link", "df/dc3/a25084.html#ab26b5191983ef269fa417b9e269b4a9c", null ],
-    [ "GetAuraScript", "df/dc3/a25084.html#ac00f9cdd7d61134a2bbb0abf06abde7f", null ]
+    [ "HandleChargeEffect", "df/dc3/a25084.html#ad8d2871e6277dd982653fa864010d084", null ],
+    [ "HandleScriptEffect", "df/dc3/a25084.html#a2c0a734c9e8cc1bd7ae4baa168bda7fc", null ],
+    [ "PrepareSpellScript", "df/dc3/a25084.html#a1f8722308e1a5bef546dcb939d73dca7", null ],
+    [ "Register", "df/dc3/a25084.html#a2cdda449ab11438347e7dd32fd058e6d", null ]
 ];

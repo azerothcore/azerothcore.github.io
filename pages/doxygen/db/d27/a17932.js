@@ -1,7 +1,6 @@
 var a17932 =
 [
-    [ "Load", "db/d27/a17932.html#ac5166beda0b7773af95b745d962de5b5", null ],
-    [ "PrepareAuraScript", "db/d27/a17932.html#a5fbf823a98a081adcbc0bf50abef3a53", null ],
-    [ "RecalculateHook", "db/d27/a17932.html#a70d2874c599f6d0ce088a633928ee908", null ],
-    [ "Register", "db/d27/a17932.html#a83f88b0aa326667b7c1f28c50c3d88d5", null ]
+    [ "FilterTargets", "db/d27/a17932.html#aae21b2d9ecc5bfd317f065f1da46b696", null ],
+    [ "PrepareSpellScript", "db/d27/a17932.html#a2a7e37db10a6f8a6c86af92d7b492a29", null ],
+    [ "Register", "db/d27/a17932.html#a6e541cad4c831ee2eaf19d72324ec38c", null ]
 ];

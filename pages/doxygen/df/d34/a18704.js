@@ -1,7 +1,6 @@
 var a18704 =
 [
-    [ "FrostBombExplosion", "df/d34/a18704.html#ac7d318e241e6442e8aa084b27ea50236", null ],
-    [ "Execute", "df/d34/a18704.html#a0b6521266f18b621260286c530ff3f36", null ],
-    [ "_owner", "df/d34/a18704.html#aa9ff39ce43c351e8815f895896fa759b", null ],
-    [ "_sindragosaGUID", "df/d34/a18704.html#a5afc3d543c8fa457c90735f841aa161c", null ]
+    [ "npc_icc_putricades_trapAI", "d3/de5/a18708.html", "d3/de5/a18708" ],
+    [ "npc_icc_putricades_trap", "df/d34/a18704.html#ae022f2991fee4143fb965c53e4d4da5c", null ],
+    [ "GetAI", "df/d34/a18704.html#a42ab1cb27234ebd10755dbbedce5f187", null ]
 ];

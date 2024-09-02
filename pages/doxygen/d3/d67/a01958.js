@@ -1,44 +1,42 @@
 var a01958 =
 [
-    [ "npc_cork_gizelton", "dc/db6/a15235.html", "dc/db6/a15235" ],
-    [ "npc_cork_gizelton::npc_cork_gizeltonAI", "da/dd6/a15239.html", "da/dd6/a15239" ],
-    [ "npc_aged_dying_ancient_kodo", "d3/d66/a15243.html", "d3/d66/a15243" ],
-    [ "npc_aged_dying_ancient_kodo::npc_aged_dying_ancient_kodoAI", "d6/d28/a15247.html", "d6/d28/a15247" ],
-    [ "Caravan", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728", [
-      [ "QUEST_BODYGUARD_FOR_HIRE", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728a07d8fdc2ba6f3382ab9a9c0ccb910712", null ],
-      [ "QUEST_GIZELTON_CARAVAN", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728af1f220a5094995c40054b8afcfc956f9", null ],
-      [ "EVENT_RESUME_PATH", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728a69f42ceba9244cdbe2e7dfc9e833acc9", null ],
-      [ "EVENT_WAIT_FOR_ASSIST", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728ac88ffb83ceecf13ef48bd0988529cba7", null ],
-      [ "EVENT_RESTART_ESCORT", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728a7410480ad3fe5ae4742c8d12f885e2d1", null ],
-      [ "NPC_CORK_GIZELTON", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728a3ac8ce9d7c78aa74818eb286eb1530ba", null ],
-      [ "NPC_RIGGER_GIZELTON", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728a73d4fb993cb56f5e539c1255d432d1a5", null ],
-      [ "NPC_CARAVAN_KODO", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728ae4dd98db048a9b333326fb52a0a08858", null ],
-      [ "NPC_VENDOR_TRON", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728acb0c2bc0eea43af8bd0e1801fac8846f", null ],
-      [ "NPC_SUPER_SELLER", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728a8329377778d66d3c939420b04264e573", null ],
-      [ "SAY_CARAVAN_LEAVE", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728a52926a8d01b0b50f89cc5fb99e6919aa", null ],
-      [ "SAY_CARAVAN_HIRE", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728ab0f9b346c5f60c1ec44e45615f360ef3", null ],
-      [ "MAX_CARAVAN_SUMMONS", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728a4466b99c64cd47f91aec55ce7ef75362", null ],
-      [ "TIME_SHOP_STOP", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728abbe7d7ba7ba0306763dbae08e8d04afd", null ],
-      [ "TIME_HIRE_STOP", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728a988424f7f1f59cb5b30cef0ba4b8f3f7", null ],
-      [ "NPC_KOLKAR_WAYLAYER", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728af42ec3a8ba079cb93c6ad5406dcc4ece", null ],
-      [ "NPC_KOLKAR_AMBUSHER", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728a7a9eb27a8fb0e7ef6c66a86720d9233c", null ],
-      [ "NPC_LESSER_INFERNAL", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728aae0903900c838cf1102ca86baa598224", null ],
-      [ "NPC_DOOMWARDER", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728ae43176493b6aa526db1f2f2912bf6027", null ],
-      [ "NPC_NETHER", "d3/d67/a01958.html#aec2c916c560ca6ceedd660d3b140e728ac95afd23fdda714496e33c6aab109eda", null ]
+    [ "DataHeader", "d3/d67/a01958.html#a042491ef36459046f3866e90f15aae0d", null ],
+    [ "ZFScriptName", "d3/d67/a01958.html#a8c843043d60c28e6ccd7efb1a75ec86e", null ],
+    [ "ZFPyramidPhases", "d3/d67/a01958.html#a8774900db93cf3aa38b2e231417d6cc3", [
+      [ "PYRAMID_NOT_STARTED", "d3/d67/a01958.html#a8774900db93cf3aa38b2e231417d6cc3a434ccee53d43aeb68a61adc7afc70e71", null ],
+      [ "PYRAMID_CAGES_OPEN", "d3/d67/a01958.html#a8774900db93cf3aa38b2e231417d6cc3a733f4b4c341a7c12cea4da96f394e238", null ],
+      [ "PYRAMID_ARRIVED_AT_STAIR", "d3/d67/a01958.html#a8774900db93cf3aa38b2e231417d6cc3a44fbc93058f64b77b519778b73835095", null ],
+      [ "PYRAMID_WAVE_1", "d3/d67/a01958.html#a8774900db93cf3aa38b2e231417d6cc3ad6fc2894f46a7f845ccb16b02492416d", null ],
+      [ "PYRAMID_PRE_WAVE_2", "d3/d67/a01958.html#a8774900db93cf3aa38b2e231417d6cc3a83ddd4a830b4529356e379753ef0a6b0", null ],
+      [ "PYRAMID_WAVE_2", "d3/d67/a01958.html#a8774900db93cf3aa38b2e231417d6cc3a0fea1a14ce0b618b7b407cb0ebef5257", null ],
+      [ "PYRAMID_PRE_WAVE_3", "d3/d67/a01958.html#a8774900db93cf3aa38b2e231417d6cc3aeca14c0e13407ddbc852a23a75f9e297", null ],
+      [ "PYRAMID_WAVE_3", "d3/d67/a01958.html#a8774900db93cf3aa38b2e231417d6cc3aa3061b90909a10cdcf2445a1bee4ddce", null ],
+      [ "PYRAMID_KILLED_ALL_TROLLS", "d3/d67/a01958.html#a8774900db93cf3aa38b2e231417d6cc3aa18216a575ced9cd802aef44ec6a5b55", null ],
+      [ "PYRAMID_MOVED_DOWNSTAIRS", "d3/d67/a01958.html#a8774900db93cf3aa38b2e231417d6cc3af4a5d3d2602c5283c9a3e987e6eb7cf4", null ],
+      [ "PYRAMID_DESTROY_GATES", "d3/d67/a01958.html#a8774900db93cf3aa38b2e231417d6cc3a26d165b4ebf0c18fbab9c99700d40301", null ],
+      [ "PYRAMID_GATES_DESTROYED", "d3/d67/a01958.html#a8774900db93cf3aa38b2e231417d6cc3ad3ca6408f8a6f8dacff9c606641f3682", null ],
+      [ "PYRAMID_DONE", "d3/d67/a01958.html#a8774900db93cf3aa38b2e231417d6cc3ab8014318ae3d1f73e7e31fa340a12021", null ]
     ] ],
-    [ "DyingKodo", "d3/d67/a01958.html#af45ec6fee60329d3c66726e0fa939663", [
-      [ "SAY_SMEED_HOME", "d3/d67/a01958.html#af45ec6fee60329d3c66726e0fa939663a07ed71cb461662af72c9811505b9c955", null ],
-      [ "QUEST_KODO", "d3/d67/a01958.html#af45ec6fee60329d3c66726e0fa939663a8019fb9754f039595728a149d4c3214f", null ],
-      [ "NPC_TEXT_KODO", "d3/d67/a01958.html#af45ec6fee60329d3c66726e0fa939663a934cabb76d1cbddd53e5a682b3560c7e", null ],
-      [ "NPC_SMEED", "d3/d67/a01958.html#af45ec6fee60329d3c66726e0fa939663ab289aa3f772d2e87dad418d075ab8dce", null ],
-      [ "NPC_AGED_KODO", "d3/d67/a01958.html#af45ec6fee60329d3c66726e0fa939663ab93894e9256e085d45fb24b0d544e154", null ],
-      [ "NPC_DYING_KODO", "d3/d67/a01958.html#af45ec6fee60329d3c66726e0fa939663a6116f630ddd9390420cc6aa4230a862e", null ],
-      [ "NPC_ANCIENT_KODO", "d3/d67/a01958.html#af45ec6fee60329d3c66726e0fa939663a1267b33b446af4c80d35df16c24e2ac3", null ],
-      [ "NPC_TAMED_KODO", "d3/d67/a01958.html#af45ec6fee60329d3c66726e0fa939663a47e69d141a6091158f3102f0ebc301e3", null ],
-      [ "SPELL_KODO_KOMBO_ITEM", "d3/d67/a01958.html#af45ec6fee60329d3c66726e0fa939663ad0806f22dfe303368c6bfef3b25bdbe9", null ],
-      [ "SPELL_KODO_KOMBO_PLAYER_BUFF", "d3/d67/a01958.html#af45ec6fee60329d3c66726e0fa939663a77343420c8740b50963dbc05382dc5ea", null ],
-      [ "SPELL_KODO_KOMBO_DESPAWN_BUFF", "d3/d67/a01958.html#af45ec6fee60329d3c66726e0fa939663abf5a59eb8d83eefa21ea7e9b53e96ad5", null ],
-      [ "SPELL_KODO_KOMBO_GOSSIP", "d3/d67/a01958.html#af45ec6fee60329d3c66726e0fa939663a08489d27d91546512009b1555fa59de3", null ]
+    [ "ZulFarrakCreatures", "d3/d67/a01958.html#ab6a75cae3d5218b7c02408d5c4fb4b81", [
+      [ "NPC_SANDFURY_CRETIN", "d3/d67/a01958.html#ab6a75cae3d5218b7c02408d5c4fb4b81abc17ce4a19f84d1f43027e038ce1b376", null ],
+      [ "NPC_SANDFURY_SLAVE", "d3/d67/a01958.html#ab6a75cae3d5218b7c02408d5c4fb4b81a6c5f3121c15864497a7fd4445e508d9b", null ],
+      [ "NPC_SANDFURY_ACOLYTE", "d3/d67/a01958.html#ab6a75cae3d5218b7c02408d5c4fb4b81ad994cdb727fce1b96ee059a3f7d40ab8", null ],
+      [ "NPC_SANDFURY_DRUDGE", "d3/d67/a01958.html#ab6a75cae3d5218b7c02408d5c4fb4b81a3b6291c9a6afbd297befe20651cce18a", null ],
+      [ "NPC_SANDFURY_ZEALOT", "d3/d67/a01958.html#ab6a75cae3d5218b7c02408d5c4fb4b81aebf682fdf490a79a7c57fa612e9f197d", null ],
+      [ "NPC_SHADOWPRIEST_SEZZZIZ", "d3/d67/a01958.html#ab6a75cae3d5218b7c02408d5c4fb4b81a6e6e1f1c3cccf7fad5f37b40eb4d72c7", null ],
+      [ "NPC_NEKRUM_GUTCHEWER", "d3/d67/a01958.html#ab6a75cae3d5218b7c02408d5c4fb4b81ac67a7fd5df9d4f39a21fcd4b485ed031", null ],
+      [ "NPC_BLY", "d3/d67/a01958.html#ab6a75cae3d5218b7c02408d5c4fb4b81aeeeaf82fbf41331373955f22de91c48d", null ],
+      [ "NPC_RAVEN", "d3/d67/a01958.html#ab6a75cae3d5218b7c02408d5c4fb4b81af7eec9c0500aedfefe9bbbbaeb5d73b8", null ],
+      [ "NPC_ORO", "d3/d67/a01958.html#ab6a75cae3d5218b7c02408d5c4fb4b81add85ada339b5a0d2a412756a1032799b", null ],
+      [ "NPC_WEEGLI", "d3/d67/a01958.html#ab6a75cae3d5218b7c02408d5c4fb4b81a3a660c0cbddbbd8650c9632e52d7b178", null ],
+      [ "NPC_MURTA", "d3/d67/a01958.html#ab6a75cae3d5218b7c02408d5c4fb4b81ae2ffa4447246d4d51f2339edf2164b7a", null ]
     ] ],
-    [ "AddSC_desolace", "d3/d67/a01958.html#a626ec1db47701aabca9f7bda1c8b7c7a", null ]
+    [ "ZulFarrakData", "d3/d67/a01958.html#a66cc3be5310a2efbacb38d2398d8af24", [
+      [ "DATA_PYRAMID", "d3/d67/a01958.html#a66cc3be5310a2efbacb38d2398d8af24ab1d90dc5c239d55044f1bed8e5e823e3", null ],
+      [ "DATA_GAHZRILLA", "d3/d67/a01958.html#a66cc3be5310a2efbacb38d2398d8af24a023919c11385e898d643499efd09c167", null ]
+    ] ],
+    [ "ZulFarrakGameobjects", "d3/d67/a01958.html#a83f1d34de34a6a1e990edbfb47a2f78e", [
+      [ "GO_END_DOOR", "d3/d67/a01958.html#a83f1d34de34a6a1e990edbfb47a2f78ea279b9f40e76d0da56ef7eca0a2578319", null ]
+    ] ],
+    [ "GetZulFarrakAI", "d3/d67/a01958.html#afc0f10884b3d0ad6a6e73e3767fa3538", null ]
 ];

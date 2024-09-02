@@ -1,6 +1,7 @@
 var a19964 =
 [
-    [ "boss_four_horsemenAI", "de/de0/a19968.html", "de/de0/a19968" ],
-    [ "boss_four_horsemen", "de/d2e/a19964.html#a6bcaf9a12d854a322f50ac2f98dbb72b", null ],
-    [ "GetAI", "de/d2e/a19964.html#a3ee27da1d0da48306cc10c17c9411d1a", null ]
+    [ "boss_freya_lifebinderAI", "de/d2e/a19964.html#ae421aa209690e4a2908995b6b7d322cd", null ],
+    [ "Reset", "de/d2e/a19964.html#a972bd7d390d444e0ea2bc513d5d3816a", null ],
+    [ "UpdateAI", "de/d2e/a19964.html#afb06c217c1012d6463e44689359eada9", null ],
+    [ "_healTimer", "de/d2e/a19964.html#a7021d13dceb9af343f0e820cf086046e", null ]
 ];

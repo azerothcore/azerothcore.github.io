@@ -1,21 +1,10 @@
 var a04424 =
 [
-    [ "Arena", "d7/d3b/a07003.html", "d7/d3b/a07003" ],
-    [ "ArenaBroadcastTexts", "dc/d7e/a04424.html#a407f2036481e3d9e2def3daa50546c71", [
-      [ "ARENA_TEXT_START_ONE_MINUTE", "dc/d7e/a04424.html#a407f2036481e3d9e2def3daa50546c71a12b484d249dd320cfc39bdf39279d854", null ],
-      [ "ARENA_TEXT_START_THIRTY_SECONDS", "dc/d7e/a04424.html#a407f2036481e3d9e2def3daa50546c71a49cdd0c5a035f182212d6fe53a1e2084", null ],
-      [ "ARENA_TEXT_START_FIFTEEN_SECONDS", "dc/d7e/a04424.html#a407f2036481e3d9e2def3daa50546c71a96636e959a178535f5d886c81ec6a8d9", null ],
-      [ "ARENA_TEXT_START_BATTLE_HAS_BEGUN", "dc/d7e/a04424.html#a407f2036481e3d9e2def3daa50546c71a60ff93f414424628c66faf8f424f1dcd", null ]
-    ] ],
-    [ "ArenaSpellIds", "dc/d7e/a04424.html#a05b7784b7a9a1ce8e6367f6f9bb875d9", [
-      [ "SPELL_ALLIANCE_GOLD_FLAG", "dc/d7e/a04424.html#a05b7784b7a9a1ce8e6367f6f9bb875d9a310e16f368a3a7d80eeecbaecd5c489c", null ],
-      [ "SPELL_ALLIANCE_GREEN_FLAG", "dc/d7e/a04424.html#a05b7784b7a9a1ce8e6367f6f9bb875d9aeae9474d707e5496dfdf0fd49871bb9f", null ],
-      [ "SPELL_HORDE_GOLD_FLAG", "dc/d7e/a04424.html#a05b7784b7a9a1ce8e6367f6f9bb875d9a83058f9219943bb8b4d4a3024d172af0", null ],
-      [ "SPELL_HORDE_GREEN_FLAG", "dc/d7e/a04424.html#a05b7784b7a9a1ce8e6367f6f9bb875d9ad76f572a30c966179ca9c2c2c26f4222", null ],
-      [ "SPELL_LAST_MAN_STANDING", "dc/d7e/a04424.html#a05b7784b7a9a1ce8e6367f6f9bb875d9a20018007a38c253b1c4d00d9b0b375bd", null ]
-    ] ],
-    [ "ArenaWorldStates", "dc/d7e/a04424.html#a4e26c0d0a6eb60865e57376951c14960", [
-      [ "ARENA_WORLD_STATE_ALIVE_PLAYERS_GREEN", "dc/d7e/a04424.html#a4e26c0d0a6eb60865e57376951c14960aea2da1b05ab1767fc34bf78021858c3a", null ],
-      [ "ARENA_WORLD_STATE_ALIVE_PLAYERS_GOLD", "dc/d7e/a04424.html#a4e26c0d0a6eb60865e57376951c14960afa467140e9e2c255b8d46937c40833a1", null ]
-    ] ]
+    [ "TypeList< HEAD, TAIL >", "d9/d4a/a05192.html", "d9/d4a/a05192" ],
+    [ "TYPELIST_1", "dc/d7e/a04424.html#a6a7a6aa3dece450c8d239713e2952df7", null ],
+    [ "TYPELIST_2", "dc/d7e/a04424.html#a311cb99af993804c6737ae46c5cbfaff", null ],
+    [ "TYPELIST_3", "dc/d7e/a04424.html#a0309f68a543c5c0994f9edc0e56dc59f", null ],
+    [ "TYPELIST_4", "dc/d7e/a04424.html#a7a156c571ab21a16b0495e1c882a07fa", null ],
+    [ "TYPELIST_5", "dc/d7e/a04424.html#aad5d9b3c82c8503c85c625acd41c0a2f", null ],
+    [ "TYPELIST_6", "dc/d7e/a04424.html#ac6f3277dcaade98ceeaa5c0e1c454816", null ]
 ];

@@ -1,6 +1,6 @@
 var a18664 =
 [
-    [ "HandleScript", "d7/d53/a18664.html#a403a1053b57ce4c27fa659d8d9855888", null ],
-    [ "PrepareSpellScript", "d7/d53/a18664.html#a5b40955d9d5680cbda2991a5f0c55437", null ],
-    [ "Register", "d7/d53/a18664.html#a5b1549485e34e66bcdb51f08f3e25252", null ]
+    [ "npc_icc_severed_essenceAI", "d0/de3/a18668.html", "d0/de3/a18668" ],
+    [ "npc_icc_severed_essence", "d7/d53/a18664.html#ace5b55755ef1dff3bd08a67fe2f64f94", null ],
+    [ "GetAI", "d7/d53/a18664.html#a74b8dbb95f3dc31b514a2d7ac1f18190", null ]
 ];

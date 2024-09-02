@@ -1,5 +1,6 @@
 var a27324 =
 [
-    [ "PrepareSpellScript", "d9/d36/a27324.html#ae49ad5a4ad43099c4510e1666ff6415b", null ],
-    [ "Register", "d9/d36/a27324.html#ad31fa6c2099d984389c3fb12e53a5bd8", null ]
+    [ "trigger_periodicAI", "dd/d38/a27328.html", "dd/d38/a27328" ],
+    [ "trigger_periodic", "d9/d36/a27324.html#a3c947c5a3092eecb7288a8a50c76bd14", null ],
+    [ "GetAI", "d9/d36/a27324.html#a179f3aa69fcd0b145f4ede9f830c1f38", null ]
 ];

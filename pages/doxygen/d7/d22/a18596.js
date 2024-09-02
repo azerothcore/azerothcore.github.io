@@ -1,6 +1,7 @@
 var a18596 =
 [
-    [ "spell_putricide_regurgitated_ooze_SpellScript", "d7/d8f/a18600.html", "d7/d8f/a18600" ],
-    [ "spell_putricide_regurgitated_ooze", "d7/d22/a18596.html#af27f6006b9f3d188712162f0c9511751", null ],
-    [ "GetSpellScript", "d7/d22/a18596.html#a622fcd3b610ba10d3b9730c72fb6fcea", null ]
+    [ "OnPeriodic", "d7/d22/a18596.html#a32c4b856d6248062fbdc1dea13d876ac", null ],
+    [ "PrepareAuraScript", "d7/d22/a18596.html#a87260a1cd06190f5412f3cab0f448a01", null ],
+    [ "Register", "d7/d22/a18596.html#a00827210671b959a030655f6be5edac6", null ],
+    [ "Validate", "d7/d22/a18596.html#a7163fb09fd8568a7ef5a5c37147ed5b0", null ]
 ];

@@ -1,8 +1,10 @@
 var a23864 =
 [
-    [ "npc_freed_protodrakeAI", "d9/df3/a23864.html#a9e80808035be749c87a1170f37ac3daf", null ],
-    [ "MovementInform", "d9/df3/a23864.html#af056f3c12a314acd8a7e8c6c381b9436", null ],
-    [ "Reset", "d9/df3/a23864.html#ab5781438300442bb7bcb4510aec9d233", null ],
-    [ "UpdateAI", "d9/df3/a23864.html#a9e83b133444e977c35e90b700149472c", null ],
-    [ "events", "d9/df3/a23864.html#ac2e34b9a53ff55d177327ec95dca5466", null ]
+    [ "npc_raging_flames", "d9/df3/a23864.html#aa2cc5c8af07c202a7f0fab1af259a0db", null ],
+    [ "EnterEvadeMode", "d9/df3/a23864.html#a24a878560153dcf9cf5282c6d0a8f7f0", null ],
+    [ "FixateRandomTarget", "d9/df3/a23864.html#a0e015aa73efdafb1bb9683b2f3c1ba34", null ],
+    [ "InitializeAI", "d9/df3/a23864.html#a96d3a8ef364dc6bc3f15ffc82b14c4c0", null ],
+    [ "IsSummonedBy", "d9/df3/a23864.html#ae42c4329be355807af92c1c803e61500", null ],
+    [ "Reset", "d9/df3/a23864.html#a34ac2249e507784d81c4040e87a646e0", null ],
+    [ "UpdateAI", "d9/df3/a23864.html#a3e4feafe10e59ad9cb1d2275dc7954b0", null ]
 ];

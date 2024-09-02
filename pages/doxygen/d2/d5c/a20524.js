@@ -1,6 +1,8 @@
 var a20524 =
 [
-    [ "spell_oculus_touch_the_nightmare_SpellScript", "d5/d30/a20528.html", "d5/d30/a20528" ],
-    [ "spell_oculus_touch_the_nightmare", "d2/d5c/a20524.html#a3fe8285446d570d1821ba8d5b1b700e5", null ],
-    [ "GetSpellScript", "d2/d5c/a20524.html#afa1b822ae140d0ca6bd194cdb5842613", null ]
+    [ "boss_thorim_pillarAI", "d2/d5c/a20524.html#ae00c9e72f14e3f2c94da118a1fe27130", null ],
+    [ "Reset", "d2/d5c/a20524.html#ae9043ed9b72cc0eda6fb7c859355da57", null ],
+    [ "SpellHit", "d2/d5c/a20524.html#a1cb3ef9fdfc9e375d15e14b9230dd51e", null ],
+    [ "UpdateAI", "d2/d5c/a20524.html#afd8e05444eeea620a7ef21e97c345d41", null ],
+    [ "_resetTimer", "d2/d5c/a20524.html#a6ef7c9e23280564aec1b82eb670bc4f9", null ]
 ];

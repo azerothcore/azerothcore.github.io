@@ -1,6 +1,10 @@
 var a24380 =
 [
-    [ "HandleScriptEffect", "d3/dd1/a24380.html#a674fea05820c72aaa25ef675484d8e11", null ],
-    [ "PrepareSpellScript", "d3/dd1/a24380.html#ab478e916a8e79c31509760b301079a1a", null ],
-    [ "Register", "d3/dd1/a24380.html#ac4d6d1846c41ea39c107ccb95e20415a", null ]
+    [ "npc_pet_hunter_snake_trap", "d3/dd1/a24380.html#aaf5df574c4ac53661c0bb1968f84c6ea", null ],
+    [ "EnterEvadeMode", "d3/dd1/a24380.html#a819add0c7b968063403d10275fdc289f", null ],
+    [ "MoveInLineOfSight", "d3/dd1/a24380.html#a32d5ed7f4d436f2678b34f4a1d572721", null ],
+    [ "Reset", "d3/dd1/a24380.html#a831cf6eea8bd03247cd9877d3be6e1ee", null ],
+    [ "UpdateAI", "d3/dd1/a24380.html#a41a37efe6d39c6d97b3dcc5fabbcc812", null ],
+    [ "_init", "d3/dd1/a24380.html#a1b5c1301389749f82667c35f3daff847", null ],
+    [ "_spellTimer", "d3/dd1/a24380.html#ab9397451e2e8320ca77560a19baeee3f", null ]
 ];

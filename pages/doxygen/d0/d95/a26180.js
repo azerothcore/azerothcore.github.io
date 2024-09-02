@@ -1,4 +1,6 @@
 var a26180 =
 [
-    [ "PrepareAuraScript", "d0/d95/a26180.html#a2ccd7d3908709837ff32c5730f60aff4", null ]
+    [ "HandleScriptEffect", "d0/d95/a26180.html#a8b60ae77f13045a582548fe5d1186d54", null ],
+    [ "PrepareSpellScript", "d0/d95/a26180.html#ad68619783c4a1aad5a24826bf5d89858", null ],
+    [ "Register", "d0/d95/a26180.html#a929c49d6dd30b6a0dedfbc23c877eb36", null ]
 ];

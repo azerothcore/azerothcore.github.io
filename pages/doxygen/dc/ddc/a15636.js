@@ -1,17 +1,17 @@
 var a15636 =
 [
-    [ "npc_anachronos_quest_triggerAI", "dc/ddc/a15636.html#aec19da0dd982c643b15dd3f9fae7338e", null ],
-    [ "CheckEventFail", "dc/ddc/a15636.html#a9cb72ea49977b65c42c80f6e53cfa021", null ],
-    [ "LiveCounter", "dc/ddc/a15636.html#aa19310d516a578dcd2d13d4298da0f58", null ],
-    [ "Reset", "dc/ddc/a15636.html#ab69245d2f874bef9796c151e5a27aaf7", null ],
-    [ "SummonNextWave", "dc/ddc/a15636.html#af2cc55a3f35a70a4a9630b4b843f8db7", null ],
-    [ "UpdateAI", "dc/ddc/a15636.html#af8aa57d58c05da9a8194bc6565d7a096", null ],
-    [ "Announced", "dc/ddc/a15636.html#a4e516705efff20a62124514ba14c8161", null ],
-    [ "AnnounceTimer", "dc/ddc/a15636.html#a7772c5b4f80b75ffe7b0641321029059", null ],
-    [ "EventStarted", "dc/ddc/a15636.html#ad70b899bedb2b338a306f45e2b4eafd4", null ],
-    [ "Failed", "dc/ddc/a15636.html#a60af9e06e872adfab6e7dbac73dfbece", null ],
-    [ "LiveCount", "dc/ddc/a15636.html#ae959e46865951c2783fe97e824180050", null ],
-    [ "PlayerGUID", "dc/ddc/a15636.html#a2c459e96b3599cda8560582a4fb4253a", null ],
-    [ "WaveCount", "dc/ddc/a15636.html#ac3a32a11e5f99d081371c49363509deb", null ],
-    [ "WaveTimer", "dc/ddc/a15636.html#a5294c9cd61713bc209a1b65f3b0a252e", null ]
+    [ "boss_volazj", "dc/ddc/a15636.html#ac1f0bc7b55a554d29e55a376680bf747", null ],
+    [ "CheckPhaseMinions", "dc/ddc/a15636.html#aa79bf97b6772956795bd2f16b85e061f", null ],
+    [ "DamageTaken", "dc/ddc/a15636.html#a494d78875526d878421b995145b74a12", null ],
+    [ "GetPlrInsanityAuraId", "dc/ddc/a15636.html#a5b6936cedb3fc411ae58f3dc3f6b689a", null ],
+    [ "InitializeAI", "dc/ddc/a15636.html#a9480c4294b18c5417895e5070be9a455", null ],
+    [ "JustDied", "dc/ddc/a15636.html#a6c85c56c2483c3e8b4de67b94a45e0a6", null ],
+    [ "JustEngagedWith", "dc/ddc/a15636.html#a135c5606742474e77ffd0ee0a3c3ee69", null ],
+    [ "KilledUnit", "dc/ddc/a15636.html#abdf2cb95f0d3d7756584c338f2e2db25", null ],
+    [ "Reset", "dc/ddc/a15636.html#a0377375b89b02db3cae01390fdd13ee2", null ],
+    [ "ResetPlayersPhaseMask", "dc/ddc/a15636.html#afbfa62f2b72a95434348f74fdda46da6", null ],
+    [ "SetData", "dc/ddc/a15636.html#aa8b5ae6214f0c764f15b096876d614d7", null ],
+    [ "UpdateAI", "dc/ddc/a15636.html#aceac85fb06c81ccd171b024ad0d57ffe", null ],
+    [ "insanityPhase", "dc/ddc/a15636.html#ae90de1e956eb3653c8c2f0c04d89585b", null ],
+    [ "insanityTimes", "dc/ddc/a15636.html#a7d2693147f9cb20a45ff2e5b6a2ca209", null ]
 ];

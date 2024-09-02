@@ -1,7 +1,6 @@
 var a16040 =
 [
-    [ "instance_azjol_nerub_InstanceScript", "d8/dec/a16040.html#a886ed4c1485fdedcc176341210eee31a", null ],
-    [ "OnCreatureCreate", "d8/dec/a16040.html#a7a99d985a4b465ae87c04211a7a83a77", null ],
-    [ "OnGameObjectCreate", "d8/dec/a16040.html#a1ef3dc88400345998d03f3c993b9a181", null ],
-    [ "OnGameObjectRemove", "d8/dec/a16040.html#a3a2776b83272d81de9ddcb0c90ac881c", null ]
+    [ "boss_paletressAI", "d2/da3/a16044.html", "d2/da3/a16044" ],
+    [ "boss_paletress", "d8/dec/a16040.html#a04cbd31e71cc349b8c1058780ee6f673", null ],
+    [ "GetAI", "d8/dec/a16040.html#a2c20ff397d115cf0e8a1801184e5a3f9", null ]
 ];

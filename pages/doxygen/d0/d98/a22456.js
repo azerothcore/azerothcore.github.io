@@ -1,5 +1,6 @@
 var a22456 =
 [
-    [ "npc_salvaged_siege_engine", "d0/d98/a22456.html#aa8cde891a19ebb1e53be2a81a2432442", null ],
-    [ "BeforeSpellClick", "d0/d98/a22456.html#aed2500b2315b5e508ea3d06a2355d023", null ]
+    [ "OutdoorPvPGH", "d0/d98/a22456.html#a619492e0a1fdf75f37554a2f19268660", null ],
+    [ "SendRemoveWorldStates", "d0/d98/a22456.html#a92c7e489717072ddc34f707fbe462cb2", null ],
+    [ "SetupOutdoorPvP", "d0/d98/a22456.html#a3d62cb27cfa415c9ba7fe5c18384a75d", null ]
 ];

@@ -1,6 +1,9 @@
 var a22324 =
 [
-    [ "spell_yogg_saron_insane_AuraScript", "d8/dd7/a22328.html", "d8/dd7/a22328" ],
-    [ "spell_yogg_saron_insane", "db/deb/a22324.html#ab34ed9de34999f6673588258fbc0fb10", null ],
-    [ "GetAuraScript", "db/deb/a22324.html#a42ff92cce4e4ae398fcab4d39853407b", null ]
+    [ "HandleFinish", "db/deb/a22324.html#a4511ae5227c3e4e931b04f2ba0d4a62e", null ],
+    [ "Load", "db/deb/a22324.html#a6b6f6b4ab8f345199d8d2189f07df7f2", null ],
+    [ "PrepareSpellScript", "db/deb/a22324.html#a8326b3f9f78aab65225e81d274cc37df", null ],
+    [ "Register", "db/deb/a22324.html#a749858f56e15a0bb6074d15ba166625d", null ],
+    [ "Validate", "db/deb/a22324.html#a64005c52e7112c466f6206b7f6c847c0", null ],
+    [ "handled", "db/deb/a22324.html#a7afe3007a016cb553f437544f8fd6f89", null ]
 ];

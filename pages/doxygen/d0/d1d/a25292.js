@@ -1,7 +1,6 @@
 var a25292 =
 [
-    [ "HandleScript", "d0/d1d/a25292.html#a8933535f9507b90b54032c17985cc3c6", null ],
-    [ "PrepareSpellScript", "d0/d1d/a25292.html#acadb563eaeffac47b3f883f9d8c37994", null ],
-    [ "Register", "d0/d1d/a25292.html#a797ae84dcb0fc13b0799934bde71809c", null ],
-    [ "Validate", "d0/d1d/a25292.html#afba2983f5be230dd3b77b3b49fee8a38", null ]
+    [ "PrepareAuraScript", "d0/d1d/a25292.html#a1a06aa5d8254f0d33ecb38df72d97d20", null ],
+    [ "Register", "d0/d1d/a25292.html#abb54f08b1932e3638537656360d3aad8", null ],
+    [ "AuraEffectHandleModes", "d0/d1d/a25292.html#a9f02f6b1287d320fee15fec18b61cfe7", null ]
 ];

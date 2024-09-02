@@ -1,17 +1,13 @@
 var a00062 =
 [
-    [ "apply", "df/d03/a00062.html#a6177d7ac84a4ea6819c57a124345540e", null ],
-    [ "convert", "df/d03/a00062.html#a5628479f846d755da3ff53b0e2a66c26", null ],
-    [ "convert< 0 >", "df/d03/a00062.html#aa8017307aa0aa935f062b4f701563d09", null ],
-    [ "convert< 1 >", "df/d03/a00062.html#a3717e304a2b8b074fcd513ca8e0db116", null ],
-    [ "EndianConvert", "df/d03/a00062.html#a49a7404e8b8e7030c609822047db18e8", null ],
-    [ "EndianConvert", "df/d03/a00062.html#a9d20b1e463a04f0a22d79ca802902be6", null ],
-    [ "EndianConvert", "df/d03/a00062.html#af2e19073fdc053bb0299b663fa1ee757", null ],
-    [ "EndianConvert", "df/d03/a00062.html#a7a138a6c8a71f6e9bd8eb436a598f628", null ],
-    [ "EndianConvertPtr", "df/d03/a00062.html#a73b1f88261dfd018f7f185b0ea941c88", null ],
-    [ "EndianConvertPtrReverse", "df/d03/a00062.html#a8b9f1be37ef60cffbb862512d9374dd4", null ],
-    [ "EndianConvertReverse", "df/d03/a00062.html#acdb2b3cf0ea55e72e1d4047380cbd260", null ],
-    [ "EndianConvertReverse", "df/d03/a00062.html#a71946d011105dec5ad60c6875066ed86", null ],
-    [ "EndianConvertReverse", "df/d03/a00062.html#a1fa1c447bec92bbf436d429b422cc2e7", null ],
-    [ "EndianConvertReverse", "df/d03/a00062.html#a2adbd00f9fd7adfc4bd3d26ae1565a0b", null ]
+    [ "u_map_magic", "d5/df9/a09448.html", "d5/df9/a09448" ],
+    [ "ResetNotifier", "d9/d96/a09452.html", "d9/d96/a09452" ],
+    [ "IsInWMOInterior", "df/d03/a00062.html#ad41458075af3abab316f89b325f54b7e", null ],
+    [ "holetab_h", "df/d03/a00062.html#a10e90ca95e60d3244de3e68d7882433b", null ],
+    [ "holetab_v", "df/d03/a00062.html#a54b408dce116992610ba9c141426d821", null ],
+    [ "MapAreaMagic", "df/d03/a00062.html#aeb7bc0ea8073198e3cb70d0ee7f2aa44", null ],
+    [ "MapHeightMagic", "df/d03/a00062.html#ae53a23e88747c5795afb99cccd6b4c6a", null ],
+    [ "MapLiquidMagic", "df/d03/a00062.html#aaf4bf520080f57455b531f7c9bcea49f", null ],
+    [ "MapMagic", "df/d03/a00062.html#aae87d2a805abae1536d560092ab589f8", null ],
+    [ "MapVersionMagic", "df/d03/a00062.html#a3f87af2b784af0df560d9dce7651c859", null ]
 ];

@@ -1,6 +1,5 @@
 var a26984 =
 [
-    [ "CheckProc", "d2/d3e/a26984.html#afa477049b9a4fa18594b203a6066d205", null ],
-    [ "PrepareAuraScript", "d2/d3e/a26984.html#a9fff895957dfedb5d975e4a8e9588aa9", null ],
-    [ "Register", "d2/d3e/a26984.html#ab0746e7fa614f09708f89ed3ef93fca9", null ]
+    [ "AreaTrigger_at_last_rites", "d2/d3e/a26984.html#a30d1930c76920ab12cf4f9b04fd5f0e4", null ],
+    [ "OnTrigger", "d2/d3e/a26984.html#a48f6e2041cda24812a165fa0fb62f1b6", null ]
 ];

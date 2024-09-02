@@ -1,7 +1,6 @@
 var a27564 =
 [
-    [ "CalculateDamageAmount", "d8/d9a/a27564.html#a2f608e8391e61434ef1b164c023854fe", null ],
-    [ "CalculateManaLeechAmount", "d8/d9a/a27564.html#a8a4946d1718d8045a72c92355ff38ecb", null ],
-    [ "PrepareAuraScript", "d8/d9a/a27564.html#a63d24d3ca4b2de1aa7f67376ded7bc59", null ],
-    [ "Register", "d8/d9a/a27564.html#aa6e74e89930fd3cc564c3cba86e3687e", null ]
+    [ "npc_venomhide_hatchlingAI", "d8/d9a/a27564.html#aa5929973ae39166ef381a3ed3c42a29c", null ],
+    [ "IsSummonedBy", "d8/d9a/a27564.html#a6e1b76f43217f1eb855b50d58a069518", null ],
+    [ "SpellHit", "d8/d9a/a27564.html#ac6c255438dc2f6c750ee47b61fbc20a3", null ]
 ];

@@ -1,8 +1,7 @@
 var a15524 =
 [
-    [ "FilterTargets", "d0/de7/a15524.html#a976a41800f3726db5bb9aa71be006ec1", null ],
-    [ "HandleScript", "d0/de7/a15524.html#a878422cc71299a6f7a844a6d4992fde2", null ],
-    [ "PrepareSpellScript", "d0/de7/a15524.html#a14c21ded1418294856dce32e67b6e589", null ],
-    [ "Register", "d0/de7/a15524.html#a69ed173c3ae9cca71cc119cf707c0cbb", null ],
-    [ "Validate", "d0/de7/a15524.html#a72205f5187e69cdd65b6786d6360310a", null ]
+    [ "npc_ringoAI", "df/d70/a15528.html", "df/d70/a15528" ],
+    [ "npc_ringo", "d0/de7/a15524.html#aabccd10a446986487bbb09fc2d33cfd9", null ],
+    [ "GetAI", "d0/de7/a15524.html#aee6c9988f0c038c74b0deb3d44617ef1", null ],
+    [ "OnQuestAccept", "d0/de7/a15524.html#abdf4e5e1b26c1b1a288047e24188ad10", null ]
 ];

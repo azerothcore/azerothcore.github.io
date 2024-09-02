@@ -1,7 +1,7 @@
 var a26300 =
 [
-    [ "npc_salsalabimAI", "dc/dab/a26304.html", "dc/dab/a26304" ],
-    [ "npc_salsalabim", "d9/d7a/a26300.html#abb534697df2b11d06097e5b11479199e", null ],
-    [ "GetAI", "d9/d7a/a26300.html#ac28cb49dc7ad76ce769c361622089e8b", null ],
-    [ "OnGossipHello", "d9/d7a/a26300.html#a9676c3a5567c7ceedd6c3af3c828836c", null ]
+    [ "HandleDummy", "d9/d7a/a26300.html#ad2367c1fd551187b6f19f795abb15ea6", null ],
+    [ "PrepareSpellScript", "d9/d7a/a26300.html#a125f7550ce826f74ac14902bc82d5021", null ],
+    [ "Register", "d9/d7a/a26300.html#a35e9132e2414383caafbde699de6061d", null ],
+    [ "Validate", "d9/d7a/a26300.html#a530489a10287a6dd281d518683b1a3f3", null ]
 ];

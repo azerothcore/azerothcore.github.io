@@ -1,6 +1,8 @@
 var a26500 =
 [
-    [ "HandleDamageCalc", "d6/d26/a26500.html#a9e0f6fe8bb10950c2130fb7d1f07017a", null ],
-    [ "PrepareSpellScript", "d6/d26/a26500.html#a183477b6269dbc705a10e60ab36c13b1", null ],
-    [ "Register", "d6/d26/a26500.html#ae93d958a3a439e3401685b0d2a570f0e", null ]
+    [ "HandleDummy", "d6/d26/a26500.html#ab653cf0414411c17ccc674395b08af7a", null ],
+    [ "Load", "d6/d26/a26500.html#a6eb80b68a00c91d92a2963adb753ed23", null ],
+    [ "PrepareSpellScript", "d6/d26/a26500.html#ae6c5ba4ed1918125594b31368c3bcf2f", null ],
+    [ "Register", "d6/d26/a26500.html#a92eb201b3ae3ab167cc338174a355b00", null ],
+    [ "Validate", "d6/d26/a26500.html#a3635089640297e059a183322c7e8f7b9", null ]
 ];

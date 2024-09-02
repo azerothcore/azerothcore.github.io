@@ -1,6 +1,7 @@
 var a23272 =
 [
-    [ "HandleSendEvent", "d2/de9/a23272.html#a44b2d9ad8915535c43c73813573411ef", null ],
-    [ "PrepareSpellScript", "d2/de9/a23272.html#af1e471d481f743bd843a809c7f60b495", null ],
-    [ "Register", "d2/de9/a23272.html#a77a85a01e4edca361fba2d66270f7f8e", null ]
+    [ "HandleScriptEffect", "d2/de9/a23272.html#ace1bb0dd5a76aa75038060af16b2e09f", null ],
+    [ "PrepareSpellScript", "d2/de9/a23272.html#ab3f6d24643b75482d5f96779a5bdda11", null ],
+    [ "Register", "d2/de9/a23272.html#a14772c25b70078c0034b8de17de5b77a", null ],
+    [ "Validate", "d2/de9/a23272.html#a8318385367bf6c6b09e0978c461f5d59", null ]
 ];

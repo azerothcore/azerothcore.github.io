@@ -1,6 +1,6 @@
 var a25500 =
 [
-    [ "HandleScriptEffect", "db/d26/a25500.html#a55e7e43ca445047fdcd80108a3a62446", null ],
-    [ "PrepareSpellScript", "db/d26/a25500.html#a9c10510512b61c2ead64bce6b2f1cf1f", null ],
-    [ "Register", "db/d26/a25500.html#a5b6330512b037856f0066b5a128c71a8", null ]
+    [ "OnRemove", "db/d26/a25500.html#adcdc87bcfb9aee5eaa227ba66ad5f010", null ],
+    [ "PrepareAuraScript", "db/d26/a25500.html#a9b3985c6f2b1b88ab86ec38c8508fc16", null ],
+    [ "Register", "db/d26/a25500.html#a0bc1dae33d0a780623f4551b1dfb1fbf", null ]
 ];

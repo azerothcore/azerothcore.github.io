@@ -1,36 +1,74 @@
 var a02372 =
 [
-    [ "DataHeaders", "da/d75/a02372.html#a5b5ca0ae07e92e9cad54568049f06fce", null ],
-    [ "RegisterSethekkHallsCreatureAI", "da/d75/a02372.html#a4d0e02e340e57e5ff9f0184f82b086d5", null ],
-    [ "SethekkHallsScriptName", "da/d75/a02372.html#a96ebd14b5dafc2480cbdb13e0bc4b7ab", null ],
-    [ "eIds", "da/d75/a02372.html#a69c4601e4dd1496f746404c6abe87291", [
-      [ "NPC_VOICE_OF_THE_RAVEN_GOD", "da/d75/a02372.html#a69c4601e4dd1496f746404c6abe87291aad4ab883c15374d38bc38b0f71f0c86a", null ],
-      [ "NPC_ANZU", "da/d75/a02372.html#a69c4601e4dd1496f746404c6abe87291af130c29d37cee0370ac78ac4be4e415f", null ],
-      [ "GO_IKISS_DOOR", "da/d75/a02372.html#a69c4601e4dd1496f746404c6abe87291a7975fc4f8b3558e660375d98a9d0e54e", null ],
-      [ "GO_THE_TALON_KINGS_COFFER", "da/d75/a02372.html#a69c4601e4dd1496f746404c6abe87291a7957c3a97be229f195e4375af7b06e2c", null ]
+    [ "spell_q10930_big_bone_worm", "d8/d4b/a24220.html", "d8/d4b/a24220" ],
+    [ "spell_q10930_big_bone_worm_aura", "d8/d86/a24224.html", "d8/d86/a24224" ],
+    [ "spell_q10929_fumping", "d7/d18/a24228.html", "d7/d18/a24228" ],
+    [ "spell_q10929_fumping_aura", "d2/ddd/a24232.html", "d2/ddd/a24232" ],
+    [ "spell_q10036_torgos", "d3/d3e/a24236.html", "d3/d3e/a24236" ],
+    [ "spell_q10923_evil_draws_near_summon", "d9/dce/a24240.html", "d9/dce/a24240" ],
+    [ "spell_q10923_evil_draws_near_periodic_aura", "d2/d0b/a24244.html", "d2/d0b/a24244" ],
+    [ "spell_q10923_evil_draws_near_visual", "df/d74/a24248.html", "df/d74/a24248" ],
+    [ "spell_q10898_skywing", "d0/d62/a24252.html", "d0/d62/a24252" ],
+    [ "npc_unkor_the_ruthless", "d6/d19/a24256.html", "d6/d19/a24256" ],
+    [ "npc_unkor_the_ruthless::npc_unkor_the_ruthlessAI", "d2/df8/a24260.html", "d2/df8/a24260" ],
+    [ "npc_isla_starmane", "d2/d2e/a24264.html", "d2/d2e/a24264" ],
+    [ "npc_isla_starmane::npc_isla_starmaneAI", "dd/dee/a24268.html", "dd/dee/a24268" ],
+    [ "go_skull_pile", "d7/d7b/a24272.html", "d7/d7b/a24272" ],
+    [ "npc_slim", "d7/df1/a24276.html", "d7/df1/a24276" ],
+    [ "eQ10923EvilDrawsNear", "da/d75/a02372.html#aac8f425764fbd137acd527c44a8217e5", [
+      [ "SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL1", "da/d75/a02372.html#aac8f425764fbd137acd527c44a8217e5a148039a82148e121ffa2e47d4037c198", null ],
+      [ "SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL2", "da/d75/a02372.html#aac8f425764fbd137acd527c44a8217e5a9f54f32a1b40bdd5f44006b6f874054b", null ],
+      [ "SPELL_DUSTIN_UNDEAD_DRAGON_VISUAL_AURA", "da/d75/a02372.html#aac8f425764fbd137acd527c44a8217e5a432569d14dc34cb8000687d2dedb8394", null ],
+      [ "NPC_AUCHENAI_DEATH_SPIRIT", "da/d75/a02372.html#aac8f425764fbd137acd527c44a8217e5aa58ecb32d07f194ffe4e46f4245770c4", null ]
     ] ],
-    [ "Encounters", "da/d75/a02372.html#abf7d0c9385f088b09a017ee50e9db6ee", [
-      [ "DATA_DARKWEAVER_SYTH", "da/d75/a02372.html#abf7d0c9385f088b09a017ee50e9db6eea6dbed6ec6697669d80047612efd58da9", null ],
-      [ "DATA_ANZU", "da/d75/a02372.html#abf7d0c9385f088b09a017ee50e9db6eeac072367637c0d4080d6d25a349b54a54", null ],
-      [ "DATA_IKISS", "da/d75/a02372.html#abf7d0c9385f088b09a017ee50e9db6eea354bfb39a3150d5f75a42abc68cbcc83", null ]
+    [ "fumping", "da/d75/a02372.html#ab162634ca3ea951211b5f98c1f38600e", [
+      [ "SPELL_SUMMON_SAND_GNOME1", "da/d75/a02372.html#ab162634ca3ea951211b5f98c1f38600ea58105c110347cf397ccfc57071de9e6d", null ],
+      [ "SPELL_SUMMON_SAND_GNOME3", "da/d75/a02372.html#ab162634ca3ea951211b5f98c1f38600eaf41287c8042d2072d6bd76e64418be4d", null ],
+      [ "SPELL_SUMMON_MATURE_BONE_SIFTER1", "da/d75/a02372.html#ab162634ca3ea951211b5f98c1f38600eabff566ebb7d0c47191ca8cdf21d0feba", null ],
+      [ "SPELL_SUMMON_MATURE_BONE_SIFTER3", "da/d75/a02372.html#ab162634ca3ea951211b5f98c1f38600eab503a39610eed1540f9d059d02ea0a9b", null ],
+      [ "SPELL_SUMMON_HAISHULUD", "da/d75/a02372.html#ab162634ca3ea951211b5f98c1f38600ea5b638aaec8858d63e038561f1bdd34cc", null ]
     ] ],
-    [ "eTypes", "da/d75/a02372.html#a31365a35c315c6cb485bcd31f5ba77fd", [
-      [ "DATA_MAGUS_TELESTRA_EVENT", "dc/d10/a01412.html#a31365a35c315c6cb485bcd31f5ba77fda097adced7c95a2c9718c2c785bee7f83", null ],
-      [ "DATA_ANOMALUS_EVENT", "dc/d10/a01412.html#a31365a35c315c6cb485bcd31f5ba77fdaaf86ee46d11b318ef5caffe5d123342a", null ],
-      [ "DATA_ORMOROK_EVENT", "dc/d10/a01412.html#a31365a35c315c6cb485bcd31f5ba77fda521150b4f00d388d28870138ef89029a", null ],
-      [ "DATA_KERISTRASZA_EVENT", "dc/d10/a01412.html#a31365a35c315c6cb485bcd31f5ba77fdacc731df49caf259ade6ae981d7b6fffa", null ],
-      [ "DATA_COMMANDER_EVENT", "dc/d10/a01412.html#a31365a35c315c6cb485bcd31f5ba77fdaeec4cc47ddf1f8b45982ab9b09609204", null ],
-      [ "DATA_TELESTRA_ORB", "dc/d10/a01412.html#a31365a35c315c6cb485bcd31f5ba77fda6070c92aa13cfc41ea707f2e4f317c49", null ],
-      [ "DATA_ANOMALUS_ORB", "dc/d10/a01412.html#a31365a35c315c6cb485bcd31f5ba77fda7ca67e2df8f6c5ba3b64a58ffe838f79", null ],
-      [ "DATA_ORMOROK_ORB", "dc/d10/a01412.html#a31365a35c315c6cb485bcd31f5ba77fda04925ab93b3def016402fa3d6c763cb8", null ],
-      [ "MAX_ENCOUNTERS", "dc/d10/a01412.html#a31365a35c315c6cb485bcd31f5ba77fda9cfa5bdc17e1d5a590d300b530b36a25", null ],
-      [ "DATA_IKISSDOOREVENT", "da/d75/a02372.html#a31365a35c315c6cb485bcd31f5ba77fda4254e5b20964fa4c45d7bed553c3cb95", null ],
-      [ "TYPE_ANZU_ENCOUNTER", "da/d75/a02372.html#a31365a35c315c6cb485bcd31f5ba77fda7184f794bd903d92cba3eb6fa7297784", null ]
+    [ "IslaStarmaneData", "da/d75/a02372.html#ae0ce6b8c904e723fea8344c9e2a6c468", [
+      [ "SAY_PROGRESS_1", "da/d75/a02372.html#ae0ce6b8c904e723fea8344c9e2a6c468ac7ef023ed2cd6e71dcfa4b57f34ffb21", null ],
+      [ "SAY_PROGRESS_2", "da/d75/a02372.html#ae0ce6b8c904e723fea8344c9e2a6c468a967473f354dae95832b5e82733f4cced", null ],
+      [ "SAY_PROGRESS_3", "da/d75/a02372.html#ae0ce6b8c904e723fea8344c9e2a6c468a25cbd1006b2e610756fbd3227fb87dcc", null ],
+      [ "SAY_PROGRESS_4", "da/d75/a02372.html#ae0ce6b8c904e723fea8344c9e2a6c468a6b3669f06730a37dadd060c3dc0b999f", null ],
+      [ "QUEST_EFTW_H", "da/d75/a02372.html#ae0ce6b8c904e723fea8344c9e2a6c468a0e41f71f431fea698370ec15a6a78f71", null ],
+      [ "QUEST_EFTW_A", "da/d75/a02372.html#ae0ce6b8c904e723fea8344c9e2a6c468a8b79958f3e4c99d2e5db1bbb46672d43", null ],
+      [ "GO_CAGE", "da/d75/a02372.html#ae0ce6b8c904e723fea8344c9e2a6c468ab8d35951eed2c9e47bed2aa4da3fab8b", null ],
+      [ "SPELL_CAT", "da/d75/a02372.html#ae0ce6b8c904e723fea8344c9e2a6c468a60c2ade102a5c8cff3056e1998a8feb9", null ],
+      [ "EVENT_SPELL_WRATH", "da/d75/a02372.html#ae0ce6b8c904e723fea8344c9e2a6c468ab55c0e246afb46a9c3feb1a24b9735db", null ],
+      [ "EVENT_SPELL_MOONFIRE", "da/d75/a02372.html#ae0ce6b8c904e723fea8344c9e2a6c468a89249acef2d72d2d2cefbd270ca8d5e6", null ],
+      [ "EVENT_SPELL_ENTANGLING_ROOTS", "da/d75/a02372.html#ae0ce6b8c904e723fea8344c9e2a6c468abcfceb9776fee2423d4c06cb12c6a157", null ],
+      [ "SPELL_WRATH", "da/d75/a02372.html#ae0ce6b8c904e723fea8344c9e2a6c468abe500eadf9d63f2f5340e4b8a94a118f", null ],
+      [ "SPELL_MOONFIRE", "da/d75/a02372.html#ae0ce6b8c904e723fea8344c9e2a6c468a0ca70102f1e7ebc514c9875b92e5490b", null ],
+      [ "SPELL_ENTANGLING_ROOTS", "da/d75/a02372.html#ae0ce6b8c904e723fea8344c9e2a6c468a366705ee88fada6cb8aa2dab3dcd3cee", null ]
     ] ],
-    [ "InstanceData", "da/d75/a02372.html#a453c4190aaa5e59675ce6366d48c4778", [
-      [ "DATA_GO_TALON_KING_COFFER", "da/d75/a02372.html#a453c4190aaa5e59675ce6366d48c4778a25477ff5678a4450f584b7e148c91101", null ],
-      [ "DATA_VOICE_OF_THE_RAVEN_GOD", "da/d75/a02372.html#a453c4190aaa5e59675ce6366d48c4778a5c361f6d59a9c9ae12ada6ec074857c9", null ]
+    [ "q10036Torgos", "da/d75/a02372.html#a2a367fc7cac7bf28a805617c33b2ccf9", [
+      [ "NPC_TORGOS", "da/d75/a02372.html#a2a367fc7cac7bf28a805617c33b2ccf9a5d78efaeb0f7b6c08cdd646bfbdaf2f7", null ]
     ] ],
-    [ "GetSethekkHallsAI", "da/d75/a02372.html#a9b5213e8c6cd59c731bb4eaad803766d", null ],
-    [ "EncounterCount", "da/d75/a02372.html#ae1fbcd81e7256d27efa0288994753839", null ]
+    [ "SkullPile", "da/d75/a02372.html#aad52625e74763db1be908eb68d6f1747", [
+      [ "QUEST_ADVERSARIAL_BLOOD", "da/d75/a02372.html#aad52625e74763db1be908eb68d6f1747a778fa3329cf61d166a6168c371359e29", null ],
+      [ "GOSSIP_MENU_SKULL_PILE", "da/d75/a02372.html#aad52625e74763db1be908eb68d6f1747a2e42b2a84bd5543395edd99e10836308", null ],
+      [ "GOSSIP_MENU_TEXT_SKULL_PILE", "da/d75/a02372.html#aad52625e74763db1be908eb68d6f1747a4421c9274f70eeecac8c2001d6d3c217", null ],
+      [ "GOSSIP_MENU_TEXT_SKULL_PILE_QUEST", "da/d75/a02372.html#aad52625e74763db1be908eb68d6f1747af25d41b2abf38359aaa4e9a6e7813985", null ],
+      [ "GOSSIP_OPTION_SUMMON_GEZZARAK_THE_HUNTRESS", "da/d75/a02372.html#aad52625e74763db1be908eb68d6f1747ab8d817f19c8a0ee26e791ad4a270d090", null ],
+      [ "GOSSIP_OPTION_SUMMON_DARKSCREECHER_AKKARAI", "da/d75/a02372.html#aad52625e74763db1be908eb68d6f1747a21b76a2a227226c67cc717f339694e90", null ],
+      [ "GOSSIP_OPTION_SUMMON_KARROG", "da/d75/a02372.html#aad52625e74763db1be908eb68d6f1747a8c1471c1cbdafc84aac25cc6ea9e703f", null ],
+      [ "GOSSIP_OPTION_SUMMON_VAKKIZ_THE_WINDRAGER", "da/d75/a02372.html#aad52625e74763db1be908eb68d6f1747ab01073d031c0a97242ef078283d2cbd6", null ],
+      [ "SPELL_SUMMON_GEZZARAK_THE_HUNTRESS", "da/d75/a02372.html#aad52625e74763db1be908eb68d6f1747abc3ff3d2bb8ed64fd58c4f5eb6cc4cb8", null ],
+      [ "SPELL_SUMMON_DARKSCREECHER_AKKARAI", "da/d75/a02372.html#aad52625e74763db1be908eb68d6f1747add0291da1877a5245c1d72118dda56cd", null ],
+      [ "SPELL_SUMMON_KARROG", "da/d75/a02372.html#aad52625e74763db1be908eb68d6f1747a941c2f8289835f0d4d722d36f99771d2", null ],
+      [ "SPELL_SUMMON_VAKKIZ_THE_WINDRAGER", "da/d75/a02372.html#aad52625e74763db1be908eb68d6f1747a5d006fae9f9d39fb5ffa345a83679bf0", null ]
+    ] ],
+    [ "Slim", "da/d75/a02372.html#a02ee5712d433b97576ee20c54707947b", [
+      [ "FACTION_CONSORTIUM", "da/d75/a02372.html#a02ee5712d433b97576ee20c54707947bad1b1eee7cc5ca5f4ddaa8929e49a0046", null ]
+    ] ],
+    [ "UnkorTheRuthless", "da/d75/a02372.html#a88cc97a269783b482b7b90a366327e02", [
+      [ "SAY_SUBMIT", "da/d75/a02372.html#a88cc97a269783b482b7b90a366327e02ac438d344c95f2fc9bceaf8955f07a62c", null ],
+      [ "FACTION_HOSTILE", "da/d75/a02372.html#a88cc97a269783b482b7b90a366327e02a9f091068e93fe04fde1b2d77d34d5fcf", null ],
+      [ "QUEST_DONTKILLTHEFATONE", "da/d75/a02372.html#a88cc97a269783b482b7b90a366327e02ac9b055761d26e7020af8fca0ad0914e8", null ],
+      [ "SPELL_PULVERIZE", "da/d75/a02372.html#a88cc97a269783b482b7b90a366327e02a69dd71f7b0eefec5bcdd15cddbb128d6", null ]
+    ] ],
+    [ "AddSC_terokkar_forest", "da/d75/a02372.html#a06eb16b2a9cfacc1641cf49759c7615e", null ]
 ];

@@ -1,6 +1,5 @@
 var a16584 =
 [
-    [ "HandleAfterHit", "d2/d79/a16584.html#a72252694da7e453387e9d79d12e7e2a4", null ],
-    [ "PrepareSpellScript", "d2/d79/a16584.html#aff18e189296f7379a8fde5ad6eab8ada", null ],
-    [ "Register", "d2/d79/a16584.html#aa6c511fa8eb6d1123be1243bac7f0606", null ]
+    [ "achievement_consumption_junction", "d2/d79/a16584.html#aab08732c13f41e0e8d27e9f482bd7351", null ],
+    [ "OnCheck", "d2/d79/a16584.html#a14dae1bf9d4d7c79f11de40b372f353e", null ]
 ];

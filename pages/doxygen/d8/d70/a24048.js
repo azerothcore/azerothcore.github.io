@@ -1,6 +1,8 @@
 var a24048 =
 [
-    [ "npc_released_offspring_harkoaAI", "dc/dfb/a24052.html", "dc/dfb/a24052" ],
-    [ "npc_released_offspring_harkoa", "d8/d70/a24048.html#a10f583320e3b617cf2b327cfb6fed6f5", null ],
-    [ "GetAI", "d8/d70/a24048.html#ae3d2a02c496be1b2606fce596625d12e", null ]
+    [ "npc_bessyAI", "d8/d70/a24048.html#ad1300a563888b34689bedf97c387707c", null ],
+    [ "JustDied", "d8/d70/a24048.html#af98e9235b2432b619e4cc01c0c1111ef", null ],
+    [ "JustSummoned", "d8/d70/a24048.html#a4197fb122299fd152e5da335bb832ae5", null ],
+    [ "Reset", "d8/d70/a24048.html#aed64386629e52c3b65abadde54a63cc4", null ],
+    [ "WaypointReached", "d8/d70/a24048.html#a4611a8f41f66a1a846fb42ba1d4062c8", null ]
 ];

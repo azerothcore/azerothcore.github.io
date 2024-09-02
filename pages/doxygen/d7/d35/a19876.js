@@ -1,6 +1,7 @@
 var a19876 =
 [
-    [ "npc_isle_of_conquest_turretAI", "de/dd1/a19880.html", "de/dd1/a19880" ],
-    [ "npc_isle_of_conquest_turret", "d7/d35/a19876.html#ac080845203adef25e6841133b7e2f4dc", null ],
-    [ "GetAI", "d7/d35/a19876.html#a0f532e12439e900b3cb77619f1ecd17d", null ]
+    [ "HandleScript", "d7/d35/a19876.html#a9580f04e1543262026818f0944bb96c3", null ],
+    [ "PrepareSpellScript", "d7/d35/a19876.html#a924ae640d448da777ce3ecb059c1c9b6", null ],
+    [ "Register", "d7/d35/a19876.html#ac05e58e9b5618b1f079bd1c4924a0f9f", null ],
+    [ "Validate", "d7/d35/a19876.html#a8fc8712a76939dea6831a9eb5b95f946", null ]
 ];

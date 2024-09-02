@@ -1,6 +1,5 @@
 var a25404 =
 [
-    [ "boss_the_makerAI", "d6/d4f/a25408.html", "d6/d4f/a25408" ],
-    [ "boss_the_maker", "d2/d79/a25404.html#a4b0fe7396a92f7fd0bec23a1d16c9381", null ],
-    [ "GetAI", "d2/d79/a25404.html#aa89803a57602bfa708edb58db77626aa", null ]
+    [ "PrepareSpellScript", "d2/d79/a25404.html#a9137654c01f41c735f477b85e4ec6d73", null ],
+    [ "Register", "d2/d79/a25404.html#af1002e90bc0801c0759393d2d4af8778", null ]
 ];

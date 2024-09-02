@@ -1,6 +1,6 @@
 var a24748 =
 [
-    [ "boss_gathios_the_shattererAI", "d9/dc7/a24752.html", "d9/dc7/a24752" ],
-    [ "boss_gathios_the_shatterer", "dd/d7a/a24748.html#a536e763140afebeb790cc48959e161d8", null ],
-    [ "GetAI", "dd/d7a/a24748.html#a5ef6550172a21c0389b77510fbc4520e", null ]
+    [ "HandleScript", "dd/d7a/a24748.html#a7bf5f9d28a916704bd1ece8acc64fe59", null ],
+    [ "PrepareSpellScript", "dd/d7a/a24748.html#ab9193654a0534dc82c4c93a3158f3f7a", null ],
+    [ "Register", "dd/d7a/a24748.html#a0f0360e8b2db795046c3b76e6db0a97e", null ]
 ];

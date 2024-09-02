@@ -1,6 +1,7 @@
 var a22824 =
 [
-    [ "spell_optic_linkAuraScript", "d8/d5c/a22828.html", "d8/d5c/a22828" ],
-    [ "spell_optic_link", "da/dc5/a22824.html#a07840298df5282ca6dbef56a63edbfc7", null ],
-    [ "GetAuraScript", "da/dc5/a22824.html#a05dc6977f347b1aedb439cc2b6e7618b", null ]
+    [ "SuckBackEvent", "da/dc5/a22824.html#a6525e2aefec2680fde20e27ebf962f4c", null ],
+    [ "Execute", "da/dc5/a22824.html#aae1664e6ef9d90ec8a0e12554b991bf0", null ],
+    [ "_action", "da/dc5/a22824.html#abc54669df2dba0238723a40ababe4c0a", null ],
+    [ "_owner", "da/dc5/a22824.html#a4d8bc09803f7786022c1836457ded488", null ]
 ];

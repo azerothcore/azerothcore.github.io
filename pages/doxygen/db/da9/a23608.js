@@ -1,8 +1,8 @@
 var a23608 =
 [
-    [ "spell_charge_shield_bomber_AuraScript", "d0/ddc/a23616.html", "d0/ddc/a23616" ],
-    [ "spell_charge_shield_bomber_SpellScript", "da/dd8/a23612.html", "da/dd8/a23612" ],
-    [ "spell_charge_shield_bomber", "db/da9/a23608.html#ae72e123ce9928564fbbbbf535c005a04", null ],
-    [ "GetAuraScript", "db/da9/a23608.html#a749e428d7d6497981d42e08341d64e42", null ],
-    [ "GetSpellScript", "db/da9/a23608.html#aefe19484ebdf3529540a5c5bd9f0aec1", null ]
+    [ "FilterTargets", "db/da9/a23608.html#ae366594b668331a19f384ceb48654c0c", null ],
+    [ "HandleOnHit", "db/da9/a23608.html#abe5665fde7f01fafdfb55c58d8edbcf1", null ],
+    [ "PrepareSpellScript", "db/da9/a23608.html#a71aa4018d293391a73d3317c1e80951d", null ],
+    [ "Register", "db/da9/a23608.html#a3da162fd2cafc2e1236db0c6d4f65440", null ],
+    [ "Validate", "db/da9/a23608.html#a3747ad271dc659436ae7a8203b964554", null ]
 ];

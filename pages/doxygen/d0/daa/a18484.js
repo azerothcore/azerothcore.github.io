@@ -1,6 +1,7 @@
 var a18484 =
 [
-    [ "FilterTargets", "d0/daa/a18484.html#a07eaa43c909f9d4afca2c90987b6be57", null ],
-    [ "PrepareSpellScript", "d0/daa/a18484.html#a60ab39b8f4bfe0903faf1a8fd1210b22", null ],
-    [ "Register", "d0/daa/a18484.html#ac55d048657610abb413698d73f42f423", null ]
+    [ "npc_captain_arnathAI", "d0/daa/a18484.html#a34e3d17b89010569bf7e9cb28361c2af", null ],
+    [ "FindFriendlyCreature", "d0/daa/a18484.html#ad6411d2a87d2552bea2051f80ca16e14", null ],
+    [ "Reset", "d0/daa/a18484.html#a016fbe51f31e1c5ec1636e8d20d8cb30", null ],
+    [ "UpdateAI", "d0/daa/a18484.html#a020efd7adc0d60152007906e3229988d", null ]
 ];

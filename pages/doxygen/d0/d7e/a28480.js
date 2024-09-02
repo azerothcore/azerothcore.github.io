@@ -1,6 +1,10 @@
 var a28480 =
 [
-    [ "ModDest", "d0/d7e/a28480.html#ab03387aec0a02a6b3bac1014443554b6", null ],
-    [ "PrepareSpellScript", "d0/d7e/a28480.html#a53f7da301759fb18686bc73281c4a321", null ],
-    [ "Register", "d0/d7e/a28480.html#a266198fbc6203517f9845ef6212ddf13", null ]
+    [ "Exception", "d0/d7e/a28480.html#a414c3d1a58dc27f84f70db7372c71394", null ],
+    [ "~Exception", "d0/d7e/a28480.html#a1af5fa940a44522664bf8032b0ec164a", null ],
+    [ "Exception", "d0/d7e/a28480.html#a414c3d1a58dc27f84f70db7372c71394", null ],
+    [ "~Exception", "d0/d7e/a28480.html#a1af5fa940a44522664bf8032b0ec164a", null ],
+    [ "getMessage", "d0/d7e/a28480.html#af9bfdfbfe28783d5ad6f7b08cb845c75", null ],
+    [ "getMessage", "d0/d7e/a28480.html#af9bfdfbfe28783d5ad6f7b08cb845c75", null ],
+    [ "message", "d0/d7e/a28480.html#aeb732542a0ba63cde3d9b3bff93f4eda", null ]
 ];

@@ -1,13 +1,10 @@
 var a24092 =
 [
-    [ "OPvPCapturePointEP_PWT", "d7/d5c/a24092.html#a17e3d11c9b282f203bb0e1511fb5af02", null ],
-    [ "ChangeState", "d7/d5c/a24092.html#a1e26a3ed8d700533df0a51d8db510a4f", null ],
-    [ "FillInitialWorldStates", "d7/d5c/a24092.html#a823b74c3f4e2dac7e02b060ccfb93c89", null ],
-    [ "HandlePlayerEnter", "d7/d5c/a24092.html#ab9bf289c0814e60fd75902b4e87d1e46", null ],
-    [ "HandlePlayerLeave", "d7/d5c/a24092.html#a5772e54263c613eee365856def5e74e6", null ],
-    [ "SendChangePhase", "d7/d5c/a24092.html#af1cffc64adac5b64c04175ad1685d0b8", null ],
-    [ "SummonFlightMaster", "d7/d5c/a24092.html#ab3808f8d756cc5f0b48db9375ae2fa1c", null ],
-    [ "UpdateTowerState", "d7/d5c/a24092.html#af30325b43d2861eb667b33dcb23ffc1e", null ],
-    [ "m_FlightMasterSpawnedId", "d7/d5c/a24092.html#afeefd804849b925e6d0a880d8efb5319", null ],
-    [ "m_TowerState", "d7/d5c/a24092.html#a914dcbb37baf457750cfe9829d95d88c", null ]
+    [ "npc_infernal_attackerAI", "d7/d5c/a24092.html#ae04c4e026f22bd650bb33940b923df9a", null ],
+    [ "IsSummonedBy", "d7/d5c/a24092.html#a926e6cd6772784872a905de7245007ac", null ],
+    [ "JustDied", "d7/d5c/a24092.html#a1822131520f98dd5f1dd637282f20ae3", null ],
+    [ "Reset", "d7/d5c/a24092.html#a6c871d05d4fd0a6f72f409285f012f9c", null ],
+    [ "SpellHit", "d7/d5c/a24092.html#a956f3fb1e341519817599df08afc2589", null ],
+    [ "UpdateAI", "d7/d5c/a24092.html#a458ba4c884a95080e1088a07a04a9cb9", null ],
+    [ "casterGUID", "d7/d5c/a24092.html#ab2e791cc0a67012bc56c3b07e3f327e9", null ]
 ];

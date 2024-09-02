@@ -1,6 +1,6 @@
 var a18984 =
 [
-    [ "HandleScript", "db/da3/a18984.html#a70bf8090bd24161c15350d4cba2df23b", null ],
-    [ "PrepareSpellScript", "db/da3/a18984.html#a9ab5f7df330970891aaf594cf748ef90", null ],
-    [ "Register", "db/da3/a18984.html#a5204f39b29773317d5acdcbd02fe2779", null ]
+    [ "boss_razuviousAI", "d0/ddd/a18988.html", "d0/ddd/a18988" ],
+    [ "boss_razuvious", "db/da3/a18984.html#ac1a2942f4a7957c671b075df7bf20215", null ],
+    [ "GetAI", "db/da3/a18984.html#a350a7cf0c3e21e29c3c28155d63dcb87", null ]
 ];

@@ -1,5 +1,8 @@
 var a14872 =
 [
-    [ "npc_black_morass_summoned_add", "d0/d97/a14872.html#ab1551fc3e746dc724ea433f7a3daa786", null ],
-    [ "EnterEvadeMode", "d0/d97/a14872.html#a437e7b72b985713d22883f3e33f30942", null ]
+    [ "npc_obsidian_destroyer", "d0/d97/a14872.html#abd8b1614a9da9fbe9c9898246b0822b8", null ],
+    [ "JustDied", "d0/d97/a14872.html#adc54ac02383f5e5bf6af980f5ba301e8", null ],
+    [ "JustEngagedWith", "d0/d97/a14872.html#aaf95dd2c92a5d1745311e4162aee8dbc", null ],
+    [ "Reset", "d0/d97/a14872.html#a08c6b9ec0e2f4207d48f95eedf2c26ab", null ],
+    [ "UpdateAI", "d0/d97/a14872.html#a79ba48d421a636f99ea65c0e34d084e1", null ]
 ];

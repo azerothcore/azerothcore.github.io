@@ -1,7 +1,7 @@
 var a26632 =
 [
-    [ "CheckProc", "db/da8/a26632.html#abd74252153fc4fc9a4e561005ea58b3f", null ],
-    [ "HandleProc", "db/da8/a26632.html#a911b81552e7193dbf1cfc11037b44d84", null ],
-    [ "PrepareAuraScript", "db/da8/a26632.html#ae169eb2c0e194f8f34ee2a0d5fd973d3", null ],
-    [ "Register", "db/da8/a26632.html#a72d89db31c1fbd5c3b49b4c05a2d90f4", null ]
+    [ "AfterRemove", "db/da8/a26632.html#ad0bad4a07d5a65a7834e7ab46e082b20", null ],
+    [ "PrepareAuraScript", "db/da8/a26632.html#af338af238305f1872275e1e5e9fdee16", null ],
+    [ "Register", "db/da8/a26632.html#aa266e794be35b51a399b13ee2d06199d", null ],
+    [ "Validate", "db/da8/a26632.html#af58098eb7a904e20846cf728f5adc18b", null ]
 ];

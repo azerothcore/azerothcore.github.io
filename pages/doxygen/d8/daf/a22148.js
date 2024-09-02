@@ -1,18 +1,15 @@
 var a22148 =
 [
-    [ "boss_yoggsaron_brainAI", "d8/daf/a22148.html#a556f89a88f4af04c09bec268661d4dae", null ],
-    [ "DamageTaken", "d8/daf/a22148.html#abc6d2996727b22b2fd178c348f2dc7db", null ],
-    [ "DoAction", "d8/daf/a22148.html#a902318367cf4d8fdb7abfc1d48d1a935", null ],
-    [ "GetData", "d8/daf/a22148.html#a0ea15cc63073ebf36d15967a87b542d5", null ],
-    [ "JustSummoned", "d8/daf/a22148.html#ae93711e3607a60105ee8005b27b93506", null ],
-    [ "PrepareChamberIllusion", "d8/daf/a22148.html#af9abd21e8fad7949362c0830c14a9d0c", null ],
-    [ "PrepareIceCrownIllusion", "d8/daf/a22148.html#ab361073608a293347fa82e829eb7c8cb", null ],
-    [ "PrepareStormwindIllusion", "d8/daf/a22148.html#a641ebeadcf257d1eddf61cef9bcdc913", null ],
-    [ "Reset", "d8/daf/a22148.html#a309cca56ff6b853b21c910c1b4c99681", null ],
-    [ "UpdateAI", "d8/daf/a22148.html#a6c8fe143ff212f32cf284b749f55857d", null ],
-    [ "_activeIllusion", "d8/daf/a22148.html#a47524945c021303a5dd791d38dc0543c", null ],
-    [ "_brainDamaged", "d8/daf/a22148.html#a4c784f57e0f29673583529e1e8fb157b", null ],
-    [ "_induceTimer", "d8/daf/a22148.html#ab532ef181da9fa4267c987e4aa173b69", null ],
-    [ "_tentacleCount", "d8/daf/a22148.html#adef4e382bc15a03c432f46880bb076d6", null ],
-    [ "summons", "d8/daf/a22148.html#a090dfe58a5629733a425591b3de48413", null ]
+    [ "npc_jungle_punch_targetAI", "d8/daf/a22148.html#a04f09361f6bc4bc752ca773878187f79", null ],
+    [ "MoveInLineOfSight", "d8/daf/a22148.html#adc08551a256220bab144ef26d89c4263", null ],
+    [ "proceedCwEvent", "d8/daf/a22148.html#a54f8a5c7414f4a9fd019e02fede1970d", null ],
+    [ "Reset", "d8/daf/a22148.html#a56faff3edbe0d13969e8d20e6c3e03a2", null ],
+    [ "SpellHit", "d8/daf/a22148.html#a3515e873adf5a097f66764887e3cc5a3", null ],
+    [ "UpdateAI", "d8/daf/a22148.html#afa2a1bcdeef51e9f984307f576a1ff6e", null ],
+    [ "orphanGUID", "d8/daf/a22148.html#a5947a4415b63f8bbda4d53c44ccebf74", null ],
+    [ "phase", "d8/daf/a22148.html#a737a9016c93d621bf8cfa29d6b66b345", null ],
+    [ "playerGUID", "d8/daf/a22148.html#afbb4e4c74c2634a442171f06bb2eff08", null ],
+    [ "sayStep", "d8/daf/a22148.html#a1b1757dd6e0775f1f4791b4feafd86fb", null ],
+    [ "sayTimer", "d8/daf/a22148.html#a4edf558dbc54ff1acab15d6daf0a5613", null ],
+    [ "timer", "d8/daf/a22148.html#a0fa884bf3003267501f048d3f1287d42", null ]
 ];

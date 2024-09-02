@@ -1,6 +1,8 @@
 var a17296 =
 [
-    [ "instance_halls_of_reflection_InstanceMapScript", "d9/d00/a17300.html", "d9/d00/a17300" ],
-    [ "instance_halls_of_reflection", "d6/d9b/a17296.html#a8872b51ceec25dbf4831f45b27206ed1", null ],
-    [ "GetInstanceScript", "d6/d9b/a17296.html#aca27a4f654f41fe6f238c905b48285b7", null ]
+    [ "npc_saurfang_eventAI", "d6/d9b/a17296.html#a8436a87576c92ecc0b45106683d20e93", null ],
+    [ "DoAction", "d6/d9b/a17296.html#a45201c4a5b94fad948efe1d08e63e262", null ],
+    [ "SetData", "d6/d9b/a17296.html#a7f012a54ebce5307940eb7957f028d52", null ],
+    [ "SpellHit", "d6/d9b/a17296.html#a2ed920f949c4d8dbc6d6ff5b9149e749", null ],
+    [ "_index", "d6/d9b/a17296.html#a793d72078bd68b34fcdb7cd6587295dd", null ]
 ];

@@ -1,12 +1,11 @@
 var a29436 =
 [
-    [ "npc_preciousAI", "da/dd9/a29436.html#ade66f3aa2ff9ac85c99a9d31591fcabf", null ],
-    [ "FlagForDespawn", "da/dd9/a29436.html#a934a5147c1cc9937189011fb061657da", null ],
-    [ "InitializeAI", "da/dd9/a29436.html#aa15843c4029f2df2ee04d21b5157602a", null ],
-    [ "JustEngagedWith", "da/dd9/a29436.html#a58bc4149111605850f070a77ee776313", null ],
-    [ "JustReachedHome", "da/dd9/a29436.html#a31893e9441b24398554370a58ef8bd78", null ],
-    [ "Reset", "da/dd9/a29436.html#aa1c39ce0110827d35ae2d5ea794e1744", null ],
-    [ "UpdateAI", "da/dd9/a29436.html#a2f3428807957bd60fdbe6f694bb6d3ef", null ],
-    [ "events", "da/dd9/a29436.html#a69a20e759b1bcb631cef0bf1e4dd8a1b", null ],
-    [ "flaggedForDespawn", "da/dd9/a29436.html#a48e891f8afce9408ed38c51a0e2d4005", null ]
+    [ "_ACORE_REALM_CONFIG", "da/dd9/a29436.html#a139668c786d564a415e0626b3344dc83", null ],
+    [ "BanExpiryHandler", "da/dd9/a29436.html#a70024e0f34c09197ed261e105707adfc", null ],
+    [ "GetConsoleArguments", "da/dd9/a29436.html#a6f250d3a28ed2192d175846c6ce5795b", null ],
+    [ "KeepDatabaseAliveHandler", "da/dd9/a29436.html#ad11704c1d5a88beeef98c06d34d028d6", null ],
+    [ "main", "da/dd9/a29436.html#a3c04138a5bfe5d72780bb7e82a18e627", null ],
+    [ "SignalHandler", "da/dd9/a29436.html#abb73d9c1332263ddf049505e1b12672d", null ],
+    [ "StartDB", "da/dd9/a29436.html#ga1551df43a48f1dbf64dbec1e47b07eea", null ],
+    [ "StopDB", "da/dd9/a29436.html#ga927af1587546ee7503a3b9a18f6439c0", null ]
 ];

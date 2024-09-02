@@ -1,7 +1,8 @@
 var a19508 =
 [
-    [ "npc_frost_freeze_trapAI", "d7/d48/a19508.html#a95c64fbbc97f55e4d0cd0b239939fdc6", null ],
-    [ "DoAction", "d7/d48/a19508.html#a8dbe0fc5c84f49363254562166c8c0a7", null ],
-    [ "UpdateAI", "d7/d48/a19508.html#ae8efccb090f38968f3c0ca51f022013b", null ],
-    [ "_events", "d7/d48/a19508.html#ae0abd3d7fcb51ac02f8d325efa93b2f2", null ]
+    [ "brann_bronzebeardAI", "d4/d2d/a19512.html", "d4/d2d/a19512" ],
+    [ "brann_bronzebeard", "d7/d48/a19508.html#a66fd8785647896a1a5f7be041242cfd6", null ],
+    [ "GetAI", "d7/d48/a19508.html#a66d4ae2f243f7869106c2372b3e7166c", null ],
+    [ "OnGossipHello", "d7/d48/a19508.html#a2714a2dde596db76706b8a86f97f82b8", null ],
+    [ "OnGossipSelect", "d7/d48/a19508.html#a0e0068a45012e50a9f645d393bdfe163", null ]
 ];

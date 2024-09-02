@@ -1,16 +1,13 @@
 var a14556 =
 [
-    [ "npc_lesser_doomguardAI", "dd/d40/a14556.html#ab02dd91d26a10c0a3fab658536a8752c", null ],
-    [ "JustDied", "dd/d40/a14556.html#a037edf3e5090f1d82ca681da2e90c700", null ],
-    [ "JustEngagedWith", "dd/d40/a14556.html#acad6fc2385fd041280fcd2931b821713", null ],
-    [ "KilledUnit", "dd/d40/a14556.html#a8c76a44ad062d35787b5419df181e958", null ],
-    [ "MoveInLineOfSight", "dd/d40/a14556.html#ae722d5e8eab68afe35d38aa5a21e493e", null ],
-    [ "Reset", "dd/d40/a14556.html#ad7f919df5656ecf4516d5882b35467a8", null ],
-    [ "UpdateAI", "dd/d40/a14556.html#acf8586d0e3110e0603345dc2fa67dd9e", null ],
-    [ "WaypointReached", "dd/d40/a14556.html#a36ad7d046b1ae23cfe7b3b630457c440", null ],
-    [ "AzgalorGUID", "dd/d40/a14556.html#af33ded498d1bb10901977e387fa3bad9", null ],
-    [ "CheckTimer", "dd/d40/a14556.html#af6876c9202a31c43e24add13cb06a493", null ],
-    [ "CrippleTimer", "dd/d40/a14556.html#ab5eab26cd4fa4687c6db4bca10d3fda2", null ],
-    [ "instance", "dd/d40/a14556.html#ac33395f133a341b3bf7b27ba8da2539e", null ],
-    [ "WarstompTimer", "dd/d40/a14556.html#aa0354ae3f83db2c0e768d8edb560fde4", null ]
+    [ "boss_salrammAI", "dd/d40/a14556.html#ae1055878b3919e29d44ee26efcbe044f", null ],
+    [ "ExplodeGhoul", "dd/d40/a14556.html#adc64d8b10b28b98254c528732fff0516", null ],
+    [ "JustDied", "dd/d40/a14556.html#a59bc42afcbb0ed2c2629bd0280836194", null ],
+    [ "JustEngagedWith", "dd/d40/a14556.html#a8d3287cc74cc9d756a879c4ac796f860", null ],
+    [ "JustSummoned", "dd/d40/a14556.html#afd70403a8644f310f37335c6c9bf5b55", null ],
+    [ "KilledUnit", "dd/d40/a14556.html#ad3f4161c0e18c911a931d65e25693cdd", null ],
+    [ "Reset", "dd/d40/a14556.html#a9ddecc950cac3fc392078df2810ec2a2", null ],
+    [ "UpdateAI", "dd/d40/a14556.html#aa2350dc05884593b1361f9f09b8d9392", null ],
+    [ "events", "dd/d40/a14556.html#a55c0bba93a90b5a3770c81b9c4d2fe5b", null ],
+    [ "summons", "dd/d40/a14556.html#a813c09e121730d4ae2e623ac3c37d570", null ]
 ];

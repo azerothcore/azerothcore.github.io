@@ -1,8 +1,15 @@
 var a14984 =
 [
-    [ "HandleScript", "dc/da3/a14984.html#ac58aef1b295e32c8a44852278edc18f8", null ],
-    [ "Load", "dc/da3/a14984.html#a2f7b9372dd36444c5161f3bc50424d99", null ],
-    [ "PrepareSpellScript", "dc/da3/a14984.html#adc1301a318f86b4e147a191f4c63e3bf", null ],
-    [ "Register", "dc/da3/a14984.html#a95f4abd67d6baf75980ff28a7518503d", null ],
-    [ "Validate", "dc/da3/a14984.html#a98271e7adb17b11e39241154a83b0d0d", null ]
+    [ "boss_skeram", "dc/da3/a14984.html#a293710a88c91a181ee1000939386e176", null ],
+    [ "DoTeleport", "dc/da3/a14984.html#a96166ddebd5906868b872c39a6755a70", null ],
+    [ "EnterEvadeMode", "dc/da3/a14984.html#ab050e31d661c8c089d175de231b0eeb2", null ],
+    [ "JustDied", "dc/da3/a14984.html#a6b30a6ca5167aae41ad70bd502265d2b", null ],
+    [ "JustEngagedWith", "dc/da3/a14984.html#a07bba9a1a62ad9ad15b9cd42b5d5b3d3", null ],
+    [ "JustSummoned", "dc/da3/a14984.html#a3e3d74bc646a96e20a88d3541f806c62", null ],
+    [ "KilledUnit", "dc/da3/a14984.html#a185cb6686d37e064278260ebe5fae13a", null ],
+    [ "Reset", "dc/da3/a14984.html#a08c9c2c577ef4b713594ca67f4c87a68", null ],
+    [ "UpdateAI", "dc/da3/a14984.html#aaf29331e0fac71479747d62fd9f1e301", null ],
+    [ "_copiesGUIDs", "dc/da3/a14984.html#a28f1465938dc2141779d5171ea09ecd0", null ],
+    [ "_flag", "dc/da3/a14984.html#a0abcf1e8721aa972be70774d5be7b53b", null ],
+    [ "_hpct", "dc/da3/a14984.html#a5c8760788264a9a04a28c05a0247676c", null ]
 ];

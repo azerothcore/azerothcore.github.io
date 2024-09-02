@@ -1,6 +1,6 @@
 var a20552 =
 [
-    [ "HandlePeriodic", "d8/d92/a20552.html#ab4e35ae632057471dde8f945a642bf41", null ],
-    [ "PrepareAuraScript", "d8/d92/a20552.html#a3dbf487f7f17fe7f67558da1fee533d6", null ],
-    [ "Register", "d8/d92/a20552.html#a758d8f38dd0ee563a65e1028b709cae7", null ]
+    [ "boss_thorim_ancient_rune_giantAI", "d7/db0/a20556.html", "d7/db0/a20556" ],
+    [ "boss_thorim_ancient_rune_giant", "d8/d92/a20552.html#ad87dca7c6058e4b8b1234410644523dd", null ],
+    [ "GetAI", "d8/d92/a20552.html#aa8a0ff1416d5678a5d6bb7bdc36d6617", null ]
 ];

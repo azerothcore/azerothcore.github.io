@@ -1,6 +1,12 @@
 var a24516 =
 [
-    [ "spell_mother_shahraz_fatal_attraction_dummy_SpellScript", "de/d6b/a24520.html", "de/d6b/a24520" ],
-    [ "spell_mother_shahraz_fatal_attraction_dummy", "d5/da1/a24516.html#aea20255a26174f18a1168cc49287a6f1", null ],
-    [ "GetSpellScript", "d5/da1/a24516.html#ac55aaae13c1f60ac5e87bb2187310459", null ]
+    [ "CheckTarget", "d5/da1/a24516.html#a731aa2c0a2b67b8a15cab72ea2cb961a", null ],
+    [ "CheckTargets", "d5/da1/a24516.html#a3b5bbef0c43a600387235822f3c6dbc7", null ],
+    [ "HandleCorpseExplosion", "d5/da1/a24516.html#a201de2ee86d0cf954117df0e5343ee69", null ],
+    [ "HandleDamage", "d5/da1/a24516.html#a810fc65eb5d7160366d63210bad9caea", null ],
+    [ "Load", "d5/da1/a24516.html#a00b45e2f466de39c95251c2a38f6c3bd", null ],
+    [ "PrepareSpellScript", "d5/da1/a24516.html#a4cae1673a840d8ec0d727b881a3616cf", null ],
+    [ "Register", "d5/da1/a24516.html#a9e67ea51300569a0e163cb3e427b086e", null ],
+    [ "Validate", "d5/da1/a24516.html#a93984e8b831cb4c37ec2726d44532d43", null ],
+    [ "_target", "d5/da1/a24516.html#a5028b9d3166270b2b0557943e962eade", null ]
 ];

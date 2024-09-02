@@ -1,6 +1,6 @@
 var a24396 =
 [
-    [ "PrepareAuraScript", "d1/df1/a24396.html#a072bb705008099f6e6f49260d6ab21e4", null ],
-    [ "Register", "d1/df1/a24396.html#a302e454c209cb545ae092f4d050a955d", null ],
-    [ "AuraEffectHandleModes", "d1/df1/a24396.html#ad45984e2c33247b9a65d6ae04c9da619", null ]
+    [ "npc_pet_pri_shadowfiend", "d1/df1/a24396.html#ac35e3bcf59dc2d65a313e315516ea09b", null ],
+    [ "JustDied", "d1/df1/a24396.html#a6d50edf62bf4547117f3f7b5b520f71b", null ],
+    [ "Reset", "d1/df1/a24396.html#aeff1bada59ee80ae0166a82207729bad", null ]
 ];

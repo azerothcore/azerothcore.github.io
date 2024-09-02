@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/tools/vmap4_extractor/wdtfile.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/tools/mmaps_generator/TerrainBuilder.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,47 +105,224 @@ $(document).ready(function(){initNavTree('d4/dd9/a04613.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">wdtfile.cpp File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">TerrainBuilder.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">wdtfile.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">adtfile.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">vmapexport.h</a>&quot;</code><br />
-<code>#include &lt;cstdio&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">TerrainBuilder.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapBuilder.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapDefines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapTree.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ModelInstance.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PathCommon.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">VMapMgr2.h</a>&quot;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:aec756087655d9d993d4475947742ba56"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a04613.html#aec756087655d9d993d4475947742ba56">wdtGetPlainName</a> (char *FileName)</td></tr>
-<tr class="separator:aec756087655d9d993d4475947742ba56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d2d/a09460.html">map_fileheader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbf/a09468.html">map_heightHeader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d21/a09472.html">map_liquidHeader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d1/d64/a04675"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d64/a04675.html">MMAP</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:aa5c2437972b2be5c5ff23a7ac04e2680"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a04613.html#aa5c2437972b2be5c5ff23a7ac04e2680">MAP_HEIGHT_NO_HEIGHT</a>&#160;&#160;&#160;0x0001</td></tr>
+<tr class="separator:aa5c2437972b2be5c5ff23a7ac04e2680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefa74fa33f3eba2d39b407c2fd2e8aba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a04613.html#aefa74fa33f3eba2d39b407c2fd2e8aba">MAP_HEIGHT_AS_INT16</a>&#160;&#160;&#160;0x0002</td></tr>
+<tr class="separator:aefa74fa33f3eba2d39b407c2fd2e8aba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15a9245a53c00f1a8a89dd2d798cea9d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a04613.html#a15a9245a53c00f1a8a89dd2d798cea9d">MAP_HEIGHT_AS_INT8</a>&#160;&#160;&#160;0x0004</td></tr>
+<tr class="separator:a15a9245a53c00f1a8a89dd2d798cea9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42b8b790a3d284e7116bcad1c391b8f9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a04613.html#a42b8b790a3d284e7116bcad1c391b8f9">MAP_LIQUID_NO_TYPE</a>&#160;&#160;&#160;0x0001</td></tr>
+<tr class="separator:a42b8b790a3d284e7116bcad1c391b8f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59daadc7c96729526e05982ec6600bb1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a04613.html#a59daadc7c96729526e05982ec6600bb1">MAP_LIQUID_NO_HEIGHT</a>&#160;&#160;&#160;0x0002</td></tr>
+<tr class="separator:a59daadc7c96729526e05982ec6600bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17d4c5ea32412f0fbe04a27f63d50e13"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a04613.html#a17d4c5ea32412f0fbe04a27f63d50e13">MAP_LIQUID_TYPE_NO_WATER</a>&#160;&#160;&#160;0x00</td></tr>
+<tr class="separator:a17d4c5ea32412f0fbe04a27f63d50e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ec110bd30ec47fcd087aaf5d572de28"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a04613.html#a5ec110bd30ec47fcd087aaf5d572de28">MAP_LIQUID_TYPE_WATER</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:a5ec110bd30ec47fcd087aaf5d572de28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d257e0effb928fba7534eeee5de602d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a04613.html#a6d257e0effb928fba7534eeee5de602d">MAP_LIQUID_TYPE_OCEAN</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:a6d257e0effb928fba7534eeee5de602d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14e2a0a2291347b0ef877bc9d70f7384"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a04613.html#a14e2a0a2291347b0ef877bc9d70f7384">MAP_LIQUID_TYPE_MAGMA</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="separator:a14e2a0a2291347b0ef877bc9d70f7384"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa56f76510545ed9c706b8fee3061b6cb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a04613.html#aa56f76510545ed9c706b8fee3061b6cb">MAP_LIQUID_TYPE_SLIME</a>&#160;&#160;&#160;0x08</td></tr>
+<tr class="separator:aa56f76510545ed9c706b8fee3061b6cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a661f965d11d7da56890b64484d871441"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd9/a04613.html#a661f965d11d7da56890b64484d871441">MAP_LIQUID_TYPE_DARK_WATER</a>&#160;&#160;&#160;0x10</td></tr>
+<tr class="separator:a661f965d11d7da56890b64484d871441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:aee23c8e21c084824373ce587f8fe1f04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dd3/a04427.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d64/a04675.html#aee23c8e21c084824373ce587f8fe1f04">MMAP::MAP_VERSION_MAGIC</a> = 9</td></tr>
+<tr class="separator:aee23c8e21c084824373ce587f8fe1f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeb39e913287295598939165f99abe3b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d1/dd3/a04427.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d64/a04675.html#abeb39e913287295598939165f99abe3b">MMAP::holetab_h</a> [4] = {0x1111, 0x2222, 0x4444, 0x8888}</td></tr>
+<tr class="separator:abeb39e913287295598939165f99abe3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c5ddef856ef804076860bb176c6d9e1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d1/dd3/a04427.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d64/a04675.html#a8c5ddef856ef804076860bb176c6d9e1">MMAP::holetab_v</a> [4] = {0x000F, 0x00F0, 0x0F00, 0xF000}</td></tr>
+<tr class="separator:a8c5ddef856ef804076860bb176c6d9e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="aec756087655d9d993d4475947742ba56" name="aec756087655d9d993d4475947742ba56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec756087655d9d993d4475947742ba56">&#9670;&#160;</a></span>wdtGetPlainName()</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="aefa74fa33f3eba2d39b407c2fd2e8aba" name="aefa74fa33f3eba2d39b407c2fd2e8aba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefa74fa33f3eba2d39b407c2fd2e8aba">&#9670;&#160;</a></span>MAP_HEIGHT_AS_INT16</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">char * wdtGetPlainName </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>FileName</em></td><td>)</td>
-          <td></td>
+          <td class="memname">#define MAP_HEIGHT_AS_INT16&#160;&#160;&#160;0x0002</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
-<div class="line"><span class="lineno">   26</span>    <span class="keywordtype">char</span>* szTemp;</div>
-<div class="line"><span class="lineno">   27</span> </div>
-<div class="line"><span class="lineno">   28</span>    <span class="keywordflow">if</span> ((szTemp = strrchr(FileName, <span class="charliteral">&#39;\\&#39;</span>)) != <span class="keyword">nullptr</span>)</div>
-<div class="line"><span class="lineno">   29</span>        FileName = szTemp + 1;</div>
-<div class="line"><span class="lineno">   30</span>    <span class="keywordflow">return</span> FileName;</div>
-<div class="line"><span class="lineno">   31</span>}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00038">WDTFile::init()</a>.</p>
+
+</div>
+</div>
+<a id="a15a9245a53c00f1a8a89dd2d798cea9d" name="a15a9245a53c00f1a8a89dd2d798cea9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15a9245a53c00f1a8a89dd2d798cea9d">&#9670;&#160;</a></span>MAP_HEIGHT_AS_INT8</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAP_HEIGHT_AS_INT8&#160;&#160;&#160;0x0004</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5c2437972b2be5c5ff23a7ac04e2680" name="aa5c2437972b2be5c5ff23a7ac04e2680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5c2437972b2be5c5ff23a7ac04e2680">&#9670;&#160;</a></span>MAP_HEIGHT_NO_HEIGHT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAP_HEIGHT_NO_HEIGHT&#160;&#160;&#160;0x0001</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a59daadc7c96729526e05982ec6600bb1" name="a59daadc7c96729526e05982ec6600bb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59daadc7c96729526e05982ec6600bb1">&#9670;&#160;</a></span>MAP_LIQUID_NO_HEIGHT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAP_LIQUID_NO_HEIGHT&#160;&#160;&#160;0x0002</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42b8b790a3d284e7116bcad1c391b8f9" name="a42b8b790a3d284e7116bcad1c391b8f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42b8b790a3d284e7116bcad1c391b8f9">&#9670;&#160;</a></span>MAP_LIQUID_NO_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAP_LIQUID_NO_TYPE&#160;&#160;&#160;0x0001</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a661f965d11d7da56890b64484d871441" name="a661f965d11d7da56890b64484d871441"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a661f965d11d7da56890b64484d871441">&#9670;&#160;</a></span>MAP_LIQUID_TYPE_DARK_WATER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAP_LIQUID_TYPE_DARK_WATER&#160;&#160;&#160;0x10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14e2a0a2291347b0ef877bc9d70f7384" name="a14e2a0a2291347b0ef877bc9d70f7384"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14e2a0a2291347b0ef877bc9d70f7384">&#9670;&#160;</a></span>MAP_LIQUID_TYPE_MAGMA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAP_LIQUID_TYPE_MAGMA&#160;&#160;&#160;0x04</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17d4c5ea32412f0fbe04a27f63d50e13" name="a17d4c5ea32412f0fbe04a27f63d50e13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17d4c5ea32412f0fbe04a27f63d50e13">&#9670;&#160;</a></span>MAP_LIQUID_TYPE_NO_WATER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAP_LIQUID_TYPE_NO_WATER&#160;&#160;&#160;0x00</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d257e0effb928fba7534eeee5de602d" name="a6d257e0effb928fba7534eeee5de602d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d257e0effb928fba7534eeee5de602d">&#9670;&#160;</a></span>MAP_LIQUID_TYPE_OCEAN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAP_LIQUID_TYPE_OCEAN&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa56f76510545ed9c706b8fee3061b6cb" name="aa56f76510545ed9c706b8fee3061b6cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa56f76510545ed9c706b8fee3061b6cb">&#9670;&#160;</a></span>MAP_LIQUID_TYPE_SLIME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAP_LIQUID_TYPE_SLIME&#160;&#160;&#160;0x08</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ec110bd30ec47fcd087aaf5d572de28" name="a5ec110bd30ec47fcd087aaf5d572de28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ec110bd30ec47fcd087aaf5d572de28">&#9670;&#160;</a></span>MAP_LIQUID_TYPE_WATER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAP_LIQUID_TYPE_WATER&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -154,8 +331,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_b604cd515113e1b9d14f26b265d784ac.html">vmap4_extractor</a></li><li class="navelem"><a class="el" href="../../d4/dd9/a04613.html">wdtfile.cpp</a></li>
-    <li class="footer">Generated on Tue Aug 27 2024 10:00:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_d5b937f8e04412da4f4df9b7d3f28ed0.html">mmaps_generator</a></li><li class="navelem"><a class="el" href="../../d4/dd9/a04613.html">TerrainBuilder.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 2 2024 20:39:46 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

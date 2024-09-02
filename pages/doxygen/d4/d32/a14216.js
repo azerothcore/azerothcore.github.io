@@ -1,11 +1,25 @@
 var a14216 =
 [
-    [ "npc_high_oracle_soo_roo", "d4/d32/a14216.html#a86f5f3c3869e9fa7afcfc9425dfdfdde", null ],
-    [ "MoveInLineOfSight", "d4/d32/a14216.html#ae3b4da2d6b888cf6325bb93b3fdbde7f", null ],
-    [ "Reset", "d4/d32/a14216.html#a89a60a83a46e0095045b2353e50483ed", null ],
-    [ "UpdateAI", "d4/d32/a14216.html#ac22cfa519e478da643a51ae887f306fd", null ],
-    [ "orphanGUID", "d4/d32/a14216.html#acd6636eb290a2fe4470b04d467ff7fa1", null ],
-    [ "phase", "d4/d32/a14216.html#abeec923d25d21773f9d8f8ba1deb0148", null ],
-    [ "playerGUID", "d4/d32/a14216.html#a329832491f86c6fcc9ccc4c98b19991e", null ],
-    [ "timer", "d4/d32/a14216.html#aa5238d3ee361374681947de874391a1f", null ]
+    [ "boss_headless_horseman", "d4/d32/a14216.html#a4f791099607d7861cfa193f9b5fc265b", null ],
+    [ "DamageTaken", "d4/d32/a14216.html#a76c6eddf1005774403498d0954571c19", null ],
+    [ "DoAction", "d4/d32/a14216.html#ad5d8645b879a2c97c68e815463a97b49", null ],
+    [ "GetRhymePlayer", "d4/d32/a14216.html#ad4bc4c5364d1c07c21f29747934efc01", null ],
+    [ "JustDied", "d4/d32/a14216.html#aea5a5ee1fce56cefd84ebde29bcc5a1d", null ],
+    [ "JustEngagedWith", "d4/d32/a14216.html#a149ae2b8c688c5b24d3db480b888e36e", null ],
+    [ "JustReachedHome", "d4/d32/a14216.html#a888d573450a2b09d22def41884ed2d30", null ],
+    [ "JustSummoned", "d4/d32/a14216.html#a06a654a822967c02dbab2c75f211e072", null ],
+    [ "KilledUnit", "d4/d32/a14216.html#ad98d9d303815f538e194a55578ae909a", null ],
+    [ "MoveInLineOfSight", "d4/d32/a14216.html#a57a5935e31ef5cc4df2657ddd358afdc", null ],
+    [ "MovementInform", "d4/d32/a14216.html#abccf1fc3c5475e50d45bbd596ff98ce9", null ],
+    [ "Reset", "d4/d32/a14216.html#ac52c6590f78c23149abfb062d5814ded", null ],
+    [ "SpellHit", "d4/d32/a14216.html#ace502054c0e570655be9ea1990b48f9f", null ],
+    [ "SpellHitTarget", "d4/d32/a14216.html#afa5e099de3899e41b3ee04f348c3d6a0", null ],
+    [ "UpdateAI", "d4/d32/a14216.html#aa6741999e5a9a826efb279e014ea4ab8", null ],
+    [ "events", "d4/d32/a14216.html#a2fe31482b5267bfc94d5d68062a46e0c", null ],
+    [ "health", "d4/d32/a14216.html#a076037b8bad3648551997915d97fb9b2", null ],
+    [ "inFight", "d4/d32/a14216.html#a8e33d87467086dc3eae778a579216256", null ],
+    [ "phase", "d4/d32/a14216.html#a9dde0cfcc41ec7d8b9f53e55057adab9", null ],
+    [ "playerGUID", "d4/d32/a14216.html#af0ee0c6da6398d6a84457aab942bb29c", null ],
+    [ "summons", "d4/d32/a14216.html#a5de04d5c0da7c199ec89de9ef40a59fd", null ],
+    [ "talkCount", "d4/d32/a14216.html#a091a925d7040e29efc54a4c5f123591d", null ]
 ];

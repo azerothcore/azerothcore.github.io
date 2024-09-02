@@ -1,6 +1,6 @@
 var a17908 =
 [
-    [ "spell_deathbringer_blood_link_blood_beast_aura_AuraScript", "dd/dbe/a17912.html", "dd/dbe/a17912" ],
-    [ "spell_deathbringer_blood_link_blood_beast_aura", "d3/df6/a17908.html#a374910553263186fd9d8dc0a3b20fbd5", null ],
-    [ "GetAuraScript", "d3/df6/a17908.html#a8c75450559b9115688ab1cf5c3842364", null ]
+    [ "CheckProc", "d3/df6/a17908.html#ad701d353f03eb5a1ccca28a6530555db", null ],
+    [ "PrepareAuraScript", "d3/df6/a17908.html#a51794aa0a42180d9a0f4e9f6d5febca4", null ],
+    [ "Register", "d3/df6/a17908.html#a4f787e29064c15f4dad9047ff618982a", null ]
 ];

@@ -1,6 +1,6 @@
 var a17596 =
 [
-    [ "HandlePeriodic", "d8/d42/a17596.html#a8b86f83b34a96a434094383ac02a8b98", null ],
-    [ "PrepareAuraScript", "d8/d42/a17596.html#a04cdb886fe47412e56dba995a481802c", null ],
-    [ "Register", "d8/d42/a17596.html#a31015d417968723ef1db3c7799ca9f1d", null ]
+    [ "npc_cult_adherentAI", "d0/d1d/a17600.html", "d0/d1d/a17600" ],
+    [ "npc_cult_adherent", "d8/d42/a17596.html#a74496518cf30674044a4a8a166e4c345", null ],
+    [ "GetAI", "d8/d42/a17596.html#a2bfe464c738c983b9539f9216cabd63a", null ]
 ];

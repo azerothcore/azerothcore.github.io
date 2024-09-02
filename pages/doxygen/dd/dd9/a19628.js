@@ -1,7 +1,9 @@
 var a19628 =
 [
-    [ "HandleQuestComplete", "dd/dd9/a19628.html#a285380743a283caa73bf4f3a5ee2f86a", null ],
-    [ "HandleScript", "dd/dd9/a19628.html#a7b15569bce865a09fb3953eb77b13d62", null ],
-    [ "PrepareSpellScript", "dd/dd9/a19628.html#a23bf8b265f574ebd9dd516d49dd396c5", null ],
-    [ "Register", "dd/dd9/a19628.html#ad335433ca2f7399c2325b47c6bc562e9", null ]
+    [ "CheckTargets", "dd/dd9/a19628.html#a9340c167ef70508635092e273c23dcde", null ],
+    [ "CountTargets", "dd/dd9/a19628.html#a996db37b678143fbc0a392032d29fff5", null ],
+    [ "Load", "dd/dd9/a19628.html#a716bcf5bb0a24f9a57534c9dafb1a56f", null ],
+    [ "PrepareSpellScript", "dd/dd9/a19628.html#a0b68ca6bdfe0f7c84236e5fe509d8fd9", null ],
+    [ "Register", "dd/dd9/a19628.html#aed312a4408134589fd02bbcb844fd1b7", null ],
+    [ "_targetCount", "dd/dd9/a19628.html#ac780614674e748274081f9f99a5165fe", null ]
 ];

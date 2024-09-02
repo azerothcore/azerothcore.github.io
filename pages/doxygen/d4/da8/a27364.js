@@ -1,6 +1,11 @@
 var a27364 =
 [
-    [ "HandleScriptEffect", "d4/da8/a27364.html#a78a131bdf6a1406604edd130c28d664b", null ],
-    [ "PrepareSpellScript", "d4/da8/a27364.html#a3b2d739227e57667a284ae4600ec1bb6", null ],
-    [ "Register", "d4/da8/a27364.html#a8a70913369aa733160366f37ff1c3470", null ]
+    [ "npc_artoriusAI", "d4/da8/a27364.html#a71056d1f537671a9f790ebbc1c2baf9c", null ],
+    [ "DamageTaken", "d4/da8/a27364.html#acaa6f32e1cfba98ec4dd06245a41d321", null ],
+    [ "DoAction", "d4/da8/a27364.html#abbfc9ee752d97f1694dbd739719843c2", null ],
+    [ "JustEngagedWith", "d4/da8/a27364.html#ab5760ad8dc87f7ccbea615ff2eb809c8", null ],
+    [ "Reset", "d4/da8/a27364.html#a862cc52a9251e2dfe486f1152dae9500", null ],
+    [ "SpellHit", "d4/da8/a27364.html#ac6ce7235c4399a5a8f2e771f5cd652ba", null ],
+    [ "UpdateAI", "d4/da8/a27364.html#afdd2821ce916b65ed33fe7ab75ef56a5", null ],
+    [ "events", "d4/da8/a27364.html#a6c8adf35504caf0cfea9a353833d4c4e", null ]
 ];

@@ -1,6 +1,6 @@
 var a14060 =
 [
-    [ "boss_wushoolayAI", "d0/d9c/a14064.html", "d0/d9c/a14064" ],
-    [ "boss_wushoolay", "d9/d6c/a14060.html#a68359ee086bb4e86c3c16c4a03e54893", null ],
-    [ "GetAI", "d9/d6c/a14060.html#a70b476358956fd05d6effb75517e2b3d", null ]
+    [ "npc_direbrew_antagonist", "d9/d6c/a14060.html#a30fed4e6888d98af576dea8e13c510d3", null ],
+    [ "DoAction", "d9/d6c/a14060.html#a924891e5d4e3f30d78186bedf76cf7d1", null ],
+    [ "JustEngagedWith", "d9/d6c/a14060.html#aaf54b03d66d726901c289ff28d362787", null ]
 ];

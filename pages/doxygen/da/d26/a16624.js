@@ -1,6 +1,7 @@
 var a16624 =
 [
-    [ "npc_toc_shadow_priestAI", "d6/d41/a16628.html", "d6/d41/a16628" ],
-    [ "npc_toc_shadow_priest", "da/d26/a16624.html#a05020cd5c5363933dcea7a5901d1ac21", null ],
-    [ "GetAI", "da/d26/a16624.html#a93b38d23759da3b7417dbb94b4a951da", null ]
+    [ "HandlePeriodicTick", "da/d26/a16624.html#a7fa0334a0a33b15758b6362aa0a9bd7d", null ],
+    [ "PrepareAuraScript", "da/d26/a16624.html#aabaef31a3c699c322e24e064f357f82f", null ],
+    [ "Register", "da/d26/a16624.html#ae9602bc623422c124dfc37a18c0dbfec", null ],
+    [ "Validate", "da/d26/a16624.html#a18d92a82760992bc5d8503e3f774f208", null ]
 ];

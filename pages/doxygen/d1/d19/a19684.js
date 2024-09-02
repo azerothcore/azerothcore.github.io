@@ -1,6 +1,7 @@
 var a19684 =
 [
-    [ "spell_icc_dark_reckoning_AuraScript", "d8/d6f/a19688.html", "d8/d6f/a19688" ],
-    [ "spell_icc_dark_reckoning", "d1/d19/a19684.html#a2c3d2d9cc55b94a2c8dc7c677dc8074b", null ],
-    [ "GetAuraScript", "d1/d19/a19684.html#afd73eb9e1a5bf7c3e5fd5bcc70bb9b39", null ]
+    [ "OnRemove", "d1/d19/a19684.html#a4d7ec990112b4ed602bcacf5a6de6722", null ],
+    [ "PrepareAuraScript", "d1/d19/a19684.html#a7cc9f0d6882b713c7b0a2585d6008437", null ],
+    [ "Register", "d1/d19/a19684.html#ad3a66fdfb2a159461bb3deeab6f71c13", null ],
+    [ "Validate", "d1/d19/a19684.html#a8bd121743d1153ae3fd8eb124e475d0f", null ]
 ];

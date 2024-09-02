@@ -1,5 +1,6 @@
 var a21548 =
 [
-    [ "achievement_staying_buffed_all_winter_10", "d2/d92/a21548.html#a40afd6db0bf6cff2b9b6163b7d4c31da", null ],
-    [ "OnCheck", "d2/d92/a21548.html#a67587b1659a8d026e73b42311148541a", null ]
+    [ "npc_bloodmage_laurithAI", "d5/d84/a21552.html", "d5/d84/a21552" ],
+    [ "npc_bloodmage_laurith", "d2/d92/a21548.html#a40ab80342ddc86afca3b1bd37b1ca6b5", null ],
+    [ "GetAI", "d2/d92/a21548.html#a5a5151a56de3ad1012d9a795dbfb5bd5", null ]
 ];

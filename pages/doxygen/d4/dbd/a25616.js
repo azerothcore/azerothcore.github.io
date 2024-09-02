@@ -1,6 +1,7 @@
 var a25616 =
 [
-    [ "boss_harbinger_skyrissAI", "db/d99/a25620.html", "db/d99/a25620" ],
-    [ "boss_harbinger_skyriss", "d4/dbd/a25616.html#a8843c3cd15cee06be6a3194b01f41b7a", null ],
-    [ "GetAI", "d4/dbd/a25616.html#a4951dcd0d387f6dea43a42aaaa426fb5", null ]
+    [ "HandleDummy", "d4/dbd/a25616.html#a3f9d43d11b344e3eb02fdc088506008e", null ],
+    [ "PrepareSpellScript", "d4/dbd/a25616.html#a1fb13b562c5d4f905739e193bc5292dd", null ],
+    [ "Register", "d4/dbd/a25616.html#a581e04721eb9564d1300ddd78c805368", null ],
+    [ "Validate", "d4/dbd/a25616.html#a18a648ebf1dbc9a11d09e457a33d0e33", null ]
 ];

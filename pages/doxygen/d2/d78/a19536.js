@@ -1,7 +1,8 @@
 var a19536 =
 [
-    [ "npc_captain_arnathAI", "d2/d78/a19536.html#a34e3d17b89010569bf7e9cb28361c2af", null ],
-    [ "FindFriendlyCreature", "d2/d78/a19536.html#ad6411d2a87d2552bea2051f80ca16e14", null ],
-    [ "Reset", "d2/d78/a19536.html#a016fbe51f31e1c5ec1636e8d20d8cb30", null ],
-    [ "UpdateAI", "d2/d78/a19536.html#a020efd7adc0d60152007906e3229988d", null ]
+    [ "iron_golem_custodianAI", "d2/d78/a19536.html#aeeeed1383f5d221eb7b5cd5d3a6ea4fb", null ],
+    [ "JustEngagedWith", "d2/d78/a19536.html#acd67b8d4df95eb8b0d0365184e47a29c", null ],
+    [ "Reset", "d2/d78/a19536.html#af3193696d665746eecd9c62128d8684d", null ],
+    [ "UpdateAI", "d2/d78/a19536.html#ab1d3910b07a6c5c53f5388a10dc48775", null ],
+    [ "events", "d2/d78/a19536.html#a9e0bcc9ae6918f9fa40cbf8085d4ec42", null ]
 ];

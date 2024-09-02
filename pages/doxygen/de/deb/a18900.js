@@ -1,6 +1,7 @@
 var a18900 =
 [
-    [ "PeriodicTick", "de/deb/a18900.html#a91e8bf1cfa52cf5ea7086610fcb88a21", null ],
-    [ "PrepareAuraScript", "de/deb/a18900.html#a2bb9eedead83ac91060f57af98c3d848", null ],
-    [ "Register", "de/deb/a18900.html#ae70bb017d2bbd96b075e5dd3bddf1567", null ]
+    [ "HandleRemove", "de/deb/a18900.html#a7c81c567ae10bf4fd4d3c1eb480b5761", null ],
+    [ "PrepareAuraScript", "de/deb/a18900.html#aaefd5b15f7a3725b2663c0717fe22c92", null ],
+    [ "Register", "de/deb/a18900.html#ad7ba015a7878adad0820cf378d2632ca", null ],
+    [ "Validate", "de/deb/a18900.html#a570bb63c6ed7af58b0b886e8a954dea9", null ]
 ];

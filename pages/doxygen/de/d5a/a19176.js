@@ -1,9 +1,6 @@
 var a19176 =
 [
-    [ "HandleScript", "de/d5a/a19176.html#a98c80cdadb3f0e7d3a1830d15af2f82b", null ],
-    [ "Load", "de/d5a/a19176.html#abee1ada02ae80855377dd6b35dd5e837", null ],
-    [ "PrepareSpellScript", "de/d5a/a19176.html#acfa391f722af6de365e462442c407b15", null ],
-    [ "Register", "de/d5a/a19176.html#a4f6a7c62428f2b927b62980cbcdb47ab", null ],
-    [ "SelectTarget", "de/d5a/a19176.html#a231a1c2eec7aee19b9c56281ffe8f799", null ],
-    [ "_target", "de/d5a/a19176.html#a86fab0af27b6fac77e35262c926e9770", null ]
+    [ "boss_keristraszaAI", "d7/d06/a19180.html", "d7/d06/a19180" ],
+    [ "boss_keristrasza", "de/d5a/a19176.html#a3d132df1687aae57345cd55ac80f9bf4", null ],
+    [ "GetAI", "de/d5a/a19176.html#aa94eb11d5ca7ff3063974d4ff81d4173", null ]
 ];

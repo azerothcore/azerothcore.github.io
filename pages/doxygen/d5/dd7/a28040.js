@@ -1,6 +1,4 @@
 var a28040 =
 [
-    [ "FilterTargets", "d5/dd7/a28040.html#aad5d183d0d7ea229cbfc11f751536624", null ],
-    [ "PrepareSpellScript", "d5/dd7/a28040.html#a68ba19142ae6eb04a2547495233700df", null ],
-    [ "Register", "d5/dd7/a28040.html#a22c313409438f94d29ab3e236a56c115", null ]
+    [ "ratio", "d5/dd7/a28040.html#ad5d1466406daa3696314ef2f6f18cd15", null ]
 ];

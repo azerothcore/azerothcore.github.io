@@ -1,6 +1,6 @@
 var a17076 =
 [
-    [ "spell_bronjahm_soulstorm_targeting_SpellScript", "d4/da0/a17080.html", "d4/da0/a17080" ],
-    [ "spell_bronjahm_soulstorm_targeting", "d5/d29/a17076.html#ab3fe64ee2014ae7bd7dc04762308f6ce", null ],
-    [ "GetSpellScript", "d5/d29/a17076.html#af963a89a43ce6a9b1e09b173ff34c363", null ]
+    [ "HandlePeriodic", "d5/d29/a17076.html#a27ad5fef0695f006c2f8795ac0fbce53", null ],
+    [ "PrepareAuraScript", "d5/d29/a17076.html#a29b00511d9a215fd0e00702e7a2dca0c", null ],
+    [ "Register", "d5/d29/a17076.html#a9753daf5cdc812e9027c1153b450686d", null ]
 ];

@@ -1,6 +1,6 @@
 var a23420 =
 [
-    [ "npc_tallhorn_stagAI", "d4/d84/a23424.html", "d4/d84/a23424" ],
-    [ "npc_tallhorn_stag", "da/d97/a23420.html#aff7f23376c27312894c9a042f6a0f848", null ],
-    [ "GetAI", "da/d97/a23420.html#a3d993542271c80982adcee9a9d60e46b", null ]
+    [ "CalculateDamage", "da/d97/a23420.html#a170fb61e3a7358d42cc6506067fb978a", null ],
+    [ "PrepareSpellScript", "da/d97/a23420.html#a197fce87e22a3e4055cabbb925b13aa1", null ],
+    [ "Register", "da/d97/a23420.html#aac3c6a6b34af795cb08fc299e763f6a8", null ]
 ];

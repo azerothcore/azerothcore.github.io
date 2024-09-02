@@ -1,9 +1,8 @@
 var a27452 =
 [
-    [ "CheckIfCorpseNear", "d1/dd4/a27452.html#a9b512f84f1d728e24845b6aaa28bdd6b", null ],
-    [ "HandleDummy", "d1/dd4/a27452.html#a913c0137d2a13c810bbae869cc6cf734", null ],
-    [ "Load", "d1/dd4/a27452.html#a3f36968d10bde12c7e2eda8db4145252", null ],
-    [ "PrepareSpellScript", "d1/dd4/a27452.html#acc7d6f489c34c3cc26f37bc94f8727e8", null ],
-    [ "Register", "d1/dd4/a27452.html#a736c4fe39e947ad98df19b3b001bdc29", null ],
-    [ "Validate", "d1/dd4/a27452.html#a51b075f95211025b2a7719a3ee70a6be", null ]
+    [ "npc_chicken_cluckAI", "d3/d43/a27456.html", "d3/d43/a27456" ],
+    [ "npc_chicken_cluck", "d1/dd4/a27452.html#a7bc08c81fca730886c47e0f3a3d8062c", null ],
+    [ "GetAI", "d1/dd4/a27452.html#abf986f555672823477c3c17e0f59bdbe", null ],
+    [ "OnQuestAccept", "d1/dd4/a27452.html#acca62c027b5b0cdff107e04cf2c276ea", null ],
+    [ "OnQuestComplete", "d1/dd4/a27452.html#a8f22520166a557e066502eb16bdae774", null ]
 ];

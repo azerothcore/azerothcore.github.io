@@ -1,6 +1,6 @@
 var a21604 =
 [
-    [ "spell_ignis_slag_pot_AuraScript", "d5/d7d/a21608.html", "d5/d7d/a21608" ],
-    [ "spell_ignis_slag_pot", "de/d8f/a21604.html#a25967a1dbd6efbe87517535673fc9831", null ],
-    [ "GetAuraScript", "de/d8f/a21604.html#a4d08de1acd7e6fcb50a8876b365d818d", null ]
+    [ "npc_mei_francis_mountAI", "d5/d7d/a21608.html", "d5/d7d/a21608" ],
+    [ "npc_mei_francis_mount", "de/d8f/a21604.html#ab34facb1d4d9a542710340493488eaa8", null ],
+    [ "GetAI", "de/d8f/a21604.html#ac1f14e0b94662432b399d6dfeb8a8107", null ]
 ];

@@ -1,6 +1,6 @@
 var a24900 =
 [
-    [ "spell_black_temple_consuming_strikes_AuraScript", "d2/da4/a24904.html", "d2/da4/a24904" ],
-    [ "spell_black_temple_consuming_strikes", "df/df1/a24900.html#a8b2b0a2a13236e072784f057d6aa1e20", null ],
-    [ "GetAuraScript", "df/df1/a24900.html#a144d9a4426a692f2ee9be302fd91c735", null ]
+    [ "OnPeriodic", "df/df1/a24900.html#a5fdf44f34765d0386d5c5490620c944a", null ],
+    [ "PrepareAuraScript", "df/df1/a24900.html#a3c3044795e183eef2c801781100b11c7", null ],
+    [ "Register", "df/df1/a24900.html#a1221c3287c3fd7add356e84430508684", null ]
 ];

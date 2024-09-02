@@ -1,6 +1,6 @@
 var a11840 =
 [
-    [ "boss_magmadarAI", "d6/d5e/a11844.html", "d6/d5e/a11844" ],
-    [ "boss_magmadar", "df/d7d/a11840.html#a26aeffebdf782013a2b5dc18a0937a9a", null ],
-    [ "GetAI", "df/d7d/a11840.html#a650d28d798042a2356dffaa357516504", null ]
+    [ "OnEffect", "df/d7d/a11840.html#a1b5999f392cec9fea4431c3f746ee034", null ],
+    [ "PrepareSpellScript", "df/d7d/a11840.html#a4748a82fcc7b3794850461092ee6b2e4", null ],
+    [ "Register", "df/d7d/a11840.html#acfa32dfc22778576d0dd3096c456ebe0", null ]
 ];

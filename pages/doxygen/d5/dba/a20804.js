@@ -1,6 +1,10 @@
 var a20804 =
 [
-    [ "npc_collapsing_starAI", "de/da0/a20808.html", "de/da0/a20808" ],
-    [ "npc_collapsing_star", "d5/dba/a20804.html#a8d57987c9b4622746d4f42a2b4845b9e", null ],
-    [ "GetAI", "d5/dba/a20804.html#a346af96d122e64c68defdeccb9183cd4", null ]
+    [ "boss_yoggsaron_voiceAI", "d5/dba/a20804.html#ac78b27f8d4df433e1fad2ae550a4da44", null ],
+    [ "Reset", "d5/dba/a20804.html#ae5561244ad7387a3614bb6f1e23a7001", null ],
+    [ "SpellHitTarget", "d5/dba/a20804.html#a0cc39577b4b70eb1be16f9c8b5cb5c72", null ],
+    [ "UpdateAI", "d5/dba/a20804.html#a3c8458c25f7389f5fb5218177590a4c6", null ],
+    [ "_current", "d5/dba/a20804.html#ad94ddde194a32b380ba1d309f1ece14a", null ],
+    [ "_targets", "d5/dba/a20804.html#ab6132214a2249fbb5de8a5115b114381", null ],
+    [ "events", "d5/dba/a20804.html#ac0c6aa9efe9d9e80b29fae8c190962dc", null ]
 ];

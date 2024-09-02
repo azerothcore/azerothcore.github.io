@@ -1,6 +1,9 @@
 var a16804 =
 [
-    [ "boss_icehowlAI", "d0/dd9/a16808.html", "d0/dd9/a16808" ],
-    [ "boss_icehowl", "d1/d4c/a16804.html#ab3c9711fa6af17be9dc7331b42c408be", null ],
-    [ "GetAI", "d1/d4c/a16804.html#ac77bf3b9d954b8c6be01d0209a80cc6a", null ]
+    [ "npc_hor_risen_witch_doctorAI", "d1/d4c/a16804.html#acd33d4811521f6d41bce21270198db45", null ],
+    [ "JustDied", "d1/d4c/a16804.html#a49eb1c20ef810d0e4aeea8f99fcabebb", null ],
+    [ "JustEngagedWith", "d1/d4c/a16804.html#a54378daf294fcbee4ba1abf14927cc52", null ],
+    [ "Reset", "d1/d4c/a16804.html#a20742bb0fe610367283cd5dc7e8b36ff", null ],
+    [ "UpdateAI", "d1/d4c/a16804.html#af9baaf71fa53a42ab5d1507fdd6aa9fd", null ],
+    [ "events", "d1/d4c/a16804.html#abb39744cdcdc8e1fbf8fd06508af35f9", null ]
 ];

@@ -1,9 +1,7 @@
 var a22944 =
 [
-    [ "npc_azure_sorcerorAI", "d5/d7d/a22944.html#a474a7144908d4820341dc56f77436b90", null ],
-    [ "Reset", "d5/d7d/a22944.html#a4c637288f79e1da4bdace6516cd887b1", null ],
-    [ "UpdateAI", "d5/d7d/a22944.html#a928d789e2cbd35b228857a23c4204ea1", null ],
-    [ "uiArcaneStreamTimer", "d5/d7d/a22944.html#ad238fe8fed4dcefd923d901e4f73ed05", null ],
-    [ "uiArcaneStreamTimerStartingValueHolder", "d5/d7d/a22944.html#af044879e8e064e28a491c87d0c6cde74", null ],
-    [ "uiManaDetonationTimer", "d5/d7d/a22944.html#a3ebe4eb452296f3c45db5c1b6cdaa243", null ]
+    [ "HandleEffectApply", "d5/d7d/a22944.html#aff0dbed165d0e751db725f7eaaf76a11", null ],
+    [ "Load", "d5/d7d/a22944.html#a1dfb5b2004041e7165cc9f5deb4b1e82", null ],
+    [ "PrepareAuraScript", "d5/d7d/a22944.html#a3dbd01e52ed2a630f0c014f941fc1b5e", null ],
+    [ "Register", "d5/d7d/a22944.html#a647f21e79e3fef72cf84439fc84e708f", null ]
 ];

@@ -1,6 +1,6 @@
 var a24908 =
 [
-    [ "spell_black_temple_curse_of_vitality_AuraScript", "d0/dbf/a24912.html", "d0/dbf/a24912" ],
-    [ "spell_black_temple_curse_of_vitality", "dd/d3f/a24908.html#a9becab789119f641e66ff44a13778d57", null ],
-    [ "GetAuraScript", "dd/d3f/a24908.html#ace5de3f2b5684a0ddb1c3f9475237444", null ]
+    [ "HandleOnEffectHit", "dd/d3f/a24908.html#a07b15e180ee79149cad15b32b3c94359", null ],
+    [ "PrepareSpellScript", "dd/d3f/a24908.html#afbea54d2dad7a969d7e7558d43ecbc95", null ],
+    [ "Register", "dd/d3f/a24908.html#ad2426cf9076d3fe4f33984ab28df11f6", null ]
 ];

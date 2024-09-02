@@ -1,6 +1,6 @@
 var a23320 =
 [
-    [ "spell_q24545_aod_special_SpellScript", "d3/deb/a23324.html", "d3/deb/a23324" ],
-    [ "spell_q24545_aod_special", "dc/dd8/a23320.html#a903de1322e0cd798f914ece9864ef561", null ],
-    [ "GetSpellScript", "dc/dd8/a23320.html#aa376d27b9a1fd02eab7a62446105e222", null ]
+    [ "instance_steam_vault_InstanceMapScript", "d3/deb/a23324.html", "d3/deb/a23324" ],
+    [ "instance_steam_vault", "dc/dd8/a23320.html#aa3417083841ccb50c8a2f29ba343e115", null ],
+    [ "GetInstanceScript", "dc/dd8/a23320.html#a3a2edb84cc7067d3c8fa2151b4763c5a", null ]
 ];

@@ -1,15 +1,7 @@
 var a09112 =
 [
-    [ "MailSender", "d6/dc2/a09112.html#a16466924bf75ea8203ba27c0f3e6188b", null ],
-    [ "MailSender", "d6/dc2/a09112.html#a735cfef6950357644d6965978dde0309", null ],
-    [ "MailSender", "d6/dc2/a09112.html#a145000f5ef63627ee26a5699846e06cf", null ],
-    [ "MailSender", "d6/dc2/a09112.html#a9ddda06cf5ecc55efdc4525353471c5b", null ],
-    [ "MailSender", "d6/dc2/a09112.html#a7d5a5e40aa20de720f310b739f159225", null ],
-    [ "MailSender", "d6/dc2/a09112.html#a12c87bb414a3e8889c95091f3b51716b", null ],
-    [ "GetMailMessageType", "d6/dc2/a09112.html#a64c99a49ec01d2226b6bf740edb380fb", null ],
-    [ "GetSenderId", "d6/dc2/a09112.html#a03145c3fdc5bbabc64019e63e121132b", null ],
-    [ "GetStationery", "d6/dc2/a09112.html#a6a4446e52e20ad7ab4817bf024b38631", null ],
-    [ "m_messageType", "d6/dc2/a09112.html#a45a312eda342d2197f15d73b47d7787b", null ],
-    [ "m_senderId", "d6/dc2/a09112.html#a0954b3514cfcba4258b1b266dfd71ddb", null ],
-    [ "m_stationery", "d6/dc2/a09112.html#a1bbced35b4600f9a45a421d28a33393b", null ]
+    [ "ObjectTypeIdCheck", "d6/dc2/a09112.html#a40af6d4d15e92aaaf2c9bb53ce9bb290", null ],
+    [ "operator()", "d6/dc2/a09112.html#a9cbd09a6021bef7819a0002952264293", null ],
+    [ "_equals", "d6/dc2/a09112.html#ab08a6e18731ccb822a71a1530f6966c3", null ],
+    [ "_typeId", "d6/dc2/a09112.html#a70e9a07e4c2c559bc55b8003db3af3be", null ]
 ];

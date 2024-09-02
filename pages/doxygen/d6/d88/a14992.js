@@ -1,14 +1,14 @@
 var a14992 =
 [
-    [ "boss_buru", "d6/d88/a14992.html#a586dfec9d3b0cb9497e616afb1c0b86d", null ],
-    [ "ChaseNewVictim", "d6/d88/a14992.html#a177ec0ac9dcfbd9de51088bf50c5785c", null ],
-    [ "DamageTaken", "d6/d88/a14992.html#a5ec0141994aac2b8e1fdce12b30c13b0", null ],
-    [ "EnterEvadeMode", "d6/d88/a14992.html#aa534cca1e46299e8db917cc8aa5d5b51", null ],
-    [ "JustDied", "d6/d88/a14992.html#a6d8f3265dca889bc49e747471da8597f", null ],
-    [ "JustEngagedWith", "d6/d88/a14992.html#a61eeeb3eb1684943e94367a9318b3035", null ],
-    [ "KilledUnit", "d6/d88/a14992.html#a7c780a29ea9f7b3d2f72eaa11bf7e19c", null ],
-    [ "ManipulateEggs", "d6/d88/a14992.html#a4f8a92eab729c975443579560edb03a3", null ],
-    [ "SpellHit", "d6/d88/a14992.html#ac3bc641c6bb67e585541c4e5d93dd7fa", null ],
-    [ "UpdateAI", "d6/d88/a14992.html#af65d0026b2ea78edb6d48e3c48b6b37b", null ],
-    [ "_phase", "d6/d88/a14992.html#aa395967af50f2a422bf1e81a087efc43", null ]
+    [ "boss_twinemperorsAI", "d6/d88/a14992.html#ae0857b191dbbf086533062aee5885237", null ],
+    [ "DamageTaken", "d6/d88/a14992.html#a118151851f36de9dfc22971a965cb047", null ],
+    [ "DoAction", "d6/d88/a14992.html#a2b5e585749b7a59663813c7a9d56c223", null ],
+    [ "EnterEvadeMode", "d6/d88/a14992.html#ab5a1b28405c38ece65f5ee145e472de8", null ],
+    [ "GetTwin", "d6/d88/a14992.html#af23aa54bca9752c242e80331862ace4d", null ],
+    [ "IAmVeklor", "d6/d88/a14992.html#acdccdde2ee573f51e1783ea493577258", null ],
+    [ "JustDied", "d6/d88/a14992.html#a9cc74619908c2aa9f8deda2689616735", null ],
+    [ "JustEngagedWith", "d6/d88/a14992.html#ab9a279e9ba3bb057268602be7368ffe4", null ],
+    [ "KilledUnit", "d6/d88/a14992.html#aaa52e01bfeff824345f7b9c7346e8aef", null ],
+    [ "UpdateAI", "d6/d88/a14992.html#a4d9e07fd3f682a24332d0aabe6c55f8f", null ],
+    [ "_introDone", "d6/d88/a14992.html#a1b4689b0c403f7246ae100e4f716b138", null ]
 ];

@@ -1,5 +1,8 @@
 var a18796 =
 [
-    [ "operator()", "df/d47/a18796.html#a6a8c02f9b797ed7df8960e5ddc44f93f", null ],
-    [ "operator()", "df/d47/a18796.html#a3847988d35a9cb0c5aab4ad73ff1a427", null ]
+    [ "HandleScript", "df/d47/a18796.html#ae0d16607f9eb3ff233513233bfb573ea", null ],
+    [ "HandleScript2", "df/d47/a18796.html#a3ff7d46323da70df6ad11ddfcaf6cfbb", null ],
+    [ "Load", "df/d47/a18796.html#ad41decc0a264104ca2232aef4e71cdaf", null ],
+    [ "PrepareSpellScript", "df/d47/a18796.html#a2d1dbae570206b358878020879708000", null ],
+    [ "Register", "df/d47/a18796.html#a7cf32445caa09f2a2b3c52f68f315ba5", null ]
 ];

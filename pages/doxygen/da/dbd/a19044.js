@@ -1,6 +1,5 @@
 var a19044 =
 [
-    [ "OnRemove", "da/dbd/a19044.html#ab66d040befddda8dbba0ce79f81a51e8", null ],
-    [ "PrepareAuraScript", "da/dbd/a19044.html#ae1fe747bb956e6220d259b26a0ced79f", null ],
-    [ "Register", "da/dbd/a19044.html#ac81dfb7309cf00dfe2088d649eef46fc", null ]
+    [ "at_thaddius_entrance", "da/dbd/a19044.html#ad81a60cac337baad82ea526de1d151d1", null ],
+    [ "OnTrigger", "da/dbd/a19044.html#af8635a58d4da0421b72b4451c1ebafc5", null ]
 ];

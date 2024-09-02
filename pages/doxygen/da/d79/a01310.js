@@ -1,38 +1,44 @@
 var a01310 =
 [
-    [ "DataHeader", "da/d79/a01310.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "HallsOfStoneScriptName", "da/d79/a01310.html#a9fc40bc4c1a59259e2da1d545d7841df", null ],
-    [ "Encounter", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463", [
-      [ "BOSS_KRYSTALLUS", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463a7ba125997c106b951e55bf342c21bcd1", null ],
-      [ "BOSS_MAIDEN_OF_GRIEF", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c", null ],
-      [ "BOSS_TRIBUNAL_OF_AGES", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463ac7f6f9cbdbb2cd35ff344110e2aa662b", null ],
-      [ "BOSS_SJONNIR", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463af5f7dc4694276a77539caaf56919d5a7", null ],
-      [ "BRANN_BRONZEBEARD", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463aa20c9c8a39f4fd5ef266aa91c761f64c", null ],
-      [ "BRANN_DOOR", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463a7a0d142861e9dbe33e4d822c48020b7d", null ],
-      [ "MAX_ENCOUNTER", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463a7913656ef56deb3793c0c5f3d999d80d", null ],
-      [ "DATA_BRANN_ACHIEVEMENT", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463aa0bf8140afe40c0988666448e72ea45e", null ],
-      [ "DATA_SJONNIR_ACHIEVEMENT", "da/d79/a01310.html#a64573ec9b8743a1169d84540f2ab9463a46d75eb0814ac6bb50b5053af850d417", null ]
+    [ "WorldSession::DosProtection", "da/d91/a10712.html", "da/d91/a10712" ],
+    [ "GLOBAL_CACHE_MASK", "dd/d22/a04662.html#gabaf56bd86a496e0886a553118d6ffb08", null ],
+    [ "NUM_ACCOUNT_DATA_TYPES", "dd/d22/a04662.html#gafb353aeb5e84007c9b55aa50ba6e3ddc", null ],
+    [ "PER_CHARACTER_CACHE_MASK", "dd/d22/a04662.html#ga38a03c6cd9103a9891842f233758fbe7", null ],
+    [ "AccountDataType", "dd/d22/a04662.html#gadab21b8c7fecf26675a55eea7811812d", [
+      [ "GLOBAL_CONFIG_CACHE", "dd/d22/a04662.html#ggadab21b8c7fecf26675a55eea7811812daada79ad8567ef8c1839bb4aa1388f59c", null ],
+      [ "PER_CHARACTER_CONFIG_CACHE", "dd/d22/a04662.html#ggadab21b8c7fecf26675a55eea7811812da3199deafd9678b717f9357659ed271b0", null ],
+      [ "GLOBAL_BINDINGS_CACHE", "dd/d22/a04662.html#ggadab21b8c7fecf26675a55eea7811812da580bf2ae915070c0cb1dfa2a2c470936", null ],
+      [ "PER_CHARACTER_BINDINGS_CACHE", "dd/d22/a04662.html#ggadab21b8c7fecf26675a55eea7811812daaa2164f22e7a6cd3e9211bdd39c1c4e6", null ],
+      [ "GLOBAL_MACROS_CACHE", "dd/d22/a04662.html#ggadab21b8c7fecf26675a55eea7811812da2bffb16258c4258924334e7231928217", null ],
+      [ "PER_CHARACTER_MACROS_CACHE", "dd/d22/a04662.html#ggadab21b8c7fecf26675a55eea7811812da0d53cc3dcb154b042fe7a1b81404752c", null ],
+      [ "PER_CHARACTER_LAYOUT_CACHE", "dd/d22/a04662.html#ggadab21b8c7fecf26675a55eea7811812da8db107b5c382a0630b177b9f521dd87c", null ],
+      [ "PER_CHARACTER_CHAT_CACHE", "dd/d22/a04662.html#ggadab21b8c7fecf26675a55eea7811812da5dbeffe8a7f8c60877f3f41a4e813327", null ]
     ] ],
-    [ "gobjects", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9", [
-      [ "GO_TRIBUNAL_CONSOLE", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9a72eaa669813855239b4b45d21f67d3f2", null ],
-      [ "GO_TRIBUNAL_ACCESS_DOOR", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9a817f5cd077aa5003e59272fd5d781cc8", null ],
-      [ "GO_KADDRAK", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4f92627b7c119df92500d601bdcf7555", null ],
-      [ "GO_MARNAK", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9aca39bd4893330b2875c9ff0f47fbd0d5", null ],
-      [ "GO_ABEDNEUM", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4d423f09b7f646a5e91fd3a4319e624d", null ],
-      [ "GO_SKY_FLOOR", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad0205c64138779f72fe7ed8f794b537f", null ],
-      [ "GO_SJONNIR_CONSOLE", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad28a35a1d7687973b8d83632daa7c7c7", null ],
-      [ "GO_SJONNIR_DOOR", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9a9f8ac76bebd7ea6680fdfba71cddbc84", null ],
-      [ "GO_TRIBUNAL_CHEST", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9a60b4179cd50b218dbcd02d6b689037c6", null ],
-      [ "GO_TRIBUNAL_CHEST_H", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad8136ac890918a610fc1771425afdf55", null ],
-      [ "GO_LEFT_PIPE", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9a5f811c762f307a0e37df5ce632c92370", null ],
-      [ "GO_RIGHT_PIPE", "da/d79/a01310.html#a90ca774f1a8c2c9c0ebb79f5980868b9a642e6ade65a788c0c44aa9ff6c002c7c", null ]
+    [ "BFLeaveReason", "dd/d22/a04662.html#gae00b3f15198199be79029b7f245cba4e", [
+      [ "BF_LEAVE_REASON_CLOSE", "dd/d22/a04662.html#ggae00b3f15198199be79029b7f245cba4eaa804834f71e74d728992a144bc3a4bf7", null ],
+      [ "BF_LEAVE_REASON_EXITED", "dd/d22/a04662.html#ggae00b3f15198199be79029b7f245cba4eac58152c3c20952288b738bbcd94b6e04", null ],
+      [ "BF_LEAVE_REASON_LOW_LEVEL", "dd/d22/a04662.html#ggae00b3f15198199be79029b7f245cba4ea409833e268b63d87c8329740d22f8d6d", null ]
     ] ],
-    [ "npcs", "da/d79/a01310.html#a7569620d66559dad194b4764f6faf235", [
-      [ "NPC_KADDRAK", "da/d79/a01310.html#a7569620d66559dad194b4764f6faf235a0fd4c992b4e05db440cc0ea73c4ffaad", null ],
-      [ "NPC_MARNAK", "da/d79/a01310.html#a7569620d66559dad194b4764f6faf235abda16cd2dd9306be81ee1207b9989f0d", null ],
-      [ "NPC_ABEDNEUM", "da/d79/a01310.html#a7569620d66559dad194b4764f6faf235af1cdba2690be5588a967c9bd8f46815d", null ],
-      [ "NPC_SJONNIR", "da/d79/a01310.html#a7569620d66559dad194b4764f6faf235ad018155cd74db3419f72fbf599cc6242", null ],
-      [ "NPC_BRANN", "da/d79/a01310.html#a7569620d66559dad194b4764f6faf235a557fa0e4f73adcfd231bf8165ef38c5c", null ]
+    [ "CharterTypes", "dd/d22/a04662.html#gae6a6780680157e01b09a257d84b150c7", [
+      [ "GUILD_CHARTER_TYPE", "dd/d22/a04662.html#ggae6a6780680157e01b09a257d84b150c7abc99a46e1b6360a30376c4500292e27c", null ],
+      [ "ARENA_TEAM_CHARTER_2v2_TYPE", "dd/d22/a04662.html#ggae6a6780680157e01b09a257d84b150c7a917d335b0e9d21fec525d5daed0c1356", null ],
+      [ "ARENA_TEAM_CHARTER_3v3_TYPE", "dd/d22/a04662.html#ggae6a6780680157e01b09a257d84b150c7aed12afbbdd721e734868da792db28482", null ],
+      [ "ARENA_TEAM_CHARTER_5v5_TYPE", "dd/d22/a04662.html#ggae6a6780680157e01b09a257d84b150c7afa2e8ef459ee0af6eea7b2be7ce30841", null ]
     ] ],
-    [ "GetHallsOfStoneAI", "da/d79/a01310.html#a856193f50a99a86279e43578f2b5ec0a", null ]
+    [ "ChatRestrictionType", "dd/d22/a04662.html#ga54cc6595f95ac4f430e8540afc94f13d", [
+      [ "ERR_CHAT_RESTRICTED", "dd/d22/a04662.html#gga54cc6595f95ac4f430e8540afc94f13da86e568474f13bb72e15b8e92a270b1c9", null ],
+      [ "ERR_CHAT_THROTTLED", "dd/d22/a04662.html#gga54cc6595f95ac4f430e8540afc94f13da34a062f33bdc742a4c6be1f28ef613e7", null ],
+      [ "ERR_USER_SQUELCHED", "dd/d22/a04662.html#gga54cc6595f95ac4f430e8540afc94f13da9bbb4686187f6e5c88606f90f22b18c8", null ],
+      [ "ERR_YELL_RESTRICTED", "dd/d22/a04662.html#gga54cc6595f95ac4f430e8540afc94f13da584e0c0e91185b9f8d415b89e5cbacd7", null ]
+    ] ],
+    [ "DeclinedNameResult", "dd/d22/a04662.html#ga98490641bb011ba9187ee1ed5c94b406", [
+      [ "DECLINED_NAMES_RESULT_SUCCESS", "dd/d22/a04662.html#gga98490641bb011ba9187ee1ed5c94b406add610d06699db29b6f69db8b69d87267", null ],
+      [ "DECLINED_NAMES_RESULT_ERROR", "dd/d22/a04662.html#gga98490641bb011ba9187ee1ed5c94b406ae7ea9b45868387cbcd0f7aff13476683", null ]
+    ] ],
+    [ "PartyOperation", "dd/d22/a04662.html#gaa4a0361b2172789575d5eac42ecb612a", [
+      [ "PARTY_OP_INVITE", "dd/d22/a04662.html#ggaa4a0361b2172789575d5eac42ecb612aa8b30d82ca0b8d909d0445472f4003036", null ],
+      [ "PARTY_OP_UNINVITE", "dd/d22/a04662.html#ggaa4a0361b2172789575d5eac42ecb612aaea450b61d9aa99430d227f2bc20ba66e", null ],
+      [ "PARTY_OP_LEAVE", "dd/d22/a04662.html#ggaa4a0361b2172789575d5eac42ecb612aaf8c14598abfe7de9431f923cce924457", null ],
+      [ "PARTY_OP_SWAP", "dd/d22/a04662.html#ggaa4a0361b2172789575d5eac42ecb612aac2c1d8e8f575d57bed2ae682d80c1a14", null ]
+    ] ]
 ];

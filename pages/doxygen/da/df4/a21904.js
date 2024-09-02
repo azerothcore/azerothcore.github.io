@@ -1,11 +1,7 @@
 var a21904 =
 [
-    [ "boss_thorim_sifAI", "da/df4/a21904.html#af63f344d3a5650baaa9b96204abc39a9", null ],
-    [ "AttackStart", "da/df4/a21904.html#ae9354f2e97c88cd1af86fae050e810d6", null ],
-    [ "DoAction", "da/df4/a21904.html#a8aac66a64c5ca6491595c2b3b6cbbd95", null ],
-    [ "MoveInLineOfSight", "da/df4/a21904.html#a3e7d07ca6fc8f4619173f3fd74d63ccb", null ],
-    [ "Reset", "da/df4/a21904.html#ab30d73613bafac5b92021677d69b3aae", null ],
-    [ "UpdateAI", "da/df4/a21904.html#a09ee3373177e84a5e4e51ebb48c68525", null ],
-    [ "_allowCast", "da/df4/a21904.html#ade272764f09375d8e5fda937d42aad90", null ],
-    [ "events", "da/df4/a21904.html#a8fd3c7073a250d054e3edc73d5867fbd", null ]
+    [ "HandleAfterEffectApply", "da/df4/a21904.html#ab54795dc49ca453db40494a694158a98", null ],
+    [ "PrepareAuraScript", "da/df4/a21904.html#a3e5902a79b9d2c5cad69ad2ece8592ec", null ],
+    [ "Register", "da/df4/a21904.html#addd4fac4cc8a93d800abacb144e3303c", null ],
+    [ "Validate", "da/df4/a21904.html#a3ee65a1391c340e471adfc7ac653dd50", null ]
 ];

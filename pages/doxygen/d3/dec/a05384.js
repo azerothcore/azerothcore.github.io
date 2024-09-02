@@ -1,12 +1,14 @@
 var a05384 =
 [
-    [ "DatabaseWorker", "d3/dec/a05384.html#a64450680e7b6e31bb42ce4f79788eb27", null ],
-    [ "~DatabaseWorker", "d3/dec/a05384.html#a170c873cbc917ece6a87591450dbe5a9", null ],
-    [ "DatabaseWorker", "d3/dec/a05384.html#aa43f1d875400b0ba6c031e0811397ed3", null ],
-    [ "operator=", "d3/dec/a05384.html#a15e753c757da609b55a66380f526091a", null ],
-    [ "WorkerThread", "d3/dec/a05384.html#ab74cbccbb68bfbbab58550eced982d1a", null ],
-    [ "_cancelationToken", "d3/dec/a05384.html#a448c50212f5d532cb4c35619b993041a", null ],
-    [ "_connection", "d3/dec/a05384.html#a2f21d73b584d9e5f17afc7a0ac78f129", null ],
-    [ "_queue", "d3/dec/a05384.html#a9c47ad6c0d4dca85a63be45c4e678a70", null ],
-    [ "_workerThread", "d3/dec/a05384.html#ad02a90f600f1996c053f36e186edf292", null ]
+    [ "SFMTRand", "d3/dec/a05384.html#aa40843ec8c3162e4be6cbf8067f93c9b", null ],
+    [ "operator delete", "d3/dec/a05384.html#a20ef76641899ebf23ecfdfa03933d1d9", null ],
+    [ "operator delete", "d3/dec/a05384.html#ac6267ac04c03814f574a155a4a0cffcb", null ],
+    [ "operator delete[]", "d3/dec/a05384.html#a5051cdb95e18230b7fee753beb621603", null ],
+    [ "operator delete[]", "d3/dec/a05384.html#a7cfe99d3c100b6ba124b82fce756960f", null ],
+    [ "operator new", "d3/dec/a05384.html#a73dfbe0b1545b5604dfde603517efbfb", null ],
+    [ "operator new", "d3/dec/a05384.html#a3dc4f4d003c77547117ec7c31486f884", null ],
+    [ "operator new[]", "d3/dec/a05384.html#a61d2b3bc61bfa640c8b0241d09347d2b", null ],
+    [ "operator new[]", "d3/dec/a05384.html#ace8e8802bdb710f3354d3ff7d619497c", null ],
+    [ "RandomUInt32", "d3/dec/a05384.html#a8d129952ad2916419cdf54aa474c23c0", null ],
+    [ "_state", "d3/dec/a05384.html#a9bc20836138e5dd4db93f7d03a9e856b", null ]
 ];

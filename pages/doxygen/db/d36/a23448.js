@@ -1,9 +1,8 @@
 var a23448 =
 [
-    [ "npc_venture_co_stragglerAI", "db/d36/a23448.html#abc3cc04b89b95fd45969ba5859bf810c", null ],
-    [ "Reset", "db/d36/a23448.html#acfeaad9db95d0b391a64cc65ca3a1cee", null ],
-    [ "SpellHit", "db/d36/a23448.html#ae1919454c270d10342079b60a727a306", null ],
-    [ "UpdateAI", "db/d36/a23448.html#a0846336d8d1333e2c2f50731a722c3b7", null ],
-    [ "_events", "db/d36/a23448.html#a9cd6e6b549e10900f35838f04e10e0f5", null ],
-    [ "_playerGUID", "db/d36/a23448.html#a649493944b143782d995b5bdda3714b4", null ]
+    [ "instance_gruuls_lair_InstanceMapScript", "db/d36/a23448.html#a1ad656ccd4d41c756c4f525d079fd9b6", null ],
+    [ "GetData", "db/d36/a23448.html#a410630dbbe00acf0b69603cfc357d503", null ],
+    [ "SetBossState", "db/d36/a23448.html#a9f0752eb0ec1d9ca0681ddc5fc8d3752", null ],
+    [ "SetData", "db/d36/a23448.html#a4cbe09489797fa0076d976f9a717a2bd", null ],
+    [ "_addsKilled", "db/d36/a23448.html#a7a003811fcf620f3c2d11ff3498cb298", null ]
 ];

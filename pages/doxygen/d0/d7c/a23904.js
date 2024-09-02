@@ -1,5 +1,6 @@
 var a23904 =
 [
-    [ "npc_wg_spirit_guideAI", "d0/d7c/a23904.html#a576d15b6acedb07bfe1555bdd0ee8f12", null ],
-    [ "UpdateAI", "d0/d7c/a23904.html#a32b28e8fe74db742d170bd754d11f4d7", null ]
+    [ "npc_nether_drakeAI", "d7/d76/a23908.html", "d7/d76/a23908" ],
+    [ "npc_nether_drake", "d0/d7c/a23904.html#a253ec3c91857b899ea9e2c824870b760", null ],
+    [ "GetAI", "d0/d7c/a23904.html#a58d269e2c73cae07bb507162b742fe8f", null ]
 ];

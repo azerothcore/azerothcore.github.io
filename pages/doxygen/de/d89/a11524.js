@@ -1,6 +1,6 @@
 var a11524 =
 [
-    [ "boss_urok_doomhowlAI", "d4/d92/a11528.html", "d4/d92/a11528" ],
-    [ "boss_urok_doomhowl", "de/d89/a11524.html#a0ca9cea9919648baa5ff7db2d5a5b530", null ],
-    [ "GetAI", "de/d89/a11524.html#ac77756af77191e02df49161da0ace268", null ]
+    [ "npc_lokhtos_darkbargainer", "de/d89/a11524.html#af91685ecf0f63313968b3d82373668d2", null ],
+    [ "OnGossipHello", "de/d89/a11524.html#a39547487ef7db8a3942556665099893f", null ],
+    [ "OnGossipSelect", "de/d89/a11524.html#a5a4640678a5669c75b1fa5d787999c02", null ]
 ];

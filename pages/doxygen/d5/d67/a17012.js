@@ -1,6 +1,6 @@
 var a17012 =
 [
-    [ "instance_drak_tharon_keep_InstanceScript", "d1/d7f/a17016.html", "d1/d7f/a17016" ],
-    [ "instance_drak_tharon_keep", "d5/d67/a17012.html#a1f375185dba1619fee36160549eb91f4", null ],
-    [ "GetInstanceScript", "d5/d67/a17012.html#aca6364452dc39e747af152695d479bf8", null ]
+    [ "boss_drakkari_elementalAI", "d1/d7f/a17016.html", "d1/d7f/a17016" ],
+    [ "boss_drakkari_elemental", "d5/d67/a17012.html#a143dd5d52ea7bb3c3c1d96da45af81ee", null ],
+    [ "GetAI", "d5/d67/a17012.html#aab2f9c71ddb77164bd644d18b9e88313", null ]
 ];

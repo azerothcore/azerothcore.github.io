@@ -1,6 +1,7 @@
 var a23948 =
 [
-    [ "HandleSummon", "da/d8c/a23948.html#a3490f2145ba100aff85894a698476eaa", null ],
-    [ "PrepareSpellScript", "da/d8c/a23948.html#ac23c78653aa51ff66d374a876d77cd47", null ],
-    [ "Register", "da/d8c/a23948.html#ae2962ddcb25cc68ab6ec7966514743bf", null ]
+    [ "HandleDummy", "da/d8c/a23948.html#a08f2f0aef00ce075572ff84643905a0a", null ],
+    [ "PrepareSpellScript", "da/d8c/a23948.html#ac1aacfbd71224d80eaed0b9a76ff673f", null ],
+    [ "Register", "da/d8c/a23948.html#a2046ac7f24989ff0bf50a3ee66dda104", null ],
+    [ "Validate", "da/d8c/a23948.html#aded9f2e46cc3bf46f5699ce6fdf154ba", null ]
 ];

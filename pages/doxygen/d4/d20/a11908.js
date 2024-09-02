@@ -1,6 +1,6 @@
 var a11908 =
 [
-    [ "boss_shazzrahAI", "dc/dce/a11912.html", "dc/dce/a11912" ],
-    [ "boss_shazzrah", "d4/d20/a11908.html#a99a162d6eac5c9046a27f53ec05af7e4", null ],
-    [ "GetAI", "d4/d20/a11908.html#a8135f6ab246dbce4c2ebebe0e7f137d5", null ]
+    [ "boss_firemawAI", "d4/d20/a11908.html#ab3f56c97119676b1a75662e52caecb75", null ],
+    [ "JustEngagedWith", "d4/d20/a11908.html#a04cb1d2fa18dba82b9c881b09406a076", null ],
+    [ "UpdateAI", "d4/d20/a11908.html#a6e35e47b23d713263ef00769324bbbed", null ]
 ];

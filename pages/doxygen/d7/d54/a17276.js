@@ -1,6 +1,8 @@
 var a17276 =
 [
-    [ "spell_hor_gunship_cannon_fireAuraScript", "d7/dcd/a17280.html", "d7/dcd/a17280" ],
-    [ "spell_hor_gunship_cannon_fire", "d7/d54/a17276.html#a1df8d0312a08979df38e8cae7f405017", null ],
-    [ "GetAuraScript", "d7/d54/a17276.html#ad6087baf8342d88812fdd39c54f139ab", null ]
+    [ "npc_high_overlord_saurfangAI", "d7/dcd/a17280.html", "d7/dcd/a17280" ],
+    [ "npc_high_overlord_saurfang_icc", "d7/d54/a17276.html#ac02fe80550572e142406c2d80c0392df", null ],
+    [ "GetAI", "d7/d54/a17276.html#a21c04ab5b8d747c28c7355cc483ac6e3", null ],
+    [ "OnGossipHello", "d7/d54/a17276.html#a515a87f751527412222cfdd968febe7c", null ],
+    [ "OnGossipSelect", "d7/d54/a17276.html#a39c33a3b2e7037ca6f0f40ba65cb55db", null ]
 ];

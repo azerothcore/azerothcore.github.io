@@ -1,6 +1,7 @@
 var a16868 =
 [
-    [ "instance_trial_of_the_crusader_InstanceMapScript", "d6/d86/a16872.html", "d6/d86/a16872" ],
-    [ "instance_trial_of_the_crusader", "d3/db1/a16868.html#a764d871d02e4ff53b7cc3a8637dcddf9", null ],
-    [ "GetInstanceScript", "d3/db1/a16868.html#a792034e9e5687bf5fa543175692bed66", null ]
+    [ "HandlePeriodicTick", "d3/db1/a16868.html#ac8b3f1a826e3491d4315983a89d23d2e", null ],
+    [ "PrepareAuraScript", "d3/db1/a16868.html#ad54c3014195c5b848ab1f9cc978f72b3", null ],
+    [ "Register", "d3/db1/a16868.html#af8e1ee8ddf7ed8290eb71fb7697428fb", null ],
+    [ "Validate", "d3/db1/a16868.html#a6de2140f17790b63314f653b7dd0ddd3", null ]
 ];

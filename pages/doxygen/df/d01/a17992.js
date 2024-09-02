@@ -1,7 +1,6 @@
 var a17992 =
 [
-    [ "HandleScript", "df/d01/a17992.html#a5102403198eefdb33d8b9e14d72506ce", null ],
-    [ "PrepareSpellScript", "df/d01/a17992.html#a693e0bcd7f87e324210973c5621f9b38", null ],
-    [ "Register", "df/d01/a17992.html#a160f49a1c6e02bdbcb41f3db770d4ed1", null ],
-    [ "Validate", "df/d01/a17992.html#ade41fb840cba48cf14637c8ea99ddf36", null ]
+    [ "OrderWhelpTargetSelector", "df/d01/a17992.html#a5e433367ebbf88c6bb8fef9d43eafcfa", null ],
+    [ "operator()", "df/d01/a17992.html#abf98b730a2b794012c28b61ab8bb6b6c", null ],
+    [ "_owner", "df/d01/a17992.html#ae475da3cca3d6288ce7df0b84d59005e", null ]
 ];

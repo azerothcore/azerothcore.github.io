@@ -1,6 +1,6 @@
 var a19888 =
 [
-    [ "npc_four_car_garageAI", "de/dfd/a19888.html#a2eedf5934e12d33cda0ac173d82220d5", null ],
-    [ "JustDied", "de/dfd/a19888.html#a1fba9f03dca2db37b5cb969079b25d22", null ],
-    [ "PassengerBoarded", "de/dfd/a19888.html#a144bc36a5c4ff227c8a7dc146d4167b6", null ]
+    [ "PrepareSpellScript", "de/dfd/a19888.html#a7eeb4e2b9c3bb6e7d02d6a5acf8e1d52", null ],
+    [ "RecalculateDamage", "de/dfd/a19888.html#a094a21cf3cf109e704d3e334ad7dbad1", null ],
+    [ "Register", "de/dfd/a19888.html#af2b5382122be41a6b1ee4ab721b417da", null ]
 ];

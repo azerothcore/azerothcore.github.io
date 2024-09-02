@@ -1,6 +1,6 @@
 var a19548 =
 [
-    [ "npc_captain_grondelAI", "d8/db1/a19552.html", "d8/db1/a19552" ],
-    [ "npc_captain_grondel", "db/db7/a19548.html#a54a53f8e3cde87405219c815a56d523c", null ],
-    [ "GetAI", "db/db7/a19548.html#a2a7725e81294e80701b7742d2605ec00", null ]
+    [ "instance_halls_of_stone_InstanceMapScript", "d8/db1/a19552.html", "d8/db1/a19552" ],
+    [ "instance_halls_of_stone", "db/db7/a19548.html#ad0237cfaf2e48036f45181fd7746df2b", null ],
+    [ "GetInstanceScript", "db/db7/a19548.html#a784906c7710a216016101cf7a6a915f3", null ]
 ];

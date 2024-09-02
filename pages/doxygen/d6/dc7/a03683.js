@@ -1,14 +1,12 @@
 var a03683 =
 [
-    [ "GroupScript", "de/d38/a10023.html", "de/d38/a10023" ],
-    [ "GroupHook", "d6/dc7/a03683.html#a373b3fe6b402e8321892b8c1be74ab5d", [
-      [ "GROUPHOOK_ON_ADD_MEMBER", "d6/dc7/a03683.html#a373b3fe6b402e8321892b8c1be74ab5da3800aeea2a91eebb3ccdd533a8dfc681", null ],
-      [ "GROUPHOOK_ON_INVITE_MEMBER", "d6/dc7/a03683.html#a373b3fe6b402e8321892b8c1be74ab5da4f30d67b987f0ade961e34bce95e85fe", null ],
-      [ "GROUPHOOK_ON_REMOVE_MEMBER", "d6/dc7/a03683.html#a373b3fe6b402e8321892b8c1be74ab5daee0f42175b42d95f45380c1b70c786c3", null ],
-      [ "GROUPHOOK_ON_CHANGE_LEADER", "d6/dc7/a03683.html#a373b3fe6b402e8321892b8c1be74ab5da32d5ef38f2a877e2d36cdf20e9bb6d23", null ],
-      [ "GROUPHOOK_ON_DISBAND", "d6/dc7/a03683.html#a373b3fe6b402e8321892b8c1be74ab5dafe9e82d7bdea3097607de1e375b0e353", null ],
-      [ "GROUPHOOK_CAN_GROUP_JOIN_BATTLEGROUND_QUEUE", "d6/dc7/a03683.html#a373b3fe6b402e8321892b8c1be74ab5da9b4d04fe85f908719f1412cb9b88e61c", null ],
-      [ "GROUPHOOK_ON_CREATE", "d6/dc7/a03683.html#a373b3fe6b402e8321892b8c1be74ab5da0cc7b93ed018172ab0c6f191681e5f6c", null ],
-      [ "GROUPHOOK_END", "d6/dc7/a03683.html#a373b3fe6b402e8321892b8c1be74ab5da71a6d6ef47c3bda7d088f579b6f3a5f2", null ]
-    ] ]
+    [ "AddEventsScripts", "d6/dc7/a03683.html#a5b00ce0eeb1dcf64dc867f4bce623416", null ],
+    [ "AddSC_event_brewfest_scripts", "d6/dc7/a03683.html#a7b95e86ce715aad734d059cfc0cf88d7", null ],
+    [ "AddSC_event_childrens_week", "d6/dc7/a03683.html#a832536a026ab4dad8df7bb48ad0493fc", null ],
+    [ "AddSC_event_firework_show_scripts", "d6/dc7/a03683.html#af7a6296c13b6615a14e0823fe7e5b577", null ],
+    [ "AddSC_event_hallows_end_scripts", "d6/dc7/a03683.html#a70705fe4a0f9a88d8f185363054af273", null ],
+    [ "AddSC_event_love_in_the_air", "d6/dc7/a03683.html#acd28b6b284f9e0f8caa1194e2dc904f8", null ],
+    [ "AddSC_event_midsummer_scripts", "d6/dc7/a03683.html#adc17dd3d30524a3c73b564d6eed54f1c", null ],
+    [ "AddSC_event_pilgrims_end_scripts", "d6/dc7/a03683.html#a8e59953c9b1731e315c9c6b9148a88e6", null ],
+    [ "AddSC_event_winter_veil_scripts", "d6/dc7/a03683.html#a56e93f0f5c0f4763c439d5ea4cdf6c5e", null ]
 ];

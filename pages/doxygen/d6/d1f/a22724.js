@@ -1,7 +1,8 @@
 var a22724 =
 [
-    [ "PrepareAuraScript", "d6/d1f/a22724.html#a633dc25fd58f0fb396b72103a1ec42d6", null ],
-    [ "Register", "d6/d1f/a22724.html#ab46535a9b6fae458671cccbcdfc81eb9", null ],
-    [ "TriggerFists", "d6/d1f/a22724.html#a912417196f46d7bdf6620cb4cb0a3698", null ],
-    [ "Validate", "d6/d1f/a22724.html#a66a353872f430244e09fac32cadb1aa4", null ]
+    [ "Load", "d6/d1f/a22724.html#a038301fbb547469574efff88455be663", null ],
+    [ "OnPeriodic", "d6/d1f/a22724.html#a8df384cc329cf20ddc5ac0d7bed0345f", null ],
+    [ "PrepareAuraScript", "d6/d1f/a22724.html#a386df1300e6a99b02efd13ef4968e99a", null ],
+    [ "Register", "d6/d1f/a22724.html#a1b7b9bff5b3d906fa491846a4d5c6743", null ],
+    [ "Validate", "d6/d1f/a22724.html#ad64a3fc1a66b9e8914099e501992f2aa", null ]
 ];

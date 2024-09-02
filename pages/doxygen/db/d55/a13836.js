@@ -1,6 +1,10 @@
 var a13836 =
 [
-    [ "npc_zulian_prowlerAI", "db/dde/a13840.html", "db/dde/a13840" ],
-    [ "npc_zulian_prowler", "db/d55/a13836.html#a27ae990985976d02bb221b6d669fa849", null ],
-    [ "GetAI", "db/d55/a13836.html#a7e7d4f8164bbb728a1b83244c1e356f9", null ]
+    [ "npc_batrider", "db/d55/a13836.html#a6304a39ea92d48508a17dc059c47bc1b", null ],
+    [ "DamageTaken", "db/d55/a13836.html#ad4818b1363082a91223526908c38777c", null ],
+    [ "JustEngagedWith", "db/d55/a13836.html#a02e950fd30e4a0637d078d49c5c50d48", null ],
+    [ "Reset", "db/d55/a13836.html#abee249da6f3bb6c2fd859812b02d7b65", null ],
+    [ "UpdateAI", "db/d55/a13836.html#a828e5ab4b3ff52d7daf9a3a6a5412f52", null ],
+    [ "_mode", "db/d55/a13836.html#acd53ec78a754219511af1ad2f11422a9", null ],
+    [ "_scheduler", "db/d55/a13836.html#ad90beb6685c031a8b0ce4ec8ea3daa3f", null ]
 ];

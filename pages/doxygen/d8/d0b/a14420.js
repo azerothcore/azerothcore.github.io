@@ -1,5 +1,6 @@
 var a14420 =
 [
-    [ "achievement_pb_pilgrims_peril", "d8/d0b/a14420.html#a9516eab18d7e1401a5637913d8ec9595", null ],
-    [ "OnCheck", "d8/d0b/a14420.html#a78c92eab532448080c1d28dc8fcabaca", null ]
+    [ "FilterTargets", "d8/d0b/a14420.html#ae2d33bee9d8d8c29f07ed60bbaf3e7b0", null ],
+    [ "PrepareSpellScript", "d8/d0b/a14420.html#a2b7ec1db13418f2e369faab6ec8422b4", null ],
+    [ "Register", "d8/d0b/a14420.html#a6375482bd9d1fc6c6941607273c506dc", null ]
 ];

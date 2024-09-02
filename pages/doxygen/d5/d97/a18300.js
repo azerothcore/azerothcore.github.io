@@ -1,10 +1,7 @@
 var a18300 =
 [
-    [ "npc_cult_fanaticAI", "d5/d97/a18300.html#a766e536288b84110f88a8bd282e97932", null ],
-    [ "JustEngagedWith", "d5/d97/a18300.html#a709b75f4b1519bc7c6988985a22d076f", null ],
-    [ "Reset", "d5/d97/a18300.html#a772830df1d16d0463c8c00f14c337db0", null ],
-    [ "SpellHit", "d5/d97/a18300.html#a17c02a83b522c9717de3d89517104e42", null ],
-    [ "UpdateAI", "d5/d97/a18300.html#ac79afdab3721d78d2b7e5da360083cea", null ],
-    [ "_instance", "d5/d97/a18300.html#a7448fdf85cccfcb12509b0274205bff4", null ],
-    [ "events", "d5/d97/a18300.html#a9576978141062fa1babbbc5ed42483c4", null ]
+    [ "ValithriaDespawner", "d5/d97/a18300.html#adf6f71ad9b97489f1e35781e491b28d8", null ],
+    [ "Execute", "d5/d97/a18300.html#a4f8c63f52996da14078a7196cae3a00d", null ],
+    [ "operator()", "d5/d97/a18300.html#a05bae39d642f294f2ef98151d66ba382", null ],
+    [ "_creature", "d5/d97/a18300.html#a64bf6181ad867efd987edec141ca3bf0", null ]
 ];

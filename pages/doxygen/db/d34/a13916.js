@@ -1,11 +1,6 @@
 var a13916 =
 [
-    [ "boss_jeklik", "db/d34/a13916.html#a826bdba66fee3bb82b64ca6174b66c44", null ],
-    [ "DamageTaken", "db/d34/a13916.html#ae85f1fde8ebc6a82dc0be1599355d752", null ],
-    [ "EnterEvadeMode", "db/d34/a13916.html#a70dc363e0690e72846db5f779375edc1", null ],
-    [ "JustDied", "db/d34/a13916.html#ab52a09a460fea9d2a4e0a8bcafeb3546", null ],
-    [ "JustEngagedWith", "db/d34/a13916.html#ab19f0b059f00c81995900db355f00949", null ],
-    [ "PathEndReached", "db/d34/a13916.html#a2efcc2d362d3f634b41ada1115f76539", null ],
-    [ "Reset", "db/d34/a13916.html#a7959106123e60e3584b32b50a272746c", null ],
-    [ "UpdateAI", "db/d34/a13916.html#a5782423cda9b866f2d1618a896ab21de", null ]
+    [ "HandleObjectAreaTargetSelect", "db/d34/a13916.html#aa7695bddd766d5adefb04710d41894f6", null ],
+    [ "PrepareSpellScript", "db/d34/a13916.html#a77ba184428cfbb8ec3cc4670f78741e0", null ],
+    [ "Register", "db/d34/a13916.html#adbc2f1c4ec64b95ec72c82f36f12d928", null ]
 ];

@@ -1,9 +1,7 @@
 var a23536 =
 [
-    [ "npc_Apothecary_HanesAI", "d4/dab/a23536.html#a8e209b142a58b3b3c0d84c430a086ade", null ],
-    [ "JustDied", "d4/dab/a23536.html#a4c681936d8e7053ace5cdeeaa1ee5ca9", null ],
-    [ "Reset", "d4/dab/a23536.html#a23d54542e6debf39798c2a2d6e2a255d", null ],
-    [ "UpdateEscortAI", "d4/dab/a23536.html#ab54eb5115b9c41b39f0de0f8f4412ef9", null ],
-    [ "WaypointReached", "d4/dab/a23536.html#a7105ea4c83ddd0fd08c96a0b0ff40bd2", null ],
-    [ "PotTimer", "d4/dab/a23536.html#a252858818b61cf15e2e031ceaaadc6b8", null ]
+    [ "HandleDummyApply", "d4/dab/a23536.html#a8a982bbbda94a2cf981c845161f05bdc", null ],
+    [ "HandleDummyRemove", "d4/dab/a23536.html#a5d68d9e15600119deca7179ffe00acda", null ],
+    [ "PrepareAuraScript", "d4/dab/a23536.html#a34d09e48b69d32dae6c127fa0837be4b", null ],
+    [ "Register", "d4/dab/a23536.html#a094004ccf6b4cae4d27bca639b76b899", null ]
 ];

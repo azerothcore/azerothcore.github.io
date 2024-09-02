@@ -1,6 +1,6 @@
 var a21260 =
 [
-    [ "boss_freya_elder_brightleafAI", "db/ded/a21264.html", "db/ded/a21264" ],
-    [ "boss_freya_elder_brightleaf", "da/d91/a21260.html#a9b1539b37912ef5ae46d5926bf2e0f40", null ],
-    [ "GetAI", "da/d91/a21260.html#a3c39424ecf97ced8c2a962baff5ae342", null ]
+    [ "npc_erekem_guardAI", "db/ded/a21264.html", "db/ded/a21264" ],
+    [ "npc_erekem_guard", "da/d91/a21260.html#a78592996e90f77f81eec0325a7f11956", null ],
+    [ "GetAI", "da/d91/a21260.html#a844a6a29eda4f41547ea37a4c08fb723", null ]
 ];

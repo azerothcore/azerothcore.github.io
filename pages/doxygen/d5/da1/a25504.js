@@ -1,6 +1,6 @@
 var a25504 =
 [
-    [ "spell_magtheridon_shadow_grasp_AuraScript", "d8/d7f/a25508.html", "d8/d7f/a25508" ],
-    [ "spell_magtheridon_shadow_grasp", "d5/da1/a25504.html#a5a28ed27df56fc1d3f65a8ba5fb2e26d", null ],
-    [ "GetAuraScript", "d5/da1/a25504.html#aaf60e53434154adacffb9efd07b774e4", null ]
+    [ "HandleActivateObject", "d5/da1/a25504.html#a0d14ca0b21716855a04a0a9267f3e019", null ],
+    [ "PrepareSpellScript", "d5/da1/a25504.html#a684079434128bacd3d8b8b71c14dc56a", null ],
+    [ "Register", "d5/da1/a25504.html#a266301f59c809c03d0ccfc48a2ace302", null ]
 ];

@@ -1,7 +1,6 @@
 var a27016 =
 [
-    [ "HandleApply", "d9/dda/a27016.html#a75f7fc139cf72aeaa2cc09ba30a8f119", null ],
-    [ "HandlePeriodicTimer", "d9/dda/a27016.html#ae9f438dd0833b2ad214acef0e558a8be", null ],
-    [ "PrepareAuraScript", "d9/dda/a27016.html#ac2040d944e47a4f1cc7721ead44aca77", null ],
-    [ "Register", "d9/dda/a27016.html#abc9eb056267c7effcc7f68a3ad7891da", null ]
+    [ "boss_ysondreAI", "d9/d2f/a27020.html", "d9/d2f/a27020" ],
+    [ "boss_ysondre", "d9/dda/a27016.html#ad12dbb728f4f0cdf2f4c0ba9cd2a167d", null ],
+    [ "GetAI", "d9/dda/a27016.html#a0da215d7bc8ee86216887e682b9335c3", null ]
 ];

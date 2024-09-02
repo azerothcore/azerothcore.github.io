@@ -1,6 +1,6 @@
 var a28012 =
 [
-    [ "CalculateAmount", "dd/d3a/a28012.html#a3491a0a1d2f00f76730ddc53a66c8179", null ],
-    [ "PrepareAuraScript", "dd/d3a/a28012.html#a667883298cee173af941cfc07022f318", null ],
-    [ "Register", "dd/d3a/a28012.html#a22514461b79f736e3ab595fa7fb48b68", null ]
+    [ "Id", "dd/d3a/a28012.html#a5d7f2d5a2890593554ea841deb38abb2", null ],
+    [ "Order", "dd/d3a/a28012.html#a16fca42d9a0a98e034a93984c4362b53", null ],
+    [ "TypeFlags", "dd/d3a/a28012.html#ac7246adc7c6c3217de8ac093983b7553", null ]
 ];

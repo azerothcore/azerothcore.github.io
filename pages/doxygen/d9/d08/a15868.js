@@ -1,6 +1,5 @@
 var a15868 =
 [
-    [ "npc_shadowpriest_sezzizAI", "d9/d47/a15872.html", "d9/d47/a15872" ],
-    [ "npc_shadowpriest_sezziz", "d9/d08/a15868.html#a1be46acc9d8f1405f925f7b7f87592ea", null ],
-    [ "GetAI", "d9/d08/a15868.html#a1513b766f18dbc290b6682582fd33b1d", null ]
+    [ "at_baltharus_plateau", "d9/d08/a15868.html#ac7acc8816b298446ac9bb8d6b82f27b6", null ],
+    [ "OnTrigger", "d9/d08/a15868.html#aea08e30eb57d5d84b78b8891c4a45afb", null ]
 ];

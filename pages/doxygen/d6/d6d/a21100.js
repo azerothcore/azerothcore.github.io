@@ -1,6 +1,6 @@
 var a21100 =
 [
-    [ "boss_flame_leviathan_safety_containerAI", "d3/dea/a21104.html", "d3/dea/a21104" ],
-    [ "boss_flame_leviathan_safety_container", "d6/d6d/a21100.html#ae14b2e13bd6358ad03d568f2bef042b7", null ],
-    [ "GetAI", "d6/d6d/a21100.html#a6bcbc4e65214a0c667875271ff9aa0dd", null ]
+    [ "npc_ritual_channelerAI", "d3/dea/a21104.html", "d3/dea/a21104" ],
+    [ "npc_ritual_channeler", "d6/d6d/a21100.html#adab372002549b009e3f937ec67e49f3f", null ],
+    [ "GetAI", "d6/d6d/a21100.html#aa416545438d701cbfc2567ba5ae536c8", null ]
 ];

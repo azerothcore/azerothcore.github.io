@@ -1,6 +1,6 @@
 var a22008 =
 [
-    [ "boss_xt002AI", "d1/d55/a22012.html", "d1/d55/a22012" ],
-    [ "boss_xt002", "d2/dc1/a22008.html#aebd7e513b3bef6a25ad0f9766d18174e", null ],
-    [ "GetAI", "d2/dc1/a22008.html#a146e4a10da7d81213e7f63d6e86c79f2", null ]
+    [ "npc_boneguard_footmanAI", "d2/dc1/a22008.html#a04eff1976824724b321f0c0d95e0940a", null ],
+    [ "UpdateAI", "d2/dc1/a22008.html#a9cba65867824daeb50cb2b39d68ad84b", null ],
+    [ "checkTimer", "d2/dc1/a22008.html#a46dd1fa8d111dca0584a8e6fb7a6a566", null ]
 ];

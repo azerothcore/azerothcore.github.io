@@ -1,7 +1,9 @@
 var a21416 =
 [
-    [ "npc_ulduar_icicleAI", "d5/d86/a21416.html#a258376e257fbe3c8a6c70b2585d44df1", null ],
-    [ "UpdateAI", "d5/d86/a21416.html#a0edf734ae2dac7a5378b21b73e3714c8", null ],
-    [ "timer1", "d5/d86/a21416.html#aa912acbe225d9056e44bc22b8d9f7473", null ],
-    [ "timer2", "d5/d86/a21416.html#a82e034fc4ccb8eb92abeb72a222764c7", null ]
+    [ "npc_azure_sorcerorAI", "d5/d86/a21416.html#a474a7144908d4820341dc56f77436b90", null ],
+    [ "Reset", "d5/d86/a21416.html#a4c637288f79e1da4bdace6516cd887b1", null ],
+    [ "UpdateAI", "d5/d86/a21416.html#a928d789e2cbd35b228857a23c4204ea1", null ],
+    [ "uiArcaneStreamTimer", "d5/d86/a21416.html#ad238fe8fed4dcefd923d901e4f73ed05", null ],
+    [ "uiArcaneStreamTimerStartingValueHolder", "d5/d86/a21416.html#af044879e8e064e28a491c87d0c6cde74", null ],
+    [ "uiManaDetonationTimer", "d5/d86/a21416.html#a3ebe4eb452296f3c45db5c1b6cdaa243", null ]
 ];

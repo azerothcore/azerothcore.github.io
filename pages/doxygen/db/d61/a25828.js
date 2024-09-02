@@ -1,6 +1,6 @@
 var a25828 =
 [
-    [ "spell_kaelthas_flame_strike_AuraScript", "d2/df3/a25832.html", "d2/df3/a25832" ],
-    [ "spell_kaelthas_flame_strike", "db/d61/a25828.html#a5c5ded6724be16d04a1e346fff579801", null ],
-    [ "GetAuraScript", "db/d61/a25828.html#a7d107277d866e65cec6ad55fa8750bf0", null ]
+    [ "CheckProc", "db/d61/a25828.html#a1da9fe2fa918a8f92a53de8eee9d1830", null ],
+    [ "PrepareAuraScript", "db/d61/a25828.html#a3fa05a39b003805f405d814214f4366e", null ],
+    [ "Register", "db/d61/a25828.html#a9b7f633b60dd7798b8f2f85d14c26ca2", null ]
 ];

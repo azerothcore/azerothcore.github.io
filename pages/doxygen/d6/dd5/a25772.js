@@ -1,6 +1,7 @@
 var a25772 =
 [
-    [ "boss_kaelthasAI", "da/dda/a25776.html", "da/dda/a25776" ],
-    [ "boss_kaelthas", "d6/dd5/a25772.html#a690d04e2bfca7b2b17cf7c53c46a6b06", null ],
-    [ "GetAI", "d6/dd5/a25772.html#a02de0dcee68dca802606565831e4fc05", null ]
+    [ "HandleDummy", "d6/dd5/a25772.html#addfcb17cbbb56bda88997b34ce3e3ddd", null ],
+    [ "PrepareSpellScript", "d6/dd5/a25772.html#a22614b06c6f1853f02a992dcab027a60", null ],
+    [ "Register", "d6/dd5/a25772.html#a9ad5691f6049078c45052d07513b35a2", null ],
+    [ "Validate", "d6/dd5/a25772.html#a3fab2057be5de9e2f7703b8f43a99ed5", null ]
 ];

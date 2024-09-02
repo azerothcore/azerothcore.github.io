@@ -1,10 +1,6 @@
 var a22976 =
 [
-    [ "npc_sinkhole_kill_creditAI", "d3/d15/a22976.html#af2050289be6bc1c47d1ad40fc4bfa313", null ],
-    [ "Reset", "d3/d15/a22976.html#a677990d64d2963ff995d9d8522c5aa81", null ],
-    [ "SpellHit", "d3/d15/a22976.html#a95eaf518fb18b67820d6195cd525b017", null ],
-    [ "UpdateAI", "d3/d15/a22976.html#a75611004a543bece9d3f51914547f2fe", null ],
-    [ "casterGuid", "d3/d15/a22976.html#a147921788b07f5e776e03aaf15049cf0", null ],
-    [ "phase", "d3/d15/a22976.html#aa45455a8d540d6f942c948cf56d11f05", null ],
-    [ "phaseTimer", "d3/d15/a22976.html#aa268004c1eedf086ae8345e0ba10e2ca", null ]
+    [ "HandleScriptEffect", "d3/d15/a22976.html#a0810dd4ad4d324c1a53e192fc99d1d35", null ],
+    [ "PrepareSpellScript", "d3/d15/a22976.html#a0ece61d7bed3e19ee6f6175a55c0733d", null ],
+    [ "Register", "d3/d15/a22976.html#a827cefe322562f0e8ea7cfa58b9a776b", null ]
 ];

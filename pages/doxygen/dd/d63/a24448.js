@@ -1,6 +1,6 @@
 var a24448 =
 [
-    [ "HandleScriptEffect", "dd/d63/a24448.html#a6a7b7e35a8a608acb86d605a577e42cc", null ],
-    [ "PrepareSpellScript", "dd/d63/a24448.html#acacef6d2ffea45de3ddd457c164efbec", null ],
-    [ "Register", "dd/d63/a24448.html#a32397f20a4fe8a2313dfcbd3f59d5d62", null ]
+    [ "PrepareSpellScript", "dd/d63/a24448.html#ad6190cf9ab80ebfd982c1b166d950656", null ],
+    [ "Register", "dd/d63/a24448.html#a4b349a325759517c35d04202e5df9cec", null ],
+    [ "SetDest", "dd/d63/a24448.html#a951f733ab2452655a3b579f8ed190fb0", null ]
 ];

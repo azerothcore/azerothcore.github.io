@@ -1,6 +1,6 @@
 var a13828 =
 [
-    [ "boss_arlokkAI", "df/d98/a13832.html", "df/d98/a13832" ],
-    [ "boss_arlokk", "d7/d4d/a13828.html#a55bb21239e05acff18d2fb147449800e", null ],
-    [ "GetAI", "d7/d4d/a13828.html#a58b8cc7a198784b48faaab1b069d397c", null ]
+    [ "FilterTargets", "d7/d4d/a13828.html#ac29f6792f36f1b5ef4a463754c725a2e", null ],
+    [ "PrepareSpellScript", "d7/d4d/a13828.html#a0a1cbde8aff10303d91a791276a865f4", null ],
+    [ "Register", "d7/d4d/a13828.html#a9f7d21ab52f581ad154a242ce84d8a5d", null ]
 ];

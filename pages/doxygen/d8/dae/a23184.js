@@ -1,6 +1,6 @@
 var a23184 =
 [
-    [ "npc_dalaran_mageAI", "d5/d95/a23188.html", "d5/d95/a23188" ],
-    [ "npc_dalaran_mage", "d8/dae/a23184.html#a764d637ab0c64e2a0cc0459269974d6d", null ],
-    [ "GetAI", "d8/dae/a23184.html#ae2deef0546e2bf0df562e0a67b8b0b93", null ]
+    [ "HandleEffectRemove", "d8/dae/a23184.html#ab4c215a735ead9959fd78972a6da72e4", null ],
+    [ "PrepareAuraScript", "d8/dae/a23184.html#a75be2f838d6773b619dfac80e32557b8", null ],
+    [ "Register", "d8/dae/a23184.html#a239068b4e4ad88b5be93a031043ad7ca", null ]
 ];

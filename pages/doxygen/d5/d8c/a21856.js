@@ -1,5 +1,7 @@
 var a21856 =
 [
-    [ "go_ulduar_working_harpoon", "d5/d8c/a21856.html#a9aaaa16f23f07e402f20a048fd69d347", null ],
-    [ "OnGossipHello", "d5/d8c/a21856.html#a164bdd0a9538293699665a821c4f25f3", null ]
+    [ "HandleScriptEffect", "d5/d8c/a21856.html#a2d39a073c351860db735301b4cf9c79f", null ],
+    [ "PrepareSpellScript", "d5/d8c/a21856.html#a3674adaef23f1531af360a65c14efadd", null ],
+    [ "Register", "d5/d8c/a21856.html#a11b217c0066217f2da5ff42ce35c9a0a", null ],
+    [ "Validate", "d5/d8c/a21856.html#a3dadb61ca7dd8195ba5fdac5bf49583c", null ]
 ];

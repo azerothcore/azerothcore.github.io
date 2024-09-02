@@ -1,6 +1,8 @@
 var a23304 =
 [
-    [ "SACDeactivateEvent", "d2/d2d/a23304.html#a14f1db2f3bf7e82d0e5c5b5135d46cf9", null ],
-    [ "Execute", "d2/d2d/a23304.html#a12179c55d1999b3cd0cfc5d51d039a31", null ],
-    [ "_owner", "d2/d2d/a23304.html#acc87b2f689bf2e6a3f19440dceb6ea6d", null ]
+    [ "boss_mekgineer_steamrigger", "d2/d2d/a23304.html#a930dcbade7135d0c689bcc0718815547", null ],
+    [ "JustDied", "d2/d2d/a23304.html#a79272c233bc0256cca62700fc7a01421", null ],
+    [ "JustEngagedWith", "d2/d2d/a23304.html#aa75dea00ffd73b45ba5115ea1e48a006", null ],
+    [ "JustSummoned", "d2/d2d/a23304.html#a7a55a9dffaf239e73962356eb0fa88ad", null ],
+    [ "KilledUnit", "d2/d2d/a23304.html#a84374438458cb7e034f91d4b65cd22f1", null ]
 ];

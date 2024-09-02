@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/EasternKingdoms/zone_eversong_woods.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/GroupScript.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,152 +106,84 @@ $(document).ready(function(){initNavTree('d3/dbd/a01100.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">zone_eversong_woods.cpp File Reference</div></div>
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">GroupScript.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d88/a13311.html">npc_partygoer_pather</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7c/a13315.html">npc_partygoer</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d83/a10020.html">GroupScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a3222d14ce03d75912e65560ebf2a961b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dbd/a01100.html#a3222d14ce03d75912e65560ebf2a961b">Partygoer_Pather</a> { <br />
-&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a3222d14ce03d75912e65560ebf2a961bab210624be9af9dc44683266b3b3efcea">EVENT_PATH</a> = 1
+<tr class="memitem:a373b3fe6b402e8321892b8c1be74ab5d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5d">GroupHook</a> { <br />
+&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da3800aeea2a91eebb3ccdd533a8dfc681">GROUPHOOK_ON_ADD_MEMBER</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a3222d14ce03d75912e65560ebf2a961ba93c437ac824047af79e5296f2f70938b">EVENT_RANDOM_ACTION_PATHER</a> = 2
+&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da4f30d67b987f0ade961e34bce95e85fe">GROUPHOOK_ON_INVITE_MEMBER</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a3222d14ce03d75912e65560ebf2a961baae55cce9b375894e1a9adbbd8c42610f">EVENT_REMOVE_EQUIPMENT_PATHER</a> = 3
+&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5daee0f42175b42d95f45380c1b70c786c3">GROUPHOOK_ON_REMOVE_MEMBER</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a3222d14ce03d75912e65560ebf2a961ba038dd2b09deef9325222dec4d8a99292">EVENT_STOP_DANCING_PATHER</a> = 4
+&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da32d5ef38f2a877e2d36cdf20e9bb6d23">GROUPHOOK_ON_CHANGE_LEADER</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5dafe9e82d7bdea3097607de1e375b0e353">GROUPHOOK_ON_DISBAND</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da9b4d04fe85f908719f1412cb9b88e61c">GROUPHOOK_CAN_GROUP_JOIN_BATTLEGROUND_QUEUE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da0cc7b93ed018172ab0c6f191681e5f6c">GROUPHOOK_ON_CREATE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da71a6d6ef47c3bda7d088f579b6f3a5f2">GROUPHOOK_END</a>
 <br />
  }</td></tr>
-<tr class="separator:a3222d14ce03d75912e65560ebf2a961b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2426dcce5ddc33ba72e2c0ebe9c88e1e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1e">Partygoer</a> { <br />
-&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1eacb43fc5be7eecf527a639a9122091f96">EVENT_RANDOM_ACTION</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1ea37faceace884bd7a013b0d5dd0fac886">EVENT_REMOVE_EQUIPMENT</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1eacaad2f31616c81d6fa79aaad83b2fba4">EVENT_STOP_DANCING</a> = 7
-, <br />
-&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1eaa67af798691d1e37088900cb7c2ebf51">EVENT_THROW_FIREWORKS</a> = 8
-, <br />
-&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1ea1d5b4f747a997b97e8ac881aa879bbb9">EVENT_RESET_FACING</a> = 9
-, <br />
-&#160;&#160;<a class="el" href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1ea4fd8fdeafd948ad27d906801728d7081">GO_FIREWORKS_LAUNCHER</a> = 180771
-<br />
- }</td></tr>
-<tr class="separator:a2426dcce5ddc33ba72e2c0ebe9c88e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a78299b9cdd3e783b3f231a9dda40a7b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dbd/a01100.html#a78299b9cdd3e783b3f231a9dda40a7b4">AddSC_eversong_woods</a> ()</td></tr>
-<tr class="separator:a78299b9cdd3e783b3f231a9dda40a7b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a373b3fe6b402e8321892b8c1be74ab5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a2426dcce5ddc33ba72e2c0ebe9c88e1e" name="a2426dcce5ddc33ba72e2c0ebe9c88e1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2426dcce5ddc33ba72e2c0ebe9c88e1e">&#9670;&#160;</a></span>Partygoer</h2>
+<a id="a373b3fe6b402e8321892b8c1be74ab5d" name="a373b3fe6b402e8321892b8c1be74ab5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a373b3fe6b402e8321892b8c1be74ab5d">&#9670;&#160;</a></span>GroupHook</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1e">Partygoer</a></td>
+          <td class="memname">enum <a class="el" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5d">GroupHook</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2426dcce5ddc33ba72e2c0ebe9c88e1eacb43fc5be7eecf527a639a9122091f96" name="a2426dcce5ddc33ba72e2c0ebe9c88e1eacb43fc5be7eecf527a639a9122091f96"></a>EVENT_RANDOM_ACTION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2426dcce5ddc33ba72e2c0ebe9c88e1ea37faceace884bd7a013b0d5dd0fac886" name="a2426dcce5ddc33ba72e2c0ebe9c88e1ea37faceace884bd7a013b0d5dd0fac886"></a>EVENT_REMOVE_EQUIPMENT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2426dcce5ddc33ba72e2c0ebe9c88e1eacaad2f31616c81d6fa79aaad83b2fba4" name="a2426dcce5ddc33ba72e2c0ebe9c88e1eacaad2f31616c81d6fa79aaad83b2fba4"></a>EVENT_STOP_DANCING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2426dcce5ddc33ba72e2c0ebe9c88e1eaa67af798691d1e37088900cb7c2ebf51" name="a2426dcce5ddc33ba72e2c0ebe9c88e1eaa67af798691d1e37088900cb7c2ebf51"></a>EVENT_THROW_FIREWORKS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2426dcce5ddc33ba72e2c0ebe9c88e1ea1d5b4f747a997b97e8ac881aa879bbb9" name="a2426dcce5ddc33ba72e2c0ebe9c88e1ea1d5b4f747a997b97e8ac881aa879bbb9"></a>EVENT_RESET_FACING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2426dcce5ddc33ba72e2c0ebe9c88e1ea4fd8fdeafd948ad27d906801728d7081" name="a2426dcce5ddc33ba72e2c0ebe9c88e1ea4fd8fdeafd948ad27d906801728d7081"></a>GO_FIREWORKS_LAUNCHER&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a373b3fe6b402e8321892b8c1be74ab5da3800aeea2a91eebb3ccdd533a8dfc681" name="a373b3fe6b402e8321892b8c1be74ab5da3800aeea2a91eebb3ccdd533a8dfc681"></a>GROUPHOOK_ON_ADD_MEMBER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a373b3fe6b402e8321892b8c1be74ab5da4f30d67b987f0ade961e34bce95e85fe" name="a373b3fe6b402e8321892b8c1be74ab5da4f30d67b987f0ade961e34bce95e85fe"></a>GROUPHOOK_ON_INVITE_MEMBER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a373b3fe6b402e8321892b8c1be74ab5daee0f42175b42d95f45380c1b70c786c3" name="a373b3fe6b402e8321892b8c1be74ab5daee0f42175b42d95f45380c1b70c786c3"></a>GROUPHOOK_ON_REMOVE_MEMBER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a373b3fe6b402e8321892b8c1be74ab5da32d5ef38f2a877e2d36cdf20e9bb6d23" name="a373b3fe6b402e8321892b8c1be74ab5da32d5ef38f2a877e2d36cdf20e9bb6d23"></a>GROUPHOOK_ON_CHANGE_LEADER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a373b3fe6b402e8321892b8c1be74ab5dafe9e82d7bdea3097607de1e375b0e353" name="a373b3fe6b402e8321892b8c1be74ab5dafe9e82d7bdea3097607de1e375b0e353"></a>GROUPHOOK_ON_DISBAND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a373b3fe6b402e8321892b8c1be74ab5da9b4d04fe85f908719f1412cb9b88e61c" name="a373b3fe6b402e8321892b8c1be74ab5da9b4d04fe85f908719f1412cb9b88e61c"></a>GROUPHOOK_CAN_GROUP_JOIN_BATTLEGROUND_QUEUE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a373b3fe6b402e8321892b8c1be74ab5da0cc7b93ed018172ab0c6f191681e5f6c" name="a373b3fe6b402e8321892b8c1be74ab5da0cc7b93ed018172ab0c6f191681e5f6c"></a>GROUPHOOK_ON_CREATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a373b3fe6b402e8321892b8c1be74ab5da71a6d6ef47c3bda7d088f579b6f3a5f2" name="a373b3fe6b402e8321892b8c1be74ab5da71a6d6ef47c3bda7d088f579b6f3a5f2"></a>GROUPHOOK_END&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">  121</span>{</div>
-<div class="line"><span class="lineno">  122</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1eacb43fc5be7eecf527a639a9122091f96">EVENT_RANDOM_ACTION</a>    = 5,</div>
-<div class="line"><span class="lineno">  123</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1ea37faceace884bd7a013b0d5dd0fac886">EVENT_REMOVE_EQUIPMENT</a> = 6,</div>
-<div class="line"><span class="lineno">  124</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1eacaad2f31616c81d6fa79aaad83b2fba4">EVENT_STOP_DANCING</a>     = 7,</div>
-<div class="line"><span class="lineno">  125</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1eaa67af798691d1e37088900cb7c2ebf51">EVENT_THROW_FIREWORKS</a>  = 8,</div>
-<div class="line"><span class="lineno">  126</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1ea1d5b4f747a997b97e8ac881aa879bbb9">EVENT_RESET_FACING</a>     = 9,</div>
-<div class="line"><span class="lineno">  127</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1ea4fd8fdeafd948ad27d906801728d7081">GO_FIREWORKS_LAUNCHER</a>  = 180771</div>
-<div class="line"><span class="lineno">  128</span>};</div>
-<div class="ttc" id="aa01100_html_a2426dcce5ddc33ba72e2c0ebe9c88e1ea1d5b4f747a997b97e8ac881aa879bbb9"><div class="ttname"><a href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1ea1d5b4f747a997b97e8ac881aa879bbb9">EVENT_RESET_FACING</a></div><div class="ttdeci">@ EVENT_RESET_FACING</div><div class="ttdef"><b>Definition:</b> zone_eversong_woods.cpp:126</div></div>
-<div class="ttc" id="aa01100_html_a2426dcce5ddc33ba72e2c0ebe9c88e1ea37faceace884bd7a013b0d5dd0fac886"><div class="ttname"><a href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1ea37faceace884bd7a013b0d5dd0fac886">EVENT_REMOVE_EQUIPMENT</a></div><div class="ttdeci">@ EVENT_REMOVE_EQUIPMENT</div><div class="ttdef"><b>Definition:</b> zone_eversong_woods.cpp:123</div></div>
-<div class="ttc" id="aa01100_html_a2426dcce5ddc33ba72e2c0ebe9c88e1ea4fd8fdeafd948ad27d906801728d7081"><div class="ttname"><a href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1ea4fd8fdeafd948ad27d906801728d7081">GO_FIREWORKS_LAUNCHER</a></div><div class="ttdeci">@ GO_FIREWORKS_LAUNCHER</div><div class="ttdef"><b>Definition:</b> zone_eversong_woods.cpp:127</div></div>
-<div class="ttc" id="aa01100_html_a2426dcce5ddc33ba72e2c0ebe9c88e1eaa67af798691d1e37088900cb7c2ebf51"><div class="ttname"><a href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1eaa67af798691d1e37088900cb7c2ebf51">EVENT_THROW_FIREWORKS</a></div><div class="ttdeci">@ EVENT_THROW_FIREWORKS</div><div class="ttdef"><b>Definition:</b> zone_eversong_woods.cpp:125</div></div>
-<div class="ttc" id="aa01100_html_a2426dcce5ddc33ba72e2c0ebe9c88e1eacaad2f31616c81d6fa79aaad83b2fba4"><div class="ttname"><a href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1eacaad2f31616c81d6fa79aaad83b2fba4">EVENT_STOP_DANCING</a></div><div class="ttdeci">@ EVENT_STOP_DANCING</div><div class="ttdef"><b>Definition:</b> zone_eversong_woods.cpp:124</div></div>
-<div class="ttc" id="aa01100_html_a2426dcce5ddc33ba72e2c0ebe9c88e1eacb43fc5be7eecf527a639a9122091f96"><div class="ttname"><a href="../../d3/dbd/a01100.html#a2426dcce5ddc33ba72e2c0ebe9c88e1eacb43fc5be7eecf527a639a9122091f96">EVENT_RANDOM_ACTION</a></div><div class="ttdeci">@ EVENT_RANDOM_ACTION</div><div class="ttdef"><b>Definition:</b> zone_eversong_woods.cpp:122</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da3800aeea2a91eebb3ccdd533a8dfc681">GROUPHOOK_ON_ADD_MEMBER</a>,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da4f30d67b987f0ade961e34bce95e85fe">GROUPHOOK_ON_INVITE_MEMBER</a>,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5daee0f42175b42d95f45380c1b70c786c3">GROUPHOOK_ON_REMOVE_MEMBER</a>,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da32d5ef38f2a877e2d36cdf20e9bb6d23">GROUPHOOK_ON_CHANGE_LEADER</a>,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5dafe9e82d7bdea3097607de1e375b0e353">GROUPHOOK_ON_DISBAND</a>,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da9b4d04fe85f908719f1412cb9b88e61c">GROUPHOOK_CAN_GROUP_JOIN_BATTLEGROUND_QUEUE</a>,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da0cc7b93ed018172ab0c6f191681e5f6c">GROUPHOOK_ON_CREATE</a>,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da71a6d6ef47c3bda7d088f579b6f3a5f2">GROUPHOOK_END</a></div>
+<div class="line"><span class="lineno">   35</span>};</div>
+<div class="ttc" id="aa01100_html_a373b3fe6b402e8321892b8c1be74ab5da0cc7b93ed018172ab0c6f191681e5f6c"><div class="ttname"><a href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da0cc7b93ed018172ab0c6f191681e5f6c">GROUPHOOK_ON_CREATE</a></div><div class="ttdeci">@ GROUPHOOK_ON_CREATE</div><div class="ttdef"><b>Definition:</b> GroupScript.h:33</div></div>
+<div class="ttc" id="aa01100_html_a373b3fe6b402e8321892b8c1be74ab5da32d5ef38f2a877e2d36cdf20e9bb6d23"><div class="ttname"><a href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da32d5ef38f2a877e2d36cdf20e9bb6d23">GROUPHOOK_ON_CHANGE_LEADER</a></div><div class="ttdeci">@ GROUPHOOK_ON_CHANGE_LEADER</div><div class="ttdef"><b>Definition:</b> GroupScript.h:30</div></div>
+<div class="ttc" id="aa01100_html_a373b3fe6b402e8321892b8c1be74ab5da3800aeea2a91eebb3ccdd533a8dfc681"><div class="ttname"><a href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da3800aeea2a91eebb3ccdd533a8dfc681">GROUPHOOK_ON_ADD_MEMBER</a></div><div class="ttdeci">@ GROUPHOOK_ON_ADD_MEMBER</div><div class="ttdef"><b>Definition:</b> GroupScript.h:27</div></div>
+<div class="ttc" id="aa01100_html_a373b3fe6b402e8321892b8c1be74ab5da4f30d67b987f0ade961e34bce95e85fe"><div class="ttname"><a href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da4f30d67b987f0ade961e34bce95e85fe">GROUPHOOK_ON_INVITE_MEMBER</a></div><div class="ttdeci">@ GROUPHOOK_ON_INVITE_MEMBER</div><div class="ttdef"><b>Definition:</b> GroupScript.h:28</div></div>
+<div class="ttc" id="aa01100_html_a373b3fe6b402e8321892b8c1be74ab5da71a6d6ef47c3bda7d088f579b6f3a5f2"><div class="ttname"><a href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da71a6d6ef47c3bda7d088f579b6f3a5f2">GROUPHOOK_END</a></div><div class="ttdeci">@ GROUPHOOK_END</div><div class="ttdef"><b>Definition:</b> GroupScript.h:34</div></div>
+<div class="ttc" id="aa01100_html_a373b3fe6b402e8321892b8c1be74ab5da9b4d04fe85f908719f1412cb9b88e61c"><div class="ttname"><a href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5da9b4d04fe85f908719f1412cb9b88e61c">GROUPHOOK_CAN_GROUP_JOIN_BATTLEGROUND_QUEUE</a></div><div class="ttdeci">@ GROUPHOOK_CAN_GROUP_JOIN_BATTLEGROUND_QUEUE</div><div class="ttdef"><b>Definition:</b> GroupScript.h:32</div></div>
+<div class="ttc" id="aa01100_html_a373b3fe6b402e8321892b8c1be74ab5daee0f42175b42d95f45380c1b70c786c3"><div class="ttname"><a href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5daee0f42175b42d95f45380c1b70c786c3">GROUPHOOK_ON_REMOVE_MEMBER</a></div><div class="ttdeci">@ GROUPHOOK_ON_REMOVE_MEMBER</div><div class="ttdef"><b>Definition:</b> GroupScript.h:29</div></div>
+<div class="ttc" id="aa01100_html_a373b3fe6b402e8321892b8c1be74ab5dafe9e82d7bdea3097607de1e375b0e353"><div class="ttname"><a href="../../d3/dbd/a01100.html#a373b3fe6b402e8321892b8c1be74ab5dafe9e82d7bdea3097607de1e375b0e353">GROUPHOOK_ON_DISBAND</a></div><div class="ttdeci">@ GROUPHOOK_ON_DISBAND</div><div class="ttdef"><b>Definition:</b> GroupScript.h:31</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a3222d14ce03d75912e65560ebf2a961b" name="a3222d14ce03d75912e65560ebf2a961b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3222d14ce03d75912e65560ebf2a961b">&#9670;&#160;</a></span>Partygoer_Pather</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d3/dbd/a01100.html#a3222d14ce03d75912e65560ebf2a961b">Partygoer_Pather</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3222d14ce03d75912e65560ebf2a961bab210624be9af9dc44683266b3b3efcea" name="a3222d14ce03d75912e65560ebf2a961bab210624be9af9dc44683266b3b3efcea"></a>EVENT_PATH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3222d14ce03d75912e65560ebf2a961ba93c437ac824047af79e5296f2f70938b" name="a3222d14ce03d75912e65560ebf2a961ba93c437ac824047af79e5296f2f70938b"></a>EVENT_RANDOM_ACTION_PATHER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3222d14ce03d75912e65560ebf2a961baae55cce9b375894e1a9adbbd8c42610f" name="a3222d14ce03d75912e65560ebf2a961baae55cce9b375894e1a9adbbd8c42610f"></a>EVENT_REMOVE_EQUIPMENT_PATHER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3222d14ce03d75912e65560ebf2a961ba038dd2b09deef9325222dec4d8a99292" name="a3222d14ce03d75912e65560ebf2a961ba038dd2b09deef9325222dec4d8a99292"></a>EVENT_STOP_DANCING_PATHER&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   23</span>{</div>
-<div class="line"><span class="lineno">   24</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a3222d14ce03d75912e65560ebf2a961bab210624be9af9dc44683266b3b3efcea">EVENT_PATH</a>                    = 1,</div>
-<div class="line"><span class="lineno">   25</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a3222d14ce03d75912e65560ebf2a961ba93c437ac824047af79e5296f2f70938b">EVENT_RANDOM_ACTION_PATHER</a>    = 2,</div>
-<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a3222d14ce03d75912e65560ebf2a961baae55cce9b375894e1a9adbbd8c42610f">EVENT_REMOVE_EQUIPMENT_PATHER</a> = 3,</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d3/dbd/a01100.html#a3222d14ce03d75912e65560ebf2a961ba038dd2b09deef9325222dec4d8a99292">EVENT_STOP_DANCING_PATHER</a>     = 4</div>
-<div class="line"><span class="lineno">   28</span>};</div>
-<div class="ttc" id="aa01100_html_a3222d14ce03d75912e65560ebf2a961ba038dd2b09deef9325222dec4d8a99292"><div class="ttname"><a href="../../d3/dbd/a01100.html#a3222d14ce03d75912e65560ebf2a961ba038dd2b09deef9325222dec4d8a99292">EVENT_STOP_DANCING_PATHER</a></div><div class="ttdeci">@ EVENT_STOP_DANCING_PATHER</div><div class="ttdef"><b>Definition:</b> zone_eversong_woods.cpp:27</div></div>
-<div class="ttc" id="aa01100_html_a3222d14ce03d75912e65560ebf2a961ba93c437ac824047af79e5296f2f70938b"><div class="ttname"><a href="../../d3/dbd/a01100.html#a3222d14ce03d75912e65560ebf2a961ba93c437ac824047af79e5296f2f70938b">EVENT_RANDOM_ACTION_PATHER</a></div><div class="ttdeci">@ EVENT_RANDOM_ACTION_PATHER</div><div class="ttdef"><b>Definition:</b> zone_eversong_woods.cpp:25</div></div>
-<div class="ttc" id="aa01100_html_a3222d14ce03d75912e65560ebf2a961baae55cce9b375894e1a9adbbd8c42610f"><div class="ttname"><a href="../../d3/dbd/a01100.html#a3222d14ce03d75912e65560ebf2a961baae55cce9b375894e1a9adbbd8c42610f">EVENT_REMOVE_EQUIPMENT_PATHER</a></div><div class="ttdeci">@ EVENT_REMOVE_EQUIPMENT_PATHER</div><div class="ttdef"><b>Definition:</b> zone_eversong_woods.cpp:26</div></div>
-<div class="ttc" id="aa01100_html_a3222d14ce03d75912e65560ebf2a961bab210624be9af9dc44683266b3b3efcea"><div class="ttname"><a href="../../d3/dbd/a01100.html#a3222d14ce03d75912e65560ebf2a961bab210624be9af9dc44683266b3b3efcea">EVENT_PATH</a></div><div class="ttdeci">@ EVENT_PATH</div><div class="ttdef"><b>Definition:</b> zone_eversong_woods.cpp:24</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a78299b9cdd3e783b3f231a9dda40a7b4" name="a78299b9cdd3e783b3f231a9dda40a7b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78299b9cdd3e783b3f231a9dda40a7b4">&#9670;&#160;</a></span>AddSC_eversong_woods()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_eversong_woods </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  221</span>{</div>
-<div class="line"><span class="lineno">  222</span>    <a class="code hl_define" href="../../df/d28/a03821.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d7/d88/a13311.html">npc_partygoer_pather</a>);</div>
-<div class="line"><span class="lineno">  223</span>    <a class="code hl_define" href="../../df/d28/a03821.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d3/d7c/a13315.html">npc_partygoer</a>);</div>
-<div class="line"><span class="lineno">  224</span>}</div>
-<div class="ttc" id="aa03821_html_a5e7352841895df7117e2830448eb533f"><div class="ttname"><a href="../../df/d28/a03821.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a></div><div class="ttdeci">#define RegisterCreatureAI(ai_name)</div><div class="ttdef"><b>Definition:</b> CreatureScript.h:71</div></div>
-<div class="ttc" id="aa13311_html"><div class="ttname"><a href="../../d7/d88/a13311.html">npc_partygoer_pather</a></div><div class="ttdef"><b>Definition:</b> zone_eversong_woods.cpp:31</div></div>
-<div class="ttc" id="aa13315_html"><div class="ttname"><a href="../../d3/d7c/a13315.html">npc_partygoer</a></div><div class="ttdef"><b>Definition:</b> zone_eversong_woods.cpp:131</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00071">RegisterCreatureAI</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00169">AddEasternKingdomsScripts()</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -259,8 +191,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ddeb450e5fe586f747c0635391d1d1d6.html">EasternKingdoms</a></li><li class="navelem"><a class="el" href="../../d3/dbd/a01100.html">zone_eversong_woods.cpp</a></li>
-    <li class="footer">Generated on Tue Aug 27 2024 09:59:42 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d3/dbd/a01100.html">GroupScript.h</a></li>
+    <li class="footer">Generated on Mon Sep 2 2024 20:38:53 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

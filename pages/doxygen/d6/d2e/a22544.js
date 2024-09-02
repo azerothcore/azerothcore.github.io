@@ -1,7 +1,9 @@
 var a22544 =
 [
-    [ "HandleOnEffectRemove", "d6/d2e/a22544.html#a728bd45a9fa110da9c24d01513dfb6a1", null ],
-    [ "PrepareAuraScript", "d6/d2e/a22544.html#a9bb1dcd8bd62c613df965bb076178505", null ],
-    [ "Register", "d6/d2e/a22544.html#ae5188adf9d2dc006c03ab22ffd7d78f6", null ],
-    [ "Validate", "d6/d2e/a22544.html#ab0a9f074d247e8a37d1ebbc08bb916d7", null ]
+    [ "npc_stolen_soul", "d6/d2e/a22544.html#a84a0bb8320b2332545748e010d855884", null ],
+    [ "DoAction", "d6/d2e/a22544.html#abcfed6b9b46ce48a15b31d062a1618f4", null ],
+    [ "Reset", "d6/d2e/a22544.html#a9f18ffbb42c988067b6dfa8355a4aba6", null ],
+    [ "UpdateAI", "d6/d2e/a22544.html#a7bf369dd943ee36600a364d56b85db5a", null ],
+    [ "_scheduler", "d6/d2e/a22544.html#ab62526916f0ccd681383d37d19d94ccc", null ],
+    [ "myClass", "d6/d2e/a22544.html#ab2ad92983075320ce389aa583c341d21", null ]
 ];

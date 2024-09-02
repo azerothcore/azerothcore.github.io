@@ -1,11 +1,18 @@
 var a24036 =
 [
-    [ "npc_drakuru_shacklesAI", "df/d27/a24036.html#aeb55bf23d97e963b0fb9a18596bb58b1", null ],
-    [ "LockRageclaw", "df/d27/a24036.html#aa58fff9ee8e6cbe4d2dd0d391215f1f4", null ],
-    [ "Reset", "df/d27/a24036.html#a566fba51edcddab8c5b0bf5688571f80", null ],
-    [ "SpellHit", "df/d27/a24036.html#a04a9f0cc28cd8cab89120e66972b74cf", null ],
-    [ "UnlockRageclaw", "df/d27/a24036.html#a65a4b408ac09ffa3155b955dc054d971", null ],
-    [ "UpdateAI", "df/d27/a24036.html#a8a04ac89e5ec9ce841445913765a1a73", null ],
-    [ "_rageclawGUID", "df/d27/a24036.html#a1c991305f4ef30146930747881e57de4", null ],
-    [ "timer", "df/d27/a24036.html#a2a6484216abd731ad016284a79575e1c", null ]
+    [ "npc_commander_dawnforgeAI", "df/d27/a24036.html#a70ff1a69374b62bf6aadf1bfabe8bdb3", null ],
+    [ "CanStartEvent", "df/d27/a24036.html#afb3eb981fe7e7cdcd0caca8f7d7c14f9", null ],
+    [ "JustEngagedWith", "df/d27/a24036.html#affa24c62af088b4b216aaa4789f6a40e", null ],
+    [ "JustSummoned", "df/d27/a24036.html#a76bfbed03ad9f83b953da5f53aa45b73", null ],
+    [ "Reset", "df/d27/a24036.html#af57a218b98606c273ee3eba5d661d5d1", null ],
+    [ "Turn_to_eachother", "df/d27/a24036.html#a7442d526cc09f98a3cd53749e09fb6f0", null ],
+    [ "Turn_to_Pathaleons_Image", "df/d27/a24036.html#a88cca74225a0099c85bb661c7f2ad382", null ],
+    [ "UpdateAI", "df/d27/a24036.html#ae4ca305e3067cbdb2771d6a9e858f191", null ],
+    [ "ardonisGUID", "df/d27/a24036.html#ad0f1b869b85c8a94e84be5714a191cab", null ],
+    [ "isEvent", "df/d27/a24036.html#a93cf7cfcf3197543c3878278d99ff980", null ],
+    [ "pathaleonGUID", "df/d27/a24036.html#a9b20a0ad46dc0be2fe1a65072eb3477a", null ],
+    [ "Phase", "df/d27/a24036.html#a1a440773676ab7e2cd416eba70c90d74", null ],
+    [ "Phase_Timer", "df/d27/a24036.html#a798cf4bf43df377f764dac07c13bc676", null ],
+    [ "PhaseSubphase", "df/d27/a24036.html#ae8f5216936ce3a3b5aa9d5b773521523", null ],
+    [ "PlayerGUID", "df/d27/a24036.html#ab6c0afdc952c048efeea9d665075c54f", null ]
 ];

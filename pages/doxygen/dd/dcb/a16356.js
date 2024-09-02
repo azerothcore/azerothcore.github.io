@@ -1,6 +1,6 @@
 var a16356 =
 [
-    [ "npc_living_infernoAI", "dd/dcb/a16356.html#ab33eeac6aab8e18778fc7d4ffe5038f1", null ],
-    [ "IsSummonedBy", "dd/dcb/a16356.html#a4b6986a392aee0741ba47651e809c76c", null ],
-    [ "JustDied", "dd/dcb/a16356.html#a60b2e31d24e182e97d604d91223e2dc8", null ]
+    [ "npc_fel_infernalAI", "d7/d18/a16360.html", "d7/d18/a16360" ],
+    [ "npc_fel_infernal", "dd/dcb/a16356.html#a2d2ed8cf09c97d30b6c79dcdf9153ed9", null ],
+    [ "GetAI", "dd/dcb/a16356.html#a768201a7516c9972800c941cf2079a11", null ]
 ];

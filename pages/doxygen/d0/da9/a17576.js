@@ -1,6 +1,6 @@
 var a17576 =
 [
-    [ "HandleScriptEffect", "d0/da9/a17576.html#a70c738381f2bba2f7cd995c31154ebb8", null ],
-    [ "PrepareSpellScript", "d0/da9/a17576.html#aa8ad71522d452c90b653c3093608dabc", null ],
-    [ "Register", "d0/da9/a17576.html#ac2cacccb68b963c04c654c13ce8b52ca", null ]
+    [ "DaranavanMoveEvent", "d0/da9/a17576.html#add38d87b9108c09aa9b9fd60f12abcde", null ],
+    [ "Execute", "d0/da9/a17576.html#ada0ebc4a9c9f949dd0155a554a553543", null ],
+    [ "_darnavan", "d0/da9/a17576.html#a7585edb957755efbc6064f232d50ea4e", null ]
 ];

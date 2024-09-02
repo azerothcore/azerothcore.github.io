@@ -1,7 +1,6 @@
 var a21640 =
 [
-    [ "StoneGripTargetSelector", "d0/d18/a21640.html#a74fc772e2bc0694dee05fe82de4463e2", null ],
-    [ "operator()", "d0/d18/a21640.html#ae40653def55e656f2347029a97605395", null ],
-    [ "_me", "d0/d18/a21640.html#ae5781d6b553491a1e3e8bfde2b965c3a", null ],
-    [ "_victim", "d0/d18/a21640.html#a09c3c6f832c20776f11b72a468a4b0bb", null ]
+    [ "npc_dalaran_mageAI", "db/d57/a21644.html", "db/d57/a21644" ],
+    [ "npc_dalaran_mage", "d0/d18/a21640.html#a764d637ab0c64e2a0cc0459269974d6d", null ],
+    [ "GetAI", "d0/d18/a21640.html#ae2deef0546e2bf0df562e0a67b8b0b93", null ]
 ];

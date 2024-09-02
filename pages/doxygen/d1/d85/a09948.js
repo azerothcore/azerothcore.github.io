@@ -1,6 +1,10 @@
 var a09948 =
 [
-    [ "QueryGuildInfo", "d1/d85/a09948.html#a34b129b3c9fef61aa4211a9bc2783aef", null ],
-    [ "Read", "d1/d85/a09948.html#a0396a58ca114706f7de91f51c5ab949d", null ],
-    [ "GuildId", "d1/d85/a09948.html#ad221eecdb16233251306fff3d9801f38", null ]
+    [ "ArenaTeamScript", "d1/d85/a09948.html#ab86543c6ce76ff21e4306c799b99c896", null ],
+    [ "IsDatabaseBound", "d1/d85/a09948.html#a4d30f94084ae63eadd952c05b13f3ff4", null ],
+    [ "OnGetArenaPoints", "d1/d85/a09948.html#aa4b2d40921443cefee2775da6ca31b3e", null ],
+    [ "OnGetSlotByType", "d1/d85/a09948.html#a1ff67b327073bb8ebf10e7fddce92835", null ],
+    [ "OnQueueIdToArenaType", "d1/d85/a09948.html#a2a26e8c87c5fa7e85eb2f0517ced29e8", null ],
+    [ "OnSetArenaMaxPlayersPerTeam", "d1/d85/a09948.html#a776548946a09dcb3e76bd97f3c425e7f", null ],
+    [ "OnTypeIDToQueueID", "d1/d85/a09948.html#abcdd905b695f926e503db610d80ada3c", null ]
 ];

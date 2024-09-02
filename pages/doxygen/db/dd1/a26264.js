@@ -1,6 +1,8 @@
 var a26264 =
 [
-    [ "npc_illidari_spawnAI", "d9/dec/a26268.html", "d9/dec/a26268" ],
-    [ "npc_illidari_spawn", "db/dd1/a26264.html#ac8dbb30fe7f40d29a3434c8a888ace60", null ],
-    [ "GetAI", "db/dd1/a26264.html#a7198f506b0d4fd55d22fc72a90f42a09", null ]
+    [ "HandleDummy", "db/dd1/a26264.html#a1afcd9c6ab96c87db8aa4899d0830899", null ],
+    [ "Load", "db/dd1/a26264.html#a11d3cd0eccd4895f5cd9d2721bd3fd0c", null ],
+    [ "PrepareSpellScript", "db/dd1/a26264.html#a252784bb4b438750db5ef7f905477140", null ],
+    [ "Register", "db/dd1/a26264.html#ab93554e82cbed0c78452846c95247584", null ],
+    [ "Validate", "db/dd1/a26264.html#a33404726f5e5986b263eb0a0beba9443", null ]
 ];

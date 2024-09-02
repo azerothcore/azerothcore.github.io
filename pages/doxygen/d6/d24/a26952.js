@@ -1,6 +1,11 @@
 var a26952 =
 [
-    [ "CheckProc", "d6/d24/a26952.html#a68d2d8168e405ea4250e2e43a1a350fa", null ],
-    [ "PrepareAuraScript", "d6/d24/a26952.html#a9d797e7bc7133f4a626f4352b2fe7141", null ],
-    [ "Register", "d6/d24/a26952.html#a5b96bb8c2ff456b63bbd200f54294251", null ]
+    [ "AccountActionIpLogger", "d6/d24/a26952.html#a73cad77bd83243cb10c4a1b4d7081e0b", null ],
+    [ "AccountIPLogAction", "d6/d24/a26952.html#a9c978dafb71e67b8b278806df507e34b", null ],
+    [ "OnAccountLogin", "d6/d24/a26952.html#a2952adcd73d775b924671e5a69adaccb", null ],
+    [ "OnEmailChange", "d6/d24/a26952.html#aa15d0cc4e6ed3818fa18a927074f5f0c", null ],
+    [ "OnFailedAccountLogin", "d6/d24/a26952.html#a8225c45bcb83e1ddd91a8dcd0f7da9cd", null ],
+    [ "OnFailedEmailChange", "d6/d24/a26952.html#a9fd73dc7b6954dfb4fc94a1f1288ccd2", null ],
+    [ "OnFailedPasswordChange", "d6/d24/a26952.html#a0663e15ea1a29b3daa672c8b6a25548f", null ],
+    [ "OnPasswordChange", "d6/d24/a26952.html#a4b71aa9c1790e6d4033d884a17ce0a2f", null ]
 ];

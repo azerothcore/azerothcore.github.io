@@ -1,6 +1,6 @@
 var a18772 =
 [
-    [ "spell_sindragosa_icy_grip_SpellScript", "d6/deb/a18776.html", "d6/deb/a18776" ],
-    [ "spell_sindragosa_icy_grip", "d2/d5b/a18772.html#ab39f6b17fd5813822a59c98d3f52b03b", null ],
-    [ "GetSpellScript", "d2/d5b/a18772.html#a1757c0bdb4e49a7376604c1ba9f41147", null ]
+    [ "npc_ioc_gunship_captainAI", "d6/deb/a18776.html", "d6/deb/a18776" ],
+    [ "npc_ioc_gunship_captain", "d2/d5b/a18772.html#a6463d7bc12d5fe4fc8921ba5916ec906", null ],
+    [ "GetAI", "d2/d5b/a18772.html#a43f3ce178df31fbf693acbfa8c32a339", null ]
 ];

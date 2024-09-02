@@ -1,6 +1,6 @@
 var a18676 =
 [
-    [ "spell_rotface_unstable_ooze_explosion_SpellScript", "d7/d8f/a18680.html", "d7/d8f/a18680" ],
-    [ "spell_rotface_unstable_ooze_explosion", "d4/d82/a18676.html#af78c72b5f2fc3997924d645b4c08088a", null ],
-    [ "GetSpellScript", "d4/d82/a18676.html#ac889f959eaa3e178b62601b79c83fef5", null ]
+    [ "npc_icc_vengeful_fleshreaperAI", "d7/d8f/a18680.html", "d7/d8f/a18680" ],
+    [ "npc_icc_vengeful_fleshreaper", "d4/d82/a18676.html#aa95ec1e021f3d123e5a95c356765ac36", null ],
+    [ "GetAI", "d4/d82/a18676.html#abf1903616dbf52718313c8b404b504a5", null ]
 ];

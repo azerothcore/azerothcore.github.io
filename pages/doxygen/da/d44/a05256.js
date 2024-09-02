@@ -1,9 +1,10 @@
 var a05256 =
 [
-    [ "TimeTrackerSmall", "da/d44/a05256.html#a38a962c928eac8546d1fd37a094077cc", null ],
-    [ "GetExpiry", "da/d44/a05256.html#a2ebcfabed1bf252b6afb6c3182142c7b", null ],
-    [ "Passed", "da/d44/a05256.html#af4455d0ebb784497e9fd1a08cc915062", null ],
-    [ "Reset", "da/d44/a05256.html#ab8a3c45ffe0e83132e708b5e87625c02", null ],
-    [ "Update", "da/d44/a05256.html#a6c10a37051caf7c16f1aa057bf2bf7da", null ],
-    [ "i_expiryTime", "da/d44/a05256.html#a332f650bcfc81fb4b0de1b58ff1e0c9b", null ]
+    [ "Category", "da/d44/a05256.html#a6a7956fedac99271428968ba339f464f", null ],
+    [ "Tags", "da/d44/a05256.html#ac22787b2dadd4d3991f72f6ccab5c225", null ],
+    [ "Text", "da/d44/a05256.html#ab63598f64896186fde81048550767b28", null ],
+    [ "Timestamp", "da/d44/a05256.html#a8248a27d920ca431493750e3f2dec48b", null ],
+    [ "Title", "da/d44/a05256.html#a857d2d4843480b9967334f079351292a", null ],
+    [ "Type", "da/d44/a05256.html#af9962592650ba24fd9b3c0ee9ce06f7f", null ],
+    [ "Value", "da/d44/a05256.html#a09832a09e989c3851e72f4ec198f0e20", null ]
 ];

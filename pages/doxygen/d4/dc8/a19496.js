@@ -1,6 +1,6 @@
 var a19496 =
 [
-    [ "npc_rotting_frost_giantAI", "d5/df0/a19500.html", "d5/df0/a19500" ],
-    [ "npc_rotting_frost_giant", "d4/dc8/a19496.html#ad4440216e11a00d97af43dc5f3957e95", null ],
-    [ "GetAI", "d4/dc8/a19496.html#aabc388b3690f2d03e903c7f480d52842", null ]
+    [ "boss_sjonnir_malformed_oozeAI", "d5/df0/a19500.html", "d5/df0/a19500" ],
+    [ "boss_sjonnir_malformed_ooze", "d4/dc8/a19496.html#ad151bc07b032b6cceed046d1b25ecc08", null ],
+    [ "GetAI", "d4/dc8/a19496.html#a22807bb07692511c5ec87073d98c2604", null ]
 ];

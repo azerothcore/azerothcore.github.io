@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Movement/MovementGenerators/RandomMovementGenerator.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Northrend/Nexus/EyeOfEternity/instance_eye_of_eternity.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,101 +106,51 @@ $(document).ready(function(){initNavTree('df/d1e/a03212.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">RandomMovementGenerator.h File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">instance_eye_of_eternity.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">MovementGenerator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">PathGenerator.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">eye_of_eternity.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d36/a09707.html">RandomMovementGenerator&lt; T &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d53/a19144.html">instance_eye_of_eternity</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3f/a19148.html">instance_eye_of_eternity::instance_eye_of_eternity_InstanceMapScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ac0f6eaac315a81192c2307dcbac20f70"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d1e/a03212.html#ac0f6eaac315a81192c2307dcbac20f70">RANDOM_POINTS_NUMBER</a>&#160;&#160;&#160;12</td></tr>
-<tr class="separator:ac0f6eaac315a81192c2307dcbac20f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af447061c654f18b25537973f2739dad3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d1e/a03212.html#af447061c654f18b25537973f2739dad3">RANDOM_LINKS_COUNT</a>&#160;&#160;&#160;7</td></tr>
-<tr class="separator:af447061c654f18b25537973f2739dad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85e56933db548199999e1edb8e96836d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d1e/a03212.html#a85e56933db548199999e1edb8e96836d">MIN_WANDER_DISTANCE_GROUND</a>&#160;&#160;&#160;1.0f</td></tr>
-<tr class="separator:a85e56933db548199999e1edb8e96836d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81b46c6e5a328cf46ead22b160a8a576"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d1e/a03212.html#a81b46c6e5a328cf46ead22b160a8a576">MIN_WANDER_DISTANCE_AIR</a>&#160;&#160;&#160;10.0f</td></tr>
-<tr class="separator:a81b46c6e5a328cf46ead22b160a8a576"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e563601030e3152f7023ecd4fa3f3c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d1e/a03212.html#a6e563601030e3152f7023ecd4fa3f3c7">MAX_PATH_LENGHT_FACTOR</a>&#160;&#160;&#160;1.85f</td></tr>
-<tr class="separator:a6e563601030e3152f7023ecd4fa3f3c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:acd10e2ef086dd7938d397abc8ced1de3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d1e/a03212.html#acd10e2ef086dd7938d397abc8ced1de3">AddSC_instance_eye_of_eternity</a> ()</td></tr>
+<tr class="separator:acd10e2ef086dd7938d397abc8ced1de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a6e563601030e3152f7023ecd4fa3f3c7" name="a6e563601030e3152f7023ecd4fa3f3c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e563601030e3152f7023ecd4fa3f3c7">&#9670;&#160;</a></span>MAX_PATH_LENGHT_FACTOR</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="acd10e2ef086dd7938d397abc8ced1de3" name="acd10e2ef086dd7938d397abc8ced1de3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd10e2ef086dd7938d397abc8ced1de3">&#9670;&#160;</a></span>AddSC_instance_eye_of_eternity()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MAX_PATH_LENGHT_FACTOR&#160;&#160;&#160;1.85f</td>
+          <td class="memname">void AddSC_instance_eye_of_eternity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a81b46c6e5a328cf46ead22b160a8a576" name="a81b46c6e5a328cf46ead22b160a8a576"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81b46c6e5a328cf46ead22b160a8a576">&#9670;&#160;</a></span>MIN_WANDER_DISTANCE_AIR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MIN_WANDER_DISTANCE_AIR&#160;&#160;&#160;10.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a85e56933db548199999e1edb8e96836d" name="a85e56933db548199999e1edb8e96836d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85e56933db548199999e1edb8e96836d">&#9670;&#160;</a></span>MIN_WANDER_DISTANCE_GROUND</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MIN_WANDER_DISTANCE_GROUND&#160;&#160;&#160;1.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af447061c654f18b25537973f2739dad3" name="af447061c654f18b25537973f2739dad3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af447061c654f18b25537973f2739dad3">&#9670;&#160;</a></span>RANDOM_LINKS_COUNT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RANDOM_LINKS_COUNT&#160;&#160;&#160;7</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac0f6eaac315a81192c2307dcbac20f70" name="ac0f6eaac315a81192c2307dcbac20f70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0f6eaac315a81192c2307dcbac20f70">&#9670;&#160;</a></span>RANDOM_POINTS_NUMBER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define RANDOM_POINTS_NUMBER&#160;&#160;&#160;12</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  251</span>{</div>
+<div class="line"><span class="lineno">  252</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d53/a19144.html">instance_eye_of_eternity</a>();</div>
+<div class="line"><span class="lineno">  253</span>}</div>
+<div class="ttc" id="aa19144_html"><div class="ttname"><a href="../../dc/d53/a19144.html">instance_eye_of_eternity</a></div><div class="ttdef"><b>Definition:</b> instance_eye_of_eternity.cpp:37</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00183">AddNorthrendScripts()</a>.</p>
 
 </div>
 </div>
@@ -209,8 +159,8 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_0787b0a4fdc11b0654465feaa92c32a3.html">Movement</a></li><li class="navelem"><a class="el" href="../../dir_5b912817ccf0063e74cbee75ff3a7169.html">MovementGenerators</a></li><li class="navelem"><a class="el" href="../../df/d1e/a03212.html">RandomMovementGenerator.h</a></li>
-    <li class="footer">Generated on Tue Aug 27 2024 09:59:28 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_894f64e3d0ac49d64247f786b5df4c8d.html">Nexus</a></li><li class="navelem"><a class="el" href="../../dir_847bfdbe3e0168e0f84c6c83bf557aa9.html">EyeOfEternity</a></li><li class="navelem"><a class="el" href="../../df/d1e/a03212.html">instance_eye_of_eternity.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 2 2024 20:39:31 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,11 +1,25 @@
 var a17220 =
 [
-    [ "boss_frostsworn_generalAI", "d1/d3f/a17220.html#afd3e486cd9a0ac18d10675f40f7f6314", null ],
-    [ "EnterEvadeMode", "d1/d3f/a17220.html#a4f45facb49cb5c1a8b0565e87dccf50e", null ],
-    [ "JustDied", "d1/d3f/a17220.html#ac2653a5664c87045df16f2fdcf850edf", null ],
-    [ "JustEngagedWith", "d1/d3f/a17220.html#a64f2b0426491f1471c8cf653e94a2fa2", null ],
-    [ "Reset", "d1/d3f/a17220.html#a8333b3f2637f029de4182ca16e2fb634", null ],
-    [ "UpdateAI", "d1/d3f/a17220.html#aea65a8fab859db4396690d846d10f5a1", null ],
-    [ "events", "d1/d3f/a17220.html#a4e5c714486cdba1fc4a6db609d8b6a97", null ],
-    [ "pInstance", "d1/d3f/a17220.html#a01cc3db24e03600501b9980aa966ad7d", null ]
+    [ "boss_blood_queen_lana_thelAI", "d1/d3f/a17220.html#ab28467f9b11a87162dae0306a1f2fb20", null ],
+    [ "CanAIAttack", "d1/d3f/a17220.html#a4b6ce34090fcf21eb68560c078278303", null ],
+    [ "CleanAuras", "d1/d3f/a17220.html#a78b0d391090e9d2424da315bf1f696e9", null ],
+    [ "DoAction", "d1/d3f/a17220.html#a2e7d45ce9d7a0e05b60c9e94f736d1b3", null ],
+    [ "EnterEvadeMode", "d1/d3f/a17220.html#afb02799e3fad05e2e0d48ea5b3be7526", null ],
+    [ "GoToMinchar", "d1/d3f/a17220.html#acb939a02a912d1db13947a939f4c554c", null ],
+    [ "JustDied", "d1/d3f/a17220.html#a475fcf43849c5cd2144020f57c2a461f", null ],
+    [ "JustEngagedWith", "d1/d3f/a17220.html#a01866a1f5a20bd9b4ccf754051dedd10", null ],
+    [ "KilledUnit", "d1/d3f/a17220.html#aebb53f7599dd3a55953946b7cc9e76d6", null ],
+    [ "MovementInform", "d1/d3f/a17220.html#a4b74cb2b2f36ae115327e8a0532fdc23", null ],
+    [ "Reset", "d1/d3f/a17220.html#abc58e7c6c384ea4c342d6b153557c4b1", null ],
+    [ "SetGUID", "d1/d3f/a17220.html#ac1620cfe6e8f20a8ef54b211a5641bea", null ],
+    [ "UpdateAI", "d1/d3f/a17220.html#a13fe9d7463efbecf63d78fce59fc4fab", null ],
+    [ "WasBloodbolted", "d1/d3f/a17220.html#a76f5eca557f9d25c8025a909b1de8faf", null ],
+    [ "WasVampire", "d1/d3f/a17220.html#a7a74b7241f0ff736bdff7088ee384695", null ],
+    [ "_bloodboltedPlayers", "d1/d3f/a17220.html#a1c5ef6d44112d67a29dde74371ab644a", null ],
+    [ "_creditBloodQuickening", "d1/d3f/a17220.html#a3534b15706cd35ad8de485fc430207b1", null ],
+    [ "_killMinchar", "d1/d3f/a17220.html#ac617b5511beacd7b98d0e9ae8773e7dc", null ],
+    [ "_offtankGUID", "d1/d3f/a17220.html#a8a4d21d7ab9ad827c88a7869000c3628", null ],
+    [ "_tankGUID", "d1/d3f/a17220.html#a231f68b31fdd105559c186d4edbfc47b", null ],
+    [ "_vampires", "d1/d3f/a17220.html#af808b2b543ea9b27b4b03d0e561fb90e", null ],
+    [ "bEnteredCombat", "d1/d3f/a17220.html#aca37d322e154ae01ceb4e96b3b42d5d0", null ]
 ];

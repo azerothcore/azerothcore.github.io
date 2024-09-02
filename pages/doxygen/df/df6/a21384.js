@@ -1,6 +1,8 @@
 var a21384 =
 [
-    [ "HandleAfterHit", "df/df6/a21384.html#a3e54b08d89a2b544ee6be093fa6b4444", null ],
-    [ "PrepareSpellScript", "df/df6/a21384.html#adbf2d7668cd1a38849028f4c7f9b9cb1", null ],
-    [ "Register", "df/df6/a21384.html#a09afa95f54a74f79b11fcb1fe222bccd", null ]
+    [ "npc_azure_raiderAI", "df/df6/a21384.html#a6928428a9dc1ed483a682c8f2a281ebf", null ],
+    [ "Reset", "df/df6/a21384.html#a80d9e586e5c03d19b6b9f0e0f7607b20", null ],
+    [ "UpdateAI", "df/df6/a21384.html#a2e9833d0d25fd8c442f7ab279de6a40a", null ],
+    [ "uiConcussionBlowTimer", "df/df6/a21384.html#a4e7dfb8d4991bf7ad3d0eeb72dff770b", null ],
+    [ "uiMagicReflectionTimer", "df/df6/a21384.html#acb262ab506ea58201abfe2057525c548", null ]
 ];

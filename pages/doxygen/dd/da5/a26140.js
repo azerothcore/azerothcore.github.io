@@ -1,6 +1,8 @@
 var a26140 =
 [
-    [ "npc_professor_dabiri", "dd/da5/a26140.html#a820d0564312308e0487bf5f757543be9", null ],
-    [ "OnGossipHello", "dd/da5/a26140.html#a9c8e6541acca18eea43673b4334acd85", null ],
-    [ "OnGossipSelect", "dd/da5/a26140.html#a65eba61053e1086e551de7dd8c20a5cd", null ]
+    [ "HandleApplyEffect", "dd/da5/a26140.html#a50102ae92f44fd7c2bd9afc3fec5a291", null ],
+    [ "Load", "dd/da5/a26140.html#ab6ba9d68b968ae41ee9c9869df686f02", null ],
+    [ "PrepareAuraScript", "dd/da5/a26140.html#a6e212284f72320356cfa2f0c2a59999d", null ],
+    [ "Register", "dd/da5/a26140.html#afcdd6cc19b59b5e6aa0cfdb9189edc99", null ],
+    [ "Validate", "dd/da5/a26140.html#a985a52f71371443454d6dd36f7fe83b2", null ]
 ];

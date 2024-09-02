@@ -1,7 +1,7 @@
 var a22732 =
 [
-    [ "PrepareAuraScript", "de/d32/a22732.html#ac55d68816fa778b0961f574f7bfd7d6f", null ],
-    [ "Register", "de/d32/a22732.html#a02fcc46ae737553240bffbc88ed0288b", null ],
-    [ "TriggerFists", "de/d32/a22732.html#ae4329c52d90073f0d9c4211d3fd4c309", null ],
-    [ "Validate", "de/d32/a22732.html#aec13cc93019c6f62df5ba2f27dd02892", null ]
+    [ "HandleDummy", "de/d32/a22732.html#adb4e8218eb498d430ececfa357bc1d8a", null ],
+    [ "PrepareSpellScript", "de/d32/a22732.html#a85f582794bf8ca2c80add8d9fe35f9f5", null ],
+    [ "Register", "de/d32/a22732.html#af5926d8570de13e66aa1870184620b94", null ],
+    [ "Validate", "de/d32/a22732.html#aa2839c6dba3d0c6ecfeb19f5ff3a39d2", null ]
 ];

@@ -1,7 +1,8 @@
 var a16700 =
 [
-    [ "npc_toc_retro_paladinAI", "d3/d43/a16700.html#afe933281cea61c9a4f3ded76290a3b72", null ],
-    [ "myCanCast", "d3/d43/a16700.html#a271b1d0855dbd2e38ecb6ea62140012f", null ],
-    [ "UpdateAI", "d3/d43/a16700.html#a105d6b9c133c1147b310826d7be416f5", null ],
-    [ "events", "d3/d43/a16700.html#a7078c28d5392bc77d577fa7a6f96b9d7", null ]
+    [ "npc_hor_leaderAI", "da/d31/a16704.html", "da/d31/a16704" ],
+    [ "npc_hor_leader", "d3/d43/a16700.html#a5c8d6cce242d144755fb14879f7f17d3", null ],
+    [ "GetAI", "d3/d43/a16700.html#a55e7357aa6dff1efdff08541e88413e9", null ],
+    [ "OnGossipHello", "d3/d43/a16700.html#afb46ea0b6926ad5d9b87b1d6a5e04591", null ],
+    [ "OnGossipSelect", "d3/d43/a16700.html#ab5d01ae2803bab43b2c701d0cb1d4280", null ]
 ];

@@ -1,6 +1,6 @@
 var a22644 =
 [
-    [ "boss_ymironAI", "d9/dce/a22648.html", "d9/dce/a22648" ],
-    [ "boss_ymiron", "d1/d4b/a22644.html#a708ffc55e0a190a8ed6adb0bca6ced7c", null ],
-    [ "GetAI", "d1/d4b/a22644.html#a0a8caed3c8021ddf861cc71b57297c41", null ]
+    [ "PrepareSpellScript", "d1/d4b/a22644.html#abd6b61e7efbed1427b7603640ac7d474", null ],
+    [ "RecalculateDamage", "d1/d4b/a22644.html#a02b59e5ac84c8556c9a9441ff6414461", null ],
+    [ "Register", "d1/d4b/a22644.html#ab6183bf9e49d3c11c256e54053c13aa2", null ]
 ];

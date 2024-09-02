@@ -1,7 +1,8 @@
 var a15684 =
 [
-    [ "npc_steward_of_time", "d8/d2a/a15684.html#ad49973464c96f44506033b73a85f6360", null ],
-    [ "OnGossipHello", "d8/d2a/a15684.html#a3b61038393c3addbbfa6643438164db3", null ],
-    [ "OnGossipSelect", "d8/d2a/a15684.html#af4fe13e266a98129b92e5a25188d947c", null ],
-    [ "OnQuestAccept", "d8/d2a/a15684.html#a53d552282da49e8246089b2799fff9ca", null ]
+    [ "instance_ahnkahet_InstanceScript", "d8/d2a/a15684.html#aa9a72f2f757d0b3065a6e4e25b14e86d", null ],
+    [ "IsAllSpheresActivated", "d8/d2a/a15684.html#a048a2b16ae9917c7edc9bf7023986ac3", null ],
+    [ "OnGameObjectCreate", "d8/d2a/a15684.html#ad00fdc90a61e1c927323daa2149f8466", null ],
+    [ "SetData", "d8/d2a/a15684.html#a8986038a2f25b16b9ab8ba4d41b5221a", null ],
+    [ "taldaramPlatform_GUID", "d8/d2a/a15684.html#a840ce69595c384be321c1167513d151e", null ]
 ];

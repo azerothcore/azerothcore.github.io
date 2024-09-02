@@ -1,6 +1,6 @@
 var a21484 =
 [
-    [ "spell_hodir_biting_cold_player_aura_AuraScript", "db/d54/a21488.html", "db/d54/a21488" ],
-    [ "spell_hodir_biting_cold_player_aura", "d0/deb/a21484.html#ae974a923636279b508e4cd44b9e6ae04", null ],
-    [ "GetAuraScript", "d0/deb/a21484.html#a26c18d3b8acb2e33e1aac688192c6afd", null ]
+    [ "npc_captured_beryl_sorcererAI", "db/d54/a21488.html", "db/d54/a21488" ],
+    [ "npc_captured_beryl_sorcerer", "d0/deb/a21484.html#ace67e76e96e3be9fa5976dc4c90041e6", null ],
+    [ "GetAI", "d0/deb/a21484.html#aa5a31390ff3c6277ebff2a5eebe72b3d", null ]
 ];

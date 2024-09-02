@@ -1,8 +1,6 @@
 var a16084 =
 [
-    [ "boss_sartharion_shadronAI", "d1/d91/a16084.html#a02e2e657ac74ab37a4568589511de664", null ],
-    [ "ExecuteEvent", "d1/d91/a16084.html#a6a26f1f777988be6eaf8b1a675bbbabb", null ],
-    [ "HandleExtraEvent", "d1/d91/a16084.html#a3db5e816f6253f9c4251690bfbbe1912", null ],
-    [ "Reset", "d1/d91/a16084.html#a7054cde1de2166c2b06489187115cb3f", null ],
-    [ "SummonedCreatureDies", "d1/d91/a16084.html#a8b70b3b7287108ad13caeb85a83cf26f", null ]
+    [ "npc_black_knight_skeletal_gryphonAI", "de/d4d/a16088.html", "de/d4d/a16088" ],
+    [ "npc_black_knight_skeletal_gryphon", "d1/d91/a16084.html#a5dc83a92fbe2eb4d6faa30f23a9ac777", null ],
+    [ "GetAI", "d1/d91/a16084.html#aad244f95877a208b56a2b6544984d724", null ]
 ];

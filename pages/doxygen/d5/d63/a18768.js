@@ -1,7 +1,6 @@
 var a18768 =
 [
-    [ "OnRemove", "d5/d63/a18768.html#ada2e6d5870317170eff91333ef7519be", null ],
-    [ "PrepareAuraScript", "d5/d63/a18768.html#a49944e01e52b0a74f1fe54581a24e748", null ],
-    [ "Register", "d5/d63/a18768.html#a409bb65f459b0d23e6125ceff67b1d10", null ],
-    [ "Validate", "d5/d63/a18768.html#a9e43a8646eba1480213f8a9804132407", null ]
+    [ "npc_four_car_garageAI", "d5/d63/a18768.html#a2eedf5934e12d33cda0ac173d82220d5", null ],
+    [ "JustDied", "d5/d63/a18768.html#a1fba9f03dca2db37b5cb969079b25d22", null ],
+    [ "PassengerBoarded", "d5/d63/a18768.html#a144bc36a5c4ff227c8a7dc146d4167b6", null ]
 ];

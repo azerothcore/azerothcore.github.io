@@ -1,6 +1,7 @@
 var a20028 =
 [
-    [ "boss_grobbulusAI", "da/ddb/a20032.html", "da/ddb/a20032" ],
-    [ "boss_grobbulus", "d0/d98/a20028.html#acf1b781e86e33a363b68354d34d3c015", null ],
-    [ "GetAI", "d0/d98/a20028.html#ae918614566a0b9979aef4e1aeaac394c", null ]
+    [ "HandleEffectPeriodic", "d0/d98/a20028.html#ae1c6062123fb62a48f542e43b34c7bcd", null ],
+    [ "PrepareAuraScript", "d0/d98/a20028.html#a1c54b6c86fc39d96d601b24c5b30fbdd", null ],
+    [ "Register", "d0/d98/a20028.html#af7a5a98b5cf784d2de8b57a183c19142", null ],
+    [ "Validate", "d0/d98/a20028.html#a16c536c913d003826ef4b86c7a497fec", null ]
 ];

@@ -1,8 +1,8 @@
 var a16280 =
 [
-    [ "spell_halion_twilight_phasing_AuraScript", "de/dfa/a16288.html", "de/dfa/a16288" ],
-    [ "spell_halion_twilight_phasing_SpellScript", "d8/d86/a16284.html", "d8/d86/a16284" ],
-    [ "spell_halion_twilight_phasing", "d6/dc4/a16280.html#a8876d554440f3bb57739302c9e6580ce", null ],
-    [ "GetAuraScript", "d6/dc4/a16280.html#af2a27a9e4f9d8b39ab6741a0a944e361", null ],
-    [ "GetSpellScript", "d6/dc4/a16280.html#a96314132af270c350376f91fd3238cb2", null ]
+    [ "npc_toc_boomkinAI", "d6/dc4/a16280.html#a12c586d57aa6dd3893889f103dbfee20", null ],
+    [ "JustSummoned", "d6/dc4/a16280.html#a0d049885773b7f1abd7e03f9200852f4", null ],
+    [ "myCanCast", "d6/dc4/a16280.html#a691a0250db77cc4def2bf67b25a1298c", null ],
+    [ "UpdateAI", "d6/dc4/a16280.html#a64b0451537c0d27bc01d1c1ec3b5b88d", null ],
+    [ "events", "d6/dc4/a16280.html#a0b367855092884b2ce30834e89fced87", null ]
 ];

@@ -1,6 +1,6 @@
 var a22676 =
 [
-    [ "HandleScript", "de/d72/a22676.html#ac5f5d82e34a924524bdb8f1b2d9f2e07", null ],
-    [ "PrepareSpellScript", "de/d72/a22676.html#aad2f4314b8baba8efe18db46d81cd676", null ],
-    [ "Register", "de/d72/a22676.html#a0335d861e6002c9fa58563027dc22632", null ]
+    [ "boss_illidan_stormrageAI", "d2/d0e/a22680.html", "d2/d0e/a22680" ],
+    [ "boss_illidan_stormrage", "de/d72/a22676.html#ad123b0fe64c2f430c157024aa4087290", null ],
+    [ "GetAI", "de/d72/a22676.html#ad413d6d6c0171643b1c14b9a39422976", null ]
 ];

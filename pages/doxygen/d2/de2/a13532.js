@@ -1,7 +1,6 @@
 var a13532 =
 [
-    [ "npc_jaina_proudmoore_bfuAI", "d2/de2/a13532.html#ad5ad1d05ef8210409c700e47b5442e24", null ],
-    [ "Reset", "d2/de2/a13532.html#a18de805428ce0954a5fbfffbf5975342", null ],
-    [ "UpdateAI", "d2/de2/a13532.html#a48b191d0812bfe3212511a52ef0df817", null ],
-    [ "_events", "d2/de2/a13532.html#a87e99e0b5fd0a3823b009025019b1fa4", null ]
+    [ "boss_akilzonAI", "de/d98/a13536.html", "de/d98/a13536" ],
+    [ "boss_akilzon", "d2/de2/a13532.html#afdb97a1cce6f05ae5cd88609f3ae5a28", null ],
+    [ "GetAI", "d2/de2/a13532.html#a6e20e80911a372d39f5ab3c3ccb927b0", null ]
 ];

@@ -1,6 +1,6 @@
 var a17508 =
 [
-    [ "boss_drakkari_elementalAI", "d1/d80/a17512.html", "d1/d80/a17512" ],
-    [ "boss_drakkari_elemental", "d9/d7b/a17508.html#a143dd5d52ea7bb3c3c1d96da45af81ee", null ],
-    [ "GetAI", "d9/d7b/a17508.html#aab2f9c71ddb77164bd644d18b9e88313", null ]
+    [ "PrepareSpellScript", "d9/d7b/a17508.html#a4878ffa30feb16e98d3945f8a6e3c863", null ],
+    [ "Register", "d9/d7b/a17508.html#a651f52f7d242251ff69d100fd69376e4", null ],
+    [ "SelectTarget", "d9/d7b/a17508.html#aede083ebebe38deb5898ff028564ef95", null ]
 ];

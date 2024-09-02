@@ -1,8 +1,10 @@
 var a17896 =
 [
-    [ "npc_saurfang_eventAI", "d1/d5e/a17896.html#a8436a87576c92ecc0b45106683d20e93", null ],
-    [ "DoAction", "d1/d5e/a17896.html#a45201c4a5b94fad948efe1d08e63e262", null ],
-    [ "SetData", "d1/d5e/a17896.html#a7f012a54ebce5307940eb7957f028d52", null ],
-    [ "SpellHit", "d1/d5e/a17896.html#a2ed920f949c4d8dbc6d6ff5b9149e749", null ],
-    [ "_index", "d1/d5e/a17896.html#a793d72078bd68b34fcdb7cd6587295dd", null ]
+    [ "CountTargets", "d1/d5e/a17896.html#a042c3f2ee73533b397a2d697d1da6563", null ],
+    [ "HandleDummy", "d1/d5e/a17896.html#ab314680d5349c0c3e449694b92ab7311", null ],
+    [ "Load", "d1/d5e/a17896.html#a534e9f5ee9aa29603cfc205c2c2d580f", null ],
+    [ "PrepareSpellScript", "d1/d5e/a17896.html#a8b831c01cd9fd997279f6a81170786de", null ],
+    [ "Register", "d1/d5e/a17896.html#ab0d87ba23eb252075cb0779b06813a31", null ],
+    [ "SelectDest", "d1/d5e/a17896.html#a6061486d0067af51c8ef079224ea63f1", null ],
+    [ "_targetCount", "d1/d5e/a17896.html#a58f839370a885c450e6742cbb3116784", null ]
 ];

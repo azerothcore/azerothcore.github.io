@@ -1,7 +1,6 @@
 var a24572 =
 [
-    [ "HandleEffectRemove", "d2/d54/a24572.html#a25081f7dd363384fc8680cc29dbfc6cd", null ],
-    [ "PrepareAuraScript", "d2/d54/a24572.html#a5f5d722bb2cc860bc134fbeffabb796a", null ],
-    [ "Register", "d2/d54/a24572.html#a0160ad93e32ecacadbbe68282cf8a538", null ],
-    [ "AuraEffectHandleModes", "d2/d54/a24572.html#a3698ea0de459cf70b41e646c5cb4b718", null ]
+    [ "RaiseDeadCheck", "d2/d54/a24572.html#abc6439e5b457f2f6e832f504167a392d", null ],
+    [ "operator()", "d2/d54/a24572.html#a9647e6afd21e7397f05349e66bea4326", null ],
+    [ "_caster", "d2/d54/a24572.html#a7b1647934c5e64de65d38b9fba2d343a", null ]
 ];

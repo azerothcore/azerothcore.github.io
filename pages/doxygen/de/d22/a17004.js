@@ -1,6 +1,6 @@
 var a17004 =
 [
-    [ "HandleScriptEffect", "de/d22/a17004.html#a8cd52966303f937fd5e6d6557bb41655", null ],
-    [ "PrepareSpellScript", "de/d22/a17004.html#a9f5f01b2d47a32de620b3e04b36b6eb7", null ],
-    [ "Register", "de/d22/a17004.html#aa25db7ff3db04b06c48417c6f4665526", null ]
+    [ "boss_drakkari_colossusAI", "d0/d48/a17008.html", "d0/d48/a17008" ],
+    [ "boss_drakkari_colossus", "de/d22/a17004.html#abe1bf28b9147b72c81e5c5efcdeeaf84", null ],
+    [ "GetAI", "de/d22/a17004.html#a75c6c9c56fe11342dd8aece031059e77", null ]
 ];

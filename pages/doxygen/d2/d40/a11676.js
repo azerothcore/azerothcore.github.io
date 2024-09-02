@@ -1,7 +1,8 @@
 var a11676 =
 [
-    [ "HandlePeriodic", "d2/d40/a11676.html#a72e043202c587e6c12d0b36d679cd071", null ],
-    [ "PrepareAuraScript", "d2/d40/a11676.html#a7ca007283e34855ee825ae160653f4a3", null ],
-    [ "Register", "d2/d40/a11676.html#aebad39c65167042be8db3c3a1811a235", null ],
-    [ "Validate", "d2/d40/a11676.html#aaf87c4052fd5408f7e34e2e14500e813", null ]
+    [ "boss_drakkisathAI", "d2/d40/a11676.html#a7c347bcdb092afcd64b481b87d0895ea", null ],
+    [ "JustEngagedWith", "d2/d40/a11676.html#a09f7c704579bdb8dad951ce63b5a54c9", null ],
+    [ "UpdateAI", "d2/d40/a11676.html#a02ffab01744c0dbb8b5a60794e82bdb0", null ],
+    [ "_conflagrateTarget", "d2/d40/a11676.html#a6a74b74e4e4b45aec86f70a5211ddd28", null ],
+    [ "_conflagrateThreat", "d2/d40/a11676.html#aae3762b27c3d99b32f47293c544e4afe", null ]
 ];

@@ -1,6 +1,6 @@
 var a25040 =
 [
-    [ "boss_leotheras_the_blindAI", "db/d07/a25044.html", "db/d07/a25044" ],
-    [ "boss_leotheras_the_blind", "d6/daf/a25040.html#a7400859cb7045f6879cd664655ea9f55", null ],
-    [ "GetAI", "d6/daf/a25040.html#a7ea9ec7e0ce28a1c734b677465616dc0", null ]
+    [ "CheckSeat", "d6/daf/a25040.html#ab4e2376e084bc2cf0e30a91e3e5a270c", null ],
+    [ "PrepareSpellScript", "d6/daf/a25040.html#aaa9a6f31ec57542dcd657874c4eb52aa", null ],
+    [ "Register", "d6/daf/a25040.html#a6feb7c77ba258688a83bdb86e9ee53f8", null ]
 ];

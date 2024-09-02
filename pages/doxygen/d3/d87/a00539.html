@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/apps/worldserver/ACSoap/ACSoap.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Battlegrounds/BattlegroundQueue.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,128 +106,117 @@ $(document).ready(function(){initNavTree('d3/d87/a00539.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">ACSoap.h File Reference</div></div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">BattlegroundQueue.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &lt;future&gt;</code><br />
-<code>#include &lt;mutex&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Battleground.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DBCEnums.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">EventProcessor.h</a>&quot;</code><br />
+<code>#include &lt;array&gt;</code><br />
+<code>#include &lt;deque&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d63/a05559.html">SOAPCommand</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/df2/a07060.html">GroupQueueInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d34/a07064.html">BattlegroundQueue</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4c/a07068.html">BattlegroundQueue::SelectionPool</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d27/a07072.html">BGQueueInviteEvent</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dba/a07076.html">BGQueueRemoveEvent</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:abf914e30c869f88f2fafb9f656320c6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d87/a00539.html#abf914e30c869f88f2fafb9f656320c6a">process_message</a> (struct soap *soap_message)</td></tr>
-<tr class="separator:abf914e30c869f88f2fafb9f656320c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69e574c9a3cecf7c395cd036bb672ed3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d87/a00539.html#a69e574c9a3cecf7c395cd036bb672ed3">ACSoapThread</a> (const std::string &amp;host, <a class="el" href="../../d9/d4a/a00479.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> port)</td></tr>
-<tr class="separator:a69e574c9a3cecf7c395cd036bb672ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a589e9d4a3badd48f91fddc2afa661b17"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17">BattlegroundQueueGroupTypes</a> { <br />
+&#160;&#160;<a class="el" href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17a8f1f06d0124e05efcb390e0e9a29ddf4">BG_QUEUE_PREMADE_ALLIANCE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17a39d0b398e1bcd59620eb0f8701139d1c">BG_QUEUE_PREMADE_HORDE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17a4b31b889f93f89bfaacde424717c2697">BG_QUEUE_NORMAL_ALLIANCE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17aea585c62a155542b2d643e25d554f15d">BG_QUEUE_NORMAL_HORDE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17ab87d2294b56bc938b1c7bc14c5040239">BG_QUEUE_CFBG</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17adc82de1f737fd5356f21d83ade1ff992">BG_QUEUE_MAX</a> = 10
+<br />
+ }</td></tr>
+<tr class="separator:a589e9d4a3badd48f91fddc2afa661b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:aebc536d6c303d31049ad05f333c275ba"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d87/a00539.html#aebc536d6c303d31049ad05f333c275ba">COUNT_OF_PLAYERS_TO_AVERAGE_WAIT_TIME</a> = 10</td></tr>
+<tr class="separator:aebc536d6c303d31049ad05f333c275ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a69e574c9a3cecf7c395cd036bb672ed3" name="a69e574c9a3cecf7c395cd036bb672ed3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69e574c9a3cecf7c395cd036bb672ed3">&#9670;&#160;</a></span>ACSoapThread()</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a589e9d4a3badd48f91fddc2afa661b17" name="a589e9d4a3badd48f91fddc2afa661b17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a589e9d4a3badd48f91fddc2afa661b17">&#9670;&#160;</a></span>BattlegroundQueueGroupTypes</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ACSoapThread </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>host</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d4a/a00479.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
-          <td class="paramname"><em>port</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">enum <a class="el" href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17">BattlegroundQueueGroupTypes</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
-<div class="line"><span class="lineno">   26</span>    <span class="keyword">struct </span>soap soap;</div>
-<div class="line"><span class="lineno">   27</span>    soap_init(&amp;soap);</div>
-<div class="line"><span class="lineno">   28</span>    soap_set_imode(&amp;soap, SOAP_C_UTFSTRING);</div>
-<div class="line"><span class="lineno">   29</span>    soap_set_omode(&amp;soap, SOAP_C_UTFSTRING);</div>
-<div class="line"><span class="lineno">   30</span> </div>
-<div class="line"><span class="lineno">   31</span>    <span class="comment">// check every 3 seconds if world ended</span></div>
-<div class="line"><span class="lineno">   32</span>    soap.accept_timeout = 3;</div>
-<div class="line"><span class="lineno">   33</span>    soap.recv_timeout = 5;</div>
-<div class="line"><span class="lineno">   34</span>    soap.send_timeout = 5;</div>
-<div class="line"><span class="lineno">   35</span> </div>
-<div class="line"><span class="lineno">   36</span>    <span class="keywordflow">if</span> (!soap_valid_socket(soap_bind(&amp;soap, host.c_str(), port, 100)))</div>
-<div class="line"><span class="lineno">   37</span>    {</div>
-<div class="line"><span class="lineno">   38</span>        <a class="code hl_define" href="../../d6/d7d/a00161.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;network.soap&quot;</span>, <span class="stringliteral">&quot;ACSoap: couldn&#39;t bind to {}:{}&quot;</span>, host, port);</div>
-<div class="line"><span class="lineno">   39</span>        exit(-1);</div>
-<div class="line"><span class="lineno">   40</span>    }</div>
-<div class="line"><span class="lineno">   41</span> </div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_define" href="../../d6/d7d/a00161.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;network.soap&quot;</span>, <span class="stringliteral">&quot;ACSoap: bound to http://{}:{}&quot;</span>, host, port);</div>
-<div class="line"><span class="lineno">   43</span> </div>
-<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">while</span> (!<a class="code hl_function" href="../../dd/d2c/a11243.html#ae1716f62b00fe8ba87a92850bf4d054c">World::IsStopped</a>())</div>
-<div class="line"><span class="lineno">   45</span>    {</div>
-<div class="line"><span class="lineno">   46</span>        <span class="keywordflow">if</span> (!soap_valid_socket(soap_accept(&amp;soap)))</div>
-<div class="line"><span class="lineno">   47</span>            <span class="keywordflow">continue</span>;   <span class="comment">// ran into an accept timeout</span></div>
-<div class="line"><span class="lineno">   48</span> </div>
-<div class="line"><span class="lineno">   49</span>        <a class="code hl_define" href="../../d6/d7d/a00161.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;network.soap&quot;</span>, <span class="stringliteral">&quot;ACSoap: accepted connection from IP={}.{}.{}.{}&quot;</span>, (<span class="keywordtype">int</span>)(soap.ip &gt;&gt; 24) &amp; 0xFF, (<span class="keywordtype">int</span>)(soap.ip &gt;&gt; 16) &amp; 0xFF, (<span class="keywordtype">int</span>)(soap.ip &gt;&gt; 8) &amp; 0xFF, (<span class="keywordtype">int</span>)soap.ip &amp; 0xFF);</div>
-<div class="line"><span class="lineno">   50</span>        <span class="keyword">struct </span>soap* thread_soap = soap_copy(&amp;soap);<span class="comment">// make a safe copy</span></div>
-<div class="line"><span class="lineno">   51</span> </div>
-<div class="line"><span class="lineno">   52</span>        <a class="code hl_function" href="../../d0/ddb/a00542.html#abf914e30c869f88f2fafb9f656320c6a">process_message</a>(thread_soap);</div>
-<div class="line"><span class="lineno">   53</span>    }</div>
-<div class="line"><span class="lineno">   54</span> </div>
-<div class="line"><span class="lineno">   55</span>    soap_destroy(&amp;soap);</div>
-<div class="line"><span class="lineno">   56</span>    soap_end(&amp;soap);</div>
-<div class="line"><span class="lineno">   57</span>    soap_done(&amp;soap);</div>
-<div class="line"><span class="lineno">   58</span>}</div>
-<div class="ttc" id="aa00161_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d6/d7d/a00161.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:164</div></div>
-<div class="ttc" id="aa00161_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d6/d7d/a00161.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:156</div></div>
-<div class="ttc" id="aa00161_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../d6/d7d/a00161.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:168</div></div>
-<div class="ttc" id="aa00542_html_abf914e30c869f88f2fafb9f656320c6a"><div class="ttname"><a href="../../d0/ddb/a00542.html#abf914e30c869f88f2fafb9f656320c6a">process_message</a></div><div class="ttdeci">void process_message(struct soap *soap_message)</div><div class="ttdef"><b>Definition:</b> ACSoap.cpp:60</div></div>
-<div class="ttc" id="aa11243_html_ae1716f62b00fe8ba87a92850bf4d054c"><div class="ttname"><a href="../../dd/d2c/a11243.html#ae1716f62b00fe8ba87a92850bf4d054c">World::IsStopped</a></div><div class="ttdeci">static bool IsStopped()</div><div class="ttdef"><b>Definition:</b> World.h:255</div></div>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a589e9d4a3badd48f91fddc2afa661b17a8f1f06d0124e05efcb390e0e9a29ddf4" name="a589e9d4a3badd48f91fddc2afa661b17a8f1f06d0124e05efcb390e0e9a29ddf4"></a>BG_QUEUE_PREMADE_ALLIANCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a589e9d4a3badd48f91fddc2afa661b17a39d0b398e1bcd59620eb0f8701139d1c" name="a589e9d4a3badd48f91fddc2afa661b17a39d0b398e1bcd59620eb0f8701139d1c"></a>BG_QUEUE_PREMADE_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a589e9d4a3badd48f91fddc2afa661b17a4b31b889f93f89bfaacde424717c2697" name="a589e9d4a3badd48f91fddc2afa661b17a4b31b889f93f89bfaacde424717c2697"></a>BG_QUEUE_NORMAL_ALLIANCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a589e9d4a3badd48f91fddc2afa661b17aea585c62a155542b2d643e25d554f15d" name="a589e9d4a3badd48f91fddc2afa661b17aea585c62a155542b2d643e25d554f15d"></a>BG_QUEUE_NORMAL_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a589e9d4a3badd48f91fddc2afa661b17ab87d2294b56bc938b1c7bc14c5040239" name="a589e9d4a3badd48f91fddc2afa661b17ab87d2294b56bc938b1c7bc14c5040239"></a>BG_QUEUE_CFBG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a589e9d4a3badd48f91fddc2afa661b17adc82de1f737fd5356f21d83ade1ff992" name="a589e9d4a3badd48f91fddc2afa661b17adc82de1f737fd5356f21d83ade1ff992"></a>BG_QUEUE_MAX&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   52</span>{</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17a8f1f06d0124e05efcb390e0e9a29ddf4">BG_QUEUE_PREMADE_ALLIANCE</a>,</div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17a39d0b398e1bcd59620eb0f8701139d1c">BG_QUEUE_PREMADE_HORDE</a>,</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17a4b31b889f93f89bfaacde424717c2697">BG_QUEUE_NORMAL_ALLIANCE</a>,</div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17aea585c62a155542b2d643e25d554f15d">BG_QUEUE_NORMAL_HORDE</a>,</div>
+<div class="line"><span class="lineno">   57</span> </div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17ab87d2294b56bc938b1c7bc14c5040239">BG_QUEUE_CFBG</a>,</div>
+<div class="line"><span class="lineno">   59</span> </div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17adc82de1f737fd5356f21d83ade1ff992">BG_QUEUE_MAX</a> = 10</div>
+<div class="line"><span class="lineno">   61</span>};</div>
+<div class="ttc" id="aa00539_html_a589e9d4a3badd48f91fddc2afa661b17a39d0b398e1bcd59620eb0f8701139d1c"><div class="ttname"><a href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17a39d0b398e1bcd59620eb0f8701139d1c">BG_QUEUE_PREMADE_HORDE</a></div><div class="ttdeci">@ BG_QUEUE_PREMADE_HORDE</div><div class="ttdef"><b>Definition:</b> BattlegroundQueue.h:54</div></div>
+<div class="ttc" id="aa00539_html_a589e9d4a3badd48f91fddc2afa661b17a4b31b889f93f89bfaacde424717c2697"><div class="ttname"><a href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17a4b31b889f93f89bfaacde424717c2697">BG_QUEUE_NORMAL_ALLIANCE</a></div><div class="ttdeci">@ BG_QUEUE_NORMAL_ALLIANCE</div><div class="ttdef"><b>Definition:</b> BattlegroundQueue.h:55</div></div>
+<div class="ttc" id="aa00539_html_a589e9d4a3badd48f91fddc2afa661b17a8f1f06d0124e05efcb390e0e9a29ddf4"><div class="ttname"><a href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17a8f1f06d0124e05efcb390e0e9a29ddf4">BG_QUEUE_PREMADE_ALLIANCE</a></div><div class="ttdeci">@ BG_QUEUE_PREMADE_ALLIANCE</div><div class="ttdef"><b>Definition:</b> BattlegroundQueue.h:53</div></div>
+<div class="ttc" id="aa00539_html_a589e9d4a3badd48f91fddc2afa661b17ab87d2294b56bc938b1c7bc14c5040239"><div class="ttname"><a href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17ab87d2294b56bc938b1c7bc14c5040239">BG_QUEUE_CFBG</a></div><div class="ttdeci">@ BG_QUEUE_CFBG</div><div class="ttdef"><b>Definition:</b> BattlegroundQueue.h:58</div></div>
+<div class="ttc" id="aa00539_html_a589e9d4a3badd48f91fddc2afa661b17adc82de1f737fd5356f21d83ade1ff992"><div class="ttname"><a href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17adc82de1f737fd5356f21d83ade1ff992">BG_QUEUE_MAX</a></div><div class="ttdeci">@ BG_QUEUE_MAX</div><div class="ttdef"><b>Definition:</b> BattlegroundQueue.h:60</div></div>
+<div class="ttc" id="aa00539_html_a589e9d4a3badd48f91fddc2afa661b17aea585c62a155542b2d643e25d554f15d"><div class="ttname"><a href="../../d3/d87/a00539.html#a589e9d4a3badd48f91fddc2afa661b17aea585c62a155542b2d643e25d554f15d">BG_QUEUE_NORMAL_HORDE</a></div><div class="ttdeci">@ BG_QUEUE_NORMAL_HORDE</div><div class="ttdef"><b>Definition:</b> BattlegroundQueue.h:56</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00255">World::IsStopped()</a>, <a class="el" href="../../#l00168">LOG_DEBUG</a>, <a class="el" href="../../#l00156">LOG_ERROR</a>, <a class="el" href="../../#l00164">LOG_INFO</a>, and <a class="el" href="../../#l00060">process_message()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00120">main()</a>.</p>
-
 </div>
 </div>
-<a id="abf914e30c869f88f2fafb9f656320c6a" name="abf914e30c869f88f2fafb9f656320c6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf914e30c869f88f2fafb9f656320c6a">&#9670;&#160;</a></span>process_message()</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="aebc536d6c303d31049ad05f333c275ba" name="aebc536d6c303d31049ad05f333c275ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebc536d6c303d31049ad05f333c275ba">&#9670;&#160;</a></span>COUNT_OF_PLAYERS_TO_AVERAGE_WAIT_TIME</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void process_message </td>
-          <td>(</td>
-          <td class="paramtype">struct soap *&#160;</td>
-          <td class="paramname"><em>soap_message</em></td><td>)</td>
-          <td></td>
+          <td class="memname">constexpr auto COUNT_OF_PLAYERS_TO_AVERAGE_WAIT_TIME = 10</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   61</span>{</div>
-<div class="line"><span class="lineno">   62</span>    <a class="code hl_define" href="../../d6/d7d/a00161.html#ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5">LOG_TRACE</a>(<span class="stringliteral">&quot;network.soap&quot;</span>, <span class="stringliteral">&quot;SOAPWorkingThread::process_message&quot;</span>);</div>
-<div class="line"><span class="lineno">   63</span> </div>
-<div class="line"><span class="lineno">   64</span>    soap_serve(soap_message);</div>
-<div class="line"><span class="lineno">   65</span>    soap_destroy(soap_message); <span class="comment">// dealloc C++ data</span></div>
-<div class="line"><span class="lineno">   66</span>    soap_end(soap_message); <span class="comment">// dealloc data and clean up</span></div>
-<div class="line"><span class="lineno">   67</span>    soap_free(soap_message); <span class="comment">// detach soap struct and fre up the memory</span></div>
-<div class="line"><span class="lineno">   68</span>}</div>
-<div class="ttc" id="aa00161_html_ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5"><div class="ttname"><a href="../../d6/d7d/a00161.html#ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5">LOG_TRACE</a></div><div class="ttdeci">#define LOG_TRACE(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:172</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00172">LOG_TRACE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00024">ACSoapThread()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00038">BattlegroundQueue::BattlegroundQueue()</a>, <a class="el" href="../../#l00233">BattlegroundQueue::GetAverageQueueWaitTime()</a>, and <a class="el" href="../../#l00207">BattlegroundQueue::PlayerInvitedToBGUpdateAverageWaitTime()</a>.</p>
 
 </div>
 </div>
@@ -236,8 +225,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c8498b4bff487486cc5ffdac4c412cf7.html">apps</a></li><li class="navelem"><a class="el" href="../../dir_4a0dc471e712914507a0672b672729a4.html">worldserver</a></li><li class="navelem"><a class="el" href="../../dir_d5546cd048ce0388ac9df91d37210e56.html">ACSoap</a></li><li class="navelem"><a class="el" href="../../d3/d87/a00539.html">ACSoap.h</a></li>
-    <li class="footer">Generated on Tue Aug 27 2024 09:59:26 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_fc52f0b797d74b4b54bfd04593b84648.html">Battlegrounds</a></li><li class="navelem"><a class="el" href="../../d3/d87/a00539.html">BattlegroundQueue.h</a></li>
+    <li class="footer">Generated on Mon Sep 2 2024 20:38:52 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

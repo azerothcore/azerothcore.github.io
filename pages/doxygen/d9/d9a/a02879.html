@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Player/KillRewarder.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/EasternKingdoms/zone_eastern_plaguelands.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,26 +105,165 @@ $(document).ready(function(){initNavTree('d9/d9a/a02879.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
-  <div class="headertitle"><div class="title">KillRewarder.h File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">zone_eastern_plaguelands.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PassiveAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedGossip.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellInfo.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da9/a08243.html">KillRewarder</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/a13276.html">npc_eris_hevenfire</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d73/a13280.html">npc_eris_hevenfire::npc_eris_hevenfireAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7b/a13284.html">npc_balance_of_light_and_shadow</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7e/a13288.html">npc_balance_of_light_and_shadow::npc_balance_of_light_and_shadowAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da0/a13292.html">npc_augustus_the_touched</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a0846b7169aa45fd1ef72775a5f6e36fe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fe">eEris</a> { <br />
+&#160;&#160;<a class="el" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea893fed7c9aba464b46eda93ba0ff910e">QUEST_BALANCE_OF_LIGHT_AND_SHADOW</a> = 7622
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36feaa330f1e90d7e18c5cec4f6ac9eccbf9b">ITEM_EYE_OF_DIVINITY</a> = 18646
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36feaae13148e0ec5731f2bc25c5cd83fb54a">NPC_INJURED_PEASANT</a> = 14484
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea2e04645dc1fe7fae413d5c2c903c89d2">NPC_PLAGUED_PEASANT</a> = 14485
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea50dd59f1eeb08594a61c6ad576ad2814">NPC_SCOURGE_ARCHER</a> = 14489
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea499f23b6c79690c613e046b3e6394937">EVENT_SUMMON_PEASANTS</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea3d3d147dbdefaa5a8280f3d1bcc15ea8">EVENT_CHECK_PLAYER</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea84afa1291830b37278989be41610fb72">EVENT_SUMMON_ARCHERS</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea1b728fa1bb0194534b5b491d35ed871c">SPELL_SHOOT</a> = 23073
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea59bc5812f6dcf3f0e45b673f923490e7">SPELL_DEATHS_DOOR</a> = 23127
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36feac366f4ed224210fd4352c0ac9fb1c12a">SPELL_SEETHING_PLAGUE</a> = 23072
+, <br />
+&#160;&#160;<a class="el" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36feaaedc6f0db3ab3db342fe3379082ce633">SPELL_ERIS_BLESSING</a> = 23108
+<br />
+ }</td></tr>
+<tr class="separator:a0846b7169aa45fd1ef72775a5f6e36fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aaef7747656518bf0ce052d780430ed88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9a/a02879.html#aaef7747656518bf0ce052d780430ed88">AddSC_eastern_plaguelands</a> ()</td></tr>
+<tr class="separator:aaef7747656518bf0ce052d780430ed88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a0846b7169aa45fd1ef72775a5f6e36fe" name="a0846b7169aa45fd1ef72775a5f6e36fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0846b7169aa45fd1ef72775a5f6e36fe">&#9670;&#160;</a></span>eEris</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fe">eEris</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0846b7169aa45fd1ef72775a5f6e36fea893fed7c9aba464b46eda93ba0ff910e" name="a0846b7169aa45fd1ef72775a5f6e36fea893fed7c9aba464b46eda93ba0ff910e"></a>QUEST_BALANCE_OF_LIGHT_AND_SHADOW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0846b7169aa45fd1ef72775a5f6e36feaa330f1e90d7e18c5cec4f6ac9eccbf9b" name="a0846b7169aa45fd1ef72775a5f6e36feaa330f1e90d7e18c5cec4f6ac9eccbf9b"></a>ITEM_EYE_OF_DIVINITY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0846b7169aa45fd1ef72775a5f6e36feaae13148e0ec5731f2bc25c5cd83fb54a" name="a0846b7169aa45fd1ef72775a5f6e36feaae13148e0ec5731f2bc25c5cd83fb54a"></a>NPC_INJURED_PEASANT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0846b7169aa45fd1ef72775a5f6e36fea2e04645dc1fe7fae413d5c2c903c89d2" name="a0846b7169aa45fd1ef72775a5f6e36fea2e04645dc1fe7fae413d5c2c903c89d2"></a>NPC_PLAGUED_PEASANT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0846b7169aa45fd1ef72775a5f6e36fea50dd59f1eeb08594a61c6ad576ad2814" name="a0846b7169aa45fd1ef72775a5f6e36fea50dd59f1eeb08594a61c6ad576ad2814"></a>NPC_SCOURGE_ARCHER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0846b7169aa45fd1ef72775a5f6e36fea499f23b6c79690c613e046b3e6394937" name="a0846b7169aa45fd1ef72775a5f6e36fea499f23b6c79690c613e046b3e6394937"></a>EVENT_SUMMON_PEASANTS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0846b7169aa45fd1ef72775a5f6e36fea3d3d147dbdefaa5a8280f3d1bcc15ea8" name="a0846b7169aa45fd1ef72775a5f6e36fea3d3d147dbdefaa5a8280f3d1bcc15ea8"></a>EVENT_CHECK_PLAYER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0846b7169aa45fd1ef72775a5f6e36fea84afa1291830b37278989be41610fb72" name="a0846b7169aa45fd1ef72775a5f6e36fea84afa1291830b37278989be41610fb72"></a>EVENT_SUMMON_ARCHERS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0846b7169aa45fd1ef72775a5f6e36fea1b728fa1bb0194534b5b491d35ed871c" name="a0846b7169aa45fd1ef72775a5f6e36fea1b728fa1bb0194534b5b491d35ed871c"></a>SPELL_SHOOT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0846b7169aa45fd1ef72775a5f6e36fea59bc5812f6dcf3f0e45b673f923490e7" name="a0846b7169aa45fd1ef72775a5f6e36fea59bc5812f6dcf3f0e45b673f923490e7"></a>SPELL_DEATHS_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0846b7169aa45fd1ef72775a5f6e36feac366f4ed224210fd4352c0ac9fb1c12a" name="a0846b7169aa45fd1ef72775a5f6e36feac366f4ed224210fd4352c0ac9fb1c12a"></a>SPELL_SEETHING_PLAGUE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0846b7169aa45fd1ef72775a5f6e36feaaedc6f0db3ab3db342fe3379082ce633" name="a0846b7169aa45fd1ef72775a5f6e36feaaedc6f0db3ab3db342fe3379082ce633"></a>SPELL_ERIS_BLESSING&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   42</span>{</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea893fed7c9aba464b46eda93ba0ff910e">QUEST_BALANCE_OF_LIGHT_AND_SHADOW</a>   = 7622,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36feaa330f1e90d7e18c5cec4f6ac9eccbf9b">ITEM_EYE_OF_DIVINITY</a>                = 18646,</div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36feaae13148e0ec5731f2bc25c5cd83fb54a">NPC_INJURED_PEASANT</a>                 = 14484,</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea2e04645dc1fe7fae413d5c2c903c89d2">NPC_PLAGUED_PEASANT</a>                 = 14485,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea50dd59f1eeb08594a61c6ad576ad2814">NPC_SCOURGE_ARCHER</a>                  = 14489,</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea499f23b6c79690c613e046b3e6394937">EVENT_SUMMON_PEASANTS</a>               = 1,</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea3d3d147dbdefaa5a8280f3d1bcc15ea8">EVENT_CHECK_PLAYER</a>                  = 2,</div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea84afa1291830b37278989be41610fb72">EVENT_SUMMON_ARCHERS</a>                = 3,</div>
+<div class="line"><span class="lineno">   53</span> </div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea1b728fa1bb0194534b5b491d35ed871c">SPELL_SHOOT</a>                         = 23073,</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea59bc5812f6dcf3f0e45b673f923490e7">SPELL_DEATHS_DOOR</a>                   = 23127,</div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36feac366f4ed224210fd4352c0ac9fb1c12a">SPELL_SEETHING_PLAGUE</a>               = 23072,</div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36feaaedc6f0db3ab3db342fe3379082ce633">SPELL_ERIS_BLESSING</a>                 = 23108,</div>
+<div class="line"><span class="lineno">   58</span>};</div>
+<div class="ttc" id="aa02879_html_a0846b7169aa45fd1ef72775a5f6e36fea1b728fa1bb0194534b5b491d35ed871c"><div class="ttname"><a href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea1b728fa1bb0194534b5b491d35ed871c">SPELL_SHOOT</a></div><div class="ttdeci">@ SPELL_SHOOT</div><div class="ttdef"><b>Definition:</b> zone_eastern_plaguelands.cpp:54</div></div>
+<div class="ttc" id="aa02879_html_a0846b7169aa45fd1ef72775a5f6e36fea2e04645dc1fe7fae413d5c2c903c89d2"><div class="ttname"><a href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea2e04645dc1fe7fae413d5c2c903c89d2">NPC_PLAGUED_PEASANT</a></div><div class="ttdeci">@ NPC_PLAGUED_PEASANT</div><div class="ttdef"><b>Definition:</b> zone_eastern_plaguelands.cpp:47</div></div>
+<div class="ttc" id="aa02879_html_a0846b7169aa45fd1ef72775a5f6e36fea3d3d147dbdefaa5a8280f3d1bcc15ea8"><div class="ttname"><a href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea3d3d147dbdefaa5a8280f3d1bcc15ea8">EVENT_CHECK_PLAYER</a></div><div class="ttdeci">@ EVENT_CHECK_PLAYER</div><div class="ttdef"><b>Definition:</b> zone_eastern_plaguelands.cpp:51</div></div>
+<div class="ttc" id="aa02879_html_a0846b7169aa45fd1ef72775a5f6e36fea499f23b6c79690c613e046b3e6394937"><div class="ttname"><a href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea499f23b6c79690c613e046b3e6394937">EVENT_SUMMON_PEASANTS</a></div><div class="ttdeci">@ EVENT_SUMMON_PEASANTS</div><div class="ttdef"><b>Definition:</b> zone_eastern_plaguelands.cpp:50</div></div>
+<div class="ttc" id="aa02879_html_a0846b7169aa45fd1ef72775a5f6e36fea50dd59f1eeb08594a61c6ad576ad2814"><div class="ttname"><a href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea50dd59f1eeb08594a61c6ad576ad2814">NPC_SCOURGE_ARCHER</a></div><div class="ttdeci">@ NPC_SCOURGE_ARCHER</div><div class="ttdef"><b>Definition:</b> zone_eastern_plaguelands.cpp:48</div></div>
+<div class="ttc" id="aa02879_html_a0846b7169aa45fd1ef72775a5f6e36fea59bc5812f6dcf3f0e45b673f923490e7"><div class="ttname"><a href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea59bc5812f6dcf3f0e45b673f923490e7">SPELL_DEATHS_DOOR</a></div><div class="ttdeci">@ SPELL_DEATHS_DOOR</div><div class="ttdef"><b>Definition:</b> zone_eastern_plaguelands.cpp:55</div></div>
+<div class="ttc" id="aa02879_html_a0846b7169aa45fd1ef72775a5f6e36fea84afa1291830b37278989be41610fb72"><div class="ttname"><a href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea84afa1291830b37278989be41610fb72">EVENT_SUMMON_ARCHERS</a></div><div class="ttdeci">@ EVENT_SUMMON_ARCHERS</div><div class="ttdef"><b>Definition:</b> zone_eastern_plaguelands.cpp:52</div></div>
+<div class="ttc" id="aa02879_html_a0846b7169aa45fd1ef72775a5f6e36fea893fed7c9aba464b46eda93ba0ff910e"><div class="ttname"><a href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea893fed7c9aba464b46eda93ba0ff910e">QUEST_BALANCE_OF_LIGHT_AND_SHADOW</a></div><div class="ttdeci">@ QUEST_BALANCE_OF_LIGHT_AND_SHADOW</div><div class="ttdef"><b>Definition:</b> zone_eastern_plaguelands.cpp:43</div></div>
+<div class="ttc" id="aa02879_html_a0846b7169aa45fd1ef72775a5f6e36feaa330f1e90d7e18c5cec4f6ac9eccbf9b"><div class="ttname"><a href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36feaa330f1e90d7e18c5cec4f6ac9eccbf9b">ITEM_EYE_OF_DIVINITY</a></div><div class="ttdeci">@ ITEM_EYE_OF_DIVINITY</div><div class="ttdef"><b>Definition:</b> zone_eastern_plaguelands.cpp:44</div></div>
+<div class="ttc" id="aa02879_html_a0846b7169aa45fd1ef72775a5f6e36feaae13148e0ec5731f2bc25c5cd83fb54a"><div class="ttname"><a href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36feaae13148e0ec5731f2bc25c5cd83fb54a">NPC_INJURED_PEASANT</a></div><div class="ttdeci">@ NPC_INJURED_PEASANT</div><div class="ttdef"><b>Definition:</b> zone_eastern_plaguelands.cpp:46</div></div>
+<div class="ttc" id="aa02879_html_a0846b7169aa45fd1ef72775a5f6e36feaaedc6f0db3ab3db342fe3379082ce633"><div class="ttname"><a href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36feaaedc6f0db3ab3db342fe3379082ce633">SPELL_ERIS_BLESSING</a></div><div class="ttdeci">@ SPELL_ERIS_BLESSING</div><div class="ttdef"><b>Definition:</b> zone_eastern_plaguelands.cpp:57</div></div>
+<div class="ttc" id="aa02879_html_a0846b7169aa45fd1ef72775a5f6e36feac366f4ed224210fd4352c0ac9fb1c12a"><div class="ttname"><a href="../../d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36feac366f4ed224210fd4352c0ac9fb1c12a">SPELL_SEETHING_PLAGUE</a></div><div class="ttdeci">@ SPELL_SEETHING_PLAGUE</div><div class="ttdef"><b>Definition:</b> zone_eastern_plaguelands.cpp:56</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aaef7747656518bf0ce052d780430ed88" name="aaef7747656518bf0ce052d780430ed88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaef7747656518bf0ce052d780430ed88">&#9670;&#160;</a></span>AddSC_eastern_plaguelands()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddSC_eastern_plaguelands </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  347</span>{</div>
+<div class="line"><span class="lineno">  348</span>    <span class="comment">// Ours</span></div>
+<div class="line"><span class="lineno">  349</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d39/a13276.html">npc_eris_hevenfire</a>();</div>
+<div class="line"><span class="lineno">  350</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/d7b/a13284.html">npc_balance_of_light_and_shadow</a>();</div>
+<div class="line"><span class="lineno">  351</span> </div>
+<div class="line"><span class="lineno">  352</span>    <span class="comment">// Theirs</span></div>
+<div class="line"><span class="lineno">  353</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/da0/a13292.html">npc_augustus_the_touched</a>();</div>
+<div class="line"><span class="lineno">  354</span>}</div>
+<div class="ttc" id="aa13276_html"><div class="ttname"><a href="../../d8/d39/a13276.html">npc_eris_hevenfire</a></div><div class="ttdef"><b>Definition:</b> zone_eastern_plaguelands.cpp:61</div></div>
+<div class="ttc" id="aa13284_html"><div class="ttname"><a href="../../da/d7b/a13284.html">npc_balance_of_light_and_shadow</a></div><div class="ttdef"><b>Definition:</b> zone_eastern_plaguelands.cpp:244</div></div>
+<div class="ttc" id="aa13292_html"><div class="ttname"><a href="../../d2/da0/a13292.html">npc_augustus_the_touched</a></div><div class="ttdef"><b>Definition:</b> zone_eastern_plaguelands.cpp:321</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00168">AddEasternKingdomsScripts()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_47dd4bd942ccc740eef16326f5a4c0e4.html">Player</a></li><li class="navelem"><a class="el" href="../../d9/d9a/a02879.html">KillRewarder.h</a></li>
-    <li class="footer">Generated on Tue Aug 27 2024 09:59:27 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ddeb450e5fe586f747c0635391d1d1d6.html">EasternKingdoms</a></li><li class="navelem"><a class="el" href="../../d9/d9a/a02879.html">zone_eastern_plaguelands.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 2 2024 20:39:07 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

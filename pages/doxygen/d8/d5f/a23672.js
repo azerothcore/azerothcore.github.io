@@ -1,6 +1,7 @@
 var a23672 =
 [
-    [ "npc_blessed_bannerAI", "d3/dab/a23676.html", "d3/dab/a23676" ],
-    [ "npc_blessed_banner", "d8/d5f/a23672.html#a779a0c653088b2d206226e146a19101f", null ],
-    [ "GetAI", "d8/d5f/a23672.html#a43dabbf2f2d54ae201cde37df792a41d", null ]
+    [ "AfterApply", "d8/d5f/a23672.html#a0ba88b8ed8cfd0afa1de500a7a8d74b5", null ],
+    [ "PrepareAuraScript", "d8/d5f/a23672.html#aa98346e5f5b23fe016148426a19a719f", null ],
+    [ "Register", "d8/d5f/a23672.html#ac0edcddf6c38b933c868dbe0535f143a", null ],
+    [ "Validate", "d8/d5f/a23672.html#a616d1758aa257140f4941fe12ef21e87", null ]
 ];

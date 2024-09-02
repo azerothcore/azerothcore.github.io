@@ -1,6 +1,9 @@
 var a18724 =
 [
-    [ "npc_ice_tombAI", "df/daf/a18728.html", "df/daf/a18728" ],
-    [ "npc_ice_tomb", "d9/d86/a18724.html#a939c6083a77a6f4cb2a940ec9c1df55e", null ],
-    [ "GetAI", "d9/d86/a18724.html#ac99b7c9887e54a1764310bd3e079811a", null ]
+    [ "spell_trigger_spell_from_caster", "d9/d86/a18724.html#a0dc389ab8bd51fcfd839250a3bbc2dcd", null ],
+    [ "HandleTrigger", "d9/d86/a18724.html#afc11c9408ea11cb04e476999a9bdf522", null ],
+    [ "PrepareSpellScript", "d9/d86/a18724.html#a24a9bd70a58f051cd6c4ceaff5d7fffe", null ],
+    [ "Register", "d9/d86/a18724.html#ae44cc1a87267c1d08603d1aff2384957", null ],
+    [ "Validate", "d9/d86/a18724.html#a3aace9a309bc848b887b03c949c921bd", null ],
+    [ "_triggerId", "d9/d86/a18724.html#a29af52a9035f18936515a464889fefe5", null ]
 ];

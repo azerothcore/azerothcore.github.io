@@ -1,9 +1,6 @@
 var a14328 =
 [
-    [ "npc_love_in_air_snivel", "d3/d06/a14328.html#ab04596fb96292f54cf2a10f662dc94a3", null ],
-    [ "AllowAction", "d3/d06/a14328.html#af1097317f62bbb8f8456124001c73576", null ],
-    [ "MoveInLineOfSight", "d3/d06/a14328.html#ae6537707109b95fad20e521d07867cdd", null ],
-    [ "Reset", "d3/d06/a14328.html#a2385ea44d9f44735b193add4a0d0485b", null ],
-    [ "UpdateAI", "d3/d06/a14328.html#a9e712994663e3442359d2f574ebc812c", null ],
-    [ "delay", "d3/d06/a14328.html#a548db6245ef875ec47279246e437934c", null ]
+    [ "HandleDummy", "d3/d06/a14328.html#a5e0797e5af760b618b1498f405766de8", null ],
+    [ "PrepareSpellScript", "d3/d06/a14328.html#a3be664b18a2474857e8a2b199ea93aaf", null ],
+    [ "Register", "d3/d06/a14328.html#a2254e486bda73e07f8327c3412c7852b", null ]
 ];

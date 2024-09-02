@@ -1,7 +1,7 @@
 var a15856 =
 [
-    [ "go_troll_cageAI", "df/d55/a15856.html#ae742afdb7a37d64bb852b7ecd076d007", null ],
-    [ "GossipHello", "df/d55/a15856.html#a5c91cb491021b15ba70cc8ef5f07d037", null ],
-    [ "initBlyCrewMember", "df/d55/a15856.html#a6bfb77ec97367d8704885acfef801b74", null ],
-    [ "instance", "df/d55/a15856.html#ad5d736dd6cbe7a23d03f21004cae530d", null ]
+    [ "CheckDistance", "df/d55/a15856.html#ac10f4cebab4966a220cd931afd0e0a30", null ],
+    [ "PrepareSpellScript", "df/d55/a15856.html#adb14940f47dc509d75a4e81bb90fc40d", null ],
+    [ "Register", "df/d55/a15856.html#a3a64ffc872e4650b1d226d20d9bedc65", null ],
+    [ "Validate", "df/d55/a15856.html#aa5d7a420154b156ca24e73de2faf912a", null ]
 ];

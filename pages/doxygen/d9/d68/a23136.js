@@ -1,6 +1,7 @@
 var a23136 =
 [
-    [ "npc_steam_powered_auctioneerAI", "df/d6d/a23140.html", "df/d6d/a23140" ],
-    [ "npc_steam_powered_auctioneer", "d9/d68/a23136.html#ae8c918c639ce0c3ddc14b8cf7f0ef855", null ],
-    [ "GetAI", "d9/d68/a23136.html#a39a2f0c187078c759bc4a391e0a81068", null ]
+    [ "HandleEffectApply", "d9/d68/a23136.html#a3893fffea480b47d06c4903deb051aa9", null ],
+    [ "HandleEffectRemove", "d9/d68/a23136.html#a8f120ed0d8cbce6dd0640f02ea488669", null ],
+    [ "PrepareAuraScript", "d9/d68/a23136.html#a246c20ab26d1490fe38afd558a7ae406", null ],
+    [ "Register", "d9/d68/a23136.html#aea639a3ae0f003c6213143427f3b1d23", null ]
 ];

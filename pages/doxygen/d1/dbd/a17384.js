@@ -1,6 +1,7 @@
 var a17384 =
 [
-    [ "npc_pos_after_first_bossAI", "dc/d26/a17388.html", "dc/d26/a17388" ],
-    [ "npc_pos_after_first_boss", "d1/dbd/a17384.html#a76ae57195ceca454928245f2db12f68c", null ],
-    [ "GetAI", "d1/dbd/a17384.html#a3f807335f79218ecc70c32f5496267a6", null ]
+    [ "DelayedMovementEvent", "d1/dbd/a17384.html#a21241cde30f66ae42edb311542f7405c", null ],
+    [ "Execute", "d1/dbd/a17384.html#a8287761226ee671905151891779b6efb", null ],
+    [ "_dest", "d1/dbd/a17384.html#a9a0cd9830509ffdecd98ac8231350d58", null ],
+    [ "_owner", "d1/dbd/a17384.html#a046942728282a997068de447271f3cbe", null ]
 ];

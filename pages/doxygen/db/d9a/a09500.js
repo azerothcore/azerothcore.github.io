@@ -1,12 +1,9 @@
 var a09500 =
 [
-    [ "FacingInfo", "db/d9a/a09500.html#a1ac825c359704924c66e46eada64e34e", null ],
-    [ "FacingInfo", "db/d9a/a09500.html#a7820b3ce134dcca05b9b15299eb3b33f", null ],
-    [ "FacingInfo", "db/d9a/a09500.html#add6411db27c1d313d2f133adf0c35755", null ],
-    [ "angle", "db/d9a/a09500.html#ac56b304c2c5df7ab72c6fcbd2f845b02", null ],
-    [ "f", "db/d9a/a09500.html#a455634cc041bf5720c3a716b06342884", null ],
-    [ "target", "db/d9a/a09500.html#a064b5265b4bb2a0053908bf6031b8f65", null ],
-    [ "x", "db/d9a/a09500.html#ac08687158cc0bcfbc9814b1cbbe95684", null ],
-    [ "y", "db/d9a/a09500.html#ad7fcfb6b1c5402a0570748d343eadfcc", null ],
-    [ "z", "db/d9a/a09500.html#a5ff017b732d47684f675041e44227754", null ]
+    [ "ZoneDynamicInfo", "db/d9a/a09500.html#a0542940fdcc273a4ff8a8e8bb6a40b1f", null ],
+    [ "LightFadeInTime", "db/d9a/a09500.html#a0be8cff9a7e74add7bba8af3be993e48", null ],
+    [ "MusicId", "db/d9a/a09500.html#a3ab0244b34c30cc7d929b418da31d7d3", null ],
+    [ "OverrideLightId", "db/d9a/a09500.html#a0d43acd5539d3449b7c36ee88518346e", null ],
+    [ "WeatherGrade", "db/d9a/a09500.html#a923c3231c49554addd1522f0ccc50e2d", null ],
+    [ "WeatherId", "db/d9a/a09500.html#a4df1e694992a3c2638460601e4c4d7c9", null ]
 ];

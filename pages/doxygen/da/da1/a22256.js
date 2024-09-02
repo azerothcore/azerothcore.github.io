@@ -1,8 +1,8 @@
 var a22256 =
 [
-    [ "spell_yogg_saron_brain_link_AuraScript", "de/db3/a22260.html", "de/db3/a22260" ],
-    [ "spell_yogg_saron_brain_link_SpellScript", "d9/d11/a22264.html", "d9/d11/a22264" ],
-    [ "spell_yogg_saron_brain_link", "da/da1/a22256.html#ab5b4e0b9d3b3926a3d76e841e9d3317d", null ],
-    [ "GetAuraScript", "da/da1/a22256.html#a6b44989d11c3f85ce1a392e2e394e496", null ],
-    [ "GetSpellScript", "da/da1/a22256.html#a23d84d86239ae8b67b4a487c92701492", null ]
+    [ "npc_hyldsmeet_protodrakeAI", "da/da1/a22256.html#a30794392a32b1323fb0a86615b341741", null ],
+    [ "PassengerBoarded", "da/da1/a22256.html#acb699d519bf79702a34b7d9910fe7c9e", null ],
+    [ "UpdateAI", "da/da1/a22256.html#afd2168f8dc7328898f5e769c31c6da5a", null ],
+    [ "_accessoryRespawnTimer", "da/da1/a22256.html#a4c6b4236bf35278d05c4b78f1eda6b75", null ],
+    [ "_vehicleKit", "da/da1/a22256.html#aba68a138ef44af7d012c8c7dd4c06c6d", null ]
 ];

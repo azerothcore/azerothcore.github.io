@@ -1,6 +1,6 @@
 var a16592 =
 [
-    [ "npc_toc_druidAI", "de/dcc/a16596.html", "de/dcc/a16596" ],
-    [ "npc_toc_druid", "da/d67/a16592.html#a07321d5ee164b8e47f652f9bad65216b", null ],
-    [ "GetAI", "da/d67/a16592.html#a4f33e8f3649c0b398448cd01666cf92b", null ]
+    [ "instance_drak_tharon_keep_InstanceScript", "da/d67/a16592.html#a15f13e67c33a7d5cfb4793b6b641842c", null ],
+    [ "OnGameObjectCreate", "da/d67/a16592.html#ab727f29fc768c00ab48bfd7e7717a29a", null ],
+    [ "OnGameObjectRemove", "da/d67/a16592.html#ad8115d5e1ee45a586ec0c1149d690db5", null ]
 ];

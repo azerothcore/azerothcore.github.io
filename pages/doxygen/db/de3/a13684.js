@@ -1,7 +1,8 @@
 var a13684 =
 [
-    [ "boss_darkheartAI", "db/de3/a13684.html#ad6d9bfca9061cfeba364c573a9121ca8", null ],
-    [ "Reset", "db/de3/a13684.html#ab1a7a8d509c332088b169b755afd81de", null ],
-    [ "UpdateAI", "db/de3/a13684.html#a69eea4895a3f93382e57409c409ce797", null ],
-    [ "psychicwail_timer", "db/de3/a13684.html#a3ef8d1d7b5dd4283d2281ca067c25b98", null ]
+    [ "entry", "db/de3/a13684.html#ad7431eb64907aed0a03205a37c65a735", null ],
+    [ "orient", "db/de3/a13684.html#ab54dc774ffa13a1cdff8cf8047330c82", null ],
+    [ "x", "db/de3/a13684.html#a9e2b1a05fdcb7ba5e67deed9906f2520", null ],
+    [ "y", "db/de3/a13684.html#ae726b332e6759612c76de6b9f38a3147", null ],
+    [ "z", "db/de3/a13684.html#a8a0e3c6d9e558a40cd9d543df6abf728", null ]
 ];

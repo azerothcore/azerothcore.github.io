@@ -1,6 +1,6 @@
 var a19452 =
 [
-    [ "PeriodicTick", "d3/dc4/a19452.html#a293ee8ed5d8460faef42cc5871ea96e7", null ],
-    [ "PrepareAuraScript", "d3/dc4/a19452.html#a62aff682f50ce01067c37b11bb2bd202", null ],
-    [ "Register", "d3/dc4/a19452.html#a75c7c490ae3d2e2f6fd5e067ea7cf0f1", null ]
+    [ "HandleScript", "d3/dc4/a19452.html#a3af4741e2099fec9ba66639f896ba335", null ],
+    [ "PrepareSpellScript", "d3/dc4/a19452.html#a9779e2fb43ce69f74678abd82439c752", null ],
+    [ "Register", "d3/dc4/a19452.html#ac6ae892e75e52ae83321b2492eca6a1f", null ]
 ];

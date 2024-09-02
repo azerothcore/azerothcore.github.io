@@ -1,7 +1,7 @@
 var a15008 =
 [
-    [ "go_sand_trap", "d0/d55/a15008.html#a58d45acac672cb05988ddca78185b469", null ],
-    [ "Reset", "d0/d55/a15008.html#a7071a3e420e9137ca133b471bc217bf3", null ],
-    [ "UpdateAI", "d0/d55/a15008.html#a2e4a5fec4d4c790233ca97e6a7732ac4", null ],
-    [ "_scheduler", "d0/d55/a15008.html#af845c0efb3d8ebe53d3620970a84f1e4", null ]
+    [ "FilterTargets", "d0/d55/a15008.html#a76e8285baf1d14d560ad764eeab86cd5", null ],
+    [ "HandleOnHit", "d0/d55/a15008.html#a587db6fa1dc5788e0cc9ec5e486e9393", null ],
+    [ "PrepareSpellScript", "d0/d55/a15008.html#ad7372e543391a23c003b4121e0dd8a09", null ],
+    [ "Register", "d0/d55/a15008.html#a9749c72e2c7964cd4a2b2f9a77da69ec", null ]
 ];

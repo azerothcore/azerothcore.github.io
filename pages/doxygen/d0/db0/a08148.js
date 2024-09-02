@@ -1,9 +1,7 @@
 var a08148 =
 [
-    [ "AuraMunchingQueue", "d0/db0/a08148.html#a87178d02796b02360137f1f1ca3ce867", null ],
-    [ "Execute", "d0/db0/a08148.html#a8f025a0ea1db81fb283db563402d1c40", null ],
-    [ "_basePoints", "d0/db0/a08148.html#a9cf03046c9595e81bf119b7aacb1a81a", null ],
-    [ "_owner", "d0/db0/a08148.html#a472aaf46c2f167a10ce38267ace0b8bb", null ],
-    [ "_spellId", "d0/db0/a08148.html#a6674c43b906e45e2ad29100a7ff06f44", null ],
-    [ "_targetGUID", "d0/db0/a08148.html#a441b328296f0b7a75bdaee06d2cb94f1", null ]
+    [ "ObjectDistanceOrderPred", "d0/db0/a08148.html#adced3fdc6d99b7506361eb7700fa4cec", null ],
+    [ "operator()", "d0/db0/a08148.html#aaa5023735568f6df28a177fbd9ed866e", null ],
+    [ "m_ascending", "d0/db0/a08148.html#a313cd0450096e49716bfb52f8f238bfc", null ],
+    [ "m_refObj", "d0/db0/a08148.html#aec421fd45a60545bf92b7236e0d0b360", null ]
 ];

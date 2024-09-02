@@ -1,5 +1,6 @@
 var a13896 =
 [
-    [ "at_zulgurub_edge_of_madness_speech", "de/d48/a13896.html#a7d4007716e3ed634ac7e3d3dba26e6f7", null ],
-    [ "_OnTrigger", "de/d48/a13896.html#a725de49be12116f2f7e77edd31a096ae", null ]
+    [ "OnRemove", "de/d48/a13896.html#abc6d916a2bebd7995cbdb4a603d9831a", null ],
+    [ "PrepareAuraScript", "de/d48/a13896.html#ac90c6f7806a24f21cac4cbf2a64d0b57", null ],
+    [ "Register", "de/d48/a13896.html#a7457949331552492cf6df83737729a08", null ]
 ];

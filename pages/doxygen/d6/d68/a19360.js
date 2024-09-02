@@ -1,6 +1,6 @@
 var a19360 =
 [
-    [ "npc_valithria_cloudAI", "de/d4d/a19364.html", "de/d4d/a19364" ],
-    [ "npc_valithria_cloud", "d6/d68/a19360.html#a11d1bdc4c6e8210e2d0706f33d369dde", null ],
-    [ "GetAI", "d6/d68/a19360.html#afeff905cec1245dbac6fa59673aef015", null ]
+    [ "boss_bjarngrimAI", "de/d4d/a19364.html", "de/d4d/a19364" ],
+    [ "boss_bjarngrim", "d6/d68/a19360.html#ab509688547d41ec1fd094fdc45291959", null ],
+    [ "GetAI", "d6/d68/a19360.html#aff6455d2a327bbf3426d10a07f7b0e44", null ]
 ];

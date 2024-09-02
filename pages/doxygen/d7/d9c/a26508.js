@@ -1,6 +1,6 @@
 var a26508 =
 [
-    [ "achievement", "d7/d9c/a26508.html#abb6071e172abbcbc65020a0ad9554a03", null ],
-    [ "spell", "d7/d9c/a26508.html#a740f9162b10d31d1677a4ac4f5926db6", null ],
-    [ "text", "d7/d9c/a26508.html#aa92e42bc2c54c3b4b1022d5767fcf10c", null ]
+    [ "HandleRemove", "d7/d9c/a26508.html#a92eb5e02c8b165caa877d368a456e5b2", null ],
+    [ "PrepareAuraScript", "d7/d9c/a26508.html#a132193c0c13a2f89b9b29391d524023a", null ],
+    [ "Register", "d7/d9c/a26508.html#a246294a7b9a128a9ec464562846332fc", null ]
 ];

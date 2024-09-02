@@ -1,6 +1,10 @@
 var a21400 =
 [
-    [ "id", "dd/d7c/a21400.html#accc6fc59e13a0897ae168fae33ee4c7d", null ],
-    [ "x", "dd/d7c/a21400.html#afb67a1dce0819e0da0ceb9b303f43eb9", null ],
-    [ "y", "dd/d7c/a21400.html#aaf4fd9f1d5b020e102c0fec3863f7020", null ]
+    [ "npc_azure_spellbreakerAI", "dd/d7c/a21400.html#a1daf4cb20f4081380d8deda9a58da2fd", null ],
+    [ "Reset", "dd/d7c/a21400.html#a731ff2d4311359145c353de2d91935c8", null ],
+    [ "UpdateAI", "dd/d7c/a21400.html#a053ecfe5c78220c4fa1ac896ce161210", null ],
+    [ "uiArcaneBlastTimer", "dd/d7c/a21400.html#a1e752971a31c7d3415c1820eb3574a98", null ],
+    [ "uiChainsOfIceTimer", "dd/d7c/a21400.html#a2cbf33865a79a781d8b7aad04cd2095c", null ],
+    [ "uiConeOfColdTimer", "dd/d7c/a21400.html#a4970c7459b044b08bf36e17c703395fb", null ],
+    [ "uiSlowTimer", "dd/d7c/a21400.html#a2a02b42ec104cfb6682782a80f813eef", null ]
 ];

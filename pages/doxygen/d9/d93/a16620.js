@@ -1,7 +1,6 @@
 var a16620 =
 [
-    [ "npc_toc_priestAI", "d9/d93/a16620.html#aa362d2136193a8738e311bba18b87c90", null ],
-    [ "myCanCast", "d9/d93/a16620.html#ad2d4286d8f51a2d5a4901487e56506dc", null ],
-    [ "UpdateAI", "d9/d93/a16620.html#ae51d2ac95320909150c673b76c9856c7", null ],
-    [ "events", "d9/d93/a16620.html#aa5be20e87351424e0e4698540fc1fef4", null ]
+    [ "PrepareSpellScript", "d9/d93/a16620.html#a5ed268ac2642b2df3c5eb1dc93a675fc", null ],
+    [ "RecalculateDamage", "d9/d93/a16620.html#a3fae6ceaa67716004c664dd40a4679ed", null ],
+    [ "Register", "d9/d93/a16620.html#a1a740e697fc84f5f035f2ec251872009", null ]
 ];

@@ -1,6 +1,6 @@
 var a20888 =
 [
-    [ "spell_algalon_supermassive_fail_SpellScript", "dc/d88/a20892.html", "dc/d88/a20892" ],
-    [ "spell_algalon_supermassive_fail", "da/deb/a20888.html#ad3db59aaf22127755eb5f14703126081", null ],
-    [ "GetSpellScript", "da/deb/a20888.html#a4d0a91be908398e49399f51ee1473422", null ]
+    [ "achievement_yogg_saron_he_waits_dreaming", "da/deb/a20888.html#a25f4950d1ccffe77aa9cf5de7a14ea37", null ],
+    [ "OnCheck", "da/deb/a20888.html#a7ef7dfb0235fb2db5932e7415e3e6f61", null ],
+    [ "_requiredIllusion", "da/deb/a20888.html#aa3e107cb3be6fa02687709e07466a094", null ]
 ];

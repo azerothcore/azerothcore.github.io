@@ -1,6 +1,6 @@
 var a23780 =
 [
-    [ "npc_vics_flying_machineAI", "d9/d3f/a23784.html", "d9/d3f/a23784" ],
-    [ "npc_vics_flying_machine", "d3/db6/a23780.html#ac0f1e83a9f53f1e38e81804f0332e3fd", null ],
-    [ "GetAI", "d3/db6/a23780.html#aac2a7cabd2e87705e9a1b3bfebb89eae", null ]
+    [ "HandleBeforeCast", "d3/db6/a23780.html#afe2869e6c91068a0ed7ce09858f774dc", null ],
+    [ "PrepareSpellScript", "d3/db6/a23780.html#a8b75237de8d54dda3c7888f6d6a9684a", null ],
+    [ "Register", "d3/db6/a23780.html#a45ae470002052c87d5270e3556f0e706", null ]
 ];

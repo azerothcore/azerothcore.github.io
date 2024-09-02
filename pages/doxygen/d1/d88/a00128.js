@@ -1,4 +1,5 @@
 var a00128 =
 [
-    [ "GetStringWithDefaultValueFromFunction", "d1/d88/a00128.html#a659c80f8f32962119a0640bbcd2009c9", null ]
+    [ "BuildPartyLockDungeonBlock", "d1/d88/a00128.html#ad66b117794d47e10cfd7ba8bd40d4291", null ],
+    [ "BuildPlayerLockDungeonBlock", "d1/d88/a00128.html#aded010efcdae2fc43acfab5ff8fbf4ad", null ]
 ];

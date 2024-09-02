@@ -1,6 +1,28 @@
 var a13644 =
 [
-    [ "boss_hex_lord_malacrassAI", "d8/d1b/a13648.html", "d8/d1b/a13648" ],
-    [ "boss_hexlord_malacrass", "d2/d24/a13644.html#a844c7d61a86906672a61d8d8621176dc", null ],
-    [ "GetAI", "d2/d24/a13644.html#accf980cf46caf6facd5249688f0c72f4", null ]
+    [ "boss_janalaiAI", "d2/d24/a13644.html#a6b3cdbfe08048ad29d53d7eebacb829e", null ],
+    [ "Boom", "d2/d24/a13644.html#a7139e77f33b392b3fda6b2a07fc8d0ad", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "d2/d24/a13644.html#a4a2221add3f57d4e97b4234a50873c1f", null ],
+    [ "DamageDealt", "d2/d24/a13644.html#a5065ad518296e09ef70504d62fffefc3", null ],
+    [ "FireWall", "d2/d24/a13644.html#aef9c7b693b08ab73d06f74ffcc300f56", null ],
+    [ "HandleBombSequence", "d2/d24/a13644.html#ab13b959dfb3547a8648dd5d659a5c1f4", null ],
+    [ "HatchAllEggs", "d2/d24/a13644.html#aa5c3b30f0fd6645b0c0b77f712918482", null ],
+    [ "JustDied", "d2/d24/a13644.html#a6299c5e970e89f26d0522235ac7e63ec", null ],
+    [ "JustEngagedWith", "d2/d24/a13644.html#aa5fc7bf61f0b0636d5615cf1fc697b17", null ],
+    [ "KilledUnit", "d2/d24/a13644.html#aebf3d005398ae74c8e2719783bde5f56", null ],
+    [ "Reset", "d2/d24/a13644.html#ad48aadc516fdbf1be1f82cbad735d455", null ],
+    [ "SpawnBombs", "d2/d24/a13644.html#a9d2e52d9e9b0247403556766b148ac47", null ],
+    [ "UpdateAI", "d2/d24/a13644.html#a16d6d92dd838cbd62361954aec6bd991", null ],
+    [ "BombCount", "d2/d24/a13644.html#a07babdc80210660d3537c22979e34b7d", null ],
+    [ "BombSequenceTimer", "d2/d24/a13644.html#aa9ac453975c7cf802ab8c0a29893fea4", null ],
+    [ "BombTimer", "d2/d24/a13644.html#a0f286da49d6499a72360ac706ace9b23", null ],
+    [ "enraged", "d2/d24/a13644.html#a0a20e81853f156ab1de59a2466e8179c", null ],
+    [ "EnrageTimer", "d2/d24/a13644.html#ab588f425b8a1370df37f14139e39c2ea", null ],
+    [ "FireBombGUIDs", "d2/d24/a13644.html#a6e05a4988ed9ce736b4bfeab63ba373d", null ],
+    [ "FireBreathTimer", "d2/d24/a13644.html#a00ceca4de33cf50e69b2f7f72b259121", null ],
+    [ "HatcherTimer", "d2/d24/a13644.html#ad163ca46b6d75b35f5b3328fa0ed61b2", null ],
+    [ "instance", "d2/d24/a13644.html#a282d21111d05c4f83c50af32cac01027", null ],
+    [ "isBombing", "d2/d24/a13644.html#abfb966c4341b727899caddab0a8d3056", null ],
+    [ "isFlameBreathing", "d2/d24/a13644.html#ab0c80292a5f8d89ec79cf900a539c8d0", null ],
+    [ "noeggs", "d2/d24/a13644.html#a5e10d231ac46463fc7f4cfafc3b10713", null ]
 ];

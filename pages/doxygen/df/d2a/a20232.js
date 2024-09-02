@@ -1,5 +1,6 @@
 var a20232 =
 [
-    [ "at_naxxramas_hub_portal", "df/d2a/a20232.html#a946086e8a4651240b84526a1b2d54065", null ],
-    [ "OnTrigger", "df/d2a/a20232.html#af967b0f61b3257c8b8d802d4ed3af1da", null ]
+    [ "boss_kologarn_armsAI", "db/d25/a20236.html", "db/d25/a20236" ],
+    [ "boss_kologarn_arms", "df/d2a/a20232.html#ad540d28bb4b8a2be0ca0769f114c3eda", null ],
+    [ "GetAI", "df/d2a/a20232.html#a9ffe4db97d937e01c5ab2008a011f67d", null ]
 ];

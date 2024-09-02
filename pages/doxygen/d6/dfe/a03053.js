@@ -1,4 +1,6 @@
 var a03053 =
 [
-    [ "ApplySpellFix", "d6/dfe/a03053.html#ab2692a866ddb9539875213c10f37b84e", null ]
+    [ "instance_deadmines", "d6/d10/a12204.html", "d6/d10/a12204" ],
+    [ "instance_deadmines::instance_deadmines_InstanceMapScript", "d8/d5a/a12208.html", "d8/d5a/a12208" ],
+    [ "AddSC_instance_deadmines", "d6/dfe/a03053.html#a5c92c13d577422c37a1de0e3b5b4a020", null ]
 ];

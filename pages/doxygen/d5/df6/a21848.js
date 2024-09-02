@@ -1,6 +1,8 @@
 var a21848 =
 [
-    [ "npc_ulduar_expedition_engineerAI", "d9/df7/a21852.html", "d9/df7/a21852" ],
-    [ "npc_ulduar_expedition_engineer", "d5/df6/a21848.html#a1ff99e62b9c2222d8c08e71bfda600ea", null ],
-    [ "GetAI", "d5/df6/a21848.html#a6f1beaab42e42981e152db920e516616", null ]
+    [ "npc_ravenous_worgAI", "d5/df6/a21848.html#a5404516869e171c84b774f2a7b8be15d", null ],
+    [ "AttackStart", "d5/df6/a21848.html#a593d218d8cb083a7e37f81d3952c6d4c", null ],
+    [ "UpdateAI", "d5/df6/a21848.html#aeb64d5bde5ef9d8c2a62662bb72d3049", null ],
+    [ "_attack", "d5/df6/a21848.html#a3df5c98821ba33a40e25e7b050858b96", null ],
+    [ "_pacified", "d5/df6/a21848.html#a0da1f59a6fc9cdf39c9cced1eb52acba", null ]
 ];

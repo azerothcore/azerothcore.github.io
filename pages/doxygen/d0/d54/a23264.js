@@ -1,6 +1,7 @@
 var a23264 =
 [
-    [ "npc_heated_battleAI", "d0/d54/a23264.html#a2b73957d7890549f4b02488c5527fcef", null ],
-    [ "DamageTaken", "d0/d54/a23264.html#a8422c157214195d7166ede35c9c05d19", null ],
-    [ "Reset", "d0/d54/a23264.html#a11a4f3270ff260e30da89017dad38433", null ]
+    [ "HandleProc", "d0/d54/a23264.html#a03b2be5894d489a6021aff2744aee0e0", null ],
+    [ "PrepareAuraScript", "d0/d54/a23264.html#a0ff401cd6d8e32ff458b7383b76a92a1", null ],
+    [ "Register", "d0/d54/a23264.html#a804e1bc3d570d28cb2e06155054f3169", null ],
+    [ "Validate", "d0/d54/a23264.html#a8d18e9ed9fa851f1c4d36c1f0bed8fcb", null ]
 ];

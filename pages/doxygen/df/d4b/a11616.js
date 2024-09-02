@@ -1,7 +1,6 @@
 var a11616 =
 [
-    [ "HandleScript", "df/d4b/a11616.html#a0d244cc1785b136bae0960d697dc761d", null ],
-    [ "PrepareSpellScript", "df/d4b/a11616.html#a13f3ebef30c315c02090ee3a19a156e4", null ],
-    [ "Register", "df/d4b/a11616.html#a3871fb036ec6e0ea006f869c21e88c8f", null ],
-    [ "Validate", "df/d4b/a11616.html#a1413754f3a79caf8ec57d394c68f3499", null ]
+    [ "boss_magmusAI", "d0/d71/a11620.html", "d0/d71/a11620" ],
+    [ "boss_magmus", "df/d4b/a11616.html#a97747c0d7e1fd33204033d6061d6d570", null ],
+    [ "GetAI", "df/d4b/a11616.html#a171bc08a8dd9fa502f3b2b6cf736fd52", null ]
 ];

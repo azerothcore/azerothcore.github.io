@@ -1,5 +1,7 @@
 var a21980 =
 [
-    [ "go_thorim_lever", "d2/d65/a21980.html#a7641a89c3c369d26753a6e97dd435802", null ],
-    [ "OnGossipHello", "d2/d65/a21980.html#aa48cd4d5728bd2d012a91f51299827a0", null ]
+    [ "npc_battle_at_valhalasAI", "d1/ded/a21984.html", "d1/ded/a21984" ],
+    [ "npc_battle_at_valhalas", "d2/d65/a21980.html#aacec717b5b91ae55307c9642779c15ec", null ],
+    [ "GetAI", "d2/d65/a21980.html#a3660ba847b3b40c2d358d63c63517a5e", null ],
+    [ "OnQuestAccept", "d2/d65/a21980.html#addd76fd9f4b4f8ce706693614b80966b", null ]
 ];

@@ -1,6 +1,6 @@
 var a12468 =
 [
-    [ "npc_scarlet_ghoulAI", "d2/d6d/a12472.html", "d2/d6d/a12472" ],
-    [ "npc_scarlet_ghoul", "d7/dc9/a12468.html#aa58b0d1c3fb411cac184bc1fc50f4fb3", null ],
-    [ "GetAI", "d7/dc9/a12468.html#a88d2639b1a4f087d3e1b95475a094d21", null ]
+    [ "boss_ellris_duskhallow", "d7/dc9/a12468.html#a85dc1f923c8211180cc5b250fb509ba7", null ],
+    [ "JustEngagedWith", "d7/dc9/a12468.html#a5bb5bc51b62ad371bf086c6ced2eee89", null ],
+    [ "UpdateAI", "d7/dc9/a12468.html#a7a461632a0b608a34bc8c3e2aa1df0ab", null ]
 ];

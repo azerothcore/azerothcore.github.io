@@ -1,6 +1,7 @@
 var a22932 =
 [
-    [ "npc_azure_captainAI", "d0/dc7/a22936.html", "d0/dc7/a22936" ],
-    [ "npc_azure_captain", "da/da6/a22932.html#aeced2dbbfb23c161fd2bbc22859886a4", null ],
-    [ "GetAI", "da/da6/a22932.html#a0d1bd80fc38c61e05d3f31ffe587350f", null ]
+    [ "Absorb", "da/da6/a22932.html#a227cf7329d7dee564c3f8f9f67378ffe", null ],
+    [ "HandleEffectRemove", "da/da6/a22932.html#a3d4026e5208acb948c089a4bedba0de8", null ],
+    [ "PrepareAuraScript", "da/da6/a22932.html#af66dc1cba6aa7511c11a071ea9a381bb", null ],
+    [ "Register", "da/da6/a22932.html#a983cf678001efcbccc4b34a9ad919881", null ]
 ];

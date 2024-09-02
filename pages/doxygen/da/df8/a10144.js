@@ -1,6 +1,7 @@
 var a10144 =
 [
-    [ "GuildBankTextQuery", "da/df8/a10144.html#ab74c6b61182349e3697d6b8f2f3393d2", null ],
-    [ "Read", "da/df8/a10144.html#af20bd5c8e58b891028613625fb14807d", null ],
-    [ "Tab", "da/df8/a10144.html#a368054d83fb99317ffd14b4d79ffd0af", null ]
+    [ "ClientPacket", "da/df8/a10144.html#aa1d1946c07e248bae5927e83fdad9500", null ],
+    [ "ClientPacket", "da/df8/a10144.html#a1cdaaacca2695c4366647c7611073ff0", null ],
+    [ "GetOpcode", "da/df8/a10144.html#aa51558bb8faa96a665fe40b1bddf9d14", null ],
+    [ "Write", "da/df8/a10144.html#a16e5b9fa05e35fa1e32e33bef2688487", null ]
 ];

@@ -1,8 +1,7 @@
 var a18524 =
 [
-    [ "FilterTargets", "d4/dd7/a18524.html#a56253f9f90ee1777d8bbcffce84e8138", null ],
-    [ "HandleScript", "d4/dd7/a18524.html#a13c2045d544619b41391653d0f1335d0", null ],
-    [ "PrepareSpellScript", "d4/dd7/a18524.html#a1e4999fe2d2eccf3c25cf828d43609ce", null ],
-    [ "Register", "d4/dd7/a18524.html#a504358e96ce95238b063531277577486", null ],
-    [ "Validate", "d4/dd7/a18524.html#aef3ed3036b1d1acfa0929ab9be9ed16b", null ]
+    [ "npc_impaling_spearAI", "d4/dd7/a18524.html#ae8fbc36a15324b210a24a0e98357adc3", null ],
+    [ "Reset", "d4/dd7/a18524.html#a43fa8bf8f22f0635261decd8b15ed6f5", null ],
+    [ "UpdateAI", "d4/dd7/a18524.html#acb187a58b0ba256b4e003655ac36db34", null ],
+    [ "_vehicleCheckTimer", "d4/dd7/a18524.html#a264874b9f6f0609792d4b3a325e54f59", null ]
 ];

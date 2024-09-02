@@ -1,7 +1,10 @@
 var a24752 =
 [
-    [ "boss_gathios_the_shattererAI", "d9/dc7/a24752.html#ae1be23d2dd2edd5e115df0dbb71e1d35", null ],
-    [ "JustEngagedWith", "d9/dc7/a24752.html#a29cbf47346558a5e76aec25554b97bf7", null ],
-    [ "SelectCouncilMember", "d9/dc7/a24752.html#a04e796303ca83b546272a7b6a533725c", null ],
-    [ "UpdateAI", "d9/dc7/a24752.html#a7cf1ae125d6d9ed4fc9524dfb305f52a", null ]
+    [ "HandleEffectApply", "d9/dc7/a24752.html#ac977d07e0b054af33345538f10d80c56", null ],
+    [ "HandleEffectRemove", "d9/dc7/a24752.html#acd9c460acb60eae5db8874c246014147", null ],
+    [ "PrepareAuraScript", "d9/dc7/a24752.html#a1527c59b43a26db344e5a4d2900ea9b0", null ],
+    [ "Register", "d9/dc7/a24752.html#ab0de0c0459d3414f69a0dde7669b6f79", null ],
+    [ "_hasFlag", "d9/dc7/a24752.html#adb5058ba54ea53db9fdc9251a44619aa", null ],
+    [ "_itemId", "d9/dc7/a24752.html#a28c06ecd352466e0d1076d9eb4fa8e9b", null ],
+    [ "_modelId", "d9/dc7/a24752.html#ae77b9ae8a1092e0dc144e83db4c0758c", null ]
 ];

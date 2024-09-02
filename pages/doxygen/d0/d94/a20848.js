@@ -1,6 +1,6 @@
 var a20848 =
 [
-    [ "HandlePeriodic", "d0/d94/a20848.html#ab5b40a314587709a565aef2f32591648", null ],
-    [ "PrepareAuraScript", "d0/d94/a20848.html#aa4076c68bb6c36a55a49f37c254000dd", null ],
-    [ "Register", "d0/d94/a20848.html#a8f8aceb1fe692fa558d391ec48f03860", null ]
+    [ "OnRemove", "d0/d94/a20848.html#a0e2113cd165f9f6ce88ba6eea9034806", null ],
+    [ "PrepareAuraScript", "d0/d94/a20848.html#a5fb0837417b915676549370cc76c477d", null ],
+    [ "Register", "d0/d94/a20848.html#a7f1844fded6ad112cc99d33f52e0799c", null ]
 ];

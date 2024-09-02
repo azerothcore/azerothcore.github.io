@@ -1,6 +1,5 @@
 var a04196 =
 [
-    [ "lfg::LFGPlayerScript", "d3/d50/a07731.html", "d3/d50/a07731" ],
-    [ "lfg::LFGGroupScript", "db/dfa/a07735.html", "db/dfa/a07735" ],
-    [ "AddSC_LFGScripts", "d4/dd4/a04196.html#a9624b9328e26a9f420a4a3f07e253763", null ]
+    [ "threadsCleanup", "d4/dd4/a04196.html#af868d9171650614810772c5675c47fd3", null ],
+    [ "threadsSetup", "d4/dd4/a04196.html#ae2c343f2efc8fa69b50e1bd35bf410fd", null ]
 ];

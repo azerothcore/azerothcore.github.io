@@ -1,6 +1,6 @@
 var a21108 =
 [
-    [ "npc_mechanoliftAI", "db/db7/a21112.html", "db/db7/a21112" ],
-    [ "npc_mechanolift", "dd/d87/a21108.html#a7b753a3426213706c899745a6d0d989b", null ],
-    [ "GetAI", "dd/d87/a21108.html#a823a929bf65f32cdbe9b56df5d33c66d", null ]
+    [ "HandleDummyEffect", "dd/d87/a21108.html#a25bc99811aa2c7bf4bfbf8ad628a2771", null ],
+    [ "PrepareSpellScript", "dd/d87/a21108.html#a07376c95cb2ec41d86a24be59094d207", null ],
+    [ "Register", "dd/d87/a21108.html#aaa02dab30b29e6f646db52468fc35eb2", null ]
 ];

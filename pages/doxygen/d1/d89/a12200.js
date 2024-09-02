@@ -1,17 +1,11 @@
 var a12200 =
 [
-    [ "boss_strawmanAI", "d1/d89/a12200.html#a678ea4a835c83edaa2b4e5cae0744f76", null ],
-    [ "AttackStart", "d1/d89/a12200.html#abf48053c56f8d2a1508368e0af7e520f", null ],
-    [ "JustDied", "d1/d89/a12200.html#a33dab5c69f3c23b5d1f7200b1512de64", null ],
-    [ "JustEngagedWith", "d1/d89/a12200.html#a5458f8e74c57efbadf42c1f9c75e541b", null ],
-    [ "JustReachedHome", "d1/d89/a12200.html#a7a9fe68a08f123e8779f8ff200961442", null ],
-    [ "KilledUnit", "d1/d89/a12200.html#a9baa0c05630db5f92ff0380dad508495", null ],
-    [ "MoveInLineOfSight", "d1/d89/a12200.html#addc56d6d60148c5c2a04faf89a121285", null ],
-    [ "Reset", "d1/d89/a12200.html#a08bb490496e3052ffabc48f95e143d91", null ],
-    [ "SpellHit", "d1/d89/a12200.html#a8ba0373184391827edcd34982bc26b64", null ],
-    [ "UpdateAI", "d1/d89/a12200.html#a7ed50344586f2c6a3a5a835f2a24633b", null ],
-    [ "AggroTimer", "d1/d89/a12200.html#a637d2aea5e3a1d7035e9ce1433979d4d", null ],
-    [ "BrainBashTimer", "d1/d89/a12200.html#a9cae5e091aaee82097b29ca9cddee9d2", null ],
-    [ "BrainWipeTimer", "d1/d89/a12200.html#a51898583cb1643ba1080ee04c9deeac8", null ],
-    [ "instance", "d1/d89/a12200.html#a8fcaa1dfca4a3df6a4c4b71331f2114a", null ]
+    [ "boss_mr_smiteAI", "d1/d89/a12200.html#a277e52b7086db7e6447c4ad07ff8c8a2", null ],
+    [ "JustEngagedWith", "d1/d89/a12200.html#a3b2e5636b6c13bc243a067cacc7ab529", null ],
+    [ "MovementInform", "d1/d89/a12200.html#ade54a8fa42cbbf9febecf1a3eee00fd3", null ],
+    [ "Reset", "d1/d89/a12200.html#a8b90bbc2a0cdfdb09a3f8ddde2bf4108", null ],
+    [ "UpdateAI", "d1/d89/a12200.html#aa1693c8cc5bcc60a256f5d61f81cce1a", null ],
+    [ "events", "d1/d89/a12200.html#a3471692c39233f3c25cdc875c0078f2c", null ],
+    [ "health34", "d1/d89/a12200.html#adc83683c2f6a7073469cd2f5aa325717", null ],
+    [ "health67", "d1/d89/a12200.html#af30c26b46b14e9e16fe5d48d4dcf23de", null ]
 ];

@@ -1,6 +1,6 @@
 var a25016 =
 [
-    [ "spell_lady_vashj_remove_tainted_cores_SpellScript", "d2/dae/a25020.html", "d2/dae/a25020" ],
-    [ "spell_lady_vashj_remove_tainted_cores", "db/dca/a25016.html#ad299ea5b839d7931d5468138110fb07e", null ],
-    [ "GetSpellScript", "db/dca/a25016.html#ae05663292601768ca5c1e3bb92168686", null ]
+    [ "HandleScriptEffect", "db/dca/a25016.html#ab3f415ae783f2a778178cc3319b32773", null ],
+    [ "PrepareSpellScript", "db/dca/a25016.html#a4ba7f7935c4acda891190dc375086dee", null ],
+    [ "Register", "db/dca/a25016.html#ad9b1571b4faf7d0fc6df7f6a8eb05c8a", null ]
 ];

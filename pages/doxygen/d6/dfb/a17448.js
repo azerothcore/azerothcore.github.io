@@ -1,6 +1,6 @@
 var a17448 =
 [
-    [ "SlaveRunEvent", "d6/dfb/a17448.html#a4560b275b0870cdbd192b2610893b47c", null ],
-    [ "Execute", "d6/dfb/a17448.html#a81db67be136525dea5a9cd84180be165", null ],
-    [ "_owner", "d6/dfb/a17448.html#a33e2ce4cea1edf2e0967696c41667f15", null ]
+    [ "npc_gunship_boarding_add_realAI", "d2/d4c/a17452.html", "d2/d4c/a17452" ],
+    [ "npc_gunship_boarding_add", "d6/dfb/a17448.html#aa80871f80bae7186d3665f73d757e108", null ],
+    [ "GetAI", "d6/dfb/a17448.html#ad7e173bffccca6d852ba545427235447", null ]
 ];

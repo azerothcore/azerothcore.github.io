@@ -1,7 +1,7 @@
 var a19316 =
 [
-    [ "ValithriaDespawner", "d0/dcf/a19316.html#adf6f71ad9b97489f1e35781e491b28d8", null ],
-    [ "Execute", "d0/dcf/a19316.html#a4f8c63f52996da14078a7196cae3a00d", null ],
-    [ "operator()", "d0/dcf/a19316.html#a05bae39d642f294f2ef98151d66ba382", null ],
-    [ "_creature", "d0/dcf/a19316.html#a64bf6181ad867efd987edec141ca3bf0", null ]
+    [ "HandleProc", "d0/dcf/a19316.html#adb7714eca4c317ab76db0ecbc813669e", null ],
+    [ "PrepareAuraScript", "d0/dcf/a19316.html#a70f2c5c4656abb4798ad39b015fc2a9a", null ],
+    [ "Register", "d0/dcf/a19316.html#a445ce7331c36e507aa24466ff9a67781", null ],
+    [ "Validate", "d0/dcf/a19316.html#ad0e44f34d7bd1671ef7dcc2165abaa66", null ]
 ];

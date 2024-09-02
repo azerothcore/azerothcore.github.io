@@ -1,6 +1,6 @@
 var a15352 =
 [
-    [ "npc_magwinAI", "d7/d0f/a15356.html", "d7/d0f/a15356" ],
-    [ "npc_magwin", "d0/d8f/a15352.html#a1a45602fd312a4c436b09fb7b90ac1d4", null ],
-    [ "GetAI", "d0/d8f/a15352.html#a83bee0fd5c1494f2bb732fe9e0ed1594", null ]
+    [ "Creature", "d0/d8f/a15352.html#a77b33f8998f85808b58052079b1cab54", null ],
+    [ "TextId", "d0/d8f/a15352.html#ad691f3cd40035e96547adf7528229119", null ],
+    [ "Timer", "d0/d8f/a15352.html#accfccceaedffb3ad4d02231fb0bfeee5", null ]
 ];

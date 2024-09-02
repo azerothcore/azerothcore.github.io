@@ -1,12 +1,9 @@
 var a26692 =
 [
-    [ "CheckTarget", "d1/d64/a26692.html#a731aa2c0a2b67b8a15cab72ea2cb961a", null ],
-    [ "CheckTargets", "d1/d64/a26692.html#a3b5bbef0c43a600387235822f3c6dbc7", null ],
-    [ "HandleCorpseExplosion", "d1/d64/a26692.html#a201de2ee86d0cf954117df0e5343ee69", null ],
-    [ "HandleDamage", "d1/d64/a26692.html#a810fc65eb5d7160366d63210bad9caea", null ],
-    [ "Load", "d1/d64/a26692.html#a00b45e2f466de39c95251c2a38f6c3bd", null ],
-    [ "PrepareSpellScript", "d1/d64/a26692.html#a4cae1673a840d8ec0d727b881a3616cf", null ],
-    [ "Register", "d1/d64/a26692.html#a9e67ea51300569a0e163cb3e427b086e", null ],
-    [ "Validate", "d1/d64/a26692.html#a93984e8b831cb4c37ec2726d44532d43", null ],
-    [ "_target", "d1/d64/a26692.html#a5028b9d3166270b2b0557943e962eade", null ]
+    [ "CheckCast", "d1/d64/a26692.html#a441927e0d8d7304030440c19458eb34d", null ],
+    [ "HandleScriptEffect", "d1/d64/a26692.html#a10e9691aa15869c82fba79072a314d7e", null ],
+    [ "PrepareSpellScript", "d1/d64/a26692.html#a90b8ae945aeb85ad6e8a120501288979", null ],
+    [ "Register", "d1/d64/a26692.html#aac95bd6f7409e1ae9d3f9cf0c7212990", null ],
+    [ "Validate", "d1/d64/a26692.html#a00c67b65bcfdeaf56295da6a64689d58", null ],
+    [ "iTypes", "d1/d64/a26692.html#ae852b9df34612c074eab23b025c86870", null ]
 ];

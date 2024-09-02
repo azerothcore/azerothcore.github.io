@@ -1,6 +1,6 @@
 var a07048 =
 [
-    [ "value_type", "d3/da4/a07048.html#ac51f8d3476c4a938e81dfae8656ac70b", null ],
-    [ "operator()", "d3/da4/a07048.html#af40bcad820dec0ab0cf2758281f8a604", null ],
-    [ "operator()", "d3/da4/a07048.html#a4d601f73c9ab190a46438f34db4e04e6", null ]
+    [ "_Battlegrounds", "d3/da4/a07048.html#aa48f3a9d4a51e357055a0bc60ca41d7c", null ],
+    [ "_ClientBattlegroundIds", "d3/da4/a07048.html#a0526fab23b40ac1b33ce18243ad41132", null ],
+    [ "BGFreeSlotQueue", "d3/da4/a07048.html#a49fd7eb3a472894f233d309d35d509be", null ]
 ];

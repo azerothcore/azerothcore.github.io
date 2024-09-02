@@ -1,6 +1,6 @@
 var a23768 =
 [
-    [ "HandleSendEvent", "d4/d76/a23768.html#a6c0aa5181434f52fa3e8ef9ff9cd367b", null ],
-    [ "PrepareSpellScript", "d4/d76/a23768.html#ad3af77370a624cdf8c34795516b273a8", null ],
-    [ "Register", "d4/d76/a23768.html#ac9db07ec48110b4d5d6b1cb7024aad35", null ]
+    [ "Load", "d4/d76/a23768.html#a0fa22884296d705fd28eed88351d1165", null ],
+    [ "PrepareSpellScript", "d4/d76/a23768.html#ae04539319a7bab4965f663039c991614", null ],
+    [ "Register", "d4/d76/a23768.html#a7c7abeb9bc621824173db2c727c28045", null ]
 ];

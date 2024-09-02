@@ -1,6 +1,6 @@
 var a03494 =
 [
-    [ "WorldPackets::WorldState::InitWorldStates", "d1/deb/a10603.html", "d1/deb/a10603" ],
-    [ "WorldPackets::WorldState::InitWorldStates::WorldStateInfo", "d8/d56/a10607.html", "d8/d56/a10607" ],
-    [ "WorldPackets::WorldState::UpdateWorldState", "d9/da8/a10611.html", "d9/da8/a10611" ]
+    [ "instance_halls_of_stone", "db/db7/a19548.html", "db/db7/a19548" ],
+    [ "instance_halls_of_stone::instance_halls_of_stone_InstanceMapScript", "d8/db1/a19552.html", "d8/db1/a19552" ],
+    [ "AddSC_instance_halls_of_stone", "df/d5f/a03494.html#a81d8c56de5920b1e73d7955e1c7399ed", null ]
 ];

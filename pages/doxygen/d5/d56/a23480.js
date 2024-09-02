@@ -1,11 +1,12 @@
 var a23480 =
 [
-    [ "npc_rocket_propelled_warheadAI", "d5/d56/a23480.html#aab27045dff817457d5858c48c174f3a2", null ],
-    [ "DoAction", "d5/d56/a23480.html#abfd9618bd029ae56d846cac9cf5b7e80", null ],
-    [ "FinishQuest", "d5/d56/a23480.html#a1ccb00801fbfc87cbe04f19dc15e4a10", null ],
-    [ "JustReachedHome", "d5/d56/a23480.html#a680f46b5d7c88bafc5d3af669e9886ef", null ],
-    [ "PassengerBoarded", "d5/d56/a23480.html#aba8121b207be2c7be161d9ea0c903d6e", null ],
-    [ "SpellHit", "d5/d56/a23480.html#ae347c0817e145ec333bd5b1c87dd01ef", null ],
-    [ "_faction", "d5/d56/a23480.html#a423bead0525222a132e22531f640c461", null ],
-    [ "_finished", "d5/d56/a23480.html#ad676c377ea08cbb33f1ff226f864849c", null ]
+    [ "boss_omor_the_unscarred", "d5/d56/a23480.html#aeef6af0274425d9af5b5ada0d6aa7a2b", null ],
+    [ "JustDied", "d5/d56/a23480.html#a9ddae483a0f8cefd8a19975b60002660", null ],
+    [ "JustEngagedWith", "d5/d56/a23480.html#aa874d266d9a5ced45ea2ceb750370b1a", null ],
+    [ "JustSummoned", "d5/d56/a23480.html#a3503f9d13a5191c71013d77b79a8a4a3", null ],
+    [ "KilledUnit", "d5/d56/a23480.html#afc5c12a69d51638b67fcdf8098ff7da6", null ],
+    [ "Reset", "d5/d56/a23480.html#a0ec22c50cd096677a20299ab45a3c344", null ],
+    [ "UpdateAI", "d5/d56/a23480.html#aeb478325ea00f996b4c3c1584fe3965d", null ],
+    [ "_hasSpoken", "d5/d56/a23480.html#a3fe7684742f783cb1e68fcc7cfc0de7a", null ],
+    [ "_targetGUID", "d5/d56/a23480.html#a5ea9161b949e99f0a61498ed05d66d27", null ]
 ];

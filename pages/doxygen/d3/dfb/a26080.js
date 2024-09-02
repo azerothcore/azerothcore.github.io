@@ -1,7 +1,6 @@
 var a26080 =
 [
-    [ "npc_maghar_captiveAI", "de/d5a/a26084.html", "de/d5a/a26084" ],
-    [ "npc_maghar_captive", "d3/dfb/a26080.html#a59e177f33306ed0bb3de9f640d3685e4", null ],
-    [ "GetAI", "d3/dfb/a26080.html#a7f1528549b55edfb5286db4afe6ce50e", null ],
-    [ "OnQuestAccept", "d3/dfb/a26080.html#a966fdfe66a65675eb1618b0698dfbb21", null ]
+    [ "FilterTargets", "d3/dfb/a26080.html#a81212064e51b7dfd148a1b18b69aafe0", null ],
+    [ "PrepareSpellScript", "d3/dfb/a26080.html#a10d26377442d7a5d0c2986a65fcb57d6", null ],
+    [ "Register", "d3/dfb/a26080.html#a4db02c58be57a797c26b07656d1b5409", null ]
 ];

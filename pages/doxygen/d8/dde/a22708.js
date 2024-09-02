@@ -1,12 +1,7 @@
 var a22708 =
 [
-    [ "boss_koralonAI", "d8/dde/a22708.html#a3f5bc42a141011e543d1215eac09dc74", null ],
-    [ "AttackStart", "d8/dde/a22708.html#aa84e6e9a302172e134163cd07ca57864", null ],
-    [ "JustDied", "d8/dde/a22708.html#a102c10792d9e7df61d920b5a43f58e51", null ],
-    [ "JustEngagedWith", "d8/dde/a22708.html#aa7503618dd09e0aebac44394595f4715", null ],
-    [ "Reset", "d8/dde/a22708.html#a0e57ee42e45e55b1a69ac7cb0f1d2666", null ],
-    [ "UpdateAI", "d8/dde/a22708.html#aa944aad2eb68adc917cba743d1e530c7", null ],
-    [ "events", "d8/dde/a22708.html#abc8b9a8759b0e3e95d66c16615f621f5", null ],
-    [ "pInstance", "d8/dde/a22708.html#a4bdea1a9d7e46d4ef71cd43ce969e59c", null ],
-    [ "rotateTimer", "d8/dde/a22708.html#ad4b766094f28e940b0b7971d6dadc277", null ]
+    [ "HandleDummy", "d8/dde/a22708.html#af5ac581f7d471300fba2c23548037eea", null ],
+    [ "PrepareSpellScript", "d8/dde/a22708.html#adda61c05b544b52d98af5b7a76d4f808", null ],
+    [ "Register", "d8/dde/a22708.html#a270a64dffdce230d97515f116ec49706", null ],
+    [ "Validate", "d8/dde/a22708.html#a7cf3637ea33ad30913723b4fd33e5546", null ]
 ];

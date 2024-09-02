@@ -1,11 +1,6 @@
 var a13876 =
 [
-    [ "boss_hakkarAI", "d1/dd2/a13876.html#ae29c8c0816fc3efb83d7912c559747e4", null ],
-    [ "ApplyHakkarPowerStacks", "d1/dd2/a13876.html#aca5b7ee8d026ff7ee808e9ebd64c8dcf", null ],
-    [ "CheckInRoom", "d1/dd2/a13876.html#a8a70e82f6c72760143148d9c9f8095cc", null ],
-    [ "EnterEvadeMode", "d1/dd2/a13876.html#a6ca87d663714ddecfe562f0c705fa6f8", null ],
-    [ "JustDied", "d1/dd2/a13876.html#ae6b8c72ad3d36ee6eea624a7d79ca26b", null ],
-    [ "JustEngagedWith", "d1/dd2/a13876.html#ae023eb68fc066ba5713baaf3b0595f0c", null ],
-    [ "Reset", "d1/dd2/a13876.html#a52db5743c09088e2e9f1aff1513960f2", null ],
-    [ "UpdateAI", "d1/dd2/a13876.html#a1119212465bcf293991d7a520c6ffe42", null ]
+    [ "npc_ohganAI", "de/d8d/a13880.html", "de/d8d/a13880" ],
+    [ "npc_ohgan", "d1/dd2/a13876.html#ae391f2b36c68952ca5eaf773c29cbcad", null ],
+    [ "GetAI", "d1/dd2/a13876.html#a129dc2fcd449850403e0dcb99725da90", null ]
 ];

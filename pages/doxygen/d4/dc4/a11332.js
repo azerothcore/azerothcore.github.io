@@ -1,6 +1,8 @@
 var a11332 =
 [
-    [ "boss_hedrumAI", "d4/dc4/a11332.html#a95e4af51a8e24fa7b36b924c6cdfb86c", null ],
-    [ "JustEngagedWith", "d4/dc4/a11332.html#a1cf03b06598f2b36814062d47a73ed82", null ],
-    [ "UpdateAI", "d4/dc4/a11332.html#aa515ed081aaabdad751c1bbba56d3d96", null ]
+    [ "honor_commandscript", "d4/dc4/a11332.html#a7c1a6c172b970d1a35a4014d783dc783", null ],
+    [ "GetCommands", "d4/dc4/a11332.html#a29a0068f9dd1e9b3f0adf80bddaadbbc", null ],
+    [ "HandleHonorAddCommand", "d4/dc4/a11332.html#a03caa77b436e3d513e1325badf05df33", null ],
+    [ "HandleHonorAddKillCommand", "d4/dc4/a11332.html#aec79f459796d821a032477827e16308a", null ],
+    [ "HandleHonorUpdateCommand", "d4/dc4/a11332.html#a11831a3ea577f3f1e06fea3d0dbc0147", null ]
 ];

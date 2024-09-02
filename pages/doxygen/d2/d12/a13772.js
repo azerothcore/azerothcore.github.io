@@ -1,6 +1,8 @@
 var a13772 =
 [
-    [ "spell", "d2/d12/a13772.html#a55423d09b2f1775dc386a36168ad764d", null ],
-    [ "text", "d2/d12/a13772.html#ab604ad9429083f2e94f6a8d026bc46a5", null ],
-    [ "unaura", "d2/d12/a13772.html#a1b71fc628793ccb9027687b31d9ebcb0", null ]
+    [ "FilterTargets", "d2/d12/a13772.html#a3405b21202d423c649e0b8d341b42d9c", null ],
+    [ "HandleWipeThreat", "d2/d12/a13772.html#a2bbcce83bffebc509e9ec54778e82639", null ],
+    [ "PrepareSpellScript", "d2/d12/a13772.html#a59948484b528cab69c695f08b39b886d", null ],
+    [ "Register", "d2/d12/a13772.html#ac4106a251bd3120e122955edbcdc8e2a", null ],
+    [ "_wipeThreat", "d2/d12/a13772.html#ab5293e50bd670c0d350f190f1c9892b3", null ]
 ];

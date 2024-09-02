@@ -1,6 +1,11 @@
 var a22196 =
 [
-    [ "boss_yoggsaron_descend_portalAI", "dd/d50/a22196.html#a50ddd1d7b1d4a2e729657e53dfee43f2", null ],
-    [ "OnSpellClick", "dd/d50/a22196.html#aba032a7347230db028d1e939944d3f46", null ],
-    [ "_instance", "dd/d50/a22196.html#a477abf19a0b5bf9865550541877a29d7", null ]
+    [ "npc_iron_watcherAI", "dd/d50/a22196.html#a5f0c3d759dfba81cb2010d2a0b479909", null ],
+    [ "MovementInform", "dd/d50/a22196.html#aaf329f0160efa778abdebf86b1cf230b", null ],
+    [ "Reset", "dd/d50/a22196.html#a878f26cd41ccb9d777f9db00e2e30568", null ],
+    [ "SpellHit", "dd/d50/a22196.html#afce7cebdb4a49d9e5618ac211b235c6b", null ],
+    [ "UpdateAI", "dd/d50/a22196.html#a50391c9950fbbaf170600f13bab1e6bb", null ],
+    [ "charging", "dd/d50/a22196.html#af5be6fc6d7d234cfd2ac78f636b0ad7c", null ],
+    [ "hpTimer", "dd/d50/a22196.html#afcbb113387345361baf0351a19e6eb1d", null ],
+    [ "spellTimer", "dd/d50/a22196.html#a9bcd8d80b0a74c7abf0fc8b3bb32aa30", null ]
 ];

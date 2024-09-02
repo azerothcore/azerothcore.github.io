@@ -1,6 +1,7 @@
 var a25724 =
 [
-    [ "spell_alar_ember_blast_SpellScript", "d2/df6/a25728.html", "d2/df6/a25728" ],
-    [ "spell_alar_ember_blast", "df/d8c/a25724.html#aa53ca4cbab4f04a6eb7a8bcbe29e3a63", null ],
-    [ "GetSpellScript", "df/d8c/a25724.html#a550c0cd97a5c04f3f1b948767fe9768b", null ]
+    [ "HandleDummy", "df/d8c/a25724.html#a4e78ce5b1275860304eba414f8e66442", null ],
+    [ "PrepareSpellScript", "df/d8c/a25724.html#a155fa844714aadadd0a6c31dc86748f3", null ],
+    [ "Register", "df/d8c/a25724.html#a3ea6786e2fa76917bcb4baa42d2be1f1", null ],
+    [ "Validate", "df/d8c/a25724.html#a08838d940e413d83f4c48854260c3e1b", null ]
 ];

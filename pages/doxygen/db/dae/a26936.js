@@ -1,8 +1,5 @@
 var a26936 =
 [
-    [ "HandleSchoolDMG", "db/dae/a26936.html#ab273304fdbeea8768622c3e6b222aaf2", null ],
-    [ "HandleScriptEffect", "db/dae/a26936.html#a06f9cf29387b49f3e5950661173c77eb", null ],
-    [ "PrepareSpellScript", "db/dae/a26936.html#ac1a2b89eda37ed4e6c5946a93e7a58a2", null ],
-    [ "Register", "db/dae/a26936.html#a9bdbf7578509976d482a26869e9068aa", null ],
-    [ "Validate", "db/dae/a26936.html#a20a7b3a25711a90ab5f0e14991112ea0", null ]
+    [ "achievement_tilted", "db/dae/a26936.html#a868d7b8a437434d6dc34b5000c429e66", null ],
+    [ "OnCheck", "db/dae/a26936.html#a61d3eb78450383485699532d96f79d93", null ]
 ];

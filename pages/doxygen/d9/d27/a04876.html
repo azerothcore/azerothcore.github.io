@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Member List</title>
+<title>AzerothCore: VMAP::VMapFactory Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -78,7 +78,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('d1/d8e/a04879.html','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d9/d27/a04876.html','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -104,20 +104,102 @@ $(document).ready(function(){initNavTree('d1/d8e/a04879.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">VMAP::VMapFactory Member List</div></div>
+  <div class="summary">
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="../../d3/d24/a04873.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">VMAP::VMapFactory Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d1/d8e/a04879.html">VMAP::VMapFactory</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/d8e/a04879.html#a69bc508845bc35319a6d8c51e562a5f9">clear</a>()</td><td class="entry"><a class="el" href="../../d1/d8e/a04879.html">VMAP::VMapFactory</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d1/d8e/a04879.html#a80f01f24b27dd7a5a795c193d0816624">createOrGetVMapMgr</a>()</td><td class="entry"><a class="el" href="../../d1/d8e/a04879.html">VMAP::VMapFactory</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-</table></div><!-- contents -->
+<p><code>#include &quot;<a class="el" href="../../">VMapFactory.h</a>&quot;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a80f01f24b27dd7a5a795c193d0816624"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d32/a04884.html">VMapMgr2</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d27/a04876.html#a80f01f24b27dd7a5a795c193d0816624">createOrGetVMapMgr</a> ()</td></tr>
+<tr class="separator:a80f01f24b27dd7a5a795c193d0816624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69bc508845bc35319a6d8c51e562a5f9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d27/a04876.html#a69bc508845bc35319a6d8c51e562a5f9">clear</a> ()</td></tr>
+<tr class="separator:a69bc508845bc35319a6d8c51e562a5f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a69bc508845bc35319a6d8c51e562a5f9" name="a69bc508845bc35319a6d8c51e562a5f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69bc508845bc35319a6d8c51e562a5f9">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VMAP::VMapFactory::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   40</span>    {</div>
+<div class="line"><span class="lineno">   41</span>        <span class="keyword">delete</span> <a class="code hl_variable" href="../../d7/de4/a04674.html#a3fb33e0008bbbabc087f99a45e512784">gVMapMgr</a>;</div>
+<div class="line"><span class="lineno">   42</span>        <a class="code hl_variable" href="../../d7/de4/a04674.html#a3fb33e0008bbbabc087f99a45e512784">gVMapMgr</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   43</span>    }</div>
+<div class="ttc" id="aa04674_html_a3fb33e0008bbbabc087f99a45e512784"><div class="ttname"><a href="../../d7/de4/a04674.html#a3fb33e0008bbbabc087f99a45e512784">VMAP::gVMapMgr</a></div><div class="ttdeci">VMapMgr2 * gVMapMgr</div><div class="ttdef"><b>Definition:</b> VMapFactory.cpp:23</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00023">VMAP::gVMapMgr</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00144">World::~World()</a>.</p>
+
+</div>
+</div>
+<a id="a80f01f24b27dd7a5a795c193d0816624" name="a80f01f24b27dd7a5a795c193d0816624"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80f01f24b27dd7a5a795c193d0816624">&#9670;&#160;</a></span>createOrGetVMapMgr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d32/a04884.html">VMapMgr2</a> * VMAP::VMapFactory::createOrGetVMapMgr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   28</span>    {</div>
+<div class="line"><span class="lineno">   29</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d7/de4/a04674.html#a3fb33e0008bbbabc087f99a45e512784">gVMapMgr</a>)</div>
+<div class="line"><span class="lineno">   30</span>        {</div>
+<div class="line"><span class="lineno">   31</span>            <a class="code hl_variable" href="../../d7/de4/a04674.html#a3fb33e0008bbbabc087f99a45e512784">gVMapMgr</a> = <span class="keyword">new</span> VMapMgr2();</div>
+<div class="line"><span class="lineno">   32</span>        }</div>
+<div class="line"><span class="lineno">   33</span> </div>
+<div class="line"><span class="lineno">   34</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/de4/a04674.html#a3fb33e0008bbbabc087f99a45e512784">gVMapMgr</a>;</div>
+<div class="line"><span class="lineno">   35</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00023">VMAP::gVMapMgr</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l03924">Map::CheckCollisionAndGetValidCoords()</a>, <a class="el" href="../../#l00116">Map::ExistVMap()</a>, <a class="el" href="../../#l00328">DynamicMapTree::GetAreaAndLiquidData()</a>, <a class="el" href="../../#l02098">Map::GetAreaInfo()</a>, <a class="el" href="../../#l02287">Map::GetFullTerrainStatusForPosition()</a>, <a class="el" href="../../#l02040">Map::GetHeight()</a>, <a class="el" href="../../#l02201">Map::GetLiquidData()</a>, <a class="el" href="../../#l00113">server_commandscript::HandleServerDebugCommand()</a>, <a class="el" href="../../#l00112">GameObjectModel::initialize()</a>, <a class="el" href="../../#l02438">Map::isInLineOfSight()</a>, <a class="el" href="../../#l00415">World::LoadConfigSettings()</a>, <a class="el" href="../../#l00163">Map::LoadVMap()</a>, <a class="el" href="../../#l01342">Spell::SelectImplicitCasterDestTargets()</a>, <a class="el" href="../../#l01493">World::SetInitialWorldSettings()</a>, <a class="el" href="../../#l01211">Map::UnloadGrid()</a>, and <a class="el" href="../../#l00104">GameObjectModel::~GameObjectModel()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Aug 27 2024 10:01:41 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">VMAP</a></li><li class="navelem"><a class="el" href="../../d9/d27/a04876.html">VMapFactory</a></li>
+    <li class="footer">Generated on Mon Sep 2 2024 20:41:09 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

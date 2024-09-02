@@ -1,10 +1,6 @@
 var a23128 =
 [
-    [ "npc_preparations_for_war_vehicle", "dc/d19/a23128.html#a56b37aa1c2b50cac4dfb6b907ffb6d48", null ],
-    [ "InitializeAI", "dc/d19/a23128.html#a85eaba9e51498313f8498eaaf0e7d0d1", null ],
-    [ "MovementInform", "dc/d19/a23128.html#ac78c5675b42563f46cc2af0f0c97bee0", null ],
-    [ "UpdateAI", "dc/d19/a23128.html#ae40a23070d96ecf122e9de5571a845ef", null ],
-    [ "pointId", "dc/d19/a23128.html#ae75d286eb6116b41adb346861b3c1365", null ],
-    [ "searchForShipTimer", "dc/d19/a23128.html#a49f8a43891d61460b1d6cdde610a2e88", null ],
-    [ "transportEntry", "dc/d19/a23128.html#aa0083566387cd42750aaa56b1fa23fed", null ]
+    [ "HandleDummy", "dc/d19/a23128.html#a3347413822ce083085bcf1418fbdbae2", null ],
+    [ "PrepareSpellScript", "dc/d19/a23128.html#ad7b15a8c5cf3e2d38a1ce54afb24b3e5", null ],
+    [ "Register", "dc/d19/a23128.html#af0c8bf6a5076a4171a9d70f6872a21d5", null ]
 ];

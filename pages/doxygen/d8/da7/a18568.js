@@ -1,6 +1,7 @@
 var a18568 =
 [
-    [ "HandleSummon", "d8/da7/a18568.html#a5389b8f55d78c1733359dd1cadb203ff", null ],
-    [ "PrepareSpellScript", "d8/da7/a18568.html#aeee6f9c93136065ad7a97bbe8df73bb1", null ],
-    [ "Register", "d8/da7/a18568.html#aeb51460cc2391eea79182fbc90927a76", null ]
+    [ "HandleScript", "d8/da7/a18568.html#a87a2b32a9a20f032157df5ddb2cd9979", null ],
+    [ "PrepareSpellScript", "d8/da7/a18568.html#a9aca3a2a981a0cb61569200d77ca527a", null ],
+    [ "Register", "d8/da7/a18568.html#afb0289c9906d0383a22dfd0e848573f8", null ],
+    [ "Validate", "d8/da7/a18568.html#a69344370af56f033e1c1ba16f4dee174", null ]
 ];

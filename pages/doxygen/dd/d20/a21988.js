@@ -1,6 +1,6 @@
 var a21988 =
 [
-    [ "OnPeriodic", "dd/d20/a21988.html#a644a6795189f2c7de6229f1f80a0f50b", null ],
-    [ "PrepareAuraScript", "dd/d20/a21988.html#a267127801385dd43239256a94badf9b3", null ],
-    [ "Register", "dd/d20/a21988.html#a581f74bc8639206a060bce55bea3dac0", null ]
+    [ "npc_llod_genericAI", "d7/dad/a21992.html", "d7/dad/a21992" ],
+    [ "npc_llod_generic", "dd/d20/a21988.html#a97a3957c4881808facf7910e4ae4ffd4", null ],
+    [ "GetAI", "dd/d20/a21988.html#aeb2e7d9de871686e436d1e55f47085a2", null ]
 ];

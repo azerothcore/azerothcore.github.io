@@ -1,6 +1,6 @@
 var a20676 =
 [
-    [ "spell_krystallus_shatter_SpellScript", "d2/da6/a20680.html", "d2/da6/a20680" ],
-    [ "spell_krystallus_shatter", "d5/dc4/a20676.html#a3845e28e2e90252c04e5f8355cba748a", null ],
-    [ "GetSpellScript", "d5/dc4/a20676.html#a0d52e0904ed8a694adc2c40131f7c9e9", null ]
+    [ "boss_yoggsaron_saraAI", "d2/da6/a20680.html", "d2/da6/a20680" ],
+    [ "boss_yoggsaron_sara", "d5/dc4/a20676.html#aaf5bd5440122f6c97315b0e3b9d47586", null ],
+    [ "GetAI", "d5/dc4/a20676.html#abc83e0f3a7d12a84ea283e5b2a69826d", null ]
 ];

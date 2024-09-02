@@ -1,10 +1,9 @@
 var a08540 =
 [
-    [ "iterator", "dc/dfb/a08540.html#a6bf9d06cfe6cb2e7df465ebf2acc099f", null ],
-    [ "begin", "dc/dfb/a08540.html#a1e4e67ba11ac8da077942a6581647bf3", null ],
-    [ "end", "dc/dfb/a08540.html#a266acb421cfc6ccc56dc2acff3202971", null ],
-    [ "getFirst", "dc/dfb/a08540.html#aa0156c2ad3ec5ca0df6f6a4c55d71a05", null ],
-    [ "getLast", "dc/dfb/a08540.html#a46a36813eaf752815a3f8c739db88a5d", null ],
-    [ "rbegin", "dc/dfb/a08540.html#ae69734978b5eec009a696861b7b7152b", null ],
-    [ "rend", "dc/dfb/a08540.html#a3f7b88b333f1da3a6ffdfc8ec31d8f52", null ]
+    [ "TransportBase", "dc/dfb/a08540.html#a6dba8e37217dae4e5da8f52780e63f70", null ],
+    [ "~TransportBase", "dc/dfb/a08540.html#a81dca3435a1a1666a90acd8e154e3287", null ],
+    [ "CalculatePassengerOffset", "dc/dfb/a08540.html#ae8c9eb64027f8e7c781f0af192e3f6c1", null ],
+    [ "CalculatePassengerOffset", "dc/dfb/a08540.html#aa4d00f15dc0e6c53b4a175b0ca53021b", null ],
+    [ "CalculatePassengerPosition", "dc/dfb/a08540.html#a7cb7586a6935ca4e08aa3e658982abec", null ],
+    [ "CalculatePassengerPosition", "dc/dfb/a08540.html#a328fbc464c56eca89138380182a0108c", null ]
 ];

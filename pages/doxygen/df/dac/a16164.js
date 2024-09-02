@@ -1,6 +1,8 @@
 var a16164 =
 [
-    [ "boss_general_zarithrianAI", "d3/d1a/a16168.html", "d3/d1a/a16168" ],
-    [ "boss_general_zarithrian", "df/dac/a16164.html#a030c53b6ef1d75027ddfd298d49ab330", null ],
-    [ "GetAI", "df/dac/a16164.html#a22ba4e0769dd9404ae043fb9c16233ff", null ]
+    [ "npc_frost_sphereAI", "df/dac/a16164.html#ae697a98d23d94315768dc866852b6e07", null ],
+    [ "DamageTaken", "df/dac/a16164.html#a3960f19b456f29a33016d799809a82a8", null ],
+    [ "SpellHit", "df/dac/a16164.html#af842d47f1e8462fb6368e9dc7a070b84", null ],
+    [ "UpdateAI", "df/dac/a16164.html#a4e866332045135c867f2b9ee871db0c2", null ],
+    [ "permafrostTimer", "df/dac/a16164.html#adf7b1b447d0d05a498dd8603dbfab1ab", null ]
 ];

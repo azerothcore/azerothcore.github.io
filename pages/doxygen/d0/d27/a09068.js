@@ -1,7 +1,10 @@
 var a09068 =
 [
-    [ "LootGroupInvalidSelector", "d0/d27/a09068.html#abea815e8ee0d31cc64b3fd7f46033cca", null ],
-    [ "operator()", "d0/d27/a09068.html#a2ea426fdeced03324c4a63184c2c1fc4", null ],
-    [ "_loot", "d0/d27/a09068.html#a67b9d223426512af79bbf5b035c18a6d", null ],
-    [ "_lootMode", "d0/d27/a09068.html#a10e307846a0731aa812388c29c0d4bc8", null ]
+    [ "AnyPlayerInObjectRangeCheck", "d0/d27/a09068.html#ae636bd72045687920ec1d460508bc74b", null ],
+    [ "operator()", "d0/d27/a09068.html#ac1eda8f85259230fb382a3b6e58b6798", null ],
+    [ "operator()", "d0/d27/a09068.html#a70c477213c8b271d3402857edd87ef8b", null ],
+    [ "_disallowGM", "d0/d27/a09068.html#a9c43efd575de2edfdaa0b84def91c727", null ],
+    [ "_obj", "d0/d27/a09068.html#a07a346225f675433792d2298673acd1f", null ],
+    [ "_range", "d0/d27/a09068.html#ae372500b3a21cb65a11045dcc6f094a8", null ],
+    [ "_reqAlive", "d0/d27/a09068.html#af1e397c5033711e65d9ac5b35311e893", null ]
 ];

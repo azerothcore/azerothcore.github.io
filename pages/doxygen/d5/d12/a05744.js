@@ -1,12 +1,24 @@
 var a05744 =
 [
-    [ "CombatAI", "d5/d12/a05744.html#a32e63efb85155ac3deeb818a9a1ba18a", null ],
-    [ "InitializeAI", "d5/d12/a05744.html#a70caf22165251220365d03873b3d3f17", null ],
-    [ "JustDied", "d5/d12/a05744.html#a9176b9b9c7a5e13fb05dae636c7ef2d4", null ],
-    [ "JustEngagedWith", "d5/d12/a05744.html#ab157082819d821cf0b0093f084111e16", null ],
-    [ "Permissible", "d5/d12/a05744.html#aaf52e2cbeb1ea9a816b5e8d914c03edb", null ],
-    [ "Reset", "d5/d12/a05744.html#a7a39daea9b9bd09572472ae0d8689edd", null ],
-    [ "UpdateAI", "d5/d12/a05744.html#af12583d15ccd183f6236c1889d539b9b", null ],
-    [ "events", "d5/d12/a05744.html#af59650830fa1abdf8eec179a12e328e7", null ],
-    [ "spells", "d5/d12/a05744.html#ae0ecfc744e4200bbf7ea36cdd84b13c0", null ]
+    [ "ResultSet", "d5/d12/a05744.html#aae8d7b3396a33b4c21dc22e8360af940", null ],
+    [ "~ResultSet", "d5/d12/a05744.html#a905f1a69b25f355dcd2172bb0815847b", null ],
+    [ "ResultSet", "d5/d12/a05744.html#aee46505bc4c8e6d78d8423d57bf04d95", null ],
+    [ "AssertRows", "d5/d12/a05744.html#a5bc86f44786c0f8014da04f713412529", null ],
+    [ "begin", "d5/d12/a05744.html#a17f9556c90c98d87bb9eae8709dfdaf0", null ],
+    [ "CleanUp", "d5/d12/a05744.html#a1bceb52e28ae6337c9e485bc0d16884c", null ],
+    [ "end", "d5/d12/a05744.html#a4dca707eedb6af024ad97c669f3edb21", null ],
+    [ "Fetch", "d5/d12/a05744.html#a6965e700fa9aab13cd3ed4048d51664f", null ],
+    [ "FetchTuple", "d5/d12/a05744.html#a8c8baa98e39583e18f9444052967b8b2", null ],
+    [ "GetFieldCount", "d5/d12/a05744.html#aaafa70a194d4ed4cadd034c4aaf00719", null ],
+    [ "GetFieldName", "d5/d12/a05744.html#a4d49e9b8865499750ac9ad73da84ba87", null ],
+    [ "GetRowCount", "d5/d12/a05744.html#a16890572d4d0e422fcf347970262d9e1", null ],
+    [ "NextRow", "d5/d12/a05744.html#a3d63f8274e3b485176855e2ade9e0642", null ],
+    [ "operator=", "d5/d12/a05744.html#af8b2009fed9c3900c7dfb007fa883aac", null ],
+    [ "operator[]", "d5/d12/a05744.html#a4acd14adb4f464db07de66aa5220a082", null ],
+    [ "_currentRow", "d5/d12/a05744.html#a063bf701c2219869bc15c9bb2cb4574f", null ],
+    [ "_fieldCount", "d5/d12/a05744.html#a050d86e2b341e4a17aaff6614be227f5", null ],
+    [ "_fieldMetadata", "d5/d12/a05744.html#a988f7985e48faf079a373751e63903ca", null ],
+    [ "_fields", "d5/d12/a05744.html#a6c6df427c8f223bde84929df62b906ae", null ],
+    [ "_result", "d5/d12/a05744.html#ae4021491a4cdc89d2c69a83e8dbc1a4c", null ],
+    [ "_rowCount", "d5/d12/a05744.html#a0a717e8c1c68c596d3bd534cc5ec52f4", null ]
 ];

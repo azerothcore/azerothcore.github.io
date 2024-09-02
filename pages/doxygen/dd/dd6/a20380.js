@@ -1,7 +1,6 @@
 var a20380 =
 [
-    [ "HandlePull", "dd/dd6/a20380.html#ac63735118afa2a73c3063eed06dbe27b", null ],
-    [ "PrepareSpellScript", "dd/dd6/a20380.html#af95d85b2e9c6c3311ad3db35614f076e", null ],
-    [ "Register", "dd/dd6/a20380.html#a79593f1ffd54cc88f30ff3fb622dad65", null ],
-    [ "SelectTarget", "dd/dd6/a20380.html#ade833bfc0f2520e817941a45c796c621", null ]
+    [ "npc_ulduar_emergency_fire_botAI", "db/dbc/a20384.html", "db/dbc/a20384" ],
+    [ "npc_ulduar_emergency_fire_bot", "dd/dd6/a20380.html#a1adc05ac4602ab2b297b18f605bfd2cd", null ],
+    [ "GetAI", "dd/dd6/a20380.html#afb3ab952495175c5f571d4e39a5acea4", null ]
 ];

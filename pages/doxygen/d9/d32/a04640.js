@@ -1,8 +1,8 @@
 var a04640 =
 [
-    [ "fixname2", "d9/d32/a04640.html#ac0029be4572a61d00eb1435db5526a74", null ],
-    [ "fixnamen", "d9/d32/a04640.html#abdc56edc46e0804c456749761cff8daf", null ],
-    [ "GetExtension", "d9/d32/a04640.html#ac3f75fc482c41471364c2c3e8bd1dd96", null ],
-    [ "GetPlainName", "d9/d32/a04640.html#a5e577b4c8e75312883ba4e8c571908ca", null ],
-    [ "GetPlainName", "d9/d32/a04640.html#a939d4568b4058bf826a517f55cb963af", null ]
+    [ "wdt_MPHD", "da/dce/a28524.html", "da/dce/a28524" ],
+    [ "wdt_MAIN", "dd/d4e/a28532.html", "dd/d4e/a28532" ],
+    [ "wdt_MAIN::adtData", "d4/d3e/a28540.html", "d4/d3e/a28540" ],
+    [ "WDT_file", "d3/d35/a28544.html", "d3/d35/a28544" ],
+    [ "WDT_MAP_SIZE", "d9/d32/a04640.html#a0cf0c1d4bd3ed48612ab2a5e36b8cf10", null ]
 ];

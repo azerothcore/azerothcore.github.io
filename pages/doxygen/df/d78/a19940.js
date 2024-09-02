@@ -1,6 +1,11 @@
 var a19940 =
 [
-    [ "spell_ioc_launch_SpellScript", "d2/d18/a19944.html", "d2/d18/a19944" ],
-    [ "spell_ioc_launch", "df/d78/a19940.html#ae0248b515ec7503898068edf7d29ff06", null ],
-    [ "GetSpellScript", "df/d78/a19940.html#af0aa5982b87998cc1d9d64bc05d81e8d", null ]
+    [ "boss_freya_elder_brightleafAI", "df/d78/a19940.html#a53de463d34b808b4c5d459e1339f6f30", null ],
+    [ "JustDied", "df/d78/a19940.html#aeea7300081f645d3fa83df6841c5a497", null ],
+    [ "JustEngagedWith", "df/d78/a19940.html#a956adeb9b6ea0c8fa71bdcbd3735c79d", null ],
+    [ "KilledUnit", "df/d78/a19940.html#a47935d017a2d34a888acb4079d3ff9aa", null ],
+    [ "Reset", "df/d78/a19940.html#aee11d2e1fad8bc1b18c17b1527610914", null ],
+    [ "UpdateAI", "df/d78/a19940.html#af28f94f278d279513d7f72cdc36528d4", null ],
+    [ "events", "df/d78/a19940.html#a45b4f0d12497dd8e3ffc1cde429116f6", null ],
+    [ "summons", "df/d78/a19940.html#a456123135a7fb4595d611a9e3995f461", null ]
 ];

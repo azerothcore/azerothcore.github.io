@@ -1,6 +1,7 @@
 var a25452 =
 [
-    [ "spell_vazruden_fireball_SpellScript", "db/dfc/a25456.html", "db/dfc/a25456" ],
-    [ "spell_vazruden_fireball", "d7/d5f/a25452.html#ae1b479be00e3db2397b7fdeb57901bca", null ],
-    [ "GetSpellScript", "d7/d5f/a25452.html#ab6d07df99d55425371e9e25aa05701c5", null ]
+    [ "HandleJump", "d7/d5f/a25452.html#ac70f6d53e85af1ee2591e761e21872db", null ],
+    [ "HandleScriptEffect", "d7/d5f/a25452.html#abdaa3c5356f84429cf6d2e053a3238ff", null ],
+    [ "PrepareSpellScript", "d7/d5f/a25452.html#a7daa7cef660e9f08b8e60c7788783c99", null ],
+    [ "Register", "d7/d5f/a25452.html#a0cbd40958551e0f38850a9fdcd6f0048", null ]
 ];

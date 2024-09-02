@@ -1,6 +1,7 @@
 var a25568 =
 [
-    [ "instance_shattered_halls_InstanceMapScript", "d7/daf/a25572.html", "d7/daf/a25572" ],
-    [ "instance_shattered_halls", "d7/d7d/a25568.html#a9d0d3b6baec34c679151791610cff3a7", null ],
-    [ "GetInstanceScript", "d7/d7d/a25568.html#a82388466811b022a725ba721845cadf3", null ]
+    [ "HandleProc", "d7/d7d/a25568.html#a9d23a4c0986f56e08c5e687ddae621f9", null ],
+    [ "PrepareAuraScript", "d7/d7d/a25568.html#a37d8d2e9c4618ecbbf314b98286e28b9", null ],
+    [ "Register", "d7/d7d/a25568.html#a2e1b7aed322de7023075fdd69660f2f6", null ],
+    [ "Validate", "d7/d7d/a25568.html#a6e807b19f98f8237e5d6f254cb0987a6", null ]
 ];

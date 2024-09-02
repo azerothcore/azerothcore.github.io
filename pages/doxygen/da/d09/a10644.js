@@ -1,10 +1,12 @@
 var a10644 =
 [
-    [ "EffectHook", "da/d09/a10644.html#a4a197e061d918dfba2bc486f3393b00d", null ],
-    [ "~EffectHook", "da/d09/a10644.html#aa234f63b530764d12064acbe3f5c9299", null ],
-    [ "CheckEffect", "da/d09/a10644.html#a01ab6726fb1c6ac3d8e0982d0639b34a", null ],
-    [ "EffIndexToString", "da/d09/a10644.html#ab818ed274cfd66ecc565b8535b751517", null ],
-    [ "GetAffectedEffectsMask", "da/d09/a10644.html#ac768b9843ee60324150e5144094b426c", null ],
-    [ "IsEffectAffected", "da/d09/a10644.html#ae6009f00ba660be2ff9d2e3f9b307bac", null ],
-    [ "effIndex", "da/d09/a10644.html#ab5eb48ef7ac903938f92db0e856e0295", null ]
+    [ "Build", "da/d09/a10644.html#aa5ed2806342a36723f1317105ebc13fa", null ],
+    [ "FormatVersion", "da/d09/a10644.html#abf0c90aa56c9f74e4139b4a1ead3115e", null ],
+    [ "Locale", "da/d09/a10644.html#acdcbe4c10ad6143b756638349c185ae5", null ],
+    [ "OptionalDataSize", "da/d09/a10644.html#a88c79f6e69197e23ce191bcef187c0fe", null ],
+    [ "SessionKey", "da/d09/a10644.html#aff4e4f46725d72923bac3e197ae7d2e3", null ],
+    [ "Signature", "da/d09/a10644.html#a34b88d6d83daeee7827176993c152de4", null ],
+    [ "SnifferId", "da/d09/a10644.html#a95d3f116ef30a096970ee4f3dd10e2ed", null ],
+    [ "SniffStartTicks", "da/d09/a10644.html#a1884076ea4fe5af08964471d0058fd4d", null ],
+    [ "SniffStartUnixtime", "da/d09/a10644.html#a8923983e21b7a7f1dd3ee4f21b7df592", null ]
 ];

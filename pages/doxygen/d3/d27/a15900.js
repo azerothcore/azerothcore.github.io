@@ -1,5 +1,6 @@
 var a15900 =
 [
-    [ "achievement_respect_your_elders", "d3/d27/a15900.html#a2fd66ada0ff7482c00b2cb417a12e88e", null ],
-    [ "OnCheck", "d3/d27/a15900.html#a770922be3ab19848f7a8f43a82d78b88", null ]
+    [ "boss_twilight_halionAI", "d5/d4e/a15904.html", "d5/d4e/a15904" ],
+    [ "boss_twilight_halion", "d3/d27/a15900.html#a23ea0a61acb2cf3fd83aece3ac7d218e", null ],
+    [ "GetAI", "d3/d27/a15900.html#a56842d74b16cbd5636649cbc643c50d8", null ]
 ];

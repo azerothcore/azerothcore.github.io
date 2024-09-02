@@ -1,6 +1,7 @@
 var a26596 =
 [
-    [ "FilterTargets", "db/d2e/a26596.html#a991a944f31680e4d53cc2a46d8c8b8bf", null ],
-    [ "PrepareSpellScript", "db/d2e/a26596.html#aea49df3f6b93223ed72c3a9875232b74", null ],
-    [ "Register", "db/d2e/a26596.html#a8f0e0b6363303def780d35415c88b4d6", null ]
+    [ "HandleDummy", "db/d2e/a26596.html#a00d36b914f5fd0466ae775e1fc95aa4f", null ],
+    [ "PrepareSpellScript", "db/d2e/a26596.html#a86a5c2b8ff373af7e98645b8b380145c", null ],
+    [ "Register", "db/d2e/a26596.html#a1b879ab84b8d6227ee5b2cccccd38bc2", null ],
+    [ "Validate", "db/d2e/a26596.html#aa7d437146a96bb40c1a66a453e3e4339", null ]
 ];

@@ -1,8 +1,10 @@
 var a28144 =
 [
-    [ "CheckProc", "de/df0/a28144.html#a9e7b83ffd7e8d5ff4cf3b59cfbc40b0e", null ],
-    [ "HandleProc", "de/df0/a28144.html#a772385aab5f9917d0d3fb456e0ed55e1", null ],
-    [ "PrepareAuraScript", "de/df0/a28144.html#a876c1bda52c99c52249444414196b1d4", null ],
-    [ "Register", "de/df0/a28144.html#a1409e9c24827ee51a83d732bb99dd27b", null ],
-    [ "Validate", "de/df0/a28144.html#a8e36353d5296c609cbe0ce63db4e7dcb", null ]
+    [ "PvPDifficultyEntry", "de/df0/a28144.html#acdf17ca6dce80b7311bd6ae79ce16001", null ],
+    [ "GetBracketId", "de/df0/a28144.html#a4bcbc99d34ef8eaa7c15dbd33332c480", null ],
+    [ "bracketId", "de/df0/a28144.html#a670bce11b1d934167d8b3e990ea49d4a", null ],
+    [ "difficulty", "de/df0/a28144.html#a33ac017d785a4586a78e715d97836720", null ],
+    [ "mapId", "de/df0/a28144.html#a58c251f56a928bedbc7b9e8c6cbdbc5d", null ],
+    [ "maxLevel", "de/df0/a28144.html#a1385166568239f2118b65377df8b4b55", null ],
+    [ "minLevel", "de/df0/a28144.html#acd07e8d759af1b73ec7543f6e70df242", null ]
 ];

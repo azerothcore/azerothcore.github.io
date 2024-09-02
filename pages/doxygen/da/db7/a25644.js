@@ -1,10 +1,8 @@
 var a25644 =
 [
-    [ "instance_arcatraz_InstanceMapScript", "da/db7/a25644.html#a4c6594eb7fa1f7213c89ea5af6c70ae0", null ],
-    [ "GetGuidData", "da/db7/a25644.html#aa4bedf168359eaf5332476a6de99c830", null ],
-    [ "OnGameObjectCreate", "da/db7/a25644.html#ad8c84d90b85db5717b6a37fc2343e0aa", null ],
-    [ "SetBossState", "da/db7/a25644.html#a2937e4ea47af542a476bd3399ecc7233", null ],
-    [ "SetData", "da/db7/a25644.html#aca09d4856d5c3e1831ea8753a50a3b71", null ],
-    [ "StasisPodGUIDs", "da/db7/a25644.html#a1fb9824baee2d8d83e030da307f21fc3", null ],
-    [ "WardensShieldGUID", "da/db7/a25644.html#a3cbff5742e05f6cf0544807bce64b1d0", null ]
+    [ "HandleDummy", "da/db7/a25644.html#ac6db67f521a8fd1e8de4cd22220b45fe", null ],
+    [ "Load", "da/db7/a25644.html#af767de9953372e5e56509a0be9e90958", null ],
+    [ "PrepareSpellScript", "da/db7/a25644.html#a0385a22f908ac62ab987fe9f84cad330", null ],
+    [ "Register", "da/db7/a25644.html#a1212726a4fcbac06b527648dff58c546", null ],
+    [ "Validate", "da/db7/a25644.html#ab014db76cf4656e10665f12fb18c5997", null ]
 ];

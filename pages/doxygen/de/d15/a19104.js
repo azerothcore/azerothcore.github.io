@@ -1,7 +1,10 @@
 var a19104 =
 [
-    [ "OnPeriodic", "de/d15/a19104.html#a41bb1ea0a6c95a3804f922964b1d6336", null ],
-    [ "PrepareAuraScript", "de/d15/a19104.html#a15d8b033481768fc96667875272a3d48", null ],
-    [ "Register", "de/d15/a19104.html#af5ad23b55be688c7d200d2943c45d589", null ],
-    [ "Validate", "de/d15/a19104.html#a7b377b5ab537302980d423e141e06e37", null ]
+    [ "npc_scion_of_eternityAI", "de/d15/a19104.html#a2893db70b6a1ffa14d02dd5cea7f7c0a", null ],
+    [ "AttackStart", "de/d15/a19104.html#a1335f9e34ff73d5501455062be025ada", null ],
+    [ "JustDied", "de/d15/a19104.html#a81dcae5ef2bbd28b891e46c377fbe153", null ],
+    [ "MoveInLineOfSight", "de/d15/a19104.html#a74a69fa532f0921285ef678bbd2fa761", null ],
+    [ "UpdateAI", "de/d15/a19104.html#adb16afb6ea1583a7156b80a8d833951a", null ],
+    [ "events", "de/d15/a19104.html#ae0e194a24a14033a499e68524da1699d", null ],
+    [ "pInstance", "de/d15/a19104.html#aa828ca4a75696645d7aa350f1f981f40", null ]
 ];

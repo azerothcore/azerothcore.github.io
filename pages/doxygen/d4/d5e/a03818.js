@@ -1,4 +1,5 @@
 var a03818 =
 [
-    [ "ScriptRegistry< OutdoorPvPScript >", "d4/d5e/a03818.html#a87dac516981f5c502b37a0500f6f7882", null ]
+    [ "ChatLogScript", "d3/dea/a27072.html", "d3/dea/a27072" ],
+    [ "AddSC_chat_log", "d4/d5e/a03818.html#ae796ad81a78a552e5c31fcf6c5c135fa", null ]
 ];

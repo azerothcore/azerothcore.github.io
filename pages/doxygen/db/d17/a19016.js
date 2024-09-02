@@ -1,7 +1,18 @@
 var a19016 =
 [
-    [ "OnPeriodic", "db/d17/a19016.html#ae306475845b2e83a08a226d8e78a0beb", null ],
-    [ "OnUpdate", "db/d17/a19016.html#affc809d41b0d19adb6fd62ee2923fe71", null ],
-    [ "PrepareAuraScript", "db/d17/a19016.html#a97a51fd229180056cf87785d4ad62e1c", null ],
-    [ "Register", "db/d17/a19016.html#af6f4af51d4297e2e221f92b30c9a69a4", null ]
+    [ "boss_thaddiusAI", "db/d17/a19016.html#a8a25d56cb38b755fec6f18a9616632e2", null ],
+    [ "DoAction", "db/d17/a19016.html#aa9697fa990b9d84f3cc9496df1cb4234", null ],
+    [ "JustDied", "db/d17/a19016.html#a2ec7bfa46d972cdd857289693acdc965", null ],
+    [ "JustEngagedWith", "db/d17/a19016.html#a52ec355e0ddd2a29b06b473303941b46", null ],
+    [ "JustSummoned", "db/d17/a19016.html#a1aa9a09089a2070eda14fda1bc51f0fe", null ],
+    [ "KilledUnit", "db/d17/a19016.html#a94f7852267620b0a77c2e1003f080589", null ],
+    [ "Reset", "db/d17/a19016.html#ae7b69b5e83fdbaa3df25dda989eeaf07", null ],
+    [ "UpdateAI", "db/d17/a19016.html#a5eef08082268fa181d4d396fc952dbcd", null ],
+    [ "ballLightningEnabled", "db/d17/a19016.html#a487582d59f0d717c3ec53679ad36f99a", null ],
+    [ "events", "db/d17/a19016.html#a8bf6ea9e5d3d198bccb293d4b4eac784", null ],
+    [ "pInstance", "db/d17/a19016.html#a969d782f2813cb4ed16abfac0f88576d", null ],
+    [ "resetTimer", "db/d17/a19016.html#aba9f23389d5f6724883dc9f7e607a351", null ],
+    [ "reviveTimer", "db/d17/a19016.html#a11388e745e81c3ad8ba7d97812a17203", null ],
+    [ "summons", "db/d17/a19016.html#a7487f79c379ef29b72959708284cfd0d", null ],
+    [ "summonTimer", "db/d17/a19016.html#a82288ef27f720b5f0f84bfd0ac6b9ccb", null ]
 ];

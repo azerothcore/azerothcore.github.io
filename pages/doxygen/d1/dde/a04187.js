@@ -1,4 +1,4 @@
 var a04187 =
 [
-    [ "lfg::LfgGroupData", "dd/de5/a07659.html", "dd/de5/a07659" ]
+    [ "Acore::Crypto::TOTP", "d5/d56/a05084.html", "d5/d56/a05084" ]
 ];

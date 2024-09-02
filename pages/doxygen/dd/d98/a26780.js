@@ -1,7 +1,7 @@
 var a26780 =
 [
-    [ "CheckProc", "dd/d98/a26780.html#a5a74f30b941460c8347dca81dcee1bf6", null ],
-    [ "HandleProc", "dd/d98/a26780.html#a15592382213762145eb30d85bfcbd60a", null ],
-    [ "PrepareAuraScript", "dd/d98/a26780.html#a82201b03b7b642e7898889412a617712", null ],
-    [ "Register", "dd/d98/a26780.html#aba014f9b0000d19cabbc5a9c763b934b", null ]
+    [ "HandleApply", "dd/d98/a26780.html#aa35fa107aee605a8583150901a75ad72", null ],
+    [ "HandleRemove", "dd/d98/a26780.html#a60b6e438ff67d9db41d160020b54da40", null ],
+    [ "PrepareAuraScript", "dd/d98/a26780.html#a1da44046f2cb9fb68b18f712111c38ea", null ],
+    [ "Register", "dd/d98/a26780.html#ac7c9e15a796e91e0ac68791d24e3d4bf", null ]
 ];

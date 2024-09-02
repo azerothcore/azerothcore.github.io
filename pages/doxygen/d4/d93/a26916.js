@@ -1,6 +1,6 @@
 var a26916 =
 [
-    [ "CheckProc", "d4/d93/a26916.html#a67f31710f6a3e843b9d3539710100898", null ],
-    [ "PrepareAuraScript", "d4/d93/a26916.html#ad59ef816bd24f6215cc853386859dbb4", null ],
-    [ "Register", "d4/d93/a26916.html#af499437b1af535488792f44c18ad9bf7", null ]
+    [ "achievement_arena_by_type", "d4/d93/a26916.html#a2042c808304e8ddf1849820491b9f1a3", null ],
+    [ "OnCheck", "d4/d93/a26916.html#abebdbf19fbf1b79c30114a9cf4ff98a4", null ],
+    [ "_arenaType", "d4/d93/a26916.html#a5c38e5fef5eaf3d037864ba2aa80584a", null ]
 ];

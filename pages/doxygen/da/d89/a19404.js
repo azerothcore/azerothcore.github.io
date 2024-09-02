@@ -1,6 +1,6 @@
 var a19404 =
 [
-    [ "HandleScript", "da/d89/a19404.html#a34eaa0324e98e96e2265c194c9e99b82", null ],
-    [ "PrepareSpellScript", "da/d89/a19404.html#a07056d5f39590927a391fbe19cbd91f2", null ],
-    [ "Register", "da/d89/a19404.html#aa889dfd1df39d9dcb105c44a0a501ef8", null ]
+    [ "CalculateDamage", "da/d89/a19404.html#a857e907dcf40f0e630b8c05c5e549672", null ],
+    [ "PrepareSpellScript", "da/d89/a19404.html#aaa6c420d13dc3c88e9c1e5a053c932aa", null ],
+    [ "Register", "da/d89/a19404.html#ae142275e06fe6381304137f637e641ca", null ]
 ];

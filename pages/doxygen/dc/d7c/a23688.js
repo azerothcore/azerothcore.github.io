@@ -1,6 +1,8 @@
 var a23688 =
 [
-    [ "spell_q12726_song_of_wind_and_water_SpellScript", "d5/dad/a23692.html", "d5/dad/a23692" ],
-    [ "spell_q12726_song_of_wind_and_water", "dc/d7c/a23688.html#ae720af3421176dd403fda9595a7198ac", null ],
-    [ "GetSpellScript", "dc/d7c/a23688.html#a70f8ad13d4f1d992675ba27188f2eddc", null ]
+    [ "boss_laj", "dc/d7c/a23688.html#a3c9323ab4b5530504588ea62aed2edff", null ],
+    [ "Reset", "dc/d7c/a23688.html#ace690a0662376addaa40093f3f119c31", null ],
+    [ "ScheduleTasks", "dc/d7c/a23688.html#a6bd0db1ed4c963cdceb681c84469b06c", null ],
+    [ "_lastTransform", "dc/d7c/a23688.html#a097eacaaf77a09bec087530bad587b11", null ],
+    [ "_transformContainer", "dc/d7c/a23688.html#a313e66ceeb4e359251dad65383e7f568", null ]
 ];

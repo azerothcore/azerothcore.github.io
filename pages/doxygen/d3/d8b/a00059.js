@@ -1,4 +1,4 @@
 var a00059 =
 [
-    [ "EventEmitter< Signature >", "dd/dc9/a05355.html", "dd/dc9/a05355" ]
+    [ "MapInstanced", "d1/d98/a09516.html", "d1/d98/a09516" ]
 ];

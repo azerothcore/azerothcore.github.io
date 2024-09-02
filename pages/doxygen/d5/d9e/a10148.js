@@ -1,7 +1,7 @@
 var a10148 =
 [
-    [ "GuildBankTextQueryResult", "d5/d9e/a10148.html#aa1e25895e246c3a688d7850e517858d3", null ],
-    [ "Write", "d5/d9e/a10148.html#acb6b28dcf56b821e3c0d5b58f6baa2dd", null ],
-    [ "Tab", "d5/d9e/a10148.html#abfc5522a0f94086474493db85ed1ef73", null ],
-    [ "Text", "d5/d9e/a10148.html#ae78c1d1b802e12efd058987117158ec3", null ]
+    [ "AutoBankItem", "d5/d9e/a10148.html#a02d39ddc9eda90be709b2fa9c1f6023d", null ],
+    [ "Read", "d5/d9e/a10148.html#a8651192c6040cdf5d257c134dde1208c", null ],
+    [ "Bag", "d5/d9e/a10148.html#a69f9b65ecb778c94c6e9278e5f98d31b", null ],
+    [ "Slot", "d5/d9e/a10148.html#a970f2ca85a76de1a25ad40a9ebf0029f", null ]
 ];

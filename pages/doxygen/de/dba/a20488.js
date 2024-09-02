@@ -1,8 +1,6 @@
 var a20488 =
 [
-    [ "npc_centrifuge_constructAI", "de/dba/a20488.html#a9219f4955ae82ca7f401ea1c63f66b09", null ],
-    [ "DamageTaken", "de/dba/a20488.html#aa568418de267a99108698e79baa1b3f4", null ],
-    [ "JustEngagedWith", "de/dba/a20488.html#ac6ecbb17624c2747253c68a50b93c40f", null ],
-    [ "Reset", "de/dba/a20488.html#a2f7750cea2f59d794c85e20b703370af", null ],
-    [ "UpdateAI", "de/dba/a20488.html#a28316416ad6c56d83c9e878511256445", null ]
+    [ "boss_thorim_sifAI", "df/d11/a20492.html", "df/d11/a20492" ],
+    [ "boss_thorim_sif", "de/dba/a20488.html#a71ef8a92f648cbea6553ed1cc657f13d", null ],
+    [ "GetAI", "de/dba/a20488.html#ae4eadf2bf83c41a8f05b853267b5fcf9", null ]
 ];

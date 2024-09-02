@@ -1,11 +1,17 @@
 var a17436 =
 [
-    [ "npc_pos_leader_secondAI", "dc/dc8/a17436.html#a2ded8591da2548921cd016d592d1f1c8", null ],
-    [ "DoAction", "dc/dc8/a17436.html#a941d3b42d6a0e58496b724af56fee44a", null ],
-    [ "MovementInform", "dc/dc8/a17436.html#a32f4c5c48f1a63ded0ac9b8ee763090b", null ],
-    [ "SpellHitTarget", "dc/dc8/a17436.html#ae630b7b225379831d15a11f66507bc6a", null ],
-    [ "UpdateAI", "dc/dc8/a17436.html#a640aea9ce4a47dd13d417748e533fc33", null ],
-    [ "barrierGUID", "dc/dc8/a17436.html#a452c096475581c12bf2f4ccb12448026", null ],
-    [ "events", "dc/dc8/a17436.html#a1e1ab6c1d349a9543815a29ae185feec", null ],
-    [ "pInstance", "dc/dc8/a17436.html#aee9dac9efee94db3d84eb9c5fb8c88a2", null ]
+    [ "npc_gunship_boarding_addAI", "dc/dc8/a17436.html#accf0e65592983cc0199cb445aea55f99", null ],
+    [ "CanAIAttack", "dc/dc8/a17436.html#a7d30e525342d1cb13103a4d7ebe1bb39", null ],
+    [ "DamageTaken", "dc/dc8/a17436.html#a3b4eac0143e3c9eb2730c9bcf54f90b0", null ],
+    [ "EnterEvadeMode", "dc/dc8/a17436.html#a5350433e352e0302d03c750a143880cf", null ],
+    [ "MovementInform", "dc/dc8/a17436.html#aa2bd88e4539ddc99f888d41fcb78c383", null ],
+    [ "SetData", "dc/dc8/a17436.html#a4fd0655356a2f9b5820e0f42f267715e", null ],
+    [ "SetSlotInfo", "dc/dc8/a17436.html#adb50c92c76763733dbec025769d62a40", null ],
+    [ "UpdateAI", "dc/dc8/a17436.html#af25bee85b38d70d1b792d7c1752e45f5", null ],
+    [ "_usedDesperateResolve", "dc/dc8/a17436.html#aaf154d9774154e868d563b3c47916746", null ],
+    [ "anyValid", "dc/dc8/a17436.html#a7fafebb9c6076dbe7fc621788910f63b", null ],
+    [ "checkTimer", "dc/dc8/a17436.html#a9a6b6d68743b1e1e993fa32435ba6722", null ],
+    [ "Index", "dc/dc8/a17436.html#a18b570e7bae0e2c4d0dcfc788d9deec3", null ],
+    [ "Instance", "dc/dc8/a17436.html#a07eeeedf7c1315a41c073cfc83361c9f", null ],
+    [ "Slot", "dc/dc8/a17436.html#a1aef6abcddaca26da2d09d3d2e6e1152", null ]
 ];

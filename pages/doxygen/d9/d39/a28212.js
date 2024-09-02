@@ -1,6 +1,7 @@
 var a28212 =
 [
-    [ "HandleDamage", "d9/d39/a28212.html#ae34b85a4830066e21069e5ab8373e5c4", null ],
-    [ "PrepareSpellScript", "d9/d39/a28212.html#a86fd53d1f9a2ecf22c4969e2f8506acf", null ],
-    [ "Register", "d9/d39/a28212.html#a1a679fb0be26228f5fcdb45da2b994ff", null ]
+    [ "ID", "d9/d39/a28212.html#aa5db020808990dc98fc143e4a5e0d2b2", null ],
+    [ "RadiusMax", "d9/d39/a28212.html#ab82c1acb9309b17104958182d80b01d1", null ],
+    [ "RadiusMin", "d9/d39/a28212.html#acaee7da373b94a262e01d4bd3bea4f08", null ],
+    [ "RadiusPerLevel", "d9/d39/a28212.html#a74bb59afb808af45ceff6367468fca1e", null ]
 ];

@@ -1,8 +1,7 @@
 var a25116 =
 [
-    [ "HandleEffectApply", "d6/dc2/a25116.html#a6345b57fa83f1ac17fb5bb5f39086781", null ],
-    [ "HandleEffectRemove", "d6/dc2/a25116.html#a12c42792555e3fed147d831f0d682bfd", null ],
-    [ "OnPeriodic", "d6/dc2/a25116.html#aeeb0be510adbacf2e4f9c1e015644b39", null ],
-    [ "PrepareAuraScript", "d6/dc2/a25116.html#a1ac103282f1fc84f52b24b723b1c0f29", null ],
-    [ "Register", "d6/dc2/a25116.html#a0fe3e5c1325f97bf9e4c0c982667b1df", null ]
+    [ "PrepareSpellScript", "d6/dc2/a25116.html#aad8061898087fbf5eb6527cbaa70927d", null ],
+    [ "RecalculateDamage", "d6/dc2/a25116.html#a6f03ccb77ce43c4e36996ae344780ee3", null ],
+    [ "Register", "d6/dc2/a25116.html#abc7e406244a1a5ea9d7c3d8feb10b8ae", null ],
+    [ "_damagePct", "d6/dc2/a25116.html#a3ab5f5ec279f30dda50fa3ca3f5e6715", null ]
 ];

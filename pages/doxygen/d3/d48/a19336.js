@@ -1,6 +1,6 @@
 var a19336 =
 [
-    [ "npc_the_lich_king_controllerAI", "d2/d03/a19340.html", "d2/d03/a19340" ],
-    [ "npc_the_lich_king_controller", "d3/d48/a19336.html#a32b14d699737497ba7c90d8ef17557d7", null ],
-    [ "GetAI", "d3/d48/a19336.html#ae9b6dacb0f4e8e6f12f187ab0dfd2165", null ]
+    [ "PrepareSpellScript", "d3/d48/a19336.html#a65c3b2c9a416b7d1bbd3c14057e5f8fc", null ],
+    [ "Register", "d3/d48/a19336.html#ad8470ed0d09c2b7e79fa4ecb1867e9bf", null ],
+    [ "SetDest", "d3/d48/a19336.html#a24341aae14ed77101d4c31f2fbe11463", null ]
 ];

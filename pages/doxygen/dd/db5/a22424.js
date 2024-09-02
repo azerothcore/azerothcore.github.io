@@ -1,6 +1,7 @@
 var a22424 =
 [
-    [ "npc_ulduar_storm_tempered_keeperAI", "dc/d62/a22428.html", "dc/d62/a22428" ],
-    [ "npc_ulduar_storm_tempered_keeper", "dd/db5/a22424.html#aaf2ef154cad4f2ba5796e410dabf02fc", null ],
-    [ "GetAI", "dd/db5/a22424.html#aa0860236d2abedba1e521ee1610c89e8", null ]
+    [ "npc_storm_cloudAI", "dd/db5/a22424.html#aa4dd9409cd74f3c2c878974715e43394", null ],
+    [ "JustRespawned", "dd/db5/a22424.html#ad0f99362f7ab506b322b6d75890881c1", null ],
+    [ "Reset", "dd/db5/a22424.html#a99654ac86502e3ac2f899082269ccb01", null ],
+    [ "SpellHit", "dd/db5/a22424.html#ac51313cec4d76216f3c716d988fc4857", null ]
 ];

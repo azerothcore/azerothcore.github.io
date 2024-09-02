@@ -1,6 +1,7 @@
 var a24964 =
 [
-    [ "boss_hydross_the_unstableAI", "dc/d30/a24968.html", "dc/d30/a24968" ],
-    [ "boss_hydross_the_unstable", "df/dff/a24964.html#a51aa86142f8d39123f075a25e1a5814a", null ],
-    [ "GetAI", "df/dff/a24964.html#a0141ef326b6d7e777f9ce42b50e36fd5", null ]
+    [ "HandleScript", "df/dff/a24964.html#ad1ca4c264e1f89adf479254e6436dd55", null ],
+    [ "Load", "df/dff/a24964.html#a66db2b82a0f014e49bbfeeaade4d1731", null ],
+    [ "PrepareSpellScript", "df/dff/a24964.html#a7616d761e7a7a708c88918302b488bb9", null ],
+    [ "Register", "df/dff/a24964.html#a8ca351c9e0e254369328865eefa3ff91", null ]
 ];

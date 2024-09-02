@@ -1,6 +1,7 @@
 var a20012 =
 [
-    [ "npc_boss_gothik_minionAI", "d2/db4/a20016.html", "d2/db4/a20016" ],
-    [ "npc_boss_gothik_minion", "de/d2f/a20012.html#a6cabeae812639ac179133245d85a0e15", null ],
-    [ "GetAI", "de/d2f/a20012.html#a8abb1ec265f9eeb646a858bee06cfb92", null ]
+    [ "npc_ulduar_saronite_vaporsAI", "de/d2f/a20012.html#a8f811c588aeca2cd4a12d4d345907bd2", null ],
+    [ "IsSummonedBy", "de/d2f/a20012.html#a4692bb5c3ffadcfd133db665566c66e5", null ],
+    [ "JustDied", "de/d2f/a20012.html#a5be637500e7b5735d90e19fa40fde467", null ],
+    [ "pInstance", "de/d2f/a20012.html#a25cf8dd22f05566ae99b14a596039f5e", null ]
 ];

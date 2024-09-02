@@ -1,6 +1,9 @@
 var a27072 =
 [
-    [ "HandleScriptEffect", "d3/dea/a27072.html#af8f2f4c4459204aa766a41dc4003581c", null ],
-    [ "PrepareSpellScript", "d3/dea/a27072.html#a687f10fa34894cb497a2ce3369fd83ef", null ],
-    [ "Register", "d3/dea/a27072.html#a034e52b435b6f4586084cb831e162c40", null ]
+    [ "ChatLogScript", "d3/dea/a27072.html#ade8c407083cf094f0767412e7b6d7730", null ],
+    [ "OnChat", "d3/dea/a27072.html#a44694358d5babfd988c6c64e738a4f80", null ],
+    [ "OnChat", "d3/dea/a27072.html#ac0a0f2e7d63cb5ff94be3d1a7c7a62b4", null ],
+    [ "OnChat", "d3/dea/a27072.html#a53b69eaa690266d38f08aa3920048353", null ],
+    [ "OnChat", "d3/dea/a27072.html#a7b6ce21ddcda078a0ed32ce130a3b376", null ],
+    [ "OnChat", "d3/dea/a27072.html#ab7e9d4f50e33c4ddd49e98157deb29ba", null ]
 ];

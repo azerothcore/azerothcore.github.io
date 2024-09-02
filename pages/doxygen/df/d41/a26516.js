@@ -1,7 +1,8 @@
 var a26516 =
 [
-    [ "npc_pet_gen_target_following_bomb", "df/d41/a26516.html#a447c2cd258d784ca1d79c79412a1a426", null ],
-    [ "UpdateAI", "df/d41/a26516.html#ac68f18d68a313623c04e885f9506f287", null ],
-    [ "bombSpellId", "df/d41/a26516.html#a3c72bd26c66d3e7a85f3152557e399c4", null ],
-    [ "checkTimer", "df/d41/a26516.html#a694ee5f884f1bd404f0ef3d3030a212f", null ]
+    [ "HandleRootRemove", "df/d41/a26516.html#a9678ce2254825b67eb7a16312e960ba9", null ],
+    [ "HandleSnareRemove", "df/d41/a26516.html#a6a0716f500b3926e66c62a038a1e03d3", null ],
+    [ "PrepareSpellScript", "df/d41/a26516.html#ab9dc5e2516e269b968cb995040bc00a0", null ],
+    [ "Register", "df/d41/a26516.html#a119675dccea898932ca090577022b6ba", null ],
+    [ "Validate", "df/d41/a26516.html#a1a90cf531ba1131952161ff9d10b2cb7", null ]
 ];

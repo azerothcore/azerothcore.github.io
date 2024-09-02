@@ -1,6 +1,7 @@
 var a23588 =
 [
-    [ "npc_boneguard_footmanAI", "dc/d75/a23588.html#a04eff1976824724b321f0c0d95e0940a", null ],
-    [ "UpdateAI", "dc/d75/a23588.html#a9cba65867824daeb50cb2b39d68ad84b", null ],
-    [ "checkTimer", "dc/d75/a23588.html#a46dd1fa8d111dca0584a8e6fb7a6a566", null ]
+    [ "FilterTargets", "dc/d75/a23588.html#a834163302ff10875227806d7d4945988", null ],
+    [ "HandleScriptEffect", "dc/d75/a23588.html#a5dd125da7dd46e2d81ab5e0f10bc00c3", null ],
+    [ "PrepareSpellScript", "dc/d75/a23588.html#a079e72d57550e03956088b4be1d11422", null ],
+    [ "Register", "dc/d75/a23588.html#abd4e0f268652652d3828ba8d350de849", null ]
 ];

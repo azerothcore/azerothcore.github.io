@@ -1,6 +1,8 @@
 var a24520 =
 [
-    [ "HandleDummy", "de/d6b/a24520.html#abc61270dfcd54361901f271279932424", null ],
-    [ "PrepareSpellScript", "de/d6b/a24520.html#a92942babd0ee54c82cc8cbe062e13718", null ],
-    [ "Register", "de/d6b/a24520.html#acce764e36e97a10ddb2cfeac0edc04d0", null ]
+    [ "CheckCast", "de/d6b/a24520.html#a94851a2b6a62138e28466317e9e88480", null ],
+    [ "HandleDummy", "de/d6b/a24520.html#a970684d219c99519512c437a8efd8d43", null ],
+    [ "PrepareSpellScript", "de/d6b/a24520.html#a39b726e6c5809a6f8100970e8b71fc71", null ],
+    [ "Register", "de/d6b/a24520.html#a7acf718f0a1109d384fd2b9dd23ca62c", null ],
+    [ "Validate", "de/d6b/a24520.html#a59cca008a97447e257bf24071301b366", null ]
 ];

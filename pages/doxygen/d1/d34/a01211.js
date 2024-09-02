@@ -1,12 +1,5 @@
 var a01211 =
 [
-    [ "npc_valkyr_battle_maiden", "d1/da2/a12695.html", "d1/da2/a12695" ],
-    [ "npc_valkyr_battle_maiden::npc_valkyr_battle_maidenAI", "df/d41/a12699.html", "df/d41/a12699" ],
-    [ "Says_VBM", "d1/d34/a01211.html#a1e8eb132ddeee98b584395e0a134c9e4", [
-      [ "WHISPER_REVIVE", "d1/d34/a01211.html#a1e8eb132ddeee98b584395e0a134c9e4ab9bb7fa81ba89129587c51969dd3b833", null ]
-    ] ],
-    [ "Spells_VBM", "d1/d34/a01211.html#a97df4b07a8686c29a9700c8d11af35e3", [
-      [ "SPELL_REVIVE", "d1/d34/a01211.html#a97df4b07a8686c29a9700c8d11af35e3a3d8bf8576afa397124a60457a9fdfc38", null ]
-    ] ],
-    [ "AddSC_the_scarlet_enclave", "d1/d34/a01211.html#a86bbb652876f394aaca15b4ed6e2bfa7", null ]
+    [ "AreaTriggerScript", "d2/dbe/a09936.html", "d2/dbe/a09936" ],
+    [ "OnlyOnceAreaTriggerScript", "de/db3/a09940.html", "de/db3/a09940" ]
 ];

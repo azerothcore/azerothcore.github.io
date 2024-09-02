@@ -1,7 +1,6 @@
 var a11728 =
 [
-    [ "HandleRemove", "de/d90/a11728.html#a754b44b62c131e20e1be94b3407e2006", null ],
-    [ "PrepareAuraScript", "de/d90/a11728.html#a92a58e6bcde5f80c6962ce1da47aca2d", null ],
-    [ "Register", "de/d90/a11728.html#a02cd375ec140f7614104b7e56df13430", null ],
-    [ "Validate", "de/d90/a11728.html#a4dd592093c1b00388a54fd8aa1b86904", null ]
+    [ "boss_pyroguard_emberseerAI", "d7/d2b/a11732.html", "d7/d2b/a11732" ],
+    [ "boss_pyroguard_emberseer", "de/d90/a11728.html#af9f55c012880404e2e6f8278763af194", null ],
+    [ "GetAI", "de/d90/a11728.html#a060c52f53760e60a022a7034dd785b1d", null ]
 ];

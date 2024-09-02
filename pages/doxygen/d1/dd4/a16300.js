@@ -1,6 +1,6 @@
 var a16300 =
 [
-    [ "spell_halion_leave_twilight_realm_AuraScript", "d4/d5f/a16304.html", "d4/d5f/a16304" ],
-    [ "spell_halion_leave_twilight_realm", "d1/dd4/a16300.html#a52386565c87af25bb94ce00f16a8454c", null ],
-    [ "GetAuraScript", "d1/dd4/a16300.html#ae45002e73c2c549ab070f2e4d0215329", null ]
+    [ "npc_toc_rogueAI", "d4/d5f/a16304.html", "d4/d5f/a16304" ],
+    [ "npc_toc_rogue", "d1/dd4/a16300.html#a925840be9698e381358235a827c20b8a", null ],
+    [ "GetAI", "d1/dd4/a16300.html#a6f0246b284ffd800e3870d70e9c52aac", null ]
 ];

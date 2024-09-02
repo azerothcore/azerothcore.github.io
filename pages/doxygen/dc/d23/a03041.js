@@ -1,12 +1,12 @@
 var a03041 =
 [
-    [ "SpellEvent", "da/da8/a10775.html", "da/da8/a10775" ],
-    [ "CHECK_DIST", "dc/d23/a03041.html#aa16c8b27baa496c2fdf0afffaf4485a0", null ],
-    [ "DEBUG_TRAJ", "dc/d23/a03041.html#ac27bc73435b380df600d6da0b753a144", null ],
-    [ "GCDLimits", "dc/d23/a03041.html#aea36520bcbaa2ebe9c062b9c5d9df777", [
-      [ "MIN_GCD", "dc/d23/a03041.html#aea36520bcbaa2ebe9c062b9c5d9df777a08310e07fc7bc96f8485dbcc9487785f", null ],
-      [ "MAX_GCD", "dc/d23/a03041.html#aea36520bcbaa2ebe9c062b9c5d9df777accf1639a1cf684725784e02ddf1aef8c", null ]
+    [ "npc_valkyr_battle_maiden", "d8/df7/a12692.html", "d8/df7/a12692" ],
+    [ "npc_valkyr_battle_maiden::npc_valkyr_battle_maidenAI", "d6/de5/a12696.html", "d6/de5/a12696" ],
+    [ "Says_VBM", "dc/d23/a03041.html#a1e8eb132ddeee98b584395e0a134c9e4", [
+      [ "WHISPER_REVIVE", "dc/d23/a03041.html#a1e8eb132ddeee98b584395e0a134c9e4ab9bb7fa81ba89129587c51969dd3b833", null ]
     ] ],
-    [ "tangent", "dc/d23/a03041.html#a885f76b28cf9930383ddf099d75ccef1", null ],
-    [ "SpellEffects", "dc/d23/a03041.html#a294b5954f08aebdafe9e5a6f00e2dc82", null ]
+    [ "Spells_VBM", "dc/d23/a03041.html#a97df4b07a8686c29a9700c8d11af35e3", [
+      [ "SPELL_REVIVE", "dc/d23/a03041.html#a97df4b07a8686c29a9700c8d11af35e3a3d8bf8576afa397124a60457a9fdfc38", null ]
+    ] ],
+    [ "AddSC_the_scarlet_enclave", "dc/d23/a03041.html#a86bbb652876f394aaca15b4ed6e2bfa7", null ]
 ];

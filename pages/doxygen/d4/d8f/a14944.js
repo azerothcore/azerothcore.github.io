@@ -1,6 +1,5 @@
 var a14944 =
 [
-    [ "npc_idol_room_spawnerAI", "d8/d92/a14948.html", "d8/d92/a14948" ],
-    [ "npc_idol_room_spawner", "d4/d8f/a14944.html#ac51fed89c27ebf6ae3cf65ca8909eab1", null ],
-    [ "GetAI", "d4/d8f/a14944.html#a3017caa645e98a7647ec42a43c025624", null ]
+    [ "at_cthun_center", "d4/d8f/a14944.html#a75cf2b77215e0d50c1c89ec9b522ebc3", null ],
+    [ "OnTrigger", "d4/d8f/a14944.html#af744df9577e84ab64749076324e574c9", null ]
 ];

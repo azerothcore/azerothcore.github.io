@@ -1,6 +1,6 @@
 var a19384 =
 [
-    [ "npc_blistering_zombieAI", "df/d6a/a19388.html", "df/d6a/a19388" ],
-    [ "npc_blistering_zombie", "da/d29/a19384.html#aade4afec51e5ee77df8a39cff83e1f44", null ],
-    [ "GetAI", "da/d29/a19384.html#a08ef7c13b1755ac665507cd8397a2f93", null ]
+    [ "npc_spark_of_ionarAI", "df/d6a/a19388.html", "df/d6a/a19388" ],
+    [ "npc_spark_of_ionar", "da/d29/a19384.html#a63578a0d77331849b7a48272870af04d", null ],
+    [ "GetAI", "da/d29/a19384.html#aa1e524327b76ddc11a32e7a094e39dd1", null ]
 ];

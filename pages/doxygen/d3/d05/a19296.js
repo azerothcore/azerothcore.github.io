@@ -1,5 +1,6 @@
 var a19296 =
 [
-    [ "achievement_neck_deep_in_vile", "d3/d05/a19296.html#af0e54c236e7637d8c1a8cf7dbed5a195", null ],
-    [ "OnCheck", "d3/d05/a19296.html#a9861c008f302279a4ac5f4ddc14ca2d0", null ]
+    [ "npc_oculus_drakeAI", "d1/d40/a19300.html", "d1/d40/a19300" ],
+    [ "npc_oculus_drake", "d3/d05/a19296.html#ad2897dd72e9337af53ef2f043cd07d55", null ],
+    [ "GetAI", "d3/d05/a19296.html#afd2f1678a7faef76a231e4c16bd015e5", null ]
 ];

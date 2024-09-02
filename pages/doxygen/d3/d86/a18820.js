@@ -1,6 +1,17 @@
 var a18820 =
 [
-    [ "MysticBuffetTargetFilter", "d3/d86/a18820.html#a5cc25dc0c6de036ec8fa3e7f10ffb2ea", null ],
-    [ "operator()", "d3/d86/a18820.html#a76536b8960aa5e64fa8f7a02939d4295", null ],
-    [ "_caster", "d3/d86/a18820.html#a60ef55fa8d6f511bba566ac3c8f8328a", null ]
+    [ "boss_faerlinaAI", "d3/d86/a18820.html#a3a97178599b9053c23a079ed1a2ed163", null ],
+    [ "JustDied", "d3/d86/a18820.html#a7ac2e510568a9dad710beaad42db0544", null ],
+    [ "JustEngagedWith", "d3/d86/a18820.html#a830dfa4fed62b4588ea8866174d3653a", null ],
+    [ "JustSummoned", "d3/d86/a18820.html#a4b8294cccdddc77ab3d47130ae640970", null ],
+    [ "KilledUnit", "d3/d86/a18820.html#a6f7a6e66abcf4f4dd685bbb805920900", null ],
+    [ "MoveInLineOfSight", "d3/d86/a18820.html#aa5cd735c22d46e1b756f87f3952033a1", null ],
+    [ "Reset", "d3/d86/a18820.html#acee81492b9b751df587a3a2cdd691ab3", null ],
+    [ "SpellHit", "d3/d86/a18820.html#aa4fac163e31dcd9353238f993259d5ec", null ],
+    [ "SummonHelpers", "d3/d86/a18820.html#af2fbf866f87d568ee6028f0931d3b74e", null ],
+    [ "UpdateAI", "d3/d86/a18820.html#af3f25749a8964ee48830faca7135ed3a", null ],
+    [ "events", "d3/d86/a18820.html#a61c02ce073bd4cf261aca8a46bb13175", null ],
+    [ "pInstance", "d3/d86/a18820.html#a7ee42aa0dc3d035e5f3033146a624fda", null ],
+    [ "sayGreet", "d3/d86/a18820.html#a5f20e23458886c4f38c8f4a032e903d6", null ],
+    [ "summons", "d3/d86/a18820.html#ae6eabcd889a786344b10165de952c5f7", null ]
 ];

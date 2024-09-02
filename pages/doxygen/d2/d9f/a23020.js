@@ -1,9 +1,7 @@
 var a23020 =
 [
-    [ "npc_captured_beryl_sorcererAI", "d2/d9f/a23020.html#a3c3f47022aee418f228803a2504470a3", null ],
-    [ "Initialize", "d2/d9f/a23020.html#a98b2ff2f0e152a41106eaace5273aa69", null ],
-    [ "MoveInLineOfSight", "d2/d9f/a23020.html#a4f7edf7bc7480bf0c9f6aec113b2e058", null ],
-    [ "Reset", "d2/d9f/a23020.html#ac96af1fd018e88950d1c58562dffdb83", null ],
-    [ "UpdateAI", "d2/d9f/a23020.html#a1bbefa59abce0c7b3d7b343ddc467c98", null ],
-    [ "_events", "d2/d9f/a23020.html#a0ba1f7ffa792c93ccd4df8ec2c80fb42", null ]
+    [ "HandleScriptEffect", "d2/d9f/a23020.html#a0038e566bc5054e4208fd727fcc266fa", null ],
+    [ "PrepareSpellScript", "d2/d9f/a23020.html#abb661bacf4cec1f2e15f4aeda2ab991e", null ],
+    [ "Register", "d2/d9f/a23020.html#a416b811c2676c598df0ac0e5906a94d3", null ],
+    [ "Validate", "d2/d9f/a23020.html#a11e82a2b40dbbd9949a1dda3bd715679", null ]
 ];

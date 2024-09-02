@@ -1,6 +1,6 @@
 var a26036 =
 [
-    [ "HandleEffect", "d8/d68/a26036.html#aa1475e99087f0d270823cfd23376ce4c", null ],
-    [ "PrepareSpellScript", "d8/d68/a26036.html#ae88f4d4d3697fc3c57c3d8e9a9255bd1", null ],
-    [ "Register", "d8/d68/a26036.html#af45b5e3c7ff0fc360df677e5010183d8", null ]
+    [ "CalculateAmount", "d8/d68/a26036.html#a9c4a38bb60cc61156da5bd1b89b3e116", null ],
+    [ "PrepareAuraScript", "d8/d68/a26036.html#a5bd55cb8b992f7ceb52f7193bcdbf210", null ],
+    [ "Register", "d8/d68/a26036.html#a1f717d941f8d100eb73d7e2a3b638bad", null ]
 ];

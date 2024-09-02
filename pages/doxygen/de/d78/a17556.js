@@ -1,6 +1,7 @@
 var a17556 =
 [
-    [ "boss_gal_darahAI", "d6/d85/a17560.html", "d6/d85/a17560" ],
-    [ "boss_gal_darah", "de/d78/a17556.html#a687bb98f9de9cd838c57511dc6b3d086", null ],
-    [ "GetAI", "de/d78/a17556.html#a8f709568f5a06265056571061ff3a26b", null ]
+    [ "DamageGunship", "de/d78/a17556.html#a1dc0145cfff777b18b9241dfc0966f32", null ],
+    [ "PrepareSpellScript", "de/d78/a17556.html#aa698d016ae58d665c081976f20ec0385", null ],
+    [ "Register", "de/d78/a17556.html#ab8836babdea1fd963fdd53415db0a3ba", null ],
+    [ "Validate", "de/d78/a17556.html#ae80cd93b2f01ddb83493f9f818fc0ea1", null ]
 ];

@@ -1,6 +1,7 @@
 var a23460 =
 [
-    [ "spell_shredder_delivery_SpellScript", "d7/dbc/a23464.html", "d7/dbc/a23464" ],
-    [ "spell_shredder_delivery", "d3/dd2/a23460.html#ab1489e9a6c0f538a184a508342d3bf45", null ],
-    [ "GetSpellScript", "d3/dd2/a23460.html#ae126ef1887f3ae83daf0ad2c17486a70", null ]
+    [ "PeriodicTick", "d3/dd2/a23460.html#a53541105e40202e4a73ecc38d84e9eca", null ],
+    [ "PrepareAuraScript", "d3/dd2/a23460.html#a79c8829a86db535e254db009d5286430", null ],
+    [ "Register", "d3/dd2/a23460.html#a58cd762eb10d224bb188aaf167c816b9", null ],
+    [ "Validate", "d3/dd2/a23460.html#a0a4a1c0b460f7a0ade6ddbbedc893c6f", null ]
 ];

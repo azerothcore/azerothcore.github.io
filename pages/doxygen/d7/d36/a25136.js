@@ -1,10 +1,7 @@
 var a25136 =
 [
-    [ "boss_morogrim_tidewalkerAI", "d7/d36/a25136.html#acc7d1f11380a4b44680ea3edf0b89434", null ],
-    [ "JustDied", "d7/d36/a25136.html#a90119445ecbfb99ffc50da5a7fcc659b", null ],
-    [ "JustEngagedWith", "d7/d36/a25136.html#ac84f82d3e0226b1a08c379febbce2ba2", null ],
-    [ "JustSummoned", "d7/d36/a25136.html#ab99f8bad8939a3069b6d5ad2f1d7c298", null ],
-    [ "KilledUnit", "d7/d36/a25136.html#a58cfd8a039780e5612f6f38eebe7d963", null ],
-    [ "Reset", "d7/d36/a25136.html#a9e091355a2a3b9721b45f99426a30a4d", null ],
-    [ "UpdateAI", "d7/d36/a25136.html#a260301ee2374c728adfc3d770da90fdb", null ]
+    [ "HandleProc", "d7/d36/a25136.html#ac88c41bcfcedd9194d9d3f958d605d37", null ],
+    [ "PrepareAuraScript", "d7/d36/a25136.html#a66c3458e88ab5802e10445df3aeb52f6", null ],
+    [ "Register", "d7/d36/a25136.html#af02b0af51a1fece0780414ab45c8d31e", null ],
+    [ "Validate", "d7/d36/a25136.html#a9f955b53e5905cfb3742a58c8bedab96", null ]
 ];

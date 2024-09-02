@@ -1,7 +1,8 @@
 var a28172 =
 [
-    [ "CalculateAmount", "d8/d74/a28172.html#a5d4549ac73b46382c1beddbb65257ad0", null ],
-    [ "HandleUpdateSpellclick", "d8/d74/a28172.html#a89956d7f3a6404d5b60e46034867c82c", null ],
-    [ "PrepareAuraScript", "d8/d74/a28172.html#a7cbdc79c63306a8fcfcc06180998a290", null ],
-    [ "Register", "d8/d74/a28172.html#a2252719e6ea995b85b7b0c5ecb6a26d3", null ]
+    [ "ClassMask", "d8/d74/a28172.html#a563ba1618ffefa5470696e37f65c70d4", null ],
+    [ "Flags", "d8/d74/a28172.html#af89c32a22f018557fe016e0784a82384", null ],
+    [ "RaceMask", "d8/d74/a28172.html#acff47bf5c075d669f95b0d229674f9bc", null ],
+    [ "SkillID", "d8/d74/a28172.html#ab9237a8776aa854e0f81cf228a247ef0", null ],
+    [ "SkillTierID", "d8/d74/a28172.html#ab6153043461b71336e12b00957499075", null ]
 ];

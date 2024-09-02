@@ -1,8 +1,5 @@
 var a28112 =
 [
-    [ "CheckCast", "d1/d05/a28112.html#a0d7910cd2b9d9f4174575532502d40f9", null ],
-    [ "HandleDummy", "d1/d05/a28112.html#a1eac1eb5f39093ff48942e82728478dd", null ],
-    [ "PrepareSpellScript", "d1/d05/a28112.html#adbb58b75232560d101b291c0d99a2a20", null ],
-    [ "Register", "d1/d05/a28112.html#a6acb46e81171e13f50ac1f01bf83013b", null ],
-    [ "Validate", "d1/d05/a28112.html#a4b67c348685a8094668e4ed2f0c78446", null ]
+    [ "content", "d1/d05/a28112.html#a936eb07adb8a41480dfc196127b7e5c0", null ],
+    [ "ID", "d1/d05/a28112.html#a1a33aff67b979c3c7a76c26debb5fc25", null ]
 ];

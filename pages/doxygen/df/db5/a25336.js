@@ -1,7 +1,7 @@
 var a25336 =
 [
-    [ "OnApply", "df/db5/a25336.html#a301e47da9be4b4a449701c59c19bc62b", null ],
-    [ "PrepareAuraScript", "df/db5/a25336.html#a623bf9442a4a2b046d1d89bc2523eb37", null ],
-    [ "Register", "df/db5/a25336.html#aaf38547f7fa233b03429734dbe374f13", null ],
-    [ "Validate", "df/db5/a25336.html#ac390e2e24d9a85635ced5eaa343b8e09", null ]
+    [ "HandleDummy", "df/db5/a25336.html#a4b23e39151d0bced8bb729435a56352d", null ],
+    [ "Load", "df/db5/a25336.html#aaa341815d71652a13f3ca449af6ac14f", null ],
+    [ "PrepareSpellScript", "df/db5/a25336.html#ac0e7d279312a59dd62d7d91eb3ef82b7", null ],
+    [ "Register", "df/db5/a25336.html#a19a2247cebd2af38a1bd30af213ad633", null ]
 ];

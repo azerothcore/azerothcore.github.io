@@ -1,6 +1,7 @@
 var a14260 =
 [
-    [ "HandleScript", "d7/de8/a14260.html#a465272dc4e693ab5ce5abd5a3905283b", null ],
-    [ "PrepareSpellScript", "d7/de8/a14260.html#a26b296c1c4d9f5193dc3773509267284", null ],
-    [ "Register", "d7/de8/a14260.html#aad66e4079ea9404b9057546d8959a395", null ]
+    [ "OnApply", "d7/de8/a14260.html#a42148069675e663456bb5495fa5c8702", null ],
+    [ "OnPeriodic", "d7/de8/a14260.html#ad3582b02b369e3029e20817dd19aede0", null ],
+    [ "PrepareAuraScript", "d7/de8/a14260.html#a4e53e6cc02ce44d85fdf5497c006d7d9", null ],
+    [ "Register", "d7/de8/a14260.html#a8970b2ae63e0ba2e238aa6309d713b62", null ]
 ];

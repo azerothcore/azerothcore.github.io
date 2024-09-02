@@ -1,6 +1,9 @@
 var a26484 =
 [
-    [ "npc_pet_dk_army_of_the_deadAI", "df/d43/a26488.html", "df/d43/a26488" ],
-    [ "npc_pet_dk_army_of_the_dead", "df/dd9/a26484.html#a0029b9a6bf26ac3419e580d437a0139f", null ],
-    [ "GetAI", "df/dd9/a26484.html#a1883936b7f2905f67d3750faa8caf635", null ]
+    [ "Absorb", "df/dd9/a26484.html#a22b175a7a07f950b5be1aad60e096e4f", null ],
+    [ "CalculateAmount", "df/dd9/a26484.html#a9aa29ca1e77a2ef060d94d4d07a7c0e6", null ],
+    [ "Load", "df/dd9/a26484.html#acf7851d34fa2368c9e711e8b3943c09b", null ],
+    [ "PrepareAuraScript", "df/dd9/a26484.html#ac273b669dc396561d9ec8b523659363f", null ],
+    [ "Register", "df/dd9/a26484.html#a656f4770b0f7099f5926a8063f7d740c", null ],
+    [ "absorbPct", "df/dd9/a26484.html#a31d7ca52ace4e22652403292969baf55", null ]
 ];

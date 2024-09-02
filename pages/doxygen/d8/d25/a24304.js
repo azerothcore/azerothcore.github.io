@@ -1,6 +1,6 @@
 var a24304 =
 [
-    [ "boss_murmurAI", "d2/dbf/a24308.html", "d2/dbf/a24308" ],
-    [ "boss_murmur", "d8/d25/a24304.html#a37189f25927d9a44cfa78213d6524c1e", null ],
-    [ "GetAI", "d8/d25/a24304.html#ab3b530048d8a3268d777439fad47012c", null ]
+    [ "npc_pet_dk_army_of_the_deadAI", "d2/dbf/a24308.html", "d2/dbf/a24308" ],
+    [ "npc_pet_dk_army_of_the_dead", "d8/d25/a24304.html#a0029b9a6bf26ac3419e580d437a0139f", null ],
+    [ "GetAI", "d8/d25/a24304.html#a1883936b7f2905f67d3750faa8caf635", null ]
 ];

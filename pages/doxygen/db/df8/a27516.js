@@ -1,7 +1,7 @@
 var a27516 =
 [
-    [ "CalcPeriodic", "db/df8/a27516.html#a5847ba4daad49dca2527513055fa4429", null ],
-    [ "PrepareAuraScript", "db/df8/a27516.html#a8753419b2fa1b1bb96a08bf54995e82c", null ],
-    [ "Register", "db/df8/a27516.html#a08f851e5582831d5dd05878c4a55db67", null ],
-    [ "Update", "db/df8/a27516.html#a3ab2716cbccc1311992de44e6591d966", null ]
+    [ "npc_wormholeAI", "db/df8/a27516.html#a75c28ce9bcbb5ef6fb4213d000d5596a", null ],
+    [ "GetData", "db/df8/a27516.html#ad4c9f2265f126c7f2b5538bab6b75cb3", null ],
+    [ "InitializeAI", "db/df8/a27516.html#aa0a903014ec7243036604ffcc67e0a36", null ],
+    [ "_showUnderground", "db/df8/a27516.html#a6a2fbf623b8fc55cfd48a12e2c515134", null ]
 ];

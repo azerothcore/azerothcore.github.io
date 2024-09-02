@@ -1,6 +1,10 @@
 var a01895 =
 [
-    [ "instance_maraudon", "da/d26/a14703.html", "da/d26/a14703" ],
-    [ "instance_maraudon::instance_maraudon_InstanceMapScript", "dc/dfd/a14707.html", "dc/dfd/a14707" ],
-    [ "AddSC_instance_maraudon", "db/d29/a01895.html#a6ab7baf162a5cf99b16fb0a26d7973cb", null ]
+    [ "npc_webbed_creature", "d8/d47/a15176.html", "d8/d47/a15176" ],
+    [ "npc_webbed_creature::npc_webbed_creatureAI", "de/de6/a15180.html", "de/de6/a15180" ],
+    [ "WebbedCreature", "db/d29/a01895.html#aa14073eff8de36ab4c416f5ae7bd8cd0", [
+      [ "NPC_EXPEDITION_RESEARCHER", "db/d29/a01895.html#aa14073eff8de36ab4c416f5ae7bd8cd0afbd11004b44bf2d153ac8e084395b3b3", null ]
+    ] ],
+    [ "AddSC_bloodmyst_isle", "db/d29/a01895.html#a6b9832f4bb6cfefde5bab6937fd46fae", null ],
+    [ "possibleSpawns", "db/d29/a01895.html#ab3e43a66e02bf6f3b8cbd7c154f9d70d", null ]
 ];

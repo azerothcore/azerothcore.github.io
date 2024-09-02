@@ -1,6 +1,6 @@
 var a14572 =
 [
-    [ "FilterTargets", "d5/db0/a14572.html#a7ac5d839ac803532c9ec299c65128d70", null ],
-    [ "PrepareSpellScript", "d5/db0/a14572.html#a04cfa5d7673374b1e6132127f48630cb", null ],
-    [ "Register", "d5/db0/a14572.html#a40ba0ba8ebd23ec3da679a06b194dd29", null ]
+    [ "npc_crate_helperAI", "d0/d09/a14576.html", "d0/d09/a14576" ],
+    [ "npc_crate_helper", "d5/db0/a14572.html#ae08751928234656dcda84dd5c7e4cc37", null ],
+    [ "GetAI", "d5/db0/a14572.html#af69c9cf385ee829853985daa7f2aa8d6", null ]
 ];

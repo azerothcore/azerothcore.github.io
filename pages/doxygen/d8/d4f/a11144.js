@@ -1,11 +1,9 @@
 var a11144 =
 [
-    [ "spectator_commandscript", "d8/d4f/a11144.html#a1bf79d739a6af02405bc268c9bb50c26", null ],
-    [ "GetCommands", "d8/d4f/a11144.html#a3451bcda07b51a33fd8368cf00ac190f", null ],
-    [ "HandleSpectatorCommand", "d8/d4f/a11144.html#aaf331e54c3c19b5d16d9d5f5c9d28721", null ],
-    [ "HandleSpectatorLeaveCommand", "d8/d4f/a11144.html#a15e661891f4e08c3efa0bd844c3954aa", null ],
-    [ "HandleSpectatorResetCommand", "d8/d4f/a11144.html#a23a1a3740609a6d0caa6e0f10c7e8653", null ],
-    [ "HandleSpectatorSpectateCommand", "d8/d4f/a11144.html#ad1f117a77c0154fc25e937dfe21870a2", null ],
-    [ "HandleSpectatorVersionCommand", "d8/d4f/a11144.html#aaf7c57603d263f7ab919f12d9680f058", null ],
-    [ "HandleSpectatorWatchCommand", "d8/d4f/a11144.html#a1ee822e332374b375962d1ae87adbc61", null ]
+    [ "ClientKeySeed", "d8/d4f/a11144.html#a3e2df88e6fd716030d70a77850e96970", null ],
+    [ "ClientKeySeedHash", "d8/d4f/a11144.html#ae2523827d6f9abae5eed0b463c00062f", null ],
+    [ "Module", "d8/d4f/a11144.html#a1fcce28666a614c83d06729bc9c88bb4", null ],
+    [ "ModuleKey", "d8/d4f/a11144.html#ac34f4c4997f5f64a9dcf4ad7d914a215", null ],
+    [ "Seed", "d8/d4f/a11144.html#a3c8e1b5c642f12e29837800f0428f34e", null ],
+    [ "ServerKeySeed", "d8/d4f/a11144.html#ad29fe1f9ba6ef32f1d35657683b0e11b", null ]
 ];

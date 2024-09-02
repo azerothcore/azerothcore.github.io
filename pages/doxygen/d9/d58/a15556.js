@@ -1,6 +1,6 @@
 var a15556 =
 [
-    [ "npc_great_bear_spirit", "d9/d58/a15556.html#a141470a3623aa1152d3505661f1532c8", null ],
-    [ "OnGossipHello", "d9/d58/a15556.html#a2307b8d56fc117d918adc9814fa86f8f", null ],
-    [ "OnGossipSelect", "d9/d58/a15556.html#aae026f4cf8b0de61d36a841dcfdbd92e", null ]
+    [ "creatureID", "d9/d58/a15556.html#a44a9f5e58bfa58e2e2325e116e988f07", null ],
+    [ "pos", "d9/d58/a15556.html#a9705a858cc2c3867e104514d3a0a1866", null ],
+    [ "waveID", "d9/d58/a15556.html#a09b48f7f6da7e203ed50a8abc7f24e56", null ]
 ];

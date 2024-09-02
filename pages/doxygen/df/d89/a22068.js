@@ -1,8 +1,12 @@
 var a22068 =
 [
-    [ "spell_xt002_gravity_bomb_aura_AuraScript", "de/df4/a22072.html", "de/df4/a22072" ],
-    [ "spell_xt002_gravity_bomb_aura_SpellScript", "d0/d68/a22076.html", "d0/d68/a22076" ],
-    [ "spell_xt002_gravity_bomb_aura", "df/d89/a22068.html#a9dde44cdcc80e022a82e0688dc6e12f2", null ],
-    [ "GetAuraScript", "df/d89/a22068.html#ad70c3daf77d8d97bdd2f18056af6b804", null ],
-    [ "GetSpellScript", "df/d89/a22068.html#af7d1804f9954401b574229c0b4168d0b", null ]
+    [ "npc_tournament_training_dummyAI", "df/d89/a22068.html#ab84a35b5145c74f16dfbbe020dd9a73b", null ],
+    [ "DamageTaken", "df/d89/a22068.html#a98c18794124922e6946a82a324410837", null ],
+    [ "EnterEvadeMode", "df/d89/a22068.html#a3f31d705284b0fad2f00c9210ff06646", null ],
+    [ "MoveInLineOfSight", "df/d89/a22068.html#a7a05c8682767f5a2d847e99eeed8e00f", null ],
+    [ "Reset", "df/d89/a22068.html#a7339ffe52dc789f9480afca7141a169e", null ],
+    [ "SpellHit", "df/d89/a22068.html#a5cd56075333fb59ddd8d4a48dc2eecdf", null ],
+    [ "UpdateAI", "df/d89/a22068.html#a8bba917f0e0d67cd7a0121ab71d5a419", null ],
+    [ "events", "df/d89/a22068.html#a77fa2ef2f15208ab8b284c71e0227fc4", null ],
+    [ "isVulnerable", "df/d89/a22068.html#a4a4d3029a329e6eb253bc57c5f7b2a98", null ]
 ];

@@ -1,7 +1,7 @@
 var a15432 =
 [
-    [ "npc_cork_gizeltonAI", "dc/d8f/a15436.html", "dc/d8f/a15436" ],
-    [ "npc_cork_gizelton", "d6/d10/a15432.html#a915aa2abc18109e7d0197863f59536f2", null ],
-    [ "GetAI", "d6/d10/a15432.html#a8a5fe5c46767aa37fd6e5b10e1bfc372", null ],
-    [ "OnQuestAccept", "d6/d10/a15432.html#a11dc1fea0a24add451272b537298fc13", null ]
+    [ "npc_steward_of_time", "d6/d10/a15432.html#ad49973464c96f44506033b73a85f6360", null ],
+    [ "OnGossipHello", "d6/d10/a15432.html#a3b61038393c3addbbfa6643438164db3", null ],
+    [ "OnGossipSelect", "d6/d10/a15432.html#af4fe13e266a98129b92e5a25188d947c", null ],
+    [ "OnQuestAccept", "d6/d10/a15432.html#a53d552282da49e8246089b2799fff9ca", null ]
 ];

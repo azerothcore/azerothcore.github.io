@@ -1,11 +1,16 @@
 var a19364 =
 [
-    [ "npc_valithria_cloudAI", "de/d4d/a19364.html#a5b550d0154f302cecc509fbd868a53bb", null ],
-    [ "AttackStart", "de/d4d/a19364.html#a5835d5ba19e1480016e585c1e49489c9", null ],
-    [ "EnterEvadeMode", "de/d4d/a19364.html#a346fd998d41451d7d1e605afdb13b65c", null ],
-    [ "MoveInLineOfSight", "de/d4d/a19364.html#a8d4c8d082f12b96b2b77447d0b942c2c", null ],
-    [ "Reset", "de/d4d/a19364.html#abca34d7285ef23c062006df8f8ae6d53", null ],
-    [ "UpdateAI", "de/d4d/a19364.html#a6908f5731915bf7d15bb4921c960aa30", null ],
-    [ "_events", "de/d4d/a19364.html#afc5c9299d7f1f73c087a19dcfb19e096", null ],
-    [ "_instance", "de/d4d/a19364.html#a20cc2bba9d1005cc93b55dfba8bfbcf3", null ]
+    [ "boss_bjarngrimAI", "de/d4d/a19364.html#ab599d5f62638d622c560f5b63e645b50", null ],
+    [ "JustDied", "de/d4d/a19364.html#adcad5667168768d8f3c8235735f357b1", null ],
+    [ "JustEngagedWith", "de/d4d/a19364.html#a2e99538fdc107bc7e91c23898c178047", null ],
+    [ "KilledUnit", "de/d4d/a19364.html#ad3cbbdc77909515e1573a2fb49cc1e30", null ],
+    [ "RemoveStanceAura", "de/d4d/a19364.html#ac2bca5cebc4847af71272de0ffa3d91a", null ],
+    [ "Reset", "de/d4d/a19364.html#a138d14f9666b03dda50f6adeea609046", null ],
+    [ "RollStance", "de/d4d/a19364.html#a70791697fde5c6194226fd42c893385a", null ],
+    [ "UpdateEscortAI", "de/d4d/a19364.html#a9db8e85b47e8ebb4760f99ec04a36fcb", null ],
+    [ "WaypointReached", "de/d4d/a19364.html#a31e1bceb7b944b3db9d7e881be4246bf", null ],
+    [ "events", "de/d4d/a19364.html#a5314bce83c4c7e80ecea99a8d5559fd8", null ],
+    [ "m_pInstance", "de/d4d/a19364.html#af6dbef6bb9565b5ee1738e188b08748f", null ],
+    [ "m_uiStance", "de/d4d/a19364.html#abd4d058fad17b56bc29a165d74062dd0", null ],
+    [ "summons", "de/d4d/a19364.html#a02bd445d2c969ea186a48f68585e640c", null ]
 ];

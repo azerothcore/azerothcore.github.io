@@ -1,9 +1,8 @@
 var a11956 =
 [
-    [ "npc_mc_core_houndAI", "d4/d75/a11956.html#a9b07d662e32a342419a848ecd59d6391", null ],
-    [ "DamageTaken", "d4/d75/a11956.html#aaf2b0ac9b723bb16bfaf8481165e6b4f", null ],
-    [ "Reset", "d4/d75/a11956.html#a9f4b06230ae2e4fc2fe150eb9e9d1f12", null ],
-    [ "UpdateAI", "d4/d75/a11956.html#aaba8ef0b33b9bb9acf74223ef0e9aaad", null ],
-    [ "instance", "d4/d75/a11956.html#ab47451dfeff84c8467be2b76554df897", null ],
-    [ "serratedBiteTimer", "d4/d75/a11956.html#a3a49df32c788497d3e82912d423683b7", null ]
+    [ "FilterTargets", "d4/d75/a11956.html#a03acb7fb2734d9c8e8e623600bc16859", null ],
+    [ "FilterTargetsEff", "d4/d75/a11956.html#a8aeffd2a01c805246c33d22a59274c6f", null ],
+    [ "PrepareSpellScript", "d4/d75/a11956.html#ae00bc9956c9971d62d9185c72d3bd8b5", null ],
+    [ "Register", "d4/d75/a11956.html#aba646a238c3b4b7343f3eec8c6445eb5", null ],
+    [ "targetList", "d4/d75/a11956.html#a874dc7877ecfae332c9f826f01afce0f", null ]
 ];

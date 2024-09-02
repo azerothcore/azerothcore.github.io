@@ -1,6 +1,7 @@
 var a26316 =
 [
-    [ "npc_kservantAI", "dd/dc6/a26320.html", "dd/dc6/a26320" ],
-    [ "npc_kservant", "dc/d30/a26316.html#af04c8a87516e41f7d35071664034af9d", null ],
-    [ "GetAI", "dc/d30/a26316.html#a3ae7327ec2ead5a2d3ffb043f18ccc09", null ]
+    [ "HandleScript", "dc/d30/a26316.html#a1b20a7fb4487876f305aa3a8d493ed17", null ],
+    [ "PrepareSpellScript", "dc/d30/a26316.html#a5ac848029ef03f6779cf094f4b80dd24", null ],
+    [ "Register", "dc/d30/a26316.html#a3d378e0eac09b00792b293b2cd7f3192", null ],
+    [ "Validate", "dc/d30/a26316.html#a36963610ad939ec36848ff70185f47a2", null ]
 ];

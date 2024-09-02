@@ -1,6 +1,9 @@
 var a09812 =
 [
-    [ "LootScript", "de/d8c/a09812.html#aff50b92f064c6f658fa059b85bd8d4ea", null ],
-    [ "IsDatabaseBound", "de/d8c/a09812.html#ad60b605eac89be48efd339127e9cb9cd", null ],
-    [ "OnLootMoney", "de/d8c/a09812.html#a56a57baead49f6815a9979b181a55375", null ]
+    [ "entry", "de/d8c/a09812.html#a63e9b557b5e712d30580376ad811ff6c", null ],
+    [ "map", "de/d8c/a09812.html#a762951c4230f0b40a59071e20852bf77", null ],
+    [ "o", "de/d8c/a09812.html#a70e425f84949f6964a33250e6e9650ef", null ],
+    [ "x", "de/d8c/a09812.html#a46b691dd3a31a59f56a4a7b36a35a982", null ],
+    [ "y", "de/d8c/a09812.html#a38be6df7cf824ed47991c9fabb6fb06b", null ],
+    [ "z", "de/d8c/a09812.html#ade7151bc8f29d91e33e7c78790d7ea55", null ]
 ];

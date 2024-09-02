@@ -1,6 +1,12 @@
 var a21184 =
 [
-    [ "OnPeriodic", "d8/d6d/a21184.html#abc1ff049ebd71372a105d08e82a5cd4e", null ],
-    [ "PrepareAuraScript", "d8/d6d/a21184.html#a55ff9d9bf90253b0f2d9510bc00e3127", null ],
-    [ "Register", "d8/d6d/a21184.html#ad4d26e672db9b8ed11368ab5143094db", null ]
+    [ "boss_koralonAI", "d8/d6d/a21184.html#a3f5bc42a141011e543d1215eac09dc74", null ],
+    [ "AttackStart", "d8/d6d/a21184.html#aa84e6e9a302172e134163cd07ca57864", null ],
+    [ "JustDied", "d8/d6d/a21184.html#a102c10792d9e7df61d920b5a43f58e51", null ],
+    [ "JustEngagedWith", "d8/d6d/a21184.html#aa7503618dd09e0aebac44394595f4715", null ],
+    [ "Reset", "d8/d6d/a21184.html#a0e57ee42e45e55b1a69ac7cb0f1d2666", null ],
+    [ "UpdateAI", "d8/d6d/a21184.html#aa944aad2eb68adc917cba743d1e530c7", null ],
+    [ "events", "d8/d6d/a21184.html#abc8b9a8759b0e3e95d66c16615f621f5", null ],
+    [ "pInstance", "d8/d6d/a21184.html#a4bdea1a9d7e46d4ef71cd43ce969e59c", null ],
+    [ "rotateTimer", "d8/d6d/a21184.html#ad4b766094f28e940b0b7971d6dadc277", null ]
 ];

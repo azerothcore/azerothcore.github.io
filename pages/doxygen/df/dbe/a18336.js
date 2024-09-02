@@ -1,7 +1,6 @@
 var a18336 =
 [
-    [ "OnPeriodic", "df/dbe/a18336.html#a402e6c1a23070e3cef9b66ca0992d1af", null ],
-    [ "PrepareAuraScript", "df/dbe/a18336.html#a0e87dae1be4f69e6412129f14056eb79", null ],
-    [ "Register", "df/dbe/a18336.html#a1b26d102252bf7e0fd480076820d343f", null ],
-    [ "Validate", "df/dbe/a18336.html#a211d52aa385a874730abc43b083f2d22", null ]
+    [ "npc_valithria_portalAI", "df/d84/a18340.html", "df/d84/a18340" ],
+    [ "npc_valithria_portal", "df/dbe/a18336.html#a6014d7a57dfe5d21f63c03b3efcbdfc8", null ],
+    [ "GetAI", "df/dbe/a18336.html#a9770ad0bc3732f2271876bbc84885dc0", null ]
 ];

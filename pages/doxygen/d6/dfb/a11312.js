@@ -1,6 +1,12 @@
 var a11312 =
 [
-    [ "boss_gorosh_the_dervishAI", "d0/d7b/a11316.html", "d0/d7b/a11316" ],
-    [ "boss_gorosh_the_dervish", "d6/dfb/a11312.html#a18c39f21ebf6a9d43d37eb92857083a3", null ],
-    [ "GetAI", "d6/dfb/a11312.html#abae1fa2a7e959d1b7b02e0850aff4fb9", null ]
+    [ "gm_commandscript", "d6/dfb/a11312.html#a1b24112b70818778755ef9b5b062b2e8", null ],
+    [ "GetCommands", "d6/dfb/a11312.html#a17c725e18324de7aadff260c77d75c45", null ],
+    [ "HandleGMChatCommand", "d6/dfb/a11312.html#a15a18b1179a602da3eeba7e8247fbbac", null ],
+    [ "HandleGMFlyCommand", "d6/dfb/a11312.html#a4073bc8216a3505b4b49326cbc081a99", null ],
+    [ "HandleGMListFullCommand", "d6/dfb/a11312.html#add9bd1e64f98964e68cd1be3df6295e7", null ],
+    [ "HandleGMListIngameCommand", "d6/dfb/a11312.html#ab6d59a1c29bd66b699ae597351b969d9", null ],
+    [ "HandleGMOffCommand", "d6/dfb/a11312.html#a66de9b1d6abaad56419a43d65861b5b3", null ],
+    [ "HandleGMOnCommand", "d6/dfb/a11312.html#afb0f18226aac1f581d09f3b7fe9d0ce7", null ],
+    [ "HandleGMVisibleCommand", "d6/dfb/a11312.html#a7af08caf6d3fba1b6ee29ea90b20fef8", null ]
 ];

@@ -1,6 +1,8 @@
 var a26312 =
 [
-    [ "npc_zephyr", "dd/d8a/a26312.html#a3bad7bf2bd3b193960f1f53cd7d8349d", null ],
-    [ "OnGossipHello", "dd/d8a/a26312.html#a31e132e80a19bb6e63787fcdf7ffd466", null ],
-    [ "OnGossipSelect", "dd/d8a/a26312.html#a9b1f5a0d4ba24e65dda521bc94574ad8", null ]
+    [ "HandleDummy", "dd/d8a/a26312.html#a50203f655a85ed5984fa549fbdcc1c65", null ],
+    [ "Load", "dd/d8a/a26312.html#a510f81e77597ef55a87b4f77fa324b2b", null ],
+    [ "PrepareSpellScript", "dd/d8a/a26312.html#ac8dcfed4a74c85121b8b6c39856f709b", null ],
+    [ "Register", "dd/d8a/a26312.html#ae7ed739883e30015e99b6ab5d6cb3f39", null ],
+    [ "Validate", "dd/d8a/a26312.html#a3820e716d20809896c84c1ca781af4d1", null ]
 ];

@@ -1,7 +1,6 @@
 var a25288 =
 [
-    [ "HandleScript", "de/de5/a25288.html#a7c1b4d0c8d2ad153cef62ce05fef814c", null ],
-    [ "PrepareSpellScript", "de/de5/a25288.html#ab826f4f249679ffe87f9e6ccf6b9ecf0", null ],
-    [ "Register", "de/de5/a25288.html#a82da72fd4eed6773c1f3a4288caa8963", null ],
-    [ "Validate", "de/de5/a25288.html#a46aca18049e02d50f57579b3fdc705bd", null ]
+    [ "CalculateAmount", "de/de5/a25288.html#a83bf0327aade6f6a33293a442ad10911", null ],
+    [ "PrepareAuraScript", "de/de5/a25288.html#aa964f4eb7391dab54ff744fc94306de1", null ],
+    [ "Register", "de/de5/a25288.html#a37d29d87bec2fe2908b7d3e47f5e1caa", null ]
 ];

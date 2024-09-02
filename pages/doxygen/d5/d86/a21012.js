@@ -1,6 +1,10 @@
 var a21012 =
 [
-    [ "boss_flame_leviathanAI", "db/daa/a21016.html", "db/daa/a21016" ],
-    [ "boss_flame_leviathan", "d5/d86/a21012.html#af4fcd38fc7095701c6c31674d849aef4", null ],
-    [ "GetAI", "d5/d86/a21012.html#a3a402b002472bfe4347b512f21654c50", null ]
+    [ "npc_dragonflayer_forge_masterAI", "d5/d86/a21012.html#a65ac1cbf9efeef35007359db1622c2f9", null ],
+    [ "JustDied", "d5/d86/a21012.html#a09f0afd788018d00025ea9576aec9748", null ],
+    [ "JustEngagedWith", "d5/d86/a21012.html#a5d9c33547d2af66221c5f8e84e4d8d33", null ],
+    [ "Reset", "d5/d86/a21012.html#a501f5a55fc395c31ffd15b2f6f69d589", null ],
+    [ "dataId", "d5/d86/a21012.html#a4e47e0d615c5004aea74e88103dcb53f", null ],
+    [ "pInstance", "d5/d86/a21012.html#aadbb4bf4ac35b3c67e7ab0a7ae26ce76", null ],
+    [ "prevDataId", "d5/d86/a21012.html#ad3c9046a2e7b8502ea3ef51ede52ab07", null ]
 ];

@@ -1,6 +1,5 @@
 var a22364 =
 [
-    [ "spell_yogg_saron_target_selectors_SpellScript", "dd/da0/a22368.html", "dd/da0/a22368" ],
-    [ "spell_yogg_saron_target_selectors", "dd/dc5/a22364.html#a653a99a484dda50fb4921a2237ca857e", null ],
-    [ "GetSpellScript", "dd/dc5/a22364.html#a74c24640ff8b469b8db653c5ddab6237", null ]
+    [ "go_finklestein_cauldron", "dd/dc5/a22364.html#a8aa352319c54526069588dacd75ab883", null ],
+    [ "OnGossipHello", "dd/dc5/a22364.html#aa04f55e8a6cc21cf4a1e4cdc35c6a1ae", null ]
 ];

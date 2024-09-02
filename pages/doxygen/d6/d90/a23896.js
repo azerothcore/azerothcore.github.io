@@ -1,7 +1,6 @@
 var a23896 =
 [
-    [ "npc_wg_demolisher_engineer", "d6/d90/a23896.html#a722ff6bac34730bfb5f36584d7a62ff8", null ],
-    [ "canBuild", "d6/d90/a23896.html#a5dd51b0d0a05ebfb648faab570e27881", null ],
-    [ "OnGossipHello", "d6/d90/a23896.html#ac3b0bbfd66bb94f29a6d733999b8c6ba", null ],
-    [ "OnGossipSelect", "d6/d90/a23896.html#a3ecf69f45918bef0cb51023327ac9693", null ]
+    [ "npc_deaths_fel_cannonAI", "d6/d90/a23896.html#a29d298bd85c78e2fbf0a4019aa7fbce7", null ],
+    [ "Reset", "d6/d90/a23896.html#a4096d75a98dc8a1c95920710fb48d6ff", null ],
+    [ "UpdateAI", "d6/d90/a23896.html#a942a8b1153b4ae6fde3b474cc909daad", null ]
 ];

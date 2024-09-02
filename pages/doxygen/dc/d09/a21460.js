@@ -1,6 +1,6 @@
 var a21460 =
 [
-    [ "npc_ulduar_hodir_mageAI", "dc/da0/a21464.html", "dc/da0/a21464" ],
-    [ "npc_ulduar_hodir_mage", "dc/d09/a21460.html#afebdd0f99f0c7eaaf0a2d5731335105d", null ],
-    [ "GetAI", "dc/d09/a21460.html#abcbe0337b2a83b6eb0a64f7465d7f79a", null ]
+    [ "npc_nerubar_victimAI", "dc/da0/a21464.html", "dc/da0/a21464" ],
+    [ "npc_nerubar_victim", "dc/d09/a21460.html#a4fe80597d3e56776f0f04965fc706097", null ],
+    [ "GetAI", "dc/d09/a21460.html#a5bb565352ab47fb5cb572190f55df8d1", null ]
 ];

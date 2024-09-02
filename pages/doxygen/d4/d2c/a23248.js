@@ -1,7 +1,7 @@
 var a23248 =
 [
-    [ "CheckCast", "d4/d2c/a23248.html#af0eb00a8dbff89d780beb07f3a714fff", null ],
-    [ "HandleScript", "d4/d2c/a23248.html#a8128bb2d7588409dae73bed78d5285a7", null ],
-    [ "PrepareSpellScript", "d4/d2c/a23248.html#aee17a8a21ec5df027082c6990189dccc", null ],
-    [ "Register", "d4/d2c/a23248.html#a2a97265e102e9ce31997d99275b42973", null ]
+    [ "PeriodicTick", "d4/d2c/a23248.html#afb5cc6129423cb4f7c3da50977da01f2", null ],
+    [ "PrepareAuraScript", "d4/d2c/a23248.html#aea6ca9c5d490f62ae737bfc07751da42", null ],
+    [ "Register", "d4/d2c/a23248.html#ad0eb66e0bab8441e1bb3db42967df7ff", null ],
+    [ "Validate", "d4/d2c/a23248.html#ae07f6e7de08ada74b4cb9ac890c70c35", null ]
 ];

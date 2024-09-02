@@ -1,12 +1,11 @@
 var a15728 =
 [
-    [ "npc_wizzlecrank_shredderAI", "d8/d57/a15728.html#a055c4b426219aa3372a83d2e2021d916", null ],
-    [ "JustSummoned", "d8/d57/a15728.html#a7cad21f0b3286ed75256a49c315069ce", null ],
-    [ "Reset", "d8/d57/a15728.html#a86929e8a2f3433f37e4dda03e3011193", null ],
-    [ "UpdateEscortAI", "d8/d57/a15728.html#acb95eeebd0317f1d95bc48d6b9e7e962", null ],
-    [ "WaypointReached", "d8/d57/a15728.html#a369ae3d62d1289a1c840bdc3184b463d", null ],
-    [ "WaypointStart", "d8/d57/a15728.html#a00857e372e53950338ed71d672edb780", null ],
-    [ "IsPostEvent", "d8/d57/a15728.html#a9207ffdb39627b1262ec209fe41d6d0a", null ],
-    [ "PostEventCount", "d8/d57/a15728.html#aa5284a284c074f32cee85d29aea00f2f", null ],
-    [ "PostEventTimer", "d8/d57/a15728.html#a3c43ede2df7b1ea61b0f1625e2e1461c", null ]
+    [ "spell_hadronox_summon_periodic_aura", "d8/d57/a15728.html#afcca15cddf71c0d46bd811eab9174f1a", null ],
+    [ "HandlePeriodic", "d8/d57/a15728.html#a048695baf71d307e5aaa00e54586c9f7", null ],
+    [ "OnApply", "d8/d57/a15728.html#a4466547bc1a5259a33354f2008d6cce7", null ],
+    [ "PrepareAuraScript", "d8/d57/a15728.html#a4205560054e5baed86aecba3b98fc202", null ],
+    [ "Register", "d8/d57/a15728.html#a09efdcddaed4af2833139ca20ef94376", null ],
+    [ "Validate", "d8/d57/a15728.html#a20827683249c17625242e205bb51f9e8", null ],
+    [ "_delay", "d8/d57/a15728.html#a191d7eec948e0753835bd41eef66f1ec", null ],
+    [ "_spellEntry", "d8/d57/a15728.html#a52e45512e2bbe34b0bdbfaa273aeb997", null ]
 ];

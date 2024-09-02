@@ -1,7 +1,5 @@
 var a15660 =
 [
-    [ "npc_kaya_flathoofAI", "de/d5a/a15664.html", "de/d5a/a15664" ],
-    [ "npc_kaya_flathoof", "d0/db9/a15660.html#a588f88b1c00927a4ad6b7cd25fc1b065", null ],
-    [ "GetAI", "d0/db9/a15660.html#ad7cce0c1a30abe5bc0bffa777c40c79a", null ],
-    [ "OnQuestAccept", "d0/db9/a15660.html#acdb20ecb1ffee4417c9b39f3aebb0591", null ]
+    [ "achievement_volunteer_work", "d0/db9/a15660.html#a43db6e553b370f139ac376840fdf6d70", null ],
+    [ "OnCheck", "d0/db9/a15660.html#abdbbe9165d3d72d76fe685ebce5e304d", null ]
 ];

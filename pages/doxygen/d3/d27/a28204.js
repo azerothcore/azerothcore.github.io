@@ -1,7 +1,5 @@
 var a28204 =
 [
-    [ "HandleHeal", "d3/d27/a28204.html#a22e3dd3ac57c7cb95162ee56ab43bc93", null ],
-    [ "PrepareSpellScript", "d3/d27/a28204.html#a9de9260bc1e2582138c58a708e5d899c", null ],
-    [ "Register", "d3/d27/a28204.html#ab613ce86521f1381b79f6f9f3eaea3cc", null ],
-    [ "Validate", "d3/d27/a28204.html#aa300822cf5455404482124a6853fb314", null ]
+    [ "ID", "d3/d27/a28204.html#a0272b3c1130508a2681035c91ee416e6", null ],
+    [ "SpellID", "d3/d27/a28204.html#a231d22a763ddcd9f1fbdab81521dcf67", null ]
 ];

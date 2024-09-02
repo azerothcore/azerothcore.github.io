@@ -1,13 +1,12 @@
 var a14716 =
 [
-    [ "boss_infinite_corruptorAI", "d5/dd8/a14716.html#add36192941eaabf7f3d1d41c572783bd", null ],
-    [ "DoAction", "d5/dd8/a14716.html#a8ff0a9731ad7bc118a1014bdbb0e1daf", null ],
-    [ "JustDied", "d5/dd8/a14716.html#a6d2f445bf0819ac644d7de14d3b7034d", null ],
-    [ "JustEngagedWith", "d5/dd8/a14716.html#a644725505db4fc7a98c4255d0eb34616", null ],
-    [ "JustSummoned", "d5/dd8/a14716.html#a2b12c03184b169a56a0e6696a107dc35", null ],
-    [ "Reset", "d5/dd8/a14716.html#a4dbff495bfcda6fb715dec68616e1764", null ],
-    [ "UpdateAI", "d5/dd8/a14716.html#aaa0a45066ab7ad7d5a7543822d399947", null ],
-    [ "beamTimer", "d5/dd8/a14716.html#a2f8048e591a818f073a65bfcfa49e66c", null ],
-    [ "events", "d5/dd8/a14716.html#a5491db8f5e063ca84f18f1ca63c1e846", null ],
-    [ "summons", "d5/dd8/a14716.html#aa5de5f986f8a6d3ba5f3aad84422eab6", null ]
+    [ "instance_onyxias_lair_InstanceMapScript", "d5/dd8/a14716.html#a15c6f3f16f9cfa1f9fc1b7a2c62bcc64", null ],
+    [ "CheckAchievementCriteriaMeet", "d5/dd8/a14716.html#a20761aa41e0f70836c4525f17faf064f", null ],
+    [ "Initialize", "d5/dd8/a14716.html#a5d109b5acfa2e21e3c50e35dcdf119dd", null ],
+    [ "OnGameObjectCreate", "d5/dd8/a14716.html#a1e99600992673d165382d99236e0c59f", null ],
+    [ "SetBossState", "d5/dd8/a14716.html#a2a28e42ec49fce2ef47288c1ad4b6e61", null ],
+    [ "SetData", "d5/dd8/a14716.html#ac5df2ecb9f88dbedbb1f59ad2bdc8b96", null ],
+    [ "bDeepBreath", "d5/dd8/a14716.html#a96211e4e0e033e16d4de57b6e40f2023", null ],
+    [ "ManyWhelpsCounter", "d5/dd8/a14716.html#aea148b562a4f2cd752ac73240f902993", null ],
+    [ "str_data", "d5/dd8/a14716.html#ad0b65a3cfccdf07d017757751f4e15fa", null ]
 ];

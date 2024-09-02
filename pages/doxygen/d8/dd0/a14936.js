@@ -1,6 +1,6 @@
 var a14936 =
 [
-    [ "npc_belnistraszAI", "db/d18/a14940.html", "db/d18/a14940" ],
-    [ "npc_belnistrasz", "d8/dd0/a14936.html#a7aa0e9bfcfaf74febe67cbcb94c01ddb", null ],
-    [ "GetAI", "d8/dd0/a14936.html#aac9d4389ec1c88be9afb6b9a828da511", null ]
+    [ "OnPeriodic", "d8/dd0/a14936.html#a08dce8b98afadc134166a615b4496151", null ],
+    [ "PrepareAuraScript", "d8/dd0/a14936.html#a9ebb34665b176e4e60f085da65183d8e", null ],
+    [ "Register", "d8/dd0/a14936.html#a6a04dbb7c66324e701a8db0ee0334123", null ]
 ];

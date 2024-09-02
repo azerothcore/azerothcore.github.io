@@ -1,6 +1,8 @@
 var a25948 =
 [
-    [ "HandlePeriodic", "dc/de5/a25948.html#ad490d7f19d2649f55b78cbb8aa203bf1", null ],
-    [ "PrepareAuraScript", "dc/de5/a25948.html#a1f42506e736348addc6569e88c68480c", null ],
-    [ "Register", "dc/de5/a25948.html#a94ad55f43e2a598254ce735eee00bc91", null ]
+    [ "HandleDummy", "dc/de5/a25948.html#a04ff6beb930b65395ebc3df99bc53dfa", null ],
+    [ "PrepareSpellScript", "dc/de5/a25948.html#a73eabf1e68c966f31fe8d83c2fd925c1", null ],
+    [ "Register", "dc/de5/a25948.html#a6b03fbcf18612d9bb7361c3e4f022dc0", null ],
+    [ "Validate", "dc/de5/a25948.html#a9df13e3e8895854bc086fbfaccfb1b2c", null ],
+    [ "PolymorhForms", "dc/de5/a25948.html#a1443d2532a060514e697a8d5e0c21b20", null ]
 ];

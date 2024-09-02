@@ -1,6 +1,7 @@
 var a22276 =
 [
-    [ "spell_yogg_saron_destabilization_matrix_SpellScript", "d4/d30/a22280.html", "d4/d30/a22280" ],
-    [ "spell_yogg_saron_destabilization_matrix", "d3/de9/a22276.html#a0fcbcecf6b3cc81aeb5c8cb143788adc", null ],
-    [ "GetSpellScript", "d3/de9/a22276.html#abd2526725955a5cb04459eccf27b8468", null ]
+    [ "npc_wg_demolisher_engineer", "d3/de9/a22276.html#a722ff6bac34730bfb5f36584d7a62ff8", null ],
+    [ "canBuild", "d3/de9/a22276.html#a5dd51b0d0a05ebfb648faab570e27881", null ],
+    [ "OnGossipHello", "d3/de9/a22276.html#ac3b0bbfd66bb94f29a6d733999b8c6ba", null ],
+    [ "OnGossipSelect", "d3/de9/a22276.html#a3ecf69f45918bef0cb51023327ac9693", null ]
 ];

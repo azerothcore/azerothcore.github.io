@@ -1,5 +1,9 @@
 var a26568 =
 [
-    [ "npc_pet_pri_lightwell", "dd/d25/a26568.html#aebeb192e66c7d5b4201cbaa81d46703c", null ],
-    [ "InitializeAI", "dd/d25/a26568.html#a5244bcfab27ccad603f80c6f2b2fcd3a", null ]
+    [ "CalculateAmount", "dd/d25/a26568.html#a55d778b049e26c28bfa9d2e08d7920a8", null ],
+    [ "CheckProc", "dd/d25/a26568.html#aa0144f9a0260a74010ced913dd8cadbd", null ],
+    [ "HandleProc", "dd/d25/a26568.html#a741570ba77f70d90b437198f63e565f3", null ],
+    [ "PrepareAuraScript", "dd/d25/a26568.html#af4e49e2362994f247c119c16c013e4b3", null ],
+    [ "Register", "dd/d25/a26568.html#a06a3c11618cbdf15427bbaa6ac8a4273", null ],
+    [ "Validate", "dd/d25/a26568.html#a939d6815bcaee9b9d2b062313aac912a", null ]
 ];

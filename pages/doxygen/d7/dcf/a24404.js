@@ -1,6 +1,9 @@
 var a24404 =
 [
-    [ "spell_illidan_glaive_throw_SpellScript", "d5/d8f/a24408.html", "d5/d8f/a24408" ],
-    [ "spell_illidan_glaive_throw", "d7/dcf/a24404.html#a689a320dd546eb5ae6240a7028b3703b", null ],
-    [ "GetSpellScript", "d7/dcf/a24404.html#a8692d70c802ffa2695a64846929e935d", null ]
+    [ "npc_pet_shaman_fire_elemental", "d7/dcf/a24404.html#a3428642963fc9e7588ec92fd838f1af9", null ],
+    [ "InitializeAI", "d7/dcf/a24404.html#aef4865f83ce0c73efe0c47a11ac87594", null ],
+    [ "JustEngagedWith", "d7/dcf/a24404.html#ac274b9edb03ab13a8e95d8c4fe5055db", null ],
+    [ "UpdateAI", "d7/dcf/a24404.html#a2280e5cc5187a91917a1e517e80e960d", null ],
+    [ "_events", "d7/dcf/a24404.html#aa4578cdbe41d28e399247c84c9fe8049", null ],
+    [ "_initAttack", "d7/dcf/a24404.html#a2df79acc05dd8489e9e994e044b45404", null ]
 ];

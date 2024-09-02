@@ -1,6 +1,10 @@
 var a20744 =
 [
-    [ "dark_rune_protectorsAI", "d2/d9b/a20748.html", "d2/d9b/a20748" ],
-    [ "dark_rune_protectors", "d0/dd1/a20744.html#a14225a2369a8deea416fc640a2d7b075", null ],
-    [ "GetAI", "d0/dd1/a20744.html#a359e4049b7ec828177d9a36d23e9b4ef", null ]
+    [ "boss_yoggsaron_constrictor_tentacleAI", "d0/dd1/a20744.html#a351df0050661628e3ab0be2f636f9c4e", null ],
+    [ "DoAction", "d0/dd1/a20744.html#ad84c2b479a2d7df7aec40f17287a2438", null ],
+    [ "JustDied", "d0/dd1/a20744.html#a832d1b1154b158c348f9d5883ad0fbd7", null ],
+    [ "SelectConstrictTarget", "d0/dd1/a20744.html#a174be8d1673e332f9dceb10d2917bb4a", null ],
+    [ "UpdateAI", "d0/dd1/a20744.html#a00c137429f2b565bf195dab4e9902a7c", null ],
+    [ "_checkTimer", "d0/dd1/a20744.html#ae5c189401dd04823449e7a16c197e65f", null ],
+    [ "_playerGUID", "d0/dd1/a20744.html#a01d889af8d8fe5712cde73cdc2bf3c95", null ]
 ];

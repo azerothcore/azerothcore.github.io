@@ -1,10 +1,8 @@
 var a08448 =
 [
-    [ "PetLevelInfo", "d3/d78/a08448.html#ad8e757abeae500063e963ffef5469809", null ],
-    [ "armor", "d3/d78/a08448.html#ab7097f75cf86bd6f135f21dace61a89e", null ],
-    [ "health", "d3/d78/a08448.html#a322dcab3af8f98726aa6addf38e8891b", null ],
-    [ "mana", "d3/d78/a08448.html#a27352e73d6ed3945e398e0634dee1e96", null ],
-    [ "max_dmg", "d3/d78/a08448.html#a092f2600f64f2af885142b2e96d1fe64", null ],
-    [ "min_dmg", "d3/d78/a08448.html#a299d1c7f4c28893e09de79cd816afa95", null ],
-    [ "stats", "d3/d78/a08448.html#a897aabacdbe9cbc4afcc40ab059c12be", null ]
+    [ "CleanDamage", "d3/d78/a08448.html#ad25ab816a679e323c07873efbc1c2f20", null ],
+    [ "absorbed_damage", "d3/d78/a08448.html#a7ba8e32e564b43915889a23ecb9d5297", null ],
+    [ "attackType", "d3/d78/a08448.html#ad9b56ae5faabe67a8fdec8cd5a7988b1", null ],
+    [ "hitOutCome", "d3/d78/a08448.html#a040977b1579b62695b4cbcf0c2ffeaa8", null ],
+    [ "mitigated_damage", "d3/d78/a08448.html#a6aeffc94560ac510c0b89e4384a2f41a", null ]
 ];

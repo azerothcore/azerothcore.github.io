@@ -1,6 +1,7 @@
 var a22696 =
 [
-    [ "spell_voa_lightning_nova_SpellScript", "d5/d03/a22700.html", "d5/d03/a22700" ],
-    [ "spell_voa_lightning_nova", "df/de2/a22696.html#a115e191504d0d03afa2947e8ac540f3c", null ],
-    [ "GetSpellScript", "df/de2/a22696.html#aeda9c8cb8ab982f103ac5d4e97ca0751", null ]
+    [ "HandleEffectRemove", "df/de2/a22696.html#a0d8d042e6e9bf8fd26b6f283f6da6194", null ],
+    [ "PrepareAuraScript", "df/de2/a22696.html#a84ec7db2aab055bc4328a4d8862bd3f5", null ],
+    [ "Register", "df/de2/a22696.html#a9ee8e71020c17f593472de5a9c130753", null ],
+    [ "Validate", "df/de2/a22696.html#a08be3cb2bef2f4697b7e258b231bd35b", null ]
 ];

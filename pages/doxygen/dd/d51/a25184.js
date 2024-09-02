@@ -1,6 +1,6 @@
 var a25184 =
 [
-    [ "spell_serpentshrine_cavern_infection_AuraScript", "d6/ddb/a25188.html", "d6/ddb/a25188" ],
-    [ "spell_serpentshrine_cavern_infection", "dd/d51/a25184.html#aa00156e374d8151ed113a8f03c73f6a4", null ],
-    [ "GetAuraScript", "dd/d51/a25184.html#af65aa7fdf2fa4781c25a0a5381edb1d0", null ]
+    [ "PrepareSpellScript", "dd/d51/a25184.html#abb178100d4e5fa4032118f86aa34127d", null ],
+    [ "Register", "dd/d51/a25184.html#a50e902cc281b909259097a8bed5651f2", null ],
+    [ "RemoveVehicleAuras", "dd/d51/a25184.html#a4ec803f3164d6e38ddf10f4a0ca392e0", null ]
 ];

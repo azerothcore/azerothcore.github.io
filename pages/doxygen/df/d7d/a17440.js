@@ -1,6 +1,6 @@
 var a17440 =
 [
-    [ "spell_pos_empowered_blizzardAuraScript", "d6/d4b/a17444.html", "d6/d4b/a17444" ],
-    [ "spell_pos_empowered_blizzard", "df/d7d/a17440.html#af6e797bcffa5819bbe861b00a91a93e5", null ],
-    [ "GetAuraScript", "df/d7d/a17440.html#a71859a63f23e8e2ccc06a93c9d6e7adf", null ]
+    [ "npc_gunship_boarding_leaderAI", "d6/d4b/a17444.html", "d6/d4b/a17444" ],
+    [ "npc_gunship_boarding_leader", "df/d7d/a17440.html#a8390eadab34a89643252f573588b140a", null ],
+    [ "GetAI", "df/d7d/a17440.html#ae422c8a1de8fb909a89d2ad2f516e3b4", null ]
 ];

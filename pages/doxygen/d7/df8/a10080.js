@@ -1,7 +1,9 @@
 var a10080 =
 [
-    [ "GuildBankActivate", "d7/df8/a10080.html#a5b27541a26ada694d9635f6d6873ef20", null ],
-    [ "Read", "d7/df8/a10080.html#a8dbde75aaa3102024aa0ff3a8f3625da", null ],
-    [ "Banker", "d7/df8/a10080.html#a9b79075c6ee6a4f73ae18c6956eead7c", null ],
-    [ "FullUpdate", "d7/df8/a10080.html#a50b9a5333e2296e654c90fc6394bdbd3", null ]
+    [ "TransportScript", "d7/df8/a10080.html#a4b83123b122fa98831d304670a3de50a", null ],
+    [ "IsDatabaseBound", "d7/df8/a10080.html#a956f0d757e5d974566fa8fac0df731e5", null ],
+    [ "OnAddCreaturePassenger", "d7/df8/a10080.html#a5afb1f1dca2264089238ddd68b38a86d", null ],
+    [ "OnAddPassenger", "d7/df8/a10080.html#a806f4829b47429900271f6dde7eaa625", null ],
+    [ "OnRelocate", "d7/df8/a10080.html#a10334c1929c80fc80c76791cbd52f6dd", null ],
+    [ "OnRemovePassenger", "d7/df8/a10080.html#a6d6a3af4fcde46101b78cfdb787a2248", null ]
 ];

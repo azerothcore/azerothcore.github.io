@@ -1,6 +1,6 @@
 var a21496 =
 [
-    [ "FilterTargets", "d7/d19/a21496.html#a5e4f707c99e3ce1fa87977059c55ec42", null ],
-    [ "PrepareSpellScript", "d7/d19/a21496.html#a553a508a22a27b09dcd56aa3582ab7cf", null ],
-    [ "Register", "d7/d19/a21496.html#a15083340e87d95ab4e06c04e6b73a149", null ]
+    [ "npc_imprisoned_beryl_sorcererAI", "d3/d34/a21500.html", "d3/d34/a21500" ],
+    [ "npc_imprisoned_beryl_sorcerer", "d7/d19/a21496.html#a6317eb89406cf6b99f63ecfa7f9999d1", null ],
+    [ "GetAI", "d7/d19/a21496.html#aedb301f6da8460f3ed1d81d4b5f2f63c", null ]
 ];

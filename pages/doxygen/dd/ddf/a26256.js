@@ -1,6 +1,6 @@
 var a26256 =
 [
-    [ "npc_lord_illidan_stormrageAI", "d5/dbc/a26260.html", "d5/dbc/a26260" ],
-    [ "npc_lord_illidan_stormrage", "dd/ddf/a26256.html#ad2f213749e170ec4f9903396d132f5f3", null ],
-    [ "GetAI", "dd/ddf/a26256.html#a9aaedc4326b90621965dad522f4af897", null ]
+    [ "HandleScriptEffect", "dd/ddf/a26256.html#a703b5a1725e05bfbfccc3b6ee5107d95", null ],
+    [ "PrepareSpellScript", "dd/ddf/a26256.html#ab2bb14aac4758dac46aae636ba09e50d", null ],
+    [ "Register", "dd/ddf/a26256.html#ae2fca7fde9af90dd7d461c2d046d9783", null ]
 ];

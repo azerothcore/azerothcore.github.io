@@ -1,6 +1,7 @@
 var a26184 =
 [
-    [ "npc_invis_infernal_casterAI", "de/dea/a26188.html", "de/dea/a26188" ],
-    [ "npc_invis_infernal_caster", "d2/dc8/a26184.html#a9aed081ef904075830428bbc76f53874", null ],
-    [ "GetAI", "d2/dc8/a26184.html#aede0c5cc390ea423169b1cba66d929cd", null ]
+    [ "HandleEffectRemove", "d2/dc8/a26184.html#a814687d3938e966f8721438e1a722f77", null ],
+    [ "PrepareAuraScript", "d2/dc8/a26184.html#a2144b0602501471a4001883ce9de6db3", null ],
+    [ "Register", "d2/dc8/a26184.html#a9d696dc7e58692216fa1cf6cc7c011a9", null ],
+    [ "AuraEffectHandleModes", "d2/dc8/a26184.html#ab291f6c6f269ec7004df39a043f49efd", null ]
 ];

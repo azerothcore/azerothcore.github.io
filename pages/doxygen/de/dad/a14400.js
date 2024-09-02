@@ -1,6 +1,7 @@
 var a14400 =
 [
-    [ "HandleDummy", "de/dad/a14400.html#aa75140309e66c28590a64e10676356da", null ],
-    [ "PrepareSpellScript", "de/dad/a14400.html#a21c4872e16c18c2918dfbea366e61df3", null ],
-    [ "Register", "de/dad/a14400.html#a841c9277224cbae878946deb288b87a1", null ]
+    [ "boss_azuregosAI", "d4/db6/a14404.html", "d4/db6/a14404" ],
+    [ "boss_azuregos", "de/dad/a14400.html#a48590db0037870ca5c9425a468e5ea3a", null ],
+    [ "GetAI", "de/dad/a14400.html#a3ea1fd967b8ab158a9b2bb5cdd7dcf83", null ],
+    [ "OnGossipSelect", "de/dad/a14400.html#a73220e54a3a53931e740f3c53c3bf20c", null ]
 ];

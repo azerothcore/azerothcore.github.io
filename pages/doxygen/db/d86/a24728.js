@@ -1,6 +1,6 @@
 var a24728 =
 [
-    [ "HammerOfJusticeSelector", "db/d86/a24728.html#a5faf5b8fa541ca02b6a2e72662674b2d", null ],
-    [ "operator()", "db/d86/a24728.html#af98812fc9f9d517a8390940566928112", null ],
-    [ "_me", "db/d86/a24728.html#a445ee445f0c0a3ff3837b33a2eeda4ea", null ]
+    [ "HandleKnockBack", "db/d86/a24728.html#ae50d143953074b83183482770046e131", null ],
+    [ "PrepareSpellScript", "db/d86/a24728.html#a73666b297ef8bbfd490fee6075b06b3a", null ],
+    [ "Register", "db/d86/a24728.html#a035df6b2e29aa0d2b5558e1cfef96ead", null ]
 ];

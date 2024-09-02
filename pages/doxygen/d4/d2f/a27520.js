@@ -1,9 +1,6 @@
 var a27520 =
 [
-    [ "getMountSpellId", "d4/d2f/a27520.html#afe306ed6057050baf342ee717723764d", null ],
-    [ "OnApply", "d4/d2f/a27520.html#aa8bee986d413be60d00ac1d2111ef719", null ],
-    [ "OnRemove", "d4/d2f/a27520.html#a162d466a1dcd2cb710abf12c06f7c2de", null ],
-    [ "PrepareAuraScript", "d4/d2f/a27520.html#a7070cc7aeec4a88fbde960cebf1aef56", null ],
-    [ "Register", "d4/d2f/a27520.html#a481e5295da3d789d9b3c1ed30fdaf0bd", null ],
-    [ "Validate", "d4/d2f/a27520.html#a6868f6e88c9179efd921b266c83f6daf", null ]
+    [ "npc_pet_trainerAI", "df/d35/a27524.html", "df/d35/a27524" ],
+    [ "npc_pet_trainer", "d4/d2f/a27520.html#ac2279bce52e911b1c339da5e68aa2501", null ],
+    [ "GetAI", "d4/d2f/a27520.html#a4ecf9ac0abf43a00dc6bff2d2283eb37", null ]
 ];

@@ -1,6 +1,7 @@
 var a15924 =
 [
-    [ "ModDestHeight", "da/ded/a15924.html#a8bda9327c4244af41c513528ad5c818c", null ],
-    [ "PrepareSpellScript", "da/ded/a15924.html#aba5a03c94fa5d87c46a91369875c0ab2", null ],
-    [ "Register", "da/ded/a15924.html#a62b0ce71caeff96705b15aa240ddd09f", null ]
+    [ "HandleDummy", "da/ded/a15924.html#ad0782bfbd977954aac6170ee9111aef6", null ],
+    [ "PrepareSpellScript", "da/ded/a15924.html#ac456524856c4a3c4913423693a8fd50c", null ],
+    [ "Register", "da/ded/a15924.html#a82d88c5dac164eb9dee9883a91edd0df", null ],
+    [ "Validate", "da/ded/a15924.html#a2cf4ee02293cee5e383e99efe14e0008", null ]
 ];

@@ -1,17 +1,8 @@
 var a19528 =
 [
-    [ "npc_argent_captainAI", "d5/dbe/a19528.html#a4e9d65fa7c870c98d79ff30ae262385d", null ],
-    [ "CanAIAttack", "d5/dbe/a19528.html#a542075fcf2d487dedc6f11672e3507ba", null ],
-    [ "DoAction", "d5/dbe/a19528.html#a77f0b2d41d631f3ff7a3ea8d13716de1", null ],
-    [ "EnterEvadeMode", "d5/dbe/a19528.html#afaebff86ad9be5835c2e289625c07d16", null ],
-    [ "JustDied", "d5/dbe/a19528.html#a7f132fa843ba292cc89a64c77ce48bc4", null ],
-    [ "JustEngagedWith", "d5/dbe/a19528.html#a43818e75274cad597fd883f75119d63c", null ],
-    [ "KilledUnit", "d5/dbe/a19528.html#abc2dbc233082f9d7626759fbcccb34a2", null ],
-    [ "Reset", "d5/dbe/a19528.html#a0709350a6841b6008935c050a1db7784", null ],
-    [ "SpellHit", "d5/dbe/a19528.html#a8aee635d2739564281b5af04955e4d4a", null ],
-    [ "Events", "d5/dbe/a19528.html#a1cffce3d371bef959d76270608247def", null ],
-    [ "FollowAngle", "d5/dbe/a19528.html#a059c34261439fc80b0bff9d62b537489", null ],
-    [ "FollowDist", "d5/dbe/a19528.html#a4fde069032f7c6578f7f518b45f141d2", null ],
-    [ "instance", "d5/dbe/a19528.html#a131f11a8a67e3eb60759c699fc2cec1b", null ],
-    [ "IsUndead", "d5/dbe/a19528.html#a9eaf5d2c9e52650c28b8f7feef0e681c", null ]
+    [ "dark_rune_stormcallerAI", "d5/dbe/a19528.html#ad889fb0c50e879c958c9b8bb681e4bf7", null ],
+    [ "JustEngagedWith", "d5/dbe/a19528.html#a7ddfb8afac3ff28a84b26255628fab50", null ],
+    [ "Reset", "d5/dbe/a19528.html#afa9cc2e1a9f7d21cd885479e9afdcd12", null ],
+    [ "UpdateAI", "d5/dbe/a19528.html#adbd245fc5180dc7c78704595a9592864", null ],
+    [ "events", "d5/dbe/a19528.html#aa7d8d1d075eeb03952b47cc16846a3db", null ]
 ];

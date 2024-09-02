@@ -1,7 +1,8 @@
 var a14428 =
 [
-    [ "HandleScript", "d9/de1/a14428.html#adc8ab610e3b816dcce57fe44b6585bdb", null ],
-    [ "PrepareSpellScript", "d9/de1/a14428.html#a05059d25127cd8d3aa51e4374963f9d9", null ],
-    [ "Register", "d9/de1/a14428.html#aabe7d4213bbafdb6d072ba50bcfd1793", null ],
-    [ "Validate", "d9/de1/a14428.html#aa1e74de390a8b71e43e43664981a36ff", null ]
+    [ "npc_doomfire_spirit", "d9/de1/a14428.html#a3d16e8437c2e90ad1ab5de609f4fcff0", null ],
+    [ "Reset", "d9/de1/a14428.html#a0600718fad91723eba74b903583c5942", null ],
+    [ "TryTeleportInDirection", "d9/de1/a14428.html#a7fc48df636df66a006a8179fd63e2a65", null ],
+    [ "UpdateAI", "d9/de1/a14428.html#aa0d953c28f25e2838f3b24364b51f10b", null ],
+    [ "turnConstant", "d9/de1/a14428.html#afeab7c791c31457d86e98a0064fa6ad8", null ]
 ];

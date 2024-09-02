@@ -1,9 +1,6 @@
 var a23004 =
 [
-    [ "npc_lurgglbrAI", "d3/d46/a23004.html#a9239b85c65f9b405335d432f355637d5", null ],
-    [ "Reset", "d3/d46/a23004.html#a13b8bd8e7d85c93b0ee88c6e9f6d09ca", null ],
-    [ "UpdateAI", "d3/d46/a23004.html#aee019df9abe7ca3bf36a6de2321bedec", null ],
-    [ "WaypointReached", "d3/d46/a23004.html#a09ac2f2f21eefedd0052f727546bafb5", null ],
-    [ "IntroPhase", "d3/d46/a23004.html#a57e2c42cccf91765365e0b046446637a", null ],
-    [ "IntroTimer", "d3/d46/a23004.html#ada9762806ae0132e37197e6fb1279866", null ]
+    [ "HandleScriptEffect", "d3/d46/a23004.html#a2b46490b70bf93effb7379686e648618", null ],
+    [ "PrepareSpellScript", "d3/d46/a23004.html#a5030d071372ef12663f6a75be637476e", null ],
+    [ "Register", "d3/d46/a23004.html#aa15afaa9990f29a9e71c1d6395d5de12", null ]
 ];

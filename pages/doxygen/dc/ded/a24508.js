@@ -1,6 +1,10 @@
 var a24508 =
 [
-    [ "spell_mother_shahraz_fatal_attraction_SpellScript", "d2/df4/a24512.html", "d2/df4/a24512" ],
-    [ "spell_mother_shahraz_fatal_attraction", "dc/ded/a24508.html#a756920028ce8ed0ca7403ab836d996ec", null ],
-    [ "GetSpellScript", "dc/ded/a24508.html#ab781619ed14146722c4c1b4611e65392", null ]
+    [ "CheckProc", "dc/ded/a24508.html#a7bab1f02db05ce2c7b52ad9a2f5f6f02", null ],
+    [ "HandleProc", "dc/ded/a24508.html#ac90b54e946baa80589cab2f66aca1f5f", null ],
+    [ "Load", "dc/ded/a24508.html#ada85014de8a3602e83912d5e1a0165c5", null ],
+    [ "PrepareAuraScript", "dc/ded/a24508.html#a769f2b77b2972c40e3e43e70d2ff5820", null ],
+    [ "Register", "dc/ded/a24508.html#ab8a35292c0d4d392d9dd9db438d59cc4", null ],
+    [ "Validate", "dc/ded/a24508.html#aba8bd9ae5ec9e92eccb04163114c4802", null ],
+    [ "_procTarget", "dc/ded/a24508.html#a0c3ba33c7117195dac4c1df3a6e8529a", null ]
 ];

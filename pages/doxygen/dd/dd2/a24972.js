@@ -1,6 +1,7 @@
 var a24972 =
 [
-    [ "spell_hydross_cleansing_field_aura_AuraScript", "d5/d15/a24976.html", "d5/d15/a24976" ],
-    [ "spell_hydross_cleansing_field_aura", "dd/dd2/a24972.html#a3ea84711f827837e9acaf9664e7d7541", null ],
-    [ "GetAuraScript", "dd/dd2/a24972.html#aefcd6a4c7a8a13b015fb6f9fd9895608", null ]
+    [ "HandleScript", "dd/dd2/a24972.html#a9fb69011ce5245925eb6a4fd011d18b2", null ],
+    [ "PrepareSpellScript", "dd/dd2/a24972.html#ab9300ff0efc4a36d652a1b56c031dc2f", null ],
+    [ "Register", "dd/dd2/a24972.html#aa0828fa1a3cf75e8222607a4f2fff950", null ],
+    [ "Validate", "dd/dd2/a24972.html#a9469ebca2d40dd2944f2fb7286fc64ff", null ]
 ];

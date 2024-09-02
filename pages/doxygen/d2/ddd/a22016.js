@@ -1,6 +1,14 @@
 var a22016 =
 [
-    [ "npc_xt002_heartAI", "d1/dd9/a22020.html", "d1/dd9/a22020" ],
-    [ "npc_xt002_heart", "d2/ddd/a22016.html#ab914ce1e945080b873cf6f93e3a6a32c", null ],
-    [ "GetAI", "d2/ddd/a22016.html#af59c6623b97d1adff765e8ba4958d482", null ]
+    [ "npc_tirions_gambit_tirionAI", "d2/ddd/a22016.html#a38959c7a5b502b5716a5c09b0f6ae8a4", null ],
+    [ "DoAction", "d2/ddd/a22016.html#a495e0762614020ef6d7b741447099326", null ],
+    [ "DoSummonAction", "d2/ddd/a22016.html#a891b31661705ed4df634059e6165d499", null ],
+    [ "JustSummoned", "d2/ddd/a22016.html#ac62ec499aba734d36249f8c00b36e2d4", null ],
+    [ "Reset", "d2/ddd/a22016.html#afb398bda1d6ee4d35527208e6c5bffee", null ],
+    [ "SetData", "d2/ddd/a22016.html#a41f24de5f824d84edb69c6b2bdca6d4e", null ],
+    [ "SummonedCreatureDespawn", "d2/ddd/a22016.html#aca05fee85997dffba6ec998b144b9495", null ],
+    [ "UpdateEscortAI", "d2/ddd/a22016.html#a0b681d6cc1566e6193f7eb143ab2bd5e", null ],
+    [ "WaypointReached", "d2/ddd/a22016.html#af5fd69b799c6227dba901f434e30c434", null ],
+    [ "events", "d2/ddd/a22016.html#a711c55c26187ae695644b770a358766e", null ],
+    [ "summons", "d2/ddd/a22016.html#af574a4b136ff42c597e30c83e4d463ca", null ]
 ];

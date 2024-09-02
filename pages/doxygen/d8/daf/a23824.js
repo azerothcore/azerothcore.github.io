@@ -1,6 +1,6 @@
 var a23824 =
 [
-    [ "npc_wild_wyrmAI", "d2/d36/a23828.html", "d2/d36/a23828" ],
-    [ "npc_wild_wyrm", "d8/daf/a23824.html#abce8c3a368e75b4be5e05381f9eb722b", null ],
-    [ "GetAI", "d8/daf/a23824.html#aedba91446fe12997047070f123d925d2", null ]
+    [ "instance_the_eye_InstanceMapScript", "d2/d36/a23828.html", "d2/d36/a23828" ],
+    [ "instance_the_eye", "d8/daf/a23824.html#a685064ba70095a3fc27ae1a8b33d3c88", null ],
+    [ "GetInstanceScript", "d8/daf/a23824.html#a811c7d161469f33ce4fb7d792ce30a4e", null ]
 ];

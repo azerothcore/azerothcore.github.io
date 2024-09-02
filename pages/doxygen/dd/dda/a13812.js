@@ -1,8 +1,5 @@
 var a13812 =
 [
-    [ "npc_zulaman_hostageAI", "d0/d6a/a13816.html", "d0/d6a/a13816" ],
-    [ "npc_zulaman_hostage", "dd/dda/a13812.html#a12f9ad1889cacb60103c1e921c2fa0e9", null ],
-    [ "GetAI", "dd/dda/a13812.html#a0ae144dc154dd028b409c9d2393f890c", null ],
-    [ "OnGossipHello", "dd/dda/a13812.html#a89d68a976f916a4de2196b57ec0026b0", null ],
-    [ "OnGossipSelect", "dd/dda/a13812.html#a114f6fbfab90944fd49babcba4b48a11", null ]
+    [ "at_zulgurub_edge_of_madness_speech", "dd/dda/a13812.html#a7d4007716e3ed634ac7e3d3dba26e6f7", null ],
+    [ "_OnTrigger", "dd/dda/a13812.html#a725de49be12116f2f7e77edd31a096ae", null ]
 ];

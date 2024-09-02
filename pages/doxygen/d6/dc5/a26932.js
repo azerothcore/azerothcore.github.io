@@ -1,7 +1,5 @@
 var a26932 =
 [
-    [ "if", "d6/dc5/a26932.html#a6b9c0d513b24e9a5c0eef8307b2eb3a8", null ],
-    [ "PrepareAuraScript", "d6/dc5/a26932.html#a01d974333043452a37ec3124d23b49f2", null ],
-    [ "Register", "d6/dc5/a26932.html#aeb6c695819e894aad8b210a237e6d315", null ],
-    [ "AuraEffectHandleModes", "d6/dc5/a26932.html#a9b235517305f9b2fcf2d31eb3a4edbd2", null ]
+    [ "achievement_sa_defense_of_the_ancients", "d6/dc5/a26932.html#a678cffdece32710a42a92db0c092f3a5", null ],
+    [ "OnCheck", "d6/dc5/a26932.html#af23e346f9b022f490b84c8081f847a2f", null ]
 ];

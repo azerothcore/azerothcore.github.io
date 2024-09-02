@@ -1,15 +1,10 @@
 var a12312 =
 [
-    [ "npc_image_of_medivhAI", "d4/dbb/a12312.html#a1afe3245dc18db3c0bf6801b5ca20d31", null ],
-    [ "JustEngagedWith", "d4/dbb/a12312.html#a1013be426b3567d8cbd1c45debc914c5", null ],
-    [ "NextStep", "d4/dbb/a12312.html#a87160b37ba61af4866fe3f410813fe9f", null ],
-    [ "Reset", "d4/dbb/a12312.html#af2e7dd7f1038bb5662fe7375a7e052c4", null ],
-    [ "UpdateAI", "d4/dbb/a12312.html#a321d689d645b4630e2e93e6251d5130c", null ],
-    [ "ArcanagosGUID", "d4/dbb/a12312.html#a877c693b6ac736aa874926d8efe0d79a", null ],
-    [ "ATimer", "d4/dbb/a12312.html#a28aef0767b6adb0ccf0479dd50dc11a8", null ],
-    [ "EventStarted", "d4/dbb/a12312.html#a9a662b435218a3e13ca58eb4a6b3af86", null ],
-    [ "instance", "d4/dbb/a12312.html#a2e02aa8d441426aa51f46121eec0becb", null ],
-    [ "MTimer", "d4/dbb/a12312.html#a16c3f6d5bd1cc288590bd096233e0bfb", null ],
-    [ "Step", "d4/dbb/a12312.html#a9d7b9bdcf9e185284dba5251a0deb0b3", null ],
-    [ "YellTimer", "d4/dbb/a12312.html#a34ad7cabe4cb86e23deb30ca0ce77db0", null ]
+    [ "npc_netherspite_infernal", "d4/dbb/a12312.html#af9837d7a671533523ce323c083c4e847", null ],
+    [ "DamageTaken", "d4/dbb/a12312.html#aee9b38f3590e08b16de1789576986a09", null ],
+    [ "JustEngagedWith", "d4/dbb/a12312.html#a76d8944ca2d9b2f1aa5b635ce94bacfb", null ],
+    [ "KilledUnit", "d4/dbb/a12312.html#a49c37fbebed2951c493962c1a3bd0339", null ],
+    [ "MoveInLineOfSight", "d4/dbb/a12312.html#a7ecce97cef0adda03910e87d9fd82f71", null ],
+    [ "SpellHit", "d4/dbb/a12312.html#abb6c7d0b5e231e460b069198b16106b7", null ],
+    [ "UpdateAI", "d4/dbb/a12312.html#a575040456c0eb4d343e7c0c5f75159b4", null ]
 ];

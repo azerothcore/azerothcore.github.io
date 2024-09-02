@@ -1,7 +1,6 @@
 var a14596 =
 [
-    [ "npc_tyrande_whisperwind", "d7/d3d/a14596.html#a18b631e57ad5bf0429a45b7bb04ae282", null ],
-    [ "GetAI", "d7/d3d/a14596.html#a5762c68e5ef6d7b74ae90580356acfbe", null ],
-    [ "OnGossipHello", "d7/d3d/a14596.html#a25283f73d9f202c33edb2ba430d8a315", null ],
-    [ "OnGossipSelect", "d7/d3d/a14596.html#a8fcb001140d2f9efcc9a898fbb081aa6", null ]
+    [ "instance_culling_of_stratholme_InstanceMapScript", "de/db3/a14600.html", "de/db3/a14600" ],
+    [ "instance_culling_of_stratholme", "d7/d3d/a14596.html#a0b07e751032e15e7fcf2f86bf29a39be", null ],
+    [ "GetInstanceScript", "d7/d3d/a14596.html#ad8cbcb198666d44d79d6255d066c8315", null ]
 ];

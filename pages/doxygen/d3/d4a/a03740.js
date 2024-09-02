@@ -1,21 +1,39 @@
 var a03740 =
 [
-    [ "AllSpellScript", "d4/db5/a09935.html", "d4/db5/a09935" ],
-    [ "SpellSC", "d3/d4a/a03740.html#a743e879dd1df387001a0db3b0bf31d0e", null ],
-    [ "AllSpellHook", "d3/d4a/a03740.html#afe0b21412f82a634ffd412b1aca51cbc", [
-      [ "ALLSPELLHOOK_ON_CALC_MAX_DURATION", "d3/d4a/a03740.html#afe0b21412f82a634ffd412b1aca51cbca003b0894329b4fa8a3e4ae168f133a97", null ],
-      [ "ALLSPELLHOOK_CAN_MOD_AURA_EFFECT_DAMAGE_DONE", "d3/d4a/a03740.html#afe0b21412f82a634ffd412b1aca51cbca35846f96589617d3c47cd0b206b9868c", null ],
-      [ "ALLSPELLHOOK_CAN_MOD_AURA_EFFECT_MOD_DAMAGE_PERCENT_DONE", "d3/d4a/a03740.html#afe0b21412f82a634ffd412b1aca51cbca78f4ae4d1496fbba040a026763cc8909", null ],
-      [ "ALLSPELLHOOK_ON_SPELL_CHECK_CAST", "d3/d4a/a03740.html#afe0b21412f82a634ffd412b1aca51cbca27dc31d1611037bc1a735d2721d14f24", null ],
-      [ "ALLSPELLHOOK_CAN_PREPARE", "d3/d4a/a03740.html#afe0b21412f82a634ffd412b1aca51cbca9b56cdc7a082dbc19397db93d100a354", null ],
-      [ "ALLSPELLHOOK_CAN_SCALING_EVERYTHING", "d3/d4a/a03740.html#afe0b21412f82a634ffd412b1aca51cbcab8e5a308ec8a0896e88c9214b27cc24a", null ],
-      [ "ALLSPELLHOOK_CAN_SELECT_SPEC_TALENT", "d3/d4a/a03740.html#afe0b21412f82a634ffd412b1aca51cbcae96f89c2d5231319bcb6e7ee408ba770", null ],
-      [ "ALLSPELLHOOK_ON_SCALE_AURA_UNIT_ADD", "d3/d4a/a03740.html#afe0b21412f82a634ffd412b1aca51cbca401d32a5b3e9077a4ba6d6616fde11b1", null ],
-      [ "ALLSPELLHOOK_ON_REMOVE_AURA_SCALE_TARGETS", "d3/d4a/a03740.html#afe0b21412f82a634ffd412b1aca51cbca171eb504c992f47238f139ee97e3a44c", null ],
-      [ "ALLSPELLHOOK_ON_BEFORE_AURA_RANK_FOR_LEVEL", "d3/d4a/a03740.html#afe0b21412f82a634ffd412b1aca51cbca94df2e8d5aa06ea451e4271dfbc4c808", null ],
-      [ "ALLSPELLHOOK_ON_DUMMY_EFFECT_GAMEOBJECT", "d3/d4a/a03740.html#afe0b21412f82a634ffd412b1aca51cbcaa327077f9d0fac21f2a738ab97c1463f", null ],
-      [ "ALLSPELLHOOK_ON_DUMMY_EFFECT_CREATURE", "d3/d4a/a03740.html#afe0b21412f82a634ffd412b1aca51cbca1ade505fcc41e631580a6e0e6256a034", null ],
-      [ "ALLSPELLHOOK_ON_DUMMY_EFFECT_ITEM", "d3/d4a/a03740.html#afe0b21412f82a634ffd412b1aca51cbca3b9b961851d5db88a1c04f914440a7a1", null ],
-      [ "ALLSPELLHOOK_END", "d3/d4a/a03740.html#afe0b21412f82a634ffd412b1aca51cbca2bbf250e329e80a9f113eadfe4aab98f", null ]
-    ] ]
+    [ "spell_winter_veil_mistletoe", "dd/d15/a14372.html", "dd/d15/a14372" ],
+    [ "spell_winter_wondervolt_trap", "de/d10/a14376.html", "de/d10/a14376" ],
+    [ "spell_winter_veil_racer_rocket_slam", "d5/d14/a14380.html", "d5/d14/a14380" ],
+    [ "spell_winter_veil_racer_slam_hit", "d6/de5/a14384.html", "d6/de5/a14384" ],
+    [ "spell_winter_veil_shoot_air_rifle", "d9/df5/a14388.html", "d9/df5/a14388" ],
+    [ "airRifle", "d3/d4a/a03740.html#a0a0aa9e1464024e9f2c7b6ec598e13ff", [
+      [ "SPELL_AIR_RIFLE_RIGHT_IN_THE_EYE", "d3/d4a/a03740.html#a0a0aa9e1464024e9f2c7b6ec598e13ffa5a3aacd3d3eb74e1020f0e24c3de3d64", null ],
+      [ "SPELL_AIR_RIFLE_STARLED", "d3/d4a/a03740.html#a0a0aa9e1464024e9f2c7b6ec598e13ffaab4b4a71800d5b266ac17392701535bd", null ],
+      [ "SPELL_AIR_RIFLE_HIT", "d3/d4a/a03740.html#a0a0aa9e1464024e9f2c7b6ec598e13ffadebbc458f6f97c23c78a5d77355557a0", null ],
+      [ "SPELL_AIR_RIFLE_HIT_TRIGGER", "d3/d4a/a03740.html#a0a0aa9e1464024e9f2c7b6ec598e13ffaef31b2903ed373a76624e81b5928b3af", null ],
+      [ "SPELL_AIR_RIFLE_PELTED_DAMAGE", "d3/d4a/a03740.html#a0a0aa9e1464024e9f2c7b6ec598e13ffada448247eeb3a3e93e78e6d367af2ea4", null ]
+    ] ],
+    [ "crashinTrashin", "d3/d4a/a03740.html#a91189806a3728bf253348c6acff4d44a", [
+      [ "SPELL_BLUE_CAR_VISUAL", "d3/d4a/a03740.html#a91189806a3728bf253348c6acff4d44aa2a1df012693fca95e41c96fe1dcfc303", null ],
+      [ "SPELL_RED_CAR_VISUAL", "d3/d4a/a03740.html#a91189806a3728bf253348c6acff4d44aa83ccfea77911f91274ab6b76a13ebae9", null ],
+      [ "NPC_RED_RACER", "d3/d4a/a03740.html#a91189806a3728bf253348c6acff4d44aa3a540ecf55e0e9719a7b1ecc0d089e83", null ],
+      [ "NPC_BLUE_RACER", "d3/d4a/a03740.html#a91189806a3728bf253348c6acff4d44aa29832a92f722fc5ef6e6e0e28c43ace3", null ],
+      [ "SPELL_RACER_DEATH_VISUAL", "d3/d4a/a03740.html#a91189806a3728bf253348c6acff4d44aa20ebf97f0f750e11499595b1e7908b4e", null ],
+      [ "SPELL_RACER_CHARGE_TO_OBJECT", "d3/d4a/a03740.html#a91189806a3728bf253348c6acff4d44aa16c954e8ddff4772f6cc38ccdaa4537a", null ],
+      [ "SPELL_RACER_KILL_COUNTER", "d3/d4a/a03740.html#a91189806a3728bf253348c6acff4d44aad39b98fd63372c2d7f9b59e290a38a68", null ],
+      [ "SPELL_RACER_SLAM_HIT", "d3/d4a/a03740.html#a91189806a3728bf253348c6acff4d44aaf80af723709c8607c78c552286259f0b", null ],
+      [ "SPELL_RACER_FLAMES", "d3/d4a/a03740.html#a91189806a3728bf253348c6acff4d44aac4f06456e8aa8d185db27f65280e3410", null ],
+      [ "RACER_ACHI_CRITERIA", "d3/d4a/a03740.html#a91189806a3728bf253348c6acff4d44aa0c0977d0fa0c060c272d5a9f59f63f5d", null ]
+    ] ],
+    [ "Mistletoe", "d3/d4a/a03740.html#a9ae560d3a366e6f163d4fbfd29d339ac", [
+      [ "SPELL_CREATE_MISTLETOE", "d3/d4a/a03740.html#a9ae560d3a366e6f163d4fbfd29d339acafdfb3de4159c5083ea35693ceae8b4cc", null ],
+      [ "SPELL_CREATE_HOLLY", "d3/d4a/a03740.html#a9ae560d3a366e6f163d4fbfd29d339aca3935eb67c5b7dbbdca5783cb17586508", null ],
+      [ "SPELL_CREATE_SNOWFLAKES", "d3/d4a/a03740.html#a9ae560d3a366e6f163d4fbfd29d339aca6fe4f2b2975d9ebf9ed4f806f9c8427a", null ]
+    ] ],
+    [ "winterWondervoltTrap", "d3/d4a/a03740.html#a09023d9a36f692674809d983e0b46bb5", [
+      [ "SPELL_WINTER_WONDERVOLT_GREEN_WOMEN", "d3/d4a/a03740.html#a09023d9a36f692674809d983e0b46bb5a584ffc066b04a87863dd3bdaa091d6b6", null ],
+      [ "SPELL_WINTER_WONDERVOLT_GREEN_MAN", "d3/d4a/a03740.html#a09023d9a36f692674809d983e0b46bb5a962c9fffba35e4a119f563b8656912db", null ],
+      [ "SPELL_WINTER_WONDERVOLT_RED_WOMEN", "d3/d4a/a03740.html#a09023d9a36f692674809d983e0b46bb5a08177bc4e663c11752af81f832011bf6", null ],
+      [ "SPELL_WINTER_WONDERVOLT_RED_MAN", "d3/d4a/a03740.html#a09023d9a36f692674809d983e0b46bb5a7892046e23913f511b843d5a766e4dd0", null ]
+    ] ],
+    [ "AddSC_event_winter_veil_scripts", "d3/d4a/a03740.html#a56e93f0f5c0f4763c439d5ea4cdf6c5e", null ]
 ];

@@ -1,6 +1,9 @@
 var a28584 =
 [
-    [ "CheckCast", "d4/d60/a28584.html#aecbecbd753b8ed32d51971a090063ef4", null ],
-    [ "PrepareSpellScript", "d4/d60/a28584.html#a0efb319154edb2c798460de72d6a56ed", null ],
-    [ "Register", "d4/d60/a28584.html#acd6ecb0204dd369c410e465551328f56", null ]
+    [ "Flags", "d4/d60/a28584.html#a4471edebd870d3dfaaf34292341e5f60", null ],
+    [ "Id", "d4/d60/a28584.html#a6a25126338a8c3aa7d36c02c979639dd", null ],
+    [ "Position", "d4/d60/a28584.html#a8fa9a49b3195ffe74dcf1872d0fb05c1", null ],
+    [ "Rotation", "d4/d60/a28584.html#a986c3ea05d510db03ec969f0d116fb34", null ],
+    [ "Scale", "d4/d60/a28584.html#af8bcb02c541b9261dbf879353ba6893a", null ],
+    [ "UniqueId", "d4/d60/a28584.html#a374c9893af515badc54b22b2a4d5e024", null ]
 ];

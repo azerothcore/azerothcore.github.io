@@ -1,7 +1,8 @@
 var a18372 =
 [
-    [ "HandleScriptEffect", "dd/da3/a18372.html#a5992a96d232f98606854c67037bd13ab", null ],
-    [ "PrepareSpellScript", "dd/da3/a18372.html#a9e6aba739a16ce8bcacdc6cec2276cff", null ],
-    [ "Register", "dd/da3/a18372.html#ae18b1e7c12081634310122bbdef0c349", null ],
-    [ "SelectTarget", "dd/da3/a18372.html#aff49dcbd5d2f8a133868a4fc43170c6e", null ]
+    [ "npc_blistering_zombieAI", "dd/da3/a18372.html#acf278cd2249ac45a4b043427ba36b3ce", null ],
+    [ "DamageTaken", "dd/da3/a18372.html#adf031992078214f90d859df2b54aac91", null ],
+    [ "UpdateAI", "dd/da3/a18372.html#ae081898b8dcaf45cd3069e79021de452", null ],
+    [ "casted", "dd/da3/a18372.html#a0f70f5d58ef0bb20f64b0aec4df04905", null ],
+    [ "timer", "dd/da3/a18372.html#a8b865c2a87b1fc020d8250767febab0a", null ]
 ];

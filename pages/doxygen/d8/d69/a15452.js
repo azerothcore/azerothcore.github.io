@@ -1,6 +1,7 @@
 var a15452 =
 [
-    [ "npc_tiger_matriarch_creditAI", "d8/d69/a15452.html#a628772971a9c2a190ffe2fae6b0b6865", null ],
-    [ "UpdateAI", "d8/d69/a15452.html#a0fc7ca1313a21c5f74539ce2dbd7465d", null ],
-    [ "events", "d8/d69/a15452.html#ae96e0de4a36dde3237520e8a0ddd9f5f", null ]
+    [ "npc_giltharesAI", "d8/d69/a15452.html#af22e42b2180987febd964784b6d49b5e", null ],
+    [ "JustEngagedWith", "d8/d69/a15452.html#ae9ba65652db3d2d32920d1a98594727a", null ],
+    [ "Reset", "d8/d69/a15452.html#a34d57ef71b60fe71c749f790cecf70b2", null ],
+    [ "WaypointReached", "d8/d69/a15452.html#a9308c73760e50e0f3d04031b508526d1", null ]
 ];

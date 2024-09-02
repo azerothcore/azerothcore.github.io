@@ -1,5 +1,7 @@
 var a18604 =
 [
-    [ "RotfaceHeightCheck", "de/de5/a18604.html#aabdeaee465989c339fc7a3f186e20498", null ],
-    [ "operator()", "de/de5/a18604.html#a585743e0e76c64a5caa37acab46d04d5", null ]
+    [ "HandleEffectPeriodic", "de/de5/a18604.html#a208c4d59e20cd802cf2f4643fa0d6253", null ],
+    [ "PrepareAuraScript", "de/de5/a18604.html#af1d284c4686f739b02b350a6c0a166c2", null ],
+    [ "Register", "de/de5/a18604.html#a006a97823ac07346771ec4ab61bd0763", null ],
+    [ "Validate", "de/de5/a18604.html#ae1f5555dcadb48ba59bf9571073f4a99", null ]
 ];

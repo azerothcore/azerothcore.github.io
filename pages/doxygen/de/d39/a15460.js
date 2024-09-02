@@ -1,11 +1,14 @@
 var a15460 =
 [
-    [ "npc_tiger_matriarchAI", "de/d39/a15460.html#accbe5feed1eb7363575f297d1b50f6ab", null ],
-    [ "DamageTaken", "de/d39/a15460.html#ab41c4275fe4f42b36615f746a100ccda", null ],
-    [ "IsSummonedBy", "de/d39/a15460.html#a8b02683be93944a65b38658bba0af4d8", null ],
-    [ "JustEngagedWith", "de/d39/a15460.html#a9a9295008552f5330f778dd3a0c591ea", null ],
-    [ "KilledUnit", "de/d39/a15460.html#aabde7633ac07966ee1cd2d9817582189", null ],
-    [ "UpdateAI", "de/d39/a15460.html#af8ed5b16a3f1ed04d439bc1ce1a07ede", null ],
-    [ "_events", "de/d39/a15460.html#a44632ddc3c4e57bee1791cda4027bc93", null ],
-    [ "_tigerGuid", "de/d39/a15460.html#ad557591ddebd4cece99b0e5793be3eb5", null ]
+    [ "npc_taskmaster_fizzuleAI", "de/d39/a15460.html#ac792f91930c869ce919f8fd96b3fb076", null ],
+    [ "DoFriend", "de/d39/a15460.html#aacaeb3293bbb4b670cdc7031d22a50c2", null ],
+    [ "JustEngagedWith", "de/d39/a15460.html#ae7c14a4cf5af178525e5a41c0ba34d4b", null ],
+    [ "ReceiveEmote", "de/d39/a15460.html#a21d0d70086f085b715a12d05fbe5d611", null ],
+    [ "Reset", "de/d39/a15460.html#ac45352b8b3d2301dbaecceaa69bdb1cf", null ],
+    [ "SpellHit", "de/d39/a15460.html#a4c35104935a3a6264c853a657dc42244", null ],
+    [ "UpdateAI", "de/d39/a15460.html#a95ccf9a84231d64c87b9d88d85b4ec2e", null ],
+    [ "factionNorm", "de/d39/a15460.html#ac0794d9b1c04ec4fe6f8afd1556f1fbc", null ],
+    [ "FlareCount", "de/d39/a15460.html#a3a1128b7caa6ef4ba3697e1400aaed04", null ],
+    [ "IsFriend", "de/d39/a15460.html#ab7e6bd2e023545c73fba758267551eee", null ],
+    [ "ResetTimer", "de/d39/a15460.html#a376b3c7fbc9a81e82ece6840e8e9e7fc", null ]
 ];

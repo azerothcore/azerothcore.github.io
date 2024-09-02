@@ -1,13 +1,15 @@
 var a14668 =
 [
-    [ "npc_gargoyleAI", "df/d5a/a14668.html#a0475db1240f88c4cd7f02b20cc83efc5", null ],
-    [ "JustDied", "df/d5a/a14668.html#aa3111294ad819e3985f15e67cd20a5e8", null ],
-    [ "Reset", "df/d5a/a14668.html#a04bc6b91ece23b2b63a945012e71a897", null ],
-    [ "UpdateAI", "df/d5a/a14668.html#ae3041c4f93d2c067b98055f5c5027b6b", null ],
-    [ "WaypointReached", "df/d5a/a14668.html#a8e62639251e552d91619a979f492e6b8", null ],
-    [ "forcemove", "df/d5a/a14668.html#afede28f1947b4b7d5401459f65f5b35f", null ],
-    [ "go", "df/d5a/a14668.html#a4f9c89c8bd427da610f7cc1c718e4db0", null ],
-    [ "MoveTimer", "df/d5a/a14668.html#a9d5b98563dbf7e1fa9769e6dc5d9c2ff", null ],
-    [ "StrikeTimer", "df/d5a/a14668.html#a67c08682963edae29da746d1a4da7951", null ],
-    [ "Zpos", "df/d5a/a14668.html#ae1ca9409c152dd92cc0eff6aa7e98182", null ]
+    [ "npc_time_rift", "df/d5a/a14668.html#ab553bcc40699a63310feaaa7b1bd2604", null ],
+    [ "DoSelectSummon", "df/d5a/a14668.html#af2932c60efaea64d27d52b118b9a8095", null ],
+    [ "DoSummonAtRift", "df/d5a/a14668.html#a6cb4717848efe7e5e0b0113a9ff7dcb5", null ],
+    [ "JustSummoned", "df/d5a/a14668.html#a1d96b081db3cb2a9c40f5adb1c9b109d", null ],
+    [ "Reset", "df/d5a/a14668.html#ad08ca716f120a45ee1688e03d2049aba", null ],
+    [ "SummonedCreatureDies", "df/d5a/a14668.html#ae0ebd0268454ac0cac83235afd7f6363", null ],
+    [ "UpdateAI", "df/d5a/a14668.html#ab5924378c7978c6fae95f9861040c63d", null ],
+    [ "_events", "df/d5a/a14668.html#a12ffd459f8d63f299269da5b65f60128", null ],
+    [ "_instance", "df/d5a/a14668.html#a8eab9c3011c885321d59e2884318d0e8", null ],
+    [ "_riftKeeperGUID", "df/d5a/a14668.html#ad554d8266ded70cadd8c00a3ff5a3321", null ],
+    [ "waveMobIndex", "df/d5a/a14668.html#aa312223ece9f0f1c4ac2861aed3988a9", null ],
+    [ "waveMobs", "df/d5a/a14668.html#a7872706f9b5bdee7e6ca2d94e39e592f", null ]
 ];

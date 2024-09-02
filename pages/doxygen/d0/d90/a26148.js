@@ -1,13 +1,9 @@
 var a26148 =
 [
-    [ "npc_phase_hunterAI", "d0/d90/a26148.html#aa5e9e14a9b4f1739fe439d239d17b33f", null ],
-    [ "JustEngagedWith", "d0/d90/a26148.html#ab496416c48ee6a564277d713334ae104", null ],
-    [ "Reset", "d0/d90/a26148.html#ab3c60fd1a1c3705a70dd4d1cb115eb80", null ],
-    [ "UpdateAI", "d0/d90/a26148.html#ac20740a8bd6b56e04c77e57ac33048d2", null ],
-    [ "Drained", "d0/d90/a26148.html#ad4a3e6ed533f85967bfb0553e12c5af4", null ],
-    [ "ManaBurnTimer", "d0/d90/a26148.html#a8c0e7dd1afd9d34bbc7b41cb18fa198e", null ],
-    [ "Materialize", "d0/d90/a26148.html#a799c437fee5077465f3629c60cc5995f", null ],
-    [ "PlayerGUID", "d0/d90/a26148.html#a32f69eac08a5db6a8f557767fce7f810", null ],
-    [ "Weak", "d0/d90/a26148.html#a180f6726dd159c0ea97108ba16cacc59", null ],
-    [ "WeakPercent", "d0/d90/a26148.html#a0481df8e5ba08cc33d8dc095c5d11df5", null ]
+    [ "CheckProc", "d0/d90/a26148.html#ac0e2bf5c1a96ce0502561bb6bcb6ad97", null ],
+    [ "HandleDispel", "d0/d90/a26148.html#a64235032423050de10581165c57f8b0a", null ],
+    [ "HandleProc", "d0/d90/a26148.html#ab1c1196f003f7ff0bf6f6eae5bd6de9a", null ],
+    [ "PrepareAuraScript", "d0/d90/a26148.html#af7ba0eb96dca76a288dd034665822069", null ],
+    [ "Register", "d0/d90/a26148.html#ababc8b42c64740655864d2834a639384", null ],
+    [ "Validate", "d0/d90/a26148.html#a03ecf2489369cbb7a6dff555db153a96", null ]
 ];

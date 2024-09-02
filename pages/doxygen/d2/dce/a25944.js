@@ -1,6 +1,10 @@
 var a25944 =
 [
-    [ "spell_ragin_flames_inferno_AuraScript", "dc/de5/a25948.html", "dc/de5/a25948" ],
-    [ "spell_ragin_flames_inferno", "d2/dce/a25944.html#a70c903b64a8faf4c83273f679e6b066d", null ],
-    [ "GetAuraScript", "d2/dce/a25944.html#ab80f56470a3da24985be471d5b9afd05", null ]
+    [ "AfterCheckProc", "d2/dce/a25944.html#aa6f32a97ece5fc68c0b0a2cfa36e33eb", null ],
+    [ "HandleProc", "d2/dce/a25944.html#a613182c741769d0983206bdfa89242f6", null ],
+    [ "PrepareAuraScript", "d2/dce/a25944.html#a4f614fe81d829d8a1ceb7500f9557948", null ],
+    [ "Register", "d2/dce/a25944.html#acd807de02a83a97a78572d672fb16027", null ],
+    [ "Validate", "d2/dce/a25944.html#a3d2d6f1a00825ac66f507a790f468198", null ],
+    [ "_spellInfo", "d2/dce/a25944.html#a66a5eb4caa7b43c34b2830d9a3d2f994", null ],
+    [ "_ticksModifier", "d2/dce/a25944.html#ae23b54499fff879a096bd459e264c4f0", null ]
 ];

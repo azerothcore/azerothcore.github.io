@@ -1,6 +1,6 @@
 var a26168 =
 [
-    [ "spell_q10612_10613_the_fel_and_the_furious_SpellScript", "d2/d3d/a26172.html", "d2/d3d/a26172" ],
-    [ "spell_q10612_10613_the_fel_and_the_furious", "dd/dc0/a26168.html#aafbc9cf0e3361230acd78c549374bf24", null ],
-    [ "GetSpellScript", "dd/dc0/a26168.html#a8994d055fe54e7598c4cba759d439c60", null ]
+    [ "HandleDummyEffect", "dd/dc0/a26168.html#ad5421ca3dd5bf802952f98e6d1170003", null ],
+    [ "PrepareSpellScript", "dd/dc0/a26168.html#a9489556e1e16cd2e0d5c43b38d7ea5ee", null ],
+    [ "Register", "dd/dc0/a26168.html#a2ad2c00807d07aeb55a8fd848a69f9d1", null ]
 ];

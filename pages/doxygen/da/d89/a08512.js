@@ -1,9 +1,13 @@
 var a08512 =
 [
-    [ "CellArea", "da/d89/a08512.html#ace8ca84753b4ec8681415386fb135053", null ],
-    [ "CellArea", "da/d89/a08512.html#a547aa2c544abb8de2c6defdd6ec77fa3", null ],
-    [ "operator!", "da/d89/a08512.html#a386d4a562c27155012daedc361541e3b", null ],
-    [ "ResizeBorders", "da/d89/a08512.html#aebb8a0eb3210fa09d647d89ce8a0c7b8", null ],
-    [ "high_bound", "da/d89/a08512.html#a0c90f0474902deaafc4a64faaf6e8071", null ],
-    [ "low_bound", "da/d89/a08512.html#a374fe9802c798e6ece359a8025b6e1df", null ]
+    [ "BuildValuesCachePosPointers", "da/d89/a08512.html#ae84124e042e8ba50d755ccef3c02fdd8", null ],
+    [ "ApplyOffset", "da/d89/a08512.html#a31a13ea07b3eb9e3d045996e8a6074b2", null ],
+    [ "other", "da/d89/a08512.html#ad56ddc5f2d7ea4937b49a61d80b8b138", null ],
+    [ "UnitDynamicFlagsPos", "da/d89/a08512.html#a230385a8646ebce01faaadce648b1a61", null ],
+    [ "UnitFieldAuraStatePos", "da/d89/a08512.html#a69592cf42c5f6663c8ada3468fcbe658", null ],
+    [ "UnitFieldBytes2Pos", "da/d89/a08512.html#aa1df8492f0a3c576b067469ee3552796", null ],
+    [ "UnitFieldDisplayPos", "da/d89/a08512.html#a1058d1650d656498f7dcd5139363a315", null ],
+    [ "UnitFieldFactionTemplatePos", "da/d89/a08512.html#a9b8eae9da685231956dca3e92b845cbb", null ],
+    [ "UnitFieldFlagsPos", "da/d89/a08512.html#a04e607123d1d1dde24611b573d25fedb", null ],
+    [ "UnitNPCFlagsPos", "da/d89/a08512.html#aa9412413e1a867d1f3857d18f4d52906", null ]
 ];

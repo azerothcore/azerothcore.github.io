@@ -1,6 +1,8 @@
 var a18260 =
 [
-    [ "spell_igb_below_zero_SpellScript", "df/dfa/a18264.html", "df/dfa/a18264" ],
-    [ "spell_igb_below_zero", "d9/d64/a18260.html#a24c82d899c785ed3cf0ea99d54b07695", null ],
-    [ "GetSpellScript", "d9/d64/a18260.html#a199e409277534fb8d8facde6b83b8aa0", null ]
+    [ "npc_lk_spirit_bombAI", "d9/d64/a18260.html#a366fb54e68c0e603000183cd68daf6b7", null ],
+    [ "IsSummonedBy", "d9/d64/a18260.html#a9b3de8c6e2006a19ee1289455163f52c", null ],
+    [ "MovementInform", "d9/d64/a18260.html#a0e4aa94a199439962095c1d2026b2a5f", null ],
+    [ "UpdateAI", "d9/d64/a18260.html#a61b4f7c3a1dd9b9b2850b05f2117e55a", null ],
+    [ "timer", "d9/d64/a18260.html#aa0d370113b753127d4f0fd7bd3a3ba11", null ]
 ];

@@ -1,6 +1,5 @@
 var a20880 =
 [
-    [ "spell_algalon_remove_phase_AuraScript", "db/d56/a20884.html", "db/d56/a20884" ],
-    [ "spell_algalon_remove_phase", "d9/d9a/a20880.html#a82cc71a8c3c4b5d330ae5e51da171d11", null ],
-    [ "GetAuraScript", "d9/d9a/a20880.html#acfa9371b85ab9bae73c407835375038e", null ]
+    [ "achievement_yogg_saron_drive_me_crazy", "d9/d9a/a20880.html#a381d8fd2e7b4806181959a1b915f3a8c", null ],
+    [ "OnCheck", "d9/d9a/a20880.html#a029fdd68e0643b53971efbb1056f19d8", null ]
 ];

@@ -1,6 +1,7 @@
 var a24604 =
 [
-    [ "spell_reliquary_of_souls_spite_AuraScript", "d4/d75/a24608.html", "d4/d75/a24608" ],
-    [ "spell_reliquary_of_souls_spite", "d5/d19/a24604.html#a71c632b3c34e063f8bbab597afc4e859", null ],
-    [ "GetAuraScript", "d5/d19/a24604.html#a55cee970363b07a8d77c60d24a1da228", null ]
+    [ "CalculateAmount", "d5/d19/a24604.html#a44c3c1c97f0b87b261614e7eb0ce7d4d", null ],
+    [ "PrepareAuraScript", "d5/d19/a24604.html#aaf070525419cc8af56cd0002bbef2391", null ],
+    [ "Register", "d5/d19/a24604.html#ad37c82f88ebfb8c68aef2e574c0c4dcf", null ],
+    [ "Validate", "d5/d19/a24604.html#a3b8d5d04ec015240d941790bd02598f8", null ]
 ];

@@ -1,6 +1,6 @@
 var a18312 =
 [
-    [ "npc_vengeful_shadeAI", "df/dad/a18316.html", "df/dad/a18316" ],
-    [ "npc_vengeful_shade", "df/d0c/a18312.html#a99c535efd94fbd5bded8fd9555bb6eaf", null ],
-    [ "GetAI", "df/d0c/a18312.html#afa2c672015b43d83bd55050ed020f7e5", null ]
+    [ "npc_green_dragon_combat_triggerAI", "df/dad/a18316.html", "df/dad/a18316" ],
+    [ "npc_green_dragon_combat_trigger", "df/d0c/a18312.html#acec675494f5e5e9609bf34b7f25cb569", null ],
+    [ "GetAI", "df/d0c/a18312.html#a945b7cd0084873c17d52b3c2cc3ede22", null ]
 ];

@@ -1,6 +1,7 @@
 var a18788 =
 [
-    [ "spell_sindragosa_frost_beacon_AuraScript", "d2/d4b/a18792.html", "d2/d4b/a18792" ],
-    [ "spell_sindragosa_frost_beacon", "da/db2/a18788.html#a97170a49f2ce10d062a3ee7b73e44410", null ],
-    [ "GetAuraScript", "da/db2/a18788.html#a89430f3425caed9de509951cf29f54a0", null ]
+    [ "OnRemove", "da/db2/a18788.html#a4e6a66934a01d01c50208459f6771353", null ],
+    [ "PrepareAuraScript", "da/db2/a18788.html#a2320044c6c81a89af0fefd4f90c05bd5", null ],
+    [ "Register", "da/db2/a18788.html#a4890d35f2b0889156a437c95e49f528c", null ],
+    [ "Validate", "da/db2/a18788.html#a1b90f1288b3b45267edd4da2b3418b21", null ]
 ];

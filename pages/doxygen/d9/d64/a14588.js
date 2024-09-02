@@ -1,7 +1,6 @@
 var a14588 =
 [
-    [ "npc_jaina_proudmoore", "d9/d64/a14588.html#a433852570ca07cc535583712e104cd1e", null ],
-    [ "GetAI", "d9/d64/a14588.html#a55725bb8841810daaa288fa2ac0dcd91", null ],
-    [ "OnGossipHello", "d9/d64/a14588.html#a9a392413becf209d2dcf82fc2aeaa3e3", null ],
-    [ "OnGossipSelect", "d9/d64/a14588.html#aa6e9fe8cd2003418dabf4c787e31f036", null ]
+    [ "npc_cos_stratholme_citizienAI", "d6/d0f/a14592.html", "d6/d0f/a14592" ],
+    [ "npc_cos_stratholme_citizien", "d9/d64/a14588.html#a92f8d88ecfa9cc47d6799107e5de0107", null ],
+    [ "GetAI", "d9/d64/a14588.html#a4f5f132b903241021a4e53dd60c0f43b", null ]
 ];

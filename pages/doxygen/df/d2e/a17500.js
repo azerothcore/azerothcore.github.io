@@ -1,6 +1,8 @@
 var a17500 =
 [
-    [ "boss_drakkari_colossusAI", "da/d4b/a17504.html", "da/d4b/a17504" ],
-    [ "boss_drakkari_colossus", "df/d2e/a17500.html#abe1bf28b9147b72c81e5c5efcdeeaf84", null ],
-    [ "GetAI", "df/d2e/a17500.html#a75c6c9c56fe11342dd8aece031059e77", null ]
+    [ "Load", "df/d2e/a17500.html#ad1105149d5e42318382af6c07149d522", null ],
+    [ "PeriodicTick", "df/d2e/a17500.html#a8e675178256746d08af50a6b75ec582e", null ],
+    [ "PrepareAuraScript", "df/d2e/a17500.html#a88f4baca7ceac44e5d148b73386a10a7", null ],
+    [ "Register", "df/d2e/a17500.html#a0fa7d86214827711edd019dd3b40c667", null ],
+    [ "_tickNo", "df/d2e/a17500.html#a418212d2daa873d69a83b4c1341a8903", null ]
 ];

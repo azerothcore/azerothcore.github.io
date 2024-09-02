@@ -1,6 +1,6 @@
 var a24408 =
 [
-    [ "HandleDummy", "d5/d8f/a24408.html#a710005e8656e428794f120e9dcefc0d1", null ],
-    [ "PrepareSpellScript", "d5/d8f/a24408.html#a0cd5c6121360ff60c489c1cc59619a1c", null ],
-    [ "Register", "d5/d8f/a24408.html#ad2465b228ebef77f82e8b1de81863b68", null ]
+    [ "FilterTargets", "d5/d8f/a24408.html#adab73c94c659d7421c9c6887d956cd83", null ],
+    [ "PrepareSpellScript", "d5/d8f/a24408.html#a8cf5e4224f46b6f836d517f90fd135d4", null ],
+    [ "Register", "d5/d8f/a24408.html#a3aaf93f3746b36d5bfa4fc475aabe43b", null ]
 ];

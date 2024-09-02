@@ -1,11 +1,10 @@
 var a14224 =
 [
-    [ "npc_the_etymidian", "d5/d2a/a14224.html#af491016ac89b67947650a5ca9c379875", null ],
-    [ "MoveInLineOfSight", "d5/d2a/a14224.html#adde2d86e30442eb1b47219e934e24407", null ],
-    [ "Reset", "d5/d2a/a14224.html#a714edf3ba5f7a6d59242c991764effc5", null ],
-    [ "UpdateAI", "d5/d2a/a14224.html#a1f3cfddae43e443c5cd4a8a0f9f87a89", null ],
-    [ "orphanGUID", "d5/d2a/a14224.html#a9ba2c34b08d0fe61e18037b02f352d08", null ],
-    [ "phase", "d5/d2a/a14224.html#a7086e9a8a8a7287cf90688270e9933a7", null ],
-    [ "playerGUID", "d5/d2a/a14224.html#a7371e361c018360315e20086b0b99079", null ],
-    [ "timer", "d5/d2a/a14224.html#a8508a2c89eeeee2d235e1178ca77e895", null ]
+    [ "boss_headless_horseman_pumpkin", "d5/d2a/a14224.html#a62191ae523401ac57a947db96a245f7a", null ],
+    [ "AttackStart", "d5/d2a/a14224.html#a2d7cb1bc5f25f87b1452d6c1267958c4", null ],
+    [ "MoveInLineOfSight", "d5/d2a/a14224.html#a212f9803f66d297cd276ef842247776a", null ],
+    [ "Reset", "d5/d2a/a14224.html#a9d5f6922a52146b61168f1c50b378294", null ],
+    [ "SpellHit", "d5/d2a/a14224.html#a401db237c45efde3a30cdca6cb4f95c0", null ],
+    [ "UpdateAI", "d5/d2a/a14224.html#aca53b8839bce5e180ba8583490d694c3", null ],
+    [ "timer", "d5/d2a/a14224.html#a1f236cdfeec366f0d830e0fceafa6d25", null ]
 ];

@@ -1,6 +1,6 @@
 var a16220 =
 [
-    [ "HandleDummy", "d1/d3c/a16220.html#ae69d4a305fd1d86429f50f6198140c55", null ],
-    [ "PrepareSpellScript", "d1/d3c/a16220.html#a8be84ff7910084fc47e7ef19003ae2fa", null ],
-    [ "Register", "d1/d3c/a16220.html#a89a67efa4114a0d5c83c3cca4e5a6c8c", null ]
+    [ "npc_toc_shamanAI", "d9/d67/a16224.html", "d9/d67/a16224" ],
+    [ "npc_toc_shaman", "d1/d3c/a16220.html#a26e3a539d8d918057e9f81b9ee83f17d", null ],
+    [ "GetAI", "d1/d3c/a16220.html#a7102a3aec6c229a04b617c562512bf29", null ]
 ];

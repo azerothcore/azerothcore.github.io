@@ -1,6 +1,10 @@
 var a23664 =
 [
-    [ "npc_tournament_training_dummyAI", "df/d03/a23668.html", "df/d03/a23668" ],
-    [ "npc_tournament_training_dummy", "dc/dcd/a23664.html#ab5308cfddfef00da9692dddd21ce4a14", null ],
-    [ "GetAI", "dc/dcd/a23664.html#a31257c155c3a49c69771156800cf6340", null ]
+    [ "instance_arcatraz_InstanceMapScript", "dc/dcd/a23664.html#a4c6594eb7fa1f7213c89ea5af6c70ae0", null ],
+    [ "GetGuidData", "dc/dcd/a23664.html#aa4bedf168359eaf5332476a6de99c830", null ],
+    [ "OnGameObjectCreate", "dc/dcd/a23664.html#ad8c84d90b85db5717b6a37fc2343e0aa", null ],
+    [ "SetBossState", "dc/dcd/a23664.html#a2937e4ea47af542a476bd3399ecc7233", null ],
+    [ "SetData", "dc/dcd/a23664.html#aca09d4856d5c3e1831ea8753a50a3b71", null ],
+    [ "StasisPodGUIDs", "dc/dcd/a23664.html#a1fb9824baee2d8d83e030da307f21fc3", null ],
+    [ "WardensShieldGUID", "dc/dcd/a23664.html#a3cbff5742e05f6cf0544807bce64b1d0", null ]
 ];

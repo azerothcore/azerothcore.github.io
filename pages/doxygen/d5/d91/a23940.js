@@ -1,7 +1,9 @@
 var a23940 =
 [
-    [ "HandleScript", "d5/d91/a23940.html#a6c4dc8550ae4fced64b6cfc2926e9f94", null ],
-    [ "PrepareSpellScript", "d5/d91/a23940.html#adb46c37d0589b5e2abf7c4ebd1becc27", null ],
-    [ "Register", "d5/d91/a23940.html#a424c06a1642fd80d12d83d87335b8c4e", null ],
-    [ "Validate", "d5/d91/a23940.html#a4bcb40771fc70764fe0408e22e7d67cc", null ]
+    [ "npc_oscillating_frequency_scanner_master_bunnyAI", "d5/d91/a23940.html#a273d585416dc92d39d5ec3824c08504d", null ],
+    [ "IsSummonedBy", "d5/d91/a23940.html#a5f002d36c492ed2caf2290f4a073a7d0", null ],
+    [ "Reset", "d5/d91/a23940.html#a06fa50580efeab8d847a05f20956d175", null ],
+    [ "UpdateAI", "d5/d91/a23940.html#a8261a259cfbee0d3610ee441406fafcd", null ],
+    [ "playerGuid", "d5/d91/a23940.html#aab717dd49284c483759a6223dbd7e6ea", null ],
+    [ "timer", "d5/d91/a23940.html#afba1b71178c563a3db906057cd20de45", null ]
 ];

@@ -1,6 +1,7 @@
 var a20636 =
 [
-    [ "boss_volkhanAI", "da/d89/a20640.html", "da/d89/a20640" ],
-    [ "boss_volkhan", "d9/d07/a20636.html#a9dcb6026fbf3116df9abf5acaf1bfcc2", null ],
-    [ "GetAI", "d9/d07/a20636.html#aa0f76b387f9f74e0eb6dedd1b44ce34a", null ]
+    [ "npc_xt002_life_sparkAI", "d9/d07/a20636.html#a763ec1834d3b71c88bfa80bc0e34966a", null ],
+    [ "Reset", "d9/d07/a20636.html#a596e2ed45b9221915781b03bf2d18e5b", null ],
+    [ "UpdateAI", "d9/d07/a20636.html#af0a1e717b08b2fa35dd4ff83778a87c1", null ],
+    [ "_attackTimer", "d9/d07/a20636.html#a79bf005de95aa1fee60dfc73b8920dad", null ]
 ];

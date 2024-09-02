@@ -1,7 +1,7 @@
 var a16596 =
 [
-    [ "npc_toc_druidAI", "de/dcc/a16596.html#adb456f1f93be5329174a3199c9092825", null ],
-    [ "myCanCast", "de/dcc/a16596.html#af82baa22ae49ba268f494cb07287845e", null ],
-    [ "UpdateAI", "de/dcc/a16596.html#a82a22a557db647f73690d8838a635eaf", null ],
-    [ "events", "de/dcc/a16596.html#a6bb27baf17f0286db3222287a8073bd7", null ]
+    [ "HandleEffectRemove", "de/dcc/a16596.html#aa6a118f956cbdc5ad1ce0109c3a0e8e3", null ],
+    [ "Load", "de/dcc/a16596.html#a71a31b421f192662c14bd6bf3d5eed9f", null ],
+    [ "PrepareAuraScript", "de/dcc/a16596.html#a97411ddf89a10a962ba74d294eb653e7", null ],
+    [ "Register", "de/dcc/a16596.html#a1207c9b2ba2e110c3f6c1309f5329d2a", null ]
 ];

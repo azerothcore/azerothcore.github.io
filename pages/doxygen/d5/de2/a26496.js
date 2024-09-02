@@ -1,5 +1,7 @@
 var a26496 =
 [
-    [ "npc_pet_dk_dancing_rune_weaponAI", "d5/de2/a26496.html#a6d57990a8ff05cc74356b0ed4d7d39b6", null ],
-    [ "InitializeAI", "d5/de2/a26496.html#a620ebac7c7cd5f81af47ea2e35de128c", null ]
+    [ "CalculateAmount", "d5/de2/a26496.html#aefeab4e58c1b5c1be87f583256d366f5", null ],
+    [ "Load", "d5/de2/a26496.html#ae2ef0eae77137c120ec61af8698677db", null ],
+    [ "PrepareAuraScript", "d5/de2/a26496.html#acaecc78c031aa436f432fd7145478de4", null ],
+    [ "Register", "d5/de2/a26496.html#afd27c8bc5fd1628b7e32bf464bfe3d48", null ]
 ];

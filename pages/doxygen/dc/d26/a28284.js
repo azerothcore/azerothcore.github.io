@@ -1,11 +1,9 @@
 var a28284 =
 [
-    [ "ChangeDest", "dc/d26/a28284.html#a30395ad8a94ea7aedf3d0a58da548ca8", null ],
-    [ "Load", "dc/d26/a28284.html#aac846a8e04b58df54abaf9dbf06a5348", null ],
-    [ "PrepareSpellScript", "dc/d26/a28284.html#a7985f043746f76bc8465419a1ef3eadb", null ],
-    [ "Register", "dc/d26/a28284.html#af20460596a2ec4385bd9bbf0e0199b53", null ],
-    [ "RelocateDest", "dc/d26/a28284.html#a773fd4117c668267d034907b598ac6ac", null ],
-    [ "_x", "dc/d26/a28284.html#a87bdd967585be0022a136ab6b2ddfe2f", null ],
-    [ "_y", "dc/d26/a28284.html#aaf01950197bea05ac30a64797c70c1d5", null ],
-    [ "_z", "dc/d26/a28284.html#a6217f40c5de2791428b613e806d7ced1", null ]
+    [ "TimeSeg", "dc/d26/a28284.html#a16782e722a5bada41691841fe594b7a6", null ],
+    [ "TransportEntry", "dc/d26/a28284.html#afcdb94a38d68d2ff8af225dc599db8a4", null ],
+    [ "W", "dc/d26/a28284.html#a4158a2babefbf4e148a64fe16bf113f6", null ],
+    [ "X", "dc/d26/a28284.html#a9c7cb1fd0463d1158d971db6f15431ff", null ],
+    [ "Y", "dc/d26/a28284.html#a7f0ff898e752e2e904ebee1412643df6", null ],
+    [ "Z", "dc/d26/a28284.html#a87647d71a965e80154ca36dc05421585", null ]
 ];

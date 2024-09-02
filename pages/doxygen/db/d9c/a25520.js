@@ -1,6 +1,6 @@
 var a25520 =
 [
-    [ "boss_grand_warlock_nethekurseAI", "db/ddf/a25524.html", "db/ddf/a25524" ],
-    [ "boss_grand_warlock_nethekurse", "db/d9c/a25520.html#aad53b7856eaa4f81f8fdd1ac6303e7f0", null ],
-    [ "GetAI", "db/d9c/a25520.html#ae4782633c0d4fc70ffc5b85ac3bec439", null ]
+    [ "HandleProc", "db/d9c/a25520.html#a9a38fab6b581e9f9b4e092d7a4ecaebd", null ],
+    [ "PrepareAuraScript", "db/d9c/a25520.html#a5299aaeacead013e00e81ec7960528f8", null ],
+    [ "Register", "db/d9c/a25520.html#a3b46c5dd891d856e08cbcb9a494f2dd2", null ]
 ];

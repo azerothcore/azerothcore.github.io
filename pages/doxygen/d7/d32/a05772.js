@@ -1,8 +1,10 @@
 var a05772 =
 [
-    [ "GuardAI", "d7/d32/a05772.html#ac1f0ba47d8e32c65845808170330b7af", null ],
-    [ "EnterEvadeMode", "d7/d32/a05772.html#af021cc31298d4a0f38a7d82ac8e02e30", null ],
-    [ "JustDied", "d7/d32/a05772.html#a96820cdcb632d3a71f9deacf4998a774", null ],
-    [ "Permissible", "d7/d32/a05772.html#a238f38bd3fc7cfa8ace3549f4a6199fb", null ],
-    [ "Reset", "d7/d32/a05772.html#a91b12b6a50641d17a79550b9ffb5284a", null ]
+    [ "TransactionCallback", "d7/d32/a05772.html#a89e9ebf06ffbad9dcf77a78f9f989450", null ],
+    [ "TransactionCallback", "d7/d32/a05772.html#adeff62976c11d9d90169e4650640118b", null ],
+    [ "AfterComplete", "d7/d32/a05772.html#af2ec892bbca8d2cc694b36fb931fc1e8", null ],
+    [ "InvokeIfReady", "d7/d32/a05772.html#a7937d93dbd22617a2fd3893a6fe8c23c", null ],
+    [ "operator=", "d7/d32/a05772.html#ab73d1741c21ea9fd86f65a647768e972", null ],
+    [ "m_callback", "d7/d32/a05772.html#abb0dbcebb22ea716025ed6aca99f6afb", null ],
+    [ "m_future", "d7/d32/a05772.html#a381e889074bc5ca48574d37fe6eea00f", null ]
 ];

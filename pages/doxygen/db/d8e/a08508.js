@@ -1,6 +1,14 @@
 var a08508 =
 [
-    [ "m_guid", "db/d8e/a08508.html#afa8383c81a2d75f9ead2e8f3daa29086", null ],
-    [ "m_instance", "db/d8e/a08508.html#a8bc0c5e1cf45073f054c5154c21b3d72", null ],
-    [ "m_state", "db/d8e/a08508.html#a3ac18fb8f5d386e3245a2435e31e45e1", null ]
+    [ "SafeUnitPointer", "db/d8e/a08508.html#a05ee5199683b1e68189a7d122bf3f5f4", null ],
+    [ "SafeUnitPointer", "db/d8e/a08508.html#a9ac4023d6ec32f96c757206dd4aa3fd6", null ],
+    [ "~SafeUnitPointer", "db/d8e/a08508.html#ad9c2be82f67eb4e825a9ffd07307983a", null ],
+    [ "Initialize", "db/d8e/a08508.html#a40f6e04585ca487c457d17ce10cc7b8c", null ],
+    [ "operator Unit *", "db/d8e/a08508.html#afee1d290f436472dd719ff83f41721f5", null ],
+    [ "operator->", "db/d8e/a08508.html#af63a04a7c6e6cb3002f5a99f90f70328", null ],
+    [ "operator=", "db/d8e/a08508.html#a44f522d9c22861f853df0286a3764d3e", null ],
+    [ "SetPointedTo", "db/d8e/a08508.html#a6603c67b736224a8e6559340afa8b275", null ],
+    [ "UnitDeleted", "db/d8e/a08508.html#a872b0a86328fb03e5feccdf364ea5cce", null ],
+    [ "defaultValue", "db/d8e/a08508.html#a38dce117cb135c9b84918a9bbc884f28", null ],
+    [ "ptr", "db/d8e/a08508.html#aa8bf5e4728aeb1ca7a8de1a727a84884", null ]
 ];

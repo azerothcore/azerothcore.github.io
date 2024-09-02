@@ -1,6 +1,6 @@
 var a18288 =
 [
-    [ "boss_lady_deathwhisperAI", "d0/d77/a18292.html", "d0/d77/a18292" ],
-    [ "boss_lady_deathwhisper", "de/df0/a18288.html#a979411cb834611b1239f3bf9058d316d", null ],
-    [ "GetAI", "de/df0/a18288.html#ac0b86fee1e2e9dbf794ed1b53aab11d2", null ]
+    [ "ManaVoidSelector", "de/df0/a18288.html#aa57a0960e7ce90b8de23f01ae72a1fff", null ],
+    [ "operator()", "de/df0/a18288.html#a464d63f2cf8cfe7d0c6bb5293e788a28", null ],
+    [ "_source", "de/df0/a18288.html#ae45c999db51bc153bba7f2fdfb99f6ba", null ]
 ];

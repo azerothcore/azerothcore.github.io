@@ -1,6 +1,5 @@
 var a26896 =
 [
-    [ "OnHit", "dd/d82/a26896.html#a56ecd2ea05f48b874b2890d7f15cc362", null ],
-    [ "PrepareSpellScript", "dd/d82/a26896.html#a0d74ce7c43f0cb7329ca990f1b0eecdf", null ],
-    [ "Register", "dd/d82/a26896.html#a7cd2cc858eeb7805a3efb72b081c284e", null ]
+    [ "achievement_save_the_day", "dd/d82/a26896.html#a193e4060b6634a87b499b7c8a5e287a1", null ],
+    [ "OnCheck", "dd/d82/a26896.html#a95cfea6cd9ff955ba6800ebdf3a30eb7", null ]
 ];

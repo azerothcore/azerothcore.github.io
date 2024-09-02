@@ -1,10 +1,6 @@
 var a24116 =
 [
-    [ "OPvPCapturePointHP", "d6/d3e/a24116.html#a7f5fa3e3bd28924965cc08f41b5d6bd8", null ],
-    [ "ChangeState", "d6/d3e/a24116.html#aa0dc544ad3d53255dbfdab7461efcaa1", null ],
-    [ "FillInitialWorldStates", "d6/d3e/a24116.html#a4021432ef58674bf456ad2684e56b256", null ],
-    [ "HandlePlayerEnter", "d6/d3e/a24116.html#ad9738c621df084d5a3f0070c80403642", null ],
-    [ "HandlePlayerLeave", "d6/d3e/a24116.html#a86e849e5387383a6c751e69350ffa07c", null ],
-    [ "SendChangePhase", "d6/d3e/a24116.html#a42528a90eda9ec28dd00df3f0ec78a15", null ],
-    [ "m_TowerType", "d6/d3e/a24116.html#a0191bec2d9492e21957ed9b4e0fed484", null ]
+    [ "npc_drake_dealer_hurlunk", "d6/d3e/a24116.html#ae6d095365d23c30d5b772b047b459ddb", null ],
+    [ "OnGossipHello", "d6/d3e/a24116.html#ad04b7f906f029d9935e29c585b0de421", null ],
+    [ "OnGossipSelect", "d6/d3e/a24116.html#aa23833dcdefb909899120c25d5376111", null ]
 ];

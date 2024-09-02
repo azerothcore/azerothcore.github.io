@@ -1,7 +1,7 @@
 var a18592 =
 [
-    [ "HandleScript", "da/d46/a18592.html#a039143cf28bd9c37e27cdd465fc55171", null ],
-    [ "PrepareSpellScript", "da/d46/a18592.html#a1c12ef1ad77d485d1dcfe488f8273d6e", null ],
-    [ "Register", "da/d46/a18592.html#aae23fe522533a7b5f5b7db42d708ed45", null ],
-    [ "SelectTarget", "da/d46/a18592.html#a0b6be9742e192ece3e1a94c129ce0f53", null ]
+    [ "OnRemove", "da/d46/a18592.html#ac71e6f5a9e3a7c96b4e4bd1a296d0d8d", null ],
+    [ "PrepareAuraScript", "da/d46/a18592.html#acf654e563f47df9ad033d7080f47662b", null ],
+    [ "Register", "da/d46/a18592.html#aad4497ba7cad48b9547e8696714d8c23", null ],
+    [ "Validate", "da/d46/a18592.html#ae5e187cb481849343e777b0bf0ffdf24", null ]
 ];

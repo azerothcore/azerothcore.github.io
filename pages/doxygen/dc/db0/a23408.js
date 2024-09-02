@@ -1,8 +1,6 @@
 var a23408 =
 [
-    [ "npc_ravenous_worgAI", "dc/db0/a23408.html#a5404516869e171c84b774f2a7b8be15d", null ],
-    [ "AttackStart", "dc/db0/a23408.html#a593d218d8cb083a7e37f81d3952c6d4c", null ],
-    [ "UpdateAI", "dc/db0/a23408.html#aeb64d5bde5ef9d8c2a62662bb72d3049", null ],
-    [ "_attack", "dc/db0/a23408.html#a3df5c98821ba33a40e25e7b050858b96", null ],
-    [ "_pacified", "dc/db0/a23408.html#a0da1f59a6fc9cdf39c9cced1eb52acba", null ]
+    [ "HandleScriptEffect", "dc/db0/a23408.html#abba5817280db6579e3e6e0b964655c6e", null ],
+    [ "PrepareSpellScript", "dc/db0/a23408.html#a846fa43c9907ddb6243c006327757a1c", null ],
+    [ "Register", "dc/db0/a23408.html#a7daa26f4035912bff4811b0bfee35fee", null ]
 ];

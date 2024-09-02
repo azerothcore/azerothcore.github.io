@@ -1,7 +1,6 @@
 var a24464 =
 [
-    [ "HandleScriptEffect", "d8/d98/a24464.html#a2bab1df1bd006724d9f2d660c8f7efcb", null ],
-    [ "Load", "d8/d98/a24464.html#aa2265236a02f9f819c1abf3d62a0cb7d", null ],
-    [ "PrepareSpellScript", "d8/d98/a24464.html#a1456c2423f0a5bca1e97a7fb03fc93f9", null ],
-    [ "Register", "d8/d98/a24464.html#a553609243e3327b456ee64bcba61cc26", null ]
+    [ "HandleProc", "d8/d98/a24464.html#ab00bbdd8580426a621abc11c4308bdc4", null ],
+    [ "PrepareAuraScript", "d8/d98/a24464.html#a2840931b939b95e6a476c07f08ca66b5", null ],
+    [ "Register", "d8/d98/a24464.html#ae769fddc14aed4d1055d2f947d292fcf", null ]
 ];

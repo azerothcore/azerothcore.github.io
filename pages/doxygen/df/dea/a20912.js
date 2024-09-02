@@ -1,6 +1,7 @@
 var a20912 =
 [
-    [ "CastRunesEvent", "df/dea/a20912.html#aa3c5912362a4ce8a5b463da626f277b0", null ],
-    [ "Execute", "df/dea/a20912.html#ad86f17817c8a5accb1cc90e0e5d362f3", null ],
-    [ "_owner", "df/dea/a20912.html#a308c679c6e427e89734b5f506ad9d0d6", null ]
+    [ "HandleEffectPeriodic", "df/dea/a20912.html#a2b9426d0a2ce9251632acebb30d0e2b5", null ],
+    [ "PrepareAuraScript", "df/dea/a20912.html#a7dca0398e78278c78dd80e9e6ca874e1", null ],
+    [ "Register", "df/dea/a20912.html#a74052d7da1523b3c4010465510e5fe04", null ],
+    [ "Validate", "df/dea/a20912.html#a587a469c649877f80e8fe80062e8b5d4", null ]
 ];

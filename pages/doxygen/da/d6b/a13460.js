@@ -1,6 +1,6 @@
 var a13460 =
 [
-    [ "npc_marzon_silent_bladeAI", "dc/dd7/a13464.html", "dc/dd7/a13464" ],
-    [ "npc_marzon_silent_blade", "da/d6b/a13460.html#a8fa1c0e11555df45005f37fd9de7f3a8", null ],
-    [ "GetAI", "da/d6b/a13460.html#aadde9b84b46c594e41ae8ca3ae0265a1", null ]
+    [ "npc_jaina_proudmoore_bfuAI", "dc/dd7/a13464.html", "dc/dd7/a13464" ],
+    [ "npc_jaina_proudmoore_bfu", "da/d6b/a13460.html#af96c4fac318f44cf6e70817b6960999f", null ],
+    [ "GetAI", "da/d6b/a13460.html#a4ed6349a5ebdd90053f9d67d24ab6991", null ]
 ];

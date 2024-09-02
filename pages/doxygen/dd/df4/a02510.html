@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/OutdoorPvP/OutdoorPvPNA.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Outland/CoilfangReservoir/SlavePens/instance_the_slave_pens.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -108,204 +108,109 @@ $(document).ready(function(){initNavTree('dd/df4/a02510.html','../../'); initRes
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">OutdoorPvPNA.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">instance_the_slave_pens.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">OutdoorPvPNA.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameGraveyard.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">OutdoorPvPMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">OutdoorPvPScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Map.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">the_slave_pens.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d44/a22487.html">OutdoorPvP_nagrand</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0e/a23288.html">instance_the_slave_pens</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4c/a22491.html">outdoorpvp_na_halaa_creatures</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a23292.html">instance_the_slave_pens::instance_the_slave_pens_InstanceMapScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a37af66c813e135cc11bd1dc663b35697"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/a02510.html#a37af66c813e135cc11bd1dc663b35697">UpdateCreatureHalaa</a> (<a class="el" href="../../dd/d21/a08163.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> spawnId, <a class="el" href="../../d5/dec/a09507.html">Map</a> *map, float x, float y)</td></tr>
-<tr class="separator:a37af66c813e135cc11bd1dc663b35697"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1d33448696056a0951a0c306a511f1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/a02510.html#ab1d33448696056a0951a0c306a511f1e">FlagPlayerPvP</a> (<a class="el" href="../../d3/d11/a08359.html">Player</a> *player)</td></tr>
-<tr class="separator:ab1d33448696056a0951a0c306a511f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03015585e7619177355fefd05f85e1c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/a02510.html#a03015585e7619177355fefd05f85e1c7">AddSC_outdoorpvp_na</a> ()</td></tr>
-<tr class="separator:a03015585e7619177355fefd05f85e1c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41772e574e8da2d2009384c1f312ed92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/a02510.html#a41772e574e8da2d2009384c1f312ed92">AddSC_instance_the_slave_pens</a> ()</td></tr>
+<tr class="separator:a41772e574e8da2d2009384c1f312ed92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a531a4e8a5291c048ad0f3b0fc64b29d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dbd/a02507.html#a3951c5b11bab0eeb9b06c1e19b25c036">HalaaNPCS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/a02510.html#a531a4e8a5291c048ad0f3b0fc64b29d9">halaaNPCHorde</a></td></tr>
-<tr class="separator:a531a4e8a5291c048ad0f3b0fc64b29d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3428675268608e5372767fc629259d5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dbd/a02507.html#a3951c5b11bab0eeb9b06c1e19b25c036">HalaaNPCS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/a02510.html#a3428675268608e5372767fc629259d5c">halaaNPCAlly</a></td></tr>
-<tr class="separator:a3428675268608e5372767fc629259d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a412286b689bd324fedd65ddd8dde8afb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc7/a09312.html">ObjectData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/a02510.html#a412286b689bd324fedd65ddd8dde8afb">creatureData</a> []</td></tr>
+<tr class="separator:a412286b689bd324fedd65ddd8dde8afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a03015585e7619177355fefd05f85e1c7" name="a03015585e7619177355fefd05f85e1c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03015585e7619177355fefd05f85e1c7">&#9670;&#160;</a></span>AddSC_outdoorpvp_na()</h2>
+<a id="a41772e574e8da2d2009384c1f312ed92" name="a41772e574e8da2d2009384c1f312ed92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41772e574e8da2d2009384c1f312ed92">&#9670;&#160;</a></span>AddSC_instance_the_slave_pens()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_outdoorpvp_na </td>
+          <td class="memname">void AddSC_instance_the_slave_pens </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  927</span>{</div>
-<div class="line"><span class="lineno">  928</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d44/a22487.html">OutdoorPvP_nagrand</a>();</div>
-<div class="line"><span class="lineno">  929</span>    <a class="code hl_define" href="../../df/d28/a03821.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d4/d4c/a22491.html">outdoorpvp_na_halaa_creatures</a>);</div>
-<div class="line"><span class="lineno">  930</span>}</div>
-<div class="ttc" id="aa03821_html_a5e7352841895df7117e2830448eb533f"><div class="ttname"><a href="../../df/d28/a03821.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a></div><div class="ttdeci">#define RegisterCreatureAI(ai_name)</div><div class="ttdef"><b>Definition:</b> CreatureScript.h:71</div></div>
-<div class="ttc" id="aa22487_html"><div class="ttname"><a href="../../dd/d44/a22487.html">OutdoorPvP_nagrand</a></div><div class="ttdef"><b>Definition:</b> OutdoorPvPNA.cpp:878</div></div>
-<div class="ttc" id="aa22491_html"><div class="ttname"><a href="../../d4/d4c/a22491.html">outdoorpvp_na_halaa_creatures</a></div><div class="ttdef"><b>Definition:</b> OutdoorPvPNA.cpp:889</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  179</span>{</div>
+<div class="line"><span class="lineno">  180</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/d0e/a23288.html">instance_the_slave_pens</a>();</div>
+<div class="line"><span class="lineno">  181</span>}</div>
+<div class="ttc" id="aa23288_html"><div class="ttname"><a href="../../d2/d0e/a23288.html">instance_the_slave_pens</a></div><div class="ttdef"><b>Definition:</b> instance_the_slave_pens.cpp:48</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00071">RegisterCreatureAI</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00029">AddOutdoorPvPScripts()</a>.</p>
-
-</div>
-</div>
-<a id="ab1d33448696056a0951a0c306a511f1e" name="ab1d33448696056a0951a0c306a511f1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1d33448696056a0951a0c306a511f1e">&#9670;&#160;</a></span>FlagPlayerPvP()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void FlagPlayerPvP </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/d11/a08359.html">Player</a> *&#160;</td>
-          <td class="paramname"><em>player</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  396</span>{</div>
-<div class="line"><span class="lineno">  397</span>    player-&gt;<a class="code hl_function" href="../../d3/d11/a08359.html#a190ebc08c3d5bc837ea312c7901db505">SetPlayerFlag</a>(<a class="code hl_enumvalue" href="../../d7/de8/a02858.html#a3ff501fa2c348b8887c3e9eac3ab7dcda3545e357a3349ee42fad9ec871660880">PLAYER_FLAGS_IN_PVP</a>);</div>
-<div class="line"><span class="lineno">  398</span>    player-&gt;<a class="code hl_function" href="../../d3/d11/a08359.html#a2f8909f36282889342c505016e76e98e">UpdatePvP</a>(<span class="keyword">true</span>, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  399</span>}</div>
-<div class="ttc" id="aa02858_html_a3ff501fa2c348b8887c3e9eac3ab7dcda3545e357a3349ee42fad9ec871660880"><div class="ttname"><a href="../../d7/de8/a02858.html#a3ff501fa2c348b8887c3e9eac3ab7dcda3545e357a3349ee42fad9ec871660880">PLAYER_FLAGS_IN_PVP</a></div><div class="ttdeci">@ PLAYER_FLAGS_IN_PVP</div><div class="ttdef"><b>Definition:</b> Player.h:483</div></div>
-<div class="ttc" id="aa08359_html_a190ebc08c3d5bc837ea312c7901db505"><div class="ttname"><a href="../../d3/d11/a08359.html#a190ebc08c3d5bc837ea312c7901db505">Player::SetPlayerFlag</a></div><div class="ttdeci">void SetPlayerFlag(PlayerFlags flags)</div><div class="ttdef"><b>Definition:</b> Player.h:1108</div></div>
-<div class="ttc" id="aa08359_html_a2f8909f36282889342c505016e76e98e"><div class="ttname"><a href="../../d3/d11/a08359.html#a2f8909f36282889342c505016e76e98e">Player::UpdatePvP</a></div><div class="ttdeci">void UpdatePvP(bool state, bool _override=false)</div><div class="ttdef"><b>Definition:</b> PlayerUpdates.cpp:1480</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00483">PLAYER_FLAGS_IN_PVP</a>, <a class="el" href="../../#l01108">Player::SetPlayerFlag()</a>, and <a class="el" href="../../#l01480">Player::UpdatePvP()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00401">OPvPCapturePointNA::HandleCustomSpell()</a>, and <a class="el" href="../../#l00471">OPvPCapturePointNA::HandleOpenGo()</a>.</p>
-
-</div>
-</div>
-<a id="a37af66c813e135cc11bd1dc663b35697" name="a37af66c813e135cc11bd1dc663b35697"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37af66c813e135cc11bd1dc663b35697">&#9670;&#160;</a></span>UpdateCreatureHalaa()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void UpdateCreatureHalaa </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d21/a08163.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td>
-          <td class="paramname"><em>spawnId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d5/dec/a09507.html">Map</a> *&#160;</td>
-          <td class="paramname"><em>map</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   85</span>{</div>
-<div class="line"><span class="lineno">   86</span>    <a class="code hl_struct" href="../../d2/dc5/a07795.html">CreatureData</a>&amp; data = <a class="code hl_define" href="../../da/dcd/a02987.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;NewOrExistCreatureData(spawnId);</div>
-<div class="line"><span class="lineno">   87</span> </div>
-<div class="line"><span class="lineno">   88</span>    <a class="code hl_define" href="../../da/dcd/a02987.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;AddCreatureToGrid(spawnId, &amp;data);</div>
-<div class="line"><span class="lineno">   89</span> </div>
-<div class="line"><span class="lineno">   90</span>    <span class="comment">// Spawn if necessary (loaded grids only)</span></div>
-<div class="line"><span class="lineno">   91</span>    <span class="keywordflow">if</span> (!map-&gt;<a class="code hl_function" href="../../d5/dec/a09507.html#aae3a929aefb05046ef304ffba10aae71">Instanceable</a>() &amp;&amp; !map-&gt;<a class="code hl_function" href="../../d5/dec/a09507.html#a67e1165ed4d54e42cb7bb45eeb44c9ec">IsRemovalGrid</a>(x, y))</div>
-<div class="line"><span class="lineno">   92</span>    {</div>
-<div class="line"><span class="lineno">   93</span>        <a class="code hl_class" href="../../d1/ddf/a07743.html">Creature</a>* creature = <span class="keyword">new</span> <a class="code hl_class" href="../../d1/ddf/a07743.html">Creature</a>();</div>
-<div class="line"><span class="lineno">   94</span>        <span class="keywordflow">if</span> (!creature-&gt;<a class="code hl_function" href="../../d1/ddf/a07743.html#a224f40a0c8521ce5a63064cd00be618e">LoadCreatureFromDB</a>(spawnId, map, <span class="keyword">true</span>, <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">   95</span>        {</div>
-<div class="line"><span class="lineno">   96</span>            <a class="code hl_define" href="../../d6/d7d/a00161.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;AddCreature: Cannot add creature spawnId {} to map&quot;</span>, spawnId);</div>
-<div class="line"><span class="lineno">   97</span>            <span class="keyword">delete</span> creature;</div>
-<div class="line"><span class="lineno">   98</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">   99</span>        }</div>
-<div class="line"><span class="lineno">  100</span>    }</div>
-<div class="line"><span class="lineno">  101</span>}</div>
-<div class="ttc" id="aa00161_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d6/d7d/a00161.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:156</div></div>
-<div class="ttc" id="aa02987_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../da/dcd/a02987.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1623</div></div>
-<div class="ttc" id="aa07743_html"><div class="ttname"><a href="../../d1/ddf/a07743.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
-<div class="ttc" id="aa07743_html_a224f40a0c8521ce5a63064cd00be618e"><div class="ttname"><a href="../../d1/ddf/a07743.html#a224f40a0c8521ce5a63064cd00be618e">Creature::LoadCreatureFromDB</a></div><div class="ttdeci">bool LoadCreatureFromDB(ObjectGuid::LowType guid, Map *map, bool addToMap=true, bool allowDuplicate=false)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:1685</div></div>
-<div class="ttc" id="aa07795_html"><div class="ttname"><a href="../../d2/dc5/a07795.html">CreatureData</a></div><div class="ttdef"><b>Definition:</b> CreatureData.h:373</div></div>
-<div class="ttc" id="aa09507_html_a67e1165ed4d54e42cb7bb45eeb44c9ec"><div class="ttname"><a href="../../d5/dec/a09507.html#a67e1165ed4d54e42cb7bb45eeb44c9ec">Map::IsRemovalGrid</a></div><div class="ttdeci">bool IsRemovalGrid(float x, float y) const</div><div class="ttdef"><b>Definition:</b> Map.h:363</div></div>
-<div class="ttc" id="aa09507_html_aae3a929aefb05046ef304ffba10aae71"><div class="ttname"><a href="../../d5/dec/a09507.html#aae3a929aefb05046ef304ffba10aae71">Map::Instanceable</a></div><div class="ttdeci">bool Instanceable() const</div><div class="ttdef"><b>Definition:</b> Map.h:447</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00447">Map::Instanceable()</a>, <a class="el" href="../../#l00363">Map::IsRemovalGrid()</a>, <a class="el" href="../../#l01685">Creature::LoadCreatureFromDB()</a>, <a class="el" href="../../#l00156">LOG_ERROR</a>, and <a class="el" href="../../#l01623">sObjectMgr</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00144">OPvPCapturePointNA::SpawnNPCsForTeam()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00122">AddOutlandScripts()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a3428675268608e5372767fc629259d5c" name="a3428675268608e5372767fc629259d5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3428675268608e5372767fc629259d5c">&#9670;&#160;</a></span>halaaNPCAlly</h2>
+<a id="a412286b689bd324fedd65ddd8dde8afb" name="a412286b689bd324fedd65ddd8dde8afb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a412286b689bd324fedd65ddd8dde8afb">&#9670;&#160;</a></span>creatureData</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/dbd/a02507.html#a3951c5b11bab0eeb9b06c1e19b25c036">HalaaNPCS</a> halaaNPCAlly</td>
+          <td class="memname"><a class="el" href="../../dd/dc7/a09312.html">ObjectData</a> const creatureData[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00190">OPvPCapturePointNA::FactionTakeOver()</a>, <a class="el" href="../../#l00601">OPvPCapturePointNA::Update()</a>, and <a class="el" href="../../#l00892">outdoorpvp_na_halaa_creatures::UpdateAI()</a>.</p>
-
-</div>
-</div>
-<a id="a531a4e8a5291c048ad0f3b0fc64b29d9" name="a531a4e8a5291c048ad0f3b0fc64b29d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a531a4e8a5291c048ad0f3b0fc64b29d9">&#9670;&#160;</a></span>halaaNPCHorde</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/dbd/a02507.html#a3951c5b11bab0eeb9b06c1e19b25c036">HalaaNPCS</a> halaaNPCHorde</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00190">OPvPCapturePointNA::FactionTakeOver()</a>, <a class="el" href="../../#l00601">OPvPCapturePointNA::Update()</a>, and <a class="el" href="../../#l00892">outdoorpvp_na_halaa_creatures::UpdateAI()</a>.</p>
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9a242cb62e9ac4171ea8f0e23267fde9a6">NPC_QUAGMIRRAN</a>,               <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33a996c3d733a334ff43a5c3db4cfc2cdd4">DATA_QUAGMIRRAN</a>        },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9a7b52f920d935d156de587e3d4788b10d">NPC_AHUNE</a>,                    <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33a7db315b7ae5f43fb479e2d2759714d08">DATA_AHUNE</a>             },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9ac37335e6968f0005aa445f3a474d938d">NPC_AHUNE_LOC_BUNNY</a>,          <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33a17cb4e91ea780c7c647787360cdf3d10">DATA_AHUNE_BUNNY</a>       },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9a4ae7ea256d2502a30f8011100a6c1acd">NPC_FROZEN_CORE</a>,              <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33a7465fb1fdde84dec6aa67a9532f96178">DATA_FROZEN_CORE</a>       },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9ad7221cf7270ee3529dd08d512ba11c7b">NPC_SHAMAN_BONFIRE_BUNNY_000</a>, <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33a010b5719726313aa294ff8c5a6304dce">DATA_BONFIRE_BUNNY_000</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9a0385169e92f230f8fcbbb5339cf2073a">NPC_SHAMAN_BONFIRE_BUNNY_001</a>, <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33ac7f468760925e95b552ffcfc8f29ec22">DATA_BONFIRE_BUNNY_001</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9abefeecf6f36b5a0f870f1d704e1e0c66">NPC_SHAMAN_BONFIRE_BUNNY_002</a>, <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33aedc5988e0e5a570a3023cab44f9665cc">DATA_BONFIRE_BUNNY_002</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9a44667bf4ca952b0377f5309a61fb8ff5">NPC_SHAMAN_BEAM_BUNNY_000</a>,    <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33aec05cd253367d24f1277428b2889fe1e">DATA_BEAM_BUNNY_000</a>    },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9a0d5020c204e75b61afaec1ae09353771">NPC_SHAMAN_BEAM_BUNNY_001</a>,    <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33a8e8a822ec2e70bc4e565506318e71a2b">DATA_BEAM_BUNNY_001</a>    },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9afd502a4325dd30dc41b02789a3a9cc8f">NPC_SHAMAN_BEAM_BUNNY_002</a>,    <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33a0213f3a9c9a0c68ab4296da965b2407f">DATA_BEAM_BUNNY_002</a>    },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9ae354c44597fa3888483aad4f29b35a34">NPC_LUMA_SKYMOTHER</a>,           <a class="code hl_enumvalue" href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33adfc20cd7d13d2b98dcd69991b2142f5d">DATA_LUMA_SKYMOTHER</a>    },</div>
+<div class="line">    { 0,                            0                      }</div>
+<div class="line">}</div>
+<div class="ttc" id="aa02501_html_a0949b9d87e6cb0f614b4259c55978bf9a0385169e92f230f8fcbbb5339cf2073a"><div class="ttname"><a href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9a0385169e92f230f8fcbbb5339cf2073a">NPC_SHAMAN_BONFIRE_BUNNY_001</a></div><div class="ttdeci">@ NPC_SHAMAN_BONFIRE_BUNNY_001</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:62</div></div>
+<div class="ttc" id="aa02501_html_a0949b9d87e6cb0f614b4259c55978bf9a0d5020c204e75b61afaec1ae09353771"><div class="ttname"><a href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9a0d5020c204e75b61afaec1ae09353771">NPC_SHAMAN_BEAM_BUNNY_001</a></div><div class="ttdeci">@ NPC_SHAMAN_BEAM_BUNNY_001</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:65</div></div>
+<div class="ttc" id="aa02501_html_a0949b9d87e6cb0f614b4259c55978bf9a242cb62e9ac4171ea8f0e23267fde9a6"><div class="ttname"><a href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9a242cb62e9ac4171ea8f0e23267fde9a6">NPC_QUAGMIRRAN</a></div><div class="ttdeci">@ NPC_QUAGMIRRAN</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:71</div></div>
+<div class="ttc" id="aa02501_html_a0949b9d87e6cb0f614b4259c55978bf9a44667bf4ca952b0377f5309a61fb8ff5"><div class="ttname"><a href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9a44667bf4ca952b0377f5309a61fb8ff5">NPC_SHAMAN_BEAM_BUNNY_000</a></div><div class="ttdeci">@ NPC_SHAMAN_BEAM_BUNNY_000</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:64</div></div>
+<div class="ttc" id="aa02501_html_a0949b9d87e6cb0f614b4259c55978bf9a4ae7ea256d2502a30f8011100a6c1acd"><div class="ttname"><a href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9a4ae7ea256d2502a30f8011100a6c1acd">NPC_FROZEN_CORE</a></div><div class="ttdeci">@ NPC_FROZEN_CORE</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:52</div></div>
+<div class="ttc" id="aa02501_html_a0949b9d87e6cb0f614b4259c55978bf9a7b52f920d935d156de587e3d4788b10d"><div class="ttname"><a href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9a7b52f920d935d156de587e3d4788b10d">NPC_AHUNE</a></div><div class="ttdeci">@ NPC_AHUNE</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:51</div></div>
+<div class="ttc" id="aa02501_html_a0949b9d87e6cb0f614b4259c55978bf9abefeecf6f36b5a0f870f1d704e1e0c66"><div class="ttname"><a href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9abefeecf6f36b5a0f870f1d704e1e0c66">NPC_SHAMAN_BONFIRE_BUNNY_002</a></div><div class="ttdeci">@ NPC_SHAMAN_BONFIRE_BUNNY_002</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:63</div></div>
+<div class="ttc" id="aa02501_html_a0949b9d87e6cb0f614b4259c55978bf9ac37335e6968f0005aa445f3a474d938d"><div class="ttname"><a href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9ac37335e6968f0005aa445f3a474d938d">NPC_AHUNE_LOC_BUNNY</a></div><div class="ttdeci">@ NPC_AHUNE_LOC_BUNNY</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:59</div></div>
+<div class="ttc" id="aa02501_html_a0949b9d87e6cb0f614b4259c55978bf9ad7221cf7270ee3529dd08d512ba11c7b"><div class="ttname"><a href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9ad7221cf7270ee3529dd08d512ba11c7b">NPC_SHAMAN_BONFIRE_BUNNY_000</a></div><div class="ttdeci">@ NPC_SHAMAN_BONFIRE_BUNNY_000</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:61</div></div>
+<div class="ttc" id="aa02501_html_a0949b9d87e6cb0f614b4259c55978bf9ae354c44597fa3888483aad4f29b35a34"><div class="ttname"><a href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9ae354c44597fa3888483aad4f29b35a34">NPC_LUMA_SKYMOTHER</a></div><div class="ttdeci">@ NPC_LUMA_SKYMOTHER</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:58</div></div>
+<div class="ttc" id="aa02501_html_a0949b9d87e6cb0f614b4259c55978bf9afd502a4325dd30dc41b02789a3a9cc8f"><div class="ttname"><a href="../../d1/df7/a02501.html#a0949b9d87e6cb0f614b4259c55978bf9afd502a4325dd30dc41b02789a3a9cc8f">NPC_SHAMAN_BEAM_BUNNY_002</a></div><div class="ttdeci">@ NPC_SHAMAN_BEAM_BUNNY_002</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:66</div></div>
+<div class="ttc" id="aa02501_html_a4d50a813b257ac5428d26a240d41fd33a010b5719726313aa294ff8c5a6304dce"><div class="ttname"><a href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33a010b5719726313aa294ff8c5a6304dce">DATA_BONFIRE_BUNNY_000</a></div><div class="ttdeci">@ DATA_BONFIRE_BUNNY_000</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:40</div></div>
+<div class="ttc" id="aa02501_html_a4d50a813b257ac5428d26a240d41fd33a0213f3a9c9a0c68ab4296da965b2407f"><div class="ttname"><a href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33a0213f3a9c9a0c68ab4296da965b2407f">DATA_BEAM_BUNNY_002</a></div><div class="ttdeci">@ DATA_BEAM_BUNNY_002</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:45</div></div>
+<div class="ttc" id="aa02501_html_a4d50a813b257ac5428d26a240d41fd33a17cb4e91ea780c7c647787360cdf3d10"><div class="ttname"><a href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33a17cb4e91ea780c7c647787360cdf3d10">DATA_AHUNE_BUNNY</a></div><div class="ttdeci">@ DATA_AHUNE_BUNNY</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:35</div></div>
+<div class="ttc" id="aa02501_html_a4d50a813b257ac5428d26a240d41fd33a7465fb1fdde84dec6aa67a9532f96178"><div class="ttname"><a href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33a7465fb1fdde84dec6aa67a9532f96178">DATA_FROZEN_CORE</a></div><div class="ttdeci">@ DATA_FROZEN_CORE</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:36</div></div>
+<div class="ttc" id="aa02501_html_a4d50a813b257ac5428d26a240d41fd33a7db315b7ae5f43fb479e2d2759714d08"><div class="ttname"><a href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33a7db315b7ae5f43fb479e2d2759714d08">DATA_AHUNE</a></div><div class="ttdeci">@ DATA_AHUNE</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:33</div></div>
+<div class="ttc" id="aa02501_html_a4d50a813b257ac5428d26a240d41fd33a8e8a822ec2e70bc4e565506318e71a2b"><div class="ttname"><a href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33a8e8a822ec2e70bc4e565506318e71a2b">DATA_BEAM_BUNNY_001</a></div><div class="ttdeci">@ DATA_BEAM_BUNNY_001</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:44</div></div>
+<div class="ttc" id="aa02501_html_a4d50a813b257ac5428d26a240d41fd33a996c3d733a334ff43a5c3db4cfc2cdd4"><div class="ttname"><a href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33a996c3d733a334ff43a5c3db4cfc2cdd4">DATA_QUAGMIRRAN</a></div><div class="ttdeci">@ DATA_QUAGMIRRAN</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:32</div></div>
+<div class="ttc" id="aa02501_html_a4d50a813b257ac5428d26a240d41fd33ac7f468760925e95b552ffcfc8f29ec22"><div class="ttname"><a href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33ac7f468760925e95b552ffcfc8f29ec22">DATA_BONFIRE_BUNNY_001</a></div><div class="ttdeci">@ DATA_BONFIRE_BUNNY_001</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:41</div></div>
+<div class="ttc" id="aa02501_html_a4d50a813b257ac5428d26a240d41fd33adfc20cd7d13d2b98dcd69991b2142f5d"><div class="ttname"><a href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33adfc20cd7d13d2b98dcd69991b2142f5d">DATA_LUMA_SKYMOTHER</a></div><div class="ttdeci">@ DATA_LUMA_SKYMOTHER</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:46</div></div>
+<div class="ttc" id="aa02501_html_a4d50a813b257ac5428d26a240d41fd33aec05cd253367d24f1277428b2889fe1e"><div class="ttname"><a href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33aec05cd253367d24f1277428b2889fe1e">DATA_BEAM_BUNNY_000</a></div><div class="ttdeci">@ DATA_BEAM_BUNNY_000</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:43</div></div>
+<div class="ttc" id="aa02501_html_a4d50a813b257ac5428d26a240d41fd33aedc5988e0e5a570a3023cab44f9665cc"><div class="ttname"><a href="../../d1/df7/a02501.html#a4d50a813b257ac5428d26a240d41fd33aedc5988e0e5a570a3023cab44f9665cc">DATA_BONFIRE_BUNNY_002</a></div><div class="ttdeci">@ DATA_BONFIRE_BUNNY_002</div><div class="ttdef"><b>Definition:</b> the_slave_pens.h:42</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00054">instance_the_slave_pens::instance_the_slave_pens_InstanceMapScript::instance_the_slave_pens_InstanceMapScript()</a>.</p>
 
 </div>
 </div>
@@ -314,8 +219,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ad9d2bd1e1e418dea010d25c4d4f5d3.html">OutdoorPvP</a></li><li class="navelem"><a class="el" href="../../dd/df4/a02510.html">OutdoorPvPNA.cpp</a></li>
-    <li class="footer">Generated on Tue Aug 27 2024 10:00:09 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_aa56e8ce1c3e0d32a59f1a16b86dbc72.html">Outland</a></li><li class="navelem"><a class="el" href="../../dir_22de0d38c781b430619603c756a2179f.html">CoilfangReservoir</a></li><li class="navelem"><a class="el" href="../../dir_590b16d6d046219e2ca98c1d401615fd.html">SlavePens</a></li><li class="navelem"><a class="el" href="../../dd/df4/a02510.html">instance_the_slave_pens.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 2 2024 20:39:40 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

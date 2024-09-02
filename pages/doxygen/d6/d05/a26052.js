@@ -1,9 +1,10 @@
 var a26052 =
 [
-    [ "npc_aeranasAI", "d6/d05/a26052.html#a2142cebc84e64919fa5c2ef630453282", null ],
-    [ "Reset", "d6/d05/a26052.html#a2c1bbe079c065745782adfa13b030515", null ],
-    [ "UpdateAI", "d6/d05/a26052.html#ae192a3b38c0ec65cddfce3b95d15555a", null ],
-    [ "envelopingWinds_Timer", "d6/d05/a26052.html#a566b5d648abe630efc191f9d6d4938a2", null ],
-    [ "faction_Timer", "d6/d05/a26052.html#aac071887c100f91cc7ffc545ea6439d9", null ],
-    [ "shock_Timer", "d6/d05/a26052.html#aba8ad016f0e470b07163fef07b603380", null ]
+    [ "CheckCast", "d6/d05/a26052.html#a49676a65c99a9a2d99ad78fee54d2302", null ],
+    [ "HandleScript", "d6/d05/a26052.html#a35b9d69b8147ef06527b8533ef376e72", null ],
+    [ "Load", "d6/d05/a26052.html#a25c373762375f207e6c3ba0a18d4a6e7", null ],
+    [ "PrepareSpellScript", "d6/d05/a26052.html#a31d3339531f75dfa0ca3a339d34d3012", null ],
+    [ "Register", "d6/d05/a26052.html#afd716f555ac73287bd268c6124b15b1c", null ],
+    [ "Validate", "d6/d05/a26052.html#a0938262e1f45821b9fbef42f5c96cc56", null ],
+    [ "_manaAmount", "d6/d05/a26052.html#add7d1cdf3abca0ada57cd719ad22602a", null ]
 ];

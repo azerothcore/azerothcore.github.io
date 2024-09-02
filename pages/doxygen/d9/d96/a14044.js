@@ -1,6 +1,6 @@
 var a14044 =
 [
-    [ "boss_venoxisAI", "d9/dc8/a14048.html", "d9/dc8/a14048" ],
-    [ "boss_venoxis", "d9/d96/a14044.html#adb00beb0084f79f34b55a6726d34c7af", null ],
-    [ "GetAI", "d9/d96/a14044.html#a42a2f7d91919be74491b0a00e8e1e505", null ]
+    [ "CheckItem", "d9/d96/a14044.html#a71f8c9bad4a102914a1047ef61d20f92", null ],
+    [ "PrepareSpellScript", "d9/d96/a14044.html#a0fa160f1218cf838444f894716cb8aed", null ],
+    [ "Register", "d9/d96/a14044.html#a2a6816d9ab97abddfa20cd6413a94178", null ]
 ];

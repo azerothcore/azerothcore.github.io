@@ -1,17 +1,17 @@
 var a16780 =
 [
-    [ "boss_gormokAI", "d6/de7/a16780.html#aff3dab2b81e39198ca84330e6094aa8e", null ],
-    [ "DoAction", "d6/de7/a16780.html#ac335bc89ad58f80a2e8db2dd8a31e2c9", null ],
-    [ "EnterEvadeMode", "d6/de7/a16780.html#a244f37a3c6a1037100de20a074c74a63", null ],
-    [ "JustDied", "d6/de7/a16780.html#a3fa8eb85ce94273b30f1f3d2de3527bd", null ],
-    [ "JustEngagedWith", "d6/de7/a16780.html#a7310e20839a7a57f65d97c5d0b8fa796", null ],
-    [ "JustReachedHome", "d6/de7/a16780.html#a3cec01072fe761e4b5141255eed08d9e", null ],
-    [ "JustSummoned", "d6/de7/a16780.html#a5e2efeace2d5f6b58f023b4ff23d93cf", null ],
-    [ "MoveInLineOfSight", "d6/de7/a16780.html#a278b8ce2e656a2e6e7882de87ec2ff9c", null ],
-    [ "Reset", "d6/de7/a16780.html#a277293d51fbaa54f9deea49af7602ae2", null ],
-    [ "UpdateAI", "d6/de7/a16780.html#adf5d8f5a9e275f12da122701f0606083", null ],
-    [ "events", "d6/de7/a16780.html#ad74b771ba3f84e7dc5b038559c4e7bbb", null ],
-    [ "pInstance", "d6/de7/a16780.html#a0421082f444bc4234012362b92cac132", null ],
-    [ "PlayerGUID", "d6/de7/a16780.html#ac3cddf6197c638289f6841740b78bd88", null ],
-    [ "summons", "d6/de7/a16780.html#a84c1fa0cc33bee6747fa9b4f0517cdc8", null ]
+    [ "npc_hor_lich_kingAI", "d6/de7/a16780.html#a689fd445286595780c3d842976a5913f", null ],
+    [ "DoAction", "d6/de7/a16780.html#a904a57d99527b6ff47d4f9ab8751a4a5", null ],
+    [ "JustSummoned", "d6/de7/a16780.html#aed675a5238ca6a6312d1758ecbe86aa2", null ],
+    [ "MovementInform", "d6/de7/a16780.html#aeeea82d3e5869e5f604314474533975c", null ],
+    [ "Reset", "d6/de7/a16780.html#a1f1bb445ea29daaf479e7171c96db901", null ],
+    [ "SpellHitTarget", "d6/de7/a16780.html#adcee3757198acfaf4fd4dc8765b86a98", null ],
+    [ "SummonedCreatureDespawn", "d6/de7/a16780.html#a1f3a49cd9e1f9c1013a7c5c2ead3bb3d", null ],
+    [ "UpdateAI", "d6/de7/a16780.html#a127cc66ea4804da51eb9069037b9ba33", null ],
+    [ "currentWall", "d6/de7/a16780.html#a13c505b17edf9f843c6c638802eb62aa", null ],
+    [ "div2", "d6/de7/a16780.html#a63a1741fba6e0fecaf9aac6b6c397acf", null ],
+    [ "events", "d6/de7/a16780.html#a06550732cba84da4cbd708d03a7bd6bb", null ],
+    [ "pInstance", "d6/de7/a16780.html#a5c8ce256ab8e71705bc8d84f08245417", null ],
+    [ "reqKillCount", "d6/de7/a16780.html#a69da5432ed2b4ef9944fbd19c97d404d", null ],
+    [ "summons", "d6/de7/a16780.html#af55dd229cd141ffab701c6ab77304127", null ]
 ];

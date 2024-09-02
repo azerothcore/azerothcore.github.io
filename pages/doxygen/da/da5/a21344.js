@@ -1,8 +1,6 @@
 var a21344 =
 [
-    [ "npc_ulduar_saronite_animusAI", "da/da5/a21344.html#a2b94427feb24a7bda075b6a8f403433a", null ],
-    [ "JustDied", "da/da5/a21344.html#a30abcab01de3732bc5525864576615b0", null ],
-    [ "UpdateAI", "da/da5/a21344.html#a1490961adc8fc03ab28a992aff55b43b", null ],
-    [ "pInstance", "da/da5/a21344.html#a5d3b297355f286b0ad08ed38dbd5b0d2", null ],
-    [ "timer", "da/da5/a21344.html#a3d0345d4c503eb3f0e4acbe346f1c5e5", null ]
+    [ "npc_vh_teleportation_portalAI", "d2/d10/a21348.html", "d2/d10/a21348" ],
+    [ "npc_vh_teleportation_portal", "da/da5/a21344.html#a9a554058f594f992a17dbb3887117a6f", null ],
+    [ "GetAI", "da/da5/a21344.html#a0721c64c01ae69bd78dfc15637c97f49", null ]
 ];

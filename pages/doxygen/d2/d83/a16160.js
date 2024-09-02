@@ -1,5 +1,6 @@
 var a16160 =
 [
-    [ "at_baltharus_plateau", "d2/d83/a16160.html#ac7acc8816b298446ac9bb8d6b82f27b6", null ],
-    [ "OnTrigger", "d2/d83/a16160.html#aea08e30eb57d5d84b78b8891c4a45afb", null ]
+    [ "npc_frost_sphereAI", "df/dac/a16164.html", "df/dac/a16164" ],
+    [ "npc_frost_sphere", "d2/d83/a16160.html#a0256ba1c53853307f8b66e22b10bef24", null ],
+    [ "GetAI", "d2/d83/a16160.html#a3e6de3551306fb4c35aabbd4fc656ee6", null ]
 ];

@@ -1,10 +1,23 @@
 var a00101 =
 [
-    [ "VMAP::ModelSpawn", "dd/d63/a04959.html", "dd/d63/a04959" ],
-    [ "VMAP::ModelInstance", "d5/d18/a04963.html", "d5/d18/a04963" ],
-    [ "ModelFlags", "d4/d3a/a00101.html#ac540ff16efadcc07eeb9d8511b94ccce", [
-      [ "MOD_M2", "d4/d3a/a00101.html#ac540ff16efadcc07eeb9d8511b94ccceadfad2b6f6278e720b00314cd5117b673", null ],
-      [ "MOD_WORLDSPAWN", "d4/d3a/a00101.html#ac540ff16efadcc07eeb9d8511b94cccea3a6165ebc7b838e28ef59670dc84dc46", null ],
-      [ "MOD_HAS_BOUND", "d4/d3a/a00101.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09", null ]
+    [ "CreatureTextEntry", "de/d93/a11072.html", "de/d93/a11072" ],
+    [ "CreatureTextLocale", "d0/df3/a11076.html", "d0/df3/a11076" ],
+    [ "CreatureTextId", "db/d6e/a11080.html", "db/d6e/a11080" ],
+    [ "CreatureTextMgr", "da/de1/a11084.html", "da/de1/a11084" ],
+    [ "CreatureTextLocalizer< Builder >", "dc/d2c/a11088.html", "dc/d2c/a11088" ],
+    [ "sCreatureTextMgr", "d4/d3a/a00101.html#a2dc428da007cefe454220dcb355a1cde", null ],
+    [ "CreatureTextGroup", "d4/d3a/a00101.html#a9baeb5ff5e542c90d9058942cf0b4bbd", null ],
+    [ "CreatureTextHolder", "d4/d3a/a00101.html#aad09b58ddf486cb766cdeb242824cd2d", null ],
+    [ "CreatureTextMap", "d4/d3a/a00101.html#ac48698bcbe36b82577c41f42f3f23f09", null ],
+    [ "CreatureTextRepeatGroup", "d4/d3a/a00101.html#aa92b7ce1a721a3955751ae25cf01b22a", null ],
+    [ "CreatureTextRepeatIds", "d4/d3a/a00101.html#a4a74e5d0af63228e47e1f663570018ae", null ],
+    [ "CreatureTextRepeatMap", "d4/d3a/a00101.html#a919aeba9f103d29372eb10a72f3b1142", null ],
+    [ "LocaleCreatureTextMap", "d4/d3a/a00101.html#ab39b2d82775a84108d19ed009bd14747", null ],
+    [ "CreatureTextRange", "d4/d3a/a00101.html#adf847039afbebeda9e21210c1f4eb052", [
+      [ "TEXT_RANGE_NORMAL", "d4/d3a/a00101.html#adf847039afbebeda9e21210c1f4eb052a649e811a5e8853fa24088dbb708ce9ab", null ],
+      [ "TEXT_RANGE_AREA", "d4/d3a/a00101.html#adf847039afbebeda9e21210c1f4eb052a1982e7a678f4ba541ea6ecbfec493385", null ],
+      [ "TEXT_RANGE_ZONE", "d4/d3a/a00101.html#adf847039afbebeda9e21210c1f4eb052a182bd5362916ba67bcf6660ce37fae0a", null ],
+      [ "TEXT_RANGE_MAP", "d4/d3a/a00101.html#adf847039afbebeda9e21210c1f4eb052a90bf8cfe8ac6e4bac224bd3dd9fbc3a3", null ],
+      [ "TEXT_RANGE_WORLD", "d4/d3a/a00101.html#adf847039afbebeda9e21210c1f4eb052a3a88078985d9e80a4543acf0acde52d9", null ]
     ] ]
 ];

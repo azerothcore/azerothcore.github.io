@@ -1,7 +1,12 @@
 var a13756 =
 [
-    [ "npc_janalai_eggAI", "da/d96/a13756.html#a75bf6d0c7fdb09ace4352cde99edda81", null ],
-    [ "Reset", "da/d96/a13756.html#aad93238c8c26d678da6df2d0191d3763", null ],
-    [ "SpellHit", "da/d96/a13756.html#a2e097705ad9710b22be38931df30bcc3", null ],
-    [ "UpdateAI", "da/d96/a13756.html#a4aa8bfac1e4584497d48097535cc77d3", null ]
+    [ "npc_zulian_prowlerAI", "da/d96/a13756.html#a367613efead335b060173011267ddcff", null ],
+    [ "JustDied", "da/d96/a13756.html#a31258aadddfbf6c6e9e1d729452dd8b2", null ],
+    [ "JustEngagedWith", "da/d96/a13756.html#a207504b15ecd22b78088593b80433581", null ],
+    [ "Reset", "da/d96/a13756.html#a62d14bae970d8a70a997c683e0e94259", null ],
+    [ "SpellHit", "da/d96/a13756.html#a4051cd786d8c1974cf80c28f907cc02a", null ],
+    [ "UpdateAI", "da/d96/a13756.html#a708df3a95395f99f6ba3eebcc90a22ab", null ],
+    [ "_events", "da/d96/a13756.html#a994ae5b4e72429141155d1342830e5ad", null ],
+    [ "_instance", "da/d96/a13756.html#ad37ba6b6ff7f52a88d2a96dc4ea00c34", null ],
+    [ "_sideData", "da/d96/a13756.html#afa44e09c5677c2fc567be6a67b766bde", null ]
 ];

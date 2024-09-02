@@ -1,5 +1,8 @@
 var a26488 =
 [
-    [ "npc_pet_dk_army_of_the_deadAI", "df/d43/a26488.html#a2d934ed807d225f6b9f2206f0556f26d", null ],
-    [ "InitializeAI", "df/d43/a26488.html#af3ecec126ed3d902acd4bfe979382307", null ]
+    [ "HandleDummy", "df/d43/a26488.html#a308880cf9c61c76de0fdee05fff2b463", null ],
+    [ "Load", "df/d43/a26488.html#acafb9d6ac4fde694dc44cbf13b7f97ad", null ],
+    [ "PrepareSpellScript", "df/d43/a26488.html#a3a2672c39f36229c0dd6cdea0fad3299", null ],
+    [ "Register", "df/d43/a26488.html#a1857b342ae34a57f079f45019645c688", null ],
+    [ "Validate", "df/d43/a26488.html#a121c30045281eab5fee4f65d38d1dfc3", null ]
 ];

@@ -1,10 +1,9 @@
 var a25672 =
 [
-    [ "boss_thorngrin_the_tender", "de/d3e/a25672.html#ad960b1084fc08d2870975c7c6c44ab2b", null ],
-    [ "JustDied", "de/d3e/a25672.html#a4bc13108f7cb240fedb44ccae2b54047", null ],
-    [ "JustEngagedWith", "de/d3e/a25672.html#a647ed5b29861b719d3c4a11fd110c512", null ],
-    [ "KilledUnit", "de/d3e/a25672.html#ab3731c5b56e1c01aa5d78d84a5e60234", null ],
-    [ "MoveInLineOfSight", "de/d3e/a25672.html#a9467e59287b3e917907de82507d1a16d", null ],
-    [ "Reset", "de/d3e/a25672.html#af3f1471cbcdadfe3a86421d7232fb4b9", null ],
-    [ "_intro", "de/d3e/a25672.html#a48fc89c7e9814d90a8724ca38c5e2fe8", null ]
+    [ "CheckProc", "de/d3e/a25672.html#a185159a5c83e8c65ef5b82f49a89dd8a", null ],
+    [ "HandleProc", "de/d3e/a25672.html#a67db21e0293f336a31bf518c0fac85d1", null ],
+    [ "OnRemove", "de/d3e/a25672.html#a1b51483738d5d3b73f50a78ef9fc1c57", null ],
+    [ "PrepareAuraScript", "de/d3e/a25672.html#a3e549b8764c0f8efc5d110543c9944c7", null ],
+    [ "Register", "de/d3e/a25672.html#abc4b88f104253b2b141ab0e3e22ee338", null ],
+    [ "Validate", "de/d3e/a25672.html#a0b5b97081b7c897d451ef70c810bd7f1", null ]
 ];

@@ -1,6 +1,7 @@
 var a16696 =
 [
-    [ "npc_toc_retro_paladinAI", "d3/d43/a16700.html", "d3/d43/a16700" ],
-    [ "npc_toc_retro_paladin", "d3/da2/a16696.html#abfb15148aefe186447cfdb3a2c8749c4", null ],
-    [ "GetAI", "d3/da2/a16696.html#a1213c99792aa4362275bc827aa2f037e", null ]
+    [ "OnRemove", "d3/da2/a16696.html#a4b95717cb19116b81f3eec798089abad", null ],
+    [ "PrepareAuraScript", "d3/da2/a16696.html#a581645fa151531aaf7b562a8739d5616", null ],
+    [ "Register", "d3/da2/a16696.html#a01304c556d79001e290707551bee7622", null ],
+    [ "Validate", "d3/da2/a16696.html#a96e4b9cae1f016bf87c9a09ceb6da561", null ]
 ];

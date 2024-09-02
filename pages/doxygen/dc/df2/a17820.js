@@ -1,9 +1,12 @@
 var a17820 =
 [
-    [ "FilterTargets", "dc/df2/a17820.html#acb90b79a26360dda7421c2121d08fd7e", null ],
-    [ "HandleScript", "dc/df2/a17820.html#a8d03b1f944bc5d62dff2f897ada85aaa", null ],
-    [ "Load", "dc/df2/a17820.html#a736e5f9ced806669bd006080dd5bd966", null ],
-    [ "PrepareSpellScript", "dc/df2/a17820.html#a46c653dbcddf4d4fd15af273f1269004", null ],
-    [ "Register", "dc/df2/a17820.html#a6ebd5058c6e1f5a9dd670d5a3484ba96", null ],
-    [ "Validate", "dc/df2/a17820.html#a28a1a182b6762727788b69fdcead93a3", null ]
+    [ "npc_big_oozeAI", "dc/df2/a17820.html#a3564ffec1ac0ac2c7e29b3c7a6b60958", null ],
+    [ "DoAction", "dc/df2/a17820.html#a6d39eb1f177e8670169f18fcfa2e3c4e", null ],
+    [ "EnterEvadeMode", "dc/df2/a17820.html#ad7251cda20f3e2821077d2327528fd2d", null ],
+    [ "IsSummonedBy", "dc/df2/a17820.html#a85d27ac9fb0b9dbb92b2b17a99eaa612", null ],
+    [ "JustDied", "dc/df2/a17820.html#a2372053a84715990fc7fce3d8e269265", null ],
+    [ "UpdateAI", "dc/df2/a17820.html#a2e1f52ca84363703d95da99ca93d3503", null ],
+    [ "events", "dc/df2/a17820.html#a54f3baa4767f8336ff4699de426aae61", null ],
+    [ "firstUpdate", "dc/df2/a17820.html#af5c34c976137e456d1779ca944f88639", null ],
+    [ "instance", "dc/df2/a17820.html#a788141bf9be03161741d01d0aa4fe227", null ]
 ];

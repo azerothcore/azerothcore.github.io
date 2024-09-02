@@ -1,6 +1,5 @@
 var a20476 =
 [
-    [ "npc_oculus_drakeAI", "d6/dfe/a20480.html", "d6/dfe/a20480" ],
-    [ "npc_oculus_drake", "d5/d7f/a20476.html#ad2897dd72e9337af53ef2f043cd07d55", null ],
-    [ "GetAI", "d5/d7f/a20476.html#afd2f1678a7faef76a231e4c16bd015e5", null ]
+    [ "achievement_iron_dwarf_medium_rare", "d5/d7f/a20476.html#afb3716aab7693ba0493db24999e4b1ee", null ],
+    [ "OnCheck", "d5/d7f/a20476.html#aabef3a345057265ac70c6cc0c98d552d", null ]
 ];

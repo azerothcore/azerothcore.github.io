@@ -1,6 +1,6 @@
 var a21340 =
 [
-    [ "npc_ulduar_saronite_animusAI", "da/da5/a21344.html", "da/da5/a21344" ],
-    [ "npc_ulduar_saronite_animus", "d8/d9d/a21340.html#a22d552adc9db3f7d2a533ab7f58a2470", null ],
-    [ "GetAI", "d8/d9d/a21340.html#a1fdd851e9d6e399f8f57d063a7dbd6d9", null ]
+    [ "npc_vh_sinclari", "d8/d9d/a21340.html#ad0235f207a3031420532174c04e0c348", null ],
+    [ "OnGossipHello", "d8/d9d/a21340.html#a95f0d094d417d9d6ce99d7c8aa83496f", null ],
+    [ "OnGossipSelect", "d8/d9d/a21340.html#af0a260d7868f601ae239c226b10d4de3", null ]
 ];

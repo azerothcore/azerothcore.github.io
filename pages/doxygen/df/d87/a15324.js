@@ -1,21 +1,10 @@
 var a15324 =
 [
-    [ "npc_rizzle_sprysprocketAI", "df/d87/a15324.html#a74b59a5721c46cddf13e9532a36f6a6d", null ],
-    [ "AttackStart", "df/d87/a15324.html#a87aa5e5e66f5f083829cf8dd78d9dc75", null ],
-    [ "JustEngagedWith", "df/d87/a15324.html#a9c39a4c8302fb507f9c7b09ebf871c5e", null ],
-    [ "MovementInform", "df/d87/a15324.html#a6ba4af8eee61bd6f562b25e096fcf0a8", null ],
-    [ "Reset", "df/d87/a15324.html#a060a25159570525af2d624f3f153eadf", null ],
-    [ "sGossipSelect", "df/d87/a15324.html#ab69a38bfe7a5b18b7f11b1f4df4c293a", null ],
-    [ "UpdateAI", "df/d87/a15324.html#ab2b1307113e4c91af94ea3ed4cbe8697", null ],
-    [ "CheckTimer", "df/d87/a15324.html#a2bb7b9a55427023156175bd2305a77fe", null ],
-    [ "ContinueWP", "df/d87/a15324.html#a85b90ae315a7957eba416d9c44f457ff", null ],
-    [ "CurrWP", "df/d87/a15324.html#acd4a2ef2157d47d3571d6c61d9dfdd4a", null ],
-    [ "Escape", "df/d87/a15324.html#a300700dc91eb4b49ec7cbf42c998feb4", null ],
-    [ "GrenadeTimer", "df/d87/a15324.html#ad43496d1ba134a19b49ecfae871f49ba", null ],
-    [ "MustDie", "df/d87/a15324.html#a8eae3901791679ef5609f929ddc83fc9", null ],
-    [ "MustDieTimer", "df/d87/a15324.html#a044f7c15ed58b67d02d6e1f6b76ad573", null ],
-    [ "PlayerGUID", "df/d87/a15324.html#a28482e22f80316de1b2e4ebd54875f13", null ],
-    [ "Reached", "df/d87/a15324.html#a1962eac2fa0403b965e5534d09bfc8a5", null ],
-    [ "SpellEscapeTimer", "df/d87/a15324.html#a4f2a0f04c8c126ac4ef31a45f74f7f77", null ],
-    [ "TeleportTimer", "df/d87/a15324.html#a4df0058661b6251c39497ee5b872c33e", null ]
+    [ "npc_omenAI", "df/d87/a15324.html#a042c0854b4cc08861fabbd347acbb9d7", null ],
+    [ "JustDied", "df/d87/a15324.html#a5a5d61081c2c59d637739de0f2fe39d4", null ],
+    [ "JustEngagedWith", "df/d87/a15324.html#aa2dbe46d16d7059c57876e000fcf1bb5", null ],
+    [ "MovementInform", "df/d87/a15324.html#a92e59bde1f0da2ee537a836304a3c385", null ],
+    [ "SpellHit", "df/d87/a15324.html#a4e3960d506fd0435de055a365906a9c9", null ],
+    [ "UpdateAI", "df/d87/a15324.html#a6f114ab4bbe3e6e1fd6d74da93a36027", null ],
+    [ "events", "df/d87/a15324.html#aaaaff29ffd8f216eb3e09b51a67f7321", null ]
 ];

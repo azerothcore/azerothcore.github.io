@@ -1,25 +1,7 @@
 var a17644 =
 [
-    [ "boss_prince_kelesethAI", "db/dbd/a17644.html#a5743d3b9db43e31b7de861338f657a3e", null ],
-    [ "AttackStart", "db/dbd/a17644.html#a48fa8a4094331da081e93470af5a34b4", null ],
-    [ "DamageDealt", "db/dbd/a17644.html#a534908423aeec2993c8260a09ab22692", null ],
-    [ "DamageTaken", "db/dbd/a17644.html#a5cc920075198e9dfdbfae94d32099392", null ],
-    [ "DoAction", "db/dbd/a17644.html#a32615a07ab4974923a9f8ed3fb6b5eb5", null ],
-    [ "EnterEvadeMode", "db/dbd/a17644.html#a812b4f1348c8c73b30cf48373602798c", null ],
-    [ "InitializeAI", "db/dbd/a17644.html#a89fe035de2076c7d82434a6b955ced3f", null ],
-    [ "JustDied", "db/dbd/a17644.html#adf0e15ab7cae6d73d0ac4d97d63de6b3", null ],
-    [ "JustEngagedWith", "db/dbd/a17644.html#a46179701796a35d3cfdbcd6bef481bfc", null ],
-    [ "JustReachedHome", "db/dbd/a17644.html#af9896279a3bdcdf78682aac943821e8a", null ],
-    [ "JustRespawned", "db/dbd/a17644.html#ae15f486fd0942f9f310b0b60cc29b288", null ],
-    [ "JustSummoned", "db/dbd/a17644.html#ae6a8cdf1ce40ab5898e4ab906d0ed41b", null ],
-    [ "KilledUnit", "db/dbd/a17644.html#a4bd0bc39045aa42c024489957bacb630", null ],
-    [ "Reset", "db/dbd/a17644.html#aac80ae1b85bde17ae6c71193f31df52e", null ],
-    [ "SpellHit", "db/dbd/a17644.html#a16265a5ba6d78302034b2a2804e59e24", null ],
-    [ "UpdateAI", "db/dbd/a17644.html#a68abd0f9cfe5dd0813d5e7e9b29e4914", null ],
-    [ "_canDie", "db/dbd/a17644.html#ae4492fa7c4e6fdab52e2a31c1a0b078a", null ],
-    [ "_evading", "db/dbd/a17644.html#a643617bf24bdc575e439bcf22a8dd050", null ],
-    [ "_isEmpowered", "db/dbd/a17644.html#a6caada5f7cd8afac81256f1ca6a57af7", null ],
-    [ "events", "db/dbd/a17644.html#acb14e5177a73ffe49c5113f5ea5ddf13", null ],
-    [ "instance", "db/dbd/a17644.html#a3eb78ce24d15d0a4df15cf4f19f78c00", null ],
-    [ "summons", "db/dbd/a17644.html#ad1e9ac4b158ee387369ac1aeeb5abe4c", null ]
+    [ "npc_coldflameAI", "db/dbd/a17644.html#a2a8420b79357f7a2167dddbd68ec8bc0", null ],
+    [ "IsSummonedBy", "db/dbd/a17644.html#a1a330428ac8f17dc673fb1ae4d57035a", null ],
+    [ "UpdateAI", "db/dbd/a17644.html#a5a847ae7c15b309cb1393b6d16a6e220", null ],
+    [ "events", "db/dbd/a17644.html#af3b7d4ca1b268fe0d786eee83c0a3596", null ]
 ];

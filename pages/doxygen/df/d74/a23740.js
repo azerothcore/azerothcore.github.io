@@ -1,7 +1,6 @@
 var a23740 =
 [
-    [ "npc_engineer_heliceAI", "d9/d8d/a23744.html", "d9/d8d/a23744" ],
-    [ "npc_engineer_helice", "df/d74/a23740.html#a445ed6b85e95db817c8117d5473a3c9d", null ],
-    [ "GetAI", "df/d74/a23740.html#ad48e3c1ed22a71e8a45273e1338dd0f8", null ],
-    [ "OnQuestAccept", "df/d74/a23740.html#ae0979d68744372d5d4669b6f014eb123", null ]
+    [ "AfterRemove", "df/d74/a23740.html#a1794dcf8ebca0bd0c4fce5acb8b45de0", null ],
+    [ "PrepareAuraScript", "df/d74/a23740.html#ad5871ce865820456177362c6b790778f", null ],
+    [ "Register", "df/d74/a23740.html#a41e19fb2509051bbd2d9e43c59f16486", null ]
 ];

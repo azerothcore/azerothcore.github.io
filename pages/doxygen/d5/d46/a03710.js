@@ -1,4 +1,6 @@
 var a03710 =
 [
-    [ "ScriptRegistry< SpellScriptLoader >", "d5/d46/a03710.html#aae80ff7a03e35c91f47550f388c3f3bb", null ]
+    [ "fireworkShowGameobjectStormwind", "d5/d46/a03710.html#ae843a13f6116ce380e3890397d825ae6", null ],
+    [ "fireworkShowScheduleStormwind", "d5/d46/a03710.html#af98c86c5b3725a8753fc620996c94b7f", null ],
+    [ "fireworkShowStormwind", "d5/d46/a03710.html#a378278257abadcd4369abd66f412d8e6", null ]
 ];

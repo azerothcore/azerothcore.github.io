@@ -1,7 +1,10 @@
 var a25312 =
 [
-    [ "OnApply", "d1/d39/a25312.html#a6189a5ea90b1951b21a7e9ef36700ed9", null ],
-    [ "PeriodicTick", "d1/d39/a25312.html#a1c79b1016361eabb5cef57a893bccfcf", null ],
-    [ "PrepareAuraScript", "d1/d39/a25312.html#acfa6b5217a0e0e2654b7fa9c4092abd5", null ],
-    [ "Register", "d1/d39/a25312.html#adddddd0689f4686a40b1db142b5d6ce2", null ]
+    [ "CheckProc", "d1/d39/a25312.html#a8a7a0ac560eecc3777087622fb3f3951", null ],
+    [ "HandleProc", "d1/d39/a25312.html#a90eee01f380f97f033c82d7c6ec48d00", null ],
+    [ "OnApply", "d1/d39/a25312.html#a93818ec97cfd47da1dee454bb0a9318c", null ],
+    [ "OnRemove", "d1/d39/a25312.html#a5e978d4d46f42ba5098eaecd9473fccb", null ],
+    [ "PrepareAuraScript", "d1/d39/a25312.html#a73ae8e378b906a420955fd33d02ba6b7", null ],
+    [ "Register", "d1/d39/a25312.html#a7070f64c9c47c8c1bc26e49b2b60a110", null ],
+    [ "Validate", "d1/d39/a25312.html#a91c5a0e10c308332e18dc40033049996", null ]
 ];

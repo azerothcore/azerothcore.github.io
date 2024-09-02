@@ -1,6 +1,6 @@
 var a18396 =
 [
-    [ "PrepareSpellScript", "d0/d9d/a18396.html#a36eba217756746e85dd6f36ecafd1773", null ],
-    [ "RecalculateDamage", "d0/d9d/a18396.html#adb184e0ad7c1628579d5a66bb188f98c", null ],
-    [ "Register", "d0/d9d/a18396.html#a8b188ae324cdec7a0e0fad910941ee49", null ]
+    [ "PeriodicTick", "d0/d9d/a18396.html#ac0b2cf06027c2f658745d6a90dfc76a1", null ],
+    [ "PrepareAuraScript", "d0/d9d/a18396.html#a0767ac60151517b803e871a0fcb25967", null ],
+    [ "Register", "d0/d9d/a18396.html#afd1e28b224035aef5ac109f38d7e118d", null ]
 ];

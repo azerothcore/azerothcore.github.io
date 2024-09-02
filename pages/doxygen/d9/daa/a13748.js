@@ -1,9 +1,15 @@
 var a13748 =
 [
-    [ "npc_janalai_hatchlingAI", "d9/daa/a13748.html#a8fd227e179a029c4746d6a577897c4d0", null ],
-    [ "JustEngagedWith", "d9/daa/a13748.html#a135bc9794bc11c3f0cdefc6b3c4fa0f6", null ],
-    [ "Reset", "d9/daa/a13748.html#a428a3aab919943a076990df4768e3aea", null ],
-    [ "UpdateAI", "d9/daa/a13748.html#a43f56be26397f23ee803a7bfbce74c05", null ],
-    [ "BuffetTimer", "d9/daa/a13748.html#a4a60f4e6b53697f78c737f3c12304ef8", null ],
-    [ "instance", "d9/daa/a13748.html#a997ee02c23bbb1d33331484f8e93fd1c", null ]
+    [ "boss_arlokkAI", "d9/daa/a13748.html#adb598bf47620cd077fb689fb8f9a4ad8", null ],
+    [ "EnterEvadeMode", "d9/daa/a13748.html#a8553c4d173e7c39315f022f69587c6c0", null ],
+    [ "JustDied", "d9/daa/a13748.html#ac03a6599a5b41e01bd4ed9ebd55cc0ba", null ],
+    [ "JustEngagedWith", "d9/daa/a13748.html#ac4ee55299a9389c4fee1ad96140b00d0", null ],
+    [ "JustReachedHome", "d9/daa/a13748.html#ab0499a80ea8406457e6bfaac96eae975", null ],
+    [ "Reset", "d9/daa/a13748.html#a3ea2c720ac5c4b1fa6ea4d2eb8bf163f", null ],
+    [ "SetData", "d9/daa/a13748.html#a7eedf1d1b55740698c314d4afbb2b0b2", null ],
+    [ "UpdateAI", "d9/daa/a13748.html#a3a2d07d42be88244c0c72b998792dd28", null ],
+    [ "_summonCountA", "d9/daa/a13748.html#a77f83909fca59d1c5d72dc583d7ec22e", null ],
+    [ "_summonCountB", "d9/daa/a13748.html#a7e7d091ea00fb42e7f97cb79168e0dc3", null ],
+    [ "_triggersSideAGUID", "d9/daa/a13748.html#aedc8dda728ed849f33dc83396da51bce", null ],
+    [ "_triggersSideBGUID", "d9/daa/a13748.html#a0fc797fd56c4f12272b647087492670a", null ]
 ];

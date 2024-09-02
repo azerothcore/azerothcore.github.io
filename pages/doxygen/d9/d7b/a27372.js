@@ -1,11 +1,12 @@
 var a27372 =
 [
-    [ "spell_gen_apply_aura_after_expiration", "d9/d7b/a27372.html#a391e5089eb034618c5e3edde26685a00", null ],
-    [ "AfterRemove", "d9/d7b/a27372.html#afea2221ceeebf90cf352084d8aacf7c9", null ],
-    [ "PrepareAuraScript", "d9/d7b/a27372.html#a494123635eda4c43d92a08c9c8cd5627", null ],
-    [ "Register", "d9/d7b/a27372.html#a3189ba65a1d9adf252d9f0dfb70abd16", null ],
-    [ "Validate", "d9/d7b/a27372.html#ad405128104d8a6528e8db96281ad0f0b", null ],
-    [ "_aura", "d9/d7b/a27372.html#a8a79aef777e1397b031149c54ae9d81d", null ],
-    [ "_effect", "d9/d7b/a27372.html#aa276a986ba9b67964ddeec56d6455cf9", null ],
-    [ "_spellId", "d9/d7b/a27372.html#a330f1311911ba9f3ebd704c7f9a09246", null ]
+    [ "npc_preciousAI", "d9/d7b/a27372.html#ade66f3aa2ff9ac85c99a9d31591fcabf", null ],
+    [ "FlagForDespawn", "d9/d7b/a27372.html#a934a5147c1cc9937189011fb061657da", null ],
+    [ "InitializeAI", "d9/d7b/a27372.html#aa15843c4029f2df2ee04d21b5157602a", null ],
+    [ "JustEngagedWith", "d9/d7b/a27372.html#a58bc4149111605850f070a77ee776313", null ],
+    [ "JustReachedHome", "d9/d7b/a27372.html#a31893e9441b24398554370a58ef8bd78", null ],
+    [ "Reset", "d9/d7b/a27372.html#aa1c39ce0110827d35ae2d5ea794e1744", null ],
+    [ "UpdateAI", "d9/d7b/a27372.html#a2f3428807957bd60fdbe6f694bb6d3ef", null ],
+    [ "events", "d9/d7b/a27372.html#a69a20e759b1bcb631cef0bf1e4dd8a1b", null ],
+    [ "flaggedForDespawn", "d9/d7b/a27372.html#a48e891f8afce9408ed38c51a0e2d4005", null ]
 ];

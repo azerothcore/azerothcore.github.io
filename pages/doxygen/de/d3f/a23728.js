@@ -1,6 +1,6 @@
 var a23728 =
 [
-    [ "npc_avatar_of_freya", "de/d3f/a23728.html#a3a6c4f6d8f05d606c6f545d91acdb2c1", null ],
-    [ "OnGossipHello", "de/d3f/a23728.html#a020e8e41b32eb65ff906c9ca934a03fe", null ],
-    [ "OnGossipSelect", "de/d3f/a23728.html#aba1b13e922873e939b2510b4bc77f49d", null ]
+    [ "HandleCast", "de/d3f/a23728.html#a912dc3b17ab7d0818089c32610d82a16", null ],
+    [ "PrepareSpellScript", "de/d3f/a23728.html#a6590aab70049aa5e94ed48aeb99ab1d0", null ],
+    [ "Register", "de/d3f/a23728.html#a09d4af96e2d5a69b1b61a6055bcb04d4", null ]
 ];

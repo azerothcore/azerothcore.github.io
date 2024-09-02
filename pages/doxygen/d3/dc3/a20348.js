@@ -1,6 +1,9 @@
 var a20348 =
 [
-    [ "boss_keristraszaAI", "d7/d46/a20352.html", "d7/d46/a20352" ],
-    [ "boss_keristrasza", "d3/dc3/a20348.html#a3d132df1687aae57345cd55ac80f9bf4", null ],
-    [ "GetAI", "d3/dc3/a20348.html#aa94eb11d5ca7ff3063974d4ff81d4173", null ]
+    [ "npc_ulduar_bot_summon_triggerAI", "d3/dc3/a20348.html#a60e0706b9285cdf4b25b6f399cad18e9", null ],
+    [ "DoAction", "d3/dc3/a20348.html#ac5d0e28ee330741da3b287d965537f39", null ],
+    [ "Reset", "d3/dc3/a20348.html#a91207c04ecee6fc0e906133e054bf51b", null ],
+    [ "UpdateAI", "d3/dc3/a20348.html#aebec433e806d4f63f5593db0301612b4", null ],
+    [ "option", "d3/dc3/a20348.html#a98bb19fea19a05127b4b32df039acf05", null ],
+    [ "timer", "d3/dc3/a20348.html#a118d048557b0ed314180299c3cd2bcbc", null ]
 ];

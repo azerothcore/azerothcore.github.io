@@ -1,8 +1,6 @@
 var a10996 =
 [
-    [ "accountId", "dc/d5a/a10996.html#ad146b84be01ec07a5fee8184f0cc2da9", null ],
-    [ "accountName", "dc/d5a/a10996.html#a4849bd1f43fd15eea1991948abdc576d", null ],
-    [ "deleteDate", "dc/d5a/a10996.html#a65a101727094841d34e8775bb7504cba", null ],
-    [ "lowGuid", "dc/d5a/a10996.html#a11fd07e662184f750ac0a5e547a22437", null ],
-    [ "name", "dc/d5a/a10996.html#a0e85dce38305e222c5654315ed68bfc1", null ]
+    [ "EffectPeriodicHandler", "dc/d5a/a10996.html#aad44956783e9c044eb92065cc62e97f6", null ],
+    [ "Call", "dc/d5a/a10996.html#a938e987363972fbd58e42f19880016d8", null ],
+    [ "pEffectHandlerScript", "dc/d5a/a10996.html#a803108e6a515d2d210d8e79a9fb6ce18", null ]
 ];

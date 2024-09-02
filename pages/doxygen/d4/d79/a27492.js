@@ -1,6 +1,6 @@
 var a27492 =
 [
-    [ "CheckCast", "d4/d79/a27492.html#ac1bc3f881c31c5ab90785a62a5f5b5ae", null ],
-    [ "PrepareSpellScript", "d4/d79/a27492.html#a2a9c657ccffbacfc661c6bb1dc41d9de", null ],
-    [ "Register", "d4/d79/a27492.html#a4b34bd5ce9d3e948d6c712d71ed71b2d", null ]
+    [ "npc_guardianAI", "d0/d1b/a27496.html", "d0/d1b/a27496" ],
+    [ "npc_guardian", "d4/d79/a27492.html#aa614e73ae6a6c128c323ac275652dbf1", null ],
+    [ "GetAI", "d4/d79/a27492.html#a3e65ccc70be9d25b2d8563c23146ef4f", null ]
 ];

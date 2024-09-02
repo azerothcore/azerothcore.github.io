@@ -1,13 +1,16 @@
 var a05248 =
 [
-    [ "IntervalTimer", "df/d8e/a05248.html#a2538976b639e25e63a8ab5927663ade1", null ],
-    [ "GetCurrent", "df/d8e/a05248.html#a93a456d6ff6d74cc889517fc585626e8", null ],
-    [ "GetInterval", "df/d8e/a05248.html#a986bec1dcb7325088517f6721636abcc", null ],
-    [ "Passed", "df/d8e/a05248.html#a9b3ac2407baf9763fa899e35a5c55fbe", null ],
-    [ "Reset", "df/d8e/a05248.html#ae243f18c4c3174b91fa01f6d08b04d4d", null ],
-    [ "SetCurrent", "df/d8e/a05248.html#ab315f686c2777dc21c824d8674479f9f", null ],
-    [ "SetInterval", "df/d8e/a05248.html#a28d95330f971d3a37aaf53e4f16aad4a", null ],
-    [ "Update", "df/d8e/a05248.html#aa1f5b922ea2d95c49924a506ca37a676", null ],
-    [ "_current", "df/d8e/a05248.html#a99c5aec27af00ffbbd83c5adbd2e2016", null ],
-    [ "_interval", "df/d8e/a05248.html#a179584ce91f62ba5e74ae3f34ee32fbc", null ]
+    [ "LogMessage", "df/d8e/a05248.html#a563286e5cd6518e04b3069a86cf6e972", null ],
+    [ "LogMessage", "df/d8e/a05248.html#a0a5626d481fe047437f213f1fa48a3aa", null ],
+    [ "LogMessage", "df/d8e/a05248.html#a727fa3a719c50572711ada4e257102ab", null ],
+    [ "getTimeStr", "df/d8e/a05248.html#aaeca452ae2fe32e7412f4abc30642da2", null ],
+    [ "getTimeStr", "df/d8e/a05248.html#af40f502e57bf12f31fc7a2fe60584fc8", null ],
+    [ "operator=", "df/d8e/a05248.html#af35b8fc183cb1848e965117497f50ab4", null ],
+    [ "Size", "df/d8e/a05248.html#ad2947063f8263da27acc82ce0bba6bc2", null ],
+    [ "level", "df/d8e/a05248.html#a44096654072d07e506ef6414a8ce4970", null ],
+    [ "mtime", "df/d8e/a05248.html#a2dab9ed7c1aa8b784e74247667295e29", null ],
+    [ "param1", "df/d8e/a05248.html#afcf2119e7c084339bd70e2ffb4c88d0e", null ],
+    [ "prefix", "df/d8e/a05248.html#afe279a591acc9740457c3cd58d43a263", null ],
+    [ "text", "df/d8e/a05248.html#a4ad799611980177ae87f3acbf2af8ff7", null ],
+    [ "type", "df/d8e/a05248.html#a77105c721645df5654e3c48ce00c2b5a", null ]
 ];

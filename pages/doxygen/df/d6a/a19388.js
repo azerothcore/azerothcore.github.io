@@ -1,8 +1,11 @@
 var a19388 =
 [
-    [ "npc_blistering_zombieAI", "df/d6a/a19388.html#acf278cd2249ac45a4b043427ba36b3ce", null ],
-    [ "DamageTaken", "df/d6a/a19388.html#adf031992078214f90d859df2b54aac91", null ],
-    [ "UpdateAI", "df/d6a/a19388.html#ae081898b8dcaf45cd3069e79021de452", null ],
-    [ "casted", "df/d6a/a19388.html#a0f70f5d58ef0bb20f64b0aec4df04905", null ],
-    [ "timer", "df/d6a/a19388.html#a8b865c2a87b1fc020d8250767febab0a", null ]
+    [ "npc_spark_of_ionarAI", "df/d6a/a19388.html#a738ceaa68f13c084fedee2add6fba99e", null ],
+    [ "AttackStart", "df/d6a/a19388.html#a7616d68c090aece19389b4c4842e30a3", null ],
+    [ "DamageTaken", "df/d6a/a19388.html#a42466b7c6af30727b8872bd2ddfddb6f", null ],
+    [ "DoAction", "df/d6a/a19388.html#a995efdb87fdd72eccfdce11d2af0201b", null ],
+    [ "MoveInLineOfSight", "df/d6a/a19388.html#ac87193fba7975147731ca3c92946c308", null ],
+    [ "Reset", "df/d6a/a19388.html#a4b4511ac7258c1182e428bddb2db6519", null ],
+    [ "UpdateAI", "df/d6a/a19388.html#ae4e881e4e66e49c124c0cf540e1d59b7", null ],
+    [ "returning", "df/d6a/a19388.html#a5f6ef34741a6d726c3fecd66d768bd67", null ]
 ];

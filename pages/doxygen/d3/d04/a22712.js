@@ -1,6 +1,7 @@
 var a22712 =
 [
-    [ "spell_voa_flaming_cinder_SpellScript", "d0/dbc/a22716.html", "d0/dbc/a22716" ],
-    [ "spell_voa_flaming_cinder", "d3/d04/a22712.html#a06378a1d7672c4b0f38b51b6a484e725", null ],
-    [ "GetSpellScript", "d3/d04/a22712.html#a480861ce910dd49a48fd7f5359693605", null ]
+    [ "OnPeriodic", "d3/d04/a22712.html#aa5d2f7530277a6a4d4a85ec5d244b9bc", null ],
+    [ "PrepareAuraScript", "d3/d04/a22712.html#a973ccf17f6499bc84306a18b07fcef7b", null ],
+    [ "Register", "d3/d04/a22712.html#a07b3b1df6626a9fb657270eb1d9f386a", null ],
+    [ "Validate", "d3/d04/a22712.html#a006d67e9e82cce68930b90b00d3555a4", null ]
 ];

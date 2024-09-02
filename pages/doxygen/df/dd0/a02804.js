@@ -1,44 +1,22 @@
 var a02804 =
 [
-    [ "GameObjectValue", "de/d53/a07899.html", "de/d53/a07899" ],
-    [ "GameObject", "dc/de6/a07919.html", "dc/de6/a07919" ],
-    [ "FISHING_BOBBER_READY_TIME", "df/dd0/a02804.html#aa7242bc5664b993aa0dfe458bf845b13", null ],
-    [ "GameObjectAddonContainer", "df/dd0/a02804.html#a7c5d40f7f9665e8525be2f1e94b0af47", null ],
-    [ "GameObjectQuestItemList", "df/dd0/a02804.html#a85906ca8ea219640b7ed904559623a4a", null ],
-    [ "GameObjectQuestItemMap", "df/dd0/a02804.html#a0695d839f891819d32d9cba1550e5ebb", null ],
-    [ "GameObjectTemplateAddonContainer", "df/dd0/a02804.html#a43048463c1bc7ccdbb447dd3f791b2ba", null ],
-    [ "GameObjectTemplateContainer", "df/dd0/a02804.html#a5997afee8ff417f22a5fc03453c0a3d8", null ],
-    [ "goEventFlag", "df/dd0/a02804.html#a5d69fabbfa5abca4bb03fba46cd1bef0", null ],
-    [ "GameObjectActions", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837", [
-      [ "None", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837a6adf97f83acf6453d4a6a4b1070f3754", null ],
-      [ "AnimateCustom0", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837a85821009c4561ff2dd394e76875f41e4", null ],
-      [ "AnimateCustom1", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837a20097ab004d5809f0181ff76c095d00d", null ],
-      [ "AnimateCustom2", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837a6bd3a49dc3c0acde22f7fb6d717c5ba6", null ],
-      [ "AnimateCustom3", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837a96ccf53c55fa14a630d1ebf1814d5500", null ],
-      [ "Disturb", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837ada8bbd8aa09878c8c831cfa4d16cb1e3", null ],
-      [ "Unlock", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837a7e7123b0d269ad5d9ec8d12c52a8ed8a", null ],
-      [ "Lock", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837ab485167c5b0e59d47009a16f90fe2659", null ],
-      [ "Open", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837ac3bf447eabe632720a3aa1a7ce401274", null ],
-      [ "OpenAndUnlock", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837a309e99e8adfb532df3ef87568ef7b4dd", null ],
-      [ "Close", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837ad3d2e617335f08df83599665eef8a418", null ],
-      [ "ToggleOpen", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837a4918a8673999bfdede87be4025674076", null ],
-      [ "Destroy", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837a0e181f89f47654b86f3beb42f5cc08b8", null ],
-      [ "Rebuild", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837a1c6aac0280240c97962b30423f1f852b", null ],
-      [ "Creation", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837a67d5168b4f2b5424a3d118ea9ef99372", null ],
-      [ "Despawn", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837a573a38c8ee30e1c0d6ad84ce4f965cf0", null ],
-      [ "MakeInert", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837aabb80dcaf182e2078c504e15fee2a31f", null ],
-      [ "MakeActive", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837a403b23a8bfa05cf441c3e9dd632d4974", null ],
-      [ "CloseAndLock", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837a395c884e23324c8a881736508abb7d05", null ],
-      [ "UseArtKit0", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837ae2a0fa972f9687e4bc206809d3398c8c", null ],
-      [ "UseArtKit1", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837a77d0a472e8fb879ecb2cb0f5e95d66be", null ],
-      [ "UseArtKit2", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837a7c616a85741d0083402758d77385cf12", null ],
-      [ "UseArtKit3", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837ac0d4e2c0fde8b58757dadda7ae262ca8", null ],
-      [ "SetTapList", "df/dd0/a02804.html#af16a38362829ad78e87eae277ce8b837ab98a44aedde3ad68a77221bb4ba8d8e0", null ]
+    [ "instance_blackwing_lair", "df/d27/a12000.html", "df/d27/a12000" ],
+    [ "instance_blackwing_lair::instance_blackwing_lair_InstanceMapScript", "d3/d80/a12004.html", "d3/d80/a12004" ],
+    [ "spell_bwl_shadowflame", "d5/dcf/a12008.html", "d5/dcf/a12008" ],
+    [ "at_orb_of_command", "d5/d54/a12012.html", "d5/d54/a12012" ],
+    [ "orb_of_command_misc", "df/dd0/a02804.html#a5ddae3d5f11ae5a5d826e7e18d4cded5", [
+      [ "QUEST_BLACKHANDS_COMMAND", "df/dd0/a02804.html#a5ddae3d5f11ae5a5d826e7e18d4cded5ae1d5923d960c45957f7789ee3d943db5", null ],
+      [ "MAP_BWL", "df/dd0/a02804.html#a5ddae3d5f11ae5a5d826e7e18d4cded5ae1b688e63ec4ff55cd01b4df30948cbc", null ]
     ] ],
-    [ "LootState", "df/dd0/a02804.html#a08733f20cea1f77cc9f1a549f8ce9f07", [
-      [ "GO_NOT_READY", "df/dd0/a02804.html#a08733f20cea1f77cc9f1a549f8ce9f07aa7f58536a66a38d2bb42502424d69a79", null ],
-      [ "GO_READY", "df/dd0/a02804.html#a08733f20cea1f77cc9f1a549f8ce9f07a8708de424ecaae41eb7271d399f1d5fc", null ],
-      [ "GO_ACTIVATED", "df/dd0/a02804.html#a08733f20cea1f77cc9f1a549f8ce9f07a3e50ac5f6829b981fdff39a85a48959e", null ],
-      [ "GO_JUST_DEACTIVATED", "df/dd0/a02804.html#a08733f20cea1f77cc9f1a549f8ce9f07af69d13b3580b3c24d26f66bcf0db43d5", null ]
-    ] ]
+    [ "ShadowFlame", "df/dd0/a02804.html#a18a82309d32c08f1de5944fde20789fa", [
+      [ "SPELL_ONYXIA_SCALE_CLOAK", "df/dd0/a02804.html#a18a82309d32c08f1de5944fde20789faa2f64e1a42a1d2fb4d6c849100de2c7d0", null ],
+      [ "SPELL_SHADOW_FLAME_DOT", "df/dd0/a02804.html#a18a82309d32c08f1de5944fde20789faaed2cf39ef97aea751e32c5249fc8fc3e", null ]
+    ] ],
+    [ "AddSC_instance_blackwing_lair", "df/dd0/a02804.html#a942a9ad3e1b872492dfc7d62615df103", null ],
+    [ "creatureData", "df/dd0/a02804.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "doorData", "df/dd0/a02804.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],
+    [ "Entry", "df/dd0/a02804.html#a79d118516d0621008a183666ffecc3ad", null ],
+    [ "objectData", "df/dd0/a02804.html#a59ddfa91084111da23b5d47482e4ff8d", null ],
+    [ "orbOfCommandTP", "df/dd0/a02804.html#a9ee49a7ad7d4b8e8f52533faa578370f", null ],
+    [ "SummonPosition", "df/dd0/a02804.html#a2c79c628fd8c60d02dc0b2368a70be04", null ]
 ];

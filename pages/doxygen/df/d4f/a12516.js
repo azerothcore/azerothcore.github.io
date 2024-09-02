@@ -1,8 +1,9 @@
 var a12516 =
 [
-    [ "npc_scarlet_miner_cartAI", "df/d4f/a12516.html#a4256e3bc9f6678dc85a3b702e1c531f8", null ],
-    [ "DoAction", "df/d4f/a12516.html#a99ac60b1a60cc5f269aa7f02f3fd5083", null ],
-    [ "PassengerBoarded", "df/d4f/a12516.html#a3539847efa7014a8e31a78ace83b6bc5", null ],
-    [ "SetGUID", "df/d4f/a12516.html#a5679fef6f40d0e48547e7bd57a93a176", null ],
-    [ "minerGUID", "df/d4f/a12516.html#a084e80b43b5b30b5e1794feff305e9b3", null ]
+    [ "npc_eye_of_acherus", "df/d4f/a12516.html#a1e0ed0eb0e32cb2e8a5d86869359db6c", null ],
+    [ "InitializeAI", "df/d4f/a12516.html#aea655b94bcd590835882793d916d7865", null ],
+    [ "MovementInform", "df/d4f/a12516.html#a5e0a360015fdfb1c6a277ba13583a584", null ],
+    [ "OnCharmed", "df/d4f/a12516.html#a9a9d274a503ebe06fa503f433f53b0e6", null ],
+    [ "UpdateAI", "df/d4f/a12516.html#a092592d0c9ec0f5a95fe550bed559f0e", null ],
+    [ "_events", "df/d4f/a12516.html#a08b2eb3aff837408decaa5fa087f5054", null ]
 ];

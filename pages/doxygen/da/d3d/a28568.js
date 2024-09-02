@@ -1,11 +1,17 @@
 var a28568 =
 [
-    [ "CheckProc", "da/d3d/a28568.html#a7a6eea8debb09c4c9086a92d8e6ee59c", null ],
-    [ "HandleProc", "da/d3d/a28568.html#af29b1d6d8553003514918a383cb08b4a", null ],
-    [ "Load", "da/d3d/a28568.html#a8861c2415c0f705cb4a06c02eabb54d2", null ],
-    [ "OnRemove", "da/d3d/a28568.html#a9227147dd6e621deddd0088b95e9db2f", null ],
-    [ "PrepareAuraScript", "da/d3d/a28568.html#a149881d517edbb15032452554fc64948", null ],
-    [ "Register", "da/d3d/a28568.html#ac81d60d54a87a23bd9481934f5753de0", null ],
-    [ "Validate", "da/d3d/a28568.html#a7a4d1bddd1dbeb41e0f6f8fe272b4ad6", null ],
-    [ "_redirectTarget", "da/d3d/a28568.html#af3ee2a283d8942ab3652a6386c26f737", null ]
+    [ "TileBuilder", "da/d3d/a28568.html#acf61f0eada3f4cc5e88ef7d36c6d0c36", null ],
+    [ "TileBuilder", "da/d3d/a28568.html#ac7ed1b1c9fdff7fc933fa6029fa9ff9d", null ],
+    [ "~TileBuilder", "da/d3d/a28568.html#a7fabcd86a5679f19ad69e9c69f1d5885", null ],
+    [ "buildMoveMapTile", "da/d3d/a28568.html#add45abc9c1f79f95dae9d7616b100dc0", null ],
+    [ "buildTile", "da/d3d/a28568.html#ab7eca8778fd61ecbfe5f07bba0b38857", null ],
+    [ "shouldSkipTile", "da/d3d/a28568.html#a77ecbab0c34dfe69c414304768b20ea3", null ],
+    [ "WaitCompletion", "da/d3d/a28568.html#ae386f742fed7d2b66bcf3750abf91daf", null ],
+    [ "WorkerThread", "da/d3d/a28568.html#a4c0497cde74883557ec841233376f95c", null ],
+    [ "m_bigBaseUnit", "da/d3d/a28568.html#a5b5313e24c00e58940067d53be93a3de", null ],
+    [ "m_debugOutput", "da/d3d/a28568.html#a4c881a6e6ec66b315f72f84da5c534c2", null ],
+    [ "m_mapBuilder", "da/d3d/a28568.html#aa83fbc484835a6d1a4c7bf6201b46639", null ],
+    [ "m_rcContext", "da/d3d/a28568.html#a160c3ad76146488175c6ae228ad4ef83", null ],
+    [ "m_terrainBuilder", "da/d3d/a28568.html#ade1605fb1b68693516c9fb27f94b278d", null ],
+    [ "m_workerThread", "da/d3d/a28568.html#a4e03cb818b108400737e3a54df24945d", null ]
 ];

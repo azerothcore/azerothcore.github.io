@@ -1,6 +1,5 @@
 var a23620 =
 [
-    [ "spell_fight_fire_bomber_SpellScript", "d3/dcc/a23624.html", "d3/dcc/a23624" ],
-    [ "spell_fight_fire_bomber", "d0/d32/a23620.html#a17f5533424ff53bc1d9b707ced654a92", null ],
-    [ "GetSpellScript", "d0/d32/a23620.html#a0a0ccac7c2f6127bafb68d305be47801", null ]
+    [ "at_shattered_halls_execution", "d0/d32/a23620.html#a73f1d1f03960acd070b7996257f7a526", null ],
+    [ "OnTrigger", "d0/d32/a23620.html#ad35f9736371b091dc0780e5bf0caf9f5", null ]
 ];

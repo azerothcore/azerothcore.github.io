@@ -1,6 +1,6 @@
 var a25476 =
 [
-    [ "instance_hellfire_ramparts_InstanceMapScript", "da/df6/a25480.html", "da/df6/a25480" ],
-    [ "instance_hellfire_ramparts", "d4/d48/a25476.html#ab6ee671123dd0d736e9745e45e04b8da", null ],
-    [ "GetInstanceScript", "d4/d48/a25476.html#a6f2dc361984b33c1d14d62d67a563e8d", null ]
+    [ "HandleDummy", "d4/d48/a25476.html#a8b9510efa5af25ef698fc6eb49b19b69", null ],
+    [ "PrepareSpellScript", "d4/d48/a25476.html#a80b89fbd2506191b897dcf367ff11500", null ],
+    [ "Register", "d4/d48/a25476.html#a522730e5ba844728c0b3d6f423cd123a", null ]
 ];

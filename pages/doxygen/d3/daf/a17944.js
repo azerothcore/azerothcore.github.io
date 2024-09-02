@@ -1,6 +1,6 @@
 var a17944 =
 [
-    [ "spell_deathbringer_boiling_blood_SpellScript", "dc/daa/a17948.html", "dc/daa/a17948" ],
-    [ "spell_deathbringer_boiling_blood", "d3/daf/a17944.html#a6bd146702ac1cc743095e0fb609ba40d", null ],
-    [ "GetSpellScript", "d3/daf/a17944.html#a7899158c05fad4c68d00dc60fc80bb32", null ]
+    [ "MysticBuffetTargetFilter", "d3/daf/a17944.html#a5cc25dc0c6de036ec8fa3e7f10ffb2ea", null ],
+    [ "operator()", "d3/daf/a17944.html#a76536b8960aa5e64fa8f7a02939d4295", null ],
+    [ "_caster", "d3/daf/a17944.html#a60ef55fa8d6f511bba566ac3c8f8328a", null ]
 ];

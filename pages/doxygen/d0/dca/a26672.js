@@ -1,14 +1,8 @@
 var a26672 =
 [
-    [ "Absorb", "d0/dca/a26672.html#a401274543919a81efea81008f8020ed1", null ],
-    [ "CalculateAmount", "d0/dca/a26672.html#a837b0e3f0135f7b8393f1ee630d90c50", null ],
-    [ "HandleEffectApply", "d0/dca/a26672.html#a0acb2be86ed6da238e8769d4871526d3", null ],
-    [ "HandleEffectRemove", "d0/dca/a26672.html#a2b1e9dbb5d3543acd36f9253f224b9a7", null ],
-    [ "Load", "d0/dca/a26672.html#ab22271735c240c0d375324f54efc8313", null ],
-    [ "PrepareAuraScript", "d0/dca/a26672.html#af040fefa0f25f319f98340b9908bb85e", null ],
-    [ "Register", "d0/dca/a26672.html#af89379413ea3b10477ea267ac8e51004", null ],
-    [ "Trigger", "d0/dca/a26672.html#ae1704ed58255389c7483f75b5f0a227c", null ],
-    [ "Validate", "d0/dca/a26672.html#a58faaf03fc6a0974049da2af0fc70825", null ],
-    [ "absorbPct", "d0/dca/a26672.html#a3a9bd069cf4732f64990277227d71d0d", null ],
-    [ "hpPct", "d0/dca/a26672.html#a83ef3e3f9534366c24311f3281a8d0b8", null ]
+    [ "CalcPeriodic", "d0/dca/a26672.html#a42770d7f7e5bd41cd3f0a283c544c642", null ],
+    [ "CalculateAmount", "d0/dca/a26672.html#a525009acb345d6b0a9857c30cfce2230", null ],
+    [ "HandlePeriodic", "d0/dca/a26672.html#a4c75f793388b533d00a52ad18f18bc6e", null ],
+    [ "PrepareAuraScript", "d0/dca/a26672.html#a5627212e48a3044a9a7480851787a839", null ],
+    [ "Register", "d0/dca/a26672.html#a09ea5265d7105a4bd487d383948901a0", null ]
 ];

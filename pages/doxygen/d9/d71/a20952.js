@@ -1,6 +1,18 @@
 var a20952 =
 [
-    [ "HandleInstaKill", "d9/d71/a20952.html#af0883644d3adb80505bc1a3f73a34b8a", null ],
-    [ "PrepareSpellScript", "d9/d71/a20952.html#a67fc3c3c0a96f38b9d9a49d5ac31bd29", null ],
-    [ "Register", "d9/d71/a20952.html#a903b9eb42bfdd9028211cae6674c26f0", null ]
+    [ "boss_ingvar_the_plundererAI", "d9/d71/a20952.html#aa94ca0c2ca407119cb9bfc43d1af2aca", null ],
+    [ "DamageTaken", "d9/d71/a20952.html#a9443e9d2c03aa77e91389290f96afc19", null ],
+    [ "EnterEvadeMode", "d9/d71/a20952.html#a89e02e6527057c629104757ae1e6f404", null ],
+    [ "FeignDeath", "d9/d71/a20952.html#a44afdb271d0fe6003e7d025600ea9371", null ],
+    [ "JustDied", "d9/d71/a20952.html#af650ad54d4db87a31b413bc2fbc98d76", null ],
+    [ "JustEngagedWith", "d9/d71/a20952.html#a82d34c99d3417526f52a4819e918db2d", null ],
+    [ "JustSummoned", "d9/d71/a20952.html#aa51b4d5b05f59856de9f3b7408622d4f", null ],
+    [ "KilledUnit", "d9/d71/a20952.html#a4fb798fb5c74a2d9570b49fc394cf9d1", null ],
+    [ "Reset", "d9/d71/a20952.html#a6b8acc9a9e92586a65e543d3c1d741d6", null ],
+    [ "UpdateAI", "d9/d71/a20952.html#aee8c3f2c538921036798f48cc2edd18f", null ],
+    [ "events", "d9/d71/a20952.html#a45a81e8be3f83443886bfa8c0284a642", null ],
+    [ "pInstance", "d9/d71/a20952.html#a0b15089de9963714e2b9265fc5be008a", null ],
+    [ "summons", "d9/d71/a20952.html#adbd6cc4efd584a15987631fa8ca4b29b", null ],
+    [ "ThrowGUID", "d9/d71/a20952.html#af5ca7cc17c9da8d496052edbfe4f30f7", null ],
+    [ "ValkyrGUID", "d9/d71/a20952.html#a24b5ff7351f7ffcd201948202c371904", null ]
 ];

@@ -1,9 +1,10 @@
 var a05708 =
 [
-    [ "itemId", "d2/d02/a05708.html#adc6041f4426ca3d377644b18a0ba22f9", null ],
-    [ "mailTemplate", "d2/d02/a05708.html#adc59ba563519ed9e673b734c4e40e7b8", null ],
-    [ "sender", "d2/d02/a05708.html#a9a4e0b2063f2c03f8783681cca41b5d7", null ],
-    [ "subject", "d2/d02/a05708.html#a45644f308278529f822080f8274180d8", null ],
-    [ "text", "d2/d02/a05708.html#a4d57dcb4d130552f5bf756308d79307c", null ],
-    [ "titleId", "d2/d02/a05708.html#a94440f7e5c023d929e0e7f7d821bb309", null ]
+    [ "PreparedStatementTask", "d2/d02/a05708.html#a332f6ddad1ee338da3fa4bd2461a9c29", null ],
+    [ "~PreparedStatementTask", "d2/d02/a05708.html#a4ca96ab46d5015b2c673164652146886", null ],
+    [ "Execute", "d2/d02/a05708.html#ad4058410f5eba4f0f935696d38ba85ab", null ],
+    [ "GetFuture", "d2/d02/a05708.html#a07031e5cff28553e33d98140847b9e0d", null ],
+    [ "m_has_result", "d2/d02/a05708.html#a7c2841b7638c42caa4e8c1116110f8a3", null ],
+    [ "m_result", "d2/d02/a05708.html#a841a7aefd9ea58a76cead1da65a786b2", null ],
+    [ "m_stmt", "d2/d02/a05708.html#aba9082a717729915a4e4d640220a49d2", null ]
 ];

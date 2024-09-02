@@ -1,6 +1,9 @@
 var a17528 =
 [
-    [ "HandleDummy", "de/de9/a17528.html#a849d6414e0eb0d7c07992e295e2438a1", null ],
-    [ "PrepareSpellScript", "de/de9/a17528.html#abdee1ee39023eba859fd1620a5b7d080", null ],
-    [ "Register", "de/de9/a17528.html#ada766da7c52456d1edb6791c755627ff", null ]
+    [ "CalculatePower", "de/de9/a17528.html#a66acc23548f88c31e9fe45db76af2bcc", null ],
+    [ "Load", "de/de9/a17528.html#a820032e169929fd9969ecf1ee2c7f1be", null ],
+    [ "PrepareSpellScript", "de/de9/a17528.html#a49489a8e4e39735efa560f53236dfc2c", null ],
+    [ "PreventPowerGainOnHit", "de/de9/a17528.html#a5eebe6f82a6d7306d6e232b755531939", null ],
+    [ "Register", "de/de9/a17528.html#a67b59c096848adaad5566cbc2140da59", null ],
+    [ "Validate", "de/de9/a17528.html#a355500a6f3bfed084030738041d0e3b9", null ]
 ];

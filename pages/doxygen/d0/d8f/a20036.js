@@ -1,6 +1,7 @@
 var a20036 =
 [
-    [ "boss_grobbulus_poison_cloudAI", "d1/d94/a20040.html", "d1/d94/a20040" ],
-    [ "boss_grobbulus_poison_cloud", "d0/d8f/a20036.html#a2bb8ebec0ae79f20602e551f654e0761", null ],
-    [ "GetAI", "d0/d8f/a20036.html#a34c68dd3e58b83c52f270eb1b194f2ed", null ]
+    [ "HandleAfterEffectApply", "d0/d8f/a20036.html#a672526de2c71dcae79bacef88f34dc26", null ],
+    [ "PrepareAuraScript", "d0/d8f/a20036.html#a1da221b63cb7fcd0dbb580e8cf0003ce", null ],
+    [ "Register", "d0/d8f/a20036.html#a9ba7c109fe96881dd47ba47366890e2b", null ],
+    [ "Validate", "d0/d8f/a20036.html#ab5833f6218760a7d9829b5d453436302", null ]
 ];

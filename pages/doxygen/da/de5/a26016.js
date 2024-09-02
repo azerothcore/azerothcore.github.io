@@ -1,5 +1,7 @@
 var a26016 =
 [
-    [ "go_simon_cluster", "da/de5/a26016.html#adac53a8451abd6ace227a66afc7e61e8", null ],
-    [ "OnGossipHello", "da/de5/a26016.html#a9fd9799604de44c91803511c45b67786", null ]
+    [ "OnProc", "da/de5/a26016.html#a304fd48cc79d3e7371212632d276b2ff", null ],
+    [ "PrepareAuraScript", "da/de5/a26016.html#a239f9448d36bee4cfb46d95bf20c0148", null ],
+    [ "Register", "da/de5/a26016.html#a28be437c5f3e8bca0f54be97cb5c5a1f", null ],
+    [ "Validate", "da/de5/a26016.html#adc217147d7c150d66dad4d3e922cff96", null ]
 ];

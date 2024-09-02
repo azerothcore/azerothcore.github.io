@@ -1,8 +1,10 @@
 var a25144 =
 [
-    [ "HandleDummy", "d6/d42/a25144.html#a9ad5ba3f1cd36365b55de85ca1aac88f", null ],
-    [ "Load", "d6/d42/a25144.html#a2dcd4b498bd4edd766a7f22d4110c9c3", null ],
-    [ "PrepareSpellScript", "d6/d42/a25144.html#a38f1439ad51b320474422072c1032655", null ],
-    [ "Register", "d6/d42/a25144.html#a9255731c48721c3bbdfbba7e8f9c8044", null ],
-    [ "targetNumber", "d6/d42/a25144.html#a9335e4a80193fdba224d61caa1bbaae5", null ]
+    [ "spell_gen_summon_elemental", "d6/d42/a25144.html#ae2dece3ac20afe16430e741fab909fa1", null ],
+    [ "AfterApply", "d6/d42/a25144.html#a97fbc7e3f60b6aae5d9783bbd9a2415d", null ],
+    [ "AfterRemove", "d6/d42/a25144.html#aeec3688e66a7e9f0207b219e9dcdb265", null ],
+    [ "PrepareAuraScript", "d6/d42/a25144.html#a3ad6e5615bb080abae4e18673cd40b6d", null ],
+    [ "Register", "d6/d42/a25144.html#ac364e1a3c4b5a1cfd35d8dcec0a42345", null ],
+    [ "Validate", "d6/d42/a25144.html#ac2284d4f192fe402ebcf6ad75e777c2a", null ],
+    [ "_spellId", "d6/d42/a25144.html#a6ac27b65f909a8c832cf3d301c8db0ce", null ]
 ];

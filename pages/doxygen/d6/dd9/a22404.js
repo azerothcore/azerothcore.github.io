@@ -1,6 +1,6 @@
 var a22404 =
 [
-    [ "npc_ulduar_keeper", "d6/dd9/a22404.html#a252b781061a2e21dc961ea94f7120d59", null ],
-    [ "OnGossipHello", "d6/dd9/a22404.html#a4db12efd22c7d2a5f18144fd16543230", null ],
-    [ "OnGossipSelect", "d6/dd9/a22404.html#acf8681577117107d16d45705e4b8463f", null ]
+    [ "npc_released_offspring_harkoaAI", "d6/dd9/a22404.html#ab1002f002987b6ea2366129afd48d65c", null ],
+    [ "MovementInform", "d6/dd9/a22404.html#a56d52be3fdbc2e4176efe09ba58f55c7", null ],
+    [ "Reset", "d6/dd9/a22404.html#a3ddc30ce39acef3bb5e6f8400a084393", null ]
 ];

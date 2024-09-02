@@ -1,6 +1,8 @@
 var a19608 =
 [
-    [ "spell_icc_geist_alarm_SpellScript", "dd/d3f/a19612.html", "dd/d3f/a19612" ],
-    [ "spell_icc_geist_alarm", "d2/d98/a19608.html#ad82b3d7baa02b01f53815083351a4767", null ],
-    [ "GetSpellScript", "d2/d98/a19608.html#af9d0263b31b6c711de87593911e9d6b3", null ]
+    [ "HandlePeriodic", "d2/d98/a19608.html#a2724a85983561a14db8b06ae492ead55", null ],
+    [ "OnRemove", "d2/d98/a19608.html#a6d0f941f30d8c850e48396fffd13768d", null ],
+    [ "PrepareAuraScript", "d2/d98/a19608.html#aea9d38dc7fdff6d38d252bb5ded57d78", null ],
+    [ "Register", "d2/d98/a19608.html#a85270947972be9c299a642b31969ef68", null ],
+    [ "Validate", "d2/d98/a19608.html#a91ebb4e69d02deb5129965f543c474d1", null ]
 ];

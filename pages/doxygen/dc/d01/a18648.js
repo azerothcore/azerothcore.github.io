@@ -1,6 +1,9 @@
 var a18648 =
 [
-    [ "HandleScript", "dc/d01/a18648.html#ae8934baa1f5b3ed025b6960da5e9bbe4", null ],
-    [ "PrepareSpellScript", "dc/d01/a18648.html#a4a06b7bd1609de771c60f62b089052ab", null ],
-    [ "Register", "dc/d01/a18648.html#aee4cb42b492d834b520852f14b82b16d", null ]
+    [ "npc_icc_skybreaker_luminaryAI", "dc/d01/a18648.html#a91868021309239f5582bb7ee89baec13", null ],
+    [ "AttackStart", "dc/d01/a18648.html#acf8d1eaebdc68cb53866155d8aad6e48", null ],
+    [ "JustEngagedWith", "dc/d01/a18648.html#a12927240144022174e3d190be6b34976", null ],
+    [ "Reset", "dc/d01/a18648.html#ac925b84b81ec1d1e118f3e62edfbdd15", null ],
+    [ "UpdateAI", "dc/d01/a18648.html#a969a36e147006971a93711349f90c193", null ],
+    [ "events", "dc/d01/a18648.html#a8521aef674b9a295c27f7e5725af4ffe", null ]
 ];

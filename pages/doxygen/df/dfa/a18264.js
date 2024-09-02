@@ -1,6 +1,6 @@
 var a18264 =
 [
-    [ "PrepareSpellScript", "df/dfa/a18264.html#a99466ed86503b431fbff1a054304557e", null ],
-    [ "Register", "df/dfa/a18264.html#a798d91f8f479099f53f8b28e76710a70", null ],
-    [ "RemovePassengers", "df/dfa/a18264.html#ae3207b849f8c4d05bee37b0be448bb24", null ]
+    [ "ActivateSpirit", "df/dfa/a18264.html#ae5c9f8e693a98c828e0e922870552952", null ],
+    [ "PrepareSpellScript", "df/dfa/a18264.html#aa55f0fe4e27520b8a7ae1bb0f810838d", null ],
+    [ "Register", "df/dfa/a18264.html#a2b1d27e93a879681098a83d17c4d686a", null ]
 ];

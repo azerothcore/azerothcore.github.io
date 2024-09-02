@@ -1,4 +1,4 @@
 var a00176 =
 [
-    [ "BigNumber", "d6/de9/a05059.html", "d6/de9/a05059" ]
+    [ "MAX_INBOX_CLIENT_CAPACITY", "d5/de9/a00176.html#ae1d9c2394745301897af9c167e219ca8", null ]
 ];

@@ -1,7 +1,7 @@
 var a16248 =
 [
-    [ "spell_halion_combustion_consumption_AuraScript", "d9/df6/a16252.html", "d9/df6/a16252" ],
-    [ "spell_halion_combustion_consumption", "d8/ddd/a16248.html#a2eac37d7a1943b5af2b0c93f8ac6989e", null ],
-    [ "GetAuraScript", "d8/ddd/a16248.html#afcfabfabb413399e50bc81224c477ea4", null ],
-    [ "_spellID", "d8/ddd/a16248.html#afcf8f57becc0c82b22f5ca03015e04ac", null ]
+    [ "npc_toc_shadow_priestAI", "d8/ddd/a16248.html#af13a18be542fb314c19af52f89d216b8", null ],
+    [ "myCanCast", "d8/ddd/a16248.html#a83422ff3e140b57a484d98876a9a8070", null ],
+    [ "UpdateAI", "d8/ddd/a16248.html#afc23ba15d3ee925212e77b5211504c2b", null ],
+    [ "events", "d8/ddd/a16248.html#a31665a22920b416d7423958a3e2928ec", null ]
 ];

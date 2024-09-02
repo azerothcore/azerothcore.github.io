@@ -1,6 +1,7 @@
 var a23252 =
 [
-    [ "CheckCast", "d3/d93/a23252.html#a9c7e08a8a9b1c1b44ae290818826d43a", null ],
-    [ "PrepareSpellScript", "d3/d93/a23252.html#abff433d61c798d17882292b6b0956a58", null ],
-    [ "Register", "d3/d93/a23252.html#a1034967a4bf633f160cc40ae6e0fc567", null ]
+    [ "PeriodicTick", "d3/d93/a23252.html#a94bee50f214d0a61fa81c4cca1b38fb2", null ],
+    [ "PrepareAuraScript", "d3/d93/a23252.html#a2c34fbc5c12be43b1c054cf4b23542cb", null ],
+    [ "Register", "d3/d93/a23252.html#ae1479b53d8c0575947a7ce7cae4747c4", null ],
+    [ "Validate", "d3/d93/a23252.html#ade8d57db324f02734e1752f49976dc9d", null ]
 ];

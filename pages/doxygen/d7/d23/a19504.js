@@ -1,6 +1,7 @@
 var a19504 =
 [
-    [ "npc_frost_freeze_trapAI", "d7/d48/a19508.html", "d7/d48/a19508" ],
-    [ "npc_frost_freeze_trap", "d7/d23/a19504.html#ac58ed2598fd4250f220208a91343f9b8", null ],
-    [ "GetAI", "d7/d23/a19504.html#a88ed9aeb0403b3b625c858cd1e44a99f", null ]
+    [ "creature", "d7/d23/a19504.html#a55a6ee677ab51120867f542e5a5745b0", null ],
+    [ "sound", "d7/d23/a19504.html#a407acf5c908aa44a169adc1e88a70ab4", null ],
+    [ "text", "d7/d23/a19504.html#a9ed157ddf2c274d021820723b1ebe00e", null ],
+    [ "timer", "d7/d23/a19504.html#a198a3a5a4ad037b591fc3b85675bdfe1", null ]
 ];

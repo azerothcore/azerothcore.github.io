@@ -1,7 +1,8 @@
 var a28392 =
 [
-    [ "HandleDummy", "d0/d27/a28392.html#aef93741620dcf29179502f88891ad0b5", null ],
-    [ "Load", "d0/d27/a28392.html#ab8e5dcd009cca538c9921dcb9c5fe109", null ],
-    [ "PrepareSpellScript", "d0/d27/a28392.html#ac92fd133395705e4cb3730bc96e1f787", null ],
-    [ "Register", "d0/d27/a28392.html#a69336bea35240c0014693ae167d4124b", null ]
+    [ "prepareLoadedData", "d0/d27/a28392.html#a696cfebd8fe66840b316919519e9b319", null ],
+    [ "fcc", "d0/d27/a28392.html#a83cb69fb9eb6eff82a513c75301e5bf6", null ],
+    [ "fcc_txt", "d0/d27/a28392.html#a9c7e27f948978d771115ca4f88f70b5d", null ],
+    [ "height_map", "d0/d27/a28392.html#a50a7fa80b59ba9c0fcd8d93bd924a13f", null ],
+    [ "size", "d0/d27/a28392.html#add2809c6e520cf4aa43807d61f973f0e", null ]
 ];

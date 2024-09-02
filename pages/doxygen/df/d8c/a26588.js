@@ -1,6 +1,8 @@
 var a26588 =
 [
-    [ "HandleDummy", "df/d8c/a26588.html#ac7084a563e98760d58dfbcafdd7cde11", null ],
-    [ "PrepareSpellScript", "df/d8c/a26588.html#a465da282630352a289d5daae7ccb1d01", null ],
-    [ "Register", "df/d8c/a26588.html#ae668f0c45a74d56d1be5be29309c9f6d", null ]
+    [ "CheckFireTotem", "df/d8c/a26588.html#a9d6b4368f5c72b95c25415ea87575fce", null ],
+    [ "HandleDummy", "df/d8c/a26588.html#a179d07e7090cec396a7845754e545e8e", null ],
+    [ "PrepareSpellScript", "df/d8c/a26588.html#a8311cc106da26267e90acd98698cb737", null ],
+    [ "Register", "df/d8c/a26588.html#abae5a4961888e6ba2d876e450307e362", null ],
+    [ "Validate", "df/d8c/a26588.html#a2048b0e43dbe2df6e4dfc42d912a74a7", null ]
 ];

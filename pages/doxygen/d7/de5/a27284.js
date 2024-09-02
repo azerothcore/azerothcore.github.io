@@ -1,7 +1,10 @@
 var a27284 =
 [
-    [ "HandleStun", "d7/de5/a27284.html#aec7b18c9fe4d03e6e61dd2e43c842a93", null ],
-    [ "PrepareAuraScript", "d7/de5/a27284.html#a26bf4bfdbe5ccf890d75bc663f228639", null ],
-    [ "Register", "d7/de5/a27284.html#a660a0e41ac5918cd365f4c47fea9c230", null ],
-    [ "Validate", "d7/de5/a27284.html#a4e89cdbc719b32576f57dd6f7e5d3f2a", null ]
+    [ "guard_shattrath_scryerAI", "d7/de5/a27284.html#a97accbf467ca1190f8a05512b3857164", null ],
+    [ "Reset", "d7/de5/a27284.html#adfcd8bce42148d303fe6ec9b615ffdb1", null ],
+    [ "UpdateAI", "d7/de5/a27284.html#ad759cca08b0093522e190ddc038e2c73", null ],
+    [ "banishTimer", "d7/de5/a27284.html#aa9aa3c2e7e69df5899c84ebde1e357bd", null ],
+    [ "canTeleport", "d7/de5/a27284.html#a84188b40b44deae5714466bb23bf2f0d", null ],
+    [ "exileTimer", "d7/de5/a27284.html#a97fbc3f54c23049fd91ad432cd560698", null ],
+    [ "playerGUID", "d7/de5/a27284.html#adb40d8bbc97a6a1fa0f4e303db470db2", null ]
 ];

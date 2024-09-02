@@ -1,6 +1,5 @@
 var a19132 =
 [
-    [ "spell_the_lich_king_valkyr_target_search_SpellScript", "d2/d5e/a19136.html", "d2/d5e/a19136" ],
-    [ "spell_the_lich_king_valkyr_target_search", "d2/d7a/a19132.html#a5b53ce85c187c974cf558a79ca3982d3", null ],
-    [ "GetSpellScript", "d2/d7a/a19132.html#aae2aaab8b721f5c39a8851d23c800635", null ]
+    [ "go_the_focusing_iris", "d2/d7a/a19132.html#a9c2fa1e739ff98ebdd9b9fdcc2ab5ece", null ],
+    [ "OnGossipHello", "d2/d7a/a19132.html#a7f3f1170713d63f912ca5732453a7e33", null ]
 ];

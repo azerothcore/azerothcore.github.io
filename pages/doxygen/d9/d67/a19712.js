@@ -1,5 +1,6 @@
 var a19712 =
 [
-    [ "PrepareAuraScript", "d9/d67/a19712.html#a4148aaaa652895971f00c0c75c8d6581", null ],
-    [ "Register", "d9/d67/a19712.html#a81eb93851fe05e9f316e268a0149c9ed", null ]
+    [ "npc_auriaya_sanctum_sentryAI", "db/d39/a19716.html", "db/d39/a19716" ],
+    [ "npc_auriaya_sanctum_sentry", "d9/d67/a19712.html#aa275374ba3a19a2e6a8768d4f01752b2", null ],
+    [ "GetAI", "d9/d67/a19712.html#a6a8843d3f24378a2fd334e773618ab72", null ]
 ];

@@ -1,9 +1,10 @@
 var a23164 =
 [
-    [ "npc_archmage_landalockAI", "d5/d2d/a23164.html#a8e2b48a9cf243b0d6f11286cf1e301c8", null ],
-    [ "GetImageEntry", "d5/d2d/a23164.html#ae09841969253c0baf72cc235b6fa058e", null ],
-    [ "JustSummoned", "d5/d2d/a23164.html#af9016bfeca3db7611fdafe4337e5f64a", null ],
-    [ "UpdateAI", "d5/d2d/a23164.html#abad2f45c0a5c43cc7aa7867a0291133d", null ],
-    [ "_summonGUID", "d5/d2d/a23164.html#a8b59c414dfd46209dcc3d00531e2b98b", null ],
-    [ "_switchImageTimer", "d5/d2d/a23164.html#a5e2fb6556bbb5cf22b77a72e9ccbc548", null ]
+    [ "boss_morogrim_tidewalker", "d5/d2d/a23164.html#a138a200da298f64697e2e47fb8004ccb", null ],
+    [ "JustDied", "d5/d2d/a23164.html#a139d87e7cffe03183538eb493e063195", null ],
+    [ "JustEngagedWith", "d5/d2d/a23164.html#a3244672aeb994673e1f46708699bcc2c", null ],
+    [ "JustSummoned", "d5/d2d/a23164.html#a2b669007520094948138c95468b77f9f", null ],
+    [ "KilledUnit", "d5/d2d/a23164.html#a2db94919e6d6f3d4eda4addc4248976e", null ],
+    [ "Reset", "d5/d2d/a23164.html#a78ed1d1f8c55407497a4fb679587975d", null ],
+    [ "_recentlySpoken", "d5/d2d/a23164.html#a63edb4b20baa9e1cf5238c3db5974c56", null ]
 ];

@@ -1,7 +1,15 @@
 var a16684 =
 [
-    [ "npc_toc_rogueAI", "d6/ddf/a16684.html#a34027e7d10edbfba8e046f4785e37899", null ],
-    [ "myCanCast", "d6/ddf/a16684.html#a85ed8e251dd8356e678536f1e3f3c93d", null ],
-    [ "UpdateAI", "d6/ddf/a16684.html#a49b0655def227684f07bd60a3c1e0ce1", null ],
-    [ "events", "d6/ddf/a16684.html#a1519bebb81b64d57b2b0b34a059b83f8", null ]
+    [ "boss_falricAI", "d6/ddf/a16684.html#a8b333fe1571f98b4e9f44152d130a22d", null ],
+    [ "DoAction", "d6/ddf/a16684.html#a2a7de8f939cd3cdc113c841da36e28c8", null ],
+    [ "EnterEvadeMode", "d6/ddf/a16684.html#aacb6a3b13fe5ea08ab2ff0e77ff841a4", null ],
+    [ "JustDied", "d6/ddf/a16684.html#a4ee3163afcda23102d639740fd628f39", null ],
+    [ "JustEngagedWith", "d6/ddf/a16684.html#ae5a8b14e1984dbd2866af7c442c02df2", null ],
+    [ "KilledUnit", "d6/ddf/a16684.html#a4a8b45eb85c1328af6beec69f2db1842", null ],
+    [ "Reset", "d6/ddf/a16684.html#a0af8ef161bc2a37a5c7f7fa880194251", null ],
+    [ "UpdateAI", "d6/ddf/a16684.html#a640036111dcd14e40016342ffdef7d63", null ],
+    [ "events", "d6/ddf/a16684.html#aa94ca00db157378071b78142b213de23", null ],
+    [ "pInstance", "d6/ddf/a16684.html#aebeae3541bbbf392c44fd52516bb2d98", null ],
+    [ "startFightTimer", "d6/ddf/a16684.html#addd560074b840aed36f41883f893340e", null ],
+    [ "uiHopelessnessCount", "d6/ddf/a16684.html#a0ad83fb57263116a59976834c6667ea9", null ]
 ];

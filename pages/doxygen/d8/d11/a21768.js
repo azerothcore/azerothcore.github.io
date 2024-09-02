@@ -1,8 +1,6 @@
 var a21768 =
 [
-    [ "HandleEffectPeriodic", "d8/d11/a21768.html#ade51556206853c273950937e52447f41", null ],
-    [ "Load", "d8/d11/a21768.html#a81f9c53e3052932fbdc93ef74e4b8df3", null ],
-    [ "PrepareAuraScript", "d8/d11/a21768.html#abacc5a8478bb665fe406fdf8ff0a7543", null ],
-    [ "Register", "d8/d11/a21768.html#a7ee06daf1f6f0716588025880a4a3931", null ],
-    [ "lastOrientation", "d8/d11/a21768.html#a349426d5f23a7da8fbc645b72a234479", null ]
+    [ "GhoulTargetCheck", "d8/d11/a21768.html#acd743b2b1407c5171fbf410a02ff07bf", null ],
+    [ "operator()", "d8/d11/a21768.html#a6722cfe5a1ceecccf2c07924b2975f46", null ],
+    [ "_alive", "d8/d11/a21768.html#ab44092ca1cd6d7c17d7c63e0a8333453", null ]
 ];

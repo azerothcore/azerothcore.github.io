@@ -1,8 +1,10 @@
 var a15348 =
 [
-    [ "npc_injured_draeneiAI", "d1/dac/a15348.html#a6832ec8b005e75ff66b0fd04e5ff3daa", null ],
-    [ "JustEngagedWith", "d1/dac/a15348.html#adcc5750f0ab037a7ac38b9fa64b75a74", null ],
-    [ "MoveInLineOfSight", "d1/dac/a15348.html#a514556f4a81c6f1f8b7caaa526c08662", null ],
-    [ "Reset", "d1/dac/a15348.html#adcb601f739a91ce71926791885152471", null ],
-    [ "UpdateAI", "d1/dac/a15348.html#af4d723ac0a95f9dad12e82d5bc987f50", null ]
+    [ "npc_thrall_warchiefAI", "d1/dac/a15348.html#ada9c79c1591a8bd28c66329dc7c5d3dc", null ],
+    [ "DoAction", "d1/dac/a15348.html#a511da19703e30f6e82e59c5223bf2770", null ],
+    [ "JustEngagedWith", "d1/dac/a15348.html#a994a9030e2d8c5afaa66c21897e54f82", null ],
+    [ "Reset", "d1/dac/a15348.html#a920a29258228c9c2e7e0791d38b648e1", null ],
+    [ "UpdateAI", "d1/dac/a15348.html#a537ed9f2d0a638d01e877d9ca1e7fdf0", null ],
+    [ "ChainLightningTimer", "d1/dac/a15348.html#ab30df9277fc84f098e0bdd70a2ab3795", null ],
+    [ "ShockTimer", "d1/dac/a15348.html#aa8609f8824f68ce7259465284c01dd35", null ]
 ];

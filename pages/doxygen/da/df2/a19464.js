@@ -1,6 +1,6 @@
 var a19464 =
 [
-    [ "spell_valithria_suppression_AuraScript", "d1/d8c/a19468.html", "d1/d8c/a19468" ],
-    [ "spell_valithria_suppression", "da/df2/a19464.html#a140ec1f4218fc4d6b10ff69d5b9a0039", null ],
-    [ "GetAuraScript", "da/df2/a19464.html#a6c37b9d6dda06b5a039bab9ef265c0cb", null ]
+    [ "boss_maiden_of_griefAI", "d1/d8c/a19468.html", "d1/d8c/a19468" ],
+    [ "boss_maiden_of_grief", "da/df2/a19464.html#a8361e4961ac1da09b803ca9e7fc67f95", null ],
+    [ "GetAI", "da/df2/a19464.html#af8d2e6392a0c73add801910945b2558e", null ]
 ];

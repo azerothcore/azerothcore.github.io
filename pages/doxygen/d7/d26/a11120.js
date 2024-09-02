@@ -1,6 +1,7 @@
 var a11120 =
 [
-    [ "player_settings_commandscript", "d7/d26/a11120.html#ab8585064d4d358d7d48eed97379a3a78", null ],
-    [ "GetCommands", "d7/d26/a11120.html#ae545918310d22b4e66e4a668bbb7ba58", null ],
-    [ "HandleSettingsAnnouncerFlags", "d7/d26/a11120.html#af505117caa66ed4222e52ff91c486b6e", null ]
+    [ "StringTransaction", "d7/d26/a11120.html#aef82d603733e7cb0636d95abea9e6cdc", null ],
+    [ "Append", "d7/d26/a11120.html#a0d1d9db61a1b3658c3d0fde37e2a4c5e", null ],
+    [ "GetBuffer", "d7/d26/a11120.html#a7cb52c3e029cdb971dfbb4048ade25a0", null ],
+    [ "_buf", "d7/d26/a11120.html#a4ec7dd27d7a2321cd1cead11ca78c1ef", null ]
 ];

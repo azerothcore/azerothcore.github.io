@@ -1,6 +1,6 @@
 var a25872 =
 [
-    [ "instance_the_eye_InstanceMapScript", "da/d07/a25876.html", "da/d07/a25876" ],
-    [ "instance_the_eye", "d1/d7a/a25872.html#a685064ba70095a3fc27ae1a8b33d3c88", null ],
-    [ "GetInstanceScript", "d1/d7a/a25872.html#a811c7d161469f33ce4fb7d792ce30a4e", null ]
+    [ "CheckProc", "d1/d7a/a25872.html#aa8a8c89cf55ab6796a81671d0312a481", null ],
+    [ "PrepareAuraScript", "d1/d7a/a25872.html#a9c88f86a4edafda286725008ecfeab6c", null ],
+    [ "Register", "d1/d7a/a25872.html#ad75f33c72dff282e4a8976c92e0b4e76", null ]
 ];

@@ -1,6 +1,6 @@
 var a19728 =
 [
-    [ "HandleDummy", "d9/dea/a19728.html#a980fb0a8677fde5191a3df100a4a882a", null ],
-    [ "PrepareSpellScript", "d9/dea/a19728.html#a9fb7becd69b9f5ceed36c81e84916558", null ],
-    [ "Register", "d9/dea/a19728.html#a6c81b47089d26065bce2abbf5f5f6169", null ]
+    [ "FilterTargets", "d9/dea/a19728.html#a38c693dd3d8fb7e04fc1e26359f12399", null ],
+    [ "PrepareSpellScript", "d9/dea/a19728.html#a86c4bb91547d8ea7eebb8e4d7bfd592e", null ],
+    [ "Register", "d9/dea/a19728.html#a4e803984a3eded2736825f631786c204", null ]
 ];

@@ -1,6 +1,6 @@
 var a14800 =
 [
-    [ "boss_epoch_hunterAI", "d6/d09/a14804.html", "d6/d09/a14804" ],
-    [ "boss_epoch_hunter", "d7/d0b/a14800.html#a38846bf4e6d37427d06f603eeb7b990d", null ],
-    [ "GetAI", "d7/d0b/a14800.html#aed0907f30bc8549a10db30d5deaea10c", null ]
+    [ "HandleDummyHitTarget", "d7/d0b/a14800.html#ae773d73496578170061baedd8f7daec1", null ],
+    [ "PrepareSpellScript", "d7/d0b/a14800.html#a822fe6d19c2ee0d02dc5561b4f910cf9", null ],
+    [ "Register", "d7/d0b/a14800.html#a651cc94581130224ba23e864f8ad7060", null ]
 ];

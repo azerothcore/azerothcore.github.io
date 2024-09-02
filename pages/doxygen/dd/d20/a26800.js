@@ -1,7 +1,8 @@
 var a26800 =
 [
-    [ "AfterApply", "dd/d20/a26800.html#a1849f49a9682627753b8bd39b3ff827e", null ],
-    [ "AfterRemove", "dd/d20/a26800.html#a7c08bea735cd36840463aa942e7529b4", null ],
-    [ "PrepareAuraScript", "dd/d20/a26800.html#ad27880f797137cae09381e860727e2f7", null ],
-    [ "Register", "dd/d20/a26800.html#a6c105609c1ee61a8f845018550b2e3ba", null ]
+    [ "CheckProc", "dd/d20/a26800.html#a8a61fbd855294e6218cfc0e2dd3706c9", null ],
+    [ "OnProc", "dd/d20/a26800.html#a9217135a55d6612bf1d36b63ac09e7fb", null ],
+    [ "PrepareAuraScript", "dd/d20/a26800.html#a8bf573bb900773d4669708536b0b8011", null ],
+    [ "Register", "dd/d20/a26800.html#ae8ddcb6329088f904cbae3292ff92023", null ],
+    [ "Validate", "dd/d20/a26800.html#a918c9334b7f20710c0d6448a33c94601", null ]
 ];

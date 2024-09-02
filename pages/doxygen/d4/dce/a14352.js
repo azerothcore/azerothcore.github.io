@@ -1,5 +1,6 @@
 var a14352 =
 [
-    [ "go_midsummer_bonfire", "d4/dce/a14352.html#a24ad1c4bb5ad5da56cc8bc4d6a4db812", null ],
-    [ "OnGossipSelect", "d4/dce/a14352.html#aa6f26db657350bb7fb3053365597e2ad", null ]
+    [ "OnAuraRemove", "d4/dce/a14352.html#ad16e8b64999771154360afad71454c07", null ],
+    [ "PrepareAuraScript", "d4/dce/a14352.html#a70963be80861e10ecd093e40b77e7078", null ],
+    [ "Register", "d4/dce/a14352.html#a7381cbea873fb57485e4539aa478d236", null ]
 ];

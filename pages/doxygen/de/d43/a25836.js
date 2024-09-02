@@ -1,6 +1,8 @@
 var a25836 =
 [
-    [ "lapseTeleport", "de/d43/a25836.html#a55c4330397214bf3a43628b3067d4634", null ],
-    [ "Execute", "de/d43/a25836.html#a122023ed13fce2f5bb3721e459964443", null ],
-    [ "_owner", "de/d43/a25836.html#a0e678c5cdb862390ea50c8d6057b7093", null ]
+    [ "HandleScript", "de/d43/a25836.html#ad99c741ef4bf707ec4b4726a3610d827", null ],
+    [ "Load", "de/d43/a25836.html#ab7aac5c557c76fdd195565a99d746dc9", null ],
+    [ "PrepareSpellScript", "de/d43/a25836.html#abb6e76d537d61b5b38ce4488d230d6de", null ],
+    [ "Register", "de/d43/a25836.html#a2f7e819dfa30f4f0d3645fde9c87408c", null ],
+    [ "Validate", "de/d43/a25836.html#a0767c66cbc288bee6ee0eb3a4fde315f", null ]
 ];

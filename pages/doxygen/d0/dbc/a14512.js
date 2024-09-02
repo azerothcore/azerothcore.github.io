@@ -1,6 +1,6 @@
 var a14512 =
 [
-    [ "boss_archimondeAI", "d5/d12/a14516.html", "d5/d12/a14516" ],
-    [ "boss_archimonde", "d0/dbc/a14512.html#aac5df4112555c9c383bfc20f82309e9a", null ],
-    [ "GetAI", "d0/dbc/a14512.html#a1fd6f09225d5621ed4502421c4af00c5", null ]
+    [ "instance_mount_hyjal_InstanceMapScript", "d5/d12/a14516.html", "d5/d12/a14516" ],
+    [ "instance_hyjal", "d0/dbc/a14512.html#ade946c0fcaa4bad790bfcb4b6ffb6420", null ],
+    [ "GetInstanceScript", "d0/dbc/a14512.html#ae6e39933d7cfd6563f6d37636f1c6f68", null ]
 ];

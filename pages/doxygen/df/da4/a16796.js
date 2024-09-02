@@ -1,6 +1,8 @@
 var a16796 =
 [
-    [ "boss_dreadscaleAI", "d1/dee/a16800.html", "d1/dee/a16800" ],
-    [ "boss_dreadscale", "df/da4/a16796.html#ab3276e515419303358b0ee59bc92c12e", null ],
-    [ "GetAI", "df/da4/a16796.html#ab8c8cebfa6843404338ea5bc3ac8f3f7", null ]
+    [ "npc_hor_raging_ghoulAI", "df/da4/a16796.html#ac4b2b3acf8a7acda73c7158f1565a274", null ],
+    [ "JustDied", "df/da4/a16796.html#a70e581c9b3f7d88d497c1540ac9ca04c", null ],
+    [ "Reset", "df/da4/a16796.html#aa52576d94e230797209dfc938d62187f", null ],
+    [ "UpdateAI", "df/da4/a16796.html#ac7c8571eac32f722a5fb0c28092b7e8f", null ],
+    [ "leaped", "df/da4/a16796.html#a12f6e6d5911b2b8b9caa01a9a83570bc", null ]
 ];

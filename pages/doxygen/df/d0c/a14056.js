@@ -1,9 +1,7 @@
 var a14056 =
 [
-    [ "npc_razzashi_cobra_venoxis_AI", "df/d0c/a14056.html#afa5537cc6c08cc8295abdea34adc7b8a", null ],
-    [ "GetVenoxis", "df/d0c/a14056.html#a8462d80d556c69f55cbfc1c1c7d0b9e7", null ],
-    [ "JustEngagedWith", "df/d0c/a14056.html#ac125c8fb2c07ba4b1a02a121772540d3", null ],
-    [ "Reset", "df/d0c/a14056.html#ae80222986aa07a5dea07162e52547ff2", null ],
-    [ "UpdateAI", "df/d0c/a14056.html#a48d128b45e3a1688b7950c7bbe8c3add", null ],
-    [ "events", "df/d0c/a14056.html#af21e3d72eb47ecad3e08633f802d1c50", null ]
+    [ "npc_direbrew_minion", "df/d0c/a14056.html#aaac7d1b1a464ea7ff1ec18ace11d54b7", null ],
+    [ "IsSummonedBy", "df/d0c/a14056.html#a78d40e0f2a285b0b9c257f12876eabeb", null ],
+    [ "Reset", "df/d0c/a14056.html#a21fb7a778e9025ca4185951460a96d08", null ],
+    [ "_instance", "df/d0c/a14056.html#aeea9f455c014afa347ce0c3f106ebdb6", null ]
 ];

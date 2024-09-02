@@ -1,5 +1,8 @@
 var a19856 =
 [
-    [ "creatureEntry", "de/d81/a19856.html#afab12c40af70303dff2a9553d47dbb7d", null ],
-    [ "questId", "de/d81/a19856.html#ace2a7dd58d442b6afb2173311c89593b", null ]
+    [ "OnApply", "de/d81/a19856.html#a5aec8606684637bbdb1e819254f5d483", null ],
+    [ "OnRemove", "de/d81/a19856.html#add485a2fd5fdd068d7258d3c9c0d9c2b", null ],
+    [ "PrepareAuraScript", "de/d81/a19856.html#adcc21606209dc2f32c1173c7ab4c5579", null ],
+    [ "Register", "de/d81/a19856.html#af1db6ca387cf0733ba4b9c324172d692", null ],
+    [ "Validate", "de/d81/a19856.html#a332d01b39295ea9a11773be9aa9c3fb3", null ]
 ];

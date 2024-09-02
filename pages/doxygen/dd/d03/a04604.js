@@ -1,10 +1,11 @@
 var a04604 =
 [
-    [ "MMAP::MapTiles", "da/d4d/a28567.html", "da/d4d/a28567" ],
-    [ "MMAP::Tile", "db/dcb/a28571.html", "db/dcb/a28571" ],
-    [ "MMAP::TileConfig", "d4/d8a/a28575.html", "d4/d8a/a28575" ],
-    [ "MMAP::TileInfo", "dd/dd3/a28579.html", "dd/dd3/a28579" ],
-    [ "MMAP::TileBuilder", "d6/d18/a28583.html", "d6/d18/a28583" ],
-    [ "MMAP::MapBuilder", "dc/d40/a28587.html", "dc/d40/a28587" ],
-    [ "TileList", "dd/d03/a04604.html#aa2aae6f254337f29866a5d240d5ec2b1", null ]
+    [ "ADT::MDDF", "d4/d60/a28584.html", "d4/d60/a28584" ],
+    [ "ADT::MODF", "d3/d73/a28588.html", "d3/d73/a28588" ],
+    [ "ADTFile", "dd/def/a28592.html", "dd/def/a28592" ],
+    [ "fixname2", "dd/d03/a04604.html#ac0029be4572a61d00eb1435db5526a74", null ],
+    [ "fixnamen", "dd/d03/a04604.html#abdc56edc46e0804c456749761cff8daf", null ],
+    [ "GetExtension", "dd/d03/a04604.html#ac3f75fc482c41471364c2c3e8bd1dd96", null ],
+    [ "GetPlainName", "dd/d03/a04604.html#a5e577b4c8e75312883ba4e8c571908ca", null ],
+    [ "GetPlainName", "dd/d03/a04604.html#a05f8969fb6d17548033afc24b906a83f", null ]
 ];

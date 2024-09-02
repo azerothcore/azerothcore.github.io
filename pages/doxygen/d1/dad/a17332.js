@@ -1,8 +1,6 @@
 var a17332 =
 [
-    [ "boss_krickAI", "d1/dad/a17332.html#ac085bae551fd4d9e48b05481a86cca9f", null ],
-    [ "DoAction", "d1/dad/a17332.html#ace248881cb71c1e91f33ff93489b6f3f", null ],
-    [ "UpdateAI", "d1/dad/a17332.html#aea8dd89c8e4de1bebd94a26ead852119", null ],
-    [ "events", "d1/dad/a17332.html#a75349e2fc35832e7944fa4f772380baa", null ],
-    [ "pInstance", "d1/dad/a17332.html#aecc2cdee32c4e4fa14ecaeca9b3eb65f", null ]
+    [ "npc_icc_blood_beastAI", "d3/d36/a17336.html", "d3/d36/a17336" ],
+    [ "npc_icc_blood_beast", "d1/dad/a17332.html#ac6de0dfe16f39d192f1e49d3ab444d5a", null ],
+    [ "GetAI", "d1/dad/a17332.html#adf18d561b5d1c4c89e7f2ccb10f99492", null ]
 ];

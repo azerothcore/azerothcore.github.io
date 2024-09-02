@@ -1,9 +1,6 @@
 var a23068 =
 [
-    [ "npc_warmage_coldarraAI", "df/dbc/a23068.html#a9a8c2afff61ad8457aab8a9c23a4b755", null ],
-    [ "AttackStart", "df/dbc/a23068.html#a41277824ae3f6bd9a099894b6dfc7537", null ],
-    [ "JustEngagedWith", "df/dbc/a23068.html#a23a8999e34142201c6ceadc64a3df6c2", null ],
-    [ "Reset", "df/dbc/a23068.html#adf5094ba2bee34ec793124e798d5af8f", null ],
-    [ "UpdateAI", "df/dbc/a23068.html#a14b221265cc38b4061c52b687274a398", null ],
-    [ "m_uiTimer", "df/dbc/a23068.html#a338ad26d40d395dfc6ed7e8fedcc6d60", null ]
+    [ "OnPeriodic", "df/dbc/a23068.html#a4d3d6350a06b6c7382792670c04e38e1", null ],
+    [ "PrepareAuraScript", "df/dbc/a23068.html#ac9231c238adf7e733d55bc6098daddc0", null ],
+    [ "Register", "df/dbc/a23068.html#aa6aa32b3adc89ac405f071fa9b804778", null ]
 ];

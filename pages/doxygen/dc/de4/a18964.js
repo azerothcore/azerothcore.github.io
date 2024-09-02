@@ -1,6 +1,7 @@
 var a18964 =
 [
-    [ "npc_tirion_fordringAI", "de/db5/a18968.html", "de/db5/a18968" ],
-    [ "npc_tirion_fordring_tft", "dc/de4/a18964.html#a04036d958e7ac643c9ba8d9073bca404", null ],
-    [ "GetAI", "dc/de4/a18964.html#a41dcfa415831091531cbf46e946f442d", null ]
+    [ "OnPeriodic", "dc/de4/a18964.html#ae685e9d36b85af8a7e33cefbd439a2f4", null ],
+    [ "PrepareAuraScript", "dc/de4/a18964.html#a1362103840db4b3c40ef7d6b0aa5226c", null ],
+    [ "Register", "dc/de4/a18964.html#a39b03ebd7f6233f373f52e34f18dad10", null ],
+    [ "Validate", "dc/de4/a18964.html#a54cfed486827216817adb740efa6646e", null ]
 ];

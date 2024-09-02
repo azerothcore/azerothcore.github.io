@@ -1,7 +1,6 @@
 var a27132 =
 [
-    [ "HandleScript", "d1/d72/a27132.html#ad1ca4c264e1f89adf479254e6436dd55", null ],
-    [ "Load", "d1/d72/a27132.html#a66db2b82a0f014e49bbfeeaade4d1731", null ],
-    [ "PrepareSpellScript", "d1/d72/a27132.html#a7616d761e7a7a708c88918302b488bb9", null ],
-    [ "Register", "d1/d72/a27132.html#a8ca351c9e0e254369328865eefa3ff91", null ]
+    [ "go_heatAI", "d1/d72/a27132.html#a40e4ec3294126aaf3fc6875aa8b39f0a", null ],
+    [ "UpdateAI", "d1/d72/a27132.html#a2332206ee47b2cea9e4707d16ea79325", null ],
+    [ "timer", "d1/d72/a27132.html#a4f01692c9f39e2a40d2d5f9c22e0ac43", null ]
 ];

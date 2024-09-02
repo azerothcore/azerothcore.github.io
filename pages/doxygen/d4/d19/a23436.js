@@ -1,9 +1,10 @@
 var a23436 =
 [
-    [ "npc_wounded_skirmisher", "d4/d19/a23436.html#a30fe2d901df0cfd9b66f3dbd6a1e6aea", null ],
-    [ "Initialize", "d4/d19/a23436.html#ae5fab920fcb16b57e0ed53a1177d319b", null ],
-    [ "JustEngagedWith", "d4/d19/a23436.html#a80357b71a1eccdcdce8c8bea87de1b66", null ],
-    [ "Reset", "d4/d19/a23436.html#acca266640c099718d2a0fd4f6a3c47ab", null ],
-    [ "SpellHit", "d4/d19/a23436.html#a891e879af5da1f181c94e528c59a81f1", null ],
-    [ "UpdateAI", "d4/d19/a23436.html#a52f8e7f8df05504cad4b4438c50814a4", null ]
+    [ "boss_blindeye_the_seer", "d4/d19/a23436.html#a8b95c6f0a822adf018c5aefe59ecef5b", null ],
+    [ "JustDied", "d4/d19/a23436.html#ad70a72b18587da82d26bde8f10d63700", null ],
+    [ "JustEngagedWith", "d4/d19/a23436.html#a0cf082eefe75eac19cc09d2f714d5ff1", null ],
+    [ "Reset", "d4/d19/a23436.html#aabbda75266615f64ce88ce092e68bfa4", null ],
+    [ "UpdateAI", "d4/d19/a23436.html#a8ff8ae03cc528b9a2c71cfc2c7ff3f88", null ],
+    [ "_scheduler", "d4/d19/a23436.html#a0c5ec6cf114a289e22d890c61d4bdc93", null ],
+    [ "instance", "d4/d19/a23436.html#a74462f26d66da3ca370825858060b1c2", null ]
 ];

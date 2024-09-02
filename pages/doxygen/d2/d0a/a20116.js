@@ -1,6 +1,6 @@
 var a20116 =
 [
-    [ "boss_maexxna_webwrapAI", "d6/db4/a20120.html", "d6/db4/a20120" ],
-    [ "boss_maexxna_webwrap", "d2/d0a/a20116.html#afebd8c00234fe6cdd93af8ae443bb637", null ],
-    [ "GetAI", "d2/d0a/a20116.html#a6d86d58a86b831a219ecc598044be4f3", null ]
+    [ "npc_ulduar_hodir_mageAI", "d6/db4/a20120.html", "d6/db4/a20120" ],
+    [ "npc_ulduar_hodir_mage", "d2/d0a/a20116.html#afebdd0f99f0c7eaaf0a2d5731335105d", null ],
+    [ "GetAI", "d2/d0a/a20116.html#abcbe0337b2a83b6eb0a64f7465d7f79a", null ]
 ];

@@ -1,8 +1,9 @@
 var a19500 =
 [
-    [ "npc_rotting_frost_giantAI", "d5/df0/a19500.html#a7b412075e17a81bf50aba63f96c16e53", null ],
-    [ "JustDied", "d5/df0/a19500.html#a68b4e823de82fdfd31ccf765192e8768", null ],
-    [ "Reset", "d5/df0/a19500.html#ae96994e7c02a1fb8df8ef9fe80d7bc41", null ],
-    [ "UpdateAI", "d5/df0/a19500.html#a7bb99a6ff894c085bf3fb2e2708f3914", null ],
-    [ "_events", "d5/df0/a19500.html#ab061ea54c2b36f6f1c2ec7841202e684", null ]
+    [ "boss_sjonnir_malformed_oozeAI", "d5/df0/a19500.html#a0624f769d0ce5a95ea2bb877811b0409", null ],
+    [ "JustEngagedWith", "d5/df0/a19500.html#a9e6527bc46d7b685d938833d18796cee", null ],
+    [ "MoveInLineOfSight", "d5/df0/a19500.html#a7449e135f088a2d4b22a423c71118093", null ],
+    [ "MovementInform", "d5/df0/a19500.html#ac04d90e974f85282737bb5081a123106", null ],
+    [ "UpdateAI", "d5/df0/a19500.html#afccd77c8e90d129fb3a347205a2102db", null ],
+    [ "events", "d5/df0/a19500.html#a73c135ec94b41a752fc203c5e20128d0", null ]
 ];

@@ -1,8 +1,9 @@
 var a08816 =
 [
-    [ "AllCreaturesOfEntryInRange", "d2/d1d/a08816.html#a02aca6b65bd5ea49d510bb8d901e1322", null ],
-    [ "operator()", "d2/d1d/a08816.html#a99f472f33c0e5a6a76d6ffc08af2783b", null ],
-    [ "m_fRange", "d2/d1d/a08816.html#a0cb7d140b51d52e0db5b8d9f70250ced", null ],
-    [ "m_pObject", "d2/d1d/a08816.html#ade8cc66e1cd421550d2674e3ad960f48", null ],
-    [ "m_uiEntry", "d2/d1d/a08816.html#abf653360d2ee482728fb137a37fe0512", null ]
+    [ "GridReference", "d2/d1d/a08816.html#a9c27f99f74cd0cc99b39f9a6ec614e83", null ],
+    [ "~GridReference", "d2/d1d/a08816.html#afd6a4f88eb066818afde1b752600bb12", null ],
+    [ "next", "d2/d1d/a08816.html#a792323f4b0f66b58d1f9dd0f65f26f0c", null ],
+    [ "sourceObjectDestroyLink", "d2/d1d/a08816.html#a96cb6e8287ceba4de31681bddb1e5838", null ],
+    [ "targetObjectBuildLink", "d2/d1d/a08816.html#a16dc6dc9a5a7bfcd5de9691ad469f5f8", null ],
+    [ "targetObjectDestroyLink", "d2/d1d/a08816.html#ac4c863d059b5c826e9597056dc7c887a", null ]
 ];

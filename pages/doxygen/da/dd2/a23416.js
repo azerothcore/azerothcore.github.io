@@ -1,9 +1,7 @@
 var a23416 =
 [
-    [ "npc_outhouse_bunnyAI", "da/dd2/a23416.html#a7f0696406ff6dd896150b022db96a436", null ],
-    [ "Reset", "da/dd2/a23416.html#a24672f4081bbecf31b1833c942c444da", null ],
-    [ "SetData", "da/dd2/a23416.html#a1d6920b16a46b6d22cb68292862c9de8", null ],
-    [ "SpellHit", "da/dd2/a23416.html#a471ad187b1ea540cd4f4fbe49d31f554", null ],
-    [ "_counter", "da/dd2/a23416.html#a0cf8bbf09409302c2d7896dae635fe37", null ],
-    [ "_gender", "da/dd2/a23416.html#a8430dc1c41821d3ca230f0ef1ce19afe", null ]
+    [ "HandleScriptEffect", "da/dd2/a23416.html#a534bf39998813f06c48bc920e4666692", null ],
+    [ "PrepareSpellScript", "da/dd2/a23416.html#a5892f20a0704596cb70a995a73846368", null ],
+    [ "Register", "da/dd2/a23416.html#a1176b4e4ad488a3b6b38ff4b8c955d64", null ],
+    [ "Validate", "da/dd2/a23416.html#af618314a13013eaf9f36b30047de0878", null ]
 ];

@@ -1,9 +1,7 @@
 var a21952 =
 [
-    [ "boss_thorim_gauntlet_npcsAI", "de/d72/a21952.html#aaa7e94f653a1db001cd0c962fb855098", null ],
-    [ "JustEngagedWith", "de/d72/a21952.html#afaf0a05b1fd2fc2187b52328340b65bb", null ],
-    [ "Reset", "de/d72/a21952.html#a9e4c25742785809d788f2e910f7840bc", null ],
-    [ "UpdateAI", "de/d72/a21952.html#a4dd5a9cbbb10d514a0473dfd7cdd3c29", null ],
-    [ "_isCaster", "de/d72/a21952.html#a104f447cc52c285d59653a8ebff20fef", null ],
-    [ "events", "de/d72/a21952.html#a650508e05b6fa1af538a0b34e04c8bf5", null ]
+    [ "npc_Apothecary_HanesAI", "de/d1a/a21956.html", "de/d1a/a21956" ],
+    [ "npc_apothecary_hanes", "de/d72/a21952.html#a90480bee491e8fe1c9e7b2c71aac28c8", null ],
+    [ "GetAI", "de/d72/a21952.html#a7f3f86efb9a6146b86aa5d882b751e1f", null ],
+    [ "OnQuestAccept", "de/d72/a21952.html#ae116e49b0e8865f9b5735e72c8c850fd", null ]
 ];

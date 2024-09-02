@@ -1,6 +1,5 @@
 var a18280 =
 [
-    [ "CheckProc", "d3/d41/a18280.html#a86e62fa26606a77284c80583e7b35d27", null ],
-    [ "PrepareAuraScript", "d3/d41/a18280.html#a2c10a09e9e5015eb4f3c66d5086dbe1a", null ],
-    [ "Register", "d3/d41/a18280.html#a6214f78c5c7eb3f60371fa12530d5991", null ]
+    [ "achievement_neck_deep_in_vile", "d3/d41/a18280.html#af0e54c236e7637d8c1a8cf7dbed5a195", null ],
+    [ "OnCheck", "d3/d41/a18280.html#a9861c008f302279a4ac5f4ddc14ca2d0", null ]
 ];

@@ -1,6 +1,6 @@
 var a12716 =
 [
-    [ "npc_scholomance_occultistAI", "df/d35/a12720.html", "df/d35/a12720" ],
-    [ "npc_scholomance_occultist", "d9/de6/a12716.html#adf100912a15ff8edf056efa7eebd13ff", null ],
-    [ "GetAI", "d9/de6/a12716.html#a5da2b011ec4859523c1f713dc18e4d5b", null ]
+    [ "boss_high_inquisitor_whitemaneAI", "df/d35/a12720.html", "df/d35/a12720" ],
+    [ "boss_high_inquisitor_whitemane", "d9/de6/a12716.html#aae73cc11aa89bdc8d908feeb05c68148", null ],
+    [ "GetAI", "d9/de6/a12716.html#af98b4901fb56c3cf27a86ad80891087a", null ]
 ];

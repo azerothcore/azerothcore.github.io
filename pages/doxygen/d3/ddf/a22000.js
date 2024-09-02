@@ -1,5 +1,9 @@
 var a22000 =
 [
-    [ "achievement_thorim_stand_in_the_lightning", "d3/ddf/a22000.html#a9339e89e4eb76151fdeacb6bcd53d7bc", null ],
-    [ "OnCheck", "d3/ddf/a22000.html#ade1aec4de4c503be5a62da3e6c35e90f", null ]
+    [ "npc_lord_areteAI", "d3/ddf/a22000.html#aebdbf8f4c2fe6948c78315e6b404119b", null ],
+    [ "InitializeAI", "d3/ddf/a22000.html#a22d0c3e2445bff2d742b28bd99f37394", null ],
+    [ "UpdateAI", "d3/ddf/a22000.html#a5cba8d4429ae191dd5b90ca5a4fe2866", null ],
+    [ "_landgrenGUID", "d3/ddf/a22000.html#ac0e3753096dfe779024acc8400791171", null ],
+    [ "_landgrenSoulGUID", "d3/ddf/a22000.html#aaa28c67691610136f0b418b30892f3cd", null ],
+    [ "events", "d3/ddf/a22000.html#ae4ec90b30320cf0aeaec4415c4125605", null ]
 ];

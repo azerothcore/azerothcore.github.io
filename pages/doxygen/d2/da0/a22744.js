@@ -1,6 +1,7 @@
 var a22744 =
 [
-    [ "npc_frozen_orbAI", "d6/df9/a22748.html", "d6/df9/a22748" ],
-    [ "npc_frozen_orb", "d2/da0/a22744.html#ac14966722e39b2b6b3a907756701ed98", null ],
-    [ "GetAI", "d2/da0/a22744.html#a2f9e1a2cb14ee9e5f24e02aa97697116", null ]
+    [ "VerasEnvenom", "d2/da0/a22744.html#ac8c5f4fcb63ea5141a71b56324de0b1f", null ],
+    [ "Execute", "d2/da0/a22744.html#a4b7853bb835cf28aefe2d5b955372d70", null ],
+    [ "_owner", "d2/da0/a22744.html#af9cf231119ab5592be9829784f20d2e0", null ],
+    [ "_targetGUID", "d2/da0/a22744.html#a90d62907c775565765fa87903adb94ea", null ]
 ];

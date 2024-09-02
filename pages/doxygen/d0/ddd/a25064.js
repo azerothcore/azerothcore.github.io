@@ -1,6 +1,6 @@
 var a25064 =
 [
-    [ "spell_leotheras_chaos_blast_SpellScript", "d7/dc9/a25068.html", "d7/dc9/a25068" ],
-    [ "spell_leotheras_chaos_blast", "d0/ddd/a25064.html#a998a155698c196da1d2fb835024d0e4f", null ],
-    [ "GetSpellScript", "d0/ddd/a25064.html#a81035fe33d4ebf27221d14ea6c95d6c9", null ]
+    [ "HandleDummy", "d0/ddd/a25064.html#a63bc85e32a1478d03b381c61a33d0dff", null ],
+    [ "PrepareSpellScript", "d0/ddd/a25064.html#adae41617f38a71ccec183f419d677cfd", null ],
+    [ "Register", "d0/ddd/a25064.html#a820e8b506de36a24411ae4a1c5930417", null ]
 ];

@@ -1,6 +1,6 @@
 var a19688 =
 [
-    [ "OnPeriodic", "d8/d6f/a19688.html#a8c5f8ae85a403dfb9e4459400f28cab9", null ],
-    [ "PrepareAuraScript", "d8/d6f/a19688.html#ae15814f85711e37564e5cbf275e9ecae", null ],
-    [ "Register", "d8/d6f/a19688.html#a1b4d681e1df57b26e4afbf7ee034c86f", null ]
+    [ "HandleInstaKill", "d8/d6f/a19688.html#a9371a2cc86616fd04e47939d45f01cae", null ],
+    [ "PrepareSpellScript", "d8/d6f/a19688.html#a38eed301f1db3ea7ac15b626e5927500", null ],
+    [ "Register", "d8/d6f/a19688.html#a9aaf3e86a2c14ee79cc013b3978621ee", null ]
 ];

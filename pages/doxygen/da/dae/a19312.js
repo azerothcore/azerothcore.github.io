@@ -1,7 +1,7 @@
 var a19312 =
 [
-    [ "AuraRemoveEvent", "da/dae/a19312.html#a094b9437c7cadb465738daf5684c9725", null ],
-    [ "Execute", "da/dae/a19312.html#a14ac906a0fcff86f61983c570b0bd6ad", null ],
-    [ "_spellId", "da/dae/a19312.html#a6fad41839e07e9545859be7c3afcfc36", null ],
-    [ "_trigger", "da/dae/a19312.html#aad8c27befc102dae6823d5d74fed50b4", null ]
+    [ "Apply", "da/dae/a19312.html#add8e95d38b0c437833c11cded72fe2a7", null ],
+    [ "PrepareAuraScript", "da/dae/a19312.html#ad2112b571d97e537983b4d11207015e6", null ],
+    [ "Register", "da/dae/a19312.html#accf85a0d8b2fad19bb0709013caa9f1b", null ],
+    [ "Validate", "da/dae/a19312.html#a0b89b10ee22d02655ad08a348ab91ecd", null ]
 ];

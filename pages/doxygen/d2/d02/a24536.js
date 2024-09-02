@@ -1,6 +1,7 @@
 var a24536 =
 [
-    [ "boss_reliquary_of_soulsAI", "da/db3/a24540.html", "da/db3/a24540" ],
-    [ "boss_reliquary_of_souls", "d2/d02/a24536.html#a0c73fc6221da0b19903e534932ca6406", null ],
-    [ "GetAI", "d2/d02/a24536.html#a55b717fe2b1bfdda84fec6c63852ae7c", null ]
+    [ "HandleDummy", "d2/d02/a24536.html#a54f7f56a9122b623855eb9d11e34dfca", null ],
+    [ "PrepareSpellScript", "d2/d02/a24536.html#a2fe4b009fa3741c180e18730af5853e3", null ],
+    [ "Register", "d2/d02/a24536.html#a762c2320ab8d48e1284d81962a4b078f", null ],
+    [ "Validate", "d2/d02/a24536.html#a42fbc381d7ae89f1ac265fb15ebd864f", null ]
 ];

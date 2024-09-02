@@ -1,6 +1,7 @@
 var a26820 =
 [
-    [ "HandleEffectCalcSpellMod", "d9/dbd/a26820.html#aaf21dafa72b58245f548ed946a49659d", null ],
-    [ "PrepareAuraScript", "d9/dbd/a26820.html#ac05d3ae466ad64ac590f399827aac0c9", null ],
-    [ "Register", "d9/dbd/a26820.html#a46a643985647d8a8e033b637b31214a5", null ]
+    [ "HandleDummy", "d9/dbd/a26820.html#a3af91500357eb127f813334bdf538dbd", null ],
+    [ "PrepareSpellScript", "d9/dbd/a26820.html#ae34ff5e6027efecc34fa770690df5887", null ],
+    [ "Register", "d9/dbd/a26820.html#add4e4d484008d1e1cf63e36c6b6e9757", null ],
+    [ "Validate", "d9/dbd/a26820.html#a0b107442c0b76a018cc019f776c0b785", null ]
 ];

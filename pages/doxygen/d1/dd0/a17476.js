@@ -1,6 +1,7 @@
 var a17476 =
 [
-    [ "spell_pos_glacial_strikeAuraScript", "d9/d40/a17480.html", "d9/d40/a17480" ],
-    [ "spell_pos_glacial_strike", "d1/dd0/a17476.html#a359a8215d419ac98af82226fcc89879f", null ],
-    [ "GetAuraScript", "d1/dd0/a17476.html#a76f93c3b958d40a413a28382ce9a69de", null ]
+    [ "npc_gunship_rocketeerAI", "d1/dd0/a17476.html#aa9e722f32cd95fff8c72db5a41d0e84c", null ],
+    [ "CanAIAttack", "d1/dd0/a17476.html#a4b4e2839e426bdb752beea09394f13dc", null ],
+    [ "MovementInform", "d1/dd0/a17476.html#a7dd7f3625b177a96bcfdc5e46d944562", null ],
+    [ "UpdateAI", "d1/dd0/a17476.html#af73d71750f116fb90be1c2acba75ca70", null ]
 ];

@@ -1,9 +1,8 @@
 var a15276 =
 [
-    [ "npc_ahnqiraji_critter", "de/dda/a15276.html#a60e2dc1c52579a410d3435126bf39684", null ],
-    [ "JustDied", "de/dda/a15276.html#a71d3d5262bde847a18932fea89cb6648", null ],
-    [ "JustEngagedWith", "de/dda/a15276.html#aca1df706306f9181db26cd77e5b66452", null ],
-    [ "Reset", "de/dda/a15276.html#a645e16e9da29f6579320394201d0ada7", null ],
-    [ "UpdateAI", "de/dda/a15276.html#a68c5ded8563c2de9429a13cdb7d38f89", null ],
-    [ "_scheduler", "de/dda/a15276.html#a020fabd57b6943b7ac3cf58605276a4d", null ]
+    [ "CheckRequirement", "de/dda/a15276.html#ae2b5e9accd0df2cc99e976eaab2d3f35", null ],
+    [ "HandleDummy", "de/dda/a15276.html#a6d2c75ad53f0e0f7be2df037f385d686", null ],
+    [ "PrepareSpellScript", "de/dda/a15276.html#a5b0a5f957a7b996cbe6b219a9803069e", null ],
+    [ "Register", "de/dda/a15276.html#a46f4aec6f7786d0abc8ded21ef16e6f6", null ],
+    [ "Validate", "de/dda/a15276.html#ab3f8d94f3b8d44e668743cb821430a92", null ]
 ];

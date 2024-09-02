@@ -1,9 +1,7 @@
 var a13464 =
 [
-    [ "npc_marzon_silent_bladeAI", "dc/dd7/a13464.html#a9f29c3b56e26421dabc2c95b8cd0407e", null ],
-    [ "EnterEvadeMode", "dc/dd7/a13464.html#a0b42596550d045f5ca0096ceee80c0ac", null ],
-    [ "JustEngagedWith", "dc/dd7/a13464.html#a116b3458f342811e378713e6a67f76a6", null ],
-    [ "MovementInform", "dc/dd7/a13464.html#a32201d45f0c19212becb6319a48366f8", null ],
-    [ "Reset", "dc/dd7/a13464.html#a51c2b16c767ce2922564dc9e4048e089", null ],
-    [ "UpdateAI", "dc/dd7/a13464.html#aa6686399b41d32429d530dcc2ec41185", null ]
+    [ "npc_jaina_proudmoore_bfuAI", "dc/dd7/a13464.html#ad5ad1d05ef8210409c700e47b5442e24", null ],
+    [ "Reset", "dc/dd7/a13464.html#a18de805428ce0954a5fbfffbf5975342", null ],
+    [ "UpdateAI", "dc/dd7/a13464.html#a48b191d0812bfe3212511a52ef0df817", null ],
+    [ "_events", "dc/dd7/a13464.html#a87e99e0b5fd0a3823b009025019b1fa4", null ]
 ];

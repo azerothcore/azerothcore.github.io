@@ -1,6 +1,7 @@
 var a25992 =
 [
-    [ "npc_nether_drakeAI", "d4/db9/a25996.html", "d4/db9/a25996" ],
-    [ "npc_nether_drake", "d4/d2c/a25992.html#a253ec3c91857b899ea9e2c824870b760", null ],
-    [ "GetAI", "d4/d2c/a25992.html#a58d269e2c73cae07bb507162b742fe8f", null ]
+    [ "HandleDummy", "d4/d2c/a25992.html#a82ff05f6150750ecb6ef3b5f8c40f703", null ],
+    [ "PrepareSpellScript", "d4/d2c/a25992.html#a6856f05f2cc25267f1d3023d3cb48dc2", null ],
+    [ "Register", "d4/d2c/a25992.html#adadd0254d68281ac1063bcc57574ed77", null ],
+    [ "Validate", "d4/d2c/a25992.html#a61923f636ad8b3d48eb2dbc6a1803527", null ]
 ];

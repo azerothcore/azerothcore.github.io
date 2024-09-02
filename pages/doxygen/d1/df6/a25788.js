@@ -1,6 +1,6 @@
 var a25788 =
 [
-    [ "spell_kaelthas_remote_toy_AuraScript", "df/d93/a25792.html", "df/d93/a25792" ],
-    [ "spell_kaelthas_remote_toy", "d1/df6/a25788.html#acea6eaf85a3a1c1231fd2059aac9796e", null ],
-    [ "GetAuraScript", "d1/df6/a25788.html#a96ffccb019408d11523f1ce9e39bd8f0", null ]
+    [ "HandleDummy", "d1/df6/a25788.html#af306009f2c418e898478720b9c4ad6ab", null ],
+    [ "PrepareSpellScript", "d1/df6/a25788.html#a44cb481fe93fd1c691495cc1ead35e5e", null ],
+    [ "Register", "d1/df6/a25788.html#af51e3b3cbfb469fa6230a36d8d5fcec7", null ]
 ];

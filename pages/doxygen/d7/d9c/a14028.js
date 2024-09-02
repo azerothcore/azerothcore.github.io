@@ -1,6 +1,9 @@
 var a14028 =
 [
-    [ "npc_zealot_lorkhanAI", "dc/db8/a14032.html", "dc/db8/a14032" ],
-    [ "npc_zealot_lorkhan", "d7/d9c/a14028.html#ab296b9eb5130f73c298eb317d996b411", null ],
-    [ "GetAI", "d7/d9c/a14028.html#a73bce7ca91726d58207112262d12d3fa", null ]
+    [ "CheckCast", "d7/d9c/a14028.html#a02965b55e8efadbd21e5afdd824f1dec", null ],
+    [ "FilterTargets", "d7/d9c/a14028.html#a9638048b4107db116474abf8e18d7760", null ],
+    [ "HandleBeforeHit", "d7/d9c/a14028.html#a3567c72e999ad6ca9db15b4d6ddadafb", null ],
+    [ "HandleScriptEffect", "d7/d9c/a14028.html#a47d6a6c1fcb2b04782e54d3797c1f42c", null ],
+    [ "PrepareSpellScript", "d7/d9c/a14028.html#aab9211291bd9dab8255d94e4eb07bf8e", null ],
+    [ "Register", "d7/d9c/a14028.html#a73e6c9c91dccb309207fa3aeb6bd9d6f", null ]
 ];

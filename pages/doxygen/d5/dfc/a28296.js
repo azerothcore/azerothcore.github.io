@@ -1,6 +1,9 @@
 var a28296 =
 [
-    [ "HandleScript", "d5/dfc/a28296.html#ae81570045d4984ee5682a0333b1b142d", null ],
-    [ "PrepareSpellScript", "d5/dfc/a28296.html#acb074781e07961998362349a7616fc4e", null ],
-    [ "Register", "d5/dfc/a28296.html#aaf41593da5ebb1118ccb10a5d4d32b26", null ]
+    [ "adtId", "d5/dfc/a28296.html#a9bf7e7dd9dd55e5b1ffeffb0ad3e92e0", null ],
+    [ "areaId", "d5/dfc/a28296.html#a7f652c68036429350543fc5a2cc6861e", null ],
+    [ "Flags", "d5/dfc/a28296.html#a60f9a61948d1e28587c9d1a338730f37", null ],
+    [ "groupId", "d5/dfc/a28296.html#a09052bad3028899580ffedd556672b64", null ],
+    [ "Id", "d5/dfc/a28296.html#a70e3e94df9d0b0b1c114ed1001768066", null ],
+    [ "rootId", "d5/dfc/a28296.html#a7997c7ac31abdb40f2e7f0e0a7e04403", null ]
 ];

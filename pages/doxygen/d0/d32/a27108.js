@@ -1,7 +1,5 @@
 var a27108 =
 [
-    [ "HandleScript", "d0/d32/a27108.html#a628fbc7ef23ce8f93d132f7bf518d4d8", null ],
-    [ "PrepareSpellScript", "d0/d32/a27108.html#a8e5aa0a33907c5216299734a928de2fd", null ],
-    [ "Register", "d0/d32/a27108.html#a9e25da03bbbea35f13420c14c6fab0d5", null ],
-    [ "Validate", "d0/d32/a27108.html#a30cc03ed0c19074dc1fde4951a061815", null ]
+    [ "go_resonite_cask", "d0/d32/a27108.html#a5a89aa97a4cd31d7ae183649ee750b74", null ],
+    [ "OnGossipHello", "d0/d32/a27108.html#aae8591d53a6983886b52d404acdba293", null ]
 ];

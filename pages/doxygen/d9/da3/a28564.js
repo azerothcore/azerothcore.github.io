@@ -1,8 +1,8 @@
 var a28564 =
 [
-    [ "HandleDummy", "d9/da3/a28564.html#ab653cf0414411c17ccc674395b08af7a", null ],
-    [ "Load", "d9/da3/a28564.html#a6eb80b68a00c91d92a2963adb753ed23", null ],
-    [ "PrepareSpellScript", "d9/da3/a28564.html#ae6c5ba4ed1918125594b31368c3bcf2f", null ],
-    [ "Register", "d9/da3/a28564.html#a92eb201b3ae3ab167cc338174a355b00", null ],
-    [ "Validate", "d9/da3/a28564.html#a3635089640297e059a183322c7e8f7b9", null ]
+    [ "TileInfo", "d9/da3/a28564.html#af1a25ded4212f141ab4f32db95709210", null ],
+    [ "m_mapId", "d9/da3/a28564.html#a41f4be7d3fce716754b9ac0310b9ecf9", null ],
+    [ "m_navMeshParams", "d9/da3/a28564.html#a9d7c909370359edafa8a9b6a91cef354", null ],
+    [ "m_tileX", "d9/da3/a28564.html#a54cc23d82dfe690e0d62b6156d440fc1", null ],
+    [ "m_tileY", "d9/da3/a28564.html#ab7fba310dd471fddcf2e7d6fba3205ed", null ]
 ];

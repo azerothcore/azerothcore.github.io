@@ -1,7 +1,5 @@
 var a27972 =
 [
-    [ "OnRemove", "d6/dc5/a27972.html#a8c39ba2fbd8c9c96de622afd8d04281e", null ],
-    [ "PrepareAuraScript", "d6/dc5/a27972.html#a9e13b76ceb256dec1a6c9dccd5c6c537", null ],
-    [ "Register", "d6/dc5/a27972.html#a9fbaec43bae2f4d6f4b94b18da0144fe", null ],
-    [ "Validate", "d6/dc5/a27972.html#a8f111779a3a0e68fe5a313e6eae716b3", null ]
+    [ "Itemlvl", "d6/dc5/a27972.html#a39d9dcee397a1f5984184c769f9b8b17", null ],
+    [ "multiplier", "d6/dc5/a27972.html#a5c6c206a6185a546223de7501ff846f6", null ]
 ];

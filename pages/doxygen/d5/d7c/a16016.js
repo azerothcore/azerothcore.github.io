@@ -1,6 +1,6 @@
 var a16016 =
 [
-    [ "PrepareAuraScript", "d5/d7c/a16016.html#a578208ebf0eb4067b08fed966fe06f45", null ],
-    [ "Register", "d5/d7c/a16016.html#a427d2cb32c8fbc74a802a0e7dce2cd4d", null ],
-    [ "AuraEffectHandleModes", "d5/d7c/a16016.html#a2e874055e3f6e3442f89e09a413ed7ac", null ]
+    [ "HandleScript", "d5/d7c/a16016.html#a647f39eb125537cd7545ab4115be1091", null ],
+    [ "PrepareSpellScript", "d5/d7c/a16016.html#a55dec84643f9bd536c7c73b5909ab303", null ],
+    [ "Register", "d5/d7c/a16016.html#a0077abbe11092b9636c3bb7b5c367946", null ]
 ];

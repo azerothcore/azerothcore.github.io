@@ -1,6 +1,7 @@
 var a25640 =
 [
-    [ "instance_arcatraz_InstanceMapScript", "da/db7/a25644.html", "da/db7/a25644" ],
-    [ "instance_arcatraz", "de/ddc/a25640.html#a6fc8860651573353b54fd26bddea32aa", null ],
-    [ "GetInstanceScript", "de/ddc/a25640.html#ad3f78e41ef2c96443ed3bd1ba4ab55bb", null ]
+    [ "HandleDummy", "de/ddc/a25640.html#ae1f9429b4e5b8965c65f246e03efbaf0", null ],
+    [ "PrepareSpellScript", "de/ddc/a25640.html#abde4e8528f1af9a595fb32741e397397", null ],
+    [ "Register", "de/ddc/a25640.html#a3f10fa7accb675d36560ef5bb6ccb84e", null ],
+    [ "Validate", "de/ddc/a25640.html#af1658e856195d22042de5beab1eec212", null ]
 ];

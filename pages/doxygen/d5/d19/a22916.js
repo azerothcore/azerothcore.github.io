@@ -1,6 +1,6 @@
 var a22916 =
 [
-    [ "npc_azure_stalkerAI", "df/d96/a22920.html", "df/d96/a22920" ],
-    [ "npc_azure_stalker", "d5/d19/a22916.html#ad069edc43b4f489e0b2c7aa4952eeb63", null ],
-    [ "GetAI", "d5/d19/a22916.html#a1c067809f98a4d7845d2fb4269742274", null ]
+    [ "npc_supremus_punch_invisible_stalker", "d5/d19/a22916.html#add7d0e711ef02a16ef58d90cfc8ee733", null ],
+    [ "IsSummonedBy", "d5/d19/a22916.html#a467d5a43bb6d2349ad859a0ef7de4c00", null ],
+    [ "UpdateAI", "d5/d19/a22916.html#a90ecfe4257ef77a6d6a200a2f017c51a", null ]
 ];

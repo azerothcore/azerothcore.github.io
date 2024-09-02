@@ -1,14 +1,7 @@
 var a14780 =
 [
-    [ "npc_cos_stratholme_citizienAI", "d6/d8c/a14780.html#a591aaf16ef5befada12378acfbef9465", null ],
-    [ "DoAction", "d6/d8c/a14780.html#af9d6fa1dfa83a75194797e99ee80ae0e", null ],
-    [ "InfectMe", "d6/d8c/a14780.html#a9517132eeaf1a0ffd5cb8b5879ed5d5b", null ],
-    [ "MoveInLineOfSight", "d6/d8c/a14780.html#ab7a8f6423e12ca0ea9bcb085594013a2", null ],
-    [ "Reset", "d6/d8c/a14780.html#a0dbb5f295aa9061fa3457c9590ea9b10", null ],
-    [ "SpellHit", "d6/d8c/a14780.html#aa8b9a05d3c7d89aa054af919672a69ec", null ],
-    [ "UpdateAI", "d6/d8c/a14780.html#a81a1382493091a99cae1c2bb580a7f32", null ],
-    [ "allowTimer", "d6/d8c/a14780.html#ae92384763b3cfe4a4bc4180d1c404456", null ],
-    [ "changeTimer", "d6/d8c/a14780.html#aa757ab2eef813dceaaad65d84681099b", null ],
-    [ "locked", "d6/d8c/a14780.html#aa644050a5fc0b3cd04573e8b3def87ee", null ],
-    [ "pInstance", "d6/d8c/a14780.html#aadae06c487a7755114f856a835d48c7e", null ]
+    [ "HandleScript", "d6/d8c/a14780.html#a8aea4a40472aec4cbb7001fbd63db24c", null ],
+    [ "Load", "d6/d8c/a14780.html#a2dc1edf537f58133fb4daabde9f43843", null ],
+    [ "PrepareSpellScript", "d6/d8c/a14780.html#ae856c6e70ededa95c0308596a9f980af", null ],
+    [ "Register", "d6/d8c/a14780.html#ac2e82c7e626658faa968f75c26688b43", null ]
 ];

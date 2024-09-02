@@ -1,9 +1,11 @@
 var a26504 =
 [
-    [ "npc_pet_gen_soul_trader_beacon", "d3/dd9/a26504.html#a58ef19b8c08aee764bdd55e480d9d750", null ],
-    [ "GetOwner", "d3/dd9/a26504.html#a72bfd4cf6c734d1f1070a1560131667d", null ],
-    [ "SpellHitTarget", "d3/dd9/a26504.html#a6c0d3181b913c5022325f66586f66bfa", null ],
-    [ "UpdateAI", "d3/dd9/a26504.html#a18c06958e6b3d4306a6fdb5f9924d7ff", null ],
-    [ "events", "d3/dd9/a26504.html#ae0a6d4850a0a0da4bd04227b11bae9e4", null ],
-    [ "ownerGUID", "d3/dd9/a26504.html#a3a42e83216c0111a740a0c89e57c6f62", null ]
+    [ "CheckProc", "d3/dd9/a26504.html#a7a6eea8debb09c4c9086a92d8e6ee59c", null ],
+    [ "HandleProc", "d3/dd9/a26504.html#af29b1d6d8553003514918a383cb08b4a", null ],
+    [ "Load", "d3/dd9/a26504.html#a8861c2415c0f705cb4a06c02eabb54d2", null ],
+    [ "OnRemove", "d3/dd9/a26504.html#a9227147dd6e621deddd0088b95e9db2f", null ],
+    [ "PrepareAuraScript", "d3/dd9/a26504.html#a149881d517edbb15032452554fc64948", null ],
+    [ "Register", "d3/dd9/a26504.html#ac81d60d54a87a23bd9481934f5753de0", null ],
+    [ "Validate", "d3/dd9/a26504.html#a7a4d1bddd1dbeb41e0f6f8fe272b4ad6", null ],
+    [ "_redirectTarget", "d3/dd9/a26504.html#af3ee2a283d8942ab3652a6386c26f737", null ]
 ];

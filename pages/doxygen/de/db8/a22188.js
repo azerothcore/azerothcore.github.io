@@ -1,7 +1,13 @@
 var a22188 =
 [
-    [ "boss_yoggsaron_keeperAI", "de/db8/a22188.html#aef31baac3859c3aa04178f1382be5b58", null ],
-    [ "DoAction", "de/db8/a22188.html#a1da790aca13aaafd84b18df820a5bc1e", null ],
-    [ "UpdateAI", "de/db8/a22188.html#aca9a6c32575b0b42ef222c2bc5252104", null ],
-    [ "_checkTimer", "de/db8/a22188.html#a1c51cf5ac92f64bba4b015a8511fe5eb", null ]
+    [ "npc_frosthoundAI", "de/db8/a22188.html#ac8f41789568399318cdc30292abfd93b", null ],
+    [ "AttackStart", "de/db8/a22188.html#a0278736f670f5aac069b03530f441ae1", null ],
+    [ "EnterEvadeMode", "de/db8/a22188.html#acc1a3842ddae670e23d8c55e8768ace9", null ],
+    [ "JustDied", "de/db8/a22188.html#a26f4657c1d373cf4a2b45f6487a9e901", null ],
+    [ "JustEngagedWith", "de/db8/a22188.html#a80eec4a19fb53be5946b2e021b8dd332", null ],
+    [ "JustSummoned", "de/db8/a22188.html#a8db3dbace66dabfa54800cacbfdfab9b", null ],
+    [ "OnCharmed", "de/db8/a22188.html#ae1e2a4763e8bfc8ab04687829830c639", null ],
+    [ "PassengerBoarded", "de/db8/a22188.html#aea512a9811ec0766b9b175ec2ca9a447", null ],
+    [ "UpdateAI", "de/db8/a22188.html#a9a755fd6d53d124c441357472fcb73e0", null ],
+    [ "WaypointReached", "de/db8/a22188.html#aa87f8d5bbbd105481773941a90a96cf6", null ]
 ];

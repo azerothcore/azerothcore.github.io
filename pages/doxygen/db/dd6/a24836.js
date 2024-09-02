@@ -1,6 +1,6 @@
 var a24836 =
 [
-    [ "spell_black_template_free_friend_SpellScript", "d1/d2a/a24840.html", "d1/d2a/a24840" ],
-    [ "spell_black_template_free_friend", "db/dd6/a24836.html#afe3baea1e4417a2fd5d50f83f3e0cfd6", null ],
-    [ "GetSpellScript", "db/dd6/a24836.html#a37b646a1cc894bf0599cb3fca528ea1c", null ]
+    [ "CheckProc", "db/dd6/a24836.html#a3c4f64fc51367ebb549282b068458f4c", null ],
+    [ "PrepareAuraScript", "db/dd6/a24836.html#a72dc7c7b8bc842a7feb6857cbec34d25", null ],
+    [ "Register", "db/dd6/a24836.html#ac84b357828094a42aab1c8bfee83d298", null ]
 ];

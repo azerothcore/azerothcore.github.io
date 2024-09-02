@@ -1,6 +1,6 @@
 var a27168 =
 [
-    [ "HandleScriptEffect", "df/d47/a27168.html#a514697f3fdcbf9274453d6d71c0c4816", null ],
-    [ "PrepareSpellScript", "df/d47/a27168.html#a5bcff624e9a396a2f90115dc99d93ae9", null ],
-    [ "Register", "df/d47/a27168.html#aebcc23e4f4a1c5ab90fb06a47755ec2b", null ]
+    [ "go_darkmoon_faire_musicAI", "d9/dfc/a27172.html", "d9/dfc/a27172" ],
+    [ "go_darkmoon_faire_music", "df/d47/a27168.html#ab8dd92213e1c2815ff9498267b09b5f2", null ],
+    [ "GetAI", "df/d47/a27168.html#a03be3eddefe4eeba8a0af8ee02bf2839", null ]
 ];

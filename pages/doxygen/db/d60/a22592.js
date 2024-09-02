@@ -1,6 +1,8 @@
 var a22592 =
 [
-    [ "boss_skadiAI", "d4/dd5/a22596.html", "d4/dd5/a22596" ],
-    [ "boss_skadi", "db/d60/a22592.html#a124c1c1de7ba232b3256a65547370464", null ],
-    [ "GetAI", "db/d60/a22592.html#a4b66199169442af5ec6542be71c19033", null ]
+    [ "npc_anzu_spirit", "db/d60/a22592.html#adb1b66d6bf6ec1991465f85a504397d5", null ],
+    [ "IsSummonedBy", "db/d60/a22592.html#a26f0928593f75d242c8bbcc541f7b59b", null ],
+    [ "Reset", "db/d60/a22592.html#acef3f7093f93b6c227d145523cdc487a", null ],
+    [ "UpdateAI", "db/d60/a22592.html#a9866d91ffc04548a96cfcdc3a5c7496a", null ],
+    [ "_scheduler", "db/d60/a22592.html#ad14937df9ddddabcf96e2d1104ca153c", null ]
 ];

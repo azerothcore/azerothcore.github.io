@@ -1,6 +1,6 @@
 var a18444 =
 [
-    [ "npc_gas_cloudAI", "d7/d66/a18444.html#a44e6f92ed3731beb8a36db66da9fbdef", null ],
-    [ "CastMainSpell", "d7/d66/a18444.html#a61681f6f9616fe33274302d4160c709b", null ],
-    [ "_newTargetSelectTimer", "d7/d66/a18444.html#a6989b904abaa5b71362e43664f4b084d", null ]
+    [ "npc_rotting_frost_giantAI", "d5/d57/a18448.html", "d5/d57/a18448" ],
+    [ "npc_rotting_frost_giant", "d7/d66/a18444.html#ad4440216e11a00d97af43dc5f3957e95", null ],
+    [ "GetAI", "d7/d66/a18444.html#aabc388b3690f2d03e903c7f480d52842", null ]
 ];

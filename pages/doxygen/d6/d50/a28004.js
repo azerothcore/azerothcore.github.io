@@ -1,8 +1,6 @@
 var a28004 =
 [
-    [ "CheckProc", "d6/d50/a28004.html#a801610a9f9fae5cb711850254b291268", null ],
-    [ "HandleProc", "d6/d50/a28004.html#a3f6a53421c7c4b9346d98aa51c4ccd6d", null ],
-    [ "PrepareAuraScript", "d6/d50/a28004.html#ad08915b0c7f35bef76ddd05a62add43c", null ],
-    [ "Register", "d6/d50/a28004.html#a8626318b6f9b35a8b1c116062618b3c0", null ],
-    [ "Validate", "d6/d50/a28004.html#a8a3abd528fda4aab149fb7f6e5eae00d", null ]
+    [ "color", "d6/d50/a28004.html#a2e4ee1d687af07445684907d1bcec4f4", null ],
+    [ "ID", "d6/d50/a28004.html#ac125147c2dc5546a0116f48e08f36e59", null ],
+    [ "spellitemenchantement", "d6/d50/a28004.html#a3a6329c8f5caa3cd6e61138339f37f4d", null ]
 ];

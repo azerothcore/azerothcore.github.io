@@ -1,5 +1,6 @@
 var a19256 =
 [
-    [ "npc_icc_lk_checktargetAI", "d1/dfe/a19256.html#a9a5953a9353be61a3fa96eaf7df7c489", null ],
-    [ "CanAIAttack", "d1/dfe/a19256.html#a4dfce75e23f1093c3de0ce75b049a20a", null ]
+    [ "boss_eregosAI", "d1/d73/a19260.html", "d1/d73/a19260" ],
+    [ "boss_eregos", "d1/dfe/a19256.html#a105820f29aa1391d77a56e024c4b5637", null ],
+    [ "GetAI", "d1/dfe/a19256.html#aee43f0dfee70ab9618c560a27504cb02", null ]
 ];

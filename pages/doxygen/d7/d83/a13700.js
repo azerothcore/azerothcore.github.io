@@ -1,7 +1,6 @@
 var a13700 =
 [
-    [ "boss_fenstalkerAI", "d7/d83/a13700.html#a971234c97e2769a2fbf36b7a954198df", null ],
-    [ "Reset", "d7/d83/a13700.html#a91865286d096bcd5bc89a2b69addb422", null ],
-    [ "UpdateAI", "d7/d83/a13700.html#a6f1f861ff540f54eb99a30909feb922b", null ],
-    [ "volatileinf_timer", "d7/d83/a13700.html#ae18ae9cf7bcaff73bb341593b8d8b816", null ]
+    [ "npc_zuljin_vortexAI", "d8/dec/a13704.html", "d8/dec/a13704" ],
+    [ "npc_zuljin_vortex", "d7/d83/a13700.html#a0f58fde79a4110f90be45190355e6161", null ],
+    [ "GetAI", "d7/d83/a13700.html#af2878b4e5f11a6d43c6cc58dffddab09", null ]
 ];

@@ -1,6 +1,7 @@
 var a16312 =
 [
-    [ "HandlePeriodic", "d6/dd6/a16312.html#ae13867103bcb2179374f3a00798050d1", null ],
-    [ "PrepareAuraScript", "d6/dd6/a16312.html#abb2a17cabb58e8c72267ce717f10ef3e", null ],
-    [ "Register", "d6/dd6/a16312.html#aad25f15e03e1362e3379dc5ab6c1a20c", null ]
+    [ "npc_toc_enh_shamanAI", "d6/dd6/a16312.html#ae1ef5395722e42660c1856d6faf52cbb", null ],
+    [ "myCanCast", "d6/dd6/a16312.html#a8a38da4063a22361b25835a67f14ff52", null ],
+    [ "UpdateAI", "d6/dd6/a16312.html#a4aa59b136b97859d15b39fd2fbbdf53d", null ],
+    [ "events", "d6/dd6/a16312.html#adec973540bf3b046f54547fb845c06b1", null ]
 ];

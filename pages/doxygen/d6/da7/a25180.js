@@ -1,6 +1,7 @@
 var a25180 =
 [
-    [ "HandleApplyAura", "d6/da7/a25180.html#a030a2147851b74042241b0403f04ffe7", null ],
-    [ "PrepareSpellScript", "d6/da7/a25180.html#aed01a25d5e913331f3c76c72e3ed8bef", null ],
-    [ "Register", "d6/da7/a25180.html#a7d4abb7cb05aa8253d02a67073423482", null ]
+    [ "HandleEffectPeriodic", "d6/da7/a25180.html#a76e5aea0f1a3698e8034a1cbb08f4196", null ],
+    [ "PrepareAuraScript", "d6/da7/a25180.html#affc698127fe0656df25bd094c02a7e50", null ],
+    [ "Register", "d6/da7/a25180.html#a4707bfaeb86b3540920a6772e1726e26", null ],
+    [ "Validate", "d6/da7/a25180.html#aef839f163d7e623a54b163e1c27542cd", null ]
 ];

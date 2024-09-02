@@ -1,6 +1,6 @@
 var a26376 =
 [
-    [ "HandlePeriodic", "da/d26/a26376.html#af201384f8853dae8f2afa61313f868f1", null ],
-    [ "PrepareAuraScript", "da/d26/a26376.html#affeb1d65ba46903a31ffdc4cdad2a9db", null ],
-    [ "Register", "da/d26/a26376.html#ac019473fbee7a7180b9e8484b3c4796c", null ]
+    [ "HandleDummy", "da/d26/a26376.html#a86ec9b4606ae92b070edd4ca863fe93e", null ],
+    [ "PrepareSpellScript", "da/d26/a26376.html#a4411e4317053450a0ac5217d546952b2", null ],
+    [ "Register", "da/d26/a26376.html#a9eea8631e0723555a9c328bdfc1e30b7", null ]
 ];

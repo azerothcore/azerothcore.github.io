@@ -1,6 +1,6 @@
 var a20596 =
 [
-    [ "npc_stormforged_lieutenantAI", "d6/d52/a20600.html", "d6/d52/a20600" ],
-    [ "npc_stormforged_lieutenant", "dd/d9a/a20596.html#ab58a73d33c6545815511c5c4f0ecfd9e", null ],
-    [ "GetAI", "dd/d9a/a20596.html#ae3aba4b53e73097c261eaaed19f17950", null ]
+    [ "npc_xt002_heartAI", "d6/d52/a20600.html", "d6/d52/a20600" ],
+    [ "npc_xt002_heart", "dd/d9a/a20596.html#ab914ce1e945080b873cf6f93e3a6a32c", null ],
+    [ "GetAI", "dd/d9a/a20596.html#af59c6623b97d1adff765e8ba4958d482", null ]
 ];

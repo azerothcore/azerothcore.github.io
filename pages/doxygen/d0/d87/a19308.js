@@ -1,9 +1,8 @@
 var a19308 =
 [
-    [ "DelayedCastEvent", "d0/d87/a19308.html#ae6d57612065d56ce79197aedebedf9f9", null ],
-    [ "Execute", "d0/d87/a19308.html#ae2925429b3049e44d2afd2e8b990af71", null ],
-    [ "_despawnTime", "d0/d87/a19308.html#acc9e22eb1908e4c458199fc4cccd56c6", null ],
-    [ "_originalCaster", "d0/d87/a19308.html#adb07c24a947d59d2ef1f61b8ab18d328", null ],
-    [ "_spellId", "d0/d87/a19308.html#abe28a6749101233302634ed226a289e8", null ],
-    [ "_trigger", "d0/d87/a19308.html#a85471a151a3165cc906f3a41103c3f5d", null ]
+    [ "npc_centrifuge_constructAI", "d0/d87/a19308.html#a9219f4955ae82ca7f401ea1c63f66b09", null ],
+    [ "DamageTaken", "d0/d87/a19308.html#aa568418de267a99108698e79baa1b3f4", null ],
+    [ "JustEngagedWith", "d0/d87/a19308.html#ac6ecbb17624c2747253c68a50b93c40f", null ],
+    [ "Reset", "d0/d87/a19308.html#a2f7750cea2f59d794c85e20b703370af", null ],
+    [ "UpdateAI", "d0/d87/a19308.html#a28316416ad6c56d83c9e878511256445", null ]
 ];

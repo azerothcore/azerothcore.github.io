@@ -1,6 +1,7 @@
 var a17352 =
 [
-    [ "boss_tyrannusAI", "da/d02/a17356.html", "da/d02/a17356" ],
-    [ "boss_tyrannus", "d5/d89/a17352.html#a81373192ffea8817cb72b80f4629da43", null ],
-    [ "GetAI", "d5/d89/a17352.html#ad107030de1427d070305f5dcef96c016", null ]
+    [ "ExtraEffect", "d5/d89/a17352.html#a65b5bc8d053a69325f42a7f23ae4dbdc", null ],
+    [ "PrepareAuraScript", "d5/d89/a17352.html#a53d6013e5ec473854e1537969cb31988", null ],
+    [ "Register", "d5/d89/a17352.html#a85be360bb15482ff34b7f1d04d949b1d", null ],
+    [ "Validate", "d5/d89/a17352.html#ab14e7410cf542d9f4043800a3b86c664", null ]
 ];

@@ -1,7 +1,8 @@
 var a22172 =
 [
-    [ "boss_yoggsaron_corruptor_tentacleAI", "d8/de2/a22172.html#a5f8fbd8ac772fad79f809de4d3128574", null ],
-    [ "DoAction", "d8/de2/a22172.html#abac26b3be775eea734403be36cbed4d2", null ],
-    [ "SelectCorruptionTarget", "d8/de2/a22172.html#a1d61b34d31794cd2bdcddfe91dc1103e", null ],
-    [ "UpdateAI", "d8/de2/a22172.html#a0269d1dc655af5680d7074cb093740b8", null ]
+    [ "npc_vics_flying_machineAI", "d8/de2/a22172.html#a4464e0b1433c4ffb24ae7809b1a0eec5", null ],
+    [ "MovementInform", "d8/de2/a22172.html#ac4bbe0a3cccb6878d050b717b9efb320", null ],
+    [ "PassengerBoarded", "d8/de2/a22172.html#aa67dcbb4b43b047398fec2619ad61829", null ],
+    [ "SpellHit", "d8/de2/a22172.html#aa81229a104e1521d570abec4b6f7bca7", null ],
+    [ "pointId", "d8/de2/a22172.html#aa1412c23f0c3b964262e145c51aea974", null ]
 ];

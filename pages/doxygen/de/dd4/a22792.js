@@ -1,6 +1,6 @@
 var a22792 =
 [
-    [ "boss_ichoronAI", "d0/d96/a22796.html", "d0/d96/a22796" ],
-    [ "boss_ichoron", "de/dd4/a22792.html#ad4390da77a130edaf050d0bef3926882", null ],
-    [ "GetAI", "de/dd4/a22792.html#a68051088dc2d2c738b042e2df0436b28", null ]
+    [ "HandleScriptEffect", "de/dd4/a22792.html#aeafb2893534c8e188bbb519b6c7a0113", null ],
+    [ "PrepareSpellScript", "de/dd4/a22792.html#a6caaa93244719d7fc8c3f28280a3c1c5", null ],
+    [ "Register", "de/dd4/a22792.html#a99e2243ca4372eab1a742f8979d61334", null ]
 ];

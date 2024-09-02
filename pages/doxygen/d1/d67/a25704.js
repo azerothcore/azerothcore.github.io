@@ -1,6 +1,7 @@
 var a25704 =
 [
-    [ "boss_alarAI", "d6/d98/a25708.html", "d6/d98/a25708" ],
-    [ "boss_alar", "d1/d67/a25704.html#a40f87caa1ededad8e340a38bbdf5fbdb", null ],
-    [ "GetAI", "d1/d67/a25704.html#a44875e91be20762422c8998b8930b82c", null ]
+    [ "Load", "d1/d67/a25704.html#a8be944ae201f4f8406948aff78f982d9", null ],
+    [ "OnDummyEffect", "d1/d67/a25704.html#adcb707400963e549a295e115d6f3583b", null ],
+    [ "PrepareSpellScript", "d1/d67/a25704.html#a5b2175a933df10d775bc3381f515aa96", null ],
+    [ "Register", "d1/d67/a25704.html#a6e41bf15401c540887dd321e4b2cc7d3", null ]
 ];

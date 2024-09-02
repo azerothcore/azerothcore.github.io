@@ -1,6 +1,6 @@
 var a13976 =
 [
-    [ "spell_threatening_gaze_AuraScript", "dd/dc7/a13980.html", "dd/dc7/a13980" ],
-    [ "spell_threatening_gaze", "dc/d4c/a13976.html#a20ec140807d12fd521a4c8b8ea7a741a", null ],
-    [ "GetAuraScript", "dc/d4c/a13976.html#a51aae442dabc59728c3ff8983b6db818", null ]
+    [ "npc_brewfest_keg_thrower", "dc/d4c/a13976.html#a29da1efd21fe6737684607e5b360ea84", null ],
+    [ "CanBeSeen", "dc/d4c/a13976.html#a36212d0f17c0070d3ef3cc25577ff7b9", null ],
+    [ "MoveInLineOfSight", "dc/d4c/a13976.html#a3938b0e63553e79302ba966c6cdcf9be", null ]
 ];

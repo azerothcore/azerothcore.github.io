@@ -1,12 +1,9 @@
 var a08932 =
 [
-    [ "LogEntry", "d4/d6d/a08932.html#af61604a7dc0cc4da315a09fa5b207f37", null ],
-    [ "LogEntry", "d4/d6d/a08932.html#aba3f6f501c59e356166abe71082c421b", null ],
-    [ "~LogEntry", "d4/d6d/a08932.html#a3c66b8a7be1800c5a9e1dc15aab6d3e9", null ],
-    [ "GetGUID", "d4/d6d/a08932.html#a7af4eac577f8da07540f81e185b2ad49", null ],
-    [ "GetTimestamp", "d4/d6d/a08932.html#a643c92439463707671bb08b72bf3a447", null ],
-    [ "SaveToDB", "d4/d6d/a08932.html#a1c00aa88973423a1c112c2776a14e78f", null ],
-    [ "m_guid", "d4/d6d/a08932.html#a75754f42f8a202a9a319c86515a3f0dd", null ],
-    [ "m_guildId", "d4/d6d/a08932.html#a89e0192732a43dc44aff3730bc5ad445", null ],
-    [ "m_timestamp", "d4/d6d/a08932.html#ad19e7364e1beba61c9b7a4383b6d42c6", null ]
+    [ "PlayerLastSearcher", "d4/d6d/a08932.html#a0a4c736bbde38ccb0a0a8ceafdb751c7", null ],
+    [ "Visit", "d4/d6d/a08932.html#a25785fbe4cb8ac9a8753705b9df3b507", null ],
+    [ "Visit", "d4/d6d/a08932.html#a19e60fc9fc43ad3a718132a2884e41b0", null ],
+    [ "i_check", "d4/d6d/a08932.html#a93f5e1dd1f680cc9467671b59d2c5a12", null ],
+    [ "i_object", "d4/d6d/a08932.html#a2d9af6a6ef1105b19c49852fce17b8e6", null ],
+    [ "i_phaseMask", "d4/d6d/a08932.html#ad5bfaa4154c99e34515da98db7dccadf", null ]
 ];

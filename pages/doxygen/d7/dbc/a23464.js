@@ -1,7 +1,10 @@
 var a23464 =
 [
-    [ "HandleScript", "d7/dbc/a23464.html#ac028ca72e8212460dc85432028496789", null ],
-    [ "Load", "d7/dbc/a23464.html#a3e797a6612f511f1a1391b7159cc6929", null ],
-    [ "PrepareSpellScript", "d7/dbc/a23464.html#acab3a0f7429c0b318332d5672e8fb92b", null ],
-    [ "Register", "d7/dbc/a23464.html#ad51a4cc512015baed90e734f24657c77", null ]
+    [ "boss_kelidan_the_breaker", "d7/dbc/a23464.html#a6774e4a0315b30266f6c55da608cd193", null ],
+    [ "ApplyImmunities", "d7/dbc/a23464.html#adc84fae23d68c0c75ac21c3f3b32973a", null ],
+    [ "DoAction", "d7/dbc/a23464.html#a3fa0117ce1079f651025116684f5e2f4", null ],
+    [ "JustDied", "d7/dbc/a23464.html#a4d3f0171b7889a96f19999b28e549866", null ],
+    [ "JustEngagedWith", "d7/dbc/a23464.html#a12eb8fb73353042e4bb4ea31cbdc1c3c", null ],
+    [ "KilledUnit", "d7/dbc/a23464.html#a1c1613b165c25025a2a11bf3c38d6747", null ],
+    [ "Reset", "d7/dbc/a23464.html#a46c592f6c46ea568ad368702e1640e06", null ]
 ];

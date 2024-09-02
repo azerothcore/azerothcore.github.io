@@ -1,15 +1,10 @@
 var a09388 =
 [
-    [ "HomeMovementGenerator", "dc/dc3/a09388.html#af52495a86296d288d2312bf8616108d0", null ],
-    [ "~HomeMovementGenerator", "dc/dc3/a09388.html#a9d889b5112f6c93a0707227fc65dd902", null ],
-    [ "_setTargetLocation", "dc/dc3/a09388.html#a7ac3be92303b77b640c7199ec65184dd", null ],
-    [ "DoFinalize", "dc/dc3/a09388.html#ab1ce2df22dba7759ca28a77532a17db1", null ],
-    [ "DoInitialize", "dc/dc3/a09388.html#aaa6f7b1aa064be00a726539830d6c30e", null ],
-    [ "DoReset", "dc/dc3/a09388.html#acfebf75bcd7cc62c1b0105eb0c5e9100", null ],
-    [ "DoUpdate", "dc/dc3/a09388.html#a4e3c1f79f8115312f22612a4b8c6fede", null ],
-    [ "GetMovementGeneratorType", "dc/dc3/a09388.html#aaa203c37c8259c8b54ad5ec70db484f1", null ],
-    [ "unitSpeedChanged", "dc/dc3/a09388.html#ac5078f624899e574a7b56b72e2824b9a", null ],
-    [ "_walk", "dc/dc3/a09388.html#a97f3cd9b1c5919ffe9ab979d8ad4e747", null ],
-    [ "arrived", "dc/dc3/a09388.html#aab9cd0057a625afef2d96feebd6428fb", null ],
-    [ "i_recalculateTravel", "dc/dc3/a09388.html#a77b40bcbada8ea43accae23ceb642628", null ]
+    [ "MailReceiver", "dc/dc3/a09388.html#a6fba3ff0ab3167197f569631d766ce14", null ],
+    [ "MailReceiver", "dc/dc3/a09388.html#af0b094a704463ed76b1c08bc3cab0380", null ],
+    [ "MailReceiver", "dc/dc3/a09388.html#a9f69a0951c2b9d9152685632c744cf4e", null ],
+    [ "GetPlayer", "dc/dc3/a09388.html#a0113e33ef82e9f3112f8cd5793581a36", null ],
+    [ "GetPlayerGUIDLow", "dc/dc3/a09388.html#a0e29fba37b58c7bc92065b0221b8e31e", null ],
+    [ "m_receiver", "dc/dc3/a09388.html#a377b896e1dc7a0e89440efbc2b811ae7", null ],
+    [ "m_receiver_lowguid", "dc/dc3/a09388.html#a46b62a2b8dd0ebac981e0a1752e88743", null ]
 ];

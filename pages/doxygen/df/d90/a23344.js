@@ -1,6 +1,6 @@
 var a23344 =
 [
-    [ "npc_spiritual_insightAI", "d7/d57/a23348.html", "d7/d57/a23348" ],
-    [ "npc_spiritual_insight", "df/d90/a23344.html#afe7b9d5953462719407f03b33b8de564", null ],
-    [ "GetAI", "df/d90/a23344.html#ab2884e1160ccad9adb8e3ae69db55bc4", null ]
+    [ "HandlePeriodic", "df/d90/a23344.html#af6c30bb292a69d5eaaaf75c8a76111ea", null ],
+    [ "PrepareAuraScript", "df/d90/a23344.html#a75515896f3d94d227963a3c5258e2d0d", null ],
+    [ "Register", "df/d90/a23344.html#aeacb1ffc287cc7128366ee0484c2994b", null ]
 ];

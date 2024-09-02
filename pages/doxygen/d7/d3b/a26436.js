@@ -1,6 +1,6 @@
 var a26436 =
 [
-    [ "npcs_ashyen_and_keleth", "d7/d3b/a26436.html#a5d555db45c64717091148e9b93990be8", null ],
-    [ "OnGossipHello", "d7/d3b/a26436.html#a171516da8a475f840ced306589efda8e", null ],
-    [ "OnGossipSelect", "d7/d3b/a26436.html#a9428ce6b4fed7e8f5f6f8f9cd401e5bd", null ]
+    [ "PrepareAuraScript", "d7/d3b/a26436.html#a059fe9aa1ea5ea4d0fa797e70a146fc5", null ],
+    [ "Register", "d7/d3b/a26436.html#a91f4b2b8796c7efab2f622893a393619", null ],
+    [ "AuraEffectHandleModes", "d7/d3b/a26436.html#ab93d08a85de86b0efdec59006ebbdf97", null ]
 ];

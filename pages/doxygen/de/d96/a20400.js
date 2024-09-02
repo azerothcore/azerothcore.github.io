@@ -1,8 +1,5 @@
 var a20400 =
 [
-    [ "npc_crystal_spikeAI", "de/d96/a20400.html#ac30dc3941c92fa0cda6639864f803a55", null ],
-    [ "Reset", "de/d96/a20400.html#ad8889e7a77daba18e3e5506855988537", null ],
-    [ "UpdateAI", "de/d96/a20400.html#a158ca019d06e045358ba305bd6e20bc1", null ],
-    [ "_damageTimer", "de/d96/a20400.html#a0bbd82d1c92be0ac595d1ab9704b6162", null ],
-    [ "_gameObjectGUID", "de/d96/a20400.html#acdeacf285b083f4c802295d8d0583ed7", null ]
+    [ "achievement_mimiron_set_up_us_the_bomb_11", "de/d96/a20400.html#a5d8980111e029b4c9311737f3985ab61", null ],
+    [ "OnCheck", "de/d96/a20400.html#a7682a7f2f4417dcf75ec58e34e4fd6bc", null ]
 ];

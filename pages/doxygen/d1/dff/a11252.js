@@ -1,6 +1,11 @@
 var a11252 =
 [
-    [ "npc_lokhtos_darkbargainer", "d1/dff/a11252.html#af91685ecf0f63313968b3d82373668d2", null ],
-    [ "OnGossipHello", "d1/dff/a11252.html#a39547487ef7db8a3942556665099893f", null ],
-    [ "OnGossipSelect", "d1/dff/a11252.html#a5a4640678a5669c75b1fa5d787999c02", null ]
+    [ "arena_commandscript", "d1/dff/a11252.html#ad433113f5a3cf7f2cb43ff4fd3f0d49d", null ],
+    [ "GetCommands", "d1/dff/a11252.html#a3a5e95fca957fd1898d6a7acea98931e", null ],
+    [ "HandleArenaCaptainCommand", "d1/dff/a11252.html#a7b7123c837bbecb1a4d3d2e8aa934d4c", null ],
+    [ "HandleArenaCreateCommand", "d1/dff/a11252.html#a10eab39042cb718d839fbdf7236b1a31", null ],
+    [ "HandleArenaDisbandCommand", "d1/dff/a11252.html#a012626d4c101a63d9a70c530c9e98354", null ],
+    [ "HandleArenaInfoCommand", "d1/dff/a11252.html#a90fc70aae7b3e0fec179a0a1a7482c11", null ],
+    [ "HandleArenaLookupCommand", "d1/dff/a11252.html#a7356c0a45dcf32809a32fe6053b94de0", null ],
+    [ "HandleArenaRenameCommand", "d1/dff/a11252.html#a4095683ee7b5a2236dac8aa36a607d7c", null ]
 ];

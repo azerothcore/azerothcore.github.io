@@ -1,7 +1,7 @@
 var a14340 =
 [
-    [ "HandleScript", "da/d36/a14340.html#a78899a874a645d531dd4d89f2bd5478a", null ],
-    [ "PrepareSpellScript", "da/d36/a14340.html#adc96c1dbf0b561a72d26dca57d5bfcec", null ],
-    [ "Register", "da/d36/a14340.html#a76942c06492a48ce16bb85cf55d1e58d", null ],
-    [ "Validate", "da/d36/a14340.html#a727f7c6ab1a2b5635e0b8fbd071d863d", null ]
+    [ "GetVisualThrow", "da/d36/a14340.html#afe59e0c21eaa06e2b1d614613b1d2f73", null ],
+    [ "HandleDummy", "da/d36/a14340.html#adca1aacf89dcf452f1c98cae97f09690", null ],
+    [ "PrepareSpellScript", "da/d36/a14340.html#a642f2d3992e7e3a4393d2b0c6b521597", null ],
+    [ "Register", "da/d36/a14340.html#a68a6e9b307500a56e66bc19c41daf9dc", null ]
 ];

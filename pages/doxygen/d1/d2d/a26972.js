@@ -1,6 +1,5 @@
 var a26972 =
 [
-    [ "PrepareSpellScript", "d1/d2d/a26972.html#acfa320b33c00883a78c3696bbbeb7eb0", null ],
-    [ "Register", "d1/d2d/a26972.html#a6d251ba1e88d4349dcffa96978389a7f", null ],
-    [ "SelectTarget", "d1/d2d/a26972.html#a0d95f8ad8d05d2c0b100dc10988d00c9", null ]
+    [ "AreaTrigger_at_legion_teleporter", "d1/d2d/a26972.html#a2b648bd038f41025c19338367c696d25", null ],
+    [ "OnTrigger", "d1/d2d/a26972.html#ae8239e5ad56d93627102dbd02989353d", null ]
 ];

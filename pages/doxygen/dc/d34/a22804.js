@@ -1,11 +1,7 @@
 var a22804 =
 [
-    [ "npc_ichor_globuleAI", "dc/d34/a22804.html#a4d581f89c8385276fd407c000af9e569", null ],
-    [ "AttackStart", "dc/d34/a22804.html#aa4e1fc88a26d6ef41f1ca96c93abbc1a", null ],
-    [ "JustDied", "dc/d34/a22804.html#ad29c7659590933b0749e8e1c2c2e4c46", null ],
-    [ "MoveInLineOfSight", "dc/d34/a22804.html#af8ef8296512d57d934a171f1a5060e73", null ],
-    [ "SpellHit", "dc/d34/a22804.html#a1396538a446545408e3c304f3e56400f", null ],
-    [ "UpdateAI", "dc/d34/a22804.html#a6ff13c853583e5178fb3a690e17303de", null ],
-    [ "pInstance", "dc/d34/a22804.html#a94cbe93a69a28171fc3d91d71b6ec419", null ],
-    [ "uiRangeCheck_Timer", "dc/d34/a22804.html#a99914a55d2dc0b36a623dc7d6248e953", null ]
+    [ "PrepareAuraScript", "dc/d34/a22804.html#afb2e94c1e67b12b7350d83241b3f2864", null ],
+    [ "Register", "dc/d34/a22804.html#a0a5ac432eca09206ac032317e8aa8cfc", null ],
+    [ "Update", "dc/d34/a22804.html#aa0da369c2047df144c4a9af37a2ea13c", null ],
+    [ "Validate", "dc/d34/a22804.html#a70248cfa468dfb3a97ea7f8b6848bc5f", null ]
 ];

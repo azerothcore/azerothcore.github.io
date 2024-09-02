@@ -1,6 +1,6 @@
 var a26172 =
 [
-    [ "HandleScriptEffect", "d2/d3d/a26172.html#a826a1179ae1c6a4167642d7cf7f5f820", null ],
-    [ "PrepareSpellScript", "d2/d3d/a26172.html#a5aa11ad35603e8248de4f6c336ed41cb", null ],
-    [ "Register", "d2/d3d/a26172.html#a698c28a17f6e6add601a0c7f4c076d8b", null ]
+    [ "HandleFinish", "d2/d3d/a26172.html#a53263ce51581f36c2df80b49c93fa9d3", null ],
+    [ "PrepareSpellScript", "d2/d3d/a26172.html#a8113f61816473399f0ceab18b104d058", null ],
+    [ "Register", "d2/d3d/a26172.html#a36bf50cdb7be7ba03eafd4848c6ceced", null ]
 ];

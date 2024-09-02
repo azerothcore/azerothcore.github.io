@@ -1,6 +1,10 @@
 var a28300 =
 [
-    [ "CheckRequirement", "d5/d75/a28300.html#acaae3858de4d56028e3cb4581a57450c", null ],
-    [ "PrepareSpellScript", "d5/d75/a28300.html#aa1013bb1b09aae7b691b6325c8e7a405", null ],
-    [ "Register", "d5/d75/a28300.html#aa490168c69f9ba5c12db3171516dd8ac", null ]
+    [ "area_id", "d5/d75/a28300.html#acbd77950bf9548d266e568640cf38458", null ],
+    [ "map_id", "d5/d75/a28300.html#abeabdc3d225dcd6626a641d6792d7ff8", null ],
+    [ "virtual_map_id", "d5/d75/a28300.html#afe75f114a3aa74a0589cc575e372f1b1", null ],
+    [ "x1", "d5/d75/a28300.html#a78967fef40841f705c2564a177cb36f3", null ],
+    [ "x2", "d5/d75/a28300.html#a037dca812715df0b4f2551f8684b537c", null ],
+    [ "y1", "d5/d75/a28300.html#a7f90073656e1cd00a88add9f8d881d11", null ],
+    [ "y2", "d5/d75/a28300.html#ad8e0164952e5565488d5443f269ec79e", null ]
 ];

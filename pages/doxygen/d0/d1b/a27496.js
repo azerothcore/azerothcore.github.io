@@ -1,6 +1,7 @@
 var a27496 =
 [
-    [ "HandleItemRemove", "d0/d1b/a27496.html#a28f8f8e6823bad14900d08ba10cab7e6", null ],
-    [ "PrepareSpellScript", "d0/d1b/a27496.html#a8b43e146724a2c8b3c495e886a79d021", null ],
-    [ "Register", "d0/d1b/a27496.html#af8b02c31b81dce516ea47d6a1235d683", null ]
+    [ "npc_guardianAI", "d0/d1b/a27496.html#acc5d29a79e57fc023369c0dcd4b0d2a3", null ],
+    [ "JustEngagedWith", "d0/d1b/a27496.html#a50257f80245bc59437e53083badcb056", null ],
+    [ "Reset", "d0/d1b/a27496.html#a217df9bae079f56ffd70d27958fb2756", null ],
+    [ "UpdateAI", "d0/d1b/a27496.html#ab42c39f088ef819a5ffb5f9f4ba2c3a3", null ]
 ];

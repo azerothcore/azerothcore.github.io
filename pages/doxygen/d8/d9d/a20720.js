@@ -1,9 +1,6 @@
 var a20720 =
 [
-    [ "boss_sjonnir_iron_sludgeAI", "d8/d9d/a20720.html#aac57ae32188c47ca97b7331d62986e66", null ],
-    [ "JustDied", "d8/d9d/a20720.html#a6cfebecaaf673e40f97a46a09947a1f0", null ],
-    [ "JustEngagedWith", "d8/d9d/a20720.html#a772d279407d724477560898559710433", null ],
-    [ "Reset", "d8/d9d/a20720.html#a5b4a726aa496923d81c41b038e5f7449", null ],
-    [ "UpdateAI", "d8/d9d/a20720.html#a2745ff26c165851c367e080d28652984", null ],
-    [ "events", "d8/d9d/a20720.html#a468d45f9b9c2172f326068d59a74121a", null ]
+    [ "boss_yoggsaron_death_orbAI", "d8/d9d/a20720.html#a6e87b98e89748585a9f28c6f0e3a85e9", null ],
+    [ "UpdateAI", "d8/d9d/a20720.html#afde5311434966ff0459dca8ce0d6b8b0", null ],
+    [ "_startTimer", "d8/d9d/a20720.html#aebc8edef5f84219e1c50f2394d129443", null ]
 ];

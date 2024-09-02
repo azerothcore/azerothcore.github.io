@@ -1,7 +1,6 @@
 var a15048 =
 [
-    [ "boss_rajaxx", "d3/d4f/a15048.html#afca05f7afabb4c0e181ce3757acb3bcb", null ],
-    [ "JustDied", "d3/d4f/a15048.html#a9231a20150ed6eae0cbc79c8386f7371", null ],
-    [ "JustEngagedWith", "d3/d4f/a15048.html#a8dad79921559359b6aa7149641925fe5", null ],
-    [ "UpdateAI", "d3/d4f/a15048.html#a9b949bea61ceb45ec1b3e452f218c227", null ]
+    [ "OnPeriodic", "d3/d4f/a15048.html#a5945e24db52c6bacae7221b085dc877b", null ],
+    [ "PrepareAuraScript", "d3/d4f/a15048.html#acc987aa864a8333de7bd0b770eb9018d", null ],
+    [ "Register", "d3/d4f/a15048.html#a3c5a192302ec6d531037f8b5da1565f2", null ]
 ];

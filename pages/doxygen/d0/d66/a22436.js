@@ -1,13 +1,13 @@
 var a22436 =
 [
-    [ "npc_ulduar_arachnopod_destroyerAI", "d0/d66/a22436.html#a52bbedf267aaa3cea68e8a5960cbc34b", null ],
-    [ "AttackStart", "d0/d66/a22436.html#aed91dafbc50a785875b8b41c5e328d73", null ],
-    [ "DamageTaken", "d0/d66/a22436.html#a4c2ec3cf0c5561b1b9f309bb8f180f8c", null ],
-    [ "EnterEvadeMode", "d0/d66/a22436.html#a671a27f00e279e0a4c0827999ce26d8b", null ],
-    [ "OnCharmed", "d0/d66/a22436.html#ae268a425326efbea1282ce116ff76e3f", null ],
-    [ "PassengerBoarded", "d0/d66/a22436.html#a83409607638100fddd229829ee2bea40", null ],
-    [ "Reset", "d0/d66/a22436.html#a2a7bda0ee585a7aa652081ce7ede3fa6", null ],
-    [ "UpdateAI", "d0/d66/a22436.html#ac10669fddd193d583ecead8ed37879b3", null ],
-    [ "_spawnedMechanic", "d0/d66/a22436.html#a2db3016e32b4e77724fea98d605eaa59", null ],
-    [ "events", "d0/d66/a22436.html#ac61064ee3e22b476a35dce4564f65882", null ]
+    [ "OPvPCapturePointEP_NPT", "d0/d66/a22436.html#a2cb0929c3acb81530a0bd7ea57bcc298", null ],
+    [ "ChangeState", "d0/d66/a22436.html#a9e046ace6129ce67568ed7c15130b617", null ],
+    [ "FillInitialWorldStates", "d0/d66/a22436.html#a92ab3651e036895f664c33d79a6ec747", null ],
+    [ "HandlePlayerEnter", "d0/d66/a22436.html#ace643b7f7bc793934972c61c618045eb", null ],
+    [ "HandlePlayerLeave", "d0/d66/a22436.html#a950cd355c808f40ca95c0e5a46bac0a2", null ],
+    [ "SendChangePhase", "d0/d66/a22436.html#aef84a9917d5f40cfff48acb45ffdf0aa", null ],
+    [ "SummonGO", "d0/d66/a22436.html#a08a54abf3668074b5878c165bd2f8ddd", null ],
+    [ "UpdateTowerState", "d0/d66/a22436.html#ad8cfefcc567346273914e8039b039835", null ],
+    [ "m_SummonedGOSideId", "d0/d66/a22436.html#aa034240d169c9ab7276786bb188abc70", null ],
+    [ "m_TowerState", "d0/d66/a22436.html#a703b68024362d13ceaf9012202b72e7d", null ]
 ];

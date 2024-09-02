@@ -1,6 +1,6 @@
 var a24348 =
 [
-    [ "FilterTargets", "d5/d66/a24348.html#a4b1a4a8dac057447ca25ce737b3d6470", null ],
-    [ "PrepareSpellScript", "d5/d66/a24348.html#ac2e33285b6183735b4297aa93acc1716", null ],
-    [ "Register", "d5/d66/a24348.html#a508b90f216ded82d5091c9e355bfd986", null ]
+    [ "PrepareSpellScript", "d5/d66/a24348.html#ae915f8f6522f0a8d308b2a5f43b8884f", null ],
+    [ "RecalculateDamage", "d5/d66/a24348.html#af01757d0968da2a096d800782ed7e66e", null ],
+    [ "Register", "d5/d66/a24348.html#a62b6613707a2a9b78d52bffe92de604e", null ]
 ];

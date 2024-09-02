@@ -1,6 +1,6 @@
 var a24460 =
 [
-    [ "spell_illidan_cage_trap_SpellScript", "d8/d98/a24464.html", "d8/d98/a24464" ],
-    [ "spell_illidan_cage_trap", "d8/d97/a24460.html#acf6836f09f2373d4f918fd73ee18f7ff", null ],
-    [ "GetSpellScript", "d8/d97/a24460.html#a698bb668221ac9dec7f795ec21575c88", null ]
+    [ "PrepareSpellScript", "d8/d97/a24460.html#a6c49fad4dc5d080b9a5550f8f30cae4d", null ],
+    [ "RecalculateDamage", "d8/d97/a24460.html#ab6a781160532d7cbb3bb3304eb412514", null ],
+    [ "Register", "d8/d97/a24460.html#a82395d00066e90abc58103b18a5ef4dc", null ]
 ];

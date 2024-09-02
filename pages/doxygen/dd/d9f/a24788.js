@@ -1,6 +1,7 @@
 var a24788 =
 [
-    [ "spell_illidari_council_empyreal_balance_SpellScript", "df/de2/a24792.html", "df/de2/a24792" ],
-    [ "spell_illidari_council_empyreal_balance", "dd/d9f/a24788.html#aac4c429dd2f58cc0e9340ba11a40e2b3", null ],
-    [ "GetSpellScript", "dd/d9f/a24788.html#aafb006b22ead0fd497a681c73e29187c", null ]
+    [ "CheckRequirement", "dd/d9f/a24788.html#a6be5f335a15226db87a04548490f488d", null ],
+    [ "PrepareSpellScript", "dd/d9f/a24788.html#a25463eda0ce51a124e8715baf305c8f6", null ],
+    [ "Register", "dd/d9f/a24788.html#a8db5a5597d8f6fe4064799766fb61502", null ],
+    [ "_level", "dd/d9f/a24788.html#a3d6867e8eae9afde2b03acc2e6ebe961", null ]
 ];

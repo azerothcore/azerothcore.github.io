@@ -1,6 +1,6 @@
 var a19676 =
 [
-    [ "spell_icc_web_wrap_AuraScript", "d9/d76/a19680.html", "d9/d76/a19680" ],
-    [ "spell_icc_web_wrap", "d2/dc5/a19676.html#aedb4941dc8c485d3b952d05773df8aee", null ],
-    [ "GetAuraScript", "d2/dc5/a19676.html#a75a7b4c03f65c328851257385462f663", null ]
+    [ "boss_stormcaller_brundirAI", "d9/d76/a19680.html", "d9/d76/a19680" ],
+    [ "boss_stormcaller_brundir", "d2/dc5/a19676.html#aa966d1534a58e3832c46772043956533", null ],
+    [ "GetAI", "d2/dc5/a19676.html#a399b1b7cf2ee74c1e672231e922ff4fa", null ]
 ];

@@ -1,6 +1,6 @@
 var a23884 =
 [
-    [ "spell_close_rift_AuraScript", "d2/daf/a23888.html", "d2/daf/a23888" ],
-    [ "spell_close_rift", "dd/d11/a23884.html#a73a71f454030555a5f8dcdf15575cf41", null ],
-    [ "GetAuraScript", "dd/d11/a23884.html#ac1fefea4622b4a586f147d87c652d8be", null ]
+    [ "npc_deaths_door_fell_cannon_target_bunnyAI", "d2/daf/a23888.html", "d2/daf/a23888" ],
+    [ "npc_deaths_door_fell_cannon_target_bunny", "dd/d11/a23884.html#a1385e50777282fae0c8f8ca2f9f8a3e6", null ],
+    [ "GetAI", "dd/d11/a23884.html#a250707096229da28024960beeb7725bf", null ]
 ];

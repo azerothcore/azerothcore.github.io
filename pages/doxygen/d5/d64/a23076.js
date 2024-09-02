@@ -1,14 +1,7 @@
 var a23076 =
 [
-    [ "npc_hidden_cultistAI", "d5/d64/a23076.html#a970aaa2401664337147696624cc8cac4", null ],
-    [ "AttackPlayer", "d5/d64/a23076.html#a55e3b02d05f35d134fc605a13efe9018", null ],
-    [ "Initialize", "d5/d64/a23076.html#ab9199126a5a19cc3c6dc612bc428d79c", null ],
-    [ "PreScript", "d5/d64/a23076.html#a92be5361e2b28152adcca0629b286bb8", null ],
-    [ "Reset", "d5/d64/a23076.html#afe38e448d86cdf910870d72a3890ae1f", null ],
-    [ "sGossipSelect", "d5/d64/a23076.html#adf6d85bc5a32c8bd7c125d24f67411d9", null ],
-    [ "UpdateAI", "d5/d64/a23076.html#a0bba4d10439d47d44ff856c7fec18595", null ],
-    [ "_emoteState", "d5/d64/a23076.html#adb4e884787dc480358c5be22d276ec49", null ],
-    [ "_events", "d5/d64/a23076.html#ab0494e33d16a43aa1426784d1882e41c", null ],
-    [ "_npcFlags", "d5/d64/a23076.html#aea867d06cb737e2a44445c2c8c7d6e45", null ],
-    [ "_playerGUID", "d5/d64/a23076.html#ac7ecf525ed8c0d2a3d00b34f7afdbf18", null ]
+    [ "HandleEffectApply", "d5/d64/a23076.html#acc7aeb8a002db3a846cbac29053af441", null ],
+    [ "HandleEffectRemove", "d5/d64/a23076.html#a11de5d496bc1265ceb01c2bb91da4a57", null ],
+    [ "PrepareAuraScript", "d5/d64/a23076.html#a7203f8808f6afc5bdaf49a26ae8b0c20", null ],
+    [ "Register", "d5/d64/a23076.html#a7b62d651a57e2dc9d8e461f7a5c9d500", null ]
 ];

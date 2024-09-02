@@ -1,13 +1,7 @@
 var a22740 =
 [
-    [ "boss_toravonAI", "d4/d90/a22740.html#a98474fcfbc56c7850ae054b7489eaa4f", null ],
-    [ "AttackStart", "d4/d90/a22740.html#ac4e2ed28ba7863630cd54c8f6c11455f", null ],
-    [ "JustDied", "d4/d90/a22740.html#ad501bb34a0014be0abc965aae5383e21", null ],
-    [ "JustEngagedWith", "d4/d90/a22740.html#af6a6cfd1ec54546c2e70ea60f871b564", null ],
-    [ "JustSummoned", "d4/d90/a22740.html#a431dafbcc3a6581d771e810a85a92a0b", null ],
-    [ "Reset", "d4/d90/a22740.html#a4af8eb8863e7ee1559bc156b7f28e8d8", null ],
-    [ "UpdateAI", "d4/d90/a22740.html#a97c16b1689cfdb7fa680381964cb272a", null ],
-    [ "events", "d4/d90/a22740.html#ae2a3b691f1580275228204ea8ccaf846", null ],
-    [ "pInstance", "d4/d90/a22740.html#a912bcccd309ccd1f043c5aae633e78fe", null ],
-    [ "summons", "d4/d90/a22740.html#a56ca98fa12190d6d9d459bc5e569ae04", null ]
+    [ "OnPeriodic", "d4/d90/a22740.html#a165d47b116b0a53e37b05f664960e6ec", null ],
+    [ "PrepareAuraScript", "d4/d90/a22740.html#ac46af3566c5c03622f8146f1bb6f0ac7", null ],
+    [ "Register", "d4/d90/a22740.html#a1ac8741542c921f5e4c42b0a9a02ed3c", null ],
+    [ "Validate", "d4/d90/a22740.html#adf76f9183dd9c5e0f00c2115aaafb119", null ]
 ];

@@ -1,6 +1,8 @@
 var a26208 =
 [
-    [ "npc_enslaved_netherwing_drakeAI", "dc/df4/a26212.html", "dc/df4/a26212" ],
-    [ "npc_enslaved_netherwing_drake", "d6/d0d/a26208.html#a63b473fa09b66e501f1496bf9239226f", null ],
-    [ "GetAI", "d6/d0d/a26208.html#ad022cfa77d4dfca164f183bb5f5ec7cf", null ]
+    [ "HandleEffectRemove", "d6/d0d/a26208.html#a770b7ad0bb00114400a73f50c4aa6c81", null ],
+    [ "if", "d6/d0d/a26208.html#a7123c451bce0f95ad75e5acfbe58a135", null ],
+    [ "PrepareAuraScript", "d6/d0d/a26208.html#a531f51626ae4527282ad1e628911a9ea", null ],
+    [ "Register", "d6/d0d/a26208.html#ae68bd9a92239a4796f9d8040787a68b3", null ],
+    [ "AuraEffectHandleModes", "d6/d0d/a26208.html#a8af86c58f438e78d8bf878f79d4a27e2", null ]
 ];

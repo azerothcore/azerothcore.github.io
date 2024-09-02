@@ -1,9 +1,10 @@
 var a11936 =
 [
-    [ "npc_flamewaker_priestAI", "de/dfd/a11936.html#aa0508dda5bc365896128f088b6de30f4", null ],
-    [ "JustDied", "de/dfd/a11936.html#ad1f51c4589abe6ef5bcf513d70e34a4c", null ],
-    [ "JustEngagedWith", "de/dfd/a11936.html#a15fefb756ad1ae20257d4ed9cb1d3eca", null ],
-    [ "Reset", "de/dfd/a11936.html#a3c3629a6c6987e861e40a893363d2508", null ],
-    [ "UpdateAI", "de/dfd/a11936.html#a28c0ed65521f3d2150874ddc1b913933", null ],
-    [ "events", "de/dfd/a11936.html#a7d769cc852a69fdf719cb7958c3d890c", null ]
+    [ "npc_corrupted_totem", "de/dfd/a11936.html#a5e0c58b341fe25a5d682b68e9eee207f", null ],
+    [ "IsSummonedBy", "de/dfd/a11936.html#ae8314903c9006b7bca94a47115a0d05b", null ],
+    [ "JustDied", "de/dfd/a11936.html#aa3c6b1a3df61c9e98c62efadff637578", null ],
+    [ "Reset", "de/dfd/a11936.html#a0bc8df2b8266b7b3a5f40f1ede0e10b4", null ],
+    [ "SetAura", "de/dfd/a11936.html#a509688befda49f789f77ee0e4170a74e", null ],
+    [ "UpdateAI", "de/dfd/a11936.html#ac128625268820d2e9b1f0ef5ead975e9", null ],
+    [ "_auraAdded", "de/dfd/a11936.html#a953cf5af625b9b5a4ab6704d5b1b664c", null ]
 ];

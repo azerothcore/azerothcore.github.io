@@ -1,6 +1,11 @@
 var a15612 =
 [
-    [ "SpellId", "d3/dfa/a15612.html#a2c430be201c1fd866ee96224f1803a20", null ],
-    [ "Timer1", "d3/dfa/a15612.html#a9a35c148286e88f48b174be8b74fc5d0", null ],
-    [ "Timer2", "d3/dfa/a15612.html#a108dee679b1f5d9fb8351f7b4b4f3a56", null ]
+    [ "npc_amanitar_mushrooms", "d3/dfa/a15612.html#ad5603426c71c107ff439cea2efeea3f9", null ],
+    [ "AttackStart", "d3/dfa/a15612.html#a0cc90c924a12a8be32c78e76ca798943", null ],
+    [ "DamageTaken", "d3/dfa/a15612.html#a4c21a448535e1fc0f0116257194b9732", null ],
+    [ "EnterEvadeMode", "d3/dfa/a15612.html#ae17ee367c9d206868c7dfc64d438806a", null ],
+    [ "JustEngagedWith", "d3/dfa/a15612.html#ac50bf479e8c891af432cfccdf9d49c55", null ],
+    [ "Reset", "d3/dfa/a15612.html#ae597d5a64765f5304773f9a38e9c719a", null ],
+    [ "UpdateAI", "d3/dfa/a15612.html#ae71058353be43935aa45eb28eb41170f", null ],
+    [ "events", "d3/dfa/a15612.html#a0be93d15582a5511963721510652e76d", null ]
 ];

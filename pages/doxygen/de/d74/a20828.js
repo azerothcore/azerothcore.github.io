@@ -1,6 +1,7 @@
 var a20828 =
 [
-    [ "go_celestial_planetarium_accessAI", "d3/d3d/a20832.html", "d3/d3d/a20832" ],
-    [ "go_celestial_planetarium_access", "de/d74/a20828.html#a20b7c895dd0fc2cb37bf3c113bf91278", null ],
-    [ "GetAI", "de/d74/a20828.html#a4fc9ac64f7dceefbdda02297f7dfc42b", null ]
+    [ "FilterTargets", "de/d74/a20828.html#a4e27a01b87e6f003ed52da45a4bda403", null ],
+    [ "HandleDummyEffect", "de/d74/a20828.html#abfe7ff12346d54fe3a0c1450897e58ee", null ],
+    [ "PrepareSpellScript", "de/d74/a20828.html#a0c31912e28eaa5922edb1ca4c7689883", null ],
+    [ "Register", "de/d74/a20828.html#a337cdb940a2001ac370768b02126d3c0", null ]
 ];

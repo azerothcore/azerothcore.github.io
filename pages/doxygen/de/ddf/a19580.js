@@ -1,5 +1,6 @@
 var a19580 =
 [
-    [ "npc_alchemist_adrianna", "de/ddf/a19580.html#a310d375bc73c51e407580b063a6543fa", null ],
-    [ "OnGossipHello", "de/ddf/a19580.html#a02ec6a66037d72e30bbe821ceee38691", null ]
+    [ "npc_collapsing_starAI", "de/ddf/a19580.html#ac389b380a8f315ae50a8cd809393a773", null ],
+    [ "DamageTaken", "de/ddf/a19580.html#a424fac98093eb9d02cda5027523ad06a", null ],
+    [ "JustSummoned", "de/ddf/a19580.html#ae70fcb66171fe5f87d96aaf2f52e35bc", null ]
 ];

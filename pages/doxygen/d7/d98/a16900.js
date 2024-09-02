@@ -1,6 +1,6 @@
 var a16900 =
 [
-    [ "HandleDummy", "d7/d98/a16900.html#a14338e50f8015e5182d83d289cc5f528", null ],
-    [ "PrepareSpellScript", "d7/d98/a16900.html#a58bc3d2965f51576b0fcb2ff7d0847a1", null ],
-    [ "Register", "d7/d98/a16900.html#ab481e46f350a26921af4662d91399a70", null ]
+    [ "npc_pos_deathwhisper_necrolyteAI", "d3/df9/a16904.html", "d3/df9/a16904" ],
+    [ "npc_pos_deathwhisper_necrolyte", "d7/d98/a16900.html#a0dcdb5b1dfed44f74b04663758b531a0", null ],
+    [ "GetAI", "d7/d98/a16900.html#ae765669f95f4f14b393b88bf7ecbbfd6", null ]
 ];

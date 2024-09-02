@@ -1,6 +1,6 @@
 var a19884 =
 [
-    [ "npc_four_car_garageAI", "de/dfd/a19888.html", "de/dfd/a19888" ],
-    [ "npc_four_car_garage", "d9/df6/a19884.html#ae9b811544ab5cbdcb9c44abdc2da41a8", null ],
-    [ "GetAI", "d9/df6/a19884.html#ac55346f9733c5502a9e9f2d6d48feefb", null ]
+    [ "CheckAreaTarget", "d9/df6/a19884.html#ad1930e308f450cb84dba4f4b28b19f58", null ],
+    [ "PrepareAuraScript", "d9/df6/a19884.html#a921b2f67c417244310398bd93061d61c", null ],
+    [ "Register", "d9/df6/a19884.html#ab21972706bae9fdc3fc6859da2f3f63e", null ]
 ];

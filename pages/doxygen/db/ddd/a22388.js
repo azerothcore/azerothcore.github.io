@@ -1,6 +1,11 @@
 var a22388 =
 [
-    [ "achievement_yogg_saron_he_waits_dreaming", "db/ddd/a22388.html#a25f4950d1ccffe77aa9cf5de7a14ea37", null ],
-    [ "OnCheck", "db/ddd/a22388.html#a7ef7dfb0235fb2db5932e7415e3e6f61", null ],
-    [ "_requiredIllusion", "db/ddd/a22388.html#aa3e107cb3be6fa02687709e07466a094", null ]
+    [ "npc_drakuru_shacklesAI", "db/ddd/a22388.html#aeb55bf23d97e963b0fb9a18596bb58b1", null ],
+    [ "LockRageclaw", "db/ddd/a22388.html#aa58fff9ee8e6cbe4d2dd0d391215f1f4", null ],
+    [ "Reset", "db/ddd/a22388.html#a566fba51edcddab8c5b0bf5688571f80", null ],
+    [ "SpellHit", "db/ddd/a22388.html#a04a9f0cc28cd8cab89120e66972b74cf", null ],
+    [ "UnlockRageclaw", "db/ddd/a22388.html#a65a4b408ac09ffa3155b955dc054d971", null ],
+    [ "UpdateAI", "db/ddd/a22388.html#a8a04ac89e5ec9ce841445913765a1a73", null ],
+    [ "_rageclawGUID", "db/ddd/a22388.html#a1c991305f4ef30146930747881e57de4", null ],
+    [ "timer", "db/ddd/a22388.html#a2a6484216abd731ad016284a79575e1c", null ]
 ];

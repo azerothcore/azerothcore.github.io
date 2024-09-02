@@ -1,17 +1,13 @@
 var a15904 =
 [
-    [ "boss_volazj", "d5/d4e/a15904.html#ac1f0bc7b55a554d29e55a376680bf747", null ],
-    [ "CheckPhaseMinions", "d5/d4e/a15904.html#aa79bf97b6772956795bd2f16b85e061f", null ],
-    [ "DamageTaken", "d5/d4e/a15904.html#a494d78875526d878421b995145b74a12", null ],
-    [ "GetPlrInsanityAuraId", "d5/d4e/a15904.html#a5b6936cedb3fc411ae58f3dc3f6b689a", null ],
-    [ "InitializeAI", "d5/d4e/a15904.html#a9480c4294b18c5417895e5070be9a455", null ],
-    [ "JustDied", "d5/d4e/a15904.html#a6c85c56c2483c3e8b4de67b94a45e0a6", null ],
-    [ "JustEngagedWith", "d5/d4e/a15904.html#a135c5606742474e77ffd0ee0a3c3ee69", null ],
-    [ "KilledUnit", "d5/d4e/a15904.html#abdf2cb95f0d3d7756584c338f2e2db25", null ],
-    [ "Reset", "d5/d4e/a15904.html#a0377375b89b02db3cae01390fdd13ee2", null ],
-    [ "ResetPlayersPhaseMask", "d5/d4e/a15904.html#afbfa62f2b72a95434348f74fdda46da6", null ],
-    [ "SetData", "d5/d4e/a15904.html#aa8b5ae6214f0c764f15b096876d614d7", null ],
-    [ "UpdateAI", "d5/d4e/a15904.html#aceac85fb06c81ccd171b024ad0d57ffe", null ],
-    [ "insanityPhase", "d5/d4e/a15904.html#ae90de1e956eb3653c8c2f0c04d89585b", null ],
-    [ "insanityTimes", "d5/d4e/a15904.html#a7d2693147f9cb20a45ff2e5b6a2ca209", null ]
+    [ "boss_twilight_halionAI", "d5/d4e/a15904.html#aab05bab963d603c3cb70edfd62a84b49", null ],
+    [ "DamageTaken", "d5/d4e/a15904.html#a0c62ac244e57b1b90101e1ba89a60d27", null ],
+    [ "EnterEvadeMode", "d5/d4e/a15904.html#af7076251fc1fad1dc259d747934910e2", null ],
+    [ "JustDied", "d5/d4e/a15904.html#a2874474a1dbc9b30a4ff77d2d7bfd8fd", null ],
+    [ "JustEngagedWith", "d5/d4e/a15904.html#a136b51ede30d63d87228d35e8b6f2c7a", null ],
+    [ "KilledUnit", "d5/d4e/a15904.html#ada770d51f63c841c500ffc3197a7a89f", null ],
+    [ "Reset", "d5/d4e/a15904.html#a9c945841926d5b08f37c6a720dd25a14", null ],
+    [ "UpdateAI", "d5/d4e/a15904.html#a6ab1d215ed077883781b0c0188282c5e", null ],
+    [ "_events", "d5/d4e/a15904.html#a22a8a7696fb23b9eab01d42cd45644de", null ],
+    [ "_instance", "d5/d4e/a15904.html#a033f10bba4ba89aa0111d4cb520540e6", null ]
 ];

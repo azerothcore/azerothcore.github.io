@@ -1,6 +1,6 @@
 var a24704 =
 [
-    [ "boss_najentusAI", "d5/de2/a24708.html", "d5/de2/a24708" ],
-    [ "boss_najentus", "de/d08/a24704.html#aaf598514efe0fcc1954ad87026841bda", null ],
-    [ "GetAI", "de/d08/a24704.html#aea4ffc2f826ae996afa45b7cc449834a", null ]
+    [ "FilterTargets", "de/d08/a24704.html#ac01bb4bac4f041318937cfc09ed603cd", null ],
+    [ "PrepareSpellScript", "de/d08/a24704.html#a3eb1d8c26653477bed5b7ae0c69b34e9", null ],
+    [ "Register", "de/d08/a24704.html#a658a476f5c2229715a8949aa6ba4f99c", null ]
 ];

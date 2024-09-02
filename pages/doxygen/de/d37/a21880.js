@@ -1,9 +1,6 @@
 var a21880 =
 [
-    [ "npc_ulduar_dark_rune_sentinelAI", "de/d37/a21880.html#a533ae31e0507f12f7d94e347b6b7ebf2", null ],
-    [ "CanAIAttack", "de/d37/a21880.html#a12b2e5c621a8b04a4d80dde706a4bb2b", null ],
-    [ "Reset", "de/d37/a21880.html#ada2897f48effedd5d5baa5a260497b5a", null ],
-    [ "UpdateAI", "de/d37/a21880.html#aa9b319928a9b23cf4d47a07c1eaeb0cd", null ],
-    [ "timer1", "de/d37/a21880.html#a383a2ee113822b7eff52466f0cc0e137", null ],
-    [ "timer2", "de/d37/a21880.html#ad5c4698c5d12ff42179d62c47d9f7719", null ]
+    [ "CheckRequirement", "de/d37/a21880.html#ad58d71b5c2bc10d9ffbfe472bd5b1a32", null ],
+    [ "PrepareSpellScript", "de/d37/a21880.html#ae621e95feb69b54f9aef5d77577a15ae", null ],
+    [ "Register", "de/d37/a21880.html#ab0b03fd2d1a0ed6720acc45221a582f6", null ]
 ];

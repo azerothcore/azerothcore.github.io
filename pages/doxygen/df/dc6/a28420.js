@@ -1,6 +1,10 @@
 var a28420 =
 [
-    [ "HandleDummy", "df/dc6/a28420.html#abac8aa528d6d83748cf4cdbdaa8313f6", null ],
-    [ "PrepareSpellScript", "df/dc6/a28420.html#ae80dda98f66c1fbaa37741ffd52a1108", null ],
-    [ "Register", "df/dc6/a28420.html#a90fbc5d1b22cbc59550a430a63c08032", null ]
+    [ "adt_CELLS", "de/ded/a28428.html", "de/ded/a28428" ],
+    [ "getMCNK", "df/dc6/a28420.html#a8330b7cb405146399d3d20e6952a8b40", null ],
+    [ "prepareLoadedData", "df/dc6/a28420.html#adc7346499aa51f4422c810b7e757f835", null ],
+    [ "cells", "df/dc6/a28420.html#a434ed0ca354ec27d5334cc63e5650038", null ],
+    [ "fcc", "df/dc6/a28420.html#ae7d4acf20e102b6b8f19ded3fe219a7d", null ],
+    [ "fcc_txt", "df/dc6/a28420.html#a514bae36851623daf76b26a9d63f1ae0", null ],
+    [ "size", "df/dc6/a28420.html#a1a40f52ea9eef3add8207da89cb71210", null ]
 ];

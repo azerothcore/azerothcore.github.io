@@ -1,7 +1,11 @@
 var a25300 =
 [
-    [ "HandleScript", "db/df4/a25300.html#a42052a416290a54d5479a402de578a73", null ],
-    [ "PrepareSpellScript", "db/df4/a25300.html#a5f6aa972879b65c0207e47435d436a33", null ],
-    [ "Register", "db/df4/a25300.html#a98efb2a9a68d7878af9d6f9d46db88c9", null ],
-    [ "Validate", "db/df4/a25300.html#a0d10ed00f11ede2b63665e4cfe53a70c", null ]
+    [ "CalcPeriodic", "db/df4/a25300.html#ab5feede17fa79c9d02fa459586eaca41", null ],
+    [ "CalculateAPAmount", "db/df4/a25300.html#af2b1da799f1b3c0373dc6782dabbf89c", null ],
+    [ "CalculateResistanceAmount", "db/df4/a25300.html#a51828f07b0e099c5931161f7aeebaab7", null ],
+    [ "CalculateSPAmount", "db/df4/a25300.html#a255ed8f5158e715313e44b13f30b099f", null ],
+    [ "CalculateStatAmount", "db/df4/a25300.html#ade1b7256d19b526a7f4b1520f6b2f663", null ],
+    [ "HandlePeriodic", "db/df4/a25300.html#a136c8cedca7630543b8937e77571ead1", null ],
+    [ "PrepareAuraScript", "db/df4/a25300.html#a638a2544d9216bec90c433100c0663a0", null ],
+    [ "Register", "db/df4/a25300.html#a55605257006d8218250932357f325bb8", null ]
 ];

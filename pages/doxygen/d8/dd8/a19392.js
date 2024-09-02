@@ -1,6 +1,6 @@
 var a19392 =
 [
-    [ "npc_gluttonous_abominationAI", "d6/d4a/a19396.html", "d6/d4a/a19396" ],
-    [ "npc_gluttonous_abomination", "d8/dd8/a19392.html#a895d1afcfc62bcaac6cc0d20465f1e7a", null ],
-    [ "GetAI", "d8/dd8/a19392.html#aedbd808da5e8ea0e2111e78be9d846ce", null ]
+    [ "boss_lokenAI", "d6/d4a/a19396.html", "d6/d4a/a19396" ],
+    [ "boss_loken", "d8/dd8/a19392.html#a44ba0ee009dcdfca6ff8739e297ec786", null ],
+    [ "GetAI", "d8/dd8/a19392.html#affb73db8ecdc2d035f8076ecca0c9a99", null ]
 ];

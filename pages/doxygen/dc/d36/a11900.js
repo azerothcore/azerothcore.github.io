@@ -1,7 +1,7 @@
 var a11900 =
 [
-    [ "HandleScript", "dc/d36/a11900.html#ac09c2c6b997c2a5fc0bee0ba0ea185ae", null ],
-    [ "PrepareSpellScript", "dc/d36/a11900.html#ad3c052a9bd00d04c954f85218dcfcb0a", null ],
-    [ "Register", "dc/d36/a11900.html#a8658c2c7e32a66e4a1bcc048406653bb", null ],
-    [ "Validate", "dc/d36/a11900.html#aa03795d909e24dfe2ccd12e431b2575e", null ]
+    [ "boss_ebonrocAI", "dc/d36/a11900.html#a73be20fda4e3f8cb7623796f3c32d741", null ],
+    [ "JustEngagedWith", "dc/d36/a11900.html#a2c74e0030b1093d79245978939043d53", null ],
+    [ "MovementInform", "dc/d36/a11900.html#ac1e16bb5ac18b55fbfb8af5078df270f", null ],
+    [ "UpdateAI", "dc/d36/a11900.html#aa2059c3834fbcfda3c8da5743bd2501f", null ]
 ];

@@ -1,6 +1,6 @@
 var a19920 =
 [
-    [ "HandleGameObjectDamage", "d0/d59/a19920.html#ad20b0e637d04dadd6e4ebe528124fadd", null ],
-    [ "PrepareSpellScript", "d0/d59/a19920.html#a636a0e5afb673d9190438793febb45bd", null ],
-    [ "Register", "d0/d59/a19920.html#ae913049c6f402765ececb2d20849d929", null ]
+    [ "boss_freyaAI", "d4/d90/a19924.html", "d4/d90/a19924" ],
+    [ "boss_freya", "d0/d59/a19920.html#ae366f60526e7c948dee148cdd12f0752", null ],
+    [ "GetAI", "d0/d59/a19920.html#a6a2f5b402e99208a535fc3f23c2a0eb3", null ]
 ];

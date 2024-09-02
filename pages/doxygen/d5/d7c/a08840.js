@@ -1,7 +1,8 @@
 var a08840 =
 [
-    [ "ObjectTypeIdCheck", "d5/d7c/a08840.html#a40af6d4d15e92aaaf2c9bb53ce9bb290", null ],
-    [ "operator()", "d5/d7c/a08840.html#a9cbd09a6021bef7819a0002952264293", null ],
-    [ "_equals", "d5/d7c/a08840.html#ab08a6e18731ccb822a71a1530f6966c3", null ],
-    [ "_typeId", "d5/d7c/a08840.html#a70e9a07e4c2c559bc55b8003db3af3be", null ]
+    [ "AIRelocationNotifier", "d5/d7c/a08840.html#ab19dba99802231bc1ba7b3ae3cb4bdb3", null ],
+    [ "Visit", "d5/d7c/a08840.html#a06dd774a24d4a1da36a2a862c0ad97df", null ],
+    [ "Visit", "d5/d7c/a08840.html#a0ec9a2499d73516dd2d4a0319990924a", null ],
+    [ "i_unit", "d5/d7c/a08840.html#ab1dd814e4d94ed2989bb07012a24d40e", null ],
+    [ "isCreature", "d5/d7c/a08840.html#a199f4b91d00dd4db90855e5521d87a95", null ]
 ];

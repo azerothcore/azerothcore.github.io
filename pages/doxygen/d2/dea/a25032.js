@@ -1,6 +1,6 @@
 var a25032 =
 [
-    [ "spell_lady_vashj_spore_drop_effect_SpellScript", "d2/d40/a25036.html", "d2/d40/a25036" ],
-    [ "spell_lady_vashj_spore_drop_effect", "d2/dea/a25032.html#ae3147eb5e643de9e6a9cd128346e89bb", null ],
-    [ "GetSpellScript", "d2/dea/a25032.html#aacddc80deffc079c4fe7c7eca557fe4d", null ]
+    [ "CalculateAmount", "d2/dea/a25032.html#a66b009487462241e573ea23f081a140a", null ],
+    [ "PrepareAuraScript", "d2/dea/a25032.html#a0eee16c77a3c3cea882b67c78826a140", null ],
+    [ "Register", "d2/dea/a25032.html#afeafc6922b0a0389fec969e3c7191dda", null ]
 ];

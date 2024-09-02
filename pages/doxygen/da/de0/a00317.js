@@ -1,11 +1,9 @@
 var a00317 =
 [
-    [ "VMAP::ModelPosition", "de/d42/a04927.html", "de/d42/a04927" ],
-    [ "VMAP::MapSpawns", "d8/d4c/a04931.html", "d8/d4c/a04931" ],
-    [ "VMAP::GroupModel_Raw", "d3/d16/a04935.html", "d3/d16/a04935" ],
-    [ "VMAP::WorldModel_Raw", "d2/d77/a04939.html", "d2/d77/a04939" ],
-    [ "VMAP::TileAssembler", "d5/dc1/a04943.html", "d5/dc1/a04943" ],
-    [ "MapData", "da/de0/a00317.html#a28dc2e567f8620fed1128b6c4cf5b749", null ],
-    [ "TileMap", "da/de0/a00317.html#abfe766a1b58bbf69ce3b17ff14d1c101", null ],
-    [ "UniqueEntryMap", "da/de0/a00317.html#a3424b44a092b5f3d8074649ae11ee481", null ]
+    [ "FlyByCameraCollection", "da/de0/a00317.html#a058e5fb250bd785cecc9a6913132dfe4", null ],
+    [ "GetFlyByCameras", "da/de0/a00317.html#af4a9ba9da1a2f4075cc36b95cce62f6f", null ],
+    [ "LoadM2Cameras", "da/de0/a00317.html#a036ca5e535b8e25b87a67c20c2ad2d4c", null ],
+    [ "readCamera", "da/de0/a00317.html#ad7c17022a3ffed42c9d4995f5f6bb7ac", null ],
+    [ "TranslateLocation", "da/de0/a00317.html#a5274eb8fcc7646fe4fc3ea77ab6de2d9", null ],
+    [ "sFlyByCameraStore", "da/de0/a00317.html#a4acfeb7e23e1d3a74b66a1c54084e7bc", null ]
 ];

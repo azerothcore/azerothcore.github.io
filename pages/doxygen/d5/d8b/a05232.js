@@ -1,20 +1,12 @@
 var a05232 =
 [
-    [ "Task", "d5/d8b/a05232.html#a15fd2d39bf79bd4d8ea432b5543f5efc", null ],
-    [ "Task", "d5/d8b/a05232.html#ad9b788727c5e8dfa5c424970f882b1dc", null ],
-    [ "Task", "d5/d8b/a05232.html#a7eec23707deabeb93b600ad1b17812d6", null ],
-    [ "Task", "d5/d8b/a05232.html#a9acec30a90c44ffcff66c256a9caf01a", null ],
-    [ "IsInGroup", "d5/d8b/a05232.html#a0bbb86f1ed4357c9af9813e551fc41d7", null ],
-    [ "operator<", "d5/d8b/a05232.html#aa53b9d06447478218858aaff7634daab", null ],
-    [ "operator=", "d5/d8b/a05232.html#af7f962055b0324a6fedcdd91d9d375dd", null ],
-    [ "operator=", "d5/d8b/a05232.html#a97319b03103a3013d96f7abe094ab6a5", null ],
-    [ "operator==", "d5/d8b/a05232.html#ac245f8900a292b6ad6ece4c44da85e11", null ],
-    [ "operator>", "d5/d8b/a05232.html#a45990c164939b2c5a4fafc541103f70f", null ],
-    [ "TaskContext", "d5/d8b/a05232.html#ab75a9caf07880e5ba2bb9f75068bbe7e", null ],
-    [ "TaskScheduler", "d5/d8b/a05232.html#a9f0573c5408a663c3874787eeb7d599e", null ],
-    [ "_duration", "d5/d8b/a05232.html#add2dd72f389df2168012eb70160f6eb3", null ],
-    [ "_end", "d5/d8b/a05232.html#a09a7b8fbb3878aef1cc5f76367e4d43b", null ],
-    [ "_group", "d5/d8b/a05232.html#ad9e890cbd7ed9ff7b8829e132605d432", null ],
-    [ "_repeated", "d5/d8b/a05232.html#a85e8a2803a79f877e94162cc824fabbe", null ],
-    [ "_task", "d5/d8b/a05232.html#a0d846eeae80d54906771ba41281fbdc0", null ]
+    [ "AppenderConsole", "d5/d8b/a05232.html#aaf770a87f2151a7e6f92087751528c68", null ],
+    [ "_write", "d5/d8b/a05232.html#a94e529229bd707fa2bad0a0206a386d5", null ],
+    [ "getType", "d5/d8b/a05232.html#a4ae7f47c76b19eb269b26fdf13f14e48", null ],
+    [ "InitColors", "d5/d8b/a05232.html#a1a4deceeafc9a111a519ea55dc646266", null ],
+    [ "ResetColor", "d5/d8b/a05232.html#a4a3e55c9229947a25d4191bbfa348bf5", null ],
+    [ "SetColor", "d5/d8b/a05232.html#a9303f9408e1cbfc086fba15bf9a4ce59", null ],
+    [ "_colored", "d5/d8b/a05232.html#a172563f34a7277f7afb05354c8fbeb1f", null ],
+    [ "_colors", "d5/d8b/a05232.html#acdf277241cd25715e48500a15ab6bd30", null ],
+    [ "type", "d5/d8b/a05232.html#ab5cbc074f7d9306838974863913c8a5b", null ]
 ];

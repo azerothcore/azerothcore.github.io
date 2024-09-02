@@ -1,18 +1,13 @@
 var a17088 =
 [
-    [ "boss_devourer_of_soulsAI", "db/dbd/a17088.html#aa54d512a3bcf22ba64872bf60ed89ca3", null ],
-    [ "CanAIAttack", "db/dbd/a17088.html#a48b79a3429dec44486d6bd858d5b6edb", null ],
-    [ "EnterEvadeMode", "db/dbd/a17088.html#a0c2c380955e5b24c387b8dd8f00567cc", null ],
-    [ "GetData", "db/dbd/a17088.html#a7d99dba5d3c6725c5f6cbc8a0cc0ec9f", null ],
-    [ "JustDied", "db/dbd/a17088.html#a6e5a944ffbf325aa1bc591ef288c593f", null ],
-    [ "JustEngagedWith", "db/dbd/a17088.html#a1f3b4a9d31a0704807fb9b44237c7b4b", null ],
-    [ "JustSummoned", "db/dbd/a17088.html#ae3c5c0c1d905c424102a6e3a360d61d7", null ],
-    [ "KilledUnit", "db/dbd/a17088.html#aba4ed91e1f61ddd1db29509700a4e0c8", null ],
-    [ "Reset", "db/dbd/a17088.html#aefc761b1142cc6941394a4e3402662d7", null ],
-    [ "SpellHitTarget", "db/dbd/a17088.html#ad503ae8ea66c964bc5997019c9118856", null ],
-    [ "UpdateAI", "db/dbd/a17088.html#ac387b29bcb23f1697bc8b5b1a94e9ee1", null ],
-    [ "bAchiev", "db/dbd/a17088.html#ad57135868c5c631a4add0dea0067feb0", null ],
-    [ "events", "db/dbd/a17088.html#ac0467332ad699f9c60cc9dc257d9e1df", null ],
-    [ "pInstance", "db/dbd/a17088.html#a78204e146c22a80df48d8a6840e70790", null ],
-    [ "summons", "db/dbd/a17088.html#a6602605118c8d64dabec4b96c8e99436", null ]
+    [ "boss_slad_ranAI", "db/dbd/a17088.html#ad85e2fd51d67739026a96bc757bc7801", null ],
+    [ "GetData", "db/dbd/a17088.html#a58e1188a418acdc1f327e7df90c5c122", null ],
+    [ "JustDied", "db/dbd/a17088.html#a636ca76497c33a5175986e80bbcda44a", null ],
+    [ "JustEngagedWith", "db/dbd/a17088.html#ac30b38805d0421b1be509c7d5609c648", null ],
+    [ "JustSummoned", "db/dbd/a17088.html#a08e8d256c0f15011d1aacef8e22d4253", null ],
+    [ "KilledUnit", "db/dbd/a17088.html#a4700f8c06e5fa43fc1719c19cfe79b24", null ],
+    [ "Reset", "db/dbd/a17088.html#a8759163de40d04d53c5e5ed8d8192aa7", null ],
+    [ "SetData", "db/dbd/a17088.html#a3b91eb7c2aa2aeb356c51e81f449b0a5", null ],
+    [ "UpdateAI", "db/dbd/a17088.html#a9eeb3281456779edd9570119ba8a2105", null ],
+    [ "_achievement", "db/dbd/a17088.html#a3ab4f94e13d414fd6c9eb0ba63941ca9", null ]
 ];

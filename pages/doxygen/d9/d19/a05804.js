@@ -1,12 +1,11 @@
 var a05804 =
 [
-    [ "TotemAI", "d9/d19/a05804.html#ad57f973e52d22f45b5171faeb28f2e91", null ],
-    [ "AttackStart", "d9/d19/a05804.html#aa5bb81b51ec79a4328016cca34363880", null ],
-    [ "DoAction", "d9/d19/a05804.html#a9457dae982b3c1d411aa42ff2f30feac", null ],
-    [ "EnterEvadeMode", "d9/d19/a05804.html#acd8ed4528ac7c16182a0470e49b422f6", null ],
-    [ "MoveInLineOfSight", "d9/d19/a05804.html#a796d05b45b4ba4dc23f04897fc2ce253", null ],
-    [ "Permissible", "d9/d19/a05804.html#a75a0cdb27da98b47cf3ccbd2e594cd18", null ],
-    [ "SpellHit", "d9/d19/a05804.html#a7a5fc1dc37708fab628bc78bb28575be", null ],
-    [ "UpdateAI", "d9/d19/a05804.html#a2b5b3c8bb51d83bfa8f3474a868fcb19", null ],
-    [ "i_victimGuid", "d9/d19/a05804.html#ae651f8f7a02261c1a0e37a6c7ddde4be", null ]
+    [ "AppliedFileEntry", "d9/d19/a05804.html#ac925dd4c2f889ae84e8be8cba9a0ef06", null ],
+    [ "GetStateAsString", "d9/d19/a05804.html#a803f0ee67f0d3944b0933cf97723b5d3", null ],
+    [ "StateConvert", "d9/d19/a05804.html#a16274f0e9e6669be265ba75f79c4b10f", null ],
+    [ "StateConvert", "d9/d19/a05804.html#ac35fc4abcc60015c56765ceebc6fdb8f", null ],
+    [ "hash", "d9/d19/a05804.html#af39f798a10c2675e870d4d62f1d0a10c", null ],
+    [ "name", "d9/d19/a05804.html#a8fc429eae6816054b5828952a5698a4c", null ],
+    [ "state", "d9/d19/a05804.html#a7899f60d95db04e776b7ccfbc1003cfb", null ],
+    [ "timestamp", "d9/d19/a05804.html#a13703e88b76f26858696b33a8bc8f862", null ]
 ];

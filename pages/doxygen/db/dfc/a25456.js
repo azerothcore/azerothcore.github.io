@@ -1,6 +1,7 @@
 var a25456 =
 [
-    [ "HandleScriptEffect", "db/dfc/a25456.html#a8920741b211ab64d875f5e88e1d72b0f", null ],
-    [ "PrepareSpellScript", "db/dfc/a25456.html#aa12817ed9ac5428281d01529ad3836a1", null ],
-    [ "Register", "db/dfc/a25456.html#ae51061078498ec31eb2f87cb6fc89d43", null ]
+    [ "HandleDummy", "db/dfc/a25456.html#a5a82cbe58f57c94441cfda618e0eecca", null ],
+    [ "HandleScriptEffect", "db/dfc/a25456.html#a30d760a8708b49a185eb000249a9a5eb", null ],
+    [ "PrepareSpellScript", "db/dfc/a25456.html#a102d8493d285757c789cbba4a1bdc688", null ],
+    [ "Register", "db/dfc/a25456.html#ab4031ddb745995128854c149f7706045", null ]
 ];

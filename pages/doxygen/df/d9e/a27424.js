@@ -1,7 +1,6 @@
 var a27424 =
 [
-    [ "HandleScriptEffect", "df/d9e/a27424.html#ae3c2900d98c2fd51ff0888ea5d1072c4", null ],
-    [ "PrepareSpellScript", "df/d9e/a27424.html#a29ac1789b8023ef3339a7b40ee9c31ab", null ],
-    [ "Register", "df/d9e/a27424.html#a321098d2325bfb9cea674d1137348350", null ],
-    [ "Validate", "df/d9e/a27424.html#aa16a67bf42f51b838d22dcbe4b5b6f7b", null ]
+    [ "npc_training_dummyAI", "d5/db2/a27428.html", "d5/db2/a27428" ],
+    [ "npc_training_dummy", "df/d9e/a27424.html#acfed4da3b1a01bc58e599d2dc134cb7d", null ],
+    [ "GetAI", "df/d9e/a27424.html#a87a48a42e8349ce9125de91a429d4ffa", null ]
 ];

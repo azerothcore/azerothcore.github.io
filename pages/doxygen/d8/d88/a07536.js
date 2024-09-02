@@ -1,9 +1,6 @@
 var a07536 =
 [
-    [ "VendorItem", "d8/d88/a07536.html#ae79c26c304bee575a722f8a82fc79fd2", null ],
-    [ "IsGoldRequired", "d8/d88/a07536.html#a5f335ffdb5d82418cdb4eb7a606692c1", null ],
-    [ "ExtendedCost", "d8/d88/a07536.html#a18234f38ff242b8687265f9acf70dbe0", null ],
-    [ "incrtime", "d8/d88/a07536.html#afe3bb3324faf1beae6ee17c223678e9b", null ],
-    [ "item", "d8/d88/a07536.html#a6b26a96440c885684c173ee17d788896", null ],
-    [ "maxcount", "d8/d88/a07536.html#a98be1e0499d9ae9cfb176063991f72ee", null ]
+    [ "value_type", "d8/d88/a07536.html#a8ce1d08e5d320ef2c6301475fba4a7c2", null ],
+    [ "StoreTo", "d8/d88/a07536.html#ac01b3840e65515853e26c16dd3caaf58", null ],
+    [ "tag", "d8/d88/a07536.html#abd9c16378ed02e10a25cd45111e6fc69", null ]
 ];

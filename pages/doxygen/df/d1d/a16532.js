@@ -1,6 +1,6 @@
 var a16532 =
 [
-    [ "npc_swarm_scarabAI", "d2/d57/a16536.html", "d2/d57/a16536" ],
-    [ "npc_swarm_scarab", "df/d1d/a16532.html#a1d0969526e57ca50c9a499c83f978fd2", null ],
-    [ "GetAI", "df/d1d/a16532.html#ae12fe8a7c6ee09fc16bd152f59c2d936", null ]
+    [ "HandleEffectApply", "df/d1d/a16532.html#aaea2c3733dadc19072c81774468e345a", null ],
+    [ "PrepareAuraScript", "df/d1d/a16532.html#a3848997e9f775add50d40342b6211ff0", null ],
+    [ "Register", "df/d1d/a16532.html#a775b1cf494049ed13d149ca6318142c3", null ]
 ];

@@ -1,6 +1,6 @@
 var a17720 =
 [
-    [ "spell_taldaram_summon_flame_ball_SpellScript", "d3/d39/a17724.html", "d3/d39/a17724" ],
-    [ "spell_taldaram_summon_flame_ball", "dc/de4/a17720.html#ab0c0c31c4c27279d8000e0585482c854", null ],
-    [ "GetSpellScript", "dc/de4/a17720.html#a8dd436e8f30163fd46a758c3d0a6d196", null ]
+    [ "PrepareSpellScript", "dc/de4/a17720.html#a16eadb50b6038f16ea28464d00df3381", null ],
+    [ "Register", "dc/de4/a17720.html#ac6e304d391011863b8eff8105fab5191", null ],
+    [ "SelectDest", "dc/de4/a17720.html#a8ff5d684c0b91d0f068d03698c1ee92c", null ]
 ];

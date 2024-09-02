@@ -1,8 +1,11 @@
 var a15260 =
 [
-    [ "npc_vekniss_stinger", "d1/d42/a15260.html#ad48098961715a924270cb8bbbe77e4b0", null ],
-    [ "JustEngagedWith", "d1/d42/a15260.html#ae7c758687c81cfb223066f0a9348eab8", null ],
-    [ "Reset", "d1/d42/a15260.html#a2a79f3775aad83410ff2670aa438e811", null ],
-    [ "UpdateAI", "d1/d42/a15260.html#a1ff479e8f45710f6aa36473933bb87e0", null ],
-    [ "_scheduler", "d1/d42/a15260.html#a9764cb5604387e1594e2b3df26dd1f7a", null ]
+    [ "npc_troll_volunteerAI", "d1/d42/a15260.html#a7eb0c508122616a6781c8b23210e4062", null ],
+    [ "GetMountId", "d1/d42/a15260.html#a5edc586ded0a1146bb1bd82ca14062cc", null ],
+    [ "InitializeAI", "d1/d42/a15260.html#a1c758c7601624e0620778e13e8ec60a0", null ],
+    [ "MovementInform", "d1/d42/a15260.html#aa1d34a4f3701354899ebdd9b38670b31", null ],
+    [ "Reset", "d1/d42/a15260.html#a31439533de41c2a459af2b4d3af76139", null ],
+    [ "SpellHit", "d1/d42/a15260.html#a0604cdade2ce4da23915ca1fc4a4f475", null ],
+    [ "_complete", "d1/d42/a15260.html#ac7e1cc5f0e4f675d6aad0f6e9b449c15", null ],
+    [ "_mountModel", "d1/d42/a15260.html#ae226345bd324b9c337dc96570117d82b", null ]
 ];

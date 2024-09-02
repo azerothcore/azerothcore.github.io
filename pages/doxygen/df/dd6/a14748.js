@@ -1,6 +1,5 @@
 var a14748 =
 [
-    [ "OnRemove", "df/dd6/a14748.html#ac44dab788a50d5fb0918718670a04d8f", null ],
-    [ "PrepareAuraScript", "df/dd6/a14748.html#a64971ea9a49150dda4bc2e7f6156c35f", null ],
-    [ "Register", "df/dd6/a14748.html#a500f2a41eab8c1700ff298b46feaff5d", null ]
+    [ "npc_idol_room_spawnerAI", "df/dd6/a14748.html#a77c4aa88d213271166158c8e75d41a69", null ],
+    [ "SetData", "df/dd6/a14748.html#aa0626c837086b4a275f4d51d1659a242", null ]
 ];

@@ -1,6 +1,6 @@
 var a18204 =
 [
-    [ "spell_igb_cannon_blast_SpellScript", "d5/d4a/a18208.html", "d5/d4a/a18208" ],
-    [ "spell_igb_cannon_blast", "db/d48/a18204.html#a8d4db0c581b4f7e8995cfdf3764ea0e6", null ],
-    [ "GetSpellScript", "db/d48/a18204.html#af9e0fe1f4352173ab46e8bc9105ba9a4", null ]
+    [ "npc_strangulate_vehicleAI", "d5/d4a/a18208.html", "d5/d4a/a18208" ],
+    [ "npc_strangulate_vehicle", "db/d48/a18204.html#a04532bc5902af45b1e9c76cf1cec9add", null ],
+    [ "GetAI", "db/d48/a18204.html#aa5813442234d7b18fc4e7ed44a0b30bc", null ]
 ];

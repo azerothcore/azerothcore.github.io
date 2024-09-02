@@ -1,10 +1,11 @@
 var a16008 =
 [
-    [ "spell_hadronox_summon_periodic_AuraScript", "d7/dc2/a16008.html#a1f933da953b2430a0d909dcbecf5c0a2", null ],
-    [ "HandlePeriodic", "d7/dc2/a16008.html#a186fa7a3711168669e1b3253d3ca1b0f", null ],
-    [ "OnApply", "d7/dc2/a16008.html#a15abd10a8c52181555133a3a7adcc5cd", null ],
-    [ "PrepareAuraScript", "d7/dc2/a16008.html#a1169c5fdb25397550cd7c2d5dba5155e", null ],
-    [ "Register", "d7/dc2/a16008.html#a1ec789a9a8873f4b9d67db481e5b5443", null ],
-    [ "_delay", "d7/dc2/a16008.html#adc70f8a8dfcc29c5820ad180dfce3e27", null ],
-    [ "_spellEntry", "d7/dc2/a16008.html#a9251bd39a67dbbe8e30300826f300857", null ]
+    [ "boss_saviana_ragefireAI", "d7/dc2/a16008.html#ab4fa6a2cc57c9d110bfd3cf16a016942", null ],
+    [ "JustDied", "d7/dc2/a16008.html#a30331f9cdb141cd2dbc043888b48a6eb", null ],
+    [ "JustEngagedWith", "d7/dc2/a16008.html#a458eb370872c20441b5ec6ecd2c97500", null ],
+    [ "JustReachedHome", "d7/dc2/a16008.html#a74abf893a37874eb98aa5ba9883e8d62", null ],
+    [ "KilledUnit", "d7/dc2/a16008.html#ac07513681c72d6748246cc7c349d117c", null ],
+    [ "MovementInform", "d7/dc2/a16008.html#aed4c70f571586c8cbcc044c01bdc472d", null ],
+    [ "Reset", "d7/dc2/a16008.html#a4b7f103331c566cbf007a075161505af", null ],
+    [ "UpdateAI", "d7/dc2/a16008.html#af36ca2a359f950a10214d07aad240324", null ]
 ];

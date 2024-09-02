@@ -1,6 +1,7 @@
 var a18180 =
 [
-    [ "spell_igb_teleport_players_on_victory_SpellScript", "d8/d91/a18184.html", "d8/d91/a18184" ],
-    [ "spell_igb_teleport_players_on_victory", "dd/da6/a18180.html#a70d1af4caa05d9e5fb649fe509f4c7a1", null ],
-    [ "GetSpellScript", "dd/da6/a18180.html#ac8e3f30758d710aac81c858243bc9cde", null ]
+    [ "PrepareSpellScript", "dd/da6/a18180.html#a3283e829757b50bb52f66ee1e64033ae", null ],
+    [ "Register", "dd/da6/a18180.html#a0162c92c32210f2873686610f4f00b87", null ],
+    [ "TriggerHeal", "dd/da6/a18180.html#a3cdfca33a535bad0942beea24aefa1bb", null ],
+    [ "Validate", "dd/da6/a18180.html#a6545fe9f40c0aed036192008a2d6e28e", null ]
 ];

@@ -1,6 +1,6 @@
 var a21188 =
 [
-    [ "spell_orbital_supports_AuraScript", "d9/de0/a21192.html", "d9/de0/a21192" ],
-    [ "spell_orbital_supports", "d0/ddd/a21188.html#ab6189f808afdb65f93e37fb37f2faa19", null ],
-    [ "GetAuraScript", "d0/ddd/a21188.html#a6762d20a448a075cc3ffd19a967bac7c", null ]
+    [ "spell_voa_flaming_cinder_SpellScript", "d9/de0/a21192.html", "d9/de0/a21192" ],
+    [ "spell_voa_flaming_cinder", "d0/ddd/a21188.html#a06378a1d7672c4b0f38b51b6a484e725", null ],
+    [ "GetSpellScript", "d0/ddd/a21188.html#a480861ce910dd49a48fd7f5359693605", null ]
 ];

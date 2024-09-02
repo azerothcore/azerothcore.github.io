@@ -1,6 +1,11 @@
 var a28376 =
 [
-    [ "HandleEffectApply", "dc/d68/a28376.html#a111ce5c9e70ed563bc7b9c2ec8e79b76", null ],
-    [ "PrepareAuraScript", "dc/d68/a28376.html#a707504eccf42af77f6e6e927d208bc8c", null ],
-    [ "Register", "dc/d68/a28376.html#a7aeaa28997bbe966274a738cf45323ed", null ]
+    [ "IsAvailable", "dc/d68/a28376.html#adfebd7a162ebae8396669de031c768a6", null ],
+    [ "operator bool", "dc/d68/a28376.html#ac25d4bb270c805b8ea2a6e0b4b6b2e74", null ],
+    [ "operator*", "dc/d68/a28376.html#a24733bf06b4a91abcf4945aa5303a275", null ],
+    [ "operator->", "dc/d68/a28376.html#ad0ddd6fe7451f2b968db3a7d7a93b342", null ],
+    [ "SecretMgr", "dc/d68/a28376.html#af098c138ad828545a3dfb1870ad4c2fb", null ],
+    [ "lock", "dc/d68/a28376.html#aff5ea87e5a7dbfdf5bd38400997f2c40", null ],
+    [ "state", "dc/d68/a28376.html#a01563e00123d442b82bd6389d838c23d", null ],
+    [ "value", "dc/d68/a28376.html#a16b48eb9b384f6ab8c6996b38f559825", null ]
 ];

@@ -1,6 +1,7 @@
 var a25468 =
 [
-    [ "boss_watchkeeper_gargolmarAI", "d0/dea/a25472.html", "d0/dea/a25472" ],
-    [ "boss_watchkeeper_gargolmar", "d5/d6c/a25468.html#ab1e0520652a9abd35955274ba2d80fbc", null ],
-    [ "GetAI", "d5/d6c/a25468.html#a16b37c047ddbe3510bd1ebd68869fc93", null ]
+    [ "CalculateDamageAmount", "d5/d6c/a25468.html#a2f608e8391e61434ef1b164c023854fe", null ],
+    [ "CalculateManaLeechAmount", "d5/d6c/a25468.html#a8a4946d1718d8045a72c92355ff38ecb", null ],
+    [ "PrepareAuraScript", "d5/d6c/a25468.html#a63d24d3ca4b2de1aa7f67376ded7bc59", null ],
+    [ "Register", "d5/d6c/a25468.html#aa6e74e89930fd3cc564c3cba86e3687e", null ]
 ];

@@ -1,6 +1,7 @@
 var a17916 =
 [
-    [ "spell_deathbringer_blood_link_SpellScript", "d0/d49/a17920.html", "d0/d49/a17920" ],
-    [ "spell_deathbringer_blood_link", "d0/d5b/a17916.html#a288e4021c630865c38a1c3f9ff577b7f", null ],
-    [ "GetSpellScript", "d0/d5b/a17916.html#a5cd172d455165851fb361f808a77b506", null ]
+    [ "HandleScript", "d0/d5b/a17916.html#a5fbb1d26c4e7d5d21745004e477b3c1e", null ],
+    [ "PrepareSpellScript", "d0/d5b/a17916.html#a7e6b56f426be7925255da3ebc239f909", null ],
+    [ "Register", "d0/d5b/a17916.html#a0eb2d734ac99d3a036b95b6daa39b9f5", null ],
+    [ "Validate", "d0/d5b/a17916.html#a86b4296eab73fc63b38558871f16a889", null ]
 ];

@@ -1,8 +1,18 @@
 var a27472 =
 [
-    [ "OnApply", "de/de4/a27472.html#aeec705e572ce6aa870bb5cc048e02e75", null ],
-    [ "OnRemove", "de/de4/a27472.html#a38399457b6cb8ebf4c5e457e0590cb1a", null ],
-    [ "PrepareAuraScript", "de/de4/a27472.html#a8d0f2113c0212a24e94054f3f1db0ad3", null ],
-    [ "Register", "de/de4/a27472.html#a673dc5619a33632ba3d3f1793c5cfdb4", null ],
-    [ "Validate", "de/de4/a27472.html#a65722a9826b14dc90cc6df47655d3d6b", null ]
+    [ "npc_doctorAI", "de/de4/a27472.html#a8efc303041393347eaaf38aff05f7b9c", null ],
+    [ "BeginEvent", "de/de4/a27472.html#a1439b4eb147700ca493dc5eaa1e2d5a4", null ],
+    [ "JustEngagedWith", "de/de4/a27472.html#aca786ccf8cf99d7ba49a08046147f121", null ],
+    [ "PatientDied", "de/de4/a27472.html#ad3e2a36e774d2dbd2a6779d8fb19ea88", null ],
+    [ "PatientSaved", "de/de4/a27472.html#af8a61f187f6bd57b98d8bf4c8c45e494", null ],
+    [ "Reset", "de/de4/a27472.html#af2d84b163d41b1b32e191200f54085c2", null ],
+    [ "UpdateAI", "de/de4/a27472.html#abe156e2303a9c743fa66b4f82808c707", null ],
+    [ "Coordinates", "de/de4/a27472.html#acda1ada9d7868bfd93ceaaa39f82731b", null ],
+    [ "Event", "de/de4/a27472.html#ad558d5c0a5fe07904445e893c09be980", null ],
+    [ "PatientDiedCount", "de/de4/a27472.html#a0774874d9d75feb8d8bf6ce201e719d9", null ],
+    [ "Patients", "de/de4/a27472.html#a75cd1e01322c09204ffe54cd92ad9543", null ],
+    [ "PatientSavedCount", "de/de4/a27472.html#abeda2ee514c6ed1544a7e27955fc86b8", null ],
+    [ "PlayerGUID", "de/de4/a27472.html#a97e2b2bd8a750817f23c51d36c49ae1c", null ],
+    [ "SummonPatientCount", "de/de4/a27472.html#a320c2e32c5003e880f7567c89db8ca8c", null ],
+    [ "SummonPatientTimer", "de/de4/a27472.html#adb9cd2ed50dd02f88c4f375a0be8ee89", null ]
 ];

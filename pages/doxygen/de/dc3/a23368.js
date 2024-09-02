@@ -1,6 +1,7 @@
 var a23368 =
 [
-    [ "spell_q12096_q12092_bark_SpellScript", "d3/de9/a23372.html", "d3/de9/a23372" ],
-    [ "spell_q12096_q12092_bark", "de/dc3/a23368.html#a85691ffb63bbe1022a2d35031c3e1d3c", null ],
-    [ "GetSpellScript", "de/dc3/a23368.html#a91517623f2883b5e9e32045b4890436b", null ]
+    [ "HandleScript", "de/dc3/a23368.html#a359ccbdf47c9b6a1df23e6f775d5ffa8", null ],
+    [ "PrepareSpellScript", "de/dc3/a23368.html#ac1193881ad39e7ea7cb1f8f1b6627c60", null ],
+    [ "Register", "de/dc3/a23368.html#afb83fdd384a430e572a7959f81cdf2cb", null ],
+    [ "Validate", "de/dc3/a23368.html#af8587f9dff4b71b7cce8ec6d70f94927", null ]
 ];

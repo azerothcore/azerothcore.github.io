@@ -1,6 +1,6 @@
 var a22636 =
 [
-    [ "CalculateAmount", "d6/d37/a22636.html#a3bdb3ef1fbf81839cfad0ced507bf556", null ],
-    [ "PrepareAuraScript", "d6/d37/a22636.html#af693a6d16dbc7cb7dc61fec5f6e477bb", null ],
-    [ "Register", "d6/d37/a22636.html#ae6569450a13eef8dfb8ced66ca1ac55c", null ]
+    [ "PrepareSpellScript", "d6/d37/a22636.html#ad8640f1c01d64f8bbca16e0b636f7f21", null ],
+    [ "Register", "d6/d37/a22636.html#aa41700bf097963c5a352442723181037", null ],
+    [ "SelectTarget", "d6/d37/a22636.html#a15d790b134de8a8c7497ee8d0a6217ba", null ]
 ];

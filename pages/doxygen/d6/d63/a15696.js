@@ -1,12 +1,14 @@
 var a15696 =
 [
-    [ "npc_toogaAI", "d6/d63/a15696.html#a4db363c7e787f5fbbd61b418cfa87367", null ],
-    [ "MoveInLineOfSight", "d6/d63/a15696.html#aff15508b97bce5f5fad9cf9750e89ff1", null ],
-    [ "MovementInform", "d6/d63/a15696.html#a9315e8ba2688903aaf5b871a7490a700", null ],
-    [ "Reset", "d6/d63/a15696.html#acfedaf5cc989451a4259a65661685f66", null ],
-    [ "UpdateFollowerAI", "d6/d63/a15696.html#a742791e714be1ff713ab87e7d515bd9e", null ],
-    [ "CheckSpeechTimer", "d6/d63/a15696.html#a938852d834c5eb8ba4abceaf49e9a5da", null ],
-    [ "PhasePostEvent", "d6/d63/a15696.html#a4996291afa64e35f3604b2a85ea03dda", null ],
-    [ "PostEventTimer", "d6/d63/a15696.html#abea9fa4d2623dab4f14978a7f94b595f", null ],
-    [ "TortaGUID", "d6/d63/a15696.html#a4531aa0e2c7fe7f3207e56fc2ed67c25", null ]
+    [ "boss_anub_arakAI", "d6/d63/a15696.html#a9b9dc11d78456efd9c6ad69e0c12e022", null ],
+    [ "EnterEvadeMode", "d6/d63/a15696.html#a016f17a11be149cbb6cc1343f2916a4f", null ],
+    [ "JustDied", "d6/d63/a15696.html#abc93931e7698ffd717199a598e16c917", null ],
+    [ "JustEngagedWith", "d6/d63/a15696.html#a589c252516b738a8f38f9d89da11912c", null ],
+    [ "JustSummoned", "d6/d63/a15696.html#a8624e9dc8af370579bd7ef72063acbf8", null ],
+    [ "KilledUnit", "d6/d63/a15696.html#a33e26ae3907e84ecc02514e4133e3002", null ],
+    [ "MoveInLineOfSight", "d6/d63/a15696.html#ab89570d2d0ddb494fa20f24d95cac41b", null ],
+    [ "Reset", "d6/d63/a15696.html#a254a51a901c0e82da6cb87ade5eba6fa", null ],
+    [ "SummonHelpers", "d6/d63/a15696.html#a709ef4602ace41c9b9ccebe8795badec", null ],
+    [ "UpdateAI", "d6/d63/a15696.html#acf3ddec273ded62c768631be2b3299fa", null ],
+    [ "intro", "d6/d63/a15696.html#a4916d6a1ed06330e94698a13c404ee52", null ]
 ];

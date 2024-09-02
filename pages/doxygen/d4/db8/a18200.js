@@ -1,9 +1,8 @@
 var a18200 =
 [
-    [ "HandleApply", "d4/db8/a18200.html#aa6e252011a232de954582eb2149f477a", null ],
-    [ "HandleRemove", "d4/db8/a18200.html#abbd67c77588c9f8635b0a2013cc2d6df", null ],
-    [ "Load", "d4/db8/a18200.html#a10f287fe2d5ef0cf05e7d753fe032770", null ],
-    [ "PrepareAuraScript", "d4/db8/a18200.html#a92570688586984a57e4a9925025bcb61", null ],
-    [ "Register", "d4/db8/a18200.html#a7dd7f004cc9dd5631eb487428d76bfec", null ],
-    [ "SendClientControl", "d4/db8/a18200.html#af85fb28dcb7846a9aa8d989a5b4daa15", null ]
+    [ "Load", "d4/db8/a18200.html#aabd997d6db5fd38b1fdd97d90b1347e9", null ],
+    [ "OnRemove", "d4/db8/a18200.html#a43b23e5c53cca872a26737d790f2893d", null ],
+    [ "PrepareAuraScript", "d4/db8/a18200.html#ae51bcb37894240c6fd064cd329698a55", null ],
+    [ "Register", "d4/db8/a18200.html#ad6247c7f8abf41cd6190d5252ed6834e", null ],
+    [ "Validate", "d4/db8/a18200.html#a45696018a8810cf1f11fbddcd853d1f4", null ]
 ];

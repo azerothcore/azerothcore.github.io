@@ -1,6 +1,8 @@
 var a24560 =
 [
-    [ "boss_essence_of_angerAI", "de/d13/a24564.html", "de/d13/a24564" ],
-    [ "boss_essence_of_anger", "d8/d0a/a24560.html#adf8151d1fbb4a258f174c4bdb8410cd6", null ],
-    [ "GetAI", "d8/d0a/a24560.html#a70a460f31b7f878e532b695ca822ab5d", null ]
+    [ "HandleEffectApply", "d8/d0a/a24560.html#a8134145c22b99c7b75537091c386bcd1", null ],
+    [ "HandleEffectRemove", "d8/d0a/a24560.html#a5d24ca41dcc75a11077da691abd902e0", null ],
+    [ "PrepareAuraScript", "d8/d0a/a24560.html#ae5f1b77a6aed21faf3ad9c168a8fcaa2", null ],
+    [ "Register", "d8/d0a/a24560.html#acff27aac4af2b0a0530348371fcb55b2", null ],
+    [ "Validate", "d8/d0a/a24560.html#af656fbf06181436bbb020282160c1293", null ]
 ];

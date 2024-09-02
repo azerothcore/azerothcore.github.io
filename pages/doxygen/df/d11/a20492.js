@@ -1,6 +1,11 @@
 var a20492 =
 [
-    [ "spell_oculus_stop_time_AuraScript", "d8/d0b/a20496.html", "d8/d0b/a20496" ],
-    [ "spell_oculus_stop_time", "df/d11/a20492.html#a82a5cdd50fbd6c07e65d4a9d1552181e", null ],
-    [ "GetAuraScript", "df/d11/a20492.html#ae8214fd12fdb6559c7db15df559e0829", null ]
+    [ "boss_thorim_sifAI", "df/d11/a20492.html#af63f344d3a5650baaa9b96204abc39a9", null ],
+    [ "AttackStart", "df/d11/a20492.html#ae9354f2e97c88cd1af86fae050e810d6", null ],
+    [ "DoAction", "df/d11/a20492.html#a8aac66a64c5ca6491595c2b3b6cbbd95", null ],
+    [ "MoveInLineOfSight", "df/d11/a20492.html#a3e7d07ca6fc8f4619173f3fd74d63ccb", null ],
+    [ "Reset", "df/d11/a20492.html#ab30d73613bafac5b92021677d69b3aae", null ],
+    [ "UpdateAI", "df/d11/a20492.html#a09ee3373177e84a5e4e51ebb48c68525", null ],
+    [ "_allowCast", "df/d11/a20492.html#ade272764f09375d8e5fda937d42aad90", null ],
+    [ "events", "df/d11/a20492.html#a8fd3c7073a250d054e3edc73d5867fbd", null ]
 ];

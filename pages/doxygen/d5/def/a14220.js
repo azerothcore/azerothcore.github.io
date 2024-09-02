@@ -1,11 +1,13 @@
 var a14220 =
 [
-    [ "npc_elder_kekek", "d5/def/a14220.html#a6084af39be5c70699c9fdcf3cd58e954", null ],
-    [ "MoveInLineOfSight", "d5/def/a14220.html#a0c673e4fdf8e75d3bc8570db166bcd95", null ],
-    [ "Reset", "d5/def/a14220.html#a97e615bdefba5baf459960fc2987cd69", null ],
-    [ "UpdateAI", "d5/def/a14220.html#a5823bc7164d797c40d48b9b74642d9b5", null ],
-    [ "orphanGUID", "d5/def/a14220.html#a98c79e46e051c35819c6025828a519cb", null ],
-    [ "phase", "d5/def/a14220.html#a99fd9d984f92d5ba8b5876675855d4f6", null ],
-    [ "playerGUID", "d5/def/a14220.html#a614ed3332f4af3c5178aa69da968a3d3", null ],
-    [ "timer", "d5/def/a14220.html#a445c048d8858f5dc7c1e88308ed7e5ab", null ]
+    [ "boss_headless_horseman_head", "d5/def/a14220.html#a12343a1bb6e30681b0c82ba649bd5b8a", null ],
+    [ "DamageTaken", "d5/def/a14220.html#a73e75350937736ad7cfe725b785b3768", null ],
+    [ "GetOwner", "d5/def/a14220.html#ab72d1f1891401754ffe032ed0534882d", null ],
+    [ "Reset", "d5/def/a14220.html#a367e8b82d6d3bb08e7106c71295610f9", null ],
+    [ "SpellHit", "d5/def/a14220.html#adcd9ce9755f8dbc1391b4d2b3f5e1669", null ],
+    [ "SpellHitTarget", "d5/def/a14220.html#a0d73ba0831118d135137953f91e7c5d7", null ],
+    [ "UpdateAI", "d5/def/a14220.html#a300dec039465535914bf6879423a0962", null ],
+    [ "handled", "d5/def/a14220.html#a72c0d0c8c534fa8fdc1370203c30c3a3", null ],
+    [ "pct", "d5/def/a14220.html#a9752326bac7ecbcdfde5b12f55b20be2", null ],
+    [ "timer", "d5/def/a14220.html#ae7c669e65659459fd83f91b5e9ed1347", null ]
 ];

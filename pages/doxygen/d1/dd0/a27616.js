@@ -1,6 +1,5 @@
 var a27616 =
 [
-    [ "HandleProc", "d1/dd0/a27616.html#a9a38fab6b581e9f9b4e092d7a4ecaebd", null ],
-    [ "PrepareAuraScript", "d1/dd0/a27616.html#a5299aaeacead013e00e81ec7960528f8", null ],
-    [ "Register", "d1/dd0/a27616.html#a3b46c5dd891d856e08cbcb9a494f2dd2", null ]
+    [ "ID", "d1/dd0/a27616.html#a4a79da5825cf01d38d6ab9d98e033964", null ],
+    [ "parentCategory", "d1/dd0/a27616.html#a705e301dff461a8d7aefdc6fb29d39cc", null ]
 ];

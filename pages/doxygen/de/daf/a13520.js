@@ -1,8 +1,6 @@
 var a13520 =
 [
-    [ "npc_varian_wrynnAI", "d4/d16/a13524.html", "d4/d16/a13524" ],
-    [ "npc_varian_wrynn", "de/daf/a13520.html#a1dd8e4664da693f3e4ecdd4581b96c87", null ],
-    [ "GetAI", "de/daf/a13520.html#aa5aa46f24a128e84ac2a837c012b2e02", null ],
-    [ "OnGossipHello", "de/daf/a13520.html#a95f6ff3f2a7db807b278d019e187ddec", null ],
-    [ "OnGossipSelect", "de/daf/a13520.html#a65d02bafebe9c5a45d707f8990d680a3", null ]
+    [ "npc_tapoke_slim_jahnAI", "d4/d16/a13524.html", "d4/d16/a13524" ],
+    [ "npc_tapoke_slim_jahn", "de/daf/a13520.html#a61e36b57f8ba78c371d454efb1512579", null ],
+    [ "GetAI", "de/daf/a13520.html#a397629742eace1b96dfd9d4a2e55cc32", null ]
 ];

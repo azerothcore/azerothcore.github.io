@@ -1,6 +1,9 @@
 var a23168 =
 [
-    [ "npc_mageguard_dalaranAI", "d2/d7a/a23172.html", "d2/d7a/a23172" ],
-    [ "npc_mageguard_dalaran", "d6/d20/a23168.html#a0cec4f232b665325c421cecb5839885f", null ],
-    [ "GetAI", "d6/d20/a23168.html#a10cbddceb53a2d432da2224128c59b28", null ]
+    [ "FilterTargets", "d6/d20/a23168.html#a9049c113d65b15a9a8e1143980a84b23", null ],
+    [ "HandleDummy", "d6/d20/a23168.html#a21fd59ba177fd7b04eb1fcafe869f33a", null ],
+    [ "Load", "d6/d20/a23168.html#a8cad82701e0147e14f826243175e1c32", null ],
+    [ "PrepareSpellScript", "d6/d20/a23168.html#aa05839a8dd785a2472e8e5f3a9fc58b0", null ],
+    [ "Register", "d6/d20/a23168.html#a0e7e246c322b89c3b6ee08797984f7e6", null ],
+    [ "_targetNumber", "d6/d20/a23168.html#a34f80edf782ade371e7a6fc908b47b4f", null ]
 ];

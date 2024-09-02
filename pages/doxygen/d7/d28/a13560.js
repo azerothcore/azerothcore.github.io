@@ -1,6 +1,8 @@
 var a13560 =
 [
-    [ "npc_lady_sylvanas_windrunner_bfuAI", "d4/d85/a13564.html", "d4/d85/a13564" ],
-    [ "npc_lady_sylvanas_windrunner_bfu", "d7/d28/a13560.html#a77e98bc345f7d27f145d4b29c4deb58e", null ],
-    [ "GetAI", "d7/d28/a13560.html#a94fdd0778818fcc6a8b818d38dde6f75", null ]
+    [ "boss_hexlord_addAI", "d7/d28/a13560.html#aab2d333b32ab28fb6914763c7b7f9c19", null ],
+    [ "JustEngagedWith", "d7/d28/a13560.html#a53469ed0cc6442b7b07d8d994ca27fed", null ],
+    [ "Reset", "d7/d28/a13560.html#aa2003900c4b6cadc54b8643990ebe86b", null ],
+    [ "UpdateAI", "d7/d28/a13560.html#a0ec76f64ad72a1c11ab838dd9b812675", null ],
+    [ "instance", "d7/d28/a13560.html#a0ac32c9043dbebdc13ee245245e9cfc9", null ]
 ];

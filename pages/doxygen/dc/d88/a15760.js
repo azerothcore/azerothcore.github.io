@@ -1,6 +1,6 @@
 var a15760 =
 [
-    [ "npc_enraged_pantherAI", "d1/db1/a15764.html", "d1/db1/a15764" ],
-    [ "npc_enraged_panther", "dc/d88/a15760.html#a4b01a97c78af8b13525dca718c406776", null ],
-    [ "GetAI", "dc/d88/a15760.html#a35d234a98d1a4db04d351b8ebe7d382f", null ]
+    [ "HandleScriptEffect", "dc/d88/a15760.html#aaa650972803d14e4d74be977430b04f6", null ],
+    [ "PrepareSpellScript", "dc/d88/a15760.html#a1e166c53e2051f3fae1b085a76a08c3f", null ],
+    [ "Register", "dc/d88/a15760.html#a3405c1b04f2e623662c7acaa6810278c", null ]
 ];

@@ -1,5 +1,6 @@
 var a26232 =
 [
-    [ "npc_karynaku", "d5/daa/a26232.html#aa6a3cb409cdbc990f1eee4137c7519d2", null ],
-    [ "OnQuestAccept", "d5/daa/a26232.html#a4cae1950fe3b7b4ae6f2e6691800ec47", null ]
+    [ "CheckRequirement", "d5/daa/a26232.html#acaae3858de4d56028e3cb4581a57450c", null ],
+    [ "PrepareSpellScript", "d5/daa/a26232.html#aa1013bb1b09aae7b691b6325c8e7a405", null ],
+    [ "Register", "d5/daa/a26232.html#aa490168c69f9ba5c12db3171516dd8ac", null ]
 ];

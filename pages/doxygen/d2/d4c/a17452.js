@@ -1,6 +1,6 @@
 var a17452 =
 [
-    [ "spell_pos_slave_trigger_closestSpellScript", "da/d12/a17456.html", "da/d12/a17456" ],
-    [ "spell_pos_slave_trigger_closest", "d2/d4c/a17452.html#a3982ff2508b7f82e19bfa4534dd558e4", null ],
-    [ "GetSpellScript", "d2/d4c/a17452.html#a6535e26e2b006213cd9d6c2a54d3b961", null ]
+    [ "npc_gunship_boarding_add_realAI", "d2/d4c/a17452.html#a829c3690ab0d5ad3f0a888cb6701692a", null ],
+    [ "UpdateAI", "d2/d4c/a17452.html#a33ac355c8f61907574a0736a24cbee82", null ],
+    [ "_events", "d2/d4c/a17452.html#acaea46d9523fa9fe59415b0b0834a2ba", null ]
 ];

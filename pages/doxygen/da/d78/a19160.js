@@ -1,8 +1,14 @@
 var a19160 =
 [
-    [ "Load", "da/d78/a19160.html#aab174da140072f6d4f79c6a1d1d923b4", null ],
-    [ "OnPeriodic", "da/d78/a19160.html#a7bac29a8b91c23eb809bb3ca10b1bee3", null ],
-    [ "PrepareAuraScript", "da/d78/a19160.html#a63951f220ddd20092d80fb531c16c823", null ],
-    [ "Register", "da/d78/a19160.html#a6546adc7491d5e1f2f1456c8da0f440e", null ],
-    [ "_is25Man", "da/d78/a19160.html#af6ef75b24251d2a57dab1542da257fab", null ]
+    [ "boss_anomalusAI", "da/d78/a19160.html#a5f7d1b7b4d7c4d298b22dbf4c8d2e6a6", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "da/d78/a19160.html#a68c052fcb1a9bc96d82a4284eec0d132", null ],
+    [ "GetData", "da/d78/a19160.html#a561ad0c1bfc31e9c9d04e07492a96bb2", null ],
+    [ "JustDied", "da/d78/a19160.html#ae079850413f8f0e87a8d3677a475ba95", null ],
+    [ "JustEngagedWith", "da/d78/a19160.html#a85da2f5caadf2d38b710a731f4ffe957", null ],
+    [ "JustSummoned", "da/d78/a19160.html#a2e5306347151100436907dc8ea6b7c86", null ],
+    [ "Reset", "da/d78/a19160.html#a3e2711ea84cc728716c9e207d8b35ccc", null ],
+    [ "SetData", "da/d78/a19160.html#a26500dd41960a99400606ceca91bf3e9", null ],
+    [ "UpdateAI", "da/d78/a19160.html#a5429e5d51739b00f92b00460335f6830", null ],
+    [ "achievement", "da/d78/a19160.html#a40fa36e5c5fc131e7c063e90ea2468a6", null ],
+    [ "activeRifts", "da/d78/a19160.html#a66e477fb306404cc544e13417c835138", null ]
 ];

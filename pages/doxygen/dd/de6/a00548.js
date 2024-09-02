@@ -1,5 +1,5 @@
 var a00548 =
 [
-    [ "RASession", "d2/d72/a05567.html", "d2/d72/a05567" ],
-    [ "bufferSize", "dd/de6/a00548.html#af86f08ffe713b38f728cb02c7f06c0e1", null ]
+    [ "ArenaScore", "df/d08/a07004.html", "df/d08/a07004" ],
+    [ "ArenaTeamScore", "d5/d59/a07008.html", "d5/d59/a07008" ]
 ];

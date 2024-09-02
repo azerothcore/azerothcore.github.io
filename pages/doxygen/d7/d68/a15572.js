@@ -1,6 +1,6 @@
 var a15572 =
 [
-    [ "npc_omenAI", "d9/de6/a15576.html", "d9/de6/a15576" ],
-    [ "npc_omen", "d7/d68/a15572.html#aff955303a8b9741838779a59dd496f62", null ],
-    [ "GetAI", "d7/d68/a15572.html#a8023ad3298000d9819c46f46a93166d4", null ]
+    [ "HandleOpenLock", "d7/d68/a15572.html#a32bfb203e9ecfbcfa75f6c3e7a17fade", null ],
+    [ "PrepareSpellScript", "d7/d68/a15572.html#a646a42455b6a46c9f7cbb4b0229122cd", null ],
+    [ "Register", "d7/d68/a15572.html#a5dcac6f609ec93074ec3ce195101f592", null ]
 ];

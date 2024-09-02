@@ -1,6 +1,7 @@
 var a17184 =
 [
-    [ "npc_phantom_hallucinationAI", "dc/ddd/a17188.html", "dc/ddd/a17188" ],
-    [ "npc_phantom_hallucination", "d9/d06/a17184.html#a685889c090152a2562ee9adef7efbf71", null ],
-    [ "GetAI", "d9/d06/a17184.html#a771ee338f87ca0a2e9a7d02d1322c5d5", null ]
+    [ "HandleScript", "d9/d06/a17184.html#a4b1e392acea30a9259e65a75667704c5", null ],
+    [ "Load", "d9/d06/a17184.html#a9af7bb4defb7c590aaff1a709dad4573", null ],
+    [ "PrepareSpellScript", "d9/d06/a17184.html#a17301c4ef9623ec04ec3c15dfd4e316f", null ],
+    [ "Register", "d9/d06/a17184.html#a77632d11a172e5552c0c49de830a1639", null ]
 ];

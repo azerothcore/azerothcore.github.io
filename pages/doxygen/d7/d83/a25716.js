@@ -1,6 +1,8 @@
 var a25716 =
 [
-    [ "spell_alar_flame_quills_AuraScript", "d5/dc3/a25720.html", "d5/dc3/a25720" ],
-    [ "spell_alar_flame_quills", "d7/d83/a25716.html#a8a654c26568c1df707c379e665612fe3", null ],
-    [ "GetAuraScript", "d7/d83/a25716.html#a2f9439c4327475fa0fb058f89f1ae466", null ]
+    [ "HandleDummy", "d7/d83/a25716.html#a5a628501371e7af224ce44594459b24d", null ],
+    [ "Load", "d7/d83/a25716.html#aeeab8e1eadb83827b035e07887a59ad1", null ],
+    [ "PrepareSpellScript", "d7/d83/a25716.html#a163c9510d29cc2fb454a9d8b437f0496", null ],
+    [ "Register", "d7/d83/a25716.html#aa46a2b76153ffdbea565374899ab31a3", null ],
+    [ "Validate", "d7/d83/a25716.html#a7a15b3f6aa7ca1458895b445c90509ee", null ]
 ];

@@ -1,6 +1,8 @@
 var a23800 =
 [
-    [ "npc_frosthoundAI", "d6/dfa/a23804.html", "d6/dfa/a23804" ],
-    [ "npc_frosthound", "d4/d88/a23800.html#a3266f5186d1db0c010f586d3272725a6", null ],
-    [ "GetAI", "d4/d88/a23800.html#a49cd41753c715f166fc903df9dcfdd6b", null ]
+    [ "HandleScriptEffect", "d4/d88/a23800.html#a7cde39fc0844f19604c8026a853e8216", null ],
+    [ "Load", "d4/d88/a23800.html#a5d3eb86208c4aa9c6592349d28c5df79", null ],
+    [ "PrepareSpellScript", "d4/d88/a23800.html#a962de50d1fa35ca16b4753f55e5cbd47", null ],
+    [ "Register", "d4/d88/a23800.html#aee6bd90e8b39132d4b53b67c22d6c331", null ],
+    [ "_currentSpellId", "d4/d88/a23800.html#a0ad25535ba345fe9672150af67687305", null ]
 ];

@@ -1,7 +1,6 @@
 var a27144 =
 [
-    [ "HandleEffectApply", "d7/d19/a27144.html#a96b84a256ace08dd34cc4858031158fc", null ],
-    [ "HandleEffectRemove", "d7/d19/a27144.html#a7638a66d969802e43c5123fd0c31fefe", null ],
-    [ "PrepareAuraScript", "d7/d19/a27144.html#a3e7ab7b75daf547161a3ffce3e05384b", null ],
-    [ "Register", "d7/d19/a27144.html#a3667bd30f48fe6a0262fbd0ec6284996", null ]
+    [ "go_l70_etc_musicAI", "d6/d09/a27148.html", "d6/d09/a27148" ],
+    [ "go_l70_etc_music", "d7/d19/a27144.html#a766dccca12fc7959273ba1e3a278564f", null ],
+    [ "GetAI", "d7/d19/a27144.html#a5231ffc778830f8a49ae85a8c1173deb", null ]
 ];

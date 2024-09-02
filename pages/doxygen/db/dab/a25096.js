@@ -1,6 +1,7 @@
 var a25096 =
 [
-    [ "HandleScriptEffect", "db/dab/a25096.html#afd2b51bd2e1d4c95d5f291a2080ac201", null ],
-    [ "PrepareSpellScript", "db/dab/a25096.html#a187463da297b1f3cfe16573765df48ca", null ],
-    [ "Register", "db/dab/a25096.html#a9ed0d2bf93b8e44bc979c322e2cd7a4c", null ]
+    [ "HandleScriptEffect", "db/dab/a25096.html#a4444d5f146e875bae40edbcc8ed408cb", null ],
+    [ "PrepareSpellScript", "db/dab/a25096.html#af4320dd6567d8c9cb2a1492095a98459", null ],
+    [ "Register", "db/dab/a25096.html#ab9360c3a883dd5a7df9836306d9762ec", null ],
+    [ "Validate", "db/dab/a25096.html#a51ebef5e7fff9dfaab553ecae7be732f", null ]
 ];

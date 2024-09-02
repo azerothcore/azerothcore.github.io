@@ -1,6 +1,6 @@
 var a19984 =
 [
-    [ "boss_gluthAI", "d7/d22/a19988.html", "d7/d22/a19988" ],
-    [ "boss_gluth", "d2/dab/a19984.html#a3ff6e361cd6799f41d00fa75784c4f76", null ],
-    [ "GetAI", "d2/dab/a19984.html#a3b19c938aaecc897d6552715064be7f8", null ]
+    [ "boss_freya_nature_bombAI", "d7/d22/a19988.html", "d7/d22/a19988" ],
+    [ "boss_freya_nature_bomb", "d2/dab/a19984.html#a18fa6ff862a1b367ac23eb1b7bda0ed4", null ],
+    [ "GetAI", "d2/dab/a19984.html#a73e24282c6bb29cf3f6a7da14a4de582", null ]
 ];

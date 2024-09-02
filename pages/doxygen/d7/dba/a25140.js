@@ -1,6 +1,9 @@
 var a25140 =
 [
-    [ "spell_morogrim_tidewalker_watery_grave_SpellScript", "d6/d42/a25144.html", "d6/d42/a25144" ],
-    [ "spell_morogrim_tidewalker_watery_grave", "d7/dba/a25140.html#aa69b398145cf26f614a7acbb217c7937", null ],
-    [ "GetSpellScript", "d7/dba/a25140.html#ad79c26b93899eec1e0c6d9391c5d985c", null ]
+    [ "spell_gen_lifebloom", "d7/dba/a25140.html#a5cb52a4dda841d9d31fd00a31ddc3350", null ],
+    [ "AfterRemove", "d7/dba/a25140.html#aea962f603e56c1bd33fccaef0c89d917", null ],
+    [ "PrepareAuraScript", "d7/dba/a25140.html#ac11134bdc3588795ce6e256c5b02055f", null ],
+    [ "Register", "d7/dba/a25140.html#ab4a552402ee9f90834320d6fc668cff3", null ],
+    [ "Validate", "d7/dba/a25140.html#a599634d92b92a5635b89733b7bb3c3c8", null ],
+    [ "_spellId", "d7/dba/a25140.html#a196484d01d2dc07163e18fdca9f60ca9", null ]
 ];

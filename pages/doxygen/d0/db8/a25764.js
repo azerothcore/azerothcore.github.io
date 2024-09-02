@@ -1,6 +1,7 @@
 var a25764 =
 [
-    [ "spell_astromancer_solarian_transform_AuraScript", "d4/de7/a25768.html", "d4/de7/a25768" ],
-    [ "spell_astromancer_solarian_transform", "d0/db8/a25764.html#a5350ac636d5ea6b9e0a46eb315d465ad", null ],
-    [ "GetAuraScript", "d0/db8/a25764.html#aadd4fda6306fe21d359b6b166babf1ca", null ]
+    [ "HandleHeal", "d0/db8/a25764.html#ae24fd6305b5d17c2fbb6f03238b385c6", null ],
+    [ "Load", "d0/db8/a25764.html#a4dd5016439e8798083fe3d4fa5458731", null ],
+    [ "PrepareSpellScript", "d0/db8/a25764.html#a248ae6d2c8f8d6c014a0164105773836", null ],
+    [ "Register", "d0/db8/a25764.html#af2e80d64787ad31e33d0d3c239f62c81", null ]
 ];

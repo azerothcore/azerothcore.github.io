@@ -1,8 +1,9 @@
 var a20748 =
 [
-    [ "dark_rune_protectorsAI", "d2/d9b/a20748.html#ae2f3cfd19e565ede132e38f439a930ba", null ],
-    [ "JustEngagedWith", "d2/d9b/a20748.html#aa71514efa488ff8f9276cb2a4c166759", null ],
-    [ "Reset", "d2/d9b/a20748.html#a88305b8ac016175d61a0387d1888671f", null ],
-    [ "UpdateAI", "d2/d9b/a20748.html#a0e27fc91a01362ee58a0eb10fb9a5176", null ],
-    [ "events", "d2/d9b/a20748.html#a2836d6f142a322dae0aed9ff6a4888e2", null ]
+    [ "boss_yoggsaron_keeper", "d2/d9b/a20748.html#ad2098933656371b1bf80ec3ea859c418", null ],
+    [ "DoAction", "d2/d9b/a20748.html#a9e3d251810b55072458003356213ae15", null ],
+    [ "JustEngagedWith", "d2/d9b/a20748.html#a36bac93a46710f0cd3f51958b4e4223b", null ],
+    [ "JustSummoned", "d2/d9b/a20748.html#a272a77cb6f147f38825cd68d54f56a9a", null ],
+    [ "UpdateAI", "d2/d9b/a20748.html#afe9c18d91443f2ba3b2fd2a2fdd7dca5", null ],
+    [ "_summons", "d2/d9b/a20748.html#aa840eff5f3d8b24225046113737936b4", null ]
 ];

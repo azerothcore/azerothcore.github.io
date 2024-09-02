@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/EasternKingdoms/Gnomeregan/instance_gnomeregan.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/ArenaScript.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,96 +106,64 @@ $(document).ready(function(){initNavTree('d8/dbf/a01109.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">instance_gnomeregan.cpp File Reference</div></div>
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">ArenaScript.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">PassiveAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellScriptLoader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">gnomeregan.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d66/a12215.html">instance_gnomeregan</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d93/a12219.html">instance_gnomeregan::instance_gnomeregan_InstanceMapScript</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/deb/a12223.html">npc_kernobee</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d19/a12227.html">npc_kernobee::npc_kernobeeAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/a12231.html">spell_gnomeregan_radiation_bolt</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0f/a12235.html">spell_gnomeregan_radiation_bolt::spell_gnomeregan_radiation_bolt_SpellScript</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dba/a09944.html">ArenaScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a2abc5c19b823c78ec77c3d72114bf15a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dbf/a01109.html#a2abc5c19b823c78ec77c3d72114bf15a">eKernobee</a> { <a class="el" href="../../d8/dbf/a01109.html#a2abc5c19b823c78ec77c3d72114bf15aae96e14c539b411972be0ce6ad156b394">QUEST_A_FINE_MESS</a> = 2904
+<tr class="memitem:a93515f145fed15b3645f2240f39214ba"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dbf/a01109.html#a93515f145fed15b3645f2240f39214ba">ArenaHook</a> { <br />
+&#160;&#160;<a class="el" href="../../d8/dbf/a01109.html#a93515f145fed15b3645f2240f39214baa0eec08769f1e2848ef510ae5bc1980d0">ARENAHOOK_CAN_ADD_MEMBER</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d8/dbf/a01109.html#a93515f145fed15b3645f2240f39214baab3934eeceaededbb59ec277bc4275588">ARENAHOOK_ON_GET_POINTS</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d8/dbf/a01109.html#a93515f145fed15b3645f2240f39214baa707580e05d247690d89335a46d576657">ARENAHOOK_CAN_SAVE_TO_DB</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d8/dbf/a01109.html#a93515f145fed15b3645f2240f39214baa2958c395c6475e07a7dff62d1014ae58">ARENAHOOK_END</a>
+<br />
  }</td></tr>
-<tr class="separator:a2abc5c19b823c78ec77c3d72114bf15a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:afc9fa76575d58995fccc2f594a40114c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dbf/a01109.html#afc9fa76575d58995fccc2f594a40114c">AddSC_instance_gnomeregan</a> ()</td></tr>
-<tr class="separator:afc9fa76575d58995fccc2f594a40114c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a93515f145fed15b3645f2240f39214ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a2abc5c19b823c78ec77c3d72114bf15a" name="a2abc5c19b823c78ec77c3d72114bf15a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2abc5c19b823c78ec77c3d72114bf15a">&#9670;&#160;</a></span>eKernobee</h2>
+<a id="a93515f145fed15b3645f2240f39214ba" name="a93515f145fed15b3645f2240f39214ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93515f145fed15b3645f2240f39214ba">&#9670;&#160;</a></span>ArenaHook</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d8/dbf/a01109.html#a2abc5c19b823c78ec77c3d72114bf15a">eKernobee</a></td>
+          <td class="memname">enum <a class="el" href="../../d8/dbf/a01109.html#a93515f145fed15b3645f2240f39214ba">ArenaHook</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2abc5c19b823c78ec77c3d72114bf15aae96e14c539b411972be0ce6ad156b394" name="a2abc5c19b823c78ec77c3d72114bf15aae96e14c539b411972be0ce6ad156b394"></a>QUEST_A_FINE_MESS&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a93515f145fed15b3645f2240f39214baa0eec08769f1e2848ef510ae5bc1980d0" name="a93515f145fed15b3645f2240f39214baa0eec08769f1e2848ef510ae5bc1980d0"></a>ARENAHOOK_CAN_ADD_MEMBER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93515f145fed15b3645f2240f39214baab3934eeceaededbb59ec277bc4275588" name="a93515f145fed15b3645f2240f39214baab3934eeceaededbb59ec277bc4275588"></a>ARENAHOOK_ON_GET_POINTS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93515f145fed15b3645f2240f39214baa707580e05d247690d89335a46d576657" name="a93515f145fed15b3645f2240f39214baa707580e05d247690d89335a46d576657"></a>ARENAHOOK_CAN_SAVE_TO_DB&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93515f145fed15b3645f2240f39214baa2958c395c6475e07a7dff62d1014ae58" name="a93515f145fed15b3645f2240f39214baa2958c395c6475e07a7dff62d1014ae58"></a>ARENAHOOK_END&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   99</span>{</div>
-<div class="line"><span class="lineno">  100</span>    <a class="code hl_enumvalue" href="../../d8/dbf/a01109.html#a2abc5c19b823c78ec77c3d72114bf15aae96e14c539b411972be0ce6ad156b394">QUEST_A_FINE_MESS</a>           = 2904,</div>
-<div class="line"><span class="lineno">  101</span>};</div>
-<div class="ttc" id="aa01109_html_a2abc5c19b823c78ec77c3d72114bf15aae96e14c539b411972be0ce6ad156b394"><div class="ttname"><a href="../../d8/dbf/a01109.html#a2abc5c19b823c78ec77c3d72114bf15aae96e14c539b411972be0ce6ad156b394">QUEST_A_FINE_MESS</a></div><div class="ttdeci">@ QUEST_A_FINE_MESS</div><div class="ttdef"><b>Definition:</b> instance_gnomeregan.cpp:100</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d8/dbf/a01109.html#a93515f145fed15b3645f2240f39214baa0eec08769f1e2848ef510ae5bc1980d0">ARENAHOOK_CAN_ADD_MEMBER</a>,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d8/dbf/a01109.html#a93515f145fed15b3645f2240f39214baab3934eeceaededbb59ec277bc4275588">ARENAHOOK_ON_GET_POINTS</a>,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d8/dbf/a01109.html#a93515f145fed15b3645f2240f39214baa707580e05d247690d89335a46d576657">ARENAHOOK_CAN_SAVE_TO_DB</a>,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d8/dbf/a01109.html#a93515f145fed15b3645f2240f39214baa2958c395c6475e07a7dff62d1014ae58">ARENAHOOK_END</a></div>
+<div class="line"><span class="lineno">   31</span>};</div>
+<div class="ttc" id="aa01109_html_a93515f145fed15b3645f2240f39214baa0eec08769f1e2848ef510ae5bc1980d0"><div class="ttname"><a href="../../d8/dbf/a01109.html#a93515f145fed15b3645f2240f39214baa0eec08769f1e2848ef510ae5bc1980d0">ARENAHOOK_CAN_ADD_MEMBER</a></div><div class="ttdeci">@ ARENAHOOK_CAN_ADD_MEMBER</div><div class="ttdef"><b>Definition:</b> ArenaScript.h:27</div></div>
+<div class="ttc" id="aa01109_html_a93515f145fed15b3645f2240f39214baa2958c395c6475e07a7dff62d1014ae58"><div class="ttname"><a href="../../d8/dbf/a01109.html#a93515f145fed15b3645f2240f39214baa2958c395c6475e07a7dff62d1014ae58">ARENAHOOK_END</a></div><div class="ttdeci">@ ARENAHOOK_END</div><div class="ttdef"><b>Definition:</b> ArenaScript.h:30</div></div>
+<div class="ttc" id="aa01109_html_a93515f145fed15b3645f2240f39214baa707580e05d247690d89335a46d576657"><div class="ttname"><a href="../../d8/dbf/a01109.html#a93515f145fed15b3645f2240f39214baa707580e05d247690d89335a46d576657">ARENAHOOK_CAN_SAVE_TO_DB</a></div><div class="ttdeci">@ ARENAHOOK_CAN_SAVE_TO_DB</div><div class="ttdef"><b>Definition:</b> ArenaScript.h:29</div></div>
+<div class="ttc" id="aa01109_html_a93515f145fed15b3645f2240f39214baab3934eeceaededbb59ec277bc4275588"><div class="ttname"><a href="../../d8/dbf/a01109.html#a93515f145fed15b3645f2240f39214baab3934eeceaededbb59ec277bc4275588">ARENAHOOK_ON_GET_POINTS</a></div><div class="ttdeci">@ ARENAHOOK_ON_GET_POINTS</div><div class="ttdef"><b>Definition:</b> ArenaScript.h:28</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="afc9fa76575d58995fccc2f594a40114c" name="afc9fa76575d58995fccc2f594a40114c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc9fa76575d58995fccc2f594a40114c">&#9670;&#160;</a></span>AddSC_instance_gnomeregan()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_instance_gnomeregan </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  184</span>{</div>
-<div class="line"><span class="lineno">  185</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/d66/a12215.html">instance_gnomeregan</a>();</div>
-<div class="line"><span class="lineno">  186</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/deb/a12223.html">npc_kernobee</a>();</div>
-<div class="line"><span class="lineno">  187</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/d3b/a12231.html">spell_gnomeregan_radiation_bolt</a>();</div>
-<div class="line"><span class="lineno">  188</span>}</div>
-<div class="ttc" id="aa12215_html"><div class="ttname"><a href="../../db/d66/a12215.html">instance_gnomeregan</a></div><div class="ttdef"><b>Definition:</b> instance_gnomeregan.cpp:28</div></div>
-<div class="ttc" id="aa12223_html"><div class="ttname"><a href="../../d2/deb/a12223.html">npc_kernobee</a></div><div class="ttdef"><b>Definition:</b> instance_gnomeregan.cpp:104</div></div>
-<div class="ttc" id="aa12231_html"><div class="ttname"><a href="../../d2/d3b/a12231.html">spell_gnomeregan_radiation_bolt</a></div><div class="ttdef"><b>Definition:</b> instance_gnomeregan.cpp:157</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00169">AddEasternKingdomsScripts()</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -203,8 +171,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ddeb450e5fe586f747c0635391d1d1d6.html">EasternKingdoms</a></li><li class="navelem"><a class="el" href="../../dir_8439b06d1222f15d9722cd90fc7c13a2.html">Gnomeregan</a></li><li class="navelem"><a class="el" href="../../d8/dbf/a01109.html">instance_gnomeregan.cpp</a></li>
-    <li class="footer">Generated on Tue Aug 27 2024 09:59:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d8/dbf/a01109.html">ArenaScript.h</a></li>
+    <li class="footer">Generated on Mon Sep 2 2024 20:38:53 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

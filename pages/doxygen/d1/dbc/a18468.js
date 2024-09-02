@@ -1,6 +1,6 @@
 var a18468 =
 [
-    [ "HandleTriggerSpell", "d1/dbc/a18468.html#ae17a13e8f5a71c4601932327f947b8f1", null ],
-    [ "PrepareAuraScript", "d1/dbc/a18468.html#a2f19bc1e308600cc602a77a5a3b98ad3", null ],
-    [ "Register", "d1/dbc/a18468.html#a32fd3af43e85aeb5ce02923086c554ca", null ]
+    [ "boss_sister_svalnaAI", "d6/d7c/a18472.html", "d6/d7c/a18472" ],
+    [ "boss_sister_svalna", "d1/dbc/a18468.html#a233a9606db61f6ab945350e98a0929ff", null ],
+    [ "GetAI", "d1/dbc/a18468.html#a5eb89badd75104dfe1dc3e03d372adc0", null ]
 ];

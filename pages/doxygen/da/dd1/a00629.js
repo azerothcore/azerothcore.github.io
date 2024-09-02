@@ -1,6 +1,6 @@
 var a00629 =
 [
-    [ "CharacterDatabase", "da/dd1/a00629.html#a7e7534bc66d79434bd280b77cb124eec", null ],
-    [ "LoginDatabase", "da/dd1/a00629.html#a2cf25eafe7f2f73b61ccde11d55daf0c", null ],
-    [ "WorldDatabase", "da/dd1/a00629.html#afa9a6509f9913c9c7dd3081523badd7c", null ]
+    [ "GenerateEnchSuffixFactor", "da/dd1/a00629.html#a25026e783b088b45eebd4db8295b1b87", null ],
+    [ "GetItemEnchantMod", "da/dd1/a00629.html#a76d03c9ceb2d3ac35582eaea4624544f", null ],
+    [ "LoadRandomEnchantmentsTable", "da/dd1/a00629.html#a376fabf7bba54eaf928217f860f1c33b", null ]
 ];

@@ -1,7 +1,7 @@
 var a27980 =
 [
-    [ "HandleKnockBack", "d3/d26/a27980.html#a860fb74000a42a7d6f22d17dde93cdf6", null ],
-    [ "PrepareSpellScript", "d3/d26/a27980.html#ab951d6403188f178f79311cead8a0a8f", null ],
-    [ "Register", "d3/d26/a27980.html#ac62f4fdf003cdd53650fe632b3ed3ef1", null ],
-    [ "Validate", "d3/d26/a27980.html#add1bd8f583772d4dfeb20f01b9fac8ed", null ]
+    [ "EmoteType", "d3/d26/a27980.html#a2d319652021081fdb02472c32a28e318", null ],
+    [ "Flags", "d3/d26/a27980.html#aa1794d3ffd7f7da82f5754e1be580fe9", null ],
+    [ "Id", "d3/d26/a27980.html#a3b3b641fbdb8dc88afc2421e358a75a1", null ],
+    [ "UnitStandState", "d3/d26/a27980.html#ada83e548faa01917a5db19eaa15dbbec", null ]
 ];

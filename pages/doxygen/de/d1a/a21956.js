@@ -1,6 +1,9 @@
 var a21956 =
 [
-    [ "boss_thorim_runic_colossusAI", "d3/d44/a21960.html", "d3/d44/a21960" ],
-    [ "boss_thorim_runic_colossus", "de/d1a/a21956.html#a2ea1c08a98b689cd6c766578e98a3191", null ],
-    [ "GetAI", "de/d1a/a21956.html#a6d64427ff427a1054e10c9d987b77f53", null ]
+    [ "npc_Apothecary_HanesAI", "de/d1a/a21956.html#a8e209b142a58b3b3c0d84c430a086ade", null ],
+    [ "JustDied", "de/d1a/a21956.html#a4c681936d8e7053ace5cdeeaa1ee5ca9", null ],
+    [ "Reset", "de/d1a/a21956.html#a23d54542e6debf39798c2a2d6e2a255d", null ],
+    [ "UpdateEscortAI", "de/d1a/a21956.html#ab54eb5115b9c41b39f0de0f8f4412ef9", null ],
+    [ "WaypointReached", "de/d1a/a21956.html#a7105ea4c83ddd0fd08c96a0b0ff40bd2", null ],
+    [ "PotTimer", "de/d1a/a21956.html#a252858818b61cf15e2e031ceaaadc6b8", null ]
 ];

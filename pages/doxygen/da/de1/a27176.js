@@ -1,10 +1,6 @@
 var a27176 =
 [
-    [ "Load", "da/de1/a27176.html#a18e05511c2dc0b934a97e323fccc3f50", null ],
-    [ "OnApply", "da/de1/a27176.html#a1fe8240f5c553ba56ce9c2ff9338f75b", null ],
-    [ "OnRemove", "da/de1/a27176.html#a29834c598d6ef8299d54e48a3461e603", null ],
-    [ "PrepareAuraScript", "da/de1/a27176.html#a0529b56b30fa7bb97c014bbc2ee4a96a", null ],
-    [ "Register", "da/de1/a27176.html#a5174f07fde3469c2314a3c1fbba5f432", null ],
-    [ "Validate", "da/de1/a27176.html#aeaf16594f569af671d221234a4aa2c8b", null ],
-    [ "prevItem", "da/de1/a27176.html#ad4c0402ae71e663534ed8fd137a9afd2", null ]
+    [ "go_midsummer_musicAI", "d2/d84/a27180.html", "d2/d84/a27180" ],
+    [ "go_midsummer_music", "da/de1/a27176.html#a39c38fc78b47b16be9eebee0ccd5041d", null ],
+    [ "GetAI", "da/de1/a27176.html#a1baf09bdbf67c0a85219454c1cd61d2b", null ]
 ];

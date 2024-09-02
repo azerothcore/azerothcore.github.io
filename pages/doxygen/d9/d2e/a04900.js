@@ -1,9 +1,8 @@
 var a04900 =
 [
-    [ "FactoryHolderRegistry", "d9/d2e/a04900.html#a5384598eca62a35bc617a4c395353ecd", null ],
-    [ "FactoryHolder", "d9/d2e/a04900.html#a5e7097c2a475378023f33ec430f4ca85", null ],
-    [ "~FactoryHolder", "d9/d2e/a04900.html#a78673bd2f3d857127c1a91c49e3cd62f", null ],
-    [ "Create", "d9/d2e/a04900.html#a7072fb7dfe99890dea89b1ba661eb3ce", null ],
-    [ "RegisterSelf", "d9/d2e/a04900.html#a9e173f9daaf5c2de36bb8b46da4249e1", null ],
-    [ "_key", "d9/d2e/a04900.html#a98c0e66f8caaa207771efd82b2c2f9aa", null ]
+    [ "LocationInfoCallback", "d9/d2e/a04900.html#a81b8c00fcc0a1780445ffbdf85decfdf", null ],
+    [ "operator()", "d9/d2e/a04900.html#ac2ccfe87fa33cae7d2513c24ba8bfbeb", null ],
+    [ "locInfo", "d9/d2e/a04900.html#a9a8b8529a571b3652cd898b2888d8027", null ],
+    [ "prims", "d9/d2e/a04900.html#a19c87ad1c9665c3ddfbfa89ccdee5c10", null ],
+    [ "result", "d9/d2e/a04900.html#a1ada8b8a1742f02b2d1f28ee82903246", null ]
 ];

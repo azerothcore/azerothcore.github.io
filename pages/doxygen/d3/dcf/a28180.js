@@ -1,10 +1,13 @@
 var a28180 =
 [
-    [ "CheckProc", "d3/dcf/a28180.html#adce0da60782bcdadbb42ec1c73fddec1", null ],
-    [ "HandleProc", "d3/dcf/a28180.html#a82218c6f6319c60c26a7d4ec01b64bf9", null ],
-    [ "Load", "d3/dcf/a28180.html#ab9054a6d771022e4bf2b495c30ad8361", null ],
-    [ "PrepareAuraScript", "d3/dcf/a28180.html#ab8f483be4d01aa2460c90b043d7a441b", null ],
-    [ "Register", "d3/dcf/a28180.html#a4cb08499767ab58f0e525c382b662fbd", null ],
-    [ "Validate", "d3/dcf/a28180.html#aa6165f28706d49940dd1f62065631119", null ],
-    [ "_procTarget", "d3/dcf/a28180.html#a7b9426e18b454bf631992518c2bdbde0", null ]
+    [ "AcquireMethod", "d3/dcf/a28180.html#a31a8f5d642b2826b58bc7dfaf5f26719", null ],
+    [ "ClassMask", "d3/dcf/a28180.html#a868a7a346c1da7fa74ed36f0bfb59e3e", null ],
+    [ "ID", "d3/dcf/a28180.html#a95cab9102e1dd6c4f449aba2ecf14372", null ],
+    [ "MinSkillLineRank", "d3/dcf/a28180.html#a2a6c4b50a288ea023099fb49aaca37e4", null ],
+    [ "RaceMask", "d3/dcf/a28180.html#acfd38780584b90ca40a1e1cd59605832", null ],
+    [ "SkillLine", "d3/dcf/a28180.html#a0050dcf5c82f785dfc93079debe54a13", null ],
+    [ "Spell", "d3/dcf/a28180.html#a19e1a55dadce68e6e9c1bd7bb2ca51dd", null ],
+    [ "SupercededBySpell", "d3/dcf/a28180.html#a0eabe8b18fa4bf67eaaaa56f2264ad5d", null ],
+    [ "TrivialSkillLineRankHigh", "d3/dcf/a28180.html#aa8f0c15da1d4d14853bd42e7e20bc963", null ],
+    [ "TrivialSkillLineRankLow", "d3/dcf/a28180.html#aca5e15003099e1fdbd2eaa701b96f162", null ]
 ];

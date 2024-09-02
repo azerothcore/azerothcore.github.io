@@ -1,6 +1,12 @@
 var a22840 =
 [
-    [ "boss_zuramatAI", "d5/dc0/a22844.html", "d5/dc0/a22844" ],
-    [ "boss_zuramat", "d9/d0e/a22840.html#a1d169e786dcf846026b48d9be389f9ab", null ],
-    [ "GetAI", "d9/d0e/a22840.html#a1008c053a2c9ad14cf9ce994db931670", null ]
+    [ "boss_essence_of_sufferingAI", "d9/d0e/a22840.html#a98de7f0b7d12d0981854129cbeab0d0d", null ],
+    [ "DamageTaken", "d9/d0e/a22840.html#a347ef26e4ecdc83ca80c9fd9a93bd97d", null ],
+    [ "DoAction", "d9/d0e/a22840.html#a08724d74523866969b12d13846eb4c1e", null ],
+    [ "JustEngagedWith", "d9/d0e/a22840.html#aa2fce36768ad6e23a955cd215ca759db", null ],
+    [ "KilledUnit", "d9/d0e/a22840.html#a3699b19f23cf15115ff8c92691a6d334", null ],
+    [ "MovementInform", "d9/d0e/a22840.html#a4ff66e57277bc3bc6e8d2fb8bc585cd7", null ],
+    [ "Reset", "d9/d0e/a22840.html#affa55b69784d8f881598189c361c986e", null ],
+    [ "UpdateAI", "d9/d0e/a22840.html#abb60432720b3720832ccc83d454a3808", null ],
+    [ "_recentlySpoken", "d9/d0e/a22840.html#a71a28a61e97f6278836649411493484f", null ]
 ];

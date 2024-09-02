@@ -1,6 +1,6 @@
 var a23064 =
 [
-    [ "npc_warmage_coldarraAI", "df/dbc/a23068.html", "df/dbc/a23068" ],
-    [ "npc_warmage_coldarra", "d6/d06/a23064.html#a358f8ab26991798ff076ac764cd7abe2", null ],
-    [ "GetAI", "d6/d06/a23064.html#aa29181e0ad61b44eff685267f3231382", null ]
+    [ "OnPeriodic", "d6/d06/a23064.html#a769d30c78e4feaa9cc0c581af5264c02", null ],
+    [ "PrepareAuraScript", "d6/d06/a23064.html#a076e4b548de5cad64b7d81ddd8c5194f", null ],
+    [ "Register", "d6/d06/a23064.html#af1c2b7baf0ff7164cafab8f1a53bbb18", null ]
 ];

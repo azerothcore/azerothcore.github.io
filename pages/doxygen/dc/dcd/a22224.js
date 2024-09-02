@@ -1,6 +1,6 @@
 var a22224 =
 [
-    [ "boss_yoggsaron_llaneAI", "d6/dbc/a22228.html", "d6/dbc/a22228" ],
-    [ "boss_yoggsaron_llane", "dc/dcd/a22224.html#a671df488222583aa12bc1c75695918b9", null ],
-    [ "GetAI", "dc/dcd/a22224.html#a1e7d1b4bce0ca1dbfbbe8c044b451b92", null ]
+    [ "npc_roxi_ramrocket", "dc/dcd/a22224.html#af7f6bf6d5f8fc468abe62605f205571b", null ],
+    [ "OnGossipHello", "dc/dcd/a22224.html#adec28f778921246c56f11d09753e566e", null ],
+    [ "OnGossipSelect", "dc/dcd/a22224.html#a46a9898cb4b29808f9e911c03b5759cb", null ]
 ];

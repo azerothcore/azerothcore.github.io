@@ -1,5 +1,6 @@
 var a17488 =
 [
-    [ "endPosition", "d5/d31/a17488.html#a8a88b0191d28ef6af8f41db627552602", null ],
-    [ "entry", "d5/d31/a17488.html#ac4e55af666e269440953ced038c1a8de", null ]
+    [ "PrepareSpellScript", "d5/d31/a17488.html#a47df21229183b628c1d82bf34cbbe396", null ],
+    [ "Register", "d5/d31/a17488.html#a3cc4a1180f66cd9fe19020c1e5f2fccb", null ],
+    [ "RelocateTransportOffset", "d5/d31/a17488.html#acab29d77b4806f5d59ddc5dc3493c8ae", null ]
 ];

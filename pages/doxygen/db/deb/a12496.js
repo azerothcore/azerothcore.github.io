@@ -1,16 +1,19 @@
 var a12496 =
 [
-    [ "npc_unworthy_initiateAI", "db/deb/a12496.html#ae535d3335eb7865400f9e5c24b1dd3b5", null ],
-    [ "EventStart", "db/deb/a12496.html#a1973d5a14a1ac19be1d74cf57693cabe", null ],
-    [ "JustEngagedWith", "db/deb/a12496.html#aeedb0af23823ec5c7ff4f951c872552e", null ],
-    [ "MovementInform", "db/deb/a12496.html#afbf6d71b196067400256df98949ae963", null ],
-    [ "Reset", "db/deb/a12496.html#aba37cb6291a2e7436f8af796c50dead9", null ],
-    [ "UpdateAI", "db/deb/a12496.html#a485695877f48aea0bb191e8b312f9c99", null ],
-    [ "anchorGUID", "db/deb/a12496.html#acb1b338fae07b3ececfc8c15cc5ea80b", null ],
-    [ "anchorX", "db/deb/a12496.html#a69455d3e3f822c2f2a4f8c3f89e4586d", null ],
-    [ "anchorY", "db/deb/a12496.html#a67bbfac4014f2907cc9ad9caca80a4be", null ],
-    [ "events", "db/deb/a12496.html#a4eff6a50c098c3f851274ece860fb6fb", null ],
-    [ "phase", "db/deb/a12496.html#a299de7b4e1992edebd0a87c119d06d0a", null ],
-    [ "playerGUID", "db/deb/a12496.html#a02d1e6dd7a302e170b08f0c90f038ca9", null ],
-    [ "wait_timer", "db/deb/a12496.html#a9270c6e57cf77805769cfe692beefbe0", null ]
+    [ "boss_selin_fireheart", "db/deb/a12496.html#ae3270a227550391fd752d3f241e5ea46", null ],
+    [ "CanAIAttack", "db/deb/a12496.html#a36f409a006a09812452052d554d5e810", null ],
+    [ "JustDied", "db/deb/a12496.html#aa7dbc039a10958879c1c85a3819c9348", null ],
+    [ "JustEngagedWith", "db/deb/a12496.html#ac2225fc5fc8a8a8cdcd57f914292b495", null ],
+    [ "JustSummoned", "db/deb/a12496.html#a1ec48878f7e9073a795305710b12e9fb", null ],
+    [ "KilledUnit", "db/deb/a12496.html#a0fc74ba75a482a67d19f4323df1f5e6c", null ],
+    [ "MovementInform", "db/deb/a12496.html#a8072412acc5f52fdeea3b4f740021a91", null ],
+    [ "Reset", "db/deb/a12496.html#a6d6cab76647794f971c9a6837d8fbf8c", null ],
+    [ "SelectNearestCrystal", "db/deb/a12496.html#a71054373a8bd6f24a300e621be87ba45", null ],
+    [ "SpawnCrystals", "db/deb/a12496.html#a5c874662b9bf518782b2dc824f1eb03d", null ],
+    [ "SummonedCreatureDies", "db/deb/a12496.html#a1b42a552d4c522394934572158ded9d3", null ],
+    [ "UpdateAI", "db/deb/a12496.html#a9716cbb45e144d697105d649fe58db0d", null ],
+    [ "CrystalGUID", "db/deb/a12496.html#a7ea1196c542d569366459626cd1978e1", null ],
+    [ "events", "db/deb/a12496.html#a8e754aa601cb3674decf634f98c7bfea", null ],
+    [ "instance", "db/deb/a12496.html#a1a7b61924b5e8b14492967456212dbe3", null ],
+    [ "summons", "db/deb/a12496.html#a2e76bb981bef2cf2c9689bd3c5adec81", null ]
 ];

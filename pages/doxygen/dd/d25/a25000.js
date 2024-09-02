@@ -1,6 +1,6 @@
 var a25000 =
 [
-    [ "boss_lady_vashjAI", "d9/dee/a25004.html", "d9/dee/a25004" ],
-    [ "boss_lady_vashj", "dd/d25/a25000.html#a04f576e7ebcc6f1621c91f16cb475ae9", null ],
-    [ "GetAI", "dd/d25/a25000.html#a05df825681a61424d2fce7191614b5e0", null ]
+    [ "PrepareSpellScript", "dd/d25/a25000.html#a47d6dbe250410458fe54421158545efb", null ],
+    [ "Register", "dd/d25/a25000.html#ae2334b3fcfa916eb4b9ae1ca85a9687e", null ],
+    [ "SetDest", "dd/d25/a25000.html#aa037240eae1a1dd2c2670fed7dcc4e8c", null ]
 ];

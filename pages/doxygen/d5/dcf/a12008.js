@@ -1,6 +1,7 @@
 var a12008 =
 [
-    [ "HandleTriggerSpell", "d5/dcf/a12008.html#a361d179f81eb2565e133f674a127af90", null ],
-    [ "PrepareSpellScript", "d5/dcf/a12008.html#a47afe11577bb488509d0cfabf63d16ba", null ],
-    [ "Register", "d5/dcf/a12008.html#a0f17ba7bef0e9a59872297ef151a22fb", null ]
+    [ "HandleEffectScriptEffect", "d5/dcf/a12008.html#a8157c4b213b3b4e260222976e283e2ae", null ],
+    [ "PrepareSpellScript", "d5/dcf/a12008.html#aa8a4fdd0dc5c06a836ac05cec0dccd75", null ],
+    [ "Register", "d5/dcf/a12008.html#aeda056b568b4956ba35b32a3f20c053e", null ],
+    [ "Validate", "d5/dcf/a12008.html#a29a7f51f01e1ccf71dcc53ad68f032ae", null ]
 ];

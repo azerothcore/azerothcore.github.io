@@ -1,7 +1,5 @@
 var a26904 =
 [
-    [ "FilterTargets", "d7/d05/a26904.html#a9abf4baaba572636dba3980e5ae777c5", null ],
-    [ "Load", "d7/d05/a26904.html#a812e4e461c0ebed6f7c4cc36e88a3367", null ],
-    [ "PrepareSpellScript", "d7/d05/a26904.html#a4e98fbf669c030263ed2e5759a5bd6e8", null ],
-    [ "Register", "d7/d05/a26904.html#a2d72f5771d6563260a6e81122e4a2be5", null ]
+    [ "achievement_bg_ic_glaive_grave", "d7/d05/a26904.html#a97e1cead0102a120b3bd14592ea26034", null ],
+    [ "OnCheck", "d7/d05/a26904.html#a0eacab5595969cfe5e3d083c984dfd77", null ]
 ];

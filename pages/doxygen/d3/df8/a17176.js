@@ -1,6 +1,6 @@
 var a17176 =
 [
-    [ "npc_phantom_mageAI", "dd/dfa/a17180.html", "dd/dfa/a17180" ],
-    [ "npc_phantom_mage", "d3/df8/a17176.html#ad57414231c40917bf55d6155fa9c05db", null ],
-    [ "GetAI", "d3/df8/a17176.html#ae2134b8be3052da659390bde7c2aac2e", null ]
+    [ "AddExtraDamage", "d3/df8/a17176.html#adeedfdd7555dfd009c99db6f002f7488", null ],
+    [ "PrepareSpellScript", "d3/df8/a17176.html#a5d5c32f102c525f6c25d12281a58f5f4", null ],
+    [ "Register", "d3/df8/a17176.html#affe1d9a5e9c4776d1651fdb95283caf4", null ]
 ];

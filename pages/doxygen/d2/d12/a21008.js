@@ -1,5 +1,6 @@
 var a21008 =
 [
-    [ "achievement_auriaya_nine_lives", "d2/d12/a21008.html#a750304bc946a7ecefec29dc18c429d3b", null ],
-    [ "OnCheck", "d2/d12/a21008.html#ae1b7ee75a3e7343c3f5f8043b4e39362", null ]
+    [ "npc_dragonflayer_forge_masterAI", "d5/d86/a21012.html", "d5/d86/a21012" ],
+    [ "npc_dragonflayer_forge_master", "d2/d12/a21008.html#a920e50234a4a473b28c312c29fb4835a", null ],
+    [ "GetAI", "d2/d12/a21008.html#ac84dc301cf764c27ccf63bf02a53023c", null ]
 ];

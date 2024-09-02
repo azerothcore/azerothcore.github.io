@@ -1,6 +1,6 @@
 var a21700 =
 [
-    [ "npc_ulduar_leviathan_mkiiAI", "d2/d15/a21704.html", "d2/d15/a21704" ],
-    [ "npc_ulduar_leviathan_mkii", "d7/df8/a21700.html#a9e4671adcb2409a7c83460d28d29f579", null ],
-    [ "GetAI", "d7/df8/a21700.html#afe438e97b6989a8899850619c87cd7e6", null ]
+    [ "npc_injured_7th_legion_soldierAI", "d7/df8/a21700.html#a6929ef42a003f1337d71f9b23fa37c6e", null ],
+    [ "MovementInform", "d7/df8/a21700.html#a999bc868db485578fcc70ae7e056b778", null ],
+    [ "Reset", "d7/df8/a21700.html#a3021c037acdb141fc3ca4d6f3b146bbf", null ]
 ];

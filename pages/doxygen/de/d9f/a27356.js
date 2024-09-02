@@ -1,7 +1,10 @@
 var a27356 =
 [
-    [ "PrepareAuraScript", "de/d9f/a27356.html#afeac0a8393b7d7bf787fca59988d0e14", null ],
-    [ "Register", "de/d9f/a27356.html#a7cbcf46dbdddea12fd6ce04bcbcea097", null ],
-    [ "TriggerFoodBuff", "de/d9f/a27356.html#a5d125413491dd377d61b8e30c4979fdd", null ],
-    [ "Validate", "de/d9f/a27356.html#a6b69d7358eb8cfe6a8f9efd47882eb80", null ]
+    [ "go_evil_book_for_dummies", "de/d9f/a27356.html#a69f599910bce0070c6b1af547c459b72", null ],
+    [ "HasLeatherSpecialty", "de/d9f/a27356.html#a3d755fa8777f33a318ffa6f004aecbed", null ],
+    [ "OnGossipHello", "de/d9f/a27356.html#aeb29351e2faf135298419488eb16cc7e", null ],
+    [ "OnGossipSelect", "de/d9f/a27356.html#ac4bc1c682b75c436a4d3fff118a20ca4", null ],
+    [ "SendActionMenu", "de/d9f/a27356.html#a0aa21b4619ea5cc8229eb56e09d3233d", null ],
+    [ "SendConfirmLearn", "de/d9f/a27356.html#a11a605c576a3c81b5ed96d413ec20f57", null ],
+    [ "SendConfirmUnlearn", "de/d9f/a27356.html#af9c10b0423327d8644020e8f5e26a603", null ]
 ];

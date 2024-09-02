@@ -1,6 +1,6 @@
 var a16348 =
 [
-    [ "HandleHealPct", "d3/d4f/a16348.html#a7acd2500fe7f82272047b301812d1e8b", null ],
-    [ "PrepareSpellScript", "d3/d4f/a16348.html#a8a93787bef057e2c07257cfecf8bed67", null ],
-    [ "Register", "d3/d4f/a16348.html#a87be4145da5d5073994b1e3b66f39ab6", null ]
+    [ "boss_jaraxxusAI", "d5/d2e/a16352.html", "d5/d2e/a16352" ],
+    [ "boss_jaraxxus", "d3/d4f/a16348.html#a82cf0601aa16893d88d9b669a6d1fc72", null ],
+    [ "GetAI", "d3/d4f/a16348.html#a518f7af9f86ab995e5195175b5a34bc6", null ]
 ];

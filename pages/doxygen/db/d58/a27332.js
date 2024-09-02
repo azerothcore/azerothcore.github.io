@@ -1,7 +1,6 @@
 var a27332 =
 [
-    [ "HandleEffectPeriodic", "db/d58/a27332.html#a76e5aea0f1a3698e8034a1cbb08f4196", null ],
-    [ "PrepareAuraScript", "db/d58/a27332.html#affc698127fe0656df25bd094c02a7e50", null ],
-    [ "Register", "db/d58/a27332.html#a4707bfaeb86b3540920a6772e1726e26", null ],
-    [ "Validate", "db/d58/a27332.html#aef839f163d7e623a54b163e1c27542cd", null ]
+    [ "npc_innkeeper", "db/d58/a27332.html#a006f27d898ead8827d8b98d8b93d430d", null ],
+    [ "OnGossipHello", "db/d58/a27332.html#ae65c5cd7d3e270b2e50f80c0e12a72ff", null ],
+    [ "OnGossipSelect", "db/d58/a27332.html#ab6cf511f5b032050336a77d1e4598dda", null ]
 ];

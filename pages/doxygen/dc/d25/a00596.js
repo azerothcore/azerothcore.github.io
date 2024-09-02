@@ -1,9 +1,8 @@
 var a00596 =
 [
-    [ "MySQLHandle", "dd/df1/a05635.html", null ],
-    [ "MySQLResult", "d7/d9a/a05639.html", null ],
-    [ "MySQLField", "d7/d3b/a05643.html", null ],
-    [ "MySQLBind", "d2/da1/a05647.html", null ],
-    [ "MySQLStmt", "d1/d19/a05651.html", null ],
-    [ "MySQLBool", "dc/d25/a00596.html#a9962b927652e90357369e67230dbc127", null ]
+    [ "CorpseUpdateFieldFlags", "dc/d25/a00596.html#a4ba9132e74378f888b4724dbbaf147f3", null ],
+    [ "DynamicObjectUpdateFieldFlags", "dc/d25/a00596.html#aefe3be44e608ab4935e11ea44f8e0ce6", null ],
+    [ "GameObjectUpdateFieldFlags", "dc/d25/a00596.html#aee13b862f51557c371d3d93341128895", null ],
+    [ "ItemUpdateFieldFlags", "dc/d25/a00596.html#ac1cca7ecf1650663132e3e220d771adf", null ],
+    [ "UnitUpdateFieldFlags", "dc/d25/a00596.html#a310c5b2e3065e40ce04fe5ccd84fb51b", null ]
 ];

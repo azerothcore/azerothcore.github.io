@@ -1,8 +1,10 @@
 var a03749 =
 [
-    [ "LootScript", "d0/d41/a10039.html", "d0/d41/a10039" ],
-    [ "LootHook", "d4/dd0/a03749.html#a39ce94de1e8ce6b7055130ac7f40632b", [
-      [ "LOOTHOOK_ON_LOOT_MONEY", "d4/dd0/a03749.html#a39ce94de1e8ce6b7055130ac7f40632ba71990fd8692b46e728ad526346d0f1f1", null ],
-      [ "LOOTHOOK_END", "d4/dd0/a03749.html#a39ce94de1e8ce6b7055130ac7f40632bab03a0874b2fda00aeb19e4b5ab077fea", null ]
-    ] ]
+    [ "OutdoorPvP_nagrand", "db/df4/a22476.html", "db/df4/a22476" ],
+    [ "outdoorpvp_na_halaa_creatures", "d8/d88/a22480.html", "d8/d88/a22480" ],
+    [ "AddSC_outdoorpvp_na", "d4/dd0/a03749.html#a03015585e7619177355fefd05f85e1c7", null ],
+    [ "FlagPlayerPvP", "d4/dd0/a03749.html#ab1d33448696056a0951a0c306a511f1e", null ],
+    [ "UpdateCreatureHalaa", "d4/dd0/a03749.html#a37af66c813e135cc11bd1dc663b35697", null ],
+    [ "halaaNPCAlly", "d4/dd0/a03749.html#a3428675268608e5372767fc629259d5c", null ],
+    [ "halaaNPCHorde", "d4/dd0/a03749.html#a531a4e8a5291c048ad0f3b0fc64b29d9", null ]
 ];

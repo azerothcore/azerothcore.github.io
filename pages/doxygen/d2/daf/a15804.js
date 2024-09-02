@@ -1,7 +1,6 @@
 var a15804 =
 [
-    [ "npc_ranshallaAI", "dd/dda/a15808.html", "dd/dda/a15808" ],
-    [ "npc_ranshalla", "d2/daf/a15804.html#a0b9848c68cf955d24024071ae9beb8e5", null ],
-    [ "GetAI", "d2/daf/a15804.html#a1a81651366cc05d3ad6e9929160fe059", null ],
-    [ "OnQuestAccept", "d2/daf/a15804.html#a4ed77a4c0a48dc4922fa5ebb71949e28", null ]
+    [ "npc_twilight_summonAI", "dd/dda/a15808.html", "dd/dda/a15808" ],
+    [ "npc_twilight_summon", "d2/daf/a15804.html#a2406ee3b02d9f1b1ebef54623d9a3c11", null ],
+    [ "GetAI", "d2/daf/a15804.html#a98bf5ce96c25bc252acd46163644bf33", null ]
 ];

@@ -1,5 +1,5 @@
 var a22452 =
 [
-    [ "go_call_tram", "d6/deb/a22452.html#a6ea006497d0c819b1a9b4aaee99823a2", null ],
-    [ "OnGossipHello", "d6/deb/a22452.html#a73a6ba28f7c5a6d6614bef1ce1e1c6c7", null ]
+    [ "OutdoorPvP_grizzly_hills", "d6/deb/a22452.html#aa020d8120c62874fb15b4623bbb714d9", null ],
+    [ "GetOutdoorPvP", "d6/deb/a22452.html#add8a0c81bcc55c7b382c25fa077b80ce", null ]
 ];

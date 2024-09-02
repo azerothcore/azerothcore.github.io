@@ -1,8 +1,8 @@
 var a23384 =
 [
-    [ "AfterApply", "da/d37/a23384.html#a57279552b867251e9d2ee6a4ff5d7914", null ],
-    [ "PeriodicTick", "da/d37/a23384.html#a2e86aa6efe6ab137926c1dfd1bd26a95", null ],
-    [ "PrepareAuraScript", "da/d37/a23384.html#a9e1b74bf2d28a367caefdc90c34743c8", null ],
-    [ "Register", "da/d37/a23384.html#a69eb0ca43a15d4995ad219459c2b39d6", null ],
-    [ "Validate", "da/d37/a23384.html#a946248656cb755f85dd93fd4d607c9a7", null ]
+    [ "npc_underbat", "da/d37/a23384.html#a710a010d3425b7171ee45d8465fd6b2b", null ],
+    [ "JustEngagedWith", "da/d37/a23384.html#ae137b6b763b3df6096c3bfd4dd7ee676", null ],
+    [ "Reset", "da/d37/a23384.html#aae771ad526e8f72a90fe70ebbd91b472", null ],
+    [ "UpdateAI", "da/d37/a23384.html#ab3a9b97543aee3fdf22c17e94f768c0e", null ],
+    [ "_scheduler", "da/d37/a23384.html#a7644a73c2a5bcbbe0a3db5c782169752", null ]
 ];

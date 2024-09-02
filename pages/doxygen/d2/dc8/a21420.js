@@ -1,6 +1,6 @@
 var a21420 =
 [
-    [ "npc_ulduar_flash_freezeAI", "d5/d98/a21424.html", "d5/d98/a21424" ],
-    [ "npc_ulduar_flash_freeze", "d2/dc8/a21420.html#a0301ed1231d3b0d113e9fc9389e8f160", null ],
-    [ "GetAI", "d2/dc8/a21420.html#a933f99c8d38ab98c8454919b6373bb41", null ]
+    [ "npc_azure_saboteurAI", "d5/d98/a21424.html", "d5/d98/a21424" ],
+    [ "npc_azure_saboteur", "d2/dc8/a21420.html#ae60362727a7a246b7c6c923ed96c7be7", null ],
+    [ "GetAI", "d2/dc8/a21420.html#a69b552fb6f725d00ac4b0303d36a7138", null ]
 ];

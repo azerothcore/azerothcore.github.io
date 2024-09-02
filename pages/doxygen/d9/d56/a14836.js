@@ -1,10 +1,12 @@
 var a14836 =
 [
-    [ "npc_tarethaAI", "d9/d56/a14836.html#ad403cdcdc2648bb23687e3a3a7bdbb03", null ],
-    [ "AttackStart", "d9/d56/a14836.html#a09d91ea8e5923ebc3c0ad01f09f93408", null ],
-    [ "DoAction", "d9/d56/a14836.html#adbb40db0b70532a20731cf5039e44d0b", null ],
-    [ "MoveInLineOfSight", "d9/d56/a14836.html#afa0427372e43316851018bf78274707f", null ],
-    [ "Reset", "d9/d56/a14836.html#ae4d9f3d5751e8a8e0468a80d46f4a4c4", null ],
-    [ "WaypointReached", "d9/d56/a14836.html#a6946bc02ec686c8af943c9e913c8aee6", null ],
-    [ "instance", "d9/d56/a14836.html#a3c0f4a61cf5b8da6b885ef7bf9813205", null ]
+    [ "npc_anubisath_guardian", "d9/d56/a14836.html#a7db1771f9083e14c177e37d7bf6690c5", null ],
+    [ "DamageTaken", "d9/d56/a14836.html#a2b7f307b5af7c50c86a68c4834f08ed4", null ],
+    [ "JustDied", "d9/d56/a14836.html#a9f40c43ded16ad5934a5d5499f16ca76", null ],
+    [ "JustEngagedWith", "d9/d56/a14836.html#a16d1e70f0ca0fcef972ac45f82e885e6", null ],
+    [ "Reset", "d9/d56/a14836.html#af87cc86141964c48f9c57ed5bade36a5", null ],
+    [ "UpdateAI", "d9/d56/a14836.html#a9a9c805c92a3e8e96914d01accb01051", null ],
+    [ "_enraged", "d9/d56/a14836.html#a69b3b2cee4c84cd6dccd3465b555ad12", null ],
+    [ "_scheduler", "d9/d56/a14836.html#ad44455c43d53426a152547d5b0770bbe", null ],
+    [ "_spells", "d9/d56/a14836.html#aee75f952ed14f5f6fab1f5117f6b8b9e", null ]
 ];

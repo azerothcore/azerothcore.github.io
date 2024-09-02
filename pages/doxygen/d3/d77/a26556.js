@@ -1,10 +1,8 @@
 var a26556 =
 [
-    [ "npc_pet_hunter_snake_trap", "d3/d77/a26556.html#aaf5df574c4ac53661c0bb1968f84c6ea", null ],
-    [ "EnterEvadeMode", "d3/d77/a26556.html#a819add0c7b968063403d10275fdc289f", null ],
-    [ "MoveInLineOfSight", "d3/d77/a26556.html#a32d5ed7f4d436f2678b34f4a1d572721", null ],
-    [ "Reset", "d3/d77/a26556.html#a831cf6eea8bd03247cd9877d3be6e1ee", null ],
-    [ "UpdateAI", "d3/d77/a26556.html#a41a37efe6d39c6d97b3dcc5fabbcc812", null ],
-    [ "_init", "d3/d77/a26556.html#a1b5c1301389749f82667c35f3daff847", null ],
-    [ "_spellTimer", "d3/d77/a26556.html#ab9397451e2e8320ca77560a19baeee3f", null ]
+    [ "ApplyDebuff", "d3/d77/a26556.html#ac22ae27019de6bd951bb00262c6df9a3", null ],
+    [ "PrepareSpellScript", "d3/d77/a26556.html#aa37525d089348f58e3d871830caa3417", null ],
+    [ "Register", "d3/d77/a26556.html#ac37a48d9742ab6b07c5e6a8dd7f23bd9", null ],
+    [ "RemoveInvalidTargets", "d3/d77/a26556.html#a0451b75aa962065a01a5806992e01b16", null ],
+    [ "Validate", "d3/d77/a26556.html#ac69d777fdf7a2d3c527621dee256690c", null ]
 ];

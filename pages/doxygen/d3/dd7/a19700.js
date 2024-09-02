@@ -1,6 +1,5 @@
 var a19700 =
 [
-    [ "spell_icc_yf_frozen_orb_AuraScript", "d7/dd7/a19704.html", "d7/dd7/a19704" ],
-    [ "spell_icc_yf_frozen_orb", "d3/dd7/a19700.html#a209173c8bfdf6b7068c11eb23e48d9c3", null ],
-    [ "GetAuraScript", "d3/dd7/a19700.html#ad4ae8d0c8bd19dbe14ccbb0be743a7ba", null ]
+    [ "achievement_cant_do_that_while_stunned", "d3/dd7/a19700.html#a4d474b36f61631688ea723d2e4033574", null ],
+    [ "OnCheck", "d3/dd7/a19700.html#a0b108bdcab0bc412975e61247f226bf8", null ]
 ];

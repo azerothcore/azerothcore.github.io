@@ -1,8 +1,7 @@
 var a26156 =
 [
-    [ "npc_bessyAI", "d5/d8f/a26156.html#ad1300a563888b34689bedf97c387707c", null ],
-    [ "JustDied", "d5/d8f/a26156.html#af98e9235b2432b619e4cc01c0c1111ef", null ],
-    [ "JustSummoned", "d5/d8f/a26156.html#a4197fb122299fd152e5da335bb832ae5", null ],
-    [ "Reset", "d5/d8f/a26156.html#aed64386629e52c3b65abadde54a63cc4", null ],
-    [ "WaypointReached", "d5/d8f/a26156.html#a4611a8f41f66a1a846fb42ba1d4062c8", null ]
+    [ "HandleProc", "d5/d8f/a26156.html#ad5bf7ab28ac2f359c65606a1772a40d2", null ],
+    [ "PrepareAuraScript", "d5/d8f/a26156.html#af4fec7fb65e1327b1a74d48453b9fddd", null ],
+    [ "Register", "d5/d8f/a26156.html#a44a82b94d509eeb04f3520ded1d62891", null ],
+    [ "Validate", "d5/d8f/a26156.html#a7b222bba8f0c4ced50bf4945bf0423ca", null ]
 ];

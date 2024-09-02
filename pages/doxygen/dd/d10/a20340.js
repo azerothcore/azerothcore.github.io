@@ -1,6 +1,8 @@
 var a20340 =
 [
-    [ "boss_commander_stoutbeardAI", "de/d34/a20344.html", "de/d34/a20344" ],
-    [ "boss_commander_stoutbeard", "dd/d10/a20340.html#a88d3d29efbfffc22dbe48bd9fa1de9d6", null ],
-    [ "GetAI", "dd/d10/a20340.html#a890716f1c4adf9cd3d565b62cc675f64", null ]
+    [ "npc_ulduar_magnetic_coreAI", "dd/d10/a20340.html#a585437dff0c49ac1a6bf7929ab266ff5", null ],
+    [ "SetData", "dd/d10/a20340.html#a27c31856d2bfe3228ae3b0b361064d7a", null ],
+    [ "UpdateAI", "dd/d10/a20340.html#ab9113a021844aa7ea8ac46df9c50b205", null ],
+    [ "despawnTimer", "dd/d10/a20340.html#ad244ccbaeda814b9e56fad93f06f12fe", null ],
+    [ "pInstance", "dd/d10/a20340.html#a3e01c612a689d89bdbe3529c429a413d", null ]
 ];

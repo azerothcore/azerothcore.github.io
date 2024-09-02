@@ -1,10 +1,7 @@
 var a25232 =
 [
-    [ "boss_mekgineer_steamrigger", "d8/d0d/a25232.html#a930dcbade7135d0c689bcc0718815547", null ],
-    [ "JustDied", "d8/d0d/a25232.html#a79272c233bc0256cca62700fc7a01421", null ],
-    [ "JustEngagedWith", "d8/d0d/a25232.html#aa75dea00ffd73b45ba5115ea1e48a006", null ],
-    [ "JustSummoned", "d8/d0d/a25232.html#aa69dd4d35aa64deb4269e3c93d7d2399", null ],
-    [ "KilledUnit", "d8/d0d/a25232.html#a84374438458cb7e034f91d4b65cd22f1", null ],
-    [ "SummonMechanics", "d8/d0d/a25232.html#a7be32e1c4ff0b3a62be626ed769e59dc", null ],
-    [ "UpdateAI", "d8/d0d/a25232.html#a91458d576ff4136e7cbbfae89ac12a55", null ]
+    [ "HandleDummy", "d8/d0d/a25232.html#a704a2f1c36b32809b22bc3edc87b3414", null ],
+    [ "PrepareSpellScript", "d8/d0d/a25232.html#aad01f2888176e8a555fe7acd1bc3fd8b", null ],
+    [ "Register", "d8/d0d/a25232.html#ae12fa2b2f9859b465a64fbec04345c9e", null ],
+    [ "Validate", "d8/d0d/a25232.html#ad4bb369ef46122cd45c38d876884d350", null ]
 ];

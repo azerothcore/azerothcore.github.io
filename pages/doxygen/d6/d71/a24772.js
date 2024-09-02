@@ -1,6 +1,6 @@
 var a24772 =
 [
-    [ "boss_veras_darkshadowAI", "d3/d7a/a24776.html", "d3/d7a/a24776" ],
-    [ "boss_veras_darkshadow", "d6/d71/a24772.html#ab5491df9e30d11b6b7c046d11b6e13c6", null ],
-    [ "GetAI", "d6/d71/a24772.html#a2c7acfe8ae8a42b572bffe8124ab43cf", null ]
+    [ "CalculateAmount", "d6/d71/a24772.html#af913c896771e238ef62898f67af61cc4", null ],
+    [ "PrepareAuraScript", "d6/d71/a24772.html#a4be139ae22c20468be1930195097d98a", null ],
+    [ "Register", "d6/d71/a24772.html#a90d6446ed05f9dfedb43d689e8de0614", null ]
 ];

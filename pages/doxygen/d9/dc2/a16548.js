@@ -1,6 +1,10 @@
 var a16548 =
 [
-    [ "npc_nerubian_burrowerAI", "d9/d14/a16552.html", "d9/d14/a16552" ],
-    [ "npc_nerubian_burrower", "d9/dc2/a16548.html#a02c3eb1ed867738c705af8bf38a1aae5", null ],
-    [ "GetAI", "d9/dc2/a16548.html#a145ebac6f95f9190429b9bfa37e23312", null ]
+    [ "boss_tharon_jaAI", "d9/dc2/a16548.html#a03025fa529e932f23479ff19b0cd8238", null ],
+    [ "DoAction", "d9/dc2/a16548.html#a655fd83c2d671847fea9ae393c132fb9", null ],
+    [ "JustDied", "d9/dc2/a16548.html#a7928b5db061f1073e1decc2d40601195", null ],
+    [ "JustEngagedWith", "d9/dc2/a16548.html#aab194a8f802eeb625d1a74960acbe154", null ],
+    [ "KilledUnit", "d9/dc2/a16548.html#a41e929a3768768eb06bafdee3269fd24", null ],
+    [ "Reset", "d9/dc2/a16548.html#a272e8565a9b00a27505b301d52814eee", null ],
+    [ "UpdateAI", "d9/dc2/a16548.html#a6f482cabcb0bd56711878a5ea297b950", null ]
 ];

@@ -1,14 +1,9 @@
 var a22952 =
 [
-    [ "npc_azure_saboteurAI", "d7/d26/a22952.html#a09fc1e8f171209471c5403af33b05a58", null ],
-    [ "FinishPointReached", "d7/d26/a22952.html#a322380edef5dbefe5ac4ab0040183010", null ],
-    [ "MoveInLineOfSight", "d7/d26/a22952.html#a21868549892cdd0e67d6403dece9efce", null ],
-    [ "UpdateAI", "d7/d26/a22952.html#a9ccbb54a41aef3a252a46545649c2c91", null ],
-    [ "WaypointReached", "d7/d26/a22952.html#ac17dc46bfe75582a789a2056978218fb", null ],
-    [ "bAddedWPs", "d7/d26/a22952.html#a9cabb9053b3c6b51be184b2144e5ec54", null ],
-    [ "bOpening", "d7/d26/a22952.html#a924ceb13552f0f01d55375af0324bf5a", null ],
-    [ "count", "d7/d26/a22952.html#a38bf10a96c8eae45b4aa0bd095924f85", null ],
-    [ "pInstance", "d7/d26/a22952.html#a1375420fe4bf16f122aa93f5c847a464", null ],
-    [ "timer", "d7/d26/a22952.html#a30745320b9cc64fb690fa7bd6d7525f2", null ],
-    [ "uiBoss", "d7/d26/a22952.html#a36f60e44bd8f1de85429a75f3e928d77", null ]
+    [ "boss_najentus", "d7/d26/a22952.html#ac5d3d54a49524892fe844925d483c244", null ],
+    [ "JustDied", "d7/d26/a22952.html#afee32dd32033c7a45068ce12e961797c", null ],
+    [ "JustEngagedWith", "d7/d26/a22952.html#a46e3aab64c21b24ac6457acd598679ec", null ],
+    [ "KilledUnit", "d7/d26/a22952.html#ad55e1de3aa7a636b3d30b0d61a17dab9", null ],
+    [ "Reset", "d7/d26/a22952.html#ab7e0bdb8954722c9080146a88a3c5aa2", null ],
+    [ "_canTalk", "d7/d26/a22952.html#a25ac29a79cdcfb4ebc48de13d677f1d4", null ]
 ];

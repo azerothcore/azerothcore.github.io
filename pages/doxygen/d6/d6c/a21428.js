@@ -1,6 +1,6 @@
 var a21428 =
 [
-    [ "npc_ulduar_toasty_fireAI", "dd/de7/a21432.html", "dd/de7/a21432" ],
-    [ "npc_ulduar_toasty_fire", "d6/d6c/a21428.html#a5a5b77088b24f1c5743c58034190d5ab", null ],
-    [ "GetAI", "d6/d6c/a21428.html#a2518ec39c3cea2f3efc5000e0a7779d0", null ]
+    [ "HandleEffectPeriodic", "d6/d6c/a21428.html#affa7fb949d4b1a05813df0da17fef3bb", null ],
+    [ "PrepareAuraScript", "d6/d6c/a21428.html#a79dbb866c06cd1c031cae2f1370146d5", null ],
+    [ "Register", "d6/d6c/a21428.html#a1fb46036f0860440f3a9201e0d86cdc4", null ]
 ];

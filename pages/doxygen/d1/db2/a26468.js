@@ -1,6 +1,10 @@
 var a26468 =
 [
-    [ "npc_pet_dk_ebon_gargoyleAI", "da/d1b/a26472.html", "da/d1b/a26472" ],
-    [ "npc_pet_dk_ebon_gargoyle", "d1/db2/a26468.html#ae4dcaff120a52c20a8b73d97a08604d7", null ],
-    [ "GetAI", "d1/db2/a26468.html#a19ff9fd627aab738c91ce23cf6acfffd", null ]
+    [ "Absorb", "d1/db2/a26468.html#aedee311aa77597674b3665eaf74e98c8", null ],
+    [ "CalculateAmount", "d1/db2/a26468.html#a5fdabb367ab86589d733d1da906446ab", null ],
+    [ "Load", "d1/db2/a26468.html#a7418b17f23b9eeacceb0970df3cb1d99", null ],
+    [ "PrepareAuraScript", "d1/db2/a26468.html#a1de52fae7a5ed3eeeb46be11eb2eac21", null ],
+    [ "Register", "d1/db2/a26468.html#abfc540163e9eb34cbf8a48d39bede840", null ],
+    [ "Validate", "d1/db2/a26468.html#a6cca564b6d13063ce7cd72ed8b6adf67", null ],
+    [ "absorbChance", "d1/db2/a26468.html#a293be81af42d810126eda35b1d27e3bc", null ]
 ];

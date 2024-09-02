@@ -1,6 +1,7 @@
 var a25120 =
 [
-    [ "HasInLineCheck", "d1/d05/a25120.html#a903334d6794b89cb5ba86ee91ee93a35", null ],
-    [ "operator()", "d1/d05/a25120.html#a9b14892c745faf37134af7b1d74b8265", null ],
-    [ "_caster", "d1/d05/a25120.html#a6b45f3887bcc64df3842b445b5f789bf", null ]
+    [ "HandleDummy", "d1/d05/a25120.html#a9037eddf4c9ce96c15c57e8906bd9a5f", null ],
+    [ "Load", "d1/d05/a25120.html#a738318535196b3d55e8f1b3da4f76c95", null ],
+    [ "PrepareSpellScript", "d1/d05/a25120.html#a941a097124ed9b4917faa18ff23fc366", null ],
+    [ "Register", "d1/d05/a25120.html#aaf9d269e7d052515f31b463999e92cf4", null ]
 ];

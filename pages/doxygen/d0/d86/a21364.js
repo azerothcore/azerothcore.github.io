@@ -1,6 +1,6 @@
 var a21364 =
 [
-    [ "spell_mark_of_the_faceless_drainhealth_SpellScript", "dd/d0c/a21368.html", "dd/d0c/a21368" ],
-    [ "spell_mark_of_the_faceless_drainhealth", "d0/d86/a21364.html#a712ba0e509f60afbc30d163cd14ca539", null ],
-    [ "GetSpellScript", "d0/d86/a21364.html#add4415fee69ccfbfab702c6c18e1093c", null ]
+    [ "npc_azure_binderAI", "dd/d0c/a21368.html", "dd/d0c/a21368" ],
+    [ "npc_azure_binder", "d0/d86/a21364.html#a25b8b19b6ccdae92418c47fe68537c42", null ],
+    [ "GetAI", "d0/d86/a21364.html#aad091206a8bd06a1064b68b81510eb56", null ]
 ];

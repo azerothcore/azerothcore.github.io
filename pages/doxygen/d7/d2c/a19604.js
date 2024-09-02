@@ -1,6 +1,8 @@
 var a19604 =
 [
-    [ "HandleEvent", "d7/d2c/a19604.html#a4537b9d3aeeb499e9d108a2909885860", null ],
-    [ "PrepareSpellScript", "d7/d2c/a19604.html#ab5cbda65f367577e3204a908b41b1145", null ],
-    [ "Register", "d7/d2c/a19604.html#afa2f40a5d34a8c13c82a773e959838ea", null ]
+    [ "go_celestial_planetarium_accessAI", "d7/d2c/a19604.html#aca4d0e9babd6eefe84edc281f8a44cf2", null ],
+    [ "GossipHello", "d7/d2c/a19604.html#af159df46fecf2cd74ac4ec9fa006dc03", null ],
+    [ "UpdateAI", "d7/d2c/a19604.html#a9b2bfb74a12e3258476387fc78cde574", null ],
+    [ "_locked", "d7/d2c/a19604.html#a37f83dbbb05e461d613a4c38001f785c", null ],
+    [ "events", "d7/d2c/a19604.html#aa03b8d270054f2b71c1d625abe322fb8", null ]
 ];

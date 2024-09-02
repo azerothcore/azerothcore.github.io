@@ -1,6 +1,6 @@
 var a21356 =
 [
-    [ "spell_mark_of_the_faceless_periodic_AuraScript", "d1/d56/a21360.html", "d1/d56/a21360" ],
-    [ "spell_mark_of_the_faceless_periodic", "de/d93/a21356.html#a7fa82c9900cc8771ae8551cca36d740e", null ],
-    [ "GetAuraScript", "de/d93/a21356.html#a2906efd19babd5d965b85653c51f5dad", null ]
+    [ "npc_azure_invaderAI", "d1/d56/a21360.html", "d1/d56/a21360" ],
+    [ "npc_azure_invader", "de/d93/a21356.html#ab318178a618f2bfdcd5ea3105c240d32", null ],
+    [ "GetAI", "de/d93/a21356.html#a19c000084ea74a401ece81ee0e20b65c", null ]
 ];

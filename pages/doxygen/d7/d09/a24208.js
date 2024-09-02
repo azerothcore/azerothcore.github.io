@@ -1,8 +1,6 @@
 var a24208 =
 [
-    [ "CalcPeriodic", "d7/d09/a24208.html#ad244419a3b1d621f624e9d42d7ae1bcc", null ],
-    [ "OnRemove", "d7/d09/a24208.html#a92237e6836351f7ebbd8463756b0d03f", null ],
-    [ "PrepareAuraScript", "d7/d09/a24208.html#a89c6ead8e6e37ad528701670203b610a", null ],
-    [ "Register", "d7/d09/a24208.html#ae40448cc07e398139c81f49d28134325", null ],
-    [ "Update", "d7/d09/a24208.html#a2dfeb921f3ae971207f8fa570c5c86d7", null ]
+    [ "npc_kservantAI", "d9/d18/a24212.html", "d9/d18/a24212" ],
+    [ "npc_kservant", "d7/d09/a24208.html#af04c8a87516e41f7d35071664034af9d", null ],
+    [ "GetAI", "d7/d09/a24208.html#a3ae7327ec2ead5a2d3ffb043f18ccc09", null ]
 ];

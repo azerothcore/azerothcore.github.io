@@ -1,5 +1,6 @@
 var a21528 =
 [
-    [ "PrepareAuraScript", "d6/d83/a21528.html#a42d20c228c3082cf3a7b80dfebee232d", null ],
-    [ "Register", "d6/d83/a21528.html#a2eac056e9ccad15a9ba231dd635f41d3", null ]
+    [ "npc_warmage_coldarraAI", "d0/d3d/a21532.html", "d0/d3d/a21532" ],
+    [ "npc_warmage_coldarra", "d6/d83/a21528.html#a358f8ab26991798ff076ac764cd7abe2", null ],
+    [ "GetAI", "d6/d83/a21528.html#aa29181e0ad61b44eff685267f3231382", null ]
 ];

@@ -1,9 +1,8 @@
 var a08772 =
 [
-    [ "NearestHostileUnitCheck", "df/ddb/a08772.html#aa1d706a1eb1de6168b568e70008e2d3b", null ],
-    [ "NearestHostileUnitCheck", "df/ddb/a08772.html#a2fe620370289850eb0362823de2072d1", null ],
-    [ "operator()", "df/ddb/a08772.html#a04c85a77d660bbc74279d1062dabc375", null ],
-    [ "i_playerOnly", "df/ddb/a08772.html#a64c5fce466521a6d6d78eeda0708d65e", null ],
-    [ "m_range", "df/ddb/a08772.html#a801d56a180e196943cfc2cefb6c5dda5", null ],
-    [ "me", "df/ddb/a08772.html#a67cef25e6f725ea42f0377df34d48495", null ]
+    [ "DungeonEncounter", "df/ddb/a08772.html#a3e48a996a47ddcc1b18aaac339457f3d", null ],
+    [ "creditEntry", "df/ddb/a08772.html#a700a0792973678339f33ab85e7396918", null ],
+    [ "creditType", "df/ddb/a08772.html#a66a077e193f099bb7aef363dc75672d6", null ],
+    [ "dbcEntry", "df/ddb/a08772.html#a262bdd0ba443739456fc14bcad83ecda", null ],
+    [ "lastEncounterDungeon", "df/ddb/a08772.html#a67e29b891887e339dbb40515d082e781", null ]
 ];

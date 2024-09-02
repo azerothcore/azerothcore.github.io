@@ -1,5 +1,6 @@
 var a22984 =
 [
-    [ "npc_khunok_the_behemothAI", "dd/df7/a22984.html#a435ac0418fe4bba1d2877ce6bea6451c", null ],
-    [ "MoveInLineOfSight", "dd/df7/a22984.html#a5d54954a159da764aa7b83579e03688c", null ]
+    [ "HandleEffectRemove", "dd/df7/a22984.html#a99f96034b5976615c38e13e5e55c61b6", null ],
+    [ "PrepareAuraScript", "dd/df7/a22984.html#a0515a72abd37df13606876021659b995", null ],
+    [ "Register", "dd/df7/a22984.html#ad7c8338ae3f3e6680405652c3e5f7f06", null ]
 ];

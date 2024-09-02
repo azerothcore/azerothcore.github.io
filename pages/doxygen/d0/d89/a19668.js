@@ -1,5 +1,6 @@
 var a19668 =
 [
-    [ "at_icc_start_blood_quickening", "d0/d89/a19668.html#a544b0591b19a62e5c8a6efcfffd98326", null ],
-    [ "OnTrigger", "d0/d89/a19668.html#a814670e127b1eace6068a553b23d00f7", null ]
+    [ "npc_assembly_lightningAI", "df/df6/a19672.html", "df/df6/a19672" ],
+    [ "npc_assembly_lightning", "d0/d89/a19668.html#ac9776fc8cb3dd3f8bfecb1d367afefd2", null ],
+    [ "GetAI", "d0/d89/a19668.html#a4054ea8bb68b2742847b359e19b477df", null ]
 ];

@@ -1,6 +1,8 @@
 var a24700 =
 [
-    [ "HandleEffectApply", "df/d98/a24700.html#ad6375bca53032aa05d74c7b8d49ca3d8", null ],
-    [ "PrepareAuraScript", "df/d98/a24700.html#acf68e683c1bbb28b15067885427a8e64", null ],
-    [ "Register", "df/d98/a24700.html#aa2281bfb63342ed7204a941542490ca9", null ]
+    [ "AfterApply", "df/d98/a24700.html#a4d2941ebb326d603ac08f428f811c29b", null ],
+    [ "AfterRemove", "df/d98/a24700.html#ac1e50413041edbecd5cc4189a1121cb5", null ],
+    [ "PrepareAuraScript", "df/d98/a24700.html#afa99d3e45e4a54c41b59ec317ffdd9b9", null ],
+    [ "Register", "df/d98/a24700.html#a78e30a950b9fc08dff5072028816b8b4", null ],
+    [ "Validate", "df/d98/a24700.html#ac3502abb9d6ef213ffd2413eba7916b2", null ]
 ];

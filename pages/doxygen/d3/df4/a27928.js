@@ -1,6 +1,8 @@
 var a27928 =
 [
-    [ "HandleEffect", "d3/df4/a27928.html#a41b46d8918b59a1617f383b3eedfe343", null ],
-    [ "PrepareSpellScript", "d3/df4/a27928.html#acfc69e6323292e6c64fbe8d2e10efcdc", null ],
-    [ "Register", "d3/df4/a27928.html#a78f1476ed28eb1e80356dbf3d32918f5", null ]
+    [ "ID", "d3/df4/a27928.html#a36958c346c8554d9ab1cfb73ac583818", null ],
+    [ "Model", "d3/df4/a27928.html#a8877a066a16c8c246a2d5a24a3661e56", null ],
+    [ "Origin", "d3/df4/a27928.html#a684c69add50ee545ee606ae456a93336", null ],
+    [ "OriginFacing", "d3/df4/a27928.html#a460723250353c7720cd87677991283cf", null ],
+    [ "SoundID", "d3/df4/a27928.html#aa56be05c7ab4015738e049d75ff365c6", null ]
 ];

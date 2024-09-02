@@ -1,8 +1,7 @@
 var a27164 =
 [
-    [ "CheckRequirement", "d9/d4c/a27164.html#ad967ae7e2affa312fa4adbca6e86dd7c", null ],
-    [ "HandleScript", "d9/d4c/a27164.html#aa89b60b2d757ef1ceacebae38aa5d9d9", null ],
-    [ "Load", "d9/d4c/a27164.html#a9dfb5501ad6324a25966af44f233b5fb", null ],
-    [ "PrepareSpellScript", "d9/d4c/a27164.html#ace75db8a6e5628df6e2edba91cd2852f", null ],
-    [ "Register", "d9/d4c/a27164.html#a89d053e0ee793017c74188aac32d99d5", null ]
+    [ "go_pirate_day_musicAI", "d9/d4c/a27164.html#a1abe263949b7a07e5143779efcddc7eb", null ],
+    [ "UpdateAI", "d9/d4c/a27164.html#a5373bb46c866df31a3827ceb8ee4ef9b", null ],
+    [ "_events", "d9/d4c/a27164.html#a233ae55a05876c665455b106ef50d57e", null ],
+    [ "rnd", "d9/d4c/a27164.html#ad0ced4b4f569b91b5dde4ad93a298568", null ]
 ];

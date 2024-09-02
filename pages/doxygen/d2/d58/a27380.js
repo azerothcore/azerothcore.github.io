@@ -1,7 +1,19 @@
 var a27380 =
 [
-    [ "HandleDamage", "d2/d58/a27380.html#a9c9bbe49388cf5d04650572fdf789e5e", null ],
-    [ "PrepareSpellScript", "d2/d58/a27380.html#ac89a628f1aba54aa2ade876a4f7911b8", null ],
-    [ "Register", "d2/d58/a27380.html#a627bffccdd78c00f0f5a4241f36aeec8", null ],
-    [ "Validate", "d2/d58/a27380.html#aed63b40f8e2cc6fd32dd536a2d56c7c3", null ]
+    [ "npc_simoneAI", "d2/d58/a27380.html#ab33ec5a76f35bfd088a3d316df5c091c", null ],
+    [ "CorpseRemoved", "d2/d58/a27380.html#a0bc792b39b9d17a71c86756d2c7b9af0", null ],
+    [ "HandlePetRespawn", "d2/d58/a27380.html#a0d07b3f85a99ce3c0a1d4c482547113f", null ],
+    [ "JustDied", "d2/d58/a27380.html#a1c275b32a6d4730657e26e5a9c305eb6", null ],
+    [ "JustEngagedWith", "d2/d58/a27380.html#a17cad19f460d6cbfe2258ada48de46cd", null ],
+    [ "JustRespawned", "d2/d58/a27380.html#af456d04fec4a22fa6662ab5a0ccb902b", null ],
+    [ "Precious", "d2/d58/a27380.html#ad40c5f293558ca5a00614810a89d86c9", null ],
+    [ "PreciousAI", "d2/d58/a27380.html#acbdf0e5404402edf28fecf8657303aba", null ],
+    [ "Reset", "d2/d58/a27380.html#a1a62a843922448390151ed14e0ca2148", null ],
+    [ "RespawnPet", "d2/d58/a27380.html#af6d0cad159d88862e915c9f9337a49e3", null ],
+    [ "ScheduleEncounterStart", "d2/d58/a27380.html#ab879f0b452e511212be4df530b11d461", null ],
+    [ "SetPreciousGUID", "d2/d58/a27380.html#a1b735e7c99ba743c74c10911ec08f12b", null ],
+    [ "SpellHit", "d2/d58/a27380.html#ad50d1248c8a608c52d18ddb9d28168d9", null ],
+    [ "UpdateAI", "d2/d58/a27380.html#ae20237221e1fb3699cfe723c48d5bbf7", null ],
+    [ "events", "d2/d58/a27380.html#a1118fe0b8375db5327a9651a13832523", null ],
+    [ "preciousGUID", "d2/d58/a27380.html#a698a3015b5ad25dfd9ec07dfbb991ea8", null ]
 ];

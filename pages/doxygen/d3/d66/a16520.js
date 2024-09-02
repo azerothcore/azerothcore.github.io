@@ -1,6 +1,6 @@
 var a16520 =
 [
-    [ "HideNpcEvent", "d3/d66/a16520.html#ab454295aab0f5d4586740140232e96eb", null ],
-    [ "Execute", "d3/d66/a16520.html#aecfbbbcac3fd98675913a6381c891a59", null ],
-    [ "_owner", "d3/d66/a16520.html#ac5481c94e180900f0a455dc1f1f9851c", null ]
+    [ "boss_novosAI", "de/d16/a16524.html", "de/d16/a16524" ],
+    [ "boss_novos", "d3/d66/a16520.html#a898a5ee1de69df17fde66c84dd065ac1", null ],
+    [ "GetAI", "d3/d66/a16520.html#aaf28e2a23a8139197dccc92ae29a8be4", null ]
 ];

@@ -1,6 +1,6 @@
 var a10156 =
 [
-    [ "GuildSetGuildMaster", "df/d4c/a10156.html#ae6ca07252de719cc506042c8d3e8285e", null ],
-    [ "Read", "df/d4c/a10156.html#a94f16e55a840c7cba991a119af5d8263", null ],
-    [ "NewMasterName", "df/d4c/a10156.html#a02f37610492c75373266bb93000adcbf", null ]
+    [ "BuyBankSlot", "df/d4c/a10156.html#a0bc11087e9359c6ac762f915b11287d8", null ],
+    [ "Read", "df/d4c/a10156.html#ac4e35f97fe3ff2b2c18a40b8b2eb59fb", null ],
+    [ "Banker", "df/d4c/a10156.html#aa9ae5777ab337f37b1c372d39a8474bf", null ]
 ];

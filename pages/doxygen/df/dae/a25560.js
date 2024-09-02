@@ -1,6 +1,7 @@
 var a25560 =
 [
-    [ "boss_warchief_kargath_bladefistAI", "dd/d5c/a25564.html", "dd/d5c/a25564" ],
-    [ "boss_warchief_kargath_bladefist", "df/dae/a25560.html#ab32d6b38fae734bc53d9e542c25e024e", null ],
-    [ "GetAI", "df/dae/a25560.html#acb5cd31ba7d5ca763e05c5279d836c5d", null ]
+    [ "OnRemove", "df/dae/a25560.html#a1f4f852ef6d5b2313df20af540eee7da", null ],
+    [ "PrepareAuraScript", "df/dae/a25560.html#a8abf8084dd8bb1ac74b3884380cda809", null ],
+    [ "Register", "df/dae/a25560.html#a35a8adc4944fc2333488e72498f6d252", null ],
+    [ "Validate", "df/dae/a25560.html#aa312f28f03cc0929eb9ea8ba526ebb54", null ]
 ];

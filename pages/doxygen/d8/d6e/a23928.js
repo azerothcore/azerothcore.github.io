@@ -1,6 +1,5 @@
 var a23928 =
 [
-    [ "go_wg_vehicle_teleporterAI", "dc/d50/a23932.html", "dc/d50/a23932" ],
-    [ "go_wg_vehicle_teleporter", "d8/d6e/a23928.html#a074ead770a3da6e9ffa4180a3525f4c8", null ],
-    [ "GetAI", "d8/d6e/a23928.html#a113aaf42c095000c1a016bfe60df11e7", null ]
+    [ "go_simon_cluster", "d8/d6e/a23928.html#adac53a8451abd6ace227a66afc7e61e8", null ],
+    [ "OnGossipHello", "d8/d6e/a23928.html#a9fd9799604de44c91803511c45b67786", null ]
 ];

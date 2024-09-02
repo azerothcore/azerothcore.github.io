@@ -1,10 +1,11 @@
 var a18104 =
 [
-    [ "npc_gunship_gunnerAI", "d6/df9/a18104.html#a3001e77b4a20feb0eee5a9605f13ba81", null ],
-    [ "AttackStart", "d6/df9/a18104.html#ac21b90c1892c15882794384517ef9fd2", null ],
-    [ "CanAIAttack", "d6/df9/a18104.html#aef351305ef34fa316809697125a3bc9a", null ],
-    [ "MovementInform", "d6/df9/a18104.html#a94d81b882dd59dd00b0952b45d61a7cb", null ],
-    [ "UpdateAI", "d6/df9/a18104.html#a8fbb601c3accdf3b0494d317bc0d5733", null ],
-    [ "anyValid", "d6/df9/a18104.html#a00c7dc23618c60826241133a0067c1c4", null ],
-    [ "checkTimer", "d6/df9/a18104.html#af80cee9c2c86fa8b4c643d262042ba3c", null ]
+    [ "AddMissingStack", "d6/df9/a18104.html#ae23dc772e58db8648a7ddbf5255bd917", null ],
+    [ "CheckAura", "d6/df9/a18104.html#a9d9e5620f61c92d35b08bec100b5a12a", null ],
+    [ "FilterTargets", "d6/df9/a18104.html#ab6c86c3680823329d5f3aad985aa316a", null ],
+    [ "Load", "d6/df9/a18104.html#a823e600ee1a350ab60ea69043e4fbef9", null ],
+    [ "PrepareSpellScript", "d6/df9/a18104.html#aff3b52df65504d7d4928b1ff69c1fa4b", null ],
+    [ "Register", "d6/df9/a18104.html#af0e6f1fc6687de1abcc1689116150088", null ],
+    [ "_hadInitialAura", "d6/df9/a18104.html#a1b553c0ad5fc4e86f02829b5284db709", null ],
+    [ "_hadJumpingAura", "d6/df9/a18104.html#ade3c2e5f78cbfbc34a3cbc8259e241db", null ]
 ];

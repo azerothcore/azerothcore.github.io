@@ -1,6 +1,5 @@
 var a02114 =
 [
-    [ "instance_razorfen_downs", "da/d35/a14739.html", "da/d35/a14739" ],
-    [ "instance_razorfen_downs::instance_razorfen_downs_InstanceMapScript", "d4/def/a14743.html", "d4/def/a14743" ],
-    [ "AddSC_instance_razorfen_downs", "da/d4a/a02114.html#a0db4d34b8ea594cf2808b93c362a49c4", null ]
+    [ "account_commandscript", "dd/d0a/a11244.html", "dd/d0a/a11244" ],
+    [ "AddSC_account_commandscript", "da/d4a/a02114.html#a8c18eb17be05fd3da5e9cfa3480c52c4", null ]
 ];

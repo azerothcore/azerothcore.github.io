@@ -1,6 +1,7 @@
 var a20252 =
 [
-    [ "npc_power_sparkAI", "d7/df8/a20256.html", "d7/df8/a20256" ],
-    [ "npc_power_spark", "d7/d58/a20252.html#a9efd2810feb5f90f9f12f51ec7282410", null ],
-    [ "GetAI", "d7/d58/a20252.html#a573198b86697d222c693581bf430453f", null ]
+    [ "StoneGripTargetSelector", "d7/d58/a20252.html#a74fc772e2bc0694dee05fe82de4463e2", null ],
+    [ "operator()", "d7/d58/a20252.html#ae40653def55e656f2347029a97605395", null ],
+    [ "_me", "d7/d58/a20252.html#ae5781d6b553491a1e3e8bfde2b965c3a", null ],
+    [ "_victim", "d7/d58/a20252.html#a09c3c6f832c20776f11b72a468a4b0bb", null ]
 ];

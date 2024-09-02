@@ -1,6 +1,9 @@
 var a21624 =
 [
-    [ "boss_kologarn_armsAI", "d3/df3/a21628.html", "d3/df3/a21628" ],
-    [ "boss_kologarn_arms", "df/dc7/a21624.html#ad540d28bb4b8a2be0ca0769f114c3eda", null ],
-    [ "GetAI", "df/dc7/a21624.html#a9ffe4db97d937e01c5ab2008a011f67d", null ]
+    [ "npc_archmage_landalockAI", "df/dc7/a21624.html#a8e2b48a9cf243b0d6f11286cf1e301c8", null ],
+    [ "GetImageEntry", "df/dc7/a21624.html#ae09841969253c0baf72cc235b6fa058e", null ],
+    [ "JustSummoned", "df/dc7/a21624.html#af9016bfeca3db7611fdafe4337e5f64a", null ],
+    [ "UpdateAI", "df/dc7/a21624.html#abad2f45c0a5c43cc7aa7867a0291133d", null ],
+    [ "_summonGUID", "df/dc7/a21624.html#a8b59c414dfd46209dcc3d00531e2b98b", null ],
+    [ "_switchImageTimer", "df/dc7/a21624.html#a5e2fb6556bbb5cf22b77a72e9ccbc548", null ]
 ];

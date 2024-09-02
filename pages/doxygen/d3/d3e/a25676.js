@@ -1,7 +1,8 @@
 var a25676 =
 [
-    [ "boss_warp_splinter", "d3/d3e/a25676.html#a1d0e8720baaadd1f6f4f6026597c9f63", null ],
-    [ "JustDied", "d3/d3e/a25676.html#a7e7850cf545e57f9fcd8d1aff42f8eb3", null ],
-    [ "JustEngagedWith", "d3/d3e/a25676.html#afc05b2f366e518d5e9ea3fbbfcba05cc", null ],
-    [ "KilledUnit", "d3/d3e/a25676.html#a0e974eb2bfae50383040fe9c7ccf74c1", null ]
+    [ "OnRemove", "d3/d3e/a25676.html#a645e869079e711a87f1a957b42a35e98", null ],
+    [ "OnStackChange", "d3/d3e/a25676.html#adea8a4a7140e2f9fd4a44ef2a7b4d85b", null ],
+    [ "PrepareAuraScript", "d3/d3e/a25676.html#a5f9e9d07879705917e1cd261808f0a8f", null ],
+    [ "Register", "d3/d3e/a25676.html#ac86068a892255e38244c487a7456cd9f", null ],
+    [ "Validate", "d3/d3e/a25676.html#a74cb62725d939000a1c4ab32b4f4335f", null ]
 ];

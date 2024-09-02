@@ -1,6 +1,7 @@
 var a13512 =
 [
-    [ "npc_parqual_fintallas", "db/d83/a13512.html#a9edaf1f7cf4e81ce24c54faa4aed6cf6", null ],
-    [ "OnGossipHello", "db/d83/a13512.html#af7c1f119d91aa63ee96765f2092b0a6c", null ],
-    [ "OnGossipSelect", "db/d83/a13512.html#a39276ef82ec5214a1727ebd60235a506", null ]
+    [ "npc_daphne_stilwellAI", "d2/d7b/a13516.html", "d2/d7b/a13516" ],
+    [ "npc_daphne_stilwell", "db/d83/a13512.html#ad844c5f0409936d7068ee55271506041", null ],
+    [ "GetAI", "db/d83/a13512.html#af1872100f3eeb14e894277cfc8e1a74b", null ],
+    [ "OnQuestAccept", "db/d83/a13512.html#ad7b293efc802506a825f202e34cb0f4d", null ]
 ];

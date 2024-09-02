@@ -1,6 +1,8 @@
 var a25756 =
 [
-    [ "spell_astromancer_wrath_of_the_astromancer_AuraScript", "de/dfa/a25760.html", "de/dfa/a25760" ],
-    [ "spell_astromancer_wrath_of_the_astromancer", "dc/d11/a25756.html#a14ff773560fcc3cd56d8446983e1f078", null ],
-    [ "GetAuraScript", "dc/d11/a25756.html#ad889955b8597a64338f1f95e770f4c9f", null ]
+    [ "HandleDummy", "dc/d11/a25756.html#ae73e0d900e5b33f47bf2ba45d8ab26ce", null ],
+    [ "Load", "dc/d11/a25756.html#a5c0e5de94faca0c2841153f7a099d2eb", null ],
+    [ "PrepareSpellScript", "dc/d11/a25756.html#af89de259afbab436326a67b9eb7833ad", null ],
+    [ "Register", "dc/d11/a25756.html#a78ffb20ccc10c3c632934af862273716", null ],
+    [ "Validate", "dc/d11/a25756.html#ace6bdf4755f1d1c95011bb782cb2e59e", null ]
 ];

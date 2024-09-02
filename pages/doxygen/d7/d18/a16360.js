@@ -1,6 +1,9 @@
 var a16360 =
 [
-    [ "boss_saviana_ragefireAI", "df/d20/a16364.html", "df/d20/a16364" ],
-    [ "boss_saviana_ragefire", "d7/d18/a16360.html#a5964bbc510355a8b1fd08bd5f9f5f8c0", null ],
-    [ "GetAI", "d7/d18/a16360.html#a0a0073d8710af066d9711636f4d5b01e", null ]
+    [ "npc_fel_infernalAI", "d7/d18/a16360.html#a7f34b34facdfeea3fc3507ad3cf84dda", null ],
+    [ "EnterEvadeMode", "d7/d18/a16360.html#aedec8729b9be931a74fe00d1aa649848", null ],
+    [ "JustDied", "d7/d18/a16360.html#a599786069f98231eeb7f9ca809f8e671", null ],
+    [ "Reset", "d7/d18/a16360.html#a09f408c9250467228b91ef9f6c9544f4", null ],
+    [ "UpdateAI", "d7/d18/a16360.html#a45075fdaba6d7c04cb526420deb8a0ac", null ],
+    [ "events", "d7/d18/a16360.html#acf955037c246f7b5f12cc5338b300b63", null ]
 ];

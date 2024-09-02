@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Events/GameEventMgr.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Utilities/Containers.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,118 +106,77 @@ $(document).ready(function(){initNavTree('d0/ddf/a04460.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">GameEventMgr.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">Containers.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">GameEventMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DisableMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameObjectAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GossipDef.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">PoolMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">UnitAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldStatePackets.h</a>&quot;</code><br />
-<code>#include &lt;time.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Random.h</a>&quot;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;iterator&gt;</code><br />
+<code>#include &lt;stdexcept&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d98/a08547.html">GameEventAIHookWorker</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dcb/a05336.html">Acore::CheckedBufferOutputIterator&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d5/d43/a04668"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html">Acore</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d2/ddb/a04687"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/ddb/a04687.html">Acore::Containers</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a429db26781d2673aa2f031fc1327ffaf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/ddf/a04460.html#a429db26781d2673aa2f031fc1327ffaf">IsHolidayActive</a> (<a class="el" href="../../d3/d56/a04553.html#ad279224fea61f9754572051fc5ff1fab">HolidayIds</a> id)</td></tr>
-<tr class="separator:a429db26781d2673aa2f031fc1327ffaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaddb0f1fada20faf4702603241206f91"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/ddf/a04460.html#aaddb0f1fada20faf4702603241206f91">IsEventActive</a> (<a class="el" href="../../d9/d4a/a00479.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> event_id)</td></tr>
-<tr class="separator:aaddb0f1fada20faf4702603241206f91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa676a34e943f3ea366194be6f31da865"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aa676a34e943f3ea366194be6f31da865"><td class="memTemplItemLeft" align="right" valign="top">constexpr T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#aa676a34e943f3ea366194be6f31da865">Acore::AddressOrSelf</a> (T *ptr)</td></tr>
+<tr class="separator:aa676a34e943f3ea366194be6f31da865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31c35cb4c5901c4bdb56be356d5ab9b3"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a31c35cb4c5901c4bdb56be356d5ab9b3"><td class="memTemplItemLeft" align="right" valign="top">constexpr T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html#a31c35cb4c5901c4bdb56be356d5ab9b3">Acore::AddressOrSelf</a> (T &amp;not_ptr)</td></tr>
+<tr class="separator:a31c35cb4c5901c4bdb56be356d5ab9b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8b2c621f5a22f8ae253a1c9733794b9"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:ad8b2c621f5a22f8ae253a1c9733794b9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/ddb/a04687.html#ad8b2c621f5a22f8ae253a1c9733794b9">Acore::Containers::RandomResize</a> (C &amp;container, std::size_t requestedSize)</td></tr>
+<tr class="separator:ad8b2c621f5a22f8ae253a1c9733794b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a356dc36492769fc1473e5f5214bd6a11"><td class="memTemplParams" colspan="2">template&lt;class C , class Predicate &gt; </td></tr>
+<tr class="memitem:a356dc36492769fc1473e5f5214bd6a11"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/ddb/a04687.html#a356dc36492769fc1473e5f5214bd6a11">Acore::Containers::RandomResize</a> (C &amp;container, Predicate &amp;&amp;predicate, std::size_t requestedSize)</td></tr>
+<tr class="separator:a356dc36492769fc1473e5f5214bd6a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ca673d18562735d4ed20a11519b3d46"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a8ca673d18562735d4ed20a11519b3d46"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/ddb/a04687.html#a8ca673d18562735d4ed20a11519b3d46">Acore::Containers::SelectRandomContainerElement</a> (C const &amp;container) -&gt; typename std::add_const&lt; decltype(*std::begin(container))&gt;::type &amp;</td></tr>
+<tr class="separator:a8ca673d18562735d4ed20a11519b3d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51f93a1269545c4116969ba141a79738"><td class="memTemplParams" colspan="2">template&lt;class C , class Predicate &gt; </td></tr>
+<tr class="memitem:a51f93a1269545c4116969ba141a79738"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/ddb/a04687.html#a51f93a1269545c4116969ba141a79738">Acore::Containers::SelectRandomContainerElementIf</a> (C const &amp;container, Predicate &amp;&amp;predicate) -&gt; typename std::add_const&lt; decltype(*std::begin(container))&gt;::type &amp;</td></tr>
+<tr class="separator:a51f93a1269545c4116969ba141a79738"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a220cb6c43559036273f478f15d047eb9"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a220cb6c43559036273f478f15d047eb9"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/ddb/a04687.html#a220cb6c43559036273f478f15d047eb9">Acore::Containers::SelectRandomWeightedContainerElement</a> (C const &amp;container, std::vector&lt; double &gt; weights) -&gt; decltype(std::begin(container))</td></tr>
+<tr class="separator:a220cb6c43559036273f478f15d047eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e1de71c76e525a6fdf4c76b0d09c94b"><td class="memTemplParams" colspan="2">template&lt;class C , class Fn &gt; </td></tr>
+<tr class="memitem:a4e1de71c76e525a6fdf4c76b0d09c94b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/ddb/a04687.html#a4e1de71c76e525a6fdf4c76b0d09c94b">Acore::Containers::SelectRandomWeightedContainerElement</a> (C const &amp;container, Fn weightExtractor) -&gt; decltype(std::begin(container))</td></tr>
+<tr class="separator:a4e1de71c76e525a6fdf4c76b0d09c94b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a288324cfca487d8ecc2eab8a6014c513"><td class="memTemplParams" colspan="2">template&lt;class M &gt; </td></tr>
+<tr class="memitem:a288324cfca487d8ecc2eab8a6014c513"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/ddb/a04687.html#a288324cfca487d8ecc2eab8a6014c513">Acore::Containers::MapGetValuePtr</a> (M &amp;map, typename M::key_type const &amp;key) -&gt; decltype(AddressOrSelf(map.find(key) -&gt;second))</td></tr>
+<tr class="separator:a288324cfca487d8ecc2eab8a6014c513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4585a27b1f592547062d7bc039cff3b4"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a4585a27b1f592547062d7bc039cff3b4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/ddb/a04687.html#a4585a27b1f592547062d7bc039cff3b4">Acore::Containers::RandomShuffle</a> (C &amp;container)</td></tr>
+<tr class="separator:a4585a27b1f592547062d7bc039cff3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a965e5e257e71e0d1a8c708fbd00867a7"><td class="memTemplParams" colspan="2">template&lt;class K , class V , template&lt; class, class, class... &gt; class M, class... Rest&gt; </td></tr>
+<tr class="memitem:a965e5e257e71e0d1a8c708fbd00867a7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/ddb/a04687.html#a965e5e257e71e0d1a8c708fbd00867a7">Acore::Containers::MultimapErasePair</a> (M&lt; K, V, Rest... &gt; &amp;multimap, K const &amp;key, V const &amp;value)</td></tr>
+<tr class="separator:a965e5e257e71e0d1a8c708fbd00867a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7821713bb3723db62da8a4d0e3711407"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/ddb/a04687.html#a7821713bb3723db62da8a4d0e3711407">Acore::Containers::EraseIf</a> (<a class="el" href="../../d7/d21/a00584.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &amp;c, Predicate p)</td></tr>
+<tr class="separator:a7821713bb3723db62da8a4d0e3711407"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="aaddb0f1fada20faf4702603241206f91" name="aaddb0f1fada20faf4702603241206f91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaddb0f1fada20faf4702603241206f91">&#9670;&#160;</a></span>IsEventActive()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool IsEventActive </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d4a/a00479.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
-          <td class="paramname"><em>event_id</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1926</span>{</div>
-<div class="line"><span class="lineno"> 1927</span>    <a class="code hl_typedef" href="../../d2/d17/a08571.html#a9d1e67f8edbe01fedd10c5fb0aeac2cf">GameEventMgr::ActiveEvents</a> <span class="keyword">const</span>&amp; ae = <a class="code hl_define" href="../../d5/de3/a04457.html#a3c1c916d94272dfe845b9cc5e8fc292a">sGameEventMgr</a>-&gt;GetActiveEventList();</div>
-<div class="line"><span class="lineno"> 1928</span>    <span class="keywordflow">return</span> ae.find(event_id) != ae.end();</div>
-<div class="line"><span class="lineno"> 1929</span>}</div>
-<div class="ttc" id="aa04457_html_a3c1c916d94272dfe845b9cc5e8fc292a"><div class="ttname"><a href="../../d5/de3/a04457.html#a3c1c916d94272dfe845b9cc5e8fc292a">sGameEventMgr</a></div><div class="ttdeci">#define sGameEventMgr</div><div class="ttdef"><b>Definition:</b> GameEventMgr.h:186</div></div>
-<div class="ttc" id="aa08571_html_a9d1e67f8edbe01fedd10c5fb0aeac2cf"><div class="ttname"><a href="../../d2/d17/a08571.html#a9d1e67f8edbe01fedd10c5fb0aeac2cf">GameEventMgr::ActiveEvents</a></div><div class="ttdeci">std::set&lt; uint16 &gt; ActiveEvents</div><div class="ttdef"><b>Definition:</b> GameEventMgr.h:106</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00186">sGameEventMgr</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l15730">Player::_LoadBrewOfTheMonth()</a>, <a class="el" href="../../#l00784">Battleground::EndBattleground()</a>, <a class="el" href="../../#l00036">npc_innkeeper::OnGossipHello()</a>, and <a class="el" href="../../#l00063">npc_innkeeper::OnGossipSelect()</a>.</p>
-
-</div>
-</div>
-<a id="a429db26781d2673aa2f031fc1327ffaf" name="a429db26781d2673aa2f031fc1327ffaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a429db26781d2673aa2f031fc1327ffaf">&#9670;&#160;</a></span>IsHolidayActive()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool IsHolidayActive </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/d56/a04553.html#ad279224fea61f9754572051fc5ff1fab">HolidayIds</a>&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1911</span>{</div>
-<div class="line"><span class="lineno"> 1912</span>    <span class="keywordflow">if</span> (<span class="keywordtype">id</span> == <a class="code hl_enumvalue" href="../../d3/d56/a04553.html#ad279224fea61f9754572051fc5ff1faba28168544ac4271e71835f87f564500f7">HOLIDAY_NONE</a>)</div>
-<div class="line"><span class="lineno"> 1913</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1914</span> </div>
-<div class="line"><span class="lineno"> 1915</span>    <a class="code hl_typedef" href="../../d2/d17/a08571.html#a2d313485105c8ef04b27833f312a2601">GameEventMgr::GameEventDataMap</a> <span class="keyword">const</span>&amp; <a class="code hl_enumeration" href="../../d9/d7d/a01880.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a> = <a class="code hl_define" href="../../d5/de3/a04457.html#a3c1c916d94272dfe845b9cc5e8fc292a">sGameEventMgr</a>-&gt;GetEventMap();</div>
-<div class="line"><span class="lineno"> 1916</span>    <a class="code hl_typedef" href="../../d2/d17/a08571.html#a9d1e67f8edbe01fedd10c5fb0aeac2cf">GameEventMgr::ActiveEvents</a> <span class="keyword">const</span>&amp; ae = <a class="code hl_define" href="../../d5/de3/a04457.html#a3c1c916d94272dfe845b9cc5e8fc292a">sGameEventMgr</a>-&gt;GetActiveEventList();</div>
-<div class="line"><span class="lineno"> 1917</span> </div>
-<div class="line"><span class="lineno"> 1918</span>    <span class="keywordflow">for</span> (GameEventMgr::ActiveEvents::const_iterator itr = ae.begin(); itr != ae.end(); ++itr)</div>
-<div class="line"><span class="lineno"> 1919</span>        <span class="keywordflow">if</span> (<a class="code hl_enumeration" href="../../d9/d7d/a01880.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>[*itr].holiday_id == <span class="keywordtype">id</span>)</div>
-<div class="line"><span class="lineno"> 1920</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno"> 1921</span> </div>
-<div class="line"><span class="lineno"> 1922</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1923</span>}</div>
-<div class="ttc" id="aa01880_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../d9/d7d/a01880.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
-<div class="ttc" id="aa04553_html_ad279224fea61f9754572051fc5ff1faba28168544ac4271e71835f87f564500f7"><div class="ttname"><a href="../../d3/d56/a04553.html#ad279224fea61f9754572051fc5ff1faba28168544ac4271e71835f87f564500f7">HOLIDAY_NONE</a></div><div class="ttdeci">@ HOLIDAY_NONE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:2742</div></div>
-<div class="ttc" id="aa08571_html_a2d313485105c8ef04b27833f312a2601"><div class="ttname"><a href="../../d2/d17/a08571.html#a2d313485105c8ef04b27833f312a2601">GameEventMgr::GameEventDataMap</a></div><div class="ttdeci">std::vector&lt; GameEventData &gt; GameEventDataMap</div><div class="ttdef"><b>Definition:</b> GameEventMgr.h:107</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l02742">HOLIDAY_NONE</a>, and <a class="el" href="../../#l00186">sGameEventMgr</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02290">Player::CanUseItem()</a>, <a class="el" href="../../#l00896">BattlegroundMgr::IsBGWeekend()</a>, <a class="el" href="../../#l02749">lfg::LFGMgr::IsSeasonActive()</a>, <a class="el" href="../../#l00300">AchievementCriteriaData::Meets()</a>, <a class="el" href="../../#l00183">npc_midsummer_bonfire::npc_midsummer_bonfire()</a>, <a class="el" href="../../#l00544">spell_bonfires_blessing::OnApply()</a>, <a class="el" href="../../#l00160">MidsummerPlayerScript::OnUpdateZone()</a>, <a class="el" href="../../#l01205">BattlegroundAV::SetupBattleground()</a>, <a class="el" href="../../#l00583">go_brewfest_music::go_brewfest_musicAI::UpdateAI()</a>, <a class="el" href="../../#l00730">go_pirate_day_music::go_pirate_day_musicAI::UpdateAI()</a>, <a class="el" href="../../#l00785">go_darkmoon_faire_music::go_darkmoon_faire_musicAI::UpdateAI()</a>, and <a class="el" href="../../#l00840">go_midsummer_music::go_midsummer_musicAI::UpdateAI()</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_be7ddcf5a4570b7daa864eaef60ffbc7.html">Events</a></li><li class="navelem"><a class="el" href="../../d0/ddf/a04460.html">GameEventMgr.cpp</a></li>
-    <li class="footer">Generated on Tue Aug 27 2024 09:59:27 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_5b60c41b3dc3977dce15646b3e6a9085.html">Utilities</a></li><li class="navelem"><a class="el" href="../../d0/ddf/a04460.html">Containers.h</a></li>
+    <li class="footer">Generated on Mon Sep 2 2024 20:38:51 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

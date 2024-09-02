@@ -1,6 +1,5 @@
 var a14368 =
 [
-    [ "HandleEffectApply", "de/d21/a14368.html#a404f2134734e1d21201033b3f26e611e", null ],
-    [ "PrepareAuraScript", "de/d21/a14368.html#a78249009c7a1bacf058b423e317c49af", null ],
-    [ "Register", "de/d21/a14368.html#ad239472c15ca0c73b053d112f538ecff", null ]
+    [ "achievement_pb_terokkar_turkey_time", "de/d21/a14368.html#a68e536379b04e060f44819c9831766c2", null ],
+    [ "OnCheck", "de/d21/a14368.html#a8e6b82b95974ec27fd578481a1a23ae0", null ]
 ];

@@ -1,6 +1,7 @@
 var a21932 =
 [
-    [ "boss_thorim_pillarAI", "d9/d57/a21936.html", "d9/d57/a21936" ],
-    [ "boss_thorim_pillar", "da/d4a/a21932.html#a7a2cbafc1d359d7b33bb735342cdfe2d", null ],
-    [ "GetAI", "da/d4a/a21932.html#af95d5e819292af9b54a022674b74af70", null ]
+    [ "HandleScript", "da/d4a/a21932.html#a7fec959237546201ea94d5f87068e1c5", null ],
+    [ "PrepareSpellScript", "da/d4a/a21932.html#ae0c3eafc8b227078a2dcaccf1c0a278b", null ],
+    [ "Register", "da/d4a/a21932.html#a0aab07a4950f60a290491aa13103b332", null ],
+    [ "Validate", "da/d4a/a21932.html#a92d5493a43fca5c54ef89cb19ce00aa2", null ]
 ];

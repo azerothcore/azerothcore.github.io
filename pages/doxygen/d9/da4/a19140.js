@@ -1,6 +1,7 @@
 var a19140 =
 [
-    [ "spell_the_lich_king_cast_back_to_caster_SpellScript", "dc/d53/a19144.html", "dc/d53/a19144" ],
-    [ "spell_the_lich_king_cast_back_to_caster", "d9/da4/a19140.html#a53747fdcc3e36ee955b64093da641ced", null ],
-    [ "GetSpellScript", "d9/da4/a19140.html#a9f4439d27fc3a329bfd78db426fb0702", null ]
+    [ "EoEDrakeEnterVehicleEvent", "d9/da4/a19140.html#afc529efe07da017e529dc6d5ebc6e7dc", null ],
+    [ "Execute", "d9/da4/a19140.html#a368a613ba7861f7903b80e6f7f0dd64f", null ],
+    [ "_owner", "d9/da4/a19140.html#ab48302fdff800afddfeec2c0d756873c", null ],
+    [ "_playerGUID", "d9/da4/a19140.html#add56bff0695453e01f300e0434a39ec8", null ]
 ];

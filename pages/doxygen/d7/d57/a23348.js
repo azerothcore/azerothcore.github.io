@@ -1,6 +1,6 @@
 var a23348 =
 [
-    [ "npc_spiritual_insightAI", "d7/d57/a23348.html#ab173cd8b623fcf8c36406155c91bc4db", null ],
-    [ "GetSpeachId", "d7/d57/a23348.html#ad2dd22651470f47e7a7ba6f687ba54e9", null ],
-    [ "IsSummonedBy", "d7/d57/a23348.html#ab6b39190d1195915ea0b4b191d864da6", null ]
+    [ "HandleScript", "d7/d57/a23348.html#ae45f8a366c1594d3723b83ee6e006957", null ],
+    [ "PrepareSpellScript", "d7/d57/a23348.html#a217953fda43e2c3abdd0d24ddbabc75d", null ],
+    [ "Register", "d7/d57/a23348.html#a6b9e449a64747f0a5715424295b1c30f", null ]
 ];

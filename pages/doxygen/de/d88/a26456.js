@@ -1,7 +1,7 @@
 var a26456 =
 [
-    [ "npc_kayra_longmaneAI", "d6/dc7/a26460.html", "d6/dc7/a26460" ],
-    [ "npc_kayra_longmane", "de/d88/a26456.html#a1ee2ccb38f33b2a90244cb626f521f3b", null ],
-    [ "GetAI", "de/d88/a26456.html#ac39f4bb06243d1d786ae86bbf826ea92", null ],
-    [ "OnQuestAccept", "de/d88/a26456.html#aaba8b65fcfbdd52f98c1665534288e7b", null ]
+    [ "CalcPeriodic", "de/d88/a26456.html#af787d0c8738284e757f808e7d138bdc6", null ],
+    [ "PrepareAuraScript", "de/d88/a26456.html#a383db196133bbecee06fe443fdb1bc24", null ],
+    [ "Register", "de/d88/a26456.html#a1c617b5b26805b0feb468c55337f9d4c", null ],
+    [ "Update", "de/d88/a26456.html#af3f4a7b82e099313d609df7f85f02d00", null ]
 ];

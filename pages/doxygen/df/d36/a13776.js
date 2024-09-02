@@ -1,6 +1,6 @@
 var a13776 =
 [
-    [ "boss_zuljinAI", "de/dd6/a13780.html", "de/dd6/a13780" ],
-    [ "boss_zuljin", "df/d36/a13776.html#ab8897eaa13c21ca4169bc54b5d9270f4", null ],
-    [ "GetAI", "df/d36/a13776.html#a92eb91c259fe70f3eb6876941cb3406a", null ]
+    [ "OnEffect", "df/d36/a13776.html#a50c7e1c65315b5d46749b335e85e15e4", null ],
+    [ "PrepareSpellScript", "df/d36/a13776.html#ab99c723bb71c5fdd844898eaf21cc520", null ],
+    [ "Register", "df/d36/a13776.html#a892faa83f748d36c9c8638a12ac7f2aa", null ]
 ];

@@ -1,14 +1,8 @@
 var a16132 =
 [
-    [ "boss_baltharus_the_warbornAI", "da/d38/a16132.html#adaf6cb6ab81a461b202d40900b4b744c", null ],
-    [ "DoAction", "da/d38/a16132.html#ab22f46e2514c10ce0e8141b3f69f069d", null ],
-    [ "InitializeAI", "da/d38/a16132.html#ac188db2a727e2fb3c411f8616f8a2f41", null ],
-    [ "JustDied", "da/d38/a16132.html#aaeb3e9b1bd25464cec4a1b0adf88afbe", null ],
-    [ "JustEngagedWith", "da/d38/a16132.html#a4b670f4d89f9ed9ffeebf9d9426d79dc", null ],
-    [ "JustReachedHome", "da/d38/a16132.html#ab178ccb3ee8bfa2649f03bfc18f1e424", null ],
-    [ "JustSummoned", "da/d38/a16132.html#a7947c96290ea2cbe1b7ed6b6a8db65fe", null ],
-    [ "KilledUnit", "da/d38/a16132.html#adb1a9e2af865292215c02cc1fb959cd3", null ],
-    [ "Reset", "da/d38/a16132.html#a68e503ddac7be2f4e08d68e64aa2e725", null ],
-    [ "UpdateAI", "da/d38/a16132.html#abe2e7188e33e70d52ab1985f821fa9c5", null ],
-    [ "_introDone", "da/d38/a16132.html#a463209610cbc8e34d9839abeaf6df0e6", null ]
+    [ "npc_announcer_toc5AI", "d2/ddc/a16136.html", "d2/ddc/a16136" ],
+    [ "npc_announcer_toc5", "da/d38/a16132.html#abf50bb7deb9e0bb04d9ac802aff5fa41", null ],
+    [ "GetAI", "da/d38/a16132.html#a06767a8fd1e940d4efee6dd752520e9e", null ],
+    [ "OnGossipHello", "da/d38/a16132.html#ad2cc55ddc6696b9bfb22e68eab965fb0", null ],
+    [ "OnGossipSelect", "da/d38/a16132.html#a9017488c652fd75882db75914f4a2db2", null ]
 ];

@@ -1,6 +1,6 @@
 var a21320 =
 [
-    [ "achievement_freya_knock_on_wood", "df/d72/a21320.html#ae28517e151cc9ec2b25ff57513f32d29", null ],
-    [ "OnCheck", "df/d72/a21320.html#a07e5edf9d53d200506ab1b0d0b2eaa9e", null ],
-    [ "_elderCount", "df/d72/a21320.html#a5a3cc4dedbc2cc6be825579cbb0a09b5", null ]
+    [ "npc_vh_void_sentryAI", "db/dcf/a21324.html", "db/dcf/a21324" ],
+    [ "npc_vh_void_sentry", "df/d72/a21320.html#a6d4995d112a3fe6b59c3c3c417d98c45", null ],
+    [ "GetAI", "df/d72/a21320.html#ab3bcb8f8e9084e2ab588f80929a5d5ce", null ]
 ];

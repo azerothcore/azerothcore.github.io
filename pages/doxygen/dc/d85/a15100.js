@@ -1,6 +1,6 @@
 var a15100 =
 [
-    [ "FilterTargets", "dc/d85/a15100.html#a8fa6932a6cf291d8ab40140b171e1c17", null ],
-    [ "PrepareSpellScript", "dc/d85/a15100.html#a5e93e2cb92db31be03703ab2e5d082cd", null ],
-    [ "Register", "dc/d85/a15100.html#a0e3a6fd6f3de3d81f535d67451568c45", null ]
+    [ "npc_muglashAI", "d7/db5/a15104.html", "d7/db5/a15104" ],
+    [ "npc_muglash", "dc/d85/a15100.html#a5df1b1cff0acf8be4db77b66f8a0b5f4", null ],
+    [ "GetAI", "dc/d85/a15100.html#a7cfeaf756de85b1bd2fff9163e4bd5e3", null ]
 ];

@@ -1,6 +1,7 @@
 var a25740 =
 [
-    [ "spell_alar_dive_bomb_AuraScript", "da/dc8/a25744.html", "da/dc8/a25744" ],
-    [ "spell_alar_dive_bomb", "d6/df1/a25740.html#a5064643ca9a59b81a2ae6ac3490ef45e", null ],
-    [ "GetAuraScript", "d6/df1/a25740.html#a12bca51d46a181ec547a609f31195a99", null ]
+    [ "HandleDummy", "d6/df1/a25740.html#aec0b2ad3b10f2ccbc755cf7278a5ed46", null ],
+    [ "PrepareSpellScript", "d6/df1/a25740.html#ac1ba0d23cbf805c234ac9d898f6bab85", null ],
+    [ "Register", "d6/df1/a25740.html#afd1588dc55730c52a922f37e60ec134a", null ],
+    [ "Validate", "d6/df1/a25740.html#aaed3ba3d986173b5941e048370d5ebe2", null ]
 ];

@@ -1,6 +1,7 @@
 var a17744 =
 [
-    [ "HandleDummyTick", "d9/dbf/a17744.html#ab256f558c0ce14792d5540d1c0115a5a", null ],
-    [ "PrepareAuraScript", "d9/dbf/a17744.html#ac45a1e05503f1dba03b493e52c375811", null ],
-    [ "Register", "d9/dbf/a17744.html#a75872db60208b07f1f3a859e2a8fb1bf", null ]
+    [ "HandleDummy", "d9/dbf/a17744.html#aa61db53d7395fd45b8569e12978fed0b", null ],
+    [ "PrepareSpellScript", "d9/dbf/a17744.html#ab63054debe6763027ab52ad122277719", null ],
+    [ "Register", "d9/dbf/a17744.html#a6dee5fc9fafd7faa3eadbf9431568dcc", null ],
+    [ "Validate", "d9/dbf/a17744.html#adb7e30d10c2071de5d5070b64a10af30", null ]
 ];

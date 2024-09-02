@@ -1,6 +1,6 @@
 var a23376 =
 [
-    [ "npc_torturer_lecraftAI", "d0/dcd/a23380.html", "d0/dcd/a23380" ],
-    [ "npc_torturer_lecraft", "d6/d8d/a23376.html#a789f8bdafe96d5cb01225b940a80c651", null ],
-    [ "GetAI", "d6/d8d/a23376.html#abdc8b33cd820c5cd14c999e7407897fe", null ]
+    [ "instance_the_underbog_InstanceMapScript", "d0/dcd/a23380.html", "d0/dcd/a23380" ],
+    [ "instance_the_underbog", "d6/d8d/a23376.html#afaf8740a3e367a1a54eaa3e76ffa483e", null ],
+    [ "GetInstanceScript", "d6/d8d/a23376.html#ace939fb7fd89e7c9c84c17d3ca31208b", null ]
 ];

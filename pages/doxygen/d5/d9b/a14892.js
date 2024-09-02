@@ -1,6 +1,5 @@
 var a14892 =
 [
-    [ "instance_maraudon_InstanceMapScript", "d1/d84/a14896.html", "d1/d84/a14896" ],
-    [ "instance_maraudon", "d5/d9b/a14892.html#aaae11d2569d04b42840b101a5702cf24", null ],
-    [ "GetInstanceScript", "d5/d9b/a14892.html#ac4f5c7c3ee755226449c96b3e351f12d", null ]
+    [ "boss_yauj", "d5/d9b/a14892.html#a15ab7b6b35d29fb1552b11586163320e", null ],
+    [ "JustEngagedWith", "d5/d9b/a14892.html#a94a2fa960e6924bde9ba6934a56ed684", null ]
 ];

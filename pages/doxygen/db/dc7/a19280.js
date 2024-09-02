@@ -1,6 +1,6 @@
 var a19280 =
 [
-    [ "ActivateSpirit", "db/dc7/a19280.html#aa85442aa12bf98813951172ba9c0c9d1", null ],
-    [ "PrepareSpellScript", "db/dc7/a19280.html#a45dd81940bcad18564dbed7ffc1a6041", null ],
-    [ "Register", "db/dc7/a19280.html#a33d1e39c3b04f81afa3c20dc140211b2", null ]
+    [ "instance_oculus_InstanceMapScript", "d7/d87/a19284.html", "d7/d87/a19284" ],
+    [ "instance_oculus", "db/dc7/a19280.html#a404205ea7106531ea57307c40b9589bb", null ],
+    [ "GetInstanceScript", "db/dc7/a19280.html#ae6d28dfd615e79d4308e4384b7c8857f", null ]
 ];

@@ -1,6 +1,6 @@
 var a12908 =
 [
-    [ "HandleApplyTouch", "d3/d86/a12908.html#a03d3cd8c6792c4c9604ec7be7d33ea0b", null ],
-    [ "PrepareSpellScript", "d3/d86/a12908.html#a3b300a0a47de87e3f51189933d0cede6", null ],
-    [ "Register", "d3/d86/a12908.html#a9cbb2e49f9a0f64b76562401c3305cb4", null ]
+    [ "OnRemove", "d3/d86/a12908.html#aa1cf7727c57d5b6a1968bafcdef63113", null ],
+    [ "PrepareAuraScript", "d3/d86/a12908.html#a1139466be6e4391d1f488d3f56758b2c", null ],
+    [ "Register", "d3/d86/a12908.html#a6ff95222d980c659653116f560ec2b80", null ]
 ];

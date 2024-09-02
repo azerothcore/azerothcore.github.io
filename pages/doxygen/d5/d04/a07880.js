@@ -1,7 +1,10 @@
 var a07880 =
 [
-    [ "ObjectDistanceOrderPred", "d5/d04/a07880.html#adced3fdc6d99b7506361eb7700fa4cec", null ],
-    [ "operator()", "d5/d04/a07880.html#aaa5023735568f6df28a177fbd9ed866e", null ],
-    [ "m_ascending", "d5/d04/a07880.html#a313cd0450096e49716bfb52f8f238bfc", null ],
-    [ "m_refObj", "d5/d04/a07880.html#aec421fd45a60545bf92b7236e0d0b360", null ]
+    [ "Puppet", "d5/d04/a07880.html#ab0082936291e6b7f5370656c7c9ed948", null ],
+    [ "GetOwner", "d5/d04/a07880.html#a38760bce8e8ebf28ae0143ad2931afd5", null ],
+    [ "InitStats", "d5/d04/a07880.html#ac5dd23d7cf6d4b4a2ba073ae1128181b", null ],
+    [ "InitSummon", "d5/d04/a07880.html#abfc97f1d25cb1ac27b1bed6f61867fa3", null ],
+    [ "RemoveFromWorld", "d5/d04/a07880.html#a61dcfc821c2221d1747fcb2180e03bfd", null ],
+    [ "Update", "d5/d04/a07880.html#a5281497d7689e1dd10f89b5a9f83006f", null ],
+    [ "m_owner", "d5/d04/a07880.html#adae18eabdba52ef8a9f7c5c8768e060c", null ]
 ];

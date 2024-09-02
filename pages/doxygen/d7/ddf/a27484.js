@@ -1,10 +1,6 @@
 var a27484 =
 [
-    [ "ApplyMarker", "d7/ddf/a27484.html#aae1bd2f5f21a389e8d110cabecc9d94d", null ],
-    [ "CheckTrapProc", "d7/ddf/a27484.html#a00f06f18b6874302f88c3af193d8e4ed", null ],
-    [ "HandleProcs", "d7/ddf/a27484.html#a81abe76c24a6a6320811d99ce8f5fb4f", null ],
-    [ "IsTargetValid", "d7/ddf/a27484.html#a02590da9b97a4d6bc7a6cbd0e670480f", null ],
-    [ "PrepareAuraScript", "d7/ddf/a27484.html#a475320d20875b2d710ed3734b78f4645", null ],
-    [ "Register", "d7/ddf/a27484.html#aca7649a87ace4e22793ca33705b1500c", null ],
-    [ "Validate", "d7/ddf/a27484.html#a45630b6dc703996321286ff16a17e3e3", null ]
+    [ "npc_garments_of_questsAI", "de/da5/a27488.html", "de/da5/a27488" ],
+    [ "npc_garments_of_quests", "d7/ddf/a27484.html#a7e4ad68e0187c0a392ed93097b2bf0ce", null ],
+    [ "GetAI", "d7/ddf/a27484.html#aa8ad1c654f00e054f9b424f61716eafd", null ]
 ];

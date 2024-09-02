@@ -1,5 +1,6 @@
 var a13600 =
 [
-    [ "npc_mikhail", "d3/d21/a13600.html#ab63d49e91b0d4b6ca0f00ff0992f5bad", null ],
-    [ "OnQuestAccept", "d3/d21/a13600.html#a3e1d81aa9e610b73c3d856b355338d3b", null ]
+    [ "boss_darkheartAI", "d1/dc0/a13604.html", "d1/dc0/a13604" ],
+    [ "boss_darkheart", "d3/d21/a13600.html#a9db28c0c2a14d560162febd94ca0290b", null ],
+    [ "GetAI", "d3/d21/a13600.html#ae18c3326f71db0e7200fb291110e7288", null ]
 ];

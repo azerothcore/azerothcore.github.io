@@ -1,4 +1,6 @@
 var a03602 =
 [
-    [ "ScriptRegistry< AreaTriggerScript >", "de/dc5/a03602.html#a0447158682f05ead25ae60d49a490088", null ]
+    [ "instance_vault_of_archavon", "da/dff/a21236.html", "da/dff/a21236" ],
+    [ "instance_vault_of_archavon::instance_vault_of_archavon_InstanceMapScript", "de/db5/a21240.html", "de/db5/a21240" ],
+    [ "AddSC_instance_vault_of_archavon", "de/dc5/a03602.html#af85fa677904908fe364917364696be77", null ]
 ];

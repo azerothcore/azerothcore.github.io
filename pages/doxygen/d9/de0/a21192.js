@@ -1,6 +1,6 @@
 var a21192 =
 [
-    [ "CheckAreaTarget", "d9/de0/a21192.html#a2ea4771a1079520e32c624781b017487", null ],
-    [ "PrepareAuraScript", "d9/de0/a21192.html#a7ed17e813528a3fb34f1547773e8fc5d", null ],
-    [ "Register", "d9/de0/a21192.html#a2512c96e6d8f77cc2e7526641cf6e9c2", null ]
+    [ "HandleDummy", "d9/de0/a21192.html#a9a4cee98bd023da694ac8fe76cd06078", null ],
+    [ "PrepareSpellScript", "d9/de0/a21192.html#abb80edac9217487c4be085f12295691e", null ],
+    [ "Register", "d9/de0/a21192.html#a2e483fb5c3e176f694eb7c39548a9903", null ]
 ];

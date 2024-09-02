@@ -1,6 +1,6 @@
 var a16496 =
 [
-    [ "boss_grand_championAI", "d8/d3f/a16500.html", "d8/d3f/a16500" ],
-    [ "boss_grand_champion", "d6/dc3/a16496.html#a9577f8af5e234b3aebd7567841b867e2", null ],
-    [ "GetAI", "d6/dc3/a16496.html#aa60972482ef16329d7ffc0a7ccf2d03e", null ]
+    [ "npc_announcer_toc10", "d6/dc3/a16496.html#ae495b19328c6a743dfd8f1cbf37a0bd6", null ],
+    [ "OnGossipHello", "d6/dc3/a16496.html#afcc5262e7c49b7456af146de14805a06", null ],
+    [ "OnGossipSelect", "d6/dc3/a16496.html#a9a2bf1d3a215332744ca473041cc0520", null ]
 ];

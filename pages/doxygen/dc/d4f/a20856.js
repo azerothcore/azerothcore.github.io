@@ -1,6 +1,6 @@
 var a20856 =
 [
-    [ "spell_algalon_trigger_3_adds_SpellScript", "dd/d93/a20860.html", "dd/d93/a20860" ],
-    [ "spell_algalon_trigger_3_adds", "dc/d4f/a20856.html#a00657f3ac1819a1e57819eef825aa9e4", null ],
-    [ "GetSpellScript", "dc/d4f/a20856.html#acc724746a7527f45016a3109707d2680", null ]
+    [ "OnEffect", "dc/d4f/a20856.html#aa24cfd6feec65f466e74c68484815c1e", null ],
+    [ "PrepareSpellScript", "dc/d4f/a20856.html#a648fb610fb1914efac7f2cb6e1bb4290", null ],
+    [ "Register", "dc/d4f/a20856.html#ac1c0076665edc6a2b3a0228340020a1e", null ]
 ];

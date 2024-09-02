@@ -1,6 +1,6 @@
 var a20124 =
 [
-    [ "boss_nothAI", "de/d8f/a20128.html", "de/d8f/a20128" ],
-    [ "boss_noth", "d3/d05/a20124.html#a2760f1ec46a21f22de0e57527cbe9768", null ],
-    [ "GetAI", "d3/d05/a20124.html#a534f30792c051ab44c6c07c9347893e5", null ]
+    [ "DestroyWinterCache", "d3/d05/a20124.html#a4f4d8998d611354bce4f5531e6029d6b", null ],
+    [ "PrepareSpellScript", "d3/d05/a20124.html#a67e36939554e13ddb7fb7493968fbc3f", null ],
+    [ "Register", "d3/d05/a20124.html#a5ac6314b0a016adafd7c6e87289b5649", null ]
 ];

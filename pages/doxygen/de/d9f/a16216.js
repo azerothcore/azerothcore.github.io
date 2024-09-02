@@ -1,6 +1,7 @@
 var a16216 =
 [
-    [ "spell_halion_meteor_strike_targeting_SpellScript", "d1/d3c/a16220.html", "d1/d3c/a16220" ],
-    [ "spell_halion_meteor_strike_targeting", "de/d9f/a16216.html#a97b362ac2b99446dbea87823ad3c6569", null ],
-    [ "GetSpellScript", "de/d9f/a16216.html#a730a4d20554fcb07599ebec997d3c2e7", null ]
+    [ "npc_toc_druidAI", "de/d9f/a16216.html#adb456f1f93be5329174a3199c9092825", null ],
+    [ "myCanCast", "de/d9f/a16216.html#af82baa22ae49ba268f494cb07287845e", null ],
+    [ "UpdateAI", "de/d9f/a16216.html#a82a22a557db647f73690d8838a635eaf", null ],
+    [ "events", "de/d9f/a16216.html#a6bb27baf17f0286db3222287a8073bd7", null ]
 ];

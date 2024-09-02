@@ -1,6 +1,9 @@
 var a23276 =
 [
-    [ "spell_q12243_fire_upon_the_waters_AuraScript", "d0/d99/a23280.html", "d0/d99/a23280" ],
-    [ "spell_q12243_fire_upon_the_waters", "d2/d16/a23276.html#a9d7635651454bf48a255a8c4b89ba7b2", null ],
-    [ "GetAuraScript", "d2/d16/a23276.html#a1c18032e6a61efb2751ca897fad8f39e", null ]
+    [ "boss_mennu_the_betrayer", "d2/d16/a23276.html#a3f881a89d1da70d066ce9a3fe0b29a3e", null ],
+    [ "JustDied", "d2/d16/a23276.html#acf87c54cc2a3ee5c8378ef40553ab51c", null ],
+    [ "JustEngagedWith", "d2/d16/a23276.html#a535b9af1677b8af50515818a18e88d27", null ],
+    [ "JustSummoned", "d2/d16/a23276.html#a59949872270890ef794a77029074210b", null ],
+    [ "KilledUnit", "d2/d16/a23276.html#a1a55fb7f1dacc5e514e71901d66bd35e", null ],
+    [ "Reset", "d2/d16/a23276.html#a6f0043e73a55cd1cccae22a806d702ea", null ]
 ];

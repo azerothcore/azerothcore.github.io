@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/World/world_script_loader.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Kalimdor/CavernsOfTime/BattleForMountHyjal/instance_hyjal.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,717 +105,198 @@ $(document).ready(function(){initNavTree('d7/d02/a01808.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">world_script_loader.cpp File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">instance_hyjal.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">hyjal.h</a>&quot;</code><br />
+</div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbc/a14512.html">instance_hyjal</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d12/a14516.html">instance_hyjal::instance_mount_hyjal_InstanceMapScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a992f2da647f1f8748c7c9239b52079ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#a992f2da647f1f8748c7c9239b52079ad">AddSC_areatrigger_scripts</a> ()</td></tr>
-<tr class="separator:a992f2da647f1f8748c7c9239b52079ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabef9c5c7a434027ce4d3af6e2b77430"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#aabef9c5c7a434027ce4d3af6e2b77430">AddSC_emerald_dragons</a> ()</td></tr>
-<tr class="separator:aabef9c5c7a434027ce4d3af6e2b77430"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50f66c4d6429b38157e35a75a0daa31d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#a50f66c4d6429b38157e35a75a0daa31d">AddSC_generic_creature</a> ()</td></tr>
-<tr class="separator:a50f66c4d6429b38157e35a75a0daa31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a279b19d9fff015d16fc8bbd2fbc9325a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#a279b19d9fff015d16fc8bbd2fbc9325a">AddSC_go_scripts</a> ()</td></tr>
-<tr class="separator:a279b19d9fff015d16fc8bbd2fbc9325a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acba582cbc90c710c629dd30926acdca4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#acba582cbc90c710c629dd30926acdca4">AddSC_guards</a> ()</td></tr>
-<tr class="separator:acba582cbc90c710c629dd30926acdca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e28ebf5a580887bb117f786689a34c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#a3e28ebf5a580887bb117f786689a34c6">AddSC_item_scripts</a> ()</td></tr>
-<tr class="separator:a3e28ebf5a580887bb117f786689a34c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a428ec531a2dc4e479b5c73e0d0694091"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#a428ec531a2dc4e479b5c73e0d0694091">AddSC_npc_professions</a> ()</td></tr>
-<tr class="separator:a428ec531a2dc4e479b5c73e0d0694091"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ffce1ea6cca981888af85ba67364df9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#a3ffce1ea6cca981888af85ba67364df9">AddSC_npc_innkeeper</a> ()</td></tr>
-<tr class="separator:a3ffce1ea6cca981888af85ba67364df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac822f73be6c9bf1dfaa4bbaec0e5aef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#aac822f73be6c9bf1dfaa4bbaec0e5aef">AddSC_npcs_special</a> ()</td></tr>
-<tr class="separator:aac822f73be6c9bf1dfaa4bbaec0e5aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36f8a13e2844278c955f3a8155e7a11c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#a36f8a13e2844278c955f3a8155e7a11c">AddSC_npc_taxi</a> ()</td></tr>
-<tr class="separator:a36f8a13e2844278c955f3a8155e7a11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5091d6f933800f3313078304ad5c38ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#a5091d6f933800f3313078304ad5c38ca">AddSC_achievement_scripts</a> ()</td></tr>
-<tr class="separator:a5091d6f933800f3313078304ad5c38ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae796ad81a78a552e5c31fcf6c5c135fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#ae796ad81a78a552e5c31fcf6c5c135fa">AddSC_chat_log</a> ()</td></tr>
-<tr class="separator:ae796ad81a78a552e5c31fcf6c5c135fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a530be5efb251d5ca58e97804e48ad953"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#a530be5efb251d5ca58e97804e48ad953">AddSC_action_ip_logger</a> ()</td></tr>
-<tr class="separator:a530be5efb251d5ca58e97804e48ad953"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f476a8466c12651b57fd55bf13b9617"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#a1f476a8466c12651b57fd55bf13b9617">AddSC_player_scripts</a> ()</td></tr>
-<tr class="separator:a1f476a8466c12651b57fd55bf13b9617"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81e200e5d045a2403cd76a0559a6fd8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#a81e200e5d045a2403cd76a0559a6fd8c">AddSC_npc_stave_of_ancients</a> ()</td></tr>
-<tr class="separator:a81e200e5d045a2403cd76a0559a6fd8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c20fa2f42eb423e39f2aaafe8fadafc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#a8c20fa2f42eb423e39f2aaafe8fadafc">AddSC_server_mail</a> ()</td></tr>
-<tr class="separator:a8c20fa2f42eb423e39f2aaafe8fadafc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e7b18db76511725a47c51e9ce748575"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#a5e7b18db76511725a47c51e9ce748575">AddWorldScripts</a> ()</td></tr>
-<tr class="separator:a5e7b18db76511725a47c51e9ce748575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c7a0ad3a2ae9f82eb9c45fbf90d5b41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#a5c7a0ad3a2ae9f82eb9c45fbf90d5b41">AddSC_instance_mount_hyjal</a> ()</td></tr>
+<tr class="separator:a5c7a0ad3a2ae9f82eb9c45fbf90d5b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dfd/a09296.html">DoorData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#a69c4a0ca4694d5ed1d42f0373dd5d80c">doorData</a> []</td></tr>
+<tr class="separator:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a412286b689bd324fedd65ddd8dde8afb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc7/a09312.html">ObjectData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#a412286b689bd324fedd65ddd8dde8afb">creatureData</a> []</td></tr>
+<tr class="separator:a412286b689bd324fedd65ddd8dde8afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaad50890c4534c5b5c848a9b85f3d8fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dba/a04502.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#aaad50890c4534c5b5c848a9b85f3d8fe">hyjalWaveTimers</a> [4][<a class="el" href="../../d9/d88/a01823.html#abd6cce1437900ab106eccd088558498eab56f8400a89abc853f99e7737219502c">MAX_WAVES_STANDARD</a>]</td></tr>
+<tr class="separator:aaad50890c4534c5b5c848a9b85f3d8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a254787ab3a62d90e906ded9ef63aa229"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dba/a04502.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#a254787ab3a62d90e906ded9ef63aa229">hyjalRetreatTimers</a> [2][<a class="el" href="../../d9/d88/a01823.html#abd6cce1437900ab106eccd088558498ea1084aef6ff8543a3b9992e129436544f">MAX_WAVES_RETREAT</a>]</td></tr>
+<tr class="separator:a254787ab3a62d90e906ded9ef63aa229"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade7b4d2fdf8cd15fa4985554885eb881"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dba/a04502.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/a01808.html#ade7b4d2fdf8cd15fa4985554885eb881">hyjalNightElfWaveTimers</a> [1][<a class="el" href="../../d9/d88/a01823.html#abd6cce1437900ab106eccd088558498eadcc87d7ad11c922e4c0dbae31b6b00db">MAX_WAVES_NIGHT_ELF</a>]</td></tr>
+<tr class="separator:ade7b4d2fdf8cd15fa4985554885eb881"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a5091d6f933800f3313078304ad5c38ca" name="a5091d6f933800f3313078304ad5c38ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5091d6f933800f3313078304ad5c38ca">&#9670;&#160;</a></span>AddSC_achievement_scripts()</h2>
+<a id="a5c7a0ad3a2ae9f82eb9c45fbf90d5b41" name="a5c7a0ad3a2ae9f82eb9c45fbf90d5b41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c7a0ad3a2ae9f82eb9c45fbf90d5b41">&#9670;&#160;</a></span>AddSC_instance_mount_hyjal()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_achievement_scripts </td>
+          <td class="memname">void AddSC_instance_mount_hyjal </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  278</span>{</div>
-<div class="line"><span class="lineno">  279</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d87/a26887.html">achievement_resilient_victory</a>();</div>
-<div class="line"><span class="lineno">  280</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/daf/a26891.html">achievement_bg_control_all_nodes</a>();</div>
-<div class="line"><span class="lineno">  281</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d03/a26895.html">achievement_save_the_day</a>();</div>
-<div class="line"><span class="lineno">  282</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/d9c/a26899.html">achievement_bg_ic_resource_glut</a>();</div>
-<div class="line"><span class="lineno">  283</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/dab/a26903.html">achievement_bg_ic_glaive_grave</a>();</div>
-<div class="line"><span class="lineno">  284</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/d81/a26907.html">achievement_bg_ic_mowed_down</a>();</div>
-<div class="line"><span class="lineno">  285</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/d60/a26911.html">achievement_bg_sa_artillery</a>();</div>
-<div class="line"><span class="lineno">  286</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/dbe/a26919.html">achievement_sickly_gazelle</a>();</div>
-<div class="line"><span class="lineno">  287</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/d8c/a26923.html">achievement_everything_counts</a>();</div>
-<div class="line"><span class="lineno">  288</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d1f/a26927.html">achievement_bg_av_perfection</a>();</div>
-<div class="line"><span class="lineno">  289</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d71/a26915.html">achievement_arena_by_type</a>(<span class="stringliteral">&quot;achievement_arena_2v2_check&quot;</span>, <a class="code hl_enumvalue" href="../../d9/d8d/a04442.html#ad38b6d141d358ab270694a77db413e50aba8dd9984d50b5a179ebf2dec66d8c01">ARENA_TYPE_2v2</a>);</div>
-<div class="line"><span class="lineno">  290</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d71/a26915.html">achievement_arena_by_type</a>(<span class="stringliteral">&quot;achievement_arena_3v3_check&quot;</span>, <a class="code hl_enumvalue" href="../../d9/d8d/a04442.html#ad38b6d141d358ab270694a77db413e50aa98d0a1c6432cd3013d20e83937726be">ARENA_TYPE_3v3</a>);</div>
-<div class="line"><span class="lineno">  291</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d71/a26915.html">achievement_arena_by_type</a>(<span class="stringliteral">&quot;achievement_arena_5v5_check&quot;</span>, <a class="code hl_enumvalue" href="../../d9/d8d/a04442.html#ad38b6d141d358ab270694a77db413e50a49cde50538e418258d292c3c2f7df512">ARENA_TYPE_5v5</a>);</div>
-<div class="line"><span class="lineno">  292</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/d36/a26931.html">achievement_sa_defense_of_the_ancients</a>();</div>
-<div class="line"><span class="lineno">  293</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/dc7/a26935.html">achievement_tilted</a>();</div>
-<div class="line"><span class="lineno">  294</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/dcd/a26939.html">achievement_not_even_a_scratch</a>();</div>
-<div class="line"><span class="lineno">  295</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/d6c/a26943.html">achievement_killed_exp_or_honor_target</a>();</div>
-<div class="line"><span class="lineno">  296</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/d99/a26947.html">achievement_flirt_with_disaster_perf_check</a>();</div>
-<div class="line"><span class="lineno">  297</span>}</div>
-<div class="ttc" id="aa04442_html_ad38b6d141d358ab270694a77db413e50a49cde50538e418258d292c3c2f7df512"><div class="ttname"><a href="../../d9/d8d/a04442.html#ad38b6d141d358ab270694a77db413e50a49cde50538e418258d292c3c2f7df512">ARENA_TYPE_5v5</a></div><div class="ttdeci">@ ARENA_TYPE_5v5</div><div class="ttdef"><b>Definition:</b> Battleground.h:214</div></div>
-<div class="ttc" id="aa04442_html_ad38b6d141d358ab270694a77db413e50aa98d0a1c6432cd3013d20e83937726be"><div class="ttname"><a href="../../d9/d8d/a04442.html#ad38b6d141d358ab270694a77db413e50aa98d0a1c6432cd3013d20e83937726be">ARENA_TYPE_3v3</a></div><div class="ttdeci">@ ARENA_TYPE_3v3</div><div class="ttdef"><b>Definition:</b> Battleground.h:213</div></div>
-<div class="ttc" id="aa04442_html_ad38b6d141d358ab270694a77db413e50aba8dd9984d50b5a179ebf2dec66d8c01"><div class="ttname"><a href="../../d9/d8d/a04442.html#ad38b6d141d358ab270694a77db413e50aba8dd9984d50b5a179ebf2dec66d8c01">ARENA_TYPE_2v2</a></div><div class="ttdeci">@ ARENA_TYPE_2v2</div><div class="ttdef"><b>Definition:</b> Battleground.h:212</div></div>
-<div class="ttc" id="aa26887_html"><div class="ttname"><a href="../../d9/d87/a26887.html">achievement_resilient_victory</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:28</div></div>
-<div class="ttc" id="aa26891_html"><div class="ttname"><a href="../../d1/daf/a26891.html">achievement_bg_control_all_nodes</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:40</div></div>
-<div class="ttc" id="aa26895_html"><div class="ttname"><a href="../../d9/d03/a26895.html">achievement_save_the_day</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:52</div></div>
-<div class="ttc" id="aa26899_html"><div class="ttname"><a href="../../d0/d9c/a26899.html">achievement_bg_ic_resource_glut</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:71</div></div>
-<div class="ttc" id="aa26903_html"><div class="ttname"><a href="../../d6/dab/a26903.html">achievement_bg_ic_glaive_grave</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:83</div></div>
-<div class="ttc" id="aa26907_html"><div class="ttname"><a href="../../d1/d81/a26907.html">achievement_bg_ic_mowed_down</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:97</div></div>
-<div class="ttc" id="aa26911_html"><div class="ttname"><a href="../../d5/d60/a26911.html">achievement_bg_sa_artillery</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:111</div></div>
-<div class="ttc" id="aa26915_html"><div class="ttname"><a href="../../d6/d71/a26915.html">achievement_arena_by_type</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:125</div></div>
-<div class="ttc" id="aa26919_html"><div class="ttname"><a href="../../d9/dbe/a26919.html">achievement_sickly_gazelle</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:142</div></div>
-<div class="ttc" id="aa26923_html"><div class="ttname"><a href="../../d7/d8c/a26923.html">achievement_everything_counts</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:160</div></div>
-<div class="ttc" id="aa26927_html"><div class="ttname"><a href="../../d6/d1f/a26927.html">achievement_bg_av_perfection</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:172</div></div>
-<div class="ttc" id="aa26931_html"><div class="ttname"><a href="../../db/d36/a26931.html">achievement_sa_defense_of_the_ancients</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:184</div></div>
-<div class="ttc" id="aa26935_html"><div class="ttname"><a href="../../d9/dc7/a26935.html">achievement_tilted</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:206</div></div>
-<div class="ttc" id="aa26939_html"><div class="ttname"><a href="../../dd/dcd/a26939.html">achievement_not_even_a_scratch</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:228</div></div>
-<div class="ttc" id="aa26943_html"><div class="ttname"><a href="../../d2/d6c/a26943.html">achievement_killed_exp_or_honor_target</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:243</div></div>
-<div class="ttc" id="aa26947_html"><div class="ttname"><a href="../../d2/d99/a26947.html">achievement_flirt_with_disaster_perf_check</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:261</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  587</span>{</div>
+<div class="line"><span class="lineno">  588</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/dbc/a14512.html">instance_hyjal</a>();</div>
+<div class="line"><span class="lineno">  589</span>}</div>
+<div class="ttc" id="aa14512_html"><div class="ttname"><a href="../../d0/dbc/a14512.html">instance_hyjal</a></div><div class="ttdef"><b>Definition:</b> instance_hyjal.cpp:73</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00212">ARENA_TYPE_2v2</a>, <a class="el" href="../../#l00213">ARENA_TYPE_3v3</a>, and <a class="el" href="../../#l00214">ARENA_TYPE_5v5</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00100">AddKalimdorScripts()</a>.</p>
 
 </div>
 </div>
-<a id="a530be5efb251d5ca58e97804e48ad953" name="a530be5efb251d5ca58e97804e48ad953"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a530be5efb251d5ca58e97804e48ad953">&#9670;&#160;</a></span>AddSC_action_ip_logger()</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a412286b689bd324fedd65ddd8dde8afb" name="a412286b689bd324fedd65ddd8dde8afb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a412286b689bd324fedd65ddd8dde8afb">&#9670;&#160;</a></span>creatureData</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_action_ip_logger </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="../../dd/dc7/a09312.html">ObjectData</a> const creatureData[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  334</span>{</div>
-<div class="line"><span class="lineno">  335</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/dec/a26951.html">AccountActionIpLogger</a>();</div>
-<div class="line"><span class="lineno">  336</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d8f/a26955.html">CharacterActionIpLogger</a>();</div>
-<div class="line"><span class="lineno">  337</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/d9e/a26959.html">CharacterDeleteActionIpLogger</a>();</div>
-<div class="line"><span class="lineno">  338</span>}</div>
-<div class="ttc" id="aa26951_html"><div class="ttname"><a href="../../d3/dec/a26951.html">AccountActionIpLogger</a></div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:47</div></div>
-<div class="ttc" id="aa26955_html"><div class="ttname"><a href="../../d8/d8f/a26955.html">CharacterActionIpLogger</a></div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:170</div></div>
-<div class="ttc" id="aa26959_html"><div class="ttname"><a href="../../d0/d9e/a26959.html">CharacterDeleteActionIpLogger</a></div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:265</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#a9e8dc23238e4b54d4a243b454a29c0e1a2588e66b425f4f4789b11722b7214efe">NPC_WINTERCHILL</a>, <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22af2461efd25d69bfd771e6f59f97043a8">DATA_WINTERCHILL</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#a9e8dc23238e4b54d4a243b454a29c0e1addcb97e624c9e529f2b4d2cd4f50edac">NPC_ANETHERON</a>,   <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22af3b31a43f633b60dbaefd99ddc1772c1">DATA_ANETHERON</a>   },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#a9e8dc23238e4b54d4a243b454a29c0e1a34823ad17f9ba80a51c355f95555290b">NPC_KAZROGAL</a>,    <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22aab103d5c0a9dc6f49f6d6268c9a022a5">DATA_KAZROGAL</a>    },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#a9e8dc23238e4b54d4a243b454a29c0e1ae8b198a3b451b37037a1188099cf059d">NPC_AZGALOR</a>,     <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22ae0e98b64ea2b8d4165853c30b5857522">DATA_AZGALOR</a>     },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#a9e8dc23238e4b54d4a243b454a29c0e1ad9e4abbe68b2c78fe5c5fc7b043d7532">NPC_ARCHIMONDE</a>,  <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22af61041f0a41aa5b8372838917b127ed5">DATA_ARCHIMONDE</a>  },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../da/d28/a02705.html#abc1817310402e8975ffa012bf11a8506abb2c764d972352baa23c884a753e0f1f">NPC_THRALL</a>,      <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22a9c0f8b00a8caed9032b2171eebba98e8">DATA_THRALL</a>      },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../da/d28/a02705.html#a3340f88cbee80feb625844ccdee7eb8aaa34e63fb01c6c84f8efab30926afa448">NPC_JAINA</a>,       <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22a8594e5927441cca5f16396b5b0b7a0ac">DATA_JAINA</a>       },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#a9e8dc23238e4b54d4a243b454a29c0e1a5e3f8b59f3af576cef1bd46a74f68348">NPC_TYRANDE</a>,     <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22ac00c84976d87db5c2f2d2e8ab600b58f">DATA_TYRANDE</a>     },</div>
+<div class="line">    { 0,               0                }</div>
+<div class="line">}</div>
+<div class="ttc" id="aa01823_html_a9e8dc23238e4b54d4a243b454a29c0e1a2588e66b425f4f4789b11722b7214efe"><div class="ttname"><a href="../../d9/d88/a01823.html#a9e8dc23238e4b54d4a243b454a29c0e1a2588e66b425f4f4789b11722b7214efe">NPC_WINTERCHILL</a></div><div class="ttdeci">@ NPC_WINTERCHILL</div><div class="ttdef"><b>Definition:</b> hyjal.h:114</div></div>
+<div class="ttc" id="aa01823_html_a9e8dc23238e4b54d4a243b454a29c0e1a34823ad17f9ba80a51c355f95555290b"><div class="ttname"><a href="../../d9/d88/a01823.html#a9e8dc23238e4b54d4a243b454a29c0e1a34823ad17f9ba80a51c355f95555290b">NPC_KAZROGAL</a></div><div class="ttdeci">@ NPC_KAZROGAL</div><div class="ttdef"><b>Definition:</b> hyjal.h:116</div></div>
+<div class="ttc" id="aa01823_html_a9e8dc23238e4b54d4a243b454a29c0e1a5e3f8b59f3af576cef1bd46a74f68348"><div class="ttname"><a href="../../d9/d88/a01823.html#a9e8dc23238e4b54d4a243b454a29c0e1a5e3f8b59f3af576cef1bd46a74f68348">NPC_TYRANDE</a></div><div class="ttdeci">@ NPC_TYRANDE</div><div class="ttdef"><b>Definition:</b> hyjal.h:103</div></div>
+<div class="ttc" id="aa01823_html_a9e8dc23238e4b54d4a243b454a29c0e1ad9e4abbe68b2c78fe5c5fc7b043d7532"><div class="ttname"><a href="../../d9/d88/a01823.html#a9e8dc23238e4b54d4a243b454a29c0e1ad9e4abbe68b2c78fe5c5fc7b043d7532">NPC_ARCHIMONDE</a></div><div class="ttdeci">@ NPC_ARCHIMONDE</div><div class="ttdef"><b>Definition:</b> hyjal.h:118</div></div>
+<div class="ttc" id="aa01823_html_a9e8dc23238e4b54d4a243b454a29c0e1addcb97e624c9e529f2b4d2cd4f50edac"><div class="ttname"><a href="../../d9/d88/a01823.html#a9e8dc23238e4b54d4a243b454a29c0e1addcb97e624c9e529f2b4d2cd4f50edac">NPC_ANETHERON</a></div><div class="ttdeci">@ NPC_ANETHERON</div><div class="ttdef"><b>Definition:</b> hyjal.h:115</div></div>
+<div class="ttc" id="aa01823_html_a9e8dc23238e4b54d4a243b454a29c0e1ae8b198a3b451b37037a1188099cf059d"><div class="ttname"><a href="../../d9/d88/a01823.html#a9e8dc23238e4b54d4a243b454a29c0e1ae8b198a3b451b37037a1188099cf059d">NPC_AZGALOR</a></div><div class="ttdeci">@ NPC_AZGALOR</div><div class="ttdef"><b>Definition:</b> hyjal.h:117</div></div>
+<div class="ttc" id="aa01823_html_afb6eb4f28419b652027fad41104a6d22a8594e5927441cca5f16396b5b0b7a0ac"><div class="ttname"><a href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22a8594e5927441cca5f16396b5b0b7a0ac">DATA_JAINA</a></div><div class="ttdeci">@ DATA_JAINA</div><div class="ttdef"><b>Definition:</b> hyjal.h:40</div></div>
+<div class="ttc" id="aa01823_html_afb6eb4f28419b652027fad41104a6d22a9c0f8b00a8caed9032b2171eebba98e8"><div class="ttname"><a href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22a9c0f8b00a8caed9032b2171eebba98e8">DATA_THRALL</a></div><div class="ttdeci">@ DATA_THRALL</div><div class="ttdef"><b>Definition:</b> hyjal.h:41</div></div>
+<div class="ttc" id="aa01823_html_afb6eb4f28419b652027fad41104a6d22aab103d5c0a9dc6f49f6d6268c9a022a5"><div class="ttname"><a href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22aab103d5c0a9dc6f49f6d6268c9a022a5">DATA_KAZROGAL</a></div><div class="ttdeci">@ DATA_KAZROGAL</div><div class="ttdef"><b>Definition:</b> hyjal.h:33</div></div>
+<div class="ttc" id="aa01823_html_afb6eb4f28419b652027fad41104a6d22ac00c84976d87db5c2f2d2e8ab600b58f"><div class="ttname"><a href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22ac00c84976d87db5c2f2d2e8ab600b58f">DATA_TYRANDE</a></div><div class="ttdeci">@ DATA_TYRANDE</div><div class="ttdef"><b>Definition:</b> hyjal.h:42</div></div>
+<div class="ttc" id="aa01823_html_afb6eb4f28419b652027fad41104a6d22ae0e98b64ea2b8d4165853c30b5857522"><div class="ttname"><a href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22ae0e98b64ea2b8d4165853c30b5857522">DATA_AZGALOR</a></div><div class="ttdeci">@ DATA_AZGALOR</div><div class="ttdef"><b>Definition:</b> hyjal.h:34</div></div>
+<div class="ttc" id="aa01823_html_afb6eb4f28419b652027fad41104a6d22af2461efd25d69bfd771e6f59f97043a8"><div class="ttname"><a href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22af2461efd25d69bfd771e6f59f97043a8">DATA_WINTERCHILL</a></div><div class="ttdeci">@ DATA_WINTERCHILL</div><div class="ttdef"><b>Definition:</b> hyjal.h:31</div></div>
+<div class="ttc" id="aa01823_html_afb6eb4f28419b652027fad41104a6d22af3b31a43f633b60dbaefd99ddc1772c1"><div class="ttname"><a href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22af3b31a43f633b60dbaefd99ddc1772c1">DATA_ANETHERON</a></div><div class="ttdeci">@ DATA_ANETHERON</div><div class="ttdef"><b>Definition:</b> hyjal.h:32</div></div>
+<div class="ttc" id="aa01823_html_afb6eb4f28419b652027fad41104a6d22af61041f0a41aa5b8372838917b127ed5"><div class="ttname"><a href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22af61041f0a41aa5b8372838917b127ed5">DATA_ARCHIMONDE</a></div><div class="ttdeci">@ DATA_ARCHIMONDE</div><div class="ttdef"><b>Definition:</b> hyjal.h:35</div></div>
+<div class="ttc" id="aa02705_html_a3340f88cbee80feb625844ccdee7eb8aaa34e63fb01c6c84f8efab30926afa448"><div class="ttname"><a href="../../da/d28/a02705.html#a3340f88cbee80feb625844ccdee7eb8aaa34e63fb01c6c84f8efab30926afa448">NPC_JAINA</a></div><div class="ttdeci">@ NPC_JAINA</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:418</div></div>
+<div class="ttc" id="aa02705_html_abc1817310402e8975ffa012bf11a8506abb2c764d972352baa23c884a753e0f1f"><div class="ttname"><a href="../../da/d28/a02705.html#abc1817310402e8975ffa012bf11a8506abb2c764d972352baa23c884a753e0f1f">NPC_THRALL</a></div><div class="ttdeci">@ NPC_THRALL</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:447</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00084">instance_hyjal::instance_mount_hyjal_InstanceMapScript::instance_mount_hyjal_InstanceMapScript()</a>.</p>
 
 </div>
 </div>
-<a id="a992f2da647f1f8748c7c9239b52079ad" name="a992f2da647f1f8748c7c9239b52079ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a992f2da647f1f8748c7c9239b52079ad">&#9670;&#160;</a></span>AddSC_areatrigger_scripts()</h2>
+<a id="a69c4a0ca4694d5ed1d42f0373dd5d80c" name="a69c4a0ca4694d5ed1d42f0373dd5d80c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c4a0ca4694d5ed1d42f0373dd5d80c">&#9670;&#160;</a></span>doorData</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_areatrigger_scripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="../../de/dfd/a09296.html">DoorData</a> const doorData[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  438</span>{</div>
-<div class="line"><span class="lineno">  439</span>    <span class="comment">// Ours</span></div>
-<div class="line"><span class="lineno">  440</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/dd3/a26963.html">AreaTrigger_at_voltarus_middle</a>();</div>
-<div class="line"><span class="lineno">  441</span> </div>
-<div class="line"><span class="lineno">  442</span>    <span class="comment">// Theirs</span></div>
-<div class="line"><span class="lineno">  443</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d6e/a26967.html">AreaTrigger_at_coilfang_waterfall</a>();</div>
-<div class="line"><span class="lineno">  444</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/df0/a26971.html">AreaTrigger_at_legion_teleporter</a>();</div>
-<div class="line"><span class="lineno">  445</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d11/a26975.html">AreaTrigger_at_stormwright_shelf</a>();</div>
-<div class="line"><span class="lineno">  446</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d89/a26979.html">AreaTrigger_at_scent_larkorwi</a>();</div>
-<div class="line"><span class="lineno">  447</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/dca/a26983.html">AreaTrigger_at_last_rites</a>();</div>
-<div class="line"><span class="lineno">  448</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/d2c/a26987.html">AreaTrigger_at_nats_landing</a>();</div>
-<div class="line"><span class="lineno">  449</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d10/a26991.html">AreaTrigger_at_sentry_point</a>();</div>
-<div class="line"><span class="lineno">  450</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/d56/a26995.html">AreaTrigger_at_brewfest</a>();</div>
-<div class="line"><span class="lineno">  451</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d6f/a26999.html">AreaTrigger_at_area_52_entrance</a>();</div>
-<div class="line"><span class="lineno">  452</span>}</div>
-<div class="ttc" id="aa26963_html"><div class="ttname"><a href="../../d2/dd3/a26963.html">AreaTrigger_at_voltarus_middle</a></div><div class="ttdef"><b>Definition:</b> areatrigger_scripts.cpp:43</div></div>
-<div class="ttc" id="aa26967_html"><div class="ttname"><a href="../../d9/d6e/a26967.html">AreaTrigger_at_coilfang_waterfall</a></div><div class="ttdef"><b>Definition:</b> areatrigger_scripts.cpp:74</div></div>
-<div class="ttc" id="aa26971_html"><div class="ttname"><a href="../../d5/df0/a26971.html">AreaTrigger_at_legion_teleporter</a></div><div class="ttdef"><b>Definition:</b> areatrigger_scripts.cpp:105</div></div>
-<div class="ttc" id="aa26975_html"><div class="ttname"><a href="../../d8/d11/a26975.html">AreaTrigger_at_stormwright_shelf</a></div><div class="ttdef"><b>Definition:</b> areatrigger_scripts.cpp:146</div></div>
-<div class="ttc" id="aa26979_html"><div class="ttname"><a href="../../dd/d89/a26979.html">AreaTrigger_at_scent_larkorwi</a></div><div class="ttdef"><b>Definition:</b> areatrigger_scripts.cpp:173</div></div>
-<div class="ttc" id="aa26983_html"><div class="ttname"><a href="../../d7/dca/a26983.html">AreaTrigger_at_last_rites</a></div><div class="ttdef"><b>Definition:</b> areatrigger_scripts.cpp:203</div></div>
-<div class="ttc" id="aa26987_html"><div class="ttname"><a href="../../d7/d2c/a26987.html">AreaTrigger_at_nats_landing</a></div><div class="ttdef"><b>Definition:</b> areatrigger_scripts.cpp:258</div></div>
-<div class="ttc" id="aa26991_html"><div class="ttname"><a href="../../dc/d10/a26991.html">AreaTrigger_at_sentry_point</a></div><div class="ttdef"><b>Definition:</b> areatrigger_scripts.cpp:293</div></div>
-<div class="ttc" id="aa26995_html"><div class="ttname"><a href="../../d5/d56/a26995.html">AreaTrigger_at_brewfest</a></div><div class="ttdef"><b>Definition:</b> areatrigger_scripts.cpp:331</div></div>
-<div class="ttc" id="aa26999_html"><div class="ttname"><a href="../../d9/d6f/a26999.html">AreaTrigger_at_area_52_entrance</a></div><div class="ttdef"><b>Definition:</b> areatrigger_scripts.cpp:385</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#aa7f1863c00e2eb24065eb303b9eca35ea4f87685d6c39a2004e7d8da00830fb60">GO_HORDE_ENCAMPMENT_PORTAL</a>,  <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22af3b31a43f633b60dbaefd99ddc1772c1">DATA_ANETHERON</a>,  <a class="code hl_enumvalue" href="../../d3/d7b/a00986.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#aa7f1863c00e2eb24065eb303b9eca35ea51cd33fcedb305b16dbd2c8b9fddff02">GO_NIGHT_ELF_VILLAGE_PORTAL</a>, <a class="code hl_enumvalue" href="../../d9/d88/a01823.html#afb6eb4f28419b652027fad41104a6d22ae0e98b64ea2b8d4165853c30b5857522">DATA_AZGALOR</a>,    <a class="code hl_enumvalue" href="../../d3/d7b/a00986.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> },</div>
+<div class="line">    { 0,                           0,               <a class="code hl_enumvalue" href="../../d3/d7b/a00986.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a> }</div>
+<div class="line">}</div>
+<div class="ttc" id="aa00986_html_ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905"><div class="ttname"><a href="../../d3/d7b/a00986.html#ac3549b9e861c142e11e5ad86b8b6947eabf8a73ae3dd3b7fd667a2c7f58414905">DOOR_TYPE_PASSAGE</a></div><div class="ttdeci">@ DOOR_TYPE_PASSAGE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:68</div></div>
+<div class="ttc" id="aa01823_html_aa7f1863c00e2eb24065eb303b9eca35ea4f87685d6c39a2004e7d8da00830fb60"><div class="ttname"><a href="../../d9/d88/a01823.html#aa7f1863c00e2eb24065eb303b9eca35ea4f87685d6c39a2004e7d8da00830fb60">GO_HORDE_ENCAMPMENT_PORTAL</a></div><div class="ttdeci">@ GO_HORDE_ENCAMPMENT_PORTAL</div><div class="ttdef"><b>Definition:</b> hyjal.h:128</div></div>
+<div class="ttc" id="aa01823_html_aa7f1863c00e2eb24065eb303b9eca35ea51cd33fcedb305b16dbd2c8b9fddff02"><div class="ttname"><a href="../../d9/d88/a01823.html#aa7f1863c00e2eb24065eb303b9eca35ea51cd33fcedb305b16dbd2c8b9fddff02">GO_NIGHT_ELF_VILLAGE_PORTAL</a></div><div class="ttdeci">@ GO_NIGHT_ELF_VILLAGE_PORTAL</div><div class="ttdef"><b>Definition:</b> hyjal.h:129</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00084">instance_hyjal::instance_mount_hyjal_InstanceMapScript::instance_mount_hyjal_InstanceMapScript()</a>.</p>
 
 </div>
 </div>
-<a id="ae796ad81a78a552e5c31fcf6c5c135fa" name="ae796ad81a78a552e5c31fcf6c5c135fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae796ad81a78a552e5c31fcf6c5c135fa">&#9670;&#160;</a></span>AddSC_chat_log()</h2>
+<a id="ade7b4d2fdf8cd15fa4985554885eb881" name="ade7b4d2fdf8cd15fa4985554885eb881"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade7b4d2fdf8cd15fa4985554885eb881">&#9670;&#160;</a></span>hyjalNightElfWaveTimers</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_chat_log </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="../../d7/dba/a04502.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> hyjalNightElfWaveTimers[1][<a class="el" href="../../d9/d88/a01823.html#abd6cce1437900ab106eccd088558498eadcc87d7ad11c922e4c0dbae31b6b00db">MAX_WAVES_NIGHT_ELF</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  159</span>{</div>
-<div class="line"><span class="lineno">  160</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/dfe/a27071.html">ChatLogScript</a>();</div>
-<div class="line"><span class="lineno">  161</span>}</div>
-<div class="ttc" id="aa27071_html"><div class="ttname"><a href="../../d5/dfe/a27071.html">ChatLogScript</a></div><div class="ttdef"><b>Definition:</b> chat_log.cpp:25</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">{</div>
+<div class="line">    { 0ms }</div>
+<div class="line">}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00265">instance_hyjal::instance_mount_hyjal_InstanceMapScript::SetData()</a>.</p>
 
 </div>
 </div>
-<a id="aabef9c5c7a434027ce4d3af6e2b77430" name="aabef9c5c7a434027ce4d3af6e2b77430"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabef9c5c7a434027ce4d3af6e2b77430">&#9670;&#160;</a></span>AddSC_emerald_dragons()</h2>
+<a id="a254787ab3a62d90e906ded9ef63aa229" name="a254787ab3a62d90e906ded9ef63aa229"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a254787ab3a62d90e906ded9ef63aa229">&#9670;&#160;</a></span>hyjalRetreatTimers</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_emerald_dragons </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="../../d7/dba/a04502.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> hyjalRetreatTimers[2][<a class="el" href="../../d9/d88/a01823.html#abd6cce1437900ab106eccd088558498ea1084aef6ff8543a3b9992e129436544f">MAX_WAVES_RETREAT</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  847</span>{</div>
-<div class="line"><span class="lineno">  848</span>    <span class="comment">// helper NPC scripts</span></div>
-<div class="line"><span class="lineno">  849</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d0b/a27007.html">npc_dream_fog</a>();</div>
-<div class="line"><span class="lineno">  850</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/dec/a27031.html">npc_spirit_shade</a>();</div>
-<div class="line"><span class="lineno">  851</span> </div>
-<div class="line"><span class="lineno">  852</span>    <span class="comment">// dragons</span></div>
-<div class="line"><span class="lineno">  853</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/ddd/a27015.html">boss_ysondre</a>();</div>
-<div class="line"><span class="lineno">  854</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/dd0/a27047.html">boss_taerar</a>();</div>
-<div class="line"><span class="lineno">  855</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/d4a/a27039.html">boss_emeriss</a>();</div>
-<div class="line"><span class="lineno">  856</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/d8d/a27023.html">boss_lethon</a>();</div>
-<div class="line"><span class="lineno">  857</span> </div>
-<div class="line"><span class="lineno">  858</span>    <span class="comment">// dragon spellscripts</span></div>
-<div class="line"><span class="lineno">  859</span>    <a class="code hl_define" href="../../d7/d7b/a03593.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../dc/d1c/a27055.html">spell_dream_fog_sleep</a>);</div>
-<div class="line"><span class="lineno">  860</span>    <a class="code hl_define" href="../../d7/d7b/a03593.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d0/d96/a27067.html">spell_mark_of_nature</a>);</div>
-<div class="line"><span class="lineno">  861</span>    <a class="code hl_define" href="../../d7/d7b/a03593.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../db/da3/a27063.html">spell_shadow_bolt_whirl</a>);</div>
-<div class="line"><span class="lineno">  862</span>};</div>
-<div class="ttc" id="aa03593_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d7/d7b/a03593.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> SpellScriptLoader.h:88</div></div>
-<div class="ttc" id="aa27007_html"><div class="ttname"><a href="../../d9/d0b/a27007.html">npc_dream_fog</a></div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:182</div></div>
-<div class="ttc" id="aa27015_html"><div class="ttname"><a href="../../da/ddd/a27015.html">boss_ysondre</a></div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:293</div></div>
-<div class="ttc" id="aa27023_html"><div class="ttname"><a href="../../da/d8d/a27023.html">boss_lethon</a></div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:398</div></div>
-<div class="ttc" id="aa27031_html"><div class="ttname"><a href="../../d0/dec/a27031.html">npc_spirit_shade</a></div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:452</div></div>
-<div class="ttc" id="aa27039_html"><div class="ttname"><a href="../../d3/d4a/a27039.html">boss_emeriss</a></div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:515</div></div>
-<div class="ttc" id="aa27047_html"><div class="ttname"><a href="../../d5/dd0/a27047.html">boss_taerar</a></div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:609</div></div>
-<div class="ttc" id="aa27055_html"><div class="ttname"><a href="../../dc/d1c/a27055.html">spell_dream_fog_sleep</a></div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:740</div></div>
-<div class="ttc" id="aa27063_html"><div class="ttname"><a href="../../db/da3/a27063.html">spell_shadow_bolt_whirl</a></div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:785</div></div>
-<div class="ttc" id="aa27067_html"><div class="ttname"><a href="../../d0/d96/a27067.html">spell_mark_of_nature</a></div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:820</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">{</div>
+<div class="line">    { 10000ms, 6000ms , 0ms },   </div>
+<div class="line">    { 10000ms, 40000ms, 0ms }    </div>
+<div class="line">}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00088">RegisterSpellScript</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00265">instance_hyjal::instance_mount_hyjal_InstanceMapScript::SetData()</a>.</p>
 
 </div>
 </div>
-<a id="a50f66c4d6429b38157e35a75a0daa31d" name="a50f66c4d6429b38157e35a75a0daa31d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50f66c4d6429b38157e35a75a0daa31d">&#9670;&#160;</a></span>AddSC_generic_creature()</h2>
+<a id="aaad50890c4534c5b5c848a9b85f3d8fe" name="aaad50890c4534c5b5c848a9b85f3d8fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaad50890c4534c5b5c848a9b85f3d8fe">&#9670;&#160;</a></span>hyjalWaveTimers</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_generic_creature </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="../../d7/dba/a04502.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> hyjalWaveTimers[4][<a class="el" href="../../d9/d88/a01823.html#abd6cce1437900ab106eccd088558498eab56f8400a89abc853f99e7737219502c">MAX_WAVES_STANDARD</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   59</span>{</div>
-<div class="line"><span class="lineno">   60</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/daa/a27323.html">trigger_periodic</a>;</div>
-<div class="line"><span class="lineno">   61</span>}</div>
-<div class="ttc" id="aa27323_html"><div class="ttname"><a href="../../df/daa/a27323.html">trigger_periodic</a></div><div class="ttdef"><b>Definition:</b> mob_generic_creature.cpp:23</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">{</div>
+<div class="line">    { 130000ms, 130000ms, 130000ms, 130000ms, 130000ms, 130000ms, 130000ms, 190000ms, 0ms },    </div>
+<div class="line">    { 130000ms, 130000ms, 130000ms, 130000ms, 130000ms, 130000ms, 130000ms, 190000ms, 0ms },    </div>
+<div class="line">    { 130000ms, 155000ms, 130000ms, 155000ms, 130000ms, 130000ms, 155000ms, 225000ms, 0ms },    </div>
+<div class="line">    { 130000ms, 190000ms, 190000ms, 190000ms, 130000ms, 155000ms, 190000ms, 225000ms, 0ms }     </div>
+<div class="line">}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
-
-</div>
-</div>
-<a id="a279b19d9fff015d16fc8bbd2fbc9325a" name="a279b19d9fff015d16fc8bbd2fbc9325a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a279b19d9fff015d16fc8bbd2fbc9325a">&#9670;&#160;</a></span>AddSC_go_scripts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_go_scripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1950</span>{</div>
-<div class="line"><span class="lineno"> 1951</span>    <span class="comment">// Ours</span></div>
-<div class="line"><span class="lineno"> 1952</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d2c/a27075.html">go_noblegarden_colored_egg</a>();</div>
-<div class="line"><span class="lineno"> 1953</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/d11/a27079.html">go_seer_of_zebhalak</a>();</div>
-<div class="line"><span class="lineno"> 1954</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/d9c/a27083.html">go_mistwhisper_treasure</a>();</div>
-<div class="line"><span class="lineno"> 1955</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/de1/a27087.html">go_witherbark_totem_bundle</a>();</div>
-<div class="line"><span class="lineno"> 1956</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/d2b/a27095.html">go_arena_ready_marker</a>();</div>
-<div class="line"><span class="lineno"> 1957</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/d93/a27099.html">go_ethereum_prison</a>();</div>
-<div class="line"><span class="lineno"> 1958</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d10/a27103.html">go_ethereum_stasis</a>();</div>
-<div class="line"><span class="lineno"> 1959</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/dc0/a27107.html">go_resonite_cask</a>();</div>
-<div class="line"><span class="lineno"> 1960</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/d2d/a27111.html">go_tadpole_cage</a>();</div>
-<div class="line"><span class="lineno"> 1961</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/dab/a27119.html">go_flames</a>();</div>
-<div class="line"><span class="lineno"> 1962</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d03/a27127.html">go_heat</a>();</div>
-<div class="line"><span class="lineno"> 1963</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d3e/a27135.html">go_bear_trap</a>();</div>
-<div class="line"><span class="lineno"> 1964</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/d28/a27275.html">go_duskwither_spire_power_source</a>();</div>
-<div class="line"><span class="lineno"> 1965</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d89/a27143.html">go_l70_etc_music</a>();</div>
-<div class="line"><span class="lineno"> 1966</span> </div>
-<div class="line"><span class="lineno"> 1967</span>    <span class="comment">// Theirs</span></div>
-<div class="line"><span class="lineno"> 1968</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/dca/a27151.html">go_brewfest_music</a>();</div>
-<div class="line"><span class="lineno"> 1969</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d26/a27159.html">go_pirate_day_music</a>();</div>
-<div class="line"><span class="lineno"> 1970</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d8a/a27167.html">go_darkmoon_faire_music</a>();</div>
-<div class="line"><span class="lineno"> 1971</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/dcc/a27175.html">go_midsummer_music</a>();</div>
-<div class="line"><span class="lineno"> 1972</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d45/a27183.html">go_gilded_brazier</a>();</div>
-<div class="line"><span class="lineno"> 1973</span>    <span class="comment">//new go_shrine_of_the_birds();</span></div>
-<div class="line"><span class="lineno"> 1974</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/d52/a27203.html">go_southfury_moonstone</a>();</div>
-<div class="line"><span class="lineno"> 1975</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/d89/a27191.html">go_tablet_of_the_seven</a>();</div>
-<div class="line"><span class="lineno"> 1976</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/dd7/a27195.html">go_jump_a_tron</a>();</div>
-<div class="line"><span class="lineno"> 1977</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/dc7/a27199.html">go_sacred_fire_of_life</a>();</div>
-<div class="line"><span class="lineno"> 1978</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/d3c/a27207.html">go_tele_to_dalaran_crystal</a>();</div>
-<div class="line"><span class="lineno"> 1979</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d00/a27211.html">go_tele_to_violet_stand</a>();</div>
-<div class="line"><span class="lineno"> 1980</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d60/a27215.html">go_fel_crystalforge</a>();</div>
-<div class="line"><span class="lineno"> 1981</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/dd3/a27219.html">go_bashir_crystalforge</a>();</div>
-<div class="line"><span class="lineno"> 1982</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/dcc/a27223.html">go_scourge_cage</a>();</div>
-<div class="line"><span class="lineno"> 1983</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/d62/a27227.html">go_arcane_prison</a>();</div>
-<div class="line"><span class="lineno"> 1984</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/d00/a27231.html">go_jotunheim_cage</a>();</div>
-<div class="line"><span class="lineno"> 1985</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/d61/a27235.html">go_table_theka</a>();</div>
-<div class="line"><span class="lineno"> 1986</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/d18/a27239.html">go_soulwell</a>();</div>
-<div class="line"><span class="lineno"> 1987</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/d9d/a27247.html">go_dragonflayer_cage</a>();</div>
-<div class="line"><span class="lineno"> 1988</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/dd4/a27251.html">go_amberpine_outhouse</a>();</div>
-<div class="line"><span class="lineno"> 1989</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/d6b/a27255.html">go_hive_pod</a>();</div>
-<div class="line"><span class="lineno"> 1990</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d45/a27259.html">go_massive_seaforium_charge</a>();</div>
-<div class="line"><span class="lineno"> 1991</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/d96/a27263.html">go_veil_skith_cage</a>();</div>
-<div class="line"><span class="lineno"> 1992</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/d61/a27267.html">go_bells</a>();</div>
-<div class="line"><span class="lineno"> 1993</span>}</div>
-<div class="ttc" id="aa27075_html"><div class="ttname"><a href="../../d9/d2c/a27075.html">go_noblegarden_colored_egg</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:36</div></div>
-<div class="ttc" id="aa27079_html"><div class="ttname"><a href="../../d1/d11/a27079.html">go_seer_of_zebhalak</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:49</div></div>
-<div class="ttc" id="aa27083_html"><div class="ttname"><a href="../../de/d9c/a27083.html">go_mistwhisper_treasure</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:62</div></div>
-<div class="ttc" id="aa27087_html"><div class="ttname"><a href="../../d4/de1/a27087.html">go_witherbark_totem_bundle</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:81</div></div>
-<div class="ttc" id="aa27095_html"><div class="ttname"><a href="../../d0/d2b/a27095.html">go_arena_ready_marker</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:116</div></div>
-<div class="ttc" id="aa27099_html"><div class="ttname"><a href="../../df/d93/a27099.html">go_ethereum_prison</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:150</div></div>
-<div class="ttc" id="aa27103_html"><div class="ttname"><a href="../../dc/d10/a27103.html">go_ethereum_stasis</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:206</div></div>
-<div class="ttc" id="aa27107_html"><div class="ttname"><a href="../../d0/dc0/a27107.html">go_resonite_cask</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:231</div></div>
-<div class="ttc" id="aa27111_html"><div class="ttname"><a href="../../d7/d2d/a27111.html">go_tadpole_cage</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:257</div></div>
-<div class="ttc" id="aa27119_html"><div class="ttname"><a href="../../d1/dab/a27119.html">go_flames</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:323</div></div>
-<div class="ttc" id="aa27127_html"><div class="ttname"><a href="../../dd/d03/a27127.html">go_heat</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:370</div></div>
-<div class="ttc" id="aa27135_html"><div class="ttname"><a href="../../dd/d3e/a27135.html">go_bear_trap</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:419</div></div>
-<div class="ttc" id="aa27143_html"><div class="ttname"><a href="../../dc/d89/a27143.html">go_l70_etc_music</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:485</div></div>
-<div class="ttc" id="aa27151_html"><div class="ttname"><a href="../../d3/dca/a27151.html">go_brewfest_music</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:570</div></div>
-<div class="ttc" id="aa27159_html"><div class="ttname"><a href="../../dd/d26/a27159.html">go_pirate_day_music</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:717</div></div>
-<div class="ttc" id="aa27167_html"><div class="ttname"><a href="../../d9/d8a/a27167.html">go_darkmoon_faire_music</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:772</div></div>
-<div class="ttc" id="aa27175_html"><div class="ttname"><a href="../../dd/dcc/a27175.html">go_midsummer_music</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:829</div></div>
-<div class="ttc" id="aa27183_html"><div class="ttname"><a href="../../d8/d45/a27183.html">go_gilded_brazier</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:899</div></div>
-<div class="ttc" id="aa27191_html"><div class="ttname"><a href="../../d1/d89/a27191.html">go_tablet_of_the_seven</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:978</div></div>
-<div class="ttc" id="aa27195_html"><div class="ttname"><a href="../../d7/dd7/a27195.html">go_jump_a_tron</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1000</div></div>
-<div class="ttc" id="aa27199_html"><div class="ttname"><a href="../../dc/dc7/a27199.html">go_sacred_fire_of_life</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1023</div></div>
-<div class="ttc" id="aa27203_html"><div class="ttname"><a href="../../d5/d52/a27203.html">go_southfury_moonstone</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1094</div></div>
-<div class="ttc" id="aa27207_html"><div class="ttname"><a href="../../d2/d3c/a27207.html">go_tele_to_dalaran_crystal</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1127</div></div>
-<div class="ttc" id="aa27211_html"><div class="ttname"><a href="../../dc/d00/a27211.html">go_tele_to_violet_stand</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1147</div></div>
-<div class="ttc" id="aa27215_html"><div class="ttname"><a href="../../d8/d60/a27215.html">go_fel_crystalforge</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1177</div></div>
-<div class="ttc" id="aa27219_html"><div class="ttname"><a href="../../dd/dd3/a27219.html">go_bashir_crystalforge</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1236</div></div>
-<div class="ttc" id="aa27223_html"><div class="ttname"><a href="../../d9/dcc/a27223.html">go_scourge_cage</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1288</div></div>
-<div class="ttc" id="aa27227_html"><div class="ttname"><a href="../../d0/d62/a27227.html">go_arcane_prison</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1316</div></div>
-<div class="ttc" id="aa27231_html"><div class="ttname"><a href="../../db/d00/a27231.html">go_jotunheim_cage</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1351</div></div>
-<div class="ttc" id="aa27235_html"><div class="ttname"><a href="../../db/d61/a27235.html">go_table_theka</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1401</div></div>
-<div class="ttc" id="aa27239_html"><div class="ttname"><a href="../../db/d18/a27239.html">go_soulwell</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1438</div></div>
-<div class="ttc" id="aa27247_html"><div class="ttname"><a href="../../d7/d9d/a27247.html">go_dragonflayer_cage</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1568</div></div>
-<div class="ttc" id="aa27251_html"><div class="ttname"><a href="../../d1/dd4/a27251.html">go_amberpine_outhouse</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1622</div></div>
-<div class="ttc" id="aa27255_html"><div class="ttname"><a href="../../d5/d6b/a27255.html">go_hive_pod</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1672</div></div>
-<div class="ttc" id="aa27259_html"><div class="ttname"><a href="../../d6/d45/a27259.html">go_massive_seaforium_charge</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1691</div></div>
-<div class="ttc" id="aa27263_html"><div class="ttname"><a href="../../de/d96/a27263.html">go_veil_skith_cage</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1714</div></div>
-<div class="ttc" id="aa27267_html"><div class="ttname"><a href="../../da/d61/a27267.html">go_bells</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1790</div></div>
-<div class="ttc" id="aa27275_html"><div class="ttname"><a href="../../d0/d28/a27275.html">go_duskwither_spire_power_source</a></div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1935</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
-
-</div>
-</div>
-<a id="acba582cbc90c710c629dd30926acdca4" name="acba582cbc90c710c629dd30926acdca4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acba582cbc90c710c629dd30926acdca4">&#9670;&#160;</a></span>AddSC_guards()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_guards </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  178</span>{</div>
-<div class="line"><span class="lineno">  179</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d55/a27287.html">guard_shattrath_aldor</a>();</div>
-<div class="line"><span class="lineno">  180</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/dd3/a27279.html">guard_shattrath_scryer</a>();</div>
-<div class="line"><span class="lineno">  181</span>}</div>
-<div class="ttc" id="aa27279_html"><div class="ttname"><a href="../../d9/dd3/a27279.html">guard_shattrath_scryer</a></div><div class="ttdef"><b>Definition:</b> guards.cpp:45</div></div>
-<div class="ttc" id="aa27287_html"><div class="ttname"><a href="../../dc/d55/a27287.html">guard_shattrath_aldor</a></div><div class="ttdef"><b>Definition:</b> guards.cpp:112</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
-
-</div>
-</div>
-<a id="a3e28ebf5a580887bb117f786689a34c6" name="a3e28ebf5a580887bb117f786689a34c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e28ebf5a580887bb117f786689a34c6">&#9670;&#160;</a></span>AddSC_item_scripts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_item_scripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  217</span>{</div>
-<div class="line"><span class="lineno">  218</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/d3b/a27295.html">item_only_for_flight</a>();</div>
-<div class="line"><span class="lineno">  219</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/de7/a27299.html">item_incendiary_explosives</a>();</div>
-<div class="line"><span class="lineno">  220</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/d79/a27303.html">item_mysterious_egg</a>();</div>
-<div class="line"><span class="lineno">  221</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d00/a27307.html">item_disgusting_jar</a>();</div>
-<div class="line"><span class="lineno">  222</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/df3/a27311.html">item_petrov_cluster_bombs</a>();</div>
-<div class="line"><span class="lineno">  223</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/dd0/a27315.html">item_captured_frog</a>();</div>
-<div class="line"><span class="lineno">  224</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d8e/a27319.html">item_generic_limit_chance_above_60</a>();</div>
-<div class="line"><span class="lineno">  225</span>}</div>
-<div class="ttc" id="aa27295_html"><div class="ttname"><a href="../../de/d3b/a27295.html">item_only_for_flight</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:34</div></div>
-<div class="ttc" id="aa27299_html"><div class="ttname"><a href="../../d1/de7/a27299.html">item_incendiary_explosives</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:75</div></div>
-<div class="ttc" id="aa27303_html"><div class="ttname"><a href="../../d3/d79/a27303.html">item_mysterious_egg</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:96</div></div>
-<div class="ttc" id="aa27307_html"><div class="ttname"><a href="../../dc/d00/a27307.html">item_disgusting_jar</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:116</div></div>
-<div class="ttc" id="aa27311_html"><div class="ttname"><a href="../../dd/df3/a27311.html">item_petrov_cluster_bombs</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:143</div></div>
-<div class="ttc" id="aa27315_html"><div class="ttname"><a href="../../da/dd0/a27315.html">item_captured_frog</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:173</div></div>
-<div class="ttc" id="aa27319_html"><div class="ttname"><a href="../../d9/d8e/a27319.html">item_generic_limit_chance_above_60</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:195</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
-
-</div>
-</div>
-<a id="a3ffce1ea6cca981888af85ba67364df9" name="a3ffce1ea6cca981888af85ba67364df9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ffce1ea6cca981888af85ba67364df9">&#9670;&#160;</a></span>AddSC_npc_innkeeper()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_npc_innkeeper </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   91</span>{</div>
-<div class="line"><span class="lineno">   92</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d3a/a27331.html">npc_innkeeper</a>;</div>
-<div class="line"><span class="lineno">   93</span>}</div>
-<div class="ttc" id="aa27331_html"><div class="ttname"><a href="../../dc/d3a/a27331.html">npc_innkeeper</a></div><div class="ttdef"><b>Definition:</b> npc_innkeeper.cpp:32</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
-
-</div>
-</div>
-<a id="a428ec531a2dc4e479b5c73e0d0694091" name="a428ec531a2dc4e479b5c73e0d0694091"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a428ec531a2dc4e479b5c73e0d0694091">&#9670;&#160;</a></span>AddSC_npc_professions()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_npc_professions </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1370</span>{</div>
-<div class="line"><span class="lineno"> 1371</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/d30/a27335.html">npc_prof_alchemy</a>();</div>
-<div class="line"><span class="lineno"> 1372</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/d17/a27339.html">npc_prof_blacksmith</a>();</div>
-<div class="line"><span class="lineno"> 1373</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d83/a27343.html">npc_engineering_tele_trinket</a>();</div>
-<div class="line"><span class="lineno"> 1374</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/d3e/a27347.html">npc_prof_leather</a>();</div>
-<div class="line"><span class="lineno"> 1375</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/d56/a27351.html">npc_prof_tailor</a>();</div>
-<div class="line"><span class="lineno"> 1376</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d70/a27355.html">go_evil_book_for_dummies</a>();</div>
-<div class="line"><span class="lineno"> 1377</span>}</div>
-<div class="ttc" id="aa27335_html"><div class="ttname"><a href="../../de/d30/a27335.html">npc_prof_alchemy</a></div><div class="ttdef"><b>Definition:</b> npc_professions.cpp:469</div></div>
-<div class="ttc" id="aa27339_html"><div class="ttname"><a href="../../d3/d17/a27339.html">npc_prof_blacksmith</a></div><div class="ttdef"><b>Definition:</b> npc_professions.cpp:634</div></div>
-<div class="ttc" id="aa27343_html"><div class="ttname"><a href="../../d6/d83/a27343.html">npc_engineering_tele_trinket</a></div><div class="ttdef"><b>Definition:</b> npc_professions.cpp:875</div></div>
-<div class="ttc" id="aa27347_html"><div class="ttname"><a href="../../d4/d3e/a27347.html">npc_prof_leather</a></div><div class="ttdef"><b>Definition:</b> npc_professions.cpp:967</div></div>
-<div class="ttc" id="aa27351_html"><div class="ttname"><a href="../../de/d56/a27351.html">npc_prof_tailor</a></div><div class="ttdef"><b>Definition:</b> npc_professions.cpp:1067</div></div>
-<div class="ttc" id="aa27355_html"><div class="ttname"><a href="../../d9/d70/a27355.html">go_evil_book_for_dummies</a></div><div class="ttdef"><b>Definition:</b> npc_professions.cpp:1237</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
-
-</div>
-</div>
-<a id="a81e200e5d045a2403cd76a0559a6fd8c" name="a81e200e5d045a2403cd76a0559a6fd8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81e200e5d045a2403cd76a0559a6fd8c">&#9670;&#160;</a></span>AddSC_npc_stave_of_ancients()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_npc_stave_of_ancients </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1226</span>{</div>
-<div class="line"><span class="lineno"> 1227</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/ded/a27359.html">npc_artorius</a>();</div>
-<div class="line"><span class="lineno"> 1228</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/dd1/a27367.html">npc_precious</a>();</div>
-<div class="line"><span class="lineno"> 1229</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d10/a27375.html">npc_simone</a>();</div>
-<div class="line"><span class="lineno"> 1230</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/dd7/a27383.html">npc_nelson</a>();</div>
-<div class="line"><span class="lineno"> 1231</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/d25/a27391.html">npc_franklin</a>();</div>
-<div class="line"><span class="lineno"> 1232</span>}</div>
-<div class="ttc" id="aa27359_html"><div class="ttname"><a href="../../dc/ded/a27359.html">npc_artorius</a></div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:273</div></div>
-<div class="ttc" id="aa27367_html"><div class="ttname"><a href="../../d2/dd1/a27367.html">npc_precious</a></div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:454</div></div>
-<div class="ttc" id="aa27375_html"><div class="ttname"><a href="../../d6/d10/a27375.html">npc_simone</a></div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:518</div></div>
-<div class="ttc" id="aa27383_html"><div class="ttname"><a href="../../de/dd7/a27383.html">npc_nelson</a></div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:838</div></div>
-<div class="ttc" id="aa27391_html"><div class="ttname"><a href="../../db/d25/a27391.html">npc_franklin</a></div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:1051</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
-
-</div>
-</div>
-<a id="a36f8a13e2844278c955f3a8155e7a11c" name="a36f8a13e2844278c955f3a8155e7a11c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36f8a13e2844278c955f3a8155e7a11c">&#9670;&#160;</a></span>AddSC_npc_taxi()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_npc_taxi </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  269</span>{</div>
-<div class="line"><span class="lineno">  270</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d10/a27403.html">npc_taxi</a>;</div>
-<div class="line"><span class="lineno">  271</span>}</div>
-<div class="ttc" id="aa27403_html"><div class="ttname"><a href="../../dc/d10/a27403.html">npc_taxi</a></div><div class="ttdef"><b>Definition:</b> npc_taxi.cpp:71</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
-
-</div>
-</div>
-<a id="aac822f73be6c9bf1dfaa4bbaec0e5aef" name="aac822f73be6c9bf1dfaa4bbaec0e5aef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac822f73be6c9bf1dfaa4bbaec0e5aef">&#9670;&#160;</a></span>AddSC_npcs_special()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_npcs_special </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 2696</span>{</div>
-<div class="line"><span class="lineno"> 2697</span>    <span class="comment">// Ours</span></div>
-<div class="line"><span class="lineno"> 2698</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/da0/a27407.html">npc_elder_clearwater</a>();</div>
-<div class="line"><span class="lineno"> 2699</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/da0/a27415.html">npc_riggle_bassbait</a>();</div>
-<div class="line"><span class="lineno"> 2700</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/df8/a27431.html">npc_target_dummy</a>();</div>
-<div class="line"><span class="lineno"> 2701</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d2d/a27423.html">npc_training_dummy</a>();</div>
-<div class="line"><span class="lineno"> 2702</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/d44/a27559.html">npc_venomhide_hatchling</a>();</div>
-<div class="line"><span class="lineno"> 2703</span> </div>
-<div class="line"><span class="lineno"> 2704</span>    <span class="comment">// Theirs</span></div>
-<div class="line"><span class="lineno"> 2705</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/de3/a27443.html">npc_air_force_bots</a>();</div>
-<div class="line"><span class="lineno"> 2706</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d12/a27451.html">npc_chicken_cluck</a>();</div>
-<div class="line"><span class="lineno"> 2707</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/d66/a27459.html">npc_dancing_flames</a>();</div>
-<div class="line"><span class="lineno"> 2708</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/d69/a27467.html">npc_doctor</a>();</div>
-<div class="line"><span class="lineno"> 2709</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d1/dfc/a27475.html">npc_injured_patient</a>();</div>
-<div class="line"><span class="lineno"> 2710</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/df4/a27483.html">npc_garments_of_quests</a>();</div>
-<div class="line"><span class="lineno"> 2711</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/de2/a27491.html">npc_guardian</a>();</div>
-<div class="line"><span class="lineno"> 2712</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/d7f/a27499.html">npc_sayge</a>();</div>
-<div class="line"><span class="lineno"> 2713</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/db1/a27503.html">npc_steam_tonk</a>();</div>
-<div class="line"><span class="lineno"> 2714</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d1e/a27511.html">npc_wormhole</a>();</div>
-<div class="line"><span class="lineno"> 2715</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/de5/a27519.html">npc_pet_trainer</a>();</div>
-<div class="line"><span class="lineno"> 2716</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d86/a27527.html">npc_locksmith</a>();</div>
-<div class="line"><span class="lineno"> 2717</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/db2/a27531.html">npc_experience</a>();</div>
-<div class="line"><span class="lineno"> 2718</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/dc7/a27535.html">npc_firework</a>();</div>
-<div class="line"><span class="lineno"> 2719</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/dab/a27543.html">npc_spring_rabbit</a>();</div>
-<div class="line"><span class="lineno"> 2720</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d06/a27551.html">npc_stable_master</a>();</div>
-<div class="line"><span class="lineno"> 2721</span>    <a class="code hl_define" href="../../df/d28/a03821.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d0/d84/a27567.html">npc_arcanite_dragonling</a>);</div>
-<div class="line"><span class="lineno"> 2722</span>    <a class="code hl_define" href="../../df/d28/a03821.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d1/d71/a27571.html">npc_crashin_thrashin_robot</a>);</div>
-<div class="line"><span class="lineno"> 2723</span>    <a class="code hl_define" href="../../df/d28/a03821.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d2/d65/a27575.html">npc_controller</a>);</div>
-<div class="line"><span class="lineno"> 2724</span>}</div>
-<div class="ttc" id="aa03821_html_a5e7352841895df7117e2830448eb533f"><div class="ttname"><a href="../../df/d28/a03821.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a></div><div class="ttdeci">#define RegisterCreatureAI(ai_name)</div><div class="ttdef"><b>Definition:</b> CreatureScript.h:71</div></div>
-<div class="ttc" id="aa27407_html"><div class="ttname"><a href="../../d2/da0/a27407.html">npc_elder_clearwater</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:59</div></div>
-<div class="ttc" id="aa27415_html"><div class="ttname"><a href="../../da/da0/a27415.html">npc_riggle_bassbait</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:216</div></div>
-<div class="ttc" id="aa27423_html"><div class="ttname"><a href="../../d9/d2d/a27423.html">npc_training_dummy</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:329</div></div>
-<div class="ttc" id="aa27431_html"><div class="ttname"><a href="../../dd/df8/a27431.html">npc_target_dummy</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:387</div></div>
-<div class="ttc" id="aa27443_html"><div class="ttname"><a href="../../d0/de3/a27443.html">npc_air_force_bots</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:501</div></div>
-<div class="ttc" id="aa27451_html"><div class="ttname"><a href="../../dd/d12/a27451.html">npc_chicken_cluck</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:669</div></div>
-<div class="ttc" id="aa27459_html"><div class="ttname"><a href="../../d4/d66/a27459.html">npc_dancing_flames</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:764</div></div>
-<div class="ttc" id="aa27467_html"><div class="ttname"><a href="../../d2/d69/a27467.html">npc_doctor</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:910</div></div>
-<div class="ttc" id="aa27475_html"><div class="ttname"><a href="../../d1/dfc/a27475.html">npc_injured_patient</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:1055</div></div>
-<div class="ttc" id="aa27483_html"><div class="ttname"><a href="../../d9/df4/a27483.html">npc_garments_of_quests</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:1265</div></div>
-<div class="ttc" id="aa27491_html"><div class="ttname"><a href="../../dc/de2/a27491.html">npc_guardian</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:1464</div></div>
-<div class="ttc" id="aa27499_html"><div class="ttname"><a href="../../da/d7f/a27499.html">npc_sayge</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:1552</div></div>
-<div class="ttc" id="aa27503_html"><div class="ttname"><a href="../../db/db1/a27503.html">npc_steam_tonk</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:1681</div></div>
-<div class="ttc" id="aa27511_html"><div class="ttname"><a href="../../d6/d1e/a27511.html">npc_wormhole</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:1732</div></div>
-<div class="ttc" id="aa27519_html"><div class="ttname"><a href="../../d7/de5/a27519.html">npc_pet_trainer</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:1828</div></div>
-<div class="ttc" id="aa27527_html"><div class="ttname"><a href="../../dc/d86/a27527.html">npc_locksmith</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:1911</div></div>
-<div class="ttc" id="aa27531_html"><div class="ttname"><a href="../../de/db2/a27531.html">npc_experience</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:2016</div></div>
-<div class="ttc" id="aa27535_html"><div class="ttname"><a href="../../d0/dc7/a27535.html">npc_firework</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:2127</div></div>
-<div class="ttc" id="aa27543_html"><div class="ttname"><a href="../../dd/dab/a27543.html">npc_spring_rabbit</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:2361</div></div>
-<div class="ttc" id="aa27551_html"><div class="ttname"><a href="../../d8/d06/a27551.html">npc_stable_master</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:2457</div></div>
-<div class="ttc" id="aa27559_html"><div class="ttname"><a href="../../db/d44/a27559.html">npc_venomhide_hatchling</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:2531</div></div>
-<div class="ttc" id="aa27567_html"><div class="ttname"><a href="../../d0/d84/a27567.html">npc_arcanite_dragonling</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:2595</div></div>
-<div class="ttc" id="aa27571_html"><div class="ttname"><a href="../../d1/d71/a27571.html">npc_crashin_thrashin_robot</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:2657</div></div>
-<div class="ttc" id="aa27575_html"><div class="ttname"><a href="../../d2/d65/a27575.html">npc_controller</a></div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:2683</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00912">npc_doctor::npc_doctor()</a>, and <a class="el" href="../../#l00071">RegisterCreatureAI</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
-
-</div>
-</div>
-<a id="a1f476a8466c12651b57fd55bf13b9617" name="a1f476a8466c12651b57fd55bf13b9617"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f476a8466c12651b57fd55bf13b9617">&#9670;&#160;</a></span>AddSC_player_scripts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_player_scripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   70</span>{</div>
-<div class="line"><span class="lineno">   71</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/d24/a27579.html">QuestApprenticeAnglerPlayerScript</a>();</div>
-<div class="line"><span class="lineno">   72</span>}</div>
-<div class="ttc" id="aa27579_html"><div class="ttname"><a href="../../d2/d24/a27579.html">QuestApprenticeAnglerPlayerScript</a></div><div class="ttdef"><b>Definition:</b> player_scripts.cpp:27</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
-
-</div>
-</div>
-<a id="a8c20fa2f42eb423e39f2aaafe8fadafc" name="a8c20fa2f42eb423e39f2aaafe8fadafc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c20fa2f42eb423e39f2aaafe8fadafc">&#9670;&#160;</a></span>AddSC_server_mail()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_server_mail </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   79</span>{</div>
-<div class="line"><span class="lineno">   80</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d08/a27583.html">ServerMailReward</a>();</div>
-<div class="line"><span class="lineno">   81</span>}</div>
-<div class="ttc" id="aa27583_html"><div class="ttname"><a href="../../d8/d08/a27583.html">ServerMailReward</a></div><div class="ttdef"><b>Definition:</b> server_mail.cpp:25</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
-
-</div>
-</div>
-<a id="a5e7b18db76511725a47c51e9ce748575" name="a5e7b18db76511725a47c51e9ce748575"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e7b18db76511725a47c51e9ce748575">&#9670;&#160;</a></span>AddWorldScripts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddWorldScripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   39</span>{</div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_function" href="../../d7/d02/a01808.html#a992f2da647f1f8748c7c9239b52079ad">AddSC_areatrigger_scripts</a>();</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_function" href="../../d7/d02/a01808.html#aabef9c5c7a434027ce4d3af6e2b77430">AddSC_emerald_dragons</a>();</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_function" href="../../d7/d02/a01808.html#a50f66c4d6429b38157e35a75a0daa31d">AddSC_generic_creature</a>();</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_function" href="../../d7/d02/a01808.html#a279b19d9fff015d16fc8bbd2fbc9325a">AddSC_go_scripts</a>();</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_function" href="../../d7/d02/a01808.html#acba582cbc90c710c629dd30926acdca4">AddSC_guards</a>();</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_function" href="../../d7/d02/a01808.html#a3e28ebf5a580887bb117f786689a34c6">AddSC_item_scripts</a>();</div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_function" href="../../d7/d02/a01808.html#a428ec531a2dc4e479b5c73e0d0694091">AddSC_npc_professions</a>();</div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_function" href="../../d7/d02/a01808.html#a3ffce1ea6cca981888af85ba67364df9">AddSC_npc_innkeeper</a>();</div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_function" href="../../d7/d02/a01808.html#aac822f73be6c9bf1dfaa4bbaec0e5aef">AddSC_npcs_special</a>();</div>
-<div class="line"><span class="lineno">   49</span>    <a class="code hl_function" href="../../d7/d02/a01808.html#a36f8a13e2844278c955f3a8155e7a11c">AddSC_npc_taxi</a>();</div>
-<div class="line"><span class="lineno">   50</span>    <a class="code hl_function" href="../../d7/d02/a01808.html#a5091d6f933800f3313078304ad5c38ca">AddSC_achievement_scripts</a>();</div>
-<div class="line"><span class="lineno">   51</span>    <a class="code hl_function" href="../../d7/d02/a01808.html#ae796ad81a78a552e5c31fcf6c5c135fa">AddSC_chat_log</a>(); <span class="comment">// location: scripts\World\chat_log.cpp</span></div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_function" href="../../d7/d02/a01808.html#a530be5efb251d5ca58e97804e48ad953">AddSC_action_ip_logger</a>(); <span class="comment">// location: scripts\World\action_ip_logger.cpp</span></div>
-<div class="line"><span class="lineno">   53</span>    <a class="code hl_function" href="../../d7/d02/a01808.html#a1f476a8466c12651b57fd55bf13b9617">AddSC_player_scripts</a>();</div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_function" href="../../d7/d02/a01808.html#a81e200e5d045a2403cd76a0559a6fd8c">AddSC_npc_stave_of_ancients</a>();</div>
-<div class="line"><span class="lineno">   55</span>    <a class="code hl_function" href="../../d7/d02/a01808.html#a8c20fa2f42eb423e39f2aaafe8fadafc">AddSC_server_mail</a>();</div>
-<div class="line"><span class="lineno">   56</span>}</div>
-<div class="ttc" id="aa01808_html_a1f476a8466c12651b57fd55bf13b9617"><div class="ttname"><a href="../../d7/d02/a01808.html#a1f476a8466c12651b57fd55bf13b9617">AddSC_player_scripts</a></div><div class="ttdeci">void AddSC_player_scripts()</div><div class="ttdef"><b>Definition:</b> player_scripts.cpp:69</div></div>
-<div class="ttc" id="aa01808_html_a279b19d9fff015d16fc8bbd2fbc9325a"><div class="ttname"><a href="../../d7/d02/a01808.html#a279b19d9fff015d16fc8bbd2fbc9325a">AddSC_go_scripts</a></div><div class="ttdeci">void AddSC_go_scripts()</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1949</div></div>
-<div class="ttc" id="aa01808_html_a36f8a13e2844278c955f3a8155e7a11c"><div class="ttname"><a href="../../d7/d02/a01808.html#a36f8a13e2844278c955f3a8155e7a11c">AddSC_npc_taxi</a></div><div class="ttdeci">void AddSC_npc_taxi()</div><div class="ttdef"><b>Definition:</b> npc_taxi.cpp:268</div></div>
-<div class="ttc" id="aa01808_html_a3e28ebf5a580887bb117f786689a34c6"><div class="ttname"><a href="../../d7/d02/a01808.html#a3e28ebf5a580887bb117f786689a34c6">AddSC_item_scripts</a></div><div class="ttdeci">void AddSC_item_scripts()</div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:216</div></div>
-<div class="ttc" id="aa01808_html_a3ffce1ea6cca981888af85ba67364df9"><div class="ttname"><a href="../../d7/d02/a01808.html#a3ffce1ea6cca981888af85ba67364df9">AddSC_npc_innkeeper</a></div><div class="ttdeci">void AddSC_npc_innkeeper()</div><div class="ttdef"><b>Definition:</b> npc_innkeeper.cpp:90</div></div>
-<div class="ttc" id="aa01808_html_a428ec531a2dc4e479b5c73e0d0694091"><div class="ttname"><a href="../../d7/d02/a01808.html#a428ec531a2dc4e479b5c73e0d0694091">AddSC_npc_professions</a></div><div class="ttdeci">void AddSC_npc_professions()</div><div class="ttdef"><b>Definition:</b> npc_professions.cpp:1369</div></div>
-<div class="ttc" id="aa01808_html_a5091d6f933800f3313078304ad5c38ca"><div class="ttname"><a href="../../d7/d02/a01808.html#a5091d6f933800f3313078304ad5c38ca">AddSC_achievement_scripts</a></div><div class="ttdeci">void AddSC_achievement_scripts()</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:277</div></div>
-<div class="ttc" id="aa01808_html_a50f66c4d6429b38157e35a75a0daa31d"><div class="ttname"><a href="../../d7/d02/a01808.html#a50f66c4d6429b38157e35a75a0daa31d">AddSC_generic_creature</a></div><div class="ttdeci">void AddSC_generic_creature()</div><div class="ttdef"><b>Definition:</b> mob_generic_creature.cpp:58</div></div>
-<div class="ttc" id="aa01808_html_a530be5efb251d5ca58e97804e48ad953"><div class="ttname"><a href="../../d7/d02/a01808.html#a530be5efb251d5ca58e97804e48ad953">AddSC_action_ip_logger</a></div><div class="ttdeci">void AddSC_action_ip_logger()</div><div class="ttdef"><b>Definition:</b> action_ip_logger.cpp:333</div></div>
-<div class="ttc" id="aa01808_html_a81e200e5d045a2403cd76a0559a6fd8c"><div class="ttname"><a href="../../d7/d02/a01808.html#a81e200e5d045a2403cd76a0559a6fd8c">AddSC_npc_stave_of_ancients</a></div><div class="ttdeci">void AddSC_npc_stave_of_ancients()</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:1225</div></div>
-<div class="ttc" id="aa01808_html_a8c20fa2f42eb423e39f2aaafe8fadafc"><div class="ttname"><a href="../../d7/d02/a01808.html#a8c20fa2f42eb423e39f2aaafe8fadafc">AddSC_server_mail</a></div><div class="ttdeci">void AddSC_server_mail()</div><div class="ttdef"><b>Definition:</b> server_mail.cpp:78</div></div>
-<div class="ttc" id="aa01808_html_a992f2da647f1f8748c7c9239b52079ad"><div class="ttname"><a href="../../d7/d02/a01808.html#a992f2da647f1f8748c7c9239b52079ad">AddSC_areatrigger_scripts</a></div><div class="ttdeci">void AddSC_areatrigger_scripts()</div><div class="ttdef"><b>Definition:</b> areatrigger_scripts.cpp:437</div></div>
-<div class="ttc" id="aa01808_html_aabef9c5c7a434027ce4d3af6e2b77430"><div class="ttname"><a href="../../d7/d02/a01808.html#aabef9c5c7a434027ce4d3af6e2b77430">AddSC_emerald_dragons</a></div><div class="ttdeci">void AddSC_emerald_dragons()</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:846</div></div>
-<div class="ttc" id="aa01808_html_aac822f73be6c9bf1dfaa4bbaec0e5aef"><div class="ttname"><a href="../../d7/d02/a01808.html#aac822f73be6c9bf1dfaa4bbaec0e5aef">AddSC_npcs_special</a></div><div class="ttdeci">void AddSC_npcs_special()</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:2695</div></div>
-<div class="ttc" id="aa01808_html_acba582cbc90c710c629dd30926acdca4"><div class="ttname"><a href="../../d7/d02/a01808.html#acba582cbc90c710c629dd30926acdca4">AddSC_guards</a></div><div class="ttdeci">void AddSC_guards()</div><div class="ttdef"><b>Definition:</b> guards.cpp:177</div></div>
-<div class="ttc" id="aa01808_html_ae796ad81a78a552e5c31fcf6c5c135fa"><div class="ttname"><a href="../../d7/d02/a01808.html#ae796ad81a78a552e5c31fcf6c5c135fa">AddSC_chat_log</a></div><div class="ttdeci">void AddSC_chat_log()</div><div class="ttdef"><b>Definition:</b> chat_log.cpp:158</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00277">AddSC_achievement_scripts()</a>, <a class="el" href="../../#l00333">AddSC_action_ip_logger()</a>, <a class="el" href="../../#l00437">AddSC_areatrigger_scripts()</a>, <a class="el" href="../../#l00158">AddSC_chat_log()</a>, <a class="el" href="../../#l00846">AddSC_emerald_dragons()</a>, <a class="el" href="../../#l00058">AddSC_generic_creature()</a>, <a class="el" href="../../#l01949">AddSC_go_scripts()</a>, <a class="el" href="../../#l00177">AddSC_guards()</a>, <a class="el" href="../../#l00216">AddSC_item_scripts()</a>, <a class="el" href="../../#l00090">AddSC_npc_innkeeper()</a>, <a class="el" href="../../#l01369">AddSC_npc_professions()</a>, <a class="el" href="../../#l01225">AddSC_npc_stave_of_ancients()</a>, <a class="el" href="../../#l00268">AddSC_npc_taxi()</a>, <a class="el" href="../../#l02695">AddSC_npcs_special()</a>, <a class="el" href="../../#l00069">AddSC_player_scripts()</a>, and <a class="el" href="../../#l00078">AddSC_server_mail()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00265">instance_hyjal::instance_mount_hyjal_InstanceMapScript::SetData()</a>.</p>
 
 </div>
 </div>
@@ -824,8 +305,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_0a0414616ece51a8570c4e36029d4e29.html">World</a></li><li class="navelem"><a class="el" href="../../d7/d02/a01808.html">world_script_loader.cpp</a></li>
-    <li class="footer">Generated on Tue Aug 27 2024 10:00:19 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ee14a0f6ab8ad29bd27b6821baacc69.html">Kalimdor</a></li><li class="navelem"><a class="el" href="../../dir_5833980719a36b6f6a864b11e72f0bc7.html">CavernsOfTime</a></li><li class="navelem"><a class="el" href="../../dir_e068b882fd581e5818b3e126213c1b22.html">BattleForMountHyjal</a></li><li class="navelem"><a class="el" href="../../d7/d02/a01808.html">instance_hyjal.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 2 2024 20:39:13 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

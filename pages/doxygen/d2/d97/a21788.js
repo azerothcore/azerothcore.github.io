@@ -1,5 +1,8 @@
 var a21788 =
 [
-    [ "npc_ulduar_flames_spreadAI", "d2/d97/a21788.html#a607ee542f7c6d84f4072557e44a80905", null ],
-    [ "SpellHit", "d2/d97/a21788.html#abe69df9873fc125306a4ed757665e448", null ]
+    [ "npc_q24545_vegardAI", "d2/d97/a21788.html#a6a86b56508a86bf32ab5fb2bd46248c9", null ],
+    [ "JustDied", "d2/d97/a21788.html#a1f7784242bbaf39d0fb105d2930da37c", null ],
+    [ "KilledUnit", "d2/d97/a21788.html#a2d78117a6c2a29f52f1905595425964a", null ],
+    [ "UpdateAI", "d2/d97/a21788.html#a79cc34760b58ad4b29c6a0a496971f0a", null ],
+    [ "events", "d2/d97/a21788.html#a68f48d92cc5559025e635d599c2882e3", null ]
 ];

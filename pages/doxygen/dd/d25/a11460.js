@@ -1,12 +1,12 @@
 var a11460 =
 [
-    [ "boss_pyroguard_emberseerAI", "dd/d25/a11460.html#ac08deea0d151d109f36bb3cf66a34f29", null ],
-    [ "JustDied", "dd/d25/a11460.html#aa35fc50d327c0bf7506bfd166d098522", null ],
-    [ "JustEngagedWith", "dd/d25/a11460.html#a9eff335ff04e3da1e4488e00b55ecbaa", null ],
-    [ "OpenDoors", "dd/d25/a11460.html#a8002f8d7b6b06b970d38d9824d57d737", null ],
-    [ "Reset", "dd/d25/a11460.html#ab82a2bc6e9596d14dd2fd65b859af74d", null ],
-    [ "SetData", "dd/d25/a11460.html#a5892ccaf9107e2da47c22c21bf5b2ed9", null ],
-    [ "SpellHit", "dd/d25/a11460.html#a236f20c40eb1c37a25b04b5cf83e2488", null ],
-    [ "UpdateAI", "dd/d25/a11460.html#a075147c4409174652e732293426b732d", null ],
-    [ "UpdateRunes", "dd/d25/a11460.html#a87d7d63893a9feb6bb6c44adf1c637eb", null ]
+    [ "boss_balinda", "dd/d25/a11460.html#a2f3ce696dbc66843cddc13196800866b", null ],
+    [ "DamageTaken", "dd/d25/a11460.html#a826ad90ac15b3421e16fc3faa96784e7", null ],
+    [ "JustDied", "dd/d25/a11460.html#aeb10053198b9b4c43e963d23957ba9ba", null ],
+    [ "JustEngagedWith", "dd/d25/a11460.html#aa0b78302a92bf39ffee51ce3a71fb534", null ],
+    [ "JustSummoned", "dd/d25/a11460.html#a3c2306326d2f85fbb6766352117a1f91", null ],
+    [ "Reset", "dd/d25/a11460.html#a1ecfa5d743682997076a47cce44b19f5", null ],
+    [ "UpdateAI", "dd/d25/a11460.html#af3506dd75baef12fd0328aed21636978", null ],
+    [ "_hasCastIceBlock", "dd/d25/a11460.html#a05c24746060d7c9a3712d9f269b4af8e", null ],
+    [ "summons", "dd/d25/a11460.html#a83df5856391f0ba62dcb0538b7f44e2d", null ]
 ];

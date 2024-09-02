@@ -1,5 +1,6 @@
 var a04268 =
 [
-    [ "GetAISpellInfo", "d4/d1d/a04268.html#a1ed41ad074263f6c0c63f38b7f51414b", null ],
-    [ "IsValidCombatTarget", "d4/d1d/a04268.html#a981f03ba3b8c59eb1fa9d22df158ba19", null ]
+    [ "Acore::Asio::DeadlineTimer", "d5/d7a/a04768.html", null ],
+    [ "BasicDeadlineTimerThirdTemplateArg", "d4/d1d/a04268.html#aa00718a58368d47d518a9a0a5e9dbe48", null ],
+    [ "DeadlineTimerBase", "d4/d1d/a04268.html#af6bd04c5e5a0a7447efa9fa831408661", null ]
 ];

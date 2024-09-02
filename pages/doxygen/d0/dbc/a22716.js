@@ -1,6 +1,6 @@
 var a22716 =
 [
-    [ "HandleDummy", "d0/dbc/a22716.html#a9a4cee98bd023da694ac8fe76cd06078", null ],
-    [ "PrepareSpellScript", "d0/dbc/a22716.html#abb80edac9217487c4be085f12295691e", null ],
-    [ "Register", "d0/dbc/a22716.html#a2e483fb5c3e176f694eb7c39548a9903", null ]
+    [ "FilterTargets", "d0/dbc/a22716.html#a91b9fdebdffcae06da1882d7d46f5460", null ],
+    [ "PrepareSpellScript", "d0/dbc/a22716.html#ae8f3906007580963bda33cd0e420299b", null ],
+    [ "Register", "d0/dbc/a22716.html#a5e191d4fca7cc95ddec8730cc3fd8ffe", null ]
 ];

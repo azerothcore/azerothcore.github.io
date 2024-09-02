@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/AI/SmartScripts/SmartScriptMgr.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Asio/IpNetwork.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,74 +105,40 @@ $(document).ready(function(){initNavTree('db/d25/a04265.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">SmartScriptMgr.cpp File Reference</div></div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">IpNetwork.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">SmartScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CreatureTextMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameEventMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GridDefines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectDefines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">IpAddress.h</a>&quot;</code><br />
+<code>#include &lt;boost/version.hpp&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a9495a79442bfba89f12b76791020fe73"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d25/a04265.html#a9495a79442bfba89f12b76791020fe73">AC_SAI_IS_BOOLEAN_VALID</a>(e,  value)</td></tr>
-<tr class="separator:a9495a79442bfba89f12b76791020fe73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d5/d43/a04668"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html">Acore</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d8/dca/a04670"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dca/a04670.html">Acore::Net</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:af108d05a57113d16ab9c8f3b26870be2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dca/a04670.html#af108d05a57113d16ab9c8f3b26870be2">Acore::Net::IsInNetwork</a> (boost::asio::ip::address_v4 const &amp;networkAddress, boost::asio::ip::address_v4 const &amp;mask, boost::asio::ip::address_v4 const &amp;clientAddress)</td></tr>
+<tr class="separator:af108d05a57113d16ab9c8f3b26870be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af75b2c10ca445dc89c53b7ed8d17eae0"><td class="memItemLeft" align="right" valign="top">boost::asio::ip::address_v4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dca/a04670.html#af75b2c10ca445dc89c53b7ed8d17eae0">Acore::Net::GetDefaultNetmaskV4</a> (boost::asio::ip::address_v4 const &amp;networkAddress)</td></tr>
+<tr class="separator:af75b2c10ca445dc89c53b7ed8d17eae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2617cb1c747a45e5af4e2c32cc29d5de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dca/a04670.html#a2617cb1c747a45e5af4e2c32cc29d5de">Acore::Net::IsInNetwork</a> (boost::asio::ip::address_v6 const &amp;networkAddress, <a class="el" href="../../d1/dd3/a04427.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> prefixLength, boost::asio::ip::address_v6 const &amp;clientAddress)</td></tr>
+<tr class="separator:a2617cb1c747a45e5af4e2c32cc29d5de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a9495a79442bfba89f12b76791020fe73" name="a9495a79442bfba89f12b76791020fe73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9495a79442bfba89f12b76791020fe73">&#9670;&#160;</a></span>AC_SAI_IS_BOOLEAN_VALID</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define AC_SAI_IS_BOOLEAN_VALID</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">e, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">value&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">{ \</div>
-<div class="line">    if (value &gt; 1) \</div>
-<div class="line">    { \</div>
-<div class="line">        LOG_ERROR(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;SmartAIMgr: Entry {} SourceType {} Event {} Action {} uses param {} of type Boolean with value {}, valid values are 0 or 1, skipped.&quot;</span>, \</div>
-<div class="line">            e.entryOrGuid, e.GetScriptType(), e.event_id, e.GetActionType(), <a class="code hl_define" href="../../d9/d01/a00227.html#aa2ec973aa55e3816c2ca393e8ce204ac">STRINGIZE</a>(value), value); \</div>
-<div class="line">        <span class="keywordflow">return</span> <span class="keyword">false</span>; \</div>
-<div class="line">    } \</div>
-<div class="line">}</div>
-<div class="ttc" id="aa00227_html_aa2ec973aa55e3816c2ca393e8ce204ac"><div class="ttname"><a href="../../d9/d01/a00227.html#aa2ec973aa55e3816c2ca393e8ce204ac">STRINGIZE</a></div><div class="ttdeci">#define STRINGIZE(a)</div><div class="ttdef"><b>Definition:</b> Common.h:41</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5e5741f7891ede41bef7ecc492194021.html">AI</a></li><li class="navelem"><a class="el" href="../../dir_1c21bdf82e19ee3628235ac53838e383.html">SmartScripts</a></li><li class="navelem"><a class="el" href="../../db/d25/a04265.html">SmartScriptMgr.cpp</a></li>
-    <li class="footer">Generated on Tue Aug 27 2024 09:59:26 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_fc9741c162534defc29969ffbc5109e0.html">Asio</a></li><li class="navelem"><a class="el" href="../../db/d25/a04265.html">IpNetwork.h</a></li>
+    <li class="footer">Generated on Mon Sep 2 2024 20:38:51 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

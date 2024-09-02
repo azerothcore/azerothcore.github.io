@@ -1,6 +1,6 @@
 var a15656 =
 [
-    [ "npc_braug_dimspirit", "d1/dbd/a15656.html#ade08e9ad549d80c2f7918dbfcfbf41dc", null ],
-    [ "OnGossipHello", "d1/dbd/a15656.html#aeaed026edf5a1fa82c941f667c05815b", null ],
-    [ "OnGossipSelect", "d1/dbd/a15656.html#a87ea1ba3e247c9b14c1f6c72b3addea0", null ]
+    [ "ModDestHeight", "d1/dbd/a15656.html#a8bda9327c4244af41c513528ad5c818c", null ],
+    [ "PrepareSpellScript", "d1/dbd/a15656.html#aba5a03c94fa5d87c46a91369875c0ab2", null ],
+    [ "Register", "d1/dbd/a15656.html#a62b0ce71caeff96705b15aa240ddd09f", null ]
 ];

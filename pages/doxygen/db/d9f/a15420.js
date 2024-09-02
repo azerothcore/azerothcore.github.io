@@ -1,10 +1,13 @@
 var a15420 =
 [
-    [ "npc_rabid_thistle_bearAI", "db/d9f/a15420.html#a7fb4b6e26dd2fe66fb3e444c260999a6", null ],
-    [ "Initialize", "db/d9f/a15420.html#a466ec20c65535777c60b5c4aac4e45bd", null ],
-    [ "Reset", "db/d9f/a15420.html#aedc6834fef78ad7a0e5ab99bb844ace1", null ],
-    [ "SpellHit", "db/d9f/a15420.html#a62bde5a122748564cc806046bf9dcbaa", null ],
-    [ "UpdateAI", "db/d9f/a15420.html#a8f6c5b873756a58760b2861bc8b86804", null ],
-    [ "_events", "db/d9f/a15420.html#ad3852bf4588c453642e75fcdc544767b", null ],
-    [ "_playerGUID", "db/d9f/a15420.html#ac4df0c9b8be03ce4e45fbb4efcad6892", null ]
+    [ "npc_aquementasAI", "db/d9f/a15420.html#aad63986cdb8a65c528af3ccd114d2041", null ],
+    [ "JustEngagedWith", "db/d9f/a15420.html#a2c12ee9c0bb94a1fcfa23c4279aea72f", null ],
+    [ "Reset", "db/d9f/a15420.html#af71a196ba667c2a8f05940ec7ec43b5e", null ],
+    [ "SendItem", "db/d9f/a15420.html#a60bafbd70783411236dcf3d0bfe244de", null ],
+    [ "UpdateAI", "db/d9f/a15420.html#adc5936d7648e05c98a2cdc9998aa4c6a", null ],
+    [ "AquaJetTimer", "db/d9f/a15420.html#a8506acc69436af869d1404bd95109e68", null ],
+    [ "FrostShockTimer", "db/d9f/a15420.html#ad52c62a0fd8de98b194596dbc998c03d", null ],
+    [ "isFriendly", "db/d9f/a15420.html#a9ac02cfc998bda26a5c531a9f7dbf7c4", null ],
+    [ "SendItemTimer", "db/d9f/a15420.html#a3a0883b43056b176ef2ae55673adacf3", null ],
+    [ "SwitchFactionTimer", "db/d9f/a15420.html#a46f64b9883ae30c3f8d677a3b85a8c6f", null ]
 ];

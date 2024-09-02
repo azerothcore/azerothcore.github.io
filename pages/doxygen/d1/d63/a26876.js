@@ -1,6 +1,6 @@
 var a26876 =
 [
-    [ "FilterTargets", "d1/d63/a26876.html#ac01bb4bac4f041318937cfc09ed603cd", null ],
-    [ "PrepareSpellScript", "d1/d63/a26876.html#a3eb1d8c26653477bed5b7ae0c69b34e9", null ],
-    [ "Register", "d1/d63/a26876.html#a658a476f5c2229715a8949aa6ba4f99c", null ]
+    [ "HandleEffectCalcSpellMod", "d1/d63/a26876.html#a38c2a5daeda4b366518026638e6a8e1b", null ],
+    [ "PrepareAuraScript", "d1/d63/a26876.html#a767c3c52e917b56dbf2368b5dbbf1610", null ],
+    [ "Register", "d1/d63/a26876.html#af60592a9f1e595f31814eae405d03d5a", null ]
 ];

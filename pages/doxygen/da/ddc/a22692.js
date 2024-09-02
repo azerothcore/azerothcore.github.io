@@ -1,6 +1,7 @@
 var a22692 =
 [
-    [ "HandlePeriodicDummy", "da/ddc/a22692.html#a4d68f9d9021ec28fde64c38bce3f5bb2", null ],
-    [ "PrepareAuraScript", "da/ddc/a22692.html#aad803ad4c185075a66f792e0aef9be2c", null ],
-    [ "Register", "da/ddc/a22692.html#a48357a7c879ddd51710554918b92f6ce", null ]
+    [ "HandleScriptEffect", "da/ddc/a22692.html#a6ec6e79849c618d009eae3551e16ff0a", null ],
+    [ "PrepareSpellScript", "da/ddc/a22692.html#a4f00eca7c78a785780be4379c1a56a6b", null ],
+    [ "Register", "da/ddc/a22692.html#adb676b9d6f36c30efbb8286b1e5edf6d", null ],
+    [ "Validate", "da/ddc/a22692.html#a9ce122d497e72e3a46b1857d722af48d", null ]
 ];

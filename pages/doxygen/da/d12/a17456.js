@@ -1,6 +1,6 @@
 var a17456 =
 [
-    [ "HandleDummy", "da/d12/a17456.html#ab1910d353e1648a2bad4b39c884234f8", null ],
-    [ "PrepareSpellScript", "da/d12/a17456.html#af7364e03bc372c76cd1d067c4c97c7c7", null ],
-    [ "Register", "da/d12/a17456.html#a531a2b8ef44e2a6c62c7d2bc5aba51e9", null ]
+    [ "npc_gunship_mageAI", "d6/dc0/a17460.html", "d6/dc0/a17460" ],
+    [ "npc_gunship_mage", "da/d12/a17456.html#a52c7a072bd1426a1c22da84aa0640bca", null ],
+    [ "GetAI", "da/d12/a17456.html#a9a0bc091a6cf8bbc7d17cf3d3172e6ff", null ]
 ];

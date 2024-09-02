@@ -1,6 +1,6 @@
 var a24676 =
 [
-    [ "HandleEffectRemove", "dc/d43/a24676.html#a791968e7c75f837dc23079739a26a06e", null ],
-    [ "PrepareAuraScript", "dc/d43/a24676.html#ad335700093501a6b07f60c0dfca37c6d", null ],
-    [ "Register", "dc/d43/a24676.html#ab6c4510a0c4accf089c9c763c24f5639", null ]
+    [ "CalculateAmount", "dc/d43/a24676.html#a60d451e6b359501b138564085c87a99f", null ],
+    [ "PrepareAuraScript", "dc/d43/a24676.html#a22059b71bcfdfb9a3be59feaf8005d3f", null ],
+    [ "Register", "dc/d43/a24676.html#ab33586608d444404c07edc4ffbb717ee", null ]
 ];

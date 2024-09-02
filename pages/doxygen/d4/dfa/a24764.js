@@ -1,6 +1,8 @@
 var a24764 =
 [
-    [ "boss_lady_malandeAI", "db/d7d/a24768.html", "db/d7d/a24768" ],
-    [ "boss_lady_malande", "d4/dfa/a24764.html#a5c159907210c053cd82dddb1be5fff4a", null ],
-    [ "GetAI", "d4/dfa/a24764.html#a338a862e901543f8557d31f2fcaa8575", null ]
+    [ "HandleSchoolDMG", "d4/dfa/a24764.html#ab273304fdbeea8768622c3e6b222aaf2", null ],
+    [ "HandleScriptEffect", "d4/dfa/a24764.html#a06f9cf29387b49f3e5950661173c77eb", null ],
+    [ "PrepareSpellScript", "d4/dfa/a24764.html#ac1a2b89eda37ed4e6c5946a93e7a58a2", null ],
+    [ "Register", "d4/dfa/a24764.html#a9bdbf7578509976d482a26869e9068aa", null ],
+    [ "Validate", "d4/dfa/a24764.html#a20a7b3a25711a90ab5f0e14991112ea0", null ]
 ];

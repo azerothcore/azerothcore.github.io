@@ -1,6 +1,7 @@
 var a21492 =
 [
-    [ "spell_hodir_periodic_icicle_SpellScript", "d7/d19/a21496.html", "d7/d19/a21496" ],
-    [ "spell_hodir_periodic_icicle", "d9/dfd/a21492.html#aba72303e45db8e0415c8f4955061ba46", null ],
-    [ "GetSpellScript", "d9/dfd/a21492.html#afa8dbfef82ca0457020dcfbdeb366b29", null ]
+    [ "HandleScriptEffect", "d9/dfd/a21492.html#a23d220613a4133e01fb3d7cbacb3aa1c", null ],
+    [ "PrepareSpellScript", "d9/dfd/a21492.html#a73b5af95ee4f593337c3803574d190db", null ],
+    [ "Register", "d9/dfd/a21492.html#a930de2343532feb50b86304f32269e4c", null ],
+    [ "Validate", "d9/dfd/a21492.html#ae9bfedf7e89487217ad927459e259c04", null ]
 ];
