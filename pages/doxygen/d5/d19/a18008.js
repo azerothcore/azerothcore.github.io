@@ -1,7 +1,6 @@
 var a18008 =
 [
-    [ "HandleInfusion", "d5/d19/a18008.html#a9f77330d81fef646dd5d5399800cba66", null ],
-    [ "PrepareSpellScript", "d5/d19/a18008.html#ae0a272902b0a9f74058c1dbe62974358", null ],
-    [ "Register", "d5/d19/a18008.html#ad759f6215e722f799156b4bdddcb7af1", null ],
-    [ "Validate", "d5/d19/a18008.html#a7b7254e7c6cb0d819dd003ffd19d0731", null ]
+    [ "PeriodicTick", "d5/d19/a18008.html#af47c7ea07ee3dbe824b1c294024d0c29", null ],
+    [ "PrepareAuraScript", "d5/d19/a18008.html#aa2649c760e362cc7aa22cd770b15f7df", null ],
+    [ "Register", "d5/d19/a18008.html#ad4290158ee9af93df11d1a46a5bd26a2", null ]
 ];

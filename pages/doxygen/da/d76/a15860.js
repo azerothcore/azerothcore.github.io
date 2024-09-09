@@ -1,6 +1,7 @@
 var a15860 =
 [
-    [ "npc_xerestraszaAI", "d0/d94/a15864.html", "d0/d94/a15864" ],
-    [ "npc_xerestrasza", "da/d76/a15860.html#a49023756b5dab130e4ffd7e62fa80ce4", null ],
-    [ "GetAI", "da/d76/a15860.html#a5e0ede0054969d4787db56781dc55846", null ]
+    [ "CheckDistance", "da/d76/a15860.html#ac10f4cebab4966a220cd931afd0e0a30", null ],
+    [ "PrepareSpellScript", "da/d76/a15860.html#adb14940f47dc509d75a4e81bb90fc40d", null ],
+    [ "Register", "da/d76/a15860.html#a3a64ffc872e4650b1d226d20d9bedc65", null ],
+    [ "Validate", "da/d76/a15860.html#aa5d7a420154b156ca24e73de2faf912a", null ]
 ];

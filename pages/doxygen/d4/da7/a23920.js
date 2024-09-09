@@ -1,6 +1,6 @@
 var a23920 =
 [
-    [ "npc_simon_bunnyAI", "d7/d77/a23924.html", "d7/d77/a23924" ],
-    [ "npc_simon_bunny", "d4/da7/a23920.html#afd3f3a24450bc8b748c0ff5b05b10da1", null ],
-    [ "GetAI", "d4/da7/a23920.html#ac0c97609916321a1599c0722803a050f", null ]
+    [ "npc_daranelleAI", "d7/d77/a23924.html", "d7/d77/a23924" ],
+    [ "npc_daranelle", "d4/da7/a23920.html#a0a6e26b95d6d97821bc9e0c00b205704", null ],
+    [ "GetAI", "d4/da7/a23920.html#ad2ba5e4dfded886acaf2f9821e15738d", null ]
 ];

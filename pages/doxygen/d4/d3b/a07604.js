@@ -1,15 +1,19 @@
 var a07604 =
 [
-    [ "Minion", "d4/d3b/a07604.html#a4a560a702e9f655615797ee4dcd7fbb4", null ],
-    [ "GetDebugInfo", "d4/d3b/a07604.html#a1f9800abdfa2126e593a6ae169f20024", null ],
-    [ "GetFollowAngle", "d4/d3b/a07604.html#a6b4a4409bd7a8ff455bb13f8c4e5560a", null ],
-    [ "GetOwner", "d4/d3b/a07604.html#a4610f459936e40b530dae8429f139cfe", null ],
-    [ "InitStats", "d4/d3b/a07604.html#ad11b2900e990e2b5ba7d10b811cd1e5d", null ],
-    [ "IsGuardianPet", "d4/d3b/a07604.html#a63335ad34731e8a26ab027bf690f9d4d", null ],
-    [ "IsPetGhoul", "d4/d3b/a07604.html#ae56acaeea6d1cf9735345cb784f3dcd3", null ],
-    [ "RemoveFromWorld", "d4/d3b/a07604.html#a35f8314d0a4bafeba1987eb0b1ececf3", null ],
-    [ "setDeathState", "d4/d3b/a07604.html#ab954627fc409e08616cf080974d30a82", null ],
-    [ "SetFollowAngle", "d4/d3b/a07604.html#a3b7be3e8dc649b939056ee6a5a66c506", null ],
-    [ "m_followAngle", "d4/d3b/a07604.html#a02806f2eae429a33e0d2b0c115892c77", null ],
-    [ "m_owner", "d4/d3b/a07604.html#a135c4341d5f617d1f69ee9f7deeea755", null ]
+    [ "ThreatRefStatusChangeEvent", "d4/d3b/a07604.html#a97d1b7a1ff9f2c6090e6dfa6d33db2c7", null ],
+    [ "ThreatRefStatusChangeEvent", "d4/d3b/a07604.html#a5941cfd844f89dbc371a9ef69e53f6ef", null ],
+    [ "ThreatRefStatusChangeEvent", "d4/d3b/a07604.html#ab7736e7438ab0741a66aee7cfe72b308", null ],
+    [ "ThreatRefStatusChangeEvent", "d4/d3b/a07604.html#a45c52c850dc6b07ea913e8e83cc32958", null ],
+    [ "getBValue", "d4/d3b/a07604.html#a4bd7c3ddca2aaa6a1418390b6df8ff67", null ],
+    [ "getFValue", "d4/d3b/a07604.html#a660c6f8258ebb7c6abd81d51c7ff3399", null ],
+    [ "getIValue", "d4/d3b/a07604.html#ab9b40ed1c0448ee5de158c26642cacc2", null ],
+    [ "getReference", "d4/d3b/a07604.html#af2e0a376782f16c308a11e2e158983d2", null ],
+    [ "GetThreatMgr", "d4/d3b/a07604.html#a04a5c0824a6d0b9ec890d98a2cccb304", null ],
+    [ "setBValue", "d4/d3b/a07604.html#a41735bb86d49572843cd488deb79e631", null ],
+    [ "setThreatMgr", "d4/d3b/a07604.html#ad423b39368df27a046d7c450ec13e4e8", null ],
+    [ "iBValue", "d4/d3b/a07604.html#a24f3b0ec126bc8d432c9662854065964", null ],
+    [ "iFValue", "d4/d3b/a07604.html#a057aab2519feac28e980e53c364f4358", null ],
+    [ "iHostileReference", "d4/d3b/a07604.html#aac0bfb3a87cda0f2cc025fce75d0b46a", null ],
+    [ "iIValue", "d4/d3b/a07604.html#a10f8d82c037d0e742b3c9742489d1da9", null ],
+    [ "iThreatMgr", "d4/d3b/a07604.html#ad84ffd2fd4064073aafcda27a250da5d", null ]
 ];

@@ -1,6 +1,7 @@
 var a25212 =
 [
-    [ "HandleScriptEffect", "df/da4/a25212.html#a78a131bdf6a1406604edd130c28d664b", null ],
-    [ "PrepareSpellScript", "df/da4/a25212.html#a3b2d739227e57667a284ae4600ec1bb6", null ],
-    [ "Register", "df/da4/a25212.html#a8a70913369aa733160366f37ff1c3470", null ]
+    [ "PrepareAuraScript", "df/da4/a25212.html#afeac0a8393b7d7bf787fca59988d0e14", null ],
+    [ "Register", "df/da4/a25212.html#a7cbcf46dbdddea12fd6ce04bcbcea097", null ],
+    [ "TriggerFoodBuff", "df/da4/a25212.html#a5d125413491dd377d61b8e30c4979fdd", null ],
+    [ "Validate", "df/da4/a25212.html#a6b69d7358eb8cfe6a8f9efd47882eb80", null ]
 ];

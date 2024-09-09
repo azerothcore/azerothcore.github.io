@@ -1,5 +1,7 @@
 var a26888 =
 [
-    [ "achievement_resilient_victory", "d5/dfe/a26888.html#a6224c8a4b1b1ee7c1ab09d8873e86aa8", null ],
-    [ "OnCheck", "d5/dfe/a26888.html#a21445d406f67771a20608260b3f9b033", null ]
+    [ "CheckProc", "d5/dfe/a26888.html#a957f8837b5613a3bfd8200ded3529c54", null ],
+    [ "HandleEffectProc", "d5/dfe/a26888.html#a54810a897e535558d060119e3de6537b", null ],
+    [ "PrepareAuraScript", "d5/dfe/a26888.html#a37950bfd846e1c2c550a108461941a26", null ],
+    [ "Register", "d5/dfe/a26888.html#a16c273043e81fd163fb7c3f517ee6f4c", null ]
 ];

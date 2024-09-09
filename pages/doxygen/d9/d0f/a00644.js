@@ -1,6 +1,6 @@
 var a00644 =
 [
-    [ "EnchStoreItem", "df/db7/a08072.html", "df/db7/a08072" ],
+    [ "EnchStoreItem", "d7/d06/a08076.html", "d7/d06/a08076" ],
     [ "EnchantmentStore", "d9/d0f/a00644.html#ab462bc366dd954f1c0b539c408b74c01", null ],
     [ "EnchStoreList", "d9/d0f/a00644.html#ab5e9dd6a265a402e7a9499fdaae1e850", null ],
     [ "GenerateEnchSuffixFactor", "d9/d0f/a00644.html#a25026e783b088b45eebd4db8295b1b87", null ],

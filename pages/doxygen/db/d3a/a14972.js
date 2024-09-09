@@ -1,13 +1,18 @@
 var a14972 =
 [
-    [ "npc_dirt_mound", "db/d3a/a14972.html#add7daefa1c96fb9d843248f8ca4796f6", null ],
-    [ "ChaseNewTarget", "db/d3a/a14972.html#a16656fb7ad8cda5916e8da0002cf0292", null ],
-    [ "EnterEvadeMode", "db/d3a/a14972.html#ac5fdeea9dc5553b689d3a8a9b0b73d34", null ],
-    [ "JustEngagedWith", "db/d3a/a14972.html#abf39fb8d63325eea7928b88b2b486ad2", null ],
-    [ "JustSummoned", "db/d3a/a14972.html#a5da17256d0cd4f6cb0e1256afe4b6539", null ],
-    [ "Reset", "db/d3a/a14972.html#ae1662eb73f21351e07d00a717421de68", null ],
-    [ "SetData", "db/d3a/a14972.html#a4faa65dd3260104202e4bdd34bc0b67d", null ],
-    [ "UpdateAI", "db/d3a/a14972.html#a88447191070cf8b84df96db565eef48d", null ],
-    [ "_instance", "db/d3a/a14972.html#ac9f138567a4367aeb5d7b1f6caea90c6", null ],
-    [ "_ouroHealth", "db/d3a/a14972.html#ac83391fa5069ae4574748f82d15e833d", null ]
+    [ "boss_ouro", "db/d3a/a14972.html#a624700c5010edda9e7880070bd7495d7", null ],
+    [ "CanAIAttack", "db/d3a/a14972.html#a7b9682b239a2d436069b9e6be1d90648", null ],
+    [ "CastGroundRupture", "db/d3a/a14972.html#a2b8d88aeb824890a090f3bec544f5de2", null ],
+    [ "DamageTaken", "db/d3a/a14972.html#aa571cee2fee8a79917f4c63b94a9a1b6", null ],
+    [ "Emerge", "db/d3a/a14972.html#ac0b0c890f8cec105e6c284f6c1c5dd78", null ],
+    [ "EnterEvadeMode", "db/d3a/a14972.html#aee5769af48127617d40fa440d042e434", null ],
+    [ "IsPlayerWithinMeleeRange", "db/d3a/a14972.html#a9f9b4a53cf5c7e9d4e98d2d57e500172", null ],
+    [ "JustEngagedWith", "db/d3a/a14972.html#a20b0b4a3770564595f40e1375b2811d7", null ],
+    [ "Reset", "db/d3a/a14972.html#a8d8e471d0a76950d4bcbdb3e6d1b77bf", null ],
+    [ "SpellHitTarget", "db/d3a/a14972.html#a53fb0c076ce60d769d21fa740fa73308", null ],
+    [ "Submerge", "db/d3a/a14972.html#aa39a371112f585da952331c200b8b5aa", null ],
+    [ "UpdateAI", "db/d3a/a14972.html#ab59237535be7a86cb4c0db4819a4d9d5", null ],
+    [ "_enraged", "db/d3a/a14972.html#a14a147b2cb47bbc5bd7cdeb49fd22328", null ],
+    [ "_submerged", "db/d3a/a14972.html#aff594fd1558ac0c150ef7dc44b185863", null ],
+    [ "_submergeMelee", "db/d3a/a14972.html#a1f9afe42fad602f470456929214f40d3", null ]
 ];

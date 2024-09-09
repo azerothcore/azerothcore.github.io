@@ -1,14 +1,6 @@
 var a18316 =
 [
-    [ "npc_green_dragon_combat_triggerAI", "df/dad/a18316.html#a4d4bd899a40ff44f8ee517b2a0328538", null ],
-    [ "AttackStart", "df/dad/a18316.html#a5457c18c60a8301ea60ef34d810a14c9", null ],
-    [ "CanAIAttack", "df/dad/a18316.html#aaf12ae21dddfa6b47ffa7880f65487a4", null ],
-    [ "DoAction", "df/dad/a18316.html#abbd08537ed245084ca7d4cf852a749a2", null ],
-    [ "EnterEvadeMode", "df/dad/a18316.html#a32bd4ed61bc62206ccedcf4acaeb8df8", null ],
-    [ "JustEngagedWith", "df/dad/a18316.html#ad7385306f8058699ee004b7bc5f1b538", null ],
-    [ "JustReachedHome", "df/dad/a18316.html#a2ae1c178a84c6d6899cf6400cb963e44", null ],
-    [ "MoveInLineOfSight", "df/dad/a18316.html#ab2465cf3e5950d827eb0a30e9fc2ea47", null ],
-    [ "Reset", "df/dad/a18316.html#a3dfe1f28c9301c30186beb27ab76f9a9", null ],
-    [ "UpdateAI", "df/dad/a18316.html#a89ce158e08b3da1e54b0be6caa3950b8", null ],
-    [ "checkTimer", "df/dad/a18316.html#ae5c238e2e201c431ceccc59a3a26078b", null ]
+    [ "npc_green_dragon_combat_triggerAI", "d9/d03/a18320.html", "d9/d03/a18320" ],
+    [ "npc_green_dragon_combat_trigger", "df/dad/a18316.html#acec675494f5e5e9609bf34b7f25cb569", null ],
+    [ "GetAI", "df/dad/a18316.html#a945b7cd0084873c17d52b3c2cc3ede22", null ]
 ];

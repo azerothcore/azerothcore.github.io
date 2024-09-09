@@ -1,6 +1,6 @@
 var a12688 =
 [
-    [ "HandleLeapBack", "d4/d31/a12688.html#a2f15d7dc9338501db3297d06bd636e5f", null ],
-    [ "PrepareSpellScript", "d4/d31/a12688.html#ae587f81abbf933135acb8f91e14d9924", null ],
-    [ "Register", "d4/d31/a12688.html#af532dc93d56441ca73161eed532bd651", null ]
+    [ "spell_chapter5_rebuke_SpellScript", "d8/df7/a12692.html", "d8/df7/a12692" ],
+    [ "spell_chapter5_rebuke", "d4/d31/a12688.html#a93b0fd57566722c98653f66619727717", null ],
+    [ "GetSpellScript", "d4/d31/a12688.html#ab17f0009b91b00dba9678fe681ffe683", null ]
 ];

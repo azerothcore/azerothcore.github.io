@@ -1,10 +1,6 @@
 var a25020 =
 [
-    [ "Load", "d2/dae/a25020.html#a18e05511c2dc0b934a97e323fccc3f50", null ],
-    [ "OnApply", "d2/dae/a25020.html#a1fe8240f5c553ba56ce9c2ff9338f75b", null ],
-    [ "OnRemove", "d2/dae/a25020.html#a29834c598d6ef8299d54e48a3461e603", null ],
-    [ "PrepareAuraScript", "d2/dae/a25020.html#a0529b56b30fa7bb97c014bbc2ee4a96a", null ],
-    [ "Register", "d2/dae/a25020.html#a5174f07fde3469c2314a3c1fbba5f432", null ],
-    [ "Validate", "d2/dae/a25020.html#aeaf16594f569af671d221234a4aa2c8b", null ],
-    [ "prevItem", "d2/dae/a25020.html#ad4c0402ae71e663534ed8fd137a9afd2", null ]
+    [ "HandleScriptEffect", "d2/dae/a25020.html#a514697f3fdcbf9274453d6d71c0c4816", null ],
+    [ "PrepareSpellScript", "d2/dae/a25020.html#a5bcff624e9a396a2f90115dc99d93ae9", null ],
+    [ "Register", "d2/dae/a25020.html#aebcc23e4f4a1c5ab90fb06a47755ec2b", null ]
 ];

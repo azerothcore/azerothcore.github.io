@@ -1,13 +1,11 @@
 var a23220 =
 [
-    [ "npc_ahune_bunny", "d7/d97/a23220.html#ae28e0d2dbaab082488d5582b75cd8482", null ],
-    [ "DoAction", "d7/d97/a23220.html#ad071787c47254f603ba7692889733202", null ],
-    [ "JustDied", "d7/d97/a23220.html#a8733a3e495ebf69df4f9d1213df50170", null ],
-    [ "JustSummoned", "d7/d97/a23220.html#a2c5c97b497cd15a1453bbd21d279a29b", null ],
-    [ "ResetFlameCallers", "d7/d97/a23220.html#a60a74aabbf42116079081134a332a100", null ],
-    [ "UpdateAI", "d7/d97/a23220.html#aa8dff40dde7820b1ce4e06c8d27e4ecb", null ],
-    [ "_events", "d7/d97/a23220.html#af84154fff16cbdb15586b3b07223e010", null ],
-    [ "_instance", "d7/d97/a23220.html#a9be0d062379e5a3dfa19af1eb1a4243e", null ],
-    [ "_submerged", "d7/d97/a23220.html#a15fdcc2fda18e118f398ccc055f52942", null ],
-    [ "_summons", "d7/d97/a23220.html#a8f9e25f0d8a66b18e887b061592c6950", null ]
+    [ "boss_ahune", "d7/d97/a23220.html#aa3d15e1ab37843761d9f7c56d2e5a319", null ],
+    [ "DoAction", "d7/d97/a23220.html#a9e197e8a5ecbad8487c7bad7647e6d2c", null ],
+    [ "Emerge", "d7/d97/a23220.html#a6404a8255566f2eaa061a89025e2bdcd", null ],
+    [ "EnterEvadeMode", "d7/d97/a23220.html#a2b906881621e59143a916c588beb70e7", null ],
+    [ "ExecuteEvent", "d7/d97/a23220.html#a46b477aef635de1d3ec88baa2465089f", null ],
+    [ "JustDied", "d7/d97/a23220.html#af2fc7c071321653a644ee569ead67d63", null ],
+    [ "JustEngagedWith", "d7/d97/a23220.html#aaffc4f54544c8aa4529b249560ddeeec", null ],
+    [ "Submerge", "d7/d97/a23220.html#aad68758720cc1cb703f8f2dc72c09af2", null ]
 ];

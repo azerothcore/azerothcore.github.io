@@ -1,6 +1,6 @@
 var a14576 =
 [
-    [ "npc_crate_helperAI", "d0/d09/a14576.html#ad58a2f3746da7862658fb3b9e1580836", null ],
-    [ "SpellHit", "d0/d09/a14576.html#a785bb6fdb254a050a5c5e3e9df49a850", null ],
-    [ "_marked", "d0/d09/a14576.html#a0e718e519af661b73ed7bcd87ffbea32", null ]
+    [ "npc_crate_helperAI", "d7/dbe/a14580.html", "d7/dbe/a14580" ],
+    [ "npc_crate_helper", "d0/d09/a14576.html#ae08751928234656dcda84dd5c7e4cc37", null ],
+    [ "GetAI", "d0/d09/a14576.html#af69c9cf385ee829853985daa7f2aa8d6", null ]
 ];

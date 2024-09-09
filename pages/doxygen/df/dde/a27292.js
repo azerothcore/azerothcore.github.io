@@ -1,10 +1,10 @@
 var a27292 =
 [
-    [ "guard_shattrath_aldorAI", "df/dde/a27292.html#a88961dfe4100dfe207af693a1eed86ad", null ],
-    [ "Reset", "df/dde/a27292.html#aef38e83e90c322bbef18b78e6339ef2e", null ],
-    [ "UpdateAI", "df/dde/a27292.html#ac87ee12d4487971b68c70f06f63eb410", null ],
-    [ "banishTimer", "df/dde/a27292.html#a8b6e4c2acb09c65f2dbebbd21df4f29e", null ],
-    [ "canTeleport", "df/dde/a27292.html#af4d933b56431d2f2755d87fb05922458", null ],
-    [ "exileTimer", "df/dde/a27292.html#a8d56205206f3e14184922f96873456ad", null ],
-    [ "playerGUID", "df/dde/a27292.html#a16fe41ae30d54abaf12f68672b93dc32", null ]
+    [ "guard_shattrath_scryerAI", "df/dde/a27292.html#a97accbf467ca1190f8a05512b3857164", null ],
+    [ "Reset", "df/dde/a27292.html#adfcd8bce42148d303fe6ec9b615ffdb1", null ],
+    [ "UpdateAI", "df/dde/a27292.html#ad759cca08b0093522e190ddc038e2c73", null ],
+    [ "banishTimer", "df/dde/a27292.html#aa9aa3c2e7e69df5899c84ebde1e357bd", null ],
+    [ "canTeleport", "df/dde/a27292.html#a84188b40b44deae5714466bb23bf2f0d", null ],
+    [ "exileTimer", "df/dde/a27292.html#a97fbc3f54c23049fd91ad432cd560698", null ],
+    [ "playerGUID", "df/dde/a27292.html#adb40d8bbc97a6a1fa0f4e303db470db2", null ]
 ];

@@ -1,9 +1,8 @@
 var a19352 =
 [
-    [ "HandleOnEffectApply", "dd/dbf/a19352.html#a6ab047004cc901331d747641f218cf6a", null ],
-    [ "HandleOnEffectRemove", "dd/dbf/a19352.html#a9f66217f4785c8240c4b074bbf04b96e", null ],
-    [ "PrepareAuraScript", "dd/dbf/a19352.html#aa94b30468b2c853c0d8b86658a43dee4", null ],
-    [ "Register", "dd/dbf/a19352.html#a83b0d414a6e97b434f82492fa01ac385", null ],
-    [ "Validate", "dd/dbf/a19352.html#a88af7f269f56e474434d51c7ac0eb0a0", null ],
-    [ "_drakeGUID", "dd/dbf/a19352.html#a2e0c7df73cc7246524f6d745ff1fbeb1", null ]
+    [ "HandleEffectPeriodic", "dd/dbf/a19352.html#abb453e3d38677be7082f2cd4e43134cc", null ],
+    [ "HandleOnEffectApply", "dd/dbf/a19352.html#a3ec47d5d9fdbdcfe671e02c3b0f55980", null ],
+    [ "PrepareAuraScript", "dd/dbf/a19352.html#ac00c6d9b1cccb38b5d87b3139295614c", null ],
+    [ "Register", "dd/dbf/a19352.html#ae4de4f0f2f4dc4ac98706ddd898df7c5", null ],
+    [ "Validate", "dd/dbf/a19352.html#a09481646f8ec90b0135d93d83cc18929", null ]
 ];

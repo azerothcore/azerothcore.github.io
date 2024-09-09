@@ -1,7 +1,7 @@
 var a25116 =
 [
-    [ "PrepareSpellScript", "d6/dc2/a25116.html#aad8061898087fbf5eb6527cbaa70927d", null ],
-    [ "RecalculateDamage", "d6/dc2/a25116.html#a6f03ccb77ce43c4e36996ae344780ee3", null ],
-    [ "Register", "d6/dc2/a25116.html#abc7e406244a1a5ea9d7c3d8feb10b8ae", null ],
-    [ "_damagePct", "d6/dc2/a25116.html#a3ab5f5ec279f30dda50fa3ca3f5e6715", null ]
+    [ "HandleApplyEffect", "d6/dc2/a25116.html#a4e2f6d414aea8ed1339ef3caa24fc17b", null ],
+    [ "Load", "d6/dc2/a25116.html#a47a4f15ab02ba3c6ac4dbfd7c4552900", null ],
+    [ "PrepareAuraScript", "d6/dc2/a25116.html#a101d38f5ffb34f90ba9af4f787445f2e", null ],
+    [ "Register", "d6/dc2/a25116.html#aed57fbbf473b8f15fa177261e4678e96", null ]
 ];

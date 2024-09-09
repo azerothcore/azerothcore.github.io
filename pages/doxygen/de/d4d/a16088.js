@@ -1,8 +1,6 @@
 var a16088 =
 [
-    [ "npc_black_knight_skeletal_gryphonAI", "de/d4d/a16088.html#ada99dced1e560aebc908a0efb6c23d0a", null ],
-    [ "DoAction", "de/d4d/a16088.html#af38e129cdf4af99e99c41b6a98448e56", null ],
-    [ "Reset", "de/d4d/a16088.html#a5e20d5e17baaac92a560a5b2fe15fe7b", null ],
-    [ "UpdateAI", "de/d4d/a16088.html#a851008790128831c5c10710b4cccb196", null ],
-    [ "WaypointReached", "de/d4d/a16088.html#a74b5fb1d3631c404e7797085e45e6159", null ]
+    [ "npc_black_knight_skeletal_gryphonAI", "d4/d8c/a16092.html", "d4/d8c/a16092" ],
+    [ "npc_black_knight_skeletal_gryphon", "de/d4d/a16088.html#a5dc83a92fbe2eb4d6faa30f23a9ac777", null ],
+    [ "GetAI", "de/d4d/a16088.html#aad244f95877a208b56a2b6544984d724", null ]
 ];

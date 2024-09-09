@@ -1,6 +1,7 @@
 var a13368 =
 [
-    [ "npc_corporal_keeshanAI", "d2/d53/a13372.html", "d2/d53/a13372" ],
-    [ "npc_corporal_keeshan", "d6/dbe/a13368.html#a0ca9459a7f283e040f14e0052762f587", null ],
-    [ "GetAI", "d6/dbe/a13368.html#a2cc19f28dea9ea8597648339a160d1bc", null ]
+    [ "npc_greengill_slaveAI", "d6/dbe/a13368.html#a1a4268b745e63992f4d0fc2028b717aa", null ],
+    [ "JustEngagedWith", "d6/dbe/a13368.html#ad7fcb8c711782d3a76e9e4566334fc21", null ],
+    [ "SpellHit", "d6/dbe/a13368.html#a0e75a3e8eb3503fdb3aea12e65ccc6e4", null ],
+    [ "UpdateAI", "d6/dbe/a13368.html#a6fa27328cf47bef81c3465b8a3e2ace1", null ]
 ];

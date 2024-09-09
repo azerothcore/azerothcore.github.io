@@ -1,6 +1,7 @@
 var a18968 =
 [
-    [ "boss_nothAI", "d6/d10/a18972.html", "d6/d10/a18972" ],
-    [ "boss_noth", "de/db5/a18968.html#a2760f1ec46a21f22de0e57527cbe9768", null ],
-    [ "GetAI", "de/db5/a18968.html#a534f30792c051ab44c6c07c9347893e5", null ]
+    [ "OnPeriodic", "de/db5/a18968.html#ae685e9d36b85af8a7e33cefbd439a2f4", null ],
+    [ "PrepareAuraScript", "de/db5/a18968.html#a1362103840db4b3c40ef7d6b0aa5226c", null ],
+    [ "Register", "de/db5/a18968.html#a39b03ebd7f6233f373f52e34f18dad10", null ],
+    [ "Validate", "de/db5/a18968.html#a54cfed486827216817adb740efa6646e", null ]
 ];

@@ -1,6 +1,6 @@
 var a11872 =
 [
-    [ "boss_chromaggusAI", "d1/dd5/a11876.html", "d1/dd5/a11876" ],
-    [ "boss_chromaggus", "df/d59/a11872.html#a55847fc0d5430d3f22074b53d7caca4b", null ],
-    [ "GetAI", "df/d59/a11872.html#ace78172cafb122ce5961ed837201c32b", null ]
+    [ "FilterTargets", "df/d59/a11872.html#ac630fb5f068e4d26adb078b118994c45", null ],
+    [ "PrepareSpellScript", "df/d59/a11872.html#a5f4986bfad79573e65d56ff276c49914", null ],
+    [ "Register", "df/d59/a11872.html#aa1f5838d43871fd7908ea3b914666000", null ]
 ];

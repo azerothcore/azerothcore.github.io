@@ -1,6 +1,6 @@
 var a13032 =
 [
-    [ "boss_kalecgosAI", "d0/d9e/a13036.html", "d0/d9e/a13036" ],
-    [ "boss_kalecgos", "dc/d1f/a13032.html#a7e65f80e4dbee9dbb2e891884abaa196", null ],
-    [ "GetAI", "dc/d1f/a13032.html#a1eab7d3ee459cb88a21efd8da834fc0e", null ]
+    [ "FilterTargets", "dc/d1f/a13032.html#ac7f7287b88cde82fbf8a625f002c86fa", null ],
+    [ "PrepareSpellScript", "dc/d1f/a13032.html#a222e2c8e5401c132e89b29bbd22d46a6", null ],
+    [ "Register", "dc/d1f/a13032.html#a1a3607dd7e3d56bde3b92cbf4bcd0e78", null ]
 ];

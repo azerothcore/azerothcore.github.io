@@ -1,6 +1,7 @@
 var a21596 =
 [
-    [ "npc_steam_powered_auctioneerAI", "da/daa/a21600.html", "da/daa/a21600" ],
-    [ "npc_steam_powered_auctioneer", "dc/ddf/a21596.html#ae8c918c639ce0c3ddc14b8cf7f0ef855", null ],
-    [ "GetAI", "dc/ddf/a21596.html#a39a2f0c187078c759bc4a391e0a81068", null ]
+    [ "npc_warmage_violetstand", "dc/ddf/a21596.html#a1f67c9521cc3bd63886a8936b28e6622", null ],
+    [ "Reset", "dc/ddf/a21596.html#a99015610597f43f184cc686c9fab2fa9", null ],
+    [ "UpdateAI", "dc/ddf/a21596.html#aa0eac837ab697c3e0cd5ab753f0bd0b4", null ],
+    [ "targetGUID", "dc/ddf/a21596.html#a46560aa7aa90778967a79c931a81721b", null ]
 ];

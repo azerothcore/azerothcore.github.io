@@ -1,6 +1,5 @@
 var a22420 =
 [
-    [ "npc_storm_cloudAI", "dd/db5/a22424.html", "dd/db5/a22424" ],
-    [ "npc_storm_cloud", "d6/dd2/a22420.html#a8403185cdf54b2924024ba1d1d44a06a", null ],
-    [ "GetAI", "d6/dd2/a22420.html#a952bd1cf5406b989182d8560d8b9e665", null ]
+    [ "go_scourge_enclosure", "d6/dd2/a22420.html#a3611232cb735f336087d4d3c90f66b8d", null ],
+    [ "OnGossipHello", "d6/dd2/a22420.html#af505dd0a5d9224cd7586878d1fbd3351", null ]
 ];

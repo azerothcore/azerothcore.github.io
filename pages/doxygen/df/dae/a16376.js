@@ -1,5 +1,6 @@
 var a16376 =
 [
-    [ "PrepareAuraScript", "df/dae/a16376.html#adb50fc2f703618600640d2af55f02f56", null ],
-    [ "Register", "df/dae/a16376.html#a3b6782be136eafcc2cb6d03efb8bb033", null ]
+    [ "spell_toc25_mistress_kiss_AuraScript", "d9/d74/a16380.html", "d9/d74/a16380" ],
+    [ "spell_toc25_mistress_kiss", "df/dae/a16376.html#a5e6df0da2d89b2ca71c6fc49790b3314", null ],
+    [ "GetAuraScript", "df/dae/a16376.html#ae4fbeb690e0fceb92fa565e2b7358592", null ]
 ];

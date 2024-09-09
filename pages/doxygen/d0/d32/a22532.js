@@ -1,17 +1,12 @@
 var a22532 =
 [
-    [ "OPvPCapturePointZM_GraveYard", "d0/d32/a22532.html#a4996bc1787009cc204047f574fc55aa3", null ],
-    [ "CanTalkTo", "d0/d32/a22532.html#aabcde0e8e3e089dccea0ae6a439e7c4a", null ],
-    [ "ChangeState", "d0/d32/a22532.html#a95394b3e6863c367e4a6257c9b9864df", null ],
-    [ "FillInitialWorldStates", "d0/d32/a22532.html#a745acfba4972d64dca84287d8db292fc", null ],
-    [ "GetGraveYardState", "d0/d32/a22532.html#a8c01f60011d967344df5895f05e1f80e", null ],
-    [ "HandleDropFlag", "d0/d32/a22532.html#a2962a45d4c4145f6ba135477ef362ec8", null ],
-    [ "HandleGossipOption", "d0/d32/a22532.html#a28ce2dba96ff5784c4758bd3d0d4e640", null ],
-    [ "HandleOpenGo", "d0/d32/a22532.html#af72356107675ab5ad6c74fda1c3b69fa", null ],
-    [ "SetBeaconState", "d0/d32/a22532.html#a8ed94a0433eab7ae25ea2686fd8e4e9a", null ],
-    [ "Update", "d0/d32/a22532.html#a5210c40f88803137e4a8fe3ea69eda14", null ],
-    [ "UpdateTowerState", "d0/d32/a22532.html#abee798494628344c9f8c1052ec248501", null ],
-    [ "m_BothControllingFactionId", "d0/d32/a22532.html#acac201bebe2ec8e214e5632a21aa8331", null ],
-    [ "m_FlagCarrierGUID", "d0/d32/a22532.html#a103cb36247799a5826c47978d451d2b7", null ],
-    [ "m_GraveYardState", "d0/d32/a22532.html#af281f3b638d2af3d3e8378614a23457f", null ]
+    [ "OPvPCapturePointZM_Beacon", "d0/d32/a22532.html#a9efdfd232e9aa6dd390800bbf0373442", null ],
+    [ "ChangeState", "d0/d32/a22532.html#a5bbe87c18c814358596a9648fd92b129", null ],
+    [ "FillInitialWorldStates", "d0/d32/a22532.html#aedeeea5a7c1424a0dff51fe06dfaa23a", null ],
+    [ "HandlePlayerEnter", "d0/d32/a22532.html#a7042cd6b4c3d57de89e3ae9e0b2cee2a", null ],
+    [ "HandlePlayerLeave", "d0/d32/a22532.html#a6e5bfb2751f157fc4ebc8338b7cce802", null ],
+    [ "SendChangePhase", "d0/d32/a22532.html#a0b5ad48fa0d6ddd6c768fb7454b5fb55", null ],
+    [ "UpdateTowerState", "d0/d32/a22532.html#a9622620e5b969e19ea049ebd3cc4a3dc", null ],
+    [ "m_TowerState", "d0/d32/a22532.html#a3a41cc34e7a8bd9f0d9d6f86f42a3312", null ],
+    [ "m_TowerType", "d0/d32/a22532.html#a481e79d61fcdd011632f8f0d37f940bc", null ]
 ];

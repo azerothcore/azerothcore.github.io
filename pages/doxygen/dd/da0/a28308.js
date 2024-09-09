@@ -1,8 +1,10 @@
 var a28308 =
 [
-    [ "MapDifficulty", "dd/da0/a28308.html#abf514d1105541d5c5aaf52a91330a1e2", null ],
-    [ "MapDifficulty", "dd/da0/a28308.html#a227aec55b5b774076882ea34f70d5d88", null ],
-    [ "hasErrorMessage", "dd/da0/a28308.html#a8dd5436eaec4d0e67f8b41c8dd071148", null ],
-    [ "maxPlayers", "dd/da0/a28308.html#af82ad844bc4ac9585cb9df1963697e1b", null ],
-    [ "resetTime", "dd/da0/a28308.html#a7190131620b9eee0897ac7b4dd62949e", null ]
+    [ "area_id", "dd/da0/a28308.html#acbd77950bf9548d266e568640cf38458", null ],
+    [ "map_id", "dd/da0/a28308.html#abeabdc3d225dcd6626a641d6792d7ff8", null ],
+    [ "virtual_map_id", "dd/da0/a28308.html#afe75f114a3aa74a0589cc575e372f1b1", null ],
+    [ "x1", "dd/da0/a28308.html#a78967fef40841f705c2564a177cb36f3", null ],
+    [ "x2", "dd/da0/a28308.html#a037dca812715df0b4f2551f8684b537c", null ],
+    [ "y1", "dd/da0/a28308.html#a7f90073656e1cd00a88add9f8d881d11", null ],
+    [ "y2", "dd/da0/a28308.html#ad8e0164952e5565488d5443f269ec79e", null ]
 ];

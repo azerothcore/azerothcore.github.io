@@ -1,8 +1,8 @@
 var a02843 =
 [
-    [ "RestoreAttack", "d8/d1f/a11660.html", "d8/d1f/a11660" ],
-    [ "instance_blackrock_depths", "da/d44/a11664.html", "da/d44/a11664" ],
-    [ "instance_blackrock_depths::instance_blackrock_depths_InstanceMapScript", "d6/dae/a11668.html", "d6/dae/a11668" ],
+    [ "RestoreAttack", "da/d44/a11664.html", "da/d44/a11664" ],
+    [ "instance_blackrock_depths", "d6/dae/a11668.html", "d6/dae/a11668" ],
+    [ "instance_blackrock_depths::instance_blackrock_depths_InstanceMapScript", "df/d85/a11672.html", "df/d85/a11672" ],
     [ "Distances", "d0/d45/a02843.html#a47a83b3a7eee5cb11315a17f5dbed3dc", [
       [ "RADIUS_RING_OF_LAW", "d0/d45/a02843.html#a47a83b3a7eee5cb11315a17f5dbed3dcade7cc40d61a38a77844fadc76a813d62", null ],
       [ "DISTANCE_EMPEROR_ROOM", "d0/d45/a02843.html#a47a83b3a7eee5cb11315a17f5dbed3dca45c8cb2cfc126efde444fcec67c4cb71", null ]

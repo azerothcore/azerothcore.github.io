@@ -1,6 +1,6 @@
 var a26852 =
 [
-    [ "FilterTargets", "d8/d6b/a26852.html#af85da0bcf8c311472e6a75667fa125d0", null ],
-    [ "PrepareSpellScript", "d8/d6b/a26852.html#ad7478a1a70ebc52eda1c57dd4f143b67", null ],
-    [ "Register", "d8/d6b/a26852.html#a2fab1592d19331239b1ef63045389886", null ]
+    [ "HandleHeal", "d8/d6b/a26852.html#a03afbdbdc8555fc2d558a5e48f7340a0", null ],
+    [ "PrepareSpellScript", "d8/d6b/a26852.html#a61a601108cd59e5d87634c02b002e20d", null ],
+    [ "Register", "d8/d6b/a26852.html#ae46c965fc77aa61aaa3c426c8ecc585c", null ]
 ];

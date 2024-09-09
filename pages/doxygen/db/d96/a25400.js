@@ -1,6 +1,6 @@
 var a25400 =
 [
-    [ "HandleItemRemove", "db/d96/a25400.html#a28f8f8e6823bad14900d08ba10cab7e6", null ],
-    [ "PrepareSpellScript", "db/d96/a25400.html#a8b43e146724a2c8b3c495e886a79d021", null ],
-    [ "Register", "db/d96/a25400.html#af8b02c31b81dce516ea47d6a1235d683", null ]
+    [ "CheckCast", "db/d96/a25400.html#ac1bc3f881c31c5ab90785a62a5f5b5ae", null ],
+    [ "PrepareSpellScript", "db/d96/a25400.html#a2a9c657ccffbacfc661c6bb1dc41d9de", null ],
+    [ "Register", "db/d96/a25400.html#a4b34bd5ce9d3e948d6c712d71ed71b2d", null ]
 ];

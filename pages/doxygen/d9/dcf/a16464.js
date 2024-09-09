@@ -1,6 +1,9 @@
 var a16464 =
 [
-    [ "spell_valkyr_essence_auraAuraScript", "d1/dad/a16468.html", "d1/dad/a16468" ],
-    [ "spell_valkyr_essence", "d9/dcf/a16464.html#ab867f769df26243ad4cdb3aea3abbed7", null ],
-    [ "GetAuraScript", "d9/dcf/a16464.html#ace21eeaab7725a5e04b0a95dc61b1ea6", null ]
+    [ "npc_concentrated_ballAI", "d9/dcf/a16464.html#a5aae1554934d8e2aaa59d420a13517b6", null ],
+    [ "DoAction", "d9/dcf/a16464.html#ad3284ed37cdc503a688aa6fb2537387e", null ],
+    [ "MovementInform", "d9/dcf/a16464.html#a07845a436ded9c799b742ac9e27cc1bd", null ],
+    [ "MoveToNextPoint", "d9/dcf/a16464.html#a89d2697d5ccf6d783e973efc3b4669aa", null ],
+    [ "UpdateAI", "d9/dcf/a16464.html#a6509ff14639bca29b6877db54102d004", null ],
+    [ "despawning", "d9/dcf/a16464.html#a24145c6c4c38b5a1853647d24871090d", null ]
 ];

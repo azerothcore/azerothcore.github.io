@@ -1,6 +1,6 @@
 var a11028 =
 [
-    [ "EffectSplitHandler", "df/d45/a11028.html#a1e31c0f06961aba66f6737c4b4aca7f6", null ],
-    [ "Call", "df/d45/a11028.html#ae0ef79af01cce82ed3cbe208d98b325a", null ],
-    [ "pEffectHandlerScript", "df/d45/a11028.html#a181c0f987789f3725e7ba7e023cfc4e7", null ]
+    [ "EffectManaShieldHandler", "df/d45/a11028.html#a234fb0f6749072f9cc6310f80b3b9583", null ],
+    [ "Call", "df/d45/a11028.html#a30ac72ee0a22ac3e71bcb2eeda903dbc", null ],
+    [ "pEffectHandlerScript", "df/d45/a11028.html#a1aec2af2a69a90b8038d612d9ebddc2b", null ]
 ];

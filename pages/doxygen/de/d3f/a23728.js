@@ -1,6 +1,7 @@
 var a23728 =
 [
-    [ "HandleCast", "de/d3f/a23728.html#a912dc3b17ab7d0818089c32610d82a16", null ],
-    [ "PrepareSpellScript", "de/d3f/a23728.html#a6590aab70049aa5e94ed48aeb99ab1d0", null ],
-    [ "Register", "de/d3f/a23728.html#a09d4af96e2d5a69b1b61a6055bcb04d4", null ]
+    [ "CastQuill", "de/d3f/a23728.html#a923234809186bcbdf02457f4be095519", null ],
+    [ "Execute", "de/d3f/a23728.html#a26a971a575e4b9503cd1da73d43ebd1e", null ],
+    [ "_caster", "de/d3f/a23728.html#af809b9279aff141ce4007c8d1fbcc331", null ],
+    [ "_spellId", "de/d3f/a23728.html#ad6f7d8eaf69873b0ba57be4189c145cf", null ]
 ];

@@ -1,6 +1,7 @@
 var a18344 =
 [
-    [ "npc_valithria_cloudAI", "d3/ded/a18348.html", "d3/ded/a18348" ],
-    [ "npc_valithria_cloud", "df/ded/a18344.html#a11d1bdc4c6e8210e2d0706f33d369dde", null ],
-    [ "GetAI", "df/ded/a18344.html#afeff905cec1245dbac6fa59673aef015", null ]
+    [ "npc_valithria_portalAI", "df/ded/a18344.html#a18c1b9d2b149fbc34a17c9e87a8c70b6", null ],
+    [ "GetData", "df/ded/a18344.html#a598ba7930900aa211bb7e7dc12f366c0", null ],
+    [ "OnSpellClick", "df/ded/a18344.html#a457f2725e6580d7e6f3bb0445ba796a8", null ],
+    [ "_used", "df/ded/a18344.html#a92cc0c2aaa6add0c6c641719d6846bb3", null ]
 ];

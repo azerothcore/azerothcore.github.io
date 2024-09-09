@@ -1,6 +1,6 @@
 var a17180 =
 [
-    [ "HandleScript", "dd/dfa/a17180.html#ace45b0d9ce3815046e842d462fdcc9b6", null ],
-    [ "PrepareSpellScript", "dd/dfa/a17180.html#a0257968b3a4d9ef3241420bbc5abb63a", null ],
-    [ "Register", "dd/dfa/a17180.html#aed524436eacc6f1dddcc2f3cb6f502fc", null ]
+    [ "AddExtraDamage", "dd/dfa/a17180.html#adeedfdd7555dfd009c99db6f002f7488", null ],
+    [ "PrepareSpellScript", "dd/dfa/a17180.html#a5d5c32f102c525f6c25d12281a58f5f4", null ],
+    [ "Register", "dd/dfa/a17180.html#affe1d9a5e9c4776d1651fdb95283caf4", null ]
 ];

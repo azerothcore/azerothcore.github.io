@@ -1,7 +1,6 @@
 var a19832 =
 [
-    [ "boss_flame_leviathan_safety_containerAI", "de/da5/a19832.html#ab9191e20df488df184c468ca1ac41084", null ],
-    [ "MovementInform", "de/da5/a19832.html#a1b472a233ebebbb4c1fbf639aeb4bed6", null ],
-    [ "UpdateAI", "de/da5/a19832.html#a77b3a493c5650d91c903879db324651d", null ],
-    [ "_allowTimer", "de/da5/a19832.html#a2185c9fe04fa7288fab452c5c1de3819", null ]
+    [ "boss_flame_leviathan_safety_containerAI", "d7/d5e/a19836.html", "d7/d5e/a19836" ],
+    [ "boss_flame_leviathan_safety_container", "de/da5/a19832.html#ae14b2e13bd6358ad03d568f2bef042b7", null ],
+    [ "GetAI", "de/da5/a19832.html#a6bcbc4e65214a0c667875271ff9aa0dd", null ]
 ];

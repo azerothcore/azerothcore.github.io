@@ -1,6 +1,7 @@
 var a21212 =
 [
-    [ "boss_toravonAI", "d7/d65/a21216.html", "d7/d65/a21216" ],
-    [ "boss_toravon", "d1/d94/a21212.html#abd30a86924bd7dd9474b5df16f3a8d8d", null ],
-    [ "GetAI", "d1/d94/a21212.html#a6db140b1d232312300e20155830cb249", null ]
+    [ "PrepareAuraScript", "d1/d94/a21212.html#ac55d68816fa778b0961f574f7bfd7d6f", null ],
+    [ "Register", "d1/d94/a21212.html#a02fcc46ae737553240bffbc88ed0288b", null ],
+    [ "TriggerFists", "d1/d94/a21212.html#ae4329c52d90073f0d9c4211d3fd4c309", null ],
+    [ "Validate", "d1/d94/a21212.html#aec13cc93019c6f62df5ba2f27dd02892", null ]
 ];

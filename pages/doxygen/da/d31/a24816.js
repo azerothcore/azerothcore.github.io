@@ -1,6 +1,6 @@
 var a24816 =
 [
-    [ "CheckAreaTarget", "da/d31/a24816.html#a545323b9964ee4cb3c8d054fac4e2d55", null ],
-    [ "PrepareAuraScript", "da/d31/a24816.html#a2b6dbd33e34357917f662000a1cd932f", null ],
-    [ "Register", "da/d31/a24816.html#a7b4a2301b3a608ea5b2dd2504e02741d", null ]
+    [ "CalculateAmount", "da/d31/a24816.html#a9e54ae3e90ee8bf0fab966a497f761b3", null ],
+    [ "PrepareAuraScript", "da/d31/a24816.html#a51f9c0f92100c02e1fe7d127fecd902f", null ],
+    [ "Register", "da/d31/a24816.html#a5c89e7e53a7f41665ff25d57df8f7afb", null ]
 ];

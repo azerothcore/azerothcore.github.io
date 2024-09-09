@@ -1,8 +1,8 @@
 var a04604 =
 [
-    [ "ADT::MDDF", "d4/d60/a28584.html", "d4/d60/a28584" ],
-    [ "ADT::MODF", "d3/d73/a28588.html", "d3/d73/a28588" ],
-    [ "ADTFile", "dd/def/a28592.html", "dd/def/a28592" ],
+    [ "ADT::MDDF", "dd/def/a28592.html", "dd/def/a28592" ],
+    [ "ADT::MODF", "dc/d97/a28596.html", "dc/d97/a28596" ],
+    [ "ADTFile", "d3/db7/a28600.html", "d3/db7/a28600" ],
     [ "fixname2", "dd/d03/a04604.html#ac0029be4572a61d00eb1435db5526a74", null ],
     [ "fixnamen", "dd/d03/a04604.html#abdc56edc46e0804c456749761cff8daf", null ],
     [ "GetExtension", "dd/d03/a04604.html#ac3f75fc482c41471364c2c3e8bd1dd96", null ],

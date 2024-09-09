@@ -1,6 +1,6 @@
 var a15308 =
 [
-    [ "npc_silva_filnaveth", "dd/d0f/a15308.html#a5998381865214a7b3af7823bd2557cb0", null ],
-    [ "OnGossipHello", "dd/d0f/a15308.html#a32019c17271a3f504d86cd694262fd53", null ],
-    [ "OnGossipSelect", "dd/d0f/a15308.html#a10f81dce3dbc3ef0a84c8c33c2cb2e29", null ]
+    [ "npc_great_bear_spirit", "dd/d0f/a15308.html#a141470a3623aa1152d3505661f1532c8", null ],
+    [ "OnGossipHello", "dd/d0f/a15308.html#a2307b8d56fc117d918adc9814fa86f8f", null ],
+    [ "OnGossipSelect", "dd/d0f/a15308.html#aae026f4cf8b0de61d36a841dcfdbd92e", null ]
 ];

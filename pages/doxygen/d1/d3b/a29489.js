@@ -1,5 +1,7 @@
 var a29489 =
 [
-    [ "ID", "d1/d3b/a29489.html#a4a79da5825cf01d38d6ab9d98e033964", null ],
-    [ "parentCategory", "d1/d3b/a29489.html#a705e301dff461a8d7aefdc6fb29d39cc", null ]
+    [ "MPQArchive", "d9/db1/a28520.html", "d9/db1/a28520" ],
+    [ "MPQFile", "da/dce/a28524.html", "da/dce/a28524" ],
+    [ "ArchiveSet", "d1/d3b/a29489.html#a8d76af4bfff910da40b4f93a1c465744", null ],
+    [ "flipcc", "d1/d3b/a29489.html#aff3add09c98fece7ace91b0e7c90435e", null ]
 ];

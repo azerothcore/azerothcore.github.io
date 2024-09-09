@@ -530,7 +530,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  196</span>    <span class="keyword">delete</span> <a class="code hl_variable" href="../../d7/d1c/a05564.html#a817e53b23c54f2f6bbf7058eab0824b4">_commandExecuting</a>;</div>
 <div class="line"><span class="lineno">  197</span>    <a class="code hl_variable" href="../../d7/d1c/a05564.html#a817e53b23c54f2f6bbf7058eab0824b4">_commandExecuting</a> = <span class="keyword">new</span> std::promise&lt;void&gt;();</div>
 <div class="line"><span class="lineno">  198</span> </div>
-<div class="line"><span class="lineno">  199</span>    <a class="code hl_struct" href="../../d7/dc9/a11224.html">CliCommandHolder</a>* cmd = <span class="keyword">new</span> <a class="code hl_struct" href="../../d7/dc9/a11224.html">CliCommandHolder</a>(<span class="keyword">this</span>, command.c_str(), &amp;<a class="code hl_function" href="../../d7/d1c/a05564.html#adda3b14e26103155c0a154e4673e8627">RASession::CommandPrint</a>, &amp;<a class="code hl_function" href="../../d7/d1c/a05564.html#a547d5f26b74209003a8a3c7f8aa4af5d">RASession::CommandFinished</a>);</div>
+<div class="line"><span class="lineno">  199</span>    <a class="code hl_struct" href="../../dc/df9/a11228.html">CliCommandHolder</a>* cmd = <span class="keyword">new</span> <a class="code hl_struct" href="../../dc/df9/a11228.html">CliCommandHolder</a>(<span class="keyword">this</span>, command.c_str(), &amp;<a class="code hl_function" href="../../d7/d1c/a05564.html#adda3b14e26103155c0a154e4673e8627">RASession::CommandPrint</a>, &amp;<a class="code hl_function" href="../../d7/d1c/a05564.html#a547d5f26b74209003a8a3c7f8aa4af5d">RASession::CommandFinished</a>);</div>
 <div class="line"><span class="lineno">  200</span>    <a class="code hl_define" href="../../db/da5/a04663.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;QueueCliCommand(cmd);</div>
 <div class="line"><span class="lineno">  201</span> </div>
 <div class="line"><span class="lineno">  202</span>    <span class="comment">// Wait for the command to finish</span></div>
@@ -541,7 +541,7 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aa04663_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../db/da5/a04663.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:444</div></div>
 <div class="ttc" id="aa05564_html_a547d5f26b74209003a8a3c7f8aa4af5d"><div class="ttname"><a href="../../d7/d1c/a05564.html#a547d5f26b74209003a8a3c7f8aa4af5d">RASession::CommandFinished</a></div><div class="ttdeci">static void CommandFinished(void *callbackArg, bool)</div><div class="ttdef"><b>Definition:</b> RASession.cpp:219</div></div>
 <div class="ttc" id="aa05564_html_adda3b14e26103155c0a154e4673e8627"><div class="ttname"><a href="../../d7/d1c/a05564.html#adda3b14e26103155c0a154e4673e8627">RASession::CommandPrint</a></div><div class="ttdeci">static void CommandPrint(void *callbackArg, std::string_view text)</div><div class="ttdef"><b>Definition:</b> RASession.cpp:208</div></div>
-<div class="ttc" id="aa11224_html"><div class="ttname"><a href="../../d7/dc9/a11224.html">CliCommandHolder</a></div><div class="ttdoc">Storage class for commands issued for delayed execution.</div><div class="ttdef"><b>Definition:</b> IWorld.h:39</div></div>
+<div class="ttc" id="aa11228_html"><div class="ttname"><a href="../../dc/df9/a11228.html">CliCommandHolder</a></div><div class="ttdoc">Storage class for commands issued for delayed execution.</div><div class="ttdef"><b>Definition:</b> IWorld.h:39</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00055">_commandExecuting</a>, <a class="el" href="../../#l00219">CommandFinished()</a>, <a class="el" href="../../#l00208">CommandPrint()</a>, <a class="el" href="../../#l00164">LOG_INFO</a>, <a class="el" href="../../#l00093">Send()</a>, and <a class="el" href="../../#l00444">sWorld</a>.</p>
 
@@ -821,7 +821,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d1c/a05564.html">RASession</a></li>
-    <li class="footer">Generated on Mon Sep 2 2024 20:40:41 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Sep 9 2024 20:40:19 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,7 @@
 var a16968 =
 [
-    [ "SlaveRunEvent", "d2/d7c/a16968.html#a4560b275b0870cdbd192b2610893b47c", null ],
-    [ "Execute", "d2/d7c/a16968.html#a81db67be136525dea5a9cd84180be165", null ],
-    [ "_owner", "d2/d7c/a16968.html#a33e2ce4cea1edf2e0967696c41667f15", null ]
+    [ "HandleEffectPeriodic", "d2/d7c/a16968.html#a370e2cbf796c1bc0a891243b61c057e1", null ],
+    [ "PrepareAuraScript", "d2/d7c/a16968.html#ac0cb90fe9bfa7f371cc5469626ce2467", null ],
+    [ "Register", "d2/d7c/a16968.html#a5a44978cec95fef30c9ea4308bda2508", null ],
+    [ "Validate", "d2/d7c/a16968.html#a8b9f7d76f86f1a5abffdead3ebee694a", null ]
 ];

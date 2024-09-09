@@ -1,19 +1,17 @@
 var a12460 =
 [
-    [ "boss_priestess_lackey_commonAI", "dd/d65/a12460.html#acf122076823631cef5d66e03a9f607aa", null ],
-    [ "AttackStart", "dd/d65/a12460.html#a6056ef3425f39208e5731b25fc94a335", null ],
-    [ "EnterEvadeMode", "dd/d65/a12460.html#a6935410d7a4ce8e9dec9feed9f5351d7", null ],
-    [ "GetThreatMod", "dd/d65/a12460.html#a2e0e387ae4645c9bbd4625d1469403a8", null ],
-    [ "JustDied", "dd/d65/a12460.html#a8b06ee0a3e22d495a41ccf4c7009ad2d", null ],
-    [ "JustEngagedWith", "dd/d65/a12460.html#a4d47aacc653ab0e4b74fa3bcbcfdbbc7", null ],
-    [ "JustSummoned", "dd/d65/a12460.html#a9a7bcf641bae31827872faf7666635d5", null ],
-    [ "KilledUnit", "dd/d65/a12460.html#a23aaa0a619470898dd617a18130ca17b", null ],
-    [ "RecalculateThreat", "dd/d65/a12460.html#a7daa8f2b2ddfbbd0d0f267dac7e0c2c2", null ],
-    [ "Reset", "dd/d65/a12460.html#aa2ef03d73c43668c97205fa72414e71b", null ],
-    [ "UpdateAI", "dd/d65/a12460.html#adf87bd797da345e49700265319d808cc", null ],
-    [ "actualEventId", "dd/d65/a12460.html#a891e0e1647368aa7ebac98ec362643b3", null ],
-    [ "aiType", "dd/d65/a12460.html#a2b7ccbf195658e402ba6f276b18e3551", null ],
-    [ "events", "dd/d65/a12460.html#a837d884e297dbb805bb30ceb9bf9e784", null ],
-    [ "instance", "dd/d65/a12460.html#ac71aa86c97fe11d934f09d62c4ed8eab", null ],
-    [ "summons", "dd/d65/a12460.html#a498ef73fcc7995113318c5f0b6efa23e", null ]
+    [ "boss_priestess_delrissa", "dd/d65/a12460.html#afcbf1aa400ec44b709fd194daab91d3d", null ],
+    [ "InitializeAI", "dd/d65/a12460.html#ae5105868d704b6ca91b27dcfbeaef3a9", null ],
+    [ "JustDied", "dd/d65/a12460.html#a82d8c198f38c2aa881386e739dea6a08", null ],
+    [ "JustEngagedWith", "dd/d65/a12460.html#a40c9852f9a1ea24b61edf0f7c00193a6", null ],
+    [ "JustSummoned", "dd/d65/a12460.html#ac0a2c4346c6222380d7bda9a274f78e0", null ],
+    [ "KilledUnit", "dd/d65/a12460.html#af0b41306f53c42745cce39069f446704", null ],
+    [ "Reset", "dd/d65/a12460.html#a60e39157aa3043284b2e1e032c0d9241", null ],
+    [ "SummonedCreatureDies", "dd/d65/a12460.html#a14757692ab4af5c1b5b311f059be9091", null ],
+    [ "UpdateAI", "dd/d65/a12460.html#afadd9dba2aca991dd1ea98c844a1f897", null ],
+    [ "events", "dd/d65/a12460.html#aead3c32ea08638f71d0ac5934b2217aa", null ],
+    [ "HelpersKilled", "dd/d65/a12460.html#a26764cdd42721c9276ccecaa97fc9a6e", null ],
+    [ "instance", "dd/d65/a12460.html#a20074ec62d77cfc5bae6c09087d3901e", null ],
+    [ "PlayersKilled", "dd/d65/a12460.html#a9bde16a69ed9e950ce0dfb91805280cc", null ],
+    [ "summons", "dd/d65/a12460.html#ae785fb9e5549271e8b68133105b79407", null ]
 ];

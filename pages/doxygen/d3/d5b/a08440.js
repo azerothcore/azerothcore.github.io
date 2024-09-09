@@ -1,8 +1,9 @@
 var a08440 =
 [
-    [ "DiminishingReturn", "d3/d5b/a08440.html#acd4828637710636d0164fced285c854d", null ],
-    [ "DRGroup", "d3/d5b/a08440.html#add3ab95d65e283a326e1922129941ae4", null ],
-    [ "hitCount", "d3/d5b/a08440.html#a94b1fdc8e8d51b1c6f5e723e697ed323", null ],
-    [ "hitTime", "d3/d5b/a08440.html#ae3f5eecc2bc88fe236fe4c7c297b68c5", null ],
-    [ "stack", "d3/d5b/a08440.html#aeb40601df7e6507c7fd83e3152541ba5", null ]
+    [ "AuraMunchingQueue", "d3/d5b/a08440.html#a87178d02796b02360137f1f1ca3ce867", null ],
+    [ "Execute", "d3/d5b/a08440.html#a8f025a0ea1db81fb283db563402d1c40", null ],
+    [ "_basePoints", "d3/d5b/a08440.html#a9cf03046c9595e81bf119b7aacb1a81a", null ],
+    [ "_owner", "d3/d5b/a08440.html#a472aaf46c2f167a10ce38267ace0b8bb", null ],
+    [ "_spellId", "d3/d5b/a08440.html#a6674c43b906e45e2ad29100a7ff06f44", null ],
+    [ "_targetGUID", "d3/d5b/a08440.html#a441b328296f0b7a75bdaee06d2cb94f1", null ]
 ];

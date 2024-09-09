@@ -1,7 +1,7 @@
 var a03662 =
 [
-    [ "npc_pet_pri_lightwell", "d7/d76/a24392.html", "d7/d76/a24392" ],
-    [ "npc_pet_pri_shadowfiend", "d1/df1/a24396.html", "d1/df1/a24396" ],
+    [ "npc_pet_pri_lightwell", "db/dc1/a24400.html", "db/dc1/a24400" ],
+    [ "npc_pet_pri_shadowfiend", "d7/dcf/a24404.html", "d7/dcf/a24404" ],
     [ "PriestSpells", "d4/d2b/a03662.html#a8aaecfe4214ff7bd567980dd904b110f", [
       [ "SPELL_PRIEST_GLYPH_OF_SHADOWFIEND", "d4/d2b/a03662.html#a8aaecfe4214ff7bd567980dd904b110faabcd07781394f6b318b9bf42c0938014", null ],
       [ "SPELL_PRIEST_GLYPH_OF_SHADOWFIEND_MANA", "d4/d2b/a03662.html#a8aaecfe4214ff7bd567980dd904b110fa24b5ecb3171baa6a2e1c79957bcd7fde", null ],

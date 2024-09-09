@@ -9,7 +9,7 @@ var a05588 =
       [ "DATABASE_WORLD", "d0/d38/a05588.html#a48b4a16db3575bc0e3885a6ffd11a8e5a714c8ecb6138cd56a8b1547ec0ad9886", null ],
       [ "DATABASE_MASK_ALL", "d0/d38/a05588.html#a48b4a16db3575bc0e3885a6ffd11a8e5af32e2f62e18c4336d9cc446665627f9b", null ]
     ] ],
-    [ "DatabaseLoader", "d0/d38/a05588.html#a99bfa5cf3b252c89e067f514d03d05fb", null ],
+    [ "DatabaseLoader", "d0/d38/a05588.html#a4d5850fad035cfc5a488154d830f8642", null ],
     [ "AddDatabase", "d0/d38/a05588.html#a90e78741afab5e8acae41e24ba256675", null ],
     [ "GetUpdateFlags", "d0/d38/a05588.html#af0cd17307aa123f7e390aa67cab3d0d3", null ],
     [ "Load", "d0/d38/a05588.html#ab0ffcdb400e9e5d80598f89dddb3bea8", null ],

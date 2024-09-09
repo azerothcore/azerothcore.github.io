@@ -1,6 +1,5 @@
 var a12952 =
 [
-    [ "boss_sacrolashAI", "de/daa/a12956.html", "de/daa/a12956" ],
-    [ "boss_sacrolash", "de/d2e/a12952.html#a97d7451b8cc9de91da97ed29ac799fed", null ],
-    [ "GetAI", "de/d2e/a12952.html#a67e9393b320f3dce72dd5077daea104c", null ]
+    [ "AreaTrigger_at_sunwell_madrigosa", "de/d2e/a12952.html#a6202301b3ce2dd20df77e2fd3b2f6042", null ],
+    [ "OnTrigger", "de/d2e/a12952.html#a459fbbd650883aa69ea9a21cf61370f7", null ]
 ];

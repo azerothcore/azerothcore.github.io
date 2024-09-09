@@ -1,5 +1,6 @@
 var a16484 =
 [
-    [ "PrepareAuraScript", "d4/d37/a16484.html#ad096de801049800aa7793453f38220a4", null ],
-    [ "Register", "d4/d37/a16484.html#a717a7e21f9028dede890b14feca484d0", null ]
+    [ "spell_valkyr_ball_periodic_dummyAuraScript", "d6/d62/a16488.html", "d6/d62/a16488" ],
+    [ "spell_valkyr_ball_periodic_dummy", "d4/d37/a16484.html#a0a8ea4997a87c486ac68cae0259d5ad5", null ],
+    [ "GetAuraScript", "d4/d37/a16484.html#abfc4ad26352893ac44d0d8468b3b22f7", null ]
 ];

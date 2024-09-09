@@ -118,7 +118,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">file</td><td>Path to file </td></tr>
     <tr><td class="paramname">line</td><td>Line number in file </td></tr>
     <tr><td class="paramname">function</td><td>Functionn name </td></tr>
-    <tr><td class="paramname">message</td><td><a class="el" href="../../d7/d0d/a07616.html">Condition</a> to string format </td></tr>
+    <tr><td class="paramname">message</td><td><a class="el" href="../../d1/d36/a07620.html">Condition</a> to string format </td></tr>
     <tr><td class="paramname">fmtMessage</td><td>[optional] Display format message after condition </td></tr>
     <tr><td class="paramname">debugInfo</td><td>[optional] Display debug info </td></tr>
   </table>
@@ -190,19 +190,19 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><span class="lineno">   91</span>                                                                                                                             {})</div>
 <div class="line"><span class="lineno">   92</span>    {</div>
-<div class="line"><span class="lineno">   93</span>        std::string msg = <a class="code hl_function" href="../../d5/d43/a04668.html#a201985ba1aed494a268ecbab6785536a">Acore::StringFormatFmt</a>(<span class="stringliteral">&quot;\n&gt;&gt; ABORTED\n\n# Location &#39;{}:{}&#39;\n# Function &#39;{}&#39;\n&quot;</span>, file, line, function);</div>
+<div class="line"><span class="lineno">   93</span>        std::string msg = <a class="code hl_function" href="../../d5/d43/a04668.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a>(<span class="stringliteral">&quot;\n&gt;&gt; ABORTED\n\n# Location &#39;{}:{}&#39;\n# Function &#39;{}&#39;\n&quot;</span>, file, line, function);</div>
 <div class="line"><span class="lineno">   94</span> </div>
 <div class="line"><span class="lineno">   95</span>        <span class="keywordflow">if</span> (!fmtMessage.empty())</div>
 <div class="line"><span class="lineno">   96</span>        {</div>
-<div class="line"><span class="lineno">   97</span>            msg.append(<a class="code hl_function" href="../../d5/d43/a04668.html#a201985ba1aed494a268ecbab6785536a">Acore::StringFormatFmt</a>(<span class="stringliteral">&quot;# Message &#39;{}&#39;\n&quot;</span>, fmtMessage));</div>
+<div class="line"><span class="lineno">   97</span>            msg.append(<a class="code hl_function" href="../../d5/d43/a04668.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a>(<span class="stringliteral">&quot;# Message &#39;{}&#39;\n&quot;</span>, fmtMessage));</div>
 <div class="line"><span class="lineno">   98</span>        }</div>
 <div class="line"><span class="lineno">   99</span> </div>
-<div class="line"><span class="lineno">  100</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d5/d43/a04668.html#a201985ba1aed494a268ecbab6785536a">Acore::StringFormatFmt</a>(</div>
+<div class="line"><span class="lineno">  100</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d5/d43/a04668.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a>(</div>
 <div class="line"><span class="lineno">  101</span>            <span class="stringliteral">&quot;\n#{0:-^{2}}#\n&quot;</span></div>
 <div class="line"><span class="lineno">  102</span>            <span class="stringliteral">&quot; {1: ^{2}} \n&quot;</span></div>
 <div class="line"><span class="lineno">  103</span>            <span class="stringliteral">&quot;#{0:-^{2}}#\n&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, msg, 70);</div>
 <div class="line"><span class="lineno">  104</span>    }</div>
-<div class="ttc" id="aa04668_html_a201985ba1aed494a268ecbab6785536a"><div class="ttname"><a href="../../d5/d43/a04668.html#a201985ba1aed494a268ecbab6785536a">Acore::StringFormatFmt</a></div><div class="ttdeci">std::string StringFormatFmt(FormatString&lt; Args... &gt; fmt, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> StringFormat.h:49</div></div>
+<div class="ttc" id="aa04668_html_a868406b9609960d4ae0189588c8cbbf4"><div class="ttname"><a href="../../d5/d43/a04668.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a></div><div class="ttdeci">std::string StringFormat(FormatString&lt; Args... &gt; fmt, Args &amp;&amp;... args)</div><div class="ttdoc">Default AC string format function.</div><div class="ttdef"><b>Definition:</b> StringFormat.h:34</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../#l00139">Acore::Abort()</a>.</p>
 
@@ -273,19 +273,19 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><span class="lineno">   63</span>                                                            {}, std::string_view debugInfo = {})</div>
 <div class="line"><span class="lineno">   64</span>    {</div>
-<div class="line"><span class="lineno">   65</span>        std::string msg = <a class="code hl_function" href="../../d5/d43/a04668.html#a201985ba1aed494a268ecbab6785536a">Acore::StringFormatFmt</a>(<span class="stringliteral">&quot;\n&gt;&gt; {}\n\n# Location: {}:{}\n# Function: {}\n# Condition: {}\n&quot;</span>, messageType, file, line, function, message);</div>
+<div class="line"><span class="lineno">   65</span>        std::string msg = <a class="code hl_function" href="../../d5/d43/a04668.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a>(<span class="stringliteral">&quot;\n&gt;&gt; {}\n\n# Location: {}:{}\n# Function: {}\n# Condition: {}\n&quot;</span>, messageType, file, line, function, message);</div>
 <div class="line"><span class="lineno">   66</span> </div>
 <div class="line"><span class="lineno">   67</span>        <span class="keywordflow">if</span> (!fmtMessage.empty())</div>
 <div class="line"><span class="lineno">   68</span>        {</div>
-<div class="line"><span class="lineno">   69</span>            msg.append(<a class="code hl_function" href="../../d5/d43/a04668.html#a201985ba1aed494a268ecbab6785536a">Acore::StringFormatFmt</a>(<span class="stringliteral">&quot;# Message: {}\n&quot;</span>, fmtMessage));</div>
+<div class="line"><span class="lineno">   69</span>            msg.append(<a class="code hl_function" href="../../d5/d43/a04668.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a>(<span class="stringliteral">&quot;# Message: {}\n&quot;</span>, fmtMessage));</div>
 <div class="line"><span class="lineno">   70</span>        }</div>
 <div class="line"><span class="lineno">   71</span> </div>
 <div class="line"><span class="lineno">   72</span>        <span class="keywordflow">if</span> (!debugInfo.empty())</div>
 <div class="line"><span class="lineno">   73</span>        {</div>
-<div class="line"><span class="lineno">   74</span>            msg.append(<a class="code hl_function" href="../../d5/d43/a04668.html#a201985ba1aed494a268ecbab6785536a">Acore::StringFormatFmt</a>(<span class="stringliteral">&quot;\n# Debug info: {}\n&quot;</span>, debugInfo));</div>
+<div class="line"><span class="lineno">   74</span>            msg.append(<a class="code hl_function" href="../../d5/d43/a04668.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a>(<span class="stringliteral">&quot;\n# Debug info: {}\n&quot;</span>, debugInfo));</div>
 <div class="line"><span class="lineno">   75</span>        }</div>
 <div class="line"><span class="lineno">   76</span> </div>
-<div class="line"><span class="lineno">   77</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d5/d43/a04668.html#a201985ba1aed494a268ecbab6785536a">Acore::StringFormatFmt</a>(</div>
+<div class="line"><span class="lineno">   77</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d5/d43/a04668.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a>(</div>
 <div class="line"><span class="lineno">   78</span>            <span class="stringliteral">&quot;#{0:-^{2}}#\n&quot;</span></div>
 <div class="line"><span class="lineno">   79</span>            <span class="stringliteral">&quot; {1: ^{2}} \n&quot;</span></div>
 <div class="line"><span class="lineno">   80</span>            <span class="stringliteral">&quot;#{0:-^{2}}#\n&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, msg, 70);</div>
@@ -301,7 +301,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/db6/a04681.html">anonymous_namespace{Errors.cpp}</a></li>
-    <li class="footer">Generated on Mon Sep 2 2024 20:41:08 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Sep 9 2024 20:40:47 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

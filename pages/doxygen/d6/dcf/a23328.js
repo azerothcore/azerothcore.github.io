@@ -1,13 +1,6 @@
 var a23328 =
 [
-    [ "boss_ghazan", "d6/dcf/a23328.html#ae730362fcf3606c67b6b85147de98fb6", null ],
-    [ "DoAction", "d6/dcf/a23328.html#ac016d5e06ca4f8f0bf2fa13ce2cd89e2", null ],
-    [ "InitializeAI", "d6/dcf/a23328.html#a6b8c975a109dc5eb8a3e3fba03fe806e", null ],
-    [ "JustEngagedWith", "d6/dcf/a23328.html#ad4136f0f63d267284f36756793c0efa7", null ],
-    [ "JustReachedHome", "d6/dcf/a23328.html#af9f2dd854036d5c8b9c6703499836199", null ],
-    [ "MovementInform", "d6/dcf/a23328.html#add9b2e60fb2ffc8a3905f063a2f3d0ae", null ],
-    [ "Reset", "d6/dcf/a23328.html#afc9522a26060643f2f9d25a8a98691b7", null ],
-    [ "UpdateAI", "d6/dcf/a23328.html#a40a6dd5ed2954be7df4612a7552e1bc0", null ],
-    [ "_movedToPlatform", "d6/dcf/a23328.html#aa6c0c391355ac0b698d67796efd63062", null ],
-    [ "_reachedPlatform", "d6/dcf/a23328.html#af3476318b4721bd52facaf735eabb1f9", null ]
+    [ "instance_steam_vault_InstanceMapScript", "dc/d8e/a23332.html", "dc/d8e/a23332" ],
+    [ "instance_steam_vault", "d6/dcf/a23328.html#aa3417083841ccb50c8a2f29ba343e115", null ],
+    [ "GetInstanceScript", "d6/dcf/a23328.html#a3a2edb84cc7067d3c8fa2151b4763c5a", null ]
 ];

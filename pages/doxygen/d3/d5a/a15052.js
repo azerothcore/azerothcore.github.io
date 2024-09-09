@@ -1,6 +1,6 @@
 var a15052 =
 [
-    [ "HandleDummy", "d3/d5a/a15052.html#ac06b2b8e07ebc51a281c70663796dcc3", null ],
-    [ "PrepareSpellScript", "d3/d5a/a15052.html#aa60cc00f33e329fe8d010c0e1c00989a", null ],
-    [ "Register", "d3/d5a/a15052.html#aee9d14b3f45cb43478f970e9e6e173fd", null ]
+    [ "OnPeriodic", "d3/d5a/a15052.html#a5945e24db52c6bacae7221b085dc877b", null ],
+    [ "PrepareAuraScript", "d3/d5a/a15052.html#acc987aa864a8333de7bd0b770eb9018d", null ],
+    [ "Register", "d3/d5a/a15052.html#a3c5a192302ec6d531037f8b5da1565f2", null ]
 ];

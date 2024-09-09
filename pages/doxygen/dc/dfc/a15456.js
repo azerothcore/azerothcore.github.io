@@ -1,6 +1,7 @@
 var a15456 =
 [
-    [ "npc_taskmaster_fizzuleAI", "de/d39/a15460.html", "de/d39/a15460" ],
-    [ "npc_taskmaster_fizzule", "dc/dfc/a15456.html#aa42e6cc1a3ac58ea79f5184f7bb293a9", null ],
-    [ "GetAI", "dc/dfc/a15456.html#a6281de7424932fe6580ffefa199498d9", null ]
+    [ "npc_giltharesAI", "dc/dfc/a15456.html#af22e42b2180987febd964784b6d49b5e", null ],
+    [ "JustEngagedWith", "dc/dfc/a15456.html#ae9ba65652db3d2d32920d1a98594727a", null ],
+    [ "Reset", "dc/dfc/a15456.html#a34d57ef71b60fe71c749f790cecf70b2", null ],
+    [ "WaypointReached", "dc/dfc/a15456.html#a9308c73760e50e0f3d04031b508526d1", null ]
 ];

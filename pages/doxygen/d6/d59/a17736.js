@@ -1,7 +1,6 @@
 var a17736 =
 [
-    [ "HandleExtraEffect", "d6/d59/a17736.html#a8fbfac8e62d2534daf40194f7fe31945", null ],
-    [ "PrepareAuraScript", "d6/d59/a17736.html#a45e83b3bfa344391bb87c8088ae1c6a7", null ],
-    [ "Register", "d6/d59/a17736.html#a5ec23a02a4e617e6db8cf17d2bd36aff", null ],
-    [ "Validate", "d6/d59/a17736.html#a2e7253cfc18b66d663457c2fb7ab3302", null ]
+    [ "FilterTargets", "d6/d59/a17736.html#ac2396cbd000a8d58ff22dbb08c81dfb4", null ],
+    [ "PrepareSpellScript", "d6/d59/a17736.html#abcdfe528430e299c2eb64b24f7ff8eb0", null ],
+    [ "Register", "d6/d59/a17736.html#a32e04a1110d651701b8eab1648c69a57", null ]
 ];

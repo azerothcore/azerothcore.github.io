@@ -1,6 +1,6 @@
 var a21196 =
 [
-    [ "spell_koralon_meteor_fists_AuraScript", "d0/dc9/a21200.html", "d0/dc9/a21200" ],
-    [ "spell_koralon_meteor_fists", "d4/d1c/a21196.html#aac98b15864fcca09bab4fe8e2393765a", null ],
-    [ "GetAuraScript", "d4/d1c/a21196.html#ac953d13c4a6059752b87b28a4bc8308d", null ]
+    [ "HandleDummy", "d4/d1c/a21196.html#a9a4cee98bd023da694ac8fe76cd06078", null ],
+    [ "PrepareSpellScript", "d4/d1c/a21196.html#abb80edac9217487c4be085f12295691e", null ],
+    [ "Register", "d4/d1c/a21196.html#a2e483fb5c3e176f694eb7c39548a9903", null ]
 ];

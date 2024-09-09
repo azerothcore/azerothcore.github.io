@@ -1,14 +1,10 @@
 var a24100 =
 [
-    [ "npc_mature_netherwing_drakeAI", "d2/ddf/a24100.html#a32281f8dfa1c8af8fe6bcac2a8be4220", null ],
-    [ "JustReachedHome", "d2/ddf/a24100.html#a0de69b5fda6342217697ad264d64d4e6", null ],
-    [ "MovementInform", "d2/ddf/a24100.html#a456b5de60672120f82506d177faf6b47", null ],
-    [ "Reset", "d2/ddf/a24100.html#a72eb39e259aed0ab230d4d43722cba13", null ],
-    [ "SpellHit", "d2/ddf/a24100.html#a749690b386c0c726d11b77bc705b9b01", null ],
-    [ "UpdateAI", "d2/ddf/a24100.html#a624c256f29d3cefed0bb909da3841853", null ],
-    [ "bCanEat", "d2/ddf/a24100.html#ad4c671be4f16f23ddf2f2f84b0bd4c94", null ],
-    [ "bIsEating", "d2/ddf/a24100.html#a0519438fda724a06a0c6f8ed2d7d533d", null ],
-    [ "CastTimer", "d2/ddf/a24100.html#a630312f70a2f22683311a66e5a4f9ec6", null ],
-    [ "EatTimer", "d2/ddf/a24100.html#aa50d3a21103dc769d162b1c917100630", null ],
-    [ "uiPlayerGUID", "d2/ddf/a24100.html#a6b9a435245ddce156d0657aa9e35175b", null ]
+    [ "npc_infernal_attackerAI", "d2/ddf/a24100.html#ae04c4e026f22bd650bb33940b923df9a", null ],
+    [ "IsSummonedBy", "d2/ddf/a24100.html#a926e6cd6772784872a905de7245007ac", null ],
+    [ "JustDied", "d2/ddf/a24100.html#a1822131520f98dd5f1dd637282f20ae3", null ],
+    [ "Reset", "d2/ddf/a24100.html#a6c871d05d4fd0a6f72f409285f012f9c", null ],
+    [ "SpellHit", "d2/ddf/a24100.html#a956f3fb1e341519817599df08afc2589", null ],
+    [ "UpdateAI", "d2/ddf/a24100.html#a458ba4c884a95080e1088a07a04a9cb9", null ],
+    [ "casterGUID", "d2/ddf/a24100.html#ab2e791cc0a67012bc56c3b07e3f327e9", null ]
 ];

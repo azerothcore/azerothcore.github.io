@@ -1,8 +1,8 @@
 var a24920 =
 [
-    [ "CheckProc", "db/d6b/a24920.html#a88cdab428be20027d939fe4765afc9e0", null ],
-    [ "HandleProc", "db/d6b/a24920.html#a8e49a1bc11fdfc1b7d3f8225c890206f", null ],
-    [ "PrepareAuraScript", "db/d6b/a24920.html#a33f53dc5834a3be78e24a1a58bdfd15a", null ],
-    [ "Register", "db/d6b/a24920.html#aacb126d871c0df43f5096124b8cda376", null ],
-    [ "Validate", "db/d6b/a24920.html#aa81adc61bd1149d9c43c4670f02a91ba", null ]
+    [ "HandleEffectCalcPeriodic", "db/d6b/a24920.html#a78c46695cab8da2280686ea49d88f036", null ],
+    [ "HandleEffectPeriodic", "db/d6b/a24920.html#a65b8a9dcd836cb538d5d2bec3d03d4a2", null ],
+    [ "HandleOnEffectRemove", "db/d6b/a24920.html#af722cf30e478802784178a9346bd1bdd", null ],
+    [ "PrepareAuraScript", "db/d6b/a24920.html#a6352d1ab3dd67efd9be171f7db20a62d", null ],
+    [ "Register", "db/d6b/a24920.html#ae6c2b365463345c71ed1a4acdee04a15", null ]
 ];

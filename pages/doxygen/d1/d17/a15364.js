@@ -1,6 +1,6 @@
 var a15364 =
 [
-    [ "npc_anachronos_the_ancientAI", "d3/d9a/a15368.html", "d3/d9a/a15368" ],
-    [ "npc_anachronos_the_ancient", "d1/d17/a15364.html#a720884359886e6f881190471005f4cfc", null ],
-    [ "GetAI", "d1/d17/a15364.html#a345c801231907d98f2ab2425b1d35cbc", null ]
+    [ "SpellId", "d1/d17/a15364.html#a2c430be201c1fd866ee96224f1803a20", null ],
+    [ "Timer1", "d1/d17/a15364.html#a9a35c148286e88f48b174be8b74fc5d0", null ],
+    [ "Timer2", "d1/d17/a15364.html#a108dee679b1f5d9fb8351f7b4b4f3a56", null ]
 ];

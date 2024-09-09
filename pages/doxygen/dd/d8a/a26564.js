@@ -1,7 +1,8 @@
 var a26564 =
 [
-    [ "HandleDummy", "dd/d8a/a26564.html#a96c5064738653ce16f06634196218a88", null ],
-    [ "PrepareSpellScript", "dd/d8a/a26564.html#a2fa51a29d2c8ce74c8a4351712ccdeb9", null ],
-    [ "Register", "dd/d8a/a26564.html#a080969e035143ac8527443025dbacef2", null ],
-    [ "Validate", "dd/d8a/a26564.html#a66fd30d7cffdc7307b4c9dc821ccdf92", null ]
+    [ "ApplyDebuff", "dd/d8a/a26564.html#ac22ae27019de6bd951bb00262c6df9a3", null ],
+    [ "PrepareSpellScript", "dd/d8a/a26564.html#aa37525d089348f58e3d871830caa3417", null ],
+    [ "Register", "dd/d8a/a26564.html#ac37a48d9742ab6b07c5e6a8dd7f23bd9", null ],
+    [ "RemoveInvalidTargets", "dd/d8a/a26564.html#a0451b75aa962065a01a5806992e01b16", null ],
+    [ "Validate", "dd/d8a/a26564.html#ac69d777fdf7a2d3c527621dee256690c", null ]
 ];

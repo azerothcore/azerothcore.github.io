@@ -1,6 +1,6 @@
 var a26356 =
 [
-    [ "HandleDummy", "db/d31/a26356.html#a904038167c9ba270cb54cd6adbe22563", null ],
-    [ "PrepareSpellScript", "db/d31/a26356.html#a326656405c3400225a4ce10567c1c482", null ],
-    [ "Register", "db/d31/a26356.html#a2d83815d44543686525238723a3ab39a", null ]
+    [ "OnApply", "db/d31/a26356.html#a50ced6d5a475ccad9429dfbb05130394", null ],
+    [ "PrepareAuraScript", "db/d31/a26356.html#abd02e129b1201449d473a66aea77d569", null ],
+    [ "Register", "db/d31/a26356.html#a8c09775f642335252c6e548900dc9d3a", null ]
 ];

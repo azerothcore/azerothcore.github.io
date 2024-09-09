@@ -1,12 +1,6 @@
 var a20324 =
 [
-    [ "npc_ulduar_proximity_mineAI", "d9/dd1/a20324.html#aa3001a71c8a298be688631d618745495", null ],
-    [ "AttackStart", "d9/dd1/a20324.html#afe5572c8fd1f8acc64ca57304d8be254", null ],
-    [ "CanAIAttack", "d9/dd1/a20324.html#a0216f41bf596eb43a9b9eea13152d262", null ],
-    [ "MoveInLineOfSight", "d9/dd1/a20324.html#afe07e3cd341d6a84592ab9b33e02d6d5", null ],
-    [ "SpellHitTarget", "d9/dd1/a20324.html#aaf6c9c8843a61d29326ab6c662b174f9", null ],
-    [ "UpdateAI", "d9/dd1/a20324.html#adadc4c33ff356bd5eed6d82115dc888a", null ],
-    [ "exploded", "d9/dd1/a20324.html#a1706ff0cfd7192040c32f13a37610c43", null ],
-    [ "timer", "d9/dd1/a20324.html#a4c743646055b4c95bf379a751eb5892e", null ],
-    [ "timer2", "d9/dd1/a20324.html#a446b7658fa4c165f43947a05562827b2", null ]
+    [ "npc_ulduar_proximity_mineAI", "d3/d5d/a20328.html", "d3/d5d/a20328" ],
+    [ "npc_ulduar_proximity_mine", "d9/dd1/a20324.html#ac33beb07e17712cdda1b3434d9dc8222", null ],
+    [ "GetAI", "d9/dd1/a20324.html#a7d8237b965699004f9df731e357b4020", null ]
 ];

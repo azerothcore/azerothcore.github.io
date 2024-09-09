@@ -1,6 +1,7 @@
 var a24140 =
 [
-    [ "npc_torloth_the_magnificentAI", "d0/db3/a24144.html", "d0/db3/a24144" ],
-    [ "npc_torloth_the_magnificent", "dc/da2/a24140.html#a252796a19dcebe210eecb4d9ae150e5d", null ],
-    [ "GetAI", "dc/da2/a24140.html#a94c206fb75cc6f50c6127908b5b5205f", null ]
+    [ "o", "dc/da2/a24140.html#a3785e9b55ea3a7140086ce1f86232109", null ],
+    [ "x", "dc/da2/a24140.html#ac81cc1119b7ac8ac70ee635f2e3d4bb7", null ],
+    [ "y", "dc/da2/a24140.html#a10fbad67977d8dd3911eb629c1797684", null ],
+    [ "z", "dc/da2/a24140.html#a69fc2438e52f6c0de3af13900ff38166", null ]
 ];

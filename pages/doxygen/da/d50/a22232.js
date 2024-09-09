@@ -1,9 +1,6 @@
 var a22232 =
 [
-    [ "npc_brunnhildar_prisonerAI", "da/d50/a22232.html#ad650885c7f615f8b27ba20203c9fbb6f", null ],
-    [ "JustRespawned", "da/d50/a22232.html#a15843fcdc5d9eb34df7869b56a0b16ac", null ],
-    [ "Reset", "da/d50/a22232.html#ac9ba0806b9702cebe9171d9ba8962b0f", null ],
-    [ "SpellHit", "da/d50/a22232.html#af2835ec5b951e2f4bb176ebe6bb958fd", null ],
-    [ "UpdateAI", "da/d50/a22232.html#a0702d4cf577ac00688a7b93bfe656952", null ],
-    [ "freed", "da/d50/a22232.html#a46e03a19bac91a800154e3c873235800", null ]
+    [ "npc_brunnhildar_prisonerAI", "de/de1/a22236.html", "de/de1/a22236" ],
+    [ "npc_brunnhildar_prisoner", "da/d50/a22232.html#a4dd1b440366c0a5c4fa7c1dfab7607b5", null ],
+    [ "GetAI", "da/d50/a22232.html#aa2a1787849c74a5163a39137c9d03d57", null ]
 ];

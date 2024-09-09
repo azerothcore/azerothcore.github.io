@@ -1,8 +1,12 @@
 var a17284 =
 [
-    [ "npc_muradin_bronzebeard_iccAI", "d7/d8d/a17288.html", "d7/d8d/a17288" ],
-    [ "npc_muradin_bronzebeard_icc", "df/dda/a17284.html#a7e4cecb0f4cabf024794045ed20e3563", null ],
-    [ "GetAI", "df/dda/a17284.html#ab2b6a0bb1b8626e5a4064b9412234f4b", null ],
-    [ "OnGossipHello", "df/dda/a17284.html#a7fb9838521dbae6ac0a8bb4ac1e07c37", null ],
-    [ "OnGossipSelect", "df/dda/a17284.html#a46c4893be723a848d985ff55e28d55a2", null ]
+    [ "npc_high_overlord_saurfangAI", "df/dda/a17284.html#a5c31259d9eb26e09d2b645d826e75328", null ],
+    [ "DoAction", "df/dda/a17284.html#a4a372a14c960c48c51a1c8e34ebffc53", null ],
+    [ "MovementInform", "df/dda/a17284.html#a6a46f99ffb67a699ef9adb2a1afcbe13", null ],
+    [ "Reset", "df/dda/a17284.html#a28899c61f9b4d3612535d1a01dc05f4a", null ],
+    [ "SpellHit", "df/dda/a17284.html#a6399e9c9ecdb8c01fbd2bcd1b081811f", null ],
+    [ "UpdateAI", "df/dda/a17284.html#a92124e7490a066bf63836397a3bdc71b", null ],
+    [ "_events", "df/dda/a17284.html#a12bbe13cf8fd1eda0cb8aa75ecafddc4", null ],
+    [ "_guardList", "df/dda/a17284.html#a1d8ccb93c5c8d13767fa8a1429adb262", null ],
+    [ "_instance", "df/dda/a17284.html#a4181022e52fc10e2d5d98dcffe9ced62", null ]
 ];

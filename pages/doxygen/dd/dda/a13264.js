@@ -1,6 +1,5 @@
 var a13264 =
 [
-    [ "npc_maredis_firestarAI", "dd/dda/a13264.html#ac2d4ed4b205146524dcf11585d65ae12", null ],
-    [ "sGossipHello", "dd/dda/a13264.html#a72790dc9525249a4b558c37c4a0bd03f", null ],
-    [ "sGossipSelect", "dd/dda/a13264.html#acefb2bc09fe8f7ad77d53ee6eb8bbb71", null ]
+    [ "npc_maredis_firestarAI", "dc/d46/a13268.html", "dc/d46/a13268" ],
+    [ "npc_maredis_firestar", "dd/dda/a13264.html#a91015d70203597db3dda10b695565740", null ]
 ];

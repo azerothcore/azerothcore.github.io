@@ -1,6 +1,8 @@
 var a19532 =
 [
-    [ "iron_golem_custodianAI", "d2/d78/a19536.html", "d2/d78/a19536" ],
-    [ "iron_golem_custodian", "db/d70/a19532.html#adc11b755e193adbad757c21e5b15e063", null ],
-    [ "GetAI", "db/d70/a19532.html#a272e0c9fe475a665aa80a95f1e1d8629", null ]
+    [ "dark_rune_stormcallerAI", "db/d70/a19532.html#ad889fb0c50e879c958c9b8bb681e4bf7", null ],
+    [ "JustEngagedWith", "db/d70/a19532.html#a7ddfb8afac3ff28a84b26255628fab50", null ],
+    [ "Reset", "db/d70/a19532.html#afa9cc2e1a9f7d21cd885479e9afdcd12", null ],
+    [ "UpdateAI", "db/d70/a19532.html#adbd245fc5180dc7c78704595a9592864", null ],
+    [ "events", "db/d70/a19532.html#aa7d8d1d075eeb03952b47cc16846a3db", null ]
 ];

@@ -1,5 +1,4 @@
 var a28140 =
 [
-    [ "Id", "d5/de6/a28140.html#a44532f8af054ae5224f5e816c3c9a8a7", null ],
-    [ "PowerType", "d5/de6/a28140.html#ab6c17a5a3ba9f2f3a8fac125104703c4", null ]
+    [ "Pattern", "d5/de6/a28140.html#abcd404cd99f0a41b266db09ddae4da68", null ]
 ];

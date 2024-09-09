@@ -1,6 +1,14 @@
 var a20124 =
 [
-    [ "DestroyWinterCache", "d3/d05/a20124.html#a4f4d8998d611354bce4f5531e6029d6b", null ],
-    [ "PrepareSpellScript", "d3/d05/a20124.html#a67e36939554e13ddb7fb7493968fbc3f", null ],
-    [ "Register", "d3/d05/a20124.html#a5ac6314b0a016adafd7c6e87289b5649", null ]
+    [ "npc_ulduar_hodir_mageAI", "d3/d05/a20124.html#a118059c877151a9f6b2b15a4070e2704", null ],
+    [ "AttackStart", "d3/d05/a20124.html#a3217617eb3312c1da34dc7dce590fe0d", null ],
+    [ "CanAIAttack", "d3/d05/a20124.html#a66ea56e856fcc706e4f938512def1590", null ],
+    [ "EnterEvadeMode", "d3/d05/a20124.html#a6d4cd626dcd58f825a6c88b804bb38a7", null ],
+    [ "JustDied", "d3/d05/a20124.html#a0176f8b45c20af1552e1a8b70e307442", null ],
+    [ "MoveInLineOfSight", "d3/d05/a20124.html#aaf35c04462b1698e85df64190f4e2c8a", null ],
+    [ "ScheduleAbilities", "d3/d05/a20124.html#a7927f399ef1c89b3eb83804fde9b2700", null ],
+    [ "SpellHit", "d3/d05/a20124.html#aa814a46a45ce5eb9696c8f6c6de8c521", null ],
+    [ "UpdateAI", "d3/d05/a20124.html#acbbe6667360e5bb7576c1ea741c2e2f1", null ],
+    [ "events", "d3/d05/a20124.html#a556453c557df0be6a57255e400d98a87", null ],
+    [ "pInstance", "d3/d05/a20124.html#ac4677898f5612c01d98ab242c7628e8f", null ]
 ];

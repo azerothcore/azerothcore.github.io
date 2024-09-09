@@ -1,5 +1,5 @@
 var a20476 =
 [
-    [ "achievement_iron_dwarf_medium_rare", "d5/d7f/a20476.html#afb3716aab7693ba0493db24999e4b1ee", null ],
-    [ "OnCheck", "d5/d7f/a20476.html#aabef3a345057265ac70c6cc0c98d552d", null ]
+    [ "achievement_quick_shave", "d5/d7f/a20476.html#a6c2f1e60d2311922abbaf7e22e1e9e4b", null ],
+    [ "OnCheck", "d5/d7f/a20476.html#a151c479da3d4cec05999ad8a249b100c", null ]
 ];

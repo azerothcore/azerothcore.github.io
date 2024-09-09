@@ -1108,13 +1108,13 @@ template&lt;typename... Args&gt; </div>
 <div class="line"><span class="lineno">   80</span>            <span class="keywordflow">return</span>;</div>
 <div class="line"><span class="lineno">   81</span>        }</div>
 <div class="line"><span class="lineno">   82</span> </div>
-<div class="line"><span class="lineno">   83</span>        <a class="code hl_function" href="../../d5/d47/a05240.html#ae38308d7812306ea967c88e482177c71">_outCommand</a>(<a class="code hl_function" href="../../d5/d43/a04668.html#a201985ba1aed494a268ecbab6785536a">Acore::StringFormatFmt</a>(fmt, std::forward&lt;Args&gt;(args)...), std::to_string(account));</div>
+<div class="line"><span class="lineno">   83</span>        <a class="code hl_function" href="../../d5/d47/a05240.html#ae38308d7812306ea967c88e482177c71">_outCommand</a>(<a class="code hl_function" href="../../d5/d43/a04668.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a>(fmt, std::forward&lt;Args&gt;(args)...), std::to_string(account));</div>
 <div class="line"><span class="lineno">   84</span>    }</div>
-<div class="ttc" id="aa04668_html_a201985ba1aed494a268ecbab6785536a"><div class="ttname"><a href="../../d5/d43/a04668.html#a201985ba1aed494a268ecbab6785536a">Acore::StringFormatFmt</a></div><div class="ttdeci">std::string StringFormatFmt(FormatString&lt; Args... &gt; fmt, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> StringFormat.h:49</div></div>
+<div class="ttc" id="aa04668_html_a868406b9609960d4ae0189588c8cbbf4"><div class="ttname"><a href="../../d5/d43/a04668.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a></div><div class="ttdeci">std::string StringFormat(FormatString&lt; Args... &gt; fmt, Args &amp;&amp;... args)</div><div class="ttdoc">Default AC string format function.</div><div class="ttdef"><b>Definition:</b> StringFormat.h:34</div></div>
 <div class="ttc" id="aa05240_html_a28f2b0881d40f20481dc38cda915f84b"><div class="ttname"><a href="../../d5/d47/a05240.html#a28f2b0881d40f20481dc38cda915f84b">Log::ShouldLog</a></div><div class="ttdeci">bool ShouldLog(std::string const &amp;type, LogLevel level) const</div><div class="ttdef"><b>Definition:</b> Log.cpp:339</div></div>
 <div class="ttc" id="aa05240_html_ae38308d7812306ea967c88e482177c71"><div class="ttname"><a href="../../d5/d47/a05240.html#ae38308d7812306ea967c88e482177c71">Log::_outCommand</a></div><div class="ttdeci">void _outCommand(std::string_view message, std::string_view param1)</div><div class="ttdef"><b>Definition:</b> Log.cpp:236</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00236">_outCommand()</a>, <a class="el" href="../../#l00030">LOG_LEVEL_INFO</a>, <a class="el" href="../../#l00339">ShouldLog()</a>, and <a class="el" href="../../#l00049">Acore::StringFormatFmt()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00236">_outCommand()</a>, <a class="el" href="../../#l00030">LOG_LEVEL_INFO</a>, <a class="el" href="../../#l00339">ShouldLog()</a>, and <a class="el" href="../../#l00034">Acore::StringFormat()</a>.</p>
 
 </div>
 </div>
@@ -1166,11 +1166,11 @@ template&lt;typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><span class="lineno">   71</span>    {</div>
-<div class="line"><span class="lineno">   72</span>        <a class="code hl_function" href="../../d5/d47/a05240.html#a6bf321b54b12221ff11837745a083d82">_outMessage</a>(filter, level, <a class="code hl_function" href="../../d5/d43/a04668.html#a201985ba1aed494a268ecbab6785536a">Acore::StringFormatFmt</a>(fmt, std::forward&lt;Args&gt;(args)...));</div>
+<div class="line"><span class="lineno">   72</span>        <a class="code hl_function" href="../../d5/d47/a05240.html#a6bf321b54b12221ff11837745a083d82">_outMessage</a>(filter, level, <a class="code hl_function" href="../../d5/d43/a04668.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a>(fmt, std::forward&lt;Args&gt;(args)...));</div>
 <div class="line"><span class="lineno">   73</span>    }</div>
 <div class="ttc" id="aa05240_html_a6bf321b54b12221ff11837745a083d82"><div class="ttname"><a href="../../d5/d47/a05240.html#a6bf321b54b12221ff11837745a083d82">Log::_outMessage</a></div><div class="ttdeci">void _outMessage(std::string const &amp;filter, LogLevel level, std::string_view message)</div><div class="ttdef"><b>Definition:</b> Log.cpp:231</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00231">_outMessage()</a>, and <a class="el" href="../../#l00049">Acore::StringFormatFmt()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00231">_outMessage()</a>, and <a class="el" href="../../#l00034">Acore::StringFormat()</a>.</p>
 
 </div>
 </div>
@@ -1801,7 +1801,7 @@ template&lt;class AppenderImpl &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d47/a05240.html">Log</a></li>
-    <li class="footer">Generated on Mon Sep 2 2024 20:40:15 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Sep 9 2024 20:39:50 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,7 +1,10 @@
 var a23720 =
 [
-    [ "CastQuill", "d6/dea/a23720.html#a923234809186bcbdf02457f4be095519", null ],
-    [ "Execute", "d6/dea/a23720.html#a26a971a575e4b9503cd1da73d43ebd1e", null ],
-    [ "_caster", "d6/dea/a23720.html#af809b9279aff141ce4007c8d1fbcc331", null ],
-    [ "_spellId", "d6/dea/a23720.html#ad6f7d8eaf69873b0ba57be4189c145cf", null ]
+    [ "CheckProc", "d6/dea/a23720.html#ac176c59497cc2196c19dc8a1b9f8056d", null ],
+    [ "Load", "d6/dea/a23720.html#aad39e53d6b3fc673c115f79ca0bc9b68", null ],
+    [ "PrepareAuraScript", "d6/dea/a23720.html#a990cab2c1d9fb544bf11c9fd4e5495ac", null ],
+    [ "Register", "d6/dea/a23720.html#ae2cf612df18cf249bc4a90ce9332fc9b", null ],
+    [ "_lastForm", "d6/dea/a23720.html#ad392a897546cb64e550dd8b0709ba0ab", null ],
+    [ "_lastSchool", "d6/dea/a23720.html#afc2e3e388615ed5cf0f4dd672f26de85", null ],
+    [ "_swapTime", "d6/dea/a23720.html#af832dc200e928df3849ab7d7f93cb412", null ]
 ];

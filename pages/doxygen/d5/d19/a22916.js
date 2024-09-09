@@ -1,6 +1,6 @@
 var a22916 =
 [
-    [ "npc_supremus_punch_invisible_stalker", "d5/d19/a22916.html#add7d0e711ef02a16ef58d90cfc8ee733", null ],
-    [ "IsSummonedBy", "d5/d19/a22916.html#a467d5a43bb6d2349ad859a0ef7de4c00", null ],
-    [ "UpdateAI", "d5/d19/a22916.html#a90ecfe4257ef77a6d6a200a2f017c51a", null ]
+    [ "PrepareSpellScript", "d5/d19/a22916.html#ad786920d6180b8e2829f3a56ec50c488", null ],
+    [ "Register", "d5/d19/a22916.html#a857be9f0017e0013f3e30e1d026eaf5a", null ],
+    [ "SetDest", "d5/d19/a22916.html#a0ea9f9513ad607f639b28d5f8162e629", null ]
 ];

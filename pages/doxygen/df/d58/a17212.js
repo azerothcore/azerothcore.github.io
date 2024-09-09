@@ -1,6 +1,6 @@
 var a17212 =
 [
-    [ "PrepareSpellScript", "df/d58/a17212.html#a86609d6cd708de9ead02c6134cbb6f64", null ],
-    [ "Register", "df/d58/a17212.html#aceb3da4aec68cb44bcbee36f599afd62", null ],
-    [ "SetDest", "df/d58/a17212.html#a9ed93e44df4e759fda72a63474e01b3b", null ]
+    [ "PrepareSpellScript", "df/d58/a17212.html#a37899f12707930d038de38bae92c9aff", null ],
+    [ "Register", "df/d58/a17212.html#a3677d2e7db842f899e6e2d2c8c9a3d42", null ],
+    [ "SelectDest", "df/d58/a17212.html#a4caabf8afac621ef70bbbac1a2b5177e", null ]
 ];

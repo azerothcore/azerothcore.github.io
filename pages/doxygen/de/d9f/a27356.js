@@ -1,10 +1,7 @@
 var a27356 =
 [
-    [ "go_evil_book_for_dummies", "de/d9f/a27356.html#a69f599910bce0070c6b1af547c459b72", null ],
-    [ "HasLeatherSpecialty", "de/d9f/a27356.html#a3d755fa8777f33a318ffa6f004aecbed", null ],
-    [ "OnGossipHello", "de/d9f/a27356.html#aeb29351e2faf135298419488eb16cc7e", null ],
-    [ "OnGossipSelect", "de/d9f/a27356.html#ac4bc1c682b75c436a4d3fff118a20ca4", null ],
-    [ "SendActionMenu", "de/d9f/a27356.html#a0aa21b4619ea5cc8229eb56e09d3233d", null ],
-    [ "SendConfirmLearn", "de/d9f/a27356.html#a11a605c576a3c81b5ed96d413ec20f57", null ],
-    [ "SendConfirmUnlearn", "de/d9f/a27356.html#af9c10b0423327d8644020e8f5e26a603", null ]
+    [ "npc_prof_leather", "de/d9f/a27356.html#a4a96f0c41a2a75ed26f52b1b0377c800", null ],
+    [ "HasLeatherSpecialty", "de/d9f/a27356.html#aefbf75b4109f8013335f36cd2d6e84de", null ],
+    [ "OnGossipHello", "de/d9f/a27356.html#a1a0dc1574c814af5e4f992c7fb199215", null ],
+    [ "OnGossipSelect", "de/d9f/a27356.html#afdf3a42c20903efd7f45ab0042f79de0", null ]
 ];

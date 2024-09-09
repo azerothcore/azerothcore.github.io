@@ -1,6 +1,6 @@
 var a01310 =
 [
-    [ "WorldSession::DosProtection", "da/d91/a10712.html", "da/d91/a10712" ],
+    [ "WorldSession::DosProtection", "d3/d1f/a10716.html", "d3/d1f/a10716" ],
     [ "GLOBAL_CACHE_MASK", "dd/d22/a04662.html#gabaf56bd86a496e0886a553118d6ffb08", null ],
     [ "NUM_ACCOUNT_DATA_TYPES", "dd/d22/a04662.html#gafb353aeb5e84007c9b55aa50ba6e3ddc", null ],
     [ "PER_CHARACTER_CACHE_MASK", "dd/d22/a04662.html#ga38a03c6cd9103a9891842f233758fbe7", null ],

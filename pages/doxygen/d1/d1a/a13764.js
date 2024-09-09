@@ -1,6 +1,5 @@
 var a13764 =
 [
-    [ "boss_gahzrankaAI", "d4/d6c/a13768.html", "d4/d6c/a13768" ],
-    [ "boss_gahzranka", "d1/d1a/a13764.html#a9d8e4def6fc00535eef5810127c91e12", null ],
-    [ "GetAI", "d1/d1a/a13764.html#a88295e62ebacccc55dc32731863cc041", null ]
+    [ "go_gong_of_bethekk", "d1/d1a/a13764.html#ae261467be63f1a744eb20f81473c2239", null ],
+    [ "OnGossipHello", "d1/d1a/a13764.html#a82072ff8c030aec1a5ed447865680788", null ]
 ];

@@ -1,7 +1,5 @@
 var a21980 =
 [
-    [ "npc_battle_at_valhalasAI", "d1/ded/a21984.html", "d1/ded/a21984" ],
-    [ "npc_battle_at_valhalas", "d2/d65/a21980.html#aacec717b5b91ae55307c9642779c15ec", null ],
-    [ "GetAI", "d2/d65/a21980.html#a3660ba847b3b40c2d358d63c63517a5e", null ],
-    [ "OnQuestAccept", "d2/d65/a21980.html#addd76fd9f4b4f8ce706693614b80966b", null ]
+    [ "npc_black_knight_graveyardAI", "d2/d65/a21980.html#a908ccf6763240ba0c0ebdf2dec6e1b36", null ],
+    [ "MoveInLineOfSight", "d2/d65/a21980.html#aa5c80b5759656e3865d6721161f9f005", null ]
 ];

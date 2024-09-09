@@ -1,8 +1,6 @@
 var a12600 =
 [
-    [ "npc_scarlet_miner_cartAI", "da/d53/a12600.html#a4256e3bc9f6678dc85a3b702e1c531f8", null ],
-    [ "DoAction", "da/d53/a12600.html#a99ac60b1a60cc5f269aa7f02f3fd5083", null ],
-    [ "PassengerBoarded", "da/d53/a12600.html#a3539847efa7014a8e31a78ace83b6bc5", null ],
-    [ "SetGUID", "da/d53/a12600.html#a5679fef6f40d0e48547e7bd57a93a176", null ],
-    [ "minerGUID", "da/d53/a12600.html#a084e80b43b5b30b5e1794feff305e9b3", null ]
+    [ "npc_scarlet_miner_cartAI", "db/dd8/a12604.html", "db/dd8/a12604" ],
+    [ "npc_scarlet_miner_cart", "da/d53/a12600.html#a987247939c6fd576d4b8d541175ecb6b", null ],
+    [ "GetAI", "da/d53/a12600.html#a0f1436f0f6784af5ab62bf91df355731", null ]
 ];

@@ -1,6 +1,8 @@
 var a11692 =
 [
-    [ "boss_halyconAI", "db/d95/a11696.html", "db/d95/a11696" ],
-    [ "boss_halycon", "dc/d5d/a11692.html#aa149c5f8b34b9c00102f9a0758dcbd9a", null ],
-    [ "GetAI", "dc/d5d/a11692.html#a861f1b0213ad9bcf572c9d59eabba699", null ]
+    [ "CheckProc", "dc/d5d/a11692.html#a08e84f2b2ff25ed7e260e61251f9cdb9", null ],
+    [ "HandleProc", "dc/d5d/a11692.html#afd3d4786f739566056b69390553d9c71", null ],
+    [ "PrepareAuraScript", "dc/d5d/a11692.html#a3ba84d4fd311a91efa685980ffec8d77", null ],
+    [ "Register", "dc/d5d/a11692.html#aa36a2e10a6fd67fa74d08e20dc806744", null ],
+    [ "Validate", "dc/d5d/a11692.html#aeff8b89300bb5d3589a46a4f66cfd77d", null ]
 ];

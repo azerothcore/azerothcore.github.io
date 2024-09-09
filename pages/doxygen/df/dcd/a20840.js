@@ -1,7 +1,8 @@
 var a20840 =
 [
-    [ "OnPeriodic", "df/dcd/a20840.html#a529e89c1ae0074370da174defc086719", null ],
-    [ "PrepareAuraScript", "df/dcd/a20840.html#a587652095a5dfae229787a0c0ceacfbe", null ],
-    [ "Register", "df/dcd/a20840.html#acd5551b09882d720608bdec6036dee9a", null ],
-    [ "Validate", "df/dcd/a20840.html#aaed6604e39dd977f4e7c671052d718e8", null ]
+    [ "Absorb", "df/dcd/a20840.html#a36a7237d7bcd50626e7a07a32c91cfb4", null ],
+    [ "CalculateAmount", "df/dcd/a20840.html#afe50bf22d07e68757caffb056ad55811", null ],
+    [ "PrepareAuraScript", "df/dcd/a20840.html#afa4ef1f7faa36a521c208dde10d09437", null ],
+    [ "Register", "df/dcd/a20840.html#aae020936d42da81c445f7d296660987b", null ],
+    [ "Validate", "df/dcd/a20840.html#a5852135c5214ee3938603632b0f21917", null ]
 ];

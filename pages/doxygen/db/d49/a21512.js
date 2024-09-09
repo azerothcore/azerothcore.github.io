@@ -1,7 +1,7 @@
 var a21512 =
 [
-    [ "npc_bonker_togglevoltAI", "df/de2/a21516.html", "df/de2/a21516" ],
-    [ "npc_bonker_togglevolt", "db/d49/a21512.html#aa37a0ebc03b884b5a2a06d652d5dede3", null ],
-    [ "GetAI", "db/d49/a21512.html#a339c331e73497d2f7e1ee11e01ba4866", null ],
-    [ "OnQuestAccept", "db/d49/a21512.html#aaf1f65a1f6788a98705bc29fecc4c3fa", null ]
+    [ "npc_mootoo_the_youngerAI", "db/d49/a21512.html#a70a5a502dab9a90a790a90eabc5c3acd", null ],
+    [ "JustDied", "db/d49/a21512.html#a766612f646a6d22d3f0e6f93298e34bc", null ],
+    [ "Reset", "db/d49/a21512.html#a04624b9b4d552d6b27308edc3ad44644", null ],
+    [ "WaypointReached", "db/d49/a21512.html#ac758a992ed0d62a272930c84d617b348", null ]
 ];

@@ -1,6 +1,6 @@
 var a13152 =
 [
-    [ "boss_muruAI", "d5/d2c/a13156.html", "d5/d2c/a13156" ],
-    [ "boss_muru", "d0/de7/a13152.html#aeb09997c72ec653df211bdec5873a57a", null ],
-    [ "GetAI", "d0/de7/a13152.html#aba2fda1e0b3b6b972fe7df14247006c1", null ]
+    [ "FilterTargets", "d0/de7/a13152.html#ae945b657d0fbee4d5ee5d6e7d15ef39b", null ],
+    [ "PrepareSpellScript", "d0/de7/a13152.html#a905e1f979284a368463ad4829891b6ee", null ],
+    [ "Register", "d0/de7/a13152.html#a6b0d2fc316bef6af20199b15795b00b4", null ]
 ];

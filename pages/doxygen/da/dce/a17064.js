@@ -1,5 +1,7 @@
 var a17064 =
 [
-    [ "achievement_share_the_love", "da/dce/a17064.html#a3eaa89eaa356b0e2f8b5c688439baf9c", null ],
-    [ "OnCheck", "da/dce/a17064.html#a9d6b6d19611d1482111692de9f2b1cc8", null ]
+    [ "HandleScriptEffect", "da/dce/a17064.html#a6469efa0e1fabaf1cb366f119a1158c1", null ],
+    [ "PrepareSpellScript", "da/dce/a17064.html#aac410690d906867216b40a49d8f15318", null ],
+    [ "Register", "da/dce/a17064.html#ae8c7acabe93fc33d13f0b8848415eabf", null ],
+    [ "Validate", "da/dce/a17064.html#a88c3961d5757dd0c75be4acc7de6e45b", null ]
 ];

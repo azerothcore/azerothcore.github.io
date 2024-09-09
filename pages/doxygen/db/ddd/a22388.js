@@ -1,11 +1,6 @@
 var a22388 =
 [
-    [ "npc_drakuru_shacklesAI", "db/ddd/a22388.html#aeb55bf23d97e963b0fb9a18596bb58b1", null ],
-    [ "LockRageclaw", "db/ddd/a22388.html#aa58fff9ee8e6cbe4d2dd0d391215f1f4", null ],
-    [ "Reset", "db/ddd/a22388.html#a566fba51edcddab8c5b0bf5688571f80", null ],
-    [ "SpellHit", "db/ddd/a22388.html#a04a9f0cc28cd8cab89120e66972b74cf", null ],
-    [ "UnlockRageclaw", "db/ddd/a22388.html#a65a4b408ac09ffa3155b955dc054d971", null ],
-    [ "UpdateAI", "db/ddd/a22388.html#a8a04ac89e5ec9ce841445913765a1a73", null ],
-    [ "_rageclawGUID", "db/ddd/a22388.html#a1c991305f4ef30146930747881e57de4", null ],
-    [ "timer", "db/ddd/a22388.html#a2a6484216abd731ad016284a79575e1c", null ]
+    [ "npc_drakuru_shacklesAI", "da/d8d/a22392.html", "da/d8d/a22392" ],
+    [ "npc_drakuru_shackles", "db/ddd/a22388.html#a2b15a214b34d86597cba09b17654e4ff", null ],
+    [ "GetAI", "db/ddd/a22388.html#a90ce98de4630771858cd3b79264a28f9", null ]
 ];

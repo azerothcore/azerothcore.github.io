@@ -1,6 +1,7 @@
 var a24620 =
 [
-    [ "CheckProc", "de/d4c/a24620.html#a1b7b855383b04bd1b627c6f1e33ad7a5", null ],
-    [ "PrepareAuraScript", "de/d4c/a24620.html#a204655e4eea1cf8694c62ddae6d5a760", null ],
-    [ "Register", "de/d4c/a24620.html#a23e8088d6d9626ec4c3f8fc6e66c1e24", null ]
+    [ "AfterApply", "de/d4c/a24620.html#aee69eceead7e31cce2638ff252f6653d", null ],
+    [ "AfterRemove", "de/d4c/a24620.html#ad53d25cc04f1b6cc1f3d0a8d9fc69a89", null ],
+    [ "PrepareAuraScript", "de/d4c/a24620.html#a0ccde960cb328cd1c72b2504376e92b4", null ],
+    [ "Register", "de/d4c/a24620.html#ab5f8afbfa688ebd548a5508543498b55", null ]
 ];

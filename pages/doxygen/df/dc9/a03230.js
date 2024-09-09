@@ -1,9 +1,9 @@
 var a03230 =
 [
-    [ "boss_erekem", "d7/da5/a21252.html", "d7/da5/a21252" ],
-    [ "boss_erekem::boss_erekemAI", "d2/d4e/a21256.html", "d2/d4e/a21256" ],
-    [ "npc_erekem_guard", "da/d91/a21260.html", "da/d91/a21260" ],
-    [ "npc_erekem_guard::npc_erekem_guardAI", "db/ded/a21264.html", "db/ded/a21264" ],
+    [ "boss_erekem", "d2/d4e/a21256.html", "d2/d4e/a21256" ],
+    [ "boss_erekem::boss_erekemAI", "da/d91/a21260.html", "da/d91/a21260" ],
+    [ "npc_erekem_guard", "db/ded/a21264.html", "db/ded/a21264" ],
+    [ "npc_erekem_guard::npc_erekem_guardAI", "d6/d34/a21268.html", "d6/d34/a21268" ],
     [ "SPELL_CHAIN_HEAL", "df/dc9/a03230.html#adda5e08cda99e5698dec22f50628d37b", null ],
     [ "SPELL_EARTH_SHIELD", "df/dc9/a03230.html#a095d96f38a7c1d08e6698533e3c409a4", null ],
     [ "eEvents", "df/dc9/a03230.html#a1d3512b0adb171bd0db6aad2c9e70516", [

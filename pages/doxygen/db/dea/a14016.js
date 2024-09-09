@@ -1,6 +1,7 @@
 var a14016 =
 [
-    [ "HandleEffectApply", "db/dea/a14016.html#a06d50e8c0f7bfd1b055d8a3f5c14d357", null ],
-    [ "PrepareAuraScript", "db/dea/a14016.html#a5f8abd33848c554f9a530ad23c86a7a0", null ],
-    [ "Register", "db/dea/a14016.html#a2b39daf6fe325cfa909b964da62c2571", null ]
+    [ "FilterTargets", "db/dea/a14016.html#a3498c9eb96bf1a6a85ded114e995850c", null ],
+    [ "HandleDummyEffect", "db/dea/a14016.html#a3985ca8b79a234e44d9f46ffe6d5b232", null ],
+    [ "PrepareSpellScript", "db/dea/a14016.html#a03f752d4d4762698e5777a4ae0e395cf", null ],
+    [ "Register", "db/dea/a14016.html#a9af46e5f2fdb4719d65bb96f2b68a7f8", null ]
 ];

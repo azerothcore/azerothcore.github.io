@@ -1,10 +1,15 @@
 var a07880 =
 [
-    [ "Puppet", "d5/d04/a07880.html#ab0082936291e6b7f5370656c7c9ed948", null ],
-    [ "GetOwner", "d5/d04/a07880.html#a38760bce8e8ebf28ae0143ad2931afd5", null ],
-    [ "InitStats", "d5/d04/a07880.html#ac5dd23d7cf6d4b4a2ba073ae1128181b", null ],
-    [ "InitSummon", "d5/d04/a07880.html#abfc97f1d25cb1ac27b1bed6f61867fa3", null ],
-    [ "RemoveFromWorld", "d5/d04/a07880.html#a61dcfc821c2221d1747fcb2180e03bfd", null ],
-    [ "Update", "d5/d04/a07880.html#a5281497d7689e1dd10f89b5a9f83006f", null ],
-    [ "m_owner", "d5/d04/a07880.html#adae18eabdba52ef8a9f7c5c8768e060c", null ]
+    [ "Guardian", "d5/d04/a07880.html#a731dfcf7d834a97ba253ad36e4006745", null ],
+    [ "GetDebugInfo", "d5/d04/a07880.html#ace47e7d3fb3162786329cbcf1c6cab46", null ],
+    [ "InitStats", "d5/d04/a07880.html#a698ac009e39a2e8461b40135b75609ef", null ],
+    [ "InitStatsForLevel", "d5/d04/a07880.html#a7d0ae55d55f4c3ea35de601c2c6c6e6b", null ],
+    [ "InitSummon", "d5/d04/a07880.html#a1d5ebfa5ac5754293172041dc3a2c47d", null ],
+    [ "UpdateAllStats", "d5/d04/a07880.html#ae2f3d68429afb154f790d65dae6406b3", null ],
+    [ "UpdateArmor", "d5/d04/a07880.html#adc8ed8497f8450ccad92f79322d9f452", null ],
+    [ "UpdateAttackPowerAndDamage", "d5/d04/a07880.html#af40269c3c63fc12b21f18c67ef067a0f", null ],
+    [ "UpdateDamagePhysical", "d5/d04/a07880.html#aa45ffb532a2a8075d8e4acb818c08d70", null ],
+    [ "UpdateMaxHealth", "d5/d04/a07880.html#a62c41f7922bc1c2e1697a1eea65cdb72", null ],
+    [ "UpdateMaxPower", "d5/d04/a07880.html#a620010832de5fc7d6d1a8545321f9dea", null ],
+    [ "UpdateStats", "d5/d04/a07880.html#a6b615ed2f01623991fa45907a09cc642", null ]
 ];

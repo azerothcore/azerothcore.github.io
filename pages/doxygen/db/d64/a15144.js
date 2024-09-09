@@ -1,11 +1,6 @@
 var a15144 =
 [
-    [ "npc_magwinAI", "db/d64/a15144.html#ad4a352dd0c7c6f76e74f110b00ec9053", null ],
-    [ "JustEngagedWith", "db/d64/a15144.html#aea2ab8bf79d6fcc3d2036d160274fab8", null ],
-    [ "Reset", "db/d64/a15144.html#a883ef3cd1b097847de148ccb9bd3e903", null ],
-    [ "sQuestAccept", "db/d64/a15144.html#aafef28bc7879e29d1fa79ec08f58da55", null ],
-    [ "UpdateEscortAI", "db/d64/a15144.html#a34236331be8842a9e2a98036ea382e18", null ],
-    [ "WaypointReached", "db/d64/a15144.html#a7278a3cff406af2ecb3d29c7bf90febc", null ],
-    [ "_events", "db/d64/a15144.html#a32dad2bde92efab7e0f0d16e809df665", null ],
-    [ "_player", "db/d64/a15144.html#ac3d7059ee67abcafa0586f0bed5df9cc", null ]
+    [ "npc_magwinAI", "d0/d8a/a15148.html", "d0/d8a/a15148" ],
+    [ "npc_magwin", "db/d64/a15144.html#a1a45602fd312a4c436b09fb7b90ac1d4", null ],
+    [ "GetAI", "db/d64/a15144.html#a83bee0fd5c1494f2bb732fe9e0ed1594", null ]
 ];

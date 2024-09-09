@@ -1,6 +1,6 @@
 var a13004 =
 [
-    [ "npc_demonic_vaporAI", "de/d59/a13004.html#a2ba962b2bd049d563d7788bb4cfa5be3", null ],
-    [ "Reset", "de/d59/a13004.html#a37841718d3da8dfa245fd9a9a055b2e8", null ],
-    [ "UpdateAI", "de/d59/a13004.html#ace430e1419edf2542fd0c9d5cfc925f1", null ]
+    [ "npc_demonic_vaporAI", "d2/da5/a13008.html", "d2/da5/a13008" ],
+    [ "npc_demonic_vapor", "de/d59/a13004.html#a2cfec998b5d2a23670c4f5143c330652", null ],
+    [ "GetAI", "de/d59/a13004.html#a53635886eaed04eab0b8c7c0b6d6e67e", null ]
 ];

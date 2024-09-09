@@ -1,7 +1,6 @@
 var a22296 =
 [
-    [ "npc_wg_quest_giver", "d5/d64/a22296.html#a68589ab4ce9f43247154f3c66d8107b8", null ],
-    [ "GetDialogStatus", "d5/d64/a22296.html#acd5c1462fe51a350c80af4f3ab46bac8", null ],
-    [ "OnGossipHello", "d5/d64/a22296.html#ad08debc749cbaea6fad9b7bcfb5548e0", null ],
-    [ "OnGossipSelect", "d5/d64/a22296.html#a9d42e558d68eee9f0f96ac1f8cd1a409", null ]
+    [ "npc_wg_queueAI", "d5/d64/a22296.html#a3760738d61b6148042fc30bd96b88fdc", null ],
+    [ "UpdateAI", "d5/d64/a22296.html#a2e5f19a0f01eeb3d1585c7b02f2073b2", null ],
+    [ "events", "d5/d64/a22296.html#ab0eb949272e48120cff1c3df27ad8e92", null ]
 ];

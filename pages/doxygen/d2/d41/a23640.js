@@ -1,8 +1,6 @@
 var a23640 =
 [
-    [ "HandleEffectApply", "d2/d41/a23640.html#ad75c8c6279e606d6a557a61d97ee8f42", null ],
-    [ "HandleEffectRemove", "d2/d41/a23640.html#a7cd59f7ca82a6507024842ebcb1ba093", null ],
-    [ "PrepareAuraScript", "d2/d41/a23640.html#a438a8ba3688e0832853bae4183695494", null ],
-    [ "Register", "d2/d41/a23640.html#a52a86cce0afa66203cc5982ddbe5de4f", null ],
-    [ "Validate", "d2/d41/a23640.html#ab07b244e53b397bc9e9842655617a80d", null ]
+    [ "npc_warden_mellicharAI", "d6/d4d/a23644.html", "d6/d4d/a23644" ],
+    [ "npc_warden_mellichar", "d2/d41/a23640.html#aba5c3d005097430941bd40bbbb0d3562", null ],
+    [ "GetAI", "d2/d41/a23640.html#a7cb7437a61b49d8110c3b7fee43e495b", null ]
 ];

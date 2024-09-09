@@ -1,6 +1,6 @@
 var a10572 =
 [
-    [ "PetStopAttack", "d3/da5/a10572.html#a4a68127f3290d4f2e288600757dd3282", null ],
-    [ "Read", "d3/da5/a10572.html#a22dd8d9fcbadbec5ba046812f5cdac51", null ],
-    [ "PetGUID", "d3/da5/a10572.html#af7b95e5b976af2fa7bb4c61319f7eb97", null ]
+    [ "PetAbandon", "d3/da5/a10572.html#aeac05969ce6bdb41a02f7ffe56126dfd", null ],
+    [ "Read", "d3/da5/a10572.html#a58ebb244de4bd65a85f75dcc24250883", null ],
+    [ "PetGUID", "d3/da5/a10572.html#a7175c081b7cb691ceb4729c1abc5028e", null ]
 ];

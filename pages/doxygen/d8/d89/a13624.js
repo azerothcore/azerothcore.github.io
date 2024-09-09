@@ -1,6 +1,7 @@
 var a13624 =
 [
-    [ "boss_koraggAI", "d2/def/a13628.html", "d2/def/a13628" ],
-    [ "boss_koragg", "d8/d89/a13624.html#a0f7cf24c6348116eaadc11a160758793", null ],
-    [ "GetAI", "d8/d89/a13624.html#a8740b4f3853f5bc365e72db03eaad2f4", null ]
+    [ "boss_fenstalkerAI", "d8/d89/a13624.html#a971234c97e2769a2fbf36b7a954198df", null ],
+    [ "Reset", "d8/d89/a13624.html#a91865286d096bcd5bc89a2b69addb422", null ],
+    [ "UpdateAI", "d8/d89/a13624.html#a6f1f861ff540f54eb99a30909feb922b", null ],
+    [ "volatileinf_timer", "d8/d89/a13624.html#ae18ae9cf7bcaff73bb341593b8d8b816", null ]
 ];

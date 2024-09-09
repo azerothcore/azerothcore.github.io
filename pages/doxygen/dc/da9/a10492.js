@@ -1,7 +1,8 @@
 var a10492 =
 [
-    [ "StopMirrorTimer", "dc/da9/a10492.html#aabd646c82f3dcdff2eef2158c6724dff", null ],
-    [ "StopMirrorTimer", "dc/da9/a10492.html#a25f930852c7124cdfbf73687e62a26d1", null ],
-    [ "Write", "dc/da9/a10492.html#ae99dab4406316eac99a6e0e0146d879e", null ],
-    [ "Timer", "dc/da9/a10492.html#a5e5cf56b83aca514cff34c1a17f2d3b1", null ]
+    [ "PauseMirrorTimer", "dc/da9/a10492.html#a05ccc52cb56d38cadb27fbde2563df45", null ],
+    [ "PauseMirrorTimer", "dc/da9/a10492.html#ad6e7a6eb3edadc235dc5bb97802381ac", null ],
+    [ "Write", "dc/da9/a10492.html#aea61f9e668173b65eac3b9f42ddd68a1", null ],
+    [ "Paused", "dc/da9/a10492.html#a7adf6dcd7e712792ea94bad77f8be232", null ],
+    [ "Timer", "dc/da9/a10492.html#a4a041bf772ef3f145bde6be9f8ecdc13", null ]
 ];

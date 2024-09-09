@@ -1,6 +1,8 @@
 var a22580 =
 [
-    [ "instance_mana_tombs_InstanceMapScript", "d0/db8/a22584.html", "d0/db8/a22584" ],
-    [ "instance_mana_tombs", "d2/d1a/a22580.html#a78ca8b378e4ab290f1eea2b2b5799630", null ],
-    [ "GetInstanceScript", "d2/d1a/a22580.html#a26e4dad0957df886bc446396ab48ceda", null ]
+    [ "boss_tavarok", "d2/d1a/a22580.html#acf2e3ec6c28a59b205442c6ed07623af", null ],
+    [ "JustDied", "d2/d1a/a22580.html#a937fc1864eab7fdf23e1be1464d9666d", null ],
+    [ "JustEngagedWith", "d2/d1a/a22580.html#a64cae2439cd6e4334ced5d4ef01ef942", null ],
+    [ "KilledUnit", "d2/d1a/a22580.html#a2c99df9457c548ee562fde920592ea88", null ],
+    [ "Reset", "d2/d1a/a22580.html#a0bea2cc724d92616056b7c5ca2dd03c1", null ]
 ];

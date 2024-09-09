@@ -1,10 +1,8 @@
 var a08732 =
 [
-    [ "creatureRate", "dc/d0b/a08732.html#aa9c27c19179b8a7bdfdc11d906cd1c06", null ],
-    [ "questDailyRate", "dc/d0b/a08732.html#a1798044bdf25ce774191b00e261add1e", null ],
-    [ "questMonthlyRate", "dc/d0b/a08732.html#a0db34ed7420bc376cfe64a0d12434fea", null ],
-    [ "questRate", "dc/d0b/a08732.html#a914118aa28b3736ff4e6c5b61d738834", null ],
-    [ "questRepeatableRate", "dc/d0b/a08732.html#a2b050d4cf6555e824d59a3ffc0558b21", null ],
-    [ "questWeeklyRate", "dc/d0b/a08732.html#a0fb31ebc33d0ce11f392be845907e043", null ],
-    [ "spellRate", "dc/d0b/a08732.html#a508485f1e6833c58a11706667a2c24fd", null ]
+    [ "MailLevelReward", "dc/d0b/a08732.html#accd52642cbbab457b69dba54a6ffa23b", null ],
+    [ "MailLevelReward", "dc/d0b/a08732.html#a3e98aa5c30b0b5648784f9aaf5349a76", null ],
+    [ "mailTemplateId", "dc/d0b/a08732.html#afdf6684bcd2751822bd00ba1509ef933", null ],
+    [ "raceMask", "dc/d0b/a08732.html#a341088acd89b79161d932367f4f1798d", null ],
+    [ "senderEntry", "dc/d0b/a08732.html#a2b678ac953209691b38d583cffab55b5", null ]
 ];

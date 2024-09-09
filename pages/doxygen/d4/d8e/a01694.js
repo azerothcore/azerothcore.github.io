@@ -1,7 +1,7 @@
 var a01694 =
 [
-    [ "LootGroupInvalidSelector", "d3/d98/a09340.html", "d3/d98/a09340" ],
-    [ "LootTemplate::LootGroup", "d4/dad/a09344.html", "d4/dad/a09344" ],
+    [ "LootGroupInvalidSelector", "d4/dad/a09344.html", "d4/dad/a09344" ],
+    [ "LootTemplate::LootGroup", "dd/d48/a09348.html", "dd/d48/a09348" ],
     [ "LoadLootTemplates_Creature", "d4/d8e/a01694.html#a2ffebb5466d0f97fdaa495088a046a51", null ],
     [ "LoadLootTemplates_Disenchant", "d4/d8e/a01694.html#aa6e191c54a43255f4cc43af79b20c817", null ],
     [ "LoadLootTemplates_Fishing", "d4/d8e/a01694.html#a5f88815e67cdbdaebef659559cd0d954", null ],

@@ -1,13 +1,6 @@
 var a21048 =
 [
-    [ "npc_ferocious_rhinoAI", "d8/dbc/a21048.html#ad70d0aeba4b73330c5087bc84a533389", null ],
-    [ "DoAction", "d8/dbc/a21048.html#a10395930fed95fb7809a0b5ffe224c4d", null ],
-    [ "JustDied", "d8/dbc/a21048.html#a2b1af0402dc1b4940534d2e60d7ef33e", null ],
-    [ "JustEngagedWith", "d8/dbc/a21048.html#aab35078fe4518b6647f98e316d02898a", null ],
-    [ "JustReachedHome", "d8/dbc/a21048.html#ab8105d6c8c70037c208c83c13c35242d", null ],
-    [ "MoveInLineOfSight", "d8/dbc/a21048.html#a97e32d32a692f223b96746f3ef1086c5", null ],
-    [ "Reset", "d8/dbc/a21048.html#a6d317407c2de2f954b5dd2a6db137304", null ],
-    [ "UpdateAI", "d8/dbc/a21048.html#a09b80e739e4df6e751c9c2846f3fb999", null ],
-    [ "events", "d8/dbc/a21048.html#af23061de7d8566c7435c2c64c53dff89", null ],
-    [ "m_pInstance", "d8/dbc/a21048.html#a97e00db40792c559dd06327c9960abe4", null ]
+    [ "npc_ferocious_rhinoAI", "dc/de3/a21052.html", "dc/de3/a21052" ],
+    [ "npc_ferocious_rhino", "d8/dbc/a21048.html#a480c1d0c24cdbe7cd3c47332ee925466", null ],
+    [ "GetAI", "d8/dbc/a21048.html#aa5c3cba6b1ed6cffaac578c5449b9b4e", null ]
 ];

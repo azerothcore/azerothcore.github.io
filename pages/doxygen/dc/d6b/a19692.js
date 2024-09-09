@@ -1,8 +1,6 @@
 var a19692 =
 [
-    [ "OnPeriodic", "dc/d6b/a19692.html#a56d101b26b220994aeb035e5fbc1f26e", null ],
-    [ "OnRemove", "dc/d6b/a19692.html#ac6d961793ddb6423540da9d97e016b82", null ],
-    [ "PrepareAuraScript", "dc/d6b/a19692.html#a9384a764bf9c48d12e7f62af99897ce4", null ],
-    [ "Register", "dc/d6b/a19692.html#a69f5474dacdf220ffebe18bd5cf8a32f", null ],
-    [ "Validate", "dc/d6b/a19692.html#a11d985c5e17c8b3cb34096000fda66ac", null ]
+    [ "HandleInstaKill", "dc/d6b/a19692.html#a9371a2cc86616fd04e47939d45f01cae", null ],
+    [ "PrepareSpellScript", "dc/d6b/a19692.html#a38eed301f1db3ea7ac15b626e5927500", null ],
+    [ "Register", "dc/d6b/a19692.html#a9aaf3e86a2c14ee79cc013b3978621ee", null ]
 ];

@@ -1,6 +1,7 @@
 var a17268 =
 [
-    [ "boss_deathbringer_saurfangAI", "df/d52/a17272.html", "df/d52/a17272" ],
-    [ "boss_deathbringer_saurfang", "d9/d7f/a17268.html#ad19893be7dc3b4290d9b1ed3bb992e08", null ],
-    [ "GetAI", "d9/d7f/a17268.html#a6bc1ef44b3ea9e860d62bf78cfa38c92", null ]
+    [ "achievement_once_bitten_twice_shy", "d9/d7f/a17268.html#ac5799e847f8ee1e2b562e4a58a00df16", null ],
+    [ "OnCheck", "d9/d7f/a17268.html#aa2e3ac3e8a14b06446174e475ac18af3", null ],
+    [ "_spawnMode", "d9/d7f/a17268.html#a6f02f5ab07143ddff553279049714902", null ],
+    [ "_wasVampire", "d9/d7f/a17268.html#a297cf6da45b0cddb4dc9fc888919bdda", null ]
 ];

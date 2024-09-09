@@ -1,11 +1,24 @@
 var a23756 =
 [
-    [ "npc_capernian", "d6/d42/a23756.html#a0acb568664c777797eeb7104f454699d", null ],
-    [ "AttackStart", "d6/d42/a23756.html#a81e89eacbae30a1229fda5e9fe924e2b", null ],
-    [ "JustDied", "d6/d42/a23756.html#acf4b5b8e6c10cb87435723705f551c6f", null ],
-    [ "JustEngagedWith", "d6/d42/a23756.html#ae2d07a3e4031a831248b84e8b36f6972", null ],
-    [ "Reset", "d6/d42/a23756.html#ad9b91c94833a899ff33f81de2187b6ad", null ],
-    [ "UpdateAI", "d6/d42/a23756.html#a7e9116c766fa828c9bd5d0b2118e8fa1", null ],
-    [ "_hasDied", "d6/d42/a23756.html#a05976816642fad6c31a1ffe9066e5606", null ],
-    [ "_instance", "d6/d42/a23756.html#a307f6f388f96df3fb0311737f8e7ce96", null ]
+    [ "boss_kaelthas", "d6/d42/a23756.html#a345f77793c34abb61f6bf29eed7d22fd", null ],
+    [ "AttackStart", "d6/d42/a23756.html#a861636c35e70116ddea722519bd08831", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "d6/d42/a23756.html#a8974fcc10874e2dab89f7bc9f71afe6d", null ],
+    [ "DoAction", "d6/d42/a23756.html#ab5dbc3f3adaf7567d48dc11838e3b938", null ],
+    [ "ExecuteMiddleEvent", "d6/d42/a23756.html#a42b6d919db655b50c2bd0214b9663fc9", null ],
+    [ "IntroduceNewAdvisor", "d6/d42/a23756.html#a20b4a5967fdb39ee634dc3cf468dc657", null ],
+    [ "JustDied", "d6/d42/a23756.html#af749ddef90aa3175879ed586d5defa01", null ],
+    [ "JustReachedHome", "d6/d42/a23756.html#a658fe0f3885f55cee4a973cebfaec4ae", null ],
+    [ "JustSummoned", "d6/d42/a23756.html#a5e5f8d605a87019c9d9e4d613464de81", null ],
+    [ "KilledUnit", "d6/d42/a23756.html#a3d489512c3a5abc69a6359e174863893", null ],
+    [ "MoveInLineOfSight", "d6/d42/a23756.html#a52ab6dafc6c62de034131a7d62a09354", null ],
+    [ "MovementInform", "d6/d42/a23756.html#a826678b15763782107f218e1031c149b", null ],
+    [ "PhaseAllAdvisorsExecute", "d6/d42/a23756.html#adcad835ea5eedc1a8f4fe7a7bb9dfdc2", null ],
+    [ "PhaseKaelExecute", "d6/d42/a23756.html#afdf4470092452498dfcb27a4bc4c319f", null ],
+    [ "PrepareAdvisors", "d6/d42/a23756.html#a336e5b81146fe19f36b1d39fd3802aac", null ],
+    [ "Reset", "d6/d42/a23756.html#a7331287c076a765815ddca3a445dbe73", null ],
+    [ "SetData", "d6/d42/a23756.html#a71cb08d6ec4e2631ecaf4d25b1cf872b", null ],
+    [ "SetRoomState", "d6/d42/a23756.html#a1eb86aaca814d5464e76af7464db91fb", null ],
+    [ "UpdateAI", "d6/d42/a23756.html#a5f10fded416168d772109ecbf8b09e77", null ],
+    [ "_phase", "d6/d42/a23756.html#a95845de084e261ca6c6d815f4e150223", null ],
+    [ "_transitionSceneReached", "d6/d42/a23756.html#a989b1df477c6946ed4e4366bb82a5dd2", null ]
 ];

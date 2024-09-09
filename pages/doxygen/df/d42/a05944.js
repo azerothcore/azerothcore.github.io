@@ -1,7 +1,6 @@
 var a05944 =
 [
-    [ "Id", "df/d42/a05944.html#aa7d9dbd83fd1ef10fb125c798e293606", null ],
-    [ "NameMD5", "df/d42/a05944.html#a67c4437044d747ff9867a71967697767", null ],
-    [ "Timestamp", "df/d42/a05944.html#af62257c39a4ae1eba959086e981b0d19", null ],
-    [ "VersionMD5", "df/d42/a05944.html#acb8dbe824f71363eb81504f43a126d96", null ]
+    [ "SavedAddon", "df/d42/a05944.html#a6252c2ac491d0ebd9e84556f26cfa8cd", null ],
+    [ "CRC", "df/d42/a05944.html#a7d04d21a29aa589429aab0d95172ca95", null ],
+    [ "Name", "df/d42/a05944.html#a075de88ce6e643cffb7c5bb55f7b1095", null ]
 ];

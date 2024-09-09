@@ -1,10 +1,6 @@
 var a27340 =
 [
-    [ "npc_prof_blacksmith", "df/d65/a27340.html#af9bd62c4c2514d79daf467e4d6d7a92e", null ],
-    [ "HasWeaponSub", "df/d65/a27340.html#a7ee47d061de5e2f482406469b4eaac3b", null ],
-    [ "OnGossipHello", "df/d65/a27340.html#a9a432c1ec33578949110c877fc6a686d", null ],
-    [ "OnGossipSelect", "df/d65/a27340.html#ab1edaf3dc0a8dddf064368d26930a2af", null ],
-    [ "SendActionMenu", "df/d65/a27340.html#af2ac8f9bfa212c34be3e45cc358dd773", null ],
-    [ "SendConfirmLearn", "df/d65/a27340.html#acbec7fe3eebf7eaed09e5755c6775eaa", null ],
-    [ "SendConfirmUnlearn", "df/d65/a27340.html#a851dc241d944bc888a00df85bff17e3a", null ]
+    [ "npc_innkeeper", "df/d65/a27340.html#a006f27d898ead8827d8b98d8b93d430d", null ],
+    [ "OnGossipHello", "df/d65/a27340.html#ae65c5cd7d3e270b2e50f80c0e12a72ff", null ],
+    [ "OnGossipSelect", "df/d65/a27340.html#ab6cf511f5b032050336a77d1e4598dda", null ]
 ];

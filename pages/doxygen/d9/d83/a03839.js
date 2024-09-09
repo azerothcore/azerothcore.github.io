@@ -1,11 +1,11 @@
 var a03839 =
 [
-    [ "npc_prof_alchemy", "db/dbd/a27336.html", "db/dbd/a27336" ],
-    [ "npc_prof_blacksmith", "df/d65/a27340.html", "df/d65/a27340" ],
-    [ "npc_engineering_tele_trinket", "d6/d21/a27344.html", "d6/d21/a27344" ],
-    [ "npc_prof_leather", "d0/d00/a27348.html", "d0/d00/a27348" ],
-    [ "npc_prof_tailor", "d4/d8c/a27352.html", "d4/d8c/a27352" ],
-    [ "go_evil_book_for_dummies", "de/d9f/a27356.html", "de/d9f/a27356" ],
+    [ "npc_prof_alchemy", "d6/d21/a27344.html", "d6/d21/a27344" ],
+    [ "npc_prof_blacksmith", "d0/d00/a27348.html", "d0/d00/a27348" ],
+    [ "npc_engineering_tele_trinket", "d4/d8c/a27352.html", "d4/d8c/a27352" ],
+    [ "npc_prof_leather", "de/d9f/a27356.html", "de/d9f/a27356" ],
+    [ "npc_prof_tailor", "df/d3b/a27360.html", "df/d3b/a27360" ],
+    [ "go_evil_book_for_dummies", "d4/da8/a27364.html", "d4/da8/a27364" ],
     [ "BOX_LEARN_ENGIN_SPEC", "d9/d83/a03839.html#acfda6f8765d038ad07388078d3242c47", null ],
     [ "BOX_UNLEARN_ALCHEMY_SPEC", "d9/d83/a03839.html#a3c6725cfafc91c379f0cb5c4e524a1bd", null ],
     [ "BOX_UNLEARN_ARMORORWEAPON", "d9/d83/a03839.html#a3c0bbd141b0ae46377b5d769349c3ceb", null ],

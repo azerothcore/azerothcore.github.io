@@ -1,6 +1,6 @@
 var a00362 =
 [
-    [ "SpellEvent", "d7/d0e/a10772.html", "d7/d0e/a10772" ],
+    [ "SpellEvent", "d2/df2/a10776.html", "d2/df2/a10776" ],
     [ "CHECK_DIST", "de/dd7/a00362.html#aa16c8b27baa496c2fdf0afffaf4485a0", null ],
     [ "DEBUG_TRAJ", "de/dd7/a00362.html#ac27bc73435b380df600d6da0b753a144", null ],
     [ "GCDLimits", "de/dd7/a00362.html#aea36520bcbaa2ebe9c062b9c5d9df777", [

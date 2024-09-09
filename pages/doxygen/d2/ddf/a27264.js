@@ -1,5 +1,5 @@
 var a27264 =
 [
-    [ "go_veil_skith_cage", "d2/ddf/a27264.html#ac3fe1fdf2f12571fafc56e71a932994e", null ],
-    [ "OnGossipHello", "d2/ddf/a27264.html#a6724dc73ecf83305e5234eb0a2ad1d3c", null ]
+    [ "go_hive_pod", "d2/ddf/a27264.html#a7ec01a399e75ff2e64746166d1aa3539", null ],
+    [ "OnGossipHello", "d2/ddf/a27264.html#a4cfb09789edf6699444a7d817e4ccc70", null ]
 ];

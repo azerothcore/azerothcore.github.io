@@ -1,7 +1,6 @@
 var a17552 =
 [
-    [ "HandleScript", "da/d6d/a17552.html#ae3e8d811d3ad6561768dfff3a16ec9bd", null ],
-    [ "PrepareSpellScript", "da/d6d/a17552.html#ab69926839f72ee76eba2b225aba9690c", null ],
-    [ "Register", "da/d6d/a17552.html#aad8925e891d7537993f02f3bc2552fea", null ],
-    [ "SelectRandomTarget", "da/d6d/a17552.html#aae77f6693a3e5d01e3d05cb990fd1fe5", null ]
+    [ "IgbArtilleryCheck", "da/d6d/a17552.html#a78b65928551ed799cf3f446f0603c50e", null ],
+    [ "operator()", "da/d6d/a17552.html#ac083bfb9a5fa2b9888c4e31254baada6", null ],
+    [ "_entry", "da/d6d/a17552.html#a98a6a0836414da82c288e372e982f69f", null ]
 ];

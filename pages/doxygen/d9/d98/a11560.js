@@ -1,6 +1,6 @@
 var a11560 =
 [
-    [ "boss_draganthaurissanAI", "d1/de2/a11564.html", "d1/de2/a11564" ],
-    [ "boss_emperor_dagran_thaurissan", "d9/d98/a11560.html#a8332d74b5aa1528d5687084932419ad1", null ],
-    [ "GetAI", "d9/d98/a11560.html#aca2c4ca4e32ce75d95b42ddd88c4dc99", null ]
+    [ "boss_anubshiahAI", "d9/d98/a11560.html#ae5bdb5509aad0d386bf73e5aad728744", null ],
+    [ "JustEngagedWith", "d9/d98/a11560.html#ae83c1def323828814b5db6b032002438", null ],
+    [ "UpdateAI", "d9/d98/a11560.html#a3acd88f97e2f1e3386c9b5dfa4f15d15", null ]
 ];

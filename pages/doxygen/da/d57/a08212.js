@@ -1,25 +1,13 @@
 var a08212 =
 [
-    [ "ClientUpdateMaskType", "da/d57/a08212.html#a7638c508cfb0f5480eec2f9d650b0eb4", null ],
-    [ "UpdateMaskCount", "da/d57/a08212.html#a667c2f210ee4a2417a2a3ba486d1332f", [
-      [ "CLIENT_UPDATE_MASK_BITS", "da/d57/a08212.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b", null ]
-    ] ],
-    [ "UpdateMask", "da/d57/a08212.html#a72e9de07108361222addde025ea8362f", null ],
-    [ "UpdateMask", "da/d57/a08212.html#ae0cefda1282f8c29a6557e1c25e007de", null ],
-    [ "~UpdateMask", "da/d57/a08212.html#a986a2b81e0b4f86486ccc455ff6ad79a", null ],
-    [ "AppendToPacket", "da/d57/a08212.html#afe89109ca16f687072062408e311f793", null ],
-    [ "Clear", "da/d57/a08212.html#a39cffd3822966011d83d7241ee3c5548", null ],
-    [ "GetBit", "da/d57/a08212.html#a69f7c72de49699d5730f3a10d55f30e2", null ],
-    [ "GetBlockCount", "da/d57/a08212.html#a5c0d2086346e4522e422add9622e1117", null ],
-    [ "GetCount", "da/d57/a08212.html#a1f6e2b930533b303c173166bf3588613", null ],
-    [ "operator&=", "da/d57/a08212.html#af15db8c732b94437fd1323a911eab5ce", null ],
-    [ "operator=", "da/d57/a08212.html#a3c94144194d52a00888b8bb0760e2d5a", null ],
-    [ "operator|", "da/d57/a08212.html#a487d62a6a039803da615d265a176f138", null ],
-    [ "operator|=", "da/d57/a08212.html#a81b64e6574c61533b07491920eddf413", null ],
-    [ "SetBit", "da/d57/a08212.html#af3390cfa31c39629968a871be2c763fc", null ],
-    [ "SetCount", "da/d57/a08212.html#ad6ec4d5a2b6a85a2ec72b559efbdeb35", null ],
-    [ "UnsetBit", "da/d57/a08212.html#aaac0596975c08d04736996c608eff29f", null ],
-    [ "_bits", "da/d57/a08212.html#ab34e66bf840ac230da0cfa35ef332145", null ],
-    [ "_blockCount", "da/d57/a08212.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b", null ],
-    [ "_fieldCount", "da/d57/a08212.html#a6c7ed53833620c2754b1e0db85a96ece", null ]
+    [ "UpdateData", "da/d57/a08212.html#a7164bb9338d6362f427d75025c9026b6", null ],
+    [ "AddOutOfRangeGUID", "da/d57/a08212.html#a4c68f187e2f6e65da3bdb6a443ebcacf", null ],
+    [ "AddUpdateBlock", "da/d57/a08212.html#a620f0036078833a3b5ce1245274595f8", null ],
+    [ "AddUpdateBlock", "da/d57/a08212.html#af770dbf9bc4e4da1b97aba73b152b23b", null ],
+    [ "BuildPacket", "da/d57/a08212.html#a3bea592b01b6c9e41b863c26fd602d45", null ],
+    [ "Clear", "da/d57/a08212.html#adc0750db190d94fed3bfef72da75066c", null ],
+    [ "HasData", "da/d57/a08212.html#a067577372028ad59aea7942f0cd4a5c2", null ],
+    [ "m_blockCount", "da/d57/a08212.html#a791f9606867a40d018f67600e338a08e", null ],
+    [ "m_data", "da/d57/a08212.html#ac21a3bda51f8d1d2b71be6d00d760e38", null ],
+    [ "m_outOfRangeGUIDs", "da/d57/a08212.html#a60f7b1745f84b24b25c94625145dd5a2", null ]
 ];

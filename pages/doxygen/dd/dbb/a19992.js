@@ -1,5 +1,9 @@
 var a19992 =
 [
-    [ "achievement_freya_getting_back_to_nature", "dd/dbb/a19992.html#aa4078b573a9335fc52c9b9609590b12f", null ],
-    [ "OnCheck", "dd/dbb/a19992.html#a850a32450379284784f019a5eb5ff0ff", null ]
+    [ "boss_freya_nature_bombAI", "dd/dbb/a19992.html#acbf4d330bb5bf4a032732895e8f7e35b", null ],
+    [ "Reset", "dd/dbb/a19992.html#a60738702870e2cacbcdf600e9e7073b5", null ],
+    [ "UpdateAI", "dd/dbb/a19992.html#a4bfa9df3e3151743485f59c4d318d7f9", null ],
+    [ "_explodeTimer", "dd/dbb/a19992.html#a2af9ed2067097eec2a647f17f8b1ef71", null ],
+    [ "_goGUID", "dd/dbb/a19992.html#a1a7579cc6957a52d65a1d302d5ba1da0", null ],
+    [ "Timer", "dd/dbb/a19992.html#a714a582c6ec552b969624244d709d14d", null ]
 ];

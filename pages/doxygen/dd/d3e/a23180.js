@@ -1,12 +1,7 @@
 var a23180 =
 [
-    [ "instance_serpentshrine_cavern_InstanceMapScript", "dd/d3e/a23180.html#a3e83985648f2951ee33d440c9c98bf72", null ],
-    [ "GetData", "dd/d3e/a23180.html#a9ea722d45efe2ee4eff041e480ff1c79", null ],
-    [ "Initialize", "dd/d3e/a23180.html#a8a2214e169acace8578c1863daf0a04c", null ],
-    [ "OnCreatureCreate", "dd/d3e/a23180.html#ae5f77169c337420852962fe7ddba3006", null ],
-    [ "OnGameObjectCreate", "dd/d3e/a23180.html#a9aeb7b25aa1446fff655b4c8fd6c47ad", null ],
-    [ "SetBossState", "dd/d3e/a23180.html#ad2863bc954ae25a5d96d06db0250cda3", null ],
-    [ "SetData", "dd/d3e/a23180.html#af3ca65eef9902a029f5b836d0b6fd58a", null ],
-    [ "_aliveKeepersCount", "dd/d3e/a23180.html#a85b7cbeab4149b0a379f27bdb459cfd7", null ],
-    [ "_shieldGeneratorGUID", "dd/d3e/a23180.html#a570b73c8ecd0e1ab6ac2889405be6ef0", null ]
+    [ "FilterTargets", "dd/d3e/a23180.html#adb8581b4b92aa49eda8f531e6d6de1ea", null ],
+    [ "HandleDummy", "dd/d3e/a23180.html#a2fe7441bd9753cb912d11f8d36632f44", null ],
+    [ "PrepareSpellScript", "dd/d3e/a23180.html#ae7714acbe0a08781e3bc297847c47870", null ],
+    [ "Register", "dd/d3e/a23180.html#ade51d4cb00b63c46582c7a5e6e031e9d", null ]
 ];

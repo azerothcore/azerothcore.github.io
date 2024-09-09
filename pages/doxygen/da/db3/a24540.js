@@ -1,8 +1,7 @@
 var a24540 =
 [
-    [ "HandleDamage", "da/db3/a24540.html#a2c5149eb0b6698240c25b63e71af0854", null ],
-    [ "PrepareSpellScript", "da/db3/a24540.html#a8a19b594de9ba23a59e22db7d05eb60d", null ],
-    [ "Register", "da/db3/a24540.html#ad29179d9159700b52b0c21a779cd060b", null ],
-    [ "Suicide", "da/db3/a24540.html#a981f8547eae9b317111bf9a7016510ab", null ],
-    [ "Validate", "da/db3/a24540.html#aa2c3399146b15f754e073e4fa08f3d5a", null ]
+    [ "CheckCast", "da/db3/a24540.html#ab215bbeea333d250ecbff0482f4f0966", null ],
+    [ "FilterTargets", "da/db3/a24540.html#a6ee8387c7fed3fd3042852a2f542c5bd", null ],
+    [ "PrepareSpellScript", "da/db3/a24540.html#a83447d184bb2299987d0c54d5af4c910", null ],
+    [ "Register", "da/db3/a24540.html#a6107ba00471dd346c363db80fe81b698", null ]
 ];

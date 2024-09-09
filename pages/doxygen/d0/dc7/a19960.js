@@ -1,6 +1,5 @@
 var a19960 =
 [
-    [ "boss_freya_lifebinderAI", "de/d2e/a19964.html", "de/d2e/a19964" ],
-    [ "boss_freya_lifebinder", "d0/dc7/a19960.html#ad7a3bc09aacf35b4a6a39e65c966b824", null ],
-    [ "GetAI", "d0/dc7/a19960.html#a978e4472a080f0fc53848abaa305cd77", null ]
+    [ "boss_freya_iron_rootAI", "d0/dc7/a19960.html#a5e982f5f41433f43a7a0e1d18e009b7b", null ],
+    [ "JustDied", "d0/dc7/a19960.html#ad35297f0fa2039749b89d38c2b4f08b9", null ]
 ];

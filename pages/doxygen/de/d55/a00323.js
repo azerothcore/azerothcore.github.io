@@ -1,13 +1,14 @@
 var a00323 =
 [
-    [ "CriteriaProgress", "d5/db1/a05812.html", "d5/db1/a05812" ],
-    [ "AchievementCriteriaData", "d3/da1/a05816.html", "d3/da1/a05816" ],
-    [ "AchievementCriteriaDataSet", "d3/d4c/a05912.html", "d3/d4c/a05912" ],
-    [ "AchievementReward", "d5/d98/a05916.html", "d5/d98/a05916" ],
-    [ "AchievementRewardLocale", "db/dbf/a05920.html", "db/dbf/a05920" ],
-    [ "CompletedAchievementData", "d4/dde/a05924.html", "d4/dde/a05924" ],
-    [ "AchievementMgr", "d8/dec/a05928.html", "d8/dec/a05928" ],
-    [ "AchievementGlobalMgr", "dc/dc3/a05932.html", "dc/dc3/a05932" ],
+    [ "AchievementOfflinePlayerUpdate", "d5/db1/a05812.html", "d5/db1/a05812" ],
+    [ "CriteriaProgress", "d3/da1/a05816.html", "d3/da1/a05816" ],
+    [ "AchievementCriteriaData", "d9/d0b/a05820.html", "d9/d0b/a05820" ],
+    [ "AchievementCriteriaDataSet", "d5/d98/a05916.html", "d5/d98/a05916" ],
+    [ "AchievementReward", "db/dbf/a05920.html", "db/dbf/a05920" ],
+    [ "AchievementRewardLocale", "d4/dde/a05924.html", "d4/dde/a05924" ],
+    [ "CompletedAchievementData", "d8/dec/a05928.html", "d8/dec/a05928" ],
+    [ "AchievementMgr", "dc/dc3/a05932.html", "dc/dc3/a05932" ],
+    [ "AchievementGlobalMgr", "d7/d35/a05936.html", "d7/d35/a05936" ],
     [ "MAX_ACHIEVEMENT_CRITERIA_DATA_TYPE", "de/d55/a00323.html#aa36806d2931b69d34909b50f40ca8c0e", null ],
     [ "sAchievementMgr", "de/d55/a00323.html#af422afe119839b631fd67247eddff1e6", null ],
     [ "AchievementCriteriaDataMap", "de/d55/a00323.html#ac16b4d5f47fe0db16d59dc67e86e42be", null ],
@@ -50,5 +51,9 @@ var a00323 =
       [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_S_KNOWN_TITLE", "de/d55/a00323.html#a72f8a725cd1b257556ae7aa080f477c0a158d186341dd9798da3921a4a6bd2fda", null ],
       [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_BG_TEAMS_SCORES", "de/d55/a00323.html#a72f8a725cd1b257556ae7aa080f477c0af734713c1c6764e61fddab192904518a", null ],
       [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_S_ITEM_QUALITY", "de/d55/a00323.html#a72f8a725cd1b257556ae7aa080f477c0af53705f7958654cf4ca99c99dd320735", null ]
+    ] ],
+    [ "AchievementOfflinePlayerUpdateType", "de/d55/a00323.html#a9c52752c50b87261f43020b3cfaa06e6", [
+      [ "ACHIEVEMENT_OFFLINE_PLAYER_UPDATE_TYPE_COMPLETE_ACHIEVEMENT", "de/d55/a00323.html#a9c52752c50b87261f43020b3cfaa06e6a2976d6d0cc93ac389d7683d092aff8ee", null ],
+      [ "ACHIEVEMENT_OFFLINE_PLAYER_UPDATE_TYPE_UPDATE_CRITERIA", "de/d55/a00323.html#a9c52752c50b87261f43020b3cfaa06e6a7d91d50e1acd06739fbc20bd87c8a4a3", null ]
     ] ]
 ];

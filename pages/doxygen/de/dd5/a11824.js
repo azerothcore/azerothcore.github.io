@@ -1,5 +1,5 @@
 var a11824 =
 [
-    [ "at_blackrock_stadium", "de/dd5/a11824.html#a9f577437f231a189c02e50e71ffcb85a", null ],
-    [ "OnTrigger", "de/dd5/a11824.html#a26e43099d9253ea44060194e3b38c656", null ]
+    [ "at_dragonspire_hall", "de/dd5/a11824.html#a6adb22f328a7324b2ecf70204ab26a6d", null ],
+    [ "OnTrigger", "de/dd5/a11824.html#a0433930ec050a9dbeb60e1b1122772e3", null ]
 ];

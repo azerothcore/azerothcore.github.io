@@ -1,8 +1,6 @@
 var a15156 =
 [
-    [ "npc_death_ravagerAI", "d0/dea/a15156.html#ad18242b078db0883029537562a41cc20", null ],
-    [ "Reset", "d0/dea/a15156.html#ac0fdbfe2f324785569fa742e0b244b83", null ],
-    [ "UpdateAI", "d0/dea/a15156.html#ac3dce7d79e67f20d7a8fe161da9d5279", null ],
-    [ "EnragingBiteTimer", "d0/dea/a15156.html#af33898ebd9bea6b1a58b673373de3c64", null ],
-    [ "RendTimer", "d0/dea/a15156.html#ad7ff02fe6e11a0fb0d8a3ae869ed5f6d", null ]
+    [ "npc_death_ravagerAI", "d8/df3/a15160.html", "d8/df3/a15160" ],
+    [ "npc_death_ravager", "d0/dea/a15156.html#a6aa04a28ce5aa0e467e638c8ffe11657", null ],
+    [ "GetAI", "d0/dea/a15156.html#a284d0b8ccf902d3f03ddfc6750fe0f1c", null ]
 ];

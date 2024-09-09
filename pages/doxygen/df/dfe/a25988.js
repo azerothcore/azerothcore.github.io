@@ -1,8 +1,8 @@
 var a25988 =
 [
-    [ "HandleApply", "df/dfe/a25988.html#aafdf3712f163919f010d11d0becb398f", null ],
-    [ "HandleRemove", "df/dfe/a25988.html#ac3e33cb37d13b633f3938a48917a4975", null ],
-    [ "PrepareAuraScript", "df/dfe/a25988.html#a42590a0ef43a48c5309f995f9bec5c9b", null ],
-    [ "Register", "df/dfe/a25988.html#a84e7337494dc2e1772ca10dea26c675f", null ],
-    [ "Validate", "df/dfe/a25988.html#ac2558aafb3ce66ca7bbfd718eb8c6338", null ]
+    [ "CalculateAmount", "df/dfe/a25988.html#a8751483423726ffa8a33c70b7e55db23", null ],
+    [ "CheckProc", "df/dfe/a25988.html#a046cd1087342cdcbd2e6b0f8ded7c03a", null ],
+    [ "HandleProc", "df/dfe/a25988.html#abda070e7dfbb4ddc8d18cb3d180edc2e", null ],
+    [ "PrepareAuraScript", "df/dfe/a25988.html#a6bb54cea419145875c4086a69e1e55e8", null ],
+    [ "Register", "df/dfe/a25988.html#a8e92638bbdd786ef77b17f00dcf0f643", null ]
 ];

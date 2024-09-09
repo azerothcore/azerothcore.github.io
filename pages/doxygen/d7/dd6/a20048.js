@@ -1,5 +1,5 @@
 var a20048 =
 [
-    [ "achievement_shadowdodger", "d7/dd6/a20048.html#a8389a4972968fcc6cd7807e96ee5e527", null ],
-    [ "OnCheck", "d7/dd6/a20048.html#a3ee0baca0c9163a601cd4bcfa9ebeb04", null ]
+    [ "achievement_smell_saronite", "d7/dd6/a20048.html#a42dce2aefa2561952dcf5289126035a8", null ],
+    [ "OnCheck", "d7/dd6/a20048.html#a5180e3e53fa0f4d32d2a305d315bc8b3", null ]
 ];

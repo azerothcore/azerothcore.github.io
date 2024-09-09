@@ -1,7 +1,9 @@
 var a18296 =
 [
-    [ "AuraRemoveEvent", "d0/d0a/a18296.html#a094b9437c7cadb465738daf5684c9725", null ],
-    [ "Execute", "d0/d0a/a18296.html#a14ac906a0fcff86f61983c570b0bd6ad", null ],
-    [ "_spellId", "d0/d0a/a18296.html#a6fad41839e07e9545859be7c3afcfc36", null ],
-    [ "_trigger", "d0/d0a/a18296.html#aad8c27befc102dae6823d5d74fed50b4", null ]
+    [ "DelayedCastEvent", "d0/d0a/a18296.html#ae6d57612065d56ce79197aedebedf9f9", null ],
+    [ "Execute", "d0/d0a/a18296.html#ae2925429b3049e44d2afd2e8b990af71", null ],
+    [ "_despawnTime", "d0/d0a/a18296.html#acc9e22eb1908e4c458199fc4cccd56c6", null ],
+    [ "_originalCaster", "d0/d0a/a18296.html#adb07c24a947d59d2ef1f61b8ab18d328", null ],
+    [ "_spellId", "d0/d0a/a18296.html#abe28a6749101233302634ed226a289e8", null ],
+    [ "_trigger", "d0/d0a/a18296.html#a85471a151a3165cc906f3a41103c3f5d", null ]
 ];

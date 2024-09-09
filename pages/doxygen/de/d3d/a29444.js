@@ -1,19 +1,11 @@
 var a29444 =
 [
-    [ "npc_simoneAI", "de/d3d/a29444.html#ab33ec5a76f35bfd088a3d316df5c091c", null ],
-    [ "CorpseRemoved", "de/d3d/a29444.html#a0bc792b39b9d17a71c86756d2c7b9af0", null ],
-    [ "HandlePetRespawn", "de/d3d/a29444.html#a0d07b3f85a99ce3c0a1d4c482547113f", null ],
-    [ "JustDied", "de/d3d/a29444.html#a1c275b32a6d4730657e26e5a9c305eb6", null ],
-    [ "JustEngagedWith", "de/d3d/a29444.html#a17cad19f460d6cbfe2258ada48de46cd", null ],
-    [ "JustRespawned", "de/d3d/a29444.html#af456d04fec4a22fa6662ab5a0ccb902b", null ],
-    [ "Precious", "de/d3d/a29444.html#ad40c5f293558ca5a00614810a89d86c9", null ],
-    [ "PreciousAI", "de/d3d/a29444.html#acbdf0e5404402edf28fecf8657303aba", null ],
-    [ "Reset", "de/d3d/a29444.html#a1a62a843922448390151ed14e0ca2148", null ],
-    [ "RespawnPet", "de/d3d/a29444.html#af6d0cad159d88862e915c9f9337a49e3", null ],
-    [ "ScheduleEncounterStart", "de/d3d/a29444.html#ab879f0b452e511212be4df530b11d461", null ],
-    [ "SetPreciousGUID", "de/d3d/a29444.html#a1b735e7c99ba743c74c10911ec08f12b", null ],
-    [ "SpellHit", "de/d3d/a29444.html#ad50d1248c8a608c52d18ddb9d28168d9", null ],
-    [ "UpdateAI", "de/d3d/a29444.html#ae20237221e1fb3699cfe723c48d5bbf7", null ],
-    [ "events", "de/d3d/a29444.html#a1118fe0b8375db5327a9651a13832523", null ],
-    [ "preciousGUID", "de/d3d/a29444.html#a698a3015b5ad25dfd9ec07dfbb991ea8", null ]
+    [ "_ACORE_REALM_CONFIG", "de/d3d/a29444.html#a139668c786d564a415e0626b3344dc83", null ],
+    [ "BanExpiryHandler", "de/d3d/a29444.html#a70024e0f34c09197ed261e105707adfc", null ],
+    [ "GetConsoleArguments", "de/d3d/a29444.html#a6f250d3a28ed2192d175846c6ce5795b", null ],
+    [ "KeepDatabaseAliveHandler", "de/d3d/a29444.html#ad11704c1d5a88beeef98c06d34d028d6", null ],
+    [ "main", "de/d3d/a29444.html#a3c04138a5bfe5d72780bb7e82a18e627", null ],
+    [ "SignalHandler", "de/d3d/a29444.html#abb73d9c1332263ddf049505e1b12672d", null ],
+    [ "StartDB", "de/d3d/a29444.html#ga1551df43a48f1dbf64dbec1e47b07eea", null ],
+    [ "StopDB", "de/d3d/a29444.html#ga927af1587546ee7503a3b9a18f6439c0", null ]
 ];

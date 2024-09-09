@@ -1,6 +1,6 @@
 var a21112 =
 [
-    [ "CalculateAmount", "db/db7/a21112.html#a79019ef395c9b66f6a88759b0517005d", null ],
-    [ "PrepareAuraScript", "db/db7/a21112.html#a1336ab2b7f560deeeeaaf017578bd524", null ],
-    [ "Register", "db/db7/a21112.html#a9bce52699983fe798c903385faa42462", null ]
+    [ "HandleDummyEffect", "db/db7/a21112.html#a25bc99811aa2c7bf4bfbf8ad628a2771", null ],
+    [ "PrepareSpellScript", "db/db7/a21112.html#a07376c95cb2ec41d86a24be59094d207", null ],
+    [ "Register", "db/db7/a21112.html#aaa02dab30b29e6f646db52468fc35eb2", null ]
 ];

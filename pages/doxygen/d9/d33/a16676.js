@@ -1,23 +1,6 @@
 var a16676 =
 [
-    [ "instance_forge_of_souls_InstanceScript", "d9/d33/a16676.html#ae39e116a01c17592037e12185a03201a", null ],
-    [ "CheckAchievementCriteriaMeet", "d9/d33/a16676.html#a534c7f97e7425160f9a2b1e555d0aa29", null ],
-    [ "GetGuidData", "d9/d33/a16676.html#aa2e295b46c826d701dafb2e6635ce723", null ],
-    [ "HandleOutro", "d9/d33/a16676.html#aadf4a99e89f354901ff63c600725b07f", null ],
-    [ "Initialize", "d9/d33/a16676.html#af0f6d3b0a9a5659affc9812de90fc8ae", null ],
-    [ "IsEncounterInProgress", "d9/d33/a16676.html#a698bfce6741edaccdbd32b1215def039", null ],
-    [ "OnCreatureCreate", "d9/d33/a16676.html#a7570ef3ca74178fec80c5018cbecf42a", null ],
-    [ "OnPlayerEnter", "d9/d33/a16676.html#a743f2f2accf6553353d85127260774f9", null ],
-    [ "ReadSaveDataMore", "d9/d33/a16676.html#a590164fab67dd90d63045671d22143c5", null ],
-    [ "SetData", "d9/d33/a16676.html#a7187a50cebadcf77d74c62b053830efb", null ],
-    [ "WriteSaveDataMore", "d9/d33/a16676.html#a1a3006add0aed0572d8b784a449fc75e", null ],
-    [ "m_auiEncounter", "d9/d33/a16676.html#ad5c847c647e45d23fa6df4ca66264c57", null ],
-    [ "NPC_BronjahmGUID", "d9/d33/a16676.html#affae42118c88fee6e7a300a45d74e63a", null ],
-    [ "NPC_DevourerGUID", "d9/d33/a16676.html#ae1da7da294210fd77199f98b23d3b665", null ],
-    [ "NPC_GuardFirstGUID", "d9/d33/a16676.html#acf04c40ff5c4b09fcafc5b5b8328eaab", null ],
-    [ "NPC_GuardSecondGUID", "d9/d33/a16676.html#aa2d81eabe8cf50f3c42b075581e4d6dd", null ],
-    [ "NPC_LeaderFirstGUID", "d9/d33/a16676.html#a10b3c39fb3c038932ddcff1ddfc4ab85", null ],
-    [ "NPC_LeaderSecondGUID", "d9/d33/a16676.html#a252639143b34c38ef106192cb2399b30", null ],
-    [ "str_data", "d9/d33/a16676.html#ad540fbbabef46015fb1730c5b6477b92", null ],
-    [ "teamIdInInstance", "d9/d33/a16676.html#aaba17e6fc33bcca175006486c5f21f81", null ]
+    [ "instance_forge_of_souls_InstanceScript", "d1/df1/a16680.html", "d1/df1/a16680" ],
+    [ "instance_forge_of_souls", "d9/d33/a16676.html#a504896f6e191c87ce77231c4ef267b27", null ],
+    [ "GetInstanceScript", "d9/d33/a16676.html#a64982b527cfa6057315b8e628549480b", null ]
 ];

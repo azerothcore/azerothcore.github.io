@@ -1,6 +1,6 @@
 var a01223 =
 [
-    [ "MiscScript", "dd/db5/a10044.html", "dd/db5/a10044" ],
+    [ "MiscScript", "da/daa/a10048.html", "da/daa/a10048" ],
     [ "MiscHook", "d7/ddd/a01223.html#af37f873b1735a7e1f78da6f2f334c134", [
       [ "MISCHOOK_ON_CONSTRUCT_OBJECT", "d7/ddd/a01223.html#af37f873b1735a7e1f78da6f2f334c134aced03c29bfe1b673cd653f80f983c9fb", null ],
       [ "MISCHOOK_ON_DESTRUCT_OBJECT", "d7/ddd/a01223.html#af37f873b1735a7e1f78da6f2f334c134a9733f4054c726297206f0d94936b198f", null ],

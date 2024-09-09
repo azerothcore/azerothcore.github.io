@@ -1,6 +1,5 @@
 var a17364 =
 [
-    [ "npc_stinky_iccAI", "d0/dca/a17368.html", "d0/dca/a17368" ],
-    [ "npc_stinky_icc", "d6/d9c/a17364.html#a8f6a3687d4b330f532a0d892dbf429a0", null ],
-    [ "GetAI", "d6/d9c/a17364.html#aaf6b7b1a7469d1e353617f63f11f7781", null ]
+    [ "achievement_flu_shot_shortage", "d6/d9c/a17364.html#af448c773bcdf31cec7ae9d7c85e9e595", null ],
+    [ "OnCheck", "d6/d9c/a17364.html#a3195af1d4504ffc200c99bef84eaaa5a", null ]
 ];

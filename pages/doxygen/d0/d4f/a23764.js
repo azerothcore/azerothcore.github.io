@@ -1,10 +1,11 @@
 var a23764 =
 [
-    [ "npc_thaladred", "d0/d4f/a23764.html#a2589c19d5cc48c0a5fd504aecddfaa90", null ],
-    [ "JustDied", "d0/d4f/a23764.html#acb50d54da8d8a422eab2b12aae5691b2", null ],
-    [ "JustEngagedWith", "d0/d4f/a23764.html#a376664a7801ed27214b614b262b57d1c", null ],
-    [ "Reset", "d0/d4f/a23764.html#a1ea5f71a78b8af971784c54048e3a6a0", null ],
-    [ "UpdateAI", "d0/d4f/a23764.html#ab5d1276a3ef79239cfcada00fd48e1cd", null ],
-    [ "_hasDied", "d0/d4f/a23764.html#a36d70481c9e6ebd20996fa1a4844a9d3", null ],
-    [ "_instance", "d0/d4f/a23764.html#ae034800974950fd97b9bc9d0a15590d5", null ]
+    [ "npc_capernian", "d0/d4f/a23764.html#a0acb568664c777797eeb7104f454699d", null ],
+    [ "AttackStart", "d0/d4f/a23764.html#a81e89eacbae30a1229fda5e9fe924e2b", null ],
+    [ "JustDied", "d0/d4f/a23764.html#acf4b5b8e6c10cb87435723705f551c6f", null ],
+    [ "JustEngagedWith", "d0/d4f/a23764.html#ae2d07a3e4031a831248b84e8b36f6972", null ],
+    [ "Reset", "d0/d4f/a23764.html#ad9b91c94833a899ff33f81de2187b6ad", null ],
+    [ "UpdateAI", "d0/d4f/a23764.html#a7e9116c766fa828c9bd5d0b2118e8fa1", null ],
+    [ "_hasDied", "d0/d4f/a23764.html#a05976816642fad6c31a1ffe9066e5606", null ],
+    [ "_instance", "d0/d4f/a23764.html#a307f6f388f96df3fb0311737f8e7ce96", null ]
 ];

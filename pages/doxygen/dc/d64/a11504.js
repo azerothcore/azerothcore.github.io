@@ -1,5 +1,5 @@
 var a11504 =
 [
-    [ "at_ring_of_law", "dc/d64/a11504.html#ad9bb44e898f90fb489b50cad0a711976", null ],
-    [ "OnTrigger", "dc/d64/a11504.html#a613471caae75ab3d82ce915101a20108", null ]
+    [ "amount", "dc/d64/a11504.html#a35b1ecbfecae77f1cb7a0a52eafc5f7b", null ],
+    [ "entry", "dc/d64/a11504.html#ac3d4d211ebb927b1b9a376ee956e1b26", null ]
 ];

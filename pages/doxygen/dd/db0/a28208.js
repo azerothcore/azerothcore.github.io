@@ -1,4 +1,5 @@
 var a28208 =
 [
-    [ "ID", "dd/db0/a28208.html#a34a2bcafda3bfe22d829f1782031bb4b", null ]
+    [ "Flags", "dd/db0/a28208.html#a0cb97c73af91dcfdd151c38aa46828cc", null ],
+    [ "Id", "dd/db0/a28208.html#a85e0e36dbc79f309d7f50b087ebcd166", null ]
 ];

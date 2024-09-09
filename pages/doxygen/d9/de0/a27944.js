@@ -1,12 +1,7 @@
 var a27944 =
 [
-    [ "ID", "d9/de0/a27944.html#a84ba697182123cb3e7dd3ba07241e971", null ],
-    [ "maxScale", "d9/de0/a27944.html#a23ca0ae7c45790a24f58546970194abf", null ],
-    [ "maxScaleLevel", "d9/de0/a27944.html#ad5d722d74bc08d4de3edd54c2f24addb", null ],
-    [ "minScale", "d9/de0/a27944.html#a3eacdd8639c6dd25dbd3205a58860cf9", null ],
-    [ "minScaleLevel", "d9/de0/a27944.html#a49d9d7847cc4d54891d83166eb277740", null ],
-    [ "Name", "d9/de0/a27944.html#a937fc579ab2790f4a972f07d3453a762", null ],
-    [ "petFoodMask", "d9/de0/a27944.html#a4d9dd8baa3f7981633248513bb25f4ca", null ],
-    [ "petTalentType", "d9/de0/a27944.html#a802000cefb6c4d357edfc45cc291e21e", null ],
-    [ "skillLine", "d9/de0/a27944.html#ad4498d40b31d18742ee4ac235cb58a2e", null ]
+    [ "Displayid", "d9/de0/a27944.html#adc5aee11b1e27752576b0b98156d3b3c", null ],
+    [ "ExtendedDisplayInfoID", "d9/de0/a27944.html#a174d6f73393e6dcfeecf487fc09c2e6f", null ],
+    [ "ModelId", "d9/de0/a27944.html#ada31381a4ee360e2fcb68403bc6d14e5", null ],
+    [ "scale", "d9/de0/a27944.html#ae15b89669bf5d711cc57c21d8c8be0dd", null ]
 ];

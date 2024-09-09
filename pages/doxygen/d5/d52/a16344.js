@@ -1,7 +1,6 @@
 var a16344 =
 [
-    [ "HandleDispel", "d5/d52/a16344.html#ab720416f0497b4ad827208e186afd79a", null ],
-    [ "PrepareAuraScript", "d5/d52/a16344.html#a2f79b7869018b4a775c64c8d985d4a0c", null ],
-    [ "Register", "d5/d52/a16344.html#a26c918009fa3a3cf8b0145c2d2812588", null ],
-    [ "Validate", "d5/d52/a16344.html#a37964b313e11c1e14a7df4a1acb18c10", null ]
+    [ "spell_faction_champion_warl_unstable_affliction_AuraScript", "d3/d4f/a16348.html", "d3/d4f/a16348" ],
+    [ "spell_faction_champion_warl_unstable_affliction", "d5/d52/a16344.html#abe931f01a51b99eae8c10c31cb816e3c", null ],
+    [ "GetAuraScript", "d5/d52/a16344.html#a21e86741c8718c681dd167ef4b75ccca", null ]
 ];

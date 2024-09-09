@@ -1,10 +1,7 @@
 var a23664 =
 [
-    [ "instance_arcatraz_InstanceMapScript", "dc/dcd/a23664.html#a4c6594eb7fa1f7213c89ea5af6c70ae0", null ],
-    [ "GetGuidData", "dc/dcd/a23664.html#aa4bedf168359eaf5332476a6de99c830", null ],
-    [ "OnGameObjectCreate", "dc/dcd/a23664.html#ad8c84d90b85db5717b6a37fc2343e0aa", null ],
-    [ "SetBossState", "dc/dcd/a23664.html#a2937e4ea47af542a476bd3399ecc7233", null ],
-    [ "SetData", "dc/dcd/a23664.html#aca09d4856d5c3e1831ea8753a50a3b71", null ],
-    [ "StasisPodGUIDs", "dc/dcd/a23664.html#a1fb9824baee2d8d83e030da307f21fc3", null ],
-    [ "WardensShieldGUID", "dc/dcd/a23664.html#a3cbff5742e05f6cf0544807bce64b1d0", null ]
+    [ "boss_zereketh_the_unbound", "dc/dcd/a23664.html#abb2fc5cbe7514142160818016fda1936", null ],
+    [ "JustDied", "dc/dcd/a23664.html#ac5d96da9a33a536f2002cce11453ded3", null ],
+    [ "JustEngagedWith", "dc/dcd/a23664.html#ad0305f3eeb578d6dcd2db835331eb10f", null ],
+    [ "KilledUnit", "dc/dcd/a23664.html#a07d3a1264e6d78c2696990755fc7fe45", null ]
 ];

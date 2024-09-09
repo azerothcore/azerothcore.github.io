@@ -1,5 +1,7 @@
 var a20880 =
 [
-    [ "achievement_yogg_saron_drive_me_crazy", "d9/d9a/a20880.html#a381d8fd2e7b4806181959a1b915f3a8c", null ],
-    [ "OnCheck", "d9/d9a/a20880.html#a029fdd68e0643b53971efbb1056f19d8", null ]
+    [ "HandleProc", "d9/d9a/a20880.html#a1b8782a4f22522cfe224073515abdf45", null ],
+    [ "PrepareAuraScript", "d9/d9a/a20880.html#ab4a8a98564d561082243c0f7a2dda1bf", null ],
+    [ "Register", "d9/d9a/a20880.html#a8e9b7613131ef7ea05b853df337faa4e", null ],
+    [ "Validate", "d9/d9a/a20880.html#ab3a99392d06ba0bea8e3f4b345acb23d", null ]
 ];

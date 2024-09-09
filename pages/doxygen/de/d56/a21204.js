@@ -1,6 +1,7 @@
 var a21204 =
 [
-    [ "spell_flame_warder_meteor_fists_AuraScript", "d0/d4d/a21208.html", "d0/d4d/a21208" ],
-    [ "spell_flame_warder_meteor_fists", "de/d56/a21204.html#a3e020771ea6ab327efe3c308b16b831c", null ],
-    [ "GetAuraScript", "de/d56/a21204.html#a17d9260fad49dbb32c0e67745788cde0", null ]
+    [ "PrepareAuraScript", "de/d56/a21204.html#a633dc25fd58f0fb396b72103a1ec42d6", null ],
+    [ "Register", "de/d56/a21204.html#ab46535a9b6fae458671cccbcdfc81eb9", null ],
+    [ "TriggerFists", "de/d56/a21204.html#a912417196f46d7bdf6620cb4cb0a3698", null ],
+    [ "Validate", "de/d56/a21204.html#a66a353872f430244e09fac32cadb1aa4", null ]
 ];

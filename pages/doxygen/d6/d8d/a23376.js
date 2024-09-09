@@ -1,6 +1,7 @@
 var a23376 =
 [
-    [ "instance_the_underbog_InstanceMapScript", "d0/dcd/a23380.html", "d0/dcd/a23380" ],
-    [ "instance_the_underbog", "d6/d8d/a23376.html#afaf8740a3e367a1a54eaa3e76ffa483e", null ],
-    [ "GetInstanceScript", "d6/d8d/a23376.html#ace939fb7fd89e7c9c84c17d3ca31208b", null ]
+    [ "HandleScript", "d6/d8d/a23376.html#a359ccbdf47c9b6a1df23e6f775d5ffa8", null ],
+    [ "PrepareSpellScript", "d6/d8d/a23376.html#ac1193881ad39e7ea7cb1f8f1b6627c60", null ],
+    [ "Register", "d6/d8d/a23376.html#afb83fdd384a430e572a7959f81cdf2cb", null ],
+    [ "Validate", "d6/d8d/a23376.html#af8587f9dff4b71b7cce8ec6d70f94927", null ]
 ];

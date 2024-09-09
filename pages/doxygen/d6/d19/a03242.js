@@ -1,8 +1,8 @@
 var a03242 =
 [
-    [ "boss_moragg", "d0/d64/a21292.html", "d0/d64/a21292" ],
-    [ "boss_moragg::boss_moraggAI", "db/d26/a21296.html", "db/d26/a21296" ],
-    [ "spell_optic_link_aura", "df/dec/a21300.html", "df/dec/a21300" ],
+    [ "boss_moragg", "db/d26/a21296.html", "db/d26/a21296" ],
+    [ "boss_moragg::boss_moraggAI", "df/dec/a21300.html", "df/dec/a21300" ],
+    [ "spell_optic_link_aura", "db/d5c/a21304.html", "db/d5c/a21304" ],
     [ "SPELL_RAY_OF_PAIN", "d6/d19/a03242.html#aa9ba544c502c6bd86c2037c6e54385a9", null ],
     [ "SPELL_RAY_OF_SUFFERING", "d6/d19/a03242.html#a7e55137f3efe6b9aa44c5c70f106c4b9", null ],
     [ "eEvents", "d6/d19/a03242.html#a1d3512b0adb171bd0db6aad2c9e70516", [

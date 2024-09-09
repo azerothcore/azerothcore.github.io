@@ -1,6 +1,5 @@
 var a20948 =
 [
-    [ "boss_ingvar_the_plundererAI", "d9/d71/a20952.html", "d9/d71/a20952" ],
-    [ "boss_ingvar_the_plunderer", "d0/dd6/a20948.html#a9e3612be4a81159dee2b883d434d811d", null ],
-    [ "GetAI", "d0/dd6/a20948.html#aa0411c10b875bd1a804a7679f27dbf92", null ]
+    [ "npc_salvaged_siege_engine", "d0/dd6/a20948.html#aa8cde891a19ebb1e53be2a81a2432442", null ],
+    [ "BeforeSpellClick", "d0/dd6/a20948.html#aed2500b2315b5e508ea3d06a2355d023", null ]
 ];

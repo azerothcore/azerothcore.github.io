@@ -1,13 +1,6 @@
 var a14556 =
 [
-    [ "boss_salrammAI", "dd/d40/a14556.html#ae1055878b3919e29d44ee26efcbe044f", null ],
-    [ "ExplodeGhoul", "dd/d40/a14556.html#adc64d8b10b28b98254c528732fff0516", null ],
-    [ "JustDied", "dd/d40/a14556.html#a59bc42afcbb0ed2c2629bd0280836194", null ],
-    [ "JustEngagedWith", "dd/d40/a14556.html#a8d3287cc74cc9d756a879c4ac796f860", null ],
-    [ "JustSummoned", "dd/d40/a14556.html#afd70403a8644f310f37335c6c9bf5b55", null ],
-    [ "KilledUnit", "dd/d40/a14556.html#ad3f4161c0e18c911a931d65e25693cdd", null ],
-    [ "Reset", "dd/d40/a14556.html#a9ddecc950cac3fc392078df2810ec2a2", null ],
-    [ "UpdateAI", "dd/d40/a14556.html#aa2350dc05884593b1361f9f09b8d9392", null ],
-    [ "events", "dd/d40/a14556.html#a55c0bba93a90b5a3770c81b9c4d2fe5b", null ],
-    [ "summons", "dd/d40/a14556.html#a813c09e121730d4ae2e623ac3c37d570", null ]
+    [ "boss_salrammAI", "d2/d4d/a14560.html", "d2/d4d/a14560" ],
+    [ "boss_salramm", "dd/d40/a14556.html#a62c629a03f0c7ca7f3bf14b5209342d1", null ],
+    [ "GetAI", "dd/d40/a14556.html#ab6b400f0d329d4def074d012de47f53d", null ]
 ];

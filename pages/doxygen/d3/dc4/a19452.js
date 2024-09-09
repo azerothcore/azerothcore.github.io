@@ -1,6 +1,6 @@
 var a19452 =
 [
-    [ "HandleScript", "d3/dc4/a19452.html#a3af4741e2099fec9ba66639f896ba335", null ],
-    [ "PrepareSpellScript", "d3/dc4/a19452.html#a9779e2fb43ce69f74678abd82439c752", null ],
-    [ "Register", "d3/dc4/a19452.html#ac6ae892e75e52ae83321b2492eca6a1f", null ]
+    [ "spell_krystallus_shatter_SpellScript", "d6/d1e/a19456.html", "d6/d1e/a19456" ],
+    [ "spell_krystallus_shatter", "d3/dc4/a19452.html#a3845e28e2e90252c04e5f8355cba748a", null ],
+    [ "GetSpellScript", "d3/dc4/a19452.html#a0d52e0904ed8a694adc2c40131f7c9e9", null ]
 ];

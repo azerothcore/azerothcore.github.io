@@ -1,7 +1,7 @@
 var a12976 =
 [
-    [ "CheckCast", "db/d38/a12976.html#a6ac00101ced46cebd1dd6a32c89374d2", null ],
-    [ "PrepareSpellScript", "db/d38/a12976.html#a07973000e8a4b0ff66d4f4d1fd9f327e", null ],
-    [ "Register", "db/d38/a12976.html#a7deecb2b7dfc410af30d8b14d941f74a", null ],
-    [ "Validate", "db/d38/a12976.html#a9208b9c010bb9cc379c195939351aa45", null ]
+    [ "HandleApplyTouch", "db/d38/a12976.html#ae23887a5da647359efba9a8e31b9f728", null ],
+    [ "PrepareSpellScript", "db/d38/a12976.html#a9ec150c3cd3369325b8fe4f882c53c59", null ],
+    [ "Register", "db/d38/a12976.html#af6100a5e08bf9d5bddcec4471a809746", null ],
+    [ "Validate", "db/d38/a12976.html#a8bbd50100cee0cc9a593259ad218a9a7", null ]
 ];

@@ -1,10 +1,11 @@
 var a28260 =
 [
-    [ "ID", "d8/d91/a28260.html#a090069d13cbbcc5762ecca600c506492", null ],
-    [ "map_id", "d8/d91/a28260.html#a685931e2a361f9e0fc81c004c7467d19", null ],
-    [ "MountCreatureID", "d8/d91/a28260.html#ab59ab7e8b302ac8858bfd67bc10d803f", null ],
-    [ "name", "d8/d91/a28260.html#ae00db3ea736c3a470f6f0690c178e758", null ],
-    [ "x", "d8/d91/a28260.html#a7cbd40848094fa367862d653b0f7170d", null ],
-    [ "y", "d8/d91/a28260.html#a9380befd45cab3104003b2487464bd71", null ],
-    [ "z", "d8/d91/a28260.html#a2e6ce98f7c96ba1469fca8ff3946404a", null ]
+    [ "addToSpellBook", "d8/d91/a28260.html#ad312934d24abcc78c02d50cc5cb5403f", null ],
+    [ "Col", "d8/d91/a28260.html#a0bc589c5b1425d5e889cd290b805169e", null ],
+    [ "DependsOn", "d8/d91/a28260.html#a7b1aa1384777b8d94dceed3c387bb628", null ],
+    [ "DependsOnRank", "d8/d91/a28260.html#a608f232669981da3423b959479ca8683", null ],
+    [ "RankID", "d8/d91/a28260.html#a96d0fd120ed3aa7fbd287d104fd87c26", null ],
+    [ "Row", "d8/d91/a28260.html#a136b889d2e8875b01fc7aa2be06847ac", null ],
+    [ "TalentID", "d8/d91/a28260.html#aa769574106b0e5afdbc7c71c51c3b9a2", null ],
+    [ "TalentTab", "d8/d91/a28260.html#acefe6f8c0a5b3893e2a9f828d500df68", null ]
 ];

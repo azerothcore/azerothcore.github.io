@@ -1,12 +1,12 @@
 var a22664 =
 [
-    [ "boss_gurtogg_bloodboilAI", "de/dc6/a22664.html#abe60cf5e28400b45a06bde7cd0f2df27", null ],
-    [ "CheckEvadeIfOutOfCombatArea", "de/dc6/a22664.html#ac0edb2e78a0e6fb6cfe2fda943da4d64", null ],
-    [ "JustDied", "de/dc6/a22664.html#aa8c5ad8cd9975bd253287be55844b650", null ],
-    [ "JustEngagedWith", "de/dc6/a22664.html#ab010180f6428ee21c73a2bfe6c769df9", null ],
-    [ "JustSummoned", "de/dc6/a22664.html#ac2191fb316b2f4473d46f024de7b542a", null ],
-    [ "KilledUnit", "de/dc6/a22664.html#a08dc356c04325166e04dc16ec772d7ae", null ],
-    [ "Reset", "de/dc6/a22664.html#a5dd09a338aff7b2b98abae02de3f5019", null ],
-    [ "UpdateAI", "de/dc6/a22664.html#a3df99692a9e97657dd5304ed63738708", null ],
-    [ "_recentlySpoken", "de/dc6/a22664.html#ad4289d4d960558b5b5e58068d107d31d", null ]
+    [ "boss_gurtogg_bloodboil", "de/dc6/a22664.html#af6abec4e4db5ce939e4c9593656d16fb", null ],
+    [ "CanAIAttack", "de/dc6/a22664.html#a60e6439bab689eb88a18612b6b46c713", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "de/dc6/a22664.html#a42db4d9fab6edfc392e1886c7d2770cb", null ],
+    [ "JustDied", "de/dc6/a22664.html#a10456695efc6ea0b8eace24b94c37cc3", null ],
+    [ "JustEngagedWith", "de/dc6/a22664.html#a0847173efbae252c2fbbaf1be17097cb", null ],
+    [ "JustSummoned", "de/dc6/a22664.html#ae718666a1da0e93cb0965c42c40b51df", null ],
+    [ "KilledUnit", "de/dc6/a22664.html#ab2b8131fc06f0ff6dd9e3ac7799e72db", null ],
+    [ "Reset", "de/dc6/a22664.html#add25677d422b8bddcb753465451f0584", null ],
+    [ "_recentlySpoken", "de/dc6/a22664.html#a74af813b84f7787a5b764cfe574c087b", null ]
 ];

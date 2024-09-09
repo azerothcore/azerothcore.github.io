@@ -1,6 +1,7 @@
 var a21028 =
 [
-    [ "boss_palehoofAI", "d9/dd4/a21032.html", "d9/dd4/a21032" ],
-    [ "boss_palehoof", "de/d03/a21028.html#ac0e541befaad7e1e6e318d64ca4a1d94", null ],
-    [ "GetAI", "de/d03/a21028.html#ae33ca6e71b251214be50168a5940d058", null ]
+    [ "HandleOnEffectRemove", "de/d03/a21028.html#acccd790c53f567f93e64afa7b7d1fe6f", null ],
+    [ "PrepareAuraScript", "de/d03/a21028.html#a72e6468602d40eb479a80c611d60eb2e", null ],
+    [ "Register", "de/d03/a21028.html#a213b50ebb7ce248a36dd78167d1190bb", null ],
+    [ "Validate", "de/d03/a21028.html#a8f3ec40c0c2e38dc32db30ce36129684", null ]
 ];

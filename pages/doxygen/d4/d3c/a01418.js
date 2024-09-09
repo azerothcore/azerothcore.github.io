@@ -1,9 +1,9 @@
 var a01418 =
 [
-    [ "PacketHandler< PacketClass, HandlerFunction >", "de/d69/a10612.html", "de/d69/a10612" ],
-    [ "PacketHandler< WorldPacket, HandlerFunction >", "d5/dc9/a10616.html", "d5/dc9/a10616" ],
-    [ "get_packet_class< T >", "d8/d95/a10620.html", null ],
-    [ "get_packet_class< void(WorldSession::*)(PacketClass &)>", "dc/d7c/a10624.html", "dc/d7c/a10624" ],
+    [ "PacketHandler< PacketClass, HandlerFunction >", "d5/dc9/a10616.html", "d5/dc9/a10616" ],
+    [ "PacketHandler< WorldPacket, HandlerFunction >", "d8/d95/a10620.html", "d8/d95/a10620" ],
+    [ "get_packet_class< T >", "dc/d7c/a10624.html", null ],
+    [ "get_packet_class< void(WorldSession::*)(PacketClass &)>", "d3/dfe/a10628.html", "d3/dfe/a10628" ],
     [ "DEFINE_HANDLER", "d4/d3c/a01418.html#ab23af9582942bed23ea9ab4a8747c67c", null ],
     [ "DEFINE_SERVER_OPCODE_HANDLER", "d4/d3c/a01418.html#a4bcb2df62d580f2bb5ab3c2aa5b35f5e", null ],
     [ "GetOpcodeNameForLogging", "dd/d22/a04662.html#ga699f5666ad5594443aa2ca21df85a1d3", null ],

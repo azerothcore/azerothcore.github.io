@@ -1,5 +1,6 @@
 var a21104 =
 [
-    [ "npc_ritual_channelerAI", "d3/dea/a21104.html#aa770f8f2b9dd5fca86f9e63de7b4000f", null ],
-    [ "AttackStart", "d3/dea/a21104.html#aff09fbdc1e701853c9953882ca73ce2a", null ]
+    [ "npc_ritual_channelerAI", "dd/d87/a21108.html", "dd/d87/a21108" ],
+    [ "npc_ritual_channeler", "d3/dea/a21104.html#adab372002549b009e3f937ec67e49f3f", null ],
+    [ "GetAI", "d3/dea/a21104.html#aa416545438d701cbfc2567ba5ae536c8", null ]
 ];

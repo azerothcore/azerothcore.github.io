@@ -1,11 +1,7 @@
 var a28644 =
 [
-    [ "material", "dd/dec/a28644.html#a7079e8817a9684602084eb224f2540fc", null ],
-    [ "pos_x", "dd/dec/a28644.html#ac4d971cc46506be14716124afbb5ad9c", null ],
-    [ "pos_y", "dd/dec/a28644.html#a6cd85f2a674d732e88371ffce5e46077", null ],
-    [ "pos_z", "dd/dec/a28644.html#a183ec8ec2d8d30726494c6b3d3b8606a", null ],
-    [ "xtiles", "dd/dec/a28644.html#aca34dfa64624cfe04c314c13bbed0062", null ],
-    [ "xverts", "dd/dec/a28644.html#aa5ad7ff660f7f0b5ddfd2d186496d928", null ],
-    [ "ytiles", "dd/dec/a28644.html#a9901a7e9828ac840bc290b0768831d66", null ],
-    [ "yverts", "dd/dec/a28644.html#abf24042b85692cd0df05d65d734dd99e", null ]
+    [ "Paths", "dd/dec/a28644.html#aff167c694a55441bcf5504f5d1933f41", null ],
+    [ "References", "dd/dec/a28644.html#a07f0d7daa9cd934768b8a603dc52bea3", null ],
+    [ "Sets", "dd/dec/a28644.html#a43774f8dd70e85e16aa8d49b5c6a25b6", null ],
+    [ "Spawns", "dd/dec/a28644.html#a51f24c059516683f0744b81819186c0e", null ]
 ];

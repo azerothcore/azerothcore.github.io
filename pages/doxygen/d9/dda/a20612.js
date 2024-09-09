@@ -1,6 +1,9 @@
 var a20612 =
 [
-    [ "npc_xt002_pummellerAI", "d3/d9a/a20616.html", "d3/d9a/a20616" ],
-    [ "npc_xt002_pummeller", "d9/dda/a20612.html#af620e31a231ca8fb812324521bad4673", null ],
-    [ "GetAI", "d9/dda/a20612.html#a9ec4e452a3763c3d03e581a17e5d7efe", null ]
+    [ "npc_xt002_scrapbotAI", "d9/dda/a20612.html#a21be97bb49ff06ef090cbbe6f5006f56", null ],
+    [ "JustDied", "d9/dda/a20612.html#adcab192d017e6a9e8d103a6e8b91cb26", null ],
+    [ "MovementInform", "d9/dda/a20612.html#a48fd29d42280ae91852ef2ef0cecc8f6", null ],
+    [ "Reset", "d9/dda/a20612.html#aab71d2a49ee96e88a2858c07c455e78d", null ],
+    [ "UpdateAI", "d9/dda/a20612.html#ae2de6767f8ab502833971e4171d48c13", null ],
+    [ "_locked", "d9/dda/a20612.html#add3bfe992d635629ac7e07e04c4334c9", null ]
 ];

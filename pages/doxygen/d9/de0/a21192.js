@@ -1,6 +1,6 @@
 var a21192 =
 [
-    [ "HandleDummy", "d9/de0/a21192.html#a9a4cee98bd023da694ac8fe76cd06078", null ],
-    [ "PrepareSpellScript", "d9/de0/a21192.html#abb80edac9217487c4be085f12295691e", null ],
-    [ "Register", "d9/de0/a21192.html#a2e483fb5c3e176f694eb7c39548a9903", null ]
+    [ "spell_voa_flaming_cinder_SpellScript", "d4/d1c/a21196.html", "d4/d1c/a21196" ],
+    [ "spell_voa_flaming_cinder", "d9/de0/a21192.html#a06378a1d7672c4b0f38b51b6a484e725", null ],
+    [ "GetSpellScript", "d9/de0/a21192.html#a480861ce910dd49a48fd7f5359693605", null ]
 ];

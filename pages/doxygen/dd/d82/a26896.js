@@ -1,5 +1,5 @@
 var a26896 =
 [
-    [ "achievement_save_the_day", "dd/d82/a26896.html#a193e4060b6634a87b499b7c8a5e287a1", null ],
-    [ "OnCheck", "dd/d82/a26896.html#a95cfea6cd9ff955ba6800ebdf3a30eb7", null ]
+    [ "achievement_resilient_victory", "dd/d82/a26896.html#a6224c8a4b1b1ee7c1ab09d8873e86aa8", null ],
+    [ "OnCheck", "dd/d82/a26896.html#a21445d406f67771a20608260b3f9b033", null ]
 ];

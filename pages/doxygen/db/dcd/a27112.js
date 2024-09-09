@@ -1,6 +1,5 @@
 var a27112 =
 [
-    [ "go_tadpole_cageAI", "db/dc6/a27116.html", "db/dc6/a27116" ],
-    [ "go_tadpole_cage", "db/dcd/a27112.html#a1a9acacd0ebff33d402018d4205e415b", null ],
-    [ "GetAI", "db/dcd/a27112.html#a38990dc5edd725623b6c35dba7802612", null ]
+    [ "go_ethereum_stasis", "db/dcd/a27112.html#aaa8fc5733678a17a37c60c9853f91e62", null ],
+    [ "OnGossipHello", "db/dcd/a27112.html#ac36da8dccbebcaee605a878df3904c60", null ]
 ];

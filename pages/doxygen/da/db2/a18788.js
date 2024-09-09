@@ -1,7 +1,10 @@
 var a18788 =
 [
-    [ "OnRemove", "da/db2/a18788.html#a4e6a66934a01d01c50208459f6771353", null ],
-    [ "PrepareAuraScript", "da/db2/a18788.html#a2320044c6c81a89af0fefd4f90c05bd5", null ],
-    [ "Register", "da/db2/a18788.html#a4890d35f2b0889156a437c95e49f528c", null ],
-    [ "Validate", "da/db2/a18788.html#a1b90f1288b3b45267edd4da2b3418b21", null ]
+    [ "boss_isle_of_conquestAI", "da/db2/a18788.html#a7880ea86e7a03f5b14875065a83a206a", null ],
+    [ "CheckRageBuff", "da/db2/a18788.html#a6d60480e39fa89dbcc0facce9f0b69a3", null ],
+    [ "JustEngagedWith", "da/db2/a18788.html#a878635ef0673325943e6026ad76c2b06", null ],
+    [ "Reset", "da/db2/a18788.html#add59669e5f6c3c882ac008c720349573", null ],
+    [ "UpdateAI", "da/db2/a18788.html#ab33aa7e735c5837428a4cf2b76e4275e", null ],
+    [ "events", "da/db2/a18788.html#a38e308b66b0f35d3efe6916b03e4391c", null ],
+    [ "rage", "da/db2/a18788.html#aa16ebdd6e2f486d3a6e4b58f4cb5e696", null ]
 ];

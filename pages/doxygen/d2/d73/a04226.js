@@ -34,6 +34,7 @@ var a04226 =
     [ "localeNames", "d2/d73/a04226.html#ada00613111bb83c03f962083970ca2a0", null ],
     [ "MINUTE", "d2/d73/a04226.html#afacf27522adfacf698390ddafc53fa30", null ],
     [ "MONTH", "d2/d73/a04226.html#add49e81cdd2c0bb5eb745bed627d5022", null ],
+    [ "SECOND", "d2/d73/a04226.html#a3efd60ac9eda5a15658a415b17773a59", null ],
     [ "WEEK", "d2/d73/a04226.html#a688431b3f57feed4c5408d11114cdf1a", null ],
     [ "YEAR", "d2/d73/a04226.html#a0552dd357fedab8892f8550548357a55", null ]
 ];

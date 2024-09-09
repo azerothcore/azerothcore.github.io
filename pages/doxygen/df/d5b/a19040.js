@@ -1,8 +1,6 @@
 var a19040 =
 [
-    [ "npc_teslaAI", "df/d5b/a19040.html#a7281220648af1357b1377d6f7874d663", null ],
-    [ "DamageTaken", "df/d5b/a19040.html#aa3ab570e86261bc3178e17109d76af12", null ],
-    [ "EnterEvadeMode", "df/d5b/a19040.html#acc8115216989b34593a9435eeb051eda", null ],
-    [ "JustEngagedWith", "df/d5b/a19040.html#add93f68bc96b3c93dc0a3271543711e6", null ],
-    [ "UpdateAI", "df/d5b/a19040.html#a962745569b07e368067ee483d2379840", null ]
+    [ "npc_teslaAI", "da/dbd/a19044.html", "da/dbd/a19044" ],
+    [ "npc_tesla", "df/d5b/a19040.html#ae74ad52adbf4a160ef0c7cf97e4faea0", null ],
+    [ "GetAI", "df/d5b/a19040.html#a00d0e2ee0a8c20ed64dd2012f244a760", null ]
 ];

@@ -1,10 +1,7 @@
 var a13844 =
 [
-    [ "boss_jindo", "df/de6/a13844.html#a9aafe0282e0b5de90ce62b3f8b3cfb14", null ],
-    [ "CanAIAttack", "df/de6/a13844.html#a6e24b8e31cda0834563d126dc74d99de", null ],
-    [ "EnterEvadeMode", "df/de6/a13844.html#a8b80f12d0b9b8e9c7aa7ec46fbb71500", null ],
-    [ "JustEngagedWith", "df/de6/a13844.html#a7f612a1e5033c5097856222cee41f2af", null ],
-    [ "JustSummoned", "df/de6/a13844.html#ac7382289d174ec70703b76dc4e451d39", null ],
-    [ "UpdateAI", "df/de6/a13844.html#aad8885f79fc527954102fc1b78ca8ad7", null ],
-    [ "_scheduler", "df/de6/a13844.html#a7ddbdc4d85936fd54fced20ff31e91cd", null ]
+    [ "HandleScriptEffect", "df/de6/a13844.html#ace68732d578fbaeb2b209bfded88853a", null ],
+    [ "PrepareSpellScript", "df/de6/a13844.html#a42a69995e8f527a383e96e2ead832f72", null ],
+    [ "Register", "df/de6/a13844.html#abb26c89a617bc27f8c2a1cfbb0935234", null ],
+    [ "Validate", "df/de6/a13844.html#a7697caf8e5390d290b353fb6a291aa10", null ]
 ];

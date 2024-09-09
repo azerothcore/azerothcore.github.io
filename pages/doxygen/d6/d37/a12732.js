@@ -1,6 +1,7 @@
 var a12732 =
 [
-    [ "boss_darkmaster_gandlingAI", "d5/d61/a12736.html", "d5/d61/a12736" ],
-    [ "boss_darkmaster_gandling", "d6/d37/a12732.html#a6db73fa3c8324f6bfdcb1ae6a72ee39b", null ],
-    [ "GetAI", "d6/d37/a12732.html#a21ea53862614303af31a517a53d1fbf6", null ]
+    [ "npc_fairbanksAI", "d6/d37/a12732.html#a7b0b6eb7aafc2a2a793e578b4dca73a7", null ],
+    [ "MoveInLineOfSight", "d6/d37/a12732.html#ab1200fe381ad08c1fe1181d1ba939460", null ],
+    [ "Reset", "d6/d37/a12732.html#a2290dd6189572cddd0597f622582c3a8", null ],
+    [ "SayAshbringer", "d6/d37/a12732.html#a1ae615c8aa568d0cba3bf5259fbd3daf", null ]
 ];

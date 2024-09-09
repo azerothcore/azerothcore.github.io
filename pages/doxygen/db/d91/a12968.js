@@ -1,7 +1,12 @@
 var a12968 =
 [
-    [ "HandleApplyTouch", "db/d91/a12968.html#a2d7866cda1e12ac2e3f843405d618d40", null ],
-    [ "PrepareSpellScript", "db/d91/a12968.html#ae3fb5dbf490ef78d6990e4cd92bf3aa3", null ],
-    [ "Register", "db/d91/a12968.html#a019ea17d4f02a69f331f9adc973a65a5", null ],
-    [ "Validate", "db/d91/a12968.html#ae2a45916c1d5aefbe076e93c25ab23b6", null ]
+    [ "boss_alythessAI", "db/d91/a12968.html#a3675d195bee318139b0d4f1691749a7d", null ],
+    [ "DoAction", "db/d91/a12968.html#a15d2df7ae437b6481c6f230f1df5e4a3", null ],
+    [ "EnterEvadeMode", "db/d91/a12968.html#acef5ae15a1551d44e3bf3e8e88c50a60", null ],
+    [ "JustDied", "db/d91/a12968.html#a00eeda9182947294201660b1285e17fc", null ],
+    [ "JustEngagedWith", "db/d91/a12968.html#a698fa808ccb6b52e7d747d17afaef55f", null ],
+    [ "KilledUnit", "db/d91/a12968.html#a1d1235128e9c49983496c3bf097be7c8", null ],
+    [ "Reset", "db/d91/a12968.html#a47d6b821d1e9ff86c2e89161af704f92", null ],
+    [ "UpdateAI", "db/d91/a12968.html#ae405bbb951f933a492ce41bff8534323", null ],
+    [ "sisterDied", "db/d91/a12968.html#ac617d56a83f3239eb2a2d2d07ff0dd22", null ]
 ];

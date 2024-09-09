@@ -1,9 +1,7 @@
 var a13480 =
 [
-    [ "npc_thrall_bfuAI", "d8/d3c/a13484.html", "d8/d3c/a13484" ],
-    [ "npc_thrall_bfu", "da/dc7/a13480.html#a43eb37b9a0cf06be0e2cb6180730b09f", null ],
-    [ "GetAI", "da/dc7/a13480.html#a28b4030d189e4d967a1b16f3464c14ba", null ],
-    [ "OnGossipHello", "da/dc7/a13480.html#a71a7108464de9245879c8a1c08932e2a", null ],
-    [ "OnGossipSelect", "da/dc7/a13480.html#aea62ed8489bea23772a52ddefbf9c60e", null ],
-    [ "OnQuestReward", "da/dc7/a13480.html#aee56e54615e2696dcd0e7299e4f416b5", null ]
+    [ "HandleScript", "da/dc7/a13480.html#acd4373ab762d00d262984c36190d6f93", null ],
+    [ "PrepareSpellScript", "da/dc7/a13480.html#a113216b272d0386f248a75bfcf30c6a3", null ],
+    [ "Register", "da/dc7/a13480.html#abbf65c0cabb06141a5856210f5ce5ab8", null ],
+    [ "Validate", "da/dc7/a13480.html#a5746fd6257dd10be58a61e0e8a2403be", null ]
 ];

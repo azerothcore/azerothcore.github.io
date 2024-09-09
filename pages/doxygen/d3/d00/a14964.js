@@ -1,8 +1,6 @@
 var a14964 =
 [
-    [ "npc_ouro_spawner", "d3/d00/a14964.html#acb18739e5a1734312ffdda35321e5f34", null ],
-    [ "JustSummoned", "d3/d00/a14964.html#a722dada5bf97c730462a0de2b082d5ff", null ],
-    [ "MoveInLineOfSight", "d3/d00/a14964.html#a83c0972db4435ccf1af069574e4056f4", null ],
-    [ "Reset", "d3/d00/a14964.html#ac1591f1c172bfdda25b020e00cd0835e", null ],
-    [ "hasSummoned", "d3/d00/a14964.html#a6ac376861c1206cc1551d9fa86c0fc97", null ]
+    [ "FilterTargets", "d3/d00/a14964.html#a15ebe9125f5f4a8f66241ee4da1ac83e", null ],
+    [ "PrepareSpellScript", "d3/d00/a14964.html#a32b0be74a9127f920e22aa03c910a005", null ],
+    [ "Register", "d3/d00/a14964.html#a80efa2858d4270c497e49a1fe6a7472e", null ]
 ];

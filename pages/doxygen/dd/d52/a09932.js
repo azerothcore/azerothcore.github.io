@@ -1,18 +1,11 @@
 var a09932 =
 [
-    [ "AllSpellScript", "dd/d52/a09932.html#a95e37ac5e1e253fb6d759103ec55ac7a", null ],
-    [ "CanModAuraEffectDamageDone", "dd/d52/a09932.html#a95cc4310fb4bc275c7f467a4d71d790c", null ],
-    [ "CanModAuraEffectModDamagePercentDone", "dd/d52/a09932.html#a05230c0a96e7096b64f1bb03acedb337", null ],
-    [ "CanPrepare", "dd/d52/a09932.html#aeb2d438fdd7ca823ce670a94941bafff", null ],
-    [ "CanScalingEverything", "dd/d52/a09932.html#a026842dcd2d8c0e0c3f99718b04e86b0", null ],
-    [ "CanSelectSpecTalent", "dd/d52/a09932.html#a3cf7b45d8e9f5b23e2753d1624c4af78", null ],
-    [ "IsDatabaseBound", "dd/d52/a09932.html#a0854a57b62e310575a3e5cd8d35e8532", null ],
-    [ "OnBeforeAuraRankForLevel", "dd/d52/a09932.html#ae5a4590e4fb49d4cfe73c5ce307773ca", null ],
-    [ "OnCalcMaxDuration", "dd/d52/a09932.html#a5d02de785a4e1cf5103110828fac5e75", null ],
-    [ "OnDummyEffect", "dd/d52/a09932.html#a54e0b823c538c41507c541db025d5295", null ],
-    [ "OnDummyEffect", "dd/d52/a09932.html#a36061e5bcec2ef4dea35d1b5c9e703b4", null ],
-    [ "OnDummyEffect", "dd/d52/a09932.html#afe06aa2578b89fbc5ed5784aed38912a", null ],
-    [ "OnRemoveAuraScaleTargets", "dd/d52/a09932.html#aa055f00fe76ba2768f97e23ecf379a18", null ],
-    [ "OnScaleAuraUnitAdd", "dd/d52/a09932.html#abf3758ff33e5be1492ed4e45979a7a8d", null ],
-    [ "OnSpellCheckCast", "dd/d52/a09932.html#aae718678bb7d9a7ed1e0cbbc59db3049", null ]
+    [ "AllMapScript", "dd/d52/a09932.html#abaf4ffb766b2e5780a9c15c8136d8e26", null ],
+    [ "OnBeforeCreateInstanceScript", "dd/d52/a09932.html#a1a4b75a1845923bcf68481ecc0d6b77c", null ],
+    [ "OnCreateMap", "dd/d52/a09932.html#a56aa53bfb0a1cb7ad7cb677771739b46", null ],
+    [ "OnDestroyInstance", "dd/d52/a09932.html#a990130b4cd594c1cd04368aea300a49e", null ],
+    [ "OnDestroyMap", "dd/d52/a09932.html#a6bebd1e6e36b5714598439a6c6dfaad6", null ],
+    [ "OnMapUpdate", "dd/d52/a09932.html#a6edbb719d998c57caba09eef7ad559e0", null ],
+    [ "OnPlayerEnterAll", "dd/d52/a09932.html#a42e4af596effb07a00b353164f32cec9", null ],
+    [ "OnPlayerLeaveAll", "dd/d52/a09932.html#adcfd501bee055317bff2a63ef28c3eab", null ]
 ];

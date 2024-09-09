@@ -1,6 +1,6 @@
 var a12552 =
 [
-    [ "npc_scarlet_ghoulAI", "d1/d26/a12556.html", "d1/d26/a12556" ],
-    [ "npc_scarlet_ghoul", "de/d57/a12552.html#aa58b0d1c3fb411cac184bc1fc50f4fb3", null ],
-    [ "GetAI", "de/d57/a12552.html#a88d2639b1a4f087d3e1b95475a094d21", null ]
+    [ "HandleScriptEffect", "de/d57/a12552.html#a7cf04c61085396f886ff7b9c80ed7c7f", null ],
+    [ "PrepareSpellScript", "de/d57/a12552.html#a9bf6f10616ef03a70639d2d0d4503c2e", null ],
+    [ "Register", "de/d57/a12552.html#aa8c07d4d88480b16993ca87d746978e1", null ]
 ];

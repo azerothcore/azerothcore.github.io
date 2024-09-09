@@ -1,10 +1,6 @@
 var a14696 =
 [
-    [ "instance_maraudon_InstanceMapScript", "db/d15/a14696.html#a9c46508320d3973006561444feae0586", null ],
-    [ "Initialize", "db/d15/a14696.html#a61cb2b2bf09bb997457bc01a41e092e9", null ],
-    [ "OnGameObjectCreate", "db/d15/a14696.html#a3a287b97db58c3489815f20ee0d37977", null ],
-    [ "ReadSaveDataMore", "db/d15/a14696.html#ac2cd336874b25ad20dac104037de1df5", null ],
-    [ "SetData", "db/d15/a14696.html#a6e90bf60a076c164e432128f7ec62fba", null ],
-    [ "WriteSaveDataMore", "db/d15/a14696.html#a6e4072342e66689d343912de85e66b34", null ],
-    [ "_encounters", "db/d15/a14696.html#af2e752a791d75e50001060c4a9f18173", null ]
+    [ "instance_maraudon_InstanceMapScript", "df/d50/a14700.html", "df/d50/a14700" ],
+    [ "instance_maraudon", "db/d15/a14696.html#aaae11d2569d04b42840b101a5702cf24", null ],
+    [ "GetInstanceScript", "db/d15/a14696.html#ac4f5c7c3ee755226449c96b3e351f12d", null ]
 ];

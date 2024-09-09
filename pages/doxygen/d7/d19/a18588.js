@@ -1,5 +1,5 @@
 var a18588 =
 [
-    [ "at_icc_start_frostwing_gauntlet", "d7/d19/a18588.html#a285cd9046d5658fc5d917c3427bbbe83", null ],
-    [ "OnTrigger", "d7/d19/a18588.html#a7137166f281876f00d4e03c846875d85", null ]
+    [ "at_icc_start_blood_quickening", "d7/d19/a18588.html#a544b0591b19a62e5c8a6efcfffd98326", null ],
+    [ "OnTrigger", "d7/d19/a18588.html#a814670e127b1eace6068a553b23d00f7", null ]
 ];

@@ -1,6 +1,7 @@
 var a23240 =
 [
-    [ "HandleScript", "df/d94/a23240.html#ad81007cd08ee18bfc7cda4221cbc8482", null ],
-    [ "PrepareSpellScript", "df/d94/a23240.html#a60f0bb4882d3f75f0839cd0d8ab2707d", null ],
-    [ "Register", "df/d94/a23240.html#ac06f4246c5cecc4875bc93811eaeb839", null ]
+    [ "go_ahune_ice_spear", "df/d94/a23240.html#a22922e47b819bc60e331cffbc7c353b3", null ],
+    [ "Reset", "df/d94/a23240.html#abd11525a84d3ab06a39d1eb7e7c09fbc", null ],
+    [ "UpdateAI", "df/d94/a23240.html#ae498fc1f71906af2f20e95dea4df4a2b", null ],
+    [ "_scheduler", "df/d94/a23240.html#a7e1dab03b33b0114cc0a40fc02e2306e", null ]
 ];

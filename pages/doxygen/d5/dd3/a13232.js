@@ -1,6 +1,6 @@
 var a13232 =
 [
-    [ "spell_uldaman_stoned_AuraScript", "d6/d01/a13236.html", "d6/d01/a13236" ],
-    [ "spell_uldaman_stoned", "d5/dd3/a13232.html#a9200bb1fa352ba0b19d35169ac7cb479", null ],
-    [ "GetAuraScript", "d5/dd3/a13232.html#a89680bd42fb16974cf366706cc0fa867", null ]
+    [ "HandleSendEvent", "d5/dd3/a13232.html#ac3e5c8ce6dcceaf601f0f5a8c5727291", null ],
+    [ "PrepareSpellScript", "d5/dd3/a13232.html#a5705ee1863434039b1143db0817d60a7", null ],
+    [ "Register", "d5/dd3/a13232.html#a442e4aad6ed971119a147fdf87f90aa3", null ]
 ];

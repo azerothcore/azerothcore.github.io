@@ -1,16 +1,12 @@
 var a24112 =
 [
-    [ "npc_dragonmaw_peonAI", "dc/d79/a24112.html#a6f1255fead5357001ec85fdaa6980249", null ],
-    [ "CreditPlayer", "dc/d79/a24112.html#a5cf28e156cab2e2066bb94bc99233a2b", null ],
-    [ "JustEngagedWith", "dc/d79/a24112.html#abd5b37793aa2fb150c808b7dc7270763", null ],
-    [ "MovementInform", "dc/d79/a24112.html#a0ee4038f90d54c75c48b2448dacb5724", null ],
-    [ "Reset", "dc/d79/a24112.html#a9d876ec76b51f743c71e67749c21d939", null ],
-    [ "SpellHit", "dc/d79/a24112.html#abe5162608ba0acd7360a630562ff5935", null ],
-    [ "UpdateAI", "dc/d79/a24112.html#a98a045606d9e689ef25a5068b81b1ebf", null ],
-    [ "events", "dc/d79/a24112.html#a7d6fb37d1953630aa79f8665eca0db61", null ],
-    [ "PlayerGUID", "dc/d79/a24112.html#ad6838d98e34a32cbed42c77cdf096070", null ],
-    [ "Tapped", "dc/d79/a24112.html#ae393f8d3cb47f38a4c4314a262826d03", null ],
-    [ "x", "dc/d79/a24112.html#acebbfa8da88d8d683ba5ea6463f6b5f7", null ],
-    [ "y", "dc/d79/a24112.html#ae5a1d416c712803ec0b80ae7ccf29e2d", null ],
-    [ "z", "dc/d79/a24112.html#a7722420716c030b5abe7b760199df14d", null ]
+    [ "npc_enslaved_netherwing_drake", "dc/d79/a24112.html#a9f848fa3c68b8a269f0b6016058ec364", null ],
+    [ "_GetPlayer", "dc/d79/a24112.html#af02a965e98f35134a3c40ed9cdfb723e", null ],
+    [ "JustDied", "dc/d79/a24112.html#acde70c9d8c675a9a9dd14695dc752184", null ],
+    [ "MovementInform", "dc/d79/a24112.html#afa030a380365daa33c156a0d6be6a6d9", null ],
+    [ "Reset", "dc/d79/a24112.html#aec02b19d27a09f16ef06adb694c2e65e", null ],
+    [ "SpellHit", "dc/d79/a24112.html#a195794e88870a0b1ca35473f5f0378a7", null ],
+    [ "UpdateAI", "dc/d79/a24112.html#aa7ac2dd17bdf4939d74fe5af85c649b9", null ],
+    [ "_playerGUID", "dc/d79/a24112.html#a2f9a6a6cbaa9cab0e6014f6fd1c54346", null ],
+    [ "_tapped", "dc/d79/a24112.html#a9cbafd9536ff7eca33b0b44295aaec92", null ]
 ];

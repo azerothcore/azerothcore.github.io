@@ -1,6 +1,6 @@
 var a14384 =
 [
-    [ "HandleScriptEffect", "d6/de5/a14384.html#a3d22cc828a2aa59d45e5d648161926fd", null ],
-    [ "PrepareSpellScript", "d6/de5/a14384.html#a0ecf5662d9cc1296ebdac82233f1fe7c", null ],
-    [ "Register", "d6/de5/a14384.html#aee5d9189b6df318b57e919511a185a99", null ]
+    [ "HandleTriggerSpell", "d6/de5/a14384.html#a7e5a03d304f0f6fe8d06ed5df12259dd", null ],
+    [ "PrepareSpellScript", "d6/de5/a14384.html#a76a070da8e719198463010499f595599", null ],
+    [ "Register", "d6/de5/a14384.html#ae237c4972167a5a17b59800983496a9d", null ]
 ];

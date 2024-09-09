@@ -1,7 +1,6 @@
 var a12484 =
 [
-    [ "boss_garaxxas", "d7/d8f/a12484.html#af34e3ef5dac400fb7c217f46345ee9bb", null ],
-    [ "JustEngagedWith", "d7/d8f/a12484.html#aebfd7b63d714468ed69e920fb89c345d", null ],
-    [ "Reset", "d7/d8f/a12484.html#a56e6489ce49971cb066444888355626e", null ],
-    [ "UpdateAI", "d7/d8f/a12484.html#a26c8ced268eba327211ad07be8293e9b", null ]
+    [ "boss_warlord_salaris", "d7/d8f/a12484.html#afe9ace28dcd302e9b9a9ebe806e2ada5", null ],
+    [ "JustEngagedWith", "d7/d8f/a12484.html#a77b3b531466810ee17f9fd6eadf5872a", null ],
+    [ "UpdateAI", "d7/d8f/a12484.html#a265aab47f95d952125c98773b53a67bf", null ]
 ];

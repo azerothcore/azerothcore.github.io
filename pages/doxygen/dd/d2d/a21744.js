@@ -1,15 +1,6 @@
 var a21744 =
 [
-    [ "npc_q24545_lich_kingAI", "dd/d2d/a21744.html#abebe71c6cfb705ce4409dd7fae3842e3", null ],
-    [ "CleanAll", "dd/d2d/a21744.html#a2720994f88a2706a2f0b4fb361f81f2c", null ],
-    [ "JustSummoned", "dd/d2d/a21744.html#a6049433795be30eb31e240a4939ad42f", null ],
-    [ "Reset", "dd/d2d/a21744.html#aebd396de51edef790cd0b599c94f78a0", null ],
-    [ "SetData", "dd/d2d/a21744.html#a8ee3a4f85aebe9b9a8e18858b76042a6", null ],
-    [ "SetGUID", "dd/d2d/a21744.html#a9dfbb607bb117d2d1fc8a4e61c42859f", null ],
-    [ "SpellHitTarget", "dd/d2d/a21744.html#adb8be583a14c8d0951b45dc027cf31d9", null ],
-    [ "SummonedCreatureDespawn", "dd/d2d/a21744.html#ae8049cc5b58c6647b37941fb98c51fe5", null ],
-    [ "UpdateAI", "dd/d2d/a21744.html#a24f17e0954e498e4a4b73b4cdffea6a3", null ],
-    [ "events", "dd/d2d/a21744.html#a3e89e187c08f45a51fb69b647dcc766d", null ],
-    [ "playerGUID", "dd/d2d/a21744.html#ac84b9efb3ee2eaa2160afe5d0217a884", null ],
-    [ "summons", "dd/d2d/a21744.html#a1de76ab7f3304f8373c633fa7d0aa533", null ]
+    [ "npc_q24545_lich_kingAI", "d0/d0b/a21748.html", "d0/d0b/a21748" ],
+    [ "npc_q24545_lich_king", "dd/d2d/a21744.html#a1864564dee4f66f1b29850b8b0f6fa29", null ],
+    [ "GetAI", "dd/d2d/a21744.html#aade5ad8ba215d0571185596aa40cf9b2", null ]
 ];

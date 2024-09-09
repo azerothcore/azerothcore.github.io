@@ -1,6 +1,6 @@
 var a24448 =
 [
-    [ "PrepareSpellScript", "dd/d63/a24448.html#ad6190cf9ab80ebfd982c1b166d950656", null ],
-    [ "Register", "dd/d63/a24448.html#a4b349a325759517c35d04202e5df9cec", null ],
-    [ "SetDest", "dd/d63/a24448.html#a951f733ab2452655a3b579f8ed190fb0", null ]
+    [ "HandlePeriodic", "dd/d63/a24448.html#adc387a1b001119b95179856c030853ad", null ],
+    [ "PrepareAuraScript", "dd/d63/a24448.html#a64eb2c68651171f1cbda3aa98d58e68e", null ],
+    [ "Register", "dd/d63/a24448.html#a1234c3e7b32d5bed67c8e9c2afc1fdc5", null ]
 ];

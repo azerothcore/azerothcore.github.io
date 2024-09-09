@@ -1,7 +1,12 @@
 var a21708 =
 [
-    [ "CheckCast", "d1/d05/a21708.html#af0eb00a8dbff89d780beb07f3a714fff", null ],
-    [ "HandleScript", "d1/d05/a21708.html#a8128bb2d7588409dae73bed78d5285a7", null ],
-    [ "PrepareSpellScript", "d1/d05/a21708.html#aee17a8a21ec5df027082c6990189dccc", null ],
-    [ "Register", "d1/d05/a21708.html#a2a97265e102e9ce31997d99275b42973", null ]
+    [ "npc_wintergarde_gryphon", "d1/d05/a21708.html#ada46ecdbc8c3a33a7b3ce09296c0db72", null ],
+    [ "getVillager", "d1/d05/a21708.html#a7f20f5e124e013ad8f57ca31b9fb86d7", null ],
+    [ "IsSummonedBy", "d1/d05/a21708.html#acd7cea6226034d53b854c5ed659ff949", null ],
+    [ "JustDied", "d1/d05/a21708.html#a6c87d55ef29e14b4b8b87a0321179542", null ],
+    [ "MovementInform", "d1/d05/a21708.html#a8f2faf49533d27d971110681e050c060", null ],
+    [ "PassengerBoarded", "d1/d05/a21708.html#a16c01d26aef06358f979f59fe68c09ca", null ],
+    [ "SpellHit", "d1/d05/a21708.html#acf64143ea83321556156fde30e1a34d4", null ],
+    [ "UpdateAI", "d1/d05/a21708.html#aa161f280e7a7370696cecc27c51ee55c", null ],
+    [ "villagerGUID", "d1/d05/a21708.html#a56a7973a05061197192111ecf55ef14a", null ]
 ];

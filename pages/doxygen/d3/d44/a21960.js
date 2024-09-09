@@ -1,6 +1,9 @@
 var a21960 =
 [
-    [ "npc_plaguehound_trackerAI", "db/dcd/a21964.html", "db/dcd/a21964" ],
-    [ "npc_plaguehound_tracker", "d3/d44/a21960.html#a5c2803907cf06bc3e641bbb8171681d3", null ],
-    [ "GetAI", "d3/d44/a21960.html#a1ec8f190139b35837a0ce6c4c2f08709", null ]
+    [ "npc_Apothecary_HanesAI", "d3/d44/a21960.html#a8e209b142a58b3b3c0d84c430a086ade", null ],
+    [ "JustDied", "d3/d44/a21960.html#a4c681936d8e7053ace5cdeeaa1ee5ca9", null ],
+    [ "Reset", "d3/d44/a21960.html#a23d54542e6debf39798c2a2d6e2a255d", null ],
+    [ "UpdateEscortAI", "d3/d44/a21960.html#ab54eb5115b9c41b39f0de0f8f4412ef9", null ],
+    [ "WaypointReached", "d3/d44/a21960.html#a7105ea4c83ddd0fd08c96a0b0ff40bd2", null ],
+    [ "PotTimer", "d3/d44/a21960.html#a252858818b61cf15e2e031ceaaadc6b8", null ]
 ];

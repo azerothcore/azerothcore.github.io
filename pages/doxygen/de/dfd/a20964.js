@@ -1,6 +1,7 @@
 var a20964 =
 [
-    [ "boss_kelesethAI", "db/d4d/a20968.html", "db/d4d/a20968" ],
-    [ "boss_keleseth", "de/dfd/a20964.html#aa80ba121af9092f3a7c2d24e3018d27f", null ],
-    [ "GetAI", "de/dfd/a20964.html#ac80a19a56a921e3be04a3bad1cb12912", null ]
+    [ "npc_frost_tombAI", "de/dfd/a20964.html#a950f7f77bdbc7ba1db0911641f2fadcf", null ],
+    [ "JustDied", "de/dfd/a20964.html#aeda420de208505fa93fc548693a1ff74", null ],
+    [ "UpdateAI", "de/dfd/a20964.html#a8f323275af4ecafd1978c465e75978e0", null ],
+    [ "PrisonerGUID", "de/dfd/a20964.html#ae1e3af77879f98a77186ec77c31da7a8", null ]
 ];

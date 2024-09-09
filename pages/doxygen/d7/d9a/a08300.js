@@ -1,10 +1,18 @@
 var a08300 =
 [
-    [ "PvPInfo", "d7/d9a/a08300.html#ad956667bc89b49e5a520ee5a4f19f22e", null ],
-    [ "EndTimer", "d7/d9a/a08300.html#ae06b5030552c02f30fe8386633a753df", null ],
-    [ "FFAPvPEndTimer", "d7/d9a/a08300.html#a739dfc63dfe39429a44ea682d9120522", null ],
-    [ "IsHostile", "d7/d9a/a08300.html#a22a1c8f0e8c51f4a27cb8ab362028d61", null ],
-    [ "IsInFFAPvPArea", "d7/d9a/a08300.html#a8a654926248b3974587af1eb9c064d15", null ],
-    [ "IsInHostileArea", "d7/d9a/a08300.html#a92d3c8991f7e3c5d683b414d18cbbd64", null ],
-    [ "IsInNoPvPArea", "d7/d9a/a08300.html#a6858b8db9a441bf950f7d9fdca1587b5", null ]
+    [ "PlayerInfo", "d7/d9a/a08300.html#a8a26bdeb267824135b3f84baa2585baa", null ],
+    [ "action", "d7/d9a/a08300.html#a0f68412598a9741e9b5ce7a42c82d129", null ],
+    [ "areaId", "d7/d9a/a08300.html#a60d086c6e6879e6c5d8b5a24c0ae7bf8", null ],
+    [ "castSpells", "d7/d9a/a08300.html#a35ab273058db0828c91f01d823467e02", null ],
+    [ "customSpells", "d7/d9a/a08300.html#ab40e5fd724fab03afbbd38713e1dd4bf", null ],
+    [ "displayId_f", "d7/d9a/a08300.html#adf14854368c9351fe2fba3215194f2f9", null ],
+    [ "displayId_m", "d7/d9a/a08300.html#a2ce7d9aa7fc52bd9768c75b88f88b256", null ],
+    [ "item", "d7/d9a/a08300.html#ad76819034c64c0c691561eff683b7e57", null ],
+    [ "levelInfo", "d7/d9a/a08300.html#abbff546bbe2cc0ea643c41456c1f0d9f", null ],
+    [ "mapId", "d7/d9a/a08300.html#ad8d359374f74de40c1c591bb61976405", null ],
+    [ "orientation", "d7/d9a/a08300.html#a041a37c356d50860cab9f1ced33a28d0", null ],
+    [ "positionX", "d7/d9a/a08300.html#a55a076dc53e8c2d0b2ab11b1087ebccd", null ],
+    [ "positionY", "d7/d9a/a08300.html#a7314ecd469357e2eb46ed3d133a5a7a0", null ],
+    [ "positionZ", "d7/d9a/a08300.html#ad21a8dd3353d3f141bcc9af65e607aee", null ],
+    [ "skills", "d7/d9a/a08300.html#a3bec7891e115ab3cff40c3d95174981c", null ]
 ];

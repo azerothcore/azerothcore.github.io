@@ -1,6 +1,6 @@
 var a22340 =
 [
-    [ "PrepareSpellScript", "d7/d4e/a22340.html#ae9a4734c9b12473f86c91a49860d56dd", null ],
-    [ "RecalculateDamage", "d7/d4e/a22340.html#ad47d51e68c6ffe60f15beceaffc60b19", null ],
-    [ "Register", "d7/d4e/a22340.html#a0dbeb30ba0eb22f4eb762f0a14cc6f39", null ]
+    [ "HandlePeriodicDummy", "d7/d4e/a22340.html#a0096e0521c37a4f7f9ab1f2173a807d4", null ],
+    [ "PrepareAuraScript", "d7/d4e/a22340.html#ad55ab81c39e8bf53d1e2066bbeefa712", null ],
+    [ "Register", "d7/d4e/a22340.html#afeccfe29a0e0f192a4242217f9d4b7e5", null ]
 ];

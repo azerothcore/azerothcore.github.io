@@ -1,9 +1,9 @@
 var a03482 =
 [
-    [ "boss_loken", "d8/dd8/a19392.html", "d8/dd8/a19392" ],
-    [ "boss_loken::boss_lokenAI", "d6/d4a/a19396.html", "d6/d4a/a19396" ],
-    [ "spell_loken_pulsing_shockwave", "d7/d66/a19400.html", "d7/d66/a19400" ],
-    [ "spell_loken_pulsing_shockwave::spell_loken_pulsing_shockwave_SpellScript", "da/d89/a19404.html", "da/d89/a19404" ],
+    [ "boss_loken", "d6/d4a/a19396.html", "d6/d4a/a19396" ],
+    [ "boss_loken::boss_lokenAI", "d7/d66/a19400.html", "d7/d66/a19400" ],
+    [ "spell_loken_pulsing_shockwave", "da/d89/a19404.html", "da/d89/a19404" ],
+    [ "spell_loken_pulsing_shockwave::spell_loken_pulsing_shockwave_SpellScript", "dc/dbe/a19408.html", "dc/dbe/a19408" ],
     [ "LokenEvents", "d1/d07/a03482.html#a77575461d3289e4cd9f6432f5f6e01c0", [
       [ "EVENT_LIGHTNING_NOVA", "d1/d07/a03482.html#a77575461d3289e4cd9f6432f5f6e01c0a44944e59a1877f181fcd2a7b0255a74a", null ],
       [ "EVENT_SHOCKWAVE", "d1/d07/a03482.html#a77575461d3289e4cd9f6432f5f6e01c0ade40d104ed3268809acfe5d537a6828d", null ],

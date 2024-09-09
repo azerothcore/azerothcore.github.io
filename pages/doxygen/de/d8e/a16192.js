@@ -1,6 +1,5 @@
 var a16192 =
 [
-    [ "spell_gen_leeching_swarm_AuraScript", "da/d2a/a16196.html", "da/d2a/a16196" ],
-    [ "spell_gen_leeching_swarm", "de/d8e/a16192.html#a13eb1c202d4f253e9866f462e5c59ac1", null ],
-    [ "GetAuraScript", "de/d8e/a16192.html#a2c47410d2b61739f6f01ac8b2d2a0c9c", null ]
+    [ "PrepareAuraScript", "de/d8e/a16192.html#aee03d124caf65f4a4cb29d0bf90c8f7d", null ],
+    [ "Register", "de/d8e/a16192.html#afbb410bc5166d56bee00231828269424", null ]
 ];

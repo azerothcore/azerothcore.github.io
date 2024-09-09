@@ -1,6 +1,5 @@
 var a22064 =
 [
-    [ "npc_tournament_training_dummyAI", "df/d89/a22068.html", "df/d89/a22068" ],
-    [ "npc_tournament_training_dummy", "dd/d61/a22064.html#ab5308cfddfef00da9692dddd21ce4a14", null ],
-    [ "GetAI", "dd/d61/a22064.html#a31257c155c3a49c69771156800cf6340", null ]
+    [ "npc_guardian_pavilionAI", "dd/d61/a22064.html#a2c116495e65c7f97063aa7dc6516f48c", null ],
+    [ "MoveInLineOfSight", "dd/d61/a22064.html#aeae26e28be93120062d9f77c069ff32a", null ]
 ];

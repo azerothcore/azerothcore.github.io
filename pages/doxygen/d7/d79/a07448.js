@@ -1,10 +1,20 @@
 var a07448 =
 [
-    [ "storage_type", "d7/d79/a07448.html#a054c554d9d812e571455bce39655a9ac", null ],
-    [ "value_type", "d7/d79/a07448.html#a5c55c97d4dd08c5e71563596e0c59111", null ],
-    [ "operator value_type", "d7/d79/a07448.html#a2d439c3664d398cebfc503b2769bfa9c", null ],
-    [ "operator*", "d7/d79/a07448.html#a9d4cf547beb996e5945acb84f5305200", null ],
-    [ "operator->", "d7/d79/a07448.html#afb5bb4e6e4a32db89e3b8a68e9c0d901", null ],
-    [ "TryConsume", "d7/d79/a07448.html#a57892ca7457ca93bdcdbbb8309311c8f", null ],
-    [ "val", "d7/d79/a07448.html#aef50fdfc79df3ca784eb90a69bd43076", null ]
+    [ "value_type", "d7/d79/a07448.html#a2ffac2f5c4514a1a9c7d3b72ac95ca28", null ],
+    [ "PlayerIdentifier", "d7/d79/a07448.html#a4a5d0a04c5461c56b8c6028926bda2a0", null ],
+    [ "PlayerIdentifier", "d7/d79/a07448.html#ac757cca4b11332e5b091639a9a946f88", null ],
+    [ "FromSelf", "d7/d79/a07448.html#af45d29f7ebca2a8af420fdec344264fc", null ],
+    [ "FromTarget", "d7/d79/a07448.html#aea33fb49551ebc0f687f3d24dc3dfbea", null ],
+    [ "FromTargetOrSelf", "d7/d79/a07448.html#a617834cc8474970950b45066f2e86dbd", null ],
+    [ "GetConnectedPlayer", "d7/d79/a07448.html#ac4d51841e160051dde72827e9bc71318", null ],
+    [ "GetGUID", "d7/d79/a07448.html#a266269d0f1aa9410cde271c97f09f807", null ],
+    [ "GetName", "d7/d79/a07448.html#a6baa96394c108ae26c66a790f024ae3a", null ],
+    [ "IsConnected", "d7/d79/a07448.html#a3eac561c52cfd3a01b596feca5846dc5", null ],
+    [ "operator ObjectGuid", "d7/d79/a07448.html#a6895aec33b3b5c1a43abd6fa077f1ea8", null ],
+    [ "operator std::string const &", "d7/d79/a07448.html#a3ac710baa74dbbc2359b1734579c0412", null ],
+    [ "operator std::string_view", "d7/d79/a07448.html#af37d94f83894f4182211208db19c8678", null ],
+    [ "TryConsume", "d7/d79/a07448.html#a0ef4ac60e1dcbc03bfe08d78b05de48d", null ],
+    [ "_guid", "d7/d79/a07448.html#a378564a9a7e2b4a85381cc4e3c371451", null ],
+    [ "_name", "d7/d79/a07448.html#ad0f2f7c96817c6e0c1c77c21a299cb70", null ],
+    [ "_player", "d7/d79/a07448.html#a5658078bcce50c453f087b1e3f602f05", null ]
 ];

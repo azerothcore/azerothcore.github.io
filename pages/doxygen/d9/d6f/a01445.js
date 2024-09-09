@@ -1,13 +1,13 @@
 var a01445 =
 [
-    [ "DefaultTargetSelector", "d7/d13/a06020.html", "d7/d13/a06020" ],
-    [ "SpellTargetSelector", "df/d9b/a06024.html", "df/d9b/a06024" ],
-    [ "NonTankTargetSelector", "d4/d91/a06028.html", "d4/d91/a06028" ],
-    [ "PowerUsersSelector", "d4/ddf/a06032.html", "d4/ddf/a06032" ],
-    [ "FarthestTargetSelector", "d6/d18/a06036.html", "d6/d18/a06036" ],
-    [ "UnitAI", "d5/d32/a06040.html", "d5/d32/a06040" ],
-    [ "PlayerAI", "d1/dc9/a06044.html", "d1/dc9/a06044" ],
-    [ "SimpleCharmedAI", "dd/d34/a06048.html", "dd/d34/a06048" ],
+    [ "DefaultTargetSelector", "df/d9b/a06024.html", "df/d9b/a06024" ],
+    [ "SpellTargetSelector", "d4/d91/a06028.html", "d4/d91/a06028" ],
+    [ "NonTankTargetSelector", "d4/ddf/a06032.html", "d4/ddf/a06032" ],
+    [ "PowerUsersSelector", "d6/d18/a06036.html", "d6/d18/a06036" ],
+    [ "FarthestTargetSelector", "d5/d32/a06040.html", "d5/d32/a06040" ],
+    [ "UnitAI", "d1/dc9/a06044.html", "d1/dc9/a06044" ],
+    [ "PlayerAI", "dd/d34/a06048.html", "dd/d34/a06048" ],
+    [ "SimpleCharmedAI", "de/dcd/a06052.html", "de/dcd/a06052" ],
     [ "CAST_AI", "d9/d6f/a01445.html#a0476b18cfebeb691aabb4344ec4f8af3", null ],
     [ "ENSURE_AI", "d9/d6f/a01445.html#afbd9552e4d9ae2fb45fe846c8e9775cf", null ],
     [ "SelectTargetMethod", "d9/d6f/a01445.html#a482ee472018cb5f0e11addaabad35c3d", [

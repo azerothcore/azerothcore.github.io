@@ -1,6 +1,5 @@
 var a19996 =
 [
-    [ "achievement_freya_knock_on_wood", "d9/d65/a19996.html#ae28517e151cc9ec2b25ff57513f32d29", null ],
-    [ "OnCheck", "d9/d65/a19996.html#a07e5edf9d53d200506ab1b0d0b2eaa9e", null ],
-    [ "_elderCount", "d9/d65/a19996.html#a5a3cc4dedbc2cc6be825579cbb0a09b5", null ]
+    [ "achievement_freya_getting_back_to_nature", "d9/d65/a19996.html#aa4078b573a9335fc52c9b9609590b12f", null ],
+    [ "OnCheck", "d9/d65/a19996.html#a850a32450379284784f019a5eb5ff0ff", null ]
 ];

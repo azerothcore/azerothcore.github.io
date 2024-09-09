@@ -1,9 +1,10 @@
 var a05916 =
 [
-    [ "itemId", "d5/d98/a05916.html#adc6041f4426ca3d377644b18a0ba22f9", null ],
-    [ "mailTemplate", "d5/d98/a05916.html#adc59ba563519ed9e673b734c4e40e7b8", null ],
-    [ "sender", "d5/d98/a05916.html#a9a4e0b2063f2c03f8783681cca41b5d7", null ],
-    [ "subject", "d5/d98/a05916.html#a45644f308278529f822080f8274180d8", null ],
-    [ "text", "d5/d98/a05916.html#a4d57dcb4d130552f5bf756308d79307c", null ],
-    [ "titleId", "d5/d98/a05916.html#a94440f7e5c023d929e0e7f7d821bb309", null ]
+    [ "Storage", "d5/d98/a05916.html#a49a70316b169e50ad64ff51d6a568bbc", null ],
+    [ "AchievementCriteriaDataSet", "d5/d98/a05916.html#a5055f8710c48379035e132e8f20577dc", null ],
+    [ "Add", "d5/d98/a05916.html#a297f02665679b19961998fb529d064e4", null ],
+    [ "Meets", "d5/d98/a05916.html#a8edbe32d695308633fa7abfc91d2a1a1", null ],
+    [ "SetCriteriaId", "d5/d98/a05916.html#addedfd39d9948923a2704b51eaacecbc", null ],
+    [ "_criteria_id", "d5/d98/a05916.html#a0abc37729d2f3c400bb7cfde212f51c0", null ],
+    [ "_storage", "d5/d98/a05916.html#a6abf189d95226b370cfcfe7b628ed7c0", null ]
 ];

@@ -1,6 +1,5 @@
 var a19920 =
 [
-    [ "boss_freyaAI", "d4/d90/a19924.html", "d4/d90/a19924" ],
-    [ "boss_freya", "d0/d59/a19920.html#ae366f60526e7c948dee148cdd12f0752", null ],
-    [ "GetAI", "d0/d59/a19920.html#a6a2f5b402e99208a535fc3f23c2a0eb3", null ]
+    [ "achievement_flame_leviathan_unbroken", "d0/d59/a19920.html#a30a94a92aacc558d6833994c11f3ee8a", null ],
+    [ "OnCheck", "d0/d59/a19920.html#a78c69e3217b6598ab238a4f51ba598eb", null ]
 ];

@@ -1,6 +1,6 @@
 var a16000 =
 [
-    [ "npc_living_infernoAI", "dc/d27/a16000.html#ab33eeac6aab8e18778fc7d4ffe5038f1", null ],
-    [ "IsSummonedBy", "dc/d27/a16000.html#a4b6986a392aee0741ba47651e809c76c", null ],
-    [ "JustDied", "dc/d27/a16000.html#a60b2e31d24e182e97d604d91223e2dc8", null ]
+    [ "npc_living_infernoAI", "d3/d9b/a16004.html", "d3/d9b/a16004" ],
+    [ "npc_living_inferno", "dc/d27/a16000.html#a7df2bb522e67b6f1864604c7b0182078", null ],
+    [ "GetAI", "dc/d27/a16000.html#a53f0bbd0a502374664cfa54140f4b8c0", null ]
 ];

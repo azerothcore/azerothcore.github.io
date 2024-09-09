@@ -1,5 +1,5 @@
 var a00131 =
 [
-    [ "Acore::EmoteChatBuilder", "d0/d7e/a09252.html", "d0/d7e/a09252" ],
+    [ "Acore::EmoteChatBuilder", "d4/de7/a09256.html", "d4/de7/a09256" ],
     [ "isNasty", "d7/d06/a00131.html#ae6092f307f09a5dcbbc5ed10c145032f", null ]
 ];

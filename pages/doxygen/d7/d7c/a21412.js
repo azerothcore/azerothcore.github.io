@@ -1,6 +1,8 @@
 var a21412 =
 [
-    [ "npc_azure_sorcerorAI", "d5/d86/a21416.html", "d5/d86/a21416" ],
-    [ "npc_azure_sorceror", "d7/d7c/a21412.html#ab81ec144680a37312b0a5e0110365a1a", null ],
-    [ "GetAI", "d7/d7c/a21412.html#a647ac2853586e380fdf0e0ffa43abaca", null ]
+    [ "npc_azure_captainAI", "d7/d7c/a21412.html#a15b1acc73108c6802dbf3ac2ed0734c9", null ],
+    [ "Reset", "d7/d7c/a21412.html#a13d25bf1612086cc4bb5bc2078105f18", null ],
+    [ "UpdateAI", "d7/d7c/a21412.html#ae50ac21138e12be43caa93e37062051e", null ],
+    [ "uiMortalStrikeTimer", "d7/d7c/a21412.html#a791a3ee9b67e72e1dcb392b9ebc2359a", null ],
+    [ "uiWhirlwindTimer", "d7/d7c/a21412.html#a2e3439976a6e84a60be765cb0b929798", null ]
 ];

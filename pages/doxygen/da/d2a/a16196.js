@@ -1,7 +1,6 @@
 var a16196 =
 [
-    [ "HandleEffectPeriodic", "da/d2a/a16196.html#ab31e19327817ea9d311e50e1aff05cc5", null ],
-    [ "PrepareAuraScript", "da/d2a/a16196.html#a60c5051d0f57dae074fe0dfea9890f64", null ],
-    [ "Register", "da/d2a/a16196.html#a7e143ce548143579547135243a241f6a", null ],
-    [ "Validate", "da/d2a/a16196.html#aeea29570486b923365015b98fb4e2d0f", null ]
+    [ "spell_gen_leeching_swarm_AuraScript", "da/df5/a16200.html", "da/df5/a16200" ],
+    [ "spell_gen_leeching_swarm", "da/d2a/a16196.html#a13eb1c202d4f253e9866f462e5c59ac1", null ],
+    [ "GetAuraScript", "da/d2a/a16196.html#a2c47410d2b61739f6f01ac8b2d2a0c9c", null ]
 ];

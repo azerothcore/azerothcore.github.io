@@ -1,8 +1,15 @@
 var a24024 =
 [
-    [ "npc_captain_saeedAI", "d4/d39/a24028.html", "d4/d39/a24028" ],
-    [ "npc_captain_saeed", "df/da4/a24024.html#a8a5bee9f908b10451b8d4720dff85670", null ],
-    [ "GetAI", "df/da4/a24024.html#aa6a232f6c2dd39483273cac41af9a7d7", null ],
-    [ "OnGossipHello", "df/da4/a24024.html#a7db9b76578743d4ee96b2c4f11dc265c", null ],
-    [ "OnGossipSelect", "df/da4/a24024.html#a8ace4d924b6f33312d914fb6ce1e0ea6", null ]
+    [ "npc_kurenai_captiveAI", "df/da4/a24024.html#ab8771e4c2cefe3d5dc3e07df2eeb7b96", null ],
+    [ "JustDied", "df/da4/a24024.html#a0778846d7d67f5d29ed3f7ef02f912f4", null ],
+    [ "JustEngagedWith", "df/da4/a24024.html#a9e36749629568d7917353bee51be08b8", null ],
+    [ "JustSummoned", "df/da4/a24024.html#a19a5190b72f78ee698d5fa2df6ac9b4b", null ],
+    [ "Reset", "df/da4/a24024.html#aea5af2579f9be13620f15b82b5cc8436", null ],
+    [ "SetGUID", "df/da4/a24024.html#a20edaf98031d7683d07b325c0b89ff69", null ],
+    [ "SpellHitTarget", "df/da4/a24024.html#a1f0cb1afc62b1b29a71cc04a21c456f0", null ],
+    [ "UpdateEscortAI", "df/da4/a24024.html#a3d0dfb0df190fe1b32cacb039e611dc3", null ],
+    [ "WaypointReached", "df/da4/a24024.html#a584bfc3a62f9d856e6d918d8f8694b3e", null ],
+    [ "ChainLightningTimer", "df/da4/a24024.html#a9aede5daebe0cf90ca2091a052c34282", null ],
+    [ "FrostShockTimer", "df/da4/a24024.html#a224c2df273f8d032e4302958879ce4d5", null ],
+    [ "HealTimer", "df/da4/a24024.html#a5a8d15bf6d2fd7a04818ba4535195922", null ]
 ];

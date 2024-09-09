@@ -1,6 +1,5 @@
 var a19208 =
 [
-    [ "boss_ormorokAI", "d2/df2/a19212.html", "d2/df2/a19212" ],
-    [ "boss_ormorok", "db/d3c/a19208.html#a0999bd2d1bcd5b27c6cba6293b48e7b3", null ],
-    [ "GetAI", "db/d3c/a19208.html#a1e3c4a03a2d44d085010da8f1621e2fb", null ]
+    [ "achievement_split_personality", "db/d3c/a19208.html#aac29ae7c321306a663e55493987af45d", null ],
+    [ "OnCheck", "db/d3c/a19208.html#ab5379f3c1191eeb747cb6762fc42ce01", null ]
 ];

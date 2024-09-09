@@ -1,8 +1,7 @@
 var a18796 =
 [
-    [ "HandleScript", "df/d47/a18796.html#ae0d16607f9eb3ff233513233bfb573ea", null ],
-    [ "HandleScript2", "df/d47/a18796.html#a3ff7d46323da70df6ad11ddfcaf6cfbb", null ],
-    [ "Load", "df/d47/a18796.html#ad41decc0a264104ca2232aef4e71cdaf", null ],
-    [ "PrepareSpellScript", "df/d47/a18796.html#a2d1dbae570206b358878020879708000", null ],
-    [ "Register", "df/d47/a18796.html#a7cf32445caa09f2a2b3c52f68f315ba5", null ]
+    [ "HandleGameObjectDamage", "df/d47/a18796.html#a811edfe01c1784664b5b4253d2305b4e", null ],
+    [ "PrepareSpellScript", "df/d47/a18796.html#a0cfedeba2a747777de292b8f30b6752b", null ],
+    [ "Register", "df/d47/a18796.html#a2d3b99dfe386777cf71ccb2ccac9f3a7", null ],
+    [ "Validate", "df/d47/a18796.html#ab74d5c88a910fe191b071db3ac2c0381", null ]
 ];

@@ -1,6 +1,6 @@
 var a13104 =
 [
-    [ "npc_kalecgos_kjAI", "d6/d65/a13108.html", "d6/d65/a13108" ],
-    [ "npc_kalecgos_kj", "db/df8/a13104.html#aa8c9e532e3980f94d316b60454799c63", null ],
-    [ "GetAI", "db/df8/a13104.html#af63f0d90581189f4850414ffdddd1ba4", null ]
+    [ "FixOrientation", "db/df8/a13104.html#ac4a9654d37a73f9d5ddc73ff90ce145b", null ],
+    [ "Execute", "db/df8/a13104.html#a7af72679731c9b86b9ae36d19d1621e5", null ],
+    [ "_owner", "db/df8/a13104.html#a5f12db3774bdeef25a300780c00db1fb", null ]
 ];

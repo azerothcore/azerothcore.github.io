@@ -1,6 +1,7 @@
 var a16532 =
 [
-    [ "HandleEffectApply", "df/d1d/a16532.html#aaea2c3733dadc19072c81774468e345a", null ],
-    [ "PrepareAuraScript", "df/d1d/a16532.html#a3848997e9f775add50d40342b6211ff0", null ],
-    [ "Register", "df/d1d/a16532.html#a775b1cf494049ed13d149ca6318142c3", null ]
+    [ "HandleScriptEffect", "df/d1d/a16532.html#a51064b3a11f453724ae0879c80eaf8df", null ],
+    [ "PrepareSpellScript", "df/d1d/a16532.html#aac26002ff107e609fb7258306b430f1b", null ],
+    [ "Register", "df/d1d/a16532.html#a0efef7644706940e3929ce99cd162c91", null ],
+    [ "Validate", "df/d1d/a16532.html#a7110d4136337d44aa0300ec82e5a6511", null ]
 ];

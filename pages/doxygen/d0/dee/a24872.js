@@ -1,6 +1,6 @@
 var a24872 =
 [
-    [ "HandleScriptEffect", "d0/dee/a24872.html#a142d6a512ba6e937985a9c21725d8d33", null ],
-    [ "PrepareSpellScript", "d0/dee/a24872.html#af46fd8adaf8fef92984376ad6aa4f9a2", null ],
-    [ "Register", "d0/dee/a24872.html#a9cbf1c0678bd0775a452aa3270dff6a0", null ]
+    [ "CheckLevel", "d0/dee/a24872.html#a9c0f4404275b274bd8af7be621eaa5b9", null ],
+    [ "PrepareSpellScript", "d0/dee/a24872.html#abc2bcce83810661ab462f56594066df3", null ],
+    [ "Register", "d0/dee/a24872.html#add6731563bd9a26d8f286bd29ffc8709", null ]
 ];

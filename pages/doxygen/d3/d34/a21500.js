@@ -1,10 +1,6 @@
 var a21500 =
 [
-    [ "npc_imprisoned_beryl_sorcererAI", "d3/d34/a21500.html#a0a8159a84689dbfd8c69ed523ce03817", null ],
-    [ "GotStinged", "d3/d34/a21500.html#a0729c584c3b65e5f25f4445de378f0ea", null ],
-    [ "JustEngagedWith", "d3/d34/a21500.html#a2f3e45b3f762ede62aa94a6ae3f2909f", null ],
-    [ "Reset", "d3/d34/a21500.html#aedc82ee3bfa193a838d5af62533e19b4", null ],
-    [ "SpellHit", "d3/d34/a21500.html#a2010b53b3a8ad1e0aa6ecb5a26c8b6c9", null ],
-    [ "UpdateAI", "d3/d34/a21500.html#a21def23073eeec051c1c97a813e0ea84", null ],
-    [ "rebuff", "d3/d34/a21500.html#ac83c25091fdd3c7876a88927b758261f", null ]
+    [ "npc_imprisoned_beryl_sorcererAI", "dc/d40/a21504.html", "dc/d40/a21504" ],
+    [ "npc_imprisoned_beryl_sorcerer", "d3/d34/a21500.html#a6317eb89406cf6b99f63ecfa7f9999d1", null ],
+    [ "GetAI", "d3/d34/a21500.html#aedb301f6da8460f3ed1d81d4b5f2f63c", null ]
 ];

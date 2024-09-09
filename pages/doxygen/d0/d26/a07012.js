@@ -1,15 +1,14 @@
 var a07012 =
 [
-    [ "ModifyMatchmakerRating", "d0/d26/a07012.html#aaa6de888c3f85ef8cbe9baa2f997aba1", null ],
-    [ "ModifyPersonalRating", "d0/d26/a07012.html#a34401ea82507df97e540c698fa549b5f", null ],
-    [ "Class", "d0/d26/a07012.html#a5f6519e8ad3281a09608f8740927fbd3", null ],
-    [ "Guid", "d0/d26/a07012.html#ac0dc6765247a0f36b3d3ff527a678010", null ],
-    [ "MatchMakerRating", "d0/d26/a07012.html#ac91a344c7aecb72d17841413f5d935da", null ],
-    [ "MaxMMR", "d0/d26/a07012.html#afc86e111a1c699254c5ea761d0dda088", null ],
-    [ "Name", "d0/d26/a07012.html#a7917e705d8c15bbe2731c32375c34d16", null ],
-    [ "PersonalRating", "d0/d26/a07012.html#a03168b1bdc8e6dac30d3b63e692ce854", null ],
-    [ "SeasonGames", "d0/d26/a07012.html#ae3724b7268c161d5553b8cc1fae2cf75", null ],
-    [ "SeasonWins", "d0/d26/a07012.html#a7239187cef3a02839fe27577ad022ec9", null ],
-    [ "WeekGames", "d0/d26/a07012.html#a97906127f7eb1babe2bf2ebcda7c0a88", null ],
-    [ "WeekWins", "d0/d26/a07012.html#a5b9e5e02d59569080d34abd9b9728693", null ]
+    [ "ArenaTeamScore", "d0/d26/a07012.html#a017cd1a4d90a466b42aeab8ff1a12f3a", null ],
+    [ "~ArenaTeamScore", "d0/d26/a07012.html#ade081f31c498ee03a80f73fe70a56cc7", null ],
+    [ "Assign", "d0/d26/a07012.html#a28c3a055e1ad69693470f38fe676f0c6", null ],
+    [ "BuildRatingInfoBlock", "d0/d26/a07012.html#ae3e2b8e8a29c50ca20a42a0364349764", null ],
+    [ "BuildTeamInfoBlock", "d0/d26/a07012.html#aa876e0cf0b36f8fdb9efe8989092f143", null ],
+    [ "Reset", "d0/d26/a07012.html#a90611fd5e656d2d62917003ff0a5ff00", null ],
+    [ "Arena", "d0/d26/a07012.html#a5f488c25aa439166d145713c67e7d085", null ],
+    [ "Battleground", "d0/d26/a07012.html#a0c4048053f5f5cabe5bfbfdde8eded86", null ],
+    [ "MatchmakerRating", "d0/d26/a07012.html#a1e82169562a459371f973932d22e2f15", null ],
+    [ "RatingChange", "d0/d26/a07012.html#a61c85f158b767a6c81de87d7ad5007db", null ],
+    [ "TeamName", "d0/d26/a07012.html#ab99de3b9213f3ccab1791858df6aa3e8", null ]
 ];

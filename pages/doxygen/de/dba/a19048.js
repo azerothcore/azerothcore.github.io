@@ -1,6 +1,5 @@
 var a19048 =
 [
-    [ "instance_naxxramas_InstanceMapScript", "d6/d98/a19052.html", "d6/d98/a19052" ],
-    [ "instance_naxxramas", "de/dba/a19048.html#a9d4b57f9f0f7a44565bb8d9bd3aa24a1", null ],
-    [ "GetInstanceScript", "de/dba/a19048.html#ac5dd8d591af2239faab17727eb1ef66e", null ]
+    [ "at_thaddius_entrance", "de/dba/a19048.html#ad81a60cac337baad82ea526de1d151d1", null ],
+    [ "OnTrigger", "de/dba/a19048.html#af8635a58d4da0421b72b4451c1ebafc5", null ]
 ];

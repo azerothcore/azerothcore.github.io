@@ -1,12 +1,6 @@
 var a14524 =
 [
-    [ "boss_epochAI", "de/dab/a14524.html#a2986db39b7db92b1fa9d64cef5f8c08b", null ],
-    [ "JustDied", "de/dab/a14524.html#a780aa5bc86c80aaeeffad441b2873121", null ],
-    [ "JustEngagedWith", "de/dab/a14524.html#ae742dceac5979faebb58a133e9bd91f0", null ],
-    [ "KilledUnit", "de/dab/a14524.html#af41946feab7b86d812f706bd7abbf1bd", null ],
-    [ "Reset", "de/dab/a14524.html#a98cf5d8aded78694117af64ccdb6cd83", null ],
-    [ "SpellHitTarget", "de/dab/a14524.html#ab87dfcf635a65b02be29186d2990fef3", null ],
-    [ "UpdateAI", "de/dab/a14524.html#a651b11c4cc5f92881b4dd5b7f22c9d85", null ],
-    [ "events", "de/dab/a14524.html#af0c1477b3d9fb48cfcf55f32e21591f4", null ],
-    [ "warps", "de/dab/a14524.html#a478113af1ce565c729604c6039f55551", null ]
+    [ "boss_epochAI", "da/dde/a14528.html", "da/dde/a14528" ],
+    [ "boss_epoch", "de/dab/a14524.html#a78b7d775bc3fc44496e41c58f2ed534d", null ],
+    [ "GetAI", "de/dab/a14524.html#a2673a4fb8c70d62009dfdc6daf23aee2", null ]
 ];

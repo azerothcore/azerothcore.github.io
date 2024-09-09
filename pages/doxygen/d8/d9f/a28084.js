@@ -1,6 +1,10 @@
 var a28084 =
 [
-    [ "Enchantment", "d8/d9f/a28084.html#a480ab806214bb138d56dfd5e9e43936f", null ],
-    [ "ID", "d8/d9f/a28084.html#acb673be771124b84dd3fdd5deb300de7", null ],
-    [ "Name", "d8/d9f/a28084.html#a3ad3a1b693922ff8264d90232abb3e35", null ]
+    [ "ID", "d8/d9f/a28084.html#a906c42770a619884f08b67e2870bff93", null ],
+    [ "reqarenapoints", "d8/d9f/a28084.html#a5d45007a832d6120e29c7821c07646de", null ],
+    [ "reqarenaslot", "d8/d9f/a28084.html#ad1e4b8f94a743bac02bbadbc8d62ad0b", null ],
+    [ "reqhonorpoints", "d8/d9f/a28084.html#aca509fb7e234bc54632ff988bf37e6ad", null ],
+    [ "reqitem", "d8/d9f/a28084.html#a9cba8872c909260a55dcfdf7f4726899", null ],
+    [ "reqitemcount", "d8/d9f/a28084.html#a615c5fe0966b5054303ebe1290adc9b6", null ],
+    [ "reqpersonalarenarating", "d8/d9f/a28084.html#af4ff8d55234b03637e4b2fbd10778e97", null ]
 ];

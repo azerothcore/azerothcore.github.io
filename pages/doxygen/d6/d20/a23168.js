@@ -1,9 +1,6 @@
 var a23168 =
 [
-    [ "FilterTargets", "d6/d20/a23168.html#a9049c113d65b15a9a8e1143980a84b23", null ],
-    [ "HandleDummy", "d6/d20/a23168.html#a21fd59ba177fd7b04eb1fcafe869f33a", null ],
-    [ "Load", "d6/d20/a23168.html#a8cad82701e0147e14f826243175e1c32", null ],
-    [ "PrepareSpellScript", "d6/d20/a23168.html#aa05839a8dd785a2472e8e5f3a9fc58b0", null ],
-    [ "Register", "d6/d20/a23168.html#a0e7e246c322b89c3b6ee08797984f7e6", null ],
-    [ "_targetNumber", "d6/d20/a23168.html#a34f80edf782ade371e7a6fc908b47b4f", null ]
+    [ "FilterTargets", "d6/d20/a23168.html#af545460920658bc8ee0444f7c0d51970", null ],
+    [ "PrepareSpellScript", "d6/d20/a23168.html#a0bf365a43b99905fb7ae8152fe5b2687", null ],
+    [ "Register", "d6/d20/a23168.html#ac12cde698f5b0bbcdf433821772c7519", null ]
 ];

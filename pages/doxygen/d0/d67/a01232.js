@@ -1,6 +1,6 @@
 var a01232 =
 [
-    [ "DatabaseScript", "dc/d12/a09984.html", "dc/d12/a09984" ],
+    [ "DatabaseScript", "de/dee/a09988.html", "de/dee/a09988" ],
     [ "DatabaseHook", "d0/d67/a01232.html#a5f7dd71299279ad5a845d4d4030e707e", [
       [ "DATABASEHOOK_ON_AFTER_DATABASES_LOADED", "d0/d67/a01232.html#a5f7dd71299279ad5a845d4d4030e707ea669793dd5bb736daf7bf4e7a57422171", null ],
       [ "DATABASEHOOK_ON_AFTER_DATABASE_LOAD_CREATURETEMPLATES", "d0/d67/a01232.html#a5f7dd71299279ad5a845d4d4030e707ea5da0ac4b05308347ca9a69286153d974", null ],

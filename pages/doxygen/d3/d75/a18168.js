@@ -1,6 +1,6 @@
 var a18168 =
 [
-    [ "ModDest", "d3/d75/a18168.html#a71638bdecb0f580dceff7858441056d8", null ],
-    [ "PrepareSpellScript", "d3/d75/a18168.html#a741227928e07585b156ec716ae8b13da", null ],
-    [ "Register", "d3/d75/a18168.html#a19221c8453f23a7d384f6a2cb24c2fc2", null ]
+    [ "ModDestHeight", "d3/d75/a18168.html#acd31e130e72cd93bee3544ecd2dc38ad", null ],
+    [ "PrepareSpellScript", "d3/d75/a18168.html#a288f8917d73be30234e465778b1f6544", null ],
+    [ "Register", "d3/d75/a18168.html#a69f9cdbfc33ec39f629f08f20484b29e", null ]
 ];

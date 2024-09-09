@@ -1,5 +1,6 @@
 var a18576 =
 [
-    [ "at_icc_saurfang_portal", "d0/dd1/a18576.html#a7f30058251c520634a0b7bad08380e5d", null ],
-    [ "OnTrigger", "d0/dd1/a18576.html#a8980fe0e67aa33335f0fdb947a294213", null ]
+    [ "PrepareSpellScript", "d0/dd1/a18576.html#aac12da39c503615036120e3e0cd55622", null ],
+    [ "Register", "d0/dd1/a18576.html#a808d2283be9714c14f22a2df0a52dd61", null ],
+    [ "RelocateDest", "d0/dd1/a18576.html#a843c9dc403404ddd2de667e57e01f00c", null ]
 ];

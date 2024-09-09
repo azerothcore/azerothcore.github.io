@@ -1,6 +1,7 @@
 var a26228 =
 [
-    [ "HandleScript", "d0/dee/a26228.html#ae81570045d4984ee5682a0333b1b142d", null ],
-    [ "PrepareSpellScript", "d0/dee/a26228.html#acb074781e07961998362349a7616fc4e", null ],
-    [ "Register", "d0/dee/a26228.html#aaf41593da5ebb1118ccb10a5d4d32b26", null ]
+    [ "CheckTarget", "d0/dee/a26228.html#abaef73201d2e0bd1d6789309442019e0", null ],
+    [ "HandleScriptEffect", "d0/dee/a26228.html#a545196cd976bfabbd85ba48942012e1e", null ],
+    [ "PrepareSpellScript", "d0/dee/a26228.html#add5c1ecaa5a75af6e91a0df5d63bbc42", null ],
+    [ "Register", "d0/dee/a26228.html#a36563a197b7377660b7c3f9e85d478bd", null ]
 ];

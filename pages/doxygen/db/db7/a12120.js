@@ -1,6 +1,7 @@
 var a12120 =
 [
-    [ "HandleHit", "db/db7/a12120.html#a5245f935c0cafd14e492214a51d85ad3", null ],
-    [ "PrepareSpellScript", "db/db7/a12120.html#a074b9e23de0a9b24776c7e361791c6ff", null ],
-    [ "Register", "db/db7/a12120.html#a12f7db2345ce0d19a18791a2e63e7450", null ]
+    [ "HandlePeriodic", "db/db7/a12120.html#a5651e7ecab22d2286f85e56b8eccc003", null ],
+    [ "PrepareAuraScript", "db/db7/a12120.html#a5dca8e116c05d11961cbd7995314441e", null ],
+    [ "Register", "db/db7/a12120.html#a5972e66a8c05c5ae64e6666d0f35cb6e", null ],
+    [ "Validate", "db/db7/a12120.html#a689b93dcf39828f507ef2b7f72d1ca01", null ]
 ];

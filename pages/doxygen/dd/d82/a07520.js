@@ -1,7 +1,8 @@
 var a07520 =
 [
-    [ "StoreTo", "dd/d82/a07520.html#a1f368b832f95ce4acc6ed47ad4ca2e8d", null ],
-    [ "StoreTo", "dd/d82/a07520.html#a3d9382dd50447477f9f04bc0f055e55c", null ],
-    [ "StoreTo", "dd/d82/a07520.html#a071922c9c431637de3cb2d6b52def7bd", null ],
-    [ "StoreTo", "dd/d82/a07520.html#a45556cc3ac64a6692ef08d6d93d48a4d", null ]
+    [ "CurValue", "dd/d82/a07520.html#a110169c51e3dac271b4ba6d10bbbadac", null ],
+    [ "KnownRecipes", "dd/d82/a07520.html#a1a44c7eb6dbf3a16e8d2db47821bb39a", null ],
+    [ "MaxValue", "dd/d82/a07520.html#a6c48d3a6afddf895b97ec9b964dfd86c", null ],
+    [ "Owner", "dd/d82/a07520.html#a085e0aa9f79129920af96046c4fc29b1", null ],
+    [ "Spell", "dd/d82/a07520.html#a2b0ca4fecc7ba965a329afa6a184cf07", null ]
 ];

@@ -1,9 +1,8 @@
 var a13708 =
 [
-    [ "go", "de/d69/a13708.html#ac14168f8c25efe7fa22ec802259b3a11", null ],
-    [ "npc", "de/d69/a13708.html#a04d6e67fa2fb208ca747798ccc53083d", null ],
-    [ "o", "de/d69/a13708.html#ad373b4889544b05525959b21e33e1a87", null ],
-    [ "x", "de/d69/a13708.html#a62ded7186ff0a2718d7f32084e6687e0", null ],
-    [ "y", "de/d69/a13708.html#ac4dbf51ebefdd80ef537ff0ec4297123", null ],
-    [ "z", "de/d69/a13708.html#aa4c6c3ef78633083bd33a13f7a7ace77", null ]
+    [ "npc_zuljin_vortexAI", "de/d69/a13708.html#ad0bcdf626133ed7ddebf86b95859ad53", null ],
+    [ "JustEngagedWith", "de/d69/a13708.html#a6f1a84b5795680728448bda61fa52c73", null ],
+    [ "Reset", "de/d69/a13708.html#aeae059a3c4a55e30bde641092d7d49d6", null ],
+    [ "SpellHit", "de/d69/a13708.html#a4bc620e49448383990efd392fcf60714", null ],
+    [ "UpdateAI", "de/d69/a13708.html#acb20f40de5d099f8bb28a5eb8f7f09dd", null ]
 ];

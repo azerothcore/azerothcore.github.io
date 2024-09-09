@@ -1,8 +1,8 @@
 var a10740 =
 [
-    [ "SkillPerfectItemEntry", "de/de9/a10740.html#a683f3c6f5e9c5ef2a0f0fa09d546d2a3", null ],
-    [ "SkillPerfectItemEntry", "de/de9/a10740.html#a678f9908440187faad38c0e1ffaf82de", null ],
-    [ "perfectCreateChance", "de/de9/a10740.html#a750d5ab6bc3df0026e640f1c84de8547", null ],
-    [ "perfectItemType", "de/de9/a10740.html#a057605f8867d4df5cb290318598a2908", null ],
-    [ "requiredSpecialization", "de/de9/a10740.html#aa7ad968ab1b8804ee8f0f8f40bc6f762", null ]
+    [ "SkillDiscoveryEntry", "de/de9/a10740.html#a54c0f12153c6e63a37e5da44d233b271", null ],
+    [ "SkillDiscoveryEntry", "de/de9/a10740.html#a301cae078fe1943cae045e94dc3d38ad", null ],
+    [ "chance", "de/de9/a10740.html#a71cf2c48937e5a2a3c6dd8c499a860a7", null ],
+    [ "reqSkillValue", "de/de9/a10740.html#a61e0edc8fee1fa4045d846668d08449c", null ],
+    [ "spellId", "de/de9/a10740.html#a75ca40729917317173b2953c8f47f833", null ]
 ];

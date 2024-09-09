@@ -1,15 +1,11 @@
 var a22624 =
 [
-    [ "boss_grandmaster_vorpil", "d6/d38/a22624.html#a0196ae46acba9c640b6fdfe30ac63f31", null ],
-    [ "counterVoidSpawns", "d6/d38/a22624.html#a7a7c5679fe784025423119dd31d0e6ef", null ],
-    [ "JustDied", "d6/d38/a22624.html#ab492fff8a9a275c662b44eeff3300b90", null ],
-    [ "JustEngagedWith", "d6/d38/a22624.html#af1e6da02cd33742efad568424cf32c4f", null ],
-    [ "JustSummoned", "d6/d38/a22624.html#a8a661b495d7fca340f3bd291d34ab3fc", null ],
-    [ "KilledUnit", "d6/d38/a22624.html#af7779029f926e6d1c805b2f6c78cfd06", null ],
-    [ "MoveInLineOfSight", "d6/d38/a22624.html#adb24a3d337b64f37759a3a39802d7e27", null ],
-    [ "Reset", "d6/d38/a22624.html#a6471121ee02a834591b36d03fae28672", null ],
-    [ "spawnVoidTraveler", "d6/d38/a22624.html#aa842bc3d88d0a3a411dcba3711809956", null ],
-    [ "summonPortals", "d6/d38/a22624.html#a7cbdb7e7652dcac799b6f59424c8e9fd", null ],
-    [ "sayHelp", "d6/d38/a22624.html#a3c83e1f9305fc17aebb4ec5f16225e17", null ],
-    [ "sayIntro", "d6/d38/a22624.html#a5dd0edce19b33a1dd87d5b6e4458949f", null ]
+    [ "boss_blackheart_the_inciter", "d6/d38/a22624.html#a772b2b4574fa6ccd445924193985859b", null ],
+    [ "EnterEvadeMode", "d6/d38/a22624.html#aaf2c9d37b0af1db1d35af01923eca45b", null ],
+    [ "JustDied", "d6/d38/a22624.html#a1e7ca1ade637766d4c6039c50e9c85f7", null ],
+    [ "JustEngagedWith", "d6/d38/a22624.html#abeb0cc4ff2543531f7a7c7993559f1cb", null ],
+    [ "KilledUnit", "d6/d38/a22624.html#ad7de71ea14e5be6e2b126edde1c78ab6", null ],
+    [ "Reset", "d6/d38/a22624.html#add75633d1c04d0be91e7e80f28213917", null ],
+    [ "UpdateAI", "d6/d38/a22624.html#a0648c4bbabf30efd706b973bf8028dbb", null ],
+    [ "InciteChaos", "d6/d38/a22624.html#a640c5301b22a0bfef2c4bcac4556a992", null ]
 ];

@@ -1,6 +1,8 @@
 var a09612 =
 [
-    [ "sourceObjectDestroyLink", "dd/d3d/a09612.html#a575a5bac090f5bc5b3f2a721aa64ef42", null ],
-    [ "targetObjectBuildLink", "dd/d3d/a09612.html#abf8c86604c3ef4349567c736090402f6", null ],
-    [ "targetObjectDestroyLink", "dd/d3d/a09612.html#a5cb0bab8be8116b9a489a4922c44c5c8", null ]
+    [ "GetMotd", "dd/d3d/a09612.html#ad84d4ce9d38011c75e20ea6db6160ff7", null ],
+    [ "GetMotdPacket", "dd/d3d/a09612.html#a26277b53365c91187d78d2590e4ac6a5", null ],
+    [ "instance", "dd/d3d/a09612.html#a0eac0994f742f9a5cbd912abc308d1a7", null ],
+    [ "LoadMotd", "dd/d3d/a09612.html#a1a6ce19decdaf6cd778cf331bdc0c1ef", null ],
+    [ "SetMotd", "dd/d3d/a09612.html#af1f2bdf2b8e79e195d65d06b8764aecc", null ]
 ];

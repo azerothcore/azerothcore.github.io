@@ -1,7 +1,7 @@
 var a24240 =
 [
-    [ "HandleSendEvent", "d9/dce/a24240.html#a8b32db78a3b4d5a01be230968fda3a8d", null ],
-    [ "PrepareSpellScript", "d9/dce/a24240.html#a0adf10b63735dbdf1cb3d49c73f7da1d", null ],
-    [ "Register", "d9/dce/a24240.html#ad6aedfed88d4a921122fdc7a8b501f0e", null ],
-    [ "Validate", "d9/dce/a24240.html#a9b72b16ac81c53aaa7936640e5149e6c", null ]
+    [ "HandleEffectRemove", "d9/dce/a24240.html#a317c238b165ad331beb447ea5d0de7e1", null ],
+    [ "PrepareAuraScript", "d9/dce/a24240.html#a7481f017a1382eb75e0101cb49fb4fcf", null ],
+    [ "Register", "d9/dce/a24240.html#a13fdde1557249328306a57e159d821a7", null ],
+    [ "Validate", "d9/dce/a24240.html#a58a383bd4e3062a5c5b1df97192b4b7e", null ]
 ];

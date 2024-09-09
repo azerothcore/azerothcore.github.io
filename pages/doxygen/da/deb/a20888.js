@@ -1,6 +1,6 @@
 var a20888 =
 [
-    [ "achievement_yogg_saron_he_waits_dreaming", "da/deb/a20888.html#a25f4950d1ccffe77aa9cf5de7a14ea37", null ],
-    [ "OnCheck", "da/deb/a20888.html#a7ef7dfb0235fb2db5932e7415e3e6f61", null ],
-    [ "_requiredIllusion", "da/deb/a20888.html#aa3e107cb3be6fa02687709e07466a094", null ]
+    [ "achievement_yogg_saron_darkness", "da/deb/a20888.html#a536c7156305d47c41a062d3c1a1b16eb", null ],
+    [ "OnCheck", "da/deb/a20888.html#a809902fca87abaeb4334132763624ed6", null ],
+    [ "_keepersCount", "da/deb/a20888.html#a765ec4606bb489760ed1e15db10de1dc", null ]
 ];

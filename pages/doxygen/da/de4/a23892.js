@@ -1,6 +1,6 @@
 var a23892 =
 [
-    [ "npc_deaths_fel_cannonAI", "d6/d90/a23896.html", "d6/d90/a23896" ],
-    [ "npc_deaths_fel_cannon", "da/de4/a23892.html#a87ecaca75061928600b5114d3913dd26", null ],
-    [ "GetAI", "da/de4/a23892.html#a4cf91cd1f28637f359e06bccd30e0338", null ]
+    [ "npc_deaths_door_fell_cannon_target_bunnyAI", "d6/d90/a23896.html", "d6/d90/a23896" ],
+    [ "npc_deaths_door_fell_cannon_target_bunny", "da/de4/a23892.html#a1385e50777282fae0c8f8ca2f9f8a3e6", null ],
+    [ "GetAI", "da/de4/a23892.html#a250707096229da28024960beeb7725bf", null ]
 ];

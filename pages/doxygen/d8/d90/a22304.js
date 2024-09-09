@@ -1,7 +1,6 @@
 var a22304 =
 [
-    [ "npc_wg_siege_machineAI", "d8/d90/a22304.html#aaeca9e73520701ce28f2cc9d1483cc6b", null ],
-    [ "CanControlVehicle", "d8/d90/a22304.html#a7ce79406da48e245a0baa2fdd23622b9", null ],
-    [ "UpdateAI", "d8/d90/a22304.html#a8ddd21047a857facc767a9edc0ec5408", null ],
-    [ "checkTimer", "d8/d90/a22304.html#abf4b06eae50adeefedba02e2186ea48a", null ]
+    [ "npc_wg_siege_machineAI", "d0/da2/a22308.html", "d0/da2/a22308" ],
+    [ "npc_wg_siege_machine", "d8/d90/a22304.html#a23dc1bbeaa396cad781ec177881e7d2a", null ],
+    [ "GetAI", "d8/d90/a22304.html#ae8b2a71378565ad5428f1ae582cacca1", null ]
 ];

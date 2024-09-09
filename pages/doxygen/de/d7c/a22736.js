@@ -1,8 +1,7 @@
 var a22736 =
 [
-    [ "HandleScriptEffect", "de/d7c/a22736.html#a8e5b81581fff787f691521d03fed66fc", null ],
-    [ "Load", "de/d7c/a22736.html#a8a74f3c6776f2613a6b2c63387d962e2", null ],
-    [ "PrepareSpellScript", "de/d7c/a22736.html#a5dfe415b9c990e83b9e6c1ee06a33692", null ],
-    [ "Register", "de/d7c/a22736.html#a5839b0e282fb2848c328cfaaca2c752f", null ],
-    [ "Validate", "de/d7c/a22736.html#a8c1ee55a1122c62056250b3fa09357a8", null ]
+    [ "HandleScriptEffect", "de/d7c/a22736.html#a16f131e42272bc75c99df2a9cf43470e", null ],
+    [ "PrepareSpellScript", "de/d7c/a22736.html#a510e80ef85ae3057e30c7c710aaf187b", null ],
+    [ "Register", "de/d7c/a22736.html#ae26ff6be3b2d4a1975ace3734603ab41", null ],
+    [ "Validate", "de/d7c/a22736.html#a58ff628906f3077a354ed486d3c56d23", null ]
 ];

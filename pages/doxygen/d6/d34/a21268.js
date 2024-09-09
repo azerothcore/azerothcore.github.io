@@ -1,6 +1,10 @@
 var a21268 =
 [
-    [ "boss_ichoronAI", "dc/d59/a21272.html", "dc/d59/a21272" ],
-    [ "boss_ichoron", "d6/d34/a21268.html#ad4390da77a130edaf050d0bef3926882", null ],
-    [ "GetAI", "d6/d34/a21268.html#a68051088dc2d2c738b042e2df0436b28", null ]
+    [ "npc_erekem_guardAI", "d6/d34/a21268.html#a1ce40b70a35fc76e6ac0af449b7f4ded", null ],
+    [ "JustEngagedWith", "d6/d34/a21268.html#a93819c5c76821b1c9559be55359d677e", null ],
+    [ "MoveInLineOfSight", "d6/d34/a21268.html#aa1140892c13f4c070b1f3f1bf2230bb5", null ],
+    [ "Reset", "d6/d34/a21268.html#a079be6dd45e96184d66e95f031dc9c5f", null ],
+    [ "UpdateAI", "d6/d34/a21268.html#ab2c55e384f624b0f671e42e381aa3a37", null ],
+    [ "events", "d6/d34/a21268.html#a15afc8dd6d6e15fcd1a632728ad8d16e", null ],
+    [ "pInstance", "d6/d34/a21268.html#a81985b8522111f2aae540353cd5641fe", null ]
 ];

@@ -1,6 +1,6 @@
 var a16564 =
 [
-    [ "boss_trollgoreAI", "d3/d38/a16568.html", "d3/d38/a16568" ],
-    [ "boss_trollgore", "db/d22/a16564.html#a95102f1fae6c667e0780b8b388fc156b", null ],
-    [ "GetAI", "db/d22/a16564.html#a6da1349da296a3dc3d29527a8e3c2b7d", null ]
+    [ "HandleScript", "db/d22/a16564.html#a4786e0c38f03f7e671174d0641526681", null ],
+    [ "PrepareSpellScript", "db/d22/a16564.html#a7d260468f409a7fb41a39f80db5f9d63", null ],
+    [ "Register", "db/d22/a16564.html#a943117bfb56b846e99d04bd9a348af8d", null ]
 ];

@@ -1,9 +1,6 @@
 var a17376 =
 [
-    [ "BattleExperienceEvent", "db/d58/a17376.html#a3091b403089533ce2ebbb40fa38f28c9", null ],
-    [ "Execute", "db/d58/a17376.html#a3971962ec90f682baeae96fe6098fa97", null ],
-    [ "_creature", "db/d58/a17376.html#a0155536d5c2be329a1f3b57c4d852098", null ],
-    [ "_level", "db/d58/a17376.html#a22f0d7e59f579362be4576180d0977b8", null ],
-    [ "ExperiencedSpells", "db/d58/a17376.html#a5e2e06a386059ba2d9aff676648fa56b", null ],
-    [ "ExperiencedTimes", "db/d58/a17376.html#a4daf5818472ebe7c8d3938e2189d8e02", null ]
+    [ "Cooldown", "db/d58/a17376.html#ac2f21814be8269023a2069f3eb03dfe2", null ],
+    [ "Entry", "db/d58/a17376.html#a28ff8bdab669f7b4aec95857cc460a2f", null ],
+    [ "TargetPosition", "db/d58/a17376.html#ac47af49622012b4ad40357cadc5214b3", null ]
 ];

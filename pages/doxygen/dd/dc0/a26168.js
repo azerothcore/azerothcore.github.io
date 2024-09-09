@@ -1,6 +1,6 @@
 var a26168 =
 [
-    [ "HandleDummyEffect", "dd/dc0/a26168.html#ad5421ca3dd5bf802952f98e6d1170003", null ],
-    [ "PrepareSpellScript", "dd/dc0/a26168.html#a9489556e1e16cd2e0d5c43b38d7ea5ee", null ],
-    [ "Register", "dd/dc0/a26168.html#a2ad2c00807d07aeb55a8fd848a69f9d1", null ]
+    [ "CheckCast", "dd/dc0/a26168.html#ada9b1c9e159956cb2a79610dbdb3eaf9", null ],
+    [ "PrepareSpellScript", "dd/dc0/a26168.html#aa9cc041f2e0dae1eb322713d4f140ce8", null ],
+    [ "Register", "dd/dc0/a26168.html#a5f0b69ffebb256d5ee2c0f9d4615c4e6", null ]
 ];

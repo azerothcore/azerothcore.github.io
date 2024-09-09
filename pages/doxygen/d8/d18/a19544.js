@@ -1,6 +1,6 @@
 var a19544 =
 [
-    [ "HandleEffectRemove", "d8/d18/a19544.html#a529d6d96d7f7a682646ac76d2738afad", null ],
-    [ "PrepareAuraScript", "d8/d18/a19544.html#ad32012414b24efa48db05cba2d8e86f2", null ],
-    [ "Register", "d8/d18/a19544.html#aa38b273ed6e9482c8c2fca712ea5b459", null ]
+    [ "spell_hos_dark_matter_AuraScript", "db/db7/a19548.html", "db/db7/a19548" ],
+    [ "spell_hos_dark_matter", "d8/d18/a19544.html#af170db9adc5adb20f8d6a3e95cd60124", null ],
+    [ "GetAuraScript", "d8/d18/a19544.html#a2277580897f7533440713157d9cd863f", null ]
 ];

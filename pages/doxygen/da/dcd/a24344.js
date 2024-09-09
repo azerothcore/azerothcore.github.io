@@ -1,8 +1,7 @@
 var a24344 =
 [
-    [ "npc_pet_gen_valkyr_guardian", "da/dcd/a24344.html#a546f0b0b4273de8216e9f688c2d68209", null ],
-    [ "InitializeAI", "da/dcd/a24344.html#ac32c8bb1e1014015a0ab92417bbc78a9", null ],
-    [ "OwnerAttacked", "da/dcd/a24344.html#a7f0bcedd78d88cdc802ba66c0ff7d927", null ],
-    [ "UpdateAI", "da/dcd/a24344.html#a9a5a233763365c6cca5618459a23a816", null ],
-    [ "targetCheck", "da/dcd/a24344.html#aa530b6b6415c85cd76f44d625329c2fb", null ]
+    [ "npc_pet_gen_target_following_bomb", "da/dcd/a24344.html#a447c2cd258d784ca1d79c79412a1a426", null ],
+    [ "UpdateAI", "da/dcd/a24344.html#ac68f18d68a313623c04e885f9506f287", null ],
+    [ "bombSpellId", "da/dcd/a24344.html#a3c72bd26c66d3e7a85f3152557e399c4", null ],
+    [ "checkTimer", "da/dcd/a24344.html#a694ee5f884f1bd404f0ef3d3030a212f", null ]
 ];

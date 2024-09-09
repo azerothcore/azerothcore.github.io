@@ -1,5 +1,6 @@
 var a27096 =
 [
-    [ "go_arena_ready_marker", "da/d34/a27096.html#a614ee8efff31d928a9f4547d60b6a6a6", null ],
-    [ "OnGossipHello", "da/d34/a27096.html#a9f51ead2b56d51427ff23be9688388d8", null ]
+    [ "go_witherbark_totem_bundleAI", "db/d9a/a27100.html", "db/d9a/a27100" ],
+    [ "go_witherbark_totem_bundle", "da/d34/a27096.html#affcdff7ec6894add0acec842028efd2e", null ],
+    [ "GetAI", "da/d34/a27096.html#a5ac2b3b572d67fdcc587f242f3d50f97", null ]
 ];

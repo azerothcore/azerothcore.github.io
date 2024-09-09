@@ -1,6 +1,6 @@
 var a24304 =
 [
-    [ "npc_pet_dk_army_of_the_deadAI", "d2/dbf/a24308.html", "d2/dbf/a24308" ],
-    [ "npc_pet_dk_army_of_the_dead", "d8/d25/a24304.html#a0029b9a6bf26ac3419e580d437a0139f", null ],
-    [ "GetAI", "d8/d25/a24304.html#a1883936b7f2905f67d3750faa8caf635", null ]
+    [ "npc_pet_dk_risen_allyAI", "d2/dbf/a24308.html", "d2/dbf/a24308" ],
+    [ "npc_pet_dk_risen_ally", "d8/d25/a24304.html#a2f568fd9062b2423edcf0ab4e749efc3", null ],
+    [ "GetAI", "d8/d25/a24304.html#a7aca5d410a1a28241943914a0d1c71df", null ]
 ];

@@ -1,6 +1,13 @@
 var a24800 =
 [
-    [ "PrepareSpellScript", "d6/d50/a24800.html#acfa320b33c00883a78c3696bbbeb7eb0", null ],
-    [ "Register", "d6/d50/a24800.html#a6d251ba1e88d4349dcffa96978389a7f", null ],
-    [ "SelectTarget", "d6/d50/a24800.html#a0d95f8ad8d05d2c0b100dc10988d00c9", null ]
+    [ "CalcPeriodic", "d6/d50/a24800.html#a08dca1818a687bb5862779e261dafb00", null ],
+    [ "CalculateExpertiseAmount", "d6/d50/a24800.html#a44703f4a1c5cfb74083bf74d7b77c23c", null ],
+    [ "CalculateHitAmount", "d6/d50/a24800.html#af6e9dda7381a80d4de93c1a7402a2e2b", null ],
+    [ "CalculateSpellHitAmount", "d6/d50/a24800.html#ab31dfffdf449c1eef74c2bcd43469109", null ],
+    [ "HandleEffectApply", "d6/d50/a24800.html#a6ba389f156263462f5e80e3a9fb6f62e", null ],
+    [ "HandlePeriodic", "d6/d50/a24800.html#ac97a33580dc873af7b580d4fdf7ed9f6", null ],
+    [ "PrepareAuraScript", "d6/d50/a24800.html#ad9aeb68e7d512f55f38f5a64d1d80f7f", null ],
+    [ "Register", "d6/d50/a24800.html#a803e26c6a4c06feedd80a4d94452aca5", null ],
+    [ "cap", "d6/d50/a24800.html#a9c3e35d01ad863d146566efe7cca2637", null ],
+    [ "maxChance", "d6/d50/a24800.html#a34933c7fe8b570214c821347f4ba974b", null ]
 ];

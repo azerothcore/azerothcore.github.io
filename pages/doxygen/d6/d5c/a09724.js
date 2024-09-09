@@ -1,10 +1,9 @@
 var a09724 =
 [
-    [ "VehicleScript", "d6/d5c/a09724.html#a9f708a7e432fcb4abe15dcabb0e5a035", null ],
-    [ "OnAddPassenger", "d6/d5c/a09724.html#a4495f8900ecb85546ac23ebe4783ae7c", null ],
-    [ "OnInstall", "d6/d5c/a09724.html#abbb42dcbc5fad97ed1df45ea7b3afe54", null ],
-    [ "OnInstallAccessory", "d6/d5c/a09724.html#ad59ae4c47404abb86e05ae983704f6ea", null ],
-    [ "OnRemovePassenger", "d6/d5c/a09724.html#ad4094366aba1fb6a1ff19361d1be9210", null ],
-    [ "OnReset", "d6/d5c/a09724.html#a38fca3fec8785f015084b832f9e3b08c", null ],
-    [ "OnUninstall", "d6/d5c/a09724.html#a7d4bafe42756ee73b5ce79783842c243", null ]
+    [ "PathMovementBase", "d6/d5c/a09724.html#a6b76e1527ed69ff631d7a72c309f264a", null ],
+    [ "PathMovementBase", "d6/d5c/a09724.html#a953fcda0cf7764f659fc5a4a19408550", null ],
+    [ "~PathMovementBase", "d6/d5c/a09724.html#a33b2b53993fe897712a196bc4ad86bd1", null ],
+    [ "GetCurrentNode", "d6/d5c/a09724.html#a7ceb52928f2198392980c3926516fd82", null ],
+    [ "i_currentNode", "d6/d5c/a09724.html#a5420aef90d3529881ef41362ebb29934", null ],
+    [ "i_path", "d6/d5c/a09724.html#a3dbc5e41e0c6245f369afc7a24081c83", null ]
 ];

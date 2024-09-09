@@ -1,6 +1,6 @@
 var a19156 =
 [
-    [ "boss_anomalusAI", "da/d78/a19160.html", "da/d78/a19160" ],
-    [ "boss_anomalus", "d2/d94/a19156.html#a0dc3f8d5e272327596a8c7b34ffbe434", null ],
-    [ "GetAI", "d2/d94/a19156.html#ae0a4a5047646a75fa492bf3d0383b127", null ]
+    [ "ChargeRifts", "d2/d94/a19156.html#aec98a12dec1f2ad98e00d399b0e2a1d5", null ],
+    [ "Execute", "d2/d94/a19156.html#a8d01bf861d37c25413dc14eee16a2939", null ],
+    [ "_caster", "d2/d94/a19156.html#a3cbf5f7e26de337dadd9d96a43d728b0", null ]
 ];

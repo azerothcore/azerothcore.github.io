@@ -1,7 +1,5 @@
 var a13428 =
 [
-    [ "npc_lady_sylvanas_windrunnerAI", "df/d95/a13432.html", "df/d95/a13432" ],
-    [ "npc_lady_sylvanas_windrunner", "d3/d47/a13428.html#ab3da21f58b68003f50cf0c3d5ce22028", null ],
-    [ "GetAI", "d3/d47/a13428.html#abc382c04be0a8ed46299d1c4b2d008dc", null ],
-    [ "OnQuestReward", "d3/d47/a13428.html#ae0031c5305a03a376dd84e950eb4a23b", null ]
+    [ "npc_tyrion", "d3/d47/a13428.html#a85b1abd4910729c17099174def6507b1", null ],
+    [ "OnQuestAccept", "d3/d47/a13428.html#af8388a07e52a8c5708434a70d0d28cbb", null ]
 ];

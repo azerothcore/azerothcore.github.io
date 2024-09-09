@@ -1,8 +1,6 @@
 var a19220 =
 [
-    [ "npc_crystal_spikeAI", "d0/dcb/a19220.html#ac30dc3941c92fa0cda6639864f803a55", null ],
-    [ "Reset", "d0/dcb/a19220.html#ad8889e7a77daba18e3e5506855988537", null ],
-    [ "UpdateAI", "d0/dcb/a19220.html#a158ca019d06e045358ba305bd6e20bc1", null ],
-    [ "_damageTimer", "d0/dcb/a19220.html#a0bbd82d1c92be0ac595d1ab9704b6162", null ],
-    [ "_gameObjectGUID", "d0/dcb/a19220.html#acdeacf285b083f4c802295d8d0583ed7", null ]
+    [ "npc_crystal_spikeAI", "da/d2f/a19224.html", "da/d2f/a19224" ],
+    [ "npc_crystal_spike", "d0/dcb/a19220.html#a0ef00cdc85bb1c9a79845db861a5e384", null ],
+    [ "GetAI", "d0/dcb/a19220.html#a51df30295395c807c0ade2abaf0bd78e", null ]
 ];

@@ -1,6 +1,5 @@
 var a12016 =
 [
-    [ "boss_baron_geddonAI", "d3/d6d/a12020.html", "d3/d6d/a12020" ],
-    [ "boss_baron_geddon", "da/de8/a12016.html#ad72caf30219b4295c0be4289b9d25498", null ],
-    [ "GetAI", "da/de8/a12016.html#a8f328680a5f99fb275cb0b3e8adf9c63", null ]
+    [ "at_orb_of_command", "da/de8/a12016.html#a1f0b196362b76e050eba66d3ce612623", null ],
+    [ "OnTrigger", "da/de8/a12016.html#a8d30d303c72d5eaf59222c890ab13ca3", null ]
 ];

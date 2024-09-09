@@ -1,7 +1,6 @@
 var a18456 =
 [
-    [ "npc_frost_freeze_trapAI", "d4/d59/a18456.html#a95c64fbbc97f55e4d0cd0b239939fdc6", null ],
-    [ "DoAction", "d4/d59/a18456.html#a8dbe0fc5c84f49363254562166c8c0a7", null ],
-    [ "UpdateAI", "d4/d59/a18456.html#ae8efccb090f38968f3c0ca51f022013b", null ],
-    [ "_events", "d4/d59/a18456.html#ae0abd3d7fcb51ac02f8d325efa93b2f2", null ]
+    [ "npc_frost_freeze_trapAI", "dc/d8d/a18460.html", "dc/d8d/a18460" ],
+    [ "npc_frost_freeze_trap", "d4/d59/a18456.html#ac58ed2598fd4250f220208a91343f9b8", null ],
+    [ "GetAI", "d4/d59/a18456.html#a88ed9aeb0403b3b625c858cd1e44a99f", null ]
 ];

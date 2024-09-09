@@ -1,6 +1,6 @@
 var a01133 =
 [
-    [ "AllBattlegroundScript", "dd/d44/a09908.html", "dd/d44/a09908" ],
+    [ "AllBattlegroundScript", "d8/d97/a09912.html", "d8/d97/a09912" ],
     [ "BGScript", "db/d28/a01133.html#ae9cb670a445a9cb3089a66cdcc822d0e", null ],
     [ "AllBattlegroundHook", "db/d28/a01133.html#a17a6e2af65c8cf024623d584c7f3a11f", [
       [ "ALLBATTLEGROUNDHOOK_ON_BATTLEGROUND_START", "db/d28/a01133.html#a17a6e2af65c8cf024623d584c7f3a11fa6d4da13cd771a0027ee68bb5a41cbef2", null ],
@@ -10,6 +10,7 @@ var a01133 =
       [ "ALLBATTLEGROUNDHOOK_ON_BATTLEGROUND_BEFORE_ADD_PLAYER", "db/d28/a01133.html#a17a6e2af65c8cf024623d584c7f3a11fa20256e46bc7531203cb3129b8b2f1d6a", null ],
       [ "ALLBATTLEGROUNDHOOK_ON_BATTLEGROUND_REMOVE_PLAYER_AT_LEAVE", "db/d28/a01133.html#a17a6e2af65c8cf024623d584c7f3a11fa1eb34bf20bb04e911b0fc231d34e9175", null ],
       [ "ALLBATTLEGROUNDHOOK_ON_QUEUE_UPDATE", "db/d28/a01133.html#a17a6e2af65c8cf024623d584c7f3a11fa2f7e966409796169c03f2a540adc37d7", null ],
+      [ "ALLBATTLEGROUNDHOOK_ON_QUEUE_UPDATE_VALIDITY", "db/d28/a01133.html#a17a6e2af65c8cf024623d584c7f3a11faf57572cc73fbade9e6d25116230677d5", null ],
       [ "ALLBATTLEGROUNDHOOK_ON_ADD_GROUP", "db/d28/a01133.html#a17a6e2af65c8cf024623d584c7f3a11fa939f6d860e7bd28952f4f8027c23b95f", null ],
       [ "ALLBATTLEGROUNDHOOK_CAN_FILL_PLAYERS_TO_BG", "db/d28/a01133.html#a17a6e2af65c8cf024623d584c7f3a11fa85e775dbed655cf407e7ebf1a64636f7", null ],
       [ "ALLBATTLEGROUNDHOOK_IS_CHECK_NORMAL_MATCH", "db/d28/a01133.html#a17a6e2af65c8cf024623d584c7f3a11fadbabd96f7abb5df470101fc9df9d9323", null ],

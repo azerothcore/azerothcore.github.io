@@ -1,6 +1,6 @@
 var a20872 =
 [
-    [ "HandleScript", "d8/d99/a20872.html#ac7fc87a7585c866aa3fa1001c803bb00", null ],
-    [ "PrepareSpellScript", "d8/d99/a20872.html#ab2a4155f6029850c61e84d7c180addae", null ],
-    [ "Register", "d8/d99/a20872.html#a7e03062d9e28ed1917b7aa63d65f22ba", null ]
+    [ "CheckCast", "d8/d99/a20872.html#a715a58956db4253c8adfed039833debd", null ],
+    [ "PrepareSpellScript", "d8/d99/a20872.html#a3b03178d8ab54db36a19ba5a27444917", null ],
+    [ "Register", "d8/d99/a20872.html#a6309c53b9e3828e76d34a77a8fe35df1", null ]
 ];

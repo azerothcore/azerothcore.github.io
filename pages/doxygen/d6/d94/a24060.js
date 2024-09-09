@@ -1,6 +1,7 @@
 var a24060 =
 [
-    [ "CheckCast", "d6/d94/a24060.html#ae13cc2d3da1c9911c88402d05679d447", null ],
-    [ "PrepareSpellScript", "d6/d94/a24060.html#afbed81273aa23d355c64579c71e9761d", null ],
-    [ "Register", "d6/d94/a24060.html#a7157d04dfc534aa3cb88e8dff169c676", null ]
+    [ "npc_maxx_a_million_escortAI", "db/da1/a24064.html", "db/da1/a24064" ],
+    [ "npc_maxx_a_million_escort", "d6/d94/a24060.html#a958a88b495594dd8e14919d950ac917a", null ],
+    [ "GetAI", "d6/d94/a24060.html#af79619087908d442f503e0b0d633937d", null ],
+    [ "OnQuestAccept", "d6/d94/a24060.html#af3c2f2708702f7d25e712c63a45e69e0", null ]
 ];

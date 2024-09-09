@@ -1,8 +1,6 @@
 var a22172 =
 [
-    [ "npc_vics_flying_machineAI", "d8/de2/a22172.html#a4464e0b1433c4ffb24ae7809b1a0eec5", null ],
-    [ "MovementInform", "d8/de2/a22172.html#ac4bbe0a3cccb6878d050b717b9efb320", null ],
-    [ "PassengerBoarded", "d8/de2/a22172.html#aa67dcbb4b43b047398fec2619ad61829", null ],
-    [ "SpellHit", "d8/de2/a22172.html#aa81229a104e1521d570abec4b6f7bca7", null ],
-    [ "pointId", "d8/de2/a22172.html#aa1412c23f0c3b964262e145c51aea974", null ]
+    [ "npc_vics_flying_machineAI", "d5/d70/a22176.html", "d5/d70/a22176" ],
+    [ "npc_vics_flying_machine", "d8/de2/a22172.html#ac0f1e83a9f53f1e38e81804f0332e3fd", null ],
+    [ "GetAI", "d8/de2/a22172.html#aac2a7cabd2e87705e9a1b3bfebb89eae", null ]
 ];

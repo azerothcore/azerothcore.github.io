@@ -1,12 +1,8 @@
 var a09676 =
 [
-    [ "RotateMovementGenerator", "da/dfa/a09676.html#a89a6559b4380210972e82c6ca6d5a9db", null ],
-    [ "Finalize", "da/dfa/a09676.html#afd7588c7877b116cc9626a774b89d584", null ],
-    [ "GetMovementGeneratorType", "da/dfa/a09676.html#a20677803edf5d93ceae3bf76ef426a81", null ],
-    [ "Initialize", "da/dfa/a09676.html#a18fea8760bb24912af9349a06ff7b596", null ],
-    [ "Reset", "da/dfa/a09676.html#a3e177762fcfc11ac47aa820b46b93ed0", null ],
-    [ "Update", "da/dfa/a09676.html#a0dc8600e3aa862a81735dfb927232e53", null ],
-    [ "m_direction", "da/dfa/a09676.html#a8717e890670d9f4e2ff66c0981d14aa6", null ],
-    [ "m_duration", "da/dfa/a09676.html#a2cb8d5fc3d26c24e62c7373f1ce49b13", null ],
-    [ "m_maxDuration", "da/dfa/a09676.html#a7cf10886bdd50ccbc5900b9229958e01", null ]
+    [ "Finalize", "da/dfa/a09676.html#abf4c6547449605e703b424d8aa7f46b5", null ],
+    [ "GetMovementGeneratorType", "da/dfa/a09676.html#aa1eb3228e14c5b145f7074e97ccdab5f", null ],
+    [ "Initialize", "da/dfa/a09676.html#a68c249f25ef86f2e50d69698e190ed03", null ],
+    [ "Reset", "da/dfa/a09676.html#a124e4f9506ef6f31e991e905ce38dc43", null ],
+    [ "Update", "da/dfa/a09676.html#a4d96b744fa55fa11764873a2c4a891c5", null ]
 ];

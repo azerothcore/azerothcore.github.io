@@ -1,6 +1,6 @@
 var a00482 =
 [
-    [ "BattlegroundRL", "d7/de3/a07176.html", "d7/de3/a07176" ],
+    [ "BattlegroundRL", "d5/d4d/a07180.html", "d5/d4d/a07180" ],
     [ "BattlegroundRLObjects", "db/d8e/a00482.html#a07ba947d37c83568823ee5313377497a", [
       [ "BG_RL_OBJECT_TYPE_DOOR_1", "db/d8e/a00482.html#a07ba947d37c83568823ee5313377497aa4af54ddc0fa71a41b26c859580db7fb0", null ],
       [ "BG_RL_OBJECT_TYPE_DOOR_2", "db/d8e/a00482.html#a07ba947d37c83568823ee5313377497aa13210caaf34c5aa100455cf4f74d43d1", null ],

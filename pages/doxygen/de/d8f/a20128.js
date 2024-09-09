@@ -1,7 +1,6 @@
 var a20128 =
 [
-    [ "HandleEffectPeriodic", "de/d8f/a20128.html#a428d1251465cc9947e7474eab83494e3", null ],
-    [ "PrepareAuraScript", "de/d8f/a20128.html#aa6bfb37f305531f67fa5fad67c83acb9", null ],
-    [ "Register", "de/d8f/a20128.html#a3ccee6d2c8ac244f5370d11b6a4492b6", null ],
-    [ "Validate", "de/d8f/a20128.html#a7d4ede9af946be71bbc5531164ed3f17", null ]
+    [ "DestroyWinterCache", "de/d8f/a20128.html#a4f4d8998d611354bce4f5531e6029d6b", null ],
+    [ "PrepareSpellScript", "de/d8f/a20128.html#a67e36939554e13ddb7fb7493968fbc3f", null ],
+    [ "Register", "de/d8f/a20128.html#a5ac6314b0a016adafd7c6e87289b5649", null ]
 ];

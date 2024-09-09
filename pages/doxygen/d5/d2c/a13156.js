@@ -1,9 +1,6 @@
 var a13156 =
 [
-    [ "boss_muruAI", "d5/d2c/a13156.html#abeb23dd3d2bae6d20bcfcb81519ed565", null ],
-    [ "DamageTaken", "d5/d2c/a13156.html#a0cdb77d995a3ccbff70d01750e4c93ff", null ],
-    [ "JustEngagedWith", "d5/d2c/a13156.html#a65b45cdda68d9e4ab4b524b573185bd0", null ],
-    [ "JustSummoned", "d5/d2c/a13156.html#abed2b6d273808d4035be433f3f90d7db", null ],
-    [ "Reset", "d5/d2c/a13156.html#aae4a72e088576bda726fbc430c95d5d2", null ],
-    [ "UpdateAI", "d5/d2c/a13156.html#aafbf4c4190401598d078478bc2bb812b", null ]
+    [ "boss_muruAI", "d0/d96/a13160.html", "d0/d96/a13160" ],
+    [ "boss_muru", "d5/d2c/a13156.html#aeb09997c72ec653df211bdec5873a57a", null ],
+    [ "GetAI", "d5/d2c/a13156.html#aba2fda1e0b3b6b972fe7df14247006c1", null ]
 ];

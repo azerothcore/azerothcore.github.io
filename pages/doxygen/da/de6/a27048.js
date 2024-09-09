@@ -1,6 +1,6 @@
 var a27048 =
 [
-    [ "boss_taerarAI", "d3/dcc/a27052.html", "d3/dcc/a27052" ],
-    [ "boss_taerar", "da/de6/a27048.html#a100c1b80a50faf93088db870faa21b58", null ],
-    [ "GetAI", "da/de6/a27048.html#ae6615da6ee14c4f7cb3087b4ee5d6246", null ]
+    [ "boss_emerissAI", "d3/dcc/a27052.html", "d3/dcc/a27052" ],
+    [ "boss_emeriss", "da/de6/a27048.html#a2d373e5add3f007cf214ad9763039aa2", null ],
+    [ "GetAI", "da/de6/a27048.html#a88a0696a12f12e612cce53c14f6b1f92", null ]
 ];

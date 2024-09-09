@@ -1,6 +1,7 @@
 var a24252 =
 [
-    [ "PrepareSpellScript", "d0/d62/a24252.html#ac781a5ff389268d1f18867ff5585ca71", null ],
-    [ "Register", "d0/d62/a24252.html#a5cb9e02774ea6c307e76183253ffb472", null ],
-    [ "SetDest", "d0/d62/a24252.html#a5fec9885b1dd6cf80fb47af321fad98e", null ]
+    [ "HandlePeriodic", "d0/d62/a24252.html#a56dd6ce5acad6c8a10eabfc3f35879fe", null ],
+    [ "PrepareAuraScript", "d0/d62/a24252.html#a58dc6668172d046cef3046649928c124", null ],
+    [ "Register", "d0/d62/a24252.html#a5700d7cc8b52ec0351e3d7bf851274b7", null ],
+    [ "Validate", "d0/d62/a24252.html#afa6d5fe15882f33ae1a1d137db9caf8c", null ]
 ];

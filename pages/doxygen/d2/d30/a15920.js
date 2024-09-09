@@ -1,7 +1,6 @@
 var a15920 =
 [
-    [ "npc_orb_carrierAI", "d2/d30/a15920.html#a2011c247d2157f5f2a06db6e149743e0", null ],
-    [ "DoAction", "d2/d30/a15920.html#a501d0bdb9d77be1229dadf60d5f8af8c", null ],
-    [ "TriggerCutter", "d2/d30/a15920.html#a6b6b127db878ca3b79ac8d7aeff4156e", null ],
-    [ "UpdateAI", "d2/d30/a15920.html#a99a08390fcf2b0a058aee161932392d0", null ]
+    [ "npc_orb_carrierAI", "da/ded/a15924.html", "da/ded/a15924" ],
+    [ "npc_orb_carrier", "d2/d30/a15920.html#a69fdd8cb2f0cdf7cf6cf0bdabbc0cd03", null ],
+    [ "GetAI", "d2/d30/a15920.html#ab5b7bbffc43b840c686dc889805ea401", null ]
 ];

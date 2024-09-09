@@ -1,7 +1,7 @@
 var a02945 =
 [
-    [ "npc_corporal_keeshan", "d6/dbe/a13368.html", "d6/dbe/a13368" ],
-    [ "npc_corporal_keeshan::npc_corporal_keeshanAI", "d2/d53/a13372.html", "d2/d53/a13372" ],
+    [ "npc_corporal_keeshan", "d2/d53/a13372.html", "d2/d53/a13372" ],
+    [ "npc_corporal_keeshan::npc_corporal_keeshanAI", "de/d04/a13376.html", "de/d04/a13376" ],
     [ "CorporalKeeshan", "d7/d6b/a02945.html#aeff5ef215a48fcd7bb6837e1d77e4b45", [
       [ "QUEST_MISSING_IN_ACTION", "d7/d6b/a02945.html#aeff5ef215a48fcd7bb6837e1d77e4b45a5671553041dd72c404603a8d8306d210", null ],
       [ "SAY_CORPORAL_1", "d7/d6b/a02945.html#aeff5ef215a48fcd7bb6837e1d77e4b45ac38c6d842f842737e2ce32328ac9f364", null ],

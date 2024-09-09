@@ -1,13 +1,6 @@
 var a15420 =
 [
-    [ "npc_aquementasAI", "db/d9f/a15420.html#aad63986cdb8a65c528af3ccd114d2041", null ],
-    [ "JustEngagedWith", "db/d9f/a15420.html#a2c12ee9c0bb94a1fcfa23c4279aea72f", null ],
-    [ "Reset", "db/d9f/a15420.html#af71a196ba667c2a8f05940ec7ec43b5e", null ],
-    [ "SendItem", "db/d9f/a15420.html#a60bafbd70783411236dcf3d0bfe244de", null ],
-    [ "UpdateAI", "db/d9f/a15420.html#adc5936d7648e05c98a2cdc9998aa4c6a", null ],
-    [ "AquaJetTimer", "db/d9f/a15420.html#a8506acc69436af869d1404bd95109e68", null ],
-    [ "FrostShockTimer", "db/d9f/a15420.html#ad52c62a0fd8de98b194596dbc998c03d", null ],
-    [ "isFriendly", "db/d9f/a15420.html#a9ac02cfc998bda26a5c531a9f7dbf7c4", null ],
-    [ "SendItemTimer", "db/d9f/a15420.html#a3a0883b43056b176ef2ae55673adacf3", null ],
-    [ "SwitchFactionTimer", "db/d9f/a15420.html#a46f64b9883ae30c3f8d677a3b85a8c6f", null ]
+    [ "npc_aquementasAI", "d9/da7/a15424.html", "d9/da7/a15424" ],
+    [ "npc_aquementas", "db/d9f/a15420.html#a81d0b010c2aef0ea329ff7656b76cbe5", null ],
+    [ "GetAI", "db/d9f/a15420.html#a8a071b3073d69306feb84aca347a22c8", null ]
 ];

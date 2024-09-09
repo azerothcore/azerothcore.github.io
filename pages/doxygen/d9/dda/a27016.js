@@ -1,6 +1,6 @@
 var a27016 =
 [
-    [ "boss_ysondreAI", "d9/d2f/a27020.html", "d9/d2f/a27020" ],
-    [ "boss_ysondre", "d9/dda/a27016.html#ad12dbb728f4f0cdf2f4c0ba9cd2a167d", null ],
-    [ "GetAI", "d9/dda/a27016.html#a0da215d7bc8ee86216887e682b9335c3", null ]
+    [ "npc_dream_fogAI", "d9/d2f/a27020.html", "d9/d2f/a27020" ],
+    [ "npc_dream_fog", "d9/dda/a27016.html#ae50306be88f15c9dfc4d0f12c63c68e6", null ],
+    [ "GetAI", "d9/dda/a27016.html#a48c45fec086e3a50462deed44734ba38", null ]
 ];

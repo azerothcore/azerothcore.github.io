@@ -1,5 +1,6 @@
 var a11836 =
 [
-    [ "at_scarshield_infiltrator", "db/dc8/a11836.html#a2d1df47353c9a7e0d506b7c54e7be58e", null ],
-    [ "OnTrigger", "db/dc8/a11836.html#a607c3ee2bd4716cf1e0499e202d379fc", null ]
+    [ "near_scarshield_infiltrator", "db/dc8/a11836.html#a38d2e75946c429b4d80b007f190406bc", null ],
+    [ "OnTrigger", "db/dc8/a11836.html#aeb761433e3210ce85c1de4dab653a87c", null ],
+    [ "whisperedTargets", "db/dc8/a11836.html#a5655e241d2551798a960cb6375c7df23", null ]
 ];

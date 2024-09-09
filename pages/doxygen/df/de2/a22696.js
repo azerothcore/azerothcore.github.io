@@ -1,7 +1,8 @@
 var a22696 =
 [
-    [ "HandleEffectRemove", "df/de2/a22696.html#a0d8d042e6e9bf8fd26b6f283f6da6194", null ],
-    [ "PrepareAuraScript", "df/de2/a22696.html#a84ec7db2aab055bc4328a4d8862bd3f5", null ],
-    [ "Register", "df/de2/a22696.html#a9ee8e71020c17f593472de5a9c130753", null ],
-    [ "Validate", "df/de2/a22696.html#a08be3cb2bef2f4697b7e258b231bd35b", null ]
+    [ "npc_flame_of_azzinoth", "df/de2/a22696.html#acdeb046c2214bd449257ba1b932c8a5c", null ],
+    [ "IsSummonedBy", "df/de2/a22696.html#a5254057af0371a08ea01fe91502c2a20", null ],
+    [ "JustEngagedWith", "df/de2/a22696.html#a24eba1a6cdea4971573a6f4b2dd34fb3", null ],
+    [ "JustSummoned", "df/de2/a22696.html#ad2e7085fcd985a08cc2e317485a8fff1", null ],
+    [ "_bladeGUID", "df/de2/a22696.html#ae797d929b0e9c8953a4c9efd392a21f3", null ]
 ];

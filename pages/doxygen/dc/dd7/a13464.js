@@ -1,7 +1,6 @@
 var a13464 =
 [
-    [ "npc_jaina_proudmoore_bfuAI", "dc/dd7/a13464.html#ad5ad1d05ef8210409c700e47b5442e24", null ],
-    [ "Reset", "dc/dd7/a13464.html#a18de805428ce0954a5fbfffbf5975342", null ],
-    [ "UpdateAI", "dc/dd7/a13464.html#a48b191d0812bfe3212511a52ef0df817", null ],
-    [ "_events", "dc/dd7/a13464.html#a87e99e0b5fd0a3823b009025019b1fa4", null ]
+    [ "npc_jaina_proudmoore_bfuAI", "d3/d2b/a13468.html", "d3/d2b/a13468" ],
+    [ "npc_jaina_proudmoore_bfu", "dc/dd7/a13464.html#af96c4fac318f44cf6e70817b6960999f", null ],
+    [ "GetAI", "dc/dd7/a13464.html#a4ed6349a5ebdd90053f9d67d24ab6991", null ]
 ];

@@ -1,6 +1,7 @@
 var a18304 =
 [
-    [ "boss_valithria_dreamwalkerAI", "de/d68/a18308.html", "de/d68/a18308" ],
-    [ "boss_valithria_dreamwalker", "db/d16/a18304.html#afcc6dc92d94330d3aed67f71452f9cd2", null ],
-    [ "GetAI", "db/d16/a18304.html#a0f0bacefa7e3d682a5db81a14f2ff947", null ]
+    [ "ValithriaDespawner", "db/d16/a18304.html#adf6f71ad9b97489f1e35781e491b28d8", null ],
+    [ "Execute", "db/d16/a18304.html#a4f8c63f52996da14078a7196cae3a00d", null ],
+    [ "operator()", "db/d16/a18304.html#a05bae39d642f294f2ef98151d66ba382", null ],
+    [ "_creature", "db/d16/a18304.html#a64bf6181ad867efd987edec141ca3bf0", null ]
 ];

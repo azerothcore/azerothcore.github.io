@@ -1,5 +1,6 @@
 var a20580 =
 [
-    [ "achievement_thorim_stand_in_the_lightning", "da/d1b/a20580.html#a9339e89e4eb76151fdeacb6bcd53d7bc", null ],
-    [ "OnCheck", "da/d1b/a20580.html#ade1aec4de4c503be5a62da3e6c35e90f", null ]
+    [ "OnPeriodic", "da/d1b/a20580.html#a5247db3b621d1d499b9e22e16c7a951a", null ],
+    [ "PrepareAuraScript", "da/d1b/a20580.html#a6aa46e818199da206e6543005a7fe87f", null ],
+    [ "Register", "da/d1b/a20580.html#ab64dfdda3c09e65cfaeb90d20a5212ed", null ]
 ];

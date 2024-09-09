@@ -1,5 +1,7 @@
 var a23380 =
 [
-    [ "instance_the_underbog_InstanceMapScript", "d0/dcd/a23380.html#ae7668c7c4432b74caa3ea46a7c7364e3", null ],
-    [ "Initialize", "d0/dcd/a23380.html#a9c7c10020eef3db4794283c0f946d086", null ]
+    [ "HandleScript", "d0/dcd/a23380.html#a42052a416290a54d5479a402de578a73", null ],
+    [ "PrepareSpellScript", "d0/dcd/a23380.html#a5f6aa972879b65c0207e47435d436a33", null ],
+    [ "Register", "d0/dcd/a23380.html#a98efb2a9a68d7878af9d6f9d46db88c9", null ],
+    [ "Validate", "d0/dcd/a23380.html#a0d10ed00f11ede2b63665e4cfe53a70c", null ]
 ];

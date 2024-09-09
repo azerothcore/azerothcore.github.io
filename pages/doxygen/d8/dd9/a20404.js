@@ -1,5 +1,5 @@
 var a20404 =
 [
-    [ "achievement_mimiron_set_up_us_the_bomb_12", "d8/dd9/a20404.html#adc7f5769894c59710fa70604878b1e2c", null ],
-    [ "OnCheck", "d8/dd9/a20404.html#ad604fa41b8c8d34b996dbdc709faac66", null ]
+    [ "achievement_mimiron_set_up_us_the_bomb_11", "d8/dd9/a20404.html#a5d8980111e029b4c9311737f3985ab61", null ],
+    [ "OnCheck", "d8/dd9/a20404.html#a7682a7f2f4417dcf75ec58e34e4fd6bc", null ]
 ];

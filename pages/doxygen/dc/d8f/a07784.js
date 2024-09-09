@@ -1,4 +1,5 @@
 var a07784 =
 [
-    [ "Name", "dc/d8f/a07784.html#a624a1c1204cbc15acfc810a7720b8ea0", null ]
+    [ "BoxText", "dc/d8f/a07784.html#a00882f98df67222d396ae9992084a1cd", null ],
+    [ "OptionText", "dc/d8f/a07784.html#ab69f2dac8061cf8f6762a683243934fa", null ]
 ];

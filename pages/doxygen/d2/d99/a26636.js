@@ -1,6 +1,7 @@
 var a26636 =
 [
-    [ "HandleKnockBack", "d2/d99/a26636.html#abad9f9293260a3e99be98b43aabb321b", null ],
-    [ "PrepareSpellScript", "d2/d99/a26636.html#a65787b78165631898458264e6ee310f4", null ],
-    [ "Register", "d2/d99/a26636.html#ade4f3cb676f1cc92b0e75f85367dc3e0", null ]
+    [ "HandleDummy", "d2/d99/a26636.html#abd35c974f5ebec4c8845c05ab4f6d309", null ],
+    [ "PrepareSpellScript", "d2/d99/a26636.html#a99deca1c5c8631342be400cb863eefb2", null ],
+    [ "Register", "d2/d99/a26636.html#aa5ecc51b030fe7280e824ade641216d3", null ],
+    [ "Validate", "d2/d99/a26636.html#a731503d3769718695d109ad71160e67a", null ]
 ];

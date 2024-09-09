@@ -1,6 +1,7 @@
 var a15240 =
 [
-    [ "npc_tiger_matriarch_creditAI", "d5/d23/a15244.html", "d5/d23/a15244" ],
-    [ "npc_tiger_matriarch_credit", "d1/d77/a15240.html#a9d76e8e808c828da501551025eecd8ea", null ],
-    [ "GetAI", "d1/d77/a15240.html#ac4966a8ae43688204f97f9a1a7b4542d", null ]
+    [ "npc_aged_dying_ancient_kodoAI", "d1/d77/a15240.html#aaed19d0c915891d8afecda7df75a8a75", null ],
+    [ "JustRespawned", "d1/d77/a15240.html#a9353ac81b0c209a56313b52f2257ddd2", null ],
+    [ "MoveInLineOfSight", "d1/d77/a15240.html#a295d4bef97b97c7deb31a81274f0818d", null ],
+    [ "SpellHit", "d1/d77/a15240.html#a021b82aa6bd2e118fe810f18349fda42", null ]
 ];

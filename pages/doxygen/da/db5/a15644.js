@@ -1,8 +1,8 @@
 var a15644 =
 [
-    [ "HandleScriptEffect", "da/db5/a15644.html#af3e18fa5befc7124f2a3dbcd36259e6b", null ],
-    [ "Load", "da/db5/a15644.html#ab293f8b536957558fa8886e1f4a23e74", null ],
-    [ "PrepareSpellScript", "da/db5/a15644.html#ae4a1abf2e39c6806d804dea9ce5808ef", null ],
-    [ "Register", "da/db5/a15644.html#a9fb54f0662982dec90c2e6f8568421ed", null ],
-    [ "Validate", "da/db5/a15644.html#a2bee81d684c4739bb6247bfbdb74a21b", null ]
+    [ "HandleAfterCast", "da/db5/a15644.html#aa85852ff5e5d03637d1dcc43a446843e", null ],
+    [ "HandleDummyEffect", "da/db5/a15644.html#a539c233fc820248930e1988c4074b9c8", null ],
+    [ "Load", "da/db5/a15644.html#a4fc295b4d8775dce16d913fe4a8ce8cb", null ],
+    [ "PrepareSpellScript", "da/db5/a15644.html#aad6f7f1d29414475b5e678e7bd94737f", null ],
+    [ "Register", "da/db5/a15644.html#ae90184fd34636b33755b732ec82fd52f", null ]
 ];

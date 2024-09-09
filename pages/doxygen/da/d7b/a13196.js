@@ -1,6 +1,6 @@
 var a13196 =
 [
-    [ "instance_sunwell_plateau_InstanceMapScript", "d3/dcc/a13200.html", "d3/dcc/a13200" ],
-    [ "instance_sunwell_plateau", "da/d7b/a13196.html#a31d2245a9237c8dc4480b9d26ff3557c", null ],
-    [ "GetInstanceScript", "da/d7b/a13196.html#a5960785a845c87e2e1730cfd865b44b4", null ]
+    [ "HandlePull", "da/d7b/a13196.html#a5a43bb53d3c534054498f8366d617e5a", null ],
+    [ "PrepareSpellScript", "da/d7b/a13196.html#aec00f82a35c8154e7d4c1f47c52d486f", null ],
+    [ "Register", "da/d7b/a13196.html#a6da76afd5feaa0d60be70ff8469d78bc", null ]
 ];

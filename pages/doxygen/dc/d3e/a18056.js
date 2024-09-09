@@ -1,6 +1,8 @@
 var a18056 =
 [
-    [ "boss_the_lich_kingAI", "d2/d88/a18060.html", "d2/d88/a18060" ],
-    [ "boss_the_lich_king", "dc/d3e/a18056.html#a10e2789a98a85907d24eabae6d7655f4", null ],
-    [ "GetAI", "dc/d3e/a18056.html#ab12d8cdfdb1c5428423f6db9dda6c97e", null ]
+    [ "HeightDifferenceCheck", "dc/d3e/a18056.html#aa8b61811e435cce456e5cb1d798be66e", null ],
+    [ "operator()", "dc/d3e/a18056.html#a1db203642683f85176f2a35eb3d10c34", null ],
+    [ "_baseObject", "dc/d3e/a18056.html#a7c274be02ca58429dffaee2ea34153c6", null ],
+    [ "_difference", "dc/d3e/a18056.html#af95e2bf67c8316dda982896978c45a68", null ],
+    [ "_reverse", "dc/d3e/a18056.html#a89074844d5fd8b02ed99c09ac4cc5b85", null ]
 ];

@@ -1,6 +1,6 @@
 var a21964 =
 [
-    [ "npc_plaguehound_trackerAI", "db/dcd/a21964.html#a7530f500b42ad9bb38593193d3113da8", null ],
-    [ "Reset", "db/dcd/a21964.html#a05c351ab3aca0cd18209405075bb0f47", null ],
-    [ "WaypointReached", "db/dcd/a21964.html#a67c345f49572cde76d9109a1baff6788", null ]
+    [ "npc_plaguehound_trackerAI", "d8/d39/a21968.html", "d8/d39/a21968" ],
+    [ "npc_plaguehound_tracker", "db/dcd/a21964.html#a5c2803907cf06bc3e641bbb8171681d3", null ],
+    [ "GetAI", "db/dcd/a21964.html#a1ec8f190139b35837a0ce6c4c2f08709", null ]
 ];

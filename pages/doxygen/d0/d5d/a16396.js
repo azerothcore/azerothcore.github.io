@@ -1,6 +1,14 @@
 var a16396 =
 [
-    [ "boss_gormokAI", "d3/d6f/a16400.html", "d3/d6f/a16400" ],
-    [ "boss_gormok", "d0/d5d/a16396.html#a86ce0681be4370198c44dde5aa98a593", null ],
-    [ "GetAI", "d0/d5d/a16396.html#a45cff2e7ee0525de37382cf09b116a32", null ]
+    [ "npc_snobold_vassalAI", "d0/d5d/a16396.html#a2ecc5e8289252b2936f36de9921294e0", null ],
+    [ "AttackStart", "d0/d5d/a16396.html#a50afc82c80cede8dcf3240a116463411", null ],
+    [ "DoAction", "d0/d5d/a16396.html#a8beac97ea5f7c797d2ae52e2f3c3be50", null ],
+    [ "JustDied", "d0/d5d/a16396.html#aef408460584a17f15a84e8a6435c6348", null ],
+    [ "JustEngagedWith", "d0/d5d/a16396.html#a60c1704617e99239d60d24d6b7513c1a", null ],
+    [ "MoveInLineOfSight", "d0/d5d/a16396.html#aae75a4e69e27c1e4778a7f76caff04ba", null ],
+    [ "Reset", "d0/d5d/a16396.html#af794f46b1a7af97b52683954b556c27d", null ],
+    [ "UpdateAI", "d0/d5d/a16396.html#ac1d282da6f2d9133619a212a349c777f", null ],
+    [ "events", "d0/d5d/a16396.html#adfb6df0ee8ab19b58de24da8d4e6d9df", null ],
+    [ "pInstance", "d0/d5d/a16396.html#afc140e6f9fc1ec78914aecc5150345b0", null ],
+    [ "TargetGUID", "d0/d5d/a16396.html#a0d36e4903448c5a03115df0dff3480c8", null ]
 ];

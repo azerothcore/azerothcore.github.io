@@ -1,6 +1,6 @@
 var a15996 =
 [
-    [ "npc_living_infernoAI", "dc/d27/a16000.html", "dc/d27/a16000" ],
-    [ "npc_living_inferno", "d8/ddf/a15996.html#a7df2bb522e67b6f1864604c7b0182078", null ],
-    [ "GetAI", "d8/ddf/a15996.html#a53f0bbd0a502374664cfa54140f4b8c0", null ]
+    [ "HandleHealPct", "d8/ddf/a15996.html#ad13b3924815ac3da7902c8292a760943", null ],
+    [ "PrepareSpellScript", "d8/ddf/a15996.html#aeea718bce7dd5aa4ac33bbd1a95a65c0", null ],
+    [ "Register", "d8/ddf/a15996.html#a3016c31c072d6417bbe47c2891059718", null ]
 ];

@@ -1,8 +1,7 @@
 var a24716 =
 [
-    [ "AfterApply", "d2/d44/a24716.html#a9c2591beacd941893338109719c03e3f", null ],
-    [ "AfterRemove", "d2/d44/a24716.html#a0be2a66b615dd926de7073392a8e5062", null ],
-    [ "PrepareAuraScript", "d2/d44/a24716.html#a4763d0c69c12611244f68ba5a5b1ccce", null ],
-    [ "Register", "d2/d44/a24716.html#a36fb81d0bf4cf92773db60a70de52dda", null ],
-    [ "Validate", "d2/d44/a24716.html#a86b51ec85105b0396972f0c3d7b770c1", null ]
+    [ "FilterTargets", "d2/d44/a24716.html#af6daf7022fc4cd18909056089c249c8a", null ],
+    [ "HandleDummy", "d2/d44/a24716.html#ab8f8fec8c95f471a04d642fa0dcbe3e6", null ],
+    [ "PrepareSpellScript", "d2/d44/a24716.html#a3ec1d43d3eb6ecca128ddda3c0f81efc", null ],
+    [ "Register", "d2/d44/a24716.html#ae662a050ce4cac47b6bd0d0b0c5b1e16", null ]
 ];

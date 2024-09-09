@@ -1,9 +1,6 @@
 var a25864 =
 [
-    [ "HandleAfterCast", "d7/d15/a25864.html#afd2fbc51ac1e99789994021af36688f3", null ],
-    [ "HandleTriggerSpell", "d7/d15/a25864.html#ae140ab00101f081454b55e12a7c54440", null ],
-    [ "Load", "d7/d15/a25864.html#a3dbb3541f0ec3f614d1f18fd92f9bc03", null ],
-    [ "PrepareSpellScript", "d7/d15/a25864.html#a7fd1a83dd49cee4f52913a40caf3ef88", null ],
-    [ "Register", "d7/d15/a25864.html#a3e9d0ff0bd71ea6d87fb9a7edcfa9a1c", null ],
-    [ "_triggerSpellId", "d7/d15/a25864.html#a9a3efd5cf45d15cf8112a82d33dca731", null ]
+    [ "OnPeriodic", "d7/d15/a25864.html#a3368e8fad4a5ecd242056da38ad8f23a", null ],
+    [ "PrepareAuraScript", "d7/d15/a25864.html#ad3d091510685ebc2d87aadb658cacf58", null ],
+    [ "Register", "d7/d15/a25864.html#a9552ba0f4c18623b6b00ababa034942c", null ]
 ];

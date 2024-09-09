@@ -1,7 +1,10 @@
 var a12220 =
 [
-    [ "npc_kernobeeAI", "df/d24/a12224.html", "df/d24/a12224" ],
-    [ "npc_kernobee", "df/d11/a12220.html#a325aa3f9962cb99b4af362a23c1b16d8", null ],
-    [ "GetAI", "df/d11/a12220.html#a13da5b7e79ada7c5a88e84ca551ce8eb", null ],
-    [ "OnQuestAccept", "df/d11/a12220.html#aa830285cf19211b8233620257735ab62", null ]
+    [ "instance_gnomeregan_InstanceMapScript", "df/d11/a12220.html#a0080fdf557ad8159a8934dce5b39a535", null ],
+    [ "OnCreatureCreate", "df/d11/a12220.html#ac607601becc7fbf4ea9c64d87c93287c", null ],
+    [ "OnGameObjectCreate", "df/d11/a12220.html#a0c2f4d615394ef1d6e1b930ed6aff82f", null ],
+    [ "ReadSaveDataMore", "df/d11/a12220.html#a85d3db22430a4bac7e01dcfa1a1efb5b", null ],
+    [ "SetData", "df/d11/a12220.html#af800a1906c532f61f0299f8aa9359a66", null ],
+    [ "WriteSaveDataMore", "df/d11/a12220.html#a1b30829b3c782bb2c52e5da4fa388d5c", null ],
+    [ "_encounters", "df/d11/a12220.html#ae19a56e7fdcb2d0204d444cba11b7441", null ]
 ];

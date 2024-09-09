@@ -1,8 +1,9 @@
 var a13772 =
 [
-    [ "FilterTargets", "d2/d12/a13772.html#a3405b21202d423c649e0b8d341b42d9c", null ],
-    [ "HandleWipeThreat", "d2/d12/a13772.html#a2bbcce83bffebc509e9ec54778e82639", null ],
-    [ "PrepareSpellScript", "d2/d12/a13772.html#a59948484b528cab69c695f08b39b886d", null ],
-    [ "Register", "d2/d12/a13772.html#ac4106a251bd3120e122955edbcdc8e2a", null ],
-    [ "_wipeThreat", "d2/d12/a13772.html#ab5293e50bd670c0d350f190f1c9892b3", null ]
+    [ "boss_gahzrankaAI", "d2/d12/a13772.html#aed4f9b7e5f46c517f07d7a07f6b2b5f6", null ],
+    [ "IsSummonedBy", "d2/d12/a13772.html#a9a07b183fecda8036e90bc278af68400", null ],
+    [ "JustDied", "d2/d12/a13772.html#a100f4d3f4cd87d321280b7ff2d2ffb68", null ],
+    [ "JustEngagedWith", "d2/d12/a13772.html#a064e5fe28048240bb0febbdc3ac5b1ef", null ],
+    [ "Reset", "d2/d12/a13772.html#ae67d937f6dff9d4c7bb52c65ffe88e40", null ],
+    [ "UpdateAI", "d2/d12/a13772.html#a5dd935016dccab52d456c796809750ab", null ]
 ];

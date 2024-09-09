@@ -1,10 +1,6 @@
 var a17152 =
 [
-    [ "npc_dark_nucleusAI", "de/d90/a17152.html#a9558da93ec684d5c4e79e686e6bfb142", null ],
-    [ "AttackStart", "de/d90/a17152.html#a3dec28dd13257b944df0c559d26a76e0", null ],
-    [ "DamageTaken", "de/d90/a17152.html#adfb2ad6f6b36fa122511a6ed10e22b99", null ],
-    [ "JustDied", "de/d90/a17152.html#a464d479ad80d55e54c7ea2c8b8c03a81", null ],
-    [ "Reset", "de/d90/a17152.html#ac84f79f84e721ab1306c8eed8658b143", null ],
-    [ "UpdateAI", "de/d90/a17152.html#a3a08457c34d4dd904a99a78875d6318c", null ],
-    [ "timer", "de/d90/a17152.html#ac5f9824276987b81aef5cfee05158049", null ]
+    [ "npc_dark_nucleusAI", "de/d5d/a17156.html", "de/d5d/a17156" ],
+    [ "npc_dark_nucleus", "de/d90/a17152.html#a14459f4f41ef568decbc952fdcd4ffd5", null ],
+    [ "GetAI", "de/d90/a17152.html#a1f59ae45c1a84a6faca5a8bb62fc16fc", null ]
 ];

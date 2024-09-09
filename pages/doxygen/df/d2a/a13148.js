@@ -1,6 +1,6 @@
 var a13148 =
 [
-    [ "FilterTargets", "df/d2a/a13148.html#ae945b657d0fbee4d5ee5d6e7d15ef39b", null ],
-    [ "PrepareSpellScript", "df/d2a/a13148.html#a905e1f979284a368463ad4829891b6ee", null ],
-    [ "Register", "df/d2a/a13148.html#a6b0d2fc316bef6af20199b15795b00b4", null ]
+    [ "PrepareSpellScript", "df/d2a/a13148.html#a6a9436d744865971e635f23c2b331688", null ],
+    [ "Register", "df/d2a/a13148.html#a5f8a755040c9972e1bd6f68ceacf3dff", null ],
+    [ "SetDest", "df/d2a/a13148.html#a2d43c0d5230f7be2d9a33e8527fd8c02", null ]
 ];

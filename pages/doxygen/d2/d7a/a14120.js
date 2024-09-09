@@ -1,12 +1,11 @@
 var a14120 =
 [
-    [ "npc_alexstraza_the_lifebinder", "d2/d7a/a14120.html#a7c30258540803bde75843cb070b6a288", null ],
-    [ "MoveInLineOfSight", "d2/d7a/a14120.html#af5960eb1cf63fb0b5b8dc2bfd86b8e47", null ],
-    [ "Reset", "d2/d7a/a14120.html#a8144ed8ada8cd4fb11d74393ed0c525a", null ],
-    [ "SetData", "d2/d7a/a14120.html#aead5ae4ffda9732829e39b8c485a3c3e", null ],
-    [ "UpdateAI", "d2/d7a/a14120.html#ad13b21d571833210b1c069b7ea8bea05", null ],
-    [ "orphanGUID", "d2/d7a/a14120.html#a7c2901f01e4fcafaea9c00ff58dbeaf3", null ],
-    [ "phase", "d2/d7a/a14120.html#a98216e43888854ac93f22169a0e253e5", null ],
-    [ "playerGUID", "d2/d7a/a14120.html#a063fc935bc8f46f5487e9c338e497ec4", null ],
-    [ "timer", "d2/d7a/a14120.html#a41791aaa24102383fe4d3f43c714c3bb", null ]
+    [ "npc_the_etymidian", "d2/d7a/a14120.html#af491016ac89b67947650a5ca9c379875", null ],
+    [ "MoveInLineOfSight", "d2/d7a/a14120.html#adde2d86e30442eb1b47219e934e24407", null ],
+    [ "Reset", "d2/d7a/a14120.html#a714edf3ba5f7a6d59242c991764effc5", null ],
+    [ "UpdateAI", "d2/d7a/a14120.html#a1f3cfddae43e443c5cd4a8a0f9f87a89", null ],
+    [ "orphanGUID", "d2/d7a/a14120.html#a9ba2c34b08d0fe61e18037b02f352d08", null ],
+    [ "phase", "d2/d7a/a14120.html#a7086e9a8a8a7287cf90688270e9933a7", null ],
+    [ "playerGUID", "d2/d7a/a14120.html#a7371e361c018360315e20086b0b99079", null ],
+    [ "timer", "d2/d7a/a14120.html#a8508a2c89eeeee2d235e1178ca77e895", null ]
 ];

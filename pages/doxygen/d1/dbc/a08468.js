@@ -1,10 +1,19 @@
 var a08468 =
 [
-    [ "Flags", "d1/dbc/a08468.html#a5292a64de662f608915844d58199542f", null ],
-    [ "Icon", "d1/dbc/a08468.html#ab7460f125e05509baf9331e424b8bacf", null ],
-    [ "ID", "d1/dbc/a08468.html#a94b184ecd7c82419fa6d59a59c1d95da", null ],
-    [ "Importance", "d1/dbc/a08468.html#a623d8bdc2bf5eea161466340ae8e3cd1", null ],
-    [ "Name", "d1/dbc/a08468.html#a45c6eb50f0d56bbdabd6c3b3469c607c", null ],
-    [ "PositionX", "d1/dbc/a08468.html#a561763556f1ac77e988c350c37a3a0a1", null ],
-    [ "PositionY", "d1/dbc/a08468.html#abec7b2b3e649263f0b963f3fedef60fe", null ]
+    [ "absorb", "d1/dbc/a08468.html#a7298afcc76b856c5427f5e123030a797", null ],
+    [ "attacker", "d1/dbc/a08468.html#aebe14d91f54da0b25a07ff3d59df6ec2", null ],
+    [ "attackType", "d1/dbc/a08468.html#afd18e43bd78a9144c02ba0493921c506", null ],
+    [ "blocked_amount", "d1/dbc/a08468.html#a0ce1e1ff406264c7283979fe4fc70148", null ],
+    [ "cleanDamage", "d1/dbc/a08468.html#a452ac9be1f6e9c10616a62a128573358", null ],
+    [ "damage", "d1/dbc/a08468.html#ab95e1e4746b966f1301d997fdac99c94", null ],
+    [ "damages", "d1/dbc/a08468.html#a6d65f46540999e9257eed9aa27839273", null ],
+    [ "damageSchoolMask", "d1/dbc/a08468.html#a01f1cc6661ef5f4e7d657ba59d06108f", null ],
+    [ "HitInfo", "d1/dbc/a08468.html#ae42a8a3750633d94e661ac9d5a9aa8df", null ],
+    [ "hitOutCome", "d1/dbc/a08468.html#a114dcabcb8bff10c2452cb27e75da115", null ],
+    [ "procAttacker", "d1/dbc/a08468.html#a21bed657c7e3d2338f30fb5237884d5f", null ],
+    [ "procEx", "d1/dbc/a08468.html#ad629b9aad4d88247ef4dfaadd79dc1c8", null ],
+    [ "procVictim", "d1/dbc/a08468.html#a236b06649e715fab9dbddb074ef2f075", null ],
+    [ "resist", "d1/dbc/a08468.html#ab57d348b500203649bf532405cd9ceec", null ],
+    [ "target", "d1/dbc/a08468.html#af2976fa1245b3e3177dcbac464345829", null ],
+    [ "TargetState", "d1/dbc/a08468.html#a73ef30ca87444da617b8c2e05b70e9fc", null ]
 ];

@@ -1,7 +1,7 @@
 var a00905 =
 [
-    [ "WaypointData", "d1/d2a/a09800.html", "d1/d2a/a09800" ],
-    [ "WaypointMgr", "df/df6/a09804.html", "df/df6/a09804" ],
+    [ "WaypointData", "df/df6/a09804.html", "df/df6/a09804" ],
+    [ "WaypointMgr", "de/df1/a09808.html", "de/df1/a09808" ],
     [ "sWaypointMgr", "da/d5b/a00905.html#a8e3218ae672aeeb8c1d9dc23a3a1a627", null ],
     [ "WaypointPath", "da/d5b/a00905.html#a3884c0cb3f926b9869757242cf112630", null ],
     [ "WaypointPathContainer", "da/d5b/a00905.html#a4022be9e8c89b6ab197c2564c77b52c5", null ],

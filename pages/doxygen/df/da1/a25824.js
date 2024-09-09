@@ -1,6 +1,6 @@
 var a25824 =
 [
-    [ "HandleOpenObject", "df/da1/a25824.html#ab658c13615fac1861470bb4b853e76a4", null ],
-    [ "PrepareSpellScript", "df/da1/a25824.html#a0fd0a3dc06fc2140add9e3d86e544bef", null ],
-    [ "Register", "df/da1/a25824.html#a40ff1e10d366ca7183e4e8d027c92d1b", null ]
+    [ "HandleScriptEffect", "df/da1/a25824.html#a14df2ed73118826254a6ffa923063f6c", null ],
+    [ "PrepareSpellScript", "df/da1/a25824.html#a1b20ba3fe209ebf0100f32d4013f2d08", null ],
+    [ "Register", "df/da1/a25824.html#ac70a96209898dc6f2c7b2532dc9f5e6c", null ]
 ];

@@ -1,7 +1,9 @@
 var a23948 =
 [
-    [ "HandleDummy", "da/d8c/a23948.html#a08f2f0aef00ce075572ff84643905a0a", null ],
-    [ "PrepareSpellScript", "da/d8c/a23948.html#ac1aacfbd71224d80eaed0b9a76ff673f", null ],
-    [ "Register", "da/d8c/a23948.html#a2046ac7f24989ff0bf50a3ee66dda104", null ],
-    [ "Validate", "da/d8c/a23948.html#aded9f2e46cc3bf46f5699ce6fdf154ba", null ]
+    [ "npc_oscillating_frequency_scanner_master_bunnyAI", "da/d8c/a23948.html#a273d585416dc92d39d5ec3824c08504d", null ],
+    [ "IsSummonedBy", "da/d8c/a23948.html#a5f002d36c492ed2caf2290f4a073a7d0", null ],
+    [ "Reset", "da/d8c/a23948.html#a06fa50580efeab8d847a05f20956d175", null ],
+    [ "UpdateAI", "da/d8c/a23948.html#a8261a259cfbee0d3610ee441406fafcd", null ],
+    [ "playerGuid", "da/d8c/a23948.html#aab717dd49284c483759a6223dbd7e6ea", null ],
+    [ "timer", "da/d8c/a23948.html#afba1b71178c563a3db906057cd20de45", null ]
 ];

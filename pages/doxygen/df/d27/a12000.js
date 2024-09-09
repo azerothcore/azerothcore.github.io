@@ -1,6 +1,7 @@
 var a12000 =
 [
-    [ "instance_blackwing_lair_InstanceMapScript", "d3/d80/a12004.html", "d3/d80/a12004" ],
-    [ "instance_blackwing_lair", "df/d27/a12000.html#afb9a7ce1ac297b023aa8364cc1383336", null ],
-    [ "GetInstanceScript", "df/d27/a12000.html#a70aff4e1bb406f232d0b4961037ed0a1", null ]
+    [ "HandleRemove", "df/d27/a12000.html#a754b44b62c131e20e1be94b3407e2006", null ],
+    [ "PrepareAuraScript", "df/d27/a12000.html#a92a58e6bcde5f80c6962ce1da47aca2d", null ],
+    [ "Register", "df/d27/a12000.html#a02cd375ec140f7614104b7e56df13430", null ],
+    [ "Validate", "df/d27/a12000.html#a4dd592093c1b00388a54fd8aa1b86904", null ]
 ];

@@ -1,5 +1,7 @@
 var a23024 =
 [
-    [ "PrepareSpellScript", "d1/d32/a23024.html#a0482d714ce0b4cfd81b2fc7fa8c87f0d", null ],
-    [ "Register", "d1/d32/a23024.html#a7aa83bfd512ee0ff839f61bafe6dd27b", null ]
+    [ "OnPeriodic", "d1/d32/a23024.html#ad64b9ba13ef7d77cd778afb8e412ad04", null ],
+    [ "PrepareAuraScript", "d1/d32/a23024.html#a40faff90cb247203d3afafad9c44bfd7", null ],
+    [ "Register", "d1/d32/a23024.html#a8b2d4235784396b8c29b8e7de51e5708", null ],
+    [ "Validate", "d1/d32/a23024.html#a57b481cf462f53ec76f2db326b48c9b6", null ]
 ];

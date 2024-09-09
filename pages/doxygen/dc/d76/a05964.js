@@ -1,9 +1,8 @@
 var a05964 =
 [
-    [ "TurretAI", "dc/d76/a05964.html#a0aaa1ee5eb1b2e83657ef24479d9a91e", null ],
-    [ "AttackStart", "dc/d76/a05964.html#ab6eb7cf777595a4b196373123da19bea", null ],
-    [ "CanAIAttack", "dc/d76/a05964.html#a47c1c38ddcc1f473104fb698fe338684", null ],
-    [ "Permissible", "dc/d76/a05964.html#aac81fb574d70369fb006fb7ba22a0784", null ],
-    [ "UpdateAI", "dc/d76/a05964.html#aa2d308443a31d8a06bbc63517695dfef", null ],
-    [ "m_minRange", "dc/d76/a05964.html#a4cffbf9bcb29468dad6a6583c905b99a", null ]
+    [ "ArcherAI", "dc/d76/a05964.html#a113c138958054716182c15ee9f2b47da", null ],
+    [ "AttackStart", "dc/d76/a05964.html#adc79f7ead63ecaf8fed9ea4f81d27f76", null ],
+    [ "Permissible", "dc/d76/a05964.html#ac5b3d144b0d71a5e527d53f33c3d31cc", null ],
+    [ "UpdateAI", "dc/d76/a05964.html#aa6e072e239549d337de61670a05eb6f8", null ],
+    [ "m_minRange", "dc/d76/a05964.html#ab449efcd81769888ff8d8bc5f348cbe7", null ]
 ];

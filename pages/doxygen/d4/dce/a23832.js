@@ -1,6 +1,6 @@
 var a23832 =
 [
-    [ "PrepareAuraScript", "d4/dce/a23832.html#a14d4d1a75130a77e7e59e41720491bec", null ],
-    [ "PrepareProc", "d4/dce/a23832.html#abea217f4bfdffc70007fbc29849e9a49", null ],
-    [ "Register", "d4/dce/a23832.html#a9dbcd4c940f5941472bebb64829125e3", null ]
+    [ "instance_the_eye_InstanceMapScript", "d7/db3/a23836.html", "d7/db3/a23836" ],
+    [ "instance_the_eye", "d4/dce/a23832.html#a685064ba70095a3fc27ae1a8b33d3c88", null ],
+    [ "GetInstanceScript", "d4/dce/a23832.html#a811c7d161469f33ce4fb7d792ce30a4e", null ]
 ];

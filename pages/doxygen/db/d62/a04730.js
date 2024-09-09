@@ -1,6 +1,6 @@
 var a04730 =
 [
-    [ "ChatServerMessage", "d4/d29/a10216.html", "d4/d29/a10216" ],
-    [ "Emote", "dc/de2/a10208.html", "dc/de2/a10208" ],
-    [ "EmoteClient", "d1/daa/a10212.html", "d1/daa/a10212" ]
+    [ "ChatServerMessage", "d0/df4/a10220.html", "d0/df4/a10220" ],
+    [ "Emote", "d1/daa/a10212.html", "d1/daa/a10212" ],
+    [ "EmoteClient", "d4/d29/a10216.html", "d4/d29/a10216" ]
 ];

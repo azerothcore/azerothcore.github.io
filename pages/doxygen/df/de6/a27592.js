@@ -1,6 +1,5 @@
 var a27592 =
 [
-    [ "X", "df/de6/a27592.html#a55bda49b2eb919415afaf780ca1977de", null ],
-    [ "Y", "df/de6/a27592.html#a0bf22799258050a9b12ddc14bb2b4b11", null ],
-    [ "Z", "df/de6/a27592.html#a7f0ceece775146d825d19a3cd22e5da3", null ]
+    [ "ServerMailReward", "df/de6/a27592.html#aba48b4c171e8e8a40fca2d3bed6b7f63", null ],
+    [ "OnLogin", "df/de6/a27592.html#a8ab4fb6042c3f32ca327cf965330afd2", null ]
 ];

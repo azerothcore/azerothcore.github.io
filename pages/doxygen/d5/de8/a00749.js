@@ -1,6 +1,6 @@
 var a00749 =
 [
-    [ "PlayerSetting", "de/de0/a08368.html", "de/de0/a08368" ],
+    [ "PlayerSetting", "d5/d95/a08372.html", "d5/d95/a08372" ],
     [ "PlayerSettingMap", "d5/de8/a00749.html#a03676554928fdf5649c8c7f77a128d04", null ],
     [ "PlayerSettingVector", "d5/de8/a00749.html#a5c88535ec12f87cc432b1c594bf05326", null ],
     [ "AnnouncerFlags", "d5/de8/a00749.html#a32dfba2d10d91879403874fc75b928fd", [

@@ -1,7 +1,6 @@
 var a28456 =
 [
-    [ "HandleEffectPeriodic", "de/d51/a28456.html#a2fab66e86d3c0207183db72ecbb6fc6c", null ],
-    [ "PrepareAuraScript", "de/d51/a28456.html#ae0e3b459c71933c25da8136cdcddf200", null ],
-    [ "Register", "de/d51/a28456.html#ac924ebbc893476cabab5f05120d0cd8d", null ],
-    [ "Validate", "de/d51/a28456.html#ada327cf500aec62fdf34f9d8a4ccd6e2", null ]
+    [ "OffsetAttributes", "de/d51/a28456.html#a072918c298b316823e784c2e5779be2a", null ],
+    [ "OffsetInstances", "de/d51/a28456.html#abb618c81b9ee9de03c3d4cf8689f5cd4", null ],
+    [ "used", "de/d51/a28456.html#a20a458e613639ea26255dd772824a642", null ]
 ];

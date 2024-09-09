@@ -1,6 +1,6 @@
 var a13244 =
 [
-    [ "HandleSendEvent", "db/d49/a13244.html#a57915ab912fb71fa9fb0aab774f7fb0e", null ],
-    [ "PrepareSpellScript", "db/d49/a13244.html#a2f934bdc7339e775fa3cbe636842bab9", null ],
-    [ "Register", "db/d49/a13244.html#ad985511c9d6576086b3a57990ed28cb6", null ]
+    [ "spell_uldaman_boss_agro_archaedas_SpellScript", "dc/df4/a13248.html", "dc/df4/a13248" ],
+    [ "spell_uldaman_boss_agro_archaedas", "db/d49/a13244.html#ae269234d4a671bb20f9b525c037dd120", null ],
+    [ "GetSpellScript", "db/d49/a13244.html#ac95cc338ef9ecf9f858d6eaf78c5eb49", null ]
 ];

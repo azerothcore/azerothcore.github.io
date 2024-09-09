@@ -1,7 +1,8 @@
 var a26084 =
 [
-    [ "HandleProc", "de/d5a/a26084.html#a72463db57f87387aa3ff3175c45ca9df", null ],
-    [ "PrepareAuraScript", "de/d5a/a26084.html#ae158b4b624b50ad984b2c5e9c16d7670", null ],
-    [ "Register", "de/d5a/a26084.html#a2da64a27cfa5a68464f8f3a885e09751", null ],
-    [ "Validate", "de/d5a/a26084.html#a798f51ee6333d3ebb2bbb617ea88ea2b", null ]
+    [ "CheckProc", "de/d5a/a26084.html#a9e7b83ffd7e8d5ff4cf3b59cfbc40b0e", null ],
+    [ "HandleProc", "de/d5a/a26084.html#a772385aab5f9917d0d3fb456e0ed55e1", null ],
+    [ "PrepareAuraScript", "de/d5a/a26084.html#a876c1bda52c99c52249444414196b1d4", null ],
+    [ "Register", "de/d5a/a26084.html#a1409e9c24827ee51a83d732bb99dd27b", null ],
+    [ "Validate", "de/d5a/a26084.html#a8e36353d5296c609cbe0ce63db4e7dcb", null ]
 ];

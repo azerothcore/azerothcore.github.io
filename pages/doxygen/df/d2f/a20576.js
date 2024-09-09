@@ -1,6 +1,6 @@
 var a20576 =
 [
-    [ "OnPeriodic", "df/d2f/a20576.html#a5247db3b621d1d499b9e22e16c7a951a", null ],
-    [ "PrepareAuraScript", "df/d2f/a20576.html#a6aa46e818199da206e6543005a7fe87f", null ],
-    [ "Register", "df/d2f/a20576.html#ab64dfdda3c09e65cfaeb90d20a5212ed", null ]
+    [ "OnPeriodic", "df/d2f/a20576.html#a418b37f00a8a48d0a4362fd5381797bf", null ],
+    [ "PrepareAuraScript", "df/d2f/a20576.html#a60c0d5d67de6e3224cba34599acc3e69", null ],
+    [ "Register", "df/d2f/a20576.html#a92fb0160f7a16e6cb6b9c928b744f5e0", null ]
 ];

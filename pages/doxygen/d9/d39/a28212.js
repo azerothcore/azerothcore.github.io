@@ -1,7 +1,5 @@
 var a28212 =
 [
-    [ "ID", "d9/d39/a28212.html#aa5db020808990dc98fc143e4a5e0d2b2", null ],
-    [ "RadiusMax", "d9/d39/a28212.html#ab82c1acb9309b17104958182d80b01d1", null ],
-    [ "RadiusMin", "d9/d39/a28212.html#acaee7da373b94a262e01d4bd3bea4f08", null ],
-    [ "RadiusPerLevel", "d9/d39/a28212.html#a74bb59afb808af45ceff6367468fca1e", null ]
+    [ "ID", "d9/d39/a28212.html#a0272b3c1130508a2681035c91ee416e6", null ],
+    [ "SpellID", "d9/d39/a28212.html#a231d22a763ddcd9f1fbdab81521dcf67", null ]
 ];

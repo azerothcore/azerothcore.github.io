@@ -1,6 +1,6 @@
 var a19404 =
 [
-    [ "CalculateDamage", "da/d89/a19404.html#a857e907dcf40f0e630b8c05c5e549672", null ],
-    [ "PrepareSpellScript", "da/d89/a19404.html#aaa6c420d13dc3c88e9c1e5a053c932aa", null ],
-    [ "Register", "da/d89/a19404.html#ae142275e06fe6381304137f637e641ca", null ]
+    [ "spell_loken_pulsing_shockwave_SpellScript", "dc/dbe/a19408.html", "dc/dbe/a19408" ],
+    [ "spell_loken_pulsing_shockwave", "da/d89/a19404.html#a02151186fe627a2da0d0576a0cbac0ed", null ],
+    [ "GetSpellScript", "da/d89/a19404.html#a5cf81ce86ea77d7ce5d761e83f25a4f8", null ]
 ];

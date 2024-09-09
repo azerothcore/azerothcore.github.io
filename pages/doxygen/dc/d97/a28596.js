@@ -1,12 +1,12 @@
 var a28596 =
 [
-    [ "CalcPeriodic", "dc/d97/a28596.html#a35d58947074659d2692877dfcf13e4bd", null ],
-    [ "CalculateAPAmount", "dc/d97/a28596.html#ac72434a046c28a4887971cf83d574a6e", null ],
-    [ "CalculateResistanceAmount", "dc/d97/a28596.html#a82067899470366c2cbf21bba08061ce1", null ],
-    [ "CalculateSPAmount", "dc/d97/a28596.html#a527213b389be9b1953f423ae84eb16ee", null ],
-    [ "CalculateStatAmount", "dc/d97/a28596.html#ad7185292820feb168565648133c9e2cc", null ],
-    [ "HandleEffectApply", "dc/d97/a28596.html#aa333430da4cf3303822d5f048cb9d5a4", null ],
-    [ "HandlePeriodic", "dc/d97/a28596.html#ae2bca6c841d1ba02a8a39b1a2179ac97", null ],
-    [ "PrepareAuraScript", "dc/d97/a28596.html#a671a588ae36323c11b33a45d652290de", null ],
-    [ "Register", "dc/d97/a28596.html#a8aae94d6d6a9ec1fa7d47f88874cce4f", null ]
+    [ "Bounds", "dc/d97/a28596.html#a1e982b341ac3859fad38b2efc81ab8ea", null ],
+    [ "DoodadSet", "dc/d97/a28596.html#abbf6e50e76b120be17215cfcf227a524", null ],
+    [ "Flags", "dc/d97/a28596.html#a06f5e96119239356eea45b9acdadf6e1", null ],
+    [ "Id", "dc/d97/a28596.html#a952442c180e8d3710af31272b54eb6ec", null ],
+    [ "NameSet", "dc/d97/a28596.html#a55df9aed38d8cf1503b21f5fd9d5e5d0", null ],
+    [ "Position", "dc/d97/a28596.html#a7e6463db89eaf53bc20832afb1842a5b", null ],
+    [ "Rotation", "dc/d97/a28596.html#a2c04715e800b9f375c287cced96643d1", null ],
+    [ "Scale", "dc/d97/a28596.html#a142716fecae07abc013c7f3bd053c0ea", null ],
+    [ "UniqueId", "dc/d97/a28596.html#a749e920740b9e91547fe1f87933d1c7d", null ]
 ];

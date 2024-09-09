@@ -1,5 +1,5 @@
 var a14772 =
 [
-    [ "pathId", "d9/d0d/a14772.html#aefd9fa5c6e7f45047994c7cc47e5967c", null ],
-    [ "spellId", "d9/d0d/a14772.html#af495f984d5b81baeaa61ddca127a9508", null ]
+    [ "npc_hive_zara_swarmer", "d9/d0d/a14772.html#a374fa63e210e0be8a074af9199126a9e", null ],
+    [ "PathEndReached", "d9/d0d/a14772.html#a3b3510bd00853395b756e1d83d96a474", null ]
 ];

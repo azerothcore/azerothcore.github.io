@@ -1,9 +1,5 @@
 var a24172 =
 [
-    [ "npc_enraged_spiritAI", "d3/da6/a24172.html#aa487c906c1c0d15dc7761c7288e7d3c6", null ],
-    [ "JustDied", "d3/da6/a24172.html#a9322622f679dbc311bd8983f5037bd2e", null ],
-    [ "JustEngagedWith", "d3/da6/a24172.html#a1d192d0dd563dc2735b23a171b2bf659", null ],
-    [ "Reset", "d3/da6/a24172.html#a2d56572acf042ba34f468f0ff3b0bd1a", null ],
-    [ "UpdateAI", "d3/da6/a24172.html#adc3d04d66f2b4de7a970f2cd5e476a2b", null ],
-    [ "_scheduler", "d3/da6/a24172.html#afa6825696b0622849f877b392df4b326", null ]
+    [ "go_crystal_prison", "d3/da6/a24172.html#a0faca8b76f9650ee5cc7825b90463365", null ],
+    [ "OnQuestAccept", "d3/da6/a24172.html#ad19d8bdf8361d5d7fca2917a6bf0977a", null ]
 ];

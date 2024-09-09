@@ -1,7 +1,6 @@
 var a26644 =
 [
-    [ "HandleProc", "de/dfe/a26644.html#a85df8d4086a980d2b0a441097a909143", null ],
-    [ "PrepareAuraScript", "de/dfe/a26644.html#a4576f3d5af2d9265fa173f66d68ed512", null ],
-    [ "Register", "de/dfe/a26644.html#ab5308a36bc3b878a2913a89a84051ad7", null ],
-    [ "Validate", "de/dfe/a26644.html#a760a018b8410233e09065d94abeeb1ff", null ]
+    [ "HandleKnockBack", "de/dfe/a26644.html#abad9f9293260a3e99be98b43aabb321b", null ],
+    [ "PrepareSpellScript", "de/dfe/a26644.html#a65787b78165631898458264e6ee310f4", null ],
+    [ "Register", "de/dfe/a26644.html#ade4f3cb676f1cc92b0e75f85367dc3e0", null ]
 ];

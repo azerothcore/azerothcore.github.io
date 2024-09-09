@@ -1,8 +1,10 @@
 var a28632 =
 [
-    [ "Color", "d8/d5a/a28632.html#a379e4cf61345dbb4d93da5a8603138c0", null ],
-    [ "NameIndex", "d8/d5a/a28632.html#add893e045d13a3633fd7346457a10477", null ],
-    [ "Position", "d8/d5a/a28632.html#afae9056582e71160c151de2c172bc60a", null ],
-    [ "Rotation", "d8/d5a/a28632.html#a48d372bc1371fa5f94db9aa39669942a", null ],
-    [ "Scale", "d8/d5a/a28632.html#aefacaaf0be0745c95ffc53f410da6e8d", null ]
+    [ "WDTFile", "d8/d5a/a28632.html#a10c133d9b2f8d39cb6c2b3d8c2791b78", null ],
+    [ "~WDTFile", "d8/d5a/a28632.html#a445fe73204fd378e2b63a83d9f5dca0a", null ],
+    [ "GetMap", "d8/d5a/a28632.html#aa952c5bfe52a1aa851984a7e6dc963c9", null ],
+    [ "init", "d8/d5a/a28632.html#a91a33f89cae35254f52e8c4f1c33e2cb", null ],
+    [ "_file", "d8/d5a/a28632.html#a54ab64288144b9cf4904e67bb359e524", null ],
+    [ "_wmoNames", "d8/d5a/a28632.html#a6ec4f95ff866585403670b620a42a857", null ],
+    [ "filename", "d8/d5a/a28632.html#ab3dac8623598bac1152a514a00126bf6", null ]
 ];

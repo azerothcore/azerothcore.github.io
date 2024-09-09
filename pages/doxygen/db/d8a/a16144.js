@@ -1,6 +1,6 @@
 var a16144 =
 [
-    [ "boss_anubarak_trialAI", "dd/d90/a16148.html", "dd/d90/a16148" ],
-    [ "boss_anubarak_trial", "db/d8a/a16144.html#a5204e33a412608b53cc155a043356d58", null ],
-    [ "GetAI", "db/d8a/a16144.html#a9b8fe9ed3370434612cbd46e7649213d", null ]
+    [ "HideNpcEvent", "db/d8a/a16144.html#ab454295aab0f5d4586740140232e96eb", null ],
+    [ "Execute", "db/d8a/a16144.html#aecfbbbcac3fd98675913a6381c891a59", null ],
+    [ "_owner", "db/d8a/a16144.html#ac5481c94e180900f0a455dc1f1f9851c", null ]
 ];

@@ -1,6 +1,7 @@
 var a20984 =
 [
-    [ "boss_skarvald_the_constructorAI", "d8/deb/a20988.html", "d8/deb/a20988" ],
-    [ "boss_skarvald_the_constructor", "d1/d1b/a20984.html#ae96b7ee4ddcf7956141b85c4c4d4129c", null ],
-    [ "GetAI", "d1/d1b/a20984.html#a979e3699d9c87cf4207b70026fb49180", null ]
+    [ "HandleEffectPeriodic", "d1/d1b/a20984.html#a5741a78ba0cc8c723e80b1847b3eb1bc", null ],
+    [ "PrepareAuraScript", "d1/d1b/a20984.html#a748cd347867557b5048d9ba0c112cd80", null ],
+    [ "Register", "d1/d1b/a20984.html#a3c24d37ab4a6e16a577983c3f6bc2722", null ],
+    [ "Validate", "d1/d1b/a20984.html#afa86789ef14b1d06094705ba6cfb9205", null ]
 ];

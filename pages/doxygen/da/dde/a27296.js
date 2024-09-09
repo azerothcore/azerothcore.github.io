@@ -1,5 +1,6 @@
 var a27296 =
 [
-    [ "item_only_for_flight", "da/dde/a27296.html#a8f905266dc8f24cf35598a37e7018ff7", null ],
-    [ "OnUse", "da/dde/a27296.html#a88cdf17a85630aef703f93143ba41d4d", null ]
+    [ "guard_shattrath_aldorAI", "dd/d0f/a27300.html", "dd/d0f/a27300" ],
+    [ "guard_shattrath_aldor", "da/dde/a27296.html#ab965295d9c3828ad814f658670b5f185", null ],
+    [ "GetAI", "da/dde/a27296.html#a3459a6a85c7e7286e3cbdd7f56fee704", null ]
 ];

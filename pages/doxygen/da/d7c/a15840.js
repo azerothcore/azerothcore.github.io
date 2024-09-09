@@ -1,6 +1,8 @@
 var a15840 =
 [
-    [ "boss_baltharus_the_warbornAI", "d5/d15/a15844.html", "d5/d15/a15844" ],
-    [ "boss_baltharus_the_warborn", "da/d7c/a15840.html#aababb8862273d60f140dce675131783d", null ],
-    [ "GetAI", "da/d7c/a15840.html#afe7ecf8635c8c0a051047a801c2a8d54", null ]
+    [ "RestoreFight", "da/d7c/a15840.html#a0149cccce8c3120b1e988e9a7c96f75c", null ],
+    [ "RestoreFight", "da/d7c/a15840.html#a0149cccce8c3120b1e988e9a7c96f75c", null ],
+    [ "Execute", "da/d7c/a15840.html#a019eb3c08dc8c3b97fc27b989ec8ab77", null ],
+    [ "Execute", "da/d7c/a15840.html#a019eb3c08dc8c3b97fc27b989ec8ab77", null ],
+    [ "_owner", "da/d7c/a15840.html#ae35c9b4547fcd7e8ea0f4b6ee4c637a0", null ]
 ];

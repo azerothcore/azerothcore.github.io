@@ -1,9 +1,9 @@
 var a11944 =
 [
-    [ "FilterTargets", "d0/d4d/a11944.html#ae1029dd58a48c099e8bbd071898f1b12", null ],
-    [ "HandleOnHitRogue", "d0/d4d/a11944.html#a57cd6d2c45a9a73bb284272db21d1fce", null ],
-    [ "HandleOnHitWarlock", "d0/d4d/a11944.html#a76f9e5e11a6f2e25868dba567d798002", null ],
-    [ "PrepareSpellScript", "d0/d4d/a11944.html#a4792a25aa6fe6126a94900784798dbee", null ],
-    [ "Register", "d0/d4d/a11944.html#a0f6146c64a86e953c042f8404bbfe683", null ],
-    [ "Validate", "d0/d4d/a11944.html#af65d372cdbb365eff73edb8cf18734c8", null ]
+    [ "npc_drakonid_spawner", "d0/d4d/a11944.html#a2b657e800dc5cc30c618391413ded116", null ],
+    [ "DoAction", "d0/d4d/a11944.html#ab013cff0430c09fe1045fdc735e45182", null ],
+    [ "IsSummonedBy", "d0/d4d/a11944.html#a6a2170e0f20736d69006ce6d6c769476", null ],
+    [ "SummonedCreatureDies", "d0/d4d/a11944.html#a57dd1fc80cfa43f6afae58e797b4091f", null ],
+    [ "UpdateAI", "d0/d4d/a11944.html#a60e79dd8f56e87a2de4a203a63c6f9e3", null ],
+    [ "_owner", "d0/d4d/a11944.html#a6e0f0d2f6c265f9e5206f441dead8b2f", null ]
 ];

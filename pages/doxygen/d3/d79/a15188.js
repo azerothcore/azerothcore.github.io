@@ -1,10 +1,6 @@
 var a15188 =
 [
-    [ "npc_murkdeepAI", "d3/d79/a15188.html#abe78235ecb94e4735a6f8eaad7fe6adc", null ],
-    [ "JustEngagedWith", "d3/d79/a15188.html#ad33de7cb0caffcd255db38204ecfbb1c", null ],
-    [ "Reset", "d3/d79/a15188.html#aa89316a0fe4f99630a4a129aed305e24", null ],
-    [ "UpdateAI", "d3/d79/a15188.html#aeca85a1324791d18ac825401fb8a31e8", null ],
-    [ "events", "d3/d79/a15188.html#ae3d344829aeba22ef0c5947863720390", null ],
-    [ "phase", "d3/d79/a15188.html#a74a3a16cb3f2993aea9c5d6736a6914e", null ],
-    [ "spawnTimer", "d3/d79/a15188.html#a6b139fb5cc0776103934f14be15c34d1", null ]
+    [ "npc_murkdeepAI", "df/d23/a15192.html", "df/d23/a15192" ],
+    [ "npc_murkdeep", "d3/d79/a15188.html#a72d44d786bcba4dea5ccedd33e7dbd3c", null ],
+    [ "GetAI", "d3/d79/a15188.html#ab9f8faa3adaf1f251e1248fbe0f46468", null ]
 ];

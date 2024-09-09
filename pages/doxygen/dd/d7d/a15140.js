@@ -1,6 +1,8 @@
 var a15140 =
 [
-    [ "npc_magwinAI", "db/d64/a15144.html", "db/d64/a15144" ],
-    [ "npc_magwin", "dd/d7d/a15140.html#a1a45602fd312a4c436b09fb7b90ac1d4", null ],
-    [ "GetAI", "dd/d7d/a15140.html#a83bee0fd5c1494f2bb732fe9e0ed1594", null ]
+    [ "npc_injured_draeneiAI", "dd/d7d/a15140.html#a6832ec8b005e75ff66b0fd04e5ff3daa", null ],
+    [ "JustEngagedWith", "dd/d7d/a15140.html#adcc5750f0ab037a7ac38b9fa64b75a74", null ],
+    [ "MoveInLineOfSight", "dd/d7d/a15140.html#a514556f4a81c6f1f8b7caaa526c08662", null ],
+    [ "Reset", "dd/d7d/a15140.html#adcb601f739a91ce71926791885152471", null ],
+    [ "UpdateAI", "dd/d7d/a15140.html#af4d723ac0a95f9dad12e82d5bc987f50", null ]
 ];

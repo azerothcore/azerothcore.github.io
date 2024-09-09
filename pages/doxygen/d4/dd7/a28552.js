@@ -1,9 +1,9 @@
 var a28552 =
 [
-    [ "MapTiles", "d4/dd7/a28552.html#abc58d7154eab45ae26df27e2e82dac63", null ],
-    [ "MapTiles", "d4/dd7/a28552.html#a406efc53593b5bceb0a491c0b7553350", null ],
-    [ "~MapTiles", "d4/dd7/a28552.html#aec1baac21c06380ba71ff5e610152519", null ],
-    [ "operator==", "d4/dd7/a28552.html#a4a6b1901d8a39a3d2cd50775c1e1a6b3", null ],
-    [ "m_mapId", "d4/dd7/a28552.html#a2fc10edf226a6f4548c2175e1013c1b9", null ],
-    [ "m_tiles", "d4/dd7/a28552.html#ab80305bb73234e35a528701d775954b5", null ]
+    [ "WDT_file", "d4/dd7/a28552.html#afa32849d31abde3cb2c9f3b558816368", null ],
+    [ "~WDT_file", "d4/dd7/a28552.html#a29bf710b8346204eb848017450afebe1", null ],
+    [ "free", "d4/dd7/a28552.html#aee6c7e1e402cf986e754753c5e8aee72", null ],
+    [ "prepareLoadedData", "d4/dd7/a28552.html#add675f96f010e67ca1df01b029c9ebfb", null ],
+    [ "main", "d4/dd7/a28552.html#a89ddf5d1527ac16a5d05790769d266b3", null ],
+    [ "mphd", "d4/dd7/a28552.html#a1d216a266e5e6390e9bd2e02c9d3c7f2", null ]
 ];

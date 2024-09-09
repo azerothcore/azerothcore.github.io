@@ -1,7 +1,6 @@
 var a16320 =
 [
-    [ "npc_toc_retro_paladinAI", "d2/d36/a16320.html#afe933281cea61c9a4f3ded76290a3b72", null ],
-    [ "myCanCast", "d2/d36/a16320.html#a271b1d0855dbd2e38ecb6ea62140012f", null ],
-    [ "UpdateAI", "d2/d36/a16320.html#a105d6b9c133c1147b310826d7be416f5", null ],
-    [ "events", "d2/d36/a16320.html#a7078c28d5392bc77d577fa7a6f96b9d7", null ]
+    [ "npc_toc_retro_paladinAI", "d7/ded/a16324.html", "d7/ded/a16324" ],
+    [ "npc_toc_retro_paladin", "d2/d36/a16320.html#abfb15148aefe186447cfdb3a2c8749c4", null ],
+    [ "GetAI", "d2/d36/a16320.html#a1213c99792aa4362275bc827aa2f037e", null ]
 ];

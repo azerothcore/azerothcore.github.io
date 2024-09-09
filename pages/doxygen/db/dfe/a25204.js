@@ -1,7 +1,6 @@
 var a25204 =
 [
-    [ "PrepareAuraScript", "db/dfe/a25204.html#afeac0a8393b7d7bf787fca59988d0e14", null ],
-    [ "Register", "db/dfe/a25204.html#a7cbcf46dbdddea12fd6ce04bcbcea097", null ],
-    [ "TriggerFoodBuff", "db/dfe/a25204.html#a5d125413491dd377d61b8e30c4979fdd", null ],
-    [ "Validate", "db/dfe/a25204.html#a6b69d7358eb8cfe6a8f9efd47882eb80", null ]
+    [ "OnApply", "db/dfe/a25204.html#a476bf6fc1a91784dbc8534c0e57005d6", null ],
+    [ "PrepareAuraScript", "db/dfe/a25204.html#a159ee8a9b0af729ed01f7632adb58863", null ],
+    [ "Register", "db/dfe/a25204.html#a0f33043317402119aa14e50a1eb6c227", null ]
 ];

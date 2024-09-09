@@ -758,12 +758,12 @@ template&lt;typename... Args&gt; </div>
 <div class="line"><span class="lineno">  126</span>        <span class="keywordflow">if</span> (sql.empty())</div>
 <div class="line"><span class="lineno">  127</span>            <span class="keywordflow">return</span>;</div>
 <div class="line"><span class="lineno">  128</span> </div>
-<div class="line"><span class="lineno">  129</span>        <a class="code hl_function" href="../../da/d9f/a05584.html#ab6f68567b1dc23c16723f84504b47eb1">DirectExecute</a>(<a class="code hl_function" href="../../d5/d43/a04668.html#a201985ba1aed494a268ecbab6785536a">Acore::StringFormatFmt</a>(sql, std::forward&lt;Args&gt;(args)...));</div>
+<div class="line"><span class="lineno">  129</span>        <a class="code hl_function" href="../../da/d9f/a05584.html#ab6f68567b1dc23c16723f84504b47eb1">DirectExecute</a>(<a class="code hl_function" href="../../d5/d43/a04668.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a>(sql, std::forward&lt;Args&gt;(args)...));</div>
 <div class="line"><span class="lineno">  130</span>    }</div>
-<div class="ttc" id="aa04668_html_a201985ba1aed494a268ecbab6785536a"><div class="ttname"><a href="../../d5/d43/a04668.html#a201985ba1aed494a268ecbab6785536a">Acore::StringFormatFmt</a></div><div class="ttdeci">std::string StringFormatFmt(FormatString&lt; Args... &gt; fmt, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> StringFormat.h:49</div></div>
+<div class="ttc" id="aa04668_html_a868406b9609960d4ae0189588c8cbbf4"><div class="ttname"><a href="../../d5/d43/a04668.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a></div><div class="ttdeci">std::string StringFormat(FormatString&lt; Args... &gt; fmt, Args &amp;&amp;... args)</div><div class="ttdoc">Default AC string format function.</div><div class="ttdef"><b>Definition:</b> StringFormat.h:34</div></div>
 <div class="ttc" id="aa05584_html_ab6f68567b1dc23c16723f84504b47eb1"><div class="ttname"><a href="../../da/d9f/a05584.html#ab6f68567b1dc23c16723f84504b47eb1">DatabaseWorkerPool::DirectExecute</a></div><div class="ttdeci">void DirectExecute(std::string_view sql)</div><div class="ttdef"><b>Definition:</b> DatabaseWorkerPool.cpp:545</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00545">DatabaseWorkerPool&lt; T &gt;::DirectExecute()</a>, and <a class="el" href="../../#l00049">Acore::StringFormatFmt()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00545">DatabaseWorkerPool&lt; T &gt;::DirectExecute()</a>, and <a class="el" href="../../#l00034">Acore::StringFormat()</a>.</p>
 
 </div>
 </div>
@@ -978,11 +978,11 @@ template&lt;typename... Args&gt; </div>
 <div class="line"><span class="lineno">  103</span>        <span class="keywordflow">if</span> (sql.empty())</div>
 <div class="line"><span class="lineno">  104</span>            <span class="keywordflow">return</span>;</div>
 <div class="line"><span class="lineno">  105</span> </div>
-<div class="line"><span class="lineno">  106</span>        <a class="code hl_function" href="../../da/d9f/a05584.html#a7f10adb58da657128cd4cc950d361074">Execute</a>(<a class="code hl_function" href="../../d5/d43/a04668.html#a201985ba1aed494a268ecbab6785536a">Acore::StringFormatFmt</a>(sql, std::forward&lt;Args&gt;(args)...));</div>
+<div class="line"><span class="lineno">  106</span>        <a class="code hl_function" href="../../da/d9f/a05584.html#a7f10adb58da657128cd4cc950d361074">Execute</a>(<a class="code hl_function" href="../../d5/d43/a04668.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a>(sql, std::forward&lt;Args&gt;(args)...));</div>
 <div class="line"><span class="lineno">  107</span>    }</div>
 <div class="ttc" id="aa05584_html_a7f10adb58da657128cd4cc950d361074"><div class="ttname"><a href="../../da/d9f/a05584.html#a7f10adb58da657128cd4cc950d361074">DatabaseWorkerPool::Execute</a></div><div class="ttdeci">void Execute(std::string_view sql)</div><div class="ttdef"><b>Definition:</b> DatabaseWorkerPool.cpp:528</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00528">DatabaseWorkerPool&lt; T &gt;::Execute()</a>, and <a class="el" href="../../#l00049">Acore::StringFormatFmt()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00528">DatabaseWorkerPool&lt; T &gt;::Execute()</a>, and <a class="el" href="../../#l00034">Acore::StringFormat()</a>.</p>
 
 </div>
 </div>
@@ -1555,11 +1555,11 @@ template&lt;typename... Args&gt; </div>
 <div class="line"><span class="lineno">  149</span>        <span class="keywordflow">if</span> (sql.empty())</div>
 <div class="line"><span class="lineno">  150</span>            <span class="keywordflow">return</span> <a class="code hl_typedef" href="../../d8/d46/a03881.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a>(<span class="keyword">nullptr</span>);</div>
 <div class="line"><span class="lineno">  151</span> </div>
-<div class="line"><span class="lineno">  152</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../da/d9f/a05584.html#a9073e4eb5be9bda6c8464dbff263dbc8">Query</a>(<a class="code hl_function" href="../../d5/d43/a04668.html#a201985ba1aed494a268ecbab6785536a">Acore::StringFormatFmt</a>(sql, std::forward&lt;Args&gt;(args)...));</div>
+<div class="line"><span class="lineno">  152</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../da/d9f/a05584.html#a9073e4eb5be9bda6c8464dbff263dbc8">Query</a>(<a class="code hl_function" href="../../d5/d43/a04668.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a>(sql, std::forward&lt;Args&gt;(args)...));</div>
 <div class="line"><span class="lineno">  153</span>    }</div>
 <div class="ttc" id="aa05584_html_a9073e4eb5be9bda6c8464dbff263dbc8"><div class="ttname"><a href="../../da/d9f/a05584.html#a9073e4eb5be9bda6c8464dbff263dbc8">DatabaseWorkerPool::Query</a></div><div class="ttdeci">QueryResult Query(std::string_view sql)</div><div class="ttdef"><b>Definition:</b> DatabaseWorkerPool.cpp:182</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00182">DatabaseWorkerPool&lt; T &gt;::Query()</a>, and <a class="el" href="../../#l00049">Acore::StringFormatFmt()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00182">DatabaseWorkerPool&lt; T &gt;::Query()</a>, and <a class="el" href="../../#l00034">Acore::StringFormat()</a>.</p>
 
 </div>
 </div>
@@ -1814,7 +1814,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d9f/a05584.html">DatabaseWorkerPool</a></li>
-    <li class="footer">Generated on Mon Sep 2 2024 20:40:09 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Sep 9 2024 20:39:44 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

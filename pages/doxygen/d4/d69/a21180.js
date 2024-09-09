@@ -1,6 +1,6 @@
 var a21180 =
 [
-    [ "boss_koralonAI", "d8/d6d/a21184.html", "d8/d6d/a21184" ],
-    [ "boss_koralon", "d4/d69/a21180.html#a43b9fb1224abeba44080fb02062451b0", null ],
-    [ "GetAI", "d4/d69/a21180.html#a7afd462b2c43ee088c09fcb7ddcb141d", null ]
+    [ "HandleOnHit", "d4/d69/a21180.html#a032001817b4c07dca0f3619116bd7158", null ],
+    [ "PrepareSpellScript", "d4/d69/a21180.html#ab5b0e56ecac460d90be6036fcd146a20", null ],
+    [ "Register", "d4/d69/a21180.html#ad809441bbb00ad6bf1ecafe394d9f24d", null ]
 ];

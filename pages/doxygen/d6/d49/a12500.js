@@ -1,9 +1,19 @@
 var a12500 =
 [
-    [ "boss_vexallus", "d6/d49/a12500.html#a68c32ed70274e9f135b7a9107f888c91", null ],
-    [ "JustEngagedWith", "d6/d49/a12500.html#aa9d37e8132c715552e2ce0102ac9a59b", null ],
-    [ "JustSummoned", "d6/d49/a12500.html#a9bc7808889da754bae9c935418975f90", null ],
-    [ "KilledUnit", "d6/d49/a12500.html#a48d44cc3ed6f0e7f97f76cd325e5c48e", null ],
-    [ "Reset", "d6/d49/a12500.html#a6ecf0817f6b1811fe9c62ac83d4b3dcc", null ],
-    [ "SummonedCreatureDies", "d6/d49/a12500.html#a4bd88222143d8db098312cff8a2fc969", null ]
+    [ "boss_selin_fireheart", "d6/d49/a12500.html#ae3270a227550391fd752d3f241e5ea46", null ],
+    [ "CanAIAttack", "d6/d49/a12500.html#a36f409a006a09812452052d554d5e810", null ],
+    [ "JustDied", "d6/d49/a12500.html#aa7dbc039a10958879c1c85a3819c9348", null ],
+    [ "JustEngagedWith", "d6/d49/a12500.html#ac2225fc5fc8a8a8cdcd57f914292b495", null ],
+    [ "JustSummoned", "d6/d49/a12500.html#a1ec48878f7e9073a795305710b12e9fb", null ],
+    [ "KilledUnit", "d6/d49/a12500.html#a0fc74ba75a482a67d19f4323df1f5e6c", null ],
+    [ "MovementInform", "d6/d49/a12500.html#a8072412acc5f52fdeea3b4f740021a91", null ],
+    [ "Reset", "d6/d49/a12500.html#a6d6cab76647794f971c9a6837d8fbf8c", null ],
+    [ "SelectNearestCrystal", "d6/d49/a12500.html#a71054373a8bd6f24a300e621be87ba45", null ],
+    [ "SpawnCrystals", "d6/d49/a12500.html#a5c874662b9bf518782b2dc824f1eb03d", null ],
+    [ "SummonedCreatureDies", "d6/d49/a12500.html#a1b42a552d4c522394934572158ded9d3", null ],
+    [ "UpdateAI", "d6/d49/a12500.html#a9716cbb45e144d697105d649fe58db0d", null ],
+    [ "CrystalGUID", "d6/d49/a12500.html#a7ea1196c542d569366459626cd1978e1", null ],
+    [ "events", "d6/d49/a12500.html#a8e754aa601cb3674decf634f98c7bfea", null ],
+    [ "instance", "d6/d49/a12500.html#a1a7b61924b5e8b14492967456212dbe3", null ],
+    [ "summons", "d6/d49/a12500.html#a2e76bb981bef2cf2c9689bd3c5adec81", null ]
 ];

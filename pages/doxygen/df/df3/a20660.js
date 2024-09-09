@@ -1,6 +1,6 @@
 var a20660 =
 [
-    [ "OnRemove", "df/df3/a20660.html#a492bd9e9c82937e00897e19362b40901", null ],
-    [ "PrepareAuraScript", "df/df3/a20660.html#a1ae24bb18b5570ebe9b4b0698d3cc2f2", null ],
-    [ "Register", "df/df3/a20660.html#adfcaf82ff48225ea0e0314d421795644", null ]
+    [ "PrepareSpellScript", "df/df3/a20660.html#ac84dedbb3343c15e32ae3c57d80a4561", null ],
+    [ "Register", "df/df3/a20660.html#a27c5665b64c50df5d9c67d5136ab7567", null ],
+    [ "SelectTarget", "df/df3/a20660.html#a0f9c85168ad0c0fda61f4bb1e97bd518", null ]
 ];

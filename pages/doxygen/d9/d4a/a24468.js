@@ -1,6 +1,6 @@
 var a24468 =
 [
-    [ "HandleProc", "d9/d4a/a24468.html#a8fb0e7e5e50fcb201e8e55ee9621034e", null ],
-    [ "PrepareAuraScript", "d9/d4a/a24468.html#a2f42e70482f71a4c275f70897b90ed72", null ],
-    [ "Register", "d9/d4a/a24468.html#a048f59b6b0d52232e3a953f173324fc2", null ]
+    [ "PrepareSpellScript", "d9/d4a/a24468.html#a6c49fad4dc5d080b9a5550f8f30cae4d", null ],
+    [ "RecalculateDamage", "d9/d4a/a24468.html#ab6a781160532d7cbb3bb3304eb412514", null ],
+    [ "Register", "d9/d4a/a24468.html#a82395d00066e90abc58103b18a5ef4dc", null ]
 ];

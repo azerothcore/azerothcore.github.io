@@ -1,7 +1,13 @@
 var a23232 =
 [
-    [ "go_ahune_ice_spear", "d2/d7c/a23232.html#a22922e47b819bc60e331cffbc7c353b3", null ],
-    [ "Reset", "d2/d7c/a23232.html#abd11525a84d3ab06a39d1eb7e7c09fbc", null ],
-    [ "UpdateAI", "d2/d7c/a23232.html#ae498fc1f71906af2f20e95dea4df4a2b", null ],
-    [ "_scheduler", "d2/d7c/a23232.html#a7e1dab03b33b0114cc0a40fc02e2306e", null ]
+    [ "npc_earthen_ring_flamecaller", "d2/d7c/a23232.html#ab402dd321fa0df641b674324386d7591", null ],
+    [ "DoAction", "d2/d7c/a23232.html#af745c83529a34a89c430d6113703fff5", null ],
+    [ "LookOpening", "d2/d7c/a23232.html#adfc752e7700a816b66b639007a1a90fa", null ],
+    [ "MovementInform", "d2/d7c/a23232.html#a2e6337402c07413ed9aa39c2de58e0d9", null ],
+    [ "Reset", "d2/d7c/a23232.html#ac7be4763e09cb9ce1a4a0774f4c02237", null ],
+    [ "SpellHit", "d2/d7c/a23232.html#ab9c5ad7e56033997042031566748ee2b", null ],
+    [ "UpdateAI", "d2/d7c/a23232.html#aa9aaf58b67108a934a756afdfc2bc734", null ],
+    [ "_events", "d2/d7c/a23232.html#a79829a993048f8678b5f7c1dfe55eafb", null ],
+    [ "_instance", "d2/d7c/a23232.html#a79aa6e628a50ed485cc55513c28362dc", null ],
+    [ "_mySpot", "d2/d7c/a23232.html#a18b476dfdf65ca7e84856b31027b11f1", null ]
 ];

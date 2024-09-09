@@ -1,6 +1,6 @@
 var a11988 =
 [
-    [ "boss_vaelAI", "df/d0e/a11992.html", "df/d0e/a11992" ],
-    [ "boss_vaelastrasz", "d5/d2a/a11988.html#a0b51f3b50cde4907bd9064e8bf51c005", null ],
-    [ "GetAI", "d5/d2a/a11988.html#a42dde198f5fc0ab2e7ca28ac32c42b7e", null ]
+    [ "HandleOnHit", "d5/d2a/a11988.html#a804097903354ab3a730f0fe3eb5ec863", null ],
+    [ "PrepareSpellScript", "d5/d2a/a11988.html#aea221ad6fb1a30bec6fee0c3a67d01b0", null ],
+    [ "Register", "d5/d2a/a11988.html#a53bed6f1af71fd309a04bc004d07be80", null ]
 ];

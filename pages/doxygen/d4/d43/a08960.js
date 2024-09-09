@@ -1,8 +1,7 @@
 var a08960 =
 [
-    [ "NearestGameObjectFishingHole", "d4/d43/a08960.html#ab0e4734202edf26b69881ab85abe1d93", null ],
-    [ "NearestGameObjectFishingHole", "d4/d43/a08960.html#a256c64e6c82d98349b958647d98bf4ce", null ],
-    [ "operator()", "d4/d43/a08960.html#a52e2c64f8209ab364f4e85e1f4e947dc", null ],
-    [ "i_obj", "d4/d43/a08960.html#a182fbf6b5cc68fb0eba6be26568c9d78", null ],
-    [ "i_range", "d4/d43/a08960.html#af27a870fb654a130bf1e4ac1472fdffc", null ]
+    [ "GameObjectFocusCheck", "d4/d43/a08960.html#a06607ffa0ebf51c230f4584632a7444a", null ],
+    [ "operator()", "d4/d43/a08960.html#af5c0b63b8bfe112c9a8a43d7e49e1f7b", null ],
+    [ "i_focusId", "d4/d43/a08960.html#ace009546c2dcc6dac5de98b3c34152a5", null ],
+    [ "i_unit", "d4/d43/a08960.html#a0afc07e086f5aa3301c2b46a0004213e", null ]
 ];

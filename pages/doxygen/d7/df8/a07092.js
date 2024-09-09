@@ -1,11 +1,12 @@
 var a07092 =
 [
-    [ "BattlegroundABScore", "d7/df8/a07092.html#ae219ecb551c89ad5a5cb22f1996a598b", null ],
-    [ "BuildObjectivesBlock", "d7/df8/a07092.html#a86ac6e9b19eaa7ed257f25f9f73c22cf", null ],
-    [ "GetAttr1", "d7/df8/a07092.html#af0f066f76f4d84e844946862ae819b4f", null ],
-    [ "GetAttr2", "d7/df8/a07092.html#a8ac00679dd8dfeef81f159b7a2b22027", null ],
-    [ "UpdateScore", "d7/df8/a07092.html#a43aaefd97c8880cbf70381282d81f7cf", null ],
-    [ "BattlegroundAB", "d7/df8/a07092.html#ad5365fcb2edd84180065badd1572ba8e", null ],
-    [ "BasesAssaulted", "d7/df8/a07092.html#a25643abf67d1ae2f8498951c11833994", null ],
-    [ "BasesDefended", "d7/df8/a07092.html#a450504481d335230b3e035d4337694be", null ]
+    [ "NodeId", "d7/df8/a07092.html#a039c468fa0b6110809f0617496c0146c", null ],
+    [ "TextAllianceAssaulted", "d7/df8/a07092.html#a345b2ce7c48e9d10d03ff484a0108389", null ],
+    [ "TextAllianceClaims", "d7/df8/a07092.html#a0671602a29f33e353a8a339540beae18", null ],
+    [ "TextAllianceDefended", "d7/df8/a07092.html#ac87cbc9c4ec307bd2f3b09f6cdcd0250", null ],
+    [ "TextAllianceTaken", "d7/df8/a07092.html#a281a0378999ed5966f5d28cc4310fbcd", null ],
+    [ "TextHordeAssaulted", "d7/df8/a07092.html#a7fb668b0b9563bb0779bf4a5daefded8", null ],
+    [ "TextHordeClaims", "d7/df8/a07092.html#acddac09017717cf5b2893ab83e1d10c8", null ],
+    [ "TextHordeDefended", "d7/df8/a07092.html#a00cea010cfe6fb9702e5cb00003e5bef", null ],
+    [ "TextHordeTaken", "d7/df8/a07092.html#a2bbd1b49b9b72784d07be9db2a27fe77", null ]
 ];

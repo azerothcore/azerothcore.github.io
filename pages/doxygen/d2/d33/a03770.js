@@ -1,8 +1,8 @@
 var a03770 =
 [
-    [ "tf_tower_world_state", "d1/d5b/a22508.html", "d1/d5b/a22508" ],
-    [ "OPvPCapturePointTF", "d6/d60/a22512.html", "d6/d60/a22512" ],
-    [ "OutdoorPvPTF", "d4/de6/a22516.html", "d4/de6/a22516" ],
+    [ "tf_tower_world_state", "d6/d60/a22512.html", "d6/d60/a22512" ],
+    [ "OPvPCapturePointTF", "d4/de6/a22516.html", "d4/de6/a22516" ],
+    [ "OutdoorPvPTF", "d1/d1a/a22520.html", "d1/d1a/a22520" ],
     [ "TF_CAPTURE_BUFF", "d2/d33/a03770.html#a82bc235ec6d43b48511d1b3d903a934b", null ],
     [ "OutdoorPvPTF_TowerType", "d2/d33/a03770.html#a7a4347e10a530d56e3c3ae66a5eae999", [
       [ "TF_TOWER_NW", "d2/d33/a03770.html#a7a4347e10a530d56e3c3ae66a5eae999ac95ea754e0befd303c7912671ff54b16", null ],

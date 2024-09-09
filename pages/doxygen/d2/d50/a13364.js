@@ -1,7 +1,6 @@
 var a13364 =
 [
-    [ "npc_greengill_slaveAI", "d2/d50/a13364.html#a1a4268b745e63992f4d0fc2028b717aa", null ],
-    [ "JustEngagedWith", "d2/d50/a13364.html#ad7fcb8c711782d3a76e9e4566334fc21", null ],
-    [ "SpellHit", "d2/d50/a13364.html#a0e75a3e8eb3503fdb3aea12e65ccc6e4", null ],
-    [ "UpdateAI", "d2/d50/a13364.html#a6fa27328cf47bef81c3465b8a3e2ace1", null ]
+    [ "npc_greengill_slaveAI", "d6/dbe/a13368.html", "d6/dbe/a13368" ],
+    [ "npc_greengill_slave", "d2/d50/a13364.html#a46fb36fadb5ed5fc94a563473edd8732", null ],
+    [ "GetAI", "d2/d50/a13364.html#ab2cb9adfeef75384becfbb3c5188b8d7", null ]
 ];
