@@ -1,22 +1,33 @@
 var a02057 =
 [
-    [ "npc_braug_dimspirit", "d5/d6c/a15408.html", "d5/d6c/a15408" ],
-    [ "npc_kaya_flathoof", "d7/ddc/a15412.html", "d7/ddc/a15412" ],
-    [ "npc_kaya_flathoof::npc_kaya_flathoofAI", "de/d8b/a15416.html", "de/d8b/a15416" ],
-    [ "GOSSIP_HBD1", "d2/dea/a02057.html#a487e562e5e99ccd61aa7e93289874033", null ],
-    [ "GOSSIP_HBD2", "d2/dea/a02057.html#adc43152833884ed78e5debdaaf5d500d", null ],
-    [ "GOSSIP_HBD3", "d2/dea/a02057.html#aced35316178914dd542d4750f8bbb6cf", null ],
-    [ "GOSSIP_HBD4", "d2/dea/a02057.html#a182f8c24fa1421c6a7c68e289491400e", null ],
-    [ "GOSSIP_HBD5", "d2/dea/a02057.html#a34cc0e8072e5c86b2dd23a03fbc8f024", null ],
-    [ "Kaya", "d2/dea/a02057.html#ab10ce9d7e7d19709d0e99ef45b935f15", [
-      [ "FACTION_ESCORTEE_H", "d2/dea/a02057.html#ab10ce9d7e7d19709d0e99ef45b935f15a189eaa6b201834d1bd3182efbd449c1f", null ],
-      [ "NPC_GRIMTOTEM_RUFFIAN", "d2/dea/a02057.html#ab10ce9d7e7d19709d0e99ef45b935f15a01961a91f321286d0ab25df44697f94f", null ],
-      [ "NPC_GRIMTOTEM_BRUTE", "d2/dea/a02057.html#ab10ce9d7e7d19709d0e99ef45b935f15ac4f5df2a1f9d7cd9aba151ebfa864967", null ],
-      [ "NPC_GRIMTOTEM_SORCERER", "d2/dea/a02057.html#ab10ce9d7e7d19709d0e99ef45b935f15ac5803d139c1801ccfdba4b115381afd6", null ],
-      [ "SAY_START", "d2/dea/a02057.html#ab10ce9d7e7d19709d0e99ef45b935f15a2eae21cbf7d110ee89a9798ef6f00239", null ],
-      [ "SAY_AMBUSH", "d2/dea/a02057.html#ab10ce9d7e7d19709d0e99ef45b935f15a68cb8abe7aeb84b5de4ba23b8f814d1e", null ],
-      [ "SAY_END", "d2/dea/a02057.html#ab10ce9d7e7d19709d0e99ef45b935f15a40884932ffbbf14d6c380b9022bcfe97", null ],
-      [ "QUEST_PROTECT_KAYA", "d2/dea/a02057.html#ab10ce9d7e7d19709d0e99ef45b935f15a4a8a823950ae7fb8722359672b427cc6", null ]
+    [ "achievement_resilient_victory", "dd/d82/a26896.html", "dd/d82/a26896" ],
+    [ "achievement_bg_control_all_nodes", "d0/dbb/a26900.html", "d0/dbb/a26900" ],
+    [ "achievement_save_the_day", "d7/d05/a26904.html", "d7/d05/a26904" ],
+    [ "achievement_bg_ic_resource_glut", "db/d75/a26908.html", "db/d75/a26908" ],
+    [ "achievement_bg_ic_glaive_grave", "d7/d2f/a26912.html", "d7/d2f/a26912" ],
+    [ "achievement_bg_ic_mowed_down", "d4/d93/a26916.html", "d4/d93/a26916" ],
+    [ "achievement_bg_sa_artillery", "d9/d65/a26920.html", "d9/d65/a26920" ],
+    [ "achievement_arena_by_type", "d0/dcd/a26924.html", "d0/dcd/a26924" ],
+    [ "achievement_sickly_gazelle", "dd/d10/a26928.html", "dd/d10/a26928" ],
+    [ "achievement_everything_counts", "d6/dc5/a26932.html", "d6/dc5/a26932" ],
+    [ "achievement_bg_av_perfection", "db/dae/a26936.html", "db/dae/a26936" ],
+    [ "achievement_sa_defense_of_the_ancients", "d2/d3b/a26940.html", "d2/d3b/a26940" ],
+    [ "achievement_tilted", "de/d5d/a26944.html", "de/d5d/a26944" ],
+    [ "achievement_not_even_a_scratch", "da/d2d/a26948.html", "da/d2d/a26948" ],
+    [ "achievement_killed_exp_or_honor_target", "d6/d24/a26952.html", "d6/d24/a26952" ],
+    [ "achievement_flirt_with_disaster_perf_check", "d3/d00/a26956.html", "d3/d00/a26956" ],
+    [ "ArgentTournamentAreas", "d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3", [
+      [ "AREA_ARGENT_TOURNAMENT_FIELDS", "d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737", null ],
+      [ "AREA_RING_OF_ASPIRANTS", "d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf", null ],
+      [ "AREA_RING_OF_ARGENT_VALIANTS", "d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d", null ],
+      [ "AREA_RING_OF_ALLIANCE_VALIANTS", "d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504", null ],
+      [ "AREA_RING_OF_HORDE_VALIANTS", "d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826", null ],
+      [ "AREA_RING_OF_CHAMPIONS", "d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7", null ]
     ] ],
-    [ "AddSC_stonetalon_mountains", "d2/dea/a02057.html#a985f3fb3a28d1163b27b5de21b1ec6cf", null ]
+    [ "FlirtWithDisaster", "d2/dea/a02057.html#a59d6aac4e950d8e6a0265a26e1898c13", [
+      [ "AURA_PERFUME_FOREVER", "d2/dea/a02057.html#a59d6aac4e950d8e6a0265a26e1898c13a51aa967912af69dc7510017e558bbb85", null ],
+      [ "AURA_PERFUME_ENCHANTRESS", "d2/dea/a02057.html#a59d6aac4e950d8e6a0265a26e1898c13a6f98457c5232039183c4be4588a067c6", null ],
+      [ "AURA_PERFUME_VICTORY", "d2/dea/a02057.html#a59d6aac4e950d8e6a0265a26e1898c13afb194a6e19cf65f763d7975e5d842c9c", null ]
+    ] ],
+    [ "AddSC_achievement_scripts", "d2/dea/a02057.html#a5091d6f933800f3313078304ad5c38ca", null ]
 ];

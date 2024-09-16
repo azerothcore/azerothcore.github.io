@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Logging/LogCommon.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Skills/SkillExtraItems.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,181 +105,347 @@ $(document).ready(function(){initNavTree('dd/d90/a04127.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">LogCommon.h File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">SkillExtraItems.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ad26ed09e30f81a5d2172b4793a3f2781"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781">LogLevel</a> : uint8 { <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781ae44988e4cdc992741e4a39b3734e1f61">LOG_LEVEL_DISABLED</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a779dc8dd26898fb0f88cd5f6e02ba1e5">LOG_LEVEL_FATAL</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a5b40f003febbc3b535649d63f4b8a44f">LOG_LEVEL_ERROR</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a99c1e5c8e6d557f3993b9ab54a0107f4">LOG_LEVEL_WARN</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781aedee1e3159bfe7d918b6e29873c5aee4">LOG_LEVEL_INFO</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a538b2b6e011479d408ecd2be0f6d6177">LOG_LEVEL_DEBUG</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a8fa9f12103da446ab4f3d3dc2fcf7f5d">LOG_LEVEL_TRACE</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a02115b12f9d2c08405f3ea32fb8dea7d">NUM_ENABLED_LOG_LEVELS</a> = LOG_LEVEL_TRACE
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a385a9fffad0d67363b55e833e0395c96">LOG_LEVEL_INVALID</a> = 0xFF
-<br />
- }</td></tr>
-<tr class="separator:ad26ed09e30f81a5d2172b4793a3f2781"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacbd2dccb14fcb75d2651dce582364df"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d90/a04127.html#aacbd2dccb14fcb75d2651dce582364df">AppenderType</a> : uint8 { <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#aacbd2dccb14fcb75d2651dce582364dfaceddd86331dd45bd7dbd5f8bae6c8852">APPENDER_NONE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#aacbd2dccb14fcb75d2651dce582364dfa8cc0efa84bbb87aa8207ba11f369b78a">APPENDER_CONSOLE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#aacbd2dccb14fcb75d2651dce582364dfa2420e38b426dcb22e37a90b6a97cc65d">APPENDER_FILE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#aacbd2dccb14fcb75d2651dce582364dfacac80dc510e850226c250af5a5600394">APPENDER_DB</a>
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#aacbd2dccb14fcb75d2651dce582364dfa7cb05f13eacfc1d54ef111d7b8375301">APPENDER_INVALID</a> = 0xFF
-<br />
- }</td></tr>
-<tr class="separator:aacbd2dccb14fcb75d2651dce582364df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94c1c25ceab6db205eb6a5d5a2e0e803"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803">AppenderFlags</a> : uint8 { <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803a184efa87bd2e31eb7cbcb9d9d9da282b">APPENDER_FLAGS_NONE</a> = 0x00
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803abd5b7165060ec5de7b8db0619e2f2a46">APPENDER_FLAGS_PREFIX_TIMESTAMP</a> = 0x01
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803adc9e7db7404463919a903d8acfeff94e">APPENDER_FLAGS_PREFIX_LOGLEVEL</a> = 0x02
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803ac133c721eb5548b0845595467e081c5b">APPENDER_FLAGS_PREFIX_LOGFILTERTYPE</a> = 0x04
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803a6aec71fc9bc28024147cf9f5291c08c3">APPENDER_FLAGS_USE_TIMESTAMP</a> = 0x08
-, <br />
-&#160;&#160;<a class="el" href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803a6a4fbf813da7a71ddfd24f9336a7e5a2">APPENDER_FLAGS_MAKE_FILE_BACKUP</a> = 0x10
-<br />
- }</td></tr>
-<tr class="separator:a94c1c25ceab6db205eb6a5d5a2e0e803"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a818c557864790091814604b6d2175e52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d90/a04127.html#a818c557864790091814604b6d2175e52">CanCreatePerfectItem</a> (<a class="el" href="../../d1/d53/a08360.html">Player</a> *player, <a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId, float &amp;perfectCreateChance, <a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &amp;perfectItemType)</td></tr>
+<tr class="separator:a818c557864790091814604b6d2175e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a121df170a82be5ab5b05999a6be27b69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d90/a04127.html#a121df170a82be5ab5b05999a6be27b69">LoadSkillPerfectItemTable</a> ()</td></tr>
+<tr class="separator:a121df170a82be5ab5b05999a6be27b69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49687e255d65fa15dac5e6a428c5739d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d90/a04127.html#a49687e255d65fa15dac5e6a428c5739d">canCreateExtraItems</a> (<a class="el" href="../../d1/d53/a08360.html">Player</a> *player, <a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId, float &amp;additionalChance, <a class="el" href="../../de/d4e/a00500.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> &amp;newMaxOrEntry)</td></tr>
+<tr class="separator:a49687e255d65fa15dac5e6a428c5739d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3244d04018405bafe21acc8bc96cc743"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d90/a04127.html#a3244d04018405bafe21acc8bc96cc743">LoadSkillExtraItemTable</a> ()</td></tr>
+<tr class="separator:a3244d04018405bafe21acc8bc96cc743"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a94c1c25ceab6db205eb6a5d5a2e0e803" name="a94c1c25ceab6db205eb6a5d5a2e0e803"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94c1c25ceab6db205eb6a5d5a2e0e803">&#9670;&#160;</a></span>AppenderFlags</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a49687e255d65fa15dac5e6a428c5739d" name="a49687e255d65fa15dac5e6a428c5739d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49687e255d65fa15dac5e6a428c5739d">&#9670;&#160;</a></span>canCreateExtraItems()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803">AppenderFlags</a> : <a class="el" href="../../d1/dd3/a04427.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></td>
+          <td class="memname">bool canCreateExtraItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/d53/a08360.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>spellId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>additionalChance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d4e/a00500.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> &amp;&#160;</td>
+          <td class="paramname"><em>newMaxOrEntry</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a94c1c25ceab6db205eb6a5d5a2e0e803a184efa87bd2e31eb7cbcb9d9d9da282b" name="a94c1c25ceab6db205eb6a5d5a2e0e803a184efa87bd2e31eb7cbcb9d9d9da282b"></a>APPENDER_FLAGS_NONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a94c1c25ceab6db205eb6a5d5a2e0e803abd5b7165060ec5de7b8db0619e2f2a46" name="a94c1c25ceab6db205eb6a5d5a2e0e803abd5b7165060ec5de7b8db0619e2f2a46"></a>APPENDER_FLAGS_PREFIX_TIMESTAMP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a94c1c25ceab6db205eb6a5d5a2e0e803adc9e7db7404463919a903d8acfeff94e" name="a94c1c25ceab6db205eb6a5d5a2e0e803adc9e7db7404463919a903d8acfeff94e"></a>APPENDER_FLAGS_PREFIX_LOGLEVEL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a94c1c25ceab6db205eb6a5d5a2e0e803ac133c721eb5548b0845595467e081c5b" name="a94c1c25ceab6db205eb6a5d5a2e0e803ac133c721eb5548b0845595467e081c5b"></a>APPENDER_FLAGS_PREFIX_LOGFILTERTYPE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a94c1c25ceab6db205eb6a5d5a2e0e803a6aec71fc9bc28024147cf9f5291c08c3" name="a94c1c25ceab6db205eb6a5d5a2e0e803a6aec71fc9bc28024147cf9f5291c08c3"></a>APPENDER_FLAGS_USE_TIMESTAMP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a94c1c25ceab6db205eb6a5d5a2e0e803a6a4fbf813da7a71ddfd24f9336a7e5a2" name="a94c1c25ceab6db205eb6a5d5a2e0e803a6a4fbf813da7a71ddfd24f9336a7e5a2"></a>APPENDER_FLAGS_MAKE_FILE_BACKUP&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   51</span>{</div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803a184efa87bd2e31eb7cbcb9d9d9da282b">APPENDER_FLAGS_NONE</a>                          = 0x00,</div>
-<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803abd5b7165060ec5de7b8db0619e2f2a46">APPENDER_FLAGS_PREFIX_TIMESTAMP</a>              = 0x01,</div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803adc9e7db7404463919a903d8acfeff94e">APPENDER_FLAGS_PREFIX_LOGLEVEL</a>               = 0x02,</div>
-<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803ac133c721eb5548b0845595467e081c5b">APPENDER_FLAGS_PREFIX_LOGFILTERTYPE</a>          = 0x04,</div>
-<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803a6aec71fc9bc28024147cf9f5291c08c3">APPENDER_FLAGS_USE_TIMESTAMP</a>                 = 0x08,</div>
-<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803a6a4fbf813da7a71ddfd24f9336a7e5a2">APPENDER_FLAGS_MAKE_FILE_BACKUP</a>              = 0x10</div>
-<div class="line"><span class="lineno">   58</span>};</div>
-<div class="ttc" id="aa04127_html_a94c1c25ceab6db205eb6a5d5a2e0e803a184efa87bd2e31eb7cbcb9d9d9da282b"><div class="ttname"><a href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803a184efa87bd2e31eb7cbcb9d9d9da282b">APPENDER_FLAGS_NONE</a></div><div class="ttdeci">@ APPENDER_FLAGS_NONE</div><div class="ttdef"><b>Definition:</b> LogCommon.h:52</div></div>
-<div class="ttc" id="aa04127_html_a94c1c25ceab6db205eb6a5d5a2e0e803a6a4fbf813da7a71ddfd24f9336a7e5a2"><div class="ttname"><a href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803a6a4fbf813da7a71ddfd24f9336a7e5a2">APPENDER_FLAGS_MAKE_FILE_BACKUP</a></div><div class="ttdeci">@ APPENDER_FLAGS_MAKE_FILE_BACKUP</div><div class="ttdef"><b>Definition:</b> LogCommon.h:57</div></div>
-<div class="ttc" id="aa04127_html_a94c1c25ceab6db205eb6a5d5a2e0e803a6aec71fc9bc28024147cf9f5291c08c3"><div class="ttname"><a href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803a6aec71fc9bc28024147cf9f5291c08c3">APPENDER_FLAGS_USE_TIMESTAMP</a></div><div class="ttdeci">@ APPENDER_FLAGS_USE_TIMESTAMP</div><div class="ttdef"><b>Definition:</b> LogCommon.h:56</div></div>
-<div class="ttc" id="aa04127_html_a94c1c25ceab6db205eb6a5d5a2e0e803abd5b7165060ec5de7b8db0619e2f2a46"><div class="ttname"><a href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803abd5b7165060ec5de7b8db0619e2f2a46">APPENDER_FLAGS_PREFIX_TIMESTAMP</a></div><div class="ttdeci">@ APPENDER_FLAGS_PREFIX_TIMESTAMP</div><div class="ttdef"><b>Definition:</b> LogCommon.h:53</div></div>
-<div class="ttc" id="aa04127_html_a94c1c25ceab6db205eb6a5d5a2e0e803ac133c721eb5548b0845595467e081c5b"><div class="ttname"><a href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803ac133c721eb5548b0845595467e081c5b">APPENDER_FLAGS_PREFIX_LOGFILTERTYPE</a></div><div class="ttdeci">@ APPENDER_FLAGS_PREFIX_LOGFILTERTYPE</div><div class="ttdef"><b>Definition:</b> LogCommon.h:55</div></div>
-<div class="ttc" id="aa04127_html_a94c1c25ceab6db205eb6a5d5a2e0e803adc9e7db7404463919a903d8acfeff94e"><div class="ttname"><a href="../../dd/d90/a04127.html#a94c1c25ceab6db205eb6a5d5a2e0e803adc9e7db7404463919a903d8acfeff94e">APPENDER_FLAGS_PREFIX_LOGLEVEL</a></div><div class="ttdeci">@ APPENDER_FLAGS_PREFIX_LOGLEVEL</div><div class="ttdef"><b>Definition:</b> LogCommon.h:54</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  227</span>{</div>
+<div class="line"><span class="lineno">  228</span>    <span class="comment">// get the info for the specified spell</span></div>
+<div class="line"><span class="lineno">  229</span>    SkillExtraItemMap::const_iterator ret = <a class="code hl_variable" href="../../d4/d7f/a04124.html#acc52416c05fbae29bcbfa9f0683485cd">SkillExtraItemStore</a>.find(spellId);</div>
+<div class="line"><span class="lineno">  230</span>    <span class="keywordflow">if</span> (ret == <a class="code hl_variable" href="../../d4/d7f/a04124.html#acc52416c05fbae29bcbfa9f0683485cd">SkillExtraItemStore</a>.end())</div>
+<div class="line"><span class="lineno">  231</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  232</span> </div>
+<div class="line"><span class="lineno">  233</span>    <a class="code hl_struct" href="../../d9/dab/a10748.html">SkillExtraItemEntry</a> <span class="keyword">const</span>* specEntry = &amp;ret-&gt;second;</div>
+<div class="line"><span class="lineno">  234</span> </div>
+<div class="line"><span class="lineno">  235</span>    <span class="comment">// if no entry, then no extra items can be created</span></div>
+<div class="line"><span class="lineno">  236</span>    <span class="keywordflow">if</span> (!specEntry)</div>
+<div class="line"><span class="lineno">  237</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  238</span> </div>
+<div class="line"><span class="lineno">  239</span>    <span class="comment">// the player doesn&#39;t have the required specialization, return false</span></div>
+<div class="line"><span class="lineno">  240</span>    <span class="keywordflow">if</span> (!player-&gt;<a class="code hl_function" href="../../d1/d53/a08360.html#ad0b702ec9df9626312843eb9a44742df">HasSpell</a>(specEntry-&gt;<a class="code hl_variable" href="../../d9/dab/a10748.html#a0ba0ba6f012a10b717ca4e6c2f46cf26">requiredSpecialization</a>))</div>
+<div class="line"><span class="lineno">  241</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  242</span> </div>
+<div class="line"><span class="lineno">  243</span>    <span class="comment">// set the arguments to the appropriate values</span></div>
+<div class="line"><span class="lineno">  244</span>    additionalChance = specEntry-&gt;<a class="code hl_variable" href="../../d9/dab/a10748.html#a299d886468e9caf22f9d6ce80a64c247">additionalCreateChance</a>;</div>
+<div class="line"><span class="lineno">  245</span>    newMaxOrEntry = specEntry-&gt;<a class="code hl_variable" href="../../d9/dab/a10748.html#adfda967d36154b039495f0b289a5c9d1">newMaxOrEntry</a>;</div>
+<div class="line"><span class="lineno">  246</span> </div>
+<div class="line"><span class="lineno">  247</span>    <span class="comment">// enable extra item creation</span></div>
+<div class="line"><span class="lineno">  248</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  249</span>}</div>
+<div class="ttc" id="aa04124_html_acc52416c05fbae29bcbfa9f0683485cd"><div class="ttname"><a href="../../d4/d7f/a04124.html#acc52416c05fbae29bcbfa9f0683485cd">SkillExtraItemStore</a></div><div class="ttdeci">SkillExtraItemMap SkillExtraItemStore</div><div class="ttdef"><b>Definition:</b> SkillExtraItems.cpp:135</div></div>
+<div class="ttc" id="aa08360_html_ad0b702ec9df9626312843eb9a44742df"><div class="ttname"><a href="../../d1/d53/a08360.html#ad0b702ec9df9626312843eb9a44742df">Player::HasSpell</a></div><div class="ttdeci">bool HasSpell(uint32 spell) const override</div><div class="ttdef"><b>Definition:</b> Player.cpp:3859</div></div>
+<div class="ttc" id="aa10748_html"><div class="ttname"><a href="../../d9/dab/a10748.html">SkillExtraItemEntry</a></div><div class="ttdef"><b>Definition:</b> SkillExtraItems.cpp:117</div></div>
+<div class="ttc" id="aa10748_html_a0ba0ba6f012a10b717ca4e6c2f46cf26"><div class="ttname"><a href="../../d9/dab/a10748.html#a0ba0ba6f012a10b717ca4e6c2f46cf26">SkillExtraItemEntry::requiredSpecialization</a></div><div class="ttdeci">uint32 requiredSpecialization</div><div class="ttdef"><b>Definition:</b> SkillExtraItems.cpp:119</div></div>
+<div class="ttc" id="aa10748_html_a299d886468e9caf22f9d6ce80a64c247"><div class="ttname"><a href="../../d9/dab/a10748.html#a299d886468e9caf22f9d6ce80a64c247">SkillExtraItemEntry::additionalCreateChance</a></div><div class="ttdeci">float additionalCreateChance</div><div class="ttdef"><b>Definition:</b> SkillExtraItems.cpp:121</div></div>
+<div class="ttc" id="aa10748_html_adfda967d36154b039495f0b289a5c9d1"><div class="ttname"><a href="../../d9/dab/a10748.html#adfda967d36154b039495f0b289a5c9d1">SkillExtraItemEntry::newMaxOrEntry</a></div><div class="ttdeci">int32 newMaxOrEntry</div><div class="ttdef"><b>Definition:</b> SkillExtraItems.cpp:123</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00121">SkillExtraItemEntry::additionalCreateChance</a>, <a class="el" href="../../#l03859">Player::HasSpell()</a>, <a class="el" href="../../#l00123">SkillExtraItemEntry::newMaxOrEntry</a>, <a class="el" href="../../#l00119">SkillExtraItemEntry::requiredSpecialization</a>, and <a class="el" href="../../#l00135">SkillExtraItemStore</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01635">Spell::DoCreateItem()</a>.</p>
+
 </div>
 </div>
-<a id="aacbd2dccb14fcb75d2651dce582364df" name="aacbd2dccb14fcb75d2651dce582364df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacbd2dccb14fcb75d2651dce582364df">&#9670;&#160;</a></span>AppenderType</h2>
+<a id="a818c557864790091814604b6d2175e52" name="a818c557864790091814604b6d2175e52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a818c557864790091814604b6d2175e52">&#9670;&#160;</a></span>CanCreatePerfectItem()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../dd/d90/a04127.html#aacbd2dccb14fcb75d2651dce582364df">AppenderType</a> : <a class="el" href="../../d1/dd3/a04427.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></td>
+          <td class="memname">bool CanCreatePerfectItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/d53/a08360.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>spellId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>perfectCreateChance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &amp;&#160;</td>
+          <td class="paramname"><em>perfectItemType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aacbd2dccb14fcb75d2651dce582364dfaceddd86331dd45bd7dbd5f8bae6c8852" name="aacbd2dccb14fcb75d2651dce582364dfaceddd86331dd45bd7dbd5f8bae6c8852"></a>APPENDER_NONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aacbd2dccb14fcb75d2651dce582364dfa8cc0efa84bbb87aa8207ba11f369b78a" name="aacbd2dccb14fcb75d2651dce582364dfa8cc0efa84bbb87aa8207ba11f369b78a"></a>APPENDER_CONSOLE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aacbd2dccb14fcb75d2651dce582364dfa2420e38b426dcb22e37a90b6a97cc65d" name="aacbd2dccb14fcb75d2651dce582364dfa2420e38b426dcb22e37a90b6a97cc65d"></a>APPENDER_FILE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aacbd2dccb14fcb75d2651dce582364dfacac80dc510e850226c250af5a5600394" name="aacbd2dccb14fcb75d2651dce582364dfacac80dc510e850226c250af5a5600394"></a>APPENDER_DB&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aacbd2dccb14fcb75d2651dce582364dfa7cb05f13eacfc1d54ef111d7b8375301" name="aacbd2dccb14fcb75d2651dce582364dfa7cb05f13eacfc1d54ef111d7b8375301"></a>APPENDER_INVALID&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   40</span>{</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#aacbd2dccb14fcb75d2651dce582364dfaceddd86331dd45bd7dbd5f8bae6c8852">APPENDER_NONE</a>,</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#aacbd2dccb14fcb75d2651dce582364dfa8cc0efa84bbb87aa8207ba11f369b78a">APPENDER_CONSOLE</a>,</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#aacbd2dccb14fcb75d2651dce582364dfa2420e38b426dcb22e37a90b6a97cc65d">APPENDER_FILE</a>,</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#aacbd2dccb14fcb75d2651dce582364dfacac80dc510e850226c250af5a5600394">APPENDER_DB</a>,</div>
-<div class="line"><span class="lineno">   45</span> </div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#aacbd2dccb14fcb75d2651dce582364dfa7cb05f13eacfc1d54ef111d7b8375301">APPENDER_INVALID</a> = 0xFF <span class="comment">// SKIP</span></div>
-<div class="line"><span class="lineno">   47</span>};</div>
-<div class="ttc" id="aa04127_html_aacbd2dccb14fcb75d2651dce582364dfa2420e38b426dcb22e37a90b6a97cc65d"><div class="ttname"><a href="../../dd/d90/a04127.html#aacbd2dccb14fcb75d2651dce582364dfa2420e38b426dcb22e37a90b6a97cc65d">APPENDER_FILE</a></div><div class="ttdeci">@ APPENDER_FILE</div><div class="ttdef"><b>Definition:</b> LogCommon.h:43</div></div>
-<div class="ttc" id="aa04127_html_aacbd2dccb14fcb75d2651dce582364dfa7cb05f13eacfc1d54ef111d7b8375301"><div class="ttname"><a href="../../dd/d90/a04127.html#aacbd2dccb14fcb75d2651dce582364dfa7cb05f13eacfc1d54ef111d7b8375301">APPENDER_INVALID</a></div><div class="ttdeci">@ APPENDER_INVALID</div><div class="ttdef"><b>Definition:</b> LogCommon.h:46</div></div>
-<div class="ttc" id="aa04127_html_aacbd2dccb14fcb75d2651dce582364dfa8cc0efa84bbb87aa8207ba11f369b78a"><div class="ttname"><a href="../../dd/d90/a04127.html#aacbd2dccb14fcb75d2651dce582364dfa8cc0efa84bbb87aa8207ba11f369b78a">APPENDER_CONSOLE</a></div><div class="ttdeci">@ APPENDER_CONSOLE</div><div class="ttdef"><b>Definition:</b> LogCommon.h:42</div></div>
-<div class="ttc" id="aa04127_html_aacbd2dccb14fcb75d2651dce582364dfacac80dc510e850226c250af5a5600394"><div class="ttname"><a href="../../dd/d90/a04127.html#aacbd2dccb14fcb75d2651dce582364dfacac80dc510e850226c250af5a5600394">APPENDER_DB</a></div><div class="ttdeci">@ APPENDER_DB</div><div class="ttdef"><b>Definition:</b> LogCommon.h:44</div></div>
-<div class="ttc" id="aa04127_html_aacbd2dccb14fcb75d2651dce582364dfaceddd86331dd45bd7dbd5f8bae6c8852"><div class="ttname"><a href="../../dd/d90/a04127.html#aacbd2dccb14fcb75d2651dce582364dfaceddd86331dd45bd7dbd5f8bae6c8852">APPENDER_NONE</a></div><div class="ttdeci">@ APPENDER_NONE</div><div class="ttdef"><b>Definition:</b> LogCommon.h:41</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  203</span>{</div>
+<div class="line"><span class="lineno">  204</span>    SkillPerfectItemMap::const_iterator ret = <a class="code hl_variable" href="../../d4/d7f/a04124.html#ac676f0acbf782fa2d31bd66b8eaa8260">SkillPerfectItemStore</a>.find(spellId);</div>
+<div class="line"><span class="lineno">  205</span>    <span class="comment">// no entry in DB means no perfection proc possible</span></div>
+<div class="line"><span class="lineno">  206</span>    <span class="keywordflow">if</span> (ret == <a class="code hl_variable" href="../../d4/d7f/a04124.html#ac676f0acbf782fa2d31bd66b8eaa8260">SkillPerfectItemStore</a>.end())</div>
+<div class="line"><span class="lineno">  207</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  208</span> </div>
+<div class="line"><span class="lineno">  209</span>    <a class="code hl_struct" href="../../d9/dc8/a10744.html">SkillPerfectItemEntry</a> <span class="keyword">const</span>* thisEntry = &amp;ret-&gt;second;</div>
+<div class="line"><span class="lineno">  210</span>    <span class="comment">// lack of entry means no perfection proc possible</span></div>
+<div class="line"><span class="lineno">  211</span>    <span class="keywordflow">if</span> (!thisEntry)</div>
+<div class="line"><span class="lineno">  212</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  213</span> </div>
+<div class="line"><span class="lineno">  214</span>    <span class="comment">// if you don&#39;t have the spell needed, then no procs for you</span></div>
+<div class="line"><span class="lineno">  215</span>    <span class="keywordflow">if</span> (!player-&gt;<a class="code hl_function" href="../../d1/d53/a08360.html#ad0b702ec9df9626312843eb9a44742df">HasSpell</a>(thisEntry-&gt;<a class="code hl_variable" href="../../d9/dc8/a10744.html#aa7ad968ab1b8804ee8f0f8f40bc6f762">requiredSpecialization</a>))</div>
+<div class="line"><span class="lineno">  216</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  217</span> </div>
+<div class="line"><span class="lineno">  218</span>    <span class="comment">// set values as appropriate</span></div>
+<div class="line"><span class="lineno">  219</span>    perfectCreateChance = thisEntry-&gt;<a class="code hl_variable" href="../../d9/dc8/a10744.html#a750d5ab6bc3df0026e640f1c84de8547">perfectCreateChance</a>;</div>
+<div class="line"><span class="lineno">  220</span>    perfectItemType = thisEntry-&gt;<a class="code hl_variable" href="../../d9/dc8/a10744.html#a057605f8867d4df5cb290318598a2908">perfectItemType</a>;</div>
+<div class="line"><span class="lineno">  221</span> </div>
+<div class="line"><span class="lineno">  222</span>    <span class="comment">// and tell the caller to start rolling the dice</span></div>
+<div class="line"><span class="lineno">  223</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  224</span>}</div>
+<div class="ttc" id="aa04124_html_ac676f0acbf782fa2d31bd66b8eaa8260"><div class="ttname"><a href="../../d4/d7f/a04124.html#ac676f0acbf782fa2d31bd66b8eaa8260">SkillPerfectItemStore</a></div><div class="ttdeci">SkillPerfectItemMap SkillPerfectItemStore</div><div class="ttdef"><b>Definition:</b> SkillExtraItems.cpp:49</div></div>
+<div class="ttc" id="aa10744_html"><div class="ttname"><a href="../../d9/dc8/a10744.html">SkillPerfectItemEntry</a></div><div class="ttdef"><b>Definition:</b> SkillExtraItems.cpp:32</div></div>
+<div class="ttc" id="aa10744_html_a057605f8867d4df5cb290318598a2908"><div class="ttname"><a href="../../d9/dc8/a10744.html#a057605f8867d4df5cb290318598a2908">SkillPerfectItemEntry::perfectItemType</a></div><div class="ttdeci">uint32 perfectItemType</div><div class="ttdef"><b>Definition:</b> SkillExtraItems.cpp:38</div></div>
+<div class="ttc" id="aa10744_html_a750d5ab6bc3df0026e640f1c84de8547"><div class="ttname"><a href="../../d9/dc8/a10744.html#a750d5ab6bc3df0026e640f1c84de8547">SkillPerfectItemEntry::perfectCreateChance</a></div><div class="ttdeci">float perfectCreateChance</div><div class="ttdef"><b>Definition:</b> SkillExtraItems.cpp:36</div></div>
+<div class="ttc" id="aa10744_html_aa7ad968ab1b8804ee8f0f8f40bc6f762"><div class="ttname"><a href="../../d9/dc8/a10744.html#aa7ad968ab1b8804ee8f0f8f40bc6f762">SkillPerfectItemEntry::requiredSpecialization</a></div><div class="ttdeci">uint32 requiredSpecialization</div><div class="ttdef"><b>Definition:</b> SkillExtraItems.cpp:34</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l03859">Player::HasSpell()</a>, <a class="el" href="../../#l00036">SkillPerfectItemEntry::perfectCreateChance</a>, <a class="el" href="../../#l00038">SkillPerfectItemEntry::perfectItemType</a>, <a class="el" href="../../#l00034">SkillPerfectItemEntry::requiredSpecialization</a>, and <a class="el" href="../../#l00049">SkillPerfectItemStore</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01635">Spell::DoCreateItem()</a>.</p>
+
 </div>
 </div>
-<a id="ad26ed09e30f81a5d2172b4793a3f2781" name="ad26ed09e30f81a5d2172b4793a3f2781"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad26ed09e30f81a5d2172b4793a3f2781">&#9670;&#160;</a></span>LogLevel</h2>
+<a id="a3244d04018405bafe21acc8bc96cc743" name="a3244d04018405bafe21acc8bc96cc743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3244d04018405bafe21acc8bc96cc743">&#9670;&#160;</a></span>LoadSkillExtraItemTable()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781">LogLevel</a> : <a class="el" href="../../d1/dd3/a04427.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></td>
+          <td class="memname">void LoadSkillExtraItemTable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad26ed09e30f81a5d2172b4793a3f2781ae44988e4cdc992741e4a39b3734e1f61" name="ad26ed09e30f81a5d2172b4793a3f2781ae44988e4cdc992741e4a39b3734e1f61"></a>LOG_LEVEL_DISABLED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad26ed09e30f81a5d2172b4793a3f2781a779dc8dd26898fb0f88cd5f6e02ba1e5" name="ad26ed09e30f81a5d2172b4793a3f2781a779dc8dd26898fb0f88cd5f6e02ba1e5"></a>LOG_LEVEL_FATAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad26ed09e30f81a5d2172b4793a3f2781a5b40f003febbc3b535649d63f4b8a44f" name="ad26ed09e30f81a5d2172b4793a3f2781a5b40f003febbc3b535649d63f4b8a44f"></a>LOG_LEVEL_ERROR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad26ed09e30f81a5d2172b4793a3f2781a99c1e5c8e6d557f3993b9ab54a0107f4" name="ad26ed09e30f81a5d2172b4793a3f2781a99c1e5c8e6d557f3993b9ab54a0107f4"></a>LOG_LEVEL_WARN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad26ed09e30f81a5d2172b4793a3f2781aedee1e3159bfe7d918b6e29873c5aee4" name="ad26ed09e30f81a5d2172b4793a3f2781aedee1e3159bfe7d918b6e29873c5aee4"></a>LOG_LEVEL_INFO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad26ed09e30f81a5d2172b4793a3f2781a538b2b6e011479d408ecd2be0f6d6177" name="ad26ed09e30f81a5d2172b4793a3f2781a538b2b6e011479d408ecd2be0f6d6177"></a>LOG_LEVEL_DEBUG&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad26ed09e30f81a5d2172b4793a3f2781a8fa9f12103da446ab4f3d3dc2fcf7f5d" name="ad26ed09e30f81a5d2172b4793a3f2781a8fa9f12103da446ab4f3d3dc2fcf7f5d"></a>LOG_LEVEL_TRACE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad26ed09e30f81a5d2172b4793a3f2781a02115b12f9d2c08405f3ea32fb8dea7d" name="ad26ed09e30f81a5d2172b4793a3f2781a02115b12f9d2c08405f3ea32fb8dea7d"></a>NUM_ENABLED_LOG_LEVELS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad26ed09e30f81a5d2172b4793a3f2781a385a9fffad0d67363b55e833e0395c96" name="ad26ed09e30f81a5d2172b4793a3f2781a385a9fffad0d67363b55e833e0395c96"></a>LOG_LEVEL_INVALID&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
-<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781ae44988e4cdc992741e4a39b3734e1f61">LOG_LEVEL_DISABLED</a> = 0,</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a779dc8dd26898fb0f88cd5f6e02ba1e5">LOG_LEVEL_FATAL</a> = 1,</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a5b40f003febbc3b535649d63f4b8a44f">LOG_LEVEL_ERROR</a> = 2,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a99c1e5c8e6d557f3993b9ab54a0107f4">LOG_LEVEL_WARN</a> = 3,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781aedee1e3159bfe7d918b6e29873c5aee4">LOG_LEVEL_INFO</a> = 4,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a538b2b6e011479d408ecd2be0f6d6177">LOG_LEVEL_DEBUG</a> = 5,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a8fa9f12103da446ab4f3d3dc2fcf7f5d">LOG_LEVEL_TRACE</a> = 6,</div>
-<div class="line"><span class="lineno">   33</span> </div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a02115b12f9d2c08405f3ea32fb8dea7d">NUM_ENABLED_LOG_LEVELS</a> = <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a8fa9f12103da446ab4f3d3dc2fcf7f5d">LOG_LEVEL_TRACE</a>, <span class="comment">// SKIP</span></div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a385a9fffad0d67363b55e833e0395c96">LOG_LEVEL_INVALID</a> = 0xFF <span class="comment">// SKIP</span></div>
-<div class="line"><span class="lineno">   36</span>};</div>
-<div class="ttc" id="aa04127_html_ad26ed09e30f81a5d2172b4793a3f2781a02115b12f9d2c08405f3ea32fb8dea7d"><div class="ttname"><a href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a02115b12f9d2c08405f3ea32fb8dea7d">NUM_ENABLED_LOG_LEVELS</a></div><div class="ttdeci">@ NUM_ENABLED_LOG_LEVELS</div><div class="ttdef"><b>Definition:</b> LogCommon.h:34</div></div>
-<div class="ttc" id="aa04127_html_ad26ed09e30f81a5d2172b4793a3f2781a385a9fffad0d67363b55e833e0395c96"><div class="ttname"><a href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a385a9fffad0d67363b55e833e0395c96">LOG_LEVEL_INVALID</a></div><div class="ttdeci">@ LOG_LEVEL_INVALID</div><div class="ttdef"><b>Definition:</b> LogCommon.h:35</div></div>
-<div class="ttc" id="aa04127_html_ad26ed09e30f81a5d2172b4793a3f2781a538b2b6e011479d408ecd2be0f6d6177"><div class="ttname"><a href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a538b2b6e011479d408ecd2be0f6d6177">LOG_LEVEL_DEBUG</a></div><div class="ttdeci">@ LOG_LEVEL_DEBUG</div><div class="ttdef"><b>Definition:</b> LogCommon.h:31</div></div>
-<div class="ttc" id="aa04127_html_ad26ed09e30f81a5d2172b4793a3f2781a5b40f003febbc3b535649d63f4b8a44f"><div class="ttname"><a href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a5b40f003febbc3b535649d63f4b8a44f">LOG_LEVEL_ERROR</a></div><div class="ttdeci">@ LOG_LEVEL_ERROR</div><div class="ttdef"><b>Definition:</b> LogCommon.h:28</div></div>
-<div class="ttc" id="aa04127_html_ad26ed09e30f81a5d2172b4793a3f2781a779dc8dd26898fb0f88cd5f6e02ba1e5"><div class="ttname"><a href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a779dc8dd26898fb0f88cd5f6e02ba1e5">LOG_LEVEL_FATAL</a></div><div class="ttdeci">@ LOG_LEVEL_FATAL</div><div class="ttdef"><b>Definition:</b> LogCommon.h:27</div></div>
-<div class="ttc" id="aa04127_html_ad26ed09e30f81a5d2172b4793a3f2781a8fa9f12103da446ab4f3d3dc2fcf7f5d"><div class="ttname"><a href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a8fa9f12103da446ab4f3d3dc2fcf7f5d">LOG_LEVEL_TRACE</a></div><div class="ttdeci">@ LOG_LEVEL_TRACE</div><div class="ttdef"><b>Definition:</b> LogCommon.h:32</div></div>
-<div class="ttc" id="aa04127_html_ad26ed09e30f81a5d2172b4793a3f2781a99c1e5c8e6d557f3993b9ab54a0107f4"><div class="ttname"><a href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781a99c1e5c8e6d557f3993b9ab54a0107f4">LOG_LEVEL_WARN</a></div><div class="ttdeci">@ LOG_LEVEL_WARN</div><div class="ttdef"><b>Definition:</b> LogCommon.h:29</div></div>
-<div class="ttc" id="aa04127_html_ad26ed09e30f81a5d2172b4793a3f2781ae44988e4cdc992741e4a39b3734e1f61"><div class="ttname"><a href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781ae44988e4cdc992741e4a39b3734e1f61">LOG_LEVEL_DISABLED</a></div><div class="ttdeci">@ LOG_LEVEL_DISABLED</div><div class="ttdef"><b>Definition:</b> LogCommon.h:26</div></div>
-<div class="ttc" id="aa04127_html_ad26ed09e30f81a5d2172b4793a3f2781aedee1e3159bfe7d918b6e29873c5aee4"><div class="ttname"><a href="../../dd/d90/a04127.html#ad26ed09e30f81a5d2172b4793a3f2781aedee1e3159bfe7d918b6e29873c5aee4">LOG_LEVEL_INFO</a></div><div class="ttdeci">@ LOG_LEVEL_INFO</div><div class="ttdef"><b>Definition:</b> LogCommon.h:30</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  139</span>{</div>
+<div class="line"><span class="lineno">  140</span>    <a class="code hl_typedef" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../da/dec/a00080.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">  141</span> </div>
+<div class="line"><span class="lineno">  142</span>    <a class="code hl_variable" href="../../d4/d7f/a04124.html#acc52416c05fbae29bcbfa9f0683485cd">SkillExtraItemStore</a>.clear();                            <span class="comment">// need for reload</span></div>
+<div class="line"><span class="lineno">  143</span> </div>
+<div class="line"><span class="lineno">  144</span>    <span class="comment">//                                                  0               1                       2                    3</span></div>
+<div class="line"><span class="lineno">  145</span>    <a class="code hl_typedef" href="../../d8/dba/a00773.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../dc/dce/a00740.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>.Query(<span class="stringliteral">&quot;SELECT spellId, requiredSpecialization, additionalCreateChance, additionalMaxNum FROM skill_extra_item_template&quot;</span>);</div>
+<div class="line"><span class="lineno">  146</span> </div>
+<div class="line"><span class="lineno">  147</span>    <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">  148</span>    {</div>
+<div class="line"><span class="lineno">  149</span>        <a class="code hl_define" href="../../d5/d35/a00266.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 spell specialization definitions. DB table `skill_extra_item_template` is empty.&quot;</span>);</div>
+<div class="line"><span class="lineno">  150</span>        <a class="code hl_define" href="../../d5/d35/a00266.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  151</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  152</span>    }</div>
+<div class="line"><span class="lineno">  153</span> </div>
+<div class="line"><span class="lineno">  154</span>    <a class="code hl_typedef" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">  155</span> </div>
+<div class="line"><span class="lineno">  156</span>    <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">  157</span>    {</div>
+<div class="line"><span class="lineno">  158</span>        <a class="code hl_class" href="../../dd/dd4/a05604.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>        <a class="code hl_typedef" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId = fields[0].<a class="code hl_function" href="../../dd/dd4/a05604.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  161</span> </div>
+<div class="line"><span class="lineno">  162</span>        <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../d4/d43/a03143.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(spellId))</div>
+<div class="line"><span class="lineno">  163</span>        {</div>
+<div class="line"><span class="lineno">  164</span>            <a class="code hl_define" href="../../d5/d35/a00266.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Skill specialization {} has non-existent spell id in `skill_extra_item_template`!&quot;</span>, spellId);</div>
+<div class="line"><span class="lineno">  165</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  166</span>        }</div>
+<div class="line"><span class="lineno">  167</span> </div>
+<div class="line"><span class="lineno">  168</span>        <a class="code hl_typedef" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> requiredSpecialization = fields[1].<a class="code hl_function" href="../../dd/dd4/a05604.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  169</span>        <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../d4/d43/a03143.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(requiredSpecialization))</div>
+<div class="line"><span class="lineno">  170</span>        {</div>
+<div class="line"><span class="lineno">  171</span>            <a class="code hl_define" href="../../d5/d35/a00266.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Skill specialization {} have not existed required specialization spell id {} in `skill_extra_item_template`!&quot;</span>, spellId, requiredSpecialization);</div>
+<div class="line"><span class="lineno">  172</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  173</span>        }</div>
+<div class="line"><span class="lineno">  174</span> </div>
+<div class="line"><span class="lineno">  175</span>        <span class="keywordtype">float</span> additionalCreateChance = fields[2].<a class="code hl_function" href="../../dd/dd4/a05604.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<span class="keywordtype">float</span>&gt;();</div>
+<div class="line"><span class="lineno">  176</span>        <span class="keywordflow">if</span> (additionalCreateChance &lt;= 0.0f)</div>
+<div class="line"><span class="lineno">  177</span>        {</div>
+<div class="line"><span class="lineno">  178</span>            <a class="code hl_define" href="../../d5/d35/a00266.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Skill specialization {} has too low additional create chance in `skill_extra_item_template`!&quot;</span>, spellId);</div>
+<div class="line"><span class="lineno">  179</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  180</span>        }</div>
+<div class="line"><span class="lineno">  181</span> </div>
+<div class="line"><span class="lineno">  182</span>        <a class="code hl_typedef" href="../../de/d4e/a00500.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> newMaxOrEntry = fields[3].<a class="code hl_function" href="../../dd/dd4/a05604.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../de/d4e/a00500.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&gt;();</div>
+<div class="line"><span class="lineno">  183</span>        <span class="keywordflow">if</span> (!newMaxOrEntry)</div>
+<div class="line"><span class="lineno">  184</span>        {</div>
+<div class="line"><span class="lineno">  185</span>            <a class="code hl_define" href="../../d5/d35/a00266.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Skill specialization {} has 0 max number of extra items in `skill_extra_item_template`!&quot;</span>, spellId);</div>
+<div class="line"><span class="lineno">  186</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  187</span>        }</div>
+<div class="line"><span class="lineno">  188</span> </div>
+<div class="line"><span class="lineno">  189</span>        <a class="code hl_struct" href="../../d9/dab/a10748.html">SkillExtraItemEntry</a>&amp; skillExtraItemEntry = <a class="code hl_variable" href="../../d4/d7f/a04124.html#acc52416c05fbae29bcbfa9f0683485cd">SkillExtraItemStore</a>[spellId];</div>
+<div class="line"><span class="lineno">  190</span> </div>
+<div class="line"><span class="lineno">  191</span>        skillExtraItemEntry.<a class="code hl_variable" href="../../d9/dab/a10748.html#a0ba0ba6f012a10b717ca4e6c2f46cf26">requiredSpecialization</a> = requiredSpecialization;</div>
+<div class="line"><span class="lineno">  192</span>        skillExtraItemEntry.<a class="code hl_variable" href="../../d9/dab/a10748.html#a299d886468e9caf22f9d6ce80a64c247">additionalCreateChance</a> = additionalCreateChance;</div>
+<div class="line"><span class="lineno">  193</span>        skillExtraItemEntry.<a class="code hl_variable" href="../../d9/dab/a10748.html#adfda967d36154b039495f0b289a5c9d1">newMaxOrEntry</a>          = newMaxOrEntry;</div>
+<div class="line"><span class="lineno">  194</span> </div>
+<div class="line"><span class="lineno">  195</span>        ++count;</div>
+<div class="line"><span class="lineno">  196</span>    } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">  197</span> </div>
+<div class="line"><span class="lineno">  198</span>    <a class="code hl_define" href="../../d5/d35/a00266.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} spell specialization definitions in {} ms&quot;</span>, count, <a class="code hl_function" href="../../da/dec/a00080.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">  199</span>    <a class="code hl_define" href="../../d5/d35/a00266.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  200</span>}</div>
+<div class="ttc" id="aa00080_html_a23a2c8663a05f2b03a6f85501972e8c0"><div class="ttname"><a href="../../da/dec/a00080.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a></div><div class="ttdeci">uint32 GetMSTimeDiffToNow(uint32 oldMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:131</div></div>
+<div class="ttc" id="aa00080_html_a4476c8e13ea790c3536f2749105f9cb9"><div class="ttname"><a href="../../da/dec/a00080.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a></div><div class="ttdeci">uint32 getMSTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:103</div></div>
+<div class="ttc" id="aa00266_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d5/d35/a00266.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:164</div></div>
+<div class="ttc" id="aa00266_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d5/d35/a00266.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:156</div></div>
+<div class="ttc" id="aa00266_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../d5/d35/a00266.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:160</div></div>
+<div class="ttc" id="aa00500_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../de/d4e/a00500.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:103</div></div>
+<div class="ttc" id="aa00500_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa00740_html_afa9a6509f9913c9c7dd3081523badd7c"><div class="ttname"><a href="../../dc/dce/a00740.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; WorldDatabaseConnection &gt; WorldDatabase</div><div class="ttdoc">Accessor to the world database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:20</div></div>
+<div class="ttc" id="aa00773_html_ab0c9feeec448a181290fcb39565b8253"><div class="ttname"><a href="../../d8/dba/a00773.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a></div><div class="ttdeci">std::shared_ptr&lt; ResultSet &gt; QueryResult</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:28</div></div>
+<div class="ttc" id="aa03143_html_aa21e14d8e1145507b746a69b5487109d"><div class="ttname"><a href="../../d4/d43/a03143.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a></div><div class="ttdeci">#define sSpellMgr</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:825</div></div>
+<div class="ttc" id="aa05604_html"><div class="ttname"><a href="../../dd/dd4/a05604.html">Field</a></div><div class="ttdoc">Class used to access individual fields of database query result.</div><div class="ttdef"><b>Definition:</b> Field.h:99</div></div>
+<div class="ttc" id="aa05604_html_aae507d21d3570ffdaf1643ba02946f01"><div class="ttname"><a href="../../dd/dd4/a05604.html#aae507d21d3570ffdaf1643ba02946f01">Field::Get</a></div><div class="ttdeci">std::enable_if_t&lt; std::is_arithmetic_v&lt; T &gt;, T &gt; Get() const</div><div class="ttdef"><b>Definition:</b> Field.h:113</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00121">SkillExtraItemEntry::additionalCreateChance</a>, <a class="el" href="../../#l00113">Field::Get()</a>, <a class="el" href="../../#l00103">getMSTime()</a>, <a class="el" href="../../#l00131">GetMSTimeDiffToNow()</a>, <a class="el" href="../../#l00156">LOG_ERROR</a>, <a class="el" href="../../#l00164">LOG_INFO</a>, <a class="el" href="../../#l00160">LOG_WARN</a>, <a class="el" href="../../#l00123">SkillExtraItemEntry::newMaxOrEntry</a>, <a class="el" href="../../#l00119">SkillExtraItemEntry::requiredSpecialization</a>, <a class="el" href="../../#l00135">SkillExtraItemStore</a>, <a class="el" href="../../#l00825">sSpellMgr</a>, and <a class="el" href="../../#l00020">WorldDatabase</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00837">reload_commandscript::HandleReloadSkillExtraItemTemplateCommand()</a>, and <a class="el" href="../../#l01493">World::SetInitialWorldSettings()</a>.</p>
+
+</div>
+</div>
+<a id="a121df170a82be5ab5b05999a6be27b69" name="a121df170a82be5ab5b05999a6be27b69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a121df170a82be5ab5b05999a6be27b69">&#9670;&#160;</a></span>LoadSkillPerfectItemTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LoadSkillPerfectItemTable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   53</span>{</div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_typedef" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../da/dec/a00080.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_variable" href="../../d4/d7f/a04124.html#ac676f0acbf782fa2d31bd66b8eaa8260">SkillPerfectItemStore</a>.clear(); <span class="comment">// reload capability</span></div>
+<div class="line"><span class="lineno">   57</span> </div>
+<div class="line"><span class="lineno">   58</span>    <span class="comment">//                                                  0               1                      2                  3</span></div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_typedef" href="../../d8/dba/a00773.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../dc/dce/a00740.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>.Query(<span class="stringliteral">&quot;SELECT spellId, requiredSpecialization, perfectCreateChance, perfectItemType FROM skill_perfect_item_template&quot;</span>);</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>    <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">   62</span>    {</div>
+<div class="line"><span class="lineno">   63</span>        <a class="code hl_define" href="../../d5/d35/a00266.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 spell perfection definitions. DB table `skill_perfect_item_template` is empty.&quot;</span>);</div>
+<div class="line"><span class="lineno">   64</span>        <a class="code hl_define" href="../../d5/d35/a00266.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">   65</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   66</span>    }</div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_typedef" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>    <span class="keywordflow">do</span> <span class="comment">/* fetch data and run sanity checks */</span></div>
+<div class="line"><span class="lineno">   71</span>    {</div>
+<div class="line"><span class="lineno">   72</span>        <a class="code hl_class" href="../../dd/dd4/a05604.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">   73</span> </div>
+<div class="line"><span class="lineno">   74</span>        <a class="code hl_typedef" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId = fields[0].<a class="code hl_function" href="../../dd/dd4/a05604.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>        <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../d4/d43/a03143.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(spellId))</div>
+<div class="line"><span class="lineno">   77</span>        {</div>
+<div class="line"><span class="lineno">   78</span>            <a class="code hl_define" href="../../d5/d35/a00266.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Skill perfection data for spell {} has non-existent spell id in `skill_perfect_item_template`!&quot;</span>, spellId);</div>
+<div class="line"><span class="lineno">   79</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   80</span>        }</div>
+<div class="line"><span class="lineno">   81</span> </div>
+<div class="line"><span class="lineno">   82</span>        <a class="code hl_typedef" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> requiredSpecialization = fields[1].<a class="code hl_function" href="../../dd/dd4/a05604.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">   83</span>        <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../d4/d43/a03143.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(requiredSpecialization))</div>
+<div class="line"><span class="lineno">   84</span>        {</div>
+<div class="line"><span class="lineno">   85</span>            <a class="code hl_define" href="../../d5/d35/a00266.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Skill perfection data for spell {} has non-existent required specialization spell id {} in `skill_perfect_item_template`!&quot;</span>, spellId, requiredSpecialization);</div>
+<div class="line"><span class="lineno">   86</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   87</span>        }</div>
+<div class="line"><span class="lineno">   88</span> </div>
+<div class="line"><span class="lineno">   89</span>        <span class="keywordtype">float</span> perfectCreateChance = fields[2].<a class="code hl_function" href="../../dd/dd4/a05604.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<span class="keywordtype">float</span>&gt;();</div>
+<div class="line"><span class="lineno">   90</span>        <span class="keywordflow">if</span> (perfectCreateChance &lt;= 0.0f)</div>
+<div class="line"><span class="lineno">   91</span>        {</div>
+<div class="line"><span class="lineno">   92</span>            <a class="code hl_define" href="../../d5/d35/a00266.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Skill perfection data for spell {} has impossibly low proc chance in `skill_perfect_item_template`!&quot;</span>, spellId);</div>
+<div class="line"><span class="lineno">   93</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   94</span>        }</div>
+<div class="line"><span class="lineno">   95</span> </div>
+<div class="line"><span class="lineno">   96</span>        <a class="code hl_typedef" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> perfectItemType = fields[3].<a class="code hl_function" href="../../dd/dd4/a05604.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">   97</span>        <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../d5/d56/a03437.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(perfectItemType))</div>
+<div class="line"><span class="lineno">   98</span>        {</div>
+<div class="line"><span class="lineno">   99</span>            <a class="code hl_define" href="../../d5/d35/a00266.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Skill perfection data for spell {} references non-existent perfect item id {} in `skill_perfect_item_template`!&quot;</span>, spellId, perfectItemType);</div>
+<div class="line"><span class="lineno">  100</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  101</span>        }</div>
+<div class="line"><span class="lineno">  102</span> </div>
+<div class="line"><span class="lineno">  103</span>        <a class="code hl_struct" href="../../d9/dc8/a10744.html">SkillPerfectItemEntry</a>&amp; skillPerfectItemEntry = <a class="code hl_variable" href="../../d4/d7f/a04124.html#ac676f0acbf782fa2d31bd66b8eaa8260">SkillPerfectItemStore</a>[spellId];</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>        skillPerfectItemEntry.<a class="code hl_variable" href="../../d9/dc8/a10744.html#aa7ad968ab1b8804ee8f0f8f40bc6f762">requiredSpecialization</a> = requiredSpecialization;</div>
+<div class="line"><span class="lineno">  106</span>        skillPerfectItemEntry.<a class="code hl_variable" href="../../d9/dc8/a10744.html#a750d5ab6bc3df0026e640f1c84de8547">perfectCreateChance</a> = perfectCreateChance;</div>
+<div class="line"><span class="lineno">  107</span>        skillPerfectItemEntry.<a class="code hl_variable" href="../../d9/dc8/a10744.html#a057605f8867d4df5cb290318598a2908">perfectItemType</a> = perfectItemType;</div>
+<div class="line"><span class="lineno">  108</span> </div>
+<div class="line"><span class="lineno">  109</span>        ++count;</div>
+<div class="line"><span class="lineno">  110</span>    } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">  111</span> </div>
+<div class="line"><span class="lineno">  112</span>    <a class="code hl_define" href="../../d5/d35/a00266.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} spell perfection definitions in {} ms&quot;</span>, count, <a class="code hl_function" href="../../da/dec/a00080.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">  113</span>    <a class="code hl_define" href="../../d5/d35/a00266.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  114</span>}</div>
+<div class="ttc" id="aa03437_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d5/d56/a03437.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1623</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00113">Field::Get()</a>, <a class="el" href="../../#l00103">getMSTime()</a>, <a class="el" href="../../#l00131">GetMSTimeDiffToNow()</a>, <a class="el" href="../../#l00156">LOG_ERROR</a>, <a class="el" href="../../#l00164">LOG_INFO</a>, <a class="el" href="../../#l00160">LOG_WARN</a>, <a class="el" href="../../#l00036">SkillPerfectItemEntry::perfectCreateChance</a>, <a class="el" href="../../#l00038">SkillPerfectItemEntry::perfectItemType</a>, <a class="el" href="../../#l00034">SkillPerfectItemEntry::requiredSpecialization</a>, <a class="el" href="../../#l00049">SkillPerfectItemStore</a>, <a class="el" href="../../#l01623">sObjectMgr</a>, <a class="el" href="../../#l00825">sSpellMgr</a>, and <a class="el" href="../../#l00020">WorldDatabase</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00828">reload_commandscript::HandleReloadSkillPerfectItemTemplateCommand()</a>, and <a class="el" href="../../#l01493">World::SetInitialWorldSettings()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -287,8 +453,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_49d9b0eb8d4d4d09ace2afc83042ece5.html">Logging</a></li><li class="navelem"><a class="el" href="../../dd/d90/a04127.html">LogCommon.h</a></li>
-    <li class="footer">Generated on Mon Sep 9 2024 20:38:24 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5a2c13ae9bc3295bd742513a14fb043b.html">Skills</a></li><li class="navelem"><a class="el" href="../../dd/d90/a04127.html">SkillExtraItems.h</a></li>
+    <li class="footer">Generated on Mon Sep 16 2024 20:40:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

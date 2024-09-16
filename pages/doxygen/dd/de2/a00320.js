@@ -1,5 +1,5 @@
 var a00320 =
 [
-    [ "achievIdByArenaSlot", "dd/de2/a00320.html#a5264f22d916c9472e9a16ac52140f87c", null ],
-    [ "achievIdForDungeon", "dd/de2/a00320.html#ac50d520adf892744d066d8c5187046b0", null ]
+    [ "MAP_FILE_NAME_FORMAT", "dd/de2/a00320.html#a1d57d156046bda88886b7488ab0b83bc", null ],
+    [ "TILE_FILE_NAME_FORMAT", "dd/de2/a00320.html#a27e34ce3b8808f2aa889e5c4e623059a", null ]
 ];

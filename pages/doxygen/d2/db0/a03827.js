@@ -1,75 +1,126 @@
 var a03827 =
 [
-    [ "NPCStaveQuestAI", "d0/d26/a27408.html", "d0/d26/a27408" ],
-    [ "Common", "d2/db0/a03827.html#a2898ea5b5bdc6f6ebd68c36327a6cecd", [
-      [ "GOSSIP_EVENT_START_OPTION_ID", "d2/db0/a03827.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf2a660132a0a17288b1831007b938936", null ],
-      [ "EVENT_ENCOUNTER_START", "d2/db0/a03827.html#a2898ea5b5bdc6f6ebd68c36327a6cecda0f5bec07177a7a6bdbdf76abcbadf05a", null ],
-      [ "EVENT_REVEAL", "d2/db0/a03827.html#a2898ea5b5bdc6f6ebd68c36327a6cecdab1074563852eb0de868ad858b218823c", null ],
-      [ "EVENT_FOOLS_PLIGHT", "d2/db0/a03827.html#a2898ea5b5bdc6f6ebd68c36327a6cecda2ec763aa4426d90ec616777639d20d1c", null ],
-      [ "EVENT_RANGE_CHECK", "d2/db0/a03827.html#a2898ea5b5bdc6f6ebd68c36327a6cecda7fcd9a3142a87856248cbc51a25268ee", null ],
-      [ "EVENT_UNFAIR_FIGHT", "d2/db0/a03827.html#a2898ea5b5bdc6f6ebd68c36327a6cecda1d894628cbd27d1bcf490577a9ae22f0", null ],
-      [ "QUEST_STAVE_OF_THE_ANCIENTS", "d2/db0/a03827.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf1e382929ce37d0beeb97fd31eaed5e2", null ],
-      [ "SPELL_FEIGN_DEATH", "d2/db0/a03827.html#a2898ea5b5bdc6f6ebd68c36327a6cecda882c4c20d663e5bbdb81fc74aacf77c8", null ],
-      [ "SPELL_DEMONIC_ENRAGE", "d2/db0/a03827.html#a2898ea5b5bdc6f6ebd68c36327a6cecda607e929a10d88ac2761d12fef6cab706", null ],
-      [ "SPELL_FOOLS_PLIGHT", "d2/db0/a03827.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf781ca12c0d42795eae352e22e9f89ee", null ]
+    [ "PetStable", "d7/d21/a08232.html", "d7/d21/a08232" ],
+    [ "PetStable::PetInfo", "d2/d05/a08236.html", "d2/d05/a08236" ],
+    [ "PET_FOLLOW_ANGLE", "d2/db0/a03827.html#a346068e848cb7777695f170d2c7958de", null ],
+    [ "PET_FOLLOW_DIST", "d2/db0/a03827.html#a83e96c6d024ceb5d1189baac7b823d5d", null ],
+    [ "ActionFeedback", "d2/db0/a03827.html#aeb5551b3f37a2573e008d2d5d865359d", [
+      [ "FEEDBACK_NONE", "d2/db0/a03827.html#aeb5551b3f37a2573e008d2d5d865359dac70a05f4ef81ef0dd1eb55ab74779fba", null ],
+      [ "FEEDBACK_PET_DEAD", "d2/db0/a03827.html#aeb5551b3f37a2573e008d2d5d865359da482a5e311921dbd1dfab7521309f18c1", null ],
+      [ "FEEDBACK_NOTHING_TO_ATT", "d2/db0/a03827.html#aeb5551b3f37a2573e008d2d5d865359da3706032c84734c5ac7a062f213a55c5d", null ],
+      [ "FEEDBACK_CANT_ATT_TARGET", "d2/db0/a03827.html#aeb5551b3f37a2573e008d2d5d865359da7ab57d203acda1a7175c48b188c1cbf4", null ]
     ] ],
-    [ "NPCArtorius", "d2/db0/a03827.html#abe201f9ef5f58feb36b74aed845c1ede", [
-      [ "ARTORIUS_EVENT_DEMONIC_DOOM", "d2/db0/a03827.html#abe201f9ef5f58feb36b74aed845c1edea5630fafdd2954b2520ba2b721872555f", null ],
-      [ "ARTORIUS_EVENT_DEMONIC_ENRAGE", "d2/db0/a03827.html#abe201f9ef5f58feb36b74aed845c1edea45adb6c2214dbf19fde4a3273ca3ad24", null ],
-      [ "ARTORIUS_WEAKNESS_EMOTE", "d2/db0/a03827.html#abe201f9ef5f58feb36b74aed845c1edea07c2a58a57c5aaac815f93d435707ba8", null ],
-      [ "ARTORIUS_SAY", "d2/db0/a03827.html#abe201f9ef5f58feb36b74aed845c1edea980b15e2a702653cf8a1d03ffb34d236", null ],
-      [ "ARTORIUS_NORMAL_ENTRY", "d2/db0/a03827.html#abe201f9ef5f58feb36b74aed845c1edea8aff1ec4cbd2e1493b173f0d079e6015", null ],
-      [ "ARTORIUS_EVIL_ENTRY", "d2/db0/a03827.html#abe201f9ef5f58feb36b74aed845c1edea5bd83368acfd9f2af012a6f80d9fc84e", null ],
-      [ "ARTORIUS_HEAD", "d2/db0/a03827.html#abe201f9ef5f58feb36b74aed845c1edea7dfe6305ba551298a4074c2aba0cdd62", null ],
-      [ "ARTORIUS_SPELL_DEMONIC_DOOM", "d2/db0/a03827.html#abe201f9ef5f58feb36b74aed845c1edeadc3e9c5249b4da7a9f2e1c97caaa900e", null ],
-      [ "ARTORIUS_SPELL_STINGING_TRAUMA", "d2/db0/a03827.html#abe201f9ef5f58feb36b74aed845c1edeaf78c2ad18353df6ab6937f7e48ee8363", null ]
+    [ "HappinessState", "d2/db0/a03827.html#addd416d6eeaa9cd92339aa437caedb3e", [
+      [ "UNHAPPY", "d2/db0/a03827.html#addd416d6eeaa9cd92339aa437caedb3eae373c6b52d4a8b45084f4a276fb6d6c5", null ],
+      [ "CONTENT", "d2/db0/a03827.html#addd416d6eeaa9cd92339aa437caedb3ea59ae17a687995046ac7025dcc53156e3", null ],
+      [ "HAPPY", "d2/db0/a03827.html#addd416d6eeaa9cd92339aa437caedb3ea5592cf91bd70788e64c412b3cc642e2c", null ]
     ] ],
-    [ "NPCFranklin", "d2/db0/a03827.html#a16be495faad2ebc93bc68267328d78c0", [
-      [ "FRANKLIN_EVENT_DEMONIC_ENRAGE", "d2/db0/a03827.html#a16be495faad2ebc93bc68267328d78c0ae616cb7a6f91a45be7c3a8d19650b774", null ],
-      [ "FRANKLIN_SAY", "d2/db0/a03827.html#a16be495faad2ebc93bc68267328d78c0a550bafc03ddc74e0ecf73a9f4cba3a2e", null ],
-      [ "FRANKLIN_ENRAGE_EMOTE", "d2/db0/a03827.html#a16be495faad2ebc93bc68267328d78c0ab16e542061d6af16958045076a03ba67", null ],
-      [ "FRANKLIN_DESPAWN_SAY", "d2/db0/a03827.html#a16be495faad2ebc93bc68267328d78c0a844b5a83e900c9c660276a0ad26d2842", null ],
-      [ "FRANKLIN_NORMAL_ENTRY", "d2/db0/a03827.html#a16be495faad2ebc93bc68267328d78c0af9bbce82aff6a6472a73ef14ecef5a5c", null ],
-      [ "FRANKLIN_EVIL_ENTRY", "d2/db0/a03827.html#a16be495faad2ebc93bc68267328d78c0a5cf966dad889c919847929436971f40d", null ],
-      [ "FRANKLIN_HEAD", "d2/db0/a03827.html#a16be495faad2ebc93bc68267328d78c0a895e6fec3b7df29b1c8e98b1b5f5dfe0", null ],
-      [ "FRANKLIN_WEAKNESS_SCORPID_STING", "d2/db0/a03827.html#a16be495faad2ebc93bc68267328d78c0a4c2dde25de7b18cdde01eddb47a39601", null ],
-      [ "FRANKLIN_SPELL_ENTROPIC_STING", "d2/db0/a03827.html#a16be495faad2ebc93bc68267328d78c0aee0f260a794aacbd8616fa9970c47589", null ]
+    [ "NPCEntries", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444", [
+      [ "NPC_INFERNAL", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444a7649ec86e3d554592e40261d7ef9d6b4", null ],
+      [ "NPC_IMP", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444aba3078844283f4675371b340bff7f388", null ],
+      [ "NPC_FELHUNTER", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444a5b3ba01209b2360ac5dd4123226be1dd", null ],
+      [ "NPC_VOIDWALKER", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444afc9fa9a48f3bbd51b632f1686e212bc6", null ],
+      [ "NPC_SUCCUBUS", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444a70e52bdee0bcef5ecf339efa964e5d00", null ],
+      [ "NPC_DOOMGUARD", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444a3b9805558d7366ab00e92a1472291072", null ],
+      [ "NPC_FELGUARD", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444acc019a6183e4f640b97a7a978ac06e77", null ],
+      [ "NPC_EYE_OF_KILROGG", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444a978a28a5849352abc318d322b55cc27e", null ],
+      [ "NPC_WATER_ELEMENTAL_TEMP", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444a187b9625022c1735c982b1e3c50dd561", null ],
+      [ "NPC_MIRROR_IMAGE", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444ad3cadc6c088784fc95c22fd29d79d673", null ],
+      [ "NPC_WATER_ELEMENTAL_PERM", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444ad900fe3d87a882f21dd089cb3dbe1b7f", null ],
+      [ "NPC_TREANT", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444a4743da68e375dd7cc3245a19ec093c3a", null ],
+      [ "NPC_SHADOWFIEND", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444a627fb9c3579d69d90e2410ded3232bdb", null ],
+      [ "NPC_FIRE_ELEMENTAL", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444aa2589181c17815e15225099063095d1f", null ],
+      [ "NPC_EARTH_ELEMENTAL", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444a394617258d75d5e3c8d1db61a031efae", null ],
+      [ "NPC_FERAL_SPIRIT", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444a33161649be8fb2bd8709bc5fbe546690", null ],
+      [ "NPC_RISEN_GHOUL", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444a433b2b11b86096b58fd668efab323805", null ],
+      [ "NPC_BLOODWORM", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444a915a8cd5718e9f29cf0d0931a478aefb", null ],
+      [ "NPC_ARMY_OF_THE_DEAD", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444a7cb0d9dcafd074a0e7fbb1bf8b49b585", null ],
+      [ "NPC_EBON_GARGOYLE", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444a45a40ecb5ae22c4d7995e5a572058458", null ],
+      [ "NPC_VENOMOUS_SNAKE", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444a8556c5e53b97491bb1f5cecab8742393", null ],
+      [ "NPC_VIPER", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444a97c8939d68493bb1cb2fc16ed28203b6", null ],
+      [ "NPC_GENERIC_IMP", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444afca2c65aa34112502cc617b12374e988", null ],
+      [ "NPC_GENERIC_VOIDWALKER", "d2/db0/a03827.html#a639089e6e6026ab7c06fbbe23f857444accb660cc28729ef2eae9139f280e09b1", null ]
     ] ],
-    [ "NPCNelson", "d2/db0/a03827.html#ad8c06f7bd08693fefc384a9896581248", [
-      [ "NELSON_EVENT_DREADFUL_FRIGHT", "d2/db0/a03827.html#ad8c06f7bd08693fefc384a9896581248a0110a6743a2be1f6b1686e1c80a1ab9f", null ],
-      [ "NELSON_EVENT_CREEPING_DOOM", "d2/db0/a03827.html#ad8c06f7bd08693fefc384a9896581248a570c75d31f474e305588b313cb74fa2a", null ],
-      [ "NELSON_SAY", "d2/db0/a03827.html#ad8c06f7bd08693fefc384a9896581248a3a8074ec57e11c8646aa853eb0fc574d", null ],
-      [ "NELSON_WEAKNESS_EMOTE", "d2/db0/a03827.html#ad8c06f7bd08693fefc384a9896581248abb3404c3907acebfdbf1102d6dc34041", null ],
-      [ "NELSON_DESPAWN_SAY", "d2/db0/a03827.html#ad8c06f7bd08693fefc384a9896581248a5df97a8c38be38427c8dea2f63034605", null ],
-      [ "NELSON_NORMAL_ENTRY", "d2/db0/a03827.html#ad8c06f7bd08693fefc384a9896581248a0fe2e60baa947b6fcd3d0a6736a9a7ff", null ],
-      [ "NELSON_EVIL_ENTRY", "d2/db0/a03827.html#ad8c06f7bd08693fefc384a9896581248aea664410af0966c75d8c81ca790c1463", null ],
-      [ "CREEPING_DOOM_ENTRY", "d2/db0/a03827.html#ad8c06f7bd08693fefc384a9896581248a9300940a11d265d7b0c4f85422830a50", null ],
-      [ "NELSON_HEAD", "d2/db0/a03827.html#ad8c06f7bd08693fefc384a9896581248a32250a2a128ab64840b48aa2e45594fb", null ],
-      [ "NELSON_WEAKNESS_WING_CLIP", "d2/db0/a03827.html#ad8c06f7bd08693fefc384a9896581248a74f08862597370408b33e568ea6a173a", null ],
-      [ "NELSON_WEAKNESS_FROST_TRAP", "d2/db0/a03827.html#ad8c06f7bd08693fefc384a9896581248a67cc21ff77c5f4888e7be11fe8b76de1", null ],
-      [ "NELSON_SPELL_SOUL_FLAME", "d2/db0/a03827.html#ad8c06f7bd08693fefc384a9896581248a90773794bb36fe4afd1df8465b4476ae", null ],
-      [ "NELSON_SPELL_DREADFUL_FRIGHT", "d2/db0/a03827.html#ad8c06f7bd08693fefc384a9896581248ab5e17fcc103d5693704ebb772ced41c8", null ],
-      [ "NELSON_SPELL_CRIPPLING_CLIP", "d2/db0/a03827.html#ad8c06f7bd08693fefc384a9896581248af258b492afa6684ce60918ec506e0474", null ],
-      [ "NELSON_SPELL_CREEPING_DOOM", "d2/db0/a03827.html#ad8c06f7bd08693fefc384a9896581248a2b343ce324b5fb0ffc7109e79ce0ec80", null ]
+    [ "PetLoadState", "d2/db0/a03827.html#a80290db1e4b163e172e9bd2cf5cb6d6b", [
+      [ "PET_LOAD_OK", "d2/db0/a03827.html#a80290db1e4b163e172e9bd2cf5cb6d6ba398819a3c83d6ad80812d1dca2039d64", null ],
+      [ "PET_LOAD_NO_RESULT", "d2/db0/a03827.html#a80290db1e4b163e172e9bd2cf5cb6d6ba2e0f5a56669ad0bd1e738d94090e06cc", null ],
+      [ "PET_LOAD_ERROR", "d2/db0/a03827.html#a80290db1e4b163e172e9bd2cf5cb6d6ba22f9afd7d3f47ad0de0d10534e0275b1", null ]
     ] ],
-    [ "NPCPrecious", "d2/db0/a03827.html#aa5ed2f1543f33f7119a73d663739cb5a", [
-      [ "PRECIOUS_NORMAL_ENTRY", "d2/db0/a03827.html#aa5ed2f1543f33f7119a73d663739cb5aa01a00ad67f65745c45300c65fb85a329", null ],
-      [ "PRECIOUS_EVIL_ENTRY", "d2/db0/a03827.html#aa5ed2f1543f33f7119a73d663739cb5aa537440d3949e818014bd5962f1faab81", null ]
+    [ "PetSaveMode", "d2/db0/a03827.html#a6950071a5ecec4c8754d5fbb9908bc31", [
+      [ "PET_SAVE_AS_DELETED", "d2/db0/a03827.html#a6950071a5ecec4c8754d5fbb9908bc31ae32b2ad103ad490f5f16a85f9a173dd1", null ],
+      [ "PET_SAVE_AS_CURRENT", "d2/db0/a03827.html#a6950071a5ecec4c8754d5fbb9908bc31afd6db825b6f344f6f64ae53dc19cf503", null ],
+      [ "PET_SAVE_FIRST_STABLE_SLOT", "d2/db0/a03827.html#a6950071a5ecec4c8754d5fbb9908bc31a15e00cc5539d2c9254cb9b310ebcc712", null ],
+      [ "PET_SAVE_LAST_STABLE_SLOT", "d2/db0/a03827.html#a6950071a5ecec4c8754d5fbb9908bc31a20411938f7cc7a5140e3b7006d54d851", null ],
+      [ "PET_SAVE_NOT_IN_SLOT", "d2/db0/a03827.html#a6950071a5ecec4c8754d5fbb9908bc31ae55abbb64855962852c91fb8638ad6cd", null ]
     ] ],
-    [ "NPCSimone", "d2/db0/a03827.html#ac2bd4827fd0d6efa51d00cda84192699", [
-      [ "SIMONE_EVENT_TALK", "d2/db0/a03827.html#ac2bd4827fd0d6efa51d00cda84192699a816e796693162a325889759fec978faf", null ],
-      [ "SIMONE_EVENT_CHECK_PET_STATE", "d2/db0/a03827.html#ac2bd4827fd0d6efa51d00cda84192699aaaf2d11bfd889a617e21d7d27c4a147d", null ],
-      [ "SIMONE_EVENT_CHAIN_LIGHTNING", "d2/db0/a03827.html#ac2bd4827fd0d6efa51d00cda84192699a1479d23f092d0513368359e90ef569c2", null ],
-      [ "SIMONE_EVENT_TEMPTRESS_KISS", "d2/db0/a03827.html#ac2bd4827fd0d6efa51d00cda84192699af60fa3aee8dd197cc23ec263218d2757", null ],
-      [ "SIMONE_EMOTE", "d2/db0/a03827.html#ac2bd4827fd0d6efa51d00cda84192699a5fe44bebd8a62f2d15aff79bddeb5786", null ],
-      [ "SIMONE_SAY", "d2/db0/a03827.html#ac2bd4827fd0d6efa51d00cda84192699a5a37bd0ac82d9ed49b7cf13b0921293d", null ],
-      [ "SIMONE_WEAKNESS_EMOTE", "d2/db0/a03827.html#ac2bd4827fd0d6efa51d00cda84192699a1efe1796dc81c4cc729abeaf3bebdf45", null ],
-      [ "SIMONE_NORMAL_ENTRY", "d2/db0/a03827.html#ac2bd4827fd0d6efa51d00cda84192699a7b49323d8ed43bd879d95e4798eadbd0", null ],
-      [ "SIMONE_EVIL_ENTRY", "d2/db0/a03827.html#ac2bd4827fd0d6efa51d00cda84192699a782c849344053aef075d44e2a306fd80", null ],
-      [ "SIMONE_HEAD", "d2/db0/a03827.html#ac2bd4827fd0d6efa51d00cda84192699a3e7f38d02528648ac55edd93db080e9f", null ],
-      [ "SIMONE_SPELL_WEAKNESS_VIPER_STING", "d2/db0/a03827.html#ac2bd4827fd0d6efa51d00cda84192699ad4d7fe972b6e280e7b144da8d2ebefd8", null ],
-      [ "SIMONE_SPELL_TEMPTRESS_KISS", "d2/db0/a03827.html#ac2bd4827fd0d6efa51d00cda84192699abb9f754a03ddaddc3e1f21615562d1b6", null ],
-      [ "SIMONE_SPELL_CHAIN_LIGHTNING", "d2/db0/a03827.html#ac2bd4827fd0d6efa51d00cda84192699a98bccf366154d8dbc5a65b4c1e9a466d", null ],
-      [ "SIMONE_SPELL_SILENCE", "d2/db0/a03827.html#ac2bd4827fd0d6efa51d00cda84192699a06f4aa887fa7256bf35a2f460bce1b76", null ]
-    ] ]
+    [ "PetScalingSpells", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7", [
+      [ "SPELL_PET_AVOIDANCE", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a213f9282a4c8984e0f80f63df1ee0070", null ],
+      [ "SPELL_HUNTER_PET_SCALING_01", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7afc2b3803754317188944414d9d114096", null ],
+      [ "SPELL_HUNTER_PET_SCALING_02", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a0aa0c961bdeac93e543d7220a231efb9", null ],
+      [ "SPELL_HUNTER_PET_SCALING_03", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a523d81cbe2125a5cdbda159bc5444a7c", null ],
+      [ "SPELL_HUNTER_PET_SCALING_04", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7ada18b11c9d47b0e6c05afaec6f7a72f8", null ],
+      [ "SPELL_WARLOCK_PET_SCALING_01", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a68afdc270a10bf20bb964e9c9ebc6faf", null ],
+      [ "SPELL_WARLOCK_PET_SCALING_02", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a07349db70c3ae7222953ed7d5a4cef6e", null ],
+      [ "SPELL_WARLOCK_PET_SCALING_03", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a99f7796b3cf9ccc769a08e98b24043fd", null ],
+      [ "SPELL_WARLOCK_PET_SCALING_04", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a47e6e2fa037fecebc1af203e75d24969", null ],
+      [ "SPELL_WARLOCK_PET_SCALING_05", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a8a1cea13fabc3596e95b0db19d1be136", null ],
+      [ "SPELL_GLYPH_OF_FELGUARD", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7ab44293fb8eefd08c5a3fa1c1b7a98484", null ],
+      [ "SPELL_GLYPH_OF_VOIDWALKER", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7ad5a1b8b9a373b191fbba4ae8b615ff9f", null ],
+      [ "SPELL_INFERNAL_SCALING_01", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7ac0ce7e2fd17af5dd8ba7a7a41b59771f", null ],
+      [ "SPELL_INFERNAL_SCALING_02", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a1312d5c9b922188d01ddc00f85de7a0a", null ],
+      [ "SPELL_INFERNAL_SCALING_03", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a3c81eec4319d5a2e198cc3351a7be0f4", null ],
+      [ "SPELL_INFERNAL_SCALING_04", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a875b79e5c78f8045e0cadb1fbab5b75f", null ],
+      [ "SPELL_RITUAL_ENSLAVEMENT", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a649dbeeb0f21207afcb4ef873854d693", null ],
+      [ "SPELL_FERAL_SPIRIT_SPIRIT_HUNT", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7aa98dce0a252fe8372b4a575b62cfaa60", null ],
+      [ "SPELL_FERAL_SPIRIT_SCALING_01", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7ab1f9bb2866a94ed84957bea3df721286", null ],
+      [ "SPELL_FERAL_SPIRIT_SCALING_02", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7aa0df7b0f00d550505c4efb24bc59634f", null ],
+      [ "SPELL_FERAL_SPIRIT_SCALING_03", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a1517c7eb9a168500db21bdc6c7a1a7e8", null ],
+      [ "SPELL_FIRE_ELEMENTAL_SCALING_01", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a49c674bb42727bc9b76c7f325413b3cb", null ],
+      [ "SPELL_FIRE_ELEMENTAL_SCALING_02", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a0a80e1e5e59ea98d4f2479a9c77abc38", null ],
+      [ "SPELL_FIRE_ELEMENTAL_SCALING_03", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a168170eaf66f49c4f8634b7d638eb71d", null ],
+      [ "SPELL_FIRE_ELEMENTAL_SCALING_04", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7abf74bb42ca9745a4011188bb4c0bd8f3", null ],
+      [ "SPELL_EARTH_ELEMENTAL_SCALING_01", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7adb313babb884dad4956abf58d57de95e", null ],
+      [ "SPELL_EARTH_ELEMENTAL_SCALING_02", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a10924dd5bdf6d5e874dc90169d7428c0", null ],
+      [ "SPELL_EARTH_ELEMENTAL_SCALING_03", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7ab61635121ed96902f723447c1b10ecb1", null ],
+      [ "SPELL_EARTH_ELEMENTAL_SCALING_04", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a4ab50802fb664ca0d1e2c3ef03681b6a", null ],
+      [ "SPELL_ORC_RACIAL_COMMAND_SHAMAN", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7af4d234994240de4c26f93892432a8111", null ],
+      [ "SPELL_SHADOWFIEND_SCALING_01", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a43d8df8353834d274815da41bec89570", null ],
+      [ "SPELL_SHADOWFIEND_SCALING_02", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7ae38164dbcbd78aef01f5cd35de1bb4c6", null ],
+      [ "SPELL_SHADOWFIEND_SCALING_03", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a18b2632c7e6f3079e8a2cafa094d1477", null ],
+      [ "SPELL_SHADOWFIEND_SCALING_04", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7afc5d780d570f160ba40cfb71847ea0cd", null ],
+      [ "SPELL_TREANT_SCALING_01", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a758b263cd219e77d674d77ed574653ba", null ],
+      [ "SPELL_TREANT_SCALING_02", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7ac415e03f215ff98dfd7f69687b2824cc", null ],
+      [ "SPELL_TREANT_SCALING_03", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a91b8767c2a50b9e67fcbc59e2454643d", null ],
+      [ "SPELL_TREANT_SCALING_04", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a17ac2d316ec1de174e4ec1ddf8f22a9a", null ],
+      [ "SPELL_MAGE_PET_SCALING_01", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a240acb20321b160a3a785a61bd6335ff", null ],
+      [ "SPELL_MAGE_PET_SCALING_02", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a0745806e3e5415455fa3afa861d8bba3", null ],
+      [ "SPELL_MAGE_PET_SCALING_03", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7aa3f1e49f9f70fc2a8bda430cbe947dfd", null ],
+      [ "SPELL_MAGE_PET_SCALING_04", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7aea64176a60698e0a8fa4ed3b9b8982ca", null ],
+      [ "SPELL_ORC_RACIAL_COMMAND_DK", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7afa4c61fb2c9aa95f37f0af5029f32b51", null ],
+      [ "SPELL_NIGHT_OF_THE_DEAD_AVOIDANCE", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7af5e8637ef153ededc23ecfa2534120b2", null ],
+      [ "SPELL_DK_PET_SCALING_01", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a790da5379479457306e297f148bcd6ac", null ],
+      [ "SPELL_DK_PET_SCALING_02", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7ac34a6818132a5c487d7b899c33e273f9", null ],
+      [ "SPELL_DK_PET_SCALING_03", "d2/db0/a03827.html#a275a80dca15b0657c37715c1b9e3b9b7a5f210c59dd1cd0e06eaf2df5cc5e15a9", null ]
+    ] ],
+    [ "PetSpellState", "d2/db0/a03827.html#a4135b2b50486d91baa260c63a20f15f5", [
+      [ "PETSPELL_UNCHANGED", "d2/db0/a03827.html#a4135b2b50486d91baa260c63a20f15f5a67cfad7aa3b55a87a692db5c7eeac936", null ],
+      [ "PETSPELL_CHANGED", "d2/db0/a03827.html#a4135b2b50486d91baa260c63a20f15f5a9b8bacded9035aeabc92430edece787c", null ],
+      [ "PETSPELL_NEW", "d2/db0/a03827.html#a4135b2b50486d91baa260c63a20f15f5a12e005d42fccd3aadeac9008e95eb5b8", null ],
+      [ "PETSPELL_REMOVED", "d2/db0/a03827.html#a4135b2b50486d91baa260c63a20f15f5aa45b4f700fe69b9edae4fb979b988ffe", null ]
+    ] ],
+    [ "PetSpellType", "d2/db0/a03827.html#ac12b13d4da0688112812b2c7976550ce", [
+      [ "PETSPELL_NORMAL", "d2/db0/a03827.html#ac12b13d4da0688112812b2c7976550ceabb53c3a4462fa50e5c8ad926465f63bb", null ],
+      [ "PETSPELL_FAMILY", "d2/db0/a03827.html#ac12b13d4da0688112812b2c7976550cead8f157e9e157c6042ec5fa09e17edafb", null ],
+      [ "PETSPELL_TALENT", "d2/db0/a03827.html#ac12b13d4da0688112812b2c7976550ceab009e82a28fb4f233fba32a0d71782ea", null ]
+    ] ],
+    [ "PetTalk", "d2/db0/a03827.html#aa01f2535df94effa749383327aaea2b7", [
+      [ "PET_TALK_SPECIAL_SPELL", "d2/db0/a03827.html#aa01f2535df94effa749383327aaea2b7a44499e435b353774d3ec3ce0bdfea28d", null ],
+      [ "PET_TALK_ATTACK", "d2/db0/a03827.html#aa01f2535df94effa749383327aaea2b7a803c3c41784bfcad6b7dd2b15f4db7f7", null ]
+    ] ],
+    [ "PetType", "d2/db0/a03827.html#a9c56f6096d84d7e4e38d3e3f4e5af97c", [
+      [ "SUMMON_PET", "d2/db0/a03827.html#a9c56f6096d84d7e4e38d3e3f4e5af97ca3167e28bcafa6bb3b3e2b2dc72557ecd", null ],
+      [ "HUNTER_PET", "d2/db0/a03827.html#a9c56f6096d84d7e4e38d3e3f4e5af97ca608ed771a0dfa608eeafada945298bc2", null ],
+      [ "MAX_PET_TYPE", "d2/db0/a03827.html#a9c56f6096d84d7e4e38d3e3f4e5af97cacb8090a59681ea6d194c6a00b73423ea", null ]
+    ] ],
+    [ "MAX_PET_STABLES", "d2/db0/a03827.html#ad8cb525a1566956fd2dd5baf811ab5b1", null ]
 ];

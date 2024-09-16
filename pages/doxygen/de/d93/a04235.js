@@ -1,16 +1,8 @@
 var a04235 =
 [
-    [ "DBCFileLoader", "d3/d82/a05088.html", "d3/d82/a05088" ],
-    [ "DBCFileLoader::Record", "d9/d2c/a05092.html", "d9/d2c/a05092" ],
-    [ "DbcFieldFormat", "de/d93/a04235.html#a969264ba91452f632e809db524c68960", [
-      [ "FT_NA", "de/d93/a04235.html#a969264ba91452f632e809db524c68960a0f8a37a34dd644e8432e79266f8e2f8c", null ],
-      [ "FT_NA_BYTE", "de/d93/a04235.html#a969264ba91452f632e809db524c68960a974d335432036bc88ad76f044e8fca0c", null ],
-      [ "FT_STRING", "de/d93/a04235.html#a969264ba91452f632e809db524c68960a424189c585691c2ce732ea69a88f4f29", null ],
-      [ "FT_FLOAT", "de/d93/a04235.html#a969264ba91452f632e809db524c68960a1091cfb22d5ff81a81948a92b96f8e9a", null ],
-      [ "FT_INT", "de/d93/a04235.html#a969264ba91452f632e809db524c68960a9d5724546fec2b9d79741da7d3a8030a", null ],
-      [ "FT_BYTE", "de/d93/a04235.html#a969264ba91452f632e809db524c68960ae268574ec5607a27ec940656742b2095", null ],
-      [ "FT_SORT", "de/d93/a04235.html#a969264ba91452f632e809db524c68960a496dcb8cfc6d702d15b9a603b242a642", null ],
-      [ "FT_IND", "de/d93/a04235.html#a969264ba91452f632e809db524c68960a0e7ef1f172d0c33a975fbda2be046036", null ],
-      [ "FT_LOGIC", "de/d93/a04235.html#a969264ba91452f632e809db524c68960aad79cbf0ed6b926353344f5abde2e4cc", null ]
+    [ "MovementHandlerScript", "db/dd3/a10056.html", "db/dd3/a10056" ],
+    [ "MovementHook", "de/d93/a04235.html#a5763e953c65ba38409a14469a1fe2842", [
+      [ "MOVEMENTHOOK_ON_PLAYER_MOVE", "de/d93/a04235.html#a5763e953c65ba38409a14469a1fe2842a9fb1a9d074f81a435e688f4cd7d12326", null ],
+      [ "MOVEMENTHOOK_END", "de/d93/a04235.html#a5763e953c65ba38409a14469a1fe2842ae0cf6cfe134c99cc596bac2607905b9c", null ]
     ] ]
 ];

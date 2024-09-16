@@ -1,42 +1,17 @@
 var a02936 =
 [
-    [ "DataHeader", "d0/d08/a02936.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "MTScriptName", "d0/d08/a02936.html#a772413d8818d681e2261c99f58e1268c", null ],
-    [ "RegisterMagistersTerraceCreatureAI", "d0/d08/a02936.html#a679c3c5e0520ffcbc6ca0827cddafeb0", null ],
-    [ "InstanceEventIds", "d0/d08/a02936.html#ab51342a4a8f5976e51b0074f9a5746f8", [
-      [ "EVENT_SPAWN_KALECGOS", "d0/d08/a02936.html#ab51342a4a8f5976e51b0074f9a5746f8a2e000620a7210a65a43ee87d48b5d283", null ]
-    ] ],
-    [ "InstanceText", "d0/d08/a02936.html#a69f3b25108e0729e4ed7fd361d8e0dcf", [
-      [ "SAY_KALECGOS_SPAWN", "d0/d08/a02936.html#a69f3b25108e0729e4ed7fd361d8e0dcfafb263d1cd011b49bf7cda725281fa940", null ]
-    ] ],
-    [ "MovementData", "d0/d08/a02936.html#aed5999eedcf185b65654ded53dc601d3", [
-      [ "PATH_KALECGOS_FLIGHT", "d0/d08/a02936.html#aed5999eedcf185b65654ded53dc601d3a6b4587e5a1bc789ca7ac972cd1e54222", null ]
-    ] ],
-    [ "MTCreatures", "d0/d08/a02936.html#a402e3e622f03a1eed719db587960e18b", [
-      [ "NPC_DELRISSA", "d0/d08/a02936.html#a402e3e622f03a1eed719db587960e18ba5d0ab26a56a5212e4bbd0d2bd26b7127", null ],
-      [ "NPC_FEL_CRYSTAL", "d0/d08/a02936.html#a402e3e622f03a1eed719db587960e18bad5c5384a148b47a2c59d671014db6d35", null ],
-      [ "NPC_KAEL_THAS", "d0/d08/a02936.html#a402e3e622f03a1eed719db587960e18ba1cc740bbad14c06e879fe922c561957c", null ],
-      [ "NPC_PHOENIX", "d0/d08/a02936.html#a402e3e622f03a1eed719db587960e18ba93173f126c0dd252197a841ed9321048", null ],
-      [ "NPC_PHOENIX_EGG", "d0/d08/a02936.html#a402e3e622f03a1eed719db587960e18ba37c8f15ed65139715f18d3d09d17a970", null ],
-      [ "NPC_KALECGOS", "d0/d08/a02936.html#a402e3e622f03a1eed719db587960e18ba7434f1d158db88e1befb3cf56e801613", null ],
-      [ "NPC_HUMAN_KALECGOS", "d0/d08/a02936.html#a402e3e622f03a1eed719db587960e18ba937b694476b6a1c6dd4741a8fef2c0fe", null ]
-    ] ],
-    [ "MTData", "d0/d08/a02936.html#abdc560adf84eb5994b289f952995d059", [
-      [ "DATA_SELIN_FIREHEART", "d0/d08/a02936.html#abdc560adf84eb5994b289f952995d059afd8c24b35ae0b3270c6446ed912864b8", null ],
-      [ "DATA_VEXALLUS", "d0/d08/a02936.html#abdc560adf84eb5994b289f952995d059a7d511ceaf5f4b75dc6bf642fd4c002c3", null ],
-      [ "DATA_DELRISSA", "d0/d08/a02936.html#abdc560adf84eb5994b289f952995d059af977a73eff024af1676aeb0fe6503c2f", null ],
-      [ "DATA_KAELTHAS", "d0/d08/a02936.html#abdc560adf84eb5994b289f952995d059a9459cb9bb83f7a23115debb607cb25a3", null ],
-      [ "MAX_ENCOUNTER", "d0/d08/a02936.html#abdc560adf84eb5994b289f952995d059a7913656ef56deb3793c0c5f3d999d80d", null ],
-      [ "DATA_KALECGOS", "d0/d08/a02936.html#abdc560adf84eb5994b289f952995d059a053405afb85048224c161919aebd795d", null ],
-      [ "DATA_ESCAPE_ORB", "d0/d08/a02936.html#abdc560adf84eb5994b289f952995d059a6c76e50a19d944f081dbe8c87034974f", null ]
-    ] ],
-    [ "MTGameObjects", "d0/d08/a02936.html#a2b0621589774d4cc3afba085bc39867d", [
-      [ "GO_VEXALLUS_DOOR", "d0/d08/a02936.html#a2b0621589774d4cc3afba085bc39867da660139f819500a248283735c336cf4e7", null ],
-      [ "GO_SELIN_DOOR", "d0/d08/a02936.html#a2b0621589774d4cc3afba085bc39867da7ccc42cdb5402db90adb2298e29d4e64", null ],
-      [ "GO_SELIN_ENCOUNTER_DOOR", "d0/d08/a02936.html#a2b0621589774d4cc3afba085bc39867da8b457fe7255a77748f94f13974791086", null ],
-      [ "GO_DELRISSA_DOOR", "d0/d08/a02936.html#a2b0621589774d4cc3afba085bc39867da2ec22f0e669bef8a7bde879208fa8f6a", null ],
-      [ "GO_KAEL_DOOR", "d0/d08/a02936.html#a2b0621589774d4cc3afba085bc39867dacafc1a0b7422ea5365367a4c964fee25", null ],
-      [ "GO_ESCAPE_ORB", "d0/d08/a02936.html#a2b0621589774d4cc3afba085bc39867daf0d8c802b02ba5d48c9d4126534812fd", null ]
-    ] ],
-    [ "GetMagistersTerraceAI", "d0/d08/a02936.html#ace003ea34649a460da4afbd65b38c987", null ]
+    [ "ChangeEmail", "d0/d08/a02936.html#a2a6c83e2d4e6121855beb252f23c905b", null ],
+    [ "ChangePassword", "d0/d08/a02936.html#a6a9cb892c15d78b5de65738005234ff6", null ],
+    [ "ChangeUsername", "d0/d08/a02936.html#a3382c6430bfbf14e32ca11b5ac68fc23", null ],
+    [ "CheckPassword", "d0/d08/a02936.html#a17c28dfcb31af8f4241bb5210408185a", null ],
+    [ "CreateAccount", "d0/d08/a02936.html#a7a7668ab60ae56c7e71fce77780bb214", null ],
+    [ "DeleteAccount", "d0/d08/a02936.html#a120323b16b2a5aefa6aa69e8be5ccef6", null ],
+    [ "GetCharactersCount", "d0/d08/a02936.html#a4fb760897161c3d463f842b28bcf7c20", null ],
+    [ "GetId", "d0/d08/a02936.html#aa215c9a96c37b8a5d76d980ecf8de114", null ],
+    [ "GetName", "d0/d08/a02936.html#af911e3860ec519c541d6df35468ee41b", null ],
+    [ "GetSecurity", "d0/d08/a02936.html#a8280510b2564ec6ea76727218c1687b3", null ],
+    [ "GetSecurity", "d0/d08/a02936.html#a30b6e5cf1733f0143f86aaeff600215c", null ],
+    [ "IsAdminAccount", "d0/d08/a02936.html#adb1b210137b09011677c74011addeefa", null ],
+    [ "IsConsoleAccount", "d0/d08/a02936.html#a81bbc2af33211a3130c6aa215f5607b7", null ],
+    [ "IsPlayerAccount", "d0/d08/a02936.html#a63751f144cb7acb57fc20f0caf5e7043", null ]
 ];

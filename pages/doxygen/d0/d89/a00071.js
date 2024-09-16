@@ -1,15 +1,12 @@
 var a00071 =
 [
-    [ "RandomEngine", "db/d18/a05383.html", "db/d18/a05383" ],
-    [ "frand", "d0/d89/a00071.html#aa28484fcb823a22578601847e4b0ddb4", null ],
-    [ "irand", "d0/d89/a00071.html#a0a5e53ee066789ecb565abc05fe36dbc", null ],
-    [ "rand32", "d0/d89/a00071.html#ab91ed86274e1e52eb314784862b61696", null ],
-    [ "rand_chance", "d0/d89/a00071.html#a60564a0d93e0c87809379e0c1fa7acd1", null ],
-    [ "rand_norm", "d0/d89/a00071.html#ad552d8147f66d6ec0cd44271e8799599", null ],
-    [ "randtime", "d0/d89/a00071.html#a2fc61a89dc958460e6eabe08d87a4021", null ],
-    [ "roll_chance_f", "d0/d89/a00071.html#a4b15099bc81731469c5078a778673c94", null ],
-    [ "roll_chance_i", "d0/d89/a00071.html#a50320d4edff86db31b25138ae72161ad", null ],
-    [ "urand", "d0/d89/a00071.html#a3648faa6a1353eac6d2eec0b399c5aba", null ],
-    [ "urandms", "d0/d89/a00071.html#a1a4ee564518371004a4d34135600bfa0", null ],
-    [ "urandweighted", "d0/d89/a00071.html#a673de62907a2657190e58678691d3b36", null ]
+    [ "EnumFlag< T >", "d8/dd6/a05348.html", "d8/dd6/a05348" ],
+    [ "DEFINE_ENUM_FLAG", "d0/d89/a00071.html#a9f556f9c539f21ae6fd639abe4c39c75", null ],
+    [ "IsFlag", "d0/d89/a00071.html#a7294b75cb336d554d5ce2b75b05c37d6", null ],
+    [ "IsEnumFlag", "d0/d89/a00071.html#ae0992e010612850442fc56bcf2d44b47", null ],
+    [ "operator&", "d0/d89/a00071.html#a27ef39aed098304d7387af8257f7cee3", null ],
+    [ "operator&=", "d0/d89/a00071.html#a24a78ca9e9dcd1b92829560e580c3134", null ],
+    [ "operator|", "d0/d89/a00071.html#ac8aaa198de31cb5a3b217d0968f30a3b", null ],
+    [ "operator|=", "d0/d89/a00071.html#a7808a2b72bed2b70553d802ed11e27c4", null ],
+    [ "operator~", "d0/d89/a00071.html#abe3f4d2eafbceebe9ec46ffcd15cfa76", null ]
 ];

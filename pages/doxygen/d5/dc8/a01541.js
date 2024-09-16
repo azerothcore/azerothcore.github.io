@@ -1,35 +1,42 @@
 var a01541 =
 [
-    [ "npc_attracted_reef_bull", "d3/da7/a21947.html", "d3/da7/a21947" ],
-    [ "npc_attracted_reef_bull::npc_attracted_reef_bullAI", "db/da5/a21951.html", "db/da5/a21951" ],
-    [ "npc_your_inner_turmoil", "d3/d78/a21955.html", "d3/d78/a21955" ],
-    [ "npc_your_inner_turmoil::npc_your_inner_turmoilAI", "d1/d67/a21959.html", "d1/d67/a21959" ],
-    [ "npc_apothecary_hanes", "d4/dbc/a21963.html", "d4/dbc/a21963" ],
-    [ "npc_apothecary_hanes::npc_Apothecary_HanesAI", "dd/dcd/a21967.html", "dd/dcd/a21967" ],
-    [ "npc_plaguehound_tracker", "d7/d84/a21971.html", "d7/d84/a21971" ],
-    [ "npc_plaguehound_tracker::npc_plaguehound_trackerAI", "db/d98/a21975.html", "db/d98/a21975" ],
-    [ "npc_razael_and_lyana", "df/d79/a21979.html", "df/d79/a21979" ],
-    [ "Entries", "d5/dc8/a01541.html#a06de533fb3e7ec530f0493022ad98889", [
-      [ "NPC_APOTHECARY_HANES", "d5/dc8/a01541.html#a06de533fb3e7ec530f0493022ad98889acf2750295b6eec6dd126edd3e314b704", null ],
-      [ "NPC_HANES_FIRE_TRIGGER", "d5/dc8/a01541.html#a06de533fb3e7ec530f0493022ad98889a1d184f3197ea2249507f226925f86d51", null ],
-      [ "QUEST_TRAIL_OF_FIRE", "d5/dc8/a01541.html#a06de533fb3e7ec530f0493022ad98889a3b04eef2d1544dfd01157f3936b8931e", null ],
-      [ "SPELL_COSMETIC_LOW_POLY_FIRE", "d5/dc8/a01541.html#a06de533fb3e7ec530f0493022ad98889a3e64d85cd00e4529984f105930950743", null ],
-      [ "SPELL_HEALING_POTION", "d5/dc8/a01541.html#a06de533fb3e7ec530f0493022ad98889a13bb6f847a01b8a989be597f21d79b75", null ]
+    [ "tf_tower_world_state", "d6/d60/a22512.html", "d6/d60/a22512" ],
+    [ "OPvPCapturePointTF", "d4/de6/a22516.html", "d4/de6/a22516" ],
+    [ "OutdoorPvPTF", "d1/d1a/a22520.html", "d1/d1a/a22520" ],
+    [ "TF_CAPTURE_BUFF", "d5/dc8/a01541.html#a82bc235ec6d43b48511d1b3d903a934b", null ],
+    [ "OutdoorPvPTF_TowerType", "d5/dc8/a01541.html#a7a4347e10a530d56e3c3ae66a5eae999", [
+      [ "TF_TOWER_NW", "d5/dc8/a01541.html#a7a4347e10a530d56e3c3ae66a5eae999ac95ea754e0befd303c7912671ff54b16", null ],
+      [ "TF_TOWER_N", "d5/dc8/a01541.html#a7a4347e10a530d56e3c3ae66a5eae999a034d81c6a66a32fef95c75235cb39d2b", null ],
+      [ "TF_TOWER_NE", "d5/dc8/a01541.html#a7a4347e10a530d56e3c3ae66a5eae999a210d598966bbca14ece80eb1e00bae97", null ],
+      [ "TF_TOWER_SE", "d5/dc8/a01541.html#a7a4347e10a530d56e3c3ae66a5eae999a01f2c2e0a883f8355bf433a96b52bd65", null ],
+      [ "TF_TOWER_S", "d5/dc8/a01541.html#a7a4347e10a530d56e3c3ae66a5eae999af3a17ac5cc35927939c90503027342f0", null ],
+      [ "TF_TOWER_NUM", "d5/dc8/a01541.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3", null ]
     ] ],
-    [ "Razael", "d5/dc8/a01541.html#a7fbd4804d568fc6fbf46da35d3c3ffbc", [
-      [ "QUEST_REPORTS_FROM_THE_FIELD", "d5/dc8/a01541.html#a7fbd4804d568fc6fbf46da35d3c3ffbca7babf6a26e3dc43b61fa6284e07f955a", null ],
-      [ "NPC_RAZAEL", "d5/dc8/a01541.html#a7fbd4804d568fc6fbf46da35d3c3ffbcae04ab9caff2861d2f49da40755b84e1c", null ],
-      [ "NPC_LYANA", "d5/dc8/a01541.html#a7fbd4804d568fc6fbf46da35d3c3ffbca5efa419daacf74521ba680f68bed979e", null ],
-      [ "GOSSIP_TEXTID_RAZAEL1", "d5/dc8/a01541.html#a7fbd4804d568fc6fbf46da35d3c3ffbca65b20fa216028b36c1a98b0af4e4239a", null ],
-      [ "GOSSIP_TEXTID_RAZAEL2", "d5/dc8/a01541.html#a7fbd4804d568fc6fbf46da35d3c3ffbca313a7629a69c0bf528e79730249c4d51", null ],
-      [ "GOSSIP_TEXTID_LYANA1", "d5/dc8/a01541.html#a7fbd4804d568fc6fbf46da35d3c3ffbca141f525bef4cf496e2f8aaf8cfa2799b", null ],
-      [ "GOSSIP_TEXTID_LYANA2", "d5/dc8/a01541.html#a7fbd4804d568fc6fbf46da35d3c3ffbca43caf287e871cac2d4a7d2e821727377", null ]
+    [ "TFTowerStates", "d5/dc8/a01541.html#a5815248809b8fd06bd664886846a7126", [
+      [ "TF_TOWERSTATE_N", "d5/dc8/a01541.html#a5815248809b8fd06bd664886846a7126a1bf771ad2a93c40a6d0d5312167a046f", null ],
+      [ "TF_TOWERSTATE_H", "d5/dc8/a01541.html#a5815248809b8fd06bd664886846a7126a133214fb55c09ba0030cc76b1d2082c1", null ],
+      [ "TF_TOWERSTATE_A", "d5/dc8/a01541.html#a5815248809b8fd06bd664886846a7126acde31be20bbd32d3bf71bd3352e7e43d", null ]
     ] ],
-    [ "TurmoilTexts", "d5/dc8/a01541.html#ae01e16ebe34a24a598f4b4fb26dbf919", [
-      [ "SAY_TURMOIL_0", "d5/dc8/a01541.html#ae01e16ebe34a24a598f4b4fb26dbf919a942b14a6948f52ce8970c678198ca200", null ],
-      [ "SAY_TURMOIL_1", "d5/dc8/a01541.html#ae01e16ebe34a24a598f4b4fb26dbf919a552b3da685e5d5c0ee068936387378c8", null ],
-      [ "SAY_TURMOIL_HALF_HP", "d5/dc8/a01541.html#ae01e16ebe34a24a598f4b4fb26dbf919a378c2c631bf845c1710a9d8cc64a2541", null ],
-      [ "SAY_TURMOIL_DEATH", "d5/dc8/a01541.html#ae01e16ebe34a24a598f4b4fb26dbf919ae008192ae78fbdcce408850140f26eb8", null ]
+    [ "TFWorldStates", "d5/dc8/a01541.html#a4134a455195e5cc1be9288227500b258", [
+      [ "TF_UI_TOWER_SLIDER_POS", "d5/dc8/a01541.html#a4134a455195e5cc1be9288227500b258a01fef84454cee087b39e06f40fa95336", null ],
+      [ "TF_UI_TOWER_SLIDER_N", "d5/dc8/a01541.html#a4134a455195e5cc1be9288227500b258a789327b4fc1d2e623b1a0a18d70328dd", null ],
+      [ "TF_UI_TOWER_SLIDER_DISPLAY", "d5/dc8/a01541.html#a4134a455195e5cc1be9288227500b258a0137c97cdf1617d73e09085174a9842b", null ],
+      [ "TF_UI_TOWER_COUNT_H", "d5/dc8/a01541.html#a4134a455195e5cc1be9288227500b258a9f05bf2230c06a169b0a884bb33a94cc", null ],
+      [ "TF_UI_TOWER_COUNT_A", "d5/dc8/a01541.html#a4134a455195e5cc1be9288227500b258ae98ffdfa2845c1411a02a1e8afba6b30", null ],
+      [ "TF_UI_TOWERS_CONTROLLED_DISPLAY", "d5/dc8/a01541.html#a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219", null ],
+      [ "TF_UI_LOCKED_TIME_MINUTES_FIRST_DIGIT", "d5/dc8/a01541.html#a4134a455195e5cc1be9288227500b258a09a446e5fb19482131f119d4ffe75ec3", null ],
+      [ "TF_UI_LOCKED_TIME_MINUTES_SECOND_DIGIT", "d5/dc8/a01541.html#a4134a455195e5cc1be9288227500b258a6e71bc9f10b277d16c6ba22b6f4cb381", null ],
+      [ "TF_UI_LOCKED_TIME_HOURS", "d5/dc8/a01541.html#a4134a455195e5cc1be9288227500b258af4e7d7c6926dae8b9f55258bd66c4b6b", null ],
+      [ "TF_UI_LOCKED_DISPLAY_NEUTRAL", "d5/dc8/a01541.html#a4134a455195e5cc1be9288227500b258a75d5f388814344dcdaafdb7cc434532d", null ],
+      [ "TF_UI_LOCKED_DISPLAY_HORDE", "d5/dc8/a01541.html#a4134a455195e5cc1be9288227500b258a7b43f99b2120863099d31e07029b5dd2", null ],
+      [ "TF_UI_LOCKED_DISPLAY_ALLIANCE", "d5/dc8/a01541.html#a4134a455195e5cc1be9288227500b258a3ad3af0875c04da341c52ec43710eee0", null ]
     ] ],
-    [ "AddSC_howling_fjord", "d5/dc8/a01541.html#a1f2f485d0649e510913e07a28b6082a5", null ]
+    [ "OutdoorPvPTFBuffZones", "d5/dc8/a01541.html#a6b09030102f8c0dbb4b0e6bbfdee9b24", null ],
+    [ "OutdoorPvPTFBuffZonesNum", "d5/dc8/a01541.html#acde5c9331776adb4ed27c2319476e550", null ],
+    [ "TF_ALLY_QUEST", "d5/dc8/a01541.html#a3967b7bb2df0e330fbd21a68d557b19a", null ],
+    [ "TF_HORDE_QUEST", "d5/dc8/a01541.html#a1bbe00a4cf0ae9f6750d23ef10539c0a", null ],
+    [ "TF_LOCK_TIME", "d5/dc8/a01541.html#a925c2f6bf9c7a6d1b694382b888fa85f", null ],
+    [ "TF_LOCK_TIME_UPDATE", "d5/dc8/a01541.html#a9ef7be226d98726081fd3cb435d223b5", null ],
+    [ "TFCapturePoints", "d5/dc8/a01541.html#a19e9cf9859a7578f154dcdcfa0670620", null ],
+    [ "TFTowerWorldStates", "d5/dc8/a01541.html#ac5dbb8989285178cfea88af6f03dd6a6", null ]
 ];

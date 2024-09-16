@@ -1,8 +1,8 @@
 var a03155 =
 [
-    [ "instance_trial_of_the_champion", "dc/d8e/a16128.html", "dc/d8e/a16128" ],
-    [ "instance_trial_of_the_champion::instance_trial_of_the_champion_InstanceMapScript", "da/d38/a16132.html", "da/d38/a16132" ],
-    [ "CLEANUP_CHECK_INTERVAL", "dc/d9b/a03155.html#a736c9181af440341040d67d6b54e5700", null ],
-    [ "AddSC_instance_trial_of_the_champion", "dc/d9b/a03155.html#a15e8163b6e8598d38b9f8c3b0ab9d5bd", null ],
-    [ "SpawnPosition", "dc/d9b/a03155.html#a70438d12d4153aa7d510c89551abf7c9", null ]
+    [ "StoredLootItem", "d9/dbe/a09336.html", "d9/dbe/a09336" ],
+    [ "LootItemStorage", "d3/d98/a09340.html", "d3/d98/a09340" ],
+    [ "sLootItemStorage", "dc/d9b/a03155.html#a06515a8a4bd76cd02aa0ab99d3d7c64e", null ],
+    [ "LootItemContainer", "dc/d9b/a03155.html#a06cc23df363d1d767959d7ab5ec29ad5", null ],
+    [ "StoredLootItemList", "dc/d9b/a03155.html#aa16defe92374d7db2d28958ee8fce21d", null ]
 ];

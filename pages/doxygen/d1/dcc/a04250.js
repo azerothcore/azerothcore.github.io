@@ -1,23 +1,20 @@
 var a04250 =
 [
-    [ "MetricData", "da/d44/a05256.html", "da/d44/a05256" ],
-    [ "Metric", "d3/dc5/a05260.html", "d3/dc5/a05260" ],
-    [ "MetricStopWatch< LoggerType >", "df/d65/a05264.html", "df/d65/a05264" ],
-    [ "METRIC_CONCAT", "d1/dcc/a04250.html#ad81585df46d4cee988a1222012dbabf1", null ],
-    [ "METRIC_DETAILED_EVENT", "d1/dcc/a04250.html#ac782d1c3265f7b707782545777d49d05", null ],
-    [ "METRIC_DETAILED_NO_THRESHOLD_TIMER", "d1/dcc/a04250.html#a281633f6f8b252d96029ce8fd29da746", null ],
-    [ "METRIC_DETAILED_TIMER", "d1/dcc/a04250.html#a22dcbf78f0d280a4b2b4e0662034efe9", null ],
-    [ "METRIC_DO_CONCAT", "d1/dcc/a04250.html#aa861206b38b55c4f39f1ed649defb338", null ],
-    [ "METRIC_EVENT", "d1/dcc/a04250.html#ad57573999508dbc7a2c953379996b542", null ],
-    [ "METRIC_TAG", "d1/dcc/a04250.html#ab81b5769123c1e5e3870b9b05f25fe0a", null ],
-    [ "METRIC_TIMER", "d1/dcc/a04250.html#ad88ae7d281622a32a700443aa3dc51f9", null ],
-    [ "METRIC_UNIQUE_NAME", "d1/dcc/a04250.html#adf91483a75eca0531263536ce38d9339", null ],
-    [ "METRIC_VALUE", "d1/dcc/a04250.html#a92aedc832ddfc479ecc61289f12be449", null ],
-    [ "sMetric", "d1/dcc/a04250.html#a4e89926204845a9c9e315d6f0abec5ef", null ],
-    [ "MetricTag", "d1/dcc/a04250.html#a8fdc9a93c03faef11e4c36679e79e3f1", null ],
-    [ "MetricDataType", "d1/dcc/a04250.html#a0bb9cc086e32544cb0e43338f83d8e62", [
-      [ "METRIC_DATA_VALUE", "d1/dcc/a04250.html#a0bb9cc086e32544cb0e43338f83d8e62a62f4e964751c180f1ab400ee1852b155", null ],
-      [ "METRIC_DATA_EVENT", "d1/dcc/a04250.html#a0bb9cc086e32544cb0e43338f83d8e62a599565c733d02dcd1c4676c2ad463af2", null ]
-    ] ],
-    [ "MakeMetricStopWatch", "d1/dcc/a04250.html#ab339934305abce426aa1d43c99d65e9f", null ]
+    [ "WorldScript", "d9/da6/a10108.html", "d9/da6/a10108" ],
+    [ "WorldHook", "d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493", [
+      [ "WORLDHOOK_ON_OPEN_STATE_CHANGE", "d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a1115383e9c9ccf62f08548733c8f5f1c", null ],
+      [ "WORLDHOOK_ON_AFTER_CONFIG_LOAD", "d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493af6efa892b7f5bfd295f23a9b8afc6ad7", null ],
+      [ "WORLDHOOK_ON_LOAD_CUSTOM_DATABASE_TABLE", "d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493ab212a383f870b580ecf69fd1df3f9213", null ],
+      [ "WORLDHOOK_ON_BEFORE_CONFIG_LOAD", "d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493ac0d62a83ca416843503c5c9eac516901", null ],
+      [ "WORLDHOOK_ON_MOTD_CHANGE", "d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a7080a363df28c0ffb71d52ee18b85f8c", null ],
+      [ "WORLDHOOK_ON_SHUTDOWN_INITIATE", "d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493ab554902e66fb497dbb3ac74151fe8bb7", null ],
+      [ "WORLDHOOK_ON_SHUTDOWN_CANCEL", "d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a86b7bcb6f946ccb6d6c444773054ecb6", null ],
+      [ "WORLDHOOK_ON_UPDATE", "d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a891997df42f33b397fe3c92cf68e3aca", null ],
+      [ "WORLDHOOK_ON_STARTUP", "d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493abaa74ee704d5eb3634a515fe131e66fa", null ],
+      [ "WORLDHOOK_ON_SHUTDOWN", "d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a804c550dd48cb62983e43dfed1ba2176", null ],
+      [ "WORLDHOOK_ON_AFTER_UNLOAD_ALL_MAPS", "d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a02253717dde1cc98a2643eefd76f0d91", null ],
+      [ "WORLDHOOK_ON_BEFORE_FINALIZE_PLAYER_WORLD_SESSION", "d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a962dfc07ec34ca7510d8759c193ba56e", null ],
+      [ "WORLDHOOK_ON_BEFORE_WORLD_INITIALIZED", "d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a2e95fec6ec46709803e187fe3c60f427", null ],
+      [ "WORLDHOOK_END", "d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a1a7e32e7ba7aec9dc7b8edd43a903800", null ]
+    ] ]
 ];

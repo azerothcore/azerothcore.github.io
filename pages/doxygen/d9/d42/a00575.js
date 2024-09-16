@@ -1,5 +1,8 @@
 var a00575 =
 [
-    [ "Vehicle", "d1/d28/a08524.html", "d1/d28/a08524" ],
-    [ "VehicleDespawnEvent", "d6/d65/a08528.html", "d6/d65/a08528" ]
+    [ "Vec3D", "da/d19/a28616.html", "da/d19/a28616" ],
+    [ "AaBox3D", "d4/d1c/a28620.html", "d4/d1c/a28620" ],
+    [ "Vec2D", "d0/d48/a28624.html", "d0/d48/a28624" ],
+    [ "Quaternion", "d5/d51/a28628.html", "d5/d51/a28628" ],
+    [ "rotate", "d9/d42/a00575.html#a36f9f3de1d3e6935da68df2c6e347a4d", null ]
 ];

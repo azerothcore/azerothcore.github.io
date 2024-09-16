@@ -1,18 +1,10 @@
 var a00836 =
 [
-    [ "Acore::Impl::ChatCommands::ArgInfo< T, typename >", "d0/d72/a07332.html", null ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< T, std::enable_if_t< std::is_integral_v< T >||std::is_floating_point_v< T > > >", "d9/ded/a07336.html", "d9/ded/a07336" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< std::string_view, void >", "d5/d22/a07340.html", "d5/d22/a07340" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< std::string, void >", "d2/dbf/a07344.html", "d2/dbf/a07344" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< std::wstring, void >", "d2/d19/a07348.html", "d2/d19/a07348" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< T, std::enable_if_t< std::is_enum_v< T > > >", "d1/d96/a07352.html", "d1/d96/a07352" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< T, std::enable_if_t< std::is_base_of_v< ContainerTag, T > > >", "d7/d63/a07356.html", "d7/d63/a07356" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< std::vector< T >, void >", "dc/dea/a07360.html", "dc/dea/a07360" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< std::array< T, N >, void >", "d4/d99/a07364.html", "d4/d99/a07364" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< Acore::ChatCommands::Variant< Ts... > >", "d0/d69/a07368.html", "d0/d69/a07368" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< AchievementEntry const * >", "d9/d8e/a07372.html", "d9/d8e/a07372" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< GameTele const * >", "d2/d00/a07376.html", "d2/d00/a07376" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< ItemTemplate const * >", "d8/dcf/a07380.html", "d8/dcf/a07380" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< SpellInfo const * >", "d7/d50/a07384.html", "d7/d50/a07384" ],
-    [ "Acore::Impl::ChatCommands::ArgInfo< Quest const * >", "de/da5/a07388.html", "de/da5/a07388" ]
+    [ "MySQLConnectionInfo", "d8/d04/a05624.html", "d8/d04/a05624" ],
+    [ "MySQLConnection", "d3/d0c/a05628.html", "d3/d0c/a05628" ],
+    [ "ConnectionFlags", "d3/d13/a00836.html#a008b1c9a9206a70569b89aea01ac321f", [
+      [ "CONNECTION_ASYNC", "d3/d13/a00836.html#a008b1c9a9206a70569b89aea01ac321faa12dee499d68ef84c216f874cb104fe9", null ],
+      [ "CONNECTION_SYNCH", "d3/d13/a00836.html#a008b1c9a9206a70569b89aea01ac321fa38de35d7007257d23046b73a6aec7946", null ],
+      [ "CONNECTION_BOTH", "d3/d13/a00836.html#a008b1c9a9206a70569b89aea01ac321fa69536f08cbcdbe5a0ff0d89981fc6b39", null ]
+    ] ]
 ];

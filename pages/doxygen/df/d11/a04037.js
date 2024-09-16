@@ -1,10 +1,9 @@
 var a04037 =
 [
-    [ "SecretMgr", "d2/d20/a28380.html", "d2/d20/a28380" ],
-    [ "SecretMgr::Secret", "db/d7b/a28384.html", "db/d7b/a28384" ],
-    [ "sSecretMgr", "df/d11/a04037.html#a5104e1ebeb8cbf71ec16e9492a3ad622", null ],
-    [ "Secrets", "df/d11/a04037.html#ab54b0ec728a299f0ff9e8a7796297a01", [
-      [ "SECRET_TOTP_MASTER_KEY", "df/d11/a04037.html#ab54b0ec728a299f0ff9e8a7796297a01a414121b0e05fa3a392ffe0da5afe0fe9", null ],
-      [ "NUM_SECRETS", "df/d11/a04037.html#ab54b0ec728a299f0ff9e8a7796297a01a087643d0aa89a708bad0f254697489c6", null ]
-    ] ]
+    [ "AddWeather", "df/d11/a04037.html#ga1f76350b68494335d48ae206b87e190c", null ],
+    [ "FindWeather", "df/d11/a04037.html#gadd11deec2098fed61adf7910b8f09cc6", null ],
+    [ "LoadWeatherData", "df/d11/a04037.html#ga6c7d8a9fc5dfce0880220f4b5b8cd623", null ],
+    [ "RemoveWeather", "df/d11/a04037.html#ga296a3324a3a38984149fae3e5d62435f", null ],
+    [ "SendFineWeatherUpdateToPlayer", "df/d11/a04037.html#gac86b4e254146468a7412d8fc7b0c27f2", null ],
+    [ "Update", "df/d11/a04037.html#ga45f0da6cf9e14a99380b4b9be2890801", null ]
 ];

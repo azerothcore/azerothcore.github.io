@@ -1,30 +1,18 @@
 var a01790 =
 [
-    [ "AUTH_LOGON_CHALLENGE_C", "db/d2d/a05520.html", "db/d2d/a05520" ],
-    [ "AUTH_LOGON_PROOF_C", "d7/d66/a05524.html", "d7/d66/a05524" ],
-    [ "AUTH_LOGON_PROOF_S", "df/d63/a05528.html", "df/d63/a05528" ],
-    [ "AUTH_LOGON_PROOF_S_OLD", "d4/de3/a05532.html", "d4/de3/a05532" ],
-    [ "AUTH_RECONNECT_PROOF_C", "d8/d58/a05536.html", "d8/d58/a05536" ],
-    [ "AUTH_LOGON_CHALLENGE_INITIAL_SIZE", "d2/d20/a01790.html#a38c5f396c839f5f22ec0ec7a5b2a5019", null ],
-    [ "MAX_ACCEPTED_CHALLENGE_SIZE", "d2/d20/a01790.html#a2507a44fb848704cf4f3624207c18ebe", null ],
-    [ "REALM_LIST_PACKET_SIZE", "d2/d20/a01790.html#af848fed368789960f3d9e059f8002e11", null ],
-    [ "sAuthLogonChallenge_C", "d2/d20/a01790.html#af2b75a713ab063d15c0f303555dab7c2", null ],
-    [ "sAuthLogonProof_C", "d2/d20/a01790.html#ab50c6b56b4c56513ab11e4bee50a0116", null ],
-    [ "sAuthLogonProof_S", "d2/d20/a01790.html#a1241a754e900fac64f49cadc4e806321", null ],
-    [ "sAuthLogonProof_S_Old", "d2/d20/a01790.html#ad153c4ef5e20c186dfe08ed557a4100c", null ],
-    [ "sAuthReconnectProof_C", "d2/d20/a01790.html#aef6ea8864e443cf0d192820bb670a8d8", null ],
-    [ "eAuthCmd", "d2/d20/a01790.html#a345cff35e97e1d164879db077b96607b", [
-      [ "AUTH_LOGON_CHALLENGE", "d2/d20/a01790.html#a345cff35e97e1d164879db077b96607ba62fe494e6ccbaae4d8869486af12ea48", null ],
-      [ "AUTH_LOGON_PROOF", "d2/d20/a01790.html#a345cff35e97e1d164879db077b96607baec69892078638b4c3a04d6a717e3cb2e", null ],
-      [ "AUTH_RECONNECT_CHALLENGE", "d2/d20/a01790.html#a345cff35e97e1d164879db077b96607bab5ca452edfc6d290784cefa1132ebfa4", null ],
-      [ "AUTH_RECONNECT_PROOF", "d2/d20/a01790.html#a345cff35e97e1d164879db077b96607ba968b2c14a04df9db06c0fa6ca2c7c9d3", null ],
-      [ "REALM_LIST", "d2/d20/a01790.html#a345cff35e97e1d164879db077b96607ba7de0619c3448ca95de937837fd5f27dc", null ],
-      [ "XFER_INITIATE", "d2/d20/a01790.html#a345cff35e97e1d164879db077b96607ba0152ea9553a4a08a9568de879167adb5", null ],
-      [ "XFER_DATA", "d2/d20/a01790.html#a345cff35e97e1d164879db077b96607bac4bf4cd27a0fa1424639c5d11cac02f7", null ],
-      [ "XFER_ACCEPT", "d2/d20/a01790.html#a345cff35e97e1d164879db077b96607ba0faa0d818c7cac462c3b31df8adcbf01", null ],
-      [ "XFER_RESUME", "d2/d20/a01790.html#a345cff35e97e1d164879db077b96607bae1d058bb15829274dff5133c8c041aa5", null ],
-      [ "XFER_CANCEL", "d2/d20/a01790.html#a345cff35e97e1d164879db077b96607ba178f53b59478d4e635be98a41873c5e1", null ]
+    [ "instance_ruins_of_ahnqiraj", "d2/d18/a14864.html", "d2/d18/a14864" ],
+    [ "instance_ruins_of_ahnqiraj::instance_ruins_of_ahnqiraj_InstanceMapScript", "d9/dfc/a14868.html", "d9/dfc/a14868" ],
+    [ "RajaxxWaveEvent", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8", [
+      [ "SAY_WAVE3", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8a2c4234c075da474e1859f08d620f20d3", null ],
+      [ "SAY_WAVE4", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8af13e872cbd347b8a5bc80c2e8666381d", null ],
+      [ "SAY_WAVE5", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8a3caa1ed6a429617e3127b0ee596a1538", null ],
+      [ "SAY_WAVE6", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8a36b35bf4fc7c3385646f3b75fd2eef4f", null ],
+      [ "SAY_WAVE7", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8afc3fb1faeaa852c362f467426a19905e", null ],
+      [ "SAY_ENGAGE", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8a60c202ec07ce9f93a9c0eff3a8a1fba9", null ],
+      [ "DATA_RAJAXX_WAVE_ENGAGED", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8a6e46287d316eb0a2009039db3c6ed592", null ],
+      [ "GROUP_RAJAXX_WAVE_TIMER", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8a002d2a7e164b95da570f1ee400495b15", null ]
     ] ],
-    [ "Handlers", "d2/d20/a01790.html#a887a26fd84a0bf97f1016de6aeba4d4e", null ],
-    [ "VersionChallenge", "d2/d20/a01790.html#a242dcc388ff0edb5d5eca57953e61317", null ]
+    [ "AddSC_instance_ruins_of_ahnqiraj", "d2/d20/a01790.html#ad39c6347a486714f364a0a6e068595f6", null ],
+    [ "creatureData", "d2/d20/a01790.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "RajaxxWavesData", "d2/d20/a01790.html#aef812d08d9553915de270214cf8bd837", null ]
 ];

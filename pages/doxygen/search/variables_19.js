@@ -7,11 +7,11 @@ var searchData=
   ['y2_4',['y2',['../df/d96/a08312.html#a84f612cf6d1905e948c7c9a6cb870e31',1,'Areas::y2()'],['../dd/da0/a28308.html#ad8e0164952e5565488d5443f269ec79e',1,'WorldMapAreaEntry::y2()']]],
   ['y_5fcoord_5',['y_coord',['../da/d72/a08812.html#aacae12844cc0c0d70e26b137ad28f700',1,'CoordPair']]],
   ['year_6',['Year',['../d0/d59/a07500.html#a85612eac22d3233e620eb11e6e1b48b0',1,'Acore::Hyperlinks::AchievementLinkData']]],
-  ['year_7',['YEAR',['../d2/d73/a04226.html#a0552dd357fedab8892f8550548357a55',1,'Common.h']]],
+  ['year_7',['YEAR',['../d8/d21/a00368.html#a0552dd357fedab8892f8550548357a55',1,'Common.h']]],
   ['yelltimer_8',['YellTimer',['../d0/d24/a11488.html#a2b8503aaae0fd5e8cd92bb9650ee6ee3',1,'boss_vanndar::boss_vanndarAI::YellTimer()'],['../de/d9e/a12440.html#a34ad7cabe4cb86e23deb30ca0ce77db0',1,'npc_image_of_medivh::npc_image_of_medivhAI::YellTimer()'],['../d7/de9/a15360.html#ac3f9997775f34babc79d4321fd1a6d6d',1,'WaveData::YellTimer()'],['../d0/db3/a24144.html#a6346259269af7f2936f959f87288dd69',1,'WaveDataCreature::YellTimer()'],['../dc/dd5/a11472.html#ad45ea624603c427fa5b3e40cd6ba7f5d',1,'boss_drekthar::boss_drektharAI::YellTimer()']]],
   ['ymironachievement_9',['ymironAchievement',['../d1/ddf/a21136.html#af3c9652f2d8834357e8f3788914de294',1,'instance_utgarde_pinnacle::instance_utgarde_pinnacle_InstanceMapScript']]],
   ['ymirondoor_10',['YmironDoor',['../d1/ddf/a21136.html#a4dde64ab83db8c95305232f681a10fdb',1,'instance_utgarde_pinnacle::instance_utgarde_pinnacle_InstanceMapScript']]],
-  ['yoggportalloc_11',['yoggPortalLoc',['../d0/de9/a03530.html#a24e97d868d452de43fd8267549dd8dc2',1,'boss_yoggsaron.cpp']]],
+  ['yoggportalloc_11',['yoggPortalLoc',['../dd/d42/a01259.html#a24e97d868d452de43fd8267549dd8dc2',1,'boss_yoggsaron.cpp']]],
   ['ypos_12',['ypos',['../df/dc6/a28420.html#aff83e30524adb734334ed235dcf2ef8f',1,'adt_MCNK']]],
   ['ytiles_13',['ytiles',['../da/d05/a04920.html#ac50224cdce231460c78c3e0f077b555d',1,'VMAP::WMOLiquidHeader::ytiles()'],['../d5/df7/a28652.html#a9901a7e9828ac840bc290b0768831d66',1,'WMOLiquidHeader::ytiles()']]],
   ['yverts_14',['yverts',['../da/d05/a04920.html#aa9ecb62b53af527b3bd855b8e93ba604',1,'VMAP::WMOLiquidHeader::yverts()'],['../d5/df7/a28652.html#abf24042b85692cd0df05d65d734dd99e',1,'WMOLiquidHeader::yverts()']]]

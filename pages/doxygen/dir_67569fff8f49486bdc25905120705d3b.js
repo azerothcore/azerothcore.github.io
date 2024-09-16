@@ -1,10 +1,10 @@
 var dir_67569fff8f49486bdc25905120705d3b =
 [
-    [ "boss_anomalus.cpp", "d2/d94/a03167.html", "d2/d94/a03167" ],
-    [ "boss_commander_stoutbeard_kolurg.cpp", "dd/d71/a03182.html", "dd/d71/a03182" ],
-    [ "boss_keristrasza.cpp", "d3/dcf/a03173.html", "d3/dcf/a03173" ],
-    [ "boss_magus_telestra.cpp", "df/d0d/a03176.html", "df/d0d/a03176" ],
-    [ "boss_ormorok.cpp", "da/de5/a03170.html", "da/de5/a03170" ],
-    [ "instance_nexus.cpp", "d1/d30/a03185.html", "d1/d30/a03185" ],
-    [ "nexus.h", "db/d65/a03179.html", "db/d65/a03179" ]
+    [ "boss_anomalus.cpp", "db/d28/a01133.html", "db/d28/a01133" ],
+    [ "boss_commander_stoutbeard_kolurg.cpp", "d3/ddc/a01142.html", "d3/ddc/a01142" ],
+    [ "boss_keristrasza.cpp", "d9/d65/a01145.html", "d9/d65/a01145" ],
+    [ "boss_magus_telestra.cpp", "d1/dae/a01136.html", "d1/dae/a01136" ],
+    [ "boss_ormorok.cpp", "d5/d3e/a01139.html", "d5/d3e/a01139" ],
+    [ "instance_nexus.cpp", "de/df1/a01151.html", "de/df1/a01151" ],
+    [ "nexus.h", "db/d17/a01148.html", "db/d17/a01148" ]
 ];

@@ -1,5 +1,5 @@
 var a01562 =
 [
-    [ "keyData", "da/d8e/a11152.html", "da/d8e/a11152" ],
-    [ "GetWardenActionStr", "d2/dc1/a01562.html#a4e3c0063e5bf94a2e640c7b887fe14fc", null ]
+    [ "OutdoorPvP_silithus", "de/d1d/a22500.html", "de/d1d/a22500" ],
+    [ "AddSC_outdoorpvp_si", "d2/dc1/a01562.html#a6dfd2849f525333510ae4febbbc3ae1f", null ]
 ];

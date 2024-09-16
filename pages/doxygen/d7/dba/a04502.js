@@ -1,18 +1,22 @@
 var a04502 =
 [
-    [ "Days", "d7/dba/a04502.html#af5dc5e7ad7b3f6d8e84530de842d125b", null ],
-    [ "Hours", "d7/dba/a04502.html#aa0f87984d2b3835a61dffc22ae8bf083", null ],
-    [ "Microseconds", "d7/dba/a04502.html#a201a83ed0d59d2baf946daf42dac834f", null ],
-    [ "Milliseconds", "d7/dba/a04502.html#a1c3834b9e3853535027d58bf21bec81f", null ],
-    [ "Minutes", "d7/dba/a04502.html#af2161f9db850581e2228078614990df8", null ],
-    [ "Months", "d7/dba/a04502.html#a5f2ffeea2459944dfaa4443f1efb7f42", null ],
-    [ "Seconds", "d7/dba/a04502.html#a3cd82f1c195a0b935b4d66b02a41acd8", null ],
-    [ "SystemTimePoint", "d7/dba/a04502.html#ada798961abc5a533d616ff780f567bb6", null ],
-    [ "TimePoint", "d7/dba/a04502.html#ae5ca775e8d8c664b6edef818ce1251b9", null ],
-    [ "Weeks", "d7/dba/a04502.html#a983745490d3d3a0322c4ccf0f418f179", null ],
-    [ "Years", "d7/dba/a04502.html#ab4fa20b33a9b5ee358963159b01d72f3", null ],
-    [ "operator\"\"_days", "d7/dba/a04502.html#ae62919aa53468bfadd4984bdd0498c03", null ],
-    [ "operator\"\"_months", "d7/dba/a04502.html#a7f38d5f5e7db75251b49712f910059ac", null ],
-    [ "operator\"\"_weeks", "d7/dba/a04502.html#a7ff3ff81243ee7b2ce873364bb7ad676", null ],
-    [ "operator\"\"_years", "d7/dba/a04502.html#a25baa64022678f43cf423c945dbd0226", null ]
+    [ "AISpellInfoType", "d8/d17/a06068.html", "d8/d17/a06068" ],
+    [ "AI_DEFAULT_COOLDOWN", "d7/dba/a04502.html#a41c947edd84b4f2bb45133dc7aa00cad", null ],
+    [ "AICondition", "d7/dba/a04502.html#ac43b18581ae7a7b66984b1003502d5af", [
+      [ "AICOND_AGGRO", "d7/dba/a04502.html#ac43b18581ae7a7b66984b1003502d5afac41d9d90387a55a0b5be34e13683f9c8", null ],
+      [ "AICOND_COMBAT", "d7/dba/a04502.html#ac43b18581ae7a7b66984b1003502d5afa6be0faa08bd4f7bb7891ce5e2b7e4642", null ],
+      [ "AICOND_DIE", "d7/dba/a04502.html#ac43b18581ae7a7b66984b1003502d5afaeda5ad2d2df79acf7c72e4785011cf6e", null ]
+    ] ],
+    [ "AITarget", "d7/dba/a04502.html#a0160eb61118b5e41325297a2e1691805", [
+      [ "AITARGET_SELF", "d7/dba/a04502.html#a0160eb61118b5e41325297a2e1691805a4b428b5bdc3edc7ea5f9ca4c9780e7f2", null ],
+      [ "AITARGET_VICTIM", "d7/dba/a04502.html#a0160eb61118b5e41325297a2e1691805a7a53e2d219f908fcf583c5c00d5d9452", null ],
+      [ "AITARGET_ENEMY", "d7/dba/a04502.html#a0160eb61118b5e41325297a2e1691805a96629d4be8c89fe161fecd4a8fc34439", null ],
+      [ "AITARGET_ALLY", "d7/dba/a04502.html#a0160eb61118b5e41325297a2e1691805a0a4905e11672a2854778c1c2c8221b56", null ],
+      [ "AITARGET_BUFF", "d7/dba/a04502.html#a0160eb61118b5e41325297a2e1691805a1dedb7d4847bb64f81a7760ce25670ed", null ],
+      [ "AITARGET_DEBUFF", "d7/dba/a04502.html#a0160eb61118b5e41325297a2e1691805aad9b55cf2a0d16b9eb1620544f0e3654", null ]
+    ] ],
+    [ "GetAISpellInfo", "d7/dba/a04502.html#a1ed41ad074263f6c0c63f38b7f51414b", null ],
+    [ "GetInstanceAI", "d7/dba/a04502.html#a6650ccba23715eea545340cd3e712233", null ],
+    [ "InstanceHasScript", "d7/dba/a04502.html#aad76768c8aee9ce3ac24657437adb0de", null ],
+    [ "RAND", "d7/dba/a04502.html#a95d9a0c5ba0d54645670ba51c16ed33c", null ]
 ];

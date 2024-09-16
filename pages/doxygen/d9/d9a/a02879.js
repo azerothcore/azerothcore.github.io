@@ -1,23 +1,17 @@
 var a02879 =
 [
-    [ "npc_eris_hevenfire", "d5/d73/a13280.html", "d5/d73/a13280" ],
-    [ "npc_eris_hevenfire::npc_eris_hevenfireAI", "da/d7b/a13284.html", "da/d7b/a13284" ],
-    [ "npc_balance_of_light_and_shadow", "da/d7e/a13288.html", "da/d7e/a13288" ],
-    [ "npc_balance_of_light_and_shadow::npc_balance_of_light_and_shadowAI", "d2/da0/a13292.html", "d2/da0/a13292" ],
-    [ "npc_augustus_the_touched", "d3/d1d/a13296.html", "d3/d1d/a13296" ],
-    [ "eEris", "d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fe", [
-      [ "QUEST_BALANCE_OF_LIGHT_AND_SHADOW", "d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea893fed7c9aba464b46eda93ba0ff910e", null ],
-      [ "ITEM_EYE_OF_DIVINITY", "d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36feaa330f1e90d7e18c5cec4f6ac9eccbf9b", null ],
-      [ "NPC_INJURED_PEASANT", "d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36feaae13148e0ec5731f2bc25c5cd83fb54a", null ],
-      [ "NPC_PLAGUED_PEASANT", "d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea2e04645dc1fe7fae413d5c2c903c89d2", null ],
-      [ "NPC_SCOURGE_ARCHER", "d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea50dd59f1eeb08594a61c6ad576ad2814", null ],
-      [ "EVENT_SUMMON_PEASANTS", "d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea499f23b6c79690c613e046b3e6394937", null ],
-      [ "EVENT_CHECK_PLAYER", "d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea3d3d147dbdefaa5a8280f3d1bcc15ea8", null ],
-      [ "EVENT_SUMMON_ARCHERS", "d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea84afa1291830b37278989be41610fb72", null ],
-      [ "SPELL_SHOOT", "d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea1b728fa1bb0194534b5b491d35ed871c", null ],
-      [ "SPELL_DEATHS_DOOR", "d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36fea59bc5812f6dcf3f0e45b673f923490e7", null ],
-      [ "SPELL_SEETHING_PLAGUE", "d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36feac366f4ed224210fd4352c0ac9fb1c12a", null ],
-      [ "SPELL_ERIS_BLESSING", "d9/d9a/a02879.html#a0846b7169aa45fd1ef72775a5f6e36feaaedc6f0db3ab3db342fe3379082ce633", null ]
+    [ "npc_daphne_stilwell", "d2/d7b/a13516.html", "d2/d7b/a13516" ],
+    [ "npc_daphne_stilwell::npc_daphne_stilwellAI", "de/daf/a13520.html", "de/daf/a13520" ],
+    [ "DaphneStilwell", "d9/d9a/a02879.html#a49d1cb4d511d2524f3bf3459da05a2fd", [
+      [ "SAY_DS_START", "d9/d9a/a02879.html#a49d1cb4d511d2524f3bf3459da05a2fdaa12c38d2f57b101a5272dde45bbf430e", null ],
+      [ "SAY_DS_DOWN_1", "d9/d9a/a02879.html#a49d1cb4d511d2524f3bf3459da05a2fda75bd441fc5d22c60e256684d8664aa46", null ],
+      [ "SAY_DS_DOWN_2", "d9/d9a/a02879.html#a49d1cb4d511d2524f3bf3459da05a2fda2fd750f4c8a0d85a69375e139be43d75", null ],
+      [ "SAY_DS_DOWN_3", "d9/d9a/a02879.html#a49d1cb4d511d2524f3bf3459da05a2fda14433601b23e5a16dcc971ea746d1128", null ],
+      [ "SAY_DS_PROLOGUE", "d9/d9a/a02879.html#a49d1cb4d511d2524f3bf3459da05a2fda402570a024e9b48018ca6b53ff7b83f8", null ],
+      [ "SPELL_SHOOT", "d9/d9a/a02879.html#a49d1cb4d511d2524f3bf3459da05a2fda1b728fa1bb0194534b5b491d35ed871c", null ],
+      [ "QUEST_TOME_VALOR", "d9/d9a/a02879.html#a49d1cb4d511d2524f3bf3459da05a2fda041a2f4b3f03948fc2f61e32e673973c", null ],
+      [ "NPC_DEFIAS_RAIDER", "d9/d9a/a02879.html#a49d1cb4d511d2524f3bf3459da05a2fda8455beedf9f49cb74c0f11bfb5a83050", null ],
+      [ "EQUIP_ID_RIFLE", "d9/d9a/a02879.html#a49d1cb4d511d2524f3bf3459da05a2fda31e0ac414da424f6923680055dd801d3", null ]
     ] ],
-    [ "AddSC_eastern_plaguelands", "d9/d9a/a02879.html#aaef7747656518bf0ce052d780430ed88", null ]
+    [ "AddSC_westfall", "d9/d9a/a02879.html#a9c6e961944f462fc3c48a6400c76266c", null ]
 ];

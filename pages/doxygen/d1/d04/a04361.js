@@ -1,12 +1,14 @@
 var a04361 =
 [
-    [ "HashTrait< GameObjectModel >", "d9/d3b/a04812.html", "d9/d3b/a04812" ],
-    [ "PositionTrait< GameObjectModel >", "d1/daa/a04816.html", "d1/daa/a04816" ],
-    [ "BoundsTrait< GameObjectModel >", "dd/dde/a04820.html", "dd/dde/a04820" ],
-    [ "DynTreeImpl", "da/d47/a04824.html", "da/d47/a04824" ],
-    [ "DynamicTreeIntersectionCallback", "df/da2/a04828.html", "df/da2/a04828" ],
-    [ "DynamicTreeAreaInfoCallback", "dc/d4a/a04832.html", "dc/d4a/a04832" ],
-    [ "DynamicTreeLocationInfoCallback", "da/d70/a04836.html", "da/d70/a04836" ],
-    [ "ParentTree", "d1/d04/a04361.html#a8e6e06962c0e04aa7bb4ea9a8e6f54a9", null ],
-    [ "CHECK_TREE_PERIOD", "d1/d04/a04361.html#a6c8b5b425bcbc0776a4dfa5dae72bf74", null ]
+    [ "GroupScript", "d3/da1/a10024.html", "d3/da1/a10024" ],
+    [ "GroupHook", "d1/d04/a04361.html#a373b3fe6b402e8321892b8c1be74ab5d", [
+      [ "GROUPHOOK_ON_ADD_MEMBER", "d1/d04/a04361.html#a373b3fe6b402e8321892b8c1be74ab5da3800aeea2a91eebb3ccdd533a8dfc681", null ],
+      [ "GROUPHOOK_ON_INVITE_MEMBER", "d1/d04/a04361.html#a373b3fe6b402e8321892b8c1be74ab5da4f30d67b987f0ade961e34bce95e85fe", null ],
+      [ "GROUPHOOK_ON_REMOVE_MEMBER", "d1/d04/a04361.html#a373b3fe6b402e8321892b8c1be74ab5daee0f42175b42d95f45380c1b70c786c3", null ],
+      [ "GROUPHOOK_ON_CHANGE_LEADER", "d1/d04/a04361.html#a373b3fe6b402e8321892b8c1be74ab5da32d5ef38f2a877e2d36cdf20e9bb6d23", null ],
+      [ "GROUPHOOK_ON_DISBAND", "d1/d04/a04361.html#a373b3fe6b402e8321892b8c1be74ab5dafe9e82d7bdea3097607de1e375b0e353", null ],
+      [ "GROUPHOOK_CAN_GROUP_JOIN_BATTLEGROUND_QUEUE", "d1/d04/a04361.html#a373b3fe6b402e8321892b8c1be74ab5da9b4d04fe85f908719f1412cb9b88e61c", null ],
+      [ "GROUPHOOK_ON_CREATE", "d1/d04/a04361.html#a373b3fe6b402e8321892b8c1be74ab5da0cc7b93ed018172ab0c6f191681e5f6c", null ],
+      [ "GROUPHOOK_END", "d1/d04/a04361.html#a373b3fe6b402e8321892b8c1be74ab5da71a6d6ef47c3bda7d088f579b6f3a5f2", null ]
+    ] ]
 ];

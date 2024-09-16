@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/database/Database/DatabaseWorkerPool.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Item/Container/Bag.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,88 +104,24 @@ $(document).ready(function(){initNavTree('de/de6/a03848.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a>  </div>
-  <div class="headertitle"><div class="title">DatabaseWorkerPool.h File Reference</div></div>
+  <div class="headertitle"><div class="title">Bag.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">DatabaseEnvFwd.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">StringFormat.h</a>&quot;</code><br />
-<code>#include &lt;array&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Bag.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">UpdateData.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d9f/a05584.html">DatabaseWorkerPool&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:abfde8cf59610848eff4ea61d09bb8ca7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a03848.html#abfde8cf59610848eff4ea61d09bb8ca7">MIN_MYSQL_CLIENT_VERSION</a>&#160;&#160;&#160;50700u</td></tr>
-<tr class="separator:abfde8cf59610848eff4ea61d09bb8ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd4a83e86313ca0bb35cb66497bc79b2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a03848.html#acd4a83e86313ca0bb35cb66497bc79b2">MIN_MYSQL_SERVER_VERSION</a>&#160;&#160;&#160;&quot;5.7.0&quot;</td></tr>
-<tr class="separator:acd4a83e86313ca0bb35cb66497bc79b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d642e8ec5615b713cd47c5ff00acfa3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de6/a03848.html#a8d642e8ec5615b713cd47c5ff00acfa3">MIN_MARIADB_SERVER_VERSION</a>&#160;&#160;&#160;&quot;10.5.0&quot;</td></tr>
-<tr class="separator:a8d642e8ec5615b713cd47c5ff00acfa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a8d642e8ec5615b713cd47c5ff00acfa3" name="a8d642e8ec5615b713cd47c5ff00acfa3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d642e8ec5615b713cd47c5ff00acfa3">&#9670;&#160;</a></span>MIN_MARIADB_SERVER_VERSION</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MIN_MARIADB_SERVER_VERSION&#160;&#160;&#160;&quot;10.5.0&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >The minimum MariaDB Server Version </p>
-
-</div>
-</div>
-<a id="abfde8cf59610848eff4ea61d09bb8ca7" name="abfde8cf59610848eff4ea61d09bb8ca7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfde8cf59610848eff4ea61d09bb8ca7">&#9670;&#160;</a></span>MIN_MYSQL_CLIENT_VERSION</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MIN_MYSQL_CLIENT_VERSION&#160;&#160;&#160;50700u</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >The minimum MariaDB Client Version MARIADB_VERSION_ID is defined if using libmariadbclient instead of libmysqlclient</p>
-<p >The minimum <a class="el" href="../../d7/d11/a04696.html">MySQL</a> Client Version </p>
-
-</div>
-</div>
-<a id="acd4a83e86313ca0bb35cb66497bc79b2" name="acd4a83e86313ca0bb35cb66497bc79b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd4a83e86313ca0bb35cb66497bc79b2">&#9670;&#160;</a></span>MIN_MYSQL_SERVER_VERSION</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MIN_MYSQL_SERVER_VERSION&#160;&#160;&#160;&quot;5.7.0&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >The minimum <a class="el" href="../../d7/d11/a04696.html">MySQL</a> Server Version </p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_3906e801b468713a6f5b1f193c7ea10d.html">database</a></li><li class="navelem"><a class="el" href="../../dir_4135abd5956581eb408665f16b5c495d.html">Database</a></li><li class="navelem"><a class="el" href="../../de/de6/a03848.html">DatabaseWorkerPool.h</a></li>
-    <li class="footer">Generated on Mon Sep 9 2024 20:38:24 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_4b91de77c0d3c1b17ed3a22a8949a24f.html">Item</a></li><li class="navelem"><a class="el" href="../../dir_1d0cd413e006ec6494118012b4dd808f.html">Container</a></li><li class="navelem"><a class="el" href="../../de/de6/a03848.html">Bag.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 16 2024 20:40:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

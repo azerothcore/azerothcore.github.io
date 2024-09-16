@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Loot/LootItemStorage.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Commands/cs_ticket.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,79 +106,51 @@ $(document).ready(function(){initNavTree('d4/d26/a01700.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
-  <div class="headertitle"><div class="title">LootItemStorage.h File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">cs_ticket.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Item.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">LootMgr.h</a>&quot;</code><br />
-<code>#include &lt;list&gt;</code><br />
-<code>#include &lt;map&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">AccountMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CommandScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Realm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">TicketMgr.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dbe/a09336.html">StoredLootItem</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d98/a09340.html">LootItemStorage</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dff/a11440.html">ticket_commandscript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a06515a8a4bd76cd02aa0ab99d3d7c64e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d26/a01700.html#a06515a8a4bd76cd02aa0ab99d3d7c64e">sLootItemStorage</a>&#160;&#160;&#160;<a class="el" href="../../d3/d98/a09340.html#a58d6dc6afa42364ca1dd6cbdcfb55b2b">LootItemStorage::instance</a>()</td></tr>
-<tr class="separator:a06515a8a4bd76cd02aa0ab99d3d7c64e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:aa16defe92374d7db2d28958ee8fce21d"><td class="memItemLeft" align="right" valign="top">typedef std::list&lt; <a class="el" href="../../d9/dbe/a09336.html">StoredLootItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d26/a01700.html#aa16defe92374d7db2d28958ee8fce21d">StoredLootItemList</a></td></tr>
-<tr class="separator:aa16defe92374d7db2d28958ee8fce21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06cc23df363d1d767959d7ab5ec29ad5"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d0/dba/a08164.html">ObjectGuid</a>, <a class="el" href="../../d4/d26/a01700.html#aa16defe92374d7db2d28958ee8fce21d">StoredLootItemList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d26/a01700.html#a06cc23df363d1d767959d7ab5ec29ad5">LootItemContainer</a></td></tr>
-<tr class="separator:a06cc23df363d1d767959d7ab5ec29ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ad71463f4442d2e022a92404a4d9dec76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d26/a01700.html#ad71463f4442d2e022a92404a4d9dec76">AddSC_ticket_commandscript</a> ()</td></tr>
+<tr class="separator:ad71463f4442d2e022a92404a4d9dec76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a06515a8a4bd76cd02aa0ab99d3d7c64e" name="a06515a8a4bd76cd02aa0ab99d3d7c64e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06515a8a4bd76cd02aa0ab99d3d7c64e">&#9670;&#160;</a></span>sLootItemStorage</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ad71463f4442d2e022a92404a4d9dec76" name="ad71463f4442d2e022a92404a4d9dec76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad71463f4442d2e022a92404a4d9dec76">&#9670;&#160;</a></span>AddSC_ticket_commandscript()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define sLootItemStorage&#160;&#160;&#160;<a class="el" href="../../d3/d98/a09340.html#a58d6dc6afa42364ca1dd6cbdcfb55b2b">LootItemStorage::instance</a>()</td>
+          <td class="memname">void AddSC_ticket_commandscript </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a06cc23df363d1d767959d7ab5ec29ad5" name="a06cc23df363d1d767959d7ab5ec29ad5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06cc23df363d1d767959d7ab5ec29ad5">&#9670;&#160;</a></span>LootItemContainer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../d0/dba/a08164.html">ObjectGuid</a>, <a class="el" href="../../d4/d26/a01700.html#aa16defe92374d7db2d28958ee8fce21d">StoredLootItemList</a>&gt; <a class="el" href="../../d4/d26/a01700.html#a06cc23df363d1d767959d7ab5ec29ad5">LootItemContainer</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa16defe92374d7db2d28958ee8fce21d" name="aa16defe92374d7db2d28958ee8fce21d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa16defe92374d7db2d28958ee8fce21d">&#9670;&#160;</a></span>StoredLootItemList</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::list&lt;<a class="el" href="../../d9/dbe/a09336.html">StoredLootItem</a>&gt; <a class="el" href="../../d4/d26/a01700.html#aa16defe92374d7db2d28958ee8fce21d">StoredLootItemList</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  535</span>{</div>
+<div class="line"><span class="lineno">  536</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/dff/a11440.html">ticket_commandscript</a>();</div>
+<div class="line"><span class="lineno">  537</span>}</div>
+<div class="ttc" id="aa11440_html"><div class="ttname"><a href="../../db/dff/a11440.html">ticket_commandscript</a></div><div class="ttdef"><b>Definition:</b> cs_ticket.cpp:36</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00068">AddCommandsScripts()</a>.</p>
 
 </div>
 </div>
@@ -187,8 +159,8 @@ Typedefs</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_10297b48ba7ced035a247ae7b230d081.html">Loot</a></li><li class="navelem"><a class="el" href="../../d4/d26/a01700.html">LootItemStorage.h</a></li>
-    <li class="footer">Generated on Mon Sep 9 2024 20:38:25 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_2519615cc1c93425dacf3aa6e071da7e.html">Commands</a></li><li class="navelem"><a class="el" href="../../d4/d26/a01700.html">cs_ticket.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 16 2024 20:40:03 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

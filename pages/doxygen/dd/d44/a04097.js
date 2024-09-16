@@ -1,17 +1,7 @@
 var a04097 =
 [
-    [ "Log", "d5/d47/a05240.html", "d5/d47/a05240" ],
-    [ "LOG_DEBUG", "dd/d44/a04097.html#a47ac782b14a7531c6232777165a1a161", null ],
-    [ "LOG_ERROR", "dd/d44/a04097.html#a43832e3fa8508deb4ce43e520005fcd9", null ],
-    [ "LOG_EXCEPTION_FREE", "dd/d44/a04097.html#aa30f9aa89655372730e1d6fec2e40c5e", null ],
-    [ "LOG_FATAL", "dd/d44/a04097.html#a0e09b50c268dc6897a1c70aa46de936e", null ],
-    [ "LOG_GM", "dd/d44/a04097.html#aeeb132f13796dfa459eb05386acff8fe", null ],
-    [ "LOG_INFO", "dd/d44/a04097.html#a271e427d8e8481efd5cd5f537ec9e419", null ],
-    [ "LOG_MESSAGE_BODY", "dd/d44/a04097.html#a1ce833e7403b29687774e0539da6f4b9", null ],
-    [ "LOG_TRACE", "dd/d44/a04097.html#ac0b4843dd5a1f2e3b7aaa7dbc9dc8ba5", null ],
-    [ "LOG_WARN", "dd/d44/a04097.html#adf09840a666e1d86bcd3439105db6edc", null ],
-    [ "LOGGER_ROOT", "dd/d44/a04097.html#a6f9b401329ff7cf191e6b1801caeb441", null ],
-    [ "sLog", "dd/d44/a04097.html#ab5487500f5b4b12072043104b916d582", null ],
-    [ "AppenderCreatorFn", "dd/d44/a04097.html#a1db7ef47a6d7bf4560a30c8b7e9f6a37", null ],
-    [ "CreateAppender", "dd/d44/a04097.html#ae5d709e10423806fa5331696a9bbd657", null ]
+    [ "Acore::WorldWorldTextBuilder", "d0/dca/a11236.html", "d0/dca/a11236" ],
+    [ "getWorldInstance", "db/da5/a04663.html#ga6bf640d0ef6703c32d9fa1618826319b", null ],
+    [ "playersSaveScheduler", "dd/d44/a04097.html#a77424e6a2dc4291e8f21eaade812e141", null ],
+    [ "realm", "db/da5/a04663.html#gab842e78f86995775c494437356620779", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/tools/mmaps_generator/MapBuilder.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/AI/enuminfo_CreatureAI.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,27 +106,23 @@ $(document).ready(function(){initNavTree('d0/dff/a04571.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a>  </div>
-  <div class="headertitle"><div class="title">MapBuilder.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">enuminfo_CreatureAI.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">MapBuilder.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">IntermediateValues.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MapDefines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MapTree.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ModelInstance.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">PathCommon.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">StringFormat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">VMapFactory.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">VMapMgr2.h</a>&quot;</code><br />
-<code>#include &lt;DetourCommon.h&gt;</code><br />
-<code>#include &lt;DetourNavMesh.h&gt;</code><br />
-<code>#include &lt;DetourNavMeshBuilder.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SmartEnum.h</a>&quot;</code><br />
+<code>#include &lt;stdexcept&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d5/d2c/a04678"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d2c/a04678.html">MMAP</a></td></tr>
+<tr class="memitem:d5/d43/a04668"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html">Acore</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:de/d69/a04679"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d69/a04679.html">Acore::Impl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d4/d70/a04684"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html">Acore::Impl::EnumUtilsImpl</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -134,8 +130,8 @@ Namespaces</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_d5b937f8e04412da4f4df9b7d3f28ed0.html">mmaps_generator</a></li><li class="navelem"><a class="el" href="../../d0/dff/a04571.html">MapBuilder.cpp</a></li>
-    <li class="footer">Generated on Tue Aug 27 2024 10:00:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5e5741f7891ede41bef7ecc492194021.html">AI</a></li><li class="navelem"><a class="el" href="../../d0/dff/a04571.html">enuminfo_CreatureAI.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 16 2024 20:40:01 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

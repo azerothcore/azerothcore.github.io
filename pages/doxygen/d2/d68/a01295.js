@@ -1,6 +1,6 @@
 var a01295 =
 [
-    [ "ScriptMgr", "d9/da4/a10112.html", "d9/da4/a10112" ],
-    [ "ScriptRegistry< TScript >", "dc/d7f/a10116.html", "dc/d7f/a10116" ],
-    [ "sScriptMgr", "d2/d68/a01295.html#ae8161e629869974bc49b1cbfc73c1087", null ]
+    [ "instance_utgarde_pinnacle", "d7/dd9/a21132.html", "d7/dd9/a21132" ],
+    [ "instance_utgarde_pinnacle::instance_utgarde_pinnacle_InstanceMapScript", "d1/ddf/a21136.html", "d1/ddf/a21136" ],
+    [ "AddSC_instance_utgarde_pinnacle", "d2/d68/a01295.html#a3469cdfafe3d81dca68950e7a6a6370d", null ]
 ];

@@ -1,13 +1,16 @@
 var a03005 =
 [
-    [ "instance_karazhan", "dc/d1f/a12404.html", "dc/d1f/a12404" ],
-    [ "instance_karazhan::instance_karazhan_InstanceMapScript", "d2/def/a12408.html", "d2/def/a12408" ],
-    [ "spell_karazhan_brittle_bones_aura", "d8/d8e/a12412.html", "d8/d8e/a12412" ],
-    [ "spell_karazhan_overload_aura", "dc/df2/a12416.html", "dc/df2/a12416" ],
-    [ "spell_karazhan_blink", "db/d8a/a12420.html", "db/d8a/a12420" ],
-    [ "AddSC_instance_karazhan", "de/da4/a03005.html#adc62e82adedf1c9e8d47332aaa7a4cf5", null ],
-    [ "creatureData", "de/da4/a03005.html#a412286b689bd324fedd65ddd8dde8afb", null ],
-    [ "doorData", "de/da4/a03005.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],
-    [ "gameObjectData", "de/da4/a03005.html#a1461582839e3b7fdbb7397e5d2086e31", null ],
-    [ "OptionalSpawn", "de/da4/a03005.html#a9dacd53568280ba4bb7d0a7c7f65f6cf", null ]
+    [ "WorldPackets::Misc::Weather", "d1/d2a/a10460.html", "d1/d2a/a10460" ],
+    [ "WorldPackets::Misc::LevelUpInfo", "db/da2/a10464.html", "db/da2/a10464" ],
+    [ "WorldPackets::Misc::PlayMusic", "dc/dce/a10468.html", "dc/dce/a10468" ],
+    [ "WorldPackets::Misc::PlayObjectSound", "d4/d25/a10472.html", "d4/d25/a10472" ],
+    [ "WorldPackets::Misc::Playsound", "d6/d30/a10476.html", "d6/d30/a10476" ],
+    [ "WorldPackets::Misc::RandomRollClient", "d5/d94/a10480.html", "d5/d94/a10480" ],
+    [ "WorldPackets::Misc::RandomRoll", "d3/de2/a10484.html", "d3/de2/a10484" ],
+    [ "WorldPackets::Misc::StartMirrorTimer", "dd/d99/a10488.html", "dd/d99/a10488" ],
+    [ "WorldPackets::Misc::PauseMirrorTimer", "dc/da9/a10492.html", "dc/da9/a10492" ],
+    [ "WorldPackets::Misc::StopMirrorTimer", "d8/d92/a10496.html", "d8/d92/a10496" ],
+    [ "WorldPackets::Misc::DurabilityDamageDeath", "d7/d14/a10500.html", "d7/d14/a10500" ],
+    [ "WorldPackets::Misc::CrossedInebriationThreshold", "d5/d30/a10504.html", "d5/d30/a10504" ],
+    [ "WorldPackets::Misc::UITime", "df/d2f/a10508.html", "df/d2f/a10508" ]
 ];

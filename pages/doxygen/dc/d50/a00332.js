@@ -1,11 +1,15 @@
 var a00332 =
 [
-    [ "AABound", "d2/df3/a04787.html", "d2/df3/a04787" ],
-    [ "BIH", "db/d92/a04791.html", "db/d92/a04791" ],
-    [ "BIH::buildData", "d5/df7/a04795.html", "d5/df7/a04795" ],
-    [ "BIH::StackNode", "d5/d6b/a04799.html", "d5/d6b/a04799" ],
-    [ "BIH::BuildStats", "d9/d62/a04803.html", "d9/d62/a04803" ],
-    [ "MAX_STACK_SIZE", "dc/d50/a00332.html#accbb358028675c83675d8b34c386268d", null ],
-    [ "floatToRawIntBits", "dc/d50/a00332.html#ad04403146f53e198de60b6c4bec4246e", null ],
-    [ "intBitsToFloat", "dc/d50/a00332.html#a3b415e235398aa84c4f976084f8e130c", null ]
+    [ "VMAP::ManagedModel", "d1/dcd/a04880.html", "d1/dcd/a04880" ],
+    [ "VMAP::VMapMgr2", "dc/d32/a04884.html", "dc/d32/a04884" ],
+    [ "FILENAMEBUFFER_SIZE", "dc/d50/a00332.html#aebe91d3f560a4221b135ef03b21a485f", null ],
+    [ "MAP_FILENAME_EXTENSION2", "dc/d50/a00332.html#aad39c14e5fae9fd5141df154332ae6fd", null ],
+    [ "InstanceTreeMap", "dc/d50/a00332.html#a38798cd0b87931dbaeda34fa316c2f6f", null ],
+    [ "ModelFileMap", "dc/d50/a00332.html#a6efa1bd5795cb2fcc8688e7500a8570f", null ],
+    [ "DisableTypes", "dc/d50/a00332.html#ae6fa86a61cff3bac928739b18ffb8c1b", [
+      [ "VMAP_DISABLE_AREAFLAG", "dc/d50/a00332.html#ae6fa86a61cff3bac928739b18ffb8c1ba4fc4dc95e6df57c161e146d8da4b4a19", null ],
+      [ "VMAP_DISABLE_HEIGHT", "dc/d50/a00332.html#ae6fa86a61cff3bac928739b18ffb8c1ba2f9e18e9b167ecc25202f607e29af926", null ],
+      [ "VMAP_DISABLE_LOS", "dc/d50/a00332.html#ae6fa86a61cff3bac928739b18ffb8c1ba26f8933b26a6ce62d8bddafde8ebb108", null ],
+      [ "VMAP_DISABLE_LIQUIDSTATUS", "dc/d50/a00332.html#ae6fa86a61cff3bac928739b18ffb8c1ba191004652b9fbcccb26c14ce81a94cec", null ]
+    ] ]
 ];

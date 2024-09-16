@@ -1,4 +1,31 @@
 var a00044 =
 [
-    [ "Acore::String::Trim< std::string >", "d5/df9/a00044.html#a39e286b6ca47198eba4d5e31cef66aa5", null ]
+    [ "consoleToUtf8", "d5/df9/a00044.html#a0da0f18a290f7efb94e632d8ffa819d1", null ],
+    [ "CreatePIDFile", "d5/df9/a00044.html#a8eaff2d3f9402bfbde369f66eb7a8ebb", null ],
+    [ "GetMainPartOfName", "d5/df9/a00044.html#a856c0e32aef56abc9d36e7be0364e636", null ],
+    [ "GetPID", "d5/df9/a00044.html#ad64d0d38c0770cbea682c439fc38ce4f", null ],
+    [ "GetTypeName", "d5/df9/a00044.html#aaece4867df5ff4fa4d15a8db3dbacff1", null ],
+    [ "IsIPAddress", "d5/df9/a00044.html#a673f2e86a3a241f52994e86224f77afc", null ],
+    [ "MoneyStringToMoney", "d5/df9/a00044.html#a7c87560ed2ed33c60d9744beb97d1b33", null ],
+    [ "secsToTimeString", "d5/df9/a00044.html#a0b4910c611cea4a1b2812dac5456c5a8", null ],
+    [ "StringCompareLessI", "d5/df9/a00044.html#ac5b7cdeac8fb358e5dab04069daef121", null ],
+    [ "StringContainsStringI", "d5/df9/a00044.html#a800adaea88b1924cade604107d41f82a", null ],
+    [ "StringEqualI", "d5/df9/a00044.html#a131b997858d0d4c6825222d64948db73", null ],
+    [ "stripLineInvisibleChars", "d5/df9/a00044.html#a493dd3ee0681de045d6e92e8af1549b5", null ],
+    [ "strToLower", "d5/df9/a00044.html#a8a91185d89f31e26170db63a868642cd", null ],
+    [ "strToUpper", "d5/df9/a00044.html#afa0874a9f505fbf81cd242c9ea33b379", null ],
+    [ "TimeStringToSecs", "d5/df9/a00044.html#a6afbc7b52fa1fe844f66ffcf8230ff93", null ],
+    [ "Utf8FitTo", "d5/df9/a00044.html#ace1c3303a671cea2ec75e5ee4ad9bdeb", null ],
+    [ "utf8length", "d5/df9/a00044.html#aa44a42a249be6823b5c7d313d9e019db", null ],
+    [ "utf8printf", "d5/df9/a00044.html#a8391493892d35ff6816f9457caee3e77", null ],
+    [ "utf8ToConsole", "d5/df9/a00044.html#aa53042f688433866e71acf6d56b290f8", null ],
+    [ "Utf8ToUpperOnlyLatin", "d5/df9/a00044.html#a589bbb62b3f6aadebe49b4140446fb57", null ],
+    [ "Utf8toWStr", "d5/df9/a00044.html#a096388bd1034eb78e43e5d60cc4f657a", null ],
+    [ "Utf8toWStr", "d5/df9/a00044.html#ab2748a05d5b76aa48bc090d456f5a56c", null ],
+    [ "utf8truncate", "d5/df9/a00044.html#ad881ed438a9a0c698d3c9860d78d4a2b", null ],
+    [ "vutf8printf", "d5/df9/a00044.html#afaf5870352b090b2acd19614a00f5478", null ],
+    [ "wstrToLower", "d5/df9/a00044.html#a58af07e1af657c56b4a20b6c7ef83615", null ],
+    [ "wstrToUpper", "d5/df9/a00044.html#aeaeb4d14bd6ff6536728bbf053805146", null ],
+    [ "WStrToUtf8", "d5/df9/a00044.html#a67d822c055a83a27e054b579361de44d", null ],
+    [ "WStrToUtf8", "d5/df9/a00044.html#a5302f395421817e94da66c7535b22e18", null ]
 ];

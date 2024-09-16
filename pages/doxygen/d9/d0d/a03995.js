@@ -1,4 +1,4 @@
 var a03995 =
 [
-    [ "NetworkThread< SocketType >", "d5/d76/a28328.html", "d5/d76/a28328" ]
+    [ "lfg::LfgGroupData", "d6/d2c/a07660.html", "d6/d2c/a07660" ]
 ];

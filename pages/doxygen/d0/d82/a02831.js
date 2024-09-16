@@ -1,16 +1,13 @@
 var a02831 =
 [
-    [ "boss_grizzle", "d7/d6c/a11596.html", "d7/d6c/a11596" ],
-    [ "boss_grizzle::boss_grizzleAI", "d8/d0a/a11600.html", "d8/d0a/a11600" ],
-    [ "Grizzle", "d0/d82/a02831.html#acfff5d4b983e4db1d5efb6bd5da7e7aa", [
-      [ "SPELL_GROUNDTREMOR", "d0/d82/a02831.html#acfff5d4b983e4db1d5efb6bd5da7e7aaa4426ae7fabf4ddb0d8355b0049b5a6bb", null ],
-      [ "SPELL_FRENZY", "d0/d82/a02831.html#acfff5d4b983e4db1d5efb6bd5da7e7aaab54f261ba282273bed875abe6642a293", null ],
-      [ "EMOTE_FRENZY_KILL", "d0/d82/a02831.html#acfff5d4b983e4db1d5efb6bd5da7e7aaaebdb26e3a90dde560c1c4f7fd5615f63", null ]
-    ] ],
-    [ "Timer", "d0/d82/a02831.html#a6e0035edd58cc6ca8c94b5f9723a0d80", [
-      [ "TIMER_GROUNDTREMOR", "d0/d82/a02831.html#a6e0035edd58cc6ca8c94b5f9723a0d80a5046fe24f2bd1c59407d77496c82dd59", null ],
-      [ "TIMER_FRENZY", "d0/d82/a02831.html#a6e0035edd58cc6ca8c94b5f9723a0d80a31ac972cb44128c4662a608b8f6eeb83", null ],
-      [ "TIMER_WAR_STOMP", "de/d8e/a02762.html#a6e0035edd58cc6ca8c94b5f9723a0d80a77d3bf4a5b183f5934aa399d3e185eef", null ]
-    ] ],
-    [ "AddSC_boss_grizzle", "d0/d82/a02831.html#adb6c19fe584b9ecd11ab67084570a0be", null ]
+    [ "instance_karazhan", "dc/d1f/a12404.html", "dc/d1f/a12404" ],
+    [ "instance_karazhan::instance_karazhan_InstanceMapScript", "d2/def/a12408.html", "d2/def/a12408" ],
+    [ "spell_karazhan_brittle_bones_aura", "d8/d8e/a12412.html", "d8/d8e/a12412" ],
+    [ "spell_karazhan_overload_aura", "dc/df2/a12416.html", "dc/df2/a12416" ],
+    [ "spell_karazhan_blink", "db/d8a/a12420.html", "db/d8a/a12420" ],
+    [ "AddSC_instance_karazhan", "d0/d82/a02831.html#adc62e82adedf1c9e8d47332aaa7a4cf5", null ],
+    [ "creatureData", "d0/d82/a02831.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "doorData", "d0/d82/a02831.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],
+    [ "gameObjectData", "d0/d82/a02831.html#a1461582839e3b7fdbb7397e5d2086e31", null ],
+    [ "OptionalSpawn", "d0/d82/a02831.html#a9dacd53568280ba4bb7d0a7c7f65f6cf", null ]
 ];

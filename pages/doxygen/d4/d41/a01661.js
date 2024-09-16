@@ -1,6 +1,5 @@
 var a01661 =
 [
-    [ "AuctionListOwnerItemsDelayEvent", "d7/d45/a09576.html", "d7/d45/a09576" ],
-    [ "AuctionListItemsDelayEvent", "d6/dab/a09580.html", "d6/dab/a09580" ],
-    [ "AsyncAuctionListingMgr", "d5/dea/a09584.html", "d5/dea/a09584" ]
+    [ "player_settings_commandscript", "d8/d5e/a11408.html", "d8/d5e/a11408" ],
+    [ "AddSC_player_settings_commandscript", "d4/d41/a01661.html#a366685affd5565d164c65f8cd4a20b61", null ]
 ];

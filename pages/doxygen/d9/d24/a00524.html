@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Battlegrounds/Zones/BattlegroundWS.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/tools/mmaps_generator/PathCommon.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,27 +104,52 @@ $(document).ready(function(){initNavTree('d9/d24/a00524.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">BattlegroundWS.cpp File Reference</div></div>
+  <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">PathCommon.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">BattlegroundWS.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameGraveyard.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameObject.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Object.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;cstddef&gt;</code><br />
+<code>#include &lt;cstring&gt;</code><br />
+<code>#include &lt;dirent.h&gt;</code><br />
+<code>#include &lt;cerrno&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d1/d64/a04675"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d64/a04675.html">MMAP</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a030b28c9f552c0de4a4b4844fc5e6101"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d64/a04675.html#a030b28c9f552c0de4a4b4844fc5e6101">MMAP::ListFilesResult</a> { <br />
+&#160;&#160;<a class="el" href="../../d1/d64/a04675.html#a030b28c9f552c0de4a4b4844fc5e6101a868c0f60f6afa222577730606ed493a6">MMAP::LISTFILE_DIRECTORY_NOT_FOUND</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d64/a04675.html#a030b28c9f552c0de4a4b4844fc5e6101a952e90f65bfd2eefbd80a8b830eb5687">MMAP::LISTFILE_OK</a> = 1
+<br />
+ }</td></tr>
+<tr class="separator:a030b28c9f552c0de4a4b4844fc5e6101"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a0b1c31a5b3e8bebc7fa860b40f7997e1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d64/a04675.html#a0b1c31a5b3e8bebc7fa860b40f7997e1">MMAP::matchWildcardFilter</a> (const char *filter, const char *str)</td></tr>
+<tr class="separator:a0b1c31a5b3e8bebc7fa860b40f7997e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3620968f3c1f5c1a3bb0c809ab0eb4ab"><td class="memItemLeft" align="right" valign="top">ListFilesResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d64/a04675.html#a3620968f3c1f5c1a3bb0c809ab0eb4ab">MMAP::getDirContents</a> (std::vector&lt; std::string &gt; &amp;fileList, std::string dirpath=&quot;.&quot;, std::string filter=&quot;*&quot;)</td></tr>
+<tr class="separator:a3620968f3c1f5c1a3bb0c809ab0eb4ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_fc52f0b797d74b4b54bfd04593b84648.html">Battlegrounds</a></li><li class="navelem"><a class="el" href="../../dir_d9de844c1d859dc2cc6a65181dd33644.html">Zones</a></li><li class="navelem"><a class="el" href="../../d9/d24/a00524.html">BattlegroundWS.cpp</a></li>
-    <li class="footer">Generated on Mon Sep 9 2024 20:38:24 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_d5b937f8e04412da4f4df9b7d3f28ed0.html">mmaps_generator</a></li><li class="navelem"><a class="el" href="../../d9/d24/a00524.html">PathCommon.h</a></li>
+    <li class="footer">Generated on Mon Sep 16 2024 20:40:57 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

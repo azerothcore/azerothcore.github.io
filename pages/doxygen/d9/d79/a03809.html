@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/World/item_scripts.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Player/PlayerUpdates.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,170 +105,549 @@ $(document).ready(function(){initNavTree('d9/d79/a03809.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">item_scripts.cpp File Reference</div></div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">PlayerUpdates.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ItemScript.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">AchievementMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlefieldMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Channel.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ChannelMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Formulas.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Guild.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">OutdoorPvPMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SkillDiscovery.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">UpdateFieldFlags.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Weather.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WeatherMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldStatePackets.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d29/a27304.html">item_only_for_flight</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d44/a27308.html">item_incendiary_explosives</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d32/a27312.html">item_mysterious_egg</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d47/a27316.html">item_disgusting_jar</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d7f/a27320.html">item_petrov_cluster_bombs</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d36/a27324.html">item_captured_frog</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d38/a27328.html">item_generic_limit_chance_above_60</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:afa5a0f3082f0a49fcc796209c7828151"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d79/a03809.html#afa5a0f3082f0a49fcc796209c7828151">OnlyForFlight</a> { <a class="el" href="../../d9/d79/a03809.html#afa5a0f3082f0a49fcc796209c7828151aeefbb491736447da40481cf5a8742e2d">SPELL_ARCANE_CHARGES</a> = 45072
- }</td></tr>
-<tr class="separator:afa5a0f3082f0a49fcc796209c7828151"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5481d2bf1b9efa370833eed302f6f94c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d79/a03809.html#a5481d2bf1b9efa370833eed302f6f94c">PetrovClusterBombs</a> { <br />
-&#160;&#160;<a class="el" href="../../d9/d79/a03809.html#a5481d2bf1b9efa370833eed302f6f94ca52897b7254f1ac012c7e278d8dcbd8b6">SPELL_PETROV_BOMB</a> = 42406
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d79/a03809.html#a5481d2bf1b9efa370833eed302f6f94ca61d3b5bb03fb6b0be836957c1d977e42">AREA_ID_SHATTERED_STRAITS</a> = 4064
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d79/a03809.html#a5481d2bf1b9efa370833eed302f6f94ca24b25ae9cc97c3cf213b6b0711d511b9">ZONE_ID_HOWLING</a> = 495
-<br />
- }</td></tr>
-<tr class="separator:a5481d2bf1b9efa370833eed302f6f94c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a51d3f5cfd1964cbec23fcba5046cca"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d79/a03809.html#a3a51d3f5cfd1964cbec23fcba5046cca">CapturedFrog</a> { <br />
-&#160;&#160;<a class="el" href="../../d9/d79/a03809.html#a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04">QUEST_THE_PERFECT_SPIES</a> = 25444
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d79/a03809.html#a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f">NPC_VANIRAS_SENTRY_TOTEM</a> = 40187
-<br />
- }</td></tr>
-<tr class="separator:a3a51d3f5cfd1964cbec23fcba5046cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3e28ebf5a580887bb117f786689a34c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d79/a03809.html#a3e28ebf5a580887bb117f786689a34c6">AddSC_item_scripts</a> ()</td></tr>
-<tr class="separator:a3e28ebf5a580887bb117f786689a34c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66adde9ba6a85d585f6e6e8355499aa6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d79/a03809.html#a66adde9ba6a85d585f6e6e8355499aa6">SkillGainChance</a> (<a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SkillValue, <a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GrayLevel, <a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GreenLevel, <a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> YellowLevel)</td></tr>
+<tr class="separator:a66adde9ba6a85d585f6e6e8355499aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa890f698ac89e4049e1107c05d065495"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d79/a03809.html#aa890f698ac89e4049e1107c05d065495">getProbabilityOfLevelUp</a> (<a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SkillValue)</td></tr>
+<tr class="separator:aa890f698ac89e4049e1107c05d065495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d79/a03809.html#a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77">UpdateVisibilityOf_helper</a> (<a class="el" href="../../d6/d9d/a03917.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> &amp;s64, T *target, std::vector&lt; <a class="el" href="../../d8/dc4/a08492.html">Unit</a> * &gt; &amp;)</td></tr>
+<tr class="separator:a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa522147fa6130f7d54551f137424bd15"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:aa522147fa6130f7d54551f137424bd15"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d79/a03809.html#aa522147fa6130f7d54551f137424bd15">UpdateVisibilityOf_helper</a> (<a class="el" href="../../d6/d9d/a03917.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> &amp;s64, <a class="el" href="../../dc/d2e/a07920.html">GameObject</a> *target, std::vector&lt; <a class="el" href="../../d8/dc4/a08492.html">Unit</a> * &gt; &amp;)</td></tr>
+<tr class="separator:aa522147fa6130f7d54551f137424bd15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f5d6b73fc1fb15a0cde612641ba3433"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a5f5d6b73fc1fb15a0cde612641ba3433"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d79/a03809.html#a5f5d6b73fc1fb15a0cde612641ba3433">UpdateVisibilityOf_helper</a> (<a class="el" href="../../d6/d9d/a03917.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> &amp;s64, <a class="el" href="../../d7/d9e/a07744.html">Creature</a> *target, std::vector&lt; <a class="el" href="../../d8/dc4/a08492.html">Unit</a> * &gt; &amp;v)</td></tr>
+<tr class="separator:a5f5d6b73fc1fb15a0cde612641ba3433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac411c559a97e183268339b1ea63a84b6"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:ac411c559a97e183268339b1ea63a84b6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d79/a03809.html#ac411c559a97e183268339b1ea63a84b6">UpdateVisibilityOf_helper</a> (<a class="el" href="../../d6/d9d/a03917.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> &amp;s64, <a class="el" href="../../d1/d53/a08360.html">Player</a> *target, std::vector&lt; <a class="el" href="../../d8/dc4/a08492.html">Unit</a> * &gt; &amp;v)</td></tr>
+<tr class="separator:ac411c559a97e183268339b1ea63a84b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8172910e1dfdc7b56ca3931dd2fab1fb"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a8172910e1dfdc7b56ca3931dd2fab1fb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d79/a03809.html#a8172910e1dfdc7b56ca3931dd2fab1fb">BeforeVisibilityDestroy</a> (T *, <a class="el" href="../../d1/d53/a08360.html">Player</a> *)</td></tr>
+<tr class="separator:a8172910e1dfdc7b56ca3931dd2fab1fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62188ab6a72d08b62bf37442dbbfdaa6"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a62188ab6a72d08b62bf37442dbbfdaa6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d79/a03809.html#a62188ab6a72d08b62bf37442dbbfdaa6">BeforeVisibilityDestroy&lt; Creature &gt;</a> (<a class="el" href="../../d7/d9e/a07744.html">Creature</a> *t, <a class="el" href="../../d1/d53/a08360.html">Player</a> *p)</td></tr>
+<tr class="separator:a62188ab6a72d08b62bf37442dbbfdaa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:afabbcd46bf6f03c5dca10b117810b710"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d79/a03809.html#afabbcd46bf6f03c5dca10b117810b710">ZONE_UPDATE_INTERVAL</a> = 1000</td></tr>
+<tr class="separator:afabbcd46bf6f03c5dca10b117810b710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72b3624ee55553e28f82ef06d7c74c6a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d79/a03809.html#a72b3624ee55553e28f82ef06d7c74c6a">bonusSkillLevels</a> [] = {75, 150, 225, 300, 375, 450}</td></tr>
+<tr class="separator:a72b3624ee55553e28f82ef06d7c74c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad103e97f7db0cfd188ab64f5748c7464"><td class="memItemLeft" align="right" valign="top">static const std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d79/a03809.html#ad103e97f7db0cfd188ab64f5748c7464">bonusSkillLevelsSize</a></td></tr>
+<tr class="separator:ad103e97f7db0cfd188ab64f5748c7464"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a3a51d3f5cfd1964cbec23fcba5046cca" name="a3a51d3f5cfd1964cbec23fcba5046cca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a51d3f5cfd1964cbec23fcba5046cca">&#9670;&#160;</a></span>CapturedFrog</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d9/d79/a03809.html#a3a51d3f5cfd1964cbec23fcba5046cca">CapturedFrog</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04" name="a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04"></a>QUEST_THE_PERFECT_SPIES&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f" name="a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f"></a>NPC_VANIRAS_SENTRY_TOTEM&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  167</span>{</div>
-<div class="line"><span class="lineno">  168</span>    <a class="code hl_enumvalue" href="../../d9/d79/a03809.html#a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04">QUEST_THE_PERFECT_SPIES</a>      = 25444,</div>
-<div class="line"><span class="lineno">  169</span>    <a class="code hl_enumvalue" href="../../d9/d79/a03809.html#a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f">NPC_VANIRAS_SENTRY_TOTEM</a>     = 40187</div>
-<div class="line"><span class="lineno">  170</span>};</div>
-<div class="ttc" id="aa03809_html_a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f"><div class="ttname"><a href="../../d9/d79/a03809.html#a3a51d3f5cfd1964cbec23fcba5046ccaac387e8b467655f50a7dbaa8bcd0de57f">NPC_VANIRAS_SENTRY_TOTEM</a></div><div class="ttdeci">@ NPC_VANIRAS_SENTRY_TOTEM</div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:169</div></div>
-<div class="ttc" id="aa03809_html_a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04"><div class="ttname"><a href="../../d9/d79/a03809.html#a3a51d3f5cfd1964cbec23fcba5046ccaac3f8eeb86f6f3fe350b15b7a2d86bb04">QUEST_THE_PERFECT_SPIES</a></div><div class="ttdeci">@ QUEST_THE_PERFECT_SPIES</div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:168</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="afa5a0f3082f0a49fcc796209c7828151" name="afa5a0f3082f0a49fcc796209c7828151"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa5a0f3082f0a49fcc796209c7828151">&#9670;&#160;</a></span>OnlyForFlight</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d9/d79/a03809.html#afa5a0f3082f0a49fcc796209c7828151">OnlyForFlight</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afa5a0f3082f0a49fcc796209c7828151aeefbb491736447da40481cf5a8742e2d" name="afa5a0f3082f0a49fcc796209c7828151aeefbb491736447da40481cf5a8742e2d"></a>SPELL_ARCANE_CHARGES&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   29</span>{</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d9/d79/a03809.html#afa5a0f3082f0a49fcc796209c7828151aeefbb491736447da40481cf5a8742e2d">SPELL_ARCANE_CHARGES</a>    = 45072</div>
-<div class="line"><span class="lineno">   31</span>};</div>
-<div class="ttc" id="aa03809_html_afa5a0f3082f0a49fcc796209c7828151aeefbb491736447da40481cf5a8742e2d"><div class="ttname"><a href="../../d9/d79/a03809.html#afa5a0f3082f0a49fcc796209c7828151aeefbb491736447da40481cf5a8742e2d">SPELL_ARCANE_CHARGES</a></div><div class="ttdeci">@ SPELL_ARCANE_CHARGES</div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:30</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a5481d2bf1b9efa370833eed302f6f94c" name="a5481d2bf1b9efa370833eed302f6f94c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5481d2bf1b9efa370833eed302f6f94c">&#9670;&#160;</a></span>PetrovClusterBombs</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d9/d79/a03809.html#a5481d2bf1b9efa370833eed302f6f94c">PetrovClusterBombs</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5481d2bf1b9efa370833eed302f6f94ca52897b7254f1ac012c7e278d8dcbd8b6" name="a5481d2bf1b9efa370833eed302f6f94ca52897b7254f1ac012c7e278d8dcbd8b6"></a>SPELL_PETROV_BOMB&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5481d2bf1b9efa370833eed302f6f94ca61d3b5bb03fb6b0be836957c1d977e42" name="a5481d2bf1b9efa370833eed302f6f94ca61d3b5bb03fb6b0be836957c1d977e42"></a>AREA_ID_SHATTERED_STRAITS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5481d2bf1b9efa370833eed302f6f94ca24b25ae9cc97c3cf213b6b0711d511b9" name="a5481d2bf1b9efa370833eed302f6f94ca24b25ae9cc97c3cf213b6b0711d511b9"></a>ZONE_ID_HOWLING&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  136</span>{</div>
-<div class="line"><span class="lineno">  137</span>    <a class="code hl_enumvalue" href="../../d9/d79/a03809.html#a5481d2bf1b9efa370833eed302f6f94ca52897b7254f1ac012c7e278d8dcbd8b6">SPELL_PETROV_BOMB</a>           = 42406,</div>
-<div class="line"><span class="lineno">  138</span>    <a class="code hl_enumvalue" href="../../d9/d79/a03809.html#a5481d2bf1b9efa370833eed302f6f94ca61d3b5bb03fb6b0be836957c1d977e42">AREA_ID_SHATTERED_STRAITS</a>   = 4064,</div>
-<div class="line"><span class="lineno">  139</span>    <a class="code hl_enumvalue" href="../../d9/d79/a03809.html#a5481d2bf1b9efa370833eed302f6f94ca24b25ae9cc97c3cf213b6b0711d511b9">ZONE_ID_HOWLING</a>             = 495</div>
-<div class="line"><span class="lineno">  140</span>};</div>
-<div class="ttc" id="aa03809_html_a5481d2bf1b9efa370833eed302f6f94ca24b25ae9cc97c3cf213b6b0711d511b9"><div class="ttname"><a href="../../d9/d79/a03809.html#a5481d2bf1b9efa370833eed302f6f94ca24b25ae9cc97c3cf213b6b0711d511b9">ZONE_ID_HOWLING</a></div><div class="ttdeci">@ ZONE_ID_HOWLING</div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:139</div></div>
-<div class="ttc" id="aa03809_html_a5481d2bf1b9efa370833eed302f6f94ca52897b7254f1ac012c7e278d8dcbd8b6"><div class="ttname"><a href="../../d9/d79/a03809.html#a5481d2bf1b9efa370833eed302f6f94ca52897b7254f1ac012c7e278d8dcbd8b6">SPELL_PETROV_BOMB</a></div><div class="ttdeci">@ SPELL_PETROV_BOMB</div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:137</div></div>
-<div class="ttc" id="aa03809_html_a5481d2bf1b9efa370833eed302f6f94ca61d3b5bb03fb6b0be836957c1d977e42"><div class="ttname"><a href="../../d9/d79/a03809.html#a5481d2bf1b9efa370833eed302f6f94ca61d3b5bb03fb6b0be836957c1d977e42">AREA_ID_SHATTERED_STRAITS</a></div><div class="ttdeci">@ AREA_ID_SHATTERED_STRAITS</div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:138</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a3e28ebf5a580887bb117f786689a34c6" name="a3e28ebf5a580887bb117f786689a34c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e28ebf5a580887bb117f786689a34c6">&#9670;&#160;</a></span>AddSC_item_scripts()</h2>
+<a id="a8172910e1dfdc7b56ca3931dd2fab1fb" name="a8172910e1dfdc7b56ca3931dd2fab1fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8172910e1dfdc7b56ca3931dd2fab1fb">&#9670;&#160;</a></span>BeforeVisibilityDestroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BeforeVisibilityDestroy </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d53/a08360.html">Player</a> *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 1622</span>{</div>
+<div class="line"><span class="lineno"> 1623</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a62188ab6a72d08b62bf37442dbbfdaa6" name="a62188ab6a72d08b62bf37442dbbfdaa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62188ab6a72d08b62bf37442dbbfdaa6">&#9670;&#160;</a></span>BeforeVisibilityDestroy&lt; Creature &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d9/d79/a03809.html#a8172910e1dfdc7b56ca3931dd2fab1fb">BeforeVisibilityDestroy</a>&lt; <a class="el" href="../../d7/d9e/a07744.html">Creature</a> &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d9e/a07744.html">Creature</a> *&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d53/a08360.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 1627</span>{</div>
+<div class="line"><span class="lineno"> 1628</span>    <span class="keywordflow">if</span> (p-&gt;<a class="code hl_function" href="../../d8/dc4/a08492.html#afd46bcfcf94e3c6bdbd7b23730a0b1ca">GetPetGUID</a>() == t-&gt;<a class="code hl_function" href="../../d1/d36/a08116.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>() &amp;&amp; t-&gt;<a class="code hl_function" href="../../d8/dc4/a08492.html#a4ad2fdcc45e2c3c85ad59ff49268b58c">IsPet</a>())</div>
+<div class="line"><span class="lineno"> 1629</span>        ((<a class="code hl_class" href="../../d7/dde/a08228.html">Pet</a>*) t)-&gt;Remove(<a class="code hl_enumvalue" href="../../d2/db0/a03827.html#a6950071a5ecec4c8754d5fbb9908bc31ae55abbb64855962852c91fb8638ad6cd">PET_SAVE_NOT_IN_SLOT</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1630</span>}</div>
+<div class="ttc" id="aa03827_html_a6950071a5ecec4c8754d5fbb9908bc31ae55abbb64855962852c91fb8638ad6cd"><div class="ttname"><a href="../../d2/db0/a03827.html#a6950071a5ecec4c8754d5fbb9908bc31ae55abbb64855962852c91fb8638ad6cd">PET_SAVE_NOT_IN_SLOT</a></div><div class="ttdeci">@ PET_SAVE_NOT_IN_SLOT</div><div class="ttdef"><b>Definition:</b> PetDefines.h:45</div></div>
+<div class="ttc" id="aa08116_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d1/d36/a08116.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aa08228_html"><div class="ttname"><a href="../../d7/dde/a08228.html">Pet</a></div><div class="ttdef"><b>Definition:</b> Pet.h:41</div></div>
+<div class="ttc" id="aa08492_html_a4ad2fdcc45e2c3c85ad59ff49268b58c"><div class="ttname"><a href="../../d8/dc4/a08492.html#a4ad2fdcc45e2c3c85ad59ff49268b58c">Unit::IsPet</a></div><div class="ttdeci">bool IsPet() const</div><div class="ttdef"><b>Definition:</b> Unit.h:710</div></div>
+<div class="ttc" id="aa08492_html_afd46bcfcf94e3c6bdbd7b23730a0b1ca"><div class="ttname"><a href="../../d8/dc4/a08492.html#afd46bcfcf94e3c6bdbd7b23730a0b1ca">Unit::GetPetGUID</a></div><div class="ttdeci">ObjectGuid GetPetGUID() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1220</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00109">Object::GetGUID()</a>, <a class="el" href="../../#l01220">Unit::GetPetGUID()</a>, <a class="el" href="../../#l00710">Unit::IsPet()</a>, and <a class="el" href="../../#l00045">PET_SAVE_NOT_IN_SLOT</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01667">Player::UpdateVisibilityOf()</a>.</p>
+
+</div>
+</div>
+<a id="aa890f698ac89e4049e1107c05d065495" name="aa890f698ac89e4049e1107c05d065495"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa890f698ac89e4049e1107c05d065495">&#9670;&#160;</a></span>getProbabilityOfLevelUp()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_item_scripts </td>
+          <td class="memname">float getProbabilityOfLevelUp </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>SkillValue</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  217</span>{</div>
-<div class="line"><span class="lineno">  218</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d29/a27304.html">item_only_for_flight</a>();</div>
-<div class="line"><span class="lineno">  219</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/d44/a27308.html">item_incendiary_explosives</a>();</div>
-<div class="line"><span class="lineno">  220</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/d32/a27312.html">item_mysterious_egg</a>();</div>
-<div class="line"><span class="lineno">  221</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/d47/a27316.html">item_disgusting_jar</a>();</div>
-<div class="line"><span class="lineno">  222</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/d7f/a27320.html">item_petrov_cluster_bombs</a>();</div>
-<div class="line"><span class="lineno">  223</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d36/a27324.html">item_captured_frog</a>();</div>
-<div class="line"><span class="lineno">  224</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d38/a27328.html">item_generic_limit_chance_above_60</a>();</div>
-<div class="line"><span class="lineno">  225</span>}</div>
-<div class="ttc" id="aa27304_html"><div class="ttname"><a href="../../d6/d29/a27304.html">item_only_for_flight</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:34</div></div>
-<div class="ttc" id="aa27308_html"><div class="ttname"><a href="../../d4/d44/a27308.html">item_incendiary_explosives</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:75</div></div>
-<div class="ttc" id="aa27312_html"><div class="ttname"><a href="../../db/d32/a27312.html">item_mysterious_egg</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:96</div></div>
-<div class="ttc" id="aa27316_html"><div class="ttname"><a href="../../da/d47/a27316.html">item_disgusting_jar</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:116</div></div>
-<div class="ttc" id="aa27320_html"><div class="ttname"><a href="../../de/d7f/a27320.html">item_petrov_cluster_bombs</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:143</div></div>
-<div class="ttc" id="aa27324_html"><div class="ttname"><a href="../../d9/d36/a27324.html">item_captured_frog</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:173</div></div>
-<div class="ttc" id="aa27328_html"><div class="ttname"><a href="../../dd/d38/a27328.html">item_generic_limit_chance_above_60</a></div><div class="ttdef"><b>Definition:</b> item_scripts.cpp:195</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  823</span>{</div>
+<div class="line"><span class="lineno">  824</span>    <span class="comment">/* According to El&#39;s Extreme Angling page, from 1 to 115 the probability of</span></div>
+<div class="line"><span class="lineno">  825</span><span class="comment">     * a skill level up is 100% since 100/1 = 100. From 115 - 135 should average</span></div>
+<div class="line"><span class="lineno">  826</span><span class="comment">     * 2 catches per skill up so that means 100/2 = 50%. This returns the</span></div>
+<div class="line"><span class="lineno">  827</span><span class="comment">     * probability depending on the player&#39;s SkillValue.</span></div>
+<div class="line"><span class="lineno">  828</span><span class="comment">     */</span></div>
+<div class="line"><span class="lineno">  829</span>    <span class="keywordflow">if</span> (!SkillValue)</div>
+<div class="line"><span class="lineno">  830</span>    {</div>
+<div class="line"><span class="lineno">  831</span>        <span class="keywordflow">return</span> 0.0f;</div>
+<div class="line"><span class="lineno">  832</span>    }</div>
+<div class="line"><span class="lineno">  833</span> </div>
+<div class="line"><span class="lineno">  834</span>    std::array&lt;uint32, 10&gt; bounds {115, 135, 160, 190, 215,</div>
+<div class="line"><span class="lineno">  835</span>                                   295, 315, 355, 425, 450};</div>
+<div class="line"><span class="lineno">  836</span>    std::array&lt;float, 11&gt;  dens {1.0f, 2.0f, 3.0f, 4.0f, 5.0f, 6.0f,</div>
+<div class="line"><span class="lineno">  837</span>                                9.0f, 10.0f, 11.0f, 12.0f, 1.0f};</div>
+<div class="line"><span class="lineno">  838</span>    <span class="keyword">auto</span>                   it =</div>
+<div class="line"><span class="lineno">  839</span>        std::lower_bound(std::begin(bounds), std::end(bounds), SkillValue);</div>
+<div class="line"><span class="lineno">  840</span>    <span class="keywordflow">return</span> 100 / dens[std::distance(std::begin(bounds), it)];</div>
+<div class="line"><span class="lineno">  841</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00843">Player::UpdateFishingSkill()</a>.</p>
+
+</div>
+</div>
+<a id="a66adde9ba6a85d585f6e6e8355499aa6" name="a66adde9ba6a85d585f6e6e8355499aa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66adde9ba6a85d585f6e6e8355499aa6">&#9670;&#160;</a></span>SkillGainChance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SkillGainChance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>SkillValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>GrayLevel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>GreenLevel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>YellowLevel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  709</span>{</div>
+<div class="line"><span class="lineno">  710</span>    <span class="keywordflow">if</span> (SkillValue &gt;= GrayLevel)</div>
+<div class="line"><span class="lineno">  711</span>        <span class="keywordflow">return</span> <a class="code hl_define" href="../../db/da5/a04663.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41af0dec07495e5bb36ef8657d63838ed98">CONFIG_SKILL_CHANCE_GREY</a>) * 10;</div>
+<div class="line"><span class="lineno">  712</span>    <span class="keywordflow">if</span> (SkillValue &gt;= GreenLevel)</div>
+<div class="line"><span class="lineno">  713</span>        <span class="keywordflow">return</span> <a class="code hl_define" href="../../db/da5/a04663.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41af7ef0b3043872b9d78aaed5d658b19f6">CONFIG_SKILL_CHANCE_GREEN</a>) * 10;</div>
+<div class="line"><span class="lineno">  714</span>    <span class="keywordflow">if</span> (SkillValue &gt;= YellowLevel)</div>
+<div class="line"><span class="lineno">  715</span>        <span class="keywordflow">return</span> <a class="code hl_define" href="../../db/da5/a04663.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41a402c1518e230bc7bbe0ba6a646c73c9c">CONFIG_SKILL_CHANCE_YELLOW</a>) * 10;</div>
+<div class="line"><span class="lineno">  716</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="../../db/da5/a04663.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41a2017230fc8e29bed64b9489c530720e0">CONFIG_SKILL_CHANCE_ORANGE</a>) * 10;</div>
+<div class="line"><span class="lineno">  717</span>}</div>
+<div class="ttc" id="aa04094_html_a17aac4c166ebe43e3b8fdccf9e012e41a2017230fc8e29bed64b9489c530720e0"><div class="ttname"><a href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41a2017230fc8e29bed64b9489c530720e0">CONFIG_SKILL_CHANCE_ORANGE</a></div><div class="ttdeci">@ CONFIG_SKILL_CHANCE_ORANGE</div><div class="ttdef"><b>Definition:</b> IWorld.h:269</div></div>
+<div class="ttc" id="aa04094_html_a17aac4c166ebe43e3b8fdccf9e012e41a402c1518e230bc7bbe0ba6a646c73c9c"><div class="ttname"><a href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41a402c1518e230bc7bbe0ba6a646c73c9c">CONFIG_SKILL_CHANCE_YELLOW</a></div><div class="ttdeci">@ CONFIG_SKILL_CHANCE_YELLOW</div><div class="ttdef"><b>Definition:</b> IWorld.h:270</div></div>
+<div class="ttc" id="aa04094_html_a17aac4c166ebe43e3b8fdccf9e012e41af0dec07495e5bb36ef8657d63838ed98"><div class="ttname"><a href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41af0dec07495e5bb36ef8657d63838ed98">CONFIG_SKILL_CHANCE_GREY</a></div><div class="ttdeci">@ CONFIG_SKILL_CHANCE_GREY</div><div class="ttdef"><b>Definition:</b> IWorld.h:272</div></div>
+<div class="ttc" id="aa04094_html_a17aac4c166ebe43e3b8fdccf9e012e41af7ef0b3043872b9d78aaed5d658b19f6"><div class="ttname"><a href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41af7ef0b3043872b9d78aaed5d658b19f6">CONFIG_SKILL_CHANCE_GREEN</a></div><div class="ttdeci">@ CONFIG_SKILL_CHANCE_GREEN</div><div class="ttdef"><b>Definition:</b> IWorld.h:271</div></div>
+<div class="ttc" id="aa04663_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../db/da5/a04663.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:444</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00271">CONFIG_SKILL_CHANCE_GREEN</a>, <a class="el" href="../../#l00272">CONFIG_SKILL_CHANCE_GREY</a>, <a class="el" href="../../#l00269">CONFIG_SKILL_CHANCE_ORANGE</a>, <a class="el" href="../../#l00270">CONFIG_SKILL_CHANCE_YELLOW</a>, and <a class="el" href="../../#l00444">sWorld</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00781">Player::UpdateCraftSkill()</a>, and <a class="el" href="../../#l00719">Player::UpdateGatherSkill()</a>.</p>
+
+</div>
+</div>
+<a id="a5f5d6b73fc1fb15a0cde612641ba3433" name="a5f5d6b73fc1fb15a0cde612641ba3433"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f5d6b73fc1fb15a0cde612641ba3433">&#9670;&#160;</a></span>UpdateVisibilityOf_helper() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateVisibilityOf_helper </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d9d/a03917.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>s64</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/d9e/a07744.html">Creature</a> *&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="../../d8/dc4/a08492.html">Unit</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 1607</span>{</div>
+<div class="line"><span class="lineno"> 1608</span>    s64.insert(target-&gt;<a class="code hl_function" href="../../d1/d36/a08116.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno"> 1609</span>    v.push_back(target);</div>
+<div class="line"><span class="lineno"> 1610</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00109">Object::GetGUID()</a>.</p>
+
+</div>
+</div>
+<a id="aa522147fa6130f7d54551f137424bd15" name="aa522147fa6130f7d54551f137424bd15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa522147fa6130f7d54551f137424bd15">&#9670;&#160;</a></span>UpdateVisibilityOf_helper() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateVisibilityOf_helper </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d9d/a03917.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>s64</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d2e/a07920.html">GameObject</a> *&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="../../d8/dc4/a08492.html">Unit</a> * &gt; &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 1597</span>{</div>
+<div class="line"><span class="lineno"> 1598</span>    <span class="comment">// @HACK: This is to prevent objects like deeprun tram from disappearing</span></div>
+<div class="line"><span class="lineno"> 1599</span>    <span class="comment">// when player moves far from its spawn point while riding it</span></div>
+<div class="line"><span class="lineno"> 1600</span>    <span class="keywordflow">if</span> ((target-&gt;<a class="code hl_function" href="../../dc/d2e/a07920.html#a1415b5cb9b3b3f4f6691584c5b6d7324">GetGOInfo</a>()-&gt;<a class="code hl_variable" href="../../d8/d86/a07924.html#a1c78664b7272010dac83e9f4ea132330">type</a> != <a class="code hl_enumvalue" href="../../dd/d57/a00701.html#a0233096c29a8a39f15373e06434985f9a230c015ae8c6e13d4cbb3285426f6bc0">GAMEOBJECT_TYPE_TRANSPORT</a>))</div>
+<div class="line"><span class="lineno"> 1601</span>        s64.insert(target-&gt;<a class="code hl_function" href="../../d1/d36/a08116.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno"> 1602</span>}</div>
+<div class="ttc" id="aa00701_html_a0233096c29a8a39f15373e06434985f9a230c015ae8c6e13d4cbb3285426f6bc0"><div class="ttname"><a href="../../dd/d57/a00701.html#a0233096c29a8a39f15373e06434985f9a230c015ae8c6e13d4cbb3285426f6bc0">GAMEOBJECT_TYPE_TRANSPORT</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_TRANSPORT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1571</div></div>
+<div class="ttc" id="aa07920_html_a1415b5cb9b3b3f4f6691584c5b6d7324"><div class="ttname"><a href="../../dc/d2e/a07920.html#a1415b5cb9b3b3f4f6691584c5b6d7324">GameObject::GetGOInfo</a></div><div class="ttdeci">GameObjectTemplate const * GetGOInfo() const</div><div class="ttdef"><b>Definition:</b> GameObject.h:137</div></div>
+<div class="ttc" id="aa07924_html_a1c78664b7272010dac83e9f4ea132330"><div class="ttname"><a href="../../d8/d86/a07924.html#a1c78664b7272010dac83e9f4ea132330">GameObjectTemplate::type</a></div><div class="ttdeci">uint32 type</div><div class="ttdef"><b>Definition:</b> GameObjectData.h:34</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l01571">GAMEOBJECT_TYPE_TRANSPORT</a>, <a class="el" href="../../#l00137">GameObject::GetGOInfo()</a>, <a class="el" href="../../#l00109">Object::GetGUID()</a>, and <a class="el" href="../../#l00034">GameObjectTemplate::type</a>.</p>
+
+</div>
+</div>
+<a id="ac411c559a97e183268339b1ea63a84b6" name="ac411c559a97e183268339b1ea63a84b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac411c559a97e183268339b1ea63a84b6">&#9670;&#160;</a></span>UpdateVisibilityOf_helper() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateVisibilityOf_helper </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d9d/a03917.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>s64</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d53/a08360.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="../../d8/dc4/a08492.html">Unit</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 1615</span>{</div>
+<div class="line"><span class="lineno"> 1616</span>    s64.insert(target-&gt;<a class="code hl_function" href="../../d1/d36/a08116.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno"> 1617</span>    v.push_back(target);</div>
+<div class="line"><span class="lineno"> 1618</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00109">Object::GetGUID()</a>.</p>
+
+</div>
+</div>
+<a id="a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77" name="a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77">&#9670;&#160;</a></span>UpdateVisibilityOf_helper() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateVisibilityOf_helper </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d9d/a03917.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>s64</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="../../d8/dc4/a08492.html">Unit</a> * &gt; &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 1590</span>{</div>
+<div class="line"><span class="lineno"> 1591</span>    s64.insert(target-&gt;GetGUID());</div>
+<div class="line"><span class="lineno"> 1592</span>}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l01633">Player::UpdateVisibilityOf()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a72b3624ee55553e28f82ef06d7c74c6a" name="a72b3624ee55553e28f82ef06d7c74c6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72b3624ee55553e28f82ef06d7c74c6a">&#9670;&#160;</a></span>bonusSkillLevels</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> bonusSkillLevels[] = {75, 150, 225, 300, 375, 450}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00870">Player::UpdateSkillPro()</a>.</p>
+
+</div>
+</div>
+<a id="ad103e97f7db0cfd188ab64f5748c7464" name="ad103e97f7db0cfd188ab64f5748c7464"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad103e97f7db0cfd188ab64f5748c7464">&#9670;&#160;</a></span>bonusSkillLevelsSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::size_t bonusSkillLevelsSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">    <span class="keyword">sizeof</span>(<a class="code hl_variable" href="../../d9/d79/a03809.html#a72b3624ee55553e28f82ef06d7c74c6a">bonusSkillLevels</a>) / <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</div>
+<div class="ttc" id="aa00500_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa03809_html_a72b3624ee55553e28f82ef06d7c74c6a"><div class="ttname"><a href="../../d9/d79/a03809.html#a72b3624ee55553e28f82ef06d7c74c6a">bonusSkillLevels</a></div><div class="ttdeci">static uint32 bonusSkillLevels[]</div><div class="ttdef"><b>Definition:</b> PlayerUpdates.cpp:866</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00870">Player::UpdateSkillPro()</a>.</p>
+
+</div>
+</div>
+<a id="afabbcd46bf6f03c5dca10b117810b710" name="afabbcd46bf6f03c5dca10b117810b710"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afabbcd46bf6f03c5dca10b117810b710">&#9670;&#160;</a></span>ZONE_UPDATE_INTERVAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto ZONE_UPDATE_INTERVAL = 1000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="../../d0/d70/a04658.html#_todo000060">Todo:</a></b></dt><dd>: this import is not necessary for compilation and marked as unused by the IDE </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00052">Player::Update()</a>, and <a class="el" href="../../#l01207">Player::UpdateZone()</a>.</p>
 
 </div>
 </div>
@@ -277,8 +656,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_0a0414616ece51a8570c4e36029d4e29.html">World</a></li><li class="navelem"><a class="el" href="../../d9/d79/a03809.html">item_scripts.cpp</a></li>
-    <li class="footer">Generated on Mon Sep 9 2024 20:39:19 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_47dd4bd942ccc740eef16326f5a4c0e4.html">Player</a></li><li class="navelem"><a class="el" href="../../d9/d79/a03809.html">PlayerUpdates.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 16 2024 20:40:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,4 +1,5 @@
 var a01547 =
 [
-    [ "_modulesList", "da/ded/a01547.html#aa8df8c5e3d2ad2852ea850d12636d578", null ]
+    [ "OutdoorPvP_grizzly_hills", "d0/d98/a22456.html", "d0/d98/a22456" ],
+    [ "AddSC_outdoorpvp_gh", "da/ded/a01547.html#a04eaa29ec2e34f71e4f7addacc0405c0", null ]
 ];

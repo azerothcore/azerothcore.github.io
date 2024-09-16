@@ -1,5 +1,4 @@
 var a04007 =
 [
-    [ "DBCStorageBase", "d0/d60/a27608.html", "d0/d60/a27608" ],
-    [ "DBCStorage< T >", "d0/d6c/a27612.html", "d0/d6c/a27612" ]
+    [ "lfg::LfgPlayerData", "db/d25/a07716.html", "db/d25/a07716" ]
 ];

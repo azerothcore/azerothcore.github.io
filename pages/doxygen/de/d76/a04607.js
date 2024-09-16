@@ -1,9 +1,16 @@
 var a04607 =
 [
-    [ "ListFilesResult", "de/d76/a04607.html#a030b28c9f552c0de4a4b4844fc5e6101", [
-      [ "LISTFILE_DIRECTORY_NOT_FOUND", "de/d76/a04607.html#a030b28c9f552c0de4a4b4844fc5e6101a868c0f60f6afa222577730606ed493a6", null ],
-      [ "LISTFILE_OK", "de/d76/a04607.html#a030b28c9f552c0de4a4b4844fc5e6101a952e90f65bfd2eefbd80a8b830eb5687", null ]
-    ] ],
-    [ "getDirContents", "de/d76/a04607.html#a3620968f3c1f5c1a3bb0c809ab0eb4ab", null ],
-    [ "matchWildcardFilter", "de/d76/a04607.html#a0b1c31a5b3e8bebc7fa860b40f7997e1", null ]
+    [ "LinkValidator< T >", "d7/d19/a07464.html", "d7/d19/a07464" ],
+    [ "LinkValidator< LinkTags::achievement >", "d8/d4a/a07468.html", "d8/d4a/a07468" ],
+    [ "LinkValidator< LinkTags::item >", "d6/dcf/a07472.html", "d6/dcf/a07472" ],
+    [ "LinkValidator< LinkTags::quest >", "d7/dac/a07476.html", "d7/dac/a07476" ],
+    [ "LinkValidator< LinkTags::spell >", "d7/da8/a07480.html", "d7/da8/a07480" ],
+    [ "LinkValidator< LinkTags::enchant >", "d0/dd1/a07484.html", "d0/dd1/a07484" ],
+    [ "LinkValidator< LinkTags::glyph >", "df/d26/a07488.html", "df/d26/a07488" ],
+    [ "LinkValidator< LinkTags::talent >", "dd/d6f/a07492.html", "dd/d6f/a07492" ],
+    [ "LinkValidator< LinkTags::trade >", "de/d42/a07496.html", "de/d42/a07496" ],
+    [ "TryValidateAs", "de/d76/a04607.html#af1c86bff85f30ff113d5f78421c280af", null ],
+    [ "toHex", "de/d76/a04607.html#a0b5e4d40ad5549ddc48c127306499b6c", null ],
+    [ "ValidateAs", "de/d76/a04607.html#a1021653ddd2d2e78df34d8c4a2a7ed93", null ],
+    [ "ValidateLinkInfo", "de/d76/a04607.html#a7de61dd7d7c595063ae73f415e961cc9", null ]
 ];

@@ -1,49 +1,5 @@
 var a00122 =
 [
-    [ "IntervalTimer", "db/d24/a05459.html", "db/d24/a05459" ],
-    [ "TimeTracker", "da/d34/a05463.html", "da/d34/a05463" ],
-    [ "TimeTrackerSmall", "db/d89/a05467.html", "db/d89/a05467" ],
-    [ "PeriodicTimer", "d5/d35/a05471.html", "d5/d35/a05471" ],
-    [ "TimeFormat", "df/dc8/a00122.html#a66f42ce7d50508145628b7347fc8694c", [
-      [ "FullText", "df/dc8/a00122.html#a66f42ce7d50508145628b7347fc8694ca1bcf159aa5ff6c1a04b8db08698d6e84", null ],
-      [ "ShortText", "df/dc8/a00122.html#a66f42ce7d50508145628b7347fc8694ca63d151a6eecaa685919cba8fe362c3f3", null ],
-      [ "Numeric", "df/dc8/a00122.html#a66f42ce7d50508145628b7347fc8694ca87322391cc6e8948ce9fd5d6cb84fced", null ]
-    ] ],
-    [ "TimeOutput", "df/dc8/a00122.html#aea6a25b38e19ecccfdefaf43a55575f3", [
-      [ "Days", "df/dc8/a00122.html#aea6a25b38e19ecccfdefaf43a55575f3ae807d3ccf8d24c8c1a3d86db5da78da8", null ],
-      [ "Hours", "df/dc8/a00122.html#aea6a25b38e19ecccfdefaf43a55575f3a6a7e73161603d87b26a8eac49dab0a9c", null ],
-      [ "Minutes", "df/dc8/a00122.html#aea6a25b38e19ecccfdefaf43a55575f3af670ea66cfb0e90bd6090472ad692694", null ],
-      [ "Seconds", "df/dc8/a00122.html#aea6a25b38e19ecccfdefaf43a55575f3a8f19a8c7566af54ea8981029730e5465", null ],
-      [ "Milliseconds", "df/dc8/a00122.html#aea6a25b38e19ecccfdefaf43a55575f3a38f246763036ccaeba7db6d563c4d821", null ],
-      [ "Microseconds", "df/dc8/a00122.html#aea6a25b38e19ecccfdefaf43a55575f3a64068ed47d979c5efa036f027d656433", null ]
-    ] ],
-    [ "GetApplicationStartTime", "df/dc8/a00122.html#adec009178350863003fd76229068a1e5", null ],
-    [ "GetDayInMonth", "df/dc8/a00122.html#ab62428e79e66b0b1217643f702022113", null ],
-    [ "GetDayInWeek", "df/dc8/a00122.html#a878fcd6ea240276da886e917b2a187cb", null ],
-    [ "GetDayInYear", "df/dc8/a00122.html#a7af06cf6576e2fff65b7552227589549", null ],
-    [ "GetEpochTime", "df/dc8/a00122.html#ac26feb8a0cb9d57ffe71c1a86ae8108e", null ],
-    [ "GetHours", "df/dc8/a00122.html#a644d31badd91d21f970b5369c64a8f56", null ],
-    [ "GetLocalHourTimestamp", "df/dc8/a00122.html#adcb393a66882383e4038b040ea9fa983", null ],
-    [ "GetMinutes", "df/dc8/a00122.html#a3ec1cee2adf92f517725493c71bb3291", null ],
-    [ "GetMonth", "df/dc8/a00122.html#a046227c8517de892fe18e61451d37735", null ],
-    [ "getMSTime", "df/dc8/a00122.html#a4476c8e13ea790c3536f2749105f9cb9", null ],
-    [ "GetMSTimeDiff", "df/dc8/a00122.html#a580dc71f654c9783c7f2637a871222fa", null ],
-    [ "getMSTimeDiff", "df/dc8/a00122.html#a5f88e45f1a432d5a2613a65936a4a19a", null ],
-    [ "getMSTimeDiff", "df/dc8/a00122.html#ad9f0d19bcdfb695da4f399b36471c7de", null ],
-    [ "GetMSTimeDiffToNow", "df/dc8/a00122.html#a387558601f9e94d0329ef34178921dd4", null ],
-    [ "GetMSTimeDiffToNow", "df/dc8/a00122.html#a23a2c8663a05f2b03a6f85501972e8c0", null ],
-    [ "GetNextTimeWithDayAndHour", "df/dc8/a00122.html#afe6fb6cf9a0829f40c9ba45356eec815", null ],
-    [ "GetNextTimeWithMonthAndHour", "df/dc8/a00122.html#af415b3b5ef693e8bd9a8b7f5088ab704", null ],
-    [ "GetSeconds", "df/dc8/a00122.html#a4f3e7cea01806c4633123ba434dc604a", null ],
-    [ "GetTimeMS", "df/dc8/a00122.html#a002742f64e7fe0b13f08d610eca4d672", null ],
-    [ "GetYear", "df/dc8/a00122.html#a2b1e67f5fbe66e0e8dd4dd3b1e2c9933", null ],
-    [ "localtime_r", "df/dc8/a00122.html#a4e8039ecceaa7d06aa1f5037265b6ad2", null ],
-    [ "LocalTimeToUTCTime", "df/dc8/a00122.html#abb2429e5a8226c49ea8909ad21d2a36b", null ],
-    [ "TimeBreakdown", "df/dc8/a00122.html#ab6a946894ec0cb9fa9bf76afa8e7fec8", null ],
-    [ "TimeStringTo", "df/dc8/a00122.html#a14270e0cda30d83961a8754d470fe8c1", null ],
-    [ "TimeToHumanReadable", "df/dc8/a00122.html#a7a7a22a2c3d65e66ce24c63b7d5877c1", null ],
-    [ "TimeToTimestampStr", "df/dc8/a00122.html#a0f9116e063a085b763f9c19ba37f9a44", null ],
-    [ "ToTimeString", "df/dc8/a00122.html#a457da2bcb5a3b5158a4fee8cbf257e32", null ],
-    [ "ToTimeString", "df/dc8/a00122.html#af9e00ccf9512f0bcdd1289d7e876e9e6", null ],
-    [ "ToTimeString", "df/dc8/a00122.html#a5922471809ac8688a8146982524ce0fc", null ]
+    [ "Acore::IteratorPair< iterator >", "db/d40/a05372.html", "db/d40/a05372" ],
+    [ "MapEqualRange", "df/dc8/a00122.html#a8700eb31c04be5cf6c6ecc86e76cadad", null ]
 ];

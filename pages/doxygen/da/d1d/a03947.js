@@ -1,9 +1,9 @@
 var a03947 =
 [
-    [ "SQLElementData", "da/d85/a05752.html", "da/d85/a05752" ],
-    [ "SQLOperation", "dc/ddc/a05756.html", "dc/ddc/a05756" ],
-    [ "SQLElementDataType", "da/d1d/a03947.html#abb4a6cfcce013f18b29779f1f435e627", [
-      [ "SQL_ELEMENT_RAW", "da/d1d/a03947.html#abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a", null ],
-      [ "SQL_ELEMENT_PREPARED", "da/d1d/a03947.html#abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d", null ]
-    ] ]
+    [ "Creature", "d7/d9e/a07744.html", "d7/d9e/a07744" ],
+    [ "AssistDelayEvent", "d7/d60/a07752.html", "d7/d60/a07752" ],
+    [ "ForcedDespawnDelayEvent", "dc/d65/a07756.html", "dc/d65/a07756" ],
+    [ "TemporaryThreatModifierEvent", "de/dbd/a07760.html", "de/dbd/a07760" ],
+    [ "CREATURE_Z_ATTACK_RANGE", "da/d1d/a03947.html#a91a03a879f1b4df44968ae2f9f22fb0d", null ],
+    [ "MAX_VENDOR_ITEMS", "da/d1d/a03947.html#a44c3a813b92331e325ba5aae11ed72a3", null ]
 ];

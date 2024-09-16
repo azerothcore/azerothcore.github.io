@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Collision/BoundingIntervalHierarchy.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/MiscScript.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,132 +105,33 @@ $(document).ready(function(){initNavTree('d2/d6b/a04334.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">BoundingIntervalHierarchy.h File Reference</div></div>
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">MiscScript.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;G3D/AABox.h&quot;</code><br />
-<code>#include &quot;G3D/Ray.h&quot;</code><br />
-<code>#include &quot;G3D/Vector3.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &lt;algorithm&gt;</code><br />
-<code>#include &lt;cmath&gt;</code><br />
-<code>#include &lt;cstring&gt;</code><br />
-<code>#include &lt;limits&gt;</code><br />
-<code>#include &lt;stdexcept&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">MiscScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgrMacros.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d13/a04784.html">AABound</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5c/a04788.html">BIH</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d11/a04792.html">BIH::buildData</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc6/a04796.html">BIH::StackNode</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/a04800.html">BIH::BuildStats</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:accbb358028675c83675d8b34c386268d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6b/a04334.html#accbb358028675c83675d8b34c386268d">MAX_STACK_SIZE</a>&#160;&#160;&#160;64</td></tr>
-<tr class="separator:accbb358028675c83675d8b34c386268d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ad04403146f53e198de60b6c4bec4246e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d1/dd3/a04427.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6b/a04334.html#ad04403146f53e198de60b6c4bec4246e">floatToRawIntBits</a> (float f)</td></tr>
-<tr class="separator:ad04403146f53e198de60b6c4bec4246e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b415e235398aa84c4f976084f8e130c"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6b/a04334.html#a3b415e235398aa84c4f976084f8e130c">intBitsToFloat</a> (<a class="el" href="../../d1/dd3/a04427.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i)</td></tr>
-<tr class="separator:a3b415e235398aa84c4f976084f8e130c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a925ee1bbb5e173c3d816d0ae35b38a67"><td class="memItemLeft" align="right" valign="top">template class <a class="el" href="../../de/d4e/a00500.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6b/a04334.html#a925ee1bbb5e173c3d816d0ae35b38a67">ScriptRegistry&lt; MiscScript &gt;</a></td></tr>
+<tr class="separator:a925ee1bbb5e173c3d816d0ae35b38a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="accbb358028675c83675d8b34c386268d" name="accbb358028675c83675d8b34c386268d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accbb358028675c83675d8b34c386268d">&#9670;&#160;</a></span>MAX_STACK_SIZE</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a925ee1bbb5e173c3d816d0ae35b38a67" name="a925ee1bbb5e173c3d816d0ae35b38a67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a925ee1bbb5e173c3d816d0ae35b38a67">&#9670;&#160;</a></span>ScriptRegistry&lt; MiscScript &gt;</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MAX_STACK_SIZE&#160;&#160;&#160;64</td>
+          <td class="memname">template class <a class="el" href="../../de/d4e/a00500.html#a00a04eccc2ca042486601576eccae409">AC_GAME_API</a> <a class="el" href="../../dc/d7f/a10116.html">ScriptRegistry</a>&lt; <a class="el" href="../../da/daa/a10048.html">MiscScript</a> &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ad04403146f53e198de60b6c4bec4246e" name="ad04403146f53e198de60b6c4bec4246e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad04403146f53e198de60b6c4bec4246e">&#9670;&#160;</a></span>floatToRawIntBits()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="../../d1/dd3/a04427.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> floatToRawIntBits </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>f</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   39</span>{</div>
-<div class="line"><span class="lineno">   40</span>    <span class="keyword">static_assert</span>(<span class="keyword">sizeof</span>(float) == <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d1/dd3/a04427.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), <span class="stringliteral">&quot;Size of uint32 and float must be equal for this to work&quot;</span>);</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_typedef" href="../../d1/dd3/a04427.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> ret;</div>
-<div class="line"><span class="lineno">   42</span>    memcpy(&amp;ret, &amp;f, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>));</div>
-<div class="line"><span class="lineno">   43</span>    <span class="keywordflow">return</span> ret;</div>
-<div class="line"><span class="lineno">   44</span>}</div>
-<div class="ttc" id="aa04427_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d1/dd3/a04427.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00121">BIH::intersectRay()</a>, and <a class="el" href="../../#l00041">BIH::subdivide()</a>.</p>
-
-</div>
-</div>
-<a id="a3b415e235398aa84c4f976084f8e130c" name="a3b415e235398aa84c4f976084f8e130c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b415e235398aa84c4f976084f8e130c">&#9670;&#160;</a></span>intBitsToFloat()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static float intBitsToFloat </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/dd3/a04427.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>i</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   47</span>{</div>
-<div class="line"><span class="lineno">   48</span>    <span class="keyword">static_assert</span>(<span class="keyword">sizeof</span>(float) == <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d1/dd3/a04427.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), <span class="stringliteral">&quot;Size of uint32 and float must be equal for this to work&quot;</span>);</div>
-<div class="line"><span class="lineno">   49</span>    <span class="keywordtype">float</span> ret;</div>
-<div class="line"><span class="lineno">   50</span>    memcpy(&amp;ret, &amp;i, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d1/dd3/a04427.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>));</div>
-<div class="line"><span class="lineno">   51</span>    <span class="keywordflow">return</span> ret;</div>
-<div class="line"><span class="lineno">   52</span>}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00284">BIH::intersectPoint()</a>, and <a class="el" href="../../#l00121">BIH::intersectRay()</a>.</p>
 
 </div>
 </div>
@@ -239,8 +140,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_34825b659a55315b272dfcc55a7a0f6a.html">Collision</a></li><li class="navelem"><a class="el" href="../../d2/d6b/a04334.html">BoundingIntervalHierarchy.h</a></li>
-    <li class="footer">Generated on Mon Sep 9 2024 20:38:23 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d2/d6b/a04334.html">MiscScript.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 16 2024 20:40:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

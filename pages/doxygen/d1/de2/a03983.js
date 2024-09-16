@@ -1,25 +1,17 @@
 var a03983 =
 [
-    [ "RealmHandle", "d5/da2/a28360.html", "d5/da2/a28360" ],
-    [ "Realm", "d9/db6/a28364.html", "d9/db6/a28364" ],
-    [ "RealmFlags", "d1/de2/a03983.html#ace3f717ac43bef67791faeb2a0b2c1e2", [
-      [ "REALM_FLAG_NONE", "d1/de2/a03983.html#ace3f717ac43bef67791faeb2a0b2c1e2a78cb2956eac93bb478e5a6573336a0a2", null ],
-      [ "REALM_FLAG_VERSION_MISMATCH", "d1/de2/a03983.html#ace3f717ac43bef67791faeb2a0b2c1e2a9e5fc6c089666cb09890f97038c44056", null ],
-      [ "REALM_FLAG_OFFLINE", "d1/de2/a03983.html#ace3f717ac43bef67791faeb2a0b2c1e2a728d61b0842461c34b1f6167e5dcdb68", null ],
-      [ "REALM_FLAG_SPECIFYBUILD", "d1/de2/a03983.html#ace3f717ac43bef67791faeb2a0b2c1e2afda7734169f8aad2549a0a0aa4c04903", null ],
-      [ "REALM_FLAG_UNK1", "d1/de2/a03983.html#ace3f717ac43bef67791faeb2a0b2c1e2a73ff031081f52c4cecfe2f899bb92304", null ],
-      [ "REALM_FLAG_UNK2", "d1/de2/a03983.html#ace3f717ac43bef67791faeb2a0b2c1e2a9d7b7c5ef743cf68b93360af13b7ed81", null ],
-      [ "REALM_FLAG_RECOMMENDED", "d1/de2/a03983.html#ace3f717ac43bef67791faeb2a0b2c1e2ab5051c0caffaa54a0fe3aab0d3c99b29", null ],
-      [ "REALM_FLAG_NEW", "d1/de2/a03983.html#ace3f717ac43bef67791faeb2a0b2c1e2a214cd38c14a7209f7986ae4ca43fe73b", null ],
-      [ "REALM_FLAG_FULL", "d1/de2/a03983.html#ace3f717ac43bef67791faeb2a0b2c1e2acdaee6e8c961adfa63cde3a06707b952", null ]
-    ] ],
-    [ "RealmType", "d1/de2/a03983.html#ae8ff852caf6f88797c9c3716d1acbe59", [
-      [ "REALM_TYPE_NORMAL", "d1/de2/a03983.html#ae8ff852caf6f88797c9c3716d1acbe59accb12c63a2ee89b9c3f72e5fd2b056fb", null ],
-      [ "REALM_TYPE_PVP", "d1/de2/a03983.html#ae8ff852caf6f88797c9c3716d1acbe59a5b9f160cabace91bff99046f281b899c", null ],
-      [ "REALM_TYPE_NORMAL2", "d1/de2/a03983.html#ae8ff852caf6f88797c9c3716d1acbe59a8529db1edd00f579cbeff7e0c2a88e19", null ],
-      [ "REALM_TYPE_RP", "d1/de2/a03983.html#ae8ff852caf6f88797c9c3716d1acbe59a81056f603f1158cb39b25f9ae8beb88f", null ],
-      [ "REALM_TYPE_RPPVP", "d1/de2/a03983.html#ae8ff852caf6f88797c9c3716d1acbe59a58e3ebd90691c511e7976f5bff724fae", null ],
-      [ "MAX_CLIENT_REALM_TYPE", "d1/de2/a03983.html#ae8ff852caf6f88797c9c3716d1acbe59a580a3990630da9c56e3fef200d6b15be", null ],
-      [ "REALM_TYPE_FFA_PVP", "d1/de2/a03983.html#ae8ff852caf6f88797c9c3716d1acbe59a43cf71d6098c453fc931d7e25f729457", null ]
+    [ "Petition", "df/da6/a09836.html", "df/da6/a09836" ],
+    [ "Signatures", "d3/dd2/a09840.html", "d3/dd2/a09840" ],
+    [ "PetitionMgr", "dd/d36/a09844.html", "dd/d36/a09844" ],
+    [ "CHARTER_DISPLAY_ID", "d1/de2/a03983.html#a33856c1d078b61fa0516a63176297c49", null ],
+    [ "sPetitionMgr", "d1/de2/a03983.html#a2910b9c8b8c58925b562acf66b3e46d2", null ],
+    [ "PetitionContainer", "d1/de2/a03983.html#a223a8d1b8f865a0d4e8f100758e36bce", null ],
+    [ "SignatureContainer", "d1/de2/a03983.html#a541d3cf929662ff3a4ab97f63d54b16f", null ],
+    [ "SignatureMap", "d1/de2/a03983.html#a52c6b38c9d018efa6f8a95153a0eb2b5", null ],
+    [ "CharterItemIDs", "d1/de2/a03983.html#acec0915ab4c4246cd1eda0ddd63d47bb", [
+      [ "GUILD_CHARTER", "d1/de2/a03983.html#acec0915ab4c4246cd1eda0ddd63d47bba2e6b069055001141f4bee95616a7720d", null ],
+      [ "ARENA_TEAM_CHARTER_2v2", "d1/de2/a03983.html#acec0915ab4c4246cd1eda0ddd63d47bba2f39a42139b3361ca2547f4c3c517e27", null ],
+      [ "ARENA_TEAM_CHARTER_3v3", "d1/de2/a03983.html#acec0915ab4c4246cd1eda0ddd63d47bbac155da3886ba50a00694a0b600855470", null ],
+      [ "ARENA_TEAM_CHARTER_5v5", "d1/de2/a03983.html#acec0915ab4c4246cd1eda0ddd63d47bba3d4ede0990919580bc749e110995dc37", null ]
     ] ]
 ];

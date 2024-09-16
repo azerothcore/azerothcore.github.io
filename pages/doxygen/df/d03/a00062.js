@@ -1,13 +1,10 @@
 var a00062 =
 [
-    [ "u_map_magic", "d9/d96/a09452.html", "d9/d96/a09452" ],
-    [ "ResetNotifier", "d4/db5/a09456.html", "d4/db5/a09456" ],
-    [ "IsInWMOInterior", "df/d03/a00062.html#ad41458075af3abab316f89b325f54b7e", null ],
-    [ "holetab_h", "df/d03/a00062.html#a10e90ca95e60d3244de3e68d7882433b", null ],
-    [ "holetab_v", "df/d03/a00062.html#a54b408dce116992610ba9c141426d821", null ],
-    [ "MapAreaMagic", "df/d03/a00062.html#aeb7bc0ea8073198e3cb70d0ee7f2aa44", null ],
-    [ "MapHeightMagic", "df/d03/a00062.html#ae53a23e88747c5795afb99cccd6b4c6a", null ],
-    [ "MapLiquidMagic", "df/d03/a00062.html#aaf4bf520080f57455b531f7c9bcea49f", null ],
-    [ "MapMagic", "df/d03/a00062.html#aae87d2a805abae1536d560092ab589f8", null ],
-    [ "MapVersionMagic", "df/d03/a00062.html#a3f87af2b784af0df560d9dce7651c859", null ]
+    [ "Acore::ACLogSink< T >", "da/df4/a05408.html", "da/df4/a05408" ],
+    [ "Acore::AsyncProcessResultImplementation", "d8/d73/a05412.html", "d8/d73/a05412" ],
+    [ "CreateChildProcess", "df/d03/a00062.html#a18bbd8a6717e647e963654123259a033", null ],
+    [ "MakeACLogSink", "df/d03/a00062.html#adcee37690522709ab4bd0b6f6e757dc5", null ],
+    [ "SearchExecutableInPath", "df/d03/a00062.html#a9de098dac5e38f8c2cdbeb1d4d706881", null ],
+    [ "StartAsyncProcess", "df/d03/a00062.html#a021f51138f5726e712f00bdddf9be729", null ],
+    [ "StartProcess", "df/d03/a00062.html#acfaf2f89a55d299aa04c494719dfedc8", null ]
 ];

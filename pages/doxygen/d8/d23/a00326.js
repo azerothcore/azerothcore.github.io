@@ -1,9 +1,19 @@
 var a00326 =
 [
-    [ "NodeArray< Node >", "d7/d3c/a05003.html", "d7/d3c/a05003" ],
-    [ "NodeCreator< Node >", "db/d5b/a05007.html", "db/d5b/a05007" ],
-    [ "RegularGrid2D< T, Node, NodeCreatorFunc, PositionFunc >", "db/dc2/a05011.html", "db/dc2/a05011" ],
-    [ "RegularGrid2D< T, Node, NodeCreatorFunc, PositionFunc >::Cell", "d0/d0c/a05015.html", "d0/d0c/a05015" ],
-    [ "CELL_SIZE", "d8/d23/a00326.html#a7a4127f14f16563da90eb3c836bc404f", null ],
-    [ "HGRID_MAP_SIZE", "d8/d23/a00326.html#ac836977c6cb1a34ebc070436978fb2bb", null ]
+    [ "VMAP::AreaAndLiquidData", "db/d08/a04848.html", "db/d08/a04848" ],
+    [ "VMAP::AreaAndLiquidData::AreaInfo", "de/d75/a04852.html", "de/d75/a04852" ],
+    [ "VMAP::AreaAndLiquidData::LiquidInfo", "db/dde/a04856.html", "db/dde/a04856" ],
+    [ "VMAP::IVMapMgr", "d1/dda/a04860.html", "d1/dda/a04860" ],
+    [ "VMAP_INVALID_HEIGHT", "d8/d23/a00326.html#aa3e862468079e7d1ca850fab429fb316", null ],
+    [ "VMAP_INVALID_HEIGHT_VALUE", "d8/d23/a00326.html#a6d0d846568e1fbb60e05aacfa9c1c73c", null ],
+    [ "LoadResult", "d8/d23/a00326.html#a3ca4e45c9be5012fb1af06ea12b759c2", [
+      [ "Success", "d8/d23/a00326.html#a3ca4e45c9be5012fb1af06ea12b759c2a505a83f220c02df2f85c3810cd9ceb38", null ],
+      [ "FileNotFound", "d8/d23/a00326.html#a3ca4e45c9be5012fb1af06ea12b759c2a2767828026039e8ba7b38973cbb701f2", null ],
+      [ "VersionMismatch", "d8/d23/a00326.html#a3ca4e45c9be5012fb1af06ea12b759c2a2d50084f04994afa70d78b604a22dd31", null ]
+    ] ],
+    [ "VMAP_LOAD_RESULT", "d8/d23/a00326.html#a70f18a0d29fcdc21e145ab8306987b18", [
+      [ "VMAP_LOAD_RESULT_ERROR", "d8/d23/a00326.html#a70f18a0d29fcdc21e145ab8306987b18a514fc6255627123117d881d4968bf663", null ],
+      [ "VMAP_LOAD_RESULT_OK", "d8/d23/a00326.html#a70f18a0d29fcdc21e145ab8306987b18a942b44b8a6db80f6d4ab19ebad17192b", null ],
+      [ "VMAP_LOAD_RESULT_IGNORED", "d8/d23/a00326.html#a70f18a0d29fcdc21e145ab8306987b18addac30ca7168c74f716b6923498e0165", null ]
+    ] ]
 ];

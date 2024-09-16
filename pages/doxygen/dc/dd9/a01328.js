@@ -1,20 +1,11 @@
 var a01328 =
 [
-    [ "WorldPackets::InvalidStringValueException", "d7/de2/a10512.html", "d7/de2/a10512" ],
-    [ "WorldPackets::InvalidUtf8ValueException", "db/d2e/a10516.html", "db/d2e/a10516" ],
-    [ "WorldPackets::InvalidHyperlinkException", "d3/d2b/a10520.html", "d3/d2b/a10520" ],
-    [ "WorldPackets::IllegalHyperlinkException", "d1/d71/a10524.html", "d1/d71/a10524" ],
-    [ "WorldPackets::Strings::RawBytes", "d3/d24/a10528.html", "d3/d24/a10528" ],
-    [ "WorldPackets::Strings::ByteSize< MaxBytesWithoutNullTerminator >", "db/d67/a10532.html", "db/d67/a10532" ],
-    [ "WorldPackets::Strings::Utf8", "d8/d22/a10536.html", "d8/d22/a10536" ],
-    [ "WorldPackets::Strings::Hyperlinks", "d4/d24/a10540.html", "d4/d24/a10540" ],
-    [ "WorldPackets::Strings::NoHyperlinks", "db/d25/a10544.html", "db/d25/a10544" ],
-    [ "WorldPackets::String< MaxBytesWithoutNullTerminator, Validators >", "dd/d06/a10548.html", "dd/d06/a10548" ],
-    [ "WorldPackets::PacketArrayMaxCapacityException", "d4/d05/a10552.html", "d4/d05/a10552" ],
-    [ "WorldPackets::Array< T, N >", "d5/dc7/a10556.html", "d5/dc7/a10556" ],
-    [ "WorldPackets::CompactArray< T >", "d1/d46/a10560.html", "d1/d46/a10560" ],
-    [ "fmt::formatter< WorldPackets::String< MaxBytesWithoutNullTerminator, Validators... > >", "d3/d2d/a10564.html", "d3/d2d/a10564" ],
-    [ "CheckCompactArrayMaskOverflow", "dc/dd9/a01328.html#afb4909c8c4c13b14c8eceda2e9b4246d", null ],
-    [ "operator<<", "dc/dd9/a01328.html#a82e35db0d6b671a4f4a581aac05828dc", null ],
-    [ "operator>>", "dc/dd9/a01328.html#ab21e8e534a45a2a33d69cd11562a45c6", null ]
+    [ "instance_azjol_nerub", "d8/d50/a15756.html", "d8/d50/a15756" ],
+    [ "instance_azjol_nerub::instance_azjol_nerub_InstanceScript", "dc/d88/a15760.html", "dc/d88/a15760" ],
+    [ "spell_azjol_nerub_fixate", "d1/db1/a15764.html", "d1/db1/a15764" ],
+    [ "spell_azjol_nerub_web_wrap_aura", "d1/db3/a15768.html", "d1/db3/a15768" ],
+    [ "AddSC_instance_azjol_nerub", "dc/dd9/a01328.html#a58deb67f6fb8962cfe1dfd044fdaabdb", null ],
+    [ "boundaries", "dc/dd9/a01328.html#aa75d7d0ffe0cef214f982966c33db1c1", null ],
+    [ "creatureData", "dc/dd9/a01328.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "doorData", "dc/dd9/a01328.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
 ];

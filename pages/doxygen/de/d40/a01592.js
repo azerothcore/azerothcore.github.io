@@ -1,13 +1,7 @@
 var a01592 =
 [
-    [ "DisableMgr::anonymous_namespace{DisableMgr.cpp}::DisableData", "de/def/a07628.html", "de/def/a07628" ],
-    [ "DisableMap", "de/d40/a01592.html#a2b8dd8b0bc5f58e812c1bd969ee833d6", null ],
-    [ "DisableTypeMap", "de/d40/a01592.html#a1dc7ac8fd11c81da83700d364483165a", null ],
-    [ "CheckQuestDisables", "de/d40/a01592.html#a2f9fa5dadf6f2da5f01651d37d996377", null ],
-    [ "IsDisabledFor", "de/d40/a01592.html#a6673bbc719c96febfc86a4220a988ed0", null ],
-    [ "IsPathfindingEnabled", "de/d40/a01592.html#ad6a338e6f295d785a4f9256703ffbd71", null ],
-    [ "IsVMAPDisabledFor", "de/d40/a01592.html#a38b182e1836b2197303b2809006f5148", null ],
-    [ "LoadDisables", "de/d40/a01592.html#adb464165caf6cd436499fa84969eeaf8", null ],
-    [ "m_DisableMap", "de/d40/a01592.html#a15af74f7cffff305a48d31529df515e7", null ],
-    [ "MAX_DISABLE_TYPES", "de/d40/a01592.html#a55c2ff1d7d10ed3d5f30071472d692fb", null ]
+    [ "inventory_commandscript", "d8/d12/a11344.html", "d8/d12/a11344" ],
+    [ "AddSC_inventory_commandscript", "de/d40/a01592.html#a8917ab2c5001702c3dc7a14313dbc562", null ],
+    [ "bagSpecsColors", "de/d40/a01592.html#aabf9a2b965ae6153eb18635be4468eb6", null ],
+    [ "bagSpecsToString", "de/d40/a01592.html#ac004d76eb746ea415b16f1b512a057b6", null ]
 ];

@@ -1,11 +1,5 @@
 var a01673 =
 [
-    [ "BanMgr", "dd/dba/a09588.html", "dd/dba/a09588" ],
-    [ "sBan", "d9/df5/a01673.html#a7d5e9b6aab3c8157bcf25fa0f070bb17", null ],
-    [ "BanReturn", "d9/df5/a01673.html#a4dd4670ead55e2780d09a66ab39943a7", [
-      [ "BAN_SUCCESS", "d9/df5/a01673.html#a4dd4670ead55e2780d09a66ab39943a7ab48bdf9afe21b115b7550bf103d1dc28", null ],
-      [ "BAN_SYNTAX_ERROR", "d9/df5/a01673.html#a4dd4670ead55e2780d09a66ab39943a7a7ec21f8f8ea6d0904423dded4b8f0dc8", null ],
-      [ "BAN_NOTFOUND", "d9/df5/a01673.html#a4dd4670ead55e2780d09a66ab39943a7aaefc3ea320005c27d70704fb92aed7ad", null ],
-      [ "BAN_LONGER_EXISTS", "d9/df5/a01673.html#a4dd4670ead55e2780d09a66ab39943a7ac441589615fb2fe9c7decb985f6f0d3c", null ]
-    ] ]
+    [ "instance_commandscript", "d3/dfb/a11340.html", "d3/dfb/a11340" ],
+    [ "AddSC_instance_commandscript", "d9/df5/a01673.html#a3d7dc88b6e95322f2f3dc69ad367fa0c", null ]
 ];

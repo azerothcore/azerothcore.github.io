@@ -1,10 +1,14 @@
 var a03944 =
 [
-    [ "MySQLConnectionInfo", "d8/d04/a05624.html", "d8/d04/a05624" ],
-    [ "MySQLConnection", "d3/d0c/a05628.html", "d3/d0c/a05628" ],
-    [ "ConnectionFlags", "dd/dde/a03944.html#a008b1c9a9206a70569b89aea01ac321f", [
-      [ "CONNECTION_ASYNC", "dd/dde/a03944.html#a008b1c9a9206a70569b89aea01ac321faa12dee499d68ef84c216f874cb104fe9", null ],
-      [ "CONNECTION_SYNCH", "dd/dde/a03944.html#a008b1c9a9206a70569b89aea01ac321fa38de35d7007257d23046b73a6aec7946", null ],
-      [ "CONNECTION_BOTH", "dd/dde/a03944.html#a008b1c9a9206a70569b89aea01ac321fa69536f08cbcdbe5a0ff0d89981fc6b39", null ]
+    [ "TempSummonData", "d7/df1/a07868.html", "d7/df1/a07868" ],
+    [ "TempSummon", "d0/d79/a07872.html", "d0/d79/a07872" ],
+    [ "Minion", "d1/da9/a07876.html", "d1/da9/a07876" ],
+    [ "Guardian", "d5/d04/a07880.html", "d5/d04/a07880" ],
+    [ "Puppet", "d1/d74/a07884.html", "d1/d74/a07884" ],
+    [ "ForcedUnsummonDelayEvent", "de/d38/a07888.html", "de/d38/a07888" ],
+    [ "SummonerType", "dd/dde/a03944.html#ac8a8d6d0515f6d559068f8aaae56e188", [
+      [ "SUMMONER_TYPE_CREATURE", "dd/dde/a03944.html#ac8a8d6d0515f6d559068f8aaae56e188a13183f62876c427760b46d785c8dba3a", null ],
+      [ "SUMMONER_TYPE_GAMEOBJECT", "dd/dde/a03944.html#ac8a8d6d0515f6d559068f8aaae56e188aadd184039208a2f49a392958ca9a2347", null ],
+      [ "SUMMONER_TYPE_MAP", "dd/dde/a03944.html#ac8a8d6d0515f6d559068f8aaae56e188a0550300777cb9771bd92e040ccef0270", null ]
     ] ]
 ];

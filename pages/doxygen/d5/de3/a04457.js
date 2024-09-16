@@ -1,4 +1,5 @@
 var a04457 =
 [
-    [ "Optional", "d5/de3/a04457.html#aaf8f4d77efd311ec7818ab421294ef82", null ]
+    [ "GameObjectAI", "d7/d3c/a05976.html", "d7/d3c/a05976" ],
+    [ "NullGameObjectAI", "d7/d4b/a05980.html", "d7/d4b/a05980" ]
 ];

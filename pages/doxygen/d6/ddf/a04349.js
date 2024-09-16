@@ -1,10 +1,8 @@
 var a04349 =
 [
-    [ "VMAP::ModelSpawn", "d7/de6/a04956.html", "d7/de6/a04956" ],
-    [ "VMAP::ModelInstance", "d6/d0f/a04960.html", "d6/d0f/a04960" ],
-    [ "ModelFlags", "d6/ddf/a04349.html#ac540ff16efadcc07eeb9d8511b94ccce", [
-      [ "MOD_M2", "d6/ddf/a04349.html#ac540ff16efadcc07eeb9d8511b94ccceadfad2b6f6278e720b00314cd5117b673", null ],
-      [ "MOD_WORLDSPAWN", "d6/ddf/a04349.html#ac540ff16efadcc07eeb9d8511b94cccea3a6165ebc7b838e28ef59670dc84dc46", null ],
-      [ "MOD_HAS_BOUND", "d6/ddf/a04349.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09", null ]
+    [ "LootScript", "d6/dca/a10040.html", "d6/dca/a10040" ],
+    [ "LootHook", "d6/ddf/a04349.html#a39ce94de1e8ce6b7055130ac7f40632b", [
+      [ "LOOTHOOK_ON_LOOT_MONEY", "d6/ddf/a04349.html#a39ce94de1e8ce6b7055130ac7f40632ba71990fd8692b46e728ad526346d0f1f1", null ],
+      [ "LOOTHOOK_END", "d6/ddf/a04349.html#a39ce94de1e8ce6b7055130ac7f40632bab03a0874b2fda00aeb19e4b5ab077fea", null ]
     ] ]
 ];

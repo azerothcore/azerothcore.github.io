@@ -1,6 +1,8 @@
 var a00803 =
 [
-    [ "DataHeader", "d5/d72/a00803.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "ScarletMonasteryScriptName", "d5/d72/a00803.html#ac64beb71a88e1265849782b79406b585", null ],
-    [ "GetScarletMonasteryAI", "d5/d72/a00803.html#aecdcabc87b1cc31996b702fd11416f35", null ]
+    [ "TransactionBase", "d1/d47/a05760.html", "d1/d47/a05760" ],
+    [ "Transaction< T >", "d7/d33/a05576.html", "d7/d33/a05576" ],
+    [ "TransactionTask", "d3/da4/a05764.html", "d3/da4/a05764" ],
+    [ "TransactionWithResultTask", "d6/d6d/a05768.html", "d6/d6d/a05768" ],
+    [ "TransactionCallback", "d7/d32/a05772.html", "d7/d32/a05772" ]
 ];

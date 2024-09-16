@@ -1,4 +1,4 @@
 var a00260 =
 [
-    [ "Reference< TO, FROM >", "dd/dce/a05135.html", "dd/dce/a05135" ]
+    [ "Logger", "d5/d76/a05244.html", "d5/d76/a05244" ]
 ];

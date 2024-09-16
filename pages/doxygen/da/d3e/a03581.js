@@ -1,7 +1,17 @@
 var a03581 =
 [
-    [ "instance_obsidian_sanctum", "d5/db8/a15828.html", "d5/db8/a15828" ],
-    [ "instance_obsidian_sanctum::instance_obsidian_sanctum_InstanceMapScript", "d6/d5a/a15832.html", "d6/d5a/a15832" ],
-    [ "AddSC_instance_obsidian_sanctum", "da/d3e/a03581.html#ac4abea2a912b12612a4c884df63abe00", null ],
-    [ "boundaries", "da/d3e/a03581.html#aa75d7d0ffe0cef214f982966c33db1c1", null ]
+    [ "GroupQueueInfo", "df/d34/a07064.html", "df/d34/a07064" ],
+    [ "BattlegroundQueue", "d8/d4c/a07068.html", "d8/d4c/a07068" ],
+    [ "BattlegroundQueue::SelectionPool", "df/d27/a07072.html", "df/d27/a07072" ],
+    [ "BGQueueInviteEvent", "da/dba/a07076.html", "da/dba/a07076" ],
+    [ "BGQueueRemoveEvent", "d5/d58/a07080.html", "d5/d58/a07080" ],
+    [ "BattlegroundQueueGroupTypes", "da/d3e/a03581.html#a589e9d4a3badd48f91fddc2afa661b17", [
+      [ "BG_QUEUE_PREMADE_ALLIANCE", "da/d3e/a03581.html#a589e9d4a3badd48f91fddc2afa661b17a8f1f06d0124e05efcb390e0e9a29ddf4", null ],
+      [ "BG_QUEUE_PREMADE_HORDE", "da/d3e/a03581.html#a589e9d4a3badd48f91fddc2afa661b17a39d0b398e1bcd59620eb0f8701139d1c", null ],
+      [ "BG_QUEUE_NORMAL_ALLIANCE", "da/d3e/a03581.html#a589e9d4a3badd48f91fddc2afa661b17a4b31b889f93f89bfaacde424717c2697", null ],
+      [ "BG_QUEUE_NORMAL_HORDE", "da/d3e/a03581.html#a589e9d4a3badd48f91fddc2afa661b17aea585c62a155542b2d643e25d554f15d", null ],
+      [ "BG_QUEUE_CFBG", "da/d3e/a03581.html#a589e9d4a3badd48f91fddc2afa661b17ab87d2294b56bc938b1c7bc14c5040239", null ],
+      [ "BG_QUEUE_MAX", "da/d3e/a03581.html#a589e9d4a3badd48f91fddc2afa661b17adc82de1f737fd5356f21d83ade1ff992", null ]
+    ] ],
+    [ "COUNT_OF_PLAYERS_TO_AVERAGE_WAIT_TIME", "da/d3e/a03581.html#aebc536d6c303d31049ad05f333c275ba", null ]
 ];

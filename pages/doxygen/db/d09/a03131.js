@@ -1,11 +1,12 @@
 var a03131 =
 [
-    [ "npc_announcer_toc10", "d8/d3f/a16500.html", "d8/d3f/a16500" ],
-    [ "MenuTexts", "db/d09/a03131.html#a5e87c460d493df2d4629af8c1a30fc5a", [
-      [ "MSG_TESTED", "db/d09/a03131.html#a5e87c460d493df2d4629af8c1a30fc5aa462de44eca88c95eb9e412dcabc36185", null ],
-      [ "MSG_NEXT_STAGE", "db/d09/a03131.html#a5e87c460d493df2d4629af8c1a30fc5aafb4b982343fbe7bdd8db85adec53db80", null ],
-      [ "MSG_CRUSADERS", "db/d09/a03131.html#a5e87c460d493df2d4629af8c1a30fc5aa0f20061fedbed395c6723105b82e091d", null ],
-      [ "MSG_ANUBARAK", "db/d09/a03131.html#a5e87c460d493df2d4629af8c1a30fc5aad43353382c7c2b60068aa5b306b62643", null ]
+    [ "SpellEvent", "d2/df2/a10776.html", "d2/df2/a10776" ],
+    [ "CHECK_DIST", "db/d09/a03131.html#aa16c8b27baa496c2fdf0afffaf4485a0", null ],
+    [ "DEBUG_TRAJ", "db/d09/a03131.html#ac27bc73435b380df600d6da0b753a144", null ],
+    [ "GCDLimits", "db/d09/a03131.html#aea36520bcbaa2ebe9c062b9c5d9df777", [
+      [ "MIN_GCD", "db/d09/a03131.html#aea36520bcbaa2ebe9c062b9c5d9df777a08310e07fc7bc96f8485dbcc9487785f", null ],
+      [ "MAX_GCD", "db/d09/a03131.html#aea36520bcbaa2ebe9c062b9c5d9df777accf1639a1cf684725784e02ddf1aef8c", null ]
     ] ],
-    [ "AddSC_trial_of_the_crusader", "db/d09/a03131.html#aae8fa1928137dde06462a753ceebcca6", null ]
+    [ "tangent", "db/d09/a03131.html#a885f76b28cf9930383ddf099d75ccef1", null ],
+    [ "SpellEffects", "db/d09/a03131.html#a294b5954f08aebdafe9e5a6f00e2dc82", null ]
 ];

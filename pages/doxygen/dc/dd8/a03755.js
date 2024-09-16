@@ -1,23 +1,21 @@
 var a03755 =
 [
-    [ "OutdoorPvPSI", "d8/d5c/a22504.html", "d8/d5c/a22504" ],
-    [ "OutdoorPvPSISpells", "dc/dd8/a03755.html#a62a8c4b8a007cc2da63e91f039a9b0f5", [
-      [ "SI_SILITHYST_FLAG_GO_SPELL", "dc/dd8/a03755.html#a62a8c4b8a007cc2da63e91f039a9b0f5add71e365726ced6250de08c4c883f055", null ],
-      [ "SI_SILITHYST_FLAG", "dc/dd8/a03755.html#a62a8c4b8a007cc2da63e91f039a9b0f5a1bf0ed27bacc509ec19e1648e1a9ec74", null ],
-      [ "SI_TRACES_OF_SILITHYST", "dc/dd8/a03755.html#a62a8c4b8a007cc2da63e91f039a9b0f5a8f61c4e11367451aa4b95455a9086410", null ],
-      [ "SI_CENARION_FAVOR", "dc/dd8/a03755.html#a62a8c4b8a007cc2da63e91f039a9b0f5a113a47f651228b031a6d40c36d34d2fb", null ]
+    [ "Totem", "d5/d99/a08396.html", "d5/d99/a08396" ],
+    [ "EARTHBIND_TOTEM_ENTRY", "dc/dd8/a03755.html#a6cae59b1369b7371cefb92be8fc73fa5", null ],
+    [ "SENTRY_TOTEM_ENTRY", "dc/dd8/a03755.html#a2bd46e1df17fdee45cd35896306092fb", null ],
+    [ "TotemImmunitySpells", "dc/dd8/a03755.html#a526213bf692d4f8d189a61617f4a59c9", [
+      [ "SPELL_CYCLONE", "dc/dd8/a03755.html#a526213bf692d4f8d189a61617f4a59c9ab0dea4de61535b7690ae66cfa6440f58", null ],
+      [ "SPELL_STONECLAW", "dc/dd8/a03755.html#a526213bf692d4f8d189a61617f4a59c9ad0896fc7fa22551f57cc65fd56ee8649", null ],
+      [ "SPELL_BIND_SIGHT", "dc/dd8/a03755.html#a526213bf692d4f8d189a61617f4a59c9a1f48e779f72284c7b1140c6be1a5a81a", null ],
+      [ "SPELL_INTERVENE", "dc/dd8/a03755.html#a526213bf692d4f8d189a61617f4a59c9ac663f276cbe6aa86a2ae46813fc14b8c", null ]
     ] ],
-    [ "SI_WorldStates", "dc/dd8/a03755.html#acd596d6544f4ea939ed381e28a4bea8e", [
-      [ "SI_GATHERED_A", "dc/dd8/a03755.html#acd596d6544f4ea939ed381e28a4bea8ea93e8d5fa657d73d11f310f8d25f50eb7", null ],
-      [ "SI_GATHERED_H", "dc/dd8/a03755.html#acd596d6544f4ea939ed381e28a4bea8ea6aaa9a15233b5c148eb2742487727734", null ],
-      [ "SI_SILITHYST_MAX", "dc/dd8/a03755.html#acd596d6544f4ea939ed381e28a4bea8ea7ecead5dc8f4f2a091dcabd2f3c96b45", null ]
+    [ "TotemSpellIds", "dc/dd8/a03755.html#a7092ec93c941969cd2cdd2291c6de0be", [
+      [ "SentryTotemSpell", "dc/dd8/a03755.html#a7092ec93c941969cd2cdd2291c6de0bea2ff316c1216f8b3e5f60a3700214c8c3", null ],
+      [ "FireTotemSpell", "dc/dd8/a03755.html#a7092ec93c941969cd2cdd2291c6de0bea52ad0e17d0d0699c294f9434023aeea7", null ]
     ] ],
-    [ "OutdoorPvPSIBuffZones", "dc/dd8/a03755.html#a155bfb73bcc562d8eaaa4d62d52e59bc", null ],
-    [ "OutdoorPvPSIBuffZonesNum", "dc/dd8/a03755.html#aaf633cff2fc1b3449acb7753f698c4d4", null ],
-    [ "SI_AREATRIGGER_A", "dc/dd8/a03755.html#aca1406dea9e721dc32c834e8b85b2d9a", null ],
-    [ "SI_AREATRIGGER_H", "dc/dd8/a03755.html#abb17804eb9913c298a5dae804e1c7206", null ],
-    [ "SI_MAX_RESOURCES", "dc/dd8/a03755.html#a9558d0ea12ff1048686daf5bf0ff999c", null ],
-    [ "SI_SILITHYST_MOUND", "dc/dd8/a03755.html#a5a6a1265e5e65971f8d86be718ea3bb3", null ],
-    [ "SI_TURNIN_QUEST_CM_A", "dc/dd8/a03755.html#a18c47c74867642b4bd8cc166d9fe1e79", null ],
-    [ "SI_TURNIN_QUEST_CM_H", "dc/dd8/a03755.html#ad1787da9136bc956357571149e1f6b60", null ]
+    [ "TotemType", "dc/dd8/a03755.html#a65151889ab4b03cf02268cc7a7ff0ba3", [
+      [ "TOTEM_PASSIVE", "dc/dd8/a03755.html#a65151889ab4b03cf02268cc7a7ff0ba3a63f155f3367aa262aae567b57c623069", null ],
+      [ "TOTEM_ACTIVE", "dc/dd8/a03755.html#a65151889ab4b03cf02268cc7a7ff0ba3a3c3ecb49d653993abf86f289019e27b0", null ],
+      [ "TOTEM_STATUE", "dc/dd8/a03755.html#a65151889ab4b03cf02268cc7a7ff0ba3ab0fbf32f7d371a34f276dfdf6552e300", null ]
+    ] ]
 ];

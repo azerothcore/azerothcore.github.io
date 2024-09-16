@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Movement/MovementGenerators/WaypointMovementGenerator.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Events/firework_show/firework_show_Exodar.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,102 +105,84 @@ $(document).ready(function(){initNavTree('d5/d54/a00938.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">WaypointMovementGenerator.cpp File Reference</div></div>
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">firework_show_Exodar.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">WaypointMovementGenerator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CreatureAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CreatureGroups.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MoveSpline.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MoveSplineInit.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">firework_show.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a55b33fb4c6265551b0327903da9bff4c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d54/a00938.html#a55b33fb4c6265551b0327903da9bff4c">SKIP_SPLINE_POINT_DISTANCE_SQ</a>&#160;&#160;&#160;(40.0f * 40.0f)</td></tr>
-<tr class="separator:a55b33fb4c6265551b0327903da9bff4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2efde26aed42919892139c2ffb51b279"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d54/a00938.html#a2efde26aed42919892139c2ffb51b279">PLAYER_FLIGHT_SPEED</a>&#160;&#160;&#160;32.0f</td></tr>
-<tr class="separator:a2efde26aed42919892139c2ffb51b279"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a47a5affa854677472690918c4d16f998"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d54/a00938.html#a47a5affa854677472690918c4d16f998">IsNodeIncludedInShortenedPath</a> (<a class="el" href="../../d6/d18/a28276.html">TaxiPathNodeEntry</a> const *p1, <a class="el" href="../../d6/d18/a28276.html">TaxiPathNodeEntry</a> const *p2)</td></tr>
-<tr class="separator:a47a5affa854677472690918c4d16f998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a5b7a7ca2308d23103ee3d053d6301e5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d4d/a14152.html">FireworkShowGameobject</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d54/a00938.html#a5b7a7ca2308d23103ee3d053d6301e5c">fireworkShowGameobjectExodar</a> []</td></tr>
+<tr class="separator:a5b7a7ca2308d23103ee3d053d6301e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44290c427b72dfa245ba73b6fa1ea317"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d8a/a14156.html">FireworkShowScheduleEntry</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d54/a00938.html#a44290c427b72dfa245ba73b6fa1ea317">fireworkShowScheduleExodar</a> []</td></tr>
+<tr class="separator:a44290c427b72dfa245ba73b6fa1ea317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62ccee24b6a90b61a19256b66e97c1dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/dbc/a14160.html">FireworkShow</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d54/a00938.html#a62ccee24b6a90b61a19256b66e97c1dd">fireworkShowExodar</a></td></tr>
+<tr class="separator:a62ccee24b6a90b61a19256b66e97c1dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a2efde26aed42919892139c2ffb51b279" name="a2efde26aed42919892139c2ffb51b279"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2efde26aed42919892139c2ffb51b279">&#9670;&#160;</a></span>PLAYER_FLIGHT_SPEED</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a62ccee24b6a90b61a19256b66e97c1dd" name="a62ccee24b6a90b61a19256b66e97c1dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62ccee24b6a90b61a19256b66e97c1dd">&#9670;&#160;</a></span>fireworkShowExodar</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PLAYER_FLIGHT_SPEED&#160;&#160;&#160;32.0f</td>
+          <td class="memname"><a class="el" href="../../dc/dbc/a14160.html">FireworkShow</a> const fireworkShowExodar</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a55b33fb4c6265551b0327903da9bff4c" name="a55b33fb4c6265551b0327903da9bff4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55b33fb4c6265551b0327903da9bff4c">&#9670;&#160;</a></span>SKIP_SPLINE_POINT_DISTANCE_SQ</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SKIP_SPLINE_POINT_DISTANCE_SQ&#160;&#160;&#160;(40.0f * 40.0f)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a47a5affa854677472690918c4d16f998" name="a47a5affa854677472690918c4d16f998"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47a5affa854677472690918c4d16f998">&#9670;&#160;</a></span>IsNodeIncludedInShortenedPath()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool IsNodeIncludedInShortenedPath </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/d18/a28276.html">TaxiPathNodeEntry</a> const *&#160;</td>
-          <td class="paramname"><em>p1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d6/d18/a28276.html">TaxiPathNodeEntry</a> const *&#160;</td>
-          <td class="paramname"><em>p2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  325</span>{</div>
-<div class="line"><span class="lineno">  326</span>    <span class="keywordflow">return</span> p1-&gt;mapid != p2-&gt;mapid || std::pow(p1-&gt;x - p2-&gt;x, 2) + std::pow(p1-&gt;y - p2-&gt;y, 2) &gt; <a class="code hl_define" href="../../d5/d54/a00938.html#a55b33fb4c6265551b0327903da9bff4c">SKIP_SPLINE_POINT_DISTANCE_SQ</a>;</div>
-<div class="line"><span class="lineno">  327</span>}</div>
-<div class="ttc" id="aa00938_html_a55b33fb4c6265551b0327903da9bff4c"><div class="ttname"><a href="../../d5/d54/a00938.html#a55b33fb4c6265551b0327903da9bff4c">SKIP_SPLINE_POINT_DISTANCE_SQ</a></div><div class="ttdeci">#define SKIP_SPLINE_POINT_DISTANCE_SQ</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.cpp:322</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    .schedule =</div>
+<div class="line">    {</div>
+<div class="line">        .entries = <a class="code hl_variable" href="../../d5/d54/a00938.html#a44290c427b72dfa245ba73b6fa1ea317">fireworkShowScheduleExodar</a>,</div>
+<div class="line">        .size = <span class="keyword">sizeof</span>(<a class="code hl_variable" href="../../d5/d54/a00938.html#a44290c427b72dfa245ba73b6fa1ea317">fireworkShowScheduleExodar</a>) / <span class="keyword">sizeof</span>(<a class="code hl_variable" href="../../d5/d54/a00938.html#a44290c427b72dfa245ba73b6fa1ea317">fireworkShowScheduleExodar</a>[0])</div>
+<div class="line">    },</div>
+<div class="line">    .spawns =</div>
+<div class="line">    {</div>
+<div class="line">        .entries = <a class="code hl_variable" href="../../d5/d54/a00938.html#a5b7a7ca2308d23103ee3d053d6301e5c">fireworkShowGameobjectExodar</a>,</div>
+<div class="line">        .size = <span class="keyword">sizeof</span>(<a class="code hl_variable" href="../../d5/d54/a00938.html#a5b7a7ca2308d23103ee3d053d6301e5c">fireworkShowGameobjectExodar</a>) / <span class="keyword">sizeof</span>(<a class="code hl_variable" href="../../d5/d54/a00938.html#a5b7a7ca2308d23103ee3d053d6301e5c">fireworkShowGameobjectExodar</a>[0])</div>
+<div class="line">    },</div>
+<div class="line">    .revelerId =</div>
+<div class="line">    {</div>
+<div class="line">        <a class="code hl_enumvalue" href="../../d6/d82/a00920.html#ad6101dc8b1197f1113132f0abce2b1efafa0fbaac554e9b1afdb5c581e95918d8">NPC_DRAENEI_REVELER</a>,</div>
+<div class="line">        0</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="aa00920_html_ad6101dc8b1197f1113132f0abce2b1efafa0fbaac554e9b1afdb5c581e95918d8"><div class="ttname"><a href="../../d6/d82/a00920.html#ad6101dc8b1197f1113132f0abce2b1efafa0fbaac554e9b1afdb5c581e95918d8">NPC_DRAENEI_REVELER</a></div><div class="ttdeci">@ NPC_DRAENEI_REVELER</div><div class="ttdef"><b>Definition:</b> firework_show.h:60</div></div>
+<div class="ttc" id="aa00938_html_a44290c427b72dfa245ba73b6fa1ea317"><div class="ttname"><a href="../../d5/d54/a00938.html#a44290c427b72dfa245ba73b6fa1ea317">fireworkShowScheduleExodar</a></div><div class="ttdeci">FireworkShowScheduleEntry const fireworkShowScheduleExodar[]</div><div class="ttdef"><b>Definition:</b> firework_show_Exodar.h:87</div></div>
+<div class="ttc" id="aa00938_html_a5b7a7ca2308d23103ee3d053d6301e5c"><div class="ttname"><a href="../../d5/d54/a00938.html#a5b7a7ca2308d23103ee3d053d6301e5c">fireworkShowGameobjectExodar</a></div><div class="ttdeci">FireworkShowGameobject const fireworkShowGameobjectExodar[]</div><div class="ttdef"><b>Definition:</b> firework_show_Exodar.h:24</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l01977">TaxiPathNodeEntry::mapid</a>, <a class="el" href="../../#l00322">SKIP_SPLINE_POINT_DISTANCE_SQ</a>, <a class="el" href="../../#l01978">TaxiPathNodeEntry::x</a>, and <a class="el" href="../../#l01979">TaxiPathNodeEntry::y</a>.</p>
+</div>
+</div>
+<a id="a5b7a7ca2308d23103ee3d053d6301e5c" name="a5b7a7ca2308d23103ee3d053d6301e5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b7a7ca2308d23103ee3d053d6301e5c">&#9670;&#160;</a></span>fireworkShowGameobjectExodar</h2>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00329">FlightPathMovementGenerator::LoadPath()</a>.</p>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d4d/a14152.html">FireworkShowGameobject</a> const fireworkShowGameobjectExodar[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44290c427b72dfa245ba73b6fa1ea317" name="a44290c427b72dfa245ba73b6fa1ea317"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44290c427b72dfa245ba73b6fa1ea317">&#9670;&#160;</a></span>fireworkShowScheduleExodar</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d8a/a14156.html">FireworkShowScheduleEntry</a> const fireworkShowScheduleExodar[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -209,8 +191,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_0787b0a4fdc11b0654465feaa92c32a3.html">Movement</a></li><li class="navelem"><a class="el" href="../../dir_5b912817ccf0063e74cbee75ff3a7169.html">MovementGenerators</a></li><li class="navelem"><a class="el" href="../../d5/d54/a00938.html">WaypointMovementGenerator.cpp</a></li>
-    <li class="footer">Generated on Mon Sep 9 2024 20:38:25 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_c818e5878076a3731e7c7d0d4061bd6b.html">Events</a></li><li class="navelem"><a class="el" href="../../dir_86b42cc1a54e6d04672764bc481d77b5.html">firework_show</a></li><li class="navelem"><a class="el" href="../../d5/d54/a00938.html">firework_show_Exodar.h</a></li>
+    <li class="footer">Generated on Mon Sep 16 2024 20:40:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

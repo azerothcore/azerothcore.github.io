@@ -1,4 +1,4 @@
 var a00215 =
 [
-    [ "Acore::Impl::GenericBaseEncoding< Encoding >", "d3/dd2/a05215.html", "d3/dd2/a05215" ]
+    [ "LockedQueue< T, StorageType >", "d1/d54/a05272.html", "d1/d54/a05272" ]
 ];

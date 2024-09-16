@@ -1,7 +1,7 @@
 var dir_25d8f4185a27c7d78867bf9666699c3c =
 [
-    [ "OutdoorPvP.cpp", "de/d0f/a01727.html", null ],
-    [ "OutdoorPvP.h", "d8/d9c/a01733.html", "d8/d9c/a01733" ],
-    [ "OutdoorPvPMgr.cpp", "d3/d4c/a01724.html", null ],
-    [ "OutdoorPvPMgr.h", "de/db5/a01730.html", "de/db5/a01730" ]
+    [ "OutdoorPvP.cpp", "d4/d60/a03446.html", null ],
+    [ "OutdoorPvP.h", "df/d0f/a03452.html", "df/d0f/a03452" ],
+    [ "OutdoorPvPMgr.cpp", "d8/df8/a03443.html", null ],
+    [ "OutdoorPvPMgr.h", "d7/dc5/a03449.html", "d7/dc5/a03449" ]
 ];

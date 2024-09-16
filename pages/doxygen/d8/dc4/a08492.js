@@ -836,7 +836,7 @@ var a08492 =
     [ "bRequestForcedVisibilityUpdate", "d8/dc4/a08492.html#a76e5156ec045582923f6d1541b66367b", null ],
     [ "extraAttacksTargets", "d8/dc4/a08492.html#a19f785f860043c1c37e887ad463b8453", null ],
     [ "i_AI", "d8/dc4/a08492.html#a4351466ac3fa06642d407a7ee9472191", null ],
-    [ "i_disabledAI", "d8/dc4/a08492.html#ae971fe23ebe900f52c3fce4ac0862139", null ],
+    [ "i_disabledAI", "d8/dc4/a08492.html#a1da6b0550230616c9dd52234bbcb1cf3", null ],
     [ "i_motionMaster", "d8/dc4/a08492.html#a491e3bb669f8965c16f82322eaff7fe4", null ],
     [ "IsAIEnabled", "d8/dc4/a08492.html#ab395fef0b407c0af40ba6274c32730a6", null ],
     [ "m_appliedAuras", "d8/dc4/a08492.html#abfce7d1271fb6c774ed9f6b41a33e073", null ],

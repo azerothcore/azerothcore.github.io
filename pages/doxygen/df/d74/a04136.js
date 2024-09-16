@@ -1,4 +1,5 @@
 var a04136 =
 [
-    [ "LoginQueryHolder", "d4/df3/a09251.html", "d4/df3/a09251" ]
+    [ "CreatureTextBuilder", "df/d8e/a11068.html", "df/d8e/a11068" ],
+    [ "PlayerTextBuilder", "de/d93/a11072.html", "de/d93/a11072" ]
 ];

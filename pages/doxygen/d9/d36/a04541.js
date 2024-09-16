@@ -1,15 +1,16 @@
 var a04541 =
 [
-    [ "Socket< T >", "da/d59/a28323.html", "da/d59/a28323" ],
-    [ "READ_BLOCK_SIZE", "d9/d36/a04541.html#a16ba013af02b9d4400b5e47d8daa022b", null ],
-    [ "ProxyHeaderAddressFamilyAndProtocol", "d9/d36/a04541.html#a7ddce6d0420753babeb6258ada50eec1", [
-      [ "PROXY_HEADER_ADDRESS_FAMILY_AND_PROTOCOL_TCP_V4", "d9/d36/a04541.html#a7ddce6d0420753babeb6258ada50eec1a9d87d0a8da10465b32fd9a322c2a8575", null ],
-      [ "PROXY_HEADER_ADDRESS_FAMILY_AND_PROTOCOL_TCP_V6", "d9/d36/a04541.html#a7ddce6d0420753babeb6258ada50eec1a5b0f57dac80a77ad98bc0d371a22f699", null ]
+    [ "SmartAI", "d0/d80/a06132.html", "d0/d80/a06132" ],
+    [ "SmartGameObjectAI", "d3/da4/a06136.html", "d3/da4/a06136" ],
+    [ "SmartEscortState", "d9/d36/a04541.html#a0911043eb49fd7958a828a60e0537d54", [
+      [ "SMART_ESCORT_NONE", "d9/d36/a04541.html#a0911043eb49fd7958a828a60e0537d54ad51ea013b009290e4eba7f3591d0e889", null ],
+      [ "SMART_ESCORT_ESCORTING", "d9/d36/a04541.html#a0911043eb49fd7958a828a60e0537d54a0756668fef1eacc6101e9113e974cc19", null ],
+      [ "SMART_ESCORT_RETURNING", "d9/d36/a04541.html#a0911043eb49fd7958a828a60e0537d54a404e4c2ac36fc3f87779560b58af7fe8", null ],
+      [ "SMART_ESCORT_PAUSED", "d9/d36/a04541.html#a0911043eb49fd7958a828a60e0537d54a35650bf0f6f9a142acfb5b6e5cd194f7", null ]
     ] ],
-    [ "ProxyHeaderReadingState", "d9/d36/a04541.html#aa514bb66fa404b5b180297bb005c3272", [
-      [ "PROXY_HEADER_READING_STATE_NOT_STARTED", "d9/d36/a04541.html#aa514bb66fa404b5b180297bb005c3272a0bd44a601a6d6745f442535a457fc67c", null ],
-      [ "PROXY_HEADER_READING_STATE_STARTED", "d9/d36/a04541.html#aa514bb66fa404b5b180297bb005c3272a6b5e85386b6638d1a72fa2520f355c98", null ],
-      [ "PROXY_HEADER_READING_STATE_FINISHED", "d9/d36/a04541.html#aa514bb66fa404b5b180297bb005c3272a2898c80db946e4ae677297c1954470fb", null ],
-      [ "PROXY_HEADER_READING_STATE_FAILED", "d9/d36/a04541.html#aa514bb66fa404b5b180297bb005c3272a7a96033158689ba0590a86245f58922f", null ]
-    ] ]
+    [ "SmartEscortVars", "d9/d36/a04541.html#a598eb331d977fa893d589fe3e6cebfbf", [
+      [ "SMART_ESCORT_MAX_PLAYER_DIST", "d9/d36/a04541.html#a598eb331d977fa893d589fe3e6cebfbfa43349fe96bf29348a87944e39bacfdba", null ],
+      [ "SMART_MAX_AID_DIST", "d9/d36/a04541.html#a598eb331d977fa893d589fe3e6cebfbfa74a5b65862962dfdb4c72589d5191c3f", null ]
+    ] ],
+    [ "AddSC_SmartScripts", "d9/d36/a04541.html#ab6012619ba76775b314475ec60f8c7d7", null ]
 ];

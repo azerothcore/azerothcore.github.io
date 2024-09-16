@@ -1,4 +1,6 @@
 var a00497 =
 [
-    [ "SetProcessPriority", "d4/d1e/a00497.html#ab39209127ac54019d5252a95bc5c7aaf", null ]
+    [ "IpLocationRecord", "df/d2e/a05216.html", "df/d2e/a05216" ],
+    [ "IpLocationStore", "dd/d2d/a05220.html", "dd/d2d/a05220" ],
+    [ "sIPLocation", "d4/d1e/a00497.html#a85e62bd98f395189fea9c9514d44fc31", null ]
 ];

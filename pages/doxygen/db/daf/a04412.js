@@ -1,13 +1,12 @@
 var a04412 =
 [
-    [ "TypeContainerVisitor< VISITOR, TYPE_CONTAINER >", "d6/d8c/a05188.html", "d6/d8c/a05188" ],
-    [ "VisitorHelper", "db/daf/a04412.html#afb97c1925d9afe2b9cb0f316b722b286", null ],
-    [ "VisitorHelper", "db/daf/a04412.html#a3c05d024f0dd548fe51e8d8657cdb9b8", null ],
-    [ "VisitorHelper", "db/daf/a04412.html#a2bba031b226b147ad62a069694924b83", null ],
-    [ "VisitorHelper", "db/daf/a04412.html#a521e8e3b3a45439e572e9769ad39b512", null ],
-    [ "VisitorHelper", "db/daf/a04412.html#ace6180e67fbb6a46929af65480632388", null ],
-    [ "VisitorHelper", "db/daf/a04412.html#ac2220e2e1174a525d43b8449fd25a2e3", null ],
-    [ "VisitorHelper", "db/daf/a04412.html#a3a47e8382377ca85476452be8786e00f", null ],
-    [ "VisitorHelper", "db/daf/a04412.html#a85da15ab4908f58ef09fcf703f3c01a6", null ],
-    [ "VisitorHelper", "db/daf/a04412.html#af508b246df1e278d5ebf32da50f4e2f9", null ]
+    [ "AchievementScript", "dd/d44/a09908.html", "dd/d44/a09908" ],
+    [ "AchievementHook", "db/daf/a04412.html#a62b7eadebfd59858b2e2f1a8713a3ae1", [
+      [ "ACHIEVEMENTHOOK_SET_REALM_COMPLETED", "db/daf/a04412.html#a62b7eadebfd59858b2e2f1a8713a3ae1ac3fc38cd750edf07c66cf42ae357a782", null ],
+      [ "ACHIEVEMENTHOOK_IS_COMPLETED_CRITERIA", "db/daf/a04412.html#a62b7eadebfd59858b2e2f1a8713a3ae1a12f1bcc17681be9acc81dc3fb51e8f2e", null ],
+      [ "ACHIEVEMENTHOOK_IS_REALM_COMPLETED", "db/daf/a04412.html#a62b7eadebfd59858b2e2f1a8713a3ae1a0f6e888313610e200011072afae5b8e7", null ],
+      [ "ACHIEVEMENTHOOK_ON_BEFORE_CHECK_CRITERIA", "db/daf/a04412.html#a62b7eadebfd59858b2e2f1a8713a3ae1a5073468c76ad4823c32a7fe0cc113048", null ],
+      [ "ACHIEVEMENTHOOK_CAN_CHECK_CRITERIA", "db/daf/a04412.html#a62b7eadebfd59858b2e2f1a8713a3ae1aa9d01d0837118bf75263bb54b21f18b1", null ],
+      [ "ACHIEVEMENTHOOK_END", "db/daf/a04412.html#a62b7eadebfd59858b2e2f1a8713a3ae1a2df8c3284122e09fda0d8f4b7789732c", null ]
+    ] ]
 ];

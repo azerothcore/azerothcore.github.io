@@ -1,5 +1,6 @@
 var a04445 =
 [
-    [ "getOutOfWater", "d6/d70/a04445.html#a92646d631d9334b64b0b487ebf87d769", null ],
-    [ "getWeight", "d6/d70/a04445.html#a44526122378fe7ee8622f1ffc822dc20", null ]
+    [ "TSpellSummary", "dc/d0a/a06084.html", "dc/d0a/a06084" ],
+    [ "SCR_CLEAR", "d6/d70/a04445.html#ab71e08e3f39b7ee7bda0306cd39b96a0", null ],
+    [ "SpellSummary", "d6/d70/a04445.html#ae56af266ccaa1794f1f014938b07e9cc", null ]
 ];

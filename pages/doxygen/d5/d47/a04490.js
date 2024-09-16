@@ -1,15 +1,21 @@
 var a04490 =
 [
-    [ "RandomEngine", "d2/d6f/a05380.html", "d2/d6f/a05380" ],
-    [ "frand", "d5/d47/a04490.html#aa28484fcb823a22578601847e4b0ddb4", null ],
-    [ "irand", "d5/d47/a04490.html#a0a5e53ee066789ecb565abc05fe36dbc", null ],
-    [ "rand32", "d5/d47/a04490.html#ab91ed86274e1e52eb314784862b61696", null ],
-    [ "rand_chance", "d5/d47/a04490.html#a60564a0d93e0c87809379e0c1fa7acd1", null ],
-    [ "rand_norm", "d5/d47/a04490.html#ad552d8147f66d6ec0cd44271e8799599", null ],
-    [ "randtime", "d5/d47/a04490.html#a2fc61a89dc958460e6eabe08d87a4021", null ],
-    [ "roll_chance_f", "d5/d47/a04490.html#a4b15099bc81731469c5078a778673c94", null ],
-    [ "roll_chance_i", "d5/d47/a04490.html#a50320d4edff86db31b25138ae72161ad", null ],
-    [ "urand", "d5/d47/a04490.html#a3648faa6a1353eac6d2eec0b399c5aba", null ],
-    [ "urandms", "d5/d47/a04490.html#a1a4ee564518371004a4d34135600bfa0", null ],
-    [ "urandweighted", "d5/d47/a04490.html#a673de62907a2657190e58678691d3b36", null ]
+    [ "DefaultTargetSelector", "df/d9b/a06024.html", "df/d9b/a06024" ],
+    [ "SpellTargetSelector", "d4/d91/a06028.html", "d4/d91/a06028" ],
+    [ "NonTankTargetSelector", "d4/ddf/a06032.html", "d4/ddf/a06032" ],
+    [ "PowerUsersSelector", "d6/d18/a06036.html", "d6/d18/a06036" ],
+    [ "FarthestTargetSelector", "d5/d32/a06040.html", "d5/d32/a06040" ],
+    [ "UnitAI", "d1/dc9/a06044.html", "d1/dc9/a06044" ],
+    [ "PlayerAI", "dd/d34/a06048.html", "dd/d34/a06048" ],
+    [ "SimpleCharmedAI", "de/dcd/a06052.html", "de/dcd/a06052" ],
+    [ "CAST_AI", "d5/d47/a04490.html#a0476b18cfebeb691aabb4344ec4f8af3", null ],
+    [ "ENSURE_AI", "d5/d47/a04490.html#afbd9552e4d9ae2fb45fe846c8e9775cf", null ],
+    [ "SelectTargetMethod", "d5/d47/a04490.html#a482ee472018cb5f0e11addaabad35c3d", [
+      [ "Random", "d5/d47/a04490.html#a482ee472018cb5f0e11addaabad35c3da64663f4646781c9c0110838b905daa23", null ],
+      [ "MaxThreat", "d5/d47/a04490.html#a482ee472018cb5f0e11addaabad35c3da8a65bf968cbf5bef0f097c4f6cc842c0", null ],
+      [ "MinThreat", "d5/d47/a04490.html#a482ee472018cb5f0e11addaabad35c3da01cd0e3f1d186cc67cb2235ac1e02fa4", null ],
+      [ "MaxDistance", "d5/d47/a04490.html#a482ee472018cb5f0e11addaabad35c3da26566fa367c162fcc3c6639f66c6b611", null ],
+      [ "MinDistance", "d5/d47/a04490.html#a482ee472018cb5f0e11addaabad35c3da334b6577674b84a8854d5281a52e48b1", null ]
+    ] ],
+    [ "EnsureAI", "d5/d47/a04490.html#a1c66b73f1d3e1e8031c25ae739f094e6", null ]
 ];

@@ -1,7 +1,10 @@
 var a00074 =
 [
-    [ "GetExplicitDiscoverySpell", "db/db6/a00074.html#a7cdb9e342efe04c1ba8caf202b7b0d96", null ],
-    [ "GetSkillDiscoverySpell", "db/db6/a00074.html#ab50472e4f1f892eb77ce660ef00d808a", null ],
-    [ "HasDiscoveredAllSpells", "db/db6/a00074.html#abdf3c2fcf65212466dfb54053e35024c", null ],
-    [ "LoadSkillDiscoveryTable", "db/db6/a00074.html#addd95f0a239a27ed32cd943aa1052019", null ]
+    [ "Acore::has_type< T, std::tuple< Us... > >", "d4/db7/a05476.html", null ],
+    [ "Acore::is_tuple< typename >", "dd/d34/a05480.html", null ],
+    [ "Acore::is_tuple< std::tuple< Ts... > >", "db/d15/a05484.html", null ],
+    [ "new_from_tuple", "db/db6/a00074.html#aac12e702d41e9aa126f7d39f0f295252", null ],
+    [ "new_from_tuple", "db/db6/a00074.html#a028fc93107022ad23a763503c9b0bbdb", null ],
+    [ "has_type_v", "db/db6/a00074.html#aa4e7bc2a96e641dd1642a3c61cfc96b0", null ],
+    [ "is_tuple_v", "db/db6/a00074.html#a4104f84ad757b701a6ffbd51f5d10b9f", null ]
 ];

@@ -1,6 +1,9 @@
 var a04589 =
 [
-    [ "_CRT_SECURE_NO_DEPRECATE", "d3/d24/a04589.html#a411c46599e926f8cdf49c63957255359", null ],
-    [ "MAINMagic", "d3/d24/a04589.html#a026039bd50ec58444fa975da328951ec", null ],
-    [ "MPHDMagic", "d3/d24/a04589.html#aac8041bc8ca704e28f2b3054649b3752", null ]
+    [ "AchievementVisitor", "d9/ddf/a07312.html", "d9/ddf/a07312" ],
+    [ "GameTeleVisitor", "df/d60/a07316.html", "df/d60/a07316" ],
+    [ "ItemTemplateVisitor", "d8/da1/a07320.html", "d8/da1/a07320" ],
+    [ "SpellInfoVisitor", "dd/d18/a07324.html", "dd/d18/a07324" ],
+    [ "QuestVisitor", "d3/d5b/a07328.html", "d3/d5b/a07328" ],
+    [ "ChatCommandResult", "d3/d24/a04589.html#ad9c9d483b96ed400318aed8441ebe7f1", null ]
 ];

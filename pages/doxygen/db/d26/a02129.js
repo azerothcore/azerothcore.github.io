@@ -1,14 +1,12 @@
 var a02129 =
 [
-    [ "NpcFlagText", "df/dc6/a11384.html", "df/dc6/a11384" ],
-    [ "MechanicImmune", "da/d88/a11388.html", "da/d88/a11388" ],
-    [ "SpellSchoolImmune", "d4/dc2/a11392.html", "d4/dc2/a11392" ],
-    [ "npc_commandscript", "d1/d90/a11396.html", "d1/d90/a11396" ],
-    [ "NPCFLAG_COUNT", "db/d26/a02129.html#afc1ed6083684621f30fbabb23d2986c0", null ],
-    [ "CreatureEntry", "db/d26/a02129.html#a220449830f7fe293c9d82dcd3b84acd9", null ],
-    [ "CreatureSpawnId", "db/d26/a02129.html#a5e5fd5f7a85fd4ad7fe92f2125f17acc", null ],
-    [ "AddSC_npc_commandscript", "db/d26/a02129.html#ae99689f5e8e57f75adfcf54370ed979d", null ],
-    [ "mechanicImmunes", "db/d26/a02129.html#a9e8359f68aec0f69f42fe7aee7934859", null ],
-    [ "npcFlagTexts", "db/d26/a02129.html#a048bdd249b6deeed66fba6bad126b30b", null ],
-    [ "spellSchoolImmunes", "db/d26/a02129.html#a8708a11856730666b04e749bc0952c8f", null ]
+    [ "instance_shadow_labyrinth", "d9/d45/a22652.html", "d9/d45/a22652" ],
+    [ "instance_shadow_labyrinth::instance_shadow_labyrinth_InstanceMapScript", "df/d8e/a22656.html", "df/d8e/a22656" ],
+    [ "spell_mark_of_malice", "d2/d76/a22660.html", "d2/d76/a22660" ],
+    [ "MarkOfMalice", "db/d26/a02129.html#a5faa1e1ef40cd28efc7332da31667677", [
+      [ "SPELL_MARK_OF_MALICE_TRIGGERED", "db/d26/a02129.html#a5faa1e1ef40cd28efc7332da31667677a3c3d2a42daa901d72ea35a7207267ecb", null ]
+    ] ],
+    [ "AddSC_instance_shadow_labyrinth", "db/d26/a02129.html#ad8948ff8ccd6c3cee367ad7227308846", null ],
+    [ "creatureData", "db/d26/a02129.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "doorData", "db/d26/a02129.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
 ];

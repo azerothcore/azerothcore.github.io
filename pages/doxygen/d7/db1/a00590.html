@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Object/ObjectGuid.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/tools/vmap4_assembler/VMapAssembler.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,72 +105,39 @@ $(document).ready(function(){initNavTree('d7/db1/a00590.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">ObjectGuid.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">VMapAssembler.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
-<code>#include &lt;iomanip&gt;</code><br />
-<code>#include &lt;sstream&gt;</code><br />
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../">TileAssembler.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a62c17cbc4f3da3f26f9c1ae3ba2c4953"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db1/a00590.html#a62c17cbc4f3da3f26f9c1ae3ba2c4953">GUID_TRAIT_INSTANTIATE_GUID</a>(HIGH_GUID)&#160;&#160;&#160;    template class <a class="el" href="../../d2/dae/a08176.html">ObjectGuidGenerator</a>&lt; HIGH_GUID &gt;;</td></tr>
-<tr class="separator:a62c17cbc4f3da3f26f9c1ae3ba2c4953"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a039758f4b57c94c411a4c3882334ada8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/a28356.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db1/a00590.html#a039758f4b57c94c411a4c3882334ada8">operator&lt;&lt;</a> (<a class="el" href="../../d0/df4/a28356.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../d0/dba/a08164.html">ObjectGuid</a> const &amp;guid)</td></tr>
-<tr class="separator:a039758f4b57c94c411a4c3882334ada8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30aef535f2839648f0ae4648c746d3e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/a28356.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db1/a00590.html#a30aef535f2839648f0ae4648c746d3e2">operator&gt;&gt;</a> (<a class="el" href="../../d0/df4/a28356.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../d0/dba/a08164.html">ObjectGuid</a> &amp;guid)</td></tr>
-<tr class="separator:a30aef535f2839648f0ae4648c746d3e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94ab551ce00fd82dea1532d47ad908bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/a28356.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db1/a00590.html#a94ab551ce00fd82dea1532d47ad908bc">operator&lt;&lt;</a> (<a class="el" href="../../d0/df4/a28356.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../d9/dae/a08168.html">PackedGuid</a> const &amp;guid)</td></tr>
-<tr class="separator:a94ab551ce00fd82dea1532d47ad908bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95f3a6eef334b9fcdcaca879532c25d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/a28356.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db1/a00590.html#a95f3a6eef334b9fcdcaca879532c25d4">operator&gt;&gt;</a> (<a class="el" href="../../d0/df4/a28356.html">ByteBuffer</a> &amp;buf, <a class="el" href="../../d8/db5/a08160.html">PackedGuidReader</a> const &amp;guid)</td></tr>
-<tr class="separator:a95f3a6eef334b9fcdcaca879532c25d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db1/a00590.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
+<tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a62c17cbc4f3da3f26f9c1ae3ba2c4953" name="a62c17cbc4f3da3f26f9c1ae3ba2c4953"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62c17cbc4f3da3f26f9c1ae3ba2c4953">&#9670;&#160;</a></span>GUID_TRAIT_INSTANTIATE_GUID</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GUID_TRAIT_INSTANTIATE_GUID</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">HIGH_GUID</td><td>)</td>
-          <td>&#160;&#160;&#160;    template class <a class="el" href="../../d2/dae/a08176.html">ObjectGuidGenerator</a>&lt; HIGH_GUID &gt;;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a039758f4b57c94c411a4c3882334ada8" name="a039758f4b57c94c411a4c3882334ada8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a039758f4b57c94c411a4c3882334ada8">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[1/2]</span></h2>
+<a id="a0ddf1224851353fc92bfbff6f499fa97" name="a0ddf1224851353fc92bfbff6f499fa97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ddf1224851353fc92bfbff6f499fa97">&#9670;&#160;</a></span>main()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/a28356.html">ByteBuffer</a> &amp; operator&lt;&lt; </td>
+          <td class="memname">int main </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/df4/a28356.html">ByteBuffer</a> &amp;&#160;</td>
-          <td class="paramname"><em>buf</em>, </td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/dba/a08164.html">ObjectGuid</a> const &amp;&#160;</td>
-          <td class="paramname"><em>guid</em>&#160;</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>argv</em>[]&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -179,119 +146,42 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   70</span>{</div>
-<div class="line"><span class="lineno">   71</span>    buf &lt;&lt; <a class="code hl_typedef" href="../../d1/dd3/a04427.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>(guid.GetRawValue());</div>
-<div class="line"><span class="lineno">   72</span>    <span class="keywordflow">return</span> buf;</div>
-<div class="line"><span class="lineno">   73</span>}</div>
-<div class="ttc" id="aa04427_html_ac4dd6ce78ce3b840c53bd4b3c63ed09b"><div class="ttname"><a href="../../d1/dd3/a04427.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a></div><div class="ttdeci">std::uint64_t uint64</div><div class="ttdef"><b>Definition:</b> Define.h:106</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   24</span>{</div>
+<div class="line"><span class="lineno">   25</span>    std::string src = <span class="stringliteral">&quot;Buildings&quot;</span>;</div>
+<div class="line"><span class="lineno">   26</span>    std::string dest = <span class="stringliteral">&quot;vmaps&quot;</span>;</div>
+<div class="line"><span class="lineno">   27</span> </div>
+<div class="line"><span class="lineno">   28</span>    <span class="keywordflow">if</span> (argc &gt; 3)</div>
+<div class="line"><span class="lineno">   29</span>    {</div>
+<div class="line"><span class="lineno">   30</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;usage: &quot;</span> &lt;&lt; argv[0] &lt;&lt; <span class="stringliteral">&quot; &lt;raw data dir&gt; &lt;vmap dest dir&gt;&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   31</span>        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><span class="lineno">   32</span>    }</div>
+<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   34</span>    {</div>
+<div class="line"><span class="lineno">   35</span>        <span class="keywordflow">if</span> (argc &gt; 1)</div>
+<div class="line"><span class="lineno">   36</span>            src = argv[1];</div>
+<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">if</span> (argc &gt; 2)</div>
+<div class="line"><span class="lineno">   38</span>            dest = argv[2];</div>
+<div class="line"><span class="lineno">   39</span>    }</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>    std::cout &lt;&lt; <span class="stringliteral">&quot;using &quot;</span> &lt;&lt; src &lt;&lt; <span class="stringliteral">&quot; as source directory and writing output to &quot;</span> &lt;&lt; dest &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   42</span> </div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_class" href="../../da/d94/a04940.html">VMAP::TileAssembler</a>* ta = <span class="keyword">new</span> <a class="code hl_class" href="../../da/d94/a04940.html">VMAP::TileAssembler</a>(src, dest);</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>    <span class="keywordflow">if</span> (!ta-&gt;<a class="code hl_function" href="../../da/d94/a04940.html#adabcb9cefdd3fcab94c5471948dbe0b0">convertWorld2</a>())</div>
+<div class="line"><span class="lineno">   46</span>    {</div>
+<div class="line"><span class="lineno">   47</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;exit with errors&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   48</span>        <span class="keyword">delete</span> ta;</div>
+<div class="line"><span class="lineno">   49</span>        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><span class="lineno">   50</span>    }</div>
+<div class="line"><span class="lineno">   51</span> </div>
+<div class="line"><span class="lineno">   52</span>    <span class="keyword">delete</span> ta;</div>
+<div class="line"><span class="lineno">   53</span>    std::cout &lt;&lt; <span class="stringliteral">&quot;Ok, all done&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   54</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   55</span>}</div>
+<div class="ttc" id="aa04940_html"><div class="ttname"><a href="../../da/d94/a04940.html">VMAP::TileAssembler</a></div><div class="ttdef"><b>Definition:</b> TileAssembler.h:93</div></div>
+<div class="ttc" id="aa04940_html_adabcb9cefdd3fcab94c5471948dbe0b0"><div class="ttname"><a href="../../da/d94/a04940.html#adabcb9cefdd3fcab94c5471948dbe0b0">VMAP::TileAssembler::convertWorld2</a></div><div class="ttdeci">bool convertWorld2()</div><div class="ttdef"><b>Definition:</b> TileAssembler.cpp:67</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00142">ObjectGuid::GetRawValue()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00223">ByteBuffer::operator&lt;&lt;()</a>.</p>
-
-</div>
-</div>
-<a id="a94ab551ce00fd82dea1532d47ad908bc" name="a94ab551ce00fd82dea1532d47ad908bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94ab551ce00fd82dea1532d47ad908bc">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/a28356.html">ByteBuffer</a> &amp; operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/df4/a28356.html">ByteBuffer</a> &amp;&#160;</td>
-          <td class="paramname"><em>buf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/dae/a08168.html">PackedGuid</a> const &amp;&#160;</td>
-          <td class="paramname"><em>guid</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   82</span>{</div>
-<div class="line"><span class="lineno">   83</span>    buf.<a class="code hl_function" href="../../d0/df4/a28356.html#a5811e6da355e8c3d0f45997a557a666b">append</a>(guid._packedGuid);</div>
-<div class="line"><span class="lineno">   84</span>    <span class="keywordflow">return</span> buf;</div>
-<div class="line"><span class="lineno">   85</span>}</div>
-<div class="ttc" id="aa28356_html_a5811e6da355e8c3d0f45997a557a666b"><div class="ttname"><a href="../../d0/df4/a28356.html#a5811e6da355e8c3d0f45997a557a666b">ByteBuffer::append</a></div><div class="ttdeci">void append(T value)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:129</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a30aef535f2839648f0ae4648c746d3e2" name="a30aef535f2839648f0ae4648c746d3e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30aef535f2839648f0ae4648c746d3e2">&#9670;&#160;</a></span>operator&gt;&gt;() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/a28356.html">ByteBuffer</a> &amp; operator&gt;&gt; </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/df4/a28356.html">ByteBuffer</a> &amp;&#160;</td>
-          <td class="paramname"><em>buf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/dba/a08164.html">ObjectGuid</a> &amp;&#160;</td>
-          <td class="paramname"><em>guid</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   76</span>{</div>
-<div class="line"><span class="lineno">   77</span>    guid.<a class="code hl_function" href="../../d0/dba/a08164.html#adfd90f25996d5e85a14e25f1af152c94">Set</a>(buf.<a class="code hl_function" href="../../d0/df4/a28356.html#afab3484e1af821859f16b7bdacf2af9c">read</a>&lt;<a class="code hl_typedef" href="../../d1/dd3/a04427.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&gt;());</div>
-<div class="line"><span class="lineno">   78</span>    <span class="keywordflow">return</span> buf;</div>
-<div class="line"><span class="lineno">   79</span>}</div>
-<div class="ttc" id="aa08164_html_adfd90f25996d5e85a14e25f1af152c94"><div class="ttname"><a href="../../d0/dba/a08164.html#adfd90f25996d5e85a14e25f1af152c94">ObjectGuid::Set</a></div><div class="ttdeci">void Set(uint64 guid)</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:137</div></div>
-<div class="ttc" id="aa28356_html_afab3484e1af821859f16b7bdacf2af9c"><div class="ttname"><a href="../../d0/df4/a28356.html#afab3484e1af821859f16b7bdacf2af9c">ByteBuffer::read</a></div><div class="ttdeci">T read()</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:351</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00351">ByteBuffer::read()</a>, and <a class="el" href="../../#l00137">ObjectGuid::Set()</a>.</p>
-
-</div>
-</div>
-<a id="a95f3a6eef334b9fcdcaca879532c25d4" name="a95f3a6eef334b9fcdcaca879532c25d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95f3a6eef334b9fcdcaca879532c25d4">&#9670;&#160;</a></span>operator&gt;&gt;() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/a28356.html">ByteBuffer</a> &amp; operator&gt;&gt; </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/df4/a28356.html">ByteBuffer</a> &amp;&#160;</td>
-          <td class="paramname"><em>buf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d8/db5/a08160.html">PackedGuidReader</a> const &amp;&#160;</td>
-          <td class="paramname"><em>guid</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   88</span>{</div>
-<div class="line"><span class="lineno">   89</span>    buf.<a class="code hl_function" href="../../d0/df4/a28356.html#ad04535f80c6d32211f3b377ca8c32e68">readPackGUID</a>(<span class="keyword">reinterpret_cast&lt;</span><a class="code hl_typedef" href="../../d1/dd3/a04427.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&amp;<span class="keyword">&gt;</span>(guid.Guid));</div>
-<div class="line"><span class="lineno">   90</span>    <span class="keywordflow">return</span> buf;</div>
-<div class="line"><span class="lineno">   91</span>}</div>
-<div class="ttc" id="aa28356_html_ad04535f80c6d32211f3b377ca8c32e68"><div class="ttname"><a href="../../d0/df4/a28356.html#ad04535f80c6d32211f3b377ca8c32e68">ByteBuffer::readPackGUID</a></div><div class="ttdeci">void readPackGUID(uint64 &amp;guid)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:387</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00114">PackedGuidReader::Guid</a>, and <a class="el" href="../../#l00387">ByteBuffer::readPackGUID()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00067">VMAP::TileAssembler::convertWorld2()</a>.</p>
 
 </div>
 </div>
@@ -300,8 +190,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_7cceb56be83a77325820340cc4b7f0cb.html">Object</a></li><li class="navelem"><a class="el" href="../../d7/db1/a00590.html">ObjectGuid.cpp</a></li>
-    <li class="footer">Generated on Mon Sep 9 2024 20:38:25 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_f0a1abf8767dec3b65a65862f1558cd7.html">vmap4_assembler</a></li><li class="navelem"><a class="el" href="../../d7/db1/a00590.html">VMapAssembler.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 16 2024 20:40:57 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

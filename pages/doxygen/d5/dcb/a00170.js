@@ -1,4 +1,4 @@
 var a00170 =
 [
-    [ "Logger", "d8/da5/a05247.html", "d8/da5/a05247" ]
+    [ "GetStringWithDefaultValueFromFunction", "d5/dcb/a00170.html#a659c80f8f32962119a0640bbcd2009c9", null ]
 ];

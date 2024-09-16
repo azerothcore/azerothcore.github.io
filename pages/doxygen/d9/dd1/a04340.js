@@ -1,7 +1,4 @@
 var a04340 =
 [
-    [ "GameobjectModelData", "d7/d3f/a04944.html", "d7/d3f/a04944" ],
-    [ "ModelList", "d9/dd1/a04340.html#a2f908ce58f8fea2d0606bfe603d719d1", null ],
-    [ "LoadGameObjectModelList", "d9/dd1/a04340.html#a5a80774080fc05f90c7d92213fda6788", null ],
-    [ "model_list", "d9/dd1/a04340.html#aa0a0fd13eaa3eba090a3085d41303f12", null ]
+    [ "ScriptRegistry< WeatherScript >", "d9/dd1/a04340.html#aa691cee39a36861af34c3315e7aa582b", null ]
 ];

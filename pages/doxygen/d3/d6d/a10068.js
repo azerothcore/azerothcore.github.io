@@ -41,8 +41,6 @@ var a10068 =
     [ "CanUnequipItem", "d3/d6d/a10068.html#acecb85ec5c2d927f6f76d7208905e1a1", null ],
     [ "CanUseItem", "d3/d6d/a10068.html#ad24b3b4adbc9124d742174413e462c56", null ],
     [ "CheckItemInSlotAtLoadInventory", "d3/d6d/a10068.html#ad843093a7aff54c58065eb63b0b06596", null ],
-    [ "GetCustomArenaPersonalRating", "d3/d6d/a10068.html#ae0cb7117306ae9820bc6c76c1840da6e", null ],
-    [ "GetCustomGetArenaTeamId", "d3/d6d/a10068.html#a413d0728591622af91bf2d48a31fd7dc", null ],
     [ "NotAvoidSatisfy", "d3/d6d/a10068.html#a8cd18cd64c4be43d03217bf1aed85c36", null ],
     [ "NotSetArenaTeamInfoField", "d3/d6d/a10068.html#a1e800b821387195992ffe2f60c953c51", null ],
     [ "NotVisibleGloballyFor", "d3/d6d/a10068.html#a72042daaca77a6afb2298378b34a0194", null ],

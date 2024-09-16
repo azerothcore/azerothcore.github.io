@@ -1,4 +1,5 @@
 var a01640 =
 [
-    [ "AddSC_LFGScripts", "de/d14/a01640.html#a9624b9328e26a9f420a4a3f07e253763", null ]
+    [ "account_commandscript", "d1/d9f/a11248.html", "d1/d9f/a11248" ],
+    [ "AddSC_account_commandscript", "de/d14/a01640.html#a8c18eb17be05fd3da5e9cfa3480c52c4", null ]
 ];

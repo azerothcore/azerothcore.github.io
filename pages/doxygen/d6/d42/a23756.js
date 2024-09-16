@@ -7,7 +7,6 @@ var a23756 =
     [ "ExecuteMiddleEvent", "d6/d42/a23756.html#a42b6d919db655b50c2bd0214b9663fc9", null ],
     [ "IntroduceNewAdvisor", "d6/d42/a23756.html#a20b4a5967fdb39ee634dc3cf468dc657", null ],
     [ "JustDied", "d6/d42/a23756.html#af749ddef90aa3175879ed586d5defa01", null ],
-    [ "JustReachedHome", "d6/d42/a23756.html#a658fe0f3885f55cee4a973cebfaec4ae", null ],
     [ "JustSummoned", "d6/d42/a23756.html#a5e5f8d605a87019c9d9e4d613464de81", null ],
     [ "KilledUnit", "d6/d42/a23756.html#a3d489512c3a5abc69a6359e174863893", null ],
     [ "MoveInLineOfSight", "d6/d42/a23756.html#a52ab6dafc6c62de034131a7d62a09354", null ],

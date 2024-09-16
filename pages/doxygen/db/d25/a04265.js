@@ -1,6 +1,8 @@
 var a04265 =
 [
-    [ "GetDefaultNetmaskV4", "db/d25/a04265.html#af75b2c10ca445dc89c53b7ed8d17eae0", null ],
-    [ "IsInNetwork", "db/d25/a04265.html#af108d05a57113d16ab9c8f3b26870be2", null ],
-    [ "IsInNetwork", "db/d25/a04265.html#a2617cb1c747a45e5af4e2c32cc29d5de", null ]
+    [ "MailScript", "dd/db5/a10044.html", "dd/db5/a10044" ],
+    [ "MailHook", "db/d25/a04265.html#a7a2fb0cc0937712e8aff65574e1068d6", [
+      [ "MAILHOOK_ON_BEFORE_MAIL_DRAFT_SEND_MAIL_TO", "db/d25/a04265.html#a7a2fb0cc0937712e8aff65574e1068d6a8f3555a10968fd2749e256067782760f", null ],
+      [ "MAILHOOK_END", "db/d25/a04265.html#a7a2fb0cc0937712e8aff65574e1068d6a97af521f76b0d427812db0ac3303f285", null ]
+    ] ]
 ];

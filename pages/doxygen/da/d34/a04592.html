@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/tools/vmap4_extractor/wmo.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Chat/ChatCommands/ChatCommand.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,121 +107,73 @@ $(document).ready(function(){initNavTree('da/d34/a04592.html','../../'); initRes
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">wmo.h File Reference</div></div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">ChatCommand.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;memory&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &lt;unordered_set&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../">vec3d.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">loadlib/loadlib.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ChatCommand.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">AccountMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DBCStores.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">StringFormat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Tokenize.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d39/a28636.html">WMO::MODS</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d06/a28640.html">WMO::MODD</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dec/a28644.html">WMODoodadData</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da2/a28648.html">WMORoot</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df7/a28652.html">WMOLiquidHeader</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dad/a28656.html">WMOLiquidVert</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df5/a28660.html">WMOGroup</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df3/a07272.html">Acore::Impl::ChatCommands::FilteredCommandListIterator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d7/d1c/a04747"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1c/a04747.html">ADT</a></td></tr>
+<tr class="memitem:d5/d43/a04668"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html">Acore</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9/d71/a04749"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d71/a04749.html">WMO</a></td></tr>
+<tr class="memitem:de/d69/a04679"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d69/a04679.html">Acore::Impl</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dc/d64/a04750"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d64/a04750.html">MapObject</a></td></tr>
+<tr class="memitem:d6/d7d/a04707"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d7d/a04707.html">Acore::Impl::ChatCommands</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a0673ad4a8399eb24693f8694a261e3da"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3da">MopyFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daa4887238124bff7f472762f37b14f084b">WHO_MATERIAL_UNK01</a> = 0x01
-, <br />
-&#160;&#160;<a class="el" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daae8fbdf74c986d20ec35a1bc8540ab5f6">WMO_MATERIAL_NOCAMCOLLIDE</a> = 0x02
-, <br />
-&#160;&#160;<a class="el" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daa02dedf8ad6e2e81ec7ce4f51c2003d20">WMO_MATERIAL_DETAIL</a> = 0x04
-, <br />
-&#160;&#160;<a class="el" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daa26cd74a7fba8ff77edd7fcad4b174192">WMO_MATERIAL_COLLISION</a> = 0x08
-, <br />
-&#160;&#160;<a class="el" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daaeda4c860284ded0a951980ea981503f2">WMO_MATERIAL_HINT</a> = 0x10
-, <br />
-&#160;&#160;<a class="el" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daa79016e869a8c491c5e7c762416645edc">WMO_MATERIAL_RENDER</a> = 0x20
-, <br />
-&#160;&#160;<a class="el" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daaa806842158937b60f3b6af093b50497a">WMO_MATERIAL_WALL_SURFACE</a> = 0x40
-, <br />
-&#160;&#160;<a class="el" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daad1b64a17d5df9a320ad54ab47e9c0885">WMO_MATERIAL_COLLIDE_HIT</a> = 0x80
-<br />
- }</td></tr>
-<tr class="separator:a0673ad4a8399eb24693f8694a261e3da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a306b7e46fd4791f088a8919720238f3d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d34/a04592.html#a306b7e46fd4791f088a8919720238f3d">ChatSubCommandMap</a> = std::map&lt; std::string_view, <a class="el" href="../../d5/d9b/a07300.html">Acore::Impl::ChatCommands::ChatCommandNode</a>, <a class="el" href="../../d7/d56/a05508.html">StringCompareLessI_T</a> &gt;</td></tr>
+<tr class="separator:a306b7e46fd4791f088a8919720238f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab265837fe64577975f97318431c69e9c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../da/d19/a28616.html">Vec3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d34/a04592.html#ab265837fe64577975f97318431c69e9c">fixCoords</a> (const <a class="el" href="../../da/d19/a28616.html">Vec3D</a> &amp;v)</td></tr>
-<tr class="separator:ab265837fe64577975f97318431c69e9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9148b3ef5b412564a285737b0bd104dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d64/a04750.html#a9148b3ef5b412564a285737b0bd104dd">MapObject::Extract</a> (<a class="el" href="../../dc/d97/a28596.html">ADT::MODF</a> const &amp;mapObjDef, char const *WmoInstName, <a class="el" href="../../d1/dd3/a04427.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapID, <a class="el" href="../../d1/dd3/a04427.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> tileX, <a class="el" href="../../d1/dd3/a04427.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> tileY, FILE *pDirfile)</td></tr>
-<tr class="separator:a9148b3ef5b412564a285737b0bd104dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dc2bbcf5b90559262a46829632f332e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d34/a04592.html#a8dc2bbcf5b90559262a46829632f332e">LogCommandUsage</a> (<a class="el" href="../../da/d91/a10712.html">WorldSession</a> const &amp;session, std::string_view cmdStr)</td></tr>
+<tr class="separator:a8dc2bbcf5b90559262a46829632f332e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a569e79432c3876f4ac0b961e8a783003"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../da/d34/a04592.html#a306b7e46fd4791f088a8919720238f3d">ChatSubCommandMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d34/a04592.html#a569e79432c3876f4ac0b961e8a783003">COMMAND_MAP</a></td></tr>
+<tr class="separator:a569e79432c3876f4ac0b961e8a783003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a0673ad4a8399eb24693f8694a261e3da" name="a0673ad4a8399eb24693f8694a261e3da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0673ad4a8399eb24693f8694a261e3da">&#9670;&#160;</a></span>MopyFlags</h2>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a306b7e46fd4791f088a8919720238f3d" name="a306b7e46fd4791f088a8919720238f3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a306b7e46fd4791f088a8919720238f3d">&#9670;&#160;</a></span>ChatSubCommandMap</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3da">MopyFlags</a></td>
+          <td class="memname">using <a class="el" href="../../da/d34/a04592.html#a306b7e46fd4791f088a8919720238f3d">ChatSubCommandMap</a> =  std::map&lt;std::string_view, <a class="el" href="../../d5/d9b/a07300.html">Acore::Impl::ChatCommands::ChatCommandNode</a>, <a class="el" href="../../d7/d56/a05508.html">StringCompareLessI_T</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0673ad4a8399eb24693f8694a261e3daa4887238124bff7f472762f37b14f084b" name="a0673ad4a8399eb24693f8694a261e3daa4887238124bff7f472762f37b14f084b"></a>WHO_MATERIAL_UNK01&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0673ad4a8399eb24693f8694a261e3daae8fbdf74c986d20ec35a1bc8540ab5f6" name="a0673ad4a8399eb24693f8694a261e3daae8fbdf74c986d20ec35a1bc8540ab5f6"></a>WMO_MATERIAL_NOCAMCOLLIDE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0673ad4a8399eb24693f8694a261e3daa02dedf8ad6e2e81ec7ce4f51c2003d20" name="a0673ad4a8399eb24693f8694a261e3daa02dedf8ad6e2e81ec7ce4f51c2003d20"></a>WMO_MATERIAL_DETAIL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0673ad4a8399eb24693f8694a261e3daa26cd74a7fba8ff77edd7fcad4b174192" name="a0673ad4a8399eb24693f8694a261e3daa26cd74a7fba8ff77edd7fcad4b174192"></a>WMO_MATERIAL_COLLISION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0673ad4a8399eb24693f8694a261e3daaeda4c860284ded0a951980ea981503f2" name="a0673ad4a8399eb24693f8694a261e3daaeda4c860284ded0a951980ea981503f2"></a>WMO_MATERIAL_HINT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0673ad4a8399eb24693f8694a261e3daa79016e869a8c491c5e7c762416645edc" name="a0673ad4a8399eb24693f8694a261e3daa79016e869a8c491c5e7c762416645edc"></a>WMO_MATERIAL_RENDER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0673ad4a8399eb24693f8694a261e3daaa806842158937b60f3b6af093b50497a" name="a0673ad4a8399eb24693f8694a261e3daaa806842158937b60f3b6af093b50497a"></a>WMO_MATERIAL_WALL_SURFACE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0673ad4a8399eb24693f8694a261e3daad1b64a17d5df9a320ad54ab47e9c0885" name="a0673ad4a8399eb24693f8694a261e3daad1b64a17d5df9a320ad54ab47e9c0885"></a>WMO_MATERIAL_COLLIDE_HIT&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daa4887238124bff7f472762f37b14f084b">WHO_MATERIAL_UNK01</a>            = 0x01,</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daae8fbdf74c986d20ec35a1bc8540ab5f6">WMO_MATERIAL_NOCAMCOLLIDE</a>     = 0x02,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daa02dedf8ad6e2e81ec7ce4f51c2003d20">WMO_MATERIAL_DETAIL</a>           = 0x04,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daa26cd74a7fba8ff77edd7fcad4b174192">WMO_MATERIAL_COLLISION</a>        = 0x08,</div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daaeda4c860284ded0a951980ea981503f2">WMO_MATERIAL_HINT</a>             = 0x10,</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daa79016e869a8c491c5e7c762416645edc">WMO_MATERIAL_RENDER</a>           = 0x20,</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daaa806842158937b60f3b6af093b50497a">WMO_MATERIAL_WALL_SURFACE</a>     = 0x40, <span class="comment">// Guessed</span></div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daad1b64a17d5df9a320ad54ab47e9c0885">WMO_MATERIAL_COLLIDE_HIT</a>      = 0x80,</div>
-<div class="line"><span class="lineno">   40</span>};</div>
-<div class="ttc" id="aa04592_html_a0673ad4a8399eb24693f8694a261e3daa02dedf8ad6e2e81ec7ce4f51c2003d20"><div class="ttname"><a href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daa02dedf8ad6e2e81ec7ce4f51c2003d20">WMO_MATERIAL_DETAIL</a></div><div class="ttdeci">@ WMO_MATERIAL_DETAIL</div><div class="ttdef"><b>Definition:</b> wmo.h:34</div></div>
-<div class="ttc" id="aa04592_html_a0673ad4a8399eb24693f8694a261e3daa26cd74a7fba8ff77edd7fcad4b174192"><div class="ttname"><a href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daa26cd74a7fba8ff77edd7fcad4b174192">WMO_MATERIAL_COLLISION</a></div><div class="ttdeci">@ WMO_MATERIAL_COLLISION</div><div class="ttdef"><b>Definition:</b> wmo.h:35</div></div>
-<div class="ttc" id="aa04592_html_a0673ad4a8399eb24693f8694a261e3daa4887238124bff7f472762f37b14f084b"><div class="ttname"><a href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daa4887238124bff7f472762f37b14f084b">WHO_MATERIAL_UNK01</a></div><div class="ttdeci">@ WHO_MATERIAL_UNK01</div><div class="ttdef"><b>Definition:</b> wmo.h:32</div></div>
-<div class="ttc" id="aa04592_html_a0673ad4a8399eb24693f8694a261e3daa79016e869a8c491c5e7c762416645edc"><div class="ttname"><a href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daa79016e869a8c491c5e7c762416645edc">WMO_MATERIAL_RENDER</a></div><div class="ttdeci">@ WMO_MATERIAL_RENDER</div><div class="ttdef"><b>Definition:</b> wmo.h:37</div></div>
-<div class="ttc" id="aa04592_html_a0673ad4a8399eb24693f8694a261e3daaa806842158937b60f3b6af093b50497a"><div class="ttname"><a href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daaa806842158937b60f3b6af093b50497a">WMO_MATERIAL_WALL_SURFACE</a></div><div class="ttdeci">@ WMO_MATERIAL_WALL_SURFACE</div><div class="ttdef"><b>Definition:</b> wmo.h:38</div></div>
-<div class="ttc" id="aa04592_html_a0673ad4a8399eb24693f8694a261e3daad1b64a17d5df9a320ad54ab47e9c0885"><div class="ttname"><a href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daad1b64a17d5df9a320ad54ab47e9c0885">WMO_MATERIAL_COLLIDE_HIT</a></div><div class="ttdeci">@ WMO_MATERIAL_COLLIDE_HIT</div><div class="ttdef"><b>Definition:</b> wmo.h:39</div></div>
-<div class="ttc" id="aa04592_html_a0673ad4a8399eb24693f8694a261e3daae8fbdf74c986d20ec35a1bc8540ab5f6"><div class="ttname"><a href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daae8fbdf74c986d20ec35a1bc8540ab5f6">WMO_MATERIAL_NOCAMCOLLIDE</a></div><div class="ttdeci">@ WMO_MATERIAL_NOCAMCOLLIDE</div><div class="ttdef"><b>Definition:</b> wmo.h:33</div></div>
-<div class="ttc" id="aa04592_html_a0673ad4a8399eb24693f8694a261e3daaeda4c860284ded0a951980ea981503f2"><div class="ttname"><a href="../../da/d34/a04592.html#a0673ad4a8399eb24693f8694a261e3daaeda4c860284ded0a951980ea981503f2">WMO_MATERIAL_HINT</a></div><div class="ttdeci">@ WMO_MATERIAL_HINT</div><div class="ttdef"><b>Definition:</b> wmo.h:36</div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ab265837fe64577975f97318431c69e9c" name="ab265837fe64577975f97318431c69e9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab265837fe64577975f97318431c69e9c">&#9670;&#160;</a></span>fixCoords()</h2>
+<a id="a8dc2bbcf5b90559262a46829632f332e" name="a8dc2bbcf5b90559262a46829632f332e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dc2bbcf5b90559262a46829632f332e">&#9670;&#160;</a></span>LogCommandUsage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230,28 +182,114 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../da/d19/a28616.html">Vec3D</a> fixCoords </td>
+          <td class="memname">static void LogCommandUsage </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../da/d19/a28616.html">Vec3D</a> &amp;&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../da/d91/a10712.html">WorldSession</a> const &amp;&#160;</td>
+          <td class="paramname"><em>session</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>cmdStr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   68</span>{ <span class="keywordflow">return</span> <a class="code hl_class" href="../../da/d19/a28616.html">Vec3D</a>(v.<a class="code hl_variable" href="../../da/d19/a28616.html#a5a619f14529e714231bff4cc6fd36614">z</a>, v.<a class="code hl_variable" href="../../da/d19/a28616.html#a0f061b9d5ea2a680f64bed8b5be9116d">x</a>, v.<a class="code hl_variable" href="../../da/d19/a28616.html#a3441f0095b7f2b5dc424f7b045f92f2c">y</a>); }</div>
-<div class="ttc" id="aa28616_html"><div class="ttname"><a href="../../da/d19/a28616.html">Vec3D</a></div><div class="ttdef"><b>Definition:</b> vec3d.h:25</div></div>
-<div class="ttc" id="aa28616_html_a0f061b9d5ea2a680f64bed8b5be9116d"><div class="ttname"><a href="../../da/d19/a28616.html#a0f061b9d5ea2a680f64bed8b5be9116d">Vec3D::x</a></div><div class="ttdeci">float x</div><div class="ttdef"><b>Definition:</b> vec3d.h:27</div></div>
-<div class="ttc" id="aa28616_html_a3441f0095b7f2b5dc424f7b045f92f2c"><div class="ttname"><a href="../../da/d19/a28616.html#a3441f0095b7f2b5dc424f7b045f92f2c">Vec3D::y</a></div><div class="ttdeci">float y</div><div class="ttdef"><b>Definition:</b> vec3d.h:27</div></div>
-<div class="ttc" id="aa28616_html_a5a619f14529e714231bff4cc6fd36614"><div class="ttname"><a href="../../da/d19/a28616.html#a5a619f14529e714231bff4cc6fd36614">Vec3D::z</a></div><div class="ttdeci">float z</div><div class="ttdef"><b>Definition:</b> vec3d.h:27</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  156</span>{</div>
+<div class="line"><span class="lineno">  157</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../df/d5e/a04699.html#a63751f144cb7acb57fc20f0caf5e7043">AccountMgr::IsPlayerAccount</a>(session.GetSecurity()))</div>
+<div class="line"><span class="lineno">  158</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>    <a class="code hl_class" href="../../d1/d53/a08360.html">Player</a>* player = session.GetPlayer();</div>
+<div class="line"><span class="lineno">  161</span>    <a class="code hl_class" href="../../d0/dba/a08164.html">ObjectGuid</a> targetGuid = player-&gt;<a class="code hl_function" href="../../d8/dc4/a08492.html#af387d5e18806e37f65ebc3408c0b8712">GetTarget</a>();</div>
+<div class="line"><span class="lineno">  162</span>    <a class="code hl_typedef" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> areaId = player-&gt;<a class="code hl_function" href="../../d0/db0/a08148.html#acdd585ef58eb876c506389ff96a4fbd9">GetAreaId</a>();</div>
+<div class="line"><span class="lineno">  163</span>    <a class="code hl_typedef" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zoneId = player-&gt;<a class="code hl_function" href="../../d0/db0/a08148.html#ad498d690fbe69bb99a8a2ffdcb2f5169">GetZoneId</a>();</div>
+<div class="line"><span class="lineno">  164</span>    std::string areaName = <span class="stringliteral">&quot;Unknown&quot;</span>;</div>
+<div class="line"><span class="lineno">  165</span>    std::string zoneName = <span class="stringliteral">&quot;Unknown&quot;</span>;</div>
+<div class="line"><span class="lineno">  166</span>    <a class="code hl_enumeration" href="../../d8/d21/a00368.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a> locale = <a class="code hl_define" href="../../db/da5/a04663.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;GetDefaultDbcLocale();</div>
+<div class="line"><span class="lineno">  167</span> </div>
+<div class="line"><span class="lineno">  168</span>    <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d0/d4b/a27888.html">AreaTableEntry</a> <span class="keyword">const</span>* area = <a class="code hl_variable" href="../../d4/de8/a04646.html#aedcdbef7c215330459e17b2f224ff0e3">sAreaTableStore</a>.LookupEntry(areaId))</div>
+<div class="line"><span class="lineno">  169</span>    {</div>
+<div class="line"><span class="lineno">  170</span>        areaName = area-&gt;area_name[locale];</div>
+<div class="line"><span class="lineno">  171</span>    }</div>
+<div class="line"><span class="lineno">  172</span> </div>
+<div class="line"><span class="lineno">  173</span>    <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d0/d4b/a27888.html">AreaTableEntry</a> <span class="keyword">const</span>* zone = <a class="code hl_variable" href="../../d4/de8/a04646.html#aedcdbef7c215330459e17b2f224ff0e3">sAreaTableStore</a>.LookupEntry(zoneId))</div>
+<div class="line"><span class="lineno">  174</span>    {</div>
+<div class="line"><span class="lineno">  175</span>        zoneName = zone-&gt;area_name[locale];</div>
+<div class="line"><span class="lineno">  176</span>    }</div>
+<div class="line"><span class="lineno">  177</span> </div>
+<div class="line"><span class="lineno">  178</span>    std::string logMessage = <a class="code hl_function" href="../../d5/d43/a04668.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a>(<span class="stringliteral">&quot;Command: {} [Player: {} ({}) (Account: {}) X: {} Y: {} Z: {} Map: {} ({}) Area: {} ({}) Zone: {} ({}) Selected: {} ({})]&quot;</span>,</div>
+<div class="line"><span class="lineno">  179</span>        cmdStr, player-&gt;<a class="code hl_function" href="../../d0/db0/a08148.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), player-&gt;<a class="code hl_function" href="../../d1/d36/a08116.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>().<a class="code hl_function" href="../../d0/dba/a08164.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>(),</div>
+<div class="line"><span class="lineno">  180</span>        session.GetAccountId(),</div>
+<div class="line"><span class="lineno">  181</span>        player-&gt;<a class="code hl_function" href="../../dc/d3b/a08192.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), player-&gt;<a class="code hl_function" href="../../dc/d3b/a08192.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), player-&gt;<a class="code hl_function" href="../../dc/d3b/a08192.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>(), player-&gt;<a class="code hl_function" href="../../d8/d8a/a08208.html#a2682e56ae4f0ce4b517a8ba3cd2798b1">GetMapId</a>(),</div>
+<div class="line"><span class="lineno">  182</span>        player-&gt;<a class="code hl_function" href="../../d0/db0/a08148.html#a1e43fee59e696ae47ed06191ae3b1b82">FindMap</a>() ? player-&gt;<a class="code hl_function" href="../../d0/db0/a08148.html#a1e43fee59e696ae47ed06191ae3b1b82">FindMap</a>()-&gt;<a class="code hl_function" href="../../d4/d0b/a09508.html#ac6e125affc167d59afd4af38f4791b01">GetMapName</a>() : <span class="stringliteral">&quot;Unknown&quot;</span>,</div>
+<div class="line"><span class="lineno">  183</span>        areaId, areaName, zoneId, zoneName,</div>
+<div class="line"><span class="lineno">  184</span>        (player-&gt;<a class="code hl_function" href="../../d1/d53/a08360.html#ac7d583e914a735322c3d47a57a0c1645">GetSelectedUnit</a>()) ? player-&gt;<a class="code hl_function" href="../../d1/d53/a08360.html#ac7d583e914a735322c3d47a57a0c1645">GetSelectedUnit</a>()-&gt;<a class="code hl_function" href="../../d0/db0/a08148.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>() : <span class="stringliteral">&quot;&quot;</span>,</div>
+<div class="line"><span class="lineno">  185</span>        targetGuid.<a class="code hl_function" href="../../d0/dba/a08164.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>());</div>
+<div class="line"><span class="lineno">  186</span> </div>
+<div class="line"><span class="lineno">  187</span>    <a class="code hl_define" href="../../d5/d35/a00266.html#aeeb132f13796dfa459eb05386acff8fe">LOG_GM</a>(session.GetAccountId(), logMessage);</div>
+<div class="line"><span class="lineno">  188</span>}</div>
+<div class="ttc" id="aa00266_html_aeeb132f13796dfa459eb05386acff8fe"><div class="ttname"><a href="../../d5/d35/a00266.html#aeeb132f13796dfa459eb05386acff8fe">LOG_GM</a></div><div class="ttdeci">#define LOG_GM(accountId__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:175</div></div>
+<div class="ttc" id="aa00368_html_a54c9b637be7283ba1a04fb5215594332"><div class="ttname"><a href="../../d8/d21/a00368.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a></div><div class="ttdeci">LocaleConstant</div><div class="ttdef"><b>Definition:</b> Common.h:65</div></div>
+<div class="ttc" id="aa00500_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa04646_html_aedcdbef7c215330459e17b2f224ff0e3"><div class="ttname"><a href="../../d4/de8/a04646.html#aedcdbef7c215330459e17b2f224ff0e3">sAreaTableStore</a></div><div class="ttdeci">DBCStorage&lt; AreaTableEntry &gt; sAreaTableStore(AreaTableEntryfmt)</div></div>
+<div class="ttc" id="aa04663_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../db/da5/a04663.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:444</div></div>
+<div class="ttc" id="aa04668_html_a868406b9609960d4ae0189588c8cbbf4"><div class="ttname"><a href="../../d5/d43/a04668.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a></div><div class="ttdeci">std::string StringFormat(FormatString&lt; Args... &gt; fmt, Args &amp;&amp;... args)</div><div class="ttdoc">Default AC string format function.</div><div class="ttdef"><b>Definition:</b> StringFormat.h:34</div></div>
+<div class="ttc" id="aa04699_html_a63751f144cb7acb57fc20f0caf5e7043"><div class="ttname"><a href="../../df/d5e/a04699.html#a63751f144cb7acb57fc20f0caf5e7043">AccountMgr::IsPlayerAccount</a></div><div class="ttdeci">bool IsPlayerAccount(uint32 gmlevel)</div><div class="ttdef"><b>Definition:</b> AccountMgr.cpp:305</div></div>
+<div class="ttc" id="aa08116_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d1/d36/a08116.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aa08148_html_a1e43fee59e696ae47ed06191ae3b1b82"><div class="ttname"><a href="../../d0/db0/a08148.html#a1e43fee59e696ae47ed06191ae3b1b82">WorldObject::FindMap</a></div><div class="ttdeci">Map * FindMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:532</div></div>
+<div class="ttc" id="aa08148_html_a7e67658eb5aa058bc7f46bf6b11a797c"><div class="ttname"><a href="../../d0/db0/a08148.html#a7e67658eb5aa058bc7f46bf6b11a797c">WorldObject::GetName</a></div><div class="ttdeci">std::string const &amp; GetName() const</div><div class="ttdef"><b>Definition:</b> Object.h:458</div></div>
+<div class="ttc" id="aa08148_html_acdd585ef58eb876c506389ff96a4fbd9"><div class="ttname"><a href="../../d0/db0/a08148.html#acdd585ef58eb876c506389ff96a4fbd9">WorldObject::GetAreaId</a></div><div class="ttdeci">uint32 GetAreaId() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:3149</div></div>
+<div class="ttc" id="aa08148_html_ad498d690fbe69bb99a8a2ffdcb2f5169"><div class="ttname"><a href="../../d0/db0/a08148.html#ad498d690fbe69bb99a8a2ffdcb2f5169">WorldObject::GetZoneId</a></div><div class="ttdeci">uint32 GetZoneId() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:3141</div></div>
+<div class="ttc" id="aa08164_html"><div class="ttname"><a href="../../d0/dba/a08164.html">ObjectGuid</a></div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:118</div></div>
+<div class="ttc" id="aa08164_html_a78f5fb47e3b35addf8984000c175125b"><div class="ttname"><a href="../../d0/dba/a08164.html#a78f5fb47e3b35addf8984000c175125b">ObjectGuid::ToString</a></div><div class="ttdeci">std::string ToString() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.cpp:47</div></div>
+<div class="ttc" id="aa08192_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../dc/d3b/a08192.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="aa08192_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../dc/d3b/a08192.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="aa08192_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../dc/d3b/a08192.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="aa08208_html_a2682e56ae4f0ce4b517a8ba3cd2798b1"><div class="ttname"><a href="../../d8/d8a/a08208.html#a2682e56ae4f0ce4b517a8ba3cd2798b1">WorldLocation::GetMapId</a></div><div class="ttdeci">uint32 GetMapId() const</div><div class="ttdef"><b>Definition:</b> Position.h:276</div></div>
+<div class="ttc" id="aa08360_html"><div class="ttname"><a href="../../d1/d53/a08360.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1064</div></div>
+<div class="ttc" id="aa08360_html_ac7d583e914a735322c3d47a57a0c1645"><div class="ttname"><a href="../../d1/d53/a08360.html#ac7d583e914a735322c3d47a57a0c1645">Player::GetSelectedUnit</a></div><div class="ttdeci">Unit * GetSelectedUnit() const</div><div class="ttdef"><b>Definition:</b> Player.cpp:11492</div></div>
+<div class="ttc" id="aa08492_html_af387d5e18806e37f65ebc3408c0b8712"><div class="ttname"><a href="../../d8/dc4/a08492.html#af387d5e18806e37f65ebc3408c0b8712">Unit::GetTarget</a></div><div class="ttdeci">ObjectGuid GetTarget() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1742</div></div>
+<div class="ttc" id="aa09508_html_ac6e125affc167d59afd4af38f4791b01"><div class="ttname"><a href="../../d4/d0b/a09508.html#ac6e125affc167d59afd4af38f4791b01">Map::GetMapName</a></div><div class="ttdeci">const char * GetMapName() const</div><div class="ttdef"><b>Definition:</b> Map.cpp:2524</div></div>
+<div class="ttc" id="aa27888_html"><div class="ttname"><a href="../../d0/d4b/a27888.html">AreaTableEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:519</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00027">Vec3D::x</a>, <a class="el" href="../../#l00027">Vec3D::y</a>, and <a class="el" href="../../#l00027">Vec3D::z</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00532">WorldObject::FindMap()</a>, <a class="el" href="../../#l00361">WorldSession::GetAccountId()</a>, <a class="el" href="../../#l03149">WorldObject::GetAreaId()</a>, <a class="el" href="../../#l00109">Object::GetGUID()</a>, <a class="el" href="../../#l00276">WorldLocation::GetMapId()</a>, <a class="el" href="../../#l02524">Map::GetMapName()</a>, <a class="el" href="../../#l00458">WorldObject::GetName()</a>, <a class="el" href="../../#l00362">WorldSession::GetPlayer()</a>, <a class="el" href="../../#l00117">Position::GetPositionX()</a>, <a class="el" href="../../#l00118">Position::GetPositionY()</a>, <a class="el" href="../../#l00119">Position::GetPositionZ()</a>, <a class="el" href="../../#l00359">WorldSession::GetSecurity()</a>, <a class="el" href="../../#l11492">Player::GetSelectedUnit()</a>, <a class="el" href="../../#l01742">Unit::GetTarget()</a>, <a class="el" href="../../#l03141">WorldObject::GetZoneId()</a>, <a class="el" href="../../#l00305">AccountMgr::IsPlayerAccount()</a>, <a class="el" href="../../#l00175">LOG_GM</a>, <a class="el" href="../../d4/de8/a04646.html#aedcdbef7c215330459e17b2f224ff0e3">sAreaTableStore</a>, <a class="el" href="../../#l00034">Acore::StringFormat()</a>, <a class="el" href="../../#l00444">sWorld</a>, and <a class="el" href="../../#l00047">ObjectGuid::ToString()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00138">Doodad::Extract()</a>, and <a class="el" href="../../#l00510">MapObject::Extract()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00274">Acore::Impl::ChatCommands::ChatCommandNode::TryExecuteCommand()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a569e79432c3876f4ac0b961e8a783003" name="a569e79432c3876f4ac0b961e8a783003"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a569e79432c3876f4ac0b961e8a783003">&#9670;&#160;</a></span>COMMAND_MAP</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d34/a04592.html#a306b7e46fd4791f088a8919720238f3d">ChatSubCommandMap</a> COMMAND_MAP</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00069">Acore::Impl::ChatCommands::ChatCommandNode::GetTopLevelMap()</a>, <a class="el" href="../../#l00076">Acore::Impl::ChatCommands::ChatCommandNode::InvalidateCommandMap()</a>, and <a class="el" href="../../#l00081">Acore::Impl::ChatCommands::ChatCommandNode::LoadCommandMap()</a>.</p>
 
 </div>
 </div>
@@ -260,8 +298,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_b604cd515113e1b9d14f26b265d784ac.html">vmap4_extractor</a></li><li class="navelem"><a class="el" href="../../da/d34/a04592.html">wmo.h</a></li>
-    <li class="footer">Generated on Mon Sep 9 2024 20:39:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_696eb3df8c264f77a3b72ba3d62ed649.html">Chat</a></li><li class="navelem"><a class="el" href="../../dir_c82f813a65ca3ac2a4f36b7f63ade20a.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../da/d34/a04592.html">ChatCommand.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 16 2024 20:40:01 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

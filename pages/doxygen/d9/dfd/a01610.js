@@ -1,11 +1,5 @@
 var a01610 =
 [
-    [ "BaseGain", "d9/dfd/a01610.html#ada8e56c81ab672d85f2ff274d109e477", null ],
-    [ "Gain", "d9/dfd/a01610.html#ab923dd9a0df7d75127965b40539d4a10", null ],
-    [ "GetColorCode", "d9/dfd/a01610.html#a812c722ab7eb34807d8cad9659d34245", null ],
-    [ "GetGrayLevel", "d9/dfd/a01610.html#a9c310a4423fd5ada14fac549e4b1a6fd", null ],
-    [ "GetZeroDifference", "d9/dfd/a01610.html#a4152e9ef9972f6a20cbc990dce953c36", null ],
-    [ "hk_honor_at_level", "d9/dfd/a01610.html#ad25519337dcc6370a39a072c53386f55", null ],
-    [ "hk_honor_at_level_f", "d9/dfd/a01610.html#a218866625f1b3b8224fb44f5a0c8b416", null ],
-    [ "xp_in_group_rate", "d9/dfd/a01610.html#a304088bebc0743c764589112d2ba3b7f", null ]
+    [ "bf_commandscript", "d5/d14/a11268.html", "d5/d14/a11268" ],
+    [ "AddSC_bf_commandscript", "d9/dfd/a01610.html#a55cfeb06fb5af5d31e3c2627d0db8da8", null ]
 ];

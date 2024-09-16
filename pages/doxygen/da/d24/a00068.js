@@ -1,4 +1,4 @@
 var a00068 =
 [
-    [ "MapRefMgr", "dd/db9/a09532.html", "dd/db9/a09532" ]
+    [ "Acore::SignalHandler", "da/de3/a05388.html", "da/de3/a05388" ]
 ];

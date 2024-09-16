@@ -1,5 +1,9 @@
 var a03038 =
 [
-    [ "spell_q12779_an_end_to_all_things", "dc/d5d/a12664.html", "dc/d5d/a12664" ],
-    [ "AddSC_the_scarlet_enclave_c3", "d8/d23/a03038.html#add963c2bc2b515348b9b7c636d176927", null ]
+    [ "PacketLog", "d4/d3b/a10660.html", "d4/d3b/a10660" ],
+    [ "sPacketLog", "d8/d23/a03038.html#a14b702138c7f0a62a900dfc8eecc1f6f", null ],
+    [ "Direction", "d8/d23/a03038.html#a224b9163917ac32fc95a60d8c1eec3aa", [
+      [ "CLIENT_TO_SERVER", "d8/d23/a03038.html#a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476", null ],
+      [ "SERVER_TO_CLIENT", "d8/d23/a03038.html#a224b9163917ac32fc95a60d8c1eec3aaa0df224cab9714b02d0718697fbce48a3", null ]
+    ] ]
 ];

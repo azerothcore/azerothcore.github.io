@@ -1,10 +1,15 @@
 var a01529 =
 [
-    [ "AddGossipItemFor", "db/dce/a01529.html#a21e32e886a589c9093660b3c4c58f72c", null ],
-    [ "AddGossipItemFor", "db/dce/a01529.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5", null ],
-    [ "AddGossipItemFor", "db/dce/a01529.html#acd7e8e52a911742a99728cf9408e23b8", null ],
-    [ "ClearGossipMenuFor", "db/dce/a01529.html#af077a82741577a63a075c7d40b3b3dc5", null ],
-    [ "CloseGossipMenuFor", "db/dce/a01529.html#af8f7e54dac5ecc86e92d780c3918cb09", null ],
-    [ "SendGossipMenuFor", "db/dce/a01529.html#ad893abf2b09592b57715ef4a3222a2b3", null ],
-    [ "SendGossipMenuFor", "db/dce/a01529.html#a18599cfc6649557de0d505ed4d4a0210", null ]
+    [ "instance_naxxramas", "d6/d98/a19052.html", "d6/d98/a19052" ],
+    [ "instance_naxxramas::instance_naxxramas_InstanceMapScript", "dd/d42/a19056.html", "dd/d42/a19056" ],
+    [ "boss_naxxramas_misc", "df/d4b/a19060.html", "df/d4b/a19060" ],
+    [ "boss_naxxramas_misc::boss_naxxramas_miscAI", "d1/dab/a19064.html", "d1/dab/a19064" ],
+    [ "at_naxxramas_hub_portal", "d5/dad/a19068.html", "d5/dad/a19068" ],
+    [ "AddSC_instance_naxxramas", "db/dce/a01529.html#aba1e1afda4423e51a1849a33da49a334", null ],
+    [ "GetEruptionSection", "db/dce/a01529.html#a901343efd9af23ac79087eef84926a75", null ],
+    [ "creatureData", "db/dce/a01529.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "gameObjectData", "db/dce/a01529.html#a1461582839e3b7fdbb7397e5d2086e31", null ],
+    [ "HeiganEruptionSlope", "db/dce/a01529.html#afc813e25da4423b11b3f71a4c3434b43", null ],
+    [ "HeiganPos", "db/dce/a01529.html#a329c88a19bf7f6ee06251fb30b96aa80", null ],
+    [ "sapphironEntryTP", "db/dce/a01529.html#a11d995fa7a0e4c0af781d298ab2ce3a7", null ]
 ];

@@ -1,6 +1,5 @@
 var a01622 =
 [
-    [ "lfg::LFGPlayerScript", "dd/dfe/a07732.html", "dd/dfe/a07732" ],
-    [ "lfg::LFGGroupScript", "d8/d58/a07736.html", "d8/d58/a07736" ],
-    [ "AddSC_LFGScripts", "d1/d3a/a01622.html#a9624b9328e26a9f420a4a3f07e253763", null ]
+    [ "spectator_commandscript", "dd/d08/a11432.html", "dd/d08/a11432" ],
+    [ "AddSC_spectator_commandscript", "d1/d3a/a01622.html#a223cb7b19bd79c486919c41509ea6ddf", null ]
 ];

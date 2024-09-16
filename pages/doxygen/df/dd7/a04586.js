@@ -1,16 +1,17 @@
 var a04586 =
 [
-    [ "ModelFlags", "df/dd7/a04586.html#a829dc978e29d88ada1059ea4ca6c4cd3", [
-      [ "MOD_M2", "df/dd7/a04586.html#a829dc978e29d88ada1059ea4ca6c4cd3a36c4baaa0c832deca9bc0f05addf1168", null ],
-      [ "MOD_WORLDSPAWN", "df/dd7/a04586.html#a829dc978e29d88ada1059ea4ca6c4cd3aa5609345ab3d1b82637666503b9bb0b4", null ],
-      [ "MOD_HAS_BOUND", "df/dd7/a04586.html#a829dc978e29d88ada1059ea4ca6c4cd3ae86efc863566bd1ba59ca8ad8cb72851", null ]
-    ] ],
-    [ "ExtractGameobjectModels", "df/dd7/a04586.html#a7b3d0cbf404ed32359e354ccf6e34392", null ],
-    [ "ExtractSingleModel", "df/dd7/a04586.html#a6a96194f748b715f0400249583336ae5", null ],
-    [ "ExtractSingleWmo", "df/dd7/a04586.html#afc9839262206eb10094c1769141ae146", null ],
-    [ "FileExists", "df/dd7/a04586.html#aab524156a5705c5cd09f96106eaac92d", null ],
-    [ "GenerateUniqueObjectId", "df/dd7/a04586.html#a6a3d179f34597554b17a122f27cd6be5", null ],
-    [ "strToLower", "df/dd7/a04586.html#ac9e88429cc2168db83793cb7074bc69f", null ],
-    [ "szWorkDirWmo", "df/dd7/a04586.html#ac706bf73d4ee9783a3b882fad9c3cbea", null ],
-    [ "WmoDoodads", "df/dd7/a04586.html#a17b22c7645963c9e5c277b72605a4966", null ]
+    [ "Acore::Impl::ChatCommands::tag_base< T, typename >", "dd/d53/a07392.html", "dd/d53/a07392" ],
+    [ "Acore::Impl::ChatCommands::TokenizeResult", "de/d39/a07396.html", "de/d39/a07396" ],
+    [ "Acore::Impl::ChatCommands::are_all_assignable< T, Ts >", "db/d8f/a07400.html", "db/d8f/a07400" ],
+    [ "Acore::Impl::ChatCommands::are_all_assignable< void, Ts... >", "d5/d1c/a07404.html", "d5/d1c/a07404" ],
+    [ "Acore::Impl::ChatCommands::get_nth< index, T1, Ts >", "d5/dbe/a07408.html", null ],
+    [ "Acore::Impl::ChatCommands::get_nth< 0, T1, Ts... >", "de/d24/a07412.html", "de/d24/a07412" ],
+    [ "Acore::Impl::ChatCommands::ChatCommandResult", "d0/d2e/a07416.html", "d0/d2e/a07416" ],
+    [ "get_nth_t", "df/dd7/a04586.html#acf7271fa50990dbd40fd90f127b9fb3b", null ],
+    [ "tag_base_t", "df/dd7/a04586.html#a61f1a636e46a7d78161298ae28844703", null ],
+    [ "FormatAcoreString", "df/dd7/a04586.html#a496bce28eb0bf0ac4b5e1c54c19193b7", null ],
+    [ "GetAcoreString", "df/dd7/a04586.html#a671c2d8ee25e88cc8f58246b1486f1de", null ],
+    [ "SendErrorMessageToHandler", "df/dd7/a04586.html#aae4c9556d5cc172144fa280ca820226d", null ],
+    [ "tokenize", "df/dd7/a04586.html#aeca95018e8d551d917cf69e0764ccef7", null ],
+    [ "COMMAND_DELIMITER", "df/dd7/a04586.html#a068db55731856ca7770e1b09a4225aa2", null ]
 ];

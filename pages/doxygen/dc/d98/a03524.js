@@ -1,76 +1,134 @@
 var a03524 =
 [
-    [ "boss_vezax", "d8/d65/a20004.html", "d8/d65/a20004" ],
-    [ "boss_vezax::boss_vezaxAI", "d2/d21/a20008.html", "d2/d21/a20008" ],
-    [ "npc_ulduar_saronite_vapors", "de/d2f/a20012.html", "de/d2f/a20012" ],
-    [ "npc_ulduar_saronite_vapors::npc_ulduar_saronite_vaporsAI", "d2/db4/a20016.html", "d2/db4/a20016" ],
-    [ "npc_ulduar_saronite_animus", "de/d1e/a20020.html", "de/d1e/a20020" ],
-    [ "npc_ulduar_saronite_animus::npc_ulduar_saronite_animusAI", "db/dfa/a20024.html", "db/dfa/a20024" ],
-    [ "spell_aura_of_despair_aura", "d0/d98/a20028.html", "d0/d98/a20028" ],
-    [ "spell_mark_of_the_faceless_periodic_aura", "da/ddb/a20032.html", "da/ddb/a20032" ],
-    [ "spell_mark_of_the_faceless_drainhealth", "d0/d8f/a20036.html", "d0/d8f/a20036" ],
-    [ "spell_saronite_vapors_dummy_aura", "d1/d94/a20040.html", "d1/d94/a20040" ],
-    [ "spell_saronite_vapors_damage", "d7/d89/a20044.html", "d7/d89/a20044" ],
-    [ "achievement_smell_saronite", "d7/dd6/a20048.html", "d7/dd6/a20048" ],
-    [ "achievement_shadowdodger", "d9/d09/a20052.html", "d9/d09/a20052" ],
-    [ "go_ulduar_pure_saronite_deposit", "d4/d29/a20056.html", "d4/d29/a20056" ],
-    [ "VaporsText", "dc/d98/a03524.html#a108c2a2d27e6ae9f94af4a209440d93e", [
-      [ "SAY_EMOTE_VAPORS", "dc/d98/a03524.html#a108c2a2d27e6ae9f94af4a209440d93eac51fb1605f030790acd10ceedb8aa954", null ]
+    [ "BattlegroundWGScore", "d1/d5a/a07200.html", "d1/d5a/a07200" ],
+    [ "BattlegroundWS", "dc/df2/a07204.html", "dc/df2/a07204" ],
+    [ "BG_WS_BroadcastTexts", "dc/d98/a03524.html#a7c9154e6ca4e1207a973b539247c437e", [
+      [ "BG_WS_TEXT_START_ONE_MINUTE", "dc/d98/a03524.html#a7c9154e6ca4e1207a973b539247c437ead7db7cd7c39b7d45b4fde846f6ce35ab", null ],
+      [ "BG_WS_TEXT_START_HALF_MINUTE", "dc/d98/a03524.html#a7c9154e6ca4e1207a973b539247c437ea143eab6f072004d7ef36368cb8c5a6a3", null ],
+      [ "BG_WS_TEXT_BATTLE_HAS_BEGUN", "dc/d98/a03524.html#a7c9154e6ca4e1207a973b539247c437ea77ad95d4c0d7d63c715ae047e8ee5eb5", null ],
+      [ "BG_WS_TEXT_CAPTURED_HORDE_FLAG", "dc/d98/a03524.html#a7c9154e6ca4e1207a973b539247c437ea59a76ae693811bbdab4546b3fc0ef127", null ],
+      [ "BG_WS_TEXT_CAPTURED_ALLIANCE_FLAG", "dc/d98/a03524.html#a7c9154e6ca4e1207a973b539247c437ea7c745804a8ebe1e31fce50cac86e9e6a", null ],
+      [ "BG_WS_TEXT_FLAGS_PLACED", "dc/d98/a03524.html#a7c9154e6ca4e1207a973b539247c437eaf835536dab77f927f8b0813d4dc8609a", null ],
+      [ "BG_WS_TEXT_ALLIANCE_FLAG_PICKED_UP", "dc/d98/a03524.html#a7c9154e6ca4e1207a973b539247c437ea5991d30e9de154a6093c3f21dc2bc44b", null ],
+      [ "BG_WS_TEXT_ALLIANCE_FLAG_DROPPED", "dc/d98/a03524.html#a7c9154e6ca4e1207a973b539247c437ea4f5b487f8295f37e178068745a94bda6", null ],
+      [ "BG_WS_TEXT_HORDE_FLAG_PICKED_UP", "dc/d98/a03524.html#a7c9154e6ca4e1207a973b539247c437ea36af47cda77304e638481f35504abea3", null ],
+      [ "BG_WS_TEXT_HORDE_FLAG_DROPPED", "dc/d98/a03524.html#a7c9154e6ca4e1207a973b539247c437ea9051cae14ae8f58f9de645c87a45e01c", null ],
+      [ "BG_WS_TEXT_ALLIANCE_FLAG_RETURNED", "dc/d98/a03524.html#a7c9154e6ca4e1207a973b539247c437ea51f1a9dded781ca1a5242035967c4564", null ],
+      [ "BG_WS_TEXT_HORDE_FLAG_RETURNED", "dc/d98/a03524.html#a7c9154e6ca4e1207a973b539247c437eae9561cf1891c2ddbc53f79f43240adf7", null ]
     ] ],
-    [ "VezaxEvents", "dc/d98/a03524.html#a04c25e824f5c3d2c058222ce5ffa6546", [
-      [ "EVENT_SPELL_VEZAX_SHADOW_CRASH", "dc/d98/a03524.html#a04c25e824f5c3d2c058222ce5ffa6546a0f9f8655c874ed6677672caf1b0d3ba4", null ],
-      [ "EVENT_SPELL_SEARING_FLAMES", "dc/d98/a03524.html#a04c25e824f5c3d2c058222ce5ffa6546ac85dd5c61d13bc3def3fac9feff5b43d", null ],
-      [ "EVENT_SPELL_SURGE_OF_DARKNESS", "dc/d98/a03524.html#a04c25e824f5c3d2c058222ce5ffa6546a3e6898dbc2ee537b1ceb3ec010f41e9a", null ],
-      [ "EVENT_SPELL_MARK_OF_THE_FACELESS", "dc/d98/a03524.html#a04c25e824f5c3d2c058222ce5ffa6546a061f5186723f734e7334abe72ce94f65", null ],
-      [ "EVENT_SPELL_SUMMON_SARONITE_VAPORS", "dc/d98/a03524.html#a04c25e824f5c3d2c058222ce5ffa6546a4429f60bd78c6a9ed9807e56dcd85468", null ],
-      [ "EVENT_SARONITE_VAPORS_SWIRL", "dc/d98/a03524.html#a04c25e824f5c3d2c058222ce5ffa6546a3cbc3828647fbcb758cd292984ce6e9d", null ],
-      [ "EVENT_SPELL_SUMMON_SARONITE_ANIMUS", "dc/d98/a03524.html#a04c25e824f5c3d2c058222ce5ffa6546a6a9dab42d0ab9faad58f5a6150641dba", null ],
-      [ "EVENT_DESPAWN_SARONITE_VAPORS", "dc/d98/a03524.html#a04c25e824f5c3d2c058222ce5ffa6546a16c892d2a8084ed4d0c47947ce924c20", null ],
-      [ "EVENT_SPELL_PROFOUND_DARKNESS", "dc/d98/a03524.html#a04c25e824f5c3d2c058222ce5ffa6546a0a6b9a2decdc422e04c09bce53295813", null ],
-      [ "EVENT_BERSERK", "dc/d98/a03524.html#a04c25e824f5c3d2c058222ce5ffa6546a94f1144a24a622ff9e12ebe57137f266", null ],
-      [ "EVENT_RESTORE_TARGET", "dc/d98/a03524.html#a04c25e824f5c3d2c058222ce5ffa6546a4085e50ab24b1c850f3d2bd794e7bcfd", null ]
+    [ "BG_WS_CreatureTypes", "dc/d98/a03524.html#a559917f94b9cc817260b06ee0137bfc7", [
+      [ "WS_SPIRIT_MAIN_ALLIANCE", "dc/d98/a03524.html#a559917f94b9cc817260b06ee0137bfc7ab6099a4d7aa46ad9f6db1f0bfd2efc42", null ],
+      [ "WS_SPIRIT_MAIN_HORDE", "dc/d98/a03524.html#a559917f94b9cc817260b06ee0137bfc7a924867f3bf3b25b589b6df70fc89fceb", null ],
+      [ "BG_CREATURES_MAX_WS", "dc/d98/a03524.html#a559917f94b9cc817260b06ee0137bfc7a3562e2aed8f61f03a2b993a415bc9cea", null ]
     ] ],
-    [ "VezaxGOs", "dc/d98/a03524.html#a247f87b67f9639834c1ecd69fb31c186", null ],
-    [ "VezaxNpcs", "dc/d98/a03524.html#aa78f1b64a28f8f85fb7a88055203b63d", [
-      [ "NPC_SARONITE_ANIMUS", "dc/d98/a03524.html#aa78f1b64a28f8f85fb7a88055203b63da9545669ca68caa507220b5b121475d3c", null ]
+    [ "BG_WS_Events", "dc/d98/a03524.html#a6145482dfe4a795cbed7af3313c3599c", [
+      [ "BG_WS_EVENT_UPDATE_GAME_TIME", "dc/d98/a03524.html#a6145482dfe4a795cbed7af3313c3599cab48e71386d01f6fd1d4d4372c631c2a4", null ],
+      [ "BG_WS_EVENT_NO_TIME_LEFT", "dc/d98/a03524.html#a6145482dfe4a795cbed7af3313c3599caffaff5a3f1ac530038e8a7ef9517b42c", null ],
+      [ "BG_WS_EVENT_RESPAWN_BOTH_FLAGS", "dc/d98/a03524.html#a6145482dfe4a795cbed7af3313c3599ca81d50edb05943545e5942a4eac34e7fc", null ],
+      [ "BG_WS_EVENT_ALLIANCE_DROP_FLAG", "dc/d98/a03524.html#a6145482dfe4a795cbed7af3313c3599ca023378674ff061d5ab6bf4d083fce61d", null ],
+      [ "BG_WS_EVENT_HORDE_DROP_FLAG", "dc/d98/a03524.html#a6145482dfe4a795cbed7af3313c3599cac67a03f933461192c6993405bad36c5c", null ],
+      [ "BG_WS_EVENT_BOTH_FLAGS_KEPT10", "dc/d98/a03524.html#a6145482dfe4a795cbed7af3313c3599ca9ccd3db9cbab2c3e0ec02e8a6c78f401", null ],
+      [ "BG_WS_EVENT_BOTH_FLAGS_KEPT15", "dc/d98/a03524.html#a6145482dfe4a795cbed7af3313c3599ca2ff5a57dbd3f5e4bc90c35c48d7b45b2", null ],
+      [ "BG_WS_EVENT_DESPAWN_DOORS", "dc/d98/a03524.html#a6145482dfe4a795cbed7af3313c3599cae0a26e7dd63feb2ead3557c0d8a7df97", null ]
     ] ],
-    [ "VezaxSpellData", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1", [
-      [ "SPELL_VEZAX_BERSERK", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1af266dcd944395681aebb95f0173b5961", null ],
-      [ "SPELL_VEZAX_SHADOW_CRASH", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a75ada0daac75380e5611d5951d0c642a", null ],
-      [ "SPELL_VEZAX_SHADOW_CRASH_DMG", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a54b6d0d1097b3ab12e902f6fad56018c", null ],
-      [ "SPELL_VEZAX_SHADOW_CRASH_AREA_AURA", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a5a29d553d47c6de551b2b886ce6c67cd", null ],
-      [ "SPELL_VEZAX_SHADOW_CRASH_AURA", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1abb66f2065d11048bf61610fa8f79c573", null ],
-      [ "SPELL_SEARING_FLAMES", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a95b11d34a9f8f5b68a92e7cd549af53b", null ],
-      [ "SPELL_SURGE_OF_DARKNESS", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a3b0e2ea70a80eed9f0fce8465c41d189", null ],
-      [ "SPELL_MARK_OF_THE_FACELESS_AURA", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a1d782cbdf316e946f4037a56349d436b", null ],
-      [ "SPELL_MARK_OF_THE_FACELESS_EFFECT", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a9c07a1691f8b921f4bc889a7171ae15d", null ],
-      [ "SPELL_AURA_OF_DESPAIR_1", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a90f62045abb14684c5f6a65a158611b2", null ],
-      [ "SPELL_AURA_OF_DESPAIR_2", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a2b6e254f064c967dfc464486d15967f4", null ],
-      [ "SPELL_CORRUPTED_RAGE", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a1eb8abb1e30c6eb7e0067186567e9440", null ],
-      [ "SPELL_CORRUPTED_WISDOM", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1ad4717c300512cf000af07535db9faf42", null ],
-      [ "SPELL_SHAMANISTIC_RAGE", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a125b0648552bfc958d34496bef00c8cb", null ],
-      [ "SPELL_JUDGEMENTS_OF_THE_WISDOM_RANK_1", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a4c00a43ffd5d1efbc0a604659fbabea7", null ],
-      [ "SPELL_SUMMON_SARONITE_VAPORS", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a2b8edec48cdf6e3374cf2c94cfc7734d", null ],
-      [ "NPC_SARONITE_VAPORS", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a148f3fde9450a6d3880ad03449c03bb8", null ],
-      [ "SPELL_SARONITE_VAPORS_DMG", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a3b8f601a6c2e439263cb1622f2a41f47", null ],
-      [ "SPELL_SARONITE_VAPORS_ENERGIZE", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a4863107801f09934a453e224f6615c76", null ],
-      [ "SPELL_SARONITE_VAPORS_AURA", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1ac5cba5884d9d8362fd0f5c0cde6123c3", null ],
-      [ "SPELL_SARONITE_VAPORS_DUMMYAURA", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1aece01c5aca04b81451b579e9385f8341", null ],
-      [ "SPELL_SARONITE_ANIMUS_FORMATION_VISUAL", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1ad63426f9a2bc82b4e69808afd9423f3c", null ],
-      [ "SPELL_SUMMON_SARONITE_ANIMUS", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1ad004a234d89a2d52772cbfb5c1339a47", null ],
-      [ "SPELL_SARONITE_BARRIER", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a4ca592edb75f801e335cbc4b7b719177", null ],
-      [ "SPELL_PROFOUND_DARKNESS", "dc/d98/a03524.html#ad45286eaf4e0bb1e60a076b7587531d1a6f27bc5dbb7bf90ec48a9db1a561662b", null ]
+    [ "BG_WS_FlagState", "dc/d98/a03524.html#a15d72f3f072bc0cabaf5f1bef80b64e0", [
+      [ "BG_WS_FLAG_STATE_ON_BASE", "dc/d98/a03524.html#a15d72f3f072bc0cabaf5f1bef80b64e0afa30eb723a0561b597261f3fd8a12ade", null ],
+      [ "BG_WS_FLAG_STATE_ON_PLAYER", "dc/d98/a03524.html#a15d72f3f072bc0cabaf5f1bef80b64e0a894046e91503d915c4d7f722ed988e6a", null ],
+      [ "BG_WS_FLAG_STATE_ON_GROUND", "dc/d98/a03524.html#a15d72f3f072bc0cabaf5f1bef80b64e0a02eaf89f2607dfe9d7b222d7a142642d", null ]
     ] ],
-    [ "VezaxText", "dc/d98/a03524.html#a0a2af133c7bcb5387c68abce0287eea8", [
-      [ "SAY_AGGRO", "dc/d98/a03524.html#a0a2af133c7bcb5387c68abce0287eea8a47c752fff069f3e55065795eef2a9bfe", null ],
-      [ "SAY_SLAY", "dc/d98/a03524.html#a0a2af133c7bcb5387c68abce0287eea8a9e64f6e600dd42567d18006912811f75", null ],
-      [ "SAY_SURGE_OF_DARKNESS", "dc/d98/a03524.html#a0a2af133c7bcb5387c68abce0287eea8a8f89764c360b3f491e241d70d098103f", null ],
-      [ "SAY_DEATH", "dc/d98/a03524.html#a0a2af133c7bcb5387c68abce0287eea8a04c962d9b6aaafde54ff92a54369135e", null ],
-      [ "SAY_BERSERK", "dc/d98/a03524.html#a0a2af133c7bcb5387c68abce0287eea8ada55f761193c5ce51964480004c8462b", null ],
-      [ "SAY_HARDMODE", "dc/d98/a03524.html#a0a2af133c7bcb5387c68abce0287eea8aecf72087c7e1bd8acdabb2785154c48f", null ],
-      [ "SAY_EMOTE_ANIMUS", "dc/d98/a03524.html#a0a2af133c7bcb5387c68abce0287eea8a92bcf11d1648ecebb99c4921e08f4c9b", null ],
-      [ "SAY_EMOTE_BARRIER", "dc/d98/a03524.html#a0a2af133c7bcb5387c68abce0287eea8a864797f8afd535b198ea73acf5c497f7", null ],
-      [ "SAY_EMOTE_SURGE_OF_DARKNESS", "dc/d98/a03524.html#a0a2af133c7bcb5387c68abce0287eea8a3c092c4e1e18462abea4cf84af87bfab", null ]
+    [ "BG_WS_Graveyards", "dc/d98/a03524.html#afb194929fa7fa28ba1362df96d98f48c", [
+      [ "WS_GRAVEYARD_FLAGROOM_ALLIANCE", "dc/d98/a03524.html#afb194929fa7fa28ba1362df96d98f48ca0393e94e3ca8bdb8f88c188ae4651300", null ],
+      [ "WS_GRAVEYARD_FLAGROOM_HORDE", "dc/d98/a03524.html#afb194929fa7fa28ba1362df96d98f48ca40a02f455e9bb74cef1f2955d86d2f7a", null ],
+      [ "WS_GRAVEYARD_MAIN_ALLIANCE", "dc/d98/a03524.html#afb194929fa7fa28ba1362df96d98f48ca2f36e1a66bfe840de8d0b2c4f24c122d", null ],
+      [ "WS_GRAVEYARD_MAIN_HORDE", "dc/d98/a03524.html#afb194929fa7fa28ba1362df96d98f48caabc7b651d7611a592759d4c5bd37cdfe", null ]
     ] ],
-    [ "AddSC_boss_vezax", "dc/d98/a03524.html#a5c6fe86ca515a67bca7dfaf2465a4b04", null ]
+    [ "BG_WS_ObjectEntry", "dc/d98/a03524.html#a9bad07d2619ccf292c169deab76e5e86", [
+      [ "BG_OBJECT_DOOR_A_1_WS_ENTRY", "dc/d98/a03524.html#a9bad07d2619ccf292c169deab76e5e86a46e8b3d9040dbc0fc30b2e202e7ec353", null ],
+      [ "BG_OBJECT_DOOR_A_2_WS_ENTRY", "dc/d98/a03524.html#a9bad07d2619ccf292c169deab76e5e86ac18d753a8273ee2e7491ed505496187c", null ],
+      [ "BG_OBJECT_DOOR_A_3_WS_ENTRY", "dc/d98/a03524.html#a9bad07d2619ccf292c169deab76e5e86a658f7dfd42849cb06cd0f19db120807b", null ],
+      [ "BG_OBJECT_DOOR_A_4_WS_ENTRY", "dc/d98/a03524.html#a9bad07d2619ccf292c169deab76e5e86a39f5924857062954a5b8aebf064b31a4", null ],
+      [ "BG_OBJECT_DOOR_A_5_WS_ENTRY", "dc/d98/a03524.html#a9bad07d2619ccf292c169deab76e5e86ad5f2e0d93cca63d1851913e2f2106084", null ],
+      [ "BG_OBJECT_DOOR_A_6_WS_ENTRY", "dc/d98/a03524.html#a9bad07d2619ccf292c169deab76e5e86a7232e833cd7e3e2df3f1c89fcea4a199", null ],
+      [ "BG_OBJECT_DOOR_H_1_WS_ENTRY", "dc/d98/a03524.html#a9bad07d2619ccf292c169deab76e5e86abf9f3b772d033ef1a76e81c4cc1ae060", null ],
+      [ "BG_OBJECT_DOOR_H_2_WS_ENTRY", "dc/d98/a03524.html#a9bad07d2619ccf292c169deab76e5e86a9aee3a2ada30bce2253551c4d6ef89a2", null ],
+      [ "BG_OBJECT_DOOR_H_3_WS_ENTRY", "dc/d98/a03524.html#a9bad07d2619ccf292c169deab76e5e86ad67a39572196019af2aa979a9c5929e2", null ],
+      [ "BG_OBJECT_DOOR_H_4_WS_ENTRY", "dc/d98/a03524.html#a9bad07d2619ccf292c169deab76e5e86aadfb0d680a0b67a28ad8414e7b9db43e", null ],
+      [ "BG_OBJECT_A_FLAG_WS_ENTRY", "dc/d98/a03524.html#a9bad07d2619ccf292c169deab76e5e86ad8e1321f07d95c44c6485983e9bad69d", null ],
+      [ "BG_OBJECT_H_FLAG_WS_ENTRY", "dc/d98/a03524.html#a9bad07d2619ccf292c169deab76e5e86af6a0024c110d5588d483c36f0e1b4f8c", null ],
+      [ "BG_OBJECT_A_FLAG_GROUND_WS_ENTRY", "dc/d98/a03524.html#a9bad07d2619ccf292c169deab76e5e86aa0d8344a5d215c72b13515d0df96d360", null ],
+      [ "BG_OBJECT_H_FLAG_GROUND_WS_ENTRY", "dc/d98/a03524.html#a9bad07d2619ccf292c169deab76e5e86a36c0ec2d028cd2ba5f484e5a9e5ebb14", null ]
+    ] ],
+    [ "BG_WS_Objectives", "dc/d98/a03524.html#a6d8cea6a81013f7c893b4dfc018882f3", [
+      [ "WS_OBJECTIVE_CAPTURE_FLAG", "dc/d98/a03524.html#a6d8cea6a81013f7c893b4dfc018882f3ab9257434c616a0cc0436327e52aef48b", null ],
+      [ "WS_OBJECTIVE_RETURN_FLAG", "dc/d98/a03524.html#a6d8cea6a81013f7c893b4dfc018882f3a6b4943d0cae9e621788fc327c3089ce9", null ],
+      [ "WS_EVENT_START_BATTLE", "dc/d98/a03524.html#a6d8cea6a81013f7c893b4dfc018882f3a0c41277a6bfc0399862a1375dd348add", null ]
+    ] ],
+    [ "BG_WS_ObjectTypes", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0a", [
+      [ "BG_WS_OBJECT_DOOR_A_1", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aa647f2b00ead73ecf376a16dce961acc2", null ],
+      [ "BG_WS_OBJECT_DOOR_A_2", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aa74dd4c96aba9b7c7dc7f5ceeeec6dab4", null ],
+      [ "BG_WS_OBJECT_DOOR_A_3", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aad1c8b1dbff96860bbb739fd1f72ac849", null ],
+      [ "BG_WS_OBJECT_DOOR_A_4", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aa20e5c7d62fecbec10fcfdda765f8b32f", null ],
+      [ "BG_WS_OBJECT_DOOR_A_5", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aa20e28848fc9cbaa023235874af30b220", null ],
+      [ "BG_WS_OBJECT_DOOR_A_6", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aac1111d5be83298a8484f5f7c3a3792bb", null ],
+      [ "BG_WS_OBJECT_DOOR_H_1", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aa346507dbf347665a961cde5ca840d4e4", null ],
+      [ "BG_WS_OBJECT_DOOR_H_2", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aaaefc2aac0eb75ac2f5150fc524860066", null ],
+      [ "BG_WS_OBJECT_DOOR_H_3", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aa1c3058ae3c3b8261f64c349ccbffe844", null ],
+      [ "BG_WS_OBJECT_DOOR_H_4", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aa908ff1e05de104cee49c6e6e0ca6e82f", null ],
+      [ "BG_WS_OBJECT_A_FLAG", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aa1bffb213e51280963ab67dd8126dc1de", null ],
+      [ "BG_WS_OBJECT_H_FLAG", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aa776d0686c8e83d704d0b1ef08d11c16c", null ],
+      [ "BG_WS_OBJECT_SPEEDBUFF_1", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aa8d977924b5ee1b173ce4b8c6d3c4a8c9", null ],
+      [ "BG_WS_OBJECT_SPEEDBUFF_2", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aace33b571daeb36050d0bcacbe2f0135a", null ],
+      [ "BG_WS_OBJECT_REGENBUFF_1", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aac6cc1155e19bc7ca6e70231e21caf011", null ],
+      [ "BG_WS_OBJECT_REGENBUFF_2", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aa3735ef2d50f496447691acf3720f3ffd", null ],
+      [ "BG_WS_OBJECT_BERSERKBUFF_1", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aa2c82069928025a6fe976022f7af536a8", null ],
+      [ "BG_WS_OBJECT_BERSERKBUFF_2", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aade5a2c8385638165501d495eacd74843", null ],
+      [ "BG_WS_OBJECT_MAX", "dc/d98/a03524.html#a29059eb2d46fa5c2398a2ee393c1ad0aa29510d51b670ce5742c0e5e2e023cdb5", null ]
+    ] ],
+    [ "BG_WS_Sound", "dc/d98/a03524.html#a57475685e7e9485731450b3d705d5ca5", [
+      [ "BG_WS_SOUND_FLAG_CAPTURED_ALLIANCE", "dc/d98/a03524.html#a57475685e7e9485731450b3d705d5ca5a997f8b8527dfbcb80664778885733896", null ],
+      [ "BG_WS_SOUND_FLAG_CAPTURED_HORDE", "dc/d98/a03524.html#a57475685e7e9485731450b3d705d5ca5a32ffcf2c65e6cbacbfdb5790460cf65f", null ],
+      [ "BG_WS_SOUND_FLAG_PLACED", "dc/d98/a03524.html#a57475685e7e9485731450b3d705d5ca5a308b9670204904fe7404572046075eb4", null ],
+      [ "BG_WS_SOUND_FLAG_RETURNED", "dc/d98/a03524.html#a57475685e7e9485731450b3d705d5ca5abd9a65bbcd72bd56f8bdc9f8da47585a", null ],
+      [ "BG_WS_SOUND_HORDE_FLAG_PICKED_UP", "dc/d98/a03524.html#a57475685e7e9485731450b3d705d5ca5aa29d2519be11c8f28b7e1d38c1b43a2f", null ],
+      [ "BG_WS_SOUND_ALLIANCE_FLAG_PICKED_UP", "dc/d98/a03524.html#a57475685e7e9485731450b3d705d5ca5aae5caaadc49a60a2da8a1e9490c8f67f", null ],
+      [ "BG_WS_SOUND_FLAGS_RESPAWNED", "dc/d98/a03524.html#a57475685e7e9485731450b3d705d5ca5a566491875872716060e137f006eaad5a", null ]
+    ] ],
+    [ "BG_WS_SpellId", "dc/d98/a03524.html#a3c368811f9c49f0276a9d115a8672d4b", [
+      [ "BG_WS_SPELL_WARSONG_FLAG", "dc/d98/a03524.html#a3c368811f9c49f0276a9d115a8672d4ba3ff5e866002dc9c96e76b65bd922c110", null ],
+      [ "BG_WS_SPELL_WARSONG_FLAG_DROPPED", "dc/d98/a03524.html#a3c368811f9c49f0276a9d115a8672d4bab8f74356870d6e130953b79269fa416a", null ],
+      [ "BG_WS_SPELL_WARSONG_FLAG_PICKED", "dc/d98/a03524.html#a3c368811f9c49f0276a9d115a8672d4ba77bf10c0836c63eb86b920c3dfaffe69", null ],
+      [ "BG_WS_SPELL_SILVERWING_FLAG", "dc/d98/a03524.html#a3c368811f9c49f0276a9d115a8672d4baba32f31f837fa712a15bc8f298005437", null ],
+      [ "BG_WS_SPELL_SILVERWING_FLAG_DROPPED", "dc/d98/a03524.html#a3c368811f9c49f0276a9d115a8672d4ba553cd677ac7e0285223bea1c0ac3fcdf", null ],
+      [ "BG_WS_SPELL_SILVERWING_FLAG_PICKED", "dc/d98/a03524.html#a3c368811f9c49f0276a9d115a8672d4ba30d91497534a00b1cf56f40bbc5ca40d", null ],
+      [ "BG_WS_SPELL_FOCUSED_ASSAULT", "dc/d98/a03524.html#a3c368811f9c49f0276a9d115a8672d4ba7657a768b886fd84df67dd5df54968b9", null ],
+      [ "BG_WS_SPELL_BRUTAL_ASSAULT", "dc/d98/a03524.html#a3c368811f9c49f0276a9d115a8672d4ba4b20bb1716673783e705f88c13be66c3", null ]
+    ] ],
+    [ "BG_WS_TimerOrScore", "dc/d98/a03524.html#ae5f8a7cd4f42f719752da8c95249214a", [
+      [ "BG_WS_MAX_TEAM_SCORE", "dc/d98/a03524.html#ae5f8a7cd4f42f719752da8c95249214aaa68a8480363b87d5a538eb6716f8efb8", null ],
+      [ "BG_WS_TOTAL_GAME_TIME", "dc/d98/a03524.html#ae5f8a7cd4f42f719752da8c95249214aabe9a2e0c527ac4dbe235b6f04a64f016", null ],
+      [ "BG_WS_FLAG_RESPAWN_TIME", "dc/d98/a03524.html#ae5f8a7cd4f42f719752da8c95249214aa0960ca9313b2915b96ae434eca282313", null ],
+      [ "BG_WS_FLAG_DROP_TIME", "dc/d98/a03524.html#ae5f8a7cd4f42f719752da8c95249214aa5e494f66c9a370bdd7e65aea0e2cdfa5", null ],
+      [ "BG_WS_SPELL_FORCE_TIME", "dc/d98/a03524.html#ae5f8a7cd4f42f719752da8c95249214aa4876641eeb6401cce978679a1150de48", null ],
+      [ "BG_WS_SPELL_BRUTAL_TIME", "dc/d98/a03524.html#ae5f8a7cd4f42f719752da8c95249214aaf00f7ef0f4d9e0cc43ecfb8b5d6ef743", null ],
+      [ "BG_WS_DOOR_DESPAWN_TIME", "dc/d98/a03524.html#ae5f8a7cd4f42f719752da8c95249214aaf3a9212e0ca0569e162e8cf96de4dc44", null ]
+    ] ],
+    [ "BG_WS_Trigger", "dc/d98/a03524.html#a50801b1baa78c499341bfe44d88ffcf3", [
+      [ "BG_WS_TRIGGER_ALLIANCE_FLAG_SPAWN", "dc/d98/a03524.html#a50801b1baa78c499341bfe44d88ffcf3afe1ff0fad52fd52ab78965a7465113d3", null ],
+      [ "BG_WS_TRIGGER_HORDE_FLAG_SPAWN", "dc/d98/a03524.html#a50801b1baa78c499341bfe44d88ffcf3afcae781e82c805094dd5f1dcb7c0e788", null ],
+      [ "BG_WS_TRIGGER_ALLIANCE_ELIXIR_SPEED_SPAWN", "dc/d98/a03524.html#a50801b1baa78c499341bfe44d88ffcf3a43afe4d9d703643da4e168353290b485", null ],
+      [ "BG_WS_TRIGGER_HORDE_ELIXIR_SPEED_SPAWN", "dc/d98/a03524.html#a50801b1baa78c499341bfe44d88ffcf3a313c7878a07f89f6e25b7e31d51b197c", null ],
+      [ "BG_WS_TRIGGER_ALLIANCE_ELIXIR_REGEN_SPAWN", "dc/d98/a03524.html#a50801b1baa78c499341bfe44d88ffcf3a3ac726ccd0b7dbb57612489d2f33f3d0", null ],
+      [ "BG_WS_TRIGGER_HORDE_ELIXIR_REGEN_SPAWN", "dc/d98/a03524.html#a50801b1baa78c499341bfe44d88ffcf3a8bc4e07db5aeeb0e5cb7b391be15b292", null ],
+      [ "BG_WS_TRIGGER_ALLIANCE_ELIXIR_BERSERK_SPAWN", "dc/d98/a03524.html#a50801b1baa78c499341bfe44d88ffcf3aedcf50e072c7fbdbf39f7421e29c09fe", null ],
+      [ "BG_WS_TRIGGER_HORDE_ELIXIR_BERSERK_SPAWN", "dc/d98/a03524.html#a50801b1baa78c499341bfe44d88ffcf3aea7c50de78560ae6831d5b51cf33034e", null ]
+    ] ],
+    [ "BG_WS_WorldStates", "dc/d98/a03524.html#af4cae60fa452f9a1504325480cf4d6b6", [
+      [ "BG_WS_FLAG_CAPTURES_ALLIANCE", "dc/d98/a03524.html#af4cae60fa452f9a1504325480cf4d6b6ae883ddf71516900be2d33631bdd92ad2", null ],
+      [ "BG_WS_FLAG_CAPTURES_HORDE", "dc/d98/a03524.html#af4cae60fa452f9a1504325480cf4d6b6a9f7b1b3d5f9c877c281639e2ce27b0a8", null ],
+      [ "BG_WS_FLAG_CAPTURES_MAX", "dc/d98/a03524.html#af4cae60fa452f9a1504325480cf4d6b6a53e88b178ab76de3a608b254901a9052", null ],
+      [ "BG_WS_FLAG_STATE_HORDE", "dc/d98/a03524.html#af4cae60fa452f9a1504325480cf4d6b6a77055024580df28d74d7ccc5296dcb2e", null ],
+      [ "BG_WS_FLAG_STATE_ALLIANCE", "dc/d98/a03524.html#af4cae60fa452f9a1504325480cf4d6b6a7956b3f40570a592d3d2fb921efa1d27", null ],
+      [ "BG_WS_STATE_TIMER", "dc/d98/a03524.html#af4cae60fa452f9a1504325480cf4d6b6a05932be9f40700e6536a6245396630b2", null ],
+      [ "BG_WS_STATE_TIMER_ACTIVE", "dc/d98/a03524.html#af4cae60fa452f9a1504325480cf4d6b6aa3b2a597b7252f6de8ca7374ced53c31", null ]
+    ] ]
 ];

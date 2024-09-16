@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/AI/CoreAI/CombatAI.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Northrend/VaultOfArchavon/instance_vault_of_archavon.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,86 +106,54 @@ $(document).ready(function(){initNavTree('d9/d8b/a01469.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
-  <div class="headertitle"><div class="title">CombatAI.h File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">instance_vault_of_archavon.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ConditionMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CreatureAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CreatureAIImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">EventMap.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Battlefield.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlefieldMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuras.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">vault_of_archavon.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0b/a05952.html">AggressorAI</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a21240.html">instance_vault_of_archavon</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc1/a05956.html">CombatAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d3f/a05960.html">CasterAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d76/a05964.html">ArcherAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d44/a05968.html">TurretAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4e/a05972.html">VehicleAI</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4a/a21244.html">instance_vault_of_archavon::instance_vault_of_archavon_InstanceMapScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a2842973ff947088648cd327dc9e1d379"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d8b/a01469.html#a2842973ff947088648cd327dc9e1d379">VEHICLE_CONDITION_CHECK_TIME</a>&#160;&#160;&#160;1000</td></tr>
-<tr class="separator:a2842973ff947088648cd327dc9e1d379"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b232fec810abbe5eaf5536e608b6e38"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d8b/a01469.html#a9b232fec810abbe5eaf5536e608b6e38">VEHICLE_DISMISS_TIME</a>&#160;&#160;&#160;5000</td></tr>
-<tr class="separator:a9b232fec810abbe5eaf5536e608b6e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:aef8ccdd14344d9c395d613c21bafd91e"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../d1/dd3/a04427.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d8b/a01469.html#aef8ccdd14344d9c395d613c21bafd91e">SpellVct</a></td></tr>
-<tr class="separator:aef8ccdd14344d9c395d613c21bafd91e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:af85fa677904908fe364917364696be77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d8b/a01469.html#af85fa677904908fe364917364696be77">AddSC_instance_vault_of_archavon</a> ()</td></tr>
+<tr class="separator:af85fa677904908fe364917364696be77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a2842973ff947088648cd327dc9e1d379" name="a2842973ff947088648cd327dc9e1d379"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2842973ff947088648cd327dc9e1d379">&#9670;&#160;</a></span>VEHICLE_CONDITION_CHECK_TIME</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="af85fa677904908fe364917364696be77" name="af85fa677904908fe364917364696be77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af85fa677904908fe364917364696be77">&#9670;&#160;</a></span>AddSC_instance_vault_of_archavon()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define VEHICLE_CONDITION_CHECK_TIME&#160;&#160;&#160;1000</td>
+          <td class="memname">void AddSC_instance_vault_of_archavon </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9b232fec810abbe5eaf5536e608b6e38" name="a9b232fec810abbe5eaf5536e608b6e38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b232fec810abbe5eaf5536e608b6e38">&#9670;&#160;</a></span>VEHICLE_DISMISS_TIME</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define VEHICLE_DISMISS_TIME&#160;&#160;&#160;5000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="aef8ccdd14344d9c395d613c21bafd91e" name="aef8ccdd14344d9c395d613c21bafd91e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef8ccdd14344d9c395d613c21bafd91e">&#9670;&#160;</a></span>SpellVct</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::vector&lt;<a class="el" href="../../d1/dd3/a04427.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt; <a class="el" href="../../d9/d8b/a01469.html#aef8ccdd14344d9c395d613c21bafd91e">SpellVct</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  268</span>{</div>
+<div class="line"><span class="lineno">  269</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/db5/a21240.html">instance_vault_of_archavon</a>();</div>
+<div class="line"><span class="lineno">  270</span>}</div>
+<div class="ttc" id="aa21240_html"><div class="ttname"><a href="../../de/db5/a21240.html">instance_vault_of_archavon</a></div><div class="ttdef"><b>Definition:</b> instance_vault_of_archavon.cpp:35</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00183">AddNorthrendScripts()</a>.</p>
 
 </div>
 </div>
@@ -194,8 +162,8 @@ Typedefs</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5e5741f7891ede41bef7ecc492194021.html">AI</a></li><li class="navelem"><a class="el" href="../../dir_89e5b46313b1092bbe526cf6db8e9dcb.html">CoreAI</a></li><li class="navelem"><a class="el" href="../../d9/d8b/a01469.html">CombatAI.h</a></li>
-    <li class="footer">Generated on Mon Sep 9 2024 20:38:24 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_3c4f1d0049890b6fe47974d55db5d117.html">VaultOfArchavon</a></li><li class="navelem"><a class="el" href="../../d9/d8b/a01469.html">instance_vault_of_archavon.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 16 2024 20:40:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

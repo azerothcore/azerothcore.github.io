@@ -1,5 +1,5 @@
 var a00611 =
 [
-    [ "WorldObjectChangeAccumulator", "d0/deb/a08112.html", "d0/deb/a08112" ],
-    [ "VisibilityDistances", "dd/dc0/a00611.html#a6165c6736a6e152a38f7dea1aa2c956b", null ]
+    [ "WorldMock", "de/d0a/a28396.html", "de/d0a/a28396" ],
+    [ "AddScripts", "dd/dc0/a00611.html#abb65cb085124c346fd32ac4b92f0baa9", null ]
 ];

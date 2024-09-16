@@ -1,7 +1,6 @@
 var a02123 =
 [
-    [ "gobject_commandscript", "d3/d54/a11324.html", "d3/d54/a11324" ],
-    [ "GameObjectEntry", "d5/d63/a02123.html#af6e4fdc2f36213d5f2a9fa6f335517b8", null ],
-    [ "GameObjectSpawnId", "d5/d63/a02123.html#ad5bd2a208bd6c6213df595ee7369126f", null ],
-    [ "AddSC_gobject_commandscript", "d5/d63/a02123.html#a0cc4be9c12b1a892f031cb1ff47e23d9", null ]
+    [ "instance_mana_tombs", "d0/db8/a22584.html", "d0/db8/a22584" ],
+    [ "instance_mana_tombs::instance_mana_tombs_InstanceMapScript", "df/d0a/a22588.html", "df/d0a/a22588" ],
+    [ "AddSC_instance_mana_tombs", "d5/d63/a02123.html#ab3a34e5f5a1433a62cdca43b8f13182c", null ]
 ];

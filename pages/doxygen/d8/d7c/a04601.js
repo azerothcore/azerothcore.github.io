@@ -1,5 +1,6 @@
 var a04601 =
 [
-    [ "_CRT_SECURE_NO_DEPRECATE", "d8/d7c/a04601.html#a411c46599e926f8cdf49c63957255359", null ],
-    [ "MverMagic", "d8/d7c/a04601.html#a076cdc3e61f69e52913492840fc864cf", null ]
+    [ "ChatHandler", "d7/d41/a07260.html", "d7/d41/a07260" ],
+    [ "CliHandler", "d3/d13/a07264.html", "d3/d13/a07264" ],
+    [ "AddonChannelCommandHandler", "d1/d58/a07268.html", "d1/d58/a07268" ]
 ];

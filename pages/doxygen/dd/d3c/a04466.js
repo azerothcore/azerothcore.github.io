@@ -1,15 +1,12 @@
 var a04466 =
 [
-    [ "frand", "dd/d3c/a04466.html#a19bd31014583536af788a65b398e4406", null ],
-    [ "GetRng", "dd/d3c/a04466.html#a8602a67daa881e92c3eb9204c88b7733", null ],
-    [ "irand", "dd/d3c/a04466.html#a6ae07d2bb0593d8339e65c136f63ecc0", null ],
-    [ "rand32", "dd/d3c/a04466.html#ac699324b85bb2266ea8978796967c541", null ],
-    [ "rand_chance", "dd/d3c/a04466.html#a66621d09a8cc2aa9476391004fe2c427", null ],
-    [ "rand_norm", "dd/d3c/a04466.html#af2f9363ceebb6f78067b4a146d1de9df", null ],
-    [ "randtime", "dd/d3c/a04466.html#a9ecda65ea9686c86f47934d04d38ec69", null ],
-    [ "urand", "dd/d3c/a04466.html#ab17def34ccbbd868dc87a16bf35acdbd", null ],
-    [ "urandms", "dd/d3c/a04466.html#af901d57f29ff48f701a375e44a0f1261", null ],
-    [ "urandweighted", "dd/d3c/a04466.html#a3f7e714c8fc3a6f6ccbe91d524a84f23", null ],
-    [ "engine", "dd/d3c/a04466.html#a8ab11e2fa939d9f333dfa1a858e7690b", null ],
-    [ "sfmtRand", "dd/d3c/a04466.html#a131ba7587aa544a7e73ff9884d6bc784", null ]
+    [ "AggressorAI", "db/d0b/a05952.html", "db/d0b/a05952" ],
+    [ "CombatAI", "dc/dc1/a05956.html", "dc/dc1/a05956" ],
+    [ "CasterAI", "d8/d3f/a05960.html", "d8/d3f/a05960" ],
+    [ "ArcherAI", "dc/d76/a05964.html", "dc/d76/a05964" ],
+    [ "TurretAI", "dd/d44/a05968.html", "dd/d44/a05968" ],
+    [ "VehicleAI", "d1/d4e/a05972.html", "d1/d4e/a05972" ],
+    [ "VEHICLE_CONDITION_CHECK_TIME", "dd/d3c/a04466.html#a2842973ff947088648cd327dc9e1d379", null ],
+    [ "VEHICLE_DISMISS_TIME", "dd/d3c/a04466.html#a9b232fec810abbe5eaf5536e608b6e38", null ],
+    [ "SpellVct", "dd/d3c/a04466.html#aef8ccdd14344d9c395d613c21bafd91e", null ]
 ];

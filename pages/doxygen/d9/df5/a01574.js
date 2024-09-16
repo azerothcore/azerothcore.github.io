@@ -1,33 +1,37 @@
 var a01574 =
 [
-    [ "WardenModuleUse", "d6/df0/a11156.html", "d6/df0/a11156" ],
-    [ "WardenModuleTransfer", "dc/d90/a11160.html", "dc/d90/a11160" ],
-    [ "WardenHashRequest", "d8/da5/a11164.html", "d8/da5/a11164" ],
-    [ "ClientWardenModule", "db/d3e/a11168.html", "db/d3e/a11168" ],
-    [ "Warden", "d1/dbe/a11172.html", "d1/dbe/a11172" ],
-    [ "WardenCheckType", "d9/df5/a01574.html#a7598131f87414a66259189a0518ca6f2", [
-      [ "MEM_CHECK", "d9/df5/a01574.html#a7598131f87414a66259189a0518ca6f2aba449b452d425f871a9c01be028b5074", null ],
-      [ "PAGE_CHECK_A", "d9/df5/a01574.html#a7598131f87414a66259189a0518ca6f2a331b64b77a83e62b070746aab1ea995f", null ],
-      [ "PAGE_CHECK_B", "d9/df5/a01574.html#a7598131f87414a66259189a0518ca6f2a366d33d737ecb1b63b92e5c4fc13ed87", null ],
-      [ "MPQ_CHECK", "d9/df5/a01574.html#a7598131f87414a66259189a0518ca6f2ab22116b6a319b5c4ad88eaf90291090b", null ],
-      [ "LUA_EVAL_CHECK", "d9/df5/a01574.html#a7598131f87414a66259189a0518ca6f2a88364ba9c51997e2baa92428922caada", null ],
-      [ "DRIVER_CHECK", "d9/df5/a01574.html#a7598131f87414a66259189a0518ca6f2a2b63e52f1c3146183a59fffa98919c93", null ],
-      [ "TIMING_CHECK", "d9/df5/a01574.html#a7598131f87414a66259189a0518ca6f2ad11a9e323f324f0c3b2b439fec521018", null ],
-      [ "PROC_CHECK", "d9/df5/a01574.html#a7598131f87414a66259189a0518ca6f2a19186939917116389af429c3c658293d", null ],
-      [ "MODULE_CHECK", "d9/df5/a01574.html#a7598131f87414a66259189a0518ca6f2adc2e09d27e8f622121d11ba931c4ff77", null ]
+    [ "OPvPCapturePointHP", "d4/d53/a22472.html", "d4/d53/a22472" ],
+    [ "OutdoorPvPHP", "db/df4/a22476.html", "db/df4/a22476" ],
+    [ "OutdoorPvPHPBuffZonesNum", "d9/df5/a01574.html#a01aada98c8079ea71a361cba06e10640", null ],
+    [ "OutdoorPvPHPSpells", "d9/df5/a01574.html#a09664100577cc20866b21589f3c1eb4a", [
+      [ "AlliancePlayerKillReward", "d9/df5/a01574.html#a09664100577cc20866b21589f3c1eb4aad472ab0479934282573d2a2b142ecddc", null ],
+      [ "HordePlayerKillReward", "d9/df5/a01574.html#a09664100577cc20866b21589f3c1eb4aa831169d26f4b6d47dc372629927d7e45", null ],
+      [ "AllianceBuff", "d9/df5/a01574.html#a09664100577cc20866b21589f3c1eb4aa426e0e0ba254467f65dbcecd1cb3451a", null ],
+      [ "HordeBuff", "d9/df5/a01574.html#a09664100577cc20866b21589f3c1eb4aab7ca0ff835377a499cd163afa9ddfaa2", null ]
     ] ],
-    [ "WardenOpcodes", "d9/df5/a01574.html#a8d0de714c4a4cf7a125c6187a7d19e51", [
-      [ "WARDEN_CMSG_MODULE_MISSING", "d9/df5/a01574.html#a8d0de714c4a4cf7a125c6187a7d19e51a334622303a3ea504196a3807f5da22f4", null ],
-      [ "WARDEN_CMSG_MODULE_OK", "d9/df5/a01574.html#a8d0de714c4a4cf7a125c6187a7d19e51a7636fd5a47dd45d2bf69a4625d77939c", null ],
-      [ "WARDEN_CMSG_CHEAT_CHECKS_RESULT", "d9/df5/a01574.html#a8d0de714c4a4cf7a125c6187a7d19e51a713a20be2d2cf1fa7d46ee2b788bc6f5", null ],
-      [ "WARDEN_CMSG_MEM_CHECKS_RESULT", "d9/df5/a01574.html#a8d0de714c4a4cf7a125c6187a7d19e51adaac6c4f6f3ac87386438a5228ba617f", null ],
-      [ "WARDEN_CMSG_HASH_RESULT", "d9/df5/a01574.html#a8d0de714c4a4cf7a125c6187a7d19e51a51c0070c4347129060a6714ae0f483ed", null ],
-      [ "WARDEN_CMSG_MODULE_FAILED", "d9/df5/a01574.html#a8d0de714c4a4cf7a125c6187a7d19e51a5a2e35d214965eb7dccec345e261fadc", null ],
-      [ "WARDEN_SMSG_MODULE_USE", "d9/df5/a01574.html#a8d0de714c4a4cf7a125c6187a7d19e51ad8b63ed3f3ec8941563402a5eacf9d30", null ],
-      [ "WARDEN_SMSG_MODULE_CACHE", "d9/df5/a01574.html#a8d0de714c4a4cf7a125c6187a7d19e51aa12b4718a7515d81608ba46205625a11", null ],
-      [ "WARDEN_SMSG_CHEAT_CHECKS_REQUEST", "d9/df5/a01574.html#a8d0de714c4a4cf7a125c6187a7d19e51ae5eafc7b23b0d14c934e9eb48fa73709", null ],
-      [ "WARDEN_SMSG_MODULE_INITIALIZE", "d9/df5/a01574.html#a8d0de714c4a4cf7a125c6187a7d19e51aafdff6ee4abd8ad4511d527f09154da8", null ],
-      [ "WARDEN_SMSG_MEM_CHECKS_REQUEST", "d9/df5/a01574.html#a8d0de714c4a4cf7a125c6187a7d19e51a41d76534b91d6af9e1b3ca116c4eda82", null ],
-      [ "WARDEN_SMSG_HASH_REQUEST", "d9/df5/a01574.html#a8d0de714c4a4cf7a125c6187a7d19e51a69c3028f1b435c282c384008e49eb451", null ]
-    ] ]
+    [ "OutdoorPvPHPTowerType", "d9/df5/a01574.html#ad618152baad1f5a1d7f70f40941e8f33", [
+      [ "HP_TOWER_BROKEN_HILL", "d9/df5/a01574.html#ad618152baad1f5a1d7f70f40941e8f33ac441f3412d9e7d328a88cb288f56bfd9", null ],
+      [ "HP_TOWER_OVERLOOK", "d9/df5/a01574.html#ad618152baad1f5a1d7f70f40941e8f33a8c33cdd1da9aa64b4a329b18f6f54447", null ],
+      [ "HP_TOWER_STADIUM", "d9/df5/a01574.html#ad618152baad1f5a1d7f70f40941e8f33a7fda380ac328f409fa311478cd32be84", null ],
+      [ "HP_TOWER_NUM", "d9/df5/a01574.html#ad618152baad1f5a1d7f70f40941e8f33a83bc78133ae0c9793e647dad81a62355", null ]
+    ] ],
+    [ "OutdoorPvPHPWorldStates", "d9/df5/a01574.html#a38b09ba25777a9f24adfea3db52e9e95", [
+      [ "HP_UI_TOWER_DISPLAY_A", "d9/df5/a01574.html#a38b09ba25777a9f24adfea3db52e9e95a453dfb3c3e42144d64cecb1f6a27d1f5", null ],
+      [ "HP_UI_TOWER_DISPLAY_H", "d9/df5/a01574.html#a38b09ba25777a9f24adfea3db52e9e95a7dd2012ec1a9bbfba46f2e82a13a3224", null ],
+      [ "HP_UI_TOWER_COUNT_H", "d9/df5/a01574.html#a38b09ba25777a9f24adfea3db52e9e95a8d555f2c06225cc60f96cad000f2bccd", null ],
+      [ "HP_UI_TOWER_COUNT_A", "d9/df5/a01574.html#a38b09ba25777a9f24adfea3db52e9e95a2982f04ca468870858ef1aec903ed720", null ],
+      [ "HP_UI_TOWER_SLIDER_N", "d9/df5/a01574.html#a38b09ba25777a9f24adfea3db52e9e95abba2cb325ca58cc38eff6bff404bd9cc", null ],
+      [ "HP_UI_TOWER_SLIDER_POS", "d9/df5/a01574.html#a38b09ba25777a9f24adfea3db52e9e95a451729b3b84d31e6455fd4c754719e50", null ],
+      [ "HP_UI_TOWER_SLIDER_DISPLAY", "d9/df5/a01574.html#a38b09ba25777a9f24adfea3db52e9e95ae6c66ce15e068cdfcda41d75a3a243ad", null ]
+    ] ],
+    [ "HP_CREDITMARKER", "d9/df5/a01574.html#a3be5b978c2160f84a013071d76c121aa", null ],
+    [ "HP_MAP_A", "d9/df5/a01574.html#ab540dae1c3c44e27c4441e9d56e10d1d", null ],
+    [ "HP_MAP_H", "d9/df5/a01574.html#ab15c51d80dc177784041dedc55e39c56", null ],
+    [ "HP_MAP_N", "d9/df5/a01574.html#a8a39817e7479fa79181e8c99bb83ca5c", null ],
+    [ "HP_TowerArtKit_A", "d9/df5/a01574.html#ab9c6e470e4a4759ce2e77f88661521bb", null ],
+    [ "HP_TowerArtKit_H", "d9/df5/a01574.html#a6791490624d9d1c2995c6a13659f8692", null ],
+    [ "HP_TowerArtKit_N", "d9/df5/a01574.html#ae64775fc45fae501937d72c9d55c8dc1", null ],
+    [ "HPCapturePoints", "d9/df5/a01574.html#a23f671f25a8a3e3db11f4a0953b34773", null ],
+    [ "HPTowerFlags", "d9/df5/a01574.html#ae6571d986fbbf7b469cf495033f46516", null ],
+    [ "OutdoorPvPHPBuffZones", "d9/df5/a01574.html#a876ea3aeffde8ab2532706d13ae6e2ce", null ]
 ];

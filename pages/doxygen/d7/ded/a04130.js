@@ -1,4 +1,7 @@
 var a04130 =
 [
-    [ "AppenderFile", "dd/d1a/a05236.html", "dd/d1a/a05236" ]
+    [ "GetExplicitDiscoverySpell", "d7/ded/a04130.html#a7cdb9e342efe04c1ba8caf202b7b0d96", null ],
+    [ "GetSkillDiscoverySpell", "d7/ded/a04130.html#ab50472e4f1f892eb77ce660ef00d808a", null ],
+    [ "HasDiscoveredAllSpells", "d7/ded/a04130.html#abdf3c2fcf65212466dfb54053e35024c", null ],
+    [ "LoadSkillDiscoveryTable", "d7/ded/a04130.html#addd95f0a239a27ed32cd943aa1052019", null ]
 ];

@@ -1,4 +1,6 @@
 var a00155 =
 [
-    [ "MOVEMENT_PACKET_TIME_DELAY", "d3/df8/a00155.html#a69e254ae3a119a96053add6b9732296c", null ]
+    [ "mean", "d3/df8/a00155.html#a64ba279a3d3edca415239118167c0206", null ],
+    [ "median", "d3/df8/a00155.html#a4840fd449eb626bea901860e4c1be22a", null ],
+    [ "standard_deviation", "d3/df8/a00155.html#a60ce9c7718ec2901f037e2368f93026d", null ]
 ];

@@ -1,16 +1,41 @@
 var a00983 =
 [
-    [ "boss_grizzle", "da/d0b/a11595.html", "da/d0b/a11595" ],
-    [ "boss_grizzle::boss_grizzleAI", "db/dd2/a11599.html", "db/dd2/a11599" ],
-    [ "Grizzle", "d7/d98/a00983.html#acfff5d4b983e4db1d5efb6bd5da7e7aa", [
-      [ "SPELL_GROUNDTREMOR", "d7/d98/a00983.html#acfff5d4b983e4db1d5efb6bd5da7e7aaa4426ae7fabf4ddb0d8355b0049b5a6bb", null ],
-      [ "SPELL_FRENZY", "d7/d98/a00983.html#acfff5d4b983e4db1d5efb6bd5da7e7aaab54f261ba282273bed875abe6642a293", null ],
-      [ "EMOTE_FRENZY_KILL", "d7/d98/a00983.html#acfff5d4b983e4db1d5efb6bd5da7e7aaaebdb26e3a90dde560c1c4f7fd5615f63", null ]
+    [ "npc_pet_hunter_snake_trap", "de/d7c/a24388.html", "de/d7c/a24388" ],
+    [ "HunterSpells", "d7/d98/a00983.html#a87efb4c7cf60464c813daf57f8006a7e", [
+      [ "SPELL_HUNTER_CRIPPLING_POISON", "d7/d98/a00983.html#a87efb4c7cf60464c813daf57f8006a7ea919b3819273ed109abc5ff9e1f17f280", null ],
+      [ "SPELL_HUNTER_DEADLY_POISON_PASSIVE", "d7/d98/a00983.html#a87efb4c7cf60464c813daf57f8006a7ead1a8eca1edbd63099142576708bdcdbf", null ],
+      [ "SPELL_HUNTER_MIND_NUMBING_POISON", "d7/d98/a00983.html#a87efb4c7cf60464c813daf57f8006a7eadf08a2ccf6ab77efd0195c9312df57fc", null ],
+      [ "SPELL_HUNTER_GLYPH_OF_SNAKE_TRAP", "d7/d98/a00983.html#a87efb4c7cf60464c813daf57f8006a7eafb79cd1f0ef5f656d3f72634c53cfde6", null ],
+      [ "SPELL_HUNTER_PET_SCALING", "d7/d98/a00983.html#a87efb4c7cf60464c813daf57f8006a7ea5d2116d1e86d04190a20c4e9fed1c86f", null ],
+      [ "SPELL_HUNTER_WYVERN_STING_DOT", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea30a1369afc6885f7670bcf55f8948c07", null ],
+      [ "SPELL_HUNTER_ASPECT_OF_THE_BEAST", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea9729e1f80d9e5ce1cd9928f8ed27ca00", null ],
+      [ "SPELL_HUNTER_ASPECT_OF_THE_BEAST_PET", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7eaab952376ae60a2bfa87860e57b81604e", null ],
+      [ "SPELL_HUNTER_ASPECT_OF_THE_VIPER", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ead05cc74310d029dfed9226f52ff7e9e7", null ],
+      [ "SPELL_HUNTER_ASPECT_OF_THE_VIPER_ENERGIZE", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea291f618e33506ca7b2182480873737f8", null ],
+      [ "SPELL_HUNTER_BESTIAL_WRATH", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ead2ce3e1b324d99ed0919aad89eb0d524", null ],
+      [ "SPELL_HUNTER_CHIMERA_SHOT_SERPENT", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7eae4017a2262529adaf18e0cfcc81ca052", null ],
+      [ "SPELL_HUNTER_CHIMERA_SHOT_VIPER", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea27313cec0b1c54431414148930dee532", null ],
+      [ "SPELL_HUNTER_CHIMERA_SHOT_SCORPID", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea02c4f17910c60803051dc22d837911ce", null ],
+      [ "SPELL_HUNTER_GLYPH_OF_ASPECT_OF_THE_VIPER", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea6511da7ee83f971738c671b8150f93c1", null ],
+      [ "SPELL_HUNTER_IMPROVED_MEND_PET", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ead3961ef5de734ba9384c7c21b78b88a3", null ],
+      [ "SPELL_HUNTER_INVIGORATION_TRIGGERED", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea0835f319e0b7eae6873df26c0ecb1516", null ],
+      [ "SPELL_HUNTER_MASTERS_CALL_TRIGGERED", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea6268d79b97acf49da958366261e0df54", null ],
+      [ "SPELL_HUNTER_MISDIRECTION_PROC", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea3e0615670e4fc9469b7250228033251c", null ],
+      [ "SPELL_HUNTER_PET_LAST_STAND_TRIGGERED", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ead1b47010db0ea9e584e24e15141719b7", null ],
+      [ "SPELL_HUNTER_PET_HEART_OF_THE_PHOENIX", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea0a1495d9817725f5cb19e63026605ce5", null ],
+      [ "SPELL_HUNTER_PET_HEART_OF_THE_PHOENIX_TRIGGERED", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea8ab8a8af8e4201e7442c10a338a5d6dd", null ],
+      [ "SPELL_HUNTER_PET_HEART_OF_THE_PHOENIX_DEBUFF", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea848635e540638b2f1fb01164ec34a332", null ],
+      [ "SPELL_HUNTER_PET_CARRION_FEEDER_TRIGGERED", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7eabb248b57d2aeb464deeed4679d51d110", null ],
+      [ "SPELL_HUNTER_READINESS", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea5eb25691f66e527c4af972f7390363a7", null ],
+      [ "SPELL_HUNTER_SNIPER_TRAINING_R1", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea28068379ce495b5984cad20edcd9f95c", null ],
+      [ "SPELL_HUNTER_SNIPER_TRAINING_BUFF_R1", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea38571110b4e0757cb9400f8c23f34410", null ],
+      [ "SPELL_HUNTER_VICIOUS_VIPER", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea91c03fc46203d796b746b1f13a72f034", null ],
+      [ "SPELL_HUNTER_VIPER_ATTACK_SPEED", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea05da71a759b2932a2f0dc58dc3852138", null ],
+      [ "SPELL_DRAENEI_GIFT_OF_THE_NAARU", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea8b43cf97edfed28f7001b77141f01fac", null ],
+      [ "SPELL_HUNTER_GLYPH_OF_ARCANE_SHOT", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea24de2077bf8ff891f5d0639cae664d5b", null ],
+      [ "SPELL_LOCK_AND_LOAD_TRIGGER", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea5706be61803978650ec18c15106c8491", null ],
+      [ "SPELL_LOCK_AND_LOAD_MARKER", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7eadfa5358bedddaa69188aa6805eee5002", null ],
+      [ "SPELL_HUNTER_PET_LEGGINGS_OF_BEAST_MASTERY", "dd/db2/a00866.html#a87efb4c7cf60464c813daf57f8006a7ea9690d550fbf55abe4d2da23e29b5f8b6", null ]
     ] ],
-    [ "Timer", "d7/d98/a00983.html#a6e0035edd58cc6ca8c94b5f9723a0d80", [
-      [ "TIMER_GROUNDTREMOR", "d7/d98/a00983.html#a6e0035edd58cc6ca8c94b5f9723a0d80a5046fe24f2bd1c59407d77496c82dd59", null ],
-      [ "TIMER_FRENZY", "d7/d98/a00983.html#a6e0035edd58cc6ca8c94b5f9723a0d80a31ac972cb44128c4662a608b8f6eeb83", null ],
-      [ "TIMER_WAR_STOMP", "d5/d54/a00938.html#a6e0035edd58cc6ca8c94b5f9723a0d80a77d3bf4a5b183f5934aa399d3e185eef", null ]
-    ] ],
-    [ "AddSC_boss_grizzle", "d7/d98/a00983.html#adb6c19fe584b9ecd11ab67084570a0be", null ]
+    [ "AddSC_hunter_pet_scripts", "d7/d98/a00983.html#ab89117a79c55f003f82b06a1878e6534", null ]
 ];

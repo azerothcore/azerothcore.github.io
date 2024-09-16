@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/DynamicObject/DynamicObject.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/shared/Packets/ByteBuffer.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,56 +106,102 @@ $(document).ready(function(){initNavTree('df/dbb/a00698.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">DynamicObject.h File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">ByteBuffer.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Object.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ByteConverter.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &lt;array&gt;</code><br />
+<code>#include &lt;cstring&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da8/a07892.html">DynamicObject</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2a/a28340.html">ByteBufferException</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dec/a28344.html">ByteBufferPositionException</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3d/a28348.html">ByteBufferSourceException</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db3/a28352.html">ByteBufferInvalidValueException</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df4/a28356.html">ByteBuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:aee85c2f840289bcf773609333ee91131"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbb/a00698.html#aee85c2f840289bcf773609333ee91131">DynamicObjectType</a> { <br />
-&#160;&#160;<a class="el" href="../../df/dbb/a00698.html#aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b">DYNAMIC_OBJECT_PORTAL</a> = 0x0
-, <br />
-&#160;&#160;<a class="el" href="../../df/dbb/a00698.html#aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546">DYNAMIC_OBJECT_AREA_SPELL</a> = 0x1
-, <br />
-&#160;&#160;<a class="el" href="../../df/dbb/a00698.html#aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d">DYNAMIC_OBJECT_FARSIGHT_FOCUS</a> = 0x2
-<br />
- }</td></tr>
-<tr class="separator:aee85c2f840289bcf773609333ee91131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a31d035bbbf2d8edc4942e9f676b32878"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a31d035bbbf2d8edc4942e9f676b32878"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/dbb/a00698.html#a31d035bbbf2d8edc4942e9f676b32878">ByteBuffer::read&lt; std::string &gt;</a> ()</td></tr>
+<tr class="separator:a31d035bbbf2d8edc4942e9f676b32878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3550abfaebcca85d45dd39281be0101d"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a3550abfaebcca85d45dd39281be0101d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/dbb/a00698.html#a3550abfaebcca85d45dd39281be0101d">ByteBuffer::read_skip&lt; std::string &gt;</a> ()</td></tr>
+<tr class="separator:a3550abfaebcca85d45dd39281be0101d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="aee85c2f840289bcf773609333ee91131" name="aee85c2f840289bcf773609333ee91131"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee85c2f840289bcf773609333ee91131">&#9670;&#160;</a></span>DynamicObjectType</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a31d035bbbf2d8edc4942e9f676b32878" name="a31d035bbbf2d8edc4942e9f676b32878"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31d035bbbf2d8edc4942e9f676b32878">&#9670;&#160;</a></span>ByteBuffer::read&lt; std::string &gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../df/dbb/a00698.html#aee85c2f840289bcf773609333ee91131">DynamicObjectType</a></td>
+          <td class="memname">std::string <a class="el" href="../../d0/df4/a28356.html#afab3484e1af821859f16b7bdacf2af9c">ByteBuffer::read</a>&lt; std::string &gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b" name="aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b"></a>DYNAMIC_OBJECT_PORTAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546" name="aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546"></a>DYNAMIC_OBJECT_AREA_SPELL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d" name="aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d"></a>DYNAMIC_OBJECT_FARSIGHT_FOCUS&#160;</td><td class="fielddoc"></td></tr>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../df/dbb/a00698.html#aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b">DYNAMIC_OBJECT_PORTAL</a>           = 0x0,      <span class="comment">// unused</span></div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../df/dbb/a00698.html#aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546">DYNAMIC_OBJECT_AREA_SPELL</a>       = 0x1,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../df/dbb/a00698.html#aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d">DYNAMIC_OBJECT_FARSIGHT_FOCUS</a>   = 0x2,</div>
-<div class="line"><span class="lineno">   32</span>};</div>
-<div class="ttc" id="aa00698_html_aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b"><div class="ttname"><a href="../../df/dbb/a00698.html#aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b">DYNAMIC_OBJECT_PORTAL</a></div><div class="ttdeci">@ DYNAMIC_OBJECT_PORTAL</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:29</div></div>
-<div class="ttc" id="aa00698_html_aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d"><div class="ttname"><a href="../../df/dbb/a00698.html#aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d">DYNAMIC_OBJECT_FARSIGHT_FOCUS</a></div><div class="ttdeci">@ DYNAMIC_OBJECT_FARSIGHT_FOCUS</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:31</div></div>
-<div class="ttc" id="aa00698_html_aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546"><div class="ttname"><a href="../../df/dbb/a00698.html#aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546">DYNAMIC_OBJECT_AREA_SPELL</a></div><div class="ttdeci">@ DYNAMIC_OBJECT_AREA_SPELL</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:30</div></div>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="../../d0/d70/a04658.html#_todo000261">Todo:</a></b></dt><dd>Make a <a class="el" href="../../d5/d5b/a00695.html">ByteBuffer.cpp</a> and move all this inlining to it. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">  538</span>{</div>
+<div class="line"><span class="lineno">  539</span>    std::string tmp;</div>
+<div class="line"><span class="lineno">  540</span>    *<span class="keyword">this</span> &gt;&gt; tmp;</div>
+<div class="line"><span class="lineno">  541</span>    <span class="keywordflow">return</span> tmp;</div>
+<div class="line"><span class="lineno">  542</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a3550abfaebcca85d45dd39281be0101d" name="a3550abfaebcca85d45dd39281be0101d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3550abfaebcca85d45dd39281be0101d">&#9670;&#160;</a></span>ByteBuffer::read_skip&lt; std::string &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d0/df4/a28356.html#a13c94e2d389aa4c7427d1ba0c79fc955">ByteBuffer::read_skip</a>&lt; std::string &gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  559</span>{</div>
+<div class="line"><span class="lineno">  560</span>    read_skip&lt;char*&gt;();</div>
+<div class="line"><span class="lineno">  561</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -164,8 +210,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_433144acbd6159b6f819bf3bc146888c.html">DynamicObject</a></li><li class="navelem"><a class="el" href="../../df/dbb/a00698.html">DynamicObject.h</a></li>
-    <li class="footer">Generated on Mon Sep 9 2024 20:38:25 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_777a9b9a3e1a361a798e834f8fa9f1dc.html">shared</a></li><li class="navelem"><a class="el" href="../../dir_4642c4e7e8a34de1a75cadff13450cb9.html">Packets</a></li><li class="navelem"><a class="el" href="../../df/dbb/a00698.html">ByteBuffer.h</a></li>
+    <li class="footer">Generated on Mon Sep 16 2024 20:40:56 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,9 +1,11 @@
 var a03104 =
 [
-    [ "instance_drak_tharon_keep", "da/d67/a16592.html", "da/d67/a16592" ],
-    [ "instance_drak_tharon_keep::instance_drak_tharon_keep_InstanceScript", "de/dcc/a16596.html", "de/dcc/a16596" ],
-    [ "spell_dtk_raise_dead_aura", "d7/d13/a16600.html", "d7/d13/a16600" ],
-    [ "spell_dtk_summon_random_drakkari", "da/dfa/a16604.html", "da/dfa/a16604" ],
-    [ "AddSC_instance_drak_tharon_keep", "da/dc0/a03104.html#a5644ddec1299c3c3988ffb003d0c3367", null ],
-    [ "doorData", "da/dc0/a03104.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
+    [ "AuraEffect", "d4/d84/a10752.html", "d4/d84/a10752" ],
+    [ "Acore::AbsorbAuraOrderPred", "dc/d2d/a10756.html", "dc/d2d/a10756" ],
+    [ "pAuraEffectHandler", "da/dc0/a03104.html#a9e98d9a1c1cc41922f386b184fd7ce67", null ],
+    [ "BrewfestEntries", "da/dc0/a03104.html#a4ee83f582e4ebba3a5aea9ab1a5c9354", [
+      [ "BREWFEST_KODO", "da/dc0/a03104.html#a4ee83f582e4ebba3a5aea9ab1a5c9354acbc7617ce19ea8d214518ab0335275c5", null ],
+      [ "GREAT_BREWFEST_KODO", "da/dc0/a03104.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a9e68ffb636426417370cc6b94b7b46aa", null ],
+      [ "FRESH_BREWFEST_HOPS", "da/dc0/a03104.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a62ef26e3a60fddc8cbadbd349cb054bf", null ]
+    ] ]
 ];

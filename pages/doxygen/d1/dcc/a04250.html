@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Metric/Metric.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/WorldScript.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,474 +106,112 @@ $(document).ready(function(){initNavTree('d1/dcc/a04250.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">Metric.h File Reference</div></div>
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">WorldScript.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Duration.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MPSCQueue.h</a>&quot;</code><br />
-<code>#include &lt;functional&gt;</code><br />
-<code>#include &lt;memory&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &lt;unordered_map&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d44/a05256.html">MetricData</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da6/a10108.html">WorldScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc5/a05260.html">Metric</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d65/a05264.html">MetricStopWatch&lt; LoggerType &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d5/d43/a04668"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d43/a04668.html">Acore</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:db/d7c/a04669"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/a04669.html">Acore::Asio</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a4e89926204845a9c9e315d6f0abec5ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcc/a04250.html#a4e89926204845a9c9e315d6f0abec5ef">sMetric</a>&#160;&#160;&#160;<a class="el" href="../../d3/dc5/a05260.html#a5013a4cfaa8e40a739e9f7439efae575">Metric::instance</a>()</td></tr>
-<tr class="separator:a4e89926204845a9c9e315d6f0abec5ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab81b5769123c1e5e3870b9b05f25fe0a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcc/a04250.html#ab81b5769123c1e5e3870b9b05f25fe0a">METRIC_TAG</a>(name,  value)&#160;&#160;&#160;{ name, value }</td></tr>
-<tr class="separator:ab81b5769123c1e5e3870b9b05f25fe0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa861206b38b55c4f39f1ed649defb338"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcc/a04250.html#aa861206b38b55c4f39f1ed649defb338">METRIC_DO_CONCAT</a>(a,  b)&#160;&#160;&#160;a##b</td></tr>
-<tr class="separator:aa861206b38b55c4f39f1ed649defb338"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad81585df46d4cee988a1222012dbabf1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcc/a04250.html#ad81585df46d4cee988a1222012dbabf1">METRIC_CONCAT</a>(a,  b)&#160;&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#aa861206b38b55c4f39f1ed649defb338">METRIC_DO_CONCAT</a>(a, b)</td></tr>
-<tr class="separator:ad81585df46d4cee988a1222012dbabf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf91483a75eca0531263536ce38d9339"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcc/a04250.html#adf91483a75eca0531263536ce38d9339">METRIC_UNIQUE_NAME</a>(name)&#160;&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#ad81585df46d4cee988a1222012dbabf1">METRIC_CONCAT</a>(name, __LINE__)</td></tr>
-<tr class="separator:adf91483a75eca0531263536ce38d9339"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad57573999508dbc7a2c953379996b542"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcc/a04250.html#ad57573999508dbc7a2c953379996b542">METRIC_EVENT</a>(category,  title,  description)</td></tr>
-<tr class="separator:ad57573999508dbc7a2c953379996b542"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92aedc832ddfc479ecc61289f12be449"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcc/a04250.html#a92aedc832ddfc479ecc61289f12be449">METRIC_VALUE</a>(category,  value, ...)</td></tr>
-<tr class="separator:a92aedc832ddfc479ecc61289f12be449"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad88ae7d281622a32a700443aa3dc51f9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcc/a04250.html#ad88ae7d281622a32a700443aa3dc51f9">METRIC_TIMER</a>(category, ...)</td></tr>
-<tr class="separator:ad88ae7d281622a32a700443aa3dc51f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac782d1c3265f7b707782545777d49d05"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcc/a04250.html#ac782d1c3265f7b707782545777d49d05">METRIC_DETAILED_EVENT</a>(category,  title,  description)&#160;&#160;&#160;((void)0)</td></tr>
-<tr class="separator:ac782d1c3265f7b707782545777d49d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22dcbf78f0d280a4b2b4e0662034efe9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcc/a04250.html#a22dcbf78f0d280a4b2b4e0662034efe9">METRIC_DETAILED_TIMER</a>(category, ...)&#160;&#160;&#160;((void)0)</td></tr>
-<tr class="separator:a22dcbf78f0d280a4b2b4e0662034efe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a281633f6f8b252d96029ce8fd29da746"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcc/a04250.html#a281633f6f8b252d96029ce8fd29da746">METRIC_DETAILED_NO_THRESHOLD_TIMER</a>(category, ...)&#160;&#160;&#160;((void)0)</td></tr>
-<tr class="separator:a281633f6f8b252d96029ce8fd29da746"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a8fdc9a93c03faef11e4c36679e79e3f1"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcc/a04250.html#a8fdc9a93c03faef11e4c36679e79e3f1">MetricTag</a></td></tr>
-<tr class="separator:a8fdc9a93c03faef11e4c36679e79e3f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a0bb9cc086e32544cb0e43338f83d8e62"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcc/a04250.html#a0bb9cc086e32544cb0e43338f83d8e62">MetricDataType</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#a0bb9cc086e32544cb0e43338f83d8e62a62f4e964751c180f1ab400ee1852b155">METRIC_DATA_VALUE</a>
+<tr class="memitem:a4d497fc434376a9edca1897eabc39493"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493">WorldHook</a> { <br />
+&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a1115383e9c9ccf62f08548733c8f5f1c">WORLDHOOK_ON_OPEN_STATE_CHANGE</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#a0bb9cc086e32544cb0e43338f83d8e62a599565c733d02dcd1c4676c2ad463af2">METRIC_DATA_EVENT</a>
+&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493af6efa892b7f5bfd295f23a9b8afc6ad7">WORLDHOOK_ON_AFTER_CONFIG_LOAD</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493ab212a383f870b580ecf69fd1df3f9213">WORLDHOOK_ON_LOAD_CUSTOM_DATABASE_TABLE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493ac0d62a83ca416843503c5c9eac516901">WORLDHOOK_ON_BEFORE_CONFIG_LOAD</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a7080a363df28c0ffb71d52ee18b85f8c">WORLDHOOK_ON_MOTD_CHANGE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493ab554902e66fb497dbb3ac74151fe8bb7">WORLDHOOK_ON_SHUTDOWN_INITIATE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a86b7bcb6f946ccb6d6c444773054ecb6">WORLDHOOK_ON_SHUTDOWN_CANCEL</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a891997df42f33b397fe3c92cf68e3aca">WORLDHOOK_ON_UPDATE</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493abaa74ee704d5eb3634a515fe131e66fa">WORLDHOOK_ON_STARTUP</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a804c550dd48cb62983e43dfed1ba2176">WORLDHOOK_ON_SHUTDOWN</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a02253717dde1cc98a2643eefd76f0d91">WORLDHOOK_ON_AFTER_UNLOAD_ALL_MAPS</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a962dfc07ec34ca7510d8759c193ba56e">WORLDHOOK_ON_BEFORE_FINALIZE_PLAYER_WORLD_SESSION</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a2e95fec6ec46709803e187fe3c60f427">WORLDHOOK_ON_BEFORE_WORLD_INITIALIZED</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a1a7e32e7ba7aec9dc7b8edd43a903800">WORLDHOOK_END</a>
 <br />
  }</td></tr>
-<tr class="separator:a0bb9cc086e32544cb0e43338f83d8e62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ab339934305abce426aa1d43c99d65e9f"><td class="memTemplParams" colspan="2">template&lt;typename LoggerType &gt; </td></tr>
-<tr class="memitem:ab339934305abce426aa1d43c99d65e9f"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../df/d65/a05264.html">MetricStopWatch</a>&lt; LoggerType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/dcc/a04250.html#ab339934305abce426aa1d43c99d65e9f">MakeMetricStopWatch</a> (LoggerType &amp;&amp;loggerFunc)</td></tr>
-<tr class="separator:ab339934305abce426aa1d43c99d65e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a4d497fc434376a9edca1897eabc39493"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ad81585df46d4cee988a1222012dbabf1" name="ad81585df46d4cee988a1222012dbabf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad81585df46d4cee988a1222012dbabf1">&#9670;&#160;</a></span>METRIC_CONCAT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define METRIC_CONCAT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">a, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">b&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#aa861206b38b55c4f39f1ed649defb338">METRIC_DO_CONCAT</a>(a, b)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac782d1c3265f7b707782545777d49d05" name="ac782d1c3265f7b707782545777d49d05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac782d1c3265f7b707782545777d49d05">&#9670;&#160;</a></span>METRIC_DETAILED_EVENT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define METRIC_DETAILED_EVENT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">category, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">title, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">description&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((void)0)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a281633f6f8b252d96029ce8fd29da746" name="a281633f6f8b252d96029ce8fd29da746"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a281633f6f8b252d96029ce8fd29da746">&#9670;&#160;</a></span>METRIC_DETAILED_NO_THRESHOLD_TIMER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define METRIC_DETAILED_NO_THRESHOLD_TIMER</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">category, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((void)0)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a22dcbf78f0d280a4b2b4e0662034efe9" name="a22dcbf78f0d280a4b2b4e0662034efe9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22dcbf78f0d280a4b2b4e0662034efe9">&#9670;&#160;</a></span>METRIC_DETAILED_TIMER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define METRIC_DETAILED_TIMER</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">category, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((void)0)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa861206b38b55c4f39f1ed649defb338" name="aa861206b38b55c4f39f1ed649defb338"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa861206b38b55c4f39f1ed649defb338">&#9670;&#160;</a></span>METRIC_DO_CONCAT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define METRIC_DO_CONCAT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">a, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">b&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;a##b</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad57573999508dbc7a2c953379996b542" name="ad57573999508dbc7a2c953379996b542"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad57573999508dbc7a2c953379996b542">&#9670;&#160;</a></span>METRIC_EVENT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define METRIC_EVENT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">category, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">title, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">description&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">        __pragma(warning(push))                                        \</div>
-<div class="line">        __pragma(warning(disable:4127))                                \</div>
-<div class="line">        <span class="keywordflow">do</span> {                                                           \</div>
-<div class="line">            if (<a class="code hl_define" href="../../d1/dcc/a04250.html#a4e89926204845a9c9e315d6f0abec5ef">sMetric</a>-&gt;IsEnabled())                                  \</div>
-<div class="line">                <a class="code hl_define" href="../../d1/dcc/a04250.html#a4e89926204845a9c9e315d6f0abec5ef">sMetric</a>-&gt;LogEvent(category, title, description);       \</div>
-<div class="line">        } <span class="keywordflow">while</span> (0)                                                    \</div>
-<div class="line">        __pragma(warning(pop))</div>
-<div class="ttc" id="aa04250_html_a4e89926204845a9c9e315d6f0abec5ef"><div class="ttname"><a href="../../d1/dcc/a04250.html#a4e89926204845a9c9e315d6f0abec5ef">sMetric</a></div><div class="ttdeci">#define sMetric</div><div class="ttdef"><b>Definition:</b> Metric.h:130</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ab81b5769123c1e5e3870b9b05f25fe0a" name="ab81b5769123c1e5e3870b9b05f25fe0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab81b5769123c1e5e3870b9b05f25fe0a">&#9670;&#160;</a></span>METRIC_TAG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define METRIC_TAG</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">name, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">value&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;{ name, value }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad88ae7d281622a32a700443aa3dc51f9" name="ad88ae7d281622a32a700443aa3dc51f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad88ae7d281622a32a700443aa3dc51f9">&#9670;&#160;</a></span>METRIC_TIMER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define METRIC_TIMER</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">category, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">        <a class="code hl_class" href="../../df/d65/a05264.html">MetricStopWatch</a> <a class="code hl_define" href="../../d1/dcc/a04250.html#adf91483a75eca0531263536ce38d9339">METRIC_UNIQUE_NAME</a>(__ac_metric_stop_watch) = <a class="code hl_function" href="../../d1/dcc/a04250.html#ab339934305abce426aa1d43c99d65e9f">MakeMetricStopWatch</a>([&amp;](<a class="code hl_typedef" href="../../d7/dba/a04502.html#ae5ca775e8d8c664b6edef818ce1251b9">TimePoint</a> start) \</div>
-<div class="line">        {                                                                                                        \</div>
-<div class="line">            <a class="code hl_define" href="../../d1/dcc/a04250.html#a4e89926204845a9c9e315d6f0abec5ef">sMetric</a>-&gt;LogValue(category, std::chrono::steady_clock::now() - start, { __VA_ARGS__ });              \</div>
-<div class="line">        });</div>
-<div class="ttc" id="aa04250_html_ab339934305abce426aa1d43c99d65e9f"><div class="ttname"><a href="../../d1/dcc/a04250.html#ab339934305abce426aa1d43c99d65e9f">MakeMetricStopWatch</a></div><div class="ttdeci">MetricStopWatch&lt; LoggerType &gt; MakeMetricStopWatch(LoggerType &amp;&amp;loggerFunc)</div><div class="ttdef"><b>Definition:</b> Metric.h:154</div></div>
-<div class="ttc" id="aa04250_html_adf91483a75eca0531263536ce38d9339"><div class="ttname"><a href="../../d1/dcc/a04250.html#adf91483a75eca0531263536ce38d9339">METRIC_UNIQUE_NAME</a></div><div class="ttdeci">#define METRIC_UNIQUE_NAME(name)</div><div class="ttdef"><b>Definition:</b> Metric.h:163</div></div>
-<div class="ttc" id="aa04502_html_ae5ca775e8d8c664b6edef818ce1251b9"><div class="ttname"><a href="../../d7/dba/a04502.html#ae5ca775e8d8c664b6edef818ce1251b9">TimePoint</a></div><div class="ttdeci">std::chrono::steady_clock::time_point TimePoint</div><div class="ttdoc">time_point shorthand typedefs</div><div class="ttdef"><b>Definition:</b> Duration.h:69</div></div>
-<div class="ttc" id="aa05264_html"><div class="ttname"><a href="../../df/d65/a05264.html">MetricStopWatch</a></div><div class="ttdef"><b>Definition:</b> Metric.h:134</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="adf91483a75eca0531263536ce38d9339" name="adf91483a75eca0531263536ce38d9339"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf91483a75eca0531263536ce38d9339">&#9670;&#160;</a></span>METRIC_UNIQUE_NAME</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define METRIC_UNIQUE_NAME</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">name</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d1/dcc/a04250.html#ad81585df46d4cee988a1222012dbabf1">METRIC_CONCAT</a>(name, __LINE__)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a92aedc832ddfc479ecc61289f12be449" name="a92aedc832ddfc479ecc61289f12be449"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92aedc832ddfc479ecc61289f12be449">&#9670;&#160;</a></span>METRIC_VALUE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define METRIC_VALUE</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">category, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">value, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">        __pragma(warning(push))                                        \</div>
-<div class="line">        __pragma(warning(disable:4127))                                \</div>
-<div class="line">        <span class="keywordflow">do</span> {                                                           \</div>
-<div class="line">            if (<a class="code hl_define" href="../../d1/dcc/a04250.html#a4e89926204845a9c9e315d6f0abec5ef">sMetric</a>-&gt;IsEnabled())                                  \</div>
-<div class="line">                <a class="code hl_define" href="../../d1/dcc/a04250.html#a4e89926204845a9c9e315d6f0abec5ef">sMetric</a>-&gt;LogValue(category, value, { __VA_ARGS__ });   \</div>
-<div class="line">        } <span class="keywordflow">while</span> (0)                                                    \</div>
-<div class="line">        __pragma(warning(pop))</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4e89926204845a9c9e315d6f0abec5ef" name="a4e89926204845a9c9e315d6f0abec5ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e89926204845a9c9e315d6f0abec5ef">&#9670;&#160;</a></span>sMetric</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define sMetric&#160;&#160;&#160;<a class="el" href="../../d3/dc5/a05260.html#a5013a4cfaa8e40a739e9f7439efae575">Metric::instance</a>()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a8fdc9a93c03faef11e4c36679e79e3f1" name="a8fdc9a93c03faef11e4c36679e79e3f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fdc9a93c03faef11e4c36679e79e3f1">&#9670;&#160;</a></span>MetricTag</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::pair&lt;std::string, std::string&gt; <a class="el" href="../../d1/dcc/a04250.html#a8fdc9a93c03faef11e4c36679e79e3f1">MetricTag</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a0bb9cc086e32544cb0e43338f83d8e62" name="a0bb9cc086e32544cb0e43338f83d8e62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bb9cc086e32544cb0e43338f83d8e62">&#9670;&#160;</a></span>MetricDataType</h2>
+<a id="a4d497fc434376a9edca1897eabc39493" name="a4d497fc434376a9edca1897eabc39493"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d497fc434376a9edca1897eabc39493">&#9670;&#160;</a></span>WorldHook</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d1/dcc/a04250.html#a0bb9cc086e32544cb0e43338f83d8e62">MetricDataType</a></td>
+          <td class="memname">enum <a class="el" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493">WorldHook</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0bb9cc086e32544cb0e43338f83d8e62a62f4e964751c180f1ab400ee1852b155" name="a0bb9cc086e32544cb0e43338f83d8e62a62f4e964751c180f1ab400ee1852b155"></a>METRIC_DATA_VALUE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bb9cc086e32544cb0e43338f83d8e62a599565c733d02dcd1c4676c2ad463af2" name="a0bb9cc086e32544cb0e43338f83d8e62a599565c733d02dcd1c4676c2ad463af2"></a>METRIC_DATA_EVENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4d497fc434376a9edca1897eabc39493a1115383e9c9ccf62f08548733c8f5f1c" name="a4d497fc434376a9edca1897eabc39493a1115383e9c9ccf62f08548733c8f5f1c"></a>WORLDHOOK_ON_OPEN_STATE_CHANGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d497fc434376a9edca1897eabc39493af6efa892b7f5bfd295f23a9b8afc6ad7" name="a4d497fc434376a9edca1897eabc39493af6efa892b7f5bfd295f23a9b8afc6ad7"></a>WORLDHOOK_ON_AFTER_CONFIG_LOAD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d497fc434376a9edca1897eabc39493ab212a383f870b580ecf69fd1df3f9213" name="a4d497fc434376a9edca1897eabc39493ab212a383f870b580ecf69fd1df3f9213"></a>WORLDHOOK_ON_LOAD_CUSTOM_DATABASE_TABLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d497fc434376a9edca1897eabc39493ac0d62a83ca416843503c5c9eac516901" name="a4d497fc434376a9edca1897eabc39493ac0d62a83ca416843503c5c9eac516901"></a>WORLDHOOK_ON_BEFORE_CONFIG_LOAD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d497fc434376a9edca1897eabc39493a7080a363df28c0ffb71d52ee18b85f8c" name="a4d497fc434376a9edca1897eabc39493a7080a363df28c0ffb71d52ee18b85f8c"></a>WORLDHOOK_ON_MOTD_CHANGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d497fc434376a9edca1897eabc39493ab554902e66fb497dbb3ac74151fe8bb7" name="a4d497fc434376a9edca1897eabc39493ab554902e66fb497dbb3ac74151fe8bb7"></a>WORLDHOOK_ON_SHUTDOWN_INITIATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d497fc434376a9edca1897eabc39493a86b7bcb6f946ccb6d6c444773054ecb6" name="a4d497fc434376a9edca1897eabc39493a86b7bcb6f946ccb6d6c444773054ecb6"></a>WORLDHOOK_ON_SHUTDOWN_CANCEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d497fc434376a9edca1897eabc39493a891997df42f33b397fe3c92cf68e3aca" name="a4d497fc434376a9edca1897eabc39493a891997df42f33b397fe3c92cf68e3aca"></a>WORLDHOOK_ON_UPDATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d497fc434376a9edca1897eabc39493abaa74ee704d5eb3634a515fe131e66fa" name="a4d497fc434376a9edca1897eabc39493abaa74ee704d5eb3634a515fe131e66fa"></a>WORLDHOOK_ON_STARTUP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d497fc434376a9edca1897eabc39493a804c550dd48cb62983e43dfed1ba2176" name="a4d497fc434376a9edca1897eabc39493a804c550dd48cb62983e43dfed1ba2176"></a>WORLDHOOK_ON_SHUTDOWN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d497fc434376a9edca1897eabc39493a02253717dde1cc98a2643eefd76f0d91" name="a4d497fc434376a9edca1897eabc39493a02253717dde1cc98a2643eefd76f0d91"></a>WORLDHOOK_ON_AFTER_UNLOAD_ALL_MAPS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d497fc434376a9edca1897eabc39493a962dfc07ec34ca7510d8759c193ba56e" name="a4d497fc434376a9edca1897eabc39493a962dfc07ec34ca7510d8759c193ba56e"></a>WORLDHOOK_ON_BEFORE_FINALIZE_PLAYER_WORLD_SESSION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d497fc434376a9edca1897eabc39493a2e95fec6ec46709803e187fe3c60f427" name="a4d497fc434376a9edca1897eabc39493a2e95fec6ec46709803e187fe3c60f427"></a>WORLDHOOK_ON_BEFORE_WORLD_INITIALIZED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d497fc434376a9edca1897eabc39493a1a7e32e7ba7aec9dc7b8edd43a903800" name="a4d497fc434376a9edca1897eabc39493a1a7e32e7ba7aec9dc7b8edd43a903800"></a>WORLDHOOK_END&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d1/dcc/a04250.html#a0bb9cc086e32544cb0e43338f83d8e62a62f4e964751c180f1ab400ee1852b155">METRIC_DATA_VALUE</a>,</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d1/dcc/a04250.html#a0bb9cc086e32544cb0e43338f83d8e62a599565c733d02dcd1c4676c2ad463af2">METRIC_DATA_EVENT</a></div>
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a1115383e9c9ccf62f08548733c8f5f1c">WORLDHOOK_ON_OPEN_STATE_CHANGE</a>,</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493af6efa892b7f5bfd295f23a9b8afc6ad7">WORLDHOOK_ON_AFTER_CONFIG_LOAD</a>,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493ab212a383f870b580ecf69fd1df3f9213">WORLDHOOK_ON_LOAD_CUSTOM_DATABASE_TABLE</a>,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493ac0d62a83ca416843503c5c9eac516901">WORLDHOOK_ON_BEFORE_CONFIG_LOAD</a>,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a7080a363df28c0ffb71d52ee18b85f8c">WORLDHOOK_ON_MOTD_CHANGE</a>,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493ab554902e66fb497dbb3ac74151fe8bb7">WORLDHOOK_ON_SHUTDOWN_INITIATE</a>,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a86b7bcb6f946ccb6d6c444773054ecb6">WORLDHOOK_ON_SHUTDOWN_CANCEL</a>,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a891997df42f33b397fe3c92cf68e3aca">WORLDHOOK_ON_UPDATE</a>,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493abaa74ee704d5eb3634a515fe131e66fa">WORLDHOOK_ON_STARTUP</a>,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a804c550dd48cb62983e43dfed1ba2176">WORLDHOOK_ON_SHUTDOWN</a>,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a02253717dde1cc98a2643eefd76f0d91">WORLDHOOK_ON_AFTER_UNLOAD_ALL_MAPS</a>,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a962dfc07ec34ca7510d8759c193ba56e">WORLDHOOK_ON_BEFORE_FINALIZE_PLAYER_WORLD_SESSION</a>,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a2e95fec6ec46709803e187fe3c60f427">WORLDHOOK_ON_BEFORE_WORLD_INITIALIZED</a>,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a1a7e32e7ba7aec9dc7b8edd43a903800">WORLDHOOK_END</a></div>
 <div class="line"><span class="lineno">   40</span>};</div>
-<div class="ttc" id="aa04250_html_a0bb9cc086e32544cb0e43338f83d8e62a599565c733d02dcd1c4676c2ad463af2"><div class="ttname"><a href="../../d1/dcc/a04250.html#a0bb9cc086e32544cb0e43338f83d8e62a599565c733d02dcd1c4676c2ad463af2">METRIC_DATA_EVENT</a></div><div class="ttdeci">@ METRIC_DATA_EVENT</div><div class="ttdef"><b>Definition:</b> Metric.h:39</div></div>
-<div class="ttc" id="aa04250_html_a0bb9cc086e32544cb0e43338f83d8e62a62f4e964751c180f1ab400ee1852b155"><div class="ttname"><a href="../../d1/dcc/a04250.html#a0bb9cc086e32544cb0e43338f83d8e62a62f4e964751c180f1ab400ee1852b155">METRIC_DATA_VALUE</a></div><div class="ttdeci">@ METRIC_DATA_VALUE</div><div class="ttdef"><b>Definition:</b> Metric.h:38</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ab339934305abce426aa1d43c99d65e9f" name="ab339934305abce426aa1d43c99d65e9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab339934305abce426aa1d43c99d65e9f">&#9670;&#160;</a></span>MakeMetricStopWatch()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename LoggerType &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d65/a05264.html">MetricStopWatch</a>&lt; LoggerType &gt; MakeMetricStopWatch </td>
-          <td>(</td>
-          <td class="paramtype">LoggerType &amp;&amp;&#160;</td>
-          <td class="paramname"><em>loggerFunc</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  155</span>{</div>
-<div class="line"><span class="lineno">  156</span>    <span class="keywordflow">return</span> { std::forward&lt;LoggerType&gt;(loggerFunc) };</div>
-<div class="line"><span class="lineno">  157</span>}</div>
+<div class="ttc" id="aa04250_html_a4d497fc434376a9edca1897eabc39493a02253717dde1cc98a2643eefd76f0d91"><div class="ttname"><a href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a02253717dde1cc98a2643eefd76f0d91">WORLDHOOK_ON_AFTER_UNLOAD_ALL_MAPS</a></div><div class="ttdeci">@ WORLDHOOK_ON_AFTER_UNLOAD_ALL_MAPS</div><div class="ttdef"><b>Definition:</b> WorldScript.h:36</div></div>
+<div class="ttc" id="aa04250_html_a4d497fc434376a9edca1897eabc39493a1115383e9c9ccf62f08548733c8f5f1c"><div class="ttname"><a href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a1115383e9c9ccf62f08548733c8f5f1c">WORLDHOOK_ON_OPEN_STATE_CHANGE</a></div><div class="ttdeci">@ WORLDHOOK_ON_OPEN_STATE_CHANGE</div><div class="ttdef"><b>Definition:</b> WorldScript.h:26</div></div>
+<div class="ttc" id="aa04250_html_a4d497fc434376a9edca1897eabc39493a1a7e32e7ba7aec9dc7b8edd43a903800"><div class="ttname"><a href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a1a7e32e7ba7aec9dc7b8edd43a903800">WORLDHOOK_END</a></div><div class="ttdeci">@ WORLDHOOK_END</div><div class="ttdef"><b>Definition:</b> WorldScript.h:39</div></div>
+<div class="ttc" id="aa04250_html_a4d497fc434376a9edca1897eabc39493a2e95fec6ec46709803e187fe3c60f427"><div class="ttname"><a href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a2e95fec6ec46709803e187fe3c60f427">WORLDHOOK_ON_BEFORE_WORLD_INITIALIZED</a></div><div class="ttdeci">@ WORLDHOOK_ON_BEFORE_WORLD_INITIALIZED</div><div class="ttdef"><b>Definition:</b> WorldScript.h:38</div></div>
+<div class="ttc" id="aa04250_html_a4d497fc434376a9edca1897eabc39493a7080a363df28c0ffb71d52ee18b85f8c"><div class="ttname"><a href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a7080a363df28c0ffb71d52ee18b85f8c">WORLDHOOK_ON_MOTD_CHANGE</a></div><div class="ttdeci">@ WORLDHOOK_ON_MOTD_CHANGE</div><div class="ttdef"><b>Definition:</b> WorldScript.h:30</div></div>
+<div class="ttc" id="aa04250_html_a4d497fc434376a9edca1897eabc39493a804c550dd48cb62983e43dfed1ba2176"><div class="ttname"><a href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a804c550dd48cb62983e43dfed1ba2176">WORLDHOOK_ON_SHUTDOWN</a></div><div class="ttdeci">@ WORLDHOOK_ON_SHUTDOWN</div><div class="ttdef"><b>Definition:</b> WorldScript.h:35</div></div>
+<div class="ttc" id="aa04250_html_a4d497fc434376a9edca1897eabc39493a86b7bcb6f946ccb6d6c444773054ecb6"><div class="ttname"><a href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a86b7bcb6f946ccb6d6c444773054ecb6">WORLDHOOK_ON_SHUTDOWN_CANCEL</a></div><div class="ttdeci">@ WORLDHOOK_ON_SHUTDOWN_CANCEL</div><div class="ttdef"><b>Definition:</b> WorldScript.h:32</div></div>
+<div class="ttc" id="aa04250_html_a4d497fc434376a9edca1897eabc39493a891997df42f33b397fe3c92cf68e3aca"><div class="ttname"><a href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a891997df42f33b397fe3c92cf68e3aca">WORLDHOOK_ON_UPDATE</a></div><div class="ttdeci">@ WORLDHOOK_ON_UPDATE</div><div class="ttdef"><b>Definition:</b> WorldScript.h:33</div></div>
+<div class="ttc" id="aa04250_html_a4d497fc434376a9edca1897eabc39493a962dfc07ec34ca7510d8759c193ba56e"><div class="ttname"><a href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493a962dfc07ec34ca7510d8759c193ba56e">WORLDHOOK_ON_BEFORE_FINALIZE_PLAYER_WORLD_SESSION</a></div><div class="ttdeci">@ WORLDHOOK_ON_BEFORE_FINALIZE_PLAYER_WORLD_SESSION</div><div class="ttdef"><b>Definition:</b> WorldScript.h:37</div></div>
+<div class="ttc" id="aa04250_html_a4d497fc434376a9edca1897eabc39493ab212a383f870b580ecf69fd1df3f9213"><div class="ttname"><a href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493ab212a383f870b580ecf69fd1df3f9213">WORLDHOOK_ON_LOAD_CUSTOM_DATABASE_TABLE</a></div><div class="ttdeci">@ WORLDHOOK_ON_LOAD_CUSTOM_DATABASE_TABLE</div><div class="ttdef"><b>Definition:</b> WorldScript.h:28</div></div>
+<div class="ttc" id="aa04250_html_a4d497fc434376a9edca1897eabc39493ab554902e66fb497dbb3ac74151fe8bb7"><div class="ttname"><a href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493ab554902e66fb497dbb3ac74151fe8bb7">WORLDHOOK_ON_SHUTDOWN_INITIATE</a></div><div class="ttdeci">@ WORLDHOOK_ON_SHUTDOWN_INITIATE</div><div class="ttdef"><b>Definition:</b> WorldScript.h:31</div></div>
+<div class="ttc" id="aa04250_html_a4d497fc434376a9edca1897eabc39493abaa74ee704d5eb3634a515fe131e66fa"><div class="ttname"><a href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493abaa74ee704d5eb3634a515fe131e66fa">WORLDHOOK_ON_STARTUP</a></div><div class="ttdeci">@ WORLDHOOK_ON_STARTUP</div><div class="ttdef"><b>Definition:</b> WorldScript.h:34</div></div>
+<div class="ttc" id="aa04250_html_a4d497fc434376a9edca1897eabc39493ac0d62a83ca416843503c5c9eac516901"><div class="ttname"><a href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493ac0d62a83ca416843503c5c9eac516901">WORLDHOOK_ON_BEFORE_CONFIG_LOAD</a></div><div class="ttdeci">@ WORLDHOOK_ON_BEFORE_CONFIG_LOAD</div><div class="ttdef"><b>Definition:</b> WorldScript.h:29</div></div>
+<div class="ttc" id="aa04250_html_a4d497fc434376a9edca1897eabc39493af6efa892b7f5bfd295f23a9b8afc6ad7"><div class="ttname"><a href="../../d1/dcc/a04250.html#a4d497fc434376a9edca1897eabc39493af6efa892b7f5bfd295f23a9b8afc6ad7">WORLDHOOK_ON_AFTER_CONFIG_LOAD</a></div><div class="ttdeci">@ WORLDHOOK_ON_AFTER_CONFIG_LOAD</div><div class="ttdef"><b>Definition:</b> WorldScript.h:27</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -582,8 +220,8 @@ template&lt;typename LoggerType &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_91ceca9fdbb4b9c87bdfaa4e4d598d9a.html">Metric</a></li><li class="navelem"><a class="el" href="../../d1/dcc/a04250.html">Metric.h</a></li>
-    <li class="footer">Generated on Mon Sep 9 2024 20:38:24 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d1/dcc/a04250.html">WorldScript.h</a></li>
+    <li class="footer">Generated on Mon Sep 16 2024 20:40:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

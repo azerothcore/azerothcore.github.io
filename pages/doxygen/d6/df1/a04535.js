@@ -1,9 +1,8 @@
 var a04535 =
 [
-    [ "Acore::Impl::StringConvertImpl::For< T, typename >", "dd/d1f/a05420.html", null ],
-    [ "Acore::Impl::StringConvertImpl::For< T, std::enable_if_t< std::is_integral_v< T > &&!std::is_same_v< T, bool > > >", "df/d39/a05424.html", "df/d39/a05424" ],
-    [ "Acore::Impl::StringConvertImpl::For< bool, void >", "d4/d98/a05428.html", "d4/d98/a05428" ],
-    [ "Acore::Impl::StringConvertImpl::For< T, std::enable_if_t< std::is_floating_point_v< T > > >", "d0/d73/a05432.html", "d0/d73/a05432" ],
-    [ "StringTo", "d6/df1/a04535.html#a71739ada07c2f1b12bcd0aa811eea903", null ],
-    [ "ToString", "d6/df1/a04535.html#ac2cb308fb001c35fbaa90489ea6cf478", null ]
+    [ "ePoints", "d6/df1/a04535.html#a2604bd06487e34b78d3e50cd892f3c4d", [
+      [ "POINT_LAST_POINT", "d6/df1/a04535.html#a2604bd06487e34b78d3e50cd892f3c4da7d10089a0c5a8c42786b90cd3ba643cb", null ],
+      [ "POINT_HOME", "d6/df1/a04535.html#a2604bd06487e34b78d3e50cd892f3c4da032be97ee26935943c3313fb24491162", null ],
+      [ "POINT_COMBAT_START", "d3/d83/a04520.html#a2604bd06487e34b78d3e50cd892f3c4da91adf90069f0b0a515897fbdc91e20b4", null ]
+    ] ]
 ];

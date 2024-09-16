@@ -1,10 +1,9 @@
 var a00746 =
 [
-    [ "AddPetScripts", "d4/dfa/a00746.html#aaeb6a149e6495db19023f37a4f8bd882", null ],
-    [ "AddSC_deathknight_pet_scripts", "d4/dfa/a00746.html#ac6a5b089240cd6b996928b3e7f9137b3", null ],
-    [ "AddSC_generic_pet_scripts", "d4/dfa/a00746.html#a9852812a043673e45884dca938eff157", null ],
-    [ "AddSC_hunter_pet_scripts", "d4/dfa/a00746.html#ab89117a79c55f003f82b06a1878e6534", null ],
-    [ "AddSC_mage_pet_scripts", "d4/dfa/a00746.html#a689a4efb7777f4164aee994745a0e2d2", null ],
-    [ "AddSC_priest_pet_scripts", "d4/dfa/a00746.html#ac0eaa77dc1cb9a092b318e3bc3f6d5b8", null ],
-    [ "AddSC_shaman_pet_scripts", "d4/dfa/a00746.html#ab07e634ed761985e07d5c0e10f329231", null ]
+    [ "SQLElementData", "da/d85/a05752.html", "da/d85/a05752" ],
+    [ "SQLOperation", "dc/ddc/a05756.html", "dc/ddc/a05756" ],
+    [ "SQLElementDataType", "d4/dfa/a00746.html#abb4a6cfcce013f18b29779f1f435e627", [
+      [ "SQL_ELEMENT_RAW", "d4/dfa/a00746.html#abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a", null ],
+      [ "SQL_ELEMENT_PREPARED", "d4/dfa/a00746.html#abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d", null ]
+    ] ]
 ];

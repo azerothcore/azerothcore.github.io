@@ -1,7 +1,14 @@
 var a02120 =
 [
-    [ "inventory_commandscript", "d8/d12/a11344.html", "d8/d12/a11344" ],
-    [ "AddSC_inventory_commandscript", "d3/d23/a02120.html#a8917ab2c5001702c3dc7a14313dbc562", null ],
-    [ "bagSpecsColors", "d3/d23/a02120.html#aabf9a2b965ae6153eb18635be4468eb6", null ],
-    [ "bagSpecsToString", "d3/d23/a02120.html#ac004d76eb746ea415b16f1b512a057b6", null ]
+    [ "DataHeader", "d3/d23/a02120.html#a042491ef36459046f3866e90f15aae0d", null ],
+    [ "MTScriptName", "d3/d23/a02120.html#a772413d8818d681e2261c99f58e1268c", null ],
+    [ "RegisterManaTombsCreatureAI", "d3/d23/a02120.html#a7e2e8ea768842320ce5d953aeaddb176", null ],
+    [ "MTDataTypes", "d3/d23/a02120.html#a9ffea4a6410ded9f327ba6e91f8766ee", [
+      [ "DATA_PANDEMONIUS", "d3/d23/a02120.html#a9ffea4a6410ded9f327ba6e91f8766eeab1efde1b4aaad2daab0c383563a9f02a", null ],
+      [ "DATA_TAVAROK", "d3/d23/a02120.html#a9ffea4a6410ded9f327ba6e91f8766eea9245929feb24a0840eeff34e8c87de57", null ],
+      [ "DATA_NEXUSPRINCE_SHAFFAR", "d3/d23/a02120.html#a9ffea4a6410ded9f327ba6e91f8766eea07473250c26fb3874461362f93a75a97", null ],
+      [ "DATA_YOR", "d3/d23/a02120.html#a9ffea4a6410ded9f327ba6e91f8766eea738b876feae2daf42423688ca0f13289", null ]
+    ] ],
+    [ "GetManaTombsAI", "d3/d23/a02120.html#aaec5771a3ce0808b0a1bb0116b4fb9e3", null ],
+    [ "EncounterCount", "d3/d23/a02120.html#a31d630c40753c29f94ceac2db5e451a8", null ]
 ];
