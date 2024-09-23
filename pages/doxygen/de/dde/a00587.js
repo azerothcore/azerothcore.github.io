@@ -1,15 +1,9 @@
 var a00587 =
 [
-    [ "Position", "dc/d3b/a08192.html", "dc/d3b/a08192" ],
-    [ "Position::PositionXYStreamer", "d9/da6/a08196.html", "d9/da6/a08196" ],
-    [ "Position::PositionXYZStreamer", "da/d3e/a08200.html", "da/d3e/a08200" ],
-    [ "Position::PositionXYZOStreamer", "d3/d6d/a08204.html", "d3/d6d/a08204" ],
-    [ "WorldLocation", "d8/d8a/a08208.html", "d8/d8a/a08208" ],
-    [ "MAPID_INVALID", "de/dde/a00587.html#af69a1d112a89b89894dafd5da53e7490", null ],
-    [ "operator<<", "de/dde/a00587.html#a09519787a0405fc17b028180b2da4cdd", null ],
-    [ "operator<<", "de/dde/a00587.html#a71323635f122d24189054da615cb39e1", null ],
-    [ "operator<<", "de/dde/a00587.html#ab63323f8a9ade40ddd90338538b5c9b5", null ],
-    [ "operator>>", "de/dde/a00587.html#a188cc2956d39298323a99c4aa5ceede6", null ],
-    [ "operator>>", "de/dde/a00587.html#a72e22c3226b5f361848aef2c75a6d3fb", null ],
-    [ "operator>>", "de/dde/a00587.html#af223d782e9dcf0f80ed4009360aa0d80", null ]
+    [ "ListFilesResult", "de/dde/a00587.html#a030b28c9f552c0de4a4b4844fc5e6101", [
+      [ "LISTFILE_DIRECTORY_NOT_FOUND", "de/dde/a00587.html#a030b28c9f552c0de4a4b4844fc5e6101a868c0f60f6afa222577730606ed493a6", null ],
+      [ "LISTFILE_OK", "de/dde/a00587.html#a030b28c9f552c0de4a4b4844fc5e6101a952e90f65bfd2eefbd80a8b830eb5687", null ]
+    ] ],
+    [ "getDirContents", "de/dde/a00587.html#a3620968f3c1f5c1a3bb0c809ab0eb4ab", null ],
+    [ "matchWildcardFilter", "de/dde/a00587.html#a0b1c31a5b3e8bebc7fa860b40f7997e1", null ]
 ];

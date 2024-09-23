@@ -1,8 +1,10 @@
 var a04640 =
 [
-    [ "M2SplineKey< T >", "da/d2a/a07636.html", "da/d2a/a07636" ],
-    [ "M2Header", "d8/dbd/a07640.html", "d8/dbd/a07640" ],
-    [ "M2Array", "de/d4e/a07644.html", "de/d4e/a07644" ],
-    [ "M2Track", "db/d13/a07648.html", "db/d13/a07648" ],
-    [ "M2Camera", "da/d97/a07652.html", "da/d97/a07652" ]
+    [ "SecretMgr", "db/d7b/a28384.html", "db/d7b/a28384" ],
+    [ "SecretMgr::Secret", "db/d36/a28388.html", "db/d36/a28388" ],
+    [ "sSecretMgr", "d9/d32/a04640.html#a5104e1ebeb8cbf71ec16e9492a3ad622", null ],
+    [ "Secrets", "d9/d32/a04640.html#ab54b0ec728a299f0ff9e8a7796297a01", [
+      [ "SECRET_TOTP_MASTER_KEY", "d9/d32/a04640.html#ab54b0ec728a299f0ff9e8a7796297a01a414121b0e05fa3a392ffe0da5afe0fe9", null ],
+      [ "NUM_SECRETS", "d9/d32/a04640.html#ab54b0ec728a299f0ff9e8a7796297a01a087643d0aa89a708bad0f254697489c6", null ]
+    ] ]
 ];

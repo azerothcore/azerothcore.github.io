@@ -1,5 +1,5 @@
 var a01673 =
 [
-    [ "instance_commandscript", "d3/dfb/a11340.html", "d3/dfb/a11340" ],
-    [ "AddSC_instance_commandscript", "d9/df5/a01673.html#a3d7dc88b6e95322f2f3dc69ad367fa0c", null ]
+    [ "Movement::Location", "d1/dae/a09760.html", "d1/dae/a09760" ],
+    [ "Movement::MoveSpline", "dc/d62/a09764.html", "dc/d62/a09764" ]
 ];

@@ -1,6 +1,8 @@
 var a26304 =
 [
-    [ "HandleDummy", "dc/dab/a26304.html#a39c913c3e3225a9b27d17d4ceadd3c70", null ],
-    [ "PrepareSpellScript", "dc/dab/a26304.html#a7936186af106ae3ddeec3bc9b39ff127", null ],
-    [ "Register", "dc/dab/a26304.html#aa8ce1f0413e19d8f6d403b220fc6749c", null ]
+    [ "HandleDummy", "dc/dab/a26304.html#a923fa966dc7109f7cb02c25bbd23b0ff", null ],
+    [ "Load", "dc/dab/a26304.html#a5b336f402a256c80d8d3f8c5b1cbda2f", null ],
+    [ "PrepareSpellScript", "dc/dab/a26304.html#a79dc24ba1f2f059d77a06b457a78fcf1", null ],
+    [ "Register", "dc/dab/a26304.html#afb1c744f263b21c30a5dfd3675acb364", null ],
+    [ "Validate", "dc/dab/a26304.html#acaaeacf371538cafbbb4cc7cc036280e", null ]
 ];

@@ -1,6 +1,6 @@
 var a26448 =
 [
-    [ "HandleFinish", "d7/d4c/a26448.html#ac4c50220d86f809644e339fc578d9b4a", null ],
-    [ "PrepareSpellScript", "d7/d4c/a26448.html#a5a14594ed93150e34626a7e0edb8171b", null ],
-    [ "Register", "d7/d4c/a26448.html#a9d28a3b88d57e2f89921d59f56148f74", null ]
+    [ "PrepareAuraScript", "d7/d4c/a26448.html#a059fe9aa1ea5ea4d0fa797e70a146fc5", null ],
+    [ "Register", "d7/d4c/a26448.html#a91f4b2b8796c7efab2f622893a393619", null ],
+    [ "AuraEffectHandleModes", "d7/d4c/a26448.html#ab93d08a85de86b0efdec59006ebbdf97", null ]
 ];

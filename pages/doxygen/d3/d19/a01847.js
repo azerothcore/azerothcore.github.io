@@ -1,8 +1,7 @@
 var a01847 =
 [
-    [ "spell_gordunni_trap", "de/d54/a15300.html", "de/d54/a15300" ],
-    [ "GordunniTrap", "d3/d19/a01847.html#ae11511f5835ecdfec73fde1f9f29431c", [
-      [ "GO_GORDUNNI_DIRT_MOUND", "d3/d19/a01847.html#ae11511f5835ecdfec73fde1f9f29431ca12df131fc84f6cc9bcf7d02eaf65e1ab", null ]
-    ] ],
-    [ "AddSC_feralas", "d3/d19/a01847.html#a06e54e3edc2df068be660ac788b402e3", null ]
+    [ "WhoListPlayerInfo", "dc/df3/a07216.html", "dc/df3/a07216" ],
+    [ "WhoListCacheMgr", "d2/d73/a07220.html", "d2/d73/a07220" ],
+    [ "sWhoListCacheMgr", "d3/d19/a01847.html#aae5ef4cf031d5523b7d5fda6d83af41a", null ],
+    [ "WhoListInfoVector", "d3/d19/a01847.html#a88bd249c0903724edb2c2d5416962534", null ]
 ];

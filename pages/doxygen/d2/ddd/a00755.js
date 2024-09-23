@@ -1,4 +1,4 @@
 var a00755 =
 [
-    [ "PlayerTaxi", "da/d3e/a08376.html", "da/d3e/a08376" ]
+    [ "ScriptRegistry< GroupScript >", "d2/ddd/a00755.html#a6ad2435b6116a997a5bacd47b955d688", null ]
 ];

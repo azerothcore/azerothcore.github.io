@@ -1,7 +1,8 @@
 var a00557 =
 [
-    [ "Model", "dd/d78/a28608.html", "dd/d78/a28608" ],
-    [ "Extract", "d8/df0/a00557.html#aaece844099afc9d83362feb37427d5ae", null ],
-    [ "ExtractSet", "d8/df0/a00557.html#afd641f15b5ca6e58b68f26ef17a02912", null ],
-    [ "fixCoordSystem", "d8/df0/a00557.html#a8d0afbab5641bb7d88196fbad79e4cf1", null ]
+    [ "fixname2", "d8/df0/a00557.html#ac0029be4572a61d00eb1435db5526a74", null ],
+    [ "fixnamen", "d8/df0/a00557.html#abdc56edc46e0804c456749761cff8daf", null ],
+    [ "GetExtension", "d8/df0/a00557.html#ac3f75fc482c41471364c2c3e8bd1dd96", null ],
+    [ "GetPlainName", "d8/df0/a00557.html#a5e577b4c8e75312883ba4e8c571908ca", null ],
+    [ "GetPlainName", "d8/df0/a00557.html#a939d4568b4058bf826a517f55cb963af", null ]
 ];

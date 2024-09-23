@@ -1,14 +1,14 @@
 var a00743 =
 [
-    [ "BeforeVisibilityDestroy", "d0/d0a/a00743.html#a8172910e1dfdc7b56ca3931dd2fab1fb", null ],
-    [ "BeforeVisibilityDestroy< Creature >", "d0/d0a/a00743.html#a62188ab6a72d08b62bf37442dbbfdaa6", null ],
-    [ "getProbabilityOfLevelUp", "d0/d0a/a00743.html#aa890f698ac89e4049e1107c05d065495", null ],
-    [ "SkillGainChance", "d0/d0a/a00743.html#a66adde9ba6a85d585f6e6e8355499aa6", null ],
-    [ "UpdateVisibilityOf_helper", "d0/d0a/a00743.html#a5f5d6b73fc1fb15a0cde612641ba3433", null ],
-    [ "UpdateVisibilityOf_helper", "d0/d0a/a00743.html#aa522147fa6130f7d54551f137424bd15", null ],
-    [ "UpdateVisibilityOf_helper", "d0/d0a/a00743.html#ac411c559a97e183268339b1ea63a84b6", null ],
-    [ "UpdateVisibilityOf_helper", "d0/d0a/a00743.html#a2fc4d5c4ae2f8ec6eecccbb6b6bf4e77", null ],
-    [ "bonusSkillLevels", "d0/d0a/a00743.html#a72b3624ee55553e28f82ef06d7c74c6a", null ],
-    [ "bonusSkillLevelsSize", "d0/d0a/a00743.html#ad103e97f7db0cfd188ab64f5748c7464", null ],
-    [ "ZONE_UPDATE_INTERVAL", "d0/d0a/a00743.html#afabbcd46bf6f03c5dca10b117810b710", null ]
+    [ "AllMapScript", "dd/d52/a09932.html", "dd/d52/a09932" ],
+    [ "AllMapHook", "d0/d0a/a00743.html#a78db4e64fe232d8b547270090d8e3b92", [
+      [ "ALLMAPHOOK_ON_PLAYER_ENTER_ALL", "d0/d0a/a00743.html#a78db4e64fe232d8b547270090d8e3b92afd97726f6bef6f766e85787ec7f03dfa", null ],
+      [ "ALLMAPHOOK_ON_PLAYER_LEAVE_ALL", "d0/d0a/a00743.html#a78db4e64fe232d8b547270090d8e3b92acb0a85f676691164c5745f89720426ae", null ],
+      [ "ALLMAPHOOK_ON_BEFORE_CREATE_INSTANCE_SCRIPT", "d0/d0a/a00743.html#a78db4e64fe232d8b547270090d8e3b92aaedb63ed509b91e62a54f71648956182", null ],
+      [ "ALLMAPHOOK_ON_DESTROY_INSTANCE", "d0/d0a/a00743.html#a78db4e64fe232d8b547270090d8e3b92aed47c964869552afdecaa285111a2ac0", null ],
+      [ "ALLMAPHOOK_ON_CREATE_MAP", "d0/d0a/a00743.html#a78db4e64fe232d8b547270090d8e3b92ae8c905ed5a1df193a9dd91640d43de02", null ],
+      [ "ALLMAPHOOK_ON_DESTROY_MAP", "d0/d0a/a00743.html#a78db4e64fe232d8b547270090d8e3b92a2bd9320aa3f2418da854778f1dbbc3b5", null ],
+      [ "ALLMAPHOOK_ON_MAP_UPDATE", "d0/d0a/a00743.html#a78db4e64fe232d8b547270090d8e3b92a192adf70dc3f5a3873df8e56a2c3dcfb", null ],
+      [ "ALLMAPHOOK_END", "d0/d0a/a00743.html#a78db4e64fe232d8b547270090d8e3b92a51af3c739d320ca228fb73e3d7c48b95", null ]
+    ] ]
 ];

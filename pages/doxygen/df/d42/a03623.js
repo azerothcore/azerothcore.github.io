@@ -1,10 +1,9 @@
 var a03623 =
 [
-    [ "AutobroadcastMgr", "df/da0/a06936.html", "df/da0/a06936" ],
-    [ "sAutobroadcastMgr", "df/d42/a03623.html#a34abff2dadcb74370b0749fe9fda3878", null ],
-    [ "AnnounceType", "df/d42/a03623.html#a28a4ef2f64643c76d8be05bf9eafc731", [
-      [ "World", "df/d42/a03623.html#a28a4ef2f64643c76d8be05bf9eafc731af5a7924e621e84c9280a9a27e1bcb7f6", null ],
-      [ "Notification", "df/d42/a03623.html#a28a4ef2f64643c76d8be05bf9eafc731a96d008db67fc0b5551a926842bbb6a71", null ],
-      [ "Both", "df/d42/a03623.html#a28a4ef2f64643c76d8be05bf9eafc731a130c5b3473c57faa76e2a1c54e26f88e", null ]
-    ] ]
+    [ "instance_gruuls_lair", "d3/d4d/a23452.html", "d3/d4d/a23452" ],
+    [ "instance_gruuls_lair::instance_gruuls_lair_InstanceMapScript", "de/d6e/a23456.html", "de/d6e/a23456" ],
+    [ "AddSC_instance_gruuls_lair", "df/d42/a03623.html#a6c9bd5a761d9018e8be9e0c11b8db2c5", null ],
+    [ "creatureData", "df/d42/a03623.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "doorData", "df/d42/a03623.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],
+    [ "minionData", "df/d42/a03623.html#a6720238df140a3c574a711042b7f5bd3", null ]
 ];

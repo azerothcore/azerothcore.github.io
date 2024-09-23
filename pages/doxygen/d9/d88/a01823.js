@@ -1,21 +1,16 @@
 var a01823 =
 [
-    [ "npcs_riverbreeze_and_silversky", "d6/dab/a15292.html", "d6/dab/a15292" ],
-    [ "at_ancient_leaf", "d6/d74/a15296.html", "d6/d74/a15296" ],
-    [ "GOSSIP_ITEM_BEACON", "d9/d88/a01823.html#aed16a0d3c0f5042443d68996e30f15bd", null ],
-    [ "AncientMisc", "d9/d88/a01823.html#adaffe09a7c2b9f9bfdc48d5068c18068", [
-      [ "QUEST_ANCIENT_LEAF", "d9/d88/a01823.html#adaffe09a7c2b9f9bfdc48d5068c18068aa825be5f41ad67f6007d3509e9bb87e3", null ],
-      [ "NPC_VARTRUS", "d9/d88/a01823.html#adaffe09a7c2b9f9bfdc48d5068c18068aa3648d60ebaeb2cef5c0578018150e99", null ],
-      [ "NPC_STOMA", "d9/d88/a01823.html#adaffe09a7c2b9f9bfdc48d5068c18068ab30f7bd203d11ff87b0030b3578a5e81", null ],
-      [ "NPC_HASTAT", "d9/d88/a01823.html#adaffe09a7c2b9f9bfdc48d5068c18068acc6ef71bcba7f2d82bc3164636733e04", null ],
-      [ "CREATURE_GROUP_ANCIENTS", "d9/d88/a01823.html#adaffe09a7c2b9f9bfdc48d5068c18068a929e77d337e49edf4de033ddb8ccf149", null ]
-    ] ],
-    [ "RiverbreezeAndSilversky", "d9/d88/a01823.html#acc75d54553750c832fe50b6cb0c42427", [
-      [ "SPELL_CENARION_BEACON", "d9/d88/a01823.html#acc75d54553750c832fe50b6cb0c42427aefb9fe5d61b5fc5b810f077e47334d49", null ],
-      [ "NPC_ARATHANDRIS_SILVERSKY", "d9/d88/a01823.html#acc75d54553750c832fe50b6cb0c42427a15af7b53355112caefafe032f27b15d6", null ],
-      [ "NPC_MAYBESS_RIVERBREEZE", "d9/d88/a01823.html#acc75d54553750c832fe50b6cb0c42427a3362be702aaaa11f11e1df72d0a8e149", null ],
-      [ "QUEST_CLEASING_FELWOOD_A", "d9/d88/a01823.html#acc75d54553750c832fe50b6cb0c42427ab52d337e733144a5a21fce9825f80fff", null ],
-      [ "QUEST_CLEASING_FELWOOD_H", "d9/d88/a01823.html#acc75d54553750c832fe50b6cb0c42427a24da8ad4e5cec47c9a66a1e03e07383f", null ]
-    ] ],
-    [ "AddSC_felwood", "d9/d88/a01823.html#a63ae28c9f250057b35a18fb585c6a2cf", null ]
+    [ "LinkValidator< T >", "d7/d19/a07464.html", "d7/d19/a07464" ],
+    [ "LinkValidator< LinkTags::achievement >", "d8/d4a/a07468.html", "d8/d4a/a07468" ],
+    [ "LinkValidator< LinkTags::item >", "d6/dcf/a07472.html", "d6/dcf/a07472" ],
+    [ "LinkValidator< LinkTags::quest >", "d7/dac/a07476.html", "d7/dac/a07476" ],
+    [ "LinkValidator< LinkTags::spell >", "d7/da8/a07480.html", "d7/da8/a07480" ],
+    [ "LinkValidator< LinkTags::enchant >", "d0/dd1/a07484.html", "d0/dd1/a07484" ],
+    [ "LinkValidator< LinkTags::glyph >", "df/d26/a07488.html", "df/d26/a07488" ],
+    [ "LinkValidator< LinkTags::talent >", "dd/d6f/a07492.html", "dd/d6f/a07492" ],
+    [ "LinkValidator< LinkTags::trade >", "de/d42/a07496.html", "de/d42/a07496" ],
+    [ "TryValidateAs", "d9/d88/a01823.html#af1c86bff85f30ff113d5f78421c280af", null ],
+    [ "toHex", "d9/d88/a01823.html#a0b5e4d40ad5549ddc48c127306499b6c", null ],
+    [ "ValidateAs", "d9/d88/a01823.html#a1021653ddd2d2e78df34d8c4a2a7ed93", null ],
+    [ "ValidateLinkInfo", "d9/d88/a01823.html#a7de61dd7d7c595063ae73f415e961cc9", null ]
 ];

@@ -233,6 +233,8 @@ var a08360 =
     [ "DeleteFromDB", "d1/d53/a08360.html#a55cde7f707f8023d11569110f7214cec", null ],
     [ "DeleteOldCharacters", "d1/d53/a08360.html#a1d5347f13c5b0b722edfa3aeefb1ca35", null ],
     [ "DeleteOldCharacters", "d1/d53/a08360.html#a962f33eb090605d2b478fbbe69fe9ff0", null ],
+    [ "DeleteOldRecoveryItems", "d1/d53/a08360.html#ac13bd5ee8fdef9f9137e6db7801fcc33", null ],
+    [ "DeleteOldRecoveryItems", "d1/d53/a08360.html#a4e1fa80054ca0d297123f94336a3cd49", null ],
     [ "DeleteRefundReference", "d1/d53/a08360.html#a5f80d3e121d6ceb03a2a52ff60ee689d", null ],
     [ "DestroyConjuredItems", "d1/d53/a08360.html#a6db87e5db13196ff8642b5b4b76d467e", null ],
     [ "DestroyForPlayer", "d1/d53/a08360.html#a2fbea399aa7aabcb8bf963a6f5e6810c", null ],

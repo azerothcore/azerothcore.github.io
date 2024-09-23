@@ -1,10 +1,20 @@
 var a00854 =
 [
-    [ "UpdateException", "d6/d3b/a05780.html", "d6/d3b/a05780" ],
-    [ "DBUpdaterUtil", "de/dc9/a05784.html", "de/dc9/a05784" ],
-    [ "DBUpdater< T >", "d0/d9e/a05788.html", "d0/d9e/a05788" ],
-    [ "BaseLocation", "d6/d2f/a00854.html#a0c382fe144b0dc101a8b2b9d4ef51010", [
-      [ "LOCATION_REPOSITORY", "d6/d2f/a00854.html#a0c382fe144b0dc101a8b2b9d4ef51010a7c7f50c7daf1a5f1773676cc90cc9550", null ],
-      [ "LOCATION_DOWNLOAD", "d6/d2f/a00854.html#a0c382fe144b0dc101a8b2b9d4ef51010a02f1af050478ebf9488ea00a47c7e11c", null ]
+    [ "WorldScript", "d9/da6/a10108.html", "d9/da6/a10108" ],
+    [ "WorldHook", "d6/d2f/a00854.html#a4d497fc434376a9edca1897eabc39493", [
+      [ "WORLDHOOK_ON_OPEN_STATE_CHANGE", "d6/d2f/a00854.html#a4d497fc434376a9edca1897eabc39493a1115383e9c9ccf62f08548733c8f5f1c", null ],
+      [ "WORLDHOOK_ON_AFTER_CONFIG_LOAD", "d6/d2f/a00854.html#a4d497fc434376a9edca1897eabc39493af6efa892b7f5bfd295f23a9b8afc6ad7", null ],
+      [ "WORLDHOOK_ON_LOAD_CUSTOM_DATABASE_TABLE", "d6/d2f/a00854.html#a4d497fc434376a9edca1897eabc39493ab212a383f870b580ecf69fd1df3f9213", null ],
+      [ "WORLDHOOK_ON_BEFORE_CONFIG_LOAD", "d6/d2f/a00854.html#a4d497fc434376a9edca1897eabc39493ac0d62a83ca416843503c5c9eac516901", null ],
+      [ "WORLDHOOK_ON_MOTD_CHANGE", "d6/d2f/a00854.html#a4d497fc434376a9edca1897eabc39493a7080a363df28c0ffb71d52ee18b85f8c", null ],
+      [ "WORLDHOOK_ON_SHUTDOWN_INITIATE", "d6/d2f/a00854.html#a4d497fc434376a9edca1897eabc39493ab554902e66fb497dbb3ac74151fe8bb7", null ],
+      [ "WORLDHOOK_ON_SHUTDOWN_CANCEL", "d6/d2f/a00854.html#a4d497fc434376a9edca1897eabc39493a86b7bcb6f946ccb6d6c444773054ecb6", null ],
+      [ "WORLDHOOK_ON_UPDATE", "d6/d2f/a00854.html#a4d497fc434376a9edca1897eabc39493a891997df42f33b397fe3c92cf68e3aca", null ],
+      [ "WORLDHOOK_ON_STARTUP", "d6/d2f/a00854.html#a4d497fc434376a9edca1897eabc39493abaa74ee704d5eb3634a515fe131e66fa", null ],
+      [ "WORLDHOOK_ON_SHUTDOWN", "d6/d2f/a00854.html#a4d497fc434376a9edca1897eabc39493a804c550dd48cb62983e43dfed1ba2176", null ],
+      [ "WORLDHOOK_ON_AFTER_UNLOAD_ALL_MAPS", "d6/d2f/a00854.html#a4d497fc434376a9edca1897eabc39493a02253717dde1cc98a2643eefd76f0d91", null ],
+      [ "WORLDHOOK_ON_BEFORE_FINALIZE_PLAYER_WORLD_SESSION", "d6/d2f/a00854.html#a4d497fc434376a9edca1897eabc39493a962dfc07ec34ca7510d8759c193ba56e", null ],
+      [ "WORLDHOOK_ON_BEFORE_WORLD_INITIALIZED", "d6/d2f/a00854.html#a4d497fc434376a9edca1897eabc39493a2e95fec6ec46709803e187fe3c60f427", null ],
+      [ "WORLDHOOK_END", "d6/d2f/a00854.html#a4d497fc434376a9edca1897eabc39493a1a7e32e7ba7aec9dc7b8edd43a903800", null ]
     ] ]
 ];

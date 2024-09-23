@@ -1,7 +1,16 @@
 var a03911 =
 [
-    [ "operator<<", "d4/da4/a03911.html#a71323635f122d24189054da615cb39e1", null ],
-    [ "operator<<", "d4/da4/a03911.html#ab63323f8a9ade40ddd90338538b5c9b5", null ],
-    [ "operator>>", "d4/da4/a03911.html#a72e22c3226b5f361848aef2c75a6d3fb", null ],
-    [ "operator>>", "d4/da4/a03911.html#af223d782e9dcf0f80ed4009360aa0d80", null ]
+    [ "boss_grizzle", "d7/d6c/a11596.html", "d7/d6c/a11596" ],
+    [ "boss_grizzle::boss_grizzleAI", "d8/d0a/a11600.html", "d8/d0a/a11600" ],
+    [ "Grizzle", "d4/da4/a03911.html#acfff5d4b983e4db1d5efb6bd5da7e7aa", [
+      [ "SPELL_GROUNDTREMOR", "d4/da4/a03911.html#acfff5d4b983e4db1d5efb6bd5da7e7aaa4426ae7fabf4ddb0d8355b0049b5a6bb", null ],
+      [ "SPELL_FRENZY", "d4/da4/a03911.html#acfff5d4b983e4db1d5efb6bd5da7e7aaab54f261ba282273bed875abe6642a293", null ],
+      [ "EMOTE_FRENZY_KILL", "d4/da4/a03911.html#acfff5d4b983e4db1d5efb6bd5da7e7aaaebdb26e3a90dde560c1c4f7fd5615f63", null ]
+    ] ],
+    [ "Timer", "d4/da4/a03911.html#a6e0035edd58cc6ca8c94b5f9723a0d80", [
+      [ "TIMER_GROUNDTREMOR", "d4/da4/a03911.html#a6e0035edd58cc6ca8c94b5f9723a0d80a5046fe24f2bd1c59407d77496c82dd59", null ],
+      [ "TIMER_FRENZY", "d4/da4/a03911.html#a6e0035edd58cc6ca8c94b5f9723a0d80a31ac972cb44128c4662a608b8f6eeb83", null ],
+      [ "TIMER_WAR_STOMP", "df/d75/a04010.html#a6e0035edd58cc6ca8c94b5f9723a0d80a77d3bf4a5b183f5934aa399d3e185eef", null ]
+    ] ],
+    [ "AddSC_boss_grizzle", "d4/da4/a03911.html#adb6c19fe584b9ecd11ab67084570a0be", null ]
 ];

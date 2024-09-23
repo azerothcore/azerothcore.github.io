@@ -1,12 +1,10 @@
 var a00188 =
 [
-    [ "CSymbolInfoPackage", "db/d29/a05096.html", "db/d29/a05096" ],
-    [ "_NO_CVCONST_H", "da/d15/a00188.html#af8660cbefcf140a8992e862e401bc473", null ],
-    [ "CrashFolder", "da/d15/a00188.html#a55b3d8676a4478f058eeb12d4e8b35b2", null ],
-    [ "EXCEPTION", "da/d15/a00188.html#a04a8ef8e5d1a39a04fed031f53ffa2db", null ],
-    [ "WIN32_LEAN_AND_MEAN", "da/d15/a00188.html#ac7bef5d85e3dcd73eef56ad39ffc84a9", null ],
-    [ "ErrorMessage", "da/d15/a00188.html#a75b4eb6a99991d301f7d44683ce13c9e", null ],
-    [ "ToTchar", "da/d15/a00188.html#a9f2ce59205c508258855d0568854e367", null ],
-    [ "ToTchar", "da/d15/a00188.html#a74d70382aec7501d6df3dcb969b85902", null ],
-    [ "g_WheatyExceptionReport", "da/d15/a00188.html#a9fff8ce906026fe3179e50e97182d90d", null ]
+    [ "VMAP::ModelSpawn", "d7/de6/a04956.html", "d7/de6/a04956" ],
+    [ "VMAP::ModelInstance", "d6/d0f/a04960.html", "d6/d0f/a04960" ],
+    [ "ModelFlags", "da/d15/a00188.html#ac540ff16efadcc07eeb9d8511b94ccce", [
+      [ "MOD_M2", "da/d15/a00188.html#ac540ff16efadcc07eeb9d8511b94ccceadfad2b6f6278e720b00314cd5117b673", null ],
+      [ "MOD_WORLDSPAWN", "da/d15/a00188.html#ac540ff16efadcc07eeb9d8511b94cccea3a6165ebc7b838e28ef59670dc84dc46", null ],
+      [ "MOD_HAS_BOUND", "da/d15/a00188.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09", null ]
+    ] ]
 ];

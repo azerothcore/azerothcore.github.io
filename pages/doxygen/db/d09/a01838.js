@@ -1,6 +1,6 @@
 var a01838 =
 [
-    [ "instance_razorfen_kraul", "d3/d27/a14756.html", "d3/d27/a14756" ],
-    [ "instance_razorfen_kraul::instance_razorfen_kraul_InstanceMapScript", "de/d7d/a14760.html", "de/d7d/a14760" ],
-    [ "AddSC_instance_razorfen_kraul", "db/d09/a01838.html#a27080d618fc76ad4f3d6b9e8ad4cc3c0", null ]
+    [ "CharacterCacheEntry", "d2/d8e/a07208.html", "d2/d8e/a07208" ],
+    [ "CharacterCache", "df/d79/a07212.html", "df/d79/a07212" ],
+    [ "sCharacterCache", "db/d09/a01838.html#a7a32c898b33d6163d83a32f46d58517c", null ]
 ];

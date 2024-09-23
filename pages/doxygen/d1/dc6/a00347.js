@@ -1,8 +1,16 @@
 var a00347 =
 [
-    [ "LIQUID_TILE_SIZE", "d1/dc6/a00347.html#a1596e8a465c0638086c77467a2dde3a6", null ],
-    [ "readChunk", "d1/dc6/a00347.html#a166f3eeee53079ac9df4f15ccd577974", null ],
-    [ "GAMEOBJECT_MODELS", "d1/dc6/a00347.html#ada4191301386f881525b3f0b0760cb60", null ],
-    [ "RAW_VMAP_MAGIC", "d1/dc6/a00347.html#ab44884fb6c05cb4ae128d5882a2c4b7c", null ],
-    [ "VMAP_MAGIC", "d1/dc6/a00347.html#aa7e5a571fdcb9d62ceefdcf5744746cb", null ]
+    [ "DBCFileLoader", "d3/d82/a05088.html", "d3/d82/a05088" ],
+    [ "DBCFileLoader::Record", "d9/d2c/a05092.html", "d9/d2c/a05092" ],
+    [ "DbcFieldFormat", "d1/dc6/a00347.html#a969264ba91452f632e809db524c68960", [
+      [ "FT_NA", "d1/dc6/a00347.html#a969264ba91452f632e809db524c68960a0f8a37a34dd644e8432e79266f8e2f8c", null ],
+      [ "FT_NA_BYTE", "d1/dc6/a00347.html#a969264ba91452f632e809db524c68960a974d335432036bc88ad76f044e8fca0c", null ],
+      [ "FT_STRING", "d1/dc6/a00347.html#a969264ba91452f632e809db524c68960a424189c585691c2ce732ea69a88f4f29", null ],
+      [ "FT_FLOAT", "d1/dc6/a00347.html#a969264ba91452f632e809db524c68960a1091cfb22d5ff81a81948a92b96f8e9a", null ],
+      [ "FT_INT", "d1/dc6/a00347.html#a969264ba91452f632e809db524c68960a9d5724546fec2b9d79741da7d3a8030a", null ],
+      [ "FT_BYTE", "d1/dc6/a00347.html#a969264ba91452f632e809db524c68960ae268574ec5607a27ec940656742b2095", null ],
+      [ "FT_SORT", "d1/dc6/a00347.html#a969264ba91452f632e809db524c68960a496dcb8cfc6d702d15b9a603b242a642", null ],
+      [ "FT_IND", "d1/dc6/a00347.html#a969264ba91452f632e809db524c68960a0e7ef1f172d0c33a975fbda2be046036", null ],
+      [ "FT_LOGIC", "d1/dc6/a00347.html#a969264ba91452f632e809db524c68960aad79cbf0ed6b926353344f5abde2e4cc", null ]
+    ] ]
 ];

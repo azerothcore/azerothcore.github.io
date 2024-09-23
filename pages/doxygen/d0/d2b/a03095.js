@@ -1,10 +1,8 @@
 var a03095 =
 [
-    [ "SavedAddonsList", "d0/d2b/a03095.html#afa468163a23ed58507a89e5724c06eac", null ],
-    [ "GetAddonInfo", "d0/d2b/a03095.html#a65cb6a88902972060e44c57d7d9ec738", null ],
-    [ "GetBannedAddons", "d0/d2b/a03095.html#ad7d0938e7463238a86e8c811e1a58800", null ],
-    [ "LoadFromDB", "d0/d2b/a03095.html#aaa12f5b754e6b664dbfb2428478bee03", null ],
-    [ "SaveAddon", "d0/d2b/a03095.html#a85021021149b7eb4d78cbe81e43d3d45", null ],
-    [ "m_bannedAddons", "d0/d2b/a03095.html#a83195dfb437a3f713fa0ccd6c24477ed", null ],
-    [ "m_knownAddons", "d0/d2b/a03095.html#a6cd3e278f71724491a7a3b8167eab60e", null ]
+    [ "misc_commandscript", "dc/d4e/a11372.html", "dc/d4e/a11372" ],
+    [ "AddSC_misc_commandscript", "d0/d2b/a03095.html#ac722d20c86b9502b7c4c8ae711cc3917", null ],
+    [ "GetLocalizeCreatureName", "d0/d2b/a03095.html#aaedbdfd3cae227b11684151f41e3b977", null ],
+    [ "SPELL_FREEZE", "d0/d2b/a03095.html#a181bdc61e4eb1d21db975ca0227cb086", null ],
+    [ "SPELL_STUCK", "d0/d2b/a03095.html#a1706df7feb0ef4f693c388033ace5fb7", null ]
 ];

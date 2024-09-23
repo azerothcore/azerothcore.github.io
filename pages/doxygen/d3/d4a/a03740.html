@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Guilds/Guild.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/EasternKingdoms/ZulGurub/instance_zulgurub.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,220 +105,218 @@ $(document).ready(function(){initNavTree('d3/d4a/a03740.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">Guild.cpp File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">instance_zulgurub.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Guild.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Bag.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CalendarMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CharacterCache.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GuildMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GuildPackets.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SocialMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
-<code>#include &lt;boost/iterator/counting_iterator.hpp&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">GameEventMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameObjectAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameObjectScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">zulgurub.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a458eaf87a56d0ac3d92187c55b14f437"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4a/a03740.html#a458eaf87a56d0ac3d92187c55b14f437">MAX_GUILD_BANK_TAB_TEXT_LEN</a>&#160;&#160;&#160;500</td></tr>
-<tr class="separator:a458eaf87a56d0ac3d92187c55b14f437"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e37f394008ea3eb20a46c84e03512a5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4a/a03740.html#a6e37f394008ea3eb20a46c84e03512a5">EMBLEM_PRICE</a>&#160;&#160;&#160;10 * <a class="el" href="../../dd/d57/a00701.html#aa61850c8cc16fdf9ea749bfde3adb448aa7790837e9c1f7cb78b55743b9a67623">GOLD</a></td></tr>
-<tr class="separator:a6e37f394008ea3eb20a46c84e03512a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd0/a13964.html">instance_zulgurub</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d00/a13968.html">instance_zulgurub::instance_zulgurub_InstanceMapScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df4/a13972.html">go_brazier_of_madness</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a45822838f1310b1a812eba191cb3d416"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416">EdgeOfMadnessEnum</a> { <br />
+&#160;&#160;<a class="el" href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416ad02945634d7affb86fe4a6fa1baee9e7">EVENT_EDGE_OF_MADNESS_GRILEK</a> = 27
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416a8ec0daec449beba98b500943bcacc8e4">EVENT_EDGE_OF_MADNESS_HAZZARAH</a> = 28
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416a4d7aeb529f52ed41b6c933726f9e2e1d">EVENT_EDGE_OF_MADNESS_RENATAKI</a> = 29
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416ac13476b6183a6ba6aad91191ef3c1073">EVENT_EDGE_OF_MADNESS_WUSHOOLAY</a> = 30
+<br />
+ }</td></tr>
+<tr class="separator:a45822838f1310b1a812eba191cb3d416"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8e9e4c2d24b387f386cf2d9c02996b59"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4a/a03740.html#a8e9e4c2d24b387f386cf2d9c02996b59">_GetGuildEventString</a> (<a class="el" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59d">GuildEvents</a> event)</td></tr>
-<tr class="separator:a8e9e4c2d24b387f386cf2d9c02996b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a039068bd46d84b88b1a6a2fa0ae07b80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4a/a03740.html#a039068bd46d84b88b1a6a2fa0ae07b80">_GetGuildBankTabPrice</a> (<a class="el" href="../../de/d4e/a00500.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> tabId)</td></tr>
-<tr class="separator:a039068bd46d84b88b1a6a2fa0ae07b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a224e147b1990c0996e0ac61a1865e34c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4a/a03740.html#a224e147b1990c0996e0ac61a1865e34c">AddSC_instance_zulgurub</a> ()</td></tr>
+<tr class="separator:a224e147b1990c0996e0ac61a1865e34c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/ded/a09300.html">DoorData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4a/a03740.html#a69c4a0ca4694d5ed1d42f0373dd5d80c">doorData</a> []</td></tr>
+<tr class="separator:a69c4a0ca4694d5ed1d42f0373dd5d80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a412286b689bd324fedd65ddd8dde8afb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/dd3/a09316.html">ObjectData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4a/a03740.html#a412286b689bd324fedd65ddd8dde8afb">creatureData</a> []</td></tr>
+<tr class="separator:a412286b689bd324fedd65ddd8dde8afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a808ff75d7f4ab6555cdc154544ef727f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4a/a03740.html#a808ff75d7f4ab6555cdc154544ef727f">BrazierOfMadnessContainer</a></td></tr>
+<tr class="separator:a808ff75d7f4ab6555cdc154544ef727f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a352683729da59da9923d0f67d510f73c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d3b/a08192.html">Position</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4a/a03740.html#a352683729da59da9923d0f67d510f73c">edgeOfMagnessSummonPos</a> = { -11901.229f, -1906.366f, 65.358f, 0.942f }</td></tr>
+<tr class="separator:a352683729da59da9923d0f67d510f73c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a6e37f394008ea3eb20a46c84e03512a5" name="a6e37f394008ea3eb20a46c84e03512a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e37f394008ea3eb20a46c84e03512a5">&#9670;&#160;</a></span>EMBLEM_PRICE</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a45822838f1310b1a812eba191cb3d416" name="a45822838f1310b1a812eba191cb3d416"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45822838f1310b1a812eba191cb3d416">&#9670;&#160;</a></span>EdgeOfMadnessEnum</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define EMBLEM_PRICE&#160;&#160;&#160;10 * <a class="el" href="../../dd/d57/a00701.html#aa61850c8cc16fdf9ea749bfde3adb448aa7790837e9c1f7cb78b55743b9a67623">GOLD</a></td>
+          <td class="memname">enum <a class="el" href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416">EdgeOfMadnessEnum</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a458eaf87a56d0ac3d92187c55b14f437" name="a458eaf87a56d0ac3d92187c55b14f437"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a458eaf87a56d0ac3d92187c55b14f437">&#9670;&#160;</a></span>MAX_GUILD_BANK_TAB_TEXT_LEN</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_GUILD_BANK_TAB_TEXT_LEN&#160;&#160;&#160;500</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a45822838f1310b1a812eba191cb3d416ad02945634d7affb86fe4a6fa1baee9e7" name="a45822838f1310b1a812eba191cb3d416ad02945634d7affb86fe4a6fa1baee9e7"></a>EVENT_EDGE_OF_MADNESS_GRILEK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a45822838f1310b1a812eba191cb3d416a8ec0daec449beba98b500943bcacc8e4" name="a45822838f1310b1a812eba191cb3d416a8ec0daec449beba98b500943bcacc8e4"></a>EVENT_EDGE_OF_MADNESS_HAZZARAH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a45822838f1310b1a812eba191cb3d416a4d7aeb529f52ed41b6c933726f9e2e1d" name="a45822838f1310b1a812eba191cb3d416a4d7aeb529f52ed41b6c933726f9e2e1d"></a>EVENT_EDGE_OF_MADNESS_RENATAKI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a45822838f1310b1a812eba191cb3d416ac13476b6183a6ba6aad91191ef3c1073" name="a45822838f1310b1a812eba191cb3d416ac13476b6183a6ba6aad91191ef3c1073"></a>EVENT_EDGE_OF_MADNESS_WUSHOOLAY&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  197</span>{</div>
+<div class="line"><span class="lineno">  198</span>    <a class="code hl_enumvalue" href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416ad02945634d7affb86fe4a6fa1baee9e7">EVENT_EDGE_OF_MADNESS_GRILEK</a>    = 27,</div>
+<div class="line"><span class="lineno">  199</span>    <a class="code hl_enumvalue" href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416a8ec0daec449beba98b500943bcacc8e4">EVENT_EDGE_OF_MADNESS_HAZZARAH</a>  = 28,</div>
+<div class="line"><span class="lineno">  200</span>    <a class="code hl_enumvalue" href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416a4d7aeb529f52ed41b6c933726f9e2e1d">EVENT_EDGE_OF_MADNESS_RENATAKI</a>  = 29,</div>
+<div class="line"><span class="lineno">  201</span>    <a class="code hl_enumvalue" href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416ac13476b6183a6ba6aad91191ef3c1073">EVENT_EDGE_OF_MADNESS_WUSHOOLAY</a> = 30</div>
+<div class="line"><span class="lineno">  202</span>};</div>
+<div class="ttc" id="aa03740_html_a45822838f1310b1a812eba191cb3d416a4d7aeb529f52ed41b6c933726f9e2e1d"><div class="ttname"><a href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416a4d7aeb529f52ed41b6c933726f9e2e1d">EVENT_EDGE_OF_MADNESS_RENATAKI</a></div><div class="ttdeci">@ EVENT_EDGE_OF_MADNESS_RENATAKI</div><div class="ttdef"><b>Definition:</b> instance_zulgurub.cpp:200</div></div>
+<div class="ttc" id="aa03740_html_a45822838f1310b1a812eba191cb3d416a8ec0daec449beba98b500943bcacc8e4"><div class="ttname"><a href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416a8ec0daec449beba98b500943bcacc8e4">EVENT_EDGE_OF_MADNESS_HAZZARAH</a></div><div class="ttdeci">@ EVENT_EDGE_OF_MADNESS_HAZZARAH</div><div class="ttdef"><b>Definition:</b> instance_zulgurub.cpp:199</div></div>
+<div class="ttc" id="aa03740_html_a45822838f1310b1a812eba191cb3d416ac13476b6183a6ba6aad91191ef3c1073"><div class="ttname"><a href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416ac13476b6183a6ba6aad91191ef3c1073">EVENT_EDGE_OF_MADNESS_WUSHOOLAY</a></div><div class="ttdeci">@ EVENT_EDGE_OF_MADNESS_WUSHOOLAY</div><div class="ttdef"><b>Definition:</b> instance_zulgurub.cpp:201</div></div>
+<div class="ttc" id="aa03740_html_a45822838f1310b1a812eba191cb3d416ad02945634d7affb86fe4a6fa1baee9e7"><div class="ttname"><a href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416ad02945634d7affb86fe4a6fa1baee9e7">EVENT_EDGE_OF_MADNESS_GRILEK</a></div><div class="ttdeci">@ EVENT_EDGE_OF_MADNESS_GRILEK</div><div class="ttdef"><b>Definition:</b> instance_zulgurub.cpp:198</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a039068bd46d84b88b1a6a2fa0ae07b80" name="a039068bd46d84b88b1a6a2fa0ae07b80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a039068bd46d84b88b1a6a2fa0ae07b80">&#9670;&#160;</a></span>_GetGuildBankTabPrice()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d4e/a00500.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> _GetGuildBankTabPrice </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d4e/a00500.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>tabId</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   94</span>{</div>
-<div class="line"><span class="lineno">   95</span>    <span class="keywordflow">switch</span> (tabId)</div>
-<div class="line"><span class="lineno">   96</span>    {</div>
-<div class="line"><span class="lineno">   97</span>        <span class="keywordflow">case</span> 0:</div>
-<div class="line"><span class="lineno">   98</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="../../db/da5/a04663.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41ad498385dc473aec465254d22cbfd27a3">CONFIG_GUILD_BANK_TAB_COST_0</a>);</div>
-<div class="line"><span class="lineno">   99</span>        <span class="keywordflow">case</span> 1:</div>
-<div class="line"><span class="lineno">  100</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="../../db/da5/a04663.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41ad1c7606ab10e96c0d24373a35e828101">CONFIG_GUILD_BANK_TAB_COST_1</a>);</div>
-<div class="line"><span class="lineno">  101</span>        <span class="keywordflow">case</span> 2:</div>
-<div class="line"><span class="lineno">  102</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="../../db/da5/a04663.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41a87f8fbfc9f3776a76068644340eab776">CONFIG_GUILD_BANK_TAB_COST_2</a>);</div>
-<div class="line"><span class="lineno">  103</span>        <span class="keywordflow">case</span> 3:</div>
-<div class="line"><span class="lineno">  104</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="../../db/da5/a04663.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41a674f305590e59d581832bef259163a68">CONFIG_GUILD_BANK_TAB_COST_3</a>);</div>
-<div class="line"><span class="lineno">  105</span>        <span class="keywordflow">case</span> 4:</div>
-<div class="line"><span class="lineno">  106</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="../../db/da5/a04663.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41a38d0693ed23bf914d249ec0a5bd94a73">CONFIG_GUILD_BANK_TAB_COST_4</a>);</div>
-<div class="line"><span class="lineno">  107</span>        <span class="keywordflow">case</span> 5:</div>
-<div class="line"><span class="lineno">  108</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="../../db/da5/a04663.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41a9900ae61d056234c1888f37aa7b268a8">CONFIG_GUILD_BANK_TAB_COST_5</a>);</div>
-<div class="line"><span class="lineno">  109</span>        <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">  110</span>            <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  111</span>    }</div>
-<div class="line"><span class="lineno">  112</span>}</div>
-<div class="ttc" id="aa04094_html_a17aac4c166ebe43e3b8fdccf9e012e41a38d0693ed23bf914d249ec0a5bd94a73"><div class="ttname"><a href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41a38d0693ed23bf914d249ec0a5bd94a73">CONFIG_GUILD_BANK_TAB_COST_4</a></div><div class="ttdeci">@ CONFIG_GUILD_BANK_TAB_COST_4</div><div class="ttdef"><b>Definition:</b> IWorld.h:411</div></div>
-<div class="ttc" id="aa04094_html_a17aac4c166ebe43e3b8fdccf9e012e41a674f305590e59d581832bef259163a68"><div class="ttname"><a href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41a674f305590e59d581832bef259163a68">CONFIG_GUILD_BANK_TAB_COST_3</a></div><div class="ttdeci">@ CONFIG_GUILD_BANK_TAB_COST_3</div><div class="ttdef"><b>Definition:</b> IWorld.h:410</div></div>
-<div class="ttc" id="aa04094_html_a17aac4c166ebe43e3b8fdccf9e012e41a87f8fbfc9f3776a76068644340eab776"><div class="ttname"><a href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41a87f8fbfc9f3776a76068644340eab776">CONFIG_GUILD_BANK_TAB_COST_2</a></div><div class="ttdeci">@ CONFIG_GUILD_BANK_TAB_COST_2</div><div class="ttdef"><b>Definition:</b> IWorld.h:409</div></div>
-<div class="ttc" id="aa04094_html_a17aac4c166ebe43e3b8fdccf9e012e41a9900ae61d056234c1888f37aa7b268a8"><div class="ttname"><a href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41a9900ae61d056234c1888f37aa7b268a8">CONFIG_GUILD_BANK_TAB_COST_5</a></div><div class="ttdeci">@ CONFIG_GUILD_BANK_TAB_COST_5</div><div class="ttdef"><b>Definition:</b> IWorld.h:412</div></div>
-<div class="ttc" id="aa04094_html_a17aac4c166ebe43e3b8fdccf9e012e41ad1c7606ab10e96c0d24373a35e828101"><div class="ttname"><a href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41ad1c7606ab10e96c0d24373a35e828101">CONFIG_GUILD_BANK_TAB_COST_1</a></div><div class="ttdeci">@ CONFIG_GUILD_BANK_TAB_COST_1</div><div class="ttdef"><b>Definition:</b> IWorld.h:408</div></div>
-<div class="ttc" id="aa04094_html_a17aac4c166ebe43e3b8fdccf9e012e41ad498385dc473aec465254d22cbfd27a3"><div class="ttname"><a href="../../df/d4e/a04094.html#a17aac4c166ebe43e3b8fdccf9e012e41ad498385dc473aec465254d22cbfd27a3">CONFIG_GUILD_BANK_TAB_COST_0</a></div><div class="ttdeci">@ CONFIG_GUILD_BANK_TAB_COST_0</div><div class="ttdef"><b>Definition:</b> IWorld.h:407</div></div>
-<div class="ttc" id="aa04663_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../db/da5/a04663.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:444</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00407">CONFIG_GUILD_BANK_TAB_COST_0</a>, <a class="el" href="../../#l00408">CONFIG_GUILD_BANK_TAB_COST_1</a>, <a class="el" href="../../#l00409">CONFIG_GUILD_BANK_TAB_COST_2</a>, <a class="el" href="../../#l00410">CONFIG_GUILD_BANK_TAB_COST_3</a>, <a class="el" href="../../#l00411">CONFIG_GUILD_BANK_TAB_COST_4</a>, <a class="el" href="../../#l00412">CONFIG_GUILD_BANK_TAB_COST_5</a>, and <a class="el" href="../../#l00444">sWorld</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l01403">Guild::HandleBuyBankTab()</a>.</p>
-
-</div>
-</div>
-<a id="a8e9e4c2d24b387f386cf2d9c02996b59" name="a8e9e4c2d24b387f386cf2d9c02996b59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e9e4c2d24b387f386cf2d9c02996b59">&#9670;&#160;</a></span>_GetGuildEventString()</h2>
+<a id="a224e147b1990c0996e0ac61a1865e34c" name="a224e147b1990c0996e0ac61a1865e34c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a224e147b1990c0996e0ac61a1865e34c">&#9670;&#160;</a></span>AddSC_instance_zulgurub()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string _GetGuildEventString </td>
+          <td class="memname">void AddSC_instance_zulgurub </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59d">GuildEvents</a>&#160;</td>
-          <td class="paramname"><em>event</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   44</span>{</div>
-<div class="line"><span class="lineno">   45</span>    <span class="keywordflow">switch</span> (event)</div>
-<div class="line"><span class="lineno">   46</span>    {</div>
-<div class="line"><span class="lineno">   47</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da72da68638000a7f33a2d5cba84f4a06f">GE_PROMOTION</a>:</div>
-<div class="line"><span class="lineno">   48</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Member promotion&quot;</span>;</div>
-<div class="line"><span class="lineno">   49</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59dae1bf3924ca8430f489b567e959cf63d2">GE_DEMOTION</a>:</div>
-<div class="line"><span class="lineno">   50</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Member demotion&quot;</span>;</div>
-<div class="line"><span class="lineno">   51</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59daab7edbe172dab4cd9f3a08e9d735421a">GE_MOTD</a>:</div>
-<div class="line"><span class="lineno">   52</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Guild MOTD&quot;</span>;</div>
-<div class="line"><span class="lineno">   53</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da6649e0fbda75bed2ed56edaa163abd4d">GE_JOINED</a>:</div>
-<div class="line"><span class="lineno">   54</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Member joined&quot;</span>;</div>
-<div class="line"><span class="lineno">   55</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da0e9ffb6d5c2c9909a0eca1ede00ee816">GE_LEFT</a>:</div>
-<div class="line"><span class="lineno">   56</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Member left&quot;</span>;</div>
-<div class="line"><span class="lineno">   57</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da50fdd818113a0fffcd2ba9dc3bc29782">GE_REMOVED</a>:</div>
-<div class="line"><span class="lineno">   58</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Member removed&quot;</span>;</div>
-<div class="line"><span class="lineno">   59</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da25d37eb4d886fabe2c8495b238488a48">GE_LEADER_IS</a>:</div>
-<div class="line"><span class="lineno">   60</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Leader is&quot;</span>;</div>
-<div class="line"><span class="lineno">   61</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59dad4ba70858e9fb573d9bbd3b308ac6b54">GE_LEADER_CHANGED</a>:</div>
-<div class="line"><span class="lineno">   62</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Leader changed&quot;</span>;</div>
-<div class="line"><span class="lineno">   63</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da9ef80195ef0577e240aa857f743ff2a0">GE_DISBANDED</a>:</div>
-<div class="line"><span class="lineno">   64</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Guild disbanded&quot;</span>;</div>
-<div class="line"><span class="lineno">   65</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da45306f2f4d9a144a27d85dd6f4d54911">GE_TABARDCHANGE</a>:</div>
-<div class="line"><span class="lineno">   66</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Tabard change&quot;</span>;</div>
-<div class="line"><span class="lineno">   67</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59daf1474532b0c069fe744ed47a24373aa6">GE_RANK_UPDATED</a>:</div>
-<div class="line"><span class="lineno">   68</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Rank updated&quot;</span>;</div>
-<div class="line"><span class="lineno">   69</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da6a6e862f8712014b28701d5538f02c12">GE_RANK_DELETED</a>:</div>
-<div class="line"><span class="lineno">   70</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Rank deleted&quot;</span>;</div>
-<div class="line"><span class="lineno">   71</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59dae1b52b8ecf858eb756e92de351ffecf4">GE_SIGNED_ON</a>:</div>
-<div class="line"><span class="lineno">   72</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Member signed on&quot;</span>;</div>
-<div class="line"><span class="lineno">   73</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59daa42cdde19a25a9a63f9b3239641ff605">GE_SIGNED_OFF</a>:</div>
-<div class="line"><span class="lineno">   74</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Member signed off&quot;</span>;</div>
-<div class="line"><span class="lineno">   75</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da6fc35b9c97bae761e0b0c25639da3e09">GE_GUILDBANKBAGSLOTS_CHANGED</a>:</div>
-<div class="line"><span class="lineno">   76</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Bank bag slots changed&quot;</span>;</div>
-<div class="line"><span class="lineno">   77</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59dac9ccde1e7afe63543cc6d9be6f14ddff">GE_BANK_TAB_PURCHASED</a>:</div>
-<div class="line"><span class="lineno">   78</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Bank tab purchased&quot;</span>;</div>
-<div class="line"><span class="lineno">   79</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da785cf9cbb7b1d11503a5bcaa71513404">GE_BANK_TAB_UPDATED</a>:</div>
-<div class="line"><span class="lineno">   80</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Bank tab updated&quot;</span>;</div>
-<div class="line"><span class="lineno">   81</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da854f585b5909f0f5815f15a501947776">GE_BANK_MONEY_SET</a>:</div>
-<div class="line"><span class="lineno">   82</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Bank money set&quot;</span>;</div>
-<div class="line"><span class="lineno">   83</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59dae974d4c2fa3918c8a74bca9da8a9c721">GE_BANK_TAB_AND_MONEY_UPDATED</a>:</div>
-<div class="line"><span class="lineno">   84</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Bank and money updated&quot;</span>;</div>
-<div class="line"><span class="lineno">   85</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da9f0f73e1953473fa1b4b68ce1095cc25">GE_BANK_TEXT_CHANGED</a>:</div>
-<div class="line"><span class="lineno">   86</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Bank tab text changed&quot;</span>;</div>
-<div class="line"><span class="lineno">   87</span>        <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">   88</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">   89</span>    }</div>
-<div class="line"><span class="lineno">   90</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;&lt;None&gt;&quot;</span>;</div>
-<div class="line"><span class="lineno">   91</span>}</div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59da0e9ffb6d5c2c9909a0eca1ede00ee816"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da0e9ffb6d5c2c9909a0eca1ede00ee816">GE_LEFT</a></div><div class="ttdeci">@ GE_LEFT</div><div class="ttdef"><b>Definition:</b> Guild.h:154</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59da25d37eb4d886fabe2c8495b238488a48"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da25d37eb4d886fabe2c8495b238488a48">GE_LEADER_IS</a></div><div class="ttdeci">@ GE_LEADER_IS</div><div class="ttdef"><b>Definition:</b> Guild.h:156</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59da45306f2f4d9a144a27d85dd6f4d54911"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da45306f2f4d9a144a27d85dd6f4d54911">GE_TABARDCHANGE</a></div><div class="ttdeci">@ GE_TABARDCHANGE</div><div class="ttdef"><b>Definition:</b> Guild.h:159</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59da50fdd818113a0fffcd2ba9dc3bc29782"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da50fdd818113a0fffcd2ba9dc3bc29782">GE_REMOVED</a></div><div class="ttdeci">@ GE_REMOVED</div><div class="ttdef"><b>Definition:</b> Guild.h:155</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59da6649e0fbda75bed2ed56edaa163abd4d"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da6649e0fbda75bed2ed56edaa163abd4d">GE_JOINED</a></div><div class="ttdeci">@ GE_JOINED</div><div class="ttdef"><b>Definition:</b> Guild.h:153</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59da6a6e862f8712014b28701d5538f02c12"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da6a6e862f8712014b28701d5538f02c12">GE_RANK_DELETED</a></div><div class="ttdeci">@ GE_RANK_DELETED</div><div class="ttdef"><b>Definition:</b> Guild.h:161</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59da6fc35b9c97bae761e0b0c25639da3e09"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da6fc35b9c97bae761e0b0c25639da3e09">GE_GUILDBANKBAGSLOTS_CHANGED</a></div><div class="ttdeci">@ GE_GUILDBANKBAGSLOTS_CHANGED</div><div class="ttdef"><b>Definition:</b> Guild.h:164</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59da72da68638000a7f33a2d5cba84f4a06f"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da72da68638000a7f33a2d5cba84f4a06f">GE_PROMOTION</a></div><div class="ttdeci">@ GE_PROMOTION</div><div class="ttdef"><b>Definition:</b> Guild.h:150</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59da785cf9cbb7b1d11503a5bcaa71513404"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da785cf9cbb7b1d11503a5bcaa71513404">GE_BANK_TAB_UPDATED</a></div><div class="ttdeci">@ GE_BANK_TAB_UPDATED</div><div class="ttdef"><b>Definition:</b> Guild.h:166</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59da854f585b5909f0f5815f15a501947776"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da854f585b5909f0f5815f15a501947776">GE_BANK_MONEY_SET</a></div><div class="ttdeci">@ GE_BANK_MONEY_SET</div><div class="ttdef"><b>Definition:</b> Guild.h:167</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59da9ef80195ef0577e240aa857f743ff2a0"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da9ef80195ef0577e240aa857f743ff2a0">GE_DISBANDED</a></div><div class="ttdeci">@ GE_DISBANDED</div><div class="ttdef"><b>Definition:</b> Guild.h:158</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59da9f0f73e1953473fa1b4b68ce1095cc25"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da9f0f73e1953473fa1b4b68ce1095cc25">GE_BANK_TEXT_CHANGED</a></div><div class="ttdeci">@ GE_BANK_TEXT_CHANGED</div><div class="ttdef"><b>Definition:</b> Guild.h:169</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59daa42cdde19a25a9a63f9b3239641ff605"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59daa42cdde19a25a9a63f9b3239641ff605">GE_SIGNED_OFF</a></div><div class="ttdeci">@ GE_SIGNED_OFF</div><div class="ttdef"><b>Definition:</b> Guild.h:163</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59daab7edbe172dab4cd9f3a08e9d735421a"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59daab7edbe172dab4cd9f3a08e9d735421a">GE_MOTD</a></div><div class="ttdeci">@ GE_MOTD</div><div class="ttdef"><b>Definition:</b> Guild.h:152</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59dac9ccde1e7afe63543cc6d9be6f14ddff"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59dac9ccde1e7afe63543cc6d9be6f14ddff">GE_BANK_TAB_PURCHASED</a></div><div class="ttdeci">@ GE_BANK_TAB_PURCHASED</div><div class="ttdef"><b>Definition:</b> Guild.h:165</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59dad4ba70858e9fb573d9bbd3b308ac6b54"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59dad4ba70858e9fb573d9bbd3b308ac6b54">GE_LEADER_CHANGED</a></div><div class="ttdeci">@ GE_LEADER_CHANGED</div><div class="ttdef"><b>Definition:</b> Guild.h:157</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59dae1b52b8ecf858eb756e92de351ffecf4"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59dae1b52b8ecf858eb756e92de351ffecf4">GE_SIGNED_ON</a></div><div class="ttdeci">@ GE_SIGNED_ON</div><div class="ttdef"><b>Definition:</b> Guild.h:162</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59dae1bf3924ca8430f489b567e959cf63d2"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59dae1bf3924ca8430f489b567e959cf63d2">GE_DEMOTION</a></div><div class="ttdeci">@ GE_DEMOTION</div><div class="ttdef"><b>Definition:</b> Guild.h:151</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59dae974d4c2fa3918c8a74bca9da8a9c721"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59dae974d4c2fa3918c8a74bca9da8a9c721">GE_BANK_TAB_AND_MONEY_UPDATED</a></div><div class="ttdeci">@ GE_BANK_TAB_AND_MONEY_UPDATED</div><div class="ttdef"><b>Definition:</b> Guild.h:168</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59daf1474532b0c069fe744ed47a24373aa6"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59daf1474532b0c069fe744ed47a24373aa6">GE_RANK_UPDATED</a></div><div class="ttdeci">@ GE_RANK_UPDATED</div><div class="ttdef"><b>Definition:</b> Guild.h:160</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  253</span>{</div>
+<div class="line"><span class="lineno">  254</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/dd0/a13964.html">instance_zulgurub</a>();</div>
+<div class="line"><span class="lineno">  255</span>    <a class="code hl_define" href="../../de/ddd/a00653.html#a87397a2ba2a1acd88f62793eae9aa30e">RegisterGameObjectAI</a>(<a class="code hl_struct" href="../../dc/df4/a13972.html">go_brazier_of_madness</a>);</div>
+<div class="line"><span class="lineno">  256</span>}</div>
+<div class="ttc" id="aa00653_html_a87397a2ba2a1acd88f62793eae9aa30e"><div class="ttname"><a href="../../de/ddd/a00653.html#a87397a2ba2a1acd88f62793eae9aa30e">RegisterGameObjectAI</a></div><div class="ttdeci">#define RegisterGameObjectAI(ai_name)</div><div class="ttdef"><b>Definition:</b> GameObjectScript.h:77</div></div>
+<div class="ttc" id="aa13964_html"><div class="ttname"><a href="../../d7/dd0/a13964.html">instance_zulgurub</a></div><div class="ttdef"><b>Definition:</b> instance_zulgurub.cpp:48</div></div>
+<div class="ttc" id="aa13972_html"><div class="ttname"><a href="../../dc/df4/a13972.html">go_brazier_of_madness</a></div><div class="ttdef"><b>Definition:</b> instance_zulgurub.cpp:215</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00167">GE_BANK_MONEY_SET</a>, <a class="el" href="../../#l00168">GE_BANK_TAB_AND_MONEY_UPDATED</a>, <a class="el" href="../../#l00165">GE_BANK_TAB_PURCHASED</a>, <a class="el" href="../../#l00166">GE_BANK_TAB_UPDATED</a>, <a class="el" href="../../#l00169">GE_BANK_TEXT_CHANGED</a>, <a class="el" href="../../#l00151">GE_DEMOTION</a>, <a class="el" href="../../#l00158">GE_DISBANDED</a>, <a class="el" href="../../#l00164">GE_GUILDBANKBAGSLOTS_CHANGED</a>, <a class="el" href="../../#l00153">GE_JOINED</a>, <a class="el" href="../../#l00157">GE_LEADER_CHANGED</a>, <a class="el" href="../../#l00156">GE_LEADER_IS</a>, <a class="el" href="../../#l00154">GE_LEFT</a>, <a class="el" href="../../#l00152">GE_MOTD</a>, <a class="el" href="../../#l00150">GE_PROMOTION</a>, <a class="el" href="../../#l00161">GE_RANK_DELETED</a>, <a class="el" href="../../#l00160">GE_RANK_UPDATED</a>, <a class="el" href="../../#l00155">GE_REMOVED</a>, <a class="el" href="../../#l00163">GE_SIGNED_OFF</a>, <a class="el" href="../../#l00162">GE_SIGNED_ON</a>, and <a class="el" href="../../#l00159">GE_TABARDCHANGE</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00077">RegisterGameObjectAI</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00168">AddEasternKingdomsScripts()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a808ff75d7f4ab6555cdc154544ef727f" name="a808ff75d7f4ab6555cdc154544ef727f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a808ff75d7f4ab6555cdc154544ef727f">&#9670;&#160;</a></span>BrazierOfMadnessContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::pair&lt;<a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt; &gt; BrazierOfMadnessContainer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416ad02945634d7affb86fe4a6fa1baee9e7">EVENT_EDGE_OF_MADNESS_GRILEK</a>,     <a class="code hl_enumvalue" href="../../d1/dd8/a03743.html#a92f6fd626e1834a4cc509efc1186963eae57b1999f65187adb68357eb42f491cb">NPC_GRILEK</a>      },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416a8ec0daec449beba98b500943bcacc8e4">EVENT_EDGE_OF_MADNESS_HAZZARAH</a>,   <a class="code hl_enumvalue" href="../../d1/dd8/a03743.html#a92f6fd626e1834a4cc509efc1186963ea4e217da14b95b49418a2c8ad63bf03db">NPC_HAZZARAH</a>    },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416a4d7aeb529f52ed41b6c933726f9e2e1d">EVENT_EDGE_OF_MADNESS_RENATAKI</a>,   <a class="code hl_enumvalue" href="../../d1/dd8/a03743.html#a92f6fd626e1834a4cc509efc1186963ea95e557f5d65bd89bc6f0d6be45a1128f">NPC_RENATAKI</a>    },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d3/d4a/a03740.html#a45822838f1310b1a812eba191cb3d416ac13476b6183a6ba6aad91191ef3c1073">EVENT_EDGE_OF_MADNESS_WUSHOOLAY</a>,  <a class="code hl_enumvalue" href="../../d1/dd8/a03743.html#a92f6fd626e1834a4cc509efc1186963eaac864c8121b5a7e73adfee70c2649dee">NPC_WUSHOOLAY</a>   }</div>
+<div class="line">}</div>
+<div class="ttc" id="aa03743_html_a92f6fd626e1834a4cc509efc1186963ea4e217da14b95b49418a2c8ad63bf03db"><div class="ttname"><a href="../../d1/dd8/a03743.html#a92f6fd626e1834a4cc509efc1186963ea4e217da14b95b49418a2c8ad63bf03db">NPC_HAZZARAH</a></div><div class="ttdeci">@ NPC_HAZZARAH</div><div class="ttdef"><b>Definition:</b> zulgurub.h:71</div></div>
+<div class="ttc" id="aa03743_html_a92f6fd626e1834a4cc509efc1186963ea95e557f5d65bd89bc6f0d6be45a1128f"><div class="ttname"><a href="../../d1/dd8/a03743.html#a92f6fd626e1834a4cc509efc1186963ea95e557f5d65bd89bc6f0d6be45a1128f">NPC_RENATAKI</a></div><div class="ttdeci">@ NPC_RENATAKI</div><div class="ttdef"><b>Definition:</b> zulgurub.h:72</div></div>
+<div class="ttc" id="aa03743_html_a92f6fd626e1834a4cc509efc1186963eaac864c8121b5a7e73adfee70c2649dee"><div class="ttname"><a href="../../d1/dd8/a03743.html#a92f6fd626e1834a4cc509efc1186963eaac864c8121b5a7e73adfee70c2649dee">NPC_WUSHOOLAY</a></div><div class="ttdeci">@ NPC_WUSHOOLAY</div><div class="ttdef"><b>Definition:</b> zulgurub.h:73</div></div>
+<div class="ttc" id="aa03743_html_a92f6fd626e1834a4cc509efc1186963eae57b1999f65187adb68357eb42f491cb"><div class="ttname"><a href="../../d1/dd8/a03743.html#a92f6fd626e1834a4cc509efc1186963eae57b1999f65187adb68357eb42f491cb">NPC_GRILEK</a></div><div class="ttdeci">@ NPC_GRILEK</div><div class="ttdef"><b>Definition:</b> zulgurub.h:70</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00218">go_brazier_of_madness::GossipHello()</a>.</p>
+
+</div>
+</div>
+<a id="a412286b689bd324fedd65ddd8dde8afb" name="a412286b689bd324fedd65ddd8dde8afb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a412286b689bd324fedd65ddd8dde8afb">&#9670;&#160;</a></span>creatureData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/dd3/a09316.html">ObjectData</a> const creatureData[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d1/dd8/a03743.html#a92f6fd626e1834a4cc509efc1186963eadd734b4514069d16c998e71b6a8f3d28">NPC_HIGH_PRIEST_THEKAL</a>, <a class="code hl_enumvalue" href="../../d1/dd8/a03743.html#afb6eb4f28419b652027fad41104a6d22a107858797dc4fd29d6b7b6a1d7590de6">DATA_THEKAL</a>  },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d1/dd8/a03743.html#a92f6fd626e1834a4cc509efc1186963eafb093e2adcf49778aa2380c21b0b14f8">NPC_ZEALOT_LORKHAN</a>,     <a class="code hl_enumvalue" href="../../d1/dd8/a03743.html#afb6eb4f28419b652027fad41104a6d22a0c3c72cb67d3f3ee9204ff95714703bc">DATA_LORKHAN</a> },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d1/dd8/a03743.html#a92f6fd626e1834a4cc509efc1186963ea0fb32dbef739097d4512236285d886e3">NPC_ZEALOT_ZATH</a>,        <a class="code hl_enumvalue" href="../../d1/dd8/a03743.html#afb6eb4f28419b652027fad41104a6d22a6fb6dafeb13f966a4be293589e809949">DATA_ZATH</a>    },</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d1/dd8/a03743.html#a92f6fd626e1834a4cc509efc1186963eaed8d419037736ccfa39e3e97d2947931">NPC_PRIESTESS_MARLI</a>,    <a class="code hl_enumvalue" href="../../d1/dd8/a03743.html#afb6eb4f28419b652027fad41104a6d22a4abd552de0f1e952a1976c1bd03919fe">DATA_MARLI</a>   },</div>
+<div class="line">    { 0,                      0            }</div>
+<div class="line">}</div>
+<div class="ttc" id="aa03743_html_a92f6fd626e1834a4cc509efc1186963ea0fb32dbef739097d4512236285d886e3"><div class="ttname"><a href="../../d1/dd8/a03743.html#a92f6fd626e1834a4cc509efc1186963ea0fb32dbef739097d4512236285d886e3">NPC_ZEALOT_ZATH</a></div><div class="ttdeci">@ NPC_ZEALOT_ZATH</div><div class="ttdef"><b>Definition:</b> zulgurub.h:53</div></div>
+<div class="ttc" id="aa03743_html_a92f6fd626e1834a4cc509efc1186963eadd734b4514069d16c998e71b6a8f3d28"><div class="ttname"><a href="../../d1/dd8/a03743.html#a92f6fd626e1834a4cc509efc1186963eadd734b4514069d16c998e71b6a8f3d28">NPC_HIGH_PRIEST_THEKAL</a></div><div class="ttdeci">@ NPC_HIGH_PRIEST_THEKAL</div><div class="ttdef"><b>Definition:</b> zulgurub.h:57</div></div>
+<div class="ttc" id="aa03743_html_a92f6fd626e1834a4cc509efc1186963eaed8d419037736ccfa39e3e97d2947931"><div class="ttname"><a href="../../d1/dd8/a03743.html#a92f6fd626e1834a4cc509efc1186963eaed8d419037736ccfa39e3e97d2947931">NPC_PRIESTESS_MARLI</a></div><div class="ttdeci">@ NPC_PRIESTESS_MARLI</div><div class="ttdef"><b>Definition:</b> zulgurub.h:55</div></div>
+<div class="ttc" id="aa03743_html_a92f6fd626e1834a4cc509efc1186963eafb093e2adcf49778aa2380c21b0b14f8"><div class="ttname"><a href="../../d1/dd8/a03743.html#a92f6fd626e1834a4cc509efc1186963eafb093e2adcf49778aa2380c21b0b14f8">NPC_ZEALOT_LORKHAN</a></div><div class="ttdeci">@ NPC_ZEALOT_LORKHAN</div><div class="ttdef"><b>Definition:</b> zulgurub.h:52</div></div>
+<div class="ttc" id="aa03743_html_afb6eb4f28419b652027fad41104a6d22a0c3c72cb67d3f3ee9204ff95714703bc"><div class="ttname"><a href="../../d1/dd8/a03743.html#afb6eb4f28419b652027fad41104a6d22a0c3c72cb67d3f3ee9204ff95714703bc">DATA_LORKHAN</a></div><div class="ttdeci">@ DATA_LORKHAN</div><div class="ttdef"><b>Definition:</b> zulgurub.h:41</div></div>
+<div class="ttc" id="aa03743_html_afb6eb4f28419b652027fad41104a6d22a107858797dc4fd29d6b7b6a1d7590de6"><div class="ttname"><a href="../../d1/dd8/a03743.html#afb6eb4f28419b652027fad41104a6d22a107858797dc4fd29d6b7b6a1d7590de6">DATA_THEKAL</a></div><div class="ttdeci">@ DATA_THEKAL</div><div class="ttdef"><b>Definition:</b> zulgurub.h:35</div></div>
+<div class="ttc" id="aa03743_html_afb6eb4f28419b652027fad41104a6d22a4abd552de0f1e952a1976c1bd03919fe"><div class="ttname"><a href="../../d1/dd8/a03743.html#afb6eb4f28419b652027fad41104a6d22a4abd552de0f1e952a1976c1bd03919fe">DATA_MARLI</a></div><div class="ttdeci">@ DATA_MARLI</div><div class="ttdef"><b>Definition:</b> zulgurub.h:33</div></div>
+<div class="ttc" id="aa03743_html_afb6eb4f28419b652027fad41104a6d22a6fb6dafeb13f966a4be293589e809949"><div class="ttname"><a href="../../d1/dd8/a03743.html#afb6eb4f28419b652027fad41104a6d22a6fb6dafeb13f966a4be293589e809949">DATA_ZATH</a></div><div class="ttdeci">@ DATA_ZATH</div><div class="ttdef"><b>Definition:</b> zulgurub.h:42</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00054">instance_zulgurub::instance_zulgurub_InstanceMapScript::instance_zulgurub_InstanceMapScript()</a>.</p>
+
+</div>
+</div>
+<a id="a69c4a0ca4694d5ed1d42f0373dd5d80c" name="a69c4a0ca4694d5ed1d42f0373dd5d80c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c4a0ca4694d5ed1d42f0373dd5d80c">&#9670;&#160;</a></span>doorData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/ded/a09300.html">DoorData</a> const doorData[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    { <a class="code hl_enumvalue" href="../../d5/d3c/a03875.html#aff286ae066e6cc855674e730f4adba43ac105595980d08e30052b055a49d6be01">GO_FORCEFIELD</a>, <a class="code hl_enumvalue" href="../../d1/dd8/a03743.html#afb6eb4f28419b652027fad41104a6d22a23fdf3e31769648f898f606a18e4597a">DATA_ARLOKK</a>, <a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a> },</div>
+<div class="line">    { 0,             0,           <a class="code hl_enumvalue" href="../../d3/dcd/a00965.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a> }</div>
+<div class="line">}</div>
+<div class="ttc" id="aa00965_html_ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70"><div class="ttname"><a href="../../d3/dcd/a00965.html#ac3549b9e861c142e11e5ad86b8b6947ea0d4c5d0a346fffd6ae47ef760c9f8d70">DOOR_TYPE_ROOM</a></div><div class="ttdeci">@ DOOR_TYPE_ROOM</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:67</div></div>
+<div class="ttc" id="aa03743_html_afb6eb4f28419b652027fad41104a6d22a23fdf3e31769648f898f606a18e4597a"><div class="ttname"><a href="../../d1/dd8/a03743.html#afb6eb4f28419b652027fad41104a6d22a23fdf3e31769648f898f606a18e4597a">DATA_ARLOKK</a></div><div class="ttdeci">@ DATA_ARLOKK</div><div class="ttdef"><b>Definition:</b> zulgurub.h:34</div></div>
+<div class="ttc" id="aa03875_html_aff286ae066e6cc855674e730f4adba43ac105595980d08e30052b055a49d6be01"><div class="ttname"><a href="../../d5/d3c/a03875.html#aff286ae066e6cc855674e730f4adba43ac105595980d08e30052b055a49d6be01">GO_FORCEFIELD</a></div><div class="ttdeci">@ GO_FORCEFIELD</div><div class="ttdef"><b>Definition:</b> sunken_temple.h:48</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00054">instance_zulgurub::instance_zulgurub_InstanceMapScript::instance_zulgurub_InstanceMapScript()</a>.</p>
+
+</div>
+</div>
+<a id="a352683729da59da9923d0f67d510f73c" name="a352683729da59da9923d0f67d510f73c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a352683729da59da9923d0f67d510f73c">&#9670;&#160;</a></span>edgeOfMagnessSummonPos</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d3b/a08192.html">Position</a> const edgeOfMagnessSummonPos = { -11901.229f, -1906.366f, 65.358f, 0.942f }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00218">go_brazier_of_madness::GossipHello()</a>.</p>
 
 </div>
 </div>
@@ -327,8 +325,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_9190001e5b6939293a2fb2bd5f108b56.html">Guilds</a></li><li class="navelem"><a class="el" href="../../d3/d4a/a03740.html">Guild.cpp</a></li>
-    <li class="footer">Generated on Mon Sep 16 2024 20:40:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ddeb450e5fe586f747c0635391d1d1d6.html">EasternKingdoms</a></li><li class="navelem"><a class="el" href="../../dir_704a0a1c688c1952f17cd27e5650d099.html">ZulGurub</a></li><li class="navelem"><a class="el" href="../../d3/d4a/a03740.html">instance_zulgurub.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 23 2024 20:40:49 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

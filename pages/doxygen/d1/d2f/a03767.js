@@ -1,5 +1,14 @@
 var a03767 =
 [
-    [ "OutdoorPvP_grizzly_hills", "d0/d98/a22456.html", "d0/d98/a22456" ],
-    [ "AddSC_outdoorpvp_gh", "d1/d2f/a03767.html#a04eaa29ec2e34f71e4f7addacc0405c0", null ]
+    [ "npc_tapoke_slim_jahn", "d4/d16/a13524.html", "d4/d16/a13524" ],
+    [ "npc_tapoke_slim_jahn::npc_tapoke_slim_jahnAI", "dc/deb/a13528.html", "dc/deb/a13528" ],
+    [ "npc_mikhail", "d2/de2/a13532.html", "d2/de2/a13532" ],
+    [ "TapokeSlim", "d1/d2f/a03767.html#ad5b3ef2d2393f509f0cbf4e70303fab9", [
+      [ "QUEST_MISSING_DIPLO_PT11", "d1/d2f/a03767.html#ad5b3ef2d2393f509f0cbf4e70303fab9afdacf3720ad6627ab1c120619b4628a2", null ],
+      [ "SPELL_STEALTH", "d1/d2f/a03767.html#ad5b3ef2d2393f509f0cbf4e70303fab9ab05b1ff486cc81800d4e40014eae5576", null ],
+      [ "SPELL_CALL_FRIENDS", "d1/d2f/a03767.html#ad5b3ef2d2393f509f0cbf4e70303fab9a6cc72f5b401e64cbeb4986e9dc90c779", null ],
+      [ "NPC_SLIMS_FRIEND", "d1/d2f/a03767.html#ad5b3ef2d2393f509f0cbf4e70303fab9afc7e4b6611738777f37002c70bb946c1", null ],
+      [ "NPC_TAPOKE_SLIM_JAHN", "d1/d2f/a03767.html#ad5b3ef2d2393f509f0cbf4e70303fab9a2853dfe2482cee57da6a01e6bc030bda", null ]
+    ] ],
+    [ "AddSC_wetlands", "d1/d2f/a03767.html#a96be3075a4a99658d93ffe3d69ba369a", null ]
 ];

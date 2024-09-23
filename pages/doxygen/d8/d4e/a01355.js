@@ -1,44 +1,29 @@
 var a01355 =
 [
-    [ "AhnKahetScriptName", "d8/d4e/a01355.html#a506431ce00265fd3122a043804560c86", null ],
-    [ "DataHeader", "d8/d4e/a01355.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "RegisterAhnKahetCreatureAI", "d8/d4e/a01355.html#aa9d11f00daa1d5fe3fccebf717ab93f6", null ],
-    [ "AhnKahetActions", "d8/d4e/a01355.html#ab602224ee107d47ea7a8fd34e7e11dcf", [
-      [ "ACTION_REMOVE_PRISON", "d8/d4e/a01355.html#ab602224ee107d47ea7a8fd34e7e11dcfa16fb04e016b069c88508a114006910a8", null ]
-    ] ],
-    [ "AhnKahetCreatures", "d8/d4e/a01355.html#a0a7022dbeba8e4c5922bca61c1ac6be0", [
-      [ "NPC_ELDER_NADOX", "d8/d4e/a01355.html#a0a7022dbeba8e4c5922bca61c1ac6be0adefb6eeafb4e1c648ef5431666cee303", null ],
-      [ "NPC_PRINCE_TALDARAM", "d8/d4e/a01355.html#a0a7022dbeba8e4c5922bca61c1ac6be0ae7602060d95905d39d735be974c99c5f", null ],
-      [ "NPC_JEDOGA_SHADOWSEEKER", "d8/d4e/a01355.html#a0a7022dbeba8e4c5922bca61c1ac6be0a8f4808be30a572ba6dc967dde518e092", null ],
-      [ "NPC_HERALD_VOLAZJ", "d8/d4e/a01355.html#a0a7022dbeba8e4c5922bca61c1ac6be0a5c1e93f3700ea72caa137ad6848e3c85", null ],
-      [ "NPC_AMANITAR", "d8/d4e/a01355.html#a0a7022dbeba8e4c5922bca61c1ac6be0a34c1714ae003f663cb2b8951810d661f", null ],
-      [ "NPC_JEDOGA_CONTROLLER", "d8/d4e/a01355.html#a0a7022dbeba8e4c5922bca61c1ac6be0acf6f2f93580795c52ed4700df297d549", null ]
-    ] ],
-    [ "AhnkahetData", "d8/d4e/a01355.html#aff905f3bb30004af8919ddfe3d29e8dd", [
-      [ "DATA_ELDER_NADOX", "d8/d4e/a01355.html#aff905f3bb30004af8919ddfe3d29e8dda770adca9032e015945b302877eea180f", null ],
-      [ "DATA_PRINCE_TALDARAM", "d8/d4e/a01355.html#aff905f3bb30004af8919ddfe3d29e8ddaaedbd25489af19057ce8227250867ce0", null ],
-      [ "DATA_JEDOGA_SHADOWSEEKER", "d8/d4e/a01355.html#aff905f3bb30004af8919ddfe3d29e8dda5898d17f647609f063f3a809dc2fec66", null ],
-      [ "DATA_HERALD_VOLAZJ", "d8/d4e/a01355.html#aff905f3bb30004af8919ddfe3d29e8dda30b8528fb302a8f32b4db9e72b4889e5", null ],
-      [ "DATA_AMANITAR", "d8/d4e/a01355.html#aff905f3bb30004af8919ddfe3d29e8dda7146f172ca0fe8e80c667a510874a94f", null ],
-      [ "DATA_PRINCE_TALDARAM_PLATFORM", "d8/d4e/a01355.html#aff905f3bb30004af8919ddfe3d29e8dda75ab4b9865126fdcf77107ef317fe7cc", null ]
-    ] ],
-    [ "AhnkahetObjects", "d8/d4e/a01355.html#a497b1d427e80ac610cd1cc5e3bc2a02f", [
-      [ "GO_TELDARAM_DOOR", "d8/d4e/a01355.html#a497b1d427e80ac610cd1cc5e3bc2a02fa597526245130273d3e77a1e411a81811", null ],
-      [ "GO_TELDARAM_SPHERE1", "d8/d4e/a01355.html#a497b1d427e80ac610cd1cc5e3bc2a02fa4586ff1377f4e4c184e57a56e7f962ed", null ],
-      [ "GO_TELDARAM_SPHERE2", "d8/d4e/a01355.html#a497b1d427e80ac610cd1cc5e3bc2a02fa637eb0aff225b388e0c611a9cbccd03e", null ],
-      [ "GO_TELDARAM_PLATFORM", "d8/d4e/a01355.html#a497b1d427e80ac610cd1cc5e3bc2a02fa9ae027e64960ba5d20a93c5123469e74", null ]
-    ] ],
-    [ "AhnKahetPersistentData", "d8/d4e/a01355.html#acc056f2f7be3fe09395716ca57e7c7f3", [
-      [ "DATA_TELDRAM_SPHERE1", "d8/d4e/a01355.html#acc056f2f7be3fe09395716ca57e7c7f3a748636fe536f29e09b02edcebc095d56", null ],
-      [ "DATA_TELDRAM_SPHERE2", "d8/d4e/a01355.html#acc056f2f7be3fe09395716ca57e7c7f3aa71df9961714e4f37168c84236d3ca51", null ],
-      [ "MAX_PERSISTENT_DATA", "d8/d4e/a01355.html#acc056f2f7be3fe09395716ca57e7c7f3ade8daf2d97d89b7bc637c9b5550e0449", null ]
-    ] ],
-    [ "AhnkahetSpells", "d8/d4e/a01355.html#a04c8c0beb3d5fd05b695be78e77cfe8d", [
-      [ "SPELL_SHADOW_SICKLE", "d8/d4e/a01355.html#a04c8c0beb3d5fd05b695be78e77cfe8dacf16c95dd7397632ddf94f2d9f3c3c39", null ]
-    ] ],
-    [ "AhnKahetTexts", "d8/d4e/a01355.html#ad2ad73bb93c442e3d70b9efad1b6c305", [
-      [ "SAY_SPHERE_ACTIVATED", "d8/d4e/a01355.html#ad2ad73bb93c442e3d70b9efad1b6c305aea5e4c72402492816a8bafad5323cff8", null ]
-    ] ],
-    [ "GetAhnKahetAI", "d8/d4e/a01355.html#a7d67882176cbe7ff747f0bb785985b00", null ],
-    [ "MAX_ENCOUNTER", "d8/d4e/a01355.html#a42b654ad1177faa1b68541d8c6ca1fae", null ]
+    [ "HashMapHolder< T >", "dd/d28/a08576.html", "dd/d28/a08576" ],
+    [ "AddObject", "d8/d4e/a01355.html#a0726eba7e71a7c6d4f6f90b4dfb410f8", null ],
+    [ "AddObject", "d8/d4e/a01355.html#a2f3be0f1bc71493623f991ad879c8be4", null ],
+    [ "FindConnectedPlayer", "d8/d4e/a01355.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0", null ],
+    [ "FindPlayer", "d8/d4e/a01355.html#a9ede56180a13f102ad195136eadb97ee", null ],
+    [ "FindPlayerByLowGUID", "d8/d4e/a01355.html#a106c85352229fc2c097d9e021b4ce297", null ],
+    [ "FindPlayerByName", "d8/d4e/a01355.html#af5cb6806842c9689cf1d5f43ffdc4b0a", null ],
+    [ "GetCorpse", "d8/d4e/a01355.html#a9031db6958a68a6fda60e3c0f37d639f", null ],
+    [ "GetCreature", "d8/d4e/a01355.html#ae42e503fe79bbeaea1aaa665418c43f8", null ],
+    [ "GetCreatureOrPetOrVehicle", "d8/d4e/a01355.html#abe7c8995443541417f52b00973dbde6f", null ],
+    [ "GetDynamicObject", "d8/d4e/a01355.html#a76097a1f20df3f0e83516b1175a17397", null ],
+    [ "GetGameObject", "d8/d4e/a01355.html#a424a63829a446dac6f97a464cc64ed48", null ],
+    [ "GetObjectByTypeMask", "d8/d4e/a01355.html#a0bfd3fb4a5f43a4159bbd0b176186e19", null ],
+    [ "GetPet", "d8/d4e/a01355.html#a76e4ca902836751980d6157a3eed7967", null ],
+    [ "GetPlayer", "d8/d4e/a01355.html#aeb3657e7ad09335b9a9ffa50473aa216", null ],
+    [ "GetPlayer", "d8/d4e/a01355.html#a9179a3b50b384405892a8e8e538617b4", null ],
+    [ "GetPlayers", "d8/d4e/a01355.html#a868ecab21b3e6e3ac68beed32f4ea793", null ],
+    [ "GetSpawnedCreatureByDBGUID", "d8/d4e/a01355.html#a4cebdea9476a004a8a1bd57c40d1f3ae", null ],
+    [ "GetSpawnedGameObjectByDBGUID", "d8/d4e/a01355.html#a6639665d2704cbd06727004567caac15", null ],
+    [ "GetTransport", "d8/d4e/a01355.html#a2ddde0dc109d262af644c232a315afd7", null ],
+    [ "GetUnit", "d8/d4e/a01355.html#a02c2dfb59db7d7e2501dcc9a4f9baf07", null ],
+    [ "GetWorldObject", "d8/d4e/a01355.html#ade254f98439319c444ce701c75d4f93a", null ],
+    [ "RemoveObject", "d8/d4e/a01355.html#a43f4538cfa587672688705f6f7a60edc", null ],
+    [ "RemoveObject", "d8/d4e/a01355.html#ad72db398e2ff25a82a93e89fb67c56ff", null ],
+    [ "SaveAllPlayers", "d8/d4e/a01355.html#a0fba0222d2e46026727c6e898a7f35bc", null ],
+    [ "UpdatePlayerNameMapReference", "d8/d4e/a01355.html#a8a088e6967b9972662d788beffba14d4", null ]
 ];

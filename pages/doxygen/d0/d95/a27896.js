@@ -1,11 +1,6 @@
 var a27896 =
 [
-    [ "icon", "d0/d95/a27896.html#ad34c7f65fc077b39b6b71a1ff1a89cf5", null ],
-    [ "id", "d0/d95/a27896.html#af9f4cd8b29daededd3d2b2f0cc53d213", null ],
-    [ "mapId", "d0/d95/a27896.html#a4a8ba812b143b55e06d8dbd88e9e6fe3", null ],
-    [ "worldState", "d0/d95/a27896.html#a9d745d26316726c861cc5a242f6a4f57", null ],
-    [ "x", "d0/d95/a27896.html#a27fd46a0c6b00a297c345a14dfd781e5", null ],
-    [ "y", "d0/d95/a27896.html#afcb7cc22d0ed260793b31f8893d13a0f", null ],
-    [ "z", "d0/d95/a27896.html#a79ca5d6a2c4332dcc6d0a51ef40d0189", null ],
-    [ "zoneId", "d0/d95/a27896.html#a0cc33089981237694ca550cba6793a3e", null ]
+    [ "AreaGroupId", "d0/d95/a27896.html#a2868a59574e635d5f5859cfa01811151", null ],
+    [ "AreaId", "d0/d95/a27896.html#aabde46a6c77db2c7fb92ca211c86727a", null ],
+    [ "nextGroup", "d0/d95/a27896.html#a1f966f2d6848e8aba2ae3c6bd8120503", null ]
 ];

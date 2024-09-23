@@ -1,6 +1,6 @@
 var a09932 =
 [
-    [ "AllMapScript", "dd/d52/a09932.html#abaf4ffb766b2e5780a9c15c8136d8e26", null ],
+    [ "AllMapScript", "dd/d52/a09932.html#aea5284ac6b227dd44b83dc944e220f00", null ],
     [ "OnBeforeCreateInstanceScript", "dd/d52/a09932.html#a1a4b75a1845923bcf68481ecc0d6b77c", null ],
     [ "OnCreateMap", "dd/d52/a09932.html#a56aa53bfb0a1cb7ad7cb677771739b46", null ],
     [ "OnDestroyInstance", "dd/d52/a09932.html#a990130b4cd594c1cd04368aea300a49e", null ],

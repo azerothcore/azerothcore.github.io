@@ -1,16 +1,20 @@
 var a28500 =
 [
-    [ "Iterator", "d1/d4d/a28500.html#a682fe042bcd4ceb6c25dd7b4a3acbcc1", null ],
-    [ "Iterator", "d1/d4d/a28500.html#a682fe042bcd4ceb6c25dd7b4a3acbcc1", null ],
-    [ "operator!=", "d1/d4d/a28500.html#a7c0a38cbd02823479f349bb109a7ccf8", null ],
-    [ "operator!=", "d1/d4d/a28500.html#a7c0a38cbd02823479f349bb109a7ccf8", null ],
-    [ "operator*", "d1/d4d/a28500.html#a7b3de0d9987b834eaf6e909dd22f2528", null ],
-    [ "operator*", "d1/d4d/a28500.html#a7b3de0d9987b834eaf6e909dd22f2528", null ],
-    [ "operator++", "d1/d4d/a28500.html#af7dc5aae457d264ebe4aa42f5b700589", null ],
-    [ "operator++", "d1/d4d/a28500.html#af7dc5aae457d264ebe4aa42f5b700589", null ],
-    [ "operator->", "d1/d4d/a28500.html#ac57afe01d1ce6c611ca832f10f5d52fd", null ],
-    [ "operator->", "d1/d4d/a28500.html#ac57afe01d1ce6c611ca832f10f5d52fd", null ],
-    [ "operator==", "d1/d4d/a28500.html#a2d9cf3e798a1fcce3682c186952290df", null ],
-    [ "operator==", "d1/d4d/a28500.html#a2d9cf3e798a1fcce3682c186952290df", null ],
-    [ "record", "d1/d4d/a28500.html#a948512c44e53dfa177b85f82e9fd6160", null ]
+    [ "Record", "d1/d4d/a28500.html#a51a9cc006bb8530fe76452c1bbe7985c", null ],
+    [ "Record", "d1/d4d/a28500.html#a51a9cc006bb8530fe76452c1bbe7985c", null ],
+    [ "getByte", "d1/d4d/a28500.html#ab1897952fa01e930caffa262519645c5", null ],
+    [ "getFloat", "d1/d4d/a28500.html#a3e6402dcebb5adc1becccdc2bbf39758", null ],
+    [ "getFloat", "d1/d4d/a28500.html#a3e6402dcebb5adc1becccdc2bbf39758", null ],
+    [ "getInt", "d1/d4d/a28500.html#a80c4d8d3ae4a5a42ed1dc9a9edcd6747", null ],
+    [ "getInt", "d1/d4d/a28500.html#a80c4d8d3ae4a5a42ed1dc9a9edcd6747", null ],
+    [ "getString", "d1/d4d/a28500.html#a3e330e9888e740bc16d4ba173c90c8d9", null ],
+    [ "getString", "d1/d4d/a28500.html#a3e330e9888e740bc16d4ba173c90c8d9", null ],
+    [ "getUInt", "d1/d4d/a28500.html#ace0215b88ffbaf83c69a82cde51cd45f", null ],
+    [ "getUInt", "d1/d4d/a28500.html#ace0215b88ffbaf83c69a82cde51cd45f", null ],
+    [ "operator=", "d1/d4d/a28500.html#a25c6e7d3b28aade82eb52d41515f0427", null ],
+    [ "DBCFile", "d1/d4d/a28500.html#a6c4f02b14caa99337bbe77b30e5615ab", null ],
+    [ "DBCFile::Iterator", "d1/d4d/a28500.html#a56d48f82a62e25038bf9cf339e608083", null ],
+    [ "Iterator", "d1/d4d/a28500.html#a9830fc407400559db7e7783cc10a9394", null ],
+    [ "file", "d1/d4d/a28500.html#adffc3b9545883356dd9bed0a0613a1fe", null ],
+    [ "offset", "d1/d4d/a28500.html#ae76eb8b329fb6d580aa42484de46c95e", null ]
 ];

@@ -1,7 +1,6 @@
 var a26424 =
 [
-    [ "HandleDummy", "dd/d51/a26424.html#ab046ef0adc63c32a153ba4ea866f8dcd", null ],
-    [ "PrepareSpellScript", "dd/d51/a26424.html#ac293d1c1aac41808f81cad2974424c2e", null ],
-    [ "Register", "dd/d51/a26424.html#ab145e1826eb63d0b6b1ea39a6c3c4d36", null ],
-    [ "Validate", "dd/d51/a26424.html#aa725a6ee483dfac46724d291de4ee54b", null ]
+    [ "ModDest", "dd/d51/a26424.html#ab03387aec0a02a6b3bac1014443554b6", null ],
+    [ "PrepareSpellScript", "dd/d51/a26424.html#a53f7da301759fb18686bc73281c4a321", null ],
+    [ "Register", "dd/d51/a26424.html#a266198fbc6203517f9845ef6212ddf13", null ]
 ];

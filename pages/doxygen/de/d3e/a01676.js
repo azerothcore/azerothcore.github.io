@@ -1,10 +1,7 @@
 var a01676 =
 [
-    [ "ban_commandscript", "d0/d66/a11264.html", "d0/d66/a11264" ],
-    [ "BanMode", "de/d3e/a01676.html#aee9acfaac97a86a40bad738a75eb5264", [
-      [ "BAN_ACCOUNT", "de/d3e/a01676.html#aee9acfaac97a86a40bad738a75eb5264a7092b1d29da920594bf62c7abe0e9ba1", null ],
-      [ "BAN_CHARACTER", "de/d3e/a01676.html#aee9acfaac97a86a40bad738a75eb5264ab7cde4c4b1dd975c191f10ab0b18ab79", null ],
-      [ "BAN_IP", "de/d3e/a01676.html#aee9acfaac97a86a40bad738a75eb5264ab68a6a6d80749ee19c73fc9dd4f4d74b", null ]
-    ] ],
-    [ "AddSC_ban_commandscript", "de/d3e/a01676.html#aac8ae57b7b7f9ef5cb5aa2975ef444ff", null ]
+    [ "Movement::FallInitializer", "d0/d18/a09752.html", "d0/d18/a09752" ],
+    [ "Movement::CommonInitializer", "d4/d87/a09756.html", "d4/d87/a09756" ],
+    [ "CHECK", "de/d3e/a01676.html#a4005b3acaa5011bfc2cc027562c04dfb", null ],
+    [ "computeDuration", "de/d3e/a01676.html#a0f9e26b66bd86bb9701c366e4f9529c3", null ]
 ];

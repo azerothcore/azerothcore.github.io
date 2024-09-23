@@ -1,10 +1,7 @@
 var a28268 =
 [
-    [ "ID", "d8/d98/a28268.html#a090069d13cbbcc5762ecca600c506492", null ],
-    [ "map_id", "d8/d98/a28268.html#a685931e2a361f9e0fc81c004c7467d19", null ],
-    [ "MountCreatureID", "d8/d98/a28268.html#ab59ab7e8b302ac8858bfd67bc10d803f", null ],
-    [ "name", "d8/d98/a28268.html#ae00db3ea736c3a470f6f0690c178e758", null ],
-    [ "x", "d8/d98/a28268.html#a7cbd40848094fa367862d653b0f7170d", null ],
-    [ "y", "d8/d98/a28268.html#a9380befd45cab3104003b2487464bd71", null ],
-    [ "z", "d8/d98/a28268.html#a2e6ce98f7c96ba1469fca8ff3946404a", null ]
+    [ "ClassMask", "d8/d98/a28268.html#acae4582c147b5fd95780ae7b55d36fdc", null ],
+    [ "petTalentMask", "d8/d98/a28268.html#a22ab1cf8ad05e57d91a63e3876ae2b77", null ],
+    [ "tabpage", "d8/d98/a28268.html#aa6389276582adeb4cae76c257734795c", null ],
+    [ "TalentTabID", "d8/d98/a28268.html#ae3a71c61223b59185365819164715dc2", null ]
 ];

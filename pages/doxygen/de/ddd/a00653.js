@@ -1,6 +1,8 @@
 var a00653 =
 [
-    [ "SOAPCommand", "d5/d8d/a05556.html", "d5/d8d/a05556" ],
-    [ "ACSoapThread", "de/ddd/a00653.html#a69e574c9a3cecf7c395cd036bb672ed3", null ],
-    [ "process_message", "de/ddd/a00653.html#abf914e30c869f88f2fafb9f656320c6a", null ]
+    [ "GameObjectScript", "d6/d89/a10008.html", "d6/d89/a10008" ],
+    [ "GenericGameObjectScript< AI >", "d8/d43/a10012.html", "d8/d43/a10012" ],
+    [ "FactoryGameObjectScript< AI, AIFactory >", "d1/d7c/a10016.html", "d1/d7c/a10016" ],
+    [ "RegisterGameObjectAI", "de/ddd/a00653.html#a87397a2ba2a1acd88f62793eae9aa30e", null ],
+    [ "RegisterGameObjectAIWithFactory", "de/ddd/a00653.html#a1614f98721d8a94351c4be15a72e499f", null ]
 ];

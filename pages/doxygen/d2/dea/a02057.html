@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/World/achievement_scripts.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Server/Packets/GuildPackets.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,212 +105,112 @@ $(document).ready(function(){initNavTree('d2/dea/a02057.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">achievement_scripts.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">GuildPackets.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">AchievementCriteriaScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundAB.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundAV.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundIC.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundSA.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlegroundWS.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">GuildPackets.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d82/a26896.html">achievement_resilient_victory</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbb/a26900.html">achievement_bg_control_all_nodes</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d05/a26904.html">achievement_save_the_day</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d75/a26908.html">achievement_bg_ic_resource_glut</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d2f/a26912.html">achievement_bg_ic_glaive_grave</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d93/a26916.html">achievement_bg_ic_mowed_down</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d65/a26920.html">achievement_bg_sa_artillery</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dcd/a26924.html">achievement_arena_by_type</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d10/a26928.html">achievement_sickly_gazelle</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc5/a26932.html">achievement_everything_counts</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dae/a26936.html">achievement_bg_av_perfection</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/a26940.html">achievement_sa_defense_of_the_ancients</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5d/a26944.html">achievement_tilted</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d2d/a26948.html">achievement_not_even_a_scratch</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d24/a26952.html">achievement_killed_exp_or_honor_target</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d00/a26956.html">achievement_flirt_with_disaster_perf_check</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a2e77de85e54ed0be0b64c804c9b2eea3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3">ArgentTournamentAreas</a> { <br />
-&#160;&#160;<a class="el" href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737">AREA_ARGENT_TOURNAMENT_FIELDS</a> = 4658
-, <br />
-&#160;&#160;<a class="el" href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf">AREA_RING_OF_ASPIRANTS</a> = 4670
-, <br />
-&#160;&#160;<a class="el" href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d">AREA_RING_OF_ARGENT_VALIANTS</a> = 4671
-, <br />
-&#160;&#160;<a class="el" href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504">AREA_RING_OF_ALLIANCE_VALIANTS</a> = 4672
-, <br />
-&#160;&#160;<a class="el" href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826">AREA_RING_OF_HORDE_VALIANTS</a> = 4673
-, <br />
-&#160;&#160;<a class="el" href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7">AREA_RING_OF_CHAMPIONS</a> = 4669
-<br />
- }</td></tr>
-<tr class="separator:a2e77de85e54ed0be0b64c804c9b2eea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59d6aac4e950d8e6a0265a26e1898c13"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dea/a02057.html#a59d6aac4e950d8e6a0265a26e1898c13">FlirtWithDisaster</a> { <br />
-&#160;&#160;<a class="el" href="../../d2/dea/a02057.html#a59d6aac4e950d8e6a0265a26e1898c13a51aa967912af69dc7510017e558bbb85">AURA_PERFUME_FOREVER</a> = 70235
-, <br />
-&#160;&#160;<a class="el" href="../../d2/dea/a02057.html#a59d6aac4e950d8e6a0265a26e1898c13a6f98457c5232039183c4be4588a067c6">AURA_PERFUME_ENCHANTRESS</a> = 70234
-, <br />
-&#160;&#160;<a class="el" href="../../d2/dea/a02057.html#a59d6aac4e950d8e6a0265a26e1898c13afb194a6e19cf65f763d7975e5d842c9c">AURA_PERFUME_VICTORY</a> = 70233
-<br />
- }</td></tr>
-<tr class="separator:a59d6aac4e950d8e6a0265a26e1898c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5091d6f933800f3313078304ad5c38ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dea/a02057.html#a5091d6f933800f3313078304ad5c38ca">AddSC_achievement_scripts</a> ()</td></tr>
-<tr class="separator:a5091d6f933800f3313078304ad5c38ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd3549ec2eebc439058205da8ae53eb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/da2/a28360.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dea/a02057.html#abd3549ec2eebc439058205da8ae53eb3">operator&lt;&lt;</a> (<a class="el" href="../../d5/da2/a28360.html">ByteBuffer</a> &amp;data, <a class="el" href="../../df/d6f/a10260.html">WorldPackets::Guild::GuildRosterMemberData</a> const &amp;rosterMemberData)</td></tr>
+<tr class="separator:abd3549ec2eebc439058205da8ae53eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8a45300d819957eb5ed8c659180c750"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/da2/a28360.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dea/a02057.html#ae8a45300d819957eb5ed8c659180c750">operator&lt;&lt;</a> (<a class="el" href="../../d5/da2/a28360.html">ByteBuffer</a> &amp;data, <a class="el" href="../../dd/d54/a10264.html">WorldPackets::Guild::GuildRankData</a> const &amp;rankData)</td></tr>
+<tr class="separator:ae8a45300d819957eb5ed8c659180c750"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a2e77de85e54ed0be0b64c804c9b2eea3" name="a2e77de85e54ed0be0b64c804c9b2eea3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e77de85e54ed0be0b64c804c9b2eea3">&#9670;&#160;</a></span>ArgentTournamentAreas</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3">ArgentTournamentAreas</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737" name="a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737"></a>AREA_ARGENT_TOURNAMENT_FIELDS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf" name="a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf"></a>AREA_RING_OF_ASPIRANTS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d" name="a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d"></a>AREA_RING_OF_ARGENT_VALIANTS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504" name="a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504"></a>AREA_RING_OF_ALLIANCE_VALIANTS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826" name="a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826"></a>AREA_RING_OF_HORDE_VALIANTS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7" name="a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7"></a>AREA_RING_OF_CHAMPIONS&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  196</span>{</div>
-<div class="line"><span class="lineno">  197</span>    <a class="code hl_enumvalue" href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737">AREA_ARGENT_TOURNAMENT_FIELDS</a>  = 4658,</div>
-<div class="line"><span class="lineno">  198</span>    <a class="code hl_enumvalue" href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf">AREA_RING_OF_ASPIRANTS</a>         = 4670,</div>
-<div class="line"><span class="lineno">  199</span>    <a class="code hl_enumvalue" href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d">AREA_RING_OF_ARGENT_VALIANTS</a>   = 4671,</div>
-<div class="line"><span class="lineno">  200</span>    <a class="code hl_enumvalue" href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504">AREA_RING_OF_ALLIANCE_VALIANTS</a> = 4672,</div>
-<div class="line"><span class="lineno">  201</span>    <a class="code hl_enumvalue" href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826">AREA_RING_OF_HORDE_VALIANTS</a>    = 4673,</div>
-<div class="line"><span class="lineno">  202</span>    <a class="code hl_enumvalue" href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7">AREA_RING_OF_CHAMPIONS</a>         = 4669,</div>
-<div class="line"><span class="lineno">  203</span>};</div>
-<div class="ttc" id="aa02057_html_a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504"><div class="ttname"><a href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3a1a3b43a56f910e6169862a74ae997504">AREA_RING_OF_ALLIANCE_VALIANTS</a></div><div class="ttdeci">@ AREA_RING_OF_ALLIANCE_VALIANTS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:200</div></div>
-<div class="ttc" id="aa02057_html_a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d"><div class="ttname"><a href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3a656551c58550150283c197d7d13ffa5d">AREA_RING_OF_ARGENT_VALIANTS</a></div><div class="ttdeci">@ AREA_RING_OF_ARGENT_VALIANTS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:199</div></div>
-<div class="ttc" id="aa02057_html_a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737"><div class="ttname"><a href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3a927aa337e28c7ad61f60c63bec39b737">AREA_ARGENT_TOURNAMENT_FIELDS</a></div><div class="ttdeci">@ AREA_ARGENT_TOURNAMENT_FIELDS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:197</div></div>
-<div class="ttc" id="aa02057_html_a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7"><div class="ttname"><a href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3ac66a546c5511c084548dbf60e77697d7">AREA_RING_OF_CHAMPIONS</a></div><div class="ttdeci">@ AREA_RING_OF_CHAMPIONS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:202</div></div>
-<div class="ttc" id="aa02057_html_a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf"><div class="ttname"><a href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3adab43710a79e36d4a77a97fbf175e4bf">AREA_RING_OF_ASPIRANTS</a></div><div class="ttdeci">@ AREA_RING_OF_ASPIRANTS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:198</div></div>
-<div class="ttc" id="aa02057_html_a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826"><div class="ttname"><a href="../../d2/dea/a02057.html#a2e77de85e54ed0be0b64c804c9b2eea3adae6540f49bb31f36684880c68ab5826">AREA_RING_OF_HORDE_VALIANTS</a></div><div class="ttdeci">@ AREA_RING_OF_HORDE_VALIANTS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:201</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a59d6aac4e950d8e6a0265a26e1898c13" name="a59d6aac4e950d8e6a0265a26e1898c13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59d6aac4e950d8e6a0265a26e1898c13">&#9670;&#160;</a></span>FlirtWithDisaster</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d2/dea/a02057.html#a59d6aac4e950d8e6a0265a26e1898c13">FlirtWithDisaster</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a59d6aac4e950d8e6a0265a26e1898c13a51aa967912af69dc7510017e558bbb85" name="a59d6aac4e950d8e6a0265a26e1898c13a51aa967912af69dc7510017e558bbb85"></a>AURA_PERFUME_FOREVER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a59d6aac4e950d8e6a0265a26e1898c13a6f98457c5232039183c4be4588a067c6" name="a59d6aac4e950d8e6a0265a26e1898c13a6f98457c5232039183c4be4588a067c6"></a>AURA_PERFUME_ENCHANTRESS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a59d6aac4e950d8e6a0265a26e1898c13afb194a6e19cf65f763d7975e5d842c9c" name="a59d6aac4e950d8e6a0265a26e1898c13afb194a6e19cf65f763d7975e5d842c9c"></a>AURA_PERFUME_VICTORY&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  254</span>{</div>
-<div class="line"><span class="lineno">  255</span>    <a class="code hl_enumvalue" href="../../d2/dea/a02057.html#a59d6aac4e950d8e6a0265a26e1898c13a51aa967912af69dc7510017e558bbb85">AURA_PERFUME_FOREVER</a>           = 70235,</div>
-<div class="line"><span class="lineno">  256</span>    <a class="code hl_enumvalue" href="../../d2/dea/a02057.html#a59d6aac4e950d8e6a0265a26e1898c13a6f98457c5232039183c4be4588a067c6">AURA_PERFUME_ENCHANTRESS</a>       = 70234,</div>
-<div class="line"><span class="lineno">  257</span>    <a class="code hl_enumvalue" href="../../d2/dea/a02057.html#a59d6aac4e950d8e6a0265a26e1898c13afb194a6e19cf65f763d7975e5d842c9c">AURA_PERFUME_VICTORY</a>           = 70233,</div>
-<div class="line"><span class="lineno">  258</span>};</div>
-<div class="ttc" id="aa02057_html_a59d6aac4e950d8e6a0265a26e1898c13a51aa967912af69dc7510017e558bbb85"><div class="ttname"><a href="../../d2/dea/a02057.html#a59d6aac4e950d8e6a0265a26e1898c13a51aa967912af69dc7510017e558bbb85">AURA_PERFUME_FOREVER</a></div><div class="ttdeci">@ AURA_PERFUME_FOREVER</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:255</div></div>
-<div class="ttc" id="aa02057_html_a59d6aac4e950d8e6a0265a26e1898c13a6f98457c5232039183c4be4588a067c6"><div class="ttname"><a href="../../d2/dea/a02057.html#a59d6aac4e950d8e6a0265a26e1898c13a6f98457c5232039183c4be4588a067c6">AURA_PERFUME_ENCHANTRESS</a></div><div class="ttdeci">@ AURA_PERFUME_ENCHANTRESS</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:256</div></div>
-<div class="ttc" id="aa02057_html_a59d6aac4e950d8e6a0265a26e1898c13afb194a6e19cf65f763d7975e5d842c9c"><div class="ttname"><a href="../../d2/dea/a02057.html#a59d6aac4e950d8e6a0265a26e1898c13afb194a6e19cf65f763d7975e5d842c9c">AURA_PERFUME_VICTORY</a></div><div class="ttdeci">@ AURA_PERFUME_VICTORY</div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:257</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a5091d6f933800f3313078304ad5c38ca" name="a5091d6f933800f3313078304ad5c38ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5091d6f933800f3313078304ad5c38ca">&#9670;&#160;</a></span>AddSC_achievement_scripts()</h2>
+<a id="ae8a45300d819957eb5ed8c659180c750" name="ae8a45300d819957eb5ed8c659180c750"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8a45300d819957eb5ed8c659180c750">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_achievement_scripts </td>
+          <td class="memname"><a class="el" href="../../d5/da2/a28360.html">ByteBuffer</a> &amp; operator&lt;&lt; </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d5/da2/a28360.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/d54/a10264.html">WorldPackets::Guild::GuildRankData</a> const &amp;&#160;</td>
+          <td class="paramname"><em>rankData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  278</span>{</div>
-<div class="line"><span class="lineno">  279</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d82/a26896.html">achievement_resilient_victory</a>();</div>
-<div class="line"><span class="lineno">  280</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/dbb/a26900.html">achievement_bg_control_all_nodes</a>();</div>
-<div class="line"><span class="lineno">  281</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/d05/a26904.html">achievement_save_the_day</a>();</div>
-<div class="line"><span class="lineno">  282</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/d75/a26908.html">achievement_bg_ic_resource_glut</a>();</div>
-<div class="line"><span class="lineno">  283</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/d2f/a26912.html">achievement_bg_ic_glaive_grave</a>();</div>
-<div class="line"><span class="lineno">  284</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/d93/a26916.html">achievement_bg_ic_mowed_down</a>();</div>
-<div class="line"><span class="lineno">  285</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d65/a26920.html">achievement_bg_sa_artillery</a>();</div>
-<div class="line"><span class="lineno">  286</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d10/a26928.html">achievement_sickly_gazelle</a>();</div>
-<div class="line"><span class="lineno">  287</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/dc5/a26932.html">achievement_everything_counts</a>();</div>
-<div class="line"><span class="lineno">  288</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/dae/a26936.html">achievement_bg_av_perfection</a>();</div>
-<div class="line"><span class="lineno">  289</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/dcd/a26924.html">achievement_arena_by_type</a>(<span class="stringliteral">&quot;achievement_arena_2v2_check&quot;</span>, <a class="code hl_enumvalue" href="../../d0/d17/a03491.html#ad38b6d141d358ab270694a77db413e50aba8dd9984d50b5a179ebf2dec66d8c01">ARENA_TYPE_2v2</a>);</div>
-<div class="line"><span class="lineno">  290</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/dcd/a26924.html">achievement_arena_by_type</a>(<span class="stringliteral">&quot;achievement_arena_3v3_check&quot;</span>, <a class="code hl_enumvalue" href="../../d0/d17/a03491.html#ad38b6d141d358ab270694a77db413e50aa98d0a1c6432cd3013d20e83937726be">ARENA_TYPE_3v3</a>);</div>
-<div class="line"><span class="lineno">  291</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/dcd/a26924.html">achievement_arena_by_type</a>(<span class="stringliteral">&quot;achievement_arena_5v5_check&quot;</span>, <a class="code hl_enumvalue" href="../../d0/d17/a03491.html#ad38b6d141d358ab270694a77db413e50a49cde50538e418258d292c3c2f7df512">ARENA_TYPE_5v5</a>);</div>
-<div class="line"><span class="lineno">  292</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/d3b/a26940.html">achievement_sa_defense_of_the_ancients</a>();</div>
-<div class="line"><span class="lineno">  293</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/d5d/a26944.html">achievement_tilted</a>();</div>
-<div class="line"><span class="lineno">  294</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/d2d/a26948.html">achievement_not_even_a_scratch</a>();</div>
-<div class="line"><span class="lineno">  295</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d24/a26952.html">achievement_killed_exp_or_honor_target</a>();</div>
-<div class="line"><span class="lineno">  296</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/d00/a26956.html">achievement_flirt_with_disaster_perf_check</a>();</div>
-<div class="line"><span class="lineno">  297</span>}</div>
-<div class="ttc" id="aa03491_html_ad38b6d141d358ab270694a77db413e50a49cde50538e418258d292c3c2f7df512"><div class="ttname"><a href="../../d0/d17/a03491.html#ad38b6d141d358ab270694a77db413e50a49cde50538e418258d292c3c2f7df512">ARENA_TYPE_5v5</a></div><div class="ttdeci">@ ARENA_TYPE_5v5</div><div class="ttdef"><b>Definition:</b> Battleground.h:214</div></div>
-<div class="ttc" id="aa03491_html_ad38b6d141d358ab270694a77db413e50aa98d0a1c6432cd3013d20e83937726be"><div class="ttname"><a href="../../d0/d17/a03491.html#ad38b6d141d358ab270694a77db413e50aa98d0a1c6432cd3013d20e83937726be">ARENA_TYPE_3v3</a></div><div class="ttdeci">@ ARENA_TYPE_3v3</div><div class="ttdef"><b>Definition:</b> Battleground.h:213</div></div>
-<div class="ttc" id="aa03491_html_ad38b6d141d358ab270694a77db413e50aba8dd9984d50b5a179ebf2dec66d8c01"><div class="ttname"><a href="../../d0/d17/a03491.html#ad38b6d141d358ab270694a77db413e50aba8dd9984d50b5a179ebf2dec66d8c01">ARENA_TYPE_2v2</a></div><div class="ttdeci">@ ARENA_TYPE_2v2</div><div class="ttdef"><b>Definition:</b> Battleground.h:212</div></div>
-<div class="ttc" id="aa26896_html"><div class="ttname"><a href="../../dd/d82/a26896.html">achievement_resilient_victory</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:28</div></div>
-<div class="ttc" id="aa26900_html"><div class="ttname"><a href="../../d0/dbb/a26900.html">achievement_bg_control_all_nodes</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:40</div></div>
-<div class="ttc" id="aa26904_html"><div class="ttname"><a href="../../d7/d05/a26904.html">achievement_save_the_day</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:52</div></div>
-<div class="ttc" id="aa26908_html"><div class="ttname"><a href="../../db/d75/a26908.html">achievement_bg_ic_resource_glut</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:71</div></div>
-<div class="ttc" id="aa26912_html"><div class="ttname"><a href="../../d7/d2f/a26912.html">achievement_bg_ic_glaive_grave</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:83</div></div>
-<div class="ttc" id="aa26916_html"><div class="ttname"><a href="../../d4/d93/a26916.html">achievement_bg_ic_mowed_down</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:97</div></div>
-<div class="ttc" id="aa26920_html"><div class="ttname"><a href="../../d9/d65/a26920.html">achievement_bg_sa_artillery</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:111</div></div>
-<div class="ttc" id="aa26924_html"><div class="ttname"><a href="../../d0/dcd/a26924.html">achievement_arena_by_type</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:125</div></div>
-<div class="ttc" id="aa26928_html"><div class="ttname"><a href="../../dd/d10/a26928.html">achievement_sickly_gazelle</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:142</div></div>
-<div class="ttc" id="aa26932_html"><div class="ttname"><a href="../../d6/dc5/a26932.html">achievement_everything_counts</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:160</div></div>
-<div class="ttc" id="aa26936_html"><div class="ttname"><a href="../../db/dae/a26936.html">achievement_bg_av_perfection</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:172</div></div>
-<div class="ttc" id="aa26940_html"><div class="ttname"><a href="../../d2/d3b/a26940.html">achievement_sa_defense_of_the_ancients</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:184</div></div>
-<div class="ttc" id="aa26944_html"><div class="ttname"><a href="../../de/d5d/a26944.html">achievement_tilted</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:206</div></div>
-<div class="ttc" id="aa26948_html"><div class="ttname"><a href="../../da/d2d/a26948.html">achievement_not_even_a_scratch</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:228</div></div>
-<div class="ttc" id="aa26952_html"><div class="ttname"><a href="../../d6/d24/a26952.html">achievement_killed_exp_or_honor_target</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:243</div></div>
-<div class="ttc" id="aa26956_html"><div class="ttname"><a href="../../d3/d00/a26956.html">achievement_flirt_with_disaster_perf_check</a></div><div class="ttdef"><b>Definition:</b> achievement_scripts.cpp:261</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  195</span>{</div>
+<div class="line"><span class="lineno">  196</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(rankData.Flags);</div>
+<div class="line"><span class="lineno">  197</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(rankData.WithdrawGoldLimit);</div>
+<div class="line"><span class="lineno">  198</span> </div>
+<div class="line"><span class="lineno">  199</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../d6/d27/a01163.html#a06a462b77a279ae7e2e901b2a8b42fbaadf100aec6c7a6f10b7af8629930feff7">GUILD_BANK_MAX_TABS</a>; i++)</div>
+<div class="line"><span class="lineno">  200</span>    {</div>
+<div class="line"><span class="lineno">  201</span>        data &lt;&lt; <a class="code hl_typedef" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(rankData.TabFlags[i]);</div>
+<div class="line"><span class="lineno">  202</span>        data &lt;&lt; <a class="code hl_typedef" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(rankData.TabWithdrawItemLimit[i]);</div>
+<div class="line"><span class="lineno">  203</span>    }</div>
+<div class="line"><span class="lineno">  204</span> </div>
+<div class="line"><span class="lineno">  205</span>    <span class="keywordflow">return</span> data;</div>
+<div class="line"><span class="lineno">  206</span>}</div>
+<div class="ttc" id="aa00488_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="aa00488_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa01163_html_a06a462b77a279ae7e2e901b2a8b42fbaadf100aec6c7a6f10b7af8629930feff7"><div class="ttname"><a href="../../d6/d27/a01163.html#a06a462b77a279ae7e2e901b2a8b42fbaadf100aec6c7a6f10b7af8629930feff7">GUILD_BANK_MAX_TABS</a></div><div class="ttdeci">@ GUILD_BANK_MAX_TABS</div><div class="ttdef"><b>Definition:</b> Guild.h:45</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00212">ARENA_TYPE_2v2</a>, <a class="el" href="../../#l00213">ARENA_TYPE_3v3</a>, and <a class="el" href="../../#l00214">ARENA_TYPE_5v5</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00124">WorldPackets::Guild::GuildRankData::Flags</a>, <a class="el" href="../../#l00045">GUILD_BANK_MAX_TABS</a>, <a class="el" href="../../#l00126">WorldPackets::Guild::GuildRankData::TabFlags</a>, <a class="el" href="../../#l00127">WorldPackets::Guild::GuildRankData::TabWithdrawItemLimit</a>, and <a class="el" href="../../#l00125">WorldPackets::Guild::GuildRankData::WithdrawGoldLimit</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
+</div>
+</div>
+<a id="abd3549ec2eebc439058205da8ae53eb3" name="abd3549ec2eebc439058205da8ae53eb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd3549ec2eebc439058205da8ae53eb3">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/da2/a28360.html">ByteBuffer</a> &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/da2/a28360.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../df/d6f/a10260.html">WorldPackets::Guild::GuildRosterMemberData</a> const &amp;&#160;</td>
+          <td class="paramname"><em>rosterMemberData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  104</span>{</div>
+<div class="line"><span class="lineno">  105</span>    data &lt;&lt; rosterMemberData.Guid;</div>
+<div class="line"><span class="lineno">  106</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(rosterMemberData.Status);</div>
+<div class="line"><span class="lineno">  107</span>    data &lt;&lt; rosterMemberData.Name;</div>
+<div class="line"><span class="lineno">  108</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/ddf/a00488.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(rosterMemberData.RankID);</div>
+<div class="line"><span class="lineno">  109</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(rosterMemberData.Level);</div>
+<div class="line"><span class="lineno">  110</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(rosterMemberData.ClassID);</div>
+<div class="line"><span class="lineno">  111</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(rosterMemberData.Gender);</div>
+<div class="line"><span class="lineno">  112</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/ddf/a00488.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(rosterMemberData.AreaID);</div>
+<div class="line"><span class="lineno">  113</span>    <span class="keywordflow">if</span> (!rosterMemberData.Status)</div>
+<div class="line"><span class="lineno">  114</span>        data &lt;&lt; float(rosterMemberData.LastSave);</div>
+<div class="line"><span class="lineno">  115</span> </div>
+<div class="line"><span class="lineno">  116</span>    data &lt;&lt; rosterMemberData.Note;</div>
+<div class="line"><span class="lineno">  117</span>    data &lt;&lt; rosterMemberData.OfficerNote;</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>    <span class="keywordflow">return</span> data;</div>
+<div class="line"><span class="lineno">  120</span>}</div>
+<div class="ttc" id="aa00488_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../d4/ddf/a00488.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:103</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00111">WorldPackets::Guild::GuildRosterMemberData::AreaID</a>, <a class="el" href="../../#l00118">WorldPackets::Guild::GuildRosterMemberData::ClassID</a>, <a class="el" href="../../#l00119">WorldPackets::Guild::GuildRosterMemberData::Gender</a>, <a class="el" href="../../#l00107">WorldPackets::Guild::GuildRosterMemberData::Guid</a>, <a class="el" href="../../#l00112">WorldPackets::Guild::GuildRosterMemberData::LastSave</a>, <a class="el" href="../../#l00117">WorldPackets::Guild::GuildRosterMemberData::Level</a>, <a class="el" href="../../#l00113">WorldPackets::Guild::GuildRosterMemberData::Name</a>, <a class="el" href="../../#l00114">WorldPackets::Guild::GuildRosterMemberData::Note</a>, <a class="el" href="../../#l00115">WorldPackets::Guild::GuildRosterMemberData::OfficerNote</a>, <a class="el" href="../../#l00110">WorldPackets::Guild::GuildRosterMemberData::RankID</a>, and <a class="el" href="../../#l00116">WorldPackets::Guild::GuildRosterMemberData::Status</a>.</p>
 
 </div>
 </div>
@@ -319,8 +219,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_0a0414616ece51a8570c4e36029d4e29.html">World</a></li><li class="navelem"><a class="el" href="../../d2/dea/a02057.html">achievement_scripts.cpp</a></li>
-    <li class="footer">Generated on Mon Sep 16 2024 20:40:56 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_315286625446b425c001eecd2b17ef1a.html">Server</a></li><li class="navelem"><a class="el" href="../../dir_07fbe19a361de996bef604f9408f4a7b.html">Packets</a></li><li class="navelem"><a class="el" href="../../d2/dea/a02057.html">GuildPackets.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 23 2024 20:40:32 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,11 +1,8 @@
 var a29460 =
 [
-    [ "npc_franklinAI", "db/d08/a29460.html#a8385d2e39f2d051553cf84a54f3bc5ad", null ],
-    [ "DamageTaken", "db/d08/a29460.html#afa494098126ce3291e234cfc2b36336f", null ],
-    [ "JustEngagedWith", "db/d08/a29460.html#ab15fc7bcd912a6c583d4c219ba37c756", null ],
-    [ "Reset", "db/d08/a29460.html#a51a260460facf06ec6bb1486f434d885", null ],
-    [ "ScheduleEncounterStart", "db/d08/a29460.html#a2dcd6d0467eada6bd0d244e275c07d22", null ],
-    [ "SpellHit", "db/d08/a29460.html#aed6b5cfccbbe258f501b2da5c9dadb40", null ],
-    [ "UpdateAI", "db/d08/a29460.html#a8c3158b1e6c482dd82a6326954b8bbc5", null ],
-    [ "events", "db/d08/a29460.html#a2f72f9659aa62f80c5d8159df0d14e9f", null ]
+    [ "_ACORE_DB_IMPORT_CONFIG", "db/d08/a29460.html#a97392c73658eeeb49d256527b19ad90f", null ],
+    [ "GetConsoleArguments", "db/d08/a29460.html#a6f250d3a28ed2192d175846c6ce5795b", null ],
+    [ "main", "db/d08/a29460.html#a3c04138a5bfe5d72780bb7e82a18e627", null ],
+    [ "StartDB", "db/d08/a29460.html#a1551df43a48f1dbf64dbec1e47b07eea", null ],
+    [ "StopDB", "db/d08/a29460.html#a927af1587546ee7503a3b9a18f6439c0", null ]
 ];

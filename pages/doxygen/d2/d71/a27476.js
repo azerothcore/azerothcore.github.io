@@ -1,7 +1,10 @@
 var a27476 =
 [
-    [ "npc_doctorAI", "de/dd8/a27480.html", "de/dd8/a27480" ],
-    [ "npc_doctor", "d2/d71/a27476.html#a8471bcd3e83b1a7a69de7bde00846698", null ],
-    [ "GetAI", "d2/d71/a27476.html#a3da4d53b2402ad7338eeb6ea463a62f6", null ],
-    [ "OnQuestAccept", "d2/d71/a27476.html#a990668aee39a9fa6ec90d0f6095ce48a", null ]
+    [ "npc_dancing_flamesAI", "d2/d71/a27476.html#a3d597b2ee826c86b5a8feb3aa144a459", null ],
+    [ "JustEngagedWith", "d2/d71/a27476.html#ae0d71d4f9074c05ea76951ede6c7702a", null ],
+    [ "ReceiveEmote", "d2/d71/a27476.html#a13aae489e8b03121c8fbae12e83bdfaa", null ],
+    [ "Reset", "d2/d71/a27476.html#a53b49dadc70e3e134ca49cd239b569d6", null ],
+    [ "UpdateAI", "d2/d71/a27476.html#a555f2ed0d762c5c183ec87580bae46b1", null ],
+    [ "Active", "d2/d71/a27476.html#aa79036bed206327847bf5ad2e768e8f6", null ],
+    [ "CanIteract", "d2/d71/a27476.html#a866bfc106fc33433b4eb13fabd9c39c6", null ]
 ];

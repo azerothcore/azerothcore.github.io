@@ -1,18 +1,13 @@
 var a03410 =
 [
-    [ "UnitBaseEvent", "d3/dc9/a07600.html", "d3/dc9/a07600" ],
-    [ "ThreatRefStatusChangeEvent", "d4/d3b/a07604.html", "d4/d3b/a07604" ],
-    [ "ThreatMgrEvent", "da/d08/a07612.html", "da/d08/a07612" ],
-    [ "UEV_ALL_EVENT_MASK", "df/de2/a03410.html#a99af7f8805c877a694d51ab4feb1e58b", null ],
-    [ "UEV_THREAT_MANAGER_EVENT_MASK", "df/de2/a03410.html#a28d3aa8f148208fa65f5ef1af46913cc", null ],
-    [ "UEV_THREAT_REF_EVENT_MASK", "df/de2/a03410.html#aca3c8db6dd274b113d9c3c7755ff5d7a", null ],
-    [ "UNIT_EVENT_TYPE", "df/de2/a03410.html#a5207de6e2fb421d2579a9baf4c471e97", [
-      [ "UEV_THREAT_REF_ONLINE_STATUS", "df/de2/a03410.html#a5207de6e2fb421d2579a9baf4c471e97a77f8da111f54455d20c58ae0fd4156f9", null ],
-      [ "UEV_THREAT_REF_THREAT_CHANGE", "df/de2/a03410.html#a5207de6e2fb421d2579a9baf4c471e97a5c74b5ccc46cdc399916b41b6d97bfb0", null ],
-      [ "UEV_THREAT_REF_REMOVE_FROM_LIST", "df/de2/a03410.html#a5207de6e2fb421d2579a9baf4c471e97aa8b5a9d97c235e1f56e98ff4103b08d0", null ],
-      [ "UEV_THREAT_REF_ASSECCIBLE_STATUS", "df/de2/a03410.html#a5207de6e2fb421d2579a9baf4c471e97abd7481924e1cb036704820e5be0407db", null ],
-      [ "UEV_THREAT_SORT_LIST", "df/de2/a03410.html#a5207de6e2fb421d2579a9baf4c471e97a74092d5fa151b78ce0de1ddf3ed05865", null ],
-      [ "UEV_THREAT_SET_NEXT_TARGET", "df/de2/a03410.html#a5207de6e2fb421d2579a9baf4c471e97ac45249081756ba40d712bd7e08626ed9", null ],
-      [ "UEV_THREAT_VICTIM_CHANGED", "df/de2/a03410.html#a5207de6e2fb421d2579a9baf4c471e97af02166c466fbff650b908cd08c7e4669", null ]
-    ] ]
+    [ "npc_underbat", "dc/d0c/a23392.html", "dc/d0c/a23392" ],
+    [ "spell_fungal_decay", "da/d1a/a23396.html", "da/d1a/a23396" ],
+    [ "spell_allergies", "d6/d7a/a23400.html", "d6/d7a/a23400" ],
+    [ "AllergiesEnum", "df/de2/a03410.html#a597f861031d65ff9c7c3da68293f6847", [
+      [ "SPELL_SNEEZE", "df/de2/a03410.html#a597f861031d65ff9c7c3da68293f6847aca231923ca4e3560754e0ead3753c7e3", null ]
+    ] ],
+    [ "UnderbatSpells", "df/de2/a03410.html#aba9ed07daed7ae7df6becb96f5194f52", [
+      [ "SPELL_TENTACLE_LASH", "df/de2/a03410.html#aba9ed07daed7ae7df6becb96f5194f52a8fb7d802a437e3e383ba2095ae12b96a", null ]
+    ] ],
+    [ "AddSC_underbog", "df/de2/a03410.html#a8c9725cac978bfa0eb0405faa6588549", null ]
 ];

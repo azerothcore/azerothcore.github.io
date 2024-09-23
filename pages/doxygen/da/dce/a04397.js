@@ -1,16 +1,22 @@
 var a04397 =
 [
-    [ "FormulaScript", "d6/d52/a10000.html", "d6/d52/a10000" ],
-    [ "FormulaHook", "da/dce/a04397.html#a201bafc9783763d9953381d3aa09bf69", [
-      [ "FORMULAHOOK_ON_HONOR_CALCULATION", "da/dce/a04397.html#a201bafc9783763d9953381d3aa09bf69a73eb230cf8bc5ea792f11bb873a28419", null ],
-      [ "FORMULAHOOK_ON_GRAY_LEVEL_CALCULATION", "da/dce/a04397.html#a201bafc9783763d9953381d3aa09bf69ae5bca7263a6d46817dc8dfaa4e6636c4", null ],
-      [ "FORMULAHOOK_ON_COLOR_CODE_CALCULATION", "da/dce/a04397.html#a201bafc9783763d9953381d3aa09bf69ae305e59fcf7c58fccaa5e3eb7f164436", null ],
-      [ "FORMULAHOOK_ON_ZERO_DIFFERENCE_CALCULATION", "da/dce/a04397.html#a201bafc9783763d9953381d3aa09bf69aaf4abb2ee4d7e811524828641d035c3f", null ],
-      [ "FORMULAHOOK_ON_BASE_GAIN_CALCULATION", "da/dce/a04397.html#a201bafc9783763d9953381d3aa09bf69af81c627150a90b1b38ae49bd3b02ab86", null ],
-      [ "FORMULAHOOK_ON_GAIN_CALCULATION", "da/dce/a04397.html#a201bafc9783763d9953381d3aa09bf69ac9f5d04e83bca695ea8857c2797cbb52", null ],
-      [ "FORMULAHOOK_ON_GROUP_RATE_CALCULATION", "da/dce/a04397.html#a201bafc9783763d9953381d3aa09bf69a56563d7c720735fee5720cbfc7502baf", null ],
-      [ "FORMULAHOOK_ON_AFTER_ARENA_RATING_CALCULATION", "da/dce/a04397.html#a201bafc9783763d9953381d3aa09bf69aec7df5954df9c5fdc2ddcc2f36e3cb92", null ],
-      [ "FORMULAHOOK_ON_BEFORE_UPDATING_PERSONAL_RATING", "da/dce/a04397.html#a201bafc9783763d9953381d3aa09bf69ad8dee2b8396106bfbf66942eb7917b33", null ],
-      [ "FORMULAHOOK_END", "da/dce/a04397.html#a201bafc9783763d9953381d3aa09bf69a9a1299486f5025ac19ec955832a0813f", null ]
-    ] ]
+    [ "npc_braug_dimspirit", "d5/d6c/a15408.html", "d5/d6c/a15408" ],
+    [ "npc_kaya_flathoof", "d7/ddc/a15412.html", "d7/ddc/a15412" ],
+    [ "npc_kaya_flathoof::npc_kaya_flathoofAI", "de/d8b/a15416.html", "de/d8b/a15416" ],
+    [ "GOSSIP_HBD1", "da/dce/a04397.html#a487e562e5e99ccd61aa7e93289874033", null ],
+    [ "GOSSIP_HBD2", "da/dce/a04397.html#adc43152833884ed78e5debdaaf5d500d", null ],
+    [ "GOSSIP_HBD3", "da/dce/a04397.html#aced35316178914dd542d4750f8bbb6cf", null ],
+    [ "GOSSIP_HBD4", "da/dce/a04397.html#a182f8c24fa1421c6a7c68e289491400e", null ],
+    [ "GOSSIP_HBD5", "da/dce/a04397.html#a34cc0e8072e5c86b2dd23a03fbc8f024", null ],
+    [ "Kaya", "da/dce/a04397.html#ab10ce9d7e7d19709d0e99ef45b935f15", [
+      [ "FACTION_ESCORTEE_H", "da/dce/a04397.html#ab10ce9d7e7d19709d0e99ef45b935f15a189eaa6b201834d1bd3182efbd449c1f", null ],
+      [ "NPC_GRIMTOTEM_RUFFIAN", "da/dce/a04397.html#ab10ce9d7e7d19709d0e99ef45b935f15a01961a91f321286d0ab25df44697f94f", null ],
+      [ "NPC_GRIMTOTEM_BRUTE", "da/dce/a04397.html#ab10ce9d7e7d19709d0e99ef45b935f15ac4f5df2a1f9d7cd9aba151ebfa864967", null ],
+      [ "NPC_GRIMTOTEM_SORCERER", "da/dce/a04397.html#ab10ce9d7e7d19709d0e99ef45b935f15ac5803d139c1801ccfdba4b115381afd6", null ],
+      [ "SAY_START", "da/dce/a04397.html#ab10ce9d7e7d19709d0e99ef45b935f15a2eae21cbf7d110ee89a9798ef6f00239", null ],
+      [ "SAY_AMBUSH", "da/dce/a04397.html#ab10ce9d7e7d19709d0e99ef45b935f15a68cb8abe7aeb84b5de4ba23b8f814d1e", null ],
+      [ "SAY_END", "da/dce/a04397.html#ab10ce9d7e7d19709d0e99ef45b935f15a40884932ffbbf14d6c380b9022bcfe97", null ],
+      [ "QUEST_PROTECT_KAYA", "da/dce/a04397.html#ab10ce9d7e7d19709d0e99ef45b935f15a4a8a823950ae7fb8722359672b427cc6", null ]
+    ] ],
+    [ "AddSC_stonetalon_mountains", "da/dce/a04397.html#a985f3fb3a28d1163b27b5de21b1ec6cf", null ]
 ];

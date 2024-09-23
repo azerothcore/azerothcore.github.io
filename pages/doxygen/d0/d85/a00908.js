@@ -1,6 +1,4 @@
 var a00908 =
 [
-    [ "fireworkShowGameobjectTeldrassil", "d0/d85/a00908.html#ade54ff9545ac94f914ea82994571e3a0", null ],
-    [ "fireworkShowScheduleTeldrassil", "d0/d85/a00908.html#a5a91b29d6818da3b038fc384535233b6", null ],
-    [ "fireworkShowTeldrassil", "d0/d85/a00908.html#a8999f3fc85a14b073f5037adea6f7496", null ]
+    [ "VehicleScript", "db/d77/a10092.html", "db/d77/a10092" ]
 ];

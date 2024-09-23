@@ -1,10 +1,5 @@
 var a03176 =
 [
-    [ "GetGameTime", "df/d0d/a03176.html#adbe1785d1327dedf2ac403b7cc8e99c2", null ],
-    [ "GetGameTimeMS", "df/d0d/a03176.html#a6d0d49f37e25e497391157b2a2ec90c1", null ],
-    [ "GetStartTime", "df/d0d/a03176.html#a872d34d3f9d420cfc749073c809931f9", null ],
-    [ "GetSystemTime", "df/d0d/a03176.html#a443eccf314fe436192278d425d6d8220", null ],
-    [ "GetUptime", "df/d0d/a03176.html#ae2ff9233756dd88fa1aafcc1e1c0be4d", null ],
-    [ "Now", "df/d0d/a03176.html#ae5cc9f17fc6b8b15c678fa7a84a6e117", null ],
-    [ "UpdateGameTimers", "df/d0d/a03176.html#a45712735241c9563a12fc3da54fb144d", null ]
+    [ "mmaps_commandscript", "d4/d14/a11376.html", "d4/d14/a11376" ],
+    [ "AddSC_mmaps_commandscript", "df/d0d/a03176.html#aa9672a1e32f85f31a4be02f505768ecd", null ]
 ];

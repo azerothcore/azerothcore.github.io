@@ -1,16 +1,47 @@
 var a00506 =
 [
-    [ "DBCFileLoader", "d3/d82/a05088.html", "d3/d82/a05088" ],
-    [ "DBCFileLoader::Record", "d9/d2c/a05092.html", "d9/d2c/a05092" ],
-    [ "DbcFieldFormat", "d4/d1f/a00506.html#a969264ba91452f632e809db524c68960", [
-      [ "FT_NA", "d4/d1f/a00506.html#a969264ba91452f632e809db524c68960a0f8a37a34dd644e8432e79266f8e2f8c", null ],
-      [ "FT_NA_BYTE", "d4/d1f/a00506.html#a969264ba91452f632e809db524c68960a974d335432036bc88ad76f044e8fca0c", null ],
-      [ "FT_STRING", "d4/d1f/a00506.html#a969264ba91452f632e809db524c68960a424189c585691c2ce732ea69a88f4f29", null ],
-      [ "FT_FLOAT", "d4/d1f/a00506.html#a969264ba91452f632e809db524c68960a1091cfb22d5ff81a81948a92b96f8e9a", null ],
-      [ "FT_INT", "d4/d1f/a00506.html#a969264ba91452f632e809db524c68960a9d5724546fec2b9d79741da7d3a8030a", null ],
-      [ "FT_BYTE", "d4/d1f/a00506.html#a969264ba91452f632e809db524c68960ae268574ec5607a27ec940656742b2095", null ],
-      [ "FT_SORT", "d4/d1f/a00506.html#a969264ba91452f632e809db524c68960a496dcb8cfc6d702d15b9a603b242a642", null ],
-      [ "FT_IND", "d4/d1f/a00506.html#a969264ba91452f632e809db524c68960a0e7ef1f172d0c33a975fbda2be046036", null ],
-      [ "FT_LOGIC", "d4/d1f/a00506.html#a969264ba91452f632e809db524c68960aad79cbf0ed6b926353344f5abde2e4cc", null ]
-    ] ]
+    [ "SymbolPair", "d6/da5/a05100.html", "d6/da5/a05100" ],
+    [ "SymbolDetail", "d0/d47/a05104.html", "d0/d47/a05104" ],
+    [ "WheatyExceptionReport", "d7/d18/a05108.html", "d7/d18/a05108" ],
+    [ "countof", "d4/d1f/a00506.html#a8b8500b4792f1666a4ae9b19ce264875", null ],
+    [ "WER_LARGE_BUFFER_SIZE", "d4/d1f/a00506.html#a2c952cc0fe3c670bb1d829b51e483755", null ],
+    [ "WER_MAX_ARRAY_ELEMENTS_COUNT", "d4/d1f/a00506.html#a5ca750f3bbda2b3eab451528de39aa3c", null ],
+    [ "WER_MAX_NESTING_LEVEL", "d4/d1f/a00506.html#a5562a6136a28726d82fc486fd3b81ab1", null ],
+    [ "WER_SMALL_BUFFER_SIZE", "d4/d1f/a00506.html#a2c2a64833d9c531c4cf0873d15733a66", null ],
+    [ "SymbolPairs", "d4/d1f/a00506.html#a5fe525a539348aba0a42a9832dfceef1", null ],
+    [ "BasicType", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526", [
+      [ "btNoType", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526ac3dbdf6b8d103138e3318c38073f7b97", null ],
+      [ "btVoid", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526a007a4bf5bd78f5389652358b7ac8596d", null ],
+      [ "btChar", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526a9b23f8704866c0e75b3471a5f2f5a93b", null ],
+      [ "btWChar", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526af1a861dbf80e81561363604629189804", null ],
+      [ "btInt", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526add8226f5758099a1441724364e5993f6", null ],
+      [ "btUInt", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526a425d00b8975d8d8250fc7d878a2224ab", null ],
+      [ "btFloat", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526af227727df84cd9c4731d00bf548af774", null ],
+      [ "btBCD", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526a28fb64a8f6457e9d125ce3c58f0d9f45", null ],
+      [ "btBool", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526ad49f3758e70cf56d6995beedd04131ac", null ],
+      [ "btLong", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526a86fe058be72472cc8e5e12da41b3063d", null ],
+      [ "btULong", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526a7c06ab11284b9cd2f76df42e7bebfb38", null ],
+      [ "btCurrency", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526ae97aff1b319f95719407a49daa6d3161", null ],
+      [ "btDate", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526ac6c6e7b6f7b4e3ec4854d87771d66ed8", null ],
+      [ "btVariant", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526a08e6f9a73dcb061bc8c3ceed8c533397", null ],
+      [ "btComplex", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526ad21dd2fec96e57eff6ff7c03dcff1e68", null ],
+      [ "btBit", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526ac1c585ea4212c17f949b7d730a5e8001", null ],
+      [ "btBSTR", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526a31037e1401828b908d2a9acf0e60960b", null ],
+      [ "btHresult", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526aead6fd771496ad5d1954f8338f1fdafe", null ],
+      [ "btStdString", "d4/d1f/a00506.html#af0ea7a682b4d48afbc37a32234271526a0619304b734323c4985f439d13b530ad", null ]
+    ] ],
+    [ "DataKind", "d4/d1f/a00506.html#ace34b43f7a85070c2f233cbb13e362bf", [
+      [ "DataIsUnknown", "d4/d1f/a00506.html#ace34b43f7a85070c2f233cbb13e362bfa3157bbb0d66cc4bc0ed83c406f168b75", null ],
+      [ "DataIsLocal", "d4/d1f/a00506.html#ace34b43f7a85070c2f233cbb13e362bfa4b96c675dc4859521127b63697f1a304", null ],
+      [ "DataIsStaticLocal", "d4/d1f/a00506.html#ace34b43f7a85070c2f233cbb13e362bfaa3f51b9fc8340e1aefe320dfc751091c", null ],
+      [ "DataIsParam", "d4/d1f/a00506.html#ace34b43f7a85070c2f233cbb13e362bfaffec5f2aae03730e7de65988215e8141", null ],
+      [ "DataIsObjectPtr", "d4/d1f/a00506.html#ace34b43f7a85070c2f233cbb13e362bfabf5e18782dfdb2264f25fdb53e958664", null ],
+      [ "DataIsFileStatic", "d4/d1f/a00506.html#ace34b43f7a85070c2f233cbb13e362bfae1d71e110f4fc21f57e44b0f9265cff8", null ],
+      [ "DataIsGlobal", "d4/d1f/a00506.html#ace34b43f7a85070c2f233cbb13e362bfa6a3d4d84eeedaae86688efb735f914df", null ],
+      [ "DataIsMember", "d4/d1f/a00506.html#ace34b43f7a85070c2f233cbb13e362bfaad96ff0f53b5dc26c0cacd4f5db839a5", null ],
+      [ "DataIsStaticMember", "d4/d1f/a00506.html#ace34b43f7a85070c2f233cbb13e362bfa6603206b61dfcc7d63a0e72985569329", null ],
+      [ "DataIsConstant", "d4/d1f/a00506.html#ace34b43f7a85070c2f233cbb13e362bfad00151bfd9df40ccb917b378ca4386dd", null ]
+    ] ],
+    [ "g_WheatyExceptionReport", "d4/d1f/a00506.html#a9fff8ce906026fe3179e50e97182d90d", null ],
+    [ "rgBaseType", "d4/d1f/a00506.html#a1613d539e1a6f550edee20a905f7fcce", null ]
 ];

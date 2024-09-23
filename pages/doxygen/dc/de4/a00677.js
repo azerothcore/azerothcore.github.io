@@ -1,6 +1,8 @@
 var a00677 =
 [
-    [ "DBUpdater< CharacterDatabaseConnection >", "dc/de4/a00677.html#a753e207671f7af3815a056247f2de3ce", null ],
-    [ "DBUpdater< LoginDatabaseConnection >", "dc/de4/a00677.html#a16a33693c8570aff221401b100547fb7", null ],
-    [ "DBUpdater< WorldDatabaseConnection >", "dc/de4/a00677.html#ace05c45d1df6cb7f16487ef1aa8bc9f7", null ]
+    [ "CreatureScript", "dd/d38/a09976.html", "dd/d38/a09976" ],
+    [ "GenericCreatureScript< AI >", "dd/dee/a09980.html", "dd/dee/a09980" ],
+    [ "FactoryCreatureScript< AI, AIFactory >", "dc/d12/a09984.html", "dc/d12/a09984" ],
+    [ "RegisterCreatureAI", "dc/de4/a00677.html#a5e7352841895df7117e2830448eb533f", null ],
+    [ "RegisterCreatureAIWithFactory", "dc/de4/a00677.html#a25cc02ecf50f52ec8cdff096060b8be1", null ]
 ];

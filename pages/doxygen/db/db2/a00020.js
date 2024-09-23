@@ -1,6 +1,6 @@
 var a00020 =
 [
-    [ "GetDefaultNetmaskV4", "db/db2/a00020.html#af75b2c10ca445dc89c53b7ed8d17eae0", null ],
-    [ "IsInNetwork", "db/db2/a00020.html#af108d05a57113d16ab9c8f3b26870be2", null ],
-    [ "IsInNetwork", "db/db2/a00020.html#a2617cb1c747a45e5af4e2c32cc29d5de", null ]
+    [ "LinkedListElement", "d0/d7d/a05120.html", "d0/d7d/a05120" ],
+    [ "LinkedListHead", "d0/dbf/a05124.html", "d0/dbf/a05124" ],
+    [ "LinkedListHead::Iterator< _Ty >", "d8/d2c/a05128.html", "d8/d2c/a05128" ]
 ];

@@ -1,6 +1,6 @@
 var a26712 =
 [
-    [ "FilterTargets", "d6/d7c/a26712.html#a2bcc808d5869442e4c2e78be2d2a16af", null ],
-    [ "PrepareSpellScript", "d6/d7c/a26712.html#a51d7035477ba4e3994ef3161edc4cc69", null ],
-    [ "Register", "d6/d7c/a26712.html#adcc2ed25659208d0eeaec6d9673df3c6", null ]
+    [ "HandleDummy", "d6/d7c/a26712.html#a2560417162a1c17cb067cdfeb2fc909d", null ],
+    [ "PrepareSpellScript", "d6/d7c/a26712.html#a1f9aa7ffef96365ad7c0c4ccd4a2814c", null ],
+    [ "Register", "d6/d7c/a26712.html#a27aece218c848064ae387491f9176099", null ]
 ];

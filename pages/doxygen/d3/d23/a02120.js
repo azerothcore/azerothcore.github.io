@@ -1,14 +1,15 @@
 var a02120 =
 [
-    [ "DataHeader", "d3/d23/a02120.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "MTScriptName", "d3/d23/a02120.html#a772413d8818d681e2261c99f58e1268c", null ],
-    [ "RegisterManaTombsCreatureAI", "d3/d23/a02120.html#a7e2e8ea768842320ce5d953aeaddb176", null ],
-    [ "MTDataTypes", "d3/d23/a02120.html#a9ffea4a6410ded9f327ba6e91f8766ee", [
-      [ "DATA_PANDEMONIUS", "d3/d23/a02120.html#a9ffea4a6410ded9f327ba6e91f8766eeab1efde1b4aaad2daab0c383563a9f02a", null ],
-      [ "DATA_TAVAROK", "d3/d23/a02120.html#a9ffea4a6410ded9f327ba6e91f8766eea9245929feb24a0840eeff34e8c87de57", null ],
-      [ "DATA_NEXUSPRINCE_SHAFFAR", "d3/d23/a02120.html#a9ffea4a6410ded9f327ba6e91f8766eea07473250c26fb3874461362f93a75a97", null ],
-      [ "DATA_YOR", "d3/d23/a02120.html#a9ffea4a6410ded9f327ba6e91f8766eea738b876feae2daf42423688ca0f13289", null ]
-    ] ],
-    [ "GetManaTombsAI", "d3/d23/a02120.html#aaec5771a3ce0808b0a1bb0116b4fb9e3", null ],
-    [ "EncounterCount", "d3/d23/a02120.html#a31d630c40753c29f94ceac2db5e451a8", null ]
+    [ "Position", "dc/d3b/a08192.html", "dc/d3b/a08192" ],
+    [ "Position::PositionXYStreamer", "d9/da6/a08196.html", "d9/da6/a08196" ],
+    [ "Position::PositionXYZStreamer", "da/d3e/a08200.html", "da/d3e/a08200" ],
+    [ "Position::PositionXYZOStreamer", "d3/d6d/a08204.html", "d3/d6d/a08204" ],
+    [ "WorldLocation", "d8/d8a/a08208.html", "d8/d8a/a08208" ],
+    [ "MAPID_INVALID", "d3/d23/a02120.html#af69a1d112a89b89894dafd5da53e7490", null ],
+    [ "operator<<", "d3/d23/a02120.html#a09519787a0405fc17b028180b2da4cdd", null ],
+    [ "operator<<", "d3/d23/a02120.html#a71323635f122d24189054da615cb39e1", null ],
+    [ "operator<<", "d3/d23/a02120.html#ab63323f8a9ade40ddd90338538b5c9b5", null ],
+    [ "operator>>", "d3/d23/a02120.html#a188cc2956d39298323a99c4aa5ceede6", null ],
+    [ "operator>>", "d3/d23/a02120.html#a72e22c3226b5f361848aef2c75a6d3fb", null ],
+    [ "operator>>", "d3/d23/a02120.html#af223d782e9dcf0f80ed4009360aa0d80", null ]
 ];

@@ -1,7 +1,6 @@
 var a28096 =
 [
-    [ "AllocationPct", "d6/d37/a28096.html#a45d752dfd00a75f69d919a88573ba4fc", null ],
-    [ "Enchantment", "d6/d37/a28096.html#a45e694082c1dbdeef5229561f617d584", null ],
-    [ "ID", "d6/d37/a28096.html#a66d78860d81c497765b5e68b5fd2ae18", null ],
-    [ "Name", "d6/d37/a28096.html#a3ee4d8152817e10b873de5ec36ba062b", null ]
+    [ "Enchantment", "d6/d37/a28096.html#a480ab806214bb138d56dfd5e9e43936f", null ],
+    [ "ID", "d6/d37/a28096.html#acb673be771124b84dd3fdd5deb300de7", null ],
+    [ "Name", "d6/d37/a28096.html#a3ad3a1b693922ff8264d90232abb3e35", null ]
 ];

@@ -1,5 +1,5 @@
 var a03230 =
 [
-    [ "ConfusedMovementGenerator< T >", "db/d34/a09652.html", "db/d34/a09652" ],
-    [ "MAX_CONF_WAYPOINTS", "df/dc9/a03230.html#ad4f7a217e114623ec80b1743f39ed3ea", null ]
+    [ "arena_commandscript", "d1/dd7/a11256.html", "d1/dd7/a11256" ],
+    [ "AddSC_arena_commandscript", "df/dc9/a03230.html#aa94d37f012ac02e97a1021713b7dbeeb", null ]
 ];

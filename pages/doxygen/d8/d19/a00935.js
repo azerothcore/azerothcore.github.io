@@ -1,6 +1,7 @@
 var a00935 =
 [
-    [ "fireworkShowGameobjectShattrath", "d8/d19/a00935.html#a2a4be2c9e5e5d0d215bc1bf7e3ea592c", null ],
-    [ "fireworkShowScheduleShattrath", "d8/d19/a00935.html#ad36558abe06e5db19b60204279c4606e", null ],
-    [ "fireworkShowShattrath", "d8/d19/a00935.html#a5fcd036e2fe28c58f38d59d0ade0e4ed", null ]
+    [ "GetExplicitDiscoverySpell", "d8/d19/a00935.html#a7cdb9e342efe04c1ba8caf202b7b0d96", null ],
+    [ "GetSkillDiscoverySpell", "d8/d19/a00935.html#ab50472e4f1f892eb77ce660ef00d808a", null ],
+    [ "HasDiscoveredAllSpells", "d8/d19/a00935.html#abdf3c2fcf65212466dfb54053e35024c", null ],
+    [ "LoadSkillDiscoveryTable", "d8/d19/a00935.html#addd95f0a239a27ed32cd943aa1052019", null ]
 ];

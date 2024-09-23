@@ -1,36 +1,45 @@
 var a02150 =
 [
-    [ "DataHeaders", "d4/d5d/a02150.html#a5b5ca0ae07e92e9cad54568049f06fce", null ],
-    [ "RegisterSethekkHallsCreatureAI", "d4/d5d/a02150.html#a4d0e02e340e57e5ff9f0184f82b086d5", null ],
-    [ "SethekkHallsScriptName", "d4/d5d/a02150.html#a96ebd14b5dafc2480cbdb13e0bc4b7ab", null ],
-    [ "eIds", "d4/d5d/a02150.html#a69c4601e4dd1496f746404c6abe87291", [
-      [ "NPC_VOICE_OF_THE_RAVEN_GOD", "d4/d5d/a02150.html#a69c4601e4dd1496f746404c6abe87291aad4ab883c15374d38bc38b0f71f0c86a", null ],
-      [ "NPC_ANZU", "d4/d5d/a02150.html#a69c4601e4dd1496f746404c6abe87291af130c29d37cee0370ac78ac4be4e415f", null ],
-      [ "GO_IKISS_DOOR", "d4/d5d/a02150.html#a69c4601e4dd1496f746404c6abe87291a7975fc4f8b3558e660375d98a9d0e54e", null ],
-      [ "GO_THE_TALON_KINGS_COFFER", "d4/d5d/a02150.html#a69c4601e4dd1496f746404c6abe87291a7957c3a97be229f195e4375af7b06e2c", null ]
+    [ "Object", "d1/d36/a08116.html", "d1/d36/a08116" ],
+    [ "MovementInfo", "da/d54/a08124.html", "da/d54/a08124" ],
+    [ "MovementInfo::TransportInfo", "d9/da2/a08128.html", "d9/da2/a08128" ],
+    [ "MovementInfo::JumpInfo", "d7/d2e/a08132.html", "d7/d2e/a08132" ],
+    [ "GridObject< T >", "d0/db9/a08136.html", "d0/db9/a08136" ],
+    [ "FlaggedValuesArray32< T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE >", "d6/d5c/a08140.html", "d6/d5c/a08140" ],
+    [ "MovableMapObject", "da/d5c/a08144.html", "da/d5c/a08144" ],
+    [ "WorldObject", "d0/db0/a08148.html", "d0/db0/a08148" ],
+    [ "Acore::ObjectDistanceOrderPred", "df/d16/a08152.html", "df/d16/a08152" ],
+    [ "UpdateDataMapType", "d4/d5d/a02150.html#ac58dd2c514e262c6b68700fb72c69231", null ],
+    [ "UpdatePlayerSet", "d4/d5d/a02150.html#abc4c822bd43dd0c1ea669b791c856405", null ],
+    [ "GOSummonType", "d4/d5d/a02150.html#a3f5846dbc17f13c4c2b88a15593bbfba", [
+      [ "GO_SUMMON_TIMED_OR_CORPSE_DESPAWN", "d4/d5d/a02150.html#a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1", null ],
+      [ "GO_SUMMON_TIMED_DESPAWN", "d4/d5d/a02150.html#a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50", null ]
     ] ],
-    [ "Encounters", "d4/d5d/a02150.html#abf7d0c9385f088b09a017ee50e9db6ee", [
-      [ "DATA_DARKWEAVER_SYTH", "d4/d5d/a02150.html#abf7d0c9385f088b09a017ee50e9db6eea6dbed6ec6697669d80047612efd58da9", null ],
-      [ "DATA_ANZU", "d4/d5d/a02150.html#abf7d0c9385f088b09a017ee50e9db6eeac072367637c0d4080d6d25a349b54a54", null ],
-      [ "DATA_IKISS", "d4/d5d/a02150.html#abf7d0c9385f088b09a017ee50e9db6eea354bfb39a3150d5f75a42abc68cbcc83", null ]
+    [ "MapObjectCellMoveState", "d4/d5d/a02150.html#a1833d9b1810b160d0c00f297af237b07", [
+      [ "MAP_OBJECT_CELL_MOVE_NONE", "d4/d5d/a02150.html#a1833d9b1810b160d0c00f297af237b07afb882558defaa808483ae0d24e1d12e1", null ],
+      [ "MAP_OBJECT_CELL_MOVE_ACTIVE", "d4/d5d/a02150.html#a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58", null ],
+      [ "MAP_OBJECT_CELL_MOVE_INACTIVE", "d4/d5d/a02150.html#a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a", null ]
     ] ],
-    [ "eTypes", "d4/d5d/a02150.html#a31365a35c315c6cb485bcd31f5ba77fd", [
-      [ "DATA_MAGUS_TELESTRA_EVENT", "db/d17/a01148.html#a31365a35c315c6cb485bcd31f5ba77fda097adced7c95a2c9718c2c785bee7f83", null ],
-      [ "DATA_ANOMALUS_EVENT", "db/d17/a01148.html#a31365a35c315c6cb485bcd31f5ba77fdaaf86ee46d11b318ef5caffe5d123342a", null ],
-      [ "DATA_ORMOROK_EVENT", "db/d17/a01148.html#a31365a35c315c6cb485bcd31f5ba77fda521150b4f00d388d28870138ef89029a", null ],
-      [ "DATA_KERISTRASZA_EVENT", "db/d17/a01148.html#a31365a35c315c6cb485bcd31f5ba77fdacc731df49caf259ade6ae981d7b6fffa", null ],
-      [ "DATA_COMMANDER_EVENT", "db/d17/a01148.html#a31365a35c315c6cb485bcd31f5ba77fdaeec4cc47ddf1f8b45982ab9b09609204", null ],
-      [ "DATA_TELESTRA_ORB", "db/d17/a01148.html#a31365a35c315c6cb485bcd31f5ba77fda6070c92aa13cfc41ea707f2e4f317c49", null ],
-      [ "DATA_ANOMALUS_ORB", "db/d17/a01148.html#a31365a35c315c6cb485bcd31f5ba77fda7ca67e2df8f6c5ba3b64a58ffe838f79", null ],
-      [ "DATA_ORMOROK_ORB", "db/d17/a01148.html#a31365a35c315c6cb485bcd31f5ba77fda04925ab93b3def016402fa3d6c763cb8", null ],
-      [ "MAX_ENCOUNTERS", "db/d17/a01148.html#a31365a35c315c6cb485bcd31f5ba77fda9cfa5bdc17e1d5a590d300b530b36a25", null ],
-      [ "DATA_IKISSDOOREVENT", "d4/d5d/a02150.html#a31365a35c315c6cb485bcd31f5ba77fda4254e5b20964fa4c45d7bed553c3cb95", null ],
-      [ "TYPE_ANZU_ENCOUNTER", "d4/d5d/a02150.html#a31365a35c315c6cb485bcd31f5ba77fda7184f794bd903d92cba3eb6fa7297784", null ]
+    [ "NotifyFlags", "d4/d5d/a02150.html#ae6d03ea53b22c98f9dd7e3ce829cf389", [
+      [ "NOTIFY_NONE", "d4/d5d/a02150.html#ae6d03ea53b22c98f9dd7e3ce829cf389aae40b53764f8cda7335d348860245cb9", null ],
+      [ "NOTIFY_AI_RELOCATION", "d4/d5d/a02150.html#ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d", null ],
+      [ "NOTIFY_VISIBILITY_CHANGED", "d4/d5d/a02150.html#ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053", null ],
+      [ "NOTIFY_ALL", "d4/d5d/a02150.html#ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c", null ]
     ] ],
-    [ "InstanceData", "d4/d5d/a02150.html#a453c4190aaa5e59675ce6366d48c4778", [
-      [ "DATA_GO_TALON_KING_COFFER", "d4/d5d/a02150.html#a453c4190aaa5e59675ce6366d48c4778a25477ff5678a4450f584b7e148c91101", null ],
-      [ "DATA_VOICE_OF_THE_RAVEN_GOD", "d4/d5d/a02150.html#a453c4190aaa5e59675ce6366d48c4778a5c361f6d59a9c9ae12ada6ec074857c9", null ]
+    [ "PhaseMasks", "d4/d5d/a02150.html#a154255f23e41069883118fc4f0d23157", [
+      [ "PHASEMASK_NORMAL", "d4/d5d/a02150.html#a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060", null ],
+      [ "PHASEMASK_ANYWHERE", "d4/d5d/a02150.html#a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57", null ]
     ] ],
-    [ "GetSethekkHallsAI", "d4/d5d/a02150.html#a9b5213e8c6cd59c731bb4eaad803766d", null ],
-    [ "EncounterCount", "d4/d5d/a02150.html#ae1fbcd81e7256d27efa0288994753839", null ]
+    [ "TempSummonType", "d4/d5d/a02150.html#a38c6d8d01cbe0c49b035f348f7724148", [
+      [ "TEMPSUMMON_TIMED_OR_DEAD_DESPAWN", "d4/d5d/a02150.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39", null ],
+      [ "TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN", "d4/d5d/a02150.html#a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882", null ],
+      [ "TEMPSUMMON_TIMED_DESPAWN", "d4/d5d/a02150.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2", null ],
+      [ "TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT", "d4/d5d/a02150.html#a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a", null ],
+      [ "TEMPSUMMON_CORPSE_DESPAWN", "d4/d5d/a02150.html#a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9", null ],
+      [ "TEMPSUMMON_CORPSE_TIMED_DESPAWN", "d4/d5d/a02150.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a", null ],
+      [ "TEMPSUMMON_DEAD_DESPAWN", "d4/d5d/a02150.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493", null ],
+      [ "TEMPSUMMON_MANUAL_DESPAWN", "d4/d5d/a02150.html#a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a", null ],
+      [ "TEMPSUMMON_DESPAWNED", "d4/d5d/a02150.html#a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687", null ],
+      [ "TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE", "d4/d5d/a02150.html#a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7", null ]
+    ] ]
 ];

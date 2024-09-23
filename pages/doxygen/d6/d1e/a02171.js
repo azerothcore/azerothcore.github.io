@@ -1,23 +1,16 @@
 var a02171 =
 [
-    [ "boss_ghazan", "d3/dcb/a23336.html", "d3/dcb/a23336" ],
-    [ "at_underbog_ghazan", "d9/d70/a23340.html", "d9/d70/a23340" ],
-    [ "eBlackStalker", "d6/d1e/a02171.html#afbee42c6927db9ad2cf9d9096eeac954", [
-      [ "SPELL_ACID_BREATH", "d6/d1e/a02171.html#afbee42c6927db9ad2cf9d9096eeac954af39adcb38f10e84d7ff9bac76f41031c", null ],
-      [ "SPELL_ACID_SPIT", "d6/d1e/a02171.html#afbee42c6927db9ad2cf9d9096eeac954af69c625b663facf12cc5d8a20a280806", null ],
-      [ "SPELL_TAIL_SWEEP", "d6/d1e/a02171.html#afbee42c6927db9ad2cf9d9096eeac954addcb3daa6cdc61ef04c65580e44ef823", null ],
-      [ "SPELL_ENRAGE", "d6/d1e/a02171.html#afbee42c6927db9ad2cf9d9096eeac954a2a20f56307679be4d4f01a0d3d93cc7e", null ],
-      [ "ACTION_MOVE_TO_PLATFORM", "d6/d1e/a02171.html#afbee42c6927db9ad2cf9d9096eeac954a7e5366df9a5dd5e5bca840226b0755fa", null ],
-      [ "SPELL_LEVITATE", "d8/d85/a02189.html#afbee42c6927db9ad2cf9d9096eeac954ad2a574f606c6448dd086526c15b6fdd2", null ],
-      [ "SPELL_CHAIN_LIGHTNING", "d8/d85/a02189.html#afbee42c6927db9ad2cf9d9096eeac954ac0997e72929070d8e30cc0f49cc4539d", null ],
-      [ "SPELL_STATIC_CHARGE", "d8/d85/a02189.html#afbee42c6927db9ad2cf9d9096eeac954ad174c0c15c17e6a55eec42eab77d89e0", null ],
-      [ "SPELL_SUMMON_SPORE_STRIDER", "d8/d85/a02189.html#afbee42c6927db9ad2cf9d9096eeac954a754dcc3138f3b4acb829bc54bc02b9ed", null ],
-      [ "SPELL_LEVITATION_PULSE", "d8/d85/a02189.html#afbee42c6927db9ad2cf9d9096eeac954ade4ad87d3a67412155f3ce6b143275b1", null ],
-      [ "SPELL_SOMEONE_GRAB_ME", "d8/d85/a02189.html#afbee42c6927db9ad2cf9d9096eeac954aa07d1c28d9fea727b3885a967461d13b", null ],
-      [ "SPELL_MAGNETIC_PULL", "d8/d85/a02189.html#afbee42c6927db9ad2cf9d9096eeac954a3917f87779ff3a60876e0373a10855d5", null ],
-      [ "SPELL_SUSPENSION_PRIMER", "d8/d85/a02189.html#afbee42c6927db9ad2cf9d9096eeac954a38589209a4f90f4db2f89b249f6840de", null ],
-      [ "SPELL_SUSPENSION", "d8/d85/a02189.html#afbee42c6927db9ad2cf9d9096eeac954a0b7462c628390d15bd33088fb3d2a6a0", null ],
-      [ "ENTRY_SPORE_STRIDER", "d8/d85/a02189.html#afbee42c6927db9ad2cf9d9096eeac954a461a6686eb7320e609d5675753241cd2", null ]
+    [ "PlayerSetting", "d5/d95/a08372.html", "d5/d95/a08372" ],
+    [ "PlayerSettingMap", "d6/d1e/a02171.html#a03676554928fdf5649c8c7f77a128d04", null ],
+    [ "PlayerSettingVector", "d6/d1e/a02171.html#a5c88535ec12f87cc432b1c594bf05326", null ],
+    [ "AnnouncerFlags", "d6/d1e/a02171.html#a32dfba2d10d91879403874fc75b928fd", [
+      [ "ANNOUNCER_FLAG_DISABLE_BG_QUEUE", "d6/d1e/a02171.html#a32dfba2d10d91879403874fc75b928fdade902d5cd94d828fb33601d0d2461828", null ],
+      [ "ANNOUNCER_FLAG_DISABLE_ARENA_QUEUE", "d6/d1e/a02171.html#a32dfba2d10d91879403874fc75b928fda9135a4bbd55879aac0e222d69a6a1704", null ],
+      [ "ANNOUNCER_FLAG_DISABLE_AUTOBROADCAST", "d6/d1e/a02171.html#a32dfba2d10d91879403874fc75b928fda8cc308de4e117be878954235d6580c5e", null ]
     ] ],
-    [ "AddSC_boss_ghazan", "d6/d1e/a02171.html#a6b7605f750dab7f676edcd83f54c249a", null ]
+    [ "CharacterSettingIndexes", "d6/d1e/a02171.html#acd2ee27596acf5e6804faaf9e7b6a1f5", [
+      [ "SETTING_ANNOUNCER_FLAGS", "d6/d1e/a02171.html#acd2ee27596acf5e6804faaf9e7b6a1f5a87ac7ec64e9a96e600fff40b442b4ca4", null ],
+      [ "MAX_CHAR_SETTINGS", "d6/d1e/a02171.html#acd2ee27596acf5e6804faaf9e7b6a1f5af9d926aa507c306441abf0cd93f9412c", null ]
+    ] ],
+    [ "AzerothcorePSSource", "d6/d1e/a02171.html#a50fa156f5e934ed3fa7108da4c510f28", null ]
 ];

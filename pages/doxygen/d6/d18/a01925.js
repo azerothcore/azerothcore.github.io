@@ -1,8 +1,15 @@
 var a01925 =
 [
-    [ "instance_the_black_morass", "dd/d7b/a14656.html", "dd/d7b/a14656" ],
-    [ "instance_the_black_morass::instance_the_black_morass_InstanceMapScript", "de/d33/a14660.html", "de/d33/a14660" ],
-    [ "AddSC_instance_the_black_morass", "d6/d18/a01925.html#a665f808519def7182fa25d9c0a4525f6", null ],
-    [ "creatureData", "d6/d18/a01925.html#a412286b689bd324fedd65ddd8dde8afb", null ],
-    [ "PortalLocation", "d6/d18/a01925.html#a744b7235a198467a51550de127971bb1", null ]
+    [ "PoolTemplateData", "da/d4a/a09848.html", "da/d4a/a09848" ],
+    [ "PoolObject", "d8/d22/a09852.html", "d8/d22/a09852" ],
+    [ "Pool", "d9/d97/a09856.html", null ],
+    [ "ActivePoolData", "d9/d75/a09860.html", "d9/d75/a09860" ],
+    [ "PoolGroup< T >", "d0/da8/a09864.html", "d0/da8/a09864" ],
+    [ "PoolMgr", "de/d7e/a09868.html", "de/d7e/a09868" ],
+    [ "sPoolMgr", "d6/d18/a01925.html#a9189dd9c6265b9e6d57104dd61a5fe85", null ],
+    [ "ActivePoolObjects", "d6/d18/a01925.html#a6fd2b29871e3f63cf9cc493968a0ab74", null ],
+    [ "ActivePoolPools", "d6/d18/a01925.html#ad18a3f26065fec260d0281c5354067dd", null ],
+    [ "PooledQuestRelation", "d6/d18/a01925.html#ace9e74e256f166b08f2834044ecfba43", null ],
+    [ "PooledQuestRelationBounds", "d6/d18/a01925.html#adabd05f382474650e093706cf4ea4e35", null ],
+    [ "PooledQuestRelationBoundsNC", "d6/d18/a01925.html#a54dd98ebecf13a92dd29f7d3789d5b56", null ]
 ];

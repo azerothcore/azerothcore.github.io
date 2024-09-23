@@ -1,6 +1,4 @@
 var a00806 =
 [
-    [ "ResultIterator< T >", "d2/db8/a05740.html", "d2/db8/a05740" ],
-    [ "ResultSet", "d5/d12/a05744.html", "d5/d12/a05744" ],
-    [ "PreparedResultSet", "db/d37/a05748.html", "db/d37/a05748" ]
+    [ "ScriptRegistry< PlayerScript >", "d0/dad/a00806.html#a9c8e85c6181ce386db051bb0a0e6a533", null ]
 ];

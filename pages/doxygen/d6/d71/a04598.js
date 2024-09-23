@@ -1,8 +1,15 @@
 var a04598 =
 [
-    [ "Vec3D", "da/d19/a28616.html", "da/d19/a28616" ],
-    [ "AaBox3D", "d4/d1c/a28620.html", "d4/d1c/a28620" ],
-    [ "Vec2D", "d0/d48/a28624.html", "d0/d48/a28624" ],
-    [ "Quaternion", "d5/d51/a28628.html", "d5/d51/a28628" ],
-    [ "rotate", "d6/d71/a04598.html#a36f9f3de1d3e6935da68df2c6e347a4d", null ]
+    [ "Socket< T >", "df/de2/a28336.html", "df/de2/a28336" ],
+    [ "READ_BLOCK_SIZE", "d6/d71/a04598.html#a16ba013af02b9d4400b5e47d8daa022b", null ],
+    [ "ProxyHeaderAddressFamilyAndProtocol", "d6/d71/a04598.html#a7ddce6d0420753babeb6258ada50eec1", [
+      [ "PROXY_HEADER_ADDRESS_FAMILY_AND_PROTOCOL_TCP_V4", "d6/d71/a04598.html#a7ddce6d0420753babeb6258ada50eec1a9d87d0a8da10465b32fd9a322c2a8575", null ],
+      [ "PROXY_HEADER_ADDRESS_FAMILY_AND_PROTOCOL_TCP_V6", "d6/d71/a04598.html#a7ddce6d0420753babeb6258ada50eec1a5b0f57dac80a77ad98bc0d371a22f699", null ]
+    ] ],
+    [ "ProxyHeaderReadingState", "d6/d71/a04598.html#aa514bb66fa404b5b180297bb005c3272", [
+      [ "PROXY_HEADER_READING_STATE_NOT_STARTED", "d6/d71/a04598.html#aa514bb66fa404b5b180297bb005c3272a0bd44a601a6d6745f442535a457fc67c", null ],
+      [ "PROXY_HEADER_READING_STATE_STARTED", "d6/d71/a04598.html#aa514bb66fa404b5b180297bb005c3272a6b5e85386b6638d1a72fa2520f355c98", null ],
+      [ "PROXY_HEADER_READING_STATE_FINISHED", "d6/d71/a04598.html#aa514bb66fa404b5b180297bb005c3272a2898c80db946e4ae677297c1954470fb", null ],
+      [ "PROXY_HEADER_READING_STATE_FAILED", "d6/d71/a04598.html#aa514bb66fa404b5b180297bb005c3272a7a96033158689ba0590a86245f58922f", null ]
+    ] ]
 ];

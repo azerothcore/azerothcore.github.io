@@ -1,14 +1,13 @@
 var a03806 =
 [
-    [ "npc_artorius", "db/df1/a27368.html", "db/df1/a27368" ],
-    [ "npc_artorius::npc_artoriusAI", "d9/d7b/a27372.html", "d9/d7b/a27372" ],
-    [ "npc_precious", "d0/d2a/a27376.html", "d0/d2a/a27376" ],
-    [ "npc_precious::npc_preciousAI", "d2/d58/a27380.html", "d2/d58/a27380" ],
-    [ "npc_simone", "d5/db6/a27384.html", "d5/db6/a27384" ],
-    [ "npc_simone::npc_simoneAI", "dc/da9/a27388.html", "dc/da9/a27388" ],
-    [ "npc_nelson", "d8/d15/a27392.html", "d8/d15/a27392" ],
-    [ "npc_nelson::npc_nelsonAI", "d9/d5d/a27396.html", "d9/d5d/a27396" ],
-    [ "npc_franklin", "de/d92/a27400.html", "de/d92/a27400" ],
-    [ "npc_franklin::npc_franklinAI", "d0/d7e/a27404.html", "d0/d7e/a27404" ],
-    [ "AddSC_npc_stave_of_ancients", "dc/d19/a03806.html#a81e200e5d045a2403cd76a0559a6fd8c", null ]
+    [ "instance_gnomeregan", "d1/d96/a12216.html", "d1/d96/a12216" ],
+    [ "instance_gnomeregan::instance_gnomeregan_InstanceMapScript", "df/d11/a12220.html", "df/d11/a12220" ],
+    [ "npc_kernobee", "df/d24/a12224.html", "df/d24/a12224" ],
+    [ "npc_kernobee::npc_kernobeeAI", "d9/df7/a12228.html", "d9/df7/a12228" ],
+    [ "spell_gnomeregan_radiation_bolt", "d0/dae/a12232.html", "d0/dae/a12232" ],
+    [ "spell_gnomeregan_radiation_bolt::spell_gnomeregan_radiation_bolt_SpellScript", "d8/d99/a12236.html", "d8/d99/a12236" ],
+    [ "eKernobee", "dc/d19/a03806.html#a2abc5c19b823c78ec77c3d72114bf15a", [
+      [ "QUEST_A_FINE_MESS", "dc/d19/a03806.html#a2abc5c19b823c78ec77c3d72114bf15aae96e14c539b411972be0ce6ad156b394", null ]
+    ] ],
+    [ "AddSC_instance_gnomeregan", "dc/d19/a03806.html#afc9fa76575d58995fccc2f594a40114c", null ]
 ];

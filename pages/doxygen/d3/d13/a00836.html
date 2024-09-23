@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/database/Database/MySQLConnection.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/ArenaScript.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,63 +107,72 @@ $(document).ready(function(){initNavTree('d3/d13/a00836.html','../../'); initRes
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">MySQLConnection.h File Reference</div></div>
+  <div class="headertitle"><div class="title">ArenaScript.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">DatabaseEnvFwd.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &lt;map&gt;</code><br />
-<code>#include &lt;memory&gt;</code><br />
-<code>#include &lt;mutex&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d04/a05624.html">MySQLConnectionInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d0c/a05628.html">MySQLConnection</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/a09948.html">ArenaScript</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a008b1c9a9206a70569b89aea01ac321f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d13/a00836.html#a008b1c9a9206a70569b89aea01ac321f">ConnectionFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../d3/d13/a00836.html#a008b1c9a9206a70569b89aea01ac321faa12dee499d68ef84c216f874cb104fe9">CONNECTION_ASYNC</a> = 0x1
+<tr class="memitem:a93515f145fed15b3645f2240f39214ba"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214ba">ArenaHook</a> { <br />
+&#160;&#160;<a class="el" href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baa0eec08769f1e2848ef510ae5bc1980d0">ARENAHOOK_CAN_ADD_MEMBER</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d13/a00836.html#a008b1c9a9206a70569b89aea01ac321fa38de35d7007257d23046b73a6aec7946">CONNECTION_SYNCH</a> = 0x2
+&#160;&#160;<a class="el" href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baab3934eeceaededbb59ec277bc4275588">ARENAHOOK_ON_GET_POINTS</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d3/d13/a00836.html#a008b1c9a9206a70569b89aea01ac321fa69536f08cbcdbe5a0ff0d89981fc6b39">CONNECTION_BOTH</a> = CONNECTION_ASYNC | CONNECTION_SYNCH
+&#160;&#160;<a class="el" href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baa707580e05d247690d89335a46d576657">ARENAHOOK_CAN_SAVE_TO_DB</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baa8f35d3e6970c95df27f631f3f5558a5e">ARENAHOOK_ON_BEFORE_CHECK_WIN_CONDITION</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baac02079e51af3fd7c3507a8a6f88fee09">ARENAHOOK_ON_ARENA_START</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baa2958c395c6475e07a7dff62d1014ae58">ARENAHOOK_END</a>
 <br />
  }</td></tr>
-<tr class="separator:a008b1c9a9206a70569b89aea01ac321f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a93515f145fed15b3645f2240f39214ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a008b1c9a9206a70569b89aea01ac321f" name="a008b1c9a9206a70569b89aea01ac321f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a008b1c9a9206a70569b89aea01ac321f">&#9670;&#160;</a></span>ConnectionFlags</h2>
+<a id="a93515f145fed15b3645f2240f39214ba" name="a93515f145fed15b3645f2240f39214ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93515f145fed15b3645f2240f39214ba">&#9670;&#160;</a></span>ArenaHook</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d3/d13/a00836.html#a008b1c9a9206a70569b89aea01ac321f">ConnectionFlags</a></td>
+          <td class="memname">enum <a class="el" href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214ba">ArenaHook</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a008b1c9a9206a70569b89aea01ac321faa12dee499d68ef84c216f874cb104fe9" name="a008b1c9a9206a70569b89aea01ac321faa12dee499d68ef84c216f874cb104fe9"></a>CONNECTION_ASYNC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a008b1c9a9206a70569b89aea01ac321fa38de35d7007257d23046b73a6aec7946" name="a008b1c9a9206a70569b89aea01ac321fa38de35d7007257d23046b73a6aec7946"></a>CONNECTION_SYNCH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a008b1c9a9206a70569b89aea01ac321fa69536f08cbcdbe5a0ff0d89981fc6b39" name="a008b1c9a9206a70569b89aea01ac321fa69536f08cbcdbe5a0ff0d89981fc6b39"></a>CONNECTION_BOTH&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a93515f145fed15b3645f2240f39214baa0eec08769f1e2848ef510ae5bc1980d0" name="a93515f145fed15b3645f2240f39214baa0eec08769f1e2848ef510ae5bc1980d0"></a>ARENAHOOK_CAN_ADD_MEMBER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93515f145fed15b3645f2240f39214baab3934eeceaededbb59ec277bc4275588" name="a93515f145fed15b3645f2240f39214baab3934eeceaededbb59ec277bc4275588"></a>ARENAHOOK_ON_GET_POINTS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93515f145fed15b3645f2240f39214baa707580e05d247690d89335a46d576657" name="a93515f145fed15b3645f2240f39214baa707580e05d247690d89335a46d576657"></a>ARENAHOOK_CAN_SAVE_TO_DB&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93515f145fed15b3645f2240f39214baa8f35d3e6970c95df27f631f3f5558a5e" name="a93515f145fed15b3645f2240f39214baa8f35d3e6970c95df27f631f3f5558a5e"></a>ARENAHOOK_ON_BEFORE_CHECK_WIN_CONDITION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93515f145fed15b3645f2240f39214baac02079e51af3fd7c3507a8a6f88fee09" name="a93515f145fed15b3645f2240f39214baac02079e51af3fd7c3507a8a6f88fee09"></a>ARENAHOOK_ON_ARENA_START&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a93515f145fed15b3645f2240f39214baa2958c395c6475e07a7dff62d1014ae58" name="a93515f145fed15b3645f2240f39214baa2958c395c6475e07a7dff62d1014ae58"></a>ARENAHOOK_END&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d3/d13/a00836.html#a008b1c9a9206a70569b89aea01ac321faa12dee499d68ef84c216f874cb104fe9">CONNECTION_ASYNC</a> = 0x1,</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d3/d13/a00836.html#a008b1c9a9206a70569b89aea01ac321fa38de35d7007257d23046b73a6aec7946">CONNECTION_SYNCH</a> = 0x2,</div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d3/d13/a00836.html#a008b1c9a9206a70569b89aea01ac321fa69536f08cbcdbe5a0ff0d89981fc6b39">CONNECTION_BOTH</a> = <a class="code hl_enumvalue" href="../../d3/d13/a00836.html#a008b1c9a9206a70569b89aea01ac321faa12dee499d68ef84c216f874cb104fe9">CONNECTION_ASYNC</a> | <a class="code hl_enumvalue" href="../../d3/d13/a00836.html#a008b1c9a9206a70569b89aea01ac321fa38de35d7007257d23046b73a6aec7946">CONNECTION_SYNCH</a></div>
-<div class="line"><span class="lineno">   41</span>};</div>
-<div class="ttc" id="aa00836_html_a008b1c9a9206a70569b89aea01ac321fa38de35d7007257d23046b73a6aec7946"><div class="ttname"><a href="../../d3/d13/a00836.html#a008b1c9a9206a70569b89aea01ac321fa38de35d7007257d23046b73a6aec7946">CONNECTION_SYNCH</a></div><div class="ttdeci">@ CONNECTION_SYNCH</div><div class="ttdef"><b>Definition:</b> MySQLConnection.h:39</div></div>
-<div class="ttc" id="aa00836_html_a008b1c9a9206a70569b89aea01ac321fa69536f08cbcdbe5a0ff0d89981fc6b39"><div class="ttname"><a href="../../d3/d13/a00836.html#a008b1c9a9206a70569b89aea01ac321fa69536f08cbcdbe5a0ff0d89981fc6b39">CONNECTION_BOTH</a></div><div class="ttdeci">@ CONNECTION_BOTH</div><div class="ttdef"><b>Definition:</b> MySQLConnection.h:40</div></div>
-<div class="ttc" id="aa00836_html_a008b1c9a9206a70569b89aea01ac321faa12dee499d68ef84c216f874cb104fe9"><div class="ttname"><a href="../../d3/d13/a00836.html#a008b1c9a9206a70569b89aea01ac321faa12dee499d68ef84c216f874cb104fe9">CONNECTION_ASYNC</a></div><div class="ttdeci">@ CONNECTION_ASYNC</div><div class="ttdef"><b>Definition:</b> MySQLConnection.h:38</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baa0eec08769f1e2848ef510ae5bc1980d0">ARENAHOOK_CAN_ADD_MEMBER</a>,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baab3934eeceaededbb59ec277bc4275588">ARENAHOOK_ON_GET_POINTS</a>,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baa707580e05d247690d89335a46d576657">ARENAHOOK_CAN_SAVE_TO_DB</a>,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baa8f35d3e6970c95df27f631f3f5558a5e">ARENAHOOK_ON_BEFORE_CHECK_WIN_CONDITION</a>,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baac02079e51af3fd7c3507a8a6f88fee09">ARENAHOOK_ON_ARENA_START</a>,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baa2958c395c6475e07a7dff62d1014ae58">ARENAHOOK_END</a></div>
+<div class="line"><span class="lineno">   33</span>};</div>
+<div class="ttc" id="aa00836_html_a93515f145fed15b3645f2240f39214baa0eec08769f1e2848ef510ae5bc1980d0"><div class="ttname"><a href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baa0eec08769f1e2848ef510ae5bc1980d0">ARENAHOOK_CAN_ADD_MEMBER</a></div><div class="ttdeci">@ ARENAHOOK_CAN_ADD_MEMBER</div><div class="ttdef"><b>Definition:</b> ArenaScript.h:27</div></div>
+<div class="ttc" id="aa00836_html_a93515f145fed15b3645f2240f39214baa2958c395c6475e07a7dff62d1014ae58"><div class="ttname"><a href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baa2958c395c6475e07a7dff62d1014ae58">ARENAHOOK_END</a></div><div class="ttdeci">@ ARENAHOOK_END</div><div class="ttdef"><b>Definition:</b> ArenaScript.h:32</div></div>
+<div class="ttc" id="aa00836_html_a93515f145fed15b3645f2240f39214baa707580e05d247690d89335a46d576657"><div class="ttname"><a href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baa707580e05d247690d89335a46d576657">ARENAHOOK_CAN_SAVE_TO_DB</a></div><div class="ttdeci">@ ARENAHOOK_CAN_SAVE_TO_DB</div><div class="ttdef"><b>Definition:</b> ArenaScript.h:29</div></div>
+<div class="ttc" id="aa00836_html_a93515f145fed15b3645f2240f39214baa8f35d3e6970c95df27f631f3f5558a5e"><div class="ttname"><a href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baa8f35d3e6970c95df27f631f3f5558a5e">ARENAHOOK_ON_BEFORE_CHECK_WIN_CONDITION</a></div><div class="ttdeci">@ ARENAHOOK_ON_BEFORE_CHECK_WIN_CONDITION</div><div class="ttdef"><b>Definition:</b> ArenaScript.h:30</div></div>
+<div class="ttc" id="aa00836_html_a93515f145fed15b3645f2240f39214baab3934eeceaededbb59ec277bc4275588"><div class="ttname"><a href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baab3934eeceaededbb59ec277bc4275588">ARENAHOOK_ON_GET_POINTS</a></div><div class="ttdeci">@ ARENAHOOK_ON_GET_POINTS</div><div class="ttdef"><b>Definition:</b> ArenaScript.h:28</div></div>
+<div class="ttc" id="aa00836_html_a93515f145fed15b3645f2240f39214baac02079e51af3fd7c3507a8a6f88fee09"><div class="ttname"><a href="../../d3/d13/a00836.html#a93515f145fed15b3645f2240f39214baac02079e51af3fd7c3507a8a6f88fee09">ARENAHOOK_ON_ARENA_START</a></div><div class="ttdeci">@ ARENAHOOK_ON_ARENA_START</div><div class="ttdef"><b>Definition:</b> ArenaScript.h:31</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -172,8 +181,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_3906e801b468713a6f5b1f193c7ea10d.html">database</a></li><li class="navelem"><a class="el" href="../../dir_4135abd5956581eb408665f16b5c495d.html">Database</a></li><li class="navelem"><a class="el" href="../../d3/d13/a00836.html">MySQLConnection.h</a></li>
-    <li class="footer">Generated on Mon Sep 16 2024 20:40:01 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d3/d13/a00836.html">ArenaScript.h</a></li>
+    <li class="footer">Generated on Mon Sep 23 2024 20:40:32 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

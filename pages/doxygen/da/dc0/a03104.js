@@ -1,11 +1,5 @@
 var a03104 =
 [
-    [ "AuraEffect", "d4/d84/a10752.html", "d4/d84/a10752" ],
-    [ "Acore::AbsorbAuraOrderPred", "dc/d2d/a10756.html", "dc/d2d/a10756" ],
-    [ "pAuraEffectHandler", "da/dc0/a03104.html#a9e98d9a1c1cc41922f386b184fd7ce67", null ],
-    [ "BrewfestEntries", "da/dc0/a03104.html#a4ee83f582e4ebba3a5aea9ab1a5c9354", [
-      [ "BREWFEST_KODO", "da/dc0/a03104.html#a4ee83f582e4ebba3a5aea9ab1a5c9354acbc7617ce19ea8d214518ab0335275c5", null ],
-      [ "GREAT_BREWFEST_KODO", "da/dc0/a03104.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a9e68ffb636426417370cc6b94b7b46aa", null ],
-      [ "FRESH_BREWFEST_HOPS", "da/dc0/a03104.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a62ef26e3a60fddc8cbadbd349cb054bf", null ]
-    ] ]
+    [ "cheat_commandscript", "dd/d1d/a11288.html", "dd/d1d/a11288" ],
+    [ "AddSC_cheat_commandscript", "da/dc0/a03104.html#aafc88882ff0af0beb4632ec2c929fc8c", null ]
 ];

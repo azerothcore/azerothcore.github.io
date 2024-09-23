@@ -1,6 +1,5 @@
 var a27248 =
 [
-    [ "go_soulwellAI", "d2/d9e/a27252.html", "d2/d9e/a27252" ],
-    [ "go_soulwell", "db/dee/a27248.html#a3747499bd05326ef6f7024c0ee91a4ce", null ],
-    [ "GetAI", "db/dee/a27248.html#a0c8b8cf09c26ad08c1c6dbb1a0c57861", null ]
+    [ "go_table_theka", "db/dee/a27248.html#a9e25a1c9313437b533e1d88a2db04a58", null ],
+    [ "OnGossipHello", "db/dee/a27248.html#ab04480f032ce074daacdc0dcfa37ee12", null ]
 ];

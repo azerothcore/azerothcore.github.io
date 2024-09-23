@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Scripting/ScriptDefines/MiscScript.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Kalimdor/zone_moonglade.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,139 +106,274 @@ $(document).ready(function(){initNavTree('d1/dd9/a04184.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">MiscScript.h File Reference</div></div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">zone_moonglade.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Cell.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedEscortAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedGossip.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellInfo.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/daa/a10048.html">MiscScript</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d2b/a15304.html">npc_bunthen_plainswind</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0f/a15308.html">npc_great_bear_spirit</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2f/a15312.html">npc_silva_filnaveth</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d42/a15316.html">npc_clintar_spirit</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d0a/a15320.html">npc_clintar_spirit::npc_clintar_spiritAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a15324.html">npc_omen</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db2/a15328.html">npc_omen::npc_omenAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/a15332.html">npc_giant_spotlight</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d1f/a15336.html">npc_giant_spotlight::npc_giant_spotlightAI</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:af37f873b1735a7e1f78da6f2f334c134"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134">MiscHook</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134aced03c29bfe1b673cd653f80f983c9fb">MISCHOOK_ON_CONSTRUCT_OBJECT</a>
+<tr class="memitem:adbbeebdb932cdc68f2ad2b58d4c922fb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a04184.html#adbbeebdb932cdc68f2ad2b58d4c922fb">Bunthen</a> { <br />
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#adbbeebdb932cdc68f2ad2b58d4c922fba19a2ff94115fefe241626f3331ce747f">QUEST_SEA_LION_HORDE</a> = 30
 , <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a9733f4054c726297206f0d94936b198f">MISCHOOK_ON_DESTRUCT_OBJECT</a>
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#adbbeebdb932cdc68f2ad2b58d4c922fba9333cbca83acf867219e50edeeb6ad5a">QUEST_SEA_LION_ALLY</a> = 272
 , <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ab44e63644ffca18d22fd8f100d741439">MISCHOOK_ON_CONSTRUCT_PLAYER</a>
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#adbbeebdb932cdc68f2ad2b58d4c922fba5f9b640f23c79dda3001d48c5d714b08">TAXI_PATH_ID_ALLY</a> = 315
 , <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a5cc41f8f78b3b4e4d2339ef9081298bf">MISCHOOK_ON_DESTRUCT_PLAYER</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a1ca06f199a58422ef7353799ca54ae72">MISCHOOK_ON_CONSTRUCT_GROUP</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a3ce8336f58fbbc6e7eb236bbaea4e6da">MISCHOOK_ON_DESTRUCT_GROUP</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a56a3d6798447586097a2539a15cb4aa2">MISCHOOK_ON_CONSTRUCT_INSTANCE_SAVE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ace5f04f0c222b965d512026b695922c5">MISCHOOK_ON_DESTRUCT_INSTANCE_SAVE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134aadbe4a9d67dbca7b90292899c0ae8d4c">MISCHOOK_ON_ITEM_CREATE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a5d3215bd4e18f89cb0a717a84829e17f">MISCHOOK_CAN_APPLY_SOULBOUND_FLAG</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ae9bacf4ccf18f7e88d8aa9f83bdebded">MISCHOOK_CAN_ITEM_APPLY_EQUIP_SPELL</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a584163956c233073e85f343585092a27">MISCHOOK_CAN_SEND_AUCTIONHELLO</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ad8dcf71de9c5c4a16743e80d66ac70c0">MISCHOOK_VALIDATE_SPELL_AT_CAST_SPELL</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a0de17e7f67dd7280da04e7a2fc502433">MISCHOOK_VALIDATE_SPELL_AT_CAST_SPELL_RESULT</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ad88e01abe00726c718edd6c7903ec8ea">MISCHOOK_ON_AFTER_LOOT_TEMPLATE_PROCESS</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a26ed92ee73e91e93437535e17f9d1616">MISCHOOK_ON_PLAYER_SET_PHASE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a29a966b43bc8252d88a8ecdeb4c9928f">MISCHOOK_ON_INSTANCE_SAVE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a9c2cb4ea6da418aff3e4f1cad36a6490">MISCHOOK_GET_DIALOG_STATUS</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ae8c3fca40135e387a84d7156f26a16c9">MISCHOOK_END</a>
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#adbbeebdb932cdc68f2ad2b58d4c922fbaa6f489a16374ddf85329d3ee985c460b">TAXI_PATH_ID_HORDE</a> = 316
 <br />
  }</td></tr>
-<tr class="separator:af37f873b1735a7e1f78da6f2f334c134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:adbbeebdb932cdc68f2ad2b58d4c922fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af06e96ced22feb1885564950e05417a2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a04184.html#af06e96ced22feb1885564950e05417a2">ClintarSpirit</a> { <br />
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af06e96ced22feb1885564950e05417a2a5aa355f8770a619dd97c43a1ed6c8e7f">ASPECT_RAVEN</a> = 22915
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#af06e96ced22feb1885564950e05417a2a4003cbd90da80c6fb02ae957c7e3e60e">CLINTAR_SPIRIT_SAY_START</a> = 0
+<br />
+ }</td></tr>
+<tr class="separator:af06e96ced22feb1885564950e05417a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fb152206db70a70437b235647a95793"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793">Omen</a> { <br />
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a6d34405f4268188f4709fddd135879a1">NPC_OMEN</a> = 15467
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a525d07772748bd50623894654941eebb">SPELL_OMEN_CLEAVE</a> = 15284
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a8a65e86a799ba7daf95b45212e2d0cac">SPELL_OMEN_STARFALL</a> = 26540
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a09afe0a7256990b201fc144424201c79">SPELL_OMEN_SUMMON_SPOTLIGHT</a> = 26392
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a333999af862b8d1706a4b34ced3448e6">SPELL_ELUNE_CANDLE</a> = 26374
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a55d48a597022d003e1e18a7cb332c3e3">GO_ELUNE_TRAP_1</a> = 180876
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a70bba7030d170525f9351e8643ed8e51">GO_ELUNE_TRAP_2</a> = 180877
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a9b4959d7ea485f12c7d67e5bd7672383">EVENT_CAST_CLEAVE</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a59097ac157a655e4c9371e19a53820fc">EVENT_CAST_STARFALL</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a37c22b84c74c36e2af467a6bd1047f15">EVENT_DESPAWN</a> = 3
+<br />
+ }</td></tr>
+<tr class="separator:a7fb152206db70a70437b235647a95793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a849e20dbd083abdfb7fb96857fb7d89f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a04184.html#a849e20dbd083abdfb7fb96857fb7d89f">AddSC_moonglade</a> ()</td></tr>
+<tr class="separator:a849e20dbd083abdfb7fb96857fb7d89f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:adcc622dc5710ac246cbdd4f072ad52fe"><td class="memItemLeft" align="right" valign="top">float const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a04184.html#adcc622dc5710ac246cbdd4f072ad52fe">Clintar_spirit_WP</a> [41][5]</td></tr>
+<tr class="separator:adcc622dc5710ac246cbdd4f072ad52fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b390a1d926d93da400a7e199a1da6b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d3b/a08192.html">Position</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd9/a04184.html#a8b390a1d926d93da400a7e199a1da6b6">AspectRavenSummon</a> = {7472.96f, -3074.18f, 427.566f, 0.0f}</td></tr>
+<tr class="separator:a8b390a1d926d93da400a7e199a1da6b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="af37f873b1735a7e1f78da6f2f334c134" name="af37f873b1735a7e1f78da6f2f334c134"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af37f873b1735a7e1f78da6f2f334c134">&#9670;&#160;</a></span>MiscHook</h2>
+<a id="adbbeebdb932cdc68f2ad2b58d4c922fb" name="adbbeebdb932cdc68f2ad2b58d4c922fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbbeebdb932cdc68f2ad2b58d4c922fb">&#9670;&#160;</a></span>Bunthen</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134">MiscHook</a></td>
+          <td class="memname">enum <a class="el" href="../../d1/dd9/a04184.html#adbbeebdb932cdc68f2ad2b58d4c922fb">Bunthen</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134aced03c29bfe1b673cd653f80f983c9fb" name="af37f873b1735a7e1f78da6f2f334c134aced03c29bfe1b673cd653f80f983c9fb"></a>MISCHOOK_ON_CONSTRUCT_OBJECT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134a9733f4054c726297206f0d94936b198f" name="af37f873b1735a7e1f78da6f2f334c134a9733f4054c726297206f0d94936b198f"></a>MISCHOOK_ON_DESTRUCT_OBJECT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134ab44e63644ffca18d22fd8f100d741439" name="af37f873b1735a7e1f78da6f2f334c134ab44e63644ffca18d22fd8f100d741439"></a>MISCHOOK_ON_CONSTRUCT_PLAYER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134a5cc41f8f78b3b4e4d2339ef9081298bf" name="af37f873b1735a7e1f78da6f2f334c134a5cc41f8f78b3b4e4d2339ef9081298bf"></a>MISCHOOK_ON_DESTRUCT_PLAYER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134a1ca06f199a58422ef7353799ca54ae72" name="af37f873b1735a7e1f78da6f2f334c134a1ca06f199a58422ef7353799ca54ae72"></a>MISCHOOK_ON_CONSTRUCT_GROUP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134a3ce8336f58fbbc6e7eb236bbaea4e6da" name="af37f873b1735a7e1f78da6f2f334c134a3ce8336f58fbbc6e7eb236bbaea4e6da"></a>MISCHOOK_ON_DESTRUCT_GROUP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134a56a3d6798447586097a2539a15cb4aa2" name="af37f873b1735a7e1f78da6f2f334c134a56a3d6798447586097a2539a15cb4aa2"></a>MISCHOOK_ON_CONSTRUCT_INSTANCE_SAVE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134ace5f04f0c222b965d512026b695922c5" name="af37f873b1735a7e1f78da6f2f334c134ace5f04f0c222b965d512026b695922c5"></a>MISCHOOK_ON_DESTRUCT_INSTANCE_SAVE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134aadbe4a9d67dbca7b90292899c0ae8d4c" name="af37f873b1735a7e1f78da6f2f334c134aadbe4a9d67dbca7b90292899c0ae8d4c"></a>MISCHOOK_ON_ITEM_CREATE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134a5d3215bd4e18f89cb0a717a84829e17f" name="af37f873b1735a7e1f78da6f2f334c134a5d3215bd4e18f89cb0a717a84829e17f"></a>MISCHOOK_CAN_APPLY_SOULBOUND_FLAG&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134ae9bacf4ccf18f7e88d8aa9f83bdebded" name="af37f873b1735a7e1f78da6f2f334c134ae9bacf4ccf18f7e88d8aa9f83bdebded"></a>MISCHOOK_CAN_ITEM_APPLY_EQUIP_SPELL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134a584163956c233073e85f343585092a27" name="af37f873b1735a7e1f78da6f2f334c134a584163956c233073e85f343585092a27"></a>MISCHOOK_CAN_SEND_AUCTIONHELLO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134ad8dcf71de9c5c4a16743e80d66ac70c0" name="af37f873b1735a7e1f78da6f2f334c134ad8dcf71de9c5c4a16743e80d66ac70c0"></a>MISCHOOK_VALIDATE_SPELL_AT_CAST_SPELL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134a0de17e7f67dd7280da04e7a2fc502433" name="af37f873b1735a7e1f78da6f2f334c134a0de17e7f67dd7280da04e7a2fc502433"></a>MISCHOOK_VALIDATE_SPELL_AT_CAST_SPELL_RESULT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134ad88e01abe00726c718edd6c7903ec8ea" name="af37f873b1735a7e1f78da6f2f334c134ad88e01abe00726c718edd6c7903ec8ea"></a>MISCHOOK_ON_AFTER_LOOT_TEMPLATE_PROCESS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134a26ed92ee73e91e93437535e17f9d1616" name="af37f873b1735a7e1f78da6f2f334c134a26ed92ee73e91e93437535e17f9d1616"></a>MISCHOOK_ON_PLAYER_SET_PHASE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134a29a966b43bc8252d88a8ecdeb4c9928f" name="af37f873b1735a7e1f78da6f2f334c134a29a966b43bc8252d88a8ecdeb4c9928f"></a>MISCHOOK_ON_INSTANCE_SAVE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134a9c2cb4ea6da418aff3e4f1cad36a6490" name="af37f873b1735a7e1f78da6f2f334c134a9c2cb4ea6da418aff3e4f1cad36a6490"></a>MISCHOOK_GET_DIALOG_STATUS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af37f873b1735a7e1f78da6f2f334c134ae8c3fca40135e387a84d7156f26a16c9" name="af37f873b1735a7e1f78da6f2f334c134ae8c3fca40135e387a84d7156f26a16c9"></a>MISCHOOK_END&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adbbeebdb932cdc68f2ad2b58d4c922fba19a2ff94115fefe241626f3331ce747f" name="adbbeebdb932cdc68f2ad2b58d4c922fba19a2ff94115fefe241626f3331ce747f"></a>QUEST_SEA_LION_HORDE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adbbeebdb932cdc68f2ad2b58d4c922fba9333cbca83acf867219e50edeeb6ad5a" name="adbbeebdb932cdc68f2ad2b58d4c922fba9333cbca83acf867219e50edeeb6ad5a"></a>QUEST_SEA_LION_ALLY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adbbeebdb932cdc68f2ad2b58d4c922fba5f9b640f23c79dda3001d48c5d714b08" name="adbbeebdb932cdc68f2ad2b58d4c922fba5f9b640f23c79dda3001d48c5d714b08"></a>TAXI_PATH_ID_ALLY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adbbeebdb932cdc68f2ad2b58d4c922fbaa6f489a16374ddf85329d3ee985c460b" name="adbbeebdb932cdc68f2ad2b58d4c922fbaa6f489a16374ddf85329d3ee985c460b"></a>TAXI_PATH_ID_HORDE&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134aced03c29bfe1b673cd653f80f983c9fb">MISCHOOK_ON_CONSTRUCT_OBJECT</a>,</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a9733f4054c726297206f0d94936b198f">MISCHOOK_ON_DESTRUCT_OBJECT</a>,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ab44e63644ffca18d22fd8f100d741439">MISCHOOK_ON_CONSTRUCT_PLAYER</a>,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a5cc41f8f78b3b4e4d2339ef9081298bf">MISCHOOK_ON_DESTRUCT_PLAYER</a>,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a1ca06f199a58422ef7353799ca54ae72">MISCHOOK_ON_CONSTRUCT_GROUP</a>,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a3ce8336f58fbbc6e7eb236bbaea4e6da">MISCHOOK_ON_DESTRUCT_GROUP</a>,</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a56a3d6798447586097a2539a15cb4aa2">MISCHOOK_ON_CONSTRUCT_INSTANCE_SAVE</a>,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ace5f04f0c222b965d512026b695922c5">MISCHOOK_ON_DESTRUCT_INSTANCE_SAVE</a>,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134aadbe4a9d67dbca7b90292899c0ae8d4c">MISCHOOK_ON_ITEM_CREATE</a>,</div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a5d3215bd4e18f89cb0a717a84829e17f">MISCHOOK_CAN_APPLY_SOULBOUND_FLAG</a>,</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ae9bacf4ccf18f7e88d8aa9f83bdebded">MISCHOOK_CAN_ITEM_APPLY_EQUIP_SPELL</a>,</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a584163956c233073e85f343585092a27">MISCHOOK_CAN_SEND_AUCTIONHELLO</a>,</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ad8dcf71de9c5c4a16743e80d66ac70c0">MISCHOOK_VALIDATE_SPELL_AT_CAST_SPELL</a>,</div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a0de17e7f67dd7280da04e7a2fc502433">MISCHOOK_VALIDATE_SPELL_AT_CAST_SPELL_RESULT</a>,</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ad88e01abe00726c718edd6c7903ec8ea">MISCHOOK_ON_AFTER_LOOT_TEMPLATE_PROCESS</a>,</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a26ed92ee73e91e93437535e17f9d1616">MISCHOOK_ON_PLAYER_SET_PHASE</a>,</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a29a966b43bc8252d88a8ecdeb4c9928f">MISCHOOK_ON_INSTANCE_SAVE</a>,</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a9c2cb4ea6da418aff3e4f1cad36a6490">MISCHOOK_GET_DIALOG_STATUS</a>,</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ae8c3fca40135e387a84d7156f26a16c9">MISCHOOK_END</a></div>
-<div class="line"><span class="lineno">   46</span>};</div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134a0de17e7f67dd7280da04e7a2fc502433"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a0de17e7f67dd7280da04e7a2fc502433">MISCHOOK_VALIDATE_SPELL_AT_CAST_SPELL_RESULT</a></div><div class="ttdeci">@ MISCHOOK_VALIDATE_SPELL_AT_CAST_SPELL_RESULT</div><div class="ttdef"><b>Definition:</b> MiscScript.h:40</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134a1ca06f199a58422ef7353799ca54ae72"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a1ca06f199a58422ef7353799ca54ae72">MISCHOOK_ON_CONSTRUCT_GROUP</a></div><div class="ttdeci">@ MISCHOOK_ON_CONSTRUCT_GROUP</div><div class="ttdef"><b>Definition:</b> MiscScript.h:31</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134a26ed92ee73e91e93437535e17f9d1616"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a26ed92ee73e91e93437535e17f9d1616">MISCHOOK_ON_PLAYER_SET_PHASE</a></div><div class="ttdeci">@ MISCHOOK_ON_PLAYER_SET_PHASE</div><div class="ttdef"><b>Definition:</b> MiscScript.h:42</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134a29a966b43bc8252d88a8ecdeb4c9928f"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a29a966b43bc8252d88a8ecdeb4c9928f">MISCHOOK_ON_INSTANCE_SAVE</a></div><div class="ttdeci">@ MISCHOOK_ON_INSTANCE_SAVE</div><div class="ttdef"><b>Definition:</b> MiscScript.h:43</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134a3ce8336f58fbbc6e7eb236bbaea4e6da"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a3ce8336f58fbbc6e7eb236bbaea4e6da">MISCHOOK_ON_DESTRUCT_GROUP</a></div><div class="ttdeci">@ MISCHOOK_ON_DESTRUCT_GROUP</div><div class="ttdef"><b>Definition:</b> MiscScript.h:32</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134a56a3d6798447586097a2539a15cb4aa2"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a56a3d6798447586097a2539a15cb4aa2">MISCHOOK_ON_CONSTRUCT_INSTANCE_SAVE</a></div><div class="ttdeci">@ MISCHOOK_ON_CONSTRUCT_INSTANCE_SAVE</div><div class="ttdef"><b>Definition:</b> MiscScript.h:33</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134a584163956c233073e85f343585092a27"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a584163956c233073e85f343585092a27">MISCHOOK_CAN_SEND_AUCTIONHELLO</a></div><div class="ttdeci">@ MISCHOOK_CAN_SEND_AUCTIONHELLO</div><div class="ttdef"><b>Definition:</b> MiscScript.h:38</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134a5cc41f8f78b3b4e4d2339ef9081298bf"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a5cc41f8f78b3b4e4d2339ef9081298bf">MISCHOOK_ON_DESTRUCT_PLAYER</a></div><div class="ttdeci">@ MISCHOOK_ON_DESTRUCT_PLAYER</div><div class="ttdef"><b>Definition:</b> MiscScript.h:30</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134a5d3215bd4e18f89cb0a717a84829e17f"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a5d3215bd4e18f89cb0a717a84829e17f">MISCHOOK_CAN_APPLY_SOULBOUND_FLAG</a></div><div class="ttdeci">@ MISCHOOK_CAN_APPLY_SOULBOUND_FLAG</div><div class="ttdef"><b>Definition:</b> MiscScript.h:36</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134a9733f4054c726297206f0d94936b198f"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a9733f4054c726297206f0d94936b198f">MISCHOOK_ON_DESTRUCT_OBJECT</a></div><div class="ttdeci">@ MISCHOOK_ON_DESTRUCT_OBJECT</div><div class="ttdef"><b>Definition:</b> MiscScript.h:28</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134a9c2cb4ea6da418aff3e4f1cad36a6490"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134a9c2cb4ea6da418aff3e4f1cad36a6490">MISCHOOK_GET_DIALOG_STATUS</a></div><div class="ttdeci">@ MISCHOOK_GET_DIALOG_STATUS</div><div class="ttdef"><b>Definition:</b> MiscScript.h:44</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134aadbe4a9d67dbca7b90292899c0ae8d4c"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134aadbe4a9d67dbca7b90292899c0ae8d4c">MISCHOOK_ON_ITEM_CREATE</a></div><div class="ttdeci">@ MISCHOOK_ON_ITEM_CREATE</div><div class="ttdef"><b>Definition:</b> MiscScript.h:35</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134ab44e63644ffca18d22fd8f100d741439"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ab44e63644ffca18d22fd8f100d741439">MISCHOOK_ON_CONSTRUCT_PLAYER</a></div><div class="ttdeci">@ MISCHOOK_ON_CONSTRUCT_PLAYER</div><div class="ttdef"><b>Definition:</b> MiscScript.h:29</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134ace5f04f0c222b965d512026b695922c5"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ace5f04f0c222b965d512026b695922c5">MISCHOOK_ON_DESTRUCT_INSTANCE_SAVE</a></div><div class="ttdeci">@ MISCHOOK_ON_DESTRUCT_INSTANCE_SAVE</div><div class="ttdef"><b>Definition:</b> MiscScript.h:34</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134aced03c29bfe1b673cd653f80f983c9fb"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134aced03c29bfe1b673cd653f80f983c9fb">MISCHOOK_ON_CONSTRUCT_OBJECT</a></div><div class="ttdeci">@ MISCHOOK_ON_CONSTRUCT_OBJECT</div><div class="ttdef"><b>Definition:</b> MiscScript.h:27</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134ad88e01abe00726c718edd6c7903ec8ea"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ad88e01abe00726c718edd6c7903ec8ea">MISCHOOK_ON_AFTER_LOOT_TEMPLATE_PROCESS</a></div><div class="ttdeci">@ MISCHOOK_ON_AFTER_LOOT_TEMPLATE_PROCESS</div><div class="ttdef"><b>Definition:</b> MiscScript.h:41</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134ad8dcf71de9c5c4a16743e80d66ac70c0"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ad8dcf71de9c5c4a16743e80d66ac70c0">MISCHOOK_VALIDATE_SPELL_AT_CAST_SPELL</a></div><div class="ttdeci">@ MISCHOOK_VALIDATE_SPELL_AT_CAST_SPELL</div><div class="ttdef"><b>Definition:</b> MiscScript.h:39</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134ae8c3fca40135e387a84d7156f26a16c9"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ae8c3fca40135e387a84d7156f26a16c9">MISCHOOK_END</a></div><div class="ttdeci">@ MISCHOOK_END</div><div class="ttdef"><b>Definition:</b> MiscScript.h:45</div></div>
-<div class="ttc" id="aa04184_html_af37f873b1735a7e1f78da6f2f334c134ae9bacf4ccf18f7e88d8aa9f83bdebded"><div class="ttname"><a href="../../d1/dd9/a04184.html#af37f873b1735a7e1f78da6f2f334c134ae9bacf4ccf18f7e88d8aa9f83bdebded">MISCHOOK_CAN_ITEM_APPLY_EQUIP_SPELL</a></div><div class="ttdeci">@ MISCHOOK_CAN_ITEM_APPLY_EQUIP_SPELL</div><div class="ttdef"><b>Definition:</b> MiscScript.h:37</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   48</span>{</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#adbbeebdb932cdc68f2ad2b58d4c922fba19a2ff94115fefe241626f3331ce747f">QUEST_SEA_LION_HORDE</a>        = 30,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#adbbeebdb932cdc68f2ad2b58d4c922fba9333cbca83acf867219e50edeeb6ad5a">QUEST_SEA_LION_ALLY</a>         = 272,</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#adbbeebdb932cdc68f2ad2b58d4c922fba5f9b640f23c79dda3001d48c5d714b08">TAXI_PATH_ID_ALLY</a>           = 315,</div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#adbbeebdb932cdc68f2ad2b58d4c922fbaa6f489a16374ddf85329d3ee985c460b">TAXI_PATH_ID_HORDE</a>          = 316</div>
+<div class="line"><span class="lineno">   53</span>};</div>
+<div class="ttc" id="aa04184_html_adbbeebdb932cdc68f2ad2b58d4c922fba19a2ff94115fefe241626f3331ce747f"><div class="ttname"><a href="../../d1/dd9/a04184.html#adbbeebdb932cdc68f2ad2b58d4c922fba19a2ff94115fefe241626f3331ce747f">QUEST_SEA_LION_HORDE</a></div><div class="ttdeci">@ QUEST_SEA_LION_HORDE</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:49</div></div>
+<div class="ttc" id="aa04184_html_adbbeebdb932cdc68f2ad2b58d4c922fba5f9b640f23c79dda3001d48c5d714b08"><div class="ttname"><a href="../../d1/dd9/a04184.html#adbbeebdb932cdc68f2ad2b58d4c922fba5f9b640f23c79dda3001d48c5d714b08">TAXI_PATH_ID_ALLY</a></div><div class="ttdeci">@ TAXI_PATH_ID_ALLY</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:51</div></div>
+<div class="ttc" id="aa04184_html_adbbeebdb932cdc68f2ad2b58d4c922fba9333cbca83acf867219e50edeeb6ad5a"><div class="ttname"><a href="../../d1/dd9/a04184.html#adbbeebdb932cdc68f2ad2b58d4c922fba9333cbca83acf867219e50edeeb6ad5a">QUEST_SEA_LION_ALLY</a></div><div class="ttdeci">@ QUEST_SEA_LION_ALLY</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:50</div></div>
+<div class="ttc" id="aa04184_html_adbbeebdb932cdc68f2ad2b58d4c922fbaa6f489a16374ddf85329d3ee985c460b"><div class="ttname"><a href="../../d1/dd9/a04184.html#adbbeebdb932cdc68f2ad2b58d4c922fbaa6f489a16374ddf85329d3ee985c460b">TAXI_PATH_ID_HORDE</a></div><div class="ttdeci">@ TAXI_PATH_ID_HORDE</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:52</div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="af06e96ced22feb1885564950e05417a2" name="af06e96ced22feb1885564950e05417a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af06e96ced22feb1885564950e05417a2">&#9670;&#160;</a></span>ClintarSpirit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d1/dd9/a04184.html#af06e96ced22feb1885564950e05417a2">ClintarSpirit</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af06e96ced22feb1885564950e05417a2a5aa355f8770a619dd97c43a1ed6c8e7f" name="af06e96ced22feb1885564950e05417a2a5aa355f8770a619dd97c43a1ed6c8e7f"></a>ASPECT_RAVEN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af06e96ced22feb1885564950e05417a2a4003cbd90da80c6fb02ae957c7e3e60e" name="af06e96ced22feb1885564950e05417a2a4003cbd90da80c6fb02ae957c7e3e60e"></a>CLINTAR_SPIRIT_SAY_START&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  300</span>{</div>
+<div class="line"><span class="lineno">  301</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af06e96ced22feb1885564950e05417a2a5aa355f8770a619dd97c43a1ed6c8e7f">ASPECT_RAVEN</a>                        = 22915,</div>
+<div class="line"><span class="lineno">  302</span> </div>
+<div class="line"><span class="lineno">  303</span>    <span class="comment">// Texts for JustEngagedWith, the event and the end of the event are missing</span></div>
+<div class="line"><span class="lineno">  304</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#af06e96ced22feb1885564950e05417a2a4003cbd90da80c6fb02ae957c7e3e60e">CLINTAR_SPIRIT_SAY_START</a>            = 0,</div>
+<div class="line"><span class="lineno">  305</span>};</div>
+<div class="ttc" id="aa04184_html_af06e96ced22feb1885564950e05417a2a4003cbd90da80c6fb02ae957c7e3e60e"><div class="ttname"><a href="../../d1/dd9/a04184.html#af06e96ced22feb1885564950e05417a2a4003cbd90da80c6fb02ae957c7e3e60e">CLINTAR_SPIRIT_SAY_START</a></div><div class="ttdeci">@ CLINTAR_SPIRIT_SAY_START</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:304</div></div>
+<div class="ttc" id="aa04184_html_af06e96ced22feb1885564950e05417a2a5aa355f8770a619dd97c43a1ed6c8e7f"><div class="ttname"><a href="../../d1/dd9/a04184.html#af06e96ced22feb1885564950e05417a2a5aa355f8770a619dd97c43a1ed6c8e7f">ASPECT_RAVEN</a></div><div class="ttdeci">@ ASPECT_RAVEN</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:301</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a7fb152206db70a70437b235647a95793" name="a7fb152206db70a70437b235647a95793"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fb152206db70a70437b235647a95793">&#9670;&#160;</a></span>Omen</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793">Omen</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7fb152206db70a70437b235647a95793a6d34405f4268188f4709fddd135879a1" name="a7fb152206db70a70437b235647a95793a6d34405f4268188f4709fddd135879a1"></a>NPC_OMEN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7fb152206db70a70437b235647a95793a525d07772748bd50623894654941eebb" name="a7fb152206db70a70437b235647a95793a525d07772748bd50623894654941eebb"></a>SPELL_OMEN_CLEAVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7fb152206db70a70437b235647a95793a8a65e86a799ba7daf95b45212e2d0cac" name="a7fb152206db70a70437b235647a95793a8a65e86a799ba7daf95b45212e2d0cac"></a>SPELL_OMEN_STARFALL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7fb152206db70a70437b235647a95793a09afe0a7256990b201fc144424201c79" name="a7fb152206db70a70437b235647a95793a09afe0a7256990b201fc144424201c79"></a>SPELL_OMEN_SUMMON_SPOTLIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7fb152206db70a70437b235647a95793a333999af862b8d1706a4b34ced3448e6" name="a7fb152206db70a70437b235647a95793a333999af862b8d1706a4b34ced3448e6"></a>SPELL_ELUNE_CANDLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7fb152206db70a70437b235647a95793a55d48a597022d003e1e18a7cb332c3e3" name="a7fb152206db70a70437b235647a95793a55d48a597022d003e1e18a7cb332c3e3"></a>GO_ELUNE_TRAP_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7fb152206db70a70437b235647a95793a70bba7030d170525f9351e8643ed8e51" name="a7fb152206db70a70437b235647a95793a70bba7030d170525f9351e8643ed8e51"></a>GO_ELUNE_TRAP_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7fb152206db70a70437b235647a95793a9b4959d7ea485f12c7d67e5bd7672383" name="a7fb152206db70a70437b235647a95793a9b4959d7ea485f12c7d67e5bd7672383"></a>EVENT_CAST_CLEAVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7fb152206db70a70437b235647a95793a59097ac157a655e4c9371e19a53820fc" name="a7fb152206db70a70437b235647a95793a59097ac157a655e4c9371e19a53820fc"></a>EVENT_CAST_STARFALL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7fb152206db70a70437b235647a95793a37c22b84c74c36e2af467a6bd1047f15" name="a7fb152206db70a70437b235647a95793a37c22b84c74c36e2af467a6bd1047f15"></a>EVENT_DESPAWN&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">  586</span>{</div>
+<div class="line"><span class="lineno">  587</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a6d34405f4268188f4709fddd135879a1">NPC_OMEN</a>                    = 15467,</div>
+<div class="line"><span class="lineno">  588</span> </div>
+<div class="line"><span class="lineno">  589</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a525d07772748bd50623894654941eebb">SPELL_OMEN_CLEAVE</a>           = 15284,</div>
+<div class="line"><span class="lineno">  590</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a8a65e86a799ba7daf95b45212e2d0cac">SPELL_OMEN_STARFALL</a>         = 26540,</div>
+<div class="line"><span class="lineno">  591</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a09afe0a7256990b201fc144424201c79">SPELL_OMEN_SUMMON_SPOTLIGHT</a> = 26392,</div>
+<div class="line"><span class="lineno">  592</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a333999af862b8d1706a4b34ced3448e6">SPELL_ELUNE_CANDLE</a>          = 26374,</div>
+<div class="line"><span class="lineno">  593</span> </div>
+<div class="line"><span class="lineno">  594</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a55d48a597022d003e1e18a7cb332c3e3">GO_ELUNE_TRAP_1</a>             = 180876,</div>
+<div class="line"><span class="lineno">  595</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a70bba7030d170525f9351e8643ed8e51">GO_ELUNE_TRAP_2</a>             = 180877,</div>
+<div class="line"><span class="lineno">  596</span> </div>
+<div class="line"><span class="lineno">  597</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a9b4959d7ea485f12c7d67e5bd7672383">EVENT_CAST_CLEAVE</a>           = 1,</div>
+<div class="line"><span class="lineno">  598</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a59097ac157a655e4c9371e19a53820fc">EVENT_CAST_STARFALL</a>         = 2,</div>
+<div class="line"><span class="lineno">  599</span>    <a class="code hl_enumvalue" href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a37c22b84c74c36e2af467a6bd1047f15">EVENT_DESPAWN</a>               = 3,</div>
+<div class="line"><span class="lineno">  600</span>};</div>
+<div class="ttc" id="aa04184_html_a7fb152206db70a70437b235647a95793a09afe0a7256990b201fc144424201c79"><div class="ttname"><a href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a09afe0a7256990b201fc144424201c79">SPELL_OMEN_SUMMON_SPOTLIGHT</a></div><div class="ttdeci">@ SPELL_OMEN_SUMMON_SPOTLIGHT</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:591</div></div>
+<div class="ttc" id="aa04184_html_a7fb152206db70a70437b235647a95793a333999af862b8d1706a4b34ced3448e6"><div class="ttname"><a href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a333999af862b8d1706a4b34ced3448e6">SPELL_ELUNE_CANDLE</a></div><div class="ttdeci">@ SPELL_ELUNE_CANDLE</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:592</div></div>
+<div class="ttc" id="aa04184_html_a7fb152206db70a70437b235647a95793a37c22b84c74c36e2af467a6bd1047f15"><div class="ttname"><a href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a37c22b84c74c36e2af467a6bd1047f15">EVENT_DESPAWN</a></div><div class="ttdeci">@ EVENT_DESPAWN</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:599</div></div>
+<div class="ttc" id="aa04184_html_a7fb152206db70a70437b235647a95793a525d07772748bd50623894654941eebb"><div class="ttname"><a href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a525d07772748bd50623894654941eebb">SPELL_OMEN_CLEAVE</a></div><div class="ttdeci">@ SPELL_OMEN_CLEAVE</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:589</div></div>
+<div class="ttc" id="aa04184_html_a7fb152206db70a70437b235647a95793a55d48a597022d003e1e18a7cb332c3e3"><div class="ttname"><a href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a55d48a597022d003e1e18a7cb332c3e3">GO_ELUNE_TRAP_1</a></div><div class="ttdeci">@ GO_ELUNE_TRAP_1</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:594</div></div>
+<div class="ttc" id="aa04184_html_a7fb152206db70a70437b235647a95793a59097ac157a655e4c9371e19a53820fc"><div class="ttname"><a href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a59097ac157a655e4c9371e19a53820fc">EVENT_CAST_STARFALL</a></div><div class="ttdeci">@ EVENT_CAST_STARFALL</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:598</div></div>
+<div class="ttc" id="aa04184_html_a7fb152206db70a70437b235647a95793a6d34405f4268188f4709fddd135879a1"><div class="ttname"><a href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a6d34405f4268188f4709fddd135879a1">NPC_OMEN</a></div><div class="ttdeci">@ NPC_OMEN</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:587</div></div>
+<div class="ttc" id="aa04184_html_a7fb152206db70a70437b235647a95793a70bba7030d170525f9351e8643ed8e51"><div class="ttname"><a href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a70bba7030d170525f9351e8643ed8e51">GO_ELUNE_TRAP_2</a></div><div class="ttdeci">@ GO_ELUNE_TRAP_2</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:595</div></div>
+<div class="ttc" id="aa04184_html_a7fb152206db70a70437b235647a95793a8a65e86a799ba7daf95b45212e2d0cac"><div class="ttname"><a href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a8a65e86a799ba7daf95b45212e2d0cac">SPELL_OMEN_STARFALL</a></div><div class="ttdeci">@ SPELL_OMEN_STARFALL</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:590</div></div>
+<div class="ttc" id="aa04184_html_a7fb152206db70a70437b235647a95793a9b4959d7ea485f12c7d67e5bd7672383"><div class="ttname"><a href="../../d1/dd9/a04184.html#a7fb152206db70a70437b235647a95793a9b4959d7ea485f12c7d67e5bd7672383">EVENT_CAST_CLEAVE</a></div><div class="ttdeci">@ EVENT_CAST_CLEAVE</div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:597</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a849e20dbd083abdfb7fb96857fb7d89f" name="a849e20dbd083abdfb7fb96857fb7d89f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a849e20dbd083abdfb7fb96857fb7d89f">&#9670;&#160;</a></span>AddSC_moonglade()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddSC_moonglade </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  729</span>{</div>
+<div class="line"><span class="lineno">  730</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d2b/a15304.html">npc_bunthen_plainswind</a>();</div>
+<div class="line"><span class="lineno">  731</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d0f/a15308.html">npc_great_bear_spirit</a>();</div>
+<div class="line"><span class="lineno">  732</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/d2f/a15312.html">npc_silva_filnaveth</a>();</div>
+<div class="line"><span class="lineno">  733</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/d42/a15316.html">npc_clintar_spirit</a>();</div>
+<div class="line"><span class="lineno">  734</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/d87/a15324.html">npc_omen</a>();</div>
+<div class="line"><span class="lineno">  735</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/dc7/a15332.html">npc_giant_spotlight</a>();</div>
+<div class="line"><span class="lineno">  736</span>}</div>
+<div class="ttc" id="aa15304_html"><div class="ttname"><a href="../../dc/d2b/a15304.html">npc_bunthen_plainswind</a></div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:56</div></div>
+<div class="ttc" id="aa15308_html"><div class="ttname"><a href="../../dd/d0f/a15308.html">npc_great_bear_spirit</a></div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:128</div></div>
+<div class="ttc" id="aa15312_html"><div class="ttname"><a href="../../d4/d2f/a15312.html">npc_silva_filnaveth</a></div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:180</div></div>
+<div class="ttc" id="aa15316_html"><div class="ttname"><a href="../../d3/d42/a15316.html">npc_clintar_spirit</a></div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:308</div></div>
+<div class="ttc" id="aa15324_html"><div class="ttname"><a href="../../df/d87/a15324.html">npc_omen</a></div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:603</div></div>
+<div class="ttc" id="aa15332_html"><div class="ttname"><a href="../../d8/dc7/a15332.html">npc_giant_spotlight</a></div><div class="ttdef"><b>Definition:</b> zone_moonglade.cpp:685</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00100">AddKalimdorScripts()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a8b390a1d926d93da400a7e199a1da6b6" name="a8b390a1d926d93da400a7e199a1da6b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b390a1d926d93da400a7e199a1da6b6">&#9670;&#160;</a></span>AspectRavenSummon</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d3b/a08192.html">Position</a> const AspectRavenSummon = {7472.96f, -3074.18f, 427.566f, 0.0f}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00408">npc_clintar_spirit::npc_clintar_spiritAI::UpdateAI()</a>.</p>
+
+</div>
+</div>
+<a id="adcc622dc5710ac246cbdd4f072ad52fe" name="adcc622dc5710ac246cbdd4f072ad52fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcc622dc5710ac246cbdd4f072ad52fe">&#9670;&#160;</a></span>Clintar_spirit_WP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float const Clintar_spirit_WP[41][5]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00394">npc_clintar_spirit::npc_clintar_spiritAI::StartEvent()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -246,8 +381,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_824c567499771b11a8d1959386aa27e6.html">Scripting</a></li><li class="navelem"><a class="el" href="../../dir_a0aac0519f50cbe40c54d5948ed285d0.html">ScriptDefines</a></li><li class="navelem"><a class="el" href="../../d1/dd9/a04184.html">MiscScript.h</a></li>
-    <li class="footer">Generated on Mon Sep 16 2024 20:40:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ee14a0f6ab8ad29bd27b6821baacc69.html">Kalimdor</a></li><li class="navelem"><a class="el" href="../../d1/dd9/a04184.html">zone_moonglade.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 23 2024 20:40:57 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

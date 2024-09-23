@@ -1,6 +1,6 @@
 var a28092 =
 [
-    [ "Enchantment", "dd/d12/a28092.html#a480ab806214bb138d56dfd5e9e43936f", null ],
-    [ "ID", "dd/d12/a28092.html#acb673be771124b84dd3fdd5deb300de7", null ],
-    [ "Name", "dd/d12/a28092.html#a3ad3a1b693922ff8264d90232abb3e35", null ]
+    [ "ID", "dd/d12/a28092.html#a7d40e334785d96a2e57d28f87a59778a", null ],
+    [ "maxCount", "dd/d12/a28092.html#a5edc6442e026b12dae654fa86440a11a", null ],
+    [ "mode", "dd/d12/a28092.html#a76553ecf9f880a5e5967f818123742fd", null ]
 ];

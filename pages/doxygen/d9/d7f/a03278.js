@@ -1,15 +1,9 @@
 var a03278 =
 [
-    [ "STR", "d9/d7f/a03278.html#a18d295a837ac71add5578860b55e5502", null ],
-    [ "computeFallElevation", "d9/d7f/a03278.html#a87260372150c8322b45e75bfaa445f14", null ],
-    [ "computeFallTime", "d9/d7f/a03278.html#a40f989c23fe19e12628da3cd9e64edf4", null ],
-    [ "print_flags", "d9/d7f/a03278.html#a189485de5eba32c5b18dbb5c579b60d9", null ],
-    [ "g_MovementFlag_names", "d9/d7f/a03278.html#a2982e1b6388bf8b29797b16969b64173", null ],
-    [ "g_SplineFlag_names", "d9/d7f/a03278.html#aa6a1b38cb6e1507d88f0f45a4820990b", null ],
-    [ "terminal_fallTime", "d9/d7f/a03278.html#aa927e4ada20ca56ce951239357407270", null ],
-    [ "terminal_length", "d9/d7f/a03278.html#a7d1eb637bb6ae4a1859504fb84872808", null ],
-    [ "terminal_safeFall_fallTime", "d9/d7f/a03278.html#a2fc34c9abcc5822e12037c23c2ecbfe0", null ],
-    [ "terminal_safeFall_length", "d9/d7f/a03278.html#a4e816239736800d4508c1fc14e624ddc", null ],
-    [ "terminalSafefallVelocity", "d9/d7f/a03278.html#a654673c77f53f27a80309b050d44d38d", null ],
-    [ "terminalVelocity", "d9/d7f/a03278.html#a98cc74e5667e1057f334f02a28abcb01", null ]
+    [ "OutdoorPvP_hellfire_peninsula", "db/d73/a22468.html", "db/d73/a22468" ],
+    [ "AddSC_outdoorpvp_hp", "d9/d7f/a03278.html#a69303ad6f661d8c009ee493dc4fd486c", null ],
+    [ "HP_LANG_CAPTURE_A", "d9/d7f/a03278.html#a642fe1233b764402bae812604b684442", null ],
+    [ "HP_LANG_CAPTURE_H", "d9/d7f/a03278.html#a3ae9bb2c949b7f3c852ce2e4552d8ccd", null ],
+    [ "HP_LANG_LOSE_A", "d9/d7f/a03278.html#a1b9adf9c71e549e4545c2e4eabe58dd5", null ],
+    [ "HP_LANG_LOSE_H", "d9/d7f/a03278.html#ad62cd8f07ac98311202494985c6ae9c8", null ]
 ];

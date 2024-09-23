@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Movement/MovementGenerators/PathGenerator.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/OutdoorPvP/OutdoorPvPNA.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,216 +106,207 @@ $(document).ready(function(){initNavTree('d9/d01/a03248.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">PathGenerator.h File Reference</div></div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">OutdoorPvPNA.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;DetourNavMesh.h&quot;</code><br />
-<code>#include &quot;DetourNavMeshQuery.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MMapFactory.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MMapMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MapDefines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MoveSplineInitArgs.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
-<code>#include &lt;G3D/Vector3.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">OutdoorPvPNA.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameGraveyard.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">OutdoorPvPMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">OutdoorPvPScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d31/a09692.html">PathGenerator</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d88/a22480.html">OutdoorPvP_nagrand</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d18/a22484.html">outdoorpvp_na_halaa_creatures</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a9eb6992d76f02128388ae95c0415604a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d01/a03248.html#a9eb6992d76f02128388ae95c0415604a">MAX_PATH_LENGTH</a>&#160;&#160;&#160;74</td></tr>
-<tr class="separator:a9eb6992d76f02128388ae95c0415604a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4c3ae34e2d3733cc39fc1c207d4b814"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d01/a03248.html#ac4c3ae34e2d3733cc39fc1c207d4b814">MAX_POINT_PATH_LENGTH</a>&#160;&#160;&#160;74</td></tr>
-<tr class="separator:ac4c3ae34e2d3733cc39fc1c207d4b814"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1ec8eeebdd39a1cceb896f6fcb996bc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d01/a03248.html#ab1ec8eeebdd39a1cceb896f6fcb996bc">SMOOTH_PATH_STEP_SIZE</a>&#160;&#160;&#160;4.0f</td></tr>
-<tr class="separator:ab1ec8eeebdd39a1cceb896f6fcb996bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9439d6d260a5bf3c1bba446a935b2ce4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d01/a03248.html#a9439d6d260a5bf3c1bba446a935b2ce4">SMOOTH_PATH_SLOP</a>&#160;&#160;&#160;0.3f</td></tr>
-<tr class="separator:a9439d6d260a5bf3c1bba446a935b2ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad29d27e72c40ec9a02fbdc29ee093857"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d01/a03248.html#ad29d27e72c40ec9a02fbdc29ee093857">DISALLOW_TIME_AFTER_FAIL</a>&#160;&#160;&#160;3</td></tr>
-<tr class="separator:ad29d27e72c40ec9a02fbdc29ee093857"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14571eb5f0eee95bf614e04c59b0207a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d01/a03248.html#a14571eb5f0eee95bf614e04c59b0207a">VERTEX_SIZE</a>&#160;&#160;&#160;3</td></tr>
-<tr class="separator:a14571eb5f0eee95bf614e04c59b0207a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ed37c24cf4f8cd0008c13f111e01092"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d01/a03248.html#a6ed37c24cf4f8cd0008c13f111e01092">INVALID_POLYREF</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:a6ed37c24cf4f8cd0008c13f111e01092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a37af66c813e135cc11bd1dc663b35697"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d01/a03248.html#a37af66c813e135cc11bd1dc663b35697">UpdateCreatureHalaa</a> (<a class="el" href="../../d0/dba/a08164.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> spawnId, <a class="el" href="../../d4/d0b/a09508.html">Map</a> *map, float x, float y)</td></tr>
+<tr class="separator:a37af66c813e135cc11bd1dc663b35697"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1d33448696056a0951a0c306a511f1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d01/a03248.html#ab1d33448696056a0951a0c306a511f1e">FlagPlayerPvP</a> (<a class="el" href="../../d1/d53/a08360.html">Player</a> *player)</td></tr>
+<tr class="separator:ab1d33448696056a0951a0c306a511f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03015585e7619177355fefd05f85e1c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d01/a03248.html#a03015585e7619177355fefd05f85e1c7">AddSC_outdoorpvp_na</a> ()</td></tr>
+<tr class="separator:a03015585e7619177355fefd05f85e1c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ae093c9a96eda0463cdd2501ba83f10c3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3">PathType</a> { <br />
-&#160;&#160;<a class="el" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3ae3e554bae74ad71bf12ba2eea8cc74d0">PATHFIND_BLANK</a> = 0x00
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a58a5a66492944c141d0f386ce330b2c1">PATHFIND_NORMAL</a> = 0x01
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3ae3c910a168f98f0694e99440aad8028f">PATHFIND_SHORTCUT</a> = 0x02
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3aee2f2083277a36e471f1bf1170fba3be">PATHFIND_INCOMPLETE</a> = 0x04
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a5ab66bcba6eb689d881b4ebc85188984">PATHFIND_NOPATH</a> = 0x08
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a4246537a1b739abb599260d9fbb83cdf">PATHFIND_NOT_USING_PATH</a> = 0x10
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a8a25c1fe0f8142291e2183102e647cc2">PATHFIND_SHORT</a> = 0x20
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab">PATHFIND_FARFROMPOLY_START</a> = 0x40
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9">PATHFIND_FARFROMPOLY_END</a> = 0x80
-, <br />
-&#160;&#160;<a class="el" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c">PATHFIND_FARFROMPOLY</a> = PATHFIND_FARFROMPOLY_START | PATHFIND_FARFROMPOLY_END
-<br />
- }</td></tr>
-<tr class="separator:ae093c9a96eda0463cdd2501ba83f10c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a531a4e8a5291c048ad0f3b0fc64b29d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/dc1/a03263.html#a3951c5b11bab0eeb9b06c1e19b25c036">HalaaNPCS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d01/a03248.html#a531a4e8a5291c048ad0f3b0fc64b29d9">halaaNPCHorde</a></td></tr>
+<tr class="separator:a531a4e8a5291c048ad0f3b0fc64b29d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3428675268608e5372767fc629259d5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/dc1/a03263.html#a3951c5b11bab0eeb9b06c1e19b25c036">HalaaNPCS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d01/a03248.html#a3428675268608e5372767fc629259d5c">halaaNPCAlly</a></td></tr>
+<tr class="separator:a3428675268608e5372767fc629259d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ad29d27e72c40ec9a02fbdc29ee093857" name="ad29d27e72c40ec9a02fbdc29ee093857"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad29d27e72c40ec9a02fbdc29ee093857">&#9670;&#160;</a></span>DISALLOW_TIME_AFTER_FAIL</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a03015585e7619177355fefd05f85e1c7" name="a03015585e7619177355fefd05f85e1c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03015585e7619177355fefd05f85e1c7">&#9670;&#160;</a></span>AddSC_outdoorpvp_na()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define DISALLOW_TIME_AFTER_FAIL&#160;&#160;&#160;3</td>
+          <td class="memname">void AddSC_outdoorpvp_na </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6ed37c24cf4f8cd0008c13f111e01092" name="a6ed37c24cf4f8cd0008c13f111e01092"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ed37c24cf4f8cd0008c13f111e01092">&#9670;&#160;</a></span>INVALID_POLYREF</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define INVALID_POLYREF&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9eb6992d76f02128388ae95c0415604a" name="a9eb6992d76f02128388ae95c0415604a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9eb6992d76f02128388ae95c0415604a">&#9670;&#160;</a></span>MAX_PATH_LENGTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_PATH_LENGTH&#160;&#160;&#160;74</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac4c3ae34e2d3733cc39fc1c207d4b814" name="ac4c3ae34e2d3733cc39fc1c207d4b814"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4c3ae34e2d3733cc39fc1c207d4b814">&#9670;&#160;</a></span>MAX_POINT_PATH_LENGTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_POINT_PATH_LENGTH&#160;&#160;&#160;74</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9439d6d260a5bf3c1bba446a935b2ce4" name="a9439d6d260a5bf3c1bba446a935b2ce4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9439d6d260a5bf3c1bba446a935b2ce4">&#9670;&#160;</a></span>SMOOTH_PATH_SLOP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SMOOTH_PATH_SLOP&#160;&#160;&#160;0.3f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab1ec8eeebdd39a1cceb896f6fcb996bc" name="ab1ec8eeebdd39a1cceb896f6fcb996bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1ec8eeebdd39a1cceb896f6fcb996bc">&#9670;&#160;</a></span>SMOOTH_PATH_STEP_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SMOOTH_PATH_STEP_SIZE&#160;&#160;&#160;4.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a14571eb5f0eee95bf614e04c59b0207a" name="a14571eb5f0eee95bf614e04c59b0207a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14571eb5f0eee95bf614e04c59b0207a">&#9670;&#160;</a></span>VERTEX_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define VERTEX_SIZE&#160;&#160;&#160;3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ae093c9a96eda0463cdd2501ba83f10c3" name="ae093c9a96eda0463cdd2501ba83f10c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae093c9a96eda0463cdd2501ba83f10c3">&#9670;&#160;</a></span>PathType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3">PathType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3ae3e554bae74ad71bf12ba2eea8cc74d0" name="ae093c9a96eda0463cdd2501ba83f10c3ae3e554bae74ad71bf12ba2eea8cc74d0"></a>PATHFIND_BLANK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3a58a5a66492944c141d0f386ce330b2c1" name="ae093c9a96eda0463cdd2501ba83f10c3a58a5a66492944c141d0f386ce330b2c1"></a>PATHFIND_NORMAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3ae3c910a168f98f0694e99440aad8028f" name="ae093c9a96eda0463cdd2501ba83f10c3ae3c910a168f98f0694e99440aad8028f"></a>PATHFIND_SHORTCUT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3aee2f2083277a36e471f1bf1170fba3be" name="ae093c9a96eda0463cdd2501ba83f10c3aee2f2083277a36e471f1bf1170fba3be"></a>PATHFIND_INCOMPLETE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3a5ab66bcba6eb689d881b4ebc85188984" name="ae093c9a96eda0463cdd2501ba83f10c3a5ab66bcba6eb689d881b4ebc85188984"></a>PATHFIND_NOPATH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3a4246537a1b739abb599260d9fbb83cdf" name="ae093c9a96eda0463cdd2501ba83f10c3a4246537a1b739abb599260d9fbb83cdf"></a>PATHFIND_NOT_USING_PATH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3a8a25c1fe0f8142291e2183102e647cc2" name="ae093c9a96eda0463cdd2501ba83f10c3a8a25c1fe0f8142291e2183102e647cc2"></a>PATHFIND_SHORT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab" name="ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab"></a>PATHFIND_FARFROMPOLY_START&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9" name="ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9"></a>PATHFIND_FARFROMPOLY_END&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c" name="ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c"></a>PATHFIND_FARFROMPOLY&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   46</span>{</div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3ae3e554bae74ad71bf12ba2eea8cc74d0">PATHFIND_BLANK</a>             = 0x00,   <span class="comment">// path not built yet</span></div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a58a5a66492944c141d0f386ce330b2c1">PATHFIND_NORMAL</a>            = 0x01,   <span class="comment">// normal path</span></div>
-<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3ae3c910a168f98f0694e99440aad8028f">PATHFIND_SHORTCUT</a>          = 0x02,   <span class="comment">// travel through obstacles, terrain, air, etc (old behavior)</span></div>
-<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3aee2f2083277a36e471f1bf1170fba3be">PATHFIND_INCOMPLETE</a>        = 0x04,   <span class="comment">// we have partial path to follow - getting closer to target</span></div>
-<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a5ab66bcba6eb689d881b4ebc85188984">PATHFIND_NOPATH</a>            = 0x08,   <span class="comment">// no valid path at all or error in generating one</span></div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a4246537a1b739abb599260d9fbb83cdf">PATHFIND_NOT_USING_PATH</a>    = 0x10,   <span class="comment">// used when we are either flying/swiming or on map w/o mmaps</span></div>
-<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a8a25c1fe0f8142291e2183102e647cc2">PATHFIND_SHORT</a>             = 0x20,   <span class="comment">// path is longer or equal to its limited path length</span></div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab">PATHFIND_FARFROMPOLY_START</a> = 0x40,   <span class="comment">// start position is far from the mmap poligon</span></div>
-<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9">PATHFIND_FARFROMPOLY_END</a>   = 0x80,   <span class="comment">// end positions is far from the mmap poligon</span></div>
-<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c">PATHFIND_FARFROMPOLY</a>       = <a class="code hl_enumvalue" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab">PATHFIND_FARFROMPOLY_START</a> | <a class="code hl_enumvalue" href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9">PATHFIND_FARFROMPOLY_END</a>, <span class="comment">// start or end positions are far from the mmap poligon</span></div>
-<div class="line"><span class="lineno">   57</span>};</div>
-<div class="ttc" id="aa03248_html_ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9"><div class="ttname"><a href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9">PATHFIND_FARFROMPOLY_END</a></div><div class="ttdeci">@ PATHFIND_FARFROMPOLY_END</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:55</div></div>
-<div class="ttc" id="aa03248_html_ae093c9a96eda0463cdd2501ba83f10c3a4246537a1b739abb599260d9fbb83cdf"><div class="ttname"><a href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a4246537a1b739abb599260d9fbb83cdf">PATHFIND_NOT_USING_PATH</a></div><div class="ttdeci">@ PATHFIND_NOT_USING_PATH</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:52</div></div>
-<div class="ttc" id="aa03248_html_ae093c9a96eda0463cdd2501ba83f10c3a58a5a66492944c141d0f386ce330b2c1"><div class="ttname"><a href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a58a5a66492944c141d0f386ce330b2c1">PATHFIND_NORMAL</a></div><div class="ttdeci">@ PATHFIND_NORMAL</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:48</div></div>
-<div class="ttc" id="aa03248_html_ae093c9a96eda0463cdd2501ba83f10c3a5ab66bcba6eb689d881b4ebc85188984"><div class="ttname"><a href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a5ab66bcba6eb689d881b4ebc85188984">PATHFIND_NOPATH</a></div><div class="ttdeci">@ PATHFIND_NOPATH</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:51</div></div>
-<div class="ttc" id="aa03248_html_ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab"><div class="ttname"><a href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab">PATHFIND_FARFROMPOLY_START</a></div><div class="ttdeci">@ PATHFIND_FARFROMPOLY_START</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:54</div></div>
-<div class="ttc" id="aa03248_html_ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c"><div class="ttname"><a href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c">PATHFIND_FARFROMPOLY</a></div><div class="ttdeci">@ PATHFIND_FARFROMPOLY</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:56</div></div>
-<div class="ttc" id="aa03248_html_ae093c9a96eda0463cdd2501ba83f10c3a8a25c1fe0f8142291e2183102e647cc2"><div class="ttname"><a href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3a8a25c1fe0f8142291e2183102e647cc2">PATHFIND_SHORT</a></div><div class="ttdeci">@ PATHFIND_SHORT</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:53</div></div>
-<div class="ttc" id="aa03248_html_ae093c9a96eda0463cdd2501ba83f10c3ae3c910a168f98f0694e99440aad8028f"><div class="ttname"><a href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3ae3c910a168f98f0694e99440aad8028f">PATHFIND_SHORTCUT</a></div><div class="ttdeci">@ PATHFIND_SHORTCUT</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:49</div></div>
-<div class="ttc" id="aa03248_html_ae093c9a96eda0463cdd2501ba83f10c3ae3e554bae74ad71bf12ba2eea8cc74d0"><div class="ttname"><a href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3ae3e554bae74ad71bf12ba2eea8cc74d0">PATHFIND_BLANK</a></div><div class="ttdeci">@ PATHFIND_BLANK</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:47</div></div>
-<div class="ttc" id="aa03248_html_ae093c9a96eda0463cdd2501ba83f10c3aee2f2083277a36e471f1bf1170fba3be"><div class="ttname"><a href="../../d9/d01/a03248.html#ae093c9a96eda0463cdd2501ba83f10c3aee2f2083277a36e471f1bf1170fba3be">PATHFIND_INCOMPLETE</a></div><div class="ttdeci">@ PATHFIND_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> PathGenerator.h:50</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  927</span>{</div>
+<div class="line"><span class="lineno">  928</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d88/a22480.html">OutdoorPvP_nagrand</a>();</div>
+<div class="line"><span class="lineno">  929</span>    <a class="code hl_define" href="../../dc/de4/a00677.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../dd/d18/a22484.html">outdoorpvp_na_halaa_creatures</a>);</div>
+<div class="line"><span class="lineno">  930</span>}</div>
+<div class="ttc" id="aa00677_html_a5e7352841895df7117e2830448eb533f"><div class="ttname"><a href="../../dc/de4/a00677.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a></div><div class="ttdeci">#define RegisterCreatureAI(ai_name)</div><div class="ttdef"><b>Definition:</b> CreatureScript.h:71</div></div>
+<div class="ttc" id="aa22480_html"><div class="ttname"><a href="../../d8/d88/a22480.html">OutdoorPvP_nagrand</a></div><div class="ttdef"><b>Definition:</b> OutdoorPvPNA.cpp:878</div></div>
+<div class="ttc" id="aa22484_html"><div class="ttname"><a href="../../dd/d18/a22484.html">outdoorpvp_na_halaa_creatures</a></div><div class="ttdef"><b>Definition:</b> OutdoorPvPNA.cpp:889</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00071">RegisterCreatureAI</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00029">AddOutdoorPvPScripts()</a>.</p>
+
+</div>
+</div>
+<a id="ab1d33448696056a0951a0c306a511f1e" name="ab1d33448696056a0951a0c306a511f1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1d33448696056a0951a0c306a511f1e">&#9670;&#160;</a></span>FlagPlayerPvP()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FlagPlayerPvP </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/d53/a08360.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  396</span>{</div>
+<div class="line"><span class="lineno">  397</span>    player-&gt;<a class="code hl_function" href="../../d1/d53/a08360.html#a190ebc08c3d5bc837ea312c7901db505">SetPlayerFlag</a>(<a class="code hl_enumvalue" href="../../d8/d1e/a02210.html#a3ff501fa2c348b8887c3e9eac3ab7dcda3545e357a3349ee42fad9ec871660880">PLAYER_FLAGS_IN_PVP</a>);</div>
+<div class="line"><span class="lineno">  398</span>    player-&gt;<a class="code hl_function" href="../../d1/d53/a08360.html#a2f8909f36282889342c505016e76e98e">UpdatePvP</a>(<span class="keyword">true</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  399</span>}</div>
+<div class="ttc" id="aa02210_html_a3ff501fa2c348b8887c3e9eac3ab7dcda3545e357a3349ee42fad9ec871660880"><div class="ttname"><a href="../../d8/d1e/a02210.html#a3ff501fa2c348b8887c3e9eac3ab7dcda3545e357a3349ee42fad9ec871660880">PLAYER_FLAGS_IN_PVP</a></div><div class="ttdeci">@ PLAYER_FLAGS_IN_PVP</div><div class="ttdef"><b>Definition:</b> Player.h:483</div></div>
+<div class="ttc" id="aa08360_html_a190ebc08c3d5bc837ea312c7901db505"><div class="ttname"><a href="../../d1/d53/a08360.html#a190ebc08c3d5bc837ea312c7901db505">Player::SetPlayerFlag</a></div><div class="ttdeci">void SetPlayerFlag(PlayerFlags flags)</div><div class="ttdef"><b>Definition:</b> Player.h:1109</div></div>
+<div class="ttc" id="aa08360_html_a2f8909f36282889342c505016e76e98e"><div class="ttname"><a href="../../d1/d53/a08360.html#a2f8909f36282889342c505016e76e98e">Player::UpdatePvP</a></div><div class="ttdeci">void UpdatePvP(bool state, bool _override=false)</div><div class="ttdef"><b>Definition:</b> PlayerUpdates.cpp:1480</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00483">PLAYER_FLAGS_IN_PVP</a>, <a class="el" href="../../#l01109">Player::SetPlayerFlag()</a>, and <a class="el" href="../../#l01480">Player::UpdatePvP()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00401">OPvPCapturePointNA::HandleCustomSpell()</a>, and <a class="el" href="../../#l00471">OPvPCapturePointNA::HandleOpenGo()</a>.</p>
+
+</div>
+</div>
+<a id="a37af66c813e135cc11bd1dc663b35697" name="a37af66c813e135cc11bd1dc663b35697"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37af66c813e135cc11bd1dc663b35697">&#9670;&#160;</a></span>UpdateCreatureHalaa()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateCreatureHalaa </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/dba/a08164.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td>
+          <td class="paramname"><em>spawnId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d0b/a09508.html">Map</a> *&#160;</td>
+          <td class="paramname"><em>map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   85</span>{</div>
+<div class="line"><span class="lineno">   86</span>    <a class="code hl_struct" href="../../d1/d83/a07796.html">CreatureData</a>&amp; data = <a class="code hl_define" href="../../d2/d1f/a01361.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;NewOrExistCreatureData(spawnId);</div>
+<div class="line"><span class="lineno">   87</span> </div>
+<div class="line"><span class="lineno">   88</span>    <a class="code hl_define" href="../../d2/d1f/a01361.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;AddCreatureToGrid(spawnId, &amp;data);</div>
+<div class="line"><span class="lineno">   89</span> </div>
+<div class="line"><span class="lineno">   90</span>    <span class="comment">// Spawn if necessary (loaded grids only)</span></div>
+<div class="line"><span class="lineno">   91</span>    <span class="keywordflow">if</span> (!map-&gt;<a class="code hl_function" href="../../d4/d0b/a09508.html#aae3a929aefb05046ef304ffba10aae71">Instanceable</a>() &amp;&amp; !map-&gt;<a class="code hl_function" href="../../d4/d0b/a09508.html#a67e1165ed4d54e42cb7bb45eeb44c9ec">IsRemovalGrid</a>(x, y))</div>
+<div class="line"><span class="lineno">   92</span>    {</div>
+<div class="line"><span class="lineno">   93</span>        <a class="code hl_class" href="../../d7/d9e/a07744.html">Creature</a>* creature = <span class="keyword">new</span> <a class="code hl_class" href="../../d7/d9e/a07744.html">Creature</a>();</div>
+<div class="line"><span class="lineno">   94</span>        <span class="keywordflow">if</span> (!creature-&gt;<a class="code hl_function" href="../../d7/d9e/a07744.html#a224f40a0c8521ce5a63064cd00be618e">LoadCreatureFromDB</a>(spawnId, map, <span class="keyword">true</span>, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">   95</span>        {</div>
+<div class="line"><span class="lineno">   96</span>            <a class="code hl_define" href="../../df/d03/a00062.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;AddCreature: Cannot add creature spawnId {} to map&quot;</span>, spawnId);</div>
+<div class="line"><span class="lineno">   97</span>            <span class="keyword">delete</span> creature;</div>
+<div class="line"><span class="lineno">   98</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   99</span>        }</div>
+<div class="line"><span class="lineno">  100</span>    }</div>
+<div class="line"><span class="lineno">  101</span>}</div>
+<div class="ttc" id="aa00062_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../df/d03/a00062.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:156</div></div>
+<div class="ttc" id="aa01361_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d2/d1f/a01361.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1623</div></div>
+<div class="ttc" id="aa07744_html"><div class="ttname"><a href="../../d7/d9e/a07744.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aa07744_html_a224f40a0c8521ce5a63064cd00be618e"><div class="ttname"><a href="../../d7/d9e/a07744.html#a224f40a0c8521ce5a63064cd00be618e">Creature::LoadCreatureFromDB</a></div><div class="ttdeci">bool LoadCreatureFromDB(ObjectGuid::LowType guid, Map *map, bool addToMap=true, bool allowDuplicate=false)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:1687</div></div>
+<div class="ttc" id="aa07796_html"><div class="ttname"><a href="../../d1/d83/a07796.html">CreatureData</a></div><div class="ttdef"><b>Definition:</b> CreatureData.h:373</div></div>
+<div class="ttc" id="aa09508_html_a67e1165ed4d54e42cb7bb45eeb44c9ec"><div class="ttname"><a href="../../d4/d0b/a09508.html#a67e1165ed4d54e42cb7bb45eeb44c9ec">Map::IsRemovalGrid</a></div><div class="ttdeci">bool IsRemovalGrid(float x, float y) const</div><div class="ttdef"><b>Definition:</b> Map.h:363</div></div>
+<div class="ttc" id="aa09508_html_aae3a929aefb05046ef304ffba10aae71"><div class="ttname"><a href="../../d4/d0b/a09508.html#aae3a929aefb05046ef304ffba10aae71">Map::Instanceable</a></div><div class="ttdeci">bool Instanceable() const</div><div class="ttdef"><b>Definition:</b> Map.h:447</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00447">Map::Instanceable()</a>, <a class="el" href="../../#l00363">Map::IsRemovalGrid()</a>, <a class="el" href="../../#l01687">Creature::LoadCreatureFromDB()</a>, <a class="el" href="../../#l00156">LOG_ERROR</a>, and <a class="el" href="../../#l01623">sObjectMgr</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00144">OPvPCapturePointNA::SpawnNPCsForTeam()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a3428675268608e5372767fc629259d5c" name="a3428675268608e5372767fc629259d5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3428675268608e5372767fc629259d5c">&#9670;&#160;</a></span>halaaNPCAlly</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/dc1/a03263.html#a3951c5b11bab0eeb9b06c1e19b25c036">HalaaNPCS</a> halaaNPCAlly</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00190">OPvPCapturePointNA::FactionTakeOver()</a>, <a class="el" href="../../#l00601">OPvPCapturePointNA::Update()</a>, and <a class="el" href="../../#l00892">outdoorpvp_na_halaa_creatures::UpdateAI()</a>.</p>
+
+</div>
+</div>
+<a id="a531a4e8a5291c048ad0f3b0fc64b29d9" name="a531a4e8a5291c048ad0f3b0fc64b29d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a531a4e8a5291c048ad0f3b0fc64b29d9">&#9670;&#160;</a></span>halaaNPCHorde</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/dc1/a03263.html#a3951c5b11bab0eeb9b06c1e19b25c036">HalaaNPCS</a> halaaNPCHorde</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00190">OPvPCapturePointNA::FactionTakeOver()</a>, <a class="el" href="../../#l00601">OPvPCapturePointNA::Update()</a>, and <a class="el" href="../../#l00892">outdoorpvp_na_halaa_creatures::UpdateAI()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -323,8 +314,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_0787b0a4fdc11b0654465feaa92c32a3.html">Movement</a></li><li class="navelem"><a class="el" href="../../dir_5b912817ccf0063e74cbee75ff3a7169.html">MovementGenerators</a></li><li class="navelem"><a class="el" href="../../d9/d01/a03248.html">PathGenerator.h</a></li>
-    <li class="footer">Generated on Mon Sep 16 2024 20:40:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ad9d2bd1e1e418dea010d25c4d4f5d3.html">OutdoorPvP</a></li><li class="navelem"><a class="el" href="../../d9/d01/a03248.html">OutdoorPvPNA.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 23 2024 20:41:13 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

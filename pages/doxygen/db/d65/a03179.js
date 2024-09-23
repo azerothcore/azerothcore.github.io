@@ -1,4 +1,6 @@
 var a03179 =
 [
-    [ "sWorldUpdateTime", "db/d65/a03179.html#aa415d38dafe4c1c78c951de9fed8393b", null ]
+    [ "debug_commandscript", "d1/dac/a11292.html", "d1/dac/a11292" ],
+    [ "debug_commandscript::CreatureCountWorker", "de/d3e/a11296.html", "de/d3e/a11296" ],
+    [ "AddSC_debug_commandscript", "db/d65/a03179.html#abae44bbc8eb2fb66a5596017ea83583f", null ]
 ];

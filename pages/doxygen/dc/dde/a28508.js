@@ -1,7 +1,5 @@
 var a28508 =
 [
-    [ "fcc", "dc/dde/a28508.html#afbaa5fdd612d1c93f7f07aa299d144ad", null ],
-    [ "fcc_txt", "dc/dde/a28508.html#a89ed22b0a63dae9f1443309e54e9e421", null ],
-    [ "size", "dc/dde/a28508.html#a0b9002c302e4dfef6dc533bf8c5bcdcc", null ],
-    [ "ver", "dc/dde/a28508.html#adb92d3e9f7e35255a2e6e147d51ba8fc", null ]
+    [ "fcc", "dc/dde/a28508.html#a828a2845e666d6eb47d6d4705a663a3d", null ],
+    [ "fcc_txt", "dc/dde/a28508.html#acf0f4449ab5a64822833b86b41e2487c", null ]
 ];

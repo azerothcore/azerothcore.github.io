@@ -1,4 +1,4 @@
 var a00008 =
 [
-    [ "Acore::Asio::Resolver", "db/d2a/a04776.html", "db/d2a/a04776" ]
+    [ "Reference< TO, FROM >", "d9/d4c/a05132.html", "d9/d4c/a05132" ]
 ];

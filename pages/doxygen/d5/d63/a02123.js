@@ -1,6 +1,8 @@
 var a02123 =
 [
-    [ "instance_mana_tombs", "d0/db8/a22584.html", "d0/db8/a22584" ],
-    [ "instance_mana_tombs::instance_mana_tombs_InstanceMapScript", "df/d0a/a22588.html", "df/d0a/a22588" ],
-    [ "AddSC_instance_mana_tombs", "d5/d63/a02123.html#ab3a34e5f5a1433a62cdca43b8f13182c", null ]
+    [ "GUID_TRAIT_INSTANTIATE_GUID", "d5/d63/a02123.html#a62c17cbc4f3da3f26f9c1ae3ba2c4953", null ],
+    [ "operator<<", "d5/d63/a02123.html#a039758f4b57c94c411a4c3882334ada8", null ],
+    [ "operator<<", "d5/d63/a02123.html#a94ab551ce00fd82dea1532d47ad908bc", null ],
+    [ "operator>>", "d5/d63/a02123.html#a30aef535f2839648f0ae4648c746d3e2", null ],
+    [ "operator>>", "d5/d63/a02123.html#a95f3a6eef334b9fcdcaca879532c25d4", null ]
 ];

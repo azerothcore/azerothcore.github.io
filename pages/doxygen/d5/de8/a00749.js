@@ -1,15 +1,12 @@
 var a00749 =
 [
-    [ "MySQLType< T >", "d4/d20/a05652.html", null ],
-    [ "MySQLType< uint8 >", "d3/ddb/a05656.html", null ],
-    [ "MySQLType< uint16 >", "d4/de8/a05660.html", null ],
-    [ "MySQLType< uint32 >", "d0/d56/a05664.html", null ],
-    [ "MySQLType< uint64 >", "da/df1/a05668.html", null ],
-    [ "MySQLType< int8 >", "d7/da9/a05672.html", null ],
-    [ "MySQLType< int16 >", "d6/d0e/a05676.html", null ],
-    [ "MySQLType< int32 >", "d1/dcd/a05680.html", null ],
-    [ "MySQLType< int64 >", "d9/d54/a05684.html", null ],
-    [ "MySQLType< float >", "db/daf/a05688.html", null ],
-    [ "MySQLType< double >", "d4/d0d/a05692.html", null ],
-    [ "ParamenterIndexAssertFail", "d5/de8/a00749.html#a4c2b053ff0b94326f3c01cc7c6e61e8a", null ]
+    [ "ArenaTeamScript", "d4/d39/a09952.html", "d4/d39/a09952" ],
+    [ "ArenaTeamHook", "d5/de8/a00749.html#adfb7077026efd17516d6b85637c2b218", [
+      [ "ARENATEAMHOOK_ON_GET_SLOT_BY_TYPE", "d5/de8/a00749.html#adfb7077026efd17516d6b85637c2b218a138fd48dae9a6b0db50dd8a442045adc", null ],
+      [ "ARENATEAMHOOK_ON_GET_ARENA_POINTS", "d5/de8/a00749.html#adfb7077026efd17516d6b85637c2b218a3b21f54389f578130e4874fd75c7e6a9", null ],
+      [ "ARENATEAMHOOK_ON_TYPEID_TO_QUEUEID", "d5/de8/a00749.html#adfb7077026efd17516d6b85637c2b218ae5c1d8d5548693d43fdd43339ef152a7", null ],
+      [ "ARENATEAMHOOK_ON_QUEUEID_TO_ARENA_TYPE", "d5/de8/a00749.html#adfb7077026efd17516d6b85637c2b218a957830b5a4fb9d7a53b977999068031b", null ],
+      [ "ARENATEAMHOOK_ON_SET_ARENA_MAX_PLAYERS_PER_TEAM", "d5/de8/a00749.html#adfb7077026efd17516d6b85637c2b218aaf39f25b1610466743d5d839986bf6b6", null ],
+      [ "ARENATEAMHOOK_END", "d5/de8/a00749.html#adfb7077026efd17516d6b85637c2b218a5fe29b394fe4fe74fffe7988b90ccaf7", null ]
+    ] ]
 ];

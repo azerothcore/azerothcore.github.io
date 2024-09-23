@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Outland/zone_hellfire_peninsula.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Item/Item.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,416 +105,401 @@ $(document).ready(function(){initNavTree('d7/d6e/a02273.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">zone_hellfire_peninsula.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">Item.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameObjectAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameObjectScript.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Item.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ConditionMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ItemEnchantmentMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedEscortAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedGossip.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellScriptLoader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellInfo.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">StringConvert.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Tokenize.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d8f/a23956.html">spell_q10935_the_exorcism_of_colonel_jules</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d42/a23960.html">npc_aeranas</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6b/a23964.html">npc_aeranas::npc_aeranasAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd6/a23968.html">npc_ancestral_wolf</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d66/a23972.html">npc_ancestral_wolf::npc_ancestral_wolfAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da6/a23976.html">npc_wounded_blood_elf</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d09/a23980.html">npc_wounded_blood_elf::npc_wounded_blood_elfAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d19/a23984.html">npc_fel_guard_hound</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d5d/a23988.html">npc_fel_guard_hound::npc_fel_guard_houndAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dac/a23992.html">npc_magister_aledis</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d14/a23996.html">go_beacon</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd2/a24000.html">go_beacon::go_beaconAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a2b917ea5e39342011ca6dcdac24e869e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/a02273.html#a2b917ea5e39342011ca6dcdac24e869e">q10935Exorcism</a> { <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a2b917ea5e39342011ca6dcdac24e869eac3a4396238fbb11f537aa061424abe2b">SPELL_HOLY_FIRE</a> = 39323
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a2b917ea5e39342011ca6dcdac24e869eae33e5e18452ad49b09d4403d2b856efd">SPELL_HEAL_BARADA</a> = 39322
-<br />
- }</td></tr>
-<tr class="separator:a2b917ea5e39342011ca6dcdac24e869e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35e86459585ec89189aab3acab8ed4ca"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/a02273.html#a35e86459585ec89189aab3acab8ed4ca">Aeranas</a> { <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a35e86459585ec89189aab3acab8ed4caacebbfa1f13b8de4f039f5d550063c7bf">SAY_SUMMON</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a35e86459585ec89189aab3acab8ed4caa27368277122194007f925387131a1eb9">SAY_FREE</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a35e86459585ec89189aab3acab8ed4caacf98b779c795324d47e44b043eeacf92">SPELL_ENVELOPING_WINDS</a> = 15535
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a35e86459585ec89189aab3acab8ed4caa30aa4cac2f70a310466b3fb0f2d10eab">SPELL_SHOCK</a> = 12553
-<br />
- }</td></tr>
-<tr class="separator:a35e86459585ec89189aab3acab8ed4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0ad636572003d2f340b9f5853329b31"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/a02273.html#ae0ad636572003d2f340b9f5853329b31">AncestralWolf</a> { <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#ae0ad636572003d2f340b9f5853329b31a3d71eb68225f60940079e2c6d5b848bb">EMOTE_WOLF_LIFT_HEAD</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#ae0ad636572003d2f340b9f5853329b31a89cae72f3324d089afca2e6ec3bab2b0">EMOTE_WOLF_HOWL</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#ae0ad636572003d2f340b9f5853329b31a129ec8cc004776adf7eede6faee16398">SAY_WOLF_WELCOME</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#ae0ad636572003d2f340b9f5853329b31a49de5a0a57dffbeebdb91a8ad307328d">SPELL_GUIDED_BY_THE_SPIRITS</a> = 29938
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#ae0ad636572003d2f340b9f5853329b31a4c5c75439f08ad6a8f448db8931dd14d">NPC_RYGA</a> = 17123
-<br />
- }</td></tr>
-<tr class="separator:ae0ad636572003d2f340b9f5853329b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b44ea4940860848073d89e7761e5d9e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9e">WoundedBloodElf</a> { <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9ea52186d9cbaa4a5d1e385d2fe13503a97">SAY_ELF_START</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9ea3b168b2787eb695fadbe796416731ba3">SAY_ELF_SUMMON1</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9ea6cd155f2503f730d0d12456613b29964">SAY_ELF_RESTING</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9ea678e628b153b8961e58fe7f936fd9c61">SAY_ELF_SUMMON2</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9eae06761dd5b07e038a394a2c7e72e93a7">SAY_ELF_COMPLETE</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9eabfc964a1cc07a0fdf8782361353d8a5c">SAY_ELF_AGGRO</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9eaaca23046d9ea87abc77d28689e3349ed">QUEST_ROAD_TO_FALCON_WATCH</a> = 9375
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9eafbcba9ddc06cf15e740c08aa796f43ba">NPC_HAALESHI_WINDWALKER</a> = 16966
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9ea338245af1e86a4794f18dc3072957088">NPC_HAALESHI_TALONGUARD</a> = 16967
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9eafe47930a46107b8a21f186ef6f97ddf7">ARAKKOA_CAGE</a> = 181664
-<br />
- }</td></tr>
-<tr class="separator:a1b44ea4940860848073d89e7761e5d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0944e670cdc4872cb4e1de78159ef88"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/a02273.html#af0944e670cdc4872cb4e1de78159ef88">FelGuard</a> { <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#af0944e670cdc4872cb4e1de78159ef88acaf3b07d165603ce6a87d5e137c8bc6c">SPELL_SUMMON_POO</a> = 37688
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#af0944e670cdc4872cb4e1de78159ef88a74a22ffd9e172700137c4a85ec978333">NPC_DERANGED_HELBOAR</a> = 16863
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#af0944e670cdc4872cb4e1de78159ef88a22cc94ada0c254f3d3848e67f5701588">QUEST_SHIZZ_WORK</a> = 10629
-<br />
- }</td></tr>
-<tr class="separator:af0944e670cdc4872cb4e1de78159ef88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03c6f57f8a159946f896f5702ca14dce"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dce">Aledis</a> { <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcea3673de22d7f7ff97fa58d05bda2e1e19">SAY_CHALLENGE</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dceac03c09df1ddcc4faeb33ce6334bdf677">SAY_DEFEATED</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcead8d5fcaf7b3bfdd91e6337d222c1620f">EVENT_TALK</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcea0ae9cb03e0fdc3b6ba005dcf01279360">EVENT_ATTACK</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dceac76f74b24db9c237bcec4674c4783ca4">EVENT_EVADE</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcea2f41794aafc9d878c1d2e3aa735cbf44">EVENT_FIREBALL</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dceadaeaec1cfb428809aea8f40a63d94a3e">EVENT_FROSTNOVA</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcea846055c995374082714483a6b39bc963">SPELL_FIREBALL</a> = 20823
-, <br />
-&#160;&#160;<a class="el" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcead434ff150c6b4a05fa0e2d914374690b">SPELL_FROSTNOVA</a> = 11831
-<br />
- }</td></tr>
-<tr class="separator:a03c6f57f8a159946f896f5702ca14dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0353d38e414033b4eac645836037a9c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/a02273.html#aa0353d38e414033b4eac645836037a9c">Beacon</a> { <a class="el" href="../../d7/d6e/a02273.html#aa0353d38e414033b4eac645836037a9ca735f9b0923e7a2f2b40c91e7bfd5a6c8">NPC_STONESCHYE_WHELP</a> = 16927
- }</td></tr>
-<tr class="separator:aa0353d38e414033b4eac645836037a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae450311c68322300a0e6fb8091cd8936"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/a02273.html#ae450311c68322300a0e6fb8091cd8936">AddSC_hellfire_peninsula</a> ()</td></tr>
-<tr class="separator:ae450311c68322300a0e6fb8091cd8936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02944420353f8ba883b80737f8e63137"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/a02273.html#a02944420353f8ba883b80737f8e63137">AddItemsSetItem</a> (<a class="el" href="../../d1/d53/a08360.html">Player</a> *player, <a class="el" href="../../df/db7/a08072.html">Item</a> *item)</td></tr>
+<tr class="separator:a02944420353f8ba883b80737f8e63137"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a402c3dd64769702b750f96adff4b3a14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/a02273.html#a402c3dd64769702b750f96adff4b3a14">RemoveItemsSetItem</a> (<a class="el" href="../../d1/d53/a08360.html">Player</a> *player, <a class="el" href="../../d2/d6b/a08096.html">ItemTemplate</a> const *proto)</td></tr>
+<tr class="separator:a402c3dd64769702b750f96adff4b3a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c91640134a5241ec34f91bdec13c8ec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6e/a02273.html#a0c91640134a5241ec34f91bdec13c8ec">ItemCanGoIntoBag</a> (<a class="el" href="../../d2/d6b/a08096.html">ItemTemplate</a> const *pProto, <a class="el" href="../../d2/d6b/a08096.html">ItemTemplate</a> const *pBagProto)</td></tr>
+<tr class="separator:a0c91640134a5241ec34f91bdec13c8ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a35e86459585ec89189aab3acab8ed4ca" name="a35e86459585ec89189aab3acab8ed4ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35e86459585ec89189aab3acab8ed4ca">&#9670;&#160;</a></span>Aeranas</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d7/d6e/a02273.html#a35e86459585ec89189aab3acab8ed4ca">Aeranas</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a35e86459585ec89189aab3acab8ed4caacebbfa1f13b8de4f039f5d550063c7bf" name="a35e86459585ec89189aab3acab8ed4caacebbfa1f13b8de4f039f5d550063c7bf"></a>SAY_SUMMON&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a35e86459585ec89189aab3acab8ed4caa27368277122194007f925387131a1eb9" name="a35e86459585ec89189aab3acab8ed4caa27368277122194007f925387131a1eb9"></a>SAY_FREE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a35e86459585ec89189aab3acab8ed4caacf98b779c795324d47e44b043eeacf92" name="a35e86459585ec89189aab3acab8ed4caacf98b779c795324d47e44b043eeacf92"></a>SPELL_ENVELOPING_WINDS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a35e86459585ec89189aab3acab8ed4caa30aa4cac2f70a310466b3fb0f2d10eab" name="a35e86459585ec89189aab3acab8ed4caa30aa4cac2f70a310466b3fb0f2d10eab"></a>SPELL_SHOCK&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   68</span>{</div>
-<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a35e86459585ec89189aab3acab8ed4caacebbfa1f13b8de4f039f5d550063c7bf">SAY_SUMMON</a>                  = 0,</div>
-<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a35e86459585ec89189aab3acab8ed4caa27368277122194007f925387131a1eb9">SAY_FREE</a>                    = 1,</div>
-<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a35e86459585ec89189aab3acab8ed4caacf98b779c795324d47e44b043eeacf92">SPELL_ENVELOPING_WINDS</a>      = 15535,</div>
-<div class="line"><span class="lineno">   72</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a35e86459585ec89189aab3acab8ed4caa30aa4cac2f70a310466b3fb0f2d10eab">SPELL_SHOCK</a>                 = 12553</div>
-<div class="line"><span class="lineno">   73</span>};</div>
-<div class="ttc" id="aa02273_html_a35e86459585ec89189aab3acab8ed4caa27368277122194007f925387131a1eb9"><div class="ttname"><a href="../../d7/d6e/a02273.html#a35e86459585ec89189aab3acab8ed4caa27368277122194007f925387131a1eb9">SAY_FREE</a></div><div class="ttdeci">@ SAY_FREE</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:70</div></div>
-<div class="ttc" id="aa02273_html_a35e86459585ec89189aab3acab8ed4caa30aa4cac2f70a310466b3fb0f2d10eab"><div class="ttname"><a href="../../d7/d6e/a02273.html#a35e86459585ec89189aab3acab8ed4caa30aa4cac2f70a310466b3fb0f2d10eab">SPELL_SHOCK</a></div><div class="ttdeci">@ SPELL_SHOCK</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:72</div></div>
-<div class="ttc" id="aa02273_html_a35e86459585ec89189aab3acab8ed4caacebbfa1f13b8de4f039f5d550063c7bf"><div class="ttname"><a href="../../d7/d6e/a02273.html#a35e86459585ec89189aab3acab8ed4caacebbfa1f13b8de4f039f5d550063c7bf">SAY_SUMMON</a></div><div class="ttdeci">@ SAY_SUMMON</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:69</div></div>
-<div class="ttc" id="aa02273_html_a35e86459585ec89189aab3acab8ed4caacf98b779c795324d47e44b043eeacf92"><div class="ttname"><a href="../../d7/d6e/a02273.html#a35e86459585ec89189aab3acab8ed4caacf98b779c795324d47e44b043eeacf92">SPELL_ENVELOPING_WINDS</a></div><div class="ttdeci">@ SPELL_ENVELOPING_WINDS</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:71</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a03c6f57f8a159946f896f5702ca14dce" name="a03c6f57f8a159946f896f5702ca14dce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03c6f57f8a159946f896f5702ca14dce">&#9670;&#160;</a></span>Aledis</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dce">Aledis</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a03c6f57f8a159946f896f5702ca14dcea3673de22d7f7ff97fa58d05bda2e1e19" name="a03c6f57f8a159946f896f5702ca14dcea3673de22d7f7ff97fa58d05bda2e1e19"></a>SAY_CHALLENGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a03c6f57f8a159946f896f5702ca14dceac03c09df1ddcc4faeb33ce6334bdf677" name="a03c6f57f8a159946f896f5702ca14dceac03c09df1ddcc4faeb33ce6334bdf677"></a>SAY_DEFEATED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a03c6f57f8a159946f896f5702ca14dcead8d5fcaf7b3bfdd91e6337d222c1620f" name="a03c6f57f8a159946f896f5702ca14dcead8d5fcaf7b3bfdd91e6337d222c1620f"></a>EVENT_TALK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a03c6f57f8a159946f896f5702ca14dcea0ae9cb03e0fdc3b6ba005dcf01279360" name="a03c6f57f8a159946f896f5702ca14dcea0ae9cb03e0fdc3b6ba005dcf01279360"></a>EVENT_ATTACK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a03c6f57f8a159946f896f5702ca14dceac76f74b24db9c237bcec4674c4783ca4" name="a03c6f57f8a159946f896f5702ca14dceac76f74b24db9c237bcec4674c4783ca4"></a>EVENT_EVADE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a03c6f57f8a159946f896f5702ca14dcea2f41794aafc9d878c1d2e3aa735cbf44" name="a03c6f57f8a159946f896f5702ca14dcea2f41794aafc9d878c1d2e3aa735cbf44"></a>EVENT_FIREBALL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a03c6f57f8a159946f896f5702ca14dceadaeaec1cfb428809aea8f40a63d94a3e" name="a03c6f57f8a159946f896f5702ca14dceadaeaec1cfb428809aea8f40a63d94a3e"></a>EVENT_FROSTNOVA&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a03c6f57f8a159946f896f5702ca14dcea846055c995374082714483a6b39bc963" name="a03c6f57f8a159946f896f5702ca14dcea846055c995374082714483a6b39bc963"></a>SPELL_FIREBALL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a03c6f57f8a159946f896f5702ca14dcead434ff150c6b4a05fa0e2d914374690b" name="a03c6f57f8a159946f896f5702ca14dcead434ff150c6b4a05fa0e2d914374690b"></a>SPELL_FROSTNOVA&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  443</span>{</div>
-<div class="line"><span class="lineno">  444</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcea3673de22d7f7ff97fa58d05bda2e1e19">SAY_CHALLENGE</a> = 0,</div>
-<div class="line"><span class="lineno">  445</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dceac03c09df1ddcc4faeb33ce6334bdf677">SAY_DEFEATED</a> = 1,</div>
-<div class="line"><span class="lineno">  446</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcead8d5fcaf7b3bfdd91e6337d222c1620f">EVENT_TALK</a> = 1,</div>
-<div class="line"><span class="lineno">  447</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcea0ae9cb03e0fdc3b6ba005dcf01279360">EVENT_ATTACK</a> = 2,</div>
-<div class="line"><span class="lineno">  448</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dceac76f74b24db9c237bcec4674c4783ca4">EVENT_EVADE</a> = 3,</div>
-<div class="line"><span class="lineno">  449</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcea2f41794aafc9d878c1d2e3aa735cbf44">EVENT_FIREBALL</a> = 4,</div>
-<div class="line"><span class="lineno">  450</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dceadaeaec1cfb428809aea8f40a63d94a3e">EVENT_FROSTNOVA</a> = 5,</div>
-<div class="line"><span class="lineno">  451</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcea846055c995374082714483a6b39bc963">SPELL_FIREBALL</a> = 20823,</div>
-<div class="line"><span class="lineno">  452</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcead434ff150c6b4a05fa0e2d914374690b">SPELL_FROSTNOVA</a> = 11831,</div>
-<div class="line"><span class="lineno">  453</span>};</div>
-<div class="ttc" id="aa02273_html_a03c6f57f8a159946f896f5702ca14dcea0ae9cb03e0fdc3b6ba005dcf01279360"><div class="ttname"><a href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcea0ae9cb03e0fdc3b6ba005dcf01279360">EVENT_ATTACK</a></div><div class="ttdeci">@ EVENT_ATTACK</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:447</div></div>
-<div class="ttc" id="aa02273_html_a03c6f57f8a159946f896f5702ca14dcea2f41794aafc9d878c1d2e3aa735cbf44"><div class="ttname"><a href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcea2f41794aafc9d878c1d2e3aa735cbf44">EVENT_FIREBALL</a></div><div class="ttdeci">@ EVENT_FIREBALL</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:449</div></div>
-<div class="ttc" id="aa02273_html_a03c6f57f8a159946f896f5702ca14dcea3673de22d7f7ff97fa58d05bda2e1e19"><div class="ttname"><a href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcea3673de22d7f7ff97fa58d05bda2e1e19">SAY_CHALLENGE</a></div><div class="ttdeci">@ SAY_CHALLENGE</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:444</div></div>
-<div class="ttc" id="aa02273_html_a03c6f57f8a159946f896f5702ca14dcea846055c995374082714483a6b39bc963"><div class="ttname"><a href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcea846055c995374082714483a6b39bc963">SPELL_FIREBALL</a></div><div class="ttdeci">@ SPELL_FIREBALL</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:451</div></div>
-<div class="ttc" id="aa02273_html_a03c6f57f8a159946f896f5702ca14dceac03c09df1ddcc4faeb33ce6334bdf677"><div class="ttname"><a href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dceac03c09df1ddcc4faeb33ce6334bdf677">SAY_DEFEATED</a></div><div class="ttdeci">@ SAY_DEFEATED</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:445</div></div>
-<div class="ttc" id="aa02273_html_a03c6f57f8a159946f896f5702ca14dceac76f74b24db9c237bcec4674c4783ca4"><div class="ttname"><a href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dceac76f74b24db9c237bcec4674c4783ca4">EVENT_EVADE</a></div><div class="ttdeci">@ EVENT_EVADE</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:448</div></div>
-<div class="ttc" id="aa02273_html_a03c6f57f8a159946f896f5702ca14dcead434ff150c6b4a05fa0e2d914374690b"><div class="ttname"><a href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcead434ff150c6b4a05fa0e2d914374690b">SPELL_FROSTNOVA</a></div><div class="ttdeci">@ SPELL_FROSTNOVA</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:452</div></div>
-<div class="ttc" id="aa02273_html_a03c6f57f8a159946f896f5702ca14dcead8d5fcaf7b3bfdd91e6337d222c1620f"><div class="ttname"><a href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dcead8d5fcaf7b3bfdd91e6337d222c1620f">EVENT_TALK</a></div><div class="ttdeci">@ EVENT_TALK</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:446</div></div>
-<div class="ttc" id="aa02273_html_a03c6f57f8a159946f896f5702ca14dceadaeaec1cfb428809aea8f40a63d94a3e"><div class="ttname"><a href="../../d7/d6e/a02273.html#a03c6f57f8a159946f896f5702ca14dceadaeaec1cfb428809aea8f40a63d94a3e">EVENT_FROSTNOVA</a></div><div class="ttdeci">@ EVENT_FROSTNOVA</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:450</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ae0ad636572003d2f340b9f5853329b31" name="ae0ad636572003d2f340b9f5853329b31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0ad636572003d2f340b9f5853329b31">&#9670;&#160;</a></span>AncestralWolf</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d7/d6e/a02273.html#ae0ad636572003d2f340b9f5853329b31">AncestralWolf</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae0ad636572003d2f340b9f5853329b31a3d71eb68225f60940079e2c6d5b848bb" name="ae0ad636572003d2f340b9f5853329b31a3d71eb68225f60940079e2c6d5b848bb"></a>EMOTE_WOLF_LIFT_HEAD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae0ad636572003d2f340b9f5853329b31a89cae72f3324d089afca2e6ec3bab2b0" name="ae0ad636572003d2f340b9f5853329b31a89cae72f3324d089afca2e6ec3bab2b0"></a>EMOTE_WOLF_HOWL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae0ad636572003d2f340b9f5853329b31a129ec8cc004776adf7eede6faee16398" name="ae0ad636572003d2f340b9f5853329b31a129ec8cc004776adf7eede6faee16398"></a>SAY_WOLF_WELCOME&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae0ad636572003d2f340b9f5853329b31a49de5a0a57dffbeebdb91a8ad307328d" name="ae0ad636572003d2f340b9f5853329b31a49de5a0a57dffbeebdb91a8ad307328d"></a>SPELL_GUIDED_BY_THE_SPIRITS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae0ad636572003d2f340b9f5853329b31a4c5c75439f08ad6a8f448db8931dd14d" name="ae0ad636572003d2f340b9f5853329b31a4c5c75439f08ad6a8f448db8931dd14d"></a>NPC_RYGA&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  156</span>{</div>
-<div class="line"><span class="lineno">  157</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#ae0ad636572003d2f340b9f5853329b31a3d71eb68225f60940079e2c6d5b848bb">EMOTE_WOLF_LIFT_HEAD</a>        = 0,</div>
-<div class="line"><span class="lineno">  158</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#ae0ad636572003d2f340b9f5853329b31a89cae72f3324d089afca2e6ec3bab2b0">EMOTE_WOLF_HOWL</a>             = 1,</div>
-<div class="line"><span class="lineno">  159</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#ae0ad636572003d2f340b9f5853329b31a129ec8cc004776adf7eede6faee16398">SAY_WOLF_WELCOME</a>            = 0,</div>
-<div class="line"><span class="lineno">  160</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#ae0ad636572003d2f340b9f5853329b31a49de5a0a57dffbeebdb91a8ad307328d">SPELL_GUIDED_BY_THE_SPIRITS</a>       = 29938,</div>
-<div class="line"><span class="lineno">  161</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#ae0ad636572003d2f340b9f5853329b31a4c5c75439f08ad6a8f448db8931dd14d">NPC_RYGA</a>                    = 17123</div>
-<div class="line"><span class="lineno">  162</span>};</div>
-<div class="ttc" id="aa02273_html_ae0ad636572003d2f340b9f5853329b31a129ec8cc004776adf7eede6faee16398"><div class="ttname"><a href="../../d7/d6e/a02273.html#ae0ad636572003d2f340b9f5853329b31a129ec8cc004776adf7eede6faee16398">SAY_WOLF_WELCOME</a></div><div class="ttdeci">@ SAY_WOLF_WELCOME</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:159</div></div>
-<div class="ttc" id="aa02273_html_ae0ad636572003d2f340b9f5853329b31a3d71eb68225f60940079e2c6d5b848bb"><div class="ttname"><a href="../../d7/d6e/a02273.html#ae0ad636572003d2f340b9f5853329b31a3d71eb68225f60940079e2c6d5b848bb">EMOTE_WOLF_LIFT_HEAD</a></div><div class="ttdeci">@ EMOTE_WOLF_LIFT_HEAD</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:157</div></div>
-<div class="ttc" id="aa02273_html_ae0ad636572003d2f340b9f5853329b31a49de5a0a57dffbeebdb91a8ad307328d"><div class="ttname"><a href="../../d7/d6e/a02273.html#ae0ad636572003d2f340b9f5853329b31a49de5a0a57dffbeebdb91a8ad307328d">SPELL_GUIDED_BY_THE_SPIRITS</a></div><div class="ttdeci">@ SPELL_GUIDED_BY_THE_SPIRITS</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:160</div></div>
-<div class="ttc" id="aa02273_html_ae0ad636572003d2f340b9f5853329b31a4c5c75439f08ad6a8f448db8931dd14d"><div class="ttname"><a href="../../d7/d6e/a02273.html#ae0ad636572003d2f340b9f5853329b31a4c5c75439f08ad6a8f448db8931dd14d">NPC_RYGA</a></div><div class="ttdeci">@ NPC_RYGA</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:161</div></div>
-<div class="ttc" id="aa02273_html_ae0ad636572003d2f340b9f5853329b31a89cae72f3324d089afca2e6ec3bab2b0"><div class="ttname"><a href="../../d7/d6e/a02273.html#ae0ad636572003d2f340b9f5853329b31a89cae72f3324d089afca2e6ec3bab2b0">EMOTE_WOLF_HOWL</a></div><div class="ttdeci">@ EMOTE_WOLF_HOWL</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:158</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aa0353d38e414033b4eac645836037a9c" name="aa0353d38e414033b4eac645836037a9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0353d38e414033b4eac645836037a9c">&#9670;&#160;</a></span>Beacon</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d7/d6e/a02273.html#aa0353d38e414033b4eac645836037a9c">Beacon</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa0353d38e414033b4eac645836037a9ca735f9b0923e7a2f2b40c91e7bfd5a6c8" name="aa0353d38e414033b4eac645836037a9ca735f9b0923e7a2f2b40c91e7bfd5a6c8"></a>NPC_STONESCHYE_WHELP&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  550</span>{</div>
-<div class="line"><span class="lineno">  551</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#aa0353d38e414033b4eac645836037a9ca735f9b0923e7a2f2b40c91e7bfd5a6c8">NPC_STONESCHYE_WHELP</a>        = 16927,</div>
-<div class="line"><span class="lineno">  552</span>};</div>
-<div class="ttc" id="aa02273_html_aa0353d38e414033b4eac645836037a9ca735f9b0923e7a2f2b40c91e7bfd5a6c8"><div class="ttname"><a href="../../d7/d6e/a02273.html#aa0353d38e414033b4eac645836037a9ca735f9b0923e7a2f2b40c91e7bfd5a6c8">NPC_STONESCHYE_WHELP</a></div><div class="ttdeci">@ NPC_STONESCHYE_WHELP</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:551</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="af0944e670cdc4872cb4e1de78159ef88" name="af0944e670cdc4872cb4e1de78159ef88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0944e670cdc4872cb4e1de78159ef88">&#9670;&#160;</a></span>FelGuard</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d7/d6e/a02273.html#af0944e670cdc4872cb4e1de78159ef88">FelGuard</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af0944e670cdc4872cb4e1de78159ef88acaf3b07d165603ce6a87d5e137c8bc6c" name="af0944e670cdc4872cb4e1de78159ef88acaf3b07d165603ce6a87d5e137c8bc6c"></a>SPELL_SUMMON_POO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af0944e670cdc4872cb4e1de78159ef88a74a22ffd9e172700137c4a85ec978333" name="af0944e670cdc4872cb4e1de78159ef88a74a22ffd9e172700137c4a85ec978333"></a>NPC_DERANGED_HELBOAR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af0944e670cdc4872cb4e1de78159ef88a22cc94ada0c254f3d3848e67f5701588" name="af0944e670cdc4872cb4e1de78159ef88a22cc94ada0c254f3d3848e67f5701588"></a>QUEST_SHIZZ_WORK&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  366</span>{</div>
-<div class="line"><span class="lineno">  367</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#af0944e670cdc4872cb4e1de78159ef88acaf3b07d165603ce6a87d5e137c8bc6c">SPELL_SUMMON_POO</a>            = 37688,</div>
-<div class="line"><span class="lineno">  368</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#af0944e670cdc4872cb4e1de78159ef88a74a22ffd9e172700137c4a85ec978333">NPC_DERANGED_HELBOAR</a>        = 16863,</div>
-<div class="line"><span class="lineno">  369</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#af0944e670cdc4872cb4e1de78159ef88a22cc94ada0c254f3d3848e67f5701588">QUEST_SHIZZ_WORK</a>            = 10629,</div>
-<div class="line"><span class="lineno">  370</span>};</div>
-<div class="ttc" id="aa02273_html_af0944e670cdc4872cb4e1de78159ef88a22cc94ada0c254f3d3848e67f5701588"><div class="ttname"><a href="../../d7/d6e/a02273.html#af0944e670cdc4872cb4e1de78159ef88a22cc94ada0c254f3d3848e67f5701588">QUEST_SHIZZ_WORK</a></div><div class="ttdeci">@ QUEST_SHIZZ_WORK</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:369</div></div>
-<div class="ttc" id="aa02273_html_af0944e670cdc4872cb4e1de78159ef88a74a22ffd9e172700137c4a85ec978333"><div class="ttname"><a href="../../d7/d6e/a02273.html#af0944e670cdc4872cb4e1de78159ef88a74a22ffd9e172700137c4a85ec978333">NPC_DERANGED_HELBOAR</a></div><div class="ttdeci">@ NPC_DERANGED_HELBOAR</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:368</div></div>
-<div class="ttc" id="aa02273_html_af0944e670cdc4872cb4e1de78159ef88acaf3b07d165603ce6a87d5e137c8bc6c"><div class="ttname"><a href="../../d7/d6e/a02273.html#af0944e670cdc4872cb4e1de78159ef88acaf3b07d165603ce6a87d5e137c8bc6c">SPELL_SUMMON_POO</a></div><div class="ttdeci">@ SPELL_SUMMON_POO</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:367</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a2b917ea5e39342011ca6dcdac24e869e" name="a2b917ea5e39342011ca6dcdac24e869e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b917ea5e39342011ca6dcdac24e869e">&#9670;&#160;</a></span>q10935Exorcism</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d7/d6e/a02273.html#a2b917ea5e39342011ca6dcdac24e869e">q10935Exorcism</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2b917ea5e39342011ca6dcdac24e869eac3a4396238fbb11f537aa061424abe2b" name="a2b917ea5e39342011ca6dcdac24e869eac3a4396238fbb11f537aa061424abe2b"></a>SPELL_HOLY_FIRE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2b917ea5e39342011ca6dcdac24e869eae33e5e18452ad49b09d4403d2b856efd" name="a2b917ea5e39342011ca6dcdac24e869eae33e5e18452ad49b09d4403d2b856efd"></a>SPELL_HEAL_BARADA&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   29</span>{</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a2b917ea5e39342011ca6dcdac24e869eac3a4396238fbb11f537aa061424abe2b">SPELL_HOLY_FIRE</a>             = 39323,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a2b917ea5e39342011ca6dcdac24e869eae33e5e18452ad49b09d4403d2b856efd">SPELL_HEAL_BARADA</a>           = 39322</div>
-<div class="line"><span class="lineno">   32</span>};</div>
-<div class="ttc" id="aa02273_html_a2b917ea5e39342011ca6dcdac24e869eac3a4396238fbb11f537aa061424abe2b"><div class="ttname"><a href="../../d7/d6e/a02273.html#a2b917ea5e39342011ca6dcdac24e869eac3a4396238fbb11f537aa061424abe2b">SPELL_HOLY_FIRE</a></div><div class="ttdeci">@ SPELL_HOLY_FIRE</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:30</div></div>
-<div class="ttc" id="aa02273_html_a2b917ea5e39342011ca6dcdac24e869eae33e5e18452ad49b09d4403d2b856efd"><div class="ttname"><a href="../../d7/d6e/a02273.html#a2b917ea5e39342011ca6dcdac24e869eae33e5e18452ad49b09d4403d2b856efd">SPELL_HEAL_BARADA</a></div><div class="ttdeci">@ SPELL_HEAL_BARADA</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:31</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a1b44ea4940860848073d89e7761e5d9e" name="a1b44ea4940860848073d89e7761e5d9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b44ea4940860848073d89e7761e5d9e">&#9670;&#160;</a></span>WoundedBloodElf</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9e">WoundedBloodElf</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1b44ea4940860848073d89e7761e5d9ea52186d9cbaa4a5d1e385d2fe13503a97" name="a1b44ea4940860848073d89e7761e5d9ea52186d9cbaa4a5d1e385d2fe13503a97"></a>SAY_ELF_START&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1b44ea4940860848073d89e7761e5d9ea3b168b2787eb695fadbe796416731ba3" name="a1b44ea4940860848073d89e7761e5d9ea3b168b2787eb695fadbe796416731ba3"></a>SAY_ELF_SUMMON1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1b44ea4940860848073d89e7761e5d9ea6cd155f2503f730d0d12456613b29964" name="a1b44ea4940860848073d89e7761e5d9ea6cd155f2503f730d0d12456613b29964"></a>SAY_ELF_RESTING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1b44ea4940860848073d89e7761e5d9ea678e628b153b8961e58fe7f936fd9c61" name="a1b44ea4940860848073d89e7761e5d9ea678e628b153b8961e58fe7f936fd9c61"></a>SAY_ELF_SUMMON2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1b44ea4940860848073d89e7761e5d9eae06761dd5b07e038a394a2c7e72e93a7" name="a1b44ea4940860848073d89e7761e5d9eae06761dd5b07e038a394a2c7e72e93a7"></a>SAY_ELF_COMPLETE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1b44ea4940860848073d89e7761e5d9eabfc964a1cc07a0fdf8782361353d8a5c" name="a1b44ea4940860848073d89e7761e5d9eabfc964a1cc07a0fdf8782361353d8a5c"></a>SAY_ELF_AGGRO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1b44ea4940860848073d89e7761e5d9eaaca23046d9ea87abc77d28689e3349ed" name="a1b44ea4940860848073d89e7761e5d9eaaca23046d9ea87abc77d28689e3349ed"></a>QUEST_ROAD_TO_FALCON_WATCH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1b44ea4940860848073d89e7761e5d9eafbcba9ddc06cf15e740c08aa796f43ba" name="a1b44ea4940860848073d89e7761e5d9eafbcba9ddc06cf15e740c08aa796f43ba"></a>NPC_HAALESHI_WINDWALKER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1b44ea4940860848073d89e7761e5d9ea338245af1e86a4794f18dc3072957088" name="a1b44ea4940860848073d89e7761e5d9ea338245af1e86a4794f18dc3072957088"></a>NPC_HAALESHI_TALONGUARD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1b44ea4940860848073d89e7761e5d9eafe47930a46107b8a21f186ef6f97ddf7" name="a1b44ea4940860848073d89e7761e5d9eafe47930a46107b8a21f186ef6f97ddf7"></a>ARAKKOA_CAGE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  270</span>{</div>
-<div class="line"><span class="lineno">  271</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9ea52186d9cbaa4a5d1e385d2fe13503a97">SAY_ELF_START</a>               = 0,</div>
-<div class="line"><span class="lineno">  272</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9ea3b168b2787eb695fadbe796416731ba3">SAY_ELF_SUMMON1</a>             = 1,</div>
-<div class="line"><span class="lineno">  273</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9ea6cd155f2503f730d0d12456613b29964">SAY_ELF_RESTING</a>             = 2,</div>
-<div class="line"><span class="lineno">  274</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9ea678e628b153b8961e58fe7f936fd9c61">SAY_ELF_SUMMON2</a>             = 3,</div>
-<div class="line"><span class="lineno">  275</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9eae06761dd5b07e038a394a2c7e72e93a7">SAY_ELF_COMPLETE</a>            = 4,</div>
-<div class="line"><span class="lineno">  276</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9eabfc964a1cc07a0fdf8782361353d8a5c">SAY_ELF_AGGRO</a>               = 5,</div>
-<div class="line"><span class="lineno">  277</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9eaaca23046d9ea87abc77d28689e3349ed">QUEST_ROAD_TO_FALCON_WATCH</a>  = 9375,</div>
-<div class="line"><span class="lineno">  278</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9eafbcba9ddc06cf15e740c08aa796f43ba">NPC_HAALESHI_WINDWALKER</a>     = 16966,</div>
-<div class="line"><span class="lineno">  279</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9ea338245af1e86a4794f18dc3072957088">NPC_HAALESHI_TALONGUARD</a>     = 16967,</div>
-<div class="line"><span class="lineno">  280</span>    <a class="code hl_enumvalue" href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9eafe47930a46107b8a21f186ef6f97ddf7">ARAKKOA_CAGE</a>                = 181664</div>
-<div class="line"><span class="lineno">  281</span>};</div>
-<div class="ttc" id="aa02273_html_a1b44ea4940860848073d89e7761e5d9ea338245af1e86a4794f18dc3072957088"><div class="ttname"><a href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9ea338245af1e86a4794f18dc3072957088">NPC_HAALESHI_TALONGUARD</a></div><div class="ttdeci">@ NPC_HAALESHI_TALONGUARD</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:279</div></div>
-<div class="ttc" id="aa02273_html_a1b44ea4940860848073d89e7761e5d9ea3b168b2787eb695fadbe796416731ba3"><div class="ttname"><a href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9ea3b168b2787eb695fadbe796416731ba3">SAY_ELF_SUMMON1</a></div><div class="ttdeci">@ SAY_ELF_SUMMON1</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:272</div></div>
-<div class="ttc" id="aa02273_html_a1b44ea4940860848073d89e7761e5d9ea52186d9cbaa4a5d1e385d2fe13503a97"><div class="ttname"><a href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9ea52186d9cbaa4a5d1e385d2fe13503a97">SAY_ELF_START</a></div><div class="ttdeci">@ SAY_ELF_START</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:271</div></div>
-<div class="ttc" id="aa02273_html_a1b44ea4940860848073d89e7761e5d9ea678e628b153b8961e58fe7f936fd9c61"><div class="ttname"><a href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9ea678e628b153b8961e58fe7f936fd9c61">SAY_ELF_SUMMON2</a></div><div class="ttdeci">@ SAY_ELF_SUMMON2</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:274</div></div>
-<div class="ttc" id="aa02273_html_a1b44ea4940860848073d89e7761e5d9ea6cd155f2503f730d0d12456613b29964"><div class="ttname"><a href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9ea6cd155f2503f730d0d12456613b29964">SAY_ELF_RESTING</a></div><div class="ttdeci">@ SAY_ELF_RESTING</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:273</div></div>
-<div class="ttc" id="aa02273_html_a1b44ea4940860848073d89e7761e5d9eaaca23046d9ea87abc77d28689e3349ed"><div class="ttname"><a href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9eaaca23046d9ea87abc77d28689e3349ed">QUEST_ROAD_TO_FALCON_WATCH</a></div><div class="ttdeci">@ QUEST_ROAD_TO_FALCON_WATCH</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:277</div></div>
-<div class="ttc" id="aa02273_html_a1b44ea4940860848073d89e7761e5d9eabfc964a1cc07a0fdf8782361353d8a5c"><div class="ttname"><a href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9eabfc964a1cc07a0fdf8782361353d8a5c">SAY_ELF_AGGRO</a></div><div class="ttdeci">@ SAY_ELF_AGGRO</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:276</div></div>
-<div class="ttc" id="aa02273_html_a1b44ea4940860848073d89e7761e5d9eae06761dd5b07e038a394a2c7e72e93a7"><div class="ttname"><a href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9eae06761dd5b07e038a394a2c7e72e93a7">SAY_ELF_COMPLETE</a></div><div class="ttdeci">@ SAY_ELF_COMPLETE</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:275</div></div>
-<div class="ttc" id="aa02273_html_a1b44ea4940860848073d89e7761e5d9eafbcba9ddc06cf15e740c08aa796f43ba"><div class="ttname"><a href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9eafbcba9ddc06cf15e740c08aa796f43ba">NPC_HAALESHI_WINDWALKER</a></div><div class="ttdeci">@ NPC_HAALESHI_WINDWALKER</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:278</div></div>
-<div class="ttc" id="aa02273_html_a1b44ea4940860848073d89e7761e5d9eafe47930a46107b8a21f186ef6f97ddf7"><div class="ttname"><a href="../../d7/d6e/a02273.html#a1b44ea4940860848073d89e7761e5d9eafe47930a46107b8a21f186ef6f97ddf7">ARAKKOA_CAGE</a></div><div class="ttdeci">@ ARAKKOA_CAGE</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:280</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ae450311c68322300a0e6fb8091cd8936" name="ae450311c68322300a0e6fb8091cd8936"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae450311c68322300a0e6fb8091cd8936">&#9670;&#160;</a></span>AddSC_hellfire_peninsula()</h2>
+<a id="a02944420353f8ba883b80737f8e63137" name="a02944420353f8ba883b80737f8e63137"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02944420353f8ba883b80737f8e63137">&#9670;&#160;</a></span>AddItemsSetItem()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_hellfire_peninsula </td>
+          <td class="memname">void AddItemsSetItem </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d1/d53/a08360.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../df/db7/a08072.html">Item</a> *&#160;</td>
+          <td class="paramname"><em>item</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  606</span>{</div>
-<div class="line"><span class="lineno">  607</span>    <span class="comment">// Ours</span></div>
-<div class="line"><span class="lineno">  608</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d1/d8f/a23956.html">spell_q10935_the_exorcism_of_colonel_jules</a>);</div>
-<div class="line"><span class="lineno">  609</span> </div>
-<div class="line"><span class="lineno">  610</span>    <span class="comment">// Theirs</span></div>
-<div class="line"><span class="lineno">  611</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/d42/a23960.html">npc_aeranas</a>();</div>
-<div class="line"><span class="lineno">  612</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/dd6/a23968.html">npc_ancestral_wolf</a>();</div>
-<div class="line"><span class="lineno">  613</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/da6/a23976.html">npc_wounded_blood_elf</a>();</div>
-<div class="line"><span class="lineno">  614</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/d19/a23984.html">npc_fel_guard_hound</a>();</div>
-<div class="line"><span class="lineno">  615</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d14/a23996.html">go_beacon</a>();</div>
-<div class="line"><span class="lineno">  616</span> </div>
-<div class="line"><span class="lineno">  617</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d9/dac/a23992.html">npc_magister_aledis</a>);</div>
-<div class="line"><span class="lineno">  618</span>}</div>
-<div class="ttc" id="aa04256_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> SpellScriptLoader.h:88</div></div>
-<div class="ttc" id="aa04316_html_a5e7352841895df7117e2830448eb533f"><div class="ttname"><a href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a></div><div class="ttdeci">#define RegisterCreatureAI(ai_name)</div><div class="ttdef"><b>Definition:</b> CreatureScript.h:71</div></div>
-<div class="ttc" id="aa23956_html"><div class="ttname"><a href="../../d1/d8f/a23956.html">spell_q10935_the_exorcism_of_colonel_jules</a></div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:35</div></div>
-<div class="ttc" id="aa23960_html"><div class="ttname"><a href="../../d3/d42/a23960.html">npc_aeranas</a></div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:76</div></div>
-<div class="ttc" id="aa23968_html"><div class="ttname"><a href="../../d3/dd6/a23968.html">npc_ancestral_wolf</a></div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:165</div></div>
-<div class="ttc" id="aa23976_html"><div class="ttname"><a href="../../d2/da6/a23976.html">npc_wounded_blood_elf</a></div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:284</div></div>
-<div class="ttc" id="aa23984_html"><div class="ttname"><a href="../../de/d19/a23984.html">npc_fel_guard_hound</a></div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:373</div></div>
-<div class="ttc" id="aa23992_html"><div class="ttname"><a href="../../d9/dac/a23992.html">npc_magister_aledis</a></div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:456</div></div>
-<div class="ttc" id="aa23996_html"><div class="ttname"><a href="../../d8/d14/a23996.html">go_beacon</a></div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:555</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_struct" href="../../d2/d6b/a08096.html">ItemTemplate</a> <span class="keyword">const</span>* proto = item-&gt;<a class="code hl_function" href="../../df/db7/a08072.html#a55223032f2942a6f46b10053afe8c73c">GetTemplate</a>();</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_typedef" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> setid = proto-&gt;<a class="code hl_variable" href="../../d2/d6b/a08096.html#a7ea022c2f83c1906650b806bbf6bea8a">ItemSet</a>;</div>
+<div class="line"><span class="lineno">   37</span> </div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_struct" href="../../d3/d40/a28104.html">ItemSetEntry</a> <span class="keyword">const</span>* set = <a class="code hl_variable" href="../../d7/d6d/a01769.html#a1968d28bd1de03990d18d743025c65d9">sItemSetStore</a>.LookupEntry(setid);</div>
+<div class="line"><span class="lineno">   39</span> </div>
+<div class="line"><span class="lineno">   40</span>    <span class="keywordflow">if</span> (!set)</div>
+<div class="line"><span class="lineno">   41</span>    {</div>
+<div class="line"><span class="lineno">   42</span>        <a class="code hl_define" href="../../df/d03/a00062.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Item set {} for item (id {}) not found, mods not applied.&quot;</span>, setid, proto-&gt;<a class="code hl_variable" href="../../d2/d6b/a08096.html#af8e238c0d7bc950b984de7ed656e5bae">ItemId</a>);</div>
+<div class="line"><span class="lineno">   43</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   44</span>    }</div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>    <span class="keywordflow">if</span> (set-&gt;<a class="code hl_variable" href="../../d3/d40/a28104.html#ab3058ac725fb8f105b9359d5a5147942">required_skill_id</a> &amp;&amp; player-&gt;<a class="code hl_function" href="../../d1/d53/a08360.html#a2b7579cb973f79b2886702c96721f594">GetSkillValue</a>(set-&gt;<a class="code hl_variable" href="../../d3/d40/a28104.html#ab3058ac725fb8f105b9359d5a5147942">required_skill_id</a>) &lt; set-&gt;<a class="code hl_variable" href="../../d3/d40/a28104.html#a58d0997a73cf48061545edbc0201f544">required_skill_value</a>)</div>
+<div class="line"><span class="lineno">   47</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_struct" href="../../dd/db6/a08068.html">ItemSetEffect</a>* eff = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>    <span class="keywordflow">for</span> (std::size_t x = 0; x &lt; player-&gt;<a class="code hl_variable" href="../../d1/d53/a08360.html#aaa4e36532b427efacc84c1910ac5f21d">ItemSetEff</a>.size(); ++x)</div>
+<div class="line"><span class="lineno">   52</span>    {</div>
+<div class="line"><span class="lineno">   53</span>        <span class="keywordflow">if</span> (player-&gt;<a class="code hl_variable" href="../../d1/d53/a08360.html#aaa4e36532b427efacc84c1910ac5f21d">ItemSetEff</a>[x] &amp;&amp; player-&gt;<a class="code hl_variable" href="../../d1/d53/a08360.html#aaa4e36532b427efacc84c1910ac5f21d">ItemSetEff</a>[x]-&gt;setid == setid)</div>
+<div class="line"><span class="lineno">   54</span>        {</div>
+<div class="line"><span class="lineno">   55</span>            eff = player-&gt;<a class="code hl_variable" href="../../d1/d53/a08360.html#aaa4e36532b427efacc84c1910ac5f21d">ItemSetEff</a>[x];</div>
+<div class="line"><span class="lineno">   56</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   57</span>        }</div>
+<div class="line"><span class="lineno">   58</span>    }</div>
+<div class="line"><span class="lineno">   59</span> </div>
+<div class="line"><span class="lineno">   60</span>    <span class="keywordflow">if</span> (!eff)</div>
+<div class="line"><span class="lineno">   61</span>    {</div>
+<div class="line"><span class="lineno">   62</span>        eff = <span class="keyword">new</span> <a class="code hl_struct" href="../../dd/db6/a08068.html">ItemSetEffect</a>();</div>
+<div class="line"><span class="lineno">   63</span>        eff-&gt;<a class="code hl_variable" href="../../dd/db6/a08068.html#ab8c24b76b1c0eb92c0fe52ca9baf293a">setid</a> = setid;</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>        std::size_t x = 0;</div>
+<div class="line"><span class="lineno">   66</span>        <span class="keywordflow">for</span> (; x &lt; player-&gt;<a class="code hl_variable" href="../../d1/d53/a08360.html#aaa4e36532b427efacc84c1910ac5f21d">ItemSetEff</a>.size(); ++x)</div>
+<div class="line"><span class="lineno">   67</span>            <span class="keywordflow">if</span> (!player-&gt;<a class="code hl_variable" href="../../d1/d53/a08360.html#aaa4e36532b427efacc84c1910ac5f21d">ItemSetEff</a>[x])</div>
+<div class="line"><span class="lineno">   68</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>        <span class="keywordflow">if</span> (x &lt; player-&gt;ItemSetEff.size())</div>
+<div class="line"><span class="lineno">   71</span>            player-&gt;<a class="code hl_variable" href="../../d1/d53/a08360.html#aaa4e36532b427efacc84c1910ac5f21d">ItemSetEff</a>[x] = eff;</div>
+<div class="line"><span class="lineno">   72</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   73</span>            player-&gt;<a class="code hl_variable" href="../../d1/d53/a08360.html#aaa4e36532b427efacc84c1910ac5f21d">ItemSetEff</a>.push_back(eff);</div>
+<div class="line"><span class="lineno">   74</span>    }</div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>    ++eff-&gt;<a class="code hl_variable" href="../../dd/db6/a08068.html#a437fe00f34ad414e3c9f81d01a153d13">item_count</a>;</div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> x = 0; x &lt; <a class="code hl_define" href="../../de/dfb/a04616.html#a1d93d74d9cdf834a33735836824866e2">MAX_ITEM_SET_SPELLS</a>; ++x)</div>
+<div class="line"><span class="lineno">   79</span>    {</div>
+<div class="line"><span class="lineno">   80</span>        <span class="keywordflow">if</span> (!set-&gt;<a class="code hl_variable" href="../../d3/d40/a28104.html#a8aac032992efe1bfbba0e49693562c7f">spells</a> [x])</div>
+<div class="line"><span class="lineno">   81</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   82</span>        <span class="comment">//not enough for  spell</span></div>
+<div class="line"><span class="lineno">   83</span>        <span class="keywordflow">if</span> (set-&gt;<a class="code hl_variable" href="../../d3/d40/a28104.html#a8496a2f3fa3e230def04b996fc585760">items_to_triggerspell</a>[x] &gt; eff-&gt;<a class="code hl_variable" href="../../dd/db6/a08068.html#a437fe00f34ad414e3c9f81d01a153d13">item_count</a>)</div>
+<div class="line"><span class="lineno">   84</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   85</span> </div>
+<div class="line"><span class="lineno">   86</span>        <a class="code hl_typedef" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> z = 0;</div>
+<div class="line"><span class="lineno">   87</span>        <span class="keywordflow">for</span> (; z &lt; <a class="code hl_define" href="../../de/dfb/a04616.html#a1d93d74d9cdf834a33735836824866e2">MAX_ITEM_SET_SPELLS</a>; ++z)</div>
+<div class="line"><span class="lineno">   88</span>            <span class="keywordflow">if</span> (eff-&gt;<a class="code hl_variable" href="../../dd/db6/a08068.html#af8156bad9771ed816fd861d3eb992aaa">spells</a>[z] &amp;&amp; eff-&gt;<a class="code hl_variable" href="../../dd/db6/a08068.html#af8156bad9771ed816fd861d3eb992aaa">spells</a>[z]-&gt;<a class="code hl_variable" href="../../d4/d06/a10868.html#a49bc14059c2bd3785231c52e0d54d382">Id</a> == set-&gt;<a class="code hl_variable" href="../../d3/d40/a28104.html#a8aac032992efe1bfbba0e49693562c7f">spells</a>[x])</div>
+<div class="line"><span class="lineno">   89</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   90</span> </div>
+<div class="line"><span class="lineno">   91</span>        <span class="keywordflow">if</span> (z &lt; <a class="code hl_define" href="../../de/dfb/a04616.html#a1d93d74d9cdf834a33735836824866e2">MAX_ITEM_SET_SPELLS</a>)</div>
+<div class="line"><span class="lineno">   92</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   93</span> </div>
+<div class="line"><span class="lineno">   94</span>        <span class="comment">//new spell</span></div>
+<div class="line"><span class="lineno">   95</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> y = 0; y &lt; <a class="code hl_define" href="../../de/dfb/a04616.html#a1d93d74d9cdf834a33735836824866e2">MAX_ITEM_SET_SPELLS</a>; ++y)</div>
+<div class="line"><span class="lineno">   96</span>        {</div>
+<div class="line"><span class="lineno">   97</span>            <span class="keywordflow">if</span> (!eff-&gt;<a class="code hl_variable" href="../../dd/db6/a08068.html#af8156bad9771ed816fd861d3eb992aaa">spells</a>[y])                             <span class="comment">// free slot</span></div>
+<div class="line"><span class="lineno">   98</span>            {</div>
+<div class="line"><span class="lineno">   99</span>                <a class="code hl_class" href="../../d4/d06/a10868.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = <a class="code hl_define" href="../../d7/dbe/a02333.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(set-&gt;<a class="code hl_variable" href="../../d3/d40/a28104.html#a8aac032992efe1bfbba0e49693562c7f">spells</a>[x]);</div>
+<div class="line"><span class="lineno">  100</span>                <span class="keywordflow">if</span> (!spellInfo)</div>
+<div class="line"><span class="lineno">  101</span>                {</div>
+<div class="line"><span class="lineno">  102</span>                    <a class="code hl_define" href="../../df/d03/a00062.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;entities.item&quot;</span>, <span class="stringliteral">&quot;WORLD: unknown spell id {} in items set {} effects&quot;</span>, set-&gt;<a class="code hl_variable" href="../../d3/d40/a28104.html#a8aac032992efe1bfbba0e49693562c7f">spells</a>[x], setid);</div>
+<div class="line"><span class="lineno">  103</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  104</span>                }</div>
+<div class="line"><span class="lineno">  105</span> </div>
+<div class="line"><span class="lineno">  106</span>                <span class="comment">// spell casted only if fit form requirement, in other case will casted at form change</span></div>
+<div class="line"><span class="lineno">  107</span>                <span class="keywordflow">if</span> (<a class="code hl_define" href="../../df/de9/a00923.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a>-&gt;CanItemApplyEquipSpell(player, item))</div>
+<div class="line"><span class="lineno">  108</span>                {</div>
+<div class="line"><span class="lineno">  109</span>                    player-&gt;<a class="code hl_function" href="../../d1/d53/a08360.html#ac3bddb69d9b85161b770a8f56acae80b">ApplyEquipSpell</a>(spellInfo, <span class="keyword">nullptr</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  110</span>                }</div>
+<div class="line"><span class="lineno">  111</span> </div>
+<div class="line"><span class="lineno">  112</span>                eff-&gt;<a class="code hl_variable" href="../../dd/db6/a08068.html#af8156bad9771ed816fd861d3eb992aaa">spells</a>[y] = spellInfo;</div>
+<div class="line"><span class="lineno">  113</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  114</span>            }</div>
+<div class="line"><span class="lineno">  115</span>        }</div>
+<div class="line"><span class="lineno">  116</span>    }</div>
+<div class="line"><span class="lineno">  117</span>}</div>
+<div class="ttc" id="aa00062_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../df/d03/a00062.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:156</div></div>
+<div class="ttc" id="aa00488_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa00923_html_ae8161e629869974bc49b1cbfc73c1087"><div class="ttname"><a href="../../df/de9/a00923.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a></div><div class="ttdeci">#define sScriptMgr</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:708</div></div>
+<div class="ttc" id="aa01769_html_a1968d28bd1de03990d18d743025c65d9"><div class="ttname"><a href="../../d7/d6d/a01769.html#a1968d28bd1de03990d18d743025c65d9">sItemSetStore</a></div><div class="ttdeci">DBCStorage&lt; ItemSetEntry &gt; sItemSetStore(ItemSetEntryfmt)</div></div>
+<div class="ttc" id="aa02333_html_aa21e14d8e1145507b746a69b5487109d"><div class="ttname"><a href="../../d7/dbe/a02333.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a></div><div class="ttdeci">#define sSpellMgr</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:825</div></div>
+<div class="ttc" id="aa04616_html_a1d93d74d9cdf834a33735836824866e2"><div class="ttname"><a href="../../de/dfb/a04616.html#a1d93d74d9cdf834a33735836824866e2">MAX_ITEM_SET_SPELLS</a></div><div class="ttdeci">#define MAX_ITEM_SET_SPELLS</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1229</div></div>
+<div class="ttc" id="aa08068_html"><div class="ttname"><a href="../../dd/db6/a08068.html">ItemSetEffect</a></div><div class="ttdef"><b>Definition:</b> Item.h:32</div></div>
+<div class="ttc" id="aa08068_html_a437fe00f34ad414e3c9f81d01a153d13"><div class="ttname"><a href="../../dd/db6/a08068.html#a437fe00f34ad414e3c9f81d01a153d13">ItemSetEffect::item_count</a></div><div class="ttdeci">uint32 item_count</div><div class="ttdef"><b>Definition:</b> Item.h:34</div></div>
+<div class="ttc" id="aa08068_html_ab8c24b76b1c0eb92c0fe52ca9baf293a"><div class="ttname"><a href="../../dd/db6/a08068.html#ab8c24b76b1c0eb92c0fe52ca9baf293a">ItemSetEffect::setid</a></div><div class="ttdeci">uint32 setid</div><div class="ttdef"><b>Definition:</b> Item.h:33</div></div>
+<div class="ttc" id="aa08068_html_af8156bad9771ed816fd861d3eb992aaa"><div class="ttname"><a href="../../dd/db6/a08068.html#af8156bad9771ed816fd861d3eb992aaa">ItemSetEffect::spells</a></div><div class="ttdeci">SpellInfo const  * spells[8]</div><div class="ttdef"><b>Definition:</b> Item.h:35</div></div>
+<div class="ttc" id="aa08072_html_a55223032f2942a6f46b10053afe8c73c"><div class="ttname"><a href="../../df/db7/a08072.html#a55223032f2942a6f46b10053afe8c73c">Item::GetTemplate</a></div><div class="ttdeci">ItemTemplate const * GetTemplate() const</div><div class="ttdef"><b>Definition:</b> Item.cpp:545</div></div>
+<div class="ttc" id="aa08096_html"><div class="ttname"><a href="../../d2/d6b/a08096.html">ItemTemplate</a></div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:619</div></div>
+<div class="ttc" id="aa08096_html_a7ea022c2f83c1906650b806bbf6bea8a"><div class="ttname"><a href="../../d2/d6b/a08096.html#a7ea022c2f83c1906650b806bbf6bea8a">ItemTemplate::ItemSet</a></div><div class="ttdeci">uint32 ItemSet</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:675</div></div>
+<div class="ttc" id="aa08096_html_af8e238c0d7bc950b984de7ed656e5bae"><div class="ttname"><a href="../../d2/d6b/a08096.html#af8e238c0d7bc950b984de7ed656e5bae">ItemTemplate::ItemId</a></div><div class="ttdeci">uint32 ItemId</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:620</div></div>
+<div class="ttc" id="aa08360_html_a2b7579cb973f79b2886702c96721f594"><div class="ttname"><a href="../../d1/d53/a08360.html#a2b7579cb973f79b2886702c96721f594">Player::GetSkillValue</a></div><div class="ttdeci">uint16 GetSkillValue(uint32 skill) const</div><div class="ttdef"><b>Definition:</b> Player.cpp:5437</div></div>
+<div class="ttc" id="aa08360_html_aaa4e36532b427efacc84c1910ac5f21d"><div class="ttname"><a href="../../d1/d53/a08360.html#aaa4e36532b427efacc84c1910ac5f21d">Player::ItemSetEff</a></div><div class="ttdeci">std::vector&lt; ItemSetEffect * &gt; ItemSetEff</div><div class="ttdef"><b>Definition:</b> Player.h:2220</div></div>
+<div class="ttc" id="aa08360_html_ac3bddb69d9b85161b770a8f56acae80b"><div class="ttname"><a href="../../d1/d53/a08360.html#ac3bddb69d9b85161b770a8f56acae80b">Player::ApplyEquipSpell</a></div><div class="ttdeci">void ApplyEquipSpell(SpellInfo const *spellInfo, Item *item, bool apply, bool form_change=false)</div><div class="ttdef"><b>Definition:</b> Player.cpp:7147</div></div>
+<div class="ttc" id="aa10868_html"><div class="ttname"><a href="../../d4/d06/a10868.html">SpellInfo</a></div><div class="ttdef"><b>Definition:</b> SpellInfo.h:316</div></div>
+<div class="ttc" id="aa10868_html_a49bc14059c2bd3785231c52e0d54d382"><div class="ttname"><a href="../../d4/d06/a10868.html#a49bc14059c2bd3785231c52e0d54d382">SpellInfo::Id</a></div><div class="ttdeci">uint32 Id</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:320</div></div>
+<div class="ttc" id="aa28104_html"><div class="ttname"><a href="../../d3/d40/a28104.html">ItemSetEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1232</div></div>
+<div class="ttc" id="aa28104_html_a58d0997a73cf48061545edbc0201f544"><div class="ttname"><a href="../../d3/d40/a28104.html#a58d0997a73cf48061545edbc0201f544">ItemSetEntry::required_skill_value</a></div><div class="ttdeci">uint32 required_skill_value</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1241</div></div>
+<div class="ttc" id="aa28104_html_a8496a2f3fa3e230def04b996fc585760"><div class="ttname"><a href="../../d3/d40/a28104.html#a8496a2f3fa3e230def04b996fc585760">ItemSetEntry::items_to_triggerspell</a></div><div class="ttdeci">uint32 items_to_triggerspell[MAX_ITEM_SET_SPELLS]</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1239</div></div>
+<div class="ttc" id="aa28104_html_a8aac032992efe1bfbba0e49693562c7f"><div class="ttname"><a href="../../d3/d40/a28104.html#a8aac032992efe1bfbba0e49693562c7f">ItemSetEntry::spells</a></div><div class="ttdeci">uint32 spells[MAX_ITEM_SET_SPELLS]</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1238</div></div>
+<div class="ttc" id="aa28104_html_ab3058ac725fb8f105b9359d5a5147942"><div class="ttname"><a href="../../d3/d40/a28104.html#ab3058ac725fb8f105b9359d5a5147942">ItemSetEntry::required_skill_id</a></div><div class="ttdeci">uint32 required_skill_id</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1240</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00071">RegisterCreatureAI</a>, and <a class="el" href="../../#l00088">RegisterSpellScript</a>.</p>
+<p class="reference">References <a class="el" href="../../#l07147">Player::ApplyEquipSpell()</a>, <a class="el" href="../../#l05437">Player::GetSkillValue()</a>, <a class="el" href="../../#l00545">Item::GetTemplate()</a>, <a class="el" href="../../#l00320">SpellInfo::Id</a>, <a class="el" href="../../#l00034">ItemSetEffect::item_count</a>, <a class="el" href="../../#l00620">ItemTemplate::ItemId</a>, <a class="el" href="../../#l01239">ItemSetEntry::items_to_triggerspell</a>, <a class="el" href="../../#l00675">ItemTemplate::ItemSet</a>, <a class="el" href="../../#l02220">Player::ItemSetEff</a>, <a class="el" href="../../#l00156">LOG_ERROR</a>, <a class="el" href="../../#l01229">MAX_ITEM_SET_SPELLS</a>, <a class="el" href="../../#l01240">ItemSetEntry::required_skill_id</a>, <a class="el" href="../../#l01241">ItemSetEntry::required_skill_value</a>, <a class="el" href="../../#l00033">ItemSetEffect::setid</a>, <a class="el" href="../../d7/d6d/a01769.html#a1968d28bd1de03990d18d743025c65d9">sItemSetStore</a>, <a class="el" href="../../#l00035">ItemSetEffect::spells</a>, <a class="el" href="../../#l01238">ItemSetEntry::spells</a>, <a class="el" href="../../#l00708">sScriptMgr</a>, and <a class="el" href="../../#l00825">sSpellMgr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00122">AddOutlandScripts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l07562">Player::_ApplyAllItemMods()</a>, and <a class="el" href="../../#l02733">Player::EquipItem()</a>.</p>
+
+</div>
+</div>
+<a id="a0c91640134a5241ec34f91bdec13c8ec" name="a0c91640134a5241ec34f91bdec13c8ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c91640134a5241ec34f91bdec13c8ec">&#9670;&#160;</a></span>ItemCanGoIntoBag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ItemCanGoIntoBag </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d6b/a08096.html">ItemTemplate</a> const *&#160;</td>
+          <td class="paramname"><em>pProto</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d6b/a08096.html">ItemTemplate</a> const *&#160;</td>
+          <td class="paramname"><em>pBagProto</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  178</span>{</div>
+<div class="line"><span class="lineno">  179</span>    <span class="keywordflow">if</span> (!pProto || !pBagProto)</div>
+<div class="line"><span class="lineno">  180</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  181</span> </div>
+<div class="line"><span class="lineno">  182</span>    <span class="keywordflow">switch</span> (pBagProto-&gt;Class)</div>
+<div class="line"><span class="lineno">  183</span>    {</div>
+<div class="line"><span class="lineno">  184</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#ab76605e05d3b13f61472b9a89cd22a68a4f6aa85f8a77a9d5d2c73b0ec4231193">ITEM_CLASS_CONTAINER</a>:</div>
+<div class="line"><span class="lineno">  185</span>        {</div>
+<div class="line"><span class="lineno">  186</span>            <span class="keywordflow">if</span> (pBagProto-&gt;SubClass == <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dca12c9eca4aa5897d298cb859c3879f363">ITEM_SUBCLASS_CONTAINER</a>)</div>
+<div class="line"><span class="lineno">  187</span>            {</div>
+<div class="line"><span class="lineno">  188</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  189</span>            }</div>
+<div class="line"><span class="lineno">  190</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  191</span>            {</div>
+<div class="line"><span class="lineno">  192</span>                <span class="keywordflow">if</span> (pProto-&gt;Class == <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#ab76605e05d3b13f61472b9a89cd22a68a4f6aa85f8a77a9d5d2c73b0ec4231193">ITEM_CLASS_CONTAINER</a>)</div>
+<div class="line"><span class="lineno">  193</span>                {</div>
+<div class="line"><span class="lineno">  194</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  195</span>                }</div>
+<div class="line"><span class="lineno">  196</span> </div>
+<div class="line"><span class="lineno">  197</span>                <span class="keywordflow">switch</span> (pBagProto-&gt;SubClass)</div>
+<div class="line"><span class="lineno">  198</span>                {</div>
+<div class="line"><span class="lineno">  199</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dca6c16d9cf1ed9e12f02e59c1abecfcdf6">ITEM_SUBCLASS_SOUL_CONTAINER</a>:</div>
+<div class="line"><span class="lineno">  200</span>                        <span class="keywordflow">if</span> (!(pProto-&gt;BagFamily &amp; <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aa457faac0059379a8ee20cb1b8b5c74a3">BAG_FAMILY_MASK_SOUL_SHARDS</a>))</div>
+<div class="line"><span class="lineno">  201</span>                            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  202</span>                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  203</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dca8fc5d3d3469d7e92bcf0827b79a14c8a">ITEM_SUBCLASS_HERB_CONTAINER</a>:</div>
+<div class="line"><span class="lineno">  204</span>                        <span class="keywordflow">if</span> (!(pProto-&gt;BagFamily &amp; <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aa31bb172ed36b213c0a4cd5faf1b8af3a">BAG_FAMILY_MASK_HERBS</a>))</div>
+<div class="line"><span class="lineno">  205</span>                            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  206</span>                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  207</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dca782ac727f7220a3664a7800ba7cf2ebd">ITEM_SUBCLASS_ENCHANTING_CONTAINER</a>:</div>
+<div class="line"><span class="lineno">  208</span>                        <span class="keywordflow">if</span> (!(pProto-&gt;BagFamily &amp; <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aa3400f187fab947aad7fe876c7182d7e5">BAG_FAMILY_MASK_ENCHANTING_SUPP</a>))</div>
+<div class="line"><span class="lineno">  209</span>                            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  210</span>                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  211</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dca8b1a3e984db88beb4507d6e561e3a66d">ITEM_SUBCLASS_MINING_CONTAINER</a>:</div>
+<div class="line"><span class="lineno">  212</span>                        <span class="keywordflow">if</span> (!(pProto-&gt;BagFamily &amp; <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aa2d222df0bc7875927a6186a16fc348af">BAG_FAMILY_MASK_MINING_SUPP</a>))</div>
+<div class="line"><span class="lineno">  213</span>                            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  214</span>                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  215</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dcae8c40b7af1647ad6da243704b823ded0">ITEM_SUBCLASS_ENGINEERING_CONTAINER</a>:</div>
+<div class="line"><span class="lineno">  216</span>                        <span class="keywordflow">if</span> (!(pProto-&gt;BagFamily &amp; <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aae6a233a053c350f88922ee03ae917138">BAG_FAMILY_MASK_ENGINEERING_SUPP</a>))</div>
+<div class="line"><span class="lineno">  217</span>                            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  218</span>                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  219</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dca687187851f17621729d89d384dbfd377">ITEM_SUBCLASS_GEM_CONTAINER</a>:</div>
+<div class="line"><span class="lineno">  220</span>                        <span class="keywordflow">if</span> (!(pProto-&gt;BagFamily &amp; <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aab5da895c5f24e2eea675556f250c221a">BAG_FAMILY_MASK_GEMS</a>))</div>
+<div class="line"><span class="lineno">  221</span>                            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  222</span>                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  223</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dca4d179e58a393fafeca29017f6b49f85a">ITEM_SUBCLASS_LEATHERWORKING_CONTAINER</a>:</div>
+<div class="line"><span class="lineno">  224</span>                        <span class="keywordflow">if</span> (!(pProto-&gt;BagFamily &amp; <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aafdf0bdb85dc0c33d296755333d4d979d">BAG_FAMILY_MASK_LEATHERWORKING_SUPP</a>))</div>
+<div class="line"><span class="lineno">  225</span>                            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  226</span>                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  227</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dca48af163564a367b7f516ea78b6a0d492">ITEM_SUBCLASS_INSCRIPTION_CONTAINER</a>:</div>
+<div class="line"><span class="lineno">  228</span>                        <span class="keywordflow">if</span> (!(pProto-&gt;BagFamily &amp; <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aa6f0d8ef4bac068d77ab5e977ee3067ad">BAG_FAMILY_MASK_INSCRIPTION_SUPP</a>))</div>
+<div class="line"><span class="lineno">  229</span>                            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  230</span>                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  231</span>                    <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  232</span>                        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  233</span>                }</div>
+<div class="line"><span class="lineno">  234</span>            }</div>
+<div class="line"><span class="lineno">  235</span>        }</div>
+<div class="line"><span class="lineno">  236</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#ab76605e05d3b13f61472b9a89cd22a68a0dc2f5ddf4d3eddc66185ce4b588efae">ITEM_CLASS_QUIVER</a>:</div>
+<div class="line"><span class="lineno">  237</span>        {</div>
+<div class="line"><span class="lineno">  238</span>            <span class="keywordflow">if</span> (pProto-&gt;Class == <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#ab76605e05d3b13f61472b9a89cd22a68a0dc2f5ddf4d3eddc66185ce4b588efae">ITEM_CLASS_QUIVER</a>)</div>
+<div class="line"><span class="lineno">  239</span>            {</div>
+<div class="line"><span class="lineno">  240</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  241</span>            }</div>
+<div class="line"><span class="lineno">  242</span> </div>
+<div class="line"><span class="lineno">  243</span>            <span class="keywordflow">switch</span> (pBagProto-&gt;SubClass)</div>
+<div class="line"><span class="lineno">  244</span>            {</div>
+<div class="line"><span class="lineno">  245</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3fb889a74b33b298acccb0d57d6eb6bcabe96060cfd16b828f6633c6ea4945c47">ITEM_SUBCLASS_QUIVER</a>:</div>
+<div class="line"><span class="lineno">  246</span>                    <span class="keywordflow">if</span> (!(pProto-&gt;BagFamily &amp; <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aac3cc3cf288a94345953f35168e6eeb9d">BAG_FAMILY_MASK_ARROWS</a>))</div>
+<div class="line"><span class="lineno">  247</span>                        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  248</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  249</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3fb889a74b33b298acccb0d57d6eb6bcad89bd739b56ef09bf1659aa11d7475f1">ITEM_SUBCLASS_AMMO_POUCH</a>:</div>
+<div class="line"><span class="lineno">  250</span>                    <span class="keywordflow">if</span> (!(pProto-&gt;BagFamily &amp; <a class="code hl_enumvalue" href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aac64a9a44b610f967348788f779d9f7ab">BAG_FAMILY_MASK_BULLETS</a>))</div>
+<div class="line"><span class="lineno">  251</span>                        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  252</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  253</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  254</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  255</span>            }</div>
+<div class="line"><span class="lineno">  256</span>        }</div>
+<div class="line"><span class="lineno">  257</span>    }</div>
+<div class="line"><span class="lineno">  258</span> </div>
+<div class="line"><span class="lineno">  259</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  260</span>}</div>
+<div class="ttc" id="aa02264_html_a3d02db7bdce911406d800d0c4860102aa2d222df0bc7875927a6186a16fc348af"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aa2d222df0bc7875927a6186a16fc348af">BAG_FAMILY_MASK_MINING_SUPP</a></div><div class="ttdeci">@ BAG_FAMILY_MASK_MINING_SUPP</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:237</div></div>
+<div class="ttc" id="aa02264_html_a3d02db7bdce911406d800d0c4860102aa31bb172ed36b213c0a4cd5faf1b8af3a"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aa31bb172ed36b213c0a4cd5faf1b8af3a">BAG_FAMILY_MASK_HERBS</a></div><div class="ttdeci">@ BAG_FAMILY_MASK_HERBS</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:232</div></div>
+<div class="ttc" id="aa02264_html_a3d02db7bdce911406d800d0c4860102aa3400f187fab947aad7fe876c7182d7e5"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aa3400f187fab947aad7fe876c7182d7e5">BAG_FAMILY_MASK_ENCHANTING_SUPP</a></div><div class="ttdeci">@ BAG_FAMILY_MASK_ENCHANTING_SUPP</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:233</div></div>
+<div class="ttc" id="aa02264_html_a3d02db7bdce911406d800d0c4860102aa457faac0059379a8ee20cb1b8b5c74a3"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aa457faac0059379a8ee20cb1b8b5c74a3">BAG_FAMILY_MASK_SOUL_SHARDS</a></div><div class="ttdeci">@ BAG_FAMILY_MASK_SOUL_SHARDS</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:229</div></div>
+<div class="ttc" id="aa02264_html_a3d02db7bdce911406d800d0c4860102aa6f0d8ef4bac068d77ab5e977ee3067ad"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aa6f0d8ef4bac068d77ab5e977ee3067ad">BAG_FAMILY_MASK_INSCRIPTION_SUPP</a></div><div class="ttdeci">@ BAG_FAMILY_MASK_INSCRIPTION_SUPP</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:231</div></div>
+<div class="ttc" id="aa02264_html_a3d02db7bdce911406d800d0c4860102aab5da895c5f24e2eea675556f250c221a"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aab5da895c5f24e2eea675556f250c221a">BAG_FAMILY_MASK_GEMS</a></div><div class="ttdeci">@ BAG_FAMILY_MASK_GEMS</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:236</div></div>
+<div class="ttc" id="aa02264_html_a3d02db7bdce911406d800d0c4860102aac3cc3cf288a94345953f35168e6eeb9d"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aac3cc3cf288a94345953f35168e6eeb9d">BAG_FAMILY_MASK_ARROWS</a></div><div class="ttdeci">@ BAG_FAMILY_MASK_ARROWS</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:227</div></div>
+<div class="ttc" id="aa02264_html_a3d02db7bdce911406d800d0c4860102aac64a9a44b610f967348788f779d9f7ab"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aac64a9a44b610f967348788f779d9f7ab">BAG_FAMILY_MASK_BULLETS</a></div><div class="ttdeci">@ BAG_FAMILY_MASK_BULLETS</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:228</div></div>
+<div class="ttc" id="aa02264_html_a3d02db7bdce911406d800d0c4860102aae6a233a053c350f88922ee03ae917138"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aae6a233a053c350f88922ee03ae917138">BAG_FAMILY_MASK_ENGINEERING_SUPP</a></div><div class="ttdeci">@ BAG_FAMILY_MASK_ENGINEERING_SUPP</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:234</div></div>
+<div class="ttc" id="aa02264_html_a3d02db7bdce911406d800d0c4860102aafdf0bdb85dc0c33d296755333d4d979d"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3d02db7bdce911406d800d0c4860102aafdf0bdb85dc0c33d296755333d4d979d">BAG_FAMILY_MASK_LEATHERWORKING_SUPP</a></div><div class="ttdeci">@ BAG_FAMILY_MASK_LEATHERWORKING_SUPP</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:230</div></div>
+<div class="ttc" id="aa02264_html_a3e0159d46b7994329692866fed2152dca12c9eca4aa5897d298cb859c3879f363"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dca12c9eca4aa5897d298cb859c3879f363">ITEM_SUBCLASS_CONTAINER</a></div><div class="ttdeci">@ ITEM_SUBCLASS_CONTAINER</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:329</div></div>
+<div class="ttc" id="aa02264_html_a3e0159d46b7994329692866fed2152dca48af163564a367b7f516ea78b6a0d492"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dca48af163564a367b7f516ea78b6a0d492">ITEM_SUBCLASS_INSCRIPTION_CONTAINER</a></div><div class="ttdeci">@ ITEM_SUBCLASS_INSCRIPTION_CONTAINER</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:337</div></div>
+<div class="ttc" id="aa02264_html_a3e0159d46b7994329692866fed2152dca4d179e58a393fafeca29017f6b49f85a"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dca4d179e58a393fafeca29017f6b49f85a">ITEM_SUBCLASS_LEATHERWORKING_CONTAINER</a></div><div class="ttdeci">@ ITEM_SUBCLASS_LEATHERWORKING_CONTAINER</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:336</div></div>
+<div class="ttc" id="aa02264_html_a3e0159d46b7994329692866fed2152dca687187851f17621729d89d384dbfd377"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dca687187851f17621729d89d384dbfd377">ITEM_SUBCLASS_GEM_CONTAINER</a></div><div class="ttdeci">@ ITEM_SUBCLASS_GEM_CONTAINER</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:334</div></div>
+<div class="ttc" id="aa02264_html_a3e0159d46b7994329692866fed2152dca6c16d9cf1ed9e12f02e59c1abecfcdf6"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dca6c16d9cf1ed9e12f02e59c1abecfcdf6">ITEM_SUBCLASS_SOUL_CONTAINER</a></div><div class="ttdeci">@ ITEM_SUBCLASS_SOUL_CONTAINER</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:330</div></div>
+<div class="ttc" id="aa02264_html_a3e0159d46b7994329692866fed2152dca782ac727f7220a3664a7800ba7cf2ebd"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dca782ac727f7220a3664a7800ba7cf2ebd">ITEM_SUBCLASS_ENCHANTING_CONTAINER</a></div><div class="ttdeci">@ ITEM_SUBCLASS_ENCHANTING_CONTAINER</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:332</div></div>
+<div class="ttc" id="aa02264_html_a3e0159d46b7994329692866fed2152dca8b1a3e984db88beb4507d6e561e3a66d"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dca8b1a3e984db88beb4507d6e561e3a66d">ITEM_SUBCLASS_MINING_CONTAINER</a></div><div class="ttdeci">@ ITEM_SUBCLASS_MINING_CONTAINER</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:335</div></div>
+<div class="ttc" id="aa02264_html_a3e0159d46b7994329692866fed2152dca8fc5d3d3469d7e92bcf0827b79a14c8a"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dca8fc5d3d3469d7e92bcf0827b79a14c8a">ITEM_SUBCLASS_HERB_CONTAINER</a></div><div class="ttdeci">@ ITEM_SUBCLASS_HERB_CONTAINER</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:331</div></div>
+<div class="ttc" id="aa02264_html_a3e0159d46b7994329692866fed2152dcae8c40b7af1647ad6da243704b823ded0"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3e0159d46b7994329692866fed2152dcae8c40b7af1647ad6da243704b823ded0">ITEM_SUBCLASS_ENGINEERING_CONTAINER</a></div><div class="ttdeci">@ ITEM_SUBCLASS_ENGINEERING_CONTAINER</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:333</div></div>
+<div class="ttc" id="aa02264_html_a3fb889a74b33b298acccb0d57d6eb6bcabe96060cfd16b828f6633c6ea4945c47"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3fb889a74b33b298acccb0d57d6eb6bcabe96060cfd16b828f6633c6ea4945c47">ITEM_SUBCLASS_QUIVER</a></div><div class="ttdeci">@ ITEM_SUBCLASS_QUIVER</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:480</div></div>
+<div class="ttc" id="aa02264_html_a3fb889a74b33b298acccb0d57d6eb6bcad89bd739b56ef09bf1659aa11d7475f1"><div class="ttname"><a href="../../d7/dc8/a02264.html#a3fb889a74b33b298acccb0d57d6eb6bcad89bd739b56ef09bf1659aa11d7475f1">ITEM_SUBCLASS_AMMO_POUCH</a></div><div class="ttdeci">@ ITEM_SUBCLASS_AMMO_POUCH</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:481</div></div>
+<div class="ttc" id="aa02264_html_ab76605e05d3b13f61472b9a89cd22a68a0dc2f5ddf4d3eddc66185ce4b588efae"><div class="ttname"><a href="../../d7/dc8/a02264.html#ab76605e05d3b13f61472b9a89cd22a68a0dc2f5ddf4d3eddc66185ce4b588efae">ITEM_CLASS_QUIVER</a></div><div class="ttdeci">@ ITEM_CLASS_QUIVER</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:302</div></div>
+<div class="ttc" id="aa02264_html_ab76605e05d3b13f61472b9a89cd22a68a4f6aa85f8a77a9d5d2c73b0ec4231193"><div class="ttname"><a href="../../d7/dc8/a02264.html#ab76605e05d3b13f61472b9a89cd22a68a4f6aa85f8a77a9d5d2c73b0ec4231193">ITEM_CLASS_CONTAINER</a></div><div class="ttdeci">@ ITEM_CLASS_CONTAINER</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:292</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00227">BAG_FAMILY_MASK_ARROWS</a>, <a class="el" href="../../#l00228">BAG_FAMILY_MASK_BULLETS</a>, <a class="el" href="../../#l00233">BAG_FAMILY_MASK_ENCHANTING_SUPP</a>, <a class="el" href="../../#l00234">BAG_FAMILY_MASK_ENGINEERING_SUPP</a>, <a class="el" href="../../#l00236">BAG_FAMILY_MASK_GEMS</a>, <a class="el" href="../../#l00232">BAG_FAMILY_MASK_HERBS</a>, <a class="el" href="../../#l00231">BAG_FAMILY_MASK_INSCRIPTION_SUPP</a>, <a class="el" href="../../#l00230">BAG_FAMILY_MASK_LEATHERWORKING_SUPP</a>, <a class="el" href="../../#l00237">BAG_FAMILY_MASK_MINING_SUPP</a>, <a class="el" href="../../#l00229">BAG_FAMILY_MASK_SOUL_SHARDS</a>, <a class="el" href="../../#l00679">ItemTemplate::BagFamily</a>, <a class="el" href="../../#l00621">ItemTemplate::Class</a>, <a class="el" href="../../#l00292">ITEM_CLASS_CONTAINER</a>, <a class="el" href="../../#l00302">ITEM_CLASS_QUIVER</a>, <a class="el" href="../../#l00481">ITEM_SUBCLASS_AMMO_POUCH</a>, <a class="el" href="../../#l00329">ITEM_SUBCLASS_CONTAINER</a>, <a class="el" href="../../#l00332">ITEM_SUBCLASS_ENCHANTING_CONTAINER</a>, <a class="el" href="../../#l00333">ITEM_SUBCLASS_ENGINEERING_CONTAINER</a>, <a class="el" href="../../#l00334">ITEM_SUBCLASS_GEM_CONTAINER</a>, <a class="el" href="../../#l00331">ITEM_SUBCLASS_HERB_CONTAINER</a>, <a class="el" href="../../#l00337">ITEM_SUBCLASS_INSCRIPTION_CONTAINER</a>, <a class="el" href="../../#l00336">ITEM_SUBCLASS_LEATHERWORKING_CONTAINER</a>, <a class="el" href="../../#l00335">ITEM_SUBCLASS_MINING_CONTAINER</a>, <a class="el" href="../../#l00480">ITEM_SUBCLASS_QUIVER</a>, <a class="el" href="../../#l00330">ITEM_SUBCLASS_SOUL_CONTAINER</a>, and <a class="el" href="../../#l00622">ItemTemplate::SubClass</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00986">Player::CanStoreItem_InBag()</a>, <a class="el" href="../../#l00915">Player::CanStoreItem_InSpecificSlot()</a>, <a class="el" href="../../#l01545">Player::CanStoreItems()</a>, and <a class="el" href="../../#l03542">Player::SwapItem()</a>.</p>
+
+</div>
+</div>
+<a id="a402c3dd64769702b750f96adff4b3a14" name="a402c3dd64769702b750f96adff4b3a14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a402c3dd64769702b750f96adff4b3a14">&#9670;&#160;</a></span>RemoveItemsSetItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RemoveItemsSetItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/d53/a08360.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d6b/a08096.html">ItemTemplate</a> const *&#160;</td>
+          <td class="paramname"><em>proto</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  120</span>{</div>
+<div class="line"><span class="lineno">  121</span>    <a class="code hl_typedef" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> setid = proto-&gt;ItemSet;</div>
+<div class="line"><span class="lineno">  122</span> </div>
+<div class="line"><span class="lineno">  123</span>    <a class="code hl_struct" href="../../d3/d40/a28104.html">ItemSetEntry</a> <span class="keyword">const</span>* set = <a class="code hl_variable" href="../../d7/d6d/a01769.html#a1968d28bd1de03990d18d743025c65d9">sItemSetStore</a>.LookupEntry(setid);</div>
+<div class="line"><span class="lineno">  124</span> </div>
+<div class="line"><span class="lineno">  125</span>    <span class="keywordflow">if</span> (!set)</div>
+<div class="line"><span class="lineno">  126</span>    {</div>
+<div class="line"><span class="lineno">  127</span>        <a class="code hl_define" href="../../df/d03/a00062.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Item set #{} for item #{} not found, mods not removed.&quot;</span>, setid, proto-&gt;ItemId);</div>
+<div class="line"><span class="lineno">  128</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  129</span>    }</div>
+<div class="line"><span class="lineno">  130</span> </div>
+<div class="line"><span class="lineno">  131</span>    <a class="code hl_struct" href="../../dd/db6/a08068.html">ItemSetEffect</a>* eff = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  132</span>    std::size_t setindex = 0;</div>
+<div class="line"><span class="lineno">  133</span>    <span class="keywordflow">for</span> (; setindex &lt; player-&gt;<a class="code hl_variable" href="../../d1/d53/a08360.html#aaa4e36532b427efacc84c1910ac5f21d">ItemSetEff</a>.size(); setindex++)</div>
+<div class="line"><span class="lineno">  134</span>    {</div>
+<div class="line"><span class="lineno">  135</span>        <span class="keywordflow">if</span> (player-&gt;<a class="code hl_variable" href="../../d1/d53/a08360.html#aaa4e36532b427efacc84c1910ac5f21d">ItemSetEff</a>[setindex] &amp;&amp; player-&gt;<a class="code hl_variable" href="../../d1/d53/a08360.html#aaa4e36532b427efacc84c1910ac5f21d">ItemSetEff</a>[setindex]-&gt;setid == setid)</div>
+<div class="line"><span class="lineno">  136</span>        {</div>
+<div class="line"><span class="lineno">  137</span>            eff = player-&gt;<a class="code hl_variable" href="../../d1/d53/a08360.html#aaa4e36532b427efacc84c1910ac5f21d">ItemSetEff</a>[setindex];</div>
+<div class="line"><span class="lineno">  138</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  139</span>        }</div>
+<div class="line"><span class="lineno">  140</span>    }</div>
+<div class="line"><span class="lineno">  141</span> </div>
+<div class="line"><span class="lineno">  142</span>    <span class="comment">// can be in case now enough skill requirement for set appling but set has been appliend when skill requirement not enough</span></div>
+<div class="line"><span class="lineno">  143</span>    <span class="keywordflow">if</span> (!eff)</div>
+<div class="line"><span class="lineno">  144</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  145</span> </div>
+<div class="line"><span class="lineno">  146</span>    --eff-&gt;<a class="code hl_variable" href="../../dd/db6/a08068.html#a437fe00f34ad414e3c9f81d01a153d13">item_count</a>;</div>
+<div class="line"><span class="lineno">  147</span> </div>
+<div class="line"><span class="lineno">  148</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> x = 0; x &lt; <a class="code hl_define" href="../../de/dfb/a04616.html#a1d93d74d9cdf834a33735836824866e2">MAX_ITEM_SET_SPELLS</a>; x++)</div>
+<div class="line"><span class="lineno">  149</span>    {</div>
+<div class="line"><span class="lineno">  150</span>        <span class="keywordflow">if</span> (!set-&gt;<a class="code hl_variable" href="../../d3/d40/a28104.html#a8aac032992efe1bfbba0e49693562c7f">spells</a>[x])</div>
+<div class="line"><span class="lineno">  151</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  152</span> </div>
+<div class="line"><span class="lineno">  153</span>        <span class="comment">// enough for spell</span></div>
+<div class="line"><span class="lineno">  154</span>        <span class="keywordflow">if</span> (set-&gt;<a class="code hl_variable" href="../../d3/d40/a28104.html#a8496a2f3fa3e230def04b996fc585760">items_to_triggerspell</a>[x] &lt;= eff-&gt;<a class="code hl_variable" href="../../dd/db6/a08068.html#a437fe00f34ad414e3c9f81d01a153d13">item_count</a>)</div>
+<div class="line"><span class="lineno">  155</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  156</span> </div>
+<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> z = 0; z &lt; <a class="code hl_define" href="../../de/dfb/a04616.html#a1d93d74d9cdf834a33735836824866e2">MAX_ITEM_SET_SPELLS</a>; z++)</div>
+<div class="line"><span class="lineno">  158</span>        {</div>
+<div class="line"><span class="lineno">  159</span>            <span class="keywordflow">if</span> (eff-&gt;<a class="code hl_variable" href="../../dd/db6/a08068.html#af8156bad9771ed816fd861d3eb992aaa">spells</a>[z] &amp;&amp; eff-&gt;<a class="code hl_variable" href="../../dd/db6/a08068.html#af8156bad9771ed816fd861d3eb992aaa">spells</a>[z]-&gt;<a class="code hl_variable" href="../../d4/d06/a10868.html#a49bc14059c2bd3785231c52e0d54d382">Id</a> == set-&gt;<a class="code hl_variable" href="../../d3/d40/a28104.html#a8aac032992efe1bfbba0e49693562c7f">spells</a>[x])</div>
+<div class="line"><span class="lineno">  160</span>            {</div>
+<div class="line"><span class="lineno">  161</span>                <span class="comment">// spell can be not active if not fit form requirement</span></div>
+<div class="line"><span class="lineno">  162</span>                player-&gt;<a class="code hl_function" href="../../d1/d53/a08360.html#ac3bddb69d9b85161b770a8f56acae80b">ApplyEquipSpell</a>(eff-&gt;<a class="code hl_variable" href="../../dd/db6/a08068.html#af8156bad9771ed816fd861d3eb992aaa">spells</a>[z], <span class="keyword">nullptr</span>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  163</span>                eff-&gt;<a class="code hl_variable" href="../../dd/db6/a08068.html#af8156bad9771ed816fd861d3eb992aaa">spells</a>[z] = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  164</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  165</span>            }</div>
+<div class="line"><span class="lineno">  166</span>        }</div>
+<div class="line"><span class="lineno">  167</span>    }</div>
+<div class="line"><span class="lineno">  168</span> </div>
+<div class="line"><span class="lineno">  169</span>    <span class="keywordflow">if</span> (!eff-&gt;<a class="code hl_variable" href="../../dd/db6/a08068.html#a437fe00f34ad414e3c9f81d01a153d13">item_count</a>)                                    <span class="comment">//all items of a set were removed</span></div>
+<div class="line"><span class="lineno">  170</span>    {</div>
+<div class="line"><span class="lineno">  171</span>        <a class="code hl_define" href="../../d4/d1e/a00497.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(eff == player-&gt;<a class="code hl_variable" href="../../d1/d53/a08360.html#aaa4e36532b427efacc84c1910ac5f21d">ItemSetEff</a>[setindex]);</div>
+<div class="line"><span class="lineno">  172</span>        <span class="keyword">delete</span> eff;</div>
+<div class="line"><span class="lineno">  173</span>        player-&gt;<a class="code hl_variable" href="../../d1/d53/a08360.html#aaa4e36532b427efacc84c1910ac5f21d">ItemSetEff</a>[setindex] = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  174</span>    }</div>
+<div class="line"><span class="lineno">  175</span>}</div>
+<div class="ttc" id="aa00497_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../d4/d1e/a00497.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l07147">Player::ApplyEquipSpell()</a>, <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00320">SpellInfo::Id</a>, <a class="el" href="../../#l00034">ItemSetEffect::item_count</a>, <a class="el" href="../../#l00620">ItemTemplate::ItemId</a>, <a class="el" href="../../#l01239">ItemSetEntry::items_to_triggerspell</a>, <a class="el" href="../../#l00675">ItemTemplate::ItemSet</a>, <a class="el" href="../../#l02220">Player::ItemSetEff</a>, <a class="el" href="../../#l00156">LOG_ERROR</a>, <a class="el" href="../../#l01229">MAX_ITEM_SET_SPELLS</a>, <a class="el" href="../../d7/d6d/a01769.html#a1968d28bd1de03990d18d743025c65d9">sItemSetStore</a>, <a class="el" href="../../#l00035">ItemSetEffect::spells</a>, and <a class="el" href="../../#l01238">ItemSetEntry::spells</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l07514">Player::_RemoveAllItemMods()</a>, <a class="el" href="../../#l03029">Player::DestroyItem()</a>, and <a class="el" href="../../#l02905">Player::RemoveItem()</a>.</p>
 
 </div>
 </div>
@@ -523,8 +508,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_aa56e8ce1c3e0d32a59f1a16b86dbc72.html">Outland</a></li><li class="navelem"><a class="el" href="../../d7/d6e/a02273.html">zone_hellfire_peninsula.cpp</a></li>
-    <li class="footer">Generated on Mon Sep 16 2024 20:40:56 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_4b91de77c0d3c1b17ed3a22a8949a24f.html">Item</a></li><li class="navelem"><a class="el" href="../../d7/d6e/a02273.html">Item.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 23 2024 20:40:31 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

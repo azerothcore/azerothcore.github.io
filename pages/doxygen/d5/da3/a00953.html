@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Events/events_script_loader.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Conditions/DisableMgr.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,490 +105,177 @@ $(document).ready(function(){initNavTree('d5/da3/a00953.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">events_script_loader.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">DisableMgr.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Map.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">VMapMgr2.h</a>&quot;</code><br />
+</div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d4/d03/a04711"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html">DisableMgr</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:affa2a0d7ee61f6e1bc7c6cb7d2c1b64c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64c">DisableType</a> { <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca0f70e5147b74bccf96a1ff907ae92c27">DISABLE_TYPE_SPELL</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca53c0091b82a6fc9bc32393f75af1e49e">DISABLE_TYPE_QUEST</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca7401630edc869fdab991560043243d9c">DISABLE_TYPE_MAP</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca9f1b696021b5e159000a608fdfb2e96a">DISABLE_TYPE_BATTLEGROUND</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64caa8a9feebca9f0cf6b1c70617fc0687d1">DISABLE_TYPE_ACHIEVEMENT_CRITERIA</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64caf73f51beb622b9096abd95821ac52296">DISABLE_TYPE_OUTDOORPVP</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca3aa1423c0ff6356f4e839a98f97a4aff">DISABLE_TYPE_VMAP</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64caf195730ac264e79a67da287555f7c11a">DISABLE_TYPE_GO_LOS</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64cae2e40d752bc7848f3d68d28642b4ea68">DISABLE_TYPE_LFG_MAP</a> = 8
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64cad7a3460f1783f4ff25dfd3a6e5416ff0">DISABLE_TYPE_GAME_EVENT</a> = 9
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64cac7febee075c9e0d687bd322cd0798f2f">DISABLE_TYPE_LOOT</a> = 10
+<br />
+ }</td></tr>
+<tr class="separator:affa2a0d7ee61f6e1bc7c6cb7d2c1b64c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b9e8ca1dcd13802fa528f955deaefd7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7">SpellDisableTypes</a> { <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7aad7fc2c20248b5ccc6c7af46c0627a41">SPELL_DISABLE_PLAYER</a> = 0x1
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7a1af9f400d91b09580b35048cb1ffa707">SPELL_DISABLE_CREATURE</a> = 0x2
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7a69cb584bf80eea477b207020b21810e4">SPELL_DISABLE_PET</a> = 0x4
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7abf8d2121280a5024433b90335617ad2b">SPELL_DISABLE_DEPRECATED_SPELL</a> = 0x8
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7a814538087543158616640736f8511484">SPELL_DISABLE_MAP</a> = 0x10
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7af0b7760e1bbbca07ae256ffe853a0268">SPELL_DISABLE_AREA</a> = 0x20
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7a1a78c3d652ddec71707bf22ec83df437">SPELL_DISABLE_LOS</a> = 0x40
+, <br />
+&#160;&#160;<a class="el" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7ac556c5fec4ec5e1fb62f6f2a5904926d">MAX_SPELL_DISABLE_TYPE</a>
+<br />
+ }</td></tr>
+<tr class="separator:a7b9e8ca1dcd13802fa528f955deaefd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7b95e86ce715aad734d059cfc0cf88d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.html#a7b95e86ce715aad734d059cfc0cf88d7">AddSC_event_brewfest_scripts</a> ()</td></tr>
-<tr class="separator:a7b95e86ce715aad734d059cfc0cf88d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70705fe4a0f9a88d8f185363054af273"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.html#a70705fe4a0f9a88d8f185363054af273">AddSC_event_hallows_end_scripts</a> ()</td></tr>
-<tr class="separator:a70705fe4a0f9a88d8f185363054af273"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e59953c9b1731e315c9c6b9148a88e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.html#a8e59953c9b1731e315c9c6b9148a88e6">AddSC_event_pilgrims_end_scripts</a> ()</td></tr>
-<tr class="separator:a8e59953c9b1731e315c9c6b9148a88e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56e93f0f5c0f4763c439d5ea4cdf6c5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.html#a56e93f0f5c0f4763c439d5ea4cdf6c5e">AddSC_event_winter_veil_scripts</a> ()</td></tr>
-<tr class="separator:a56e93f0f5c0f4763c439d5ea4cdf6c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd28b6b284f9e0f8caa1194e2dc904f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.html#acd28b6b284f9e0f8caa1194e2dc904f8">AddSC_event_love_in_the_air</a> ()</td></tr>
-<tr class="separator:acd28b6b284f9e0f8caa1194e2dc904f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc17dd3d30524a3c73b564d6eed54f1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.html#adc17dd3d30524a3c73b564d6eed54f1c">AddSC_event_midsummer_scripts</a> ()</td></tr>
-<tr class="separator:adc17dd3d30524a3c73b564d6eed54f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a832536a026ab4dad8df7bb48ad0493fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.html#a832536a026ab4dad8df7bb48ad0493fc">AddSC_event_childrens_week</a> ()</td></tr>
-<tr class="separator:a832536a026ab4dad8df7bb48ad0493fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7a6296c13b6615a14e0823fe7e5b577"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.html#af7a6296c13b6615a14e0823fe7e5b577">AddSC_event_firework_show_scripts</a> ()</td></tr>
-<tr class="separator:af7a6296c13b6615a14e0823fe7e5b577"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b00ce0eeb1dcf64dc867f4bce623416"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da3/a00953.html#a5b00ce0eeb1dcf64dc867f4bce623416">AddEventsScripts</a> ()</td></tr>
-<tr class="separator:a5b00ce0eeb1dcf64dc867f4bce623416"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb464165caf6cd436499fa84969eeaf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#adb464165caf6cd436499fa84969eeaf8">DisableMgr::LoadDisables</a> ()</td></tr>
+<tr class="separator:adb464165caf6cd436499fa84969eeaf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6673bbc719c96febfc86a4220a988ed0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a6673bbc719c96febfc86a4220a988ed0">DisableMgr::IsDisabledFor</a> (<a class="el" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64c">DisableType</a> type, <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> entry, <a class="el" href="../../d8/dc4/a08492.html">Unit</a> const *unit, <a class="el" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> flags)</td></tr>
+<tr class="separator:a6673bbc719c96febfc86a4220a988ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f9fa5dadf6f2da5f01651d37d996377"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a2f9fa5dadf6f2da5f01651d37d996377">DisableMgr::CheckQuestDisables</a> ()</td></tr>
+<tr class="separator:a2f9fa5dadf6f2da5f01651d37d996377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b182e1836b2197303b2809006f5148"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a38b182e1836b2197303b2809006f5148">DisableMgr::IsVMAPDisabledFor</a> (<a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> entry, <a class="el" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> flags)</td></tr>
+<tr class="separator:a38b182e1836b2197303b2809006f5148"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a338e6f295d785a4f9256703ffbd71"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#ad6a338e6f295d785a4f9256703ffbd71">DisableMgr::IsPathfindingEnabled</a> (const <a class="el" href="../../d4/d0b/a09508.html">Map</a> *map)</td></tr>
+<tr class="separator:ad6a338e6f295d785a4f9256703ffbd71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a5b00ce0eeb1dcf64dc867f4bce623416" name="a5b00ce0eeb1dcf64dc867f4bce623416"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b00ce0eeb1dcf64dc867f4bce623416">&#9670;&#160;</a></span>AddEventsScripts()</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="affa2a0d7ee61f6e1bc7c6cb7d2c1b64c" name="affa2a0d7ee61f6e1bc7c6cb7d2c1b64c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affa2a0d7ee61f6e1bc7c6cb7d2c1b64c">&#9670;&#160;</a></span>DisableType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddEventsScripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">enum <a class="el" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64c">DisableType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_function" href="../../d5/da3/a00953.html#a7b95e86ce715aad734d059cfc0cf88d7">AddSC_event_brewfest_scripts</a>();</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_function" href="../../d5/da3/a00953.html#a70705fe4a0f9a88d8f185363054af273">AddSC_event_hallows_end_scripts</a>();</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_function" href="../../d5/da3/a00953.html#a8e59953c9b1731e315c9c6b9148a88e6">AddSC_event_pilgrims_end_scripts</a>();</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_function" href="../../d5/da3/a00953.html#a56e93f0f5c0f4763c439d5ea4cdf6c5e">AddSC_event_winter_veil_scripts</a>();</div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_function" href="../../d5/da3/a00953.html#acd28b6b284f9e0f8caa1194e2dc904f8">AddSC_event_love_in_the_air</a>();</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_function" href="../../d5/da3/a00953.html#adc17dd3d30524a3c73b564d6eed54f1c">AddSC_event_midsummer_scripts</a>();</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_function" href="../../d5/da3/a00953.html#a832536a026ab4dad8df7bb48ad0493fc">AddSC_event_childrens_week</a>();</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_function" href="../../d5/da3/a00953.html#af7a6296c13b6615a14e0823fe7e5b577">AddSC_event_firework_show_scripts</a>();</div>
-<div class="line"><span class="lineno">   40</span>}</div>
-<div class="ttc" id="aa00953_html_a56e93f0f5c0f4763c439d5ea4cdf6c5e"><div class="ttname"><a href="../../d5/da3/a00953.html#a56e93f0f5c0f4763c439d5ea4cdf6c5e">AddSC_event_winter_veil_scripts</a></div><div class="ttdeci">void AddSC_event_winter_veil_scripts()</div><div class="ttdef"><b>Definition:</b> winter_veil.cpp:260</div></div>
-<div class="ttc" id="aa00953_html_a70705fe4a0f9a88d8f185363054af273"><div class="ttname"><a href="../../d5/da3/a00953.html#a70705fe4a0f9a88d8f185363054af273">AddSC_event_hallows_end_scripts</a></div><div class="ttdeci">void AddSC_event_hallows_end_scripts()</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:1495</div></div>
-<div class="ttc" id="aa00953_html_a7b95e86ce715aad734d059cfc0cf88d7"><div class="ttname"><a href="../../d5/da3/a00953.html#a7b95e86ce715aad734d059cfc0cf88d7">AddSC_event_brewfest_scripts</a></div><div class="ttdeci">void AddSC_event_brewfest_scripts()</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:2060</div></div>
-<div class="ttc" id="aa00953_html_a832536a026ab4dad8df7bb48ad0493fc"><div class="ttname"><a href="../../d5/da3/a00953.html#a832536a026ab4dad8df7bb48ad0493fc">AddSC_event_childrens_week</a></div><div class="ttdeci">void AddSC_event_childrens_week()</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:962</div></div>
-<div class="ttc" id="aa00953_html_a8e59953c9b1731e315c9c6b9148a88e6"><div class="ttname"><a href="../../d5/da3/a00953.html#a8e59953c9b1731e315c9c6b9148a88e6">AddSC_event_pilgrims_end_scripts</a></div><div class="ttdeci">void AddSC_event_pilgrims_end_scripts()</div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:669</div></div>
-<div class="ttc" id="aa00953_html_acd28b6b284f9e0f8caa1194e2dc904f8"><div class="ttname"><a href="../../d5/da3/a00953.html#acd28b6b284f9e0f8caa1194e2dc904f8">AddSC_event_love_in_the_air</a></div><div class="ttdeci">void AddSC_event_love_in_the_air()</div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:486</div></div>
-<div class="ttc" id="aa00953_html_adc17dd3d30524a3c73b564d6eed54f1c"><div class="ttname"><a href="../../d5/da3/a00953.html#adc17dd3d30524a3c73b564d6eed54f1c">AddSC_event_midsummer_scripts</a></div><div class="ttdeci">void AddSC_event_midsummer_scripts()</div><div class="ttdef"><b>Definition:</b> midsummer.cpp:1287</div></div>
-<div class="ttc" id="aa00953_html_af7a6296c13b6615a14e0823fe7e5b577"><div class="ttname"><a href="../../d5/da3/a00953.html#af7a6296c13b6615a14e0823fe7e5b577">AddSC_event_firework_show_scripts</a></div><div class="ttdeci">void AddSC_event_firework_show_scripts()</div><div class="ttdef"><b>Definition:</b> firework_show.cpp:210</div></div>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca0f70e5147b74bccf96a1ff907ae92c27" name="affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca0f70e5147b74bccf96a1ff907ae92c27"></a>DISABLE_TYPE_SPELL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca53c0091b82a6fc9bc32393f75af1e49e" name="affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca53c0091b82a6fc9bc32393f75af1e49e"></a>DISABLE_TYPE_QUEST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca7401630edc869fdab991560043243d9c" name="affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca7401630edc869fdab991560043243d9c"></a>DISABLE_TYPE_MAP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca9f1b696021b5e159000a608fdfb2e96a" name="affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca9f1b696021b5e159000a608fdfb2e96a"></a>DISABLE_TYPE_BATTLEGROUND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="affa2a0d7ee61f6e1bc7c6cb7d2c1b64caa8a9feebca9f0cf6b1c70617fc0687d1" name="affa2a0d7ee61f6e1bc7c6cb7d2c1b64caa8a9feebca9f0cf6b1c70617fc0687d1"></a>DISABLE_TYPE_ACHIEVEMENT_CRITERIA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="affa2a0d7ee61f6e1bc7c6cb7d2c1b64caf73f51beb622b9096abd95821ac52296" name="affa2a0d7ee61f6e1bc7c6cb7d2c1b64caf73f51beb622b9096abd95821ac52296"></a>DISABLE_TYPE_OUTDOORPVP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca3aa1423c0ff6356f4e839a98f97a4aff" name="affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca3aa1423c0ff6356f4e839a98f97a4aff"></a>DISABLE_TYPE_VMAP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="affa2a0d7ee61f6e1bc7c6cb7d2c1b64caf195730ac264e79a67da287555f7c11a" name="affa2a0d7ee61f6e1bc7c6cb7d2c1b64caf195730ac264e79a67da287555f7c11a"></a>DISABLE_TYPE_GO_LOS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="affa2a0d7ee61f6e1bc7c6cb7d2c1b64cae2e40d752bc7848f3d68d28642b4ea68" name="affa2a0d7ee61f6e1bc7c6cb7d2c1b64cae2e40d752bc7848f3d68d28642b4ea68"></a>DISABLE_TYPE_LFG_MAP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="affa2a0d7ee61f6e1bc7c6cb7d2c1b64cad7a3460f1783f4ff25dfd3a6e5416ff0" name="affa2a0d7ee61f6e1bc7c6cb7d2c1b64cad7a3460f1783f4ff25dfd3a6e5416ff0"></a>DISABLE_TYPE_GAME_EVENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="affa2a0d7ee61f6e1bc7c6cb7d2c1b64cac7febee075c9e0d687bd322cd0798f2f" name="affa2a0d7ee61f6e1bc7c6cb7d2c1b64cac7febee075c9e0d687bd322cd0798f2f"></a>DISABLE_TYPE_LOOT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca0f70e5147b74bccf96a1ff907ae92c27">DISABLE_TYPE_SPELL</a>                  = 0,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca53c0091b82a6fc9bc32393f75af1e49e">DISABLE_TYPE_QUEST</a>                  = 1,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca7401630edc869fdab991560043243d9c">DISABLE_TYPE_MAP</a>                    = 2,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca9f1b696021b5e159000a608fdfb2e96a">DISABLE_TYPE_BATTLEGROUND</a>           = 3,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64caa8a9feebca9f0cf6b1c70617fc0687d1">DISABLE_TYPE_ACHIEVEMENT_CRITERIA</a>   = 4,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64caf73f51beb622b9096abd95821ac52296">DISABLE_TYPE_OUTDOORPVP</a>             = 5,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca3aa1423c0ff6356f4e839a98f97a4aff">DISABLE_TYPE_VMAP</a>                   = 6,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64caf195730ac264e79a67da287555f7c11a">DISABLE_TYPE_GO_LOS</a>                 = 7,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64cae2e40d752bc7848f3d68d28642b4ea68">DISABLE_TYPE_LFG_MAP</a>                = 8,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64cad7a3460f1783f4ff25dfd3a6e5416ff0">DISABLE_TYPE_GAME_EVENT</a>             = 9,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64cac7febee075c9e0d687bd322cd0798f2f">DISABLE_TYPE_LOOT</a>                   = 10</div>
+<div class="line"><span class="lineno">   40</span>};</div>
+<div class="ttc" id="aa00953_html_affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca0f70e5147b74bccf96a1ff907ae92c27"><div class="ttname"><a href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca0f70e5147b74bccf96a1ff907ae92c27">DISABLE_TYPE_SPELL</a></div><div class="ttdeci">@ DISABLE_TYPE_SPELL</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:29</div></div>
+<div class="ttc" id="aa00953_html_affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca3aa1423c0ff6356f4e839a98f97a4aff"><div class="ttname"><a href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca3aa1423c0ff6356f4e839a98f97a4aff">DISABLE_TYPE_VMAP</a></div><div class="ttdeci">@ DISABLE_TYPE_VMAP</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:35</div></div>
+<div class="ttc" id="aa00953_html_affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca53c0091b82a6fc9bc32393f75af1e49e"><div class="ttname"><a href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca53c0091b82a6fc9bc32393f75af1e49e">DISABLE_TYPE_QUEST</a></div><div class="ttdeci">@ DISABLE_TYPE_QUEST</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:30</div></div>
+<div class="ttc" id="aa00953_html_affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca7401630edc869fdab991560043243d9c"><div class="ttname"><a href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca7401630edc869fdab991560043243d9c">DISABLE_TYPE_MAP</a></div><div class="ttdeci">@ DISABLE_TYPE_MAP</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:31</div></div>
+<div class="ttc" id="aa00953_html_affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca9f1b696021b5e159000a608fdfb2e96a"><div class="ttname"><a href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64ca9f1b696021b5e159000a608fdfb2e96a">DISABLE_TYPE_BATTLEGROUND</a></div><div class="ttdeci">@ DISABLE_TYPE_BATTLEGROUND</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:32</div></div>
+<div class="ttc" id="aa00953_html_affa2a0d7ee61f6e1bc7c6cb7d2c1b64caa8a9feebca9f0cf6b1c70617fc0687d1"><div class="ttname"><a href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64caa8a9feebca9f0cf6b1c70617fc0687d1">DISABLE_TYPE_ACHIEVEMENT_CRITERIA</a></div><div class="ttdeci">@ DISABLE_TYPE_ACHIEVEMENT_CRITERIA</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:33</div></div>
+<div class="ttc" id="aa00953_html_affa2a0d7ee61f6e1bc7c6cb7d2c1b64cac7febee075c9e0d687bd322cd0798f2f"><div class="ttname"><a href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64cac7febee075c9e0d687bd322cd0798f2f">DISABLE_TYPE_LOOT</a></div><div class="ttdeci">@ DISABLE_TYPE_LOOT</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:39</div></div>
+<div class="ttc" id="aa00953_html_affa2a0d7ee61f6e1bc7c6cb7d2c1b64cad7a3460f1783f4ff25dfd3a6e5416ff0"><div class="ttname"><a href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64cad7a3460f1783f4ff25dfd3a6e5416ff0">DISABLE_TYPE_GAME_EVENT</a></div><div class="ttdeci">@ DISABLE_TYPE_GAME_EVENT</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:38</div></div>
+<div class="ttc" id="aa00953_html_affa2a0d7ee61f6e1bc7c6cb7d2c1b64cae2e40d752bc7848f3d68d28642b4ea68"><div class="ttname"><a href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64cae2e40d752bc7848f3d68d28642b4ea68">DISABLE_TYPE_LFG_MAP</a></div><div class="ttdeci">@ DISABLE_TYPE_LFG_MAP</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:37</div></div>
+<div class="ttc" id="aa00953_html_affa2a0d7ee61f6e1bc7c6cb7d2c1b64caf195730ac264e79a67da287555f7c11a"><div class="ttname"><a href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64caf195730ac264e79a67da287555f7c11a">DISABLE_TYPE_GO_LOS</a></div><div class="ttdeci">@ DISABLE_TYPE_GO_LOS</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:36</div></div>
+<div class="ttc" id="aa00953_html_affa2a0d7ee61f6e1bc7c6cb7d2c1b64caf73f51beb622b9096abd95821ac52296"><div class="ttname"><a href="../../d5/da3/a00953.html#affa2a0d7ee61f6e1bc7c6cb7d2c1b64caf73f51beb622b9096abd95821ac52296">DISABLE_TYPE_OUTDOORPVP</a></div><div class="ttdeci">@ DISABLE_TYPE_OUTDOORPVP</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:34</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l02060">AddSC_event_brewfest_scripts()</a>, <a class="el" href="../../#l00962">AddSC_event_childrens_week()</a>, <a class="el" href="../../#l00210">AddSC_event_firework_show_scripts()</a>, <a class="el" href="../../#l01495">AddSC_event_hallows_end_scripts()</a>, <a class="el" href="../../#l00486">AddSC_event_love_in_the_air()</a>, <a class="el" href="../../#l01287">AddSC_event_midsummer_scripts()</a>, <a class="el" href="../../#l00669">AddSC_event_pilgrims_end_scripts()</a>, and <a class="el" href="../../#l00260">AddSC_event_winter_veil_scripts()</a>.</p>
-
 </div>
 </div>
-<a id="a7b95e86ce715aad734d059cfc0cf88d7" name="a7b95e86ce715aad734d059cfc0cf88d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b95e86ce715aad734d059cfc0cf88d7">&#9670;&#160;</a></span>AddSC_event_brewfest_scripts()</h2>
+<a id="a7b9e8ca1dcd13802fa528f955deaefd7" name="a7b9e8ca1dcd13802fa528f955deaefd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b9e8ca1dcd13802fa528f955deaefd7">&#9670;&#160;</a></span>SpellDisableTypes</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_event_brewfest_scripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">enum <a class="el" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7">SpellDisableTypes</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 2061</span>{</div>
-<div class="line"><span class="lineno"> 2062</span>    <span class="comment">// Npcs</span></div>
-<div class="line"><span class="lineno"> 2063</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../dd/dc7/a13980.html">npc_brewfest_keg_thrower</a>);</div>
-<div class="line"><span class="lineno"> 2064</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../de/d90/a13984.html">npc_brewfest_keg_reciver</a>);</div>
-<div class="line"><span class="lineno"> 2065</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../db/d48/a13988.html">npc_brewfest_bark_trigger</a>);</div>
-<div class="line"><span class="lineno"> 2066</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../db/d8e/a13992.html">npc_dark_iron_attack_generator</a>);</div>
-<div class="line"><span class="lineno"> 2067</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d7/d07/a13996.html">npc_dark_iron_attack_mole_machine</a>);</div>
-<div class="line"><span class="lineno"> 2068</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../de/d48/a14000.html">npc_dark_iron_guzzler</a>);</div>
-<div class="line"><span class="lineno"> 2069</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../de/d32/a14004.html">npc_brewfest_super_brew_trigger</a>);</div>
-<div class="line"><span class="lineno"> 2070</span> </div>
-<div class="line"><span class="lineno"> 2071</span>    <span class="comment">// Spells</span></div>
-<div class="line"><span class="lineno"> 2072</span>    <span class="comment">// ram</span></div>
-<div class="line"><span class="lineno"> 2073</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../db/dc6/a14008.html">spell_brewfest_main_ram_buff</a>);</div>
-<div class="line"><span class="lineno"> 2074</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../da/d46/a14012.html">spell_brewfest_ram_fatigue</a>);</div>
-<div class="line"><span class="lineno"> 2075</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../db/dea/a14016.html">spell_brewfest_apple_trap</a>);</div>
-<div class="line"><span class="lineno"> 2076</span>    <span class="comment">// other</span></div>
-<div class="line"><span class="lineno"> 2077</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../de/dcb/a14020.html">spell_catch_the_wild_wolpertinger</a>);</div>
-<div class="line"><span class="lineno"> 2078</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d8/d6a/a14024.html">spell_brewfest_fill_keg</a>);</div>
-<div class="line"><span class="lineno"> 2079</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d7/d9c/a14028.html">spell_brewfest_unfill_keg</a>);</div>
-<div class="line"><span class="lineno"> 2080</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../dc/db8/a14032.html">spell_brewfest_toss_mug</a>);</div>
-<div class="line"><span class="lineno"> 2081</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../de/d7b/a14036.html">spell_brewfest_add_mug</a>);</div>
-<div class="line"><span class="lineno"> 2082</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d9/d96/a14044.html">spell_brewfest_reveler_transform</a>);</div>
-<div class="line"><span class="lineno"> 2083</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d9/dc8/a14048.html">spell_brewfest_relay_race_force_cast</a>);</div>
-<div class="line"><span class="lineno"> 2084</span> </div>
-<div class="line"><span class="lineno"> 2085</span>    <span class="comment">// beer effect</span></div>
-<div class="line"><span class="lineno"> 2086</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d4/d75/a14040.html">npc_brew_bubble</a>);</div>
-<div class="line"><span class="lineno"> 2087</span> </div>
-<div class="line"><span class="lineno"> 2088</span>    <span class="comment">// Coren Direbrew</span></div>
-<div class="line"><span class="lineno"> 2089</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d6/de7/a14052.html">npc_coren_direbrew</a>);</div>
-<div class="line"><span class="lineno"> 2090</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../df/d0c/a14056.html">npc_coren_direbrew_sisters</a>);</div>
-<div class="line"><span class="lineno"> 2091</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d9/d6c/a14060.html">npc_direbrew_minion</a>);</div>
-<div class="line"><span class="lineno"> 2092</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d0/d9c/a14064.html">npc_direbrew_antagonist</a>);</div>
-<div class="line"><span class="lineno"> 2093</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/d50/a14068.html">go_direbrew_mole_machine</a>();</div>
-<div class="line"><span class="lineno"> 2094</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d7/d77/a14076.html">spell_direbrew_summon_mole_machine_target_picker</a>);</div>
-<div class="line"><span class="lineno"> 2095</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../dc/df8/a14080.html">spell_send_mug_target_picker</a>);</div>
-<div class="line"><span class="lineno"> 2096</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../df/d3e/a14084.html">spell_request_second_mug</a>);</div>
-<div class="line"><span class="lineno"> 2097</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d7/da2/a14088.html">spell_send_mug_control_aura</a>);</div>
-<div class="line"><span class="lineno"> 2098</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d6/dd2/a14092.html">spell_barreled_control_aura</a>);</div>
-<div class="line"><span class="lineno"> 2099</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d4/df9/a14096.html">spell_direbrew_disarm</a>);</div>
-<div class="line"><span class="lineno"> 2100</span>}</div>
-<div class="ttc" id="aa04256_html_ae221e5976ab29ba14fec3b073a03670f"><div class="ttname"><a href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a></div><div class="ttdeci">#define RegisterSpellScript(spell_script)</div><div class="ttdef"><b>Definition:</b> SpellScriptLoader.h:88</div></div>
-<div class="ttc" id="aa04316_html_a5e7352841895df7117e2830448eb533f"><div class="ttname"><a href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a></div><div class="ttdeci">#define RegisterCreatureAI(ai_name)</div><div class="ttdef"><b>Definition:</b> CreatureScript.h:71</div></div>
-<div class="ttc" id="aa13980_html"><div class="ttname"><a href="../../dd/dc7/a13980.html">npc_brewfest_keg_thrower</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:64</div></div>
-<div class="ttc" id="aa13984_html"><div class="ttname"><a href="../../de/d90/a13984.html">npc_brewfest_keg_reciver</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:88</div></div>
-<div class="ttc" id="aa13988_html"><div class="ttname"><a href="../../db/d48/a13988.html">npc_brewfest_bark_trigger</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:147</div></div>
-<div class="ttc" id="aa13992_html"><div class="ttname"><a href="../../db/d8e/a13992.html">npc_dark_iron_attack_generator</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:302</div></div>
-<div class="ttc" id="aa13996_html"><div class="ttname"><a href="../../d7/d07/a13996.html">npc_dark_iron_attack_mole_machine</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:562</div></div>
-<div class="ttc" id="aa14000_html"><div class="ttname"><a href="../../de/d48/a14000.html">npc_dark_iron_guzzler</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:612</div></div>
-<div class="ttc" id="aa14004_html"><div class="ttname"><a href="../../de/d32/a14004.html">npc_brewfest_super_brew_trigger</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:769</div></div>
-<div class="ttc" id="aa14008_html"><div class="ttname"><a href="../../db/dc6/a14008.html">spell_brewfest_main_ram_buff</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:826</div></div>
-<div class="ttc" id="aa14012_html"><div class="ttname"><a href="../../da/d46/a14012.html">spell_brewfest_ram_fatigue</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:961</div></div>
-<div class="ttc" id="aa14016_html"><div class="ttname"><a href="../../db/dea/a14016.html">spell_brewfest_apple_trap</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1011</div></div>
-<div class="ttc" id="aa14020_html"><div class="ttname"><a href="../../de/dcb/a14020.html">spell_catch_the_wild_wolpertinger</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1044</div></div>
-<div class="ttc" id="aa14024_html"><div class="ttname"><a href="../../d8/d6a/a14024.html">spell_brewfest_fill_keg</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1073</div></div>
-<div class="ttc" id="aa14028_html"><div class="ttname"><a href="../../d7/d9c/a14028.html">spell_brewfest_unfill_keg</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1115</div></div>
-<div class="ttc" id="aa14032_html"><div class="ttname"><a href="../../dc/db8/a14032.html">spell_brewfest_toss_mug</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1171</div></div>
-<div class="ttc" id="aa14036_html"><div class="ttname"><a href="../../de/d7b/a14036.html">spell_brewfest_add_mug</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1291</div></div>
-<div class="ttc" id="aa14040_html"><div class="ttname"><a href="../../d4/d75/a14040.html">npc_brew_bubble</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1312</div></div>
-<div class="ttc" id="aa14044_html"><div class="ttname"><a href="../../d9/d96/a14044.html">spell_brewfest_reveler_transform</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1384</div></div>
-<div class="ttc" id="aa14048_html"><div class="ttname"><a href="../../d9/dc8/a14048.html">spell_brewfest_relay_race_force_cast</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1418</div></div>
-<div class="ttc" id="aa14052_html"><div class="ttname"><a href="../../d6/de7/a14052.html">npc_coren_direbrew</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1532</div></div>
-<div class="ttc" id="aa14056_html"><div class="ttname"><a href="../../df/d0c/a14056.html">npc_coren_direbrew_sisters</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1742</div></div>
-<div class="ttc" id="aa14060_html"><div class="ttname"><a href="../../d9/d6c/a14060.html">npc_direbrew_minion</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1805</div></div>
-<div class="ttc" id="aa14064_html"><div class="ttname"><a href="../../d0/d9c/a14064.html">npc_direbrew_antagonist</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1827</div></div>
-<div class="ttc" id="aa14068_html"><div class="ttname"><a href="../../da/d50/a14068.html">go_direbrew_mole_machine</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1858</div></div>
-<div class="ttc" id="aa14076_html"><div class="ttname"><a href="../../d7/d77/a14076.html">spell_direbrew_summon_mole_machine_target_picker</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1902</div></div>
-<div class="ttc" id="aa14080_html"><div class="ttname"><a href="../../dc/df8/a14080.html">spell_send_mug_target_picker</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1923</div></div>
-<div class="ttc" id="aa14084_html"><div class="ttname"><a href="../../df/d3e/a14084.html">spell_request_second_mug</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1971</div></div>
-<div class="ttc" id="aa14088_html"><div class="ttname"><a href="../../d7/da2/a14088.html">spell_send_mug_control_aura</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1992</div></div>
-<div class="ttc" id="aa14092_html"><div class="ttname"><a href="../../d6/dd2/a14092.html">spell_barreled_control_aura</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:2013</div></div>
-<div class="ttc" id="aa14096_html"><div class="ttname"><a href="../../d4/df9/a14096.html">spell_direbrew_disarm</a></div><div class="ttdef"><b>Definition:</b> brewfest.cpp:2030</div></div>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7b9e8ca1dcd13802fa528f955deaefd7aad7fc2c20248b5ccc6c7af46c0627a41" name="a7b9e8ca1dcd13802fa528f955deaefd7aad7fc2c20248b5ccc6c7af46c0627a41"></a>SPELL_DISABLE_PLAYER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7b9e8ca1dcd13802fa528f955deaefd7a1af9f400d91b09580b35048cb1ffa707" name="a7b9e8ca1dcd13802fa528f955deaefd7a1af9f400d91b09580b35048cb1ffa707"></a>SPELL_DISABLE_CREATURE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7b9e8ca1dcd13802fa528f955deaefd7a69cb584bf80eea477b207020b21810e4" name="a7b9e8ca1dcd13802fa528f955deaefd7a69cb584bf80eea477b207020b21810e4"></a>SPELL_DISABLE_PET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7b9e8ca1dcd13802fa528f955deaefd7abf8d2121280a5024433b90335617ad2b" name="a7b9e8ca1dcd13802fa528f955deaefd7abf8d2121280a5024433b90335617ad2b"></a>SPELL_DISABLE_DEPRECATED_SPELL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7b9e8ca1dcd13802fa528f955deaefd7a814538087543158616640736f8511484" name="a7b9e8ca1dcd13802fa528f955deaefd7a814538087543158616640736f8511484"></a>SPELL_DISABLE_MAP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7b9e8ca1dcd13802fa528f955deaefd7af0b7760e1bbbca07ae256ffe853a0268" name="a7b9e8ca1dcd13802fa528f955deaefd7af0b7760e1bbbca07ae256ffe853a0268"></a>SPELL_DISABLE_AREA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7b9e8ca1dcd13802fa528f955deaefd7a1a78c3d652ddec71707bf22ec83df437" name="a7b9e8ca1dcd13802fa528f955deaefd7a1a78c3d652ddec71707bf22ec83df437"></a>SPELL_DISABLE_LOS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7b9e8ca1dcd13802fa528f955deaefd7ac556c5fec4ec5e1fb62f6f2a5904926d" name="a7b9e8ca1dcd13802fa528f955deaefd7ac556c5fec4ec5e1fb62f6f2a5904926d"></a>MAX_SPELL_DISABLE_TYPE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   43</span>{</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7aad7fc2c20248b5ccc6c7af46c0627a41">SPELL_DISABLE_PLAYER</a>            = 0x1,</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7a1af9f400d91b09580b35048cb1ffa707">SPELL_DISABLE_CREATURE</a>          = 0x2,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7a69cb584bf80eea477b207020b21810e4">SPELL_DISABLE_PET</a>               = 0x4,</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7abf8d2121280a5024433b90335617ad2b">SPELL_DISABLE_DEPRECATED_SPELL</a>  = 0x8,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7a814538087543158616640736f8511484">SPELL_DISABLE_MAP</a>               = 0x10,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7af0b7760e1bbbca07ae256ffe853a0268">SPELL_DISABLE_AREA</a>              = 0x20,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7a1a78c3d652ddec71707bf22ec83df437">SPELL_DISABLE_LOS</a>               = 0x40,</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7ac556c5fec4ec5e1fb62f6f2a5904926d">MAX_SPELL_DISABLE_TYPE</a> = (  <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7aad7fc2c20248b5ccc6c7af46c0627a41">SPELL_DISABLE_PLAYER</a> | <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7a1af9f400d91b09580b35048cb1ffa707">SPELL_DISABLE_CREATURE</a> | <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7a69cb584bf80eea477b207020b21810e4">SPELL_DISABLE_PET</a> |</div>
+<div class="line"><span class="lineno">   52</span>                                <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7abf8d2121280a5024433b90335617ad2b">SPELL_DISABLE_DEPRECATED_SPELL</a> | <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7a814538087543158616640736f8511484">SPELL_DISABLE_MAP</a> | <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7af0b7760e1bbbca07ae256ffe853a0268">SPELL_DISABLE_AREA</a> |</div>
+<div class="line"><span class="lineno">   53</span>                                <a class="code hl_enumvalue" href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7a1a78c3d652ddec71707bf22ec83df437">SPELL_DISABLE_LOS</a>)</div>
+<div class="line"><span class="lineno">   54</span>};</div>
+<div class="ttc" id="aa00953_html_a7b9e8ca1dcd13802fa528f955deaefd7a1a78c3d652ddec71707bf22ec83df437"><div class="ttname"><a href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7a1a78c3d652ddec71707bf22ec83df437">SPELL_DISABLE_LOS</a></div><div class="ttdeci">@ SPELL_DISABLE_LOS</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:50</div></div>
+<div class="ttc" id="aa00953_html_a7b9e8ca1dcd13802fa528f955deaefd7a1af9f400d91b09580b35048cb1ffa707"><div class="ttname"><a href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7a1af9f400d91b09580b35048cb1ffa707">SPELL_DISABLE_CREATURE</a></div><div class="ttdeci">@ SPELL_DISABLE_CREATURE</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:45</div></div>
+<div class="ttc" id="aa00953_html_a7b9e8ca1dcd13802fa528f955deaefd7a69cb584bf80eea477b207020b21810e4"><div class="ttname"><a href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7a69cb584bf80eea477b207020b21810e4">SPELL_DISABLE_PET</a></div><div class="ttdeci">@ SPELL_DISABLE_PET</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:46</div></div>
+<div class="ttc" id="aa00953_html_a7b9e8ca1dcd13802fa528f955deaefd7a814538087543158616640736f8511484"><div class="ttname"><a href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7a814538087543158616640736f8511484">SPELL_DISABLE_MAP</a></div><div class="ttdeci">@ SPELL_DISABLE_MAP</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:48</div></div>
+<div class="ttc" id="aa00953_html_a7b9e8ca1dcd13802fa528f955deaefd7aad7fc2c20248b5ccc6c7af46c0627a41"><div class="ttname"><a href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7aad7fc2c20248b5ccc6c7af46c0627a41">SPELL_DISABLE_PLAYER</a></div><div class="ttdeci">@ SPELL_DISABLE_PLAYER</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:44</div></div>
+<div class="ttc" id="aa00953_html_a7b9e8ca1dcd13802fa528f955deaefd7abf8d2121280a5024433b90335617ad2b"><div class="ttname"><a href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7abf8d2121280a5024433b90335617ad2b">SPELL_DISABLE_DEPRECATED_SPELL</a></div><div class="ttdeci">@ SPELL_DISABLE_DEPRECATED_SPELL</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:47</div></div>
+<div class="ttc" id="aa00953_html_a7b9e8ca1dcd13802fa528f955deaefd7ac556c5fec4ec5e1fb62f6f2a5904926d"><div class="ttname"><a href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7ac556c5fec4ec5e1fb62f6f2a5904926d">MAX_SPELL_DISABLE_TYPE</a></div><div class="ttdeci">@ MAX_SPELL_DISABLE_TYPE</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:51</div></div>
+<div class="ttc" id="aa00953_html_a7b9e8ca1dcd13802fa528f955deaefd7af0b7760e1bbbca07ae256ffe853a0268"><div class="ttname"><a href="../../d5/da3/a00953.html#a7b9e8ca1dcd13802fa528f955deaefd7af0b7760e1bbbca07ae256ffe853a0268">SPELL_DISABLE_AREA</a></div><div class="ttdeci">@ SPELL_DISABLE_AREA</div><div class="ttdef"><b>Definition:</b> DisableMgr.h:49</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00071">RegisterCreatureAI</a>, and <a class="el" href="../../#l00088">RegisterSpellScript</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00030">AddEventsScripts()</a>.</p>
-
-</div>
-</div>
-<a id="a832536a026ab4dad8df7bb48ad0493fc" name="a832536a026ab4dad8df7bb48ad0493fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a832536a026ab4dad8df7bb48ad0493fc">&#9670;&#160;</a></span>AddSC_event_childrens_week()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_event_childrens_week </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  963</span>{</div>
-<div class="line"><span class="lineno">  964</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d9/d7b/a14116.html">npc_elder_kekek</a>);</div>
-<div class="line"><span class="lineno">  965</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../dd/d3b/a14112.html">npc_high_oracle_soo_roo</a>);</div>
-<div class="line"><span class="lineno">  966</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d6/d4d/a14100.html">npc_winterfin_playmate</a>);</div>
-<div class="line"><span class="lineno">  967</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../da/d31/a14104.html">npc_snowfall_glade_playmate</a>);</div>
-<div class="line"><span class="lineno">  968</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d2/d7a/a14120.html">npc_the_etymidian</a>);</div>
-<div class="line"><span class="lineno">  969</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d6/d59/a14108.html">npc_the_biggest_tree</a>);</div>
-<div class="line"><span class="lineno">  970</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d6/da1/a14128.html">at_bring_your_orphan_to</a>();</div>
-<div class="line"><span class="lineno">  971</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/d20/a14140.html">npc_grizzlemaw_cw_trigger</a>();</div>
-<div class="line"><span class="lineno">  972</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/dde/a14132.html">npc_cw_area_trigger</a>();</div>
-<div class="line"><span class="lineno">  973</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../dc/d10/a14124.html">npc_alexstraza_the_lifebinder</a>);</div>
-<div class="line"><span class="lineno">  974</span>}</div>
-<div class="ttc" id="aa14100_html"><div class="ttname"><a href="../../d6/d4d/a14100.html">npc_winterfin_playmate</a></div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:148</div></div>
-<div class="ttc" id="aa14104_html"><div class="ttname"><a href="../../da/d31/a14104.html">npc_snowfall_glade_playmate</a></div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:234</div></div>
-<div class="ttc" id="aa14108_html"><div class="ttname"><a href="../../d6/d59/a14108.html">npc_the_biggest_tree</a></div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:320</div></div>
-<div class="ttc" id="aa14112_html"><div class="ttname"><a href="../../dd/d3b/a14112.html">npc_high_oracle_soo_roo</a></div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:397</div></div>
-<div class="ttc" id="aa14116_html"><div class="ttname"><a href="../../d9/d7b/a14116.html">npc_elder_kekek</a></div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:473</div></div>
-<div class="ttc" id="aa14120_html"><div class="ttname"><a href="../../d2/d7a/a14120.html">npc_the_etymidian</a></div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:549</div></div>
-<div class="ttc" id="aa14124_html"><div class="ttname"><a href="../../dc/d10/a14124.html">npc_alexstraza_the_lifebinder</a></div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:632</div></div>
-<div class="ttc" id="aa14128_html"><div class="ttname"><a href="../../d6/da1/a14128.html">at_bring_your_orphan_to</a></div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:781</div></div>
-<div class="ttc" id="aa14132_html"><div class="ttname"><a href="../../d5/dde/a14132.html">npc_cw_area_trigger</a></div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:836</div></div>
-<div class="ttc" id="aa14140_html"><div class="ttname"><a href="../../df/d20/a14140.html">npc_grizzlemaw_cw_trigger</a></div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:932</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00071">RegisterCreatureAI</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00030">AddEventsScripts()</a>.</p>
-
-</div>
-</div>
-<a id="af7a6296c13b6615a14e0823fe7e5b577" name="af7a6296c13b6615a14e0823fe7e5b577"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7a6296c13b6615a14e0823fe7e5b577">&#9670;&#160;</a></span>AddSC_event_firework_show_scripts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_event_firework_show_scripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  211</span>{</div>
-<div class="line"><span class="lineno">  212</span>    <span class="comment">// Gameobjects</span></div>
-<div class="line"><span class="lineno">  213</span>    <a class="code hl_define" href="../../d2/d98/a04244.html#a87397a2ba2a1acd88f62793eae9aa30e">RegisterGameObjectAI</a>(<a class="code hl_struct" href="../../de/dd1/a14148.html">go_firework_show</a>);</div>
-<div class="line"><span class="lineno">  214</span>}</div>
-<div class="ttc" id="aa04244_html_a87397a2ba2a1acd88f62793eae9aa30e"><div class="ttname"><a href="../../d2/d98/a04244.html#a87397a2ba2a1acd88f62793eae9aa30e">RegisterGameObjectAI</a></div><div class="ttdeci">#define RegisterGameObjectAI(ai_name)</div><div class="ttdef"><b>Definition:</b> GameObjectScript.h:77</div></div>
-<div class="ttc" id="aa14148_html"><div class="ttname"><a href="../../de/dd1/a14148.html">go_firework_show</a></div><div class="ttdef"><b>Definition:</b> firework_show.cpp:47</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00077">RegisterGameObjectAI</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00030">AddEventsScripts()</a>.</p>
-
-</div>
-</div>
-<a id="a70705fe4a0f9a88d8f185363054af273" name="a70705fe4a0f9a88d8f185363054af273"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70705fe4a0f9a88d8f185363054af273">&#9670;&#160;</a></span>AddSC_event_hallows_end_scripts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_event_hallows_end_scripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1496</span>{</div>
-<div class="line"><span class="lineno"> 1497</span>    <span class="comment">// Spells</span></div>
-<div class="line"><span class="lineno"> 1498</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../dc/de1/a14172.html">spell_hallows_end_trick</a>);</div>
-<div class="line"><span class="lineno"> 1499</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d5/d64/a14180.html">spell_hallows_end_trick_or_treat</a>);</div>
-<div class="line"><span class="lineno"> 1500</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d3/d8c/a14184.html">spell_hallows_end_candy</a>);</div>
-<div class="line"><span class="lineno"> 1501</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d9/dda/a14188.html">spell_hallows_end_candy_pirate_costume</a>);</div>
-<div class="line"><span class="lineno"> 1502</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d8/d11/a14192.html">spell_hallows_end_tricky_treat</a>);</div>
-<div class="line"><span class="lineno"> 1503</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#aedecf91f4fce46852db865deae243e1f">RegisterSpellScriptWithArgs</a>(<a class="code hl_class" href="../../d7/df4/a14176.html">spell_hallows_end_put_costume</a>, <span class="stringliteral">&quot;spell_hallows_end_pirate_costume&quot;</span>, <a class="code hl_enumvalue" href="../../df/d88/a00962.html#acc34e46dfed69cd31ed452468575c7b0aa357adfbb00f5bf5d8147f08988fe5e5">SPELL_PIRATE_COSTUME_MALE</a>, <a class="code hl_enumvalue" href="../../df/d88/a00962.html#acc34e46dfed69cd31ed452468575c7b0aba6422b4e6060342495d3c10beea2fcf">SPELL_PIRATE_COSTUME_FEMALE</a>);</div>
-<div class="line"><span class="lineno"> 1504</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#aedecf91f4fce46852db865deae243e1f">RegisterSpellScriptWithArgs</a>(<a class="code hl_class" href="../../d7/df4/a14176.html">spell_hallows_end_put_costume</a>, <span class="stringliteral">&quot;spell_hallows_end_leper_costume&quot;</span>, <a class="code hl_enumvalue" href="../../df/d88/a00962.html#acc34e46dfed69cd31ed452468575c7b0a24a1744f51af01de5f1615e65292e2ca">SPELL_LEPER_GNOME_COSTUME_MALE</a>, <a class="code hl_enumvalue" href="../../df/d88/a00962.html#acc34e46dfed69cd31ed452468575c7b0ad2ac985af67e998f0a9aa3daab4d1afc">SPELL_LEPER_GNOME_COSTUME_FEMALE</a>);</div>
-<div class="line"><span class="lineno"> 1505</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#aedecf91f4fce46852db865deae243e1f">RegisterSpellScriptWithArgs</a>(<a class="code hl_class" href="../../d7/df4/a14176.html">spell_hallows_end_put_costume</a>, <span class="stringliteral">&quot;spell_hallows_end_ghost_costume&quot;</span>, <a class="code hl_enumvalue" href="../../df/d88/a00962.html#acc34e46dfed69cd31ed452468575c7b0afb1bacca07add3eba2ddd3a1b4272bc0">SPELL_GHOST_COSTUME_MALE</a>, <a class="code hl_enumvalue" href="../../df/d88/a00962.html#acc34e46dfed69cd31ed452468575c7b0a77fc1fdb393106bbae1d8ed4f2764ddb">SPELL_GHOST_COSTUME_FEMALE</a>);</div>
-<div class="line"><span class="lineno"> 1506</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#aedecf91f4fce46852db865deae243e1f">RegisterSpellScriptWithArgs</a>(<a class="code hl_class" href="../../d7/df4/a14176.html">spell_hallows_end_put_costume</a>, <span class="stringliteral">&quot;spell_hallows_end_ninja_costume&quot;</span>, <a class="code hl_enumvalue" href="../../df/d88/a00962.html#acc34e46dfed69cd31ed452468575c7b0a275772d35c90114169b061240094ec55">SPELL_NINJA_COSTUME_MALE</a>, <a class="code hl_enumvalue" href="../../df/d88/a00962.html#acc34e46dfed69cd31ed452468575c7b0a37510dfb31d7b124c3fd91b35e4dc7e3">SPELL_NINJA_COSTUME_FEMALE</a>);</div>
-<div class="line"><span class="lineno"> 1507</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../dd/d06/a14200.html">spell_hallows_end_base_fire</a>);</div>
-<div class="line"><span class="lineno"> 1508</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d9/d3a/a14196.html">spell_hallows_end_bucket_lands</a>);</div>
-<div class="line"><span class="lineno"> 1509</span> </div>
-<div class="line"><span class="lineno"> 1510</span>    <span class="comment">// Quests</span></div>
-<div class="line"><span class="lineno"> 1511</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d4/d32/a14216.html">npc_hallows_end_train_fire</a>);</div>
-<div class="line"><span class="lineno"> 1512</span> </div>
-<div class="line"><span class="lineno"> 1513</span>    <span class="comment">// creatures</span></div>
-<div class="line"><span class="lineno"> 1514</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d9/d14/a14204.html">npc_costumed_orphan_matron</a>);</div>
-<div class="line"><span class="lineno"> 1515</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../db/dc0/a14208.html">npc_soh_fire_trigger</a>);</div>
-<div class="line"><span class="lineno"> 1516</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d0/d30/a14212.html">npc_hallows_end_soh</a>);</div>
-<div class="line"><span class="lineno"> 1517</span> </div>
-<div class="line"><span class="lineno"> 1518</span>    <span class="comment">// Headless Horseman</span></div>
-<div class="line"><span class="lineno"> 1519</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d5/ddd/a14232.html">go_loosely_turned_soil</a>();</div>
-<div class="line"><span class="lineno"> 1520</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/dc2/a14240.html">go_pumpkin_shrine</a>();</div>
-<div class="line"><span class="lineno"> 1521</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d5/def/a14220.html">boss_headless_horseman</a>);</div>
-<div class="line"><span class="lineno"> 1522</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d5/d2a/a14224.html">boss_headless_horseman_head</a>);</div>
-<div class="line"><span class="lineno"> 1523</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../df/d11/a14228.html">boss_headless_horseman_pumpkin</a>);</div>
-<div class="line"><span class="lineno"> 1524</span>}</div>
-<div class="ttc" id="aa00962_html_acc34e46dfed69cd31ed452468575c7b0a24a1744f51af01de5f1615e65292e2ca"><div class="ttname"><a href="../../df/d88/a00962.html#acc34e46dfed69cd31ed452468575c7b0a24a1744f51af01de5f1615e65292e2ca">SPELL_LEPER_GNOME_COSTUME_MALE</a></div><div class="ttdeci">@ SPELL_LEPER_GNOME_COSTUME_MALE</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:50</div></div>
-<div class="ttc" id="aa00962_html_acc34e46dfed69cd31ed452468575c7b0a275772d35c90114169b061240094ec55"><div class="ttname"><a href="../../df/d88/a00962.html#acc34e46dfed69cd31ed452468575c7b0a275772d35c90114169b061240094ec55">SPELL_NINJA_COSTUME_MALE</a></div><div class="ttdeci">@ SPELL_NINJA_COSTUME_MALE</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:48</div></div>
-<div class="ttc" id="aa00962_html_acc34e46dfed69cd31ed452468575c7b0a37510dfb31d7b124c3fd91b35e4dc7e3"><div class="ttname"><a href="../../df/d88/a00962.html#acc34e46dfed69cd31ed452468575c7b0a37510dfb31d7b124c3fd91b35e4dc7e3">SPELL_NINJA_COSTUME_FEMALE</a></div><div class="ttdeci">@ SPELL_NINJA_COSTUME_FEMALE</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:49</div></div>
-<div class="ttc" id="aa00962_html_acc34e46dfed69cd31ed452468575c7b0a77fc1fdb393106bbae1d8ed4f2764ddb"><div class="ttname"><a href="../../df/d88/a00962.html#acc34e46dfed69cd31ed452468575c7b0a77fc1fdb393106bbae1d8ed4f2764ddb">SPELL_GHOST_COSTUME_FEMALE</a></div><div class="ttdeci">@ SPELL_GHOST_COSTUME_FEMALE</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:55</div></div>
-<div class="ttc" id="aa00962_html_acc34e46dfed69cd31ed452468575c7b0aa357adfbb00f5bf5d8147f08988fe5e5"><div class="ttname"><a href="../../df/d88/a00962.html#acc34e46dfed69cd31ed452468575c7b0aa357adfbb00f5bf5d8147f08988fe5e5">SPELL_PIRATE_COSTUME_MALE</a></div><div class="ttdeci">@ SPELL_PIRATE_COSTUME_MALE</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:46</div></div>
-<div class="ttc" id="aa00962_html_acc34e46dfed69cd31ed452468575c7b0aba6422b4e6060342495d3c10beea2fcf"><div class="ttname"><a href="../../df/d88/a00962.html#acc34e46dfed69cd31ed452468575c7b0aba6422b4e6060342495d3c10beea2fcf">SPELL_PIRATE_COSTUME_FEMALE</a></div><div class="ttdeci">@ SPELL_PIRATE_COSTUME_FEMALE</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:47</div></div>
-<div class="ttc" id="aa00962_html_acc34e46dfed69cd31ed452468575c7b0ad2ac985af67e998f0a9aa3daab4d1afc"><div class="ttname"><a href="../../df/d88/a00962.html#acc34e46dfed69cd31ed452468575c7b0ad2ac985af67e998f0a9aa3daab4d1afc">SPELL_LEPER_GNOME_COSTUME_FEMALE</a></div><div class="ttdeci">@ SPELL_LEPER_GNOME_COSTUME_FEMALE</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:51</div></div>
-<div class="ttc" id="aa00962_html_acc34e46dfed69cd31ed452468575c7b0afb1bacca07add3eba2ddd3a1b4272bc0"><div class="ttname"><a href="../../df/d88/a00962.html#acc34e46dfed69cd31ed452468575c7b0afb1bacca07add3eba2ddd3a1b4272bc0">SPELL_GHOST_COSTUME_MALE</a></div><div class="ttdeci">@ SPELL_GHOST_COSTUME_MALE</div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:54</div></div>
-<div class="ttc" id="aa04256_html_aedecf91f4fce46852db865deae243e1f"><div class="ttname"><a href="../../d8/dc6/a04256.html#aedecf91f4fce46852db865deae243e1f">RegisterSpellScriptWithArgs</a></div><div class="ttdeci">#define RegisterSpellScriptWithArgs(spell_script, script_name,...)</div><div class="ttdef"><b>Definition:</b> SpellScriptLoader.h:87</div></div>
-<div class="ttc" id="aa14172_html"><div class="ttname"><a href="../../dc/de1/a14172.html">spell_hallows_end_trick</a></div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:61</div></div>
-<div class="ttc" id="aa14176_html"><div class="ttname"><a href="../../d7/df4/a14176.html">spell_hallows_end_put_costume</a></div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:108</div></div>
-<div class="ttc" id="aa14180_html"><div class="ttname"><a href="../../d5/d64/a14180.html">spell_hallows_end_trick_or_treat</a></div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:139</div></div>
-<div class="ttc" id="aa14184_html"><div class="ttname"><a href="../../d3/d8c/a14184.html">spell_hallows_end_candy</a></div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:168</div></div>
-<div class="ttc" id="aa14188_html"><div class="ttname"><a href="../../d9/dda/a14188.html">spell_hallows_end_candy_pirate_costume</a></div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:187</div></div>
-<div class="ttc" id="aa14192_html"><div class="ttname"><a href="../../d8/d11/a14192.html">spell_hallows_end_tricky_treat</a></div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:220</div></div>
-<div class="ttc" id="aa14196_html"><div class="ttname"><a href="../../d9/d3a/a14196.html">spell_hallows_end_bucket_lands</a></div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:281</div></div>
-<div class="ttc" id="aa14200_html"><div class="ttname"><a href="../../dd/d06/a14200.html">spell_hallows_end_base_fire</a></div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:305</div></div>
-<div class="ttc" id="aa14204_html"><div class="ttname"><a href="../../d9/d14/a14204.html">npc_costumed_orphan_matron</a></div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:356</div></div>
-<div class="ttc" id="aa14208_html"><div class="ttname"><a href="../../db/dc0/a14208.html">npc_soh_fire_trigger</a></div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:523</div></div>
-<div class="ttc" id="aa14212_html"><div class="ttname"><a href="../../d0/d30/a14212.html">npc_hallows_end_soh</a></div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:587</div></div>
-<div class="ttc" id="aa14216_html"><div class="ttname"><a href="../../d4/d32/a14216.html">npc_hallows_end_train_fire</a></div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:902</div></div>
-<div class="ttc" id="aa14220_html"><div class="ttname"><a href="../../d5/def/a14220.html">boss_headless_horseman</a></div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:1013</div></div>
-<div class="ttc" id="aa14224_html"><div class="ttname"><a href="../../d5/d2a/a14224.html">boss_headless_horseman_head</a></div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:1280</div></div>
-<div class="ttc" id="aa14228_html"><div class="ttname"><a href="../../df/d11/a14228.html">boss_headless_horseman_pumpkin</a></div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:1388</div></div>
-<div class="ttc" id="aa14232_html"><div class="ttname"><a href="../../d5/ddd/a14232.html">go_loosely_turned_soil</a></div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:1431</div></div>
-<div class="ttc" id="aa14240_html"><div class="ttname"><a href="../../d3/dc2/a14240.html">go_pumpkin_shrine</a></div><div class="ttdef"><b>Definition:</b> hallows_end.cpp:1469</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00071">RegisterCreatureAI</a>, <a class="el" href="../../#l00088">RegisterSpellScript</a>, <a class="el" href="../../#l00087">RegisterSpellScriptWithArgs</a>, <a class="el" href="../../#l00055">SPELL_GHOST_COSTUME_FEMALE</a>, <a class="el" href="../../#l00054">SPELL_GHOST_COSTUME_MALE</a>, <a class="el" href="../../#l00051">SPELL_LEPER_GNOME_COSTUME_FEMALE</a>, <a class="el" href="../../#l00050">SPELL_LEPER_GNOME_COSTUME_MALE</a>, <a class="el" href="../../#l00049">SPELL_NINJA_COSTUME_FEMALE</a>, <a class="el" href="../../#l00048">SPELL_NINJA_COSTUME_MALE</a>, <a class="el" href="../../#l00047">SPELL_PIRATE_COSTUME_FEMALE</a>, and <a class="el" href="../../#l00046">SPELL_PIRATE_COSTUME_MALE</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00030">AddEventsScripts()</a>.</p>
-
-</div>
-</div>
-<a id="acd28b6b284f9e0f8caa1194e2dc904f8" name="acd28b6b284f9e0f8caa1194e2dc904f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd28b6b284f9e0f8caa1194e2dc904f8">&#9670;&#160;</a></span>AddSC_event_love_in_the_air()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_event_love_in_the_air </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  487</span>{</div>
-<div class="line"><span class="lineno">  488</span>    <span class="comment">// Npcs</span></div>
-<div class="line"><span class="lineno">  489</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../dc/d1e/a14244.html">npc_love_in_air_supply_sentry</a>);</div>
-<div class="line"><span class="lineno">  490</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../dc/d33/a14248.html">npc_love_in_air_snivel</a>);</div>
-<div class="line"><span class="lineno">  491</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../de/dc5/a14252.html">npc_love_in_air_snivel_real</a>);</div>
-<div class="line"><span class="lineno">  492</span> </div>
-<div class="line"><span class="lineno">  493</span>    <span class="comment">// Spells</span></div>
-<div class="line"><span class="lineno">  494</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d2/d5a/a14256.html">spell_love_in_air_perfume_immune</a>);</div>
-<div class="line"><span class="lineno">  495</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d7/de8/a14260.html">spell_item_create_heart_candy</a>);</div>
-<div class="line"><span class="lineno">  496</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d2/df5/a14264.html">spell_love_is_in_the_air_romantic_picnic</a>);</div>
-<div class="line"><span class="lineno">  497</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../de/d82/a14268.html">spell_gen_aura_service_uniform</a>);</div>
-<div class="line"><span class="lineno">  498</span>}</div>
-<div class="ttc" id="aa14244_html"><div class="ttname"><a href="../../dc/d1e/a14244.html">npc_love_in_air_supply_sentry</a></div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:56</div></div>
-<div class="ttc" id="aa14248_html"><div class="ttname"><a href="../../dc/d33/a14248.html">npc_love_in_air_snivel</a></div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:112</div></div>
-<div class="ttc" id="aa14252_html"><div class="ttname"><a href="../../de/dc5/a14252.html">npc_love_in_air_snivel_real</a></div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:166</div></div>
-<div class="ttc" id="aa14256_html"><div class="ttname"><a href="../../d2/d5a/a14256.html">spell_love_in_air_perfume_immune</a></div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:276</div></div>
-<div class="ttc" id="aa14260_html"><div class="ttname"><a href="../../d7/de8/a14260.html">spell_item_create_heart_candy</a></div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:341</div></div>
-<div class="ttc" id="aa14264_html"><div class="ttname"><a href="../../d2/df5/a14264.html">spell_love_is_in_the_air_romantic_picnic</a></div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:377</div></div>
-<div class="ttc" id="aa14268_html"><div class="ttname"><a href="../../de/d82/a14268.html">spell_gen_aura_service_uniform</a></div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:445</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00071">RegisterCreatureAI</a>, and <a class="el" href="../../#l00088">RegisterSpellScript</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00030">AddEventsScripts()</a>.</p>
-
-</div>
-</div>
-<a id="adc17dd3d30524a3c73b564d6eed54f1c" name="adc17dd3d30524a3c73b564d6eed54f1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc17dd3d30524a3c73b564d6eed54f1c">&#9670;&#160;</a></span>AddSC_event_midsummer_scripts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_event_midsummer_scripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1288</span>{</div>
-<div class="line"><span class="lineno"> 1289</span>    <span class="comment">// Player</span></div>
-<div class="line"><span class="lineno"> 1290</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/df4/a14272.html">MidsummerPlayerScript</a>();</div>
-<div class="line"><span class="lineno"> 1291</span> </div>
-<div class="line"><span class="lineno"> 1292</span>    <span class="comment">// NPCs</span></div>
-<div class="line"><span class="lineno"> 1293</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../da/db6/a14276.html">npc_midsummer_bonfire</a>);</div>
-<div class="line"><span class="lineno"> 1294</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d0/d64/a14280.html">npc_midsummer_bonfire_despawner</a>);</div>
-<div class="line"><span class="lineno"> 1295</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../dc/daa/a14284.html">npc_midsummer_torch_target</a>);</div>
-<div class="line"><span class="lineno"> 1296</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d9/db8/a14300.html">npc_midsummer_ribbon_pole_target</a>);</div>
-<div class="line"><span class="lineno"> 1297</span> </div>
-<div class="line"><span class="lineno"> 1298</span>    <span class="comment">// Spells</span></div>
-<div class="line"><span class="lineno"> 1299</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d4/d32/a14288.html">spell_fire_festival_fortitude</a>);</div>
-<div class="line"><span class="lineno"> 1300</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d1/d02/a14292.html">spell_bonfires_blessing</a>);</div>
-<div class="line"><span class="lineno"> 1301</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d8/d2d/a14296.html">spell_gen_crab_disguise</a>);</div>
-<div class="line"><span class="lineno"> 1302</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d2/dc8/a14304.html">spell_midsummer_ribbon_pole_firework</a>);</div>
-<div class="line"><span class="lineno"> 1303</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d5/dfd/a14308.html">spell_midsummer_ribbon_pole</a>);</div>
-<div class="line"><span class="lineno"> 1304</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d4/da1/a14312.html">spell_midsummer_ribbon_pole_visual</a>);</div>
-<div class="line"><span class="lineno"> 1305</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../dc/d6c/a14316.html">spell_midsummer_torch_quest</a>);</div>
-<div class="line"><span class="lineno"> 1306</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d4/d82/a14320.html">spell_midsummer_fling_torch</a>);</div>
-<div class="line"><span class="lineno"> 1307</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d1/d35/a14324.html">spell_midsummer_juggling_torch</a>);</div>
-<div class="line"><span class="lineno"> 1308</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d3/d06/a14328.html">spell_midsummer_torch_catch</a>);</div>
-<div class="line"><span class="lineno"> 1309</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d0/d8e/a14332.html">spell_midsummer_summon_ahune_lieutenant</a>);</div>
-<div class="line"><span class="lineno"> 1310</span>}</div>
-<div class="ttc" id="aa14272_html"><div class="ttname"><a href="../../d8/df4/a14272.html">MidsummerPlayerScript</a></div><div class="ttdef"><b>Definition:</b> midsummer.cpp:154</div></div>
-<div class="ttc" id="aa14276_html"><div class="ttname"><a href="../../da/db6/a14276.html">npc_midsummer_bonfire</a></div><div class="ttdef"><b>Definition:</b> midsummer.cpp:182</div></div>
-<div class="ttc" id="aa14280_html"><div class="ttname"><a href="../../d0/d64/a14280.html">npc_midsummer_bonfire_despawner</a></div><div class="ttdef"><b>Definition:</b> midsummer.cpp:372</div></div>
-<div class="ttc" id="aa14284_html"><div class="ttname"><a href="../../dc/daa/a14284.html">npc_midsummer_torch_target</a></div><div class="ttdef"><b>Definition:</b> midsummer.cpp:405</div></div>
-<div class="ttc" id="aa14288_html"><div class="ttname"><a href="../../d4/d32/a14288.html">spell_fire_festival_fortitude</a></div><div class="ttdef"><b>Definition:</b> midsummer.cpp:515</div></div>
-<div class="ttc" id="aa14292_html"><div class="ttname"><a href="../../d1/d02/a14292.html">spell_bonfires_blessing</a></div><div class="ttdef"><b>Definition:</b> midsummer.cpp:536</div></div>
-<div class="ttc" id="aa14296_html"><div class="ttname"><a href="../../d8/d2d/a14296.html">spell_gen_crab_disguise</a></div><div class="ttdef"><b>Definition:</b> midsummer.cpp:567</div></div>
-<div class="ttc" id="aa14300_html"><div class="ttname"><a href="../../d9/db8/a14300.html">npc_midsummer_ribbon_pole_target</a></div><div class="ttdef"><b>Definition:</b> midsummer.cpp:642</div></div>
-<div class="ttc" id="aa14304_html"><div class="ttname"><a href="../../d2/dc8/a14304.html">spell_midsummer_ribbon_pole_firework</a></div><div class="ttdef"><b>Definition:</b> midsummer.cpp:857</div></div>
-<div class="ttc" id="aa14308_html"><div class="ttname"><a href="../../d5/dfd/a14308.html">spell_midsummer_ribbon_pole</a></div><div class="ttdef"><b>Definition:</b> midsummer.cpp:873</div></div>
-<div class="ttc" id="aa14312_html"><div class="ttname"><a href="../../d4/da1/a14312.html">spell_midsummer_ribbon_pole_visual</a></div><div class="ttdef"><b>Definition:</b> midsummer.cpp:945</div></div>
-<div class="ttc" id="aa14316_html"><div class="ttname"><a href="../../dc/d6c/a14316.html">spell_midsummer_torch_quest</a></div><div class="ttdef"><b>Definition:</b> midsummer.cpp:978</div></div>
-<div class="ttc" id="aa14320_html"><div class="ttname"><a href="../../d4/d82/a14320.html">spell_midsummer_fling_torch</a></div><div class="ttdef"><b>Definition:</b> midsummer.cpp:1030</div></div>
-<div class="ttc" id="aa14324_html"><div class="ttname"><a href="../../d1/d35/a14324.html">spell_midsummer_juggling_torch</a></div><div class="ttdef"><b>Definition:</b> midsummer.cpp:1154</div></div>
-<div class="ttc" id="aa14328_html"><div class="ttname"><a href="../../d3/d06/a14328.html">spell_midsummer_torch_catch</a></div><div class="ttdef"><b>Definition:</b> midsummer.cpp:1216</div></div>
-<div class="ttc" id="aa14332_html"><div class="ttname"><a href="../../d0/d8e/a14332.html">spell_midsummer_summon_ahune_lieutenant</a></div><div class="ttdef"><b>Definition:</b> midsummer.cpp:1246</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00071">RegisterCreatureAI</a>, and <a class="el" href="../../#l00088">RegisterSpellScript</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00030">AddEventsScripts()</a>.</p>
-
-</div>
-</div>
-<a id="a8e59953c9b1731e315c9c6b9148a88e6" name="a8e59953c9b1731e315c9c6b9148a88e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e59953c9b1731e315c9c6b9148a88e6">&#9670;&#160;</a></span>AddSC_event_pilgrims_end_scripts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_event_pilgrims_end_scripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  670</span>{</div>
-<div class="line"><span class="lineno">  671</span>    <span class="comment">// Spells</span></div>
-<div class="line"><span class="lineno">  672</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../da/ddf/a14344.html">spell_pilgrims_bounty_pass_generic</a>);</div>
-<div class="line"><span class="lineno">  673</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d1/df4/a14348.html">spell_pilgrims_bounty_feast_on_generic</a>);</div>
-<div class="line"><span class="lineno">  674</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d4/dce/a14352.html">spell_pilgrims_bounty_turkey_tracker</a>);</div>
-<div class="line"><span class="lineno">  675</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../da/d50/a14356.html">spell_pilgrims_bounty_serve_generic</a>);</div>
-<div class="line"><span class="lineno">  676</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#a69b21d1b83cecaba944f4e9379bc866c">RegisterSpellAndAuraScriptPair</a>(<a class="code hl_class" href="../../df/dad/a14364.html">spell_pilgrims_bounty_food</a>, <a class="code hl_class" href="../../d2/dbf/a14360.html">spell_pilgrims_bounty_food_aura</a>);</div>
-<div class="line"><span class="lineno">  677</span> </div>
-<div class="line"><span class="lineno">  678</span>    <span class="comment">// Npcs</span></div>
-<div class="line"><span class="lineno">  679</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../d2/d4e/a14336.html">npc_pilgrims_bounty_chair</a>);</div>
-<div class="line"><span class="lineno">  680</span>    <a class="code hl_define" href="../../de/d38/a04316.html#a5e7352841895df7117e2830448eb533f">RegisterCreatureAI</a>(<a class="code hl_struct" href="../../da/d36/a14340.html">npc_pilgrims_bounty_plate</a>);</div>
-<div class="line"><span class="lineno">  681</span> </div>
-<div class="line"><span class="lineno">  682</span>    <span class="comment">// Achievements</span></div>
-<div class="line"><span class="lineno">  683</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../de/d21/a14368.html">achievement_pb_pilgrims_peril</a>();</div>
-<div class="line"><span class="lineno">  684</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d15/a14372.html">achievement_pb_terokkar_turkey_time</a>();</div>
-<div class="line"><span class="lineno">  685</span>}</div>
-<div class="ttc" id="aa04256_html_a69b21d1b83cecaba944f4e9379bc866c"><div class="ttname"><a href="../../d8/dc6/a04256.html#a69b21d1b83cecaba944f4e9379bc866c">RegisterSpellAndAuraScriptPair</a></div><div class="ttdeci">#define RegisterSpellAndAuraScriptPair(script_1, script_2)</div><div class="ttdef"><b>Definition:</b> SpellScriptLoader.h:90</div></div>
-<div class="ttc" id="aa14336_html"><div class="ttname"><a href="../../d2/d4e/a14336.html">npc_pilgrims_bounty_chair</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:107</div></div>
-<div class="ttc" id="aa14340_html"><div class="ttname"><a href="../../da/d36/a14340.html">npc_pilgrims_bounty_plate</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:282</div></div>
-<div class="ttc" id="aa14344_html"><div class="ttname"><a href="../../da/ddf/a14344.html">spell_pilgrims_bounty_pass_generic</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:307</div></div>
-<div class="ttc" id="aa14348_html"><div class="ttname"><a href="../../d1/df4/a14348.html">spell_pilgrims_bounty_feast_on_generic</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:437</div></div>
-<div class="ttc" id="aa14352_html"><div class="ttname"><a href="../../d4/dce/a14352.html">spell_pilgrims_bounty_turkey_tracker</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:530</div></div>
-<div class="ttc" id="aa14356_html"><div class="ttname"><a href="../../da/d50/a14356.html">spell_pilgrims_bounty_serve_generic</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:568</div></div>
-<div class="ttc" id="aa14360_html"><div class="ttname"><a href="../../d2/dbf/a14360.html">spell_pilgrims_bounty_food_aura</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:585</div></div>
-<div class="ttc" id="aa14364_html"><div class="ttname"><a href="../../df/dad/a14364.html">spell_pilgrims_bounty_food</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:610</div></div>
-<div class="ttc" id="aa14368_html"><div class="ttname"><a href="../../de/d21/a14368.html">achievement_pb_pilgrims_peril</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:642</div></div>
-<div class="ttc" id="aa14372_html"><div class="ttname"><a href="../../dd/d15/a14372.html">achievement_pb_terokkar_turkey_time</a></div><div class="ttdef"><b>Definition:</b> pilgrims_bounty.cpp:656</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00071">RegisterCreatureAI</a>, <a class="el" href="../../#l00090">RegisterSpellAndAuraScriptPair</a>, and <a class="el" href="../../#l00088">RegisterSpellScript</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00030">AddEventsScripts()</a>.</p>
-
-</div>
-</div>
-<a id="a56e93f0f5c0f4763c439d5ea4cdf6c5e" name="a56e93f0f5c0f4763c439d5ea4cdf6c5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56e93f0f5c0f4763c439d5ea4cdf6c5e">&#9670;&#160;</a></span>AddSC_event_winter_veil_scripts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AddSC_event_winter_veil_scripts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  261</span>{</div>
-<div class="line"><span class="lineno">  262</span>    <span class="comment">// Spells</span></div>
-<div class="line"><span class="lineno">  263</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../de/d10/a14376.html">spell_winter_veil_mistletoe</a>);</div>
-<div class="line"><span class="lineno">  264</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d5/d14/a14380.html">spell_winter_wondervolt_trap</a>);</div>
-<div class="line"><span class="lineno">  265</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d6/de5/a14384.html">spell_winter_veil_racer_rocket_slam</a>);</div>
-<div class="line"><span class="lineno">  266</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d9/df5/a14388.html">spell_winter_veil_racer_slam_hit</a>);</div>
-<div class="line"><span class="lineno">  267</span>    <a class="code hl_define" href="../../d8/dc6/a04256.html#ae221e5976ab29ba14fec3b073a03670f">RegisterSpellScript</a>(<a class="code hl_class" href="../../d9/d8f/a14392.html">spell_winter_veil_shoot_air_rifle</a>);</div>
-<div class="line"><span class="lineno">  268</span>}</div>
-<div class="ttc" id="aa14376_html"><div class="ttname"><a href="../../de/d10/a14376.html">spell_winter_veil_mistletoe</a></div><div class="ttdef"><b>Definition:</b> winter_veil.cpp:39</div></div>
-<div class="ttc" id="aa14380_html"><div class="ttname"><a href="../../d5/d14/a14380.html">spell_winter_wondervolt_trap</a></div><div class="ttdef"><b>Definition:</b> winter_veil.cpp:77</div></div>
-<div class="ttc" id="aa14384_html"><div class="ttname"><a href="../../d6/de5/a14384.html">spell_winter_veil_racer_rocket_slam</a></div><div class="ttdef"><b>Definition:</b> winter_veil.cpp:128</div></div>
-<div class="ttc" id="aa14388_html"><div class="ttname"><a href="../../d9/df5/a14388.html">spell_winter_veil_racer_slam_hit</a></div><div class="ttdef"><b>Definition:</b> winter_veil.cpp:184</div></div>
-<div class="ttc" id="aa14392_html"><div class="ttname"><a href="../../d9/d8f/a14392.html">spell_winter_veil_shoot_air_rifle</a></div><div class="ttdef"><b>Definition:</b> winter_veil.cpp:224</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00088">RegisterSpellScript</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00030">AddEventsScripts()</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -596,8 +283,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_c818e5878076a3731e7c7d0d4061bd6b.html">Events</a></li><li class="navelem"><a class="el" href="../../d5/da3/a00953.html">events_script_loader.cpp</a></li>
-    <li class="footer">Generated on Mon Sep 16 2024 20:40:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_c0da28c740234fa28d1fcf99be699b09.html">Conditions</a></li><li class="navelem"><a class="el" href="../../d5/da3/a00953.html">DisableMgr.h</a></li>
+    <li class="footer">Generated on Mon Sep 23 2024 20:40:31 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

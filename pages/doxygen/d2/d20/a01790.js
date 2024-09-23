@@ -1,18 +1,18 @@
 var a01790 =
 [
-    [ "instance_ruins_of_ahnqiraj", "d2/d18/a14864.html", "d2/d18/a14864" ],
-    [ "instance_ruins_of_ahnqiraj::instance_ruins_of_ahnqiraj_InstanceMapScript", "d9/dfc/a14868.html", "d9/dfc/a14868" ],
-    [ "RajaxxWaveEvent", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8", [
-      [ "SAY_WAVE3", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8a2c4234c075da474e1859f08d620f20d3", null ],
-      [ "SAY_WAVE4", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8af13e872cbd347b8a5bc80c2e8666381d", null ],
-      [ "SAY_WAVE5", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8a3caa1ed6a429617e3127b0ee596a1538", null ],
-      [ "SAY_WAVE6", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8a36b35bf4fc7c3385646f3b75fd2eef4f", null ],
-      [ "SAY_WAVE7", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8afc3fb1faeaa852c362f467426a19905e", null ],
-      [ "SAY_ENGAGE", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8a60c202ec07ce9f93a9c0eff3a8a1fba9", null ],
-      [ "DATA_RAJAXX_WAVE_ENGAGED", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8a6e46287d316eb0a2009039db3c6ed592", null ],
-      [ "GROUP_RAJAXX_WAVE_TIMER", "d2/d20/a01790.html#a4be5bd3adfc6d188ef97fd3885ddbeb8a002d2a7e164b95da570f1ee400495b15", null ]
-    ] ],
-    [ "AddSC_instance_ruins_of_ahnqiraj", "d2/d20/a01790.html#ad39c6347a486714f364a0a6e068595f6", null ],
-    [ "creatureData", "d2/d20/a01790.html#a412286b689bd324fedd65ddd8dde8afb", null ],
-    [ "RajaxxWavesData", "d2/d20/a01790.html#aef812d08d9553915de270214cf8bd837", null ]
+    [ "Acore::Impl::ChatCommands::ArgInfo< T, typename >", "d0/d72/a07332.html", null ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< T, std::enable_if_t< std::is_integral_v< T >||std::is_floating_point_v< T > > >", "d9/ded/a07336.html", "d9/ded/a07336" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< std::string_view, void >", "d5/d22/a07340.html", "d5/d22/a07340" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< std::string, void >", "d2/dbf/a07344.html", "d2/dbf/a07344" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< std::wstring, void >", "d2/d19/a07348.html", "d2/d19/a07348" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< T, std::enable_if_t< std::is_enum_v< T > > >", "d1/d96/a07352.html", "d1/d96/a07352" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< T, std::enable_if_t< std::is_base_of_v< ContainerTag, T > > >", "d7/d63/a07356.html", "d7/d63/a07356" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< std::vector< T >, void >", "dc/dea/a07360.html", "dc/dea/a07360" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< std::array< T, N >, void >", "d4/d99/a07364.html", "d4/d99/a07364" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< Acore::ChatCommands::Variant< Ts... > >", "d0/d69/a07368.html", "d0/d69/a07368" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< AchievementEntry const * >", "d9/d8e/a07372.html", "d9/d8e/a07372" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< GameTele const * >", "d2/d00/a07376.html", "d2/d00/a07376" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< ItemTemplate const * >", "d8/dcf/a07380.html", "d8/dcf/a07380" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< SpellInfo const * >", "d7/d50/a07384.html", "d7/d50/a07384" ],
+    [ "Acore::Impl::ChatCommands::ArgInfo< Quest const * >", "de/da5/a07388.html", "de/da5/a07388" ]
 ];

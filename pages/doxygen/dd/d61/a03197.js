@@ -1,4 +1,5 @@
 var a03197 =
 [
-    [ "CanRollOnItem", "dd/d61/a03197.html#afbaf3417177da71d9f3c8be9eab09c2b", null ]
+    [ "bf_commandscript", "d5/d14/a11268.html", "d5/d14/a11268" ],
+    [ "AddSC_bf_commandscript", "dd/d61/a03197.html#a55cfeb06fb5af5d31e3c2627d0db8da8", null ]
 ];

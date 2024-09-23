@@ -1,15 +1,23 @@
 var a01022 =
 [
-    [ "icecrown_citadel_teleport", "dc/d3e/a18732.html", "dc/d3e/a18732" ],
-    [ "at_frozen_throne_teleport", "dd/d00/a18736.html", "dd/d00/a18736" ],
-    [ "GOSSIP_SENDER_ICC_PORT", "d1/dd8/a01022.html#a6fba34564bcdeb5d7a73d3c21850f02a", null ],
-    [ "ICCTeleportOption", "d1/dd8/a01022.html#a6fd4f2624c3269860a58fdcfbb273928", [
-      [ "ICC_TELEPORT_GOSSIP_OPT_LIGHTS_HAMMER", "d1/dd8/a01022.html#a6fd4f2624c3269860a58fdcfbb273928a5d845311579fa05dd470ab95e3810591", null ],
-      [ "ICC_TELEPORT_GOSSIP_OPT_ORATORY_OF_THE_DAMNED", "d1/dd8/a01022.html#a6fd4f2624c3269860a58fdcfbb273928a655e3ad8e4a944b86f70a1979aeb3c3c", null ],
-      [ "ICC_TELEPORT_GOSSIP_OPT_RAMPART_OF_SKULLS", "d1/dd8/a01022.html#a6fd4f2624c3269860a58fdcfbb273928a96ac68871dedf676d54492d7a0820201", null ],
-      [ "ICC_TELEPORT_GOSSIP_OPT_DEATHBRINGERS_RISE", "d1/dd8/a01022.html#a6fd4f2624c3269860a58fdcfbb273928ac08906a205127f970d28dbee8bade56c", null ],
-      [ "ICC_TELEPORT_GOSSIP_OPT_UPPER_SPIRE", "d1/dd8/a01022.html#a6fd4f2624c3269860a58fdcfbb273928ae2d96cab8de57bd2a2a012503c2ddbf2", null ],
-      [ "ICC_TELEPORT_GOSSIP_OPT_SINDRAGOSAS_LAIR", "d1/dd8/a01022.html#a6fd4f2624c3269860a58fdcfbb273928a196236e7232fea20a0707b300c9a996b", null ]
+    [ "BattlegroundNA", "d7/de3/a07176.html", "d7/de3/a07176" ],
+    [ "BattlegroundNAGameObjects", "d1/dd8/a01022.html#add49f720fa08ffa96e26473cae2b61a9", [
+      [ "BG_NA_OBJECT_TYPE_DOOR_1", "d1/dd8/a01022.html#add49f720fa08ffa96e26473cae2b61a9a1316dbe197353489e03213d3277f32ff", null ],
+      [ "BG_NA_OBJECT_TYPE_DOOR_2", "d1/dd8/a01022.html#add49f720fa08ffa96e26473cae2b61a9a20f05476fbcb6371766b7ae3ed489890", null ],
+      [ "BG_NA_OBJECT_TYPE_DOOR_3", "d1/dd8/a01022.html#add49f720fa08ffa96e26473cae2b61a9ae0d1716599d048803d55154e63f7a3a5", null ],
+      [ "BG_NA_OBJECT_TYPE_DOOR_4", "d1/dd8/a01022.html#add49f720fa08ffa96e26473cae2b61a9af563fe3ddbb78a9d4d6f2a22479077db", null ],
+      [ "BG_NA_OBJECT_TYPE_BUFF_1", "d1/dd8/a01022.html#add49f720fa08ffa96e26473cae2b61a9aba131a1275e72b2445749ef2c5689f96", null ],
+      [ "BG_NA_OBJECT_TYPE_BUFF_2", "d1/dd8/a01022.html#add49f720fa08ffa96e26473cae2b61a9a7c0aab8f173d7f00439a05931bd2925c", null ]
     ] ],
-    [ "AddSC_icecrown_citadel_teleport", "d1/dd8/a01022.html#aba5bcd7624aeee0dbd61deec7f8d5d5b", null ]
+    [ "BattlegroundNAObjectTypes", "d1/dd8/a01022.html#aa6ddc80a19a5d68782bca5f23b651ffc", [
+      [ "BG_NA_OBJECT_DOOR_1", "d1/dd8/a01022.html#aa6ddc80a19a5d68782bca5f23b651ffca51bc6ecc32ca4cab5dfc799e14edfdc9", null ],
+      [ "BG_NA_OBJECT_DOOR_2", "d1/dd8/a01022.html#aa6ddc80a19a5d68782bca5f23b651ffcaa22fe8f33675b8eac05c69224d71fc5f", null ],
+      [ "BG_NA_OBJECT_DOOR_3", "d1/dd8/a01022.html#aa6ddc80a19a5d68782bca5f23b651ffcac72fe751e3b1f451e48ee8ac82c78370", null ],
+      [ "BG_NA_OBJECT_DOOR_4", "d1/dd8/a01022.html#aa6ddc80a19a5d68782bca5f23b651ffca5690093aa04635e30731d6b165331299", null ],
+      [ "BG_NA_OBJECT_BUFF_1", "d1/dd8/a01022.html#aa6ddc80a19a5d68782bca5f23b651ffcac1c0e18a004c1daaae690b77cb61e340", null ],
+      [ "BG_NA_OBJECT_BUFF_2", "d1/dd8/a01022.html#aa6ddc80a19a5d68782bca5f23b651ffca87f6c8115cba6b3e3c8f30d7845108de", null ],
+      [ "BG_NA_OBJECT_READY_MARKER_1", "d1/dd8/a01022.html#aa6ddc80a19a5d68782bca5f23b651ffcaa4f00f50070659c120fae25ccaf3a362", null ],
+      [ "BG_NA_OBJECT_READY_MARKER_2", "d1/dd8/a01022.html#aa6ddc80a19a5d68782bca5f23b651ffcacf5a04e41e8a9fc5cadcc3448f88213c", null ],
+      [ "BG_NA_OBJECT_MAX", "d1/dd8/a01022.html#aa6ddc80a19a5d68782bca5f23b651ffca68f38c2d23db000bca22be2fb9cc9f8b", null ]
+    ] ]
 ];

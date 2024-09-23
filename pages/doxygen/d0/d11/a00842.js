@@ -1,25 +1,29 @@
 var a00842 =
 [
-    [ "Acore::Impl::ChatCommands::MultiConsumer< Tuple, NextType, offset >", "d3/d10/a07276.html", "d3/d10/a07276" ],
-    [ "Acore::Impl::ChatCommands::MultiConsumer< Tuple, Optional< NestedNextType >, offset >", "d3/d91/a07280.html", "d3/d91/a07280" ],
-    [ "Acore::Impl::ChatCommands::HandlerToTuple< T >", "d3/d24/a07284.html", null ],
-    [ "Acore::Impl::ChatCommands::HandlerToTuple< bool(ChatHandler *, Ts...)>", "d8/d5d/a07288.html", "d8/d5d/a07288" ],
-    [ "Acore::Impl::ChatCommands::CommandInvoker", "de/da8/a07292.html", "de/da8/a07292" ],
-    [ "Acore::Impl::ChatCommands::CommandPermissions", "d1/d49/a07296.html", "d1/d49/a07296" ],
-    [ "Acore::Impl::ChatCommands::ChatCommandNode", "d5/d9b/a07300.html", "d5/d9b/a07300" ],
-    [ "Acore::ChatCommands::ChatCommandBuilder", "d0/d71/a07304.html", "d0/d71/a07304" ],
-    [ "Acore::ChatCommands::ChatCommandBuilder::InvokerEntry", "d1/d63/a07308.html", "d1/d63/a07308" ],
-    [ "ChatCommand", "d0/d11/a00842.html#a399dbe5721f7277a9066752a84065ee4", null ],
-    [ "ChatCommandTable", "d0/d11/a00842.html#a7aa1549a95f760a19b9b7ffd8e669626", null ],
-    [ "TupleType", "d0/d11/a00842.html#a7dd784bc8e3d7db1d11c46886088ad76", null ],
-    [ "Console", "d0/d11/a00842.html#a6f2659123367a36f37046e5604215d6b", [
-      [ "No", "d0/d11/a00842.html#a6f2659123367a36f37046e5604215d6babafd7322c6e97d25b6299b5d6fe8920b", null ],
-      [ "Yes", "d0/d11/a00842.html#a6f2659123367a36f37046e5604215d6ba93cba07454f06a4a960172bbd6e2a435", null ]
-    ] ],
-    [ "ConsumeFromOffset", "d0/d11/a00842.html#a3cb927687da0e8c0bae77a78fe45d942", null ],
-    [ "GetAutoCompletionsFor", "d0/d11/a00842.html#a9a1f396a96afbd90b5c426315c8ba37d", null ],
-    [ "InvalidateCommandMap", "d0/d11/a00842.html#ade19080af583292883b932d83992c6fe", null ],
-    [ "LoadCommandMap", "d0/d11/a00842.html#a2c6cb6c985ac8fd7bb2f8b2bab1be30d", null ],
-    [ "SendCommandHelpFor", "d0/d11/a00842.html#a81e8830ce306f6cfbcd04c92d3e0cc7f", null ],
-    [ "TryExecuteCommand", "d0/d11/a00842.html#aca39508e7753f6ca5d9aa21a854c0a77", null ]
+    [ "UnitScript", "d3/d3e/a10088.html", "d3/d3e/a10088" ],
+    [ "UnitHook", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26", [
+      [ "UNITHOOK_ON_HEAL", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26afb576f10646cffe0868efddf3e7aa256", null ],
+      [ "UNITHOOK_ON_DAMAGE", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26a62c0eeb1f01d869aab444cfe76e2116b", null ],
+      [ "UNITHOOK_MODIFY_PERIODIC_DAMAGE_AURAS_TICK", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26a022b3554d4b0bded731bb10590f7abde", null ],
+      [ "UNITHOOK_MODIFY_MELEE_DAMAGE", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26a740266abae12f6909df18d7f112b8bca", null ],
+      [ "UNITHOOK_MODIFY_SPELL_DAMAGE_TAKEN", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26a9d3c4b797fc29f1adc4751d2fc6f507e", null ],
+      [ "UNITHOOK_MODIFY_HEAL_RECEIVED", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26a46fbfaf61c3d0c65a02d8450baaae5cd", null ],
+      [ "UNITHOOK_ON_BEFORE_ROLL_MELEE_OUTCOME_AGAINST", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26a5d1637c534db2ba75c473d0b4c225f49", null ],
+      [ "UNITHOOK_ON_AURA_APPLY", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26ac928edfab8c8b1fc13c8f8126f5440ae", null ],
+      [ "UNITHOOK_ON_AURA_REMOVE", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26aa3501eebed0af3d2470808a30f9c1a5e", null ],
+      [ "UNITHOOK_IF_NORMAL_REACTION", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26acf1161bacf692693081683ef22f09c5c", null ],
+      [ "UNITHOOK_IS_NEEDMOD_SPELL_DAMAGE_PERCENT", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26afcdac3c6c72041d7c2bed9c71811f223", null ],
+      [ "UNITHOOK_IS_NEEDMOD_MELEE_DAMAGE_PERCENT", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26ad8b8880b23c3e9ce4ab482cc2ee2375a", null ],
+      [ "UNITHOOK_IS_NEEDMOD_HEAL_PERCENT", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26ae15a260476ff0ce2435be2ed12bd5c6e", null ],
+      [ "UNITHOOK_CAN_SET_PHASE_MASK", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26a1a63709d3c29f7cbdd99a4307bf8ed93", null ],
+      [ "UNITHOOK_IS_CUSTOM_BUILD_VALUES_UPDATE", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26ac14c60774f62f84baef5839831e875c7", null ],
+      [ "UNITHOOK_SHOULD_TRACK_VALUES_UPDATE_POS_BY_INDEX", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26ab6257ae823fecbde4bcb0c9c1cdf4762", null ],
+      [ "UNITHOOK_ON_PATCH_VALUES_UPDATE", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26a4ed2a82b73990b4ba2e1d0c317df5d82", null ],
+      [ "UNITHOOK_ON_UNIT_UPDATE", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26a2bc86ad3742f6fbc38e6030215587e6f", null ],
+      [ "UNITHOOK_ON_DISPLAYID_CHANGE", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26a1f0200b57821e6e6bad8ea268ff4a6d1", null ],
+      [ "UNITHOOK_ON_UNIT_ENTER_EVADE_MODE", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26a3cc39d8a6535a3347ce91048c9c7f27e", null ],
+      [ "UNITHOOK_ON_UNIT_ENTER_COMBAT", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26a0b91b88b22f4354b14b1864afb187957", null ],
+      [ "UNITHOOK_ON_UNIT_DEATH", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26aa21248825ee1e2f7e9f3eac05561ab57", null ],
+      [ "UNITHOOK_END", "d0/d11/a00842.html#a4eaefcbbd1058569f55194299c218c26af159e92a1ac42831ecbad7dbb708f352", null ]
+    ] ]
 ];

@@ -1,7 +1,8 @@
 var a26600 =
 [
-    [ "HandleDispel", "df/d80/a26600.html#aeab02cfd37c20aaf57e70aca62c82d99", null ],
-    [ "PrepareAuraScript", "df/d80/a26600.html#a9dc5d5dc34bc9aed6094c0c55533ad5e", null ],
-    [ "Register", "df/d80/a26600.html#a9cfb0fe1465c55b97032ae528ce00bcb", null ],
-    [ "Validate", "df/d80/a26600.html#ad29fdb4b99e9782cf8bace07384fa87c", null ]
+    [ "CheckFireTotem", "df/d80/a26600.html#a9d6b4368f5c72b95c25415ea87575fce", null ],
+    [ "HandleDummy", "df/d80/a26600.html#a179d07e7090cec396a7845754e545e8e", null ],
+    [ "PrepareSpellScript", "df/d80/a26600.html#a8311cc106da26267e90acd98698cb737", null ],
+    [ "Register", "df/d80/a26600.html#abae5a4961888e6ba2d876e450307e362", null ],
+    [ "Validate", "df/d80/a26600.html#a2048b0e43dbe2df6e4dfc42d912a74a7", null ]
 ];

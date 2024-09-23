@@ -163,7 +163,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a961ae90991fa23bfc94a054dba357392"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d4e/a00500.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/def/a10296.html#a961ae90991fa23bfc94a054dba357392">Type</a> = 0</td></tr>
+<tr class="memitem:a961ae90991fa23bfc94a054dba357392"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/def/a10296.html#a961ae90991fa23bfc94a054dba357392">Type</a> = 0</td></tr>
 <tr class="separator:a961ae90991fa23bfc94a054dba357392"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f0faa70581ca04c26f87ebcd25cee80"><td class="memItemLeft" align="right" valign="top">boost::container::static_vector&lt; std::string_view, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/def/a10296.html#a8f0faa70581ca04c26f87ebcd25cee80">Params</a></td></tr>
 <tr class="separator:a8f0faa70581ca04c26f87ebcd25cee80"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,17 +232,17 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../df/d01/a10140.html#af7c79156d7b6cfe3142fc530f9ed262a">WorldPackets::Packet</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  123</span>{</div>
-<div class="line"><span class="lineno">  124</span>    <a class="code hl_variable" href="../../df/d01/a10140.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_typedef" href="../../de/d4e/a00500.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(<a class="code hl_variable" href="../../db/def/a10296.html#a961ae90991fa23bfc94a054dba357392">Type</a>);</div>
-<div class="line"><span class="lineno">  125</span>    <a class="code hl_variable" href="../../df/d01/a10140.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_typedef" href="../../de/d4e/a00500.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(<a class="code hl_variable" href="../../db/def/a10296.html#a8f0faa70581ca04c26f87ebcd25cee80">Params</a>.size());</div>
+<div class="line"><span class="lineno">  124</span>    <a class="code hl_variable" href="../../df/d01/a10140.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_typedef" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(<a class="code hl_variable" href="../../db/def/a10296.html#a961ae90991fa23bfc94a054dba357392">Type</a>);</div>
+<div class="line"><span class="lineno">  125</span>    <a class="code hl_variable" href="../../df/d01/a10140.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_typedef" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(<a class="code hl_variable" href="../../db/def/a10296.html#a8f0faa70581ca04c26f87ebcd25cee80">Params</a>.size());</div>
 <div class="line"><span class="lineno">  126</span>    <span class="keywordflow">for</span> (std::string_view param : <a class="code hl_variable" href="../../db/def/a10296.html#a8f0faa70581ca04c26f87ebcd25cee80">Params</a>)</div>
 <div class="line"><span class="lineno">  127</span>        <a class="code hl_variable" href="../../df/d01/a10140.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; param;</div>
 <div class="line"><span class="lineno">  128</span> </div>
 <div class="line"><span class="lineno">  129</span>    <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../db/def/a10296.html#a961ae90991fa23bfc94a054dba357392">Type</a>)</div>
 <div class="line"><span class="lineno">  130</span>    {</div>
-<div class="line"><span class="lineno">  131</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da6649e0fbda75bed2ed56edaa163abd4d">GE_JOINED</a>:</div>
-<div class="line"><span class="lineno">  132</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da0e9ffb6d5c2c9909a0eca1ede00ee816">GE_LEFT</a>:</div>
-<div class="line"><span class="lineno">  133</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59dae1b52b8ecf858eb756e92de351ffecf4">GE_SIGNED_ON</a>:</div>
-<div class="line"><span class="lineno">  134</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59daa42cdde19a25a9a63f9b3239641ff605">GE_SIGNED_OFF</a>:</div>
+<div class="line"><span class="lineno">  131</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d27/a01163.html#a06a0aa0a30a110150b9f76a3be9ee59da6649e0fbda75bed2ed56edaa163abd4d">GE_JOINED</a>:</div>
+<div class="line"><span class="lineno">  132</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d27/a01163.html#a06a0aa0a30a110150b9f76a3be9ee59da0e9ffb6d5c2c9909a0eca1ede00ee816">GE_LEFT</a>:</div>
+<div class="line"><span class="lineno">  133</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d27/a01163.html#a06a0aa0a30a110150b9f76a3be9ee59dae1b52b8ecf858eb756e92de351ffecf4">GE_SIGNED_ON</a>:</div>
+<div class="line"><span class="lineno">  134</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d27/a01163.html#a06a0aa0a30a110150b9f76a3be9ee59daa42cdde19a25a9a63f9b3239641ff605">GE_SIGNED_OFF</a>:</div>
 <div class="line"><span class="lineno">  135</span>            <a class="code hl_variable" href="../../df/d01/a10140.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_variable" href="../../db/def/a10296.html#a35bcac3da7db22a22b4e8dba21ae1d0a">Guid</a>;</div>
 <div class="line"><span class="lineno">  136</span>            <span class="keywordflow">break</span>;</div>
 <div class="line"><span class="lineno">  137</span>        <span class="keywordflow">default</span>:</div>
@@ -251,11 +251,11 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  140</span> </div>
 <div class="line"><span class="lineno">  141</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../df/d01/a10140.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>;</div>
 <div class="line"><span class="lineno">  142</span>}</div>
-<div class="ttc" id="aa00500_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../de/d4e/a00500.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59da0e9ffb6d5c2c9909a0eca1ede00ee816"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da0e9ffb6d5c2c9909a0eca1ede00ee816">GE_LEFT</a></div><div class="ttdeci">@ GE_LEFT</div><div class="ttdef"><b>Definition:</b> Guild.h:154</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59da6649e0fbda75bed2ed56edaa163abd4d"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59da6649e0fbda75bed2ed56edaa163abd4d">GE_JOINED</a></div><div class="ttdeci">@ GE_JOINED</div><div class="ttdef"><b>Definition:</b> Guild.h:153</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59daa42cdde19a25a9a63f9b3239641ff605"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59daa42cdde19a25a9a63f9b3239641ff605">GE_SIGNED_OFF</a></div><div class="ttdeci">@ GE_SIGNED_OFF</div><div class="ttdef"><b>Definition:</b> Guild.h:163</div></div>
-<div class="ttc" id="aa03749_html_a06a0aa0a30a110150b9f76a3be9ee59dae1b52b8ecf858eb756e92de351ffecf4"><div class="ttname"><a href="../../d4/dd0/a03749.html#a06a0aa0a30a110150b9f76a3be9ee59dae1b52b8ecf858eb756e92de351ffecf4">GE_SIGNED_ON</a></div><div class="ttdeci">@ GE_SIGNED_ON</div><div class="ttdef"><b>Definition:</b> Guild.h:162</div></div>
+<div class="ttc" id="aa00488_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="aa01163_html_a06a0aa0a30a110150b9f76a3be9ee59da0e9ffb6d5c2c9909a0eca1ede00ee816"><div class="ttname"><a href="../../d6/d27/a01163.html#a06a0aa0a30a110150b9f76a3be9ee59da0e9ffb6d5c2c9909a0eca1ede00ee816">GE_LEFT</a></div><div class="ttdeci">@ GE_LEFT</div><div class="ttdef"><b>Definition:</b> Guild.h:154</div></div>
+<div class="ttc" id="aa01163_html_a06a0aa0a30a110150b9f76a3be9ee59da6649e0fbda75bed2ed56edaa163abd4d"><div class="ttname"><a href="../../d6/d27/a01163.html#a06a0aa0a30a110150b9f76a3be9ee59da6649e0fbda75bed2ed56edaa163abd4d">GE_JOINED</a></div><div class="ttdeci">@ GE_JOINED</div><div class="ttdef"><b>Definition:</b> Guild.h:153</div></div>
+<div class="ttc" id="aa01163_html_a06a0aa0a30a110150b9f76a3be9ee59daa42cdde19a25a9a63f9b3239641ff605"><div class="ttname"><a href="../../d6/d27/a01163.html#a06a0aa0a30a110150b9f76a3be9ee59daa42cdde19a25a9a63f9b3239641ff605">GE_SIGNED_OFF</a></div><div class="ttdeci">@ GE_SIGNED_OFF</div><div class="ttdef"><b>Definition:</b> Guild.h:163</div></div>
+<div class="ttc" id="aa01163_html_a06a0aa0a30a110150b9f76a3be9ee59dae1b52b8ecf858eb756e92de351ffecf4"><div class="ttname"><a href="../../d6/d27/a01163.html#a06a0aa0a30a110150b9f76a3be9ee59dae1b52b8ecf858eb756e92de351ffecf4">GE_SIGNED_ON</a></div><div class="ttdeci">@ GE_SIGNED_ON</div><div class="ttdef"><b>Definition:</b> Guild.h:162</div></div>
 <div class="ttc" id="aa10140_html_ab85f1c9f20117bc5015180165c7b458a"><div class="ttname"><a href="../../df/d01/a10140.html#ab85f1c9f20117bc5015180165c7b458a">WorldPackets::Packet::_worldPacket</a></div><div class="ttdeci">WorldPacket _worldPacket</div><div class="ttdef"><b>Definition:</b> Packet.h:42</div></div>
 <div class="ttc" id="aa10296_html_a35bcac3da7db22a22b4e8dba21ae1d0a"><div class="ttname"><a href="../../db/def/a10296.html#a35bcac3da7db22a22b4e8dba21ae1d0a">WorldPackets::Guild::GuildEvent::Guid</a></div><div class="ttdeci">ObjectGuid Guid</div><div class="ttdef"><b>Definition:</b> GuildPackets.h:211</div></div>
 <div class="ttc" id="aa10296_html_a8f0faa70581ca04c26f87ebcd25cee80"><div class="ttname"><a href="../../db/def/a10296.html#a8f0faa70581ca04c26f87ebcd25cee80">WorldPackets::Guild::GuildEvent::Params</a></div><div class="ttdeci">boost::container::static_vector&lt; std::string_view, 3 &gt; Params</div><div class="ttdef"><b>Definition:</b> GuildPackets.h:210</div></div>
@@ -305,7 +305,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d4e/a00500.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> WorldPackets::Guild::GuildEvent::Type = 0</td>
+          <td class="memname"><a class="el" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> WorldPackets::Guild::GuildEvent::Type = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -320,7 +320,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/d82/a04718.html">WorldPackets</a></li><li class="navelem"><a class="el" href="../../d5/d64/a04719.html">Guild</a></li><li class="navelem"><a class="el" href="../../db/def/a10296.html">GuildEvent</a></li>
-    <li class="footer">Generated on Mon Sep 16 2024 20:42:26 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Sep 23 2024 20:42:49 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

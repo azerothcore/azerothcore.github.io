@@ -1,21 +1,21 @@
 var a04355 =
 [
-    [ "AllSpellScript", "d2/dbe/a09936.html", "d2/dbe/a09936" ],
-    [ "SpellSC", "d2/d8a/a04355.html#a743e879dd1df387001a0db3b0bf31d0e", null ],
-    [ "AllSpellHook", "d2/d8a/a04355.html#afe0b21412f82a634ffd412b1aca51cbc", [
-      [ "ALLSPELLHOOK_ON_CALC_MAX_DURATION", "d2/d8a/a04355.html#afe0b21412f82a634ffd412b1aca51cbca003b0894329b4fa8a3e4ae168f133a97", null ],
-      [ "ALLSPELLHOOK_CAN_MOD_AURA_EFFECT_DAMAGE_DONE", "d2/d8a/a04355.html#afe0b21412f82a634ffd412b1aca51cbca35846f96589617d3c47cd0b206b9868c", null ],
-      [ "ALLSPELLHOOK_CAN_MOD_AURA_EFFECT_MOD_DAMAGE_PERCENT_DONE", "d2/d8a/a04355.html#afe0b21412f82a634ffd412b1aca51cbca78f4ae4d1496fbba040a026763cc8909", null ],
-      [ "ALLSPELLHOOK_ON_SPELL_CHECK_CAST", "d2/d8a/a04355.html#afe0b21412f82a634ffd412b1aca51cbca27dc31d1611037bc1a735d2721d14f24", null ],
-      [ "ALLSPELLHOOK_CAN_PREPARE", "d2/d8a/a04355.html#afe0b21412f82a634ffd412b1aca51cbca9b56cdc7a082dbc19397db93d100a354", null ],
-      [ "ALLSPELLHOOK_CAN_SCALING_EVERYTHING", "d2/d8a/a04355.html#afe0b21412f82a634ffd412b1aca51cbcab8e5a308ec8a0896e88c9214b27cc24a", null ],
-      [ "ALLSPELLHOOK_CAN_SELECT_SPEC_TALENT", "d2/d8a/a04355.html#afe0b21412f82a634ffd412b1aca51cbcae96f89c2d5231319bcb6e7ee408ba770", null ],
-      [ "ALLSPELLHOOK_ON_SCALE_AURA_UNIT_ADD", "d2/d8a/a04355.html#afe0b21412f82a634ffd412b1aca51cbca401d32a5b3e9077a4ba6d6616fde11b1", null ],
-      [ "ALLSPELLHOOK_ON_REMOVE_AURA_SCALE_TARGETS", "d2/d8a/a04355.html#afe0b21412f82a634ffd412b1aca51cbca171eb504c992f47238f139ee97e3a44c", null ],
-      [ "ALLSPELLHOOK_ON_BEFORE_AURA_RANK_FOR_LEVEL", "d2/d8a/a04355.html#afe0b21412f82a634ffd412b1aca51cbca94df2e8d5aa06ea451e4271dfbc4c808", null ],
-      [ "ALLSPELLHOOK_ON_DUMMY_EFFECT_GAMEOBJECT", "d2/d8a/a04355.html#afe0b21412f82a634ffd412b1aca51cbcaa327077f9d0fac21f2a738ab97c1463f", null ],
-      [ "ALLSPELLHOOK_ON_DUMMY_EFFECT_CREATURE", "d2/d8a/a04355.html#afe0b21412f82a634ffd412b1aca51cbca1ade505fcc41e631580a6e0e6256a034", null ],
-      [ "ALLSPELLHOOK_ON_DUMMY_EFFECT_ITEM", "d2/d8a/a04355.html#afe0b21412f82a634ffd412b1aca51cbca3b9b961851d5db88a1c04f914440a7a1", null ],
-      [ "ALLSPELLHOOK_END", "d2/d8a/a04355.html#afe0b21412f82a634ffd412b1aca51cbca2bbf250e329e80a9f113eadfe4aab98f", null ]
-    ] ]
+    [ "npcs_riverbreeze_and_silversky", "d6/dab/a15292.html", "d6/dab/a15292" ],
+    [ "at_ancient_leaf", "d6/d74/a15296.html", "d6/d74/a15296" ],
+    [ "GOSSIP_ITEM_BEACON", "d2/d8a/a04355.html#aed16a0d3c0f5042443d68996e30f15bd", null ],
+    [ "AncientMisc", "d2/d8a/a04355.html#adaffe09a7c2b9f9bfdc48d5068c18068", [
+      [ "QUEST_ANCIENT_LEAF", "d2/d8a/a04355.html#adaffe09a7c2b9f9bfdc48d5068c18068aa825be5f41ad67f6007d3509e9bb87e3", null ],
+      [ "NPC_VARTRUS", "d2/d8a/a04355.html#adaffe09a7c2b9f9bfdc48d5068c18068aa3648d60ebaeb2cef5c0578018150e99", null ],
+      [ "NPC_STOMA", "d2/d8a/a04355.html#adaffe09a7c2b9f9bfdc48d5068c18068ab30f7bd203d11ff87b0030b3578a5e81", null ],
+      [ "NPC_HASTAT", "d2/d8a/a04355.html#adaffe09a7c2b9f9bfdc48d5068c18068acc6ef71bcba7f2d82bc3164636733e04", null ],
+      [ "CREATURE_GROUP_ANCIENTS", "d2/d8a/a04355.html#adaffe09a7c2b9f9bfdc48d5068c18068a929e77d337e49edf4de033ddb8ccf149", null ]
+    ] ],
+    [ "RiverbreezeAndSilversky", "d2/d8a/a04355.html#acc75d54553750c832fe50b6cb0c42427", [
+      [ "SPELL_CENARION_BEACON", "d2/d8a/a04355.html#acc75d54553750c832fe50b6cb0c42427aefb9fe5d61b5fc5b810f077e47334d49", null ],
+      [ "NPC_ARATHANDRIS_SILVERSKY", "d2/d8a/a04355.html#acc75d54553750c832fe50b6cb0c42427a15af7b53355112caefafe032f27b15d6", null ],
+      [ "NPC_MAYBESS_RIVERBREEZE", "d2/d8a/a04355.html#acc75d54553750c832fe50b6cb0c42427a3362be702aaaa11f11e1df72d0a8e149", null ],
+      [ "QUEST_CLEASING_FELWOOD_A", "d2/d8a/a04355.html#acc75d54553750c832fe50b6cb0c42427ab52d337e733144a5a21fce9825f80fff", null ],
+      [ "QUEST_CLEASING_FELWOOD_H", "d2/d8a/a04355.html#acc75d54553750c832fe50b6cb0c42427a24da8ad4e5cec47c9a66a1e03e07383f", null ]
+    ] ],
+    [ "AddSC_felwood", "d2/d8a/a04355.html#a63ae28c9f250057b35a18fb585c6a2cf", null ]
 ];

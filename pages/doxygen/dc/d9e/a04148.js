@@ -1,10 +1,13 @@
 var a04148 =
 [
-    [ "AllCommandScript", "d6/db1/a09916.html", "d6/db1/a09916" ],
-    [ "CommandSC", "dc/d9e/a04148.html#a0c35d8c2fdd730a0360fd00502881c03", null ],
-    [ "AllCommandHook", "dc/d9e/a04148.html#a57c7df35e0370887ade698d62704997b", [
-      [ "ALLCOMMANDHOOK_ON_HANDLE_DEV_COMMAND", "dc/d9e/a04148.html#a57c7df35e0370887ade698d62704997bab762a34db533207a5f8f5b0db870f0b0", null ],
-      [ "ALLCOMMANDHOOK_ON_TRY_EXECUTE_COMMAND", "dc/d9e/a04148.html#a57c7df35e0370887ade698d62704997bac267dc607dca6da8a2195d77a9def327", null ],
-      [ "ALLCOMMANDHOOK_END", "dc/d9e/a04148.html#a57c7df35e0370887ade698d62704997bac10a14231ce403ff1812e0ec03700812", null ]
-    ] ]
+    [ "instance_karazhan", "dc/d1f/a12404.html", "dc/d1f/a12404" ],
+    [ "instance_karazhan::instance_karazhan_InstanceMapScript", "d2/def/a12408.html", "d2/def/a12408" ],
+    [ "spell_karazhan_brittle_bones_aura", "d8/d8e/a12412.html", "d8/d8e/a12412" ],
+    [ "spell_karazhan_overload_aura", "dc/df2/a12416.html", "dc/df2/a12416" ],
+    [ "spell_karazhan_blink", "db/d8a/a12420.html", "db/d8a/a12420" ],
+    [ "AddSC_instance_karazhan", "dc/d9e/a04148.html#adc62e82adedf1c9e8d47332aaa7a4cf5", null ],
+    [ "creatureData", "dc/d9e/a04148.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "doorData", "dc/d9e/a04148.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],
+    [ "gameObjectData", "dc/d9e/a04148.html#a1461582839e3b7fdbb7397e5d2086e31", null ],
+    [ "OptionalSpawn", "dc/d9e/a04148.html#a9dacd53568280ba4bb7d0a7c7f65f6cf", null ]
 ];

@@ -1,6 +1,5 @@
 var a27536 =
 [
-    [ "npc_locksmith", "d5/d87/a27536.html#af959a6395ebc33109405f18f262e4ecb", null ],
-    [ "OnGossipHello", "d5/d87/a27536.html#aec977cf39f11a7bc2f13c2bde8e97351", null ],
-    [ "OnGossipSelect", "d5/d87/a27536.html#a62ec02e226255ff1f81895391a6494b8", null ]
+    [ "npc_pet_trainerAI", "d5/d87/a27536.html#aa5c01fd7cf2b9fad15a3059b4fe38d13", null ],
+    [ "sGossipSelect", "d5/d87/a27536.html#a6768c8f8f5e37058f85cb40d35caad72", null ]
 ];

@@ -1,13 +1,20 @@
 var a04058 =
 [
-    [ "u_map_magic", "d9/d96/a09452.html", "d9/d96/a09452" ],
-    [ "ResetNotifier", "d4/db5/a09456.html", "d4/db5/a09456" ],
-    [ "IsInWMOInterior", "dc/d64/a04058.html#ad41458075af3abab316f89b325f54b7e", null ],
-    [ "holetab_h", "dc/d64/a04058.html#a10e90ca95e60d3244de3e68d7882433b", null ],
-    [ "holetab_v", "dc/d64/a04058.html#a54b408dce116992610ba9c141426d821", null ],
-    [ "MapAreaMagic", "dc/d64/a04058.html#aeb7bc0ea8073198e3cb70d0ee7f2aa44", null ],
-    [ "MapHeightMagic", "dc/d64/a04058.html#ae53a23e88747c5795afb99cccd6b4c6a", null ],
-    [ "MapLiquidMagic", "dc/d64/a04058.html#aaf4bf520080f57455b531f7c9bcea49f", null ],
-    [ "MapMagic", "dc/d64/a04058.html#aae87d2a805abae1536d560092ab589f8", null ],
-    [ "MapVersionMagic", "dc/d64/a04058.html#a3f87af2b784af0df560d9dce7651c859", null ]
+    [ "npc_professor_phizzlethorpe", "d1/d0e/a13252.html", "d1/d0e/a13252" ],
+    [ "npc_professor_phizzlethorpe::npc_professor_phizzlethorpeAI", "db/d4f/a13256.html", "db/d4f/a13256" ],
+    [ "ProfessorPhizzlethorpe", "dc/d64/a04058.html#a2fbc348d7cc479e3131e261e4a86f0a1", [
+      [ "SAY_PROGRESS_1", "dc/d64/a04058.html#a2fbc348d7cc479e3131e261e4a86f0a1ac7ef023ed2cd6e71dcfa4b57f34ffb21", null ],
+      [ "SAY_PROGRESS_2", "dc/d64/a04058.html#a2fbc348d7cc479e3131e261e4a86f0a1a967473f354dae95832b5e82733f4cced", null ],
+      [ "SAY_PROGRESS_3", "dc/d64/a04058.html#a2fbc348d7cc479e3131e261e4a86f0a1a25cbd1006b2e610756fbd3227fb87dcc", null ],
+      [ "EMOTE_PROGRESS_4", "dc/d64/a04058.html#a2fbc348d7cc479e3131e261e4a86f0a1a35c4fc6952e57458ffc3e74698dd2769", null ],
+      [ "SAY_AGGRO", "dc/d64/a04058.html#a2fbc348d7cc479e3131e261e4a86f0a1a47c752fff069f3e55065795eef2a9bfe", null ],
+      [ "SAY_PROGRESS_5", "dc/d64/a04058.html#a2fbc348d7cc479e3131e261e4a86f0a1aeee7fea4c8b3b6d3b0732bcde69433f3", null ],
+      [ "SAY_PROGRESS_6", "dc/d64/a04058.html#a2fbc348d7cc479e3131e261e4a86f0a1a36a5f74e6995b5cd9d8df351e57bfa84", null ],
+      [ "SAY_PROGRESS_7", "dc/d64/a04058.html#a2fbc348d7cc479e3131e261e4a86f0a1a9e815bbd308d3234b2feecf6dcd4e4cd", null ],
+      [ "EMOTE_PROGRESS_8", "dc/d64/a04058.html#a2fbc348d7cc479e3131e261e4a86f0a1a09177823914cf4cba524cd102c309c4e", null ],
+      [ "SAY_PROGRESS_9", "dc/d64/a04058.html#a2fbc348d7cc479e3131e261e4a86f0a1a0d013e69b765c1cc9024427c5967dbdf", null ],
+      [ "QUEST_SUNKEN_TREASURE", "dc/d64/a04058.html#a2fbc348d7cc479e3131e261e4a86f0a1a70619c446edf1e13b81824e234d2c7f3", null ],
+      [ "NPC_VENGEFUL_SURGE", "dc/d64/a04058.html#a2fbc348d7cc479e3131e261e4a86f0a1aa30485aedeea21658a4aa93a8f361873", null ]
+    ] ],
+    [ "AddSC_arathi_highlands", "dc/d64/a04058.html#a1e4a782474f0928dbacdf32c0ba395fd", null ]
 ];

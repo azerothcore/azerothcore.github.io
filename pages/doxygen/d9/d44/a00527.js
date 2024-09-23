@@ -1,14 +1,7 @@
 var a00527 =
 [
-    [ "AccountInfo", "d1/d0f/a05543.html", "d1/d0f/a05543" ],
-    [ "AuthSession", "da/dfb/a05547.html", "da/dfb/a05547" ],
-    [ "AuthHandler", "de/ddf/a05551.html", "de/ddf/a05551" ],
-    [ "AuthStatus", "d9/d44/a00527.html#a9bc15a6035dd7c4983d87a5ccb3d5834", [
-      [ "STATUS_CHALLENGE", "d9/d44/a00527.html#a9bc15a6035dd7c4983d87a5ccb3d5834a90b814e742d5a0b33f968164487ecac4", null ],
-      [ "STATUS_LOGON_PROOF", "d9/d44/a00527.html#a9bc15a6035dd7c4983d87a5ccb3d5834a940d23c4c5ae99bdf01c40c4e975df16", null ],
-      [ "STATUS_RECONNECT_PROOF", "d9/d44/a00527.html#a9bc15a6035dd7c4983d87a5ccb3d5834a2a06e7508d5944327eec6c08c11db734", null ],
-      [ "STATUS_AUTHED", "d9/d44/a00527.html#a9bc15a6035dd7c4983d87a5ccb3d5834ad7eacfaf1a48a468f2383034940ef72b", null ],
-      [ "STATUS_WAITING_FOR_REALM_LIST", "d9/d44/a00527.html#a9bc15a6035dd7c4983d87a5ccb3d5834a570e0aef98212ddcd09f1ec9254ffdf0", null ],
-      [ "STATUS_CLOSED", "d9/d44/a00527.html#a9bc15a6035dd7c4983d87a5ccb3d5834a78785eb1e6f5b92eaea5c78b3cc0dd94", null ]
-    ] ]
+    [ "Model", "db/dca/a28612.html", "db/dca/a28612" ],
+    [ "Extract", "d9/d44/a00527.html#aaece844099afc9d83362feb37427d5ae", null ],
+    [ "ExtractSet", "d9/d44/a00527.html#afd641f15b5ca6e58b68f26ef17a02912", null ],
+    [ "fixCoordSystem", "d9/d44/a00527.html#a8d0afbab5641bb7d88196fbad79e4cf1", null ]
 ];

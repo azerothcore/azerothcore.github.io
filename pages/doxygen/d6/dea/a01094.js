@@ -1,8 +1,5 @@
 var a01094 =
 [
-    [ "instance_trial_of_the_champion", "dc/d8e/a16128.html", "dc/d8e/a16128" ],
-    [ "instance_trial_of_the_champion::instance_trial_of_the_champion_InstanceMapScript", "da/d38/a16132.html", "da/d38/a16132" ],
-    [ "CLEANUP_CHECK_INTERVAL", "d6/dea/a01094.html#a736c9181af440341040d67d6b54e5700", null ],
-    [ "AddSC_instance_trial_of_the_champion", "d6/dea/a01094.html#a15e8163b6e8598d38b9f8c3b0ab9d5bd", null ],
-    [ "SpawnPosition", "d6/dea/a01094.html#a70438d12d4153aa7d510c89551abf7c9", null ]
+    [ "MapMgr", "dd/dae/a09524.html", "dd/dae/a09524" ],
+    [ "sMapMgr", "d6/dea/a01094.html#a9132749f8376c48b0ca7212eb3293905", null ]
 ];

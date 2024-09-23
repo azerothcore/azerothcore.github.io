@@ -1,7 +1,6 @@
 var a25884 =
 [
-    [ "CalcPeriodic", "de/db1/a25884.html#a404e5309016cfcaa3071c0216978699e", null ],
-    [ "PrepareAuraScript", "de/db1/a25884.html#a9675e5c417e5e9a5a358a3ffb371073e", null ],
-    [ "Register", "de/db1/a25884.html#a60ffc059d00fd58abe7e758f06bbf35c", null ],
-    [ "AuraEffectHandleModes", "de/db1/a25884.html#aa66ee788b7e09815b827a0f4ac954e1f", null ]
+    [ "CheckProc", "de/db1/a25884.html#aa8a8c89cf55ab6796a81671d0312a481", null ],
+    [ "PrepareAuraScript", "de/db1/a25884.html#a9c88f86a4edafda286725008ecfeab6c", null ],
+    [ "Register", "de/db1/a25884.html#ad75f33c72dff282e4a8976c92e0b4e76", null ]
 ];

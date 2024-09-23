@@ -1,11 +1,13 @@
 var a28384 =
 [
-    [ "IsAvailable", "db/d7b/a28384.html#adfebd7a162ebae8396669de031c768a6", null ],
-    [ "operator bool", "db/d7b/a28384.html#ac25d4bb270c805b8ea2a6e0b4b6b2e74", null ],
-    [ "operator*", "db/d7b/a28384.html#a24733bf06b4a91abcf4945aa5303a275", null ],
-    [ "operator->", "db/d7b/a28384.html#ad0ddd6fe7451f2b968db3a7d7a93b342", null ],
-    [ "SecretMgr", "db/d7b/a28384.html#af098c138ad828545a3dfb1870ad4c2fb", null ],
-    [ "lock", "db/d7b/a28384.html#aff5ea87e5a7dbfdf5bd38400997f2c40", null ],
-    [ "state", "db/d7b/a28384.html#a01563e00123d442b82bd6389d838c23d", null ],
-    [ "value", "db/d7b/a28384.html#a16b48eb9b384f6ab8c6996b38f559825", null ]
+    [ "Secret", "db/d36/a28388.html", "db/d36/a28388" ],
+    [ "SecretMgr", "db/d7b/a28384.html#a28ee0858a14656d7fc464eb604b127b7", null ],
+    [ "~SecretMgr", "db/d7b/a28384.html#ae6f15def262312b17456583b4e548d99", null ],
+    [ "SecretMgr", "db/d7b/a28384.html#ab48b891b84f116dc5efffe0a10a82f79", null ],
+    [ "AttemptLoad", "db/d7b/a28384.html#a65c2fd304c0f851f81cd80037deac8fb", null ],
+    [ "AttemptTransition", "db/d7b/a28384.html#a4b6cbe75e50ec3e4765fdb9e965ee84f", null ],
+    [ "GetSecret", "db/d7b/a28384.html#aff0b6ca546a62a3d6e7da52c3a2752bd", null ],
+    [ "Initialize", "db/d7b/a28384.html#a929de7b687d7c6bb91ef35306134ebac", null ],
+    [ "instance", "db/d7b/a28384.html#a27e237503dc523367fa94bd28a289d97", null ],
+    [ "_secrets", "db/d7b/a28384.html#a143bb8b3855a9f28df72abc9cfc94f3c", null ]
 ];

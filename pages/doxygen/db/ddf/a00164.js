@@ -1,5 +1,6 @@
 var a00164 =
 [
-    [ "SessionKey", "db/ddf/a00164.html#a7cbcb71452529a2addaab3b112dba4d7", null ],
-    [ "SESSION_KEY_LENGTH", "db/ddf/a00164.html#accf22e06a217bb405f0ee6f240d2e263", null ]
+    [ "VMAP::LocationInfo", "df/d8c/a04904.html", "df/d8c/a04904" ],
+    [ "VMAP::StaticMapTree", "da/db8/a04908.html", "da/db8/a04908" ],
+    [ "VMAP::AreaInfo", "dc/d52/a04912.html", "dc/d52/a04912" ]
 ];

@@ -1,5 +1,5 @@
 var a27328 =
 [
-    [ "item_generic_limit_chance_above_60", "dd/d38/a27328.html#abc18809810f0a7668020d01c482be84b", null ],
-    [ "OnCastItemCombatSpell", "dd/d38/a27328.html#aa34809cfd53edb6a77d3fa415a079d72", null ]
+    [ "item_captured_frog", "dd/d38/a27328.html#ad41b743c98c9534453eca8cf1f367366", null ],
+    [ "OnUse", "dd/d38/a27328.html#a1156467ca046a077ea494f92c488bf54", null ]
 ];

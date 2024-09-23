@@ -1,8 +1,5 @@
 var a00149 =
 [
-    [ "TaskScheduler", "d6/d39/a05439.html", "d6/d39/a05439" ],
-    [ "TaskScheduler::Task", "dd/d83/a05443.html", "dd/d83/a05443" ],
-    [ "TaskScheduler::Compare", "d1/db0/a05447.html", "d1/db0/a05447" ],
-    [ "TaskScheduler::TaskQueue", "dc/d83/a05451.html", "dc/d83/a05451" ],
-    [ "TaskContext", "d3/dd4/a05455.html", "d3/dd4/a05455" ]
+    [ "HMAC_RESULT_SIZE", "da/d1e/a00149.html#abdb09168f87cd99a498636550843012d", null ],
+    [ "TOTP_INTERVAL", "da/d1e/a00149.html#abcaccdfb09251b1b2856cc0c48c64eda", null ]
 ];

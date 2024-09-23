@@ -1,6 +1,7 @@
 var a00932 =
 [
-    [ "fireworkShowGameobjectStormwind", "d8/dbb/a00932.html#ae843a13f6116ce380e3890397d825ae6", null ],
-    [ "fireworkShowScheduleStormwind", "d8/dbb/a00932.html#af98c86c5b3725a8753fc620996c94b7f", null ],
-    [ "fireworkShowStormwind", "d8/dbb/a00932.html#a378278257abadcd4369abd66f412d8e6", null ]
+    [ "canCreateExtraItems", "d8/dbb/a00932.html#a49687e255d65fa15dac5e6a428c5739d", null ],
+    [ "CanCreatePerfectItem", "d8/dbb/a00932.html#a818c557864790091814604b6d2175e52", null ],
+    [ "LoadSkillExtraItemTable", "d8/dbb/a00932.html#a3244d04018405bafe21acc8bc96cc743", null ],
+    [ "LoadSkillPerfectItemTable", "d8/dbb/a00932.html#a121df170a82be5ab5b05999a6be27b69", null ]
 ];

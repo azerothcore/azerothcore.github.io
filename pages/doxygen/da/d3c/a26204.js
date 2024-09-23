@@ -1,6 +1,8 @@
 var a26204 =
 [
-    [ "HandleScriptEffect", "da/d3c/a26204.html#ab958c74ba8b40488751e5137eb0b6a66", null ],
-    [ "PrepareSpellScript", "da/d3c/a26204.html#a810fcbfe27f3c6991d1c5f599609b6f7", null ],
-    [ "Register", "da/d3c/a26204.html#a12c61c9057250f12ea50be74ba74c948", null ]
+    [ "HandleDummy", "da/d3c/a26204.html#ae396c96647e36da357bdc70e11e3145f", null ],
+    [ "Load", "da/d3c/a26204.html#a2b4811bf7e60361e13bc382e62173cee", null ],
+    [ "PrepareSpellScript", "da/d3c/a26204.html#ac97d07fb0d964bf3fb29d8bee57fc8e7", null ],
+    [ "Register", "da/d3c/a26204.html#a7c6aa891b012a0e1820fbe67976d68fd", null ],
+    [ "count", "da/d3c/a26204.html#a73358b2272ad12faef006b1ef633cac0", null ]
 ];

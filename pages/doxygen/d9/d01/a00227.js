@@ -1,14 +1,15 @@
 var a00227 =
 [
-    [ "WeatherMap", "d9/d01/a00227.html#afdd64650acc01e75684c5ae2b269d5c1", null ],
-    [ "WeatherZoneMap", "d9/d01/a00227.html#a77b1d830c50ce06ef7bb67f75cbd48b6", null ],
-    [ "AddWeather", "d9/d01/a00227.html#ga1f76350b68494335d48ae206b87e190c", null ],
-    [ "FindWeather", "d9/d01/a00227.html#gadd11deec2098fed61adf7910b8f09cc6", null ],
-    [ "GetWeatherData", "d9/d01/a00227.html#a8d453fe2bfb19b170807fe92e393bc51", null ],
-    [ "LoadWeatherData", "d9/d01/a00227.html#ga6c7d8a9fc5dfce0880220f4b5b8cd623", null ],
-    [ "RemoveWeather", "d9/d01/a00227.html#ga296a3324a3a38984149fae3e5d62435f", null ],
-    [ "SendFineWeatherUpdateToPlayer", "d9/d01/a00227.html#gac86b4e254146468a7412d8fc7b0c27f2", null ],
-    [ "Update", "d9/d01/a00227.html#ga45f0da6cf9e14a99380b4b9be2890801", null ],
-    [ "m_weathers", "d9/d01/a00227.html#ac2bde7e8b2ecff6ab9b2705d01ce8b2c", null ],
-    [ "mWeatherZoneMap", "d9/d01/a00227.html#a977110fadc5eac5e2efa26106382d408", null ]
+    [ "VMAP::ManagedModel", "d1/dcd/a04880.html", "d1/dcd/a04880" ],
+    [ "VMAP::VMapMgr2", "dc/d32/a04884.html", "dc/d32/a04884" ],
+    [ "FILENAMEBUFFER_SIZE", "d9/d01/a00227.html#aebe91d3f560a4221b135ef03b21a485f", null ],
+    [ "MAP_FILENAME_EXTENSION2", "d9/d01/a00227.html#aad39c14e5fae9fd5141df154332ae6fd", null ],
+    [ "InstanceTreeMap", "d9/d01/a00227.html#a38798cd0b87931dbaeda34fa316c2f6f", null ],
+    [ "ModelFileMap", "d9/d01/a00227.html#a6efa1bd5795cb2fcc8688e7500a8570f", null ],
+    [ "DisableTypes", "d9/d01/a00227.html#ae6fa86a61cff3bac928739b18ffb8c1b", [
+      [ "VMAP_DISABLE_AREAFLAG", "d9/d01/a00227.html#ae6fa86a61cff3bac928739b18ffb8c1ba4fc4dc95e6df57c161e146d8da4b4a19", null ],
+      [ "VMAP_DISABLE_HEIGHT", "d9/d01/a00227.html#ae6fa86a61cff3bac928739b18ffb8c1ba2f9e18e9b167ecc25202f607e29af926", null ],
+      [ "VMAP_DISABLE_LOS", "d9/d01/a00227.html#ae6fa86a61cff3bac928739b18ffb8c1ba26f8933b26a6ce62d8bddafde8ebb108", null ],
+      [ "VMAP_DISABLE_LIQUIDSTATUS", "d9/d01/a00227.html#ae6fa86a61cff3bac928739b18ffb8c1ba191004652b9fbcccb26c14ce81a94cec", null ]
+    ] ]
 ];

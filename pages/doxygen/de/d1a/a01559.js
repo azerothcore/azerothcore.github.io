@@ -1,9 +1,9 @@
 var a01559 =
 [
-    [ "OutdoorPvP_hellfire_peninsula", "db/d73/a22468.html", "db/d73/a22468" ],
-    [ "AddSC_outdoorpvp_hp", "de/d1a/a01559.html#a69303ad6f661d8c009ee493dc4fd486c", null ],
-    [ "HP_LANG_CAPTURE_A", "de/d1a/a01559.html#a642fe1233b764402bae812604b684442", null ],
-    [ "HP_LANG_CAPTURE_H", "de/d1a/a01559.html#a3ae9bb2c949b7f3c852ce2e4552d8ccd", null ],
-    [ "HP_LANG_LOSE_A", "de/d1a/a01559.html#a1b9adf9c71e549e4545c2e4eabe58dd5", null ],
-    [ "HP_LANG_LOSE_H", "de/d1a/a01559.html#ad62cd8f07ac98311202494985c6ae9c8", null ]
+    [ "FactorySelector::PermissibleOrderPred< T >", "d1/db6/a06072.html", "d1/db6/a06072" ],
+    [ "GetPermitFor", "de/d1a/a01559.html#aaf9c138ae6c123d03859db553a39892d", null ],
+    [ "SelectAI", "de/d1a/a01559.html#a10fef1ff3335f4642179ee423b1ff0d6", null ],
+    [ "SelectFactory", "de/d1a/a01559.html#ad553c2186f078e696768d40d217738f8", null ],
+    [ "SelectGameObjectAI", "de/d1a/a01559.html#a2ce404e9b85f551638d8783c01a19860", null ],
+    [ "SelectMovementGenerator", "de/d1a/a01559.html#a203d17bf72c42c0d3fdb77626b01b679", null ]
 ];

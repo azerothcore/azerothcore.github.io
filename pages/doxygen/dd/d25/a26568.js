@@ -1,9 +1,8 @@
 var a26568 =
 [
-    [ "HandleHeal", "dd/d25/a26568.html#ad2d854d275dc6f8b67b866d864b6febe", null ],
-    [ "Load", "dd/d25/a26568.html#a507a7a4ff11f8bf1157e034d086cd9ad", null ],
-    [ "PrepareSpellScript", "dd/d25/a26568.html#a91eb46af707897f228e5d1bbd199a833", null ],
-    [ "Register", "dd/d25/a26568.html#ae28f1b0c23511153eafc037cae067bc0", null ],
-    [ "firstHeal", "dd/d25/a26568.html#a405326e6e1cd82816aef1712fdf335a0", null ],
-    [ "riptide", "dd/d25/a26568.html#acaec32f6730bc2e04e613aa982d285bf", null ]
+    [ "ApplyDebuff", "dd/d25/a26568.html#ac22ae27019de6bd951bb00262c6df9a3", null ],
+    [ "PrepareSpellScript", "dd/d25/a26568.html#aa37525d089348f58e3d871830caa3417", null ],
+    [ "Register", "dd/d25/a26568.html#ac37a48d9742ab6b07c5e6a8dd7f23bd9", null ],
+    [ "RemoveInvalidTargets", "dd/d25/a26568.html#a0451b75aa962065a01a5806992e01b16", null ],
+    [ "Validate", "dd/d25/a26568.html#ac69d777fdf7a2d3c527621dee256690c", null ]
 ];

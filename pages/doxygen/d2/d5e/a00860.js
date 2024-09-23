@@ -1,6 +1,8 @@
 var a00860 =
 [
-    [ "DBUpdater< CharacterDatabaseConnection >", "d2/d5e/a00860.html#a753e207671f7af3815a056247f2de3ce", null ],
-    [ "DBUpdater< LoginDatabaseConnection >", "d2/d5e/a00860.html#a16a33693c8570aff221401b100547fb7", null ],
-    [ "DBUpdater< WorldDatabaseConnection >", "d2/d5e/a00860.html#ace05c45d1df6cb7f16487ef1aa8bc9f7", null ]
+    [ "MovementHandlerScript", "db/dd3/a10056.html", "db/dd3/a10056" ],
+    [ "MovementHook", "d2/d5e/a00860.html#a5763e953c65ba38409a14469a1fe2842", [
+      [ "MOVEMENTHOOK_ON_PLAYER_MOVE", "d2/d5e/a00860.html#a5763e953c65ba38409a14469a1fe2842a9fb1a9d074f81a435e688f4cd7d12326", null ],
+      [ "MOVEMENTHOOK_END", "d2/d5e/a00860.html#a5763e953c65ba38409a14469a1fe2842ae0cf6cfe134c99cc596bac2607905b9c", null ]
+    ] ]
 ];

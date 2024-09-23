@@ -1,7 +1,6 @@
 var a00167 =
 [
-    [ "GetBuildDirectory", "dc/de6/a00167.html#ae2280b7f7c56992a4c3ae6e33d6c8a4b", null ],
-    [ "GetCMakeCommand", "dc/de6/a00167.html#af38bc6d6ef36ab9b44b7bf5446659672", null ],
-    [ "GetMySQLExecutable", "dc/de6/a00167.html#abdfee61576e0a7c64d7bb6a516ab69b7", null ],
-    [ "GetSourceDirectory", "dc/de6/a00167.html#a84544d0c16175b62a0894c34fee2b6d7", null ]
+    [ "VMAP::MapRayCallback", "db/d9e/a04892.html", "db/d9e/a04892" ],
+    [ "VMAP::AreaInfoCallback", "d2/d1f/a04896.html", "d2/d1f/a04896" ],
+    [ "VMAP::LocationInfoCallback", "d9/d2e/a04900.html", "d9/d2e/a04900" ]
 ];

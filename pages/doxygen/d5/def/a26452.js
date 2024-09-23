@@ -1,8 +1,6 @@
 var a26452 =
 [
-    [ "CheckCast", "d5/def/a26452.html#a16983545e25f3e02064e2b3d573b2bb8", null ],
-    [ "CheckQuest", "d5/def/a26452.html#abc927d932c1d5e05eab1918364d68ed5", null ],
-    [ "HandleActiveObject", "d5/def/a26452.html#a95f7bd6dd52b19bb1c09975a7286882a", null ],
-    [ "PrepareSpellScript", "d5/def/a26452.html#a96e69476965cc2466213a5371a57093a", null ],
-    [ "Register", "d5/def/a26452.html#a83c48e1c42a6a6dd892f0f4d6a20687b", null ]
+    [ "HandleFinish", "d5/def/a26452.html#ac4c50220d86f809644e339fc578d9b4a", null ],
+    [ "PrepareSpellScript", "d5/def/a26452.html#a5a14594ed93150e34626a7e0edb8171b", null ],
+    [ "Register", "d5/def/a26452.html#a9d28a3b88d57e2f89921d59f56148f74", null ]
 ];

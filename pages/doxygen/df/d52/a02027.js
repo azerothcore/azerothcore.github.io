@@ -1,21 +1,10 @@
 var a02027 =
 [
-    [ "AccountActionIpLogger", "d7/d18/a26960.html", "d7/d18/a26960" ],
-    [ "CharacterActionIpLogger", "df/dff/a26964.html", "df/dff/a26964" ],
-    [ "CharacterDeleteActionIpLogger", "dc/d07/a26968.html", "dc/d07/a26968" ],
-    [ "IPLoggingTypes", "df/d52/a02027.html#a3b67d8dbf539fa5519b3e33da9d0137b", [
-      [ "ACCOUNT_LOGIN", "df/d52/a02027.html#a3b67d8dbf539fa5519b3e33da9d0137ba8f9e397f01ecf6030118a21051f37eb8", null ],
-      [ "ACCOUNT_FAIL_LOGIN", "df/d52/a02027.html#a3b67d8dbf539fa5519b3e33da9d0137baf5dfdd830d71ca55c98a2a6bbc49895f", null ],
-      [ "ACCOUNT_CHANGE_PW", "df/d52/a02027.html#a3b67d8dbf539fa5519b3e33da9d0137ba38e1a216027e5110edeced016ff5c059", null ],
-      [ "ACCOUNT_CHANGE_PW_FAIL", "df/d52/a02027.html#a3b67d8dbf539fa5519b3e33da9d0137baa0990c000cd17b2abe8225b66cac6b53", null ],
-      [ "ACCOUNT_CHANGE_EMAIL", "df/d52/a02027.html#a3b67d8dbf539fa5519b3e33da9d0137baf435090459154eb1ba7b8c994842b06c", null ],
-      [ "ACCOUNT_CHANGE_EMAIL_FAIL", "df/d52/a02027.html#a3b67d8dbf539fa5519b3e33da9d0137ba4bd2be99e9a5252be0bbf26a71541e30", null ],
-      [ "CHARACTER_CREATE", "df/d52/a02027.html#a3b67d8dbf539fa5519b3e33da9d0137ba64dc5a829a5cecf5f19b805d05a32b85", null ],
-      [ "CHARACTER_LOGIN", "df/d52/a02027.html#a3b67d8dbf539fa5519b3e33da9d0137ba69b7162ca378f801be6e30e2e4b86363", null ],
-      [ "CHARACTER_LOGOUT", "df/d52/a02027.html#a3b67d8dbf539fa5519b3e33da9d0137ba742b5af30e35f2927eaa20bdf504b607", null ],
-      [ "CHARACTER_DELETE", "df/d52/a02027.html#a3b67d8dbf539fa5519b3e33da9d0137ba04c86cce0401c766b99edbef52a91162", null ],
-      [ "CHARACTER_FAILED_DELETE", "df/d52/a02027.html#a3b67d8dbf539fa5519b3e33da9d0137baf8aedeaf82227741e50fdf6be12a35e7", null ],
-      [ "UNKNOWN_ACTION", "df/d52/a02027.html#a3b67d8dbf539fa5519b3e33da9d0137bae16d79bf07a3994731f4ac1a6ece5ec8", null ]
-    ] ],
-    [ "AddSC_action_ip_logger", "df/d52/a02027.html#a530be5efb251d5ca58e97804e48ad953", null ]
+    [ "WorldPackets::Pet::DismissCritter", "d7/d9f/a10568.html", "d7/d9f/a10568" ],
+    [ "WorldPackets::Pet::PetAbandon", "d3/da5/a10572.html", "d3/da5/a10572" ],
+    [ "WorldPackets::Pet::PetStopAttack", "db/d03/a10576.html", "db/d03/a10576" ],
+    [ "WorldPackets::Pet::PetSpellAutocast", "d9/d97/a10580.html", "d9/d97/a10580" ],
+    [ "WorldPackets::Pet::PetLearnedSpell", "d7/d9e/a10584.html", "d7/d9e/a10584" ],
+    [ "WorldPackets::Pet::PetUnlearnedSpell", "d1/d6c/a10588.html", "d1/d6c/a10588" ],
+    [ "WorldPackets::Pet::RequestPetInfo", "d3/d30/a10592.html", "d3/d30/a10592" ]
 ];

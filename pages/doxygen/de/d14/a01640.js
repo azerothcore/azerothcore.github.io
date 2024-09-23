@@ -1,5 +1,5 @@
 var a01640 =
 [
-    [ "account_commandscript", "d1/d9f/a11248.html", "d1/d9f/a11248" ],
-    [ "AddSC_account_commandscript", "de/d14/a01640.html#a8c18eb17be05fd3da5e9cfa3480c52c4", null ]
+    [ "GetIdleMovementGenerator", "de/d14/a01640.html#ab03e344726a074f17f8c63d10b67fcc1", null ],
+    [ "isStatic", "de/d14/a01640.html#a05fec3371a9aee5a6448115a645a505d", null ]
 ];

@@ -1,37 +1,23 @@
 var a01835 =
 [
-    [ "npc_bunthen_plainswind", "dc/d2b/a15304.html", "dc/d2b/a15304" ],
-    [ "npc_great_bear_spirit", "dd/d0f/a15308.html", "dd/d0f/a15308" ],
-    [ "npc_silva_filnaveth", "d4/d2f/a15312.html", "d4/d2f/a15312" ],
-    [ "npc_clintar_spirit", "d3/d42/a15316.html", "d3/d42/a15316" ],
-    [ "npc_clintar_spirit::npc_clintar_spiritAI", "de/d0a/a15320.html", "de/d0a/a15320" ],
-    [ "npc_omen", "df/d87/a15324.html", "df/d87/a15324" ],
-    [ "npc_omen::npc_omenAI", "d5/db2/a15328.html", "d5/db2/a15328" ],
-    [ "npc_giant_spotlight", "d8/dc7/a15332.html", "d8/dc7/a15332" ],
-    [ "npc_giant_spotlight::npc_giant_spotlightAI", "d8/d1f/a15336.html", "d8/d1f/a15336" ],
-    [ "Bunthen", "da/dcd/a01835.html#adbbeebdb932cdc68f2ad2b58d4c922fb", [
-      [ "QUEST_SEA_LION_HORDE", "da/dcd/a01835.html#adbbeebdb932cdc68f2ad2b58d4c922fba19a2ff94115fefe241626f3331ce747f", null ],
-      [ "QUEST_SEA_LION_ALLY", "da/dcd/a01835.html#adbbeebdb932cdc68f2ad2b58d4c922fba9333cbca83acf867219e50edeeb6ad5a", null ],
-      [ "TAXI_PATH_ID_ALLY", "da/dcd/a01835.html#adbbeebdb932cdc68f2ad2b58d4c922fba5f9b640f23c79dda3001d48c5d714b08", null ],
-      [ "TAXI_PATH_ID_HORDE", "da/dcd/a01835.html#adbbeebdb932cdc68f2ad2b58d4c922fbaa6f489a16374ddf85329d3ee985c460b", null ]
-    ] ],
-    [ "ClintarSpirit", "da/dcd/a01835.html#af06e96ced22feb1885564950e05417a2", [
-      [ "ASPECT_RAVEN", "da/dcd/a01835.html#af06e96ced22feb1885564950e05417a2a5aa355f8770a619dd97c43a1ed6c8e7f", null ],
-      [ "CLINTAR_SPIRIT_SAY_START", "da/dcd/a01835.html#af06e96ced22feb1885564950e05417a2a4003cbd90da80c6fb02ae957c7e3e60e", null ]
-    ] ],
-    [ "Omen", "da/dcd/a01835.html#a7fb152206db70a70437b235647a95793", [
-      [ "NPC_OMEN", "da/dcd/a01835.html#a7fb152206db70a70437b235647a95793a6d34405f4268188f4709fddd135879a1", null ],
-      [ "SPELL_OMEN_CLEAVE", "da/dcd/a01835.html#a7fb152206db70a70437b235647a95793a525d07772748bd50623894654941eebb", null ],
-      [ "SPELL_OMEN_STARFALL", "da/dcd/a01835.html#a7fb152206db70a70437b235647a95793a8a65e86a799ba7daf95b45212e2d0cac", null ],
-      [ "SPELL_OMEN_SUMMON_SPOTLIGHT", "da/dcd/a01835.html#a7fb152206db70a70437b235647a95793a09afe0a7256990b201fc144424201c79", null ],
-      [ "SPELL_ELUNE_CANDLE", "da/dcd/a01835.html#a7fb152206db70a70437b235647a95793a333999af862b8d1706a4b34ced3448e6", null ],
-      [ "GO_ELUNE_TRAP_1", "da/dcd/a01835.html#a7fb152206db70a70437b235647a95793a55d48a597022d003e1e18a7cb332c3e3", null ],
-      [ "GO_ELUNE_TRAP_2", "da/dcd/a01835.html#a7fb152206db70a70437b235647a95793a70bba7030d170525f9351e8643ed8e51", null ],
-      [ "EVENT_CAST_CLEAVE", "da/dcd/a01835.html#a7fb152206db70a70437b235647a95793a9b4959d7ea485f12c7d67e5bd7672383", null ],
-      [ "EVENT_CAST_STARFALL", "da/dcd/a01835.html#a7fb152206db70a70437b235647a95793a59097ac157a655e4c9371e19a53820fc", null ],
-      [ "EVENT_DESPAWN", "da/dcd/a01835.html#a7fb152206db70a70437b235647a95793a37c22b84c74c36e2af467a6bd1047f15", null ]
-    ] ],
-    [ "AddSC_moonglade", "da/dcd/a01835.html#a849e20dbd083abdfb7fb96857fb7d89f", null ],
-    [ "AspectRavenSummon", "da/dcd/a01835.html#a8b390a1d926d93da400a7e199a1da6b6", null ],
-    [ "Clintar_spirit_WP", "da/dcd/a01835.html#adcc622dc5710ac246cbdd4f072ad52fe", null ]
+    [ "CreatureTextEntry", "d0/df3/a11076.html", "d0/df3/a11076" ],
+    [ "CreatureTextLocale", "db/d6e/a11080.html", "db/d6e/a11080" ],
+    [ "CreatureTextId", "da/de1/a11084.html", "da/de1/a11084" ],
+    [ "CreatureTextMgr", "dc/d2c/a11088.html", "dc/d2c/a11088" ],
+    [ "CreatureTextLocalizer< Builder >", "db/d20/a11092.html", "db/d20/a11092" ],
+    [ "sCreatureTextMgr", "da/dcd/a01835.html#a2dc428da007cefe454220dcb355a1cde", null ],
+    [ "CreatureTextGroup", "da/dcd/a01835.html#a9baeb5ff5e542c90d9058942cf0b4bbd", null ],
+    [ "CreatureTextHolder", "da/dcd/a01835.html#aad09b58ddf486cb766cdeb242824cd2d", null ],
+    [ "CreatureTextMap", "da/dcd/a01835.html#ac48698bcbe36b82577c41f42f3f23f09", null ],
+    [ "CreatureTextRepeatGroup", "da/dcd/a01835.html#aa92b7ce1a721a3955751ae25cf01b22a", null ],
+    [ "CreatureTextRepeatIds", "da/dcd/a01835.html#a4a74e5d0af63228e47e1f663570018ae", null ],
+    [ "CreatureTextRepeatMap", "da/dcd/a01835.html#a919aeba9f103d29372eb10a72f3b1142", null ],
+    [ "LocaleCreatureTextMap", "da/dcd/a01835.html#ab39b2d82775a84108d19ed009bd14747", null ],
+    [ "CreatureTextRange", "da/dcd/a01835.html#adf847039afbebeda9e21210c1f4eb052", [
+      [ "TEXT_RANGE_NORMAL", "da/dcd/a01835.html#adf847039afbebeda9e21210c1f4eb052a649e811a5e8853fa24088dbb708ce9ab", null ],
+      [ "TEXT_RANGE_AREA", "da/dcd/a01835.html#adf847039afbebeda9e21210c1f4eb052a1982e7a678f4ba541ea6ecbfec493385", null ],
+      [ "TEXT_RANGE_ZONE", "da/dcd/a01835.html#adf847039afbebeda9e21210c1f4eb052a182bd5362916ba67bcf6660ce37fae0a", null ],
+      [ "TEXT_RANGE_MAP", "da/dcd/a01835.html#adf847039afbebeda9e21210c1f4eb052a90bf8cfe8ac6e4bac224bd3dd9fbc3a3", null ],
+      [ "TEXT_RANGE_WORLD", "da/dcd/a01835.html#adf847039afbebeda9e21210c1f4eb052a3a88078985d9e80a4543acf0acde52d9", null ]
+    ] ]
 ];

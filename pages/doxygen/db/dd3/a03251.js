@@ -1,6 +1,5 @@
 var a03251 =
 [
-    [ "PointMovementGenerator< T >", "d2/d36/a09696.html", "d2/d36/a09696" ],
-    [ "AssistanceMovementGenerator", "db/d31/a09700.html", "db/d31/a09700" ],
-    [ "EffectMovementGenerator", "d3/d96/a09704.html", "d3/d96/a09704" ]
+    [ "OutdoorPvP_silithus", "de/d1d/a22500.html", "de/d1d/a22500" ],
+    [ "AddSC_outdoorpvp_si", "db/dd3/a03251.html#a6dfd2849f525333510ae4febbbc3ae1f", null ]
 ];

@@ -1,13 +1,6 @@
 var a27556 =
 [
-    [ "npc_spring_rabbitAI", "dc/d42/a27556.html#a1211ab47dee4844b90a010c284c4f1a5", null ],
-    [ "DoAction", "dc/d42/a27556.html#a288ddb2f1ee0ab7113f1a1f34dc545c5", null ],
-    [ "JustEngagedWith", "dc/d42/a27556.html#a0c36f1dfc094007990f067544a940538", null ],
-    [ "Reset", "dc/d42/a27556.html#ac0f6b47044099016dd6453674b75b2c8", null ],
-    [ "UpdateAI", "dc/d42/a27556.html#af9da118068234755fa9219b84050d2a3", null ],
-    [ "bunnyTimer", "dc/d42/a27556.html#a99c2923194cf6a07bee8924abf98f470", null ],
-    [ "inLove", "dc/d42/a27556.html#aec8887aedf32fb4ebcc68c48f0ee0ea5", null ],
-    [ "jumpTimer", "dc/d42/a27556.html#a5c17e00187ac87b23482dfbabb89809b", null ],
-    [ "rabbitGUID", "dc/d42/a27556.html#af838b25c8442767aaef16e95022cb062", null ],
-    [ "searchTimer", "dc/d42/a27556.html#af1b82227dadf30c6c796e7b8c2abbe82", null ]
+    [ "npc_spring_rabbitAI", "d1/d73/a27560.html", "d1/d73/a27560" ],
+    [ "npc_spring_rabbit", "dc/d42/a27556.html#a4e2ed1f556edd535a8d262d7e0bdfa1a", null ],
+    [ "GetAI", "dc/d42/a27556.html#a968933658fbcc7f7cbdfca90fd9a68dc", null ]
 ];

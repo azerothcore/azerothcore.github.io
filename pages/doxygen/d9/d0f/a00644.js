@@ -1,4 +1,4 @@
 var a00644 =
 [
-    [ "CliThread", "d6/d12/a04661.html#ga2a2e263e5224262317a4728b5a4c18ac", null ]
+    [ "ScriptRegistry< PetScript >", "d9/d0f/a00644.html#a24e9b0a598349bf70ac6cf5aa4e30043", null ]
 ];

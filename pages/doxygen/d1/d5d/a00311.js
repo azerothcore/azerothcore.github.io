@@ -1,9 +1,6 @@
 var a00311 =
 [
-    [ "NodeArray< Node >", "de/d7d/a05000.html", "de/d7d/a05000" ],
-    [ "NodeCreator< Node >", "d7/d8a/a05004.html", "d7/d8a/a05004" ],
-    [ "RegularGrid2D< T, Node, NodeCreatorFunc, PositionFunc >", "d6/df3/a05008.html", "d6/df3/a05008" ],
-    [ "RegularGrid2D< T, Node, NodeCreatorFunc, PositionFunc >::Cell", "db/dd9/a05012.html", "db/dd9/a05012" ],
-    [ "CELL_SIZE", "d1/d5d/a00311.html#a7a4127f14f16563da90eb3c836bc404f", null ],
-    [ "HGRID_MAP_SIZE", "d1/d5d/a00311.html#ac836977c6cb1a34ebc070436978fb2bb", null ]
+    [ "CONFIG_HIGH_PRIORITY", "d1/d5d/a00311.html#a04727fe99a83f6b774ac1fb1b8468f3e", null ],
+    [ "CONFIG_PROCESSOR_AFFINITY", "d1/d5d/a00311.html#a714853b6677573f2aa289978eee5b83f", null ],
+    [ "SetProcessPriority", "d1/d5d/a00311.html#ac0ccc1e4fc992fb43f068cb8f6b3fd7b", null ]
 ];

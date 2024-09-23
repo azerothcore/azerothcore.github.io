@@ -1,6 +1,5 @@
 var a03257 =
 [
-    [ "TargetedMovementGeneratorBase", "d8/dd4/a09712.html", "d8/dd4/a09712" ],
-    [ "ChaseMovementGenerator< T >", "d1/d90/a09716.html", "d1/d90/a09716" ],
-    [ "FollowMovementGenerator< T >", "d5/d19/a09720.html", "d5/d19/a09720" ]
+    [ "OutdoorPvP_grizzly_hills", "d0/d98/a22456.html", "d0/d98/a22456" ],
+    [ "AddSC_outdoorpvp_gh", "df/d62/a03257.html#a04eaa29ec2e34f71e4f7addacc0405c0", null ]
 ];

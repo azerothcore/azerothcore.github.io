@@ -1,17 +1,25 @@
 var a04586 =
 [
-    [ "Acore::Impl::ChatCommands::tag_base< T, typename >", "dd/d53/a07392.html", "dd/d53/a07392" ],
-    [ "Acore::Impl::ChatCommands::TokenizeResult", "de/d39/a07396.html", "de/d39/a07396" ],
-    [ "Acore::Impl::ChatCommands::are_all_assignable< T, Ts >", "db/d8f/a07400.html", "db/d8f/a07400" ],
-    [ "Acore::Impl::ChatCommands::are_all_assignable< void, Ts... >", "d5/d1c/a07404.html", "d5/d1c/a07404" ],
-    [ "Acore::Impl::ChatCommands::get_nth< index, T1, Ts >", "d5/dbe/a07408.html", null ],
-    [ "Acore::Impl::ChatCommands::get_nth< 0, T1, Ts... >", "de/d24/a07412.html", "de/d24/a07412" ],
-    [ "Acore::Impl::ChatCommands::ChatCommandResult", "d0/d2e/a07416.html", "d0/d2e/a07416" ],
-    [ "get_nth_t", "df/dd7/a04586.html#acf7271fa50990dbd40fd90f127b9fb3b", null ],
-    [ "tag_base_t", "df/dd7/a04586.html#a61f1a636e46a7d78161298ae28844703", null ],
-    [ "FormatAcoreString", "df/dd7/a04586.html#a496bce28eb0bf0ac4b5e1c54c19193b7", null ],
-    [ "GetAcoreString", "df/dd7/a04586.html#a671c2d8ee25e88cc8f58246b1486f1de", null ],
-    [ "SendErrorMessageToHandler", "df/dd7/a04586.html#aae4c9556d5cc172144fa280ca820226d", null ],
-    [ "tokenize", "df/dd7/a04586.html#aeca95018e8d551d917cf69e0764ccef7", null ],
-    [ "COMMAND_DELIMITER", "df/dd7/a04586.html#a068db55731856ca7770e1b09a4225aa2", null ]
+    [ "RealmHandle", "d9/db6/a28364.html", "d9/db6/a28364" ],
+    [ "Realm", "dc/d26/a28368.html", "dc/d26/a28368" ],
+    [ "RealmFlags", "df/dd7/a04586.html#ace3f717ac43bef67791faeb2a0b2c1e2", [
+      [ "REALM_FLAG_NONE", "df/dd7/a04586.html#ace3f717ac43bef67791faeb2a0b2c1e2a78cb2956eac93bb478e5a6573336a0a2", null ],
+      [ "REALM_FLAG_VERSION_MISMATCH", "df/dd7/a04586.html#ace3f717ac43bef67791faeb2a0b2c1e2a9e5fc6c089666cb09890f97038c44056", null ],
+      [ "REALM_FLAG_OFFLINE", "df/dd7/a04586.html#ace3f717ac43bef67791faeb2a0b2c1e2a728d61b0842461c34b1f6167e5dcdb68", null ],
+      [ "REALM_FLAG_SPECIFYBUILD", "df/dd7/a04586.html#ace3f717ac43bef67791faeb2a0b2c1e2afda7734169f8aad2549a0a0aa4c04903", null ],
+      [ "REALM_FLAG_UNK1", "df/dd7/a04586.html#ace3f717ac43bef67791faeb2a0b2c1e2a73ff031081f52c4cecfe2f899bb92304", null ],
+      [ "REALM_FLAG_UNK2", "df/dd7/a04586.html#ace3f717ac43bef67791faeb2a0b2c1e2a9d7b7c5ef743cf68b93360af13b7ed81", null ],
+      [ "REALM_FLAG_RECOMMENDED", "df/dd7/a04586.html#ace3f717ac43bef67791faeb2a0b2c1e2ab5051c0caffaa54a0fe3aab0d3c99b29", null ],
+      [ "REALM_FLAG_NEW", "df/dd7/a04586.html#ace3f717ac43bef67791faeb2a0b2c1e2a214cd38c14a7209f7986ae4ca43fe73b", null ],
+      [ "REALM_FLAG_FULL", "df/dd7/a04586.html#ace3f717ac43bef67791faeb2a0b2c1e2acdaee6e8c961adfa63cde3a06707b952", null ]
+    ] ],
+    [ "RealmType", "df/dd7/a04586.html#ae8ff852caf6f88797c9c3716d1acbe59", [
+      [ "REALM_TYPE_NORMAL", "df/dd7/a04586.html#ae8ff852caf6f88797c9c3716d1acbe59accb12c63a2ee89b9c3f72e5fd2b056fb", null ],
+      [ "REALM_TYPE_PVP", "df/dd7/a04586.html#ae8ff852caf6f88797c9c3716d1acbe59a5b9f160cabace91bff99046f281b899c", null ],
+      [ "REALM_TYPE_NORMAL2", "df/dd7/a04586.html#ae8ff852caf6f88797c9c3716d1acbe59a8529db1edd00f579cbeff7e0c2a88e19", null ],
+      [ "REALM_TYPE_RP", "df/dd7/a04586.html#ae8ff852caf6f88797c9c3716d1acbe59a81056f603f1158cb39b25f9ae8beb88f", null ],
+      [ "REALM_TYPE_RPPVP", "df/dd7/a04586.html#ae8ff852caf6f88797c9c3716d1acbe59a58e3ebd90691c511e7976f5bff724fae", null ],
+      [ "MAX_CLIENT_REALM_TYPE", "df/dd7/a04586.html#ae8ff852caf6f88797c9c3716d1acbe59a580a3990630da9c56e3fef200d6b15be", null ],
+      [ "REALM_TYPE_FFA_PVP", "df/dd7/a04586.html#ae8ff852caf6f88797c9c3716d1acbe59a43cf71d6098c453fc931d7e25f729457", null ]
+    ] ]
 ];

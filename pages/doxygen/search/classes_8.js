@@ -16,7 +16,7 @@ var searchData=
   ['hithandler_13',['HitHandler',['../d8/d7d/a10964.html',1,'SpellScript']]],
   ['hittriggerspell_14',['HitTriggerSpell',['../d7/dc4/a10816.html',1,'Spell']]],
   ['hodirhelperdata_15',['HodirHelperData',['../da/d14/a20060.html',1,'']]],
-  ['holidaysentry_16',['HolidaysEntry',['../dc/d7c/a28068.html',1,'']]],
+  ['holidaysentry_16',['HolidaysEntry',['../d5/dde/a28072.html',1,'']]],
   ['homemovementgenerator_17',['HomeMovementGenerator',['../d2/d51/a09668.html',1,'']]],
   ['homemovementgenerator_3c_20creature_20_3e_18',['HomeMovementGenerator&lt; Creature &gt;',['../d7/d7d/a09672.html',1,'']]],
   ['honor_5fcommandscript_19',['honor_commandscript',['../df/dd3/a11336.html',1,'']]],

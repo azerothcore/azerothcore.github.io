@@ -1,17 +1,15 @@
 var a03878 =
 [
-    [ "SplineHandler", "d1/d54/a08428.html", "d1/d54/a08428" ],
-    [ "spellIdImmunityPredicate", "d5/d3e/a08432.html", "d5/d3e/a08432" ],
-    [ "ProcTriggeredData", "d2/d95/a08436.html", "d2/d95/a08436" ],
-    [ "AuraMunchingQueue", "d3/d5b/a08440.html", "d3/d5b/a08440" ],
-    [ "ProcTriggeredList", "d0/d60/a03878.html#af5ec5d5b1ba4d4454c1bdcbc139de758", null ],
-    [ "createProcExtendMask", "d0/d60/a03878.html#afb539370dad036ff97905efdbb4270c0", null ],
-    [ "createProcFlags", "d0/d60/a03878.html#a7d920511c20f084098c0f68a75006159", null ],
-    [ "InitTriggerAuraData", "d0/d60/a03878.html#a70fb722e03fe637ce7c9979a00725a3c", null ],
-    [ "baseMoveSpeed", "d0/d60/a03878.html#a2ede1cce0416c74db2d4599bab36eb57", null ],
-    [ "isAlwaysTriggeredAura", "d0/d60/a03878.html#a59735a3ed46ce3add4f949e4c9e041f8", null ],
-    [ "isNonTriggerAura", "d0/d60/a03878.html#a993ff0928a2b90204efd437a0726e787", null ],
-    [ "isTriggerAura", "d0/d60/a03878.html#ad51bed43268eefcceebdda05d85c6a61", null ],
-    [ "playerBaseMoveSpeed", "d0/d60/a03878.html#afef08589b9944f10d66bdc1de74d0270", null ],
-    [ "procPrepared", "d0/d60/a03878.html#a11410c456e972de7cfb44bbe17709cc4", null ]
+    [ "instance_sunken_temple", "d1/ddb/a12896.html", "d1/ddb/a12896" ],
+    [ "instance_sunken_temple::instance_sunken_temple_InstanceMapScript", "d1/dac/a12900.html", "d1/dac/a12900" ],
+    [ "at_malfurion_stormrage", "d0/de2/a12904.html", "d0/de2/a12904" ],
+    [ "spell_temple_of_atal_hakkar_hex_of_jammal_an", "d3/d86/a12908.html", "d3/d86/a12908" ],
+    [ "spell_temple_of_atal_hakkar_hex_of_jammal_an::spell_temple_of_atal_hakkar_hex_of_jammal_an_AuraScript", "d9/d63/a12912.html", "d9/d63/a12912" ],
+    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer", "dc/d0b/a12916.html", "dc/d0b/a12916" ],
+    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer::spell_temple_of_atal_hakkar_awaken_the_soulflayer_SpellScript", "de/d59/a12920.html", "de/d59/a12920" ],
+    [ "MalfurionMisc", "d0/d60/a03878.html#a754fcfafd80b5a6c2ea444f49cfbc7d1", [
+      [ "QUEST_ERANIKUS_TYRANT_OF_DREAMS", "d0/d60/a03878.html#a754fcfafd80b5a6c2ea444f49cfbc7d1a99089f2ff32693b053abae21941aed5d", null ],
+      [ "QUEST_THE_CHARGE_OF_DRAGONFLIGHTS", "d0/d60/a03878.html#a754fcfafd80b5a6c2ea444f49cfbc7d1aabeeb62adbb72d2616aa2e6e393f2526", null ]
+    ] ],
+    [ "AddSC_instance_sunken_temple", "d0/d60/a03878.html#ab3f2a91fe096585f54078e8884cb25f7", null ]
 ];

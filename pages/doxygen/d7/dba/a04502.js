@@ -1,22 +1,20 @@
 var a04502 =
 [
-    [ "AISpellInfoType", "d8/d17/a06068.html", "d8/d17/a06068" ],
-    [ "AI_DEFAULT_COOLDOWN", "d7/dba/a04502.html#a41c947edd84b4f2bb45133dc7aa00cad", null ],
-    [ "AICondition", "d7/dba/a04502.html#ac43b18581ae7a7b66984b1003502d5af", [
-      [ "AICOND_AGGRO", "d7/dba/a04502.html#ac43b18581ae7a7b66984b1003502d5afac41d9d90387a55a0b5be34e13683f9c8", null ],
-      [ "AICOND_COMBAT", "d7/dba/a04502.html#ac43b18581ae7a7b66984b1003502d5afa6be0faa08bd4f7bb7891ce5e2b7e4642", null ],
-      [ "AICOND_DIE", "d7/dba/a04502.html#ac43b18581ae7a7b66984b1003502d5afaeda5ad2d2df79acf7c72e4785011cf6e", null ]
-    ] ],
-    [ "AITarget", "d7/dba/a04502.html#a0160eb61118b5e41325297a2e1691805", [
-      [ "AITARGET_SELF", "d7/dba/a04502.html#a0160eb61118b5e41325297a2e1691805a4b428b5bdc3edc7ea5f9ca4c9780e7f2", null ],
-      [ "AITARGET_VICTIM", "d7/dba/a04502.html#a0160eb61118b5e41325297a2e1691805a7a53e2d219f908fcf583c5c00d5d9452", null ],
-      [ "AITARGET_ENEMY", "d7/dba/a04502.html#a0160eb61118b5e41325297a2e1691805a96629d4be8c89fe161fecd4a8fc34439", null ],
-      [ "AITARGET_ALLY", "d7/dba/a04502.html#a0160eb61118b5e41325297a2e1691805a0a4905e11672a2854778c1c2c8221b56", null ],
-      [ "AITARGET_BUFF", "d7/dba/a04502.html#a0160eb61118b5e41325297a2e1691805a1dedb7d4847bb64f81a7760ce25670ed", null ],
-      [ "AITARGET_DEBUFF", "d7/dba/a04502.html#a0160eb61118b5e41325297a2e1691805aad9b55cf2a0d16b9eb1620544f0e3654", null ]
-    ] ],
-    [ "GetAISpellInfo", "d7/dba/a04502.html#a1ed41ad074263f6c0c63f38b7f51414b", null ],
-    [ "GetInstanceAI", "d7/dba/a04502.html#a6650ccba23715eea545340cd3e712233", null ],
-    [ "InstanceHasScript", "d7/dba/a04502.html#aad76768c8aee9ce3ac24657437adb0de", null ],
-    [ "RAND", "d7/dba/a04502.html#a95d9a0c5ba0d54645670ba51c16ed33c", null ]
+    [ "AddSC_achievement_scripts", "d7/dba/a04502.html#a5091d6f933800f3313078304ad5c38ca", null ],
+    [ "AddSC_action_ip_logger", "d7/dba/a04502.html#a530be5efb251d5ca58e97804e48ad953", null ],
+    [ "AddSC_areatrigger_scripts", "d7/dba/a04502.html#a992f2da647f1f8748c7c9239b52079ad", null ],
+    [ "AddSC_chat_log", "d7/dba/a04502.html#ae796ad81a78a552e5c31fcf6c5c135fa", null ],
+    [ "AddSC_emerald_dragons", "d7/dba/a04502.html#aabef9c5c7a434027ce4d3af6e2b77430", null ],
+    [ "AddSC_generic_creature", "d7/dba/a04502.html#a50f66c4d6429b38157e35a75a0daa31d", null ],
+    [ "AddSC_go_scripts", "d7/dba/a04502.html#a279b19d9fff015d16fc8bbd2fbc9325a", null ],
+    [ "AddSC_guards", "d7/dba/a04502.html#acba582cbc90c710c629dd30926acdca4", null ],
+    [ "AddSC_item_scripts", "d7/dba/a04502.html#a3e28ebf5a580887bb117f786689a34c6", null ],
+    [ "AddSC_npc_innkeeper", "d7/dba/a04502.html#a3ffce1ea6cca981888af85ba67364df9", null ],
+    [ "AddSC_npc_professions", "d7/dba/a04502.html#a428ec531a2dc4e479b5c73e0d0694091", null ],
+    [ "AddSC_npc_stave_of_ancients", "d7/dba/a04502.html#a81e200e5d045a2403cd76a0559a6fd8c", null ],
+    [ "AddSC_npc_taxi", "d7/dba/a04502.html#a36f8a13e2844278c955f3a8155e7a11c", null ],
+    [ "AddSC_npcs_special", "d7/dba/a04502.html#aac822f73be6c9bf1dfaa4bbaec0e5aef", null ],
+    [ "AddSC_player_scripts", "d7/dba/a04502.html#a1f476a8466c12651b57fd55bf13b9617", null ],
+    [ "AddSC_server_mail", "d7/dba/a04502.html#a8c20fa2f42eb423e39f2aaafe8fadafc", null ],
+    [ "AddWorldScripts", "d7/dba/a04502.html#a5e7b18db76511725a47c51e9ce748575", null ]
 ];

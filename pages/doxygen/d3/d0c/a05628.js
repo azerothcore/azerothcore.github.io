@@ -5,7 +5,7 @@ var a05628 =
     [ "MySQLConnection", "d3/d0c/a05628.html#a8ee2d30965f757954913b9b11d497114", null ],
     [ "~MySQLConnection", "d3/d0c/a05628.html#ad7e23da74a5e7722158939f969af16d7", null ],
     [ "MySQLConnection", "d3/d0c/a05628.html#aefb504c18dc11aa656d309363da95f3e", null ],
-    [ "_HandleMySQLErrno", "d3/d0c/a05628.html#ab0f98cb1e22a22026f87dbf6edd8b1d7", null ],
+    [ "_HandleMySQLErrno", "d3/d0c/a05628.html#a42ae3c8ff4843505caa1c15d16050297", null ],
     [ "_Query", "d3/d0c/a05628.html#a6e4f001afd95446320034731fb12c8e3", null ],
     [ "_Query", "d3/d0c/a05628.html#ade1f91232f3b8714e738dd2f7cc30b32", null ],
     [ "BeginTransaction", "d3/d0c/a05628.html#ab763784bf989e44c9e9b89f60b40276b", null ],

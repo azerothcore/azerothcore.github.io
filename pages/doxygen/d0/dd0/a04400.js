@@ -1,13 +1,10 @@
 var a04400 =
 [
-    [ "PetScript", "d7/d9f/a10064.html", "d7/d9f/a10064" ],
-    [ "PetHook", "d0/dd0/a04400.html#a2e6398af59b176e045eece50b1a5d404", [
-      [ "PETHOOK_ON_INIT_STATS_FOR_LEVEL", "d0/dd0/a04400.html#a2e6398af59b176e045eece50b1a5d404a1aa219c404710f806516a47fb4a2c421", null ],
-      [ "PETHOOK_ON_CALCULATE_MAX_TALENT_POINTS_FOR_LEVEL", "d0/dd0/a04400.html#a2e6398af59b176e045eece50b1a5d404af4173fac4396520c8d5f664cb15cd09a", null ],
-      [ "PETHOOK_CAN_UNLEARN_SPELL_SET", "d0/dd0/a04400.html#a2e6398af59b176e045eece50b1a5d404a73a664bf8c79a8347a66639e7f4585ed", null ],
-      [ "PETHOOK_CAN_UNLEARN_SPELL_DEFAULT", "d0/dd0/a04400.html#a2e6398af59b176e045eece50b1a5d404afd7165a69bf431cabc9b485460fde1ce", null ],
-      [ "PETHOOK_CAN_RESET_TALENTS", "d0/dd0/a04400.html#a2e6398af59b176e045eece50b1a5d404a7c81bb255968b85119ef74e3124abe11", null ],
-      [ "PETHOOK_ON_PET_ADD_TO_WORLD", "d0/dd0/a04400.html#a2e6398af59b176e045eece50b1a5d404a34b989d3a1e33e5ab31d98bf4a36ee56", null ],
-      [ "PETHOOK_END", "d0/dd0/a04400.html#a2e6398af59b176e045eece50b1a5d404aa71e862274b6066ffe8af41bccdac911", null ]
-    ] ]
+    [ "npc_webbed_creature", "de/de6/a15180.html", "de/de6/a15180" ],
+    [ "npc_webbed_creature::npc_webbed_creatureAI", "d1/d65/a15184.html", "d1/d65/a15184" ],
+    [ "WebbedCreature", "d0/dd0/a04400.html#aa14073eff8de36ab4c416f5ae7bd8cd0", [
+      [ "NPC_EXPEDITION_RESEARCHER", "d0/dd0/a04400.html#aa14073eff8de36ab4c416f5ae7bd8cd0afbd11004b44bf2d153ac8e084395b3b3", null ]
+    ] ],
+    [ "AddSC_bloodmyst_isle", "d0/dd0/a04400.html#a6b9832f4bb6cfefde5bab6937fd46fae", null ],
+    [ "possibleSpawns", "d0/dd0/a04400.html#ab3e43a66e02bf6f3b8cbd7c154f9d70d", null ]
 ];
