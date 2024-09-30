@@ -1,7 +1,6 @@
 var a26726 =
 [
-    [ "CalculateAmount", "d7/d88/a26726.html#a2ed00d02a1685bc8b66e9cdfd430d1ad", null ],
-    [ "Load", "d7/d88/a26726.html#a7ba8da2fdc3bf18cd9925b280e60affa", null ],
-    [ "PrepareAuraScript", "d7/d88/a26726.html#a93df43072a344485c389160306b1fecd", null ],
-    [ "Register", "d7/d88/a26726.html#a6766b6ebbba04bc595373145e4eaaa7a", null ]
+    [ "FilterTargets", "d7/d88/a26726.html#a2bcc808d5869442e4c2e78be2d2a16af", null ],
+    [ "PrepareSpellScript", "d7/d88/a26726.html#a51d7035477ba4e3994ef3161edc4cc69", null ],
+    [ "Register", "d7/d88/a26726.html#adcc2ed25659208d0eeaec6d9673df3c6", null ]
 ];

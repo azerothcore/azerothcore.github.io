@@ -1,9 +1,8 @@
 var a17294 =
 [
-    [ "npc_hor_lumbering_abominationAI", "d9/d61/a17294.html#acc1e6e72aee030ebf2d0daa50f880f60", null ],
-    [ "JustDied", "d9/d61/a17294.html#af243a79da3028d3d66facc8a15132f78", null ],
-    [ "JustEngagedWith", "d9/d61/a17294.html#a83d0add807b5d9647328b89fed8e9bc4", null ],
-    [ "Reset", "d9/d61/a17294.html#a4270f405bbade0028fce4df0655a1987", null ],
-    [ "UpdateAI", "d9/d61/a17294.html#a995d0f7902cb70280d1448ac7731a816", null ],
-    [ "events", "d9/d61/a17294.html#aee9063950477b50e38ec904e91882689", null ]
+    [ "npc_muradin_bronzebeard_iccAI", "d4/d6d/a17298.html", "d4/d6d/a17298" ],
+    [ "npc_muradin_bronzebeard_icc", "d9/d61/a17294.html#a7e4cecb0f4cabf024794045ed20e3563", null ],
+    [ "GetAI", "d9/d61/a17294.html#ab2b6a0bb1b8626e5a4064b9412234f4b", null ],
+    [ "OnGossipHello", "d9/d61/a17294.html#a7fb9838521dbae6ac0a8bb4ac1e07c37", null ],
+    [ "OnGossipSelect", "d9/d61/a17294.html#a46c4893be723a848d985ff55e28d55a2", null ]
 ];

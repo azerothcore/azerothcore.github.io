@@ -1,6 +1,7 @@
 var a18786 =
 [
-    [ "spell_sindragosa_instability_AuraScript", "df/d26/a18790.html", "df/d26/a18790" ],
-    [ "spell_sindragosa_instability", "da/d70/a18786.html#a348f6f307bef7cded7320dac90d8f7e5", null ],
-    [ "GetAuraScript", "da/d70/a18786.html#a4213ecc7a5d44a6290d0c32ef1a8b2ff", null ]
+    [ "npc_ioc_gunship_captainAI", "da/d70/a18786.html#a23477a6f29b13308067c1f42ced1e9fe", null ],
+    [ "DoAction", "da/d70/a18786.html#a89fb251869d6bfbefbca1e2d3178178a", null ],
+    [ "UpdateAI", "da/d70/a18786.html#a222b304633143bba47d3edde67ea093b", null ],
+    [ "_events", "da/d70/a18786.html#aa8b7c262641a5f1f86c5ae39f8b62dca", null ]
 ];

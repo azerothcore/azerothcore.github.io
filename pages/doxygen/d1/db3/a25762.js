@@ -1,6 +1,7 @@
 var a25762 =
 [
-    [ "spell_kaelthas_resurrection_SpellScript", "d6/d7b/a25766.html", "d6/d7b/a25766" ],
-    [ "spell_kaelthas_resurrection", "d1/db3/a25762.html#a34cebd3ec6e2e1348e93d8802ac73709", null ],
-    [ "GetSpellScript", "d1/db3/a25762.html#a6cbed421ab7fd710e78e0c20ae3f1dd8", null ]
+    [ "HandleDummy", "d1/db3/a25762.html#a5d95d2329c750692d9a4facae9ddf781", null ],
+    [ "PrepareSpellScript", "d1/db3/a25762.html#a2699b3bc033bdd896d0f9a4b3c067354", null ],
+    [ "Register", "d1/db3/a25762.html#a8d83f9e52ba19f75647e99760439c380", null ],
+    [ "Validate", "d1/db3/a25762.html#a24610d5652ef85e883b1bac9256b30f7", null ]
 ];

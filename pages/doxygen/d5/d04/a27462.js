@@ -1,6 +1,6 @@
 var a27462 =
 [
-    [ "HandleDummy", "d5/d04/a27462.html#aafc9efb0f8070566579724853a88ab03", null ],
-    [ "PrepareSpellScript", "d5/d04/a27462.html#a248c1203a4f15b2cd60afed9fa33cb59", null ],
-    [ "Register", "d5/d04/a27462.html#a362e2ab6921aaa0c10b70795a5eda0de", null ]
+    [ "spawnedCreatureEntry", "d5/d04/a27462.html#a32b390dfff99d5fd3c49359779718af4", null ],
+    [ "spawnType", "d5/d04/a27462.html#a056dabf4092da4ef3155a661607ca772", null ],
+    [ "thisCreatureEntry", "d5/d04/a27462.html#a97d3cd7c2751fe85d9724ff1f808ba98", null ]
 ];

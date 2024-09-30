@@ -1,6 +1,6 @@
 var a12626 =
 [
-    [ "spell_chapter5_rebuke_SpellScript", "d0/d06/a12630.html", "d0/d06/a12630" ],
-    [ "spell_chapter5_rebuke", "da/d03/a12626.html#a93b0fd57566722c98653f66619727717", null ],
-    [ "GetSpellScript", "da/d03/a12626.html#ab17f0009b91b00dba9678fe681ffe683", null ]
+    [ "HandleScriptEffect", "da/d03/a12626.html#a430d6f41e8533cbade64ea46aaa9ec2e", null ],
+    [ "PrepareSpellScript", "da/d03/a12626.html#ad110e0dba330acde845c47501256cf5d", null ],
+    [ "Register", "da/d03/a12626.html#ab6971aa466055a1280cd258e26645157", null ]
 ];

@@ -1,6 +1,6 @@
 var a24826 =
 [
-    [ "instance_black_temple_InstanceMapScript", "de/d2b/a24830.html", "de/d2b/a24830" ],
-    [ "instance_black_temple", "df/d44/a24826.html#a2efd6c7fff15c8fd03652ef9a65088eb", null ],
-    [ "GetInstanceScript", "df/d44/a24826.html#a947a1279eabde75d9884b1ef84b295a3", null ]
+    [ "CalculateAmount", "df/d44/a24826.html#a9e54ae3e90ee8bf0fab966a497f761b3", null ],
+    [ "PrepareAuraScript", "df/d44/a24826.html#a51f9c0f92100c02e1fe7d127fecd902f", null ],
+    [ "Register", "df/d44/a24826.html#a5c89e7e53a7f41665ff25d57df8f7afb", null ]
 ];

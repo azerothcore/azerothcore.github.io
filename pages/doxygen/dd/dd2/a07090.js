@@ -1,6 +1,29 @@
 var a07090 =
 [
-    [ "value_type", "dd/dd2/a07090.html#aea5c629ecdcd9c2bfc1253ef8e775c3a", null ],
-    [ "operator()", "dd/dd2/a07090.html#a864f3c2f78b80dbc4b65dffb0d38ab55", null ],
-    [ "operator()", "dd/dd2/a07090.html#a4e13ed545328e052481a0379e7f027a5", null ]
+    [ "BattlegroundScore", "dd/dd2/a07090.html#a769f81da2366d081d526aafec54da5e7", null ],
+    [ "~BattlegroundScore", "dd/dd2/a07090.html#a0ea4320ce17cb7359ea5dc9d85d87f7d", null ],
+    [ "AppendToPacket", "dd/dd2/a07090.html#a8624cd06dba95d86e60f62675baf044c", null ],
+    [ "BuildObjectivesBlock", "dd/dd2/a07090.html#add869c398158195c32be0aa2d5786d4d", null ],
+    [ "GetAttr1", "dd/dd2/a07090.html#a980da19452275b2848f064410628da88", null ],
+    [ "GetAttr2", "dd/dd2/a07090.html#abf5bd1519df8e56a7ecfeddd1ca0218a", null ],
+    [ "GetAttr3", "dd/dd2/a07090.html#a160090d244c87ebc76bbc7d8993169e7", null ],
+    [ "GetAttr4", "dd/dd2/a07090.html#ab4fd369438d0715d0fae5c17eedf14b8", null ],
+    [ "GetAttr5", "dd/dd2/a07090.html#a63896aeb8982219273915162085b603d", null ],
+    [ "GetBonusHonor", "dd/dd2/a07090.html#a48bd0fadfbe327307702712c991a6866", null ],
+    [ "GetDamageDone", "dd/dd2/a07090.html#a6c8707bff5cba6cec40bd4fed4ac1f60", null ],
+    [ "GetDeaths", "dd/dd2/a07090.html#a96b8bb236b9e997ecc4e6fed72a8bf00", null ],
+    [ "GetHealingDone", "dd/dd2/a07090.html#adcf01c124ea66990fc63fee5ea3b3eeb", null ],
+    [ "GetHonorableKills", "dd/dd2/a07090.html#a7e92af662817ddaac630db378e941ebb", null ],
+    [ "GetKillingBlows", "dd/dd2/a07090.html#ae384f32b0c73e16c56090af803be3779", null ],
+    [ "ToString", "dd/dd2/a07090.html#abfd85adf3977a5b9b122d89781f08d14", null ],
+    [ "UpdateScore", "dd/dd2/a07090.html#a0c819926d046f7f9ab3f0511b4b5c03f", null ],
+    [ "Arena", "dd/dd2/a07090.html#a5f488c25aa439166d145713c67e7d085", null ],
+    [ "Battleground", "dd/dd2/a07090.html#a0c4048053f5f5cabe5bfbfdde8eded86", null ],
+    [ "BonusHonor", "dd/dd2/a07090.html#ae5e399ad4749489f1b8feb4f3b2d8c1e", null ],
+    [ "DamageDone", "dd/dd2/a07090.html#af9610e48d6fb67f06c008bdfe4333c21", null ],
+    [ "Deaths", "dd/dd2/a07090.html#a4c261e2bbed00da9b7e1865aeeedb48e", null ],
+    [ "HealingDone", "dd/dd2/a07090.html#a3b793df338929c4129e46a6a7fb6422f", null ],
+    [ "HonorableKills", "dd/dd2/a07090.html#aeb6613d7343a9b356aebc63d1e1cb585", null ],
+    [ "KillingBlows", "dd/dd2/a07090.html#a176231f2e25cdb279b04b29ac624df3d", null ],
+    [ "PlayerGuid", "dd/dd2/a07090.html#a2f7da4c5f4a8cb4f35f38dafa25b4e10", null ]
 ];

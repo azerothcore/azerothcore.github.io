@@ -1,6 +1,9 @@
 var a24418 =
 [
-    [ "spell_illidan_tear_of_azzinoth_summon_channel_AuraScript", "df/db5/a24422.html", "df/db5/a24422" ],
-    [ "spell_illidan_tear_of_azzinoth_summon_channel", "d7/de1/a24418.html#a49ba46498ce42fb23caf5306418b921c", null ],
-    [ "GetAuraScript", "d7/de1/a24418.html#a47120dcf7ac483962f1ea92df2abd21e", null ]
+    [ "npc_pet_shaman_earth_elemental", "d7/de1/a24418.html#a07f3792cb3b5264d209f1b4726867773", null ],
+    [ "InitializeAI", "d7/de1/a24418.html#a8bbca6686ae324a50cd1598125280446", null ],
+    [ "JustEngagedWith", "d7/de1/a24418.html#ad9b48901b1d96e59ce60af6411a8baaf", null ],
+    [ "UpdateAI", "d7/de1/a24418.html#ab28951b483cab31bf5672fc74e7323e1", null ],
+    [ "_events", "d7/de1/a24418.html#ab7f72d0d574322965f1d0b23f144f1be", null ],
+    [ "_initAttack", "d7/de1/a24418.html#a2af73c97ef60b5b0ade26c9760b8b379", null ]
 ];

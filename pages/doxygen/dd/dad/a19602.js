@@ -1,5 +1,6 @@
 var a19602 =
 [
-    [ "npc_alchemist_adrianna", "dd/dad/a19602.html#a310d375bc73c51e407580b063a6543fa", null ],
-    [ "OnGossipHello", "dd/dad/a19602.html#a02ec6a66037d72e30bbe821ceee38691", null ]
+    [ "npc_algalon_worm_holeAI", "db/da5/a19606.html", "db/da5/a19606" ],
+    [ "npc_algalon_worm_hole", "dd/dad/a19602.html#a72516a4824fa61a331caff46d2784c64", null ],
+    [ "GetAI", "dd/dad/a19602.html#aac6ff3a41f08f5a11baa78c0526a3556", null ]
 ];

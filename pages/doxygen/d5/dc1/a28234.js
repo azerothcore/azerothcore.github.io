@@ -1,7 +1,7 @@
 var a28234 =
 [
-    [ "HandleDummy", "d5/dc1/a28234.html#a367bd26543382ad71668fbe4f524d823", null ],
-    [ "PrepareSpellScript", "d5/dc1/a28234.html#a71cde3f81fdb253d8e93a19be104e9db", null ],
-    [ "Register", "d5/dc1/a28234.html#a7c73e3381592bef44d2265aff296b301", null ],
-    [ "Validate", "d5/dc1/a28234.html#a03d59b6859286dbe460b348df6de63d7", null ]
+    [ "ID", "d5/dc1/a28234.html#aa5db020808990dc98fc143e4a5e0d2b2", null ],
+    [ "RadiusMax", "d5/dc1/a28234.html#ab82c1acb9309b17104958182d80b01d1", null ],
+    [ "RadiusMin", "d5/dc1/a28234.html#acaee7da373b94a262e01d4bd3bea4f08", null ],
+    [ "RadiusPerLevel", "d5/dc1/a28234.html#a74bb59afb808af45ceff6367468fca1e", null ]
 ];

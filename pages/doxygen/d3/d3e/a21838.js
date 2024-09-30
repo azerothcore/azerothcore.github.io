@@ -1,5 +1,7 @@
 var a21838 =
 [
-    [ "achievement_mimiron_set_up_us_the_bomb_13", "d3/d3e/a21838.html#a74b0cafbc4be4261c8f8f2af3671cbd9", null ],
-    [ "OnCheck", "d3/d3e/a21838.html#ac91196d094f159932ad871ffa9c0f405", null ]
+    [ "npc_emilyAI", "dc/dbc/a21842.html", "dc/dbc/a21842" ],
+    [ "npc_emily", "d3/d3e/a21838.html#ab40f581fad087b3d32a7724fca97895d", null ],
+    [ "GetAI", "d3/d3e/a21838.html#a6317e4b9787c25ce119d08432cd1acf7", null ],
+    [ "OnQuestAccept", "d3/d3e/a21838.html#ad434e7bf2427b3575a8459021e792152", null ]
 ];

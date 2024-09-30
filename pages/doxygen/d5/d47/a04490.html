@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/World/guards.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/World/npc_innkeeper.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,102 +106,210 @@ $(document).ready(function(){initNavTree('d5/d47/a04490.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">guards.cpp File Reference</div></div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">npc_innkeeper.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GuardAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameEventMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedGossip.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dde/a27292.html">guard_shattrath_scryer</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da0/a27354.html">npc_innkeeper</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dde/a27296.html">guard_shattrath_scryer::guard_shattrath_scryerAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0f/a27300.html">guard_shattrath_aldor</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d29/a27304.html">guard_shattrath_aldor::guard_shattrath_aldorAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a7c8fcdd86e1aa9eab132e6321290e79c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d47/a04490.html#a7c8fcdd86e1aa9eab132e6321290e79c">GuardShattrath</a> { <br />
-&#160;&#160;<a class="el" href="../../d5/d47/a04490.html#a7c8fcdd86e1aa9eab132e6321290e79ca958387dd7fcdedf036a81cf2ab4f56fe">SPELL_BANISHED_SHATTRATH_A</a> = 36642
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d47/a04490.html#a7c8fcdd86e1aa9eab132e6321290e79ca78bb081a2031299d661fbce8fd5a3d48">SPELL_BANISHED_SHATTRATH_S</a> = 36671
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d47/a04490.html#a7c8fcdd86e1aa9eab132e6321290e79ca7aecffca2feb1502c591610fee5566e0">SPELL_BANISH_TELEPORT</a> = 36643
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d47/a04490.html#a7c8fcdd86e1aa9eab132e6321290e79ca6758cdbc7bb8447df1f7b3073833463d">SPELL_EXILE</a> = 39533
-<br />
- }</td></tr>
-<tr class="separator:a7c8fcdd86e1aa9eab132e6321290e79c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acba582cbc90c710c629dd30926acdca4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d47/a04490.html#acba582cbc90c710c629dd30926acdca4">AddSC_guards</a> ()</td></tr>
-<tr class="separator:acba582cbc90c710c629dd30926acdca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ffce1ea6cca981888af85ba67364df9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d47/a04490.html#a3ffce1ea6cca981888af85ba67364df9">AddSC_npc_innkeeper</a> ()</td></tr>
+<tr class="separator:a3ffce1ea6cca981888af85ba67364df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ad2b2ba30383cca3be221f38a809e2da1"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d47/a04490.html#ad2b2ba30383cca3be221f38a809e2da1">SPELL_TRICK</a> = 24714</td></tr>
+<tr class="separator:ad2b2ba30383cca3be221f38a809e2da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a072a033da374692139d9d33e63be89ca"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d47/a04490.html#a072a033da374692139d9d33e63be89ca">SPELL_TREAT</a> = 24715</td></tr>
+<tr class="separator:a072a033da374692139d9d33e63be89ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a022e344eaf73aa8ab6655d2c6aaac688"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d47/a04490.html#a022e344eaf73aa8ab6655d2c6aaac688">SPELL_TRICKED_OR_TREATED</a> = 24755</td></tr>
+<tr class="separator:a022e344eaf73aa8ab6655d2c6aaac688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e23760d3d379f3fa92c139f067b5984"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d47/a04490.html#a2e23760d3d379f3fa92c139f067b5984">HALLOWEEN_EVENTID</a> = 12</td></tr>
+<tr class="separator:a2e23760d3d379f3fa92c139f067b5984"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3115623eb3e0408aad7cd637686aaaee"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d47/a04490.html#a3115623eb3e0408aad7cd637686aaaee">GOSSIP_MENU</a> = 9733</td></tr>
+<tr class="separator:a3115623eb3e0408aad7cd637686aaaee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bb09725b9e6b10b76686a9059038e6b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d47/a04490.html#a6bb09725b9e6b10b76686a9059038e6b">GOSSIP_MENU_EVENT</a> = 342</td></tr>
+<tr class="separator:a6bb09725b9e6b10b76686a9059038e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a7c8fcdd86e1aa9eab132e6321290e79c" name="a7c8fcdd86e1aa9eab132e6321290e79c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c8fcdd86e1aa9eab132e6321290e79c">&#9670;&#160;</a></span>GuardShattrath</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d5/d47/a04490.html#a7c8fcdd86e1aa9eab132e6321290e79c">GuardShattrath</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7c8fcdd86e1aa9eab132e6321290e79ca958387dd7fcdedf036a81cf2ab4f56fe" name="a7c8fcdd86e1aa9eab132e6321290e79ca958387dd7fcdedf036a81cf2ab4f56fe"></a>SPELL_BANISHED_SHATTRATH_A&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7c8fcdd86e1aa9eab132e6321290e79ca78bb081a2031299d661fbce8fd5a3d48" name="a7c8fcdd86e1aa9eab132e6321290e79ca78bb081a2031299d661fbce8fd5a3d48"></a>SPELL_BANISHED_SHATTRATH_S&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7c8fcdd86e1aa9eab132e6321290e79ca7aecffca2feb1502c591610fee5566e0" name="a7c8fcdd86e1aa9eab132e6321290e79ca7aecffca2feb1502c591610fee5566e0"></a>SPELL_BANISH_TELEPORT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7c8fcdd86e1aa9eab132e6321290e79ca6758cdbc7bb8447df1f7b3073833463d" name="a7c8fcdd86e1aa9eab132e6321290e79ca6758cdbc7bb8447df1f7b3073833463d"></a>SPELL_EXILE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d5/d47/a04490.html#a7c8fcdd86e1aa9eab132e6321290e79ca958387dd7fcdedf036a81cf2ab4f56fe">SPELL_BANISHED_SHATTRATH_A</a> = 36642,</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d5/d47/a04490.html#a7c8fcdd86e1aa9eab132e6321290e79ca78bb081a2031299d661fbce8fd5a3d48">SPELL_BANISHED_SHATTRATH_S</a> = 36671,</div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d5/d47/a04490.html#a7c8fcdd86e1aa9eab132e6321290e79ca7aecffca2feb1502c591610fee5566e0">SPELL_BANISH_TELEPORT</a>      = 36643,</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d5/d47/a04490.html#a7c8fcdd86e1aa9eab132e6321290e79ca6758cdbc7bb8447df1f7b3073833463d">SPELL_EXILE</a>                = 39533</div>
-<div class="line"><span class="lineno">   42</span>};</div>
-<div class="ttc" id="aa04490_html_a7c8fcdd86e1aa9eab132e6321290e79ca6758cdbc7bb8447df1f7b3073833463d"><div class="ttname"><a href="../../d5/d47/a04490.html#a7c8fcdd86e1aa9eab132e6321290e79ca6758cdbc7bb8447df1f7b3073833463d">SPELL_EXILE</a></div><div class="ttdeci">@ SPELL_EXILE</div><div class="ttdef"><b>Definition:</b> guards.cpp:41</div></div>
-<div class="ttc" id="aa04490_html_a7c8fcdd86e1aa9eab132e6321290e79ca78bb081a2031299d661fbce8fd5a3d48"><div class="ttname"><a href="../../d5/d47/a04490.html#a7c8fcdd86e1aa9eab132e6321290e79ca78bb081a2031299d661fbce8fd5a3d48">SPELL_BANISHED_SHATTRATH_S</a></div><div class="ttdeci">@ SPELL_BANISHED_SHATTRATH_S</div><div class="ttdef"><b>Definition:</b> guards.cpp:39</div></div>
-<div class="ttc" id="aa04490_html_a7c8fcdd86e1aa9eab132e6321290e79ca7aecffca2feb1502c591610fee5566e0"><div class="ttname"><a href="../../d5/d47/a04490.html#a7c8fcdd86e1aa9eab132e6321290e79ca7aecffca2feb1502c591610fee5566e0">SPELL_BANISH_TELEPORT</a></div><div class="ttdeci">@ SPELL_BANISH_TELEPORT</div><div class="ttdef"><b>Definition:</b> guards.cpp:40</div></div>
-<div class="ttc" id="aa04490_html_a7c8fcdd86e1aa9eab132e6321290e79ca958387dd7fcdedf036a81cf2ab4f56fe"><div class="ttname"><a href="../../d5/d47/a04490.html#a7c8fcdd86e1aa9eab132e6321290e79ca958387dd7fcdedf036a81cf2ab4f56fe">SPELL_BANISHED_SHATTRATH_A</a></div><div class="ttdeci">@ SPELL_BANISHED_SHATTRATH_A</div><div class="ttdef"><b>Definition:</b> guards.cpp:38</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="acba582cbc90c710c629dd30926acdca4" name="acba582cbc90c710c629dd30926acdca4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acba582cbc90c710c629dd30926acdca4">&#9670;&#160;</a></span>AddSC_guards()</h2>
+<a id="a3ffce1ea6cca981888af85ba67364df9" name="a3ffce1ea6cca981888af85ba67364df9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ffce1ea6cca981888af85ba67364df9">&#9670;&#160;</a></span>AddSC_npc_innkeeper()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_guards </td>
+          <td class="memname">void AddSC_npc_innkeeper </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  178</span>{</div>
-<div class="line"><span class="lineno">  179</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/d0f/a27300.html">guard_shattrath_aldor</a>();</div>
-<div class="line"><span class="lineno">  180</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/dde/a27292.html">guard_shattrath_scryer</a>();</div>
-<div class="line"><span class="lineno">  181</span>}</div>
-<div class="ttc" id="aa27292_html"><div class="ttname"><a href="../../df/dde/a27292.html">guard_shattrath_scryer</a></div><div class="ttdef"><b>Definition:</b> guards.cpp:45</div></div>
-<div class="ttc" id="aa27300_html"><div class="ttname"><a href="../../dd/d0f/a27300.html">guard_shattrath_aldor</a></div><div class="ttdef"><b>Definition:</b> guards.cpp:112</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   91</span>{</div>
+<div class="line"><span class="lineno">   92</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/da0/a27354.html">npc_innkeeper</a>;</div>
+<div class="line"><span class="lineno">   93</span>}</div>
+<div class="ttc" id="aa27354_html"><div class="ttname"><a href="../../d3/da0/a27354.html">npc_innkeeper</a></div><div class="ttdef"><b>Definition:</b> npc_innkeeper.cpp:32</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../#l00038">AddWorldScripts()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a3115623eb3e0408aad7cd637686aaaee" name="a3115623eb3e0408aad7cd637686aaaee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3115623eb3e0408aad7cd637686aaaee">&#9670;&#160;</a></span>GOSSIP_MENU</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto GOSSIP_MENU = 9733</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00036">npc_innkeeper::OnGossipHello()</a>.</p>
+
+</div>
+</div>
+<a id="a6bb09725b9e6b10b76686a9059038e6b" name="a6bb09725b9e6b10b76686a9059038e6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bb09725b9e6b10b76686a9059038e6b">&#9670;&#160;</a></span>GOSSIP_MENU_EVENT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto GOSSIP_MENU_EVENT = 342</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00036">npc_innkeeper::OnGossipHello()</a>.</p>
+
+</div>
+</div>
+<a id="a2e23760d3d379f3fa92c139f067b5984" name="a2e23760d3d379f3fa92c139f067b5984"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e23760d3d379f3fa92c139f067b5984">&#9670;&#160;</a></span>HALLOWEEN_EVENTID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto HALLOWEEN_EVENTID = 12</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00036">npc_innkeeper::OnGossipHello()</a>, and <a class="el" href="../../#l00063">npc_innkeeper::OnGossipSelect()</a>.</p>
+
+</div>
+</div>
+<a id="a072a033da374692139d9d33e63be89ca" name="a072a033da374692139d9d33e63be89ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a072a033da374692139d9d33e63be89ca">&#9670;&#160;</a></span>SPELL_TREAT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto SPELL_TREAT = 24715</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00063">npc_innkeeper::OnGossipSelect()</a>.</p>
+
+</div>
+</div>
+<a id="ad2b2ba30383cca3be221f38a809e2da1" name="ad2b2ba30383cca3be221f38a809e2da1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2b2ba30383cca3be221f38a809e2da1">&#9670;&#160;</a></span>SPELL_TRICK</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto SPELL_TRICK = 24714</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00063">npc_innkeeper::OnGossipSelect()</a>.</p>
+
+</div>
+</div>
+<a id="a022e344eaf73aa8ab6655d2c6aaac688" name="a022e344eaf73aa8ab6655d2c6aaac688"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a022e344eaf73aa8ab6655d2c6aaac688">&#9670;&#160;</a></span>SPELL_TRICKED_OR_TREATED</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto SPELL_TRICKED_OR_TREATED = 24755</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00036">npc_innkeeper::OnGossipHello()</a>, and <a class="el" href="../../#l00063">npc_innkeeper::OnGossipSelect()</a>.</p>
 
 </div>
 </div>
@@ -210,8 +318,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_0a0414616ece51a8570c4e36029d4e29.html">World</a></li><li class="navelem"><a class="el" href="../../d5/d47/a04490.html">guards.cpp</a></li>
-    <li class="footer">Generated on Mon Sep 23 2024 20:41:24 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_0a0414616ece51a8570c4e36029d4e29.html">World</a></li><li class="navelem"><a class="el" href="../../d5/d47/a04490.html">npc_innkeeper.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 30 2024 20:41:19 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

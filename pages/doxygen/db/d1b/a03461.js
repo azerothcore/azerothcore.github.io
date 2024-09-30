@@ -1,14 +1,12 @@
 var a03461 =
 [
+    [ "ACScriptName", "db/d1b/a03461.html#a44e28f969fff2c33cf76b8eaaff1898c", null ],
     [ "DataHeader", "db/d1b/a03461.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "MTScriptName", "db/d1b/a03461.html#a772413d8818d681e2261c99f58e1268c", null ],
-    [ "RegisterManaTombsCreatureAI", "db/d1b/a03461.html#a7e2e8ea768842320ce5d953aeaddb176", null ],
-    [ "MTDataTypes", "db/d1b/a03461.html#a9ffea4a6410ded9f327ba6e91f8766ee", [
-      [ "DATA_PANDEMONIUS", "db/d1b/a03461.html#a9ffea4a6410ded9f327ba6e91f8766eeab1efde1b4aaad2daab0c383563a9f02a", null ],
-      [ "DATA_TAVAROK", "db/d1b/a03461.html#a9ffea4a6410ded9f327ba6e91f8766eea9245929feb24a0840eeff34e8c87de57", null ],
-      [ "DATA_NEXUSPRINCE_SHAFFAR", "db/d1b/a03461.html#a9ffea4a6410ded9f327ba6e91f8766eea07473250c26fb3874461362f93a75a97", null ],
-      [ "DATA_YOR", "db/d1b/a03461.html#a9ffea4a6410ded9f327ba6e91f8766eea738b876feae2daf42423688ca0f13289", null ]
+    [ "RegisterAuchenaiCryptsCreatureAI", "db/d1b/a03461.html#abf97bec93b670890ad0eaa7d6b4bd4b9", null ],
+    [ "ACDataTypes", "db/d1b/a03461.html#aae3060cf5aa0b4d27bcbbfeee3db2856", [
+      [ "DATA_SHIRRAK_THE_DEAD_WATCHER", "db/d1b/a03461.html#aae3060cf5aa0b4d27bcbbfeee3db2856a5d80917a3a5f108f9e625372181b85fe", null ],
+      [ "DATA_EXARCH_MALADAAR", "db/d1b/a03461.html#aae3060cf5aa0b4d27bcbbfeee3db2856aa54edd3601b7953b0bf046fa8b1bd3f8", null ]
     ] ],
-    [ "GetManaTombsAI", "db/d1b/a03461.html#aaec5771a3ce0808b0a1bb0116b4fb9e3", null ],
+    [ "GetAuchenaiCryptsAI", "db/d1b/a03461.html#a8c9b9cbd7dca7c2e86d7ad3fe7bfd961", null ],
     [ "EncounterCount", "db/d1b/a03461.html#a31d630c40753c29f94ceac2db5e451a8", null ]
 ];

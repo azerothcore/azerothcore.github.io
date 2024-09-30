@@ -1,8 +1,10 @@
 var a26074 =
 [
-    [ "npc_bessyAI", "d7/d38/a26074.html#ad1300a563888b34689bedf97c387707c", null ],
-    [ "JustDied", "d7/d38/a26074.html#af98e9235b2432b619e4cc01c0c1111ef", null ],
-    [ "JustSummoned", "d7/d38/a26074.html#a4197fb122299fd152e5da335bb832ae5", null ],
-    [ "Reset", "d7/d38/a26074.html#aed64386629e52c3b65abadde54a63cc4", null ],
-    [ "WaypointReached", "d7/d38/a26074.html#a4611a8f41f66a1a846fb42ba1d4062c8", null ]
+    [ "CheckCast", "d7/d38/a26074.html#a49676a65c99a9a2d99ad78fee54d2302", null ],
+    [ "HandleScript", "d7/d38/a26074.html#a35b9d69b8147ef06527b8533ef376e72", null ],
+    [ "Load", "d7/d38/a26074.html#a25c373762375f207e6c3ba0a18d4a6e7", null ],
+    [ "PrepareSpellScript", "d7/d38/a26074.html#a31d3339531f75dfa0ca3a339d34d3012", null ],
+    [ "Register", "d7/d38/a26074.html#afd716f555ac73287bd268c6124b15b1c", null ],
+    [ "Validate", "d7/d38/a26074.html#a0938262e1f45821b9fbef42f5c96cc56", null ],
+    [ "_manaAmount", "d7/d38/a26074.html#add7d1cdf3abca0ada57cd719ad22602a", null ]
 ];

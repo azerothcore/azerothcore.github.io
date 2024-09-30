@@ -1,12 +1,10 @@
 var a21274 =
 [
-    [ "boss_freya_elder_stonebarkAI", "db/dc6/a21274.html#a492329e296aaf29861d76e12e2b94631", null ],
-    [ "DamageTaken", "db/dc6/a21274.html#af25c675f46f5ca0d0da170f367cc8bdc", null ],
-    [ "JustDied", "db/dc6/a21274.html#a8dcdf4a1c8df10fc8ca419de924fe136", null ],
-    [ "JustEngagedWith", "db/dc6/a21274.html#a77a231b75bbbbb56638e1e5535827150", null ],
-    [ "KilledUnit", "db/dc6/a21274.html#ad1ce26306c2ea2102183b0679d46efd3", null ],
-    [ "Reset", "db/dc6/a21274.html#a0d17571be8905c4c33ed4591e963d680", null ],
-    [ "UpdateAI", "db/dc6/a21274.html#acd21050c265f6703060f95f2e3c725f3", null ],
-    [ "_chargesCount", "db/dc6/a21274.html#a294714a547bbc7a7364c7477bdc0422c", null ],
-    [ "events", "db/dc6/a21274.html#a07bcbf839c3b0b3924ec1915b47af0f2", null ]
+    [ "npc_erekem_guardAI", "db/dc6/a21274.html#a1ce40b70a35fc76e6ac0af449b7f4ded", null ],
+    [ "JustEngagedWith", "db/dc6/a21274.html#a93819c5c76821b1c9559be55359d677e", null ],
+    [ "MoveInLineOfSight", "db/dc6/a21274.html#aa1140892c13f4c070b1f3f1bf2230bb5", null ],
+    [ "Reset", "db/dc6/a21274.html#a079be6dd45e96184d66e95f031dc9c5f", null ],
+    [ "UpdateAI", "db/dc6/a21274.html#ab2c55e384f624b0f671e42e381aa3a37", null ],
+    [ "events", "db/dc6/a21274.html#a15afc8dd6d6e15fcd1a632728ad8d16e", null ],
+    [ "pInstance", "db/dc6/a21274.html#a81985b8522111f2aae540353cd5641fe", null ]
 ];

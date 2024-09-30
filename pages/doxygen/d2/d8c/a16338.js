@@ -1,7 +1,8 @@
 var a16338 =
 [
-    [ "TwilightCutterSelector", "d2/d8c/a16338.html#accea6e932c44d083fbb4dc41c5102b3d", null ],
-    [ "operator()", "d2/d8c/a16338.html#a6374425df156bdf202d53a2c73ef784c", null ],
-    [ "_caster", "d2/d8c/a16338.html#a784c95ef6472e711f4200f194222d179", null ],
-    [ "_cutterCaster", "d2/d8c/a16338.html#a7f713777a36a8d127c2865e4610b1288", null ]
+    [ "npc_toc_pet_warlockAI", "d2/d8c/a16338.html#a0f4128d5fd7a855f1fb2870465bc1ce7", null ],
+    [ "EnterEvadeMode", "d2/d8c/a16338.html#a62219f63e82fc67f63db2cbd713647a0", null ],
+    [ "myCanCast", "d2/d8c/a16338.html#a81607ebd90d8f511bb18b03ff497d9eb", null ],
+    [ "UpdateAI", "d2/d8c/a16338.html#a05a150e01f519675ac7b69d3c2a97ed4", null ],
+    [ "events", "d2/d8c/a16338.html#a8edadebd7e6660041233a24fb07173bf", null ]
 ];

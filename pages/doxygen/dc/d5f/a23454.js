@@ -1,7 +1,11 @@
 var a23454 =
 [
-    [ "npc_amberpine_woodsmanAI", "dc/d5f/a23454.html#aa0f37b54c5bfc2f923d09437b8b30424", null ],
-    [ "Reset", "dc/d5f/a23454.html#a8da613c7bbaadf331c95667e7a361702", null ],
-    [ "UpdateAI", "dc/d5f/a23454.html#a64dbf41424a710c400d51507f6457b41", null ],
-    [ "_events", "dc/d5f/a23454.html#aac8cd045a5518e3eaa9c24e0fb83ddaa", null ]
+    [ "boss_krosh_firehand", "dc/d5f/a23454.html#a1ef3618844f086de7875f26e7e6190f9", null ],
+    [ "AttackStart", "dc/d5f/a23454.html#a74bd2c93ac45efcd163a904b9a52827b", null ],
+    [ "JustDied", "dc/d5f/a23454.html#ad20c86b4a3d0cccddf91982c26f56c09", null ],
+    [ "JustEngagedWith", "dc/d5f/a23454.html#ad6389c357fb6c09fdf4f3f3ef7095395", null ],
+    [ "Reset", "dc/d5f/a23454.html#a989c4b762a7cdb228b245e91881d97a2", null ],
+    [ "UpdateAI", "dc/d5f/a23454.html#a3d26a6f544e9d00514ca5b0ef7d4bf4f", null ],
+    [ "_scheduler", "dc/d5f/a23454.html#a261ced01dc1305ab7c2d2f3322022fe5", null ],
+    [ "instance", "dc/d5f/a23454.html#a876bb040d78cafa9aa22e818f60dce7f", null ]
 ];

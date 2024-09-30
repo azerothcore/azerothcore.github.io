@@ -1,6 +1,7 @@
 var a15502 =
 [
-    [ "HandleEffectPeriodic", "d4/dec/a15502.html#a093a682bc5043b63af016aa130fdc0b8", null ],
-    [ "PrepareAuraScript", "d4/dec/a15502.html#a035cc2dfc78a0ee292ddab3633d44c10", null ],
-    [ "Register", "d4/dec/a15502.html#a74c29ca2047da995d6d6f89f17ecb52f", null ]
+    [ "npc_paoka_swiftmountainAI", "d4/dec/a15502.html#a92a229f76de3bc46ae14910439db0004", null ],
+    [ "DoSpawnWyvern", "d4/dec/a15502.html#a7997a3d398db82c205e3a8af77ac1684", null ],
+    [ "Reset", "d4/dec/a15502.html#acae0427957aba04a54e6001823bc7eb4", null ],
+    [ "WaypointReached", "d4/dec/a15502.html#a262781c90fe1b5a5af2c6f94e4cc52e2", null ]
 ];

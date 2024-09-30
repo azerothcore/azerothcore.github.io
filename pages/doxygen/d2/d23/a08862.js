@@ -1,7 +1,9 @@
 var a08862 =
 [
-    [ "AllWorldObjectsInRange", "d2/d23/a08862.html#a63f46d510df0fa3153d4b3325676a468", null ],
-    [ "operator()", "d2/d23/a08862.html#a2cf23c24df93b5f7f29163b32e965a94", null ],
-    [ "m_fRange", "d2/d23/a08862.html#a6afe3ef05369dce8ee205db219f97846", null ],
-    [ "m_pObject", "d2/d23/a08862.html#ae7dde7b946d8affb79cb2d4c58eedbed", null ]
+    [ "ObjectUpdater", "d2/d23/a08862.html#ad907a266bcf4c059a49195eae4758541", null ],
+    [ "Visit", "d2/d23/a08862.html#a7dc639f90a38e6156a436ef6ff1204ec", null ],
+    [ "Visit", "d2/d23/a08862.html#a2ca08c1a3f3f23111bffbd423ca47b1c", null ],
+    [ "Visit", "d2/d23/a08862.html#a283b656ac784e64b98929eca83326027", null ],
+    [ "i_largeOnly", "d2/d23/a08862.html#a8f3e4ed206f6793edf9bf358d1bdf2c2", null ],
+    [ "i_timeDiff", "d2/d23/a08862.html#a4f1acae57c44d33449a8f040b02fa5e4", null ]
 ];

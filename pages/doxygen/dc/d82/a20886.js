@@ -1,6 +1,7 @@
 var a20886 =
 [
-    [ "PrepareSpellScript", "dc/d82/a20886.html#a785e9ba4ae1be5f22eb1327c50069d5f", null ],
-    [ "RecalculateDamage", "dc/d82/a20886.html#ad9f415d78bee61fca3fd23db935d9690", null ],
-    [ "Register", "dc/d82/a20886.html#a48da048186e1b6abfed7fde4e5d60a6b", null ]
+    [ "HandleProc", "dc/d82/a20886.html#a1b8782a4f22522cfe224073515abdf45", null ],
+    [ "PrepareAuraScript", "dc/d82/a20886.html#ab4a8a98564d561082243c0f7a2dda1bf", null ],
+    [ "Register", "dc/d82/a20886.html#a8e9b7613131ef7ea05b853df337faa4e", null ],
+    [ "Validate", "dc/d82/a20886.html#ab3a99392d06ba0bea8e3f4b345acb23d", null ]
 ];

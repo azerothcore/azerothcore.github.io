@@ -1,6 +1,6 @@
 var a23110 =
 [
-    [ "npc_bloodmage_laurithAI", "d7/d8e/a23114.html", "d7/d8e/a23114" ],
-    [ "npc_bloodmage_laurith", "db/dd2/a23110.html#a40ab80342ddc86afca3b1bd37b1ca6b5", null ],
-    [ "GetAI", "db/dd2/a23110.html#a5a5151a56de3ad1012d9a795dbfb5bd5", null ]
+    [ "HandleEffectRemove", "db/dd2/a23110.html#adfbbb75ace34ab5c0fec35e6aa88505a", null ],
+    [ "PrepareAuraScript", "db/dd2/a23110.html#a94b91d27b9a218b5fdce91d6a6e72f62", null ],
+    [ "Register", "db/dd2/a23110.html#a2b7fb2d6d0f92a970a45e0b9c409408d", null ]
 ];

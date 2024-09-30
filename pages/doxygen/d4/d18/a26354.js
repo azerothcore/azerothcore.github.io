@@ -1,6 +1,7 @@
 var a26354 =
 [
-    [ "npc_pet_dk_army_of_the_deadAI", "d6/d65/a26358.html", "d6/d65/a26358" ],
-    [ "npc_pet_dk_army_of_the_dead", "d4/d18/a26354.html#a0029b9a6bf26ac3419e580d437a0139f", null ],
-    [ "GetAI", "d4/d18/a26354.html#a1883936b7f2905f67d3750faa8caf635", null ]
+    [ "HandleScript", "d4/d18/a26354.html#aa00117e677af1e236962c59b688d8a98", null ],
+    [ "Load", "d4/d18/a26354.html#ad05b65848e35d87fb9ef1ae413de6256", null ],
+    [ "PrepareSpellScript", "d4/d18/a26354.html#afbffeadede1cc7f08a0a52f4a7bee680", null ],
+    [ "Register", "d4/d18/a26354.html#a52d4828ccd5430a622a32b1279943f9b", null ]
 ];

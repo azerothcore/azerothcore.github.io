@@ -1,6 +1,7 @@
 var a23734 =
 [
-    [ "npc_mcmanus", "dd/dfd/a23734.html#a4e9da3fa22b74f51f72c58cbf22dc683", null ],
-    [ "OnGossipHello", "dd/dfd/a23734.html#acb8f8b9c10387c0bb45b7d68f7f9821f", null ],
-    [ "OnGossipSelect", "dd/dfd/a23734.html#a5e8c37ebcfa737ee3066ab8df3e453f8", null ]
+    [ "CastQuill", "dd/dfd/a23734.html#a923234809186bcbdf02457f4be095519", null ],
+    [ "Execute", "dd/dfd/a23734.html#a26a971a575e4b9503cd1da73d43ebd1e", null ],
+    [ "_caster", "dd/dfd/a23734.html#af809b9279aff141ce4007c8d1fbcc331", null ],
+    [ "_spellId", "dd/dfd/a23734.html#ad6f7d8eaf69873b0ba57be4189c145cf", null ]
 ];

@@ -1,6 +1,10 @@
 var a23726 =
 [
-    [ "npc_still_at_it_triggerAI", "d4/dc7/a23730.html", "d4/dc7/a23730" ],
-    [ "npc_still_at_it_trigger", "d0/d4f/a23726.html#a23366d00bd3b8217bdca7f0fca05d9bd", null ],
-    [ "GetAI", "d0/d4f/a23726.html#ae273ea6295f50248d303983d4b4137df", null ]
+    [ "CheckProc", "d0/d4f/a23726.html#ac176c59497cc2196c19dc8a1b9f8056d", null ],
+    [ "Load", "d0/d4f/a23726.html#aad39e53d6b3fc673c115f79ca0bc9b68", null ],
+    [ "PrepareAuraScript", "d0/d4f/a23726.html#a990cab2c1d9fb544bf11c9fd4e5495ac", null ],
+    [ "Register", "d0/d4f/a23726.html#ae2cf612df18cf249bc4a90ce9332fc9b", null ],
+    [ "_lastForm", "d0/d4f/a23726.html#ad392a897546cb64e550dd8b0709ba0ab", null ],
+    [ "_lastSchool", "d0/d4f/a23726.html#afc2e3e388615ed5cf0f4dd672f26de85", null ],
+    [ "_swapTime", "d0/d4f/a23726.html#af832dc200e928df3849ab7d7f93cb412", null ]
 ];

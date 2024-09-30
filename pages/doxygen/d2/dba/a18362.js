@@ -1,5 +1,6 @@
 var a18362 =
 [
-    [ "at_lady_deathwhisper_entrance", "d2/dba/a18362.html#a3c16844f4ff97fd0699edb1d1aca2f60", null ],
-    [ "OnTrigger", "d2/dba/a18362.html#a769c838c94a88af5492057909d88f3de", null ]
+    [ "npc_blazing_skeletonAI", "da/d0e/a18366.html", "da/d0e/a18366" ],
+    [ "npc_blazing_skeleton", "d2/dba/a18362.html#a158720704479946048472ffe0beec492", null ],
+    [ "GetAI", "d2/dba/a18362.html#af29ea4620ebafaa4d47ec9f37758af77", null ]
 ];

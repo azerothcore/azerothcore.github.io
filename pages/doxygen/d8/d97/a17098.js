@@ -1,6 +1,13 @@
 var a17098 =
 [
-    [ "spell_bronjahm_soulstorm_targeting_SpellScript", "d8/d14/a17102.html", "d8/d14/a17102" ],
-    [ "spell_bronjahm_soulstorm_targeting", "d8/d97/a17098.html#ab3fe64ee2014ae7bd7dc04762308f6ce", null ],
-    [ "GetSpellScript", "d8/d97/a17098.html#af963a89a43ce6a9b1e09b173ff34c363", null ]
+    [ "boss_slad_ranAI", "d8/d97/a17098.html#ad85e2fd51d67739026a96bc757bc7801", null ],
+    [ "GetData", "d8/d97/a17098.html#a58e1188a418acdc1f327e7df90c5c122", null ],
+    [ "JustDied", "d8/d97/a17098.html#a636ca76497c33a5175986e80bbcda44a", null ],
+    [ "JustEngagedWith", "d8/d97/a17098.html#ac30b38805d0421b1be509c7d5609c648", null ],
+    [ "JustSummoned", "d8/d97/a17098.html#a08e8d256c0f15011d1aacef8e22d4253", null ],
+    [ "KilledUnit", "d8/d97/a17098.html#a4700f8c06e5fa43fc1719c19cfe79b24", null ],
+    [ "Reset", "d8/d97/a17098.html#a8759163de40d04d53c5e5ed8d8192aa7", null ],
+    [ "SetData", "d8/d97/a17098.html#a3b91eb7c2aa2aeb356c51e81f449b0a5", null ],
+    [ "UpdateAI", "d8/d97/a17098.html#a9eeb3281456779edd9570119ba8a2105", null ],
+    [ "_achievement", "d8/d97/a17098.html#a3ab4f94e13d414fd6c9eb0ba63941ca9", null ]
 ];

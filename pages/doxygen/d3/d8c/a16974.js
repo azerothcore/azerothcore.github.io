@@ -1,6 +1,7 @@
 var a16974 =
 [
-    [ "spell_tharon_ja_curse_of_life_AuraScript", "df/d21/a16978.html", "df/d21/a16978" ],
-    [ "spell_tharon_ja_curse_of_life", "d3/d8c/a16974.html#ac672fa1009d50e6291e71f6ef3efa60d", null ],
-    [ "GetAuraScript", "d3/d8c/a16974.html#ac6673be29864f70d24d207471a303a2c", null ]
+    [ "HandleEffectPeriodic", "d3/d8c/a16974.html#a370e2cbf796c1bc0a891243b61c057e1", null ],
+    [ "PrepareAuraScript", "d3/d8c/a16974.html#ac0cb90fe9bfa7f371cc5469626ce2467", null ],
+    [ "Register", "d3/d8c/a16974.html#a5a44978cec95fef30c9ea4308bda2508", null ],
+    [ "Validate", "d3/d8c/a16974.html#a8b9f7d76f86f1a5abffdead3ebee694a", null ]
 ];

@@ -1,7 +1,6 @@
 var a21938 =
 [
-    [ "boss_thorim_trapAI", "d7/d10/a21938.html#aaab278dc6557a49624099b0064b8d6f3", null ],
-    [ "Reset", "d7/d10/a21938.html#ab0715e75a475409ffb6c623bf363a65d", null ],
-    [ "UpdateAI", "d7/d10/a21938.html#a40078609a67aa029f71df7971449b056", null ],
-    [ "_checkTimer", "d7/d10/a21938.html#ad3ed8edb4d06e5b98a5afc82170f3233", null ]
+    [ "HandleOnEffectRemove", "d7/d10/a21938.html#a5aeae7d8fc2fb8c8a1ce446ba1887c51", null ],
+    [ "PrepareAuraScript", "d7/d10/a21938.html#af415e4d7ea0b4b881af94eb7ea0c3f4c", null ],
+    [ "Register", "d7/d10/a21938.html#a242faa8822f9cdb7762d8ec3b6245b30", null ]
 ];

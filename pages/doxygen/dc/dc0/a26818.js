@@ -1,6 +1,7 @@
 var a26818 =
 [
-    [ "CheckProc", "dc/dc0/a26818.html#a68d2d8168e405ea4250e2e43a1a350fa", null ],
-    [ "PrepareAuraScript", "dc/dc0/a26818.html#a9d797e7bc7133f4a626f4352b2fe7141", null ],
-    [ "Register", "dc/dc0/a26818.html#a5b96bb8c2ff456b63bbd200f54294251", null ]
+    [ "HandleApplyAura", "dc/dc0/a26818.html#ae364ff4048a2f59eadecd6934c7a0e13", null ],
+    [ "PrepareSpellScript", "dc/dc0/a26818.html#adf09900347264bc341884092ea0fee40", null ],
+    [ "Register", "dc/dc0/a26818.html#ac56484d4048817a164963e519a97d137", null ],
+    [ "Validate", "dc/dc0/a26818.html#ac028c0faf659fb74b2ffa5f85f58f8d1", null ]
 ];

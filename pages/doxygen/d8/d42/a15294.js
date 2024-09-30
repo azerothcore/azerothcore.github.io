@@ -1,8 +1,8 @@
 var a15294 =
 [
-    [ "npc_vekniss_stinger", "d8/d42/a15294.html#ad48098961715a924270cb8bbbe77e4b0", null ],
-    [ "JustEngagedWith", "d8/d42/a15294.html#ae7c758687c81cfb223066f0a9348eab8", null ],
-    [ "Reset", "d8/d42/a15294.html#a2a79f3775aad83410ff2670aa438e811", null ],
-    [ "UpdateAI", "d8/d42/a15294.html#a1ff479e8f45710f6aa36473933bb87e0", null ],
-    [ "_scheduler", "d8/d42/a15294.html#a9764cb5604387e1594e2b3df26dd1f7a", null ]
+    [ "FilterTargets", "d8/d42/a15294.html#a47b8055fa1b28968e8323ca98613aa83", null ],
+    [ "HandleScript", "d8/d42/a15294.html#a8f7984e510d8947a2ae4b0734409866b", null ],
+    [ "PrepareSpellScript", "d8/d42/a15294.html#a5c12caf56e95a9f7960ed9f4a3945c7c", null ],
+    [ "Register", "d8/d42/a15294.html#adf76a5d9145f88aad5b3dd164fa4fcc4", null ],
+    [ "Validate", "d8/d42/a15294.html#aa3f9c6418eb804a2ddf235beb8491a19", null ]
 ];

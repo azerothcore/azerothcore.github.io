@@ -1,10 +1,19 @@
 var a08474 =
 [
-    [ "PetLevelInfo", "d0/d06/a08474.html#ad8e757abeae500063e963ffef5469809", null ],
-    [ "armor", "d0/d06/a08474.html#ab7097f75cf86bd6f135f21dace61a89e", null ],
-    [ "health", "d0/d06/a08474.html#a322dcab3af8f98726aa6addf38e8891b", null ],
-    [ "mana", "d0/d06/a08474.html#a27352e73d6ed3945e398e0634dee1e96", null ],
-    [ "max_dmg", "d0/d06/a08474.html#a092f2600f64f2af885142b2e96d1fe64", null ],
-    [ "min_dmg", "d0/d06/a08474.html#a299d1c7f4c28893e09de79cd816afa95", null ],
-    [ "stats", "d0/d06/a08474.html#a897aabacdbe9cbc4afcc40ab059c12be", null ]
+    [ "absorb", "d0/d06/a08474.html#a7298afcc76b856c5427f5e123030a797", null ],
+    [ "attacker", "d0/d06/a08474.html#aebe14d91f54da0b25a07ff3d59df6ec2", null ],
+    [ "attackType", "d0/d06/a08474.html#afd18e43bd78a9144c02ba0493921c506", null ],
+    [ "blocked_amount", "d0/d06/a08474.html#a0ce1e1ff406264c7283979fe4fc70148", null ],
+    [ "cleanDamage", "d0/d06/a08474.html#a452ac9be1f6e9c10616a62a128573358", null ],
+    [ "damage", "d0/d06/a08474.html#ab95e1e4746b966f1301d997fdac99c94", null ],
+    [ "damages", "d0/d06/a08474.html#a6d65f46540999e9257eed9aa27839273", null ],
+    [ "damageSchoolMask", "d0/d06/a08474.html#a01f1cc6661ef5f4e7d657ba59d06108f", null ],
+    [ "HitInfo", "d0/d06/a08474.html#ae42a8a3750633d94e661ac9d5a9aa8df", null ],
+    [ "hitOutCome", "d0/d06/a08474.html#a114dcabcb8bff10c2452cb27e75da115", null ],
+    [ "procAttacker", "d0/d06/a08474.html#a21bed657c7e3d2338f30fb5237884d5f", null ],
+    [ "procEx", "d0/d06/a08474.html#ad629b9aad4d88247ef4dfaadd79dc1c8", null ],
+    [ "procVictim", "d0/d06/a08474.html#a236b06649e715fab9dbddb074ef2f075", null ],
+    [ "resist", "d0/d06/a08474.html#ab57d348b500203649bf532405cd9ceec", null ],
+    [ "target", "d0/d06/a08474.html#af2976fa1245b3e3177dcbac464345829", null ],
+    [ "TargetState", "d0/d06/a08474.html#a73ef30ca87444da617b8c2e05b70e9fc", null ]
 ];

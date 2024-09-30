@@ -1,6 +1,6 @@
 var a11842 =
 [
-    [ "boss_golemaggAI", "db/d3d/a11846.html", "db/d3d/a11846" ],
-    [ "boss_golemagg", "df/d3e/a11842.html#a66720a143f8987dfa5d6e2acb7cd73cd", null ],
-    [ "GetAI", "df/d3e/a11842.html#a6899f30975e0984306feabe47bbc8317", null ]
+    [ "near_scarshield_infiltrator", "df/d3e/a11842.html#a38d2e75946c429b4d80b007f190406bc", null ],
+    [ "OnTrigger", "df/d3e/a11842.html#aeb761433e3210ce85c1de4dab653a87c", null ],
+    [ "whisperedTargets", "df/d3e/a11842.html#a5655e241d2551798a960cb6375c7df23", null ]
 ];

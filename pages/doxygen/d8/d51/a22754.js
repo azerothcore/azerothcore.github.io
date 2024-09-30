@@ -1,6 +1,7 @@
 var a22754 =
 [
-    [ "boss_toravonAI", "d4/d19/a22758.html", "d4/d19/a22758" ],
-    [ "boss_toravon", "d8/d51/a22754.html#abd30a86924bd7dd9474b5df16f3a8d8d", null ],
-    [ "GetAI", "d8/d51/a22754.html#a6db140b1d232312300e20155830cb249", null ]
+    [ "OnPeriodic", "d8/d51/a22754.html#a165d47b116b0a53e37b05f664960e6ec", null ],
+    [ "PrepareAuraScript", "d8/d51/a22754.html#ac46af3566c5c03622f8146f1bb6f0ac7", null ],
+    [ "Register", "d8/d51/a22754.html#a1ac8741542c921f5e4c42b0a9a02ed3c", null ],
+    [ "Validate", "d8/d51/a22754.html#adf76f9183dd9c5e0f00c2115aaafb119", null ]
 ];

@@ -1,5 +1,5 @@
 var a10062 =
 [
-    [ "Flags", "d0/d65/a10062.html#af1d25fa760cdbfa907a1b6e0002f0e70", null ],
-    [ "WithdrawItemLimit", "d0/d65/a10062.html#aa7bb5355ee174f3b9dd32c659e0f7806", null ]
+    [ "MovementHandlerScript", "d0/d65/a10062.html#aeeeb5fe81eebc04fc317e726782be3ab", null ],
+    [ "OnPlayerMove", "d0/d65/a10062.html#ac1604e58c8ecab26ce4159fb43a86a68", null ]
 ];

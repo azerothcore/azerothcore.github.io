@@ -1,15 +1,10 @@
 var a09710 =
 [
-    [ "CreatureScript", "d9/d0b/a09710.html#afa0053e299f9125cc288ea38652edecb", null ],
-    [ "GetAI", "d9/d0b/a09710.html#a24ba3529655943afdf6598450d14e6c2", null ],
-    [ "GetDialogStatus", "d9/d0b/a09710.html#a41562245c4a44843363d6b0ce32ce48d", null ],
-    [ "IsDatabaseBound", "d9/d0b/a09710.html#af19c64d23391f8b835f79bc6cf315caa", null ],
-    [ "OnFfaPvpStateUpdate", "d9/d0b/a09710.html#a316efb5c026588eb4bce8a0ce6b5cc0f", null ],
-    [ "OnGossipHello", "d9/d0b/a09710.html#a6268b132444845302ada504f48629a4f", null ],
-    [ "OnGossipSelect", "d9/d0b/a09710.html#a30f160576b4cb97d940ecf3468834667", null ],
-    [ "OnGossipSelectCode", "d9/d0b/a09710.html#ad99f4a96106b9dc5cf9c29304d781d6a", null ],
-    [ "OnQuestAccept", "d9/d0b/a09710.html#a6b106a237886f49e523ae7b07e9c5979", null ],
-    [ "OnQuestComplete", "d9/d0b/a09710.html#a4d39c9b2edbbbc2ae08b5cdcc95b4d7b", null ],
-    [ "OnQuestReward", "d9/d0b/a09710.html#aba2be0f342cb9811bd0ebee954d7d36e", null ],
-    [ "OnQuestSelect", "d9/d0b/a09710.html#a1e054fb61dd560aa7718d59127ad4b51", null ]
+    [ "EffectMovementGenerator", "d9/d0b/a09710.html#a4b574eb9865cffe1277d9012db653d98", null ],
+    [ "Finalize", "d9/d0b/a09710.html#a50cad77c4261bea67428b9dcd5a37ea1", null ],
+    [ "GetMovementGeneratorType", "d9/d0b/a09710.html#a42c56bc35cf3d752e24ccc36adcd2e82", null ],
+    [ "Initialize", "d9/d0b/a09710.html#a376f554231bc5dc4c95790e6c85dcb01", null ],
+    [ "Reset", "d9/d0b/a09710.html#a9627573a7206e12ff469e8e6e076862b", null ],
+    [ "Update", "d9/d0b/a09710.html#adff45ee4ce3cc72b6cc88e626c3bd0a5", null ],
+    [ "m_Id", "d9/d0b/a09710.html#a56f483336fe5c86c6d186ec4d7772d4b", null ]
 ];

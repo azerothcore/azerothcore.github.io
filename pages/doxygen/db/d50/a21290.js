@@ -1,10 +1,11 @@
 var a21290 =
 [
-    [ "boss_freya_elder_ironbranchAI", "db/d50/a21290.html#a4a7350a2bf7c813b1b18fe32566e4d56", null ],
-    [ "JustDied", "db/d50/a21290.html#aab878773508fcbb437661d316266b942", null ],
-    [ "JustEngagedWith", "db/d50/a21290.html#ab7b5df914ee5b22c25098c188306d123", null ],
-    [ "KilledUnit", "db/d50/a21290.html#a7dc8d3b497c2297b35f6aec70cc5447b", null ],
-    [ "Reset", "db/d50/a21290.html#afd87a8fc3ca55d1a91f4cc08b34095c8", null ],
-    [ "UpdateAI", "db/d50/a21290.html#a711cd2788bff7fbc648c039921297eac", null ],
-    [ "events", "db/d50/a21290.html#a88193ba77c8a0269a5b8bdc4f3dc96d2", null ]
+    [ "npc_ichor_globuleAI", "db/d50/a21290.html#a4d581f89c8385276fd407c000af9e569", null ],
+    [ "AttackStart", "db/d50/a21290.html#aa4e1fc88a26d6ef41f1ca96c93abbc1a", null ],
+    [ "JustDied", "db/d50/a21290.html#ad29c7659590933b0749e8e1c2c2e4c46", null ],
+    [ "MoveInLineOfSight", "db/d50/a21290.html#af8ef8296512d57d934a171f1a5060e73", null ],
+    [ "SpellHit", "db/d50/a21290.html#a1396538a446545408e3c304f3e56400f", null ],
+    [ "UpdateAI", "db/d50/a21290.html#a6ff13c853583e5178fb3a690e17303de", null ],
+    [ "pInstance", "db/d50/a21290.html#a94cbe93a69a28171fc3d91d71b6ec419", null ],
+    [ "uiRangeCheck_Timer", "db/d50/a21290.html#a99914a55d2dc0b36a623dc7d6248e953", null ]
 ];

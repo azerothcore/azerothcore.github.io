@@ -1,10 +1,7 @@
 var a27958 =
 [
-    [ "Load", "df/d18/a27958.html#a4330a13b4144aa0a2e299c5cb00b1aea", null ],
-    [ "PrepareAuraScript", "df/d18/a27958.html#ae04fa1b54e4b0219d1dcdf998e708c29", null ],
-    [ "Register", "df/d18/a27958.html#a3031d32b7366f7f707cbb69e3cb96fc8", null ],
-    [ "Split", "df/d18/a27958.html#aa28fe4ba6a8a501318b6d1d49a2fa9b9", null ],
-    [ "groupSize", "df/d18/a27958.html#aa1e61b128f63c802dc623be551657df1", null ],
-    [ "minHpPct", "df/d18/a27958.html#a279f1a2b232a7be981e4315c9e8595e4", null ],
-    [ "remainingAmount", "df/d18/a27958.html#ad00a550f82d6b3ae77c3112c753de60b", null ]
+    [ "Displayid", "df/d18/a27958.html#adc5aee11b1e27752576b0b98156d3b3c", null ],
+    [ "ExtendedDisplayInfoID", "df/d18/a27958.html#a174d6f73393e6dcfeecf487fc09c2e6f", null ],
+    [ "ModelId", "df/d18/a27958.html#ada31381a4ee360e2fcb68403bc6d14e5", null ],
+    [ "scale", "df/d18/a27958.html#ae15b89669bf5d711cc57c21d8c8be0dd", null ]
 ];

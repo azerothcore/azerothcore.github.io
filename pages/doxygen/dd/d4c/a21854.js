@@ -1,7 +1,6 @@
 var a21854 =
 [
-    [ "npc_ulduar_expedition_commanderAI", "dd/d4c/a21854.html#a100678bddd6a0e859c72035d4642d8e2", null ],
-    [ "MoveInLineOfSight", "dd/d4c/a21854.html#a870bdc842d8d7078302a36a20ef661e4", null ],
-    [ "_instance", "dd/d4c/a21854.html#a64d925b08f3f0ae59f5053121dbc495c", null ],
-    [ "_introSpoken", "dd/d4c/a21854.html#ac6784a66111406f917ae4d07dbeb60a4", null ]
+    [ "npc_ravenous_worgAI", "dc/dfc/a21858.html", "dc/dfc/a21858" ],
+    [ "npc_ravenous_worg", "dd/d4c/a21854.html#ad7f8da1c82072367fe4a537620df9ac0", null ],
+    [ "GetAI", "dd/d4c/a21854.html#ac966ae31d3a86c9435b14d9f50a5f4cb", null ]
 ];

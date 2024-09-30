@@ -1,8 +1,15 @@
 var a07886 =
 [
-    [ "Reset", "d4/da1/a07886.html#a28a5bd110553457c86d7f77e78041713", null ],
-    [ "cosAngle", "d4/da1/a07886.html#a37f49fc816f37dff8c1947f4de7f04d5", null ],
-    [ "sinAngle", "d4/da1/a07886.html#af2a184b7c8e7f324607a0b7468bcb8f6", null ],
-    [ "xyspeed", "d4/da1/a07886.html#a6fada60d677d89580c3a718d42a75d17", null ],
-    [ "zspeed", "d4/da1/a07886.html#ad0a5a36aeabc9b8d8ea27cecae30ae31", null ]
+    [ "Guardian", "d4/da1/a07886.html#a731dfcf7d834a97ba253ad36e4006745", null ],
+    [ "GetDebugInfo", "d4/da1/a07886.html#ace47e7d3fb3162786329cbcf1c6cab46", null ],
+    [ "InitStats", "d4/da1/a07886.html#a698ac009e39a2e8461b40135b75609ef", null ],
+    [ "InitStatsForLevel", "d4/da1/a07886.html#a7d0ae55d55f4c3ea35de601c2c6c6e6b", null ],
+    [ "InitSummon", "d4/da1/a07886.html#a1d5ebfa5ac5754293172041dc3a2c47d", null ],
+    [ "UpdateAllStats", "d4/da1/a07886.html#ae2f3d68429afb154f790d65dae6406b3", null ],
+    [ "UpdateArmor", "d4/da1/a07886.html#adc8ed8497f8450ccad92f79322d9f452", null ],
+    [ "UpdateAttackPowerAndDamage", "d4/da1/a07886.html#af40269c3c63fc12b21f18c67ef067a0f", null ],
+    [ "UpdateDamagePhysical", "d4/da1/a07886.html#aa45ffb532a2a8075d8e4acb818c08d70", null ],
+    [ "UpdateMaxHealth", "d4/da1/a07886.html#a62c41f7922bc1c2e1697a1eea65cdb72", null ],
+    [ "UpdateMaxPower", "d4/da1/a07886.html#a620010832de5fc7d6d1a8545321f9dea", null ],
+    [ "UpdateStats", "d4/da1/a07886.html#a6b615ed2f01623991fa45907a09cc642", null ]
 ];

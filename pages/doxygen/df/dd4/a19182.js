@@ -1,8 +1,9 @@
 var a19182 =
 [
-    [ "Load", "df/dd4/a19182.html#aab174da140072f6d4f79c6a1d1d923b4", null ],
-    [ "OnPeriodic", "df/dd4/a19182.html#a7bac29a8b91c23eb809bb3ca10b1bee3", null ],
-    [ "PrepareAuraScript", "df/dd4/a19182.html#a63951f220ddd20092d80fb531c16c823", null ],
-    [ "Register", "df/dd4/a19182.html#a6546adc7491d5e1f2f1456c8da0f440e", null ],
-    [ "_is25Man", "df/dd4/a19182.html#af6ef75b24251d2a57dab1542da257fab", null ]
+    [ "boss_commander_stoutbeardAI", "df/dd4/a19182.html#a44bac0471ab37822be91c08e4cbd44d0", null ],
+    [ "JustDied", "df/dd4/a19182.html#a8264fd42696a1f392b464b367f5e2933", null ],
+    [ "JustEngagedWith", "df/dd4/a19182.html#a0bef61b70a285ab4b085ff7600fb7e77", null ],
+    [ "KilledUnit", "df/dd4/a19182.html#ade8344d9cdf15625099d8b2550331ca6", null ],
+    [ "Reset", "df/dd4/a19182.html#a5b7fe5b2a33eeb8f182aeca145cc62dd", null ],
+    [ "UpdateAI", "df/dd4/a19182.html#a2e47e00e7e477c3abefe1549f1dd9c5f", null ]
 ];

@@ -1,6 +1,9 @@
 var a11954 =
 [
-    [ "boss_sulfuronAI", "d7/d68/a11954.html#a63c76fb94131830924e2bf77477261ba", null ],
-    [ "ExecuteEvent", "d7/d68/a11954.html#ae038aa8140f5b4128c39c592966321f1", null ],
-    [ "JustEngagedWith", "d7/d68/a11954.html#a35394690b8d25529c91c147025f6ad92", null ]
+    [ "FilterTargets", "d7/d68/a11954.html#ae1029dd58a48c099e8bbd071898f1b12", null ],
+    [ "HandleOnHitRogue", "d7/d68/a11954.html#a57cd6d2c45a9a73bb284272db21d1fce", null ],
+    [ "HandleOnHitWarlock", "d7/d68/a11954.html#a76f9e5e11a6f2e25868dba567d798002", null ],
+    [ "PrepareSpellScript", "d7/d68/a11954.html#a4792a25aa6fe6126a94900784798dbee", null ],
+    [ "Register", "d7/d68/a11954.html#a0f6146c64a86e953c042f8404bbfe683", null ],
+    [ "Validate", "d7/d68/a11954.html#af65d372cdbb365eff73edb8cf18734c8", null ]
 ];

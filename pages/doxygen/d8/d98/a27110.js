@@ -1,7 +1,6 @@
 var a27110 =
 [
-    [ "HandleScript", "d8/d98/a27110.html#a8b20e2ffed94ec9438dc9b756ba76693", null ],
-    [ "PrepareSpellScript", "d8/d98/a27110.html#a9e29ea947d5415471d991a4e1cd699ac", null ],
-    [ "Register", "d8/d98/a27110.html#aa4bc27415893009581b317637599a85a", null ],
-    [ "Validate", "d8/d98/a27110.html#a77ed10819633ae2bc381023da0feb31b", null ]
+    [ "go_witherbark_totem_bundleAI", "d8/d7a/a27114.html", "d8/d7a/a27114" ],
+    [ "go_witherbark_totem_bundle", "d8/d98/a27110.html#affcdff7ec6894add0acec842028efd2e", null ],
+    [ "GetAI", "d8/d98/a27110.html#a5ac2b3b572d67fdcc587f242f3d50f97", null ]
 ];

@@ -1,7 +1,6 @@
 var a27022 =
 [
-    [ "HandleScript", "dd/d9c/a27022.html#a8ec57aed0788f58e2c50fc08793a5749", null ],
-    [ "PrepareSpellScript", "dd/d9c/a27022.html#a56c9ab120239252982cab8b96ac8c5fe", null ],
-    [ "Register", "dd/d9c/a27022.html#a8c727b2b00858abcce058b16d66ca62a", null ],
-    [ "Validate", "dd/d9c/a27022.html#af3ffb9930eaba8703065719bbcf02f56", null ]
+    [ "AreaTrigger_at_area_52_entrance", "dd/d9c/a27022.html#a5b7e21903bca1c04bad1394c6965d032", null ],
+    [ "OnTrigger", "dd/d9c/a27022.html#a1e537d133ee5e6ad1dbb0c732e23a128", null ],
+    [ "_triggerTimes", "dd/d9c/a27022.html#a6c3225f46ea71d06b81b25d5fb6e8f25", null ]
 ];

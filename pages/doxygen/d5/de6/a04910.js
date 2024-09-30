@@ -1,13 +1,8 @@
 var a04910 =
 [
-    [ "SymbolDetail", "d5/de6/a04910.html#a980674204558954b7a10799c5e71fb31", null ],
-    [ "empty", "d5/de6/a04910.html#a0cd6b5c40ffb307db4a3930ba5a36b76", null ],
-    [ "ToString", "d5/de6/a04910.html#a5466cf91b53b85332b301b3d51b075aa", null ],
-    [ "HasChildren", "d5/de6/a04910.html#abb8aaaf18cc617dbf5628bd10dc76bc8", null ],
-    [ "Logged", "d5/de6/a04910.html#a89231f1fafa96100d432ace9fc1f08c3", null ],
-    [ "Name", "d5/de6/a04910.html#acb905ff2f54f69367de324b2bf33fbe7", null ],
-    [ "Prefix", "d5/de6/a04910.html#a21fb89604255111403d1c0bf331d72fb", null ],
-    [ "Suffix", "d5/de6/a04910.html#ab3e36a19236208f25dddaf0ff8ecec4f", null ],
-    [ "Type", "d5/de6/a04910.html#a8cb6fb216847f8e1b669b9693ef017dc", null ],
-    [ "Value", "d5/de6/a04910.html#a8a469bdb1f1ea087f5c0a95fc0431b55", null ]
+    [ "LocationInfo", "d5/de6/a04910.html#ae2e70dc65cd3b0379600a67dce7de6ba", null ],
+    [ "ground_Z", "d5/de6/a04910.html#a0ffbfcfc677809dda6250855d9594ca5", null ],
+    [ "hitInstance", "d5/de6/a04910.html#a5e3fc81a2b7353808dc0c95eebe570be", null ],
+    [ "hitModel", "d5/de6/a04910.html#a2a7e0be8d8e43b055dd1d43cd5331738", null ],
+    [ "rootId", "d5/de6/a04910.html#aae82d7d8518db5e131d6a327927c75a2", null ]
 ];

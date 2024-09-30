@@ -1,6 +1,7 @@
 var a15862 =
 [
-    [ "spell_zulfarrak_unlocking_SpellScript", "df/de6/a15866.html", "df/de6/a15866" ],
-    [ "spell_zulfarrak_unlocking", "d4/dab/a15862.html#a0bd049da60fee3bf0d49a72130e39698", null ],
-    [ "GetSpellScript", "d4/dab/a15862.html#a50ac4f1c63de50eb4739f37ca4f70933", null ]
+    [ "npc_baltharus_the_warborn_cloneAI", "d4/dab/a15862.html#aed531e61508d4d404827f47c6348a5e6", null ],
+    [ "JustEngagedWith", "d4/dab/a15862.html#ad906b7602a34abcfaede92cba6f0a6d7", null ],
+    [ "UpdateAI", "d4/dab/a15862.html#ab0c1cf041146a3e16a33986e3e824a2d", null ],
+    [ "_events", "d4/dab/a15862.html#a6e2819f73f0fccd02b7188f0e6f1ffa9", null ]
 ];

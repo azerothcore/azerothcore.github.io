@@ -1,8 +1,11 @@
 var a08454 =
 [
-    [ "target_mapId", "d1/d8b/a08454.html#af6d7558707c026a6d64f2d7b65a344be", null ],
-    [ "target_Orientation", "d1/d8b/a08454.html#a5f6bf883e167b683e048ce9eeebb7cb0", null ],
-    [ "target_X", "d1/d8b/a08454.html#a3ef5faea7a6fd9b173ea35036b3390b2", null ],
-    [ "target_Y", "d1/d8b/a08454.html#a6660d360eaa47098506f246927130e32", null ],
-    [ "target_Z", "d1/d8b/a08454.html#a32fee5f497804089feb738be84548dc1", null ]
+    [ "DispelInfo", "d1/d8b/a08454.html#ab6e88e6fc168d22a8b31754a9b1bf2e5", null ],
+    [ "GetDispeller", "d1/d8b/a08454.html#a1c6f02de66ffa847c09d19922b02bc20", null ],
+    [ "GetDispellerSpellId", "d1/d8b/a08454.html#a0d09f205ff9374fddc694a66ccf0c31d", null ],
+    [ "GetRemovedCharges", "d1/d8b/a08454.html#a9c0bd34ebe7d0a0839b7bdee31ef3f3d", null ],
+    [ "SetRemovedCharges", "d1/d8b/a08454.html#a3c249e2b70b9f4d8bb3bd9fed07a1bd7", null ],
+    [ "_chargesRemoved", "d1/d8b/a08454.html#a5b6105f37470acb57bbda3e14ee664be", null ],
+    [ "_dispellerSpell", "d1/d8b/a08454.html#a484e6d516c5de30413e97f2c4abb5515", null ],
+    [ "_dispellerUnit", "d1/d8b/a08454.html#ab14d6e0df8bbb89ef0d3550724209040", null ]
 ];

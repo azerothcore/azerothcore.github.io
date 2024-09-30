@@ -1,8 +1,7 @@
 var a27058 =
 [
-    [ "AchievementCredit", "d9/dc9/a27058.html#ab0ec836feb53875de355330e05367fe8", null ],
-    [ "Load", "d9/dc9/a27058.html#ae48c67f363e399f076122cb6eee10ffb", null ],
-    [ "PrepareSpellScript", "d9/dc9/a27058.html#af0bb22c618af5dca7f534bea32e7ee7f", null ],
-    [ "Register", "d9/dc9/a27058.html#a793921687c96a39f7dd872b9721096ca", null ],
-    [ "Validate", "d9/dc9/a27058.html#a5be222c322714ec62f8beaf69faab257", null ]
+    [ "npc_spirit_shadeAI", "d9/dc9/a27058.html#a8b7bf7c7cc541a47be79aad76a9bbcbc", null ],
+    [ "IsSummonedBy", "d9/dc9/a27058.html#a3a7fcb4af8e3b27e06b4665e8a864b38", null ],
+    [ "MovementInform", "d9/dc9/a27058.html#ab001fdc09efe9f8c03ad1b7610124e6d", null ],
+    [ "_summonerGuid", "d9/dc9/a27058.html#aa7c6abb848ab37f407a3553d04d0ad81", null ]
 ];

@@ -1,7 +1,8 @@
 var a25694 =
 [
-    [ "OnApply", "d6/d1a/a25694.html#a6d8b2c1a671ac698826daaee2c1b6b18", null ],
-    [ "OnRemove", "d6/d1a/a25694.html#a299fd3e8c173f9cfcadc79dff43a4ffd", null ],
-    [ "PrepareAuraScript", "d6/d1a/a25694.html#abeb51278b6d97afaa05ae92132d0df39", null ],
-    [ "Register", "d6/d1a/a25694.html#ad752a04a5c42ff66d446bbe7c407959d", null ]
+    [ "OnRemove", "d6/d1a/a25694.html#a645e869079e711a87f1a957b42a35e98", null ],
+    [ "OnStackChange", "d6/d1a/a25694.html#adea8a4a7140e2f9fd4a44ef2a7b4d85b", null ],
+    [ "PrepareAuraScript", "d6/d1a/a25694.html#a5f9e9d07879705917e1cd261808f0a8f", null ],
+    [ "Register", "d6/d1a/a25694.html#ac86068a892255e38244c487a7456cd9f", null ],
+    [ "Validate", "d6/d1a/a25694.html#a74cb62725d939000a1c4ab32b4f4335f", null ]
 ];

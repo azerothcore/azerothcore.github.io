@@ -1,6 +1,5 @@
 var a17578 =
 [
-    [ "boss_gal_darahAI", "dc/d86/a17582.html", "dc/d86/a17582" ],
-    [ "boss_gal_darah", "dc/de0/a17578.html#a687bb98f9de9cd838c57511dc6b3d086", null ],
-    [ "GetAI", "dc/de0/a17578.html#a8f709568f5a06265056571061ff3a26b", null ]
+    [ "achievement_im_on_a_boat", "dc/de0/a17578.html#aa25d330534aab023ec798e86976a6d50", null ],
+    [ "OnCheck", "dc/de0/a17578.html#ab4fffc061b9ff77563e7e0a5a796be1e", null ]
 ];

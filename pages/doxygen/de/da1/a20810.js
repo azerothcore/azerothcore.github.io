@@ -1,28 +1,6 @@
 var a20810 =
 [
-    [ "boss_algalon_the_observerAI", "de/da1/a20810.html#a2c2d990919a6f5cba8ff8127199195e3", null ],
-    [ "AttackStart", "de/da1/a20810.html#a2631ccc7111d01735a97244838ca9c27", null ],
-    [ "CallConstellations", "de/da1/a20810.html#a564415931ad23ee369f2df503ce9c561", null ],
-    [ "DamageTaken", "de/da1/a20810.html#a5f96871a1fb8ecb0e6d861d96601876d", null ],
-    [ "DoAction", "de/da1/a20810.html#a931e8e5178a0e1d201e002ef06d9af3e", null ],
-    [ "DoCheckHeraldOfTheTitans", "de/da1/a20810.html#a68cf28542db34f6d5784218085dc0d4c", null ],
-    [ "EnterEvadeMode", "de/da1/a20810.html#aa114e1b79dc128fbad06223039f5d57a", null ],
-    [ "GetData", "de/da1/a20810.html#acc68df65e98350c9bd8d8838ebc5d926", null ],
-    [ "IsInRoom", "de/da1/a20810.html#a85f55d3a1f0dae6f5015310b7aa47e2c", null ],
-    [ "IsValidHeraldItem", "de/da1/a20810.html#ab9498202d44b60655f877dd751201c11", null ],
-    [ "JustEngagedWith", "de/da1/a20810.html#acc87dc30d4b60f111d1ffd6718f38959", null ],
-    [ "JustReachedHome", "de/da1/a20810.html#a9a506424f408f3574f8dfbaf099b37e9", null ],
-    [ "JustSummoned", "de/da1/a20810.html#af2d96586fd35513073e22ccd1dafc109", null ],
-    [ "KilledUnit", "de/da1/a20810.html#a4f4a9ae8f0513ace5965ec37ae7afe36", null ],
-    [ "MovementInform", "de/da1/a20810.html#aeeedd56277bd2b6a91fbdf29a4fc5016", null ],
-    [ "Reset", "de/da1/a20810.html#aa770123f55cbe8dd0fa6107fcc101a22", null ],
-    [ "UpdateAI", "de/da1/a20810.html#aa699ab825076fd56f54084708087d871", null ],
-    [ "_fedOnTears", "de/da1/a20810.html#a14aaf7e154db5ad43cee0524f3c2fbb0", null ],
-    [ "_fightWon", "de/da1/a20810.html#a15bd59c5e9be39fb57b4511f22c093f4", null ],
-    [ "_firstPull", "de/da1/a20810.html#a0123d20ad380467522167c1612ab34e6", null ],
-    [ "_heraldOfTheTitans", "de/da1/a20810.html#a9f81cbf1360db8c8e1a9646cf31cf4b6", null ],
-    [ "_phaseTwo", "de/da1/a20810.html#a2176501407dd0bf927806a87b22f87d2", null ],
-    [ "events", "de/da1/a20810.html#aa79c8c65f5ac56558d24416e00fdf003", null ],
-    [ "m_pInstance", "de/da1/a20810.html#a4901167c02871f8228de44cd92b5e7db", null ],
-    [ "summons", "de/da1/a20810.html#abe084c0ec13623e078e79a3fb9a1e080", null ]
+    [ "boss_yoggsaron_voiceAI", "dc/d30/a20814.html", "dc/d30/a20814" ],
+    [ "boss_yoggsaron_voice", "de/da1/a20810.html#ae5d10416bb83e57c0e9d3ef5d6f5adc6", null ],
+    [ "GetAI", "de/da1/a20810.html#a50abcde0313df06a114a2f5f44a1d481", null ]
 ];

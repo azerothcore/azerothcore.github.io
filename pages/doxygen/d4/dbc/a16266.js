@@ -1,6 +1,8 @@
 var a16266 =
 [
-    [ "HandleForceCast", "d4/dbc/a16266.html#a4c4c3a572e5ec8cc293d29ee308ad1e3", null ],
-    [ "PrepareSpellScript", "d4/dbc/a16266.html#a41fcab749d8739962c7d0cc7f237bcc1", null ],
-    [ "Register", "d4/dbc/a16266.html#a30975b5d8aa67d0ffaaf732ff495054d", null ]
+    [ "npc_toc_warlockAI", "d4/dbc/a16266.html#a4c4c2f502f00ca48bb7419434d88ea3a", null ],
+    [ "JustSummoned", "d4/dbc/a16266.html#a203ef748afaa400aa1f8365b5d7bf6b1", null ],
+    [ "myCanCast", "d4/dbc/a16266.html#a62b2df362bc07aa4a9c14cbc63a10e05", null ],
+    [ "UpdateAI", "d4/dbc/a16266.html#a554849d02d923439bd810b7d8c242afa", null ],
+    [ "events", "d4/dbc/a16266.html#a3b84c70d246bbf5b70ab4dec06c647b3", null ]
 ];

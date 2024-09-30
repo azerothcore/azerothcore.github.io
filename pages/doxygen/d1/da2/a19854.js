@@ -1,5 +1,5 @@
 var a19854 =
 [
-    [ "at_icc_spire_frostwyrm", "d1/da2/a19854.html#ac3da2c0bc3e8b1c31832fcbb4e8ceae8", null ],
-    [ "_OnTrigger", "d1/da2/a19854.html#a67e320fb8ada7cb2c87f5944395fa174", null ]
+    [ "go_ulduar_tower", "d1/da2/a19854.html#afc1add1a0543921f52afe1eb907f5de3", null ],
+    [ "OnDestroyed", "d1/da2/a19854.html#aa72ebefe52d49e5b07fb36232efd7e95", null ]
 ];

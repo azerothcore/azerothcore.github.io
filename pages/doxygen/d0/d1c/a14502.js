@@ -1,7 +1,8 @@
 var a14502 =
 [
-    [ "HandleOnHit", "d0/d1c/a14502.html#a9f1d78b4a98bc76877903b79923c1634", null ],
-    [ "PrepareSpellScript", "d0/d1c/a14502.html#afb0a8a16850da30b0fbdb3d10a935f21", null ],
-    [ "Register", "d0/d1c/a14502.html#ab923488eb891e1f9b1f5cb8ed61f3865", null ],
-    [ "Validate", "d0/d1c/a14502.html#a57d85b1702e5c89d72972505121180ed", null ]
+    [ "hyjalTyrandeAI", "d0/d1c/a14502.html#ac2f5449b60cd137dbc1f6ddc8afe5309", null ],
+    [ "JustDied", "d0/d1c/a14502.html#af5c7b843b8e1a7c0864b55853bc62097", null ],
+    [ "JustEngagedWith", "d0/d1c/a14502.html#a158589b567d22c8f6e0be462bad8299d", null ],
+    [ "Reset", "d0/d1c/a14502.html#a5ea52a1ee3730630d1efbdac4ad24c80", null ],
+    [ "UpdateAI", "d0/d1c/a14502.html#a9e825f9d87df6227b73eb965488eff8a", null ]
 ];

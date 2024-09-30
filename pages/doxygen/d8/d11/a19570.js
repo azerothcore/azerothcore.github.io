@@ -1,6 +1,6 @@
 var a19570 =
 [
-    [ "npc_captain_grondelAI", "d1/d5e/a19574.html", "d1/d5e/a19574" ],
-    [ "npc_captain_grondel", "d8/d11/a19570.html#a54a53f8e3cde87405219c815a56d523c", null ],
-    [ "GetAI", "d8/d11/a19570.html#a2a7725e81294e80701b7742d2605ec00", null ]
+    [ "boss_algalon_the_observerAI", "d1/d5e/a19574.html", "d1/d5e/a19574" ],
+    [ "boss_algalon_the_observer", "d8/d11/a19570.html#a0691b47a116401da58b246203ecba2cb", null ],
+    [ "GetAI", "d8/d11/a19570.html#a4c30c6ddf8dcbc7c478250846f27a261", null ]
 ];

@@ -1,7 +1,6 @@
 var a20522 =
 [
-    [ "HandleProc", "dc/dc5/a20522.html#adef038276dd50ef62a80a6d4cfa835ad", null ],
-    [ "PrepareAuraScript", "dc/dc5/a20522.html#ad9605fafcb47d904c4aa936099afd87e", null ],
-    [ "Register", "dc/dc5/a20522.html#ac0461c5117ebca14bae3e233154002aa", null ],
-    [ "Validate", "dc/dc5/a20522.html#a7010ec13423da28215b91ce1abbe73ea", null ]
+    [ "boss_thorim_sif_blizzardAI", "d2/d97/a20526.html", "d2/d97/a20526" ],
+    [ "boss_thorim_sif_blizzard", "dc/dc5/a20522.html#acc42b4c9434f9eece2d93c2e4f3697fc", null ],
+    [ "GetAI", "dc/dc5/a20522.html#afbff96363951c952a195f5c2a105e279", null ]
 ];

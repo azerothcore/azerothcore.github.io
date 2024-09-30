@@ -1,6 +1,10 @@
 var a16378 =
 [
-    [ "npc_living_infernoAI", "d6/d9f/a16378.html#ab33eeac6aab8e18778fc7d4ffe5038f1", null ],
-    [ "IsSummonedBy", "d6/d9f/a16378.html#a4b6986a392aee0741ba47651e809c76c", null ],
-    [ "JustDied", "d6/d9f/a16378.html#a60b2e31d24e182e97d604d91223e2dc8", null ]
+    [ "npc_mistress_of_painAI", "d6/d9f/a16378.html#ae5fd3c974a3f32540b2dee6b92cd4f7c", null ],
+    [ "EnterEvadeMode", "d6/d9f/a16378.html#a31ea8955ad44ea2db0a5a208fd2efc61", null ],
+    [ "JustDied", "d6/d9f/a16378.html#ae60f294f902a2f687446f7599d071e42", null ],
+    [ "Reset", "d6/d9f/a16378.html#ab3c1c19817576cc4348fd2020a6aad14", null ],
+    [ "SpellHit", "d6/d9f/a16378.html#a077843a7ead2034da695be816de42f9e", null ],
+    [ "UpdateAI", "d6/d9f/a16378.html#a1976a80f37a0935926508f9ad6cc7bbb", null ],
+    [ "events", "d6/d9f/a16378.html#a941ae1faab010551db6a8e6749993357", null ]
 ];

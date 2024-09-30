@@ -1,5 +1,5 @@
 var a10198 =
 [
-    [ "LFGLeave", "d9/dd0/a10198.html#aba31f53e0e13c13fd96f1b6ea1d42310", null ],
-    [ "Read", "d9/dd0/a10198.html#abae9c55efce73edf5edf1940cb8b61eb", null ]
+    [ "LogoutCancel", "d9/dd0/a10198.html#a179fccf74fa969e6a32492f35d6f28c8", null ],
+    [ "Read", "d9/dd0/a10198.html#a9ed27bc4472b7e4e225793b4f2e5a34d", null ]
 ];

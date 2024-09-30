@@ -1,8 +1,10 @@
 var a09418 =
 [
-    [ "Finalize", "de/d88/a09418.html#abf4c6547449605e703b424d8aa7f46b5", null ],
-    [ "GetMovementGeneratorType", "de/d88/a09418.html#aa1eb3228e14c5b145f7074e97ccdab5f", null ],
-    [ "Initialize", "de/d88/a09418.html#a68c249f25ef86f2e50d69698e190ed03", null ],
-    [ "Reset", "de/d88/a09418.html#a124e4f9506ef6f31e991e905ce38dc43", null ],
-    [ "Update", "de/d88/a09418.html#a4d96b744fa55fa11764873a2c4a891c5", null ]
+    [ "DoublePosition", "d6/d42/a09422.html", "d6/d42/a09422" ],
+    [ "~AreaBoundary", "de/d88/a09418.html#a6050e91b3d485e75186a2df9a56e8d38", null ],
+    [ "AreaBoundary", "de/d88/a09418.html#adf670910c492c08d3384c2dd1824e7ce", null ],
+    [ "IsWithinBoundary", "de/d88/a09418.html#aac0ce1e801f3de8f3bb83b98ecd6e5c1", null ],
+    [ "IsWithinBoundary", "de/d88/a09418.html#a1d407f77ce0388263fc0ee6224734213", null ],
+    [ "IsWithinBoundaryArea", "de/d88/a09418.html#ae5580b0044dba24d100831fe51ee1abc", null ],
+    [ "_isInvertedBoundary", "de/d88/a09418.html#ad416f29594688ce670549d6fdcce4314", null ]
 ];

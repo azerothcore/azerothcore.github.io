@@ -1,7 +1,13 @@
 var a03416 =
 [
-    [ "instance_the_underbog", "da/d37/a23384.html", "da/d37/a23384" ],
-    [ "instance_the_underbog::instance_the_underbog_InstanceMapScript", "dc/dc0/a23388.html", "dc/dc0/a23388" ],
-    [ "AddSC_instance_the_underbog", "df/df7/a03416.html#acc5edb97f1bda7cd30a38061e4676698", null ],
-    [ "creatureData", "df/df7/a03416.html#a412286b689bd324fedd65ddd8dde8afb", null ]
+    [ "npc_underbat", "d2/d7c/a23398.html", "d2/d7c/a23398" ],
+    [ "spell_fungal_decay", "d2/d4f/a23402.html", "d2/d4f/a23402" ],
+    [ "spell_allergies", "d1/d13/a23406.html", "d1/d13/a23406" ],
+    [ "AllergiesEnum", "df/df7/a03416.html#a597f861031d65ff9c7c3da68293f6847", [
+      [ "SPELL_SNEEZE", "df/df7/a03416.html#a597f861031d65ff9c7c3da68293f6847aca231923ca4e3560754e0ead3753c7e3", null ]
+    ] ],
+    [ "UnderbatSpells", "df/df7/a03416.html#aba9ed07daed7ae7df6becb96f5194f52", [
+      [ "SPELL_TENTACLE_LASH", "df/df7/a03416.html#aba9ed07daed7ae7df6becb96f5194f52a8fb7d802a437e3e383ba2095ae12b96a", null ]
+    ] ],
+    [ "AddSC_underbog", "df/df7/a03416.html#a8c9725cac978bfa0eb0405faa6588549", null ]
 ];

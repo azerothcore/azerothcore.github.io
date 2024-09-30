@@ -1,5 +1,6 @@
 var a21546 =
 [
-    [ "PrepareAuraScript", "d9/dae/a21546.html#a42d20c228c3082cf3a7b80dfebee232d", null ],
-    [ "Register", "d9/dae/a21546.html#a2eac056e9ccad15a9ba231dd635f41d3", null ]
+    [ "npc_hidden_cultistAI", "de/d03/a21550.html", "de/d03/a21550" ],
+    [ "npc_hidden_cultist", "d9/dae/a21546.html#ab455b35fea966360e01fb8975adad989", null ],
+    [ "GetAI", "d9/dae/a21546.html#a4897006d9416f1177b0bc0e41df60293", null ]
 ];

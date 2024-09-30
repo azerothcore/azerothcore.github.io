@@ -1,6 +1,13 @@
 var a08882 =
 [
-    [ "RandomCheck", "d1/d90/a08882.html#aca7a234c6eef8876abb02af723e9485d", null ],
-    [ "operator()", "d1/d90/a08882.html#a9886987fa2b675ab404102ebe828c9f3", null ],
-    [ "_chance", "d1/d90/a08882.html#aad026a0ad4539dd5336c3a6b820e351d", null ]
+    [ "WorldObjectWorker", "d1/d90/a08882.html#a15dd68579f1a92f015cfac8577db7422", null ],
+    [ "Visit", "d1/d90/a08882.html#ae264461e49602fd0b8a17e30ed554c64", null ],
+    [ "Visit", "d1/d90/a08882.html#a3021825347d132f1368a77d29a8318df", null ],
+    [ "Visit", "d1/d90/a08882.html#a7b7869c7d151e8abc924f517ecfdef82", null ],
+    [ "Visit", "d1/d90/a08882.html#a7de6ea339a8113d242dd099ca4d36927", null ],
+    [ "Visit", "d1/d90/a08882.html#a29196fa36ce32a0cec68d0d67372a400", null ],
+    [ "Visit", "d1/d90/a08882.html#a17097541c49264c15ebfe474f54aeca2", null ],
+    [ "i_do", "d1/d90/a08882.html#aa16ce8cce21d4590ef6612e14fb48919", null ],
+    [ "i_mapTypeMask", "d1/d90/a08882.html#a6f8e447b9693154f56ce010869acadb9", null ],
+    [ "i_phaseMask", "d1/d90/a08882.html#affa6245985c5d271900be12104ab6bb6", null ]
 ];

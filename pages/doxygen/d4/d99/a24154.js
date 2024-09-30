@@ -1,13 +1,8 @@
 var a24154 =
 [
-    [ "OutdoorPvPNA", "d4/d99/a24154.html#acbdae42245c71e4274296649d8d08e9e", null ],
-    [ "FillInitialWorldStates", "d4/d99/a24154.html#ac4eaab1f8d69ac45f168899267801198", null ],
-    [ "GetCapturePoint", "d4/d99/a24154.html#a7bab429e723c0ac1eb2f8cd3501f13be", null ],
-    [ "HandleKillImpl", "d4/d99/a24154.html#a2ede6e7dc54424d9729a094557b14792", null ],
-    [ "HandlePlayerEnterZone", "d4/d99/a24154.html#a312c5f2aaa35a9f83740c1bdd9772b9e", null ],
-    [ "HandlePlayerLeaveZone", "d4/d99/a24154.html#ae7dd540746946513cd7bf8e29296c068", null ],
-    [ "SendRemoveWorldStates", "d4/d99/a24154.html#ae9a93ddac1ca439f0f269d7ac7597593", null ],
-    [ "SetupOutdoorPvP", "d4/d99/a24154.html#a09369a62ec5584dd6ce5eddf7b2bb80f", null ],
-    [ "Update", "d4/d99/a24154.html#a4074a96974fe1b5e6d9149c8eee36e71", null ],
-    [ "m_obj", "d4/d99/a24154.html#a7538d64bb494644eae3cc7db03dd631f", null ]
+    [ "CreatureId", "d4/d99/a24154.html#a127341c70f8785ceb556b1c11b23f477", null ],
+    [ "SpawnCount", "d4/d99/a24154.html#ad51fb68e41e04490f658a4c4f62612bd", null ],
+    [ "SpawnTimer", "d4/d99/a24154.html#aa57ff686c5fde12269e231333d8a8bef", null ],
+    [ "UsedSpawnPoint", "d4/d99/a24154.html#a2d5f42a6b1a309c8db74febcedf457eb", null ],
+    [ "YellTimer", "d4/d99/a24154.html#a6346259269af7f2936f959f87288dd69", null ]
 ];

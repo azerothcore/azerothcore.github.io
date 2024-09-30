@@ -1,6 +1,8 @@
 var a25902 =
 [
-    [ "npc_deaths_fel_cannonAI", "dc/deb/a25902.html#a29d298bd85c78e2fbf0a4019aa7fbce7", null ],
-    [ "Reset", "dc/deb/a25902.html#a4096d75a98dc8a1c95920710fb48d6ff", null ],
-    [ "UpdateAI", "dc/deb/a25902.html#a942a8b1153b4ae6fde3b474cc909daad", null ]
+    [ "CheckProc", "dc/deb/a25902.html#a4f8e030154606e0781ebb89294019e0e", null ],
+    [ "HandleProc", "dc/deb/a25902.html#a3d3db432fb051785f51ece4052ec8907", null ],
+    [ "PrepareAuraScript", "dc/deb/a25902.html#aed40577ca9a1de3efc501606bcc9a8dd", null ],
+    [ "Register", "dc/deb/a25902.html#a8cfdc8d98946fca603971ad91035e21c", null ],
+    [ "Validate", "dc/deb/a25902.html#abfd3c0ad08ad287b38e8da437c18376c", null ]
 ];

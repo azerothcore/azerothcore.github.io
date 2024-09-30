@@ -1,7 +1,6 @@
 var a16698 =
 [
-    [ "npc_toc_dkAI", "db/dcc/a16698.html#aa01bf528b10ed7bbdfe9b03694e51845", null ],
-    [ "myCanCast", "db/dcc/a16698.html#a54dee5d9b0f17bad21e8c1e275f0b222", null ],
-    [ "UpdateAI", "db/dcc/a16698.html#ab4f4b11e2b250fb24de6c069c5e38208", null ],
-    [ "events", "db/dcc/a16698.html#a293d5fca2940432c4eea57c5de5a1fdc", null ]
+    [ "boss_marwynAI", "d5/dc6/a16702.html", "d5/dc6/a16702" ],
+    [ "boss_marwyn", "db/dcc/a16698.html#a4be337e1a6b4ab6d48aa1380f3956ad4", null ],
+    [ "GetAI", "db/dcc/a16698.html#af1c83878d2121163994bc327ae8e04f7", null ]
 ];

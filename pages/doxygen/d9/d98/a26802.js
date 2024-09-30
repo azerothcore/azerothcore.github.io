@@ -1,8 +1,7 @@
 var a26802 =
 [
-    [ "HandleSchoolDMG", "d9/d98/a26802.html#ab273304fdbeea8768622c3e6b222aaf2", null ],
-    [ "HandleScriptEffect", "d9/d98/a26802.html#a06f9cf29387b49f3e5950661173c77eb", null ],
-    [ "PrepareSpellScript", "d9/d98/a26802.html#ac1a2b89eda37ed4e6c5946a93e7a58a2", null ],
-    [ "Register", "d9/d98/a26802.html#a9bdbf7578509976d482a26869e9068aa", null ],
-    [ "Validate", "d9/d98/a26802.html#a20a7b3a25711a90ab5f0e14991112ea0", null ]
+    [ "HandleApply", "d9/d98/a26802.html#aa35fa107aee605a8583150901a75ad72", null ],
+    [ "HandleRemove", "d9/d98/a26802.html#a60b6e438ff67d9db41d160020b54da40", null ],
+    [ "PrepareAuraScript", "d9/d98/a26802.html#a1da44046f2cb9fb68b18f712111c38ea", null ],
+    [ "Register", "d9/d98/a26802.html#ac7c9e15a796e91e0ac68791d24e3d4bf", null ]
 ];

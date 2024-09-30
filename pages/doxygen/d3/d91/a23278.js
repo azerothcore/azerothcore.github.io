@@ -1,7 +1,7 @@
 var a23278 =
 [
-    [ "CheckRequirement", "d3/d91/a23278.html#a41beb2c890137328734d6adb14e08302", null ],
-    [ "PrepareSpellScript", "d3/d91/a23278.html#aa0b9873dbd8c75a14fa88094d91eeeaa", null ],
-    [ "Register", "d3/d91/a23278.html#aa0fad5e5a68131ebab5717ad0ce69669", null ],
-    [ "SetDest", "d3/d91/a23278.html#a431a556ab73f91ed63f5983e537834a5", null ]
+    [ "HandleProc", "d3/d91/a23278.html#a03b2be5894d489a6021aff2744aee0e0", null ],
+    [ "PrepareAuraScript", "d3/d91/a23278.html#a0ff401cd6d8e32ff458b7383b76a92a1", null ],
+    [ "Register", "d3/d91/a23278.html#a804e1bc3d570d28cb2e06155054f3169", null ],
+    [ "Validate", "d3/d91/a23278.html#a8d18e9ed9fa851f1c4d36c1f0bed8fcb", null ]
 ];

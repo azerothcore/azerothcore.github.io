@@ -1,6 +1,7 @@
 var a17258 =
 [
-    [ "npc_hor_lich_kingAI", "d7/dfc/a17262.html", "d7/dfc/a17262" ],
-    [ "npc_hor_lich_king", "d0/d37/a17258.html#aab2562a7a204699735a89e7a15b3b472", null ],
-    [ "GetAI", "d0/d37/a17258.html#ad670ae69daa742c19c06267399445a11", null ]
+    [ "OnProc", "d0/d37/a17258.html#a5b6e96abb900da33657cdbbd137138e3", null ],
+    [ "PrepareAuraScript", "d0/d37/a17258.html#a5502476536a923e77af67c4bbcf005e3", null ],
+    [ "Register", "d0/d37/a17258.html#aca08edf219504156d6157c95702bb815", null ],
+    [ "Validate", "d0/d37/a17258.html#a52b1231f37e8b3d810614365659a98b6", null ]
 ];

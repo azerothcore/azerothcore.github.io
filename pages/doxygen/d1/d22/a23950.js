@@ -1,6 +1,6 @@
 var a23950 =
 [
-    [ "go_wg_vehicle_teleporterAI", "d7/d64/a23954.html", "d7/d64/a23954" ],
-    [ "go_wg_vehicle_teleporter", "d1/d22/a23950.html#a074ead770a3da6e9ffa4180a3525f4c8", null ],
-    [ "GetAI", "d1/d22/a23950.html#a113aaf42c095000c1a016bfe60df11e7", null ]
+    [ "go_apexis_relic", "d1/d22/a23950.html#a91ff5a986ee62b628456e9f5c75f6bc9", null ],
+    [ "OnGossipHello", "d1/d22/a23950.html#ae8f7167ba5b973881e32d604691dc15a", null ],
+    [ "OnGossipSelect", "d1/d22/a23950.html#a025cc7cc9c69f0eb461445170972ab52", null ]
 ];

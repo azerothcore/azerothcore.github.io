@@ -1,16 +1,8 @@
 var a09086 =
 [
-    [ "StoredLootItem", "d7/d5c/a09086.html#a32da4030f3e58b7fae5001511c6caa40", null ],
-    [ "conditionLootId", "d7/d5c/a09086.html#a9be27c3407923df6b15bef993dd58830", null ],
-    [ "count", "d7/d5c/a09086.html#a25c63cc5a94ecc3bf803e83be5aabc39", null ],
-    [ "follow_loot_rules", "d7/d5c/a09086.html#ac945688a64f92c40ada1abd5847d9b0d", null ],
-    [ "freeforall", "d7/d5c/a09086.html#a41a3c4caf90fc8c42d2e0e5192201d19", null ],
-    [ "is_blocked", "d7/d5c/a09086.html#a895cc61dd542959c3726dbc54abf7434", null ],
-    [ "is_counted", "d7/d5c/a09086.html#a801a125a5035167f3f511560a29808c4", null ],
-    [ "is_underthreshold", "d7/d5c/a09086.html#ae11badaeeccbb3af7f150d4ca55347a3", null ],
-    [ "itemid", "d7/d5c/a09086.html#afac1addff36f4cd08626ac7ae1ce0cff", null ],
-    [ "itemIndex", "d7/d5c/a09086.html#a076564a43a586c6b6d17cd64fca8e9fb", null ],
-    [ "needs_quest", "d7/d5c/a09086.html#ae7530d417ac10c5766fc25664b427d50", null ],
-    [ "randomPropertyId", "d7/d5c/a09086.html#a12e1cb9403cc4f6ceb770c8cf50a1d17", null ],
-    [ "randomSuffix", "d7/d5c/a09086.html#a2588c810dcd51a5c0c6558b99493602b", null ]
+    [ "NearestPlayerInObjectRangeCheck", "d7/d5c/a09086.html#ae8e57c69baf8bdaf0448864d4afbb1a4", null ],
+    [ "NearestPlayerInObjectRangeCheck", "d7/d5c/a09086.html#aac3d406d10a036b92a55bcd955411165", null ],
+    [ "operator()", "d7/d5c/a09086.html#a5d7ed3141c03d2209d5a3b1a689d1668", null ],
+    [ "i_obj", "d7/d5c/a09086.html#a9cd17091269bcfc2b48fefc12ac9b127", null ],
+    [ "i_range", "d7/d5c/a09086.html#ab55f93d7c5d6ca3461bcbe49010fcb83", null ]
 ];

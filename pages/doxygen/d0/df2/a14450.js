@@ -1,6 +1,7 @@
 var a14450 =
 [
-    [ "HandleScriptEffect", "d0/df2/a14450.html#a07ac70b6e91c61dcb59c368381a877dd", null ],
-    [ "PrepareSpellScript", "d0/df2/a14450.html#a55115ca986d5226588d168ced7ab1f55", null ],
-    [ "Register", "d0/df2/a14450.html#ad8811bf48dfb564afcd82cf51b860255", null ]
+    [ "PeriodicTick", "d0/df2/a14450.html#aa94e4d6a31a08959a5287b863737c2e2", null ],
+    [ "PrepareAuraScript", "d0/df2/a14450.html#a59a9c4dfe06859daac5bb69fa5d20e95", null ],
+    [ "Register", "d0/df2/a14450.html#a24058b120f4fa06b89f6d582c53a365a", null ],
+    [ "Validate", "d0/df2/a14450.html#a093b09be5abde91a1487d67a7a554d30", null ]
 ];

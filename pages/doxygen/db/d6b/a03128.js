@@ -1,5 +1,5 @@
 var a03128 =
 [
-    [ "achievement_commandscript", "d1/dff/a11252.html", "d1/dff/a11252" ],
-    [ "AddSC_achievement_commandscript", "db/d6b/a03128.html#afeb482a8cffe8416071764bc4e78bff2", null ]
+    [ "wp_commandscript", "d2/d16/a11454.html", "d2/d16/a11454" ],
+    [ "AddSC_wp_commandscript", "db/d6b/a03128.html#afc6bb2ca7e993730a57350142f7e6fd5", null ]
 ];

@@ -1,8 +1,10 @@
 var a28246 =
 [
-    [ "HandleDummy", "dc/d64/a28246.html#a923fa966dc7109f7cb02c25bbd23b0ff", null ],
-    [ "Load", "dc/d64/a28246.html#a5b336f402a256c80d8d3f8c5b1cbda2f", null ],
-    [ "PrepareSpellScript", "dc/d64/a28246.html#a79dc24ba1f2f059d77a06b457a78fcf1", null ],
-    [ "Register", "dc/d64/a28246.html#afb1c744f263b21c30a5dfd3675acb364", null ],
-    [ "Validate", "dc/d64/a28246.html#acaaeacf371538cafbbb4cc7cc036280e", null ]
+    [ "attackSpeed", "dc/d64/a28246.html#ab5242f7367e8799a556176178c72fc88", null ],
+    [ "creatureType", "dc/d64/a28246.html#a3dff9074b85261932ed8a8a550c5395b", null ],
+    [ "flags1", "dc/d64/a28246.html#a026745f2ce754d754858d69ee219b518", null ],
+    [ "ID", "dc/d64/a28246.html#a72853ed36016e05e4cd14a9d89e9d6a8", null ],
+    [ "modelID_A", "dc/d64/a28246.html#a86dfa61342583d920b7d8496bce4b49d", null ],
+    [ "modelID_H", "dc/d64/a28246.html#a1ee597d6fd02507b682874929645e01d", null ],
+    [ "stanceSpell", "dc/d64/a28246.html#a08f54b905e905fb5a59e449f8c613c08", null ]
 ];

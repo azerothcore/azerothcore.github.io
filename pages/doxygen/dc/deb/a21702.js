@@ -1,5 +1,6 @@
 var a21702 =
 [
-    [ "achievement_kologarn_rubble_and_roll", "dc/deb/a21702.html#ae36bbab8d82f10ad120a1e7564a13961", null ],
-    [ "OnCheck", "dc/deb/a21702.html#acb0f72ebdf1917a3331b3fc0f9aa4300", null ]
+    [ "npc_mindless_ghoulAI", "dc/deb/a21702.html#a4cc0dbd4aa2366115348bc1db273a5e2", null ],
+    [ "CanAIAttack", "dc/deb/a21702.html#a18fbc44ad760a69d952d003622ec75b2", null ],
+    [ "JustDied", "dc/deb/a21702.html#a272067bef6dbab24024f7de990c10b64", null ]
 ];

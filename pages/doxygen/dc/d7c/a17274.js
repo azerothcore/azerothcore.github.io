@@ -1,6 +1,7 @@
 var a17274 =
 [
-    [ "npc_hor_raging_ghoulAI", "dc/d73/a17278.html", "dc/d73/a17278" ],
-    [ "npc_hor_raging_ghoul", "dc/d7c/a17274.html#ad2130edf27295719c46dde14deefe5a4", null ],
-    [ "GetAI", "dc/d7c/a17274.html#ab29cebad1d54d14ecf21bbd215dc2f2d", null ]
+    [ "achievement_once_bitten_twice_shy", "dc/d7c/a17274.html#ac5799e847f8ee1e2b562e4a58a00df16", null ],
+    [ "OnCheck", "dc/d7c/a17274.html#aa2e3ac3e8a14b06446174e475ac18af3", null ],
+    [ "_spawnMode", "dc/d7c/a17274.html#a6f02f5ab07143ddff553279049714902", null ],
+    [ "_wasVampire", "dc/d7c/a17274.html#a297cf6da45b0cddb4dc9fc888919bdda", null ]
 ];

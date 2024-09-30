@@ -1,5 +1,6 @@
 var a16962 =
 [
-    [ "achievement_oh_novos", "d3/d7a/a16962.html#a31ca1f458c384401af107cb8f709ef61", null ],
-    [ "OnCheck", "d3/d7a/a16962.html#a3b922d9ed709ed46edca794f5ccf858f", null ]
+    [ "npc_pos_freed_slaveAI", "d3/d7a/a16962.html#ad5728e427f9f4a65cea13ec2c5a01453", null ],
+    [ "CanAIAttack", "d3/d7a/a16962.html#a76818ee5fcfcc5678fa9d0957a424d9b", null ],
+    [ "EnterEvadeMode", "d3/d7a/a16962.html#a234135e6bea0d91611fbdbae4dec2ea1", null ]
 ];

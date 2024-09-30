@@ -1,7 +1,9 @@
 var a26030 =
 [
-    [ "npc_kurenai_captiveAI", "da/df6/a26034.html", "da/df6/a26034" ],
-    [ "npc_kurenai_captive", "d5/dc0/a26030.html#ae0e283bfc476f2d9e602158fa8720cdc", null ],
-    [ "GetAI", "d5/dc0/a26030.html#ad6f9abf280ca7c3a1b16f7e4815fb979", null ],
-    [ "OnQuestAccept", "d5/dc0/a26030.html#a7ecdb782bf084f3fd0f9dc3e2e10bf4a", null ]
+    [ "CountTargets", "d5/dc0/a26030.html#a85a60a3ada7ea2b8c995bc156be36fe2", null ],
+    [ "HandleDummy", "d5/dc0/a26030.html#af51f59f6cb8e2a6d99b3c05cebfcfa89", null ],
+    [ "PrepareSpellScript", "d5/dc0/a26030.html#adfb7e3fbb52aa349573b95c457823900", null ],
+    [ "Register", "d5/dc0/a26030.html#a9180a01674a1f56c287d40bfbdf6d841", null ],
+    [ "Validate", "d5/dc0/a26030.html#a5dd09977efde2d3433aff4d35687d5e8", null ],
+    [ "_targetCount", "d5/dc0/a26030.html#aa9a0fb36eafd8535fcd2bddda56d7107", null ]
 ];

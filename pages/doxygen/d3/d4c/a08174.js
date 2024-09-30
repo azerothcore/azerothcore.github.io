@@ -1,9 +1,11 @@
 var a08174 =
 [
-    [ "AuraMunchingQueue", "d3/d4c/a08174.html#a87178d02796b02360137f1f1ca3ce867", null ],
-    [ "Execute", "d3/d4c/a08174.html#a8f025a0ea1db81fb283db563402d1c40", null ],
-    [ "_basePoints", "d3/d4c/a08174.html#a9cf03046c9595e81bf119b7aacb1a81a", null ],
-    [ "_owner", "d3/d4c/a08174.html#a472aaf46c2f167a10ce38267ace0b8bb", null ],
-    [ "_spellId", "d3/d4c/a08174.html#a6674c43b906e45e2ad29100a7ff06f44", null ],
-    [ "_targetGUID", "d3/d4c/a08174.html#a441b328296f0b7a75bdaee06d2cb94f1", null ]
+    [ "PackedGuid", "d3/d4c/a08174.html#a9268f8d34f24ef52369d605f94986a8d", null ],
+    [ "PackedGuid", "d3/d4c/a08174.html#a6d4559bc2a1d8c27247329c95c2b6156", null ],
+    [ "PackedGuid", "d3/d4c/a08174.html#adf388e273472f2699348c7a4361ebac4", null ],
+    [ "Set", "d3/d4c/a08174.html#ab1e59343017fa54374f4fb72ff7cccbf", null ],
+    [ "Set", "d3/d4c/a08174.html#ae5d174d63a0b9d33b919f05760290bea", null ],
+    [ "size", "d3/d4c/a08174.html#a22ac06b7072951e84bbf69abcd7d58f6", null ],
+    [ "operator<<", "d3/d4c/a08174.html#a94ab551ce00fd82dea1532d47ad908bc", null ],
+    [ "_packedGuid", "d3/d4c/a08174.html#aeb0e51f1667a2627aabffd6d7cb1779c", null ]
 ];

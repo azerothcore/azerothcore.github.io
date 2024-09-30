@@ -1,9 +1,6 @@
 var a23042 =
 [
-    [ "npc_captured_beryl_sorcererAI", "d1/de6/a23042.html#a3c3f47022aee418f228803a2504470a3", null ],
-    [ "Initialize", "d1/de6/a23042.html#a98b2ff2f0e152a41106eaace5273aa69", null ],
-    [ "MoveInLineOfSight", "d1/de6/a23042.html#a4f7edf7bc7480bf0c9f6aec113b2e058", null ],
-    [ "Reset", "d1/de6/a23042.html#ac96af1fd018e88950d1c58562dffdb83", null ],
-    [ "UpdateAI", "d1/de6/a23042.html#a1bbefa59abce0c7b3d7b343ddc467c98", null ],
-    [ "_events", "d1/de6/a23042.html#a0ba1f7ffa792c93ccd4df8ec2c80fb42", null ]
+    [ "boss_doomlordkazzakAI", "de/dd6/a23046.html", "de/dd6/a23046" ],
+    [ "boss_doomlord_kazzak", "d1/de6/a23042.html#ae4e4844d584ba71ebd3d8a341ba91462", null ],
+    [ "GetAI", "d1/de6/a23042.html#a460a32ce37aae852b48f1990406da9a4", null ]
 ];

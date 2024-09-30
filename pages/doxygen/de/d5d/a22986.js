@@ -1,6 +1,9 @@
 var a22986 =
 [
-    [ "spell_q11919_q11940_drake_hunt_AuraScript", "dc/d0a/a22990.html", "dc/d0a/a22990" ],
-    [ "spell_q11919_q11940_drake_hunt", "de/d5d/a22986.html#a48220c2e7f6b30932c09dafd67225529", null ],
-    [ "GetAuraScript", "de/d5d/a22986.html#a939d86a53ff2a8d7e7bf841f35f84e17", null ]
+    [ "HandleEffectApply", "de/d5d/a22986.html#aca8ff864832d30e45bccfca12256560a", null ],
+    [ "HandleEffectRemove", "de/d5d/a22986.html#a2e16e86ce6e3231cf3fabc1d5bb1a6e7", null ],
+    [ "Load", "de/d5d/a22986.html#a3b9838f26673ce344ca40f9f487ef878", null ],
+    [ "PrepareAuraScript", "de/d5d/a22986.html#a79b93c86a01d31d08cba15436856b794", null ],
+    [ "Register", "de/d5d/a22986.html#aa6c04279944abd31c42bb5dc4319aaf2", null ],
+    [ "_turtleSet", "de/d5d/a22986.html#a308b9e032576ae058e9f2469dcc8ff23", null ]
 ];

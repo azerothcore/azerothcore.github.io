@@ -1,12 +1,12 @@
 var a07866 =
 [
-    [ "WorldObjectChangeAccumulator", "d0/db7/a07866.html#a853a5c84dec75f115eddd3e1b7ff0b78", null ],
-    [ "BuildPacket", "d0/db7/a07866.html#ab4b9da3effe2a4f6e2cb6ecf268f429c", null ],
-    [ "Visit", "d0/db7/a07866.html#ae18ca5886c95a6c4c00bdbc1920a5655", null ],
-    [ "Visit", "d0/db7/a07866.html#a9afa50ac9e36cd357706e8e838df56a0", null ],
-    [ "Visit", "d0/db7/a07866.html#aec62fc91f4b364e72a3d5afd5a1a7276", null ],
-    [ "Visit", "d0/db7/a07866.html#a9815c06dbd29710cac2c99301c17b01c", null ],
-    [ "i_object", "d0/db7/a07866.html#ab94d7f943107060caf742f9b6cca92e4", null ],
-    [ "i_playerSet", "d0/db7/a07866.html#a0e17c2bf7a78cf5ef68e6fc7b29f0262", null ],
-    [ "i_updateDatas", "d0/db7/a07866.html#a1446b9dae0dfc0325228870c815da23a", null ]
+    [ "QuestMenu", "d0/db7/a07866.html#a60ba5b35499c6a9ed510300d3300421e", null ],
+    [ "~QuestMenu", "d0/db7/a07866.html#a14df9b6699c327853121ae032704db8d", null ],
+    [ "AddMenuItem", "d0/db7/a07866.html#ac8735756bbf9f2fa799c505bd740e070", null ],
+    [ "ClearMenu", "d0/db7/a07866.html#ab3d3881aabe000694acab37a3774507e", null ],
+    [ "Empty", "d0/db7/a07866.html#a1a850cb70956f299ea91cb0d732ad202", null ],
+    [ "GetItem", "d0/db7/a07866.html#a08240a8d18dce0cb96db19f54c67dd2c", null ],
+    [ "GetMenuItemCount", "d0/db7/a07866.html#a2338a6fb88c32bfb66fe524a8ffaa0d7", null ],
+    [ "HasItem", "d0/db7/a07866.html#a7fe36e4a4acfc66a00f08034c470b5e3", null ],
+    [ "_questMenuItems", "d0/db7/a07866.html#a49279a3943009f2d1475d792c2c3d21a", null ]
 ];

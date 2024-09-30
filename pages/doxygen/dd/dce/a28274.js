@@ -1,6 +1,11 @@
 var a28274 =
 [
-    [ "HandleDummy", "dd/dce/a28274.html#afb85971597df327fa44271ee0c4b3d04", null ],
-    [ "PrepareSpellScript", "dd/dce/a28274.html#a43052fedbec62cfbdbbf24fbfcbca047", null ],
-    [ "Register", "dd/dce/a28274.html#a7a249dd2bcdccf1a19d151d041a25215", null ]
+    [ "addToSpellBook", "dd/dce/a28274.html#ad312934d24abcc78c02d50cc5cb5403f", null ],
+    [ "Col", "dd/dce/a28274.html#a0bc589c5b1425d5e889cd290b805169e", null ],
+    [ "DependsOn", "dd/dce/a28274.html#a7b1aa1384777b8d94dceed3c387bb628", null ],
+    [ "DependsOnRank", "dd/dce/a28274.html#a608f232669981da3423b959479ca8683", null ],
+    [ "RankID", "dd/dce/a28274.html#a96d0fd120ed3aa7fbd287d104fd87c26", null ],
+    [ "Row", "dd/dce/a28274.html#a136b889d2e8875b01fc7aa2be06847ac", null ],
+    [ "TalentID", "dd/dce/a28274.html#aa769574106b0e5afdbc7c71c51c3b9a2", null ],
+    [ "TalentTab", "dd/dce/a28274.html#acefe6f8c0a5b3893e2a9f828d500df68", null ]
 ];

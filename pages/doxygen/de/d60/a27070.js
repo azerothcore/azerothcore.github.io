@@ -1,6 +1,6 @@
 var a27070 =
 [
-    [ "CheckRequirement", "de/d60/a27070.html#a8a1367ad6c51a74e7cefbc2440eab697", null ],
-    [ "PrepareSpellScript", "de/d60/a27070.html#a859ac50e6774471c232113e5c007f602", null ],
-    [ "Register", "de/d60/a27070.html#aceafb7d6cfa300011935026f4d7ac491", null ]
+    [ "boss_taerarAI", "df/def/a27074.html", "df/def/a27074" ],
+    [ "boss_taerar", "de/d60/a27070.html#a100c1b80a50faf93088db870faa21b58", null ],
+    [ "GetAI", "de/d60/a27070.html#ae6615da6ee14c4f7cb3087b4ee5d6246", null ]
 ];

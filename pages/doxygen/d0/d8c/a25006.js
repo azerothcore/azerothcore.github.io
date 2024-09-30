@@ -1,6 +1,7 @@
 var a25006 =
 [
-    [ "boss_lady_vashjAI", "d2/df7/a25010.html", "d2/df7/a25010" ],
-    [ "boss_lady_vashj", "d0/d8c/a25006.html#a04f576e7ebcc6f1621c91f16cb475ae9", null ],
-    [ "GetAI", "d0/d8c/a25006.html#a05df825681a61424d2fce7191614b5e0", null ]
+    [ "HandleScript", "d0/d8c/a25006.html#a8ec57aed0788f58e2c50fc08793a5749", null ],
+    [ "PrepareSpellScript", "d0/d8c/a25006.html#a56c9ab120239252982cab8b96ac8c5fe", null ],
+    [ "Register", "d0/d8c/a25006.html#a8c727b2b00858abcce058b16d66ca62a", null ],
+    [ "Validate", "d0/d8c/a25006.html#af3ffb9930eaba8703065719bbcf02f56", null ]
 ];

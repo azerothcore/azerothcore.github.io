@@ -1,6 +1,5 @@
 var a20150 =
 [
-    [ "boss_patchwerkAI", "da/df5/a20154.html", "da/df5/a20154" ],
-    [ "boss_patchwerk", "d4/dfb/a20150.html#a526983c4f5191a839ba4a017ac2d14e4", null ],
-    [ "GetAI", "d4/dfb/a20150.html#a03f2dec61192405760958e26d998d67e", null ]
+    [ "FlashFreezeCheck", "d4/dfb/a20150.html#a47d07a686a7c74dc8914a98762b16fe3", null ],
+    [ "operator()", "d4/dfb/a20150.html#a87475dc9e2f1b0eb508e9f56aa5c1e2f", null ]
 ];

@@ -1,7 +1,6 @@
 var a19498 =
 [
-    [ "FrostwingVrykulSearcher", "d3/de9/a19498.html#a10aa54184b42a0538dc4f325204399e9", null ],
-    [ "operator()", "d3/de9/a19498.html#afbf32ce600cee12930fefcf9b5e87f16", null ],
-    [ "_range", "d3/de9/a19498.html#a04b2913aae7fbf6547a960d0876d4d02", null ],
-    [ "_source", "d3/de9/a19498.html#af5d3c93f41698e71c867336d0453d40a", null ]
+    [ "boss_sjonnir_iron_sludgeAI", "d4/df9/a19502.html", "d4/df9/a19502" ],
+    [ "boss_sjonnir_iron_sludge", "d3/de9/a19498.html#ae1c523266aab3e8e2c337dede7390c7b", null ],
+    [ "GetAI", "d3/de9/a19498.html#a2d077bfeac6479d83240ee00ca5aa0e0", null ]
 ];

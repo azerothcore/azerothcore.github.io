@@ -1,6 +1,5 @@
 var a22514 =
 [
-    [ "HandleEffectPeriodic", "d1/dcb/a22514.html#ace8efdaf9141289d125d64f58bf46383", null ],
-    [ "PrepareAuraScript", "d1/dcb/a22514.html#a7ab09ed7a05f2fb2679ab1ebf0d91fbd", null ],
-    [ "Register", "d1/dcb/a22514.html#aca0e6fd5d058beb38c627c8afaabd096", null ]
+    [ "OutdoorPvP_terokkar_forest", "d1/dcb/a22514.html#ac98a2b4c1dae9a8b75249eedeb7d8cb8", null ],
+    [ "GetOutdoorPvP", "d1/dcb/a22514.html#acf268293812d7a1a233e7f1fcba1e733", null ]
 ];

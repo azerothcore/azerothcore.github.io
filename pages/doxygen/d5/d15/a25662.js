@@ -1,6 +1,8 @@
 var a25662 =
 [
-    [ "boss_alarAI", "dc/d69/a25666.html", "dc/d69/a25666" ],
-    [ "boss_alar", "d5/d15/a25662.html#a40f87caa1ededad8e340a38bbdf5fbdb", null ],
-    [ "GetAI", "d5/d15/a25662.html#a44875e91be20762422c8998b8930b82c", null ]
+    [ "HandleDummy", "d5/d15/a25662.html#ac6db67f521a8fd1e8de4cd22220b45fe", null ],
+    [ "Load", "d5/d15/a25662.html#af767de9953372e5e56509a0be9e90958", null ],
+    [ "PrepareSpellScript", "d5/d15/a25662.html#a0385a22f908ac62ab987fe9f84cad330", null ],
+    [ "Register", "d5/d15/a25662.html#a1212726a4fcbac06b527648dff58c546", null ],
+    [ "Validate", "d5/d15/a25662.html#ab014db76cf4656e10665f12fb18c5997", null ]
 ];

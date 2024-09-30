@@ -1,10 +1,12 @@
 var a13766 =
 [
-    [ "npc_janalai_firebombAI", "d4/d5b/a13766.html#a82d0bb69a9e2b0dca40fd2a586bfb44b", null ],
-    [ "AttackStart", "d4/d5b/a13766.html#a3109ec5b72bf481f4b4cee8aabc9e877", null ],
-    [ "JustEngagedWith", "d4/d5b/a13766.html#ab82415e3306fe41922566ded0a33a678", null ],
-    [ "MoveInLineOfSight", "d4/d5b/a13766.html#a53d1063c3c321a09c174f4c456380096", null ],
-    [ "Reset", "d4/d5b/a13766.html#af13197a0cdb42b5c0feb15a425dde547", null ],
-    [ "SpellHit", "d4/d5b/a13766.html#ad5a722460b77700bb567201962c4959f", null ],
-    [ "UpdateAI", "d4/d5b/a13766.html#adf9c1a779979c439c26afe7872259c9b", null ]
+    [ "npc_zulian_prowlerAI", "d4/d5b/a13766.html#a367613efead335b060173011267ddcff", null ],
+    [ "JustDied", "d4/d5b/a13766.html#a31258aadddfbf6c6e9e1d729452dd8b2", null ],
+    [ "JustEngagedWith", "d4/d5b/a13766.html#a207504b15ecd22b78088593b80433581", null ],
+    [ "Reset", "d4/d5b/a13766.html#a62d14bae970d8a70a997c683e0e94259", null ],
+    [ "SpellHit", "d4/d5b/a13766.html#a4051cd786d8c1974cf80c28f907cc02a", null ],
+    [ "UpdateAI", "d4/d5b/a13766.html#a708df3a95395f99f6ba3eebcc90a22ab", null ],
+    [ "_events", "d4/d5b/a13766.html#a994ae5b4e72429141155d1342830e5ad", null ],
+    [ "_instance", "d4/d5b/a13766.html#ad37ba6b6ff7f52a88d2a96dc4ea00c34", null ],
+    [ "_sideData", "d4/d5b/a13766.html#afa44e09c5677c2fc567be6a67b766bde", null ]
 ];

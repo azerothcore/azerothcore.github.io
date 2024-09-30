@@ -1,6 +1,6 @@
 var a21238 =
 [
-    [ "spell_demolisher_ride_vehicle_SpellScript", "d7/dbb/a21242.html", "d7/dbb/a21242" ],
-    [ "spell_demolisher_ride_vehicle", "dd/d92/a21238.html#abfee786f470bad3c0bdc141e57d7ac69", null ],
-    [ "GetSpellScript", "dd/d92/a21238.html#a52f5b57f7a32139e4e3525dcf723d22e", null ]
+    [ "npc_frozen_orb_stalkerAI", "d7/dbb/a21242.html", "d7/dbb/a21242" ],
+    [ "npc_frozen_orb_stalker", "dd/d92/a21238.html#a7f025c829106aa6668427f913d07a722", null ],
+    [ "GetAI", "dd/d92/a21238.html#af33e27138a70286bac561113ed09f350", null ]
 ];

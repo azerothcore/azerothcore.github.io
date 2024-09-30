@@ -1,12 +1,7 @@
 var a26302 =
 [
-    [ "npc_unkor_the_ruthlessAI", "de/d1c/a26302.html#a965b0f182570a54ee4c0a6a54ba8fafb", null ],
-    [ "DamageTaken", "de/d1c/a26302.html#a88b5e4b43171be8cc62d2a10f188e363", null ],
-    [ "DoNice", "de/d1c/a26302.html#aa673fc892b9c0d59b2789271140e6054", null ],
-    [ "JustEngagedWith", "de/d1c/a26302.html#a537225016bfeba51b607d250c0a09be5", null ],
-    [ "Reset", "de/d1c/a26302.html#a14ca75417c623d6d6e5fce50521963da", null ],
-    [ "UpdateAI", "de/d1c/a26302.html#a744ea41d7f9450965419085a296c8df2", null ],
-    [ "CanDoQuest", "de/d1c/a26302.html#a98d7d45b450f3464291ecbc05ab31f21", null ],
-    [ "Pulverize_Timer", "de/d1c/a26302.html#a2ddc09c9241bbf95cddb6c1c4ddfc6bd", null ],
-    [ "UnkorUnfriendly_Timer", "de/d1c/a26302.html#ae6eeb6177d655f5a0bede45183758f1f", null ]
+    [ "HandleDummy", "de/d1c/a26302.html#a367bd26543382ad71668fbe4f524d823", null ],
+    [ "PrepareSpellScript", "de/d1c/a26302.html#a71cde3f81fdb253d8e93a19be104e9db", null ],
+    [ "Register", "de/d1c/a26302.html#a7c73e3381592bef44d2265aff296b301", null ],
+    [ "Validate", "de/d1c/a26302.html#a03d59b6859286dbe460b348df6de63d7", null ]
 ];

@@ -1,6 +1,7 @@
 var a25486 =
 [
-    [ "HandleScriptEffect", "d1/d17/a25486.html#a55e7e43ca445047fdcd80108a3a62446", null ],
-    [ "PrepareSpellScript", "d1/d17/a25486.html#a9c10510512b61c2ead64bce6b2f1cf1f", null ],
-    [ "Register", "d1/d17/a25486.html#a5b6330512b037856f0066b5a128c71a8", null ]
+    [ "CalculateDamageAmount", "d1/d17/a25486.html#a2f608e8391e61434ef1b164c023854fe", null ],
+    [ "CalculateManaLeechAmount", "d1/d17/a25486.html#a8a4946d1718d8045a72c92355ff38ecb", null ],
+    [ "PrepareAuraScript", "d1/d17/a25486.html#a63d24d3ca4b2de1aa7f67376ded7bc59", null ],
+    [ "Register", "d1/d17/a25486.html#aa6e74e89930fd3cc564c3cba86e3687e", null ]
 ];

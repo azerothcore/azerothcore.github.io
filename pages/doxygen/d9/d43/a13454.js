@@ -1,7 +1,6 @@
 var a13454 =
 [
-    [ "npc_deathstalker_erlandAI", "d0/db9/a13458.html", "d0/db9/a13458" ],
-    [ "npc_deathstalker_erland", "d9/d43/a13454.html#ad49faf068e982f245f0d1e21f0700c40", null ],
-    [ "GetAI", "d9/d43/a13454.html#ab59235f212ddb985056cb8e32719b723", null ],
-    [ "OnQuestAccept", "d9/d43/a13454.html#a81b20bc8c7249a59d69ba63ab32a5f06", null ]
+    [ "npc_parqual_fintallas", "d9/d43/a13454.html#a9edaf1f7cf4e81ce24c54faa4aed6cf6", null ],
+    [ "OnGossipHello", "d9/d43/a13454.html#af7c1f119d91aa63ee96765f2092b0a6c", null ],
+    [ "OnGossipSelect", "d9/d43/a13454.html#a39276ef82ec5214a1727ebd60235a506", null ]
 ];

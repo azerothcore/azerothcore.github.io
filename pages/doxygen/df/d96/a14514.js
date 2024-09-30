@@ -1,6 +1,10 @@
 var a14514 =
 [
-    [ "npc_towering_infernalAI", "d5/d02/a14518.html", "d5/d02/a14518" ],
-    [ "npc_towering_infernal", "df/d96/a14514.html#acb32884e62741925966eba7cb95bbf08", null ],
-    [ "GetAI", "df/d96/a14514.html#a311e0cfed290ed848c5ba1bf7d8a8b9d", null ]
+    [ "npc_hyjal_gargoyle", "df/d96/a14514.html#a35b17d008d96116b2e3cf09cceacd6fb", null ],
+    [ "AttackStart", "df/d96/a14514.html#a0301be4d3e34f1248708fdcd3f0d5ea8", null ],
+    [ "DoAction", "df/d96/a14514.html#ae213c71426f438dd2b27699d7de23664", null ],
+    [ "JustEngagedWith", "df/d96/a14514.html#ae10a90c817a7df8d0d6ed18c9cdf6387", null ],
+    [ "PathEndReached", "df/d96/a14514.html#a9ae52d3f7176045ef28713f3e1a16153", null ],
+    [ "Reset", "df/d96/a14514.html#af314bb183bde44680eeb136d2a08c142", null ],
+    [ "UpdateAI", "df/d96/a14514.html#ac1ca0648b08430a8bcbf99980222b684", null ]
 ];

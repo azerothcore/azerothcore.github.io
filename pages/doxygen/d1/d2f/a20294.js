@@ -1,6 +1,5 @@
 var a20294 =
 [
-    [ "npc_hover_diskAI", "d7/dff/a20298.html", "d7/dff/a20298" ],
-    [ "npc_hover_disk", "d1/d2f/a20294.html#af0ab534387a2af4e168915801ee855e5", null ],
-    [ "GetAI", "d1/d2f/a20294.html#adbe9285126089ca998e9b6360f42c553", null ]
+    [ "achievement_kologarn_with_open_arms", "d1/d2f/a20294.html#a94af961be5bbdf7783925148731ce7e4", null ],
+    [ "OnCheck", "d1/d2f/a20294.html#a03c1fb5f141a15f8f63e28700b98f9b5", null ]
 ];

@@ -1,6 +1,8 @@
 var a16662 =
 [
-    [ "npc_toc_mageAI", "da/df8/a16666.html", "da/df8/a16666" ],
-    [ "npc_toc_mage", "d2/dfd/a16662.html#a8270875c1da3e2e96f767362ef90cdc6", null ],
-    [ "GetAI", "d2/dfd/a16662.html#a64b5b8b3a5933a0264537f2187e81e15", null ]
+    [ "npc_fos_leaderAI", "d2/dfd/a16662.html#ae6a80f77558e0f5a62efc3b5ef1f61d6", null ],
+    [ "DoAction", "d2/dfd/a16662.html#a1fd8cea6f8a6d8f76ba3c484b15c4054", null ],
+    [ "Reset", "d2/dfd/a16662.html#a33364da3af4681de9f9e21b9dcf7f16c", null ],
+    [ "UpdateAI", "d2/dfd/a16662.html#ac6f2aedc40e415ac0f7e8c212d4deae5", null ],
+    [ "events", "d2/dfd/a16662.html#ac02a0c34096086e7baf1dc004811f4c1", null ]
 ];

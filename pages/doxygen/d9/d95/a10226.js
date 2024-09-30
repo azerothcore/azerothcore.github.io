@@ -1,9 +1,7 @@
 var a10226 =
 [
-    [ "RandomRoll", "d9/d95/a10226.html#abc64acf498b3dc70b9afd23c399e3db8", null ],
-    [ "Write", "d9/d95/a10226.html#aab5879874745603dd448a7f5084d60d4", null ],
-    [ "Max", "d9/d95/a10226.html#a21460b09eddfbee6ba022f88b5f37cc7", null ],
-    [ "Min", "d9/d95/a10226.html#aee5564c9fc17613b9f30fc8ce88944c6", null ],
-    [ "Result", "d9/d95/a10226.html#a34fd2c1d018bb292836724671163ff07", null ],
-    [ "Roller", "d9/d95/a10226.html#af02aa97826259885791d0f4afc0c1a84", null ]
+    [ "ChatServerMessage", "d9/d95/a10226.html#aa649857ceeba6b2f9e060f7d502cdb7a", null ],
+    [ "Write", "d9/d95/a10226.html#af8bad4d39693290674bda2e2ad8685bf", null ],
+    [ "MessageID", "d9/d95/a10226.html#afde854fc17313d214fa0f0cdc48ca9a9", null ],
+    [ "StringParam", "d9/d95/a10226.html#ac39a08d84c8f5934d0fe26e91809e60a", null ]
 ];

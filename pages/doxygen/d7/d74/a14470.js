@@ -1,6 +1,6 @@
 var a14470 =
 [
-    [ "HandleTriggerSpell", "d7/d74/a14470.html#a7e5a03d304f0f6fe8d06ed5df12259dd", null ],
-    [ "PrepareSpellScript", "d7/d74/a14470.html#a76a070da8e719198463010499f595599", null ],
-    [ "Register", "d7/d74/a14470.html#ae237c4972167a5a17b59800983496a9d", null ]
+    [ "FilterTargets", "d7/d74/a14470.html#a45b0713b2942199bf0e19752fe765aac", null ],
+    [ "PrepareSpellScript", "d7/d74/a14470.html#a7f7177d7754a99743202f69a0342f587", null ],
+    [ "Register", "d7/d74/a14470.html#a27b432d8571d48c3f5fb025bbbd29271", null ]
 ];

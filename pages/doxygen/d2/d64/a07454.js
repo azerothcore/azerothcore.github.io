@@ -1,15 +1,20 @@
 var a07454 =
 [
-    [ "LfgProposal", "d2/d64/a07454.html#ad67e8b90ee53576adcab0ac41e523699", null ],
-    [ "cancelTime", "d2/d64/a07454.html#ad702ce8bccc9fbb81457456f1133e2e0", null ],
-    [ "dungeonId", "d2/d64/a07454.html#a3f4f1e3120ed950e2272789c757a401f", null ],
-    [ "encounters", "d2/d64/a07454.html#a6f0fb2094c6237c8bba4321b432115ad", null ],
-    [ "group", "d2/d64/a07454.html#ac04263773858dfe70e7dd627a62113dc", null ],
-    [ "id", "d2/d64/a07454.html#a580dfb67b8040a6267cbd20938cb8667", null ],
-    [ "isNew", "d2/d64/a07454.html#a81989ce9df0046cfde2d805cc4edb59f", null ],
-    [ "leader", "d2/d64/a07454.html#a12f8574ad017641808e522e1e9fdff49", null ],
-    [ "players", "d2/d64/a07454.html#a7d0cc59e08db6fd186de1875c7313b3d", null ],
-    [ "queues", "d2/d64/a07454.html#a7d0a8fabf7aaa632df03f8838fd2a3b4", null ],
-    [ "showorder", "d2/d64/a07454.html#a3d388b633378c35f0efe5927fa78beef", null ],
-    [ "state", "d2/d64/a07454.html#abd3f0fe86587f41c443735164924a3ae", null ]
+    [ "value_type", "d2/d64/a07454.html#a2ffac2f5c4514a1a9c7d3b72ac95ca28", null ],
+    [ "PlayerIdentifier", "d2/d64/a07454.html#a4a5d0a04c5461c56b8c6028926bda2a0", null ],
+    [ "PlayerIdentifier", "d2/d64/a07454.html#ac757cca4b11332e5b091639a9a946f88", null ],
+    [ "FromSelf", "d2/d64/a07454.html#af45d29f7ebca2a8af420fdec344264fc", null ],
+    [ "FromTarget", "d2/d64/a07454.html#aea33fb49551ebc0f687f3d24dc3dfbea", null ],
+    [ "FromTargetOrSelf", "d2/d64/a07454.html#a617834cc8474970950b45066f2e86dbd", null ],
+    [ "GetConnectedPlayer", "d2/d64/a07454.html#ac4d51841e160051dde72827e9bc71318", null ],
+    [ "GetGUID", "d2/d64/a07454.html#a266269d0f1aa9410cde271c97f09f807", null ],
+    [ "GetName", "d2/d64/a07454.html#a6baa96394c108ae26c66a790f024ae3a", null ],
+    [ "IsConnected", "d2/d64/a07454.html#a3eac561c52cfd3a01b596feca5846dc5", null ],
+    [ "operator ObjectGuid", "d2/d64/a07454.html#a6895aec33b3b5c1a43abd6fa077f1ea8", null ],
+    [ "operator std::string const &", "d2/d64/a07454.html#a3ac710baa74dbbc2359b1734579c0412", null ],
+    [ "operator std::string_view", "d2/d64/a07454.html#af37d94f83894f4182211208db19c8678", null ],
+    [ "TryConsume", "d2/d64/a07454.html#a0ef4ac60e1dcbc03bfe08d78b05de48d", null ],
+    [ "_guid", "d2/d64/a07454.html#a378564a9a7e2b4a85381cc4e3c371451", null ],
+    [ "_name", "d2/d64/a07454.html#ad0f2f7c96817c6e0c1c77c21a299cb70", null ],
+    [ "_player", "d2/d64/a07454.html#a5658078bcce50c453f087b1e3f602f05", null ]
 ];

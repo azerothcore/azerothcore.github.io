@@ -1,6 +1,6 @@
 var a17022 =
 [
-    [ "spell_trollgore_invader_taunt_SpellScript", "de/d75/a17026.html", "de/d75/a17026" ],
-    [ "spell_trollgore_invader_taunt", "df/d1d/a17022.html#af4055ce1ebaa788dc45a9e6a29f9bbaf", null ],
-    [ "GetSpellScript", "df/d1d/a17022.html#ae739e0b2f5d6b0ca3a459f6ea1dbed44", null ]
+    [ "boss_drakkari_elementalAI", "de/d75/a17026.html", "de/d75/a17026" ],
+    [ "boss_drakkari_elemental", "df/d1d/a17022.html#a143dd5d52ea7bb3c3c1d96da45af81ee", null ],
+    [ "GetAI", "df/d1d/a17022.html#aab2f9c71ddb77164bd644d18b9e88313", null ]
 ];

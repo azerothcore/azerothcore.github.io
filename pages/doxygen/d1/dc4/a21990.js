@@ -1,6 +1,7 @@
 var a21990 =
 [
-    [ "boss_thorim_arena_npcsAI", "df/dda/a21994.html", "df/dda/a21994" ],
-    [ "boss_thorim_arena_npcs", "d1/dc4/a21990.html#a60d22280bb1eb3c9da92deb08e887942", null ],
-    [ "GetAI", "d1/dc4/a21990.html#a3709e1c9df32755f5932398ba3535f2f", null ]
+    [ "npc_battle_at_valhalasAI", "df/dda/a21994.html", "df/dda/a21994" ],
+    [ "npc_battle_at_valhalas", "d1/dc4/a21990.html#aacec717b5b91ae55307c9642779c15ec", null ],
+    [ "GetAI", "d1/dc4/a21990.html#a3660ba847b3b40c2d358d63c63517a5e", null ],
+    [ "OnQuestAccept", "d1/dc4/a21990.html#addd76fd9f4b4f8ce706693614b80966b", null ]
 ];

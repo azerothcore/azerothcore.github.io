@@ -1,7 +1,7 @@
 var a18250 =
 [
-    [ "FilterTargets", "dd/d8c/a18250.html#a9c2c5909da3a7bad08433028a0787c86", null ],
-    [ "HandleDummy", "dd/d8c/a18250.html#ad1ae4c2a8d08c4dee84f5d2545f8b6f4", null ],
-    [ "PrepareSpellScript", "dd/d8c/a18250.html#ae7e2d1e965178dfec37286d4c8d5bd43", null ],
-    [ "Register", "dd/d8c/a18250.html#a399351637e2c50ded615310f5e14f2b9", null ]
+    [ "OnPeriodic", "dd/d8c/a18250.html#adfbfcf4ad8671ca4eaa439705f7b6c2a", null ],
+    [ "PrepareAuraScript", "dd/d8c/a18250.html#a5bb82c03f7c34e6febd3fe8aa57d4723", null ],
+    [ "Register", "dd/d8c/a18250.html#a0fc7ca43a0d82058fc04277742231388", null ],
+    [ "Validate", "dd/d8c/a18250.html#ae52c7c189a45a0bb5f3a627f502e3730", null ]
 ];

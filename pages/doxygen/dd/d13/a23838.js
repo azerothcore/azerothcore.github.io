@@ -1,6 +1,9 @@
 var a23838 =
 [
-    [ "npc_time_lost_proto_drakeAI", "db/d29/a23842.html", "db/d29/a23842" ],
-    [ "npc_time_lost_proto_drake", "dd/d13/a23838.html#a6fda9f8b0d4e61e88e2a82d101d9c69e", null ],
-    [ "GetAI", "dd/d13/a23838.html#a8b463fe7a85b0b1526c2f99ed7aeefa2", null ]
+    [ "boss_void_reaver", "dd/d13/a23838.html#aa6373ef5b27255eca4d85345ae5fa729", null ],
+    [ "JustDied", "dd/d13/a23838.html#a49e6f52b11177bdac07adff92c2675f5", null ],
+    [ "JustEngagedWith", "dd/d13/a23838.html#a9260d05e11f4dec6fc25432a0524706b", null ],
+    [ "KilledUnit", "dd/d13/a23838.html#adc234fc43308771a42d99049876cad1b", null ],
+    [ "Reset", "dd/d13/a23838.html#a02c36ea960de24991f879943991a93c6", null ],
+    [ "_recentlySpoken", "dd/d13/a23838.html#adc1bb9a6a3340f157c3ffcbd7dcd71ac", null ]
 ];

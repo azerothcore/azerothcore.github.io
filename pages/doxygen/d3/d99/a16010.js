@@ -1,6 +1,6 @@
 var a16010 =
 [
-    [ "boss_hadronoxAI", "d5/df2/a16014.html", "d5/df2/a16014" ],
-    [ "boss_hadronox", "d3/d99/a16010.html#ae3457fd6108cc350cf9eedab3178f781", null ],
-    [ "GetAI", "d3/d99/a16010.html#a90bf0ecb218e30e61852baffeabc3dc1", null ]
+    [ "npc_living_infernoAI", "d3/d99/a16010.html#ab33eeac6aab8e18778fc7d4ffe5038f1", null ],
+    [ "IsSummonedBy", "d3/d99/a16010.html#a4b6986a392aee0741ba47651e809c76c", null ],
+    [ "JustDied", "d3/d99/a16010.html#a60b2e31d24e182e97d604d91223e2dc8", null ]
 ];

@@ -1,7 +1,7 @@
 var a18886 =
 [
-    [ "HandleTriggerMissile", "de/ded/a18886.html#a29d71fda4503406ee0e6d740ef1584b0", null ],
-    [ "PrepareSpellScript", "de/ded/a18886.html#abc74d5755519ad503a83588aeb4a545b", null ],
-    [ "Register", "de/ded/a18886.html#abc24e4a66ebc6f6156966b8396b03f4d", null ],
-    [ "Validate", "de/ded/a18886.html#ac87555f88f921827b6baf54eecea1d3a", null ]
+    [ "FilterTargets", "de/ded/a18886.html#a56ff062a6014099623466145a66284cc", null ],
+    [ "PrepareSpellScript", "de/ded/a18886.html#aa14623bb948ff457e52979facf74ffab", null ],
+    [ "Register", "de/ded/a18886.html#a9494bea35088161c9a520395d714fde1", null ],
+    [ "Validate", "de/ded/a18886.html#a6a02bc1a79a5f4fefe3b1e2900eaf0b4", null ]
 ];

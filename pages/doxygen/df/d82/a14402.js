@@ -1,6 +1,6 @@
 var a14402 =
 [
-    [ "HandleEffectApply", "df/d82/a14402.html#a404f2134734e1d21201033b3f26e611e", null ],
-    [ "PrepareAuraScript", "df/d82/a14402.html#a78249009c7a1bacf058b423e317c49af", null ],
-    [ "Register", "df/d82/a14402.html#ad239472c15ca0c73b053d112f538ecff", null ]
+    [ "instance_blackfathom_deeps_InstanceMapScript", "db/d30/a14406.html", "db/d30/a14406" ],
+    [ "instance_blackfathom_deeps", "df/d82/a14402.html#a4600a7e6191582c1bee684989a970e0f", null ],
+    [ "GetInstanceScript", "df/d82/a14402.html#a62cdab4f3118ab030b4ef55243690f73", null ]
 ];

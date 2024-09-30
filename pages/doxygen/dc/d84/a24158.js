@@ -1,5 +1,6 @@
 var a24158 =
 [
-    [ "OutdoorPvP_silithus", "dc/d84/a24158.html#a8b53dd86c265d277ad1cb49bd6a795bc", null ],
-    [ "GetOutdoorPvP", "dc/d84/a24158.html#a126d6acc77218addd10072199ccd2470", null ]
+    [ "npc_torloth_the_magnificentAI", "dc/db9/a24162.html", "dc/db9/a24162" ],
+    [ "npc_torloth_the_magnificent", "dc/d84/a24158.html#a252796a19dcebe210eecb4d9ae150e5d", null ],
+    [ "GetAI", "dc/d84/a24158.html#a94c206fb75cc6f50c6127908b5b5205f", null ]
 ];

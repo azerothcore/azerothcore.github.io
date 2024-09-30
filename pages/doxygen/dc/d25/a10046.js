@@ -1,5 +1,6 @@
 var a10046 =
 [
-    [ "GuildEventLogQuery", "dc/d25/a10046.html#af66d667a4b722745fa4f855870ef332c", null ],
-    [ "Read", "dc/d25/a10046.html#a48881f116070d5a7c03e7cace86656f6", null ]
+    [ "LootScript", "dc/d25/a10046.html#a57fd5dffc97f62a595f0ff4c2856dbd4", null ],
+    [ "IsDatabaseBound", "dc/d25/a10046.html#ad60b605eac89be48efd339127e9cb9cd", null ],
+    [ "OnLootMoney", "dc/d25/a10046.html#a56a57baead49f6815a9979b181a55375", null ]
 ];

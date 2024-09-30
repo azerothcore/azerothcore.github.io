@@ -1,6 +1,5 @@
 var a15642 =
 [
-    [ "npc_anachronos_the_ancientAI", "df/dbd/a15646.html", "df/dbd/a15646" ],
-    [ "npc_anachronos_the_ancient", "d2/de8/a15642.html#a720884359886e6f881190471005f4cfc", null ],
-    [ "GetAI", "d2/de8/a15642.html#a345c801231907d98f2ab2425b1d35cbc", null ]
+    [ "achievement_respect_your_elders", "d2/de8/a15642.html#a2fd66ada0ff7482c00b2cb417a12e88e", null ],
+    [ "OnCheck", "d2/de8/a15642.html#a770922be3ab19848f7a8f43a82d78b88", null ]
 ];

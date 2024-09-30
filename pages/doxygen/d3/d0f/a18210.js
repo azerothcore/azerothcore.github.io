@@ -1,6 +1,8 @@
 var a18210 =
 [
-    [ "spell_igb_periodic_trigger_with_power_cost_AuraScript", "dd/d1d/a18214.html", "dd/d1d/a18214" ],
-    [ "spell_igb_periodic_trigger_with_power_cost", "d3/d0f/a18210.html#a98148d3002ff8c3615b77bbdde33618a", null ],
-    [ "GetAuraScript", "d3/d0f/a18210.html#a3d6b6f45db80521f2a59fa6044e419e0", null ]
+    [ "Load", "d3/d0f/a18210.html#aabd997d6db5fd38b1fdd97d90b1347e9", null ],
+    [ "OnRemove", "d3/d0f/a18210.html#a43b23e5c53cca872a26737d790f2893d", null ],
+    [ "PrepareAuraScript", "d3/d0f/a18210.html#ae51bcb37894240c6fd064cd329698a55", null ],
+    [ "Register", "d3/d0f/a18210.html#ad6247c7f8abf41cd6190d5252ed6834e", null ],
+    [ "Validate", "d3/d0f/a18210.html#a45696018a8810cf1f11fbddcd853d1f4", null ]
 ];

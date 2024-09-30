@@ -1,6 +1,7 @@
 var a08534 =
 [
-    [ "m_guid", "d4/d26/a08534.html#afa8383c81a2d75f9ead2e8f3daa29086", null ],
-    [ "m_instance", "d4/d26/a08534.html#a8bc0c5e1cf45073f054c5154c21b3d72", null ],
-    [ "m_state", "d4/d26/a08534.html#a3ac18fb8f5d386e3245a2435e31e45e1", null ]
+    [ "VehicleDespawnEvent", "d4/d26/a08534.html#ab6f88e60f1068ab79049c158314a87ab", null ],
+    [ "Execute", "d4/d26/a08534.html#a39284ca2343e54cec915ac3ecf51f4a8", null ],
+    [ "_duration", "d4/d26/a08534.html#a3e9c695929c24728b2091940e511d5f0", null ],
+    [ "_self", "d4/d26/a08534.html#a0d472ea9a1a7b615f01c73d20cfc6573", null ]
 ];

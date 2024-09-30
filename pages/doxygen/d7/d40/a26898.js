@@ -1,6 +1,6 @@
 var a26898 =
 [
-    [ "CheckLevel", "d7/d40/a26898.html#a9c0f4404275b274bd8af7be621eaa5b9", null ],
-    [ "PrepareSpellScript", "d7/d40/a26898.html#abc2bcce83810661ab462f56594066df3", null ],
-    [ "Register", "d7/d40/a26898.html#add6731563bd9a26d8f286bd29ffc8709", null ]
+    [ "HandleEffectCalcSpellMod", "d7/d40/a26898.html#a38c2a5daeda4b366518026638e6a8e1b", null ],
+    [ "PrepareAuraScript", "d7/d40/a26898.html#a767c3c52e917b56dbf2368b5dbbf1610", null ],
+    [ "Register", "d7/d40/a26898.html#af60592a9f1e595f31814eae405d03d5a", null ]
 ];

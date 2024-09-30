@@ -1,6 +1,7 @@
 var a14022 =
 [
-    [ "LaunchHit", "d0/dcb/a14022.html#a10bb54a1a0cd992e9e944870684f3a21", null ],
-    [ "PrepareSpellScript", "d0/dcb/a14022.html#a95e85ecfcc5b72c250a0bc184b1d32a7", null ],
-    [ "Register", "d0/dcb/a14022.html#a19c6111ea0c3506ddc2d8459c192f04f", null ]
+    [ "FilterTargets", "d0/dcb/a14022.html#a3498c9eb96bf1a6a85ded114e995850c", null ],
+    [ "HandleDummyEffect", "d0/dcb/a14022.html#a3985ca8b79a234e44d9f46ffe6d5b232", null ],
+    [ "PrepareSpellScript", "d0/dcb/a14022.html#a03f752d4d4762698e5777a4ae0e395cf", null ],
+    [ "Register", "d0/dcb/a14022.html#a9af46e5f2fdb4719d65bb96f2b68a7f8", null ]
 ];

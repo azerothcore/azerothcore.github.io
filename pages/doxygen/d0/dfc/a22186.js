@@ -1,6 +1,6 @@
 var a22186 =
 [
-    [ "boss_yoggsaron_corruptor_tentacleAI", "de/d50/a22190.html", "de/d50/a22190" ],
-    [ "boss_yoggsaron_corruptor_tentacle", "d0/dfc/a22186.html#a86fbf881f0a861124dda085347bb03bd", null ],
-    [ "GetAI", "d0/dfc/a22186.html#a7325d6feaa12d74c030152ba3a0ab756", null ]
+    [ "HandleScript", "d0/dfc/a22186.html#acb343eafcfddf6fedcdef26c9b86e0ec", null ],
+    [ "PrepareSpellScript", "d0/dfc/a22186.html#a5a4ce9453638d61fe52514240f0a9384", null ],
+    [ "Register", "d0/dfc/a22186.html#a889f931aaa37d3a283f4d585b384a68e", null ]
 ];

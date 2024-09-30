@@ -1,8 +1,14 @@
 var a14602 =
 [
-    [ "spell_mark_of_kazrogal_AuraScript", "d5/d21/a14610.html", "d5/d21/a14610" ],
-    [ "spell_mark_of_kazrogal_SpellScript", "d0/d0d/a14606.html", "d0/d0d/a14606" ],
-    [ "spell_mark_of_kazrogal", "dc/d12/a14602.html#a47fe5a3e2cfaceba28a8ccbea3692ec7", null ],
-    [ "GetAuraScript", "dc/d12/a14602.html#aaa9f12a66c950fd4f36a4d188cb036cc", null ],
-    [ "GetSpellScript", "dc/d12/a14602.html#a48bceb156ced587b2f14ffa1a34526a8", null ]
+    [ "npc_cos_stratholme_citizienAI", "dc/d12/a14602.html#a591aaf16ef5befada12378acfbef9465", null ],
+    [ "DoAction", "dc/d12/a14602.html#af9d6fa1dfa83a75194797e99ee80ae0e", null ],
+    [ "InfectMe", "dc/d12/a14602.html#a9517132eeaf1a0ffd5cb8b5879ed5d5b", null ],
+    [ "MoveInLineOfSight", "dc/d12/a14602.html#ab7a8f6423e12ca0ea9bcb085594013a2", null ],
+    [ "Reset", "dc/d12/a14602.html#a0dbb5f295aa9061fa3457c9590ea9b10", null ],
+    [ "SpellHit", "dc/d12/a14602.html#aa8b9a05d3c7d89aa054af919672a69ec", null ],
+    [ "UpdateAI", "dc/d12/a14602.html#a81a1382493091a99cae1c2bb580a7f32", null ],
+    [ "allowTimer", "dc/d12/a14602.html#ae92384763b3cfe4a4bc4180d1c404456", null ],
+    [ "changeTimer", "dc/d12/a14602.html#aa757ab2eef813dceaaad65d84681099b", null ],
+    [ "locked", "dc/d12/a14602.html#aa644050a5fc0b3cd04573e8b3def87ee", null ],
+    [ "pInstance", "dc/d12/a14602.html#aadae06c487a7755114f856a835d48c7e", null ]
 ];

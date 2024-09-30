@@ -1,6 +1,27 @@
 var a10094 =
 [
-    [ "GuildPromoteMember", "d6/d08/a10094.html#af623a381aa80e827c2c29987501626ae", null ],
-    [ "Read", "d6/d08/a10094.html#a3350c1a8c81aa1368a254288849b462b", null ],
-    [ "Promotee", "d6/d08/a10094.html#af8addf6e9bc45364f595582e8f285cde", null ]
+    [ "UnitScript", "d6/d08/a10094.html#a109b6b1a101953feb0f157729f3df5d2", null ],
+    [ "CanSetPhaseMask", "d6/d08/a10094.html#a95d2e7dd7074494fdd4f530f9684c1bf", null ],
+    [ "DealDamage", "d6/d08/a10094.html#a4b161e889eee3572a41c33a144d12cdf", null ],
+    [ "IfNormalReaction", "d6/d08/a10094.html#a355d024283b4ce02a2fdcf551c75c3b2", null ],
+    [ "IsCustomBuildValuesUpdate", "d6/d08/a10094.html#a1859b5ca0970c3a358a4ba0207f281de", null ],
+    [ "IsNeedModHealPercent", "d6/d08/a10094.html#aab4fd36511815865c02e1415c2460ea2", null ],
+    [ "IsNeedModMeleeDamagePercent", "d6/d08/a10094.html#aaaf151572d72b05833905777a979c0d9", null ],
+    [ "IsNeedModSpellDamagePercent", "d6/d08/a10094.html#abef7c63663b881c66f2bcc6c3d3256b8", null ],
+    [ "ModifyHealReceived", "d6/d08/a10094.html#ac2f40d7ca52538ae874f60a7acbf443b", null ],
+    [ "ModifyMeleeDamage", "d6/d08/a10094.html#acde1701dd3d6207da2e76d7d1753f9c7", null ],
+    [ "ModifyPeriodicDamageAurasTick", "d6/d08/a10094.html#ae0703adbc70a14443c0370de77e95190", null ],
+    [ "ModifySpellDamageTaken", "d6/d08/a10094.html#a375db3302ef33bcc5c874b0b53bbc345", null ],
+    [ "OnAuraApply", "d6/d08/a10094.html#a334ac1a9d8e29aa064d3625d59c7a167", null ],
+    [ "OnAuraRemove", "d6/d08/a10094.html#a2ed2cf6d9725ae342adfada023538a28", null ],
+    [ "OnBeforeRollMeleeOutcomeAgainst", "d6/d08/a10094.html#a627a99cd078d2cbd52519874f0bd0aff", null ],
+    [ "OnDamage", "d6/d08/a10094.html#a5541573db45b4404ae0b613251ad1a13", null ],
+    [ "OnDisplayIdChange", "d6/d08/a10094.html#a43cd3dd2e6cd311b1045b8f5d7d6ac83", null ],
+    [ "OnHeal", "d6/d08/a10094.html#adcdc8430e14bccfe399a7e1a3edd2b69", null ],
+    [ "OnPatchValuesUpdate", "d6/d08/a10094.html#a0a751a8fb5c99375b667214915822e96", null ],
+    [ "OnUnitDeath", "d6/d08/a10094.html#a7bb5f4ea3ae8edb55df455648863d93f", null ],
+    [ "OnUnitEnterCombat", "d6/d08/a10094.html#a8d04617af120a1e23ad57a45440744bb", null ],
+    [ "OnUnitEnterEvadeMode", "d6/d08/a10094.html#a9df6f81297f53007f1227778466e912f", null ],
+    [ "OnUnitUpdate", "d6/d08/a10094.html#a36e7ba9d74892f59d0a36b76e78f4f80", null ],
+    [ "ShouldTrackValuesUpdatePosByIndex", "d6/d08/a10094.html#a7b74be81d24bc7265d5566d67d044aad", null ]
 ];

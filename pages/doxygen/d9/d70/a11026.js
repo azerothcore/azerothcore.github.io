@@ -1,13 +1,7 @@
 var a11026 =
 [
-    [ "cheat_commandscript", "d9/d70/a11026.html#a7449cfba3578956a09b67e569e7e6083", null ],
-    [ "GetCommands", "d9/d70/a11026.html#a7cc6ca0c216a4ff497b60dc7622623fd", null ],
-    [ "HandleCasttimeCheatCommand", "d9/d70/a11026.html#a119ad06c5b8be235853bb13c7cff724b", null ],
-    [ "HandleCheatStatusCommand", "d9/d70/a11026.html#acdf487c7a96d1757d3254e3f17e728cb", null ],
-    [ "HandleCoolDownCheatCommand", "d9/d70/a11026.html#ab31a1cfe2567b0f597c689f44ab9fd6d", null ],
-    [ "HandleExploreCheatCommand", "d9/d70/a11026.html#a25ea712f2fb249e49f5f0b8244f743c5", null ],
-    [ "HandleGodModeCheatCommand", "d9/d70/a11026.html#ac398dbacf025830dc871bc77938d47d6", null ],
-    [ "HandlePowerCheatCommand", "d9/d70/a11026.html#ae406c5d444b10ba65b79f8ff9d949c24", null ],
-    [ "HandleTaxiCheatCommand", "d9/d70/a11026.html#ab9bd840c9622d173e710058eeb763388", null ],
-    [ "HandleWaterWalkCheatCommand", "d9/d70/a11026.html#a9162d89c049f14f29bc5ba257964df34", null ]
+    [ "EffectApplyHandler", "d9/d70/a11026.html#a7ab5f0786000c217e2fc71201a8990b6", null ],
+    [ "Call", "d9/d70/a11026.html#a4c02a1b42d7b3a02633dc9600b0e09bb", null ],
+    [ "mode", "d9/d70/a11026.html#ac776375c5a5de321edc572c87e983193", null ],
+    [ "pEffectHandlerScript", "d9/d70/a11026.html#acd715556a7661f688ce0de9afe62250a", null ]
 ];

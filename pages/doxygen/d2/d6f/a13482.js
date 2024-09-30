@@ -1,8 +1,7 @@
 var a13482 =
 [
-    [ "npc_bartlebyAI", "d2/d6f/a13482.html#abcc4ebb2c3505679d4c70317d9a8fd93", null ],
-    [ "AttackedBy", "d2/d6f/a13482.html#aa5d4adcbbf3c9cb6a59ae64ef001651a", null ],
-    [ "DamageTaken", "d2/d6f/a13482.html#a096d710ec4b1a90279b8647e926ca0ed", null ],
-    [ "Reset", "d2/d6f/a13482.html#a2e682cf315a81859d99114485a7c30ed", null ],
-    [ "m_uiNormalFaction", "d2/d6f/a13482.html#a8aad1ef26a8ff0598ebbc4e6580d6dbb", null ]
+    [ "boss_blight_wormAI", "d2/d6f/a13482.html#af267e395fbd539f871e498dc6745c610", null ],
+    [ "Reset", "d2/d6f/a13482.html#a96e27eaba5c9e422981d78123ed9c83d", null ],
+    [ "UpdateAI", "d2/d6f/a13482.html#ac8e4c5a7a251173a2afb369498c88a1d", null ],
+    [ "_events", "d2/d6f/a13482.html#a65f7fd4f73c727eeb5988d7ec77b94ce", null ]
 ];

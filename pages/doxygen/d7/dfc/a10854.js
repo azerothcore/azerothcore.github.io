@@ -1,7 +1,7 @@
 var a10854 =
 [
-    [ "PlayerGuid", "d7/dfc/a10854.html#a629a600c48376d04293c225390f747ff", null ],
-    [ "PrimaryKey", "d7/dfc/a10854.html#a7c1ef4d19fb49e5813868ff2ccfe12fc", null ],
-    [ "StoredType", "d7/dfc/a10854.html#a9bea7cf549813010b55c23417d65edc6", null ],
-    [ "TableName", "d7/dfc/a10854.html#a0f308af88812c110c490c94368bda482", null ]
+    [ "SpellImmune", "d7/dfc/a10854.html#a70ebcde656db6c4d7c21fb03af44978a", null ],
+    [ "blockType", "d7/dfc/a10854.html#a13a353d02a7330820df170eb46e7a26d", null ],
+    [ "spellId", "d7/dfc/a10854.html#a6aeb1bebf2f079424ebfa5192c568adc", null ],
+    [ "type", "d7/dfc/a10854.html#ae1a414f35b2cce61cd4f5640c761f7ea", null ]
 ];

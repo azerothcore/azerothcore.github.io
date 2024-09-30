@@ -1,7 +1,7 @@
 var a18614 =
 [
-    [ "HandleScript", "d9/dde/a18614.html#a039143cf28bd9c37e27cdd465fc55171", null ],
-    [ "PrepareSpellScript", "d9/dde/a18614.html#a1c12ef1ad77d485d1dcfe488f8273d6e", null ],
-    [ "Register", "d9/dde/a18614.html#aae23fe522533a7b5f5b7db42d708ed45", null ],
-    [ "SelectTarget", "d9/dde/a18614.html#a0b6be9742e192ece3e1a94c129ce0f53", null ]
+    [ "HandleEffectPeriodic", "d9/dde/a18614.html#a208c4d59e20cd802cf2f4643fa0d6253", null ],
+    [ "PrepareAuraScript", "d9/dde/a18614.html#af1d284c4686f739b02b350a6c0a166c2", null ],
+    [ "Register", "d9/dde/a18614.html#a006a97823ac07346771ec4ab61bd0763", null ],
+    [ "Validate", "d9/dde/a18614.html#ae1f5555dcadb48ba59bf9571073f4a99", null ]
 ];

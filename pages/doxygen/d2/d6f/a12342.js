@@ -1,6 +1,9 @@
 var a12342 =
 [
-    [ "boss_felblood_kaelthasAI", "d6/d2b/a12346.html", "d6/d2b/a12346" ],
-    [ "boss_felblood_kaelthas", "d2/d6f/a12342.html#a41d57d43ee2ea45f72a5054cb02f4934", null ],
-    [ "GetAI", "d2/d6f/a12342.html#a3cf55f3e1b38e5e5007c7af093c3af5f", null ]
+    [ "FilterTargets", "d2/d6f/a12342.html#a88b91e40b330d39bd04a7873128fb858", null ],
+    [ "HandleFinish", "d2/d6f/a12342.html#a762ea4cc1cd0a50a65daf22cbbf4ce9c", null ],
+    [ "PrepareSpellScript", "d2/d6f/a12342.html#ab4ef82283e4d651d2e5304e49970efa8", null ],
+    [ "Register", "d2/d6f/a12342.html#ab2008e585589cbf313170064d37c4aa9", null ],
+    [ "Validate", "d2/d6f/a12342.html#af4963be6c544a1706a6dc30dcbf18309", null ],
+    [ "_targets", "d2/d6f/a12342.html#a2f75199a90e52cff770f46bce76d5149", null ]
 ];

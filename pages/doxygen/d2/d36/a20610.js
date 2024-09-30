@@ -1,16 +1,19 @@
 var a20610 =
 [
-    [ "boss_bjarngrimAI", "d2/d36/a20610.html#ab599d5f62638d622c560f5b63e645b50", null ],
-    [ "JustDied", "d2/d36/a20610.html#adcad5667168768d8f3c8235735f357b1", null ],
-    [ "JustEngagedWith", "d2/d36/a20610.html#a2e99538fdc107bc7e91c23898c178047", null ],
-    [ "KilledUnit", "d2/d36/a20610.html#ad3cbbdc77909515e1573a2fb49cc1e30", null ],
-    [ "RemoveStanceAura", "d2/d36/a20610.html#ac2bca5cebc4847af71272de0ffa3d91a", null ],
-    [ "Reset", "d2/d36/a20610.html#a138d14f9666b03dda50f6adeea609046", null ],
-    [ "RollStance", "d2/d36/a20610.html#a70791697fde5c6194226fd42c893385a", null ],
-    [ "UpdateEscortAI", "d2/d36/a20610.html#a9db8e85b47e8ebb4760f99ec04a36fcb", null ],
-    [ "WaypointReached", "d2/d36/a20610.html#a31e1bceb7b944b3db9d7e881be4246bf", null ],
-    [ "events", "d2/d36/a20610.html#a5314bce83c4c7e80ecea99a8d5559fd8", null ],
-    [ "m_pInstance", "d2/d36/a20610.html#af6dbef6bb9565b5ee1738e188b08748f", null ],
-    [ "m_uiStance", "d2/d36/a20610.html#abd4d058fad17b56bc29a165d74062dd0", null ],
-    [ "summons", "d2/d36/a20610.html#a02bd445d2c969ea186a48f68585e640c", null ]
+    [ "npc_xt002_heartAI", "d2/d36/a20610.html#a4bdfd8574fb343c800934d53424596bc", null ],
+    [ "AttackStart", "d2/d36/a20610.html#ac55f7e4215a7ae03f096778f71a952ef", null ],
+    [ "DamageTaken", "d2/d36/a20610.html#a97bc8a5934b9ed345416c1295813edd0", null ],
+    [ "DoAction", "d2/d36/a20610.html#a31476950c38e83b7436eab555d5cc7ff", null ],
+    [ "JustDied", "d2/d36/a20610.html#ac385cce7c349417a28f1d6673d9ae6cd", null ],
+    [ "JustSummoned", "d2/d36/a20610.html#aeae848dbb84417f563342b05e9339680", null ],
+    [ "MoveInLineOfSight", "d2/d36/a20610.html#ad077207bb0ae0498b208312ddbd7ed91", null ],
+    [ "SendEnergyToCorner", "d2/d36/a20610.html#a80204c6952b40770c0816f1895d70119", null ],
+    [ "SpellHitTarget", "d2/d36/a20610.html#aeb37afc22d7f77ce84e983e63fe7e78f", null ],
+    [ "SummonPiles", "d2/d36/a20610.html#a6180aaee9aaca9d2744cc6bef4265640", null ],
+    [ "UpdateAI", "d2/d36/a20610.html#ac58b8690136ed260020e76a0dc4f3432", null ],
+    [ "_damageDone", "d2/d36/a20610.html#aaa9f701197998f2cba942cc4f292a8f9", null ],
+    [ "_pummelerCount", "d2/d36/a20610.html#a8179da94f961897085289568468d2bba", null ],
+    [ "_spawnSelection", "d2/d36/a20610.html#a62187aab1a7fabedb1adaad33d422506", null ],
+    [ "_timerSpawn", "d2/d36/a20610.html#ad4f2db86cd841b96c20cea4469f4aed4", null ],
+    [ "summons", "d2/d36/a20610.html#a50869f121bf9d7aa790efb6c74799c83", null ]
 ];

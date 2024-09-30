@@ -1,11 +1,11 @@
 var a16190 =
 [
-    [ "boss_general_zarithrianAI", "d2/d07/a16190.html#a4168a5883052810d137f59d3b104bc24", null ],
-    [ "CheckEvadeIfOutOfCombatArea", "d2/d07/a16190.html#a22f6ff041e61c94df73a938162fa26f5", null ],
-    [ "JustDied", "d2/d07/a16190.html#a49be533142c82a95a136dc2dcbf4843c", null ],
-    [ "JustEngagedWith", "d2/d07/a16190.html#a9ec34e473b9d478277f472ab3bb7c7ef", null ],
-    [ "JustSummoned", "d2/d07/a16190.html#acb694d20b35d57a315aa4662562af210", null ],
-    [ "KilledUnit", "d2/d07/a16190.html#ad385477740b728e63acff7c184df3c09", null ],
-    [ "Reset", "d2/d07/a16190.html#a3093369d5f3c7e2a1a5828671ac0af0a", null ],
-    [ "UpdateAI", "d2/d07/a16190.html#a3a7e578d64a760cd38712c725eecc97d", null ]
+    [ "npc_anubarak_spikeAI", "d2/d07/a16190.html#a1982ce33ce76e15d33bfcc222f5ad734", null ],
+    [ "DamageTaken", "d2/d07/a16190.html#a3b548e629d2c6217f21644136ca7ba4b", null ],
+    [ "DoAction", "d2/d07/a16190.html#ab583d97745ea69e95a1ecc0b68ac9878", null ],
+    [ "Reset", "d2/d07/a16190.html#af5b4a1227467d86d9dbba57362fdf360", null ],
+    [ "SelectNewTarget", "d2/d07/a16190.html#ab9ed5d53703464c488267f578a214fb8", null ],
+    [ "UpdateAI", "d2/d07/a16190.html#af8d6d840785c718d963c7b150cd12d9c", null ],
+    [ "events", "d2/d07/a16190.html#a52ff0006b5194edcb55f49e970a15ab8", null ],
+    [ "TargetGUID", "d2/d07/a16190.html#a2f7cbaf81e159035476ee9576a0e3990", null ]
 ];

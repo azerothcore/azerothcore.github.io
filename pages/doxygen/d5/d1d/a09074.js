@@ -1,6 +1,10 @@
 var a09074 =
 [
-    [ "DoorInfo", "d5/d1d/a09074.html#a26f4849a1d68df466e6db0ccbb8d001b", null ],
-    [ "bossInfo", "d5/d1d/a09074.html#a14f7742a1b272d0cd76dda6ce28cde26", null ],
-    [ "type", "d5/d1d/a09074.html#ad77a91752ea10a11c8e73655e63dd5c1", null ]
+    [ "NearestCreatureEntryWithLiveStateInObjectRangeCheck", "d5/d1d/a09074.html#aa9f15d071efe7ca7bb975489fec2afbd", null ],
+    [ "NearestCreatureEntryWithLiveStateInObjectRangeCheck", "d5/d1d/a09074.html#a1e25384d08beeee84d83e401f5a5a565", null ],
+    [ "operator()", "d5/d1d/a09074.html#abc2ab6f33a6a58a6e692cc32e8139839", null ],
+    [ "i_alive", "d5/d1d/a09074.html#a7a01388f86d25fa0728d94c6e1a7f752", null ],
+    [ "i_entry", "d5/d1d/a09074.html#ae2bf2c0a0f431f5de445fbee26b60a57", null ],
+    [ "i_obj", "d5/d1d/a09074.html#aa0340c79c37f3494b01c52f034705aa4", null ],
+    [ "i_range", "d5/d1d/a09074.html#a695af00612b17e0182ad76a5c3be2356", null ]
 ];

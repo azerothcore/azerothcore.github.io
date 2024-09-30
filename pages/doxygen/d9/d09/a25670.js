@@ -1,7 +1,8 @@
 var a25670 =
 [
-    [ "CastQuill", "d9/d09/a25670.html#a923234809186bcbdf02457f4be095519", null ],
-    [ "Execute", "d9/d09/a25670.html#a26a971a575e4b9503cd1da73d43ebd1e", null ],
-    [ "_caster", "d9/d09/a25670.html#af809b9279aff141ce4007c8d1fbcc331", null ],
-    [ "_spellId", "d9/d09/a25670.html#ad6f7d8eaf69873b0ba57be4189c145cf", null ]
+    [ "HandleDummy", "d9/d09/a25670.html#a57897df074b7766c022526e082b4a13b", null ],
+    [ "Load", "d9/d09/a25670.html#a47cbade67be124496c6194391ab51794", null ],
+    [ "PrepareSpellScript", "d9/d09/a25670.html#af5e5a22976adfa5588ca8e054e19a669", null ],
+    [ "Register", "d9/d09/a25670.html#ab0c3be8436b79288bb45899448fd6c1b", null ],
+    [ "Validate", "d9/d09/a25670.html#a97d037267e385e0d3fd80543a5ddb366", null ]
 ];

@@ -1,8 +1,6 @@
 var a14398 =
 [
-    [ "OnApply", "d7/d09/a14398.html#a6bc23ff885f4fbc25d00fe35173bad3e", null ],
-    [ "OnRemove", "d7/d09/a14398.html#aed62006fe08bfaad0a8bb51d5e739c67", null ],
-    [ "PrepareAuraScript", "d7/d09/a14398.html#ac7388aa4c0746ce963cbbb97dbfb4765", null ],
-    [ "Register", "d7/d09/a14398.html#a95c3af6d3f1d510ad8a2d9be7e28b2dc", null ],
-    [ "Validate", "d7/d09/a14398.html#a0ed19bc16fa8e2da2332766bbc1110e5", null ]
+    [ "HandleScriptEffect", "d7/d09/a14398.html#a2acaaf3716237f147429cb07779ae49e", null ],
+    [ "PrepareSpellScript", "d7/d09/a14398.html#a55df717ede47b17a32ae33ecd64617cd", null ],
+    [ "Register", "d7/d09/a14398.html#ac515af62f7e42cafecc4afdf7ba15ddf", null ]
 ];

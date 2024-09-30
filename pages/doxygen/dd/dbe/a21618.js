@@ -1,6 +1,5 @@
 var a21618 =
 [
-    [ "HandleScript", "dd/dbe/a21618.html#a4ada0292071501626c82145a9af95223", null ],
-    [ "PrepareSpellScript", "dd/dbe/a21618.html#a1fee32a9441d630940fb14da3c4eb98c", null ],
-    [ "Register", "dd/dbe/a21618.html#a584ab85a82281207e14fbd32ddddfbf1", null ]
+    [ "npc_mei_francis_mountAI", "dd/dbe/a21618.html#aa9886ead02754faebff8b21eeb85dee6", null ],
+    [ "CanBeSeen", "dd/dbe/a21618.html#ad5e33495339a0315bc7b01351810157e", null ]
 ];

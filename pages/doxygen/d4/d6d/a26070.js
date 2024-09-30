@@ -1,7 +1,6 @@
 var a26070 =
 [
-    [ "npc_bessyAI", "d7/d38/a26074.html", "d7/d38/a26074" ],
-    [ "npc_bessy", "d4/d6d/a26070.html#a08278c1524445054ca158433044a0824", null ],
-    [ "GetAI", "d4/d6d/a26070.html#af805bc5ee3de2fd6773158e51bf09d4a", null ],
-    [ "OnQuestAccept", "d4/d6d/a26070.html#a98b8e816195b81bab12cc9906df79807", null ]
+    [ "HandleDummy", "d4/d6d/a26070.html#a1e9ecf50304f5ccd8578befea898bf81", null ],
+    [ "PrepareSpellScript", "d4/d6d/a26070.html#a9cf7d1dd37f6df4651ffc83e6aa0b1c0", null ],
+    [ "Register", "d4/d6d/a26070.html#a98a5ad12cdb54f48d6014fda3915fd70", null ]
 ];

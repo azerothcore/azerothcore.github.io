@@ -1,6 +1,6 @@
 var a21450 =
 [
-    [ "npc_ulduar_toasty_fireAI", "d3/d7d/a21450.html#a145001c6f1c1d505f810ae545ec62c69", null ],
-    [ "DoAction", "d3/d7d/a21450.html#a8ab71582cc5d8386f788fb95203fbab5", null ],
-    [ "SpellHit", "d3/d7d/a21450.html#a0e4475382dfd754dc119d2e8dba61b7e", null ]
+    [ "npc_sinkhole_kill_creditAI", "d4/d30/a21454.html", "d4/d30/a21454" ],
+    [ "npc_sinkhole_kill_credit", "d3/d7d/a21450.html#a627d01aaaa3408986f2b4d171624e680", null ],
+    [ "GetAI", "d3/d7d/a21450.html#a4d734432f132bea2c4525d049fbcfa67", null ]
 ];

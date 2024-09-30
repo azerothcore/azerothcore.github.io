@@ -1,5 +1,6 @@
 var a24098 =
 [
-    [ "OutdoorPvP_eastern_plaguelands", "d3/d03/a24098.html#a5178152ee493eb90b1c1c0f611c6cd92", null ],
-    [ "GetOutdoorPvP", "d3/d03/a24098.html#abc4e99dfa8a600ef578b77ffc3956ada", null ]
+    [ "npc_invis_infernal_casterAI", "dc/d8e/a24102.html", "dc/d8e/a24102" ],
+    [ "npc_invis_infernal_caster", "d3/d03/a24098.html#a9aed081ef904075830428bbc76f53874", null ],
+    [ "GetAI", "d3/d03/a24098.html#aede0c5cc390ea423169b1cba66d929cd", null ]
 ];

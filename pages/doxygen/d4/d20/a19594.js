@@ -1,6 +1,6 @@
 var a19594 =
 [
-    [ "npc_impaling_spearAI", "db/d79/a19598.html", "db/d79/a19598" ],
-    [ "npc_impaling_spear", "d4/d20/a19594.html#af546ed9684fc085ad651bf5bd93e5bf7", null ],
-    [ "GetAI", "d4/d20/a19594.html#aad49164a3e7541b755c1c622b996bb9a", null ]
+    [ "npc_living_constellationAI", "db/d79/a19598.html", "db/d79/a19598" ],
+    [ "npc_living_constellation", "d4/d20/a19594.html#a6ee651a525498cb5715ccfedaa26e05d", null ],
+    [ "GetAI", "d4/d20/a19594.html#a4533812a4da72c0d9eff6d6c9eaf772a", null ]
 ];

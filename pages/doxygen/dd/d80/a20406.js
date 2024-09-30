@@ -1,6 +1,5 @@
 var a20406 =
 [
-    [ "boss_ormorokAI", "d1/d89/a20410.html", "d1/d89/a20410" ],
-    [ "boss_ormorok", "dd/d80/a20406.html#a0999bd2d1bcd5b27c6cba6293b48e7b3", null ],
-    [ "GetAI", "dd/d80/a20406.html#a1e3c4a03a2d44d085010da8f1621e2fb", null ]
+    [ "achievement_mimiron_firefighter", "dd/d80/a20406.html#ae26c3b2572bc9e3e75fb25537fe46a6c", null ],
+    [ "OnCheck", "dd/d80/a20406.html#a1ebd287ef20c6d367f30b1c30ba68728", null ]
 ];

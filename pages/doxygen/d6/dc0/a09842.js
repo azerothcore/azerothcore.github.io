@@ -1,6 +1,7 @@
 var a09842 =
 [
-    [ "ElunaScript", "d6/dc0/a09842.html#a1b4a815f484b4048f7e1fa7ec5282eef", null ],
-    [ "CanAreaTrigger", "d6/dc0/a09842.html#a47f8793586dd27dd4eb42eb5379828b0", null ],
-    [ "OnWeatherChange", "d6/dc0/a09842.html#af09f40df2d02a57c92d7e05d19f35549", null ]
+    [ "ownerGuid", "d6/dc0/a09842.html#a7c66ffa9f54768a0e81f61e5bcdde014", null ],
+    [ "petitionGuid", "d6/dc0/a09842.html#a1bbf412a221b76c4a20765d9a6612182", null ],
+    [ "petitionName", "d6/dc0/a09842.html#a91c81356e9aa77641eaa881cd04af5af", null ],
+    [ "petitionType", "d6/dc0/a09842.html#aeaf6c421d7545cf98d88b4e552dcff23", null ]
 ];

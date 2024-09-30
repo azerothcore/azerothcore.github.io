@@ -1,5 +1,6 @@
 var a21902 =
 [
-    [ "achievement_quick_shave", "db/d5c/a21902.html#a6c2f1e60d2311922abbaf7e22e1e9e4b", null ],
-    [ "OnCheck", "db/d5c/a21902.html#a151c479da3d4cec05999ad8a249b100c", null ]
+    [ "npc_lake_frogAI", "dd/d39/a21906.html", "dd/d39/a21906" ],
+    [ "npc_lake_frog", "db/d5c/a21902.html#ac7c56b2a6443356523b468c05c36bc6c", null ],
+    [ "GetAI", "db/d5c/a21902.html#a9730da684a81fced304f10b2806c10e5", null ]
 ];

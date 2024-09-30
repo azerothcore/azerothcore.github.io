@@ -1,6 +1,6 @@
 var a17222 =
 [
-    [ "npc_spectral_footmanAI", "d0/d9d/a17226.html", "d0/d9d/a17226" ],
-    [ "npc_spectral_footman", "d3/dd5/a17222.html#a300fb06b896d2d08f9e3671422232ad2", null ],
-    [ "GetAI", "d3/dd5/a17222.html#adbc1b961aba6cefb97dfff3014248735", null ]
+    [ "PrepareSpellScript", "d3/dd5/a17222.html#a86609d6cd708de9ead02c6134cbb6f64", null ],
+    [ "Register", "d3/dd5/a17222.html#aceb3da4aec68cb44bcbee36f599afd62", null ],
+    [ "SetDest", "d3/dd5/a17222.html#a9ed93e44df4e759fda72a63474e01b3b", null ]
 ];

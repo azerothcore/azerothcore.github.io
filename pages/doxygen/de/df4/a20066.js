@@ -1,6 +1,6 @@
 var a20066 =
 [
-    [ "FilterTargets", "de/df4/a20066.html#acf501f9de6e9669b75cca49d1672b701", null ],
-    [ "PrepareSpellScript", "de/df4/a20066.html#a41a505a70b7f5cb1ffe0f2ee33bc4d2d", null ],
-    [ "Register", "de/df4/a20066.html#ae0b1fa63655776abd7346948037d65b7", null ]
+    [ "id", "de/df4/a20066.html#accc6fc59e13a0897ae168fae33ee4c7d", null ],
+    [ "x", "de/df4/a20066.html#afb67a1dce0819e0da0ceb9b303f43eb9", null ],
+    [ "y", "de/df4/a20066.html#aaf4fd9f1d5b020e102c0fec3863f7020", null ]
 ];

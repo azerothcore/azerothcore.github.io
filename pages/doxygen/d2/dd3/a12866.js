@@ -1,6 +1,8 @@
 var a12866 =
 [
-    [ "HandleSendEvent", "d2/dd3/a12866.html#a0bc3c3995f8b66bf2f7ff39713b58cf1", null ],
-    [ "PrepareSpellScript", "d2/dd3/a12866.html#a8535dcbf13fe48e8116258b8a572b692", null ],
-    [ "Register", "d2/dd3/a12866.html#a8a5eef284845d7a4d76994c7a78b8d7d", null ]
+    [ "CalcPeriodic", "d2/dd3/a12866.html#af51fe7af7bef9e8c2ce1c3042489209c", null ],
+    [ "HandleDummyTick", "d2/dd3/a12866.html#aa737859657afa55c468dde56f1f69b0b", null ],
+    [ "HandleUpdatePeriodic", "d2/dd3/a12866.html#a1125dfd3a407b350f1390de972b569e9", null ],
+    [ "PrepareAuraScript", "d2/dd3/a12866.html#aa9e47a9138579f8f5edca41f23ad6457", null ],
+    [ "Register", "d2/dd3/a12866.html#aab4f5e348ff5008c21c015b253f5cb50", null ]
 ];

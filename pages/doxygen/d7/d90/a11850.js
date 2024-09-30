@@ -1,6 +1,6 @@
 var a11850 =
 [
-    [ "npc_core_ragerAI", "d5/def/a11854.html", "d5/def/a11854" ],
-    [ "npc_core_rager", "d7/d90/a11850.html#ada4acfa2a1934d1609a8f9c78da6377d", null ],
-    [ "GetAI", "d7/d90/a11850.html#a0ace94ecc1ebfb0e880c50d9b68087db", null ]
+    [ "OnEffect", "d7/d90/a11850.html#a1b5999f392cec9fea4431c3f746ee034", null ],
+    [ "PrepareSpellScript", "d7/d90/a11850.html#a4748a82fcc7b3794850461092ee6b2e4", null ],
+    [ "Register", "d7/d90/a11850.html#acfa32dfc22778576d0dd3096c456ebe0", null ]
 ];

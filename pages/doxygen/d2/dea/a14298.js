@@ -1,6 +1,6 @@
 var a14298 =
 [
-    [ "HandleDummy", "d2/dea/a14298.html#a7e6ecd28a6b1f161619e179bc386388e", null ],
-    [ "PrepareSpellScript", "d2/dea/a14298.html#a87a787c6ab3804847c90266f570381c6", null ],
-    [ "Register", "d2/dea/a14298.html#ad5c7ab8f3bb74882eed42c6e0868ab70", null ]
+    [ "OnApply", "d2/dea/a14298.html#a30d33268b58507c228a4628031bffca0", null ],
+    [ "PrepareAuraScript", "d2/dea/a14298.html#a16dc3f52152d63b5512690c761f9915a", null ],
+    [ "Register", "d2/dea/a14298.html#a6494e4d7277e910ffa3b30c333117f00", null ]
 ];

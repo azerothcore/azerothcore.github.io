@@ -1,11 +1,15 @@
 var a07270 =
 [
-    [ "EnchantId", "d7/d12/a07270.html#ad68d4f09195ba9c2a74bc9187e1cc1dd", null ],
-    [ "GemEnchantId", "d7/d12/a07270.html#a680481a1dcc0a163cabeb02e426d89cd", null ],
-    [ "IsBuggedInspectLink", "d7/d12/a07270.html#a1db96c31b140774302c633e99bcea93f", null ],
-    [ "Item", "d7/d12/a07270.html#a89b08bf0a3fb31ef6c0f71919b05195e", null ],
-    [ "RandomProperty", "d7/d12/a07270.html#a07871677ea967da347a6debafa7c91e7", null ],
-    [ "RandomSuffix", "d7/d12/a07270.html#a39126c77bdd1d3d850a20cf02bb034ae", null ],
-    [ "RandomSuffixBaseAmount", "d7/d12/a07270.html#aa9a99d071ee623b0df6f456199e1262a", null ],
-    [ "RenderLevel", "d7/d12/a07270.html#acb1024455a3b847ea13390c05b79cd0c", null ]
+    [ "Print", "d7/d12/a07270.html#a7a3f746595d9ca126747f5e0ba52c71b", null ],
+    [ "CliHandler", "d7/d12/a07270.html#a6a7ba928db9d41743d7cebd1ad98b084", null ],
+    [ "GetAcoreString", "d7/d12/a07270.html#a84a52cac4c1ac11e36e36c37f976af0e", null ],
+    [ "GetNameLink", "d7/d12/a07270.html#ae879bbfa69992caa7a0b1b2b3c7d939c", null ],
+    [ "GetSessionDbcLocale", "d7/d12/a07270.html#a610f7431dc7b064c964e0d446160d19f", null ],
+    [ "GetSessionDbLocaleIndex", "d7/d12/a07270.html#a5a2118d9227aa53818d736e387d77dea", null ],
+    [ "HasSession", "d7/d12/a07270.html#a1cd4aabe4c61e3899a1e6d6785742abe", null ],
+    [ "needReportToTarget", "d7/d12/a07270.html#ad8c4ee6e45afff55d94dea9704bd2097", null ],
+    [ "ParseCommands", "d7/d12/a07270.html#abbd02247d6094bf39b2791ba45e9942e", null ],
+    [ "SendSysMessage", "d7/d12/a07270.html#a636be10a282a8d100b807dac119b3ff6", null ],
+    [ "m_callbackArg", "d7/d12/a07270.html#aa1fafd68fca180506cc15680b695db9e", null ],
+    [ "m_print", "d7/d12/a07270.html#aadeaa84ce5d26951f506a2656c1d64d2", null ]
 ];

@@ -1,8 +1,7 @@
 var a10038 =
 [
-    [ "GuildEvent", "da/d8a/a10038.html#a78be16122c01d4c68d67e050ede92006", null ],
-    [ "Write", "da/d8a/a10038.html#a4ae1c0daaec964981ad982b97c1b0408", null ],
-    [ "Guid", "da/d8a/a10038.html#a35bcac3da7db22a22b4e8dba21ae1d0a", null ],
-    [ "Params", "da/d8a/a10038.html#a8f0faa70581ca04c26f87ebcd25cee80", null ],
-    [ "Type", "da/d8a/a10038.html#a961ae90991fa23bfc94a054dba357392", null ]
+    [ "InstanceMapScript", "da/d8a/a10038.html#a350d328f82cc5e7ea43f3c8779d25a67", null ],
+    [ "checkValidity", "da/d8a/a10038.html#a221dd91e2d2f761e66d990a6cae42306", null ],
+    [ "GetInstanceScript", "da/d8a/a10038.html#aa5a9acfc5a7c81a4953fe0e296f9bcc8", null ],
+    [ "IsDatabaseBound", "da/d8a/a10038.html#ab77651bb427813a7e119057c3dc53ca8", null ]
 ];

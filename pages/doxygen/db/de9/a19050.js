@@ -1,8 +1,8 @@
 var a19050 =
 [
-    [ "spell_the_lich_king_necrotic_plague_AuraScript", "da/d51/a19058.html", "da/d51/a19058" ],
-    [ "spell_the_lich_king_necrotic_plague_SpellScript", "dd/df9/a19054.html", "dd/df9/a19054" ],
-    [ "spell_the_lich_king_necrotic_plague_jump", "db/de9/a19050.html#abed17d9bb780335f967163f214dc2444", null ],
-    [ "GetAuraScript", "db/de9/a19050.html#a32b48c282117d429d0775b28e416a07e", null ],
-    [ "GetSpellScript", "db/de9/a19050.html#a5b6f223f30bd9db1572f5d0063064259", null ]
+    [ "npc_teslaAI", "db/de9/a19050.html#a7281220648af1357b1377d6f7874d663", null ],
+    [ "DamageTaken", "db/de9/a19050.html#aa3ab570e86261bc3178e17109d76af12", null ],
+    [ "EnterEvadeMode", "db/de9/a19050.html#acc8115216989b34593a9435eeb051eda", null ],
+    [ "JustEngagedWith", "db/de9/a19050.html#add93f68bc96b3c93dc0a3271543711e6", null ],
+    [ "UpdateAI", "db/de9/a19050.html#a962745569b07e368067ee483d2379840", null ]
 ];

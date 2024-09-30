@@ -1,7 +1,7 @@
 var a15346 =
 [
-    [ "npc_rizzle_sprysprocketAI", "d0/d4f/a15350.html", "d0/d4f/a15350" ],
-    [ "npc_rizzle_sprysprocket", "df/d05/a15346.html#a3bd65f716b42200cc37d2264ddedf735", null ],
-    [ "GetAI", "df/d05/a15346.html#ae445545476b4046db305117fa635e7f5", null ],
-    [ "OnGossipHello", "df/d05/a15346.html#a3a42f3ffc35683b55de5bcc8d2b24647", null ]
+    [ "npc_shenthulAI", "d0/d4f/a15350.html", "d0/d4f/a15350" ],
+    [ "npc_shenthul", "df/d05/a15346.html#a77815503c7d9c811fe3821232e308714", null ],
+    [ "GetAI", "df/d05/a15346.html#a1683f8c89add6270277c59951c74027e", null ],
+    [ "OnQuestAccept", "df/d05/a15346.html#a3a63fec338dca74eb7d071dfcc9c95b5", null ]
 ];

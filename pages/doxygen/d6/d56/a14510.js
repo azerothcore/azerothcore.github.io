@@ -1,15 +1,11 @@
 var a14510 =
 [
-    [ "boss_anetheronAI", "d6/d56/a14510.html#a6d60c15a083bff041b5579575ce13d32", null ],
-    [ "JustDied", "d6/d56/a14510.html#a346e6797c8866a9a948d250307c0bf78", null ],
-    [ "JustEngagedWith", "d6/d56/a14510.html#a52092694e874bbed92d9e78f9ce3eed6", null ],
-    [ "KilledUnit", "d6/d56/a14510.html#ae6776a0b79c824042c7e22a260201bcc", null ],
-    [ "Reset", "d6/d56/a14510.html#ab5ac471890fa620c0fb918d786b5d705", null ],
-    [ "UpdateAI", "d6/d56/a14510.html#a119f9be9054acc030989ce3530a8d8ac", null ],
-    [ "WaypointReached", "d6/d56/a14510.html#a9aac420464bcf47217de692fcd0eba2d", null ],
-    [ "AuraTimer", "d6/d56/a14510.html#a8a3865414657a74a450093bb15b65394", null ],
-    [ "go", "d6/d56/a14510.html#a22c19e364a1502becd2e6b664e57454c", null ],
-    [ "InfernoTimer", "d6/d56/a14510.html#a073ee1a6f1635bcccde789e45abc22c4", null ],
-    [ "SleepTimer", "d6/d56/a14510.html#af2fac79b4e34db4a85e21212f0478041", null ],
-    [ "SwarmTimer", "d6/d56/a14510.html#adc54a9f618be83b5e1437855308a2fd9", null ]
+    [ "npc_hyjal_ground_trash", "d6/d56/a14510.html#a06b590bf9ef983b1ef2b94058144fc7d", null ],
+    [ "AttackStart", "d6/d56/a14510.html#a0ab86d651644dcc579585176c2b5c07e", null ],
+    [ "DoAction", "d6/d56/a14510.html#aa92481bcf993c4eda5ef271145200d77", null ],
+    [ "GetNearbyFriendlyTrashCreature", "d6/d56/a14510.html#ad94fe6d4dca64fa8eec183481f82bb39", null ],
+    [ "JustEngagedWith", "d6/d56/a14510.html#a576b909d65ae862af5dcc6500d2ff7e1", null ],
+    [ "PathEndReached", "d6/d56/a14510.html#a035610284a56e690200f978b0fd496ab", null ],
+    [ "Reset", "d6/d56/a14510.html#aa38b45f63841c049a2add0a9832268ef", null ],
+    [ "UpdateAI", "d6/d56/a14510.html#a91b3ee049bf199271618afd3ad0c5f77", null ]
 ];

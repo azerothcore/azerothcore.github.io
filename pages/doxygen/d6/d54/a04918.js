@@ -1,9 +1,10 @@
 var a04918 =
 [
-    [ "FactoryHolderRegistry", "d6/d54/a04918.html#a5384598eca62a35bc617a4c395353ecd", null ],
-    [ "FactoryHolder", "d6/d54/a04918.html#a5e7097c2a475378023f33ec430f4ca85", null ],
-    [ "~FactoryHolder", "d6/d54/a04918.html#a78673bd2f3d857127c1a91c49e3cd62f", null ],
-    [ "Create", "d6/d54/a04918.html#a7072fb7dfe99890dea89b1ba661eb3ce", null ],
-    [ "RegisterSelf", "d6/d54/a04918.html#a9e173f9daaf5c2de36bb8b46da4249e1", null ],
-    [ "_key", "d6/d54/a04918.html#a98c0e66f8caaa207771efd82b2c2f9aa", null ]
+    [ "AreaInfo", "d6/d54/a04918.html#a1f45e5e030aaf5b16fb6c58097fa8b14", null ],
+    [ "adtId", "d6/d54/a04918.html#a95c1c986b14dfeba867fa55e77553499", null ],
+    [ "flags", "d6/d54/a04918.html#a780bdbb606fe694941d2105e14a29d70", null ],
+    [ "ground_Z", "d6/d54/a04918.html#aca4fada3b2062f74cf66cd34a63c0c86", null ],
+    [ "groupId", "d6/d54/a04918.html#a76ac6ccec6ff67f16689a6735e644e07", null ],
+    [ "result", "d6/d54/a04918.html#ab9e9a7658d5fb76be208835f786036b0", null ],
+    [ "rootId", "d6/d54/a04918.html#a6f60501d22be8c1d374a46e598d0f2e3", null ]
 ];

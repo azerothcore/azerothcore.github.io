@@ -1,15 +1,12 @@
 var a01529 =
 [
-    [ "instance_naxxramas", "d6/d98/a19052.html", "d6/d98/a19052" ],
-    [ "instance_naxxramas::instance_naxxramas_InstanceMapScript", "dd/d42/a19056.html", "dd/d42/a19056" ],
-    [ "boss_naxxramas_misc", "df/d4b/a19060.html", "df/d4b/a19060" ],
-    [ "boss_naxxramas_misc::boss_naxxramas_miscAI", "d1/dab/a19064.html", "d1/dab/a19064" ],
-    [ "at_naxxramas_hub_portal", "d5/dad/a19068.html", "d5/dad/a19068" ],
-    [ "AddSC_instance_naxxramas", "db/dce/a01529.html#aba1e1afda4423e51a1849a33da49a334", null ],
-    [ "GetEruptionSection", "db/dce/a01529.html#a901343efd9af23ac79087eef84926a75", null ],
-    [ "creatureData", "db/dce/a01529.html#a412286b689bd324fedd65ddd8dde8afb", null ],
-    [ "gameObjectData", "db/dce/a01529.html#a1461582839e3b7fdbb7397e5d2086e31", null ],
-    [ "HeiganEruptionSlope", "db/dce/a01529.html#afc813e25da4423b11b3f71a4c3434b43", null ],
-    [ "HeiganPos", "db/dce/a01529.html#a329c88a19bf7f6ee06251fb30b96aa80", null ],
-    [ "sapphironEntryTP", "db/dce/a01529.html#a11d995fa7a0e4c0af781d298ab2ce3a7", null ]
+    [ "AggressorAI", "d9/d69/a05958.html", "d9/d69/a05958" ],
+    [ "CombatAI", "d9/dd6/a05962.html", "d9/dd6/a05962" ],
+    [ "CasterAI", "d7/d14/a05966.html", "d7/d14/a05966" ],
+    [ "ArcherAI", "de/d73/a05970.html", "de/d73/a05970" ],
+    [ "TurretAI", "d2/d2f/a05974.html", "d2/d2f/a05974" ],
+    [ "VehicleAI", "d6/d4d/a05978.html", "d6/d4d/a05978" ],
+    [ "VEHICLE_CONDITION_CHECK_TIME", "db/dce/a01529.html#a2842973ff947088648cd327dc9e1d379", null ],
+    [ "VEHICLE_DISMISS_TIME", "db/dce/a01529.html#a9b232fec810abbe5eaf5536e608b6e38", null ],
+    [ "SpellVct", "db/dce/a01529.html#aef8ccdd14344d9c395d613c21bafd91e", null ]
 ];

@@ -1,6 +1,7 @@
 var a11818 =
 [
-    [ "spell_garr_separation_nexiety_AuraScript", "dc/d1a/a11822.html", "dc/d1a/a11822" ],
-    [ "spell_garr_separation_nexiety", "db/d60/a11818.html#a717c9d174b2d7214b9af29709fcd7889", null ],
-    [ "GetAuraScript", "db/d60/a11818.html#a4a56db93fd4ec423072eb40a4bd0d156", null ]
+    [ "boss_warmastervooneAI", "db/d60/a11818.html#aa22519c8d3037cf07c275080b9bedcaf", null ],
+    [ "DamageTaken", "db/d60/a11818.html#adce28de25fa74557000d60188346e2d2", null ],
+    [ "ExecuteEvent", "db/d60/a11818.html#ac9dc6ef78503a87ea68d0e232b0376da", null ],
+    [ "JustEngagedWith", "db/d60/a11818.html#ac419c5118a45264e24e391f7575d90fb", null ]
 ];

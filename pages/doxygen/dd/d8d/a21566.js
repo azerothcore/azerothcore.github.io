@@ -1,5 +1,6 @@
 var a21566 =
 [
-    [ "achievement_staying_buffed_all_winter_10", "dd/d8d/a21566.html#a40afd6db0bf6cff2b9b6163b7d4c31da", null ],
-    [ "OnCheck", "dd/d8d/a21566.html#a67587b1659a8d026e73b42311148541a", null ]
+    [ "npc_thassarianAI", "d9/d1a/a21570.html", "d9/d1a/a21570" ],
+    [ "npc_thassarian", "dd/d8d/a21566.html#a82bde4555821f84a6d07a69669528313", null ],
+    [ "GetAI", "dd/d8d/a21566.html#af4bbf5f6a63c3765355d6b70c2bda55b", null ]
 ];

@@ -1,11 +1,10 @@
 var a25606 =
 [
-    [ "boss_commander_sarannis", "d5/d24/a25606.html#ace0957feb37f864798008849be25f607", null ],
-    [ "DamageTaken", "d5/d24/a25606.html#add3c03770b0f3ee79e99bd4f1e45e9d2", null ],
-    [ "JustDied", "d5/d24/a25606.html#a7796429f04c049549a4a02a1eb8d35fc", null ],
-    [ "JustEngagedWith", "d5/d24/a25606.html#ad4273db7c169c6cfa9917dd3b76c9c95", null ],
-    [ "KilledUnit", "d5/d24/a25606.html#a64e77321adc5eea9d3494a3e1030f9de", null ],
-    [ "Reset", "d5/d24/a25606.html#a6736343e4a451cddaebe1f62eee3449c", null ],
-    [ "ScheduleReinforcements", "d5/d24/a25606.html#a293f0b860a66396a30c6d255eef85309", null ],
-    [ "_summoned", "d5/d24/a25606.html#a8f2fb1b8a102c116fca82028840f0d7e", null ]
+    [ "spell_item_defibrillate", "d5/d24/a25606.html#ab64fdd36fc646ca0bcb2010380199ede", null ],
+    [ "HandleScript", "d5/d24/a25606.html#a7abbc5b8e5c5231d5c6809c45b815b69", null ],
+    [ "PrepareSpellScript", "d5/d24/a25606.html#a6a7ad6c9bb9bee3b093bd06b1b259468", null ],
+    [ "Register", "d5/d24/a25606.html#ad2faa26a2874f68e8e419e59cafbf10b", null ],
+    [ "Validate", "d5/d24/a25606.html#ad871a6bef7ba074f32abe1bf062dffe1", null ],
+    [ "_chance", "d5/d24/a25606.html#a680092f30ebc6b322e5d01a1100b308c", null ],
+    [ "_failSpell", "d5/d24/a25606.html#a4cb3e7f0b0b85c57f27fe2f3ab70647b", null ]
 ];

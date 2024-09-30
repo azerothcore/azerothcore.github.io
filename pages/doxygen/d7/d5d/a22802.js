@@ -1,6 +1,6 @@
 var a22802 =
 [
-    [ "npc_erekem_guardAI", "d7/dde/a22806.html", "d7/dde/a22806" ],
-    [ "npc_erekem_guard", "d7/d5d/a22802.html#a78592996e90f77f81eec0325a7f11956", null ],
-    [ "GetAI", "d7/d5d/a22802.html#a844a6a29eda4f41547ea37a4c08fb723", null ]
+    [ "HandleSharedRule", "d7/d5d/a22802.html#a94b783490dafae872b65e0bbfed156b9", null ],
+    [ "PrepareSpellScript", "d7/d5d/a22802.html#af59695af3afcc51a3c29fcc4053bbfee", null ],
+    [ "Register", "d7/d5d/a22802.html#a31f2d90059e62da77a719a192d62328b", null ]
 ];

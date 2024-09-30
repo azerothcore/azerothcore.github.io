@@ -1,14 +1,14 @@
 var a20130 =
 [
-    [ "boss_maexxnaAI", "de/d45/a20130.html#a3bf898911798eaa891ef7638a3a2cc20", null ],
-    [ "IsInRoom", "de/d45/a20130.html#a957bd38232c020611fc24dd8a6e55640", null ],
-    [ "JustDied", "de/d45/a20130.html#a4f0121aedeff9d44b28e888f5f3d0382", null ],
-    [ "JustEngagedWith", "de/d45/a20130.html#a9974fc771b3663878964aeb20914fe43", null ],
-    [ "JustSummoned", "de/d45/a20130.html#ab45b74b3067b42089fee804844ea41dd", null ],
-    [ "KilledUnit", "de/d45/a20130.html#a11cda2b905ef2381c317a01e4163be00", null ],
-    [ "Reset", "de/d45/a20130.html#a78385da6845ce8e3075616c24696d0cc", null ],
-    [ "UpdateAI", "de/d45/a20130.html#a6f0453babfa84764467970369894eb97", null ],
-    [ "events", "de/d45/a20130.html#a6ddb73eeb18560a08e72dd6ccc5d0c83", null ],
-    [ "pInstance", "de/d45/a20130.html#adeda3cc5a174e3d940621e3024a1043f", null ],
-    [ "summons", "de/d45/a20130.html#a7ea3de40dfd638db7e34c523a0461335", null ]
+    [ "npc_ulduar_hodir_mageAI", "de/d45/a20130.html#a118059c877151a9f6b2b15a4070e2704", null ],
+    [ "AttackStart", "de/d45/a20130.html#a3217617eb3312c1da34dc7dce590fe0d", null ],
+    [ "CanAIAttack", "de/d45/a20130.html#a66ea56e856fcc706e4f938512def1590", null ],
+    [ "EnterEvadeMode", "de/d45/a20130.html#a6d4cd626dcd58f825a6c88b804bb38a7", null ],
+    [ "JustDied", "de/d45/a20130.html#a0176f8b45c20af1552e1a8b70e307442", null ],
+    [ "MoveInLineOfSight", "de/d45/a20130.html#aaf35c04462b1698e85df64190f4e2c8a", null ],
+    [ "ScheduleAbilities", "de/d45/a20130.html#a7927f399ef1c89b3eb83804fde9b2700", null ],
+    [ "SpellHit", "de/d45/a20130.html#aa814a46a45ce5eb9696c8f6c6de8c521", null ],
+    [ "UpdateAI", "de/d45/a20130.html#acbbe6667360e5bb7576c1ea741c2e2f1", null ],
+    [ "events", "de/d45/a20130.html#a556453c557df0be6a57255e400d98a87", null ],
+    [ "pInstance", "de/d45/a20130.html#ac4677898f5612c01d98ab242c7628e8f", null ]
 ];

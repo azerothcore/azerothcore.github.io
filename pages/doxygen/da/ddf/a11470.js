@@ -1,14 +1,12 @@
 var a11470 =
 [
-    [ "boss_mor_grayhoof", "da/ddf/a11470.html#aef1001233a51ad3bb9963c540d39d79b", null ],
-    [ "CastRandomSpell", "da/ddf/a11470.html#a00756d64d24088ebf408153fcb59ff13", null ],
-    [ "DamageTaken", "da/ddf/a11470.html#a164a911eb9a86964a61866c05d44512f", null ],
-    [ "JustDied", "da/ddf/a11470.html#aa98fbfc5cc4ee94e0323d8586dae1e1c", null ],
-    [ "JustEngagedWith", "da/ddf/a11470.html#a043f6ee099efd0d49982b2966604e65a", null ],
-    [ "Reset", "da/ddf/a11470.html#af313bd8509a76cd6b6fbc197f15afbff", null ],
-    [ "UpdateAI", "da/ddf/a11470.html#aaa6a1a9b6e4259aea46d2f25bca3b809", null ],
-    [ "_phase", "da/ddf/a11470.html#a40bf6a66aefe7a605d94526b5a586ba6", null ],
-    [ "_scheduler", "da/ddf/a11470.html#ad2a897281d308475957e2636c6536fdd", null ],
-    [ "_sleepTargetGUID", "da/ddf/a11470.html#a8baa606696dc8acf532e8badfc6c624b", null ],
-    [ "_sleepTargetThreat", "da/ddf/a11470.html#ac62d7d30b12d0c2da9553b9689091e0e", null ]
+    [ "boss_balinda", "da/ddf/a11470.html#a2f3ce696dbc66843cddc13196800866b", null ],
+    [ "DamageTaken", "da/ddf/a11470.html#a826ad90ac15b3421e16fc3faa96784e7", null ],
+    [ "JustDied", "da/ddf/a11470.html#aeb10053198b9b4c43e963d23957ba9ba", null ],
+    [ "JustEngagedWith", "da/ddf/a11470.html#aa0b78302a92bf39ffee51ce3a71fb534", null ],
+    [ "JustSummoned", "da/ddf/a11470.html#a3c2306326d2f85fbb6766352117a1f91", null ],
+    [ "Reset", "da/ddf/a11470.html#a1ecfa5d743682997076a47cce44b19f5", null ],
+    [ "UpdateAI", "da/ddf/a11470.html#af3506dd75baef12fd0328aed21636978", null ],
+    [ "_hasCastIceBlock", "da/ddf/a11470.html#a05c24746060d7c9a3712d9f269b4af8e", null ],
+    [ "summons", "da/ddf/a11470.html#a83df5856391f0ba62dcb0538b7f44e2d", null ]
 ];

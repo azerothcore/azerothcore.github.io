@@ -1,10 +1,10 @@
 var a01952 =
 [
-    [ "SavedAddonsList", "d4/dec/a01952.html#afa468163a23ed58507a89e5724c06eac", null ],
-    [ "GetAddonInfo", "d4/dec/a01952.html#a65cb6a88902972060e44c57d7d9ec738", null ],
-    [ "GetBannedAddons", "d4/dec/a01952.html#ad7d0938e7463238a86e8c811e1a58800", null ],
-    [ "LoadFromDB", "d4/dec/a01952.html#aaa12f5b754e6b664dbfb2428478bee03", null ],
-    [ "SaveAddon", "d4/dec/a01952.html#a85021021149b7eb4d78cbe81e43d3d45", null ],
-    [ "m_bannedAddons", "d4/dec/a01952.html#a83195dfb437a3f713fa0ccd6c24477ed", null ],
-    [ "m_knownAddons", "d4/dec/a01952.html#a6cd3e278f71724491a7a3b8167eab60e", null ]
+    [ "AutobroadcastMgr", "d5/deb/a06942.html", "d5/deb/a06942" ],
+    [ "sAutobroadcastMgr", "d4/dec/a01952.html#a34abff2dadcb74370b0749fe9fda3878", null ],
+    [ "AnnounceType", "d4/dec/a01952.html#a28a4ef2f64643c76d8be05bf9eafc731", [
+      [ "World", "d4/dec/a01952.html#a28a4ef2f64643c76d8be05bf9eafc731af5a7924e621e84c9280a9a27e1bcb7f6", null ],
+      [ "Notification", "d4/dec/a01952.html#a28a4ef2f64643c76d8be05bf9eafc731a96d008db67fc0b5551a926842bbb6a71", null ],
+      [ "Both", "d4/dec/a01952.html#a28a4ef2f64643c76d8be05bf9eafc731a130c5b3473c57faa76e2a1c54e26f88e", null ]
+    ] ]
 ];

@@ -1,12 +1,10 @@
 var a10806 =
 [
-    [ "CreatureTextBuilder", "d5/db1/a10806.html#a582eed3ab284675e72261a1db9808925", null ],
-    [ "operator()", "d5/db1/a10806.html#aee816eb6adb5b0da75ed3f7e120deff3", null ],
-    [ "_gender", "d5/db1/a10806.html#a615c3046f749bf44b036958fb1a50128", null ],
-    [ "_language", "d5/db1/a10806.html#ac6e3bea125cd2b44a56f899c4aa35e1b", null ],
-    [ "_msgType", "d5/db1/a10806.html#ac4b4f75821f4ff5855cafca91523cbca", null ],
-    [ "_source", "d5/db1/a10806.html#ab87c45c49aa07b4434e42b6d7948e8b3", null ],
-    [ "_target", "d5/db1/a10806.html#a5a5fd218c7162ba634455e0db6ee35a1", null ],
-    [ "_textGroup", "d5/db1/a10806.html#afcd842c1482980c6232f3f19d21a1481", null ],
-    [ "_textId", "d5/db1/a10806.html#a3f40b8dd1da052a372afbbc5f06700ac", null ]
+    [ "TriggeredByAuraSpellData", "d5/db1/a10806.html#a3f4704eed73af1e37a3d09434cfcddae", null ],
+    [ "Init", "d5/db1/a10806.html#a782e0056967e006748318af3112c0e43", null ],
+    [ "operator bool", "d5/db1/a10806.html#a85d4782b76b060c172aaa6f914d400da", null ],
+    [ "operator!", "d5/db1/a10806.html#af7290a4c37b1829a98e436486fa8b6cd", null ],
+    [ "effectIndex", "d5/db1/a10806.html#a9bbee8d48d4beb8a21721a10e0380c41", null ],
+    [ "spellInfo", "d5/db1/a10806.html#af58f62fb168e9da7011f7b570f08e977", null ],
+    [ "tickNumber", "d5/db1/a10806.html#afbb1ffd006dc6eb00ccd65add87b1b22", null ]
 ];

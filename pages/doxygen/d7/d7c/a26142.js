@@ -1,6 +1,6 @@
 var a26142 =
 [
-    [ "npc_drake_dealer_hurlunk", "d7/d7c/a26142.html#ae6d095365d23c30d5b772b047b459ddb", null ],
-    [ "OnGossipHello", "d7/d7c/a26142.html#ad04b7f906f029d9935e29c585b0de421", null ],
-    [ "OnGossipSelect", "d7/d7c/a26142.html#aa23833dcdefb909899120c25d5376111", null ]
+    [ "HandleEffectScriptEffect", "d7/d7c/a26142.html#a852a621f0b008dc1294dbeb9e9877a04", null ],
+    [ "PrepareSpellScript", "d7/d7c/a26142.html#a8b0f656994289f260645a2ae60d9ee4b", null ],
+    [ "Register", "d7/d7c/a26142.html#a1fa4dca7bae36c5e2acde0fe8b8cd801", null ]
 ];

@@ -1,6 +1,7 @@
 var a02453 =
 [
-    [ "DatabaseWorkerPool< T >", "da/d9f/a05584.html", "da/d9f/a05584" ],
-    [ "MIN_MYSQL_CLIENT_VERSION", "d3/d27/a02453.html#abfde8cf59610848eff4ea61d09bb8ca7", null ],
-    [ "MIN_MYSQL_SERVER_VERSION", "d3/d27/a02453.html#acd4a83e86313ca0bb35cb66497bc79b2", null ]
+    [ "SQLQueryHolderBase", "d1/d52/a05734.html", "d1/d52/a05734" ],
+    [ "SQLQueryHolder< T >", "d4/d20/a05586.html", "d4/d20/a05586" ],
+    [ "SQLQueryHolderTask", "d3/de0/a05738.html", "d3/de0/a05738" ],
+    [ "SQLQueryHolderCallback", "d5/d88/a05742.html", "d5/d88/a05742" ]
 ];

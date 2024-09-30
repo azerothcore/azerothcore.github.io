@@ -1,10 +1,9 @@
 var a17542 =
 [
-    [ "npc_living_mojoAI", "de/dd5/a17542.html#ab0e6dd5db0c358ff4fefc4797a622b8c", null ],
-    [ "AttackStart", "de/dd5/a17542.html#ad3f73a040176cd804f9715141063d176", null ],
-    [ "DoAction", "de/dd5/a17542.html#a9d942e99f358a7488d473969ab461d6f", null ],
-    [ "MoveInLineOfSight", "de/dd5/a17542.html#a7981568666269e25580ae839f1f97f09", null ],
-    [ "Reset", "de/dd5/a17542.html#a139df1207438dbd3793a2fbc58c2396c", null ],
-    [ "UpdateAI", "de/dd5/a17542.html#a418d7eee72f0a8506357eee3f1fbaf6c", null ],
-    [ "events", "de/dd5/a17542.html#acc7fd42cf4ea4b0203ad7ba4f775e3f2", null ]
+    [ "CalculateDamage", "de/dd5/a17542.html#a6a9e90d9463825b38b69afc234b35b39", null ],
+    [ "PrepareSpellScript", "de/dd5/a17542.html#ae7a8d0cc36708b11f8eefebd5df0a980", null ],
+    [ "Register", "de/dd5/a17542.html#a2722814a55469e5bae572766ed36309b", null ],
+    [ "RemoveEnergy", "de/dd5/a17542.html#a0f16b4b35985d658dc185aa88ab099ed", null ],
+    [ "StoreEnergy", "de/dd5/a17542.html#aca3ecc5a6219cb3813f17be404142c6d", null ],
+    [ "_energyLeft", "de/dd5/a17542.html#af082a763f6524aeb5ae2eb3c82fd12e5", null ]
 ];

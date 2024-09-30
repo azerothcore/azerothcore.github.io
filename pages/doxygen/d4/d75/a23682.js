@@ -1,5 +1,8 @@
 var a23682 =
 [
-    [ "npc_guardian_pavilionAI", "d4/d75/a23682.html#a2c116495e65c7f97063aa7dc6516f48c", null ],
-    [ "MoveInLineOfSight", "d4/d75/a23682.html#aeae26e28be93120062d9f77c069ff32a", null ]
+    [ "boss_commander_sarannis", "d4/d75/a23682.html#ace0957feb37f864798008849be25f607", null ],
+    [ "JustDied", "d4/d75/a23682.html#a7796429f04c049549a4a02a1eb8d35fc", null ],
+    [ "JustEngagedWith", "d4/d75/a23682.html#ad4273db7c169c6cfa9917dd3b76c9c95", null ],
+    [ "KilledUnit", "d4/d75/a23682.html#a64e77321adc5eea9d3494a3e1030f9de", null ],
+    [ "ScheduleReinforcements", "d4/d75/a23682.html#a293f0b860a66396a30c6d255eef85309", null ]
 ];

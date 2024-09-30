@@ -1,6 +1,6 @@
 var a21230 =
 [
-    [ "spell_shield_generator_AuraScript", "d8/df3/a21234.html", "d8/df3/a21234" ],
-    [ "spell_shield_generator", "de/d7a/a21230.html#aa1a66d084b7511afe67fe227a7bc5645", null ],
-    [ "GetAuraScript", "de/d7a/a21230.html#ae10060a60b01bcb9428b50483bbb0fc6", null ]
+    [ "npc_frozen_orbAI", "d8/df3/a21234.html", "d8/df3/a21234" ],
+    [ "npc_frozen_orb", "de/d7a/a21230.html#ac14966722e39b2b6b3a907756701ed98", null ],
+    [ "GetAI", "de/d7a/a21230.html#a2f9e1a2cb14ee9e5f24e02aa97697116", null ]
 ];

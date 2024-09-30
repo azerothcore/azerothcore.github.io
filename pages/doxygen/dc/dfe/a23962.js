@@ -1,7 +1,7 @@
 var a23962 =
 [
-    [ "HandleScript", "dc/dfe/a23962.html#a6c4dc8550ae4fced64b6cfc2926e9f94", null ],
-    [ "PrepareSpellScript", "dc/dfe/a23962.html#adb46c37d0589b5e2abf7c4ebd1becc27", null ],
-    [ "Register", "dc/dfe/a23962.html#a424c06a1642fd80d12d83d87335b8c4e", null ],
-    [ "Validate", "dc/dfe/a23962.html#a4bcb40771fc70764fe0408e22e7d67cc", null ]
+    [ "HandleEffect", "dc/dfe/a23962.html#acb353dbdd050bfc6aa4b4b5f6433dc03", null ],
+    [ "PrepareSpellScript", "dc/dfe/a23962.html#ad95bc33917e1aa968eedc636f6e3ddcb", null ],
+    [ "Register", "dc/dfe/a23962.html#ac2b2bd2581a638553167d5c8099a70cd", null ],
+    [ "Validate", "dc/dfe/a23962.html#a7702b0e876ab5ccd750d1072ee70ed69", null ]
 ];

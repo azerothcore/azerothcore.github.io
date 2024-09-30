@@ -1,6 +1,7 @@
 var a23258 =
 [
-    [ "npc_injured_7th_legion_soldierAI", "dc/df8/a23262.html", "dc/df8/a23262" ],
-    [ "npc_injured_7th_legion_soldier", "df/dfc/a23258.html#a9d3c647f485dbca5efeec8f784efba1b", null ],
-    [ "GetAI", "df/dfc/a23258.html#a0feca7aedcf3c07253d4d402266189cc", null ]
+    [ "PeriodicTick", "df/dfc/a23258.html#a789d2d4d2bc75e412abe80a33102fa06", null ],
+    [ "PrepareAuraScript", "df/dfc/a23258.html#a49db8ade3bc3a3da9e043e8b9ad1759d", null ],
+    [ "Register", "df/dfc/a23258.html#aec2d7f564107f5b294a5d5c3dd3f9b25", null ],
+    [ "Validate", "df/dfc/a23258.html#a7c2309d3192b2a18d8035c8067849d6d", null ]
 ];

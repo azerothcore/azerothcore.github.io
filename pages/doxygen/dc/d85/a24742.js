@@ -1,6 +1,6 @@
 var a24742 =
 [
-    [ "boss_illidari_councilAI", "db/d3d/a24746.html", "db/d3d/a24746" ],
-    [ "boss_illidari_council", "dc/d85/a24742.html#ad9fc03c7adce1493fe8cb5272824d82b", null ],
-    [ "GetAI", "dc/d85/a24742.html#aefa944e6eee2dd9670f5c39b8ea0c7e7", null ]
+    [ "OnHit", "dc/d85/a24742.html#a56ecd2ea05f48b874b2890d7f15cc362", null ],
+    [ "PrepareSpellScript", "dc/d85/a24742.html#a0d74ce7c43f0cb7329ca990f1b0eecdf", null ],
+    [ "Register", "dc/d85/a24742.html#a7cd2cc858eeb7805a3efb72b081c284e", null ]
 ];

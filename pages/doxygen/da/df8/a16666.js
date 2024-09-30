@@ -1,7 +1,6 @@
 var a16666 =
 [
-    [ "npc_toc_mageAI", "da/df8/a16666.html#a188831088c892f68cef7498468b24899", null ],
-    [ "myCanCast", "da/df8/a16666.html#aaf7fd7b143a4eb410465c7cb34c32d2f", null ],
-    [ "UpdateAI", "da/df8/a16666.html#a0f4393341a6c565aef2c0b79a39c0699", null ],
-    [ "events", "da/df8/a16666.html#ab1910ce98f3d1b14e45acba22782d536", null ]
+    [ "npc_fos_leader_secondAI", "d3/d7d/a16670.html", "d3/d7d/a16670" ],
+    [ "npc_fos_leader_second", "da/df8/a16666.html#a0e24659ef6e834da5a3adc8d79f0db4e", null ],
+    [ "GetAI", "da/df8/a16666.html#a96082888ccbb1c81be8327e5e0d84e03", null ]
 ];

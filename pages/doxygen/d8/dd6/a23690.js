@@ -1,12 +1,7 @@
 var a23690 =
 [
-    [ "npc_tournament_training_dummyAI", "d8/dd6/a23690.html#ab84a35b5145c74f16dfbbe020dd9a73b", null ],
-    [ "DamageTaken", "d8/dd6/a23690.html#a98c18794124922e6946a82a324410837", null ],
-    [ "EnterEvadeMode", "d8/dd6/a23690.html#a3f31d705284b0fad2f00c9210ff06646", null ],
-    [ "MoveInLineOfSight", "d8/dd6/a23690.html#a7a05c8682767f5a2d847e99eeed8e00f", null ],
-    [ "Reset", "d8/dd6/a23690.html#a7339ffe52dc789f9480afca7141a169e", null ],
-    [ "SpellHit", "d8/dd6/a23690.html#a5cd56075333fb59ddd8d4a48dc2eecdf", null ],
-    [ "UpdateAI", "d8/dd6/a23690.html#a8bba917f0e0d67cd7a0121ab71d5a419", null ],
-    [ "events", "d8/dd6/a23690.html#a77fa2ef2f15208ab8b284c71e0227fc4", null ],
-    [ "isVulnerable", "d8/dd6/a23690.html#a4a4d3029a329e6eb253bc57c5f7b2a98", null ]
+    [ "HandleCast", "d8/dd6/a23690.html#a0084e7f81fcd032c1e04b8f86d821993", null ],
+    [ "PrepareSpellScript", "d8/dd6/a23690.html#acfd6b86e5afed08fd9cf43f64e948149", null ],
+    [ "Register", "d8/dd6/a23690.html#a6ae0573ea69573df64cd57ba84f99918", null ],
+    [ "Validate", "d8/dd6/a23690.html#ab5794ca5c0863ce40194ed40e156279a", null ]
 ];

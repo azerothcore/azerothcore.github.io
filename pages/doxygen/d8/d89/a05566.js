@@ -1,11 +1,10 @@
 var a05566 =
 [
-    [ "SQLOperation", "d8/d89/a05566.html#a0f69657715b7d24458227b22a3b40b1a", null ],
-    [ "~SQLOperation", "d8/d89/a05566.html#afa21cafba57dd35ed2b132ef3d18c71b", null ],
-    [ "SQLOperation", "d8/d89/a05566.html#a91b34b81ed99ca0da54d825fec98ab6e", null ],
-    [ "call", "d8/d89/a05566.html#ae56c06a313c4be5d0e45f5481996f1d1", null ],
-    [ "Execute", "d8/d89/a05566.html#aff1090554bc4a6fe7a33270e63416e19", null ],
-    [ "operator=", "d8/d89/a05566.html#ac31349ed45ea051540ac345bd4b814d5", null ],
-    [ "SetConnection", "d8/d89/a05566.html#a52cbd1d9b8a298ab3eade0010b5e3166", null ],
-    [ "m_conn", "d8/d89/a05566.html#adf322db48064fcf4528f713f857f1b40", null ]
+    [ "FreezeDetector", "da/d19/a04667.html#gae4bea4699ff716ee22295d12bc9f1b9b", null ],
+    [ "Handler", "da/d19/a04667.html#gad4c4e5b291e0c6c2dc169a7dbffdfabb", null ],
+    [ "Start", "da/d19/a04667.html#ga6a90ff702a8d363bd23334c81e2e5770", null ],
+    [ "_lastChangeMsTime", "da/d19/a04667.html#ga0a2b971b7ea733d846be71abf7b5dc1d", null ],
+    [ "_maxCoreStuckTimeInMs", "da/d19/a04667.html#ga54077eab38ea5d0db27f08c50fd0652e", null ],
+    [ "_timer", "da/d19/a04667.html#ga3869080cb36ab9d4f244b9f10280550a", null ],
+    [ "_worldLoopCounter", "da/d19/a04667.html#ga0ea988a0e070d056c16d7c9f3b1035f4", null ]
 ];

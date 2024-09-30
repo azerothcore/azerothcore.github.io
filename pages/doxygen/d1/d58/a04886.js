@@ -1,9 +1,9 @@
 var a04886 =
 [
-    [ "SessionKeyGenerator", "d1/d58/a04886.html#a8fa39e01cd3ed24e13735343ad658cbb", null ],
-    [ "Generate", "d1/d58/a04886.html#a2162fde8dbb84fc165faedaafed706b5", null ],
-    [ "o0", "d1/d58/a04886.html#a1eb1aafb255ccf771b0a49dcab869297", null ],
-    [ "o0it", "d1/d58/a04886.html#a7ea5a4a796da94a2dc14570d4336c27b", null ],
-    [ "o1", "d1/d58/a04886.html#a462354aed63797a90fc228e6399cb740", null ],
-    [ "o2", "d1/d58/a04886.html#a617205c872f2163026d511809776a775", null ]
+    [ "ManagedModel", "d1/d58/a04886.html#ab641724be7e7791c2c95982acc13f3b0", null ],
+    [ "decRefCount", "d1/d58/a04886.html#a5a104acbc0661b19ba2a662dc669b73d", null ],
+    [ "getModel", "d1/d58/a04886.html#a053fc6647a16746fba19a0795610fea2", null ],
+    [ "setModel", "d1/d58/a04886.html#aa450ae6be22d507c36a746850629831d", null ],
+    [ "iModel", "d1/d58/a04886.html#a5e20d0157691bd6036247a83eea8d19b", null ],
+    [ "iRefCount", "d1/d58/a04886.html#afb30ad900a5979f98276324a1ab1c328", null ]
 ];

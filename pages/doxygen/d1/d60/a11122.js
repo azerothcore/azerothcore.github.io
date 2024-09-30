@@ -1,5 +1,7 @@
 var a11122 =
 [
-    [ "flag", "d1/d60/a11122.html#ae1419ecdb46b888ad0250ff77ccb9b6e", null ],
-    [ "text", "d1/d60/a11122.html#a87700bc5f863f448b346c2aec2152ba4", null ]
+    [ "PlayerGuid", "d1/d60/a11122.html#a629a600c48376d04293c225390f747ff", null ],
+    [ "PrimaryKey", "d1/d60/a11122.html#a7c1ef4d19fb49e5813868ff2ccfe12fc", null ],
+    [ "StoredType", "d1/d60/a11122.html#a9bea7cf549813010b55c23417d65edc6", null ],
+    [ "TableName", "d1/d60/a11122.html#a0f308af88812c110c490c94368bda482", null ]
 ];

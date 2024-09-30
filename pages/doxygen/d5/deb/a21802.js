@@ -1,6 +1,6 @@
 var a21802 =
 [
-    [ "npc_ulduar_flames_spreadAI", "de/d6b/a21806.html", "de/d6b/a21806" ],
-    [ "npc_ulduar_flames_spread", "d5/deb/a21802.html#aca9713b28d6d0c7b13b85a00c8a53ab0", null ],
-    [ "GetAI", "d5/deb/a21802.html#af492a5bc9304a05f8475a39458c6abdb", null ]
+    [ "npc_spiritual_insightAI", "de/d6b/a21806.html", "de/d6b/a21806" ],
+    [ "npc_spiritual_insight", "d5/deb/a21802.html#afe7b9d5953462719407f03b33b8de564", null ],
+    [ "GetAI", "d5/deb/a21802.html#ab2884e1160ccad9adb8e3ae69db55bc4", null ]
 ];

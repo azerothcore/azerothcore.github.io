@@ -1,6 +1,7 @@
 var a24090 =
 [
-    [ "npc_storm_cloudAI", "d2/d51/a24094.html", "d2/d51/a24094" ],
-    [ "npc_storm_cloud", "d9/d63/a24090.html#a8403185cdf54b2924024ba1d1d44a06a", null ],
-    [ "GetAI", "d9/d63/a24090.html#a952bd1cf5406b989182d8560d8b9e665", null ]
+    [ "HandleScriptEffect", "d9/d63/a24090.html#ad018d907a85ee31d3194823a4c02a1a5", null ],
+    [ "PrepareSpellScript", "d9/d63/a24090.html#a50b6bc43eaeee0ec760c02ac1685454e", null ],
+    [ "Register", "d9/d63/a24090.html#a2096673a3f57cc224aeb7d3ce84526cb", null ],
+    [ "Validate", "d9/d63/a24090.html#a5209de3456c374010502a94f67ff4544", null ]
 ];

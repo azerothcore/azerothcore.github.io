@@ -1,6 +1,8 @@
 var a19902 =
 [
-    [ "npc_four_car_garageAI", "da/dcc/a19906.html", "da/dcc/a19906" ],
-    [ "npc_four_car_garage", "d4/dde/a19902.html#ae9b811544ab5cbdcb9c44abdc2da41a8", null ],
-    [ "GetAI", "d4/dde/a19902.html#ac55346f9733c5502a9e9f2d6d48feefb", null ]
+    [ "HandleOnEffectApply", "d4/dde/a19902.html#a83ff54727e886161c5568a60833932d1", null ],
+    [ "HandleOnEffectRemove", "d4/dde/a19902.html#a9e48d1c9dc26f882ee685a2cbf59667e", null ],
+    [ "PrepareAuraScript", "d4/dde/a19902.html#a5ec8ffeceae335423dff10f54e096e8a", null ],
+    [ "Register", "d4/dde/a19902.html#ae07af138c6f9c565799574b4f8343492", null ],
+    [ "Validate", "d4/dde/a19902.html#a3a24a25c9b9b118d20ca2b14fbfc5869", null ]
 ];

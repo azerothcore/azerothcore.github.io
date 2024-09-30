@@ -1,6 +1,6 @@
 var a20042 =
 [
-    [ "FilterTargets", "d8/d63/a20042.html#af4f5c60cb45e5b55f6fe81440c5f6e8a", null ],
-    [ "PrepareSpellScript", "d8/d63/a20042.html#a8f73046f97233726dd654b6ddc3a0236", null ],
-    [ "Register", "d8/d63/a20042.html#a145171dcbdee250640b5e4a69456bf6d", null ]
+    [ "FilterTargets", "d8/d63/a20042.html#adb438b9bcf4be347aeabf6608fbfb8a4", null ],
+    [ "PrepareSpellScript", "d8/d63/a20042.html#a88f5ca3aaa575cff0ba778f9b575d656", null ],
+    [ "Register", "d8/d63/a20042.html#ac7337b4ee8511f72b129fccc83b3241e", null ]
 ];

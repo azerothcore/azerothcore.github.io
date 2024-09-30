@@ -1,7 +1,5 @@
 var a07582 =
 [
-    [ "CreatureSpellCooldown", "df/dd7/a07582.html#a6d234a93951992640df5720a2885be3e", null ],
-    [ "CreatureSpellCooldown", "df/dd7/a07582.html#a53364a501b0ce66e05ec0e6638f6cb6e", null ],
-    [ "category", "df/dd7/a07582.html#a27330a80d711087f1894b2ce816c33b8", null ],
-    [ "end", "df/dd7/a07582.html#a9c1c5f2b6e9a6cd015085e79b043e483", null ]
+    [ "calcThreat", "df/dd7/a07582.html#a0f3da2af1c68a535ac2396dd600ee00b", null ],
+    [ "isValidProcess", "df/dd7/a07582.html#a86dca4bc12138bef3dd53d4b3356f5d2", null ]
 ];

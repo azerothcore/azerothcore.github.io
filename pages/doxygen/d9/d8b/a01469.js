@@ -1,16 +1,9 @@
 var a01469 =
 [
-    [ "SummonList", "db/d46/a06088.html", "db/d46/a06088" ],
-    [ "EntryCheckPredicate", "d7/da0/a06092.html", "d7/da0/a06092" ],
-    [ "PlayerOrPetCheck", "da/db0/a06096.html", "da/db0/a06096" ],
-    [ "ScriptedAI", "de/daa/a06100.html", "de/daa/a06100" ],
-    [ "HealthCheckEventData", "de/d7b/a06104.html", "de/d7b/a06104" ],
-    [ "BossAI", "d9/d60/a06108.html", "d9/d60/a06108" ],
-    [ "WorldBossAI", "d8/d7b/a06112.html", "d8/d7b/a06112" ],
-    [ "ObjectList", "d9/d8b/a01469.html#acc68161fe019b33e9356ea1473fba71d", null ],
-    [ "GetClosestCreatureWithEntry", "d9/d8b/a01469.html#a9ffd6f6c01576a8d3369c3a4f6dbaa0b", null ],
-    [ "GetClosestGameObjectWithEntry", "d9/d8b/a01469.html#acaba34b4ac104e5289c265c1f8524b15", null ],
-    [ "GetCreatureListWithEntryInGrid", "d9/d8b/a01469.html#ab6a8246d473139627106be4651f6329d", null ],
-    [ "GetDeadCreatureListInGrid", "d9/d8b/a01469.html#a4a92c9585e18b56cdbe0d0c0976de7d1", null ],
-    [ "GetGameObjectListWithEntryInGrid", "d9/d8b/a01469.html#ae9abb80c4e811509bca88e65cf817276", null ]
+    [ "ePoints", "d9/d8b/a01469.html#a2604bd06487e34b78d3e50cd892f3c4d", [
+      [ "POINT_LAST_POINT", "d2/d21/a01484.html#a2604bd06487e34b78d3e50cd892f3c4da7d10089a0c5a8c42786b90cd3ba643cb", null ],
+      [ "POINT_HOME", "d2/d21/a01484.html#a2604bd06487e34b78d3e50cd892f3c4da032be97ee26935943c3313fb24491162", null ],
+      [ "POINT_COMBAT_START", "d9/d8b/a01469.html#a2604bd06487e34b78d3e50cd892f3c4da91adf90069f0b0a515897fbdc91e20b4", null ]
+    ] ],
+    [ "MAX_PLAYER_DISTANCE", "d9/d8b/a01469.html#acd0b392fc88f24b24201fba8b76d33a2", null ]
 ];

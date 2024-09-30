@@ -1,11 +1,12 @@
 var a15486 =
 [
-    [ "npc_tiger_matriarchAI", "d3/d67/a15486.html#accbe5feed1eb7363575f297d1b50f6ab", null ],
-    [ "DamageTaken", "d3/d67/a15486.html#ab41c4275fe4f42b36615f746a100ccda", null ],
-    [ "IsSummonedBy", "d3/d67/a15486.html#a8b02683be93944a65b38658bba0af4d8", null ],
-    [ "JustEngagedWith", "d3/d67/a15486.html#a9a9295008552f5330f778dd3a0c591ea", null ],
-    [ "KilledUnit", "d3/d67/a15486.html#aabde7633ac07966ee1cd2d9817582189", null ],
-    [ "UpdateAI", "d3/d67/a15486.html#af8ed5b16a3f1ed04d439bc1ce1a07ede", null ],
-    [ "_events", "d3/d67/a15486.html#a44632ddc3c4e57bee1791cda4027bc93", null ],
-    [ "_tigerGuid", "d3/d67/a15486.html#ad557591ddebd4cece99b0e5793be3eb5", null ]
+    [ "npc_wizzlecrank_shredderAI", "d3/d67/a15486.html#a055c4b426219aa3372a83d2e2021d916", null ],
+    [ "JustSummoned", "d3/d67/a15486.html#a7cad21f0b3286ed75256a49c315069ce", null ],
+    [ "Reset", "d3/d67/a15486.html#a86929e8a2f3433f37e4dda03e3011193", null ],
+    [ "UpdateEscortAI", "d3/d67/a15486.html#acb95eeebd0317f1d95bc48d6b9e7e962", null ],
+    [ "WaypointReached", "d3/d67/a15486.html#a369ae3d62d1289a1c840bdc3184b463d", null ],
+    [ "WaypointStart", "d3/d67/a15486.html#a00857e372e53950338ed71d672edb780", null ],
+    [ "IsPostEvent", "d3/d67/a15486.html#a9207ffdb39627b1262ec209fe41d6d0a", null ],
+    [ "PostEventCount", "d3/d67/a15486.html#aa5284a284c074f32cee85d29aea00f2f", null ],
+    [ "PostEventTimer", "d3/d67/a15486.html#a3c43ede2df7b1ea61b0f1625e2e1461c", null ]
 ];

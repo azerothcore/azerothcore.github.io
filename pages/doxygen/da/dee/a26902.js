@@ -1,6 +1,7 @@
 var a26902 =
 [
-    [ "OnPeriodic", "da/dee/a26902.html#a3bcef6bd4501489320ef1242a66c50e8", null ],
-    [ "PrepareAuraScript", "da/dee/a26902.html#ab18f839ab70cc61e52c5e9ddb4847140", null ],
-    [ "Register", "da/dee/a26902.html#afbc707f30b7db0329f24b9ab8e8134e0", null ]
+    [ "CheckProc", "da/dee/a26902.html#a957f8837b5613a3bfd8200ded3529c54", null ],
+    [ "HandleEffectProc", "da/dee/a26902.html#a54810a897e535558d060119e3de6537b", null ],
+    [ "PrepareAuraScript", "da/dee/a26902.html#a37950bfd846e1c2c550a108461941a26", null ],
+    [ "Register", "da/dee/a26902.html#a16c273043e81fd163fb7c3f517ee6f4c", null ]
 ];

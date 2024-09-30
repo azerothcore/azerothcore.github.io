@@ -1,11 +1,11 @@
 var a12566 =
 [
-    [ "npc_crusade_persuadedAI", "d4/d95/a12566.html#a9a6a762384bb8ca74a34d30472fa8e3c", null ],
-    [ "JustEngagedWith", "d4/d95/a12566.html#a6266a91324717feee94727a0578e9584", null ],
-    [ "Reset", "d4/d95/a12566.html#a127c36f01e2ddfeb26f3192a1db8ffaf", null ],
-    [ "SpellHit", "d4/d95/a12566.html#a72476d0e2c63d629c2200824cd3cb5a1", null ],
-    [ "UpdateAI", "d4/d95/a12566.html#a078facb2a0e5ba27f44999e7bb1e55f7", null ],
-    [ "playerGUID", "d4/d95/a12566.html#a3076964de32f12d70d41677fb626719b", null ],
-    [ "speechCounter", "d4/d95/a12566.html#a4b0c5d69a7563b2f4f399a60010378a9", null ],
-    [ "speechTimer", "d4/d95/a12566.html#aada4f1277fc1f000c27cefcd6011c24d", null ]
+    [ "npc_scarlet_ghoulAI", "d4/d95/a12566.html#a194795143717de5aa8f0ca4c4e516136", null ],
+    [ "InitializeAI", "d4/d95/a12566.html#ad0fd204d15350332508b0c9d9decefb1", null ],
+    [ "MovementInform", "d4/d95/a12566.html#a9836c91a7dede1fabd1e0a9523ebd26a", null ],
+    [ "OwnerAttackedBy", "d4/d95/a12566.html#a5b0afc1f2ee57a1cc5e30b8e997ba218", null ],
+    [ "SetGUID", "d4/d95/a12566.html#a832602498643a03087efbc0a5a2f81c3", null ],
+    [ "UpdateAI", "d4/d95/a12566.html#adbe4d539552e7954c7bdb8e520cb9783", null ],
+    [ "events", "d4/d95/a12566.html#a105ac0982d28be590d514d2e452109c0", null ],
+    [ "gothikGUID", "d4/d95/a12566.html#ab5efaf2e030f92d7ab45de8b5d19804d", null ]
 ];

@@ -1,7 +1,7 @@
 var a17934 =
 [
-    [ "CheckProc", "db/d39/a17934.html#a0d64439e4de0c84017a072825d09a238", null ],
-    [ "HandleProc", "db/d39/a17934.html#a71154e5c54212595071fe0ab00c0b843", null ],
-    [ "PrepareAuraScript", "db/d39/a17934.html#a6d26243e6f6bd2b1fa33952fa654f1ee", null ],
-    [ "Register", "db/d39/a17934.html#af373e98d828b9f0fa3f2107d0ec4b604", null ]
+    [ "PeriodicTick", "db/d39/a17934.html#a79b63e30f37df8a961b57c4b10669800", null ],
+    [ "PrepareAuraScript", "db/d39/a17934.html#a091a72cf97d5fbd6ffbf95ad3e409aa6", null ],
+    [ "Register", "db/d39/a17934.html#a860e2bc444f5aeb78837cd1a6eff40a3", null ],
+    [ "Validate", "db/d39/a17934.html#a32cbe3a7eedf7b37229168a6154167b0", null ]
 ];

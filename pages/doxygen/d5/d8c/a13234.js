@@ -1,6 +1,6 @@
 var a13234 =
 [
-    [ "OnPeriodic", "d5/d8c/a13234.html#a36a5cc378f78447853ef100e297becd9", null ],
-    [ "PrepareAuraScript", "d5/d8c/a13234.html#aa10abdf4411da03f03dfa27c3df1a9a7", null ],
-    [ "Register", "d5/d8c/a13234.html#a1098b7df187ad030adcc16cb82911151", null ]
+    [ "spell_uldaman_sub_boss_agro_keepers_SpellScript", "d8/d3b/a13238.html", "d8/d3b/a13238" ],
+    [ "spell_uldaman_sub_boss_agro_keepers", "d5/d8c/a13234.html#abf3c4ac5e131f66ee8c7dcafa6d78279", null ],
+    [ "GetSpellScript", "d5/d8c/a13234.html#a2db1d5f97da0387d1565809f8b090f2f", null ]
 ];

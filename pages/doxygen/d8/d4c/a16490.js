@@ -1,8 +1,6 @@
 var a16490 =
 [
-    [ "npc_black_knight_skeletal_gryphonAI", "d8/d4c/a16490.html#ada99dced1e560aebc908a0efb6c23d0a", null ],
-    [ "DoAction", "d8/d4c/a16490.html#af38e129cdf4af99e99c41b6a98448e56", null ],
-    [ "Reset", "d8/d4c/a16490.html#a5e20d5e17baaac92a560a5b2fe15fe7b", null ],
-    [ "UpdateAI", "d8/d4c/a16490.html#a851008790128831c5c10710b4cccb196", null ],
-    [ "WaypointReached", "d8/d4c/a16490.html#a74b5fb1d3631c404e7797085e45e6159", null ]
+    [ "spell_valkyr_ball_periodic_dummyAuraScript", "d1/d57/a16494.html", "d1/d57/a16494" ],
+    [ "spell_valkyr_ball_periodic_dummy", "d8/d4c/a16490.html#a0a8ea4997a87c486ac68cae0259d5ad5", null ],
+    [ "GetAuraScript", "d8/d4c/a16490.html#abfc4ad26352893ac44d0d8468b3b22f7", null ]
 ];

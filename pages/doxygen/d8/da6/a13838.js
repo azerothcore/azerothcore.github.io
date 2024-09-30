@@ -1,6 +1,6 @@
 var a13838 =
 [
-    [ "npc_forest_frogAI", "d3/db7/a13842.html", "d3/db7/a13842" ],
-    [ "npc_forest_frog", "d8/da6/a13838.html#a31a1a10db8eaeca39a60e5dc3f028f8e", null ],
-    [ "GetAI", "d8/da6/a13838.html#a51a83289e04ed9dfa587d448d4b5b1fe", null ]
+    [ "FilterTargets", "d8/da6/a13838.html#ac29f6792f36f1b5ef4a463754c725a2e", null ],
+    [ "PrepareSpellScript", "d8/da6/a13838.html#a0a1cbde8aff10303d91a791276a865f4", null ],
+    [ "Register", "d8/da6/a13838.html#a9f7d21ab52f581ad154a242ce84d8a5d", null ]
 ];

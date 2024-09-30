@@ -1,6 +1,8 @@
 var a18670 =
 [
-    [ "HandleScript", "db/dfd/a18670.html#ae8934baa1f5b3ed025b6960da5e9bbe4", null ],
-    [ "PrepareSpellScript", "db/dfd/a18670.html#a4a06b7bd1609de771c60f62b089052ab", null ],
-    [ "Register", "db/dfd/a18670.html#aee4cb42b492d834b520852f14b82b16d", null ]
+    [ "Class", "db/dfd/a18670.html#a095390e9023609f5836c4481ed79e1af", null ],
+    [ "cooldown_ms", "db/dfd/a18670.html#a6f1fdab250e8557d16066c03a54fb2a4", null ],
+    [ "id", "db/dfd/a18670.html#ae9fdf89271339b93f306c4aa0871f844", null ],
+    [ "range", "db/dfd/a18670.html#aad126da206abceb6a66dcda1cbd3b28b", null ],
+    [ "targetType", "db/dfd/a18670.html#ae5fc8cb423536f631591d3b72bfd06dd", null ]
 ];

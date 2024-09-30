@@ -1,6 +1,5 @@
 var a27282 =
 [
-    [ "CalculateAmount", "d2/d00/a27282.html#ac0018b57967a3d3ae71aa81745032f15", null ],
-    [ "PrepareAuraScript", "d2/d00/a27282.html#ab249a493050c5527eeec8913e94cfc64", null ],
-    [ "Register", "d2/d00/a27282.html#a8f078f8370eacba197ceb2068b6a538d", null ]
+    [ "go_massive_seaforium_charge", "d2/d00/a27282.html#adae43b764f237932923cd18207e4d23c", null ],
+    [ "OnGossipHello", "d2/d00/a27282.html#a187e28c773ad904f245d11d3f5b9d7e3", null ]
 ];

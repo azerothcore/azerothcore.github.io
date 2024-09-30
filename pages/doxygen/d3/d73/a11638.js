@@ -1,6 +1,6 @@
 var a11638 =
 [
-    [ "go_chromaggus_leverAI", "d3/d73/a11638.html#a51406a7e313702282cebfbf067c9ce4e", null ],
-    [ "GossipHello", "d3/d73/a11638.html#a44ece597fcfcf290234cc1ef073fbf18", null ],
-    [ "_instance", "d3/d73/a11638.html#a364f66c7cf0a7bc4a3ea97b87ebe9f90", null ]
+    [ "boss_high_priestess_thaurissanAI", "d3/d73/a11638.html#acbc89b59865a5fda5a4143dd8c690b37", null ],
+    [ "JustEngagedWith", "d3/d73/a11638.html#a6602682950aab4e9932bf6cdfac9886b", null ],
+    [ "UpdateAI", "d3/d73/a11638.html#a216a5bc7a38aa5e13f9d025f44e04779", null ]
 ];

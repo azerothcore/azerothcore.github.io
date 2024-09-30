@@ -1,7 +1,7 @@
 var a26654 =
 [
-    [ "CheckProc", "da/d91/a26654.html#a5a74f30b941460c8347dca81dcee1bf6", null ],
-    [ "HandleProc", "da/d91/a26654.html#a15592382213762145eb30d85bfcbd60a", null ],
-    [ "PrepareAuraScript", "da/d91/a26654.html#a82201b03b7b642e7898889412a617712", null ],
-    [ "Register", "da/d91/a26654.html#aba014f9b0000d19cabbc5a9c763b934b", null ]
+    [ "AfterRemove", "da/d91/a26654.html#ad0bad4a07d5a65a7834e7ab46e082b20", null ],
+    [ "PrepareAuraScript", "da/d91/a26654.html#af338af238305f1872275e1e5e9fdee16", null ],
+    [ "Register", "da/d91/a26654.html#aa266e794be35b51a399b13ee2d06199d", null ],
+    [ "Validate", "da/d91/a26654.html#af58098eb7a904e20846cf728f5adc18b", null ]
 ];

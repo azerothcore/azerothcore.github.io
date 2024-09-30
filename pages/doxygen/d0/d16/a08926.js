@@ -1,8 +1,8 @@
 var a08926 =
 [
-    [ "flags", "d0/d16/a08926.html#a7ecce103d428ed7f91aa12fa5547561c", null ],
-    [ "group", "d0/d16/a08926.html#a0902606d44c8baa1a20b5b2cdd9b4787", null ],
-    [ "guid", "d0/d16/a08926.html#a97a20b4ccf1978165a5f5c7ff4ffb2b4", null ],
-    [ "name", "d0/d16/a08926.html#ab0719bb9805048b58a3e4c75e09d1ee7", null ],
-    [ "roles", "d0/d16/a08926.html#a2109aae0b3ebf74b065b97cc929c2954", null ]
+    [ "CreatureWorker", "d0/d16/a08926.html#a4b4dc219d034565cd83748c5f1cab2a5", null ],
+    [ "Visit", "d0/d16/a08926.html#ae67044250380c521055f80c55de0bba5", null ],
+    [ "Visit", "d0/d16/a08926.html#aa9a450b147aafe46a49135f5c5be668e", null ],
+    [ "i_do", "d0/d16/a08926.html#ac22f86d9a41701e7527d4840da256f11", null ],
+    [ "i_phaseMask", "d0/d16/a08926.html#adf514c89c894cdf2b44fc75d14c4f5b0", null ]
 ];

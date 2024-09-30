@@ -1,10 +1,14 @@
 var a09346 =
 [
-    [ "ID", "d0/d0f/a09346.html#a3bd2bf63526b6ee4a15cf7a2244ff06b", null ],
-    [ "Map", "d0/d0f/a09346.html#af4e60380e8434e5b8f573d2172ddf656", null ],
-    [ "name", "d0/d0f/a09346.html#ae1dd7ba1294653756ea4af9d9b66fa2c", null ],
-    [ "wnameLow", "d0/d0f/a09346.html#a148ead3270ad02213204792d6063cead", null ],
-    [ "x", "d0/d0f/a09346.html#ae8f23fc9e53f6357d56b3a25ed514330", null ],
-    [ "y", "d0/d0f/a09346.html#af2e239c4c76dff49090f8f1d8eb4d455", null ],
-    [ "z", "d0/d0f/a09346.html#adf56d09898752230a4fa1629849ac945", null ]
+    [ "LootItemStorage", "d0/d0f/a09346.html#aa6ece474f05744f2ce24a9fef42734af", null ],
+    [ "~LootItemStorage", "d0/d0f/a09346.html#a36faeed6ef556fd13118c4ad34e38548", null ],
+    [ "AddNewStoredLoot", "d0/d0f/a09346.html#a4c463773b50ae1b312865fbf72dfed18", null ],
+    [ "instance", "d0/d0f/a09346.html#a58d6dc6afa42364ca1dd6cbdcfb55b2b", null ],
+    [ "LoadStorageFromDB", "d0/d0f/a09346.html#a377c75f9d06eb246072b29d19baf2b62", null ],
+    [ "LoadStoredLoot", "d0/d0f/a09346.html#ad9804f564302d6ea4db4b84a6cbb093b", null ],
+    [ "RemoveEntryFromDB", "d0/d0f/a09346.html#a8ab68725c0525d162d325a2131db4c49", null ],
+    [ "RemoveStoredLoot", "d0/d0f/a09346.html#a414dee93f9852a64f01f9d9bf8dc8b40", null ],
+    [ "RemoveStoredLootItem", "d0/d0f/a09346.html#a6fd3f2ac820784ba51413b3781df3bcc", null ],
+    [ "RemoveStoredLootMoney", "d0/d0f/a09346.html#ab22d267a6701fedf824f801e4b703f70", null ],
+    [ "lootItemStore", "d0/d0f/a09346.html#a58ae52b9812e5752ba00d00a58eb56b0", null ]
 ];

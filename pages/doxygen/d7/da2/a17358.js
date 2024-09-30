@@ -1,6 +1,7 @@
 var a17358 =
 [
-    [ "spell_krick_explosive_barrage_AuraScript", "d6/dae/a17362.html", "d6/dae/a17362" ],
-    [ "spell_krick_explosive_barrage", "d7/da2/a17358.html#a3104cb4a6d44281f04a68c55bbe6c815", null ],
-    [ "GetAuraScript", "d7/da2/a17358.html#a83055c6e2618b131a89b5365d255b92b", null ]
+    [ "HandleScript", "d7/da2/a17358.html#a5fe0b684473bd5dd1ff9b12432ff3de8", null ],
+    [ "Load", "d7/da2/a17358.html#ab1d81386ae3ccd332c01864d7f456017", null ],
+    [ "PrepareSpellScript", "d7/da2/a17358.html#ae3ef753ff4c99aa8bed20ce3369a7e0f", null ],
+    [ "Register", "d7/da2/a17358.html#a7edb44f70501c2e760d29c8f78a4e087", null ]
 ];

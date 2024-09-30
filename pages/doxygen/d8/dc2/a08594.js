@@ -1,8 +1,10 @@
 var a08594 =
 [
-    [ "AIRelocationNotifier", "d8/dc2/a08594.html#ab19dba99802231bc1ba7b3ae3cb4bdb3", null ],
-    [ "Visit", "d8/dc2/a08594.html#a06dd774a24d4a1da36a2a862c0ad97df", null ],
-    [ "Visit", "d8/dc2/a08594.html#a0ec9a2499d73516dd2d4a0319990924a", null ],
-    [ "i_unit", "d8/dc2/a08594.html#ab1dd814e4d94ed2989bb07012a24d40e", null ],
-    [ "isCreature", "d8/dc2/a08594.html#a199f4b91d00dd4db90855e5521d87a95", null ]
+    [ "mapId", "d8/dc2/a08594.html#a828d8b93918ea8ba695e0c5e597c855d", null ],
+    [ "name", "d8/dc2/a08594.html#a9dd0dacb5825cf3afd117c22ac5ebf21", null ],
+    [ "orientation", "d8/dc2/a08594.html#a49b4a83290dbe39ab0be79a8ae2f03a6", null ],
+    [ "position_x", "d8/dc2/a08594.html#a65e7390a1dbb615a155c4f163b830e11", null ],
+    [ "position_y", "d8/dc2/a08594.html#a3d3f398cd23566dce721fefeae7af33c", null ],
+    [ "position_z", "d8/dc2/a08594.html#a9ff9a74b00016df6df7c27ebce8ff3fb", null ],
+    [ "wnameLow", "d8/dc2/a08594.html#ac63cbb609eadc584fe61d33fb709c4d6", null ]
 ];

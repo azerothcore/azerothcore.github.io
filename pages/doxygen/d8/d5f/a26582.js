@@ -1,7 +1,9 @@
 var a26582 =
 [
-    [ "HandleDummy", "d8/d5f/a26582.html#a54f7f56a9122b623855eb9d11e34dfca", null ],
-    [ "PrepareSpellScript", "d8/d5f/a26582.html#a2fe4b009fa3741c180e18730af5853e3", null ],
-    [ "Register", "d8/d5f/a26582.html#a762c2320ab8d48e1284d81962a4b078f", null ],
-    [ "Validate", "d8/d5f/a26582.html#a42fbc381d7ae89f1ac265fb15ebd864f", null ]
+    [ "HandleHeal", "d8/d5f/a26582.html#ad2d854d275dc6f8b67b866d864b6febe", null ],
+    [ "Load", "d8/d5f/a26582.html#a507a7a4ff11f8bf1157e034d086cd9ad", null ],
+    [ "PrepareSpellScript", "d8/d5f/a26582.html#a91eb46af707897f228e5d1bbd199a833", null ],
+    [ "Register", "d8/d5f/a26582.html#ae28f1b0c23511153eafc037cae067bc0", null ],
+    [ "firstHeal", "d8/d5f/a26582.html#a405326e6e1cd82816aef1712fdf335a0", null ],
+    [ "riptide", "d8/d5f/a26582.html#acaec32f6730bc2e04e613aa982d285bf", null ]
 ];

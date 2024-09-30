@@ -1,6 +1,7 @@
 var a16354 =
 [
-    [ "OnSummon", "d9/d78/a16354.html#a357fe0fdfd739525e0a03bb5e7882730", null ],
-    [ "PrepareSpellScript", "d9/d78/a16354.html#a08e6f2d704a0b2091ac8693b52dd239d", null ],
-    [ "Register", "d9/d78/a16354.html#af65eb2921ecfdd0a92b8e9c7b6cde5f3", null ]
+    [ "HandleDispel", "d9/d78/a16354.html#ab720416f0497b4ad827208e186afd79a", null ],
+    [ "PrepareAuraScript", "d9/d78/a16354.html#a2f79b7869018b4a775c64c8d985d4a0c", null ],
+    [ "Register", "d9/d78/a16354.html#a26c918009fa3a3cf8b0145c2d2812588", null ],
+    [ "Validate", "d9/d78/a16354.html#a37964b313e11c1e14a7df4a1acb18c10", null ]
 ];

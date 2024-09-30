@@ -1,6 +1,6 @@
 var a04358 =
 [
-    [ "instance_wailing_caverns", "d1/db8/a15096.html", "d1/db8/a15096" ],
-    [ "instance_wailing_caverns::instance_wailing_caverns_InstanceMapScript", "dc/d85/a15100.html", "dc/d85/a15100" ],
-    [ "AddSC_instance_wailing_caverns", "df/d88/a04358.html#a67427453c8ec357648c276eaed523225", null ]
+    [ "instance_blackfathom_deeps", "df/d82/a14402.html", "df/d82/a14402" ],
+    [ "instance_blackfathom_deeps::instance_blackfathom_deeps_InstanceMapScript", "db/d30/a14406.html", "db/d30/a14406" ],
+    [ "AddSC_instance_blackfathom_deeps", "df/d88/a04358.html#a6df6617d1b66a2f3d1f610218af85c18", null ]
 ];

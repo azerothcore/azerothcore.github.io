@@ -1,7 +1,7 @@
 var a16706 =
 [
-    [ "npc_toc_rogueAI", "d4/d09/a16706.html#a34027e7d10edbfba8e046f4785e37899", null ],
-    [ "myCanCast", "d4/d09/a16706.html#a85ed8e251dd8356e678536f1e3f3c93d", null ],
-    [ "UpdateAI", "d4/d09/a16706.html#a49b0655def227684f07bd60a3c1e0ce1", null ],
-    [ "events", "d4/d09/a16706.html#a1519bebb81b64d57b2b0b34a059b83f8", null ]
+    [ "OnRemove", "d4/d09/a16706.html#a4b95717cb19116b81f3eec798089abad", null ],
+    [ "PrepareAuraScript", "d4/d09/a16706.html#a581645fa151531aaf7b562a8739d5616", null ],
+    [ "Register", "d4/d09/a16706.html#a01304c556d79001e290707551bee7622", null ],
+    [ "Validate", "d4/d09/a16706.html#a96e4b9cae1f016bf87c9a09ceb6da561", null ]
 ];

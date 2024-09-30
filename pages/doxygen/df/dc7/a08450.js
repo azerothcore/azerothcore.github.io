@@ -1,7 +1,8 @@
 var a08450 =
 [
-    [ "IsFitToRequirements", "df/dc7/a08450.html#ac175634ed2eab2911c3749fa208a073a", null ],
-    [ "castFlags", "df/dc7/a08450.html#a03cd65a460ea252818de9230cb656c1c", null ],
-    [ "spellId", "df/dc7/a08450.html#a34641755a5267b7a907d320cc5b4ddb4", null ],
-    [ "userType", "df/dc7/a08450.html#adcf285572403481cb418bddebc5f4bfa", null ]
+    [ "DiminishingReturn", "df/dc7/a08450.html#acd4828637710636d0164fced285c854d", null ],
+    [ "DRGroup", "df/dc7/a08450.html#add3ab95d65e283a326e1922129941ae4", null ],
+    [ "hitCount", "df/dc7/a08450.html#a94b1fdc8e8d51b1c6f5e723e697ed323", null ],
+    [ "hitTime", "df/dc7/a08450.html#ae3f5eecc2bc88fe236fe4c7c297b68c5", null ],
+    [ "stack", "df/dc7/a08450.html#aeb40601df7e6507c7fd83e3152541ba5", null ]
 ];

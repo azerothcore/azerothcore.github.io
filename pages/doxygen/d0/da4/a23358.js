@@ -1,6 +1,6 @@
 var a23358 =
 [
-    [ "npc_q24545_vegardAI", "d3/df6/a23362.html", "d3/df6/a23362" ],
-    [ "npc_q24545_vegard", "d0/da4/a23358.html#ac12e2f143fab6b93950eaea06f5f7d85", null ],
-    [ "GetAI", "d0/da4/a23358.html#a9a7accfb3eea9f08efbb82fbd4bd7e76", null ]
+    [ "HandlePeriodic", "d0/da4/a23358.html#af6c30bb292a69d5eaaaf75c8a76111ea", null ],
+    [ "PrepareAuraScript", "d0/da4/a23358.html#a75515896f3d94d227963a3c5258e2d0d", null ],
+    [ "Register", "d0/da4/a23358.html#aeacb1ffc287cc7128366ee0484c2994b", null ]
 ];

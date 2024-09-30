@@ -1,6 +1,6 @@
 var a24834 =
 [
-    [ "spell_black_template_harpooners_mark_AuraScript", "dd/dfc/a24838.html", "dd/dfc/a24838" ],
-    [ "spell_black_template_harpooners_mark", "dc/d14/a24834.html#a5e602b8335163bef06e8f0aaad76ea01", null ],
-    [ "GetAuraScript", "dc/d14/a24834.html#a9d54051ee57b1f62a0ededb6a4915052", null ]
+    [ "CheckAreaTarget", "dc/d14/a24834.html#a545323b9964ee4cb3c8d054fac4e2d55", null ],
+    [ "PrepareAuraScript", "dc/d14/a24834.html#a2b6dbd33e34357917f662000a1cd932f", null ],
+    [ "Register", "dc/d14/a24834.html#a7b4a2301b3a608ea5b2dd2504e02741d", null ]
 ];

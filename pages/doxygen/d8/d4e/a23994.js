@@ -1,6 +1,6 @@
 var a23994 =
 [
-    [ "CheckCast", "d8/d4e/a23994.html#a0556cb5e70ee9c9cc85bc16f68a45aa1", null ],
-    [ "PrepareSpellScript", "d8/d4e/a23994.html#abcb6d94c5b6ff2790eb90e992d7b6d94", null ],
-    [ "Register", "d8/d4e/a23994.html#a4be44c4f05683e3a56ff1f072f877bf0", null ]
+    [ "npc_fel_guard_houndAI", "d6/df3/a23998.html", "d6/df3/a23998" ],
+    [ "npc_fel_guard_hound", "d8/d4e/a23994.html#a324179695f04a31b233b0ce94a46634c", null ],
+    [ "GetAI", "d8/d4e/a23994.html#a5f5c20ec379994e7d0b65133d772e18f", null ]
 ];

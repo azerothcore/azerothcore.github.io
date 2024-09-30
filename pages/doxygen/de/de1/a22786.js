@@ -1,6 +1,6 @@
 var a22786 =
 [
-    [ "boss_cyanigosaAI", "df/dff/a22790.html", "df/dff/a22790" ],
-    [ "boss_cyanigosa", "de/de1/a22786.html#a4db12e2fb873ad3595a437df09663a22", null ],
-    [ "GetAI", "de/de1/a22786.html#a779c7c3a5f0002501361fa92fe14af69", null ]
+    [ "CalculateAmount", "de/de1/a22786.html#aeeabfef0accc4e0d1f78f7422dc30a99", null ],
+    [ "PrepareAuraScript", "de/de1/a22786.html#a5cf70fe73d01e08e78a2d00e5bc95e8e", null ],
+    [ "Register", "de/de1/a22786.html#a0d2e97463f268892965e307628aaa931", null ]
 ];

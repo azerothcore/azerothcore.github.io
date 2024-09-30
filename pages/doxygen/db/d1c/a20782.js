@@ -1,8 +1,10 @@
 var a20782 =
 [
-    [ "iron_golem_custodianAI", "db/d1c/a20782.html#aeeeed1383f5d221eb7b5cd5d3a6ea4fb", null ],
-    [ "JustEngagedWith", "db/d1c/a20782.html#acd67b8d4df95eb8b0d0365184e47a29c", null ],
-    [ "Reset", "db/d1c/a20782.html#af3193696d665746eecd9c62128d8684d", null ],
-    [ "UpdateAI", "db/d1c/a20782.html#ab1d3910b07a6c5c53f5388a10dc48775", null ],
-    [ "events", "db/d1c/a20782.html#a9e0bcc9ae6918f9fa40cbf8085d4ec42", null ]
+    [ "boss_yoggsaron_immortal_guardianAI", "db/d1c/a20782.html#a84a3ffe43a4ce49cd543f770594cd683", null ],
+    [ "DamageTaken", "db/d1c/a20782.html#aec157bcf0628a7301bcb91dd62bcc484", null ],
+    [ "Reset", "db/d1c/a20782.html#a763f772414f00c0f83402e1a635b6bd0", null ],
+    [ "SpellHit", "db/d1c/a20782.html#a60721961f2eb5e91c15890252166b872", null ],
+    [ "UpdateAI", "db/d1c/a20782.html#a7fa550f683fcf16f5bd70a307bffcb2b", null ],
+    [ "_spellTimer", "db/d1c/a20782.html#a4ed360380707195e10753436020b67eb", null ],
+    [ "_visualTimer", "db/d1c/a20782.html#a8c382c37aaa3d20cfc0fe604af52bef4", null ]
 ];

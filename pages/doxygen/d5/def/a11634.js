@@ -1,6 +1,7 @@
 var a11634 =
 [
-    [ "go_chromaggus_leverAI", "d3/d73/a11638.html", "d3/d73/a11638" ],
-    [ "go_chromaggus_lever", "d5/def/a11634.html#a88f8078cd5aa1863ca20c9b02a0e52d2", null ],
-    [ "GetAI", "d5/def/a11634.html#ae307b36029147b8385b3c40878d1a3e4", null ]
+    [ "boss_moira_bronzebeardAI", "d5/def/a11634.html#a11265b6aad76574c2c76253128c79165", null ],
+    [ "CastOnEmperorIfPossible", "d5/def/a11634.html#a3f42c37e9f4cc14974106bf67ee4e583", null ],
+    [ "JustEngagedWith", "d5/def/a11634.html#a40ae00eb86e2bec048a9394d4deef106", null ],
+    [ "UpdateAI", "d5/def/a11634.html#ae3f22a059330fb564cd30e581fc0198d", null ]
 ];

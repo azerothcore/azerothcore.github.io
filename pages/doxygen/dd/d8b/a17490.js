@@ -1,6 +1,8 @@
 var a17490 =
 [
-    [ "spell_pos_blightAuraScript", "dd/da4/a17494.html", "dd/da4/a17494" ],
-    [ "spell_pos_blight", "dd/d8b/a17490.html#aa972b4d257e2586f1163571a594c28b0", null ],
-    [ "GetAuraScript", "dd/d8b/a17490.html#ac9e84ec46902207703d8e2dbd4ff6503", null ]
+    [ "HandlePeriodic", "dd/d8b/a17490.html#a5ff571c616b69bb50c736622feb9ed96", null ],
+    [ "HandleRemove", "dd/d8b/a17490.html#a624887bb5e6d8b72d6c0591661d6ba38", null ],
+    [ "PrepareAuraScript", "dd/d8b/a17490.html#a1b140274e283dd95e28fcb773e30f965", null ],
+    [ "Register", "dd/d8b/a17490.html#abcce83ef6ecbe539a3d8eaef83fb2d33", null ],
+    [ "Validate", "dd/d8b/a17490.html#a94c644e730c51c8edb6a74d68d6228a8", null ]
 ];

@@ -1,6 +1,10 @@
 var a20254 =
 [
-    [ "boss_malygosAI", "de/d0e/a20258.html", "de/d0e/a20258" ],
-    [ "boss_malygos", "da/d29/a20254.html#aeac3c63d4ccd2947a6f7e4c007dc6aa1", null ],
-    [ "GetAI", "da/d29/a20254.html#a9e1d821311fa8b92318a99ea79ddb1e3", null ]
+    [ "boss_kologarn_eyebeamAI", "da/d29/a20254.html#add083b2a9067753458de1eeb6bdca4c0", null ],
+    [ "DamageDealt", "da/d29/a20254.html#a94a9181da10ffe737611cb281d60a952", null ],
+    [ "UpdateAI", "da/d29/a20254.html#add60a709a1edf1684bd21358769590b4", null ],
+    [ "_damaged", "da/d29/a20254.html#a7b49d9826efcf492c6e7ee003f481ccb", null ],
+    [ "_timer", "da/d29/a20254.html#a766ad3e10016d97235499d1512c4da27", null ],
+    [ "justSpawned", "da/d29/a20254.html#a8f01309b6533ea0adf85f43ba1ba1c26", null ],
+    [ "m_pInstance", "da/d29/a20254.html#a4145bd7e5c80c4e62144b437d38624a4", null ]
 ];

@@ -1,11 +1,17 @@
 var a28454 =
 [
-    [ "CheckProc", "d7/d69/a28454.html#a7a6eea8debb09c4c9086a92d8e6ee59c", null ],
-    [ "HandleProc", "d7/d69/a28454.html#af29b1d6d8553003514918a383cb08b4a", null ],
-    [ "Load", "d7/d69/a28454.html#a8861c2415c0f705cb4a06c02eabb54d2", null ],
-    [ "OnRemove", "d7/d69/a28454.html#a9227147dd6e621deddd0088b95e9db2f", null ],
-    [ "PrepareAuraScript", "d7/d69/a28454.html#a149881d517edbb15032452554fc64948", null ],
-    [ "Register", "d7/d69/a28454.html#ac81d60d54a87a23bd9481934f5753de0", null ],
-    [ "Validate", "d7/d69/a28454.html#a7a4d1bddd1dbeb41e0f6f8fe272b4ad6", null ],
-    [ "_redirectTarget", "d7/d69/a28454.html#af3ee2a283d8942ab3652a6386c26f737", null ]
+    [ "GetHeight", "d7/d69/a28454.html#a98bc670c8dd44b210b398f5f014cbbc7", null ],
+    [ "GetOffsetX", "d7/d69/a28454.html#a8facef2fdb586a71f1f740086fe160ab", null ],
+    [ "GetOffsetY", "d7/d69/a28454.html#aecd2f6f40509d9b65f9f254e59298e8c", null ],
+    [ "GetWidth", "d7/d69/a28454.html#a240dac4718a12daee7c8ec526209c4ba", null ],
+    [ "Height", "d7/d69/a28454.html#abb92a54ddecdd06c1031bafd41e642dc", null ],
+    [ "LiquidType", "d7/d69/a28454.html#a910553870f082a1b8dd47c27c8f981f1", null ],
+    [ "LiquidVertexFormat", "d7/d69/a28454.html#ab1376e3688bcf9110111bf87f8fd940a", null ],
+    [ "MaxHeightLevel", "d7/d69/a28454.html#aa73500f507b6ee2678f3c81328b716e1", null ],
+    [ "MinHeightLevel", "d7/d69/a28454.html#a5c56ad9303d1b652774019efbe316dbd", null ],
+    [ "OffsetExistsBitmap", "d7/d69/a28454.html#a1852863d7fcbbd95e6ccb190895841ca", null ],
+    [ "OffsetVertexData", "d7/d69/a28454.html#abfe19bd9c6d9d1d41433abe6fae3baea", null ],
+    [ "OffsetX", "d7/d69/a28454.html#a1dcb423f7ba1c0c7bdaa77aef8139b6c", null ],
+    [ "OffsetY", "d7/d69/a28454.html#a08a02703ec946d3a6fb6326c24b4f6cc", null ],
+    [ "Width", "d7/d69/a28454.html#a4b1bd0f232da1acde53787109e26c9b3", null ]
 ];

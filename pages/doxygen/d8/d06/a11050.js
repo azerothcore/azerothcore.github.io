@@ -1,7 +1,6 @@
 var a11050 =
 [
-    [ "gear_commandscript", "d8/d06/a11050.html#a2e37c7d761982f7185b2418ae5aa4315", null ],
-    [ "GetCommands", "d8/d06/a11050.html#a9212aa39f13c646b1b8cf8be78cc8a6a", null ],
-    [ "HandleGearRepairCommand", "d8/d06/a11050.html#a28cd5680f07f984326d79d91adbbfd70", null ],
-    [ "HandleGearStatsCommand", "d8/d06/a11050.html#acca4bc7e8cae51ee2a6172b32f87aa56", null ]
+    [ "AuraProcHandler", "d8/d06/a11050.html#a1c0ad4a28c98d89a0afc2f8eeda9a421", null ],
+    [ "Call", "d8/d06/a11050.html#abc0c3be9dee08e995c282f20900f3c46", null ],
+    [ "_HandlerScript", "d8/d06/a11050.html#ada8d7a5659598b0092739a91ba2653bd", null ]
 ];

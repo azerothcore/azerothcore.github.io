@@ -1,6 +1,5 @@
 var a18286 =
 [
-    [ "PrepareSpellScript", "d1/d5f/a18286.html#a99466ed86503b431fbff1a054304557e", null ],
-    [ "Register", "d1/d5f/a18286.html#a798d91f8f479099f53f8b28e76710a70", null ],
-    [ "RemovePassengers", "d1/d5f/a18286.html#ae3207b849f8c4d05bee37b0be448bb24", null ]
+    [ "achievement_been_waiting_long_time", "d1/d5f/a18286.html#a839ec8cb50512bbae7125ead3ed35aec", null ],
+    [ "OnCheck", "d1/d5f/a18286.html#a5e72304220d3a649d2182cb287215da6", null ]
 ];

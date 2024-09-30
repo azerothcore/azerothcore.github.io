@@ -1,7 +1,9 @@
 var a25158 =
 [
-    [ "FilterTargets", "df/dcb/a25158.html#a7e34fde3e85828d6c80fea3372673461", null ],
-    [ "HandleDummy", "df/dcb/a25158.html#a0588501dd9aa82aeb57af65fcb587c77", null ],
-    [ "PrepareSpellScript", "df/dcb/a25158.html#a0b649d2891b775123798105b8e6b338a", null ],
-    [ "Register", "df/dcb/a25158.html#a5b459b99587167d278f4b7c05e9a48e8", null ]
+    [ "spell_gen_lifebloom", "df/dcb/a25158.html#a5cb52a4dda841d9d31fd00a31ddc3350", null ],
+    [ "AfterRemove", "df/dcb/a25158.html#aea962f603e56c1bd33fccaef0c89d917", null ],
+    [ "PrepareAuraScript", "df/dcb/a25158.html#ac11134bdc3588795ce6e256c5b02055f", null ],
+    [ "Register", "df/dcb/a25158.html#ab4a552402ee9f90834320d6fc668cff3", null ],
+    [ "Validate", "df/dcb/a25158.html#a599634d92b92a5635b89733b7bb3c3c8", null ],
+    [ "_spellId", "df/dcb/a25158.html#a196484d01d2dc07163e18fdca9f60ca9", null ]
 ];

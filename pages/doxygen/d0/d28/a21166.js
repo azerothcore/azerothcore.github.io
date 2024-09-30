@@ -1,6 +1,6 @@
 var a21166 =
 [
-    [ "spell_pursue_SpellScript", "dc/d38/a21170.html", "dc/d38/a21170" ],
-    [ "spell_pursue", "d0/d28/a21166.html#a1ba1ed11405b137a92e74a4932df3d70", null ],
-    [ "GetSpellScript", "d0/d28/a21166.html#afbf6fce8a3c9d4d1406585367c7f6b02", null ]
+    [ "boss_emalonAI", "dc/d38/a21170.html", "dc/d38/a21170" ],
+    [ "boss_emalon", "d0/d28/a21166.html#a2dd481292e02337bebd450f5c9821886", null ],
+    [ "GetAI", "d0/d28/a21166.html#a345b0663ba89de5e37b87a436c48e446", null ]
 ];

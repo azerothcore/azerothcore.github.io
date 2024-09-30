@@ -1,6 +1,6 @@
 var a15566 =
 [
-    [ "HandleDummy", "da/d05/a15566.html#a8131f09a63ee74bb43f310f0894d13d2", null ],
-    [ "PrepareSpellScript", "da/d05/a15566.html#a00a554334d64c44ba44925264fc72472", null ],
-    [ "Register", "da/d05/a15566.html#ac9ceb949b061e261a2611ac2ea85f343", null ]
+    [ "creatureID", "da/d05/a15566.html#a44a9f5e58bfa58e2e2325e116e988f07", null ],
+    [ "pos", "da/d05/a15566.html#a9705a858cc2c3867e104514d3a0a1866", null ],
+    [ "waveID", "da/d05/a15566.html#a09b48f7f6da7e203ed50a8abc7f24e56", null ]
 ];

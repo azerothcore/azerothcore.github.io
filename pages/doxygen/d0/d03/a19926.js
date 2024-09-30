@@ -1,6 +1,5 @@
 var a19926 =
 [
-    [ "spell_ioc_repair_turret_AuraScript", "db/da7/a19930.html", "db/da7/a19930" ],
-    [ "spell_ioc_repair_turret", "d0/d03/a19926.html#a697e2de10638b4bb71bc7baa378b4971", null ],
-    [ "GetAuraScript", "d0/d03/a19926.html#a375ac83007c35f24f4dbe1f423e3c207", null ]
+    [ "achievement_flame_leviathan_unbroken", "d0/d03/a19926.html#a30a94a92aacc558d6833994c11f3ee8a", null ],
+    [ "OnCheck", "d0/d03/a19926.html#a78c69e3217b6598ab238a4f51ba598eb", null ]
 ];

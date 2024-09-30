@@ -1,5 +1,6 @@
 var a21698 =
 [
-    [ "achievement_kologarn_looks_could_kill", "d9/de8/a21698.html#a3fcf36dabe41ff35ace233854bd0fb44", null ],
-    [ "OnCheck", "d9/de8/a21698.html#a0e7be4fb00808fab9a231530822fc93d", null ]
+    [ "npc_mindless_ghoulAI", "dc/deb/a21702.html", "dc/deb/a21702" ],
+    [ "npc_mindless_ghoul", "d9/de8/a21698.html#ac5bf71e719c0df04687f426a022fd65e", null ],
+    [ "GetAI", "d9/de8/a21698.html#ac5a087aa742827dc8eb0f3dc195920ec", null ]
 ];

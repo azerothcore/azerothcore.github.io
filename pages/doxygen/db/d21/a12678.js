@@ -1,7 +1,8 @@
 var a12678 =
 [
-    [ "npc_fairbanksAI", "db/d21/a12678.html#a7b0b6eb7aafc2a2a793e578b4dca73a7", null ],
-    [ "MoveInLineOfSight", "db/d21/a12678.html#ab1200fe381ad08c1fe1181d1ba939460", null ],
-    [ "Reset", "db/d21/a12678.html#a2290dd6189572cddd0597f622582c3a8", null ],
-    [ "SayAshbringer", "db/d21/a12678.html#a1ae615c8aa568d0cba3bf5259fbd3daf", null ]
+    [ "npc_highlord_darion_mograineAI", "d5/d22/a12682.html", "d5/d22/a12682" ],
+    [ "npc_highlord_darion_mograine", "db/d21/a12678.html#a86680b1a140c706b10fd48befc572286", null ],
+    [ "GetAI", "db/d21/a12678.html#a350539ed741fa372ffff92ffbc6e6260", null ],
+    [ "OnGossipHello", "db/d21/a12678.html#a35afc9d80b4570163af9f6013949a70c", null ],
+    [ "OnGossipSelect", "db/d21/a12678.html#a0539d24556c16a1a72be8258c752f5f5", null ]
 ];

@@ -1,6 +1,7 @@
 var a25946 =
 [
-    [ "npc_oscillating_frequency_scanner_master_bunnyAI", "db/dc7/a25950.html", "db/dc7/a25950" ],
-    [ "npc_oscillating_frequency_scanner_master_bunny", "d7/d9b/a25946.html#a8ae11cadbd5e883bf12f8f5201700b4e", null ],
-    [ "GetAI", "d7/d9b/a25946.html#a60d55e2eda4484ceea4e475ac8653977", null ]
+    [ "CalculateAmount", "d7/d9b/a25946.html#a0934aa8eaf442314aa6050d85304c15b", null ],
+    [ "CalculateSpellAmount", "d7/d9b/a25946.html#ab765b87350bd3e73ac43879abef72d98", null ],
+    [ "PrepareAuraScript", "d7/d9b/a25946.html#a627c6a88ed6ce051b0d6a06d94288498", null ],
+    [ "Register", "d7/d9b/a25946.html#ae1b5265f817f1f4ec011d4e2607686eb", null ]
 ];

@@ -1,7 +1,6 @@
 var a11718 =
 [
-    [ "HandleDummy", "d6/dac/a11718.html#a2299a8b99013fb9f9c2b8e81cfc541cc", null ],
-    [ "PrepareSpellScript", "d6/dac/a11718.html#ad07165f81a7f407c716f90691ecb9817", null ],
-    [ "Register", "d6/dac/a11718.html#a28fb28ca049b87dd76fddc3af222fd9c", null ],
-    [ "Validate", "d6/dac/a11718.html#a8ce6773c7d0fd501fa7b26f04fd22796", null ]
+    [ "boss_lord_valthalakAI", "dc/d7d/a11722.html", "dc/d7d/a11722" ],
+    [ "boss_lord_valthalak", "d6/dac/a11718.html#a180ecb2e2b11ee79c80de18124de3dbc", null ],
+    [ "GetAI", "d6/dac/a11718.html#a771bd8ff3918d71007b5e4b05baf3df3", null ]
 ];

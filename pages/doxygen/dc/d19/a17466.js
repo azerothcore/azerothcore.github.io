@@ -1,5 +1,6 @@
 var a17466 =
 [
-    [ "PrepareAuraScript", "dc/d19/a17466.html#a6425ce55e3e304898040965d584111dc", null ],
-    [ "Register", "dc/d19/a17466.html#aa2dc58f6d63acdf6e71c918bc0eaa0ce", null ]
+    [ "npc_gunship_mageAI", "d6/d3e/a17470.html", "d6/d3e/a17470" ],
+    [ "npc_gunship_mage", "dc/d19/a17466.html#a52c7a072bd1426a1c22da84aa0640bca", null ],
+    [ "GetAI", "dc/d19/a17466.html#a9a0bc091a6cf8bbc7d17cf3d3172e6ff", null ]
 ];

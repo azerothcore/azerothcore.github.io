@@ -1,6 +1,6 @@
 var a27482 =
 [
-    [ "OnRemove", "da/d5f/a27482.html#adcdc87bcfb9aee5eaa227ba66ad5f010", null ],
-    [ "PrepareAuraScript", "da/d5f/a27482.html#a9b3985c6f2b1b88ab86ec38c8508fc16", null ],
-    [ "Register", "da/d5f/a27482.html#a0bc1dae33d0a780623f4551b1dfb1fbf", null ]
+    [ "npc_dancing_flamesAI", "d7/d5d/a27486.html", "d7/d5d/a27486" ],
+    [ "npc_dancing_flames", "da/d5f/a27482.html#adec0401f876ddf159f28fdda8bc4d563", null ],
+    [ "GetAI", "da/d5f/a27482.html#a1000d0b95dab3a6e73efa0ca088ce4e6", null ]
 ];

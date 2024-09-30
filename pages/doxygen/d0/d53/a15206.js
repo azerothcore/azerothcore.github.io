@@ -1,14 +1,11 @@
 var a15206 =
 [
-    [ "npc_dirt_mound", "d0/d53/a15206.html#add7daefa1c96fb9d843248f8ca4796f6", null ],
-    [ "ChaseNewTarget", "d0/d53/a15206.html#a16656fb7ad8cda5916e8da0002cf0292", null ],
-    [ "EnterEvadeMode", "d0/d53/a15206.html#ac5fdeea9dc5553b689d3a8a9b0b73d34", null ],
-    [ "JustEngagedWith", "d0/d53/a15206.html#abf39fb8d63325eea7928b88b2b486ad2", null ],
-    [ "JustSummoned", "d0/d53/a15206.html#a5da17256d0cd4f6cb0e1256afe4b6539", null ],
-    [ "Reset", "d0/d53/a15206.html#ae1662eb73f21351e07d00a717421de68", null ],
-    [ "SetData", "d0/d53/a15206.html#a4faa65dd3260104202e4bdd34bc0b67d", null ],
-    [ "UpdateAI", "d0/d53/a15206.html#a88447191070cf8b84df96db565eef48d", null ],
-    [ "_instance", "d0/d53/a15206.html#ac9f138567a4367aeb5d7b1f6caea90c6", null ],
-    [ "_ouroHealth", "d0/d53/a15206.html#ac83391fa5069ae4574748f82d15e833d", null ],
-    [ "_scheduler", "d0/d53/a15206.html#a794eab1adbaef60394b4895ec8aac70a", null ]
+    [ "npc_kerlonianAI", "d0/d53/a15206.html#a0f7a4566ca93a174c92fe10e904af480", null ],
+    [ "ClearSleeping", "d0/d53/a15206.html#aea2815d79da4fa006ea150f052255b9d", null ],
+    [ "MoveInLineOfSight", "d0/d53/a15206.html#a8b0a606510d278f26099a125d583377a", null ],
+    [ "Reset", "d0/d53/a15206.html#a20fac33bf3322ad0caf72ea883680b8d", null ],
+    [ "SetSleeping", "d0/d53/a15206.html#a0e1e6beaa98090d8bf8a17d28a9ee733", null ],
+    [ "SpellHit", "d0/d53/a15206.html#a1df028085cf1cb9e8152cdb70a3d28b1", null ],
+    [ "UpdateFollowerAI", "d0/d53/a15206.html#aa86dc8b3e934ff3297f7316de5420fe6", null ],
+    [ "FallAsleepTimer", "d0/d53/a15206.html#a8cfd8d869f8a313d041d89f8d0daa1bb", null ]
 ];

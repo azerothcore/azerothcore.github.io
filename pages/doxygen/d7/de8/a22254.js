@@ -1,11 +1,6 @@
 var a22254 =
 [
-    [ "boss_yoggsaron_neltharionAI", "d7/de8/a22254.html#aacefe32de32513bdf46c0dd526768e25", null ],
-    [ "NextStep", "d7/de8/a22254.html#a4770948240ac56ec151c262c8996e4e4", null ],
-    [ "Reset", "d7/de8/a22254.html#a03841acfd21e920bc6589203448709a0", null ],
-    [ "Say", "d7/de8/a22254.html#ae45f051ab64ce1f96f32e5b8d073356e", null ],
-    [ "UpdateAI", "d7/de8/a22254.html#a80c174a8ffa15550627ed27ab0d8925d", null ],
-    [ "_checkTimer", "d7/de8/a22254.html#a7eef651198e09cf25c2f039bcb4a1876", null ],
-    [ "_running", "d7/de8/a22254.html#a6b2f01ed2ffe8113cbddd4a033886059", null ],
-    [ "_step", "d7/de8/a22254.html#a0ac37717e940b094d322a7e492202718", null ]
+    [ "npc_icefangAI", "db/d16/a22258.html", "db/d16/a22258" ],
+    [ "npc_icefang", "d7/de8/a22254.html#a2e13be89b110abaa2509e597e4cf883a", null ],
+    [ "GetAI", "d7/de8/a22254.html#ad1a936b1eef30271912054a817e0c9f8", null ]
 ];

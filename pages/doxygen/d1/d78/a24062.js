@@ -1,6 +1,7 @@
 var a24062 =
 [
-    [ "npc_captured_rageclawAI", "dc/d30/a24066.html", "dc/d30/a24066" ],
-    [ "npc_captured_rageclaw", "d1/d78/a24062.html#ad49176279e9d16a6a24c0649c576c0be", null ],
-    [ "GetAI", "d1/d78/a24062.html#aa39b6c518fe22d91b8673cfd576866a4", null ]
+    [ "npc_bessyAI", "dc/d30/a24066.html", "dc/d30/a24066" ],
+    [ "npc_bessy", "d1/d78/a24062.html#a08278c1524445054ca158433044a0824", null ],
+    [ "GetAI", "d1/d78/a24062.html#af805bc5ee3de2fd6773158e51bf09d4a", null ],
+    [ "OnQuestAccept", "d1/d78/a24062.html#a98b8e816195b81bab12cc9906df79807", null ]
 ];

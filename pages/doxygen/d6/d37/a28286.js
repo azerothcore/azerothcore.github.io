@@ -1,7 +1,7 @@
 var a28286 =
 [
-    [ "HandleScript", "d6/d37/a28286.html#aa00117e677af1e236962c59b688d8a98", null ],
-    [ "Load", "d6/d37/a28286.html#ad05b65848e35d87fb9ef1ae413de6256", null ],
-    [ "PrepareSpellScript", "d6/d37/a28286.html#afbffeadede1cc7f08a0a52f4a7bee680", null ],
-    [ "Register", "d6/d37/a28286.html#a52d4828ccd5430a622a32b1279943f9b", null ]
+    [ "from", "d6/d37/a28286.html#a8e87b02059c2c1e4b1dd2760c99cb004", null ],
+    [ "ID", "d6/d37/a28286.html#a4375feed48ce5ac7291dced992c9bbf4", null ],
+    [ "price", "d6/d37/a28286.html#a44fc4c13d3426fcbc7b1108e513973de", null ],
+    [ "to", "d6/d37/a28286.html#a6b24cdac137b2b8d9472b5d1aca4178f", null ]
 ];

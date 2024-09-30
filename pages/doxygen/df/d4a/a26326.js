@@ -1,6 +1,6 @@
 var a26326 =
 [
-    [ "npc_slim", "df/d4a/a26326.html#aa227fbe22126bed821939873973e6a20", null ],
-    [ "OnGossipHello", "df/d4a/a26326.html#a34dafb9f3a82c1d2f52a95436345dd0b", null ],
-    [ "OnGossipSelect", "df/d4a/a26326.html#a426963b7bf831a3b5a75dcf0629917a9", null ]
+    [ "HandleDummy", "df/d4a/a26326.html#aee5967205738ebaef70e1105e8d91b2c", null ],
+    [ "PrepareSpellScript", "df/d4a/a26326.html#a1ef5914adfd2c951a68f50658852e095", null ],
+    [ "Register", "df/d4a/a26326.html#af42b6d5a5fbb5eb84773818594813afc", null ]
 ];

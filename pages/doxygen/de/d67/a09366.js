@@ -1,10 +1,7 @@
 var a09366 =
 [
-    [ "ChaseRange", "de/d67/a09366.html#acd43ed01c9e4845d82e4d240b5c35167", null ],
-    [ "ChaseRange", "de/d67/a09366.html#aaf19c63398d31699ed1703ae1ba5f1b6", null ],
-    [ "ChaseRange", "de/d67/a09366.html#a397b3789449b1c178f11f64313498c4d", null ],
-    [ "MaxRange", "de/d67/a09366.html#ae2a846630e79f3a15a5d93b18c68c915", null ],
-    [ "MaxTolerance", "de/d67/a09366.html#a7909b18028d43c84eca5feee3e41469c", null ],
-    [ "MinRange", "de/d67/a09366.html#a0e2c69e20d6a38d056505c3b5b0d9fd6", null ],
-    [ "MinTolerance", "de/d67/a09366.html#a7b640ecfc0e80921ab36c2c33f0b10fd", null ]
+    [ "QuestItem", "de/d67/a09366.html#a1d6e1d5de83a397b17115dbeba2a58b3", null ],
+    [ "QuestItem", "de/d67/a09366.html#a51b978ee64ec979ebe097f3b3f4c3cd0", null ],
+    [ "index", "de/d67/a09366.html#a0e48289882a1eabb6c8ff30032193bd2", null ],
+    [ "is_looted", "de/d67/a09366.html#a48f2baabd2d5a07313dc38a27c6f4713", null ]
 ];

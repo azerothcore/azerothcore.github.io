@@ -1,8 +1,6 @@
 var a28542 =
 [
-    [ "ApplyDebuff", "d5/d77/a28542.html#a76ecb96d27c54b18f3628476dae4cc73", null ],
-    [ "PrepareSpellScript", "d5/d77/a28542.html#aeff4dce89b0d893b90571e0ff63e1aaa", null ],
-    [ "Register", "d5/d77/a28542.html#ae53dfd7f60a1c4132c441f7cd1595b95", null ],
-    [ "RemoveInvalidTargets", "d5/d77/a28542.html#a1374c764b20b95febbca44c593bde218", null ],
-    [ "Validate", "d5/d77/a28542.html#a2eb14ea281b41b08acd4514c01aa938f", null ]
+    [ "id", "d5/d77/a28542.html#a5acc1b246a76073e1c97513251a4143d", null ],
+    [ "id", "d5/d77/a28542.html#aaf844f570afdf7439ae7fbe0bbdc39e7", null ],
+    [ "name", "d5/d77/a28542.html#ae5d1244981224aed1b7477caedd70175", null ]
 ];

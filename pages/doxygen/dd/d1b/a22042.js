@@ -1,6 +1,7 @@
 var a22042 =
 [
-    [ "npc_xt002_scrapbotAI", "dd/d1c/a22046.html", "dd/d1c/a22046" ],
-    [ "npc_xt002_scrapbot", "dd/d1b/a22042.html#accfd75266d058af3856bdb625728c18d", null ],
-    [ "GetAI", "dd/d1b/a22042.html#aa3639c32c94f0e031ba774e4eed659cd", null ]
+    [ "HandleDummy", "dd/d1b/a22042.html#a85874062bceced2694fff725649df892", null ],
+    [ "PrepareSpellScript", "dd/d1b/a22042.html#a47bae4bdc488480f91517465d8e1b784", null ],
+    [ "Register", "dd/d1b/a22042.html#a7131340678ca685db98e2087661321a9", null ],
+    [ "Validate", "dd/d1b/a22042.html#af1b74ceee10fc48a0b85d4a284103950", null ]
 ];

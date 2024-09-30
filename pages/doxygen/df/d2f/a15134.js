@@ -1,6 +1,6 @@
 var a15134 =
 [
-    [ "FilterTargets", "df/d2f/a15134.html#a8fa6932a6cf291d8ab40140b171e1c17", null ],
-    [ "PrepareSpellScript", "df/d2f/a15134.html#a5e93e2cb92db31be03703ab2e5d082cd", null ],
-    [ "Register", "df/d2f/a15134.html#a0e3a6fd6f3de3d81f535d67451568c45", null ]
+    [ "npc_draenei_survivorAI", "d7/d02/a15138.html", "d7/d02/a15138" ],
+    [ "npc_draenei_survivor", "df/d2f/a15134.html#a1dca668a7c3f868677a9bf306288430c", null ],
+    [ "GetAI", "df/d2f/a15134.html#aa8dde30279bb898a4412491faca79267", null ]
 ];

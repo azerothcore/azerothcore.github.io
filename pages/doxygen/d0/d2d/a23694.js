@@ -1,6 +1,9 @@
 var a23694 =
 [
-    [ "npc_blessed_bannerAI", "d8/df6/a23698.html", "d8/df6/a23698" ],
-    [ "npc_blessed_banner", "d0/d2d/a23694.html#a779a0c653088b2d206226e146a19101f", null ],
-    [ "GetAI", "d0/d2d/a23694.html#a43dabbf2f2d54ae201cde37df792a41d", null ]
+    [ "boss_high_botanist_freywinn", "d0/d2d/a23694.html#aeecf6ed56e34cf1d9a552aab82f1f64a", null ],
+    [ "JustDied", "d0/d2d/a23694.html#a7b370482ea195d0305cba339ce0cbab3", null ],
+    [ "JustEngagedWith", "d0/d2d/a23694.html#a841c6f08d8d8c0e47bd8d06bfed7ab8b", null ],
+    [ "KilledUnit", "d0/d2d/a23694.html#a80a997e0d12c175da0a46d7362890b9c", null ],
+    [ "ResumeEncounter", "d0/d2d/a23694.html#a06adcf26cb264d35a16ca416661ab4bd", null ],
+    [ "SummonedCreatureDies", "d0/d2d/a23694.html#a7f1a02d4b944191471f59ba728b6372e", null ]
 ];

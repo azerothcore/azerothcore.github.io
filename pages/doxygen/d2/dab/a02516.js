@@ -1,15 +1,9 @@
 var a02516 =
 [
-    [ "MySQLType< T >", "d4/d20/a05652.html", null ],
-    [ "MySQLType< uint8 >", "d3/ddb/a05656.html", null ],
-    [ "MySQLType< uint16 >", "d4/de8/a05660.html", null ],
-    [ "MySQLType< uint32 >", "d0/d56/a05664.html", null ],
-    [ "MySQLType< uint64 >", "da/df1/a05668.html", null ],
-    [ "MySQLType< int8 >", "d7/da9/a05672.html", null ],
-    [ "MySQLType< int16 >", "d6/d0e/a05676.html", null ],
-    [ "MySQLType< int32 >", "d1/dcd/a05680.html", null ],
-    [ "MySQLType< int64 >", "d9/d54/a05684.html", null ],
-    [ "MySQLType< float >", "db/daf/a05688.html", null ],
-    [ "MySQLType< double >", "d4/d0d/a05692.html", null ],
-    [ "ParamenterIndexAssertFail", "d2/dab/a02516.html#a4c2b053ff0b94326f3c01cc7c6e61e8a", null ]
+    [ "SQLElementData", "d0/df9/a05758.html", "d0/df9/a05758" ],
+    [ "SQLOperation", "d7/db7/a05762.html", "d7/db7/a05762" ],
+    [ "SQLElementDataType", "d2/dab/a02516.html#abb4a6cfcce013f18b29779f1f435e627", [
+      [ "SQL_ELEMENT_RAW", "d2/dab/a02516.html#abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a", null ],
+      [ "SQL_ELEMENT_PREPARED", "d2/dab/a02516.html#abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d", null ]
+    ] ]
 ];

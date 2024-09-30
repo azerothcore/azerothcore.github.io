@@ -1,10 +1,10 @@
 var a10974 =
 [
-    [ "WorldPacketList", "d9/d49/a10974.html#ac02e770af167d14f978954cf5ac74487", null ],
-    [ "WorldWorldTextBuilder", "d9/d49/a10974.html#ad5e85ced19572dcd5ae75caa7e50cbf6", null ],
-    [ "do_helper", "d9/d49/a10974.html#ae8b58ec72a6c87aee46e9fe693deab32", null ],
-    [ "lineFromMessage", "d9/d49/a10974.html#a3a71edb992528d81471d370ba3d8d211", null ],
-    [ "operator()", "d9/d49/a10974.html#ae08f4d73e048b351ae4326cc63278ae6", null ],
-    [ "i_args", "d9/d49/a10974.html#ac2ae2ce8dc49ce7469142383e6e097d4", null ],
-    [ "i_textId", "d9/d49/a10974.html#ab246baa9a8ce259d8190ac1c8318c75d", null ]
+    [ "TargetHook", "d9/d49/a10974.html#afcada203ddd8752107c74bbf0e7c24eb", null ],
+    [ "CheckEffect", "d9/d49/a10974.html#af02ad1f1fb914aac52095d7e41f12c94", null ],
+    [ "GetTarget", "d9/d49/a10974.html#a238979ffaaa644bd65ffd4e7cb20d797", null ],
+    [ "ToString", "d9/d49/a10974.html#a424e03e457dc15a2689f344e614a882f", null ],
+    [ "area", "d9/d49/a10974.html#aceec6f0ea91d45a11233122c3bc843ed", null ],
+    [ "dest", "d9/d49/a10974.html#a28f2f6f3338a2c261ee754508ee48e60", null ],
+    [ "targetType", "d9/d49/a10974.html#aed2e0e651bdd5453d716db464ac0ab55", null ]
 ];

@@ -1,7 +1,11 @@
 var a26974 =
 [
-    [ "HandleScript", "d2/d10/a26974.html#a628fbc7ef23ce8f93d132f7bf518d4d8", null ],
-    [ "PrepareSpellScript", "d2/d10/a26974.html#a8e5aa0a33907c5216299734a928de2fd", null ],
-    [ "Register", "d2/d10/a26974.html#a9e25da03bbbea35f13420c14c6fab0d5", null ],
-    [ "Validate", "d2/d10/a26974.html#a30cc03ed0c19074dc1fde4951a061815", null ]
+    [ "AccountActionIpLogger", "d2/d10/a26974.html#a73cad77bd83243cb10c4a1b4d7081e0b", null ],
+    [ "AccountIPLogAction", "d2/d10/a26974.html#a9c978dafb71e67b8b278806df507e34b", null ],
+    [ "OnAccountLogin", "d2/d10/a26974.html#a2952adcd73d775b924671e5a69adaccb", null ],
+    [ "OnEmailChange", "d2/d10/a26974.html#aa15d0cc4e6ed3818fa18a927074f5f0c", null ],
+    [ "OnFailedAccountLogin", "d2/d10/a26974.html#a8225c45bcb83e1ddd91a8dcd0f7da9cd", null ],
+    [ "OnFailedEmailChange", "d2/d10/a26974.html#a9fd73dc7b6954dfb4fc94a1f1288ccd2", null ],
+    [ "OnFailedPasswordChange", "d2/d10/a26974.html#a0663e15ea1a29b3daa672c8b6a25548f", null ],
+    [ "OnPasswordChange", "d2/d10/a26974.html#a4b71aa9c1790e6d4033d884a17ce0a2f", null ]
 ];

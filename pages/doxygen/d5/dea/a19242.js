@@ -1,6 +1,6 @@
 var a19242 =
 [
-    [ "spell_the_lich_king_restore_soul_SpellScript", "de/dcd/a19246.html", "de/dcd/a19246" ],
-    [ "spell_the_lich_king_restore_soul", "d5/dea/a19242.html#a92e2333cc7d4ecc9124628ba7a9dcb36", null ],
-    [ "GetSpellScript", "d5/dea/a19242.html#a05b7c9818fe34249717d56010c02de34", null ]
+    [ "npc_crystalline_frayerAI", "de/dcd/a19246.html", "de/dcd/a19246" ],
+    [ "npc_crystalline_frayer", "d5/dea/a19242.html#a9124f4ffcbfbb9e073d0943f3398ce5e", null ],
+    [ "GetAI", "d5/dea/a19242.html#a1780bb5b521d6e2617e90cb6cf119060", null ]
 ];

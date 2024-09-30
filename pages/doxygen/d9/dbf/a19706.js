@@ -1,6 +1,6 @@
 var a19706 =
 [
-    [ "spell_icc_dark_reckoning_AuraScript", "d6/d24/a19710.html", "d6/d24/a19710" ],
-    [ "spell_icc_dark_reckoning", "d9/dbf/a19706.html#a2c3d2d9cc55b94a2c8dc7c677dc8074b", null ],
-    [ "GetAuraScript", "d9/dbf/a19706.html#afd73eb9e1a5bf7c3e5fd5bcc70bb9b39", null ]
+    [ "achievement_assembly_of_iron", "d9/dbf/a19706.html#ae90d193b039d88ce38108b6617b5b8e9", null ],
+    [ "OnCheck", "d9/dbf/a19706.html#ae66b3e708b38bfe685f9d28c14c2d3f5", null ],
+    [ "_targetEntry", "d9/dbf/a19706.html#a20e8938ff30b18737fb96cf0277b5680", null ]
 ];

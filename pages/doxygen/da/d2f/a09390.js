@@ -1,5 +1,7 @@
 var a09390 =
 [
-    [ "IdleMovementFactory", "da/d2f/a09390.html#af2bb5ef9fe67f3dda64d6ce44e825f52", null ],
-    [ "Create", "da/d2f/a09390.html#a5e99eab3436482927bc83100f85581cd", null ]
+    [ "LootView", "da/d2f/a09390.html#a4cfc8ca1034e941a85d2955f38b2e894", null ],
+    [ "loot", "da/d2f/a09390.html#ac95fa4805c79923b292e8984b00de929", null ],
+    [ "permission", "da/d2f/a09390.html#a33d7eeebd6fbc854300275a4138d9030", null ],
+    [ "viewer", "da/d2f/a09390.html#af9a6926c6c871dee245f876038e49995", null ]
 ];

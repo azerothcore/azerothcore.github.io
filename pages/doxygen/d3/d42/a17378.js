@@ -1,12 +1,9 @@
 var a17378 =
 [
-    [ "boss_tyrannusAI", "d3/d42/a17378.html#a753de14d2cecaaed2c7b24e09397b008", null ],
-    [ "CanAIAttack", "d3/d42/a17378.html#a0cb60f308637cbd152faf274b3e5f636", null ],
-    [ "DoAction", "d3/d42/a17378.html#ab4d899ab5da283c8d256df8cb0d4e312", null ],
-    [ "JustDied", "d3/d42/a17378.html#a249b7dc28dfc40c2a782ef32b88dbb48", null ],
-    [ "KilledUnit", "d3/d42/a17378.html#abf7c8909143dac641c00cca160bef964", null ],
-    [ "Reset", "d3/d42/a17378.html#aec686cffccd8d95a341e320ffc7d5b7e", null ],
-    [ "UpdateAI", "d3/d42/a17378.html#a4357dc2e9b1d714d780db6ce3f60728b", null ],
-    [ "events", "d3/d42/a17378.html#a2168a2e1b36607b76614bdef54b02bc3", null ],
-    [ "pInstance", "d3/d42/a17378.html#ad4a8282849aaa1ce8b4702b5af55d35b", null ]
+    [ "npc_stinky_iccAI", "d3/d42/a17378.html#a545356eb2b77cfae7af3d470e95ea2d6", null ],
+    [ "JustDied", "d3/d42/a17378.html#a7fa392980e2d30c935b79377df8dc694", null ],
+    [ "JustEngagedWith", "d3/d42/a17378.html#afd1cd4fc387ff7cdad58c9db60841c7a", null ],
+    [ "Reset", "d3/d42/a17378.html#ac66e3398598576fdc889a7b56646eecf", null ],
+    [ "UpdateAI", "d3/d42/a17378.html#af6e04824ea1682c529e8579a306d34ca", null ],
+    [ "events", "d3/d42/a17378.html#a3ab7ae11b7f5ef5877febbd384014ce2", null ]
 ];

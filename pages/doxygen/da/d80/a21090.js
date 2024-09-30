@@ -1,9 +1,6 @@
 var a21090 =
 [
-    [ "npc_thorims_hammerAI", "da/d80/a21090.html#aafda36c8d784252d271ef031ab6a3d34", null ],
-    [ "Reset", "da/d80/a21090.html#a57975d0dc00c86946e547ba43c7151ec", null ],
-    [ "UpdateAI", "da/d80/a21090.html#a4e01a61d09c11647e06c3547d6fa91fa", null ],
-    [ "_beamTimer", "da/d80/a21090.html#aba7c6c078977a8187a7e673ba3126bfd", null ],
-    [ "_finishTime", "da/d80/a21090.html#a218bd28d18a2c2f0aef6906619437209", null ],
-    [ "_removeTimer", "da/d80/a21090.html#a958e4c975d1ae634745107af7d204f82", null ]
+    [ "boss_skadi_graufAI", "d0/de7/a21094.html", "d0/de7/a21094" ],
+    [ "boss_skadi_grauf", "da/d80/a21090.html#a571db2d2ae21f38b7051319da0f042f6", null ],
+    [ "GetAI", "da/d80/a21090.html#a9b637a93a572d21691b81b80ec45206d", null ]
 ];

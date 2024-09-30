@@ -1,7 +1,5 @@
 var a27014 =
 [
-    [ "HandleEffectApply", "d2/d80/a27014.html#a2854357f92b1faac6e7840f1576138e0", null ],
-    [ "HandleEffectRemove", "d2/d80/a27014.html#a7960ca4deb4ff61d04ea7fe7ec0f0471", null ],
-    [ "PrepareAuraScript", "d2/d80/a27014.html#a2120cecbca61e4c7380892fe8d43772a", null ],
-    [ "Register", "d2/d80/a27014.html#a98c71c0d4c4b0503e66ed2033946cb2e", null ]
+    [ "AreaTrigger_at_sentry_point", "d2/d80/a27014.html#a9c27f669aba3be1a83fdd1c99a8af4cf", null ],
+    [ "OnTrigger", "d2/d80/a27014.html#ab59fb74f4f988c208359855d2e4d9918", null ]
 ];

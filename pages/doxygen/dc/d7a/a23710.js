@@ -1,6 +1,7 @@
 var a23710 =
 [
-    [ "spell_q12726_song_of_wind_and_water_SpellScript", "db/d68/a23714.html", "db/d68/a23714" ],
-    [ "spell_q12726_song_of_wind_and_water", "dc/d7a/a23710.html#ae720af3421176dd403fda9595a7198ac", null ],
-    [ "GetSpellScript", "dc/d7a/a23710.html#a70f8ad13d4f1d992675ba27188f2eddc", null ]
+    [ "boss_warp_splinter", "dc/d7a/a23710.html#a1d0e8720baaadd1f6f4f6026597c9f63", null ],
+    [ "JustDied", "dc/d7a/a23710.html#a7e7850cf545e57f9fcd8d1aff42f8eb3", null ],
+    [ "JustEngagedWith", "dc/d7a/a23710.html#afc05b2f366e518d5e9ea3fbbfcba05cc", null ],
+    [ "KilledUnit", "dc/d7a/a23710.html#a0e974eb2bfae50383040fe9c7ccf74c1", null ]
 ];

@@ -1,6 +1,6 @@
 var a14098 =
 [
-    [ "boss_wushoolayAI", "d1/db0/a14098.html#a2ea62154c0932e5cd34bd4b858829ffe", null ],
-    [ "JustEngagedWith", "d1/db0/a14098.html#af519da543fff63a39a6fbe48f90f2f22", null ],
-    [ "UpdateAI", "d1/db0/a14098.html#acfaacee2a97212eb15056c1552b9e06b", null ]
+    [ "PeriodicTick", "d1/db0/a14098.html#a0832c36a9497674374b2998398bfc3a4", null ],
+    [ "PrepareAuraScript", "d1/db0/a14098.html#a89acb64235da1ff59da90a509fbeec9d", null ],
+    [ "Register", "d1/db0/a14098.html#aab689a2cb84dcd064736171035640584", null ]
 ];

@@ -1,16 +1,8 @@
 var a08946 =
 [
-    [ "GuildBankRightsAndSlots", "dd/d9c/a08946.html#ae00a8b8f227d7afdcf08847e3787ee0d", null ],
-    [ "GuildBankRightsAndSlots", "dd/d9c/a08946.html#af5f0087090a7145a22baa1396822318b", null ],
-    [ "GuildBankRightsAndSlots", "dd/d9c/a08946.html#a4bdf40d99704211b9e80b554ebade54f", null ],
-    [ "GetRights", "dd/d9c/a08946.html#a19b76bebdb62434191189ba789c2810f", null ],
-    [ "GetSlots", "dd/d9c/a08946.html#a51780060b5699bed6b78cc9ba4e95371", null ],
-    [ "GetTabId", "dd/d9c/a08946.html#a6ba7c49480a1c5325d3702fb61d397cc", null ],
-    [ "SetGuildMasterValues", "dd/d9c/a08946.html#a1399f191b3b0a44dc1e76fc49adc1412", null ],
-    [ "SetRights", "dd/d9c/a08946.html#abf4e1f1556554e7f756dc566fbdd7f40", null ],
-    [ "SetSlots", "dd/d9c/a08946.html#a8ed33a4e1d2a957d61c5f7556533f225", null ],
-    [ "SetTabId", "dd/d9c/a08946.html#abe84f6bcdfd48d70b894470d025f3aae", null ],
-    [ "rights", "dd/d9c/a08946.html#a2a8f5acf21828bfa15d0b3dd6874b5cb", null ],
-    [ "slots", "dd/d9c/a08946.html#a5a327399d94704bc290199baa21ff8d7", null ],
-    [ "tabId", "dd/d9c/a08946.html#ab09825a02a7a21a4915595230d2a5839", null ]
+    [ "PlayerWorker", "dd/d9c/a08946.html#ac7c16ec87b533b7b58b768cac116d7a2", null ],
+    [ "Visit", "dd/d9c/a08946.html#a018b799be67c284d6ed5c7a368ef1985", null ],
+    [ "Visit", "dd/d9c/a08946.html#a19c56b5bde9e57ea0152a89ac05e292b", null ],
+    [ "i_do", "dd/d9c/a08946.html#ae09b42f770e895b1c283ea7ca7527b7a", null ],
+    [ "i_phaseMask", "dd/d9c/a08946.html#aa23944bde7aa8e3a77f33b0a93f92c57", null ]
 ];

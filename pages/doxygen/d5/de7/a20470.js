@@ -1,6 +1,9 @@
 var a20470 =
 [
-    [ "boss_varosAI", "df/df3/a20474.html", "df/df3/a20474" ],
-    [ "boss_varos", "d5/de7/a20470.html#a4fdb9de9ee7a3a50ac0972fd6eb8d39c", null ],
-    [ "GetAI", "d5/de7/a20470.html#a36733c4eb6179e43d61a1c37480666ea", null ]
+    [ "npc_ulduar_dark_rune_watcherAI", "d5/de7/a20470.html#a2239253c2c4760b130ace4a07ef1e8c4", null ],
+    [ "CanAIAttack", "d5/de7/a20470.html#a891e354dc27f0d53e06a0cf2eea46970", null ],
+    [ "Reset", "d5/de7/a20470.html#a79a1081a50ded7afc5f81ed4234be59d", null ],
+    [ "UpdateAI", "d5/de7/a20470.html#a58c5f53f74055b89c11ed27ffe908732", null ],
+    [ "timer1", "d5/de7/a20470.html#aab38ff79ca8fc867a3d6c6512d0376c8", null ],
+    [ "timer2", "d5/de7/a20470.html#a7b4eb188939c15f11a6b2532853ad798", null ]
 ];

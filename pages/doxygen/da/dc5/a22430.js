@@ -1,5 +1,6 @@
 var a22430 =
 [
-    [ "PrepareAuraScript", "da/dc5/a22430.html#aff3bab5636db2dd249876065a796629a", null ],
-    [ "Register", "da/dc5/a22430.html#a3904ed951a0dcd4b7db680fe79f496ad", null ]
+    [ "npc_storm_cloudAI", "d9/dc3/a22434.html", "d9/dc3/a22434" ],
+    [ "npc_storm_cloud", "da/dc5/a22430.html#a8403185cdf54b2924024ba1d1d44a06a", null ],
+    [ "GetAI", "da/dc5/a22430.html#a952bd1cf5406b989182d8560d8b9e665", null ]
 ];

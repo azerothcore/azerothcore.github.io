@@ -1,7 +1,6 @@
 var a11702 =
 [
-    [ "HandlePeriodic", "d4/de1/a11702.html#a72e043202c587e6c12d0b36d679cd071", null ],
-    [ "PrepareAuraScript", "d4/de1/a11702.html#a7ca007283e34855ee825ae160653f4a3", null ],
-    [ "Register", "d4/de1/a11702.html#aebad39c65167042be8db3c3a1811a235", null ],
-    [ "Validate", "d4/de1/a11702.html#aaf87c4052fd5408f7e34e2e14500e813", null ]
+    [ "boss_halyconAI", "df/d44/a11706.html", "df/d44/a11706" ],
+    [ "boss_halycon", "d4/de1/a11702.html#aa149c5f8b34b9c00102f9a0758dcbd9a", null ],
+    [ "GetAI", "d4/de1/a11702.html#a861f1b0213ad9bcf572c9d59eabba699", null ]
 ];

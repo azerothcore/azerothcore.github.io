@@ -1,6 +1,6 @@
 var a27558 =
 [
-    [ "CheckProc", "d8/d9d/a27558.html#acac962ba1cb72615772fe8bc81d24f9d", null ],
-    [ "PrepareAuraScript", "d8/d9d/a27558.html#aebe1c8083ba09c21125c47843b2949da", null ],
-    [ "Register", "d8/d9d/a27558.html#adde6dada6b3012c2650ba9173c6616a0", null ]
+    [ "npc_fireworkAI", "d9/d31/a27562.html", "d9/d31/a27562" ],
+    [ "npc_firework", "d8/d9d/a27558.html#a9efb6ed098e4eb3e24c30393cb5cb45d", null ],
+    [ "GetAI", "d8/d9d/a27558.html#a9732f7b6eb8b3638bb6280ff7a71bcf7", null ]
 ];

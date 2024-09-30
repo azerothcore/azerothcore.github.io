@@ -1,6 +1,14 @@
 var a14614 =
 [
-    [ "boss_rage_winterchillAI", "db/df3/a14618.html", "db/df3/a14618" ],
-    [ "boss_rage_winterchill", "d3/dd9/a14614.html#a8e26398ab65b0230ad94394587155736", null ],
-    [ "GetAI", "d3/dd9/a14614.html#a16c9e106831b0f0f96944afa5fb56d84", null ]
+    [ "boss_captain_skarloc", "d3/dd9/a14614.html#a196477160ab6d07dc644ddadf756a1e0", null ],
+    [ "InitializeAI", "d3/dd9/a14614.html#a1c67fb99984f666b63f8f79c6783341d", null ],
+    [ "JustDied", "d3/dd9/a14614.html#aca0d536010a53efdf9270146f15f9058", null ],
+    [ "JustEngagedWith", "d3/dd9/a14614.html#aaa516f26cdc0ccd88f5c529a0a4252d4", null ],
+    [ "JustSummoned", "d3/dd9/a14614.html#a5f5f08ab00d18bece28dde7490e52af8", null ],
+    [ "KilledUnit", "d3/dd9/a14614.html#a1ead95b7cf3c4fb5b36be083e852aa21", null ],
+    [ "MovementInform", "d3/dd9/a14614.html#a8e16d85ca8e41bc1cb7ac749dfaea075", null ],
+    [ "Reset", "d3/dd9/a14614.html#a73b728cd24c8cb124f93c0e637bc8a11", null ],
+    [ "UpdateAI", "d3/dd9/a14614.html#aa1a9d9e781f1bc2394e2ebf879fdf196", null ],
+    [ "_spawnedAdds", "d3/dd9/a14614.html#ad69432da4a5beb5fcc8bbac155608a87", null ],
+    [ "summons", "d3/dd9/a14614.html#a83a9e5971411de1c136cbad91f73f487", null ]
 ];

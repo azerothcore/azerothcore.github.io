@@ -1,6 +1,6 @@
 var a18922 =
 [
-    [ "PeriodicTick", "df/de3/a18922.html#a91e8bf1cfa52cf5ea7086610fcb88a21", null ],
-    [ "PrepareAuraScript", "df/de3/a18922.html#a2bb9eedead83ac91060f57af98c3d848", null ],
-    [ "Register", "df/de3/a18922.html#ae70bb017d2bbd96b075e5dd3bddf1567", null ]
+    [ "boss_kelthuzadAI", "db/dc9/a18926.html", "db/dc9/a18926" ],
+    [ "boss_kelthuzad", "df/de3/a18922.html#a52b0988d0ee9e41c8a7911f2d2460442", null ],
+    [ "GetAI", "df/de3/a18922.html#acf19b29d6c1eb0052baa7ff491f6a050", null ]
 ];

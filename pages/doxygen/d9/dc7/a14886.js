@@ -1,6 +1,6 @@
 var a14886 =
 [
-    [ "instance_the_black_morass_InstanceMapScript", "df/dd2/a14890.html", "df/dd2/a14890" ],
-    [ "instance_the_black_morass", "d9/dc7/a14886.html#aa59c960a89dbd66a4c0ad2105792efb4", null ],
-    [ "GetInstanceScript", "d9/dc7/a14886.html#a44b01fc7ab23c8f4ecfa1e375a237463", null ]
+    [ "HandleScript", "d9/dc7/a14886.html#a88551ffd3dbe4fb9cc122a68813234f0", null ],
+    [ "PrepareSpellScript", "d9/dc7/a14886.html#ae4d8cad1b5de248a30085142fcc2cc7b", null ],
+    [ "Register", "d9/dc7/a14886.html#a434f0aef7f32edb6990efb992e4d57af", null ]
 ];

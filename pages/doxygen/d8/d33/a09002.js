@@ -1,9 +1,8 @@
 var a09002 =
 [
-    [ "LoginQueryHolder", "d8/d33/a09002.html#a0e1a9e1b505ba40d08daee432eaa40c1", null ],
-    [ "GetAccountId", "d8/d33/a09002.html#ac44ea5d53fa90dae955bfaa3f472ecea", null ],
-    [ "GetGuid", "d8/d33/a09002.html#a8cdce5befc3b7f8727eef78ab1f768a2", null ],
-    [ "Initialize", "d8/d33/a09002.html#ae21aca0c9ccc627e084b4a535b3f5774", null ],
-    [ "m_accountId", "d8/d33/a09002.html#abc8056182803af44a062fe6153fdd009", null ],
-    [ "m_guid", "d8/d33/a09002.html#ab4696408b2e649dcdaae0bc4330c0b9e", null ]
+    [ "AnyUnfriendlyUnitInObjectRangeCheck", "d8/d33/a09002.html#a2d83b68a7991d3b3dc2355ecde1efa5d", null ],
+    [ "operator()", "d8/d33/a09002.html#a5b02b45b937d6b2b0b141967c70f93d9", null ],
+    [ "i_funit", "d8/d33/a09002.html#a55222acf6dbb538a213eb604f67f40ce", null ],
+    [ "i_obj", "d8/d33/a09002.html#a5d7e5e8898bd092c1055739fae82f693", null ],
+    [ "i_range", "d8/d33/a09002.html#aa1c728ceea2ddc2e88ea07132a3fe250", null ]
 ];

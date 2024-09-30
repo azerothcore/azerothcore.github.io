@@ -1,7 +1,6 @@
 var a07554 =
 [
-    [ "bounding_radius", "d4/d28/a07554.html#a9f4a794b06bcbe31fc0a104cc97b91a4", null ],
-    [ "combat_reach", "d4/d28/a07554.html#ac271edb10093db19e4df1396053f820d", null ],
-    [ "gender", "d4/d28/a07554.html#aa5c8134851ff4f7ab6ad2af3b6e1dc1e", null ],
-    [ "modelid_other_gender", "d4/d28/a07554.html#a222b3c513a64b385954ea549e67f4255", null ]
+    [ "value_type", "d4/d28/a07554.html#ac481731c1965ea0420cd7820e1e89881", null ],
+    [ "StoreTo", "d4/d28/a07554.html#a36969f95d224ae4561d46a3ca7b20d26", null ],
+    [ "tag", "d4/d28/a07554.html#a24d00ca0725d6b4f236bccd7cf5ecbc7", null ]
 ];

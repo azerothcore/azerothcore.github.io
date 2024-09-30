@@ -1,6 +1,7 @@
 var a27538 =
 [
-    [ "HandleOnEffectHit", "d9/de7/a27538.html#a07157e7255d52acf6eb5d5e5c17e2190", null ],
-    [ "PrepareSpellScript", "d9/de7/a27538.html#a0b2fd34dda3b23b574f6a5a0c4435006", null ],
-    [ "Register", "d9/de7/a27538.html#a59c6a1618faa5a44e1c37337b39a3cba", null ]
+    [ "npc_wormholeAI", "d9/de7/a27538.html#a75c28ce9bcbb5ef6fb4213d000d5596a", null ],
+    [ "GetData", "d9/de7/a27538.html#ad4c9f2265f126c7f2b5538bab6b75cb3", null ],
+    [ "InitializeAI", "d9/de7/a27538.html#aa0a903014ec7243036604ffcc67e0a36", null ],
+    [ "_showUnderground", "d9/de7/a27538.html#a6a2fbf623b8fc55cfd48a12e2c515134", null ]
 ];

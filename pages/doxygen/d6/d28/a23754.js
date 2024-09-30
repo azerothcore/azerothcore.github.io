@@ -1,6 +1,6 @@
 var a23754 =
 [
-    [ "npc_bushwhackerAI", "d6/d14/a23758.html", "d6/d14/a23758" ],
-    [ "npc_bushwhacker", "d6/d28/a23754.html#ad87a9fdec3d5dbaef429c88905a5f6e8", null ],
-    [ "GetAI", "d6/d28/a23754.html#ab3190b66069e820abf3637bb877066a0", null ]
+    [ "AfterRemove", "d6/d28/a23754.html#a1794dcf8ebca0bd0c4fce5acb8b45de0", null ],
+    [ "PrepareAuraScript", "d6/d28/a23754.html#ad5871ce865820456177362c6b790778f", null ],
+    [ "Register", "d6/d28/a23754.html#a41e19fb2509051bbd2d9e43c59f16486", null ]
 ];

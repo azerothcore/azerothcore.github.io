@@ -1,8 +1,6 @@
 var a25802 =
 [
-    [ "HandleScriptEffect", "de/de0/a25802.html#a22a3588a0781600270ba7f57e1533668", null ],
-    [ "Load", "de/de0/a25802.html#aa25891cda4347c1cad7974532aed8a6e", null ],
-    [ "PrepareSpellScript", "de/de0/a25802.html#a71207b739858f66f8616310bd3003891", null ],
-    [ "Register", "de/de0/a25802.html#ab647c237bf344dd8bc78584e5d51be28", null ],
-    [ "_currentSpellId", "de/de0/a25802.html#a5f15a0018ee0804164a432714694a3e1", null ]
+    [ "HandleDummy", "de/de0/a25802.html#aeda7eba9ab0b80b549976a4db6e9712c", null ],
+    [ "PrepareSpellScript", "de/de0/a25802.html#a251e93768ff684d1586286ce040a611b", null ],
+    [ "Register", "de/de0/a25802.html#ad1d4fa3d7bda8f4354325cc4df623b65", null ]
 ];

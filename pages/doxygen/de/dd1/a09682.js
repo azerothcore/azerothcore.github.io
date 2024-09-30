@@ -1,12 +1,8 @@
 var a09682 =
 [
-    [ "ItemScript", "de/dd1/a09682.html#a0ad18538a834261190356eab549ff192", null ],
-    [ "IsDatabaseBound", "de/dd1/a09682.html#ae0ae6754a17b88deaf3648b74a58bb9d", null ],
-    [ "OnCastItemCombatSpell", "de/dd1/a09682.html#a08a73378706fdfb0cee5e6214060ad1b", null ],
-    [ "OnExpire", "de/dd1/a09682.html#a2ac915f9f966df87a963a328363deb77", null ],
-    [ "OnGossipSelect", "de/dd1/a09682.html#a78b540902816ee3b3f9a6b108aa155ab", null ],
-    [ "OnGossipSelectCode", "de/dd1/a09682.html#a924268357fec1a667f1184c91ebcef33", null ],
-    [ "OnQuestAccept", "de/dd1/a09682.html#a87ab2f706bbb4e71921852d1ae6d78c7", null ],
-    [ "OnRemove", "de/dd1/a09682.html#a1c8d706593fce54b1e4627493c38a6d3", null ],
-    [ "OnUse", "de/dd1/a09682.html#a0e45d02f07def65de2eb94735189e7f5", null ]
+    [ "Finalize", "de/dd1/a09682.html#abf4c6547449605e703b424d8aa7f46b5", null ],
+    [ "GetMovementGeneratorType", "de/dd1/a09682.html#aa1eb3228e14c5b145f7074e97ccdab5f", null ],
+    [ "Initialize", "de/dd1/a09682.html#a68c249f25ef86f2e50d69698e190ed03", null ],
+    [ "Reset", "de/dd1/a09682.html#a124e4f9506ef6f31e991e905ce38dc43", null ],
+    [ "Update", "de/dd1/a09682.html#a4d96b744fa55fa11764873a2c4a891c5", null ]
 ];

@@ -1,6 +1,6 @@
 var a15258 =
 [
-    [ "HandleOnHit", "da/d94/a15258.html#abf5a21f1c88241024e6d3b3c5bffe449", null ],
-    [ "PrepareSpellScript", "da/d94/a15258.html#aa78fc03dacb373c5108e6a5d92e035c6", null ],
-    [ "Register", "da/d94/a15258.html#a1e608d67914c0071a913d96d70c625d6", null ]
+    [ "npc_tiger_matriarchAI", "da/d02/a15262.html", "da/d02/a15262" ],
+    [ "npc_tiger_matriarch", "da/d94/a15258.html#a05a08bfa64c428213a4b534a982afb71", null ],
+    [ "GetAI", "da/d94/a15258.html#a6d5664ca125a775c2d71f322f5a57655", null ]
 ];

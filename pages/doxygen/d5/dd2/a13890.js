@@ -1,8 +1,13 @@
 var a13890 =
 [
-    [ "FilterTargets", "d5/dd2/a13890.html#a3405b21202d423c649e0b8d341b42d9c", null ],
-    [ "HandleWipeThreat", "d5/dd2/a13890.html#a2bbcce83bffebc509e9ec54778e82639", null ],
-    [ "PrepareSpellScript", "d5/dd2/a13890.html#a59948484b528cab69c695f08b39b886d", null ],
-    [ "Register", "d5/dd2/a13890.html#ac4106a251bd3120e122955edbcdc8e2a", null ],
-    [ "_wipeThreat", "d5/dd2/a13890.html#ab5293e50bd670c0d350f190f1c9892b3", null ]
+    [ "npc_ohganAI", "d5/dd2/a13890.html#a43f7fa66ff39bca177d30fc1d0d78080", null ],
+    [ "JustDied", "d5/dd2/a13890.html#a89e506868e3191362545e34d21528b8f", null ],
+    [ "JustEngagedWith", "d5/dd2/a13890.html#a5b6171794c5b49e8ee439de7bdc51ba5", null ],
+    [ "KilledUnit", "d5/dd2/a13890.html#a4e202eef928e54bd52160705bba5cc35", null ],
+    [ "Reset", "d5/dd2/a13890.html#ac3e1bc9dc819138741eb3b4448051547", null ],
+    [ "SetGUID", "d5/dd2/a13890.html#a5baf8e15902d4d8ff06c8410314327f6", null ],
+    [ "UpdateAI", "d5/dd2/a13890.html#aea7c169bc2b7c52ff7d4d9a5dd7a6f0a", null ],
+    [ "_scheduler", "d5/dd2/a13890.html#a838f1354e24c47e1c52e4b50e2b93c85", null ],
+    [ "instance", "d5/dd2/a13890.html#aeb6f6bddf881edf818fdc31fc639d5d5", null ],
+    [ "reviveGUID", "d5/dd2/a13890.html#afc066ae0c6d370f6632408b08de3c3bb", null ]
 ];

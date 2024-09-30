@@ -1,7 +1,7 @@
 var a15458 =
 [
-    [ "npc_cork_gizeltonAI", "d4/d39/a15462.html", "d4/d39/a15462" ],
-    [ "npc_cork_gizelton", "d5/d33/a15458.html#a915aa2abc18109e7d0197863f59536f2", null ],
-    [ "GetAI", "d5/d33/a15458.html#a8a5fe5c46767aa37fd6e5b10e1bfc372", null ],
-    [ "OnQuestAccept", "d5/d33/a15458.html#a11dc1fea0a24add451272b537298fc13", null ]
+    [ "npc_giltharesAI", "d4/d39/a15462.html", "d4/d39/a15462" ],
+    [ "npc_gilthares", "d5/d33/a15458.html#af1e0746350b32b68825710e1c3ed91a5", null ],
+    [ "GetAI", "d5/d33/a15458.html#a96293e28237a092c64f6a91d91bc7ff3", null ],
+    [ "OnQuestAccept", "d5/d33/a15458.html#a018cc6240a79216acb371241f63e3234", null ]
 ];

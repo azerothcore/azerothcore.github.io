@@ -1,6 +1,6 @@
 var a13358 =
 [
-    [ "npc_balance_of_light_and_shadowAI", "dd/de0/a13362.html", "dd/de0/a13362" ],
-    [ "npc_balance_of_light_and_shadow", "db/d2a/a13358.html#a55229e3ea8dd9c52972185b36c08908b", null ],
-    [ "GetAI", "db/d2a/a13358.html#a07e0547e6bf81cc7ff9fe0aa4a851388", null ]
+    [ "OnEffect", "db/d2a/a13358.html#a41903586310ec274dd10537ccb8655f3", null ],
+    [ "PrepareSpellScript", "db/d2a/a13358.html#a17240b9d80e5f30cd4638e2ec5b92d0b", null ],
+    [ "Register", "db/d2a/a13358.html#a64ef9effcdeaf13b58aeef889d777f22", null ]
 ];

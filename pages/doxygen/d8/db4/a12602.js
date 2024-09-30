@@ -1,6 +1,5 @@
 var a12602 =
 [
-    [ "HandleScriptEffect", "d8/db4/a12602.html#af265f0bba7028f45763a7f9afea2d051", null ],
-    [ "PrepareSpellScript", "d8/db4/a12602.html#a27518fd5482e65e0324100057e747d68", null ],
-    [ "Register", "d8/db4/a12602.html#a07789d7d092eb1b6633200442466c52b", null ]
+    [ "go_acherus_soul_prison", "d8/db4/a12602.html#a13c858f74080b8f7963fdacc4b554019", null ],
+    [ "OnGossipHello", "d8/db4/a12602.html#a904059cbeac3ddb3acf07ec1afe78c37", null ]
 ];

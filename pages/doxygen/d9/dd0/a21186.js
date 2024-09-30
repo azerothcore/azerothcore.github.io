@@ -1,6 +1,6 @@
 var a21186 =
 [
-    [ "OnPeriodic", "d9/dd0/a21186.html#af5d62e4702bfc61a3395bead798caf26", null ],
-    [ "PrepareAuraScript", "d9/dd0/a21186.html#a1f9cbb69c43f501de8ee3781c9dfaeb7", null ],
-    [ "Register", "d9/dd0/a21186.html#ae186c056cd4eaae21fec8176701178b1", null ]
+    [ "HandleOnHit", "d9/dd0/a21186.html#a032001817b4c07dca0f3619116bd7158", null ],
+    [ "PrepareSpellScript", "d9/dd0/a21186.html#ab5b0e56ecac460d90be6036fcd146a20", null ],
+    [ "Register", "d9/dd0/a21186.html#ad809441bbb00ad6bf1ecafe394d9f24d", null ]
 ];

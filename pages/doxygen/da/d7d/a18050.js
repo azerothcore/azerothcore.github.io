@@ -1,6 +1,6 @@
 var a18050 =
 [
-    [ "npc_gunshipAI", "d8/d9e/a18054.html", "d8/d9e/a18054" ],
-    [ "npc_gunship", "da/d7d/a18050.html#a86b3ba622bd6e606cd21f7c7d8dddd1b", null ],
-    [ "GetAI", "da/d7d/a18050.html#adcd37802a2850f4ec8892f3495d5dc16", null ]
+    [ "LichKingDeathEvent", "da/d7d/a18050.html#a9aa328b60358034355b1eed5caacb9f8", null ],
+    [ "Execute", "da/d7d/a18050.html#a06b9a77d3c5efb228368a1e423a620ae", null ],
+    [ "_owner", "da/d7d/a18050.html#a75ccb1b2bd5a8149aff85404b5e0ce21", null ]
 ];

@@ -1,6 +1,8 @@
 var a04874 =
 [
-    [ "HashCreator", "d5/d8e/a04874.html#a03a4f6e31f0cb838b857997a0272f90b", null ],
-    [ "DestroyCTX", "d5/d8e/a04874.html#a7e607b03e0758d10156e201e8d601db4", null ],
-    [ "MakeCTX", "d5/d8e/a04874.html#a59487cdc54d416f8b2a88eb54ae21c8d", null ]
+    [ "MMapData", "d5/d8e/a04874.html#ab6aa577df2b8bc749e68515b7b5ef96c", null ],
+    [ "~MMapData", "d5/d8e/a04874.html#a28ad87f05014c49373557369e9177df5", null ],
+    [ "loadedTileRefs", "d5/d8e/a04874.html#afa8799db33459dd5e36b7a43eae7d16b", null ],
+    [ "navMesh", "d5/d8e/a04874.html#a786a4b43773e4402451bed82cf221f66", null ],
+    [ "navMeshQueries", "d5/d8e/a04874.html#abb7a9f9131b3657eff54ed17fc329b43", null ]
 ];

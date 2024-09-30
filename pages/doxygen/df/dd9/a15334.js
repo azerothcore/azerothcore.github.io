@@ -1,6 +1,10 @@
 var a15334 =
 [
-    [ "npc_muglashAI", "d7/d0c/a15338.html", "d7/d0c/a15338" ],
-    [ "npc_muglash", "df/dd9/a15334.html#a5df1b1cff0acf8be4db77b66f8a0b5f4", null ],
-    [ "GetAI", "df/dd9/a15334.html#a7cfeaf756de85b1bd2fff9163e4bd5e3", null ]
+    [ "npc_omenAI", "df/dd9/a15334.html#a042c0854b4cc08861fabbd347acbb9d7", null ],
+    [ "JustDied", "df/dd9/a15334.html#a5a5d61081c2c59d637739de0f2fe39d4", null ],
+    [ "JustEngagedWith", "df/dd9/a15334.html#aa2dbe46d16d7059c57876e000fcf1bb5", null ],
+    [ "MovementInform", "df/dd9/a15334.html#a92e59bde1f0da2ee537a836304a3c385", null ],
+    [ "SpellHit", "df/dd9/a15334.html#a4e3960d506fd0435de055a365906a9c9", null ],
+    [ "UpdateAI", "df/dd9/a15334.html#a6f114ab4bbe3e6e1fd6d74da93a36027", null ],
+    [ "events", "df/dd9/a15334.html#aaaaff29ffd8f216eb3e09b51a67f7321", null ]
 ];

@@ -1,12 +1,9 @@
 var a22830 =
 [
-    [ "boss_lavanthorAI", "d1/d69/a22830.html#aa562ad1ee029a35adebf8eac8f8249f3", null ],
-    [ "EnterEvadeMode", "d1/d69/a22830.html#a0334d92f1ddf30235efe298df622535b", null ],
-    [ "JustDied", "d1/d69/a22830.html#a300dbedf5514998e7065a2ef44a65f1f", null ],
-    [ "JustEngagedWith", "d1/d69/a22830.html#a9820ec47af72af19f00b172ee138f908", null ],
-    [ "MoveInLineOfSight", "d1/d69/a22830.html#aa613f70d93be479aa701675dfdb2d3e3", null ],
-    [ "Reset", "d1/d69/a22830.html#a55d5cc6906033b5c56daa3ed15fabf0f", null ],
-    [ "UpdateAI", "d1/d69/a22830.html#ab77ac2c78e94fed437e8ccefba4e363c", null ],
-    [ "events", "d1/d69/a22830.html#a273adc56adefe9810013bc80950f2624", null ],
-    [ "pInstance", "d1/d69/a22830.html#ad6059577c5e131523f39316c2291b421", null ]
+    [ "FilterTargets", "d1/d69/a22830.html#aa8f0401dd004e816b8071381289116fa", null ],
+    [ "HandleTeleportUnits", "d1/d69/a22830.html#a4333f10a29ef3e5643f637899a0ab5c5", null ],
+    [ "PrepareSpellScript", "d1/d69/a22830.html#a47898c213cdd125714c80d327bf42d8c", null ],
+    [ "Register", "d1/d69/a22830.html#a6036577cd7b4fbbc55e90e9ab067f13a", null ],
+    [ "SetDest", "d1/d69/a22830.html#a4cf75d96a0d1de62bc989826204b04c9", null ],
+    [ "Validate", "d1/d69/a22830.html#a814083360970284a325621f45e109b5b", null ]
 ];

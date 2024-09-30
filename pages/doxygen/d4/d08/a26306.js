@@ -1,6 +1,5 @@
 var a26306 =
 [
-    [ "npc_rotting_forest_ragerAI", "dc/d98/a26310.html", "dc/d98/a26310" ],
-    [ "npc_rotting_forest_rager", "d4/d08/a26306.html#a70ee57ef5bc4f187ab511916f47b61a9", null ],
-    [ "GetAI", "d4/d08/a26306.html#ae457fe382f3c015a2c854cc28726c4c7", null ]
+    [ "spell_q11515_fel_siphon_dummy", "d4/d08/a26306.html#a80fa790a716d1ae950f43f9a298afd66", null ],
+    [ "GetSpellScript", "d4/d08/a26306.html#a0d122972fc036d1f1e49c49acda58be3", null ]
 ];

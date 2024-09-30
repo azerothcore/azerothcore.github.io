@@ -1,6 +1,7 @@
 var a18602 =
 [
-    [ "spell_putricide_mutated_transformation_dmg_SpellScript", "dd/d71/a18606.html", "dd/d71/a18606" ],
-    [ "spell_putricide_mutated_transformation_dmg", "db/dfc/a18602.html#a4708e2ca05ee63ee4baf848b84c3edc4", null ],
-    [ "GetSpellScript", "db/dfc/a18602.html#ab111a751eb3cfd3e28492047f8cf6cb3", null ]
+    [ "OnRemove", "db/dfc/a18602.html#ac71e6f5a9e3a7c96b4e4bd1a296d0d8d", null ],
+    [ "PrepareAuraScript", "db/dfc/a18602.html#acf654e563f47df9ad033d7080f47662b", null ],
+    [ "Register", "db/dfc/a18602.html#aad4497ba7cad48b9547e8696714d8c23", null ],
+    [ "Validate", "db/dfc/a18602.html#ae5e187cb481849343e777b0bf0ffdf24", null ]
 ];

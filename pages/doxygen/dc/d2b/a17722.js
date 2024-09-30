@@ -1,6 +1,6 @@
 var a17722 =
 [
-    [ "HandleDummyTick", "dc/d2b/a17722.html#a4a065b32bd82417cf60f0c1cbdebaeb0", null ],
-    [ "PrepareAuraScript", "dc/d2b/a17722.html#a7e5a00e842e88d176605a465617b834c", null ],
-    [ "Register", "dc/d2b/a17722.html#afb8c4f4b7cf46adfd637dd2c70cb249e", null ]
+    [ "npc_gas_cloudAI", "dc/d2b/a17722.html#a44e6f92ed3731beb8a36db66da9fbdef", null ],
+    [ "CastMainSpell", "dc/d2b/a17722.html#a61681f6f9616fe33274302d4160c709b", null ],
+    [ "_newTargetSelectTimer", "dc/d2b/a17722.html#a6989b904abaa5b71362e43664f4b084d", null ]
 ];

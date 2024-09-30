@@ -1,6 +1,7 @@
 var a24602 =
 [
-    [ "spell_reliquary_of_souls_aura_of_anger_AuraScript", "d6/dee/a24606.html", "d6/dee/a24606" ],
-    [ "spell_reliquary_of_souls_aura_of_anger", "d5/dbf/a24602.html#a4273067fa57cd2b48e15833fdb6ea4e8", null ],
-    [ "GetAuraScript", "d5/dbf/a24602.html#a00f9bdce7bce7220ff6045815f7a4549", null ]
+    [ "HandleProc", "d5/dbf/a24602.html#a6bfa44b7adfff5aebbfe96bd7b983744", null ],
+    [ "PrepareAuraScript", "d5/dbf/a24602.html#adf8a9d15a105bb639ae240d6062a7041", null ],
+    [ "Register", "d5/dbf/a24602.html#a7e63aa6af08411ad8e75fc69bdb84de5", null ],
+    [ "Validate", "d5/dbf/a24602.html#a6a70833aaae84cbb512d3ebaa79fe301", null ]
 ];

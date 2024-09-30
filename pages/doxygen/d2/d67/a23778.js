@@ -1,8 +1,10 @@
 var a23778 =
 [
-    [ "npc_adventurous_dwarfAI", "d6/d83/a23782.html", "d6/d83/a23782" ],
-    [ "npc_adventurous_dwarf", "d2/d67/a23778.html#a15c39e217907189db9be7799e696f310", null ],
-    [ "GetAI", "d2/d67/a23778.html#ac3f124fab8520a16ccd73e058a0383b1", null ],
-    [ "OnGossipHello", "d2/d67/a23778.html#ab69e3e249f7075d5344ad79bf9c79b79", null ],
-    [ "OnGossipSelect", "d2/d67/a23778.html#aebb2cd209f71d8ab56a29e5bfd668def", null ]
+    [ "npc_thaladred", "d2/d67/a23778.html#a2589c19d5cc48c0a5fd504aecddfaa90", null ],
+    [ "JustDied", "d2/d67/a23778.html#acb50d54da8d8a422eab2b12aae5691b2", null ],
+    [ "JustEngagedWith", "d2/d67/a23778.html#a376664a7801ed27214b614b262b57d1c", null ],
+    [ "Reset", "d2/d67/a23778.html#a1ea5f71a78b8af971784c54048e3a6a0", null ],
+    [ "UpdateAI", "d2/d67/a23778.html#ab5d1276a3ef79239cfcada00fd48e1cd", null ],
+    [ "_hasDied", "d2/d67/a23778.html#a36d70481c9e6ebd20996fa1a4844a9d3", null ],
+    [ "_instance", "d2/d67/a23778.html#ae034800974950fd97b9bc9d0a15590d5", null ]
 ];

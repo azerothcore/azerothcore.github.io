@@ -1,6 +1,7 @@
 var a17654 =
 [
-    [ "StandUpEvent", "d9/ddb/a17654.html#a2f68b19898c65b9229159d9133b3d7cf", null ],
-    [ "Execute", "d9/ddb/a17654.html#a56bc1071300ff8f81e62839685e8f53a", null ],
-    [ "_owner", "d9/ddb/a17654.html#a456a494140657d81b203834f7b88d5d1", null ]
+    [ "npc_coldflameAI", "d9/ddb/a17654.html#a2a8420b79357f7a2167dddbd68ec8bc0", null ],
+    [ "IsSummonedBy", "d9/ddb/a17654.html#a1a330428ac8f17dc673fb1ae4d57035a", null ],
+    [ "UpdateAI", "d9/ddb/a17654.html#a5a847ae7c15b309cb1393b6d16a6e220", null ],
+    [ "events", "d9/ddb/a17654.html#af3b7d4ca1b268fe0d786eee83c0a3596", null ]
 ];

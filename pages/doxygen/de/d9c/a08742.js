@@ -1,8 +1,10 @@
 var a08742 =
 [
-    [ "FriendlyMissingBuffInRange", "de/d9c/a08742.html#a628fe94ce054a868977ef2a981bc5d6c", null ],
-    [ "operator()", "de/d9c/a08742.html#a6dce8a1248ebb4f3e57cd12a3d94b7b9", null ],
-    [ "i_obj", "de/d9c/a08742.html#aba43edf48b2b0184b52143707c3531f4", null ],
-    [ "i_range", "de/d9c/a08742.html#a54ba98f393a8bdf710f6bd65abee526c", null ],
-    [ "i_spell", "de/d9c/a08742.html#a7f34521e8789a1e1dabb867ed82ff438", null ]
+    [ "creatureRate", "de/d9c/a08742.html#aa9c27c19179b8a7bdfdc11d906cd1c06", null ],
+    [ "questDailyRate", "de/d9c/a08742.html#a1798044bdf25ce774191b00e261add1e", null ],
+    [ "questMonthlyRate", "de/d9c/a08742.html#a0db34ed7420bc376cfe64a0d12434fea", null ],
+    [ "questRate", "de/d9c/a08742.html#a914118aa28b3736ff4e6c5b61d738834", null ],
+    [ "questRepeatableRate", "de/d9c/a08742.html#a2b050d4cf6555e824d59a3ffc0558b21", null ],
+    [ "questWeeklyRate", "de/d9c/a08742.html#a0fb31ebc33d0ce11f392be845907e043", null ],
+    [ "spellRate", "de/d9c/a08742.html#a508485f1e6833c58a11706667a2c24fd", null ]
 ];

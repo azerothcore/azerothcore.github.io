@@ -1,19 +1,17 @@
 var a16090 =
 [
-    [ "boss_sartharion_dragonAI", "d0/d0c/a16090.html#afffee05f402a1960232c7920beb9beb9", null ],
-    [ "ClearInstance", "d0/d0c/a16090.html#a9e1fb29994441dd2d41aeb2c04205d7b", null ],
-    [ "DoAction", "d0/d0c/a16090.html#aeb49e63300a317f0e969159266fd8ea1", null ],
-    [ "HandleExtraEvent", "d0/d0c/a16090.html#a406b4d5957efb872de3bff5c8012de2a", null ],
-    [ "JustDied", "d0/d0c/a16090.html#a9c664ff661a3e83b98e1a28c81d662b0", null ],
-    [ "JustEngagedWith", "d0/d0c/a16090.html#a2988e9a5a8edd9aa807d8b13867fe6d7", null ],
-    [ "JustSummoned", "d0/d0c/a16090.html#a16582179f25ddc130f97bb70fe80316f", null ],
-    [ "KilledUnit", "d0/d0c/a16090.html#a09428ec63c8589a527accf8b024f6666", null ],
-    [ "MoveInLineOfSight", "d0/d0c/a16090.html#a75cd7f27019e4013adde104e7663e5bc", null ],
-    [ "MovementInform", "d0/d0c/a16090.html#a6870b91b1d36c79add8bd86a8e1fac4d", null ],
-    [ "RemoveTwilightPortal", "d0/d0c/a16090.html#a26aff742f99b04bfaf56fa46158ce306", null ],
-    [ "Reset", "d0/d0c/a16090.html#a86acfe30f898bd6b709c4743ae808867", null ],
-    [ "UpdateAI", "d0/d0c/a16090.html#a0e9382d8dce8251336d81539b7d82e15", null ],
-    [ "extraEvents", "d0/d0c/a16090.html#a0018fdf6e4567a74e5b16e4e09a00836", null ],
-    [ "isCalledBySartharion", "d0/d0c/a16090.html#a45a92a0754572b8d619fddbd1bdb234f", null ],
-    [ "portalGUID", "d0/d0c/a16090.html#a852ab0dabe5b6d8e6b0a53e6425ff085", null ]
+    [ "boss_black_knightAI", "d0/d0c/a16090.html#a46c906dfeb367134885dc5248b50dbd0", null ],
+    [ "DamageTaken", "d0/d0c/a16090.html#a8a9b3f248f3d889b1804c387396d3054", null ],
+    [ "DoAction", "d0/d0c/a16090.html#a1b16dda892b2e6c94352cf13e6b961f4", null ],
+    [ "EnterEvadeMode", "d0/d0c/a16090.html#a77d1dc632828691fa07a543544bd266c", null ],
+    [ "JustDied", "d0/d0c/a16090.html#a3bb0698d0d66e4a26e25569f97ea720d", null ],
+    [ "JustSummoned", "d0/d0c/a16090.html#a58c32a4802a93755d7c8129c01901cdf", null ],
+    [ "KilledUnit", "d0/d0c/a16090.html#a01121270bc30a75630e5da96c9f61519", null ],
+    [ "Reset", "d0/d0c/a16090.html#ae67498247b9d631c4ca6af0acb1c76af", null ],
+    [ "SpellHitTarget", "d0/d0c/a16090.html#a718a51ec39cb9a10225a7bc76a069a3b", null ],
+    [ "UpdateAI", "d0/d0c/a16090.html#af8600ff24856d079df7e9c59f49850b2", null ],
+    [ "events", "d0/d0c/a16090.html#a189de3b3ef51c7870399a7a31503ae24", null ],
+    [ "Phase", "d0/d0c/a16090.html#ac25e3299bc9787d5bbad22263ebab235", null ],
+    [ "pInstance", "d0/d0c/a16090.html#acde711225a78e54d4bc1e0fde41e951d", null ],
+    [ "summons", "d0/d0c/a16090.html#a73e1c3688a853b70527e862efe05bc11", null ]
 ];

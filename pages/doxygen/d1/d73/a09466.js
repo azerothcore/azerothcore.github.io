@@ -1,9 +1,7 @@
 var a09466 =
 [
-    [ "PathMovementBase", "d1/d73/a09466.html#a6b76e1527ed69ff631d7a72c309f264a", null ],
-    [ "PathMovementBase", "d1/d73/a09466.html#a953fcda0cf7764f659fc5a4a19408550", null ],
-    [ "~PathMovementBase", "d1/d73/a09466.html#a33b2b53993fe897712a196bc4ad86bd1", null ],
-    [ "GetCurrentNode", "d1/d73/a09466.html#a7ceb52928f2198392980c3926516fd82", null ],
-    [ "i_currentNode", "d1/d73/a09466.html#a5420aef90d3529881ef41362ebb29934", null ],
-    [ "i_path", "d1/d73/a09466.html#a3dbc5e41e0c6245f369afc7a24081c83", null ]
+    [ "ownerGUID", "d1/d73/a09466.html#a3c89974ea78b732cbffb8a9d482d403b", null ],
+    [ "script", "d1/d73/a09466.html#ad995c862431acd9d45cc12c9d5c8b319", null ],
+    [ "sourceGUID", "d1/d73/a09466.html#acafb40cbd1e73152f9dbf390f1fc98f3", null ],
+    [ "targetGUID", "d1/d73/a09466.html#a1505a3b9a6de23dcd6b2847207a279ca", null ]
 ];

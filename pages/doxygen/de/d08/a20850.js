@@ -1,8 +1,7 @@
 var a20850 =
 [
-    [ "go_celestial_planetarium_accessAI", "de/d08/a20850.html#aca4d0e9babd6eefe84edc281f8a44cf2", null ],
-    [ "GossipHello", "de/d08/a20850.html#af159df46fecf2cd74ac4ec9fa006dc03", null ],
-    [ "UpdateAI", "de/d08/a20850.html#a9b2bfb74a12e3258476387fc78cde574", null ],
-    [ "_locked", "de/d08/a20850.html#a37f83dbbb05e461d613a4c38001f785c", null ],
-    [ "events", "de/d08/a20850.html#aa03b8d270054f2b71c1d625abe322fb8", null ]
+    [ "OnPeriodic", "de/d08/a20850.html#a529e89c1ae0074370da174defc086719", null ],
+    [ "PrepareAuraScript", "de/d08/a20850.html#a587652095a5dfae229787a0c0ceacfbe", null ],
+    [ "Register", "de/d08/a20850.html#acd5551b09882d720608bdec6036dee9a", null ],
+    [ "Validate", "de/d08/a20850.html#aaed6604e39dd977f4e7c671052d718e8", null ]
 ];

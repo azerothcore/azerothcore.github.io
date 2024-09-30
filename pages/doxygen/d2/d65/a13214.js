@@ -1,6 +1,7 @@
 var a13214 =
 [
-    [ "npc_singularityAI", "dd/d70/a13218.html", "dd/d70/a13218" ],
-    [ "npc_singularity", "d2/d65/a13214.html#a6ae83c9ce2eff2bb9d532264b80e9da2", null ],
-    [ "GetAI", "d2/d65/a13214.html#a1eb97c468c5d1dee2662c986d78d3233", null ]
+    [ "HandleAfterCast", "d2/d65/a13214.html#a251ddadd9d26039da542c402e4ee254f", null ],
+    [ "PrepareSpellScript", "d2/d65/a13214.html#a91114aeb4f917ec5138a0c7b20688174", null ],
+    [ "Register", "d2/d65/a13214.html#a42960206e2444d8e6fb8fdc4d80a534b", null ],
+    [ "Validate", "d2/d65/a13214.html#ad4012436a41537fc5ae854c0c48f09b1", null ]
 ];

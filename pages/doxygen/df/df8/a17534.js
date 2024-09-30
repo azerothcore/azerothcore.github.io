@@ -1,10 +1,9 @@
 var a17534 =
 [
-    [ "boss_drakkari_elementalAI", "df/df8/a17534.html#aad8f28b7e45a7897cb758dff90aa46d8", null ],
-    [ "DoAction", "df/df8/a17534.html#afc16e2da1f40ec0c0257e3bedc04c8a7", null ],
-    [ "JustDied", "df/df8/a17534.html#aec2878e51a12749914e3a30c0ddea900", null ],
-    [ "JustEngagedWith", "df/df8/a17534.html#a75cbf6a164ab4337f86b600541c563f2", null ],
-    [ "Reset", "df/df8/a17534.html#a3a0cd44c30eacac26bcfd1bbe2a18086", null ],
-    [ "UpdateAI", "df/df8/a17534.html#adb9ad99bc784a76da238ed2ee694d4f2", null ],
-    [ "events", "df/df8/a17534.html#abd9bef8fd2bd10a520d9569351bd925b", null ]
+    [ "HandleApply", "df/df8/a17534.html#a5f23d41765ec949486094a0da45be7e8", null ],
+    [ "HandleRemove", "df/df8/a17534.html#a8737bad17bf7aa3e52cb2e0b7fbc9178", null ],
+    [ "Load", "df/df8/a17534.html#a7c2644d06592b0d929a0b59cf8fa0f1b", null ],
+    [ "PrepareAuraScript", "df/df8/a17534.html#aabf5fdf4578935db11e041e638fba187", null ],
+    [ "Register", "df/df8/a17534.html#a6bdc66b6028002b5fc873803a434b6b1", null ],
+    [ "SendClientControl", "df/df8/a17534.html#a24f79a4c59d4bf615a6de745ffa11d81", null ]
 ];

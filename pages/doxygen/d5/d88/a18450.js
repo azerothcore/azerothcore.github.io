@@ -1,14 +1,13 @@
 var a18450 =
 [
-    [ "npc_putricide_oozeAI", "d5/d88/a18450.html#a5b3200110d6cd8ac1311220ab2ee3385", null ],
-    [ "CastMainSpell", "d5/d88/a18450.html#a62c9027b6d8a7812fcf5c0023621ef70", null ],
-    [ "IsSummonedBy", "d5/d88/a18450.html#a8e96a50b9a35f6220bf6c824c1acce58", null ],
-    [ "SelectNewTarget", "d5/d88/a18450.html#a0a4167a73249967fcf268683f936647d", null ],
-    [ "SetGUID", "d5/d88/a18450.html#a4820e07300bfd50980e42faac3327fec", null ],
-    [ "SpellHit", "d5/d88/a18450.html#ab9d288f8eded19720a0aee3bd91920d2", null ],
-    [ "SpellHitTarget", "d5/d88/a18450.html#a501e0f46abdb1bcc0d99ab9792f738fe", null ],
-    [ "UpdateAI", "d5/d88/a18450.html#a508fe1a9974f2ffa36c72575c2d4b252", null ],
-    [ "_hitTargetSpellId", "d5/d88/a18450.html#a728b62580e7a84e9947a45b460ab140c", null ],
-    [ "_newTargetSelectTimer", "d5/d88/a18450.html#a9615a0e6c73c155330c1791c2a205553", null ],
-    [ "targetGUID", "d5/d88/a18450.html#ae01b7ffe31548aa15d913cc28fa32422", null ]
+    [ "npc_highlord_tirion_fordringAI", "d5/d88/a18450.html#a8852f9196a6609f317b6113ac2eee9ee", null ],
+    [ "Reset", "d5/d88/a18450.html#a80051b1b2a663997304b1754a3f9ff25", null ],
+    [ "SetData", "d5/d88/a18450.html#a5642aab7afc50a7494c43ae7a130d571", null ],
+    [ "UpdateAI", "d5/d88/a18450.html#ac3c8dc2e5bf6e0c3f380f395a785ad49", null ],
+    [ "_bolvarFordragon", "d5/d88/a18450.html#a8e8ae990a6e70a70ce6de3a13300261c", null ],
+    [ "_damnedKills", "d5/d88/a18450.html#a56e035884d2ab94629c133efc1fc8feb", null ],
+    [ "_events", "d5/d88/a18450.html#a8d8d6f1b8dc65b28a8117426e3767762", null ],
+    [ "_factionNPC", "d5/d88/a18450.html#acf9a436edcbfe3fcf47f56c5cf90cfb2", null ],
+    [ "_instance", "d5/d88/a18450.html#acd16d6200b08df23576aa9ccbb060d31", null ],
+    [ "_theLichKing", "d5/d88/a18450.html#afbe85d7002e34cfcb9414f2beda4e0a2", null ]
 ];

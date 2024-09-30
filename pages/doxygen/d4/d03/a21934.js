@@ -1,6 +1,8 @@
 var a21934 =
 [
-    [ "boss_thorim_trapAI", "d7/d10/a21938.html", "d7/d10/a21938" ],
-    [ "boss_thorim_trap", "d4/d03/a21934.html#af529112badd88f9ebe4cec216d9edaeb", null ],
-    [ "GetAI", "d4/d03/a21934.html#afd4ee85d73354b790c0d55abbfad75fd", null ]
+    [ "HandleEffectApply", "d4/d03/a21934.html#a8ebf9488a7eed99c3651424754cc95c5", null ],
+    [ "HandleEffectPeriodic", "d4/d03/a21934.html#a183976530ebf604656db12e41449427e", null ],
+    [ "PrepareAuraScript", "d4/d03/a21934.html#a03faa2eda84ac74dcff9a7a6a4e57440", null ],
+    [ "Register", "d4/d03/a21934.html#a76be53d506933d4b3c758578b7c33d5f", null ],
+    [ "_posZ", "d4/d03/a21934.html#a488ded8ff40240fe8fbef1567eb091b9", null ]
 ];

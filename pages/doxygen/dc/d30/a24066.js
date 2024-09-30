@@ -1,6 +1,8 @@
 var a24066 =
 [
-    [ "npc_captured_rageclawAI", "dc/d30/a24066.html#a5bb483a323330b0895f87c5381d73314", null ],
-    [ "Reset", "dc/d30/a24066.html#a9cde0a0e5015334ec8dcd277fcd99dc3", null ],
-    [ "SpellHit", "dc/d30/a24066.html#a2c63911d27435a2271a7c89d9d88318c", null ]
+    [ "npc_bessyAI", "dc/d30/a24066.html#ad1300a563888b34689bedf97c387707c", null ],
+    [ "JustDied", "dc/d30/a24066.html#af98e9235b2432b619e4cc01c0c1111ef", null ],
+    [ "JustSummoned", "dc/d30/a24066.html#a4197fb122299fd152e5da335bb832ae5", null ],
+    [ "Reset", "dc/d30/a24066.html#aed64386629e52c3b65abadde54a63cc4", null ],
+    [ "WaypointReached", "dc/d30/a24066.html#a4611a8f41f66a1a846fb42ba1d4062c8", null ]
 ];

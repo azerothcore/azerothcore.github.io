@@ -1,6 +1,6 @@
 var a27514 =
 [
-    [ "HandlePeriodicTick", "d2/d29/a27514.html#a1bd15727da421fdbfc3a60136bfa9bc9", null ],
-    [ "PrepareAuraScript", "d2/d29/a27514.html#a1c4f592511c8886d0b9a5e64eb19cda7", null ],
-    [ "Register", "d2/d29/a27514.html#ac019a52a6f62f1251d20efcfadba1e78", null ]
+    [ "npc_guardianAI", "df/d4b/a27518.html", "df/d4b/a27518" ],
+    [ "npc_guardian", "d2/d29/a27514.html#aa614e73ae6a6c128c323ac275652dbf1", null ],
+    [ "GetAI", "d2/d29/a27514.html#a3e65ccc70be9d25b2d8563c23146ef4f", null ]
 ];

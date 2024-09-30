@@ -1,6 +1,8 @@
 var a13246 =
 [
-    [ "spell_entropius_void_zone_visual_AuraScript", "d9/d27/a13250.html", "d9/d27/a13250" ],
-    [ "spell_entropius_void_zone_visual", "dd/d72/a13246.html#ac383c80edecdc6f9366413aae1597391", null ],
-    [ "GetAuraScript", "dd/d72/a13246.html#ad873031c141876ca7074157ac5c1c028", null ]
+    [ "HandleEffectApply", "dd/d72/a13246.html#affb8b36a1f975be9440734c2775bae04", null ],
+    [ "HandleEffectRemove", "dd/d72/a13246.html#a9aa18234139cfa0a3d96f37a5bbc1e03", null ],
+    [ "Load", "dd/d72/a13246.html#a7b34beda2504b605f3fc311e2b4b5d5e", null ],
+    [ "PrepareAuraScript", "dd/d72/a13246.html#a98a1b090e408ffb9e301ee39b380acb4", null ],
+    [ "Register", "dd/d72/a13246.html#a8daf0993bd08a5b88a840ac87c83206d", null ]
 ];

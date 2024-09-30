@@ -1,6 +1,6 @@
 var a24498 =
 [
-    [ "spell_mother_shahraz_beam_periodic_AuraScript", "db/d65/a24502.html", "db/d65/a24502" ],
-    [ "spell_mother_shahraz_beam_periodic", "dd/dac/a24498.html#a47f5abbfddf4e49aa1b0b76f10be3adf", null ],
-    [ "GetAuraScript", "dd/dac/a24498.html#ad1c172684c01fbbec3e0d8ca4e1fe8b0", null ]
+    [ "HandleEffectApply", "dd/dac/a24498.html#a4bc121ecc9357709ec2f1ea395d0b6b1", null ],
+    [ "PrepareAuraScript", "dd/dac/a24498.html#ac7f16aed55aedba6da0672c3102a5fae", null ],
+    [ "Register", "dd/dac/a24498.html#a83e15d7db1b9aa4ce4fbc8a359795091", null ]
 ];

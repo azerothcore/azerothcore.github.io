@@ -1,6 +1,6 @@
 var a13754 =
 [
-    [ "boss_janalaiAI", "dc/d42/a13758.html", "dc/d42/a13758" ],
-    [ "boss_janalai", "df/de9/a13754.html#adb902ccc4dfc4ef7bab3e3428ff1082b", null ],
-    [ "GetAI", "df/de9/a13754.html#a1782fb8882fae9818c03feab00417619", null ]
+    [ "boss_arlokkAI", "dc/d42/a13758.html", "dc/d42/a13758" ],
+    [ "boss_arlokk", "df/de9/a13754.html#a55bb21239e05acff18d2fb147449800e", null ],
+    [ "GetAI", "df/de9/a13754.html#a58b8cc7a198784b48faaab1b069d397c", null ]
 ];

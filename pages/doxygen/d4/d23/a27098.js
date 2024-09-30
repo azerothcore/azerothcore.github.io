@@ -1,6 +1,5 @@
 var a27098 =
 [
-    [ "HandleDummy", "d4/d23/a27098.html#a63bc85e32a1478d03b381c61a33d0dff", null ],
-    [ "PrepareSpellScript", "d4/d23/a27098.html#adae41617f38a71ccec183f419d677cfd", null ],
-    [ "Register", "d4/d23/a27098.html#a820e8b506de36a24411ae4a1c5930417", null ]
+    [ "go_noblegarden_colored_egg", "d4/d23/a27098.html#a7e85d492a6c9f4e50a2c47d6e6dae535", null ],
+    [ "OnGossipHello", "d4/d23/a27098.html#ab3d349dfa5b4c0f58ed70f80cd084029", null ]
 ];

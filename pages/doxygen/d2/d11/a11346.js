@@ -1,6 +1,11 @@
 var a11346 =
 [
-    [ "boss_grizzleAI", "d8/db4/a11350.html", "d8/db4/a11350" ],
-    [ "boss_grizzle", "d2/d11/a11346.html#a6c9913cec9503a86e2f5358f65b97b26", null ],
-    [ "GetAI", "d2/d11/a11346.html#aa0bf6c89f13fbd20695ebb7ce965b0f5", null ]
+    [ "instance_commandscript", "d2/d11/a11346.html#a4d0b308b35a1aa21c66c8bd406ffa82f", null ],
+    [ "GetCommands", "d2/d11/a11346.html#a092d62969c835f6bf2a08ca3e05f04d5", null ],
+    [ "HandleInstanceGetBossStateCommand", "d2/d11/a11346.html#a1435d100be4cdbe146c30f96be2ec66d", null ],
+    [ "HandleInstanceListBindsCommand", "d2/d11/a11346.html#abf42411f9c78ce59b21b34691e3d4233", null ],
+    [ "HandleInstanceSaveDataCommand", "d2/d11/a11346.html#a4b494a8b1de470612436fbb9fa433416", null ],
+    [ "HandleInstanceSetBossStateCommand", "d2/d11/a11346.html#aec65b5af811eae2cbcf17571e9d1473b", null ],
+    [ "HandleInstanceStatsCommand", "d2/d11/a11346.html#a9547a0a88a3bcd7407c449f3f2f25f44", null ],
+    [ "HandleInstanceUnbindCommand", "d2/d11/a11346.html#a7abbe257b10632f2acbdd838e1f073a9", null ]
 ];

@@ -1,7 +1,6 @@
 var a11674 =
 [
-    [ "ClassCallSelector", "dd/dce/a11674.html#a223895c97121b0727aac258c12c89e0b", null ],
-    [ "operator()", "dd/dce/a11674.html#ab0d2ab1d94d72c6a202ed0cb2900dd2e", null ],
-    [ "_me", "dd/dce/a11674.html#a5347a24609a21ae0a342682104b1dc14", null ],
-    [ "_targetClass", "dd/dce/a11674.html#a7ce861956ec8d216d2f8cba82c69ea50", null ]
+    [ "instance_blackrock_depths_InstanceMapScript", "dc/d76/a11678.html", "dc/d76/a11678" ],
+    [ "instance_blackrock_depths", "dd/dce/a11674.html#a8d906bdb520b2c7907b94b0e22b5cdf4", null ],
+    [ "GetInstanceScript", "dd/dce/a11674.html#af8f8c9929cae50c098efc5a0dbdd727a", null ]
 ];

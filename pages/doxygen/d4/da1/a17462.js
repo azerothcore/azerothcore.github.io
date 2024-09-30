@@ -1,6 +1,6 @@
 var a17462 =
 [
-    [ "spell_pos_empowered_blizzardAuraScript", "dc/d19/a17466.html", "dc/d19/a17466" ],
-    [ "spell_pos_empowered_blizzard", "d4/da1/a17462.html#af6e797bcffa5819bbe861b00a91a93e5", null ],
-    [ "GetAuraScript", "d4/da1/a17462.html#a71859a63f23e8e2ccc06a93c9d6e7adf", null ]
+    [ "npc_gunship_boarding_add_realAI", "d4/da1/a17462.html#a829c3690ab0d5ad3f0a888cb6701692a", null ],
+    [ "UpdateAI", "d4/da1/a17462.html#a33ac355c8f61907574a0736a24cbee82", null ],
+    [ "_events", "d4/da1/a17462.html#acaea46d9523fa9fe59415b0b0834a2ba", null ]
 ];

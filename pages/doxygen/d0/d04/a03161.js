@@ -1,5 +1,5 @@
 var a03161 =
 [
-    [ "modify_commandscript", "de/d08/a11380.html", "de/d08/a11380" ],
-    [ "AddSC_modify_commandscript", "d0/d04/a03161.html#a9cbb6ad3c630cbeb9ba39b4552f72e87", null ]
+    [ "HandleLearnSpellCommand", "d0/d04/a03161.html#acbe37f872cbc981a27671ebdf10904de", null ],
+    [ "HandleUnlearnSpellCommand", "d0/d04/a03161.html#ad36f90f90b3d9aaf782f7efc859f7e7a", null ]
 ];

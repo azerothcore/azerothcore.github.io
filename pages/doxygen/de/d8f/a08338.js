@@ -1,10 +1,10 @@
 var a08338 =
 [
-    [ "mapId", "de/d8f/a08338.html#a828d8b93918ea8ba695e0c5e597c855d", null ],
-    [ "name", "de/d8f/a08338.html#a9dd0dacb5825cf3afd117c22ac5ebf21", null ],
-    [ "orientation", "de/d8f/a08338.html#a49b4a83290dbe39ab0be79a8ae2f03a6", null ],
-    [ "position_x", "de/d8f/a08338.html#a65e7390a1dbb615a155c4f163b830e11", null ],
-    [ "position_y", "de/d8f/a08338.html#a3d3f398cd23566dce721fefeae7af33c", null ],
-    [ "position_z", "de/d8f/a08338.html#a9ff9a74b00016df6df7c27ebce8ff3fb", null ],
-    [ "wnameLow", "de/d8f/a08338.html#ac63cbb609eadc584fe61d33fb709c4d6", null ]
+    [ "EquipmentSet", "de/d8f/a08338.html#acd3085c12c795daceae86e94448109e2", null ],
+    [ "Guid", "de/d8f/a08338.html#aae529ea61a2ad4f114b6a108564f5474", null ],
+    [ "IconName", "de/d8f/a08338.html#a40233dfcc23f125ff88693d6c7d7fab5", null ],
+    [ "IgnoreMask", "de/d8f/a08338.html#af116e824d23f000f424f3b261618e827", null ],
+    [ "Items", "de/d8f/a08338.html#a113e6e5883afe38d446a6d435cd34a01", null ],
+    [ "Name", "de/d8f/a08338.html#a2b4691a1b44ae47e7d3c2e63f88d78ba", null ],
+    [ "state", "de/d8f/a08338.html#a7e2270a6041dda26f8bc7f8c82597e7f", null ]
 ];

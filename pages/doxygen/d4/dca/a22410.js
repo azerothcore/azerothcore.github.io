@@ -1,5 +1,6 @@
 var a22410 =
 [
-    [ "achievement_yogg_saron_kiss_and_make_up", "d4/dca/a22410.html#a9f2e5fe9de59a9b5a00c0e73e8f9b376", null ],
-    [ "OnCheck", "d4/dca/a22410.html#a8ce7df713b804d5bdd5f6f47d77fc1b8", null ]
+    [ "npc_released_offspring_harkoaAI", "da/dd7/a22414.html", "da/dd7/a22414" ],
+    [ "npc_released_offspring_harkoa", "d4/dca/a22410.html#a10f583320e3b617cf2b327cfb6fed6f5", null ],
+    [ "GetAI", "d4/dca/a22410.html#ae3d2a02c496be1b2606fce596625d12e", null ]
 ];

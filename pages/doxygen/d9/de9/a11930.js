@@ -1,7 +1,7 @@
 var a11930 =
 [
-    [ "HandleScript", "d9/de9/a11930.html#aa6a02fd6ac2fe27588cb17377e63125f", null ],
-    [ "PrepareSpellScript", "d9/de9/a11930.html#a8d200122bafb943ccb6aa1bd86a1d227", null ],
-    [ "Register", "d9/de9/a11930.html#ab1ee3baa1bd7341660bcc7a10978aff3", null ],
-    [ "Validate", "d9/de9/a11930.html#a931be0e5aa4b54e646a3ed3ade135423", null ]
+    [ "ClassCallSelector", "d9/de9/a11930.html#a223895c97121b0727aac258c12c89e0b", null ],
+    [ "operator()", "d9/de9/a11930.html#ab0d2ab1d94d72c6a202ed0cb2900dd2e", null ],
+    [ "_me", "d9/de9/a11930.html#a5347a24609a21ae0a342682104b1dc14", null ],
+    [ "_targetClass", "d9/de9/a11930.html#a7ce861956ec8d216d2f8cba82c69ea50", null ]
 ];

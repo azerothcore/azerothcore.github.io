@@ -1,6 +1,6 @@
 var a21018 =
 [
-    [ "FilterTargets", "dd/d3f/a21018.html#a0c95ee07e6e2a5cb68f2005a9527c32b", null ],
-    [ "PrepareSpellScript", "dd/d3f/a21018.html#a5de0292e563cff020037d38b2bee9163", null ],
-    [ "Register", "dd/d3f/a21018.html#a95345e01f8c43fa9af346a43a8b1c865", null ]
+    [ "npc_dragonflayer_forge_masterAI", "d8/d49/a21022.html", "d8/d49/a21022" ],
+    [ "npc_dragonflayer_forge_master", "dd/d3f/a21018.html#a920e50234a4a473b28c312c29fb4835a", null ],
+    [ "GetAI", "dd/d3f/a21018.html#ac84dc301cf764c27ccf63bf02a53023c", null ]
 ];

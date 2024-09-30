@@ -1,12 +1,14 @@
 var a22522 =
 [
-    [ "boss_skarvald_the_constructorAI", "d8/d03/a22522.html#a90b669521db89c8c71fe72d17b620694", null ],
-    [ "DoAction", "d8/d03/a22522.html#ac12c072b23e89e0282e45373e4c03cd9", null ],
-    [ "JustDied", "d8/d03/a22522.html#aa10a8a1bd53804f2c0be6dd68b2b1f68", null ],
-    [ "JustEngagedWith", "d8/d03/a22522.html#a02ee99b1b5c3a6a053532dbb59b541a2", null ],
-    [ "KilledUnit", "d8/d03/a22522.html#a897415c1e9d4759d9c8b6d9346516f46", null ],
-    [ "Reset", "d8/d03/a22522.html#a55c1c9b1a3370741d97355569f11e9d4", null ],
-    [ "UpdateAI", "d8/d03/a22522.html#a5ee0df3039c5fc069c90ef06e6ae9604", null ],
-    [ "events", "d8/d03/a22522.html#aac3e019ac655ffcb0aea7f9ae9592795", null ],
-    [ "pInstance", "d8/d03/a22522.html#a7418a8541a8264a260495f8b19ef8699", null ]
+    [ "OPvPCapturePointTF", "d8/d03/a22522.html#af71fd9e2b7cdfa8c4a352bb5f4ce3d33", null ],
+    [ "ChangeState", "d8/d03/a22522.html#aa1e2611ef1b260ab363fd2645de142b0", null ],
+    [ "FillInitialWorldStates", "d8/d03/a22522.html#ad8ec5b055da6a7d34b8db0e8a75e65c8", null ],
+    [ "HandlePlayerEnter", "d8/d03/a22522.html#ae73763b63f5c1522c9b9c5950a6e5dfe", null ],
+    [ "HandlePlayerLeave", "d8/d03/a22522.html#ace20d19311478a136ae0b75016c36ea8", null ],
+    [ "ResetToTeamControlled", "d8/d03/a22522.html#a7ad637f6a4005da3166601dafda52d1b", null ],
+    [ "SendChangePhase", "d8/d03/a22522.html#a16efee78249e510e211b18694ea868f2", null ],
+    [ "Update", "d8/d03/a22522.html#a15b0758d901bf98f65fa2ee87bb4b401", null ],
+    [ "UpdateTowerState", "d8/d03/a22522.html#a3f6cbfddd3322e3d948a1330cfa0e4d8", null ],
+    [ "m_TowerState", "d8/d03/a22522.html#a74e1c07d3186fb6ba54b65efa9700989", null ],
+    [ "m_TowerType", "d8/d03/a22522.html#ace7e183b6dd438b9649e9ee60c6d00e2", null ]
 ];

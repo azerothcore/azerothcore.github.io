@@ -1,6 +1,6 @@
 var a24898 =
 [
-    [ "spell_black_temple_bloodbolt_SpellScript", "d6/df5/a24902.html", "d6/df5/a24902" ],
-    [ "spell_black_temple_bloodbolt", "db/dda/a24898.html#adb48b0c059596a7a2042c6429d215b84", null ],
-    [ "GetSpellScript", "db/dda/a24898.html#a18ff2df7efda93ceb546a4152e838931", null ]
+    [ "CheckProc", "db/dda/a24898.html#a21cda631d861161c370a44a2fd2fd2f7", null ],
+    [ "PrepareAuraScript", "db/dda/a24898.html#a861caa47c502c42fa84d9f9de74df024", null ],
+    [ "Register", "db/dda/a24898.html#ab4275de186b6841a1f424863cb6c128c", null ]
 ];

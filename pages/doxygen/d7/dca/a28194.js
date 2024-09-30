@@ -1,5 +1,8 @@
 var a28194 =
 [
-    [ "PrepareSpellScript", "d7/dca/a28194.html#aee9595d4716fb2ea1bd9e2a66d26c39e", null ],
-    [ "Register", "d7/dca/a28194.html#a6318da4bfeb63dee75a971106bdc2146", null ]
+    [ "ClassMask", "d7/dca/a28194.html#a563ba1618ffefa5470696e37f65c70d4", null ],
+    [ "Flags", "d7/dca/a28194.html#af89c32a22f018557fe016e0784a82384", null ],
+    [ "RaceMask", "d7/dca/a28194.html#acff47bf5c075d669f95b0d229674f9bc", null ],
+    [ "SkillID", "d7/dca/a28194.html#ab9237a8776aa854e0f81cf228a247ef0", null ],
+    [ "SkillTierID", "d7/dca/a28194.html#ab6153043461b71336e12b00957499075", null ]
 ];

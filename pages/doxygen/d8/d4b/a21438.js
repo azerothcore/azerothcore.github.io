@@ -1,6 +1,6 @@
 var a21438 =
 [
-    [ "npc_ulduar_flash_freezeAI", "d4/dfe/a21442.html", "d4/dfe/a21442" ],
-    [ "npc_ulduar_flash_freeze", "d8/d4b/a21438.html#a0301ed1231d3b0d113e9fc9389e8f160", null ],
-    [ "GetAI", "d8/d4b/a21438.html#a933f99c8d38ab98c8454919b6373bb41", null ]
+    [ "HandleEffectPeriodic", "d8/d4b/a21438.html#affa7fb949d4b1a05813df0da17fef3bb", null ],
+    [ "PrepareAuraScript", "d8/d4b/a21438.html#a79dbb866c06cd1c031cae2f1370146d5", null ],
+    [ "Register", "d8/d4b/a21438.html#a1fb46036f0860440f3a9201e0d86cdc4", null ]
 ];

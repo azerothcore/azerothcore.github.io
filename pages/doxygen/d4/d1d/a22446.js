@@ -1,11 +1,13 @@
 var a22446 =
 [
-    [ "npc_ulduar_storm_tempered_keeperAI", "d4/d1d/a22446.html#a97ffe70fab090c7182b2a8dce3c7c54f", null ],
-    [ "JustDied", "d4/d1d/a22446.html#a4778b4c1d7afedc4c8ea3a0b2c2509e1", null ],
-    [ "JustEngagedWith", "d4/d1d/a22446.html#a5ae632ba4da1e78dfa6980fce492ec8e", null ],
-    [ "JustSummoned", "d4/d1d/a22446.html#a7962e2148fb55d96cde4e2fed48e71f4", null ],
-    [ "Reset", "d4/d1d/a22446.html#a521fd2c3f8fb1319daaecfb203d9ebb8", null ],
-    [ "UpdateAI", "d4/d1d/a22446.html#a9d5bc84572934b4fba19d2996e1c89f0", null ],
-    [ "events", "d4/d1d/a22446.html#a0281fd23155c73768a09f60b3a04ce9d", null ],
-    [ "otherGUID", "d4/d1d/a22446.html#a627aa7ff4ffe264d4ea3e78469954170", null ]
+    [ "OPvPCapturePointEP_NPT", "d4/d1d/a22446.html#a2cb0929c3acb81530a0bd7ea57bcc298", null ],
+    [ "ChangeState", "d4/d1d/a22446.html#a9e046ace6129ce67568ed7c15130b617", null ],
+    [ "FillInitialWorldStates", "d4/d1d/a22446.html#a92ab3651e036895f664c33d79a6ec747", null ],
+    [ "HandlePlayerEnter", "d4/d1d/a22446.html#ace643b7f7bc793934972c61c618045eb", null ],
+    [ "HandlePlayerLeave", "d4/d1d/a22446.html#a950cd355c808f40ca95c0e5a46bac0a2", null ],
+    [ "SendChangePhase", "d4/d1d/a22446.html#aef84a9917d5f40cfff48acb45ffdf0aa", null ],
+    [ "SummonGO", "d4/d1d/a22446.html#a08a54abf3668074b5878c165bd2f8ddd", null ],
+    [ "UpdateTowerState", "d4/d1d/a22446.html#ad8cfefcc567346273914e8039b039835", null ],
+    [ "m_SummonedGOSideId", "d4/d1d/a22446.html#aa034240d169c9ab7276786bb188abc70", null ],
+    [ "m_TowerState", "d4/d1d/a22446.html#a703b68024362d13ceaf9012202b72e7d", null ]
 ];

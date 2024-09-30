@@ -1,7 +1,7 @@
 var a19642 =
 [
-    [ "CountTargets", "dc/d2b/a19642.html#aaf1312cc6981c3c3b472a57552f4f5f1", null ],
-    [ "HandleScript", "dc/d2b/a19642.html#a90728aa9269ce808ffb26d13ac770f12", null ],
-    [ "PrepareSpellScript", "dc/d2b/a19642.html#abbdc05c6984bc698c5c9a195c4d35f49", null ],
-    [ "Register", "dc/d2b/a19642.html#a1c9762e115a598642625326dbdd424c8", null ]
+    [ "HandlePeriodic", "dc/d2b/a19642.html#a14fd25f78c9e2bfbdaeb07f3233628b6", null ],
+    [ "PrepareAuraScript", "dc/d2b/a19642.html#ad78b06733a8609dd39e885db2f23edba", null ],
+    [ "Register", "dc/d2b/a19642.html#ac9ae9be546964752869163896c4045dd", null ],
+    [ "Validate", "dc/d2b/a19642.html#afcca84d03b29ef7569c03f973a6c191b", null ]
 ];

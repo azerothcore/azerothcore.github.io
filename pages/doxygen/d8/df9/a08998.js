@@ -1,7 +1,8 @@
 var a08998 =
 [
-    [ "AddonHandler", "d8/df9/a08998.html#a3e52b0fc5ca99a3f5d83ee6d34e16520", null ],
-    [ "~AddonHandler", "d8/df9/a08998.html#a8e4fc7c1cae505850a907e70a9febbf0", null ],
-    [ "BuildAddonPacket", "d8/df9/a08998.html#aca92dc80033c299daf8e3b42dd24ffea", null ],
-    [ "instance", "d8/df9/a08998.html#a2925b829b803dd07e96685086357ef85", null ]
+    [ "FriendlyMissingBuffInRange", "d8/df9/a08998.html#a628fe94ce054a868977ef2a981bc5d6c", null ],
+    [ "operator()", "d8/df9/a08998.html#a6dce8a1248ebb4f3e57cd12a3d94b7b9", null ],
+    [ "i_obj", "d8/df9/a08998.html#aba43edf48b2b0184b52143707c3531f4", null ],
+    [ "i_range", "d8/df9/a08998.html#a54ba98f393a8bdf710f6bd65abee526c", null ],
+    [ "i_spell", "d8/df9/a08998.html#a7f34521e8789a1e1dabb867ed82ff438", null ]
 ];

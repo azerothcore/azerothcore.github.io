@@ -1,8 +1,6 @@
 var a26390 =
 [
-    [ "npc_pet_gen_gnomish_flame_turret", "d1/d2a/a26390.html#a6e79c0ad6219d0beb23cfb086e6d3eaf", null ],
-    [ "AttackStart", "d1/d2a/a26390.html#a2aab464c099e8e5e760a9ae4f28ac33f", null ],
-    [ "Reset", "d1/d2a/a26390.html#a46fe5703a5859d5583e7df3a57b3910a", null ],
-    [ "UpdateAI", "d1/d2a/a26390.html#ae3db08323af4b82009ffd660b3e78474", null ],
-    [ "checkTimer", "d1/d2a/a26390.html#ac6705f4980ca561a5fd33c2917488439", null ]
+    [ "HandleDummy", "d1/d2a/a26390.html#a73628636431d3549d6e3530c6ef23c08", null ],
+    [ "PrepareSpellScript", "d1/d2a/a26390.html#ab90d3031b356e8004fa62c9562f1ba1f", null ],
+    [ "Register", "d1/d2a/a26390.html#a7f42cf47831d3c8544453530a1454ddc", null ]
 ];

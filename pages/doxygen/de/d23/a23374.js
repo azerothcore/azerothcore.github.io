@@ -1,6 +1,7 @@
 var a23374 =
 [
-    [ "npc_commander_eligor_dawnbringerAI", "dd/d8e/a23378.html", "dd/d8e/a23378" ],
-    [ "npc_commander_eligor_dawnbringer", "de/d23/a23374.html#a71d919af98464d6d63f948507f3ff08c", null ],
-    [ "GetAI", "de/d23/a23374.html#a759b9b1aeb8cce983fe8b6d2f3d9c33d", null ]
+    [ "HandleScript", "de/d23/a23374.html#a7c1b4d0c8d2ad153cef62ce05fef814c", null ],
+    [ "PrepareSpellScript", "de/d23/a23374.html#ab826f4f249679ffe87f9e6ccf6b9ecf0", null ],
+    [ "Register", "de/d23/a23374.html#a82da72fd4eed6773c1f3a4288caa8963", null ],
+    [ "Validate", "de/d23/a23374.html#a46aca18049e02d50f57579b3fdc705bd", null ]
 ];

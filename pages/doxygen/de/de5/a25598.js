@@ -1,6 +1,6 @@
 var a25598 =
 [
-    [ "instance_arcatraz_InstanceMapScript", "d8/d44/a25602.html", "d8/d44/a25602" ],
-    [ "instance_arcatraz", "de/de5/a25598.html#a6fc8860651573353b54fd26bddea32aa", null ],
-    [ "GetInstanceScript", "de/de5/a25598.html#ad3f78e41ef2c96443ed3bd1ba4ab55bb", null ]
+    [ "HandleScript", "de/de5/a25598.html#a9309c0e435240bc656b3bfde2d923a9a", null ],
+    [ "PrepareSpellScript", "de/de5/a25598.html#a74dc9d9a57ed410b3c0d690418bfb4eb", null ],
+    [ "Register", "de/de5/a25598.html#a8769cbce815d1f1c457979743e10535c", null ]
 ];

@@ -1,77 +1,42 @@
 var a03272 =
 [
-    [ "zm_beacon", "d2/df4/a22528.html", "d2/df4/a22528" ],
-    [ "OPvPCapturePointZM_Beacon", "d0/d32/a22532.html", "d0/d32/a22532" ],
-    [ "OPvPCapturePointZM_GraveYard", "d7/d52/a22536.html", "d7/d52/a22536" ],
-    [ "OutdoorPvPZM", "d6/d74/a22540.html", "d6/d74/a22540" ],
-    [ "OutdoorPvPZMSpells", "d4/d1c/a03272.html#ac31cd7a23fe2f82e25ababd3a8b700a1", [
-      [ "ZM_CAPTURE_BUFF", "d4/d1c/a03272.html#ac31cd7a23fe2f82e25ababd3a8b700a1a5039b0bd2a7689f857a4ecc871d5b16d", null ],
-      [ "ZM_BATTLE_STANDARD_A", "d4/d1c/a03272.html#ac31cd7a23fe2f82e25ababd3a8b700a1a2b2887aade90aad310f6f859f8482aa5", null ],
-      [ "ZM_BATTLE_STANDARD_H", "d4/d1c/a03272.html#ac31cd7a23fe2f82e25ababd3a8b700a1a0513ef6309adc490c793ee1dc5bc8614", null ],
-      [ "ZM_AlliancePlayerKillReward", "d4/d1c/a03272.html#ac31cd7a23fe2f82e25ababd3a8b700a1a53fad383bb7058d8c1a272bd6d9523a3", null ],
-      [ "ZM_HordePlayerKillReward", "d4/d1c/a03272.html#ac31cd7a23fe2f82e25ababd3a8b700a1a6f9de137a24ee5d457ee7e2c093b398b", null ]
+    [ "tf_tower_world_state", "d9/d53/a22518.html", "d9/d53/a22518" ],
+    [ "OPvPCapturePointTF", "d8/d03/a22522.html", "d8/d03/a22522" ],
+    [ "OutdoorPvPTF", "dd/d67/a22526.html", "dd/d67/a22526" ],
+    [ "TF_CAPTURE_BUFF", "d4/d1c/a03272.html#a82bc235ec6d43b48511d1b3d903a934b", null ],
+    [ "OutdoorPvPTF_TowerType", "d4/d1c/a03272.html#a7a4347e10a530d56e3c3ae66a5eae999", [
+      [ "TF_TOWER_NW", "d4/d1c/a03272.html#a7a4347e10a530d56e3c3ae66a5eae999ac95ea754e0befd303c7912671ff54b16", null ],
+      [ "TF_TOWER_N", "d4/d1c/a03272.html#a7a4347e10a530d56e3c3ae66a5eae999a034d81c6a66a32fef95c75235cb39d2b", null ],
+      [ "TF_TOWER_NE", "d4/d1c/a03272.html#a7a4347e10a530d56e3c3ae66a5eae999a210d598966bbca14ece80eb1e00bae97", null ],
+      [ "TF_TOWER_SE", "d4/d1c/a03272.html#a7a4347e10a530d56e3c3ae66a5eae999a01f2c2e0a883f8355bf433a96b52bd65", null ],
+      [ "TF_TOWER_S", "d4/d1c/a03272.html#a7a4347e10a530d56e3c3ae66a5eae999af3a17ac5cc35927939c90503027342f0", null ],
+      [ "TF_TOWER_NUM", "d4/d1c/a03272.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3", null ]
     ] ],
-    [ "OutdoorPvPZMWorldStates", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650", [
-      [ "ZM_UI_TOWER_SLIDER_N_W", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650a59f87490494537e7b42f2f1236d3389b", null ],
-      [ "ZM_UI_TOWER_SLIDER_POS_W", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650a668586bb2b8f24a5900c5b7e1fe3bfaa", null ],
-      [ "ZM_UI_TOWER_SLIDER_DISPLAY_W", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650a92f46512b9b7c0666ba8fc40c1030fb1", null ],
-      [ "ZM_UI_TOWER_SLIDER_N_E", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650ae178d00e8fceb5e376a7c8e37997efe4", null ],
-      [ "ZM_UI_TOWER_SLIDER_POS_E", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650aaeb08e02d0331c958365dde328f61ca1", null ],
-      [ "ZM_UI_TOWER_SLIDER_DISPLAY_E", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650ab4983d1356b638d3cae75f8ebfa9aa01", null ],
-      [ "ZM_WORLDSTATE_UNK_1", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650a6f257f7830d314e94f78a822dc713892", null ],
-      [ "ZM_UI_TOWER_EAST_N", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650af39da11ab77d79c2b8c12d0a1bf01902", null ],
-      [ "ZM_UI_TOWER_EAST_H", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650aa3a1f0142d75658feff6b105be84b181", null ],
-      [ "ZM_UI_TOWER_EAST_A", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650aee832bc82e854dfea3b5007ec8842c07", null ],
-      [ "ZM_UI_TOWER_WEST_N", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650a4cc7a3b2ee76c872f5bc234c59a6bd2a", null ],
-      [ "ZM_UI_TOWER_WEST_H", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650ab7142ee421fbf060711496890bbb175d", null ],
-      [ "ZM_UI_TOWER_WEST_A", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650a4dff9fffc495e836d338cf18673ec5d8", null ],
-      [ "ZM_MAP_TOWER_EAST_N", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650aa7f3416c2c104eee1f923abf7a6da7f4", null ],
-      [ "ZM_MAP_TOWER_EAST_H", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650af8524e2efef6028f586d0e2ec8bcbd8e", null ],
-      [ "ZM_MAP_TOWER_EAST_A", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650a14408ac391a4bf41b562f184f5a58eac", null ],
-      [ "ZM_MAP_GRAVEYARD_H", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650a9eb55c7b1bc3c1e3869b22d1a40ca311", null ],
-      [ "ZM_MAP_GRAVEYARD_A", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650a7e3e2e8398ed0697623566df27e896ce", null ],
-      [ "ZM_MAP_GRAVEYARD_N", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650a95aef63c1c2a604718ec69bf894b47de", null ],
-      [ "ZM_MAP_TOWER_WEST_N", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650a842d983914f4efa5b069287a73eb3c3f", null ],
-      [ "ZM_MAP_TOWER_WEST_H", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650ab8f742eac6bdca57946be2e8741743d4", null ],
-      [ "ZM_MAP_TOWER_WEST_A", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650a8dff71acf7810c2eb94f4244438e9793", null ],
-      [ "ZM_MAP_HORDE_FLAG_READY", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650abdc372dcc856716765219f40cda52eee", null ],
-      [ "ZM_MAP_HORDE_FLAG_NOT_READY", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650a2678841f388ad2a6079f8d0fff029a4b", null ],
-      [ "ZM_MAP_ALLIANCE_FLAG_NOT_READY", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650aeb4fe279db8ca5da27987e9aa39dbbcc", null ],
-      [ "ZM_MAP_ALLIANCE_FLAG_READY", "d4/d1c/a03272.html#afaddfa36705b24c09328d5ce207b6650a79c368625533c3d9f0ec9d3abc7245bd", null ]
+    [ "TFTowerStates", "d4/d1c/a03272.html#a5815248809b8fd06bd664886846a7126", [
+      [ "TF_TOWERSTATE_N", "d4/d1c/a03272.html#a5815248809b8fd06bd664886846a7126a1bf771ad2a93c40a6d0d5312167a046f", null ],
+      [ "TF_TOWERSTATE_H", "d4/d1c/a03272.html#a5815248809b8fd06bd664886846a7126a133214fb55c09ba0030cc76b1d2082c1", null ],
+      [ "TF_TOWERSTATE_A", "d4/d1c/a03272.html#a5815248809b8fd06bd664886846a7126acde31be20bbd32d3bf71bd3352e7e43d", null ]
     ] ],
-    [ "ZM_BeaconType", "d4/d1c/a03272.html#a8493feec67db9c938c31465f24f60fe1", [
-      [ "ZM_BEACON_EAST", "d4/d1c/a03272.html#a8493feec67db9c938c31465f24f60fe1a034b065f7219f5b4a6d983ed694e7a80", null ],
-      [ "ZM_BEACON_WEST", "d4/d1c/a03272.html#a8493feec67db9c938c31465f24f60fe1a36b102e6d45f41b4db14e889ffac46e2", null ],
-      [ "ZM_NUM_BEACONS", "d4/d1c/a03272.html#a8493feec67db9c938c31465f24f60fe1a9e566b7b7f64cae5ea6a37a289f16ce3", null ]
+    [ "TFWorldStates", "d4/d1c/a03272.html#a4134a455195e5cc1be9288227500b258", [
+      [ "TF_UI_TOWER_SLIDER_POS", "d4/d1c/a03272.html#a4134a455195e5cc1be9288227500b258a01fef84454cee087b39e06f40fa95336", null ],
+      [ "TF_UI_TOWER_SLIDER_N", "d4/d1c/a03272.html#a4134a455195e5cc1be9288227500b258a789327b4fc1d2e623b1a0a18d70328dd", null ],
+      [ "TF_UI_TOWER_SLIDER_DISPLAY", "d4/d1c/a03272.html#a4134a455195e5cc1be9288227500b258a0137c97cdf1617d73e09085174a9842b", null ],
+      [ "TF_UI_TOWER_COUNT_H", "d4/d1c/a03272.html#a4134a455195e5cc1be9288227500b258a9f05bf2230c06a169b0a884bb33a94cc", null ],
+      [ "TF_UI_TOWER_COUNT_A", "d4/d1c/a03272.html#a4134a455195e5cc1be9288227500b258ae98ffdfa2845c1411a02a1e8afba6b30", null ],
+      [ "TF_UI_TOWERS_CONTROLLED_DISPLAY", "d4/d1c/a03272.html#a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219", null ],
+      [ "TF_UI_LOCKED_TIME_MINUTES_FIRST_DIGIT", "d4/d1c/a03272.html#a4134a455195e5cc1be9288227500b258a09a446e5fb19482131f119d4ffe75ec3", null ],
+      [ "TF_UI_LOCKED_TIME_MINUTES_SECOND_DIGIT", "d4/d1c/a03272.html#a4134a455195e5cc1be9288227500b258a6e71bc9f10b277d16c6ba22b6f4cb381", null ],
+      [ "TF_UI_LOCKED_TIME_HOURS", "d4/d1c/a03272.html#a4134a455195e5cc1be9288227500b258af4e7d7c6926dae8b9f55258bd66c4b6b", null ],
+      [ "TF_UI_LOCKED_DISPLAY_NEUTRAL", "d4/d1c/a03272.html#a4134a455195e5cc1be9288227500b258a75d5f388814344dcdaafdb7cc434532d", null ],
+      [ "TF_UI_LOCKED_DISPLAY_HORDE", "d4/d1c/a03272.html#a4134a455195e5cc1be9288227500b258a7b43f99b2120863099d31e07029b5dd2", null ],
+      [ "TF_UI_LOCKED_DISPLAY_ALLIANCE", "d4/d1c/a03272.html#a4134a455195e5cc1be9288227500b258a3ad3af0875c04da341c52ec43710eee0", null ]
     ] ],
-    [ "ZM_GraveYardState", "d4/d1c/a03272.html#a7f5994fe11cd4c05d90e61455885dca0", [
-      [ "ZM_GRAVEYARD_N", "d4/d1c/a03272.html#a7f5994fe11cd4c05d90e61455885dca0a87f32a40b9ae4243e7977085b4dab7c0", null ],
-      [ "ZM_GRAVEYARD_A", "d4/d1c/a03272.html#a7f5994fe11cd4c05d90e61455885dca0aef470c9322dded10641afcc6a153e329", null ],
-      [ "ZM_GRAVEYARD_H", "d4/d1c/a03272.html#a7f5994fe11cd4c05d90e61455885dca0a115a6845b9e0fbabbef2f3e28599f065", null ]
-    ] ],
-    [ "ZM_TowerStateMask", "d4/d1c/a03272.html#a5d44e96b24b1f1215d1b3788b212f11c", [
-      [ "ZM_TOWERSTATE_N", "d4/d1c/a03272.html#a5d44e96b24b1f1215d1b3788b212f11ca03d2918a6a9915b33da0f120feb7d5da", null ],
-      [ "ZM_TOWERSTATE_A", "d4/d1c/a03272.html#a5d44e96b24b1f1215d1b3788b212f11cab51c5d640c62f5336ec7c5a1028f73d0", null ],
-      [ "ZM_TOWERSTATE_H", "d4/d1c/a03272.html#a5d44e96b24b1f1215d1b3788b212f11ca206f55050d03bbc30f690c7e669e1831", null ]
-    ] ],
-    [ "ZMCreatureTypes", "d4/d1c/a03272.html#aa6fc4a297b329d62073dd503d4f647c5", [
-      [ "ZM_ALLIANCE_FIELD_SCOUT", "d4/d1c/a03272.html#aa6fc4a297b329d62073dd503d4f647c5ab0f9fb0eee307b47658f6742db0a4d82", null ],
-      [ "ZM_HORDE_FIELD_SCOUT", "d4/d1c/a03272.html#aa6fc4a297b329d62073dd503d4f647c5a51001197c09a749a8d042df6fc5d0d62", null ],
-      [ "ZM_CREATURE_NUM", "d4/d1c/a03272.html#aa6fc4a297b329d62073dd503d4f647c5a47e8909e9a6a41604775c672ec3587ae", null ]
-    ] ],
-    [ "OutdoorPvPZMBuffZones", "d4/d1c/a03272.html#a42debbed89bc9a37f04d7da9f1ba5362", null ],
-    [ "OutdoorPvPZMBuffZonesNum", "d4/d1c/a03272.html#afd164ef928ed19895648e76207433805", null ],
-    [ "ZM_AllianceFieldScout", "d4/d1c/a03272.html#a308db265dfb26d8d04ea2b44077d3b42", null ],
-    [ "ZM_Banner_A", "d4/d1c/a03272.html#a986fade5573769277e5c9e99dc243d78", null ],
-    [ "ZM_Banner_H", "d4/d1c/a03272.html#a5eae372f5bc43c36af04c8833002ca79", null ],
-    [ "ZM_Banner_N", "d4/d1c/a03272.html#a9bf0e9dee2e0ae4731dd302373e18542", null ],
-    [ "ZM_GRAVEYARD_ID", "d4/d1c/a03272.html#adc060a8578a0685e98f94a0d51c3613b", null ],
-    [ "ZM_GRAVEYARD_ZONE", "d4/d1c/a03272.html#a32c62572b4ea0ef1930cffc3e9e2c6fe", null ],
-    [ "ZM_HordeFieldScout", "d4/d1c/a03272.html#aa18435dfdf68c3f5ac5218ce2e4909d0", null ],
-    [ "ZMBeaconCaptureA", "d4/d1c/a03272.html#aefc7683d5c310d6513a4bc64e0562f24", null ],
-    [ "ZMBeaconCaptureH", "d4/d1c/a03272.html#a3cf4b21d832f1993b7bbef74516f4690", null ],
-    [ "ZMBeaconInfo", "d4/d1c/a03272.html#af392c2c0a8da38f6782ab0ed0501a448", null ],
-    [ "ZMBeaconLoseA", "d4/d1c/a03272.html#ace5e051bf69a2b4be978b04c832c5592", null ],
-    [ "ZMBeaconLoseH", "d4/d1c/a03272.html#a32e1a277d31ee3f4a23f291ccb4798e6", null ],
-    [ "ZMCapturePoints", "d4/d1c/a03272.html#a397f5867c1a3f99cf044124a4a621324", null ]
+    [ "OutdoorPvPTFBuffZones", "d4/d1c/a03272.html#a6b09030102f8c0dbb4b0e6bbfdee9b24", null ],
+    [ "OutdoorPvPTFBuffZonesNum", "d4/d1c/a03272.html#acde5c9331776adb4ed27c2319476e550", null ],
+    [ "TF_ALLY_QUEST", "d4/d1c/a03272.html#a3967b7bb2df0e330fbd21a68d557b19a", null ],
+    [ "TF_HORDE_QUEST", "d4/d1c/a03272.html#a1bbe00a4cf0ae9f6750d23ef10539c0a", null ],
+    [ "TF_LOCK_TIME", "d4/d1c/a03272.html#a925c2f6bf9c7a6d1b694382b888fa85f", null ],
+    [ "TF_LOCK_TIME_UPDATE", "d4/d1c/a03272.html#a9ef7be226d98726081fd3cb435d223b5", null ],
+    [ "TFCapturePoints", "d4/d1c/a03272.html#a19e9cf9859a7578f154dcdcfa0670620", null ],
+    [ "TFTowerWorldStates", "d4/d1c/a03272.html#ac5dbb8989285178cfea88af6f03dd6a6", null ]
 ];

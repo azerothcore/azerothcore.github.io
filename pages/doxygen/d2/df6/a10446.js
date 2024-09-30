@@ -1,5 +1,6 @@
 var a10446 =
 [
-    [ "amountCounter", "d2/df6/a10446.html#a8de1f899f55a371b77ae007c1f9a981c", null ],
-    [ "lastReceiveTime", "d2/df6/a10446.html#ae0f3f2a90a24b48d239e3df3525f8fdc", null ]
+    [ "GuildSetGuildMaster", "d2/df6/a10446.html#ae6ca07252de719cc506042c8d3e8285e", null ],
+    [ "Read", "d2/df6/a10446.html#a94f16e55a840c7cba991a119af5d8263", null ],
+    [ "NewMasterName", "d2/df6/a10446.html#a02f37610492c75373266bb93000adcbf", null ]
 ];

@@ -1,6 +1,7 @@
 var a25146 =
 [
-    [ "spell_morogrim_tidewalker_watery_grave_SpellScript", "d0/d82/a25150.html", "d0/d82/a25150" ],
-    [ "spell_morogrim_tidewalker_watery_grave", "d1/df0/a25146.html#aa69b398145cf26f614a7acbb217c7937", null ],
-    [ "GetSpellScript", "d1/df0/a25146.html#ad79c26b93899eec1e0c6d9391c5d985c", null ]
+    [ "HandleStun", "d1/df0/a25146.html#aec7b18c9fe4d03e6e61dd2e43c842a93", null ],
+    [ "PrepareAuraScript", "d1/df0/a25146.html#a26bf4bfdbe5ccf890d75bc663f228639", null ],
+    [ "Register", "d1/df0/a25146.html#a660a0e41ac5918cd365f4c47fea9c230", null ],
+    [ "Validate", "d1/df0/a25146.html#a4e89cdbc719b32576f57dd6f7e5d3f2a", null ]
 ];

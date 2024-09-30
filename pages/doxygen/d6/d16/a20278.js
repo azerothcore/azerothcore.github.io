@@ -1,6 +1,6 @@
 var a20278 =
 [
-    [ "npc_nexus_lordAI", "dd/dbb/a20282.html", "dd/dbb/a20282" ],
-    [ "npc_nexus_lord", "d6/d16/a20278.html#a6e58f0074451dfd04b95b3ecaa0201e3", null ],
-    [ "GetAI", "d6/d16/a20278.html#a1cea0b189b2ef8e932b51caf3d70d6ba", null ]
+    [ "FilterTargets", "d6/d16/a20278.html#ae8d940a89be9b63286911bd55dcd3844", null ],
+    [ "PrepareSpellScript", "d6/d16/a20278.html#a8f4b4d82e53c8f820b620896478681a9", null ],
+    [ "Register", "d6/d16/a20278.html#a744d5cb8de927410ab1bf72008fff8b3", null ]
 ];

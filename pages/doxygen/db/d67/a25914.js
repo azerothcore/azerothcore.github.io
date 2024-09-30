@@ -1,6 +1,6 @@
 var a25914 =
 [
-    [ "npc_nether_drakeAI", "dd/d6c/a25918.html", "dd/d6c/a25918" ],
-    [ "npc_nether_drake", "db/d67/a25914.html#a253ec3c91857b899ea9e2c824870b760", null ],
-    [ "GetAI", "db/d67/a25914.html#a58d269e2c73cae07bb507162b742fe8f", null ]
+    [ "CheckProc", "db/d67/a25914.html#af38c2b1c556a1fcdb1157468cd02811e", null ],
+    [ "PrepareAuraScript", "db/d67/a25914.html#a42b97406721d3493a378394132a55981", null ],
+    [ "Register", "db/d67/a25914.html#af4d514906f66af1b2f2392bcfc5e8b9c", null ]
 ];

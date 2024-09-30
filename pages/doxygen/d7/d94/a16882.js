@@ -1,6 +1,7 @@
 var a16882 =
 [
-    [ "spell_valkyr_ball_periodic_dummyAuraScript", "d7/d49/a16886.html", "d7/d49/a16886" ],
-    [ "spell_valkyr_ball_periodic_dummy", "d7/d94/a16882.html#a0a8ea4997a87c486ac68cae0259d5ad5", null ],
-    [ "GetAuraScript", "d7/d94/a16882.html#abfc4ad26352893ac44d0d8468b3b22f7", null ]
+    [ "HandlePeriodicTick", "d7/d94/a16882.html#a61417176afec531ca2bf6e80eb72ac6a", null ],
+    [ "PrepareAuraScript", "d7/d94/a16882.html#ad5f954d5050bded2e6a5877cb9f81df5", null ],
+    [ "Register", "d7/d94/a16882.html#a4653ccb0d93d056adf3b14056865787c", null ],
+    [ "Validate", "d7/d94/a16882.html#a675b447cf1cf0e7d92c777ae31888a8c", null ]
 ];

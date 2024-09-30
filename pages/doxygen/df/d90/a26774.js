@@ -1,9 +1,8 @@
 var a26774 =
 [
-    [ "FilterTargets", "df/d90/a26774.html#ae7a54b8e27f91091b479293cc62ee1f4", null ],
-    [ "PrepareSpellScript", "df/d90/a26774.html#a215b412cfeae9f2763b1c5d3b8a4ca31", null ],
-    [ "Register", "df/d90/a26774.html#ae790485f5b27fe34a0a26c3d6fc7ed41", null ],
-    [ "SetTargets", "df/d90/a26774.html#ac77e95af9b08118e87e3329eab5515ea", null ],
-    [ "Validate", "df/d90/a26774.html#a8e4b1ff1577f25334b50e25bffc021cc", null ],
-    [ "_targets", "df/d90/a26774.html#acc66768f54c514552f0ab01274c24f17", null ]
+    [ "Load", "df/d90/a26774.html#af6c19828b80a6cc06e4c9c207e7c52b8", null ],
+    [ "OnRemove", "df/d90/a26774.html#a097cf2a2abecda1e89f85bc4bd4ec029", null ],
+    [ "PrepareAuraScript", "df/d90/a26774.html#a2161d27a90b3f87fd07f75723b6d9e13", null ],
+    [ "Register", "df/d90/a26774.html#a932760326c822f1b47df1afdec6bb9cb", null ],
+    [ "Validate", "df/d90/a26774.html#a69bcfedb7f566c572201aadc9e75df08", null ]
 ];

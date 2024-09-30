@@ -1,6 +1,6 @@
 var a18490 =
 [
-    [ "HandleTriggerSpell", "db/d13/a18490.html#ae17a13e8f5a71c4601932327f947b8f1", null ],
-    [ "PrepareAuraScript", "db/d13/a18490.html#a2f19bc1e308600cc602a77a5a3b98ad3", null ],
-    [ "Register", "db/d13/a18490.html#a32fd3af43e85aeb5ce02923086c554ca", null ]
+    [ "npc_captain_arnathAI", "da/d4f/a18494.html", "da/d4f/a18494" ],
+    [ "npc_captain_arnath", "db/d13/a18490.html#ab96afce64a7714ea84bab932f80c9302", null ],
+    [ "GetAI", "db/d13/a18490.html#a302ec007389e677011334d78f410207b", null ]
 ];

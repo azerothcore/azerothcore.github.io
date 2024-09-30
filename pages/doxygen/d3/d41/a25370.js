@@ -1,6 +1,9 @@
 var a25370 =
 [
-    [ "CalculateDamage", "d3/d41/a25370.html#a170fb61e3a7358d42cc6506067fb978a", null ],
-    [ "PrepareSpellScript", "d3/d41/a25370.html#a197fce87e22a3e4055cabbb925b13aa1", null ],
-    [ "Register", "d3/d41/a25370.html#aac3c6a6b34af795cb08fc299e763f6a8", null ]
+    [ "CheckIfCorpseNear", "d3/d41/a25370.html#a9b512f84f1d728e24845b6aaa28bdd6b", null ],
+    [ "HandleDummy", "d3/d41/a25370.html#a913c0137d2a13c810bbae869cc6cf734", null ],
+    [ "Load", "d3/d41/a25370.html#a3f36968d10bde12c7e2eda8db4145252", null ],
+    [ "PrepareSpellScript", "d3/d41/a25370.html#acc7d6f489c34c3cc26f37bc94f8727e8", null ],
+    [ "Register", "d3/d41/a25370.html#a736c4fe39e947ad98df19b3b001bdc29", null ],
+    [ "Validate", "d3/d41/a25370.html#a51b075f95211025b2a7719a3ee70a6be", null ]
 ];

@@ -1,10 +1,15 @@
 var a08818 =
 [
-    [ "NearestCreatureEntryWithLiveStateInObjectRangeCheck", "d3/d39/a08818.html#aa9f15d071efe7ca7bb975489fec2afbd", null ],
-    [ "NearestCreatureEntryWithLiveStateInObjectRangeCheck", "d3/d39/a08818.html#a1e25384d08beeee84d83e401f5a5a565", null ],
-    [ "operator()", "d3/d39/a08818.html#abc2ab6f33a6a58a6e692cc32e8139839", null ],
-    [ "i_alive", "d3/d39/a08818.html#a7a01388f86d25fa0728d94c6e1a7f752", null ],
-    [ "i_entry", "d3/d39/a08818.html#ae2bf2c0a0f431f5de445fbee26b60a57", null ],
-    [ "i_obj", "d3/d39/a08818.html#aa0340c79c37f3494b01c52f034705aa4", null ],
-    [ "i_range", "d3/d39/a08818.html#a695af00612b17e0182ad76a5c3be2356", null ]
+    [ "CoordPair", "d3/d39/a08818.html#a53b5f24cfdf13b246549a0c1543924c9", null ],
+    [ "CoordPair", "d3/d39/a08818.html#aab92ece0f01ebc00cdac4966e02fa8fd", null ],
+    [ "dec_x", "d3/d39/a08818.html#a69be5b72b710722120104f0c502fbb70", null ],
+    [ "dec_y", "d3/d39/a08818.html#aefa33f8766212bb71e5fd19a318142cc", null ],
+    [ "GetId", "d3/d39/a08818.html#ae4f7f304faf2c2363cffe2170b4c5c97", null ],
+    [ "inc_x", "d3/d39/a08818.html#aa6a4942253e87ae57e2d69a2563ddef1", null ],
+    [ "inc_y", "d3/d39/a08818.html#a120946c5a8c8b49bbdf9a1ee54ded9ec", null ],
+    [ "IsCoordValid", "d3/d39/a08818.html#a082960c54e2077df370f891c0534b44f", null ],
+    [ "normalize", "d3/d39/a08818.html#afac8086374bfc499e3a8d74d6afc58db", null ],
+    [ "operator=", "d3/d39/a08818.html#a27f81c359c4ae278d663e85eccbeebb9", null ],
+    [ "x_coord", "d3/d39/a08818.html#a101dd71af6a2cba18140aea2e502ef8b", null ],
+    [ "y_coord", "d3/d39/a08818.html#aacae12844cc0c0d70e26b137ad28f700", null ]
 ];

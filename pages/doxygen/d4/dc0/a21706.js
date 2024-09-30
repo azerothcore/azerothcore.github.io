@@ -1,5 +1,6 @@
 var a21706 =
 [
-    [ "achievement_kologarn_with_open_arms", "d4/dc0/a21706.html#a94af961be5bbdf7783925148731ce7e4", null ],
-    [ "OnCheck", "d4/dc0/a21706.html#a03c1fb5f141a15f8f63e28700b98f9b5", null ]
+    [ "npc_injured_7th_legion_soldierAI", "d2/d0e/a21710.html", "d2/d0e/a21710" ],
+    [ "npc_injured_7th_legion_soldier", "d4/dc0/a21706.html#a9d3c647f485dbca5efeec8f784efba1b", null ],
+    [ "GetAI", "d4/dc0/a21706.html#a0feca7aedcf3c07253d4d402266189cc", null ]
 ];

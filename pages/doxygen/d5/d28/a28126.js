@@ -1,7 +1,7 @@
 var a28126 =
 [
-    [ "if", "d5/d28/a28126.html#a2b5a85e480bcd0ef5074d3bcf7eaf5cb", null ],
-    [ "PrepareAuraScript", "d5/d28/a28126.html#aa31810077c241e77193e378cb297b7de", null ],
-    [ "Register", "d5/d28/a28126.html#a7b8f537719a4155d1cd95a6f49cf6a3a", null ],
-    [ "AuraEffectHandleModes", "d5/d28/a28126.html#a3113d8e7ec296fdf13c8f386ae74e0f3", null ]
+    [ "Id", "d5/d28/a28126.html#a94843a6f0cb39332f39a9630945f1fc8", null ],
+    [ "SoundBank", "d5/d28/a28126.html#a1dd2e40caf515186c831dc8cc82c095b", null ],
+    [ "SpellId", "d5/d28/a28126.html#aa010947f5fbec6867b005b25728e720b", null ],
+    [ "Type", "d5/d28/a28126.html#a7f610dd6a9944b4634bb981c0cb8e230", null ]
 ];

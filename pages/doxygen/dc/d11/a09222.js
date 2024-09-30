@@ -1,12 +1,16 @@
 var a09222 =
 [
-    [ "flags", "dc/d11/a09222.html#ab1c2612a57fcfce78e10de45dfc1c28d", null ],
-    [ "fourcc", "dc/d11/a09222.html#a5e7b1d32e42afbeb6898ee02014847cd", null ],
-    [ "height", "dc/d11/a09222.html#ab064dde684394c3aa84f9b151749d524", null ],
-    [ "liquidFlags", "dc/d11/a09222.html#a90f22c454f03ecee6aa1b9f9392e10a0", null ],
-    [ "liquidLevel", "dc/d11/a09222.html#ae4f34f9b8139b18416862bcd413f4aaa", null ],
-    [ "liquidType", "dc/d11/a09222.html#ab2ce1920efaec0a4fc0a81df9d6539e3", null ],
-    [ "offsetX", "dc/d11/a09222.html#a2ddee980eda8b7321b55ba44697688b5", null ],
-    [ "offsetY", "dc/d11/a09222.html#abc57f9e6c2f9fae58f575d8e1309f420", null ],
-    [ "width", "dc/d11/a09222.html#aabcbad9f4c0cae9d2e1b015a93f2a0ed", null ]
+    [ "BankEventLogEntry", "dc/d11/a09222.html#a31275c6a36f7b79d7532345d38a3739b", null ],
+    [ "BankEventLogEntry", "dc/d11/a09222.html#a1a87a93c90b6a0b6766ac46228fd1761", null ],
+    [ "~BankEventLogEntry", "dc/d11/a09222.html#a8033da0f1bd56926bd306e1cbdc1ecb9", null ],
+    [ "IsMoneyEvent", "dc/d11/a09222.html#a9a38b7966bdcc3ec9e871c024c928ce1", null ],
+    [ "IsMoneyEvent", "dc/d11/a09222.html#a49c76ead144b21da7cb1059af54a2482", null ],
+    [ "SaveToDB", "dc/d11/a09222.html#a9010bb7bd849aa6ba25b31596ac30831", null ],
+    [ "WritePacket", "dc/d11/a09222.html#a930223d8596264801d7b0cf04cea62f8", null ],
+    [ "m_bankTabId", "dc/d11/a09222.html#a836df4449b5190b4404482e46a5e5449", null ],
+    [ "m_destTabId", "dc/d11/a09222.html#a57a6aeaae26781df310a2c98fcf7164d", null ],
+    [ "m_eventType", "dc/d11/a09222.html#a180246a8eaca99431383916776a4f7ad", null ],
+    [ "m_itemOrMoney", "dc/d11/a09222.html#a689ea5c40d39fe5dc8a80351c4884b18", null ],
+    [ "m_itemStackCount", "dc/d11/a09222.html#ad4ed0df79ff061a4735538067fa4a372", null ],
+    [ "m_playerGuid", "dc/d11/a09222.html#a3b2127e193ff9f5b54cf6520cd2a2458", null ]
 ];

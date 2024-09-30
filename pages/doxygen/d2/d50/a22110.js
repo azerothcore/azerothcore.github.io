@@ -1,6 +1,6 @@
 var a22110 =
 [
-    [ "OnRemove", "d2/d50/a22110.html#ac4d50b0f256b0b38313b8d7a5910f198", null ],
-    [ "PrepareAuraScript", "d2/d50/a22110.html#a1a3486f24b1e00b94be808a43e16204f", null ],
-    [ "Register", "d2/d50/a22110.html#ab43761783386b9956f8549046d190422", null ]
+    [ "npc_still_at_it_triggerAI", "d2/d2b/a22114.html", "d2/d2b/a22114" ],
+    [ "npc_still_at_it_trigger", "d2/d50/a22110.html#a23366d00bd3b8217bdca7f0fca05d9bd", null ],
+    [ "GetAI", "d2/d50/a22110.html#ae273ea6295f50248d303983d4b4137df", null ]
 ];

@@ -1,6 +1,6 @@
 var a24294 =
 [
-    [ "instance_sethekk_halls_InstanceMapScript", "d8/d17/a24298.html", "d8/d17/a24298" ],
-    [ "instance_sethekk_halls", "df/d7c/a24294.html#ab50d296266cf377bfb34750ec36963ef", null ],
-    [ "GetInstanceScript", "df/d7c/a24294.html#adc07afe1aa8132f70474f9a534ecb76c", null ]
+    [ "npc_slim", "df/d7c/a24294.html#aa227fbe22126bed821939873973e6a20", null ],
+    [ "OnGossipHello", "df/d7c/a24294.html#a34dafb9f3a82c1d2f52a95436345dd0b", null ],
+    [ "OnGossipSelect", "df/d7c/a24294.html#a426963b7bf831a3b5a75dcf0629917a9", null ]
 ];

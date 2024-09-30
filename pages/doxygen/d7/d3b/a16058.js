@@ -1,6 +1,6 @@
 var a16058 =
 [
-    [ "instance_azjol_nerub_InstanceScript", "db/db5/a16062.html", "db/db5/a16062" ],
-    [ "instance_azjol_nerub", "d7/d3b/a16058.html#a61476a0d15136d2bdb3a65eca72963da", null ],
-    [ "GetInstanceScript", "d7/d3b/a16058.html#a8bb8477669c6369afe508a400bd4d489", null ]
+    [ "npc_memoryAI", "db/db5/a16062.html", "db/db5/a16062" ],
+    [ "npc_memory", "d7/d3b/a16058.html#acebf31813025d323f9486d6575a60483", null ],
+    [ "GetAI", "d7/d3b/a16058.html#ad8e532d029217a06d11ae39810498976", null ]
 ];

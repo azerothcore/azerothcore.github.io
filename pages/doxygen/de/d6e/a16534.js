@@ -1,8 +1,19 @@
 var a16534 =
 [
-    [ "npc_announcer_toc5AI", "dc/d65/a16538.html", "dc/d65/a16538" ],
-    [ "npc_announcer_toc5", "de/d6e/a16534.html#abf50bb7deb9e0bb04d9ac802aff5fa41", null ],
-    [ "GetAI", "de/d6e/a16534.html#a06767a8fd1e940d4efee6dd752520e9e", null ],
-    [ "OnGossipHello", "de/d6e/a16534.html#ad2cc55ddc6696b9bfb22e68eab965fb0", null ],
-    [ "OnGossipSelect", "de/d6e/a16534.html#a9017488c652fd75882db75914f4a2db2", null ]
+    [ "boss_novosAI", "de/d6e/a16534.html#adb1ddbf486ee7690d25c00db3902e408", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "de/d6e/a16534.html#ab1e9ef1780d53447e3e39c69de2111f8", null ],
+    [ "GetData", "de/d6e/a16534.html#ab4c51470b6e1492922fa507566cfb01b", null ],
+    [ "JustDied", "de/d6e/a16534.html#a7fc57c7b0fe7befc5e3466e929bf8e40", null ],
+    [ "JustEngagedWith", "de/d6e/a16534.html#ab0d05b5f01943a2a1a4b9942b7af6a4f", null ],
+    [ "JustSummoned", "de/d6e/a16534.html#a67340b4d1b140b018a91c28cb649ce6f", null ],
+    [ "KilledUnit", "de/d6e/a16534.html#ae2a48f1b01018307d9d08b36a4b15401", null ],
+    [ "MoveInLineOfSight", "de/d6e/a16534.html#acd01b87b1f481de8f3327c3a958dd12d", null ],
+    [ "Reset", "de/d6e/a16534.html#ac62d82368e71dcb58cbac04d90731d35", null ],
+    [ "SetData", "de/d6e/a16534.html#a86825eabbf3411443ffd8f458defb0b0", null ],
+    [ "UpdateAI", "de/d6e/a16534.html#acba9623bd90132a4042c2fb9923a1c3c", null ],
+    [ "_achievement", "de/d6e/a16534.html#a00e5942a5c4c05dc168b80d60cb10d0f", null ],
+    [ "_crystalCounter", "de/d6e/a16534.html#afc81805776138a9075aac36cf268c6eb", null ],
+    [ "_stage", "de/d6e/a16534.html#a88013d55c74c4d3c86a5e254ca77e892", null ],
+    [ "_summonTargetLeftGUID", "de/d6e/a16534.html#a9c79a08d0f1814e265dc7dad59946c02", null ],
+    [ "_summonTargetRightGUID", "de/d6e/a16534.html#aeb5b0d02c11bd3e4299e05c498c8cfd8", null ]
 ];

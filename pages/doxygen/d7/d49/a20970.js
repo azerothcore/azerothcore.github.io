@@ -1,6 +1,7 @@
 var a20970 =
 [
-    [ "HandleInstaKill", "d7/d49/a20970.html#af0883644d3adb80505bc1a3f73a34b8a", null ],
-    [ "PrepareSpellScript", "d7/d49/a20970.html#a67fc3c3c0a96f38b9d9a49d5ac31bd29", null ],
-    [ "Register", "d7/d49/a20970.html#a903b9eb42bfdd9028211cae6674c26f0", null ]
+    [ "npc_frost_tombAI", "d7/d49/a20970.html#a950f7f77bdbc7ba1db0911641f2fadcf", null ],
+    [ "JustDied", "d7/d49/a20970.html#aeda420de208505fa93fc548693a1ff74", null ],
+    [ "UpdateAI", "d7/d49/a20970.html#a8f323275af4ecafd1978c465e75978e0", null ],
+    [ "PrisonerGUID", "d7/d49/a20970.html#ae1e3af77879f98a77186ec77c31da7a8", null ]
 ];

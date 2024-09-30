@@ -1,7 +1,8 @@
 var a08710 =
 [
-    [ "GameObjectFocusCheck", "d0/d7f/a08710.html#a06607ffa0ebf51c230f4584632a7444a", null ],
-    [ "operator()", "d0/d7f/a08710.html#af5c0b63b8bfe112c9a8a43d7e49e1f7b", null ],
-    [ "i_focusId", "d0/d7f/a08710.html#ace009546c2dcc6dac5de98b3c34152a5", null ],
-    [ "i_unit", "d0/d7f/a08710.html#a0afc07e086f5aa3301c2b46a0004213e", null ]
+    [ "target_mapId", "d0/d7f/a08710.html#af6d7558707c026a6d64f2d7b65a344be", null ],
+    [ "target_Orientation", "d0/d7f/a08710.html#a5f6bf883e167b683e048ce9eeebb7cb0", null ],
+    [ "target_X", "d0/d7f/a08710.html#a3ef5faea7a6fd9b173ea35036b3390b2", null ],
+    [ "target_Y", "d0/d7f/a08710.html#a6660d360eaa47098506f246927130e32", null ],
+    [ "target_Z", "d0/d7f/a08710.html#a32fee5f497804089feb738be84548dc1", null ]
 ];

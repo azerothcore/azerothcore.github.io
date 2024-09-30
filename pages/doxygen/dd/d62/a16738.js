@@ -1,8 +1,8 @@
 var a16738 =
 [
-    [ "npc_toc_pet_hunterAI", "dd/d62/a16738.html#a751e37388df10abf4bf9df5d3f373fa3", null ],
-    [ "EnterEvadeMode", "dd/d62/a16738.html#a7f60ea2596fa4af2209333696dbe00e0", null ],
-    [ "myCanCast", "dd/d62/a16738.html#aefaa41a92000d8915853988ce3fd5bc4", null ],
-    [ "UpdateAI", "dd/d62/a16738.html#aec1d16cdcb7d86d7de4de10ca34f491d", null ],
-    [ "events", "dd/d62/a16738.html#ade038312363f976b34868ed2cbebb58d", null ]
+    [ "npc_phantom_hallucinationAI", "dd/d62/a16738.html#a7b27d1c859d77220dc1c3c8323e9eef9", null ],
+    [ "EnterEvadeMode", "dd/d62/a16738.html#a7ef7411ea780466d7c4dd185d9444aba", null ],
+    [ "JustDied", "dd/d62/a16738.html#a5a4f05c5930a7e5bd31df2e3131f4cec", null ],
+    [ "UpdateAI", "dd/d62/a16738.html#ad874a741c641dbac6380aa682d582d7c", null ],
+    [ "numOfUpd", "dd/d62/a16738.html#adb78f5dcd272e8223f895079885a5461", null ]
 ];

@@ -1,6 +1,9 @@
 var a14046 =
 [
-    [ "boss_renatakiAI", "d7/de1/a14050.html", "d7/de1/a14050" ],
-    [ "boss_renataki", "d0/d6c/a14046.html#a8504ed2df8c8f8a85fc9d0e99cc24ec6", null ],
-    [ "GetAI", "d0/d6c/a14046.html#a386b7ef3d1fc4070eb300cf4fdaa4d9a", null ]
+    [ "npc_brew_bubble", "d0/d6c/a14046.html#a188d1b68bb939d518e72e844e53e9a7d", null ],
+    [ "DoAction", "d0/d6c/a14046.html#a7223d3397b32cf2969ea628c06ac2f19", null ],
+    [ "MoveInLineOfSight", "d0/d6c/a14046.html#aea01d2c0f9ac883a8a8668164f16f932", null ],
+    [ "Reset", "d0/d6c/a14046.html#aa3ab8e07323b47751f72c5ebab24a1bb", null ],
+    [ "UpdateAI", "d0/d6c/a14046.html#a25018deaa206620f6e98ba722f689b8d", null ],
+    [ "timer", "d0/d6c/a14046.html#a4bee73add756ba4b3137818b2dacd27f", null ]
 ];

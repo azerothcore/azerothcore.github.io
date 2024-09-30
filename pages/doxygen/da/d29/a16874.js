@@ -1,6 +1,8 @@
 var a16874 =
 [
-    [ "spell_valkyr_touchAuraScript", "da/dd2/a16878.html", "da/dd2/a16878" ],
-    [ "spell_valkyr_touch", "da/d29/a16874.html#a13ab6fdfe33659448a4598feed1db0a6", null ],
-    [ "GetAuraScript", "da/d29/a16874.html#af8205cf431f034e4b678e1396fbe40a8", null ]
+    [ "boss_krickAI", "da/d29/a16874.html#ac085bae551fd4d9e48b05481a86cca9f", null ],
+    [ "DoAction", "da/d29/a16874.html#ace248881cb71c1e91f33ff93489b6f3f", null ],
+    [ "UpdateAI", "da/d29/a16874.html#aea8dd89c8e4de1bebd94a26ead852119", null ],
+    [ "events", "da/d29/a16874.html#a75349e2fc35832e7944fa4f772380baa", null ],
+    [ "pInstance", "da/d29/a16874.html#aecc2cdee32c4e4fa14ecaeca9b3eb65f", null ]
 ];

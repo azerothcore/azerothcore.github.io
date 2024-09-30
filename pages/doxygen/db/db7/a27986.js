@@ -1,8 +1,8 @@
 var a27986 =
 [
-    [ "Load", "db/db7/a27986.html#a7662d85a5469c20edf6d2eefca820db3", null ],
-    [ "PrepareAuraScript", "db/db7/a27986.html#a252bd975a7639eab4e151249db974b7c", null ],
-    [ "Register", "db/db7/a27986.html#a51723a22f1062f44e8eb6848e1398595", null ],
-    [ "Split", "db/db7/a27986.html#a08e982eae6030fdc679663bfd38bca47", null ],
-    [ "remainingAmount", "db/db7/a27986.html#afaab88988769ddc720deb44f06de3d7d", null ]
+    [ "DamagedDisplayId", "db/db7/a27986.html#a84d606d69c51f5e1fdecf9bc0f5705be", null ],
+    [ "DestroyedDisplayId", "db/db7/a27986.html#afc891df0c9491a34f784e8f141434be5", null ],
+    [ "Id", "db/db7/a27986.html#a65d7e0933cb53864413781cdeb56b6c2", null ],
+    [ "RebuildingDisplayId", "db/db7/a27986.html#aa4e1e6be7b5b1d15872fb310c1c299af", null ],
+    [ "SmokeDisplayId", "db/db7/a27986.html#a1a06c3e04bc2bb7d5bc29592d40b9239", null ]
 ];

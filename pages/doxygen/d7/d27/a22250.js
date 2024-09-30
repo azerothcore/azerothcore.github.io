@@ -1,6 +1,8 @@
 var a22250 =
 [
-    [ "boss_yoggsaron_neltharionAI", "d7/de8/a22254.html", "d7/de8/a22254" ],
-    [ "boss_yoggsaron_neltharion", "d7/d27/a22250.html#a9910e0d6043e7738cba0fe9ae7e92898", null ],
-    [ "GetAI", "d7/d27/a22250.html#abce5f59c35f7af3e1d5b30cc55ff48e6", null ]
+    [ "npc_freed_protodrakeAI", "d7/d27/a22250.html#a9e80808035be749c87a1170f37ac3daf", null ],
+    [ "MovementInform", "d7/d27/a22250.html#af056f3c12a314acd8a7e8c6c381b9436", null ],
+    [ "Reset", "d7/d27/a22250.html#ab5781438300442bb7bcb4510aec9d233", null ],
+    [ "UpdateAI", "d7/d27/a22250.html#a9e83b133444e977c35e90b700149472c", null ],
+    [ "events", "d7/d27/a22250.html#ac2e34b9a53ff55d177327ec95dca5466", null ]
 ];

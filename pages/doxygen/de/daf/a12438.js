@@ -1,19 +1,17 @@
 var a12438 =
 [
-    [ "boss_selin_fireheartAI", "de/daf/a12438.html#aa901adf00884fe9e813adcd042b3d78d", null ],
-    [ "CanAIAttack", "de/daf/a12438.html#a6922df634999ec704249ffaf6fbeab18", null ],
-    [ "JustDied", "de/daf/a12438.html#ae66bcb69580e25c08261a1ab3bd64260", null ],
-    [ "JustEngagedWith", "de/daf/a12438.html#a1991dfafa9804e000a38dd35bc7bece0", null ],
-    [ "JustSummoned", "de/daf/a12438.html#a1c04a611ee29292fe08e2589d5100cb7", null ],
-    [ "KilledUnit", "de/daf/a12438.html#a1dd453be6fdcbc675e85a71f819e86f4", null ],
-    [ "MovementInform", "de/daf/a12438.html#af514db251983edb97a7f250411fdb824", null ],
-    [ "Reset", "de/daf/a12438.html#a78cabcf96cb9409e20ec2319d6bc07c2", null ],
-    [ "SelectNearestCrystal", "de/daf/a12438.html#aa33b4f469b4e3ffee1fa6616eeb82ed9", null ],
-    [ "SpawnCrystals", "de/daf/a12438.html#ae0a8d0c7635e916f2425a247b729b810", null ],
-    [ "SummonedCreatureDies", "de/daf/a12438.html#ab9df37730a5984bb64c53f51d071b606", null ],
-    [ "UpdateAI", "de/daf/a12438.html#a59dfd3b450e15723381066e8af2aa9e6", null ],
-    [ "CrystalGUID", "de/daf/a12438.html#a57c35af61dee12ecb4c65067f49a79ac", null ],
-    [ "events", "de/daf/a12438.html#a48e11e3a3929ebaeeef6cb8d9ef3da2b", null ],
-    [ "instance", "de/daf/a12438.html#a7fe69d9287b63b7b72eaeead63308aa1", null ],
-    [ "summons", "de/daf/a12438.html#af63df2ce5c2e18432cd38c249fbca810", null ]
+    [ "npc_barnesAI", "de/daf/a12438.html#acf165009e5b2164d8244e709043eba09", null ],
+    [ "JustEngagedWith", "de/daf/a12438.html#a1f24ea5604563c9a16c5a2a91ae078f1", null ],
+    [ "PrepareEncounter", "de/daf/a12438.html#acdefdf68be1d870f76cbd0e329e3c890", null ],
+    [ "Reset", "de/daf/a12438.html#a67ee1ef5c6012e499a9d9d7b77938fbe", null ],
+    [ "StartEvent", "de/daf/a12438.html#ab5ed76e189150b2bb8a57095289246fe", null ],
+    [ "Talk", "de/daf/a12438.html#a8a5c4a97e9093220a5d8642fcf6ceece", null ],
+    [ "UpdateAI", "de/daf/a12438.html#a19c6ac3829ae4c38263eda116d56df88", null ],
+    [ "WaypointReached", "de/daf/a12438.html#acae5cbc4bcbe91b6810d649385a889a9", null ],
+    [ "instance", "de/daf/a12438.html#a9094deb17c0c77c968bbfb4f9f05e521", null ],
+    [ "m_uiEventId", "de/daf/a12438.html#a47ac00c081635aeba9ef02a7f1bbd645", null ],
+    [ "m_uiSpotlightGUID", "de/daf/a12438.html#aceae6d1588aec9035fb80678af32e96c", null ],
+    [ "PerformanceReady", "de/daf/a12438.html#a27a8ceb27724f074de840d24dcf0e284", null ],
+    [ "TalkCount", "de/daf/a12438.html#a555a152b2f4981dc824a6fb0f66b5702", null ],
+    [ "TalkTimer", "de/daf/a12438.html#afa7fd12da57b887f1254e24d444f43d1", null ]
 ];

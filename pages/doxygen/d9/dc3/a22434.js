@@ -1,6 +1,7 @@
 var a22434 =
 [
-    [ "npc_ulduar_snow_moundAI", "de/d2b/a22438.html", "de/d2b/a22438" ],
-    [ "npc_ulduar_snow_mound", "d9/dc3/a22434.html#a8f50a774c9266395c65d6b1f250e49d3", null ],
-    [ "GetAI", "d9/dc3/a22434.html#a8a55d0226a869f83e4e17d4a7c0d7a54", null ]
+    [ "npc_storm_cloudAI", "d9/dc3/a22434.html#aa4dd9409cd74f3c2c878974715e43394", null ],
+    [ "JustRespawned", "d9/dc3/a22434.html#ad0f99362f7ab506b322b6d75890881c1", null ],
+    [ "Reset", "d9/dc3/a22434.html#a99654ac86502e3ac2f899082269ccb01", null ],
+    [ "SpellHit", "d9/dc3/a22434.html#ac51313cec4d76216f3c716d988fc4857", null ]
 ];

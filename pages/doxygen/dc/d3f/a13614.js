@@ -1,5 +1,7 @@
 var a13614 =
 [
-    [ "npc_andorhal_towerAI", "dc/d3f/a13614.html#ad2f8a14f2adfe1418a23de274493f85e", null ],
-    [ "MoveInLineOfSight", "dc/d3f/a13614.html#a1165ee0e066dcaeb300096e55758389b", null ]
+    [ "boss_darkheartAI", "dc/d3f/a13614.html#ad6d9bfca9061cfeba364c573a9121ca8", null ],
+    [ "Reset", "dc/d3f/a13614.html#ab1a7a8d509c332088b169b755afd81de", null ],
+    [ "UpdateAI", "dc/d3f/a13614.html#a69eea4895a3f93382e57409c409ce797", null ],
+    [ "psychicwail_timer", "dc/d3f/a13614.html#a3ef8d1d7b5dd4283d2281ca067c25b98", null ]
 ];

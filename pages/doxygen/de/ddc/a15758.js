@@ -1,7 +1,5 @@
 var a15758 =
 [
-    [ "npc_lakota_windsongAI", "df/d0a/a15762.html", "df/d0a/a15762" ],
-    [ "npc_lakota_windsong", "de/ddc/a15758.html#a08a585ac36189ec23354c7acb26d223d", null ],
-    [ "GetAI", "de/ddc/a15758.html#af2f27ed2c4bd7298a9478495d2d7ca65", null ],
-    [ "OnQuestAccept", "de/ddc/a15758.html#a47ccf0b8bef84724f7aa7e2ad564dfe6", null ]
+    [ "achievement_watch_him_die", "de/ddc/a15758.html#a0d885871eac61d859780e08c8518bb15", null ],
+    [ "OnCheck", "de/ddc/a15758.html#a6ca8851bdf8cae50084ca87c1958fb53", null ]
 ];

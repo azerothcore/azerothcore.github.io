@@ -1,7 +1,7 @@
 var a27594 =
 [
-    [ "HandleProc", "d5/dad/a27594.html#aee71de2c7f718a443dd48ed649c72a2f", null ],
-    [ "PrepareAuraScript", "d5/dad/a27594.html#a7ba07407ce43ea4bfb03bc232ed409e3", null ],
-    [ "Register", "d5/dad/a27594.html#ad907078d049340da77dcfd25a312e32b", null ],
-    [ "Validate", "d5/dad/a27594.html#ad9987f6b17c9522be954a1b75aed1fc5", null ]
+    [ "npc_crashin_thrashin_robot", "d5/dad/a27594.html#ad21336d212498b1c9ef5d46979d147ab", null ],
+    [ "IsSummonedBy", "d5/dad/a27594.html#a0652cd455791461f613ab4ebf77d2c3c", null ],
+    [ "UpdateAI", "d5/dad/a27594.html#a1d21cd2075f3aeba2c7f1e735a33dfec", null ],
+    [ "_scheduler", "d5/dad/a27594.html#a55778501d154d0a9e77f76054e926f85", null ]
 ];

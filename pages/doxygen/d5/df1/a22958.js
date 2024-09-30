@@ -1,6 +1,7 @@
 var a22958 =
 [
-    [ "npc_azure_sorcerorAI", "d3/d29/a22962.html", "d3/d29/a22962" ],
-    [ "npc_azure_sorceror", "d5/df1/a22958.html#ab81ec144680a37312b0a5e0110365a1a", null ],
-    [ "GetAI", "d5/df1/a22958.html#a647ac2853586e380fdf0e0ffa43abaca", null ]
+    [ "HandleEffectApply", "d5/df1/a22958.html#aff0dbed165d0e751db725f7eaaf76a11", null ],
+    [ "Load", "d5/df1/a22958.html#a1dfb5b2004041e7165cc9f5deb4b1e82", null ],
+    [ "PrepareAuraScript", "d5/df1/a22958.html#a3dbd01e52ed2a630f0c014f941fc1b5e", null ],
+    [ "Register", "d5/df1/a22958.html#a647f21e79e3fef72cf84439fc84e708f", null ]
 ];

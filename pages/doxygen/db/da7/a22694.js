@@ -1,6 +1,8 @@
 var a22694 =
 [
-    [ "HandleScript", "db/da7/a22694.html#ac5f5d82e34a924524bdb8f1b2d9f2e07", null ],
-    [ "PrepareSpellScript", "db/da7/a22694.html#aad2f4314b8baba8efe18db46d81cd676", null ],
-    [ "Register", "db/da7/a22694.html#a0335d861e6002c9fa58563027dc22632", null ]
+    [ "npc_parasitic_shadowfiend", "db/da7/a22694.html#a09aa9baed84ec849bd5a34d02aec8db3", null ],
+    [ "CanAIAttack", "db/da7/a22694.html#ac7600aed313f1413cb9b522d60d30329", null ],
+    [ "EnterEvadeMode", "db/da7/a22694.html#a4dc9fe2b60fc97bd836701244a069d4d", null ],
+    [ "IsSummonedBy", "db/da7/a22694.html#a306c696d4243c4525d0a3908a212135d", null ],
+    [ "UpdateAI", "db/da7/a22694.html#a2706a4ba7876f299b02d2e720f512af2", null ]
 ];

@@ -1,14 +1,9 @@
 var a09262 =
 [
-    [ "BattlegroundMap", "d7/d42/a09262.html#a3a9af8a69ac8d188d7fb86f2a9dda2c3", null ],
-    [ "~BattlegroundMap", "d7/d42/a09262.html#a327d241fd7930e9b3a98ba50014d5131", null ],
-    [ "AddPlayerToMap", "d7/d42/a09262.html#a0325279a2affc7b20a415a3b90a32fc0", null ],
-    [ "CannotEnter", "d7/d42/a09262.html#a493a1932eee44c346d9cfb7d13789bb6", null ],
-    [ "GetBG", "d7/d42/a09262.html#a2fcb965981bb03571f12c11cdbac54a4", null ],
-    [ "InitVisibilityDistance", "d7/d42/a09262.html#af2d6847765d10fab527d77b26dd770ad", null ],
-    [ "RemoveAllPlayers", "d7/d42/a09262.html#a5093cbf8005d06452eeb202513323c1e", null ],
-    [ "RemovePlayerFromMap", "d7/d42/a09262.html#aeddb9dfae8601e95b0a93cefc12c2612", null ],
-    [ "SetBG", "d7/d42/a09262.html#aaa9e5f830953b1a37a684ac566e9b768", null ],
-    [ "SetUnload", "d7/d42/a09262.html#a4c03b1aa9c4c53697ad6284825a1b9c1", null ],
-    [ "m_bg", "d7/d42/a09262.html#aa38fff695728ddedc94dd6eb6bd7bf3b", null ]
+    [ "EmoteChatBuilder", "d7/d42/a09262.html#ae1aeb36aad24d5ef28074edfbf2f9e7e", null ],
+    [ "operator()", "d7/d42/a09262.html#a133a7bb35e86cf40425910c4f19a3337", null ],
+    [ "i_emote_num", "d7/d42/a09262.html#a966b8afcbf5afca3a3466d8e075a9437", null ],
+    [ "i_player", "d7/d42/a09262.html#ae09dbfe01b2a24e57b63b2b1df5ad232", null ],
+    [ "i_target", "d7/d42/a09262.html#abc538e056d91ea1ee8d6203c96174b1d", null ],
+    [ "i_text_emote", "d7/d42/a09262.html#add0630dc3fc76fb4fdb79095e13b2fc0", null ]
 ];

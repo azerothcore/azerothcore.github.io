@@ -1,6 +1,7 @@
 var a24634 =
 [
-    [ "npc_creature_generator_akamaAI", "dd/db9/a24638.html", "dd/db9/a24638" ],
-    [ "npc_creature_generator_akama", "dc/d41/a24634.html#a9577e5696271185fcd687745cb6881d9", null ],
-    [ "GetAI", "dc/d41/a24634.html#ab61167d0ac7de605aeba1c907cfbd888", null ]
+    [ "AfterApply", "dc/d41/a24634.html#adae232af9445638b3d54e81d414483b7", null ],
+    [ "AfterRemove", "dc/d41/a24634.html#abf458f1f1dd5abfbba88325cad044ab1", null ],
+    [ "PrepareAuraScript", "dc/d41/a24634.html#a305c532aa0e8740e8c8a87a6ba0abcff", null ],
+    [ "Register", "dc/d41/a24634.html#abff75ea597dcc017a359a5ef3ada4314", null ]
 ];

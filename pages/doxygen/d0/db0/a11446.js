@@ -1,6 +1,25 @@
 var a11446 =
 [
-    [ "boss_halyconAI", "d5/df9/a11450.html", "d5/df9/a11450" ],
-    [ "boss_halycon", "d0/db0/a11446.html#aa149c5f8b34b9c00102f9a0758dcbd9a", null ],
-    [ "GetAI", "d0/db0/a11446.html#a861f1b0213ad9bcf572c9d59eabba699", null ]
+    [ "ticket_commandscript", "d0/db0/a11446.html#a67842c302b12e19d41c74740db425a94", null ],
+    [ "GetCommands", "d0/db0/a11446.html#a8db36489c60473f6f3fed73011c5f7ab", null ],
+    [ "HandleGMTicketAssignToCommand", "d0/db0/a11446.html#a20e307317e082667b420562802b25eed", null ],
+    [ "HandleGMTicketCloseByIdCommand", "d0/db0/a11446.html#a18a65dc2e01aa1bfbf9be20e312fb29f", null ],
+    [ "HandleGMTicketCommentCommand", "d0/db0/a11446.html#a69d76ba54dc776f35a200b79d3383109", null ],
+    [ "HandleGMTicketCompleteCommand", "d0/db0/a11446.html#a7dd17afc1279a650b53815c5dc5cb9ac", null ],
+    [ "HandleGMTicketDeleteByIdCommand", "d0/db0/a11446.html#a5caaf9293917036dd957d2b0a4bb61d1", null ],
+    [ "HandleGMTicketEscalateCommand", "d0/db0/a11446.html#a12b04f7113a53d5974e6faffe3286119", null ],
+    [ "HandleGMTicketGetByIdCommand", "d0/db0/a11446.html#ae0686f933ff941c8ba36a727b703cdd9", null ],
+    [ "HandleGMTicketGetByNameCommand", "d0/db0/a11446.html#af38ad7d982f8cf16523ed62677f2c0e1", null ],
+    [ "HandleGMTicketListClosedCommand", "d0/db0/a11446.html#a5c6c12b2aa84984f2c2fada59673f29c", null ],
+    [ "HandleGMTicketListCommand", "d0/db0/a11446.html#aa622eb1c1f53c41b2af78667800a5389", null ],
+    [ "HandleGMTicketListEscalatedCommand", "d0/db0/a11446.html#a756a9a38b724526d6713dad186689090", null ],
+    [ "HandleGMTicketListOnlineCommand", "d0/db0/a11446.html#a71491d4987e7e7a4b73f798d3d8ec81e", null ],
+    [ "HandleGMTicketResetCommand", "d0/db0/a11446.html#a6bf98525629aa9d045abe84cf8e320c9", null ],
+    [ "HandleGMTicketResponseAppendCommand", "d0/db0/a11446.html#a5596c5be64f75c0bf67e88fabb05a060", null ],
+    [ "HandleGMTicketResponseAppendLnCommand", "d0/db0/a11446.html#a1f0f24f48a37726dbc7e5e6b89740261", null ],
+    [ "HandleGMTicketResponseDeleteCommand", "d0/db0/a11446.html#acfcbea533c3306d9a2746c3ee318ddbd", null ],
+    [ "HandleGMTicketResponseShowCommand", "d0/db0/a11446.html#a7bf924ff31d957220f15d2be0c5aeb8a", null ],
+    [ "HandleGMTicketUnAssignCommand", "d0/db0/a11446.html#afc1a25ed1d1a966d5afaa6dbd1070fda", null ],
+    [ "HandleToggleGMTicketSystem", "d0/db0/a11446.html#a5dcc80f5e050e0c5dced93bf8fa3c908", null ],
+    [ "TicketResponseAppend", "d0/db0/a11446.html#aac1c7b72a4cea7da0965dfceb65039fc", null ]
 ];

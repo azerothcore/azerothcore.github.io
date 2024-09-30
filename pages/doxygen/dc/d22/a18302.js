@@ -1,6 +1,9 @@
 var a18302 =
 [
-    [ "CheckProc", "dc/d22/a18302.html#a86e62fa26606a77284c80583e7b35d27", null ],
-    [ "PrepareAuraScript", "dc/d22/a18302.html#a2c10a09e9e5015eb4f3c66d5086dbe1a", null ],
-    [ "Register", "dc/d22/a18302.html#a6214f78c5c7eb3f60371fa12530d5991", null ]
+    [ "DelayedCastEvent", "dc/d22/a18302.html#ae6d57612065d56ce79197aedebedf9f9", null ],
+    [ "Execute", "dc/d22/a18302.html#ae2925429b3049e44d2afd2e8b990af71", null ],
+    [ "_despawnTime", "dc/d22/a18302.html#acc9e22eb1908e4c458199fc4cccd56c6", null ],
+    [ "_originalCaster", "dc/d22/a18302.html#adb07c24a947d59d2ef1f61b8ab18d328", null ],
+    [ "_spellId", "dc/d22/a18302.html#abe28a6749101233302634ed226a289e8", null ],
+    [ "_trigger", "dc/d22/a18302.html#a85471a151a3165cc906f3a41103c3f5d", null ]
 ];

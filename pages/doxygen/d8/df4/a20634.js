@@ -1,11 +1,6 @@
 var a20634 =
 [
-    [ "npc_spark_of_ionarAI", "d8/df4/a20634.html#a738ceaa68f13c084fedee2add6fba99e", null ],
-    [ "AttackStart", "d8/df4/a20634.html#a7616d68c090aece19389b4c4842e30a3", null ],
-    [ "DamageTaken", "d8/df4/a20634.html#a42466b7c6af30727b8872bd2ddfddb6f", null ],
-    [ "DoAction", "d8/df4/a20634.html#a995efdb87fdd72eccfdce11d2af0201b", null ],
-    [ "MoveInLineOfSight", "d8/df4/a20634.html#ac87193fba7975147731ca3c92946c308", null ],
-    [ "Reset", "d8/df4/a20634.html#a4b4511ac7258c1182e428bddb2db6519", null ],
-    [ "UpdateAI", "d8/df4/a20634.html#ae4e881e4e66e49c124c0cf540e1d59b7", null ],
-    [ "returning", "d8/df4/a20634.html#a5f6ef34741a6d726c3fecd66d768bd67", null ]
+    [ "npc_xt002_boombotAI", "d5/dc2/a20638.html", "d5/dc2/a20638" ],
+    [ "npc_xt002_boombot", "d8/df4/a20634.html#a6e2f7dd0d26d140a5b73b0f66ea434af", null ],
+    [ "GetAI", "d8/df4/a20634.html#a27237e7a60042ed7163b19d80537c1b3", null ]
 ];

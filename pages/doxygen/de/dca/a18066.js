@@ -1,6 +1,6 @@
 var a18066 =
 [
-    [ "npc_muradin_bronzebeard_igbAI", "d0/dc5/a18070.html", "d0/dc5/a18070" ],
-    [ "npc_muradin_bronzebeard_igb", "de/dca/a18066.html#a1e6abc18a192b3acfa29bf03dd4eeed9", null ],
-    [ "GetAI", "de/dca/a18066.html#af9b149e0780308f26d5adb1e6607a3ce", null ]
+    [ "boss_the_lich_kingAI", "d0/dc5/a18070.html", "d0/dc5/a18070" ],
+    [ "boss_the_lich_king", "de/dca/a18066.html#a10e2789a98a85907d24eabae6d7655f4", null ],
+    [ "GetAI", "de/dca/a18066.html#ab12d8cdfdb1c5428423f6db9dda6c97e", null ]
 ];

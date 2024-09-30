@@ -1,10 +1,8 @@
 var a14686 =
 [
-    [ "npc_fel_stalkerAI", "dd/ddb/a14686.html#a798f797b3d7d321fececfb33d7fd707a", null ],
-    [ "JustEngagedWith", "dd/ddb/a14686.html#a724f112288f50222b85bb9fff54c2066", null ],
-    [ "Reset", "dd/ddb/a14686.html#ab24cae3a767306f0049bf063fc3bdc01", null ],
-    [ "UpdateAI", "dd/ddb/a14686.html#a7b98d9d4bd95ba12d6f47c9ebb111eb9", null ],
-    [ "WaypointReached", "dd/ddb/a14686.html#adb1482227b6277ad79194eb6f761929a", null ],
-    [ "go", "dd/ddb/a14686.html#a75b790ac004d7cfd3c892fb77ababbd5", null ],
-    [ "ManaBurnTimer", "dd/ddb/a14686.html#aecef577f4bbd642c5e2c7a9f1f620cdc", null ]
+    [ "Load", "dd/ddb/a14686.html#a59e8723d8b73f45075db47e1e09e15fb", null ],
+    [ "PeriodicTick", "dd/ddb/a14686.html#ae4761ac3bce02903a7266511d80503f9", null ],
+    [ "PrepareAuraScript", "dd/ddb/a14686.html#a7bacc1ebd4b98e5e43b74e13471b2063", null ],
+    [ "Register", "dd/ddb/a14686.html#acc4db638e0d858085dc3fb2d6b45f7ec", null ],
+    [ "_ticks", "dd/ddb/a14686.html#ab858e9f6505fa32cc7325087d29fee8b", null ]
 ];

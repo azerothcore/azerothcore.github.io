@@ -1,5 +1,11 @@
 var a10330 =
 [
-    [ "RequestPetInfo", "d3/da9/a10330.html#ae0861d1fb77fe39bb48c26505e36ed2b", null ],
-    [ "Read", "d3/da9/a10330.html#a5cc9bb57bce7dc7f24243fdc63e17870", null ]
+    [ "GuildSetRankPermissions", "d3/da9/a10330.html#a8b3fd3e4da77c6fb70db28721ec46714", null ],
+    [ "Read", "d3/da9/a10330.html#a534550862a3c634697e8277f31ad4c25", null ],
+    [ "Flags", "d3/da9/a10330.html#adea48131efa7c05b84c4de596933bfbe", null ],
+    [ "RankID", "d3/da9/a10330.html#a0c4a8b29918d69580c749e3b48485515", null ],
+    [ "RankName", "d3/da9/a10330.html#a24dde2aa8dd0ae1b9e8b37317334e0d4", null ],
+    [ "TabFlags", "d3/da9/a10330.html#af19e6fd8ddfe980f8c1f1110e9332bad", null ],
+    [ "TabWithdrawItemLimit", "d3/da9/a10330.html#a9f5ddb30858ae9eca7fcd2ad9fa8ea0c", null ],
+    [ "WithdrawGoldLimit", "d3/da9/a10330.html#a1c02002facce05010028ac8dcae7fa3f", null ]
 ];

@@ -1,6 +1,6 @@
 var a19474 =
 [
-    [ "PeriodicTick", "d9/dfe/a19474.html#a293ee8ed5d8460faef42cc5871ea96e7", null ],
-    [ "PrepareAuraScript", "d9/dfe/a19474.html#a62aff682f50ce01067c37b11bb2bd202", null ],
-    [ "Register", "d9/dfe/a19474.html#a75c7c490ae3d2e2f6fd5e067ea7cf0f1", null ]
+    [ "boss_maiden_of_griefAI", "d6/ddc/a19478.html", "d6/ddc/a19478" ],
+    [ "boss_maiden_of_grief", "d9/dfe/a19474.html#a8361e4961ac1da09b803ca9e7fc67f95", null ],
+    [ "GetAI", "d9/dfe/a19474.html#af8d2e6392a0c73add801910945b2558e", null ]
 ];

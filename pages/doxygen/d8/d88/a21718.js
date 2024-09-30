@@ -1,6 +1,7 @@
 var a21718 =
 [
-    [ "npc_ulduar_leviathan_mkiiAI", "d6/d28/a21722.html", "d6/d28/a21722" ],
-    [ "npc_ulduar_leviathan_mkii", "d8/d88/a21718.html#a9e4671adcb2409a7c83460d28d29f579", null ],
-    [ "GetAI", "d8/d88/a21718.html#afe438e97b6989a8899850619c87cd7e6", null ]
+    [ "CheckCast", "d8/d88/a21718.html#af0eb00a8dbff89d780beb07f3a714fff", null ],
+    [ "HandleScript", "d8/d88/a21718.html#a8128bb2d7588409dae73bed78d5285a7", null ],
+    [ "PrepareSpellScript", "d8/d88/a21718.html#aee17a8a21ec5df027082c6990189dccc", null ],
+    [ "Register", "d8/d88/a21718.html#a2a97265e102e9ce31997d99275b42973", null ]
 ];

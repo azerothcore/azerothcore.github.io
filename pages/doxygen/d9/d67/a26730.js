@@ -1,9 +1,10 @@
 var a26730 =
 [
-    [ "Absorb", "d9/d67/a26730.html#a8f6e773840274e07d685c891561f72d8", null ],
-    [ "CalculateAmount", "d9/d67/a26730.html#af337ef5d5cea283f4e43b943961838d6", null ],
-    [ "Load", "d9/d67/a26730.html#a65f51613dd3614f5b0e3e1dc938f56cf", null ],
-    [ "PrepareAuraScript", "d9/d67/a26730.html#a5c2eca05834a29fa6d5d7dd3c75e52ed", null ],
-    [ "Register", "d9/d67/a26730.html#a80982626e1b67374629cb6e0800ccaea", null ],
-    [ "absorbPct", "d9/d67/a26730.html#a7ce98d22bb4a28f94366b4c08f76b61a", null ]
+    [ "CalculateAmount", "d9/d67/a26730.html#a9e0e28d871f9d3c89cf2dc862971321d", null ],
+    [ "Detonate", "d9/d67/a26730.html#adc622aae157984546dfe3d8373c0c413", null ],
+    [ "HandleProc", "d9/d67/a26730.html#a3b5812649b67830d8dc6d10b5dd1c937", null ],
+    [ "OnRemove", "d9/d67/a26730.html#a5067cef0afc99d487f995f8d6edea21f", null ],
+    [ "PrepareAuraScript", "d9/d67/a26730.html#abc23ebb3761e3505486ac578bdeaeeed", null ],
+    [ "Register", "d9/d67/a26730.html#acc4819698e175889a0491d7f7cc680fd", null ],
+    [ "Validate", "d9/d67/a26730.html#a0649826ce0d66c9f21be8d47c76f4941", null ]
 ];

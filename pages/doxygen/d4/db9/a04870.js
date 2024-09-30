@@ -1,6 +1,7 @@
 var a04870 =
 [
-    [ "AppendToBack", "d4/db9/a04870.html#a631dbb5771929cb72bd090e3ced49523", null ],
-    [ "GenerateRandomIV", "d4/db9/a04870.html#afd4b9dd6223e8bd48810b88adc24a4b7", null ],
-    [ "SplitFromBack", "d4/db9/a04870.html#ac27f3335f0fadf98dbd0bedebbfd8390", null ]
+    [ "clear", "d4/db9/a04870.html#af2120a6bb6aa223baa117e5699c93012", null ],
+    [ "createOrGetMMapMgr", "d4/db9/a04870.html#aa7571dc833ba0d2dc6d8bc7bc4b47cdd", null ],
+    [ "InitializeDisabledMaps", "d4/db9/a04870.html#a6df048ce34ec1baed2cb35cedf67f5b2", null ],
+    [ "forbiddenMaps", "d4/db9/a04870.html#a2301f091e1f1e3359dbded7f054eb219", null ]
 ];

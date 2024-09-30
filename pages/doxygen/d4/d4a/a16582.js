@@ -1,11 +1,7 @@
 var a16582 =
 [
-    [ "npc_anubarak_spikeAI", "d4/d4a/a16582.html#a1982ce33ce76e15d33bfcc222f5ad734", null ],
-    [ "DamageTaken", "d4/d4a/a16582.html#a3b548e629d2c6217f21644136ca7ba4b", null ],
-    [ "DoAction", "d4/d4a/a16582.html#ab583d97745ea69e95a1ecc0b68ac9878", null ],
-    [ "Reset", "d4/d4a/a16582.html#af5b4a1227467d86d9dbba57362fdf360", null ],
-    [ "SelectNewTarget", "d4/d4a/a16582.html#ab9ed5d53703464c488267f578a214fb8", null ],
-    [ "UpdateAI", "d4/d4a/a16582.html#af8d6d840785c718d963c7b150cd12d9c", null ],
-    [ "events", "d4/d4a/a16582.html#a52ff0006b5194edcb55f49e970a15ab8", null ],
-    [ "TargetGUID", "d4/d4a/a16582.html#a2f7cbaf81e159035476ee9576a0e3990", null ]
+    [ "HandleScriptEffect", "d4/d4a/a16582.html#a62cef31900cd61167823f3e66aa2d64b", null ],
+    [ "PrepareSpellScript", "d4/d4a/a16582.html#aff3fc5d7d6185bcb09d14f1408a67aad", null ],
+    [ "Register", "d4/d4a/a16582.html#ac73b3f568ce54f9b59b2b23f069da3c1", null ],
+    [ "Validate", "d4/d4a/a16582.html#aab4d84e896c8225d8d131558aaa71dbe", null ]
 ];

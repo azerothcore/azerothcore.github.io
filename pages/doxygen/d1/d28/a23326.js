@@ -1,6 +1,6 @@
 var a23326 =
 [
-    [ "SACDeactivateEvent", "d1/d28/a23326.html#a14f1db2f3bf7e82d0e5c5b5135d46cf9", null ],
-    [ "Execute", "d1/d28/a23326.html#a12179c55d1999b3cd0cfc5d51d039a31", null ],
-    [ "_owner", "d1/d28/a23326.html#acc87b2f689bf2e6a3f19440dceb6ea6d", null ]
+    [ "HandleAfterRemove", "d1/d28/a23326.html#a74610b06095572aa2c898cd84e0fb229", null ],
+    [ "PrepareAuraScript", "d1/d28/a23326.html#ac0d686490ff37810e0116dea4d0b6077", null ],
+    [ "Register", "d1/d28/a23326.html#aad72f4aaa19f92f7a71241311f5d0582", null ]
 ];

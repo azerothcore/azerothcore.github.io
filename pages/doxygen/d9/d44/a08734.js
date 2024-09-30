@@ -1,10 +1,10 @@
 var a08734 =
 [
-    [ "MostHPPercentMissingInRange", "d9/d44/a08734.html#aaef0deb21e2470b45cafc22a8c4d18a5", null ],
-    [ "operator()", "d9/d44/a08734.html#ab1734490a3db95ad715756e85ecfaf77", null ],
-    [ "i_hpPct", "d9/d44/a08734.html#a41a3b1c4d1f27a2d727e7a18e2e30a7d", null ],
-    [ "i_maxHpPct", "d9/d44/a08734.html#afd12795ef0cd99e05e4e21f869582416", null ],
-    [ "i_minHpPct", "d9/d44/a08734.html#a11c197d3eea1a8ded0b20f707e6ed5d0", null ],
-    [ "i_obj", "d9/d44/a08734.html#a724cf058a6bcf02864a49bb288e32ce6", null ],
-    [ "i_range", "d9/d44/a08734.html#a021acff6bdb6aef9ab24c19d8798884f", null ]
+    [ "PetLevelInfo", "d9/d44/a08734.html#ad8e757abeae500063e963ffef5469809", null ],
+    [ "armor", "d9/d44/a08734.html#ab7097f75cf86bd6f135f21dace61a89e", null ],
+    [ "health", "d9/d44/a08734.html#a322dcab3af8f98726aa6addf38e8891b", null ],
+    [ "mana", "d9/d44/a08734.html#a27352e73d6ed3945e398e0634dee1e96", null ],
+    [ "max_dmg", "d9/d44/a08734.html#a092f2600f64f2af885142b2e96d1fe64", null ],
+    [ "min_dmg", "d9/d44/a08734.html#a299d1c7f4c28893e09de79cd816afa95", null ],
+    [ "stats", "d9/d44/a08734.html#a897aabacdbe9cbc4afcc40ab059c12be", null ]
 ];

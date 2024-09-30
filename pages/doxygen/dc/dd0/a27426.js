@@ -1,7 +1,6 @@
 var a27426 =
 [
-    [ "CheckProc", "dc/dd0/a27426.html#a41c451e31b84a72af3a17bfa29ca02fe", null ],
-    [ "HandleProc", "dc/dd0/a27426.html#a5cf9cea911ead2f261522e55e94c745a", null ],
-    [ "PrepareAuraScript", "dc/dd0/a27426.html#a3f2b20607f90ad641769eb284ddfab85", null ],
-    [ "Register", "dc/dd0/a27426.html#a55557026689613e91aeabce1af442237", null ]
+    [ "npc_taxi", "dc/dd0/a27426.html#ac67282316d6ded2ff62b8a1800b8fae1", null ],
+    [ "OnGossipHello", "dc/dd0/a27426.html#a1bce89202ea3ed3fcbebd19a305c6a78", null ],
+    [ "OnGossipSelect", "dc/dd0/a27426.html#a5a7443abba8cf98a3073195177981edc", null ]
 ];

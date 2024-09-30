@@ -1,6 +1,7 @@
 var a25134 =
 [
-    [ "FilterTargets", "d5/d44/a25134.html#a9b79bafc1527e6c3074bd83238a9ec7f", null ],
-    [ "PrepareSpellScript", "d5/d44/a25134.html#a32dbcfa150da63331a90a3bdd9884250", null ],
-    [ "Register", "d5/d44/a25134.html#a236094cf46afd88305028272afc838e7", null ]
+    [ "PrepareSpellScript", "d5/d44/a25134.html#aad8061898087fbf5eb6527cbaa70927d", null ],
+    [ "RecalculateDamage", "d5/d44/a25134.html#a6f03ccb77ce43c4e36996ae344780ee3", null ],
+    [ "Register", "d5/d44/a25134.html#abc7e406244a1a5ea9d7c3d8feb10b8ae", null ],
+    [ "_damagePct", "d5/d44/a25134.html#a3ab5f5ec279f30dda50fa3ca3f5e6715", null ]
 ];

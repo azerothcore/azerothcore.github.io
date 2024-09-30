@@ -1,6 +1,7 @@
 var a27490 =
 [
-    [ "PrepareSpellScript", "d7/dab/a27490.html#a72e57e8a4bdb9a4fcd73e3519b6025ea", null ],
-    [ "Register", "d7/dab/a27490.html#aac4d3c8ecde3652c65c05abad5c8eaeb", null ],
-    [ "SelectTarget", "d7/dab/a27490.html#a3153b6c6814922cd7220e19b06f2a602", null ]
+    [ "npc_doctorAI", "dd/db9/a27494.html", "dd/db9/a27494" ],
+    [ "npc_doctor", "d7/dab/a27490.html#a8471bcd3e83b1a7a69de7bde00846698", null ],
+    [ "GetAI", "d7/dab/a27490.html#a3da4d53b2402ad7338eeb6ea463a62f6", null ],
+    [ "OnQuestAccept", "d7/dab/a27490.html#a990668aee39a9fa6ec90d0f6095ce48a", null ]
 ];

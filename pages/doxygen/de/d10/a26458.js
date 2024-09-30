@@ -1,6 +1,6 @@
 var a26458 =
 [
-    [ "HandleDummy", "de/d10/a26458.html#ac7084a563e98760d58dfbcafdd7cde11", null ],
-    [ "PrepareSpellScript", "de/d10/a26458.html#a465da282630352a289d5daae7ccb1d01", null ],
-    [ "Register", "de/d10/a26458.html#ae668f0c45a74d56d1be5be29309c9f6d", null ]
+    [ "PrepareAuraScript", "de/d10/a26458.html#a059fe9aa1ea5ea4d0fa797e70a146fc5", null ],
+    [ "Register", "de/d10/a26458.html#a91f4b2b8796c7efab2f622893a393619", null ],
+    [ "AuraEffectHandleModes", "de/d10/a26458.html#ab93d08a85de86b0efdec59006ebbdf97", null ]
 ];

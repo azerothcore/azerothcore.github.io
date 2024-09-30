@@ -1,11 +1,6 @@
 var a22238 =
 [
-    [ "boss_yoggsaron_lich_kingAI", "d8/dfc/a22238.html#a4fcf1be1bc20327ff8daf9c79baabde7", null ],
-    [ "NextStep", "d8/dfc/a22238.html#a4f99e511d6296b56df8ab8fbe53620e6", null ],
-    [ "Reset", "d8/dfc/a22238.html#a4c8f098f245e90685f0f3660028500a8", null ],
-    [ "Say", "d8/dfc/a22238.html#a01217dd4c33b0ccae448aa137e83dd9b", null ],
-    [ "UpdateAI", "d8/dfc/a22238.html#a3cbe18164c993fd034242b3f19d27e31", null ],
-    [ "_checkTimer", "d8/dfc/a22238.html#a8f0234b32612ff56ac6a7429f6e4da09", null ],
-    [ "_running", "d8/dfc/a22238.html#a9d7f0f2a8cf4f421253c8c5a6ec98111", null ],
-    [ "_step", "d8/dfc/a22238.html#a6af98b3daace7852a485983167538f85", null ]
+    [ "npc_brunnhildar_prisonerAI", "df/df7/a22242.html", "df/df7/a22242" ],
+    [ "npc_brunnhildar_prisoner", "d8/dfc/a22238.html#a4dd1b440366c0a5c4fa7c1dfab7607b5", null ],
+    [ "GetAI", "d8/dfc/a22238.html#aa2a1787849c74a5163a39137c9d03d57", null ]
 ];

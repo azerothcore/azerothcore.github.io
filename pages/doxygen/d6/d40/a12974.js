@@ -1,13 +1,12 @@
 var a12974 =
 [
-    [ "boss_felmystAI", "d6/d40/a12974.html#a893e3f1222b3b418cfa514835516be64", null ],
-    [ "DoAction", "d6/d40/a12974.html#a5c62c49fa77cefd4b489fff03af9cf51", null ],
-    [ "JustDied", "d6/d40/a12974.html#ab09d7b7281cc5cfaa6a8168bba8c8429", null ],
-    [ "JustEngagedWith", "d6/d40/a12974.html#ae443a5944d09332421e8bef7af1e6ab6", null ],
-    [ "JustSummoned", "d6/d40/a12974.html#aadfd0a28c6b59faf5adc7d965bdc0874", null ],
-    [ "KilledUnit", "d6/d40/a12974.html#a8f5260992b3de71ee80d50c3fc76077f", null ],
-    [ "MovementInform", "d6/d40/a12974.html#aeaea0da5d71e7ab4c5df915146a32470", null ],
-    [ "Reset", "d6/d40/a12974.html#adce16a5540d44427343b3d7dcd51f40f", null ],
-    [ "UpdateAI", "d6/d40/a12974.html#a46f47c3eb6f4be7a1a18663706c28994", null ],
-    [ "events2", "d6/d40/a12974.html#a2150dadfd03c74ae5e3150b6ec039a3b", null ]
+    [ "boss_alythessAI", "d6/d40/a12974.html#a3675d195bee318139b0d4f1691749a7d", null ],
+    [ "DoAction", "d6/d40/a12974.html#a15d2df7ae437b6481c6f230f1df5e4a3", null ],
+    [ "EnterEvadeMode", "d6/d40/a12974.html#acef5ae15a1551d44e3bf3e8e88c50a60", null ],
+    [ "JustDied", "d6/d40/a12974.html#a00eeda9182947294201660b1285e17fc", null ],
+    [ "JustEngagedWith", "d6/d40/a12974.html#a698fa808ccb6b52e7d747d17afaef55f", null ],
+    [ "KilledUnit", "d6/d40/a12974.html#a1d1235128e9c49983496c3bf097be7c8", null ],
+    [ "Reset", "d6/d40/a12974.html#a47d6b821d1e9ff86c2e89161af704f92", null ],
+    [ "UpdateAI", "d6/d40/a12974.html#ae405bbb951f933a492ce41bff8534323", null ],
+    [ "sisterDied", "d6/d40/a12974.html#ac617d56a83f3239eb2a2d2d07ff0dd22", null ]
 ];

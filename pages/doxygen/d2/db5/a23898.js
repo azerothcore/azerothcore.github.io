@@ -1,9 +1,8 @@
 var a23898 =
 [
-    [ "npc_hyldsmeet_protodrakeAI", "d8/d38/a23902.html", "d8/d38/a23902" ],
-    [ "NPCs", "d2/db5/a23898.html#a8f2ea95c836ba6bab370301fbf3e6822", [
-      [ "NPC_HYLDSMEET_DRAKERIDER", "d2/db5/a23898.html#a8f2ea95c836ba6bab370301fbf3e6822a1b77c38a75142cff5392a89db3e765df", null ]
-    ] ],
-    [ "npc_hyldsmeet_protodrake", "d2/db5/a23898.html#a2471f1d858d7ae8f801208e35860a95e", null ],
-    [ "GetAI", "d2/db5/a23898.html#a791e5cff3901f9a3ec365d4049b82d25", null ]
+    [ "instance_mechanar_InstanceMapScript", "d2/db5/a23898.html#a728d427162c0f56e7d229c55ff88bfbd", null ],
+    [ "OnCreatureCreate", "d2/db5/a23898.html#aa0c6a84a6ace9299b18f0cc54263b398", null ],
+    [ "OnGameObjectCreate", "d2/db5/a23898.html#a236a8c67ca57ffc7d2161c00e8acbd64", null ],
+    [ "OnGameObjectRemove", "d2/db5/a23898.html#ac79c4f1dad7f2caf1278e242ec8fadc9", null ],
+    [ "_pathaleonGUID", "d2/db5/a23898.html#aaf5c80af5ba2ba46b3c53ccffaaa1d3b", null ]
 ];

@@ -1,5 +1,5 @@
 var a03155 =
 [
-    [ "HandleLearnSpellCommand", "dc/d9b/a03155.html#acbe37f872cbc981a27671ebdf10904de", null ],
-    [ "HandleUnlearnSpellCommand", "dc/d9b/a03155.html#ad36f90f90b3d9aaf782f7efc859f7e7a", null ]
+    [ "honor_commandscript", "d5/de4/a11342.html", "d5/de4/a11342" ],
+    [ "AddSC_honor_commandscript", "dc/d9b/a03155.html#ab7c57f853cb45a82b5563b703a1ee041", null ]
 ];

@@ -1,7 +1,8 @@
 var a08738 =
 [
-    [ "FriendlyCCedInRange", "da/d97/a08738.html#ae8dcff3f285f208b0db8aa3efed202a1", null ],
-    [ "operator()", "da/d97/a08738.html#a0e241f930cee855664aeac3604d5c023", null ],
-    [ "i_obj", "da/d97/a08738.html#a73d3e29bbdc7fd4aa162be3cb7ecbe08", null ],
-    [ "i_range", "da/d97/a08738.html#a49e79f3aea0c7e8c321c9f297b71a9b2", null ]
+    [ "MailLevelReward", "da/d97/a08738.html#accd52642cbbab457b69dba54a6ffa23b", null ],
+    [ "MailLevelReward", "da/d97/a08738.html#a3e98aa5c30b0b5648784f9aaf5349a76", null ],
+    [ "mailTemplateId", "da/d97/a08738.html#afdf6684bcd2751822bd00ba1509ef933", null ],
+    [ "raceMask", "da/d97/a08738.html#a341088acd89b79161d932367f4f1798d", null ],
+    [ "senderEntry", "da/d97/a08738.html#a2b678ac953209691b38d583cffab55b5", null ]
 ];

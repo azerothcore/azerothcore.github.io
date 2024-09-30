@@ -1,13 +1,12 @@
 var a17442 =
 [
-    [ "npc_pos_martin_or_gorkun_secondAI", "d7/d47/a17442.html#a2b8f5479565297c95ecdc4882e7d27ae", null ],
-    [ "DoAction", "d7/d47/a17442.html#aa1df5c0f5612a9fc9a4e78fb901dc8e7", null ],
-    [ "JustSummoned", "d7/d47/a17442.html#acdfc5d370da977ab69752016368cc9b0", null ],
-    [ "MovementInform", "d7/d47/a17442.html#a95c033e4e2ca224be09ce993f4e7996d", null ],
-    [ "SummonedCreatureDespawn", "d7/d47/a17442.html#af31de5c7f901baf4d8c62964fee8ead8", null ],
-    [ "UpdateAI", "d7/d47/a17442.html#ad22fbcd52404c1e9c1fc71f3bc6b7525", null ],
-    [ "events", "d7/d47/a17442.html#a44045ae5151625a4d7aacb69e9c934e5", null ],
-    [ "i", "d7/d47/a17442.html#aa185914ee8a2352e4d233f1fc4800390", null ],
-    [ "pInstance", "d7/d47/a17442.html#ac38febd0bce9338346d0c1aa6ba50de3", null ],
-    [ "summons", "d7/d47/a17442.html#ad0f2097f168ea5983e3eece24cb82bfa", null ]
+    [ "gunship_npc_AI", "d7/d47/a17442.html#a30c13cb755638fcf05d1ad9a476210d3", null ],
+    [ "EnterEvadeMode", "d7/d47/a17442.html#a7c2da25bb962c32fa350ee1f12f86ca4", null ],
+    [ "JustDied", "d7/d47/a17442.html#ad40c976be4decd9054dad031a4caab78", null ],
+    [ "MovementInform", "d7/d47/a17442.html#a3bae54b656fc5ed8c6fef80bd1721c71", null ],
+    [ "SetData", "d7/d47/a17442.html#acfd5e331155d7787ada33acbca73fece", null ],
+    [ "SetSlotInfo", "d7/d47/a17442.html#afdfc3f9add2952f90baf24d55425670f", null ],
+    [ "Index", "d7/d47/a17442.html#ae120874514cf5921136821b820a04da7", null ],
+    [ "Instance", "d7/d47/a17442.html#ab5276a099bcf56c5a25b3a52be516b5c", null ],
+    [ "Slot", "d7/d47/a17442.html#a59d237475ae309755d429cfac77d6630", null ]
 ];

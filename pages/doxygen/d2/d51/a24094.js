@@ -1,7 +1,7 @@
 var a24094 =
 [
-    [ "npc_storm_cloudAI", "d2/d51/a24094.html#aa4dd9409cd74f3c2c878974715e43394", null ],
-    [ "JustRespawned", "d2/d51/a24094.html#ad0f99362f7ab506b322b6d75890881c1", null ],
-    [ "Reset", "d2/d51/a24094.html#a99654ac86502e3ac2f899082269ccb01", null ],
-    [ "SpellHit", "d2/d51/a24094.html#ac51313cec4d76216f3c716d988fc4857", null ]
+    [ "HandleEffectApply", "d2/d51/a24094.html#a362b5b818ab0029956fd22bd10b4b9ac", null ],
+    [ "HandleEffectRemove", "d2/d51/a24094.html#a96769390468dc132df62b5a0ec3a2da4", null ],
+    [ "PrepareAuraScript", "d2/d51/a24094.html#a7bad0d577281829e60c0fb577d6a7d6e", null ],
+    [ "Register", "d2/d51/a24094.html#a95905ec163c42463314a5f5bb023b4d6", null ]
 ];

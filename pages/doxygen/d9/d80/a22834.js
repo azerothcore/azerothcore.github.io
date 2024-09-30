@@ -1,6 +1,8 @@
 var a22834 =
 [
-    [ "boss_moraggAI", "d7/d97/a22838.html", "d7/d97/a22838" ],
-    [ "boss_moragg", "d9/d80/a22834.html#aeb43f9cc4c41f049fd0a13e79cadfcd1", null ],
-    [ "GetAI", "d9/d80/a22834.html#a5ea2f210038b3e44bf2cb9c402e1b761", null ]
+    [ "FilterTargets", "d9/d80/a22834.html#a0ee5b216f8e713a5c632d0f456fd2b72", null ],
+    [ "HandleDummy", "d9/d80/a22834.html#ab89ab441f022ee017548ba49d128b92e", null ],
+    [ "PrepareSpellScript", "d9/d80/a22834.html#aa8578390d7d9379328c02ceb209e94ed", null ],
+    [ "Register", "d9/d80/a22834.html#a486387d707b7ad66ecb443ab2bb60778", null ],
+    [ "Validate", "d9/d80/a22834.html#ad5d695978794d796eb7139fce1530d57", null ]
 ];

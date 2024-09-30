@@ -1,6 +1,5 @@
 var a20890 =
 [
-    [ "spell_algalon_big_bang_SpellScript", "db/d0d/a20894.html", "db/d0d/a20894" ],
-    [ "spell_algalon_big_bang", "d2/ddd/a20890.html#abe622065f818507182885d359a9bb681", null ],
-    [ "GetSpellScript", "d2/ddd/a20890.html#a217a2818d6a44b36678f18379ec9e097", null ]
+    [ "achievement_yogg_saron_drive_me_crazy", "d2/ddd/a20890.html#a381d8fd2e7b4806181959a1b915f3a8c", null ],
+    [ "OnCheck", "d2/ddd/a20890.html#a029fdd68e0643b53971efbb1056f19d8", null ]
 ];

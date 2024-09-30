@@ -1,13 +1,11 @@
 var a20450 =
 [
-    [ "npc_oculus_unstable_sphereAI", "d1/d73/a20450.html#a800ccd2508f8ec0e53bd185b8944acb0", null ],
-    [ "AttackStart", "d1/d73/a20450.html#a1dac85f0dae65d12740b54fe5d140a25", null ],
-    [ "MoveInLineOfSight", "d1/d73/a20450.html#a248dad12dc76b4efa2a64c02d4af4b3c", null ],
-    [ "MovementInform", "d1/d73/a20450.html#a1d6a80a4f7e9239a781bebaedfd389d7", null ],
-    [ "PickNewLocation", "d1/d73/a20450.html#a5afcf52182ed8d90aae71d46a9d33a92", null ],
-    [ "Reset", "d1/d73/a20450.html#ac2e391d0149b62823ac9074d45c694cf", null ],
-    [ "UpdateAI", "d1/d73/a20450.html#acd8fd7a6353642c8e4a61eae0150c07f", null ],
-    [ "gonext", "d1/d73/a20450.html#a6b1d2ce8ec85e5a063c215c0adef9e0e", null ],
-    [ "located", "d1/d73/a20450.html#ab8a13498d8c9926c3d6496a0d4707557", null ],
-    [ "timer", "d1/d73/a20450.html#a8e62f1613ccaba5d93758d6573f4dd6c", null ]
+    [ "npc_ulduar_expedition_engineerAI", "d1/d73/a20450.html#a48e29edad38f8ecbab54579203c93044", null ],
+    [ "Reset", "d1/d73/a20450.html#a8a68e3a58133913d0eb0bf9fd2532db2", null ],
+    [ "SetData", "d1/d73/a20450.html#a31db1ae61777b8f1a38d381e785ce158", null ],
+    [ "UpdateAI", "d1/d73/a20450.html#ab6d29aaae95038282fece78479448459", null ],
+    [ "fixingGUID", "d1/d73/a20450.html#ae0ba3ddbff054a948709e70f0bf9961a", null ],
+    [ "pInstance", "d1/d73/a20450.html#a6b858d46eda05493ec0cac22e174854c", null ],
+    [ "timer", "d1/d73/a20450.html#a926b343da3d3953d386b18f24bc72867", null ],
+    [ "working", "d1/d73/a20450.html#ab8e436472efd91f2d400c02c1b500746", null ]
 ];

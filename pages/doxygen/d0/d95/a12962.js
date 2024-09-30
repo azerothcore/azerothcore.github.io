@@ -1,5 +1,6 @@
 var a12962 =
 [
-    [ "AreaTrigger_at_sunwell_eredar_twins", "d0/d95/a12962.html#a6cfb22079d94f8e83c76514fa73368b0", null ],
-    [ "OnTrigger", "d0/d95/a12962.html#af8e25da855daca5ac3114523e9af07fd", null ]
+    [ "boss_sacrolashAI", "d7/d03/a12966.html", "d7/d03/a12966" ],
+    [ "boss_sacrolash", "d0/d95/a12962.html#a97d7451b8cc9de91da97ed29ac799fed", null ],
+    [ "GetAI", "d0/d95/a12962.html#a67e9393b320f3dce72dd5077daea104c", null ]
 ];

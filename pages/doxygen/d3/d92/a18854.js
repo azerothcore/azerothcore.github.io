@@ -1,6 +1,7 @@
 var a18854 =
 [
-    [ "spell_sindragosa_soul_preservation_AuraScript", "df/dd7/a18858.html", "df/dd7/a18858" ],
-    [ "spell_sindragosa_soul_preservation", "d3/d92/a18854.html#a54c118cea4dc69f1af41f4d69982ecf7", null ],
-    [ "GetAuraScript", "d3/d92/a18854.html#a32f8c885827daee98d811b25b4c0b792", null ]
+    [ "HandleScriptEffect", "d3/d92/a18854.html#afa9d5c6fd0666a7fa1a6f4d5acabe782", null ],
+    [ "PrepareSpellScript", "d3/d92/a18854.html#a21a3175346c9b12c02205f2d33da3b86", null ],
+    [ "Register", "d3/d92/a18854.html#af5f279ad20e9153f201262eaa7615978", null ],
+    [ "Validate", "d3/d92/a18854.html#a635ff34619767f657778016e1eb901aa", null ]
 ];

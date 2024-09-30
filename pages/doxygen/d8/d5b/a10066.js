@@ -1,11 +1,6 @@
 var a10066 =
 [
-    [ "GuildSetRankPermissions", "d8/d5b/a10066.html#a8b3fd3e4da77c6fb70db28721ec46714", null ],
-    [ "Read", "d8/d5b/a10066.html#a534550862a3c634697e8277f31ad4c25", null ],
-    [ "Flags", "d8/d5b/a10066.html#adea48131efa7c05b84c4de596933bfbe", null ],
-    [ "RankID", "d8/d5b/a10066.html#a0c4a8b29918d69580c749e3b48485515", null ],
-    [ "RankName", "d8/d5b/a10066.html#a24dde2aa8dd0ae1b9e8b37317334e0d4", null ],
-    [ "TabFlags", "d8/d5b/a10066.html#af19e6fd8ddfe980f8c1f1110e9332bad", null ],
-    [ "TabWithdrawItemLimit", "d8/d5b/a10066.html#a9f5ddb30858ae9eca7fcd2ad9fa8ea0c", null ],
-    [ "WithdrawGoldLimit", "d8/d5b/a10066.html#a1c02002facce05010028ac8dcae7fa3f", null ]
+    [ "OutdoorPvPScript", "d8/d5b/a10066.html#ad7882db48419888c7968007e30c2f3f7", null ],
+    [ "GetOutdoorPvP", "d8/d5b/a10066.html#aa213974f384c88ab65f7b7308dadb026", null ],
+    [ "IsDatabaseBound", "d8/d5b/a10066.html#ac22c6a9945738270452848f997d2818f", null ]
 ];

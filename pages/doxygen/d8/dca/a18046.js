@@ -1,8 +1,7 @@
 var a18046 =
 [
-    [ "ResetEncounterEvent", "d8/dca/a18046.html#aaa1bc6d3d529524df6b0ed6be6e0966f", null ],
-    [ "Execute", "d8/dca/a18046.html#ae8d52fc7c0689620bcef8c04643191f5", null ],
-    [ "_caster", "d8/dca/a18046.html#abb37778222749b27791baa329e268c32", null ],
-    [ "_otherTransport", "d8/dca/a18046.html#a7f2d0aaade5833381e3e7624745fc504", null ],
-    [ "_spellId", "d8/dca/a18046.html#ad4c57e519201e15e23e0f56f4fbe70cb", null ]
+    [ "TriggerWickedSpirit", "d8/dca/a18046.html#ace62bc037a2bd8ca9c9c56202eb811e7", null ],
+    [ "Execute", "d8/dca/a18046.html#a7c8f1b5c33fac4d6a7cd89e3e71aa36d", null ],
+    [ "_counter", "d8/dca/a18046.html#a24b85a62208f881418f97b0a8cb10f27", null ],
+    [ "_owner", "d8/dca/a18046.html#ab460675158bfedd7f17a4b8e1cc06b3c", null ]
 ];

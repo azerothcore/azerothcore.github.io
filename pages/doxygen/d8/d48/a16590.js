@@ -1,5 +1,6 @@
 var a16590 =
 [
-    [ "PrepareAuraScript", "d8/d48/a16590.html#aee03d124caf65f4a4cb29d0bf90c8f7d", null ],
-    [ "Register", "d8/d48/a16590.html#afbb410bc5166d56bee00231828269424", null ]
+    [ "HandleScriptEffect", "d8/d48/a16590.html#a90b13b2a093fdd430a383d7ea4126290", null ],
+    [ "PrepareSpellScript", "d8/d48/a16590.html#a96cc7aabf7af3b2e7f978173921d55cd", null ],
+    [ "Register", "d8/d48/a16590.html#a53c8d47ee21637055ad901946be1e2c2", null ]
 ];

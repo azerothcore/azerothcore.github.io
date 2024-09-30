@@ -1,7 +1,9 @@
 var a22270 =
 [
-    [ "OnApply", "dd/d1a/a22270.html#a2e6222a6a68358b33698126f56855106", null ],
-    [ "OnRemove", "dd/d1a/a22270.html#a3c66ced821817c5234b1c5e9270f0b85", null ],
-    [ "PrepareAuraScript", "dd/d1a/a22270.html#ac7ff17cd4c73144c06e7479e9b41b080", null ],
-    [ "Register", "dd/d1a/a22270.html#a84e06d4e2acf8c7cf7661ed6352fb9c6", null ]
+    [ "HandlePeriodic", "dd/d1a/a22270.html#a3d9ef90ec1ddebe2b2f3dd3a8b9eb25a", null ],
+    [ "Load", "dd/d1a/a22270.html#af5ed9dda3b2a2fd208fdc32de414c28a", null ],
+    [ "PrepareAuraScript", "dd/d1a/a22270.html#a1057e5262d413149a023bc904a3c3751", null ],
+    [ "Register", "dd/d1a/a22270.html#a47b9665b84742fd8cbb4e422d667b2ac", null ],
+    [ "Validate", "dd/d1a/a22270.html#a85d7ac258d50f690574ad7656256cd05", null ],
+    [ "_counter", "dd/d1a/a22270.html#a855bb93d5d9c5d8a9d06cfbb16d8d814", null ]
 ];

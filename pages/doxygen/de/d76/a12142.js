@@ -1,8 +1,7 @@
 var a12142 =
 [
-    [ "npc_malchezaar_axe", "de/d76/a12142.html#a1a5615f2def10add30e7917b770ebc74", null ],
-    [ "Initialize", "de/d76/a12142.html#a078e7f0997c026b73a4e0ab8a1c209b8", null ],
-    [ "JustEngagedWith", "de/d76/a12142.html#a4a9f90e66359b304622d4f79653f9fd0", null ],
-    [ "UpdateAI", "de/d76/a12142.html#a202ba6922a426f87909eefbccd070175", null ],
-    [ "_scheduler", "de/d76/a12142.html#a75a98ff2c5b94e8319d39ef0e41c81c0", null ]
+    [ "HandleScript", "de/d76/a12142.html#ac09c2c6b997c2a5fc0bee0ba0ea185ae", null ],
+    [ "PrepareSpellScript", "de/d76/a12142.html#ad3c052a9bd00d04c954f85218dcfcb0a", null ],
+    [ "Register", "de/d76/a12142.html#a8658c2c7e32a66e4a1bcc048406653bb", null ],
+    [ "Validate", "de/d76/a12142.html#aa03795d909e24dfe2ccd12e431b2575e", null ]
 ];

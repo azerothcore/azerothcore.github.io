@@ -1,6 +1,10 @@
 var a21842 =
 [
-    [ "boss_razorscaleAI", "d1/d47/a21846.html", "d1/d47/a21846" ],
-    [ "boss_razorscale", "dc/dbc/a21842.html#ad8fe81f1b553414df3fa07c646029065", null ],
-    [ "GetAI", "dc/dbc/a21842.html#a01cf25d901a5eddae9ef3ea291020ba1", null ]
+    [ "npc_emilyAI", "dc/dbc/a21842.html#afd1e82e36c8850fbe118ab6abbdb73ce", null ],
+    [ "JustEngagedWith", "dc/dbc/a21842.html#a498ddc6969d398fe7a44824f4f8c8893", null ],
+    [ "JustSummoned", "dc/dbc/a21842.html#a4730c94b54d2ee5160011557704b35f2", null ],
+    [ "Reset", "dc/dbc/a21842.html#a8f196a6e1b21bef162b7ba4d7aeae208", null ],
+    [ "WaypointReached", "dc/dbc/a21842.html#a0a68676a6eac8fbe2b634098268eb516", null ],
+    [ "_mrfloppyGUID", "dc/dbc/a21842.html#a12a1fbe1ef4767698ab969e51e2f0e8e", null ],
+    [ "_RavenousworgGUID", "dc/dbc/a21842.html#aa2a5e45366be9f89221453e00179e1a3", null ]
 ];

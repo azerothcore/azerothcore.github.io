@@ -1,10 +1,10 @@
 var a23662 =
 [
-    [ "npc_infra_green_bomber_genericAI", "d9/dea/a23662.html#aed712ea3625971e059e2ecd158227287", null ],
-    [ "DamageTaken", "d9/dea/a23662.html#a8f860368df96e430b441c8316db99c93", null ],
-    [ "GetSummoner", "d9/dea/a23662.html#aaf7b91ce2bbf65c3f6c4bd41f04682bc", null ],
-    [ "IsSummonedBy", "d9/dea/a23662.html#a79676717b7c6219ea74ebe5a580eab28", null ],
-    [ "SpreadFire", "d9/dea/a23662.html#a5727c839b7dd02ea64eccce3606688d1", null ],
-    [ "UpdateAI", "d9/dea/a23662.html#a252875777655e963965676a24c15e766", null ],
-    [ "events", "d9/dea/a23662.html#ae8795439197b9cbfb70bbf5a672b8019", null ]
+    [ "boss_harbinger_skyriss", "d9/dea/a23662.html#a245179f74d61c2671b397e8f2473b599", null ],
+    [ "EnterEvadeMode", "d9/dea/a23662.html#a873413da06569343225e6659f8277b2c", null ],
+    [ "JustDied", "d9/dea/a23662.html#a2b5152ddeb53d382294bd0fe7455a21e", null ],
+    [ "JustEngagedWith", "d9/dea/a23662.html#adb4cdec41f4b61f82efdb78fe995c313", null ],
+    [ "JustSummoned", "d9/dea/a23662.html#a97d84139a3e970e22d7d422f2f825f12", null ],
+    [ "KilledUnit", "d9/dea/a23662.html#a8f9e1bd87c80041e07b428ec300ceef8", null ],
+    [ "Reset", "d9/dea/a23662.html#a045ec2371ad99c3465b8f089eb604e0a", null ]
 ];

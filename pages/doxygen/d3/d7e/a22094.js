@@ -1,6 +1,9 @@
 var a22094 =
 [
-    [ "PrepareSpellScript", "d3/d7e/a22094.html#a2f3f6c30edab28a8ca74dd8fe25f40e5", null ],
-    [ "Register", "d3/d7e/a22094.html#aa104a9e1fc0aa88ee8505d41769b2acd", null ],
-    [ "SelectTarget", "d3/d7e/a22094.html#a4a89ac5c151f6c7b8f908d2e93d12c9b", null ]
+    [ "npc_frostbrood_skytalonAI", "d3/d7e/a22094.html#afc14c60466f9f0f1b20062758f18c00d", null ],
+    [ "IsSummonedBy", "d3/d7e/a22094.html#a2c5729ee3371e562869878ff3a7b84bd", null ],
+    [ "MovementInform", "d3/d7e/a22094.html#ae763333503176eb7e8ce407868243958", null ],
+    [ "SpellHit", "d3/d7e/a22094.html#a24bb49f47dcf85c95039d0495a89e126", null ],
+    [ "UpdateAI", "d3/d7e/a22094.html#a0ffc4cd2e9b61ad17c516f062d161feb", null ],
+    [ "events", "d3/d7e/a22094.html#a8575d258d63e28626cffd7fc2160bee6", null ]
 ];

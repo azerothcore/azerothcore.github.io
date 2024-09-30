@@ -1,9 +1,13 @@
 var a22938 =
 [
-    [ "npc_azure_stalkerAI", "de/ddc/a22938.html#a1499e734f0d95d491bcd23c2e858a1ee", null ],
-    [ "Reset", "de/ddc/a22938.html#a9bd36e95ce7c3157a2ac53400da51d23", null ],
-    [ "UpdateAI", "de/ddc/a22938.html#a8c4ea046d69b269e886960ba9562fd0c", null ],
-    [ "TacticalBlinkCasted", "de/ddc/a22938.html#a875a272380251fcc7f98e5c0f84bb41a", null ],
-    [ "uiBackstabTimer", "de/ddc/a22938.html#ad03ba957706a62e3d8091d025ddd50dc", null ],
-    [ "uiTacticalBlinkTimer", "de/ddc/a22938.html#ab817fb9f2f06715f0a08a99e12693697", null ]
+    [ "boss_teron_gorefiend", "de/ddc/a22938.html#a81845f22aa383cdc57912ee9655b7bf9", null ],
+    [ "JustDied", "de/ddc/a22938.html#aa080c8d17bc51142c1cecadf7a0376a2", null ],
+    [ "JustEngagedWith", "de/ddc/a22938.html#a9f658d42cf27a54c62a71e28b5dfadee", null ],
+    [ "JustSummoned", "de/ddc/a22938.html#a71db567c5be7396add349e2f1b455a50", null ],
+    [ "KilledUnit", "de/ddc/a22938.html#a70dbf2b2a08cf915866afd51f8a74018", null ],
+    [ "Reset", "de/ddc/a22938.html#af32df2d958c618dc08d3da40b92bf3aa", null ],
+    [ "SetData", "de/ddc/a22938.html#a139c351471a3f19c7e59cf8e40913820", null ],
+    [ "UpdateAI", "de/ddc/a22938.html#a0bdd92c94adf066fdbf8ba9bcb1a1ba1", null ],
+    [ "_intro", "de/ddc/a22938.html#a99c62157084373e8eddd4497360cc047", null ],
+    [ "_recentlySpoken", "de/ddc/a22938.html#adef80b4509a6a72e7021fd3cc11de697", null ]
 ];

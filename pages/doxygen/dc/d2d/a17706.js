@@ -1,14 +1,14 @@
 var a17706 =
 [
-    [ "npc_ball_of_flameAI", "dc/d2d/a17706.html#a90314990bc6404bf2a4005bb94213926", null ],
-    [ "AttackStart", "dc/d2d/a17706.html#a34d51c96005f620c0010948acb6c89ec", null ],
-    [ "DamageDealt", "dc/d2d/a17706.html#aa8c7917d0a62930cd0fbdf6197aac523", null ],
-    [ "DoAction", "dc/d2d/a17706.html#ac589db56562987de5bbed27a2bead49f", null ],
-    [ "MoveInLineOfSight", "dc/d2d/a17706.html#a7bb96de89b9dc6b6f97443e9aec3ad61", null ],
-    [ "MovementInform", "dc/d2d/a17706.html#ab18870c29224fc3fa5e7b76c1aa981f4", null ],
-    [ "SetGUID", "dc/d2d/a17706.html#a809a33d832264eba92bf0847222bd23a", null ],
-    [ "_chaseGUID", "dc/d2d/a17706.html#a30dc40f8922f8f34d6ad7ec3053413e4", null ],
-    [ "_exploded", "dc/d2d/a17706.html#a724de41f7b14755d704d5de335da380b", null ],
-    [ "_instance", "dc/d2d/a17706.html#af5d8717572176409eca01ae214910c7f", null ],
-    [ "_started", "dc/d2d/a17706.html#a508a5e3f0acafa98956bba6eb41f28fb", null ]
+    [ "npc_putricide_oozeAI", "dc/d2d/a17706.html#a5b3200110d6cd8ac1311220ab2ee3385", null ],
+    [ "CastMainSpell", "dc/d2d/a17706.html#a62c9027b6d8a7812fcf5c0023621ef70", null ],
+    [ "IsSummonedBy", "dc/d2d/a17706.html#a8e96a50b9a35f6220bf6c824c1acce58", null ],
+    [ "SelectNewTarget", "dc/d2d/a17706.html#a0a4167a73249967fcf268683f936647d", null ],
+    [ "SetGUID", "dc/d2d/a17706.html#a4820e07300bfd50980e42faac3327fec", null ],
+    [ "SpellHit", "dc/d2d/a17706.html#ab9d288f8eded19720a0aee3bd91920d2", null ],
+    [ "SpellHitTarget", "dc/d2d/a17706.html#a501e0f46abdb1bcc0d99ab9792f738fe", null ],
+    [ "UpdateAI", "dc/d2d/a17706.html#a508fe1a9974f2ffa36c72575c2d4b252", null ],
+    [ "_hitTargetSpellId", "dc/d2d/a17706.html#a728b62580e7a84e9947a45b460ab140c", null ],
+    [ "_newTargetSelectTimer", "dc/d2d/a17706.html#a9615a0e6c73c155330c1791c2a205553", null ],
+    [ "targetGUID", "dc/d2d/a17706.html#ae01b7ffe31548aa15d913cc28fa32422", null ]
 ];

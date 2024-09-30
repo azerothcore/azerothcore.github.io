@@ -1,10 +1,19 @@
 var a09162 =
 [
-    [ "DoublePosition", "d3/d38/a09166.html", "d3/d38/a09166" ],
-    [ "~AreaBoundary", "d3/d3e/a09162.html#a6050e91b3d485e75186a2df9a56e8d38", null ],
-    [ "AreaBoundary", "d3/d3e/a09162.html#adf670910c492c08d3384c2dd1824e7ce", null ],
-    [ "IsWithinBoundary", "d3/d3e/a09162.html#aac0ce1e801f3de8f3bb83b98ecd6e5c1", null ],
-    [ "IsWithinBoundary", "d3/d3e/a09162.html#a1d407f77ce0388263fc0ee6224734213", null ],
-    [ "IsWithinBoundaryArea", "d3/d3e/a09162.html#ae5580b0044dba24d100831fe51ee1abc", null ],
-    [ "_isInvertedBoundary", "d3/d3e/a09162.html#ad416f29594688ce670549d6fdcce4314", null ]
+    [ "ObjectGridLoader", "d3/d3e/a09162.html#abe890652839acdcedc1f7b65253a943d", null ],
+    [ "LoadN", "d3/d3e/a09162.html#a5d5458f89bddcdaeafdf686c1aab4eaf", null ],
+    [ "SetObjectCell", "d3/d3e/a09162.html#a3fb844ac9447d510fe88a04f7dd269de", null ],
+    [ "SetObjectCell", "d3/d3e/a09162.html#aaeb5e98ec9eada6fa0e5d17d8cd5047d", null ],
+    [ "SetObjectCell", "d3/d3e/a09162.html#a2992965ffdf65b713f60b83abf698459", null ],
+    [ "Visit", "d3/d3e/a09162.html#a6bcd529a3d6114e84fd49f6d4c286aa7", null ],
+    [ "Visit", "d3/d3e/a09162.html#a285ad6a04b48f47ca27c5926eb4cd2c0", null ],
+    [ "Visit", "d3/d3e/a09162.html#ad5878eee4f1e5b9255d407a3e2b0112c", null ],
+    [ "Visit", "d3/d3e/a09162.html#a4eed10260073262fc0457d59d77e7c24", null ],
+    [ "ObjectWorldLoader", "d3/d3e/a09162.html#aa7388e59e6ca6c127da489083caf133c", null ],
+    [ "i_cell", "d3/d3e/a09162.html#a00e3f92f562c2e230bc3249a4d702fa8", null ],
+    [ "i_corpses", "d3/d3e/a09162.html#a2293ca1cb877a02b9c991790589bbd71", null ],
+    [ "i_creatures", "d3/d3e/a09162.html#a191b97c92657fe6f43ae3aa0f4388d56", null ],
+    [ "i_gameObjects", "d3/d3e/a09162.html#a2f8c32738da971cd2ed710fa87cf2127", null ],
+    [ "i_grid", "d3/d3e/a09162.html#aeb8aed74db51ee8f2d9ce28f3ae9c879", null ],
+    [ "i_map", "d3/d3e/a09162.html#a1f79d31467c5922ba589c289dd23cb68", null ]
 ];

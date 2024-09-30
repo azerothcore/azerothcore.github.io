@@ -1,6 +1,6 @@
 var a25810 =
 [
-    [ "HandleScriptEffect", "dc/d42/a25810.html#a46abaf045f949f36969f10705ac2534c", null ],
-    [ "PrepareSpellScript", "dc/d42/a25810.html#ad940f5b2722495a78a67596cf038ede1", null ],
-    [ "Register", "dc/d42/a25810.html#ae6332cefae2484f3c2f17029e407249c", null ]
+    [ "HandleDummy", "dc/d42/a25810.html#a1daf78c552ffd963f181eded01b570a9", null ],
+    [ "PrepareSpellScript", "dc/d42/a25810.html#adaa82dfd828ed915cfc16f95e73cd224", null ],
+    [ "Register", "dc/d42/a25810.html#a63771475c954e4bddf6c1fc4c04990e0", null ]
 ];

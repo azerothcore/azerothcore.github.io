@@ -1,6 +1,6 @@
 var a26762 =
 [
-    [ "OnHit", "d0/d7f/a26762.html#a56ecd2ea05f48b874b2890d7f15cc362", null ],
-    [ "PrepareSpellScript", "d0/d7f/a26762.html#a0d74ce7c43f0cb7329ca990f1b0eecdf", null ],
-    [ "Register", "d0/d7f/a26762.html#a7cd2cc858eeb7805a3efb72b081c284e", null ]
+    [ "HandleAfterHit", "d0/d7f/a26762.html#a177bcf10d6b8fa586ff0cac3834367f9", null ],
+    [ "PrepareSpellScript", "d0/d7f/a26762.html#ac16ef2ff92440deab6c69f4824bdd619", null ],
+    [ "Register", "d0/d7f/a26762.html#a46fe3d7ebd663d1cb27aa473a56e81eb", null ]
 ];

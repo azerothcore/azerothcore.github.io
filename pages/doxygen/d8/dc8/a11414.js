@@ -1,6 +1,6 @@
 var a11414 =
 [
-    [ "RestoreAttack", "d8/dc8/a11414.html#a8c5b3b0cbe7f5bfebb1c09987c4066e3", null ],
-    [ "Execute", "d8/dc8/a11414.html#a633e5abe4a3a9353df63d3778b8d71bc", null ],
-    [ "_boss", "d8/dc8/a11414.html#a493ef909da834b0befd90f57f54fb10c", null ]
+    [ "player_settings_commandscript", "d8/dc8/a11414.html#ab8585064d4d358d7d48eed97379a3a78", null ],
+    [ "GetCommands", "d8/dc8/a11414.html#ae545918310d22b4e66e4a668bbb7ba58", null ],
+    [ "HandleSettingsAnnouncerFlags", "d8/dc8/a11414.html#af505117caa66ed4222e52ff91c486b6e", null ]
 ];

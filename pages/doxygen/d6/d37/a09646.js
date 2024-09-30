@@ -1,5 +1,7 @@
 var a09646 =
 [
-    [ "UpdatableScript", "d6/d37/a09646.html#a2d6cf85d1eb98438b5022804296eff11", null ],
-    [ "OnUpdate", "d6/d37/a09646.html#abf328325e08aa0d6adf36e6f70b02328", null ]
+    [ "Finalize", "d6/d37/a09646.html#a90c8b42ef67968bf58acae5678dc7496", null ],
+    [ "Initialize", "d6/d37/a09646.html#ad6b97c3e2884dfbe3f17e2579b31ac66", null ],
+    [ "Reset", "d6/d37/a09646.html#a6db99ea9863dc60d032bacda37afa078", null ],
+    [ "Update", "d6/d37/a09646.html#af044c8725ef11e8a152987225521ef8b", null ]
 ];

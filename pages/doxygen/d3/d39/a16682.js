@@ -1,8 +1,6 @@
 var a16682 =
 [
-    [ "npc_toc_boomkinAI", "d3/d39/a16682.html#a12c586d57aa6dd3893889f103dbfee20", null ],
-    [ "JustSummoned", "d3/d39/a16682.html#a0d049885773b7f1abd7e03f9200852f4", null ],
-    [ "myCanCast", "d3/d39/a16682.html#a691a0250db77cc4def2bf67b25a1298c", null ],
-    [ "UpdateAI", "d3/d39/a16682.html#a64b0451537c0d27bc01d1c1ec3b5b88d", null ],
-    [ "events", "d3/d39/a16682.html#a0b367855092884b2ce30834e89fced87", null ]
+    [ "instance_forge_of_souls_InstanceScript", "d1/de9/a16686.html", "d1/de9/a16686" ],
+    [ "instance_forge_of_souls", "d3/d39/a16682.html#a504896f6e191c87ce77231c4ef267b27", null ],
+    [ "GetInstanceScript", "d3/d39/a16682.html#a64982b527cfa6057315b8e628549480b", null ]
 ];

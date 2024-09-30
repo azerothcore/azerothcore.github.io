@@ -1,5 +1,6 @@
 var a12554 =
 [
-    [ "go_inconspicuous_mine_car", "d5/da1/a12554.html#a34e941a813079b55f66bea15cffe8f42", null ],
-    [ "OnGossipHello", "d5/da1/a12554.html#a256a8f766dd045613c0c7159db9f74e0", null ]
+    [ "spell_q12698_the_gift_that_keeps_on_giving_SpellScript", "df/dda/a12558.html", "df/dda/a12558" ],
+    [ "spell_q12698_the_gift_that_keeps_on_giving", "d5/da1/a12554.html#a9b4722d731a886d02940498087e249e6", null ],
+    [ "GetSpellScript", "d5/da1/a12554.html#a25403a19cc427d7c6da9da1c3334ff1d", null ]
 ];

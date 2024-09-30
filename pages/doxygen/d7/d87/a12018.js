@@ -1,10 +1,7 @@
 var a12018 =
 [
-    [ "instance_gnomeregan_InstanceMapScript", "d7/d87/a12018.html#a0080fdf557ad8159a8934dce5b39a535", null ],
-    [ "OnCreatureCreate", "d7/d87/a12018.html#ac607601becc7fbf4ea9c64d87c93287c", null ],
-    [ "OnGameObjectCreate", "d7/d87/a12018.html#a0c2f4d615394ef1d6e1b930ed6aff82f", null ],
-    [ "ReadSaveDataMore", "d7/d87/a12018.html#a85d3db22430a4bac7e01dcfa1a1efb5b", null ],
-    [ "SetData", "d7/d87/a12018.html#af800a1906c532f61f0299f8aa9359a66", null ],
-    [ "WriteSaveDataMore", "d7/d87/a12018.html#a1b30829b3c782bb2c52e5da4fa388d5c", null ],
-    [ "_encounters", "d7/d87/a12018.html#ae19a56e7fdcb2d0204d444cba11b7441", null ]
+    [ "HandleEffectScriptEffect", "d7/d87/a12018.html#a8157c4b213b3b4e260222976e283e2ae", null ],
+    [ "PrepareSpellScript", "d7/d87/a12018.html#aa8a4fdd0dc5c06a836ac05cec0dccd75", null ],
+    [ "Register", "d7/d87/a12018.html#aeda056b568b4956ba35b32a3f20c053e", null ],
+    [ "Validate", "d7/d87/a12018.html#a29a7f51f01e1ccf71dcc53ad68f032ae", null ]
 ];

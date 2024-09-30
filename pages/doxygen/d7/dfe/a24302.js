@@ -1,17 +1,18 @@
 var a24302 =
 [
-    [ "boss_ambassador_hellmaw", "d7/dfe/a24302.html#ae774dfa4379b7321ff194a796c9eb842", null ],
-    [ "AttackStart", "d7/dfe/a24302.html#aa072ff0e9ce6e68f3ba0b4e51fb92f04", null ],
-    [ "CanAIAttack", "d7/dfe/a24302.html#a35579b31dec1d0c110b459230ee129e4", null ],
-    [ "DoAction", "d7/dfe/a24302.html#a3cbd58fb11fe8d297907bb40d69e4ccb", null ],
-    [ "DoMeleeAttackIfReady", "d7/dfe/a24302.html#a8dd75d368f0f567561db45e1c53ad785", null ],
-    [ "InitializeAI", "d7/dfe/a24302.html#a9b0170a49751def614126265240bb87c", null ],
-    [ "JustDied", "d7/dfe/a24302.html#ae0e04500073a4c02c9656b4bcd63be9c", null ],
-    [ "JustEngagedWith", "d7/dfe/a24302.html#a9ea9d60b8fa90a228951a38fc2f59325", null ],
-    [ "KilledUnit", "d7/dfe/a24302.html#a5f7564ef25a36395cddf4e2c2dbc2dfc", null ],
-    [ "MoveInLineOfSight", "d7/dfe/a24302.html#af3949b46f82863af699396729e88928b", null ],
-    [ "PathEndReached", "d7/dfe/a24302.html#a46b9b96ec5e4c121d994560e85266dfe", null ],
-    [ "Reset", "d7/dfe/a24302.html#a4881f868ac11eb66f3d15b44c94938bf", null ],
-    [ "UpdateAI", "d7/dfe/a24302.html#a44dae5d6517e22dd2be399d08fa67a71", null ],
-    [ "isBanished", "d7/dfe/a24302.html#a4805244997c42f5791400c5b1f5e6204", null ]
+    [ "npc_pet_dk_ebon_gargoyleAI", "d7/dfe/a24302.html#a5181a22e0e3b242112095552b6a9a0ab", null ],
+    [ "AttackStart", "d7/dfe/a24302.html#a46a5511e57af5f9e5128f922c691fc4f", null ],
+    [ "FlyAway", "d7/dfe/a24302.html#a9af7240d389affb09dc8656417d902fa", null ],
+    [ "InitializeAI", "d7/dfe/a24302.html#a63e7284a03c4ad3ba2242f5cc61ab33f", null ],
+    [ "MovementInform", "d7/dfe/a24302.html#a82b40fd7eeccef8c52cf31dd8d20da9a", null ],
+    [ "MySelectNextTarget", "d7/dfe/a24302.html#a67471ffe36c1535f1034a7037f9ae607", null ],
+    [ "RemoveTargetAura", "d7/dfe/a24302.html#a2fb3b35fadc56c1bdab31b21785f9b75", null ],
+    [ "Reset", "d7/dfe/a24302.html#a0a47ddb3568b8683a109489bdf5a018e", null ],
+    [ "UpdateAI", "d7/dfe/a24302.html#ae37e2b9453449eb1e8c629af49b48e82", null ],
+    [ "_despawning", "d7/dfe/a24302.html#afd200dfb3b8ceb05ff70c5413cd8a961", null ],
+    [ "_despawnTimer", "d7/dfe/a24302.html#ab53127c5db2ccb85d260bdf29a6f714b", null ],
+    [ "_initialCastTimer", "d7/dfe/a24302.html#a921dcc19257c708a2f84f515ae5df113", null ],
+    [ "_initialSelection", "d7/dfe/a24302.html#aac259fa5c5ca81b8be77cd0c33f58e1f", null ],
+    [ "_selectionTimer", "d7/dfe/a24302.html#a3fb591687748bacef72990ecac0ea246", null ],
+    [ "_targetGUID", "d7/dfe/a24302.html#af1f5d442840812b4d73f9411226e6925", null ]
 ];

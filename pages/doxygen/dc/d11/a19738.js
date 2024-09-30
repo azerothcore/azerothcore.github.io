@@ -1,6 +1,6 @@
 var a19738 =
 [
-    [ "spell_icc_yd_summon_undead_SpellScript", "d7/d87/a19742.html", "d7/d87/a19742" ],
-    [ "spell_icc_yd_summon_undead", "dc/d11/a19738.html#ae1bb770bfaf615ea03561a23120840d8", null ],
-    [ "GetSpellScript", "dc/d11/a19738.html#a3f475cec54cbd2e0a2195c2bdbae5db0", null ]
+    [ "FilterTargets", "dc/d11/a19738.html#a38c693dd3d8fb7e04fc1e26359f12399", null ],
+    [ "PrepareSpellScript", "dc/d11/a19738.html#a86c4bb91547d8ea7eebb8e4d7bfd592e", null ],
+    [ "Register", "dc/d11/a19738.html#a4e803984a3eded2736825f631786c204", null ]
 ];

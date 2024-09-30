@@ -1,7 +1,11 @@
 var a11754 =
 [
-    [ "HandleRemove", "d3/dc1/a11754.html#a754b44b62c131e20e1be94b3407e2006", null ],
-    [ "PrepareAuraScript", "d3/dc1/a11754.html#a92a58e6bcde5f80c6962ce1da47aca2d", null ],
-    [ "Register", "d3/dc1/a11754.html#a02cd375ec140f7614104b7e56df13430", null ],
-    [ "Validate", "d3/dc1/a11754.html#a4dd592093c1b00388a54fd8aa1b86904", null ]
+    [ "boss_quartermaster_zigris", "d3/dc1/a11754.html#a1d2f68327cc9b88fdd82d44ac8446d57", null ],
+    [ "DamageTaken", "d3/dc1/a11754.html#a61d7f1c4e5a2901812f1175ccce69ab2", null ],
+    [ "JustDied", "d3/dc1/a11754.html#a9295bbcffd7968051a789e8dfb634e23", null ],
+    [ "JustEngagedWith", "d3/dc1/a11754.html#af482c06e00e7f6c15b290115998a27a9", null ],
+    [ "Reset", "d3/dc1/a11754.html#a71e911bb91b7447e8aed28cdccfda8db", null ],
+    [ "SpellHitTarget", "d3/dc1/a11754.html#a38197746cc73ada1378e6e1a5555ef79", null ],
+    [ "UpdateAI", "d3/dc1/a11754.html#a400f7ace05cd5c4d127aecf5d771c616", null ],
+    [ "_hasDrunkPotion", "d3/dc1/a11754.html#a25335533bc43171687e03f1ed22d4fb3", null ]
 ];

@@ -1,7 +1,6 @@
 var a20538 =
 [
-    [ "HandleProc", "d9/d9e/a20538.html#a91f1e804482ed0c4e49687e89dab814e", null ],
-    [ "PrepareAuraScript", "d9/d9e/a20538.html#a3ca5330a0a91b7d47deba9d0a8da8d2a", null ],
-    [ "Register", "d9/d9e/a20538.html#a59aea360a786854420e8b02d22b6811e", null ],
-    [ "Validate", "d9/d9e/a20538.html#a3ccd6b8ef7200b1cfce56920126669ec", null ]
+    [ "boss_thorim_start_npcsAI", "d8/d85/a20542.html", "d8/d85/a20542" ],
+    [ "boss_thorim_start_npcs", "d9/d9e/a20538.html#a3aa11a487ae00b2e397fd25ed2e42702", null ],
+    [ "GetAI", "d9/d9e/a20538.html#a6c529b19d071b4966ccc74b44279cb08", null ]
 ];

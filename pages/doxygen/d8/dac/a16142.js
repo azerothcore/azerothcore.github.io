@@ -1,7 +1,8 @@
 var a16142 =
 [
-    [ "DelayedTalk", "d8/dac/a16142.html#a8a7ea9e6ddebd73996cfe8d9723276bc", null ],
-    [ "Execute", "d8/dac/a16142.html#a88c1915e73bcbd8ec253a537c416caf7", null ],
-    [ "_owner", "d8/dac/a16142.html#a9d13769bb3fbaed32919fc919da35006", null ],
-    [ "_talkId", "d8/dac/a16142.html#a3f3a1688a36807c653a5d071dd2bb389", null ]
+    [ "npc_announcer_toc5AI", "d4/d27/a16146.html", "d4/d27/a16146" ],
+    [ "npc_announcer_toc5", "d8/dac/a16142.html#abf50bb7deb9e0bb04d9ac802aff5fa41", null ],
+    [ "GetAI", "d8/dac/a16142.html#a06767a8fd1e940d4efee6dd752520e9e", null ],
+    [ "OnGossipHello", "d8/dac/a16142.html#ad2cc55ddc6696b9bfb22e68eab965fb0", null ],
+    [ "OnGossipSelect", "d8/dac/a16142.html#a9017488c652fd75882db75914f4a2db2", null ]
 ];

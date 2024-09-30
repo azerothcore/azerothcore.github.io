@@ -1,6 +1,9 @@
 var a23290 =
 [
-    [ "spell_q12478_frostmourne_cavern_SpellScript", "de/df5/a23294.html", "de/df5/a23294" ],
-    [ "spell_q12478_frostmourne_cavern", "d7/d56/a23290.html#aba049da0ba27cf6ca216197d4ca19d32", null ],
-    [ "GetSpellScript", "d7/d56/a23290.html#a606f946bc4a7dad3aa83f7f6997b17d7", null ]
+    [ "boss_mennu_the_betrayer", "d7/d56/a23290.html#a3f881a89d1da70d066ce9a3fe0b29a3e", null ],
+    [ "JustDied", "d7/d56/a23290.html#acf87c54cc2a3ee5c8378ef40553ab51c", null ],
+    [ "JustEngagedWith", "d7/d56/a23290.html#a535b9af1677b8af50515818a18e88d27", null ],
+    [ "JustSummoned", "d7/d56/a23290.html#a59949872270890ef794a77029074210b", null ],
+    [ "KilledUnit", "d7/d56/a23290.html#a1a55fb7f1dacc5e514e71901d66bd35e", null ],
+    [ "Reset", "d7/d56/a23290.html#a6f0043e73a55cd1cccae22a806d702ea", null ]
 ];

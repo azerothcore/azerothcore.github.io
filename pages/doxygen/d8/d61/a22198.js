@@ -1,10 +1,13 @@
 var a22198 =
 [
-    [ "boss_yoggsaron_constrictor_tentacleAI", "d8/d61/a22198.html#a351df0050661628e3ab0be2f636f9c4e", null ],
-    [ "DoAction", "d8/d61/a22198.html#ad84c2b479a2d7df7aec40f17287a2438", null ],
-    [ "JustDied", "d8/d61/a22198.html#a832d1b1154b158c348f9d5883ad0fbd7", null ],
-    [ "SelectConstrictTarget", "d8/d61/a22198.html#a174be8d1673e332f9dceb10d2917bb4a", null ],
-    [ "UpdateAI", "d8/d61/a22198.html#a00c137429f2b565bf195dab4e9902a7c", null ],
-    [ "_checkTimer", "d8/d61/a22198.html#ae5c189401dd04823449e7a16c197e65f", null ],
-    [ "_playerGUID", "d8/d61/a22198.html#a01d889af8d8fe5712cde73cdc2bf3c95", null ]
+    [ "npc_frosthoundAI", "d8/d61/a22198.html#ac8f41789568399318cdc30292abfd93b", null ],
+    [ "AttackStart", "d8/d61/a22198.html#a0278736f670f5aac069b03530f441ae1", null ],
+    [ "EnterEvadeMode", "d8/d61/a22198.html#acc1a3842ddae670e23d8c55e8768ace9", null ],
+    [ "JustDied", "d8/d61/a22198.html#a26f4657c1d373cf4a2b45f6487a9e901", null ],
+    [ "JustEngagedWith", "d8/d61/a22198.html#a80eec4a19fb53be5946b2e021b8dd332", null ],
+    [ "JustSummoned", "d8/d61/a22198.html#a8db3dbace66dabfa54800cacbfdfab9b", null ],
+    [ "OnCharmed", "d8/d61/a22198.html#ae1e2a4763e8bfc8ab04687829830c639", null ],
+    [ "PassengerBoarded", "d8/d61/a22198.html#aea512a9811ec0766b9b175ec2ca9a447", null ],
+    [ "UpdateAI", "d8/d61/a22198.html#a9a755fd6d53d124c441357472fcb73e0", null ],
+    [ "WaypointReached", "d8/d61/a22198.html#aa87f8d5bbbd105481773941a90a96cf6", null ]
 ];

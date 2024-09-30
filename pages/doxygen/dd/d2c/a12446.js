@@ -1,16 +1,15 @@
 var a12446 =
 [
-    [ "boss_vexallusAI", "dd/d2c/a12446.html#a547205c76d592f2bad3e0484bfee0432", null ],
-    [ "JustDied", "dd/d2c/a12446.html#ae4209178ac83ddd4b5248a9e72261b33", null ],
-    [ "JustEngagedWith", "dd/d2c/a12446.html#a7fadd2fe73539f47b6cb78f2141f0be1", null ],
-    [ "JustSummoned", "dd/d2c/a12446.html#ac50531fa1b8bf68c2de2c5bed1b29e73", null ],
-    [ "KilledUnit", "dd/d2c/a12446.html#a8a8ecb749b44109968064813f4c3d0ab", null ],
-    [ "Reset", "dd/d2c/a12446.html#a3022a1a99c1d33dc28f99beab53ae655", null ],
-    [ "SummonedCreatureDies", "dd/d2c/a12446.html#abf984833f1e4763223d912910dfac105", null ],
-    [ "UpdateAI", "dd/d2c/a12446.html#a73e35350ce229a038061a15dfd49c8dd", null ],
-    [ "Enraged", "dd/d2c/a12446.html#a4d1b6aa3316f9861f952d84729205a0e", null ],
-    [ "events", "dd/d2c/a12446.html#a35854b6c21522be64d2d3a933f9ce9f6", null ],
-    [ "instance", "dd/d2c/a12446.html#a5a36eea37da19e7ed09dafd8641c2b3a", null ],
-    [ "IntervalHealthAmount", "dd/d2c/a12446.html#adcb11a548d575ae8e74c76b8b2c4beba", null ],
-    [ "summons", "dd/d2c/a12446.html#ae57166016c20ab0bba66f001fc6f1b47", null ]
+    [ "npc_image_of_medivhAI", "dd/d2c/a12446.html#a1afe3245dc18db3c0bf6801b5ca20d31", null ],
+    [ "JustEngagedWith", "dd/d2c/a12446.html#a1013be426b3567d8cbd1c45debc914c5", null ],
+    [ "NextStep", "dd/d2c/a12446.html#a87160b37ba61af4866fe3f410813fe9f", null ],
+    [ "Reset", "dd/d2c/a12446.html#af2e7dd7f1038bb5662fe7375a7e052c4", null ],
+    [ "UpdateAI", "dd/d2c/a12446.html#a321d689d645b4630e2e93e6251d5130c", null ],
+    [ "ArcanagosGUID", "dd/d2c/a12446.html#a877c693b6ac736aa874926d8efe0d79a", null ],
+    [ "ATimer", "dd/d2c/a12446.html#a28aef0767b6adb0ccf0479dd50dc11a8", null ],
+    [ "EventStarted", "dd/d2c/a12446.html#a9a662b435218a3e13ca58eb4a6b3af86", null ],
+    [ "instance", "dd/d2c/a12446.html#a2e02aa8d441426aa51f46121eec0becb", null ],
+    [ "MTimer", "dd/d2c/a12446.html#a16c3f6d5bd1cc288590bd096233e0bfb", null ],
+    [ "Step", "dd/d2c/a12446.html#a9d7b9bdcf9e185284dba5251a0deb0b3", null ],
+    [ "YellTimer", "dd/d2c/a12446.html#a34ad7cabe4cb86e23deb30ca0ce77db0", null ]
 ];

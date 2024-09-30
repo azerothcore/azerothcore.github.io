@@ -1,7 +1,8 @@
 var a15214 =
 [
-    [ "npc_sartura_royal_guard", "d5/deb/a15214.html#a3ce2aeec4e5f26916ef50bdeea624c9d", null ],
-    [ "JustEngagedWith", "d5/deb/a15214.html#a0b162e1fcc925f65fedbfe235b59eb0e", null ],
-    [ "Reset", "d5/deb/a15214.html#a2b604aada12ca7f3e712cdbd1a3f397a", null ],
-    [ "UpdateAI", "d5/deb/a15214.html#a2ed50f65847133c897facecbaa4711d8", null ]
+    [ "npc_prospector_remtravelAI", "d5/deb/a15214.html#a61f26115382f16f3d65c3d4e1c720f02", null ],
+    [ "JustEngagedWith", "d5/deb/a15214.html#adf388d36c17b69f881e3cb92d9b78b9b", null ],
+    [ "JustSummoned", "d5/deb/a15214.html#a6b3dd1552b5313dd04d07dc80eef06fe", null ],
+    [ "Reset", "d5/deb/a15214.html#ac145a4a4a24be227c31fcc5aefd922eb", null ],
+    [ "WaypointReached", "d5/deb/a15214.html#a7b02b22e9dc63e1fad6b15a44b2ff9b6", null ]
 ];

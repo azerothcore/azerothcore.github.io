@@ -1,6 +1,9 @@
 var a16858 =
 [
-    [ "npc_concentrated_ballAI", "d6/d04/a16862.html", "d6/d04/a16862" ],
-    [ "npc_concentrated_ball", "d6/dee/a16858.html#a1f3a873baf61157e704bcb7e524b1d46", null ],
-    [ "GetAI", "d6/dee/a16858.html#add43f8cb27a699ba732d62fedd9d2f02", null ]
+    [ "FilterTargets", "d6/dee/a16858.html#aefebf504286394cf3caffa566543e4a4", null ],
+    [ "FilterTargetsNext", "d6/dee/a16858.html#a356b6ace97d07df22a232d2287072b5e", null ],
+    [ "PrepareSpellScript", "d6/dee/a16858.html#a893e0eb620e19909b2f2a715ea946f6b", null ],
+    [ "Register", "d6/dee/a16858.html#a962651920a94190f4864a3b1c7fcd1d3", null ],
+    [ "Unload", "d6/dee/a16858.html#a6adc9b6ca86da6cd9465fa0da150dcca", null ],
+    [ "targetList", "d6/dee/a16858.html#a3c839185938e0b67b97f652d1d15e213", null ]
 ];

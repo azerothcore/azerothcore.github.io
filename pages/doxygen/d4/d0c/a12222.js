@@ -1,6 +1,6 @@
 var a12222 =
 [
-    [ "boss_strawmanAI", "da/de9/a12226.html", "da/de9/a12226" ],
-    [ "boss_strawman", "d4/d0c/a12222.html#ab66ae2a18c999be25868b87834ca35bf", null ],
-    [ "GetAI", "d4/d0c/a12222.html#a6dfa53b3256cf5b80ddcb36c0c886fbd", null ]
+    [ "instance_gnomeregan_InstanceMapScript", "da/de9/a12226.html", "da/de9/a12226" ],
+    [ "instance_gnomeregan", "d4/d0c/a12222.html#a3fca2b3399f41e88c0c30ae05763a09c", null ],
+    [ "GetInstanceScript", "d4/d0c/a12222.html#ad2130ba5eb3cd37cd2cc464a62381eda", null ]
 ];

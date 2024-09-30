@@ -1,10 +1,13 @@
 var a08218 =
 [
-    [ "RedirectThreatInfo", "de/d68/a08218.html#a23b5adf3087ddba3b92133199aa42cf8", null ],
-    [ "GetTargetGUID", "de/d68/a08218.html#ae206110e4d7155bb87079ebd58800e3d", null ],
-    [ "GetThreatPct", "de/d68/a08218.html#a58bd2c745f92625ff7eac0ddca6a23a0", null ],
-    [ "ModifyThreatPct", "de/d68/a08218.html#ac7093218d9b8c6ea03683dd5624bde8f", null ],
-    [ "Set", "de/d68/a08218.html#a140b7a0adb6e6b71b21e8d6db7125ae2", null ],
-    [ "_targetGUID", "de/d68/a08218.html#a98f9efc5209ef7200e71ff39310520dd", null ],
-    [ "_threatPct", "de/d68/a08218.html#a95d6d366d664888f532d40afd1cc57d2", null ]
+    [ "UpdateData", "de/d68/a08218.html#a7164bb9338d6362f427d75025c9026b6", null ],
+    [ "AddOutOfRangeGUID", "de/d68/a08218.html#a4c68f187e2f6e65da3bdb6a443ebcacf", null ],
+    [ "AddUpdateBlock", "de/d68/a08218.html#a620f0036078833a3b5ce1245274595f8", null ],
+    [ "AddUpdateBlock", "de/d68/a08218.html#af770dbf9bc4e4da1b97aba73b152b23b", null ],
+    [ "BuildPacket", "de/d68/a08218.html#a3bea592b01b6c9e41b863c26fd602d45", null ],
+    [ "Clear", "de/d68/a08218.html#adc0750db190d94fed3bfef72da75066c", null ],
+    [ "HasData", "de/d68/a08218.html#a067577372028ad59aea7942f0cd4a5c2", null ],
+    [ "m_blockCount", "de/d68/a08218.html#a791f9606867a40d018f67600e338a08e", null ],
+    [ "m_data", "de/d68/a08218.html#ac21a3bda51f8d1d2b71be6d00d760e38", null ],
+    [ "m_outOfRangeGUIDs", "de/d68/a08218.html#a60f7b1745f84b24b25c94625145dd5a2", null ]
 ];

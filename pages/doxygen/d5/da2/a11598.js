@@ -1,6 +1,7 @@
 var a11598 =
 [
-    [ "npc_vaelastrasz_the_redAI", "d1/ddf/a11602.html", "d1/ddf/a11602" ],
-    [ "npc_vaelastrasz_the_red", "d5/da2/a11598.html#af39fcaa29b200e3b7933f97de277df6b", null ],
-    [ "GetAI", "d5/da2/a11598.html#a59e7630d5060986dc4209d2d2b5ef42b", null ]
+    [ "boss_gorosh_the_dervishAI", "d5/da2/a11598.html#adac003c51a2d1d0a8daa6ba552114c25", null ],
+    [ "JustEngagedWith", "d5/da2/a11598.html#a52bc5f76baff626b8834aa604fdd8e6a", null ],
+    [ "UpdateAI", "d5/da2/a11598.html#aa17e26419a8e3f7cd99c5e9b44be8ed8", null ],
+    [ "nextWhirlwindTime", "d5/da2/a11598.html#a07f1af63bc54d1b4c8d8e1cd87a787a1", null ]
 ];

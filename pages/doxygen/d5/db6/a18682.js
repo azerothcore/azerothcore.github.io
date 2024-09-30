@@ -1,6 +1,13 @@
 var a18682 =
 [
-    [ "spell_rotface_large_ooze_buff_combine_SpellScript", "d7/dea/a18686.html", "d7/dea/a18686" ],
-    [ "spell_rotface_large_ooze_buff_combine", "d5/db6/a18682.html#afa7a0e9e17f1e9f97eaee6770b8f5aaa", null ],
-    [ "GetSpellScript", "d5/db6/a18682.html#a80ffba9a603890ce04f2814b6b853832", null ]
+    [ "npc_icc_spire_frostwyrm", "d5/db6/a18682.html#a8fdfc70108e3294e0fcc3c7ed895074e", null ],
+    [ "CanAIAttack", "d5/db6/a18682.html#ab3364130aacf675602317651a244ae2c", null ],
+    [ "DoAction", "d5/db6/a18682.html#a44edf33b25bdfce3b2bd3a8ec487fd9e", null ],
+    [ "JustEngagedWith", "d5/db6/a18682.html#abfc762cea6b7e40aaaff50b933410127", null ],
+    [ "JustReachedHome", "d5/db6/a18682.html#a144e8cafc020f5c43aae1fdc4a38a10d", null ],
+    [ "MovementInform", "d5/db6/a18682.html#a8e7f148580d91d42959e972ef18b271b", null ],
+    [ "Reset", "d5/db6/a18682.html#a572add30e78af15a8d5d6918169802da", null ],
+    [ "UpdateAI", "d5/db6/a18682.html#ad193a9355e11ea25792e6285d375a488", null ],
+    [ "_canResetFlyingEffects", "d5/db6/a18682.html#a262d843fcb13a444ae377729135ca14d", null ],
+    [ "_scheduler", "d5/db6/a18682.html#a822096df7b1803d92e05ca27d544bd26", null ]
 ];

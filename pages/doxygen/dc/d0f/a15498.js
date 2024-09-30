@@ -1,6 +1,7 @@
 var a15498 =
 [
-    [ "spell_mount_check_AuraScript", "d4/dec/a15502.html", "d4/dec/a15502" ],
-    [ "spell_mount_check", "dc/d0f/a15498.html#a1504dfdd0558fabfe5ae7ffaa1336c5f", null ],
-    [ "GetAuraScript", "dc/d0f/a15498.html#a276eed27e5bd98ddbe34069a5955fac1", null ]
+    [ "npc_paoka_swiftmountainAI", "d4/dec/a15502.html", "d4/dec/a15502" ],
+    [ "npc_paoka_swiftmountain", "dc/d0f/a15498.html#abb3f6fab7cca158c2e139159430f880a", null ],
+    [ "GetAI", "dc/d0f/a15498.html#a3f41d2caae5acb4b79bcc75780db03d2", null ],
+    [ "OnQuestAccept", "dc/d0f/a15498.html#a5bd4442350daf5a19bee1037a1b4d7b3", null ]
 ];

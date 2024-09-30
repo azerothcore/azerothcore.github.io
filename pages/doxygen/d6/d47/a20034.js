@@ -1,12 +1,8 @@
 var a20034 =
 [
-    [ "npc_boss_gothik_minionAI", "d6/d47/a20034.html#aa719d87c65294fc483b424b125619a10", null ],
-    [ "IsOnSameSide", "d6/d47/a20034.html#a7d305be5e3d66c1317fa91e588223da0", null ],
-    [ "JustDied", "d6/d47/a20034.html#a752b6eab9cf1b016962c6f535586b59d", null ],
-    [ "JustEngagedWith", "d6/d47/a20034.html#ad86778d5a0e883a839b4a43425a57d7f", null ],
-    [ "KilledUnit", "d6/d47/a20034.html#a6a09440d623dcee51b7e0d4ed77d624e", null ],
-    [ "Reset", "d6/d47/a20034.html#a309401236c254cd850759a0cbb4004e0", null ],
-    [ "UpdateAI", "d6/d47/a20034.html#a43744e96be00d8bc0afc34a570e79947", null ],
-    [ "events", "d6/d47/a20034.html#ae2dde7b4fc655b1ae27410d299776c49", null ],
-    [ "livingSide", "d6/d47/a20034.html#a2545d00e04bae9ee0a1bf9f9d6162c74", null ]
+    [ "OnApply", "d6/d47/a20034.html#a101aab87e9f45ebab1cbe77ecca65c5a", null ],
+    [ "OnRemove", "d6/d47/a20034.html#a4709f570f9014eb36bc8c65269470373", null ],
+    [ "PrepareAuraScript", "d6/d47/a20034.html#a6ac96ce73f9983915a05686eb5d411e7", null ],
+    [ "Register", "d6/d47/a20034.html#a7b4f44d86df652df78a10466bf64a2cf", null ],
+    [ "Validate", "d6/d47/a20034.html#a3b98409fa1ed8d4e53e526686bc25987", null ]
 ];

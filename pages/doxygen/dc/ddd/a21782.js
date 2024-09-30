@@ -1,6 +1,7 @@
 var a21782 =
 [
-    [ "spell_mimiron_p3wx2_laser_barrage_AuraScript", "db/d2e/a21786.html", "db/d2e/a21786" ],
-    [ "spell_mimiron_p3wx2_laser_barrage", "dc/ddd/a21782.html#affbe3588a9cab30163a08c8ff781e29d", null ],
-    [ "GetAuraScript", "dc/ddd/a21782.html#a71654b4b433b3d1731b1de15f747d8ec", null ]
+    [ "FilterTargets", "dc/ddd/a21782.html#af62588a225f0b701a0f9321677ae22b8", null ],
+    [ "HandleScript", "dc/ddd/a21782.html#ad68fad08b2613de096e504bb7dea61cd", null ],
+    [ "PrepareSpellScript", "dc/ddd/a21782.html#a76ac3fe280585a4e2b2d599b4bcc7846", null ],
+    [ "Register", "dc/ddd/a21782.html#a8fdbf1c7ab67c0ef094d738ec9a169d8", null ]
 ];

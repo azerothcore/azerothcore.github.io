@@ -1,7 +1,6 @@
 var a19914 =
 [
-    [ "npc_ioc_gunship_captainAI", "d6/d63/a19914.html#a23477a6f29b13308067c1f42ced1e9fe", null ],
-    [ "DoAction", "d6/d63/a19914.html#a89fb251869d6bfbefbca1e2d3178178a", null ],
-    [ "UpdateAI", "d6/d63/a19914.html#a222b304633143bba47d3edde67ea093b", null ],
-    [ "_events", "d6/d63/a19914.html#aa8b7c262641a5f1f86c5ae39f8b62dca", null ]
+    [ "achievement_flame_leviathan_towers", "d6/d63/a19914.html#a491d66bdd373b6044e406126719ef910", null ],
+    [ "OnCheck", "d6/d63/a19914.html#ad6e9dee3f05afaca0a355b714bf75ea6", null ],
+    [ "_towerCount", "d6/d63/a19914.html#a1099385340b30a1a75655e2e7d2ba3cc", null ]
 ];

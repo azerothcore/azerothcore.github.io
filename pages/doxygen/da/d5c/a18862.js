@@ -1,5 +1,6 @@
 var a18862 =
 [
-    [ "achievement_all_you_can_eat", "da/d5c/a18862.html#a0995024862a445ea1f0ff5c82475fc64", null ],
-    [ "OnCheck", "da/d5c/a18862.html#a0baa07a7cbd239e4a5fcfd3e687aedf6", null ]
+    [ "boss_gothikAI", "d2/d49/a18866.html", "d2/d49/a18866" ],
+    [ "boss_gothik", "da/d5c/a18862.html#a0c3ee990a1caf020e9a4be000f0b77e0", null ],
+    [ "GetAI", "da/d5c/a18862.html#aea7aec86c4132521fb7b9b6e87baf289", null ]
 ];

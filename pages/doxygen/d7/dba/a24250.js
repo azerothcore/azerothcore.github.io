@@ -1,6 +1,7 @@
 var a24250 =
 [
-    [ "npc_yorAI", "dd/dd2/a24254.html", "dd/dd2/a24254" ],
-    [ "npc_yor", "d7/dba/a24250.html#a03fa92e0c70a701889e7518d06d3b986", null ],
-    [ "GetAI", "d7/dba/a24250.html#a2de7f46d1eaedb90ae3e8cf08e3b6b8b", null ]
+    [ "HandleEffectRemove", "d7/dba/a24250.html#a317c238b165ad331beb447ea5d0de7e1", null ],
+    [ "PrepareAuraScript", "d7/dba/a24250.html#a7481f017a1382eb75e0101cb49fb4fcf", null ],
+    [ "Register", "d7/dba/a24250.html#a13fdde1557249328306a57e159d821a7", null ],
+    [ "Validate", "d7/dba/a24250.html#a58a383bd4e3062a5c5b1df97192b4b7e", null ]
 ];

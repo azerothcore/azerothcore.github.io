@@ -1,6 +1,6 @@
 var a13038 =
 [
-    [ "boss_sathrovarrAI", "d1/d78/a13042.html", "d1/d78/a13042" ],
-    [ "boss_sathrovarr", "d6/d1c/a13038.html#a3ca320e73d9d56a426cc5b3a6942d29f", null ],
-    [ "GetAI", "d6/d1c/a13038.html#a28cd02e568053ed6f15c0b0df3c427cf", null ]
+    [ "FilterTargets", "d6/d1c/a13038.html#ac7f7287b88cde82fbf8a625f002c86fa", null ],
+    [ "PrepareSpellScript", "d6/d1c/a13038.html#a222e2c8e5401c132e89b29bbd22d46a6", null ],
+    [ "Register", "d6/d1c/a13038.html#a1a3607dd7e3d56bde3b92cbf4bcd0e78", null ]
 ];

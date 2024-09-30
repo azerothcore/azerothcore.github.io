@@ -1,7 +1,9 @@
 var a08274 =
 [
-    [ "VehicleDespawnEvent", "d8/d43/a08274.html#ab6f88e60f1068ab79049c158314a87ab", null ],
-    [ "Execute", "d8/d43/a08274.html#a39284ca2343e54cec915ac3ecf51f4a8", null ],
-    [ "_duration", "d8/d43/a08274.html#a3e9c695929c24728b2091940e511d5f0", null ],
-    [ "_self", "d8/d43/a08274.html#a0d472ea9a1a7b615f01c73d20cfc6573", null ]
+    [ "category", "d8/d43/a08274.html#af3cd722cf59d844dcaba2d20f20d2933", null ],
+    [ "end", "d8/d43/a08274.html#a8cc857ef51745900398765164a450a50", null ],
+    [ "itemid", "d8/d43/a08274.html#a42ef844fdd55e8bf67eb5cd90c627817", null ],
+    [ "maxduration", "d8/d43/a08274.html#a94b98afb7651e2c6b99ee79f85702259", null ],
+    [ "needSendToClient", "d8/d43/a08274.html#a678f56b6723567f984a0188b85a6f9df", null ],
+    [ "sendToSpectator", "d8/d43/a08274.html#a4b5bc2c63587dd8ce5d4971ad51895cd", null ]
 ];

@@ -1,5 +1,6 @@
 var a12534 =
 [
-    [ "go_acherus_soul_prison", "d3/d0d/a12534.html#a13c858f74080b8f7963fdacc4b554019", null ],
-    [ "OnGossipHello", "d3/d0d/a12534.html#a904059cbeac3ddb3acf07ec1afe78c37", null ]
+    [ "HandleScriptEffect", "d3/d0d/a12534.html#a7b8314c8833ba7160a8ee33c5136841c", null ],
+    [ "PrepareSpellScript", "d3/d0d/a12534.html#ad75019d30081514a4ab3b6301177bb06", null ],
+    [ "Register", "d3/d0d/a12534.html#a8aeba569703c51b96910952db7af2bda", null ]
 ];

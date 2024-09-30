@@ -1,6 +1,6 @@
 var a21202 =
 [
-    [ "OnPeriodic", "da/d3b/a21202.html#abc1ff049ebd71372a105d08e82a5cd4e", null ],
-    [ "PrepareAuraScript", "da/d3b/a21202.html#a55ff9d9bf90253b0f2d9510bc00e3127", null ],
-    [ "Register", "da/d3b/a21202.html#ad4d26e672db9b8ed11368ab5143094db", null ]
+    [ "HandleDummy", "da/d3b/a21202.html#a9a4cee98bd023da694ac8fe76cd06078", null ],
+    [ "PrepareSpellScript", "da/d3b/a21202.html#abb80edac9217487c4be085f12295691e", null ],
+    [ "Register", "da/d3b/a21202.html#a2e483fb5c3e176f694eb7c39548a9903", null ]
 ];

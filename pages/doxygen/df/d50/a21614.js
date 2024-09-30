@@ -1,6 +1,6 @@
 var a21614 =
 [
-    [ "spell_ignis_grab_initial_SpellScript", "dd/dbe/a21618.html", "dd/dbe/a21618" ],
-    [ "spell_ignis_grab_initial", "df/d50/a21614.html#a6e811c3db63d788228bb3705f0463948", null ],
-    [ "GetSpellScript", "df/d50/a21614.html#aacf557be31f03eb5e014a3963ca0b35a", null ]
+    [ "npc_mei_francis_mountAI", "dd/dbe/a21618.html", "dd/dbe/a21618" ],
+    [ "npc_mei_francis_mount", "df/d50/a21614.html#ab34facb1d4d9a542710340493488eaa8", null ],
+    [ "GetAI", "df/d50/a21614.html#ac1f14e0b94662432b399d6dfeb8a8107", null ]
 ];

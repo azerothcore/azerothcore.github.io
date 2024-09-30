@@ -1,5 +1,7 @@
 var a28238 =
 [
-    [ "spell_q11515_fel_siphon_dummy", "d8/dbf/a28238.html#a80fa790a716d1ae950f43f9a298afd66", null ],
-    [ "GetSpellScript", "d8/dbf/a28238.html#a0d122972fc036d1f1e49c49acda58be3", null ]
+    [ "Flags", "d8/dbf/a28238.html#a12b3cb0e28ed0f47ff5ccea09fc8b860", null ],
+    [ "ID", "d8/dbf/a28238.html#ab6ccf4a64672a6ade01f59cdeeeb85cb", null ],
+    [ "RangeMax", "d8/dbf/a28238.html#a9691134e5cb1e15e3c93ea05a653975d", null ],
+    [ "RangeMin", "d8/dbf/a28238.html#a127a46f2382edea750ca567d5ea3d304", null ]
 ];

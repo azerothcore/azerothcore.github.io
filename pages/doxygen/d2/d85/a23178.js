@@ -1,13 +1,10 @@
 var a23178 =
 [
-    [ "npc_shandy_dalaranAI", "d2/d85/a23178.html#ae93b853e4852ce71c4d588d4621b16a1", null ],
-    [ "Reset", "d2/d85/a23178.html#a38f0630d4e18cea01de343afdcb96db3", null ],
-    [ "RollTask", "d2/d85/a23178.html#acd1daa5bc99f281bd1ca78d4cdaf5a9e", null ],
-    [ "SetData", "d2/d85/a23178.html#a5c8a0e6e0729d872c230aa72d41236a3", null ],
-    [ "UpdateAI", "d2/d85/a23178.html#ac7c8e87b784d8738b8aacbcb58f471b1", null ],
-    [ "_aquanosGUID", "d2/d85/a23178.html#aa1dfb61fbaae6ab2e25dd9779ec63ed1", null ],
-    [ "_canWash", "d2/d85/a23178.html#af5b1aae6b2dd82c8199caedec3a8fdec", null ],
-    [ "_events", "d2/d85/a23178.html#a3fbae63669c8382097b0bcb936301945", null ],
-    [ "_lCount", "d2/d85/a23178.html#ad55bea5f33de226ff230f99059dc9ec3", null ],
-    [ "_lSource", "d2/d85/a23178.html#a9e01cee4a79bfac56b1d1ecdac17ca3f", null ]
+    [ "boss_morogrim_tidewalker", "d2/d85/a23178.html#a138a200da298f64697e2e47fb8004ccb", null ],
+    [ "JustDied", "d2/d85/a23178.html#a139d87e7cffe03183538eb493e063195", null ],
+    [ "JustEngagedWith", "d2/d85/a23178.html#a3244672aeb994673e1f46708699bcc2c", null ],
+    [ "JustSummoned", "d2/d85/a23178.html#a2b669007520094948138c95468b77f9f", null ],
+    [ "KilledUnit", "d2/d85/a23178.html#a2db94919e6d6f3d4eda4addc4248976e", null ],
+    [ "Reset", "d2/d85/a23178.html#a78ed1d1f8c55407497a4fb679587975d", null ],
+    [ "_recentlySpoken", "d2/d85/a23178.html#a63edb4b20baa9e1cf5238c3db5974c56", null ]
 ];

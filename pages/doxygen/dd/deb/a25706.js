@@ -1,6 +1,8 @@
 var a25706 =
 [
-    [ "boss_high_astromancer_solarianAI", "d4/df6/a25710.html", "d4/df6/a25710" ],
-    [ "boss_high_astromancer_solarian", "dd/deb/a25706.html#a36282f8b5da61bc84cf2eff73745b1cb", null ],
-    [ "GetAI", "dd/deb/a25706.html#ab3f776fbf3a10d3e859a7e21659fd9bd", null ]
+    [ "HandleDummy", "dd/deb/a25706.html#a3db6982f1162ac6b03771a0e7e432e6d", null ],
+    [ "Load", "dd/deb/a25706.html#a9671be7920dfd3bde2033f0ae43259b0", null ],
+    [ "PrepareSpellScript", "dd/deb/a25706.html#ad50c9141d40b7089fd24a8657d496a8d", null ],
+    [ "Register", "dd/deb/a25706.html#a249a857b1cf5b0c3be6018cb233c75d1", null ],
+    [ "Validate", "dd/deb/a25706.html#ac209048bd5688417c391c2c9b8a72d8b", null ]
 ];

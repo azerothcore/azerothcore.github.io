@@ -1,6 +1,7 @@
 var a14718 =
 [
-    [ "IsBoss", "d6/d98/a14718.html#ae0472288bba023e2559d34950108c8ce", null ],
-    [ "Mob", "d6/d98/a14718.html#a81faea0b5e3ba3ec626031aeb0fbbda4", null ],
-    [ "WaveTimer", "d6/d98/a14718.html#a7e0e6c1a0cdac6240f541e477d41ffdb", null ]
+    [ "npc_onyxian_lair_guard", "d6/d98/a14718.html#ae72d86cddafd8829fc9edd479a01ab1d", null ],
+    [ "JustEngagedWith", "d6/d98/a14718.html#a7b1d3bc68684202f9b4b95f6dc078be0", null ],
+    [ "UpdateAI", "d6/d98/a14718.html#ac8649636d5847813e49d2ada05f78645", null ],
+    [ "events", "d6/d98/a14718.html#a99acb2010853fcf9f7ac6f08143d06ed", null ]
 ];

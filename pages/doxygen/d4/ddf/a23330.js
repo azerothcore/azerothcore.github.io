@@ -1,6 +1,5 @@
 var a23330 =
 [
-    [ "npc_q24545_wretched_ghoulAI", "d8/dbc/a23334.html", "d8/dbc/a23334" ],
-    [ "npc_q24545_wretched_ghoul", "d4/ddf/a23330.html#a3842b5bd89c911d29d561307113fb032", null ],
-    [ "GetAI", "d4/ddf/a23330.html#ada973de0ff7295f0441cbd6b6aaca9ac", null ]
+    [ "go_main_chambers_access_panel", "d4/ddf/a23330.html#a30c3c20be1892b5107ef53683d593b75", null ],
+    [ "OnGossipHello", "d4/ddf/a23330.html#af4b3a4a0260de68dcfac7202e0a728ee", null ]
 ];

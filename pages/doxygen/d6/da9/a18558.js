@@ -1,6 +1,6 @@
 var a18558 =
 [
-    [ "spell_putricide_choking_gas_bomb_SpellScript", "d5/de7/a18562.html", "d5/de7/a18562" ],
-    [ "spell_putricide_choking_gas_bomb", "d6/da9/a18558.html#aac09e531f0acf0a6023c1d19401f18df", null ],
-    [ "GetSpellScript", "d6/da9/a18558.html#ad5d6170cdf5230a40654a08e952a5161", null ]
+    [ "HandleEvent", "d6/da9/a18558.html#a7936a64a1142a47b2addfd746dccfcef", null ],
+    [ "PrepareSpellScript", "d6/da9/a18558.html#a00e2be07131c674558d0364df98849ab", null ],
+    [ "Register", "d6/da9/a18558.html#a89364583504d2eaa75473586850bc3d5", null ]
 ];

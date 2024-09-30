@@ -1,6 +1,6 @@
 var a21982 =
 [
-    [ "boss_thorim_ancient_rune_giantAI", "d6/df5/a21986.html", "d6/df5/a21986" ],
-    [ "boss_thorim_ancient_rune_giant", "da/d93/a21982.html#ad87dca7c6058e4b8b1234410644523dd", null ],
-    [ "GetAI", "da/d93/a21982.html#aa8a0ff1416d5678a5d6bb7bdc36d6617", null ]
+    [ "npc_black_knight_graveyardAI", "d6/df5/a21986.html", "d6/df5/a21986" ],
+    [ "npc_black_knight_graveyard", "da/d93/a21982.html#a2ce61ba254916f1f8b7a7658f96b67d5", null ],
+    [ "GetAI", "da/d93/a21982.html#aab382cd1b7561c0db9c9f4c81247e540", null ]
 ];

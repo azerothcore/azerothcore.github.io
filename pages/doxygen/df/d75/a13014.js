@@ -1,6 +1,6 @@
 var a13014 =
 [
-    [ "spell_felmyst_open_brutallus_back_doors_SpellScript", "d1/d5c/a13018.html", "d1/d5c/a13018" ],
-    [ "spell_felmyst_open_brutallus_back_doors", "df/d75/a13014.html#a4afbec8a2716df47d35375e82e1a7b65", null ],
-    [ "GetSpellScript", "df/d75/a13014.html#a06b0b9238f7d48a4eb3fba9743c850aa", null ]
+    [ "npc_demonic_vaporAI", "df/d75/a13014.html#a2ba962b2bd049d563d7788bb4cfa5be3", null ],
+    [ "Reset", "df/d75/a13014.html#a37841718d3da8dfa245fd9a9a055b2e8", null ],
+    [ "UpdateAI", "df/d75/a13014.html#ace430e1419edf2542fd0c9d5cfc925f1", null ]
 ];

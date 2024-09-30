@@ -1,18 +1,15 @@
 var a22634 =
 [
-    [ "boss_svalaAI", "d6/d4a/a22634.html#a568466d621043157958bea38595d42a8", null ],
-    [ "EnterEvadeMode", "d6/d4a/a22634.html#a7808767e79ebe4c5ac784ff7a32874f6", null ],
-    [ "JustDied", "d6/d4a/a22634.html#aa85b0d305074d0df887fbb7ba42a3b20", null ],
-    [ "JustEngagedWith", "d6/d4a/a22634.html#ae36faacbbd22ddde8d8f25540e583c14", null ],
-    [ "JustSummoned", "d6/d4a/a22634.html#ad4bf163bf81dee06bead6f9a8aaa2a3a", null ],
-    [ "KilledUnit", "d6/d4a/a22634.html#a440053a21489b6e4691fc4a6e5984908", null ],
-    [ "Reset", "d6/d4a/a22634.html#a9c6fca6d70c7c53048b137b7d8cc0861", null ],
-    [ "SetData", "d6/d4a/a22634.html#a86f376743055f99c066ad1a7c960b6c7", null ],
-    [ "UpdateAI", "d6/d4a/a22634.html#a47b7405bd2fd6789f61172cbacd12fa0", null ],
-    [ "ArthasGUID", "d6/d4a/a22634.html#a42e1753c8a66cc292799c890b9177a3e", null ],
-    [ "events", "d6/d4a/a22634.html#abe87bb56b844c75dd9b24a4d45c94e7f", null ],
-    [ "events2", "d6/d4a/a22634.html#a542d2bc22970ee5835b2e15322dc2e58", null ],
-    [ "instance", "d6/d4a/a22634.html#a58f451d373d8336d5b8b38e33a1eeea8", null ],
-    [ "Started", "d6/d4a/a22634.html#a5d4b4c94062db7601fdc918f9727e03b", null ],
-    [ "summons", "d6/d4a/a22634.html#a3d14b708a8156a6c9025ff92aa3774c4", null ]
+    [ "boss_grandmaster_vorpil", "d6/d4a/a22634.html#a0196ae46acba9c640b6fdfe30ac63f31", null ],
+    [ "counterVoidSpawns", "d6/d4a/a22634.html#a7a7c5679fe784025423119dd31d0e6ef", null ],
+    [ "JustDied", "d6/d4a/a22634.html#ab492fff8a9a275c662b44eeff3300b90", null ],
+    [ "JustEngagedWith", "d6/d4a/a22634.html#af1e6da02cd33742efad568424cf32c4f", null ],
+    [ "JustSummoned", "d6/d4a/a22634.html#a8a661b495d7fca340f3bd291d34ab3fc", null ],
+    [ "KilledUnit", "d6/d4a/a22634.html#af7779029f926e6d1c805b2f6c78cfd06", null ],
+    [ "MoveInLineOfSight", "d6/d4a/a22634.html#adb24a3d337b64f37759a3a39802d7e27", null ],
+    [ "Reset", "d6/d4a/a22634.html#a6471121ee02a834591b36d03fae28672", null ],
+    [ "spawnVoidTraveler", "d6/d4a/a22634.html#aa842bc3d88d0a3a411dcba3711809956", null ],
+    [ "summonPortals", "d6/d4a/a22634.html#a7cbdb7e7652dcac799b6f59424c8e9fd", null ],
+    [ "sayHelp", "d6/d4a/a22634.html#a3c83e1f9305fc17aebb4ec5f16225e17", null ],
+    [ "sayIntro", "d6/d4a/a22634.html#a5dd0edce19b33a1dd87d5b6e4458949f", null ]
 ];

@@ -1,9 +1,10 @@
 var a23706 =
 [
-    [ "npc_frostbrood_skytalonAI", "d6/d9f/a23706.html#afc14c60466f9f0f1b20062758f18c00d", null ],
-    [ "IsSummonedBy", "d6/d9f/a23706.html#a2c5729ee3371e562869878ff3a7b84bd", null ],
-    [ "MovementInform", "d6/d9f/a23706.html#ae763333503176eb7e8ce407868243958", null ],
-    [ "SpellHit", "d6/d9f/a23706.html#a24bb49f47dcf85c95039d0495a89e126", null ],
-    [ "UpdateAI", "d6/d9f/a23706.html#a0ffc4cd2e9b61ad17c516f062d161feb", null ],
-    [ "events", "d6/d9f/a23706.html#a8575d258d63e28626cffd7fc2160bee6", null ]
+    [ "boss_thorngrin_the_tender", "d6/d9f/a23706.html#ad960b1084fc08d2870975c7c6c44ab2b", null ],
+    [ "JustDied", "d6/d9f/a23706.html#a4bc13108f7cb240fedb44ccae2b54047", null ],
+    [ "JustEngagedWith", "d6/d9f/a23706.html#a647ed5b29861b719d3c4a11fd110c512", null ],
+    [ "KilledUnit", "d6/d9f/a23706.html#ab3731c5b56e1c01aa5d78d84a5e60234", null ],
+    [ "MoveInLineOfSight", "d6/d9f/a23706.html#a9467e59287b3e917907de82507d1a16d", null ],
+    [ "Reset", "d6/d9f/a23706.html#af3f1471cbcdadfe3a86421d7232fb4b9", null ],
+    [ "_intro", "d6/d9f/a23706.html#a48fc89c7e9814d90a8724ca38c5e2fe8", null ]
 ];

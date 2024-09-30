@@ -1,20 +1,8 @@
 var a18062 =
 [
-    [ "npc_high_overlord_saurfang_igbAI", "de/d3f/a18062.html#a1fce8cbcb5259774c0019c19bae334d0", null ],
-    [ "AttackStart", "de/d3f/a18062.html#a7c04475d2de487a26aa3e7f58ad219e5", null ],
-    [ "CanAIAttack", "de/d3f/a18062.html#a58b5476b42ea1d249cb3795da86509db", null ],
-    [ "DamageTaken", "de/d3f/a18062.html#ae2715e5410ddf25734469594f72c7373", null ],
-    [ "DoAction", "de/d3f/a18062.html#acf222bf3f1204215918e339d57e6ee37", null ],
-    [ "EnterEvadeMode", "de/d3f/a18062.html#a8c66bcf54ba7d2c5a8d89a792e89fc8f", null ],
-    [ "JustEngagedWith", "de/d3f/a18062.html#aa98690c2c7002915c72e68f9136a9ace", null ],
-    [ "SetData", "de/d3f/a18062.html#ae3f9c7ef83cb3841f3081a5c8391ad85", null ],
-    [ "sGossipSelect", "de/d3f/a18062.html#af3f71dfd8888a9d7eccdaff50315bea1", null ],
-    [ "UpdateAI", "de/d3f/a18062.html#adf12312ee9a037b7cdbf384137a8ceb4", null ],
-    [ "_axethrowersYellCooldown", "de/d3f/a18062.html#ad98e613c8d4625687f9ab16979d21707", null ],
-    [ "_controller", "de/d3f/a18062.html#a259a8e82ed7a58f09d546fbcb317ea33", null ],
-    [ "_events", "de/d3f/a18062.html#a132fc1f697d32c76c10766c71948fe01", null ],
-    [ "_firstMageCooldown", "de/d3f/a18062.html#a984e2f3d3cf2b254717e2b4d1418216d", null ],
-    [ "_instance", "de/d3f/a18062.html#aecb488fb2e2682c107072ea66d02ea8f", null ],
-    [ "_rocketeersYellCooldown", "de/d3f/a18062.html#a0435dba6aff5287b1d10420a54a72d28", null ],
-    [ "checkTimer", "de/d3f/a18062.html#a1c610a1cf0ba5a27aeb98d51dff916fa", null ]
+    [ "HeightDifferenceCheck", "de/d3f/a18062.html#aa8b61811e435cce456e5cb1d798be66e", null ],
+    [ "operator()", "de/d3f/a18062.html#a1db203642683f85176f2a35eb3d10c34", null ],
+    [ "_baseObject", "de/d3f/a18062.html#a7c274be02ca58429dffaee2ea34153c6", null ],
+    [ "_difference", "de/d3f/a18062.html#af95e2bf67c8316dda982896978c45a68", null ],
+    [ "_reverse", "de/d3f/a18062.html#a89074844d5fd8b02ed99c09ac4cc5b85", null ]
 ];

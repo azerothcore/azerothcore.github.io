@@ -1,6 +1,7 @@
 var a14034 =
 [
-    [ "HandleObjectAreaTargetSelect", "d5/dee/a14034.html#aa7695bddd766d5adefb04710d41894f6", null ],
-    [ "PrepareSpellScript", "d5/dee/a14034.html#a77ba184428cfbb8ec3cc4670f78741e0", null ],
-    [ "Register", "d5/dee/a14034.html#adbc2f1c4ec64b95ec72c82f36f12d928", null ]
+    [ "GetEmptyEntry", "d5/dee/a14034.html#a46dfe7b2f8598d24f17868266d1571c6", null ],
+    [ "HandleAfterHit", "d5/dee/a14034.html#a4f8ab6e42ddf2188ccca2640363b9925", null ],
+    [ "PrepareSpellScript", "d5/dee/a14034.html#a35f0ab4b36df3d9ec1191cbd9ba88c9e", null ],
+    [ "Register", "d5/dee/a14034.html#a25e1858e1f81891443f4b7de50a5d495", null ]
 ];

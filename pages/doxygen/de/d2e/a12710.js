@@ -1,7 +1,6 @@
 var a12710 =
 [
-    [ "HandleScript", "de/d2e/a12710.html#a6ce169d6c1b106195f787b52ea433311", null ],
-    [ "PrepareSpellScript", "de/d2e/a12710.html#a4f71583df2193274365944e6d228247c", null ],
-    [ "Register", "de/d2e/a12710.html#aad8978dc0505d1fb80e2416f5525cbc7", null ],
-    [ "Validate", "de/d2e/a12710.html#a51025308f88001f1f66d7f68f174f325", null ]
+    [ "instance_scarlet_monastery_InstanceMapScript", "df/d93/a12714.html", "df/d93/a12714" ],
+    [ "instance_scarlet_monastery", "de/d2e/a12710.html#a8f068ebd98bd81dbb60dbccd795f1f3f", null ],
+    [ "GetInstanceScript", "de/d2e/a12710.html#a1c66031217457809fbe56303085715a0", null ]
 ];

@@ -1,10 +1,17 @@
 var a08482 =
 [
-    [ "creatureRate", "de/dcb/a08482.html#aa9c27c19179b8a7bdfdc11d906cd1c06", null ],
-    [ "questDailyRate", "de/dcb/a08482.html#a1798044bdf25ce774191b00e261add1e", null ],
-    [ "questMonthlyRate", "de/dcb/a08482.html#a0db34ed7420bc376cfe64a0d12434fea", null ],
-    [ "questRate", "de/dcb/a08482.html#a914118aa28b3736ff4e6c5b61d738834", null ],
-    [ "questRepeatableRate", "de/dcb/a08482.html#a2b050d4cf6555e824d59a3ffc0558b21", null ],
-    [ "questWeeklyRate", "de/dcb/a08482.html#a0fb31ebc33d0ce11f392be845907e043", null ],
-    [ "spellRate", "de/dcb/a08482.html#a508485f1e6833c58a11706667a2c24fd", null ]
+    [ "SpellNonMeleeDamage", "de/dcb/a08482.html#ad9d6b798f9ed159d847affc5c4b23715", null ],
+    [ "absorb", "de/dcb/a08482.html#a485ee28c6a8cf32a22578e02633df75b", null ],
+    [ "attacker", "de/dcb/a08482.html#a5248da0c1a8609479d681ae76a77d045", null ],
+    [ "blocked", "de/dcb/a08482.html#af0cb3d2801e51d9236a6ff5185a43790", null ],
+    [ "cleanDamage", "de/dcb/a08482.html#aa49cdb425fe9c8fb483dcc3c22ca6a72", null ],
+    [ "damage", "de/dcb/a08482.html#a47e66924ae869ce34bdf36a5ed50548b", null ],
+    [ "HitInfo", "de/dcb/a08482.html#a3f99854d163cd672f881f721d5bc8a39", null ],
+    [ "overkill", "de/dcb/a08482.html#a0d578181e933091f3ea1c88ce68e857a", null ],
+    [ "physicalLog", "de/dcb/a08482.html#a34318f4d92685c855972e6fd22089e03", null ],
+    [ "resist", "de/dcb/a08482.html#ade20f4aab4a1945ccd6754cd71101fe2", null ],
+    [ "schoolMask", "de/dcb/a08482.html#a52f5ae6091fe547ed7e282d52c626361", null ],
+    [ "spellInfo", "de/dcb/a08482.html#a9e37c164672dbcc81dd43bee9ec988cb", null ],
+    [ "target", "de/dcb/a08482.html#a324ea6c84e005487560de986dceffeba", null ],
+    [ "unused", "de/dcb/a08482.html#ae991311d8290996e1c0c49f33c29c6b3", null ]
 ];

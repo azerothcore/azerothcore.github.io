@@ -1,9 +1,16 @@
 var a24130 =
 [
-    [ "OPvPCapturePointGH", "de/dc3/a24130.html#a6e46100e50212310af4301c492d5773e", null ],
-    [ "ChangeState", "de/dc3/a24130.html#afe53e37a3a1dc4a7068c03302f26b981", null ],
-    [ "FillInitialWorldStates", "de/dc3/a24130.html#ad1c3ece363da12750c851cf510228a06", null ],
-    [ "HandlePlayerEnter", "de/dc3/a24130.html#afea733c44d129d9a5af78a8337d9e04a", null ],
-    [ "HandlePlayerLeave", "de/dc3/a24130.html#a1e5d9c6f02eb02dfed654078c910635b", null ],
-    [ "SendChangePhase", "de/dc3/a24130.html#aec741b9102829bf77850dc06a49bb8da", null ]
+    [ "npc_dragonmaw_peonAI", "de/dc3/a24130.html#a6f1255fead5357001ec85fdaa6980249", null ],
+    [ "CreditPlayer", "de/dc3/a24130.html#a5cf28e156cab2e2066bb94bc99233a2b", null ],
+    [ "JustEngagedWith", "de/dc3/a24130.html#abd5b37793aa2fb150c808b7dc7270763", null ],
+    [ "MovementInform", "de/dc3/a24130.html#a0ee4038f90d54c75c48b2448dacb5724", null ],
+    [ "Reset", "de/dc3/a24130.html#a9d876ec76b51f743c71e67749c21d939", null ],
+    [ "SpellHit", "de/dc3/a24130.html#abe5162608ba0acd7360a630562ff5935", null ],
+    [ "UpdateAI", "de/dc3/a24130.html#a98a045606d9e689ef25a5068b81b1ebf", null ],
+    [ "events", "de/dc3/a24130.html#a7d6fb37d1953630aa79f8665eca0db61", null ],
+    [ "PlayerGUID", "de/dc3/a24130.html#ad6838d98e34a32cbed42c77cdf096070", null ],
+    [ "Tapped", "de/dc3/a24130.html#ae393f8d3cb47f38a4c4314a262826d03", null ],
+    [ "x", "de/dc3/a24130.html#acebbfa8da88d8d683ba5ea6463f6b5f7", null ],
+    [ "y", "de/dc3/a24130.html#ae5a1d416c712803ec0b80ae7ccf29e2d", null ],
+    [ "z", "de/dc3/a24130.html#a7722420716c030b5abe7b760199df14d", null ]
 ];

@@ -1,6 +1,5 @@
 var a23166 =
 [
-    [ "npc_mei_francis_mountAI", "d8/d44/a23170.html", "d8/d44/a23170" ],
-    [ "npc_mei_francis_mount", "da/d9e/a23166.html#ab34facb1d4d9a542710340493488eaa8", null ],
-    [ "GetAI", "da/d9e/a23166.html#ac1f14e0b94662432b399d6dfeb8a8107", null ]
+    [ "go_strange_pool", "da/d9e/a23166.html#aa44feb353ad1cb440e5b6707112af680", null ],
+    [ "OnGossipHello", "da/d9e/a23166.html#a5a2ee56e277b062e6b4757cb8b8b09a0", null ]
 ];

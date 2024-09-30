@@ -1,6 +1,6 @@
 var a24926 =
 [
-    [ "OnPeriodic", "d7/df1/a24926.html#a18db963f8816f66f325d85ef78d756a7", null ],
-    [ "PrepareAuraScript", "d7/df1/a24926.html#a86874fd67411d4067648369ee4a60ba7", null ],
-    [ "Register", "d7/df1/a24926.html#abf24e72a4733d35ebf5be86cb1ffc17a", null ]
+    [ "HandleOnEffectHit", "d7/df1/a24926.html#a07b15e180ee79149cad15b32b3c94359", null ],
+    [ "PrepareSpellScript", "d7/df1/a24926.html#afbea54d2dad7a969d7e7558d43ecbc95", null ],
+    [ "Register", "d7/df1/a24926.html#ad2426cf9076d3fe4f33984ab28df11f6", null ]
 ];

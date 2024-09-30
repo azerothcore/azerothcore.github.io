@@ -1,6 +1,6 @@
 var a16786 =
 [
-    [ "HandleScript", "df/dd2/a16786.html#a8d694a38875d940112ff406b84eca6ef", null ],
-    [ "PrepareSpellScript", "df/dd2/a16786.html#a68caa888893ff2aeb7ce0ee5ae28546d", null ],
-    [ "Register", "df/dd2/a16786.html#acd72c6d884a8963318aa73bc520c98c4", null ]
+    [ "npc_hor_lich_kingAI", "d6/d87/a16790.html", "d6/d87/a16790" ],
+    [ "npc_hor_lich_king", "df/dd2/a16786.html#aab2562a7a204699735a89e7a15b3b472", null ],
+    [ "GetAI", "df/dd2/a16786.html#ad670ae69daa742c19c06267399445a11", null ]
 ];

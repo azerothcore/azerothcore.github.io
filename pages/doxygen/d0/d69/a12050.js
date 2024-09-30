@@ -1,5 +1,6 @@
 var a12050 =
 [
-    [ "npc_chess_move_trigger", "d0/d69/a12050.html#a6c0c37677db45ee11ebe158893d99632", null ],
-    [ "DamageTaken", "d0/d69/a12050.html#af413c7af2254c1cc06462b2a62ac88db", null ]
+    [ "npc_garr_fireswornAI", "df/db4/a12054.html", "df/db4/a12054" ],
+    [ "npc_garr_firesworn", "d0/d69/a12050.html#a54c8f5daab9b8c4e1e7ff5d7777fcddf", null ],
+    [ "GetAI", "d0/d69/a12050.html#a07e47767a44d3613f8cba2c3dfb1d14e", null ]
 ];

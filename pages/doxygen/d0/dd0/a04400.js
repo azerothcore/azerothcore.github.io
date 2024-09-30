@@ -1,10 +1,6 @@
 var a04400 =
 [
-    [ "npc_webbed_creature", "de/de6/a15180.html", "de/de6/a15180" ],
-    [ "npc_webbed_creature::npc_webbed_creatureAI", "d1/d65/a15184.html", "d1/d65/a15184" ],
-    [ "WebbedCreature", "d0/dd0/a04400.html#aa14073eff8de36ab4c416f5ae7bd8cd0", [
-      [ "NPC_EXPEDITION_RESEARCHER", "d0/dd0/a04400.html#aa14073eff8de36ab4c416f5ae7bd8cd0afbd11004b44bf2d153ac8e084395b3b3", null ]
-    ] ],
-    [ "AddSC_bloodmyst_isle", "d0/dd0/a04400.html#a6b9832f4bb6cfefde5bab6937fd46fae", null ],
-    [ "possibleSpawns", "d0/dd0/a04400.html#ab3e43a66e02bf6f3b8cbd7c154f9d70d", null ]
+    [ "instance_maraudon", "df/d35/a14702.html", "df/d35/a14702" ],
+    [ "instance_maraudon::instance_maraudon_InstanceMapScript", "d6/d68/a14706.html", "d6/d68/a14706" ],
+    [ "AddSC_instance_maraudon", "d0/dd0/a04400.html#a6ab7baf162a5cf99b16fb0a26d7973cb", null ]
 ];

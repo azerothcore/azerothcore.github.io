@@ -1,7 +1,13 @@
 var a10006 =
 [
-    [ "Flags", "dd/d45/a10006.html#a46bfcae3e4788d6ea4e6ee71b8a16edd", null ],
-    [ "TabFlags", "dd/d45/a10006.html#af9c7b68d1bd48da88f65fa40a01ccc72", null ],
-    [ "TabWithdrawItemLimit", "dd/d45/a10006.html#af16392abbddf27a8b21fd21d998501e6", null ],
-    [ "WithdrawGoldLimit", "dd/d45/a10006.html#a3dc50115a24b686d3a2fa9e28a7042af", null ]
+    [ "FormulaScript", "dd/d45/a10006.html#a0c850c1a09bc78a4ceee5f27615d50d7", null ],
+    [ "OnAfterArenaRatingCalculation", "dd/d45/a10006.html#aa3510b1cfb4661cf6028e1b9f443c865", null ],
+    [ "OnBaseGainCalculation", "dd/d45/a10006.html#ab154eaf469d5fe3e86c364940816270a", null ],
+    [ "OnBeforeUpdatingPersonalRating", "dd/d45/a10006.html#a2208a5684c95b936aa9ca1ae863d9682", null ],
+    [ "OnColorCodeCalculation", "dd/d45/a10006.html#a83893099062d1fb7ce69fe38bf8c4699", null ],
+    [ "OnGainCalculation", "dd/d45/a10006.html#aa83fab65cc89bd03021da2805e935ffb", null ],
+    [ "OnGrayLevelCalculation", "dd/d45/a10006.html#affeb57234f961b9e01f5898c7738f38f", null ],
+    [ "OnGroupRateCalculation", "dd/d45/a10006.html#a1098d29595b4f9206cccf3c3c1dad5f3", null ],
+    [ "OnHonorCalculation", "dd/d45/a10006.html#a54a5e523ad5a9d3eb2dd061ced2d209f", null ],
+    [ "OnZeroDifferenceCalculation", "dd/d45/a10006.html#a7755c35bc56e6645e36de08c12a4847d", null ]
 ];

@@ -1,16 +1,15 @@
 var a20122 =
 [
-    [ "boss_loathebAI", "dd/d6b/a20122.html#a60256114947b0e9c01f5308108485935", null ],
-    [ "IsInRoom", "dd/d6b/a20122.html#a617d45ab3bde4184aa31c1b2c70c1a6f", null ],
-    [ "JustDied", "dd/d6b/a20122.html#acf24e563d4876fb9f899a4250b19b6f5", null ],
-    [ "JustEngagedWith", "dd/d6b/a20122.html#a1abcf157e05eeb634f8e857a2de35538", null ],
-    [ "JustSummoned", "dd/d6b/a20122.html#a8a28f9fe6c087c230103d1139ddb73dc", null ],
-    [ "KilledUnit", "dd/d6b/a20122.html#a4dac78bba24069050dd9df729dd58b45", null ],
-    [ "Reset", "dd/d6b/a20122.html#a709a4c2fe45fd757ecae6afa402e4728", null ],
-    [ "SummonedCreatureDies", "dd/d6b/a20122.html#aeddc6bd981a13ec133e5481b36668b0e", null ],
-    [ "UpdateAI", "dd/d6b/a20122.html#ab009008f892493b822e5ea5491c58525", null ],
-    [ "doomCounter", "dd/d6b/a20122.html#aed5c631ede2eea27451a74ae21221325", null ],
-    [ "events", "dd/d6b/a20122.html#adc49463bbe227f892e31716516032c64", null ],
-    [ "pInstance", "dd/d6b/a20122.html#ac91a2f174571d0700bd50f66a2a66718", null ],
-    [ "summons", "dd/d6b/a20122.html#a37ef117714403002afb4faa4978f136b", null ]
+    [ "npc_ulduar_hodir_shamanAI", "dd/d6b/a20122.html#a4f18b06f254b57787b7ab31c9b422402", null ],
+    [ "AttackStart", "dd/d6b/a20122.html#a022aabbc965872925698bd53fad2f84d", null ],
+    [ "CanAIAttack", "dd/d6b/a20122.html#a21b3804fe0af15e59e9af30260552666", null ],
+    [ "EnterEvadeMode", "dd/d6b/a20122.html#af9cfc1dc173e0a4d82f1dbc8eb1cbcba", null ],
+    [ "JustDied", "dd/d6b/a20122.html#a5c06c412d38203bb10e9951e27d5760a", null ],
+    [ "MoveInLineOfSight", "dd/d6b/a20122.html#a24d570f1c4a133c4f001032a1c915a27", null ],
+    [ "ScheduleAbilities", "dd/d6b/a20122.html#ac197b53bc03fd8bdf44b8b2e2a64f568", null ],
+    [ "SpellHit", "dd/d6b/a20122.html#a3c61b680a0d75a87bfaf4d8ae8072ea9", null ],
+    [ "SpellHitTarget", "dd/d6b/a20122.html#ae829e62ec342c1e0d12a523506ea6b04", null ],
+    [ "UpdateAI", "dd/d6b/a20122.html#af961f02169ab700716410e26114fd857", null ],
+    [ "events", "dd/d6b/a20122.html#ad92f69d2a63313798e16cfbaf55301ca", null ],
+    [ "pInstance", "dd/d6b/a20122.html#af4f0d720b9d9e4cbe4805cfc0c9a12c8", null ]
 ];

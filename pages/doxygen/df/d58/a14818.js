@@ -1,6 +1,7 @@
 var a14818 =
 [
-    [ "instance_culling_of_stratholme_InstanceMapScript", "d6/d1c/a14822.html", "d6/d1c/a14822" ],
-    [ "instance_culling_of_stratholme", "df/d58/a14818.html#a0b07e751032e15e7fcf2f86bf29a39be", null ],
-    [ "GetInstanceScript", "df/d58/a14818.html#ad8cbcb198666d44d79d6255d066c8315", null ]
+    [ "go_sand_trap", "df/d58/a14818.html#a58d45acac672cb05988ddca78185b469", null ],
+    [ "Reset", "df/d58/a14818.html#a7071a3e420e9137ca133b471bc217bf3", null ],
+    [ "UpdateAI", "df/d58/a14818.html#a2e4a5fec4d4c790233ca97e6a7732ac4", null ],
+    [ "_scheduler", "df/d58/a14818.html#af845c0efb3d8ebe53d3620970a84f1e4", null ]
 ];

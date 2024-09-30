@@ -1,5 +1,7 @@
 var a01739 =
 [
-    [ "ConfusedMovementGenerator< T >", "db/d34/a09652.html", "db/d34/a09652" ],
-    [ "MAX_CONF_WAYPOINTS", "d1/d46/a01739.html#ad4f7a217e114623ec80b1743f39ed3ea", null ]
+    [ "IdleMovementGenerator", "de/dd1/a09682.html", "de/dd1/a09682" ],
+    [ "RotateMovementGenerator", "dc/d7c/a09686.html", "dc/d7c/a09686" ],
+    [ "DistractMovementGenerator", "d3/d01/a09690.html", "d3/d01/a09690" ],
+    [ "AssistanceDistractMovementGenerator", "d5/d81/a09694.html", "d5/d81/a09694" ]
 ];

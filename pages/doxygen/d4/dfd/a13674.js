@@ -1,8 +1,6 @@
 var a13674 =
 [
-    [ "boss_hexlord_addAI", "d4/dfd/a13674.html#aab2d333b32ab28fb6914763c7b7f9c19", null ],
-    [ "JustEngagedWith", "d4/dfd/a13674.html#a53469ed0cc6442b7b07d8d994ca27fed", null ],
-    [ "Reset", "d4/dfd/a13674.html#aa2003900c4b6cadc54b8643990ebe86b", null ],
-    [ "UpdateAI", "d4/dfd/a13674.html#a0ec76f64ad72a1c11ab838dd9b812675", null ],
-    [ "instance", "d4/dfd/a13674.html#a0ac32c9043dbebdc13ee245245e9cfc9", null ]
+    [ "npc_janalai_hatchlingAI", "da/d4d/a13678.html", "da/d4d/a13678" ],
+    [ "npc_janalai_hatchling", "d4/dfd/a13674.html#af43b70de3e8f7d92918566a3eb332266", null ],
+    [ "GetAI", "d4/dfd/a13674.html#a1139647e6f8533c50a8df257a8c9fbac", null ]
 ];

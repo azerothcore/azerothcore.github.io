@@ -1,8 +1,7 @@
 var a10482 =
 [
-    [ "SkillPerfectItemEntry", "df/d55/a10482.html#a683f3c6f5e9c5ef2a0f0fa09d546d2a3", null ],
-    [ "SkillPerfectItemEntry", "df/d55/a10482.html#a678f9908440187faad38c0e1ffaf82de", null ],
-    [ "perfectCreateChance", "df/d55/a10482.html#a750d5ab6bc3df0026e640f1c84de8547", null ],
-    [ "perfectItemType", "df/d55/a10482.html#a057605f8867d4df5cb290318598a2908", null ],
-    [ "requiredSpecialization", "df/d55/a10482.html#aa7ad968ab1b8804ee8f0f8f40bc6f762", null ]
+    [ "Playsound", "df/d55/a10482.html#a955f91d0d65c64f154f99b3b9472e273", null ],
+    [ "Playsound", "df/d55/a10482.html#aa242d4ca729d67d7fd58dc81985f22f9", null ],
+    [ "Write", "df/d55/a10482.html#acb4bdd9a1613a158832115e4c18bfcd9", null ],
+    [ "SoundKitID", "df/d55/a10482.html#a922cb6d06285bdf9f3d89ff990c40b0a", null ]
 ];

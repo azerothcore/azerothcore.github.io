@@ -1,7 +1,5 @@
 var a10350 =
 [
-    [ "UpdateWorldState", "db/d4f/a10350.html#a1ccdf24be9a20c824b479af014f4fcb0", null ],
-    [ "Write", "db/d4f/a10350.html#a76a4c5d6a06ce8d86a2d3f04f68e838d", null ],
-    [ "Value", "db/d4f/a10350.html#a51fa2401d8af4c1c7848b423cb6f056f", null ],
-    [ "VariableID", "db/d4f/a10350.html#aa73278b324822f509f48e6edcdaed457", null ]
+    [ "GuildDelete", "db/d4f/a10350.html#a86733335c7b60d5b9eb8616692da3a7f", null ],
+    [ "Read", "db/d4f/a10350.html#ae5ca379b187902323638f4c10be0a4d0", null ]
 ];

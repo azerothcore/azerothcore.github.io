@@ -1,11 +1,18 @@
 var a21042 =
 [
-    [ "boss_flame_leviathan_seatAI", "d8/d52/a21042.html#ab830db7804ee9b9815e4ea3398a6d856", null ],
-    [ "AttackStart", "d8/d52/a21042.html#a39efb927928e19a040144bab7dfa3ba2", null ],
-    [ "EnterEvadeMode", "d8/d52/a21042.html#aeda2ad4d596c86aa5c19acb1c710cc9f", null ],
-    [ "PassengerBoarded", "d8/d52/a21042.html#af4939f3daef8aae9a1eafe2020ab205e", null ],
-    [ "Reset", "d8/d52/a21042.html#a1e134e9bb2b1048f69dc310a52be9473", null ],
-    [ "UpdateAI", "d8/d52/a21042.html#a857b1e927ae6574e00e25a20a21d4427", null ],
-    [ "_despawnTimer", "d8/d52/a21042.html#ac3d1d8f405a37d2344c5f4e34519e2cb", null ],
-    [ "vehicle", "d8/d52/a21042.html#a9d0624a45613676a39def53b2a2fdce0", null ]
+    [ "boss_palehoofAI", "d8/d52/a21042.html#aa49a4e6e2f942ab0efeb83d0fe672f9f", null ],
+    [ "DoAction", "d8/d52/a21042.html#ae94606f2b382e07cd3f4b9be48b1ca2d", null ],
+    [ "JustDied", "d8/d52/a21042.html#a1484b82afc3072d1b1fc5e2c9b0204b0", null ],
+    [ "JustEngagedWith", "d8/d52/a21042.html#abd00a0b514c11d8fa3786e1e61333138", null ],
+    [ "JustReachedHome", "d8/d52/a21042.html#aae6517c4816eb9bbc5dfe245d69edd87", null ],
+    [ "KilledUnit", "d8/d52/a21042.html#abf68aba465731a0ea7de305861ad4875", null ],
+    [ "MoveInLineOfSight", "d8/d52/a21042.html#ae969093bfb3466e332c1de7e65ceeb5d", null ],
+    [ "Reset", "d8/d52/a21042.html#a61d1cedcc30fbccbebbdc768d6a18900", null ],
+    [ "UpdateAI", "d8/d52/a21042.html#ac7da92990a0d48e418115943ba7bdd51", null ],
+    [ "Counter", "d8/d52/a21042.html#a5b8c197cd3c482d5a4d5a14f9c5019e7", null ],
+    [ "events", "d8/d52/a21042.html#a18325a2a5cca9910bf7e35a21c16400b", null ],
+    [ "m_pInstance", "d8/d52/a21042.html#abffb9efc207c98a30e1bfcf7b87fdb6d", null ],
+    [ "OrbGUID", "d8/d52/a21042.html#ab75e8eea72bde1bd15fe40e347373ab4", null ],
+    [ "RandomUnfreeze", "d8/d52/a21042.html#a02d34d4cd26706e1108c99cc0b4afbba", null ],
+    [ "summons", "d8/d52/a21042.html#a098d738ccbc2764867643bf4336c04da", null ]
 ];

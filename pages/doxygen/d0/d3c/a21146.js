@@ -1,9 +1,8 @@
 var a21146 =
 [
-    [ "spell_auto_repair_SpellScript", "d6/d07/a21150.html", "d6/d07/a21150" ],
-    [ "Spells", "d0/d3c/a21146.html#aad245ccd970f905f1ec1b7f65c7152a1", [
-      [ "SPELL_AUTO_REPAIR", "d0/d3c/a21146.html#aad245ccd970f905f1ec1b7f65c7152a1a58bd7f373c7f6880929dbf4732a559c5", null ]
-    ] ],
-    [ "spell_auto_repair", "d0/d3c/a21146.html#af0feeb4bbff4c6346e6e60845b5ddb88", null ],
-    [ "GetSpellScript", "d0/d3c/a21146.html#ae8ffa3f11690a805a3033d13f237a20d", null ]
+    [ "CheckProc", "d0/d3c/a21146.html#ac955cc78dd3206816906dd06b3e006f6", null ],
+    [ "HandleProc", "d0/d3c/a21146.html#a966d23cc5714fe35d80b2964dddda536", null ],
+    [ "PrepareAuraScript", "d0/d3c/a21146.html#a5c8464dcf2f8b62a624f38dec2f4a0a5", null ],
+    [ "Register", "d0/d3c/a21146.html#a3e7479f97e4105f2c12536d9c66284aa", null ],
+    [ "Validate", "d0/d3c/a21146.html#a5d8e764dafd26548af8588593bf27990", null ]
 ];

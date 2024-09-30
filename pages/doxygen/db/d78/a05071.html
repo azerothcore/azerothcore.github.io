@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Impl::GenericHashImpl Struct Reference</title>
+<title>AzerothCore: Member List</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -78,7 +78,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('db/d78/a05071.html','../../'); initResizable(); });
+$(document).ready(function(){initNavTree('d9/d65/a05074.html','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -104,109 +104,21 @@ $(document).ready(function(){initNavTree('db/d78/a05071.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="../../d3/d41/a05068.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Impl::GenericHashImpl Struct Reference</div></div>
+  <div class="headertitle"><div class="title">Acore::Impl::GenericHashImpl Member List</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">CryptoHash.h</a>&quot;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a03a4f6e31f0cb838b857997a0272f90b"><td class="memItemLeft" align="right" valign="top">typedef EVP_MD const *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d78/a05071.html#a03a4f6e31f0cb838b857997a0272f90b">HashCreator</a>) ()</td></tr>
-<tr class="separator:a03a4f6e31f0cb838b857997a0272f90b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a59487cdc54d416f8b2a88eb54ae21c8d"><td class="memItemLeft" align="right" valign="top">static EVP_MD_CTX *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d78/a05071.html#a59487cdc54d416f8b2a88eb54ae21c8d">MakeCTX</a> () noexcept</td></tr>
-<tr class="separator:a59487cdc54d416f8b2a88eb54ae21c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e607b03e0758d10156e201e8d601db4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d78/a05071.html#a7e607b03e0758d10156e201e8d601db4">DestroyCTX</a> (EVP_MD_CTX *ctx)</td></tr>
-<tr class="separator:a7e607b03e0758d10156e201e8d601db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a03a4f6e31f0cb838b857997a0272f90b" name="a03a4f6e31f0cb838b857997a0272f90b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03a4f6e31f0cb838b857997a0272f90b">&#9670;&#160;</a></span>HashCreator</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef EVP_MD const  *(* Acore::Impl::GenericHashImpl::HashCreator) ()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7e607b03e0758d10156e201e8d601db4" name="a7e607b03e0758d10156e201e8d601db4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e607b03e0758d10156e201e8d601db4">&#9670;&#160;</a></span>DestroyCTX()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void Acore::Impl::GenericHashImpl::DestroyCTX </td>
-          <td>(</td>
-          <td class="paramtype">EVP_MD_CTX *&#160;</td>
-          <td class="paramname"><em>ctx</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   38</span>{ EVP_MD_CTX_free(ctx); }</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00081">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::~GenericHash()</a>, and <a class="el" href="../../#l00076">Acore::Impl::GenericHMAC&lt; HashCreator, DigestLength &gt;::~GenericHMAC()</a>.</p>
-
-</div>
-</div>
-<a id="a59487cdc54d416f8b2a88eb54ae21c8d" name="a59487cdc54d416f8b2a88eb54ae21c8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59487cdc54d416f8b2a88eb54ae21c8d">&#9670;&#160;</a></span>MakeCTX()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static EVP_MD_CTX * Acore::Impl::GenericHashImpl::MakeCTX </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   37</span>{ <span class="keywordflow">return</span> EVP_MD_CTX_new(); }</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00100">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::operator=()</a>, and <a class="el" href="../../#l00097">Acore::Impl::GenericHMAC&lt; HashCreator, DigestLength &gt;::operator=()</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../d9/d65/a05074.html">Acore::Impl::GenericHashImpl</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d65/a05074.html#a7e607b03e0758d10156e201e8d601db4">DestroyCTX</a>(EVP_MD_CTX *ctx)</td><td class="entry"><a class="el" href="../../d9/d65/a05074.html">Acore::Impl::GenericHashImpl</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d9/d65/a05074.html#a03a4f6e31f0cb838b857997a0272f90b">HashCreator</a> typedef</td><td class="entry"><a class="el" href="../../d9/d65/a05074.html">Acore::Impl::GenericHashImpl</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d65/a05074.html#a59487cdc54d416f8b2a88eb54ae21c8d">MakeCTX</a>() noexcept</td><td class="entry"><a class="el" href="../../d9/d65/a05074.html">Acore::Impl::GenericHashImpl</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../db/dc1/a04671.html">Acore</a></li><li class="navelem"><a class="el" href="../../d3/d49/a04682.html">Impl</a></li><li class="navelem"><a class="el" href="../../db/d78/a05071.html">GenericHashImpl</a></li>
-    <li class="footer">Generated on Tue Aug 27 2024 10:01:40 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Sep 30 2024 20:42:44 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

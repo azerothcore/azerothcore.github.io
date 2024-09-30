@@ -1,6 +1,6 @@
 var a15094 =
 [
-    [ "instance_ruins_of_ahnqiraj_InstanceMapScript", "d4/dcc/a15098.html", "d4/dcc/a15098" ],
-    [ "instance_ruins_of_ahnqiraj", "d3/dd4/a15094.html#adeacb1c68e4b12995a335d1bedde075a", null ],
-    [ "GetInstanceScript", "d3/dd4/a15094.html#a6a661e961c2599498de0ccd41c0763b4", null ]
+    [ "HandleApply", "d3/dd4/a15094.html#aefef61bc68c13b20e9b41a6f148a9599", null ],
+    [ "PrepareAuraScript", "d3/dd4/a15094.html#aabe8dc8b99dc455dfcfaf58b64fa3f18", null ],
+    [ "Register", "d3/dd4/a15094.html#ade5c710416516760cc69f77750aa2a1f", null ]
 ];

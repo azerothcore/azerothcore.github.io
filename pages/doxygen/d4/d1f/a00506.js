@@ -1,8 +1,8 @@
 var a00506 =
 [
-    [ "SymbolPair", "d6/da5/a05100.html", "d6/da5/a05100" ],
-    [ "SymbolDetail", "d0/d47/a05104.html", "d0/d47/a05104" ],
-    [ "WheatyExceptionReport", "d7/d18/a05108.html", "d7/d18/a05108" ],
+    [ "SymbolPair", "d1/ddb/a05106.html", "d1/ddb/a05106" ],
+    [ "SymbolDetail", "db/da9/a05110.html", "db/da9/a05110" ],
+    [ "WheatyExceptionReport", "d5/d80/a05114.html", "d5/d80/a05114" ],
     [ "countof", "d4/d1f/a00506.html#a8b8500b4792f1666a4ae9b19ce264875", null ],
     [ "WER_LARGE_BUFFER_SIZE", "d4/d1f/a00506.html#a2c952cc0fe3c670bb1d829b51e483755", null ],
     [ "WER_MAX_ARRAY_ELEMENTS_COUNT", "d4/d1f/a00506.html#a5ca750f3bbda2b3eab451528de39aa3c", null ],

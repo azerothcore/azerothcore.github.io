@@ -1,6 +1,6 @@
 var a27466 =
 [
-    [ "HandleDummy", "d9/d0e/a27466.html#ad086618ff3caadcf5126e12a1359503f", null ],
-    [ "PrepareSpellScript", "d9/d0e/a27466.html#a4b3a79a9ba01226038a1da886f6a2f7c", null ],
-    [ "Register", "d9/d0e/a27466.html#a214526ddc986ee829daf9090678e3a7b", null ]
+    [ "npc_air_force_botsAI", "d0/dda/a27470.html", "d0/dda/a27470" ],
+    [ "npc_air_force_bots", "d9/d0e/a27466.html#a00b8f274bde3260a113ea21e0f68cdf8", null ],
+    [ "GetAI", "d9/d0e/a27466.html#ae971e34d61b0f960d8f5940f9015523d", null ]
 ];

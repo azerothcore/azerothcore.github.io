@@ -1,6 +1,7 @@
 var a10730 =
 [
-    [ "AuraDispelHandler", "db/d77/a10730.html#ab6e675b4db931c601b3d6aef65ae0ff6", null ],
-    [ "Call", "db/d77/a10730.html#a147d8a6d95f011f27600d052ef7b4000", null ],
-    [ "pHandlerScript", "db/d77/a10730.html#ab7dd73a36aa517354a023deb7db0cf19", null ]
+    [ "IsValidOpcode", "db/d77/a10730.html#afdba55f89a1c7ffb9e7c302f2269687f", null ],
+    [ "IsValidSize", "db/d77/a10730.html#aec5192f7f57a16c9dfa244ff3874e693", null ],
+    [ "cmd", "db/d77/a10730.html#ad0a112cb2a8a71e6e8c20e320af63f49", null ],
+    [ "size", "db/d77/a10730.html#ac1d551036381db4f85b8dc92ea55d4ee", null ]
 ];

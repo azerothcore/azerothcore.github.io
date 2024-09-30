@@ -1,14 +1,10 @@
 var a15958 =
 [
-    [ "npc_taldaram_flamesphere", "d5/d51/a15958.html#aad7d6696b54e39c6abd27a7252353360", null ],
-    [ "DoAction", "d5/d51/a15958.html#aa79e370c1c30eccb44a46b622e2d5f2a", null ],
-    [ "IsSummonedBy", "d5/d51/a15958.html#acb232931bc181eedf4b39d5519dd45e2", null ],
-    [ "JustDied", "d5/d51/a15958.html#ae6dfff3df39257c55495707934d5d38b", null ],
-    [ "MovementInform", "d5/d51/a15958.html#a785c491b7144420cd4975e62c9a8a711", null ],
-    [ "SetVictimPos", "d5/d51/a15958.html#a51f1683806095c760d4accff9e23f8b6", null ],
-    [ "UpdateAI", "d5/d51/a15958.html#a163341c0ff0f56986e2486e06e21b4b2", null ],
-    [ "instance", "d5/d51/a15958.html#afd0ff83cb5fba1fbeb85b7d600f1b1de", null ],
-    [ "moveTimer", "d5/d51/a15958.html#afe50ac59ec441ab11745ca9461158a00", null ],
-    [ "uiDespawnTimer", "d5/d51/a15958.html#a883b4c6429e8a8bf02878caa14e02537", null ],
-    [ "victimPos", "d5/d51/a15958.html#ae681d84f2324faf22296dcb6e08484b0", null ]
+    [ "spell_halion_damage_aoe_summon", "d5/d51/a15958.html#a6152e7a0515076af2c7c2155506257b0", null ],
+    [ "HandleSummon", "d5/d51/a15958.html#a47a810b94c515b7e48c9cc5f99c6bc23", null ],
+    [ "PrepareSpellScript", "d5/d51/a15958.html#ae05be3eca26724f57f3f4b37b723aa63", null ],
+    [ "Register", "d5/d51/a15958.html#aa1f9239a2910d53c85539abba6333893", null ],
+    [ "Validate", "d5/d51/a15958.html#acb359257b29354b5962d9865e06137e7", null ],
+    [ "_auraSpell", "d5/d51/a15958.html#a497a74eca703470964157639a6f372e2", null ],
+    [ "_explosionSpell", "d5/d51/a15958.html#ad1ad3a6f143bc84bad61070755752b2f", null ]
 ];

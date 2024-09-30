@@ -1,6 +1,6 @@
 var a14762 =
 [
-    [ "boss_meathookAI", "d0/d9d/a14766.html", "d0/d9d/a14766" ],
-    [ "boss_meathook", "d1/d0d/a14762.html#a044c8ec4a419e5c5a8b290df9c0ad169", null ],
-    [ "GetAI", "d1/d0d/a14762.html#ae8ee3631ff1f80f4fad99e4eca042ad8", null ]
+    [ "instance_razorfen_kraul_InstanceMapScript", "d0/d9d/a14766.html", "d0/d9d/a14766" ],
+    [ "instance_razorfen_kraul", "d1/d0d/a14762.html#aedd65b901c8131a7ac21e8576734f76f", null ],
+    [ "GetInstanceScript", "d1/d0d/a14762.html#a78e77010ebb055b9530733ca25533110", null ]
 ];

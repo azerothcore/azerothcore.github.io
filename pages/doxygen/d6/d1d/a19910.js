@@ -1,6 +1,6 @@
 var a19910 =
 [
-    [ "npc_ioc_gunship_captainAI", "d6/d63/a19914.html", "d6/d63/a19914" ],
-    [ "npc_ioc_gunship_captain", "d6/d1d/a19910.html#a6463d7bc12d5fe4fc8921ba5916ec906", null ],
-    [ "GetAI", "d6/d1d/a19910.html#a43f3ce178df31fbf693acbfa8c32a339", null ]
+    [ "CheckCast", "d6/d1d/a19910.html#a866fd47d51b5fc4c07c3733739d07c02", null ],
+    [ "PrepareSpellScript", "d6/d1d/a19910.html#a09cbe962ae1f18811db8c1d32b856c0d", null ],
+    [ "Register", "d6/d1d/a19910.html#a240989af43e5ad6eb81d600a2f1d4769", null ]
 ];

@@ -1,6 +1,6 @@
 var a22414 =
 [
-    [ "instance_ulduar_InstanceMapScript", "d2/df2/a22418.html", "d2/df2/a22418" ],
-    [ "instance_ulduar", "da/dd7/a22414.html#a32c2a76d1cd20f2ad1ab441eafe1b682", null ],
-    [ "GetInstanceScript", "da/dd7/a22414.html#ad15f003a90e656910fc32d661ca9baba", null ]
+    [ "npc_released_offspring_harkoaAI", "da/dd7/a22414.html#ab1002f002987b6ea2366129afd48d65c", null ],
+    [ "MovementInform", "da/dd7/a22414.html#a56d52be3fdbc2e4176efe09ba58f55c7", null ],
+    [ "Reset", "da/dd7/a22414.html#a3ddc30ce39acef3bb5e6f8400a084393", null ]
 ];

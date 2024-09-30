@@ -1,6 +1,6 @@
 var a21206 =
 [
-    [ "spell_orbital_supports_AuraScript", "de/dff/a21210.html", "de/dff/a21210" ],
-    [ "spell_orbital_supports", "dc/d08/a21206.html#ab6189f808afdb65f93e37fb37f2faa19", null ],
-    [ "GetAuraScript", "dc/d08/a21206.html#a6762d20a448a075cc3ffd19a967bac7c", null ]
+    [ "spell_koralon_meteor_fists_AuraScript", "de/dff/a21210.html", "de/dff/a21210" ],
+    [ "spell_koralon_meteor_fists", "dc/d08/a21206.html#aac98b15864fcca09bab4fe8e2393765a", null ],
+    [ "GetAuraScript", "dc/d08/a21206.html#ac953d13c4a6059752b87b28a4bc8308d", null ]
 ];

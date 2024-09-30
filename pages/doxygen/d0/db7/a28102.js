@@ -1,9 +1,6 @@
 var a28102 =
 [
-    [ "CheckProc", "d0/db7/a28102.html#ac0e2bf5c1a96ce0502561bb6bcb6ad97", null ],
-    [ "HandleDispel", "d0/db7/a28102.html#a64235032423050de10581165c57f8b0a", null ],
-    [ "HandleProc", "d0/db7/a28102.html#ab1c1196f003f7ff0bf6f6eae5bd6de9a", null ],
-    [ "PrepareAuraScript", "d0/db7/a28102.html#af7ba0eb96dca76a288dd034665822069", null ],
-    [ "Register", "d0/db7/a28102.html#ababc8b42c64740655864d2834a639384", null ],
-    [ "Validate", "d0/db7/a28102.html#a03ecf2489369cbb7a6dff555db153a96", null ]
+    [ "ID", "d0/db7/a28102.html#a7d40e334785d96a2e57d28f87a59778a", null ],
+    [ "maxCount", "d0/db7/a28102.html#a5edc6442e026b12dae654fa86440a11a", null ],
+    [ "mode", "d0/db7/a28102.html#a76553ecf9f880a5e5967f818123742fd", null ]
 ];

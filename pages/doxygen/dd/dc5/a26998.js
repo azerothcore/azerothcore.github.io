@@ -1,7 +1,5 @@
 var a26998 =
 [
-    [ "HandleScript", "dd/dc5/a26998.html#ad1ca4c264e1f89adf479254e6436dd55", null ],
-    [ "Load", "dd/dc5/a26998.html#a66db2b82a0f014e49bbfeeaade4d1731", null ],
-    [ "PrepareSpellScript", "dd/dc5/a26998.html#a7616d761e7a7a708c88918302b488bb9", null ],
-    [ "Register", "dd/dc5/a26998.html#a8ca351c9e0e254369328865eefa3ff91", null ]
+    [ "AreaTrigger_at_stormwright_shelf", "dd/dc5/a26998.html#a97cdf51a8992b3d9edc138351770fd75", null ],
+    [ "OnTrigger", "dd/dc5/a26998.html#ab635f9328b35f3570211cf6ffc60a4c6", null ]
 ];

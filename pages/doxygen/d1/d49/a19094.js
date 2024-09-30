@@ -1,6 +1,6 @@
 var a19094 =
 [
-    [ "spell_the_lich_king_raging_spirit_SpellScript", "dc/d4b/a19098.html", "dc/d4b/a19098" ],
-    [ "spell_the_lich_king_raging_spirit", "d1/d49/a19094.html#ab06cf77568cd276aac86043f13d3b070", null ],
-    [ "GetSpellScript", "d1/d49/a19094.html#a25f0d26ea6b87567ac37a85efa8049c9", null ]
+    [ "npc_power_sparkAI", "dc/d4b/a19098.html", "dc/d4b/a19098" ],
+    [ "npc_power_spark", "d1/d49/a19094.html#a9efd2810feb5f90f9f12f51ec7282410", null ],
+    [ "GetAI", "d1/d49/a19094.html#a573198b86697d222c693581bf430453f", null ]
 ];

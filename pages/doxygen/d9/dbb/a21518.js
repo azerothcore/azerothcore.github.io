@@ -1,5 +1,7 @@
 var a21518 =
 [
-    [ "FlashFreezeCheck", "d9/dbb/a21518.html#a47d07a686a7c74dc8914a98762b16fe3", null ],
-    [ "operator()", "d9/dbb/a21518.html#a87475dc9e2f1b0eb508e9f56aa5c1e2f", null ]
+    [ "npc_mootoo_the_youngerAI", "d9/dbb/a21518.html#a70a5a502dab9a90a790a90eabc5c3acd", null ],
+    [ "JustDied", "d9/dbb/a21518.html#a766612f646a6d22d3f0e6f93298e34bc", null ],
+    [ "Reset", "d9/dbb/a21518.html#a04624b9b4d552d6b27308edc3ad44644", null ],
+    [ "WaypointReached", "d9/dbb/a21518.html#ac758a992ed0d62a272930c84d617b348", null ]
 ];

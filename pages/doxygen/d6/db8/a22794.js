@@ -1,6 +1,9 @@
 var a22794 =
 [
-    [ "boss_erekemAI", "d7/dd0/a22798.html", "d7/dd0/a22798" ],
-    [ "boss_erekem", "d6/db8/a22794.html#ab618380bd8f8c199ca85f1fe8a67db4d", null ],
-    [ "GetAI", "d6/db8/a22794.html#aa472a21bf4a855ba75bc7de05cce494c", null ]
+    [ "HandleAfterCast", "d6/db8/a22794.html#a32928b579ef42f377e911ef27197ed61", null ],
+    [ "HandleDummy", "d6/db8/a22794.html#a2adec08f0cc42cb21e97007b5f1214bc", null ],
+    [ "Load", "d6/db8/a22794.html#ac870bd626367bdc704e63d2f3b061b1f", null ],
+    [ "PrepareSpellScript", "d6/db8/a22794.html#a1f51d5562d5caac8d7d0f71de0051989", null ],
+    [ "Register", "d6/db8/a22794.html#adf8c87e9f6a3fb36bf26ed1c8dbb722f", null ],
+    [ "_targetCount", "d6/db8/a22794.html#a84d46608f7141d68b1a67fffc3493cbb", null ]
 ];

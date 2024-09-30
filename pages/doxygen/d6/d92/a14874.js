@@ -1,10 +1,23 @@
 var a14874 =
 [
-    [ "boss_aeonus", "d6/d92/a14874.html#af823ef2187b852dc72d2f63020e1701b", null ],
-    [ "IsSummonedBy", "d6/d92/a14874.html#a5f95e19dfec210d4da1f1f48145ff047", null ],
-    [ "JustDied", "d6/d92/a14874.html#a649275c31e61f542a13fd791ee85277b", null ],
-    [ "JustEngagedWith", "d6/d92/a14874.html#a5f193144e36a889630d5dbadb4aa665f", null ],
-    [ "JustReachedHome", "d6/d92/a14874.html#a62df4db3ead6f9be5c3ead974613c8d5", null ],
-    [ "KilledUnit", "d6/d92/a14874.html#a4aa2f3d82aaaf5cd3a938ad92aad059d", null ],
-    [ "MoveInLineOfSight", "d6/d92/a14874.html#a3147774fa5bff34d01947fdcf254ba7b", null ]
+    [ "instance_ruins_of_ahnqiraj_InstanceMapScript", "d6/d92/a14874.html#a1dfadd96c9cc420bb7c90ec8a2d0a1a2", null ],
+    [ "CallNextRajaxxLeader", "d6/d92/a14874.html#a12de9882d8e71f68e7b52e4b3972dca4", null ],
+    [ "GetData", "d6/d92/a14874.html#abe72d94186f5d5b9b97c82ac65f71fd6", null ],
+    [ "GetGuidData", "d6/d92/a14874.html#a8a2c4b3677d8da475d1e5ea035becf15", null ],
+    [ "OnCreatureCreate", "d6/d92/a14874.html#ac2b2bfb3ae426a82affbf363a49049ef", null ],
+    [ "OnCreatureEvade", "d6/d92/a14874.html#af59d38b0842a962b94efcbf9af8e56ca", null ],
+    [ "OnPlayerEnter", "d6/d92/a14874.html#aca8fbf17f8d583c1568a965bdf2b22f4", null ],
+    [ "OnUnitDeath", "d6/d92/a14874.html#afc601fed830c0d8fe63cbf7741ff1c55", null ],
+    [ "ResetRajaxxWaves", "d6/d92/a14874.html#a3a6aa2cc867de4842b10632ea761fb1e", null ],
+    [ "SetData", "d6/d92/a14874.html#a4a9acbb13d81d88674b62aa49ac8a2e3", null ],
+    [ "SetGuidData", "d6/d92/a14874.html#ac8f2440e439654e977d4a9a4b2b50b52", null ],
+    [ "_andorovGUID", "d6/d92/a14874.html#a52168c9369fe1e691378577ea700115c", null ],
+    [ "_buruGUID", "d6/d92/a14874.html#afbf08e65630819d5c60ecaa3d4d5bc42", null ],
+    [ "_buruPhase", "d6/d92/a14874.html#ab8192edc41599ce20cc66efaaba5479a", null ],
+    [ "_kurinnaxxGUID", "d6/d92/a14874.html#af1077bb8af7e756d9d548a4fe3fbd17b", null ],
+    [ "_moamGUID", "d6/d92/a14874.html#a1025fdcd1b84e5d2c4eaa79d918ecd78", null ],
+    [ "_ossirianGUID", "d6/d92/a14874.html#a254a550649a8f806f98d6eb90f593b54", null ],
+    [ "_paralyzedGUID", "d6/d92/a14874.html#abc537534538f78cabf6534371ab090e9", null ],
+    [ "_rajaxWaveCounter", "d6/d92/a14874.html#a010079e135c41de850419149ec2857f3", null ],
+    [ "_rajaxxGUID", "d6/d92/a14874.html#aa92f25482c7c6d2bf7944a080beb858c", null ]
 ];

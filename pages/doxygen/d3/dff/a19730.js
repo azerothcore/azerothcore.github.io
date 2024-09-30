@@ -1,6 +1,6 @@
 var a19730 =
 [
-    [ "spell_icc_yh_volley_AuraScript", "d7/de8/a19734.html", "d7/de8/a19734" ],
-    [ "spell_icc_yh_volley", "d3/dff/a19730.html#a91e419cb0324ebfe7b7b51e74859a7bb", null ],
-    [ "GetAuraScript", "d3/dff/a19730.html#a36374288acafc649d4fd7d83d0515bdc", null ]
+    [ "npc_auriaya_feral_defenderAI", "d7/de8/a19734.html", "d7/de8/a19734" ],
+    [ "npc_auriaya_feral_defender", "d3/dff/a19730.html#ae1afc396a1d9e6c9c2042ee0f58fb270", null ],
+    [ "GetAI", "d3/dff/a19730.html#abec35e280e42154af82f3e7e4fcec48d", null ]
 ];

@@ -1,6 +1,6 @@
 var a15314 =
 [
-    [ "HandleDummy", "d7/d1b/a15314.html#a09b21b3e5357c49d85ef01d9a5d4694f", null ],
-    [ "PrepareSpellScript", "d7/d1b/a15314.html#ac221d3d128265d78acc72d41ebf0fd8a", null ],
-    [ "Register", "d7/d1b/a15314.html#a67be525bc07ef7091d9b8148c1a01fb9", null ]
+    [ "npc_great_bear_spirit", "d7/d1b/a15314.html#a141470a3623aa1152d3505661f1532c8", null ],
+    [ "OnGossipHello", "d7/d1b/a15314.html#a2307b8d56fc117d918adc9814fa86f8f", null ],
+    [ "OnGossipSelect", "d7/d1b/a15314.html#aae026f4cf8b0de61d36a841dcfdbd92e", null ]
 ];

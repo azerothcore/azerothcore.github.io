@@ -1,6 +1,8 @@
 var a24558 =
 [
-    [ "boss_essence_of_desireAI", "d3/d86/a24562.html", "d3/d86/a24562" ],
-    [ "boss_essence_of_desire", "d4/d6d/a24558.html#a5006ce57dd19c2a80e961dedca8c503d", null ],
-    [ "GetAI", "d4/d6d/a24558.html#a14b66470c508fa24e214062aeec0aae6", null ]
+    [ "HandleDamage", "d4/d6d/a24558.html#a2c5149eb0b6698240c25b63e71af0854", null ],
+    [ "PrepareSpellScript", "d4/d6d/a24558.html#a8a19b594de9ba23a59e22db7d05eb60d", null ],
+    [ "Register", "d4/d6d/a24558.html#ad29179d9159700b52b0c21a779cd060b", null ],
+    [ "Suicide", "d4/d6d/a24558.html#a981f8547eae9b317111bf9a7016510ab", null ],
+    [ "Validate", "d4/d6d/a24558.html#aa2c3399146b15f754e073e4fa08f3d5a", null ]
 ];

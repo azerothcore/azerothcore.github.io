@@ -1,8 +1,8 @@
 var a10478 =
 [
-    [ "SkillDiscoveryEntry", "d0/dd2/a10478.html#a54c0f12153c6e63a37e5da44d233b271", null ],
-    [ "SkillDiscoveryEntry", "d0/dd2/a10478.html#a301cae078fe1943cae045e94dc3d38ad", null ],
-    [ "chance", "d0/dd2/a10478.html#a71cf2c48937e5a2a3c6dd8c499a860a7", null ],
-    [ "reqSkillValue", "d0/dd2/a10478.html#a61e0edc8fee1fa4045d846668d08449c", null ],
-    [ "spellId", "d0/dd2/a10478.html#a75ca40729917317173b2953c8f47f833", null ]
+    [ "PlayObjectSound", "d0/dd2/a10478.html#ab322044d36abddeb2fafbf99261bb70b", null ],
+    [ "PlayObjectSound", "d0/dd2/a10478.html#a2c4d15099e991a9c2ddc5295536aa28e", null ],
+    [ "Write", "d0/dd2/a10478.html#a1162715dd557a9f7b7c25a0331bc3b74", null ],
+    [ "SoundKitID", "d0/dd2/a10478.html#a5e794706b8793d164a1189e9a6918735", null ],
+    [ "SourceObjectGUID", "d0/dd2/a10478.html#a82b226eba66e569c1f377f529e511361", null ]
 ];

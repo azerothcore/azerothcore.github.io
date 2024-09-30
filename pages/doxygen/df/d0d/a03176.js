@@ -1,5 +1,5 @@
 var a03176 =
 [
-    [ "mmaps_commandscript", "d4/d14/a11376.html", "d4/d14/a11376" ],
-    [ "AddSC_mmaps_commandscript", "df/d0d/a03176.html#aa9672a1e32f85f31a4be02f505768ecd", null ]
+    [ "gm_commandscript", "db/db8/a11322.html", "db/db8/a11322" ],
+    [ "AddSC_gm_commandscript", "df/d0d/a03176.html#a65c7b128fdf4dd9807ef514c24918e7b", null ]
 ];

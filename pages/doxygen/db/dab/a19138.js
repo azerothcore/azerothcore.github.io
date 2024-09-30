@@ -1,6 +1,6 @@
 var a19138 =
 [
-    [ "spell_the_lich_king_summon_into_air_SpellScript", "df/d33/a19142.html", "df/d33/a19142" ],
-    [ "spell_the_lich_king_summon_into_air", "db/dab/a19138.html#ad96d5ad15f8bfbd7bf1904ac8e39b2aa", null ],
-    [ "GetSpellScript", "db/dab/a19138.html#a49b434c50bad96c2475b11bfdf4d9d6a", null ]
+    [ "npc_eoe_wyrmrest_skytalonAI", "db/dab/a19138.html#a0878695bc4179e3b6e92dde9f2b5cf19", null ],
+    [ "JustDied", "db/dab/a19138.html#aaa88ff236fd49a9c672ab29feb7377b8", null ],
+    [ "PassengerBoarded", "db/dab/a19138.html#aa3352276e87d805cc8722eb97d10ca46", null ]
 ];

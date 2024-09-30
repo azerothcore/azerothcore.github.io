@@ -1,8 +1,6 @@
 var a26238 =
 [
-    [ "spell_q10929_fumping_AuraScript", "d4/d9f/a26246.html", "d4/d9f/a26246" ],
-    [ "spell_q10929_fumping_SpellScript", "dd/deb/a26242.html", "dd/deb/a26242" ],
-    [ "spell_q10929_fumping", "d2/de1/a26238.html#ae7061535890eb5569897bcfa853cc2ea", null ],
-    [ "GetAuraScript", "d2/de1/a26238.html#a04117c33975d66738a325064821dad16", null ],
-    [ "GetSpellScript", "d2/de1/a26238.html#a7de6de9ce85fead50a34739148b61e11", null ]
+    [ "HandleDummy", "d2/de1/a26238.html#a42f48b9d7d657da75c8a4f5b6468011e", null ],
+    [ "PrepareSpellScript", "d2/de1/a26238.html#a5efc666af2cb73c376706c20e41ace68", null ],
+    [ "Register", "d2/de1/a26238.html#a46e61697212a43532e148ccb12a7d8e5", null ]
 ];

@@ -1,6 +1,6 @@
 var a18502 =
 [
-    [ "spell_putricide_tear_gas_effect_SpellScript", "d4/dbe/a18506.html", "d4/dbe/a18506" ],
-    [ "spell_putricide_tear_gas_effect", "d5/ddc/a18502.html#a674a73b3098e47220a6469112b0508f9", null ],
-    [ "GetSpellScript", "d5/ddc/a18502.html#ac0f4dddc30cc7ec9d17298ebd134ac57", null ]
+    [ "npc_captain_brandonAI", "d5/ddc/a18502.html#a1fe09b93be658660ba3c127c142e2ee6", null ],
+    [ "Reset", "d5/ddc/a18502.html#a13226b321707eee9faf5f073c81403e4", null ],
+    [ "UpdateAI", "d5/ddc/a18502.html#a721f8f7395cd57d4dba74f66ae40169f", null ]
 ];

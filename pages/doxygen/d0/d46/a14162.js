@@ -1,6 +1,6 @@
 var a14162 =
 [
-    [ "HandleAfterHit", "d0/d46/a14162.html#a4a3122d1b69baeae76f1ae3b6818bfb5", null ],
-    [ "PrepareSpellScript", "d0/d46/a14162.html#a284796ec70bdfaea9919f54da94f0021", null ],
-    [ "Register", "d0/d46/a14162.html#a30dcb608c20df17de9597ece1930d59d", null ]
+    [ "gameobjectId", "d0/d46/a14162.html#a5cebf652fccc66cb5f98968036405d14", null ],
+    [ "spawnIndex", "d0/d46/a14162.html#a5e8b95d6ecf69db8736941b67e2478d8", null ],
+    [ "timestamp", "d0/d46/a14162.html#a0c49f62b35e906637890fee896c74951", null ]
 ];

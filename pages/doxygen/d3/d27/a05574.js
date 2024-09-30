@@ -1,13 +1,10 @@
 var a05574 =
 [
-    [ "TransactionTask", "d3/d27/a05574.html#a13573f827891ad172847dc0e466b0b9e", null ],
-    [ "~TransactionTask", "d3/d27/a05574.html#a68bc982f025d40bbc3a7323cd8c96786", null ],
-    [ "CleanupOnFailure", "d3/d27/a05574.html#adc2f1534bce5a7ce198eeeb510fcb533", null ],
-    [ "Execute", "d3/d27/a05574.html#aa1c1df059d15fe2077ceea5cfb51ba22", null ],
-    [ "TryExecute", "d3/d27/a05574.html#a28c9ca1d9d3fdc6a722dcec68e46a38f", null ],
-    [ "DatabaseWorker", "d3/d27/a05574.html#ac8984f2167ec797d478f3a771d1c1c3f", null ],
-    [ "DatabaseWorkerPool", "d3/d27/a05574.html#a5d89109a06fa4fca3057b99bbfa84e58", null ],
-    [ "TransactionCallback", "d3/d27/a05574.html#ac3345f3314b133d53268f53e222cdc74", null ],
-    [ "_deadlockLock", "d3/d27/a05574.html#a84b48dbb670dd884e9b44ea53c8b0008", null ],
-    [ "m_trans", "d3/d27/a05574.html#a242f0cb47bc6b456b6bea9aa372df4b6", null ]
+    [ "BasicStatementTask", "d3/d27/a05574.html#a11c6f1259d1d6d9c50211784636e45c4", null ],
+    [ "~BasicStatementTask", "d3/d27/a05574.html#a0db608b5bae77e5f83b0e1bf5850719f", null ],
+    [ "Execute", "d3/d27/a05574.html#a7f500736cc0ec4cddf94510927989d4d", null ],
+    [ "GetFuture", "d3/d27/a05574.html#aa574f8cc00ac956d23f93c7e96864fc9", null ],
+    [ "m_has_result", "d3/d27/a05574.html#a8bfae5e5695a6bf6bf796d95efa21e7e", null ],
+    [ "m_result", "d3/d27/a05574.html#af70bc95cbf0df481dacf034ff78d2eb8", null ],
+    [ "m_sql", "d3/d27/a05574.html#a9320235413d1c4736301070e1faeb161", null ]
 ];

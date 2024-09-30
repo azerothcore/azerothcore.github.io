@@ -1,8 +1,11 @@
 var a16106 =
 [
-    [ "boss_sartharion_shadronAI", "d3/d94/a16106.html#a02e2e657ac74ab37a4568589511de664", null ],
-    [ "ExecuteEvent", "d3/d94/a16106.html#a6a26f1f777988be6eaf8b1a675bbbabb", null ],
-    [ "HandleExtraEvent", "d3/d94/a16106.html#a3db5e816f6253f9c4251690bfbbe1912", null ],
-    [ "Reset", "d3/d94/a16106.html#a7054cde1de2166c2b06489187115cb3f", null ],
-    [ "SummonedCreatureDies", "d3/d94/a16106.html#a8b70b3b7287108ad13caeb85a83cf26f", null ]
+    [ "npc_black_knight_ghoulAI", "d3/d94/a16106.html#a6e108052a7f9911dcd1b0ed13b2b8a0f", null ],
+    [ "JustEngagedWith", "d3/d94/a16106.html#a8353dea0de91017223c7624a5a96ebec", null ],
+    [ "Reset", "d3/d94/a16106.html#a8a33efa0719063a9565bc07143f8ad83", null ],
+    [ "SpellHit", "d3/d94/a16106.html#aa1b1fbb1a4633831774c7a7dd5cbb546", null ],
+    [ "SpellHitTarget", "d3/d94/a16106.html#a5f106a3b0edf353769db9021b9ca770d", null ],
+    [ "UpdateAI", "d3/d94/a16106.html#a6ccdb6a59b93999c01d434bcda593f25", null ],
+    [ "events", "d3/d94/a16106.html#acb56826a164e4d7da0a2f04c1efaf72b", null ],
+    [ "pInstance", "d3/d94/a16106.html#a35b8375f1b3407f5cee653ee118e0697", null ]
 ];

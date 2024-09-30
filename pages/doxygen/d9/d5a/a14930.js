@@ -1,10 +1,9 @@
 var a14930 =
 [
-    [ "instance_maraudon_InstanceMapScript", "d9/d5a/a14930.html#a9c46508320d3973006561444feae0586", null ],
-    [ "Initialize", "d9/d5a/a14930.html#a61cb2b2bf09bb997457bc01a41e092e9", null ],
-    [ "OnGameObjectCreate", "d9/d5a/a14930.html#a3a287b97db58c3489815f20ee0d37977", null ],
-    [ "ReadSaveDataMore", "d9/d5a/a14930.html#ac2cd336874b25ad20dac104037de1df5", null ],
-    [ "SetData", "d9/d5a/a14930.html#a6e90bf60a076c164e432128f7ec62fba", null ],
-    [ "WriteSaveDataMore", "d9/d5a/a14930.html#a6e4072342e66689d343912de85e66b34", null ],
-    [ "_encounters", "d9/d5a/a14930.html#af2e752a791d75e50001060c4a9f18173", null ]
+    [ "npc_claw_tentacle", "d9/d5a/a14930.html#a10f1c68d5f49dd1614e7e939498db37b", null ],
+    [ "JustDied", "d9/d5a/a14930.html#aa566b417d1b766668133dd1d6a58293f", null ],
+    [ "JustEngagedWith", "d9/d5a/a14930.html#a9fbe9b30f973d3c8509ab4bbfcfe5bcc", null ],
+    [ "Reset", "d9/d5a/a14930.html#aaf3a3380a33aadc2023d192dfa85cfb2", null ],
+    [ "UpdateAI", "d9/d5a/a14930.html#ae7d521445680167add653717c7ae4c86", null ],
+    [ "_portalGUID", "d9/d5a/a14930.html#ab979781a8f77267348595cfa17341bae", null ]
 ];

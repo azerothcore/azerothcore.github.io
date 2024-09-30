@@ -1,6 +1,8 @@
 var a12942 =
 [
-    [ "HandleApplyTouch", "d9/d53/a12942.html#a8944b79cab3aeabb0b9c4b4c651decfe", null ],
-    [ "PrepareSpellScript", "d9/d53/a12942.html#a2708fd350bfb34a91f1974c6635bdf3e", null ],
-    [ "Register", "d9/d53/a12942.html#a4caac5bd05268671dc2f5a5fb4fb23c6", null ]
+    [ "npc_madrigosaAI", "d9/d53/a12942.html#adadbaa53623774750e5e897e8be1fb39", null ],
+    [ "DoAction", "d9/d53/a12942.html#a2ecaba614301d681cadf129ea58813cf", null ],
+    [ "UpdateAI", "d9/d53/a12942.html#ab2a5f3c7ec1f94af2e1ffe34828b81cc", null ],
+    [ "events", "d9/d53/a12942.html#ad8f4f69543c968a21253bd52da4d82ac", null ],
+    [ "instance", "d9/d53/a12942.html#abe6708e5053490c70ed88799a762f08e", null ]
 ];

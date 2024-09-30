@@ -1,7 +1,15 @@
 var a17018 =
 [
-    [ "HandleRemove", "db/dec/a17018.html#a9f312e4b9c59822e3d2d771018746631", null ],
-    [ "PeriodicTick", "db/dec/a17018.html#ab3ab06c1dafc958b1a099e7b3ab1cf9a", null ],
-    [ "PrepareAuraScript", "db/dec/a17018.html#a8ae913a5168b2fc80ddf09f67c3535ad", null ],
-    [ "Register", "db/dec/a17018.html#a5b26c53c83f798eccd235ff4f364dcdf", null ]
+    [ "boss_drakkari_colossusAI", "db/dec/a17018.html#a28594cf76c5b1977a4f70ba0c3811646", null ],
+    [ "DamageTaken", "db/dec/a17018.html#ae31f77e5b63fee3d0745919ed737b599", null ],
+    [ "DoAction", "db/dec/a17018.html#a8e72a38f6a605cafa2667ca585cf0761", null ],
+    [ "InitializeAI", "db/dec/a17018.html#aa268314e8be79ce2500ab7bb96204766", null ],
+    [ "JustEngagedWith", "db/dec/a17018.html#ae88b465b2136afd4f5cf7763e0069106", null ],
+    [ "JustReachedHome", "db/dec/a17018.html#a93f73f204d07b4805f4a7dd240a96d13", null ],
+    [ "JustSummoned", "db/dec/a17018.html#ab58d286bb6f0ea94c2eb70e52e513ad4", null ],
+    [ "MoveInLineOfSight", "db/dec/a17018.html#ae1151f6fc9f9ca011a7d476f7d1c6927", null ],
+    [ "Reset", "db/dec/a17018.html#a5e9c6da15df58a206533a7c718056c3e", null ],
+    [ "SummonedCreatureDespawn", "db/dec/a17018.html#a58658947c4fc115ea9c1d6f1edd1332e", null ],
+    [ "SummonedCreatureDies", "db/dec/a17018.html#a59f9efbc2964eec057606d69458b4402", null ],
+    [ "UpdateAI", "db/dec/a17018.html#afc816b7d1c2705675560ddd13ecce22d", null ]
 ];

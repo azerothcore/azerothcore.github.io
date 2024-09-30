@@ -1,6 +1,7 @@
 var a15638 =
 [
-    [ "SpellId", "da/d4a/a15638.html#a2c430be201c1fd866ee96224f1803a20", null ],
-    [ "Timer1", "da/d4a/a15638.html#a9a35c148286e88f48b174be8b74fc5d0", null ],
-    [ "Timer2", "da/d4a/a15638.html#a108dee679b1f5d9fb8351f7b4b4f3a56", null ]
+    [ "HandleDummy", "da/d4a/a15638.html#a5d619c13c620fedeea803a0802fd9ee6", null ],
+    [ "PrepareSpellScript", "da/d4a/a15638.html#a04ed0daa21e66b842b8443b5e102ec1d", null ],
+    [ "Register", "da/d4a/a15638.html#a4359ad73b513a368509a066a039ddf53", null ],
+    [ "_targetCount", "da/d4a/a15638.html#a3ba108d63ef38af0a8730c1bf1aa69e9", null ]
 ];

@@ -1,7 +1,6 @@
 var a19378 =
 [
-    [ "npc_valithria_portalAI", "d3/d16/a19378.html#a18c1b9d2b149fbc34a17c9e87a8c70b6", null ],
-    [ "GetData", "d3/d16/a19378.html#a598ba7930900aa211bb7e7dc12f366c0", null ],
-    [ "OnSpellClick", "d3/d16/a19378.html#a457f2725e6580d7e6f3bb0445ba796a8", null ],
-    [ "_used", "d3/d16/a19378.html#a92cc0c2aaa6add0c6c641719d6846bb3", null ]
+    [ "npc_stormforged_lieutenantAI", "d5/d41/a19382.html", "d5/d41/a19382" ],
+    [ "npc_stormforged_lieutenant", "d3/d16/a19378.html#ab58a73d33c6545815511c5c4f0ecfd9e", null ],
+    [ "GetAI", "d3/d16/a19378.html#ae3aba4b53e73097c261eaaed19f17950", null ]
 ];

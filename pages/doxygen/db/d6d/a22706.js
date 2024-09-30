@@ -1,6 +1,7 @@
 var a22706 =
 [
-    [ "spell_voa_overcharge_AuraScript", "d1/d49/a22710.html", "d1/d49/a22710" ],
-    [ "spell_voa_overcharge", "db/d6d/a22706.html#a3868ca8282174080439b65c27e52275e", null ],
-    [ "GetAuraScript", "db/d6d/a22706.html#a0a538287130e76d7c0545f81d8342bd6", null ]
+    [ "HandleScriptEffect", "db/d6d/a22706.html#a6ec6e79849c618d009eae3551e16ff0a", null ],
+    [ "PrepareSpellScript", "db/d6d/a22706.html#a4f00eca7c78a785780be4379c1a56a6b", null ],
+    [ "Register", "db/d6d/a22706.html#adb676b9d6f36c30efbb8286b1e5edf6d", null ],
+    [ "Validate", "db/d6d/a22706.html#a9ce122d497e72e3a46b1857d722af48d", null ]
 ];

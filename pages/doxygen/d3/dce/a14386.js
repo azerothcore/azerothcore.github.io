@@ -1,5 +1,6 @@
 var a14386 =
 [
-    [ "go_midsummer_bonfire", "d3/dce/a14386.html#a24ad1c4bb5ad5da56cc8bc4d6a4db812", null ],
-    [ "OnGossipSelect", "d3/dce/a14386.html#aa6f26db657350bb7fb3053365597e2ad", null ]
+    [ "HandleScriptEffect", "d3/dce/a14386.html#aebd700897688157ca62405c92fe58680", null ],
+    [ "PrepareSpellScript", "d3/dce/a14386.html#a09e11d1938279a2302fb8805e71c6c36", null ],
+    [ "Register", "d3/dce/a14386.html#aa0679665ba2c496e0a5aa5f6864d7230", null ]
 ];

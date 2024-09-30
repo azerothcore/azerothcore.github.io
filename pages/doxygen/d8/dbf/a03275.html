@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/OutdoorPvP/OutdoorPvPZM.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/OutdoorPvP/OutdoorPvPGH.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,55 +106,76 @@ $(document).ready(function(){initNavTree('d8/dbf/a03275.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">OutdoorPvPZM.cpp File Reference</div></div>
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">OutdoorPvPGH.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">OutdoorPvPZM.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameGraveyard.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">OutdoorPvPMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">OutdoorPvPScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">OutdoorPvP.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d21/a22524.html">OutdoorPvP_zangarmarsh</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d7a/a22466.html">OutdoorPvPGH</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d45/a22470.html">OPvPCapturePointGH</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a3077d08865fa83f84cf956c392a9091c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dbf/a03275.html#a3077d08865fa83f84cf956c392a9091c">AddSC_outdoorpvp_zm</a> ()</td></tr>
-<tr class="separator:a3077d08865fa83f84cf956c392a9091c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a68fd4e51a6ab53a5f6bc93fe7800623b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623b">OutdoorPvPGHenum</a> { <br />
+&#160;&#160;<a class="el" href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623ba4d9e1d2fb4e064d2ec502e86046044c3">GH_ALLIANCE_DEFENSE_EVENT</a> = 65
+, <br />
+&#160;&#160;<a class="el" href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623babf83508167d0dcdfb12a95048d098d10">GH_HORDE_DEFENSE_EVENT</a> = 66
+, <br />
+&#160;&#160;<a class="el" href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623ba5b111447969af668c37b96bdcb8e4e0f">GH_ZONE</a> = 394
+, <br />
+&#160;&#160;<a class="el" href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623ba645403f643483d0cac92332aa51b77bd">GH_UI_SLIDER_DISPLAY</a> = 3466
+, <br />
+&#160;&#160;<a class="el" href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623baa45bc7342ad5ac9b73578034a648f460">GH_UI_SLIDER_POS</a> = 3467
+, <br />
+&#160;&#160;<a class="el" href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623ba44cb783273dce4056ade8dafd3ea3bc0">GH_UI_SLIDER_N</a> = 3468
+<br />
+ }</td></tr>
+<tr class="separator:a68fd4e51a6ab53a5f6bc93fe7800623b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a3077d08865fa83f84cf956c392a9091c" name="a3077d08865fa83f84cf956c392a9091c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3077d08865fa83f84cf956c392a9091c">&#9670;&#160;</a></span>AddSC_outdoorpvp_zm()</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a68fd4e51a6ab53a5f6bc93fe7800623b" name="a68fd4e51a6ab53a5f6bc93fe7800623b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68fd4e51a6ab53a5f6bc93fe7800623b">&#9670;&#160;</a></span>OutdoorPvPGHenum</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_outdoorpvp_zm </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">enum <a class="el" href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623b">OutdoorPvPGHenum</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  470</span>{</div>
-<div class="line"><span class="lineno">  471</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/d21/a22524.html">OutdoorPvP_zangarmarsh</a>();</div>
-<div class="line"><span class="lineno">  472</span>}</div>
-<div class="ttc" id="aa22524_html"><div class="ttname"><a href="../../d7/d21/a22524.html">OutdoorPvP_zangarmarsh</a></div><div class="ttdef"><b>Definition:</b> OutdoorPvPZM.cpp:456</div></div>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a68fd4e51a6ab53a5f6bc93fe7800623ba4d9e1d2fb4e064d2ec502e86046044c3" name="a68fd4e51a6ab53a5f6bc93fe7800623ba4d9e1d2fb4e064d2ec502e86046044c3"></a>GH_ALLIANCE_DEFENSE_EVENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a68fd4e51a6ab53a5f6bc93fe7800623babf83508167d0dcdfb12a95048d098d10" name="a68fd4e51a6ab53a5f6bc93fe7800623babf83508167d0dcdfb12a95048d098d10"></a>GH_HORDE_DEFENSE_EVENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a68fd4e51a6ab53a5f6bc93fe7800623ba5b111447969af668c37b96bdcb8e4e0f" name="a68fd4e51a6ab53a5f6bc93fe7800623ba5b111447969af668c37b96bdcb8e4e0f"></a>GH_ZONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a68fd4e51a6ab53a5f6bc93fe7800623ba645403f643483d0cac92332aa51b77bd" name="a68fd4e51a6ab53a5f6bc93fe7800623ba645403f643483d0cac92332aa51b77bd"></a>GH_UI_SLIDER_DISPLAY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a68fd4e51a6ab53a5f6bc93fe7800623baa45bc7342ad5ac9b73578034a648f460" name="a68fd4e51a6ab53a5f6bc93fe7800623baa45bc7342ad5ac9b73578034a648f460"></a>GH_UI_SLIDER_POS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a68fd4e51a6ab53a5f6bc93fe7800623ba44cb783273dce4056ade8dafd3ea3bc0" name="a68fd4e51a6ab53a5f6bc93fe7800623ba44cb783273dce4056ade8dafd3ea3bc0"></a>GH_UI_SLIDER_N&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   24</span>{</div>
+<div class="line"><span class="lineno">   25</span>    <a class="code hl_enumvalue" href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623ba4d9e1d2fb4e064d2ec502e86046044c3">GH_ALLIANCE_DEFENSE_EVENT</a>           = 65,</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623babf83508167d0dcdfb12a95048d098d10">GH_HORDE_DEFENSE_EVENT</a>              = 66,</div>
+<div class="line"><span class="lineno">   27</span> </div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623ba5b111447969af668c37b96bdcb8e4e0f">GH_ZONE</a>                             = 394,</div>
+<div class="line"><span class="lineno">   29</span> </div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623ba645403f643483d0cac92332aa51b77bd">GH_UI_SLIDER_DISPLAY</a>                = 3466,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623baa45bc7342ad5ac9b73578034a648f460">GH_UI_SLIDER_POS</a>                    = 3467,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623ba44cb783273dce4056ade8dafd3ea3bc0">GH_UI_SLIDER_N</a>                      = 3468,</div>
+<div class="line"><span class="lineno">   33</span>};</div>
+<div class="ttc" id="aa03275_html_a68fd4e51a6ab53a5f6bc93fe7800623ba44cb783273dce4056ade8dafd3ea3bc0"><div class="ttname"><a href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623ba44cb783273dce4056ade8dafd3ea3bc0">GH_UI_SLIDER_N</a></div><div class="ttdeci">@ GH_UI_SLIDER_N</div><div class="ttdef"><b>Definition:</b> OutdoorPvPGH.h:32</div></div>
+<div class="ttc" id="aa03275_html_a68fd4e51a6ab53a5f6bc93fe7800623ba4d9e1d2fb4e064d2ec502e86046044c3"><div class="ttname"><a href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623ba4d9e1d2fb4e064d2ec502e86046044c3">GH_ALLIANCE_DEFENSE_EVENT</a></div><div class="ttdeci">@ GH_ALLIANCE_DEFENSE_EVENT</div><div class="ttdef"><b>Definition:</b> OutdoorPvPGH.h:25</div></div>
+<div class="ttc" id="aa03275_html_a68fd4e51a6ab53a5f6bc93fe7800623ba5b111447969af668c37b96bdcb8e4e0f"><div class="ttname"><a href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623ba5b111447969af668c37b96bdcb8e4e0f">GH_ZONE</a></div><div class="ttdeci">@ GH_ZONE</div><div class="ttdef"><b>Definition:</b> OutdoorPvPGH.h:28</div></div>
+<div class="ttc" id="aa03275_html_a68fd4e51a6ab53a5f6bc93fe7800623ba645403f643483d0cac92332aa51b77bd"><div class="ttname"><a href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623ba645403f643483d0cac92332aa51b77bd">GH_UI_SLIDER_DISPLAY</a></div><div class="ttdeci">@ GH_UI_SLIDER_DISPLAY</div><div class="ttdef"><b>Definition:</b> OutdoorPvPGH.h:30</div></div>
+<div class="ttc" id="aa03275_html_a68fd4e51a6ab53a5f6bc93fe7800623baa45bc7342ad5ac9b73578034a648f460"><div class="ttname"><a href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623baa45bc7342ad5ac9b73578034a648f460">GH_UI_SLIDER_POS</a></div><div class="ttdeci">@ GH_UI_SLIDER_POS</div><div class="ttdef"><b>Definition:</b> OutdoorPvPGH.h:31</div></div>
+<div class="ttc" id="aa03275_html_a68fd4e51a6ab53a5f6bc93fe7800623babf83508167d0dcdfb12a95048d098d10"><div class="ttname"><a href="../../d8/dbf/a03275.html#a68fd4e51a6ab53a5f6bc93fe7800623babf83508167d0dcdfb12a95048d098d10">GH_HORDE_DEFENSE_EVENT</a></div><div class="ttdeci">@ GH_HORDE_DEFENSE_EVENT</div><div class="ttdef"><b>Definition:</b> OutdoorPvPGH.h:26</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00029">AddOutdoorPvPScripts()</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -162,8 +183,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ad9d2bd1e1e418dea010d25c4d4f5d3.html">OutdoorPvP</a></li><li class="navelem"><a class="el" href="../../d8/dbf/a03275.html">OutdoorPvPZM.cpp</a></li>
-    <li class="footer">Generated on Mon Sep 23 2024 20:41:13 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ad9d2bd1e1e418dea010d25c4d4f5d3.html">OutdoorPvP</a></li><li class="navelem"><a class="el" href="../../d8/dbf/a03275.html">OutdoorPvPGH.h</a></li>
+    <li class="footer">Generated on Mon Sep 30 2024 20:41:08 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

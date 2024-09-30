@@ -1,6 +1,6 @@
 var a16510 =
 [
-    [ "npc_toc5_grand_champion_minionAI", "dc/d25/a16514.html", "dc/d25/a16514" ],
-    [ "npc_toc5_grand_champion_minion", "da/df6/a16510.html#a5761757b3cbbbce8ada4770805eb8de5", null ],
-    [ "GetAI", "da/df6/a16510.html#a55acf397b94ba63b1db626dc1041b28e", null ]
+    [ "boss_dredAI", "dc/d25/a16514.html", "dc/d25/a16514" ],
+    [ "boss_dred", "da/df6/a16510.html#a60a913f53c63f95680c29c72f48f9a1a", null ],
+    [ "GetAI", "da/df6/a16510.html#ab8276b185f80a92a54327ea28b19c704", null ]
 ];

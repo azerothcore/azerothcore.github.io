@@ -1,9 +1,9 @@
 var a20618 =
 [
-    [ "npc_stormforged_lieutenantAI", "d6/d75/a20618.html#a74d84534c39e7e6f3774099fd6b28d29", null ],
-    [ "JustEngagedWith", "d6/d75/a20618.html#a112bd4adaa290afd04d229347a96ff4a", null ],
-    [ "Reset", "d6/d75/a20618.html#aaef10316b8f7c3e980082cab722ffe9f", null ],
-    [ "UpdateAI", "d6/d75/a20618.html#a3944886823dad81bcd5d72e020910143", null ],
-    [ "BjarngrimGUID", "d6/d75/a20618.html#a4003deba30ff47ed3296325112b6cb0e", null ],
-    [ "events", "d6/d75/a20618.html#a530d16086a9e613f6f0299186f8bcc33", null ]
+    [ "npc_xt002_scrapbotAI", "d6/d75/a20618.html#a21be97bb49ff06ef090cbbe6f5006f56", null ],
+    [ "JustDied", "d6/d75/a20618.html#adcab192d017e6a9e8d103a6e8b91cb26", null ],
+    [ "MovementInform", "d6/d75/a20618.html#a48fd29d42280ae91852ef2ef0cecc8f6", null ],
+    [ "Reset", "d6/d75/a20618.html#aab71d2a49ee96e88a2858c07c455e78d", null ],
+    [ "UpdateAI", "d6/d75/a20618.html#ae2de6767f8ab502833971e4171d48c13", null ],
+    [ "_locked", "d6/d75/a20618.html#add3bfe992d635629ac7e07e04c4334c9", null ]
 ];

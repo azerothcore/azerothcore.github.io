@@ -1,6 +1,7 @@
 var a22746 =
 [
-    [ "spell_flame_warder_meteor_fists_AuraScript", "d3/d50/a22750.html", "d3/d50/a22750" ],
-    [ "spell_flame_warder_meteor_fists", "dd/d30/a22746.html#a3e020771ea6ab327efe3c308b16b831c", null ],
-    [ "GetAuraScript", "dd/d30/a22746.html#a17d9260fad49dbb32c0e67745788cde0", null ]
+    [ "HandleDummy", "dd/d30/a22746.html#adb4e8218eb498d430ececfa357bc1d8a", null ],
+    [ "PrepareSpellScript", "dd/d30/a22746.html#a85f582794bf8ca2c80add8d9fe35f9f5", null ],
+    [ "Register", "dd/d30/a22746.html#af5926d8570de13e66aa1870184620b94", null ],
+    [ "Validate", "dd/d30/a22746.html#aa2839c6dba3d0c6ecfeb19f5ff3a39d2", null ]
 ];

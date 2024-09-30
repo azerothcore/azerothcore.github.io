@@ -1,6 +1,7 @@
 var a25570 =
 [
-    [ "spell_arcatraz_soul_steal_AuraScript", "d2/df9/a25574.html", "d2/df9/a25574" ],
-    [ "spell_arcatraz_soul_steal", "d8/d2b/a25570.html#ab4bcc29347c91c793d897500c0413241", null ],
-    [ "GetAuraScript", "d8/d2b/a25570.html#ad98c09fd98e4914b25934e74377be263", null ]
+    [ "HandleProc", "d8/d2b/a25570.html#a8a844ca9970584aa4bcbc0107e923ff5", null ],
+    [ "PrepareAuraScript", "d8/d2b/a25570.html#a0097e8c7603bf705115958dd5d96f6ad", null ],
+    [ "Register", "d8/d2b/a25570.html#aca3cd3a1f4738e3e78c879239a80e9cc", null ],
+    [ "Validate", "d8/d2b/a25570.html#a8df8750f53a7c618eb534f40fb17875e", null ]
 ];

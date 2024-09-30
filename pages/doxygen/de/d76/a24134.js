@@ -1,5 +1,6 @@
 var a24134 =
 [
-    [ "OutdoorPvP_hellfire_peninsula", "de/d76/a24134.html#a8ef74076d03225c889c6f027fbbfe25d", null ],
-    [ "GetOutdoorPvP", "de/d76/a24134.html#aee93a8191457d7a264053809a5c082e8", null ]
+    [ "npc_drake_dealer_hurlunk", "de/d76/a24134.html#ae6d095365d23c30d5b772b047b459ddb", null ],
+    [ "OnGossipHello", "de/d76/a24134.html#ad04b7f906f029d9935e29c585b0de421", null ],
+    [ "OnGossipSelect", "de/d76/a24134.html#aa23833dcdefb909899120c25d5376111", null ]
 ];

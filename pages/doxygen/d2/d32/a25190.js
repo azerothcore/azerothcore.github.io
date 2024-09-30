@@ -1,6 +1,5 @@
 var a25190 =
 [
-    [ "spell_serpentshrine_cavern_infection_AuraScript", "d7/d44/a25194.html", "d7/d44/a25194" ],
-    [ "spell_serpentshrine_cavern_infection", "d2/d32/a25190.html#aa00156e374d8151ed113a8f03c73f6a4", null ],
-    [ "GetAuraScript", "d2/d32/a25190.html#af65aa7fdf2fa4781c25a0a5381edb1d0", null ]
+    [ "PrepareSpellScript", "d2/d32/a25190.html#ae49ad5a4ad43099c4510e1666ff6415b", null ],
+    [ "Register", "d2/d32/a25190.html#ad31fa6c2099d984389c3fb12e53a5bd8", null ]
 ];

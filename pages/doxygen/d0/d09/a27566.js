@@ -1,8 +1,6 @@
 var a27566 =
 [
-    [ "CheckProc", "d0/d09/a27566.html#a06d76f258699bd4f78834ef33752a351", null ],
-    [ "HandleProc", "d0/d09/a27566.html#af22f22cbc38fabe4181b853727df83f8", null ],
-    [ "PrepareAuraScript", "d0/d09/a27566.html#adbc2bc54974837a9784cbf8b30ef2c1e", null ],
-    [ "Register", "d0/d09/a27566.html#a8db2cf628d44fa962bb3889b20f5dfb1", null ],
-    [ "Validate", "d0/d09/a27566.html#aa5604d45c0c11bef130d9242c4357163", null ]
+    [ "npc_spring_rabbitAI", "d4/def/a27570.html", "d4/def/a27570" ],
+    [ "npc_spring_rabbit", "d0/d09/a27566.html#a4e2ed1f556edd535a8d262d7e0bdfa1a", null ],
+    [ "GetAI", "d0/d09/a27566.html#a968933658fbcc7f7cbdfca90fd9a68dc", null ]
 ];

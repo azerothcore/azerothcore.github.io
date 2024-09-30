@@ -1,11 +1,6 @@
 var a17418 =
 [
-    [ "npc_pos_tyrannus_eventsAI", "d7/d50/a17418.html#a51769d22a4cb448fae90d827e2494581", null ],
-    [ "MovementInform", "d7/d50/a17418.html#ac0d1550855988fe6f562e8a0a6ada80f", null ],
-    [ "SetData", "d7/d50/a17418.html#a8f8bbb06c50215c90cf11ddbc925ba5d", null ],
-    [ "UpdateAI", "d7/d50/a17418.html#a6c4d82c46547bbb2f86dd7f9fa88c743", null ],
-    [ "deathbringerGUID", "d7/d50/a17418.html#a21ea8c66374403d0eca83e4d24c80a7a", null ],
-    [ "events", "d7/d50/a17418.html#a317d48c75a93ef5abaa3329ab10a1c8e", null ],
-    [ "killsLeft", "d7/d50/a17418.html#ac81d85e0ceb0b571373f44475baa36df", null ],
-    [ "pInstance", "d7/d50/a17418.html#a44460335986bcedf35dc295c242df6da", null ]
+    [ "npc_muradin_bronzebeard_igbAI", "de/d44/a17422.html", "de/d44/a17422" ],
+    [ "npc_muradin_bronzebeard_igb", "d7/d50/a17418.html#a1e6abc18a192b3acfa29bf03dd4eeed9", null ],
+    [ "GetAI", "d7/d50/a17418.html#af9b149e0780308f26d5adb1e6607a3ce", null ]
 ];

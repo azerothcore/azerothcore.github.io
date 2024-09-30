@@ -1,6 +1,6 @@
 var a19878 =
 [
-    [ "RespawnEvent", "da/db9/a19878.html#accc0d5638ff7a493fa116ac2e8f2e58b", null ],
-    [ "Execute", "da/db9/a19878.html#a2e58f4e472fb72cf5401f11be6e5e136", null ],
-    [ "_owner", "da/db9/a19878.html#adb0835b4a2e7a2795bb81f0a1e3c911a", null ]
+    [ "HandleScript", "da/db9/a19878.html#a84a4d92a5dff57f612d3e45db41010d3", null ],
+    [ "PrepareSpellScript", "da/db9/a19878.html#adc3bb6bd763905857d84ccaf456b3a2f", null ],
+    [ "Register", "da/db9/a19878.html#a04a5b3a4f768200d74f4641508633d35", null ]
 ];

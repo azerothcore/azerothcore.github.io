@@ -1,7 +1,14 @@
 var a13734 =
 [
-    [ "boss_fenstalkerAI", "dd/de1/a13734.html#a971234c97e2769a2fbf36b7a954198df", null ],
-    [ "Reset", "dd/de1/a13734.html#a91865286d096bcd5bc89a2b69addb422", null ],
-    [ "UpdateAI", "dd/de1/a13734.html#a6f1f861ff540f54eb99a30909feb922b", null ],
-    [ "volatileinf_timer", "dd/de1/a13734.html#ae18ae9cf7bcaff73bb341593b8d8b816", null ]
+    [ "npc_forest_frogAI", "dd/de1/a13734.html#a1859934c3166e8e1f3b215721eb7dde0", null ],
+    [ "DoSpawnRandom", "dd/de1/a13734.html#ad69092e6830cb4ed9b4971573b4938c2", null ],
+    [ "JustEngagedWith", "dd/de1/a13734.html#a11af64dd35f59e7621ef47f0a0dc70fd", null ],
+    [ "MovementInform", "dd/de1/a13734.html#a980316d840d9e6386a506101b665777e", null ],
+    [ "Reset", "dd/de1/a13734.html#abc3c1cbb9a8e403fb3c1513113437746", null ],
+    [ "SpellHit", "dd/de1/a13734.html#a598b45191168a9a2b0ef9345216bebcb", null ],
+    [ "UpdateAI", "dd/de1/a13734.html#a05ef7e4899ef1287cb4caa59d07324f7", null ],
+    [ "events", "dd/de1/a13734.html#ae007a0e7256b2118388a11035d26963d", null ],
+    [ "eventTimer", "dd/de1/a13734.html#a8064110ee297642b05fed81f421d82d3", null ],
+    [ "instance", "dd/de1/a13734.html#ae7631fcf8af5f7d3708e4580257f370b", null ],
+    [ "PlayerGUID", "dd/de1/a13734.html#a1f8f417d59c3be3bf46ab5f6ac399bc4", null ]
 ];

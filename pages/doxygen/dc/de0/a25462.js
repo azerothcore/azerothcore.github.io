@@ -1,6 +1,7 @@
 var a25462 =
 [
-    [ "instance_hellfire_ramparts_InstanceMapScript", "d9/dd1/a25466.html", "d9/dd1/a25466" ],
-    [ "instance_hellfire_ramparts", "dc/de0/a25462.html#ab6ee671123dd0d736e9745e45e04b8da", null ],
-    [ "GetInstanceScript", "dc/de0/a25462.html#a6f2dc361984b33c1d14d62d67a563e8d", null ]
+    [ "CheckProc", "dc/de0/a25462.html#a41c451e31b84a72af3a17bfa29ca02fe", null ],
+    [ "HandleProc", "dc/de0/a25462.html#a5cf9cea911ead2f261522e55e94c745a", null ],
+    [ "PrepareAuraScript", "dc/de0/a25462.html#a3f2b20607f90ad641769eb284ddfab85", null ],
+    [ "Register", "dc/de0/a25462.html#a55557026689613e91aeabce1af442237", null ]
 ];

@@ -1,6 +1,6 @@
 var a17522 =
 [
-    [ "boss_drakkari_colossusAI", "db/d4b/a17526.html", "db/d4b/a17526" ],
-    [ "boss_drakkari_colossus", "d2/deb/a17522.html#abe1bf28b9147b72c81e5c5efcdeeaf84", null ],
-    [ "GetAI", "d2/deb/a17522.html#a75c6c9c56fe11342dd8aece031059e77", null ]
+    [ "IgbTeleportOnVictoryCheck", "d2/deb/a17522.html#a29ee8cac93b9920e598da9205406e608", null ],
+    [ "operator()", "d2/deb/a17522.html#acf85943e238179e911434358f1593be2", null ],
+    [ "_inst", "d2/deb/a17522.html#a015353ecb66da16c697152b7ad3c527e", null ]
 ];

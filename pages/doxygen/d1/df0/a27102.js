@@ -1,6 +1,5 @@
 var a27102 =
 [
-    [ "HandleDummy", "d1/df0/a27102.html#a0bcbef8a2d5978498556a217ac618fed", null ],
-    [ "PrepareSpellScript", "d1/df0/a27102.html#a5901c22f3a10fdbd21d934f5cb8cd76d", null ],
-    [ "Register", "d1/df0/a27102.html#a2c6d9c273a3d281dacefc20970912166", null ]
+    [ "go_seer_of_zebhalak", "d1/df0/a27102.html#a423f16e878d67f7dc6ec3860afabacf4", null ],
+    [ "OnGossipHello", "d1/df0/a27102.html#a84009789ce8e8d0d7c42996fde161135", null ]
 ];

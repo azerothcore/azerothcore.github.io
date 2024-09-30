@@ -1,7 +1,7 @@
 var a26478 =
 [
-    [ "HandleEffectApply", "de/d82/a26478.html#a9923e38a2b5999d932d85be17a50ac83", null ],
-    [ "HandleEffectRemove", "de/d82/a26478.html#a4c1f611b4fd0cf33f654d59e783db32a", null ],
-    [ "PrepareAuraScript", "de/d82/a26478.html#a105df22901477c34757e62a0305006d4", null ],
-    [ "Register", "de/d82/a26478.html#a16f2daff28dc07f2cac8d53f4813909f", null ]
+    [ "CalcPeriodic", "de/d82/a26478.html#af787d0c8738284e757f808e7d138bdc6", null ],
+    [ "PrepareAuraScript", "de/d82/a26478.html#a383db196133bbecee06fe443fdb1bc24", null ],
+    [ "Register", "de/d82/a26478.html#a1c617b5b26805b0feb468c55337f9d4c", null ],
+    [ "Update", "de/d82/a26478.html#af3f4a7b82e099313d609df7f85f02d00", null ]
 ];

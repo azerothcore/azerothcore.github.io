@@ -1,8 +1,10 @@
 var a18182 =
 [
-    [ "Load", "dc/def/a18182.html#a16691718a2bd0901fdb7d29ec14eba08", null ],
-    [ "PeriodicTick", "dc/def/a18182.html#af6b4ea382eca8a6ec918a81254b075a3", null ],
-    [ "PrepareAuraScript", "dc/def/a18182.html#a97a737567a69f152aa577db4023d976f", null ],
-    [ "Register", "dc/def/a18182.html#a9742a2b02f47d7bfd4416e26c69cb543", null ],
-    [ "tickNo", "dc/def/a18182.html#a4d8a11b7a97ecbc6772f6e34ed011367", null ]
+    [ "HandleScript", "dc/def/a18182.html#a18c80010b9e8803b3c225acf2dd0b605", null ],
+    [ "Load", "dc/def/a18182.html#af31fd5b1f9cdc67650eec5e305f095bf", null ],
+    [ "PrepareSpellScript", "dc/def/a18182.html#afcc1efc69d73086a9ab686855911e516", null ],
+    [ "Register", "dc/def/a18182.html#a061e110b9a032a9bbd0a48f686d16a84", null ],
+    [ "ReplaceTarget", "dc/def/a18182.html#a01cb7d25bef14a2266d81594544f6283", null ],
+    [ "SelectTarget", "dc/def/a18182.html#aa06b7505ff483bc5e534cc37d909b28c", null ],
+    [ "_target", "dc/def/a18182.html#a3a84a9d7109845d201b395f05f66d109", null ]
 ];

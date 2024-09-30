@@ -1,6 +1,6 @@
 var a19450 =
 [
-    [ "PeriodicTick", "d2/d5c/a19450.html#aa664b55d83a9ba57e6a59a3493ca9c02", null ],
-    [ "PrepareAuraScript", "d2/d5c/a19450.html#a46bbd2f80ef2648c5a9870f700af8553", null ],
-    [ "Register", "d2/d5c/a19450.html#ab13ebd46f485b15f007836f7eedd8d78", null ]
+    [ "boss_krystallusAI", "d5/d10/a19454.html", "d5/d10/a19454" ],
+    [ "boss_krystallus", "d2/d5c/a19450.html#a1d7453c9d67594bfdbd650fea897666a", null ],
+    [ "GetAI", "d2/d5c/a19450.html#aba14bcfa00a5d997959abd94af647bf4", null ]
 ];

@@ -1,6 +1,7 @@
 var a28186 =
 [
-    [ "CheckRequirement", "d8/d90/a28186.html#acaae3858de4d56028e3cb4581a57450c", null ],
-    [ "PrepareSpellScript", "d8/d90/a28186.html#aa1013bb1b09aae7b691b6325c8e7a405", null ],
-    [ "Register", "d8/d90/a28186.html#aa490168c69f9ba5c12db3171516dd8ac", null ]
+    [ "Id", "d8/d90/a28186.html#a5e2447dd0f6b60e322105d8fcafd0010", null ],
+    [ "MaxLevel", "d8/d90/a28186.html#a0392e52a26bb4e1d1927fa7f76c674b8", null ],
+    [ "Modifier", "d8/d90/a28186.html#a5ce5b18749d3c75878b310bdc8427b1f", null ],
+    [ "StatMod", "d8/d90/a28186.html#ab639dd94c53707ca160e13f71342730d", null ]
 ];

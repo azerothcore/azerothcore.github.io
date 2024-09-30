@@ -1,6 +1,10 @@
 var a25038 =
 [
-    [ "spell_lady_vashj_spore_drop_effect_SpellScript", "da/de8/a25042.html", "da/de8/a25042" ],
-    [ "spell_lady_vashj_spore_drop_effect", "d8/de8/a25038.html#ae3147eb5e643de9e6a9cd128346e89bb", null ],
-    [ "GetSpellScript", "d8/de8/a25038.html#aacddc80deffc079c4fe7c7eca557fe4d", null ]
+    [ "Load", "d8/de8/a25038.html#a18e05511c2dc0b934a97e323fccc3f50", null ],
+    [ "OnApply", "d8/de8/a25038.html#a1fe8240f5c553ba56ce9c2ff9338f75b", null ],
+    [ "OnRemove", "d8/de8/a25038.html#a29834c598d6ef8299d54e48a3461e603", null ],
+    [ "PrepareAuraScript", "d8/de8/a25038.html#a0529b56b30fa7bb97c014bbc2ee4a96a", null ],
+    [ "Register", "d8/de8/a25038.html#a5174f07fde3469c2314a3c1fbba5f432", null ],
+    [ "Validate", "d8/de8/a25038.html#aeaf16594f569af671d221234a4aa2c8b", null ],
+    [ "prevItem", "d8/de8/a25038.html#ad4c0402ae71e663534ed8fd137a9afd2", null ]
 ];

@@ -1,6 +1,13 @@
 var a23342 =
 [
-    [ "spell_q24545_aod_special_SpellScript", "d0/d43/a23346.html", "d0/d43/a23346" ],
-    [ "spell_q24545_aod_special", "d9/d28/a23342.html#a903de1322e0cd798f914ece9864ef561", null ],
-    [ "GetSpellScript", "d9/d28/a23342.html#aa376d27b9a1fd02eab7a62446105e222", null ]
+    [ "boss_ghazan", "d9/d28/a23342.html#ae730362fcf3606c67b6b85147de98fb6", null ],
+    [ "DoAction", "d9/d28/a23342.html#ac016d5e06ca4f8f0bf2fa13ce2cd89e2", null ],
+    [ "InitializeAI", "d9/d28/a23342.html#a6b8c975a109dc5eb8a3e3fba03fe806e", null ],
+    [ "JustEngagedWith", "d9/d28/a23342.html#ad4136f0f63d267284f36756793c0efa7", null ],
+    [ "JustReachedHome", "d9/d28/a23342.html#af9f2dd854036d5c8b9c6703499836199", null ],
+    [ "MovementInform", "d9/d28/a23342.html#add9b2e60fb2ffc8a3905f063a2f3d0ae", null ],
+    [ "Reset", "d9/d28/a23342.html#afc9522a26060643f2f9d25a8a98691b7", null ],
+    [ "UpdateAI", "d9/d28/a23342.html#a40a6dd5ed2954be7df4612a7552e1bc0", null ],
+    [ "_movedToPlatform", "d9/d28/a23342.html#aa6c0c391355ac0b698d67796efd63062", null ],
+    [ "_reachedPlatform", "d9/d28/a23342.html#af3476318b4721bd52facaf735eabb1f9", null ]
 ];

@@ -1,6 +1,6 @@
 var a16918 =
 [
-    [ "spell_dred_raptor_call_SpellScript", "d8/d8a/a16922.html", "d8/d8a/a16922" ],
-    [ "spell_dred_raptor_call", "db/dc1/a16918.html#a5c6c9bba099cb7c9e798026bdbf2a424", null ],
-    [ "GetSpellScript", "db/dc1/a16918.html#a93ff1c4a954555cc1d08abfe0e3c81df", null ]
+    [ "npc_pos_after_first_bossAI", "d8/d8a/a16922.html", "d8/d8a/a16922" ],
+    [ "npc_pos_after_first_boss", "db/dc1/a16918.html#a76ae57195ceca454928245f2db12f68c", null ],
+    [ "GetAI", "db/dc1/a16918.html#a3f807335f79218ecc70c32f5496267a6", null ]
 ];

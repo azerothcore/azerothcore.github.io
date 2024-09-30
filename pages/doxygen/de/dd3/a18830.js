@@ -1,8 +1,17 @@
 var a18830 =
 [
-    [ "spell_sindragosa_ice_tomb_AuraScript", "d0/d1f/a18838.html", "d0/d1f/a18838" ],
-    [ "spell_sindragosa_ice_tomb_SpellScript", "d2/dc0/a18834.html", "d2/dc0/a18834" ],
-    [ "spell_sindragosa_ice_tomb", "de/dd3/a18830.html#a4a79f0ebe0a896e1ba31488d4a80f22b", null ],
-    [ "GetAuraScript", "de/dd3/a18830.html#a206ede8b3c7e93f8eceb14bba0bd9fbf", null ],
-    [ "GetSpellScript", "de/dd3/a18830.html#a32f1336e1db5cc521374eeca65b297a1", null ]
+    [ "boss_faerlinaAI", "de/dd3/a18830.html#a3a97178599b9053c23a079ed1a2ed163", null ],
+    [ "JustDied", "de/dd3/a18830.html#a7ac2e510568a9dad710beaad42db0544", null ],
+    [ "JustEngagedWith", "de/dd3/a18830.html#a830dfa4fed62b4588ea8866174d3653a", null ],
+    [ "JustSummoned", "de/dd3/a18830.html#a4b8294cccdddc77ab3d47130ae640970", null ],
+    [ "KilledUnit", "de/dd3/a18830.html#a6f7a6e66abcf4f4dd685bbb805920900", null ],
+    [ "MoveInLineOfSight", "de/dd3/a18830.html#aa5cd735c22d46e1b756f87f3952033a1", null ],
+    [ "Reset", "de/dd3/a18830.html#acee81492b9b751df587a3a2cdd691ab3", null ],
+    [ "SpellHit", "de/dd3/a18830.html#aa4fac163e31dcd9353238f993259d5ec", null ],
+    [ "SummonHelpers", "de/dd3/a18830.html#af2fbf866f87d568ee6028f0931d3b74e", null ],
+    [ "UpdateAI", "de/dd3/a18830.html#af3f25749a8964ee48830faca7135ed3a", null ],
+    [ "events", "de/dd3/a18830.html#a61c02ce073bd4cf261aca8a46bb13175", null ],
+    [ "pInstance", "de/dd3/a18830.html#a7ee42aa0dc3d035e5f3033146a624fda", null ],
+    [ "sayGreet", "de/dd3/a18830.html#a5f20e23458886c4f38c8f4a032e903d6", null ],
+    [ "summons", "de/dd3/a18830.html#ae6eabcd889a786344b10165de952c5f7", null ]
 ];

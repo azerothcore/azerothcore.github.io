@@ -1,5 +1,6 @@
 var a21630 =
 [
-    [ "achievement_ignis_shattered", "d1/d10/a21630.html#adbe893b0dd409eb3f10768f81f182f61", null ],
-    [ "OnCheck", "d1/d10/a21630.html#a8a77a6e6979b4b09f5208e51b4faa4c1", null ]
+    [ "npc_archmage_landalockAI", "d4/dff/a21634.html", "d4/dff/a21634" ],
+    [ "npc_archmage_landalock", "d1/d10/a21630.html#ac7379ff07740123312af66ead64df4c6", null ],
+    [ "GetAI", "d1/d10/a21630.html#a92cfa8c2660413681297bfe12815c938", null ]
 ];

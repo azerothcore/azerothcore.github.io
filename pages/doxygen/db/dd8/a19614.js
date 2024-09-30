@@ -1,6 +1,8 @@
 var a19614 =
 [
-    [ "spell_icc_stoneform_AuraScript", "d3/d95/a19618.html", "d3/d95/a19618" ],
-    [ "spell_icc_stoneform", "db/dd8/a19614.html#abe86fe055ee364229b4f3c03738b1856", null ],
-    [ "GetAuraScript", "db/dd8/a19614.html#ac88c88f834624f99a62ed7daa6b00b32", null ]
+    [ "go_celestial_planetarium_accessAI", "db/dd8/a19614.html#aca4d0e9babd6eefe84edc281f8a44cf2", null ],
+    [ "GossipHello", "db/dd8/a19614.html#af159df46fecf2cd74ac4ec9fa006dc03", null ],
+    [ "UpdateAI", "db/dd8/a19614.html#a9b2bfb74a12e3258476387fc78cde574", null ],
+    [ "_locked", "db/dd8/a19614.html#a37f83dbbb05e461d613a4c38001f785c", null ],
+    [ "events", "db/dd8/a19614.html#aa03b8d270054f2b71c1d625abe322fb8", null ]
 ];

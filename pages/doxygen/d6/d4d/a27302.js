@@ -1,7 +1,6 @@
 var a27302 =
 [
-    [ "HandleScriptEffect", "d6/d4d/a27302.html#ab1d476e7a07da5db80908fb669b6fa6b", null ],
-    [ "PrepareSpellScript", "d6/d4d/a27302.html#acf30d245bab2e7a1ee1121008345e667", null ],
-    [ "Register", "d6/d4d/a27302.html#a303a38a41f3d9be6e3083690b234e51f", null ],
-    [ "Validate", "d6/d4d/a27302.html#a77a3256cdea185ce0ea95d88283c55d7", null ]
+    [ "guard_shattrath_scryerAI", "dc/d9c/a27306.html", "dc/d9c/a27306" ],
+    [ "guard_shattrath_scryer", "d6/d4d/a27302.html#a2ee4d6881d7c24cd848c590b84207663", null ],
+    [ "GetAI", "d6/d4d/a27302.html#ab1d937102f63c63de4c92e45eff2c21c", null ]
 ];

@@ -1,6 +1,7 @@
 var a25766 =
 [
-    [ "HandleBeforeCast", "d6/d7b/a25766.html#a5adc3fc40a1534b771badc284b7dcaad", null ],
-    [ "PrepareSpellScript", "d6/d7b/a25766.html#a1aa61ff2e1046d041b7f8ca8b7e0afc5", null ],
-    [ "Register", "d6/d7b/a25766.html#a68f2d1191b131e0407eae88408ad3242", null ]
+    [ "HandleDummy", "d6/d7b/a25766.html#ac3486a646322ef1b6098eeeedaec7d4b", null ],
+    [ "PrepareSpellScript", "d6/d7b/a25766.html#a455bdb8fb98431d47b3e414dc3b59b13", null ],
+    [ "Register", "d6/d7b/a25766.html#acdade97c38a75439b3da751a0c348e37", null ],
+    [ "Validate", "d6/d7b/a25766.html#a2081334e6b7a4191801bc0556e26198c", null ]
 ];

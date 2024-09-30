@@ -1,9 +1,19 @@
 var a15678 =
 [
-    [ "go_wind_stoneAI", "da/d79/a15678.html#a4370be2b59ea50bf5ea2285bfbf4e242", null ],
-    [ "GossipHello", "da/d79/a15678.html#a73f129b7b636a1178fe3402cf1e6c50d", null ],
-    [ "GossipSelect", "da/d79/a15678.html#aff4dedbf3a6fea405722f7064633edb1", null ],
-    [ "InitializeAI", "da/d79/a15678.html#a33f98d1de05b539a66c4103b4c61de1f", null ],
-    [ "SummonNPC", "da/d79/a15678.html#ab44f563b8f117a19ac78508c3cba72e9", null ],
-    [ "_creatureGuid", "da/d79/a15678.html#a50ad8b248381a6d9fac7a291796966d6", null ]
+    [ "boss_taldaram", "da/d79/a15678.html#a6438d3534aca5e4a92afb3e6c6e24f73", null ],
+    [ "DamageTaken", "da/d79/a15678.html#a44d94f39e23720810acb40550f1c178a", null ],
+    [ "DoAction", "da/d79/a15678.html#aee1cf0553e8c7ebebea4a83f2d7e6d5d", null ],
+    [ "InitializeAI", "da/d79/a15678.html#a3d5b4628d6fb2db91ed073b042eefdc4", null ],
+    [ "JustDied", "da/d79/a15678.html#a4b6c0f51fd3a2a8c00ef095eeeea785d", null ],
+    [ "JustEngagedWith", "da/d79/a15678.html#a07e1cb5b53906f92a1f485340aa004e5", null ],
+    [ "JustSummoned", "da/d79/a15678.html#a5ae9201a71fa665908f924647b262825", null ],
+    [ "KilledUnit", "da/d79/a15678.html#a8fe516a08547ec03e8114b07e9c87d1f", null ],
+    [ "MovementInform", "da/d79/a15678.html#a17ca98f742a06b1496b2216e984811d8", null ],
+    [ "Reset", "da/d79/a15678.html#ae26fec572206d2f1f9acc229ee797496", null ],
+    [ "ScheduleCombatEvents", "da/d79/a15678.html#a247e5357fcdf8da8e00bef09f3568ca3", null ],
+    [ "SpellHitTarget", "da/d79/a15678.html#a0f228ea10a538a9ecf70b9f54d399150", null ],
+    [ "UpdateAI", "da/d79/a15678.html#a8ae18c5fd1c5df67edaf1921b5504ce1", null ],
+    [ "vanishDamage", "da/d79/a15678.html#a85d8c95320e6f1f486a39043218f0350", null ],
+    [ "vanishTarget_GUID", "da/d79/a15678.html#a211707b3e9476a22be011567882f018a", null ],
+    [ "victimSperePos", "da/d79/a15678.html#a06efb376b0d08207a0efce74770f21dc", null ]
 ];

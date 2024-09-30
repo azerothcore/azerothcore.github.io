@@ -1,6 +1,6 @@
 var a12486 =
 [
-    [ "spell_q12698_the_gift_that_keeps_on_giving_SpellScript", "d7/db0/a12490.html", "d7/db0/a12490" ],
-    [ "spell_q12698_the_gift_that_keeps_on_giving", "de/dca/a12486.html#a9b4722d731a886d02940498087e249e6", null ],
-    [ "GetSpellScript", "de/dca/a12486.html#a25403a19cc427d7c6da9da1c3334ff1d", null ]
+    [ "boss_yazzai", "de/dca/a12486.html#a6c92ffeff3e56f98cb1bd08f1835fe10", null ],
+    [ "JustEngagedWith", "de/dca/a12486.html#ab504de0e51a3715485eb65e006352a6f", null ],
+    [ "UpdateAI", "de/dca/a12486.html#a44e33c5012310bb4edb49ca6c0726bc0", null ]
 ];

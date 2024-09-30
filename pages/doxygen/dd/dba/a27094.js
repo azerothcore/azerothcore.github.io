@@ -1,7 +1,9 @@
 var a27094 =
 [
-    [ "HandleDummy", "dd/dba/a27094.html#ab00358dc50fa943685fdd87e5a8ac224", null ],
-    [ "Load", "dd/dba/a27094.html#a31075533c24011797bd0f99dce5e8330", null ],
-    [ "PrepareSpellScript", "dd/dba/a27094.html#abf0acc8765f6e02674b8e93aca575a98", null ],
-    [ "Register", "dd/dba/a27094.html#ad1bd05a154b506424954ef879e5b9fba", null ]
+    [ "ChatLogScript", "dd/dba/a27094.html#ade8c407083cf094f0767412e7b6d7730", null ],
+    [ "OnChat", "dd/dba/a27094.html#a44694358d5babfd988c6c64e738a4f80", null ],
+    [ "OnChat", "dd/dba/a27094.html#ac0a0f2e7d63cb5ff94be3d1a7c7a62b4", null ],
+    [ "OnChat", "dd/dba/a27094.html#a53b69eaa690266d38f08aa3920048353", null ],
+    [ "OnChat", "dd/dba/a27094.html#a7b6ce21ddcda078a0ed32ce130a3b376", null ],
+    [ "OnChat", "dd/dba/a27094.html#ab7e9d4f50e33c4ddd49e98157deb29ba", null ]
 ];

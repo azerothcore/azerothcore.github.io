@@ -1,6 +1,8 @@
 var a05386 =
 [
-    [ "Append", "d0/d12/a05386.html#a290b052f7cbd321c646e9e5e19484444", null ],
-    [ "Append", "d0/d12/a05386.html#a867b7a92080104278aef5fb4975a4a52", null ],
-    [ "Append", "d0/d12/a05386.html#aa0a81814abe26d456018c3bc9153cd4d", null ]
+    [ "result_type", "d0/d12/a05386.html#a20f96383bade76c6185d8f20f458784e", null ],
+    [ "Instance", "d0/d12/a05386.html#a5ff7fcb1f8d34861b0c210eddc450681", null ],
+    [ "max", "d0/d12/a05386.html#ad5dcf280f768ebd79210caf6ecff4290", null ],
+    [ "min", "d0/d12/a05386.html#ab153ffca65139db4084745302dd4db7f", null ],
+    [ "operator()", "d0/d12/a05386.html#afe5f6dd94cbc6add3fd13fa3fe37b60d", null ]
 ];

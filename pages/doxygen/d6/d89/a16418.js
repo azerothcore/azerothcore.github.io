@@ -1,6 +1,6 @@
 var a16418 =
 [
-    [ "CountAllies", "d6/d89/a16418.html#ad14f84bc6a7aeb6684189867101d538a", null ],
-    [ "PrepareSpellScript", "d6/d89/a16418.html#ae8eded8275900a3ddb32111947a1f7b2", null ],
-    [ "Register", "d6/d89/a16418.html#a6a53f0ba882c65dc608697578e1b97e2", null ]
+    [ "boss_acidmawAI", "d6/d8e/a16422.html", "d6/d8e/a16422" ],
+    [ "boss_acidmaw", "d6/d89/a16418.html#a86e71bf9ae950a4f8efa58d6f679e8bf", null ],
+    [ "GetAI", "d6/d89/a16418.html#aacbd4c83e6e9c9790e6cf9a87e3aa9a0", null ]
 ];

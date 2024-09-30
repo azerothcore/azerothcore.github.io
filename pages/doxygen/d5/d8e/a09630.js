@@ -1,10 +1,10 @@
 var a09630 =
 [
-    [ "QuestStatusData", "d5/d8e/a09630.html#ae71725a7f75e10aacb6f4a9ca4b72f27", null ],
-    [ "CreatureOrGOCount", "d5/d8e/a09630.html#aa5892dc0744a41ac565568307f12ad35", null ],
-    [ "Explored", "d5/d8e/a09630.html#a734f6a61aa35c77689d33031e88f0c0b", null ],
-    [ "ItemCount", "d5/d8e/a09630.html#a466999cea52f65bf58916bc34750bf95", null ],
-    [ "PlayerCount", "d5/d8e/a09630.html#a170a1e54fe45b7fd0c7934f1309f7969", null ],
-    [ "Status", "d5/d8e/a09630.html#a4ce7af3a64737d7961b6dfa19189c932", null ],
-    [ "Timer", "d5/d8e/a09630.html#a16343f7a162e5b7b6a1a18345420c77a", null ]
+    [ "ChaseRange", "d5/d8e/a09630.html#acd43ed01c9e4845d82e4d240b5c35167", null ],
+    [ "ChaseRange", "d5/d8e/a09630.html#aaf19c63398d31699ed1703ae1ba5f1b6", null ],
+    [ "ChaseRange", "d5/d8e/a09630.html#a397b3789449b1c178f11f64313498c4d", null ],
+    [ "MaxRange", "d5/d8e/a09630.html#ae2a846630e79f3a15a5d93b18c68c915", null ],
+    [ "MaxTolerance", "d5/d8e/a09630.html#a7909b18028d43c84eca5feee3e41469c", null ],
+    [ "MinRange", "d5/d8e/a09630.html#a0e2c69e20d6a38d056505c3b5b0d9fd6", null ],
+    [ "MinTolerance", "d5/d8e/a09630.html#a7b640ecfc0e80921ab36c2c33f0b10fd", null ]
 ];

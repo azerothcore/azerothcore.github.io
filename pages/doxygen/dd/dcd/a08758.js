@@ -1,7 +1,6 @@
 var a08758 =
 [
-    [ "AnyUnfriendlyAttackableVisibleUnitInObjectRangeCheck", "dd/dcd/a08758.html#a038f512c564e4ae18571ac1836897edb", null ],
-    [ "operator()", "dd/dcd/a08758.html#a3bc09bf6fc4481c67190f57dc4198f6e", null ],
-    [ "i_funit", "dd/dcd/a08758.html#a3a0742f36f0a0a22c4ae6a2c8b8269b6", null ],
-    [ "i_range", "dd/dcd/a08758.html#a953943e53e25b6887bfab8cc1c19620a", null ]
+    [ "EmoteDelay", "dd/dcd/a08758.html#a053adbedc95026b192360e13d32c9401", null ],
+    [ "EmoteType", "dd/dcd/a08758.html#aa5189cb250b3f46086ecd69dee23414b", null ],
+    [ "Greeting", "dd/dcd/a08758.html#a84aa5fced9b8989487d1468c4eccb976", null ]
 ];

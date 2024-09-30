@@ -1,6 +1,6 @@
 var a21070 =
 [
-    [ "npc_hodirs_furyAI", "d5/d82/a21074.html", "d5/d82/a21074" ],
-    [ "npc_hodirs_fury", "d6/dfe/a21070.html#af5e0f1cb4c478bd4fc9ec246aa7d7e08", null ],
-    [ "GetAI", "d6/dfe/a21070.html#ad8856a6da86a8f4ce744d57614ee16e6", null ]
+    [ "npc_frenzied_worgenAI", "d5/d82/a21074.html", "d5/d82/a21074" ],
+    [ "npc_frenzied_worgen", "d6/dfe/a21070.html#ad46eb89ab86876950652f6dd6b7dc91a", null ],
+    [ "GetAI", "d6/dfe/a21070.html#a1ed46e8e6bd001f8f35492f340ab1d56", null ]
 ];

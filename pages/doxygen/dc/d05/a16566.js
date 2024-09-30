@@ -1,8 +1,8 @@
 var a16566 =
 [
-    [ "npc_frost_sphereAI", "dc/d05/a16566.html#ae697a98d23d94315768dc866852b6e07", null ],
-    [ "DamageTaken", "dc/d05/a16566.html#a3960f19b456f29a33016d799809a82a8", null ],
-    [ "SpellHit", "dc/d05/a16566.html#af842d47f1e8462fb6368e9dc7a070b84", null ],
-    [ "UpdateAI", "dc/d05/a16566.html#a4e866332045135c867f2b9ee871db0c2", null ],
-    [ "permafrostTimer", "dc/d05/a16566.html#adf7b1b447d0d05a498dd8603dbfab1ab", null ]
+    [ "HandleEffectApply", "dc/d05/a16566.html#a92b98d9b9be98c330b6efbe34dae235b", null ],
+    [ "HandleEffectRemove", "dc/d05/a16566.html#a04504220319ec562b1b6691f471c1b8d", null ],
+    [ "PrepareAuraScript", "dc/d05/a16566.html#a10fd29809373bcfaf38fd587fcdd1dee", null ],
+    [ "Register", "dc/d05/a16566.html#a9160c940913e4829bd0a6fe269c3b5d3", null ],
+    [ "Validate", "dc/d05/a16566.html#a7f7750933e122e8c672b6b93f4801cd7", null ]
 ];

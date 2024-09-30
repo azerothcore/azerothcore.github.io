@@ -1,6 +1,6 @@
 var a19534 =
 [
-    [ "npc_crok_scourgebaneAI", "d2/d36/a19538.html", "d2/d36/a19538" ],
-    [ "npc_crok_scourgebane", "d4/dc7/a19534.html#a5f560e2c62aa618eadb5a11e2c9b90a3", null ],
-    [ "GetAI", "d4/dc7/a19534.html#afa4fcbb9d7281fbee3f8bc0f318d2e6b", null ]
+    [ "dark_rune_stormcallerAI", "d2/d36/a19538.html", "d2/d36/a19538" ],
+    [ "dark_rune_stormcaller", "d4/dc7/a19534.html#ab31774011fc3e1e8ffa1a3b7c5cbfbcc", null ],
+    [ "GetAI", "d4/dc7/a19534.html#a9072aaf482106cfae0d3901507b47f60", null ]
 ];

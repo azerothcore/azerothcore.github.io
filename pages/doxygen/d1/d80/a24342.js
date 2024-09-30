@@ -1,6 +1,9 @@
 var a24342 =
 [
-    [ "boss_gurtogg_bloodboilAI", "da/d0b/a24346.html", "da/d0b/a24346" ],
-    [ "boss_gurtogg_bloodboil", "d1/d80/a24342.html#ae048bbcfaadcf6d99dffa871cedf4b33", null ],
-    [ "GetAI", "d1/d80/a24342.html#ae1cded61e19a654b562533c606938f38", null ]
+    [ "npc_pet_gen_soul_trader_beacon", "d1/d80/a24342.html#a58ef19b8c08aee764bdd55e480d9d750", null ],
+    [ "GetOwner", "d1/d80/a24342.html#a72bfd4cf6c734d1f1070a1560131667d", null ],
+    [ "SpellHitTarget", "d1/d80/a24342.html#a6c0d3181b913c5022325f66586f66bfa", null ],
+    [ "UpdateAI", "d1/d80/a24342.html#a18c06958e6b3d4306a6fdb5f9924d7ff", null ],
+    [ "events", "d1/d80/a24342.html#ae0a6d4850a0a0da4bd04227b11bae9e4", null ],
+    [ "ownerGUID", "d1/d80/a24342.html#a3a42e83216c0111a740a0c89e57c6f62", null ]
 ];

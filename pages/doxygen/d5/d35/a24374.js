@@ -1,6 +1,8 @@
 var a24374 =
 [
-    [ "npc_akama_illidanAI", "d2/d59/a24378.html", "d2/d59/a24378" ],
-    [ "npc_akama_illidan", "d5/d35/a24374.html#a85a312a767fb181f0bd626eb48e8e891", null ],
-    [ "GetAI", "d5/d35/a24374.html#a75648fc8291574b7bf16cd0c8e015384", null ]
+    [ "npc_pet_gen_wind_rider_cub", "d5/d35/a24374.html#a17e1f3155b9a9864459e48d1cd11c6a6", null ],
+    [ "UpdateAI", "d5/d35/a24374.html#a534d122522d553e106e6c7729d6c55db", null ],
+    [ "checkTimer", "d5/d35/a24374.html#a39fcfc5f5d9a630180713512db778b32", null ],
+    [ "checkTimer2", "d5/d35/a24374.html#aabeaf7a9b5b77df540e1111950860e98", null ],
+    [ "isFlying", "d5/d35/a24374.html#a57124f8172bd15a5e6c708edff41dc2f", null ]
 ];

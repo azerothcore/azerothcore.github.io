@@ -1,6 +1,9 @@
 var a18390 =
 [
-    [ "spell_marrowgar_coldflame_SpellScript", "d2/da3/a18394.html", "d2/da3/a18394" ],
-    [ "spell_marrowgar_coldflame", "de/d9a/a18390.html#a970658571e0389a831c67b08ae47e437", null ],
-    [ "GetSpellScript", "de/d9a/a18390.html#ad6af67ac48209a7116293bc1cf215a1b", null ]
+    [ "npc_gluttonous_abominationAI", "de/d9a/a18390.html#a8b9b632e2e26ef8d0e8c122d28530e81", null ],
+    [ "JustDied", "de/d9a/a18390.html#abc0dd71bbaf85786f34367acc3a849e9", null ],
+    [ "JustSummoned", "de/d9a/a18390.html#a49ff3db7845167b9e98feab2a01b1ed1", null ],
+    [ "Reset", "de/d9a/a18390.html#a45588181429a74ac024e0390c76fa57a", null ],
+    [ "UpdateAI", "de/d9a/a18390.html#a33ef03a9f005ff187493275a9c2683a7", null ],
+    [ "_events", "de/d9a/a18390.html#a4a841c7d2565f4797bc893a9c1ee7acd", null ]
 ];

@@ -1,6 +1,6 @@
 var a23222 =
 [
-    [ "npc_conversing_with_the_depths_triggerAI", "db/d45/a23226.html", "db/d45/a23226" ],
-    [ "npc_conversing_with_the_depths_trigger", "d2/d9b/a23222.html#a55ba213da86650d44ea1493b26fdb7f2", null ],
-    [ "GetAI", "d2/d9b/a23222.html#a61c337bfe1efb3589cf0df91d9082236", null ]
+    [ "HandlePeriodic", "d2/d9b/a23222.html#a25c698e911ec02d9cd7f757ba87281df", null ],
+    [ "PrepareAuraScript", "d2/d9b/a23222.html#a7bf79bc5e5f509b52965f03e998db399", null ],
+    [ "Register", "d2/d9b/a23222.html#ab3eec9f591384c7c1c684651c38aa614", null ]
 ];

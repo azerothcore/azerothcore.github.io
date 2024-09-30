@@ -1,6 +1,6 @@
 var a19622 =
 [
-    [ "spell_icc_sprit_alarm_SpellScript", "d5/df3/a19626.html", "d5/df3/a19626" ],
-    [ "spell_icc_sprit_alarm", "dd/d8b/a19622.html#a7ad8007c34d5d75354c5ef391bbb4904", null ],
-    [ "GetSpellScript", "dd/d8b/a19622.html#a21b2c00338f9467639c7b72c4c4ec621", null ]
+    [ "HandlePeriodic", "dd/d8b/a19622.html#a0a77c0b232e24e5cb8b3392ac8adbd3a", null ],
+    [ "PrepareAuraScript", "dd/d8b/a19622.html#a7c6b6839da4a93f656800c9ae174c832", null ],
+    [ "Register", "dd/d8b/a19622.html#ae28e67baa12488e248efd46ef5a7cb11", null ]
 ];

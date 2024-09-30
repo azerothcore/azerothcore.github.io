@@ -1,6 +1,5 @@
 var a10310 =
 [
-    [ "PetAbandon", "d5/dea/a10310.html#aeac05969ce6bdb41a02f7ffe56126dfd", null ],
-    [ "Read", "d5/dea/a10310.html#a58ebb244de4bd65a85f75dcc24250883", null ],
-    [ "PetGUID", "d5/dea/a10310.html#a7175c081b7cb691ceb4729c1abc5028e", null ]
+    [ "GuildEventLogQuery", "d5/dea/a10310.html#af66d667a4b722745fa4f855870ef332c", null ],
+    [ "Read", "d5/dea/a10310.html#a48881f116070d5a7c03e7cace86656f6", null ]
 ];

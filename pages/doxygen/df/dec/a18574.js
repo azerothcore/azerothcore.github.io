@@ -1,8 +1,7 @@
 var a18574 =
 [
-    [ "spell_putricide_mutation_init_AuraScript", "d6/dab/a18582.html", "d6/dab/a18582" ],
-    [ "spell_putricide_mutation_init_SpellScript", "d3/d36/a18578.html", "d3/d36/a18578" ],
-    [ "spell_putricide_mutation_init", "df/dec/a18574.html#a0113370be118144e657efa83507adb6b", null ],
-    [ "GetAuraScript", "df/dec/a18574.html#a11fc02f6923da04518ae1355c0068c9c", null ],
-    [ "GetSpellScript", "df/dec/a18574.html#aeb39117181835a570763babfdcf0c3ed", null ]
+    [ "Land", "df/dec/a18574.html#ad2fd3d7c81e3ef22cb3767914f649fd0", null ],
+    [ "PrepareSpellScript", "df/dec/a18574.html#a31e45adb87719c311fb5b94b2b744487", null ],
+    [ "Register", "df/dec/a18574.html#a652eca6ec8079b2835d911807857c8a8", null ],
+    [ "RemoveAliveTarget", "df/dec/a18574.html#abdb5f624b30a046eed9ca6ad7c347010", null ]
 ];

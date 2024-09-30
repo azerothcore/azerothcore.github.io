@@ -1,10 +1,12 @@
 var a13382 =
 [
-    [ "npc_partygoer_pather", "d7/d3e/a13382.html#a15a0e517e8671afb9d636ebe781a4bcd", null ],
-    [ "Initialize", "d7/d3e/a13382.html#afb114b0587c550e39c41e131364da663", null ],
-    [ "PathEndReached", "d7/d3e/a13382.html#a55833d306716ba411f96ecd024cc7c72", null ],
-    [ "Reset", "d7/d3e/a13382.html#ade2cc36ff49001138eee5b607ec83b12", null ],
-    [ "UpdateAI", "d7/d3e/a13382.html#a4d222399b6b789e7a2a2faa4765116a6", null ],
-    [ "_events", "d7/d3e/a13382.html#ac210dc0286ded980e78743237a08bb23", null ],
-    [ "_path", "d7/d3e/a13382.html#a4da184c44858e99eca2b07193fd48f13", null ]
+    [ "npc_corporal_keeshanAI", "d7/d3e/a13382.html#aac5b72ede6e1496f80c4c2520e886efd", null ],
+    [ "Reset", "d7/d3e/a13382.html#a311488932a3de9153490d41e3fae92fb", null ],
+    [ "sQuestAccept", "d7/d3e/a13382.html#a52dd95c74b1457ad5b496b28fd183b06", null ],
+    [ "UpdateAI", "d7/d3e/a13382.html#a973cf65978e531dc8bd7db20fc2809b6", null ],
+    [ "WaypointReached", "d7/d3e/a13382.html#a3edc9ab54068e47f955116db70454f6c", null ],
+    [ "mockingBlowTimer", "d7/d3e/a13382.html#a21cd1ca86864b8507d43e5a1c4c13e0c", null ],
+    [ "phase", "d7/d3e/a13382.html#ae79dcfdb10738d673e8c1aebc6abdee6", null ],
+    [ "shieldBashTimer", "d7/d3e/a13382.html#abb5eaa25a77dd3e6dfff7aaa0aa6c375", null ],
+    [ "timer", "d7/d3e/a13382.html#a3107368f175aa7f4e8c405248ef917df", null ]
 ];

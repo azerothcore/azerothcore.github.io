@@ -1,7 +1,6 @@
 var a27018 =
 [
-    [ "HandleEffectApply", "d7/d37/a27018.html#a97a639459622c9e3e995057989cf9eda", null ],
-    [ "HandleEffectRemove", "d7/d37/a27018.html#a7477bb78ffcc082c111bad4e93b9fd73", null ],
-    [ "PrepareAuraScript", "d7/d37/a27018.html#aa3c4018e18eccd8f12e4607f4bc630ec", null ],
-    [ "Register", "d7/d37/a27018.html#a40793c696a759db4920c4c34f5b9fa66", null ]
+    [ "AreaTrigger_at_brewfest", "d7/d37/a27018.html#ad7e2916aefc6efbfb9f747a75a4a14a3", null ],
+    [ "OnTrigger", "d7/d37/a27018.html#a17e4a8d671136466c7673789e4f69a84", null ],
+    [ "_triggerTimes", "d7/d37/a27018.html#ab763765427796ad17338bcc8d63cf891", null ]
 ];

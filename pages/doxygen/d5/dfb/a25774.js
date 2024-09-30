@@ -1,6 +1,8 @@
 var a25774 =
 [
-    [ "PrepareSpellScript", "d5/dfb/a25774.html#a63098792c69fed46a146c35585602280", null ],
-    [ "Register", "d5/dfb/a25774.html#a1bae14bf94aad0748bb470a70a28c790", null ],
-    [ "SelectTarget", "d5/dfb/a25774.html#a3f5eea2a6c75298ad5099183645a12a9", null ]
+    [ "HandleDummy", "d5/dfb/a25774.html#ae73e0d900e5b33f47bf2ba45d8ab26ce", null ],
+    [ "Load", "d5/dfb/a25774.html#a5c0e5de94faca0c2841153f7a099d2eb", null ],
+    [ "PrepareSpellScript", "d5/dfb/a25774.html#af89de259afbab436326a67b9eb7833ad", null ],
+    [ "Register", "d5/dfb/a25774.html#a78ffb20ccc10c3c632934af862273716", null ],
+    [ "Validate", "d5/dfb/a25774.html#ace6bdf4755f1d1c95011bb782cb2e59e", null ]
 ];

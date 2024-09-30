@@ -1,6 +1,6 @@
 var a20570 =
 [
-    [ "HandlePeriodic", "db/d9f/a20570.html#ab4e35ae632057471dde8f945a642bf41", null ],
-    [ "PrepareAuraScript", "db/d9f/a20570.html#a3dbf487f7f17fe7f67558da1fee533d6", null ],
-    [ "Register", "db/d9f/a20570.html#a758d8f38dd0ee563a65e1028b709cae7", null ]
+    [ "boss_thorim_arena_npcsAI", "dd/d1b/a20574.html", "dd/d1b/a20574" ],
+    [ "boss_thorim_arena_npcs", "db/d9f/a20570.html#a60d22280bb1eb3c9da92deb08e887942", null ],
+    [ "GetAI", "db/d9f/a20570.html#a3709e1c9df32755f5932398ba3535f2f", null ]
 ];

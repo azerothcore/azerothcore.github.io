@@ -1,6 +1,7 @@
 var a19150 =
 [
-    [ "ModDest", "da/d2c/a19150.html#abea9a7a54610d72c87d05e2ad1a806ca", null ],
-    [ "PrepareSpellScript", "da/d2c/a19150.html#a4164b92f03eed302f77bbd51f65df599", null ],
-    [ "Register", "da/d2c/a19150.html#a16048cb0eacd5486db5fdcd96422d13c", null ]
+    [ "EoEDrakeEnterVehicleEvent", "da/d2c/a19150.html#afc529efe07da017e529dc6d5ebc6e7dc", null ],
+    [ "Execute", "da/d2c/a19150.html#a368a613ba7861f7903b80e6f7f0dd64f", null ],
+    [ "_owner", "da/d2c/a19150.html#ab48302fdff800afddfeec2c0d756873c", null ],
+    [ "_playerGUID", "da/d2c/a19150.html#add56bff0695453e01f300e0434a39ec8", null ]
 ];

@@ -1,6 +1,8 @@
 var a13078 =
 [
-    [ "OnRemove", "d4/d99/a13078.html#a15f6079d022c8a7e988eef5c6832b319", null ],
-    [ "PrepareAuraScript", "d4/d99/a13078.html#a5b1fec1208ccae2d0abe17b63a069059", null ],
-    [ "Register", "d4/d99/a13078.html#a24a707cb67f759873dc13917d1de465a", null ]
+    [ "CheckCast", "d4/d99/a13078.html#a414c603646c1a6be9bbb7059abbb7e71", null ],
+    [ "HandleScriptEffect", "d4/d99/a13078.html#a22f630cb9df4b435a5624f2865915753", null ],
+    [ "PrepareSpellScript", "d4/d99/a13078.html#a6e6b27ade1cac743946a976dbf343066", null ],
+    [ "Register", "d4/d99/a13078.html#a4afae0bafceeb6e6a9a26aea2162d4d9", null ],
+    [ "Validate", "d4/d99/a13078.html#a85779288126b21f516f2feb0238ee65b", null ]
 ];

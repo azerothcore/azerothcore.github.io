@@ -1,6 +1,6 @@
 var a21182 =
 [
-    [ "spell_tar_blaze_AuraScript", "d9/dd0/a21186.html", "d9/dd0/a21186" ],
-    [ "spell_tar_blaze", "dc/d68/a21182.html#a221552729227b604910a805efc9da7a8", null ],
-    [ "GetAuraScript", "dc/d68/a21182.html#aa4f88738b462d9dbcde1ec1eade6cfd1", null ]
+    [ "spell_voa_lightning_nova_SpellScript", "d9/dd0/a21186.html", "d9/dd0/a21186" ],
+    [ "spell_voa_lightning_nova", "dc/d68/a21182.html#a115e191504d0d03afa2947e8ac540f3c", null ],
+    [ "GetSpellScript", "dc/d68/a21182.html#aeda9c8cb8ab982f103ac5d4e97ca0751", null ]
 ];

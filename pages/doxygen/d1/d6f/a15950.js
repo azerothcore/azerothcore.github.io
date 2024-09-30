@@ -1,6 +1,10 @@
 var a15950 =
 [
-    [ "ModDestHeight", "d1/d6f/a15950.html#a8bda9327c4244af41c513528ad5c818c", null ],
-    [ "PrepareSpellScript", "d1/d6f/a15950.html#aba5a03c94fa5d87c46a91369875c0ab2", null ],
-    [ "Register", "d1/d6f/a15950.html#a62b0ce71caeff96705b15aa240ddd09f", null ]
+    [ "spell_halion_combustion_consumption_aura", "d1/d6f/a15950.html#a8b67aee76c7288748757e6bec7f4cb78", null ],
+    [ "AddMarkStack", "d1/d6f/a15950.html#a337776c42bd6c42ecdffb508808ed070", null ],
+    [ "OnApply", "d1/d6f/a15950.html#afeea3e5026e6d8472440c9cffac9bce9", null ],
+    [ "OnRemove", "d1/d6f/a15950.html#a3959dbe8bbdf2d3953daf14072614708", null ],
+    [ "PrepareAuraScript", "d1/d6f/a15950.html#a334f2211429dde989b6beb6c10a71464", null ],
+    [ "Register", "d1/d6f/a15950.html#affc66a03e9d1eaef30a54b8a044734b8", null ],
+    [ "_markSpell", "d1/d6f/a15950.html#a8236d9d50f267a12216d90f8041da439", null ]
 ];

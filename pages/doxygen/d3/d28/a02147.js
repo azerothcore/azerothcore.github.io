@@ -1,59 +1,25 @@
 var a02147 =
 [
-    [ "ObjectGuidTraits< high >", "d2/de7/a08156.html", "d2/de7/a08156" ],
-    [ "PackedGuidReader", "d8/db5/a08160.html", "d8/db5/a08160" ],
-    [ "ObjectGuid", "d0/dba/a08164.html", "d0/dba/a08164" ],
-    [ "PackedGuid", "d9/dae/a08168.html", "d9/dae/a08168" ],
-    [ "ObjectGuidGeneratorBase", "d1/d32/a08172.html", "d1/d32/a08172" ],
-    [ "ObjectGuidGenerator< high >", "d2/dae/a08176.html", "d2/dae/a08176" ],
-    [ "std::hash< ObjectGuid >", "d7/ddf/a08180.html", "d7/ddf/a08180" ],
-    [ "GUID_TRAIT_GLOBAL", "d3/d28/a02147.html#a4d3dbad84884c4977ba2be1ac82cc142", null ],
-    [ "GUID_TRAIT_MAP_SPECIFIC", "d3/d28/a02147.html#acdd3815893762a2491365b8fd25c7283", null ],
-    [ "NUM_CLIENT_OBJECT_TYPES", "d3/d28/a02147.html#ae616985e1e68f294e055e2bced156ada", null ],
-    [ "PACKED_GUID_MIN_BUFFER_SIZE", "d3/d28/a02147.html#ac7c846a04172e6d96c6096780b5d05b0", null ],
-    [ "GuidDeque", "d3/d28/a02147.html#a393d9824dfb17afe3b82652e89eccc68", null ],
-    [ "GuidList", "d3/d28/a02147.html#a5951d383f157ff0ed6d23ecef2213a4b", null ],
-    [ "GuidSet", "d3/d28/a02147.html#a62874da4f73709809fa3c7609d3e30af", null ],
-    [ "GuidUnorderedSet", "d3/d28/a02147.html#a407d39fdbc20e1e06960539245ee6a25", null ],
-    [ "GuidVector", "d3/d28/a02147.html#a173958393e55b3150391dfb3a6d387ed", null ],
-    [ "HighGuid", "d3/d28/a02147.html#abe8666ac87665ba963053cdd2b014750", [
-      [ "Item", "d3/d28/a02147.html#abe8666ac87665ba963053cdd2b014750a7d74f3b92b19da5e606d737d339a9679", null ],
-      [ "Container", "d3/d28/a02147.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2", null ],
-      [ "Player", "d3/d28/a02147.html#abe8666ac87665ba963053cdd2b014750a636da1d35e805b00eae0fcd8333f9234", null ],
-      [ "GameObject", "d3/d28/a02147.html#abe8666ac87665ba963053cdd2b014750a3d164a4fbbdd103bddb596268f741bae", null ],
-      [ "Transport", "d3/d28/a02147.html#abe8666ac87665ba963053cdd2b014750af5f0c488ed56cf789d19a13ffba8abe3", null ],
-      [ "Unit", "d3/d28/a02147.html#abe8666ac87665ba963053cdd2b014750a19c562a36aeb455d09534f93b4f5236f", null ],
-      [ "Pet", "d3/d28/a02147.html#abe8666ac87665ba963053cdd2b014750a7c986af4cf8f6e55a1f846dc498ce91d", null ],
-      [ "Vehicle", "d3/d28/a02147.html#abe8666ac87665ba963053cdd2b014750ad6af9c1eaff2a89ebd3f8d0c542be12b", null ],
-      [ "DynamicObject", "d3/d28/a02147.html#abe8666ac87665ba963053cdd2b014750a8e9e2acf3f592fab793f32c92fbf7bee", null ],
-      [ "Corpse", "d3/d28/a02147.html#abe8666ac87665ba963053cdd2b014750a417799dc63b3ebb2852970ae4b5c0f4a", null ],
-      [ "Mo_Transport", "d3/d28/a02147.html#abe8666ac87665ba963053cdd2b014750a50c0392a66a27a037ab10f870aa9b57a", null ],
-      [ "Instance", "d3/d28/a02147.html#abe8666ac87665ba963053cdd2b014750ad9a17c1c9e8ef6866e4dbeef41c741b2", null ],
-      [ "Group", "d3/d28/a02147.html#abe8666ac87665ba963053cdd2b014750a03937134cedab9078be39a77ee3a48a0", null ]
+    [ "UpdateData", "de/d68/a08218.html", "de/d68/a08218" ],
+    [ "OBJECT_UPDATE_FLAGS", "d3/d28/a02147.html#af1fc105a57ed0bc535d17509e4ad5e9e", [
+      [ "UPDATEFLAG_NONE", "d3/d28/a02147.html#af1fc105a57ed0bc535d17509e4ad5e9eab3f4d8eafca6e04f6b445bedda939799", null ],
+      [ "UPDATEFLAG_SELF", "d3/d28/a02147.html#af1fc105a57ed0bc535d17509e4ad5e9eacb59b2f7a20c57e2dc11ad4a4a74195f", null ],
+      [ "UPDATEFLAG_TRANSPORT", "d3/d28/a02147.html#af1fc105a57ed0bc535d17509e4ad5e9ea7b800b143915d7a9ea65020153cee3ca", null ],
+      [ "UPDATEFLAG_HAS_TARGET", "d3/d28/a02147.html#af1fc105a57ed0bc535d17509e4ad5e9eae67f7342d7c369d11cfb6d50bea094dd", null ],
+      [ "UPDATEFLAG_UNKNOWN", "d3/d28/a02147.html#af1fc105a57ed0bc535d17509e4ad5e9eab102319844f46e52393bb89975c591f7", null ],
+      [ "UPDATEFLAG_LOWGUID", "d3/d28/a02147.html#af1fc105a57ed0bc535d17509e4ad5e9ea65f9bb0b19a3ecbc46fbe3b4573cb15b", null ],
+      [ "UPDATEFLAG_LIVING", "d3/d28/a02147.html#af1fc105a57ed0bc535d17509e4ad5e9ea0eedb2f7b118804bb3fe89fde52d7632", null ],
+      [ "UPDATEFLAG_STATIONARY_POSITION", "d3/d28/a02147.html#af1fc105a57ed0bc535d17509e4ad5e9ead20e13b8389c2680af0a59dc557d4ee1", null ],
+      [ "UPDATEFLAG_VEHICLE", "d3/d28/a02147.html#af1fc105a57ed0bc535d17509e4ad5e9ea6dfc1770c97c7c1d8433e0e12ad47c51", null ],
+      [ "UPDATEFLAG_POSITION", "d3/d28/a02147.html#af1fc105a57ed0bc535d17509e4ad5e9ea2e4269d3be94ff8f1f715c41c060222b", null ],
+      [ "UPDATEFLAG_ROTATION", "d3/d28/a02147.html#af1fc105a57ed0bc535d17509e4ad5e9ea2a1fa785627688900bcc7bb221f1462a", null ]
     ] ],
-    [ "TypeID", "d3/d28/a02147.html#a183c40b2ba67065929d70b3987da4cc2", [
-      [ "TYPEID_OBJECT", "d3/d28/a02147.html#a183c40b2ba67065929d70b3987da4cc2a1f0252b8069f8868dfedfdb4fe45e30f", null ],
-      [ "TYPEID_ITEM", "d3/d28/a02147.html#a183c40b2ba67065929d70b3987da4cc2ab2bcf0ba3fcc0090223bf840eda90b28", null ],
-      [ "TYPEID_CONTAINER", "d3/d28/a02147.html#a183c40b2ba67065929d70b3987da4cc2afebf490e56b6f11276b1523008afa107", null ],
-      [ "TYPEID_UNIT", "d3/d28/a02147.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9", null ],
-      [ "TYPEID_PLAYER", "d3/d28/a02147.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c", null ],
-      [ "TYPEID_GAMEOBJECT", "d3/d28/a02147.html#a183c40b2ba67065929d70b3987da4cc2a91b74ac7ebfe7909332a6eec5054c60d", null ],
-      [ "TYPEID_DYNAMICOBJECT", "d3/d28/a02147.html#a183c40b2ba67065929d70b3987da4cc2a86e2d54e816ea646c9cda372df01dc68", null ],
-      [ "TYPEID_CORPSE", "d3/d28/a02147.html#a183c40b2ba67065929d70b3987da4cc2ab20e64ae3f5f5a5ecffa53fee57d7d2f", null ]
-    ] ],
-    [ "TypeMask", "d3/d28/a02147.html#acfe503ba26d8a881f16958aaafd431e1", [
-      [ "TYPEMASK_OBJECT", "d3/d28/a02147.html#acfe503ba26d8a881f16958aaafd431e1a15c6345df35def281fc22632f52bc6a2", null ],
-      [ "TYPEMASK_ITEM", "d3/d28/a02147.html#acfe503ba26d8a881f16958aaafd431e1a213c6f64ff343595c13d0e808b75297d", null ],
-      [ "TYPEMASK_CONTAINER", "d3/d28/a02147.html#acfe503ba26d8a881f16958aaafd431e1a8898075ddeb644fdaa32c88c818958dd", null ],
-      [ "TYPEMASK_UNIT", "d3/d28/a02147.html#acfe503ba26d8a881f16958aaafd431e1a611a6f19a7f885d824ea5be71ffca2de", null ],
-      [ "TYPEMASK_PLAYER", "d3/d28/a02147.html#acfe503ba26d8a881f16958aaafd431e1ac68cdbc5c42fc63c5df6b7b0dd69a739", null ],
-      [ "TYPEMASK_GAMEOBJECT", "d3/d28/a02147.html#acfe503ba26d8a881f16958aaafd431e1ab64731f0031a7f58c1a56cbf45d6f2f4", null ],
-      [ "TYPEMASK_DYNAMICOBJECT", "d3/d28/a02147.html#acfe503ba26d8a881f16958aaafd431e1a3a699b841ec20fb9c6d7b99e9bf88108", null ],
-      [ "TYPEMASK_CORPSE", "d3/d28/a02147.html#acfe503ba26d8a881f16958aaafd431e1a94570a20b0854337a5f22641c81a5be9", null ],
-      [ "TYPEMASK_SEER", "d3/d28/a02147.html#acfe503ba26d8a881f16958aaafd431e1a5db3f5013b522d453811f6a1e70d9e96", null ]
-    ] ],
-    [ "operator<<", "d3/d28/a02147.html#a039758f4b57c94c411a4c3882334ada8", null ],
-    [ "operator<<", "d3/d28/a02147.html#a94ab551ce00fd82dea1532d47ad908bc", null ],
-    [ "operator>>", "d3/d28/a02147.html#a30aef535f2839648f0ae4648c746d3e2", null ],
-    [ "operator>>", "d3/d28/a02147.html#a95f3a6eef334b9fcdcaca879532c25d4", null ]
+    [ "OBJECT_UPDATE_TYPE", "d3/d28/a02147.html#aa0f2952f4b375c0e91f5276ff267cbad", [
+      [ "UPDATETYPE_VALUES", "d3/d28/a02147.html#aa0f2952f4b375c0e91f5276ff267cbada1fc033f630eab16bbf5b7ce7938d7bef", null ],
+      [ "UPDATETYPE_MOVEMENT", "d3/d28/a02147.html#aa0f2952f4b375c0e91f5276ff267cbadac08838cdcba5218c53ea7745f5c0c370", null ],
+      [ "UPDATETYPE_CREATE_OBJECT", "d3/d28/a02147.html#aa0f2952f4b375c0e91f5276ff267cbada4dc60011a5f19dc6c7d8ef61f9b10e20", null ],
+      [ "UPDATETYPE_CREATE_OBJECT2", "d3/d28/a02147.html#aa0f2952f4b375c0e91f5276ff267cbadaf72ecfc1f4c6b5006f7985299cc2cd8f", null ],
+      [ "UPDATETYPE_OUT_OF_RANGE_OBJECTS", "d3/d28/a02147.html#aa0f2952f4b375c0e91f5276ff267cbada5e1317f5c975a9e3a19c37922f49e089", null ],
+      [ "UPDATETYPE_NEAR_OBJECTS", "d3/d28/a02147.html#aa0f2952f4b375c0e91f5276ff267cbada5017763e8c136985831c2ee1583795d5", null ]
+    ] ]
 ];

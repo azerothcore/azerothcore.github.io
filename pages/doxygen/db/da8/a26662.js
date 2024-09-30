@@ -1,7 +1,6 @@
 var a26662 =
 [
-    [ "AfterApply", "db/da8/a26662.html#adae232af9445638b3d54e81d414483b7", null ],
-    [ "AfterRemove", "db/da8/a26662.html#abf458f1f1dd5abfbba88325cad044ab1", null ],
-    [ "PrepareAuraScript", "db/da8/a26662.html#a305c532aa0e8740e8c8a87a6ba0abcff", null ],
-    [ "Register", "db/da8/a26662.html#abff75ea597dcc017a359a5ef3ada4314", null ]
+    [ "CheckProc", "db/da8/a26662.html#a945c4617cba249ee76045ce032f12c3c", null ],
+    [ "PrepareAuraScript", "db/da8/a26662.html#abdcb401acb80eb732dbf56bbbcf79801", null ],
+    [ "Register", "db/da8/a26662.html#a912dd7ea10038103bb6d242bb7723830", null ]
 ];

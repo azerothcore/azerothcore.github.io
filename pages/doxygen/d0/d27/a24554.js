@@ -1,12 +1,7 @@
 var a24554 =
 [
-    [ "boss_essence_of_sufferingAI", "d0/d27/a24554.html#a98de7f0b7d12d0981854129cbeab0d0d", null ],
-    [ "DamageTaken", "d0/d27/a24554.html#a347ef26e4ecdc83ca80c9fd9a93bd97d", null ],
-    [ "DoAction", "d0/d27/a24554.html#a08724d74523866969b12d13846eb4c1e", null ],
-    [ "JustEngagedWith", "d0/d27/a24554.html#aa2fce36768ad6e23a955cd215ca759db", null ],
-    [ "KilledUnit", "d0/d27/a24554.html#a3699b19f23cf15115ff8c92691a6d334", null ],
-    [ "MovementInform", "d0/d27/a24554.html#a4ff66e57277bc3bc6e8d2fb8bc585cd7", null ],
-    [ "Reset", "d0/d27/a24554.html#affa55b69784d8f881598189c361c986e", null ],
-    [ "UpdateAI", "d0/d27/a24554.html#abb60432720b3720832ccc83d454a3808", null ],
-    [ "events", "d0/d27/a24554.html#ac046153add02ee8af9c8975a916d4808", null ]
+    [ "HandleDummy", "d0/d27/a24554.html#a54f7f56a9122b623855eb9d11e34dfca", null ],
+    [ "PrepareSpellScript", "d0/d27/a24554.html#a2fe4b009fa3741c180e18730af5853e3", null ],
+    [ "Register", "d0/d27/a24554.html#a762c2320ab8d48e1284d81962a4b078f", null ],
+    [ "Validate", "d0/d27/a24554.html#a42fbc381d7ae89f1ac265fb15ebd864f", null ]
 ];

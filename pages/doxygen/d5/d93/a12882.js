@@ -1,8 +1,11 @@
 var a12882 =
 [
-    [ "npc_madrigosaAI", "d5/d93/a12882.html#adadbaa53623774750e5e897e8be1fb39", null ],
-    [ "DoAction", "d5/d93/a12882.html#a2ecaba614301d681cadf129ea58813cf", null ],
-    [ "UpdateAI", "d5/d93/a12882.html#ab2a5f3c7ec1f94af2e1ffe34828b81cc", null ],
-    [ "events", "d5/d93/a12882.html#ad8f4f69543c968a21253bd52da4d82ac", null ],
-    [ "instance", "d5/d93/a12882.html#abe6708e5053490c70ed88799a762f08e", null ]
+    [ "boss_baroness_anastariAI", "d5/d93/a12882.html#acf180bbe881ba1f6e49c075254759c00", null ],
+    [ "JustDied", "d5/d93/a12882.html#a1a7bf1e6c39b0b61e95390e7ee1c5e6b", null ],
+    [ "JustEngagedWith", "d5/d93/a12882.html#a7329455d99045e7002abffe09112a4ea", null ],
+    [ "Reset", "d5/d93/a12882.html#a80c99c59486d2a7850a3a54ffebe998b", null ],
+    [ "SchedulePossession", "d5/d93/a12882.html#afbf2d4e9c3e8e50815c398b97afb3970", null ],
+    [ "UpdateAI", "d5/d93/a12882.html#a962e4e3091d126682825c326af5f6922", null ],
+    [ "_possessedTargetGuid", "d5/d93/a12882.html#a36e386b847c7032b5ce95a01070518ad", null ],
+    [ "_scheduler", "d5/d93/a12882.html#aa59518627a5e64e371dbbb45cfced75f", null ]
 ];

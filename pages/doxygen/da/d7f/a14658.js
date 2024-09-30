@@ -1,6 +1,9 @@
 var a14658 =
 [
-    [ "npc_necromancerAI", "df/d21/a14662.html", "df/d21/a14662" ],
-    [ "npc_necromancer", "da/d7f/a14658.html#af03b280ab8f766312e459233a65eefff", null ],
-    [ "GetAI", "da/d7f/a14658.html#ac09fe6d3c1cdc26948541c3d71354353", null ]
+    [ "boss_temporus", "da/d7f/a14658.html#ab9f1495b18fe2c0ee33e9c238483ce0d", null ],
+    [ "JustDied", "da/d7f/a14658.html#a9186e51d240aff2ffaab99e3b423ded9", null ],
+    [ "JustEngagedWith", "da/d7f/a14658.html#abe7f18497c1c8b31693980e98b1d1859", null ],
+    [ "KilledUnit", "da/d7f/a14658.html#a89c2a229b56b3a7dcb9e5a495ac6dbd7", null ],
+    [ "MoveInLineOfSight", "da/d7f/a14658.html#a18a0279036324498a9daf8c7d0296ffc", null ],
+    [ "OwnTalk", "da/d7f/a14658.html#a99356589a048debbc308b8431259da5c", null ]
 ];

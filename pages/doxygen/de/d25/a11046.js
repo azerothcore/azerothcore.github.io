@@ -1,9 +1,6 @@
 var a11046 =
 [
-    [ "event_commandscript", "de/d25/a11046.html#a160db0ad8874b0834ef863043b1796ae", null ],
-    [ "GetCommands", "de/d25/a11046.html#aac32a7f3d2d11dc73dfa3e9f8224560e", null ],
-    [ "HandleEventActiveListCommand", "de/d25/a11046.html#a6752be35103bb585984083a449c85714", null ],
-    [ "HandleEventInfoCommand", "de/d25/a11046.html#a1f0815bccd6cef61826ada4e349708d9", null ],
-    [ "HandleEventStartCommand", "de/d25/a11046.html#ad46dbd8892db3548d889d4127461c8e3", null ],
-    [ "HandleEventStopCommand", "de/d25/a11046.html#a1322b3206a1846dc0404a3fb5c74e025", null ]
+    [ "AfterCheckProcHandler", "de/d25/a11046.html#ac0a14950e90d064ffd7adc224b25f9d8", null ],
+    [ "Call", "de/d25/a11046.html#ab2da0d87413dd7317eeaf73df17f1aaf", null ],
+    [ "_HandlerScript", "de/d25/a11046.html#af5a393efc729e8588c0fc425fdfead99", null ]
 ];

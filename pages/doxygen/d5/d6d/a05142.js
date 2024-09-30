@@ -1,17 +1,15 @@
 var a05142 =
 [
-    [ "CircularBuffer", "d5/d6d/a05142.html#aed928fe071a15c367bbdf0c551249438", null ],
-    [ "capacity", "d5/d6d/a05142.html#ae1addc6782f9a3e4d66461223f496619", null ],
-    [ "content", "d5/d6d/a05142.html#ad364f8ee7c9176b912ea053e2f3c928f", null ],
-    [ "empty", "d5/d6d/a05142.html#a7509cc5ef0dd0a9f731c47b05929580c", null ],
-    [ "full", "d5/d6d/a05142.html#a2a2f13f00dca028142c250b5f2183097", null ],
-    [ "peak_back", "d5/d6d/a05142.html#ad4bb17889033526da4605ebddd60f3c7", null ],
-    [ "put", "d5/d6d/a05142.html#a2a5e093804731b69969c18e49a206572", null ],
-    [ "size", "d5/d6d/a05142.html#a73d5df7a33d545554fffeaaf843f36d9", null ],
-    [ "buf_", "d5/d6d/a05142.html#aa2b9389da6cd912b4dd54d89ca1d69ee", null ],
-    [ "full_", "d5/d6d/a05142.html#a1dfcbf9f9d2760d7d82144c57ff8a60e", null ],
-    [ "head_", "d5/d6d/a05142.html#abd7fa51c466136b2ed4a3ed40dc72201", null ],
-    [ "max_size_", "d5/d6d/a05142.html#a588c4166b7abe2cf38e58c63026fe511", null ],
-    [ "mutex_", "d5/d6d/a05142.html#aa4762ba2167d8b9560ff39328b4b3afa", null ],
-    [ "tail_", "d5/d6d/a05142.html#ad6b796b58f9b528479e5caf45713027b", null ]
+    [ "iterator", "d5/d6d/a05142.html#a301cf316e15e5f55046c1c25ef2a4f5b", null ],
+    [ "RefMgr", "d5/d6d/a05142.html#a72110d71a275f564d31d2e6c84c331c3", null ],
+    [ "~RefMgr", "d5/d6d/a05142.html#ab386dd35fa62dbf7f1ba2131e6e99f7c", null ],
+    [ "begin", "d5/d6d/a05142.html#aacaf11c49931c87bd52b8382065447d3", null ],
+    [ "clearReferences", "d5/d6d/a05142.html#a912750f6257a33cd1f85079448b45928", null ],
+    [ "end", "d5/d6d/a05142.html#aab6573a792b9b24c3dc4a690c6ff77d9", null ],
+    [ "getFirst", "d5/d6d/a05142.html#a67de35d375c34c38db2b87481a141ebf", null ],
+    [ "getFirst", "d5/d6d/a05142.html#a2636030fdcd2312e7c2556c2da3ef948", null ],
+    [ "getLast", "d5/d6d/a05142.html#a6695bac4fd79bb428fd1f6a72ad6c3e3", null ],
+    [ "getLast", "d5/d6d/a05142.html#afab4e70c39d83e38048c5fe80166e5fa", null ],
+    [ "rbegin", "d5/d6d/a05142.html#a4c64b9aad3611aff0d1c419b5d5fa8f0", null ],
+    [ "rend", "d5/d6d/a05142.html#ae5ef045c8e3bbce625ffdc2c075b90c2", null ]
 ];

@@ -1,6 +1,6 @@
 var a15110 =
 [
-    [ "HandleScript", "d0/ddd/a15110.html#a88551ffd3dbe4fb9cc122a68813234f0", null ],
-    [ "PrepareSpellScript", "d0/ddd/a15110.html#ae4d8cad1b5de248a30085142fcc2cc7b", null ],
-    [ "Register", "d0/ddd/a15110.html#a434f0aef7f32edb6990efb992e4d57af", null ]
+    [ "npc_muglashAI", "d9/df1/a15114.html", "d9/df1/a15114" ],
+    [ "npc_muglash", "d0/ddd/a15110.html#a5df1b1cff0acf8be4db77b66f8a0b5f4", null ],
+    [ "GetAI", "d0/ddd/a15110.html#a7cfeaf756de85b1bd2fff9163e4bd5e3", null ]
 ];

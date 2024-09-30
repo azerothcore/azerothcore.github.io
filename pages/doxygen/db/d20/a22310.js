@@ -1,6 +1,6 @@
 var a22310 =
 [
-    [ "spell_yogg_saron_lunatic_gaze_SpellScript", "d5/d7f/a22314.html", "d5/d7f/a22314" ],
-    [ "spell_yogg_saron_lunatic_gaze", "db/d20/a22310.html#abe5d72bd1d9f0aa06f7243dd55b0ec1e", null ],
-    [ "GetSpellScript", "db/d20/a22310.html#af92cf542c2767c8a8b01bde56ec34059", null ]
+    [ "npc_wg_siege_machineAI", "d5/d7f/a22314.html", "d5/d7f/a22314" ],
+    [ "npc_wg_siege_machine", "db/d20/a22310.html#a23dc1bbeaa396cad781ec177881e7d2a", null ],
+    [ "GetAI", "db/d20/a22310.html#ae8b2a71378565ad5428f1ae582cacca1", null ]
 ];

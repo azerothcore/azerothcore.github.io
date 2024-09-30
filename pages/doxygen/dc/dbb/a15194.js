@@ -1,6 +1,6 @@
 var a15194 =
 [
-    [ "FilterTargets", "dc/dbb/a15194.html#a15ebe9125f5f4a8f66241ee4da1ac83e", null ],
-    [ "PrepareSpellScript", "dc/dbb/a15194.html#a32b0be74a9127f920e22aa03c910a005", null ],
-    [ "Register", "dc/dbb/a15194.html#a80efa2858d4270c497e49a1fe6a7472e", null ]
+    [ "npc_murkdeepAI", "dc/dbf/a15198.html", "dc/dbf/a15198" ],
+    [ "npc_murkdeep", "dc/dbb/a15194.html#a72d44d786bcba4dea5ccedd33e7dbd3c", null ],
+    [ "GetAI", "dc/dbb/a15194.html#ab9f8faa3adaf1f251e1248fbe0f46468", null ]
 ];

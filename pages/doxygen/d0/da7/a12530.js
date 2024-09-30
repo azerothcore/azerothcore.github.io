@@ -1,7 +1,6 @@
 var a12530 =
 [
-    [ "npc_unworthy_initiate_anchorAI", "d0/da7/a12530.html#a2d1a90c4f3c5047a41c7e9f80db13a99", null ],
-    [ "GetGUID", "d0/da7/a12530.html#a83cca82e7d75231a6aa586f67dad766e", null ],
-    [ "SetGUID", "d0/da7/a12530.html#a3d2ccbeeddc28002a4eb2392a62ba031", null ],
-    [ "prisonerGUID", "d0/da7/a12530.html#a38a3e7e7207bb6d809d03c90e67f7742", null ]
+    [ "spell_q12641_death_comes_from_on_high_summon_ghouls_SpellScript", "d3/d0d/a12534.html", "d3/d0d/a12534" ],
+    [ "spell_q12641_death_comes_from_on_high_summon_ghouls", "d0/da7/a12530.html#ac3f8a69deb292fc3ff0ea0051c4d567c", null ],
+    [ "GetSpellScript", "d0/da7/a12530.html#aefcf0a6f58b76a4f65879532e2689718", null ]
 ];

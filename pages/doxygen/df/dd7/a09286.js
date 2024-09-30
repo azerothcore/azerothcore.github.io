@@ -1,9 +1,7 @@
 var a09286 =
 [
-    [ "MapUpdateRequest", "df/dd7/a09286.html#af71812e502bb1ceb60a286ff0d676ccd", null ],
-    [ "call", "df/dd7/a09286.html#a2cb96db357347d47596725e5c345b02f", null ],
-    [ "m_diff", "df/dd7/a09286.html#a3f8ff355ac6efb0a6039c7ee5bfc053b", null ],
-    [ "m_map", "df/dd7/a09286.html#a3612f3e64bb1d2f266c8724c398f5de5", null ],
-    [ "m_updater", "df/dd7/a09286.html#aeb063738175aa8ddc751290f922ffef2", null ],
-    [ "s_diff", "df/dd7/a09286.html#a533a8c8a99f82e15dae0d4513c811b01", null ]
+    [ "InstancePlayerBind", "df/dd7/a09286.html#abc20bba094d04eb724d03b8290102981", null ],
+    [ "extended", "df/dd7/a09286.html#a9327f62b74eea3a1a525b2fec6d90b69", null ],
+    [ "perm", "df/dd7/a09286.html#ab35249eb791941b484ecc321b1102b24", null ],
+    [ "save", "df/dd7/a09286.html#a24ef1e0e0a38033a16b697c32e3d8234", null ]
 ];

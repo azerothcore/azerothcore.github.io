@@ -1,10 +1,8 @@
 var a26082 =
 [
-    [ "npc_maxx_a_million_escortAI", "d9/dc9/a26082.html#ab827933527ed7b4a04b162034876ced8", null ],
-    [ "JustDied", "d9/dc9/a26082.html#a2106ab4d32d0f221f62eeffd93f71380", null ],
-    [ "Reset", "d9/dc9/a26082.html#a6b9b2ed76e26f908ff2272ad8744a59e", null ],
-    [ "UpdateAI", "d9/dc9/a26082.html#a3b022feb2303875d32ad981e84f66854", null ],
-    [ "WaypointReached", "d9/dc9/a26082.html#acd6f45abb93f3f043cd85647405a50f6", null ],
-    [ "bTake", "d9/dc9/a26082.html#ac697fc6cbc20c7f316845ed26436049b", null ],
-    [ "uiTakeTimer", "d9/dc9/a26082.html#a5d4826dcf893f444a42dedba57460110", null ]
+    [ "CheckProc", "d9/dc9/a26082.html#a7796d6b90bb3452d75d28e5a6a3e6287", null ],
+    [ "HandleProc", "d9/dc9/a26082.html#ab456eb468477ae465f058b05ea45aaeb", null ],
+    [ "PrepareAuraScript", "d9/dc9/a26082.html#a9d255b2878f11e0ce9f9ffa81f7e4b0e", null ],
+    [ "Register", "d9/dc9/a26082.html#a9c285da0ae22011d01eeed7415d37d42", null ],
+    [ "Validate", "d9/dc9/a26082.html#a714d9b7afc9ae0dd190030309f1e83ca", null ]
 ];

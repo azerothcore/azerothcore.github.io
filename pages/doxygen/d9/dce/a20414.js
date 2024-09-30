@@ -1,6 +1,5 @@
 var a20414 =
 [
-    [ "npc_crystal_spikeAI", "d2/d4a/a20418.html", "d2/d4a/a20418" ],
-    [ "npc_crystal_spike", "d9/dce/a20414.html#a0ef00cdc85bb1c9a79845db861a5e384", null ],
-    [ "GetAI", "d9/dce/a20414.html#a51df30295395c807c0ade2abaf0bd78e", null ]
+    [ "achievement_mimiron_set_up_us_the_bomb_12", "d9/dce/a20414.html#adc7f5769894c59710fa70604878b1e2c", null ],
+    [ "OnCheck", "d9/dce/a20414.html#ad604fa41b8c8d34b996dbdc709faac66", null ]
 ];

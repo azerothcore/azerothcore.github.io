@@ -1,21 +1,20 @@
 var a04508 =
 [
-    [ "AccountActionIpLogger", "df/dff/a26964.html", "df/dff/a26964" ],
-    [ "CharacterActionIpLogger", "dc/d07/a26968.html", "dc/d07/a26968" ],
-    [ "CharacterDeleteActionIpLogger", "d1/d2d/a26972.html", "d1/d2d/a26972" ],
-    [ "IPLoggingTypes", "dd/d8c/a04508.html#a3b67d8dbf539fa5519b3e33da9d0137b", [
-      [ "ACCOUNT_LOGIN", "dd/d8c/a04508.html#a3b67d8dbf539fa5519b3e33da9d0137ba8f9e397f01ecf6030118a21051f37eb8", null ],
-      [ "ACCOUNT_FAIL_LOGIN", "dd/d8c/a04508.html#a3b67d8dbf539fa5519b3e33da9d0137baf5dfdd830d71ca55c98a2a6bbc49895f", null ],
-      [ "ACCOUNT_CHANGE_PW", "dd/d8c/a04508.html#a3b67d8dbf539fa5519b3e33da9d0137ba38e1a216027e5110edeced016ff5c059", null ],
-      [ "ACCOUNT_CHANGE_PW_FAIL", "dd/d8c/a04508.html#a3b67d8dbf539fa5519b3e33da9d0137baa0990c000cd17b2abe8225b66cac6b53", null ],
-      [ "ACCOUNT_CHANGE_EMAIL", "dd/d8c/a04508.html#a3b67d8dbf539fa5519b3e33da9d0137baf435090459154eb1ba7b8c994842b06c", null ],
-      [ "ACCOUNT_CHANGE_EMAIL_FAIL", "dd/d8c/a04508.html#a3b67d8dbf539fa5519b3e33da9d0137ba4bd2be99e9a5252be0bbf26a71541e30", null ],
-      [ "CHARACTER_CREATE", "dd/d8c/a04508.html#a3b67d8dbf539fa5519b3e33da9d0137ba64dc5a829a5cecf5f19b805d05a32b85", null ],
-      [ "CHARACTER_LOGIN", "dd/d8c/a04508.html#a3b67d8dbf539fa5519b3e33da9d0137ba69b7162ca378f801be6e30e2e4b86363", null ],
-      [ "CHARACTER_LOGOUT", "dd/d8c/a04508.html#a3b67d8dbf539fa5519b3e33da9d0137ba742b5af30e35f2927eaa20bdf504b607", null ],
-      [ "CHARACTER_DELETE", "dd/d8c/a04508.html#a3b67d8dbf539fa5519b3e33da9d0137ba04c86cce0401c766b99edbef52a91162", null ],
-      [ "CHARACTER_FAILED_DELETE", "dd/d8c/a04508.html#a3b67d8dbf539fa5519b3e33da9d0137baf8aedeaf82227741e50fdf6be12a35e7", null ],
-      [ "UNKNOWN_ACTION", "dd/d8c/a04508.html#a3b67d8dbf539fa5519b3e33da9d0137bae16d79bf07a3994731f4ac1a6ece5ec8", null ]
-    ] ],
-    [ "AddSC_action_ip_logger", "dd/d8c/a04508.html#a530be5efb251d5ca58e97804e48ad953", null ]
+    [ "AddSC_achievement_scripts", "dd/d8c/a04508.html#a5091d6f933800f3313078304ad5c38ca", null ],
+    [ "AddSC_action_ip_logger", "dd/d8c/a04508.html#a530be5efb251d5ca58e97804e48ad953", null ],
+    [ "AddSC_areatrigger_scripts", "dd/d8c/a04508.html#a992f2da647f1f8748c7c9239b52079ad", null ],
+    [ "AddSC_chat_log", "dd/d8c/a04508.html#ae796ad81a78a552e5c31fcf6c5c135fa", null ],
+    [ "AddSC_emerald_dragons", "dd/d8c/a04508.html#aabef9c5c7a434027ce4d3af6e2b77430", null ],
+    [ "AddSC_generic_creature", "dd/d8c/a04508.html#a50f66c4d6429b38157e35a75a0daa31d", null ],
+    [ "AddSC_go_scripts", "dd/d8c/a04508.html#a279b19d9fff015d16fc8bbd2fbc9325a", null ],
+    [ "AddSC_guards", "dd/d8c/a04508.html#acba582cbc90c710c629dd30926acdca4", null ],
+    [ "AddSC_item_scripts", "dd/d8c/a04508.html#a3e28ebf5a580887bb117f786689a34c6", null ],
+    [ "AddSC_npc_innkeeper", "dd/d8c/a04508.html#a3ffce1ea6cca981888af85ba67364df9", null ],
+    [ "AddSC_npc_professions", "dd/d8c/a04508.html#a428ec531a2dc4e479b5c73e0d0694091", null ],
+    [ "AddSC_npc_stave_of_ancients", "dd/d8c/a04508.html#a81e200e5d045a2403cd76a0559a6fd8c", null ],
+    [ "AddSC_npc_taxi", "dd/d8c/a04508.html#a36f8a13e2844278c955f3a8155e7a11c", null ],
+    [ "AddSC_npcs_special", "dd/d8c/a04508.html#aac822f73be6c9bf1dfaa4bbaec0e5aef", null ],
+    [ "AddSC_player_scripts", "dd/d8c/a04508.html#a1f476a8466c12651b57fd55bf13b9617", null ],
+    [ "AddSC_server_mail", "dd/d8c/a04508.html#a8c20fa2f42eb423e39f2aaafe8fadafc", null ],
+    [ "AddWorldScripts", "dd/d8c/a04508.html#a5e7b18db76511725a47c51e9ce748575", null ]
 ];

@@ -1,6 +1,8 @@
 var a25798 =
 [
-    [ "spell_kaelthas_gravity_lapse_SpellScript", "de/de0/a25802.html", "de/de0/a25802" ],
-    [ "spell_kaelthas_gravity_lapse", "d5/da1/a25798.html#a28147e82cd72283834585227f26e9905", null ],
-    [ "GetSpellScript", "d5/da1/a25798.html#ab953ec1bffae888dc13109a2bee22ea1", null ]
+    [ "HandleDummy", "d5/da1/a25798.html#a13b4ea32e03dec26d0cdaa9537abb3b0", null ],
+    [ "Load", "d5/da1/a25798.html#a78506404ba25b054a9ab3f7176a5d4fc", null ],
+    [ "PrepareSpellScript", "d5/da1/a25798.html#a070e83b84feb418f02327240daebede7", null ],
+    [ "Register", "d5/da1/a25798.html#a0c2965e62feb26ca764636fcd3a1f885", null ],
+    [ "Validate", "d5/da1/a25798.html#a48934cde38c6f3b18087267b616ff338", null ]
 ];

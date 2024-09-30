@@ -1,6 +1,7 @@
 var a12690 =
 [
-    [ "npc_risen_guardianAI", "df/d35/a12694.html", "df/d35/a12694" ],
-    [ "npc_risen_guardian", "d5/d2a/a12690.html#a472274c69abe912f5781c60911204eb5", null ],
-    [ "GetAI", "d5/d2a/a12690.html#a568f57a442adcd64c8c3d2e4d5df729f", null ]
+    [ "OnApply", "d5/d2a/a12690.html#abc991d627be4235b8aa805aa89afb51a", null ],
+    [ "OnRemove", "d5/d2a/a12690.html#a172599e75fc719d9d48784ffe6ca07b9", null ],
+    [ "PrepareAuraScript", "d5/d2a/a12690.html#a7c89653c38a534ca5deb4d19c538b1f5", null ],
+    [ "Register", "d5/d2a/a12690.html#a8bf20b9da91a6f339b857ecfcd98d772", null ]
 ];

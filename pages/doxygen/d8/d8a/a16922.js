@@ -1,6 +1,9 @@
 var a16922 =
 [
-    [ "HandleDummy", "d8/d8a/a16922.html#a14338e50f8015e5182d83d289cc5f528", null ],
-    [ "PrepareSpellScript", "d8/d8a/a16922.html#a58bc3d2965f51576b0fcb2ff7d0847a1", null ],
-    [ "Register", "d8/d8a/a16922.html#ab481e46f350a26921af4662d91399a70", null ]
+    [ "npc_pos_after_first_bossAI", "d8/d8a/a16922.html#a622df71849da1e10e2b73068f0adea98", null ],
+    [ "MovementInform", "d8/d8a/a16922.html#a1751506f27d4b2fc9ddb2f8a6a82dc9e", null ],
+    [ "Reset", "d8/d8a/a16922.html#ad248aa4cbfbd24e4fe47b99b38c4dd8c", null ],
+    [ "UpdateAI", "d8/d8a/a16922.html#ac45111887fd7833a041355658dd26158", null ],
+    [ "events", "d8/d8a/a16922.html#a3aaf303ee389a10edc4feeec7c38a2a6", null ],
+    [ "pInstance", "d8/d8a/a16922.html#a17a0e1e7a35f608a9ec86ce4e959b52e", null ]
 ];

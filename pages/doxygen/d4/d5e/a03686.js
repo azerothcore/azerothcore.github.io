@@ -1,6 +1,6 @@
 var a03686 =
 [
-    [ "fireworkShowBootyBay", "d4/d5e/a03686.html#ade8881c3a797a7937c46526f8c8adf99", null ],
-    [ "FireworkShowGameobjectBootyBay", "d4/d5e/a03686.html#aeff31f29bacaf8ca10d5caee61627422", null ],
-    [ "fireworkShowScheduleBootyBay", "d4/d5e/a03686.html#aed5048221cf1d35ad3d4989da8786617", null ]
+    [ "fireworkShowGameobjectIronforge", "d4/d5e/a03686.html#a1c510ef56353251fbd84e641155e90f8", null ],
+    [ "fireworkShowIronforge", "d4/d5e/a03686.html#aac2063b01976ab49960c5cde832a70dc", null ],
+    [ "fireworkShowScheduleIronforge", "d4/d5e/a03686.html#ac473aa81696d6b6374a3062efff6b146", null ]
 ];

@@ -1,6 +1,7 @@
 var a25262 =
 [
-    [ "HandleAfterRemove", "d1/df8/a25262.html#a74610b06095572aa2c898cd84e0fb229", null ],
-    [ "PrepareAuraScript", "d1/df8/a25262.html#ac0d686490ff37810e0116dea4d0b6077", null ],
-    [ "Register", "d1/df8/a25262.html#aad72f4aaa19f92f7a71241311f5d0582", null ]
+    [ "HandleScript", "d1/df8/a25262.html#a1097b1548b2785ac7ffd916ee5531fe9", null ],
+    [ "PrepareSpellScript", "d1/df8/a25262.html#a47dc9761bf10b1290963ff7eebe0121a", null ],
+    [ "Register", "d1/df8/a25262.html#a984b2af5268fbf294a0292502b8ddb44", null ],
+    [ "Validate", "d1/df8/a25262.html#a0cfbc2dcb836e7c37dd03cb3d0728621", null ]
 ];

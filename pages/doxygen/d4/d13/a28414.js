@@ -1,10 +1,8 @@
 var a28414 =
 [
-    [ "Absorb", "d4/d13/a28414.html#aedee311aa77597674b3665eaf74e98c8", null ],
-    [ "CalculateAmount", "d4/d13/a28414.html#a5fdabb367ab86589d733d1da906446ab", null ],
-    [ "Load", "d4/d13/a28414.html#a7418b17f23b9eeacceb0970df3cb1d99", null ],
-    [ "PrepareAuraScript", "d4/d13/a28414.html#a1de52fae7a5ed3eeeb46be11eb2eac21", null ],
-    [ "Register", "d4/d13/a28414.html#abfc540163e9eb34cbf8a48d39bede840", null ],
-    [ "Validate", "d4/d13/a28414.html#a6cca564b6d13063ce7cd72ed8b6adf67", null ],
-    [ "absorbChance", "d4/d13/a28414.html#a293be81af42d810126eda35b1d27e3bc", null ]
+    [ "prepareLoadedData", "d4/d13/a28414.html#a696cfebd8fe66840b316919519e9b319", null ],
+    [ "fcc", "d4/d13/a28414.html#a83cb69fb9eb6eff82a513c75301e5bf6", null ],
+    [ "fcc_txt", "d4/d13/a28414.html#a9c7e27f948978d771115ca4f88f70b5d", null ],
+    [ "height_map", "d4/d13/a28414.html#a50a7fa80b59ba9c0fcd8d93bd924a13f", null ],
+    [ "size", "d4/d13/a28414.html#add2809c6e520cf4aa43807d61f973f0e", null ]
 ];

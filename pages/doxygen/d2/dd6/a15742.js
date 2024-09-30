@@ -1,6 +1,7 @@
 var a15742 =
 [
-    [ "npc_twiggy_flatheadAI", "dd/da8/a15746.html", "dd/da8/a15746" ],
-    [ "npc_twiggy_flathead", "d2/dd6/a15742.html#a36e8ae89c9138e1a88c84ecbfd694963", null ],
-    [ "GetAI", "d2/dd6/a15742.html#a48c48994c199502bc3cfb96bf713bc5f", null ]
+    [ "HandleEffectRemove", "d2/dd6/a15742.html#a45ed6d3f1c80dcef3ee6c59e744f13c6", null ],
+    [ "PrepareAuraScript", "d2/dd6/a15742.html#a34b88963dd81e6a8855daaedb9c238d4", null ],
+    [ "Register", "d2/dd6/a15742.html#a7c0533650e772713233ea45b0264cbff", null ],
+    [ "Validate", "d2/dd6/a15742.html#a7690603bd7b01ca6da2a73ac8ed36114", null ]
 ];

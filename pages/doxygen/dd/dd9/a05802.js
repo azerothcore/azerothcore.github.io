@@ -1,10 +1,8 @@
 var a05802 =
 [
-    [ "NullCreatureAI", "dd/dd9/a05802.html#aa9969eeb9a79559c9f2d3bd907b3fd85", null ],
-    [ "AttackStart", "dd/dd9/a05802.html#a94d4594e1f39143ea41ce00aeecec4b4", null ],
-    [ "EnterEvadeMode", "dd/dd9/a05802.html#a726edd296c16ed2414fcc1827f88238f", null ],
-    [ "MoveInLineOfSight", "dd/dd9/a05802.html#a12c54c92a08e81751563ec9522236b28", null ],
-    [ "OnCharmed", "dd/dd9/a05802.html#a77b274955dcfdf2d10bbc43b64330f8d", null ],
-    [ "Permissible", "dd/dd9/a05802.html#a77595426da50819a0ff0744930d19b23", null ],
-    [ "UpdateAI", "dd/dd9/a05802.html#ab200fcf78dee74a2ec808c01f5855236", null ]
+    [ "UpdateResult", "dd/dd9/a05802.html#af32cdf09d32607955c98353fbfa7d392", null ],
+    [ "UpdateResult", "dd/dd9/a05802.html#a225eb6b9ff745dcd72d623ca79c007c6", null ],
+    [ "archived", "dd/dd9/a05802.html#adee274af5f5d6981e28b3587008d690c", null ],
+    [ "recent", "dd/dd9/a05802.html#aea54f4388b659def734957a47e9cca8c", null ],
+    [ "updated", "dd/dd9/a05802.html#a12b3fffe01639493fc405bd5a797f463", null ]
 ];

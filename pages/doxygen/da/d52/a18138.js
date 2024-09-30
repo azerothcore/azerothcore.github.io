@@ -1,6 +1,9 @@
 var a18138 =
 [
-    [ "spell_igb_rocket_pack_AuraScript", "dd/de1/a18142.html", "dd/de1/a18142" ],
-    [ "spell_igb_rocket_pack", "da/d52/a18138.html#a39bbea4a27384301cb4f2bf123435510", null ],
-    [ "GetAuraScript", "da/d52/a18138.html#a514fe64a89b6d131f0124b317d030459", null ]
+    [ "npc_icc_ice_sphereAI", "da/d52/a18138.html#a685f45e5cd15b005646e596ff61088e8", null ],
+    [ "DoAction", "da/d52/a18138.html#ac056ecdd93bc716964054f38ab81014e", null ],
+    [ "SelectNewTarget", "da/d52/a18138.html#a9274e05e45c07d14c7df5c623e2769d4", null ],
+    [ "UpdateAI", "da/d52/a18138.html#a5a4117de9e45cea9e9086b3b4daed404", null ],
+    [ "targetGUID", "da/d52/a18138.html#a3e202f9bde2a202d329066f7aab8897c", null ],
+    [ "timer", "da/d52/a18138.html#a42842e92926e18ef2589687d81a7d0d4", null ]
 ];

@@ -1,7 +1,6 @@
 var a13550 =
 [
-    [ "o", "d1/d8d/a13550.html#a455ab33d372dd2aeac9d591f3cce1013", null ],
-    [ "x", "d1/d8d/a13550.html#a49ad07d6ecb902ae4818923a6414f3c1", null ],
-    [ "y", "d1/d8d/a13550.html#a45ec9c234e9d909eb8fcc0db6e0d641e", null ],
-    [ "z", "d1/d8d/a13550.html#abf42d988d416ebe409100c4b860d26db", null ]
+    [ "npc_akilzon_eagleAI", "d3/d18/a13554.html", "d3/d18/a13554" ],
+    [ "npc_akilzon_eagle", "d1/d8d/a13550.html#a226355ce2fa1a451ea61a212fd939ec5", null ],
+    [ "GetAI", "d1/d8d/a13550.html#ace5fc83cd4109ea05006660867a2dcf6", null ]
 ];

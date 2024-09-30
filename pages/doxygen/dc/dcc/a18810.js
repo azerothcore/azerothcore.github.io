@@ -1,6 +1,7 @@
 var a18810 =
 [
-    [ "spell_sindragosa_frost_beacon_AuraScript", "d1/d51/a18814.html", "d1/d51/a18814" ],
-    [ "spell_sindragosa_frost_beacon", "dc/dcc/a18810.html#a97170a49f2ce10d062a3ee7b73e44410", null ],
-    [ "GetAuraScript", "dc/dcc/a18810.html#a89430f3425caed9de509951cf29f54a0", null ]
+    [ "HandleTriggerSpell", "dc/dcc/a18810.html#a0e75076c2aed1544c544b976ee9cfbcd", null ],
+    [ "PrepareAuraScript", "dc/dcc/a18810.html#a6ce4c5c2b6797b38225ac3348aad5892", null ],
+    [ "Register", "dc/dcc/a18810.html#af87272995f6eeb3bc53cf472f5c3e9d3", null ],
+    [ "Validate", "dc/dcc/a18810.html#a813bad39641956fff697580f271416d2", null ]
 ];

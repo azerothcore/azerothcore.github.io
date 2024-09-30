@@ -1,16 +1,12 @@
 var a22862 =
 [
-    [ "boss_zuramatAI", "d5/d9b/a22862.html#ab4c04fec01023295946d170a466d1c48", null ],
-    [ "EnterEvadeMode", "d5/d9b/a22862.html#a991437ea0d9fd1ce7807ef9937c4cb0a", null ],
-    [ "JustDied", "d5/d9b/a22862.html#a060df9b36f2f62f3fc7afb80386d51c5", null ],
-    [ "JustEngagedWith", "d5/d9b/a22862.html#a85cc0f20b51e84ff1c5c16a3b2b004b9", null ],
-    [ "JustSummoned", "d5/d9b/a22862.html#a6e925207ddc112f7dd7044c08023f90e", null ],
-    [ "KilledUnit", "d5/d9b/a22862.html#adb79f8c244f57b88848dd44b592faf41", null ],
-    [ "MoveInLineOfSight", "d5/d9b/a22862.html#aa3ef3256d203d264dee12eff4491a28c", null ],
-    [ "Reset", "d5/d9b/a22862.html#a18498e4bc4bfac33ff2c591f5bf28d7d", null ],
-    [ "SummonedCreatureDespawn", "d5/d9b/a22862.html#a242f814bfec2e937e1338097e78080e3", null ],
-    [ "UpdateAI", "d5/d9b/a22862.html#adb591699b7d8ece0b1775afd40a4181b", null ],
-    [ "events", "d5/d9b/a22862.html#a4406b42618f3e40fa90e0a34ec3ad09f", null ],
-    [ "pInstance", "d5/d9b/a22862.html#a8ebb5ca6f9f18b0205e8b6a54492c06a", null ],
-    [ "summons", "d5/d9b/a22862.html#a42cb09654095c8a157720f99e7957102", null ]
+    [ "boss_essence_of_desireAI", "d5/d9b/a22862.html#a02f6dec07038297c15c264fb501b01ab", null ],
+    [ "DamageTaken", "d5/d9b/a22862.html#abc2d334c185f519230e5ee4d1fc8ff39", null ],
+    [ "DoAction", "d5/d9b/a22862.html#ad55459d8e75f34783c1516be05cbb97f", null ],
+    [ "JustEngagedWith", "d5/d9b/a22862.html#a0976078399b2190cca25aa2ae5c3c201", null ],
+    [ "KilledUnit", "d5/d9b/a22862.html#a07509843bd658e3fc0b02cb817da37e9", null ],
+    [ "MovementInform", "d5/d9b/a22862.html#ad65068c5f56db269b4dc711745f96cfb", null ],
+    [ "Reset", "d5/d9b/a22862.html#a5c785c728d201a1a4f8f1e01d7000166", null ],
+    [ "UpdateAI", "d5/d9b/a22862.html#af348a1b996a8e7704ba55185ef79fe7d", null ],
+    [ "_recentlySpoken", "d5/d9b/a22862.html#a6507c0da056a74d961d28e96120cd676", null ]
 ];

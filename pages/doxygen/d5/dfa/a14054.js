@@ -1,6 +1,6 @@
 var a14054 =
 [
-    [ "boss_thekalAI", "d5/da0/a14058.html", "d5/da0/a14058" ],
-    [ "boss_thekal", "d5/dfa/a14054.html#ade26017db4a5309a5e2821e51cef1a69", null ],
-    [ "GetAI", "d5/dfa/a14054.html#ae9b2e5f2bc57385ae27bea091f566ad5", null ]
+    [ "CheckItem", "d5/dfa/a14054.html#a71f8c9bad4a102914a1047ef61d20f92", null ],
+    [ "PrepareSpellScript", "d5/dfa/a14054.html#a0fa160f1218cf838444f894716cb8aed", null ],
+    [ "Register", "d5/dfa/a14054.html#a2a6816d9ab97abddfa20cd6413a94178", null ]
 ];

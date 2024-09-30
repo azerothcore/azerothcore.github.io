@@ -1,7 +1,8 @@
 var a08266 =
 [
-    [ "ConflagrateAuraStateDelayEvent", "d4/df2/a08266.html#a874b61345e6a48a8dc622a13e58fb719", null ],
-    [ "Execute", "d4/df2/a08266.html#a4b68c1903372abb416d257d4848ef73c", null ],
-    [ "m_casterGUID", "d4/df2/a08266.html#a5dc5804fac74e92400106f97f96253e1", null ],
-    [ "m_owner", "d4/df2/a08266.html#ab76e0300de4bdbeb311ef4b33a3076a3", null ]
+    [ "IsInSpec", "d4/df2/a08266.html#a77968b5562467f85bda04b6f2f41ca29", null ],
+    [ "inSpellBook", "d4/df2/a08266.html#a650926fa9d1bbab336ee7ed3dd0b0b7d", null ],
+    [ "specMask", "d4/df2/a08266.html#acc1913a90ca2bd23298d3590843cfbd5", null ],
+    [ "State", "d4/df2/a08266.html#a062758af7e92f7e2263ca0a0fd329151", null ],
+    [ "talentID", "d4/df2/a08266.html#aca9b191361652002f5178179a939e41b", null ]
 ];

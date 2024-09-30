@@ -1,6 +1,7 @@
 var a23474 =
 [
-    [ "npc_lake_frogAI", "df/d59/a23478.html", "df/d59/a23478" ],
-    [ "npc_lake_frog", "d3/d21/a23474.html#ac7c56b2a6443356523b468c05c36bc6c", null ],
-    [ "GetAI", "d3/d21/a23474.html#a9730da684a81fced304f10b2806c10e5", null ]
+    [ "PeriodicTick", "d3/d21/a23474.html#a53541105e40202e4a73ecc38d84e9eca", null ],
+    [ "PrepareAuraScript", "d3/d21/a23474.html#a79c8829a86db535e254db009d5286430", null ],
+    [ "Register", "d3/d21/a23474.html#a58cd762eb10d224bb188aaf167c816b9", null ],
+    [ "Validate", "d3/d21/a23474.html#a0a4a1c0b460f7a0ade6ddbbedc893c6f", null ]
 ];

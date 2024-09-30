@@ -1,6 +1,8 @@
 var a14202 =
 [
-    [ "npc_direbrew_antagonist", "d0/d61/a14202.html#a30fed4e6888d98af576dea8e13c510d3", null ],
-    [ "DoAction", "d0/d61/a14202.html#a924891e5d4e3f30d78186bedf76cf7d1", null ],
-    [ "JustEngagedWith", "d0/d61/a14202.html#aaf54b03d66d726901c289ff28d362787", null ]
+    [ "HandleDummy", "d0/d61/a14202.html#a47b5a6741f2782359449dcaebd40fe1c", null ],
+    [ "Load", "d0/d61/a14202.html#a7877187ad7afb2dfbd28fb7c74d40478", null ],
+    [ "PrepareSpellScript", "d0/d61/a14202.html#af1d1ad32d41d79008d650b388353346b", null ],
+    [ "Register", "d0/d61/a14202.html#a53a7c4c025324b205a29f92dd48aefde", null ],
+    [ "handled", "d0/d61/a14202.html#acf3a9296a36f131f852afbf60beb7ea4", null ]
 ];

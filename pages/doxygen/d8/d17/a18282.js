@@ -1,6 +1,8 @@
 var a18282 =
 [
-    [ "spell_igb_below_zero_SpellScript", "d1/d5f/a18286.html", "d1/d5f/a18286" ],
-    [ "spell_igb_below_zero", "d8/d17/a18282.html#a24c82d899c785ed3cf0ea99d54b07695", null ],
-    [ "GetSpellScript", "d8/d17/a18282.html#a199e409277534fb8d8facde6b83b8aa0", null ]
+    [ "npc_lk_wicked_spiritAI", "d8/d17/a18282.html#a6323ddd6c0932f3d73a6de4bd3c4d5dd", null ],
+    [ "CanAIAttack", "d8/d17/a18282.html#ae094420b1a6e134632baa0b086c806c6", null ],
+    [ "JustDied", "d8/d17/a18282.html#adf153fab1c8639b2b5790ed418afb85d", null ],
+    [ "JustRespawned", "d8/d17/a18282.html#a1acfbead42b66dd8f70a85efc8ce2e6f", null ],
+    [ "Reset", "d8/d17/a18282.html#a8b15079251b6855679d738a342126006", null ]
 ];

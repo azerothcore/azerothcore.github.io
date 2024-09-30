@@ -1,5 +1,6 @@
 var a27526 =
 [
-    [ "PrepareSpellScript", "db/dd5/a27526.html#a065d81d698c978bcdd234712807e9098", null ],
-    [ "Register", "db/dd5/a27526.html#a3efcd145189b27272495110c799cf14f", null ]
+    [ "npc_steam_tonkAI", "df/d6b/a27530.html", "df/d6b/a27530" ],
+    [ "npc_steam_tonk", "db/dd5/a27526.html#a19731e7f1bc6fe0220e8c28619ff7c50", null ],
+    [ "GetAI", "db/dd5/a27526.html#a38e51485a3610a204a45677fce15c943", null ]
 ];

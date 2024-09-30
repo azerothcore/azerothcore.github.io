@@ -1,8 +1,7 @@
 var a23858 =
 [
-    [ "AfterRemove", "d4/d6d/a23858.html#af8f8c4db119b5522657a50ed644c73c7", null ],
-    [ "HandlePeriodic", "d4/d6d/a23858.html#abd98fe2db991f2473f7a029754a73392", null ],
-    [ "OnApply", "d4/d6d/a23858.html#aa22cca375661b7acf7c6f2154806ad7c", null ],
-    [ "PrepareAuraScript", "d4/d6d/a23858.html#af085aafe496fb20a5812273c4fbc5999", null ],
-    [ "Register", "d4/d6d/a23858.html#a92079c67944124d07a1d6c73744a120e", null ]
+    [ "boss_gatewatcher_iron_hand", "d4/d6d/a23858.html#aef70e713007af38b510f0a3b8c082b24", null ],
+    [ "JustDied", "d4/d6d/a23858.html#a36b10cd02b35b6e106687b08bc80bfa6", null ],
+    [ "JustEngagedWith", "d4/d6d/a23858.html#aa6a9f456d158e4c0332816c7e65ec155", null ],
+    [ "KilledUnit", "d4/d6d/a23858.html#a1973142412b4094dbd9fa51600741148", null ]
 ];

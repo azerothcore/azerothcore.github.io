@@ -1,6 +1,7 @@
 var a24726 =
 [
-    [ "spell_najentus_hurl_spine_SpellScript", "dd/d09/a24730.html", "dd/d09/a24730" ],
-    [ "spell_najentus_hurl_spine", "d1/ddb/a24726.html#a3b5373e075c60c6a979831fbfe4b77a5", null ],
-    [ "GetSpellScript", "d1/ddb/a24726.html#a06b4b12da51d6515c58ff280d77aead7", null ]
+    [ "FilterTargets", "d1/ddb/a24726.html#af6daf7022fc4cd18909056089c249c8a", null ],
+    [ "HandleDummy", "d1/ddb/a24726.html#ab8f8fec8c95f471a04d642fa0dcbe3e6", null ],
+    [ "PrepareSpellScript", "d1/ddb/a24726.html#a3ec1d43d3eb6ecca128ddda3c0f81efc", null ],
+    [ "Register", "d1/ddb/a24726.html#ae662a050ce4cac47b6bd0d0b0c5b1e16", null ]
 ];

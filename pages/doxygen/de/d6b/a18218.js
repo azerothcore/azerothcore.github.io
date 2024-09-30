@@ -1,6 +1,12 @@
 var a18218 =
 [
-    [ "spell_igb_overheat_AuraScript", "d0/d6f/a18222.html", "d0/d6f/a18222" ],
-    [ "spell_igb_overheat", "de/d6b/a18218.html#a1c1e037f57b113b0bcede90e281ebf2d", null ],
-    [ "GetAuraScript", "de/d6b/a18218.html#a2936669905a6c9a014f13988ae97a9ca", null ]
+    [ "npc_strangulate_vehicleAI", "de/d6b/a18218.html#a58e79834ed3f463ad51eca703d1c99ef", null ],
+    [ "DoAction", "de/d6b/a18218.html#acf9d5a9e2f8b07f5ceb5ca75634e58fb", null ],
+    [ "IsHeroic", "de/d6b/a18218.html#adb6ae2cefeec245196d21dc1112b2d5c", null ],
+    [ "IsSummonedBy", "de/d6b/a18218.html#a381aec40cdcdf546d70b57a43978dbe9", null ],
+    [ "OnCharmed", "de/d6b/a18218.html#a40e5537897c452d35093920ddd3669b0", null ],
+    [ "PassengerBoarded", "de/d6b/a18218.html#a819746e13af95fa964c6da3d765a7c21", null ],
+    [ "UpdateAI", "de/d6b/a18218.html#a53f567b77b7dfd0ccb5a0d98c0f5ef26", null ],
+    [ "_events", "de/d6b/a18218.html#a19b493e994d246128f63d9109e87737a", null ],
+    [ "_instance", "de/d6b/a18218.html#a7a16fbe4723a95293db01d3a2d80b569", null ]
 ];

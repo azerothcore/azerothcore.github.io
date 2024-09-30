@@ -1,5 +1,7 @@
 var a15998 =
 [
-    [ "PrepareAuraScript", "db/d00/a15998.html#a94b3a8e0a610afa69c3a9771f8f22b13", null ],
-    [ "Register", "db/d00/a15998.html#a1203cbec26f64aa97d10783b567c2d62", null ]
+    [ "HandleDummy", "db/d00/a15998.html#a96b430cb0546fb599da22cd675660187", null ],
+    [ "PrepareSpellScript", "db/d00/a15998.html#ad0330cb78a330f05c18f33375f231fbc", null ],
+    [ "Register", "db/d00/a15998.html#a70a36683a235dec6044a8a32f20c606c", null ],
+    [ "Validate", "db/d00/a15998.html#affa7ccf869e98eacd3a153cc645d704e", null ]
 ];

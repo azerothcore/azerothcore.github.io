@@ -1,5 +1,7 @@
 var a21570 =
 [
-    [ "achievement_staying_buffed_all_winter_25", "d9/d1a/a21570.html#a91f0ab3bada837cff6414350b98a27a3", null ],
-    [ "OnCheck", "d9/d1a/a21570.html#a36591082184bc8466e124bad9a910545", null ]
+    [ "npc_thassarianAI", "d9/d1a/a21570.html#a92e873dc3aa97f81919225ce75a5f894", null ],
+    [ "Reset", "d9/d1a/a21570.html#a8611ef17700c739dbd5e7a70660f1379", null ],
+    [ "UpdateAI", "d9/d1a/a21570.html#ad09a3a063d716bc43e23b5aad5e46a7b", null ],
+    [ "_events", "d9/d1a/a21570.html#aaecb5a402e4ffca1e819303dbb94f5b5", null ]
 ];

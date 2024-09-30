@@ -1,7 +1,10 @@
 var a28282 =
 [
-    [ "HandleDummy", "d4/d18/a28282.html#a1abe1e04be6b6c410e0ff273d8aa15c9", null ],
-    [ "Load", "d4/d18/a28282.html#a249e9c3c74bcc20ea2c0d5ce63fbd88c", null ],
-    [ "PrepareSpellScript", "d4/d18/a28282.html#aeffcc8db6125a35227545911fa03a850", null ],
-    [ "Register", "d4/d18/a28282.html#a1de981482ebb05b8507b308dba7a426b", null ]
+    [ "ID", "d4/d18/a28282.html#a090069d13cbbcc5762ecca600c506492", null ],
+    [ "map_id", "d4/d18/a28282.html#a685931e2a361f9e0fc81c004c7467d19", null ],
+    [ "MountCreatureID", "d4/d18/a28282.html#ab59ab7e8b302ac8858bfd67bc10d803f", null ],
+    [ "name", "d4/d18/a28282.html#ae00db3ea736c3a470f6f0690c178e758", null ],
+    [ "x", "d4/d18/a28282.html#a7cbd40848094fa367862d653b0f7170d", null ],
+    [ "y", "d4/d18/a28282.html#a9380befd45cab3104003b2487464bd71", null ],
+    [ "z", "d4/d18/a28282.html#a2e6ce98f7c96ba1469fca8ff3946404a", null ]
 ];

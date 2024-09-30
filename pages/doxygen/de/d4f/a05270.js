@@ -1,9 +1,7 @@
 var a05270 =
 [
-    [ "TimeTracker", "de/d4f/a05270.html#a2b9f585de223c1051136b10b03a27684", null ],
-    [ "GetExpiry", "de/d4f/a05270.html#acfc0d5503c1f5ec4d0bdc103d70dfbb3", null ],
-    [ "Passed", "de/d4f/a05270.html#a9a13002766153882150b1985a84013ad", null ],
-    [ "Reset", "de/d4f/a05270.html#a798cf19378c4de243fac01d7d51a3572", null ],
-    [ "Update", "de/d4f/a05270.html#a2009e98647f04c20cb3064e1e9e9a611", null ],
-    [ "i_expiryTime", "de/d4f/a05270.html#adf2e301fdefb32008f14ced5f1c37f33", null ]
+    [ "MetricStopWatch", "de/d4f/a05270.html#a2007207e0985949f478fdeee300ea0d5", null ],
+    [ "~MetricStopWatch", "de/d4f/a05270.html#a712b660e090531e69455096afeb60c4c", null ],
+    [ "_logger", "de/d4f/a05270.html#a3af6d8a1a621f5e39b2d691ffbe2375c", null ],
+    [ "_startTime", "de/d4f/a05270.html#a74ad62e26a4f6598c76ca5c2d928d3a2", null ]
 ];

@@ -1,6 +1,6 @@
 var a18478 =
 [
-    [ "spell_putricide_slime_puddle_spawn_SpellScript", "d2/d0c/a18482.html", "d2/d0c/a18482" ],
-    [ "spell_putricide_slime_puddle_spawn", "d6/db5/a18478.html#ac86115785a2187706face0e9e041e06e", null ],
-    [ "GetSpellScript", "d6/db5/a18478.html#a1d42f4fc70d72aae7a8588e4c55c0428", null ]
+    [ "boss_sister_svalnaAI", "d2/d0c/a18482.html", "d2/d0c/a18482" ],
+    [ "boss_sister_svalna", "d6/db5/a18478.html#a233a9606db61f6ab945350e98a0929ff", null ],
+    [ "GetAI", "d6/db5/a18478.html#a5eb89badd75104dfe1dc3e03d372adc0", null ]
 ];

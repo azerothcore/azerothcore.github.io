@@ -1,6 +1,8 @@
 var a20846 =
 [
-    [ "go_celestial_planetarium_accessAI", "de/d08/a20850.html", "de/d08/a20850" ],
-    [ "go_celestial_planetarium_access", "d8/d08/a20846.html#a20b7c895dd0fc2cb37bf3c113bf91278", null ],
-    [ "GetAI", "d8/d08/a20846.html#a4fc9ac64f7dceefbdda02297f7dfc42b", null ]
+    [ "Absorb", "d8/d08/a20846.html#a36a7237d7bcd50626e7a07a32c91cfb4", null ],
+    [ "CalculateAmount", "d8/d08/a20846.html#afe50bf22d07e68757caffb056ad55811", null ],
+    [ "PrepareAuraScript", "d8/d08/a20846.html#afa4ef1f7faa36a521c208dde10d09437", null ],
+    [ "Register", "d8/d08/a20846.html#aae020936d42da81c445f7d296660987b", null ],
+    [ "Validate", "d8/d08/a20846.html#a5852135c5214ee3938603632b0f21917", null ]
 ];

@@ -1,6 +1,9 @@
 var a23990 =
 [
-    [ "spell_wintergrasp_water_SpellScript", "d8/d4e/a23994.html", "d8/d4e/a23994" ],
-    [ "spell_wintergrasp_water", "d1/daf/a23990.html#a5d325e37681e7f7804223122632232f4", null ],
-    [ "GetSpellScript", "d1/daf/a23990.html#aa64f7089ec483e5763514b3fd9e5af77", null ]
+    [ "npc_wounded_blood_elfAI", "d1/daf/a23990.html#a2dfcd5fa17b56c44f4056ecf4861af6e", null ],
+    [ "JustEngagedWith", "d1/daf/a23990.html#aba950ba77ff71508263cc54b28c7725b", null ],
+    [ "JustSummoned", "d1/daf/a23990.html#aa97f5294981c44b530efca1411458a97", null ],
+    [ "Reset", "d1/daf/a23990.html#a8e6be35a3079998f3bab829f5d963c71", null ],
+    [ "sQuestAccept", "d1/daf/a23990.html#a56c157928c24daae6edacd5a126ef171", null ],
+    [ "WaypointReached", "d1/daf/a23990.html#a5affcb00e28a582f8926ab2226001cd0", null ]
 ];

@@ -1,9 +1,15 @@
 var a05766 =
 [
-    [ "CasterAI", "d7/dce/a05766.html#ad91d5c64cbc4d56d9a84aaeb2f64b35e", null ],
-    [ "AttackStart", "d7/dce/a05766.html#a28386fd1a275c002445e5eaf90314a3d", null ],
-    [ "InitializeAI", "d7/dce/a05766.html#a2a24cdc24b665c52363dae587572fc4d", null ],
-    [ "JustEngagedWith", "d7/dce/a05766.html#ad436decd8b3da4323cf3fdb4a9e5a849", null ],
-    [ "UpdateAI", "d7/dce/a05766.html#a0fa50ac9bd99ff0c2c7e78f03a737090", null ],
-    [ "m_attackDist", "d7/dce/a05766.html#a561dbc6713a8ec58ef6b23ae4d04d81b", null ]
+    [ "TransactionBase", "d7/dce/a05766.html#a663d13ba0b22e0711d135073ff80ee47", null ],
+    [ "~TransactionBase", "d7/dce/a05766.html#a6ce7e6ef81bb466463bace35cdd49476", null ],
+    [ "Append", "d7/dce/a05766.html#a867b7a92080104278aef5fb4975a4a52", null ],
+    [ "Append", "d7/dce/a05766.html#aa0a81814abe26d456018c3bc9153cd4d", null ],
+    [ "AppendPreparedStatement", "d7/dce/a05766.html#a8e099a4f8775b5e5e3b95ad0273a716f", null ],
+    [ "Cleanup", "d7/dce/a05766.html#a35e0ce11de325a1b286d90a2936d4aa3", null ],
+    [ "GetSize", "d7/dce/a05766.html#a261ad9d7423562ccbe2cac6d75c203bd", null ],
+    [ "DatabaseWorkerPool", "d7/dce/a05766.html#a5d89109a06fa4fca3057b99bbfa84e58", null ],
+    [ "MySQLConnection", "d7/dce/a05766.html#a06fa417f69e0a67da8f249333b1d189d", null ],
+    [ "TransactionTask", "d7/dce/a05766.html#a377add6d6b5e34e774d2497d58f4a180", null ],
+    [ "_cleanedUp", "d7/dce/a05766.html#aa82af96128bfcee997423a54396d40d4", null ],
+    [ "m_queries", "d7/dce/a05766.html#a156f1a8316358c05285778e5734eade1", null ]
 ];

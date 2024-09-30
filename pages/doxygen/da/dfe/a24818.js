@@ -1,6 +1,6 @@
 var a24818 =
 [
-    [ "spell_illidari_council_deadly_strike_AuraScript", "dd/d0f/a24822.html", "dd/d0f/a24822" ],
-    [ "spell_illidari_council_deadly_strike", "da/dfe/a24818.html#a405feb16ab95d5b3e0d0e58f04bacf44", null ],
-    [ "GetAuraScript", "da/dfe/a24818.html#a9f0a1e366fe454eff940c7ed60bd1ffc", null ]
+    [ "PrepareSpellScript", "da/dfe/a24818.html#acfa320b33c00883a78c3696bbbeb7eb0", null ],
+    [ "Register", "da/dfe/a24818.html#a6d251ba1e88d4349dcffa96978389a7f", null ],
+    [ "SelectTarget", "da/dfe/a24818.html#a0d95f8ad8d05d2c0b100dc10988d00c9", null ]
 ];

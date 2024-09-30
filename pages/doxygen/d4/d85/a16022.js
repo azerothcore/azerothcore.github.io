@@ -1,11 +1,7 @@
 var a16022 =
 [
-    [ "npc_anub_ar_crusherAI", "d4/d85/a16022.html#a35866e3cad208bb70bbc5a146301c28d", null ],
-    [ "DoAction", "d4/d85/a16022.html#ac11795153811d2465b106bc1fdea508a", null ],
-    [ "JustEngagedWith", "d4/d85/a16022.html#a02d3b78427bc247cde28620470c43331", null ],
-    [ "JustSummoned", "d4/d85/a16022.html#a6d484f8d3f54bb7c7ad572027501f2ab", null ],
-    [ "Reset", "d4/d85/a16022.html#a85f60e0733ac4ccd8f7941e8df0f88d9", null ],
-    [ "UpdateAI", "d4/d85/a16022.html#aaeda7e00410766857ee4bd73a8e15b89", null ],
-    [ "events", "d4/d85/a16022.html#ad4a2111d4301f0b928fbd01b6783fb6c", null ],
-    [ "summons", "d4/d85/a16022.html#a3136ecd40bf228fade0e40d3c5d22e5d", null ]
+    [ "HandleDummy", "d4/d85/a16022.html#a687cff5dcfcd7d9253182eb604d7a780", null ],
+    [ "PrepareSpellScript", "d4/d85/a16022.html#ab8544e2c9e3bea229abd270c108bfa14", null ],
+    [ "Register", "d4/d85/a16022.html#a144224b42aabc0402b729dcc808d779d", null ],
+    [ "Validate", "d4/d85/a16022.html#a985e843e856a7322bccf8544c45df48c", null ]
 ];

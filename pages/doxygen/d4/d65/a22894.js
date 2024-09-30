@@ -1,15 +1,7 @@
 var a22894 =
 [
-    [ "npc_vh_teleportation_portalAI", "d4/d65/a22894.html#a9d062de34e4fbc8ccc487a633efa038d", null ],
-    [ "JustDied", "d4/d65/a22894.html#aab2cc259d78492c54e21b4279697f909", null ],
-    [ "JustSummoned", "d4/d65/a22894.html#a029b105ef6f92455c41e064aeb0fd5f6", null ],
-    [ "SummonedMobDied", "d4/d65/a22894.html#ae6b5b15aeee2f7b02d5c54dd8d09aa51", null ],
-    [ "UpdateAI", "d4/d65/a22894.html#a812e330e20924cc34262363ecc0a3fc1", null ],
-    [ "addValue", "d4/d65/a22894.html#aa52f29a41d12320516737b437af62fc3", null ],
-    [ "bKorG", "d4/d65/a22894.html#ad96efd06ebb1902cc30deb22e62d7873", null ],
-    [ "events", "d4/d65/a22894.html#a329635246e80e7264cad6749ee70be40", null ],
-    [ "listOfMobs", "d4/d65/a22894.html#a470a61cf7d424711b07770fd56c74b29", null ],
-    [ "pInstance", "d4/d65/a22894.html#a10ebe705c55d898bfea2af104ce7f86e", null ],
-    [ "spawned", "d4/d65/a22894.html#a8921c314c2f4b958e11136504971f427", null ],
-    [ "wave", "d4/d65/a22894.html#a4dd689e6445e18c3e9883bc471fecdde", null ]
+    [ "HandleEffectRemove", "d4/d65/a22894.html#a6adc572bb13dde9b83a44a1c27833019", null ],
+    [ "PrepareAuraScript", "d4/d65/a22894.html#a877c26735531508d1806273117f3e8bc", null ],
+    [ "Register", "d4/d65/a22894.html#a1b3e9eb2f6979ac2f17ac47eb38c8bb5", null ],
+    [ "Validate", "d4/d65/a22894.html#a8c45ba806d865f7b9d56950013bdd81c", null ]
 ];

@@ -1,6 +1,5 @@
 var a17938 =
 [
-    [ "spell_deathbringer_blood_link_SpellScript", "d7/d51/a17942.html", "d7/d51/a17942" ],
-    [ "spell_deathbringer_blood_link", "db/def/a17938.html#a288e4021c630865c38a1c3f9ff577b7f", null ],
-    [ "GetSpellScript", "db/def/a17938.html#a5cd172d455165851fb361f808a77b506", null ]
+    [ "operator()", "db/def/a17938.html#a6a8c02f9b797ed7df8960e5ddc44f93f", null ],
+    [ "operator()", "db/def/a17938.html#a3847988d35a9cb0c5aab4ad73ff1a427", null ]
 ];

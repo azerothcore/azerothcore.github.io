@@ -1,7 +1,6 @@
 var a27150 =
 [
-    [ "PrepareSpellScript", "de/d4d/a27150.html#aad8061898087fbf5eb6527cbaa70927d", null ],
-    [ "RecalculateDamage", "de/d4d/a27150.html#a6f03ccb77ce43c4e36996ae344780ee3", null ],
-    [ "Register", "de/d4d/a27150.html#abc7e406244a1a5ea9d7c3d8feb10b8ae", null ],
-    [ "_damagePct", "de/d4d/a27150.html#a3ab5f5ec279f30dda50fa3ca3f5e6715", null ]
+    [ "go_heatAI", "d1/dde/a27154.html", "d1/dde/a27154" ],
+    [ "go_heat", "de/d4d/a27150.html#a6c3d6919652159e4fd265b6d63f59c16", null ],
+    [ "GetAI", "de/d4d/a27150.html#a9f19009a78c7abd349d2e2e7bf98c1a0", null ]
 ];

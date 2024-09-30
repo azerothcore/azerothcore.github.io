@@ -1,6 +1,6 @@
 var a24330 =
 [
-    [ "PrepareSpellScript", "da/da3/a24330.html#abd6b61e7efbed1427b7603640ac7d474", null ],
-    [ "RecalculateDamage", "da/da3/a24330.html#a02b59e5ac84c8556c9a9441ff6414461", null ],
-    [ "Register", "da/da3/a24330.html#ab6183bf9e49d3c11c256e54053c13aa2", null ]
+    [ "npc_pet_dk_dancing_rune_weaponAI", "d6/d08/a24334.html", "d6/d08/a24334" ],
+    [ "npc_pet_dk_dancing_rune_weapon", "da/da3/a24330.html#aaa0881509c2842d6c0442884d0947e28", null ],
+    [ "GetAI", "da/da3/a24330.html#aae11c76fbcf729f44136c53b2b3e0982", null ]
 ];

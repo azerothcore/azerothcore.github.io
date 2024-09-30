@@ -1,6 +1,8 @@
 var a23398 =
 [
-    [ "npc_torturer_lecraftAI", "d2/d4f/a23402.html", "d2/d4f/a23402" ],
-    [ "npc_torturer_lecraft", "d2/d7c/a23398.html#a789f8bdafe96d5cb01225b940a80c651", null ],
-    [ "GetAI", "d2/d7c/a23398.html#abdc8b33cd820c5cd14c999e7407897fe", null ]
+    [ "npc_underbat", "d2/d7c/a23398.html#a710a010d3425b7171ee45d8465fd6b2b", null ],
+    [ "JustEngagedWith", "d2/d7c/a23398.html#ae137b6b763b3df6096c3bfd4dd7ee676", null ],
+    [ "Reset", "d2/d7c/a23398.html#aae771ad526e8f72a90fe70ebbd91b472", null ],
+    [ "UpdateAI", "d2/d7c/a23398.html#ab3a9b97543aee3fdf22c17e94f768c0e", null ],
+    [ "_scheduler", "d2/d7c/a23398.html#a7644a73c2a5bcbbe0a3db5c782169752", null ]
 ];

@@ -1,6 +1,8 @@
 var a25298 =
 [
-    [ "HandleScript", "d5/dda/a25298.html#ae45f8a366c1594d3723b83ee6e006957", null ],
-    [ "PrepareSpellScript", "d5/dda/a25298.html#a217953fda43e2c3abdd0d24ddbabc75d", null ],
-    [ "Register", "d5/dda/a25298.html#a6b9e449a64747f0a5715424295b1c30f", null ]
+    [ "OnApply", "d5/dda/a25298.html#acf25199409ab6f991db15a784749aaf1", null ],
+    [ "OnRemove", "d5/dda/a25298.html#a700513c27a2ae22581bbc61c8c4b523a", null ],
+    [ "PrepareAuraScript", "d5/dda/a25298.html#ae6f93ab542d8f05a95745d7b10d1856a", null ],
+    [ "Register", "d5/dda/a25298.html#a9332cb72f66e83f648b4ed02c8c074eb", null ],
+    [ "Validate", "d5/dda/a25298.html#a09017d12ecf0ae0c3091cea17640782c", null ]
 ];

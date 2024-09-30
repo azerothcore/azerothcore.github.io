@@ -1,7 +1,5 @@
 var a19214 =
 [
-    [ "Load", "d4/dbd/a19214.html#a2b05eb7211e6cf9274f07a91b70bb770", null ],
-    [ "OnRemove", "d4/dbd/a19214.html#a78892d673719672fdad7f64bf65d473b", null ],
-    [ "PrepareAuraScript", "d4/dbd/a19214.html#a8391353f525125772408893191d8fc81", null ],
-    [ "Register", "d4/dbd/a19214.html#a52b0bb82dd4e515584e370a46d0cfa82", null ]
+    [ "achievement_split_personality", "d4/dbd/a19214.html#aac29ae7c321306a663e55493987af45d", null ],
+    [ "OnCheck", "d4/dbd/a19214.html#ab5379f3c1191eeb747cb6762fc42ce01", null ]
 ];

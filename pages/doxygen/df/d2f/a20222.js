@@ -1,6 +1,7 @@
 var a20222 =
 [
-    [ "npc_teslaAI", "d4/d80/a20226.html", "d4/d80/a20226" ],
-    [ "npc_tesla", "df/d2f/a20222.html#ae74ad52adbf4a160ef0c7cf97e4faea0", null ],
-    [ "GetAI", "df/d2f/a20222.html#a00d0e2ee0a8c20ed64dd2012f244a760", null ]
+    [ "HandleScript", "df/d2f/a20222.html#a760bb60198017605111d02af98c827b1", null ],
+    [ "PrepareSpellScript", "df/d2f/a20222.html#a6128956f1037b62fff2e6f10ec22d956", null ],
+    [ "Register", "df/d2f/a20222.html#ae445c98f5543df2f45b77b6cd54d58e7", null ],
+    [ "Validate", "df/d2f/a20222.html#a3bb460d50928bd1b57566dd6a50fa5cd", null ]
 ];

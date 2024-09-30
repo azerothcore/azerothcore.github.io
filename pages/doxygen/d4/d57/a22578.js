@@ -1,14 +1,8 @@
 var a22578 =
 [
-    [ "npc_massive_jormungarAI", "d4/d57/a22578.html#aa0b9acaec1aab155f7e4442d12d40c3e", null ],
-    [ "DoAction", "d4/d57/a22578.html#a8084994ba056c907b2e487568fa7502a", null ],
-    [ "JustDied", "d4/d57/a22578.html#a02b4e75227811250e2210f754e6e04f2", null ],
-    [ "JustEngagedWith", "d4/d57/a22578.html#a93769dbb2f7d2136e5ab2603927a5f12", null ],
-    [ "JustReachedHome", "d4/d57/a22578.html#a8ea0fe40cb4b113abadc091ab8085636", null ],
-    [ "MoveInLineOfSight", "d4/d57/a22578.html#a55c817111fab479c3abcfca8942f16e8", null ],
-    [ "Reset", "d4/d57/a22578.html#aca0d8ebe3b47a075a8b87666c0207620", null ],
-    [ "UpdateAI", "d4/d57/a22578.html#a9201c4cdf74d55bb3cde52eb265aa3d9", null ],
-    [ "events", "d4/d57/a22578.html#a92334b8178317a91a7d4336096d75f33", null ],
-    [ "m_pInstance", "d4/d57/a22578.html#ad50a9852370798817fda318f71f27653", null ],
-    [ "summons", "d4/d57/a22578.html#acfa84efc38b994706015e6d82fe1f653", null ]
+    [ "npc_yor", "d4/d57/a22578.html#a43ed8720d06c035085d481dbe6539dca", null ],
+    [ "JustEngagedWith", "d4/d57/a22578.html#a74d5cd95b98a2057f78ee9e9b12aec42", null ],
+    [ "Reset", "d4/d57/a22578.html#aa698540b646fd870b33afbaf19ddbe07", null ],
+    [ "UpdateAI", "d4/d57/a22578.html#a46a2cf8ff94b830348641d94e3d9cd57", null ],
+    [ "_scheduler", "d4/d57/a22578.html#a4ce1e1558c9b8aa5d50b1df1a903d776", null ]
 ];

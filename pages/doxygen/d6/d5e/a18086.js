@@ -1,6 +1,7 @@
 var a18086 =
 [
-    [ "npc_igb_ship_crewAI", "d6/d5e/a18086.html#a3ca741b305e3235b0521f094d7abe732", null ],
-    [ "CanAIAttack", "d6/d5e/a18086.html#a2c834dc151493957fc116865699ae7f5", null ],
-    [ "_instance", "d6/d5e/a18086.html#a288bd5f8b4eaed7b1a960ed738330ae4", null ]
+    [ "HandleScript", "d6/d5e/a18086.html#aef02c7f9ee2a5dda9f6b18d8aa386759", null ],
+    [ "PrepareSpellScript", "d6/d5e/a18086.html#acbfd8657da20f2e91a9ef43cab7c4113", null ],
+    [ "Register", "d6/d5e/a18086.html#ad83d563da98ad189f2198a061b1cd50f", null ],
+    [ "Validate", "d6/d5e/a18086.html#a8f371bdbc57624c295efb14e2ca067c5", null ]
 ];

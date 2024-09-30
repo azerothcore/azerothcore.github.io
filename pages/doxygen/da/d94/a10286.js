@@ -1,4 +1,5 @@
 var a10286 =
 [
-    [ "Validate", "da/d94/a10286.html#aefab7047da58a45e9ef17b5ea7de505e", null ]
+    [ "AcceptGuildInvite", "da/d94/a10286.html#a4453fc550871082f6295d9229eef265a", null ],
+    [ "Read", "da/d94/a10286.html#a3d39b917ca2650f645ccce12cdc1a1e0", null ]
 ];

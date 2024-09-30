@@ -1,8 +1,6 @@
 var a19442 =
 [
-    [ "Load", "d2/d34/a19442.html#abf5b27507142094bd8005982c155e0ea", null ],
-    [ "PeriodicTick", "d2/d34/a19442.html#a830b0947b6e1360630bf3a0e381c6506", null ],
-    [ "PrepareAuraScript", "d2/d34/a19442.html#a2fa5cabca9e20f24ee4a967d0900525e", null ],
-    [ "Register", "d2/d34/a19442.html#a77c811cb813c3d2a9125aa05b4529b8e", null ],
-    [ "_instance", "d2/d34/a19442.html#a4f831deea16c0e94b75ab2a64f2eee81", null ]
+    [ "instance_halls_of_lightning_InstanceMapScript", "d4/dd0/a19446.html", "d4/dd0/a19446" ],
+    [ "instance_halls_of_lightning", "d2/d34/a19442.html#a24395866efe2c7d1f7727be2557a8b46", null ],
+    [ "GetInstanceScript", "d2/d34/a19442.html#a5ce157aeaf2ed78e98e864059a599b36", null ]
 ];

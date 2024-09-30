@@ -1,6 +1,7 @@
 var a26174 =
 [
-    [ "npc_lord_illidan_stormrageAI", "d3/dd4/a26178.html", "d3/dd4/a26178" ],
-    [ "npc_lord_illidan_stormrage", "da/d24/a26174.html#ad2f213749e170ec4f9903396d132f5f3", null ],
-    [ "GetAI", "da/d24/a26174.html#a9aaedc4326b90621965dad522f4af897", null ]
+    [ "HandleApplyEffect", "da/d24/a26174.html#af95120b26a165196e0310956c245f36f", null ],
+    [ "HandleRemoveEffect", "da/d24/a26174.html#a59e7d23c969b03aa75ef1da3bf42f6e9", null ],
+    [ "PrepareAuraScript", "da/d24/a26174.html#ae19e002407db1466f0655db3d14fe0d7", null ],
+    [ "Register", "da/d24/a26174.html#ae776a5e913fcf1553b7e2a00374a1ee6", null ]
 ];

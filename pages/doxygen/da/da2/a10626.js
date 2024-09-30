@@ -1,5 +1,5 @@
 var a10626 =
 [
-    [ "groupId", "da/da2/a10626.html#a71a218d1ea3241f0c72205f7e2f34125", null ],
-    [ "specialFlags", "da/da2/a10626.html#a2232afb6a6b05e5ea33f40992a09621d", null ]
+    [ "PacketHandler", "da/da2/a10626.html#a7ca20eda3de42ab35ef45c56f1d6d73e", null ],
+    [ "Call", "da/da2/a10626.html#a42ac77b81d5280c7f1c54991649ab501", null ]
 ];

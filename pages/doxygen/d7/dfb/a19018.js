@@ -1,6 +1,6 @@
 var a19018 =
 [
-    [ "spell_the_lich_king_play_movie_SpellScript", "d2/d7c/a19022.html", "d2/d7c/a19022" ],
-    [ "spell_the_lich_king_play_movie", "d7/dfb/a19018.html#a694e42a9d3624ef701d145b72c1f2d71", null ],
-    [ "GetSpellScript", "d7/dfb/a19018.html#a4422e44990747a1358742a4ad18a6280", null ]
+    [ "FilterTargets", "d7/dfb/a19018.html#a4d5340e7b2e3326ff36b4d61d1faeaa9", null ],
+    [ "PrepareSpellScript", "d7/dfb/a19018.html#a452937a4e95b40366f915213ec475a84", null ],
+    [ "Register", "d7/dfb/a19018.html#a883e383928a9b0ad0aeccf7afee4f15e", null ]
 ];

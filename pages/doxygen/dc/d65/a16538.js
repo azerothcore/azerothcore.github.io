@@ -1,8 +1,7 @@
 var a16538 =
 [
-    [ "npc_announcer_toc5AI", "dc/d65/a16538.html#a96e1bd089dfd21fa252bc6422d20bada", null ],
-    [ "DamageTaken", "dc/d65/a16538.html#a53458483699ac026ff2cd36b5f061571", null ],
-    [ "MovementInform", "dc/d65/a16538.html#acdcf4110b3815635ad173a70e7a1e603", null ],
-    [ "Reset", "dc/d65/a16538.html#ab3dca17e0350d6d46a9069f97f2d12ef", null ],
-    [ "UpdateAI", "dc/d65/a16538.html#ad2c596253d67d051f497a8d77859846d", null ]
+    [ "HandleScriptEffect", "dc/d65/a16538.html#a51064b3a11f453724ae0879c80eaf8df", null ],
+    [ "PrepareSpellScript", "dc/d65/a16538.html#aac26002ff107e609fb7258306b430f1b", null ],
+    [ "Register", "dc/d65/a16538.html#a0efef7644706940e3929ce99cd162c91", null ],
+    [ "Validate", "dc/d65/a16538.html#a7110d4136337d44aa0300ec82e5a6511", null ]
 ];

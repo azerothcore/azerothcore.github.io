@@ -1,6 +1,6 @@
 var a18198 =
 [
-    [ "IgbTeleportOnVictoryCheck", "dc/d56/a18198.html#a29ee8cac93b9920e598da9205406e608", null ],
-    [ "operator()", "dc/d56/a18198.html#acf85943e238179e911434358f1593be2", null ],
-    [ "_inst", "dc/d56/a18198.html#a015353ecb66da16c697152b7ad3c527e", null ]
+    [ "ModDestHeight", "dc/d56/a18198.html#aafab48e58a2eb18c286f71fa907e9bc8", null ],
+    [ "PrepareSpellScript", "dc/d56/a18198.html#a3c84b7044f448a5596e18f72e7b2f11a", null ],
+    [ "Register", "dc/d56/a18198.html#ad3900c969dfb05a61ebc750eb3425bc0", null ]
 ];

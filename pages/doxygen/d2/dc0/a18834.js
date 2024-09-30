@@ -1,9 +1,6 @@
 var a18834 =
 [
-    [ "FilterTargets", "d2/dc0/a18834.html#ae75dfc2dee194a831580d2344aef688b", null ],
-    [ "FilterTargetsSubseq", "d2/dc0/a18834.html#a0cdc7175206e46ed4c055f7370496b68", null ],
-    [ "PrepareSpellScript", "d2/dc0/a18834.html#ab69bcc25df68d9b7482d6f117c1b45bb", null ],
-    [ "Register", "d2/dc0/a18834.html#a2c62b04a3f13bd8ac989be9509a621b9", null ],
-    [ "Validate", "d2/dc0/a18834.html#ade8367c814a917cc9d0e7fc1512be773", null ],
-    [ "targetList", "d2/dc0/a18834.html#a27c210607154f91337a0cfe3d2a0bf69", null ]
+    [ "boss_four_horsemenAI", "d0/d1f/a18838.html", "d0/d1f/a18838" ],
+    [ "boss_four_horsemen", "d2/dc0/a18834.html#a6bcaf9a12d854a322f50ac2f98dbb72b", null ],
+    [ "GetAI", "d2/dc0/a18834.html#a3ee27da1d0da48306cc10c17c9411d1a", null ]
 ];

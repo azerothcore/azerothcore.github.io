@@ -1,7 +1,10 @@
 var a13330 =
 [
-    [ "HandleScriptEffect", "dd/d99/a13330.html#ae00e67edf5d4c522faf879a1709201c9", null ],
-    [ "PrepareSpellScript", "dd/d99/a13330.html#ac455786b59be799fb659b49b2bdcd25a", null ],
-    [ "Register", "dd/d99/a13330.html#a23f545ed460acf3b17b767f0cce3fb2e", null ],
-    [ "Validate", "dd/d99/a13330.html#a9ccc8bb8b7083b662ec08aa6044ef786", null ]
+    [ "npc_sentinel_leader", "dd/d99/a13330.html#a583c43b047dd5c172938d60ef647ecd5", null ],
+    [ "JustEngagedWith", "dd/d99/a13330.html#a92c83a7fcc04df1db3be1d16f4a461d0", null ],
+    [ "MovementInform", "dd/d99/a13330.html#a6d51ada16fac1f5eda8b09aede746a4b", null ],
+    [ "Reset", "dd/d99/a13330.html#ad638ba6ce33753af6a0165c053a90d78", null ],
+    [ "UpdateAI", "dd/d99/a13330.html#aa689bb8189eb8cf842a0aa63bb9f1a73", null ],
+    [ "_events", "dd/d99/a13330.html#ada65bdf153ae9b3262b0f55fb540be17", null ],
+    [ "_helpCalled", "dd/d99/a13330.html#a803c324e790cd74e90ff6c2adde37ba3", null ]
 ];

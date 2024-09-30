@@ -1,7 +1,8 @@
 var a22562 =
 [
-    [ "HandleOnEffectRemove", "da/d19/a22562.html#a728bd45a9fa110da9c24d01513dfb6a1", null ],
-    [ "PrepareAuraScript", "da/d19/a22562.html#a9bb1dcd8bd62c613df965bb076178505", null ],
-    [ "Register", "da/d19/a22562.html#ae5188adf9d2dc006c03ab22ffd7d78f6", null ],
-    [ "Validate", "da/d19/a22562.html#ab0a9f074d247e8a37d1ebbc08bb916d7", null ]
+    [ "CalcPeriodic", "da/d19/a22562.html#a7a34b9bd77cd1f15a1cd7954d76d80d0", null ],
+    [ "OnRemove", "da/d19/a22562.html#af120bb9d6a0c3d338706613540849412", null ],
+    [ "PrepareAuraScript", "da/d19/a22562.html#ad413f14193013058e1775f80b457a81d", null ],
+    [ "Register", "da/d19/a22562.html#aa35fc5865f108712e450661e67c384ce", null ],
+    [ "Update", "da/d19/a22562.html#aebc61b57ed8038488ec06c14483b2099", null ]
 ];

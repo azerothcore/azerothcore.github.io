@@ -1,7 +1,7 @@
 var a25470 =
 [
-    [ "DealDebrisDamage", "d6/df5/a25470.html#a6a1611c4a221b7c16be66511f3595010", null ],
-    [ "Execute", "d6/df5/a25470.html#a15715b2e7271acc52c2c49486bdb2822", null ],
-    [ "_owner", "d6/df5/a25470.html#ad7a36286fed7ec090beaf77b97399c51", null ],
-    [ "_targetGUID", "d6/df5/a25470.html#ac5cabeab92c92f7dc1a97eef0ebab72e", null ]
+    [ "HandleJump", "d6/df5/a25470.html#ac70f6d53e85af1ee2591e761e21872db", null ],
+    [ "HandleScriptEffect", "d6/df5/a25470.html#abdaa3c5356f84429cf6d2e053a3238ff", null ],
+    [ "PrepareSpellScript", "d6/df5/a25470.html#a7daa7cef660e9f08b8e60c7788783c99", null ],
+    [ "Register", "d6/df5/a25470.html#a0cbd40958551e0f38850a9fdcd6f0048", null ]
 ];

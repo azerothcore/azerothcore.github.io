@@ -1,6 +1,9 @@
 var a23482 =
 [
-    [ "spell_shredder_delivery_SpellScript", "d1/df7/a23486.html", "d1/df7/a23486" ],
-    [ "spell_shredder_delivery", "d1/d95/a23482.html#ab1489e9a6c0f538a184a508342d3bf45", null ],
-    [ "GetSpellScript", "d1/d95/a23482.html#ae126ef1887f3ae83daf0ad2c17486a70", null ]
+    [ "boss_the_maker", "d1/d95/a23482.html#a478c48f225e8fdf14cde5b1f144cb6c4", null ],
+    [ "JustDied", "d1/d95/a23482.html#a564abd0a8f52c8c58a305f9c47d8475c", null ],
+    [ "JustEngagedWith", "d1/d95/a23482.html#a6b0a4442dbabde69ca9352017ee23675", null ],
+    [ "KilledUnit", "d1/d95/a23482.html#a40643ca00fe7d7029a291335e47c722a", null ],
+    [ "Reset", "d1/d95/a23482.html#a9d115e5e1ef585348937b9d6c1cd2cb1", null ],
+    [ "UpdateAI", "d1/d95/a23482.html#a24cd8e9a97410ab290592b586962fffd", null ]
 ];

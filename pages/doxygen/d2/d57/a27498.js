@@ -1,7 +1,6 @@
 var a27498 =
 [
-    [ "CheckProc", "d2/d57/a27498.html#afbd6d4a64b7da0d0dc15c62eb81746c9", null ],
-    [ "HandleProc", "d2/d57/a27498.html#a27569fe686e50246768fca4a7625fe0d", null ],
-    [ "PrepareAuraScript", "d2/d57/a27498.html#a4f4eaa4aeeac9257804957671c16233f", null ],
-    [ "Register", "d2/d57/a27498.html#ab9a662bebdb5e03c5c10a807b892a9bf", null ]
+    [ "npc_injured_patientAI", "de/d71/a27502.html", "de/d71/a27502" ],
+    [ "npc_injured_patient", "d2/d57/a27498.html#a0b7ef214aa1b20df088dee0976c73783", null ],
+    [ "GetAI", "d2/d57/a27498.html#a0c042bb81e684f903d28d7879af99d4a", null ]
 ];

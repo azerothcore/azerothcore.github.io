@@ -1,6 +1,16 @@
 var a21326 =
 [
-    [ "boss_freya_nature_bombAI", "d3/dac/a21330.html", "d3/dac/a21330" ],
-    [ "boss_freya_nature_bomb", "d0/d68/a21326.html#a18fa6ff862a1b367ac23eb1b7bda0ed4", null ],
-    [ "GetAI", "d0/d68/a21326.html#a73e24282c6bb29cf3f6a7da14a4de582", null ]
+    [ "boss_zuramatAI", "d0/d68/a21326.html#ab4c04fec01023295946d170a466d1c48", null ],
+    [ "EnterEvadeMode", "d0/d68/a21326.html#a991437ea0d9fd1ce7807ef9937c4cb0a", null ],
+    [ "JustDied", "d0/d68/a21326.html#a060df9b36f2f62f3fc7afb80386d51c5", null ],
+    [ "JustEngagedWith", "d0/d68/a21326.html#a85cc0f20b51e84ff1c5c16a3b2b004b9", null ],
+    [ "JustSummoned", "d0/d68/a21326.html#a6e925207ddc112f7dd7044c08023f90e", null ],
+    [ "KilledUnit", "d0/d68/a21326.html#adb79f8c244f57b88848dd44b592faf41", null ],
+    [ "MoveInLineOfSight", "d0/d68/a21326.html#aa3ef3256d203d264dee12eff4491a28c", null ],
+    [ "Reset", "d0/d68/a21326.html#a18498e4bc4bfac33ff2c591f5bf28d7d", null ],
+    [ "SummonedCreatureDespawn", "d0/d68/a21326.html#a242f814bfec2e937e1338097e78080e3", null ],
+    [ "UpdateAI", "d0/d68/a21326.html#adb591699b7d8ece0b1775afd40a4181b", null ],
+    [ "events", "d0/d68/a21326.html#a4406b42618f3e40fa90e0a34ec3ad09f", null ],
+    [ "pInstance", "d0/d68/a21326.html#a8ebb5ca6f9f18b0205e8b6a54492c06a", null ],
+    [ "summons", "d0/d68/a21326.html#a42cb09654095c8a157720f99e7957102", null ]
 ];

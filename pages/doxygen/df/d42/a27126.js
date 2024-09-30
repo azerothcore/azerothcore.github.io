@@ -1,6 +1,5 @@
 var a27126 =
 [
-    [ "HandleScriptEffect", "df/d42/a27126.html#a422a77760004d6d6fac6bacdb1d436ff", null ],
-    [ "PrepareSpellScript", "df/d42/a27126.html#a1d7e2beafb55464f928ea5904441d698", null ],
-    [ "Register", "df/d42/a27126.html#aeaa8321255f377b85884df25a455554f", null ]
+    [ "go_ethereum_stasis", "df/d42/a27126.html#aaa8fc5733678a17a37c60c9853f91e62", null ],
+    [ "OnGossipHello", "df/d42/a27126.html#ac36da8dccbebcaee605a878df3904c60", null ]
 ];

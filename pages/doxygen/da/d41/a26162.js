@@ -1,8 +1,8 @@
 var a26162 =
 [
-    [ "CreatureId", "da/d41/a26162.html#a127341c70f8785ceb556b1c11b23f477", null ],
-    [ "SpawnCount", "da/d41/a26162.html#ad51fb68e41e04490f658a4c4f62612bd", null ],
-    [ "SpawnTimer", "da/d41/a26162.html#aa57ff686c5fde12269e231333d8a8bef", null ],
-    [ "UsedSpawnPoint", "da/d41/a26162.html#a2d5f42a6b1a309c8db74febcedf457eb", null ],
-    [ "YellTimer", "da/d41/a26162.html#a6346259269af7f2936f959f87288dd69", null ]
+    [ "HandleApplyEffect", "da/d41/a26162.html#a50102ae92f44fd7c2bd9afc3fec5a291", null ],
+    [ "Load", "da/d41/a26162.html#ab6ba9d68b968ae41ee9c9869df686f02", null ],
+    [ "PrepareAuraScript", "da/d41/a26162.html#a6e212284f72320356cfa2f0c2a59999d", null ],
+    [ "Register", "da/d41/a26162.html#afcdd6cc19b59b5e6aa0cfdb9189edc99", null ],
+    [ "Validate", "da/d41/a26162.html#a985a52f71371443454d6dd36f7fe83b2", null ]
 ];

@@ -1,6 +1,8 @@
 var a21694 =
 [
-    [ "FilterTargets", "dc/dd7/a21694.html#adc1e71477c9bb4e8b4d66c26804f283a", null ],
-    [ "PrepareSpellScript", "dc/dd7/a21694.html#a70071278b2618169e4c0ef7951d02dcb", null ],
-    [ "Register", "dc/dd7/a21694.html#a98cf9d736a4b6e8bce2a7bf6c675e630", null ]
+    [ "npc_future_youAI", "dc/dd7/a21694.html#a7608c050dd198e3133050e222b42f62b", null ],
+    [ "EnterEvadeMode", "dc/dd7/a21694.html#a0b15c8af6075e323e56b2170ce4eefc0", null ],
+    [ "MoveInLineOfSight", "dc/dd7/a21694.html#a35b67f9e948f5ffbde8a423190ece603", null ],
+    [ "Reset", "dc/dd7/a21694.html#a01a8cd8f94dd614de2ffefdb19cd9f29", null ],
+    [ "UpdateAI", "dc/dd7/a21694.html#ac110daa6b4cf6bf26d9e9f9829577fa6", null ]
 ];

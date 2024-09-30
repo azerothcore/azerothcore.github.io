@@ -1,6 +1,6 @@
 var a14522 =
 [
-    [ "npc_ancient_wispAI", "d7/d27/a14526.html", "d7/d27/a14526" ],
-    [ "npc_ancient_wisp", "da/d82/a14522.html#a0a6f8bad496997b76c00786085697c2b", null ],
-    [ "GetAI", "da/d82/a14522.html#a24dd4771877084afe3102697ec589194", null ]
+    [ "instance_mount_hyjal_InstanceMapScript", "d7/d27/a14526.html", "d7/d27/a14526" ],
+    [ "instance_hyjal", "da/d82/a14522.html#ade946c0fcaa4bad790bfcb4b6ffb6420", null ],
+    [ "GetInstanceScript", "da/d82/a14522.html#ae6e39933d7cfd6563f6d37636f1c6f68", null ]
 ];

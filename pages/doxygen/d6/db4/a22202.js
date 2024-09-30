@@ -1,6 +1,6 @@
 var a22202 =
 [
-    [ "boss_yoggsaron_keeperAI", "df/da6/a22206.html", "df/da6/a22206" ],
-    [ "boss_yoggsaron_keeper", "d6/db4/a22202.html#a30b6bb73b31eca2977685c84c635db5b", null ],
-    [ "GetAI", "d6/db4/a22202.html#afc39831d2a063ec6e7f6b20a6c998e69", null ]
+    [ "npc_iron_watcherAI", "df/da6/a22206.html", "df/da6/a22206" ],
+    [ "npc_iron_watcher", "d6/db4/a22202.html#a174e19241ca6cd1619fbae074d11c8ba", null ],
+    [ "GetAI", "d6/db4/a22202.html#af3b80b838e192737762ceed599b0be9a", null ]
 ];

@@ -1,6 +1,9 @@
 var a24522 =
 [
-    [ "spell_mother_shahraz_fatal_attraction_dummy_SpellScript", "d8/d70/a24526.html", "d8/d70/a24526" ],
-    [ "spell_mother_shahraz_fatal_attraction_dummy", "d4/d59/a24522.html#aea20255a26174f18a1168cc49287a6f1", null ],
-    [ "GetSpellScript", "d4/d59/a24522.html#ac55aaae13c1f60ac5e87bb2187310459", null ]
+    [ "HandleAfterHit", "d4/d59/a24522.html#ae1b4b01bd1a6903bcd594d2191e2770b", null ],
+    [ "Load", "d4/d59/a24522.html#a7f0dae9dd4ead6ea10e8343810671282", null ],
+    [ "PrepareSpellScript", "d4/d59/a24522.html#a293ff5d232851bce7cbc4a83aa8253b5", null ],
+    [ "Register", "d4/d59/a24522.html#ae9eeb78d006bc01dd05fdd726dea9b90", null ],
+    [ "Validate", "d4/d59/a24522.html#afdbb71f81aacc9ac1a5119707952ec52", null ],
+    [ "_executed", "d4/d59/a24522.html#a2fe77cc280a5fa3bb324d969f1081b65", null ]
 ];

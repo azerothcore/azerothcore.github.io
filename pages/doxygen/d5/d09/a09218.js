@@ -1,7 +1,12 @@
 var a09218 =
 [
-    [ "flags", "d5/d09/a09218.html#a2faab5766bd3cbc09ed4e541be7e7f94", null ],
-    [ "fourcc", "d5/d09/a09218.html#a93b48dd741d13ff036eac8a77df9f916", null ],
-    [ "gridHeight", "d5/d09/a09218.html#a3fbdc02ff4769b6f2eacbdc02ba4d370", null ],
-    [ "gridMaxHeight", "d5/d09/a09218.html#a1146dfae7dc4f89dddc94cda5deb7a4c", null ]
+    [ "EventLogEntry", "d5/d09/a09218.html#a31726d40f7b89077b45ffbaca8396a9d", null ],
+    [ "EventLogEntry", "d5/d09/a09218.html#a96a2e3a6d565db452e7d0f1a152f63c7", null ],
+    [ "~EventLogEntry", "d5/d09/a09218.html#a8d6bf0a5a53fdc8e99ad53293d96af7c", null ],
+    [ "SaveToDB", "d5/d09/a09218.html#a2ca71e291a44f95bb42d51083aa84985", null ],
+    [ "WritePacket", "d5/d09/a09218.html#adffe90bd0265dea0ca2fd6bc83f3056e", null ],
+    [ "m_eventType", "d5/d09/a09218.html#a00216643e6856591402c21df490c1fec", null ],
+    [ "m_newRank", "d5/d09/a09218.html#ab733c92f478dc36e3b5ffc61799a6ce7", null ],
+    [ "m_playerGuid1", "d5/d09/a09218.html#a06a2b45d16860c711829f49f97624272", null ],
+    [ "m_playerGuid2", "d5/d09/a09218.html#a1f66e71f9536e484663e437bbcbcefca", null ]
 ];

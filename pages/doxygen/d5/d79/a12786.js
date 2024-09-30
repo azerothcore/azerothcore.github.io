@@ -1,7 +1,6 @@
 var a12786 =
 [
-    [ "OnPeriodic", "d5/d79/a12786.html#aa48b6f35302a8857465c6567f811dec6", null ],
-    [ "PrepareAuraScript", "d5/d79/a12786.html#ad606a06f64b85c762f3c83bc9ca5b7b3", null ],
-    [ "Register", "d5/d79/a12786.html#aa7708067531131738b86077638eda7ac", null ],
-    [ "Validate", "d5/d79/a12786.html#a665698b54201184185d96bd33f53e584", null ]
+    [ "spell_scholomance_fixate_AuraScript", "dc/d68/a12790.html", "dc/d68/a12790" ],
+    [ "spell_scholomance_fixate", "d5/d79/a12786.html#a49168d593fcd172b6bd4d0d2afbe1676", null ],
+    [ "GetAuraScript", "d5/d79/a12786.html#ab1acff853165f06011c160387430988a", null ]
 ];

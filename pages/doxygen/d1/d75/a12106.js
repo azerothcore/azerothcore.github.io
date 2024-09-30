@@ -1,6 +1,7 @@
 var a12106 =
 [
-    [ "boss_netherspiteAI", "d1/dab/a12110.html", "d1/dab/a12110" ],
-    [ "boss_netherspite", "d1/d75/a12106.html#a4d9ca14b581f81faeebe569a3c5b1854", null ],
-    [ "GetAI", "d1/d75/a12106.html#a659e4586c6008a5792bbc79c5eab74b2", null ]
+    [ "HandleDummy", "d1/d75/a12106.html#acbf0fa3d73de0cec47928fc0dda0c724", null ],
+    [ "PrepareSpellScript", "d1/d75/a12106.html#a76d395449ed9fb26914aa9ff0488f1be", null ],
+    [ "Register", "d1/d75/a12106.html#a7d094ce258e3dc28cc30d5fb644d5a1e", null ],
+    [ "Validate", "d1/d75/a12106.html#a24447c4367d8e8713ba7d05ea53681ee", null ]
 ];

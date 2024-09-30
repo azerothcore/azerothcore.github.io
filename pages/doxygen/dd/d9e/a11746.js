@@ -1,6 +1,6 @@
 var a11746 =
 [
-    [ "boss_vaelAI", "d7/d7c/a11750.html", "d7/d7c/a11750" ],
-    [ "boss_vaelastrasz", "dd/d9e/a11746.html#a0b51f3b50cde4907bd9064e8bf51c005", null ],
-    [ "GetAI", "dd/d9e/a11746.html#a42dde198f5fc0ab2e7ca28ac32c42b7e", null ]
+    [ "npc_blackhand_incarceratorAI", "d7/d7c/a11750.html", "d7/d7c/a11750" ],
+    [ "npc_blackhand_incarcerator", "dd/d9e/a11746.html#a0c6bb8ea789e81803a11be57ac1b68e2", null ],
+    [ "GetAI", "dd/d9e/a11746.html#a021ddf6442812f7fb698ba7fb45b9ffb", null ]
 ];

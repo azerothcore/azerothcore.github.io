@@ -1,12 +1,10 @@
 var a10938 =
 [
-    [ "WardenMac", "d2/dac/a10938.html#a576c0cf7a819e95c97cc0ac4e5962d6d", null ],
-    [ "~WardenMac", "d2/dac/a10938.html#a5f3832580c73a0af34fa83669a92ceab", null ],
-    [ "GetModuleForClient", "d2/dac/a10938.html#a7a31b72ea7362c70f0fc9ff6e316d80b", null ],
-    [ "HandleData", "d2/dac/a10938.html#a024be47d39641cb0e7654b0e0999e444", null ],
-    [ "HandleHashResult", "d2/dac/a10938.html#a7feb3f82b2e0efd8427d6d8bcabaf17c", null ],
-    [ "Init", "d2/dac/a10938.html#ae329d60e41b9f5af2a2c7e4983936eac", null ],
-    [ "InitializeModule", "d2/dac/a10938.html#a4fceef34e83db1a357d9eadce35efdef", null ],
-    [ "RequestChecks", "d2/dac/a10938.html#a2437a3a5650305b05fc22d312d0006da", null ],
-    [ "RequestHash", "d2/dac/a10938.html#af031f18554c5a96b4eb39371a92b9c51", null ]
+    [ "EffectHook", "d2/dac/a10938.html#a4a197e061d918dfba2bc486f3393b00d", null ],
+    [ "~EffectHook", "d2/dac/a10938.html#aa234f63b530764d12064acbe3f5c9299", null ],
+    [ "CheckEffect", "d2/dac/a10938.html#ae8823c5d649d182f572818bf3db72902", null ],
+    [ "EffIndexToString", "d2/dac/a10938.html#ab818ed274cfd66ecc565b8535b751517", null ],
+    [ "GetAffectedEffectsMask", "d2/dac/a10938.html#a31faa86590e22f5ab3ca518f4df02840", null ],
+    [ "IsEffectAffected", "d2/dac/a10938.html#a697041ffa562bb6fff792beb159c7af2", null ],
+    [ "effIndex", "d2/dac/a10938.html#ab5eb48ef7ac903938f92db0e856e0295", null ]
 ];

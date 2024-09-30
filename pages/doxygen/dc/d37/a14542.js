@@ -1,11 +1,13 @@
 var a14542 =
 [
-    [ "npc_doomfire_targettingAI", "dc/d37/a14542.html#a07ece54edee7bcf83c0807f73b821403", null ],
-    [ "DamageTaken", "dc/d37/a14542.html#aedb9b9cc650e648a69e5e45d1821b64a", null ],
-    [ "JustEngagedWith", "dc/d37/a14542.html#aa28b612931636dc18ad1c498d9b0dd45", null ],
-    [ "MoveInLineOfSight", "dc/d37/a14542.html#a1bf5c9024b607d5734e10be114cc7e65", null ],
-    [ "Reset", "dc/d37/a14542.html#a0dc4f7aa069fd077b90799bc2a0c9627", null ],
-    [ "UpdateAI", "dc/d37/a14542.html#abf01058da8dab586dc2f910bc17296c5", null ],
-    [ "ChangeTargetTimer", "dc/d37/a14542.html#a5fa8995bc43274706361e8f929a5bc50", null ],
-    [ "TargetGUID", "dc/d37/a14542.html#a9c96a59db9123dec192e0868bd775321", null ]
+    [ "boss_infinite_corruptorAI", "dc/d37/a14542.html#add36192941eaabf7f3d1d41c572783bd", null ],
+    [ "DoAction", "dc/d37/a14542.html#a8ff0a9731ad7bc118a1014bdbb0e1daf", null ],
+    [ "JustDied", "dc/d37/a14542.html#a6d2f445bf0819ac644d7de14d3b7034d", null ],
+    [ "JustEngagedWith", "dc/d37/a14542.html#a644725505db4fc7a98c4255d0eb34616", null ],
+    [ "JustSummoned", "dc/d37/a14542.html#a2b12c03184b169a56a0e6696a107dc35", null ],
+    [ "Reset", "dc/d37/a14542.html#a4dbff495bfcda6fb715dec68616e1764", null ],
+    [ "UpdateAI", "dc/d37/a14542.html#aaa0a45066ab7ad7d5a7543822d399947", null ],
+    [ "beamTimer", "dc/d37/a14542.html#a2f8048e591a818f073a65bfcfa49e66c", null ],
+    [ "events", "dc/d37/a14542.html#a5491db8f5e063ca84f18f1ca63c1e846", null ],
+    [ "summons", "dc/d37/a14542.html#aa5de5f986f8a6d3ba5f3aad84422eab6", null ]
 ];

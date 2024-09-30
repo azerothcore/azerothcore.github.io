@@ -1,6 +1,7 @@
 var a26282 =
 [
-    [ "spell_q10923_evil_draws_near_visual_SpellScript", "d2/d61/a26286.html", "d2/d61/a26286" ],
-    [ "spell_q10923_evil_draws_near_visual", "d3/d71/a26282.html#aa74cf887bbc73bcdd9404c70d1daaaa2", null ],
-    [ "GetSpellScript", "d3/d71/a26282.html#ac31c2101c87c598fefb861b45f029cd1", null ]
+    [ "HandleEffectPeriodic", "d3/d71/a26282.html#a9347200565cb858cf0cc9cdb897fe1dc", null ],
+    [ "PrepareAuraScript", "d3/d71/a26282.html#a5fc89b09fb226d0d9315081d64f4103e", null ],
+    [ "Register", "d3/d71/a26282.html#ac3741617faacf83a707f1359aab1886e", null ],
+    [ "Validate", "d3/d71/a26282.html#a9378252b6711cc0bec3e63efce026495", null ]
 ];

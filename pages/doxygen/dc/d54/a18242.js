@@ -1,6 +1,9 @@
 var a18242 =
 [
-    [ "BurningPitchFilterCheck", "dc/d54/a18242.html#a11a4816f3d29cb1a6c4845cdaaeaa3cf", null ],
-    [ "operator()", "dc/d54/a18242.html#a24be987c8471d8a7096025debf6e60b1", null ],
-    [ "_entry", "dc/d54/a18242.html#a7bd20aed2db0e24ad34cbcc94d9a89d6", null ]
+    [ "npc_spirit_wardenAI", "dc/d54/a18242.html#a3391168478345d8b5c1fee151f6e9f04", null ],
+    [ "JustDied", "dc/d54/a18242.html#aa762c0bea6361107312e8231508dc655", null ],
+    [ "Reset", "dc/d54/a18242.html#ad6076663f65f43874feb0ecfc57718a4", null ],
+    [ "UpdateAI", "dc/d54/a18242.html#af845e3e2c38af5baa84c94f6074c0caf", null ],
+    [ "_events", "dc/d54/a18242.html#a1bc5cfdee62efdd622e0fe1aa503c260", null ],
+    [ "_instance", "dc/d54/a18242.html#a58ebb8e42e77add79fc888248013eb24", null ]
 ];

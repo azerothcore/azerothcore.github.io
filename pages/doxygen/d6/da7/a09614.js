@@ -1,12 +1,17 @@
 var a09614 =
 [
-    [ "QuestLocale", "d6/da7/a09614.html#a887d474a470ee0278fb4b465a7ad9547", null ],
-    [ "AreaDescription", "d6/da7/a09614.html#a5c6c5a8d1fb500afef514c80c9d87e4e", null ],
-    [ "CompletedText", "d6/da7/a09614.html#aad432417f836b2cbe03d3e53e4e76f14", null ],
-    [ "Details", "d6/da7/a09614.html#afd23d37c92f2b28e1c125bba0d670497", null ],
-    [ "Objectives", "d6/da7/a09614.html#ae1ecea0f255f34b547302bfc2c0b6ad4", null ],
-    [ "ObjectiveText", "d6/da7/a09614.html#ae41f7f50ab68e5783ceec37e6f8ff5b0", null ],
-    [ "OfferRewardText", "d6/da7/a09614.html#aaba6d07625232a77e3457454f7d4fa77", null ],
-    [ "RequestItemsText", "d6/da7/a09614.html#a764d2092084454844e59c484fb637017", null ],
-    [ "Title", "d6/da7/a09614.html#ab75b38241e31b9137c1d85334b3a3f30", null ]
+    [ "GraveyardContainer", "d6/da7/a09614.html#a21ce8ad954d37b385e339c5247f17ffd", null ],
+    [ "AddGraveyardLink", "d6/da7/a09614.html#ab4884f2b2b4f00dd9ea65c1ceb2af1bb", null ],
+    [ "FindGraveyardData", "d6/da7/a09614.html#a54a4461db550d5383fded30a6ecd0408", null ],
+    [ "GetClosestGraveyard", "d6/da7/a09614.html#af989ee1a2f802a0cb5addf50a0586d63", null ],
+    [ "GetDefaultGraveyard", "d6/da7/a09614.html#ab6ef1306db71eb2f2d72167314d5e1c2", null ],
+    [ "GetGraveyard", "d6/da7/a09614.html#addd1a184b9791c8c6a74fb228545741b", null ],
+    [ "GetGraveyard", "d6/da7/a09614.html#aeb72f07dd677dfe31d0e4b45f2f9ddd6", null ],
+    [ "GetGraveyardData", "d6/da7/a09614.html#ab9ebb6afa55d30e64d460b81f9297f09", null ],
+    [ "instance", "d6/da7/a09614.html#aaaf39d71af738cac8dd427ca94a5689b", null ],
+    [ "LoadGraveyardFromDB", "d6/da7/a09614.html#aff7880b8c557fac494e3b8213a048f32", null ],
+    [ "LoadGraveyardZones", "d6/da7/a09614.html#ac398379a421eabea55729e867d57383f", null ],
+    [ "RemoveGraveyardLink", "d6/da7/a09614.html#af957c28b4ccfc7b1853280b7441c958d", null ],
+    [ "_graveyardStore", "d6/da7/a09614.html#a77fb8dad0ae4ea7af0823c0bcafba787", null ],
+    [ "GraveyardStore", "d6/da7/a09614.html#afe83a8248fa6617b868cadd0699af96e", null ]
 ];

@@ -1,6 +1,6 @@
 var a18514 =
 [
-    [ "HandleExtraEffect", "de/d76/a18514.html#a1aaa3754eb3a616b2108578c28923760", null ],
-    [ "PrepareAuraScript", "de/d76/a18514.html#a07d6acd47c15234dd75dadfef1f2df3f", null ],
-    [ "Register", "de/d76/a18514.html#a92b6fc7677eae79638fb5db6b643b622", null ]
+    [ "npc_captain_rupertAI", "df/d9f/a18518.html", "df/d9f/a18518" ],
+    [ "npc_captain_rupert", "de/d76/a18514.html#a7a4535a6b784b460c79722e9a50c3ff6", null ],
+    [ "GetAI", "de/d76/a18514.html#a20afc31fc1a8bb09692ab0cc47af3c1b", null ]
 ];

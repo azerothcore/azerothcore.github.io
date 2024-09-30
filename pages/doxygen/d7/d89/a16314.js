@@ -1,6 +1,7 @@
 var a16314 =
 [
-    [ "spell_halion_twilight_realm_AuraScript", "d3/d7e/a16318.html", "d3/d7e/a16318" ],
-    [ "spell_halion_twilight_realm", "d7/d89/a16314.html#a10d55241fe2d850668c87d6fb53d28b2", null ],
-    [ "GetAuraScript", "d7/d89/a16314.html#aabcf209fbb9300fdbe62490508f42b85", null ]
+    [ "npc_toc_rogueAI", "d7/d89/a16314.html#a34027e7d10edbfba8e046f4785e37899", null ],
+    [ "myCanCast", "d7/d89/a16314.html#a85ed8e251dd8356e678536f1e3f3c93d", null ],
+    [ "UpdateAI", "d7/d89/a16314.html#a49b0655def227684f07bd60a3c1e0ce1", null ],
+    [ "events", "d7/d89/a16314.html#a1519bebb81b64d57b2b0b34a059b83f8", null ]
 ];

@@ -1,7 +1,6 @@
 var a25858 =
 [
-    [ "HandleDamage", "d3/d98/a25858.html#add7e78111217d00bfa3dfa5b3eb490f9", null ],
-    [ "HandleTargets", "d3/d98/a25858.html#ac9e455d4ef5cc7b7ce424b70b4387c78", null ],
-    [ "PrepareSpellScript", "d3/d98/a25858.html#a46b62a09ea23cb102b0e5cf075c727d4", null ],
-    [ "Register", "d3/d98/a25858.html#a8873614ae22c908cb2cf49129fc53be2", null ]
+    [ "PrepareSpellScript", "d3/d98/a25858.html#a7099b8d28128cfea49288792ea02606c", null ],
+    [ "Register", "d3/d98/a25858.html#a7622be3b736678ebeb3982a8d6a5b601", null ],
+    [ "UpdateTarget", "d3/d98/a25858.html#a4e808b026c89d080e309a0ca8b4f57d1", null ]
 ];

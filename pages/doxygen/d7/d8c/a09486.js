@@ -1,7 +1,9 @@
 var a09486 =
 [
-    [ "WriteCommonMonsterMovePart", "d7/d8c/a09486.html#a5dcdbeb513f6da51b0af20d9acd2ac58", null ],
-    [ "WriteCreate", "d7/d8c/a09486.html#ae5682d7012cca35bd8643b01ce558eb5", null ],
-    [ "WriteMonsterMove", "d7/d8c/a09486.html#a4c4294e3fed32aca35078dd4975b057d", null ],
-    [ "WriteStopMovement", "d7/d8c/a09486.html#a1b960c1141ab9b4dca932e0eddaee204", null ]
+    [ "LiquidData", "d7/d8c/a09486.html#ac2435178323f480d2dae449b49b39146", null ],
+    [ "DepthLevel", "d7/d8c/a09486.html#ad84c7763a6253db7ae6117ecc7144f1d", null ],
+    [ "Entry", "d7/d8c/a09486.html#abfed22cb0e920067c0f86a0083ef4ab6", null ],
+    [ "Flags", "d7/d8c/a09486.html#aa0903ec4233bcfa34494cea5068cd19c", null ],
+    [ "Level", "d7/d8c/a09486.html#a7c596e921e383bbdbdacbcd4307fe380", null ],
+    [ "Status", "d7/d8c/a09486.html#acb79cdfb4221f158ce9b29127591a8a9", null ]
 ];

@@ -1,7 +1,6 @@
 var a24446 =
 [
-    [ "Load", "dc/d8e/a24446.html#a24abc13ceb9d8895da2d05b907207809", null ],
-    [ "OnPeriodic", "dc/d8e/a24446.html#ac3f6550086d0d90d19039686af32ee6b", null ],
-    [ "PrepareAuraScript", "dc/d8e/a24446.html#a7948adbc6c8796fb359a936e5f0d30e7", null ],
-    [ "Register", "dc/d8e/a24446.html#ace14a5f60f0b9c45a2a6234720c482df", null ]
+    [ "HandlePeriodic", "dc/d8e/a24446.html#a9d94b55656848d5b9f943b9b3bbfd889", null ],
+    [ "PrepareAuraScript", "dc/d8e/a24446.html#a6b76add02d3a1eeddd845c4f97d0632a", null ],
+    [ "Register", "dc/d8e/a24446.html#aa8c6fc66e1483370681ae6f7fdf5b676", null ]
 ];

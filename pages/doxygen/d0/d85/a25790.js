@@ -1,7 +1,7 @@
 var a25790 =
 [
-    [ "Load", "d0/d85/a25790.html#a629b07f3b65cec8ed7439ece88454274", null ],
-    [ "OnRemove", "d0/d85/a25790.html#a41f7866cbb51beb4cc5e720260909caf", null ],
-    [ "PrepareAuraScript", "d0/d85/a25790.html#a2fff83c17680f1a03bcb7fba1db5ab2a", null ],
-    [ "Register", "d0/d85/a25790.html#ad3012565847a0cc18a94d4f71153ce4c", null ]
+    [ "HandleDummy", "d0/d85/a25790.html#addfcb17cbbb56bda88997b34ce3e3ddd", null ],
+    [ "PrepareSpellScript", "d0/d85/a25790.html#a22614b06c6f1853f02a992dcab027a60", null ],
+    [ "Register", "d0/d85/a25790.html#a9ad5691f6049078c45052d07513b35a2", null ],
+    [ "Validate", "d0/d85/a25790.html#a3fab2057be5de9e2f7703b8f43a99ed5", null ]
 ];

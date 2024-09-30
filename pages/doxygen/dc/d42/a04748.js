@@ -1,14 +1,16 @@
 var a04748 =
 [
-    [ "ModelInstance", "dc/d42/a04748.html#a7a4efa321915b77801e9fc87924df572", null ],
-    [ "ModelInstance", "dc/d42/a04748.html#a1d29459f4f79da938ae969509246fcf1", null ],
-    [ "GetLiquidLevel", "dc/d42/a04748.html#a6150e52c7fdff3cba536e04e115d86ba", null ],
-    [ "GetLocationInfo", "dc/d42/a04748.html#a2e756866245d8131d5fc040489a563e3", null ],
-    [ "getWorldModel", "dc/d42/a04748.html#a464922875649215b0b60aafc1ff70c3c", null ],
-    [ "intersectPoint", "dc/d42/a04748.html#a991622da72fe08d812f49f20f0a2df17", null ],
-    [ "intersectRay", "dc/d42/a04748.html#aca8a2a07911eba5ec362080e2790453c", null ],
-    [ "setUnloaded", "dc/d42/a04748.html#a1797ec305f365e58cd92c8cd3f3094ba", null ],
-    [ "iInvRot", "dc/d42/a04748.html#a9ac1d8dbfc566a2b5e508cae92ef4019", null ],
-    [ "iInvScale", "dc/d42/a04748.html#adc23d9c9a79ac7cfdb1f90b96485b089", null ],
-    [ "iModel", "dc/d42/a04748.html#ac0b95c6fde838667e007781bde2f2917", null ]
+    [ "anonymous_namespace{WeatherMgr.cpp}", "d9/d71/a04749.html", [
+      [ "WeatherMap", "d9/d71/a04749.html#afdd64650acc01e75684c5ae2b269d5c1", null ],
+      [ "WeatherZoneMap", "d9/d71/a04749.html#a77b1d830c50ce06ef7bb67f75cbd48b6", null ],
+      [ "GetWeatherData", "d9/d71/a04749.html#a8d453fe2bfb19b170807fe92e393bc51", null ],
+      [ "m_weathers", "d9/d71/a04749.html#ac2bde7e8b2ecff6ab9b2705d01ce8b2c", null ],
+      [ "mWeatherZoneMap", "d9/d71/a04749.html#a977110fadc5eac5e2efa26106382d408", null ]
+    ] ],
+    [ "AddWeather", "db/d7c/a04669.html#ga1f76350b68494335d48ae206b87e190c", null ],
+    [ "FindWeather", "db/d7c/a04669.html#gadd11deec2098fed61adf7910b8f09cc6", null ],
+    [ "LoadWeatherData", "db/d7c/a04669.html#ga6c7d8a9fc5dfce0880220f4b5b8cd623", null ],
+    [ "RemoveWeather", "db/d7c/a04669.html#ga296a3324a3a38984149fae3e5d62435f", null ],
+    [ "SendFineWeatherUpdateToPlayer", "db/d7c/a04669.html#gac86b4e254146468a7412d8fc7b0c27f2", null ],
+    [ "Update", "db/d7c/a04669.html#ga45f0da6cf9e14a99380b4b9be2890801", null ]
 ];

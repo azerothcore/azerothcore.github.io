@@ -1,7 +1,13 @@
 var a14210 =
 [
-    [ "go_direbrew_mole_machineAI", "d7/d49/a14210.html#a4e667ad9e572e93c045ae01f63bea648", null ],
-    [ "Reset", "d7/d49/a14210.html#a32dd801b5d898fd8634edcb6cae52bdf", null ],
-    [ "UpdateAI", "d7/d49/a14210.html#a2eaa8a0ad0907e4aa497a7e1c3a31b29", null ],
-    [ "_scheduler", "d7/d49/a14210.html#a5960ff83f21cf5964f422e3a7b297f22", null ]
+    [ "npc_costumed_orphan_matron", "d7/d49/a14210.html#a0b913090588613ac00ea928f6273d56f", null ],
+    [ "DoAction", "d7/d49/a14210.html#a7a7739f89604ffb5afc6bab75118340e", null ],
+    [ "GetInitXYZ", "d7/d49/a14210.html#a3c6d0e6cecd1c4ef85b3d77c45ef6533", null ],
+    [ "Reset", "d7/d49/a14210.html#a962de50b13079f3337c4e41eb2d98b55", null ],
+    [ "sGossipHello", "d7/d49/a14210.html#a1a9c58c087b8addf8e482375737d6c49", null ],
+    [ "sQuestAccept", "d7/d49/a14210.html#adac5d514261a210a701442da13ba1587", null ],
+    [ "UpdateAI", "d7/d49/a14210.html#a4679d807df8749265ba0453c5b7588f1", null ],
+    [ "allowQuest", "d7/d49/a14210.html#a722f4bfd0fb8b2665ff2b79d3208bc90", null ],
+    [ "eventStarted", "d7/d49/a14210.html#a5292ab4e45fe3a858b3a59ef4a79bb34", null ],
+    [ "horseGUID", "d7/d49/a14210.html#a92cfd09cefd26933ae322f2cc2716927", null ]
 ];

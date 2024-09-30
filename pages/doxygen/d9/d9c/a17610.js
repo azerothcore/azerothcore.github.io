@@ -1,11 +1,10 @@
 var a17610 =
 [
-    [ "boss_moorabiAI", "d9/d9c/a17610.html#a60a03c3840a3743719996929d2ca9e59", null ],
-    [ "JustDied", "d9/d9c/a17610.html#a6d866bf54dc06e4f20eb4d62ea97928a", null ],
-    [ "JustEngagedWith", "d9/d9c/a17610.html#a1fa46ac21b28ff49382c7389a46fad75", null ],
-    [ "KilledUnit", "d9/d9c/a17610.html#a265855d2972e534e927bfa609fbf2cf5", null ],
-    [ "Reset", "d9/d9c/a17610.html#a9daf89ed0f4e5795cafc63a6a81e5d1d", null ],
-    [ "SpellHitTarget", "d9/d9c/a17610.html#af1f30a0f3bf0f88725f8a146c528b77a", null ],
-    [ "UpdateAI", "d9/d9c/a17610.html#a9f9956aaaa60d5d0005a55a87d0424eb", null ],
-    [ "events2", "d9/d9c/a17610.html#a02a3bc20ca7b1b750bfd1bd29f093dd2", null ]
+    [ "npc_cult_adherentAI", "d9/d9c/a17610.html#a1ea249a25b188a949213788614f4049e", null ],
+    [ "JustEngagedWith", "d9/d9c/a17610.html#ab97e0177fbc9fc7135dc7a7de0e6e31a", null ],
+    [ "Reset", "d9/d9c/a17610.html#ab0b54e45468b5ebed0194c441cce434e", null ],
+    [ "SpellHit", "d9/d9c/a17610.html#ab0d83d53a7f0d14cb15e133e426f2f02", null ],
+    [ "UpdateAI", "d9/d9c/a17610.html#ad89638cf5859615ba2e3a0deb6701751", null ],
+    [ "_instance", "d9/d9c/a17610.html#a970e99fba28d6e3e0cb759c87a866273", null ],
+    [ "events", "d9/d9c/a17610.html#aa53025d3fe95086dc0c23d5d563df7c4", null ]
 ];

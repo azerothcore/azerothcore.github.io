@@ -1,6 +1,8 @@
 var a18806 =
 [
-    [ "HandleSpecial", "d3/d02/a18806.html#a1fcf2a7737a8151b6c99376987ee55ec", null ],
-    [ "PrepareSpellScript", "d3/d02/a18806.html#a9b1b98ffd8cad5b23b76f9f3a5fd72da", null ],
-    [ "Register", "d3/d02/a18806.html#aedc5f9180a96c9c071f97c3cc9468f5a", null ]
+    [ "HandleScript", "d3/d02/a18806.html#ae0d16607f9eb3ff233513233bfb573ea", null ],
+    [ "HandleScript2", "d3/d02/a18806.html#a3ff7d46323da70df6ad11ddfcaf6cfbb", null ],
+    [ "Load", "d3/d02/a18806.html#ad41decc0a264104ca2232aef4e71cdaf", null ],
+    [ "PrepareSpellScript", "d3/d02/a18806.html#a2d1dbae570206b358878020879708000", null ],
+    [ "Register", "d3/d02/a18806.html#a7cf32445caa09f2a2b3c52f68f315ba5", null ]
 ];

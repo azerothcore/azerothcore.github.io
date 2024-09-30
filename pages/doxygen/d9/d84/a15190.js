@@ -1,6 +1,7 @@
 var a15190 =
 [
-    [ "OnRemove", "d9/d84/a15190.html#a85595fed0e9b6a2ced18aeb4acffcf81", null ],
-    [ "PrepareAuraScript", "d9/d84/a15190.html#a47849d8241ed17ad0fb541c1178b0760", null ],
-    [ "Register", "d9/d84/a15190.html#aa23231c5c324e73930fdf8d784b0edb4", null ]
+    [ "npc_webbed_creatureAI", "d9/d84/a15190.html#a6b7507eda84c29d6bd557b1b424ee10a", null ],
+    [ "JustDied", "d9/d84/a15190.html#a153d461124ec9266ffcac147a217f6d9", null ],
+    [ "JustEngagedWith", "d9/d84/a15190.html#ac52ad6512bcaee35932f856abdac80d4", null ],
+    [ "Reset", "d9/d84/a15190.html#a459eaadd7f0145b7a1a6caf99d1e8a5d", null ]
 ];

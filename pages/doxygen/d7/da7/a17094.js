@@ -1,6 +1,6 @@
 var a17094 =
 [
-    [ "HandlePeriodicTick", "d7/da7/a17094.html#a68d1affd5f9c19fb6778c018ffdfd909", null ],
-    [ "PrepareAuraScript", "d7/da7/a17094.html#afab3888615b2692041c1a4d6e0ed1f4b", null ],
-    [ "Register", "d7/da7/a17094.html#ac8563a17f57e92ed5be9d57bdbfbbe50", null ]
+    [ "boss_slad_ranAI", "d8/d97/a17098.html", "d8/d97/a17098" ],
+    [ "boss_slad_ran", "d7/da7/a17094.html#a9b960242e2f186d334d7ce04b999e274", null ],
+    [ "GetAI", "d7/da7/a17094.html#a26651b7ca111bd64549283c37e34db11", null ]
 ];

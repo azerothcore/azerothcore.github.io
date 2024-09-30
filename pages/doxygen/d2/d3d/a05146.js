@@ -1,16 +1,12 @@
 var a05146 =
 [
-    [ "difference_type", "d2/d3d/a05146.html#aeb2086c6034a734b92b3cb8d0382a293", null ],
-    [ "iterator_category", "d2/d3d/a05146.html#a60f6936503d386c555d012e8763611ca", null ],
-    [ "pointer", "d2/d3d/a05146.html#aa25ef6456bed8f4e599a48c7c1448363", null ],
-    [ "reference", "d2/d3d/a05146.html#a95fa5b0dac0017e43bc5683fb040836d", null ],
-    [ "value_type", "d2/d3d/a05146.html#ab19bfdfea57f6de2bbef93aff14481ec", null ],
-    [ "CheckedBufferOutputIterator", "d2/d3d/a05146.html#a7585911fb34548ae525cba97612de2ea", null ],
-    [ "check", "d2/d3d/a05146.html#ab8414d5a971d77718de7f610bb000443", null ],
-    [ "operator*", "d2/d3d/a05146.html#a2d4635aa952b03df738046667197b6f9", null ],
-    [ "operator++", "d2/d3d/a05146.html#a1bdbf99823ee46a88094480b5040211b", null ],
-    [ "operator++", "d2/d3d/a05146.html#a8a72bd229fb92e389ec311142ca2a139", null ],
-    [ "remaining", "d2/d3d/a05146.html#a5fb01f5f94fd82fce28374cd2384f48c", null ],
-    [ "_buf", "d2/d3d/a05146.html#abee1c6def8872acea5f34f0ae22aa467", null ],
-    [ "_end", "d2/d3d/a05146.html#a83a86f648edeeaf34b01581b972b2f1d", null ]
+    [ "RegistryMapType", "d2/d3d/a05146.html#ab6a131bc0c7d0ddcb9ad34044b9c8ac2", null ],
+    [ "ObjectRegistry", "d2/d3d/a05146.html#aa3bcc30791e82bc900eacf1c5833b7f8", null ],
+    [ "~ObjectRegistry", "d2/d3d/a05146.html#a2734a0e6001f597b43e006bc9d84a6b1", null ],
+    [ "GetRegisteredItems", "d2/d3d/a05146.html#aba4a4fcc7ee59afbb4dea6df7410dc02", null ],
+    [ "GetRegistryItem", "d2/d3d/a05146.html#a474bdff0ab0f0a3db5f914b9dfaa48d1", null ],
+    [ "HasItem", "d2/d3d/a05146.html#a3c95897734a780c1f299d24a058b3595", null ],
+    [ "InsertItem", "d2/d3d/a05146.html#a55416824a5dff4138f5d828e352e3d7c", null ],
+    [ "instance", "d2/d3d/a05146.html#a7a6582a84361d5ad1142f29c9e1d9cb5", null ],
+    [ "_registeredObjects", "d2/d3d/a05146.html#a61e6a6eb75512241e82092abfeba7a65", null ]
 ];

@@ -1,6 +1,6 @@
 var a17686 =
 [
-    [ "npc_blood_queen_lana_thelAI", "d7/dd5/a17690.html", "d7/dd5/a17690" ],
-    [ "npc_blood_queen_lana_thel", "de/d2a/a17686.html#a39adef3ae54efd4433805bd8ad4719be", null ],
-    [ "GetAI", "de/d2a/a17686.html#a02d928ac4ef1704cee2498ebe6533561", null ]
+    [ "AbominationDespawner", "de/d2a/a17686.html#a3bbf8c5d4e42569ffe993a3c3b8ff95e", null ],
+    [ "operator()", "de/d2a/a17686.html#a58b8faac1cdffa7230783a1d6439fcfb", null ],
+    [ "_owner", "de/d2a/a17686.html#af9089e566905b885887a5714ad5b0741", null ]
 ];

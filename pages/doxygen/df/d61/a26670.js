@@ -1,7 +1,7 @@
 var a26670 =
 [
-    [ "CalculateAmount", "df/d61/a26670.html#af51a8e22ddfe0648f08a4190d730fbda", null ],
-    [ "CheckProc", "df/d61/a26670.html#a2f80dcd9e5922af55dee096c95079062", null ],
-    [ "PrepareAuraScript", "df/d61/a26670.html#af54ef254d0897140255960146507e986", null ],
-    [ "Register", "df/d61/a26670.html#ad6e4bd4390f6f88494984af792a11b90", null ]
+    [ "HandleAuraApply", "df/d61/a26670.html#afb8eb7fcc0797c3e19a9bfc5eebb5fb2", null ],
+    [ "HandleAuraRemove", "df/d61/a26670.html#a9029865b5e06c4a9aa7f155f371c9125", null ],
+    [ "PrepareAuraScript", "df/d61/a26670.html#a5c7d7c0b8880128121d66d39094f1965", null ],
+    [ "Register", "df/d61/a26670.html#ae15d5175671c60a55e4a77848bc9fe1b", null ]
 ];

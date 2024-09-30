@@ -1,6 +1,6 @@
 var a19506 =
 [
-    [ "CaptainSurviveTalk", "d3/dca/a19506.html#a43a1b1da17ed41ae765aabc47c858f80", null ],
-    [ "Execute", "d3/dca/a19506.html#a871cf08e8c7fced2971cae8abbc20454", null ],
-    [ "_owner", "d3/dca/a19506.html#ac8de506afb4688560ea637918d07b01e", null ]
+    [ "boss_sjonnir_malformed_oozeAI", "df/d00/a19510.html", "df/d00/a19510" ],
+    [ "boss_sjonnir_malformed_ooze", "d3/dca/a19506.html#ad151bc07b032b6cceed046d1b25ecc08", null ],
+    [ "GetAI", "d3/dca/a19506.html#a22807bb07692511c5ec87073d98c2604", null ]
 ];

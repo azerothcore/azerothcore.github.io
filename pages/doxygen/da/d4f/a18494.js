@@ -1,6 +1,7 @@
 var a18494 =
 [
-    [ "spell_putricide_unstable_experiment_SpellScript", "d5/d0b/a18498.html", "d5/d0b/a18498" ],
-    [ "spell_putricide_unstable_experiment", "da/d4f/a18494.html#ab567622c4dc8c561702e27e83b1b3d47", null ],
-    [ "GetSpellScript", "da/d4f/a18494.html#a230ce55a385d4d981c6ca850cdc50c8c", null ]
+    [ "npc_captain_arnathAI", "da/d4f/a18494.html#a34e3d17b89010569bf7e9cb28361c2af", null ],
+    [ "FindFriendlyCreature", "da/d4f/a18494.html#ad6411d2a87d2552bea2051f80ca16e14", null ],
+    [ "Reset", "da/d4f/a18494.html#a016fbe51f31e1c5ec1636e8d20d8cb30", null ],
+    [ "UpdateAI", "da/d4f/a18494.html#a020efd7adc0d60152007906e3229988d", null ]
 ];

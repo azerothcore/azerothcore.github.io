@@ -1,6 +1,6 @@
 var a18994 =
 [
-    [ "spell_the_lich_king_quake_SpellScript", "df/d54/a18998.html", "df/d54/a18998" ],
-    [ "spell_the_lich_king_quake", "dd/d36/a18994.html#a46c3e7e4f08cc1b162e6ce6ee7add14e", null ],
-    [ "GetSpellScript", "dd/d36/a18994.html#a5212f9a94e700016a26900fef5d4091e", null ]
+    [ "boss_razuviousAI", "df/d54/a18998.html", "df/d54/a18998" ],
+    [ "boss_razuvious", "dd/d36/a18994.html#ac1a2942f4a7957c671b075df7bf20215", null ],
+    [ "GetAI", "dd/d36/a18994.html#a350a7cf0c3e21e29c3c28155d63dcb87", null ]
 ];

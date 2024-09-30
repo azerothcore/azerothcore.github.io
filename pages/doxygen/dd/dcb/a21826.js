@@ -1,5 +1,6 @@
 var a21826 =
 [
-    [ "achievement_mimiron_firefighter", "dd/dcb/a21826.html#ae26c3b2572bc9e3e75fb25537fe46a6c", null ],
-    [ "OnCheck", "dd/dcb/a21826.html#a1ebd287ef20c6d367f30b1c30ba68728", null ]
+    [ "npc_torturer_lecraftAI", "db/ded/a21830.html", "db/ded/a21830" ],
+    [ "npc_torturer_lecraft", "dd/dcb/a21826.html#a789f8bdafe96d5cb01225b940a80c651", null ],
+    [ "GetAI", "dd/dcb/a21826.html#abdc8b33cd820c5cd14c999e7407897fe", null ]
 ];

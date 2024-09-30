@@ -1,6 +1,8 @@
 var a13638 =
 [
-    [ "boss_akilzonAI", "da/de2/a13642.html", "da/de2/a13642" ],
-    [ "boss_akilzon", "d5/def/a13638.html#afdb97a1cce6f05ae5cd88609f3ae5a28", null ],
-    [ "GetAI", "d5/def/a13638.html#a6e20e80911a372d39f5ab3c3ccb927b0", null ]
+    [ "boss_koraggAI", "d5/def/a13638.html#a775881915da438552ef2249cb08a10fc", null ],
+    [ "Reset", "d5/def/a13638.html#aac902c569f9cb941daed858b67368fdf", null ],
+    [ "UpdateAI", "d5/def/a13638.html#a9032ca8162a12af65007aabd52a8deb9", null ],
+    [ "coldstare_timer", "d5/def/a13638.html#a41e14de5c2b6123962c10cb229589b2e", null ],
+    [ "mightyblow_timer", "d5/def/a13638.html#a0370ce3226c5238c45bd433aa2a0543d", null ]
 ];

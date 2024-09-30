@@ -1,5 +1,6 @@
 var a03119 =
 [
-    [ "instance_commandscript", "d3/dfb/a11340.html", "d3/dfb/a11340" ],
-    [ "AddSC_instance_commandscript", "d2/df0/a03119.html#a3d7dc88b6e95322f2f3dc69ad367fa0c", null ]
+    [ "character_commandscript", "d7/ddd/a11286.html", "d7/ddd/a11286" ],
+    [ "character_commandscript::DeletedInfo", "de/dab/a11290.html", "de/dab/a11290" ],
+    [ "AddSC_character_commandscript", "d2/df0/a03119.html#a97f9cac12c34068d5e63b2ed28ddf9e2", null ]
 ];

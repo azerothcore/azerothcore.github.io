@@ -1,10 +1,9 @@
 var a09634 =
 [
-    [ "Flags", "d0/db1/a09634.html#abf9c2701e766951e5a211bf6bf85b175", null ],
-    [ "ID", "d0/db1/a09634.html#a946b8f7244fd22c4afcb26373ee61a13", null ],
-    [ "needSave", "d0/db1/a09634.html#aae888b1bf10f654ee212f3d687c111e9", null ],
-    [ "needSend", "d0/db1/a09634.html#ab8692e4433db81f9d3e0f96f8f930a8f", null ],
-    [ "ReputationListID", "d0/db1/a09634.html#a052caeeae1ecdca831097591e0fddaf6", null ],
-    [ "roundedUp", "d0/db1/a09634.html#a287fe9e8ec5da58ae3f5096045eebf31", null ],
-    [ "Standing", "d0/db1/a09634.html#ae87da6cada559e11a9607e194013d671", null ]
+    [ "ChaseAngle", "d0/db1/a09634.html#a0744c615f437514a52b5a26fb717013a", null ],
+    [ "IsAngleOkay", "d0/db1/a09634.html#aec86c653850655b723e5224ea20b0e21", null ],
+    [ "LowerBound", "d0/db1/a09634.html#a2f8296cadbada4322ec9c754aed4a5ec", null ],
+    [ "UpperBound", "d0/db1/a09634.html#a275d01ce57b23d42d4150b10c8433dee", null ],
+    [ "RelativeAngle", "d0/db1/a09634.html#a810a730ae905bfa296dbe6c1e4b86416", null ],
+    [ "Tolerance", "d0/db1/a09634.html#a2bb42885da594380cb742c29b6518ea3", null ]
 ];

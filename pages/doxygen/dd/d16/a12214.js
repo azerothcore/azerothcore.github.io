@@ -1,6 +1,6 @@
 var a12214 =
 [
-    [ "npc_titoAI", "d4/d2d/a12218.html", "d4/d2d/a12218" ],
-    [ "npc_tito", "dd/d16/a12214.html#ab727b2b52484e302724b92c5819c47ef", null ],
-    [ "GetAI", "dd/d16/a12214.html#a7e7823434ffef77c34cbf97ce8362e66", null ]
+    [ "instance_deadmines_InstanceMapScript", "d4/d2d/a12218.html", "d4/d2d/a12218" ],
+    [ "instance_deadmines", "dd/d16/a12214.html#a91ec4b9d2c4dcb3b8a2822431259bc08", null ],
+    [ "GetInstanceScript", "dd/d16/a12214.html#ac5cb65972d52324cedf662cc44dca626", null ]
 ];

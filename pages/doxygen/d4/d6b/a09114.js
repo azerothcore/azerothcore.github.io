@@ -1,26 +1,10 @@
 var a09114 =
 [
-    [ "LootStore", "d4/d6b/a09114.html#a99896ddfc04c20e2f7088a2ad8403e35", null ],
-    [ "~LootStore", "d4/d6b/a09114.html#a5ed3ef2d00fdcb8edc3c4ddb9cb5a9ca", null ],
-    [ "CheckLootRefs", "d4/d6b/a09114.html#a6506931ec5ce351687bc0c44ef74b435", null ],
-    [ "Clear", "d4/d6b/a09114.html#abd9b51ff3aa4452ff5f5cc82267bac48", null ],
-    [ "GetEntryName", "d4/d6b/a09114.html#a6adbdbba33f3c6d55d02f8f94de2e3ab", null ],
-    [ "GetLootFor", "d4/d6b/a09114.html#a541edad9042f950ba2545c6e1126c419", null ],
-    [ "GetLootForConditionFill", "d4/d6b/a09114.html#a46e8a8ed43a1e885ade1d5b74d79bb4b", null ],
-    [ "GetName", "d4/d6b/a09114.html#acecb88522c97b74f87e0ed40fa009a04", null ],
-    [ "HaveLootFor", "d4/d6b/a09114.html#abd45358d22bbb44f54743792a7fd0039", null ],
-    [ "HaveQuestLootFor", "d4/d6b/a09114.html#a82a84ddb5051cf3e9ee508c2f0642d1e", null ],
-    [ "HaveQuestLootForPlayer", "d4/d6b/a09114.html#ad800486cf5afb5842073b8ca1a43aad8", null ],
-    [ "IsRatesAllowed", "d4/d6b/a09114.html#aa64da1c4756d94e30c552b17795b1da0", null ],
-    [ "LoadAndCollectLootIds", "d4/d6b/a09114.html#a172a485f55b00f97248779c3f9f996dd", null ],
-    [ "LoadLootTable", "d4/d6b/a09114.html#a131a846a8bce5b792a06a130bb1d1599", null ],
-    [ "ReportNonExistingId", "d4/d6b/a09114.html#ab34193850f17f42ec65a466eefe4ff76", null ],
-    [ "ReportNonExistingId", "d4/d6b/a09114.html#a85d0955deaa4332a977a131fbb93eb87", null ],
-    [ "ReportUnusedIds", "d4/d6b/a09114.html#af0fe6608310a123d70cc8221e65e4556", null ],
-    [ "ResetConditions", "d4/d6b/a09114.html#a4f258b3698a2a0a77a28b3b8a885e579", null ],
-    [ "Verify", "d4/d6b/a09114.html#afd0762a7391f530009b44bf6b4a3a3be", null ],
-    [ "m_entryName", "d4/d6b/a09114.html#a2dc4594b3aa9d4737a785a3b47c559c5", null ],
-    [ "m_LootTemplates", "d4/d6b/a09114.html#a58cf63357ad373aaf5866f5f2dcb23a8", null ],
-    [ "m_name", "d4/d6b/a09114.html#aaae57f6cacb66f1024fa572cd6ba8003", null ],
-    [ "m_ratesAllowed", "d4/d6b/a09114.html#a9edc9a356084a1395ca5367db91981bd", null ]
+    [ "GameObjectInRangeCheck", "d4/d6b/a09114.html#a62075fc1b342fe6e40998dad928da71a", null ],
+    [ "operator()", "d4/d6b/a09114.html#aa49818fa638dbd3909e5f563383346f2", null ],
+    [ "entry", "d4/d6b/a09114.html#a9223c931b791ad689451f7f0c874b6a9", null ],
+    [ "range", "d4/d6b/a09114.html#addf45c48385df26aa544957d7d24f1ec", null ],
+    [ "x", "d4/d6b/a09114.html#af52ee33b2324eb80f4ad47f2eee1dbb5", null ],
+    [ "y", "d4/d6b/a09114.html#a98acab0031dbf8b0a3943c3a6522c9d3", null ],
+    [ "z", "d4/d6b/a09114.html#a814909bb047b8b0e0dd4f7ba0c479c64", null ]
 ];

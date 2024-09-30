@@ -1,8 +1,6 @@
 var a08790 =
 [
-    [ "CallOfHelpCreatureInRangeDo", "d0/d1a/a08790.html#a6ff932341f415b659d486e63cbeb5fe4", null ],
-    [ "operator()", "d0/d1a/a08790.html#a06eb5dd0f8969c20ca1234e01ae15377", null ],
-    [ "i_enemy", "d0/d1a/a08790.html#a8e2e259c0159fd9418777787e4c68ccd", null ],
-    [ "i_funit", "d0/d1a/a08790.html#aff1768cd844e4e23821cf78f9d360e06", null ],
-    [ "i_range", "d0/d1a/a08790.html#ab0544cf93f94766701b72dbb6b3b55c1", null ]
+    [ "m_guid", "d0/d1a/a08790.html#afa8383c81a2d75f9ead2e8f3daa29086", null ],
+    [ "m_instance", "d0/d1a/a08790.html#a8bc0c5e1cf45073f054c5154c21b3d72", null ],
+    [ "m_state", "d0/d1a/a08790.html#a3ac18fb8f5d386e3245a2435e31e45e1", null ]
 ];

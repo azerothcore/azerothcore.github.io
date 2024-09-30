@@ -1,6 +1,7 @@
 var a23866 =
 [
-    [ "HandleDummy", "d2/ded/a23866.html#ada152d11494f4d6bdf5e0745cecf45f2", null ],
-    [ "PrepareSpellScript", "d2/ded/a23866.html#abbeead3c448198d5f1e983651fb1d787", null ],
-    [ "Register", "d2/ded/a23866.html#ad898e3769235b7a2679ab29fdabd33ed", null ]
+    [ "HandleDamage", "d2/ded/a23866.html#add7e78111217d00bfa3dfa5b3eb490f9", null ],
+    [ "HandleTargets", "d2/ded/a23866.html#ac9e455d4ef5cc7b7ce424b70b4387c78", null ],
+    [ "PrepareSpellScript", "d2/ded/a23866.html#a46b62a09ea23cb102b0e5cf075c727d4", null ],
+    [ "Register", "d2/ded/a23866.html#a8873614ae22c908cb2cf49129fc53be2", null ]
 ];

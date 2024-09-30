@@ -1,6 +1,6 @@
 var a24502 =
 [
-    [ "PrepareAuraScript", "db/d65/a24502.html#a4d7b95b47101de1816471ae791d07c8f", null ],
-    [ "Register", "db/d65/a24502.html#a9eaa8dbf0e49a730995612a97e4a2ad7", null ],
-    [ "Update", "db/d65/a24502.html#a2c4f89bacab62cbe83c48a3d4381f198", null ]
+    [ "CheckProc", "db/d65/a24502.html#ace3662e092d02de975929741c470230d", null ],
+    [ "PrepareAuraScript", "db/d65/a24502.html#aed547ead2b8822f08eb1530f4b29e2f8", null ],
+    [ "Register", "db/d65/a24502.html#ae6432106538261827c3eac3dde1450f2", null ]
 ];

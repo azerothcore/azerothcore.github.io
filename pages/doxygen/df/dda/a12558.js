@@ -1,6 +1,6 @@
 var a12558 =
 [
-    [ "HandleScriptEffect", "df/dda/a12558.html#a430d6f41e8533cbade64ea46aaa9ec2e", null ],
-    [ "PrepareSpellScript", "df/dda/a12558.html#ad110e0dba330acde845c47501256cf5d", null ],
-    [ "Register", "df/dda/a12558.html#ab6971aa466055a1280cd258e26645157", null ]
+    [ "HandleScriptEffect", "df/dda/a12558.html#a7cf04c61085396f886ff7b9c80ed7c7f", null ],
+    [ "PrepareSpellScript", "df/dda/a12558.html#a9bf6f10616ef03a70639d2d0d4503c2e", null ],
+    [ "Register", "df/dda/a12558.html#aa8c07d4d88480b16993ca87d746978e1", null ]
 ];

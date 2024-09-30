@@ -1,6 +1,9 @@
 var a20826 =
 [
-    [ "npc_collapsing_starAI", "d5/d4a/a20826.html#ac389b380a8f315ae50a8cd809393a773", null ],
-    [ "DamageTaken", "d5/d4a/a20826.html#a424fac98093eb9d02cda5027523ad06a", null ],
-    [ "JustSummoned", "d5/d4a/a20826.html#ae70fcb66171fe5f87d96aaf2f52e35bc", null ]
+    [ "HandleOnEffectApply", "d5/d4a/a20826.html#a3e35c98bd5867bbb6c77b16d89ab74a9", null ],
+    [ "OnPeriodic", "d5/d4a/a20826.html#a49ad44eba19416743bd26252d1b40d71", null ],
+    [ "PrepareAuraScript", "d5/d4a/a20826.html#ae0c475babb67cebb245d6d85b50cd694", null ],
+    [ "Register", "d5/d4a/a20826.html#af56875f1bb85d5524841a5bbb399d7d4", null ],
+    [ "Validate", "d5/d4a/a20826.html#ab383a0a207aa78b7efcd400765ad0838", null ],
+    [ "_targetGUID", "d5/d4a/a20826.html#a9e7c6087b1c7ce3c32be661da037f1e0", null ]
 ];

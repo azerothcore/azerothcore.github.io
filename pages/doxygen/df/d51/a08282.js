@@ -1,6 +1,6 @@
 var a08282 =
 [
-    [ "Reset", "df/d51/a08282.html#acccf504073283011dc32b05a5a87b85a", null ],
-    [ "Guid", "df/d51/a08282.html#a738a014abc8cb5df525642acc218576b", null ],
-    [ "IsUnselectable", "df/d51/a08282.html#a037411c58c414d0c5a39915b7acd578d", null ]
+    [ "PlayerCreateInfoItem", "df/d51/a08282.html#aba5495af3d4c463f7f65fa1851879d3b", null ],
+    [ "item_amount", "df/d51/a08282.html#a2cc481d54ec0c8a58477803364f40b2a", null ],
+    [ "item_id", "df/d51/a08282.html#a54e5593fe1a1e06b16963c96f1840a2a", null ]
 ];

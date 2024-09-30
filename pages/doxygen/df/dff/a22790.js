@@ -1,14 +1,9 @@
 var a22790 =
 [
-    [ "boss_cyanigosaAI", "df/dff/a22790.html#a4b24132889b17b3e682a15009a1ae910", null ],
-    [ "EnterEvadeMode", "df/dff/a22790.html#a8da6ddc9b1c9f7b145920205046ce095", null ],
-    [ "JustDied", "df/dff/a22790.html#a805117db567dd3d529a1c862bc24179c", null ],
-    [ "JustEngagedWith", "df/dff/a22790.html#a4ef85c0178120f14f2a7b29efb7a9abf", null ],
-    [ "KilledUnit", "df/dff/a22790.html#a5e69b631ab6844160b1e53fd1d731bae", null ],
-    [ "MoveInLineOfSight", "df/dff/a22790.html#adb699a22dbf1c14cb80f8fdcca9c6f82", null ],
-    [ "Reset", "df/dff/a22790.html#a7b0fdaa4f2603db8fd2d0c1ee6975817", null ],
-    [ "SpellHitTarget", "df/dff/a22790.html#ae8218b69e6dc7489e65d891048d84da1", null ],
-    [ "UpdateAI", "df/dff/a22790.html#ae69afba77636c962045160b610177bd9", null ],
-    [ "events", "df/dff/a22790.html#ab5fe766d46e9445b9e7cfc605073983f", null ],
-    [ "pInstance", "df/dff/a22790.html#a075f4a592202dc73d9b5d63ca5178093", null ]
+    [ "HandleAfterCast", "df/dff/a22790.html#ae83f0cd423597b1c1e2bc1619d24fb1e", null ],
+    [ "HandleDummy", "df/dff/a22790.html#ae94594e337c2e0e6864f3723df8349bf", null ],
+    [ "Load", "df/dff/a22790.html#a301008eff6b13a43070b3916925391ae", null ],
+    [ "PrepareSpellScript", "df/dff/a22790.html#a6068412ee3d78192cc0ff735fd4e93ed", null ],
+    [ "Register", "df/dff/a22790.html#a253f9b428351519cbd4ee5c2341ea0c4", null ],
+    [ "_targetCount", "df/dff/a22790.html#ac16cb2696c4e72195de7ebddd072b3c4", null ]
 ];

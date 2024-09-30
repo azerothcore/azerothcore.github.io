@@ -1,6 +1,10 @@
 var a14062 =
 [
-    [ "npc_zealot_lorkhanAI", "d9/d1d/a14066.html", "d9/d1d/a14066" ],
-    [ "npc_zealot_lorkhan", "df/d01/a14062.html#ab296b9eb5130f73c298eb317d996b411", null ],
-    [ "GetAI", "df/d01/a14062.html#a73bce7ca91726d58207112262d12d3fa", null ]
+    [ "npc_coren_direbrew_sisters", "df/d01/a14062.html#a415ea0ebd044236f5f4c4d6c28896e00", null ],
+    [ "GetGUID", "df/d01/a14062.html#a61863117e71ebfb7f1c4c83780ece7bc", null ],
+    [ "JustEngagedWith", "df/d01/a14062.html#a34e0b6af032240c152c463c221d99335", null ],
+    [ "SetGUID", "df/d01/a14062.html#ada2e446a929bbba088d3c7e09d117f93", null ],
+    [ "UpdateAI", "df/d01/a14062.html#a7434b08d12d3f0902d1944b75323560c", null ],
+    [ "_scheduler", "df/d01/a14062.html#a9d8ca85e7bbd3cc9c61c2bbb38b7d222", null ],
+    [ "_targetGUID", "df/d01/a14062.html#a801a6811124a7db3a31ec492ef954b20", null ]
 ];

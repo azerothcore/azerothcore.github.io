@@ -1,6 +1,7 @@
 var a17878 =
 [
-    [ "spell_blood_queen_presence_of_the_darkfallen_SpellScript", "d9/dce/a17882.html", "d9/dce/a17882" ],
-    [ "spell_blood_queen_presence_of_the_darkfallen", "d2/de8/a17878.html#a18def55020fa379578ea51ed98091c28", null ],
-    [ "GetSpellScript", "d2/de8/a17878.html#a64bdaf9d7e90f62895c331f02c8d3368", null ]
+    [ "FrostBombExplosion", "d2/de8/a17878.html#ac7d318e241e6442e8aa084b27ea50236", null ],
+    [ "Execute", "d2/de8/a17878.html#a0b6521266f18b621260286c530ff3f36", null ],
+    [ "_owner", "d2/de8/a17878.html#aa9ff39ce43c351e8815f895896fa759b", null ],
+    [ "_sindragosaGUID", "d2/de8/a17878.html#a5afc3d543c8fa457c90735f841aa161c", null ]
 ];

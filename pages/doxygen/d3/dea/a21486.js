@@ -1,6 +1,6 @@
 var a21486 =
 [
-    [ "spell_hodir_shatter_chestSpellScript", "de/db2/a21490.html", "de/db2/a21490" ],
-    [ "spell_hodir_shatter_chest", "d3/dea/a21486.html#ad9cbebcd3ec400eeab80c1c5ca0d3b29", null ],
-    [ "GetSpellScript", "d3/dea/a21486.html#a30d4802be91962f6bfa9c02c90da57fb", null ]
+    [ "npc_beryl_sorcererAI", "de/db2/a21490.html", "de/db2/a21490" ],
+    [ "npc_beryl_sorcerer", "d3/dea/a21486.html#a4f74ee45ee0730fcfd044418771a9ee1", null ],
+    [ "GetAI", "d3/dea/a21486.html#a963646eed9f121f87efe480312957286", null ]
 ];

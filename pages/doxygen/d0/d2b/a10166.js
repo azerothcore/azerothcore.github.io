@@ -1,7 +1,6 @@
 var a10166 =
 [
-    [ "GuildBankLogQueryResults", "d0/d2b/a10166.html#a878f9545b3141a327de85771de4f1779", null ],
-    [ "Write", "d0/d2b/a10166.html#aafdb5114c7d0e8a2d18a848f3c94aa38", null ],
-    [ "Entry", "d0/d2b/a10166.html#a5f3704df5311f06833c3243201d35930", null ],
-    [ "Tab", "d0/d2b/a10166.html#a214db612bb08e557dd41d3962c827dca", null ]
+    [ "BuyBankSlot", "d0/d2b/a10166.html#a0bc11087e9359c6ac762f915b11287d8", null ],
+    [ "Read", "d0/d2b/a10166.html#ac4e35f97fe3ff2b2c18a40b8b2eb59fb", null ],
+    [ "Banker", "d0/d2b/a10166.html#aa9ae5777ab337f37b1c372d39a8474bf", null ]
 ];

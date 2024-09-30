@@ -1,6 +1,6 @@
 var a17086 =
 [
-    [ "HandlePeriodicTick", "d9/d9d/a17086.html#aee8388fd10174432ec615d5dc12f7ca3", null ],
-    [ "PrepareAuraScript", "d9/d9d/a17086.html#ab6558732ac7d4d0cfa2557dce21c4efb", null ],
-    [ "Register", "d9/d9d/a17086.html#a9b5f76898b8b0bf3778bbdeba185d71a", null ]
+    [ "HandlePeriodic", "d9/d9d/a17086.html#a27ad5fef0695f006c2f8795ac0fbce53", null ],
+    [ "PrepareAuraScript", "d9/d9d/a17086.html#a29b00511d9a215fd0e00702e7a2dca0c", null ],
+    [ "Register", "d9/d9d/a17086.html#a9753daf5cdc812e9027c1153b450686d", null ]
 ];

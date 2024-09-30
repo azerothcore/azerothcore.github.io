@@ -1,6 +1,12 @@
 var a25910 =
 [
-    [ "OnPeriodic", "db/d63/a25910.html#af0e0091f1728592fb796c0eb96ab17c3", null ],
-    [ "PrepareAuraScript", "db/d63/a25910.html#a7c1a4bf303dfd22f01fce3ffb9bd81a2", null ],
-    [ "Register", "db/d63/a25910.html#a31752f9ce5796e43f0ba7f9803b9a1aa", null ]
+    [ "CalcPeriodic", "db/d63/a25910.html#a5b57273e0d9fc39a000c7bf4e232acb4", null ],
+    [ "CalculateAPAmount", "db/d63/a25910.html#a65b6f1a2b322c928fd9a5992380d2e95", null ],
+    [ "CalculateResistanceAmount", "db/d63/a25910.html#a3860e12ea334cb61a437941b6f9b81e0", null ],
+    [ "CalculateSPAmount", "db/d63/a25910.html#abf0d76c220911d88990f3071f14a9d5a", null ],
+    [ "CalculateStatAmount", "db/d63/a25910.html#a56489b52592e63dd00640de388926512", null ],
+    [ "HandleEffectApply", "db/d63/a25910.html#a5180cc8beb5244bd0b957dfc89dc9cf4", null ],
+    [ "HandlePeriodic", "db/d63/a25910.html#a67cb7b817f29dd41aa7d0dc8c87dc820", null ],
+    [ "PrepareAuraScript", "db/d63/a25910.html#a5b65221c67283a29cbeb63cafe64457a", null ],
+    [ "Register", "db/d63/a25910.html#acc22795ea812f31b0b9e21e6494c2d19", null ]
 ];

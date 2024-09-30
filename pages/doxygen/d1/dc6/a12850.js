@@ -1,5 +1,7 @@
 var a12850 =
 [
-    [ "at_malfurion_stormrage", "d1/dc6/a12850.html#ac5da3d1a7c2ccaffee68cfaee04fb63c", null ],
-    [ "OnTrigger", "d1/dc6/a12850.html#a0aa7818bd09b8a456d1ebbaa7d5f5c1d", null ]
+    [ "OnPeriodic", "d1/dc6/a12850.html#ab193b7cf8a8fe91879317e7d21522976", null ],
+    [ "PrepareAuraScript", "d1/dc6/a12850.html#a5dca6bc670612f0b0e8e99381c97bf11", null ],
+    [ "Register", "d1/dc6/a12850.html#ac6e0621064e5e0a77e1cdbfa8dbb6a54", null ],
+    [ "Validate", "d1/dc6/a12850.html#a290b864756ceff85d52ba3f974a28217", null ]
 ];

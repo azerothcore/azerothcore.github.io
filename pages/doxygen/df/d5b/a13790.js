@@ -1,7 +1,6 @@
 var a13790 =
 [
-    [ "npc_janalai_eggAI", "df/d5b/a13790.html#a75bf6d0c7fdb09ace4352cde99edda81", null ],
-    [ "Reset", "df/d5b/a13790.html#aad93238c8c26d678da6df2d0191d3763", null ],
-    [ "SpellHit", "df/d5b/a13790.html#a2e097705ad9710b22be38931df30bcc3", null ],
-    [ "UpdateAI", "df/d5b/a13790.html#a4aa8bfac1e4584497d48097535cc77d3", null ]
+    [ "boss_grilekAI", "d4/dc7/a13794.html", "d4/dc7/a13794" ],
+    [ "boss_grilek", "df/d5b/a13790.html#acffe0061db18c5725c8c290822c5fed7", null ],
+    [ "GetAI", "df/d5b/a13790.html#aa346fa8807069d8fc94bd4d81a014c76", null ]
 ];

@@ -1,7 +1,4 @@
 var a07430 =
 [
-    [ "LfgJoinResultData", "d5/d8e/a07430.html#a1d711d49a6b49f55eb3771352b294b95", null ],
-    [ "lockmap", "d5/d8e/a07430.html#aff918b3c02ca76982a964402175f8ad7", null ],
-    [ "result", "d5/d8e/a07430.html#aa713cbc1930962d520883523f6f6446c", null ],
-    [ "state", "d5/d8e/a07430.html#a2eee5e81651a7a9be245e4b717ab53ed", null ]
+    [ "type", "d5/d8e/a07430.html#a20bf3321a2bb91eead362115f5c9bcc7", null ]
 ];

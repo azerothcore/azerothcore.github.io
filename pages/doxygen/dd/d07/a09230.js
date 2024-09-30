@@ -1,8 +1,25 @@
 var a09230 =
 [
-    [ "PositionFullTerrainStatus", "dd/d07/a09230.html#ae0349ed89530b35af91b7b1862acaffe", null ],
-    [ "areaId", "dd/d07/a09230.html#ac04966fa31b30f341a937906223463d4", null ],
-    [ "floorZ", "dd/d07/a09230.html#abbd186ca681e532d567b5a221a62c02b", null ],
-    [ "liquidInfo", "dd/d07/a09230.html#ac96230ad8521342ec97cf4f94013d0b4", null ],
-    [ "outdoors", "dd/d07/a09230.html#ae531eb0a4abc029f82d699c98d6aa565", null ]
+    [ "RankInfo", "dd/d07/a09230.html#a4b97f6372e87ab4061748cc58bd00096", null ],
+    [ "RankInfo", "dd/d07/a09230.html#a02c7283862334b5133f5971cee5da927", null ],
+    [ "RankInfo", "dd/d07/a09230.html#aaacf8ce1bfa6429cb5980d74f076cbd3", null ],
+    [ "CreateMissingTabsIfNeeded", "dd/d07/a09230.html#a17e8ee39681804bac73a2c699b470c37", null ],
+    [ "GetBankMoneyPerDay", "dd/d07/a09230.html#adb568b8ad70d0b42d834af5e2bf528d2", null ],
+    [ "GetBankTabRights", "dd/d07/a09230.html#a5be65cec8e2e82c027ef4062ea63c1f1", null ],
+    [ "GetBankTabSlotsPerDay", "dd/d07/a09230.html#a7cc652b0170a7f786a5a0263b4251d2d", null ],
+    [ "GetId", "dd/d07/a09230.html#a1a99822f0c886d59ac57b6eb73ff2b42", null ],
+    [ "GetName", "dd/d07/a09230.html#a3cfcabc23d610dd6130333edcd482485", null ],
+    [ "GetRights", "dd/d07/a09230.html#a59565228481689cdc073e7120a6de9f3", null ],
+    [ "LoadFromDB", "dd/d07/a09230.html#ae9f8001f2546582256b7d916d4f2b1d6", null ],
+    [ "SaveToDB", "dd/d07/a09230.html#a9fb87796b8e18ed9dd2fee53844c243f", null ],
+    [ "SetBankMoneyPerDay", "dd/d07/a09230.html#a1c553e020fe7d79564ddfc3aa74bbfae", null ],
+    [ "SetBankTabSlotsAndRights", "dd/d07/a09230.html#a9f1c622c8af7a8f7f9af027eb01b9dc6", null ],
+    [ "SetName", "dd/d07/a09230.html#a30e276b031dc1e279cfbf38aa1c9b851", null ],
+    [ "SetRights", "dd/d07/a09230.html#a8b46f3a8f91cd3a187e00d37a6ddd419", null ],
+    [ "m_bankMoneyPerDay", "dd/d07/a09230.html#a715985e1b8e8e2aa2d0b48877ae37e8f", null ],
+    [ "m_bankTabRightsAndSlots", "dd/d07/a09230.html#aeb209d1e53f55b5b48bcd00979014eb8", null ],
+    [ "m_guildId", "dd/d07/a09230.html#a86f162bdf86255f89666e20f44d114a0", null ],
+    [ "m_name", "dd/d07/a09230.html#a96281f4a307ca7657a3ba9f04c9331c3", null ],
+    [ "m_rankId", "dd/d07/a09230.html#ad7ff7ee31212be87b5cb580edef3cc16", null ],
+    [ "m_rights", "dd/d07/a09230.html#a058febd98eb3d116acbe1bc0d04a983c", null ]
 ];

@@ -1,7 +1,11 @@
 var a18358 =
 [
-    [ "OnPeriodic", "d4/d91/a18358.html#a402e6c1a23070e3cef9b66ca0992d1af", null ],
-    [ "PrepareAuraScript", "d4/d91/a18358.html#a0e87dae1be4f69e6412129f14056eb79", null ],
-    [ "Register", "d4/d91/a18358.html#a1b26d102252bf7e0fd480076820d343f", null ],
-    [ "Validate", "d4/d91/a18358.html#a211d52aa385a874730abc43b083f2d22", null ]
+    [ "npc_valithria_cloudAI", "d4/d91/a18358.html#a5b550d0154f302cecc509fbd868a53bb", null ],
+    [ "AttackStart", "d4/d91/a18358.html#a5835d5ba19e1480016e585c1e49489c9", null ],
+    [ "EnterEvadeMode", "d4/d91/a18358.html#a346fd998d41451d7d1e605afdb13b65c", null ],
+    [ "MoveInLineOfSight", "d4/d91/a18358.html#a8d4c8d082f12b96b2b77447d0b942c2c", null ],
+    [ "Reset", "d4/d91/a18358.html#abca34d7285ef23c062006df8f8ae6d53", null ],
+    [ "UpdateAI", "d4/d91/a18358.html#a6908f5731915bf7d15bb4921c960aa30", null ],
+    [ "_events", "d4/d91/a18358.html#afc5c9299d7f1f73c087a19dcfb19e096", null ],
+    [ "_instance", "d4/d91/a18358.html#a20cc2bba9d1005cc93b55dfba8bfbcf3", null ]
 ];

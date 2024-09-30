@@ -1,6 +1,6 @@
 var a18662 =
 [
-    [ "ExtraRemoveEffect", "d3/dff/a18662.html#addfecd826c293cacad0e5881726dca2e", null ],
-    [ "PrepareAuraScript", "d3/dff/a18662.html#a53b7c14925d95c667bcef18a2e49b63d", null ],
-    [ "Register", "d3/dff/a18662.html#a8930ecab6f6a2c7b2fa3ebfad2839117", null ]
+    [ "npc_icc_valkyr_heraldAI", "d3/d54/a18666.html", "d3/d54/a18666" ],
+    [ "npc_icc_valkyr_herald", "d3/dff/a18662.html#a9d06e0dec8cb960d34c2089c1c0d8ccb", null ],
+    [ "GetAI", "d3/dff/a18662.html#a7537269841d0380d2dc9e4641705acf9", null ]
 ];

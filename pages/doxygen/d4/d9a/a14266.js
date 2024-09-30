@@ -1,5 +1,7 @@
 var a14266 =
 [
-    [ "at_bring_your_orphan_to", "d4/d9a/a14266.html#a160aae23dd3423dbc1afc8e3f8dbec7c", null ],
-    [ "OnTrigger", "d4/d9a/a14266.html#af5cb73f6ba0657eff8809711a5dba84c", null ]
+    [ "HandleScript", "d4/d9a/a14266.html#a78899a874a645d531dd4d89f2bd5478a", null ],
+    [ "PrepareSpellScript", "d4/d9a/a14266.html#adc96c1dbf0b561a72d26dca57d5bfcec", null ],
+    [ "Register", "d4/d9a/a14266.html#a76942c06492a48ce16bb85cf55d1e58d", null ],
+    [ "Validate", "d4/d9a/a14266.html#a727f7c6ab1a2b5635e0b8fbd071d863d", null ]
 ];

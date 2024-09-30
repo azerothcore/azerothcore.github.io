@@ -1,6 +1,9 @@
 var a23974 =
 [
-    [ "spell_wintergrasp_rp_gg_SpellScript", "d8/d8f/a23978.html", "d8/d8f/a23978" ],
-    [ "spell_wintergrasp_rp_gg", "d1/dcb/a23974.html#ad9ced2bd23f77fa1768d79c8fe9ad117", null ],
-    [ "GetSpellScript", "d1/dcb/a23974.html#a182cb46f0e7b1f080c213f36af06dad7", null ]
+    [ "npc_aeranasAI", "d1/dcb/a23974.html#a2142cebc84e64919fa5c2ef630453282", null ],
+    [ "Reset", "d1/dcb/a23974.html#a2c1bbe079c065745782adfa13b030515", null ],
+    [ "UpdateAI", "d1/dcb/a23974.html#ae192a3b38c0ec65cddfce3b95d15555a", null ],
+    [ "envelopingWinds_Timer", "d1/dcb/a23974.html#a566b5d648abe630efc191f9d6d4938a2", null ],
+    [ "faction_Timer", "d1/dcb/a23974.html#aac071887c100f91cc7ffc545ea6439d9", null ],
+    [ "shock_Timer", "d1/dcb/a23974.html#aba8ad016f0e470b07163fef07b603380", null ]
 ];

@@ -1,6 +1,8 @@
 var a21386 =
 [
-    [ "FilterTargets", "d3/d28/a21386.html#ae402120aab16d5482da1a9306eb3004f", null ],
-    [ "PrepareSpellScript", "d3/d28/a21386.html#a34b4255000d13229e460ecf1456cd6c7", null ],
-    [ "Register", "d3/d28/a21386.html#a7248095987b083eb7d597dd80dc3ad36", null ]
+    [ "npc_azure_mage_slayerAI", "d3/d28/a21386.html#af1a57574d70a48b16d70d8a056f54018", null ],
+    [ "Reset", "d3/d28/a21386.html#aabe921f0d4fd147c457779791a7af619", null ],
+    [ "UpdateAI", "d3/d28/a21386.html#a7cc5ea88be6c9cf767a0cd433db7dd73", null ],
+    [ "uiArcaneEmpowermentTimer", "d3/d28/a21386.html#ace0fdd5e4b57e7ce603d2355bfc838dd", null ],
+    [ "uiSpellLockTimer", "d3/d28/a21386.html#ac3c4d2be0dd9ba42e40adccda7100947", null ]
 ];

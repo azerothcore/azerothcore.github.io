@@ -1,8 +1,5 @@
 var a28158 =
 [
-    [ "HandleEffectRemove", "d2/def/a28158.html#a770b7ad0bb00114400a73f50c4aa6c81", null ],
-    [ "if", "d2/def/a28158.html#a7123c451bce0f95ad75e5acfbe58a135", null ],
-    [ "PrepareAuraScript", "d2/def/a28158.html#a531f51626ae4527282ad1e628911a9ea", null ],
-    [ "Register", "d2/def/a28158.html#ae68bd9a92239a4796f9d8040787a68b3", null ],
-    [ "AuraEffectHandleModes", "d2/def/a28158.html#a8af86c58f438e78d8bf878f79d4a27e2", null ]
+    [ "id", "d2/def/a28158.html#a22e48015dd880199e131089e35b1ce05", null ],
+    [ "spellId", "d2/def/a28158.html#a956d683b42f34eae3a1ea3f8882716fd", null ]
 ];

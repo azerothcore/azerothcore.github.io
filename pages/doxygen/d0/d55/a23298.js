@@ -1,6 +1,6 @@
 var a23298 =
 [
-    [ "spell_q12243_fire_upon_the_waters_AuraScript", "d7/d72/a23302.html", "d7/d72/a23302" ],
-    [ "spell_q12243_fire_upon_the_waters", "d0/d55/a23298.html#a9d7635651454bf48a255a8c4b89ba7b2", null ],
-    [ "GetAuraScript", "d0/d55/a23298.html#a1c18032e6a61efb2751ca897fad8f39e", null ]
+    [ "boss_rokmar_the_crackler", "d0/d55/a23298.html#a0aca6a30d045bbea6f434979f4f1d2e9", null ],
+    [ "JustEngagedWith", "d0/d55/a23298.html#ae376e6a96fa07136790f3ed04ee1023b", null ],
+    [ "Reset", "d0/d55/a23298.html#aed9cf4a866d5e70647125a08885fb809", null ]
 ];

@@ -1,7 +1,10 @@
 var a02183 =
 [
-    [ "instance_the_underbog", "da/d37/a23384.html", "da/d37/a23384" ],
-    [ "instance_the_underbog::instance_the_underbog_InstanceMapScript", "dc/dc0/a23388.html", "dc/dc0/a23388" ],
-    [ "AddSC_instance_the_underbog", "df/d14/a02183.html#acc5edb97f1bda7cd30a38061e4676698", null ],
-    [ "creatureData", "df/d14/a02183.html#a412286b689bd324fedd65ddd8dde8afb", null ]
+    [ "TradeData", "d9/d86/a08398.html", "d9/d86/a08398" ],
+    [ "TradeSlots", "df/d14/a02183.html#ad8fd978c4198825d89a1f02643d20c62", [
+      [ "TRADE_SLOT_COUNT", "df/d14/a02183.html#ad8fd978c4198825d89a1f02643d20c62a1e8d56a5a22d784c5d388fd8bd206488", null ],
+      [ "TRADE_SLOT_TRADED_COUNT", "df/d14/a02183.html#ad8fd978c4198825d89a1f02643d20c62ab52f8b8c3be8445987c622e4dfacaa79", null ],
+      [ "TRADE_SLOT_NONTRADED", "df/d14/a02183.html#ad8fd978c4198825d89a1f02643d20c62abdab7c30065c4b145dd2e6ce0e27c45f", null ],
+      [ "TRADE_SLOT_INVALID", "df/d14/a02183.html#ad8fd978c4198825d89a1f02643d20c62ab98427dca4bc30e207c0433e5e307ad4", null ]
+    ] ]
 ];

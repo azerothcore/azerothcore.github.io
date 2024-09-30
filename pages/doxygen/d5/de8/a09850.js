@@ -1,10 +1,21 @@
 var a09850 =
 [
-    [ "ArgsType", "d5/de8/a09850.html#a4ea4d3b165a196482ebe96af9c462658", null ],
-    [ "AuraScriptType", "d5/de8/a09850.html#a7b2a19d6c7c75c0df22eae17b0c8e90a", null ],
-    [ "SpellScriptType", "d5/de8/a09850.html#a790a8ef2b59bfe6298486648858506ed", null ],
-    [ "GenericSpellAndAuraScriptLoader", "d5/de8/a09850.html#ab1bd69d57c6e2322044b8f7cf46cedb6", null ],
-    [ "GetAuraScript", "d5/de8/a09850.html#a5f3c898a0dc6d9085589b88eb5571528", null ],
-    [ "GetSpellScript", "d5/de8/a09850.html#a913fa28d2a2cf100ce73cf641e333e01", null ],
-    [ "_args", "d5/de8/a09850.html#aad6527f64ede0d896880ffa90d05a378", null ]
+    [ "PetitionMgr", "d5/de8/a09850.html#a2101165239e2f58faeb1ded69fb6d0b8", null ],
+    [ "~PetitionMgr", "d5/de8/a09850.html#a110d7d33ff92a87b78cd132c6228bd03", null ],
+    [ "AddPetition", "d5/de8/a09850.html#a0175d79b865a34bc1451bb6c748d785f", null ],
+    [ "AddSignature", "d5/de8/a09850.html#a00f47487f06ced804371e63427f4afdb", null ],
+    [ "GetPetition", "d5/de8/a09850.html#a6532eb8de34893d4f63ea68180ca9038", null ],
+    [ "GetPetitionByOwnerWithType", "d5/de8/a09850.html#a70ae6e41835983678bb9d37d2b766088", null ],
+    [ "GetPetitionStore", "d5/de8/a09850.html#ab23b6ae6303e2dabcde1981860da8873", null ],
+    [ "GetSignature", "d5/de8/a09850.html#a90db48e86ad855a4f3c33347dc2991e6", null ],
+    [ "GetSignatureStore", "d5/de8/a09850.html#af5f18d9200b61cd5e84652c51206f1d7", null ],
+    [ "instance", "d5/de8/a09850.html#a3bda5778fbc38fefedd463b0b12893cd", null ],
+    [ "LoadPetitions", "d5/de8/a09850.html#aa612824469e47955f3a231e4abd9bc84", null ],
+    [ "LoadSignatures", "d5/de8/a09850.html#ad3fa9f06bda57a2ff4bac0f1650f5257", null ],
+    [ "RemovePetition", "d5/de8/a09850.html#ad6ad64ff57918817def0f948a3c03717", null ],
+    [ "RemovePetitionByOwnerAndType", "d5/de8/a09850.html#ab4284c466ee19dfb7d5214c598289441", null ],
+    [ "RemoveSignaturesByPlayer", "d5/de8/a09850.html#a289f09d808c81b5ada9b26e98260f5be", null ],
+    [ "RemoveSignaturesByPlayerAndType", "d5/de8/a09850.html#a8d30eb7c2d048ada34765193ee823a96", null ],
+    [ "PetitionStore", "d5/de8/a09850.html#a49bb11e33b39fa77f5394130e8405537", null ],
+    [ "SignatureStore", "d5/de8/a09850.html#a784ff7990f17d4cfdc4f24b6f863e88e", null ]
 ];

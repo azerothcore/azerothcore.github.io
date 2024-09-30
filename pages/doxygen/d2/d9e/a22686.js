@@ -1,11 +1,18 @@
 var a22686 =
 [
-    [ "boss_archavonAI", "d2/d9e/a22686.html#a101518193c0fb6bbd6892362a6f09b9c", null ],
-    [ "AttackStart", "d2/d9e/a22686.html#ac9f82f61ee7fe945cb3fba23a69e704c", null ],
-    [ "JustDied", "d2/d9e/a22686.html#a3974065a80dedf3e673452e7f6f8e449", null ],
-    [ "JustEngagedWith", "d2/d9e/a22686.html#ace4a10f62eaa21ecd997ad1dbe15f3c8", null ],
-    [ "Reset", "d2/d9e/a22686.html#a7d101626f39947dd54b574491a5e6d72", null ],
-    [ "UpdateAI", "d2/d9e/a22686.html#a5abb4c2b4149172d2e7bf0d539237323", null ],
-    [ "events", "d2/d9e/a22686.html#a8d7fef6dfcdc5be20f0531c34b09fc13", null ],
-    [ "pInstance", "d2/d9e/a22686.html#ab51f09b76054d8bdb13f3c27396db87e", null ]
+    [ "npc_akama_illidan", "d2/d9e/a22686.html#ae300c0493c788863d69a7d9f5ab40ff5", null ],
+    [ "DamageTaken", "d2/d9e/a22686.html#a4b95cb3a3502805a915f7c6751ecf70c", null ],
+    [ "DoAction", "d2/d9e/a22686.html#af68f04faaf8a1893a82674cf1f2dd453", null ],
+    [ "JustEngagedWith", "d2/d9e/a22686.html#a8c78b3586673ee9e330272494ee74eab", null ],
+    [ "JustReachedHome", "d2/d9e/a22686.html#a8804c0e0b77673fee6beb3c0cd58be59", null ],
+    [ "JustSummoned", "d2/d9e/a22686.html#a54b185a813a4271eef06173b8109d6cf", null ],
+    [ "KilledUnit", "d2/d9e/a22686.html#a7838b6161a2ea9e0231f142a534de767", null ],
+    [ "MovementInform", "d2/d9e/a22686.html#a32116d23bd508d9791f31fbc257398d0", null ],
+    [ "PathEndReached", "d2/d9e/a22686.html#abd9dd31fe80a96d656c7dafd77564ad0", null ],
+    [ "Reset", "d2/d9e/a22686.html#ac3af6f0ddb0f07a6a254e2c0b3bd3ef0", null ],
+    [ "sGossipSelect", "d2/d9e/a22686.html#a6ab4ddfeaa2448e79577936d87d66398", null ],
+    [ "SummonedCreatureDies", "d2/d9e/a22686.html#a1b4a1bfec1034feccba676b35a3caf93", null ],
+    [ "UpdateAI", "d2/d9e/a22686.html#a3531d35b6d996bde197447e69e50a6fb", null ],
+    [ "instance", "d2/d9e/a22686.html#a752a22acf6eab1d1045cac099b22fe57", null ],
+    [ "summons", "d2/d9e/a22686.html#ab63791d4fd316a47af93a6f93118d331", null ]
 ];

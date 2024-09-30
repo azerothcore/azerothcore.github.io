@@ -1,7 +1,7 @@
 var a26158 =
 [
-    [ "o", "d4/d91/a26158.html#a3785e9b55ea3a7140086ce1f86232109", null ],
-    [ "x", "d4/d91/a26158.html#ac81cc1119b7ac8ac70ee635f2e3d4bb7", null ],
-    [ "y", "d4/d91/a26158.html#a10fbad67977d8dd3911eb629c1797684", null ],
-    [ "z", "d4/d91/a26158.html#a69fc2438e52f6c0de3af13900ff38166", null ]
+    [ "HandleHeal", "d4/d91/a26158.html#a22e3dd3ac57c7cb95162ee56ab43bc93", null ],
+    [ "PrepareSpellScript", "d4/d91/a26158.html#a9de9260bc1e2582138c58a708e5d899c", null ],
+    [ "Register", "d4/d91/a26158.html#ab613ce86521f1381b79f6f9f3eaea3cc", null ],
+    [ "Validate", "d4/d91/a26158.html#aa300822cf5455404482124a6853fb314", null ]
 ];

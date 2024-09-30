@@ -1,6 +1,8 @@
 var a25070 =
 [
-    [ "spell_leotheras_chaos_blast_SpellScript", "d4/d16/a25074.html", "d4/d16/a25074" ],
-    [ "spell_leotheras_chaos_blast", "d9/db8/a25070.html#a998a155698c196da1d2fb835024d0e4f", null ],
-    [ "GetSpellScript", "d9/db8/a25070.html#a81035fe33d4ebf27221d14ea6c95d6c9", null ]
+    [ "OnApply", "d9/db8/a25070.html#a9ea247d39fa51d9722c17e6ea83a0e55", null ],
+    [ "OnRemove", "d9/db8/a25070.html#abd45d59ecd41274bd02c17fb066a521e", null ],
+    [ "PrepareAuraScript", "d9/db8/a25070.html#af30811301599459bf2a99a68608a053f", null ],
+    [ "Register", "d9/db8/a25070.html#a0eb56dc80c02932a0d7cf4cca7079c75", null ],
+    [ "Validate", "d9/db8/a25070.html#a29c5049e4455737ff96596a18af118d0", null ]
 ];

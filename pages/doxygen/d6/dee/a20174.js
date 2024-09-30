@@ -1,6 +1,6 @@
 var a20174 =
 [
-    [ "boss_sapphironAI", "dd/dc5/a20178.html", "dd/dc5/a20178" ],
-    [ "boss_sapphiron", "d6/dee/a20174.html#a87a70204dd727f92d035ad98e2ab9010", null ],
-    [ "GetAI", "d6/dee/a20174.html#a31209287faa721bef341388ae4383b6c", null ]
+    [ "HandleAfterEffectApply", "d6/dee/a20174.html#af655bb31dc24a3cede08ca371f784913", null ],
+    [ "PrepareAuraScript", "d6/dee/a20174.html#a1824853d0b369deac0745fabe2df657c", null ],
+    [ "Register", "d6/dee/a20174.html#a33e7c6cab2c99789661e6bb2d6b9a593", null ]
 ];

@@ -1,5 +1,5 @@
 var a20402 =
 [
-    [ "achievement_split_personality", "d6/d33/a20402.html#aac29ae7c321306a663e55493987af45d", null ],
-    [ "OnCheck", "d6/d33/a20402.html#ab5379f3c1191eeb747cb6762fc42ce01", null ]
+    [ "npc_ulduar_rocket_strike_triggerAI", "d6/d33/a20402.html#a6308129d11989dadf0a5948c4a268e4b", null ],
+    [ "SpellHitTarget", "d6/d33/a20402.html#a3c254e16f62e7d2414d81062c91c2468", null ]
 ];

@@ -1,9 +1,6 @@
 var a21002 =
 [
-    [ "npc_auriaya_sanctum_sentryAI", "da/d6d/a21002.html#afffb62c4db56bb4e7baa095ae75cd7e3", null ],
-    [ "JustEngagedWith", "da/d6d/a21002.html#aeeb0aa4667a110dabcc70d422ebd6de5", null ],
-    [ "Reset", "da/d6d/a21002.html#a5ab87ac858782cd7f05d9778ca3a6214", null ],
-    [ "UpdateAI", "da/d6d/a21002.html#ab1862b4bd4b4fdfaeac8ad9c52cc5ed6", null ],
-    [ "_ripFleshTimer", "da/d6d/a21002.html#a83920afb7f6930d780abd2d6fba2aa4c", null ],
-    [ "_savagePounceTimer", "da/d6d/a21002.html#a9a6b14ece9a0bf812a04ea765b546735", null ]
+    [ "boss_dalronn_the_controllerAI", "dc/d17/a21006.html", "dc/d17/a21006" ],
+    [ "boss_dalronn_the_controller", "da/d6d/a21002.html#afb5f8ef1df5d2e70e48f88cf986d88b2", null ],
+    [ "GetAI", "da/d6d/a21002.html#a62a12d41c5c4ed808ea8d65068a92b1f", null ]
 ];

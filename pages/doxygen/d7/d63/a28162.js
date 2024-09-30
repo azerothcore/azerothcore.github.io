@@ -1,6 +1,5 @@
 var a28162 =
 [
-    [ "HandleScriptEffect", "d7/d63/a28162.html#a7dc7cb2dcdd6518a253a459e2e711c89", null ],
-    [ "PrepareSpellScript", "d7/d63/a28162.html#a9c41ae2e7ef1947c11c16d8abb48ec56", null ],
-    [ "Register", "d7/d63/a28162.html#a5b2a218cca68177209ca42be9dfbc8ea", null ]
+    [ "Id", "d7/d63/a28162.html#a44532f8af054ae5224f5e816c3c9a8a7", null ],
+    [ "PowerType", "d7/d63/a28162.html#ab6c17a5a3ba9f2f3a8fac125104703c4", null ]
 ];

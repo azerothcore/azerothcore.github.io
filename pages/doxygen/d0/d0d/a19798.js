@@ -1,6 +1,6 @@
 var a19798 =
 [
-    [ "npc_icc_severed_essenceAI", "d7/d42/a19802.html", "d7/d42/a19802" ],
-    [ "npc_icc_severed_essence", "d0/d0d/a19798.html#ace5b55755ef1dff3bd08a67fe2f64f94", null ],
-    [ "GetAI", "d0/d0d/a19798.html#a74b8dbb95f3dc31b514a2d7ac1f18190", null ]
+    [ "npc_mimirons_infernoAI", "d7/d42/a19802.html", "d7/d42/a19802" ],
+    [ "npc_mimirons_inferno", "d0/d0d/a19798.html#a7a531a65a179b5d56c888c055b72d269", null ],
+    [ "GetAI", "d0/d0d/a19798.html#a69294c5e8f50727e5f1a6586a8a3682b", null ]
 ];

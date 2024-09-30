@@ -1,6 +1,6 @@
 var a21246 =
 [
-    [ "achievement_flame_leviathan_towers", "db/da9/a21246.html#a491d66bdd373b6044e406126719ef910", null ],
-    [ "OnCheck", "db/da9/a21246.html#ad6e9dee3f05afaca0a355b714bf75ea6", null ],
-    [ "_towerCount", "db/da9/a21246.html#a1099385340b30a1a75655e2e7d2ba3cc", null ]
+    [ "instance_vault_of_archavon_InstanceMapScript", "df/d30/a21250.html", "df/d30/a21250" ],
+    [ "instance_vault_of_archavon", "db/da9/a21246.html#a0be8d95ff0f3b751e6f833689e436310", null ],
+    [ "GetInstanceScript", "db/da9/a21246.html#abb955a8873a3a3021e164225dd1f857a", null ]
 ];

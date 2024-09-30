@@ -1,7 +1,7 @@
 var a26770 =
 [
-    [ "FilterTargets", "de/dbc/a26770.html#a9abf4baaba572636dba3980e5ae777c5", null ],
-    [ "Load", "de/dbc/a26770.html#a812e4e461c0ebed6f7c4cc36e88a3367", null ],
-    [ "PrepareSpellScript", "de/dbc/a26770.html#a4e98fbf669c030263ed2e5759a5bd6e8", null ],
-    [ "Register", "de/dbc/a26770.html#a2d72f5771d6563260a6e81122e4a2be5", null ]
+    [ "HandleDispel", "de/dbc/a26770.html#aaf6920cb0fec741f3cff1d3f6e6d2c0f", null ],
+    [ "PrepareAuraScript", "de/dbc/a26770.html#ace0ce4b85311893e1e6df403a6387cd9", null ],
+    [ "Register", "de/dbc/a26770.html#a2c67e4327fdd034978d4822311632980", null ],
+    [ "Validate", "de/dbc/a26770.html#ad8b5c381904c359ed608c808d5bbd9bd", null ]
 ];

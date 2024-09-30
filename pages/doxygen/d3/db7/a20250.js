@@ -1,5 +1,6 @@
 var a20250 =
 [
-    [ "at_naxxramas_hub_portal", "d3/db7/a20250.html#a946086e8a4651240b84526a1b2d54065", null ],
-    [ "OnTrigger", "d3/db7/a20250.html#af967b0f61b3257c8b8d802d4ed3af1da", null ]
+    [ "boss_kologarn_eyebeamAI", "da/d29/a20254.html", "da/d29/a20254" ],
+    [ "boss_kologarn_eyebeam", "d3/db7/a20250.html#af28ff60e3b42f7316cc3d63624a91ee9", null ],
+    [ "GetAI", "d3/db7/a20250.html#a34f5533a6bfe84c52fe0b0e854e694f8", null ]
 ];

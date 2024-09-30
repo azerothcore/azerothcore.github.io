@@ -1,6 +1,5 @@
 var a24326 =
 [
-    [ "HandleAfterRemove", "df/d52/a24326.html#a6919794eb2d03e71675668378e915003", null ],
-    [ "PrepareAuraScript", "df/d52/a24326.html#a36f2c4e96c440252d44ddb293ac12923", null ],
-    [ "Register", "df/d52/a24326.html#ad4c6466c051d0c1fd88afa3942cba8f3", null ]
+    [ "npc_pet_dk_army_of_the_deadAI", "df/d52/a24326.html#a2d934ed807d225f6b9f2206f0556f26d", null ],
+    [ "InitializeAI", "df/d52/a24326.html#af3ecec126ed3d902acd4bfe979382307", null ]
 ];

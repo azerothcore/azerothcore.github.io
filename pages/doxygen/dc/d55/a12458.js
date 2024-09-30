@@ -1,9 +1,18 @@
 var a12458 =
 [
-    [ "npc_eye_of_acherus", "dc/d55/a12458.html#a1e0ed0eb0e32cb2e8a5d86869359db6c", null ],
-    [ "InitializeAI", "dc/d55/a12458.html#aea655b94bcd590835882793d916d7865", null ],
-    [ "MovementInform", "dc/d55/a12458.html#a5e0a360015fdfb1c6a277ba13583a584", null ],
-    [ "OnCharmed", "dc/d55/a12458.html#a9a9d274a503ebe06fa503f433f53b0e6", null ],
-    [ "UpdateAI", "dc/d55/a12458.html#a092592d0c9ec0f5a95fe550bed559f0e", null ],
-    [ "_events", "dc/d55/a12458.html#a08b2eb3aff837408decaa5fa087f5054", null ]
+    [ "boss_felblood_kaelthas", "dc/d55/a12458.html#a85abfb330ccc1fed5b9dc851d780f386", null ],
+    [ "DamageTaken", "dc/d55/a12458.html#af4ab5153ce7989a2ed778fed25f42f32", null ],
+    [ "InitializeAI", "dc/d55/a12458.html#a9903c814479181886f49c2cb38c7ca87", null ],
+    [ "JustDied", "dc/d55/a12458.html#af9a71c0f819526afd8ecc4c026bce24e", null ],
+    [ "JustEngagedWith", "dc/d55/a12458.html#a662374c29dd7a2fae593781708d50c04", null ],
+    [ "JustSummoned", "dc/d55/a12458.html#a1a98e8c8bcbd96d6118fafcbcc646939", null ],
+    [ "LapseAction", "dc/d55/a12458.html#ae1ac5b5da2a548f5b1dc1bdffb303b25", null ],
+    [ "MoveInLineOfSight", "dc/d55/a12458.html#a18d6d636236999bd10decde84fba0d1d", null ],
+    [ "Reset", "dc/d55/a12458.html#abde9a26abd8eef0b8cd25cbd6522d899", null ],
+    [ "UpdateAI", "dc/d55/a12458.html#a60975291b4d7a28fdd1d4cb585ae85e6", null ],
+    [ "events", "dc/d55/a12458.html#a4e153a21555e64176cd4d4c7f62b9d74", null ],
+    [ "events2", "dc/d55/a12458.html#ac1d6581c6d8097e3e9e075f470f2c847", null ],
+    [ "instance", "dc/d55/a12458.html#a8e3b3385cd2f94284e58b09f0d506c7e", null ],
+    [ "introSpeak", "dc/d55/a12458.html#ad98e8d071f0b7d901276001a76e006bb", null ],
+    [ "summons", "dc/d55/a12458.html#a0ebc7255125fea3290dce80882acd172", null ]
 ];

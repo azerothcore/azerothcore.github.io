@@ -1,6 +1,7 @@
 var a25294 =
 [
-    [ "HandlePeriodic", "da/d62/a25294.html#af6c30bb292a69d5eaaaf75c8a76111ea", null ],
-    [ "PrepareAuraScript", "da/d62/a25294.html#a75515896f3d94d227963a3c5258e2d0d", null ],
-    [ "Register", "da/d62/a25294.html#aeacb1ffc287cc7128366ee0484c2994b", null ]
+    [ "OnRemove", "da/d62/a25294.html#ab6371347f0dc4ffc8bab6c75ca1cdf59", null ],
+    [ "PrepareAuraScript", "da/d62/a25294.html#ac2b1a2311f97ab427439b45fb0770063", null ],
+    [ "Register", "da/d62/a25294.html#a39e4914aa01769e14f61e2369ad8eda5", null ],
+    [ "Validate", "da/d62/a25294.html#a71e47e70fd18affe1bd563f68fcb2efe", null ]
 ];

@@ -1,8 +1,18 @@
 var a21362 =
 [
-    [ "npc_ulduar_saronite_animusAI", "d2/d62/a21362.html#a2b94427feb24a7bda075b6a8f403433a", null ],
-    [ "JustDied", "d2/d62/a21362.html#a30abcab01de3732bc5525864576615b0", null ],
-    [ "UpdateAI", "d2/d62/a21362.html#a1490961adc8fc03ab28a992aff55b43b", null ],
-    [ "pInstance", "d2/d62/a21362.html#a5d3b297355f286b0ad08ed38dbd5b0d2", null ],
-    [ "timer", "d2/d62/a21362.html#a3d0345d4c503eb3f0e4acbe346f1c5e5", null ]
+    [ "violet_hold_trashAI", "d2/d62/a21362.html#a87011739810f39291655bc835f9995bd", null ],
+    [ "AttackStart", "d2/d62/a21362.html#ab2d2157977ae2482217fa8ac344b30af", null ],
+    [ "ClearDoorSealAura", "d2/d62/a21362.html#ad0c756eb5bef8036cb47ebcc9e6915df", null ],
+    [ "CreatureStartAttackDoor", "d2/d62/a21362.html#a1e64a9f7c82275969e099b5012a32924", null ],
+    [ "EnterEvadeMode", "d2/d62/a21362.html#ab189607a468514d6c472ac40e6f3d85b", null ],
+    [ "JustDied", "d2/d62/a21362.html#acd512cd3722a2edf0ca539272ded3c79", null ],
+    [ "JustEngagedWith", "d2/d62/a21362.html#a16e7677aa9597dda938a67c51febde6c", null ],
+    [ "JustReachedHome", "d2/d62/a21362.html#ae98d0cd977d59cbfe567fa6e294cde7e", null ],
+    [ "MoveInLineOfSight", "d2/d62/a21362.html#ab0e73a03d6e36a35eb393127bce3dad3", null ],
+    [ "UpdateAI", "d2/d62/a21362.html#a8647797343650fcd4f6304bce3742883", null ],
+    [ "WaypointReached", "d2/d62/a21362.html#ac218e3761b79d4d8186ad8d12e0d0b57", null ],
+    [ "bAddedWP", "d2/d62/a21362.html#ad2e8841054cece73bdc7c2e7782c96a8", null ],
+    [ "bAlt", "d2/d62/a21362.html#ad84ecad1a57f0af44af2795a252d2214", null ],
+    [ "pInstance", "d2/d62/a21362.html#a0a5f5b86cd54c28a828db2ac3e83126b", null ],
+    [ "PLoc", "d2/d62/a21362.html#a9e9ca535b9d2fa1b246975f984c96998", null ]
 ];

@@ -1,6 +1,6 @@
 var a17678 =
 [
-    [ "boss_prince_valanarAI", "d2/d77/a17682.html", "d2/d77/a17682" ],
-    [ "boss_prince_valanar_icc", "d8/dc3/a17678.html#a7bfa4e13fa5cc19313c7ce9877d1c631", null ],
-    [ "GetAI", "d8/dc3/a17678.html#a2f7f58d57f5ed107d1f972d061105fd4", null ]
+    [ "PrepareSpellScript", "d8/dc3/a17678.html#a9041ce6139de9a48621d6898ddcca673", null ],
+    [ "RecalculateDamage", "d8/dc3/a17678.html#abfb7c002577a59864fb2aa069b713c0a", null ],
+    [ "Register", "d8/dc3/a17678.html#a4308449e8cbe7ed59598a837024141cb", null ]
 ];

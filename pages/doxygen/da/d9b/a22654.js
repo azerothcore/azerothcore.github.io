@@ -1,6 +1,6 @@
 var a22654 =
 [
-    [ "CalculateAmount", "da/d9b/a22654.html#a3bdb3ef1fbf81839cfad0ced507bf556", null ],
-    [ "PrepareAuraScript", "da/d9b/a22654.html#af693a6d16dbc7cb7dc61fec5f6e477bb", null ],
-    [ "Register", "da/d9b/a22654.html#ae6569450a13eef8dfb8ced66ca1ac55c", null ]
+    [ "PrepareSpellScript", "da/d9b/a22654.html#abd6b61e7efbed1427b7603640ac7d474", null ],
+    [ "RecalculateDamage", "da/d9b/a22654.html#a02b59e5ac84c8556c9a9441ff6414461", null ],
+    [ "Register", "da/d9b/a22654.html#ab6183bf9e49d3c11c256e54053c13aa2", null ]
 ];

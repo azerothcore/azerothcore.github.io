@@ -1,6 +1,7 @@
 var a23610 =
 [
-    [ "npc_boneguard_footmanAI", "df/d43/a23610.html#a04eff1976824724b321f0c0d95e0940a", null ],
-    [ "UpdateAI", "df/d43/a23610.html#a9cba65867824daeb50cb2b39d68ad84b", null ],
-    [ "checkTimer", "df/d43/a23610.html#a46dd1fa8d111dca0584a8e6fb7a6a566", null ]
+    [ "HandleOnApply", "df/d43/a23610.html#a4d14f81325ecd0bde345d60a135ad8ba", null ],
+    [ "HandleOnRemove", "df/d43/a23610.html#aed5f87523c58d94c8f98b76c06abb140", null ],
+    [ "PrepareAuraScript", "df/d43/a23610.html#ab32413873bec92540f9e85e8013b7ea2", null ],
+    [ "Register", "df/d43/a23610.html#a0653d8688f98822580a3243a0d47c17a", null ]
 ];

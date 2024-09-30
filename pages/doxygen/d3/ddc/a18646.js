@@ -1,6 +1,6 @@
 var a18646 =
 [
-    [ "npc_big_oozeAI", "d5/d3d/a18650.html", "d5/d3d/a18650" ],
-    [ "npc_big_ooze", "d3/ddc/a18646.html#a8ae667b2782c53cd808f2e02e29713ee", null ],
-    [ "GetAI", "d3/ddc/a18646.html#ad06308602d69b51ff3f269bda6c465b5", null ]
+    [ "npc_icc_skybreaker_vicarAI", "d5/d3d/a18650.html", "d5/d3d/a18650" ],
+    [ "npc_icc_skybreaker_vicar", "d3/ddc/a18646.html#a40451cc6fba0cae59e47fa38e4fb79d3", null ],
+    [ "GetAI", "d3/ddc/a18646.html#a6884bb7e54b78abee0cc995c4fbb501d", null ]
 ];

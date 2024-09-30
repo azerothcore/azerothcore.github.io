@@ -1,17 +1,10 @@
 var a12226 =
 [
-    [ "boss_strawmanAI", "da/de9/a12226.html#a678ea4a835c83edaa2b4e5cae0744f76", null ],
-    [ "AttackStart", "da/de9/a12226.html#abf48053c56f8d2a1508368e0af7e520f", null ],
-    [ "JustDied", "da/de9/a12226.html#a33dab5c69f3c23b5d1f7200b1512de64", null ],
-    [ "JustEngagedWith", "da/de9/a12226.html#a5458f8e74c57efbadf42c1f9c75e541b", null ],
-    [ "JustReachedHome", "da/de9/a12226.html#a7a9fe68a08f123e8779f8ff200961442", null ],
-    [ "KilledUnit", "da/de9/a12226.html#a9baa0c05630db5f92ff0380dad508495", null ],
-    [ "MoveInLineOfSight", "da/de9/a12226.html#addc56d6d60148c5c2a04faf89a121285", null ],
-    [ "Reset", "da/de9/a12226.html#a08bb490496e3052ffabc48f95e143d91", null ],
-    [ "SpellHit", "da/de9/a12226.html#a8ba0373184391827edcd34982bc26b64", null ],
-    [ "UpdateAI", "da/de9/a12226.html#a7ed50344586f2c6a3a5a835f2a24633b", null ],
-    [ "AggroTimer", "da/de9/a12226.html#a637d2aea5e3a1d7035e9ce1433979d4d", null ],
-    [ "BrainBashTimer", "da/de9/a12226.html#a9cae5e091aaee82097b29ca9cddee9d2", null ],
-    [ "BrainWipeTimer", "da/de9/a12226.html#a51898583cb1643ba1080ee04c9deeac8", null ],
-    [ "instance", "da/de9/a12226.html#a8fcaa1dfca4a3df6a4c4b71331f2114a", null ]
+    [ "instance_gnomeregan_InstanceMapScript", "da/de9/a12226.html#a0080fdf557ad8159a8934dce5b39a535", null ],
+    [ "OnCreatureCreate", "da/de9/a12226.html#ac607601becc7fbf4ea9c64d87c93287c", null ],
+    [ "OnGameObjectCreate", "da/de9/a12226.html#a0c2f4d615394ef1d6e1b930ed6aff82f", null ],
+    [ "ReadSaveDataMore", "da/de9/a12226.html#a85d3db22430a4bac7e01dcfa1a1efb5b", null ],
+    [ "SetData", "da/de9/a12226.html#af800a1906c532f61f0299f8aa9359a66", null ],
+    [ "WriteSaveDataMore", "da/de9/a12226.html#a1b30829b3c782bb2c52e5da4fa388d5c", null ],
+    [ "_encounters", "da/de9/a12226.html#ae19a56e7fdcb2d0204d444cba11b7441", null ]
 ];

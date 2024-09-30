@@ -1,6 +1,5 @@
 var a26258 =
 [
-    [ "spell_q10036_torgos_SpellScript", "d7/d66/a26262.html", "d7/d66/a26262" ],
-    [ "spell_q10036_torgos", "d5/d24/a26258.html#a0599d2c00020c5978dc66f54b360a8be", null ],
-    [ "GetSpellScript", "d5/d24/a26258.html#a0bdd5a74c9f114537d8d206536dd418c", null ]
+    [ "PrepareSpellScript", "d5/d24/a26258.html#aa2d9d885e55c1685c2ce9cbc5b4d4279", null ],
+    [ "Register", "d5/d24/a26258.html#a721430db1738b255f114483bdddef5e2", null ]
 ];

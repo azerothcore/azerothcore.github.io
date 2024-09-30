@@ -1,8 +1,7 @@
 var a08846 =
 [
-    [ "MostHPMissingGroupInRange", "da/d0a/a08846.html#ab7cd80daa30d8a39289c704cc0a2064f", null ],
-    [ "operator()", "da/d0a/a08846.html#ad1b4a4894dd652237a7a789ef5619f4b", null ],
-    [ "i_hp", "da/d0a/a08846.html#ae61cafc52cb6d33cd78422c41bd3bb08", null ],
-    [ "i_obj", "da/d0a/a08846.html#ae0d85f9738301b40c3e950b02ee20026", null ],
-    [ "i_range", "da/d0a/a08846.html#a712e9b1ff341ccde4a6d6962ba6002a4", null ]
+    [ "CreatureRelocationNotifier", "da/d0a/a08846.html#aa144cd2c5b69351afd312084c0e97f0d", null ],
+    [ "Visit", "da/d0a/a08846.html#aa69e9bd551895ca3497d1bfbe5fa79ba", null ],
+    [ "Visit", "da/d0a/a08846.html#a8b346c55d80a8ed92afa2e1f591f5807", null ],
+    [ "i_creature", "da/d0a/a08846.html#a3116f6245816ba8fb9edb5995faa9927", null ]
 ];

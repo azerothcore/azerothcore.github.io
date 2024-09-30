@@ -1,6 +1,6 @@
 var a26370 =
 [
-    [ "HandleDamageCalc", "d4/d2d/a26370.html#a9e0f6fe8bb10950c2130fb7d1f07017a", null ],
-    [ "PrepareSpellScript", "d4/d2d/a26370.html#a183477b6269dbc705a10e60ab36c13b1", null ],
-    [ "Register", "d4/d2d/a26370.html#ae93d958a3a439e3401685b0d2a570f0e", null ]
+    [ "OnApply", "d4/d2d/a26370.html#a50ced6d5a475ccad9429dfbb05130394", null ],
+    [ "PrepareAuraScript", "d4/d2d/a26370.html#abd02e129b1201449d473a66aea77d569", null ],
+    [ "Register", "d4/d2d/a26370.html#a8c09775f642335252c6e548900dc9d3a", null ]
 ];

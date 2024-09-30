@@ -1,6 +1,5 @@
 var a14782 =
 [
-    [ "OnRemove", "d0/d89/a14782.html#ac44dab788a50d5fb0918718670a04d8f", null ],
-    [ "PrepareAuraScript", "d0/d89/a14782.html#a64971ea9a49150dda4bc2e7f6156c35f", null ],
-    [ "Register", "d0/d89/a14782.html#a500f2a41eab8c1700ff298b46feaff5d", null ]
+    [ "pathId", "d0/d89/a14782.html#aefd9fa5c6e7f45047994c7cc47e5967c", null ],
+    [ "spellId", "d0/d89/a14782.html#af495f984d5b81baeaa61ddca127a9508", null ]
 ];

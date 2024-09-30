@@ -1,5 +1,6 @@
 var a12130 =
 [
-    [ "x", "d1/de7/a12130.html#ab9da54c8392f7f70405183fe822bed9a", null ],
-    [ "y", "d1/de7/a12130.html#ae96c27237c52025cc132615a5c0af3cc", null ]
+    [ "HandleHit", "d1/de7/a12130.html#a5245f935c0cafd14e492214a51d85ad3", null ],
+    [ "PrepareSpellScript", "d1/de7/a12130.html#a074b9e23de0a9b24776c7e361791c6ff", null ],
+    [ "Register", "d1/de7/a12130.html#a12f7db2345ce0d19a18791a2e63e7450", null ]
 ];

@@ -1,6 +1,6 @@
 var a13238 =
 [
-    [ "spell_entropius_negative_energy_SpellScript", "d7/d06/a13242.html", "d7/d06/a13242" ],
-    [ "spell_entropius_negative_energy", "d8/d3b/a13238.html#ad5ebd19aadfd56586a70a110700b2ab0", null ],
-    [ "GetSpellScript", "d8/d3b/a13238.html#a81de2434b96e0cedc22ad38d59b3d8c2", null ]
+    [ "HandleSendEvent", "d8/d3b/a13238.html#ac3e5c8ce6dcceaf601f0f5a8c5727291", null ],
+    [ "PrepareSpellScript", "d8/d3b/a13238.html#a5705ee1863434039b1143db0817d60a7", null ],
+    [ "Register", "d8/d3b/a13238.html#a442e4aad6ed971119a147fdf87f90aa3", null ]
 ];

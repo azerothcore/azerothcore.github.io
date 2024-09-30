@@ -1,11 +1,12 @@
 var a22870 =
 [
-    [ "npc_vh_void_sentryAI", "da/d65/a22870.html#a312f4bbc07e6d786e85c2b4e89d36344", null ],
-    [ "DoAction", "da/d65/a22870.html#a0bc95eea54b5cdc16a4d3f588f3ff900", null ],
-    [ "JustDied", "da/d65/a22870.html#add5121ed38a74be9ae168df5f893f89e", null ],
-    [ "SummonedCreatureDespawn", "da/d65/a22870.html#a24ff36cdb049da7c67c1f041361e17e4", null ],
-    [ "UpdateAI", "da/d65/a22870.html#ae1f683d5ef920213c9c86da35c626381", null ],
-    [ "checkTimer", "da/d65/a22870.html#a675bcae4119e45490403013534c731ef", null ],
-    [ "pInstance", "da/d65/a22870.html#a7527473944681143bab89fd12b475645", null ],
-    [ "SummonedGUID", "da/d65/a22870.html#a4420eb2cf4d3b6d161355b0f4ad9516d", null ]
+    [ "boss_essence_of_angerAI", "da/d65/a22870.html#a25eed717395b4e1ca5504d2d473e2500", null ],
+    [ "DoAction", "da/d65/a22870.html#a81576aaf465dfc99d199aaf6a182df52", null ],
+    [ "JustDied", "da/d65/a22870.html#a997d75ad388e790f9863e1b15fa1c899", null ],
+    [ "JustEngagedWith", "da/d65/a22870.html#a16d2b13fcf3dfa513813669b44712c4c", null ],
+    [ "KilledUnit", "da/d65/a22870.html#a6a900f9a9dc5509c36e5bdaaaacc197d", null ],
+    [ "Reset", "da/d65/a22870.html#ade57a575bd84e8e095b1ab5a5c81d3f6", null ],
+    [ "UpdateAI", "da/d65/a22870.html#a67e9f5a361894aa227f2a74f9222740d", null ],
+    [ "_recentlySpoken", "da/d65/a22870.html#a056aa8fd704d832e83735cf2a1a22888", null ],
+    [ "targetGUID", "da/d65/a22870.html#adc3867a4446375f1217809299f3dd9bb", null ]
 ];

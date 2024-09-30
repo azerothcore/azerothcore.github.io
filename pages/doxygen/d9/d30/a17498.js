@@ -1,6 +1,6 @@
 var a17498 =
 [
-    [ "spell_pos_glacial_strikeAuraScript", "d7/d6a/a17502.html", "d7/d6a/a17502" ],
-    [ "spell_pos_glacial_strike", "d9/d30/a17498.html#a359a8215d419ac98af82226fcc89879f", null ],
-    [ "GetAuraScript", "d9/d30/a17498.html#a76f93c3b958d40a413a28382ce9a69de", null ]
+    [ "PrepareSpellScript", "d9/d30/a17498.html#a47df21229183b628c1d82bf34cbbe396", null ],
+    [ "Register", "d9/d30/a17498.html#a3cc4a1180f66cd9fe19020c1e5f2fccb", null ],
+    [ "RelocateTransportOffset", "d9/d30/a17498.html#acab29d77b4806f5d59ddc5dc3493c8ae", null ]
 ];

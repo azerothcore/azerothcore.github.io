@@ -1,6 +1,7 @@
 var a26294 =
 [
-    [ "PrepareSpellScript", "d6/d8b/a26294.html#a73b5759f25e80073b9196d14db80d8dc", null ],
-    [ "Register", "d6/d8b/a26294.html#a26d056e7cc507f35f8ca680edbecf320", null ],
-    [ "SetDest", "d6/d8b/a26294.html#a770b5ad526d3a55d04cc281c2c2e2168", null ]
+    [ "HandleEffectApply", "d6/d8b/a26294.html#a475d0bab96e226853368be3b68c5a2d3", null ],
+    [ "HandleEffectRemove", "d6/d8b/a26294.html#aa22a095e40789ac562a64c20d7eadb28", null ],
+    [ "PrepareAuraScript", "d6/d8b/a26294.html#a2b06b0dc1a4c2f5b5e4657e11a097660", null ],
+    [ "Register", "d6/d8b/a26294.html#a91e75a059828a30d509fd22be19048f8", null ]
 ];

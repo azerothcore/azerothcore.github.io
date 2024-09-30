@@ -1,12 +1,6 @@
 var a15946 =
 [
-    [ "npc_twilight_volunteer", "d6/d2d/a15946.html#a3062041fcabf972e0a3d4753363c37b3", null ],
-    [ "AttackStart", "d6/d2d/a15946.html#abc2e12fb7be5b1a7dabc4c2211e7de13", null ],
-    [ "DoAction", "d6/d2d/a15946.html#ae95bcb02ee4f0ead76e249de0cba2d88", null ],
-    [ "EnterEvadeMode", "d6/d2d/a15946.html#abd88e6fe0565babb92ccae17df0421d6", null ],
-    [ "MovementInform", "d6/d2d/a15946.html#a4f27ae97ccf2c349a6352a0f5ba1681a", null ],
-    [ "UpdateAI", "d6/d2d/a15946.html#a93288a45982b172c201e2442a4c91114", null ],
-    [ "events", "d6/d2d/a15946.html#ad8cc52c1462d7adbfbe566c55c0ed244", null ],
-    [ "isSacraficeTarget", "d6/d2d/a15946.html#a8350dba2c41754a2e5d15c94731ef27d", null ],
-    [ "pInstance", "d6/d2d/a15946.html#ad58453e078520fa23238a96115e5f38f", null ]
+    [ "HandleForceCast", "d6/d2d/a15946.html#a975b69649aba9de341f4e52c82a3c111", null ],
+    [ "PrepareSpellScript", "d6/d2d/a15946.html#a2dde8402cc4e8552faf3d8a1f4c6e60e", null ],
+    [ "Register", "d6/d2d/a15946.html#a794a59e5fd3bda75f30d559f422895b5", null ]
 ];

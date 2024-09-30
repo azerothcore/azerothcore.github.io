@@ -1,6 +1,6 @@
 var a12546 =
 [
-    [ "npc_scarlet_minerAI", "de/d7d/a12550.html", "de/d7d/a12550" ],
-    [ "npc_scarlet_miner", "df/ddb/a12546.html#a8948afd8a41c23ab3afbda9949d9019d", null ],
-    [ "GetAI", "df/ddb/a12546.html#abd2973972788ce9b39572aaa819d0690", null ]
+    [ "spell_item_gift_of_the_harvester_SpellScript", "de/d7d/a12550.html", "de/d7d/a12550" ],
+    [ "spell_item_gift_of_the_harvester", "df/ddb/a12546.html#abf8f22a048bc20fcbbf4db5cefab5bf8", null ],
+    [ "GetSpellScript", "df/ddb/a12546.html#ae5c916a45dffae91374af2c20c4785d3", null ]
 ];

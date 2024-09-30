@@ -1,6 +1,6 @@
 var a02519 =
 [
-    [ "DBUpdater< CharacterDatabaseConnection >", "d9/dce/a02519.html#a753e207671f7af3815a056247f2de3ce", null ],
-    [ "DBUpdater< LoginDatabaseConnection >", "d9/dce/a02519.html#a16a33693c8570aff221401b100547fb7", null ],
-    [ "DBUpdater< WorldDatabaseConnection >", "d9/dce/a02519.html#ace05c45d1df6cb7f16487ef1aa8bc9f7", null ]
+    [ "ResultIterator< T >", "d3/d16/a05746.html", "d3/d16/a05746" ],
+    [ "ResultSet", "d7/d55/a05750.html", "d7/d55/a05750" ],
+    [ "PreparedResultSet", "d7/d3f/a05754.html", "d7/d3f/a05754" ]
 ];

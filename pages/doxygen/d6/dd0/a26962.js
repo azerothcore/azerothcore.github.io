@@ -1,6 +1,5 @@
 var a26962 =
 [
-    [ "HandleEffectPeriodicUpdate", "d6/dd0/a26962.html#a554353fede78b89bf488230254d7892b", null ],
-    [ "PrepareAuraScript", "d6/dd0/a26962.html#adf20aaafff83bae614ff3c614a08a54b", null ],
-    [ "Register", "d6/dd0/a26962.html#a6ee55cc41f7b69fc12bb3dc6c7fcbaf5", null ]
+    [ "achievement_not_even_a_scratch", "d6/dd0/a26962.html#a0d025c09d35c3640016ab42e11dd96eb", null ],
+    [ "OnCheck", "d6/dd0/a26962.html#a81f6c9bd36e5a3eea3fe0af24c9f1649", null ]
 ];

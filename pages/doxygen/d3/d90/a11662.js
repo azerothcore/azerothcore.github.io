@@ -1,6 +1,8 @@
 var a11662 =
 [
-    [ "boss_firemawAI", "d3/d90/a11662.html#ab3f56c97119676b1a75662e52caecb75", null ],
-    [ "JustEngagedWith", "d3/d90/a11662.html#a04cb1d2fa18dba82b9c881b09406a076", null ],
-    [ "UpdateAI", "d3/d90/a11662.html#a6e35e47b23d713263ef00769324bbbed", null ]
+    [ "boss_doomrelAI", "d4/db2/a11666.html", "d4/db2/a11666" ],
+    [ "boss_doomrel", "d3/d90/a11662.html#aee45a59f9a62f1d32a7dc344bd3c46c6", null ],
+    [ "GetAI", "d3/d90/a11662.html#a1b8a95208506f79c00ed40be2d51eb38", null ],
+    [ "OnGossipHello", "d3/d90/a11662.html#a3c544ae70c46a62ac7dd2fc5cca97c8b", null ],
+    [ "OnGossipSelect", "d3/d90/a11662.html#ae430a8fef70bd46267482a70084049c1", null ]
 ];

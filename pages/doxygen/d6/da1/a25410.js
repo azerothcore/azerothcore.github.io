@@ -1,7 +1,6 @@
 var a25410 =
 [
-    [ "PeriodicTick", "d6/da1/a25410.html#a53541105e40202e4a73ecc38d84e9eca", null ],
-    [ "PrepareAuraScript", "d6/da1/a25410.html#a79c8829a86db535e254db009d5286430", null ],
-    [ "Register", "d6/da1/a25410.html#a58cd762eb10d224bb188aaf167c816b9", null ],
-    [ "Validate", "d6/da1/a25410.html#a0a4a1c0b460f7a0ade6ddbbedc893c6f", null ]
+    [ "CheckCast", "d6/da1/a25410.html#ac1bc3f881c31c5ab90785a62a5f5b5ae", null ],
+    [ "PrepareSpellScript", "d6/da1/a25410.html#a2a9c657ccffbacfc661c6bb1dc41d9de", null ],
+    [ "Register", "d6/da1/a25410.html#a4b34bd5ce9d3e948d6c712d71ed71b2d", null ]
 ];

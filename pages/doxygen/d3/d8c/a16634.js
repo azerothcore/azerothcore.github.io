@@ -1,7 +1,7 @@
 var a16634 =
 [
-    [ "npc_toc_paladinAI", "d3/d8c/a16634.html#a025d39c04e864ebd77f4f930ec20b1e5", null ],
-    [ "myCanCast", "d3/d8c/a16634.html#a06130e6e440d0b25d8b5566de6190cbc", null ],
-    [ "UpdateAI", "d3/d8c/a16634.html#a32943f1c3ffd0239c85ac1b81786f049", null ],
-    [ "events", "d3/d8c/a16634.html#ae47a32bbb05cf2f634ae18bc672ec004", null ]
+    [ "HandlePeriodicTick", "d3/d8c/a16634.html#a7fa0334a0a33b15758b6362aa0a9bd7d", null ],
+    [ "PrepareAuraScript", "d3/d8c/a16634.html#aabaef31a3c699c322e24e064f357f82f", null ],
+    [ "Register", "d3/d8c/a16634.html#ae9602bc623422c124dfc37a18c0dbfec", null ],
+    [ "Validate", "d3/d8c/a16634.html#a18d92a82760992bc5d8503e3f774f208", null ]
 ];

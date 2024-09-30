@@ -1,6 +1,8 @@
 var a14794 =
 [
-    [ "npc_crate_helperAI", "d8/d7d/a14798.html", "d8/d7d/a14798" ],
-    [ "npc_crate_helper", "d3/de2/a14794.html#ae08751928234656dcda84dd5c7e4cc37", null ],
-    [ "GetAI", "d3/de2/a14794.html#af69c9cf385ee829853985daa7f2aa8d6", null ]
+    [ "HandleScript", "d3/de2/a14794.html#ac58aef1b295e32c8a44852278edc18f8", null ],
+    [ "Load", "d3/de2/a14794.html#a2f7b9372dd36444c5161f3bc50424d99", null ],
+    [ "PrepareSpellScript", "d3/de2/a14794.html#adc1301a318f86b4e147a191f4c63e3bf", null ],
+    [ "Register", "d3/de2/a14794.html#a95f4abd67d6baf75980ff28a7518503d", null ],
+    [ "Validate", "d3/de2/a14794.html#a98271e7adb17b11e39241154a83b0d0d", null ]
 ];

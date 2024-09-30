@@ -1,6 +1,6 @@
 var a18782 =
 [
-    [ "CheckProc", "d5/db7/a18782.html#af75c6240a51e7a612a0b8d8ff953e54d", null ],
-    [ "PrepareAuraScript", "d5/db7/a18782.html#a12bb0250624bc0753eee2e6400bd1220", null ],
-    [ "Register", "d5/db7/a18782.html#aa389924079d34f516a255fb5dcc53bad", null ]
+    [ "npc_ioc_gunship_captainAI", "da/d70/a18786.html", "da/d70/a18786" ],
+    [ "npc_ioc_gunship_captain", "d5/db7/a18782.html#a6463d7bc12d5fe4fc8921ba5916ec906", null ],
+    [ "GetAI", "d5/db7/a18782.html#a43f3ce178df31fbf693acbfa8c32a339", null ]
 ];

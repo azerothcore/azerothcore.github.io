@@ -1,6 +1,7 @@
 var a17334 =
 [
-    [ "spell_garfrost_permafrost_SpellScript", "dc/d1a/a17338.html", "dc/d1a/a17338" ],
-    [ "spell_garfrost_permafrost", "d3/dda/a17334.html#a4eda74f870821de6caf439f2c98ced5c", null ],
-    [ "GetSpellScript", "d3/dda/a17334.html#a5c9f59c399fde0536d3243d548f11a10", null ]
+    [ "FilterTargets", "d3/dda/a17334.html#aeae290d20ade37eb839c1bf3c9ae59bf", null ],
+    [ "Load", "d3/dda/a17334.html#a38bf6d96c6a78e5105d0369eb993e58c", null ],
+    [ "PrepareSpellScript", "d3/dda/a17334.html#a815c99e9ef570287af5d45c32bdc5b8c", null ],
+    [ "Register", "d3/dda/a17334.html#a33342cc676adaabe5e3896fa559631b7", null ]
 ];

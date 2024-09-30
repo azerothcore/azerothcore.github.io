@@ -1,9 +1,5 @@
 var a25422 =
 [
-    [ "boss_the_maker", "d2/d86/a25422.html#a478c48f225e8fdf14cde5b1f144cb6c4", null ],
-    [ "JustDied", "d2/d86/a25422.html#a564abd0a8f52c8c58a305f9c47d8475c", null ],
-    [ "JustEngagedWith", "d2/d86/a25422.html#a6b0a4442dbabde69ca9352017ee23675", null ],
-    [ "KilledUnit", "d2/d86/a25422.html#a40643ca00fe7d7029a291335e47c722a", null ],
-    [ "Reset", "d2/d86/a25422.html#a9d115e5e1ef585348937b9d6c1cd2cb1", null ],
-    [ "UpdateAI", "d2/d86/a25422.html#a24cd8e9a97410ab290592b586962fffd", null ]
+    [ "PrepareSpellScript", "d2/d86/a25422.html#a9137654c01f41c735f477b85e4ec6d73", null ],
+    [ "Register", "d2/d86/a25422.html#af1002e90bc0801c0759393d2d4af8778", null ]
 ];

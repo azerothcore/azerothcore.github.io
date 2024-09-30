@@ -1,6 +1,6 @@
 var a13602 =
 [
-    [ "npc_the_scourge_cauldronAI", "dc/de5/a13606.html", "dc/de5/a13606" ],
-    [ "npc_the_scourge_cauldron", "d6/d95/a13602.html#a7ff5315293c4917dec3b0fe0aade2016", null ],
-    [ "GetAI", "d6/d95/a13602.html#ae4e35f1cac0c0f35333ba6113d3c1ad0", null ]
+    [ "boss_lord_raadanAI", "dc/de5/a13606.html", "dc/de5/a13606" ],
+    [ "boss_lord_raadan", "d6/d95/a13602.html#a04c8d77b684f19519ab102578363a6c6", null ],
+    [ "GetAI", "d6/d95/a13602.html#ab69910b0cead6757319757b7d38983ac", null ]
 ];

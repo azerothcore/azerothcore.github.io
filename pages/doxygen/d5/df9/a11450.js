@@ -1,8 +1,9 @@
 var a11450 =
 [
-    [ "boss_halyconAI", "d5/df9/a11450.html#acc110d5d802fc0da3ea630f667167748", null ],
-    [ "JustDied", "d5/df9/a11450.html#a7d71e135a8edf3d3b99ccfcb3b071eaa", null ],
-    [ "JustEngagedWith", "d5/df9/a11450.html#a5735567462167fffa4d01800d696296e", null ],
-    [ "Reset", "d5/df9/a11450.html#ac5622260b0b40cb584cf3037521cc5b8", null ],
-    [ "UpdateAI", "d5/df9/a11450.html#a6e72949b63de3d32d8369c7122b6060d", null ]
+    [ "titles_commandscript", "d5/df9/a11450.html#ac088fd907013150a0508b79c99f6c2f3", null ],
+    [ "GetCommands", "d5/df9/a11450.html#af7d00111b3190f8bc9c46cedda3621d6", null ],
+    [ "HandleTitlesAddCommand", "d5/df9/a11450.html#a2a44d6f83bc5617a25a53b18fbd35e32", null ],
+    [ "HandleTitlesCurrentCommand", "d5/df9/a11450.html#a9a9b503e9ee65aa0d92cc7ff2e38a09d", null ],
+    [ "HandleTitlesRemoveCommand", "d5/df9/a11450.html#a2001bcc2eddc5688d57154f9906218e4", null ],
+    [ "HandleTitlesSetMaskCommand", "d5/df9/a11450.html#a9517b10295b856779cdd067234f640c8", null ]
 ];

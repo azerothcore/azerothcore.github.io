@@ -1,8 +1,7 @@
 var a15774 =
 [
-    [ "npc_pluckyAI", "df/d40/a15778.html", "df/d40/a15778" ],
-    [ "npc_plucky", "d5/d81/a15774.html#a86bb2992b8af5893987145117aaf3608", null ],
-    [ "GetAI", "d5/d81/a15774.html#a51e73f4e1f618aee5a000e31328efefc", null ],
-    [ "OnGossipHello", "d5/d81/a15774.html#a3443f3e8c2b3fcc96955ab2e55e7fd61", null ],
-    [ "OnGossipSelect", "d5/d81/a15774.html#a88fa465246b4c657b921ebdc96f7a112", null ]
+    [ "OnRemove", "d5/d81/a15774.html#afb0821bc8774e634eefdd87efe6af945", null ],
+    [ "PrepareAuraScript", "d5/d81/a15774.html#a54b1de501bdf3193cdb89125bc1ceb0e", null ],
+    [ "Register", "d5/d81/a15774.html#a985ad6d7eca06fbaf869e591136f46a3", null ],
+    [ "Validate", "d5/d81/a15774.html#aa794b76c4d9590b867dda57f02724d95", null ]
 ];

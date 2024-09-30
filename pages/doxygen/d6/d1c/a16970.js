@@ -1,10 +1,11 @@
 var a16970 =
 [
-    [ "boss_tharon_jaAI", "d6/d1c/a16970.html#a03025fa529e932f23479ff19b0cd8238", null ],
-    [ "DoAction", "d6/d1c/a16970.html#a655fd83c2d671847fea9ae393c132fb9", null ],
-    [ "JustDied", "d6/d1c/a16970.html#a7928b5db061f1073e1decc2d40601195", null ],
-    [ "JustEngagedWith", "d6/d1c/a16970.html#aab194a8f802eeb625d1a74960acbe154", null ],
-    [ "KilledUnit", "d6/d1c/a16970.html#a41e929a3768768eb06bafdee3269fd24", null ],
-    [ "Reset", "d6/d1c/a16970.html#a272e8565a9b00a27505b301d52814eee", null ],
-    [ "UpdateAI", "d6/d1c/a16970.html#a6f482cabcb0bd56711878a5ea297b950", null ]
+    [ "npc_pos_leader_secondAI", "d6/d1c/a16970.html#a2ded8591da2548921cd016d592d1f1c8", null ],
+    [ "DoAction", "d6/d1c/a16970.html#a941d3b42d6a0e58496b724af56fee44a", null ],
+    [ "MovementInform", "d6/d1c/a16970.html#a32f4c5c48f1a63ded0ac9b8ee763090b", null ],
+    [ "SpellHitTarget", "d6/d1c/a16970.html#ae630b7b225379831d15a11f66507bc6a", null ],
+    [ "UpdateAI", "d6/d1c/a16970.html#a640aea9ce4a47dd13d417748e533fc33", null ],
+    [ "barrierGUID", "d6/d1c/a16970.html#a452c096475581c12bf2f4ccb12448026", null ],
+    [ "events", "d6/d1c/a16970.html#a1e1ab6c1d349a9543815a29ae185feec", null ],
+    [ "pInstance", "d6/d1c/a16970.html#aee9dac9efee94db3d84eb9c5fb8c88a2", null ]
 ];

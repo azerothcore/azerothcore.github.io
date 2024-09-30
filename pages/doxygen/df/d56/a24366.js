@@ -1,6 +1,6 @@
 var a24366 =
 [
-    [ "boss_illidan_stormrageAI", "df/d0d/a24370.html", "df/d0d/a24370" ],
-    [ "boss_illidan_stormrage", "df/d56/a24366.html#ad123b0fe64c2f430c157024aa4087290", null ],
-    [ "GetAI", "df/d56/a24366.html#ad413d6d6c0171643b1c14b9a39422976", null ]
+    [ "PrepareSpellScript", "df/d56/a24366.html#ae915f8f6522f0a8d308b2a5f43b8884f", null ],
+    [ "RecalculateDamage", "df/d56/a24366.html#af01757d0968da2a096d800782ed7e66e", null ],
+    [ "Register", "df/d56/a24366.html#a62b6613707a2a9b78d52bffe92de604e", null ]
 ];

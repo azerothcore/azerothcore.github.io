@@ -1,9 +1,6 @@
 var a02450 =
 [
-    [ "MySQLHandle", "dd/da7/a05632.html", null ],
-    [ "MySQLResult", "d2/d2a/a05636.html", null ],
-    [ "MySQLField", "d5/d80/a05640.html", null ],
-    [ "MySQLBind", "da/d28/a05644.html", null ],
-    [ "MySQLStmt", "dc/d02/a05648.html", null ],
-    [ "MySQLBool", "d8/db7/a02450.html#a9962b927652e90357369e67230dbc127", null ]
+    [ "GetLibraryVersion", "d8/db7/a02450.html#aefa4bd51f34aad2d1a141c00a2310092", null ],
+    [ "Library_End", "d8/db7/a02450.html#aff44554b66bd7ef0e21f1db5beb0b81a", null ],
+    [ "Library_Init", "d8/db7/a02450.html#a70b74137156f0a22792c3cf95c54decc", null ]
 ];

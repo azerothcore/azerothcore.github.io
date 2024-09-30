@@ -1,7 +1,7 @@
 var a14490 =
 [
-    [ "boss_azuregosAI", "d8/df0/a14494.html", "d8/df0/a14494" ],
-    [ "boss_azuregos", "d5/d04/a14490.html#a48590db0037870ca5c9425a468e5ea3a", null ],
-    [ "GetAI", "d5/d04/a14490.html#a3ea1fd967b8ab158a9b2bb5cdd7dcf83", null ],
-    [ "OnGossipSelect", "d5/d04/a14490.html#a73220e54a3a53931e740f3c53c3bf20c", null ]
+    [ "hyjalThrallAI", "d8/df0/a14494.html", "d8/df0/a14494" ],
+    [ "npc_hyjal_thrall", "d5/d04/a14490.html#a232f085f208a47f7fae08128de1d06b8", null ],
+    [ "GetAI", "d5/d04/a14490.html#a699b5df19e4e84166348ecfba2dd0172", null ],
+    [ "OnGossipSelect", "d5/d04/a14490.html#af833f26d79d34655c010aa04f984a94a", null ]
 ];

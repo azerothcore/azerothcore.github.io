@@ -1,26 +1,18 @@
 var a03407 =
 [
-    [ "boss_the_black_stalker", "de/df0/a23364.html", "de/df0/a23364" ],
-    [ "spell_the_black_stalker_levitate", "de/dc3/a23368.html", "de/dc3/a23368" ],
-    [ "spell_the_black_stalker_levitation_pulse", "d3/de9/a23372.html", "d3/de9/a23372" ],
-    [ "spell_the_black_stalker_someone_grab_me", "d6/d8d/a23376.html", "d6/d8d/a23376" ],
-    [ "spell_the_black_stalker_magnetic_pull", "d0/dcd/a23380.html", "d0/dcd/a23380" ],
-    [ "eBlackStalker", "da/dc7/a03407.html#afbee42c6927db9ad2cf9d9096eeac954", [
-      [ "SPELL_ACID_BREATH", "d6/daa/a03413.html#afbee42c6927db9ad2cf9d9096eeac954af39adcb38f10e84d7ff9bac76f41031c", null ],
-      [ "SPELL_ACID_SPIT", "d6/daa/a03413.html#afbee42c6927db9ad2cf9d9096eeac954af69c625b663facf12cc5d8a20a280806", null ],
-      [ "SPELL_TAIL_SWEEP", "d6/daa/a03413.html#afbee42c6927db9ad2cf9d9096eeac954addcb3daa6cdc61ef04c65580e44ef823", null ],
-      [ "SPELL_ENRAGE", "d6/daa/a03413.html#afbee42c6927db9ad2cf9d9096eeac954a2a20f56307679be4d4f01a0d3d93cc7e", null ],
-      [ "ACTION_MOVE_TO_PLATFORM", "d6/daa/a03413.html#afbee42c6927db9ad2cf9d9096eeac954a7e5366df9a5dd5e5bca840226b0755fa", null ],
-      [ "SPELL_LEVITATE", "da/dc7/a03407.html#afbee42c6927db9ad2cf9d9096eeac954ad2a574f606c6448dd086526c15b6fdd2", null ],
-      [ "SPELL_CHAIN_LIGHTNING", "da/dc7/a03407.html#afbee42c6927db9ad2cf9d9096eeac954ac0997e72929070d8e30cc0f49cc4539d", null ],
-      [ "SPELL_STATIC_CHARGE", "da/dc7/a03407.html#afbee42c6927db9ad2cf9d9096eeac954ad174c0c15c17e6a55eec42eab77d89e0", null ],
-      [ "SPELL_SUMMON_SPORE_STRIDER", "da/dc7/a03407.html#afbee42c6927db9ad2cf9d9096eeac954a754dcc3138f3b4acb829bc54bc02b9ed", null ],
-      [ "SPELL_LEVITATION_PULSE", "da/dc7/a03407.html#afbee42c6927db9ad2cf9d9096eeac954ade4ad87d3a67412155f3ce6b143275b1", null ],
-      [ "SPELL_SOMEONE_GRAB_ME", "da/dc7/a03407.html#afbee42c6927db9ad2cf9d9096eeac954aa07d1c28d9fea727b3885a967461d13b", null ],
-      [ "SPELL_MAGNETIC_PULL", "da/dc7/a03407.html#afbee42c6927db9ad2cf9d9096eeac954a3917f87779ff3a60876e0373a10855d5", null ],
-      [ "SPELL_SUSPENSION_PRIMER", "da/dc7/a03407.html#afbee42c6927db9ad2cf9d9096eeac954a38589209a4f90f4db2f89b249f6840de", null ],
-      [ "SPELL_SUSPENSION", "da/dc7/a03407.html#afbee42c6927db9ad2cf9d9096eeac954a0b7462c628390d15bd33088fb3d2a6a0", null ],
-      [ "ENTRY_SPORE_STRIDER", "da/dc7/a03407.html#afbee42c6927db9ad2cf9d9096eeac954a461a6686eb7320e609d5675753241cd2", null ]
-    ] ],
-    [ "AddSC_boss_the_black_stalker", "da/dc7/a03407.html#aed8364eb84dab70c060c0a88e6522a7c", null ]
+    [ "instance_serpent_shrine", "de/d5e/a23190.html", "de/d5e/a23190" ],
+    [ "instance_serpent_shrine::instance_serpentshrine_cavern_InstanceMapScript", "da/db1/a23194.html", "da/db1/a23194" ],
+    [ "spell_serpentshrine_cavern_serpentshrine_parasite", "d1/d36/a23198.html", "d1/d36/a23198" ],
+    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger_aura", "dd/d80/a23202.html", "dd/d80/a23202" ],
+    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger", "dd/d29/a23206.html", "dd/d29/a23206" ],
+    [ "spell_serpentshrine_cavern_infection", "d7/da6/a23210.html", "d7/da6/a23210" ],
+    [ "spell_serpentshrine_cavern_coilfang_water", "da/d3c/a23214.html", "da/d3c/a23214" ],
+    [ "npc_rancid_mushroom", "dd/d36/a23218.html", "dd/d36/a23218" ],
+    [ "spell_rancid_spore_cloud", "d2/d9b/a23222.html", "d2/d9b/a23222" ],
+    [ "AddSC_instance_serpentshrine_cavern", "da/dc7/a03407.html#accf317168271361913093466ba7f8f0e", null ],
+    [ "boundaries", "da/dc7/a03407.html#aa75d7d0ffe0cef214f982966c33db1c1", null ],
+    [ "creatureData", "da/dc7/a03407.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "doorData", "da/dc7/a03407.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],
+    [ "gameObjectData", "da/dc7/a03407.html#a1461582839e3b7fdbb7397e5d2086e31", null ],
+    [ "minionData", "da/dc7/a03407.html#a6720238df140a3c574a711042b7f5bd3", null ]
 ];

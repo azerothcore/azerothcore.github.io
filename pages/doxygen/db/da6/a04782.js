@@ -1,7 +1,6 @@
 var a04782 =
 [
-    [ "WModelRayCallBack", "db/da6/a04782.html#ac234cf795a07aab6e456c608dd80bbea", null ],
-    [ "operator()", "db/da6/a04782.html#a8f658081b44bda2527aa568a139bfd14", null ],
-    [ "hit", "db/da6/a04782.html#a014e322fc087c2f07617361e0bc585e3", null ],
-    [ "models", "db/da6/a04782.html#aaad14391ed1379dc3c367e6e522b1150", null ]
+    [ "Resolver", "db/da6/a04782.html#ad1a3a95744d64df722a6fb4b267316e6", null ],
+    [ "Resolve", "db/da6/a04782.html#ab190f885c84753fe65405db6fb04bf7c", null ],
+    [ "_impl", "db/da6/a04782.html#a08ed9183a6338606524c44f0fd5695a0", null ]
 ];

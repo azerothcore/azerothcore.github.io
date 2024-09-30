@@ -1,8 +1,8 @@
 var a16146 =
 [
-    [ "RestoreFight", "d4/d27/a16146.html#a0149cccce8c3120b1e988e9a7c96f75c", null ],
-    [ "RestoreFight", "d4/d27/a16146.html#a0149cccce8c3120b1e988e9a7c96f75c", null ],
-    [ "Execute", "d4/d27/a16146.html#a019eb3c08dc8c3b97fc27b989ec8ab77", null ],
-    [ "Execute", "d4/d27/a16146.html#a019eb3c08dc8c3b97fc27b989ec8ab77", null ],
-    [ "_owner", "d4/d27/a16146.html#ae35c9b4547fcd7e8ea0f4b6ee4c637a0", null ]
+    [ "npc_announcer_toc5AI", "d4/d27/a16146.html#a96e1bd089dfd21fa252bc6422d20bada", null ],
+    [ "DamageTaken", "d4/d27/a16146.html#a53458483699ac026ff2cd36b5f061571", null ],
+    [ "MovementInform", "d4/d27/a16146.html#acdcf4110b3815635ad173a70e7a1e603", null ],
+    [ "Reset", "d4/d27/a16146.html#ab3dca17e0350d6d46a9069f97f2d12ef", null ],
+    [ "UpdateAI", "d4/d27/a16146.html#ad2c596253d67d051f497a8d77859846d", null ]
 ];

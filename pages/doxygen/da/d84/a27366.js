@@ -1,8 +1,7 @@
 var a27366 =
 [
-    [ "HandleFinish", "da/d84/a27366.html#aac1981a16cbb61bfaf20c865bcfaf6a8", null ],
-    [ "PrepareSpellScript", "da/d84/a27366.html#a73865997890d4f58cc09d54c2c4e5243", null ],
-    [ "Register", "da/d84/a27366.html#a106cf5d53956b66f8f548caceda41dc8", null ],
-    [ "SelectTarget", "da/d84/a27366.html#ab33513df20e942ba354932df5082efa8", null ],
-    [ "_target", "da/d84/a27366.html#af25d11fc93423ee6e1678ebb5dcf1276", null ]
+    [ "npc_engineering_tele_trinket", "da/d84/a27366.html#ab891a8378a7b1b63151d05801b8b2fd1", null ],
+    [ "CanLearn", "da/d84/a27366.html#a8a35f1c09a9df609561e76f4ed578647", null ],
+    [ "OnGossipHello", "da/d84/a27366.html#ad11f576fb7efad0f6ea4cf22d3bc4e59", null ],
+    [ "OnGossipSelect", "da/d84/a27366.html#a4d7125cf0333d4e5ebc299019c8feb1a", null ]
 ];

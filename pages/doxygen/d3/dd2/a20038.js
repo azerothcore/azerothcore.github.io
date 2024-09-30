@@ -1,6 +1,7 @@
 var a20038 =
 [
-    [ "spell_gothik_shadow_bolt_volley_SpellScript", "d8/d63/a20042.html", "d8/d63/a20042" ],
-    [ "spell_gothik_shadow_bolt_volley", "d3/dd2/a20038.html#a0be475786742c5aec98e24750fbf1472", null ],
-    [ "GetSpellScript", "d3/dd2/a20038.html#a845a501354dd8804ad7708fc4e788be8", null ]
+    [ "HandleEffectPeriodic", "d3/dd2/a20038.html#ae1c6062123fb62a48f542e43b34c7bcd", null ],
+    [ "PrepareAuraScript", "d3/dd2/a20038.html#a1c54b6c86fc39d96d601b24c5b30fbdd", null ],
+    [ "Register", "d3/dd2/a20038.html#af7a5a98b5cf784d2de8b57a183c19142", null ],
+    [ "Validate", "d3/dd2/a20038.html#a16c536c913d003826ef4b86c7a497fec", null ]
 ];

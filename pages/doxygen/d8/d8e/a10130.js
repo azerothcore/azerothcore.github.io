@@ -1,6 +1,5 @@
 var a10130 =
 [
-    [ "GuildBankRemainingWithdrawMoney", "d8/d8e/a10130.html#afdb4e226091e8280b4ef26bd51edebdd", null ],
-    [ "Write", "d8/d8e/a10130.html#aecc28f8734a66c562c7baa1575b07ff9", null ],
-    [ "RemainingWithdrawMoney", "d8/d8e/a10130.html#a015ba615ebe4ea09df8233f6a85332f4", null ]
+    [ "UpdatableScript", "d8/d8e/a10130.html#a2d6cf85d1eb98438b5022804296eff11", null ],
+    [ "OnUpdate", "d8/d8e/a10130.html#abf328325e08aa0d6adf36e6f70b02328", null ]
 ];

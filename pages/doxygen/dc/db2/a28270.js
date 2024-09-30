@@ -1,7 +1,9 @@
 var a28270 =
 [
-    [ "HandleScript", "dc/db2/a28270.html#a1b20a7fb4487876f305aa3a8d493ed17", null ],
-    [ "PrepareSpellScript", "dc/db2/a28270.html#a5ac848029ef03f6779cf094f4b80dd24", null ],
-    [ "Register", "dc/db2/a28270.html#a3d378e0eac09b00792b293b2cd7f3192", null ],
-    [ "Validate", "dc/db2/a28270.html#a36963610ad939ec36848ff70185f47a2", null ]
+    [ "Category", "dc/db2/a28270.html#acd933f251a1faa1f705420307136681d", null ],
+    [ "Faction", "dc/db2/a28270.html#a4876df0f9a92e10634b7bc0b389ade00", null ],
+    [ "Flags", "dc/db2/a28270.html#a8b41ed573eae71196664a61bac83fe3e", null ],
+    [ "Id", "dc/db2/a28270.html#ae0b89d5ae5f82b4f807a2f8dbbec351a", null ],
+    [ "Slot", "dc/db2/a28270.html#a24449c3e3fd89ae3dbe4be3f64248115", null ],
+    [ "Type", "dc/db2/a28270.html#aa1cbad19aaa973e21fdbd74cec5119f6", null ]
 ];

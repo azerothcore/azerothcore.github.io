@@ -1,6 +1,6 @@
 var a19414 =
 [
-    [ "npc_gluttonous_abominationAI", "de/d0d/a19418.html", "de/d0d/a19418" ],
-    [ "npc_gluttonous_abomination", "d6/dfb/a19414.html#a895d1afcfc62bcaac6cc0d20465f1e7a", null ],
-    [ "GetAI", "d6/dfb/a19414.html#aedbd808da5e8ea0e2111e78be9d846ce", null ]
+    [ "CalculateDamage", "d6/dfb/a19414.html#a857e907dcf40f0e630b8c05c5e549672", null ],
+    [ "PrepareSpellScript", "d6/dfb/a19414.html#aaa6c420d13dc3c88e9c1e5a053c932aa", null ],
+    [ "Register", "d6/dfb/a19414.html#ae142275e06fe6381304137f637e641ca", null ]
 ];

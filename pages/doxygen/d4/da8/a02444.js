@@ -1,6 +1,7 @@
 var a02444 =
 [
-    [ "GetLibraryVersion", "d4/da8/a02444.html#aefa4bd51f34aad2d1a141c00a2310092", null ],
-    [ "Library_End", "d4/da8/a02444.html#aff44554b66bd7ef0e21f1db5beb0b81a", null ],
-    [ "Library_Init", "d4/da8/a02444.html#a70b74137156f0a22792c3cf95c54decc", null ]
+    [ "GetCleanAliasName", "d4/da8/a02444.html#ae187308862c39923e2b843bc9d4c989c", null ],
+    [ "GetDefaultValue", "d4/da8/a02444.html#a2ea1ae2c2289bdc9068ec9c886d124c8", null ],
+    [ "IsCorrectAlias", "d4/da8/a02444.html#a56e834d391c0eb5187d3c7dd0dad88b7", null ],
+    [ "IsCorrectFieldType", "d4/da8/a02444.html#a61bef7957f008e8cd937746ba03feb73", null ]
 ];

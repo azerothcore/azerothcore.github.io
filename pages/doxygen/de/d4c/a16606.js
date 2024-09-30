@@ -1,6 +1,7 @@
 var a16606 =
 [
-    [ "HandleAfterHit", "de/d4c/a16606.html#a72252694da7e453387e9d79d12e7e2a4", null ],
-    [ "PrepareSpellScript", "de/d4c/a16606.html#aff18e189296f7379a8fde5ad6eab8ada", null ],
-    [ "Register", "de/d4c/a16606.html#aa6c511fa8eb6d1123be1243bac7f0606", null ]
+    [ "HandleEffectRemove", "de/d4c/a16606.html#aa6a118f956cbdc5ad1ce0109c3a0e8e3", null ],
+    [ "Load", "de/d4c/a16606.html#a71a31b421f192662c14bd6bf3d5eed9f", null ],
+    [ "PrepareAuraScript", "de/d4c/a16606.html#a97411ddf89a10a962ba74d294eb653e7", null ],
+    [ "Register", "de/d4c/a16606.html#a1207c9b2ba2e110c3f6c1309f5329d2a", null ]
 ];

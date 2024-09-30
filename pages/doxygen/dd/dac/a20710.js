@@ -1,6 +1,6 @@
 var a20710 =
 [
-    [ "boss_maiden_of_griefAI", "d4/d1e/a20714.html", "d4/d1e/a20714" ],
-    [ "boss_maiden_of_grief", "dd/dac/a20710.html#a8361e4961ac1da09b803ca9e7fc67f95", null ],
-    [ "GetAI", "dd/dac/a20710.html#af8d2e6392a0c73add801910945b2558e", null ]
+    [ "boss_yoggsaronAI", "d4/d1e/a20714.html", "d4/d1e/a20714" ],
+    [ "boss_yoggsaron", "dd/dac/a20710.html#a3fa3ada3979b55100b8ca9e21ec655a1", null ],
+    [ "GetAI", "dd/dac/a20710.html#a113eb034acc46a2edd4a84598413a63e", null ]
 ];

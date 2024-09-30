@@ -1,7 +1,6 @@
 var a27542 =
 [
-    [ "OnRemove", "d4/d3b/a27542.html#a1f4f852ef6d5b2313df20af540eee7da", null ],
-    [ "PrepareAuraScript", "d4/d3b/a27542.html#a8abf8084dd8bb1ac74b3884380cda809", null ],
-    [ "Register", "d4/d3b/a27542.html#a35a8adc4944fc2333488e72498f6d252", null ],
-    [ "Validate", "d4/d3b/a27542.html#aa312f28f03cc0929eb9ea8ba526ebb54", null ]
+    [ "npc_pet_trainerAI", "db/de2/a27546.html", "db/de2/a27546" ],
+    [ "npc_pet_trainer", "d4/d3b/a27542.html#ac2279bce52e911b1c339da5e68aa2501", null ],
+    [ "GetAI", "d4/d3b/a27542.html#a4ecf9ac0abf43a00dc6bff2d2283eb37", null ]
 ];

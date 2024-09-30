@@ -1,6 +1,7 @@
 var a26430 =
 [
-    [ "DeathEvent", "d1/dca/a26430.html#a2fb9a98c077d715c4648aede6597276e", null ],
-    [ "Execute", "d1/dca/a26430.html#a497ac46ab1acf95816020fc6be8ce03a", null ],
-    [ "_owner", "d1/dca/a26430.html#a099d0d5ae50126f00220b3ed90907617", null ]
+    [ "HandleDummy", "d1/dca/a26430.html#a4c837e7342603519d1f23ab8702c3160", null ],
+    [ "PrepareSpellScript", "d1/dca/a26430.html#ae9d6ab0c9b9cf87f7b86f28e9bb25371", null ],
+    [ "Register", "d1/dca/a26430.html#a16a5ca3ec9a8c463c9a2975fa29eb1e9", null ],
+    [ "Validate", "d1/dca/a26430.html#ad742f4ce0d0db70427f7ba849a4526df", null ]
 ];

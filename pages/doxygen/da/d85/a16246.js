@@ -1,6 +1,6 @@
 var a16246 =
 [
-    [ "spell_halion_meteor_strike_marker_AuraScript", "dc/dbe/a16250.html", "dc/dbe/a16250" ],
-    [ "spell_halion_meteor_strike_marker", "da/d85/a16246.html#a1c0ad530fab100f0a8a43f758e684de7", null ],
-    [ "GetAuraScript", "da/d85/a16246.html#ac0e07fee504341e8abc3fe809220696c", null ]
+    [ "npc_toc_priestAI", "dc/dbe/a16250.html", "dc/dbe/a16250" ],
+    [ "npc_toc_priest", "da/d85/a16246.html#a0e360a2cc053434d2f76826683da8eee", null ],
+    [ "GetAI", "da/d85/a16246.html#a6056a81bef962a02537d525f07d1c302", null ]
 ];

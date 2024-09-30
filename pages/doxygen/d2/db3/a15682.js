@@ -1,6 +1,7 @@
 var a15682 =
 [
-    [ "npc_braug_dimspirit", "d2/db3/a15682.html#ade08e9ad549d80c2f7918dbfcfbf41dc", null ],
-    [ "OnGossipHello", "d2/db3/a15682.html#aeaed026edf5a1fa82c941f667c05815b", null ],
-    [ "OnGossipSelect", "d2/db3/a15682.html#a87ea1ba3e247c9b14c1f6c72b3addea0", null ]
+    [ "HandleScript", "d2/db3/a15682.html#ae9939f2795b8ba428277c7d658af715c", null ],
+    [ "PrepareSpellScript", "d2/db3/a15682.html#aabe244008103ff317e3fc1e26b04115a", null ],
+    [ "Register", "d2/db3/a15682.html#a4f492bdd96ef190354f37c95217bb696", null ],
+    [ "Validate", "d2/db3/a15682.html#a4a3a5e83b66d0ae3f6f95bcead932f55", null ]
 ];

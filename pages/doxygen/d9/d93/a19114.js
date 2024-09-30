@@ -1,6 +1,10 @@
 var a19114 =
 [
-    [ "spell_the_lich_king_defile_SpellScript", "d5/df3/a19118.html", "d5/df3/a19118" ],
-    [ "spell_the_lich_king_defile", "d9/d93/a19114.html#a752a6dcf0013c5f47a068cf120c5a6b4", null ],
-    [ "GetSpellScript", "d9/d93/a19114.html#a87a8bbe95e49874bd35e85b2a04b1dbf", null ]
+    [ "npc_scion_of_eternityAI", "d9/d93/a19114.html#a2893db70b6a1ffa14d02dd5cea7f7c0a", null ],
+    [ "AttackStart", "d9/d93/a19114.html#a1335f9e34ff73d5501455062be025ada", null ],
+    [ "JustDied", "d9/d93/a19114.html#a81dcae5ef2bbd28b891e46c377fbe153", null ],
+    [ "MoveInLineOfSight", "d9/d93/a19114.html#a74a69fa532f0921285ef678bbd2fa761", null ],
+    [ "UpdateAI", "d9/d93/a19114.html#adb16afb6ea1583a7156b80a8d833951a", null ],
+    [ "events", "d9/d93/a19114.html#ae0e194a24a14033a499e68524da1699d", null ],
+    [ "pInstance", "d9/d93/a19114.html#aa828ca4a75696645d7aa350f1f981f40", null ]
 ];

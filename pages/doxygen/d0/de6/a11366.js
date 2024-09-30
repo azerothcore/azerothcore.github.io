@@ -1,11 +1,13 @@
 var a11366 =
 [
-    [ "boss_high_interrogator_gerstahnAI", "d0/de6/a11366.html#a557fda67d1d1de268ba661350ba915dc", null ],
-    [ "JustEngagedWith", "d0/de6/a11366.html#a80e01faa471f9e83e85c3c47fd815dea", null ],
-    [ "Reset", "d0/de6/a11366.html#ab63099f83037b3716d1e2b9c21d7d607", null ],
-    [ "UpdateAI", "d0/de6/a11366.html#a67b34f7cf4c62a57bc9fb556f5fb0b81", null ],
-    [ "ManaBurn_Timer", "d0/de6/a11366.html#aede307f972942c15c4b2bfa90e75856d", null ],
-    [ "PsychicScream_Timer", "d0/de6/a11366.html#a291f3484e4d125fefe437d96b12153f1", null ],
-    [ "ShadowShield_Timer", "d0/de6/a11366.html#a7ba151c46b097825dca9b8e3ac2cdee9", null ],
-    [ "ShadowWordPain_Timer", "d0/de6/a11366.html#aec0eab93e8494bc1abc87d81460fac31", null ]
+    [ "list_commandscript", "d0/de6/a11366.html#a5a85953a46afe08fe05a11fe69c934dc", null ],
+    [ "GetCommands", "d0/de6/a11366.html#a949c6e6f372afb50e1116b6414acdd7c", null ],
+    [ "HandleListAllAurasCommand", "d0/de6/a11366.html#a93f1fe9131b917c813058899efede2a5", null ],
+    [ "HandleListAurasByIdCommand", "d0/de6/a11366.html#a3c59e8b85175ef056b07f566c231c221", null ],
+    [ "HandleListAurasByNameCommand", "d0/de6/a11366.html#a78d6be53ddae80068e2d9c04ea494e24", null ],
+    [ "HandleListCreatureCommand", "d0/de6/a11366.html#a48388f1c839cec6597c74740ec49fa68", null ],
+    [ "HandleListItemCommand", "d0/de6/a11366.html#a7d0aadb081f25c3d533951bd9841f103", null ],
+    [ "HandleListObjectCommand", "d0/de6/a11366.html#ac8b32be8650c9e54388320d650c9761b", null ],
+    [ "ListAurasCommand", "d0/de6/a11366.html#a98c9f6fb42e8030d76f234cdb02a72fb", null ],
+    [ "ShouldListAura", "d0/de6/a11366.html#afc42154ec5e978b366780fb600b17e8d", null ]
 ];

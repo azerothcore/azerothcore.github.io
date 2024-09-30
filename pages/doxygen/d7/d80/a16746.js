@@ -1,7 +1,12 @@
 var a16746 =
 [
-    [ "HandleDispel", "d7/d80/a16746.html#ab720416f0497b4ad827208e186afd79a", null ],
-    [ "PrepareAuraScript", "d7/d80/a16746.html#a2f79b7869018b4a775c64c8d985d4a0c", null ],
-    [ "Register", "d7/d80/a16746.html#a26c918009fa3a3cf8b0145c2d2812588", null ],
-    [ "Validate", "d7/d80/a16746.html#a37964b313e11c1e14a7df4a1acb18c10", null ]
+    [ "npc_shadowy_mercenaryAI", "d7/d80/a16746.html#ac631624615653a4f82ecfae2aa418455", null ],
+    [ "AttackStart", "d7/d80/a16746.html#a001fa53e29cf8a20ed2e3312058ceb0a", null ],
+    [ "DoAction", "d7/d80/a16746.html#a62f4e98e1dadfa0a2aeea43af9d26234", null ],
+    [ "EnterEvadeMode", "d7/d80/a16746.html#a31a9ddf038046534fad1d41afcf76548", null ],
+    [ "JustDied", "d7/d80/a16746.html#a33e576c92d1b10492cb6e65000ca8198", null ],
+    [ "JustEngagedWith", "d7/d80/a16746.html#ae12ade5e863a0022ea99620f354ca51b", null ],
+    [ "Reset", "d7/d80/a16746.html#afad174f812e2aadf6db86703a46f61d2", null ],
+    [ "UpdateAI", "d7/d80/a16746.html#a7a0238f32aa0d608b9d883db5f170052", null ],
+    [ "events", "d7/d80/a16746.html#a4c6e5a49dc4364477187a0189a166578", null ]
 ];

@@ -1,5 +1,28 @@
 var a04958 =
 [
-    [ "_elements", "d1/dd4/a04958.html#acf30d76638f2906421de881ced591fbd", null ],
-    [ "_TailElements", "d1/dd4/a04958.html#afbb7352f16ec774a372d2cbf699e3e0e", null ]
+    [ "GameObjectModel", "d1/dd4/a04958.html#aec1b2fdef131624210451e7cee7182ff", null ],
+    [ "~GameObjectModel", "d1/dd4/a04958.html#a9473e6c816f412408c2f46e407fba6ca", null ],
+    [ "Create", "d1/dd4/a04958.html#ac47c77a56730f93ed14f131f34891f84", null ],
+    [ "disable", "d1/dd4/a04958.html#a09d7c38bf6b01fb8f743dbf7130df396", null ],
+    [ "enable", "d1/dd4/a04958.html#ac8ebd1a33e4127b9a0805701152ba0a2", null ],
+    [ "GetBounds", "d1/dd4/a04958.html#abcb428aaea61d38a171d9a4fda578cb6", null ],
+    [ "GetLiquidLevel", "d1/dd4/a04958.html#ad42269f6042c3aad8492d22d88e08edd", null ],
+    [ "GetLocationInfo", "d1/dd4/a04958.html#a391fd8d204b9b1039ef8cc42fa90019a", null ],
+    [ "GetPosition", "d1/dd4/a04958.html#a7b3023f2db0d728e5004c8b8828a2a98", null ],
+    [ "initialize", "d1/dd4/a04958.html#affb481343e6c849a3d133598749e0e70", null ],
+    [ "IntersectPoint", "d1/dd4/a04958.html#a1db30d8d79018c11237b60f447ab9d0c", null ],
+    [ "intersectRay", "d1/dd4/a04958.html#af99a6abe2b04df64590b8923cc72ed4e", null ],
+    [ "isEnabled", "d1/dd4/a04958.html#a77b0c074ae20733d663fdf73169c343d", null ],
+    [ "IsMapObject", "d1/dd4/a04958.html#af7d489ccfe12858633b24582be39ba63", null ],
+    [ "UpdatePosition", "d1/dd4/a04958.html#aa1c78a367e3706ac82f30b34ff100667", null ],
+    [ "iBound", "d1/dd4/a04958.html#ab8c4c51baf86d39e230ab8b8793658a3", null ],
+    [ "iInvRot", "d1/dd4/a04958.html#a8c9f3297a5779831d7ba9251f79eb2f0", null ],
+    [ "iInvScale", "d1/dd4/a04958.html#af41878cd24e4208de2630f5a91d001e3", null ],
+    [ "iModel", "d1/dd4/a04958.html#a8d57c07682f5fecfa8160d47197044eb", null ],
+    [ "iPos", "d1/dd4/a04958.html#a6c290e3dbcfb5eab05771f4da5e717b0", null ],
+    [ "iScale", "d1/dd4/a04958.html#abbde1836561761b858f08b436edb3b53", null ],
+    [ "isWmo", "d1/dd4/a04958.html#a83c4f6f0c45910fb6b86288bb809e787", null ],
+    [ "name", "d1/dd4/a04958.html#ab20fa753c8967a4074798d6ded4f5925", null ],
+    [ "owner", "d1/dd4/a04958.html#af1b565e8ee52c9c19d6f945bfb06b889", null ],
+    [ "phasemask", "d1/dd4/a04958.html#ae33268fbdd1324f72895154e155e8345", null ]
 ];

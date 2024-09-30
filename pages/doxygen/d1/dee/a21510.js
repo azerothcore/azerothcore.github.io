@@ -1,6 +1,10 @@
 var a21510 =
 [
-    [ "spell_hodir_periodic_icicle_SpellScript", "de/da8/a21514.html", "de/da8/a21514" ],
-    [ "spell_hodir_periodic_icicle", "d1/dee/a21510.html#aba72303e45db8e0415c8f4955061ba46", null ],
-    [ "GetSpellScript", "d1/dee/a21510.html#afa8dbfef82ca0457020dcfbdeb366b29", null ]
+    [ "npc_imprisoned_beryl_sorcererAI", "d1/dee/a21510.html#a0a8159a84689dbfd8c69ed523ce03817", null ],
+    [ "GotStinged", "d1/dee/a21510.html#a0729c584c3b65e5f25f4445de378f0ea", null ],
+    [ "JustEngagedWith", "d1/dee/a21510.html#a2f3e45b3f762ede62aa94a6ae3f2909f", null ],
+    [ "Reset", "d1/dee/a21510.html#aedc82ee3bfa193a838d5af62533e19b4", null ],
+    [ "SpellHit", "d1/dee/a21510.html#a2010b53b3a8ad1e0aa6ecb5a26c8b6c9", null ],
+    [ "UpdateAI", "d1/dee/a21510.html#a21def23073eeec051c1c97a813e0ea84", null ],
+    [ "rebuff", "d1/dee/a21510.html#ac83c25091fdd3c7876a88927b758261f", null ]
 ];

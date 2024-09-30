@@ -1,6 +1,7 @@
 var a01742 =
 [
-    [ "MAX_QUIET_DISTANCE", "d1/dd5/a01742.html#a9738c927d0a0b9da431824ab69a5988a", null ],
-    [ "MIN_PATH_LENGTH", "d1/dd5/a01742.html#aa1f2b73706ddb69d07dbdc87257f010f", null ],
-    [ "MIN_QUIET_DISTANCE", "d1/dd5/a01742.html#ad1ba65a06a9ac4ab2293efde8be35403", null ]
+    [ "GetChaseRange", "d1/dd5/a01742.html#a24fd9652d12d1ba9d62b8d6273664c55", null ],
+    [ "GetVelocity", "d1/dd5/a01742.html#a955c196fa9c96bf11e2d887d6cbac50c", null ],
+    [ "IsMutualChase", "d1/dd5/a01742.html#a53d496abdea10dead20c7e6a9cb09cd6", null ],
+    [ "PredictPosition", "d1/dd5/a01742.html#ada5b031ff95410ba84fd734c95c68099", null ]
 ];

@@ -1,6 +1,8 @@
 var a12390 =
 [
-    [ "boss_eramas_brightblazeAI", "d1/d54/a12390.html#aa1b43ca8308ec926a6e5a4f2e3c864c0", null ],
-    [ "JustEngagedWith", "d1/d54/a12390.html#aec0f0530a7dd242932d7980b2958189a", null ],
-    [ "UpdateAI", "d1/d54/a12390.html#a43d7521a6f3c8dae14962084e14ca984", null ]
+    [ "npc_cyclone", "d1/d54/a12390.html#afdc4f98b031f832702929c6a7f192ab5", null ],
+    [ "JustEngagedWith", "d1/d54/a12390.html#a61d0710868c91f707643a436c0d79485", null ],
+    [ "Reset", "d1/d54/a12390.html#a60b74a96fccc12333b9dc3ed67a54637", null ],
+    [ "UpdateAI", "d1/d54/a12390.html#a224795b4ea46fc2c9346e361410f0c0f", null ],
+    [ "_scheduler", "d1/d54/a12390.html#a77f4d42ff45e0565f2d9ee5b27787ffd", null ]
 ];

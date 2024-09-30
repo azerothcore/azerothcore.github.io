@@ -1,6 +1,11 @@
 var a17082 =
 [
-    [ "spell_bronjahm_soulstorm_channel_ooc_AuraScript", "d9/d9d/a17086.html", "d9/d9d/a17086" ],
-    [ "spell_bronjahm_soulstorm_channel_ooc", "d6/d52/a17082.html#a6b2da64710710d009ca467936e44e82a", null ],
-    [ "GetAuraScript", "d6/d52/a17082.html#a72a24eb36f090bf0bf9713f267b13fc9", null ]
+    [ "boss_moorabiAI", "d6/d52/a17082.html#a60a03c3840a3743719996929d2ca9e59", null ],
+    [ "JustDied", "d6/d52/a17082.html#a6d866bf54dc06e4f20eb4d62ea97928a", null ],
+    [ "JustEngagedWith", "d6/d52/a17082.html#a1fa46ac21b28ff49382c7389a46fad75", null ],
+    [ "KilledUnit", "d6/d52/a17082.html#a265855d2972e534e927bfa609fbf2cf5", null ],
+    [ "Reset", "d6/d52/a17082.html#a9daf89ed0f4e5795cafc63a6a81e5d1d", null ],
+    [ "SpellHitTarget", "d6/d52/a17082.html#af1f30a0f3bf0f88725f8a146c528b77a", null ],
+    [ "UpdateAI", "d6/d52/a17082.html#a9f9956aaaa60d5d0005a55a87d0424eb", null ],
+    [ "events2", "d6/d52/a17082.html#a02a3bc20ca7b1b750bfd1bd29f093dd2", null ]
 ];

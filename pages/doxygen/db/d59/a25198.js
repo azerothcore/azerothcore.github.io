@@ -1,6 +1,7 @@
 var a25198 =
 [
-    [ "spell_serpentshrine_cavern_coilfang_water_AuraScript", "d3/d38/a25202.html", "d3/d38/a25202" ],
-    [ "spell_serpentshrine_cavern_coilfang_water", "db/d59/a25198.html#aff1e520e8c7f3fc97c137c6feb0d83dc", null ],
-    [ "GetAuraScript", "db/d59/a25198.html#ac6cb64edfad226f9ff7fe3ff4706ac8b", null ]
+    [ "HandleEffectPeriodic", "db/d59/a25198.html#a76e5aea0f1a3698e8034a1cbb08f4196", null ],
+    [ "PrepareAuraScript", "db/d59/a25198.html#affc698127fe0656df25bd094c02a7e50", null ],
+    [ "Register", "db/d59/a25198.html#a4707bfaeb86b3540920a6772e1726e26", null ],
+    [ "Validate", "db/d59/a25198.html#aef839f163d7e623a54b163e1c27542cd", null ]
 ];

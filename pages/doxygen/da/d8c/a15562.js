@@ -1,6 +1,5 @@
 var a15562 =
 [
-    [ "spell_gordunni_trap_SpellScript", "da/d05/a15566.html", "da/d05/a15566" ],
-    [ "spell_gordunni_trap", "da/d8c/a15562.html#a4acdb3d0babdaea5ec8f7e503944e772", null ],
-    [ "GetSpellScript", "da/d8c/a15562.html#aee9958b224ab01b18e407bf5770b65c7", null ]
+    [ "go_elune_fire", "da/d8c/a15562.html#a84d1b8e5a10e57cf717e10e413cb6027", null ],
+    [ "OnGossipHello", "da/d8c/a15562.html#a31e3cad89090bb7d2933e8758dbb56c4", null ]
 ];

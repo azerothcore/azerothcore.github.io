@@ -1,5 +1,6 @@
 var a18890 =
 [
-    [ "at_sindragosa_lair", "d0/d28/a18890.html#a60ce46f248e66faa1f13a8b5c088bdc6", null ],
-    [ "OnTrigger", "d0/d28/a18890.html#a07074bff20272042ed05be83dd818ee9", null ]
+    [ "boss_grobbulusAI", "d5/dc7/a18894.html", "d5/dc7/a18894" ],
+    [ "boss_grobbulus", "d0/d28/a18890.html#acf1b781e86e33a363b68354d34d3c015", null ],
+    [ "GetAI", "d0/d28/a18890.html#ae918614566a0b9979aef4e1aeaac394c", null ]
 ];

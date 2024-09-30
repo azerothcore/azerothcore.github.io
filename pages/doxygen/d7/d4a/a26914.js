@@ -1,6 +1,5 @@
 var a26914 =
 [
-    [ "CheckProc", "d7/d4a/a26914.html#a21cda631d861161c370a44a2fd2fd2f7", null ],
-    [ "PrepareAuraScript", "d7/d4a/a26914.html#a861caa47c502c42fa84d9f9de74df024", null ],
-    [ "Register", "d7/d4a/a26914.html#ab4275de186b6841a1f424863cb6c128c", null ]
+    [ "achievement_bg_control_all_nodes", "d7/d4a/a26914.html#afa3c06227adff7a03998ac7c5f8147cf", null ],
+    [ "OnCheck", "d7/d4a/a26914.html#a69609eb5488519fa5a1f43b13a80e280", null ]
 ];

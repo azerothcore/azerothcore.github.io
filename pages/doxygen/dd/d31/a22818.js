@@ -1,6 +1,7 @@
 var a22818 =
 [
-    [ "npc_ichor_globuleAI", "da/daf/a22822.html", "da/daf/a22822" ],
-    [ "npc_ichor_globule", "dd/d31/a22818.html#a4dbd3b057e319ba83e0e1c94b99cd2ab", null ],
-    [ "GetAI", "dd/d31/a22818.html#a4fed5ebd2e1b6ff6867a9488a6e1aef2", null ]
+    [ "PrepareAuraScript", "dd/d31/a22818.html#afb2e94c1e67b12b7350d83241b3f2864", null ],
+    [ "Register", "dd/d31/a22818.html#a0a5ac432eca09206ac032317e8aa8cfc", null ],
+    [ "Update", "dd/d31/a22818.html#aa0da369c2047df144c4a9af37a2ea13c", null ],
+    [ "Validate", "dd/d31/a22818.html#a70248cfa468dfb3a97ea7f8b6848bc5f", null ]
 ];

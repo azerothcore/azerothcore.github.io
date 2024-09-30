@@ -1,6 +1,6 @@
 var a26866 =
 [
-    [ "CheckProc", "df/dfc/a26866.html#af742bdfd97c9202d50ed7aa1cf8e7d49", null ],
-    [ "PrepareAuraScript", "df/dfc/a26866.html#a255a58ad99059ba28ab09a94e7cc683a", null ],
-    [ "Register", "df/dfc/a26866.html#a4ec4dd2342a5b75c975dc6ffe0b02b79", null ]
+    [ "HandleHeal", "df/dfc/a26866.html#a03afbdbdc8555fc2d558a5e48f7340a0", null ],
+    [ "PrepareSpellScript", "df/dfc/a26866.html#a61a601108cd59e5d87634c02b002e20d", null ],
+    [ "Register", "df/dfc/a26866.html#ae46c965fc77aa61aaa3c426c8ecc585c", null ]
 ];

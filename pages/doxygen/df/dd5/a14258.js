@@ -1,11 +1,8 @@
 var a14258 =
 [
-    [ "npc_the_etymidian", "df/dd5/a14258.html#af491016ac89b67947650a5ca9c379875", null ],
-    [ "MoveInLineOfSight", "df/dd5/a14258.html#adde2d86e30442eb1b47219e934e24407", null ],
-    [ "Reset", "df/dd5/a14258.html#a714edf3ba5f7a6d59242c991764effc5", null ],
-    [ "UpdateAI", "df/dd5/a14258.html#a1f3cfddae43e443c5cd4a8a0f9f87a89", null ],
-    [ "orphanGUID", "df/dd5/a14258.html#a9ba2c34b08d0fe61e18037b02f352d08", null ],
-    [ "phase", "df/dd5/a14258.html#a7086e9a8a8a7287cf90688270e9933a7", null ],
-    [ "playerGUID", "df/dd5/a14258.html#a7371e361c018360315e20086b0b99079", null ],
-    [ "timer", "df/dd5/a14258.html#a8508a2c89eeeee2d235e1178ca77e895", null ]
+    [ "npc_love_in_air_snivel_real", "df/dd5/a14258.html#a9f5b36d35ced9eb27375ca13fcfbc55d", null ],
+    [ "Talk", "df/dd5/a14258.html#a0b5cc8dd6bdf7c4fbd7b7aa2ba02b028", null ],
+    [ "UpdateAI", "df/dd5/a14258.html#a22ed25da8fe3441ef0e4183390983f40", null ],
+    [ "actionCounter", "df/dd5/a14258.html#ab1685b1ee34c81c689af3c3466b185f0", null ],
+    [ "actionTimer", "df/dd5/a14258.html#a3bbee1ff355581772b337268775b8fbc", null ]
 ];

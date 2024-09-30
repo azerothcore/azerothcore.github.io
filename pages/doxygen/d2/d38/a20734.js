@@ -1,6 +1,6 @@
 var a20734 =
 [
-    [ "boss_sjonnir_iron_sludgeAI", "db/de2/a20738.html", "db/de2/a20738" ],
-    [ "boss_sjonnir_iron_sludge", "d2/d38/a20734.html#ae1c523266aab3e8e2c337dede7390c7b", null ],
-    [ "GetAI", "d2/d38/a20734.html#a2d077bfeac6479d83240ee00ca5aa0e0", null ]
+    [ "boss_yoggsaron_crusher_tentacleAI", "db/de2/a20738.html", "db/de2/a20738" ],
+    [ "boss_yoggsaron_crusher_tentacle", "d2/d38/a20734.html#a9bb0c5535bf98e186d39f235f5786ff0", null ],
+    [ "GetAI", "d2/d38/a20734.html#a82b6a328197ec81223c1d00dabb79a66", null ]
 ];

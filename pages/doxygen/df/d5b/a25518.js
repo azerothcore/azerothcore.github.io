@@ -1,5 +1,6 @@
 var a25518 =
 [
-    [ "at_rp_nethekurse", "df/d5b/a25518.html#ac0a1891f90b674ad0ccbeb27f170e643", null ],
-    [ "OnTrigger", "df/d5b/a25518.html#a816e968cf92e0dffc5221e2b94474135", null ]
+    [ "OnRemove", "df/d5b/a25518.html#adcdc87bcfb9aee5eaa227ba66ad5f010", null ],
+    [ "PrepareAuraScript", "df/d5b/a25518.html#a9b3985c6f2b1b88ab86ec38c8508fc16", null ],
+    [ "Register", "df/d5b/a25518.html#a0bc1dae33d0a780623f4551b1dfb1fbf", null ]
 ];

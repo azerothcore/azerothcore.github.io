@@ -1,6 +1,6 @@
 var a23338 =
 [
-    [ "GhoulTargetCheck", "d5/db8/a23338.html#acd743b2b1407c5171fbf410a02ff07bf", null ],
-    [ "operator()", "d5/db8/a23338.html#a6722cfe5a1ceecccf2c07924b2975f46", null ],
-    [ "_alive", "d5/db8/a23338.html#ab44092ca1cd6d7c17d7c63e0a8333453", null ]
+    [ "instance_steam_vault_InstanceMapScript", "d5/db8/a23338.html#a1ca8d6b10fabe1a8b829dbf62b77ed51", null ],
+    [ "OnGameObjectCreate", "d5/db8/a23338.html#ace71fc6f1d7bc4b49bc2a2507f481fc2", null ],
+    [ "SetBossState", "d5/db8/a23338.html#ab1e344fbf169ee40f28741217f3dca14", null ]
 ];

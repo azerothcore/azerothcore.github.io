@@ -1,6 +1,6 @@
 var a19290 =
 [
-    [ "npc_lk_spirit_bombAI", "d9/d1c/a19294.html", "d9/d1c/a19294" ],
-    [ "npc_lk_spirit_bomb", "dd/da3/a19290.html#acc08d41aa1761c450de782e92307ad7c", null ],
-    [ "GetAI", "dd/da3/a19290.html#ade74c00beb2da69dafb0ae93d771c430", null ]
+    [ "instance_oculus_InstanceMapScript", "d9/d1c/a19294.html", "d9/d1c/a19294" ],
+    [ "instance_oculus", "dd/da3/a19290.html#a404205ea7106531ea57307c40b9589bb", null ],
+    [ "GetInstanceScript", "dd/da3/a19290.html#ae6d28dfd615e79d4308e4384b7c8857f", null ]
 ];

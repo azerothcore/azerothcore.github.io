@@ -1,6 +1,6 @@
 var a11894 =
 [
-    [ "spell_hate_to_zero_SpellScript", "df/deb/a11898.html", "df/deb/a11898" ],
-    [ "spell_hate_to_zero", "d1/da3/a11894.html#a2c92ea42e5fc016da890aa65ca6423c5", null ],
-    [ "GetSpellScript", "d1/da3/a11894.html#aed53cec30e195201c930e27949e668e0", null ]
+    [ "go_chromaggus_leverAI", "d1/da3/a11894.html#a51406a7e313702282cebfbf067c9ce4e", null ],
+    [ "GossipHello", "d1/da3/a11894.html#a44ece597fcfcf290234cc1ef073fbf18", null ],
+    [ "_instance", "d1/da3/a11894.html#a364f66c7cf0a7bc4a3ea97b87ebe9f90", null ]
 ];

@@ -1,11 +1,14 @@
 var a21050 =
 [
-    [ "boss_flame_leviathan_defense_turretAI", "d5/d47/a21050.html#aedf30f06fe89c805019f7cc254646ff1", null ],
-    [ "CanAIAttack", "d5/d47/a21050.html#a76efa1d88ce029775809abb3ec88efb3", null ],
-    [ "DamageTaken", "d5/d47/a21050.html#adedbbeeb01da20843bc85ac2daaed12a", null ],
-    [ "JustDied", "d5/d47/a21050.html#af261cc1f0458984719ab1bb4518bdc64", null ],
-    [ "KilledUnit", "d5/d47/a21050.html#aed3f2a4bac3391683989eec94697ef16", null ],
-    [ "UpdateAI", "d5/d47/a21050.html#a575eb381d1aa31af60484271ae6e4627", null ],
-    [ "_instance", "d5/d47/a21050.html#a8c0658a5d32355607cb16f6e1c83f83e", null ],
-    [ "_setHealth", "d5/d47/a21050.html#aeb220ded0a6515674a428716a8be9f48", null ]
+    [ "npc_massive_jormungarAI", "d5/d47/a21050.html#aa0b9acaec1aab155f7e4442d12d40c3e", null ],
+    [ "DoAction", "d5/d47/a21050.html#a8084994ba056c907b2e487568fa7502a", null ],
+    [ "JustDied", "d5/d47/a21050.html#a02b4e75227811250e2210f754e6e04f2", null ],
+    [ "JustEngagedWith", "d5/d47/a21050.html#a93769dbb2f7d2136e5ab2603927a5f12", null ],
+    [ "JustReachedHome", "d5/d47/a21050.html#a8ea0fe40cb4b113abadc091ab8085636", null ],
+    [ "MoveInLineOfSight", "d5/d47/a21050.html#a55c817111fab479c3abcfca8942f16e8", null ],
+    [ "Reset", "d5/d47/a21050.html#aca0d8ebe3b47a075a8b87666c0207620", null ],
+    [ "UpdateAI", "d5/d47/a21050.html#a9201c4cdf74d55bb3cde52eb265aa3d9", null ],
+    [ "events", "d5/d47/a21050.html#a92334b8178317a91a7d4336096d75f33", null ],
+    [ "m_pInstance", "d5/d47/a21050.html#ad50a9852370798817fda318f71f27653", null ],
+    [ "summons", "d5/d47/a21050.html#acfa84efc38b994706015e6d82fe1f653", null ]
 ];

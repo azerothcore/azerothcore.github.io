@@ -1,5 +1,5 @@
 var a07194 =
 [
-    [ "value_type", "d9/d53/a07194.html#a72f92e01d1f385cf8d6ba7c31faa77e2", null ],
-    [ "TryConsume", "d9/d53/a07194.html#a7320475f165952ef8ebf69407b533248", null ]
+    [ "time", "d9/d53/a07194.html#a4270f34fef655cb9ff9998b36055c3ec", null ],
+    [ "winner", "d9/d53/a07194.html#a728a3e4efbae3be9224c70f2d70000cf", null ]
 ];

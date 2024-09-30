@@ -1,7 +1,6 @@
 var a13170 =
 [
-    [ "HandleApply", "de/d6b/a13170.html#a0858eeeaae2b07e44452fefb30fc3cf6", null ],
-    [ "HandleRemove", "de/d6b/a13170.html#a58addb11985f969b44c536f2277538d0", null ],
-    [ "PrepareAuraScript", "de/d6b/a13170.html#a392e4061d7833de4fbf7aad8670a1d63", null ],
-    [ "Register", "de/d6b/a13170.html#a69126dd7873fc2024333d106176931cf", null ]
+    [ "boss_entropiusAI", "db/d69/a13174.html", "db/d69/a13174" ],
+    [ "boss_entropius", "de/d6b/a13170.html#a100779eb6056f7447e665306c87c3f55", null ],
+    [ "GetAI", "de/d6b/a13170.html#a4a7180207cfdb3e67e87e0f879155416", null ]
 ];

@@ -1,6 +1,7 @@
 var a14086 =
 [
-    [ "npc_razzashi_cobra_venoxis_AI", "d0/d7a/a14090.html", "d0/d7a/a14090" ],
-    [ "npc_razzashi_cobra_venoxis", "df/de8/a14086.html#a195ae8d73ab8e855a9220384e9b4c801", null ],
-    [ "GetAI", "df/de8/a14086.html#afdd4d030ec97b193926898ad8c980a6b", null ]
+    [ "FilterTargets", "df/de8/a14086.html#af3954bbcbce6de5d4ddadd2af0ecac91", null ],
+    [ "HandleDummy", "df/de8/a14086.html#ad3688071ca786bbb4c27d5632d1a1e56", null ],
+    [ "PrepareSpellScript", "df/de8/a14086.html#a6ac4db072beae6ae7a700774667da613", null ],
+    [ "Register", "df/de8/a14086.html#ae981ec2b7e097ad0fe924df7738da5b7", null ]
 ];

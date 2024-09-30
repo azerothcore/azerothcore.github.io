@@ -1,6 +1,6 @@
 var a19586 =
 [
-    [ "npc_frostwing_vrykulAI", "d5/db3/a19590.html", "d5/db3/a19590" ],
-    [ "npc_frostwing_vrykul", "dc/d3e/a19586.html#ab915aa094ddebd9201a1c626e6427409", null ],
-    [ "GetAI", "dc/d3e/a19586.html#a11678e59b6db9a41c7b6a575339995fd", null ]
+    [ "npc_collapsing_starAI", "d5/db3/a19590.html", "d5/db3/a19590" ],
+    [ "npc_collapsing_star", "dc/d3e/a19586.html#a8d57987c9b4622746d4f42a2b4845b9e", null ],
+    [ "GetAI", "dc/d3e/a19586.html#a346af96d122e64c68defdeccb9183cd4", null ]
 ];

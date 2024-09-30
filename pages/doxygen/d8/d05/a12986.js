@@ -1,6 +1,7 @@
 var a12986 =
 [
-    [ "npc_demonic_vapor_trailAI", "d2/d77/a12990.html", "d2/d77/a12990" ],
-    [ "npc_demonic_vapor_trail", "d8/d05/a12986.html#a41f476aa957c07f7bb80394ee93f02b8", null ],
-    [ "GetAI", "d8/d05/a12986.html#a0bbf3d970070687eb537c9d2c1ac45ee", null ]
+    [ "CheckCast", "d8/d05/a12986.html#a6ac00101ced46cebd1dd6a32c89374d2", null ],
+    [ "PrepareSpellScript", "d8/d05/a12986.html#a07973000e8a4b0ff66d4f4d1fd9f327e", null ],
+    [ "Register", "d8/d05/a12986.html#a7deecb2b7dfc410af30d8b14d941f74a", null ],
+    [ "Validate", "d8/d05/a12986.html#a9208b9c010bb9cc379c195939351aa45", null ]
 ];

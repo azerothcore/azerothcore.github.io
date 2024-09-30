@@ -1,6 +1,8 @@
 var a23050 =
 [
-    [ "HandleScriptEffect", "d5/d5c/a23050.html#aaad86a4f6c4065102a2f5760075dd2b0", null ],
-    [ "PrepareSpellScript", "d5/d5c/a23050.html#aa749172e06fd919526b49de60a5da62a", null ],
-    [ "Register", "d5/d5c/a23050.html#a0cefc12db88123d43dc17a9f5cfb313f", null ]
+    [ "CalculateAmount", "d5/d5c/a23050.html#a13d44c0d5f9b0111ae3b0d3d089e3e13", null ],
+    [ "OnPeriodic", "d5/d5c/a23050.html#ab4d3f69d50fa320886f454ddfe1076f4", null ],
+    [ "PrepareAuraScript", "d5/d5c/a23050.html#a1278420b279449c1c6a53b1a7b53f539", null ],
+    [ "Register", "d5/d5c/a23050.html#a4795011faa2f68b1068d37b81f8c1cf2", null ],
+    [ "Validate", "d5/d5c/a23050.html#a601c2db3a8e47d48b956ed102cbca104", null ]
 ];

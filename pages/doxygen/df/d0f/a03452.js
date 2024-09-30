@@ -1,6 +1,7 @@
 var a03452 =
 [
-    [ "instance_auchenai_crypts", "db/d24/a22560.html", "db/d24/a22560" ],
-    [ "instance_auchenai_crypts::instance_auchenai_crypts_InstanceMapScript", "d3/d57/a22564.html", "d3/d57/a22564" ],
-    [ "AddSC_instance_auchenai_crypts", "df/d0f/a03452.html#a3a9866226f3a0e32fdb3501e506ab0b5", null ]
+    [ "instance_the_slave_pens", "d7/d72/a23302.html", "d7/d72/a23302" ],
+    [ "instance_the_slave_pens::instance_the_slave_pens_InstanceMapScript", "df/d6f/a23306.html", "df/d6f/a23306" ],
+    [ "AddSC_instance_the_slave_pens", "df/d0f/a03452.html#a41772e574e8da2d2009384c1f312ed92", null ],
+    [ "creatureData", "df/d0f/a03452.html#a412286b689bd324fedd65ddd8dde8afb", null ]
 ];

@@ -1,6 +1,6 @@
 var a16966 =
 [
-    [ "boss_tharon_jaAI", "d6/d1c/a16970.html", "d6/d1c/a16970" ],
-    [ "boss_tharon_ja", "d6/def/a16966.html#ac34f8f33ea75dc0107222d3720788f7a", null ],
-    [ "GetAI", "d6/def/a16966.html#ab24612418cb66ed0c1e64fba5ebaa50f", null ]
+    [ "npc_pos_leader_secondAI", "d6/d1c/a16970.html", "d6/d1c/a16970" ],
+    [ "npc_pos_leader_second", "d6/def/a16966.html#ac4758674cc97eae0937264fa028e6da5", null ],
+    [ "GetAI", "d6/def/a16966.html#ac403cfc86247990d78c9cf4179df8b87", null ]
 ];

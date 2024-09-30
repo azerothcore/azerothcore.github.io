@@ -1,5 +1,5 @@
 var a03230 =
 [
-    [ "arena_commandscript", "d1/dd7/a11256.html", "d1/dd7/a11256" ],
-    [ "AddSC_arena_commandscript", "df/dc9/a03230.html#aa94d37f012ac02e97a1021713b7dbeeb", null ]
+    [ "send_commandscript", "d0/d67/a11430.html", "d0/d67/a11430" ],
+    [ "AddSC_send_commandscript", "df/dc9/a03230.html#a9f3fee551f6ca7aa7dad83edb2dfe480", null ]
 ];

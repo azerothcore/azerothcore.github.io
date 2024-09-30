@@ -1,6 +1,6 @@
 var a16678 =
 [
-    [ "npc_toc_boomkinAI", "d3/d39/a16682.html", "d3/d39/a16682" ],
-    [ "npc_toc_boomkin", "d0/dd6/a16678.html#a17274ff748cd364592a551ad2c547eac", null ],
-    [ "GetAI", "d0/dd6/a16678.html#a626fe854faade9bd96cd60b9e6e970bd", null ]
+    [ "entry", "d0/dd6/a16678.html#a80e1510436336f4ed17748a06b27178d", null ],
+    [ "pathId", "d0/dd6/a16678.html#a0b7e499d633e11b314852fb1154ea8e6", null ],
+    [ "startPosition", "d0/dd6/a16678.html#ac8c0dd74d76778aa2f5948b5c8c5ada4", null ]
 ];

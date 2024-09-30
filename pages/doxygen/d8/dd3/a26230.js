@@ -1,6 +1,8 @@
 var a26230 =
 [
-    [ "PrepareSpellScript", "d8/dd3/a26230.html#a98d048c65df93640914e8ff99c86dee6", null ],
-    [ "Register", "d8/dd3/a26230.html#ad1c6b680515f3388e21260c9602e3962", null ],
-    [ "SetDest", "d8/dd3/a26230.html#a586d75f46ac81359a8824ffc70a0e0c3", null ]
+    [ "HandleEffectRemove", "d8/dd3/a26230.html#a770b7ad0bb00114400a73f50c4aa6c81", null ],
+    [ "if", "d8/dd3/a26230.html#a7123c451bce0f95ad75e5acfbe58a135", null ],
+    [ "PrepareAuraScript", "d8/dd3/a26230.html#a531f51626ae4527282ad1e628911a9ea", null ],
+    [ "Register", "d8/dd3/a26230.html#ae68bd9a92239a4796f9d8040787a68b3", null ],
+    [ "AuraEffectHandleModes", "d8/dd3/a26230.html#a8af86c58f438e78d8bf878f79d4a27e2", null ]
 ];

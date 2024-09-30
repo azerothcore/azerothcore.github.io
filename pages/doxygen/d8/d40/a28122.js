@@ -1,6 +1,8 @@
 var a28122 =
 [
-    [ "HandleFinish", "d8/d40/a28122.html#a53263ce51581f36c2df80b49c93fa9d3", null ],
-    [ "PrepareSpellScript", "d8/d40/a28122.html#a8113f61816473399f0ceab18b104d058", null ],
-    [ "Register", "d8/d40/a28122.html#a36bf50cdb7be7ba03eafd4848c6ceced", null ]
+    [ "Id", "d8/d40/a28122.html#a6943bf760d15b3f8af4109d131652d72", null ],
+    [ "MapId", "d8/d40/a28122.html#ab0cccd760636a3b42af693d6c483bed9", null ],
+    [ "X", "d8/d40/a28122.html#a91183890254546efeb3162173cc60dad", null ],
+    [ "Y", "d8/d40/a28122.html#a19ab4d026b45d74f006479641afbc4d3", null ],
+    [ "Z", "d8/d40/a28122.html#aaa23c59f20fc96aec148b82516f30036", null ]
 ];

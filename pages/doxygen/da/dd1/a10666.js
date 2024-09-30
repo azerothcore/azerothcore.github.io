@@ -1,24 +1,12 @@
 var a10666 =
 [
-    [ "EffectAuraNameCheck", "d6/df8/a10678.html", "d6/df8/a10678" ],
-    [ "EffectHook", "de/d0e/a10670.html", "de/d0e/a10670" ],
-    [ "EffectNameCheck", "d6/d40/a10674.html", "d6/d40/a10674" ],
-    [ "_SpellScript", "da/dd1/a10666.html#a1094c9cbb65098fe0733ff54dce04388", null ],
-    [ "~_SpellScript", "da/dd1/a10666.html#a6a2621e4aeda24af6ec55b9a8c461262", null ],
-    [ "_GetScriptName", "da/dd1/a10666.html#ad3c16df6214a973fca3c62e4bc23f6a6", null ],
-    [ "_Init", "da/dd1/a10666.html#ae85c836ab2da173942a40b53561df1fb", null ],
-    [ "_Register", "da/dd1/a10666.html#ae22c1ed4b0e2742ee4c35de03c70d9d8", null ],
-    [ "_Unload", "da/dd1/a10666.html#a6b372f003568d60066449ee58a0469df", null ],
-    [ "_Validate", "da/dd1/a10666.html#af46024e85e0618c84bf72dc61df05673", null ],
-    [ "_ValidateSpellInfo", "da/dd1/a10666.html#a423786f1fc45a010a4ebc16db2645a1f", null ],
-    [ "_ValidateSpellInfo", "da/dd1/a10666.html#abb223d1713d7594bf4dfd1fc7c0dc5d5", null ],
-    [ "Load", "da/dd1/a10666.html#ad3b8fb5dd2bc5ca4dd34da5a98a76443", null ],
-    [ "Register", "da/dd1/a10666.html#ab6fed9e44aa0c11342abffd74ee5bfe1", null ],
-    [ "Unload", "da/dd1/a10666.html#ad501b6dde3e42c3af93589b117e2cafc", null ],
-    [ "Validate", "da/dd1/a10666.html#a95e7862a5807bff409f13aea8306077e", null ],
-    [ "ValidateSpellInfo", "da/dd1/a10666.html#a9f7c76ac56838fbe61bf67d534979159", null ],
-    [ "ValidateSpellInfo", "da/dd1/a10666.html#a0ee15cbc62cccd346ce148c6acbe96f9", null ],
-    [ "m_currentScriptState", "da/dd1/a10666.html#a3f9d5cd0ea4eadbdb6a72f73875c0585", null ],
-    [ "m_scriptName", "da/dd1/a10666.html#a38bdb79ae6d11489dd6007485c1510de", null ],
-    [ "m_scriptSpellId", "da/dd1/a10666.html#ae2ab4203d324b2179ad06ffdb5d8626f", null ]
+    [ "PacketLog", "da/dd1/a10666.html#a75215d454393ecd3fce0ea07b5d673ee", null ],
+    [ "~PacketLog", "da/dd1/a10666.html#a595a42f9aaa94d6c46d185955df801e0", null ],
+    [ "CanLogPacket", "da/dd1/a10666.html#a322cf3a0d8707becb9dcc64548d4cce5", null ],
+    [ "Initialize", "da/dd1/a10666.html#aea6ccfd41bc147557b7c5066fe18afa6", null ],
+    [ "instance", "da/dd1/a10666.html#a484418a51ca0bf150d17b23d97979bf4", null ],
+    [ "LogPacket", "da/dd1/a10666.html#ac0323a6ac3856412b765d0b31dbbb37e", null ],
+    [ "_file", "da/dd1/a10666.html#a03346a709f7586f6445e03b9a3b6af04", null ],
+    [ "_initializeFlag", "da/dd1/a10666.html#a490cafe009f7b2ecb303a76c781f8960", null ],
+    [ "_logPacketLock", "da/dd1/a10666.html#aeffb6309ef859cbb346b15dc1fca5cbe", null ]
 ];

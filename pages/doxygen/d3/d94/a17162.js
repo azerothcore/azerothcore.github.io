@@ -1,15 +1,10 @@
 var a17162 =
 [
-    [ "boss_falricAI", "d3/d94/a17162.html#a8b333fe1571f98b4e9f44152d130a22d", null ],
-    [ "DoAction", "d3/d94/a17162.html#a2a7de8f939cd3cdc113c841da36e28c8", null ],
-    [ "EnterEvadeMode", "d3/d94/a17162.html#aacb6a3b13fe5ea08ab2ff0e77ff841a4", null ],
-    [ "JustDied", "d3/d94/a17162.html#a4ee3163afcda23102d639740fd628f39", null ],
-    [ "JustEngagedWith", "d3/d94/a17162.html#ae5a8b14e1984dbd2866af7c442c02df2", null ],
-    [ "KilledUnit", "d3/d94/a17162.html#a4a8b45eb85c1328af6beec69f2db1842", null ],
-    [ "Reset", "d3/d94/a17162.html#a0af8ef161bc2a37a5c7f7fa880194251", null ],
-    [ "UpdateAI", "d3/d94/a17162.html#a640036111dcd14e40016342ffdef7d63", null ],
-    [ "events", "d3/d94/a17162.html#aa94ca00db157378071b78142b213de23", null ],
-    [ "pInstance", "d3/d94/a17162.html#aebeae3541bbbf392c44fd52516bb2d98", null ],
-    [ "startFightTimer", "d3/d94/a17162.html#addd560074b840aed36f41883f893340e", null ],
-    [ "uiHopelessnessCount", "d3/d94/a17162.html#a0ad83fb57263116a59976834c6667ea9", null ]
+    [ "npc_dark_nucleusAI", "d3/d94/a17162.html#a9558da93ec684d5c4e79e686e6bfb142", null ],
+    [ "AttackStart", "d3/d94/a17162.html#a3dec28dd13257b944df0c559d26a76e0", null ],
+    [ "DamageTaken", "d3/d94/a17162.html#adfb2ad6f6b36fa122511a6ed10e22b99", null ],
+    [ "JustDied", "d3/d94/a17162.html#a464d479ad80d55e54c7ea2c8b8c03a81", null ],
+    [ "Reset", "d3/d94/a17162.html#ac84f79f84e721ab1306c8eed8658b143", null ],
+    [ "UpdateAI", "d3/d94/a17162.html#a3a08457c34d4dd904a99a78875d6318c", null ],
+    [ "timer", "d3/d94/a17162.html#ac5f9824276987b81aef5cfee05158049", null ]
 ];

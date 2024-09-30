@@ -1,11 +1,7 @@
 var a26206 =
 [
-    [ "npc_shadowmoon_tuber_nodeAI", "dd/d72/a26206.html#af24a8d5ead256d158c86379e032aa889", null ],
-    [ "Reset", "dd/d72/a26206.html#a9bcbd0b0b6b12058a8356ce274b6a597", null ],
-    [ "SetData", "dd/d72/a26206.html#aca6ad097bd7b8e5f1a0cde6bdebb23ad", null ],
-    [ "SpellHit", "dd/d72/a26206.html#a14523a24042d23efbafc7924f394dd04", null ],
-    [ "UpdateAI", "dd/d72/a26206.html#ae5cd38aa2a9cc1727141298323639660", null ],
-    [ "resetTimer", "dd/d72/a26206.html#a0d2649de651279fa6bbe3ae2f18571bb", null ],
-    [ "tapped", "dd/d72/a26206.html#af6412de701f14a7eb325e1aaf33f28cc", null ],
-    [ "tuberGUID", "dd/d72/a26206.html#a2deaa1aeed26b862e93055d90c9139d6", null ]
+    [ "HandleEffectRemove", "dd/d72/a26206.html#a814687d3938e966f8721438e1a722f77", null ],
+    [ "PrepareAuraScript", "dd/d72/a26206.html#a2144b0602501471a4001883ce9de6db3", null ],
+    [ "Register", "dd/d72/a26206.html#a9d696dc7e58692216fa1cf6cc7c011a9", null ],
+    [ "AuraEffectHandleModes", "dd/d72/a26206.html#ab291f6c6f269ec7004df39a043f49efd", null ]
 ];

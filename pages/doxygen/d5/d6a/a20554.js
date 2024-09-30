@@ -1,6 +1,6 @@
 var a20554 =
 [
-    [ "HandleEffectCalcAmount", "d5/d6a/a20554.html#a204f40b6f89b4e91c3dacde1872df3dd", null ],
-    [ "PrepareAuraScript", "d5/d6a/a20554.html#ac1531a1fc8c3f9e1a96c52905d61c219", null ],
-    [ "Register", "d5/d6a/a20554.html#aa3c64f6ea6e8cc99ff9978c820530fb1", null ]
+    [ "boss_thorim_runic_colossusAI", "d0/d7a/a20558.html", "d0/d7a/a20558" ],
+    [ "boss_thorim_runic_colossus", "d5/d6a/a20554.html#a2ea1c08a98b689cd6c766578e98a3191", null ],
+    [ "GetAI", "d5/d6a/a20554.html#a6d64427ff427a1054e10c9d987b77f53", null ]
 ];

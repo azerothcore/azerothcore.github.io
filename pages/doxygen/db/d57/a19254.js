@@ -1,9 +1,13 @@
 var a19254 =
 [
-    [ "npc_spirit_wardenAI", "db/d57/a19254.html#a3391168478345d8b5c1fee151f6e9f04", null ],
-    [ "JustDied", "db/d57/a19254.html#aa762c0bea6361107312e8231508dc655", null ],
-    [ "Reset", "db/d57/a19254.html#ad6076663f65f43874feb0ecfc57718a4", null ],
-    [ "UpdateAI", "db/d57/a19254.html#af845e3e2c38af5baa84c94f6074c0caf", null ],
-    [ "_events", "db/d57/a19254.html#a1bc5cfdee62efdd622e0fe1aa503c260", null ],
-    [ "_instance", "db/d57/a19254.html#a58ebb8e42e77add79fc888248013eb24", null ]
+    [ "boss_drakosAI", "db/d57/a19254.html#a75d771095897081457353be898b332c3", null ],
+    [ "JustDied", "db/d57/a19254.html#a7235760bd407f49802bc9e26e8f3f22c", null ],
+    [ "JustEngagedWith", "db/d57/a19254.html#a4bc15075d9e9a913783da482a7a167c7", null ],
+    [ "JustSummoned", "db/d57/a19254.html#a06e21c4e5bd1a882ada074b9595d4088", null ],
+    [ "KilledUnit", "db/d57/a19254.html#a4bd3e45b45660311d7510f58a1850648", null ],
+    [ "MoveInLineOfSight", "db/d57/a19254.html#a10b2ca39887e906e6e1e33df82afc1da", null ],
+    [ "Reset", "db/d57/a19254.html#a6fd78f4f45b9f2104acc481fb0f2763f", null ],
+    [ "UpdateAI", "db/d57/a19254.html#abf761c7cda4031c31354d8c8d42963e0", null ],
+    [ "events", "db/d57/a19254.html#ae86ad4fcc57cc1137411c881355f2f51", null ],
+    [ "pInstance", "db/d57/a19254.html#adc9461ae5334634a9140f338547688b4", null ]
 ];

@@ -1,5 +1,5 @@
 var a10022 =
 [
-    [ "AcceptGuildInvite", "d3/d59/a10022.html#a4453fc550871082f6295d9229eef265a", null ],
-    [ "Read", "d3/d59/a10022.html#a3d39b917ca2650f645ccce12cdc1a1e0", null ]
+    [ "FactoryGameObjectScript", "d3/d59/a10022.html#ac0981bdae743da11b99d7df1c967a703", null ],
+    [ "GetAI", "d3/d59/a10022.html#a9a39e94f28729ea1fb4b6231d588b42c", null ]
 ];

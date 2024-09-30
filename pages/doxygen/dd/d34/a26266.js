@@ -1,6 +1,6 @@
 var a26266 =
 [
-    [ "spell_q10923_evil_draws_near_summon_SpellScript", "db/d7e/a26270.html", "db/d7e/a26270" ],
-    [ "spell_q10923_evil_draws_near_summon", "dd/d34/a26266.html#aa8556fb81c03758be47b2fea4d7e830e", null ],
-    [ "GetSpellScript", "dd/d34/a26266.html#aa7944354a749349b133b6a1104ef3c6c", null ]
+    [ "CheckProc", "dd/d34/a26266.html#aa9cf64a1965bd7924ce5a9c639d85fb3", null ],
+    [ "PrepareAuraScript", "dd/d34/a26266.html#a87d2959523a306f85c69aa5a7a5b3de5", null ],
+    [ "Register", "dd/d34/a26266.html#a9dee4c4568f36f82b82148cb847d50ca", null ]
 ];

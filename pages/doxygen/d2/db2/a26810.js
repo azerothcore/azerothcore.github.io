@@ -1,6 +1,6 @@
 var a26810 =
 [
-    [ "CalculateAmount", "d2/db2/a26810.html#af913c896771e238ef62898f67af61cc4", null ],
-    [ "PrepareAuraScript", "d2/db2/a26810.html#a4be139ae22c20468be1930195097d98a", null ],
-    [ "Register", "d2/db2/a26810.html#a90d6446ed05f9dfedb43d689e8de0614", null ]
+    [ "HandleOnHit", "d2/db2/a26810.html#a94893e6dd048f0028540e5ce15ed7b1d", null ],
+    [ "PrepareSpellScript", "d2/db2/a26810.html#a999b019665dec9b0690a1019be428072", null ],
+    [ "Register", "d2/db2/a26810.html#ab21c47d1918a9e29ebe7b041421deaf7", null ]
 ];

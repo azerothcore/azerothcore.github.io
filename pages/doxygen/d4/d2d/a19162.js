@@ -1,6 +1,6 @@
 var a19162 =
 [
-    [ "spell_the_lich_king_cast_back_to_caster_SpellScript", "dd/d80/a19166.html", "dd/d80/a19166" ],
-    [ "spell_the_lich_king_cast_back_to_caster", "d4/d2d/a19162.html#a53747fdcc3e36ee955b64093da641ced", null ],
-    [ "GetSpellScript", "d4/d2d/a19162.html#a9f4439d27fc3a329bfd78db426fb0702", null ]
+    [ "ChargeRifts", "d4/d2d/a19162.html#aec98a12dec1f2ad98e00d399b0e2a1d5", null ],
+    [ "Execute", "d4/d2d/a19162.html#a8d01bf861d37c25413dc14eee16a2939", null ],
+    [ "_caster", "d4/d2d/a19162.html#a3cbf5f7e26de337dadd9d96a43d728b0", null ]
 ];

@@ -1,12 +1,11 @@
 var a13450 =
 [
-    [ "npc_corporal_keeshanAI", "d3/d9e/a13450.html#aac5b72ede6e1496f80c4c2520e886efd", null ],
-    [ "Reset", "d3/d9e/a13450.html#a311488932a3de9153490d41e3fae92fb", null ],
-    [ "sQuestAccept", "d3/d9e/a13450.html#a52dd95c74b1457ad5b496b28fd183b06", null ],
-    [ "UpdateAI", "d3/d9e/a13450.html#a973cf65978e531dc8bd7db20fc2809b6", null ],
-    [ "WaypointReached", "d3/d9e/a13450.html#a3edc9ab54068e47f955116db70454f6c", null ],
-    [ "mockingBlowTimer", "d3/d9e/a13450.html#a21cd1ca86864b8507d43e5a1c4c13e0c", null ],
-    [ "phase", "d3/d9e/a13450.html#ae79dcfdb10738d673e8c1aebc6abdee6", null ],
-    [ "shieldBashTimer", "d3/d9e/a13450.html#abb5eaa25a77dd3e6dfff7aaa0aa6c375", null ],
-    [ "timer", "d3/d9e/a13450.html#a3107368f175aa7f4e8c405248ef917df", null ]
+    [ "npc_highborne_lamenterAI", "d3/d9e/a13450.html#ad91cd657166a12d3c34adcf7b11d076f", null ],
+    [ "JustEngagedWith", "d3/d9e/a13450.html#a77a978fdb0ba0de506f66ec0b2906229", null ],
+    [ "Reset", "d3/d9e/a13450.html#a7cf9338767e8edf0a87a5552703de87a", null ],
+    [ "UpdateAI", "d3/d9e/a13450.html#a1048c558b825b58dbc7a3d97869a3e88", null ],
+    [ "EventCast", "d3/d9e/a13450.html#a02ed3216c8b71e3d2be695866dbc0089", null ],
+    [ "EventCastTimer", "d3/d9e/a13450.html#afc490ae2382fd7097b3877c7f9eadf6b", null ],
+    [ "EventMove", "d3/d9e/a13450.html#aca22c73db989f0393926067506794e43", null ],
+    [ "EventMoveTimer", "d3/d9e/a13450.html#a36d1993262eb0a7200e2bec625f5b4d1", null ]
 ];

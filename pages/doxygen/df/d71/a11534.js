@@ -1,6 +1,6 @@
 var a11534 =
 [
-    [ "boss_thebeastAI", "dd/d35/a11538.html", "dd/d35/a11538" ],
-    [ "boss_the_beast", "df/d71/a11534.html#a131344b5fada63f4a8f0b3692ecba9eb", null ],
-    [ "GetAI", "df/d71/a11534.html#a0b40497c665c571247cb8ad8b85ac63f", null ]
+    [ "npc_lokhtos_darkbargainer", "df/d71/a11534.html#af91685ecf0f63313968b3d82373668d2", null ],
+    [ "OnGossipHello", "df/d71/a11534.html#a39547487ef7db8a3942556665099893f", null ],
+    [ "OnGossipSelect", "df/d71/a11534.html#a5a4640678a5669c75b1fa5d787999c02", null ]
 ];

@@ -1,6 +1,7 @@
 var a16826 =
 [
-    [ "boss_icehowlAI", "d5/d1b/a16830.html", "d5/d1b/a16830" ],
-    [ "boss_icehowl", "d7/dc2/a16826.html#ab3c9711fa6af17be9dc7331b42c408be", null ],
-    [ "GetAI", "d7/dc2/a16826.html#ac77bf3b9d954b8c6be01d0209a80cc6a", null ]
+    [ "HandleEffectPeriodic", "d7/dc2/a16826.html#aaefcf8ace7c109648c9220fb0ff9d4de", null ],
+    [ "PrepareAuraScript", "d7/dc2/a16826.html#ae0ccb7d4566777e52b71e99a908d13fa", null ],
+    [ "Register", "d7/dc2/a16826.html#a73e8ef9dbd3dd3dc332d4b3a2eb2c5ea", null ],
+    [ "Validate", "d7/dc2/a16826.html#ab3fcbe5386e9529824228e8f3b6be797", null ]
 ];

@@ -1,7 +1,6 @@
 var a19118 =
 [
-    [ "ChangeDamageAndGrow", "d5/df3/a19118.html#a80c257482316a338c63f60ba08b57727", null ],
-    [ "CorrectRange", "d5/df3/a19118.html#aee053b79667b1491b4453ee109383db0", null ],
-    [ "PrepareSpellScript", "d5/df3/a19118.html#a3361609cf1f5d3348e6ee8e028acf9f2", null ],
-    [ "Register", "d5/df3/a19118.html#ad81bc34e922ba418cbedf5065af82c4c", null ]
+    [ "npc_hover_diskAI", "df/d22/a19122.html", "df/d22/a19122" ],
+    [ "npc_hover_disk", "d5/df3/a19118.html#af0ab534387a2af4e168915801ee855e5", null ],
+    [ "GetAI", "d5/df3/a19118.html#adbe9285126089ca998e9b6360f42c553", null ]
 ];

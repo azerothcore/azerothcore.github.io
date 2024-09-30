@@ -1,6 +1,8 @@
 var a26010 =
 [
-    [ "npc_creditmarker_visit_with_ancestorsAI", "db/dc9/a26014.html", "db/dc9/a26014" ],
-    [ "npc_creditmarker_visit_with_ancestors", "d7/d32/a26010.html#a60f7abac7198d8504d944828dceb1ffa", null ],
-    [ "GetAI", "d7/d32/a26010.html#a06eb335a757c9f48fbfa64bfc326bb8e", null ]
+    [ "HandleApply", "d7/d32/a26010.html#aafdf3712f163919f010d11d0becb398f", null ],
+    [ "HandleRemove", "d7/d32/a26010.html#ac3e33cb37d13b633f3938a48917a4975", null ],
+    [ "PrepareAuraScript", "d7/d32/a26010.html#a42590a0ef43a48c5309f995f9bec5c9b", null ],
+    [ "Register", "d7/d32/a26010.html#a84e7337494dc2e1772ca10dea26c675f", null ],
+    [ "Validate", "d7/d32/a26010.html#ac2558aafb3ce66ca7bbfd718eb8c6338", null ]
 ];

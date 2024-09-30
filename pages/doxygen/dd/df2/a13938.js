@@ -1,6 +1,6 @@
 var a13938 =
 [
-    [ "HandleOnHit", "dd/df2/a13938.html#a1f133ab9e85f80c225276bf744da6898", null ],
-    [ "PrepareSpellScript", "dd/df2/a13938.html#ae554f8be36eabc6d23f823e6d153be2b", null ],
-    [ "Register", "dd/df2/a13938.html#a1063358ed71ded8454f35f43442354ab", null ]
+    [ "boss_renatakiAI", "d4/d2c/a13942.html", "d4/d2c/a13942" ],
+    [ "boss_renataki", "dd/df2/a13938.html#a8504ed2df8c8f8a85fc9d0e99cc24ec6", null ],
+    [ "GetAI", "dd/df2/a13938.html#a386b7ef3d1fc4070eb300cf4fdaa4d9a", null ]
 ];

@@ -1,13 +1,14 @@
 var a15618 =
 [
-    [ "npc_shenthulAI", "dc/d1d/a15618.html#ae056474022c27be5565bf018a1b56f0b", null ],
-    [ "JustEngagedWith", "dc/d1d/a15618.html#acb202ef530bc11ea807f580ff5dfc621", null ],
-    [ "ReceiveEmote", "dc/d1d/a15618.html#ab2ddc3e447b36cb0fceffdaff0fca592", null ],
-    [ "Reset", "dc/d1d/a15618.html#af077e96eb8bf89af2d6eb79907444a17", null ],
-    [ "UpdateAI", "dc/d1d/a15618.html#a2ae643c11c6ea3808be922de96a24e8f", null ],
-    [ "CanEmote", "dc/d1d/a15618.html#a920209c374e611e96347d209337c044f", null ],
-    [ "CanTalk", "dc/d1d/a15618.html#a82ea8d2ee50538135add120be7616f86", null ],
-    [ "PlayerGUID", "dc/d1d/a15618.html#a4b262388aca789d19231426a8cb73379", null ],
-    [ "ResetTimer", "dc/d1d/a15618.html#a475a141d639f0136ac943e6afb1ecd15", null ],
-    [ "SaluteTimer", "dc/d1d/a15618.html#ae76b4bbde77b6029a788abfbbbe84df8", null ]
+    [ "boss_amanitar", "dc/d1d/a15618.html#a660bdf8dd64bbffda4ee1ec603c41402", null ],
+    [ "EnterEvadeMode", "dc/d1d/a15618.html#a6b3cf0ea01ce34b4281116ca8387732d", null ],
+    [ "ExecuteEvent", "dc/d1d/a15618.html#a540fb447d261ccfcc77ac15888e8bb50", null ],
+    [ "JustDied", "dc/d1d/a15618.html#a138049712649ff414950d9d0ca05d712", null ],
+    [ "JustEngagedWith", "dc/d1d/a15618.html#ae2bace7f649626c68560d4a6d5aa4ea3", null ],
+    [ "JustSummoned", "dc/d1d/a15618.html#a1199430b8ec2a27b136838c112a63c07", null ],
+    [ "Reset", "dc/d1d/a15618.html#aab3faca4526947a72d8ca049a605f5be", null ],
+    [ "SummonedCreatureDies", "dc/d1d/a15618.html#a2f897b4d32b8c67ff644675f08ac6353", null ],
+    [ "SummonMushroom", "dc/d1d/a15618.html#afc5b4942931f6020b2894b901650fc35", null ],
+    [ "_mushroomsDeque", "dc/d1d/a15618.html#a4ba2415d6134cdc435114cd3af235b6d", null ],
+    [ "mushroomsSummoned", "dc/d1d/a15618.html#a57b207eaa8a4347bfb5cb51d46eead27", null ]
 ];

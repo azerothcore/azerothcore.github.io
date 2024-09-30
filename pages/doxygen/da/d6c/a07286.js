@@ -1,7 +1,4 @@
 var a07286 =
 [
-    [ "StoreTo", "da/d6c/a07286.html#a1f368b832f95ce4acc6ed47ad4ca2e8d", null ],
-    [ "StoreTo", "da/d6c/a07286.html#a3d9382dd50447477f9f04bc0f055e55c", null ],
-    [ "StoreTo", "da/d6c/a07286.html#a071922c9c431637de3cb2d6b52def7bd", null ],
-    [ "StoreTo", "da/d6c/a07286.html#a45556cc3ac64a6692ef08d6d93d48a4d", null ]
+    [ "TryConsumeTo", "da/d6c/a07286.html#a0e6df60e4195364958e85632e43b4ad0", null ]
 ];

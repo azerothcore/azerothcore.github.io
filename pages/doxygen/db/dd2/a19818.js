@@ -1,5 +1,6 @@
 var a19818 =
 [
-    [ "npc_icc_buff_switcher", "db/dd2/a19818.html#aeabc3d97c88bf12177b824524af3ae1d", null ],
-    [ "OnGossipSelect", "db/dd2/a19818.html#abb3310d3eb5cf4f1c2a0a3ac46ddd7ba", null ]
+    [ "npc_pool_of_tarAI", "db/dd2/a19818.html#a6141addc9b1cf2c0028d98ef4f4d9d37", null ],
+    [ "DamageTaken", "db/dd2/a19818.html#a4ea55aa08123f724268238e0def5b595", null ],
+    [ "SpellHit", "db/dd2/a19818.html#acb63166b396c079d5b4bb9db67a1448a", null ]
 ];

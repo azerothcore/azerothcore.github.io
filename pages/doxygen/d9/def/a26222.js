@@ -1,7 +1,9 @@
 var a26222 =
 [
-    [ "npc_kservantAI", "d9/def/a26222.html#a0687712690f2bacd24da1c94d222e761", null ],
-    [ "IsSummonedBy", "d9/def/a26222.html#a6aa9c1544fffdd9916eda7a0941dc828", null ],
-    [ "Reset", "d9/def/a26222.html#a0756ffacb97c83a3028afc620b32f349", null ],
-    [ "WaypointReached", "d9/def/a26222.html#a577a2ebb91c08bfe2e09bc67eeebb4ef", null ]
+    [ "HandleAfterCast", "d9/def/a26222.html#ac08e632064c407346649f525d030d335", null ],
+    [ "HandleDummy", "d9/def/a26222.html#a9c1dadd5a3e2e039b50a414ac589ebf4", null ],
+    [ "Load", "d9/def/a26222.html#a177525c755b036a79263c0fa6fa4082e", null ],
+    [ "PrepareSpellScript", "d9/def/a26222.html#aed99b07a53068b19bddb4daff3449a52", null ],
+    [ "Register", "d9/def/a26222.html#a946e56a325d83656d9b43af80d065e45", null ],
+    [ "_triggerSpellId", "d9/def/a26222.html#a6697a22b684784853cb1999d41fcaaa7", null ]
 ];

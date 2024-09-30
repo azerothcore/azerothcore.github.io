@@ -1,6 +1,8 @@
 var a26466 =
 [
-    [ "FilterTargets", "d9/d51/a26466.html#a991a944f31680e4d53cc2a46d8c8b8bf", null ],
-    [ "PrepareSpellScript", "d9/d51/a26466.html#aea49df3f6b93223ed72c3a9875232b74", null ],
-    [ "Register", "d9/d51/a26466.html#a8f0e0b6363303def780d35415c88b4d6", null ]
+    [ "CheckCast", "d9/d51/a26466.html#a16983545e25f3e02064e2b3d573b2bb8", null ],
+    [ "CheckQuest", "d9/d51/a26466.html#abc927d932c1d5e05eab1918364d68ed5", null ],
+    [ "HandleActiveObject", "d9/d51/a26466.html#a95f7bd6dd52b19bb1c09975a7286882a", null ],
+    [ "PrepareSpellScript", "d9/d51/a26466.html#a96e69476965cc2466213a5371a57093a", null ],
+    [ "Register", "d9/d51/a26466.html#a83c48e1c42a6a6dd892f0f4d6a20687b", null ]
 ];

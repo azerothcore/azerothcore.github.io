@@ -1,6 +1,5 @@
 var a12306 =
 [
-    [ "spell_karazhan_overload_AuraScript", "d0/db0/a12310.html", "d0/db0/a12310" ],
-    [ "spell_karazhan_overload", "d4/d9f/a12306.html#ab93464d97df9a26eb18f3e1709adbfb9", null ],
-    [ "GetAuraScript", "d4/d9f/a12306.html#a23845f38ed1bb1f7406ad70f0208be1c", null ]
+    [ "go_blackened_urn", "d4/d9f/a12306.html#aaa311353e693a0dd7fd9a6f8e617e0ab", null ],
+    [ "OnGossipHello", "d4/d9f/a12306.html#ab091bd54734acc65532303a391441ee2", null ]
 ];

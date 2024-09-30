@@ -1,8 +1,13 @@
 var a08878 =
 [
-    [ "AllWorldObjectsInExactRange", "da/d48/a08878.html#a0281d22587b9b1bdbfbdd8dccc625186", null ],
-    [ "operator()", "da/d48/a08878.html#afe0bea69ddd5e275363361bf37284840", null ],
-    [ "_equals", "da/d48/a08878.html#aebb4cb9e84cf91cca235fe663dba8d60", null ],
-    [ "_object", "da/d48/a08878.html#a5fba0e3c7cde76bfe56f8e9e9716412b", null ],
-    [ "_range", "da/d48/a08878.html#ae40de8ce49bb429243e5059b6d14398f", null ]
+    [ "WorldObjectListSearcher", "da/d48/a08878.html#aad6ee62da3f21c7838767dd3af871ad7", null ],
+    [ "Visit", "da/d48/a08878.html#a154998e616ba17d66cf4899debc92ca1", null ],
+    [ "Visit", "da/d48/a08878.html#a64e8d7854baa93e4390703fe986f6777", null ],
+    [ "Visit", "da/d48/a08878.html#a28ded6ec2d69f1a1bd298a9aa11206e1", null ],
+    [ "Visit", "da/d48/a08878.html#a18572bc1f4cfde19476ac9df393296b2", null ],
+    [ "Visit", "da/d48/a08878.html#a2a8a0d1f3fd10e5254a47ed99e7e9ce7", null ],
+    [ "Visit", "da/d48/a08878.html#a8cebd0149bfccc4fdeb30dda9505f0c0", null ],
+    [ "i_check", "da/d48/a08878.html#a6ae05d2ed15201356600cda7d0d5a6c3", null ],
+    [ "i_mapTypeMask", "da/d48/a08878.html#a1d6dc64937ae790d7414456e4644c13b", null ],
+    [ "i_phaseMask", "da/d48/a08878.html#a6b29bb94ed2ec6f508b25d45c11f72fd", null ]
 ];

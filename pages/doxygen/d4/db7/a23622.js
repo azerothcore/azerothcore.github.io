@@ -1,6 +1,8 @@
 var a23622 =
 [
-    [ "spell_switch_infragreen_bomber_station_SpellScript", "de/dad/a23626.html", "de/dad/a23626" ],
-    [ "spell_switch_infragreen_bomber_station", "d4/db7/a23622.html#a84cea14cb58f4a39365e63a3054cbe7d", null ],
-    [ "GetSpellScript", "d4/db7/a23622.html#a372fd523b85158c8dce225cd3c972b4d", null ]
+    [ "FilterTargets", "d4/db7/a23622.html#ae366594b668331a19f384ceb48654c0c", null ],
+    [ "HandleOnHit", "d4/db7/a23622.html#abe5665fde7f01fafdfb55c58d8edbcf1", null ],
+    [ "PrepareSpellScript", "d4/db7/a23622.html#a71aa4018d293391a73d3317c1e80951d", null ],
+    [ "Register", "d4/db7/a23622.html#a3da162fd2cafc2e1236db0c6d4f65440", null ],
+    [ "Validate", "d4/db7/a23622.html#a3747ad271dc659436ae7a8203b964554", null ]
 ];

@@ -1,8 +1,12 @@
 var a27634 =
 [
-    [ "HandleDummy", "df/db9/a27634.html#a57897df074b7766c022526e082b4a13b", null ],
-    [ "Load", "df/db9/a27634.html#a47cbade67be124496c6194391ab51794", null ],
-    [ "PrepareSpellScript", "df/db9/a27634.html#af5e5a22976adfa5588ca8e054e19a669", null ],
-    [ "Register", "df/db9/a27634.html#ab0c3be8436b79288bb45899448fd6c1b", null ],
-    [ "Validate", "df/db9/a27634.html#a97d037267e385e0d3fd80543a5ddb366", null ]
+    [ "categoryId", "df/db9/a27634.html#a1de0e4302757f18c08b90b40e059737b", null ],
+    [ "count", "df/db9/a27634.html#a93aac150067979467f56d9919ff665a4", null ],
+    [ "flags", "df/db9/a27634.html#a5c0dfb5b3c0711aff47d3d604ded2d1a", null ],
+    [ "ID", "df/db9/a27634.html#a843fee247948d02f7aaf04144cb37ef5", null ],
+    [ "mapID", "df/db9/a27634.html#ab3d41381808c8bdc163554f7c46f6bc6", null ],
+    [ "name", "df/db9/a27634.html#a806cfeddc475994f1b421679bd9699e6", null ],
+    [ "points", "df/db9/a27634.html#abc2b4cf9c6580c6bc99d5c47d7539374", null ],
+    [ "refAchievement", "df/db9/a27634.html#a858661b2e3479fa3fc2e029ae0d8a145", null ],
+    [ "requiredFaction", "df/db9/a27634.html#a722dbda5ed8d74f5a1e75bdec8841aa3", null ]
 ];

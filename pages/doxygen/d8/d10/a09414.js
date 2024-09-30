@@ -1,15 +1,16 @@
 var a09414 =
 [
-    [ "HomeMovementGenerator", "d8/d10/a09414.html#af52495a86296d288d2312bf8616108d0", null ],
-    [ "~HomeMovementGenerator", "d8/d10/a09414.html#a9d889b5112f6c93a0707227fc65dd902", null ],
-    [ "_setTargetLocation", "d8/d10/a09414.html#a7ac3be92303b77b640c7199ec65184dd", null ],
-    [ "DoFinalize", "d8/d10/a09414.html#ab1ce2df22dba7759ca28a77532a17db1", null ],
-    [ "DoInitialize", "d8/d10/a09414.html#aaa6f7b1aa064be00a726539830d6c30e", null ],
-    [ "DoReset", "d8/d10/a09414.html#acfebf75bcd7cc62c1b0105eb0c5e9100", null ],
-    [ "DoUpdate", "d8/d10/a09414.html#a4e3c1f79f8115312f22612a4b8c6fede", null ],
-    [ "GetMovementGeneratorType", "d8/d10/a09414.html#aaa203c37c8259c8b54ad5ec70db484f1", null ],
-    [ "unitSpeedChanged", "d8/d10/a09414.html#ac5078f624899e574a7b56b72e2824b9a", null ],
-    [ "_walk", "d8/d10/a09414.html#a97f3cd9b1c5919ffe9ab979d8ad4e747", null ],
-    [ "arrived", "d8/d10/a09414.html#aab9cd0057a625afef2d96feebd6428fb", null ],
-    [ "i_recalculateTravel", "d8/d10/a09414.html#a77b40bcbada8ea43accae23ceb642628", null ]
+    [ "ServerMail", "d8/d10/a09414.html#a50cf3e6929e397a3c1de83b9fcf83416", null ],
+    [ "active", "d8/d10/a09414.html#a24a12fcafd0b0f4a7c0558737d8fd71f", null ],
+    [ "body", "d8/d10/a09414.html#a58d352611dcb35126f6ec93622ddc4b9", null ],
+    [ "id", "d8/d10/a09414.html#a6b47994eff9201a6a75f8c621b64716c", null ],
+    [ "itemA", "d8/d10/a09414.html#a2d5232d5e111f5af7446940f92aaf9df", null ],
+    [ "itemCountA", "d8/d10/a09414.html#abb24673f0b21f715f3e112e232cec35b", null ],
+    [ "itemCountH", "d8/d10/a09414.html#ac9b6e655136616b040788c55d80706da", null ],
+    [ "itemH", "d8/d10/a09414.html#ab7dc4da9b86a39ecb5c28ec071f17112", null ],
+    [ "moneyA", "d8/d10/a09414.html#a6a84ca583beef891422f67bef7919c47", null ],
+    [ "moneyH", "d8/d10/a09414.html#a0e899ce54283bc000cc6afb96e6a3244", null ],
+    [ "reqLevel", "d8/d10/a09414.html#a494ce9c800d1545b023b9ff526f8b994", null ],
+    [ "reqPlayTime", "d8/d10/a09414.html#abfa7c7fe76fd085fc8726dcba600e10e", null ],
+    [ "subject", "d8/d10/a09414.html#a246e499c69c57a436aac4c039ea37d31", null ]
 ];

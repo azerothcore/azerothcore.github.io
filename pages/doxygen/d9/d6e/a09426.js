@@ -1,10 +1,9 @@
 var a09426 =
 [
-    [ "DistractMovementGenerator", "d9/d6e/a09426.html#a55879290b06f4fc86a1da791c07b7afb", null ],
-    [ "Finalize", "d9/d6e/a09426.html#aa4a2b943ecde8750bd764290d65872df", null ],
-    [ "GetMovementGeneratorType", "d9/d6e/a09426.html#a0b30745bf1cd7b5a264e970273595592", null ],
-    [ "Initialize", "d9/d6e/a09426.html#a71410ddbda2be6b34bb2276a83fea5c9", null ],
-    [ "Reset", "d9/d6e/a09426.html#ad544709b2873b63b28d27ab414c280ba", null ],
-    [ "Update", "d9/d6e/a09426.html#ad5a15c1507b8ab315b658351077629b3", null ],
-    [ "m_timer", "d9/d6e/a09426.html#a8b520d8e97704ac39ce28c2256557b42", null ]
+    [ "RectangleBoundary", "d9/d6e/a09426.html#af401f84700a15fa1d4fcf78358a74735", null ],
+    [ "IsWithinBoundaryArea", "d9/d6e/a09426.html#a2d6c735d080382263a401d91da37b934", null ],
+    [ "_maxX", "d9/d6e/a09426.html#a3eff421dfe942634814e7526334f1c07", null ],
+    [ "_maxY", "d9/d6e/a09426.html#a9ec96dfb6b1ee804cceaae2f2dce6a22", null ],
+    [ "_minX", "d9/d6e/a09426.html#a77db64ebe7e7f5e9621bbbd6e38837e1", null ],
+    [ "_minY", "d9/d6e/a09426.html#af5a7e35d5d9ff23c722643141f01a916", null ]
 ];

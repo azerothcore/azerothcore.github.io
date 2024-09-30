@@ -1,6 +1,7 @@
 var a21942 =
 [
-    [ "boss_thorim_sif_blizzardAI", "d2/db7/a21946.html", "d2/db7/a21946" ],
-    [ "boss_thorim_sif_blizzard", "d4/d76/a21942.html#acc42b4c9434f9eece2d93c2e4f3697fc", null ],
-    [ "GetAI", "d4/d76/a21942.html#afbff96363951c952a195f5c2a105e279", null ]
+    [ "HandleScript", "d4/d76/a21942.html#a7fec959237546201ea94d5f87068e1c5", null ],
+    [ "PrepareSpellScript", "d4/d76/a21942.html#ae0c3eafc8b227078a2dcaccf1c0a278b", null ],
+    [ "Register", "d4/d76/a21942.html#a0aab07a4950f60a290491aa13103b332", null ],
+    [ "Validate", "d4/d76/a21942.html#a92d5493a43fca5c54ef89cb19ce00aa2", null ]
 ];

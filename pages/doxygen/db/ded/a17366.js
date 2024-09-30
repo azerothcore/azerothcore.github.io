@@ -1,6 +1,7 @@
 var a17366 =
 [
-    [ "spell_exploding_orb_auto_grow_AuraScript", "de/d5f/a17370.html", "de/d5f/a17370" ],
-    [ "spell_exploding_orb_auto_grow", "db/ded/a17366.html#a7f7099a266ff0613625a7475bc97d519", null ],
-    [ "GetAuraScript", "db/ded/a17366.html#ac7ddc269f9a93d1101a56dad976aad8a", null ]
+    [ "HandleScript", "db/ded/a17366.html#a101e5e995dd27dcc6b6a4b475eed0989", null ],
+    [ "PrepareSpellScript", "db/ded/a17366.html#a8f668b88a41585cabeace574b30b4f85", null ],
+    [ "Register", "db/ded/a17366.html#a8fae161a91fae297b99079bde218ced8", null ],
+    [ "Validate", "db/ded/a17366.html#a4d1a8c28eefff22afdbf15ab57a6a7fd", null ]
 ];

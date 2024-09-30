@@ -1,5 +1,8 @@
 var a26862 =
 [
-    [ "PrepareSpellScript", "da/da4/a26862.html#a2d0e411f3b4a9efed35ee34c7bf03252", null ],
-    [ "Register", "da/da4/a26862.html#a560ff22e718e8a975a2e2dc2340da917", null ]
+    [ "HandleDamage", "da/da4/a26862.html#a371d3112e619453b7c92933a145bf4d2", null ],
+    [ "HandleDummy", "da/da4/a26862.html#a051f68946f3c246b410bbaa2ac14e4b1", null ],
+    [ "PrepareSpellScript", "da/da4/a26862.html#a41d69ed3f8372c4e157aefbec6ad525c", null ],
+    [ "Register", "da/da4/a26862.html#aaa1e53f38a2ba835c12fa726c030ab08", null ],
+    [ "Validate", "da/da4/a26862.html#a180ab99bc257b841e0bbbfc0ddb83814", null ]
 ];

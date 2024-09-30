@@ -1,13 +1,10 @@
 var a24110 =
 [
-    [ "OPvPCapturePointEP_CGT", "d3/d25/a24110.html#a82d8e9bff56eed1870b098dcf21f77cd", null ],
-    [ "ChangeState", "d3/d25/a24110.html#ab9d32c9a60bbdca9fc54d7e0b2bf8a5d", null ],
-    [ "FillInitialWorldStates", "d3/d25/a24110.html#af3fae27818d6213c2c96ce68676ede82", null ],
-    [ "HandlePlayerEnter", "d3/d25/a24110.html#a48cb29473f25ed9b469c7ff54acc9d88", null ],
-    [ "HandlePlayerLeave", "d3/d25/a24110.html#ad1886046ecf8c382e1fd0e01d6394614", null ],
-    [ "LinkGraveyard", "d3/d25/a24110.html#ada14179a31fb6235b7882a190dc96c40", null ],
-    [ "SendChangePhase", "d3/d25/a24110.html#a30d9f8701dd6a78740f7df0d2c7ceb9d", null ],
-    [ "UpdateTowerState", "d3/d25/a24110.html#a764284d6143d4879b5bc003acc52048c", null ],
-    [ "m_GraveyardSide", "d3/d25/a24110.html#aaf1f8440dc891ed45857bb7d15149d9a", null ],
-    [ "m_TowerState", "d3/d25/a24110.html#a6f434f86ed97f88368e3194a3bc3183b", null ]
+    [ "npc_infernal_attackerAI", "d3/d25/a24110.html#ae04c4e026f22bd650bb33940b923df9a", null ],
+    [ "IsSummonedBy", "d3/d25/a24110.html#a926e6cd6772784872a905de7245007ac", null ],
+    [ "JustDied", "d3/d25/a24110.html#a1822131520f98dd5f1dd637282f20ae3", null ],
+    [ "Reset", "d3/d25/a24110.html#a6c871d05d4fd0a6f72f409285f012f9c", null ],
+    [ "SpellHit", "d3/d25/a24110.html#a956f3fb1e341519817599df08afc2589", null ],
+    [ "UpdateAI", "d3/d25/a24110.html#a458ba4c884a95080e1088a07a04a9cb9", null ],
+    [ "casterGUID", "d3/d25/a24110.html#ab2e791cc0a67012bc56c3b07e3f327e9", null ]
 ];

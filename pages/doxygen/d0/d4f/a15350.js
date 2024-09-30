@@ -1,21 +1,13 @@
 var a15350 =
 [
-    [ "npc_rizzle_sprysprocketAI", "d0/d4f/a15350.html#a74b59a5721c46cddf13e9532a36f6a6d", null ],
-    [ "AttackStart", "d0/d4f/a15350.html#a87aa5e5e66f5f083829cf8dd78d9dc75", null ],
-    [ "JustEngagedWith", "d0/d4f/a15350.html#a9c39a4c8302fb507f9c7b09ebf871c5e", null ],
-    [ "MovementInform", "d0/d4f/a15350.html#a6ba4af8eee61bd6f562b25e096fcf0a8", null ],
-    [ "Reset", "d0/d4f/a15350.html#a060a25159570525af2d624f3f153eadf", null ],
-    [ "sGossipSelect", "d0/d4f/a15350.html#ab69a38bfe7a5b18b7f11b1f4df4c293a", null ],
-    [ "UpdateAI", "d0/d4f/a15350.html#ab2b1307113e4c91af94ea3ed4cbe8697", null ],
-    [ "CheckTimer", "d0/d4f/a15350.html#a2bb7b9a55427023156175bd2305a77fe", null ],
-    [ "ContinueWP", "d0/d4f/a15350.html#a85b90ae315a7957eba416d9c44f457ff", null ],
-    [ "CurrWP", "d0/d4f/a15350.html#acd4a2ef2157d47d3571d6c61d9dfdd4a", null ],
-    [ "Escape", "d0/d4f/a15350.html#a300700dc91eb4b49ec7cbf42c998feb4", null ],
-    [ "GrenadeTimer", "d0/d4f/a15350.html#ad43496d1ba134a19b49ecfae871f49ba", null ],
-    [ "MustDie", "d0/d4f/a15350.html#a8eae3901791679ef5609f929ddc83fc9", null ],
-    [ "MustDieTimer", "d0/d4f/a15350.html#a044f7c15ed58b67d02d6e1f6b76ad573", null ],
-    [ "PlayerGUID", "d0/d4f/a15350.html#a28482e22f80316de1b2e4ebd54875f13", null ],
-    [ "Reached", "d0/d4f/a15350.html#a1962eac2fa0403b965e5534d09bfc8a5", null ],
-    [ "SpellEscapeTimer", "d0/d4f/a15350.html#a4f2a0f04c8c126ac4ef31a45f74f7f77", null ],
-    [ "TeleportTimer", "d0/d4f/a15350.html#a4df0058661b6251c39497ee5b872c33e", null ]
+    [ "npc_shenthulAI", "d0/d4f/a15350.html#ae056474022c27be5565bf018a1b56f0b", null ],
+    [ "JustEngagedWith", "d0/d4f/a15350.html#acb202ef530bc11ea807f580ff5dfc621", null ],
+    [ "ReceiveEmote", "d0/d4f/a15350.html#ab2ddc3e447b36cb0fceffdaff0fca592", null ],
+    [ "Reset", "d0/d4f/a15350.html#af077e96eb8bf89af2d6eb79907444a17", null ],
+    [ "UpdateAI", "d0/d4f/a15350.html#a2ae643c11c6ea3808be922de96a24e8f", null ],
+    [ "CanEmote", "d0/d4f/a15350.html#a920209c374e611e96347d209337c044f", null ],
+    [ "CanTalk", "d0/d4f/a15350.html#a82ea8d2ee50538135add120be7616f86", null ],
+    [ "PlayerGUID", "d0/d4f/a15350.html#a4b262388aca789d19231426a8cb73379", null ],
+    [ "ResetTimer", "d0/d4f/a15350.html#a475a141d639f0136ac943e6afb1ecd15", null ],
+    [ "SaluteTimer", "d0/d4f/a15350.html#ae76b4bbde77b6029a788abfbbbe84df8", null ]
 ];

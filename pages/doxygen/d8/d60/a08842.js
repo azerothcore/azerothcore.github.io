@@ -1,8 +1,6 @@
 var a08842 =
 [
-    [ "AllCreaturesOfEntryInRange", "d8/d60/a08842.html#a02aca6b65bd5ea49d510bb8d901e1322", null ],
-    [ "operator()", "d8/d60/a08842.html#a99f472f33c0e5a6a76d6ffc08af2783b", null ],
-    [ "m_fRange", "d8/d60/a08842.html#a0cb7d140b51d52e0db5b8d9f70250ced", null ],
-    [ "m_pObject", "d8/d60/a08842.html#ade8cc66e1cd421550d2674e3ad960f48", null ],
-    [ "m_uiEntry", "d8/d60/a08842.html#abf653360d2ee482728fb137a37fe0512", null ]
+    [ "PlayerRelocationNotifier", "d8/d60/a08842.html#a01cbecc2a9727d822b94a90b0c3035aa", null ],
+    [ "Visit", "d8/d60/a08842.html#ab9b3ad469216db3a7a49176b41b0b1ea", null ],
+    [ "Visit", "d8/d60/a08842.html#acffc7490cb9b0cf171a1cfc6e1dbdc79", null ]
 ];

@@ -1,6 +1,6 @@
 var a23746 =
 [
-    [ "npc_vekjik", "de/d39/a23746.html#a7439c6038237b77ba8623ae92d6cf708", null ],
-    [ "OnGossipHello", "de/d39/a23746.html#acdbba5b4970049e72477eccf6672b0e8", null ],
-    [ "OnGossipSelect", "de/d39/a23746.html#a0bcdcb6cd57264e664c449e261d3580b", null ]
+    [ "OnApply", "de/d39/a23746.html#a472220f22165c6d21eab5f4b5f75921e", null ],
+    [ "PrepareAuraScript", "de/d39/a23746.html#a12dba24d5aa3d41671980d8dd509d6f2", null ],
+    [ "Register", "de/d39/a23746.html#aa8530071a4053e6c6f8b194a9cc723e2", null ]
 ];

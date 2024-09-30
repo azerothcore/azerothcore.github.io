@@ -1,6 +1,6 @@
 var a22350 =
 [
-    [ "spell_yogg_saron_sanity_well_AuraScript", "d9/dd9/a22354.html", "d9/dd9/a22354" ],
-    [ "spell_yogg_saron_sanity_well", "d2/d87/a22350.html#ab57ca3a33d7dafc680e26c6d9dd00ddb", null ],
-    [ "GetAuraScript", "d2/d87/a22350.html#a1cb0d0db1b4efbb6fa4bab66048e8d45", null ]
+    [ "PrepareSpellScript", "d2/d87/a22350.html#ae9a4734c9b12473f86c91a49860d56dd", null ],
+    [ "RecalculateDamage", "d2/d87/a22350.html#ad47d51e68c6ffe60f15beceaffc60b19", null ],
+    [ "Register", "d2/d87/a22350.html#a0dbeb30ba0eb22f4eb762f0a14cc6f39", null ]
 ];

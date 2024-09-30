@@ -1,6 +1,6 @@
 var a20786 =
 [
-    [ "spell_hos_dark_matter_AuraScript", "dc/d32/a20790.html", "dc/d32/a20790" ],
-    [ "spell_hos_dark_matter", "d7/d2e/a20786.html#af170db9adc5adb20f8d6a3e95cd60124", null ],
-    [ "GetAuraScript", "d7/d2e/a20786.html#a2277580897f7533440713157d9cd863f", null ]
+    [ "boss_yoggsaron_lich_kingAI", "dc/d32/a20790.html", "dc/d32/a20790" ],
+    [ "boss_yoggsaron_lich_king", "d7/d2e/a20786.html#a1655d608683e90ccafd350204eed2d31", null ],
+    [ "GetAI", "d7/d2e/a20786.html#aa65cd9c9eafba12ae065903868ee5319", null ]
 ];

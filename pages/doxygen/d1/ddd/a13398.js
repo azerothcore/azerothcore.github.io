@@ -1,12 +1,17 @@
 var a13398 =
 [
-    [ "npc_sentinel_infiltrator", "d1/ddd/a13398.html#a40ce6808a4d0622eb88a669485335020", null ],
-    [ "Initialize", "d1/ddd/a13398.html#acc94269a3ede4c897f457a270e9a9c12", null ],
-    [ "JustEngagedWith", "d1/ddd/a13398.html#a2c9927468b92d00b60efac851eacfef1", null ],
-    [ "MovementInform", "d1/ddd/a13398.html#a57aef1c4ce7a491408c2c6b19d4d4cf2", null ],
-    [ "Reset", "d1/ddd/a13398.html#a0f26dbe23efdf572f81723dff1d3eeaf", null ],
-    [ "UpdateAI", "d1/ddd/a13398.html#ac676246948689c891c0f9cca7f8bc8b6", null ],
-    [ "_events", "d1/ddd/a13398.html#a296d6c70b6c439319cc69a9d39005e62", null ],
-    [ "_fleedForAssistance", "d1/ddd/a13398.html#a948c9d2081b33e18aa927fb18598c8ad", null ],
-    [ "_path", "d1/ddd/a13398.html#a32d531478df327ccb0bb85e262420813", null ]
+    [ "pyrewood_ambushAI", "d1/ddd/a13398.html#a29af91205e33cdde314edf35a44223a0", null ],
+    [ "JustDied", "d1/ddd/a13398.html#a27edb00452f9d43fc25c21b4f2e70ba3", null ],
+    [ "JustEngagedWith", "d1/ddd/a13398.html#a22f4ee8582e1f99ffa49664088ca10d2", null ],
+    [ "JustSummoned", "d1/ddd/a13398.html#abbf652df1707f706be1507122f852040", null ],
+    [ "Reset", "d1/ddd/a13398.html#a65b370d028a2d47c4c6aeec737769d08", null ],
+    [ "SummonCreatureWithRandomTarget", "d1/ddd/a13398.html#a32dfe2544ad6af64f1c4a4de0fe2acc2", null ],
+    [ "SummonedCreatureDespawn", "d1/ddd/a13398.html#aaf23bf0a443a21db123b39625cc1b3fc", null ],
+    [ "UpdateAI", "d1/ddd/a13398.html#a7bc951934bfdb04f1bdc00719c567cae", null ],
+    [ "KillCount", "d1/ddd/a13398.html#a18887d364811047446ad77525cea7386", null ],
+    [ "Phase", "d1/ddd/a13398.html#aec1fc4163f3fb2d4a6047f8849c22fae", null ],
+    [ "PlayerGUID", "d1/ddd/a13398.html#aac20edbf41d884daee88a7dc0a9fefb8", null ],
+    [ "QuestInProgress", "d1/ddd/a13398.html#a8ad845d7389f7b430c9e6878234aae82", null ],
+    [ "Summons", "d1/ddd/a13398.html#ab07bf154dfff45075900fbb4a6372623", null ],
+    [ "WaitTimer", "d1/ddd/a13398.html#a1d6ca4989cf7360a18655198ccdb5459", null ]
 ];

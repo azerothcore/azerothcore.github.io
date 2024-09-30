@@ -1,7 +1,6 @@
 var a23082 =
 [
-    [ "npc_valiance_keep_cannoneerAI", "d1/d23/a23082.html#a0769e975c5c7ff1cfbfa6089e3e55e3f", null ],
-    [ "Reset", "d1/d23/a23082.html#a65718076e65b68cae0a54ff4112fdb4b", null ],
-    [ "UpdateAI", "d1/d23/a23082.html#a75f16f2b028ca341db6e08536be06bfa", null ],
-    [ "uiTimer", "d1/d23/a23082.html#a0cf5f0413b1cded835252a38e272f835", null ]
+    [ "OnPeriodic", "d1/d23/a23082.html#a4d3d6350a06b6c7382792670c04e38e1", null ],
+    [ "PrepareAuraScript", "d1/d23/a23082.html#ac9231c238adf7e733d55bc6098daddc0", null ],
+    [ "Register", "d1/d23/a23082.html#aa6aa32b3adc89ac405f071fa9b804778", null ]
 ];

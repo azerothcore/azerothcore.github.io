@@ -1,6 +1,9 @@
 var a27926 =
 [
-    [ "FilterTargets", "d3/df5/a27926.html#aad5d183d0d7ea229cbfc11f751536624", null ],
-    [ "PrepareSpellScript", "d3/df5/a27926.html#a68ba19142ae6eb04a2547495233700df", null ],
-    [ "Register", "d3/df5/a27926.html#a22c313409438f94d29ab3e236a56c115", null ]
+    [ "HolidayWorldStateId", "d3/df5/a27926.html#a3f70ffbb1abb5a96fe91c2eec3682c8b", null ],
+    [ "id", "d3/df5/a27926.html#a52f7840f9247d2af63062dd280b37341", null ],
+    [ "mapid", "d3/df5/a27926.html#a11e1326eeb24b436b10db53acc323c13", null ],
+    [ "maxGroupSize", "d3/df5/a27926.html#adbdae47b424c3b61b76b48ea5798f52d", null ],
+    [ "name", "d3/df5/a27926.html#a9a56ca930ff8425d4b77066e47a1e09f", null ],
+    [ "type", "d3/df5/a27926.html#a647669b97599d7edf02b5a38dd1d5116", null ]
 ];

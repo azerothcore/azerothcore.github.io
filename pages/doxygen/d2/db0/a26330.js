@@ -1,6 +1,6 @@
 var a26330 =
 [
-    [ "npc_pet_dk_ebon_gargoyleAI", "da/de2/a26334.html", "da/de2/a26334" ],
-    [ "npc_pet_dk_ebon_gargoyle", "d2/db0/a26330.html#ae4dcaff120a52c20a8b73d97a08604d7", null ],
-    [ "GetAI", "d2/db0/a26330.html#a19ff9fd627aab738c91ce23cf6acfffd", null ]
+    [ "HandleEffectApply", "d2/db0/a26330.html#a111ce5c9e70ed563bc7b9c2ec8e79b76", null ],
+    [ "PrepareAuraScript", "d2/db0/a26330.html#a707504eccf42af77f6e6e927d208bc8c", null ],
+    [ "Register", "d2/db0/a26330.html#a7aeaa28997bbe966274a738cf45323ed", null ]
 ];

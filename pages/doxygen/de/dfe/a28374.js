@@ -1,6 +1,7 @@
 var a28374 =
 [
-    [ "HandleEffectPeriodic", "de/dfe/a28374.html#a29eb3f3dadd45ccab069222fc36cea09", null ],
-    [ "PrepareAuraScript", "de/dfe/a28374.html#aaa8296439ffe69eafdd1cece8ec346ad", null ],
-    [ "Register", "de/dfe/a28374.html#a0a62a0bcf39a781289e1467384ac82cb", null ]
+    [ "RealmHandle", "de/dfe/a28374.html#a120fb45f2301188a843ab2e712f768e4", null ],
+    [ "RealmHandle", "de/dfe/a28374.html#ac3e04e9790e1ae75b9701f1a84b9f6e2", null ],
+    [ "operator<", "de/dfe/a28374.html#ad414bab23a3ecfb3cabb146d5f43bf3e", null ],
+    [ "Realm", "de/dfe/a28374.html#a31af0d9064a295b1579fce3c80217bfd", null ]
 ];

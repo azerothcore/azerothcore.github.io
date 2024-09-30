@@ -1,8 +1,7 @@
 var a23406 =
 [
-    [ "AfterApply", "d1/d13/a23406.html#a57279552b867251e9d2ee6a4ff5d7914", null ],
-    [ "PeriodicTick", "d1/d13/a23406.html#a2e86aa6efe6ab137926c1dfd1bd26a95", null ],
-    [ "PrepareAuraScript", "d1/d13/a23406.html#a9e1b74bf2d28a367caefdc90c34743c8", null ],
-    [ "Register", "d1/d13/a23406.html#a69eb0ca43a15d4995ad219459c2b39d6", null ],
-    [ "Validate", "d1/d13/a23406.html#a946248656cb755f85dd93fd4d607c9a7", null ]
+    [ "CalcPeriodic", "d1/d13/a23406.html#aeae100fb3ab86b9064c3923472fbd45d", null ],
+    [ "PrepareAuraScript", "d1/d13/a23406.html#a290913502dfe3dfb42b44a964468b97c", null ],
+    [ "Register", "d1/d13/a23406.html#aea7a6e4bcbc97d19393d790a28a4483a", null ],
+    [ "Update", "d1/d13/a23406.html#ab3bdb3a14c6d130d295553e635acb47c", null ]
 ];

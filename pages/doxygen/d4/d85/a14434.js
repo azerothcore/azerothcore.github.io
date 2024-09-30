@@ -1,6 +1,9 @@
 var a14434 =
 [
-    [ "HandleDummy", "d4/d85/a14434.html#aa75140309e66c28590a64e10676356da", null ],
-    [ "PrepareSpellScript", "d4/d85/a14434.html#a21c4872e16c18c2918dfbea366e61df3", null ],
-    [ "Register", "d4/d85/a14434.html#a841c9277224cbae878946deb288b87a1", null ]
+    [ "npc_ancient_wisp", "d4/d85/a14434.html#a70e45e500b3490a034b058ca2ec16d39", null ],
+    [ "DamageTaken", "d4/d85/a14434.html#ad7d96e6b54cdc23a5101338474125e71", null ],
+    [ "JustEngagedWith", "d4/d85/a14434.html#a755ed852b3149ada65c5750410776fc8", null ],
+    [ "Reset", "d4/d85/a14434.html#a1c33cc47d7f60b2b3eb60852f1c36820", null ],
+    [ "UpdateAI", "d4/d85/a14434.html#a51ca214de826d7126f32e49f6852bca3", null ],
+    [ "_instance", "d4/d85/a14434.html#a5e5e51944d49cc52bed4ff4953513f1f", null ]
 ];

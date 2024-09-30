@@ -1,6 +1,6 @@
 var a23714 =
 [
-    [ "HandleHealPct", "db/d68/a23714.html#aed2ba1813d9cb2315fac39a9fa9e25f3", null ],
-    [ "PrepareSpellScript", "db/d68/a23714.html#a40b41e8781681fc4d80170b9b9f9fca0", null ],
-    [ "Register", "db/d68/a23714.html#af57b056e4dbae56279f65c6f2f28eff5", null ]
+    [ "instance_the_botanica_InstanceMapScript", "d0/d96/a23718.html", "d0/d96/a23718" ],
+    [ "instance_the_botanica", "db/d68/a23714.html#a8f8acda65f37e45e2439707f3979cf7c", null ],
+    [ "GetInstanceScript", "db/d68/a23714.html#a335f671443ca0fb9db5956cefdf37182", null ]
 ];

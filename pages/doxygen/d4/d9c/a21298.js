@@ -1,5 +1,12 @@
 var a21298 =
 [
-    [ "boss_freya_iron_rootAI", "d4/d9c/a21298.html#a5e982f5f41433f43a7a0e1d18e009b7b", null ],
-    [ "JustDied", "d4/d9c/a21298.html#ad35297f0fa2039749b89d38c2b4f08b9", null ]
+    [ "boss_lavanthorAI", "d4/d9c/a21298.html#aa562ad1ee029a35adebf8eac8f8249f3", null ],
+    [ "EnterEvadeMode", "d4/d9c/a21298.html#a0334d92f1ddf30235efe298df622535b", null ],
+    [ "JustDied", "d4/d9c/a21298.html#a300dbedf5514998e7065a2ef44a65f1f", null ],
+    [ "JustEngagedWith", "d4/d9c/a21298.html#a9820ec47af72af19f00b172ee138f908", null ],
+    [ "MoveInLineOfSight", "d4/d9c/a21298.html#aa613f70d93be479aa701675dfdb2d3e3", null ],
+    [ "Reset", "d4/d9c/a21298.html#a55d5cc6906033b5c56daa3ed15fabf0f", null ],
+    [ "UpdateAI", "d4/d9c/a21298.html#ab77ac2c78e94fed437e8ccefba4e363c", null ],
+    [ "events", "d4/d9c/a21298.html#a273adc56adefe9810013bc80950f2624", null ],
+    [ "pInstance", "d4/d9c/a21298.html#ad6059577c5e131523f39316c2291b421", null ]
 ];

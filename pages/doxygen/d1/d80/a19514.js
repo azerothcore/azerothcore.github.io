@@ -1,13 +1,7 @@
 var a19514 =
 [
-    [ "npc_highlord_tirion_fordringAI", "d1/d80/a19514.html#a8852f9196a6609f317b6113ac2eee9ee", null ],
-    [ "Reset", "d1/d80/a19514.html#a80051b1b2a663997304b1754a3f9ff25", null ],
-    [ "SetData", "d1/d80/a19514.html#a5642aab7afc50a7494c43ae7a130d571", null ],
-    [ "UpdateAI", "d1/d80/a19514.html#ac3c8dc2e5bf6e0c3f380f395a785ad49", null ],
-    [ "_bolvarFordragon", "d1/d80/a19514.html#a8e8ae990a6e70a70ce6de3a13300261c", null ],
-    [ "_damnedKills", "d1/d80/a19514.html#a56e035884d2ab94629c133efc1fc8feb", null ],
-    [ "_events", "d1/d80/a19514.html#a8d8d6f1b8dc65b28a8117426e3767762", null ],
-    [ "_factionNPC", "d1/d80/a19514.html#acf9a436edcbfe3fcf47f56c5cf90cfb2", null ],
-    [ "_instance", "d1/d80/a19514.html#acd16d6200b08df23576aa9ccbb060d31", null ],
-    [ "_theLichKing", "d1/d80/a19514.html#afbe85d7002e34cfcb9414f2beda4e0a2", null ]
+    [ "creature", "d1/d80/a19514.html#a55a6ee677ab51120867f542e5a5745b0", null ],
+    [ "sound", "d1/d80/a19514.html#a407acf5c908aa44a169adc1e88a70ab4", null ],
+    [ "text", "d1/d80/a19514.html#a9ed157ddf2c274d021820723b1ebe00e", null ],
+    [ "timer", "d1/d80/a19514.html#a198a3a5a4ad037b591fc3b85675bdfe1", null ]
 ];

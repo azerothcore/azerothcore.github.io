@@ -1,18 +1,10 @@
 var a08310 =
 [
-    [ "GameEventData", "d6/da3/a08310.html#ab7963b01d9e138d79f06274ea57b9590", null ],
-    [ "isValid", "d6/da3/a08310.html#a7a91c9c9cc68593812b13f6efd2ea4ff", null ],
-    [ "announce", "d6/da3/a08310.html#a7271996d66a36e41b21502fa4d5305fe", null ],
-    [ "conditions", "d6/da3/a08310.html#adca87b4b2205273a29dd2a547be90da6", null ],
-    [ "description", "d6/da3/a08310.html#aebdadbaadbba367601674146a27a283f", null ],
-    [ "end", "d6/da3/a08310.html#a1bf3980d02cd0dc304b2ffbd5afb7b9f", null ],
-    [ "eventId", "d6/da3/a08310.html#a858501847212a8771f676641ad61aacd", null ],
-    [ "holiday_id", "d6/da3/a08310.html#aa13c2c2eacb9475e18c1d1370566e988", null ],
-    [ "holidayStage", "d6/da3/a08310.html#a23a3f6d7f036f6c5b47b84ef1242d056", null ],
-    [ "length", "d6/da3/a08310.html#ac45297bad99ddb339b3aa18ec5912c1c", null ],
-    [ "nextstart", "d6/da3/a08310.html#ae0259f021337b3ad47dfbbc1f361965f", null ],
-    [ "occurence", "d6/da3/a08310.html#a04c813525fef572000608f32650565ff", null ],
-    [ "prerequisite_events", "d6/da3/a08310.html#acd7a8d00e76cd09cbbbd345987b8644f", null ],
-    [ "start", "d6/da3/a08310.html#ac4da43ddbb3b95f00589f49ed250092d", null ],
-    [ "state", "d6/da3/a08310.html#a54a6e90fd4b68093a99e32b198eab2fb", null ]
+    [ "PvPInfo", "d6/da3/a08310.html#ad956667bc89b49e5a520ee5a4f19f22e", null ],
+    [ "EndTimer", "d6/da3/a08310.html#ae06b5030552c02f30fe8386633a753df", null ],
+    [ "FFAPvPEndTimer", "d6/da3/a08310.html#a739dfc63dfe39429a44ea682d9120522", null ],
+    [ "IsHostile", "d6/da3/a08310.html#a22a1c8f0e8c51f4a27cb8ab362028d61", null ],
+    [ "IsInFFAPvPArea", "d6/da3/a08310.html#a8a654926248b3974587af1eb9c064d15", null ],
+    [ "IsInHostileArea", "d6/da3/a08310.html#a92d3c8991f7e3c5d683b414d18cbbd64", null ],
+    [ "IsInNoPvPArea", "d6/da3/a08310.html#a6858b8db9a441bf950f7d9fdca1587b5", null ]
 ];

@@ -1,8 +1,9 @@
 var a25886 =
 [
-    [ "instance_mechanar_InstanceMapScript", "d1/db7/a25886.html#a728d427162c0f56e7d229c55ff88bfbd", null ],
-    [ "OnCreatureCreate", "d1/db7/a25886.html#aa0c6a84a6ace9299b18f0cc54263b398", null ],
-    [ "OnGameObjectCreate", "d1/db7/a25886.html#a236a8c67ca57ffc7d2161c00e8acbd64", null ],
-    [ "OnGameObjectRemove", "d1/db7/a25886.html#ac79c4f1dad7f2caf1278e242ec8fadc9", null ],
-    [ "_pathaleonGUID", "d1/db7/a25886.html#aaf5c80af5ba2ba46b3c53ccffaaa1d3b", null ]
+    [ "HandleAfterCast", "d1/db7/a25886.html#afd2fbc51ac1e99789994021af36688f3", null ],
+    [ "HandleTriggerSpell", "d1/db7/a25886.html#ae140ab00101f081454b55e12a7c54440", null ],
+    [ "Load", "d1/db7/a25886.html#a3dbb3541f0ec3f614d1f18fd92f9bc03", null ],
+    [ "PrepareSpellScript", "d1/db7/a25886.html#a7fd1a83dd49cee4f52913a40caf3ef88", null ],
+    [ "Register", "d1/db7/a25886.html#a3e9d0ff0bd71ea6d87fb9a7edcfa9a1c", null ],
+    [ "_triggerSpellId", "d1/db7/a25886.html#a9a3efd5cf45d15cf8112a82d33dca731", null ]
 ];

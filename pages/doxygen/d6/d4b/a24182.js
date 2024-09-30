@@ -1,5 +1,5 @@
 var a24182 =
 [
-    [ "OutdoorPvP_zangarmarsh", "d6/d4b/a24182.html#ae287d5df21bf75efab6c651f4f3d875e", null ],
-    [ "GetOutdoorPvP", "d6/d4b/a24182.html#a145ddfe383663ed3fb46960e39691f8f", null ]
+    [ "go_crystal_prison", "d6/d4b/a24182.html#a0faca8b76f9650ee5cc7825b90463365", null ],
+    [ "OnQuestAccept", "d6/d4b/a24182.html#ad19d8bdf8361d5d7fca2917a6bf0977a", null ]
 ];

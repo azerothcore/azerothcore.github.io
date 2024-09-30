@@ -1,7 +1,7 @@
 var a11654 =
 [
-    [ "boss_ebonrocAI", "d5/d96/a11654.html#a73be20fda4e3f8cb7623796f3c32d741", null ],
-    [ "JustEngagedWith", "d5/d96/a11654.html#a2c74e0030b1093d79245978939043d53", null ],
-    [ "MovementInform", "d5/d96/a11654.html#ac1e16bb5ac18b55fbfb8af5078df270f", null ],
-    [ "UpdateAI", "d5/d96/a11654.html#aa2059c3834fbcfda3c8da5743bd2501f", null ]
+    [ "boss_okthorAI", "d5/d96/a11654.html#a8007cfade5c04d8b4e0b787ac5a5beff", null ],
+    [ "JustEngagedWith", "d5/d96/a11654.html#a466a618e52f40e04e873dd50f3728755", null ],
+    [ "UpdateAI", "d5/d96/a11654.html#a246c3bd9aa96eb11d2fa48be8654d726", null ],
+    [ "nextArcaneExplosionTime", "d5/d96/a11654.html#a89d8cdd528775ee77caeac1d0465d4f2", null ]
 ];

@@ -1,8 +1,8 @@
 var a16658 =
 [
-    [ "npc_toc_warlockAI", "da/d22/a16658.html#a4c4c2f502f00ca48bb7419434d88ea3a", null ],
-    [ "JustSummoned", "da/d22/a16658.html#a203ef748afaa400aa1f8365b5d7bf6b1", null ],
-    [ "myCanCast", "da/d22/a16658.html#a62b2df362bc07aa4a9c14cbc63a10e05", null ],
-    [ "UpdateAI", "da/d22/a16658.html#a554849d02d923439bd810b7d8c242afa", null ],
-    [ "events", "da/d22/a16658.html#a3b84c70d246bbf5b70ab4dec06c647b3", null ]
+    [ "npc_fos_leaderAI", "d2/dfd/a16662.html", "d2/dfd/a16662" ],
+    [ "npc_fos_leader", "da/d22/a16658.html#a4223072bc180e990ff9e01bf772def5b", null ],
+    [ "GetAI", "da/d22/a16658.html#a6eca5c95aa3a8498790d8bf52f0741f8", null ],
+    [ "OnGossipHello", "da/d22/a16658.html#a3858054505d439902624378b9355f40d", null ],
+    [ "OnGossipSelect", "da/d22/a16658.html#a1b743c6f270a2bdbd09940a414a1b437", null ]
 ];

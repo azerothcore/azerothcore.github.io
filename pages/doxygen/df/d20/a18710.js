@@ -1,6 +1,19 @@
 var a18710 =
 [
-    [ "DespawnSelf", "df/d20/a18710.html#a5345a03dcd239786fd52a19749b86a62", null ],
-    [ "PrepareAuraScript", "df/d20/a18710.html#a7c2d322d08514b993569bf6852494c05", null ],
-    [ "Register", "df/d20/a18710.html#a5a203c469dd0070eb4b2dd667ebaebfd", null ]
+    [ "npc_icc_gauntlet_controllerAI", "df/d20/a18710.html#adbbf6f95a44678d914726fa52486228f", null ],
+    [ "DoAction", "df/d20/a18710.html#adaa7997c59f72f7823f232a6f455a0af", null ],
+    [ "JustDied", "df/d20/a18710.html#a00540cf0e82728e9df7c9c467bbe85b7", null ],
+    [ "JustReachedHome", "df/d20/a18710.html#afd30d6da8e6fc0e8a44876ea0a30f8ec", null ],
+    [ "JustSummoned", "df/d20/a18710.html#a1cba9c05581011ab431f163ffa1b05a7", null ],
+    [ "Reset", "df/d20/a18710.html#a055c417bea83de7a4ca61f304d89bb2f", null ],
+    [ "ScheduleBroodlings", "df/d20/a18710.html#a528438f30ae06119b09c69319e7c534a", null ],
+    [ "SpidersMoveDown", "df/d20/a18710.html#a8c92d94464461c36c97d435e8738323b", null ],
+    [ "SummonBroodling", "df/d20/a18710.html#a625cce7142666144af0d6f1e81f56979", null ],
+    [ "SummonedCreatureDies", "df/d20/a18710.html#aad2d9e8a269c62231b4d6bc907350a30", null ],
+    [ "SummonFrostwardens", "df/d20/a18710.html#a6f07ad3f631570b720ef5ecc91e80bf2", null ],
+    [ "SummonSpiders", "df/d20/a18710.html#afa30ecef9c1c29b55d6f9d4752396354", null ],
+    [ "UpdateAI", "df/d20/a18710.html#a141faa27c651b9d1512c6b5861f511d9", null ],
+    [ "events", "df/d20/a18710.html#a5f883ab0efea055ebb07e118ab857378", null ],
+    [ "instance", "df/d20/a18710.html#ac13065009325babb60746630518cfc3b", null ],
+    [ "summons", "df/d20/a18710.html#ad2203400007c842b181ab62ba710cc69", null ]
 ];

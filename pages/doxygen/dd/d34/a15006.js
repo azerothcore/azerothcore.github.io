@@ -1,5 +1,6 @@
 var a15006 =
 [
-    [ "pathId", "dd/d34/a15006.html#aefd9fa5c6e7f45047994c7cc47e5967c", null ],
-    [ "spellId", "dd/d34/a15006.html#af495f984d5b81baeaa61ddca127a9508", null ]
+    [ "boss_veknilash", "dd/d34/a15006.html#a73a4095c3dd0ffbd9d7ef5a8a837f13f", null ],
+    [ "IAmVeklor", "dd/d34/a15006.html#a454027d829b962ee0feebb6fd5687714", null ],
+    [ "JustEngagedWith", "dd/d34/a15006.html#ace8de3d9a397d0571da1f5bdd2ba84d5", null ]
 ];

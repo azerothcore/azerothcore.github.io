@@ -1,7 +1,11 @@
 var a13054 =
 [
-    [ "FilterTargets", "dc/d37/a13054.html#a3d825420d6e2c02e5e0bb07240c2efbc", null ],
-    [ "HandleDummy", "dc/d37/a13054.html#aa63bfb989205495f69eafe739989e8d7", null ],
-    [ "PrepareSpellScript", "dc/d37/a13054.html#acf853f6383951b47feca881f971189cc", null ],
-    [ "Register", "dc/d37/a13054.html#a121a9c4945c93b1709ccb336ca2bc53e", null ]
+    [ "boss_kalecAI", "dc/d37/a13054.html#ab6a59e4743e74b9c36192e5d11927001", null ],
+    [ "DamageTaken", "dc/d37/a13054.html#a42cf873d30d4b902f3f9343e7eec332b", null ],
+    [ "JustDied", "dc/d37/a13054.html#aa635dc1fc5595f57eaeb9e5f35ca0be8", null ],
+    [ "JustEngagedWith", "dc/d37/a13054.html#a9ba045f376c3bb6e29de71d58da3ccb9", null ],
+    [ "Reset", "dc/d37/a13054.html#ac13d863aafad4d3a7f1759d1ab756092", null ],
+    [ "UpdateAI", "dc/d37/a13054.html#ad5d12cc394792d314061faa6ed22ea2a", null ],
+    [ "events", "dc/d37/a13054.html#aad92e2e1df667e255bb6435d5ee1b9ea", null ],
+    [ "events2", "dc/d37/a13054.html#a9a0dcb5a67c4a02aba7b0085796a41bc", null ]
 ];

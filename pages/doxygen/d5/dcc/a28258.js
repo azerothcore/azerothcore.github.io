@@ -1,6 +1,8 @@
 var a28258 =
 [
-    [ "HandleDummy", "d5/dcc/a28258.html#aee5967205738ebaef70e1105e8d91b2c", null ],
-    [ "PrepareSpellScript", "d5/dcc/a28258.html#a1ef5914adfd2c951a68f50658852e095", null ],
-    [ "Register", "d5/dcc/a28258.html#af42b6d5a5fbb5eb84773818594813afc", null ]
+    [ "Color", "d5/dcc/a28258.html#a670fb4e2a31958f81d46047f74d9916f", null ],
+    [ "Comparator", "d5/dcc/a28258.html#ace0bdad11edd9db12e45d374da623793", null ],
+    [ "CompareColor", "d5/dcc/a28258.html#a801e2221bbb1b6aab67a57381901cf08", null ],
+    [ "ID", "d5/dcc/a28258.html#aae73769db40326d298bb1d04eef38871", null ],
+    [ "Value", "d5/dcc/a28258.html#ac314a9a6b447d386e31a286811f66538", null ]
 ];

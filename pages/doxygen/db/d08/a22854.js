@@ -1,16 +1,12 @@
 var a22854 =
 [
-    [ "boss_xevozzAI", "db/d08/a22854.html#a422359074a43e84ee6462b61fc4ce6a9", null ],
-    [ "EnterEvadeMode", "db/d08/a22854.html#a5557f799c862759c8fd94a98cadee7d5", null ],
-    [ "JustDied", "db/d08/a22854.html#a6e66dec2e1bc198d9b3e855366ca8b02", null ],
-    [ "JustEngagedWith", "db/d08/a22854.html#a0f8c06f3e0934eb22bf8a26aa3238b50", null ],
-    [ "JustSummoned", "db/d08/a22854.html#a04787f7600a817fd63132676590505a8", null ],
-    [ "KilledUnit", "db/d08/a22854.html#ad47008e9044815cc4475adbaf3ece543", null ],
-    [ "MoveInLineOfSight", "db/d08/a22854.html#a519c1222ef186067dcb9a98bb84ea031", null ],
-    [ "Reset", "db/d08/a22854.html#a435b22ca3c7e573d4e3c70e2497063e7", null ],
-    [ "SummonedCreatureDespawn", "db/d08/a22854.html#ab6e7bb57110831079ede943a74641bd4", null ],
-    [ "UpdateAI", "db/d08/a22854.html#aa61271e4a9d8e13ac875f6efd550aa4b", null ],
-    [ "events", "db/d08/a22854.html#a8a5796089d42dad89c9cec5ea4d38321", null ],
-    [ "pInstance", "db/d08/a22854.html#a9eda85f10a814efa32f7b224e1772b89", null ],
-    [ "spheres", "db/d08/a22854.html#ab1d51bbfd433b37b8ceec15a18d62b17", null ]
+    [ "boss_essence_of_sufferingAI", "db/d08/a22854.html#a98de7f0b7d12d0981854129cbeab0d0d", null ],
+    [ "DamageTaken", "db/d08/a22854.html#a347ef26e4ecdc83ca80c9fd9a93bd97d", null ],
+    [ "DoAction", "db/d08/a22854.html#a08724d74523866969b12d13846eb4c1e", null ],
+    [ "JustEngagedWith", "db/d08/a22854.html#aa2fce36768ad6e23a955cd215ca759db", null ],
+    [ "KilledUnit", "db/d08/a22854.html#a3699b19f23cf15115ff8c92691a6d334", null ],
+    [ "MovementInform", "db/d08/a22854.html#a4ff66e57277bc3bc6e8d2fb8bc585cd7", null ],
+    [ "Reset", "db/d08/a22854.html#affa55b69784d8f881598189c361c986e", null ],
+    [ "UpdateAI", "db/d08/a22854.html#abb60432720b3720832ccc83d454a3808", null ],
+    [ "_recentlySpoken", "db/d08/a22854.html#a71a28a61e97f6278836649411493484f", null ]
 ];

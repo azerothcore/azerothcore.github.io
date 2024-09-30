@@ -1,5 +1,6 @@
 var a22118 =
 [
-    [ "achievement_xt002_nerf_engineering", "d6/ddc/a22118.html#a5be8c0a8a51d81c4014ec0ab92c21f79", null ],
-    [ "OnCheck", "d6/ddc/a22118.html#a2b401f51d1ba7ed817f95d81d1048adf", null ]
+    [ "npc_mcmanus", "d6/ddc/a22118.html#a4e9da3fa22b74f51f72c58cbf22dc683", null ],
+    [ "OnGossipHello", "d6/ddc/a22118.html#acb8f8b9c10387c0bb45b7d68f7f9821f", null ],
+    [ "OnGossipSelect", "d6/ddc/a22118.html#a5e8c37ebcfa737ee3066ab8df3e453f8", null ]
 ];

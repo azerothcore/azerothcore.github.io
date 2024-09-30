@@ -1,6 +1,7 @@
 var a16322 =
 [
-    [ "spell_halion_leave_twilight_realm_AuraScript", "d1/dc4/a16326.html", "d1/dc4/a16326" ],
-    [ "spell_halion_leave_twilight_realm", "d3/df2/a16322.html#a52386565c87af25bb94ce00f16a8454c", null ],
-    [ "GetAuraScript", "d3/df2/a16322.html#ae45002e73c2c549ab070f2e4d0215329", null ]
+    [ "npc_toc_enh_shamanAI", "d3/df2/a16322.html#ae1ef5395722e42660c1856d6faf52cbb", null ],
+    [ "myCanCast", "d3/df2/a16322.html#a8a38da4063a22361b25835a67f14ff52", null ],
+    [ "UpdateAI", "d3/df2/a16322.html#a4aa59b136b97859d15b39fd2fbbdf53d", null ],
+    [ "events", "d3/df2/a16322.html#adec973540bf3b046f54547fb845c06b1", null ]
 ];

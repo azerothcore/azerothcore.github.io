@@ -1,6 +1,8 @@
 var a10754 =
 [
-    [ "EffectCalcSpellModHandler", "d1/d5e/a10754.html#abe81396a3f1c1b3b07c10cf0e191546c", null ],
-    [ "Call", "d1/d5e/a10754.html#a5ca2a9c329a7dbbb7e835849ca4479aa", null ],
-    [ "pEffectHandlerScript", "d1/d5e/a10754.html#a15c0b24641cb04f31bb3d651dae59448", null ]
+    [ "SkillExtraItemEntry", "d1/d5e/a10754.html#a3f7a8bc0b81407e7d5567c7da3e65ec5", null ],
+    [ "SkillExtraItemEntry", "d1/d5e/a10754.html#a39a44cb09912cb0a15a5dd3b18787d16", null ],
+    [ "additionalCreateChance", "d1/d5e/a10754.html#a299d886468e9caf22f9d6ce80a64c247", null ],
+    [ "newMaxOrEntry", "d1/d5e/a10754.html#adfda967d36154b039495f0b289a5c9d1", null ],
+    [ "requiredSpecialization", "d1/d5e/a10754.html#a0ba0ba6f012a10b717ca4e6c2f46cf26", null ]
 ];

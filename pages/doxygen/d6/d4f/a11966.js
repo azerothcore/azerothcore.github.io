@@ -1,6 +1,8 @@
 var a11966 =
 [
-    [ "bossId", "d6/d4f/a11966.html#a898f2ce24d96fb7d6a118e9772344c43", null ],
-    [ "circleId", "d6/d4f/a11966.html#aaa379e61fda2f7225ab4089757df5d24", null ],
-    [ "runeId", "d6/d4f/a11966.html#aa7ac7e2d5729aa906e00ca9c2648581d", null ]
+    [ "FilterTargets", "d6/d4f/a11966.html#a03acb7fb2734d9c8e8e623600bc16859", null ],
+    [ "FilterTargetsEff", "d6/d4f/a11966.html#a8aeffd2a01c805246c33d22a59274c6f", null ],
+    [ "PrepareSpellScript", "d6/d4f/a11966.html#ae00bc9956c9971d62d9185c72d3bd8b5", null ],
+    [ "Register", "d6/d4f/a11966.html#aba646a238c3b4b7343f3eec8c6445eb5", null ],
+    [ "targetList", "d6/d4f/a11966.html#a874dc7877ecfae332c9f826f01afce0f", null ]
 ];

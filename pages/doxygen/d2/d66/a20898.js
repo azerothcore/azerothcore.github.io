@@ -1,6 +1,6 @@
 var a20898 =
 [
-    [ "spell_algalon_remove_phase_AuraScript", "d8/d2f/a20902.html", "d8/d2f/a20902" ],
-    [ "spell_algalon_remove_phase", "d2/d66/a20898.html#a82cc71a8c3c4b5d330ae5e51da171d11", null ],
-    [ "GetAuraScript", "d2/d66/a20898.html#acfa9371b85ab9bae73c407835375038e", null ]
+    [ "achievement_yogg_saron_he_waits_dreaming", "d2/d66/a20898.html#a25f4950d1ccffe77aa9cf5de7a14ea37", null ],
+    [ "OnCheck", "d2/d66/a20898.html#a7ef7dfb0235fb2db5932e7415e3e6f61", null ],
+    [ "_requiredIllusion", "d2/d66/a20898.html#aa3e107cb3be6fa02687709e07466a094", null ]
 ];

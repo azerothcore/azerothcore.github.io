@@ -1,6 +1,8 @@
 var a28582 =
 [
-    [ "CheckProc", "df/dfe/a28582.html#a945c4617cba249ee76045ce032f12c3c", null ],
-    [ "PrepareAuraScript", "df/dfe/a28582.html#abdcb401acb80eb732dbf56bbbcf79801", null ],
-    [ "Register", "df/dfe/a28582.html#a912dd7ea10038103bb6d242bb7723830", null ]
+    [ "TileConfig", "df/dfe/a28582.html#a67b10c747fb0d2bc2a263e5009d42e1b", null ],
+    [ "BASE_UNIT_DIM", "df/dfe/a28582.html#a5a882b0595456ab3fcca85c80af3b6f8", null ],
+    [ "TILES_PER_MAP", "df/dfe/a28582.html#ae3443f89a8a698823c91096abe51a6a9", null ],
+    [ "VERTEX_PER_MAP", "df/dfe/a28582.html#a46640a80428b1ab93d65d593c03d13ed", null ],
+    [ "VERTEX_PER_TILE", "df/dfe/a28582.html#ae0331739074e5546818e13527a76524a", null ]
 ];

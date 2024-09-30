@@ -1,8 +1,7 @@
 var a10246 =
 [
-    [ "CrossedInebriationThreshold", "db/d0e/a10246.html#a8983b7b88a76955d9a0e2241ffb1e472", null ],
-    [ "Write", "db/d0e/a10246.html#a127dcfcc7e960d24e56d1b17bf9be992", null ],
-    [ "Guid", "db/d0e/a10246.html#a422afb45b6c5e9c4fef58fb1801bd0ad", null ],
-    [ "ItemID", "db/d0e/a10246.html#a9e48a650bf21872099cdb0626e875fd7", null ],
-    [ "Threshold", "db/d0e/a10246.html#a87b756b64cbfb8f292f46cce38308095", null ]
+    [ "QueryGuildInfoResponse", "db/d0e/a10246.html#ae1f7b9f33e36821477a19439a3d4065d", null ],
+    [ "Write", "db/d0e/a10246.html#abda9452eba38e76c460f910eb3aad5fa", null ],
+    [ "GuildId", "db/d0e/a10246.html#a04eec0531238fa55a91afa11c394fbce", null ],
+    [ "Info", "db/d0e/a10246.html#a749e992a19264b259f62d403b4925abe", null ]
 ];

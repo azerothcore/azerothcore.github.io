@@ -1,7 +1,10 @@
 var a09898 =
 [
-    [ "AutoStoreBankItem", "da/dda/a09898.html#a1cdb7e9c7da7e646af14ac4ac3b7e950", null ],
-    [ "Read", "da/dda/a09898.html#a2a482b716f537866a815085ead9cfd38", null ],
-    [ "Bag", "da/dda/a09898.html#a08d2992816ee94b6757c2811b54ed437", null ],
-    [ "Slot", "da/dda/a09898.html#aaf2cd8c1c3d67301cc40af78f138daa0", null ]
+    [ "Flags", "da/dda/a09898.html#abf9c2701e766951e5a211bf6bf85b175", null ],
+    [ "ID", "da/dda/a09898.html#a946b8f7244fd22c4afcb26373ee61a13", null ],
+    [ "needSave", "da/dda/a09898.html#aae888b1bf10f654ee212f3d687c111e9", null ],
+    [ "needSend", "da/dda/a09898.html#ab8692e4433db81f9d3e0f96f8f930a8f", null ],
+    [ "ReputationListID", "da/dda/a09898.html#a052caeeae1ecdca831097591e0fddaf6", null ],
+    [ "roundedUp", "da/dda/a09898.html#a287fe9e8ec5da58ae3f5096045eebf31", null ],
+    [ "Standing", "da/dda/a09898.html#ae87da6cada559e11a9607e194013d671", null ]
 ];

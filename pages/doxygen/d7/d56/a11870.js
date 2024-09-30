@@ -1,6 +1,7 @@
 var a11870 =
 [
-    [ "boss_magmadarAI", "d7/d56/a11870.html#a47207fdd6eb94fb08791da06cd4160f6", null ],
-    [ "ExecuteEvent", "d7/d56/a11870.html#a7d4c1807cb320fdc331057209a4ce166", null ],
-    [ "JustEngagedWith", "d7/d56/a11870.html#a5ce1495d01f28e0a38f00127e7137a4f", null ]
+    [ "go_suppression_deviceAI", "d0/d8d/a11874.html", "d0/d8d/a11874" ],
+    [ "go_suppression_device", "d7/d56/a11870.html#a900713d6b029015f8868a96e5e1b9018", null ],
+    [ "GetAI", "d7/d56/a11870.html#aa51bb6f9616022c1f4e1e711ca1130e8", null ],
+    [ "OnLootStateChanged", "d7/d56/a11870.html#a684546c3ce0c0785d52a87eb011ef313", null ]
 ];

@@ -1,6 +1,9 @@
 var a13022 =
 [
-    [ "boss_kalecgosAI", "d8/dc5/a13026.html", "d8/dc5/a13026" ],
-    [ "boss_kalecgos", "d4/d3f/a13022.html#a7e65f80e4dbee9dbb2e891884abaa196", null ],
-    [ "GetAI", "d4/d3f/a13022.html#a1eab7d3ee459cb88a21efd8da834fc0e", null ]
+    [ "npc_demonic_vapor_trailAI", "d4/d3f/a13022.html#ad1a5de140e171c8de6f5152f84cfed0f", null ],
+    [ "JustSummoned", "d4/d3f/a13022.html#a1a210b80dc4ed757d3bf07583cc57adc", null ],
+    [ "Reset", "d4/d3f/a13022.html#a71e3fde121e72e0cc4a1e07d17799a53", null ],
+    [ "SpellHitTarget", "d4/d3f/a13022.html#a2de56cd29096804b72861ed1718d28dc", null ],
+    [ "UpdateAI", "d4/d3f/a13022.html#a1762dc6690f7cb2ad579dc0fbe6383b7", null ],
+    [ "timer", "d4/d3f/a13022.html#a1c19faff5d18583c90c9977f7b03ddaa", null ]
 ];

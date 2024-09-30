@@ -1,6 +1,7 @@
 var a28182 =
 [
-    [ "HandleScript", "db/dce/a28182.html#ae81570045d4984ee5682a0333b1b142d", null ],
-    [ "PrepareSpellScript", "db/dce/a28182.html#acb074781e07961998362349a7616fc4e", null ],
-    [ "Register", "db/dce/a28182.html#aaf41593da5ebb1118ccb10a5d4d32b26", null ]
+    [ "EpicPropertiesPoints", "db/dce/a28182.html#a35dc60a15091357e03032226621340f7", null ],
+    [ "itemLevel", "db/dce/a28182.html#a35506e3235c2c24230058dc2fb9abc4f", null ],
+    [ "RarePropertiesPoints", "db/dce/a28182.html#a9359171635ef3e9a0029820fad286368", null ],
+    [ "UncommonPropertiesPoints", "db/dce/a28182.html#a74acb6861a84d5d193038eaa5ac9b12f", null ]
 ];

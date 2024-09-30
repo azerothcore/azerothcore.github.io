@@ -1,7 +1,6 @@
 var a17426 =
 [
-    [ "npc_pos_icicle_triggerAI", "de/d00/a17426.html#a28477c5f88b5ec77dc3e021ec01401ce", null ],
-    [ "UpdateAI", "de/d00/a17426.html#a32d9b6bd2f0b994adb33e2bd99dd34ce", null ],
-    [ "pInstance", "de/d00/a17426.html#ad4ed0e2380c62cc6dd7d309edfd34ac1", null ],
-    [ "timer", "de/d00/a17426.html#a91277c41ddebffed7e9dac7098cd78bd", null ]
+    [ "npc_zafod_boomboxAI", "d4/d6d/a17430.html", "d4/d6d/a17430" ],
+    [ "npc_zafod_boombox", "de/d00/a17426.html#a7124746ed3f25ae6d96a2fa1910d98d0", null ],
+    [ "GetAI", "de/d00/a17426.html#af80f6913cef53d39cafdcd47b2cd07f0", null ]
 ];

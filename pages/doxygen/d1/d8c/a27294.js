@@ -1,10 +1,8 @@
 var a27294 =
 [
-    [ "Load", "d1/d8c/a27294.html#a04526f30ad35af3f629cdd0c8312e33c", null ],
-    [ "OnApply", "d1/d8c/a27294.html#a83d922c434442e22482410d61aa0198f", null ],
-    [ "OnPetApply", "d1/d8c/a27294.html#a6df5e59e29cb89310a1c78bf93029545", null ],
-    [ "OnRemove", "d1/d8c/a27294.html#aa4efa4ed7d98c63989353c398bb2b128", null ],
-    [ "PrepareAuraScript", "d1/d8c/a27294.html#a1b4d8f636c01f01bc9380c290de91a0e", null ],
-    [ "Register", "d1/d8c/a27294.html#a265726c9bfa180c3b8f470eb1eee837b", null ],
-    [ "Validate", "d1/d8c/a27294.html#ab318472ea9f4aaa79e45f18783586eed", null ]
+    [ "go_bellsAI", "d1/d8c/a27294.html#a6f22847c66a3b5faded35da799359846", null ],
+    [ "UpdateAI", "d1/d8c/a27294.html#ab466f67665577f22bfe6cdb94d0a008b", null ],
+    [ "_events", "d1/d8c/a27294.html#a46c66442078cee28a76fc412746ca026", null ],
+    [ "_soundId", "d1/d8c/a27294.html#ab2491e9d27266ea69a5a9163e8c1b35b", null ],
+    [ "once", "d1/d8c/a27294.html#abf6ca2fc64f5764936a6d0179d40c2fa", null ]
 ];

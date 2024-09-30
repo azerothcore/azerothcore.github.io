@@ -1,10 +1,10 @@
 var a14646 =
 [
-    [ "npc_abominationAI", "df/ded/a14646.html#a1fc6ab1b6a20cda892a9a8c2465de3bf", null ],
-    [ "JustEngagedWith", "df/ded/a14646.html#a62d0aa6f0913409656e9fe459513f450", null ],
-    [ "Reset", "df/ded/a14646.html#a006b45d030c1c6b3ea16f83640f5bb80", null ],
-    [ "UpdateAI", "df/ded/a14646.html#ac1740cbd4427160fde070322682aba0a", null ],
-    [ "WaypointReached", "df/ded/a14646.html#a0f1f3264a508cc9c09992545d8944fbd", null ],
-    [ "go", "df/ded/a14646.html#a9cb20b2b3d9cdf309ee03965094d3800", null ],
-    [ "KnockDownTimer", "df/ded/a14646.html#a78b587780fe4c74203a6ed442893d0a5", null ]
+    [ "npc_tarethaAI", "df/ded/a14646.html#ad403cdcdc2648bb23687e3a3a7bdbb03", null ],
+    [ "AttackStart", "df/ded/a14646.html#a09d91ea8e5923ebc3c0ad01f09f93408", null ],
+    [ "DoAction", "df/ded/a14646.html#adbb40db0b70532a20731cf5039e44d0b", null ],
+    [ "MoveInLineOfSight", "df/ded/a14646.html#afa0427372e43316851018bf78274707f", null ],
+    [ "Reset", "df/ded/a14646.html#ae4d9f3d5751e8a8e0468a80d46f4a4c4", null ],
+    [ "WaypointReached", "df/ded/a14646.html#a6946bc02ec686c8af943c9e913c8aee6", null ],
+    [ "instance", "df/ded/a14646.html#a3c0f4a61cf5b8da6b885ef7bf9813205", null ]
 ];

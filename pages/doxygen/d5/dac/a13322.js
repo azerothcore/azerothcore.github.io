@@ -1,9 +1,9 @@
 var a13322 =
 [
-    [ "npc_professor_phizzlethorpeAI", "d5/dac/a13322.html#a92af4732575008c1a4f061cef0f23902", null ],
-    [ "JustEngagedWith", "d5/dac/a13322.html#a8864031e3c7a32cde57ca6efbf785d53", null ],
-    [ "JustSummoned", "d5/dac/a13322.html#af8e4e706925d8837cacdc0b5a6d1f10d", null ],
-    [ "sQuestAccept", "d5/dac/a13322.html#ad4a4bd9af581abe832933da69b18d76f", null ],
-    [ "UpdateAI", "d5/dac/a13322.html#a1c62cd07da5f0da91ef572bb00619d26", null ],
-    [ "WaypointReached", "d5/dac/a13322.html#a7be58c6ecc4e5ba23ec35cc1864f19e6", null ]
+    [ "npc_partygoer", "d5/dac/a13322.html#af053caedfd1fa8173b875f521d279418", null ],
+    [ "Initialize", "d5/dac/a13322.html#a9012ff95e5cead3c02f9eeb30f29a9f6", null ],
+    [ "Reset", "d5/dac/a13322.html#ad1936099ec5696a2a593e5041b0360c6", null ],
+    [ "UpdateAI", "d5/dac/a13322.html#a423df8a3de7d23221ea4d62a0c65fefc", null ],
+    [ "_events", "d5/dac/a13322.html#ad5095ee005ecb89ca54b0663d41e20ac", null ],
+    [ "_facing", "d5/dac/a13322.html#a9e934091894987ec091b03090bf733e5", null ]
 ];

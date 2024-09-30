@@ -1,7 +1,6 @@
 var a19882 =
 [
-    [ "DelayedCastMincharEvent", "dc/db6/a19882.html#a76d8a08ca273eec5b2e083d136336a15", null ],
-    [ "Execute", "dc/db6/a19882.html#a12aeff246d07e541ed192974320842cb", null ],
-    [ "_spellId", "dc/db6/a19882.html#af4ea90407b2c8a283f137d213ffe97be", null ],
-    [ "_trigger", "dc/db6/a19882.html#a9f3cd02e77ad35b98a6753b792383548", null ]
+    [ "OnPeriodic", "dc/db6/a19882.html#a379c55df994c58932fef7e7a59fd8426", null ],
+    [ "PrepareAuraScript", "dc/db6/a19882.html#ab180f54264f0c90376587d1b4c4dfd40", null ],
+    [ "Register", "dc/db6/a19882.html#aacfaa385ca4cbe64217ef191a32936e2", null ]
 ];

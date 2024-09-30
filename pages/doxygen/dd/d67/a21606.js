@@ -1,6 +1,6 @@
 var a21606 =
 [
-    [ "spell_ignis_scorch_AuraScript", "d3/df0/a21610.html", "d3/df0/a21610" ],
-    [ "spell_ignis_scorch", "dd/d67/a21606.html#aa278414eee7e3b6462405a72a4834b0e", null ],
-    [ "GetAuraScript", "dd/d67/a21606.html#a2088147ba5961a3f33d830870e73f084", null ]
+    [ "npc_steam_powered_auctioneerAI", "d3/df0/a21610.html", "d3/df0/a21610" ],
+    [ "npc_steam_powered_auctioneer", "dd/d67/a21606.html#ae8c918c639ce0c3ddc14b8cf7f0ef855", null ],
+    [ "GetAI", "dd/d67/a21606.html#a39a2f0c187078c759bc4a391e0a81068", null ]
 ];

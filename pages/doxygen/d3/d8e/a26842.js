@@ -1,6 +1,7 @@
 var a26842 =
 [
-    [ "PrepareSpellScript", "d3/d8e/a26842.html#a209f68c2a9824ad771f7b6a25d4c4663", null ],
-    [ "Register", "d3/d8e/a26842.html#a759b195d4631a371bef3e6398e128034", null ],
-    [ "SelectTarget", "d3/d8e/a26842.html#a676c6fdbced0ea7e945c4724c9adf145", null ]
+    [ "HandleDummy", "d3/d8e/a26842.html#a3af91500357eb127f813334bdf538dbd", null ],
+    [ "PrepareSpellScript", "d3/d8e/a26842.html#ae34ff5e6027efecc34fa770690df5887", null ],
+    [ "Register", "d3/d8e/a26842.html#add4e4d484008d1e1cf63e36c6b6e9757", null ],
+    [ "Validate", "d3/d8e/a26842.html#a0b107442c0b76a018cc019f776c0b785", null ]
 ];

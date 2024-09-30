@@ -1,5 +1,5 @@
 var a03146 =
 [
-    [ "disable_commandscript", "d6/dd0/a11304.html", "d6/dd0/a11304" ],
-    [ "AddSC_disable_commandscript", "dc/df0/a03146.html#a232e1ddbf34ceae5a317df69255bc8de", null ]
+    [ "reload_commandscript", "db/d65/a11422.html", "db/d65/a11422" ],
+    [ "AddSC_reload_commandscript", "dc/df0/a03146.html#ab72bc0a4ad4d6f90fa1e05f5591ed68f", null ]
 ];

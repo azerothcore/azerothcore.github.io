@@ -1,5 +1,6 @@
 var a13930 =
 [
-    [ "at_zulgurub_edge_of_madness_speech", "d0/d65/a13930.html#a7d4007716e3ed634ac7e3d3dba26e6f7", null ],
-    [ "_OnTrigger", "d0/d65/a13930.html#a725de49be12116f2f7e77edd31a096ae", null ]
+    [ "HandleOnHit", "d0/d65/a13930.html#a36909ef786940eb1a05539c968d78e80", null ],
+    [ "PrepareSpellScript", "d0/d65/a13930.html#a4bc6792c99b40834ec1a8a9764589e24", null ],
+    [ "Register", "d0/d65/a13930.html#ad1d60c5f747f8ec16cbf2402567cfebd", null ]
 ];

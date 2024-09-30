@@ -1,14 +1,14 @@
 var a17170 =
 [
-    [ "boss_marwynAI", "df/da2/a17170.html#abfc074b89e4edcf461c4df4d00c90856", null ],
-    [ "DoAction", "df/da2/a17170.html#adc68f202aa2e78bd3a7969bfddcce710", null ],
-    [ "EnterEvadeMode", "df/da2/a17170.html#acb0b5675c2ff9f614ddafd88ff96e62e", null ],
-    [ "JustDied", "df/da2/a17170.html#a11f64dbf0333c212584d441d4b719d9c", null ],
-    [ "JustEngagedWith", "df/da2/a17170.html#ae7509cf8b3b93e97b2e617c1ac181c87", null ],
-    [ "KilledUnit", "df/da2/a17170.html#a43b40959a22a1767c1c717f5bf7200ad", null ],
-    [ "Reset", "df/da2/a17170.html#a7433e7ed2007ccde768e1e15640ac99d", null ],
-    [ "UpdateAI", "df/da2/a17170.html#abaa8f609099423c9d8db5b93f2dd411e", null ],
-    [ "events", "df/da2/a17170.html#a87c1f1785612cfd42667bd635ce16f2a", null ],
-    [ "pInstance", "df/da2/a17170.html#a524e6c4145851d67edfdc0d9cb5b2e7c", null ],
-    [ "startFightTimer", "df/da2/a17170.html#a2a1d7531025f136e368fc7d2b4c0d163", null ]
+    [ "npc_ball_of_flameAI", "df/da2/a17170.html#a90314990bc6404bf2a4005bb94213926", null ],
+    [ "AttackStart", "df/da2/a17170.html#a34d51c96005f620c0010948acb6c89ec", null ],
+    [ "DamageDealt", "df/da2/a17170.html#aa8c7917d0a62930cd0fbdf6197aac523", null ],
+    [ "DoAction", "df/da2/a17170.html#ac589db56562987de5bbed27a2bead49f", null ],
+    [ "MoveInLineOfSight", "df/da2/a17170.html#a7bb96de89b9dc6b6f97443e9aec3ad61", null ],
+    [ "MovementInform", "df/da2/a17170.html#ab18870c29224fc3fa5e7b76c1aa981f4", null ],
+    [ "SetGUID", "df/da2/a17170.html#a809a33d832264eba92bf0847222bd23a", null ],
+    [ "_chaseGUID", "df/da2/a17170.html#a30dc40f8922f8f34d6ad7ec3053413e4", null ],
+    [ "_exploded", "df/da2/a17170.html#a724de41f7b14755d704d5de335da380b", null ],
+    [ "_instance", "df/da2/a17170.html#af5d8717572176409eca01ae214910c7f", null ],
+    [ "_started", "df/da2/a17170.html#a508a5e3f0acafa98956bba6eb41f28fb", null ]
 ];

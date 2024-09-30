@@ -1,5 +1,6 @@
 var a15322 =
 [
-    [ "at_battleguard_sartura", "d1/d79/a15322.html#a9247cdebeb57d2ddbfa75f60da125d36", null ],
-    [ "OnTrigger", "d1/d79/a15322.html#a6a7b9f210ce0c2844b4f2412c0fe440e", null ]
+    [ "npc_clintar_spiritAI", "da/dff/a15326.html", "da/dff/a15326" ],
+    [ "npc_clintar_spirit", "d1/d79/a15322.html#a416f5eea882f2c13c4c0f7dd81d36a2b", null ],
+    [ "GetAI", "d1/d79/a15322.html#a118198504f6f93c86302275a11582d60", null ]
 ];

@@ -1,7 +1,6 @@
 var a16310 =
 [
-    [ "OnApply", "d6/d76/a16310.html#a1715a3fa18b4b9953c65fad22a4ac80a", null ],
-    [ "OnRemove", "d6/d76/a16310.html#a07c943a10f7fa69e06a92a6b978e45bc", null ],
-    [ "PrepareAuraScript", "d6/d76/a16310.html#a30806e63f5e4a51213c07e8adad54d4b", null ],
-    [ "Register", "d6/d76/a16310.html#acbee31360b60edc391ff15a62ed390fd", null ]
+    [ "npc_toc_rogueAI", "d7/d89/a16314.html", "d7/d89/a16314" ],
+    [ "npc_toc_rogue", "d6/d76/a16310.html#a925840be9698e381358235a827c20b8a", null ],
+    [ "GetAI", "d6/d76/a16310.html#a6f0246b284ffd800e3870d70e9c52aac", null ]
 ];

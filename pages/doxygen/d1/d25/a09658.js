@@ -1,17 +1,17 @@
 var a09658 =
 [
-    [ "WorldScript", "d1/d25/a09658.html#a72532dbc70eecd66ea8916e165616fbd", null ],
-    [ "OnAfterConfigLoad", "d1/d25/a09658.html#affadabcae325631b2683ef458c6d13ee", null ],
-    [ "OnAfterUnloadAllMaps", "d1/d25/a09658.html#a15bc203d07dd2fef96c2a6d13d3ddd44", null ],
-    [ "OnBeforeConfigLoad", "d1/d25/a09658.html#a78baa1285b6495d7beace131dfba8400", null ],
-    [ "OnBeforeFinalizePlayerWorldSession", "d1/d25/a09658.html#a480e411f6178e5128bc5e760d9f36d99", null ],
-    [ "OnBeforeWorldInitialized", "d1/d25/a09658.html#a8ec0a2cc97986db07698392e5c503571", null ],
-    [ "OnLoadCustomDatabaseTable", "d1/d25/a09658.html#af9c5296102d7ef0f716796788650ec4d", null ],
-    [ "OnMotdChange", "d1/d25/a09658.html#ad0a3e20b5732613f5f11da3c97328a8c", null ],
-    [ "OnOpenStateChange", "d1/d25/a09658.html#a7eab4282e8be8ef2a643478f9fe6e0e2", null ],
-    [ "OnShutdown", "d1/d25/a09658.html#a3578707d9be5da90530633a93b4b2bf8", null ],
-    [ "OnShutdownCancel", "d1/d25/a09658.html#a322bd84359ac77369d9aa84bc8bf9649", null ],
-    [ "OnShutdownInitiate", "d1/d25/a09658.html#a83c76efd3de10b0a35c4a311c44d13c1", null ],
-    [ "OnStartup", "d1/d25/a09658.html#a117234aac087ec653c83cfe01a6dce7a", null ],
-    [ "OnUpdate", "d1/d25/a09658.html#ad28857965a9f6f993a47c95af6d9c5ad", null ]
+    [ "ConfusedMovementGenerator", "d1/d25/a09658.html#a694dd083a1c01378e4877939f78309b8", null ],
+    [ "_InitSpecific", "d1/d25/a09658.html#aea922e45838ab8a9cfe1787f0f7c169c", null ],
+    [ "_InitSpecific", "d1/d25/a09658.html#a212665e4306ca335181c255573d30a06", null ],
+    [ "_InitSpecific", "d1/d25/a09658.html#af597e5c544e56c255b179a08290f4ccb", null ],
+    [ "DoFinalize", "d1/d25/a09658.html#a9e2a3f0e1a99436b33a883a1ac797f43", null ],
+    [ "DoFinalize", "d1/d25/a09658.html#a82c2458b43334f06cae1a91224753fd3", null ],
+    [ "DoFinalize", "d1/d25/a09658.html#ab18018803d8e194e9d2220eb8c6450ac", null ],
+    [ "DoInitialize", "d1/d25/a09658.html#a8f1e9d0e00517b0d7f88b4213fd25104", null ],
+    [ "DoReset", "d1/d25/a09658.html#a734a73ffa4008898a170b913aafce899", null ],
+    [ "DoUpdate", "d1/d25/a09658.html#a8703ba139d90194a481388a543a14de6", null ],
+    [ "GetMovementGeneratorType", "d1/d25/a09658.html#a3f0760b38745b9e065e069d6ad984d51", null ],
+    [ "i_nextMove", "d1/d25/a09658.html#ad36fe1fd2d07af01691a319c425dc92c", null ],
+    [ "i_nextMoveTime", "d1/d25/a09658.html#ad7b5bb65d55f6149e8df8cb4e2cdda50", null ],
+    [ "i_waypoints", "d1/d25/a09658.html#a02b83b879cc31fb1a0e2f90e97556ba1", null ]
 ];

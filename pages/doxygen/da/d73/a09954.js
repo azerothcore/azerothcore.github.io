@@ -1,7 +1,10 @@
 var a09954 =
 [
-    [ "Emote", "da/d73/a09954.html#acb1620d125ffb11fe43caf4ebf27d1be", null ],
-    [ "Write", "da/d73/a09954.html#a3f5532f40b59f47423d2b4e3749da88e", null ],
-    [ "EmoteID", "da/d73/a09954.html#a7f4d3ee4353b408f8c795e6fdc552e76", null ],
-    [ "Guid", "da/d73/a09954.html#ab96a1c0933e90872f54eb0995098274a", null ]
+    [ "ArenaScript", "da/d73/a09954.html#acba88d9008e08873f3f20b92d69e8912", null ],
+    [ "CanAddMember", "da/d73/a09954.html#aa85728dd471c2f4d58ed1794e741d060", null ],
+    [ "CanSaveToDB", "da/d73/a09954.html#a164257b5ed4a0808d709870cdf73ed3b", null ],
+    [ "IsDatabaseBound", "da/d73/a09954.html#ab6c90bb55c238fada3e9ddc993333d0d", null ],
+    [ "OnArenaStart", "da/d73/a09954.html#ae67b000b16f56309da56f672a9f2b423", null ],
+    [ "OnBeforeArenaCheckWinConditions", "da/d73/a09954.html#a2b46190a3243f2306a74295975dca317", null ],
+    [ "OnGetPoints", "da/d73/a09954.html#a13b22ad00d3742589532e6e522258834", null ]
 ];

@@ -1,6 +1,6 @@
 var a21650 =
 [
-    [ "boss_kologarn_eyebeamAI", "df/da4/a21654.html", "df/da4/a21654" ],
-    [ "boss_kologarn_eyebeam", "d2/dd4/a21650.html#af28ff60e3b42f7316cc3d63624a91ee9", null ],
-    [ "GetAI", "d2/dd4/a21650.html#a34f5533a6bfe84c52fe0b0e854e694f8", null ]
+    [ "npc_dalaran_mageAI", "df/da4/a21654.html", "df/da4/a21654" ],
+    [ "npc_dalaran_mage", "d2/dd4/a21650.html#a764d637ab0c64e2a0cc0459269974d6d", null ],
+    [ "GetAI", "d2/dd4/a21650.html#ae2deef0546e2bf0df562e0a67b8b0b93", null ]
 ];

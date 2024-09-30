@@ -1,17 +1,11 @@
 var a14106 =
 [
-    [ "instance_zulgurub_InstanceMapScript", "d1/d1b/a14106.html#aacbb3bb0d212ffafae475c74790d9c63", null ],
-    [ "GetData", "d1/d1b/a14106.html#ae8c0fa463d3e5b5dafb7b14b5d32a4b1", null ],
-    [ "GetGuidData", "d1/d1b/a14106.html#a0da827e64e90a1f97b75038621a195ff", null ],
-    [ "OnCreatureCreate", "d1/d1b/a14106.html#a951c6f5e1dc460cd820fba49add52898", null ],
-    [ "OnGameObjectCreate", "d1/d1b/a14106.html#a7649a9bcdfafd3c8d7001555e60910af", null ],
-    [ "RemoveHakkarPowerStack", "d1/d1b/a14106.html#a0234565dc9c87e32bcd0a7f19e2336b6", null ],
-    [ "SetBossState", "d1/d1b/a14106.html#aaf5d69e4993591e0f936e2109df1fb07", null ],
-    [ "_arlokkGUID", "d1/d1b/a14106.html#a92d30a8e0691e5bc6a58ff26cc06df36", null ],
-    [ "_edgeOfMadnessGUID", "d1/d1b/a14106.html#aa7bbbb942592651857f933503da0e808", null ],
-    [ "_gahzrankaGUID", "d1/d1b/a14106.html#af0e854382a2316363c50d60f03095097", null ],
-    [ "_goGongOfBethekkGUID", "d1/d1b/a14106.html#a1f33ff891c8289a49dd2b979a064c323", null ],
-    [ "_hakkarGUID", "d1/d1b/a14106.html#aeca34a55f3c378311ae1b46313cf22de", null ],
-    [ "_jindoTheHexxerGUID", "d1/d1b/a14106.html#a48ec95fa51ddf50aa0249a3798bbc898", null ],
-    [ "_vilebranchSpeakerGUID", "d1/d1b/a14106.html#a07cff6b252eb9b08855bc8bd7e5d7735", null ]
+    [ "npc_winterfin_playmate", "d1/d1b/a14106.html#a9c07fb9115c21ba5c3ef7459662e8f38", null ],
+    [ "MoveInLineOfSight", "d1/d1b/a14106.html#a7e8640e3bfe0a8f960ce22a2daf136a4", null ],
+    [ "Reset", "d1/d1b/a14106.html#aae6b51c22dc0448608c1cf9412565e25", null ],
+    [ "UpdateAI", "d1/d1b/a14106.html#a8e04dc18ee8a6d9412cd574994908eb6", null ],
+    [ "orphanGUID", "d1/d1b/a14106.html#a9189bf7b93e7c46e559c22f3504f919f", null ],
+    [ "phase", "d1/d1b/a14106.html#a0a1051dc971ef393843bd1ba655a2e1b", null ],
+    [ "playerGUID", "d1/d1b/a14106.html#a142fe7a438ee22384f682f26ff4a9f9c", null ],
+    [ "timer", "d1/d1b/a14106.html#abf4b5f3e16f32a3385b71ef002c5ee64", null ]
 ];

@@ -1,7 +1,8 @@
 var a26594 =
 [
-    [ "CalculateAmount", "dd/dc4/a26594.html#ad99a4176d27864280a79ac548a57a4c8", null ],
-    [ "Load", "dd/dc4/a26594.html#aeafec50b06b5dd2f69ca6ab4096aea4d", null ],
-    [ "PrepareAuraScript", "dd/dc4/a26594.html#a76528513f0f6728e73085a3d403c3e59", null ],
-    [ "Register", "dd/dc4/a26594.html#a4d09be7d33755ae719138d079884e281", null ]
+    [ "Apply", "dd/dc4/a26594.html#ac3145df90b6b179fece1c76da114e395", null ],
+    [ "HandleEffectPeriodic", "dd/dc4/a26594.html#a480dd240981f91666e25ea2f1f73e4d7", null ],
+    [ "PrepareAuraScript", "dd/dc4/a26594.html#aa911ba0b5a13a933bf50a072799a040f", null ],
+    [ "Register", "dd/dc4/a26594.html#ae0dff9b5002d3d3361d794a75645057f", null ],
+    [ "Validate", "dd/dc4/a26594.html#ad81184b508474a89fbafc63594ef0ab1", null ]
 ];

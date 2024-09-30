@@ -1,6 +1,11 @@
 var a13118 =
 [
-    [ "spell_kiljaeden_shadow_spike_AuraScript", "d2/dd9/a13122.html", "d2/dd9/a13122" ],
-    [ "spell_kiljaeden_shadow_spike", "de/dfc/a13118.html#ad4e87c06a0229a36bb5ca396527182e7", null ],
-    [ "GetAuraScript", "de/dfc/a13118.html#aebbb4bbf708daa1957eead5620f7e4e3", null ]
+    [ "npc_kalecgos_kjAI", "de/dfc/a13118.html#a767c71ddfd53a83be73581dd6bc07e2c", null ],
+    [ "DoAction", "de/dfc/a13118.html#acd76b7960d8de80b4384549723354e48", null ],
+    [ "JustSummoned", "de/dfc/a13118.html#af95048cecf0761c6bd6cb24b90b99959", null ],
+    [ "Reset", "de/dfc/a13118.html#af0fe1a73dffd23675122f2f1679f52d6", null ],
+    [ "UpdateAI", "de/dfc/a13118.html#abbbb554818e9d1aa87db8671ac49adfd", null ],
+    [ "events", "de/dfc/a13118.html#ad079b7bd8d0c0fc50b52e9105707565d", null ],
+    [ "instance", "de/dfc/a13118.html#a697d03ae3f042d5a85133f643dd46e67", null ],
+    [ "summons", "de/dfc/a13118.html#a48a8cacf3a0a36d94ad767e19d0a5b5e", null ]
 ];

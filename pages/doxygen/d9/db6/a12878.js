@@ -1,6 +1,6 @@
 var a12878 =
 [
-    [ "npc_madrigosaAI", "d5/d93/a12882.html", "d5/d93/a12882" ],
-    [ "npc_madrigosa", "d9/db6/a12878.html#a173d8f6611181fe4985fab39629c06cf", null ],
-    [ "GetAI", "d9/db6/a12878.html#a7f5fc53ca22c7ffbbbaa91d447ac6f3e", null ]
+    [ "boss_baroness_anastariAI", "d5/d93/a12882.html", "d5/d93/a12882" ],
+    [ "boss_baroness_anastari", "d9/db6/a12878.html#a60f04c10d9b942cacf74a1dc8364dbbe", null ],
+    [ "GetAI", "d9/db6/a12878.html#a38073f80afbceb5535cc18ab524378a6", null ]
 ];

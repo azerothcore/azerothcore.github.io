@@ -1,6 +1,6 @@
 var a26718 =
 [
-    [ "PrepareAuraScript", "d9/d25/a26718.html#a31bde31b6db4f71ce65c6e1a862df771", null ],
-    [ "Register", "d9/d25/a26718.html#aebe64c4760d13d8afaebcf4a4b1196fa", null ],
-    [ "UpdateAmount", "d9/d25/a26718.html#a621e73a09438f3f9cbaa232125df3b87", null ]
+    [ "HandleScriptEffect", "d9/d25/a26718.html#a3f8988017d088d08df08ba8b696b552b", null ],
+    [ "PrepareSpellScript", "d9/d25/a26718.html#a56f5c59c7dc8d4f8117dc64d5a5a3a0b", null ],
+    [ "Register", "d9/d25/a26718.html#a4ebc3c83dd77134af2ee81a46b121d19", null ]
 ];

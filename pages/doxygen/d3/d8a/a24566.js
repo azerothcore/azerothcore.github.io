@@ -1,6 +1,7 @@
 var a24566 =
 [
-    [ "boss_essence_of_angerAI", "d0/d60/a24570.html", "d0/d60/a24570" ],
-    [ "boss_essence_of_anger", "d3/d8a/a24566.html#adf8151d1fbb4a258f174c4bdb8410cd6", null ],
-    [ "GetAI", "d3/d8a/a24566.html#a70a460f31b7f878e532b695ca822ab5d", null ]
+    [ "CalculateAmount", "d3/d8a/a24566.html#ad99a4176d27864280a79ac548a57a4c8", null ],
+    [ "Load", "d3/d8a/a24566.html#aeafec50b06b5dd2f69ca6ab4096aea4d", null ],
+    [ "PrepareAuraScript", "d3/d8a/a24566.html#a76528513f0f6728e73085a3d403c3e59", null ],
+    [ "Register", "d3/d8a/a24566.html#a4d09be7d33755ae719138d079884e281", null ]
 ];

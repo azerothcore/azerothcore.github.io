@@ -1,7 +1,6 @@
 var a20750 =
 [
-    [ "creature", "dd/d7b/a20750.html#a55a6ee677ab51120867f542e5a5745b0", null ],
-    [ "sound", "dd/d7b/a20750.html#a407acf5c908aa44a169adc1e88a70ab4", null ],
-    [ "text", "dd/d7b/a20750.html#a9ed157ddf2c274d021820723b1ebe00e", null ],
-    [ "timer", "dd/d7b/a20750.html#a198a3a5a4ad037b591fc3b85675bdfe1", null ]
+    [ "boss_yoggsaron_constrictor_tentacleAI", "d0/dd6/a20754.html", "d0/dd6/a20754" ],
+    [ "boss_yoggsaron_constrictor_tentacle", "dd/d7b/a20750.html#a131809f1c691e55a33863caf6fe0c5dc", null ],
+    [ "GetAI", "dd/d7b/a20750.html#ac469d5661eb664c73bf5ab38084cb03e", null ]
 ];

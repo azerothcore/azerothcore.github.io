@@ -1,6 +1,6 @@
 var a25230 =
 [
-    [ "boss_quagmirran", "d2/d3f/a25230.html#a7f6289b86216b052f434a1417023e22c", null ],
-    [ "JustEngagedWith", "d2/d3f/a25230.html#a28253b6653bd2e26e7f246c71a88b625", null ],
-    [ "Reset", "d2/d3f/a25230.html#aded7c777797f40d00a6ea28534f8a14a", null ]
+    [ "HandleScriptEffect", "d2/d3f/a25230.html#a78a131bdf6a1406604edd130c28d664b", null ],
+    [ "PrepareSpellScript", "d2/d3f/a25230.html#a3b2d739227e57667a284ae4600ec1bb6", null ],
+    [ "Register", "d2/d3f/a25230.html#a8a70913369aa733160366f37ff1c3470", null ]
 ];

@@ -1,6 +1,28 @@
 var a19934 =
 [
-    [ "spell_ioc_bomb_blast_criteria_SpellScript", "d4/d55/a19938.html", "d4/d55/a19938" ],
-    [ "spell_ioc_bomb_blast_criteria", "d8/d42/a19934.html#ac3ba5cc49ee1fc54824509fd144a73d4", null ],
-    [ "GetSpellScript", "d8/d42/a19934.html#afde0973d101492823f10322dbf050539", null ]
+    [ "boss_freyaAI", "d8/d42/a19934.html#a0441cd3dc5902696823b992c340660e9", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "d8/d42/a19934.html#a3696b798ea0c6c899263cd06e9eb467d", null ],
+    [ "DamageTaken", "d8/d42/a19934.html#a3ecaa81b75770931d55938f8b36328f6", null ],
+    [ "DoAction", "d8/d42/a19934.html#a607c12e1d6dcbdb7f45ccf7f7a0ab515", null ],
+    [ "GetData", "d8/d42/a19934.html#ace4bd3a529e3a9b2d0bcb7babdd78b7d", null ],
+    [ "JustEngagedWith", "d8/d42/a19934.html#a3fd5c4e8997e06afdd9c4a9f7003cb9b", null ],
+    [ "JustReachedHome", "d8/d42/a19934.html#a90b5d1d5fb31de96b8fbd3a7e373fb3b", null ],
+    [ "JustSummoned", "d8/d42/a19934.html#af904769f707ef1daa9a4ebbd21eee661", null ],
+    [ "KilledUnit", "d8/d42/a19934.html#add2c5875d831e1e1b69285228329c5d1", null ],
+    [ "Reset", "d8/d42/a19934.html#a7ce317e14696250ef282e6d97645bbcf", null ],
+    [ "SpawnWave", "d8/d42/a19934.html#acc2b964411ba9334e87940ac85acd106", null ],
+    [ "SpellHit", "d8/d42/a19934.html#a9830104d9f0fbd4a25e9ce425e57df4e", null ],
+    [ "SpellHitTarget", "d8/d42/a19934.html#a4f14e1653a9925b92954fb8ff28e9bb0", null ],
+    [ "UpdateAI", "d8/d42/a19934.html#af128b016426e5ea33ecc0bbee4a5fb14", null ],
+    [ "_backToNature", "d8/d42/a19934.html#a0eabb4541faf52d22ed2d7b59edb7055", null ],
+    [ "_deforestation", "d8/d42/a19934.html#afa6d2870adc9b550f3ca6c190bb61b4c", null ],
+    [ "_elderGUID", "d8/d42/a19934.html#a562f34591c822cd957d9b970cfd5c05c", null ],
+    [ "_lumberjacked", "d8/d42/a19934.html#a896ac0c1392fb119f5a5dadf6a29a3aa", null ],
+    [ "_respawningTrio", "d8/d42/a19934.html#aa9686a1d02d9b33e6621a817a5a0a138", null ],
+    [ "_spawnedAmount", "d8/d42/a19934.html#a45bdff52a8cd0d286070c22c2c42de77", null ],
+    [ "_trioKilled", "d8/d42/a19934.html#a05ccafeffda3ba6bb0b1fac250c9aae4", null ],
+    [ "_waveNumber", "d8/d42/a19934.html#aef672931b5f87a4f6c630f45393eb253", null ],
+    [ "events", "d8/d42/a19934.html#ade3d910b3f1126d39fb3f01f37f2b4d8", null ],
+    [ "m_pInstance", "d8/d42/a19934.html#aa82d03099910ad78a52b34bf4e971002", null ],
+    [ "summons", "d8/d42/a19934.html#a79e0526f188c612af25c4c4393ce4107", null ]
 ];

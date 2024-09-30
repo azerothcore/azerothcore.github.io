@@ -1,6 +1,7 @@
 var a22890 =
 [
-    [ "npc_vh_teleportation_portalAI", "d4/d65/a22894.html", "d4/d65/a22894" ],
-    [ "npc_vh_teleportation_portal", "de/d60/a22890.html#a9a554058f594f992a17dbb3887117a6f", null ],
-    [ "GetAI", "de/d60/a22890.html#a0721c64c01ae69bd78dfc15637c97f49", null ]
+    [ "CalculateAmount", "de/d60/a22890.html#adad1c8a513ce8a1badbd40c291363de1", null ],
+    [ "PrepareAuraScript", "de/d60/a22890.html#ac1a896ac1a751c8bdaee186dffd8c251", null ],
+    [ "Register", "de/d60/a22890.html#ae839fd19933a6fa9e55ce37e0633073e", null ],
+    [ "Update", "de/d60/a22890.html#aeb5a347ccac3c5ce6faef7641b5fca1c", null ]
 ];

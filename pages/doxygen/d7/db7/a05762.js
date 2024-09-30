@@ -1,12 +1,11 @@
 var a05762 =
 [
-    [ "CombatAI", "d7/db7/a05762.html#a32e63efb85155ac3deeb818a9a1ba18a", null ],
-    [ "InitializeAI", "d7/db7/a05762.html#a70caf22165251220365d03873b3d3f17", null ],
-    [ "JustDied", "d7/db7/a05762.html#a9176b9b9c7a5e13fb05dae636c7ef2d4", null ],
-    [ "JustEngagedWith", "d7/db7/a05762.html#ab157082819d821cf0b0093f084111e16", null ],
-    [ "Permissible", "d7/db7/a05762.html#aaf52e2cbeb1ea9a816b5e8d914c03edb", null ],
-    [ "Reset", "d7/db7/a05762.html#a7a39daea9b9bd09572472ae0d8689edd", null ],
-    [ "UpdateAI", "d7/db7/a05762.html#af12583d15ccd183f6236c1889d539b9b", null ],
-    [ "events", "d7/db7/a05762.html#af59650830fa1abdf8eec179a12e328e7", null ],
-    [ "spells", "d7/db7/a05762.html#ae0ecfc744e4200bbf7ea36cdd84b13c0", null ]
+    [ "SQLOperation", "d7/db7/a05762.html#a0f69657715b7d24458227b22a3b40b1a", null ],
+    [ "~SQLOperation", "d7/db7/a05762.html#afa21cafba57dd35ed2b132ef3d18c71b", null ],
+    [ "SQLOperation", "d7/db7/a05762.html#a91b34b81ed99ca0da54d825fec98ab6e", null ],
+    [ "call", "d7/db7/a05762.html#ae56c06a313c4be5d0e45f5481996f1d1", null ],
+    [ "Execute", "d7/db7/a05762.html#aff1090554bc4a6fe7a33270e63416e19", null ],
+    [ "operator=", "d7/db7/a05762.html#ac31349ed45ea051540ac345bd4b814d5", null ],
+    [ "SetConnection", "d7/db7/a05762.html#a52cbd1d9b8a298ab3eade0010b5e3166", null ],
+    [ "m_conn", "d7/db7/a05762.html#adf322db48064fcf4528f713f857f1b40", null ]
 ];

@@ -1,6 +1,5 @@
 var a27106 =
 [
-    [ "HandleEffectPeriodic", "d1/ddb/a27106.html#a248ba0e88498e36355491b2b89063e17", null ],
-    [ "PrepareAuraScript", "d1/ddb/a27106.html#ac9aed434fe7602ef846e9f052402620e", null ],
-    [ "Register", "d1/ddb/a27106.html#a039eec910c802276b9e979253141cdee", null ]
+    [ "go_mistwhisper_treasure", "d1/ddb/a27106.html#a87c90caa9f6a628cb0eea3556b58449e", null ],
+    [ "OnGossipHello", "d1/ddb/a27106.html#a03b6b19faba005ced7ff921fdf8ab493", null ]
 ];

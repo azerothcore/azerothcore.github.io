@@ -1,8 +1,6 @@
 var a22278 =
 [
-    [ "HandleOnEffectApply", "d8/d2d/a22278.html#aff990d6a562a78bb17547d09b39fcf7f", null ],
-    [ "OnPeriodic", "d8/d2d/a22278.html#aa25f9f1078a9ae3662fa6a3b2c600ec0", null ],
-    [ "PrepareAuraScript", "d8/d2d/a22278.html#ae632739c8000befa073a51cf9a2719aa", null ],
-    [ "Register", "d8/d2d/a22278.html#a2f329d5a4c19911e1572254b04b00249", null ],
-    [ "_targetGUID", "d8/d2d/a22278.html#aa878dd001cd1c9d4f1d8bc2e37353579", null ]
+    [ "npc_vehicle_d16_propelled_deliveryAI", "d5/ded/a22282.html", "d5/ded/a22282" ],
+    [ "npc_vehicle_d16_propelled_delivery", "d8/d2d/a22278.html#a93bed362ae78231b21327994a3e4cafd", null ],
+    [ "GetAI", "d8/d2d/a22278.html#abda3dbcb251d7f1e614d089f630d0d1c", null ]
 ];

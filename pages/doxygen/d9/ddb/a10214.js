@@ -1,8 +1,8 @@
 var a10214 =
 [
-    [ "PlayObjectSound", "d9/ddb/a10214.html#ab322044d36abddeb2fafbf99261bb70b", null ],
-    [ "PlayObjectSound", "d9/ddb/a10214.html#a2c4d15099e991a9c2ddc5295536aa28e", null ],
-    [ "Write", "d9/ddb/a10214.html#a1162715dd557a9f7b7c25a0331bc3b74", null ],
-    [ "SoundKitID", "d9/ddb/a10214.html#a5e794706b8793d164a1189e9a6918735", null ],
-    [ "SourceObjectGUID", "d9/ddb/a10214.html#a82b226eba66e569c1f377f529e511361", null ]
+    [ "PlayedTime", "d9/ddb/a10214.html#abc477d90a27dc41a7c643448302464cf", null ],
+    [ "Write", "d9/ddb/a10214.html#a147071f2545cd91213d6c92dab7438c7", null ],
+    [ "LevelTime", "d9/ddb/a10214.html#a2bf832827f9497a59bbfac714799b4b5", null ],
+    [ "TotalTime", "d9/ddb/a10214.html#ae762fe00339a8f4ca6f9e14bb8515251", null ],
+    [ "TriggerScriptEvent", "d9/ddb/a10214.html#a434b33c61ba5e2d91f084cbfe425c964", null ]
 ];

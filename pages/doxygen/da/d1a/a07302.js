@@ -1,6 +1,7 @@
 var a07302 =
 [
-    [ "value_type", "da/d1a/a07302.html#a8ce1d08e5d320ef2c6301475fba4a7c2", null ],
-    [ "StoreTo", "da/d1a/a07302.html#ac01b3840e65515853e26c16dd3caaf58", null ],
-    [ "tag", "da/d1a/a07302.html#abd9c16378ed02e10a25cd45111e6fc69", null ]
+    [ "CommandPermissions", "da/d1a/a07302.html#ad1242d9067778298c44501b5d5a962f8", null ],
+    [ "CommandPermissions", "da/d1a/a07302.html#a47f284c63f10b6c3479624845b696aa6", null ],
+    [ "AllowConsole", "da/d1a/a07302.html#a8b419033e8dff0307a22a32bc57a1dc8", null ],
+    [ "RequiredLevel", "da/d1a/a07302.html#a4918f2c3b1913eb76d09d859479ebbae", null ]
 ];

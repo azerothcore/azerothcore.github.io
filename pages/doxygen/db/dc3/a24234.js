@@ -1,6 +1,5 @@
 var a24234 =
 [
-    [ "instance_auchenai_crypts_InstanceMapScript", "dd/df6/a24238.html", "dd/df6/a24238" ],
-    [ "instance_auchenai_crypts", "db/dc3/a24234.html#a8b16924167c54a9d8120bac67bc10fed", null ],
-    [ "GetInstanceScript", "db/dc3/a24234.html#a99e47df95fde07d4a6e7687634805b93", null ]
+    [ "npc_shattrath_daily_quest", "db/dc3/a24234.html#ab6aa71e4738fdce1b59d379249a868d5", null ],
+    [ "DoAction", "db/dc3/a24234.html#ac3e8c6de30ad7567fe5e52cd1ddfeb2c", null ]
 ];

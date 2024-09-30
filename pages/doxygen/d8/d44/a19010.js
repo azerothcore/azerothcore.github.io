@@ -1,6 +1,6 @@
 var a19010 =
 [
-    [ "spell_the_lich_king_jump_SpellScript", "db/d3a/a19014.html", "db/d3a/a19014" ],
-    [ "spell_the_lich_king_jump_remove_aura", "d8/d44/a19010.html#a405fc8ac2af73e8908d46365553d69a0", null ],
-    [ "GetSpellScript", "d8/d44/a19010.html#a8544b5bc37fab9fa4afefea644f4790f", null ]
+    [ "boss_sapphironAI", "db/d3a/a19014.html", "db/d3a/a19014" ],
+    [ "boss_sapphiron", "d8/d44/a19010.html#a87a70204dd727f92d035ad98e2ab9010", null ],
+    [ "GetAI", "d8/d44/a19010.html#a31209287faa721bef341388ae4383b6c", null ]
 ];

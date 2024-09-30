@@ -1,8 +1,10 @@
 var a11946 =
 [
-    [ "FilterTargets", "da/d8a/a11946.html#a2ebd519cb905cd1f6546ac4680335085", null ],
-    [ "HandleScript", "da/d8a/a11946.html#acf820219de7012cabb45656967463e35", null ],
-    [ "PrepareSpellScript", "da/d8a/a11946.html#aad7ca25676122ba052458099c652a7d2", null ],
-    [ "Register", "da/d8a/a11946.html#a145d8e31845a65c6f2458e31b63e3f0a", null ],
-    [ "Validate", "da/d8a/a11946.html#aee2ef7c78afa6f409eb7f8816383e398", null ]
+    [ "npc_corrupted_totem", "da/d8a/a11946.html#a5e0c58b341fe25a5d682b68e9eee207f", null ],
+    [ "IsSummonedBy", "da/d8a/a11946.html#ae8314903c9006b7bca94a47115a0d05b", null ],
+    [ "JustDied", "da/d8a/a11946.html#aa3c6b1a3df61c9e98c62efadff637578", null ],
+    [ "Reset", "da/d8a/a11946.html#a0bc8df2b8266b7b3a5f40f1ede0e10b4", null ],
+    [ "SetAura", "da/d8a/a11946.html#a509688befda49f789f77ee0e4170a74e", null ],
+    [ "UpdateAI", "da/d8a/a11946.html#ac128625268820d2e9b1f0ef5ead975e9", null ],
+    [ "_auraAdded", "da/d8a/a11946.html#a953cf5af625b9b5a4ab6704d5b1b664c", null ]
 ];

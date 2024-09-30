@@ -1,8 +1,8 @@
 var a09046 =
 [
-    [ "InstResetEvent", "d7/d3d/a09046.html#aefa8f2b1b2cf29ad3472712278741fa4", null ],
-    [ "InstResetEvent", "d7/d3d/a09046.html#af6f80b924e52cd5296d21f4a5d1374c2", null ],
-    [ "difficulty", "d7/d3d/a09046.html#a67afe513dd42370ac4bb385a7128a324", null ],
-    [ "mapid", "d7/d3d/a09046.html#ad02e00b2782304fbd75973fe58eefd33", null ],
-    [ "type", "d7/d3d/a09046.html#ad211513c7ed39269d464190398dabaed", null ]
+    [ "CallOfHelpCreatureInRangeDo", "d7/d3d/a09046.html#a6ff932341f415b659d486e63cbeb5fe4", null ],
+    [ "operator()", "d7/d3d/a09046.html#a06eb5dd0f8969c20ca1234e01ae15377", null ],
+    [ "i_enemy", "d7/d3d/a09046.html#a8e2e259c0159fd9418777787e4c68ccd", null ],
+    [ "i_funit", "d7/d3d/a09046.html#aff1768cd844e4e23821cf78f9d360e06", null ],
+    [ "i_range", "d7/d3d/a09046.html#ab0544cf93f94766701b72dbb6b3b55c1", null ]
 ];

@@ -1,7 +1,15 @@
 var a01919 =
 [
-    [ "UpdateTime", "d6/dc7/a11104.html", "d6/dc7/a11104" ],
-    [ "WorldUpdateTime", "db/d12/a11108.html", "db/d12/a11108" ],
-    [ "AVG_DIFF_COUNT", "de/d90/a01919.html#ac09527fd6979f77130f2ef6be46850eb", null ],
-    [ "sWorldUpdateTime", "de/d90/a01919.html#a911ff49ac052e337a0927c080aec20b2", null ]
+    [ "GetGameTime", "de/d90/a01919.html#adbe1785d1327dedf2ac403b7cc8e99c2", null ],
+    [ "GetGameTimeMS", "de/d90/a01919.html#a6d0d49f37e25e497391157b2a2ec90c1", null ],
+    [ "GetStartTime", "de/d90/a01919.html#a872d34d3f9d420cfc749073c809931f9", null ],
+    [ "GetSystemTime", "de/d90/a01919.html#a443eccf314fe436192278d425d6d8220", null ],
+    [ "GetUptime", "de/d90/a01919.html#ae2ff9233756dd88fa1aafcc1e1c0be4d", null ],
+    [ "Now", "de/d90/a01919.html#ae5cc9f17fc6b8b15c678fa7a84a6e117", null ],
+    [ "UpdateGameTimers", "de/d90/a01919.html#a45712735241c9563a12fc3da54fb144d", null ],
+    [ "GameMSTime", "de/d90/a01919.html#ad5fc2a056410eeac2e2717f91cb8295c", null ],
+    [ "GameTime", "de/d90/a01919.html#a9a28ffdb4bb387919d2dd70a51080ce0", null ],
+    [ "GameTimeSteadyPoint", "de/d90/a01919.html#a874057035d37aa57afc5064acffba119", null ],
+    [ "GameTimeSystemPoint", "de/d90/a01919.html#aa393fef2187ebdd6aa34379b0f1504d7", null ],
+    [ "StartTime", "de/d90/a01919.html#a78088a0637670a1ab5125a1388f7ca52", null ]
 ];

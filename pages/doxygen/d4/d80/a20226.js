@@ -1,8 +1,9 @@
 var a20226 =
 [
-    [ "npc_teslaAI", "d4/d80/a20226.html#a7281220648af1357b1377d6f7874d663", null ],
-    [ "DamageTaken", "d4/d80/a20226.html#aa3ab570e86261bc3178e17109d76af12", null ],
-    [ "EnterEvadeMode", "d4/d80/a20226.html#acc8115216989b34593a9435eeb051eda", null ],
-    [ "JustEngagedWith", "d4/d80/a20226.html#add93f68bc96b3c93dc0a3271543711e6", null ],
-    [ "UpdateAI", "d4/d80/a20226.html#a962745569b07e368067ee483d2379840", null ]
+    [ "HandleEffectPeriodic", "d4/d80/a20226.html#adc6e83abb52a21528c07a1d989818dcf", null ],
+    [ "OnApply", "d4/d80/a20226.html#ad52977d3bfeca6d2a7127d91eb3d30ab", null ],
+    [ "OnRemove", "d4/d80/a20226.html#a903e65cc8041f9bd289bb5c6f156fa22", null ],
+    [ "PrepareAuraScript", "d4/d80/a20226.html#aa85f79f5337edca68b3cb87073eff0d4", null ],
+    [ "Register", "d4/d80/a20226.html#a2b18c5db95842a6f8959bf9affd357b7", null ],
+    [ "Validate", "d4/d80/a20226.html#ae88b8bd3e648030df48f6b80cedc4034", null ]
 ];

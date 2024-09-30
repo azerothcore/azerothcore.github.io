@@ -1,6 +1,6 @@
 var a18906 =
 [
-    [ "spell_frostwarden_handler_order_whelp_SpellScript", "df/d6f/a18910.html", "df/d6f/a18910" ],
-    [ "spell_frostwarden_handler_order_whelp", "df/df6/a18906.html#a2582656e04e22c9db34bc5afbb45b576", null ],
-    [ "GetSpellScript", "df/df6/a18906.html#a06729a0dc8d26a6cd9b9845e35b41887", null ]
+    [ "FilterTargets", "df/df6/a18906.html#a2df81e30554809a0d5b45d2f471bb71f", null ],
+    [ "PrepareSpellScript", "df/df6/a18906.html#aa51d9c578b782fbe0e7e3cf13789b702", null ],
+    [ "Register", "df/df6/a18906.html#a4c1eab348e54011f1a2f827fc251ca13", null ]
 ];

@@ -1,5 +1,4 @@
 var a07258 =
 [
-    [ "IsColorValid", "de/d00/a07258.html#a075621e69c80c128ec44cfb4f3ba0cf6", null ],
-    [ "IsTextValid", "de/d00/a07258.html#a33f6c3e46c24571a8eec083087618fed", null ]
+    [ "AllianceChannelMgr", "de/d00/a07258.html#a7d90a6a0d987ac461668642c9ecfb619", null ]
 ];

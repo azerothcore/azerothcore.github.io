@@ -1,9 +1,10 @@
 var a05922 =
 [
-    [ "Escort_Waypoint", "df/dc9/a05922.html#a272aeeba02403a21c4900e6b0844a328", null ],
-    [ "id", "df/dc9/a05922.html#a6a763373fcc37e5a463b54e1e1a68235", null ],
-    [ "WaitTimeMs", "df/dc9/a05922.html#a467a869dba9243bd165e4c480e339705", null ],
-    [ "x", "df/dc9/a05922.html#a4d751062b2ab46734049bf8939a30731", null ],
-    [ "y", "df/dc9/a05922.html#a88648b1bd70afad73d402c40abcd68b5", null ],
-    [ "z", "df/dc9/a05922.html#a810ad58fe70fd6402f01ed7e70b450e0", null ]
+    [ "Storage", "df/dc9/a05922.html#a49a70316b169e50ad64ff51d6a568bbc", null ],
+    [ "AchievementCriteriaDataSet", "df/dc9/a05922.html#a5055f8710c48379035e132e8f20577dc", null ],
+    [ "Add", "df/dc9/a05922.html#a297f02665679b19961998fb529d064e4", null ],
+    [ "Meets", "df/dc9/a05922.html#a8edbe32d695308633fa7abfc91d2a1a1", null ],
+    [ "SetCriteriaId", "df/dc9/a05922.html#addedfd39d9948923a2704b51eaacecbc", null ],
+    [ "_criteria_id", "df/dc9/a05922.html#a0abc37729d2f3c400bb7cfde212f51c0", null ],
+    [ "_storage", "df/dc9/a05922.html#a6abf189d95226b370cfcfe7b628ed7c0", null ]
 ];

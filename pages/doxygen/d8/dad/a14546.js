@@ -1,6 +1,6 @@
 var a14546 =
 [
-    [ "boss_archimondeAI", "d4/d2a/a14550.html", "d4/d2a/a14550" ],
-    [ "boss_archimonde", "d8/dad/a14546.html#aac5df4112555c9c383bfc20f82309e9a", null ],
-    [ "GetAI", "d8/dad/a14546.html#a1fd6f09225d5621ed4502421c4af00c5", null ]
+    [ "boss_mal_ganisAI", "d4/d2a/a14550.html", "d4/d2a/a14550" ],
+    [ "boss_mal_ganis", "d8/dad/a14546.html#a604becb65e766f4fb71d2ae168d1be4e", null ],
+    [ "GetAI", "d8/dad/a14546.html#aa747abd11310c3535ea2ea37e4aac28b", null ]
 ];

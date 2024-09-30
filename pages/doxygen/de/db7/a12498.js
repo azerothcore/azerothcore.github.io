@@ -1,11 +1,9 @@
 var a12498 =
 [
-    [ "npc_scarlet_ghoulAI", "de/db7/a12498.html#a194795143717de5aa8f0ca4c4e516136", null ],
-    [ "InitializeAI", "de/db7/a12498.html#ad0fd204d15350332508b0c9d9decefb1", null ],
-    [ "MovementInform", "de/db7/a12498.html#a9836c91a7dede1fabd1e0a9523ebd26a", null ],
-    [ "OwnerAttackedBy", "de/db7/a12498.html#a5b0afc1f2ee57a1cc5e30b8e997ba218", null ],
-    [ "SetGUID", "de/db7/a12498.html#a832602498643a03087efbc0a5a2f81c3", null ],
-    [ "UpdateAI", "de/db7/a12498.html#adbe4d539552e7954c7bdb8e520cb9783", null ],
-    [ "events", "de/db7/a12498.html#a105ac0982d28be590d514d2e452109c0", null ],
-    [ "gothikGUID", "de/db7/a12498.html#ab5efaf2e030f92d7ab45de8b5d19804d", null ]
+    [ "boss_apoko", "de/db7/a12498.html#a3ae4752839f47bbfce5f7df03c427cd2", null ],
+    [ "JustEngagedWith", "de/db7/a12498.html#a7ad52b258863bd818b3e5d1143de7629", null ],
+    [ "UpdateAI", "de/db7/a12498.html#a94c21c20a1073375b2387646971cbfff", null ],
+    [ "Healing_Wave_Timer", "de/db7/a12498.html#adfd3eb065a0edc502da8546f951f6ee9", null ],
+    [ "Totem_Amount", "de/db7/a12498.html#a1a8a11ab18c0e7178cadce400b9c32e9", null ],
+    [ "War_Stomp_Timer", "de/db7/a12498.html#ad3e9ea135e54e00e8a8e4e94c5978988", null ]
 ];

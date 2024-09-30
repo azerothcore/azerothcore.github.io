@@ -1,9 +1,6 @@
 var a13506 =
 [
-    [ "npc_tyrion_spybotAI", "dd/d57/a13506.html#aedad685279012266637d29069ead9063", null ],
-    [ "Reset", "dd/d57/a13506.html#a16f8f9fd368832aac7906c3fd8cb9698", null ],
-    [ "UpdateAI", "dd/d57/a13506.html#ad8fc713bb9673e74bfd11bc653c71587", null ],
-    [ "WaypointReached", "dd/d57/a13506.html#a819e987eeb8eb8d580a5ad22001a641d", null ],
-    [ "uiPhase", "dd/d57/a13506.html#af5dbb99fe18d96665efd04bd53294636", null ],
-    [ "uiTimer", "dd/d57/a13506.html#ab41fdff3612b29e7d0d94fb6aaa8c085", null ]
+    [ "npc_the_scourge_cauldronAI", "d4/df0/a13510.html", "d4/df0/a13510" ],
+    [ "npc_the_scourge_cauldron", "dd/d57/a13506.html#a7ff5315293c4917dec3b0fe0aade2016", null ],
+    [ "GetAI", "dd/d57/a13506.html#ae4e35f1cac0c0f35333ba6113d3c1ad0", null ]
 ];

@@ -1,6 +1,6 @@
 var a13154 =
 [
-    [ "HandleRemove", "d1/d76/a13154.html#ae1738fb8746fada246ebc20a2a0e93f8", null ],
-    [ "PrepareAuraScript", "d1/d76/a13154.html#af0091b08259704d94cafbb1e278e5505", null ],
-    [ "Register", "d1/d76/a13154.html#a6c49b00b7d86d0fab033d56d0f775082", null ]
+    [ "PrepareSpellScript", "d1/d76/a13154.html#a6a9436d744865971e635f23c2b331688", null ],
+    [ "Register", "d1/d76/a13154.html#a5f8a755040c9972e1bd6f68ceacf3dff", null ],
+    [ "SetDest", "d1/d76/a13154.html#a2d43c0d5230f7be2d9a33e8527fd8c02", null ]
 ];

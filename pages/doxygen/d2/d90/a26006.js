@@ -1,14 +1,16 @@
 var a26006 =
 [
-    [ "npc_maghar_captiveAI", "d2/d90/a26006.html#abab2cfe84f4bb83fea3b35202a957bb5", null ],
-    [ "JustDied", "d2/d90/a26006.html#adbef78d8c908bfbce6ea506c55fb6922", null ],
-    [ "JustEngagedWith", "d2/d90/a26006.html#a2a0ec4a496c7352ba88ceef99eb769e4", null ],
-    [ "JustSummoned", "d2/d90/a26006.html#afe55f91acd8c47a758b8d08bd07d763f", null ],
-    [ "Reset", "d2/d90/a26006.html#abebcdcb102f8d338ae0b792708940cd7", null ],
-    [ "SpellHitTarget", "d2/d90/a26006.html#ab4f4deaae35fdbd602c9925f26e6d0e7", null ],
-    [ "UpdateAI", "d2/d90/a26006.html#a295cbae9196e320fabbb4cfb9dc33150", null ],
-    [ "WaypointReached", "d2/d90/a26006.html#abfbba8942df57e974ab24ad693c16e70", null ],
-    [ "ChainLightningTimer", "d2/d90/a26006.html#aa00a6978074f62d3d8ddead64d3240cf", null ],
-    [ "FrostShockTimer", "d2/d90/a26006.html#a2e4a5ef509e7f7ec33b1e83c90d2c80f", null ],
-    [ "HealTimer", "d2/d90/a26006.html#a31613adba706f3b5f948f2f7c4222038", null ]
+    [ "Spell", "d2/d90/a26006.html#ae62bcfdf7168a58818ffc8b302cffcb7", [
+      [ "PAL_SPELL_ARDENT_DEFENDER_DEBUFF", "d2/d90/a26006.html#ae62bcfdf7168a58818ffc8b302cffcb7a85895054b57340dab995dc14f826314b", null ],
+      [ "PAL_SPELL_ARDENT_DEFENDER_HEAL", "d2/d90/a26006.html#ae62bcfdf7168a58818ffc8b302cffcb7a717b484434bc8fda128b67bd90a123fe", null ]
+    ] ],
+    [ "spell_pal_ardent_defender", "d2/d90/a26006.html#a9bc7f72089287dbac352b308489c7781", null ],
+    [ "Absorb", "d2/d90/a26006.html#aee6b0b00078a880dc5ed6684991ee8c8", null ],
+    [ "CalculateAmount", "d2/d90/a26006.html#a749742ceb8be20f5d327becbea7c64d5", null ],
+    [ "Load", "d2/d90/a26006.html#a3718265890fad2a6c6d53b5f401d16dd", null ],
+    [ "PrepareAuraScript", "d2/d90/a26006.html#a33dd57579e724aee0c6f2a8d767fc3c8", null ],
+    [ "Register", "d2/d90/a26006.html#af405994d4be5f11ce63028d0dba1e1da", null ],
+    [ "Validate", "d2/d90/a26006.html#a74fafd4bde88c2e581cac555a131b39d", null ],
+    [ "absorbPct", "d2/d90/a26006.html#a408fe2ab57ae0adcf803c71b5f6cd724", null ],
+    [ "healPct", "d2/d90/a26006.html#a325024973959856c000f380b0bfc3bda", null ]
 ];

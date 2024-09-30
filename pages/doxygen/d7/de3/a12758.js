@@ -1,7 +1,6 @@
 var a12758 =
 [
-    [ "npc_apothecary_genericAI", "d7/de3/a12758.html#afb2b04b51e28d0795e7781effa68dffd", null ],
-    [ "DoAction", "d7/de3/a12758.html#a59074beefbd3d80104b64f8ecc2ef8e0", null ],
-    [ "MovementInform", "d7/de3/a12758.html#a63530bd7c3ebcd66521a268e11bf2f93", null ],
-    [ "_movePos", "d7/de3/a12758.html#a53d10ab64df212b043cc21e054f6528c", null ]
+    [ "boss_kirtonos_the_heraldAI", "d4/dba/a12762.html", "d4/dba/a12762" ],
+    [ "boss_kirtonos_the_herald", "d7/de3/a12758.html#a0e81153a0da7910cda4c9b6d32544318", null ],
+    [ "GetAI", "d7/de3/a12758.html#aa5e0fe2386aae52fd53ff309282db652", null ]
 ];

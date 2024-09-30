@@ -1,8 +1,13 @@
 var a22766 =
 [
-    [ "npc_frozen_orbAI", "d9/d22/a22766.html#aa7456d1d876690e3723ee0a36866348b", null ],
-    [ "JustEngagedWith", "d9/d22/a22766.html#afd9686dbb8503d7f756b670269aed33d", null ],
-    [ "Reset", "d9/d22/a22766.html#a376dc1fcef9752e235008c4ba66e2463", null ],
-    [ "UpdateAI", "d9/d22/a22766.html#a37d7cf81197fe4344c8b847753997e93", null ],
-    [ "switchTimer", "d9/d22/a22766.html#afc63a3cf6b814df81a35b53278d722c9", null ]
+    [ "boss_illidari_council_memberAI", "d9/d22/a22766.html#ac32366dfad13cd37ced2428d041e25c9", null ],
+    [ "DamageTaken", "d9/d22/a22766.html#a1006bbdb6e39b6ceb52037e1b3cdb788", null ],
+    [ "DoAction", "d9/d22/a22766.html#a203310b84d71a24145b1c39e7faff182", null ],
+    [ "EnterEvadeMode", "d9/d22/a22766.html#a9bf2376cd75e0dc825de3839eda857eb", null ],
+    [ "JustDied", "d9/d22/a22766.html#a135c8e8f4113b1c9c05e5b26e61e639c", null ],
+    [ "JustEngagedWith", "d9/d22/a22766.html#a5c43bfb6e1781a83bfad36668ac724f2", null ],
+    [ "KilledUnit", "d9/d22/a22766.html#aa0cb7a373d521038e8e41e354f6bc3f7", null ],
+    [ "Reset", "d9/d22/a22766.html#a8e75d47f56d14d9b66d10b74c3479839", null ],
+    [ "events", "d9/d22/a22766.html#ad47a350f5ed066e04816e72961a80bd0", null ],
+    [ "instance", "d9/d22/a22766.html#adb11720cd0fd87a42b9a78490a70251e", null ]
 ];

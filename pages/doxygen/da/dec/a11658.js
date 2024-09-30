@@ -1,6 +1,6 @@
 var a11658 =
 [
-    [ "boss_firemawAI", "d3/d90/a11662.html", "d3/d90/a11662" ],
-    [ "boss_firemaw", "da/dec/a11658.html#a71174eb128356802be0029fd9e24fe1f", null ],
-    [ "GetAI", "da/dec/a11658.html#a3a20bcefa86a21daaecaef14396dadc4", null ]
+    [ "boss_gloomrel", "da/dec/a11658.html#ad655acba7b2d88779f849a685bb9fbb7", null ],
+    [ "OnGossipHello", "da/dec/a11658.html#a6ce6898142d767a130ec09769f2be488", null ],
+    [ "OnGossipSelect", "da/dec/a11658.html#ab7c623cdd2301f3a0a74d6b1e187a8c5", null ]
 ];

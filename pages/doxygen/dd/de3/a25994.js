@@ -1,6 +1,6 @@
 var a25994 =
 [
-    [ "npc_fel_guard_houndAI", "dd/d46/a25998.html", "dd/d46/a25998" ],
-    [ "npc_fel_guard_hound", "dd/de3/a25994.html#a324179695f04a31b233b0ce94a46634c", null ],
-    [ "GetAI", "dd/de3/a25994.html#a5f5c20ec379994e7d0b65133d772e18f", null ]
+    [ "HandleRemove", "dd/de3/a25994.html#a491765056e8c4d97d9cdaaea9d11a0af", null ],
+    [ "PrepareAuraScript", "dd/de3/a25994.html#abe5d45b960fda879f48e3e98db9ad4ac", null ],
+    [ "Register", "dd/de3/a25994.html#ab00f3119d6c1bd1ad185374144f2987e", null ]
 ];

@@ -1,6 +1,5 @@
 var a20950 =
 [
-    [ "boss_stormcaller_brundirAI", "d2/d93/a20954.html", "d2/d93/a20954" ],
-    [ "boss_stormcaller_brundir", "da/d4e/a20950.html#aa966d1534a58e3832c46772043956533", null ],
-    [ "GetAI", "da/d4e/a20950.html#a399b1b7cf2ee74c1e672231e922ff4fa", null ]
+    [ "AreaTrigger_at_celestial_planetarium_enterance", "da/d4e/a20950.html#ae1503a754a05a77991d9955a2fb74265", null ],
+    [ "OnTrigger", "da/d4e/a20950.html#aa7aa93e00170313de251af4e562c422c", null ]
 ];

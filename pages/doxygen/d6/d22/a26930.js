@@ -1,6 +1,5 @@
 var a26930 =
 [
-    [ "HandleDummy", "d6/d22/a26930.html#a80ab847f2528060b2e3e2e128cfc06af", null ],
-    [ "PrepareSpellScript", "d6/d22/a26930.html#af310c2b28ed816b9fbe494f81c42043c", null ],
-    [ "Register", "d6/d22/a26930.html#ae5e494ca801b35520bddb4a8a148efcd", null ]
+    [ "achievement_bg_ic_mowed_down", "d6/d22/a26930.html#ab05387d1e14958e87123bd0fc2188445", null ],
+    [ "OnCheck", "d6/d22/a26930.html#a385e09c605084900f374090e5e19c24f", null ]
 ];

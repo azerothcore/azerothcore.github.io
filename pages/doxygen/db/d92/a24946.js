@@ -1,6 +1,6 @@
 var a24946 =
 [
-    [ "boss_doomwalkerAI", "db/df2/a24950.html", "db/df2/a24950" ],
-    [ "boss_doomwalker", "db/d92/a24946.html#a09dd994df11f0c225eebb53442eaefff", null ],
-    [ "GetAI", "db/d92/a24946.html#ac4d9ab46c1868a71282f8eaecafddbcc", null ]
+    [ "HandleEffectPeriodicUpdate", "db/d92/a24946.html#a554353fede78b89bf488230254d7892b", null ],
+    [ "PrepareAuraScript", "db/d92/a24946.html#adf20aaafff83bae614ff3c614a08a54b", null ],
+    [ "Register", "db/d92/a24946.html#a6ee55cc41f7b69fc12bb3dc6c7fcbaf5", null ]
 ];

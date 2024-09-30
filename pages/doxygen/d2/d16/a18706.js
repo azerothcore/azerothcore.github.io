@@ -1,6 +1,6 @@
 var a18706 =
 [
-    [ "spell_rotface_unstable_ooze_explosion_suicide_AuraScript", "df/d20/a18710.html", "df/d20/a18710" ],
-    [ "spell_rotface_unstable_ooze_explosion_suicide", "d2/d16/a18706.html#ab74c82f3a948062d8da2b07184949d65", null ],
-    [ "GetAuraScript", "d2/d16/a18706.html#a55ae18cc11b731c4abe9a542145611ab", null ]
+    [ "npc_icc_gauntlet_controllerAI", "df/d20/a18710.html", "df/d20/a18710" ],
+    [ "npc_icc_gauntlet_controller", "d2/d16/a18706.html#a5fc4c941842e25bc3da93686e588627b", null ],
+    [ "GetAI", "d2/d16/a18706.html#a4ed1a69fb537e7ce547a3a57253990c4", null ]
 ];

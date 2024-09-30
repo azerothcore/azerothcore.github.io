@@ -1,6 +1,6 @@
 var a15546 =
 [
-    [ "spell_energize_aoe_SpellScript", "d3/db3/a15550.html", "d3/db3/a15550" ],
-    [ "spell_energize_aoe", "dc/db2/a15546.html#a44593a785b223ccdd048f7dd9653e5da", null ],
-    [ "GetSpellScript", "dc/db2/a15546.html#a1d2a8ad40aa534c525cef1425ca6946a", null ]
+    [ "SayerEntry", "dc/db2/a15546.html#a3f9e374ec2a49823d942c29572ac2fa0", null ],
+    [ "SayTimer", "dc/db2/a15546.html#a942073f24fd12da712184243d9f098f2", null ],
+    [ "TextEntry", "dc/db2/a15546.html#a360822e4c069be6019c0a465cb2499cf", null ]
 ];

@@ -1,6 +1,7 @@
 var a20262 =
 [
-    [ "npc_vortex_rideAI", "df/de1/a20266.html", "df/de1/a20266" ],
-    [ "npc_vortex_ride", "d5/d11/a20262.html#ad794cda407c9dfc35dd9bc2724f5014a", null ],
-    [ "GetAI", "d5/d11/a20262.html#a23ef53feb432127db2620810a55d02ff", null ]
+    [ "StoneGripTargetSelector", "d5/d11/a20262.html#a74fc772e2bc0694dee05fe82de4463e2", null ],
+    [ "operator()", "d5/d11/a20262.html#ae40653def55e656f2347029a97605395", null ],
+    [ "_me", "d5/d11/a20262.html#ae5781d6b553491a1e3e8bfde2b965c3a", null ],
+    [ "_victim", "d5/d11/a20262.html#a09c3c6f832c20776f11b72a468a4b0bb", null ]
 ];

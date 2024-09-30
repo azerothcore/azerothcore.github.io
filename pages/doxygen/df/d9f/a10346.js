@@ -1,6 +1,7 @@
 var a10346 =
 [
-    [ "WorldStateInfo", "df/d9f/a10346.html#a64fd2e4da7035ea6c01b8ab0819d2f86", null ],
-    [ "Value", "df/d9f/a10346.html#afe5a0e98713c986a17f431795c488c6c", null ],
-    [ "VariableID", "df/d9f/a10346.html#a627bba237bce23aff74fd2bf7a274657", null ]
+    [ "GuildSetMemberNote", "df/d9f/a10346.html#a4747c3d015cb1b0d0056928fd75e4d18", null ],
+    [ "Read", "df/d9f/a10346.html#a3d90b6ce26d55a55bac1d953dd39b049", null ],
+    [ "Note", "df/d9f/a10346.html#a33b7b73bd5d26c2a0ac99d6dc0131c41", null ],
+    [ "NoteeName", "df/d9f/a10346.html#acf6beb0a5b122a04162e9d2c027203af", null ]
 ];

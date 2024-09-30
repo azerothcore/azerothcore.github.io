@@ -1,6 +1,6 @@
 var a19646 =
 [
-    [ "spell_icc_harvest_blight_specimen_SpellScript", "d5/ddf/a19650.html", "d5/ddf/a19650" ],
-    [ "spell_icc_harvest_blight_specimen", "d3/d67/a19646.html#accec22ce098333b3b8edea7a7ac7ad2f", null ],
-    [ "GetSpellScript", "d3/d67/a19646.html#ac724906e0e186a76a566f46697a9c2c8", null ]
+    [ "PrepareSpellScript", "d3/d67/a19646.html#af280f3880e2e567188ba8ca3e45c00c0", null ],
+    [ "RecalculateDamage", "d3/d67/a19646.html#a54c26d24f62c36108f9fceb7a0c53e37", null ],
+    [ "Register", "d3/d67/a19646.html#aac131aa2d2e5342cf0303b918a077b45", null ]
 ];

@@ -1,5 +1,6 @@
 var a16474 =
 [
-    [ "PrepareAuraScript", "dc/d7b/a16474.html#a4581e64bd531406398146e305806f45a", null ],
-    [ "dmgInfo", "dc/d7b/a16474.html#a26105658b07b59da02c9fc2bb151c8ec", null ]
+    [ "spell_valkyr_essence_auraAuraScript", "d9/db4/a16478.html", "d9/db4/a16478" ],
+    [ "spell_valkyr_essence", "dc/d7b/a16474.html#ab867f769df26243ad4cdb3aea3abbed7", null ],
+    [ "GetAuraScript", "dc/d7b/a16474.html#ace21eeaab7725a5e04b0a95dc61b1ea6", null ]
 ];

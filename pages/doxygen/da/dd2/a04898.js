@@ -1,11 +1,9 @@
 var a04898 =
 [
-    [ "Record", "da/dd2/a04898.html#a3303a6b7ba364777e368158052dbe1db", null ],
-    [ "getFloat", "da/dd2/a04898.html#aafb357a6edde22e701ebf85a41e1c10c", null ],
-    [ "getString", "da/dd2/a04898.html#a6b4d735fe15b3cbec91c2cd0443f9433", null ],
-    [ "getUInt", "da/dd2/a04898.html#a79d3aefe42e57f12c0e0c003fa0c907d", null ],
-    [ "getUInt8", "da/dd2/a04898.html#ac7b1685d2eae5fb64b08fb78bc08c056", null ],
-    [ "DBCFileLoader", "da/dd2/a04898.html#aa9814b507b472e781e08c803e025cc72", null ],
-    [ "file", "da/dd2/a04898.html#a146dc23a5f24a0d8a1a34f29375b9bcd", null ],
-    [ "offset", "da/dd2/a04898.html#a06e2c90771be91d9ca948840a07125e8", null ]
+    [ "MapRayCallback", "da/dd2/a04898.html#a1a4a654bc929dab5b5a2804c4b88389d", null ],
+    [ "didHit", "da/dd2/a04898.html#a9d9abb0a5ffff131d2c19e88c3c8b836", null ],
+    [ "operator()", "da/dd2/a04898.html#a0f218465b321da5f8289dfa815acbfd4", null ],
+    [ "flags", "da/dd2/a04898.html#a88d1e6d6fa43608bcee21a822488f061", null ],
+    [ "hit", "da/dd2/a04898.html#a6fc14ac7ae20effec9d2657a46b838fc", null ],
+    [ "prims", "da/dd2/a04898.html#a389d8ee31e0cb665bfd9084d786750c5", null ]
 ];

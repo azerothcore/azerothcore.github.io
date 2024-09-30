@@ -1,7 +1,10 @@
 var a28442 =
 [
-    [ "HandleEffectPeriodic", "d5/d24/a28442.html#abb9ec1dd08954e80cf6dbcacbe44e2ba", null ],
-    [ "PrepareAuraScript", "d5/d24/a28442.html#ae151331af09510cc91b63b65a30bdcbf", null ],
-    [ "Register", "d5/d24/a28442.html#ac2e23fa8c9cfec9b9689512f3363a56e", null ],
-    [ "Validate", "d5/d24/a28442.html#ad5cc7a5aa1164092f267071c82752bb5", null ]
+    [ "adt_CELLS", "d7/dc2/a28450.html", "d7/dc2/a28450" ],
+    [ "getMCNK", "d5/d24/a28442.html#a8330b7cb405146399d3d20e6952a8b40", null ],
+    [ "prepareLoadedData", "d5/d24/a28442.html#adc7346499aa51f4422c810b7e757f835", null ],
+    [ "cells", "d5/d24/a28442.html#a434ed0ca354ec27d5334cc63e5650038", null ],
+    [ "fcc", "d5/d24/a28442.html#ae7d4acf20e102b6b8f19ded3fe219a7d", null ],
+    [ "fcc_txt", "d5/d24/a28442.html#a514bae36851623daf76b26a9d63f1ae0", null ],
+    [ "size", "d5/d24/a28442.html#a1a40f52ea9eef3add8207da89cb71210", null ]
 ];

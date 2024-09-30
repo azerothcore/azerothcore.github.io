@@ -1,5 +1,6 @@
 var a01802 =
 [
-    [ "HyperlinkDataTokenizer", "dd/df0/a07568.html", "dd/df0/a07568" ],
-    [ "HYPERLINK_DATA_DELIMITER", "dd/ddc/a01802.html#a306ae32a610f410bc85994a15699c867", null ]
+    [ "ChatHandler", "db/d55/a07266.html", "db/d55/a07266" ],
+    [ "CliHandler", "d7/d12/a07270.html", "d7/d12/a07270" ],
+    [ "AddonChannelCommandHandler", "de/d94/a07274.html", "de/d94/a07274" ]
 ];

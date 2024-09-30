@@ -1,6 +1,5 @@
 var a23590 =
 [
-    [ "npc_llod_genericAI", "dc/d59/a23594.html", "dc/d59/a23594" ],
-    [ "npc_llod_generic", "d5/db7/a23590.html#a97a3957c4881808facf7910e4ae4ffd4", null ],
-    [ "GetAI", "d5/db7/a23590.html#aeb2e7d9de871686e436d1e55f47085a2", null ]
+    [ "at_rp_nethekurse", "d5/db7/a23590.html#ac0a1891f90b674ad0ccbeb27f170e643", null ],
+    [ "_OnTrigger", "d5/db7/a23590.html#a93001d6dda7b2711f1efe100ffab5879", null ]
 ];

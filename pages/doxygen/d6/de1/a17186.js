@@ -1,11 +1,6 @@
 var a17186 =
 [
-    [ "npc_hor_leaderAI", "d6/de1/a17186.html#a2072f9facbc476bb97f1a3ca9c24fcb7", null ],
-    [ "DoAction", "d6/de1/a17186.html#a610700732a6cc197a40106adef654a62", null ],
-    [ "Reset", "d6/de1/a17186.html#a40749d0294400e15bc28f6e728c6cb3c", null ],
-    [ "UpdateAI", "d6/de1/a17186.html#acb29a6ddb6d06616e79f7431b66f167a", null ],
-    [ "events", "d6/de1/a17186.html#a94128223bddd84b8a678e49f3189cb75", null ],
-    [ "first", "d6/de1/a17186.html#add878d336fa7e20bee4d05ac0383dd0a", null ],
-    [ "pInstance", "d6/de1/a17186.html#a8dd77a92b151acad640f1272acf0b65f", null ],
-    [ "shortver", "d6/de1/a17186.html#a6e7b5d6f1b73bacb54d9aa1eb21fe6ee", null ]
+    [ "AddExtraDamage", "d6/de1/a17186.html#adeedfdd7555dfd009c99db6f002f7488", null ],
+    [ "PrepareSpellScript", "d6/de1/a17186.html#a5d5c32f102c525f6c25d12281a58f5f4", null ],
+    [ "Register", "d6/de1/a17186.html#affe1d9a5e9c4776d1651fdb95283caf4", null ]
 ];

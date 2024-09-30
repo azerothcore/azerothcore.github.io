@@ -1,14 +1,10 @@
 var a09398 =
 [
-    [ "EscortMovementGenerator", "dd/d93/a09398.html#a9d653e50662103f5f6661da5226ae99e", null ],
-    [ "DoFinalize", "dd/d93/a09398.html#a4c191a86f5ecc30ae5b34d7578d58d3e", null ],
-    [ "DoInitialize", "dd/d93/a09398.html#ad068798c6e186c1eb1a79f3872955e97", null ],
-    [ "DoReset", "dd/d93/a09398.html#ac4934d70ab62e08488cfc29c13355a7f", null ],
-    [ "DoUpdate", "dd/d93/a09398.html#a524bb8f72836dc5d1b63e429436b3a77", null ],
-    [ "GetMovementGeneratorType", "dd/d93/a09398.html#a0733162a5a0cab2593150f288edeb27b", null ],
-    [ "GetSplineId", "dd/d93/a09398.html#a61d74b098d1ae692ce305fa493aaa6d2", null ],
-    [ "unitSpeedChanged", "dd/d93/a09398.html#a235e330c4c3368af00d37028915684ff", null ],
-    [ "_splineId", "dd/d93/a09398.html#af6286fa4ed6afcc8a6c5f03575c774e6", null ],
-    [ "i_recalculateSpeed", "dd/d93/a09398.html#a9f7048c5e49cc09f809496312a0c6550", null ],
-    [ "m_precomputedPath", "dd/d93/a09398.html#a46eb2812a1b2a56e584b925cae2169eb", null ]
+    [ "MailReceiver", "dd/d93/a09398.html#a6fba3ff0ab3167197f569631d766ce14", null ],
+    [ "MailReceiver", "dd/d93/a09398.html#af0b094a704463ed76b1c08bc3cab0380", null ],
+    [ "MailReceiver", "dd/d93/a09398.html#a9f69a0951c2b9d9152685632c744cf4e", null ],
+    [ "GetPlayer", "dd/d93/a09398.html#a0113e33ef82e9f3112f8cd5793581a36", null ],
+    [ "GetPlayerGUIDLow", "dd/d93/a09398.html#a0e29fba37b58c7bc92065b0221b8e31e", null ],
+    [ "m_receiver", "dd/d93/a09398.html#a377b896e1dc7a0e89440efbc2b811ae7", null ],
+    [ "m_receiver_lowguid", "dd/d93/a09398.html#a46b62a2b8dd0ebac981e0a1752e88743", null ]
 ];

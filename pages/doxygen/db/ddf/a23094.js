@@ -1,6 +1,6 @@
 var a23094 =
 [
-    [ "npc_hidden_cultistAI", "dd/d93/a23098.html", "dd/d93/a23098" ],
-    [ "npc_hidden_cultist", "db/ddf/a23094.html#ab455b35fea966360e01fb8975adad989", null ],
-    [ "GetAI", "db/ddf/a23094.html#a4897006d9416f1177b0bc0e41df60293", null ]
+    [ "HandleEffectRemove", "db/ddf/a23094.html#a9e578e576d8fa4198cf1f0e9f03ba47a", null ],
+    [ "PrepareAuraScript", "db/ddf/a23094.html#a5fa56f4d61c63487919bb2080795e391", null ],
+    [ "Register", "db/ddf/a23094.html#a2d0bbef8b32c688b7409837b426d9cd1", null ]
 ];

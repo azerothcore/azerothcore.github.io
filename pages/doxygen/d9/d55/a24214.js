@@ -1,9 +1,15 @@
 var a24214 =
 [
-    [ "npc_stolen_soulAI", "d9/d55/a24214.html#aa00bb48fcb93fe9b02b8157bfe13c06a", null ],
-    [ "DoAction", "d9/d55/a24214.html#a9291746dda6643fd77dd0076e55f4803", null ],
-    [ "Reset", "d9/d55/a24214.html#ab4d5f1873b2c70c61e97b2910bf2fb47", null ],
-    [ "UpdateAI", "d9/d55/a24214.html#ab868030957cc2558dae1ef9cae5ec92e", null ],
-    [ "events", "d9/d55/a24214.html#a59445b486700065e5aded7c943b91bc3", null ],
-    [ "myClass", "d9/d55/a24214.html#a8b084a46c1517670206935c1de176de7", null ]
+    [ "dragonmaw_race_npc", "d9/d55/a24214.html#ad93bcd14a4fd05c9e8a1aee4dd53d4aa", null ],
+    [ "FailQuest", "d9/d55/a24214.html#a6f96c4677f54f17ad76662453fdc35a1", null ],
+    [ "FinishRace", "d9/d55/a24214.html#a2439f54aca4ff28c23d351245099a4fc", null ],
+    [ "MovementInform", "d9/d55/a24214.html#ad0b4ef357605a44a4188c29292303dcf", null ],
+    [ "PathEndReached", "d9/d55/a24214.html#a6b93a5fb6beb8e8b886f6bf8bb58d3d2", null ],
+    [ "Reset", "d9/d55/a24214.html#a0edde2bdb8d4d2204551ebc7a7c41fe9", null ],
+    [ "sQuestAccept", "d9/d55/a24214.html#a539fcaf1dc25a34531d032032c19182e", null ],
+    [ "StartRace", "d9/d55/a24214.html#ac7d20cb0f2a997d2306195da5c9004e8", null ],
+    [ "StartRaceAttacks", "d9/d55/a24214.html#a341528843b89a29711f60a1b932da616", null ],
+    [ "TakeOff", "d9/d55/a24214.html#a8b14aeb1e67059a159f42aad578ccbfb", null ],
+    [ "UpdateAI", "d9/d55/a24214.html#a5d84467b3fa0c3eefcf7054d0dde472c", null ],
+    [ "_player", "d9/d55/a24214.html#af9fcf41b95cea5561960b5d91010824f", null ]
 ];

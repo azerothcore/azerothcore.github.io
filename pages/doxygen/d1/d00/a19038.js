@@ -1,7 +1,8 @@
 var a19038 =
 [
-    [ "OnPeriodic", "d1/d00/a19038.html#ae306475845b2e83a08a226d8e78a0beb", null ],
-    [ "OnUpdate", "d1/d00/a19038.html#affc809d41b0d19adb6fd62ee2923fe71", null ],
-    [ "PrepareAuraScript", "d1/d00/a19038.html#a97a51fd229180056cf87785d4ad62e1c", null ],
-    [ "Register", "d1/d00/a19038.html#af6f4af51d4297e2e221f92b30c9a69a4", null ]
+    [ "HandleDamage", "d1/d00/a19038.html#ab8948b09b685ad970f5292ca4c5d97ba", null ],
+    [ "HandleTargets", "d1/d00/a19038.html#ac36e689bad93aa17738f390680764a7e", null ],
+    [ "PrepareSpellScript", "d1/d00/a19038.html#a149db071722ce12cded16087c8eec1df", null ],
+    [ "Register", "d1/d00/a19038.html#abd073f34a414fab7ee23ee933863f1c7", null ],
+    [ "Validate", "d1/d00/a19038.html#a177320de9c3a2c2f29120fcaa413ab13", null ]
 ];

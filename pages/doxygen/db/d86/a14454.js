@@ -1,5 +1,9 @@
 var a14454 =
 [
-    [ "achievement_pb_pilgrims_peril", "db/d86/a14454.html#a9516eab18d7e1401a5637913d8ec9595", null ],
-    [ "OnCheck", "db/d86/a14454.html#a78c92eab532448080c1d28dc8fcabaca", null ]
+    [ "boss_azgalor", "db/d86/a14454.html#ac794e0eacc2d543fa62e4b521089f080", null ],
+    [ "DoAction", "db/d86/a14454.html#a43d7afa9da1375f431df871e2a1dfff2", null ],
+    [ "JustDied", "db/d86/a14454.html#a49cc8abf458f82ad7d46c9c1563f0e98", null ],
+    [ "JustEngagedWith", "db/d86/a14454.html#a4b067c3bccbd5f9c96c50d009250d3d0", null ],
+    [ "KilledUnit", "db/d86/a14454.html#a04df1058e89ccc6e7ef2d1dff38d47e7", null ],
+    [ "_recentlySpoken", "db/d86/a14454.html#abea34396ddde0aa02a073b2f3119fec9", null ]
 ];

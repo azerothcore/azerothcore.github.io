@@ -1,7 +1,10 @@
 var a09894 =
 [
-    [ "AutoBankItem", "d9/dc5/a09894.html#a02d39ddc9eda90be709b2fa9c1f6023d", null ],
-    [ "Read", "d9/dc5/a09894.html#a8651192c6040cdf5d257c134dde1208c", null ],
-    [ "Bag", "d9/dc5/a09894.html#a69f9b65ecb778c94c6e9278e5f98d31b", null ],
-    [ "Slot", "d9/dc5/a09894.html#a970f2ca85a76de1a25ad40a9ebf0029f", null ]
+    [ "QuestStatusData", "d9/dc5/a09894.html#ae71725a7f75e10aacb6f4a9ca4b72f27", null ],
+    [ "CreatureOrGOCount", "d9/dc5/a09894.html#aa5892dc0744a41ac565568307f12ad35", null ],
+    [ "Explored", "d9/dc5/a09894.html#a734f6a61aa35c77689d33031e88f0c0b", null ],
+    [ "ItemCount", "d9/dc5/a09894.html#a466999cea52f65bf58916bc34750bf95", null ],
+    [ "PlayerCount", "d9/dc5/a09894.html#a170a1e54fe45b7fd0c7934f1309f7969", null ],
+    [ "Status", "d9/dc5/a09894.html#a4ce7af3a64737d7961b6dfa19189c932", null ],
+    [ "Timer", "d9/dc5/a09894.html#a16343f7a162e5b7b6a1a18345420c77a", null ]
 ];

@@ -1,7 +1,8 @@
 var a19530 =
 [
-    [ "npc_frost_freeze_trapAI", "d9/d45/a19530.html#a95c64fbbc97f55e4d0cd0b239939fdc6", null ],
-    [ "DoAction", "d9/d45/a19530.html#a8dbe0fc5c84f49363254562166c8c0a7", null ],
-    [ "UpdateAI", "d9/d45/a19530.html#ae8efccb090f38968f3c0ca51f022013b", null ],
-    [ "_events", "d9/d45/a19530.html#ae0abd3d7fcb51ac02f8d325efa93b2f2", null ]
+    [ "dark_rune_protectorsAI", "d9/d45/a19530.html#ae2f3cfd19e565ede132e38f439a930ba", null ],
+    [ "JustEngagedWith", "d9/d45/a19530.html#aa71514efa488ff8f9276cb2a4c166759", null ],
+    [ "Reset", "d9/d45/a19530.html#a88305b8ac016175d61a0387d1888671f", null ],
+    [ "UpdateAI", "d9/d45/a19530.html#a0e27fc91a01362ee58a0eb10fb9a5176", null ],
+    [ "events", "d9/d45/a19530.html#a2836d6f142a322dae0aed9ff6a4888e2", null ]
 ];

@@ -1,9 +1,12 @@
 var a18150 =
 [
-    [ "CheckAreaTarget", "d4/d85/a18150.html#a3c63a80369c39fff14b49e2d75e3afdb", null ],
-    [ "HandleApply", "d4/d85/a18150.html#a041680de2214f9169b8f70082c07656c", null ],
-    [ "HandleRemove", "d4/d85/a18150.html#a2d19687e629843bce5691110592fc834", null ],
-    [ "Load", "d4/d85/a18150.html#a2e842d63103fa4495201fec7eab5c8d0", null ],
-    [ "PrepareAuraScript", "d4/d85/a18150.html#a50e0015cf2e2211511de80345b5ee1aa", null ],
-    [ "Register", "d4/d85/a18150.html#aa57f5e3327eadf73ee772427f67ad423", null ]
+    [ "npc_raging_spiritAI", "d4/d85/a18150.html#a1c85351ae62d5f45381214373e64aec4", null ],
+    [ "AttackStart", "d4/d85/a18150.html#a16ab37be9e31dcfc159b5c78b196b847", null ],
+    [ "CanAIAttack", "d4/d85/a18150.html#a64fa46f05861d8736d881aa3687f4320", null ],
+    [ "IsSummonedBy", "d4/d85/a18150.html#a836d605f4320ba9fd49cb60d6a1e032d", null ],
+    [ "JustDied", "d4/d85/a18150.html#a821377a2c29b4180db00f2c4f4268fe7", null ],
+    [ "Reset", "d4/d85/a18150.html#a9dae9cb2c6f18d89d06cfa72b98d36f2", null ],
+    [ "UpdateAI", "d4/d85/a18150.html#a64beac4aafa9e9bb2089a7c1e35fe8a5", null ],
+    [ "_events", "d4/d85/a18150.html#af5783316983b622f20d8c677f2858111", null ],
+    [ "_instance", "d4/d85/a18150.html#aaa9b5728fcdb379849434385b3501251", null ]
 ];

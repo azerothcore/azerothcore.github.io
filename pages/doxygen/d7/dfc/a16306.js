@@ -1,7 +1,7 @@
 var a16306 =
 [
-    [ "Load", "d7/dfc/a16306.html#a8e6c15c63b925dc55a9dfaf4d31273d3", null ],
-    [ "Phase", "d7/dfc/a16306.html#a5e0d90d4751368d4dbedd1dd17c0fbd9", null ],
-    [ "PrepareSpellScript", "d7/dfc/a16306.html#ae500eacb492b25784071d202c60e2525", null ],
-    [ "Register", "d7/dfc/a16306.html#ae2bb0092596ef7268052e5e9d15b873c", null ]
+    [ "npc_toc_dkAI", "d7/dfc/a16306.html#aa01bf528b10ed7bbdfe9b03694e51845", null ],
+    [ "myCanCast", "d7/dfc/a16306.html#a54dee5d9b0f17bad21e8c1e275f0b222", null ],
+    [ "UpdateAI", "d7/dfc/a16306.html#ab4f4b11e2b250fb24de6c069c5e38208", null ],
+    [ "events", "d7/dfc/a16306.html#a293d5fca2940432c4eea57c5de5a1fdc", null ]
 ];

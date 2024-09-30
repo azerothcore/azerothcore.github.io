@@ -1,6 +1,9 @@
 var a19510 =
 [
-    [ "npc_highlord_tirion_fordringAI", "d1/d80/a19514.html", "d1/d80/a19514" ],
-    [ "npc_highlord_tirion_fordring_lh", "df/d00/a19510.html#a96102a488330c54a3e3654c767e8e1a5", null ],
-    [ "GetAI", "df/d00/a19510.html#aea42394c04c1763cffe10eb5eba09854", null ]
+    [ "boss_sjonnir_malformed_oozeAI", "df/d00/a19510.html#a0624f769d0ce5a95ea2bb877811b0409", null ],
+    [ "JustEngagedWith", "df/d00/a19510.html#a9e6527bc46d7b685d938833d18796cee", null ],
+    [ "MoveInLineOfSight", "df/d00/a19510.html#a7449e135f088a2d4b22a423c71118093", null ],
+    [ "MovementInform", "df/d00/a19510.html#ac04d90e974f85282737bb5081a123106", null ],
+    [ "UpdateAI", "df/d00/a19510.html#afccd77c8e90d129fb3a347205a2102db", null ],
+    [ "events", "df/d00/a19510.html#a73c135ec94b41a752fc203c5e20128d0", null ]
 ];

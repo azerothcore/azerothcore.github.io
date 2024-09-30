@@ -1,7 +1,10 @@
 var a18102 =
 [
-    [ "npc_gunship_boarding_leaderAI", "d9/d65/a18102.html#ac20099905fd6fddda2561b88cf077b77", null ],
-    [ "JustEngagedWith", "d9/d65/a18102.html#a448ee30c01317a7e3c842a0043b15c2a", null ],
-    [ "UpdateAI", "d9/d65/a18102.html#ab7a105fbc49a365d609c7787b61fd75f", null ],
-    [ "_events", "d9/d65/a18102.html#affb899bbaa288e72a48d5518367b023d", null ]
+    [ "npc_shambling_horror_iccAI", "d9/d65/a18102.html#a0d15c62bead7a4da3c8a8abd0b2ee612", null ],
+    [ "CanAIAttack", "d9/d65/a18102.html#a6d77fdd16c4b089049ade7f7b081b4e9", null ],
+    [ "DamageTaken", "d9/d65/a18102.html#aed90f2c487c28190c7af630f4ea2fa13", null ],
+    [ "Reset", "d9/d65/a18102.html#ac5bab3d9f360e4e00dcab9abc3799865", null ],
+    [ "UpdateAI", "d9/d65/a18102.html#abae6058591022057e93d48da3db1b8bc", null ],
+    [ "_events", "d9/d65/a18102.html#af12b65fe4f77e8b2d3f5c87379dd69d2", null ],
+    [ "_frenzied", "d9/d65/a18102.html#a34347cbecea4c6f538345b7285e8f1c0", null ]
 ];

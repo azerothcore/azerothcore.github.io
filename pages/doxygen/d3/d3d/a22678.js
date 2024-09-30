@@ -1,8 +1,6 @@
 var a22678 =
 [
-    [ "CheckProc", "d3/d3d/a22678.html#ac955cc78dd3206816906dd06b3e006f6", null ],
-    [ "HandleProc", "d3/d3d/a22678.html#a966d23cc5714fe35d80b2964dddda536", null ],
-    [ "PrepareAuraScript", "d3/d3d/a22678.html#a5c8464dcf2f8b62a624f38dec2f4a0a5", null ],
-    [ "Register", "d3/d3d/a22678.html#a3e7479f97e4105f2c12536d9c66284aa", null ],
-    [ "Validate", "d3/d3d/a22678.html#a5d8e764dafd26548af8588593bf27990", null ]
+    [ "HandleScriptEffect", "d3/d3d/a22678.html#a21740b341acce23e284a3d4ceea9b6e0", null ],
+    [ "PrepareSpellScript", "d3/d3d/a22678.html#addcd30a673390ca8b76eab5ccb5f4245", null ],
+    [ "Register", "d3/d3d/a22678.html#aad6959f74932db219e991efd3b3af44a", null ]
 ];

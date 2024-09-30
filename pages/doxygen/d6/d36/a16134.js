@@ -1,6 +1,6 @@
 var a16134 =
 [
-    [ "instance_obsidian_sanctum_InstanceMapScript", "d6/d5e/a16138.html", "d6/d5e/a16138" ],
-    [ "instance_obsidian_sanctum", "d6/d36/a16134.html#a6cf2121c4167156f5748c144372b3c0b", null ],
-    [ "GetInstanceScript", "d6/d36/a16134.html#a67acb36f65c1bc3d6eca59bf71a5c220", null ]
+    [ "instance_trial_of_the_champion_InstanceMapScript", "d6/d5e/a16138.html", "d6/d5e/a16138" ],
+    [ "instance_trial_of_the_champion", "d6/d36/a16134.html#a7b97e3da119a7ad33a87c74647407bd8", null ],
+    [ "GetInstanceScript", "d6/d36/a16134.html#a9227119fc47f38cd82a1fc07c04b0c86", null ]
 ];

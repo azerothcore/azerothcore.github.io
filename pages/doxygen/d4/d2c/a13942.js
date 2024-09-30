@@ -1,9 +1,16 @@
 var a13942 =
 [
-    [ "boss_hazzarah", "d4/d2c/a13942.html#a73ba49b91addc9c03e1692587fe66a52", null ],
-    [ "CanAIAttack", "d4/d2c/a13942.html#a9038a5b4276fda8a6865217a7c494eec", null ],
-    [ "JustEngagedWith", "d4/d2c/a13942.html#a18e382c03ff923bb851a9cd8e2541788", null ],
-    [ "JustSummoned", "d4/d2c/a13942.html#a1c3969fbc027f054598ec4123abd6fa4", null ],
-    [ "SummonedCreatureDies", "d4/d2c/a13942.html#aac0c990013edf1968d33aeb59d4f05b0", null ],
-    [ "UpdateAI", "d4/d2c/a13942.html#a61d92f1650a84ed9684d33879e54bd09", null ]
+    [ "boss_renatakiAI", "d4/d2c/a13942.html#ac154bfadeb99d67f59e1682de257e8bf", null ],
+    [ "CanAIAttack", "d4/d2c/a13942.html#af20dc14dc56500e568a3a11bfb34a227", null ],
+    [ "CanAlwaysBeDetectable", "d4/d2c/a13942.html#af75108eacb982586f43a175beede78ef", null ],
+    [ "CanBeSeen", "d4/d2c/a13942.html#ac79db0d4488702be0cd12b5e03a9bcb9", null ],
+    [ "CanSeeAlways", "d4/d2c/a13942.html#a6e4a1e9bec67a1bdac4c9cef3da4b17d", null ],
+    [ "DamageTaken", "d4/d2c/a13942.html#a62d97adb310b55a2235737b854dc4aca", null ],
+    [ "JustEngagedWith", "d4/d2c/a13942.html#a72e9a85d2215d3da197d50b6aa0b769e", null ],
+    [ "Reset", "d4/d2c/a13942.html#ad50d8e24fb4168186497c5cdb5b39a68", null ],
+    [ "UpdateAI", "d4/d2c/a13942.html#a3a1abaef460d9abe1298080080d74c9d", null ],
+    [ "_dynamicFlags", "d4/d2c/a13942.html#a502bfa737cf97ae909144278a3e39bd0", null ],
+    [ "_enraged", "d4/d2c/a13942.html#a71e717a2ea732729762aff7970439f74", null ],
+    [ "_thousandBladesCount", "d4/d2c/a13942.html#a29dd57c66245f30d12f32d31cc25cd55", null ],
+    [ "_thousandBladesTargets", "d4/d2c/a13942.html#ab8b2b52a2ef8ea6586381234c9a3e3fc", null ]
 ];

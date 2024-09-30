@@ -1,9 +1,10 @@
 var a23766 =
 [
-    [ "npc_engineer_heliceAI", "d1/d58/a23766.html#ab9d82a7d2886a0cc4edbc2f4c4c81341", null ],
-    [ "JustDied", "d1/d58/a23766.html#aba224727b86a2bfc39a47b70b424ccef", null ],
-    [ "Reset", "d1/d58/a23766.html#ade3f7f526dd8973c155aafb939db3778", null ],
-    [ "UpdateAI", "d1/d58/a23766.html#a1c333511dd6e82cd22af111e12a701c4", null ],
-    [ "WaypointReached", "d1/d58/a23766.html#a065698e61f0b7769ad2f58614c02ad5b", null ],
-    [ "m_uiChatTimer", "d1/d58/a23766.html#aa305bc2b5711d0745650f80275204ea8", null ]
+    [ "npc_lord_sanguinar", "d1/d58/a23766.html#aa5ec2023d72561fe9cf062a2ba5a5469", null ],
+    [ "JustDied", "d1/d58/a23766.html#a97fbf79087f34898c87df2d88a33bd2c", null ],
+    [ "JustEngagedWith", "d1/d58/a23766.html#a8a6871900d2f49e7ce5a66d0620fec09", null ],
+    [ "Reset", "d1/d58/a23766.html#a25d998de67f88d4618f8f8d88681e68b", null ],
+    [ "UpdateAI", "d1/d58/a23766.html#a27df1dbb76a650b8039690cab4ddad68", null ],
+    [ "_hasDied", "d1/d58/a23766.html#a6f0a66b88b95412f443998190b142eaf", null ],
+    [ "_instance", "d1/d58/a23766.html#aa610a2ca98d2fff376821dd243947096", null ]
 ];

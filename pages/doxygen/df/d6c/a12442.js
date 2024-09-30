@@ -1,6 +1,6 @@
 var a12442 =
 [
-    [ "boss_vexallusAI", "dd/d2c/a12446.html", "dd/d2c/a12446" ],
-    [ "boss_vexallus", "df/d6c/a12442.html#aee8aed11a6db3425f272efed346d2f37", null ],
-    [ "GetAI", "df/d6c/a12442.html#a11c5fa103ca67ba0c20b87d00649f862", null ]
+    [ "npc_image_of_medivhAI", "dd/d2c/a12446.html", "dd/d2c/a12446" ],
+    [ "npc_image_of_medivh", "df/d6c/a12442.html#a55ee6f97bc7f144209927a2813cab6a9", null ],
+    [ "GetAI", "df/d6c/a12442.html#a11769c47fda3f1c4d8d80329f70d1957", null ]
 ];

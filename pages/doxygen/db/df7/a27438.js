@@ -1,7 +1,8 @@
 var a27438 =
 [
-    [ "HandleDummy", "db/df7/a27438.html#a5a82cbe58f57c94441cfda618e0eecca", null ],
-    [ "HandleScriptEffect", "db/df7/a27438.html#a30d760a8708b49a185eb000249a9a5eb", null ],
-    [ "PrepareSpellScript", "db/df7/a27438.html#a102d8493d285757c789cbba4a1bdc688", null ],
-    [ "Register", "db/df7/a27438.html#ab4031ddb745995128854c149f7706045", null ]
+    [ "npc_riggle_bassbaitAI", "df/d78/a27442.html", "df/d78/a27442" ],
+    [ "npc_riggle_bassbait", "db/df7/a27438.html#afc4280099cda3c28c4634d649e636839", null ],
+    [ "GetAI", "db/df7/a27438.html#ad5e3230dae9ac23aa83883e53b37234e", null ],
+    [ "OnGossipHello", "db/df7/a27438.html#aeea1e5d4d59c72ce97e1f0eb8da5b6fe", null ],
+    [ "OnQuestReward", "db/df7/a27438.html#aa3ef2b3ebd7542a4836983872c397e66", null ]
 ];

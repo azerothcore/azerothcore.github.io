@@ -1,5 +1,8 @@
 var a19318 =
 [
-    [ "achievement_neck_deep_in_vile", "d9/d0e/a19318.html#af0e54c236e7637d8c1a8cf7dbed5a195", null ],
-    [ "OnCheck", "d9/d0e/a19318.html#a9861c008f302279a4ac5f4ddc14ca2d0", null ]
+    [ "npc_centrifuge_constructAI", "d9/d0e/a19318.html#a9219f4955ae82ca7f401ea1c63f66b09", null ],
+    [ "DamageTaken", "d9/d0e/a19318.html#aa568418de267a99108698e79baa1b3f4", null ],
+    [ "JustEngagedWith", "d9/d0e/a19318.html#ac6ecbb17624c2747253c68a50b93c40f", null ],
+    [ "Reset", "d9/d0e/a19318.html#a2f7750cea2f59d794c85e20b703370af", null ],
+    [ "UpdateAI", "d9/d0e/a19318.html#a28316416ad6c56d83c9e878511256445", null ]
 ];

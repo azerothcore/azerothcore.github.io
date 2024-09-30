@@ -1,6 +1,6 @@
 var a26470 =
 [
-    [ "PrepareSpellScript", "dc/dcd/a26470.html#a2585b06bbebf291d170df58daf6fdd4e", null ],
-    [ "RecalculateDamage", "dc/dcd/a26470.html#a1fe9f9d4892b0ca8cb6699b555fb9268", null ],
-    [ "Register", "dc/dcd/a26470.html#a834484683d2d782b4f4c027091108172", null ]
+    [ "HandleScript", "dc/dcd/a26470.html#a54c724bd8786c894ecaa584c164c2e53", null ],
+    [ "PrepareSpellScript", "dc/dcd/a26470.html#a4505b9196609ae9339fe7e5948963663", null ],
+    [ "Register", "dc/dcd/a26470.html#ae293d6a2a477f716f357516781246069", null ]
 ];

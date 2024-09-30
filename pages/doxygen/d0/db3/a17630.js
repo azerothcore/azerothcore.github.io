@@ -1,13 +1,6 @@
 var a17630 =
 [
-    [ "boss_slad_ranAI", "d0/db3/a17630.html#ad85e2fd51d67739026a96bc757bc7801", null ],
-    [ "GetData", "d0/db3/a17630.html#a58e1188a418acdc1f327e7df90c5c122", null ],
-    [ "JustDied", "d0/db3/a17630.html#a636ca76497c33a5175986e80bbcda44a", null ],
-    [ "JustEngagedWith", "d0/db3/a17630.html#ac30b38805d0421b1be509c7d5609c648", null ],
-    [ "JustSummoned", "d0/db3/a17630.html#a08e8d256c0f15011d1aacef8e22d4253", null ],
-    [ "KilledUnit", "d0/db3/a17630.html#a4700f8c06e5fa43fc1719c19cfe79b24", null ],
-    [ "Reset", "d0/db3/a17630.html#a8759163de40d04d53c5e5ed8d8192aa7", null ],
-    [ "SetData", "d0/db3/a17630.html#a3b91eb7c2aa2aeb356c51e81f449b0a5", null ],
-    [ "UpdateAI", "d0/db3/a17630.html#a9eeb3281456779edd9570119ba8a2105", null ],
-    [ "_achievement", "d0/db3/a17630.html#a3ab4f94e13d414fd6c9eb0ba63941ca9", null ]
+    [ "HandlePeriodicTick", "d0/db3/a17630.html#a29bf443cdb53b10032ba382b8ae44828", null ],
+    [ "PrepareAuraScript", "d0/db3/a17630.html#aa22f2997c77c25927f01d9fb1c6852b9", null ],
+    [ "Register", "d0/db3/a17630.html#a01e31df6c6ec9f6ae5bffb4b435caf8e", null ]
 ];

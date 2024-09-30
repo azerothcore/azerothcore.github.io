@@ -1,5 +1,8 @@
 var a26150 =
 [
-    [ "npc_karynaku", "de/d75/a26150.html#aa6a3cb409cdbc990f1eee4137c7519d2", null ],
-    [ "OnQuestAccept", "de/d75/a26150.html#a4cae1950fe3b7b4ae6f2e6691800ec47", null ]
+    [ "CalculateAmount", "de/d75/a26150.html#aa1810db9a7b8fbc3572621ff35e0eeb1", null ],
+    [ "PrepareAuraScript", "de/d75/a26150.html#ad40d44271840b8e2bd1dc22b6a04290e", null ],
+    [ "ReflectDamage", "de/d75/a26150.html#ad8b5f9a7952fc33d7e1fee28e4872212", null ],
+    [ "Register", "de/d75/a26150.html#a18b19ee8823e2d1747caeefaf457ad8d", null ],
+    [ "Validate", "de/d75/a26150.html#af2936ba4a29fc8735a3cabe805c77355", null ]
 ];

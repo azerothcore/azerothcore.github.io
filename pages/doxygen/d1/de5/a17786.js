@@ -1,6 +1,7 @@
 var a17786 =
 [
-    [ "spell_valanar_kinetic_bomb_summon_SpellScript", "d1/d49/a17790.html", "d1/d49/a17790" ],
-    [ "spell_valanar_kinetic_bomb_summon", "d1/de5/a17786.html#a877ea8fb2f6624195bf22d0bb343d27b", null ],
-    [ "GetSpellScript", "d1/de5/a17786.html#a6195a5d123418aee09ba711b6fee947b", null ]
+    [ "HandleSummon", "d1/de5/a17786.html#a8a96bd3a1b3cfaff09e05535eca927a9", null ],
+    [ "PrepareSpellScript", "d1/de5/a17786.html#a0213cd8e5e79aba8ba80583ceda88b95", null ],
+    [ "Register", "d1/de5/a17786.html#a01281869dc98a0af5027695391f1221f", null ],
+    [ "Validate", "d1/de5/a17786.html#a26675411e5f86e6d31f62762a3fdcd70", null ]
 ];

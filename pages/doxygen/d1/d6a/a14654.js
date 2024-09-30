@@ -1,12 +1,9 @@
 var a14654 =
 [
-    [ "npc_ghoulAI", "d1/d6a/a14654.html#af835b3c0bdba5c2c37c2dfbabdbe01ea", null ],
-    [ "JustEngagedWith", "d1/d6a/a14654.html#a6ed7c5296348e23c69f9910d4742cad6", null ],
-    [ "Reset", "d1/d6a/a14654.html#a521edce5edbc5efe48d53c3555644342", null ],
-    [ "UpdateAI", "d1/d6a/a14654.html#a214d107691e7d07a94f90f8cc9129209", null ],
-    [ "WaypointReached", "d1/d6a/a14654.html#a6d265d52e3703fd540a86e164b9603cb", null ],
-    [ "FrenzyTimer", "d1/d6a/a14654.html#adc17bc938371728f50b31dc36994c94a", null ],
-    [ "go", "d1/d6a/a14654.html#a673780abea5ad1a13097dc316a108ab3", null ],
-    [ "MoveTimer", "d1/d6a/a14654.html#add6aff424fb7598f7cc3b09f19691d21", null ],
-    [ "RandomMove", "d1/d6a/a14654.html#a9b782556b7ce91e2b151ccd57066247e", null ]
+    [ "boss_chrono_lord_deja", "d1/d6a/a14654.html#a85f82d4bde99b7e1d05fba82177916e6", null ],
+    [ "JustDied", "d1/d6a/a14654.html#a68eb4941364f9fac121aa3d610d45f48", null ],
+    [ "JustEngagedWith", "d1/d6a/a14654.html#ab5324b2993f2fd1ec3290eb962ef6065", null ],
+    [ "KilledUnit", "d1/d6a/a14654.html#a02c279fb1cfccd38dc60ba7c610cf859", null ],
+    [ "MoveInLineOfSight", "d1/d6a/a14654.html#a535c0c157c60804188ad8c4413c277dd", null ],
+    [ "OwnTalk", "d1/d6a/a14654.html#acdef53bd447c30d87bd15af3bf4200bc", null ]
 ];

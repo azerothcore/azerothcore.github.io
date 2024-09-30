@@ -1,6 +1,7 @@
 var a26298 =
 [
-    [ "npc_unkor_the_ruthlessAI", "de/d1c/a26302.html", "de/d1c/a26302" ],
-    [ "npc_unkor_the_ruthless", "dd/de3/a26298.html#a4eb173932f39c5503d1db91d55f3a5b7", null ],
-    [ "GetAI", "dd/de3/a26298.html#a552a19b9a48e90f3b093e2b9e16ec867", null ]
+    [ "HandleDummy", "dd/de3/a26298.html#abc630a0c8274f5f85901b2505ff2ae04", null ],
+    [ "PrepareSpellScript", "dd/de3/a26298.html#af79cd7c2f6ed47a93dbbe17aaca6834f", null ],
+    [ "Register", "dd/de3/a26298.html#a3f1808538acca2742c19f68af9a6fd56", null ],
+    [ "Validate", "dd/de3/a26298.html#a475e1d5d8c70e0edd5957a1e493fd43e", null ]
 ];

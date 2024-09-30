@@ -1,7 +1,9 @@
 var a15810 =
 [
-    [ "npc_ringoAI", "d4/db4/a15814.html", "d4/db4/a15814" ],
-    [ "npc_ringo", "d5/d8c/a15810.html#aabccd10a446986487bbb09fc2d33cfd9", null ],
-    [ "GetAI", "d5/d8c/a15810.html#aee6c9988f0c038c74b0deb3d44617ef1", null ],
-    [ "OnQuestAccept", "d5/d8c/a15810.html#abdf4e5e1b26c1b1a288047e24188ad10", null ]
+    [ "boss_sartharion_vesperonAI", "d5/d8c/a15810.html#afd67bf2c7a479771976673b05b0fc29e", null ],
+    [ "ClearInstance", "d5/d8c/a15810.html#aad9556374e26cbea7641461510fef9ba", null ],
+    [ "ExecuteEvent", "d5/d8c/a15810.html#aaf88a9e57c0d35f9e5d3fbcd4e2f5d09", null ],
+    [ "HandleExtraEvent", "d5/d8c/a15810.html#ab2080a14c105aeb6a9c155cf6f4ec17d", null ],
+    [ "Reset", "d5/d8c/a15810.html#aacf26c52f77ef4eb084814934f00aab1", null ],
+    [ "SummonedCreatureDies", "d5/d8c/a15810.html#a1e6fc9b1c734e73e5e27f6a17cf65d0b", null ]
 ];

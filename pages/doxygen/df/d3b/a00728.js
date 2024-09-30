@@ -1,6 +1,6 @@
 var a00728 =
 [
-    [ "PetScript", "d7/d9f/a10064.html", "d7/d9f/a10064" ],
+    [ "PetScript", "df/d2c/a10070.html", "df/d2c/a10070" ],
     [ "PetHook", "df/d3b/a00728.html#a2e6398af59b176e045eece50b1a5d404", [
       [ "PETHOOK_ON_INIT_STATS_FOR_LEVEL", "df/d3b/a00728.html#a2e6398af59b176e045eece50b1a5d404a1aa219c404710f806516a47fb4a2c421", null ],
       [ "PETHOOK_ON_CALCULATE_MAX_TALENT_POINTS_FOR_LEVEL", "df/d3b/a00728.html#a2e6398af59b176e045eece50b1a5d404af4173fac4396520c8d5f664cb15cd09a", null ],

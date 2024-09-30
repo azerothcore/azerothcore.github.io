@@ -1,8 +1,8 @@
 var a18546 =
 [
-    [ "FilterTargets", "d6/d32/a18546.html#a56253f9f90ee1777d8bbcffce84e8138", null ],
-    [ "HandleScript", "d6/d32/a18546.html#a13c2045d544619b41391653d0f1335d0", null ],
-    [ "PrepareSpellScript", "d6/d32/a18546.html#a1e4999fe2d2eccf3c25cf828d43609ce", null ],
-    [ "Register", "d6/d32/a18546.html#a504358e96ce95238b063531277577486", null ],
-    [ "Validate", "d6/d32/a18546.html#aef3ed3036b1d1acfa0929ab9be9ed16b", null ]
+    [ "npc_arthas_teleport_visualAI", "d6/d32/a18546.html#a9b9b2ba725cde9aec898244a9e50c394", null ],
+    [ "Reset", "d6/d32/a18546.html#a27155b8880a2a86b733bcd074e977b59", null ],
+    [ "UpdateAI", "d6/d32/a18546.html#a23c200f2c7b9f5d02bed7af37bc69c33", null ],
+    [ "_events", "d6/d32/a18546.html#a986f19145e46f5975f22a84a3e1b10ee", null ],
+    [ "_instance", "d6/d32/a18546.html#a25bc023e061a0845421a652b571a6e1e", null ]
 ];

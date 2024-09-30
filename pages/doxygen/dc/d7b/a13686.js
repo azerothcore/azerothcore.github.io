@@ -1,6 +1,7 @@
 var a13686 =
 [
-    [ "boss_thurgAI", "dc/d03/a13690.html", "dc/d03/a13690" ],
-    [ "boss_thurg", "dc/d7b/a13686.html#a4d07d9d72aac5f922c886d70c508330c", null ],
-    [ "GetAI", "dc/d7b/a13686.html#a45ce909d6a0886e443f42154fe57022b", null ]
+    [ "npc_janalai_eggAI", "dc/d7b/a13686.html#a75bf6d0c7fdb09ace4352cde99edda81", null ],
+    [ "Reset", "dc/d7b/a13686.html#aad93238c8c26d678da6df2d0191d3763", null ],
+    [ "SpellHit", "dc/d7b/a13686.html#a2e097705ad9710b22be38931df30bcc3", null ],
+    [ "UpdateAI", "dc/d7b/a13686.html#a4aa8bfac1e4584497d48097535cc77d3", null ]
 ];

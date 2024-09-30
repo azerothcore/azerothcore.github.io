@@ -1,6 +1,6 @@
 var a11918 =
 [
-    [ "boss_ragnarosAI", "d8/de7/a11922.html", "d8/de7/a11922" ],
-    [ "boss_ragnaros", "d8/df2/a11918.html#a47bd4dc50a0d05e8cbb75c1a5a52c9b5", null ],
-    [ "GetAI", "d8/df2/a11918.html#af54e36608e160811ca06952fd2c63f6e", null ]
+    [ "boss_firemawAI", "d8/df2/a11918.html#ab3f56c97119676b1a75662e52caecb75", null ],
+    [ "JustEngagedWith", "d8/df2/a11918.html#a04cb1d2fa18dba82b9c881b09406a076", null ],
+    [ "UpdateAI", "d8/df2/a11918.html#a6e35e47b23d713263ef00769324bbbed", null ]
 ];

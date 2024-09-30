@@ -1,6 +1,6 @@
 var a23142 =
 [
-    [ "npc_counselor_talbotAI", "d8/d24/a23146.html", "d8/d24/a23146" ],
-    [ "npc_counselor_talbot", "d8/d70/a23142.html#a9223380bb78afeda617482bea0a3110c", null ],
-    [ "GetAI", "d8/d70/a23142.html#a3debd13352146a247d635042ecbfa155", null ]
+    [ "HandleDummy", "d8/d70/a23142.html#a3347413822ce083085bcf1418fbdbae2", null ],
+    [ "PrepareSpellScript", "d8/d70/a23142.html#ad7b15a8c5cf3e2d38a1ce54afb24b3e5", null ],
+    [ "Register", "d8/d70/a23142.html#af0c8bf6a5076a4171a9d70f6872a21d5", null ]
 ];

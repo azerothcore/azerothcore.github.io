@@ -1,6 +1,6 @@
 var a24010 =
 [
-    [ "PrepareSpellScript", "d2/d98/a24010.html#ad80665c68b78f5ae8bf54520f2a2cffb", null ],
-    [ "RecalculateDamage", "d2/d98/a24010.html#ac9c02759adc50dab119bbad191a9562e", null ],
-    [ "Register", "d2/d98/a24010.html#a584245a0e511f5d419177aaccf37a501", null ]
+    [ "go_beaconAI", "d2/d98/a24010.html#a95f0f62d4e34da650c22a7ce796fc85f", null ],
+    [ "OnStateChanged", "d2/d98/a24010.html#a10bd78bf6c2451fe95163eb9083bdf44", null ],
+    [ "creatureList", "d2/d98/a24010.html#a8f406b85752e42cc26741aa5a13e69bc", null ]
 ];

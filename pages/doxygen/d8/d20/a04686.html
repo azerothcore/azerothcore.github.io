@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: ByteConverter Namespace Reference</title>
+<title>AzerothCore: OpenSSLCrypto Namespace Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,152 +106,81 @@ $(document).ready(function(){initNavTree('d8/d20/a04686.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">ByteConverter Namespace Reference</div></div>
+  <div class="headertitle"><div class="title">OpenSSLCrypto Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5628479f846d755da3ff53b0e2a66c26"><td class="memTemplParams" colspan="2">template&lt;std::size_t T&gt; </td></tr>
-<tr class="memitem:a5628479f846d755da3ff53b0e2a66c26"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a5628479f846d755da3ff53b0e2a66c26">convert</a> (char *val)</td></tr>
-<tr class="separator:a5628479f846d755da3ff53b0e2a66c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8017307aa0aa935f062b4f701563d09"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:aa8017307aa0aa935f062b4f701563d09"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#aa8017307aa0aa935f062b4f701563d09">convert&lt; 0 &gt;</a> (char *)</td></tr>
-<tr class="separator:aa8017307aa0aa935f062b4f701563d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3717e304a2b8b074fcd513ca8e0db116"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a3717e304a2b8b074fcd513ca8e0db116"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a3717e304a2b8b074fcd513ca8e0db116">convert&lt; 1 &gt;</a> (char *)</td></tr>
-<tr class="separator:a3717e304a2b8b074fcd513ca8e0db116"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6177d7ac84a4ea6819c57a124345540e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a6177d7ac84a4ea6819c57a124345540e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#a6177d7ac84a4ea6819c57a124345540e">apply</a> (T *val)</td></tr>
-<tr class="separator:a6177d7ac84a4ea6819c57a124345540e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2c343f2efc8fa69b50e1bd35bf410fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/ddf/a00488.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#ae2c343f2efc8fa69b50e1bd35bf410fd">threadsSetup</a> ()</td></tr>
+<tr class="memdesc:ae2c343f2efc8fa69b50e1bd35bf410fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Needs to be called before threads using openssl are spawned.  <a href="../../d8/d20/a04686.html#ae2c343f2efc8fa69b50e1bd35bf410fd">More...</a><br /></td></tr>
+<tr class="separator:ae2c343f2efc8fa69b50e1bd35bf410fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af868d9171650614810772c5675c47fd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/ddf/a00488.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html#af868d9171650614810772c5675c47fd3">threadsCleanup</a> ()</td></tr>
+<tr class="memdesc:af868d9171650614810772c5675c47fd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Needs to be called after threads using openssl are despawned.  <a href="../../d8/d20/a04686.html#af868d9171650614810772c5675c47fd3">More...</a><br /></td></tr>
+<tr class="separator:af868d9171650614810772c5675c47fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p ><a class="el" href="../../d8/d20/a04686.html">ByteConverter</a> reverse your byte order. This is use for cross platform where they have different endians. </p>
+<div class="textblock"><p >A group of functions which setup openssl crypto module to work properly in multithreaded enviroment If not setup properly - it will crash </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a6177d7ac84a4ea6819c57a124345540e" name="a6177d7ac84a4ea6819c57a124345540e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6177d7ac84a4ea6819c57a124345540e">&#9670;&#160;</a></span>apply()</h2>
+<a id="af868d9171650614810772c5675c47fd3" name="af868d9171650614810772c5675c47fd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af868d9171650614810772c5675c47fd3">&#9670;&#160;</a></span>threadsCleanup()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ByteConverter::apply </td>
+          <td class="memname">void OpenSSLCrypto::threadsCleanup </td>
           <td>(</td>
-          <td class="paramtype">T *&#160;</td>
-          <td class="paramname"><em>val</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   41</span>    {</div>
-<div class="line"><span class="lineno">   42</span>        convert&lt;sizeof(T)&gt;((<span class="keywordtype">char</span>*)(val));</div>
-<div class="line"><span class="lineno">   43</span>    }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a5628479f846d755da3ff53b0e2a66c26" name="a5628479f846d755da3ff53b0e2a66c26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5628479f846d755da3ff53b0e2a66c26">&#9670;&#160;</a></span>convert()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ByteConverter::convert </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>val</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   32</span>    {</div>
-<div class="line"><span class="lineno">   33</span>        std::swap(*val, *(val + T - 1));</div>
-<div class="line"><span class="lineno">   34</span>        <a class="code hl_function" href="../../d8/d20/a04686.html#a5628479f846d755da3ff53b0e2a66c26">convert</a> &lt; T - 2 &gt; (val + 1);</div>
-<div class="line"><span class="lineno">   35</span>    }</div>
-<div class="ttc" id="aa04686_html_a5628479f846d755da3ff53b0e2a66c26"><div class="ttname"><a href="../../d8/d20/a04686.html#a5628479f846d755da3ff53b0e2a66c26">ByteConverter::convert</a></div><div class="ttdeci">void convert(char *val)</div><div class="ttdef"><b>Definition:</b> ByteConverter.h:31</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00031">convert()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00031">convert()</a>.</p>
-
-</div>
-</div>
-<a id="aa8017307aa0aa935f062b4f701563d09" name="aa8017307aa0aa935f062b4f701563d09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8017307aa0aa935f062b4f701563d09">&#9670;&#160;</a></span>convert&lt; 0 &gt;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../d8/d20/a04686.html#a5628479f846d755da3ff53b0e2a66c26">ByteConverter::convert</a>&lt; 0 &gt; </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   37</span>{ }</div>
+
+<p>Needs to be called after threads using openssl are despawned. </p>
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{</div>
+<div class="line"><span class="lineno">   52</span>    OSSL_PROVIDER_unload(<a class="code hl_variable" href="../../db/dab/a00089.html#a81b4206923925a193dca5c3acd946bc2">LegacyProvider</a>);</div>
+<div class="line"><span class="lineno">   53</span>    OSSL_PROVIDER_unload(<a class="code hl_variable" href="../../db/dab/a00089.html#ab217c6bb86b0f962ea820f3ffe079708">DefaultProvider</a>);</div>
+<div class="line"><span class="lineno">   54</span>    OSSL_PROVIDER_set_default_search_path(<span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   55</span>}</div>
+<div class="ttc" id="aa00089_html_a81b4206923925a193dca5c3acd946bc2"><div class="ttname"><a href="../../db/dab/a00089.html#a81b4206923925a193dca5c3acd946bc2">LegacyProvider</a></div><div class="ttdeci">OSSL_PROVIDER * LegacyProvider</div><div class="ttdef"><b>Definition:</b> OpenSSLCrypto.cpp:22</div></div>
+<div class="ttc" id="aa00089_html_ab217c6bb86b0f962ea820f3ffe079708"><div class="ttname"><a href="../../db/dab/a00089.html#ab217c6bb86b0f962ea820f3ffe079708">DefaultProvider</a></div><div class="ttdeci">OSSL_PROVIDER * DefaultProvider</div><div class="ttdef"><b>Definition:</b> OpenSSLCrypto.cpp:23</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00023">DefaultProvider</a>, and <a class="el" href="../../#l00022">LegacyProvider</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00068">main()</a>.</p>
+
 </div>
 </div>
-<a id="a3717e304a2b8b074fcd513ca8e0db116" name="a3717e304a2b8b074fcd513ca8e0db116"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3717e304a2b8b074fcd513ca8e0db116">&#9670;&#160;</a></span>convert&lt; 1 &gt;()</h2>
+<a id="ae2c343f2efc8fa69b50e1bd35bf410fd" name="ae2c343f2efc8fa69b50e1bd35bf410fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2c343f2efc8fa69b50e1bd35bf410fd">&#9670;&#160;</a></span>threadsSetup()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d8/d20/a04686.html#a5628479f846d755da3ff53b0e2a66c26">ByteConverter::convert</a>&lt; 1 &gt; </td>
+          <td class="memname">void OpenSSLCrypto::threadsSetup </td>
           <td>(</td>
-          <td class="paramtype">char *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   38</span>{ }            <span class="comment">// ignore central byte</span></div>
+
+<p>Needs to be called before threads using openssl are spawned. </p>
+<div class="fragment"><div class="line"><span class="lineno">   42</span>{</div>
+<div class="line"><span class="lineno">   43</span><span class="preprocessor">#if AC_PLATFORM == AC_PLATFORM_WINDOWS</span></div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_function" href="../../db/dab/a00089.html#ab801d0877d7ea0652bb6f94fb17842e4">SetupLibrariesForWindows</a>();</div>
+<div class="line"><span class="lineno">   45</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_variable" href="../../db/dab/a00089.html#a81b4206923925a193dca5c3acd946bc2">LegacyProvider</a> = OSSL_PROVIDER_load(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot;legacy&quot;</span>);</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_variable" href="../../db/dab/a00089.html#ab217c6bb86b0f962ea820f3ffe079708">DefaultProvider</a> = OSSL_PROVIDER_load(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot;default&quot;</span>);</div>
+<div class="line"><span class="lineno">   48</span>}</div>
+<div class="ttc" id="aa00089_html_ab801d0877d7ea0652bb6f94fb17842e4"><div class="ttname"><a href="../../db/dab/a00089.html#ab801d0877d7ea0652bb6f94fb17842e4">SetupLibrariesForWindows</a></div><div class="ttdeci">void SetupLibrariesForWindows()</div><div class="ttdef"><b>Definition:</b> OpenSSLCrypto.cpp:29</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00023">DefaultProvider</a>, <a class="el" href="../../#l00022">LegacyProvider</a>, and <a class="el" href="../../#l00029">SetupLibrariesForWindows()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00068">main()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -259,8 +188,8 @@ template&lt;&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">ByteConverter</a></li>
-    <li class="footer">Generated on Mon Sep 23 2024 20:42:47 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">OpenSSLCrypto</a></li>
+    <li class="footer">Generated on Mon Sep 30 2024 20:42:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

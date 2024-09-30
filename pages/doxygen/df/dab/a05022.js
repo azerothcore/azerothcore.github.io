@@ -1,9 +1,7 @@
 var a05022 =
 [
-    [ "IpLocationRecord", "df/dab/a05022.html#a1dba2f8a7697c7e6fd427089d556c19a", null ],
-    [ "IpLocationRecord", "df/dab/a05022.html#a10ffefef6ba7d81a23d5d29bc2ee599d", null ],
-    [ "CountryCode", "df/dab/a05022.html#a9b54a497801e9da396955893473eb7da", null ],
-    [ "CountryName", "df/dab/a05022.html#acbc8ea139970e7acbad06302d5666eb9", null ],
-    [ "IpFrom", "df/dab/a05022.html#a97d36332086a339e07b73955f23acd57", null ],
-    [ "IpTo", "df/dab/a05022.html#a844dfff114f6ce64b79c459527965bfb", null ]
+    [ "operator()", "df/dab/a05022.html#af1b2d9b7517b57a5a0a598f58b470c33", null ],
+    [ "closestEntity", "df/dab/a05022.html#ab377424b7edd0274f61967619700f841", null ],
+    [ "hitLocation", "df/dab/a05022.html#a00e778dd78dca96391d200e18dfc2c9d", null ],
+    [ "hitNormal", "df/dab/a05022.html#a57f40f48c26829f7da9e48efd839d773", null ]
 ];

@@ -1,6 +1,11 @@
 var a22774 =
 [
-    [ "npc_frozen_orb_stalkerAI", "dc/d46/a22774.html#afd8d187ecbf508d02824d1ff8f3cb5cf", null ],
-    [ "JustSummoned", "dc/d46/a22774.html#a73d7d5e55d2a00c9aee6f595e2678b17", null ],
-    [ "Reset", "dc/d46/a22774.html#a064ccb90afeb9b36d501850482c60bc4", null ]
+    [ "boss_high_nethermancer_zerevor", "dc/d46/a22774.html#a2d3ce1a6d972c0b58efe5aad31014c09", null ],
+    [ "AttackStart", "dc/d46/a22774.html#a270961bd3af6ce65eebc79130f4e3d47", null ],
+    [ "CastDampenMagicIfPossible", "dc/d46/a22774.html#ab0af23baf43d377935811c52a346c566", null ],
+    [ "JustEngagedWith", "dc/d46/a22774.html#a390f939ba01ee189fc55670eb4ff1a7e", null ],
+    [ "OnAuraRemove", "dc/d46/a22774.html#a7dd31808dbf00f77b59fce84249778fe", null ],
+    [ "Reset", "dc/d46/a22774.html#afd7a419de217b3d129f783ddc87780af", null ],
+    [ "UpdateAI", "dc/d46/a22774.html#ae1ec04a655525cbb2a6a3c7e382cf078", null ],
+    [ "_canCastDampenMagic", "dc/d46/a22774.html#a72c89454c2b0754690ae72fd7aacb0e8", null ]
 ];

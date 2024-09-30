@@ -1,6 +1,7 @@
 var a16330 =
 [
-    [ "spell_halion_twilight_cutter_periodic_AuraScript", "d2/d0c/a16334.html", "d2/d0c/a16334" ],
-    [ "spell_halion_twilight_cutter_periodic", "d9/d2d/a16330.html#ad0b79bcd216563ec6c42a985f523b055", null ],
-    [ "GetAuraScript", "d9/d2d/a16330.html#a63f6882ac06a86719a105fef05f5bd01", null ]
+    [ "npc_toc_retro_paladinAI", "d9/d2d/a16330.html#afe933281cea61c9a4f3ded76290a3b72", null ],
+    [ "myCanCast", "d9/d2d/a16330.html#a271b1d0855dbd2e38ecb6ea62140012f", null ],
+    [ "UpdateAI", "d9/d2d/a16330.html#a105d6b9c133c1147b310826d7be416f5", null ],
+    [ "events", "d9/d2d/a16330.html#a7078c28d5392bc77d577fa7a6f96b9d7", null ]
 ];

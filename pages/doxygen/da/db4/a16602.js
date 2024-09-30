@@ -1,6 +1,6 @@
 var a16602 =
 [
-    [ "spell_gen_leeching_swarm_dmg_SpellScript", "de/d4c/a16606.html", "de/d4c/a16606" ],
-    [ "spell_gen_leeching_swarm_dmg", "da/db4/a16602.html#a9f6b89aee3b080ce3b675635097750ff", null ],
-    [ "GetSpellScript", "da/db4/a16602.html#a4fa3aca5964728833eb1615df4f31221", null ]
+    [ "instance_drak_tharon_keep_InstanceScript", "da/db4/a16602.html#a15f13e67c33a7d5cfb4793b6b641842c", null ],
+    [ "OnGameObjectCreate", "da/db4/a16602.html#ab727f29fc768c00ab48bfd7e7717a29a", null ],
+    [ "OnGameObjectRemove", "da/db4/a16602.html#ad8115d5e1ee45a586ec0c1149d690db5", null ]
 ];

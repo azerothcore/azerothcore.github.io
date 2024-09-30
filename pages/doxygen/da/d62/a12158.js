@@ -1,6 +1,8 @@
 var a12158 =
 [
-    [ "water_elementalAI", "d2/d85/a12162.html", "d2/d85/a12162" ],
-    [ "npc_aran_elemental", "da/d62/a12158.html#a67c358583801875b0d9d21b6b0ce35f5", null ],
-    [ "GetAI", "da/d62/a12158.html#a94193a067dc49b9df5a98d67db24d81d", null ]
+    [ "FilterTargets", "da/d62/a12158.html#ac47cfe2bf2782202ac69ea7a91290c2f", null ],
+    [ "HandleScript", "da/d62/a12158.html#a47dcb727b8e467044602b2a3d54ec1de", null ],
+    [ "PrepareSpellScript", "da/d62/a12158.html#a2319460465cefa69b1b81ce50b1d7b85", null ],
+    [ "Register", "da/d62/a12158.html#a72b3bbddf931fee1a12700c867b47f3d", null ],
+    [ "Validate", "da/d62/a12158.html#a66d0a1ab1a3dae5242a7396a750e73ad", null ]
 ];

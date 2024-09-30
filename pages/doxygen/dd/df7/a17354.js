@@ -1,8 +1,18 @@
 var a17354 =
 [
-    [ "boss_krickAI", "dd/df7/a17354.html#ac085bae551fd4d9e48b05481a86cca9f", null ],
-    [ "DoAction", "dd/df7/a17354.html#ace248881cb71c1e91f33ff93489b6f3f", null ],
-    [ "UpdateAI", "dd/df7/a17354.html#aea8dd89c8e4de1bebd94a26ead852119", null ],
-    [ "events", "dd/df7/a17354.html#a75349e2fc35832e7944fa4f772380baa", null ],
-    [ "pInstance", "dd/df7/a17354.html#aecc2cdee32c4e4fa14ecaeca9b3eb65f", null ]
+    [ "boss_festergutAI", "dd/df7/a17354.html#a7649f45cfc8bf05bf46b4e50319b4fb3", null ],
+    [ "EnterEvadeMode", "dd/df7/a17354.html#a001e00435bb01b464573dbff8338c64a", null ],
+    [ "GetData", "dd/df7/a17354.html#aea4509b130c9b5a8a5dd054ac8783312", null ],
+    [ "JustDied", "dd/df7/a17354.html#abd0f4f55cfb026d0e25ff7a825d390d1", null ],
+    [ "JustEngagedWith", "dd/df7/a17354.html#ad5538ae8933a4fd492ab45560dea785e", null ],
+    [ "JustReachedHome", "dd/df7/a17354.html#a7e371063b84df1f8fe1df1a5bff38ca9", null ],
+    [ "KilledUnit", "dd/df7/a17354.html#a3af6cacb219928c3c89f7ce3d980ae88", null ],
+    [ "RemoveBlight", "dd/df7/a17354.html#a5807cd013ebe935f69bc1824386afd72", null ],
+    [ "Reset", "dd/df7/a17354.html#aeb046d9ef4aa9b7b94aa1ee1727ab1be", null ],
+    [ "SetData", "dd/df7/a17354.html#af8678cd7e9ddd7ef8095217e4820e7af", null ],
+    [ "SpellHitTarget", "dd/df7/a17354.html#a0c6684365e711d48f4f4ffc4a2b4e524", null ],
+    [ "UpdateAI", "dd/df7/a17354.html#ac2b9e850d425336f2bdc6a1d9a707fa0", null ],
+    [ "_gasDummyGUID", "dd/df7/a17354.html#a742b6ab0990d54e011ac36fde2c2cca2", null ],
+    [ "_inhaleCounter", "dd/df7/a17354.html#aed5b7fce1ebf9f76fffa2ba682c54b4e", null ],
+    [ "_maxInoculatedStack", "dd/df7/a17354.html#aeda8f6f959f7b7bd311aabde940a05ca", null ]
 ];

@@ -1,9 +1,10 @@
 var a23878 =
 [
-    [ "npc_brunnhildar_prisonerAI", "d6/d93/a23878.html#ad650885c7f615f8b27ba20203c9fbb6f", null ],
-    [ "JustRespawned", "d6/d93/a23878.html#a15843fcdc5d9eb34df7869b56a0b16ac", null ],
-    [ "Reset", "d6/d93/a23878.html#ac9ba0806b9702cebe9171d9ba8962b0f", null ],
-    [ "SpellHit", "d6/d93/a23878.html#af2835ec5b951e2f4bb176ebe6bb958fd", null ],
-    [ "UpdateAI", "d6/d93/a23878.html#a0702d4cf577ac00688a7b93bfe656952", null ],
-    [ "freed", "d6/d93/a23878.html#a46e03a19bac91a800154e3c873235800", null ]
+    [ "boss_nethermancer_sepethrea", "d6/d93/a23878.html#aae77446e9a8f2ac41601049d3fe9ffd4", null ],
+    [ "CanAIAttack", "d6/d93/a23878.html#a34fbf871d99519306469c010d5fed9c7", null ],
+    [ "EnterEvadeMode", "d6/d93/a23878.html#a0ac9dd29b73e8734318851ffd9a09162", null ],
+    [ "JustDied", "d6/d93/a23878.html#a2ac13176ebffa245fd9e0ba6173f30cc", null ],
+    [ "JustEngagedWith", "d6/d93/a23878.html#a89851b9f6eb94270fe22151d3a968bec", null ],
+    [ "JustSummoned", "d6/d93/a23878.html#acf98dbddcd55131cb9cdebe6d319e2c2", null ],
+    [ "KilledUnit", "d6/d93/a23878.html#ad9606ca8c1fe6f68f72ec415cc70ef2f", null ]
 ];

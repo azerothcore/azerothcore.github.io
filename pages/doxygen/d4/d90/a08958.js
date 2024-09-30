@@ -1,12 +1,10 @@
 var a08958 =
 [
-    [ "LogEntry", "d4/d90/a08958.html#af61604a7dc0cc4da315a09fa5b207f37", null ],
-    [ "LogEntry", "d4/d90/a08958.html#aba3f6f501c59e356166abe71082c421b", null ],
-    [ "~LogEntry", "d4/d90/a08958.html#a3c66b8a7be1800c5a9e1dc15aab6d3e9", null ],
-    [ "GetGUID", "d4/d90/a08958.html#a7af4eac577f8da07540f81e185b2ad49", null ],
-    [ "GetTimestamp", "d4/d90/a08958.html#a643c92439463707671bb08b72bf3a447", null ],
-    [ "SaveToDB", "d4/d90/a08958.html#a1c00aa88973423a1c112c2776a14e78f", null ],
-    [ "m_guid", "d4/d90/a08958.html#a75754f42f8a202a9a319c86515a3f0dd", null ],
-    [ "m_guildId", "d4/d90/a08958.html#a89e0192732a43dc44aff3730bc5ad445", null ],
-    [ "m_timestamp", "d4/d90/a08958.html#ad19e7364e1beba61c9b7a4383b6d42c6", null ]
+    [ "AnyDeadUnitSpellTargetInRangeCheck", "d4/d90/a08958.html#a212c308a02716ff382e820e86e233ed3", null ],
+    [ "operator()", "d4/d90/a08958.html#af328df880d17a62e2dbed0ff4231fc39", null ],
+    [ "operator()", "d4/d90/a08958.html#adcc69b9ef03a68aa235e40449a80b701", null ],
+    [ "operator()", "d4/d90/a08958.html#a2f2483cf7078681cb3acf28560e61184", null ],
+    [ "operator()", "d4/d90/a08958.html#aba0bf4c320a684b68743a06e724a369e", null ],
+    [ "i_check", "d4/d90/a08958.html#aa2223ad31acf47a1608ded6b5cbc2f03", null ],
+    [ "i_spellInfo", "d4/d90/a08958.html#afeb889f6cee596b2c2229f86e0a8a3f1", null ]
 ];

@@ -1,6 +1,7 @@
 var a19886 =
 [
-    [ "instance_icecrown_citadel_InstanceMapScript", "db/dee/a19890.html", "db/dee/a19890" ],
-    [ "instance_icecrown_citadel", "d3/d0f/a19886.html#a0901e23025cff08d1a7516bbef099ffa", null ],
-    [ "GetInstanceScript", "d3/d0f/a19886.html#a787c32626681f15f5515385a9ba6b848", null ]
+    [ "HandleScript", "d3/d0f/a19886.html#a9580f04e1543262026818f0944bb96c3", null ],
+    [ "PrepareSpellScript", "d3/d0f/a19886.html#a924ae640d448da777ce3ecb059c1c9b6", null ],
+    [ "Register", "d3/d0f/a19886.html#ac05e58e9b5618b1f079bd1c4924a0f9f", null ],
+    [ "Validate", "d3/d0f/a19886.html#a8fc8712a76939dea6831a9eb5b95f946", null ]
 ];

@@ -1,8 +1,6 @@
 var a17210 =
 [
-    [ "npc_phantom_hallucinationAI", "d5/d92/a17210.html#a7b27d1c859d77220dc1c3c8323e9eef9", null ],
-    [ "EnterEvadeMode", "d5/d92/a17210.html#a7ef7411ea780466d7c4dd185d9444aba", null ],
-    [ "JustDied", "d5/d92/a17210.html#a5a4f05c5930a7e5bd31df2e3131f4cec", null ],
-    [ "UpdateAI", "d5/d92/a17210.html#ad874a741c641dbac6380aa682d582d7c", null ],
-    [ "numOfUpd", "d5/d92/a17210.html#adb78f5dcd272e8223f895079885a5461", null ]
+    [ "OnAbsorb", "d5/d92/a17210.html#aa6582457cd0502ca263433d04b40b64f", null ],
+    [ "PrepareAuraScript", "d5/d92/a17210.html#a0b6916dd3f6172e59edf477f203c85b1", null ],
+    [ "Register", "d5/d92/a17210.html#a945ec4037120992e8a2986e7fd2e2c96", null ]
 ];

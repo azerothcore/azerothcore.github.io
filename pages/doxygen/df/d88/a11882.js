@@ -1,8 +1,6 @@
 var a11882 =
 [
-    [ "MajordomoAddData", "df/d88/a11882.html#aa068ada34e1275cbf97b21f74dfd2881", null ],
-    [ "MajordomoAddData", "df/d88/a11882.html#a9b8cc2b43ffbf268e470169e00e66671", null ],
-    [ "creatureEntry", "df/d88/a11882.html#ae3a0444e88158123f4d6359328e89a1d", null ],
-    [ "guid", "df/d88/a11882.html#a2f2b0aaace557361a21d1072f36933dc", null ],
-    [ "spawnPos", "df/d88/a11882.html#a31f8d24efb19c2d0e697f35b911e3237", null ]
+    [ "boss_chromaggusAI", "d2/d0a/a11886.html", "d2/d0a/a11886" ],
+    [ "boss_chromaggus", "df/d88/a11882.html#a55847fc0d5430d3f22074b53d7caca4b", null ],
+    [ "GetAI", "df/d88/a11882.html#ace78172cafb122ce5961ed837201c32b", null ]
 ];

@@ -1,6 +1,6 @@
 var a14390 =
 [
-    [ "npc_midsummer_bonfire", "dc/d97/a14390.html#a07c8b1add555697fdb29fda89f42c4af", null ],
-    [ "SpellHit", "dc/d97/a14390.html#a034c8022198805ac6013f857cc5c43de", null ],
-    [ "goGUID", "dc/d97/a14390.html#af31285399f8d117d2f7d40c20bc60ee2", null ]
+    [ "HandleTriggerSpell", "dc/d97/a14390.html#a7e5a03d304f0f6fe8d06ed5df12259dd", null ],
+    [ "PrepareSpellScript", "dc/d97/a14390.html#a76a070da8e719198463010499f595599", null ],
+    [ "Register", "dc/d97/a14390.html#ae237c4972167a5a17b59800983496a9d", null ]
 ];

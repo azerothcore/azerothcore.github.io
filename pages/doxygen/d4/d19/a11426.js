@@ -1,6 +1,30 @@
 var a11426 =
 [
-    [ "boss_drakkisathAI", "d0/d67/a11430.html", "d0/d67/a11430" ],
-    [ "boss_drakkisath", "d4/d19/a11426.html#a73f21cbd7b81fc045ae129d7d650b455", null ],
-    [ "GetAI", "d4/d19/a11426.html#ad27999ba129b2e3617c1aba1c4b9772b", null ]
+    [ "reset_commandscript", "d4/d19/a11426.html#a99bbf26ae77112821fa951010dd5d32b", null ],
+    [ "GetCommands", "d4/d19/a11426.html#ac19cfe7c8192194024fb38ad93a64056", null ],
+    [ "GetPlayerFromIdentifierOrSelectedTarget", "d4/d19/a11426.html#a37e3548b0b652761611c32859a1c0d23", null ],
+    [ "HandleResetAchievementsCommand", "d4/d19/a11426.html#aef935fde80c3e524c54346ddd7223d53", null ],
+    [ "HandleResetAllCommand", "d4/d19/a11426.html#acac4e720d43d35784e78654ff154f08e", null ],
+    [ "HandleResetHonorCommand", "d4/d19/a11426.html#aa198f0ca643a3a1e9817d2b86da83952", null ],
+    [ "HandleResetItemsAllAndDeleteBagsCommand", "d4/d19/a11426.html#a3f22818d2acf934dc1fd26dd915d2098", null ],
+    [ "HandleResetItemsAllCommand", "d4/d19/a11426.html#adac167fc519833b393f687ee5d7693b6", null ],
+    [ "HandleResetItemsEquippedCommand", "d4/d19/a11426.html#abe473ba8a7dff2e6fb6e9985e43ae6db", null ],
+    [ "HandleResetItemsInBagsCommand", "d4/d19/a11426.html#a150bbf4e942dc62008561e3b4dada12c", null ],
+    [ "HandleResetItemsInBankCommand", "d4/d19/a11426.html#a8f622cd5602b05506186e6197eae9f6c", null ],
+    [ "HandleResetItemsInCurrenciesListCommand", "d4/d19/a11426.html#ae2b78f33dbf9698aa7a7348cb4f12a22", null ],
+    [ "HandleResetItemsInVendorBuyBackTabCommand", "d4/d19/a11426.html#a95f99a6670c3cfecfd4d762c4fb229f2", null ],
+    [ "HandleResetItemsKeyringCommand", "d4/d19/a11426.html#ae96d6cbcf0293640f6502cbb5577f192", null ],
+    [ "HandleResetLevelCommand", "d4/d19/a11426.html#ac112df4937a52d270fb5edb4a8b89438", null ],
+    [ "HandleResetSpellsCommand", "d4/d19/a11426.html#a6621c7de961a1734c1f8c330546773a5", null ],
+    [ "HandleResetStatsCommand", "d4/d19/a11426.html#a9b9159122e066644cddad3b19f692736", null ],
+    [ "HandleResetStatsOrLevelHelper", "d4/d19/a11426.html#ab0290d3677ef62f8d7391902780a3f9e", null ],
+    [ "HandleResetTalentsCommand", "d4/d19/a11426.html#a1d3d7844bda77877cac027e670de6257", null ],
+    [ "ResetItemsDeleteBankBags", "d4/d19/a11426.html#a831ccdc042337fb279bea03aeba51cbe", null ],
+    [ "ResetItemsDeleteStandardBags", "d4/d19/a11426.html#a11a7aa6687283f9273a788b85ec9b6c0", null ],
+    [ "ResetItemsEquipped", "d4/d19/a11426.html#af05ec486dc31b443c3556ab651b501c9", null ],
+    [ "ResetItemsInBags", "d4/d19/a11426.html#abc9486fd0d75fbaba14c228d6feb92d0", null ],
+    [ "ResetItemsInBank", "d4/d19/a11426.html#a948b9bfb26cb728ef75ac465db1f2d93", null ],
+    [ "ResetItemsInCurrenciesList", "d4/d19/a11426.html#ad324ac7796afa9f30267141e4749d9ca", null ],
+    [ "ResetItemsInKeyring", "d4/d19/a11426.html#a99b70e6826b373fbd0124a4da9b1b9b5", null ],
+    [ "ResetItemsInVendorBuyBackTab", "d4/d19/a11426.html#ab7ac47d4f420da508d987c6beeb4b659", null ]
 ];

@@ -1,6 +1,10 @@
 var a17834 =
 [
-    [ "BloodboltHitCheck", "d7/d60/a17834.html#a84873f1ec2c1e214e35d32954622e9af", null ],
-    [ "operator()", "d7/d60/a17834.html#a1eddfd7bbea8def20dcc080413af6364", null ],
-    [ "_ai", "d7/d60/a17834.html#a0a5d115c464b6e88bc1158cd858bcbec", null ]
+    [ "FilterTargets", "d7/d60/a17834.html#aefba5226671b6217549bd34059519179", null ],
+    [ "Load", "d7/d60/a17834.html#af8a2b651782783dc29ac7266ed02c028", null ],
+    [ "NotifyTargets", "d7/d60/a17834.html#a618e98fbd5c6ae21047cc4f911099730", null ],
+    [ "PrepareSpellScript", "d7/d60/a17834.html#a0cd63fa27a1ee853c5d73c766d1c4de6", null ],
+    [ "Register", "d7/d60/a17834.html#ae72a470c87f7d90e4bd635e239d09f9b", null ],
+    [ "ReplaceTargets", "d7/d60/a17834.html#a5d3df9715d04ea4b663b061c7c02ae03", null ],
+    [ "_target", "d7/d60/a17834.html#a10c85fd3909e56f457d73add8021c0b7", null ]
 ];

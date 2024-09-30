@@ -1,10 +1,12 @@
 var a09790 =
 [
-    [ "ArenaTeamScript", "da/d2b/a09790.html#ac85e6047a9f02ac25791aee65f80afa1", null ],
-    [ "IsDatabaseBound", "da/d2b/a09790.html#a4d30f94084ae63eadd952c05b13f3ff4", null ],
-    [ "OnGetArenaPoints", "da/d2b/a09790.html#aa4b2d40921443cefee2775da6ca31b3e", null ],
-    [ "OnGetSlotByType", "da/d2b/a09790.html#a1ff67b327073bb8ebf10e7fddce92835", null ],
-    [ "OnQueueIdToArenaType", "da/d2b/a09790.html#a2a26e8c87c5fa7e85eb2f0517ced29e8", null ],
-    [ "OnSetArenaMaxPlayersPerTeam", "da/d2b/a09790.html#a776548946a09dcb3e76bd97f3c425e7f", null ],
-    [ "OnTypeIDToQueueID", "da/d2b/a09790.html#abcdd905b695f926e503db610d80ada3c", null ]
+    [ "FacingInfo", "da/d2b/a09790.html#a1ac825c359704924c66e46eada64e34e", null ],
+    [ "FacingInfo", "da/d2b/a09790.html#a7820b3ce134dcca05b9b15299eb3b33f", null ],
+    [ "FacingInfo", "da/d2b/a09790.html#add6411db27c1d313d2f133adf0c35755", null ],
+    [ "angle", "da/d2b/a09790.html#ac56b304c2c5df7ab72c6fcbd2f845b02", null ],
+    [ "f", "da/d2b/a09790.html#a39ca5030b1ff932ae3606a07a9fe4377", null ],
+    [ "target", "da/d2b/a09790.html#a064b5265b4bb2a0053908bf6031b8f65", null ],
+    [ "x", "da/d2b/a09790.html#ac08687158cc0bcfbc9814b1cbbe95684", null ],
+    [ "y", "da/d2b/a09790.html#ad7fcfb6b1c5402a0570748d343eadfcc", null ],
+    [ "z", "da/d2b/a09790.html#a5ff017b732d47684f675041e44227754", null ]
 ];

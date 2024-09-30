@@ -1,6 +1,9 @@
 var a14926 =
 [
-    [ "instance_maraudon_InstanceMapScript", "d9/d5a/a14930.html", "d9/d5a/a14930" ],
-    [ "instance_maraudon", "d1/d32/a14926.html#aaae11d2569d04b42840b101a5702cf24", null ],
-    [ "GetInstanceScript", "d1/d32/a14926.html#ac4f5c7c3ee755226449c96b3e351f12d", null ]
+    [ "npc_eye_tentacle", "d1/d32/a14926.html#a106deeb95d74597377d32e81695dc3c9", null ],
+    [ "JustDied", "d1/d32/a14926.html#aac965d97034f4f623172297e4f82647e", null ],
+    [ "JustEngagedWith", "d1/d32/a14926.html#a5f89f08634eeb79f0f9ac726cdf1841b", null ],
+    [ "Reset", "d1/d32/a14926.html#a715439dfa31b4cf9df7ddd678d912108", null ],
+    [ "UpdateAI", "d1/d32/a14926.html#a48f9067f27d61e609a014669c1daedb9", null ],
+    [ "_portalGUID", "d1/d32/a14926.html#aeaa4ec0553480b9490d5e52820c2b77f", null ]
 ];

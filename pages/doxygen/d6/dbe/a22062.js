@@ -1,6 +1,7 @@
 var a22062 =
 [
-    [ "npc_xt002_boombotAI", "da/d46/a22066.html", "da/d46/a22066" ],
-    [ "npc_xt002_boombot", "d6/dbe/a22062.html#a6e2f7dd0d26d140a5b73b0f66ea434af", null ],
-    [ "GetAI", "d6/dbe/a22062.html#a27237e7a60042ed7163b19d80537c1b3", null ]
+    [ "HandleScriptEffect", "d6/dbe/a22062.html#ad20cf97a7dd442d5670a22095b487a01", null ],
+    [ "PrepareSpellScript", "d6/dbe/a22062.html#ab0f6da0cb3115e54dbb59f0e6f823d02", null ],
+    [ "Register", "d6/dbe/a22062.html#a996ea344ea2a3312cb8886565b80972d", null ],
+    [ "Validate", "d6/dbe/a22062.html#a29bf5a9615e02281f426bf521a045567", null ]
 ];

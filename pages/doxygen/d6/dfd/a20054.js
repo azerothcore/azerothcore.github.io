@@ -1,6 +1,5 @@
 var a20054 =
 [
-    [ "boss_grobbulus_poison_cloudAI", "d8/d35/a20058.html", "d8/d35/a20058" ],
-    [ "boss_grobbulus_poison_cloud", "d6/dfd/a20054.html#a2bb8ebec0ae79f20602e551f654e0761", null ],
-    [ "GetAI", "d6/dfd/a20054.html#a34c68dd3e58b83c52f270eb1b194f2ed", null ]
+    [ "achievement_smell_saronite", "d6/dfd/a20054.html#a42dce2aefa2561952dcf5289126035a8", null ],
+    [ "OnCheck", "d6/dfd/a20054.html#a5180e3e53fa0f4d32d2a305d315bc8b3", null ]
 ];

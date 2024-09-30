@@ -1,6 +1,5 @@
 var a03107 =
 [
-    [ "lfg_commandscript", "d5/dac/a11356.html", "d5/dac/a11356" ],
-    [ "AddSC_lfg_commandscript", "da/d4a/a03107.html#a484938015a7f5ffa8f5b1d0e259d355b", null ],
-    [ "GetPlayerInfo", "da/d4a/a03107.html#a1d2591add059e8c4daf04b9f706da765", null ]
+    [ "server_commandscript", "d9/db1/a11434.html", "d9/db1/a11434" ],
+    [ "AddSC_server_commandscript", "da/d4a/a03107.html#aaa97392c09b5045a6040d75b224bdf22", null ]
 ];

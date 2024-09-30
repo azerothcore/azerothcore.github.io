@@ -1,6 +1,7 @@
 var a19974 =
 [
-    [ "boss_faerlinaAI", "de/d10/a19978.html", "de/d10/a19978" ],
-    [ "boss_faerlina", "d9/d2e/a19974.html#a86543ac855287e3de2e3ffcde66fb1cb", null ],
-    [ "GetAI", "d9/d2e/a19974.html#aed8214323ff5b792d9bd6aae478e7848", null ]
+    [ "boss_freya_lifebinderAI", "d9/d2e/a19974.html#ae421aa209690e4a2908995b6b7d322cd", null ],
+    [ "Reset", "d9/d2e/a19974.html#a972bd7d390d444e0ea2bc513d5d3816a", null ],
+    [ "UpdateAI", "d9/d2e/a19974.html#afb06c217c1012d6463e44689359eada9", null ],
+    [ "_healTimer", "d9/d2e/a19974.html#a7021d13dceb9af343f0e820cf086046e", null ]
 ];

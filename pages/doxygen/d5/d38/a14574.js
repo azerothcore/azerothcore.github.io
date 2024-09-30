@@ -1,6 +1,8 @@
 var a14574 =
 [
-    [ "HandleHit", "d5/d38/a14574.html#aa72ecbfd0d69af05e38388371851c7e8", null ],
-    [ "PrepareSpellScript", "d5/d38/a14574.html#a8282703b17c7d97403c428f7cab6580c", null ],
-    [ "Register", "d5/d38/a14574.html#af16d0e25ddd805120b4aac24a5d1a6a6", null ]
+    [ "npc_arthasAI", "d1/d18/a14578.html", "d1/d18/a14578" ],
+    [ "npc_arthas", "d5/d38/a14574.html#a87c280ff9861187b0a713f795e657266", null ],
+    [ "GetAI", "d5/d38/a14574.html#a4a613dd76cde27f7df834b9bb837ab6c", null ],
+    [ "OnGossipHello", "d5/d38/a14574.html#a4bd3d5dd8eebe48b525e2bd162787172", null ],
+    [ "OnGossipSelect", "d5/d38/a14574.html#aeca2f4baa3c943281c676c6498393165", null ]
 ];

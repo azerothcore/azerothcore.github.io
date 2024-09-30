@@ -1,9 +1,5 @@
 var a27338 =
 [
-    [ "CheckIfCorpseNear", "d3/dc5/a27338.html#a9b512f84f1d728e24845b6aaa28bdd6b", null ],
-    [ "HandleDummy", "d3/dc5/a27338.html#a913c0137d2a13c810bbae869cc6cf734", null ],
-    [ "Load", "d3/dc5/a27338.html#a3f36968d10bde12c7e2eda8db4145252", null ],
-    [ "PrepareSpellScript", "d3/dc5/a27338.html#acc7d6f489c34c3cc26f37bc94f8727e8", null ],
-    [ "Register", "d3/dc5/a27338.html#a736c4fe39e947ad98df19b3b001bdc29", null ],
-    [ "Validate", "d3/dc5/a27338.html#a51b075f95211025b2a7719a3ee70a6be", null ]
+    [ "item_captured_frog", "d3/dc5/a27338.html#ad41b743c98c9534453eca8cf1f367366", null ],
+    [ "OnUse", "d3/dc5/a27338.html#a1156467ca046a077ea494f92c488bf54", null ]
 ];

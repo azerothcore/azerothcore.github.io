@@ -1,6 +1,9 @@
 var a10782 =
 [
-    [ "AuraProcHandler", "d6/d2f/a10782.html#a1c0ad4a28c98d89a0afc2f8eeda9a421", null ],
-    [ "Call", "d6/d2f/a10782.html#abc0c3be9dee08e995c282f20900f3c46", null ],
-    [ "_HandlerScript", "d6/d2f/a10782.html#ada8d7a5659598b0092739a91ba2653bd", null ]
+    [ "SpellEvent", "d6/d2f/a10782.html#abca64eb7d39df9788cef9df7e8634368", null ],
+    [ "~SpellEvent", "d6/d2f/a10782.html#a01f8ea354ef70d0a2ee7b88b8dd9f68e", null ],
+    [ "Abort", "d6/d2f/a10782.html#ac21656467ae71def45fd78b9d1fa1c30", null ],
+    [ "Execute", "d6/d2f/a10782.html#ac8158bfbe916ff6207b2f6608308ae24", null ],
+    [ "IsDeletable", "d6/d2f/a10782.html#a2ecd9b31bacc717cc509eb9bb69c3cb3", null ],
+    [ "m_Spell", "d6/d2f/a10782.html#a22cce1d722f5086932ae3e97c58d2921", null ]
 ];

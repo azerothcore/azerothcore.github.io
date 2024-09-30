@@ -1,7 +1,8 @@
 var a27922 =
 [
-    [ "CheckProc", "dc/d78/a27922.html#a2052750b91de67b330a2ae6a190a5d4e", null ],
-    [ "HandleProc", "dc/d78/a27922.html#a5b404a07ccb13cabf5fa6ab90db92129", null ],
-    [ "PrepareAuraScript", "dc/d78/a27922.html#af16eec48ab0f469ca3cefd149bb0d925", null ],
-    [ "Register", "dc/d78/a27922.html#a4f31c76184e4ae5bc03763e04cdac72e", null ]
+    [ "gender", "dc/d78/a27922.html#a571684c3aa6f2b0192b545d2a38ab333", null ],
+    [ "hair_id", "dc/d78/a27922.html#af4646a9adb0a1dc18b34158de2116b84", null ],
+    [ "Id", "dc/d78/a27922.html#a05de87081cf628e806d6518eef1424e4", null ],
+    [ "race", "dc/d78/a27922.html#a458f5a1e2aca1fd34bb1afadeb5f6db2", null ],
+    [ "type", "dc/d78/a27922.html#a289bb362ba13235c754647ba67be1e56", null ]
 ];

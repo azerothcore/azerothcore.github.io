@@ -1,6 +1,7 @@
 var a18306 =
 [
-    [ "DaranavanMoveEvent", "db/d4d/a18306.html#add38d87b9108c09aa9b9fd60f12abcde", null ],
-    [ "Execute", "db/d4d/a18306.html#ada0ebc4a9c9f949dd0155a554a553543", null ],
-    [ "_darnavan", "db/d4d/a18306.html#a7585edb957755efbc6064f232d50ea4e", null ]
+    [ "AuraRemoveEvent", "db/d4d/a18306.html#a094b9437c7cadb465738daf5684c9725", null ],
+    [ "Execute", "db/d4d/a18306.html#a14ac906a0fcff86f61983c570b0bd6ad", null ],
+    [ "_spellId", "db/d4d/a18306.html#a6fad41839e07e9545859be7c3afcfc36", null ],
+    [ "_trigger", "db/d4d/a18306.html#aad8c27befc102dae6823d5d74fed50b4", null ]
 ];

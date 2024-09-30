@@ -1,6 +1,6 @@
 var a23282 =
 [
-    [ "npc_heated_battleAI", "db/dd3/a23286.html", "db/dd3/a23286" ],
-    [ "npc_heated_battle", "dc/dad/a23282.html#aceafde04a60940c1027a6e838ffdc137", null ],
-    [ "GetAI", "dc/dad/a23282.html#af73fc1f330bf2fd224e53be39da1c9d3", null ]
+    [ "HandleScript", "dc/dad/a23282.html#a9451ed26358c77ab4d35781fd8fb4b55", null ],
+    [ "PrepareSpellScript", "dc/dad/a23282.html#ad24e7fa45f35f2cd6071328c60cb2732", null ],
+    [ "Register", "dc/dad/a23282.html#a1bd01e1103d4959a5b3116e178a16a8f", null ]
 ];

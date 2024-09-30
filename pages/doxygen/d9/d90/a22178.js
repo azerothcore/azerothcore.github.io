@@ -1,6 +1,6 @@
 var a22178 =
 [
-    [ "boss_yoggsaron_crusher_tentacleAI", "d5/dd3/a22182.html", "d5/dd3/a22182" ],
-    [ "boss_yoggsaron_crusher_tentacle", "d9/d90/a22178.html#a9bb0c5535bf98e186d39f235f5786ff0", null ],
-    [ "GetAI", "d9/d90/a22178.html#a82b6a328197ec81223c1d00dabb79a66", null ]
+    [ "npc_vics_flying_machineAI", "d5/dd3/a22182.html", "d5/dd3/a22182" ],
+    [ "npc_vics_flying_machine", "d9/d90/a22178.html#ac0f1e83a9f53f1e38e81804f0332e3fd", null ],
+    [ "GetAI", "d9/d90/a22178.html#aac2a7cabd2e87705e9a1b3bfebb89eae", null ]
 ];

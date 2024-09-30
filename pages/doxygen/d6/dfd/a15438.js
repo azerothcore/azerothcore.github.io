@@ -1,8 +1,9 @@
 var a15438 =
 [
-    [ "npc_prospector_remtravelAI", "d6/dfd/a15438.html#a61f26115382f16f3d65c3d4e1c720f02", null ],
-    [ "JustEngagedWith", "d6/dfd/a15438.html#adf388d36c17b69f881e3cb92d9b78b9b", null ],
-    [ "JustSummoned", "d6/dfd/a15438.html#a6b3dd1552b5313dd04d07dc80eef06fe", null ],
-    [ "Reset", "d6/dfd/a15438.html#ac145a4a4a24be227c31fcc5aefd922eb", null ],
-    [ "WaypointReached", "d6/dfd/a15438.html#a7b02b22e9dc63e1fad6b15a44b2ff9b6", null ]
+    [ "npc_custodian_of_timeAI", "d6/dfd/a15438.html#a2434afcda3bc5681a124bdb1a2c8d56f", null ],
+    [ "JustEngagedWith", "d6/dfd/a15438.html#a3b12c06566b0c1d567b6edd8b57b8332", null ],
+    [ "MoveInLineOfSight", "d6/dfd/a15438.html#a97b21c4ecc89e4ddd5aef4dab30a7ecf", null ],
+    [ "Reset", "d6/dfd/a15438.html#a56bcc694ac286488ed4b3f2328c30573", null ],
+    [ "UpdateAI", "d6/dfd/a15438.html#a4b43c5f6eaf70fc93dcb18c183e456dc", null ],
+    [ "WaypointReached", "d6/dfd/a15438.html#a963736e62fbd0caea631ee3fb69fca46", null ]
 ];

@@ -1,9 +1,12 @@
 var a16762 =
 [
-    [ "npc_fel_infernalAI", "df/d9c/a16762.html#a7f34b34facdfeea3fc3507ad3cf84dda", null ],
-    [ "EnterEvadeMode", "df/d9c/a16762.html#aedec8729b9be931a74fe00d1aa649848", null ],
-    [ "JustDied", "df/d9c/a16762.html#a599786069f98231eeb7f9ca809f8e671", null ],
-    [ "Reset", "df/d9c/a16762.html#a09f408c9250467228b91ef9f6c9544f4", null ],
-    [ "UpdateAI", "df/d9c/a16762.html#a45075fdaba6d7c04cb526420deb8a0ac", null ],
-    [ "events", "df/d9c/a16762.html#acf955037c246f7b5f12cc5338b300b63", null ]
+    [ "npc_tortured_riflemanAI", "df/d9c/a16762.html#a65dc1d2ba5769aed1a0b2487322ff2b1", null ],
+    [ "AttackStart", "df/d9c/a16762.html#aaf2b73d0b60791f887207842580d91dc", null ],
+    [ "DoAction", "df/d9c/a16762.html#acb941c20d911a567c93bb0f92105fdfd", null ],
+    [ "EnterEvadeMode", "df/d9c/a16762.html#aabd56fc4aaed247a9ac3ce5bcdc4cb50", null ],
+    [ "JustDied", "df/d9c/a16762.html#a5796a96626937e1026cc1fec0eba4e0b", null ],
+    [ "JustEngagedWith", "df/d9c/a16762.html#ac5d8f17c48269da06c14643e82c88567", null ],
+    [ "Reset", "df/d9c/a16762.html#a04f9c7056e063d436df66f079127d1a7", null ],
+    [ "UpdateAI", "df/d9c/a16762.html#a194a615eef3651cdc97d4e4ad57bf017", null ],
+    [ "events", "df/d9c/a16762.html#a958f27c1f917dc1ae0a9f84549481f93", null ]
 ];

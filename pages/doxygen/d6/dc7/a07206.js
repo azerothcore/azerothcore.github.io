@@ -1,12 +1,11 @@
 var a07206 =
 [
-    [ "value_type", "d6/dc7/a07206.html#ad430aafb433483e30d12567e7e8c2915", null ],
-    [ "GetID", "d6/dc7/a07206.html#a73dd0adf980c5c3d2e272f9709ece880", null ],
-    [ "GetName", "d6/dc7/a07206.html#aae4efee3e6e7d403b0c6f5d484814b81", null ],
-    [ "operator std::string const &", "d6/dc7/a07206.html#a3530d83607efda9b3f50a61959da3267", null ],
-    [ "operator std::string_view", "d6/dc7/a07206.html#a6b77a74762705e00d73b751a5f947e05", null ],
-    [ "operator uint32", "d6/dc7/a07206.html#abffff20cfe5d5b3936ac345c5082258f", null ],
-    [ "TryConsume", "d6/dc7/a07206.html#abc0041bef0d0171b54acbdcf6b18f611", null ],
-    [ "_id", "d6/dc7/a07206.html#a844e7f79db885f3076958b0e6d423b4e", null ],
-    [ "_name", "d6/dc7/a07206.html#a63bb52a0619ceef7b1af1b97d52a7373", null ]
+    [ "BattlegroundWGScore", "d6/dc7/a07206.html#a43b7933c5e217376e5bb10e9b5bb208b", null ],
+    [ "BuildObjectivesBlock", "d6/dc7/a07206.html#a804e56dbd666336d961cce2b0e4d6452", null ],
+    [ "GetAttr1", "d6/dc7/a07206.html#aab49f39d88989b153f1eb979fbbfaeb3", null ],
+    [ "GetAttr2", "d6/dc7/a07206.html#a191e205e08ef15cc36dabedc32614fd2", null ],
+    [ "UpdateScore", "d6/dc7/a07206.html#aa560d7f5f13dd235d43a9e3571090055", null ],
+    [ "BattlegroundWS", "d6/dc7/a07206.html#a4285b67c5d8593dce759422a4eb78c77", null ],
+    [ "FlagCaptures", "d6/dc7/a07206.html#a23ff00f10d07c1a601e9e1d0eb05b1da", null ],
+    [ "FlagReturns", "d6/dc7/a07206.html#ab400c9fb692ff157eb4809f0536c05f7", null ]
 ];

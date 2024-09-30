@@ -1,12 +1,14 @@
 var a09422 =
 [
-    [ "RotateMovementGenerator", "d6/d42/a09422.html#a89a6559b4380210972e82c6ca6d5a9db", null ],
-    [ "Finalize", "d6/d42/a09422.html#afd7588c7877b116cc9626a774b89d584", null ],
-    [ "GetMovementGeneratorType", "d6/d42/a09422.html#a20677803edf5d93ceae3bf76ef426a81", null ],
-    [ "Initialize", "d6/d42/a09422.html#a18fea8760bb24912af9349a06ff7b596", null ],
-    [ "Reset", "d6/d42/a09422.html#a3e177762fcfc11ac47aa820b46b93ed0", null ],
-    [ "Update", "d6/d42/a09422.html#a0dc8600e3aa862a81735dfb927232e53", null ],
-    [ "m_direction", "d6/d42/a09422.html#a8717e890670d9f4e2ff66c0981d14aa6", null ],
-    [ "m_duration", "d6/d42/a09422.html#a2cb8d5fc3d26c24e62c7373f1ce49b13", null ],
-    [ "m_maxDuration", "d6/d42/a09422.html#a7cf10886bdd50ccbc5900b9229958e01", null ]
+    [ "DoublePosition", "d6/d42/a09422.html#a59190a2456f052c6ffa6e181ced94a4f", null ],
+    [ "DoublePosition", "d6/d42/a09422.html#a9900e06c36c6ebc4edd0ba45264990b8", null ],
+    [ "DoublePosition", "d6/d42/a09422.html#a543ff52f7b278f68cc36ee880932e744", null ],
+    [ "GetDoubleExactDist2dSq", "d6/d42/a09422.html#ae17b4e695ff23a8ec323405801f2013a", null ],
+    [ "GetDoublePositionX", "d6/d42/a09422.html#a7c769d1762f99150a46ceaa2b2bfa8e8", null ],
+    [ "GetDoublePositionY", "d6/d42/a09422.html#a201096c85022d54b1d9dbe9264df901f", null ],
+    [ "GetDoublePositionZ", "d6/d42/a09422.html#a01fc3985229b6bd03e6d1da95f871c17", null ],
+    [ "sync", "d6/d42/a09422.html#a75e75187d6663591a39c87bc1086aebd", null ],
+    [ "DoublePosX", "d6/d42/a09422.html#a4f9ffbbe4396f3ec26a81139f5868e2e", null ],
+    [ "DoublePosY", "d6/d42/a09422.html#a90839893f3a58a72a07177d3eee1d691", null ],
+    [ "DoublePosZ", "d6/d42/a09422.html#a19af503e9623ccaeb032bfe9f0a0ed63", null ]
 ];

@@ -1,5 +1,11 @@
 var a21906 =
 [
-    [ "achievement_iron_dwarf_medium_rare", "dd/d39/a21906.html#afb3716aab7693ba0493db24999e4b1ee", null ],
-    [ "OnCheck", "dd/d39/a21906.html#aabef3a345057265ac70c6cc0c98d552d", null ]
+    [ "npc_lake_frogAI", "dd/d39/a21906.html#ac08eeed39d046ce35d7d6aa65d53cab5", null ],
+    [ "ReceiveEmote", "dd/d39/a21906.html#abd58e65b6829c70818c578ed615a980b", null ],
+    [ "Reset", "dd/d39/a21906.html#a3773b3a21ea25db316481f1da5e6dd3c", null ],
+    [ "sGossipSelect", "dd/d39/a21906.html#a95906677ff65e004408ae65df3f49b5c", null ],
+    [ "UpdateAI", "dd/d39/a21906.html#aed8368ec27fed5cd14e4a54091aa9584", null ],
+    [ "_events", "dd/d39/a21906.html#a314d7d7891c05bda288ea0d590f0cfa4", null ],
+    [ "_following", "dd/d39/a21906.html#a0078f9134a61f0ec2465ce103523e341", null ],
+    [ "_runningScript", "dd/d39/a21906.html#af76102ba6c9ffd80baa95623b7312980", null ]
 ];

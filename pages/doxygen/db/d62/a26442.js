@@ -1,6 +1,6 @@
 var a26442 =
 [
-    [ "npc_pet_pri_shadowfiend", "db/d62/a26442.html#ac35e3bcf59dc2d65a313e315516ea09b", null ],
-    [ "JustDied", "db/d62/a26442.html#a6d50edf62bf4547117f3f7b5b520f71b", null ],
-    [ "Reset", "db/d62/a26442.html#aeff1bada59ee80ae0166a82207729bad", null ]
+    [ "HandleEffectPeriodic", "db/d62/a26442.html#a29eb3f3dadd45ccab069222fc36cea09", null ],
+    [ "PrepareAuraScript", "db/d62/a26442.html#aaa8296439ffe69eafdd1cece8ec346ad", null ],
+    [ "Register", "db/d62/a26442.html#a0a62a0bcf39a781289e1467384ac82cb", null ]
 ];

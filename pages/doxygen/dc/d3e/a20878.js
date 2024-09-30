@@ -1,7 +1,6 @@
 var a20878 =
 [
-    [ "HandleDummyEffect", "dc/d3e/a20878.html#aa0bf93ad1a34acf3d554bb5e4f413128", null ],
-    [ "PrepareSpellScript", "dc/d3e/a20878.html#ab721914c78bb30ac0664e0d2dbac1aa3", null ],
-    [ "Register", "dc/d3e/a20878.html#a9e1273c189027c84ca4d223d48e93f77", null ],
-    [ "SelectTarget", "dc/d3e/a20878.html#a7ef6e6c2fc7f7217791caef905a63b60", null ]
+    [ "CheckCast", "dc/d3e/a20878.html#a715a58956db4253c8adfed039833debd", null ],
+    [ "PrepareSpellScript", "dc/d3e/a20878.html#a3b03178d8ab54db36a19ba5a27444917", null ],
+    [ "Register", "dc/d3e/a20878.html#a6309c53b9e3828e76d34a77a8fe35df1", null ]
 ];

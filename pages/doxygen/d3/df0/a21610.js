@@ -1,5 +1,5 @@
 var a21610 =
 [
-    [ "PrepareAuraScript", "d3/df0/a21610.html#abdf3c6c564820e6d2b24ffc706602d97", null ],
-    [ "Register", "d3/df0/a21610.html#a8b458ce67e904b248c2e828f2e61424a", null ]
+    [ "npc_steam_powered_auctioneerAI", "d3/df0/a21610.html#a5ef3dfd385ee3e5a49bd5c0e165103fc", null ],
+    [ "CanBeSeen", "d3/df0/a21610.html#a3352588abda326f7c72d0764a3f53370", null ]
 ];

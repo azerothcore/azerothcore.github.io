@@ -1,11 +1,7 @@
 var a15290 =
 [
-    [ "npc_anubisath_defender", "d9/d5a/a15290.html#ae24a21ad3ebcaa4b8312a1fea66131ba", null ],
-    [ "DamageTaken", "d9/d5a/a15290.html#a032714b16d3d77a19bec0f918d8ef8df", null ],
-    [ "JustDied", "d9/d5a/a15290.html#a225ca1b3144953bcc5890caf0d32b606", null ],
-    [ "JustEngagedWith", "d9/d5a/a15290.html#a6505fcae0e99cae44750f16daddc3309", null ],
-    [ "Reset", "d9/d5a/a15290.html#ab10d9ac93aab97172f630e1d7d8faca0", null ],
-    [ "UpdateAI", "d9/d5a/a15290.html#a1f190f45ffbaf20f5565221780dc5cc6", null ],
-    [ "_enraged", "d9/d5a/a15290.html#a4adef63a5093e3c0ecb8b57283e94ff8", null ],
-    [ "_scheduler", "d9/d5a/a15290.html#ac8d2963f056e19c60ae82a2d1665d457", null ]
+    [ "HandleDummy", "d9/d5a/a15290.html#a30a87266b89021caf7d05c45397f70d1", null ],
+    [ "PrepareSpellScript", "d9/d5a/a15290.html#a43a92b346088d710719722e8feed9634", null ],
+    [ "Register", "d9/d5a/a15290.html#ad7a53cc6a24197c050ed8577f6c6cc12", null ],
+    [ "Validate", "d9/d5a/a15290.html#a8b5097b623adbc1d8a10d7b1c4c248ab", null ]
 ];

@@ -1,5 +1,5 @@
 var a25282 =
 [
-    [ "at_underbog_ghazan", "d3/d6c/a25282.html#aa6c74496bb30bf04e66ac3cd06110811", null ],
-    [ "_OnTrigger", "d3/d6c/a25282.html#aff03fc0bbded7bf7fa68d0c736bfaff2", null ]
+    [ "PrepareSpellScript", "d3/d6c/a25282.html#a7478d96ac24bc4b70a10bc83335c9b76", null ],
+    [ "Register", "d3/d6c/a25282.html#ab3ab9557cd1969fd977a3df6f2c59d7c", null ]
 ];

@@ -1,6 +1,6 @@
 var a26398 =
 [
-    [ "PrepareSpellScript", "dd/d15/a26398.html#ae915f8f6522f0a8d308b2a5f43b8884f", null ],
-    [ "RecalculateDamage", "dd/d15/a26398.html#af01757d0968da2a096d800782ed7e66e", null ],
-    [ "Register", "dd/d15/a26398.html#a62b6613707a2a9b78d52bffe92de604e", null ]
+    [ "HandleDummy", "dd/d15/a26398.html#a86ec9b4606ae92b070edd4ca863fe93e", null ],
+    [ "PrepareSpellScript", "dd/d15/a26398.html#a4411e4317053450a0ac5217d546952b2", null ],
+    [ "Register", "dd/d15/a26398.html#a9eea8631e0723555a9c328bdfc1e30b7", null ]
 ];

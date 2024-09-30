@@ -1,12 +1,13 @@
 var a18718 =
 [
-    [ "npc_precious_iccAI", "d1/d73/a18718.html#a90dff89c652339ecf7479d2c9233962a", null ],
-    [ "JustDied", "d1/d73/a18718.html#a06671144929a3783f17397b818016032", null ],
-    [ "JustEngagedWith", "d1/d73/a18718.html#a05cd30f0bf149d16c75ad3f717cb9dcc", null ],
-    [ "JustSummoned", "d1/d73/a18718.html#adafed6974cbd70ccfc0f9ee83732d162", null ],
-    [ "Reset", "d1/d73/a18718.html#a9ecb9771140d1248c08c56886c8d4ca9", null ],
-    [ "SummonedCreatureDespawn", "d1/d73/a18718.html#af59e24c588861fe7d1bcd456780f571a", null ],
-    [ "UpdateAI", "d1/d73/a18718.html#a1fd3a4d7d16bb93be68d8b135546ab1e", null ],
-    [ "events", "d1/d73/a18718.html#a4ac57f4ffe0886f463378b42525e2e4d", null ],
-    [ "summons", "d1/d73/a18718.html#ab752e504c7cf463a4447a07fbb67211c", null ]
+    [ "npc_icc_putricades_trapAI", "d1/d73/a18718.html#a9252a83e3deee62d5796e9f283662771", null ],
+    [ "DoAction", "d1/d73/a18718.html#ac8a30d8eba315b967c4e0713b14dcba7", null ],
+    [ "JustReachedHome", "d1/d73/a18718.html#a98f908e89630b23584982e298193cc0e", null ],
+    [ "JustSummoned", "d1/d73/a18718.html#abc5776b08b4fd43a4bb430f160eb630a", null ],
+    [ "Reset", "d1/d73/a18718.html#a3430515c94fd419bd2c59113b3f4e625", null ],
+    [ "SummonedCreatureDies", "d1/d73/a18718.html#a2e49dc8924da5d5537c33f7306287963", null ],
+    [ "UpdateAI", "d1/d73/a18718.html#a724e133f2c4d8c9fe140b3b998c88f64", null ],
+    [ "events", "d1/d73/a18718.html#a3249114a5b208109ec2c2a23533ede82", null ],
+    [ "instance", "d1/d73/a18718.html#a9f6f342ffbf6a29c745de6ea6a5ec0dc", null ],
+    [ "summons", "d1/d73/a18718.html#aaa914f4c2b48bd24c2dd06bc3599f563", null ]
 ];

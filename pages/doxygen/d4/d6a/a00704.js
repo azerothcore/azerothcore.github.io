@@ -1,6 +1,6 @@
 var a00704 =
 [
-    [ "AllBattlegroundScript", "d8/d97/a09912.html", "d8/d97/a09912" ],
+    [ "AllBattlegroundScript", "dc/dfb/a09918.html", "dc/dfb/a09918" ],
     [ "BGScript", "d4/d6a/a00704.html#ae9cb670a445a9cb3089a66cdcc822d0e", null ],
     [ "AllBattlegroundHook", "d4/d6a/a00704.html#a17a6e2af65c8cf024623d584c7f3a11f", [
       [ "ALLBATTLEGROUNDHOOK_ON_BATTLEGROUND_START", "d4/d6a/a00704.html#a17a6e2af65c8cf024623d584c7f3a11fa6d4da13cd771a0027ee68bb5a41cbef2", null ],

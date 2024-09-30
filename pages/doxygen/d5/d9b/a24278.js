@@ -1,9 +1,12 @@
 var a24278 =
 [
-    [ "boss_anzu", "d5/d9b/a24278.html#aef8c5c57afa95936d8c2809fa1257799", null ],
-    [ "JustEngagedWith", "d5/d9b/a24278.html#a2384a1ea128ad5a43d3b8fb36fe39aba", null ],
-    [ "SummonBroods", "d5/d9b/a24278.html#a7f3f8868a5648bdeccd03d08203e4cf1", null ],
-    [ "SummonedCreatureDies", "d5/d9b/a24278.html#a2e35df609db069c8d31afffabcfead34", null ],
-    [ "UpdateAI", "d5/d9b/a24278.html#a06373460d454bfaf8db793e591cc0abd", null ],
-    [ "talkTimer", "d5/d9b/a24278.html#a2afae53534d9e777c90d09456f834b5d", null ]
+    [ "npc_unkor_the_ruthlessAI", "d5/d9b/a24278.html#a965b0f182570a54ee4c0a6a54ba8fafb", null ],
+    [ "DamageTaken", "d5/d9b/a24278.html#a88b5e4b43171be8cc62d2a10f188e363", null ],
+    [ "DoNice", "d5/d9b/a24278.html#aa673fc892b9c0d59b2789271140e6054", null ],
+    [ "JustEngagedWith", "d5/d9b/a24278.html#a537225016bfeba51b607d250c0a09be5", null ],
+    [ "Reset", "d5/d9b/a24278.html#a14ca75417c623d6d6e5fce50521963da", null ],
+    [ "UpdateAI", "d5/d9b/a24278.html#a744ea41d7f9450965419085a296c8df2", null ],
+    [ "CanDoQuest", "d5/d9b/a24278.html#a98d7d45b450f3464291ecbc05ab31f21", null ],
+    [ "Pulverize_Timer", "d5/d9b/a24278.html#a2ddc09c9241bbf95cddb6c1c4ddfc6bd", null ],
+    [ "UnkorUnfriendly_Timer", "d5/d9b/a24278.html#ae6eeb6177d655f5a0bede45183758f1f", null ]
 ];

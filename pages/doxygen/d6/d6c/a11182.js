@@ -1,9 +1,12 @@
 var a11182 =
 [
-    [ "titles_commandscript", "d6/d6c/a11182.html#ac088fd907013150a0508b79c99f6c2f3", null ],
-    [ "GetCommands", "d6/d6c/a11182.html#af7d00111b3190f8bc9c46cedda3621d6", null ],
-    [ "HandleTitlesAddCommand", "d6/d6c/a11182.html#a2a44d6f83bc5617a25a53b18fbd35e32", null ],
-    [ "HandleTitlesCurrentCommand", "d6/d6c/a11182.html#a9a9b503e9ee65aa0d92cc7ff2e38a09d", null ],
-    [ "HandleTitlesRemoveCommand", "d6/d6c/a11182.html#a2001bcc2eddc5688d57154f9906218e4", null ],
-    [ "HandleTitlesSetMaskCommand", "d6/d6c/a11182.html#a9517b10295b856779cdd067234f640c8", null ]
+    [ "Action", "d6/d6c/a11182.html#a0aba96ac9e7af155a1d9bdf120afae25", null ],
+    [ "Address", "d6/d6c/a11182.html#aaae2d4fd576f3eeb40c1413d54802345", null ],
+    [ "CheckId", "d6/d6c/a11182.html#a51a0cea0381f2b64e9d240ac39591172", null ],
+    [ "Comment", "d6/d6c/a11182.html#a6abdb409f49751b2f6aa8df88c349ba2", null ],
+    [ "Data", "d6/d6c/a11182.html#a962795028d40645fe67e4290ea64b10b", null ],
+    [ "IdStr", "d6/d6c/a11182.html#a15ecbc1a6582666a14423fa157d2fb84", null ],
+    [ "Length", "d6/d6c/a11182.html#abe0249d9550042e696eb74edf06aaec8", null ],
+    [ "Str", "d6/d6c/a11182.html#a1fc1eba87b344d4681498aafcaa496cb", null ],
+    [ "Type", "d6/d6c/a11182.html#aca31cdb700dca4801dfa514812639c70", null ]
 ];

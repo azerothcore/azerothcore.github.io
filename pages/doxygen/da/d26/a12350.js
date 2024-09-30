@@ -1,6 +1,5 @@
 var a12350 =
 [
-    [ "spell_mt_phoenix_burn_SpellScript", "d8/d14/a12354.html", "d8/d14/a12354" ],
-    [ "spell_mt_phoenix_burn", "da/d26/a12350.html#aebe4d719c2d098273d02a6577702c40a", null ],
-    [ "GetSpellScript", "da/d26/a12350.html#aecec94d80b8903c003093046d4fecab5", null ]
+    [ "at_karazhan_atiesh_aran", "da/d26/a12350.html#ac84f5848b8a26cbfdd2544108567a6cc", null ],
+    [ "OnTrigger", "da/d26/a12350.html#a5a6646c573b6e0bab0cbc288e594979e", null ]
 ];

@@ -1,6 +1,9 @@
 var a21634 =
 [
-    [ "boss_kologarnAI", "d0/d79/a21638.html", "d0/d79/a21638" ],
-    [ "boss_kologarn", "d4/dff/a21634.html#a5f654a0f534c4ec6c1164ea08e40a476", null ],
-    [ "GetAI", "d4/dff/a21634.html#ad78c2d269e68d8c3bbd86b844ada9435", null ]
+    [ "npc_archmage_landalockAI", "d4/dff/a21634.html#a8e2b48a9cf243b0d6f11286cf1e301c8", null ],
+    [ "GetImageEntry", "d4/dff/a21634.html#ae09841969253c0baf72cc235b6fa058e", null ],
+    [ "JustSummoned", "d4/dff/a21634.html#af9016bfeca3db7611fdafe4337e5f64a", null ],
+    [ "UpdateAI", "d4/dff/a21634.html#abad2f45c0a5c43cc7aa7867a0291133d", null ],
+    [ "_summonGUID", "d4/dff/a21634.html#a8b59c414dfd46209dcc3d00531e2b98b", null ],
+    [ "_switchImageTimer", "d4/dff/a21634.html#a5e2fb6556bbb5cf22b77a72e9ccbc548", null ]
 ];

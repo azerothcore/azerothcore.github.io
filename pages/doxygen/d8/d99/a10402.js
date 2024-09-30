@@ -1,8 +1,5 @@
 var a10402 =
 [
-    [ "ServerPktHeader", "d8/d99/a10402.html#a761e294fccc02055a46bfc46656da706", null ],
-    [ "getHeaderLength", "d8/d99/a10402.html#a75ff3550b7794fed0e69bfc4d1418dee", null ],
-    [ "isLargePacket", "d8/d99/a10402.html#a4f4e13fc8e2a6ec6de70f4432f25ffe2", null ],
-    [ "header", "d8/d99/a10402.html#adc69128832b16124c284c584e7540b11", null ],
-    [ "size", "d8/d99/a10402.html#a5d5cf573cebe47a10e3f17b840c7a4e1", null ]
+    [ "SocketEnchantID", "d8/d99/a10402.html#ae682a8405a5fa1c70033d190dde25d99", null ],
+    [ "SocketIndex", "d8/d99/a10402.html#ac75ed3f28bdd3d83f15e55ef9b6ac54a", null ]
 ];

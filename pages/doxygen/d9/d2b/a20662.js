@@ -1,6 +1,6 @@
 var a20662 =
 [
-    [ "npc_molten_golemAI", "dd/ded/a20666.html", "dd/ded/a20666" ],
-    [ "npc_molten_golem", "d9/d2b/a20662.html#a63e16216a59b50524632b49599bd3bd1", null ],
-    [ "GetAI", "d9/d2b/a20662.html#a22a723039267cb0901b78c6064a88d0c", null ]
+    [ "HandleScript", "d9/d2b/a20662.html#a8ebd18095bd826d4bf843961e4e8dc81", null ],
+    [ "PrepareSpellScript", "d9/d2b/a20662.html#a4fd05478a145157dbd8377532033ab95", null ],
+    [ "Register", "d9/d2b/a20662.html#a9b30f89493d5b8c8d1097dde5d017a93", null ]
 ];

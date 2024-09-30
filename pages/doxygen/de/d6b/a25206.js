@@ -1,6 +1,7 @@
 var a25206 =
 [
-    [ "boss_ahuneAI", "db/d75/a25210.html", "db/d75/a25210" ],
-    [ "boss_ahune", "de/d6b/a25206.html#a56c20694e20f5ce0772bb31407e9588c", null ],
-    [ "GetAI", "de/d6b/a25206.html#ab340ea5e6b0cf4261469a364747694fe", null ]
+    [ "EjectPassenger", "de/d6b/a25206.html#a17ead3b25e5cebda3c9d5008f54f27ef", null ],
+    [ "PrepareSpellScript", "de/d6b/a25206.html#abada0f860ea3cd6c16fbe4d73263d95a", null ],
+    [ "Register", "de/d6b/a25206.html#ad5af65bc326aebcc1a2e19dabe624ad1", null ],
+    [ "Validate", "de/d6b/a25206.html#a24ad6ca59f4f38cfa34de16c4167944e", null ]
 ];

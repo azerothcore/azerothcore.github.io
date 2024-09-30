@@ -1,6 +1,9 @@
 var a19638 =
 [
-    [ "spell_frost_giant_death_plague_SpellScript", "dc/d2b/a19642.html", "dc/d2b/a19642" ],
-    [ "spell_frost_giant_death_plague", "db/d22/a19638.html#abc2f490a0e051f076a47245022f0db41", null ],
-    [ "GetSpellScript", "db/d22/a19638.html#a183b87c54a54122cb690732c13da68e5", null ]
+    [ "CheckTargets", "db/d22/a19638.html#a9340c167ef70508635092e273c23dcde", null ],
+    [ "CountTargets", "db/d22/a19638.html#a996db37b678143fbc0a392032d29fff5", null ],
+    [ "Load", "db/d22/a19638.html#a716bcf5bb0a24f9a57534c9dafb1a56f", null ],
+    [ "PrepareSpellScript", "db/d22/a19638.html#a0b68ca6bdfe0f7c84236e5fe509d8fd9", null ],
+    [ "Register", "db/d22/a19638.html#aed312a4408134589fd02bbcb844fd1b7", null ],
+    [ "_targetCount", "db/d22/a19638.html#ac780614674e748274081f9f99a5165fe", null ]
 ];

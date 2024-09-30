@@ -1,6 +1,7 @@
 var a22918 =
 [
-    [ "npc_azure_mage_slayerAI", "da/ddd/a22922.html", "da/ddd/a22922" ],
-    [ "npc_azure_mage_slayer", "d9/dec/a22918.html#ad5e5453235c224f4fac40244516dd1ad", null ],
-    [ "GetAI", "d9/dec/a22918.html#a9b795915100f47b11a65abdfdcbf39f4", null ]
+    [ "HandleEffectApply", "d9/dec/a22918.html#a5857dbdb088de67cc15717dca0c5f7b5", null ],
+    [ "HandleEffectRemove", "d9/dec/a22918.html#aab0536f7f73d9e354a526f56f587fff0", null ],
+    [ "PrepareAuraScript", "d9/dec/a22918.html#a80a6b51bc6c1457edc0fb8a0089513d1", null ],
+    [ "Register", "d9/dec/a22918.html#a194ff31e6168bca23881f3804154d479", null ]
 ];

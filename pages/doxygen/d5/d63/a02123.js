@@ -1,8 +1,5 @@
 var a02123 =
 [
-    [ "GUID_TRAIT_INSTANTIATE_GUID", "d5/d63/a02123.html#a62c17cbc4f3da3f26f9c1ae3ba2c4953", null ],
-    [ "operator<<", "d5/d63/a02123.html#a039758f4b57c94c411a4c3882334ada8", null ],
-    [ "operator<<", "d5/d63/a02123.html#a94ab551ce00fd82dea1532d47ad908bc", null ],
-    [ "operator>>", "d5/d63/a02123.html#a30aef535f2839648f0ae4648c746d3e2", null ],
-    [ "operator>>", "d5/d63/a02123.html#a95f3a6eef334b9fcdcaca879532c25d4", null ]
+    [ "WorldObjectChangeAccumulator", "df/d4e/a08118.html", "df/d4e/a08118" ],
+    [ "VisibilityDistances", "d5/d63/a02123.html#a6165c6736a6e152a38f7dea1aa2c956b", null ]
 ];

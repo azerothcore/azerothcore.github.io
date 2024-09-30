@@ -1,6 +1,6 @@
 var a18098 =
 [
-    [ "npc_gunship_boarding_leaderAI", "d9/d65/a18102.html", "d9/d65/a18102" ],
-    [ "npc_gunship_boarding_leader", "d4/d57/a18098.html#a8390eadab34a89643252f573588b140a", null ],
-    [ "GetAI", "d4/d57/a18098.html#ae422c8a1de8fb909a89d2ad2f516e3b4", null ]
+    [ "npc_shambling_horror_iccAI", "d9/d65/a18102.html", "d9/d65/a18102" ],
+    [ "npc_shambling_horror_icc", "d4/d57/a18098.html#a68219e0c6e79f5e7bed1f353d7bb5bcb", null ],
+    [ "GetAI", "d4/d57/a18098.html#a96fd525fcb34e793b1fc3fc5179e92ec", null ]
 ];

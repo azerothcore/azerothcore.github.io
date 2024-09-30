@@ -1,7 +1,7 @@
 var a26982 =
 [
-    [ "HandleScript", "d1/d4f/a26982.html#a2e323378559d8f11cbdbcb76e86a25ca", null ],
-    [ "PrepareSpellScript", "d1/d4f/a26982.html#ad511986b26dccd1be8206f01458c2b40", null ],
-    [ "Register", "d1/d4f/a26982.html#aa8ea297d751913def150dc1e29d37664", null ],
-    [ "Validate", "d1/d4f/a26982.html#a81222d8ac4f55175d1dc4d7c359cc331", null ]
+    [ "CharacterDeleteActionIpLogger", "d1/d4f/a26982.html#a37481de65409cf375dcff45615463949", null ],
+    [ "DeleteIPLogAction", "d1/d4f/a26982.html#a73a5ddacd8892d2300be313cfc12f534", null ],
+    [ "OnDelete", "d1/d4f/a26982.html#a35ea1362df09fccf0c4cee2e9ef6deb9", null ],
+    [ "OnFailedDelete", "d1/d4f/a26982.html#a34efd44289746078fdcfae63641b5580", null ]
 ];

@@ -1,6 +1,9 @@
 var a09730 =
 [
-    [ "OutdoorPvPScript", "d8/dc2/a09730.html#ad7882db48419888c7968007e30c2f3f7", null ],
-    [ "GetOutdoorPvP", "d8/dc2/a09730.html#aa213974f384c88ab65f7b7308dadb026", null ],
-    [ "IsDatabaseBound", "d8/dc2/a09730.html#ac22c6a9945738270452848f997d2818f", null ]
+    [ "PathMovementBase", "d8/dc2/a09730.html#a6b76e1527ed69ff631d7a72c309f264a", null ],
+    [ "PathMovementBase", "d8/dc2/a09730.html#a953fcda0cf7764f659fc5a4a19408550", null ],
+    [ "~PathMovementBase", "d8/dc2/a09730.html#a33b2b53993fe897712a196bc4ad86bd1", null ],
+    [ "GetCurrentNode", "d8/dc2/a09730.html#a7ceb52928f2198392980c3926516fd82", null ],
+    [ "i_currentNode", "d8/dc2/a09730.html#a5420aef90d3529881ef41362ebb29934", null ],
+    [ "i_path", "d8/dc2/a09730.html#a3dbc5e41e0c6245f369afc7a24081c83", null ]
 ];

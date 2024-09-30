@@ -1,10 +1,7 @@
 var a08326 =
 [
-    [ "MapType", "d2/d63/a08326.html#a8fa5f0aca9316901f42b2df8251c5a5d", null ],
-    [ "HashMapHolder", "d2/d63/a08326.html#ad10240097462af2a8a76c9429bd7cbca", null ],
-    [ "Find", "d2/d63/a08326.html#a314b4ce3265136fe326b909fe6ef6716", null ],
-    [ "GetContainer", "d2/d63/a08326.html#ad9dfe5d223496a379a4aec0fc12c42d9", null ],
-    [ "GetLock", "d2/d63/a08326.html#a52cc052c8d73d5b700c7f9253138942f", null ],
-    [ "Insert", "d2/d63/a08326.html#af5c618228c141e28ffa11468cfffb21a", null ],
-    [ "Remove", "d2/d63/a08326.html#a7b9c3761746641133d4a9837559c0bb0", null ]
+    [ "SetRuneState", "d2/d63/a08326.html#a920d32d04ec7e872680a89b0c0a9b0ef", null ],
+    [ "lastUsedRune", "d2/d63/a08326.html#a88c702716eb3032c20ae5ed74922d923", null ],
+    [ "runes", "d2/d63/a08326.html#aac485530bfa81d54d9da3213fe917c29", null ],
+    [ "runeState", "d2/d63/a08326.html#ae58297e0766578b234604a97641501a1", null ]
 ];

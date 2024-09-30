@@ -1,5 +1,7 @@
 var a21874 =
 [
-    [ "go_ulduar_working_harpoon", "d6/d47/a21874.html#a9aaaa16f23f07e402f20a048fd69d347", null ],
-    [ "OnGossipHello", "d6/d47/a21874.html#a164bdd0a9538293699665a821c4f25f3", null ]
+    [ "npc_tallhorn_stagAI", "d6/d47/a21874.html#a50947c450eece979193b45728e5e1f82", null ],
+    [ "Reset", "d6/d47/a21874.html#a67dce7ad60ddea63fcba5e1e2079fa7c", null ],
+    [ "UpdateAI", "d6/d47/a21874.html#adf60f62fa92238cb315c42e0179c3f17", null ],
+    [ "_phase", "d6/d47/a21874.html#ace2ac6f418876393d2f6d3457b1bc4c0", null ]
 ];

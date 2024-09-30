@@ -1,6 +1,5 @@
 var a17074 =
 [
-    [ "spell_bronjahm_magic_bane_SpellScript", "d7/d4c/a17078.html", "d7/d4c/a17078" ],
-    [ "spell_bronjahm_magic_bane", "d5/d74/a17074.html#a76a7fdc271c9d83bf3037e8c28cbb1c4", null ],
-    [ "GetSpellScript", "d5/d74/a17074.html#a15100aed9749a1efe8ef9df8c5790b78", null ]
+    [ "achievement_share_the_love", "d5/d74/a17074.html#a3eaa89eaa356b0e2f8b5c688439baf9c", null ],
+    [ "OnCheck", "d5/d74/a17074.html#a9d6b6d19611d1482111692de9f2b1cc8", null ]
 ];

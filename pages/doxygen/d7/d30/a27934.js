@@ -1,6 +1,7 @@
 var a27934 =
 [
-    [ "CheckProc", "d7/d30/a27934.html#a0f1461140b08deac3f044142067368e7", null ],
-    [ "PrepareAuraScript", "d7/d30/a27934.html#a04e0ebe416e94912d7f1ec529da7980d", null ],
-    [ "Register", "d7/d30/a27934.html#a05e31c2252c9054a18b4267be84895b9", null ]
+    [ "bit_index", "d7/d30/a27934.html#a1e5cb3fc001169a204507a084435a211", null ],
+    [ "ID", "d7/d30/a27934.html#a63fe7a87e019780d20e86e48efb02eac", null ],
+    [ "nameFemale", "d7/d30/a27934.html#ad0380caf2526715faaddc9330062d90a", null ],
+    [ "nameMale", "d7/d30/a27934.html#a74a767731c96d3d815ddde5a06f68599", null ]
 ];

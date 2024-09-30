@@ -1,6 +1,6 @@
 var a16478 =
 [
-    [ "boss_black_knightAI", "dd/d26/a16482.html", "dd/d26/a16482" ],
-    [ "boss_black_knight", "d9/db4/a16478.html#af55a307f282a68bc83e45c6de647ebf4", null ],
-    [ "GetAI", "d9/db4/a16478.html#a3f7ac72f69cebdab0a13c61c0b9b2ed2", null ]
+    [ "if", "d9/db4/a16478.html#a05a4c1db7e7d6810209175a22db5a639", null ],
+    [ "PrepareAuraScript", "d9/db4/a16478.html#ab918782945539513ae49cff3280fc352", null ],
+    [ "absorbAmount", "d9/db4/a16478.html#a72d148ef61ff66cbc2afdb3defec15ce", null ]
 ];

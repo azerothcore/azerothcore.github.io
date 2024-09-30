@@ -1,6 +1,6 @@
 var a22302 =
 [
-    [ "spell_yogg_saron_titanic_storm_SpellScript", "de/dc7/a22306.html", "de/dc7/a22306" ],
-    [ "spell_yogg_saron_titanic_storm", "d5/d5f/a22302.html#adf35073dd6a9fe73e61b6b6de91a6717", null ],
-    [ "GetSpellScript", "d5/d5f/a22302.html#a05a3627cb970008631302ac2f8dbc776", null ]
+    [ "npc_wg_queueAI", "d5/d5f/a22302.html#a3760738d61b6148042fc30bd96b88fdc", null ],
+    [ "UpdateAI", "d5/d5f/a22302.html#a2e5f19a0f01eeb3d1585c7b02f2073b2", null ],
+    [ "events", "d5/d5f/a22302.html#ab0eb949272e48120cff1c3df27ad8e92", null ]
 ];

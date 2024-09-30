@@ -1,6 +1,7 @@
 var a17734 =
 [
-    [ "spell_taldaram_glittering_sparks_SpellScript", "da/d14/a17738.html", "da/d14/a17738" ],
-    [ "spell_taldaram_glittering_sparks", "df/db0/a17734.html#a6f586802a15cfa930c273e2cb5584898", null ],
-    [ "GetSpellScript", "df/db0/a17734.html#a3d12794edd67a7649ae7e96ed96a0344", null ]
+    [ "HandleTriggerSpell", "df/db0/a17734.html#a7d7f1731c453e5d0b70e6093aeedea87", null ],
+    [ "PrepareAuraScript", "df/db0/a17734.html#afff0c81696ddcb427ce105d510ef93b1", null ],
+    [ "Register", "df/db0/a17734.html#aa50c6066115d7b60704eff48e77d10bd", null ],
+    [ "Validate", "df/db0/a17734.html#a6ef56d3d18bab2f81c810160ecf3ae96", null ]
 ];

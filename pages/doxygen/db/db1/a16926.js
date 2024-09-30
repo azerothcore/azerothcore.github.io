@@ -1,5 +1,6 @@
 var a16926 =
 [
-    [ "achievement_better_off_dred", "db/db1/a16926.html#a1ff3442ab3e166a4001c4c10777bdf8a", null ],
-    [ "OnCheck", "db/db1/a16926.html#a9aab68b43fbf9f3c71c237b149f23b2d", null ]
+    [ "npc_pos_tyrannus_eventsAI", "d6/d32/a16930.html", "d6/d32/a16930" ],
+    [ "npc_pos_tyrannus_events", "db/db1/a16926.html#a9e61db8b2b30e86fc5e554b3f4d51b7c", null ],
+    [ "GetAI", "db/db1/a16926.html#ae5863e99d77815de71c1774e908b3f65", null ]
 ];

@@ -1,7 +1,6 @@
 var a18134 =
 [
-    [ "npc_gunship_rocketeerAI", "de/d4c/a18134.html#aa9e722f32cd95fff8c72db5a41d0e84c", null ],
-    [ "CanAIAttack", "de/d4c/a18134.html#a4b4e2839e426bdb752beea09394f13dc", null ],
-    [ "MovementInform", "de/d4c/a18134.html#a7dd7f3625b177a96bcfdc5e46d944562", null ],
-    [ "UpdateAI", "de/d4c/a18134.html#af73d71750f116fb90be1c2acba75ca70", null ]
+    [ "npc_icc_ice_sphereAI", "da/d52/a18138.html", "da/d52/a18138" ],
+    [ "npc_icc_ice_sphere", "de/d4c/a18134.html#a4ed169ba87e801bb83ca4f3c457534cf", null ],
+    [ "GetAI", "de/d4c/a18134.html#aabb9ef14ea217f282173edf1600d3ecd", null ]
 ];

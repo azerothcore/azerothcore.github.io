@@ -1,6 +1,7 @@
 var a11978 =
 [
-    [ "npc_mc_core_houndAI", "d4/dc3/a11982.html", "d4/dc3/a11982" ],
-    [ "npc_mc_core_hound", "d8/dd5/a11978.html#aee1ef71447dbd1494de5e0065bd5ae78", null ],
-    [ "GetAI", "d8/dd5/a11978.html#a3aa8c5332b509b4d5498cd726ab47e40", null ]
+    [ "HandleDummy", "d8/dd5/a11978.html#a21c5eb1511cb4035f795ff1d22797e34", null ],
+    [ "PrepareSpellScript", "d8/dd5/a11978.html#a5308de47023b89e4ff8680158a502ac0", null ],
+    [ "Register", "d8/dd5/a11978.html#a5f148d259b1102b1046e6a3ac096fea8", null ],
+    [ "Validate", "d8/dd5/a11978.html#a75f89d90b9e68288e54e1e0bd3b2ce98", null ]
 ];

@@ -1,6 +1,6 @@
 var a25498 =
 [
-    [ "instance_magtheridons_lair_InstanceMapScript", "d1/dfa/a25502.html", "d1/dfa/a25502" ],
-    [ "instance_magtheridons_lair", "d3/d4d/a25498.html#a9bc61758478dc18ba413264eec2e3ca3", null ],
-    [ "GetInstanceScript", "d3/d4d/a25498.html#a6c9cc959cf4f294e6173d244f54bcd02", null ]
+    [ "HandleDummy", "d3/d4d/a25498.html#aafc9efb0f8070566579724853a88ab03", null ],
+    [ "PrepareSpellScript", "d3/d4d/a25498.html#a248c1203a4f15b2cd60afed9fa33cb59", null ],
+    [ "Register", "d3/d4d/a25498.html#a362e2ab6921aaa0c10b70795a5eda0de", null ]
 ];

@@ -1,6 +1,6 @@
 var a18442 =
 [
-    [ "boss_professor_putricideAI", "d5/d88/a18446.html", "d5/d88/a18446" ],
-    [ "boss_professor_putricide", "dc/d40/a18442.html#a80776dad5c0205aa6a98752f43e85e32", null ],
-    [ "GetAI", "dc/d40/a18442.html#a7c84089d24bb0c77a5203884254e0925", null ]
+    [ "CaptainSurviveTalk", "dc/d40/a18442.html#a43a1b1da17ed41ae765aabc47c858f80", null ],
+    [ "Execute", "dc/d40/a18442.html#a871cf08e8c7fced2971cae8abbc20454", null ],
+    [ "_owner", "dc/d40/a18442.html#ac8de506afb4688560ea637918d07b01e", null ]
 ];

@@ -1,4 +1,6 @@
 var a10278 =
 [
-    [ "Validate", "df/d88/a10278.html#ab0d4c07b4ce9903a913bdced5e05bbd6", null ]
+    [ "GuildUpdateMotdText", "df/d88/a10278.html#ab3b248450b0dcdde6b51e381e910b15d", null ],
+    [ "Read", "df/d88/a10278.html#a55cfd6f4797e61ca01ee7aa5c65d9a69", null ],
+    [ "MotdText", "df/d88/a10278.html#a5b2ee458a919be7f912d49cf984490ac", null ]
 ];

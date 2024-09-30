@@ -1,6 +1,6 @@
 var a25514 =
 [
-    [ "PrepareSpellScript", "d2/d0b/a25514.html#a5b17110b189b7134939aea9dbf2d724b", null ],
-    [ "Register", "d2/d0b/a25514.html#aab0cdddfc5c8188ff246a04035b8b552", null ],
-    [ "SelectRandomPlayer", "d2/d0b/a25514.html#a8a2229c61fb2eaaac3b0694008ec3ae1", null ]
+    [ "HandleScriptEffect", "d2/d0b/a25514.html#a94bbfc928beab8c8f27d84d1c9ab1558", null ],
+    [ "PrepareSpellScript", "d2/d0b/a25514.html#a479832175a4c77ce0c0a2f3d3f98f08c", null ],
+    [ "Register", "d2/d0b/a25514.html#aff9efad03d94958c29c84ea3c0d19fdb", null ]
 ];

@@ -1,9 +1,8 @@
 var a14882 =
 [
-    [ "boss_temporus", "d3/d88/a14882.html#ab9f1495b18fe2c0ee33e9c238483ce0d", null ],
-    [ "JustDied", "d3/d88/a14882.html#a9186e51d240aff2ffaab99e3b423ded9", null ],
-    [ "JustEngagedWith", "d3/d88/a14882.html#abe7f18497c1c8b31693980e98b1d1859", null ],
-    [ "KilledUnit", "d3/d88/a14882.html#a89c2a229b56b3a7dcb9e5a495ac6dbd7", null ],
-    [ "MoveInLineOfSight", "d3/d88/a14882.html#a18a0279036324498a9daf8c7d0296ffc", null ],
-    [ "OwnTalk", "d3/d88/a14882.html#a99356589a048debbc308b8431259da5c", null ]
+    [ "npc_obsidian_destroyer", "d3/d88/a14882.html#abd8b1614a9da9fbe9c9898246b0822b8", null ],
+    [ "JustDied", "d3/d88/a14882.html#adc54ac02383f5e5bf6af980f5ba301e8", null ],
+    [ "JustEngagedWith", "d3/d88/a14882.html#aaf95dd2c92a5d1745311e4162aee8dbc", null ],
+    [ "Reset", "d3/d88/a14882.html#a08c6b9ec0e2f4207d48f95eedf2c26ab", null ],
+    [ "UpdateAI", "d3/d88/a14882.html#a79ba48d421a636f99ea65c0e34d084e1", null ]
 ];

@@ -1,6 +1,8 @@
 var a26050 =
 [
-    [ "npc_commander_dawnforgeAI", "d9/d41/a26054.html", "d9/d41/a26054" ],
-    [ "npc_commander_dawnforge", "db/daf/a26050.html#ab4d430725f68f906e9c8def66b1d6646", null ],
-    [ "GetAI", "db/daf/a26050.html#a6089b087b7c3b18659e23c677814318b", null ]
+    [ "Load", "db/daf/a26050.html#a7662d85a5469c20edf6d2eefca820db3", null ],
+    [ "PrepareAuraScript", "db/daf/a26050.html#a252bd975a7639eab4e151249db974b7c", null ],
+    [ "Register", "db/daf/a26050.html#a51723a22f1062f44e8eb6848e1398595", null ],
+    [ "Split", "db/daf/a26050.html#a08e982eae6030fdc679663bfd38bca47", null ],
+    [ "remainingAmount", "db/daf/a26050.html#afaab88988769ddc720deb44f06de3d7d", null ]
 ];

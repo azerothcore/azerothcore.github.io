@@ -1,8 +1,16 @@
 var a28514 =
 [
-    [ "Apply", "d6/d50/a28514.html#ac3145df90b6b179fece1c76da114e395", null ],
-    [ "HandleEffectPeriodic", "d6/d50/a28514.html#a480dd240981f91666e25ea2f1f73e4d7", null ],
-    [ "PrepareAuraScript", "d6/d50/a28514.html#aa911ba0b5a13a933bf50a072799a040f", null ],
-    [ "Register", "d6/d50/a28514.html#ae0dff9b5002d3d3361d794a75645057f", null ],
-    [ "Validate", "d6/d50/a28514.html#ad81184b508474a89fbafc63594ef0ab1", null ]
+    [ "Iterator", "d6/d50/a28514.html#a682fe042bcd4ceb6c25dd7b4a3acbcc1", null ],
+    [ "Iterator", "d6/d50/a28514.html#a682fe042bcd4ceb6c25dd7b4a3acbcc1", null ],
+    [ "operator!=", "d6/d50/a28514.html#a7c0a38cbd02823479f349bb109a7ccf8", null ],
+    [ "operator!=", "d6/d50/a28514.html#a7c0a38cbd02823479f349bb109a7ccf8", null ],
+    [ "operator*", "d6/d50/a28514.html#a7b3de0d9987b834eaf6e909dd22f2528", null ],
+    [ "operator*", "d6/d50/a28514.html#a7b3de0d9987b834eaf6e909dd22f2528", null ],
+    [ "operator++", "d6/d50/a28514.html#af7dc5aae457d264ebe4aa42f5b700589", null ],
+    [ "operator++", "d6/d50/a28514.html#af7dc5aae457d264ebe4aa42f5b700589", null ],
+    [ "operator->", "d6/d50/a28514.html#ac57afe01d1ce6c611ca832f10f5d52fd", null ],
+    [ "operator->", "d6/d50/a28514.html#ac57afe01d1ce6c611ca832f10f5d52fd", null ],
+    [ "operator==", "d6/d50/a28514.html#a2d9cf3e798a1fcce3682c186952290df", null ],
+    [ "operator==", "d6/d50/a28514.html#a2d9cf3e798a1fcce3682c186952290df", null ],
+    [ "record", "d6/d50/a28514.html#a948512c44e53dfa177b85f82e9fd6160", null ]
 ];

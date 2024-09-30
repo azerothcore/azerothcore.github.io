@@ -1,6 +1,7 @@
 var a17570 =
 [
-    [ "boss_eckAI", "df/d32/a17574.html", "df/d32/a17574" ],
-    [ "boss_eck", "d0/da3/a17570.html#aa445927936d7759a8c3289e2899181e5", null ],
-    [ "GetAI", "d0/da3/a17570.html#a335755ec7416d3e00a4070e03569293a", null ]
+    [ "PrepareSpellScript", "d0/da3/a17570.html#a21bd67c024c5dcfb8496778f67eb48eb", null ],
+    [ "Register", "d0/da3/a17570.html#aff4f05a5a4742a408646000b7cece38c", null ],
+    [ "RemovePassengers", "d0/da3/a17570.html#a77c63e85233e2ef14bf06c82ad27c4b2", null ],
+    [ "Validate", "d0/da3/a17570.html#a2a8da9d150804f979f2313f623ad7760", null ]
 ];

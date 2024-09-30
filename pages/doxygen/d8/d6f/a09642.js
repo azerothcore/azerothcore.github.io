@@ -1,11 +1,14 @@
 var a09642 =
 [
-    [ "ScriptObject", "d8/d6f/a09642.html#accc2205dc06b4f5e023bdfc203c529b5", null ],
-    [ "~ScriptObject", "d8/d6f/a09642.html#a80c704c939f54eee6655d68509598c42", null ],
-    [ "checkValidity", "d8/d6f/a09642.html#a585e75e34aed7aa32205daad85f8fe08", null ],
-    [ "GetName", "d8/d6f/a09642.html#a79588d839860d2f5caab60c5f1368f10", null ],
-    [ "isAfterLoadScript", "d8/d6f/a09642.html#a2f66339b1cdf1fde795c61cd24c8b0a2", null ],
-    [ "IsDatabaseBound", "d8/d6f/a09642.html#a37da453729d5c8fbe2d06f905563f47c", null ],
-    [ "ScriptMgr", "d8/d6f/a09642.html#a7a753f61d57353451e90f3f23fec4851", null ],
-    [ "_name", "d8/d6f/a09642.html#a90b63e382cac17922ae57fe22b84718c", null ]
+    [ "~MovementGenerator", "d8/d6f/a09642.html#a13c3c432ac2a91dd4d07b090ec06b903", null ],
+    [ "Finalize", "d8/d6f/a09642.html#aef4cf800aa06dddac4efd36e3c058d2b", null ],
+    [ "GetMovementGeneratorType", "d8/d6f/a09642.html#a60bac341b438ea7258986f234a952324", null ],
+    [ "GetResetPosition", "d8/d6f/a09642.html#a60ac9e99f41d1f5c320441cf78b4b46a", null ],
+    [ "GetSplineId", "d8/d6f/a09642.html#a99865a1b7cf84b02784bfa8df958585f", null ],
+    [ "Initialize", "d8/d6f/a09642.html#a0040e427ac4a09273641a96a13fd4c1f", null ],
+    [ "Pause", "d8/d6f/a09642.html#a37530e5cd743faecabd21eba08dce939", null ],
+    [ "Reset", "d8/d6f/a09642.html#aa6641fa1182551421fc8572afad8e083", null ],
+    [ "Resume", "d8/d6f/a09642.html#a51988a8b0a45459242467e38ca46303c", null ],
+    [ "unitSpeedChanged", "d8/d6f/a09642.html#a0f9c4fd52947688dcda1161924e829bb", null ],
+    [ "Update", "d8/d6f/a09642.html#ae3014d8c6e728799c86134ef64737ed5", null ]
 ];

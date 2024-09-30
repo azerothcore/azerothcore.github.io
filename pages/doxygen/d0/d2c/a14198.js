@@ -1,7 +1,6 @@
 var a14198 =
 [
-    [ "npc_direbrew_minion", "d0/d2c/a14198.html#aaac7d1b1a464ea7ff1ec18ace11d54b7", null ],
-    [ "IsSummonedBy", "d0/d2c/a14198.html#a78d40e0f2a285b0b9c257f12876eabeb", null ],
-    [ "Reset", "d0/d2c/a14198.html#a21fb7a778e9025ca4185951460a96d08", null ],
-    [ "_instance", "d0/d2c/a14198.html#aeea9f455c014afa347ce0c3f106ebdb6", null ]
+    [ "HandleScript", "d0/d2c/a14198.html#a4077b809530d28bed0a9419b5a745f42", null ],
+    [ "PrepareSpellScript", "d0/d2c/a14198.html#a97eb6d1fcdcf0628433e5bec68785932", null ],
+    [ "Register", "d0/d2c/a14198.html#ac09b1c86655eef0febaccff86533b28f", null ]
 ];

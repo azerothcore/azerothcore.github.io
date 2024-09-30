@@ -1,6 +1,9 @@
 var a12198 =
 [
-    [ "boss_terestianAI", "d2/db3/a12202.html", "d2/db3/a12202" ],
-    [ "boss_terestian_illhoof", "df/d96/a12198.html#abb5c82f6df3612f212c53bfe7183df43", null ],
-    [ "GetAI", "df/d96/a12198.html#ac96b1218b8e6c2882796589e3f6176b0", null ]
+    [ "HandleEffectApply", "df/d96/a12198.html#ab1f4879fd9bd3982b9695bda886b0b99", null ],
+    [ "HandleEffectRemove", "df/d96/a12198.html#a8e38bc0ebf6b62982eee84e4c2722413", null ],
+    [ "Load", "df/d96/a12198.html#a8259745e21c561e4eedabc87ca8bdf73", null ],
+    [ "PrepareAuraScript", "df/d96/a12198.html#abec6d69d331e9952c129dc4cc24f0f13", null ],
+    [ "Register", "df/d96/a12198.html#a201bafab6c483b08a6ae27054392dea9", null ],
+    [ "Validate", "df/d96/a12198.html#a94aa1bd618035323b1fd4817fa7f9687", null ]
 ];

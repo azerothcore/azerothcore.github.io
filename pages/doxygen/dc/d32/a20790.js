@@ -1,6 +1,11 @@
 var a20790 =
 [
-    [ "HandleEffectRemove", "dc/d32/a20790.html#a529d6d96d7f7a682646ac76d2738afad", null ],
-    [ "PrepareAuraScript", "dc/d32/a20790.html#ad32012414b24efa48db05cba2d8e86f2", null ],
-    [ "Register", "dc/d32/a20790.html#aa38b273ed6e9482c8c2fca712ea5b459", null ]
+    [ "boss_yoggsaron_lich_kingAI", "dc/d32/a20790.html#a4fcf1be1bc20327ff8daf9c79baabde7", null ],
+    [ "NextStep", "dc/d32/a20790.html#a4f99e511d6296b56df8ab8fbe53620e6", null ],
+    [ "Reset", "dc/d32/a20790.html#a4c8f098f245e90685f0f3660028500a8", null ],
+    [ "Say", "dc/d32/a20790.html#a01217dd4c33b0ccae448aa137e83dd9b", null ],
+    [ "UpdateAI", "dc/d32/a20790.html#a3cbe18164c993fd034242b3f19d27e31", null ],
+    [ "_checkTimer", "dc/d32/a20790.html#a8f0234b32612ff56ac6a7429f6e4da09", null ],
+    [ "_running", "dc/d32/a20790.html#a9d7f0f2a8cf4f421253c8c5a6ec98111", null ],
+    [ "_step", "dc/d32/a20790.html#a6af98b3daace7852a485983167538f85", null ]
 ];

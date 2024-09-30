@@ -1,14 +1,58 @@
 var a02369 =
 [
-    [ "AccountInfo", "d9/df0/a05540.html", "d9/df0/a05540" ],
-    [ "AuthSession", "df/d64/a05544.html", "df/d64/a05544" ],
-    [ "AuthHandler", "dd/d89/a05548.html", "dd/d89/a05548" ],
-    [ "AuthStatus", "df/def/a02369.html#a9bc15a6035dd7c4983d87a5ccb3d5834", [
-      [ "STATUS_CHALLENGE", "df/def/a02369.html#a9bc15a6035dd7c4983d87a5ccb3d5834a90b814e742d5a0b33f968164487ecac4", null ],
-      [ "STATUS_LOGON_PROOF", "df/def/a02369.html#a9bc15a6035dd7c4983d87a5ccb3d5834a940d23c4c5ae99bdf01c40c4e975df16", null ],
-      [ "STATUS_RECONNECT_PROOF", "df/def/a02369.html#a9bc15a6035dd7c4983d87a5ccb3d5834a2a06e7508d5944327eec6c08c11db734", null ],
-      [ "STATUS_AUTHED", "df/def/a02369.html#a9bc15a6035dd7c4983d87a5ccb3d5834ad7eacfaf1a48a468f2383034940ef72b", null ],
-      [ "STATUS_WAITING_FOR_REALM_LIST", "df/def/a02369.html#a9bc15a6035dd7c4983d87a5ccb3d5834a570e0aef98212ddcd09f1ec9254ffdf0", null ],
-      [ "STATUS_CLOSED", "df/def/a02369.html#a9bc15a6035dd7c4983d87a5ccb3d5834a78785eb1e6f5b92eaea5c78b3cc0dd94", null ]
-    ] ]
+    [ "AuthResult", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fce", [
+      [ "WOW_SUCCESS", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea17cfb08be7c0da21b3a4ec0fb76ed688", null ],
+      [ "WOW_FAIL_BANNED", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea550e2d0697129df245f04a9c28454630", null ],
+      [ "WOW_FAIL_UNKNOWN_ACCOUNT", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea4614f07045c585583364e857c3421114", null ],
+      [ "WOW_FAIL_INCORRECT_PASSWORD", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea435627e6ceddf5214798b0ffee9379f3", null ],
+      [ "WOW_FAIL_ALREADY_ONLINE", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea71848ab60dcf958e95af1caaa1060a5c", null ],
+      [ "WOW_FAIL_NO_TIME", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fceac6b47ed0785815782ffcaa9ddcc61f34", null ],
+      [ "WOW_FAIL_DB_BUSY", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea8a6d51e1086aa22c9409807b01e8db96", null ],
+      [ "WOW_FAIL_VERSION_INVALID", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fceaf7e9abc937534a7f909fcb07b744942d", null ],
+      [ "WOW_FAIL_VERSION_UPDATE", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea6ff71ce07c1a0c0d5321d82cd9803aae", null ],
+      [ "WOW_FAIL_INVALID_SERVER", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fceae2aacd0fb4634fa66489baa619e4955d", null ],
+      [ "WOW_FAIL_SUSPENDED", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea2686cc24f58e96f7956d5d6ef9f18e04", null ],
+      [ "WOW_FAIL_FAIL_NOACCESS", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea7335fc931139834357fb93d3fdde0ee8", null ],
+      [ "WOW_SUCCESS_SURVEY", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea664860e55648321e7ef00ffd2b26013a", null ],
+      [ "WOW_FAIL_PARENTCONTROL", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea5e8d5fb949ecfd0cafdc81cee3b7f81d", null ],
+      [ "WOW_FAIL_LOCKED_ENFORCED", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea18dcd4a3797de3f107178a0a6d6389b3", null ],
+      [ "WOW_FAIL_TRIAL_ENDED", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea22f7a1ff157487225ffc1261a977a3a6", null ],
+      [ "WOW_FAIL_USE_BATTLENET", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea8ed1410eefb917a04764590ea82b447c", null ],
+      [ "WOW_FAIL_ANTI_INDULGENCE", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea6a965940cfced1a61d60b74e87f083c3", null ],
+      [ "WOW_FAIL_EXPIRED", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fceaaa299fabdc18e5c6c89cf53c18f039b9", null ],
+      [ "WOW_FAIL_NO_GAME_ACCOUNT", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea3fc06700ec90ca46aa67b5b0d5facfdf", null ],
+      [ "WOW_FAIL_CHARGEBACK", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea38ff8e9b9d3dee3d43ab419735a83a05", null ],
+      [ "WOW_FAIL_INTERNET_GAME_ROOM_WITHOUT_BNET", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fceaa30377fa80b0edb3b9826f7294c009d9", null ],
+      [ "WOW_FAIL_GAME_ACCOUNT_LOCKED", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea3cb53338783b02f6f4adbd6d4cf8de55", null ],
+      [ "WOW_FAIL_UNLOCKABLE_LOCK", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fceaa49aaf129ee38c581c43adac5e0dc47e", null ],
+      [ "WOW_FAIL_CONVERSION_REQUIRED", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fceaa57c56a0afc1fe774f661feddaaa1739", null ],
+      [ "WOW_FAIL_DISCONNECTED", "df/def/a02369.html#a87ba9bd5edfd749f4729620dbadd5fcea45adfe6f21bb136d789120fb4ade5d65", null ]
+    ] ],
+    [ "ExpansionFlags", "df/def/a02369.html#aa4677c9d14c49d7eb90bf81f278756e2", [
+      [ "POST_BC_EXP_FLAG", "df/def/a02369.html#aa4677c9d14c49d7eb90bf81f278756e2ac848c9323f3ff5625ac2122c586c09bb", null ],
+      [ "PRE_BC_EXP_FLAG", "df/def/a02369.html#aa4677c9d14c49d7eb90bf81f278756e2aeee886490e199b04b3ef987de2fefb64", null ],
+      [ "NO_VALID_EXP_FLAG", "df/def/a02369.html#aa4677c9d14c49d7eb90bf81f278756e2ad8e812d2ea9331912047df7fce86831d", null ]
+    ] ],
+    [ "LoginResult", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5", [
+      [ "LOGIN_OK", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5a9da8cbfbe2c1a4f3ebd3d44a961adabb", null ],
+      [ "LOGIN_FAILED", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5ad57e6995e0b5105bfeb9bde15ed0a7a0", null ],
+      [ "LOGIN_FAILED2", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5a501cd3d3224142afdb0ddd84933f7b56", null ],
+      [ "LOGIN_BANNED", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5abd5993385d5cc24dd420523a27166005", null ],
+      [ "LOGIN_UNKNOWN_ACCOUNT", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5a09d810ee618be6b94e3f65997504e6b3", null ],
+      [ "LOGIN_UNKNOWN_ACCOUNT3", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5a9cd182cb4b751e7fb72928ec376b15bc", null ],
+      [ "LOGIN_ALREADYONLINE", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5a9a53be7e776883d12703dcbb4ed651e5", null ],
+      [ "LOGIN_NOTIME", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5a2ce8ce1e836148b73775ad265ab0f342", null ],
+      [ "LOGIN_DBBUSY", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5af4f0024867276f532e675c24aadcfce8", null ],
+      [ "LOGIN_BADVERSION", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5ae585e165f05e752918e316544b78a91c", null ],
+      [ "LOGIN_DOWNLOAD_FILE", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5a37d9b65d118199e570e0dbfc227bd309", null ],
+      [ "LOGIN_FAILED3", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5af97075f074e84f11375e22e912235aa3", null ],
+      [ "LOGIN_SUSPENDED", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5a401d988d19cea26726562ab92417060b", null ],
+      [ "LOGIN_FAILED4", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5a09338db3247d56c3cc7e41d4de1ed06e", null ],
+      [ "LOGIN_CONNECTED", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5a1bbff3f5057ee056e293eb7ca46968ae", null ],
+      [ "LOGIN_PARENTALCONTROL", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5afcb2d09c101442419ef3262095e9b860", null ],
+      [ "LOGIN_LOCKED_ENFORCED", "df/def/a02369.html#a3b6904b8a00ed8f7a67396dee6e9aef5a683788d94491faa7b0ce45a64e0a2c02", null ]
+    ] ],
+    [ "IsAcceptedClientBuild", "df/def/a02369.html#a50a906b5a3fdca3508aee0997881a717", null ],
+    [ "IsPostBCAcceptedClientBuild", "df/def/a02369.html#ad4f22daf9d88367d90d92416f470a28c", null ],
+    [ "IsPreBCAcceptedClientBuild", "df/def/a02369.html#a96896fc9dad2c304f681a24776f6726b", null ]
 ];

@@ -1,7 +1,6 @@
 var a27262 =
 [
-    [ "HandleDamage", "d1/da0/a27262.html#a9c9bbe49388cf5d04650572fdf789e5e", null ],
-    [ "PrepareSpellScript", "d1/da0/a27262.html#ac89a628f1aba54aa2ade876a4f7911b8", null ],
-    [ "Register", "d1/da0/a27262.html#a627bffccdd78c00f0f5a4241f36aeec8", null ],
-    [ "Validate", "d1/da0/a27262.html#aed63b40f8e2cc6fd32dd536a2d56c7c3", null ]
+    [ "go_soulwellAI", "da/dab/a27266.html", "da/dab/a27266" ],
+    [ "go_soulwell", "d1/da0/a27262.html#a3747499bd05326ef6f7024c0ee91a4ce", null ],
+    [ "GetAI", "d1/da0/a27262.html#a0c8b8cf09c26ad08c1c6dbb1a0c57861", null ]
 ];

@@ -1,7 +1,5 @@
 var a27006 =
 [
-    [ "HandleScript", "d5/da3/a27006.html#a9fb69011ce5245925eb6a4fd011d18b2", null ],
-    [ "PrepareSpellScript", "d5/da3/a27006.html#ab9300ff0efc4a36d652a1b56c031dc2f", null ],
-    [ "Register", "d5/da3/a27006.html#aa0828fa1a3cf75e8222607a4f2fff950", null ],
-    [ "Validate", "d5/da3/a27006.html#a9469ebca2d40dd2944f2fb7286fc64ff", null ]
+    [ "AreaTrigger_at_last_rites", "d5/da3/a27006.html#a30d1930c76920ab12cf4f9b04fd5f0e4", null ],
+    [ "OnTrigger", "d5/da3/a27006.html#a48f6e2041cda24812a165fa0fb62f1b6", null ]
 ];

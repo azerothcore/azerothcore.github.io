@@ -1,7 +1,9 @@
 var a14806 =
 [
-    [ "npc_cos_chromie_middle", "df/db3/a14806.html#a1bb7229781c122d362e781d2737d0fd3", null ],
-    [ "OnGossipHello", "df/db3/a14806.html#a105b62bd24fe3912c0f66c234a6dc670", null ],
-    [ "OnGossipSelect", "df/db3/a14806.html#a37ebdd257ef22554c81cf3c062856141", null ],
-    [ "OnQuestAccept", "df/db3/a14806.html#a6af52ce23a90e7d8418e2c414c9c0fd4", null ]
+    [ "npc_buru_egg", "df/db3/a14806.html#a6aa2896342b802caecde1c1dffcf4907", null ],
+    [ "JustDied", "df/db3/a14806.html#a3de169b252374f0b2daed3ecb5a11502", null ],
+    [ "JustEngagedWith", "df/db3/a14806.html#a8cde6848569671876a17b00d75228ebe", null ],
+    [ "JustSummoned", "df/db3/a14806.html#abebb96dcb3d653bddd4210da6567fb87", null ],
+    [ "UpdateAI", "df/db3/a14806.html#a4d77f8b40ea8e936c9388aeff4927420", null ],
+    [ "_instance", "df/db3/a14806.html#a5b168226755a57368f17827e3457a0ca", null ]
 ];

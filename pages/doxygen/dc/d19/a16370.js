@@ -1,6 +1,9 @@
 var a16370 =
 [
-    [ "HandleHealPct", "dc/d19/a16370.html#a7acd2500fe7f82272047b301812d1e8b", null ],
-    [ "PrepareSpellScript", "dc/d19/a16370.html#a8a93787bef057e2c07257cfecf8bed67", null ],
-    [ "Register", "dc/d19/a16370.html#a87be4145da5d5073994b1e3b66f39ab6", null ]
+    [ "npc_fel_infernalAI", "dc/d19/a16370.html#a7f34b34facdfeea3fc3507ad3cf84dda", null ],
+    [ "EnterEvadeMode", "dc/d19/a16370.html#aedec8729b9be931a74fe00d1aa649848", null ],
+    [ "JustDied", "dc/d19/a16370.html#a599786069f98231eeb7f9ca809f8e671", null ],
+    [ "Reset", "dc/d19/a16370.html#a09f408c9250467228b91ef9f6c9544f4", null ],
+    [ "UpdateAI", "dc/d19/a16370.html#a45075fdaba6d7c04cb526420deb8a0ac", null ],
+    [ "events", "dc/d19/a16370.html#acf955037c246f7b5f12cc5338b300b63", null ]
 ];

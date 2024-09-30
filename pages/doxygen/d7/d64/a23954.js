@@ -1,8 +1,6 @@
 var a23954 =
 [
-    [ "go_wg_vehicle_teleporterAI", "d7/d64/a23954.html#af84e73765b1a4d810b41613824999186", null ],
-    [ "IsFriendly", "d7/d64/a23954.html#adca817c8919958db888d5e9c759ad545", null ],
-    [ "IsValidVehicle", "d7/d64/a23954.html#a3f790a651d5f0c67c5d528828a6bb398", null ],
-    [ "UpdateAI", "d7/d64/a23954.html#a8d8197cbfa6ab36d269f18020acbc565", null ],
-    [ "_checkTimer", "d7/d64/a23954.html#a9cbb42b4f29f94e41e80caccd87d95f4", null ]
+    [ "npc_oscillating_frequency_scanner_master_bunnyAI", "d5/d77/a23958.html", "d5/d77/a23958" ],
+    [ "npc_oscillating_frequency_scanner_master_bunny", "d7/d64/a23954.html#a8ae11cadbd5e883bf12f8f5201700b4e", null ],
+    [ "GetAI", "d7/d64/a23954.html#a60d55e2eda4484ceea4e475ac8653977", null ]
 ];

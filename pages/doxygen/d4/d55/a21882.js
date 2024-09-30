@@ -1,8 +1,7 @@
 var a21882 =
 [
-    [ "npc_ulduar_dark_rune_guardianAI", "d4/d55/a21882.html#aedb43124c923621aadecb77511204fc6", null ],
-    [ "CanAIAttack", "d4/d55/a21882.html#af23cb4a19d28f5aa57ba96de95f87c87", null ],
-    [ "Reset", "d4/d55/a21882.html#a4c1f53fbbc6189ca9ee0420bc4198684", null ],
-    [ "UpdateAI", "d4/d55/a21882.html#ad21127654d5511b6b1d9b22cdd77bd08", null ],
-    [ "timer2", "d4/d55/a21882.html#aa66f1aa48cf928ac12751cb3ca2358f3", null ]
+    [ "npc_amberpine_woodsmanAI", "d4/d55/a21882.html#aa0f37b54c5bfc2f923d09437b8b30424", null ],
+    [ "Reset", "d4/d55/a21882.html#a8da613c7bbaadf331c95667e7a361702", null ],
+    [ "UpdateAI", "d4/d55/a21882.html#a64dbf41424a710c400d51507f6457b41", null ],
+    [ "_events", "d4/d55/a21882.html#aac8cd045a5518e3eaa9c24e0fb83ddaa", null ]
 ];

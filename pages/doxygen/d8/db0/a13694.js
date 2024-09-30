@@ -1,6 +1,8 @@
 var a13694 =
 [
-    [ "boss_alyson_antilleAI", "d3/d5b/a13698.html", "d3/d5b/a13698" ],
-    [ "boss_alyson_antille", "d8/db0/a13694.html#a0a67ddb176935e76ce9894e268b97d12", null ],
-    [ "GetAI", "d8/db0/a13694.html#abd00892521ed17c9a5f5a35c0535548e", null ]
+    [ "entry", "d8/db0/a13694.html#ad7431eb64907aed0a03205a37c65a735", null ],
+    [ "orient", "d8/db0/a13694.html#ab54dc774ffa13a1cdff8cf8047330c82", null ],
+    [ "x", "d8/db0/a13694.html#a9e2b1a05fdcb7ba5e67deed9906f2520", null ],
+    [ "y", "d8/db0/a13694.html#ae726b332e6759612c76de6b9f38a3147", null ],
+    [ "z", "d8/db0/a13694.html#a8a0e3c6d9e558a40cd9d543df6abf728", null ]
 ];

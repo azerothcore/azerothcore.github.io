@@ -1,6 +1,7 @@
 var a18550 =
 [
-    [ "spell_putricide_unbound_plague_dmg_AuraScript", "d9/d62/a18554.html", "d9/d62/a18554" ],
-    [ "spell_putricide_unbound_plague_dmg", "d7/d3c/a18550.html#a4335943600e1b5956fae27a01d545ab6", null ],
-    [ "GetAuraScript", "d7/d3c/a18550.html#a162ffa548448cc6495133d589ca6d244", null ]
+    [ "OnApply", "d7/d3c/a18550.html#a5f62c11ef96edbf6f2906bd5f41109d5", null ],
+    [ "OnRemove", "d7/d3c/a18550.html#a697a7c76f944b5df956a9de07746b7a9", null ],
+    [ "PrepareAuraScript", "d7/d3c/a18550.html#a338d0fa22368d01fe7523b7cc1acea4b", null ],
+    [ "Register", "d7/d3c/a18550.html#ab915b3ede10526b3e7ccbe33f2568fae", null ]
 ];

@@ -1,6 +1,6 @@
 var a19666 =
 [
-    [ "spell_svalna_remove_spear_SpellScript", "d3/db2/a19670.html", "d3/db2/a19670" ],
-    [ "spell_svalna_remove_spear", "d3/dd8/a19666.html#a48fe35704276368cd9a55a00ccf30406", null ],
-    [ "GetSpellScript", "d3/dd8/a19666.html#a213318ce2f0b19b0e35f7b963daf6caf", null ]
+    [ "CastRunesEvent", "d3/dd8/a19666.html#aa3c5912362a4ce8a5b463da626f277b0", null ],
+    [ "Execute", "d3/dd8/a19666.html#ad86f17817c8a5accb1cc90e0e5d362f3", null ],
+    [ "_owner", "d3/dd8/a19666.html#a308c679c6e427e89734b5f506ad9d0d6", null ]
 ];

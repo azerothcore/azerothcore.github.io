@@ -1,6 +1,6 @@
 var a19266 =
 [
-    [ "spell_the_lich_king_soul_rip_AuraScript", "da/da3/a19270.html", "da/da3/a19270" ],
-    [ "spell_the_lich_king_soul_rip", "d6/d4c/a19266.html#a42ef2ed059f9a09c2306c48052f890c7", null ],
-    [ "GetAuraScript", "d6/d4c/a19266.html#a29bd3b91f9a3e5a5cdd154c7c2cef928", null ]
+    [ "boss_eregosAI", "da/da3/a19270.html", "da/da3/a19270" ],
+    [ "boss_eregos", "d6/d4c/a19266.html#a105820f29aa1391d77a56e024c4b5637", null ],
+    [ "GetAI", "d6/d4c/a19266.html#aee43f0dfee70ab9618c560a27504cb02", null ]
 ];

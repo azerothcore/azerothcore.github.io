@@ -1,8 +1,12 @@
 var a10042 =
 [
-    [ "OtherGUID", "df/d1c/a10042.html#a3f7486a2e4e07fef318414eaaa9037da", null ],
-    [ "PlayerGUID", "df/d1c/a10042.html#ae3d1217ddbfccd601fcbc57b78739a94", null ],
-    [ "RankID", "df/d1c/a10042.html#a1aebcb39f85c2b44101a311a6ccefdfd", null ],
-    [ "TransactionDate", "df/d1c/a10042.html#a4a8054876b35134e5dfe2cf84887e66f", null ],
-    [ "TransactionType", "df/d1c/a10042.html#aa48b69aa9078fb150470d66201b34786", null ]
+    [ "ItemScript", "df/d1c/a10042.html#a0ad18538a834261190356eab549ff192", null ],
+    [ "IsDatabaseBound", "df/d1c/a10042.html#ae0ae6754a17b88deaf3648b74a58bb9d", null ],
+    [ "OnCastItemCombatSpell", "df/d1c/a10042.html#a08a73378706fdfb0cee5e6214060ad1b", null ],
+    [ "OnExpire", "df/d1c/a10042.html#a2ac915f9f966df87a963a328363deb77", null ],
+    [ "OnGossipSelect", "df/d1c/a10042.html#a78b540902816ee3b3f9a6b108aa155ab", null ],
+    [ "OnGossipSelectCode", "df/d1c/a10042.html#a924268357fec1a667f1184c91ebcef33", null ],
+    [ "OnQuestAccept", "df/d1c/a10042.html#a87ab2f706bbb4e71921852d1ae6d78c7", null ],
+    [ "OnRemove", "df/d1c/a10042.html#a1c8d706593fce54b1e4627493c38a6d3", null ],
+    [ "OnUse", "df/d1c/a10042.html#a0e45d02f07def65de2eb94735189e7f5", null ]
 ];

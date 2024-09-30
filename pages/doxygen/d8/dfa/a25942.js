@@ -1,6 +1,10 @@
 var a25942 =
 [
-    [ "go_apexis_relic", "d8/dfa/a25942.html#a91ff5a986ee62b628456e9f5c75f6bc9", null ],
-    [ "OnGossipHello", "d8/dfa/a25942.html#ae8f7167ba5b973881e32d604691dc15a", null ],
-    [ "OnGossipSelect", "d8/dfa/a25942.html#a025cc7cc9c69f0eb461445170972ab52", null ]
+    [ "CheckProc", "d8/dfa/a25942.html#a787008462dce35eb27deda41301b146d", null ],
+    [ "HandleProc", "d8/dfa/a25942.html#a5b791c7cb8dae574fef801ce42dc6aa1", null ],
+    [ "Load", "d8/dfa/a25942.html#a9760351c28f5f9948f0b64ae2ca91c24", null ],
+    [ "PrepareAuraScript", "d8/dfa/a25942.html#ab3d5e71597c67ec0aed70f7e5d2319ac", null ],
+    [ "Register", "d8/dfa/a25942.html#aa4ef731870355dc386fcd07c5f19d090", null ],
+    [ "Validate", "d8/dfa/a25942.html#ad04864f0710262364cf40e071446d87c", null ],
+    [ "_procTarget", "d8/dfa/a25942.html#a9383231fc71c6239507fdf8765d63f3d", null ]
 ];

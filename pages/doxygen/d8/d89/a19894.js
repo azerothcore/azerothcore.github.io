@@ -1,6 +1,6 @@
 var a19894 =
 [
-    [ "npc_isle_of_conquest_turretAI", "df/d76/a19898.html", "df/d76/a19898" ],
-    [ "npc_isle_of_conquest_turret", "d8/d89/a19894.html#ac080845203adef25e6841133b7e2f4dc", null ],
-    [ "GetAI", "d8/d89/a19894.html#a0f532e12439e900b3cb77619f1ecd17d", null ]
+    [ "CheckAreaTarget", "d8/d89/a19894.html#ad1930e308f450cb84dba4f4b28b19f58", null ],
+    [ "PrepareAuraScript", "d8/d89/a19894.html#a921b2f67c417244310398bd93061d61c", null ],
+    [ "Register", "d8/d89/a19894.html#ab21972706bae9fdc3fc6859da2f3f63e", null ]
 ];

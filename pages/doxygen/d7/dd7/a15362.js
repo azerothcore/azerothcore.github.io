@@ -1,6 +1,6 @@
 var a15362 =
 [
-    [ "npc_draenei_survivorAI", "d8/dab/a15366.html", "d8/dab/a15366" ],
-    [ "npc_draenei_survivor", "d7/dd7/a15362.html#a1dca668a7c3f868677a9bf306288430c", null ],
-    [ "GetAI", "d7/dd7/a15362.html#aa8dde30279bb898a4412491faca79267", null ]
+    [ "Creature", "d7/dd7/a15362.html#a77b33f8998f85808b58052079b1cab54", null ],
+    [ "TextId", "d7/dd7/a15362.html#ad691f3cd40035e96547adf7528229119", null ],
+    [ "Timer", "d7/dd7/a15362.html#accfccceaedffb3ad4d02231fb0bfeee5", null ]
 ];

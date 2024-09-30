@@ -1,13 +1,18 @@
 var a09186 =
 [
-    [ "ParallelogramBoundary", "df/d6c/a09186.html#ace1e1ffbcb84343ca2641541fe000691", null ],
-    [ "IsWithinBoundaryArea", "df/d6c/a09186.html#af29e70a9febaa9d80d0ce7223e2c6fc3", null ],
-    [ "_a", "df/d6c/a09186.html#ad81a1a1f4e82de0e7a31bf13a87bac2b", null ],
-    [ "_abx", "df/d6c/a09186.html#a855c7ea39698f7dac80d72ea6962e9c7", null ],
-    [ "_aby", "df/d6c/a09186.html#ad81b9baeb70d5856ea8cdd3f787abf29", null ],
-    [ "_b", "df/d6c/a09186.html#a9d5d06cc3673f89644e45e62f96510db", null ],
-    [ "_c", "df/d6c/a09186.html#a6c19d4ed0a1c1b6ff042c4bbd64f0a8a", null ],
-    [ "_d", "df/d6c/a09186.html#a5214ac0f79f1d90492a77fbd251d1361", null ],
-    [ "_dax", "df/d6c/a09186.html#aab72030dfa3dd4e4bef03180bd0a306c", null ],
-    [ "_day", "df/d6c/a09186.html#a3b3e3993d09af62bae7fbfe65f6d641a", null ]
+    [ "GroupContainer", "df/d6c/a09186.html#a417c5798d50cac5c1bc5b0eae13945cc", null ],
+    [ "GroupIds", "df/d6c/a09186.html#ad3a9005c50a5957d3f47adf60624b9aa", null ],
+    [ "GroupMgr", "df/d6c/a09186.html#a663dbeb2e20161d8d6cf72f322c05f0e", null ],
+    [ "~GroupMgr", "df/d6c/a09186.html#ad5a5efeed7f78146983611c2349c111f", null ],
+    [ "AddGroup", "df/d6c/a09186.html#abb97c613417573dc4cafa117065e7cf8", null ],
+    [ "GenerateGroupId", "df/d6c/a09186.html#ad881433a3836a70e44734bde5a1afc6f", null ],
+    [ "GetGroupByGUID", "df/d6c/a09186.html#a2af93882e217f762df95ba21af191c89", null ],
+    [ "InitGroupIds", "df/d6c/a09186.html#a6881453ec34dc2d9416069a87b1a3234", null ],
+    [ "instance", "df/d6c/a09186.html#a1b7275cfd70d46216df8c353e70d64c8", null ],
+    [ "LoadGroups", "df/d6c/a09186.html#ab8548ce88b015ae3040cd5f2cd7b1990", null ],
+    [ "RegisterGroupId", "df/d6c/a09186.html#a8bface2b6600801ebcd1cbb9070ec3ef", null ],
+    [ "RemoveGroup", "df/d6c/a09186.html#a654b7c795c9c3d77a7a39bce58dec2c7", null ],
+    [ "_groupIds", "df/d6c/a09186.html#af260c73ba61242f741103bdfe6d6fb9e", null ],
+    [ "_nextGroupId", "df/d6c/a09186.html#a4e41d7444f8b7d3dbb54569be80b65f9", null ],
+    [ "GroupStore", "df/d6c/a09186.html#ae897c661dd4b185d205c3a12d17ccb2b", null ]
 ];

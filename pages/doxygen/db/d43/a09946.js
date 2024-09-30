@@ -1,6 +1,6 @@
 var a09946 =
 [
-    [ "PlayedTimeClient", "db/d43/a09946.html#a1c82d4d153606da9887d64599f319883", null ],
-    [ "Read", "db/d43/a09946.html#a0d25fccc9fb4fdaa5ba3bb11851a14f3", null ],
-    [ "TriggerScriptEvent", "db/d43/a09946.html#a092b32f76df529a4f1284d7231b8fc6b", null ]
+    [ "AreaTriggerScript", "db/d43/a09946.html#a478e4dee0f4211af9be6ea448d4e6c89", null ],
+    [ "IsDatabaseBound", "db/d43/a09946.html#ac5234a2cd020cd8f90b6d19c28ad46ae", null ],
+    [ "OnTrigger", "db/d43/a09946.html#abb6cdada718e9fad7da98fbb667c6d53", null ]
 ];

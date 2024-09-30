@@ -1,6 +1,7 @@
 var a11910 =
 [
-    [ "spell_summon_ragnaros_SpellScript", "d8/d78/a11914.html", "d8/d78/a11914" ],
-    [ "spell_summon_ragnaros", "d4/da7/a11910.html#a815b56bc7e089326719eec99d507ae4d", null ],
-    [ "GetSpellScript", "d4/da7/a11910.html#aa3efecd9aac94c6977949e855ac4108e", null ]
+    [ "boss_ebonrocAI", "d4/da7/a11910.html#a73be20fda4e3f8cb7623796f3c32d741", null ],
+    [ "JustEngagedWith", "d4/da7/a11910.html#a2c74e0030b1093d79245978939043d53", null ],
+    [ "MovementInform", "d4/da7/a11910.html#ac1e16bb5ac18b55fbfb8af5078df270f", null ],
+    [ "UpdateAI", "d4/da7/a11910.html#aa2059c3834fbcfda3c8da5743bd2501f", null ]
 ];

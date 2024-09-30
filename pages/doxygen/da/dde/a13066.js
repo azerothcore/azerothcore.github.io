@@ -1,6 +1,6 @@
 var a13066 =
 [
-    [ "spell_kalecgos_spectral_realm_dummy_SpellScript", "d1/d06/a13070.html", "d1/d06/a13070" ],
-    [ "spell_kalecgos_spectral_realm_dummy", "da/dde/a13066.html#a24771d6913e4a0e341e09fd77ef13cf6", null ],
-    [ "GetSpellScript", "da/dde/a13066.html#a3b882da8c6d8670c0a57f1ee11e29e9a", null ]
+    [ "SpectralBlastCheck", "da/dde/a13066.html#ada2eda8781891a4049ee30c5ecb81c3c", null ],
+    [ "operator()", "da/dde/a13066.html#afbe13a5f90a5b95832e14fe9d7affc9f", null ],
+    [ "_victim", "da/dde/a13066.html#ab96456159d61e781aa8d691dd0b1fec1", null ]
 ];

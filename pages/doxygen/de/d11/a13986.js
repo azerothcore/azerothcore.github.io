@@ -1,6 +1,6 @@
 var a13986 =
 [
-    [ "boss_mandokirAI", "d7/de6/a13990.html", "d7/de6/a13990" ],
-    [ "boss_mandokir", "de/d11/a13986.html#aad13c8302cef7fb4981f0d2178630def", null ],
-    [ "GetAI", "de/d11/a13986.html#a215842d5ab23824ec20db64e2fa4407e", null ]
+    [ "npc_brewfest_keg_thrower", "de/d11/a13986.html#a29da1efd21fe6737684607e5b360ea84", null ],
+    [ "CanBeSeen", "de/d11/a13986.html#a36212d0f17c0070d3ef3cc25577ff7b9", null ],
+    [ "MoveInLineOfSight", "de/d11/a13986.html#a3938b0e63553e79302ba966c6cdcf9be", null ]
 ];

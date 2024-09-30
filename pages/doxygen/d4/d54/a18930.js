@@ -1,6 +1,6 @@
 var a18930 =
 [
-    [ "HandleInfusion", "d4/d54/a18930.html#a55dcadcfeaa8f740d974576ee2a0f268", null ],
-    [ "PrepareSpellScript", "d4/d54/a18930.html#a972750817e3da3f32df03063f4efcbf4", null ],
-    [ "Register", "d4/d54/a18930.html#a2b43eefb8d7774bb3b5cfe35785ed062", null ]
+    [ "boss_kelthuzad_minionAI", "d1/d48/a18934.html", "d1/d48/a18934" ],
+    [ "boss_kelthuzad_minion", "d4/d54/a18930.html#a4c6d430035c964b4063139c0cda6bfff", null ],
+    [ "GetAI", "d4/d54/a18930.html#ab951068fedced148653ebf9124ba5e3d", null ]
 ];

@@ -1,6 +1,6 @@
 var a13906 =
 [
-    [ "boss_hakkarAI", "d6/d21/a13910.html", "d6/d21/a13910" ],
-    [ "boss_hakkar", "d8/d41/a13906.html#a834bd1f223154fbf1be94bf43136da28", null ],
-    [ "GetAI", "d8/d41/a13906.html#aff3a089e30dcddfde4db372104153723", null ]
+    [ "OnRemove", "d8/d41/a13906.html#abc6d916a2bebd7995cbdb4a603d9831a", null ],
+    [ "PrepareAuraScript", "d8/d41/a13906.html#ac90c6f7806a24f21cac4cbf2a64d0b57", null ],
+    [ "Register", "d8/d41/a13906.html#a7457949331552492cf6df83737729a08", null ]
 ];

@@ -1,6 +1,6 @@
 var a21242 =
 [
-    [ "CheckCast", "d7/dbb/a21242.html#aa9f8fd28e208c528dfb6ab754ff21a41", null ],
-    [ "PrepareSpellScript", "d7/dbb/a21242.html#ad9f4f98746dc66fb5050c1b6ca28f891", null ],
-    [ "Register", "d7/dbb/a21242.html#a9822b1332065a93ff3bc929e41715552", null ]
+    [ "npc_frozen_orb_stalkerAI", "d7/dbb/a21242.html#afd8d187ecbf508d02824d1ff8f3cb5cf", null ],
+    [ "JustSummoned", "d7/dbb/a21242.html#a73d7d5e55d2a00c9aee6f595e2678b17", null ],
+    [ "Reset", "d7/dbb/a21242.html#a064ccb90afeb9b36d501850482c60bc4", null ]
 ];

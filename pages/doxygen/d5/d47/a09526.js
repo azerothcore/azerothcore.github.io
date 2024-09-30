@@ -1,12 +1,19 @@
 var a09526 =
 [
-    [ "FacingInfo", "d5/d47/a09526.html#a1ac825c359704924c66e46eada64e34e", null ],
-    [ "FacingInfo", "d5/d47/a09526.html#a7820b3ce134dcca05b9b15299eb3b33f", null ],
-    [ "FacingInfo", "d5/d47/a09526.html#add6411db27c1d313d2f133adf0c35755", null ],
-    [ "angle", "d5/d47/a09526.html#ac56b304c2c5df7ab72c6fcbd2f845b02", null ],
-    [ "f", "d5/d47/a09526.html#a4410d47ebc3c9818f57747712b836ae9", null ],
-    [ "target", "d5/d47/a09526.html#a064b5265b4bb2a0053908bf6031b8f65", null ],
-    [ "x", "d5/d47/a09526.html#ac08687158cc0bcfbc9814b1cbbe95684", null ],
-    [ "y", "d5/d47/a09526.html#ad7fcfb6b1c5402a0570748d343eadfcc", null ],
-    [ "z", "d5/d47/a09526.html#a5ff017b732d47684f675041e44227754", null ]
+    [ "InstancedMaps", "d5/d47/a09526.html#a2d08c599bf826c4c98aaa9109e3b7a57", null ],
+    [ "MapInstanced", "d5/d47/a09526.html#af30e91e40c171ddbf7400f310283c43c", null ],
+    [ "~MapInstanced", "d5/d47/a09526.html#aa27d6f90288f23d34117c7d68160e04c", null ],
+    [ "CannotEnter", "d5/d47/a09526.html#a29f973e3e4bdfcfb0ea9bf6639b38108", null ],
+    [ "CreateBattleground", "d5/d47/a09526.html#ad57ef8f1654b494b8c20f6af461653f4", null ],
+    [ "CreateInstance", "d5/d47/a09526.html#ad83d8860fcc67f41208f73f7938eb513", null ],
+    [ "CreateInstanceForPlayer", "d5/d47/a09526.html#a9151fb7f7438abddf7aa17d015c600ab", null ],
+    [ "DelayedUpdate", "d5/d47/a09526.html#a8f58a4c872089f8fce60ddc31623611e", null ],
+    [ "DestroyInstance", "d5/d47/a09526.html#aaff2d76ae18bb7416e0cc8c16e0375d7", null ],
+    [ "FindInstanceMap", "d5/d47/a09526.html#a6ec8d0547ce589613f53a2c8d0f4a7fa", null ],
+    [ "GetInstancedMaps", "d5/d47/a09526.html#aff2cc0a1f57f06ead9a3e999c1c7dba0", null ],
+    [ "InitVisibilityDistance", "d5/d47/a09526.html#a29380bc11b3e33278338bcff32b3cbec", null ],
+    [ "UnloadAll", "d5/d47/a09526.html#a7fb86dd2f4b60721aabf3923c461f1fc", null ],
+    [ "Update", "d5/d47/a09526.html#a0fce5af3a96e35e9cbe44d73bac8b2df", null ],
+    [ "MapMgr", "d5/d47/a09526.html#ae6ac74470769d45e3c75291134ab77df", null ],
+    [ "m_InstancedMaps", "d5/d47/a09526.html#a655e624aad00ec0345aa17ce635666bf", null ]
 ];

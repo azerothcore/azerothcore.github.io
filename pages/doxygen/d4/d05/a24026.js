@@ -1,9 +1,7 @@
 var a24026 =
 [
-    [ "npc_finklesteinAI", "df/d4b/a24030.html", "df/d4b/a24030" ],
-    [ "npc_finklestein", "d4/d05/a24026.html#aa719b4bb95012c22ef8123e255e32edd", null ],
-    [ "GetAI", "d4/d05/a24026.html#a1f0d91d2a50aca9d0496b6bd03986c8e", null ],
-    [ "OnGossipHello", "d4/d05/a24026.html#ac82d5e5dc2e0539c90dfcfe17430548c", null ],
-    [ "OnGossipSelect", "d4/d05/a24026.html#a7a744207e8f43672f0e6bf2354186ec4", null ],
-    [ "OnQuestAccept", "d4/d05/a24026.html#a94291aa98e35552bc7d722ddf2a83af2", null ]
+    [ "npc_creditmarker_visit_with_ancestorsAI", "d4/d05/a24026.html#a483e8fb0d73561e34a1078fdde1a1b5b", null ],
+    [ "JustEngagedWith", "d4/d05/a24026.html#a4038d707731f64f588e307c22c859902", null ],
+    [ "MoveInLineOfSight", "d4/d05/a24026.html#a40d92122cd4f879f52ff78a4f172c3b8", null ],
+    [ "Reset", "d4/d05/a24026.html#a29132346f117ba785039057619edb9e7", null ]
 ];

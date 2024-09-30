@@ -1,6 +1,6 @@
 var a20866 =
 [
-    [ "HandlePeriodic", "da/d1f/a20866.html#ab5b40a314587709a565aef2f32591648", null ],
-    [ "PrepareAuraScript", "da/d1f/a20866.html#aa4076c68bb6c36a55a49f37c254000dd", null ],
-    [ "Register", "da/d1f/a20866.html#a8f8aceb1fe692fa558d391ec48f03860", null ]
+    [ "OnEffect", "da/d1f/a20866.html#aa24cfd6feec65f466e74c68484815c1e", null ],
+    [ "PrepareSpellScript", "da/d1f/a20866.html#a648fb610fb1914efac7f2cb6e1bb4290", null ],
+    [ "Register", "da/d1f/a20866.html#ac1c0076665edc6a2b3a0228340020a1e", null ]
 ];

@@ -1,6 +1,7 @@
 var a21818 =
 [
-    [ "npc_ulduar_rocket_strike_triggerAI", "d5/d77/a21822.html", "d5/d77/a21822" ],
-    [ "npc_ulduar_rocket_strike_trigger", "da/d9d/a21818.html#a41cc84b04124bb47c24b39a48c9023b1", null ],
-    [ "GetAI", "da/d9d/a21818.html#a7715ce6646efa3728c28c4e11b25c2ed", null ]
+    [ "HandleDummy", "da/d9d/a21818.html#ae180aea347e73fcce44e9ac3ff33d0ce", null ],
+    [ "PrepareSpellScript", "da/d9d/a21818.html#a9d863ad1d44a9d5dc2b212ef0c414626", null ],
+    [ "Register", "da/d9d/a21818.html#a45f80e0436f93a597deb4653852df6a1", null ],
+    [ "Validate", "da/d9d/a21818.html#ad13fdade1fb7455485bfd68687de53c5", null ]
 ];

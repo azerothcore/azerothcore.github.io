@@ -1,6 +1,7 @@
 var a27522 =
 [
-    [ "HandleSummon", "da/dcd/a27522.html#ad1ee0eb347454d50216610a266226d68", null ],
-    [ "PrepareSpellScript", "da/dcd/a27522.html#a15a545ee3ec4a926f1330ce0ad975d3e", null ],
-    [ "Register", "da/dcd/a27522.html#aa145041af68291f107c3ff11ce15b85e", null ]
+    [ "npc_sayge", "da/dcd/a27522.html#a5b75c459665ece26cee5dbffcc0fc8ff", null ],
+    [ "OnGossipHello", "da/dcd/a27522.html#ad069e6cc7fe5271c3474c8bcf537cf4c", null ],
+    [ "OnGossipSelect", "da/dcd/a27522.html#aa049b4514fc2d18508d8d4f9b6616c99", null ],
+    [ "SendAction", "da/dcd/a27522.html#aed1988335672423d024546654aa95298", null ]
 ];

@@ -1,6 +1,6 @@
 var a23802 =
 [
-    [ "npc_vics_flying_machineAI", "de/d93/a23806.html", "de/d93/a23806" ],
-    [ "npc_vics_flying_machine", "d8/d76/a23802.html#ac0f1e83a9f53f1e38e81804f0332e3fd", null ],
-    [ "GetAI", "d8/d76/a23802.html#aac2a7cabd2e87705e9a1b3bfebb89eae", null ]
+    [ "HandlePeriodic", "d8/d76/a23802.html#a0a6da7aad8b7fcc92092f7a3c5bc0768", null ],
+    [ "PrepareAuraScript", "d8/d76/a23802.html#a75d72d196ded2ee109d0231d4342890a", null ],
+    [ "Register", "d8/d76/a23802.html#a148013ea68bbc573bddc1c3639dba019", null ]
 ];

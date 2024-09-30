@@ -1,14 +1,7 @@
 var a22798 =
 [
-    [ "boss_erekemAI", "d7/dd0/a22798.html#aedf10fef3f0f2ac6797efa5f5a809f4a", null ],
-    [ "EnterEvadeMode", "d7/dd0/a22798.html#a2c9f8f444b3b28d5cfdbaa234e9d76ee", null ],
-    [ "GetChainHealTargetGUID", "d7/dd0/a22798.html#aa346cbaded883bbb3806acf9cb32579a", null ],
-    [ "JustDied", "d7/dd0/a22798.html#a12e7fb5389977dcacb4e1eadda771467", null ],
-    [ "JustEngagedWith", "d7/dd0/a22798.html#ad380838dbb6c2a3488fa57f2999e137c", null ],
-    [ "KilledUnit", "d7/dd0/a22798.html#a120a2c9a6af821ce9a5e68dbab6e800d", null ],
-    [ "MoveInLineOfSight", "d7/dd0/a22798.html#a5905809cba20d426c4d222b1e91055bc", null ],
-    [ "Reset", "d7/dd0/a22798.html#a338bbc123b1d3adef4f014c3302c4590", null ],
-    [ "UpdateAI", "d7/dd0/a22798.html#a234ae447260ae30a137a53fb986e5dc4", null ],
-    [ "events", "d7/dd0/a22798.html#a8d4445b6d35f534061818f7708f39f7e", null ],
-    [ "pInstance", "d7/dd0/a22798.html#aa68ece744a21ed2ef8d3e7c4b4081d8e", null ]
+    [ "PrepareAuraScript", "d7/dd0/a22798.html#ae6879f1d8c27f19cf3e3ada0b34d568f", null ],
+    [ "ReflectDamage", "d7/dd0/a22798.html#acde2cbf4d196cba1fa2c02393c08fe9f", null ],
+    [ "Register", "d7/dd0/a22798.html#aa1f27d25209f14dd8bf711bc15cb9165", null ],
+    [ "Validate", "d7/dd0/a22798.html#aa730b912aadcde53f6cd94c2a8c99493", null ]
 ];

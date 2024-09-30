@@ -1,7 +1,8 @@
 var a09094 =
 [
-    [ "LootGroupInvalidSelector", "d2/d3e/a09094.html#abea815e8ee0d31cc64b3fd7f46033cca", null ],
-    [ "operator()", "d2/d3e/a09094.html#a2ea426fdeced03324c4a63184c2c1fc4", null ],
-    [ "_loot", "d2/d3e/a09094.html#a67b9d223426512af79bbf5b035c18a6d", null ],
-    [ "_lootMode", "d2/d3e/a09094.html#a10e307846a0731aa812388c29c0d4bc8", null ]
+    [ "AllGameObjectsWithEntryInRange", "d2/d3e/a09094.html#ab5a57e9a5f8b927b28f1fc9d6f6fce56", null ],
+    [ "operator()", "d2/d3e/a09094.html#a342aa18d98413620fce4c676fcf75305", null ],
+    [ "m_fRange", "d2/d3e/a09094.html#a7cce16670c95c19f3eb68e5914160513", null ],
+    [ "m_pObject", "d2/d3e/a09094.html#a5c898c20992999f11204aab6479d71f6", null ],
+    [ "m_uiEntry", "d2/d3e/a09094.html#a64ff0c14c71e218b8f9a8888b1017fec", null ]
 ];

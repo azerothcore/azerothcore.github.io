@@ -1,7 +1,6 @@
 var a15042 =
 [
-    [ "go_sand_trap", "db/dbf/a15042.html#a58d45acac672cb05988ddca78185b469", null ],
-    [ "Reset", "db/dbf/a15042.html#a7071a3e420e9137ca133b471bc217bf3", null ],
-    [ "UpdateAI", "db/dbf/a15042.html#a2e4a5fec4d4c790233ca97e6a7732ac4", null ],
-    [ "_scheduler", "db/dbf/a15042.html#af845c0efb3d8ebe53d3620970a84f1e4", null ]
+    [ "instance_temple_of_ahnqiraj_InstanceMapScript", "de/da5/a15046.html", "de/da5/a15046" ],
+    [ "instance_temple_of_ahnqiraj", "db/dbf/a15042.html#a316c5e2cac59f2ee2520fba1b97407e3", null ],
+    [ "GetInstanceScript", "db/dbf/a15042.html#a9e3060d9f2188f410da8aa3e9526e79d", null ]
 ];

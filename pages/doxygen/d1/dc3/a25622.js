@@ -1,5 +1,6 @@
 var a25622 =
 [
-    [ "modelId", "d1/dc3/a25622.html#a6a7f030a6445a46fe55640356e9c5124", null ],
-    [ "spellId", "d1/dc3/a25622.html#a6cfbffba97934cc420964f9b6d7645a3", null ]
+    [ "HandleEffectApply", "d1/dc3/a25622.html#a9e8b226f3ebb33c47de584850643994f", null ],
+    [ "PrepareAuraScript", "d1/dc3/a25622.html#a30b74d44bb81a04ea1cfe1b6d5f926c7", null ],
+    [ "Register", "d1/dc3/a25622.html#a1d3d32c057877b5cf00f5970e583c25e", null ]
 ];

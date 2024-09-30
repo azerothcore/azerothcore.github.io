@@ -1,8 +1,7 @@
 var a12326 =
 [
-    [ "npc_barnesAI", "d1/d55/a12330.html", "d1/d55/a12330" ],
-    [ "npc_barnes", "d7/def/a12326.html#aacdc737a94397a90b48b635293fe9c80", null ],
-    [ "GetAI", "d7/def/a12326.html#a4e349ede566d9be90b82e7ebd9d71de3", null ],
-    [ "OnGossipHello", "d7/def/a12326.html#a47cafa3628d2ca99582140f2a72ff8db", null ],
-    [ "OnGossipSelect", "d7/def/a12326.html#aa04d577e318f16f581f82761b6014eb5", null ]
+    [ "npc_malchezaar_axe", "d7/def/a12326.html#a1a5615f2def10add30e7917b770ebc74", null ],
+    [ "Initialize", "d7/def/a12326.html#a078e7f0997c026b73a4e0ab8a1c209b8", null ],
+    [ "JustEngagedWith", "d7/def/a12326.html#a4a9f90e66359b304622d4f79653f9fd0", null ],
+    [ "UpdateAI", "d7/def/a12326.html#a202ba6922a426f87909eefbccd070175", null ]
 ];

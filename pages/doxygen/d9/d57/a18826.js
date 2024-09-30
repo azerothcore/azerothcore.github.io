@@ -1,6 +1,6 @@
 var a18826 =
 [
-    [ "FilterTargets", "d9/d57/a18826.html#ad044eb9e63eb147e5ea64408a611489e", null ],
-    [ "PrepareSpellScript", "d9/d57/a18826.html#addf06ce8b29374b925985e0656c8d73a", null ],
-    [ "Register", "d9/d57/a18826.html#ae8351cd6f679b9ca7ee763ceebef5f7e", null ]
+    [ "boss_faerlinaAI", "de/dd3/a18830.html", "de/dd3/a18830" ],
+    [ "boss_faerlina", "d9/d57/a18826.html#a86543ac855287e3de2e3ffcde66fb1cb", null ],
+    [ "GetAI", "d9/d57/a18826.html#aed8214323ff5b792d9bd6aae478e7848", null ]
 ];

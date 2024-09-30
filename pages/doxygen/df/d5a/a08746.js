@@ -1,8 +1,12 @@
 var a08746 =
 [
-    [ "AnyUnfriendlyUnitInObjectRangeCheck", "df/d5a/a08746.html#a2d83b68a7991d3b3dc2355ecde1efa5d", null ],
-    [ "operator()", "df/d5a/a08746.html#a5b02b45b937d6b2b0b141967c70f93d9", null ],
-    [ "i_funit", "df/d5a/a08746.html#a55222acf6dbb538a213eb604f67f40ce", null ],
-    [ "i_obj", "df/d5a/a08746.html#a5d7e5e8898bd092c1055739fae82f693", null ],
-    [ "i_range", "df/d5a/a08746.html#aa1c728ceea2ddc2e88ea07132a3fe250", null ]
+    [ "IsTeamAward1", "df/d5a/a08746.html#a25f928a8f8c3a19b1aa9a5c41b0ba612", null ],
+    [ "IsTeamAward2", "df/d5a/a08746.html#a053bd7825d0464ac322b449f3d243722", null ],
+    [ "RepFaction1", "df/d5a/a08746.html#a4e75bb4149f8bb0b83a5aacba47800dd", null ],
+    [ "RepFaction2", "df/d5a/a08746.html#a5934590811c666d06b68216428574d8a", null ],
+    [ "ReputationMaxCap1", "df/d5a/a08746.html#a292b78f629723c3993a796eb256dd9b8", null ],
+    [ "ReputationMaxCap2", "df/d5a/a08746.html#ac90d17e82d6c8a763d3ea868250b44a7", null ],
+    [ "RepValue1", "df/d5a/a08746.html#a4c5f965e028c45d6ad4d5875f76b2458", null ],
+    [ "RepValue2", "df/d5a/a08746.html#a74f46afc59593d7ae71ab65aa9e1f1c2", null ],
+    [ "TeamDependent", "df/d5a/a08746.html#a66e60a90f166e5fc12ea4dbe615c998f", null ]
 ];

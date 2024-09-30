@@ -1,17 +1,12 @@
 var a07010 =
 [
-    [ "HasFlag", "db/d66/a07010.html#a23315bfbd0748f82c948051697079c24", null ],
-    [ "IsModerator", "db/d66/a07010.html#af664dc84e5a60301c4fce6fda8971062", null ],
-    [ "IsMuted", "db/d66/a07010.html#a5d1e0f8e424033e34338940677ca054c", null ],
-    [ "IsOwner", "db/d66/a07010.html#a4687757cb7df9778f0f5eb67714c917c", null ],
-    [ "IsOwnerGM", "db/d66/a07010.html#ad4e1573168c91372dc4af2847d4ad454", null ],
-    [ "SetFlag", "db/d66/a07010.html#a9cb5a3ce70a2afcc553992f4a65b80e1", null ],
-    [ "SetModerator", "db/d66/a07010.html#a0a0cbaa77040171b7b50f89914946a8a", null ],
-    [ "SetMuted", "db/d66/a07010.html#adf989acef0b1e53a9dc2d3210db646b7", null ],
-    [ "SetOwner", "db/d66/a07010.html#aac6a9ea0bf478901e62c729ac6a3e9cd", null ],
-    [ "SetOwnerGM", "db/d66/a07010.html#a2e4be6dfb921ad07ebd0de3abb81f5e4", null ],
-    [ "_gmStatus", "db/d66/a07010.html#a15686cee4d1d0d8f39c13341bc9df624", null ],
-    [ "flags", "db/d66/a07010.html#ae9ed61476c5f13dddf4aa5e98fe8c5c4", null ],
-    [ "player", "db/d66/a07010.html#afba1915e2dd4109928180e33884b8412", null ],
-    [ "plrPtr", "db/d66/a07010.html#a5c986d75e173cc42160143ae7621ab6b", null ]
+    [ "Arena", "db/d66/a07010.html#a74f105bc709d4728fb07f1984abfd345", null ],
+    [ "AddPlayer", "db/d66/a07010.html#ae24fe304d35c0c09379203135e936450", null ],
+    [ "CheckWinConditions", "db/d66/a07010.html#a886b586f7ab6fc89d76e86cb811989b8", null ],
+    [ "EndBattleground", "db/d66/a07010.html#a2be61602189b530a16a9ca954d180914", null ],
+    [ "FillInitialWorldStates", "db/d66/a07010.html#a41e53f03488058fb635e42b525db5068", null ],
+    [ "HandleKillPlayer", "db/d66/a07010.html#ae0a56f524bfc9eec6753874ce35d0466", null ],
+    [ "RemovePlayer", "db/d66/a07010.html#ab5348b8bd4bfd58c01cdf61f16f72db1", null ],
+    [ "RemovePlayerAtLeave", "db/d66/a07010.html#acae21233e11b21b612e5c051bfa7720e", null ],
+    [ "UpdateArenaWorldState", "db/d66/a07010.html#a422925ee29e9a5f64aeb4264169ff2d6", null ]
 ];

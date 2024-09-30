@@ -1,12 +1,11 @@
 var a08486 =
 [
-    [ "IsTeamAward1", "d4/de6/a08486.html#a25f928a8f8c3a19b1aa9a5c41b0ba612", null ],
-    [ "IsTeamAward2", "d4/de6/a08486.html#a053bd7825d0464ac322b449f3d243722", null ],
-    [ "RepFaction1", "d4/de6/a08486.html#a4e75bb4149f8bb0b83a5aacba47800dd", null ],
-    [ "RepFaction2", "d4/de6/a08486.html#a5934590811c666d06b68216428574d8a", null ],
-    [ "ReputationMaxCap1", "d4/de6/a08486.html#a292b78f629723c3993a796eb256dd9b8", null ],
-    [ "ReputationMaxCap2", "d4/de6/a08486.html#ac90d17e82d6c8a763d3ea868250b44a7", null ],
-    [ "RepValue1", "d4/de6/a08486.html#a4c5f965e028c45d6ad4d5875f76b2458", null ],
-    [ "RepValue2", "d4/de6/a08486.html#a74f46afc59593d7ae71ab65aa9e1f1c2", null ],
-    [ "TeamDependent", "d4/de6/a08486.html#a66e60a90f166e5fc12ea4dbe615c998f", null ]
+    [ "SpellPeriodicAuraLogInfo", "d4/de6/a08486.html#a3c3c5908556cf765c5cbba3ca7034ae9", null ],
+    [ "absorb", "d4/de6/a08486.html#af69ed83578024b979dc9d65ff5ddc83b", null ],
+    [ "auraEff", "d4/de6/a08486.html#ae69913fad91a8e5b140c206d2c5733e0", null ],
+    [ "critical", "d4/de6/a08486.html#a51041b901727b4f595d2a886520626ff", null ],
+    [ "damage", "d4/de6/a08486.html#aa3839fed2e3de0f7a01ad209eec2bdcd", null ],
+    [ "multiplier", "d4/de6/a08486.html#a26b18592b0aebbdc6a00e8f91fd2a75a", null ],
+    [ "overDamage", "d4/de6/a08486.html#a51904be3790c99bded697b2cf7c8db23", null ],
+    [ "resist", "d4/de6/a08486.html#a5cb7dbeeb9d28037771a2f235a95e0fe", null ]
 ];

@@ -1,6 +1,6 @@
 var a17326 =
 [
-    [ "boss_garfrostAI", "d9/da1/a17330.html", "d9/da1/a17330" ],
-    [ "boss_garfrost", "d1/d6d/a17326.html#ac116491cf252ee476cedee55ea292827", null ],
-    [ "GetAI", "d1/d6d/a17326.html#a8a67bb09249655a8706868bb26b5124d", null ]
+    [ "PrepareAuraScript", "d1/d6d/a17326.html#abbcd0a9a63908a875bcdbc66fb5e1218", null ],
+    [ "RecalculateHook", "d1/d6d/a17326.html#a829e96cabbb565922f7183adb3edf13c", null ],
+    [ "Register", "d1/d6d/a17326.html#a7ded7cbe8c5cbffd6798bbb66d8a5d1a", null ]
 ];

@@ -1,6 +1,6 @@
 var a17598 =
 [
-    [ "HandleScriptEffect", "db/d81/a17598.html#a70c738381f2bba2f7cd995c31154ebb8", null ],
-    [ "PrepareSpellScript", "db/d81/a17598.html#aa8ad71522d452c90b653c3093608dabc", null ],
-    [ "Register", "db/d81/a17598.html#ac2cacccb68b963c04c654c13ce8b52ca", null ]
+    [ "npc_cult_fanaticAI", "d8/dd6/a17602.html", "d8/dd6/a17602" ],
+    [ "npc_cult_fanatic", "db/d81/a17598.html#af29ab8f7628b96b0f192bccab74ca02e", null ],
+    [ "GetAI", "db/d81/a17598.html#ae4d22bac12d17d79669d3fccd4029952", null ]
 ];

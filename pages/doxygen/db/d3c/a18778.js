@@ -1,6 +1,6 @@
 var a18778 =
 [
-    [ "spell_sindragosa_permeating_chill_AuraScript", "d5/db7/a18782.html", "d5/db7/a18782" ],
-    [ "spell_sindragosa_permeating_chill", "db/d3c/a18778.html#a65e91f85fa3aafbfceeb84fcf7658a7b", null ],
-    [ "GetAuraScript", "db/d3c/a18778.html#a205bf9e8d20d3b3b8f958a9b2374c80a", null ]
+    [ "npc_four_car_garageAI", "db/d3c/a18778.html#a2eedf5934e12d33cda0ac173d82220d5", null ],
+    [ "JustDied", "db/d3c/a18778.html#a1fba9f03dca2db37b5cb969079b25d22", null ],
+    [ "PassengerBoarded", "db/d3c/a18778.html#a144bc36a5c4ff227c8a7dc146d4167b6", null ]
 ];

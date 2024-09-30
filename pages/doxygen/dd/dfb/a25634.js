@@ -1,7 +1,7 @@
 var a25634 =
 [
-    [ "boss_warp_splinter", "dd/dfb/a25634.html#a1d0e8720baaadd1f6f4f6026597c9f63", null ],
-    [ "JustDied", "dd/dfb/a25634.html#a7e7850cf545e57f9fcd8d1aff42f8eb3", null ],
-    [ "JustEngagedWith", "dd/dfb/a25634.html#afc05b2f366e518d5e9ea3fbbfcba05cc", null ],
-    [ "KilledUnit", "dd/dfb/a25634.html#a0e974eb2bfae50383040fe9c7ccf74c1", null ]
+    [ "HandleDummy", "dd/dfb/a25634.html#a3f9d43d11b344e3eb02fdc088506008e", null ],
+    [ "PrepareSpellScript", "dd/dfb/a25634.html#a1fb13b562c5d4f905739e193bc5292dd", null ],
+    [ "Register", "dd/dfb/a25634.html#a581e04721eb9564d1300ddd78c805368", null ],
+    [ "Validate", "dd/dfb/a25634.html#a18a648ebf1dbc9a11d09e457a33d0e33", null ]
 ];

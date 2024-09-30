@@ -1,6 +1,5 @@
 var a23310 =
 [
-    [ "npc_q24545_lich_kingAI", "df/da3/a23314.html", "df/da3/a23314" ],
-    [ "npc_q24545_lich_king", "de/d5b/a23310.html#a1864564dee4f66f1b29850b8b0f6fa29", null ],
-    [ "GetAI", "de/d5b/a23310.html#aade5ad8ba215d0571185596aa40cf9b2", null ]
+    [ "at_quagmirran_lair", "de/d5b/a23310.html#a1f8cb1f59e7a179d9e4a987f716ab26f", null ],
+    [ "OnTrigger", "de/d5b/a23310.html#aa0aab42516efaf842923b8a820942ac4", null ]
 ];

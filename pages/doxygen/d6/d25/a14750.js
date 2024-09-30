@@ -1,13 +1,16 @@
 var a14750 =
 [
-    [ "boss_infinite_corruptorAI", "d6/d25/a14750.html#add36192941eaabf7f3d1d41c572783bd", null ],
-    [ "DoAction", "d6/d25/a14750.html#a8ff0a9731ad7bc118a1014bdbb0e1daf", null ],
-    [ "JustDied", "d6/d25/a14750.html#a6d2f445bf0819ac644d7de14d3b7034d", null ],
-    [ "JustEngagedWith", "d6/d25/a14750.html#a644725505db4fc7a98c4255d0eb34616", null ],
-    [ "JustSummoned", "d6/d25/a14750.html#a2b12c03184b169a56a0e6696a107dc35", null ],
-    [ "Reset", "d6/d25/a14750.html#a4dbff495bfcda6fb715dec68616e1764", null ],
-    [ "UpdateAI", "d6/d25/a14750.html#aaa0a45066ab7ad7d5a7543822d399947", null ],
-    [ "beamTimer", "d6/d25/a14750.html#a2f8048e591a818f073a65bfcfa49e66c", null ],
-    [ "events", "d6/d25/a14750.html#a5491db8f5e063ca84f18f1ca63c1e846", null ],
-    [ "summons", "d6/d25/a14750.html#aa5de5f986f8a6d3ba5f3aad84422eab6", null ]
+    [ "npc_belnistraszAI", "d6/d25/a14750.html#ac57c5de9140d8d37b15b4a30f4ffc0a1", null ],
+    [ "JustDied", "d6/d25/a14750.html#aece63cabcfb2bcf54992dc2b4832ca92", null ],
+    [ "JustEngagedWith", "d6/d25/a14750.html#ab03f29b1f76b7d67e7d7bb3407e2cd41", null ],
+    [ "MovementInform", "d6/d25/a14750.html#ae64e10d0cc860bf033b76538455b9f8e", null ],
+    [ "Reset", "d6/d25/a14750.html#aecf1ef9b7f6eecec9489d27ce41deea2", null ],
+    [ "sQuestAccept", "d6/d25/a14750.html#aa18258b7f80c040d6a5fb9fbbb321efe", null ],
+    [ "UpdateAI", "d6/d25/a14750.html#a45481c2ef18ab3fec727813de96eb1b6", null ],
+    [ "channeling", "d6/d25/a14750.html#a88ff13ec705d11475de5a2080998c905", null ],
+    [ "eventInProgress", "d6/d25/a14750.html#ae9ce796b17c7791d83e949fa406a2b80", null ],
+    [ "eventProgress", "d6/d25/a14750.html#ad32a0387dbf95b6aa40b3311d6ba8348", null ],
+    [ "events", "d6/d25/a14750.html#af9c1f14a7a7b7380e9fb99ecdaf80126", null ],
+    [ "instance", "d6/d25/a14750.html#a61f3bcbf36e630bbb455405eb89ccf00", null ],
+    [ "spawnerCount", "d6/d25/a14750.html#aa5124160ecba044a3752f68945068776", null ]
 ];

@@ -1,6 +1,5 @@
 var a09746 =
 [
-    [ "ConditionScript", "d8/dd1/a09746.html#a546130ee7ed33c7763115cb0d1506a1b", null ],
-    [ "IsDatabaseBound", "d8/dd1/a09746.html#ac4f8325e3fa1e11437056818a0267342", null ],
-    [ "OnConditionCheck", "d8/dd1/a09746.html#a2d8a4e71f20c290428c3a86cedfcaab7", null ]
+    [ "Cost", "d8/dd1/a09746.html#a6de1eebdd222f71e874a46e5daa354a4", null ],
+    [ "PathIndex", "d8/dd1/a09746.html#aa5f8bc350f2c5aeac9d5e135c34eb662", null ]
 ];

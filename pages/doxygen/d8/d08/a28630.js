@@ -1,9 +1,25 @@
 var a28630 =
 [
-    [ "CheckCast", "d8/d08/a28630.html#a441927e0d8d7304030440c19458eb34d", null ],
-    [ "HandleScriptEffect", "d8/d08/a28630.html#a10e9691aa15869c82fba79072a314d7e", null ],
-    [ "PrepareSpellScript", "d8/d08/a28630.html#a90b8ae945aeb85ad6e8a120501288979", null ],
-    [ "Register", "d8/d08/a28630.html#aac95bd6f7409e1ae9d3f9cf0c7212990", null ],
-    [ "Validate", "d8/d08/a28630.html#a00c67b65bcfdeaf56295da6a64689d58", null ],
-    [ "iTypes", "d8/d08/a28630.html#ae852b9df34612c074eab23b025c86870", null ]
+    [ "Vec3D", "d8/d08/a28630.html#a66e77d25ca67f7a5418bc7b252bf4f9c", null ],
+    [ "Vec3D", "d8/d08/a28630.html#aa5aa758ed25117a81f53e19d8c80e427", null ],
+    [ "length", "d8/d08/a28630.html#aa99cf98be42720cb2e6eda8321d0585d", null ],
+    [ "lengthSquared", "d8/d08/a28630.html#a87ac62b18bdb6534dde07295ad3d7418", null ],
+    [ "normalize", "d8/d08/a28630.html#aad796e1a7950cf29bcf0664ab4529bdd", null ],
+    [ "operator float *", "d8/d08/a28630.html#ae7f0a885985683c338dcf10cdc675849", null ],
+    [ "operator%", "d8/d08/a28630.html#a6c06ca74a17414a8afad8889bc49e5e7", null ],
+    [ "operator*", "d8/d08/a28630.html#aa69f6d867a748bd543ec423a57378a21", null ],
+    [ "operator*", "d8/d08/a28630.html#a4d33d483ce46a408a9d0c45ddb075eb4", null ],
+    [ "operator*=", "d8/d08/a28630.html#aa59022e80683193bae192972da755884", null ],
+    [ "operator+", "d8/d08/a28630.html#a4908c6bd44a6a7856eada7b56425b1cc", null ],
+    [ "operator+=", "d8/d08/a28630.html#a15627b72a8533dba20622314d9c2d02e", null ],
+    [ "operator-", "d8/d08/a28630.html#a7022d6629a4d968fe6efdc29b54b16aa", null ],
+    [ "operator-=", "d8/d08/a28630.html#ac4cd3cead349c30f5bdaeecfaff4fdaa", null ],
+    [ "operator=", "d8/d08/a28630.html#ab7e2806da7e3bdfda666b5e4906f08c3", null ],
+    [ "operator~", "d8/d08/a28630.html#ab58f61de30ae8941782f902eb54dca29", null ],
+    [ "operator*", "d8/d08/a28630.html#ae30695a767fd2a31300bd1b858fda811", null ],
+    [ "operator<<", "d8/d08/a28630.html#ae0085c2ad66a850cb8270bbdd52d680e", null ],
+    [ "operator>>", "d8/d08/a28630.html#a9aa8110efc91a62f0719d9476b3cd7cf", null ],
+    [ "x", "d8/d08/a28630.html#a0f061b9d5ea2a680f64bed8b5be9116d", null ],
+    [ "y", "d8/d08/a28630.html#a3441f0095b7f2b5dc424f7b045f92f2c", null ],
+    [ "z", "d8/d08/a28630.html#a5a619f14529e714231bff4cc6fd36614", null ]
 ];

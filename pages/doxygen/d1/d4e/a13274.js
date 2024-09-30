@@ -1,6 +1,6 @@
 var a13274 =
 [
-    [ "HandleAfterCast", "d1/d4e/a13274.html#a1f928ce0688ec4fb56c5ef616638ce6f", null ],
-    [ "PrepareSpellScript", "d1/d4e/a13274.html#a92e0fb60373bf62a2d04e02a920a1e3b", null ],
-    [ "Register", "d1/d4e/a13274.html#ae7abc2e042944586019364919bc4c03b", null ]
+    [ "npc_maredis_firestarAI", "d1/d4e/a13274.html#ac2d4ed4b205146524dcf11585d65ae12", null ],
+    [ "sGossipHello", "d1/d4e/a13274.html#a72790dc9525249a4b558c37c4a0bd03f", null ],
+    [ "sGossipSelect", "d1/d4e/a13274.html#acefb2bc09fe8f7ad77d53ee6eb8bbb71", null ]
 ];

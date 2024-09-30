@@ -1,9 +1,8 @@
 var a08298 =
 [
-    [ "GameEventAIHookWorker", "dd/d5f/a08298.html#ad72640a18d2d32a9201c965089ee49cf", null ],
-    [ "Visit", "dd/d5f/a08298.html#a23d979ee43838e7d58e9123e36474a5a", null ],
-    [ "Visit", "dd/d5f/a08298.html#a79106ec550d072d690bbf3496d76cb0a", null ],
-    [ "Visit", "dd/d5f/a08298.html#a165476edd8b252bbb90b8b78fae963a6", null ],
-    [ "_activate", "dd/d5f/a08298.html#a756665eafa08f3c8c51ccef69bdd619f", null ],
-    [ "_eventId", "dd/d5f/a08298.html#ab1ee68bb7134e84780772eba2cfac766", null ]
+    [ "PlayerCreateInfoAction", "dd/d5f/a08298.html#a50d56595c71374e132dfe9f988144e75", null ],
+    [ "PlayerCreateInfoAction", "dd/d5f/a08298.html#a1e1d33b18074031e408da10f44a9a9c4", null ],
+    [ "action", "dd/d5f/a08298.html#a957d05ae25fd1ca801e097f03f9cc43e", null ],
+    [ "button", "dd/d5f/a08298.html#ac0c4658cfb1fc01cbb55116dd6dbe899", null ],
+    [ "type", "dd/d5f/a08298.html#a41e4a38f2c12f9e68b835fe17e56bc7e", null ]
 ];

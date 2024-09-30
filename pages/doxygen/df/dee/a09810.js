@@ -1,10 +1,12 @@
 var a09810 =
 [
-    [ "AchievementScript", "df/dee/a09810.html#afe724d1d43cb6da88912f65b92afeb83", null ],
-    [ "CanCheckCriteria", "df/dee/a09810.html#aca4cb16b55f7990c676267b8f10b4e57", null ],
-    [ "IsCompletedCriteria", "df/dee/a09810.html#a33d7ba1a6bf82da8e2de367553c0fb52", null ],
-    [ "IsDatabaseBound", "df/dee/a09810.html#a9ea2ed91c281e881404c31a948de0fc9", null ],
-    [ "IsRealmCompleted", "df/dee/a09810.html#abc54c295c1bcad45e21aed99e43a3713", null ],
-    [ "OnBeforeCheckCriteria", "df/dee/a09810.html#a0290017c5d11174da759fa584d44a4bf", null ],
-    [ "SetRealmCompleted", "df/dee/a09810.html#acf6a63ba96da7b33a92d48a95a549d4e", null ]
+    [ "delay", "df/dee/a09810.html#aa05ef99c3e04589501362a07d0dd032a", null ],
+    [ "event_chance", "df/dee/a09810.html#af54f2d38ca1a11664f516799f3bb80c8", null ],
+    [ "event_id", "df/dee/a09810.html#a083020691278af836e48f0a0c2feff96", null ],
+    [ "id", "df/dee/a09810.html#af7248c313ceefedb5b7ff6ed4c2ffd6b", null ],
+    [ "move_type", "df/dee/a09810.html#afb1a57b423a258e99c6921727a27e2e7", null ],
+    [ "orientation", "df/dee/a09810.html#a971411811b0e60839538f82cd55dcfb7", null ],
+    [ "x", "df/dee/a09810.html#a2dfd7f1f946ebef0b67d8f1542198b4b", null ],
+    [ "y", "df/dee/a09810.html#a574c5ba7eb5e6bd55f6c55bb511c03f7", null ],
+    [ "z", "df/dee/a09810.html#a013fa650f43e790e652016fbce2e1bd5", null ]
 ];

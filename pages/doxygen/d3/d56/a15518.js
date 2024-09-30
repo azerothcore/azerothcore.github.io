@@ -1,6 +1,6 @@
 var a15518 =
 [
-    [ "HandleDummy", "d3/d56/a15518.html#a0e7616fe86078218834422e1fcd3ffe7", null ],
-    [ "PrepareSpellScript", "d3/d56/a15518.html#aed9b0f5790ad5391c089d2d938706772", null ],
-    [ "Register", "d3/d56/a15518.html#ad267119f77c0623c9f3eb1f7808858a6", null ]
+    [ "npc_cairne_bloodhoofAI", "d4/d78/a15522.html", "d4/d78/a15522" ],
+    [ "npc_cairne_bloodhoof", "d3/d56/a15518.html#a3519d94c5fcdc3d55e31c49c7773e56c", null ],
+    [ "GetAI", "d3/d56/a15518.html#a1c34470c46ae9e98684de0e786be28b7", null ]
 ];

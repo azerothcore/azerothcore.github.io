@@ -1,6 +1,9 @@
 var a17950 =
 [
-    [ "ModAuraValue", "dd/dee/a17950.html#aebb85353c7ae5af78a725074015b422d", null ],
-    [ "PrepareSpellScript", "dd/dee/a17950.html#a58dc6a33d2aa9765c143c25428d37342", null ],
-    [ "Register", "dd/dee/a17950.html#a8d296579faa0edcb4e5c119ccc4edab3", null ]
+    [ "AfterApply", "dd/dee/a17950.html#a0ee1a701f75e9f0a70dc21528ffea683", null ],
+    [ "ExtraRemoveEffect", "dd/dee/a17950.html#a9f427761fcca9029eb75d586e5876fcd", null ],
+    [ "PeriodicTick", "dd/dee/a17950.html#a82430399e44001343f322b2c3b7769a5", null ],
+    [ "PrepareAuraScript", "dd/dee/a17950.html#a9c8e0ed8fde28588e11ebf5e8abd02dc", null ],
+    [ "Register", "dd/dee/a17950.html#a68be7f7edecd1bae8c962aaa9d556c3e", null ],
+    [ "Validate", "dd/dee/a17950.html#ae20873e93fbace6272a793993fb45349", null ]
 ];

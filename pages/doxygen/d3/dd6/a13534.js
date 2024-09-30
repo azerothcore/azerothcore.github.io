@@ -1,12 +1,11 @@
 var a13534 =
 [
-    [ "npc_lady_sylvanas_windrunnerAI", "d3/dd6/a13534.html#ad6eefe9a14ce64b12b65a22c3ebb4db0", null ],
-    [ "JustEngagedWith", "d3/dd6/a13534.html#a36324482fb264cc3cacf11c3ed542eee", null ],
-    [ "JustSummoned", "d3/dd6/a13534.html#a456ee6f4b5b8cdd79647a42185265be8", null ],
-    [ "Reset", "d3/dd6/a13534.html#ad4c6cb31a8d3dc280e689d5d29e27479", null ],
-    [ "SetGUID", "d3/dd6/a13534.html#aa5270e7468dcafba98d3ee72752771ce", null ],
-    [ "UpdateAI", "d3/dd6/a13534.html#ab704e4f3af8aa734910efd259db31407", null ],
-    [ "_events", "d3/dd6/a13534.html#a621d4db4fac3a7c3d08defa2a8ed06d0", null ],
-    [ "LamentEvent", "d3/dd6/a13534.html#ace9e901a965665e0f97cb9646af308aa", null ],
-    [ "playerGUID", "d3/dd6/a13534.html#aa125ab2a33dbf9f1d40f238e7d45000d", null ]
+    [ "npc_tapoke_slim_jahnAI", "d3/dd6/a13534.html#aeb2bca4d3233d8790b1ccfdd559f2e41", null ],
+    [ "AttackedBy", "d3/dd6/a13534.html#a25bf491c19fe0bb3116c6df46cb370e5", null ],
+    [ "DamageTaken", "d3/dd6/a13534.html#a3dbb7abb6559a6f853cc77423d7153e9", null ],
+    [ "JustEngagedWith", "d3/dd6/a13534.html#a544b8eaee365217a4a735ed39b4607b2", null ],
+    [ "JustSummoned", "d3/dd6/a13534.html#ae468305fbe930baf0a1547f2e6de9953", null ],
+    [ "Reset", "d3/dd6/a13534.html#a5aeaa5511584d1095639e7df584019c5", null ],
+    [ "WaypointReached", "d3/dd6/a13534.html#a886ba3133f77a93cfae9c4a7e9fb0609", null ],
+    [ "IsFriendSummoned", "d3/dd6/a13534.html#a1e4291187ff400e6f326ef4acbff41ee", null ]
 ];

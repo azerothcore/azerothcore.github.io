@@ -1,6 +1,10 @@
 var a19098 =
 [
-    [ "HandleScript", "dc/d4b/a19098.html#a74b1257b85044f68253d13cdb516f7b3", null ],
-    [ "PrepareSpellScript", "dc/d4b/a19098.html#a48c9a2eae46edc07f0b004d628b9260b", null ],
-    [ "Register", "dc/d4b/a19098.html#ae7f50b7a0009a9eae3d1519042363c73", null ]
+    [ "npc_power_sparkAI", "dc/d4b/a19098.html#a3f0fd553d859c5709ed2dbd9051db3d3", null ],
+    [ "DamageTaken", "dc/d4b/a19098.html#aebd86516e17e77711d3877a11a159105", null ],
+    [ "DoAction", "dc/d4b/a19098.html#a54b4578be614da76cc886dedbe3d853e", null ],
+    [ "UpdateAI", "dc/d4b/a19098.html#a7e9b2a161fc88d269e631d47c38bfd5e", null ],
+    [ "CheckTimer", "dc/d4b/a19098.html#af98dff7dd45c258d45ce81b8520e56a8", null ],
+    [ "MoveTimer", "dc/d4b/a19098.html#af16a57b82fb94eb464c51b6006f2a66b", null ],
+    [ "pInstance", "dc/d4b/a19098.html#a4142b3872dd17015eeabb2eaee0c3369", null ]
 ];

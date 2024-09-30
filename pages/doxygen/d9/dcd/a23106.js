@@ -1,6 +1,7 @@
 var a23106 =
 [
-    [ "HandleEffect", "d9/dcd/a23106.html#a84dab0a2289f341404850f8439d9de57", null ],
-    [ "PrepareSpellScript", "d9/dcd/a23106.html#a08b28c7d34fc2933a776e9ae59d87ef9", null ],
-    [ "Register", "d9/dcd/a23106.html#acbb270e8d0de0f548a90346f85753b05", null ]
+    [ "npc_tainted_elemental", "d9/dcd/a23106.html#a71736892dc20a5be304a161dac183bc9", null ],
+    [ "JustEngagedWith", "d9/dcd/a23106.html#a51a05405b3acb9cc0bd27ff14fc61cd2", null ],
+    [ "Reset", "d9/dcd/a23106.html#aa6792680e31edf8597948b77f5ff2218", null ],
+    [ "UpdateAI", "d9/dcd/a23106.html#a32a68a990c764a0f73d3420b93e3b97c", null ]
 ];

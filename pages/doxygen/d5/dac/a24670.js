@@ -1,6 +1,6 @@
 var a24670 =
 [
-    [ "boss_teron_gorefiendAI", "d5/d60/a24674.html", "d5/d60/a24674" ],
-    [ "boss_teron_gorefiend", "d5/dac/a24670.html#ad80b45baaf6b2d64f575a160f3985642", null ],
-    [ "GetAI", "d5/dac/a24670.html#a4e5b53de0fbf48ab25a6f7681539afcf", null ]
+    [ "HandleEffectCalcSpellMod", "d5/dac/a24670.html#aaf21dafa72b58245f548ed946a49659d", null ],
+    [ "PrepareAuraScript", "d5/dac/a24670.html#ac05d3ae466ad64ac590f399827aac0c9", null ],
+    [ "Register", "d5/dac/a24670.html#a46a643985647d8a8e033b637b31214a5", null ]
 ];

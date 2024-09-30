@@ -1,6 +1,5 @@
 var a16998 =
 [
-    [ "boss_trollgoreAI", "d9/d6a/a17002.html", "d9/d6a/a17002" ],
-    [ "boss_trollgore", "d8/de6/a16998.html#a95102f1fae6c667e0780b8b388fc156b", null ],
-    [ "GetAI", "d8/de6/a16998.html#a6da1349da296a3dc3d29527a8e3c2b7d", null ]
+    [ "at_tyrannus_event_starter", "d8/de6/a16998.html#a1aef2522c20dd242e749d93a6bee66d8", null ],
+    [ "OnTrigger", "d8/de6/a16998.html#a8dcfce4cd24dbc45df987b4a9bfcbbc0", null ]
 ];

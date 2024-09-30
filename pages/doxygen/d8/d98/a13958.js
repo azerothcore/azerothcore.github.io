@@ -1,7 +1,8 @@
 var a13958 =
 [
-    [ "HandleScriptEffect", "d8/d98/a13958.html#ace68732d578fbaeb2b209bfded88853a", null ],
-    [ "PrepareSpellScript", "d8/d98/a13958.html#a42a69995e8f527a383e96e2ead832f72", null ],
-    [ "Register", "d8/d98/a13958.html#abb26c89a617bc27f8c2a1cfbb0935234", null ],
-    [ "Validate", "d8/d98/a13958.html#a7697caf8e5390d290b353fb6a291aa10", null ]
+    [ "boss_venoxis", "d8/d98/a13958.html#a3e91a9022163a726cbc077d38459a5f5", null ],
+    [ "InitializeAI", "d8/d98/a13958.html#a1373b5fc673fce6aea1de40d970ac00d", null ],
+    [ "JustDied", "d8/d98/a13958.html#a63ccc5a9520ee30b0ebaf8c4d31e59b8", null ],
+    [ "JustEngagedWith", "d8/d98/a13958.html#afaa68ffbd5fecae48a044009326bcaed", null ],
+    [ "Reset", "d8/d98/a13958.html#a40cbcd4d41ff85ff71d5d913d8e62368", null ]
 ];

@@ -1,7 +1,6 @@
 var a07058 =
 [
-    [ "CommandPermissions", "dd/d67/a07058.html#ad1242d9067778298c44501b5d5a962f8", null ],
-    [ "CommandPermissions", "dd/d67/a07058.html#a47f284c63f10b6c3479624845b696aa6", null ],
-    [ "AllowConsole", "dd/d67/a07058.html#a8b419033e8dff0307a22a32bc57a1dc8", null ],
-    [ "RequiredLevel", "dd/d67/a07058.html#a4918f2c3b1913eb76d09d859479ebbae", null ]
+    [ "_Battlegrounds", "dd/d67/a07058.html#aa48f3a9d4a51e357055a0bc60ca41d7c", null ],
+    [ "_ClientBattlegroundIds", "dd/d67/a07058.html#a0526fab23b40ac1b33ce18243ad41132", null ],
+    [ "BGFreeSlotQueue", "dd/d67/a07058.html#a49fd7eb3a472894f233d309d35d509be", null ]
 ];

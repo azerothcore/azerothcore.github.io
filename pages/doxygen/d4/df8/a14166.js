@@ -1,7 +1,9 @@
 var a14166 =
 [
-    [ "GetEmptyEntry", "d4/df8/a14166.html#a46dfe7b2f8598d24f17868266d1571c6", null ],
-    [ "HandleAfterHit", "d4/df8/a14166.html#a4f8ab6e42ddf2188ccca2640363b9925", null ],
-    [ "PrepareSpellScript", "d4/df8/a14166.html#a35f0ab4b36df3d9ec1191cbd9ba88c9e", null ],
-    [ "Register", "d4/df8/a14166.html#a25e1858e1f81891443f4b7de50a5d495", null ]
+    [ "entries", "d4/df8/a14166.html#a8c55bbd253d6bea01e83c0aa7380dee5", null ],
+    [ "entries", "d4/df8/a14166.html#a953850b267eb6f599bb49d82080bdf64", null ],
+    [ "revelerId", "d4/df8/a14166.html#a9e4069ef00c8b4e31d8af06f34e12ad5", null ],
+    [ "schedule", "d4/df8/a14166.html#ad849701425622001519334f352ea6f3e", null ],
+    [ "size", "d4/df8/a14166.html#ae6a3fa59e1eb384255c247abadc962d5", null ],
+    [ "spawns", "d4/df8/a14166.html#aa081965795e3b9473be5b322b0c46505", null ]
 ];

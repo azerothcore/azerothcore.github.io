@@ -1,19 +1,16 @@
 var a15114 =
 [
-    [ "boss_bug_trio", "d9/df1/a15114.html#acfef187b77a745686cb64bec64398dd4", null ],
-    [ "CheckInRoom", "d9/df1/a15114.html#a9b78f1f7beee555460bd24338a25506d", null ],
-    [ "DamageTaken", "d9/df1/a15114.html#a41e1d62badcad8d360983f07b4101f7e", null ],
-    [ "DoAction", "d9/df1/a15114.html#a808939fbc1a9f2bc9e3a6dda5dce02f4", null ],
-    [ "DoFinalSpell", "d9/df1/a15114.html#a46b943e5d5f5b0972b42edc4134c1f98", null ],
-    [ "EnterCombatWithTrio", "d9/df1/a15114.html#af7d3159f505f5f3dd6e273d47fd9bc80", null ],
-    [ "EnterEvadeMode", "d9/df1/a15114.html#ae6809cc35969618ecfaf1767e8c9ae92", null ],
-    [ "EvadeAllBosses", "d9/df1/a15114.html#a09c60b117f2cb194eeb1a2b13b7e5d37", null ],
-    [ "JustDied", "d9/df1/a15114.html#a2d4d6a43de7ce16b6cf5b7603fbacd87", null ],
-    [ "MovementInform", "d9/df1/a15114.html#aa24ae95cbe50f24abef4ab4ac30278b8", null ],
-    [ "Reset", "d9/df1/a15114.html#a8f07a98ed21c3e362bec3c8d3bd5ea09", null ],
-    [ "UpdateAI", "d9/df1/a15114.html#a26896dd5f3f2e0ca6251bd96f8199e10", null ],
-    [ "_creatureDying", "d9/df1/a15114.html#a89dbaf8c1bba75369b978dd366806bb4", null ],
-    [ "_dying", "d9/df1/a15114.html#a4ad80d1c623a86396d180bc6a6f14bb5", null ],
-    [ "_isEating", "d9/df1/a15114.html#a331eb32e0713aee8d5a84ed32c72de12", null ],
-    [ "_scheduler", "d9/df1/a15114.html#a121d3abe2854c5b798ee1eebdaea699f", null ]
+    [ "npc_muglashAI", "d9/df1/a15114.html#af1988703aaaac04e5853c33e5b915ca2", null ],
+    [ "DoAction", "d9/df1/a15114.html#afba6c4441ff4da54f89709b3c2bcd4d4", null ],
+    [ "DoWaveSummon", "d9/df1/a15114.html#aaf862468f5ba0c6f99056a81a472c6e2", null ],
+    [ "JustDied", "d9/df1/a15114.html#a5936dd183091c462e4835a00f81020f5", null ],
+    [ "JustEngagedWith", "d9/df1/a15114.html#a587c8cb4562e93cecccb20e93cabba05", null ],
+    [ "JustSummoned", "d9/df1/a15114.html#a07e451149dbf6b72e01f94dc8f07edf3", null ],
+    [ "Reset", "d9/df1/a15114.html#a98933c32f2550989356b3e876d302b88", null ],
+    [ "sQuestAccept", "d9/df1/a15114.html#a6c93a53a7b8bcd200ebca0e9d366f6fe", null ],
+    [ "UpdateAI", "d9/df1/a15114.html#a6b479f50428536997faef96e510dbd84", null ],
+    [ "WaypointReached", "d9/df1/a15114.html#a8f91b74c0d8778a73e0bc95dce339f2b", null ],
+    [ "_isBrazierExtinguished", "d9/df1/a15114.html#aeec098d6a65b6852598a4e4b6888a410", null ],
+    [ "eventTimer", "d9/df1/a15114.html#a548e142bb509b4606b6fcf98d926cd44", null ],
+    [ "waveId", "d9/df1/a15114.html#a06c0af398e53b5ea6bfd6fa80256f845", null ]
 ];

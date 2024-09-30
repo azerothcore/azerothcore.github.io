@@ -1,6 +1,6 @@
 var a19250 =
 [
-    [ "npc_spirit_wardenAI", "db/d57/a19254.html", "db/d57/a19254" ],
-    [ "npc_spirit_warden", "d0/d4e/a19250.html#ab585d20eadb7876752d731702db44293", null ],
-    [ "GetAI", "d0/d4e/a19250.html#ab33ab494d7fee64eed7c75464ce60489", null ]
+    [ "boss_drakosAI", "db/d57/a19254.html", "db/d57/a19254" ],
+    [ "boss_drakos", "d0/d4e/a19250.html#aa70ae2809af4f24eea0b83b42d695448", null ],
+    [ "GetAI", "d0/d4e/a19250.html#a16dcc7f9da254d0bddc19394a1cd4ab0", null ]
 ];

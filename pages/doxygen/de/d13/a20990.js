@@ -1,6 +1,7 @@
 var a20990 =
 [
-    [ "boss_auriayaAI", "df/df6/a20994.html", "df/df6/a20994" ],
-    [ "boss_auriaya", "de/d13/a20990.html#a8acecf02a63e846d1a46633a6ade6083", null ],
-    [ "GetAI", "de/d13/a20990.html#a09c7cd124672eb12ec349dbbbd3c87ef", null ]
+    [ "HandleEffectPeriodic", "de/d13/a20990.html#a5741a78ba0cc8c723e80b1847b3eb1bc", null ],
+    [ "PrepareAuraScript", "de/d13/a20990.html#a748cd347867557b5048d9ba0c112cd80", null ],
+    [ "Register", "de/d13/a20990.html#a3c24d37ab4a6e16a577983c3f6bc2722", null ],
+    [ "Validate", "de/d13/a20990.html#afa86789ef14b1d06094705ba6cfb9205", null ]
 ];

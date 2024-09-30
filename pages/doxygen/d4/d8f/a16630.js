@@ -1,6 +1,6 @@
 var a16630 =
 [
-    [ "npc_toc_paladinAI", "d3/d8c/a16634.html", "d3/d8c/a16634" ],
-    [ "npc_toc_paladin", "d4/d8f/a16630.html#af11025a2a4be2b2c982ad31241d47180", null ],
-    [ "GetAI", "d4/d8f/a16630.html#a15766ea4414701040c738251302177af", null ]
+    [ "PrepareSpellScript", "d4/d8f/a16630.html#a5ed268ac2642b2df3c5eb1dc93a675fc", null ],
+    [ "RecalculateDamage", "d4/d8f/a16630.html#a3fae6ceaa67716004c664dd40a4679ed", null ],
+    [ "Register", "d4/d8f/a16630.html#a1a740e697fc84f5f035f2ec251872009", null ]
 ];

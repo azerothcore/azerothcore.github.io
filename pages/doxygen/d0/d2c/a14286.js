@@ -1,6 +1,4 @@
 var a14286 =
 [
-    [ "HandleScript", "d0/d2c/a14286.html#aa60824ed67ae87e96117fc5bf90bec8c", null ],
-    [ "PrepareSpellScript", "d0/d2c/a14286.html#aab4303fff660c68db100e07a4423c39b", null ],
-    [ "Register", "d0/d2c/a14286.html#a0fbc130652e58d9418cb3c5036b6aed2", null ]
+    [ "npc_midsummer_bonfire_despawner", "d0/d2c/a14286.html#aacb82b08ec0fef0f53d7e251e010abd8", null ]
 ];

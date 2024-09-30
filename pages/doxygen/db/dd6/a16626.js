@@ -1,7 +1,8 @@
 var a16626 =
 [
-    [ "npc_toc_shamanAI", "db/dd6/a16626.html#abd0b0e503c1bbc48aebb5923ec3f4291", null ],
-    [ "myCanCast", "db/dd6/a16626.html#a993739662d2687c27219853669b8a485", null ],
-    [ "UpdateAI", "db/dd6/a16626.html#a2ad17245685feb3f085ef9a669459c61", null ],
-    [ "events", "db/dd6/a16626.html#ab573ab0ee616348ccdb28b71255ac35d", null ]
+    [ "npc_fos_corrupted_soul_fragmentAI", "db/dd6/a16626.html#a61797329ecddde6da2e23e951fa92ca2", null ],
+    [ "Reset", "db/dd6/a16626.html#a5bb03371b24593ca2de995bf85857782", null ],
+    [ "UpdateAI", "db/dd6/a16626.html#ac6e651186c5edfd8e5279ddd38a15eb9", null ],
+    [ "pInstance", "db/dd6/a16626.html#a6ced23b3b4150b31020a636559d6eec6", null ],
+    [ "timer", "db/dd6/a16626.html#aa19c9928e3979bb01d89dc81b8feb4fc", null ]
 ];

@@ -1,6 +1,8 @@
 var a21858 =
 [
-    [ "npc_ulduar_harpoonfirestateAI", "de/d26/a21862.html", "de/d26/a21862" ],
-    [ "npc_ulduar_harpoonfirestate", "dc/dfc/a21858.html#a85043e64606ba7c9ce2da7a37bbf0e8e", null ],
-    [ "GetAI", "dc/dfc/a21858.html#a8c9e1882c0706cb0b576c24b62215238", null ]
+    [ "npc_ravenous_worgAI", "dc/dfc/a21858.html#a5404516869e171c84b774f2a7b8be15d", null ],
+    [ "AttackStart", "dc/dfc/a21858.html#a593d218d8cb083a7e37f81d3952c6d4c", null ],
+    [ "UpdateAI", "dc/dfc/a21858.html#aeb64d5bde5ef9d8c2a62662bb72d3049", null ],
+    [ "_attack", "dc/dfc/a21858.html#a3df5c98821ba33a40e25e7b050858b96", null ],
+    [ "_pacified", "dc/dfc/a21858.html#a0da1f59a6fc9cdf39c9cced1eb52acba", null ]
 ];

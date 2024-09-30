@@ -1,6 +1,7 @@
 var a24354 =
 [
-    [ "FilterTargets", "dd/df2/a24354.html#a4b1a4a8dac057447ca25ce737b3d6470", null ],
-    [ "PrepareSpellScript", "dd/df2/a24354.html#ac2e33285b6183735b4297aa93acc1716", null ],
-    [ "Register", "dd/df2/a24354.html#a508b90f216ded82d5091c9e355bfd986", null ]
+    [ "npc_pet_gen_target_following_bomb", "dd/df2/a24354.html#a447c2cd258d784ca1d79c79412a1a426", null ],
+    [ "UpdateAI", "dd/df2/a24354.html#ac68f18d68a313623c04e885f9506f287", null ],
+    [ "bombSpellId", "dd/df2/a24354.html#a3c72bd26c66d3e7a85f3152557e399c4", null ],
+    [ "checkTimer", "dd/df2/a24354.html#a694ee5f884f1bd404f0ef3d3030a212f", null ]
 ];

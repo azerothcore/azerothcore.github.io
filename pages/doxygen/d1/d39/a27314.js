@@ -1,7 +1,10 @@
 var a27314 =
 [
-    [ "HandleDummy", "d1/d39/a27314.html#a84430c269e419acd94a2d0520b9ca639", null ],
-    [ "PrepareSpellScript", "d1/d39/a27314.html#a8ec4e9cea213739825126111d038d1a5", null ],
-    [ "Register", "d1/d39/a27314.html#a1abee3e5f324875aab8dd666ac417308", null ],
-    [ "Validate", "d1/d39/a27314.html#a393043b94f50d9379a987f9b49b8abde", null ]
+    [ "guard_shattrath_aldorAI", "d1/d39/a27314.html#a88961dfe4100dfe207af693a1eed86ad", null ],
+    [ "Reset", "d1/d39/a27314.html#aef38e83e90c322bbef18b78e6339ef2e", null ],
+    [ "UpdateAI", "d1/d39/a27314.html#ac87ee12d4487971b68c70f06f63eb410", null ],
+    [ "banishTimer", "d1/d39/a27314.html#a8b6e4c2acb09c65f2dbebbd21df4f29e", null ],
+    [ "canTeleport", "d1/d39/a27314.html#af4d933b56431d2f2755d87fb05922458", null ],
+    [ "exileTimer", "d1/d39/a27314.html#a8d56205206f3e14184922f96873456ad", null ],
+    [ "playerGUID", "d1/d39/a27314.html#a16fe41ae30d54abaf12f68672b93dc32", null ]
 ];

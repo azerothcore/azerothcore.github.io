@@ -1,6 +1,9 @@
 var a26146 =
 [
-    [ "npcs_flanis_swiftwing_and_kagrosh", "d6/d7f/a26146.html#aa95eceea94521947bd443805c8ddb52d", null ],
-    [ "OnGossipHello", "d6/d7f/a26146.html#a7f331c38ec82d2c69bce4b1f861527a0", null ],
-    [ "OnGossipSelect", "d6/d7f/a26146.html#aff34165955ba93e1fcd2b9731894d871", null ]
+    [ "CheckCast", "d6/d7f/a26146.html#ad6b60c449d57503508c9a94ca6e919f9", null ],
+    [ "HandleDummy", "d6/d7f/a26146.html#a7f79495525687fba6229f48935b2558a", null ],
+    [ "Load", "d6/d7f/a26146.html#a0c73457e44a3d64bdccee78d28893672", null ],
+    [ "PrepareSpellScript", "d6/d7f/a26146.html#a4826d7b257ee05bfe0d6db3d30a924e9", null ],
+    [ "Register", "d6/d7f/a26146.html#ab9f09394ab301350a2abaefde90632fe", null ],
+    [ "Validate", "d6/d7f/a26146.html#a9b9d5f862e9910f1a12780ff54b067ca", null ]
 ];

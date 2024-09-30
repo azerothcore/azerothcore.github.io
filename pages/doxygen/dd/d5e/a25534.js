@@ -1,6 +1,7 @@
 var a25534 =
 [
-    [ "instance_shattered_halls_InstanceMapScript", "d7/d80/a25538.html", "d7/d80/a25538" ],
-    [ "instance_shattered_halls", "dd/d5e/a25534.html#a9d0d3b6baec34c679151791610cff3a7", null ],
-    [ "GetInstanceScript", "dd/d5e/a25534.html#a82388466811b022a725ba721845cadf3", null ]
+    [ "CheckProc", "dd/d5e/a25534.html#afbd6d4a64b7da0d0dc15c62eb81746c9", null ],
+    [ "HandleProc", "dd/d5e/a25534.html#a27569fe686e50246768fca4a7625fe0d", null ],
+    [ "PrepareAuraScript", "dd/d5e/a25534.html#a4f4eaa4aeeac9257804957671c16233f", null ],
+    [ "Register", "dd/d5e/a25534.html#ab9a662bebdb5e03c5c10a807b892a9bf", null ]
 ];

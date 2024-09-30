@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Grids/Notifiers/GridNotifiers.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Grids/Notifiers/GridNotifiers.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,102 +105,206 @@ $(document).ready(function(){initNavTree('dd/d08/a01448.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">GridNotifiers.cpp File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a>  </div>
+  <div class="headertitle"><div class="title">GridNotifiers.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Map.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Corpse.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DynamicObject.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameObject.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Object.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectGridLoader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Optional.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Unit.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">UpdateData.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a6dd107031f342074ca560b711fe188d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d08/a01448.html#a6dd107031f342074ca560b711fe188d7">CreatureUnitRelocationWorker</a> (<a class="el" href="../../d7/d9e/a07744.html">Creature</a> *c, <a class="el" href="../../d8/dc4/a08492.html">Unit</a> *u)</td></tr>
-<tr class="separator:a6dd107031f342074ca560b711fe188d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2c/a08834.html">Acore::VisibleNotifier</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d78/a08838.html">Acore::VisibleChangesNotifier</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d60/a08842.html">Acore::PlayerRelocationNotifier</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0a/a08846.html">Acore::CreatureRelocationNotifier</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d67/a08850.html">Acore::AIRelocationNotifier</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/a08854.html">Acore::MessageDistDeliverer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da3/a08858.html">Acore::MessageDistDelivererToHostile</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d23/a08862.html">Acore::ObjectUpdater</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de9/a08866.html">Acore::ContainerInserter&lt; Type &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d23/a08870.html">Acore::WorldObjectSearcher&lt; Check &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/a08874.html">Acore::WorldObjectLastSearcher&lt; Check &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d48/a08878.html">Acore::WorldObjectListSearcher&lt; Check &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d90/a08882.html">Acore::WorldObjectWorker&lt; Do &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7b/a08886.html">Acore::GameObjectSearcher&lt; Check &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d30/a08890.html">Acore::GameObjectLastSearcher&lt; Check &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dbe/a08894.html">Acore::GameObjectListSearcher&lt; Check &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de3/a08898.html">Acore::GameObjectWorker&lt; Functor &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df8/a08902.html">Acore::UnitSearcher&lt; Check &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df6/a08906.html">Acore::UnitLastSearcher&lt; Check &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d28/a08910.html">Acore::UnitListSearcher&lt; Check &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/df8/a08914.html">Acore::CreatureSearcher&lt; Check &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/da0/a08918.html">Acore::CreatureLastSearcher&lt; Check &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2b/a08922.html">Acore::CreatureListSearcher&lt; Check &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d16/a08926.html">Acore::CreatureWorker&lt; Do &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d07/a08930.html">Acore::PlayerSearcher&lt; Check &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d9a/a08934.html">Acore::PlayerListSearcher&lt; Check &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d6e/a08938.html">Acore::PlayerListSearcherWithSharedVision&lt; Check &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dbd/a08942.html">Acore::PlayerLastSearcher&lt; Check &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/a08946.html">Acore::PlayerWorker&lt; Do &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d45/a08950.html">Acore::PlayerDistWorker&lt; Do &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d5e/a08954.html">Acore::AnyDeadUnitObjectInRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d90/a08958.html">Acore::AnyDeadUnitSpellTargetInRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da9/a08962.html">Acore::RespawnDo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d59/a08966.html">Acore::GameObjectFocusCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d37/a08970.html">Acore::NearestGameObjectFishingHole</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d82/a08974.html">Acore::NearestGameObjectCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d8a/a08978.html">Acore::NearestGameObjectEntryInObjectRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d32/a08982.html">Acore::NearestGameObjectTypeInObjectRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd5/a08986.html">Acore::MostHPMissingInRange</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d0d/a08990.html">Acore::MostHPPercentMissingInRange</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d47/a08994.html">Acore::FriendlyCCedInRange</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df9/a08998.html">Acore::FriendlyMissingBuffInRange</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d33/a09002.html">Acore::AnyUnfriendlyUnitInObjectRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df3/a09006.html">Acore::AnyUnfriendlyNoTotemUnitInObjectRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dae/a09010.html">Acore::NearestAttackableNoTotemUnitInObjectRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d83/a09014.html">Acore::AnyUnfriendlyAttackableVisibleUnitInObjectRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8e/a09018.html">Acore::AnyFriendlyUnitInObjectRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d11/a09022.html">Acore::AnyFriendlyNotSelfUnitInObjectRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0b/a09026.html">Acore::AnyGroupedUnitInObjectRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfd/a09030.html">Acore::AnyUnitInObjectRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d49/a09034.html">Acore::NearestAttackableUnitInObjectRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4f/a09038.html">Acore::AnyAoETargetUnitInObjectRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d83/a09042.html">Acore::AnyAttackableUnitExceptForOriginalCasterInObjectRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d3d/a09046.html">Acore::CallOfHelpCreatureInRangeDo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d54/a09050.html">Acore::AnyDeadUnitCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a09054.html">Acore::NearestHostileUnitCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d7c/a09058.html">Acore::NearestHostileUnitInAttackDistanceCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d89/a09062.html">Acore::NearestVisibleDetectableContestedGuardUnitCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3e/a09066.html">Acore::AnyAssistCreatureInRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d96/a09070.html">Acore::NearestAssistCreatureInCreatureRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1d/a09074.html">Acore::NearestCreatureEntryWithLiveStateInObjectRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daa/a09078.html">Acore::AnyPlayerInObjectRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d06/a09082.html">Acore::AnyPlayerExactPositionInGameObjectRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5c/a09086.html">Acore::NearestPlayerInObjectRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d3f/a09090.html">Acore::AllFriendlyCreaturesInGrid</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3e/a09094.html">Acore::AllGameObjectsWithEntryInRange</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de0/a09098.html">Acore::AllCreaturesOfEntryInRange</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d80/a09102.html">Acore::MostHPMissingGroupInRange</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a09106.html">Acore::AllDeadCreaturesInRange</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/def/a09110.html">Acore::PlayerAtMinimumRangeAway</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/a09114.html">Acore::GameObjectInRangeCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d65/a09118.html">Acore::AllWorldObjectsInRange</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1f/a09122.html">Acore::ObjectTypeIdCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6d/a09126.html">Acore::ObjectGUIDCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1c/a09130.html">Acore::UnitAuraCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d26/a09134.html">Acore::AllWorldObjectsInExactRange</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/ddb/a09138.html">Acore::RandomCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8c/a09142.html">Acore::PowerCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8b/a09146.html">Acore::RaidCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4a/a09150.html">Acore::LocalizedPacketDo&lt; Builder &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d57/a09154.html">Acore::LocalizedPacketListDo&lt; Builder &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d7/de4/a04674"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html">Acore</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a6dd107031f342074ca560b711fe188d7" name="a6dd107031f342074ca560b711fe188d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6dd107031f342074ca560b711fe188d7">&#9670;&#160;</a></span>CreatureUnitRelocationWorker()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CreatureUnitRelocationWorker </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/d9e/a07744.html">Creature</a> *&#160;</td>
-          <td class="paramname"><em>c</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d8/dc4/a08492.html">Unit</a> *&#160;</td>
-          <td class="paramname"><em>u</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  150</span>{</div>
-<div class="line"><span class="lineno">  151</span>    <span class="keywordflow">if</span> (!u-&gt;<a class="code hl_function" href="../../d8/dc4/a08492.html#a5ea3f54af571493f7889220724667189">IsAlive</a>() || !c-&gt;<a class="code hl_function" href="../../d8/dc4/a08492.html#a5ea3f54af571493f7889220724667189">IsAlive</a>() || c == u || u-&gt;<a class="code hl_function" href="../../d8/dc4/a08492.html#a85b547eedd208db5f9dddc5f75a1a211">IsInFlight</a>())</div>
-<div class="line"><span class="lineno">  152</span>    {</div>
-<div class="line"><span class="lineno">  153</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  154</span>    }</div>
-<div class="line"><span class="lineno">  155</span> </div>
-<div class="line"><span class="lineno">  156</span>    <span class="keywordflow">if</span> (!c-&gt;<a class="code hl_function" href="../../d8/dc4/a08492.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../da/d4a/a02114.html#ae51d2ecb71f7a5cb3882982a622c9544a6109dcad21a2eaf7e1d57bc2ad917558">UNIT_STATE_SIGHTLESS</a>))</div>
-<div class="line"><span class="lineno">  157</span>    {</div>
-<div class="line"><span class="lineno">  158</span>        <span class="keywordflow">if</span> (c-&gt;<a class="code hl_variable" href="../../d8/dc4/a08492.html#ab395fef0b407c0af40ba6274c32730a6">IsAIEnabled</a> &amp;&amp; c-&gt;<a class="code hl_function" href="../../d0/db0/a08148.html#addeafb9ef860ca79c7a6570ae75a4bd0">CanSeeOrDetect</a>(u, <span class="keyword">false</span>, <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">  159</span>        {</div>
-<div class="line"><span class="lineno">  160</span>            c-&gt;<a class="code hl_function" href="../../d7/d9e/a07744.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d9/d58/a06056.html#afd0302ecfe6e2381dc2bc5f89f2c2152">MoveInLineOfSight_Safe</a>(u);</div>
-<div class="line"><span class="lineno">  161</span>        }</div>
-<div class="line"><span class="lineno">  162</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (u-&gt;<a class="code hl_function" href="../../d1/d36/a08116.html#a1b9ed00e8d7ac5fed698ef6431905296">IsPlayer</a>() &amp;&amp; u-&gt;<a class="code hl_function" href="../../d8/dc4/a08492.html#a671aa59743c8e3919295551a5f113ce1">HasStealthAura</a>() &amp;&amp; c-&gt;<a class="code hl_variable" href="../../d8/dc4/a08492.html#ab395fef0b407c0af40ba6274c32730a6">IsAIEnabled</a> &amp;&amp; c-&gt;<a class="code hl_function" href="../../d0/db0/a08148.html#addeafb9ef860ca79c7a6570ae75a4bd0">CanSeeOrDetect</a>(u, <span class="keyword">false</span>, <span class="keyword">true</span>, <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">  163</span>        {</div>
-<div class="line"><span class="lineno">  164</span>            c-&gt;<a class="code hl_function" href="../../d7/d9e/a07744.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d9/d58/a06056.html#a3a8fee035f2cd3ed05f46f6ab042cd50">TriggerAlert</a>(u);</div>
-<div class="line"><span class="lineno">  165</span>        }</div>
-<div class="line"><span class="lineno">  166</span>    }</div>
-<div class="line"><span class="lineno">  167</span>}</div>
-<div class="ttc" id="aa02114_html_ae51d2ecb71f7a5cb3882982a622c9544a6109dcad21a2eaf7e1d57bc2ad917558"><div class="ttname"><a href="../../da/d4a/a02114.html#ae51d2ecb71f7a5cb3882982a622c9544a6109dcad21a2eaf7e1d57bc2ad917558">UNIT_STATE_SIGHTLESS</a></div><div class="ttdeci">@ UNIT_STATE_SIGHTLESS</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:192</div></div>
-<div class="ttc" id="aa06056_html_a3a8fee035f2cd3ed05f46f6ab042cd50"><div class="ttname"><a href="../../d9/d58/a06056.html#a3a8fee035f2cd3ed05f46f6ab042cd50">CreatureAI::TriggerAlert</a></div><div class="ttdeci">void TriggerAlert(Unit const *who) const</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:175</div></div>
-<div class="ttc" id="aa06056_html_afd0302ecfe6e2381dc2bc5f89f2c2152"><div class="ttname"><a href="../../d9/d58/a06056.html#afd0302ecfe6e2381dc2bc5f89f2c2152">CreatureAI::MoveInLineOfSight_Safe</a></div><div class="ttdeci">void MoveInLineOfSight_Safe(Unit *who)</div><div class="ttdoc">== Reactions At =================================</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:147</div></div>
-<div class="ttc" id="aa07744_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d7/d9e/a07744.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:143</div></div>
-<div class="ttc" id="aa08116_html_a1b9ed00e8d7ac5fed698ef6431905296"><div class="ttname"><a href="../../d1/d36/a08116.html#a1b9ed00e8d7ac5fed698ef6431905296">Object::IsPlayer</a></div><div class="ttdeci">bool IsPlayer() const</div><div class="ttdef"><b>Definition:</b> Object.h:197</div></div>
-<div class="ttc" id="aa08148_html_addeafb9ef860ca79c7a6570ae75a4bd0"><div class="ttname"><a href="../../d0/db0/a08148.html#addeafb9ef860ca79c7a6570ae75a4bd0">WorldObject::CanSeeOrDetect</a></div><div class="ttdeci">bool CanSeeOrDetect(WorldObject const *obj, bool ignoreStealth=false, bool distanceCheck=false, bool checkAlert=false) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1726</div></div>
-<div class="ttc" id="aa08492_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../d8/dc4/a08492.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1204</div></div>
-<div class="ttc" id="aa08492_html_a671aa59743c8e3919295551a5f113ce1"><div class="ttname"><a href="../../d8/dc4/a08492.html#a671aa59743c8e3919295551a5f113ce1">Unit::HasStealthAura</a></div><div class="ttdeci">bool HasStealthAura() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1103</div></div>
-<div class="ttc" id="aa08492_html_a85b547eedd208db5f9dddc5f75a1a211"><div class="ttname"><a href="../../d8/dc4/a08492.html#a85b547eedd208db5f9dddc5f75a1a211">Unit::IsInFlight</a></div><div class="ttdeci">bool IsInFlight() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1096</div></div>
-<div class="ttc" id="aa08492_html_ab395fef0b407c0af40ba6274c32730a6"><div class="ttname"><a href="../../d8/dc4/a08492.html#ab395fef0b407c0af40ba6274c32730a6">Unit::IsAIEnabled</a></div><div class="ttdeci">bool IsAIEnabled</div><div class="ttdef"><b>Definition:</b> Unit.h:1801</div></div>
-<div class="ttc" id="aa08492_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../d8/dc4/a08492.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:673</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00143">Creature::AI()</a>, <a class="el" href="../../#l01726">WorldObject::CanSeeOrDetect()</a>, <a class="el" href="../../#l01103">Unit::HasStealthAura()</a>, <a class="el" href="../../#l00673">Unit::HasUnitState()</a>, <a class="el" href="../../#l01801">Unit::IsAIEnabled</a>, <a class="el" href="../../#l01204">Unit::IsAlive()</a>, <a class="el" href="../../#l01096">Unit::IsInFlight()</a>, <a class="el" href="../../#l00197">Object::IsPlayer()</a>, <a class="el" href="../../#l00147">CreatureAI::MoveInLineOfSight_Safe()</a>, <a class="el" href="../../#l00175">CreatureAI::TriggerAlert()</a>, and <a class="el" href="../../#l00192">UNIT_STATE_SIGHTLESS</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00196">Acore::AIRelocationNotifier::Visit()</a>, and <a class="el" href="../../#l00180">Acore::CreatureRelocationNotifier::Visit()</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_444e7ca7970920cb061ebbb02397ba46.html">Grids</a></li><li class="navelem"><a class="el" href="../../dir_286feac6c5a6e67bcd5741cf96c61741.html">Notifiers</a></li><li class="navelem"><a class="el" href="../../dd/d08/a01448.html">GridNotifiers.cpp</a></li>
-    <li class="footer">Generated on Mon Sep 23 2024 20:40:32 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_444e7ca7970920cb061ebbb02397ba46.html">Grids</a></li><li class="navelem"><a class="el" href="../../dir_286feac6c5a6e67bcd5741cf96c61741.html">Notifiers</a></li><li class="navelem"><a class="el" href="../../dd/d08/a01448.html">GridNotifiers.h</a></li>
+    <li class="footer">Generated on Mon Sep 30 2024 20:40:27 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,7 +1,7 @@
 var a26014 =
 [
-    [ "npc_creditmarker_visit_with_ancestorsAI", "db/dc9/a26014.html#a483e8fb0d73561e34a1078fdde1a1b5b", null ],
-    [ "JustEngagedWith", "db/dc9/a26014.html#a4038d707731f64f588e307c22c859902", null ],
-    [ "MoveInLineOfSight", "db/dc9/a26014.html#a40d92122cd4f879f52ff78a4f172c3b8", null ],
-    [ "Reset", "db/dc9/a26014.html#a29132346f117ba785039057619edb9e7", null ]
+    [ "HandleDummy", "db/dc9/a26014.html#a82ff05f6150750ecb6ef3b5f8c40f703", null ],
+    [ "PrepareSpellScript", "db/dc9/a26014.html#a6856f05f2cc25267f1d3023d3cb48dc2", null ],
+    [ "Register", "db/dc9/a26014.html#adadd0254d68281ac1063bcc57574ed77", null ],
+    [ "Validate", "db/dc9/a26014.html#a61923f636ad8b3d48eb2dbc6a1803527", null ]
 ];

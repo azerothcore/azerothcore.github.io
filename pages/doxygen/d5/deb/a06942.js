@@ -1,10 +1,13 @@
 var a06942 =
 [
-    [ "BattlegroundNA", "d5/deb/a06942.html#abf646e63e474ac5bb381078ffd0f286e", null ],
-    [ "FillInitialWorldStates", "d5/deb/a06942.html#addd2fe865e37a1909375c2d991586702", null ],
-    [ "HandleAreaTrigger", "d5/deb/a06942.html#a6a70ff3655c516d45ac1acf959ad8f73", null ],
-    [ "HandlePlayerUnderMap", "d5/deb/a06942.html#a098c01b5da65350b2af9ff53dc9f750c", null ],
-    [ "SetupBattleground", "d5/deb/a06942.html#addc3350a283fdac24e7aa88c23a7945a", null ],
-    [ "StartingEventCloseDoors", "d5/deb/a06942.html#a316492a374884822045971f6dc3db1e2", null ],
-    [ "StartingEventOpenDoors", "d5/deb/a06942.html#a72a953c5047a434d28b98e6185173140", null ]
+    [ "AutobroadcastsMap", "d5/deb/a06942.html#a8abeae830f5692c45bd0b880ba62e743", null ],
+    [ "AutobroadcastsWeightMap", "d5/deb/a06942.html#a75e5b978794a7010c8d9d3390d8690f9", null ],
+    [ "instance", "d5/deb/a06942.html#aead196df7f590d43c89f179ca0bd4a68", null ],
+    [ "LoadAutobroadcasts", "d5/deb/a06942.html#a48748969b122aee47d03697b6e9a2ee1", null ],
+    [ "SendAutobroadcasts", "d5/deb/a06942.html#a225907be4944713af11c312185c8aea7", null ],
+    [ "SendNotificationAnnouncement", "d5/deb/a06942.html#a942de8b823a0c8d67b6193def73d4416", null ],
+    [ "SendWorldAnnouncement", "d5/deb/a06942.html#a64a9c246fe4b57463ecdd63d016c208b", null ],
+    [ "_announceType", "d5/deb/a06942.html#a3889edc4001e26519d9df042a8b477fc", null ],
+    [ "_autobroadcasts", "d5/deb/a06942.html#a06d42010fea307a03aac0ca4e6886f1d", null ],
+    [ "_autobroadcastsWeights", "d5/deb/a06942.html#aadbd8ca926a64be4fbbe832fd633ee88", null ]
 ];

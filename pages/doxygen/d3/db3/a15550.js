@@ -1,8 +1,12 @@
 var a15550 =
 [
-    [ "FilterTargets", "d3/db3/a15550.html#a976a41800f3726db5bb9aa71be006ec1", null ],
-    [ "HandleScript", "d3/db3/a15550.html#a878422cc71299a6f7a844a6d4992fde2", null ],
-    [ "PrepareSpellScript", "d3/db3/a15550.html#a14c21ded1418294856dce32e67b6e589", null ],
-    [ "Register", "d3/db3/a15550.html#a69ed173c3ae9cca71cc119cf707c0cbb", null ],
-    [ "Validate", "d3/db3/a15550.html#a72205f5187e69cdd65b6786d6360310a", null ]
+    [ "DialogueHelper", "d3/db3/a15550.html#a3566655e8781bf5f9dff514fcd659421", null ],
+    [ "DialogueUpdate", "d3/db3/a15550.html#aaac3463d91a0cdbe2622b4fd85b34ed0", null ],
+    [ "DoNextDialogueStep", "d3/db3/a15550.html#a6e23a56ba5c5e4d4ab3b4c6be5cb09af", null ],
+    [ "GetSpeakerByEntry", "d3/db3/a15550.html#a50e652ca2cff035d8c79517fdbcfc67a", null ],
+    [ "JustDidDialogueStep", "d3/db3/a15550.html#a79e80634f1780895669f5c810958fd4f", null ],
+    [ "StartNextDialogueText", "d3/db3/a15550.html#ac16b8b9b50e8b35980d21f161bf33340", null ],
+    [ "_actionTimer", "d3/db3/a15550.html#a33b8551c136bcbc896b29d935c155a75", null ],
+    [ "_currentEntry", "d3/db3/a15550.html#a89ca5e8d25372bd8ab32322a0a9999f2", null ],
+    [ "_dialogueArray", "d3/db3/a15550.html#a489b8cd1c75ced0ec8e34b8051899dd7", null ]
 ];

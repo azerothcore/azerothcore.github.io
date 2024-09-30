@@ -1,6 +1,8 @@
 var a18382 =
 [
-    [ "npc_bone_spikeAI", "d7/df4/a18386.html", "d7/df4/a18386" ],
-    [ "npc_bone_spike", "d3/deb/a18382.html#ac93d7a45eaeae8d7adf2a3b313825aed", null ],
-    [ "GetAI", "d3/deb/a18382.html#a887a9156f550ca55047fa501e1709d95", null ]
+    [ "npc_blistering_zombieAI", "d3/deb/a18382.html#acf278cd2249ac45a4b043427ba36b3ce", null ],
+    [ "DamageTaken", "d3/deb/a18382.html#adf031992078214f90d859df2b54aac91", null ],
+    [ "UpdateAI", "d3/deb/a18382.html#ae081898b8dcaf45cd3069e79021de452", null ],
+    [ "casted", "d3/deb/a18382.html#a0f70f5d58ef0bb20f64b0aec4df04905", null ],
+    [ "timer", "d3/deb/a18382.html#a8b865c2a87b1fc020d8250767febab0a", null ]
 ];

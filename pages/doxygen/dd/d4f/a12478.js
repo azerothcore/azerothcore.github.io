@@ -1,6 +1,6 @@
 var a12478 =
 [
-    [ "spell_item_gift_of_the_harvester_SpellScript", "d5/d81/a12482.html", "d5/d81/a12482" ],
-    [ "spell_item_gift_of_the_harvester", "dd/d4f/a12478.html#abf8f22a048bc20fcbbf4db5cefab5bf8", null ],
-    [ "GetSpellScript", "dd/d4f/a12478.html#ae5c916a45dffae91374af2c20c4785d3", null ]
+    [ "boss_ellris_duskhallow", "dd/d4f/a12478.html#a85dc1f923c8211180cc5b250fb509ba7", null ],
+    [ "JustEngagedWith", "dd/d4f/a12478.html#a5bb5bc51b62ad371bf086c6ced2eee89", null ],
+    [ "UpdateAI", "dd/d4f/a12478.html#a7a461632a0b608a34bc8c3e2aa1df0ab", null ]
 ];

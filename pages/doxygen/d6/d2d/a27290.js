@@ -1,7 +1,6 @@
 var a27290 =
 [
-    [ "HandleOnEffectApply", "d6/d2d/a27290.html#a90359e3dbb5c2c8caf275f21c107ee0a", null ],
-    [ "HandleOnEffectRemove", "d6/d2d/a27290.html#a094d788d157474a9683387d5c340538f", null ],
-    [ "PrepareAuraScript", "d6/d2d/a27290.html#aad378b8c45f11af51faf9128878c01df", null ],
-    [ "Register", "d6/d2d/a27290.html#a8fcc385f504b3b357e9ceab76f11ca46", null ]
+    [ "go_bellsAI", "d1/d8c/a27294.html", "d1/d8c/a27294" ],
+    [ "go_bells", "d6/d2d/a27290.html#a9f40a13aa1aaee28ebd1254d428c0519", null ],
+    [ "GetAI", "d6/d2d/a27290.html#a4f1272fb8856310d7924f8e7be1e39f8", null ]
 ];

@@ -1,5 +1,6 @@
 var a24298 =
 [
-    [ "instance_sethekk_halls_InstanceMapScript", "d8/d17/a24298.html#a037ee225b626b64436570680ae4e9ea0", null ],
-    [ "OnCreatureCreate", "d8/d17/a24298.html#ad3555bd5d5f1d72c3bd6494339016214", null ]
+    [ "npc_pet_dk_ebon_gargoyleAI", "d7/dfe/a24302.html", "d7/dfe/a24302" ],
+    [ "npc_pet_dk_ebon_gargoyle", "d8/d17/a24298.html#ae4dcaff120a52c20a8b73d97a08604d7", null ],
+    [ "GetAI", "d8/d17/a24298.html#a19ff9fd627aab738c91ce23cf6acfffd", null ]
 ];

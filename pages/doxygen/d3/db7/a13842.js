@@ -1,14 +1,10 @@
 var a13842 =
 [
-    [ "npc_forest_frogAI", "d3/db7/a13842.html#a1859934c3166e8e1f3b215721eb7dde0", null ],
-    [ "DoSpawnRandom", "d3/db7/a13842.html#ad69092e6830cb4ed9b4971573b4938c2", null ],
-    [ "JustEngagedWith", "d3/db7/a13842.html#a11af64dd35f59e7621ef47f0a0dc70fd", null ],
-    [ "MovementInform", "d3/db7/a13842.html#a980316d840d9e6386a506101b665777e", null ],
-    [ "Reset", "d3/db7/a13842.html#abc3c1cbb9a8e403fb3c1513113437746", null ],
-    [ "SpellHit", "d3/db7/a13842.html#a598b45191168a9a2b0ef9345216bebcb", null ],
-    [ "UpdateAI", "d3/db7/a13842.html#a05ef7e4899ef1287cb4caa59d07324f7", null ],
-    [ "events", "d3/db7/a13842.html#ae007a0e7256b2118388a11035d26963d", null ],
-    [ "eventTimer", "d3/db7/a13842.html#a8064110ee297642b05fed81f421d82d3", null ],
-    [ "instance", "d3/db7/a13842.html#ae7631fcf8af5f7d3708e4580257f370b", null ],
-    [ "PlayerGUID", "d3/db7/a13842.html#a1f8f417d59c3be3bf46ab5f6ac399bc4", null ]
+    [ "boss_jeklik", "d3/db7/a13842.html#a826bdba66fee3bb82b64ca6174b66c44", null ],
+    [ "EnterEvadeMode", "d3/db7/a13842.html#a70dc363e0690e72846db5f779375edc1", null ],
+    [ "JustDied", "d3/db7/a13842.html#ae648ba9ff49f4970612a8c3351789b66", null ],
+    [ "JustEngagedWith", "d3/db7/a13842.html#aeb57cfc66104f6e2b2e36b6551207dd8", null ],
+    [ "PathEndReached", "d3/db7/a13842.html#a689e8f91361de45e6f885fea0dec900a", null ],
+    [ "Reset", "d3/db7/a13842.html#a7959106123e60e3584b32b50a272746c", null ],
+    [ "batRidersCount", "d3/db7/a13842.html#a3d81395ec4518d4e2ca7f273fc658395", null ]
 ];

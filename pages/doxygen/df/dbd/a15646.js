@@ -1,16 +1,17 @@
 var a15646 =
 [
-    [ "npc_anachronos_the_ancientAI", "df/dbd/a15646.html#aad6fbdc3cf33f2deb6dd3cc741e4aec4", null ],
-    [ "HandleAnimation", "df/dbd/a15646.html#a0bd43e2482a12cda79566f761d448109", null ],
-    [ "Reset", "df/dbd/a15646.html#a3bd2380cfd18b14aae1ae72a452299bb", null ],
-    [ "UpdateAI", "df/dbd/a15646.html#a5a55cfec1d204b6657779938e93b6be5", null ],
-    [ "AnachronosQuestTriggerGUID", "df/dbd/a15646.html#aa51b7cdfb2a37310196c81a01f89a7dd", null ],
-    [ "AnimationCount", "df/dbd/a15646.html#a504038880b7e837f63f99d477c8a0bba", null ],
-    [ "AnimationTimer", "df/dbd/a15646.html#a4ca3807429ffa2caca6199ecd66c4015", null ],
-    [ "ArygosGUID", "df/dbd/a15646.html#a4f2917c85d41d3b5015d6eed56fe9e12", null ],
-    [ "CaelestraszGUID", "df/dbd/a15646.html#adceafa1ad19ecb7df59f87b501d4622c", null ],
-    [ "eventEnd", "df/dbd/a15646.html#ad125b9eb7052449a6b75eebde7a192e0", null ],
-    [ "FandralGUID", "df/dbd/a15646.html#a157af7db82bf943c298b63d8294067ce", null ],
-    [ "MerithraGUID", "df/dbd/a15646.html#af7088f79687a4109f5701488e9019aeb", null ],
-    [ "PlayerGUID", "df/dbd/a15646.html#a7e1777ca319e4f6dafc1a035d05dabc0", null ]
+    [ "boss_volazj", "df/dbd/a15646.html#ac1f0bc7b55a554d29e55a376680bf747", null ],
+    [ "CheckPhaseMinions", "df/dbd/a15646.html#aa79bf97b6772956795bd2f16b85e061f", null ],
+    [ "DamageTaken", "df/dbd/a15646.html#a494d78875526d878421b995145b74a12", null ],
+    [ "GetPlrInsanityAuraId", "df/dbd/a15646.html#a5b6936cedb3fc411ae58f3dc3f6b689a", null ],
+    [ "InitializeAI", "df/dbd/a15646.html#a9480c4294b18c5417895e5070be9a455", null ],
+    [ "JustDied", "df/dbd/a15646.html#a6c85c56c2483c3e8b4de67b94a45e0a6", null ],
+    [ "JustEngagedWith", "df/dbd/a15646.html#a135c5606742474e77ffd0ee0a3c3ee69", null ],
+    [ "KilledUnit", "df/dbd/a15646.html#abdf2cb95f0d3d7756584c338f2e2db25", null ],
+    [ "Reset", "df/dbd/a15646.html#a0377375b89b02db3cae01390fdd13ee2", null ],
+    [ "ResetPlayersPhaseMask", "df/dbd/a15646.html#afbfa62f2b72a95434348f74fdda46da6", null ],
+    [ "SetData", "df/dbd/a15646.html#aa8b5ae6214f0c764f15b096876d614d7", null ],
+    [ "UpdateAI", "df/dbd/a15646.html#aceac85fb06c81ccd171b024ad0d57ffe", null ],
+    [ "insanityPhase", "df/dbd/a15646.html#ae90de1e956eb3653c8c2f0c04d89585b", null ],
+    [ "insanityTimes", "df/dbd/a15646.html#a7d2693147f9cb20a45ff2e5b6a2ca209", null ]
 ];

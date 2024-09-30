@@ -1,6 +1,6 @@
 var a15570 =
 [
-    [ "npc_shay_leafrunnerAI", "db/da1/a15574.html", "db/da1/a15574" ],
-    [ "npc_shay_leafrunner", "dd/dae/a15570.html#a938977a88f71a6972684644232562e79", null ],
-    [ "GetAI", "dd/dae/a15570.html#a8c05228a0f21375fd6e563baf82bcd50", null ]
+    [ "instance_zulfarrak_InstanceMapScript", "db/da1/a15574.html", "db/da1/a15574" ],
+    [ "instance_zulfarrak", "dd/dae/a15570.html#a7c8594fe278dc9f6c3ab6f291cf9bad2", null ],
+    [ "GetInstanceScript", "dd/dae/a15570.html#a5f092341e49848c9d321452be2193d56", null ]
 ];

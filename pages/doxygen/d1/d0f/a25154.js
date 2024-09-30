@@ -1,6 +1,7 @@
 var a25154 =
 [
-    [ "spell_morogrim_tidewalker_water_globule_new_target_SpellScript", "df/dcb/a25158.html", "df/dcb/a25158" ],
-    [ "spell_morogrim_tidewalker_water_globule_new_target", "d1/d0f/a25154.html#a5ff435d650e0968c36ce9df98891eac7", null ],
-    [ "GetSpellScript", "d1/d0f/a25154.html#a73720cc93ddbdd0a62f81c3a9c5b4be9", null ]
+    [ "HandleProc", "d1/d0f/a25154.html#ac88c41bcfcedd9194d9d3f958d605d37", null ],
+    [ "PrepareAuraScript", "d1/d0f/a25154.html#a66c3458e88ab5802e10445df3aeb52f6", null ],
+    [ "Register", "d1/d0f/a25154.html#af02b0af51a1fece0780414ab45c8d31e", null ],
+    [ "Validate", "d1/d0f/a25154.html#a9f955b53e5905cfb3742a58c8bedab96", null ]
 ];

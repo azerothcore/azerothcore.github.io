@@ -1,6 +1,6 @@
 var a13994 =
 [
-    [ "npc_ohganAI", "d8/da5/a13998.html", "d8/da5/a13998" ],
-    [ "npc_ohgan", "d1/d38/a13994.html#ae391f2b36c68952ca5eaf773c29cbcad", null ],
-    [ "GetAI", "d1/d38/a13994.html#a129dc2fcd449850403e0dcb99725da90", null ]
+    [ "npc_brewfest_bark_trigger", "d1/d38/a13994.html#a110d654792e1f5dae8b17f014ea3d425", null ],
+    [ "GetTextFor", "d1/d38/a13994.html#aca27445a1d9868a2cbd3a6a89dd806df", null ],
+    [ "MoveInLineOfSight", "d1/d38/a13994.html#a271a440f21b4abddd9aa087e1e64a3d0", null ]
 ];

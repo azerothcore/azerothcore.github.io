@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/OutdoorPvP/OutdoorPvPTF.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/OutdoorPvP/OutdoorPvPSI.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,10 +106,9 @@ $(document).ready(function(){initNavTree('d6/d8d/a03266.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">OutdoorPvPTF.h File Reference</div></div>
+  <div class="headertitle"><div class="title">OutdoorPvPSI.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../">OutdoorPvP.h</a>&quot;</code><br />
@@ -118,376 +117,235 @@ $(document).ready(function(){initNavTree('d6/d8d/a03266.html','../../'); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d60/a22512.html">tf_tower_world_state</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dfa/a22510.html">OutdoorPvPSI</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de6/a22516.html">OPvPCapturePointTF</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1a/a22520.html">OutdoorPvPTF</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a82bc235ec6d43b48511d1b3d903a934b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#a82bc235ec6d43b48511d1b3d903a934b">TF_CAPTURE_BUFF</a>&#160;&#160;&#160;33377</td></tr>
-<tr class="separator:a82bc235ec6d43b48511d1b3d903a934b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a7a4347e10a530d56e3c3ae66a5eae999"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999">OutdoorPvPTF_TowerType</a> { <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999ac95ea754e0befd303c7912671ff54b16">TF_TOWER_NW</a> = 0
+<tr class="memitem:a62a8c4b8a007cc2da63e91f039a9b0f5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#a62a8c4b8a007cc2da63e91f039a9b0f5">OutdoorPvPSISpells</a> { <br />
+&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a62a8c4b8a007cc2da63e91f039a9b0f5add71e365726ced6250de08c4c883f055">SI_SILITHYST_FLAG_GO_SPELL</a> = 29518
 , <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999a034d81c6a66a32fef95c75235cb39d2b">TF_TOWER_N</a>
+&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a62a8c4b8a007cc2da63e91f039a9b0f5a1bf0ed27bacc509ec19e1648e1a9ec74">SI_SILITHYST_FLAG</a> = 29519
 , <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999a210d598966bbca14ece80eb1e00bae97">TF_TOWER_NE</a>
+&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a62a8c4b8a007cc2da63e91f039a9b0f5a8f61c4e11367451aa4b95455a9086410">SI_TRACES_OF_SILITHYST</a> = 29534
 , <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999a01f2c2e0a883f8355bf433a96b52bd65">TF_TOWER_SE</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999af3a17ac5cc35927939c90503027342f0">TF_TOWER_S</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3">TF_TOWER_NUM</a>
+&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a62a8c4b8a007cc2da63e91f039a9b0f5a113a47f651228b031a6d40c36d34d2fb">SI_CENARION_FAVOR</a> = 30754
 <br />
  }</td></tr>
-<tr class="separator:a7a4347e10a530d56e3c3ae66a5eae999"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4134a455195e5cc1be9288227500b258"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258">TFWorldStates</a> { <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a01fef84454cee087b39e06f40fa95336">TF_UI_TOWER_SLIDER_POS</a> = 0xa41
+<tr class="separator:a62a8c4b8a007cc2da63e91f039a9b0f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd596d6544f4ea939ed381e28a4bea8e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#acd596d6544f4ea939ed381e28a4bea8e">SI_WorldStates</a> { <br />
+&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#acd596d6544f4ea939ed381e28a4bea8ea93e8d5fa657d73d11f310f8d25f50eb7">SI_GATHERED_A</a> = 2313
 , <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a789327b4fc1d2e623b1a0a18d70328dd">TF_UI_TOWER_SLIDER_N</a> = 0xa40
+&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#acd596d6544f4ea939ed381e28a4bea8ea6aaa9a15233b5c148eb2742487727734">SI_GATHERED_H</a> = 2314
 , <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a0137c97cdf1617d73e09085174a9842b">TF_UI_TOWER_SLIDER_DISPLAY</a> = 0xa3f
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a9f05bf2230c06a169b0a884bb33a94cc">TF_UI_TOWER_COUNT_H</a> = 0xa3e
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258ae98ffdfa2845c1411a02a1e8afba6b30">TF_UI_TOWER_COUNT_A</a> = 0xa3d
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219">TF_UI_TOWERS_CONTROLLED_DISPLAY</a> = 0xa3c
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a09a446e5fb19482131f119d4ffe75ec3">TF_UI_LOCKED_TIME_MINUTES_FIRST_DIGIT</a> = 0x9d0
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a6e71bc9f10b277d16c6ba22b6f4cb381">TF_UI_LOCKED_TIME_MINUTES_SECOND_DIGIT</a> = 0x9ce
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258af4e7d7c6926dae8b9f55258bd66c4b6b">TF_UI_LOCKED_TIME_HOURS</a> = 0x9cd
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a75d5f388814344dcdaafdb7cc434532d">TF_UI_LOCKED_DISPLAY_NEUTRAL</a> = 0x9cc
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a7b43f99b2120863099d31e07029b5dd2">TF_UI_LOCKED_DISPLAY_HORDE</a> = 0xad0
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a3ad3af0875c04da341c52ec43710eee0">TF_UI_LOCKED_DISPLAY_ALLIANCE</a> = 0xacf
+&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#acd596d6544f4ea939ed381e28a4bea8ea7ecead5dc8f4f2a091dcabd2f3c96b45">SI_SILITHYST_MAX</a> = 2317
 <br />
  }</td></tr>
-<tr class="separator:a4134a455195e5cc1be9288227500b258"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5815248809b8fd06bd664886846a7126"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#a5815248809b8fd06bd664886846a7126">TFTowerStates</a> { <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a5815248809b8fd06bd664886846a7126a1bf771ad2a93c40a6d0d5312167a046f">TF_TOWERSTATE_N</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a5815248809b8fd06bd664886846a7126a133214fb55c09ba0030cc76b1d2082c1">TF_TOWERSTATE_H</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d8d/a03266.html#a5815248809b8fd06bd664886846a7126acde31be20bbd32d3bf71bd3352e7e43d">TF_TOWERSTATE_A</a> = 4
-<br />
- }</td></tr>
-<tr class="separator:a5815248809b8fd06bd664886846a7126"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:acd596d6544f4ea939ed381e28a4bea8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:acde5c9331776adb4ed27c2319476e550"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#acde5c9331776adb4ed27c2319476e550">OutdoorPvPTFBuffZonesNum</a> = 5</td></tr>
-<tr class="separator:acde5c9331776adb4ed27c2319476e550"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b09030102f8c0dbb4b0e6bbfdee9b24"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#a6b09030102f8c0dbb4b0e6bbfdee9b24">OutdoorPvPTFBuffZones</a> [<a class="el" href="../../d6/d8d/a03266.html#acde5c9331776adb4ed27c2319476e550">OutdoorPvPTFBuffZonesNum</a>]</td></tr>
-<tr class="separator:a6b09030102f8c0dbb4b0e6bbfdee9b24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a925c2f6bf9c7a6d1b694382b888fa85f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#a925c2f6bf9c7a6d1b694382b888fa85f">TF_LOCK_TIME</a> = 6 * <a class="el" href="../../dc/d87/a00032.html#ac78ba8a81d12635c129fe2f92ca46c6f">HOUR</a> * <a class="el" href="../../dc/d87/a00032.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a></td></tr>
-<tr class="separator:a925c2f6bf9c7a6d1b694382b888fa85f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ef7be226d98726081fd3cb435d223b5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#a9ef7be226d98726081fd3cb435d223b5">TF_LOCK_TIME_UPDATE</a> = 15 * <a class="el" href="../../dc/d87/a00032.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a></td></tr>
-<tr class="separator:a9ef7be226d98726081fd3cb435d223b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3967b7bb2df0e330fbd21a68d557b19a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#a3967b7bb2df0e330fbd21a68d557b19a">TF_ALLY_QUEST</a> = 11505</td></tr>
-<tr class="separator:a3967b7bb2df0e330fbd21a68d557b19a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bbe00a4cf0ae9f6750d23ef10539c0a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#a1bbe00a4cf0ae9f6750d23ef10539c0a">TF_HORDE_QUEST</a> = 11506</td></tr>
-<tr class="separator:a1bbe00a4cf0ae9f6750d23ef10539c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19e9cf9859a7578f154dcdcfa0670620"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/d8c/a09812.html">go_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#a19e9cf9859a7578f154dcdcfa0670620">TFCapturePoints</a> [<a class="el" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3">TF_TOWER_NUM</a>]</td></tr>
-<tr class="separator:a19e9cf9859a7578f154dcdcfa0670620"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5dbb8989285178cfea88af6f03dd6a6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d6/d60/a22512.html">tf_tower_world_state</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#ac5dbb8989285178cfea88af6f03dd6a6">TFTowerWorldStates</a> [<a class="el" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3">TF_TOWER_NUM</a>]</td></tr>
-<tr class="separator:ac5dbb8989285178cfea88af6f03dd6a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9558d0ea12ff1048686daf5bf0ff999c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#a9558d0ea12ff1048686daf5bf0ff999c">SI_MAX_RESOURCES</a> = 200</td></tr>
+<tr class="separator:a9558d0ea12ff1048686daf5bf0ff999c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf633cff2fc1b3449acb7753f698c4d4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#aaf633cff2fc1b3449acb7753f698c4d4">OutdoorPvPSIBuffZonesNum</a> = 3</td></tr>
+<tr class="separator:aaf633cff2fc1b3449acb7753f698c4d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a155bfb73bcc562d8eaaa4d62d52e59bc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#a155bfb73bcc562d8eaaa4d62d52e59bc">OutdoorPvPSIBuffZones</a> [<a class="el" href="../../d6/d8d/a03266.html#aaf633cff2fc1b3449acb7753f698c4d4">OutdoorPvPSIBuffZonesNum</a>] = { 1377, 3428, 3429 }</td></tr>
+<tr class="separator:a155bfb73bcc562d8eaaa4d62d52e59bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb17804eb9913c298a5dae804e1c7206"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#abb17804eb9913c298a5dae804e1c7206">SI_AREATRIGGER_H</a> = 4168</td></tr>
+<tr class="separator:abb17804eb9913c298a5dae804e1c7206"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca1406dea9e721dc32c834e8b85b2d9a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#aca1406dea9e721dc32c834e8b85b2d9a">SI_AREATRIGGER_A</a> = 4162</td></tr>
+<tr class="separator:aca1406dea9e721dc32c834e8b85b2d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18c47c74867642b4bd8cc166d9fe1e79"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#a18c47c74867642b4bd8cc166d9fe1e79">SI_TURNIN_QUEST_CM_A</a> = 17090</td></tr>
+<tr class="separator:a18c47c74867642b4bd8cc166d9fe1e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1787da9136bc956357571149e1f6b60"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#ad1787da9136bc956357571149e1f6b60">SI_TURNIN_QUEST_CM_H</a> = 18199</td></tr>
+<tr class="separator:ad1787da9136bc956357571149e1f6b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a6a1265e5e65971f8d86be718ea3bb3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8d/a03266.html#a5a6a1265e5e65971f8d86be718ea3bb3">SI_SILITHYST_MOUND</a> = 181597</td></tr>
+<tr class="separator:a5a6a1265e5e65971f8d86be718ea3bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a82bc235ec6d43b48511d1b3d903a934b" name="a82bc235ec6d43b48511d1b3d903a934b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82bc235ec6d43b48511d1b3d903a934b">&#9670;&#160;</a></span>TF_CAPTURE_BUFF</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TF_CAPTURE_BUFF&#160;&#160;&#160;33377</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a7a4347e10a530d56e3c3ae66a5eae999" name="a7a4347e10a530d56e3c3ae66a5eae999"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a4347e10a530d56e3c3ae66a5eae999">&#9670;&#160;</a></span>OutdoorPvPTF_TowerType</h2>
+<a id="a62a8c4b8a007cc2da63e91f039a9b0f5" name="a62a8c4b8a007cc2da63e91f039a9b0f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62a8c4b8a007cc2da63e91f039a9b0f5">&#9670;&#160;</a></span>OutdoorPvPSISpells</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999">OutdoorPvPTF_TowerType</a></td>
+          <td class="memname">enum <a class="el" href="../../d6/d8d/a03266.html#a62a8c4b8a007cc2da63e91f039a9b0f5">OutdoorPvPSISpells</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7a4347e10a530d56e3c3ae66a5eae999ac95ea754e0befd303c7912671ff54b16" name="a7a4347e10a530d56e3c3ae66a5eae999ac95ea754e0befd303c7912671ff54b16"></a>TF_TOWER_NW&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7a4347e10a530d56e3c3ae66a5eae999a034d81c6a66a32fef95c75235cb39d2b" name="a7a4347e10a530d56e3c3ae66a5eae999a034d81c6a66a32fef95c75235cb39d2b"></a>TF_TOWER_N&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7a4347e10a530d56e3c3ae66a5eae999a210d598966bbca14ece80eb1e00bae97" name="a7a4347e10a530d56e3c3ae66a5eae999a210d598966bbca14ece80eb1e00bae97"></a>TF_TOWER_NE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7a4347e10a530d56e3c3ae66a5eae999a01f2c2e0a883f8355bf433a96b52bd65" name="a7a4347e10a530d56e3c3ae66a5eae999a01f2c2e0a883f8355bf433a96b52bd65"></a>TF_TOWER_SE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7a4347e10a530d56e3c3ae66a5eae999af3a17ac5cc35927939c90503027342f0" name="a7a4347e10a530d56e3c3ae66a5eae999af3a17ac5cc35927939c90503027342f0"></a>TF_TOWER_S&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3" name="a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3"></a>TF_TOWER_NUM&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a62a8c4b8a007cc2da63e91f039a9b0f5add71e365726ced6250de08c4c883f055" name="a62a8c4b8a007cc2da63e91f039a9b0f5add71e365726ced6250de08c4c883f055"></a>SI_SILITHYST_FLAG_GO_SPELL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a62a8c4b8a007cc2da63e91f039a9b0f5a1bf0ed27bacc509ec19e1648e1a9ec74" name="a62a8c4b8a007cc2da63e91f039a9b0f5a1bf0ed27bacc509ec19e1648e1a9ec74"></a>SI_SILITHYST_FLAG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a62a8c4b8a007cc2da63e91f039a9b0f5a8f61c4e11367451aa4b95455a9086410" name="a62a8c4b8a007cc2da63e91f039a9b0f5a8f61c4e11367451aa4b95455a9086410"></a>SI_TRACES_OF_SILITHYST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a62a8c4b8a007cc2da63e91f039a9b0f5a113a47f651228b031a6d40c36d34d2fb" name="a62a8c4b8a007cc2da63e91f039a9b0f5a113a47f651228b031a6d40c36d34d2fb"></a>SI_CENARION_FAVOR&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   47</span>{</div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999ac95ea754e0befd303c7912671ff54b16">TF_TOWER_NW</a> = 0,</div>
-<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999a034d81c6a66a32fef95c75235cb39d2b">TF_TOWER_N</a>,</div>
-<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999a210d598966bbca14ece80eb1e00bae97">TF_TOWER_NE</a>,</div>
-<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999a01f2c2e0a883f8355bf433a96b52bd65">TF_TOWER_SE</a>,</div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999af3a17ac5cc35927939c90503027342f0">TF_TOWER_S</a>,</div>
-<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3">TF_TOWER_NUM</a></div>
-<div class="line"><span class="lineno">   54</span>};</div>
-<div class="ttc" id="aa03266_html_a7a4347e10a530d56e3c3ae66a5eae999a01f2c2e0a883f8355bf433a96b52bd65"><div class="ttname"><a href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999a01f2c2e0a883f8355bf433a96b52bd65">TF_TOWER_SE</a></div><div class="ttdeci">@ TF_TOWER_SE</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:51</div></div>
-<div class="ttc" id="aa03266_html_a7a4347e10a530d56e3c3ae66a5eae999a034d81c6a66a32fef95c75235cb39d2b"><div class="ttname"><a href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999a034d81c6a66a32fef95c75235cb39d2b">TF_TOWER_N</a></div><div class="ttdeci">@ TF_TOWER_N</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:49</div></div>
-<div class="ttc" id="aa03266_html_a7a4347e10a530d56e3c3ae66a5eae999a210d598966bbca14ece80eb1e00bae97"><div class="ttname"><a href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999a210d598966bbca14ece80eb1e00bae97">TF_TOWER_NE</a></div><div class="ttdeci">@ TF_TOWER_NE</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:50</div></div>
-<div class="ttc" id="aa03266_html_a7a4347e10a530d56e3c3ae66a5eae999ac95ea754e0befd303c7912671ff54b16"><div class="ttname"><a href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999ac95ea754e0befd303c7912671ff54b16">TF_TOWER_NW</a></div><div class="ttdeci">@ TF_TOWER_NW</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:48</div></div>
-<div class="ttc" id="aa03266_html_a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3"><div class="ttname"><a href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3">TF_TOWER_NUM</a></div><div class="ttdeci">@ TF_TOWER_NUM</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:53</div></div>
-<div class="ttc" id="aa03266_html_a7a4347e10a530d56e3c3ae66a5eae999af3a17ac5cc35927939c90503027342f0"><div class="ttname"><a href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999af3a17ac5cc35927939c90503027342f0">TF_TOWER_S</a></div><div class="ttdeci">@ TF_TOWER_S</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:52</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   24</span>{</div>
+<div class="line"><span class="lineno">   25</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a62a8c4b8a007cc2da63e91f039a9b0f5add71e365726ced6250de08c4c883f055">SI_SILITHYST_FLAG_GO_SPELL</a> = 29518,</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a62a8c4b8a007cc2da63e91f039a9b0f5a1bf0ed27bacc509ec19e1648e1a9ec74">SI_SILITHYST_FLAG</a> = 29519,</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a62a8c4b8a007cc2da63e91f039a9b0f5a8f61c4e11367451aa4b95455a9086410">SI_TRACES_OF_SILITHYST</a> = 29534,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a62a8c4b8a007cc2da63e91f039a9b0f5a113a47f651228b031a6d40c36d34d2fb">SI_CENARION_FAVOR</a> = 30754</div>
+<div class="line"><span class="lineno">   29</span>};</div>
+<div class="ttc" id="aa03266_html_a62a8c4b8a007cc2da63e91f039a9b0f5a113a47f651228b031a6d40c36d34d2fb"><div class="ttname"><a href="../../d6/d8d/a03266.html#a62a8c4b8a007cc2da63e91f039a9b0f5a113a47f651228b031a6d40c36d34d2fb">SI_CENARION_FAVOR</a></div><div class="ttdeci">@ SI_CENARION_FAVOR</div><div class="ttdef"><b>Definition:</b> OutdoorPvPSI.h:28</div></div>
+<div class="ttc" id="aa03266_html_a62a8c4b8a007cc2da63e91f039a9b0f5a1bf0ed27bacc509ec19e1648e1a9ec74"><div class="ttname"><a href="../../d6/d8d/a03266.html#a62a8c4b8a007cc2da63e91f039a9b0f5a1bf0ed27bacc509ec19e1648e1a9ec74">SI_SILITHYST_FLAG</a></div><div class="ttdeci">@ SI_SILITHYST_FLAG</div><div class="ttdef"><b>Definition:</b> OutdoorPvPSI.h:26</div></div>
+<div class="ttc" id="aa03266_html_a62a8c4b8a007cc2da63e91f039a9b0f5a8f61c4e11367451aa4b95455a9086410"><div class="ttname"><a href="../../d6/d8d/a03266.html#a62a8c4b8a007cc2da63e91f039a9b0f5a8f61c4e11367451aa4b95455a9086410">SI_TRACES_OF_SILITHYST</a></div><div class="ttdeci">@ SI_TRACES_OF_SILITHYST</div><div class="ttdef"><b>Definition:</b> OutdoorPvPSI.h:27</div></div>
+<div class="ttc" id="aa03266_html_a62a8c4b8a007cc2da63e91f039a9b0f5add71e365726ced6250de08c4c883f055"><div class="ttname"><a href="../../d6/d8d/a03266.html#a62a8c4b8a007cc2da63e91f039a9b0f5add71e365726ced6250de08c4c883f055">SI_SILITHYST_FLAG_GO_SPELL</a></div><div class="ttdeci">@ SI_SILITHYST_FLAG_GO_SPELL</div><div class="ttdef"><b>Definition:</b> OutdoorPvPSI.h:25</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a5815248809b8fd06bd664886846a7126" name="a5815248809b8fd06bd664886846a7126"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5815248809b8fd06bd664886846a7126">&#9670;&#160;</a></span>TFTowerStates</h2>
+<a id="acd596d6544f4ea939ed381e28a4bea8e" name="acd596d6544f4ea939ed381e28a4bea8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd596d6544f4ea939ed381e28a4bea8e">&#9670;&#160;</a></span>SI_WorldStates</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d6/d8d/a03266.html#a5815248809b8fd06bd664886846a7126">TFTowerStates</a></td>
+          <td class="memname">enum <a class="el" href="../../d6/d8d/a03266.html#acd596d6544f4ea939ed381e28a4bea8e">SI_WorldStates</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5815248809b8fd06bd664886846a7126a1bf771ad2a93c40a6d0d5312167a046f" name="a5815248809b8fd06bd664886846a7126a1bf771ad2a93c40a6d0d5312167a046f"></a>TF_TOWERSTATE_N&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5815248809b8fd06bd664886846a7126a133214fb55c09ba0030cc76b1d2082c1" name="a5815248809b8fd06bd664886846a7126a133214fb55c09ba0030cc76b1d2082c1"></a>TF_TOWERSTATE_H&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5815248809b8fd06bd664886846a7126acde31be20bbd32d3bf71bd3352e7e43d" name="a5815248809b8fd06bd664886846a7126acde31be20bbd32d3bf71bd3352e7e43d"></a>TF_TOWERSTATE_A&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="acd596d6544f4ea939ed381e28a4bea8ea93e8d5fa657d73d11f310f8d25f50eb7" name="acd596d6544f4ea939ed381e28a4bea8ea93e8d5fa657d73d11f310f8d25f50eb7"></a>SI_GATHERED_A&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acd596d6544f4ea939ed381e28a4bea8ea6aaa9a15233b5c148eb2742487727734" name="acd596d6544f4ea939ed381e28a4bea8ea6aaa9a15233b5c148eb2742487727734"></a>SI_GATHERED_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="acd596d6544f4ea939ed381e28a4bea8ea7ecead5dc8f4f2a091dcabd2f3c96b45" name="acd596d6544f4ea939ed381e28a4bea8ea7ecead5dc8f4f2a091dcabd2f3c96b45"></a>SI_SILITHYST_MAX&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">  118</span>{</div>
-<div class="line"><span class="lineno">  119</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a5815248809b8fd06bd664886846a7126a1bf771ad2a93c40a6d0d5312167a046f">TF_TOWERSTATE_N</a> = 1,</div>
-<div class="line"><span class="lineno">  120</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a5815248809b8fd06bd664886846a7126a133214fb55c09ba0030cc76b1d2082c1">TF_TOWERSTATE_H</a> = 2,</div>
-<div class="line"><span class="lineno">  121</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a5815248809b8fd06bd664886846a7126acde31be20bbd32d3bf71bd3352e7e43d">TF_TOWERSTATE_A</a> = 4</div>
-<div class="line"><span class="lineno">  122</span>};</div>
-<div class="ttc" id="aa03266_html_a5815248809b8fd06bd664886846a7126a133214fb55c09ba0030cc76b1d2082c1"><div class="ttname"><a href="../../d6/d8d/a03266.html#a5815248809b8fd06bd664886846a7126a133214fb55c09ba0030cc76b1d2082c1">TF_TOWERSTATE_H</a></div><div class="ttdeci">@ TF_TOWERSTATE_H</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:120</div></div>
-<div class="ttc" id="aa03266_html_a5815248809b8fd06bd664886846a7126a1bf771ad2a93c40a6d0d5312167a046f"><div class="ttname"><a href="../../d6/d8d/a03266.html#a5815248809b8fd06bd664886846a7126a1bf771ad2a93c40a6d0d5312167a046f">TF_TOWERSTATE_N</a></div><div class="ttdeci">@ TF_TOWERSTATE_N</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:119</div></div>
-<div class="ttc" id="aa03266_html_a5815248809b8fd06bd664886846a7126acde31be20bbd32d3bf71bd3352e7e43d"><div class="ttname"><a href="../../d6/d8d/a03266.html#a5815248809b8fd06bd664886846a7126acde31be20bbd32d3bf71bd3352e7e43d">TF_TOWERSTATE_A</a></div><div class="ttdeci">@ TF_TOWERSTATE_A</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:121</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4134a455195e5cc1be9288227500b258" name="a4134a455195e5cc1be9288227500b258"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4134a455195e5cc1be9288227500b258">&#9670;&#160;</a></span>TFWorldStates</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258">TFWorldStates</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4134a455195e5cc1be9288227500b258a01fef84454cee087b39e06f40fa95336" name="a4134a455195e5cc1be9288227500b258a01fef84454cee087b39e06f40fa95336"></a>TF_UI_TOWER_SLIDER_POS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4134a455195e5cc1be9288227500b258a789327b4fc1d2e623b1a0a18d70328dd" name="a4134a455195e5cc1be9288227500b258a789327b4fc1d2e623b1a0a18d70328dd"></a>TF_UI_TOWER_SLIDER_N&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4134a455195e5cc1be9288227500b258a0137c97cdf1617d73e09085174a9842b" name="a4134a455195e5cc1be9288227500b258a0137c97cdf1617d73e09085174a9842b"></a>TF_UI_TOWER_SLIDER_DISPLAY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4134a455195e5cc1be9288227500b258a9f05bf2230c06a169b0a884bb33a94cc" name="a4134a455195e5cc1be9288227500b258a9f05bf2230c06a169b0a884bb33a94cc"></a>TF_UI_TOWER_COUNT_H&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4134a455195e5cc1be9288227500b258ae98ffdfa2845c1411a02a1e8afba6b30" name="a4134a455195e5cc1be9288227500b258ae98ffdfa2845c1411a02a1e8afba6b30"></a>TF_UI_TOWER_COUNT_A&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219" name="a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219"></a>TF_UI_TOWERS_CONTROLLED_DISPLAY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4134a455195e5cc1be9288227500b258a09a446e5fb19482131f119d4ffe75ec3" name="a4134a455195e5cc1be9288227500b258a09a446e5fb19482131f119d4ffe75ec3"></a>TF_UI_LOCKED_TIME_MINUTES_FIRST_DIGIT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4134a455195e5cc1be9288227500b258a6e71bc9f10b277d16c6ba22b6f4cb381" name="a4134a455195e5cc1be9288227500b258a6e71bc9f10b277d16c6ba22b6f4cb381"></a>TF_UI_LOCKED_TIME_MINUTES_SECOND_DIGIT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4134a455195e5cc1be9288227500b258af4e7d7c6926dae8b9f55258bd66c4b6b" name="a4134a455195e5cc1be9288227500b258af4e7d7c6926dae8b9f55258bd66c4b6b"></a>TF_UI_LOCKED_TIME_HOURS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4134a455195e5cc1be9288227500b258a75d5f388814344dcdaafdb7cc434532d" name="a4134a455195e5cc1be9288227500b258a75d5f388814344dcdaafdb7cc434532d"></a>TF_UI_LOCKED_DISPLAY_NEUTRAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4134a455195e5cc1be9288227500b258a7b43f99b2120863099d31e07029b5dd2" name="a4134a455195e5cc1be9288227500b258a7b43f99b2120863099d31e07029b5dd2"></a>TF_UI_LOCKED_DISPLAY_HORDE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4134a455195e5cc1be9288227500b258a3ad3af0875c04da341c52ec43710eee0" name="a4134a455195e5cc1be9288227500b258a3ad3af0875c04da341c52ec43710eee0"></a>TF_UI_LOCKED_DISPLAY_ALLIANCE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  100</span>{</div>
-<div class="line"><span class="lineno">  101</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a01fef84454cee087b39e06f40fa95336">TF_UI_TOWER_SLIDER_POS</a> = 0xa41,</div>
-<div class="line"><span class="lineno">  102</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a789327b4fc1d2e623b1a0a18d70328dd">TF_UI_TOWER_SLIDER_N</a> = 0xa40,</div>
-<div class="line"><span class="lineno">  103</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a0137c97cdf1617d73e09085174a9842b">TF_UI_TOWER_SLIDER_DISPLAY</a> = 0xa3f,</div>
-<div class="line"><span class="lineno">  104</span> </div>
-<div class="line"><span class="lineno">  105</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a9f05bf2230c06a169b0a884bb33a94cc">TF_UI_TOWER_COUNT_H</a> = 0xa3e,</div>
-<div class="line"><span class="lineno">  106</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258ae98ffdfa2845c1411a02a1e8afba6b30">TF_UI_TOWER_COUNT_A</a> = 0xa3d,</div>
-<div class="line"><span class="lineno">  107</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219">TF_UI_TOWERS_CONTROLLED_DISPLAY</a> = 0xa3c,</div>
-<div class="line"><span class="lineno">  108</span> </div>
-<div class="line"><span class="lineno">  109</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a09a446e5fb19482131f119d4ffe75ec3">TF_UI_LOCKED_TIME_MINUTES_FIRST_DIGIT</a> = 0x9d0,</div>
-<div class="line"><span class="lineno">  110</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a6e71bc9f10b277d16c6ba22b6f4cb381">TF_UI_LOCKED_TIME_MINUTES_SECOND_DIGIT</a> = 0x9ce,</div>
-<div class="line"><span class="lineno">  111</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258af4e7d7c6926dae8b9f55258bd66c4b6b">TF_UI_LOCKED_TIME_HOURS</a> = 0x9cd,</div>
-<div class="line"><span class="lineno">  112</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a75d5f388814344dcdaafdb7cc434532d">TF_UI_LOCKED_DISPLAY_NEUTRAL</a> = 0x9cc,</div>
-<div class="line"><span class="lineno">  113</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a7b43f99b2120863099d31e07029b5dd2">TF_UI_LOCKED_DISPLAY_HORDE</a> = 0xad0,</div>
-<div class="line"><span class="lineno">  114</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a3ad3af0875c04da341c52ec43710eee0">TF_UI_LOCKED_DISPLAY_ALLIANCE</a> = 0xacf</div>
-<div class="line"><span class="lineno">  115</span>};</div>
-<div class="ttc" id="aa03266_html_a4134a455195e5cc1be9288227500b258a0137c97cdf1617d73e09085174a9842b"><div class="ttname"><a href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a0137c97cdf1617d73e09085174a9842b">TF_UI_TOWER_SLIDER_DISPLAY</a></div><div class="ttdeci">@ TF_UI_TOWER_SLIDER_DISPLAY</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:103</div></div>
-<div class="ttc" id="aa03266_html_a4134a455195e5cc1be9288227500b258a01fef84454cee087b39e06f40fa95336"><div class="ttname"><a href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a01fef84454cee087b39e06f40fa95336">TF_UI_TOWER_SLIDER_POS</a></div><div class="ttdeci">@ TF_UI_TOWER_SLIDER_POS</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:101</div></div>
-<div class="ttc" id="aa03266_html_a4134a455195e5cc1be9288227500b258a09a446e5fb19482131f119d4ffe75ec3"><div class="ttname"><a href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a09a446e5fb19482131f119d4ffe75ec3">TF_UI_LOCKED_TIME_MINUTES_FIRST_DIGIT</a></div><div class="ttdeci">@ TF_UI_LOCKED_TIME_MINUTES_FIRST_DIGIT</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:109</div></div>
-<div class="ttc" id="aa03266_html_a4134a455195e5cc1be9288227500b258a3ad3af0875c04da341c52ec43710eee0"><div class="ttname"><a href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a3ad3af0875c04da341c52ec43710eee0">TF_UI_LOCKED_DISPLAY_ALLIANCE</a></div><div class="ttdeci">@ TF_UI_LOCKED_DISPLAY_ALLIANCE</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:114</div></div>
-<div class="ttc" id="aa03266_html_a4134a455195e5cc1be9288227500b258a6e71bc9f10b277d16c6ba22b6f4cb381"><div class="ttname"><a href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a6e71bc9f10b277d16c6ba22b6f4cb381">TF_UI_LOCKED_TIME_MINUTES_SECOND_DIGIT</a></div><div class="ttdeci">@ TF_UI_LOCKED_TIME_MINUTES_SECOND_DIGIT</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:110</div></div>
-<div class="ttc" id="aa03266_html_a4134a455195e5cc1be9288227500b258a75d5f388814344dcdaafdb7cc434532d"><div class="ttname"><a href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a75d5f388814344dcdaafdb7cc434532d">TF_UI_LOCKED_DISPLAY_NEUTRAL</a></div><div class="ttdeci">@ TF_UI_LOCKED_DISPLAY_NEUTRAL</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:112</div></div>
-<div class="ttc" id="aa03266_html_a4134a455195e5cc1be9288227500b258a789327b4fc1d2e623b1a0a18d70328dd"><div class="ttname"><a href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a789327b4fc1d2e623b1a0a18d70328dd">TF_UI_TOWER_SLIDER_N</a></div><div class="ttdeci">@ TF_UI_TOWER_SLIDER_N</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:102</div></div>
-<div class="ttc" id="aa03266_html_a4134a455195e5cc1be9288227500b258a7b43f99b2120863099d31e07029b5dd2"><div class="ttname"><a href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a7b43f99b2120863099d31e07029b5dd2">TF_UI_LOCKED_DISPLAY_HORDE</a></div><div class="ttdeci">@ TF_UI_LOCKED_DISPLAY_HORDE</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:113</div></div>
-<div class="ttc" id="aa03266_html_a4134a455195e5cc1be9288227500b258a9f05bf2230c06a169b0a884bb33a94cc"><div class="ttname"><a href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258a9f05bf2230c06a169b0a884bb33a94cc">TF_UI_TOWER_COUNT_H</a></div><div class="ttdeci">@ TF_UI_TOWER_COUNT_H</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:105</div></div>
-<div class="ttc" id="aa03266_html_a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219"><div class="ttname"><a href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258abb0bd82d464ffe5f0ab6ab68c71f8219">TF_UI_TOWERS_CONTROLLED_DISPLAY</a></div><div class="ttdeci">@ TF_UI_TOWERS_CONTROLLED_DISPLAY</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:107</div></div>
-<div class="ttc" id="aa03266_html_a4134a455195e5cc1be9288227500b258ae98ffdfa2845c1411a02a1e8afba6b30"><div class="ttname"><a href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258ae98ffdfa2845c1411a02a1e8afba6b30">TF_UI_TOWER_COUNT_A</a></div><div class="ttdeci">@ TF_UI_TOWER_COUNT_A</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:106</div></div>
-<div class="ttc" id="aa03266_html_a4134a455195e5cc1be9288227500b258af4e7d7c6926dae8b9f55258bd66c4b6b"><div class="ttname"><a href="../../d6/d8d/a03266.html#a4134a455195e5cc1be9288227500b258af4e7d7c6926dae8b9f55258bd66c4b6b">TF_UI_LOCKED_TIME_HOURS</a></div><div class="ttdeci">@ TF_UI_LOCKED_TIME_HOURS</div><div class="ttdef"><b>Definition:</b> OutdoorPvPTF.h:111</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   48</span>{</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#acd596d6544f4ea939ed381e28a4bea8ea93e8d5fa657d73d11f310f8d25f50eb7">SI_GATHERED_A</a> = 2313,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#acd596d6544f4ea939ed381e28a4bea8ea6aaa9a15233b5c148eb2742487727734">SI_GATHERED_H</a> = 2314,</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d6/d8d/a03266.html#acd596d6544f4ea939ed381e28a4bea8ea7ecead5dc8f4f2a091dcabd2f3c96b45">SI_SILITHYST_MAX</a> = 2317</div>
+<div class="line"><span class="lineno">   52</span>};</div>
+<div class="ttc" id="aa03266_html_acd596d6544f4ea939ed381e28a4bea8ea6aaa9a15233b5c148eb2742487727734"><div class="ttname"><a href="../../d6/d8d/a03266.html#acd596d6544f4ea939ed381e28a4bea8ea6aaa9a15233b5c148eb2742487727734">SI_GATHERED_H</a></div><div class="ttdeci">@ SI_GATHERED_H</div><div class="ttdef"><b>Definition:</b> OutdoorPvPSI.h:50</div></div>
+<div class="ttc" id="aa03266_html_acd596d6544f4ea939ed381e28a4bea8ea7ecead5dc8f4f2a091dcabd2f3c96b45"><div class="ttname"><a href="../../d6/d8d/a03266.html#acd596d6544f4ea939ed381e28a4bea8ea7ecead5dc8f4f2a091dcabd2f3c96b45">SI_SILITHYST_MAX</a></div><div class="ttdeci">@ SI_SILITHYST_MAX</div><div class="ttdef"><b>Definition:</b> OutdoorPvPSI.h:51</div></div>
+<div class="ttc" id="aa03266_html_acd596d6544f4ea939ed381e28a4bea8ea93e8d5fa657d73d11f310f8d25f50eb7"><div class="ttname"><a href="../../d6/d8d/a03266.html#acd596d6544f4ea939ed381e28a4bea8ea93e8d5fa657d73d11f310f8d25f50eb7">SI_GATHERED_A</a></div><div class="ttdeci">@ SI_GATHERED_A</div><div class="ttdef"><b>Definition:</b> OutdoorPvPSI.h:49</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a6b09030102f8c0dbb4b0e6bbfdee9b24" name="a6b09030102f8c0dbb4b0e6bbfdee9b24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b09030102f8c0dbb4b0e6bbfdee9b24">&#9670;&#160;</a></span>OutdoorPvPTFBuffZones</h2>
+<a id="a155bfb73bcc562d8eaaa4d62d52e59bc" name="a155bfb73bcc562d8eaaa4d62d52e59bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a155bfb73bcc562d8eaaa4d62d52e59bc">&#9670;&#160;</a></span>OutdoorPvPSIBuffZones</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> OutdoorPvPTFBuffZones[<a class="el" href="../../d6/d8d/a03266.html#acde5c9331776adb4ed27c2319476e550">OutdoorPvPTFBuffZonesNum</a>]</td>
+          <td class="memname">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> OutdoorPvPSIBuffZones[<a class="el" href="../../d6/d8d/a03266.html#aaf633cff2fc1b3449acb7753f698c4d4">OutdoorPvPSIBuffZonesNum</a>] = { 1377, 3428, 3429 }</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    3519 ,</div>
-<div class="line">    3791 ,</div>
-<div class="line">    3789 ,</div>
-<div class="line">    3792 ,</div>
-<div class="line">    3790 </div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00393">OPvPCapturePointTF::ChangeState()</a>, and <a class="el" href="../../#l00331">OutdoorPvPTF::SetupOutdoorPvP()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00090">OutdoorPvPSI::HandleAreaTrigger()</a>, and <a class="el" href="../../#l00061">OutdoorPvPSI::SetupOutdoorPvP()</a>.</p>
 
 </div>
 </div>
-<a id="acde5c9331776adb4ed27c2319476e550" name="acde5c9331776adb4ed27c2319476e550"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acde5c9331776adb4ed27c2319476e550">&#9670;&#160;</a></span>OutdoorPvPTFBuffZonesNum</h2>
+<a id="aaf633cff2fc1b3449acb7753f698c4d4" name="aaf633cff2fc1b3449acb7753f698c4d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf633cff2fc1b3449acb7753f698c4d4">&#9670;&#160;</a></span>OutdoorPvPSIBuffZonesNum</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> OutdoorPvPTFBuffZonesNum = 5</td>
+          <td class="memname">const <a class="el" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> OutdoorPvPSIBuffZonesNum = 3</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00331">OutdoorPvPTF::SetupOutdoorPvP()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00061">OutdoorPvPSI::SetupOutdoorPvP()</a>.</p>
 
 </div>
 </div>
-<a id="a3967b7bb2df0e330fbd21a68d557b19a" name="a3967b7bb2df0e330fbd21a68d557b19a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3967b7bb2df0e330fbd21a68d557b19a">&#9670;&#160;</a></span>TF_ALLY_QUEST</h2>
+<a id="aca1406dea9e721dc32c834e8b85b2d9a" name="aca1406dea9e721dc32c834e8b85b2d9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca1406dea9e721dc32c834e8b85b2d9a">&#9670;&#160;</a></span>SI_AREATRIGGER_A</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> TF_ALLY_QUEST = 11505</td>
+          <td class="memname">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SI_AREATRIGGER_A = 4162</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00393">OPvPCapturePointTF::ChangeState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00090">OutdoorPvPSI::HandleAreaTrigger()</a>, and <a class="el" href="../../#l00152">OutdoorPvPSI::HandleDropFlag()</a>.</p>
 
 </div>
 </div>
-<a id="a1bbe00a4cf0ae9f6750d23ef10539c0a" name="a1bbe00a4cf0ae9f6750d23ef10539c0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bbe00a4cf0ae9f6750d23ef10539c0a">&#9670;&#160;</a></span>TF_HORDE_QUEST</h2>
+<a id="abb17804eb9913c298a5dae804e1c7206" name="abb17804eb9913c298a5dae804e1c7206"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb17804eb9913c298a5dae804e1c7206">&#9670;&#160;</a></span>SI_AREATRIGGER_H</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> TF_HORDE_QUEST = 11506</td>
+          <td class="memname">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SI_AREATRIGGER_H = 4168</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00393">OPvPCapturePointTF::ChangeState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00090">OutdoorPvPSI::HandleAreaTrigger()</a>, and <a class="el" href="../../#l00152">OutdoorPvPSI::HandleDropFlag()</a>.</p>
 
 </div>
 </div>
-<a id="a925c2f6bf9c7a6d1b694382b888fa85f" name="a925c2f6bf9c7a6d1b694382b888fa85f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a925c2f6bf9c7a6d1b694382b888fa85f">&#9670;&#160;</a></span>TF_LOCK_TIME</h2>
+<a id="a9558d0ea12ff1048686daf5bf0ff999c" name="a9558d0ea12ff1048686daf5bf0ff999c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9558d0ea12ff1048686daf5bf0ff999c">&#9670;&#160;</a></span>SI_MAX_RESOURCES</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> TF_LOCK_TIME = 6 * <a class="el" href="../../dc/d87/a00032.html#ac78ba8a81d12635c129fe2f92ca46c6f">HOUR</a> * <a class="el" href="../../dc/d87/a00032.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a></td>
+          <td class="memname">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SI_MAX_RESOURCES = 200</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00030">OutdoorPvPTF::OutdoorPvPTF()</a>, <a class="el" href="../../#l00331">OutdoorPvPTF::SetupOutdoorPvP()</a>, and <a class="el" href="../../#l00201">OutdoorPvPTF::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00040">OutdoorPvPSI::FillInitialWorldStates()</a>, <a class="el" href="../../#l00090">OutdoorPvPSI::HandleAreaTrigger()</a>, and <a class="el" href="../../#l00054">OutdoorPvPSI::UpdateWorldState()</a>.</p>
 
 </div>
 </div>
-<a id="a9ef7be226d98726081fd3cb435d223b5" name="a9ef7be226d98726081fd3cb435d223b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ef7be226d98726081fd3cb435d223b5">&#9670;&#160;</a></span>TF_LOCK_TIME_UPDATE</h2>
+<a id="a5a6a1265e5e65971f8d86be718ea3bb3" name="a5a6a1265e5e65971f8d86be718ea3bb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a6a1265e5e65971f8d86be718ea3bb3">&#9670;&#160;</a></span>SI_SILITHYST_MOUND</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> TF_LOCK_TIME_UPDATE = 15 * <a class="el" href="../../dc/d87/a00032.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a></td>
+          <td class="memname">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SI_SILITHYST_MOUND = 181597</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00201">OutdoorPvPTF::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00235">OutdoorPvPSI::HandleCustomSpell()</a>, and <a class="el" href="../../#l00152">OutdoorPvPSI::HandleDropFlag()</a>.</p>
 
 </div>
 </div>
-<a id="a19e9cf9859a7578f154dcdcfa0670620" name="a19e9cf9859a7578f154dcdcfa0670620"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19e9cf9859a7578f154dcdcfa0670620">&#9670;&#160;</a></span>TFCapturePoints</h2>
+<a id="a18c47c74867642b4bd8cc166d9fe1e79" name="a18c47c74867642b4bd8cc166d9fe1e79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18c47c74867642b4bd8cc166d9fe1e79">&#9670;&#160;</a></span>SI_TURNIN_QUEST_CM_A</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../de/d8c/a09812.html">go_type</a> TFCapturePoints[<a class="el" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3">TF_TOWER_NUM</a>]</td>
+          <td class="memname">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SI_TURNIN_QUEST_CM_A = 17090</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    {183104, 530, -3081.65f, 5335.03f, 17.1853f, -2.14675f, 0.0f, 0.0f, 0.878817f, -0.477159f},</div>
-<div class="line">    {183411, 530, -2939.9f, 4788.73f, 18.987f, 2.77507f, 0.0f, 0.0f, 0.983255f, 0.182236f},</div>
-<div class="line">    {183412, 530, -3174.94f, 4440.97f, 16.2281f, 1.86750f, 0.0f, 0.0f, 0.803857f, 0.594823f},</div>
-<div class="line">    {183413, 530, -3603.31f, 4529.15f, 20.9077f, 0.994838f, 0.0f, 0.0f, 0.477159f, 0.878817f},</div>
-<div class="line">    {183414, 530, -3812.37f, 4899.3f, 17.7249f, 0.087266f, 0.0f, 0.0f, 0.043619f, 0.999048f}</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00047">OPvPCapturePointTF::OPvPCapturePointTF()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00090">OutdoorPvPSI::HandleAreaTrigger()</a>.</p>
 
 </div>
 </div>
-<a id="ac5dbb8989285178cfea88af6f03dd6a6" name="ac5dbb8989285178cfea88af6f03dd6a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5dbb8989285178cfea88af6f03dd6a6">&#9670;&#160;</a></span>TFTowerWorldStates</h2>
+<a id="ad1787da9136bc956357571149e1f6b60" name="ad1787da9136bc956357571149e1f6b60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1787da9136bc956357571149e1f6b60">&#9670;&#160;</a></span>SI_TURNIN_QUEST_CM_H</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../d6/d60/a22512.html">tf_tower_world_state</a> TFTowerWorldStates[<a class="el" href="../../d6/d8d/a03266.html#a7a4347e10a530d56e3c3ae66a5eae999ad6085f7af14a95c2f7331b50721ff5a3">TF_TOWER_NUM</a>]</td>
+          <td class="memname">const <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SI_TURNIN_QUEST_CM_H = 18199</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    {0xa79, 0xa7a, 0xa7b},</div>
-<div class="line">    {0xa7e, 0xa7d, 0xa7c},</div>
-<div class="line">    {0xa82, 0xa81, 0xa80},</div>
-<div class="line">    {0xa88, 0xa87, 0xa86},</div>
-<div class="line">    {0xa85, 0xa84, 0xa83}</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00053">OPvPCapturePointTF::FillInitialWorldStates()</a>, <a class="el" href="../../#l00084">OutdoorPvPTF::SendRemoveWorldStates()</a>, and <a class="el" href="../../#l00175">OPvPCapturePointTF::UpdateTowerState()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00090">OutdoorPvPSI::HandleAreaTrigger()</a>.</p>
 
 </div>
 </div>
@@ -496,8 +354,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ad9d2bd1e1e418dea010d25c4d4f5d3.html">OutdoorPvP</a></li><li class="navelem"><a class="el" href="../../d6/d8d/a03266.html">OutdoorPvPTF.h</a></li>
-    <li class="footer">Generated on Mon Sep 23 2024 20:41:13 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ad9d2bd1e1e418dea010d25c4d4f5d3.html">OutdoorPvP</a></li><li class="navelem"><a class="el" href="../../d6/d8d/a03266.html">OutdoorPvPSI.h</a></li>
+    <li class="footer">Generated on Mon Sep 30 2024 20:41:08 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

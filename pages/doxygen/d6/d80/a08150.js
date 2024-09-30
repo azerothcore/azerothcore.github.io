@@ -1,13 +1,11 @@
 var a08150 =
 [
-    [ "PassengerSet", "d6/d80/a08150.html#aa6421ebd51e84c819604e18e93729d27", null ],
-    [ "Transport", "d6/d80/a08150.html#a36928c178aa490c02aa25b4b12e2bf63", null ],
-    [ "AddPassenger", "d6/d80/a08150.html#ac5c328f816b0358a68265322219357c1", null ],
-    [ "CalculatePassengerOffset", "d6/d80/a08150.html#a327d37eef797c4197b8bba503bd8a3f8", null ],
-    [ "CalculatePassengerPosition", "d6/d80/a08150.html#ae4e716194ce5e9c466a8fe5c53ee0980", null ],
-    [ "GetPassengers", "d6/d80/a08150.html#a3f70c977ba2450d4244e54e4260f6ea1", null ],
-    [ "GetPathProgress", "d6/d80/a08150.html#a4ecab9f8617918aea3a26cc0feb9c021", null ],
-    [ "RemovePassenger", "d6/d80/a08150.html#a1d70745a16a1cbf3307a25ff4a53c75d", null ],
-    [ "SetPathProgress", "d6/d80/a08150.html#acb68e75a78fa196a4b514abd24c0e322", null ],
-    [ "_passengers", "d6/d80/a08150.html#adc2089495aadaab23414ecae3b2df180", null ]
+    [ "MovableMapObject", "d6/d80/a08150.html#ad9f4cb74c55993cfdfc5895aefc33cfb", null ],
+    [ "GetCurrentCell", "d6/d80/a08150.html#a6d7d87cff5f00f3b370584675caf7870", null ],
+    [ "SetCurrentCell", "d6/d80/a08150.html#a4caa8c9e50452bff413dec06bf80b84c", null ],
+    [ "Map", "d6/d80/a08150.html#ad2f32e921244459f7cc6d50355429cc6", null ],
+    [ "ObjectGridLoader", "d6/d80/a08150.html#a9551c85ae0e43e4d212225c643da2262", null ],
+    [ "RandomMovementGenerator", "d6/d80/a08150.html#a260ebfc53c9406bc0356c553822d8ab2", null ],
+    [ "_currentCell", "d6/d80/a08150.html#a529db8859c0c9713bcc2f62459bbcc9f", null ],
+    [ "_moveState", "d6/d80/a08150.html#a6782d8e3dc7de58ef83a83cf0a355e43", null ]
 ];

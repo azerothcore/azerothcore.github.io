@@ -1,11 +1,10 @@
 var a16514 =
 [
-    [ "npc_toc5_grand_champion_minionAI", "dc/d25/a16514.html#a06ff16fe0076de4e34ba20e0bbc49009", null ],
-    [ "JustDied", "dc/d25/a16514.html#a23e5001255c6d49a6b217b9606aa53c5", null ],
-    [ "JustEngagedWith", "dc/d25/a16514.html#a37a04ac2d6f30e415410f3806abaabb8", null ],
-    [ "Reset", "dc/d25/a16514.html#ad35a26c28485b1976c55d49fcd32fb19", null ],
-    [ "UpdateAI", "dc/d25/a16514.html#a2b9fdd3daa725921819ae2acee418d51", null ],
-    [ "events", "dc/d25/a16514.html#a1b405c2acd53a4e5f1179f52c8c2261b", null ],
-    [ "pInstance", "dc/d25/a16514.html#a6edd3dc8070edd031143e7a750f4d7a8", null ],
-    [ "ShieldTimer", "dc/d25/a16514.html#a080916d385f4157afbe4c455033b88ba", null ]
+    [ "boss_dredAI", "dc/d25/a16514.html#a4ad04fe31990a37fd6d3a23329350248", null ],
+    [ "GetData", "dc/d25/a16514.html#a7a93506d77eaf40c6f7be9e433f211e1", null ],
+    [ "JustEngagedWith", "dc/d25/a16514.html#ae6e1181dcdea763460ca72148abfcb3f", null ],
+    [ "Reset", "dc/d25/a16514.html#a5fe153ab58b1feedce5afa6b10a0d3de", null ],
+    [ "SetData", "dc/d25/a16514.html#a884f48aabc26b054dcd303a91cb88301", null ],
+    [ "UpdateAI", "dc/d25/a16514.html#afc12ced9b5026fe3b297560c30e129ed", null ],
+    [ "_raptorCount", "dc/d25/a16514.html#a95aa63c18d7e1f2dec2491ac4649a378", null ]
 ];

@@ -1,6 +1,6 @@
 var a17914 =
 [
-    [ "npc_saurfang_eventAI", "d9/de5/a17918.html", "d9/de5/a17918" ],
-    [ "npc_saurfang_event", "d9/d2b/a17914.html#a3bfce5457466360458498833098d660c", null ],
-    [ "GetAI", "d9/d2b/a17914.html#a953842d2fa3380a8331faf3a42cb3177", null ]
+    [ "FilterTargets", "d9/d2b/a17914.html#aa7e731de9e5ab1078b8ff7022393c9a7", null ],
+    [ "PrepareSpellScript", "d9/d2b/a17914.html#ae92968db6e5a1384f89e6aff9ab2d1f3", null ],
+    [ "Register", "d9/d2b/a17914.html#ae6ab0b56688bfc07262cc83e84102ccb", null ]
 ];

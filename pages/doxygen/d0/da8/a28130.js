@@ -1,6 +1,7 @@
 var a28130 =
 [
-    [ "HandleScriptEffect", "d0/da8/a28130.html#a8b60ae77f13045a582548fe5d1186d54", null ],
-    [ "PrepareSpellScript", "d0/da8/a28130.html#ad68619783c4a1aad5a24826bf5d89858", null ],
-    [ "Register", "d0/da8/a28130.html#a929c49d6dd30b6a0dedfbc23c877eb36", null ]
+    [ "ID", "d0/da8/a28130.html#a3af48dd3f6b92ad7f5950d99ca6dd379", null ],
+    [ "Index", "d0/da8/a28130.html#aa58e046529aae0d1d6201c08ec8107e2", null ],
+    [ "Skill", "d0/da8/a28130.html#aed5e58cf605d3c28cd0d26015722be03", null ],
+    [ "Type", "d0/da8/a28130.html#a39b0b548efd795c162926bddcdd301b5", null ]
 ];

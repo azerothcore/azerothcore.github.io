@@ -1,6 +1,5 @@
 var a11834 =
 [
-    [ "boss_gehennasAI", "d5/d62/a11838.html", "d5/d62/a11838" ],
-    [ "boss_gehennas", "de/db1/a11834.html#a380a24cbaad4e247c6c76fd63ac34f59", null ],
-    [ "GetAI", "de/db1/a11834.html#a92f9ff0e957da5331b4a3ecc48be0ffa", null ]
+    [ "at_blackrock_stadium", "de/db1/a11834.html#a9f577437f231a189c02e50e71ffcb85a", null ],
+    [ "OnTrigger", "de/db1/a11834.html#a26e43099d9253ea44060194e3b38c656", null ]
 ];

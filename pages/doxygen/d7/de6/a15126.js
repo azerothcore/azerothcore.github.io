@@ -1,5 +1,6 @@
 var a15126 =
 [
-    [ "boss_yauj", "d7/de6/a15126.html#a15ab7b6b35d29fb1552b11586163320e", null ],
-    [ "JustEngagedWith", "d7/de6/a15126.html#a94a2fa960e6924bde9ba6934a56ed684", null ]
+    [ "npc_depth_chargeAI", "db/d6e/a15130.html", "db/d6e/a15130" ],
+    [ "npc_depth_charge", "d7/de6/a15126.html#ad16e3431b06fdd6797bfb51dda9005f5", null ],
+    [ "GetAI", "d7/de6/a15126.html#a16de1a207304ea2ad7f47d5674deeec1", null ]
 ];

@@ -1,9 +1,8 @@
 var a09006 =
 [
-    [ "EmoteChatBuilder", "da/df3/a09006.html#ae1aeb36aad24d5ef28074edfbf2f9e7e", null ],
-    [ "operator()", "da/df3/a09006.html#a133a7bb35e86cf40425910c4f19a3337", null ],
-    [ "i_emote_num", "da/df3/a09006.html#a966b8afcbf5afca3a3466d8e075a9437", null ],
-    [ "i_player", "da/df3/a09006.html#ae09dbfe01b2a24e57b63b2b1df5ad232", null ],
-    [ "i_target", "da/df3/a09006.html#abc538e056d91ea1ee8d6203c96174b1d", null ],
-    [ "i_text_emote", "da/df3/a09006.html#add0630dc3fc76fb4fdb79095e13b2fc0", null ]
+    [ "AnyUnfriendlyNoTotemUnitInObjectRangeCheck", "da/df3/a09006.html#ac4378cfa8fedb3453c0e810d497cb99c", null ],
+    [ "operator()", "da/df3/a09006.html#ad9e3486316cf297ba79a588c60b4ce15", null ],
+    [ "i_funit", "da/df3/a09006.html#ace766830b26d8aae3ec673d2102a9969", null ],
+    [ "i_obj", "da/df3/a09006.html#ae12f4176e49438cfa248345cfe7c9947", null ],
+    [ "i_range", "da/df3/a09006.html#a8335ef8fd7376e7c920dfbca2318d646", null ]
 ];

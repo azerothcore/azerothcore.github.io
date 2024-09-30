@@ -1,7 +1,8 @@
 var a26978 =
 [
-    [ "HandleProc", "d8/dc5/a26978.html#af768269d315e998fc2042794c3a03b58", null ],
-    [ "PrepareAuraScript", "d8/dc5/a26978.html#ae3da67d626ee11c57a85a3af99ff07a5", null ],
-    [ "Register", "d8/dc5/a26978.html#a2df1cff47861cbf3198e573c6031b54e", null ],
-    [ "Validate", "d8/dc5/a26978.html#a84f40eec148c55108085db5e7b05cb0e", null ]
+    [ "CharacterActionIpLogger", "d8/dc5/a26978.html#a39861f7348a79031a8215b435ba81059", null ],
+    [ "CharacterIPLogAction", "d8/dc5/a26978.html#abf461fe7e7d89057aeb122abbd27e30e", null ],
+    [ "OnCreate", "d8/dc5/a26978.html#ae25875eed131046444874c4109619748", null ],
+    [ "OnLogin", "d8/dc5/a26978.html#af430f10fe536ac40df50bc9424a7decb", null ],
+    [ "OnLogout", "d8/dc5/a26978.html#aca289740b022dcaa0ae681327785cb72", null ]
 ];

@@ -1,6 +1,6 @@
 var a22058 =
 [
-    [ "BoomEvent", "d8/dc9/a22058.html#aa9b7a8785f382068bb4510ffc0b43004", null ],
-    [ "Execute", "d8/dc9/a22058.html#a1a870bea5c8e0a24a8ecd347a862ee75", null ],
-    [ "_me", "d8/dc9/a22058.html#a30de77ee751f1c10231088cb84942342", null ]
+    [ "ChangeSummonPos", "d8/dc9/a22058.html#aeb2cf0a5d2e563e4983ddd237a2b1001", null ],
+    [ "PrepareSpellScript", "d8/dc9/a22058.html#a1654fec971696e613b5102b3ca5030f1", null ],
+    [ "Register", "d8/dc9/a22058.html#ab1e7d44914952dfb7f7ccf2de4da286f", null ]
 ];

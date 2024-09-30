@@ -1,6 +1,8 @@
 var a18158 =
 [
-    [ "PrepareSpellScript", "d3/ddd/a18158.html#ad5aa49896bec706e60ea9725969698c9", null ],
-    [ "Register", "d3/ddd/a18158.html#a8bfd04c4d3d212a9bae2ef9fb0177574", null ],
-    [ "RelocateTransportOffset", "d3/ddd/a18158.html#aecf5f2a7a4f38274460917742e80734a", null ]
+    [ "ChangeDamageAndGrow", "d3/ddd/a18158.html#a017ade08eca93f326d2e5115c4d88c33", null ],
+    [ "CorrectRange", "d3/ddd/a18158.html#a9022b9efab89bc562428520b3551ff37", null ],
+    [ "PrepareSpellScript", "d3/ddd/a18158.html#a3e1d1764add95728428cbf25f9b66dc4", null ],
+    [ "Register", "d3/ddd/a18158.html#a998b810cdbecbca2bf65f18cee14d286", null ],
+    [ "Validate", "d3/ddd/a18158.html#afe0910e903f6f8f466b272ce9ddc7a6b", null ]
 ];

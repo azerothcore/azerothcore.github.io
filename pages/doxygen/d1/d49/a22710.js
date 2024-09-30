@@ -1,6 +1,7 @@
 var a22710 =
 [
-    [ "HandlePeriodicDummy", "d1/d49/a22710.html#a4d68f9d9021ec28fde64c38bce3f5bb2", null ],
-    [ "PrepareAuraScript", "d1/d49/a22710.html#aad803ad4c185075a66f792e0aef9be2c", null ],
-    [ "Register", "d1/d49/a22710.html#a48357a7c879ddd51710554918b92f6ce", null ]
+    [ "HandleEffectRemove", "d1/d49/a22710.html#a0d8d042e6e9bf8fd26b6f283f6da6194", null ],
+    [ "PrepareAuraScript", "d1/d49/a22710.html#a84ec7db2aab055bc4328a4d8862bd3f5", null ],
+    [ "Register", "d1/d49/a22710.html#a9ee8e71020c17f593472de5a9c130753", null ],
+    [ "Validate", "d1/d49/a22710.html#a08be3cb2bef2f4697b7e258b231bd35b", null ]
 ];

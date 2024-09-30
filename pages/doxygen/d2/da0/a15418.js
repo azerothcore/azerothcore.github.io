@@ -1,6 +1,7 @@
 var a15418 =
 [
-    [ "npc_murkdeepAI", "d8/dfe/a15422.html", "d8/dfe/a15422" ],
-    [ "npc_murkdeep", "d2/da0/a15418.html#a72d44d786bcba4dea5ccedd33e7dbd3c", null ],
-    [ "GetAI", "d2/da0/a15418.html#ab9f8faa3adaf1f251e1248fbe0f46468", null ]
+    [ "npc_kaya_flathoofAI", "d8/dfe/a15422.html", "d8/dfe/a15422" ],
+    [ "npc_kaya_flathoof", "d2/da0/a15418.html#a588f88b1c00927a4ad6b7cd25fc1b065", null ],
+    [ "GetAI", "d2/da0/a15418.html#ad7cce0c1a30abe5bc0bffa777c40c79a", null ],
+    [ "OnQuestAccept", "d2/da0/a15418.html#acdb20ecb1ffee4417c9b39f3aebb0591", null ]
 ];

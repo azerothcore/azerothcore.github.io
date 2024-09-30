@@ -1,6 +1,6 @@
 var a17174 =
 [
-    [ "spell_hor_shared_sufferingAuraScript", "d5/dad/a17178.html", "d5/dad/a17178" ],
-    [ "spell_hor_shared_suffering", "d9/d66/a17174.html#a3f2e4fd6fd6f1d998e0f416c89421354", null ],
-    [ "GetAuraScript", "d9/d66/a17174.html#a1005546188769336161ad8e572b6d5fe", null ]
+    [ "npc_kinetic_bombAI", "d5/dad/a17178.html", "d5/dad/a17178" ],
+    [ "npc_kinetic_bomb", "d9/d66/a17174.html#abca5a72d3ac0d50a27e604e8e1491957", null ],
+    [ "GetAI", "d9/d66/a17174.html#ae00630d96dc7a93ea13841c1f9e9be3b", null ]
 ];

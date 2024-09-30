@@ -1,7 +1,10 @@
 var a09382 =
 [
-    [ "Finalize", "d0/dbe/a09382.html#a90c8b42ef67968bf58acae5678dc7496", null ],
-    [ "Initialize", "d0/dbe/a09382.html#ad6b97c3e2884dfbe3f17e2579b31ac66", null ],
-    [ "Reset", "d0/dbe/a09382.html#a6db99ea9863dc60d032bacda37afa078", null ],
-    [ "Update", "d0/dbe/a09382.html#af044c8725ef11e8a152987225521ef8b", null ]
+    [ "iterator", "d0/dbe/a09382.html#a9fada63aa17222fc5e216f3904affafd", null ],
+    [ "begin", "d0/dbe/a09382.html#aee3a4701c5bc51f4028fe53f18675989", null ],
+    [ "end", "d0/dbe/a09382.html#ad61defd77296790a6c5d0a43bacbbe4b", null ],
+    [ "getFirst", "d0/dbe/a09382.html#ae47bba95a17db31a42231da948245387", null ],
+    [ "getLast", "d0/dbe/a09382.html#ac03e93ac8ad6fc91ec9d2961b8904217", null ],
+    [ "rbegin", "d0/dbe/a09382.html#af68f1d93a80e13976798dfed0063a1e4", null ],
+    [ "rend", "d0/dbe/a09382.html#a92c30fb269bc99820b6964a99ee86d98", null ]
 ];

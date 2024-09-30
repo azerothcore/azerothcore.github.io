@@ -1,8 +1,7 @@
 var a18974 =
 [
-    [ "HeightDifferenceCheck", "dc/d84/a18974.html#aa8b61811e435cce456e5cb1d798be66e", null ],
-    [ "operator()", "dc/d84/a18974.html#a1db203642683f85176f2a35eb3d10c34", null ],
-    [ "_baseObject", "dc/d84/a18974.html#a7c274be02ca58429dffaee2ea34153c6", null ],
-    [ "_difference", "dc/d84/a18974.html#af95e2bf67c8316dda982896978c45a68", null ],
-    [ "_reverse", "dc/d84/a18974.html#a89074844d5fd8b02ed99c09ac4cc5b85", null ]
+    [ "OnPeriodic", "dc/d84/a18974.html#ae685e9d36b85af8a7e33cefbd439a2f4", null ],
+    [ "PrepareAuraScript", "dc/d84/a18974.html#a1362103840db4b3c40ef7d6b0aa5226c", null ],
+    [ "Register", "dc/d84/a18974.html#a39b03ebd7f6233f373f52e34f18dad10", null ],
+    [ "Validate", "dc/d84/a18974.html#a54cfed486827216817adb740efa6646e", null ]
 ];

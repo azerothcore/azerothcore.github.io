@@ -1,6 +1,8 @@
 var a25882 =
 [
-    [ "instance_mechanar_InstanceMapScript", "d1/db7/a25886.html", "d1/db7/a25886" ],
-    [ "instance_mechanar", "dc/dee/a25882.html#ab31a66a0eb8b9ac6f79af479528ff4fd", null ],
-    [ "GetInstanceScript", "dc/dee/a25882.html#ae8e9810a9bfd6b0ec256dd6a288392ed", null ]
+    [ "CheckQuest", "dc/dee/a25882.html#ab7ebff0894832ac009cda89b7c28e252", null ],
+    [ "HandleDummy", "dc/dee/a25882.html#a365df14504a54e95e7d68d22a284e441", null ],
+    [ "HandleOpenObject", "dc/dee/a25882.html#a69467afd49dc2429b8ba9640c8af5dfa", null ],
+    [ "PrepareSpellScript", "dc/dee/a25882.html#a479e313031a2e71473238d8f645bf2d4", null ],
+    [ "Register", "dc/dee/a25882.html#a70f1a91e611cc2092aad44a909cd53db", null ]
 ];

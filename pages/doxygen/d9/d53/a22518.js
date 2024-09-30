@@ -1,6 +1,6 @@
 var a22518 =
 [
-    [ "boss_skarvald_the_constructorAI", "d8/d03/a22522.html", "d8/d03/a22522" ],
-    [ "boss_skarvald_the_constructor", "d9/d53/a22518.html#ae96b7ee4ddcf7956141b85c4c4d4129c", null ],
-    [ "GetAI", "d9/d53/a22518.html#a979e3699d9c87cf4207b70026fb49180", null ]
+    [ "a", "d9/d53/a22518.html#af01321c0fa24acf26086f7dccb326640", null ],
+    [ "h", "d9/d53/a22518.html#a0b9b712fc851286077ee5bbd8136a413", null ],
+    [ "n", "d9/d53/a22518.html#aad82b0a6ff47c6997a6b8d5492748b63", null ]
 ];

@@ -1,5 +1,5 @@
 var a22462 =
 [
-    [ "PrepareAuraScript", "d2/d8e/a22462.html#a664ecc588653e376293e82f6d25daa3a", null ],
-    [ "Register", "d2/d8e/a22462.html#a9d61cc982d0d8d176e8e7efba0225b68", null ]
+    [ "OutdoorPvP_grizzly_hills", "d2/d8e/a22462.html#aa020d8120c62874fb15b4623bbb714d9", null ],
+    [ "GetOutdoorPvP", "d2/d8e/a22462.html#add8a0c81bcc55c7b382c25fa077b80ce", null ]
 ];

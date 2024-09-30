@@ -1,11 +1,10 @@
 var a24286 =
 [
-    [ "boss_talon_king_ikiss", "d9/d41/a24286.html#acf8cbda5f7a33c026bfc0d6e7b31f43c", null ],
-    [ "CanAIAttack", "d9/d41/a24286.html#ab4858d845f149b6333941d8f8ab59afb", null ],
-    [ "JustDied", "d9/d41/a24286.html#ada1d993842d04453d6afad91e186a3fe", null ],
-    [ "JustEngagedWith", "d9/d41/a24286.html#a325312ce6695435fcca701720434c64f", null ],
-    [ "KilledUnit", "d9/d41/a24286.html#aff8f533b207b5c56b3028bcc0bacaa31", null ],
-    [ "MoveInLineOfSight", "d9/d41/a24286.html#ab13808b75b1ca79b856e5b2e64e67d89", null ],
-    [ "Reset", "d9/d41/a24286.html#adcb1dca375ec548499da5a7690babc21", null ],
-    [ "_spoken", "d9/d41/a24286.html#a3e9e3a8575dbf21262ba2b4226182373", null ]
+    [ "npc_isla_starmaneAI", "d9/d41/a24286.html#a0cb655d324ddde173dcfdee069c0f694", null ],
+    [ "JustDied", "d9/d41/a24286.html#ac7132ac84a64bccbcf8895cbc4a86f9c", null ],
+    [ "JustEngagedWith", "d9/d41/a24286.html#ab40287c6bfc67b09bf7336ea53116cab", null ],
+    [ "JustRespawned", "d9/d41/a24286.html#a69b395a9b9504737109870c5e8db74c8", null ],
+    [ "UpdateEscortAI", "d9/d41/a24286.html#af4b8c80e7443bb671be253238b124910", null ],
+    [ "WaypointReached", "d9/d41/a24286.html#a5d00583afa4e811e4f3cb8400787a990", null ],
+    [ "events", "d9/d41/a24286.html#a53cfabbe7cf85ceb19286d67bb23f2ec", null ]
 ];

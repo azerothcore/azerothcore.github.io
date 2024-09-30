@@ -1,6 +1,6 @@
 var a18698 =
 [
-    [ "spell_rotface_unstable_ooze_explosion_SpellScript", "d7/df5/a18702.html", "d7/df5/a18702" ],
-    [ "spell_rotface_unstable_ooze_explosion", "d2/db5/a18698.html#af78c72b5f2fc3997924d645b4c08088a", null ],
-    [ "GetSpellScript", "d2/db5/a18698.html#ac889f959eaa3e178b62601b79c83fef5", null ]
+    [ "npc_icc_nerubar_broodkeeperAI", "d7/df5/a18702.html", "d7/df5/a18702" ],
+    [ "npc_icc_nerubar_broodkeeper", "d2/db5/a18698.html#adf9c3bfb444fed50420c2e780b373f34", null ],
+    [ "GetAI", "d2/db5/a18698.html#ad12186da36f7bbf99275a746bc874bfc", null ]
 ];

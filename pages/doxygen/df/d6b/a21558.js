@@ -1,5 +1,6 @@
 var a21558 =
 [
-    [ "achievement_i_could_say_that_this_cache_was_rare", "df/d6b/a21558.html#a8ec1949d92f21fe57f967e510453da3e", null ],
-    [ "OnCheck", "df/d6b/a21558.html#af68ad314c9b7be57964ca9baa8015bc9", null ]
+    [ "npc_bloodmage_laurithAI", "d9/da4/a21562.html", "d9/da4/a21562" ],
+    [ "npc_bloodmage_laurith", "df/d6b/a21558.html#a40ab80342ddc86afca3b1bd37b1ca6b5", null ],
+    [ "GetAI", "df/d6b/a21558.html#a5a5151a56de3ad1012d9a795dbfb5bd5", null ]
 ];

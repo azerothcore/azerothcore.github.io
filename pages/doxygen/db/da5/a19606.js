@@ -1,6 +1,8 @@
 var a19606 =
 [
-    [ "npc_arthas_teleport_visualAI", "df/dd7/a19610.html", "df/dd7/a19610" ],
-    [ "npc_arthas_teleport_visual", "db/da5/a19606.html#a62d2caed6b12355f6d7aeceabba2ddaf", null ],
-    [ "GetAI", "db/da5/a19606.html#a393d5ef960b9ee0cf8feeeeb5d81045d", null ]
+    [ "npc_algalon_worm_holeAI", "db/da5/a19606.html#a07b36b40972bebea6b17890aa8fee50c", null ],
+    [ "JustSummoned", "db/da5/a19606.html#a148de5da4502813e369ec6c52b1671a0", null ],
+    [ "Reset", "db/da5/a19606.html#a915a8e5e23062cb10da9a3dbe387cf51", null ],
+    [ "UpdateAI", "db/da5/a19606.html#a9df88d81aa4f4dd7e1dcdf6209832c32", null ],
+    [ "_summonTimer", "db/da5/a19606.html#a73a55560e5ff7957d883f732bc0d2a82", null ]
 ];

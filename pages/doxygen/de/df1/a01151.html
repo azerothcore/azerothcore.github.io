@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Misc/GameGraveyard.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Misc/DynamicVisibility.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,96 +107,86 @@ $(document).ready(function(){initNavTree('de/df1/a01151.html','../../'); initRes
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
-  <div class="headertitle"><div class="title">GameGraveyard.h File Reference</div></div>
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">DynamicVisibility.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
-<code>#include &lt;map&gt;</code><br />
-<code>#include &lt;unordered_map&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/ddc/a09600.html">GraveyardStruct</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d53/a09598.html">VisibilitySettingData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1a/a09604.html">GraveyardData</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d40/a09608.html">Graveyard</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/a09602.html">DynamicVisibilityMgr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ac68c2a63982a6142e1931450d7b6115c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df1/a01151.html#ac68c2a63982a6142e1931450d7b6115c">sGraveyard</a>&#160;&#160;&#160;<a class="el" href="../../d0/d40/a09608.html#aaaf39d71af738cac8dd427ca94a5689b">Graveyard::instance</a>()</td></tr>
-<tr class="separator:ac68c2a63982a6142e1931450d7b6115c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2733c1a6a4018078df00a4c426661436"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df1/a01151.html#a2733c1a6a4018078df00a4c426661436">VISIBILITY_SETTINGS_PLAYER_INTERVAL</a>&#160;&#160;&#160;500</td></tr>
+<tr class="separator:a2733c1a6a4018078df00a4c426661436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae515340ce2037b26a80e4db46e653b59"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df1/a01151.html#ae515340ce2037b26a80e4db46e653b59">VISIBILITY_SETTINGS_MAX_INTERVAL_NUM</a>&#160;&#160;&#160;7</td></tr>
+<tr class="separator:ae515340ce2037b26a80e4db46e653b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a484cb47c00fe9b952853e3b04212437c"><td class="memItemLeft" align="right" valign="top">typedef std::multimap&lt; <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d7/d1a/a09604.html">GraveyardData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df1/a01151.html#a484cb47c00fe9b952853e3b04212437c">WGGraveyardContainer</a></td></tr>
-<tr class="separator:a484cb47c00fe9b952853e3b04212437c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5ea0c376a2e44483f8c5cb084b3b186"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; WGGraveyardContainer::const_iterator, WGGraveyardContainer::const_iterator &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df1/a01151.html#aa5ea0c376a2e44483f8c5cb084b3b186">GraveyardMapBounds</a></td></tr>
-<tr class="separator:aa5ea0c376a2e44483f8c5cb084b3b186"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a551a1219fa9a26b5ed21656c2f9dd1"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; WGGraveyardContainer::iterator, WGGraveyardContainer::iterator &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df1/a01151.html#a6a551a1219fa9a26b5ed21656c2f9dd1">GraveyardMapBoundsNonConst</a></td></tr>
-<tr class="separator:a6a551a1219fa9a26b5ed21656c2f9dd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ab01e98c3eef9241e381bb20d29d66cbd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../de/d53/a09598.html">VisibilitySettingData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df1/a01151.html#ab01e98c3eef9241e381bb20d29d66cbd">VisibilitySettings</a> [<a class="el" href="../../de/df1/a01151.html#ae515340ce2037b26a80e4db46e653b59">VISIBILITY_SETTINGS_MAX_INTERVAL_NUM</a>][5]</td></tr>
+<tr class="separator:ab01e98c3eef9241e381bb20d29d66cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ac68c2a63982a6142e1931450d7b6115c" name="ac68c2a63982a6142e1931450d7b6115c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac68c2a63982a6142e1931450d7b6115c">&#9670;&#160;</a></span>sGraveyard</h2>
+<a id="ae515340ce2037b26a80e4db46e653b59" name="ae515340ce2037b26a80e4db46e653b59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae515340ce2037b26a80e4db46e653b59">&#9670;&#160;</a></span>VISIBILITY_SETTINGS_MAX_INTERVAL_NUM</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define sGraveyard&#160;&#160;&#160;<a class="el" href="../../d0/d40/a09608.html#aaaf39d71af738cac8dd427ca94a5689b">Graveyard::instance</a>()</td>
+          <td class="memname">#define VISIBILITY_SETTINGS_MAX_INTERVAL_NUM&#160;&#160;&#160;7</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="aa5ea0c376a2e44483f8c5cb084b3b186" name="aa5ea0c376a2e44483f8c5cb084b3b186"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5ea0c376a2e44483f8c5cb084b3b186">&#9670;&#160;</a></span>GraveyardMapBounds</h2>
+<a id="a2733c1a6a4018078df00a4c426661436" name="a2733c1a6a4018078df00a4c426661436"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2733c1a6a4018078df00a4c426661436">&#9670;&#160;</a></span>VISIBILITY_SETTINGS_PLAYER_INTERVAL</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::pair&lt;WGGraveyardContainer::const_iterator, WGGraveyardContainer::const_iterator&gt; <a class="el" href="../../de/df1/a01151.html#aa5ea0c376a2e44483f8c5cb084b3b186">GraveyardMapBounds</a></td>
+          <td class="memname">#define VISIBILITY_SETTINGS_PLAYER_INTERVAL&#160;&#160;&#160;500</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a6a551a1219fa9a26b5ed21656c2f9dd1" name="a6a551a1219fa9a26b5ed21656c2f9dd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a551a1219fa9a26b5ed21656c2f9dd1">&#9670;&#160;</a></span>GraveyardMapBoundsNonConst</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ab01e98c3eef9241e381bb20d29d66cbd" name="ab01e98c3eef9241e381bb20d29d66cbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab01e98c3eef9241e381bb20d29d66cbd">&#9670;&#160;</a></span>VisibilitySettings</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::pair&lt;WGGraveyardContainer::iterator, WGGraveyardContainer::iterator&gt; <a class="el" href="../../de/df1/a01151.html#a6a551a1219fa9a26b5ed21656c2f9dd1">GraveyardMapBoundsNonConst</a></td>
+          <td class="memname">const <a class="el" href="../../de/d53/a09598.html">VisibilitySettingData</a> VisibilitySettings[<a class="el" href="../../de/df1/a01151.html#ae515340ce2037b26a80e4db46e653b59">VISIBILITY_SETTINGS_MAX_INTERVAL_NUM</a>][5]</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a484cb47c00fe9b952853e3b04212437c" name="a484cb47c00fe9b952853e3b04212437c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a484cb47c00fe9b952853e3b04212437c">&#9670;&#160;</a></span>WGGraveyardContainer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::multimap&lt;<a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d7/d1a/a09604.html">GraveyardData</a>&gt; <a class="el" href="../../de/df1/a01151.html#a484cb47c00fe9b952853e3b04212437c">WGGraveyardContainer</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    { {300, 150, 1.0f}, {300, 150, 1.0f}, {300, 150, 1.0f}, {300, 150, 1.0f}, {300, 150, 1.0f} }, </div>
+<div class="line">    { {400, 200, 2.25f}, {400, 200, 2.25f}, {400, 200, 2.25f}, {300, 150, 1.0f}, {300, 150, 1.0f} }, </div>
+<div class="line">    { {500, 250, 4.0f}, {500, 250, 4.0f}, {500, 250, 4.0f}, {400, 200, 2.25f}, {300, 150, 1.0f} }, </div>
+<div class="line">    { {700, 350, 6.25f}, {700, 350, 6.25f}, {700, 350, 6.25f}, {600, 300, 6.25f}, {300, 200, 1.0f} }, </div>
+<div class="line">    { {1000, 500, 16.0f}, {1000, 500, 16.0f}, {1000, 500, 16.0f}, {1000, 500, 16.0f}, {300, 250, 1.0f} }, </div>
+<div class="line">    { {1000, 500, 16.0f}, {1000, 500, 16.0f}, {1000, 500, 16.0f}, {1000, 500, 16.0f}, {300, 350, 1.0f} }, </div>
+<div class="line">    { {1200, 550, 20.0f}, {1200, 550, 25.0f}, {1200, 550, 25.0f}, {1100, 550, 16.0f}, {300, 350, 1.0f} } </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00052">DynamicVisibilityMgr::GetAINotifyDelay()</a>, <a class="el" href="../../#l00053">DynamicVisibilityMgr::GetReqMoveDistSq()</a>, and <a class="el" href="../../#l00051">DynamicVisibilityMgr::GetVisibilityNotifyDelay()</a>.</p>
 
 </div>
 </div>
@@ -205,8 +195,8 @@ Typedefs</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_73d54540a2ac2e818b8b1d8263043ad5.html">Misc</a></li><li class="navelem"><a class="el" href="../../de/df1/a01151.html">GameGraveyard.h</a></li>
-    <li class="footer">Generated on Mon Sep 23 2024 20:40:32 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_73d54540a2ac2e818b8b1d8263043ad5.html">Misc</a></li><li class="navelem"><a class="el" href="../../de/df1/a01151.html">DynamicVisibility.h</a></li>
+    <li class="footer">Generated on Mon Sep 30 2024 20:40:27 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

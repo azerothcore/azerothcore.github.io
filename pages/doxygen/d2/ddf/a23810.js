@@ -1,6 +1,6 @@
 var a23810 =
 [
-    [ "spell_shango_tracks_SpellScript", "dc/dad/a23814.html", "dc/dad/a23814" ],
-    [ "spell_shango_tracks", "d2/ddf/a23810.html#a36a33f099f88c79892c4ba0dd8bead5c", null ],
-    [ "GetSpellScript", "d2/ddf/a23810.html#afa36ed651fe9775d8033ce11993878a2", null ]
+    [ "lapseTeleport", "d2/ddf/a23810.html#a55c4330397214bf3a43628b3067d4634", null ],
+    [ "Execute", "d2/ddf/a23810.html#a122023ed13fce2f5bb3721e459964443", null ],
+    [ "_owner", "d2/ddf/a23810.html#a0e678c5cdb862390ea50c8d6057b7093", null ]
 ];

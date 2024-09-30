@@ -1,6 +1,6 @@
 var a18214 =
 [
-    [ "HandlePeriodicTick", "dd/d1d/a18214.html#a6604da6d3f20a03d33ed87eb3d1f9d6f", null ],
-    [ "PrepareAuraScript", "dd/d1d/a18214.html#af8c146d092873169283f6c15510b16d8", null ],
-    [ "Register", "dd/d1d/a18214.html#adae30afe7c6948fcfbe516c291d08c52", null ]
+    [ "npc_strangulate_vehicleAI", "de/d6b/a18218.html", "de/d6b/a18218" ],
+    [ "npc_strangulate_vehicle", "dd/d1d/a18214.html#a04532bc5902af45b1e9c76cf1cec9add", null ],
+    [ "GetAI", "dd/d1d/a18214.html#aa5813442234d7b18fc4e7ed44a0b30bc", null ]
 ];

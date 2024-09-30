@@ -1,9 +1,7 @@
 var a14878 =
 [
-    [ "boss_chrono_lord_deja", "db/dcf/a14878.html#a85f82d4bde99b7e1d05fba82177916e6", null ],
-    [ "JustDied", "db/dcf/a14878.html#a68eb4941364f9fac121aa3d610d45f48", null ],
-    [ "JustEngagedWith", "db/dcf/a14878.html#ab5324b2993f2fd1ec3290eb962ef6065", null ],
-    [ "KilledUnit", "db/dcf/a14878.html#a02c279fb1cfccd38dc60ba7c610cf859", null ],
-    [ "MoveInLineOfSight", "db/dcf/a14878.html#a535c0c157c60804188ad8c4413c277dd", null ],
-    [ "OwnTalk", "db/dcf/a14878.html#acdef53bd447c30d87bd15af3bf4200bc", null ]
+    [ "npc_hivezara_stinger", "db/dcf/a14878.html#ac9438c9dd260a41d6248f2adcc14b555", null ],
+    [ "JustEngagedWith", "db/dcf/a14878.html#a433d31057f1732ef7ef15d2023e18b8a", null ],
+    [ "Reset", "db/dcf/a14878.html#ae8e893c90942a469628c393d5b5380cc", null ],
+    [ "UpdateAI", "db/dcf/a14878.html#a35a6511ebc0301ae0bb22aafc91c8524", null ]
 ];

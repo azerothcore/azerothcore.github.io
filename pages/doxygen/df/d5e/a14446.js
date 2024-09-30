@@ -1,6 +1,6 @@
 var a14446 =
 [
-    [ "PrepareAuraScript", "df/d5e/a14446.html#a80660b1417ab33edaf2c4cd517e10e30", null ],
-    [ "RecalculateHook", "df/d5e/a14446.html#af3952993947dfb24381083d21a9e64cb", null ],
-    [ "Register", "df/d5e/a14446.html#ab7f0aa924dfe8043e44cd794f72e4555", null ]
+    [ "HandleHit", "df/d5e/a14446.html#aec32d6b45bdcfe3a6a32c2fb7558edd1", null ],
+    [ "PrepareSpellScript", "df/d5e/a14446.html#a31fdc4d630a4a6647d2a9b1100aecdad", null ],
+    [ "Register", "df/d5e/a14446.html#a64a861b5c25df5780390aa55899393d7", null ]
 ];

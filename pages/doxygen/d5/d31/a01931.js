@@ -1,11 +1,15 @@
 var a01931 =
 [
-    [ "BaseGain", "d5/d31/a01931.html#ada8e56c81ab672d85f2ff274d109e477", null ],
-    [ "Gain", "d5/d31/a01931.html#ab923dd9a0df7d75127965b40539d4a10", null ],
-    [ "GetColorCode", "d5/d31/a01931.html#a812c722ab7eb34807d8cad9659d34245", null ],
-    [ "GetGrayLevel", "d5/d31/a01931.html#a9c310a4423fd5ada14fac549e4b1a6fd", null ],
-    [ "GetZeroDifference", "d5/d31/a01931.html#a4152e9ef9972f6a20cbc990dce953c36", null ],
-    [ "hk_honor_at_level", "d5/d31/a01931.html#ad25519337dcc6370a39a072c53386f55", null ],
-    [ "hk_honor_at_level_f", "d5/d31/a01931.html#a218866625f1b3b8224fb44f5a0c8b416", null ],
-    [ "xp_in_group_rate", "d5/d31/a01931.html#a304088bebc0743c764589112d2ba3b7f", null ]
+    [ "PoolTemplateData", "da/d98/a09854.html", "da/d98/a09854" ],
+    [ "PoolObject", "d8/dfa/a09858.html", "d8/dfa/a09858" ],
+    [ "Pool", "df/df7/a09862.html", null ],
+    [ "ActivePoolData", "dd/d94/a09866.html", "dd/d94/a09866" ],
+    [ "PoolGroup< T >", "d8/d99/a09870.html", "d8/d99/a09870" ],
+    [ "PoolMgr", "db/d56/a09874.html", "db/d56/a09874" ],
+    [ "sPoolMgr", "d5/d31/a01931.html#a9189dd9c6265b9e6d57104dd61a5fe85", null ],
+    [ "ActivePoolObjects", "d5/d31/a01931.html#a6fd2b29871e3f63cf9cc493968a0ab74", null ],
+    [ "ActivePoolPools", "d5/d31/a01931.html#ad18a3f26065fec260d0281c5354067dd", null ],
+    [ "PooledQuestRelation", "d5/d31/a01931.html#ace9e74e256f166b08f2834044ecfba43", null ],
+    [ "PooledQuestRelationBounds", "d5/d31/a01931.html#adabd05f382474650e093706cf4ea4e35", null ],
+    [ "PooledQuestRelationBoundsNC", "d5/d31/a01931.html#a54dd98ebecf13a92dd29f7d3789d5b56", null ]
 ];

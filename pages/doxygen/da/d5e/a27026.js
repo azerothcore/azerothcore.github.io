@@ -1,8 +1,9 @@
 var a27026 =
 [
-    [ "HandleScript", "da/d5e/a27026.html#a2376d12f379f75f5decfdc133c18403e", null ],
-    [ "Load", "da/d5e/a27026.html#aa70bfd2e614f9bf68ad2972990f0f7f5", null ],
-    [ "PrepareSpellScript", "da/d5e/a27026.html#ae4ce8cf3670a85bbaedbfcdc6cacd5b1", null ],
-    [ "Register", "da/d5e/a27026.html#a0b32bf9d565d7d6f606150f70fc244a0", null ],
-    [ "Validate", "da/d5e/a27026.html#a1aee8ca0cc33f949371fa5cbb4745ccd", null ]
+    [ "emerald_dragonAI", "da/d5e/a27026.html#ae80aa90ad978b8e3254a3c116bf05959", null ],
+    [ "ExecuteEvent", "da/d5e/a27026.html#a6e60f146c7b86a119f269bf755831ac6", null ],
+    [ "JustSummoned", "da/d5e/a27026.html#a4ec04284cdebfc5b594e083aa850f7cb", null ],
+    [ "KilledUnit", "da/d5e/a27026.html#a69b24bf865ecd38822d5602314cddf11", null ],
+    [ "Reset", "da/d5e/a27026.html#aff24939b53a7d74b41ac9170a8a71e9c", null ],
+    [ "UpdateAI", "da/d5e/a27026.html#a221768f9ad3c79bbcdefd3092228e3b0", null ]
 ];

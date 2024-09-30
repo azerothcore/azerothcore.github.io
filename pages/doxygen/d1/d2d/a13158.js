@@ -1,6 +1,6 @@
 var a13158 =
 [
-    [ "spell_kiljaeden_power_of_the_blue_flight_SpellScript", "df/df0/a13162.html", "df/df0/a13162" ],
-    [ "spell_kiljaeden_power_of_the_blue_flight", "d1/d2d/a13158.html#a4c517cb5d38a3bc1da079971d2d4a662", null ],
-    [ "GetSpellScript", "d1/d2d/a13158.html#a5b8118cc7bd52b725a4cb626d618192b", null ]
+    [ "FilterTargets", "d1/d2d/a13158.html#ae945b657d0fbee4d5ee5d6e7d15ef39b", null ],
+    [ "PrepareSpellScript", "d1/d2d/a13158.html#a905e1f979284a368463ad4829891b6ee", null ],
+    [ "Register", "d1/d2d/a13158.html#a6b0d2fc316bef6af20199b15795b00b4", null ]
 ];

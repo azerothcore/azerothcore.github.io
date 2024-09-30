@@ -1,8 +1,10 @@
 var a17906 =
 [
-    [ "npc_muradin_bronzebeard_iccAI", "d5/d25/a17910.html", "d5/d25/a17910" ],
-    [ "npc_muradin_bronzebeard_icc", "d0/d9b/a17906.html#a7e4cecb0f4cabf024794045ed20e3563", null ],
-    [ "GetAI", "d0/d9b/a17906.html#ab2b6a0bb1b8626e5a4064b9412234f4b", null ],
-    [ "OnGossipHello", "d0/d9b/a17906.html#a7fb9838521dbae6ac0a8bb4ac1e07c37", null ],
-    [ "OnGossipSelect", "d0/d9b/a17906.html#a46c4893be723a848d985ff55e28d55a2", null ]
+    [ "CountTargets", "d0/d9b/a17906.html#a042c3f2ee73533b397a2d697d1da6563", null ],
+    [ "HandleDummy", "d0/d9b/a17906.html#ab314680d5349c0c3e449694b92ab7311", null ],
+    [ "Load", "d0/d9b/a17906.html#a534e9f5ee9aa29603cfc205c2c2d580f", null ],
+    [ "PrepareSpellScript", "d0/d9b/a17906.html#a8b831c01cd9fd997279f6a81170786de", null ],
+    [ "Register", "d0/d9b/a17906.html#ab0d87ba23eb252075cb0779b06813a31", null ],
+    [ "SelectDest", "d0/d9b/a17906.html#a6061486d0067af51c8ef079224ea63f1", null ],
+    [ "_targetCount", "d0/d9b/a17906.html#a58f839370a885c450e6742cbb3116784", null ]
 ];

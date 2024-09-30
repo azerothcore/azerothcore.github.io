@@ -1,6 +1,6 @@
 var a13150 =
 [
-    [ "spell_kiljaeden_darkness_AuraScript", "d1/d76/a13154.html", "d1/d76/a13154" ],
-    [ "spell_kiljaeden_darkness", "da/d57/a13150.html#aae321af3a7ded7b686527908a2e8960c", null ],
-    [ "GetAuraScript", "da/d57/a13150.html#a4f2e98c678cfea3e6f3311366daa7fb8", null ]
+    [ "HandlePeriodic", "da/d57/a13150.html#ae090fc1fc8eab18cf6f744d9385fb713", null ],
+    [ "PrepareAuraScript", "da/d57/a13150.html#a2722b97e12e9371745d7f38504d9efdf", null ],
+    [ "Register", "da/d57/a13150.html#acb892b1e0281da08af07b2dd2a04ca03", null ]
 ];

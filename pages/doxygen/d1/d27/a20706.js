@@ -1,6 +1,8 @@
 var a20706 =
 [
-    [ "CalculateDamage", "d1/d27/a20706.html#a0a92fa8b689c020193ccc8cd37be3afb", null ],
-    [ "PrepareSpellScript", "d1/d27/a20706.html#a29e4639053fda5488848b47b9c2b35bc", null ],
-    [ "Register", "d1/d27/a20706.html#a888add31d80ebf8bbeb54ace2dff7f96", null ]
+    [ "boss_yoggsaron_guardian_of_ysAI", "d1/d27/a20706.html#a5542a4fd68a012049a79047f47dccc68", null ],
+    [ "JustDied", "d1/d27/a20706.html#ad75f0baeef73a79cdb9bf62463bc8e50", null ],
+    [ "Reset", "d1/d27/a20706.html#a43d12c19425f3caa56a9732774b6f943", null ],
+    [ "UpdateAI", "d1/d27/a20706.html#a8e1d0b14747db6ce06b882f3f9d61963", null ],
+    [ "_spellTimer", "d1/d27/a20706.html#a45dec8609328d65413ae6c88f693ba15", null ]
 ];

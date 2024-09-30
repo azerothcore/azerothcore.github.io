@@ -1,7 +1,8 @@
 var a07830 =
 [
-    [ "EnchStoreItem", "d8/d71/a07830.html#a89019e156774c5b978251479264e5463", null ],
-    [ "EnchStoreItem", "d8/d71/a07830.html#aca83bb20eb6153faeaf599b07b97e357", null ],
-    [ "chance", "d8/d71/a07830.html#a2d3d0cd28c79402b3625694d4676ed8b", null ],
-    [ "ench", "d8/d71/a07830.html#ac2346b6c6c5c09bb63676d72c798d848", null ]
+    [ "TrainerSpellData", "d8/d71/a07830.html#ab58a8a4ca9d8b609131e7f8b3ec507c9", null ],
+    [ "~TrainerSpellData", "d8/d71/a07830.html#a9bd25177856f54fa2eda882627b21644", null ],
+    [ "Find", "d8/d71/a07830.html#acee027787f06b4186b781bbd0d7db781", null ],
+    [ "spellList", "d8/d71/a07830.html#a0e157dbcebbbea5704270f182d313568", null ],
+    [ "trainerType", "d8/d71/a07830.html#a6ea889f294b37bfe1a7a40dffd1b2159", null ]
 ];

@@ -1,6 +1,11 @@
 var a17750 =
 [
-    [ "spell_taldaram_ball_of_inferno_flame_SpellScript", "d2/d54/a17754.html", "d2/d54/a17754" ],
-    [ "spell_taldaram_ball_of_inferno_flame", "dd/d8f/a17750.html#a7ef8af6b51e04bdb1c337be5f753023e", null ],
-    [ "GetSpellScript", "dd/d8f/a17750.html#a0b8255a8143aefa037e05468066fe68d", null ]
+    [ "Load", "dd/d8f/a17750.html#a0dab3a666abd6d8c1486a6e71ce98c20", null ],
+    [ "PrepareSpellScript", "dd/d8f/a17750.html#a8338cc31a3c494c1cb24d015a11fbd64", null ],
+    [ "Register", "dd/d8f/a17750.html#a9adbad7cc2185b22fb16135e78114548", null ],
+    [ "SelectTarget", "dd/d8f/a17750.html#a296ec09cec9661123ea5c86f3f262f32", null ],
+    [ "SetTarget", "dd/d8f/a17750.html#a15373dc2a0767e011faf504f6377e24d", null ],
+    [ "StartAttack", "dd/d8f/a17750.html#a17b20a391d70ae487774d52ed0e5dbd7", null ],
+    [ "Validate", "dd/d8f/a17750.html#a7619f7ec6dc0ce14293414729731ed00", null ],
+    [ "_target", "dd/d8f/a17750.html#abe6d3ad0f06b2370f1a5985878d6af3d", null ]
 ];

@@ -1,5 +1,5 @@
 var a23634 =
 [
-    [ "PrepareSpellScript", "d8/ddc/a23634.html#a837c01b24c4c006d26f09106ee4f9fee", null ],
-    [ "Register", "d8/ddc/a23634.html#a8ab67808fd27b58748675ec103a6661c", null ]
+    [ "at_shattered_halls_execution", "d8/ddc/a23634.html#a73f1d1f03960acd070b7996257f7a526", null ],
+    [ "OnTrigger", "d8/ddc/a23634.html#ad35f9736371b091dc0780e5bf0caf9f5", null ]
 ];

@@ -1,6 +1,12 @@
 var a17618 =
 [
-    [ "HandlePeriodic", "dd/dad/a17618.html#a8b86f83b34a96a434094383ac02a8b98", null ],
-    [ "PrepareAuraScript", "dd/dad/a17618.html#a04cdb886fe47412e56dba995a481802c", null ],
-    [ "Register", "dd/dad/a17618.html#a31015d417968723ef1db3c7799ca9f1d", null ]
+    [ "npc_vengeful_shadeAI", "dd/dad/a17618.html#acd3961c7c81f88a341cb71888c55c882", null ],
+    [ "AttackStart", "dd/dad/a17618.html#afbd441c5ebf2207d37da1a905be1a247", null ],
+    [ "EnterEvadeMode", "dd/dad/a17618.html#a37bffb02c4ebf6acab8c3474581056a6", null ],
+    [ "MoveInLineOfSight", "dd/dad/a17618.html#a1e8e28e76f27edc5e07574e6050d7e5f", null ],
+    [ "Reset", "dd/dad/a17618.html#acf85448a221a37be819b7ab82f4f9fdc", null ],
+    [ "SpellHitTarget", "dd/dad/a17618.html#af9b40af943ee8a7c9bd8866f116871fc", null ],
+    [ "UpdateAI", "dd/dad/a17618.html#a3a353d677b469d750474a7497c5224a7", null ],
+    [ "targetGUID", "dd/dad/a17618.html#a75c3f61506fe42e41b10a2e67f5b091d", null ],
+    [ "unroot_timer", "dd/dad/a17618.html#a49ea66a0fb6e3c09730d92308bd1cac7", null ]
 ];

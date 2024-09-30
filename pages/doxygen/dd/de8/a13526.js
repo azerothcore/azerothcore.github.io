@@ -1,12 +1,12 @@
 var a13526 =
 [
-    [ "npc_calvin_montagueAI", "dd/de8/a13526.html#a6a9bef192a41ad5d91e4b1ccfdf6ccb8", null ],
-    [ "AttackedBy", "dd/de8/a13526.html#a61e201800b23f6527600fe41bf5872b8", null ],
-    [ "DamageTaken", "dd/de8/a13526.html#afe7e7bdf513e11eb6fc3930853b513aa", null ],
-    [ "JustEngagedWith", "dd/de8/a13526.html#af63e4dc9d16a485bde8f9908cb56f2b9", null ],
-    [ "Reset", "dd/de8/a13526.html#a8e98a1178dd8c978e20ec86f45106c5f", null ],
-    [ "UpdateAI", "dd/de8/a13526.html#a98b6be4d783ae09063d3b69de7fa8d4c", null ],
-    [ "m_uiPhase", "dd/de8/a13526.html#a2e343d0b89859f9a4500bcfbe0071307", null ],
-    [ "m_uiPhaseTimer", "dd/de8/a13526.html#a923370d0ddbf9801c7ffa33666f7c9f5", null ],
-    [ "m_uiPlayerGUID", "dd/de8/a13526.html#ae4ca9d9bd134b1033f02bbce218bfa59", null ]
+    [ "npc_daphne_stilwellAI", "dd/de8/a13526.html#ac2e9f940bc64a70ff8a386e4f483a65e", null ],
+    [ "AttackStart", "dd/de8/a13526.html#a30056a45adb91a12cf7bcc4e9f0b2d54", null ],
+    [ "JustSummoned", "dd/de8/a13526.html#ae56554d30e9de7644efab891555c57e0", null ],
+    [ "Reset", "dd/de8/a13526.html#ae6f0b271478aecf7fd1f3e1c733d77f0", null ],
+    [ "SummonedCreatureDies", "dd/de8/a13526.html#aa6fdcf9e09031522d342b603b4c70aed", null ],
+    [ "Update", "dd/de8/a13526.html#a4099d75c4a6bca1525781a5753ef9972", null ],
+    [ "WaypointReached", "dd/de8/a13526.html#a1035eb0a1696730d8304593b5fb079e4", null ],
+    [ "summons", "dd/de8/a13526.html#a0cbf5aaf1cb2f234e725074de0acc7e6", null ],
+    [ "textCounter", "dd/de8/a13526.html#a62ab24169c1b7c3028ab33303b217f63", null ]
 ];

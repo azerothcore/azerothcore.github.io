@@ -1,17 +1,12 @@
 var a10406 =
 [
-    [ "WorldPacket", "d1/d7c/a10406.html#a6329945c46586b75f41f4f3b0410a046", null ],
-    [ "WorldPacket", "d1/d7c/a10406.html#a7e733ba818eeb906676a327fb645c087", null ],
-    [ "WorldPacket", "d1/d7c/a10406.html#af406fe2f357035990fd5eccf37f3fb93", null ],
-    [ "WorldPacket", "d1/d7c/a10406.html#a2880e36e172096407778fcbbdfe917bc", null ],
-    [ "WorldPacket", "d1/d7c/a10406.html#a251580581b403cc113aa743c0196ceea", null ],
-    [ "WorldPacket", "d1/d7c/a10406.html#a224a2ad18da5d8dd7a7bcbb887870243", null ],
-    [ "GetOpcode", "d1/d7c/a10406.html#a666547feae3b83bfbba424a541287239", null ],
-    [ "GetReceivedTime", "d1/d7c/a10406.html#a467aa36509adcb07f51bc8af24137c3e", null ],
-    [ "Initialize", "d1/d7c/a10406.html#aa8631eaf078e6dc9e16ded96dd0b393f", null ],
-    [ "operator=", "d1/d7c/a10406.html#ad44064a3c2c73f6289a9db539b408f50", null ],
-    [ "operator=", "d1/d7c/a10406.html#aa1196a05e7b338543b3b94188e59721f", null ],
-    [ "SetOpcode", "d1/d7c/a10406.html#acb55a3f9540c39bf88300473c29605ed", null ],
-    [ "m_opcode", "d1/d7c/a10406.html#a4ff77d8a27744f07bbab70cdc4a3ef91", null ],
-    [ "m_receivedTime", "d1/d7c/a10406.html#abb78776ad3a0f19e5e3d226666612b49", null ]
+    [ "Charges", "d1/d7c/a10406.html#ada45d7e00efb3bf27afcf9db1ad4d813", null ],
+    [ "Count", "d1/d7c/a10406.html#a6f31a3d750d5c5f1b316f05e7ad9dbe9", null ],
+    [ "EnchantmentID", "d1/d7c/a10406.html#a249a204f5d72d42f562c989b1cb92fc9", null ],
+    [ "Flags", "d1/d7c/a10406.html#a3ca816132a756d3dc939877c57f6045d", null ],
+    [ "ItemID", "d1/d7c/a10406.html#a5dc7e8b40834dba07c63322d80ed73ae", null ],
+    [ "RandomPropertiesID", "d1/d7c/a10406.html#ad98a20548478fe99f9d6d345c5a3b732", null ],
+    [ "RandomPropertiesSeed", "d1/d7c/a10406.html#ae5d493dd4798e11f02d8f02a57ba4274", null ],
+    [ "Slot", "d1/d7c/a10406.html#afcc0a78c2f9a3061830679fece476a64", null ],
+    [ "SocketEnchant", "d1/d7c/a10406.html#a55545d4d1b752e4f08bd05350b22892c", null ]
 ];

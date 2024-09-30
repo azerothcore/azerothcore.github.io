@@ -1,8 +1,10 @@
 var a14234 =
 [
-    [ "OnApply", "d2/d07/a14234.html#a6f3f05316f025ef638672a82cc855136", null ],
-    [ "PeriodicTick", "d2/d07/a14234.html#a051d292f9483e6b82d773fba3ab52460", null ],
-    [ "PrepareAuraScript", "d2/d07/a14234.html#ab8face95be60d7c5ba3fe15f0d05de25", null ],
-    [ "Register", "d2/d07/a14234.html#a0004de73250b8523db2b9ab714c8a246", null ],
-    [ "Validate", "d2/d07/a14234.html#aae1809dd5bc8baa06ee079a6d2a8b940", null ]
+    [ "boss_headless_horseman_pumpkin", "d2/d07/a14234.html#a62191ae523401ac57a947db96a245f7a", null ],
+    [ "AttackStart", "d2/d07/a14234.html#a2d7cb1bc5f25f87b1452d6c1267958c4", null ],
+    [ "MoveInLineOfSight", "d2/d07/a14234.html#a212f9803f66d297cd276ef842247776a", null ],
+    [ "Reset", "d2/d07/a14234.html#a9d5f6922a52146b61168f1c50b378294", null ],
+    [ "SpellHit", "d2/d07/a14234.html#a401db237c45efde3a30cdca6cb4f95c0", null ],
+    [ "UpdateAI", "d2/d07/a14234.html#aca53b8839bce5e180ba8583490d694c3", null ],
+    [ "timer", "d2/d07/a14234.html#a1f236cdfeec366f0d830e0fceafa6d25", null ]
 ];

@@ -1,6 +1,6 @@
 var a17014 =
 [
-    [ "spell_trollgore_corpse_explode_AuraScript", "db/dec/a17018.html", "db/dec/a17018" ],
-    [ "spell_trollgore_corpse_explode", "d7/d3b/a17014.html#a7d3dc22caf54093b2cf4061483986d3e", null ],
-    [ "GetAuraScript", "d7/d3b/a17014.html#ac46019482a7ecc8b523c8c1d626d2ec4", null ]
+    [ "boss_drakkari_colossusAI", "db/dec/a17018.html", "db/dec/a17018" ],
+    [ "boss_drakkari_colossus", "d7/d3b/a17014.html#abe1bf28b9147b72c81e5c5efcdeeaf84", null ],
+    [ "GetAI", "d7/d3b/a17014.html#a75c6c9c56fe11342dd8aece031059e77", null ]
 ];

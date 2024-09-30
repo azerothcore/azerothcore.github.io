@@ -1,10 +1,10 @@
 var a12218 =
 [
-    [ "npc_titoAI", "d4/d2d/a12218.html#a9430fdd57c7bc431702c4710e541f700", null ],
-    [ "JustDied", "d4/d2d/a12218.html#a2b09dc852162e88efff1cdf19c7ad370", null ],
-    [ "JustEngagedWith", "d4/d2d/a12218.html#a3758b84ac145862011e10d5c016c0fd4", null ],
-    [ "Reset", "d4/d2d/a12218.html#a3b08f5b2491caba7530d69b071f80c19", null ],
-    [ "UpdateAI", "d4/d2d/a12218.html#af4ca8826345e529bba2ec24fccf13c4d", null ],
-    [ "DorotheeGUID", "d4/d2d/a12218.html#a42160f265896ad16bae87e36fa7fc9ce", null ],
-    [ "YipTimer", "d4/d2d/a12218.html#a0e2c863daa17c9ecd563ed4efb2a37a1", null ]
+    [ "instance_deadmines_InstanceMapScript", "d4/d2d/a12218.html#afa12491c1b276d0d643822da562320c3", null ],
+    [ "GetSaveData", "d4/d2d/a12218.html#a775c7d564b931e157a32b0909efed859", null ],
+    [ "Initialize", "d4/d2d/a12218.html#a8b8bca7a1d7880bc53b8002934ceeb7a", null ],
+    [ "Load", "d4/d2d/a12218.html#afff7e04cc632e2d4ddb438d03e561560", null ],
+    [ "OnGameObjectCreate", "d4/d2d/a12218.html#a095202af8915f8a1d8888c045e18d6c4", null ],
+    [ "SetData", "d4/d2d/a12218.html#a8cd5bf5302b1a7221c69dd9fdc9518dc", null ],
+    [ "_encounters", "d4/d2d/a12218.html#a01d69e135cbd2dd885dfc84c98ed8be1", null ]
 ];

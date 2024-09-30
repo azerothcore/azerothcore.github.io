@@ -1,8 +1,9 @@
 var a01724 =
 [
-    [ "misc_commandscript", "dc/d4e/a11372.html", "dc/d4e/a11372" ],
-    [ "AddSC_misc_commandscript", "d3/d4c/a01724.html#ac722d20c86b9502b7c4c8ae711cc3917", null ],
-    [ "GetLocalizeCreatureName", "d3/d4c/a01724.html#aaedbdfd3cae227b11684151f41e3b977", null ],
-    [ "SPELL_FREEZE", "d3/d4c/a01724.html#a181bdc61e4eb1d21db975ca0227cb086", null ],
-    [ "SPELL_STUCK", "d3/d4c/a01724.html#a1706df7feb0ef4f693c388033ace5fb7", null ]
+    [ "RandomMovementGenerator< T >", "da/d38/a09714.html", "da/d38/a09714" ],
+    [ "MAX_PATH_LENGHT_FACTOR", "d3/d4c/a01724.html#a6e563601030e3152f7023ecd4fa3f3c7", null ],
+    [ "MIN_WANDER_DISTANCE_AIR", "d3/d4c/a01724.html#a81b46c6e5a328cf46ead22b160a8a576", null ],
+    [ "MIN_WANDER_DISTANCE_GROUND", "d3/d4c/a01724.html#a85e56933db548199999e1edb8e96836d", null ],
+    [ "RANDOM_LINKS_COUNT", "d3/d4c/a01724.html#af447061c654f18b25537973f2739dad3", null ],
+    [ "RANDOM_POINTS_NUMBER", "d3/d4c/a01724.html#ac0f6eaac315a81192c2307dcbac20f70", null ]
 ];

@@ -1,6 +1,6 @@
 var a11738 =
 [
-    [ "spell_egg_eventSpellScript", "d3/d44/a11742.html", "d3/d44/a11742" ],
-    [ "spell_egg_event", "d9/de2/a11738.html#a6da5d251c9ef1d197a372d7f1d2d411c", null ],
-    [ "GetSpellScript", "d9/de2/a11738.html#afa3d8bf2445879a5a3197d1ae7e6f748", null ]
+    [ "boss_pyroguard_emberseerAI", "d3/d44/a11742.html", "d3/d44/a11742" ],
+    [ "boss_pyroguard_emberseer", "d9/de2/a11738.html#af9f55c012880404e2e6f8278763af194", null ],
+    [ "GetAI", "d9/de2/a11738.html#a060c52f53760e60a022a7034dd785b1d", null ]
 ];

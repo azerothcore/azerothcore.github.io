@@ -1,6 +1,7 @@
 var a17550 =
 [
-    [ "HandleDummy", "dd/d0a/a17550.html#a849d6414e0eb0d7c07992e295e2438a1", null ],
-    [ "PrepareSpellScript", "dd/d0a/a17550.html#abdee1ee39023eba859fd1620a5b7d080", null ],
-    [ "Register", "dd/d0a/a17550.html#ada766da7c52456d1edb6791c755627ff", null ]
+    [ "FilterTargets", "dd/d0a/a17550.html#a77afd0b56c9bddd74999d5df30457b7f", null ],
+    [ "HandleDummy", "dd/d0a/a17550.html#a04166e4e5a4ba082755433555855cb30", null ],
+    [ "PrepareSpellScript", "dd/d0a/a17550.html#aaefa58014db12fb76e3416ae807c69e8", null ],
+    [ "Register", "dd/d0a/a17550.html#a497ee30669d45341023abe549c91ddaf", null ]
 ];

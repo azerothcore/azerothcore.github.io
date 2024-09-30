@@ -1,6 +1,6 @@
 var a14506 =
 [
-    [ "boss_anetheronAI", "d6/d56/a14510.html", "d6/d56/a14510" ],
-    [ "boss_anetheron", "d1/d89/a14506.html#a070d17039385be381e9923e6afa4f28f", null ],
-    [ "GetAI", "d1/d89/a14506.html#ac35e5d1a0df1c174b8f24d5a37bd2fc4", null ]
+    [ "HandleHeal", "d1/d89/a14506.html#a953536a9a393af9472bdd89018449df0", null ],
+    [ "PrepareSpellScript", "d1/d89/a14506.html#a70503fc6042001a860d361f2597b7153", null ],
+    [ "Register", "d1/d89/a14506.html#a383479896e6deb96e50b827370ccfd4d", null ]
 ];

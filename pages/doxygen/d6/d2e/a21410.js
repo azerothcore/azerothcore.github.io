@@ -1,5 +1,10 @@
 var a21410 =
 [
-    [ "achievement_shadowdodger", "d6/d2e/a21410.html#a8389a4972968fcc6cd7807e96ee5e527", null ],
-    [ "OnCheck", "d6/d2e/a21410.html#a3ee0baca0c9163a601cd4bcfa9ebeb04", null ]
+    [ "npc_azure_spellbreakerAI", "d6/d2e/a21410.html#a1daf4cb20f4081380d8deda9a58da2fd", null ],
+    [ "Reset", "d6/d2e/a21410.html#a731ff2d4311359145c353de2d91935c8", null ],
+    [ "UpdateAI", "d6/d2e/a21410.html#a053ecfe5c78220c4fa1ac896ce161210", null ],
+    [ "uiArcaneBlastTimer", "d6/d2e/a21410.html#a1e752971a31c7d3415c1820eb3574a98", null ],
+    [ "uiChainsOfIceTimer", "d6/d2e/a21410.html#a2cbf33865a79a781d8b7aad04cd2095c", null ],
+    [ "uiConeOfColdTimer", "d6/d2e/a21410.html#a4970c7459b044b08bf36e17c703395fb", null ],
+    [ "uiSlowTimer", "d6/d2e/a21410.html#a2a02b42ec104cfb6682782a80f813eef", null ]
 ];

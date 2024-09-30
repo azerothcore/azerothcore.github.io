@@ -1,7 +1,6 @@
 var a13582 =
 [
-    [ "HandleScript", "db/d4d/a13582.html#ad85959388a639a4eff41de6f86b993e7", null ],
-    [ "PrepareSpellScript", "db/d4d/a13582.html#ab566be9bb39b22e6ac3fb3f9fe925480", null ],
-    [ "Register", "db/d4d/a13582.html#aafefe99f81605c6f55f072deb2306385", null ],
-    [ "Validate", "db/d4d/a13582.html#a63958630c37002d989cd32a8fc37dd37", null ]
+    [ "boss_thurgAI", "df/dbc/a13586.html", "df/dbc/a13586" ],
+    [ "boss_thurg", "db/d4d/a13582.html#a4d07d9d72aac5f922c886d70c508330c", null ],
+    [ "GetAI", "db/d4d/a13582.html#a45ce909d6a0886e443f42154fe57022b", null ]
 ];

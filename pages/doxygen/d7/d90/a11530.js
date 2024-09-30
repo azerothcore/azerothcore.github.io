@@ -1,6 +1,9 @@
 var a11530 =
 [
-    [ "OrcDeathEvent", "d7/d90/a11530.html#ae4088ee95c3c0de9ae524a82803b0ea2", null ],
-    [ "Execute", "d7/d90/a11530.html#a293ec6667da669a27fe75965f919cd68", null ],
-    [ "_me", "d7/d90/a11530.html#a56cdf23ed08cbb800ba6fe7fb5e284b7", null ]
+    [ "npc_phalanxAI", "d7/d90/a11530.html#a1a09cd0b0cf765dec20ca9c3c5bb9373", null ],
+    [ "Reset", "d7/d90/a11530.html#a41a14315d82b169528bd764335c16d52", null ],
+    [ "UpdateAI", "d7/d90/a11530.html#a78092bfb2d9b8455b5348d872afc6521", null ],
+    [ "FireballVolley_Timer", "d7/d90/a11530.html#a0e7bedf19d7a69707fcfec9cbd3649e5", null ],
+    [ "MightyBlow_Timer", "d7/d90/a11530.html#ae8fe8a7313f573e910763d5a82303e66", null ],
+    [ "ThunderClap_Timer", "d7/d90/a11530.html#ab68781dcd728e2a0d021a0d52e43fd71", null ]
 ];

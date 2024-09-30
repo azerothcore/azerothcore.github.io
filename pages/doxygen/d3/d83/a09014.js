@@ -1,9 +1,7 @@
 var a09014 =
 [
-    [ "BroadcastTextID", "d3/d83/a09014.html#a756f24dbee852a7fbe152c0cb082c412", null ],
-    [ "Emotes", "d3/d83/a09014.html#a0f67a651fdb3f3217279015c9e3fb292", null ],
-    [ "Language", "d3/d83/a09014.html#a33bc5a0c156918b00380710aeb275d3d", null ],
-    [ "Probability", "d3/d83/a09014.html#a5c743df7a7ad634c5b3f3376547fda00", null ],
-    [ "Text_0", "d3/d83/a09014.html#a046d637b91807db067c6e7050184322d", null ],
-    [ "Text_1", "d3/d83/a09014.html#a8d64d7b8fcdbd995cc11e22adde8c0de", null ]
+    [ "AnyUnfriendlyAttackableVisibleUnitInObjectRangeCheck", "d3/d83/a09014.html#a038f512c564e4ae18571ac1836897edb", null ],
+    [ "operator()", "d3/d83/a09014.html#a3bc09bf6fc4481c67190f57dc4198f6e", null ],
+    [ "i_funit", "d3/d83/a09014.html#a3a0742f36f0a0a22c4ae6a2c8b8269b6", null ],
+    [ "i_range", "d3/d83/a09014.html#a953943e53e25b6887bfab8cc1c19620a", null ]
 ];

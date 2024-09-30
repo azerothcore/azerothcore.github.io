@@ -1,12 +1,15 @@
 var a04946 =
 [
-    [ "RegistryMapType", "d5/d41/a04946.html#ab6a131bc0c7d0ddcb9ad34044b9c8ac2", null ],
-    [ "ObjectRegistry", "d5/d41/a04946.html#aa3bcc30791e82bc900eacf1c5833b7f8", null ],
-    [ "~ObjectRegistry", "d5/d41/a04946.html#a2734a0e6001f597b43e006bc9d84a6b1", null ],
-    [ "GetRegisteredItems", "d5/d41/a04946.html#aba4a4fcc7ee59afbb4dea6df7410dc02", null ],
-    [ "GetRegistryItem", "d5/d41/a04946.html#a474bdff0ab0f0a3db5f914b9dfaa48d1", null ],
-    [ "HasItem", "d5/d41/a04946.html#a3c95897734a780c1f299d24a058b3595", null ],
-    [ "InsertItem", "d5/d41/a04946.html#a55416824a5dff4138f5d828e352e3d7c", null ],
-    [ "instance", "d5/d41/a04946.html#a7a6582a84361d5ad1142f29c9e1d9cb5", null ],
-    [ "_registeredObjects", "d5/d41/a04946.html#a61e6a6eb75512241e82092abfeba7a65", null ]
+    [ "TileAssembler", "d5/d41/a04946.html#aa5a23f76fd59ba2ffa5e2040058c3744", null ],
+    [ "~TileAssembler", "d5/d41/a04946.html#a4e020e9814223203177a822a052ddfe4", null ],
+    [ "calculateTransformedBound", "d5/d41/a04946.html#ab3ed8e882c59d777d8c5312449b86753", null ],
+    [ "convertRawFile", "d5/d41/a04946.html#a74ecec806ac4e9ff9636376215ac28ab", null ],
+    [ "convertWorld2", "d5/d41/a04946.html#adabcb9cefdd3fcab94c5471948dbe0b0", null ],
+    [ "exportGameobjectModels", "d5/d41/a04946.html#a3ed04f54c64010a0ad702b2da4161e3b", null ],
+    [ "readMapSpawns", "d5/d41/a04946.html#a55392fc72758db7b4ea5fea85d7934ee", null ],
+    [ "iDestDir", "d5/d41/a04946.html#ad444a6005a59975ed0ca78f180dcba7d", null ],
+    [ "iSrcDir", "d5/d41/a04946.html#a8a2bf7e978b49407f3b4b2086c7497c4", null ],
+    [ "iUniqueNameIds", "d5/d41/a04946.html#a15bb91fa77c238c1204f8f3f56e676a7", null ],
+    [ "mapData", "d5/d41/a04946.html#a7190f8b7bf8b00367a113679a94fc5e7", null ],
+    [ "spawnedModelFiles", "d5/d41/a04946.html#ab339dfc2062edfb47e77b042e5cf058f", null ]
 ];

@@ -1,10 +1,16 @@
 var a28010 =
 [
-    [ "CheckCast", "d1/d75/a28010.html#a49676a65c99a9a2d99ad78fee54d2302", null ],
-    [ "HandleScript", "d1/d75/a28010.html#a35b9d69b8147ef06527b8533ef376e72", null ],
-    [ "Load", "d1/d75/a28010.html#a25c373762375f207e6c3ba0a18d4a6e7", null ],
-    [ "PrepareSpellScript", "d1/d75/a28010.html#a31d3339531f75dfa0ca3a339d34d3012", null ],
-    [ "Register", "d1/d75/a28010.html#afd716f555ac73287bd268c6124b15b1c", null ],
-    [ "Validate", "d1/d75/a28010.html#a0938262e1f45821b9fbef42f5c96cc56", null ],
-    [ "_manaAmount", "d1/d75/a28010.html#add7d1cdf3abca0ada57cd719ad22602a", null ]
+    [ "CanBeSetAtWar", "d1/d75/a28010.html#ae165dc23f25386eb086e1fa2cb820153", null ],
+    [ "CanHaveReputation", "d1/d75/a28010.html#ab3da6918e197c1098a932418d5c51799", null ],
+    [ "BaseRepClassMask", "d1/d75/a28010.html#ae73655de567de3766fcb3bbfb7f9eed3", null ],
+    [ "BaseRepRaceMask", "d1/d75/a28010.html#aa8e1c08416d07882af7075fbb020ae5a", null ],
+    [ "BaseRepValue", "d1/d75/a28010.html#a52f0753d1e1e69a4994eb6b1eab6824c", null ],
+    [ "ID", "d1/d75/a28010.html#a1953f7a343201113dae80cdd97e1ac90", null ],
+    [ "name", "d1/d75/a28010.html#ad9d326ed1aac5ea66825775665dfea00", null ],
+    [ "ReputationFlags", "d1/d75/a28010.html#ae23a3c94554b2043928d6e1ea748e709", null ],
+    [ "reputationListID", "d1/d75/a28010.html#aee99121c2d7298e16540229923391aee", null ],
+    [ "spilloverMaxRankIn", "d1/d75/a28010.html#a14cea5365f14880850e788ba328d0c8e", null ],
+    [ "spilloverRateIn", "d1/d75/a28010.html#a7a72bc65fb3fe76ffa1d072800c5daed", null ],
+    [ "spilloverRateOut", "d1/d75/a28010.html#a7cea150843bf48277aa9cc917d210fcb", null ],
+    [ "team", "d1/d75/a28010.html#a6210fabf2688f26a0a0050f6c148485d", null ]
 ];

@@ -1,5 +1,6 @@
 var a19686 =
 [
-    [ "at_icc_shutdown_traps", "d3/d1f/a19686.html#aa13f5d78d3032e8114e9978f42468f64", null ],
-    [ "OnTrigger", "d3/d1f/a19686.html#abb31b3f6d0b159b625d731ac47127005", null ]
+    [ "boss_stormcaller_brundirAI", "d9/d1b/a19690.html", "d9/d1b/a19690" ],
+    [ "boss_stormcaller_brundir", "d3/d1f/a19686.html#aa966d1534a58e3832c46772043956533", null ],
+    [ "GetAI", "d3/d1f/a19686.html#a399b1b7cf2ee74c1e672231e922ff4fa", null ]
 ];

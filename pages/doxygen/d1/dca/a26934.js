@@ -1,6 +1,5 @@
 var a26934 =
 [
-    [ "OnPeriodic", "d1/dca/a26934.html#a5fdf44f34765d0386d5c5490620c944a", null ],
-    [ "PrepareAuraScript", "d1/dca/a26934.html#a3c3044795e183eef2c801781100b11c7", null ],
-    [ "Register", "d1/dca/a26934.html#a1221c3287c3fd7add356e84430508684", null ]
+    [ "achievement_bg_sa_artillery", "d1/dca/a26934.html#aa81ae215bc91fd4598d7c9a1b02e3fcc", null ],
+    [ "OnCheck", "d1/dca/a26934.html#ac24f32f872ae32e90f06f642ea2dfebc", null ]
 ];

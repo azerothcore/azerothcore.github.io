@@ -1,7 +1,7 @@
 var a18798 =
 [
-    [ "HandleScript", "d9/d5d/a18798.html#a33c7b297a132c63a6c2a1057104bf0d7", null ],
-    [ "PrepareSpellScript", "d9/d5d/a18798.html#aefddb6594c4a0c473a43e83111adf4ab", null ],
-    [ "Register", "d9/d5d/a18798.html#a3b42d4efc610164c5bffeeb6183d2634", null ],
-    [ "Validate", "d9/d5d/a18798.html#afa88b9c2c3a1fcd1119a1b1e895b86b1", null ]
+    [ "OnRemove", "d9/d5d/a18798.html#a4e6a66934a01d01c50208459f6771353", null ],
+    [ "PrepareAuraScript", "d9/d5d/a18798.html#a2320044c6c81a89af0fefd4f90c05bd5", null ],
+    [ "Register", "d9/d5d/a18798.html#a4890d35f2b0889156a437c95e49f528c", null ],
+    [ "Validate", "d9/d5d/a18798.html#a1b90f1288b3b45267edd4da2b3418b21", null ]
 ];

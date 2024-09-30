@@ -1,7 +1,11 @@
 var a14158 =
 [
-    [ "CheckTarget", "da/de3/a14158.html#a231a8f06c0f0344beb46dfa8911caa82", null ],
-    [ "HandleDummyEffect", "da/de3/a14158.html#a1771cf8a38a84e0fd615976b388124c4", null ],
-    [ "PrepareSpellScript", "da/de3/a14158.html#a4a6d00a2e7fba409bf45cfabb0b4ac7e", null ],
-    [ "Register", "da/de3/a14158.html#a8edf3db6c7a6689ff6b62aeb01a784a7", null ]
+    [ "o", "da/de3/a14158.html#af0a1551e7a1ced5413b6096ba15db8b2", null ],
+    [ "rot0", "da/de3/a14158.html#a1cc2b7787c803a4e126e06ab5b5c0ee6", null ],
+    [ "rot1", "da/de3/a14158.html#a71696fa3f95eb20d950b6ba2ada153f4", null ],
+    [ "rot2", "da/de3/a14158.html#ac2e4113330ebc9d9db379fb87eb55c03", null ],
+    [ "rot3", "da/de3/a14158.html#a3fc28475914b0ed4afe46fd4f4ff66b1", null ],
+    [ "x", "da/de3/a14158.html#a6e527854cf0959995d6b0133dedc94c9", null ],
+    [ "y", "da/de3/a14158.html#a7536047696bd4883237369976b503131", null ],
+    [ "z", "da/de3/a14158.html#a33ba4ca8ce5f406aaa5f571ba7236eb5", null ]
 ];

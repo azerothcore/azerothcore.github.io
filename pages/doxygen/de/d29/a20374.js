@@ -1,5 +1,6 @@
 var a20374 =
 [
-    [ "achievement_intense_cold", "de/d29/a20374.html#a2377357d6bfc03e5b91354428d3da3de", null ],
-    [ "OnCheck", "de/d29/a20374.html#ab8a774af80a7fb1764df97c9eea57ffc", null ]
+    [ "npc_ulduar_flames_initialAI", "dd/db9/a20378.html", "dd/db9/a20378" ],
+    [ "npc_ulduar_flames_initial", "de/d29/a20374.html#aee0c62a38e3e0958e015faef2c434273", null ],
+    [ "GetAI", "de/d29/a20374.html#ac0db78c361324a594220ad644001f4eb", null ]
 ];

@@ -1,9 +1,6 @@
 var a13698 =
 [
-    [ "boss_alyson_antilleAI", "d3/d5b/a13698.html#a31fadb4f3cd15deda115274f7b7be3d6", null ],
-    [ "AttackStart", "d3/d5b/a13698.html#a77ddba446344f1ec4c70dd09c61f22e7", null ],
-    [ "Reset", "d3/d5b/a13698.html#aaddce1da826fd4a228bf8bc96468e47c", null ],
-    [ "UpdateAI", "d3/d5b/a13698.html#a035bff3662b703d6e7d3789ccc78b584", null ],
-    [ "dispelmagic_timer", "d3/d5b/a13698.html#a7d12e5664422861a93329896eea6e9ec", null ],
-    [ "flashheal_timer", "d3/d5b/a13698.html#a74a1d280c02f4fa8bca30524e447da9e", null ]
+    [ "spell", "d3/d5b/a13698.html#a55423d09b2f1775dc386a36168ad764d", null ],
+    [ "text", "d3/d5b/a13698.html#ab604ad9429083f2e94f6a8d026bc46a5", null ],
+    [ "unaura", "d3/d5b/a13698.html#a1b71fc628793ccb9027687b31d9ebcb0", null ]
 ];

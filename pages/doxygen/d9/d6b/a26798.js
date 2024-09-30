@@ -1,7 +1,7 @@
 var a26798 =
 [
-    [ "if", "d9/d6b/a26798.html#a6b9c0d513b24e9a5c0eef8307b2eb3a8", null ],
-    [ "PrepareAuraScript", "d9/d6b/a26798.html#a01d974333043452a37ec3124d23b49f2", null ],
-    [ "Register", "d9/d6b/a26798.html#aeb6c695819e894aad8b210a237e6d315", null ],
-    [ "AuraEffectHandleModes", "d9/d6b/a26798.html#a9b235517305f9b2fcf2d31eb3a4edbd2", null ]
+    [ "HandleApply", "d9/d6b/a26798.html#a046abc4b8afd26d13bcb7140165aed80", null ],
+    [ "HandleRemove", "d9/d6b/a26798.html#ad35716d4210572057fe67d426849931a", null ],
+    [ "PrepareAuraScript", "d9/d6b/a26798.html#a9af96871b8b7ac19de01e316f4350ebf", null ],
+    [ "Register", "d9/d6b/a26798.html#a37c4c881c563882fb72693babe545fc4", null ]
 ];

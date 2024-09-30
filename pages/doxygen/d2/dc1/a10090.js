@@ -1,6 +1,9 @@
 var a10090 =
 [
-    [ "GuildDemoteMember", "d2/dc1/a10090.html#aa3d68021828c516d7b1995811e8df7d7", null ],
-    [ "Read", "d2/dc1/a10090.html#aca46670c89e3d15df6a3f6694ab3dcb6", null ],
-    [ "Demotee", "d2/dc1/a10090.html#a60c7e56c201d794fb473a62fccc160bb", null ]
+    [ "TransportScript", "d2/dc1/a10090.html#a4b83123b122fa98831d304670a3de50a", null ],
+    [ "IsDatabaseBound", "d2/dc1/a10090.html#a956f0d757e5d974566fa8fac0df731e5", null ],
+    [ "OnAddCreaturePassenger", "d2/dc1/a10090.html#a5afb1f1dca2264089238ddd68b38a86d", null ],
+    [ "OnAddPassenger", "d2/dc1/a10090.html#a806f4829b47429900271f6dde7eaa625", null ],
+    [ "OnRelocate", "d2/dc1/a10090.html#a10334c1929c80fc80c76791cbd52f6dd", null ],
+    [ "OnRemovePassenger", "d2/dc1/a10090.html#a6d6a3af4fcde46101b78cfdb787a2248", null ]
 ];

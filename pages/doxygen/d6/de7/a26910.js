@@ -1,5 +1,5 @@
 var a26910 =
 [
-    [ "PrepareSpellScript", "d6/de7/a26910.html#a054677572d74a740f1c14715608f7b1b", null ],
-    [ "Register", "d6/de7/a26910.html#ae6556b58f0a4e6d3762bc3dc4c1643b3", null ]
+    [ "achievement_resilient_victory", "d6/de7/a26910.html#a6224c8a4b1b1ee7c1ab09d8873e86aa8", null ],
+    [ "OnCheck", "d6/de7/a26910.html#a21445d406f67771a20608260b3f9b033", null ]
 ];

@@ -1,35 +1,69 @@
 var a04532 =
 [
-    [ "npc_pet_pri_lightwell", "db/dc1/a24400.html", "db/dc1/a24400" ],
-    [ "npc_pet_pri_shadowfiend", "d7/dcf/a24404.html", "d7/dcf/a24404" ],
-    [ "PriestSpells", "d1/ddc/a04532.html#a8aaecfe4214ff7bd567980dd904b110f", [
-      [ "SPELL_PRIEST_GLYPH_OF_SHADOWFIEND", "d1/ddc/a04532.html#a8aaecfe4214ff7bd567980dd904b110faabcd07781394f6b318b9bf42c0938014", null ],
-      [ "SPELL_PRIEST_GLYPH_OF_SHADOWFIEND_MANA", "d1/ddc/a04532.html#a8aaecfe4214ff7bd567980dd904b110fa24b5ecb3171baa6a2e1c79957bcd7fde", null ],
-      [ "SPELL_PRIEST_SHADOWFIEND_DODGE", "d1/ddc/a04532.html#a8aaecfe4214ff7bd567980dd904b110fadb00d04038b22b42cfdff3f568a5c51a", null ],
-      [ "SPELL_PRIEST_LIGHTWELL_CHARGES", "d1/ddc/a04532.html#a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2", null ],
-      [ "SPELL_PRIEST_DIVINE_AEGIS", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110fa4bd6adc8070fcaa774451c5cac40ded1", null ],
-      [ "SPELL_PRIEST_EMPOWERED_RENEW", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110fad78a13deca5dca1beb7e7304ae3e2014", null ],
-      [ "SPELL_PRIEST_GLYPH_OF_CIRCLE_OF_HEALING", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110faa6155b51d0796813e0d96b14449698d5", null ],
-      [ "SPELL_PRIEST_GLYPH_OF_LIGHTWELL", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110fa08ad85769dce5870b0201048c1537b8d", null ],
-      [ "SPELL_PRIEST_GLYPH_OF_PRAYER_OF_HEALING_HEAL", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110fadbaba8ea6d37743ef668662c895fcb4e", null ],
-      [ "SPELL_PRIEST_GUARDIAN_SPIRIT_HEAL", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110fa2e82dca38567004533ff9b39360424c4", null ],
-      [ "SPELL_PRIEST_ITEM_EFFICIENCY", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110fad0b9beecf2b1e0f1fadc6cf162bbd07d", null ],
-      [ "SPELL_PRIEST_LIGHTWELL_CHARGES", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2", null ],
-      [ "SPELL_PRIEST_MANA_LEECH_PROC", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110fa4c5f8599ef6dfe01071d94bf15fdb366", null ],
-      [ "SPELL_PRIEST_PENANCE_R1", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110fa9ffd23299d870bb46db11bc57af21099", null ],
-      [ "SPELL_PRIEST_PENANCE_R1_DAMAGE", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110fa8768589bceb883d84b4e911a44d5267d", null ],
-      [ "SPELL_PRIEST_PENANCE_R1_HEAL", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110faf42f043dbb422920b04d0521f2103c68", null ],
-      [ "SPELL_PRIEST_REFLECTIVE_SHIELD_TRIGGERED", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110fa1fbf9f6af5e3402822cc04234cddaba4", null ],
-      [ "SPELL_PRIEST_REFLECTIVE_SHIELD_R1", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110fa22705e4341a9c87d475363cb0a9f78eb", null ],
-      [ "SPELL_PRIEST_SHADOW_WORD_DEATH", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110fad1d6a6bd6506f7e5a302ca1ad7256c4f", null ],
-      [ "SPELL_PRIEST_T9_HEALING_2P", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110faecf270b72f7ced3aab3ce3b2f24b8a87", null ],
-      [ "SPELL_PRIEST_VAMPIRIC_TOUCH_DISPEL", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110fa0ecf37a43c562bc7eae7041fc137ba03", null ],
-      [ "SPELL_PRIEST_T4_4P_FLEXIBILITY", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110faec0fc5ca32e9a185d596c0a931d65d9c", null ],
-      [ "SPELL_GENERIC_ARENA_DAMPENING", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110fa60a12ecf7b0c16a82500a97110ff35f0", null ],
-      [ "SPELL_GENERIC_BATTLEGROUND_DAMPENING", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110faf1c99f5067e5ef0ef1fb7f96bd317bf4", null ],
-      [ "SPELL_PRIEST_TWIN_DISCIPLINE_R1", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110fa58a40bf575a212bf832d151e37267690", null ],
-      [ "SPELL_PRIEST_SPIRITUAL_HEALING_R1", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110faeee484b733ad552750cbbd4bb82f11af", null ],
-      [ "SPELL_PRIEST_DIVINE_PROVIDENCE_R1", "d3/d56/a04553.html#a8aaecfe4214ff7bd567980dd904b110faead2486496bee0d1c950addeca1be8ae", null ]
+    [ "npc_pet_gen_soul_trader_beacon", "d1/d80/a24342.html", "d1/d80/a24342" ],
+    [ "argentPonyBanner", "da/d0b/a24346.html", "da/d0b/a24346" ],
+    [ "npc_pet_gen_argent_pony_bridle", "d5/d89/a24350.html", "d5/d89/a24350" ],
+    [ "npc_pet_gen_target_following_bomb", "dd/df2/a24354.html", "dd/df2/a24354" ],
+    [ "npc_pet_gen_gnomish_flame_turret", "d2/d60/a24358.html", "d2/d60/a24358" ],
+    [ "npc_pet_gen_valkyr_guardian", "da/da3/a24362.html", "da/da3/a24362" ],
+    [ "spell_pet_gen_valkyr_guardian_smite", "df/d56/a24366.html", "df/d56/a24366" ],
+    [ "npc_pet_gen_imp_in_a_bottle", "df/d0d/a24370.html", "df/d0d/a24370" ],
+    [ "npc_pet_gen_wind_rider_cub", "d5/d35/a24374.html", "d5/d35/a24374" ],
+    [ "npc_pet_gen_plump_turkey", "d2/d59/a24378.html", "d2/d59/a24378" ],
+    [ "npc_pet_gen_toxic_wasteling", "df/da7/a24382.html", "df/da7/a24382" ],
+    [ "npc_pet_gen_fetch_ball", "db/dfe/a24386.html", "db/dfe/a24386" ],
+    [ "npc_pet_gen_moth", "d2/d14/a24390.html", "d2/d14/a24390" ],
+    [ "npc_pet_darting_hatchling", "df/d5a/a24394.html", "df/d5a/a24394" ],
+    [ "Darting", "d1/ddc/a04532.html#ac6c326501143f3fd2f576f3bed6d1801", [
+      [ "SPELL_DARTING_ON_SPAWN", "d1/ddc/a04532.html#ac6c326501143f3fd2f576f3bed6d1801a3f54a1482e0a9d44e40a656213c2aab5", null ],
+      [ "SPELL_DARTING_FEAR", "d1/ddc/a04532.html#ac6c326501143f3fd2f576f3bed6d1801aabe22d3443647ba410026bb6e4a83928", null ]
     ] ],
-    [ "AddSC_priest_pet_scripts", "d1/ddc/a04532.html#ac0eaa77dc1cb9a092b318e3bc3f6d5b8", null ]
+    [ "eArgentPony", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25", [
+      [ "ARGENT_PONY_STATE_NONE", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25a7c7bbd0022800380396fe663f59b0cac", null ],
+      [ "ARGENT_PONY_STATE_ENCH", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25a9d808ab60e22f4f80d4ef4422b36b4c2", null ],
+      [ "ARGENT_PONY_STATE_VENDOR", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25a7b2084753d0318692685355df13f76c8", null ],
+      [ "ARGENT_PONY_STATE_BANK", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25a681f72bc8ca8b18c76f6214c68cd2d7a", null ],
+      [ "ARGENT_PONY_STATE_MAILBOX", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25a0ae46a4bf3a4c63b1a7c42ed49d127f3", null ],
+      [ "SPELL_PONY_MOUNT", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25a7053bcf0c5b72708b25ede3614a9e994", null ],
+      [ "SPELL_AURA_POSTMAN_S", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25a593c83162852e10d48847cbb5d6f8190", null ],
+      [ "SPELL_AURA_SHOP_S", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25a78ccec40f569ff7033fcc5972c22e875", null ],
+      [ "SPELL_AURA_BANK_S", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25aac98b13b8f429a9315adadb57e7df51e", null ],
+      [ "SPELL_AURA_TIRED_S", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25ac569629bfb2bc1e4b43207504f69cc62", null ],
+      [ "SPELL_AURA_BANK_G", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25a1cb3a2bde84f922951731a594b27f41f", null ],
+      [ "SPELL_AURA_POSTMAN_G", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25ac9a4b7f9083bec38085857b02cf035c3", null ],
+      [ "SPELL_AURA_SHOP_G", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25aaec84cc2dd0f10e8c3014af4a81053b2", null ],
+      [ "SPELL_AURA_TIRED_G", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25a95b8c0f443e980939026dade51ca7704", null ],
+      [ "ACHIEVEMENT_PONY_UP", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25a15932687a7f0651effb9b9ee2872108b", null ],
+      [ "GOSSIP_ACTION_MAILBOX", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25ae5789201628400bb29b4ff44df5bf6aa", null ],
+      [ "NPC_ARGENT_SQUIRE", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25aa7c39387e050223e87be9617cd1675d9", null ],
+      [ "NPC_ARGENT_GRUNTLING", "d1/ddc/a04532.html#afde75de2d7c41e82e7b05714b217ab25a87d163201c6a5c5c2844e2ccdfb6820d", null ]
+    ] ],
+    [ "eTargetFollowingBomb", "d1/ddc/a04532.html#a8fa8cac3b35ac78f077e32527c565dc5", [
+      [ "NPC_EXPLOSIVE_SHEEP", "d1/ddc/a04532.html#a8fa8cac3b35ac78f077e32527c565dc5a7fcfaaabbf679f0b666bf3373415ab08", null ],
+      [ "SPELL_EXPLOSIVE_SHEEP", "d1/ddc/a04532.html#a8fa8cac3b35ac78f077e32527c565dc5a458604e277b00331a23677dbcebe736c", null ],
+      [ "NPC_GOBLIN_BOMB", "d1/ddc/a04532.html#a8fa8cac3b35ac78f077e32527c565dc5a499465812239027532d496194535225b", null ],
+      [ "SPELL_EXPLOSIVE_GOBLIN", "d1/ddc/a04532.html#a8fa8cac3b35ac78f077e32527c565dc5ac8b8bff1dcac01fbc76888faedba2c4b", null ],
+      [ "NPC_HIGH_EXPLOSIVE_SHEEP", "d1/ddc/a04532.html#a8fa8cac3b35ac78f077e32527c565dc5a574940f707e088207860b7cf5831499a", null ],
+      [ "SPELL_HIGH_EXPLOSIVE_SHEEP", "d1/ddc/a04532.html#a8fa8cac3b35ac78f077e32527c565dc5a7d827992f43d628f53f5e20a47e70076", null ]
+    ] ],
+    [ "FetchBall", "d1/ddc/a04532.html#aac7a99c8fbbfd38ee1397e32e458b7ee", [
+      [ "SPELL_PET_TOY_FETCH_BALL_COME_HERE", "d1/ddc/a04532.html#aac7a99c8fbbfd38ee1397e32e458b7eeaa7b1515cbe9db27b4fdcd71fc12bbe57", null ],
+      [ "SPELL_PET_TOY_FETCH_BALL_HAS_BALL", "d1/ddc/a04532.html#aac7a99c8fbbfd38ee1397e32e458b7eeaf9371f563d2fba21dfa7a84ae163b06a", null ]
+    ] ],
+    [ "soulTrader", "d1/ddc/a04532.html#a0c62231deec62afa90de133fc889cf1d", [
+      [ "SPELL_STEAL_ESSENCE_VISUAL", "d1/ddc/a04532.html#a0c62231deec62afa90de133fc889cf1daf517a573d5d8d63de97a1a34d3aeee17", null ],
+      [ "SPELL_CREATE_TOKEN", "d1/ddc/a04532.html#a0c62231deec62afa90de133fc889cf1daa47b1a9e0b76f60a5fa03890f9f79656", null ],
+      [ "SPELL_PROC_TRIGGER_ON_KILL_AURA", "d1/ddc/a04532.html#a0c62231deec62afa90de133fc889cf1da09016acbb1f04797cba77c84929850d3", null ],
+      [ "SPELL_OWNER_KILLED_INFORM", "d1/ddc/a04532.html#a0c62231deec62afa90de133fc889cf1da7c4c179e4500563c9ef85d8df2f0e43a", null ],
+      [ "SPELL_EMOTE_STATE_SWIM_RUN", "d1/ddc/a04532.html#a0c62231deec62afa90de133fc889cf1da5f9cda28210ee1c037798c12ca801c3a", null ],
+      [ "EVENT_INITIAL_TALK", "d1/ddc/a04532.html#a0c62231deec62afa90de133fc889cf1daec0204ac67484a720309c13d441d6b0c", null ],
+      [ "EVENT_ADD_TOKEN", "d1/ddc/a04532.html#a0c62231deec62afa90de133fc889cf1da03e1aa2fc99d035a294f1596fd58851b", null ]
+    ] ],
+    [ "turkey", "d1/ddc/a04532.html#a8bc1d91a992db83fed0477b2a50adca3", [
+      [ "GO_BASIC_CAMPFIRE", "d1/ddc/a04532.html#a8bc1d91a992db83fed0477b2a50adca3abd474e7bd7da6a35853def0dcd7e2c97", null ],
+      [ "SPELL_TURKEY_STARTS_TO_BURN", "d1/ddc/a04532.html#a8bc1d91a992db83fed0477b2a50adca3acae2431d12566203a4dd6826000d74c5", null ]
+    ] ],
+    [ "AddSC_generic_pet_scripts", "d1/ddc/a04532.html#a9852812a043673e45884dca938eff157", null ],
+    [ "argentBanners", "d1/ddc/a04532.html#ab65fc23daecf619037accd45b3b5e28d", null ],
+    [ "argentPonyService", "d1/ddc/a04532.html#a4fcf1a55583a661981f5b5fda27a7eab", null ]
 ];

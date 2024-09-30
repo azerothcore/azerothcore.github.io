@@ -1,8 +1,10 @@
 var a07114 =
 [
-    [ "SearchMap", "d4/dff/a07114.html#a21bc680abec11928000923003bbad93f", null ],
-    [ "MakeSearchMap", "d4/dff/a07114.html#a8dc3337ff2ed1427fa9efdf35e458d7d", null ],
-    [ "Match", "d4/dff/a07114.html#a9f447ee626e80d616c304a4d07f25987", null ],
-    [ "TryConsume", "d4/dff/a07114.html#ac5bc3cde0205d8a1b200989cf6eb09cb", null ],
-    [ "_map", "d4/dff/a07114.html#a97e69e0044967ebb5369bfa0f46bd7bf", null ]
+    [ "OwnerId", "d4/dff/a07114.html#ae6203d7a867838b279825925841a99df", null ],
+    [ "PrevOwnerId", "d4/dff/a07114.html#a8357cc41fe125545d473c1f14c3ffa05", null ],
+    [ "PrevState", "d4/dff/a07114.html#ab97cde6dcd3c3e91bb94bf39d104bf77", null ],
+    [ "State", "d4/dff/a07114.html#a6e2b1f8c232c27ab24e3ca8bca8f6b03", null ],
+    [ "Timer", "d4/dff/a07114.html#a945afa538fc0dd1a4be11f5b5ac74bcb", null ],
+    [ "TotalOwnerId", "d4/dff/a07114.html#aec31f39eb98a3686ead3b1b99c7abfde", null ],
+    [ "Tower", "d4/dff/a07114.html#a222db96ad937e31986c0c39a5a371dd7", null ]
 ];

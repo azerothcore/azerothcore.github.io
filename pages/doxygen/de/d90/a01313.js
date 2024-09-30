@@ -1,25 +1,21 @@
 var a01313 =
 [
-    [ "PlayerDump", "dd/dbd/a11136.html", "dd/dbd/a11136" ],
-    [ "PlayerDumpWriter", "d8/dd7/a11140.html", "d8/dd7/a11140" ],
-    [ "PlayerDumpReader", "d8/d4f/a11144.html", "d8/d4f/a11144" ],
-    [ "DumpReturn", "de/d90/a01313.html#a4471667403db9bc7532f371d28743866", [
-      [ "DUMP_SUCCESS", "de/d90/a01313.html#a4471667403db9bc7532f371d28743866a6516d3543697022dbf635913b248e48e", null ],
-      [ "DUMP_FILE_OPEN_ERROR", "de/d90/a01313.html#a4471667403db9bc7532f371d28743866a01a5aec7fbe2bac9208d139b46a23656", null ],
-      [ "DUMP_TOO_MANY_CHARS", "de/d90/a01313.html#a4471667403db9bc7532f371d28743866a73b27eff0adff2ab7bfd73e34aeb307d", null ],
-      [ "DUMP_FILE_BROKEN", "de/d90/a01313.html#a4471667403db9bc7532f371d28743866a86acf22616e301a2ffef9ba80e227ed6", null ],
-      [ "DUMP_CHARACTER_DELETED", "de/d90/a01313.html#a4471667403db9bc7532f371d28743866a08aa6d880c4d2da0ad4c8c1b27a5cc47", null ]
+    [ "CleaningFlags", "de/d90/a01313.html#ad8ba5c50a4cd2d5193e35ccc83798c67", [
+      [ "CLEANING_FLAG_ACHIEVEMENT_PROGRESS", "de/d90/a01313.html#ad8ba5c50a4cd2d5193e35ccc83798c67afdcd00f9b75d683b143cbbe0ac22d748", null ],
+      [ "CLEANING_FLAG_SKILLS", "de/d90/a01313.html#ad8ba5c50a4cd2d5193e35ccc83798c67ac23b2648d4cf0fe8d9ff4cd96722a714", null ],
+      [ "CLEANING_FLAG_SPELLS", "de/d90/a01313.html#ad8ba5c50a4cd2d5193e35ccc83798c67a39fa10b14e68e92b74ab6697d0e1d564", null ],
+      [ "CLEANING_FLAG_TALENTS", "de/d90/a01313.html#ad8ba5c50a4cd2d5193e35ccc83798c67a06a3fa1596c0c32ec619b9b9cb1d1550", null ],
+      [ "CLEANING_FLAG_QUESTSTATUS", "de/d90/a01313.html#ad8ba5c50a4cd2d5193e35ccc83798c67ae0367424104049d29ca9dcf3d5b7273c", null ]
     ] ],
-    [ "DumpTableType", "de/d90/a01313.html#ad4739d865080bb5590831b606365e7ef", [
-      [ "DTT_CHARACTER", "de/d90/a01313.html#ad4739d865080bb5590831b606365e7efaea3cb16043024e5fdfc4f3301d2df323", null ],
-      [ "DTT_CHAR_TABLE", "de/d90/a01313.html#ad4739d865080bb5590831b606365e7efa3c784c38ccd07be78692e3e03bb53d94", null ],
-      [ "DTT_EQSET_TABLE", "de/d90/a01313.html#ad4739d865080bb5590831b606365e7efa0588b27b8e9c5cd1cd20d4324cad45de", null ],
-      [ "DTT_INVENTORY", "de/d90/a01313.html#ad4739d865080bb5590831b606365e7efa137a1112df8b9582403fec12c50fea7f", null ],
-      [ "DTT_MAIL", "de/d90/a01313.html#ad4739d865080bb5590831b606365e7efa581ecbcaf9623d952b28fd4e964ae67d", null ],
-      [ "DTT_MAIL_ITEM", "de/d90/a01313.html#ad4739d865080bb5590831b606365e7efa917099d0dd625e7aa46b6358fb4c036b", null ],
-      [ "DTT_ITEM", "de/d90/a01313.html#ad4739d865080bb5590831b606365e7efad5be0dba7076e09532f3eb8760b8501d", null ],
-      [ "DTT_ITEM_GIFT", "de/d90/a01313.html#ad4739d865080bb5590831b606365e7efadead833bce15df38e80b9eee85b1d847", null ],
-      [ "DTT_PET", "de/d90/a01313.html#ad4739d865080bb5590831b606365e7efacb52988d860dbf41c2e2a5e2650d95c8", null ],
-      [ "DTT_PET_TABLE", "de/d90/a01313.html#ad4739d865080bb5590831b606365e7efa4b50591bf81a27c7f6300f7733b14ac4", null ]
-    ] ]
+    [ "AchievementProgressCheck", "de/d90/a01313.html#afe5cf638b3ba626c9dc18258d4c528fa", null ],
+    [ "CheckUnique", "de/d90/a01313.html#ab98182e5f92f72090600314cc41f0d39", null ],
+    [ "CleanCharacterAchievementProgress", "de/d90/a01313.html#ae5939466cf9b4fbb63eb136baf62767f", null ],
+    [ "CleanCharacterQuestStatus", "de/d90/a01313.html#a9f512823f852120bf4c3ec78eb4bbeaa", null ],
+    [ "CleanCharacterSkills", "de/d90/a01313.html#ae8c5d4dc123b8a900254bcbc82c1ffbe", null ],
+    [ "CleanCharacterSpell", "de/d90/a01313.html#aca5826d283031348e5d6ae6eb75ad605", null ],
+    [ "CleanCharacterTalent", "de/d90/a01313.html#a344f61fb209b507b775a0bbfb1315fac", null ],
+    [ "CleanDatabase", "de/d90/a01313.html#a357c8a07f912c6efb55a13cc9bc089b9", null ],
+    [ "SkillCheck", "de/d90/a01313.html#a0f72cf24646d1ece0eb793890840992d", null ],
+    [ "SpellCheck", "de/d90/a01313.html#a02688f57778d28a7bcc4ca6cee2074ad", null ],
+    [ "TalentCheck", "de/d90/a01313.html#aac707369555aa95807c11b1578ae80d2", null ]
 ];

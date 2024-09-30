@@ -1,6 +1,6 @@
 var a23206 =
 [
-    [ "npc_dalaran_mageAI", "d7/da6/a23210.html", "d7/da6/a23210" ],
-    [ "npc_dalaran_mage", "dd/d29/a23206.html#a764d637ab0c64e2a0cc0459269974d6d", null ],
-    [ "GetAI", "dd/d29/a23206.html#ae2deef0546e2bf0df562e0a67b8b0b93", null ]
+    [ "HandleApplyAura", "dd/d29/a23206.html#a4fde347d339f08cd01e2a47883d4b988", null ],
+    [ "PrepareSpellScript", "dd/d29/a23206.html#ab22bd56638a6adc8d111250780221cb9", null ],
+    [ "Register", "dd/d29/a23206.html#a1dd967ad59159faf694b8e0bfcd369ac", null ]
 ];

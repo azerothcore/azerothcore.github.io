@@ -1,6 +1,6 @@
 var a19166 =
 [
-    [ "HandleScript", "dd/d80/a19166.html#a98719a2a7575df29652d251d941b24aa", null ],
-    [ "PrepareSpellScript", "dd/d80/a19166.html#a37565780fd8728c45de0d9b155e16c65", null ],
-    [ "Register", "dd/d80/a19166.html#adec02fe26d51c395657156615e418df6", null ]
+    [ "boss_anomalusAI", "d7/d5b/a19170.html", "d7/d5b/a19170" ],
+    [ "boss_anomalus", "dd/d80/a19166.html#a0dc3f8d5e272327596a8c7b34ffbe434", null ],
+    [ "GetAI", "dd/d80/a19166.html#ae0a4a5047646a75fa492bf3d0383b127", null ]
 ];

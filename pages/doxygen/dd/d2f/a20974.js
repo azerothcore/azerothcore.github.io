@@ -1,6 +1,6 @@
 var a20974 =
 [
-    [ "spell_assembly_rune_of_summoning_AuraScript", "d3/dbe/a20978.html", "d3/dbe/a20978" ],
-    [ "spell_assembly_rune_of_summoning", "dd/d2f/a20974.html#a999f9c3e0734dadbf84f72ee61987a62", null ],
-    [ "GetAuraScript", "dd/d2f/a20974.html#adcc77c086b10236732712548a3daaf22", null ]
+    [ "boss_kelesethAI", "d3/dbe/a20978.html", "d3/dbe/a20978" ],
+    [ "boss_keleseth", "dd/d2f/a20974.html#aa80ba121af9092f3a7c2d24e3018d27f", null ],
+    [ "GetAI", "dd/d2f/a20974.html#ac80a19a56a921e3be04a3bad1cb12912", null ]
 ];

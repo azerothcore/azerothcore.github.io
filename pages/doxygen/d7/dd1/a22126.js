@@ -1,6 +1,5 @@
 var a22126 =
 [
-    [ "x", "d7/dd1/a22126.html#ae4223168378b602a0a96dbb424a22be4", null ],
-    [ "y", "d7/dd1/a22126.html#a30f361d8104e4de44541d75945105963", null ],
-    [ "z", "d7/dd1/a22126.html#ae68a79519c35302b89976ac29bb77e26", null ]
+    [ "go_brazier", "d7/dd1/a22126.html#a432a07256fde679a889de7ba0f64f092", null ],
+    [ "OnGossipHello", "d7/dd1/a22126.html#a3e0be690d58be4d7bbbb5b624ac4bd5b", null ]
 ];

@@ -1,6 +1,6 @@
 var a18254 =
 [
-    [ "spell_igb_burning_pitch_SpellScript", "df/da5/a18258.html", "df/da5/a18258" ],
-    [ "spell_igb_burning_pitch", "d4/d70/a18254.html#a73e4a64db38a04b60d818904b3ef6481", null ],
-    [ "GetSpellScript", "d4/d70/a18254.html#a43a5b545b37586586d9a1e3f9914f317", null ]
+    [ "npc_icc_lk_checktargetAI", "df/da5/a18258.html", "df/da5/a18258" ],
+    [ "npc_icc_lk_checktarget", "d4/d70/a18254.html#a3a2cc943e731e472694dcb13417090da", null ],
+    [ "GetAI", "d4/d70/a18254.html#a2cd9a5c7fec791ba8786cf1bb5b7c8bd", null ]
 ];

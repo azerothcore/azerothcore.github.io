@@ -1,7 +1,6 @@
 var a27166 =
 [
-    [ "HandleEffectApply", "d9/d8a/a27166.html#abf780eeca61aef7e44617aa0ed2ff8b8", null ],
-    [ "OnRemove", "d9/d8a/a27166.html#af2cfa66cd7dbc7c671efa06c497cc03e", null ],
-    [ "PrepareAuraScript", "d9/d8a/a27166.html#ab6c5d1fd94c763126ef77f9efd4a7116", null ],
-    [ "Register", "d9/d8a/a27166.html#a473189971d0a03e7305b7b9e41dc5207", null ]
+    [ "go_l70_etc_musicAI", "d6/d22/a27170.html", "d6/d22/a27170" ],
+    [ "go_l70_etc_music", "d9/d8a/a27166.html#a766dccca12fc7959273ba1e3a278564f", null ],
+    [ "GetAI", "d9/d8a/a27166.html#a5231ffc778830f8a49ae85a8c1173deb", null ]
 ];

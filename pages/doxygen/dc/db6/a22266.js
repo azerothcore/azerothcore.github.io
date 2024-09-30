@@ -1,6 +1,8 @@
 var a22266 =
 [
-    [ "spell_yogg_saron_malady_of_the_mind_AuraScript", "dd/d1a/a22270.html", "dd/d1a/a22270" ],
-    [ "spell_yogg_saron_malady_of_the_mind", "dc/db6/a22266.html#a1c35ee4d30b56ac986bcb3f5abd6a09e", null ],
-    [ "GetAuraScript", "dc/db6/a22266.html#a43dbeba8cf5c6136c55c16b1c04f087a", null ]
+    [ "npc_hyldsmeet_protodrakeAI", "dc/db6/a22266.html#a30794392a32b1323fb0a86615b341741", null ],
+    [ "PassengerBoarded", "dc/db6/a22266.html#acb699d519bf79702a34b7d9910fe7c9e", null ],
+    [ "UpdateAI", "dc/db6/a22266.html#afd2168f8dc7328898f5e769c31c6da5a", null ],
+    [ "_accessoryRespawnTimer", "dc/db6/a22266.html#a4c6b4236bf35278d05c4b78f1eda6b75", null ],
+    [ "_vehicleKit", "dc/db6/a22266.html#aba68a138ef44af7d012c8c7dd4c06c6d", null ]
 ];

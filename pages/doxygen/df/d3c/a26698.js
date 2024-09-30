@@ -1,8 +1,11 @@
 var a26698 =
 [
-    [ "AfterRemove", "df/d3c/a26698.html#afdd1575bce3b34da6e3a101eaa695c41", null ],
-    [ "HandleDispel", "df/d3c/a26698.html#a3c2ffe31074115f6cab5f4b18b05dbc3", null ],
-    [ "PrepareAuraScript", "df/d3c/a26698.html#a44e66753516d693c31dba27c9d1ad250", null ],
-    [ "Register", "df/d3c/a26698.html#aa21ecabbf52b457e163f17b3012b0f84", null ],
-    [ "Validate", "df/d3c/a26698.html#a6af7e5aa16b3c84ed1388e2f62424701", null ]
+    [ "CalcPeriodic", "df/d3c/a26698.html#aeb804ef41ec5600c18b5b1c9fcf37479", null ],
+    [ "CalculateAPAmount", "df/d3c/a26698.html#a72bd308dbeaa7eca5685f3e5055d7fad", null ],
+    [ "CalculateResistanceAmount", "df/d3c/a26698.html#a12a0f547198d150b0c51e481dd0ff6aa", null ],
+    [ "CalculateSPAmount", "df/d3c/a26698.html#a114c868f0dc31f3370588b1bd1f18894", null ],
+    [ "CalculateStatAmount", "df/d3c/a26698.html#ae7ba2e3eca6c93325ede8b100e32bd3c", null ],
+    [ "HandlePeriodic", "df/d3c/a26698.html#af5076795e8bf6abd45590a060f9e5b52", null ],
+    [ "PrepareAuraScript", "df/d3c/a26698.html#aa512873852c0eea9947472fcb60fbfc2", null ],
+    [ "Register", "df/d3c/a26698.html#a40ed4ca839b9783d9a8e9930f87a2eb8", null ]
 ];

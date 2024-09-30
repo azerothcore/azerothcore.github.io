@@ -1,6 +1,7 @@
 var a18534 =
 [
-    [ "spell_putricide_mutated_plague_AuraScript", "d4/d4f/a18538.html", "d4/d4f/a18538" ],
-    [ "spell_putricide_mutated_plague", "df/d79/a18534.html#a32d4b2fad2e9eea8b5fd1332b54c81c8", null ],
-    [ "GetAuraScript", "df/d79/a18534.html#ac8f1b4a72499b4a55111d8c56f3e5981", null ]
+    [ "npc_impaling_spearAI", "df/d79/a18534.html#ae8fbc36a15324b210a24a0e98357adc3", null ],
+    [ "Reset", "df/d79/a18534.html#a43fa8bf8f22f0635261decd8b15ed6f5", null ],
+    [ "UpdateAI", "df/d79/a18534.html#acb187a58b0ba256b4e003655ac36db34", null ],
+    [ "_vehicleCheckTimer", "df/d79/a18534.html#a264874b9f6f0609792d4b3a325e54f59", null ]
 ];

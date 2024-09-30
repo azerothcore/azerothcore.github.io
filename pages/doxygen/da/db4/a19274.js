@@ -1,6 +1,6 @@
 var a19274 =
 [
-    [ "npc_icc_lk_checktargetAI", "d8/dad/a19278.html", "d8/dad/a19278" ],
-    [ "npc_icc_lk_checktarget", "da/db4/a19274.html#a3a2cc943e731e472694dcb13417090da", null ],
-    [ "GetAI", "da/db4/a19274.html#a2cd9a5c7fec791ba8786cf1bb5b7c8bd", null ]
+    [ "boss_uromAI", "d8/dad/a19278.html", "d8/dad/a19278" ],
+    [ "boss_urom", "da/db4/a19274.html#ae85d0bb54d3bf6571bec9d35f31a3e25", null ],
+    [ "GetAI", "da/db4/a19274.html#ac381b851f3cc746fb323ff238892c537", null ]
 ];

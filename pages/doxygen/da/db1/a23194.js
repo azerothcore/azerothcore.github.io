@@ -1,9 +1,12 @@
 var a23194 =
 [
-    [ "npc_mageguard_dalaranAI", "da/db1/a23194.html#adb9c8b0003c070114b63f3b8e538bceb", null ],
-    [ "AttackStart", "da/db1/a23194.html#ac1e73ad92bd5db0d3b9fe23b36cd8dd7", null ],
-    [ "JustEngagedWith", "da/db1/a23194.html#aac463689ae5a488ec2acb8a0310689d8", null ],
-    [ "MoveInLineOfSight", "da/db1/a23194.html#aafb32462693e0efd9c80cf335f489754", null ],
-    [ "Reset", "da/db1/a23194.html#aa6dde0732bac407a62403bb8f0f24c26", null ],
-    [ "UpdateAI", "da/db1/a23194.html#a4d6ce701a4cc463a7e9c295c664d4440", null ]
+    [ "instance_serpentshrine_cavern_InstanceMapScript", "da/db1/a23194.html#a3e83985648f2951ee33d440c9c98bf72", null ],
+    [ "GetData", "da/db1/a23194.html#a9ea722d45efe2ee4eff041e480ff1c79", null ],
+    [ "Initialize", "da/db1/a23194.html#a8a2214e169acace8578c1863daf0a04c", null ],
+    [ "OnCreatureCreate", "da/db1/a23194.html#ae5f77169c337420852962fe7ddba3006", null ],
+    [ "OnGameObjectCreate", "da/db1/a23194.html#a9aeb7b25aa1446fff655b4c8fd6c47ad", null ],
+    [ "SetBossState", "da/db1/a23194.html#ad2863bc954ae25a5d96d06db0250cda3", null ],
+    [ "SetData", "da/db1/a23194.html#af3ca65eef9902a029f5b836d0b6fd58a", null ],
+    [ "_aliveKeepersCount", "da/db1/a23194.html#a85b7cbeab4149b0a379f27bdb459cfd7", null ],
+    [ "_shieldGeneratorGUID", "da/db1/a23194.html#a570b73c8ecd0e1ab6ac2889405be6ef0", null ]
 ];

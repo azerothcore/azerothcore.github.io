@@ -1,7 +1,28 @@
 var a12302 =
 [
-    [ "CalcPeriodic", "d2/d7b/a12302.html#a1a1bd909c873d5b9f8d7771eceb87c1d", null ],
-    [ "PrepareAuraScript", "d2/d7b/a12302.html#a2ffea4361a750fe9e64fc4beab36e287", null ],
-    [ "Register", "d2/d7b/a12302.html#a389395358cf0991e90a452c34fcb394e", null ],
-    [ "Update", "d2/d7b/a12302.html#a965b9030423114eaf99ee1f1400fdc45", null ]
+    [ "boss_nightbane", "d2/d7b/a12302.html#a14e8d2773f75c8464a725c4c0e29789f", null ],
+    [ "AttackStart", "d2/d7b/a12302.html#a1709459f82758e690b6f5f667ac113b2", null ],
+    [ "DamageTaken", "d2/d7b/a12302.html#ae49cca4df3d3e4671fcd29d0ff80b820", null ],
+    [ "DoAction", "d2/d7b/a12302.html#aa27b56f7248f504d9a79de0f5f104961", null ],
+    [ "EnterEvadeMode", "d2/d7b/a12302.html#a0bf6d0a9bc0be2532f5d367758f03446", null ],
+    [ "FlyToClosestPreFlyWayPoint", "d2/d7b/a12302.html#affc0741ba52bdb3af2f3ca1ba65e5d16", null ],
+    [ "JustEngagedWith", "d2/d7b/a12302.html#add269fc76dc2094109261d654e0cb75b", null ],
+    [ "JustReachedHome", "d2/d7b/a12302.html#a867c09a5802d402db3a4dca7584b6d85", null ],
+    [ "JustSummoned", "d2/d7b/a12302.html#aebe3a054846638cb704537bb6ae8df26", null ],
+    [ "MoveInLineOfSight", "d2/d7b/a12302.html#a2cdc3d7e7f83391eaf96e92f20ea703b", null ],
+    [ "MovementInform", "d2/d7b/a12302.html#aebfd407ada0b093a22ba50fbfb22dc0c", null ],
+    [ "PathEndReached", "d2/d7b/a12302.html#a96d7a6c7fd756c78cb528b738e2f15e6", null ],
+    [ "Reset", "d2/d7b/a12302.html#a16e5dba8c2187d2f8b175360f40c299c", null ],
+    [ "ScheduleFly", "d2/d7b/a12302.html#a536b576c59bfe91e88823634978e174d", null ],
+    [ "ScheduleGround", "d2/d7b/a12302.html#aab88cfbfbf9bdb347683b6c49ee455ee", null ],
+    [ "ScheduleLand", "d2/d7b/a12302.html#a9a42862b459b6447a0a3b59828515337", null ],
+    [ "TriggerHealthTakeOff", "d2/d7b/a12302.html#a7973791c2410f57ed9bc72b151a35419", null ],
+    [ "UpdateAI", "d2/d7b/a12302.html#afc9746671aab95918269375a672ecbed", null ],
+    [ "_airPhasesCompleted", "d2/d7b/a12302.html#a097feecad913478440092a818b6b6f38", null ],
+    [ "_phase", "d2/d7b/a12302.html#ae15a984403ef5ef27b58400dbc92777d", null ],
+    [ "_skeletonCount", "d2/d7b/a12302.html#a2588f568133a843cb2bd6ef97794a03f", null ],
+    [ "_skeletonscheduler", "d2/d7b/a12302.html#aff6649c16f1c929325e1941479569fc1", null ],
+    [ "_skeletonSpawnCounter", "d2/d7b/a12302.html#a39ed84d01215f9f8427e5c599e424927", null ],
+    [ "_skeletonSpawnPos", "d2/d7b/a12302.html#a28ded4432525290ff7e81d03545d46cf", null ],
+    [ "_triggerCountTakeOffWhileFlying", "d2/d7b/a12302.html#a55a8cf6e293b0c7ad3865340412aa31e", null ]
 ];

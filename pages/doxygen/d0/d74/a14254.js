@@ -1,11 +1,9 @@
 var a14254 =
 [
-    [ "npc_elder_kekek", "d0/d74/a14254.html#a6084af39be5c70699c9fdcf3cd58e954", null ],
-    [ "MoveInLineOfSight", "d0/d74/a14254.html#a0c673e4fdf8e75d3bc8570db166bcd95", null ],
-    [ "Reset", "d0/d74/a14254.html#a97e615bdefba5baf459960fc2987cd69", null ],
-    [ "UpdateAI", "d0/d74/a14254.html#a5823bc7164d797c40d48b9b74642d9b5", null ],
-    [ "orphanGUID", "d0/d74/a14254.html#a98c79e46e051c35819c6025828a519cb", null ],
-    [ "phase", "d0/d74/a14254.html#a99fd9d984f92d5ba8b5876675855d4f6", null ],
-    [ "playerGUID", "d0/d74/a14254.html#a614ed3332f4af3c5178aa69da968a3d3", null ],
-    [ "timer", "d0/d74/a14254.html#a445c048d8858f5dc7c1e88308ed7e5ab", null ]
+    [ "npc_love_in_air_snivel", "d0/d74/a14254.html#ab04596fb96292f54cf2a10f662dc94a3", null ],
+    [ "AllowAction", "d0/d74/a14254.html#af1097317f62bbb8f8456124001c73576", null ],
+    [ "MoveInLineOfSight", "d0/d74/a14254.html#ae6537707109b95fad20e521d07867cdd", null ],
+    [ "Reset", "d0/d74/a14254.html#a2385ea44d9f44735b193add4a0d0485b", null ],
+    [ "UpdateAI", "d0/d74/a14254.html#a9e712994663e3442359d2f574ebc812c", null ],
+    [ "delay", "d0/d74/a14254.html#a548db6245ef875ec47279246e437934c", null ]
 ];

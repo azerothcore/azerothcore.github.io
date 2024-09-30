@@ -1,7 +1,6 @@
 var a15434 =
 [
-    [ "npc_prospector_remtravelAI", "d6/dfd/a15438.html", "d6/dfd/a15438" ],
-    [ "npc_prospector_remtravel", "d5/d9f/a15434.html#aa213161fc60e615682252125f6c58f7f", null ],
-    [ "GetAI", "d5/d9f/a15434.html#aa8e1bb551036684b05c1b3bea4c66b1d", null ],
-    [ "OnQuestAccept", "d5/d9f/a15434.html#a5e11149b6359927a71c98242d979e65b", null ]
+    [ "npc_custodian_of_timeAI", "d6/dfd/a15438.html", "d6/dfd/a15438" ],
+    [ "npc_custodian_of_time", "d5/d9f/a15434.html#a6018b30119ce819853a3c662b3d5347e", null ],
+    [ "GetAI", "d5/d9f/a15434.html#a57217b2dab1cab110f1c59526ca13c86", null ]
 ];

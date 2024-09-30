@@ -1,10 +1,12 @@
 var a07086 =
 [
-    [ "value_type", "d3/d45/a07086.html#a821f7b556a5e7dd88e406eb856a5b635", null ],
-    [ "operator()", "d3/d45/a07086.html#a51db58c653c279b30d19e9188894adec", null ],
-    [ "operator()", "d3/d45/a07086.html#a6225e55f229eca06eef7e6c27531bbe9", null ],
-    [ "operator()", "d3/d45/a07086.html#ab516399a6965a67daed318a1058c87ef", null ],
-    [ "operator()", "d3/d45/a07086.html#abeeef774a78ec84f0020686aab425a5c", null ],
-    [ "operator()", "d3/d45/a07086.html#a0d4e9cb0ae75752363793d29599afbdc", null ],
-    [ "operator()", "d3/d45/a07086.html#a4a277a9ad5764e42c53746999e004b88", null ]
+    [ "BGQueueRemoveEvent", "d3/d45/a07086.html#ab751b728f64b2928eefb21f756539d81", null ],
+    [ "~BGQueueRemoveEvent", "d3/d45/a07086.html#aab9ea24041888975439aafb246c571c3", null ],
+    [ "Abort", "d3/d45/a07086.html#a7d1dc829e56398ad421cb53dd51e952e", null ],
+    [ "Execute", "d3/d45/a07086.html#a42482ff784da4b23b568888a74a0b531", null ],
+    [ "m_BgInstanceGUID", "d3/d45/a07086.html#a4732918e6d7c42dd068f5cb147a188fc", null ],
+    [ "m_BgQueueTypeId", "d3/d45/a07086.html#ac059a823ae49bd0250eec15845bf153b", null ],
+    [ "m_BgTypeId", "d3/d45/a07086.html#a8bc484087ef76d627d5ae912bc5de22c", null ],
+    [ "m_PlayerGuid", "d3/d45/a07086.html#a9a1e2c09896b4d7521954d810e7193cc", null ],
+    [ "m_RemoveTime", "d3/d45/a07086.html#a0c40a46749bff9caaf1a462d7bef701e", null ]
 ];

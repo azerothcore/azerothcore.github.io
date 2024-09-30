@@ -1,6 +1,5 @@
 var a20902 =
 [
-    [ "HandlePeriodic", "d8/d2f/a20902.html#a9112a2f329300f8c4a5061312ec8b8b9", null ],
-    [ "PrepareAuraScript", "d8/d2f/a20902.html#aad01426aa1e71cb1b9018a9ef32fc5c3", null ],
-    [ "Register", "d8/d2f/a20902.html#a574cf909fd708ec00fff2da173e6d1bc", null ]
+    [ "achievement_yogg_saron_kiss_and_make_up", "d8/d2f/a20902.html#a9f2e5fe9de59a9b5a00c0e73e8f9b376", null ],
+    [ "OnCheck", "d8/d2f/a20902.html#a8ce7df713b804d5bdd5f6f47d77fc1b8", null ]
 ];

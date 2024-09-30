@@ -1,8 +1,6 @@
 var a23594 =
 [
-    [ "npc_llod_genericAI", "dc/d59/a23594.html#ac75d85ae4b59416952788102cd1db132", null ],
-    [ "Reset", "dc/d59/a23594.html#a15bd7442fef36a551cc8797f7919f57c", null ],
-    [ "UpdateAI", "dc/d59/a23594.html#aa7dce553fb699127f63281b2c47a2f02", null ],
-    [ "attackTimer", "dc/d59/a23594.html#a28a6e700d24995e477e7e7c4cc8b5d68", null ],
-    [ "summonTimer", "dc/d59/a23594.html#aeeeef545aee565c14d86d8587923c677", null ]
+    [ "boss_porung", "dc/d59/a23594.html#acef31010461bbf716ac9b13d950807ee", null ],
+    [ "JustDied", "dc/d59/a23594.html#ac5c36f875692f49d1d0195694d85e5c1", null ],
+    [ "JustEngagedWith", "dc/d59/a23594.html#a9d44f51e4710e01bdc7d345ff3bba9dc", null ]
 ];

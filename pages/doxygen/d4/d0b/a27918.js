@@ -1,6 +1,5 @@
 var a27918 =
 [
-    [ "CheckProc", "d4/d0b/a27918.html#a5b8ee53249a19954e4d46b17422207d5", null ],
-    [ "PrepareAuraScript", "d4/d0b/a27918.html#a2640f58f3e7442c37615b61ecf938a6f", null ],
-    [ "Register", "d4/d0b/a27918.html#a55be2362ac226caa615e07a2a3b5ea38", null ]
+    [ "ID", "d4/d0b/a27918.html#a4f030d8b8b87aff67e0d8319c6b53310", null ],
+    [ "price", "d4/d0b/a27918.html#a9b81ec4b4638763b738862d6c184e2a9", null ]
 ];

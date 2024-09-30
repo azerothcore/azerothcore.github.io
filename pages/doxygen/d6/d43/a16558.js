@@ -1,12 +1,10 @@
 var a16558 =
 [
-    [ "npc_swarm_scarabAI", "d6/d43/a16558.html#a0d0cefd52543044773e7df772f90fd37", null ],
-    [ "CanAIAttack", "d6/d43/a16558.html#a95a27742f4f7fa1af45964b6270a9558", null ],
-    [ "DoAction", "d6/d43/a16558.html#ac1fe6742ef1e7bdee4c81a3933a31659", null ],
-    [ "JustDied", "d6/d43/a16558.html#a0fe99c71cac6d3ee8d360f0d46d03fcd", null ],
-    [ "JustEngagedWith", "d6/d43/a16558.html#a585e1e8800e97b2aa3d6c893d54c1d2b", null ],
-    [ "Reset", "d6/d43/a16558.html#aa24cc2f2b7aa4c5c534e8d2ce2957237", null ],
-    [ "UpdateAI", "d6/d43/a16558.html#aa33d9e101ba7de2a25a6213baccf6df1", null ],
-    [ "despawnTimer", "d6/d43/a16558.html#a6d35e43af695ac112b972badb665f06d", null ],
-    [ "determinationTimer", "d6/d43/a16558.html#af319dbf16bc1d3939602465f0a87d30c", null ]
+    [ "boss_tharon_jaAI", "d6/d43/a16558.html#a03025fa529e932f23479ff19b0cd8238", null ],
+    [ "DoAction", "d6/d43/a16558.html#a655fd83c2d671847fea9ae393c132fb9", null ],
+    [ "JustDied", "d6/d43/a16558.html#a7928b5db061f1073e1decc2d40601195", null ],
+    [ "JustEngagedWith", "d6/d43/a16558.html#aab194a8f802eeb625d1a74960acbe154", null ],
+    [ "KilledUnit", "d6/d43/a16558.html#a41e929a3768768eb06bafdee3269fd24", null ],
+    [ "Reset", "d6/d43/a16558.html#a272e8565a9b00a27505b301d52814eee", null ],
+    [ "UpdateAI", "d6/d43/a16558.html#a6f482cabcb0bd56711878a5ea297b950", null ]
 ];

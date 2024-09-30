@@ -1,8 +1,10 @@
 var a04986 =
 [
-    [ "Count", "d4/de5/a04986.html#a89c3c7b5a565a0bd087664b77d04589f", null ],
-    [ "GetElements", "d4/de5/a04986.html#af75467b56830b1447bebbf974b2747b6", null ],
-    [ "GetElements", "d4/de5/a04986.html#abbdfddc576af5f2d49dddf5e49ad2864", null ],
-    [ "insert", "d4/de5/a04986.html#a026880bb3378687143ed19fa7b99b41b", null ],
-    [ "i_elements", "d4/de5/a04986.html#a8ef4a180d448dcba2141fc389621433d", null ]
+    [ "WModelAreaCallback", "d4/de5/a04986.html#ad59e5b281d60d2489d0100e728612e65", null ],
+    [ "operator()", "d4/de5/a04986.html#a4c0bb86ba4d8238e8f7740c4699dfa0f", null ],
+    [ "hit", "d4/de5/a04986.html#a136cf475a8246611c52b3af41707fe83", null ],
+    [ "minVol", "d4/de5/a04986.html#a169a35e4d1b33b28014ad753993a1c27", null ],
+    [ "prims", "d4/de5/a04986.html#a7a45b1c8e16c7840a45b96b15ca200b4", null ],
+    [ "zDist", "d4/de5/a04986.html#ade19ec7931454c375bf8564f05556c8e", null ],
+    [ "zVec", "d4/de5/a04986.html#a423995c8ce4c4846da978cc49aeee2b9", null ]
 ];

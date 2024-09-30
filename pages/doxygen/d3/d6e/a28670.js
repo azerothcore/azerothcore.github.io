@@ -1,6 +1,6 @@
 var a28670 =
 [
-    [ "HandleAfterHit", "d3/d6e/a28670.html#a177bcf10d6b8fa586ff0cac3834367f9", null ],
-    [ "PrepareSpellScript", "d3/d6e/a28670.html#ac16ef2ff92440deab6c69f4824bdd619", null ],
-    [ "Register", "d3/d6e/a28670.html#a46fe3d7ebd663d1cb27aa473a56e81eb", null ]
+    [ "height", "d3/d6e/a28670.html#a7638f586a055c48a46e36471543ff72f", null ],
+    [ "unk1", "d3/d6e/a28670.html#a6c08b6fa33e12a9900218d0d0b8b78d5", null ],
+    [ "unk2", "d3/d6e/a28670.html#a394a04f6e985824aa259a42b11b97136", null ]
 ];

@@ -1,6 +1,6 @@
 var a25714 =
 [
-    [ "spell_astromancer_wrath_of_the_astromancer_AuraScript", "df/d43/a25718.html", "df/d43/a25718" ],
-    [ "spell_astromancer_wrath_of_the_astromancer", "d7/df4/a25714.html#a14ff773560fcc3cd56d8446983e1f078", null ],
-    [ "GetAuraScript", "d7/df4/a25714.html#ad889955b8597a64338f1f95e770f4c9f", null ]
+    [ "CheckSinkholes", "d7/df4/a25714.html#a5c363144cde9e809d97730f54873fe85", null ],
+    [ "PrepareSpellScript", "d7/df4/a25714.html#a0cd1fc05ee319b04299fcebe3a405bb4", null ],
+    [ "Register", "d7/df4/a25714.html#a6694fbf58b776b74df0a54cd96141688", null ]
 ];

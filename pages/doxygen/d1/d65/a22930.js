@@ -1,8 +1,6 @@
 var a22930 =
 [
-    [ "npc_azure_raiderAI", "d1/d65/a22930.html#a6928428a9dc1ed483a682c8f2a281ebf", null ],
-    [ "Reset", "d1/d65/a22930.html#a80d9e586e5c03d19b6b9f0e0f7607b20", null ],
-    [ "UpdateAI", "d1/d65/a22930.html#a2e9833d0d25fd8c442f7ab279de6a40a", null ],
-    [ "uiConcussionBlowTimer", "d1/d65/a22930.html#a4e7dfb8d4991bf7ad3d0eeb72dff770b", null ],
-    [ "uiMagicReflectionTimer", "d1/d65/a22930.html#acb262ab506ea58201abfe2057525c548", null ]
+    [ "npc_supremus_punch_invisible_stalker", "d1/d65/a22930.html#add7d0e711ef02a16ef58d90cfc8ee733", null ],
+    [ "IsSummonedBy", "d1/d65/a22930.html#a467d5a43bb6d2349ad859a0ef7de4c00", null ],
+    [ "UpdateAI", "d1/d65/a22930.html#a90ecfe4257ef77a6d6a200a2f017c51a", null ]
 ];

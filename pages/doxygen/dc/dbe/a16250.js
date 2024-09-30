@@ -1,7 +1,7 @@
 var a16250 =
 [
-    [ "OnApply", "dc/dbe/a16250.html#ad8f4404f239f3e3bebc990cc85f7bda7", null ],
-    [ "OnRemove", "dc/dbe/a16250.html#a3cdbc1c21d611de6e758405a51d6b131", null ],
-    [ "PrepareAuraScript", "dc/dbe/a16250.html#af466e82545082d891be7d0691ed7e272", null ],
-    [ "Register", "dc/dbe/a16250.html#a319622b9fee0e7b532dae4a1266e151e", null ]
+    [ "npc_toc_priestAI", "dc/dbe/a16250.html#aa362d2136193a8738e311bba18b87c90", null ],
+    [ "myCanCast", "dc/dbe/a16250.html#ad2d4286d8f51a2d5a4901487e56506dc", null ],
+    [ "UpdateAI", "dc/dbe/a16250.html#ae51d2ac95320909150c673b76c9856c7", null ],
+    [ "events", "dc/dbe/a16250.html#aa5be20e87351424e0e4698540fc1fef4", null ]
 ];

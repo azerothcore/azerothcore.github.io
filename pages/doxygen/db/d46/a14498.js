@@ -1,7 +1,7 @@
 var a14498 =
 [
-    [ "HandleOnHit", "db/d46/a14498.html#ae3241486a612293b5421a523f6d854d9", null ],
-    [ "PrepareSpellScript", "db/d46/a14498.html#a20b6f0f7d403065cde55dec7f50537f9", null ],
-    [ "Register", "db/d46/a14498.html#af6d4c6dfa15da815298ad5d88b3fede2", null ],
-    [ "Validate", "db/d46/a14498.html#a53773b6b18b1d3a5be24f3065e8a2875", null ]
+    [ "hyjalTyrandeAI", "d0/d1c/a14502.html", "d0/d1c/a14502" ],
+    [ "npc_hyjal_tyrande", "db/d46/a14498.html#abd2ba500d8e2bbf20c00905012d47d12", null ],
+    [ "GetAI", "db/d46/a14498.html#a2f863e616352a98763eef9a717d73388", null ],
+    [ "OnGossipSelect", "db/d46/a14498.html#a014a63098e18b08b6f5cd33a0cba2072", null ]
 ];

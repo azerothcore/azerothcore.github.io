@@ -1,7 +1,8 @@
 var a28586 =
 [
-    [ "HandleAuraApply", "de/dcf/a28586.html#afb8eb7fcc0797c3e19a9bfc5eebb5fb2", null ],
-    [ "HandleAuraRemove", "de/dcf/a28586.html#a9029865b5e06c4a9aa7f155f371c9125", null ],
-    [ "PrepareAuraScript", "de/dcf/a28586.html#a5c7d7c0b8880128121d66d39094f1965", null ],
-    [ "Register", "de/dcf/a28586.html#ae15d5175671c60a55e4a77848bc9fe1b", null ]
+    [ "TileInfo", "de/dcf/a28586.html#af1a25ded4212f141ab4f32db95709210", null ],
+    [ "m_mapId", "de/dcf/a28586.html#a41f4be7d3fce716754b9ac0310b9ecf9", null ],
+    [ "m_navMeshParams", "de/dcf/a28586.html#a9d7c909370359edafa8a9b6a91cef354", null ],
+    [ "m_tileX", "de/dcf/a28586.html#a54cc23d82dfe690e0d62b6156d440fc1", null ],
+    [ "m_tileY", "de/dcf/a28586.html#ab7fba310dd471fddcf2e7d6fba3205ed", null ]
 ];

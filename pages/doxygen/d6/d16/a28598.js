@@ -1,10 +1,13 @@
 var a28598 =
 [
-    [ "CalcPeriodic", "d6/d16/a28598.html#abd23b7e24d9688dd4b9cbe70cdd45d75", null ],
-    [ "CalculateAmount", "d6/d16/a28598.html#a55aa6c6a23e4db0f407b86bcf95d3761", null ],
-    [ "HandleEffectCalcSpellMod", "d6/d16/a28598.html#a8c888218fde2176a3c3b5cb97fdce5de", null ],
-    [ "HandlePeriodic", "d6/d16/a28598.html#ae2c4de235fc727039a50f1b6ba729422", null ],
-    [ "Load", "d6/d16/a28598.html#a9e1a5a07db18f6ff238276f9e1c44321", null ],
-    [ "PrepareAuraScript", "d6/d16/a28598.html#a847c1db1bf92baeba47260ffbacbcdd9", null ],
-    [ "Register", "d6/d16/a28598.html#a9241ab85d616f4f17c52b3730c5434e1", null ]
+    [ "liquidTris", "d6/d16/a28598.html#ad166656bfa449d3093cb23e7bef2cc76", null ],
+    [ "liquidType", "d6/d16/a28598.html#afbbb20fcb4e597c2addcc47893a33f92", null ],
+    [ "liquidVerts", "d6/d16/a28598.html#a52796933ab018f27d12f625673f7f8a9", null ],
+    [ "offMeshConnectionDirs", "d6/d16/a28598.html#a58350c36d5b88fe255880f6c217d4ef9", null ],
+    [ "offMeshConnectionRads", "d6/d16/a28598.html#a56bbdeb5028302de0c5eb5a02cffa44c", null ],
+    [ "offMeshConnections", "d6/d16/a28598.html#a706feac90bb398da61296bac9d0b7176", null ],
+    [ "offMeshConnectionsAreas", "d6/d16/a28598.html#af5af113433bb2776e6735195e57ab6f7", null ],
+    [ "offMeshConnectionsFlags", "d6/d16/a28598.html#a8c819b625f1bb0b21bb756144b2e1266", null ],
+    [ "solidTris", "d6/d16/a28598.html#adb04d376bfa182cf9666689e6c5a7c68", null ],
+    [ "solidVerts", "d6/d16/a28598.html#a915387c2cfa7111de4a957646a2aace4", null ]
 ];

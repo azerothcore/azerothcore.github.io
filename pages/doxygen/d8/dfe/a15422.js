@@ -1,10 +1,7 @@
 var a15422 =
 [
-    [ "npc_murkdeepAI", "d8/dfe/a15422.html#abe78235ecb94e4735a6f8eaad7fe6adc", null ],
-    [ "JustEngagedWith", "d8/dfe/a15422.html#ad33de7cb0caffcd255db38204ecfbb1c", null ],
-    [ "Reset", "d8/dfe/a15422.html#aa89316a0fe4f99630a4a129aed305e24", null ],
-    [ "UpdateAI", "d8/dfe/a15422.html#aeca85a1324791d18ac825401fb8a31e8", null ],
-    [ "events", "d8/dfe/a15422.html#ae3d344829aeba22ef0c5947863720390", null ],
-    [ "phase", "d8/dfe/a15422.html#a74a3a16cb3f2993aea9c5d6736a6914e", null ],
-    [ "spawnTimer", "d8/dfe/a15422.html#a6b139fb5cc0776103934f14be15c34d1", null ]
+    [ "npc_kaya_flathoofAI", "d8/dfe/a15422.html#a3b43992dfeeb7b3b19e777b9629c55ce", null ],
+    [ "JustSummoned", "d8/dfe/a15422.html#ac365753a428009f4fc4d01ead8fe46fd", null ],
+    [ "Reset", "d8/dfe/a15422.html#af9be00be9867622a16103bd21311327f", null ],
+    [ "WaypointReached", "d8/dfe/a15422.html#a8fcbb19279b925138ba96d2a450fc404", null ]
 ];

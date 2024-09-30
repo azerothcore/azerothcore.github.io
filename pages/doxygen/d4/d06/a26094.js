@@ -1,6 +1,7 @@
 var a26094 =
 [
-    [ "spell_q10563_q10596_to_legion_hold_AuraScript", "d7/df0/a26098.html", "d7/df0/a26098" ],
-    [ "spell_q10563_q10596_to_legion_hold", "d4/d06/a26094.html#a7f9e5880271f51bb12636ca15e53d810", null ],
-    [ "GetAuraScript", "d4/d06/a26094.html#af8ddce319534951924b919b319a64f76", null ]
+    [ "FilterTargets", "d4/d06/a26094.html#ad679149423fda97ad5744318520022b1", null ],
+    [ "PrepareSpellScript", "d4/d06/a26094.html#ac57c48690c5ad1b907f56287aee949a4", null ],
+    [ "Register", "d4/d06/a26094.html#aea9b3a6cc4abae242bde76634bcbacd3", null ],
+    [ "Validate", "d4/d06/a26094.html#a2c755f4ce5c3736dd0b0dd79341a4570", null ]
 ];

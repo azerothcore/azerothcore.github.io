@@ -1,6 +1,10 @@
 var a24074 =
 [
-    [ "npc_released_offspring_harkoaAI", "db/d8d/a24074.html#ab1002f002987b6ea2366129afd48d65c", null ],
-    [ "MovementInform", "db/d8d/a24074.html#a56d52be3fdbc2e4176efe09ba58f55c7", null ],
-    [ "Reset", "db/d8d/a24074.html#a3ddc30ce39acef3bb5e6f8400a084393", null ]
+    [ "npc_maxx_a_million_escortAI", "db/d8d/a24074.html#ab827933527ed7b4a04b162034876ced8", null ],
+    [ "JustDied", "db/d8d/a24074.html#a2106ab4d32d0f221f62eeffd93f71380", null ],
+    [ "Reset", "db/d8d/a24074.html#a6b9b2ed76e26f908ff2272ad8744a59e", null ],
+    [ "UpdateAI", "db/d8d/a24074.html#a3b022feb2303875d32ad981e84f66854", null ],
+    [ "WaypointReached", "db/d8d/a24074.html#acd6f45abb93f3f043cd85647405a50f6", null ],
+    [ "bTake", "db/d8d/a24074.html#ac697fc6cbc20c7f316845ed26436049b", null ],
+    [ "uiTakeTimer", "db/d8d/a24074.html#a5d4826dcf893f444a42dedba57460110", null ]
 ];

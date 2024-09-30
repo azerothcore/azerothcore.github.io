@@ -1,7 +1,8 @@
 var a26002 =
 [
-    [ "npc_maghar_captiveAI", "d2/d90/a26006.html", "d2/d90/a26006" ],
-    [ "npc_maghar_captive", "d3/db3/a26002.html#a59e177f33306ed0bb3de9f640d3685e4", null ],
-    [ "GetAI", "d3/db3/a26002.html#a7f1528549b55edfb5286db4afe6ce50e", null ],
-    [ "OnQuestAccept", "d3/db3/a26002.html#a966fdfe66a65675eb1618b0698dfbb21", null ]
+    [ "CalculateAmount", "d3/db3/a26002.html#a8751483423726ffa8a33c70b7e55db23", null ],
+    [ "CheckProc", "d3/db3/a26002.html#a046cd1087342cdcbd2e6b0f8ded7c03a", null ],
+    [ "HandleProc", "d3/db3/a26002.html#abda070e7dfbb4ddc8d18cb3d180edc2e", null ],
+    [ "PrepareAuraScript", "d3/db3/a26002.html#a6bb54cea419145875c4086a69e1e55e8", null ],
+    [ "Register", "d3/db3/a26002.html#a8e92638bbdd786ef77b17f00dcf0f643", null ]
 ];

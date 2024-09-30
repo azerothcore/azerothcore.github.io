@@ -1,6 +1,5 @@
 var a14294 =
 [
-    [ "HandleScript", "d4/d2c/a14294.html#a465272dc4e693ab5ce5abd5a3905283b", null ],
-    [ "PrepareSpellScript", "d4/d2c/a14294.html#a26b296c1c4d9f5193dc3773509267284", null ],
-    [ "Register", "d4/d2c/a14294.html#aad66e4079ea9404b9057546d8959a395", null ]
+    [ "PrepareSpellScript", "d4/d2c/a14294.html#a50ee42c11937759b6c52c2ab994481c4", null ],
+    [ "Register", "d4/d2c/a14294.html#a8dc12a723c2da948c38119e3fc34df35", null ]
 ];

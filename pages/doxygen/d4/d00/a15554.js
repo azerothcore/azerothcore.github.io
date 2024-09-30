@@ -1,6 +1,7 @@
 var a15554 =
 [
-    [ "npcs_riverbreeze_and_silversky", "d4/d00/a15554.html#a9f012d5bbaa8b9f9822ddfbd86e7c4b2", null ],
-    [ "OnGossipHello", "d4/d00/a15554.html#a7de032322a37f929c316aadfdadda768", null ],
-    [ "OnGossipSelect", "d4/d00/a15554.html#a93c7b159dda733da5030de747bad30b5", null ]
+    [ "npc_ranshallaAI", "d8/d80/a15558.html", "d8/d80/a15558" ],
+    [ "npc_ranshalla", "d4/d00/a15554.html#a0b9848c68cf955d24024071ae9beb8e5", null ],
+    [ "GetAI", "d4/d00/a15554.html#a1a81651366cc05d3ad6e9929160fe059", null ],
+    [ "OnQuestAccept", "d4/d00/a15554.html#a4ed77a4c0a48dc4922fa5ebb71949e28", null ]
 ];

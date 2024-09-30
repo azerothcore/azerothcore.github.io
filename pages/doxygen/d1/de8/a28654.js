@@ -1,9 +1,8 @@
 var a28654 =
 [
-    [ "CheckCast", "d1/de8/a28654.html#a846862b62f5750801cd804133f290d5d", null ],
-    [ "HandleDummy", "d1/de8/a28654.html#aa56609d3c75a69fb62e302622fd11c3c", null ],
-    [ "Load", "d1/de8/a28654.html#acec7437ba80e4ae491020448a36e4559", null ],
-    [ "PrepareSpellScript", "d1/de8/a28654.html#ab5e281028c009a4b317111de9a0a17e3", null ],
-    [ "Register", "d1/de8/a28654.html#a865fa526f2131703a668e113ba0d7849", null ],
-    [ "Validate", "d1/de8/a28654.html#a6c6dee3de2c54536765cfdd97f4fd0c0", null ]
+    [ "Color", "d1/de8/a28654.html#a379e4cf61345dbb4d93da5a8603138c0", null ],
+    [ "NameIndex", "d1/de8/a28654.html#add893e045d13a3633fd7346457a10477", null ],
+    [ "Position", "d1/de8/a28654.html#afae9056582e71160c151de2c172bc60a", null ],
+    [ "Rotation", "d1/de8/a28654.html#a48d372bc1371fa5f94db9aa39669942a", null ],
+    [ "Scale", "d1/de8/a28654.html#aefacaaf0be0745c95ffc53f410da6e8d", null ]
 ];

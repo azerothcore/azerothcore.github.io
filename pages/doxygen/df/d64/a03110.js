@@ -1,5 +1,5 @@
 var a03110 =
 [
-    [ "ticket_commandscript", "db/dff/a11440.html", "db/dff/a11440" ],
-    [ "AddSC_ticket_commandscript", "df/d64/a03110.html#ad71463f4442d2e022a92404a4d9dec76", null ]
+    [ "cheat_commandscript", "d0/d74/a11294.html", "d0/d74/a11294" ],
+    [ "AddSC_cheat_commandscript", "df/d64/a03110.html#aafc88882ff0af0beb4632ec2c929fc8c", null ]
 ];

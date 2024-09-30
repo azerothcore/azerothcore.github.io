@@ -1,6 +1,6 @@
 var a28470 =
 [
-    [ "CheckCast", "df/d11/a28470.html#aecbecbd753b8ed32d51971a090063ef4", null ],
-    [ "PrepareSpellScript", "df/d11/a28470.html#a0efb319154edb2c798460de72d6a56ed", null ],
-    [ "Register", "df/d11/a28470.html#acd6ecb0204dd369c410e465551328f56", null ]
+    [ "OffsetAttributes", "df/d11/a28470.html#a072918c298b316823e784c2e5779be2a", null ],
+    [ "OffsetInstances", "df/d11/a28470.html#abb618c81b9ee9de03c3d4cf8689f5cd4", null ],
+    [ "used", "df/d11/a28470.html#a20a458e613639ea26255dd772824a642", null ]
 ];

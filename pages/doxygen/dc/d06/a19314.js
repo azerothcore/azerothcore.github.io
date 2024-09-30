@@ -1,5 +1,6 @@
 var a19314 =
 [
-    [ "achievement_been_waiting_long_time", "dc/d06/a19314.html#a839ec8cb50512bbae7125ead3ed35aec", null ],
-    [ "OnCheck", "dc/d06/a19314.html#a5e72304220d3a649d2182cb287215da6", null ]
+    [ "npc_centrifuge_constructAI", "d9/d0e/a19318.html", "d9/d0e/a19318" ],
+    [ "npc_centrifuge_construct", "dc/d06/a19314.html#a3822eca10ab4a96126e0b4685751f4d3", null ],
+    [ "GetAI", "dc/d06/a19314.html#a7356047de8a6d7bc6e903e982db2bc00", null ]
 ];

@@ -1,6 +1,6 @@
 var a18630 =
 [
-    [ "boss_rotfaceAI", "de/d6c/a18634.html", "de/d6c/a18634" ],
-    [ "boss_rotface", "d5/d68/a18630.html#a8896f5ed16c728d72a123b2e92a174fb", null ],
-    [ "GetAI", "d5/d68/a18630.html#a8a3ff9ef99da7d72ce2f7827bfc2564b", null ]
+    [ "npc_icc_skybreaker_hierophantAI", "de/d6c/a18634.html", "de/d6c/a18634" ],
+    [ "npc_icc_skybreaker_hierophant", "d5/d68/a18630.html#a4cd3b2aa3d71c30853c687da8b8ca959", null ],
+    [ "GetAI", "d5/d68/a18630.html#a2b0627bf059dfbce556bfa3ed4e97552", null ]
 ];

@@ -1,8 +1,7 @@
 var a17182 =
 [
-    [ "npc_hor_leaderAI", "d6/de1/a17186.html", "d6/de1/a17186" ],
-    [ "npc_hor_leader", "da/d84/a17182.html#a5c8d6cce242d144755fb14879f7f17d3", null ],
-    [ "GetAI", "da/d84/a17182.html#a55e7357aa6dff1efdff08541e88413e9", null ],
-    [ "OnGossipHello", "da/d84/a17182.html#afb46ea0b6926ad5d9b87b1d6a5e04591", null ],
-    [ "OnGossipSelect", "da/d84/a17182.html#ab5d01ae2803bab43b2c701d0cb1d4280", null ]
+    [ "HandleDummyTick", "da/d84/a17182.html#ac0aba414bc0f9f947b7bba9bd41f47b8", null ],
+    [ "PrepareAuraScript", "da/d84/a17182.html#a0e61ac6aa03aaad08d91883e587f1c40", null ],
+    [ "Register", "da/d84/a17182.html#a626900d1d0c8a471f4d100b2c2883a52", null ],
+    [ "Validate", "da/d84/a17182.html#aa6ea31d8757b42bdea42d30b758a9c6d", null ]
 ];

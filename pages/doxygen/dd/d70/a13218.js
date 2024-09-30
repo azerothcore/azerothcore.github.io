@@ -1,7 +1,6 @@
 var a13218 =
 [
-    [ "npc_singularityAI", "dd/d70/a13218.html#a3385a5ff1216daed82fb8bf7bb830b21", null ],
-    [ "Reset", "dd/d70/a13218.html#ac4fa5b0fe7e1bf62c7deb9197b54f939", null ],
-    [ "UpdateAI", "dd/d70/a13218.html#aafa3ceeeb22492ef1ead260a33833bd3", null ],
-    [ "events", "dd/d70/a13218.html#a68c7f293c67b7d014411d8f847925ef4", null ]
+    [ "instance_the_stockade_InstanceMapScript", "dc/dc4/a13222.html", "dc/dc4/a13222" ],
+    [ "instance_the_stockade", "dd/d70/a13218.html#a533049c10a72da4b94f9807017f28c0d", null ],
+    [ "GetInstanceScript", "dd/d70/a13218.html#a7a5a4adcd71ae5d22e6729a2d11d68d3", null ]
 ];

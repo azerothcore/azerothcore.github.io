@@ -1,6 +1,7 @@
 var a18246 =
 [
-    [ "spell_igb_burning_pitch_selector_SpellScript", "dd/d8c/a18250.html", "dd/d8c/a18250" ],
-    [ "spell_igb_burning_pitch_selector", "d2/d14/a18246.html#a439f6e41232a84b88683a9603f5854c0", null ],
-    [ "GetSpellScript", "d2/d14/a18246.html#aa95c1a9da3c4c5135cbe989d6b24dd9b", null ]
+    [ "HandleProc", "d2/d14/a18246.html#af06730a865009127c7d3e5423afd4d44", null ],
+    [ "PrepareAuraScript", "d2/d14/a18246.html#a71a81a19a0c543a4aa43d6bf002b7bb9", null ],
+    [ "Register", "d2/d14/a18246.html#a6c97b787ce00491a259c575d26189f8c", null ],
+    [ "Validate", "d2/d14/a18246.html#aed9c98e20d916359629e119d6dd2a94f", null ]
 ];

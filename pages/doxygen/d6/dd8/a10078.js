@@ -1,6 +1,10 @@
 var a10078 =
 [
-    [ "GuildUpdateInfoText", "d6/dd8/a10078.html#a82afd6cb3240da6870990d6f80f69cd6", null ],
-    [ "Read", "d6/dd8/a10078.html#a7019344fef99c5479602d7bc1176e9ee", null ],
-    [ "InfoText", "d6/dd8/a10078.html#a786802ce427465d66a4cea1365743975", null ]
+    [ "ServerScript", "d6/dd8/a10078.html#a164286c210360b97b9efb48aed33b0d8", null ],
+    [ "CanPacketReceive", "d6/dd8/a10078.html#a9c817a6f922029c9c58f783c4ebc18ff", null ],
+    [ "CanPacketSend", "d6/dd8/a10078.html#a6682dfb556d137feb5fc95a66ccd6917", null ],
+    [ "OnNetworkStart", "d6/dd8/a10078.html#ab51ce520816236687820d1f72bae0ed6", null ],
+    [ "OnNetworkStop", "d6/dd8/a10078.html#a1f2e87caed202bbcde98e2cb0c8f19c6", null ],
+    [ "OnSocketClose", "d6/dd8/a10078.html#a27ecdfc9c6d737d02705adcd13be9d13", null ],
+    [ "OnSocketOpen", "d6/dd8/a10078.html#a656f1c0dc191b8f91e0705748d286454", null ]
 ];

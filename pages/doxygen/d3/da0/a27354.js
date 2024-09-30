@@ -1,6 +1,6 @@
 var a27354 =
 [
-    [ "CheckCast", "d3/da0/a27354.html#a7fa12be149f0cb2202142d7f44cde0a6", null ],
-    [ "PrepareSpellScript", "d3/da0/a27354.html#ad6867dad8bda358bd1479935c80b82e7", null ],
-    [ "Register", "d3/da0/a27354.html#a0ab2f1f2a87db93e54dc883c4e53d7ba", null ]
+    [ "npc_innkeeper", "d3/da0/a27354.html#a006f27d898ead8827d8b98d8b93d430d", null ],
+    [ "OnGossipHello", "d3/da0/a27354.html#ae65c5cd7d3e270b2e50f80c0e12a72ff", null ],
+    [ "OnGossipSelect", "d3/da0/a27354.html#ab6cf511f5b032050336a77d1e4598dda", null ]
 ];

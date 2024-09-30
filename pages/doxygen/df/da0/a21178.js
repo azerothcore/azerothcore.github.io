@@ -1,6 +1,6 @@
 var a21178 =
 [
-    [ "HandleScript", "df/da0/a21178.html#ade715ba22bff6cb5f784a00f855984e0", null ],
-    [ "PrepareSpellScript", "df/da0/a21178.html#a5ef3f89cfd6c73970bc8096937c7b011", null ],
-    [ "Register", "df/da0/a21178.html#af3d8192390fec368b8963236b9a1b3ba", null ]
+    [ "HandlePeriodicDummy", "df/da0/a21178.html#a4d68f9d9021ec28fde64c38bce3f5bb2", null ],
+    [ "PrepareAuraScript", "df/da0/a21178.html#aad803ad4c185075a66f792e0aef9be2c", null ],
+    [ "Register", "df/da0/a21178.html#a48357a7c879ddd51710554918b92f6ce", null ]
 ];

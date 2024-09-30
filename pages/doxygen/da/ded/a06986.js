@@ -1,13 +1,8 @@
 var a06986 =
 [
-    [ "WhoListCacheMgr", "da/ded/a06986.html#a2190c113c3d38bd316b17a4400c113e6", null ],
-    [ "~WhoListCacheMgr", "da/ded/a06986.html#ae32706d7786014e142dc1cb9ccd29d70", null ],
-    [ "WhoListCacheMgr", "da/ded/a06986.html#a366e452317179d647042c24c56faafa1", null ],
-    [ "WhoListCacheMgr", "da/ded/a06986.html#ae0358ae9260f929410f6518f89135161", null ],
-    [ "GetWhoList", "da/ded/a06986.html#a4dec6544342fdc5052b69dcc61148453", null ],
-    [ "instance", "da/ded/a06986.html#a1e8ce970e3213cd0361af303df98b387", null ],
-    [ "operator=", "da/ded/a06986.html#a80615aa0a66ac29765f27598e605c712", null ],
-    [ "operator=", "da/ded/a06986.html#ab8aff37f9e66aef40ccb794928bc001c", null ],
-    [ "Update", "da/ded/a06986.html#a3db2ef832cf1413fb2e565ca0d922a80", null ],
-    [ "_whoListStorage", "da/ded/a06986.html#a75495cb910c6de65d60a5080248e1e25", null ]
+    [ "entry", "da/ded/a06986.html#ab47ef3b15c887f46fb1bf9c88f5cc5d8", null ],
+    [ "o", "da/ded/a06986.html#af2bf42b7d1a18e7ee1125a305ee7bc79", null ],
+    [ "x", "da/ded/a06986.html#a4fb658cf54f9534e0686a8fa5b2328c7", null ],
+    [ "y", "da/ded/a06986.html#aa761c9076be145dab6d2cac773bb6e7a", null ],
+    [ "z", "da/ded/a06986.html#ac9ff501bbf00d80f5b9350a78ffbb6fb", null ]
 ];

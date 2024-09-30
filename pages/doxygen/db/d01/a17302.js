@@ -1,5 +1,6 @@
 var a17302 =
 [
-    [ "PrepareAuraScript", "db/d01/a17302.html#af8ced6ebda3a1b00b1c7ceba99a9098f", null ],
-    [ "Register", "db/d01/a17302.html#a30b56b15e7b3fdea5d4a2fbd05474415", null ]
+    [ "npc_saurfang_eventAI", "d3/d95/a17306.html", "d3/d95/a17306" ],
+    [ "npc_saurfang_event", "db/d01/a17302.html#a3bfce5457466360458498833098d660c", null ],
+    [ "GetAI", "db/d01/a17302.html#a953842d2fa3380a8331faf3a42cb3177", null ]
 ];

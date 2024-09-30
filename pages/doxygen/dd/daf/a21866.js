@@ -1,6 +1,7 @@
 var a21866 =
 [
-    [ "npc_ulduar_expedition_engineerAI", "da/d7c/a21870.html", "da/d7c/a21870" ],
-    [ "npc_ulduar_expedition_engineer", "dd/daf/a21866.html#a1ff99e62b9c2222d8c08e71bfda600ea", null ],
-    [ "GetAI", "dd/daf/a21866.html#a6f1beaab42e42981e152db920e516616", null ]
+    [ "HandleScriptEffect", "dd/daf/a21866.html#a2d39a073c351860db735301b4cf9c79f", null ],
+    [ "PrepareSpellScript", "dd/daf/a21866.html#a3674adaef23f1531af360a65c14efadd", null ],
+    [ "Register", "dd/daf/a21866.html#a11b217c0066217f2da5ff42ce35c9a0a", null ],
+    [ "Validate", "dd/daf/a21866.html#a3dadb61ca7dd8195ba5fdac5bf49583c", null ]
 ];

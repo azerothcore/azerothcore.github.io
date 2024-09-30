@@ -1,6 +1,7 @@
 var a24994 =
 [
-    [ "spell_hydross_mark_of_hydross_AuraScript", "d7/d8b/a24998.html", "d7/d8b/a24998" ],
-    [ "spell_hydross_mark_of_hydross", "d9/dc0/a24994.html#afc37c0a7e618751d9df8f120b47ecbc0", null ],
-    [ "GetAuraScript", "d9/dc0/a24994.html#a08ee80a8c724baa8531414d70ec29010", null ]
+    [ "HandleEffectApply", "d9/dc0/a24994.html#a65ad32ded4246c3469f15b6ab167830e", null ],
+    [ "HandleEffectRemove", "d9/dc0/a24994.html#a8aab4a5dab173bd0296843a0c2991142", null ],
+    [ "PrepareAuraScript", "d9/dc0/a24994.html#a4925868cc5b61b7f35d59fdb27af27b6", null ],
+    [ "Register", "d9/dc0/a24994.html#a0635d5e34bfc62df1ec006b7818bffb2", null ]
 ];

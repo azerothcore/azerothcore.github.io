@@ -1,5 +1,6 @@
 var a17134 =
 [
-    [ "npc_fos_leader_secondAI", "d5/d70/a17134.html#a25df0b8760e9eb7d330779e10e3ac548", null ],
-    [ "MovementInform", "d5/d70/a17134.html#a9cc0b500f1289dc8b764b3755468e639", null ]
+    [ "boss_prince_taldaramAI", "d5/dd2/a17138.html", "d5/dd2/a17138" ],
+    [ "boss_prince_taldaram_icc", "d5/d70/a17134.html#abe14f754e1daf597aa2b7d401f337c8d", null ],
+    [ "GetAI", "d5/d70/a17134.html#a2a8c89206ab72afc68260f41a246da3b", null ]
 ];

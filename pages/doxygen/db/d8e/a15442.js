@@ -1,6 +1,7 @@
 var a15442 =
 [
-    [ "npc_rabid_thistle_bearAI", "d3/d6a/a15446.html", "d3/d6a/a15446" ],
-    [ "npc_rabid_thistle_bear", "db/d8e/a15442.html#a34b20a4ea22d74352712dee105247d56", null ],
-    [ "GetAI", "db/d8e/a15442.html#ab5c21cd3afa0bd13c937e6acf1912af4", null ]
+    [ "npc_steward_of_time", "db/d8e/a15442.html#ad49973464c96f44506033b73a85f6360", null ],
+    [ "OnGossipHello", "db/d8e/a15442.html#a3b61038393c3addbbfa6643438164db3", null ],
+    [ "OnGossipSelect", "db/d8e/a15442.html#af4fe13e266a98129b92e5a25188d947c", null ],
+    [ "OnQuestAccept", "db/d8e/a15442.html#a53d552282da49e8246089b2799fff9ca", null ]
 ];

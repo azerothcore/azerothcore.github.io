@@ -1,6 +1,6 @@
 var a11526 =
 [
-    [ "OrcMoveEvent", "da/dbd/a11526.html#a71f7fe243741a1629bdd846fc97f0112", null ],
-    [ "Execute", "da/dbd/a11526.html#a58a3c88ed3c6b534016179949b85ff9e", null ],
-    [ "_me", "da/dbd/a11526.html#ad8d09bbb659d44e9f4b9171cea7ef7e8", null ]
+    [ "npc_phalanxAI", "d7/d90/a11530.html", "d7/d90/a11530" ],
+    [ "npc_phalanx", "da/dbd/a11526.html#a947ee4659fe2a46d775119ddcefeb939", null ],
+    [ "GetAI", "da/dbd/a11526.html#ab1e2a0950ab286d5abae3d46aef3c623", null ]
 ];

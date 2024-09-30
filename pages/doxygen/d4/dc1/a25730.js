@@ -1,6 +1,6 @@
 var a25730 =
 [
-    [ "boss_kaelthasAI", "db/db2/a25734.html", "db/db2/a25734" ],
-    [ "boss_kaelthas", "d4/dc1/a25730.html#a690d04e2bfca7b2b17cf7c53c46a6b06", null ],
-    [ "GetAI", "d4/dc1/a25730.html#a02de0dcee68dca802606565831e4fc05", null ]
+    [ "HandleDummy", "d4/dc1/a25730.html#ab146c4026bc8ad129bb3d421891d344b", null ],
+    [ "PrepareSpellScript", "d4/dc1/a25730.html#aa9743f357b9800ab2990fb584011b0a6", null ],
+    [ "Register", "d4/dc1/a25730.html#a3ca7b1dd1187fd39e362b3451b246a4c", null ]
 ];

@@ -1,10 +1,9 @@
 var a17574 =
 [
-    [ "boss_eckAI", "df/d32/a17574.html#a9de9ad13286c625241242a72c8c3ef2b", null ],
-    [ "InitializeAI", "df/d32/a17574.html#a37ed08383c43c53ea5a46ad8e03adb35", null ],
-    [ "JustDied", "df/d32/a17574.html#afa625b388a7495e7f83ea3149ad2020c", null ],
-    [ "JustEngagedWith", "df/d32/a17574.html#a393630157bb1b9d80a19b2da3bf0b377", null ],
-    [ "MovementInform", "df/d32/a17574.html#a4826dee262817fbdfa38bcf17f5723da", null ],
-    [ "Reset", "df/d32/a17574.html#afc33618907cb06591cc57751dfc14ca5", null ],
-    [ "UpdateAI", "df/d32/a17574.html#a697ceea1e138d484d80b39c80078de58", null ]
+    [ "CheckAreaTarget", "df/d32/a17574.html#a770ca8aa441a7c5ddc3e26968d7861a4", null ],
+    [ "HandleApply", "df/d32/a17574.html#a2aaf88ee6fee8aff23f8ee99b30e369f", null ],
+    [ "Load", "df/d32/a17574.html#aac27c3377b48bc8c602fa7f12dec491a", null ],
+    [ "PrepareAuraScript", "df/d32/a17574.html#a105c93dea246a84b73e13bdf3d04f8f4", null ],
+    [ "Register", "df/d32/a17574.html#a8f476129e0678149463c4b16232f6cb6", null ],
+    [ "_teamIdInInstance", "df/d32/a17574.html#a78b8e04586e328f89a44f41eb8c478c9", null ]
 ];

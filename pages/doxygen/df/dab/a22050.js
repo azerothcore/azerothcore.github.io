@@ -1,6 +1,6 @@
 var a22050 =
 [
-    [ "npc_xt002_pummellerAI", "d8/da2/a22054.html", "d8/da2/a22054" ],
-    [ "npc_xt002_pummeller", "df/dab/a22050.html#af620e31a231ca8fb812324521bad4673", null ],
-    [ "GetAI", "df/dab/a22050.html#a9ec4e452a3763c3d03e581a17e5d7efe", null ]
+    [ "npc_infra_green_bomber_genericAI", "d8/da2/a22054.html", "d8/da2/a22054" ],
+    [ "npc_infra_green_bomber_generic", "df/dab/a22050.html#a39134a09376c35f15e99377cd28ac6ff", null ],
+    [ "GetAI", "df/dab/a22050.html#ad21ce86a9c88f2ee77acb1d130fd4696", null ]
 ];

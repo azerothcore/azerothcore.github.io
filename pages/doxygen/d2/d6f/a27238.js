@@ -1,7 +1,6 @@
 var a27238 =
 [
-    [ "PrepareAuraScript", "d2/d6f/a27238.html#afeac0a8393b7d7bf787fca59988d0e14", null ],
-    [ "Register", "d2/d6f/a27238.html#a7cbcf46dbdddea12fd6ce04bcbcea097", null ],
-    [ "TriggerFoodBuff", "d2/d6f/a27238.html#a5d125413491dd377d61b8e30c4979fdd", null ],
-    [ "Validate", "d2/d6f/a27238.html#a6b69d7358eb8cfe6a8f9efd47882eb80", null ]
+    [ "go_fel_crystalforge", "d2/d6f/a27238.html#aa44708a617edd51651da49918ab776e5", null ],
+    [ "OnGossipHello", "d2/d6f/a27238.html#aae9f4beff251efb7b29e1988ddd51eaf", null ],
+    [ "OnGossipSelect", "d2/d6f/a27238.html#a97450cce5f547e28ea84fa6a6f8ab79e", null ]
 ];

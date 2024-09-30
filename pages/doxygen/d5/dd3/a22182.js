@@ -1,8 +1,8 @@
 var a22182 =
 [
-    [ "boss_yoggsaron_crusher_tentacleAI", "d5/dd3/a22182.html#a63d63a0b981c278fcfadfdda1feb5a12", null ],
-    [ "DamageTaken", "d5/dd3/a22182.html#ac2458922b2530929ee1adbcc0da834a0", null ],
-    [ "DoAction", "d5/dd3/a22182.html#abcc42381f37256e5c5ab2a42f8ef2c29", null ],
-    [ "Reset", "d5/dd3/a22182.html#af33db4e2ce1bb85e38437db6ca7982f7", null ],
-    [ "UpdateAI", "d5/dd3/a22182.html#a8329bc78fc037655d48cb9bf0abd8447", null ]
+    [ "npc_vics_flying_machineAI", "d5/dd3/a22182.html#a4464e0b1433c4ffb24ae7809b1a0eec5", null ],
+    [ "MovementInform", "d5/dd3/a22182.html#ac4bbe0a3cccb6878d050b717b9efb320", null ],
+    [ "PassengerBoarded", "d5/dd3/a22182.html#aa67dcbb4b43b047398fec2619ad61829", null ],
+    [ "SpellHit", "d5/dd3/a22182.html#aa81229a104e1521d570abec4b6f7bca7", null ],
+    [ "pointId", "d5/dd3/a22182.html#aa1412c23f0c3b964262e145c51aea974", null ]
 ];

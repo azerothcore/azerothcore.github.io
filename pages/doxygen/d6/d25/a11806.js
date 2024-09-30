@@ -1,8 +1,6 @@
 var a11806 =
 [
-    [ "boss_garrAI", "d6/d25/a11806.html#a12d403a90bf4920763ddd87b252f544a", null ],
-    [ "JustEngagedWith", "d6/d25/a11806.html#a3b2bf0e6d3b6b32c450d03b1c88f3850", null ],
-    [ "Reset", "d6/d25/a11806.html#acb14e869dac8e7df83b5b9d858cd2b21", null ],
-    [ "UpdateAI", "d6/d25/a11806.html#aca82837e143f4509db221de15276b90c", null ],
-    [ "massEruptionTimer", "d6/d25/a11806.html#ab807c47afd1ba8320730c3aa733e1b15", null ]
+    [ "boss_urok_doomhowlAI", "d6/d02/a11810.html", "d6/d02/a11810" ],
+    [ "boss_urok_doomhowl", "d6/d25/a11806.html#a0ca9cea9919648baa5ff7db2d5a5b530", null ],
+    [ "GetAI", "d6/d25/a11806.html#ac77756af77191e02df49161da0ace268", null ]
 ];

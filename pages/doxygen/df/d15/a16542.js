@@ -1,6 +1,6 @@
 var a16542 =
 [
-    [ "HideNpcEvent", "df/d15/a16542.html#ab454295aab0f5d4586740140232e96eb", null ],
-    [ "Execute", "df/d15/a16542.html#aecfbbbcac3fd98675913a6381c891a59", null ],
-    [ "_owner", "df/d15/a16542.html#ac5481c94e180900f0a455dc1f1f9851c", null ]
+    [ "HandleEffectApply", "df/d15/a16542.html#aaea2c3733dadc19072c81774468e345a", null ],
+    [ "PrepareAuraScript", "df/d15/a16542.html#a3848997e9f775add50d40342b6211ff0", null ],
+    [ "Register", "df/d15/a16542.html#a775b1cf494049ed13d149ca6318142c3", null ]
 ];

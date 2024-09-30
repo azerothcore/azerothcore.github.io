@@ -1,6 +1,6 @@
 var a22014 =
 [
-    [ "OnPeriodic", "d5/d54/a22014.html#a4789452067a59f42fdcf86dd6a9acd7c", null ],
-    [ "PrepareAuraScript", "d5/d54/a22014.html#a56c22ca6212c49cf0d494d0b2159836f", null ],
-    [ "Register", "d5/d54/a22014.html#aa94da74748efa941ea40f96b6f4ff84c", null ]
+    [ "npc_boneguard_footmanAI", "db/d28/a22018.html", "db/d28/a22018" ],
+    [ "npc_boneguard_footman", "d5/d54/a22014.html#aba17f89b9546deff5401ad33224b2b3e", null ],
+    [ "GetAI", "d5/d54/a22014.html#ab0b28f61e26f701db17a0d19bbde4492", null ]
 ];

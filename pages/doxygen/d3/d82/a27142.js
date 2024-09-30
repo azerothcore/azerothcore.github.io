@@ -1,7 +1,6 @@
 var a27142 =
 [
-    [ "HandleApplyEffect", "d3/d82/a27142.html#a4e2f6d414aea8ed1339ef3caa24fc17b", null ],
-    [ "Load", "d3/d82/a27142.html#a47a4f15ab02ba3c6ac4dbfd7c4552900", null ],
-    [ "PrepareAuraScript", "d3/d82/a27142.html#a101d38f5ffb34f90ba9af4f787445f2e", null ],
-    [ "Register", "d3/d82/a27142.html#aed57fbbf473b8f15fa177261e4678e96", null ]
+    [ "go_flamesAI", "d6/dee/a27146.html", "d6/dee/a27146" ],
+    [ "go_flames", "d3/d82/a27142.html#a75d49202eaf2078b8276e59944d1ec89", null ],
+    [ "GetAI", "d3/d82/a27142.html#aea11412e7d17b744b4e70ec754a1e6cc", null ]
 ];

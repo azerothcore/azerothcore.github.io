@@ -1,6 +1,6 @@
 var a19750 =
 [
-    [ "HandleDummy", "d5/da3/a19750.html#a980fb0a8677fde5191a3df100a4a882a", null ],
-    [ "PrepareSpellScript", "d5/da3/a19750.html#a9fb7becd69b9f5ceed36c81e84916558", null ],
-    [ "Register", "d5/da3/a19750.html#a6c81b47089d26065bce2abbf5f5f6169", null ]
+    [ "boss_flame_leviathanAI", "dc/d05/a19754.html", "dc/d05/a19754" ],
+    [ "boss_flame_leviathan", "d5/da3/a19750.html#af4fcd38fc7095701c6c31674d849aef4", null ],
+    [ "GetAI", "d5/da3/a19750.html#a3a402b002472bfe4347b512f21654c50", null ]
 ];

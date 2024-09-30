@@ -1,5 +1,5 @@
 var a09990 =
 [
-    [ "GuildGetInfo", "d2/d97/a09990.html#a585a6a49fe9747d5044ac185f1236cf5", null ],
-    [ "Read", "d2/d97/a09990.html#aa2b107f35fcf348fb7f84c2971c5fa00", null ]
+    [ "FactoryCreatureScript", "d2/d97/a09990.html#a62cd4db9e8dd3dab606f1166fdf0ce44", null ],
+    [ "GetAI", "d2/d97/a09990.html#a0e491e4cda2b03456d798f6726dbde54", null ]
 ];

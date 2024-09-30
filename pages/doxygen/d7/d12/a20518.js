@@ -1,6 +1,7 @@
 var a20518 =
 [
-    [ "spell_oculus_evasive_maneuvers_AuraScript", "dc/dc5/a20522.html", "dc/dc5/a20522" ],
-    [ "spell_oculus_evasive_maneuvers", "d7/d12/a20518.html#aa646bca0cd4be300b3446e17b6247ea6", null ],
-    [ "GetAuraScript", "d7/d12/a20518.html#a57b5749e766b8958433a107443bc09ee", null ]
+    [ "boss_thorim_trapAI", "d7/d12/a20518.html#aaab278dc6557a49624099b0064b8d6f3", null ],
+    [ "Reset", "d7/d12/a20518.html#ab0715e75a475409ffb6c623bf363a65d", null ],
+    [ "UpdateAI", "d7/d12/a20518.html#a40078609a67aa029f71df7971449b056", null ],
+    [ "_checkTimer", "d7/d12/a20518.html#ad3ed8edb4d06e5b98a5afc82170f3233", null ]
 ];

@@ -1,6 +1,9 @@
 var a27458 =
 [
-    [ "HandleDummy", "d7/d23/a27458.html#a8b9510efa5af25ef698fc6eb49b19b69", null ],
-    [ "PrepareSpellScript", "d7/d23/a27458.html#a80b89fbd2506191b897dcf367ff11500", null ],
-    [ "Register", "d7/d23/a27458.html#a522730e5ba844728c0b3d6f423cd123a", null ]
+    [ "npc_target_dummyAI", "d7/d23/a27458.html#a117e45559ea721877d73df4b3c18a259", null ],
+    [ "EnterEvadeMode", "d7/d23/a27458.html#a8f7f2e4decc676e378b4929516f8a147", null ],
+    [ "MoveInLineOfSight", "d7/d23/a27458.html#a05f5b1f2cb8f0926bf425e7c31d618e2", null ],
+    [ "Reset", "d7/d23/a27458.html#a4e8f8d1da604a80b60d61f72ed4ecbcf", null ],
+    [ "UpdateAI", "d7/d23/a27458.html#ae686aa48ab7e91988e5b71c71695ce47", null ],
+    [ "deathTimer", "d7/d23/a27458.html#abf5bd5122e79a62a03c19a18cd68498b", null ]
 ];

@@ -1,8 +1,7 @@
 var a08706 =
 [
-    [ "RespawnDo", "d1/d64/a08706.html#a79f6424f2849c4c05998fe29a8510aeb", null ],
-    [ "operator()", "d1/d64/a08706.html#ac15ff63f29e313556b8f66e0cd80514f", null ],
-    [ "operator()", "d1/d64/a08706.html#a23408bf4da497d1007e4e88e0d9c0e19", null ],
-    [ "operator()", "d1/d64/a08706.html#a66335f45bb1f3c770887b263e9d84236", null ],
-    [ "operator()", "d1/d64/a08706.html#a4551ca2e0fdb6540a724c9c2b43484c6", null ]
+    [ "IsFitToRequirements", "d1/d64/a08706.html#ac175634ed2eab2911c3749fa208a073a", null ],
+    [ "castFlags", "d1/d64/a08706.html#a03cd65a460ea252818de9230cb656c1c", null ],
+    [ "spellId", "d1/d64/a08706.html#a34641755a5267b7a907d320cc5b4ddb4", null ],
+    [ "userType", "d1/d64/a08706.html#adcf285572403481cb418bddebc5f4bfa", null ]
 ];

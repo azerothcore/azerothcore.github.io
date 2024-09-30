@@ -1,8 +1,6 @@
 var a10234 =
 [
-    [ "PauseMirrorTimer", "d4/df3/a10234.html#a05ccc52cb56d38cadb27fbde2563df45", null ],
-    [ "PauseMirrorTimer", "d4/df3/a10234.html#ad6e7a6eb3edadc235dc5bb97802381ac", null ],
-    [ "Write", "d4/df3/a10234.html#aea61f9e668173b65eac3b9f42ddd68a1", null ],
-    [ "Paused", "d4/df3/a10234.html#a7adf6dcd7e712792ea94bad77f8be232", null ],
-    [ "Timer", "d4/df3/a10234.html#a4a041bf772ef3f145bde6be9f8ecdc13", null ]
+    [ "SetSheathed", "d4/df3/a10234.html#a0c6ff5057d2ee0c424c8539c0bf99857", null ],
+    [ "Read", "d4/df3/a10234.html#ae2158689450e3a9207b6992ea5223106", null ],
+    [ "CurrentSheathState", "d4/df3/a10234.html#a8363787ac7959f19234def2707ef0b32", null ]
 ];

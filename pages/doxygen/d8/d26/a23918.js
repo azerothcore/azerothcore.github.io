@@ -1,7 +1,7 @@
 var a23918 =
 [
-    [ "npc_wg_demolisher_engineer", "d8/d26/a23918.html#a722ff6bac34730bfb5f36584d7a62ff8", null ],
-    [ "canBuild", "d8/d26/a23918.html#a5dd51b0d0a05ebfb648faab570e27881", null ],
-    [ "OnGossipHello", "d8/d26/a23918.html#ac3b0bbfd66bb94f29a6d733999b8c6ba", null ],
-    [ "OnGossipSelect", "d8/d26/a23918.html#a3ecf69f45918bef0cb51023327ac9693", null ]
+    [ "OnPeriodic", "d8/d26/a23918.html#a7ef787ac13b97aa225a5340f7bfcc4e3", null ],
+    [ "PrepareAuraScript", "d8/d26/a23918.html#a6f7db06cc1ace68ee0076077773b1659", null ],
+    [ "Register", "d8/d26/a23918.html#a559347bedad9fd8a0e6f4c5b14333c06", null ],
+    [ "Validate", "d8/d26/a23918.html#aae1c2d5b8eb30341a67e261e69a4d294", null ]
 ];

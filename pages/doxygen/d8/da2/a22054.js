@@ -1,9 +1,10 @@
 var a22054 =
 [
-    [ "npc_xt002_pummellerAI", "d8/da2/a22054.html#a2942c05c93036c2e02b9a72c784441b1", null ],
-    [ "Reset", "d8/da2/a22054.html#a6542fb3e585f100f06f6be14a1346306", null ],
-    [ "UpdateAI", "d8/da2/a22054.html#a959990310303ff2102f1c03852b4ab8e", null ],
-    [ "_arcingSmashTimer", "d8/da2/a22054.html#a830fda66756dc3f34a530939116e7556", null ],
-    [ "_trampleTimer", "d8/da2/a22054.html#ae5e450601861f83b20419405bb92ef6d", null ],
-    [ "_uppercutTimer", "d8/da2/a22054.html#a5a1bdb380438070effc091ec37db6aec", null ]
+    [ "npc_infra_green_bomber_genericAI", "d8/da2/a22054.html#aed712ea3625971e059e2ecd158227287", null ],
+    [ "DamageTaken", "d8/da2/a22054.html#a8f860368df96e430b441c8316db99c93", null ],
+    [ "GetSummoner", "d8/da2/a22054.html#aaf7b91ce2bbf65c3f6c4bd41f04682bc", null ],
+    [ "IsSummonedBy", "d8/da2/a22054.html#a79676717b7c6219ea74ebe5a580eab28", null ],
+    [ "SpreadFire", "d8/da2/a22054.html#a5727c839b7dd02ea64eccce3606688d1", null ],
+    [ "UpdateAI", "d8/da2/a22054.html#a252875777655e963965676a24c15e766", null ],
+    [ "events", "d8/da2/a22054.html#ae8795439197b9cbfb70bbf5a672b8019", null ]
 ];

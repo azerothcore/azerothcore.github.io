@@ -1,6 +1,7 @@
 var a28110 =
 [
-    [ "CheckCast", "de/de9/a28110.html#ada9b1c9e159956cb2a79610dbdb3eaf9", null ],
-    [ "PrepareSpellScript", "de/de9/a28110.html#aa9cc041f2e0dae1eb322713d4f140ce8", null ],
-    [ "Register", "de/de9/a28110.html#a5f0b69ffebb256d5ee2c0f9d4615c4e6", null ]
+    [ "AllocationPct", "de/de9/a28110.html#a45d752dfd00a75f69d919a88573ba4fc", null ],
+    [ "Enchantment", "de/de9/a28110.html#a45e694082c1dbdeef5229561f617d584", null ],
+    [ "ID", "de/de9/a28110.html#a66d78860d81c497765b5e68b5fd2ae18", null ],
+    [ "Name", "de/de9/a28110.html#a3ee4d8152817e10b873de5ec36ba062b", null ]
 ];

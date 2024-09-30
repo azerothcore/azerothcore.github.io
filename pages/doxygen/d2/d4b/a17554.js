@@ -1,6 +1,7 @@
 var a17554 =
 [
-    [ "spell_drakkari_colossus_surge_SpellScript", "d3/d10/a17558.html", "d3/d10/a17558" ],
-    [ "spell_drakkari_colossus_surge", "d2/d4b/a17554.html#a54ef2e8f916144087096ce228daf5f2c", null ],
-    [ "GetSpellScript", "d2/d4b/a17554.html#ab738efe2f0634a24169b2f1a9be72107", null ]
+    [ "HandleDummy", "d2/d4b/a17554.html#a6e5d70c35420384305d7faf991072b38", null ],
+    [ "PrepareSpellScript", "d2/d4b/a17554.html#a64f912555853aab5693692b22eba52c4", null ],
+    [ "Register", "d2/d4b/a17554.html#a797ec701f2e3f2949680eb935a9c5c3f", null ],
+    [ "Validate", "d2/d4b/a17554.html#afda7fd86e2fc2c40870904065ffcfe50", null ]
 ];

@@ -1,6 +1,6 @@
 var a25482 =
 [
-    [ "spell_magtheridon_blaze_SpellScript", "d1/d17/a25486.html", "d1/d17/a25486" ],
-    [ "spell_magtheridon_blaze", "d6/d92/a25482.html#ad33c3e9d565655582c1aec1a75ee7de9", null ],
-    [ "GetSpellScript", "d6/d92/a25482.html#afd47952f65a87e833cb62f862ae06866", null ]
+    [ "HandleHeal", "d6/d92/a25482.html#a3d315ab6d76d45f3d0f5de4a312377ff", null ],
+    [ "PrepareSpellScript", "d6/d92/a25482.html#ad77d816c82714fe2cafb4dbf48691937", null ],
+    [ "Register", "d6/d92/a25482.html#a313abe6367e5494bd81a557ab42f9f50", null ]
 ];

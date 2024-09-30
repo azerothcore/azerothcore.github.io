@@ -1,6 +1,7 @@
 var a19630 =
 [
-    [ "spell_icc_geist_alarm_SpellScript", "d0/dec/a19634.html", "d0/dec/a19634" ],
-    [ "spell_icc_geist_alarm", "d4/d16/a19630.html#ad82b3d7baa02b01f53815083351a4767", null ],
-    [ "GetSpellScript", "d4/d16/a19630.html#af9d0263b31b6c711de87593911e9d6b3", null ]
+    [ "HandleDummyEffect", "d4/d16/a19630.html#ae95c1ce60db79c360e9c1431f27705cb", null ],
+    [ "PrepareSpellScript", "d4/d16/a19630.html#a84a4f52928873e58b1fc49e783c5083a", null ],
+    [ "Register", "d4/d16/a19630.html#a90c00bcb1768d696addab407425e406a", null ],
+    [ "SelectTarget", "d4/d16/a19630.html#a2e7a7c05a30ae1e0c5aa14dc2af19345", null ]
 ];

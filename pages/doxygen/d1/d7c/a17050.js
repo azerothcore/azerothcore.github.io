@@ -1,6 +1,6 @@
 var a17050 =
 [
-    [ "spell_dtk_summon_random_drakkari_SpellScript", "de/db9/a17054.html", "de/db9/a17054" ],
-    [ "spell_dtk_summon_random_drakkari", "d1/d7c/a17050.html#ad90bf4e8a154773ee4f47ad3b89ad5b0", null ],
-    [ "GetSpellScript", "d1/d7c/a17050.html#afa275adfb26c6849750a0fe29b0bf8bf", null ]
+    [ "boss_eckAI", "de/db9/a17054.html", "de/db9/a17054" ],
+    [ "boss_eck", "d1/d7c/a17050.html#aa445927936d7759a8c3289e2899181e5", null ],
+    [ "GetAI", "d1/d7c/a17050.html#a335755ec7416d3e00a4070e03569293a", null ]
 ];

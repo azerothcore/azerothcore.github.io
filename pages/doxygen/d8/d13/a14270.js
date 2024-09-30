@@ -1,6 +1,7 @@
 var a14270 =
 [
-    [ "npc_cw_area_triggerAI", "d0/d8b/a14274.html", "d0/d8b/a14274" ],
-    [ "npc_cw_area_trigger", "d8/d13/a14270.html#a11af64ac4ab078566bf8f68a36781939", null ],
-    [ "GetAI", "d8/d13/a14270.html#a66c55b2984bab71be89ad7b6b96e3784", null ]
+    [ "OnApply", "d8/d13/a14270.html#a42148069675e663456bb5495fa5c8702", null ],
+    [ "OnPeriodic", "d8/d13/a14270.html#ad3582b02b369e3029e20817dd19aede0", null ],
+    [ "PrepareAuraScript", "d8/d13/a14270.html#a4e53e6cc02ce44d85fdf5497c006d7d9", null ],
+    [ "Register", "d8/d13/a14270.html#a8970b2ae63e0ba2e238aa6309d713b62", null ]
 ];

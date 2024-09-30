@@ -1,6 +1,12 @@
 var a11874 =
 [
-    [ "spell_magmadar_lava_bomb_SpellScript", "da/d27/a11878.html", "da/d27/a11878" ],
-    [ "spell_magmadar_lava_bomb", "d0/d8d/a11874.html#a43e745c08011e0a59009bd8af1610a65", null ],
-    [ "GetSpellScript", "d0/d8d/a11874.html#a3a884343bc094562438a1f8dce1e4228", null ]
+    [ "go_suppression_deviceAI", "d0/d8d/a11874.html#a32767442eeabab896032333e42d3e496", null ],
+    [ "Activate", "d0/d8d/a11874.html#aa52ca9fb60793e33ae3fe911cd4be379", null ],
+    [ "Deactivate", "d0/d8d/a11874.html#aec459270ff4965b79430c5bb66cb18f6", null ],
+    [ "DoAction", "d0/d8d/a11874.html#a60bcafdf76e6735756a43c780bda7baf", null ],
+    [ "InitializeAI", "d0/d8d/a11874.html#a1dd83a1e393ef47d8bd4917aff5df13f", null ],
+    [ "UpdateAI", "d0/d8d/a11874.html#afaa70c968a0994fbcd01dd40b6d060a5", null ],
+    [ "_active", "d0/d8d/a11874.html#a00fb57e180148622e564712611705218", null ],
+    [ "_events", "d0/d8d/a11874.html#a0c6436834b4aca4bed2a8361941c553c", null ],
+    [ "_instance", "d0/d8d/a11874.html#a69dbc36ce80cf12cdcee5c42fe4f0a72", null ]
 ];

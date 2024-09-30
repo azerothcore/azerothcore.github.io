@@ -1,17 +1,9 @@
 var a08942 =
 [
-    [ "EmblemInfo", "dd/dbd/a08942.html#a8d053ab27856955bf6013ef4c61ed33f", null ],
-    [ "GetBackgroundColor", "dd/dbd/a08942.html#a66da2cd78cee9e929ff0f2439caed0e5", null ],
-    [ "GetBorderColor", "dd/dbd/a08942.html#ac5ea55d7fd129524630dd0d486b457a7", null ],
-    [ "GetBorderStyle", "dd/dbd/a08942.html#a7a791a3f467e72a3e8e941e3179d7709", null ],
-    [ "GetColor", "dd/dbd/a08942.html#a15108f3a2a93ebbc01111672dd238d63", null ],
-    [ "GetStyle", "dd/dbd/a08942.html#a0e6d684542535d537bdeba4104b7a18d", null ],
-    [ "LoadFromDB", "dd/dbd/a08942.html#a17de371e72a2b29a7f249dbe912636bc", null ],
-    [ "ReadPacket", "dd/dbd/a08942.html#abd73ea3db00fa900d7b3a8eeffa8b1bf", null ],
-    [ "SaveToDB", "dd/dbd/a08942.html#aea1326261d893ef3beff026402bf8272", null ],
-    [ "m_backgroundColor", "dd/dbd/a08942.html#a0bc92e459910ab6aad3ac35c8b613a5f", null ],
-    [ "m_borderColor", "dd/dbd/a08942.html#a5aff1dcb9db9bc1477f2f37ac5b2c6cf", null ],
-    [ "m_borderStyle", "dd/dbd/a08942.html#aa3e49b5f76fdb4e2139aeccb79c19390", null ],
-    [ "m_color", "dd/dbd/a08942.html#ace48f189e9a1ae685dfbe97f35f49ec5", null ],
-    [ "m_style", "dd/dbd/a08942.html#a08191c3c9cc48bde61ef0de81be34c90", null ]
+    [ "PlayerLastSearcher", "dd/dbd/a08942.html#a0a4c736bbde38ccb0a0a8ceafdb751c7", null ],
+    [ "Visit", "dd/dbd/a08942.html#a25785fbe4cb8ac9a8753705b9df3b507", null ],
+    [ "Visit", "dd/dbd/a08942.html#a19e60fc9fc43ad3a718132a2884e41b0", null ],
+    [ "i_check", "dd/dbd/a08942.html#a93f5e1dd1f680cc9467671b59d2c5a12", null ],
+    [ "i_object", "dd/dbd/a08942.html#a2d9af6a6ef1105b19c49852fce17b8e6", null ],
+    [ "i_phaseMask", "dd/dbd/a08942.html#ad5bfaa4154c99e34515da98db7dccadf", null ]
 ];

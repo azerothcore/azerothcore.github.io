@@ -1,9 +1,8 @@
 var a11698 =
 [
-    [ "FilterTargets", "dd/da4/a11698.html#ae1029dd58a48c099e8bbd071898f1b12", null ],
-    [ "HandleOnHitRogue", "dd/da4/a11698.html#a57cd6d2c45a9a73bb284272db21d1fce", null ],
-    [ "HandleOnHitWarlock", "dd/da4/a11698.html#a76f9e5e11a6f2e25868dba567d798002", null ],
-    [ "PrepareSpellScript", "dd/da4/a11698.html#a4792a25aa6fe6126a94900784798dbee", null ],
-    [ "Register", "dd/da4/a11698.html#a0f6146c64a86e953c042f8404bbfe683", null ],
-    [ "Validate", "dd/da4/a11698.html#af65d372cdbb365eff73edb8cf18734c8", null ]
+    [ "CheckProc", "dd/da4/a11698.html#a08e84f2b2ff25ed7e260e61251f9cdb9", null ],
+    [ "HandleProc", "dd/da4/a11698.html#afd3d4786f739566056b69390553d9c71", null ],
+    [ "PrepareAuraScript", "dd/da4/a11698.html#a3ba84d4fd311a91efa685980ffec8d77", null ],
+    [ "Register", "dd/da4/a11698.html#aa36a2e10a6fd67fa74d08e20dc806744", null ],
+    [ "Validate", "dd/da4/a11698.html#aeff8b89300bb5d3589a46a4f66cfd77d", null ]
 ];

@@ -1,6 +1,6 @@
 var a21102 =
 [
-    [ "npc_brann_radioAI", "dc/dc7/a21106.html", "dc/dc7/a21106" ],
-    [ "npc_brann_radio", "d2/d14/a21102.html#a22b5231f643c287d8e32d88a3b0728b2", null ],
-    [ "GetAI", "d2/d14/a21102.html#aa2ea91337262fb886e7535ba013f4b10", null ]
+    [ "boss_svalaAI", "dc/dc7/a21106.html", "dc/dc7/a21106" ],
+    [ "boss_svala", "d2/d14/a21102.html#a7ac5866eb6a013cb03f3d459b13b4a62", null ],
+    [ "GetAI", "d2/d14/a21102.html#a0c3b94635eca667a28496cf799efad25", null ]
 ];

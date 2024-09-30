@@ -1,6 +1,6 @@
 var a25090 =
 [
-    [ "spell_leotheras_demon_link_AuraScript", "db/d6c/a25094.html", "db/d6c/a25094" ],
-    [ "spell_leotheras_demon_link", "d8/d35/a25090.html#ab26b5191983ef269fa417b9e269b4a9c", null ],
-    [ "GetAuraScript", "d8/d35/a25090.html#ac00f9cdd7d61134a2bbb0abf06abde7f", null ]
+    [ "HandleEffectPeriodic", "d8/d35/a25090.html#a248ba0e88498e36355491b2b89063e17", null ],
+    [ "PrepareAuraScript", "d8/d35/a25090.html#ac9aed434fe7602ef846e9f052402620e", null ],
+    [ "Register", "d8/d35/a25090.html#a039eec910c802276b9e979253141cdee", null ]
 ];

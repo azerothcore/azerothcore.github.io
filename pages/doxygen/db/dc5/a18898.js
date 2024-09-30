@@ -1,15 +1,6 @@
 var a18898 =
 [
-    [ "npc_sindragosa_trashAI", "db/dc5/a18898.html#a7401a422bc4c2140c631bc118f396f25", null ],
-    [ "GetData", "db/dc5/a18898.html#a701b8189869bf20d2b3da31b73aed9da", null ],
-    [ "InitializeAI", "db/dc5/a18898.html#a3a8b341c7304faa2c238305f9dde29b0", null ],
-    [ "JustEngagedWith", "db/dc5/a18898.html#a0a7a0012105dea55fe4c8b51d9df5fc7", null ],
-    [ "JustRespawned", "db/dc5/a18898.html#a6438b9f864f178dc4e35e24a48066980", null ],
-    [ "Reset", "db/dc5/a18898.html#a823df6bb8b36ab38aa059e6d1313f2c0", null ],
-    [ "SetData", "db/dc5/a18898.html#a4aaa7f3963b24ac03e2fb8aaea7b62b2", null ],
-    [ "UpdateAI", "db/dc5/a18898.html#a12b995cc8c836efbf0eecc6591c85ff4", null ],
-    [ "_events", "db/dc5/a18898.html#ab789c21e742fe261f9f8aa63509a7d45", null ],
-    [ "_frostwyrmId", "db/dc5/a18898.html#ac2853246532bd913211fc743f4723ce0", null ],
-    [ "_instance", "db/dc5/a18898.html#aa2199507fdabe850b6af9a5ae0283fdc", null ],
-    [ "_isTaunted", "db/dc5/a18898.html#a50632ee1a85936748aabc5fb10f5e982", null ]
+    [ "boss_grobbulus_poison_cloudAI", "d3/d13/a18902.html", "d3/d13/a18902" ],
+    [ "boss_grobbulus_poison_cloud", "db/dc5/a18898.html#a2bb8ebec0ae79f20602e551f654e0761", null ],
+    [ "GetAI", "db/dc5/a18898.html#a34c68dd3e58b83c52f270eb1b194f2ed", null ]
 ];

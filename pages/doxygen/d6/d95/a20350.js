@@ -1,14 +1,8 @@
 var a20350 =
 [
-    [ "boss_anomalusAI", "d6/d95/a20350.html#a5f7d1b7b4d7c4d298b22dbf4c8d2e6a6", null ],
-    [ "CheckEvadeIfOutOfCombatArea", "d6/d95/a20350.html#a68c052fcb1a9bc96d82a4284eec0d132", null ],
-    [ "GetData", "d6/d95/a20350.html#a561ad0c1bfc31e9c9d04e07492a96bb2", null ],
-    [ "JustDied", "d6/d95/a20350.html#ae079850413f8f0e87a8d3677a475ba95", null ],
-    [ "JustEngagedWith", "d6/d95/a20350.html#a85da2f5caadf2d38b710a731f4ffe957", null ],
-    [ "JustSummoned", "d6/d95/a20350.html#a2e5306347151100436907dc8ea6b7c86", null ],
-    [ "Reset", "d6/d95/a20350.html#a3e2711ea84cc728716c9e207d8b35ccc", null ],
-    [ "SetData", "d6/d95/a20350.html#a26500dd41960a99400606ceca91bf3e9", null ],
-    [ "UpdateAI", "d6/d95/a20350.html#a5429e5d51739b00f92b00460335f6830", null ],
-    [ "achievement", "d6/d95/a20350.html#a40fa36e5c5fc131e7c063e90ea2468a6", null ],
-    [ "activeRifts", "d6/d95/a20350.html#a66e477fb306404cc544e13417c835138", null ]
+    [ "npc_ulduar_magnetic_coreAI", "d6/d95/a20350.html#a585437dff0c49ac1a6bf7929ab266ff5", null ],
+    [ "SetData", "d6/d95/a20350.html#a27c31856d2bfe3228ae3b0b361064d7a", null ],
+    [ "UpdateAI", "d6/d95/a20350.html#ab9113a021844aa7ea8ac46df9c50b205", null ],
+    [ "despawnTimer", "d6/d95/a20350.html#ad244ccbaeda814b9e56fad93f06f12fe", null ],
+    [ "pInstance", "d6/d95/a20350.html#a3e01c612a689d89bdbe3529c429a413d", null ]
 ];

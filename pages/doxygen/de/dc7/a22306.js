@@ -1,7 +1,7 @@
 var a22306 =
 [
-    [ "FilterTargets", "de/dc7/a22306.html#a4d96c113cd60d9949e8c70ac23865ca0", null ],
-    [ "HandleDummyEffect", "de/dc7/a22306.html#a98a2ee1f10a7755e20cecb89ee384a8d", null ],
-    [ "PrepareSpellScript", "de/dc7/a22306.html#a2e8af177d9ac1a4b361b9bc6e0320226", null ],
-    [ "Register", "de/dc7/a22306.html#a07e8f3d396b56765c5b57fd32bffd636", null ]
+    [ "npc_wg_quest_giver", "de/dc7/a22306.html#a68589ab4ce9f43247154f3c66d8107b8", null ],
+    [ "GetDialogStatus", "de/dc7/a22306.html#acd5c1462fe51a350c80af4f3ab46bac8", null ],
+    [ "OnGossipHello", "de/dc7/a22306.html#ad08debc749cbaea6fad9b7bcfb5548e0", null ],
+    [ "OnGossipSelect", "de/dc7/a22306.html#a9d42e558d68eee9f0f96ac1f8cd1a409", null ]
 ];

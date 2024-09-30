@@ -1,13 +1,6 @@
 var a10966 =
 [
-    [ "CommandFinished", "d5/d44/a10966.html#af7ce6ffac9fa11ce0db6fd10919c4e4a", null ],
-    [ "Print", "d5/d44/a10966.html#ab10379cf266b38f4d81e2477b727471e", null ],
-    [ "CliCommandHolder", "d5/d44/a10966.html#a5a45e891607114cd070721fd51926cd5", null ],
-    [ "~CliCommandHolder", "d5/d44/a10966.html#a44ca7e8af5c717b1cff7b143afc077ee", null ],
-    [ "CliCommandHolder", "d5/d44/a10966.html#ad9c7b2da92d97c464fb14ad1e0b9a4a9", null ],
-    [ "operator=", "d5/d44/a10966.html#aaca241ecd81dc25788eaccbdc4aa5f60", null ],
-    [ "m_callbackArg", "d5/d44/a10966.html#a4579ce86ff43da89524b62eefe308a59", null ],
-    [ "m_command", "d5/d44/a10966.html#ae333918e09a9de4c9e402c334e076674", null ],
-    [ "m_commandFinished", "d5/d44/a10966.html#a416a66ac78f1d2cb1ee2d0d93f276f43", null ],
-    [ "m_print", "d5/d44/a10966.html#aa49897105905b9812fcf962326486d5d", null ]
+    [ "BeforeHitHandler", "d5/d44/a10966.html#a0c2f048fc10f408a299a8b537ad7551d", null ],
+    [ "Call", "d5/d44/a10966.html#a393057cca72c41e193508bf150ed0b1f", null ],
+    [ "_pBeforeHitHandlerScript", "d5/d44/a10966.html#acecb7a8844155ff6eeb3f09582d7a475", null ]
 ];

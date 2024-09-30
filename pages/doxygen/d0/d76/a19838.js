@@ -1,6 +1,6 @@
 var a19838 =
 [
-    [ "npc_icc_putricades_trapAI", "df/ddb/a19842.html", "df/ddb/a19842" ],
-    [ "npc_icc_putricades_trap", "d0/d76/a19838.html#ae022f2991fee4143fb965c53e4d4da5c", null ],
-    [ "GetAI", "d0/d76/a19838.html#a42ab1cb27234ebd10755dbbedce5f187", null ]
+    [ "boss_flame_leviathan_safety_containerAI", "df/ddb/a19842.html", "df/ddb/a19842" ],
+    [ "boss_flame_leviathan_safety_container", "d0/d76/a19838.html#ae14b2e13bd6358ad03d568f2bef042b7", null ],
+    [ "GetAI", "d0/d76/a19838.html#a6bcbc4e65214a0c667875271ff9aa0dd", null ]
 ];

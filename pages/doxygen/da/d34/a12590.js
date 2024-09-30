@@ -1,12 +1,16 @@
 var a12590 =
 [
-    [ "npc_high_inquisitor_valrothAI", "da/d34/a12590.html#afd15d7c3b64c9c84094234b1c369c6d6", null ],
-    [ "JustDied", "da/d34/a12590.html#ac8f4f8594bbd5d984a330d52ef2fde74", null ],
-    [ "JustEngagedWith", "da/d34/a12590.html#a9cf989be7062743685b2357309889585", null ],
-    [ "Reset", "da/d34/a12590.html#a833adc603d6d0b2eb03ea34b925f88b0", null ],
-    [ "Shout", "da/d34/a12590.html#aa80f070da5ad92297a5f5b7b6983085c", null ],
-    [ "UpdateAI", "da/d34/a12590.html#abe6becc3a10e0195bd75bf1de2d6bcc6", null ],
-    [ "uiInquisitor_Penance_timer", "da/d34/a12590.html#a765ef78cf5c30b1c46da303f4bbeb4d9", null ],
-    [ "uiRenew_timer", "da/d34/a12590.html#a1fe70428102a0319031179c97f02cbab", null ],
-    [ "uiValroth_Smite_timer", "da/d34/a12590.html#a527628708354414caea85b6bec3d0f1d", null ]
+    [ "npc_unworthy_initiateAI", "da/d34/a12590.html#ae535d3335eb7865400f9e5c24b1dd3b5", null ],
+    [ "EventStart", "da/d34/a12590.html#a1973d5a14a1ac19be1d74cf57693cabe", null ],
+    [ "JustEngagedWith", "da/d34/a12590.html#aeedb0af23823ec5c7ff4f951c872552e", null ],
+    [ "MovementInform", "da/d34/a12590.html#afbf6d71b196067400256df98949ae963", null ],
+    [ "Reset", "da/d34/a12590.html#aba37cb6291a2e7436f8af796c50dead9", null ],
+    [ "UpdateAI", "da/d34/a12590.html#a485695877f48aea0bb191e8b312f9c99", null ],
+    [ "anchorGUID", "da/d34/a12590.html#acb1b338fae07b3ececfc8c15cc5ea80b", null ],
+    [ "anchorX", "da/d34/a12590.html#a69455d3e3f822c2f2a4f8c3f89e4586d", null ],
+    [ "anchorY", "da/d34/a12590.html#a67bbfac4014f2907cc9ad9caca80a4be", null ],
+    [ "events", "da/d34/a12590.html#a4eff6a50c098c3f851274ece860fb6fb", null ],
+    [ "phase", "da/d34/a12590.html#a299de7b4e1992edebd0a87c119d06d0a", null ],
+    [ "playerGUID", "da/d34/a12590.html#a02d1e6dd7a302e170b08f0c90f038ca9", null ],
+    [ "wait_timer", "da/d34/a12590.html#a9270c6e57cf77805769cfe692beefbe0", null ]
 ];

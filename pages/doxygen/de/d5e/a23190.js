@@ -1,6 +1,6 @@
 var a23190 =
 [
-    [ "npc_mageguard_dalaranAI", "da/db1/a23194.html", "da/db1/a23194" ],
-    [ "npc_mageguard_dalaran", "de/d5e/a23190.html#a0cec4f232b665325c421cecb5839885f", null ],
-    [ "GetAI", "de/d5e/a23190.html#a10cbddceb53a2d432da2224128c59b28", null ]
+    [ "instance_serpentshrine_cavern_InstanceMapScript", "da/db1/a23194.html", "da/db1/a23194" ],
+    [ "instance_serpent_shrine", "de/d5e/a23190.html#aac4fc7113307805138ba4ce4a9adff09", null ],
+    [ "GetInstanceScript", "de/d5e/a23190.html#aa81add2f4aeb8b2084bcc81c05b606c7", null ]
 ];

@@ -1,10 +1,13 @@
 var a10802 =
 [
-    [ "AcoreStringChatBuilder", "d3/d9a/a10802.html#a7e280083c80fd119d365649fd4578fc9", null ],
-    [ "operator()", "d3/d9a/a10802.html#a09a2a03dca2b8470cd1d1f7c8273868b", null ],
-    [ "_args", "d3/d9a/a10802.html#aa92a28b7d6a7dd59ea7da3a76c1fb4cc", null ],
-    [ "_msgType", "d3/d9a/a10802.html#adbabf871f33692b0ecddc8cc0fb75586", null ],
-    [ "_source", "d3/d9a/a10802.html#ac5222737ea1b95b6d75afc532838f8be", null ],
-    [ "_target", "d3/d9a/a10802.html#ab659b7c7bd6426a023cf8668322327b8", null ],
-    [ "_textId", "d3/d9a/a10802.html#a3d29de9c5d80c3df488aa01fa380a84a", null ]
+    [ "alive", "d3/d9a/a10802.html#aebeb2f67bf8646770570e5564fb01d4d", null ],
+    [ "crit", "d3/d9a/a10802.html#a908278bd46f9be3e1191f4883f9eb32f", null ],
+    [ "damage", "d3/d9a/a10802.html#a5bdf23f41a4a748f96dd9fffa8e8a838", null ],
+    [ "effectMask", "d3/d9a/a10802.html#afb839b2b409a61e4d63de03dbce2abcb", null ],
+    [ "missCondition", "d3/d9a/a10802.html#a6c17740427f4f90c7c2e4fb4854ab4b3", null ],
+    [ "processed", "d3/d9a/a10802.html#a2de96d62297ff614fc3702bec035ce5b", null ],
+    [ "reflectResult", "d3/d9a/a10802.html#add2beb55eb3313e474d947fd3eb1fc65", null ],
+    [ "scaleAura", "d3/d9a/a10802.html#a89bba366b26686d41288e9b2e725eb75", null ],
+    [ "targetGUID", "d3/d9a/a10802.html#acf55c1dd6f00c94296c592d988f959cf", null ],
+    [ "timeDelay", "d3/d9a/a10802.html#abcf1acd0c3d50c2264253dc9c052795a", null ]
 ];

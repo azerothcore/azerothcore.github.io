@@ -1,6 +1,6 @@
 var a19566 =
 [
-    [ "npc_captain_brandonAI", "d6/df4/a19566.html#a1fe09b93be658660ba3c127c142e2ee6", null ],
-    [ "Reset", "d6/df4/a19566.html#a13226b321707eee9faf5f073c81403e4", null ],
-    [ "UpdateAI", "d6/df4/a19566.html#a721f8f7395cd57d4dba74f66ae40169f", null ]
+    [ "CosmicSmashDamageEvent", "d6/df4/a19566.html#a5c9606791b560d8be1825a9c73f2393e", null ],
+    [ "Execute", "d6/df4/a19566.html#a2d4b301e1b7e0852ec47280ad97871f2", null ],
+    [ "_caster", "d6/df4/a19566.html#ab7af2459d3962831812ee2362ee9de2b", null ]
 ];

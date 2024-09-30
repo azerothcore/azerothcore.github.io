@@ -1,6 +1,6 @@
 var a15170 =
 [
-    [ "OnPeriodic", "dc/df8/a15170.html#a08dce8b98afadc134166a615b4496151", null ],
-    [ "PrepareAuraScript", "dc/df8/a15170.html#a9ebb34665b176e4e60f085da65183d8e", null ],
-    [ "Register", "dc/df8/a15170.html#a6a04dbb7c66324e701a8db0ee0334123", null ]
+    [ "npc_stillpine_capitiveAI", "d1/d06/a15174.html", "d1/d06/a15174" ],
+    [ "npc_stillpine_capitive", "dc/df8/a15170.html#a6c9ce06ffe8cafaea2f428ba610d6964", null ],
+    [ "GetAI", "dc/df8/a15170.html#ad1d81ae43d3c417b8817da61afef4e4b", null ]
 ];

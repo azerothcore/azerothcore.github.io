@@ -1,6 +1,6 @@
 var a17766 =
 [
-    [ "HandleDummyTick", "d2/d14/a17766.html#ab256f558c0ce14792d5540d1c0115a5a", null ],
-    [ "PrepareAuraScript", "d2/d14/a17766.html#ac45a1e05503f1dba03b493e52c375811", null ],
-    [ "Register", "d2/d14/a17766.html#a75872db60208b07f1f3a859e2a8fb1bf", null ]
+    [ "HandlePeriodic", "d2/d14/a17766.html#a9583ccd7b642694a06bde4b88826ec7b", null ],
+    [ "PrepareAuraScript", "d2/d14/a17766.html#a5d855d79247dff6f949a5e099abb9352", null ],
+    [ "Register", "d2/d14/a17766.html#ae797de0ed29b3ca179c07d759b469228", null ]
 ];

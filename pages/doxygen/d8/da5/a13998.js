@@ -1,13 +1,20 @@
 var a13998 =
 [
-    [ "npc_ohganAI", "d8/da5/a13998.html#a43f7fa66ff39bca177d30fc1d0d78080", null ],
-    [ "JustDied", "d8/da5/a13998.html#a89e506868e3191362545e34d21528b8f", null ],
-    [ "JustEngagedWith", "d8/da5/a13998.html#a5b6171794c5b49e8ee439de7bdc51ba5", null ],
-    [ "KilledUnit", "d8/da5/a13998.html#a4e202eef928e54bd52160705bba5cc35", null ],
-    [ "Reset", "d8/da5/a13998.html#ac3e1bc9dc819138741eb3b4448051547", null ],
-    [ "SetGUID", "d8/da5/a13998.html#a5baf8e15902d4d8ff06c8410314327f6", null ],
-    [ "UpdateAI", "d8/da5/a13998.html#aea7c169bc2b7c52ff7d4d9a5dd7a6f0a", null ],
-    [ "_scheduler", "d8/da5/a13998.html#a838f1354e24c47e1c52e4b50e2b93c85", null ],
-    [ "instance", "d8/da5/a13998.html#aeb6f6bddf881edf818fdc31fc639d5d5", null ],
-    [ "reviveGUID", "d8/da5/a13998.html#afc066ae0c6d370f6632408b08de3c3bb", null ]
+    [ "npc_dark_iron_attack_generator", "d8/da5/a13998.html#aef208e008b00af62710c8479bf7b6618", null ],
+    [ "AllowStart", "d8/da5/a13998.html#a4c0bdf682ced38cd1555ac6c6dd82361", null ],
+    [ "FinishAttackDueToWin", "d8/da5/a13998.html#abe15db24f6cd2c0c4c7fb5572635f09a", null ],
+    [ "FinishEventDueToLoss", "d8/da5/a13998.html#ab2dc568f820e3b0b7c863f83e6ca45fc", null ],
+    [ "GetRandomBartender", "d8/da5/a13998.html#aefe0e7e40ca5aad089aa27c5151e01fa", null ],
+    [ "JustEngagedWith", "d8/da5/a13998.html#a7588ef6382ae081d76423f8233667c5b", null ],
+    [ "MoveInLineOfSight", "d8/da5/a13998.html#ae21b69752a1e45eeef318ccf1e5a3b24", null ],
+    [ "PrepareEvent", "d8/da5/a13998.html#a4371fcc13d221b843275d1d0e7f896fb", null ],
+    [ "Reset", "d8/da5/a13998.html#ab9b3a7d524b8764ef9d00dac3ea75418", null ],
+    [ "SpellHit", "d8/da5/a13998.html#a829946c679b3eff97b1eb3ede6cd91d8", null ],
+    [ "UpdateAI", "d8/da5/a13998.html#a1038fdc5453c78ebaef26b305be23963", null ],
+    [ "events", "d8/da5/a13998.html#a6692f1a74acae5ddebbe8dc8790db07a", null ],
+    [ "guzzlerCounter", "d8/da5/a13998.html#a1a5cc21ee54e3d8d7acb1e3235d4e427", null ],
+    [ "kegCounter", "d8/da5/a13998.html#a3282d8a556e6e3b84a9597c317722d8e", null ],
+    [ "revelerGUIDs", "d8/da5/a13998.html#a873ec2bf87b3d616e60d26aa561258bf", null ],
+    [ "summons", "d8/da5/a13998.html#a5ac0502b880031c937f915a7dbca2262", null ],
+    [ "thrown", "d8/da5/a13998.html#ac372ce0664ec10b7f60026fa808a74d0", null ]
 ];

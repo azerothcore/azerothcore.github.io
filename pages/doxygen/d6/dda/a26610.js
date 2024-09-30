@@ -1,6 +1,8 @@
 var a26610 =
 [
-    [ "HandleScriptEffect", "d6/dda/a26610.html#afaffd667477e286700dd7e5562423452", null ],
-    [ "PrepareSpellScript", "d6/dda/a26610.html#a9c30d4d6427cfc96b88a1427afcedb00", null ],
-    [ "Register", "d6/dda/a26610.html#ab8b68e02d05abceeb4b7eef00092e759", null ]
+    [ "CheckFireTotem", "d6/dda/a26610.html#a9d6b4368f5c72b95c25415ea87575fce", null ],
+    [ "HandleDummy", "d6/dda/a26610.html#a179d07e7090cec396a7845754e545e8e", null ],
+    [ "PrepareSpellScript", "d6/dda/a26610.html#a8311cc106da26267e90acd98698cb737", null ],
+    [ "Register", "d6/dda/a26610.html#abae5a4961888e6ba2d876e450307e362", null ],
+    [ "Validate", "d6/dda/a26610.html#a2048b0e43dbe2df6e4dfc42d912a74a7", null ]
 ];

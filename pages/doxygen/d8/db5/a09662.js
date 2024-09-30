@@ -1,13 +1,14 @@
 var a09662 =
 [
-    [ "FormulaScript", "d8/db5/a09662.html#a129b3c2e4ad4423e006e3c94fb05d4c3", null ],
-    [ "OnAfterArenaRatingCalculation", "d8/db5/a09662.html#aa3510b1cfb4661cf6028e1b9f443c865", null ],
-    [ "OnBaseGainCalculation", "d8/db5/a09662.html#ab154eaf469d5fe3e86c364940816270a", null ],
-    [ "OnBeforeUpdatingPersonalRating", "d8/db5/a09662.html#a2208a5684c95b936aa9ca1ae863d9682", null ],
-    [ "OnColorCodeCalculation", "d8/db5/a09662.html#a83893099062d1fb7ce69fe38bf8c4699", null ],
-    [ "OnGainCalculation", "d8/db5/a09662.html#aa83fab65cc89bd03021da2805e935ffb", null ],
-    [ "OnGrayLevelCalculation", "d8/db5/a09662.html#affeb57234f961b9e01f5898c7738f38f", null ],
-    [ "OnGroupRateCalculation", "d8/db5/a09662.html#a1098d29595b4f9206cccf3c3c1dad5f3", null ],
-    [ "OnHonorCalculation", "d8/db5/a09662.html#a54a5e523ad5a9d3eb2dd061ced2d209f", null ],
-    [ "OnZeroDifferenceCalculation", "d8/db5/a09662.html#a7755c35bc56e6645e36de08c12a4847d", null ]
+    [ "EscortMovementGenerator", "d8/db5/a09662.html#a9d653e50662103f5f6661da5226ae99e", null ],
+    [ "DoFinalize", "d8/db5/a09662.html#a4c191a86f5ecc30ae5b34d7578d58d3e", null ],
+    [ "DoInitialize", "d8/db5/a09662.html#ad068798c6e186c1eb1a79f3872955e97", null ],
+    [ "DoReset", "d8/db5/a09662.html#ac4934d70ab62e08488cfc29c13355a7f", null ],
+    [ "DoUpdate", "d8/db5/a09662.html#a524bb8f72836dc5d1b63e429436b3a77", null ],
+    [ "GetMovementGeneratorType", "d8/db5/a09662.html#a0733162a5a0cab2593150f288edeb27b", null ],
+    [ "GetSplineId", "d8/db5/a09662.html#a61d74b098d1ae692ce305fa493aaa6d2", null ],
+    [ "unitSpeedChanged", "d8/db5/a09662.html#a235e330c4c3368af00d37028915684ff", null ],
+    [ "_splineId", "d8/db5/a09662.html#af6286fa4ed6afcc8a6c5f03575c774e6", null ],
+    [ "i_recalculateSpeed", "d8/db5/a09662.html#a9f7048c5e49cc09f809496312a0c6550", null ],
+    [ "m_precomputedPath", "d8/db5/a09662.html#a46eb2812a1b2a56e584b925cae2169eb", null ]
 ];

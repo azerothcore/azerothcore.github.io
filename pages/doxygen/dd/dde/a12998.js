@@ -1,6 +1,6 @@
 var a12998 =
 [
-    [ "HandleScriptEffect", "dd/dde/a12998.html#a55453472fa155bb70b8e06cc5afc40d4", null ],
-    [ "PrepareSpellScript", "dd/dde/a12998.html#a8c70a7bddc9ad845a6d262dc0966dbe1", null ],
-    [ "Register", "dd/dde/a12998.html#a28b683cad00564827cefa4fd6ab91495", null ]
+    [ "CorruptTriggers", "dd/dde/a12998.html#a5ec60254ee2ac299ce99164189087a1c", null ],
+    [ "Execute", "dd/dde/a12998.html#a9929f3518f307e0b753782967f06c6c1", null ],
+    [ "_caster", "dd/dde/a12998.html#a2b9e4c3d292b7e3deea57e1542b3ba12", null ]
 ];

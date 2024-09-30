@@ -1,15 +1,11 @@
 var a18990 =
 [
-    [ "npc_tirion_fordringAI", "d9/d53/a18990.html#aa0f94cef85e96cda4a2e280eaa7110de", null ],
-    [ "CanAIAttack", "d9/d53/a18990.html#a1bdef323e9c7364fab789abc39ef00a0", null ],
-    [ "DoAction", "d9/d53/a18990.html#a5fd5b3fde84ed04c794546d11fe946d7", null ],
-    [ "EnterEvadeMode", "d9/d53/a18990.html#a1275cee8f49c67920041ad8d50c62aa4", null ],
-    [ "JustReachedHome", "d9/d53/a18990.html#a6e6c7c2f4f8e60126fd4adc42fe3b4f4", null ],
-    [ "MovementInform", "d9/d53/a18990.html#a7284240c4eafbc80748d5e2867a64a9f", null ],
-    [ "Reset", "d9/d53/a18990.html#ac41e569535322bb5907fa4116bbac739", null ],
-    [ "sGossipSelect", "d9/d53/a18990.html#a56599a97f019121160b2f6ac43019772", null ],
-    [ "SpellHit", "d9/d53/a18990.html#ae68b900f87c646cfb3ece5518b59e687", null ],
-    [ "UpdateAI", "d9/d53/a18990.html#a3f729624820266f1cf1e5577c5047c3b", null ],
-    [ "_events", "d9/d53/a18990.html#a7bb0d243cc9b3e836dd99864f2a5e669", null ],
-    [ "_instance", "d9/d53/a18990.html#a223a7f09ae03971487bb55e770503f7e", null ]
+    [ "boss_patchwerkAI", "d9/d53/a18990.html#a74dfcf9ef921aa2a53d877c0e5ee9a34", null ],
+    [ "JustDied", "d9/d53/a18990.html#aaed18187aa8e0058c70b29b1ccbe955f", null ],
+    [ "JustEngagedWith", "d9/d53/a18990.html#a1317cb819d6247f62e0c6c725157db30", null ],
+    [ "KilledUnit", "d9/d53/a18990.html#a17ccb5b2a1841656813a9408f5a05c4e", null ],
+    [ "Reset", "d9/d53/a18990.html#a1d03058bf53e670f4fe9384e9f047891", null ],
+    [ "UpdateAI", "d9/d53/a18990.html#a2db0df50a0faa88ebeaa035ea048157e", null ],
+    [ "events", "d9/d53/a18990.html#a00c98ee5cdb3c512ba0d92a48d441006", null ],
+    [ "pInstance", "d9/d53/a18990.html#a78a3e9a6ef289e82c3ccaedc4399607a", null ]
 ];

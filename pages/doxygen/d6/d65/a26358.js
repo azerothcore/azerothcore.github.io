@@ -1,5 +1,6 @@
 var a26358 =
 [
-    [ "npc_pet_dk_army_of_the_deadAI", "d6/d65/a26358.html#a2d934ed807d225f6b9f2206f0556f26d", null ],
-    [ "InitializeAI", "d6/d65/a26358.html#af3ecec126ed3d902acd4bfe979382307", null ]
+    [ "HandleDummy", "d6/d65/a26358.html#aa530b0e27c9b9ba1978a80fd4a47f68d", null ],
+    [ "PrepareSpellScript", "d6/d65/a26358.html#a22adac71d2693d17313e506f1d12532f", null ],
+    [ "Register", "d6/d65/a26358.html#a2680afcbe3d7e95404c614e2f0f93bf4", null ]
 ];

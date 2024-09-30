@@ -1,6 +1,5 @@
 var a21586 =
 [
-    [ "HandleAfterEffectApply", "d2/d99/a21586.html#a0d2a3845acfb34fa752a6a6593dd5928", null ],
-    [ "PrepareAuraScript", "d2/d99/a21586.html#af31ab9954303867361e7a87c215a5324", null ],
-    [ "Register", "d2/d99/a21586.html#aba6d6a48ba2aab449d7b0645deadaac0", null ]
+    [ "npc_leryssaAI", "d2/d99/a21586.html#ad21a1e1572880ba8cbf6625e658989eb", null ],
+    [ "MovementInform", "d2/d99/a21586.html#a36180f7351ab11a9942ec59ee24ae6ad", null ]
 ];

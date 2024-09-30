@@ -1,6 +1,9 @@
 var a27590 =
 [
-    [ "FilterTargets", "de/dcf/a27590.html#abe299fbad07f800e90b1614ec661c185", null ],
-    [ "PrepareSpellScript", "de/dcf/a27590.html#a53bae2b6575436705adff74caf9225b7", null ],
-    [ "Register", "de/dcf/a27590.html#a35fd5a1c8ab2400940da2d9f8f3ce9c2", null ]
+    [ "npc_arcanite_dragonling", "de/dcf/a27590.html#a9b7e4cefa312a16c90018d655ad94758", null ],
+    [ "CanAIAttack", "de/dcf/a27590.html#a374e127ef749dc72ec70137bcd13a0b9", null ],
+    [ "IsSummonedBy", "de/dcf/a27590.html#a921b35a91c4f21258efdb41fd87413db", null ],
+    [ "JustEngagedWith", "de/dcf/a27590.html#a65f6d779681861117f750b70154b3e0d", null ],
+    [ "Reset", "de/dcf/a27590.html#a4468d91430add821bf7a7ab11d8063da", null ],
+    [ "UpdateAI", "de/dcf/a27590.html#aebe430b9a3079a5ccbfd979a74e532f3", null ]
 ];

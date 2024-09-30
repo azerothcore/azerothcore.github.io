@@ -1,7 +1,6 @@
 var a23122 =
 [
-    [ "npc_thassarianAI", "db/d03/a23122.html#a92e873dc3aa97f81919225ce75a5f894", null ],
-    [ "Reset", "db/d03/a23122.html#a8611ef17700c739dbd5e7a70660f1379", null ],
-    [ "UpdateAI", "db/d03/a23122.html#ad09a3a063d716bc43e23b5aad5e46a7b", null ],
-    [ "_events", "db/d03/a23122.html#aaecb5a402e4ffca1e819303dbb94f5b5", null ]
+    [ "HandleScriptEffect", "db/d03/a23122.html#a766edc5924124c869b04ec82cd2bc693", null ],
+    [ "PrepareSpellScript", "db/d03/a23122.html#a1eac10c673b8f43ae08f8bbdf949f82f", null ],
+    [ "Register", "db/d03/a23122.html#a60d4e21bf31c997ef4105ad72c8b4e85", null ]
 ];

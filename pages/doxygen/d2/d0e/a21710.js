@@ -1,6 +1,6 @@
 var a21710 =
 [
-    [ "boss_mimironAI", "d6/d05/a21714.html", "d6/d05/a21714" ],
-    [ "boss_mimiron", "d2/d0e/a21710.html#a72904837bd85e9f711fcf3da04c459c3", null ],
-    [ "GetAI", "d2/d0e/a21710.html#a1d4f38ecee62a2c2a608afc158fad7f2", null ]
+    [ "npc_injured_7th_legion_soldierAI", "d2/d0e/a21710.html#a6929ef42a003f1337d71f9b23fa37c6e", null ],
+    [ "MovementInform", "d2/d0e/a21710.html#a999bc868db485578fcc70ae7e056b778", null ],
+    [ "Reset", "d2/d0e/a21710.html#a3021c037acdb141fc3ca4d6f3b146bbf", null ]
 ];

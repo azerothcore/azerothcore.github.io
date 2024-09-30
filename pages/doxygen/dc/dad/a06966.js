@@ -1,11 +1,11 @@
 var a06966 =
 [
-    [ "BattlegroundWGScore", "dc/dad/a06966.html#a43b7933c5e217376e5bb10e9b5bb208b", null ],
-    [ "BuildObjectivesBlock", "dc/dad/a06966.html#a804e56dbd666336d961cce2b0e4d6452", null ],
-    [ "GetAttr1", "dc/dad/a06966.html#aab49f39d88989b153f1eb979fbbfaeb3", null ],
-    [ "GetAttr2", "dc/dad/a06966.html#a191e205e08ef15cc36dabedc32614fd2", null ],
-    [ "UpdateScore", "dc/dad/a06966.html#aa560d7f5f13dd235d43a9e3571090055", null ],
-    [ "BattlegroundWS", "dc/dad/a06966.html#a4285b67c5d8593dce759422a4eb78c77", null ],
-    [ "FlagCaptures", "dc/dad/a06966.html#a23ff00f10d07c1a601e9e1d0eb05b1da", null ],
-    [ "FlagReturns", "dc/dad/a06966.html#ab400c9fb692ff157eb4809f0536c05f7", null ]
+    [ "gyid", "dc/dad/a06966.html#a742fcc91d2daf1a9331f02a90496328c", null ],
+    [ "o", "dc/dad/a06966.html#a9c761e77b7194ab1bb80d28f2b1e1f6d", null ],
+    [ "startcontrol", "dc/dad/a06966.html#a8b0aed9e6973ce6efc5d89a0d10a4139", null ],
+    [ "textid", "dc/dad/a06966.html#a87d80377ad632b9d667eecf11ae8faae", null ],
+    [ "type", "dc/dad/a06966.html#ae1a4b69ea4edabe51f1378c6cb066cad", null ],
+    [ "x", "dc/dad/a06966.html#ad69833b4e2a27999dcd13e5ac5bda892", null ],
+    [ "y", "dc/dad/a06966.html#a405e8098772e77250683985f957ce5f3", null ],
+    [ "z", "dc/dad/a06966.html#a844e4c9c9b1a9a22a817025ccda7f08d", null ]
 ];

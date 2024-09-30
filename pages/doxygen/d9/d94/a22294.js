@@ -1,6 +1,5 @@
 var a22294 =
 [
-    [ "spell_yogg_saron_destabilization_matrix_SpellScript", "da/d26/a22298.html", "da/d26/a22298" ],
-    [ "spell_yogg_saron_destabilization_matrix", "d9/d94/a22294.html#a0fcbcecf6b3cc81aeb5c8cb143788adc", null ],
-    [ "GetSpellScript", "d9/d94/a22294.html#abd2526725955a5cb04459eccf27b8468", null ]
+    [ "npc_wg_spirit_guideAI", "d9/d94/a22294.html#a576d15b6acedb07bfe1555bdd0ee8f12", null ],
+    [ "UpdateAI", "d9/d94/a22294.html#a32b28e8fe74db742d170bd754d11f4d7", null ]
 ];

@@ -1,6 +1,7 @@
 var a20650 =
 [
-    [ "CalculateDamage", "d0/df7/a20650.html#a857e907dcf40f0e630b8c05c5e549672", null ],
-    [ "PrepareSpellScript", "d0/df7/a20650.html#aaa6c420d13dc3c88e9c1e5a053c932aa", null ],
-    [ "Register", "d0/df7/a20650.html#ae142275e06fe6381304137f637e641ca", null ]
+    [ "FilterTargets", "d0/df7/a20650.html#a582691eca81b6db6d78ca925ad8fb084", null ],
+    [ "PrepareSpellScript", "d0/df7/a20650.html#a28ce9d2750c79b2b0061b00df5ae9e8b", null ],
+    [ "RecalculateDamage", "d0/df7/a20650.html#a02c1af0414de344056b2375488f23c01", null ],
+    [ "Register", "d0/df7/a20650.html#a1e030067944878000b731edf456d6bc8", null ]
 ];

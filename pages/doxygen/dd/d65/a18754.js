@@ -1,6 +1,7 @@
 var a18754 =
 [
-    [ "spell_sindragosa_s_fury_SpellScript", "d6/d1c/a18758.html", "d6/d1c/a18758" ],
-    [ "spell_sindragosa_s_fury", "dd/d65/a18754.html#aac89b5d1a1fb0a578f9125c8c9719074", null ],
-    [ "GetSpellScript", "dd/d65/a18754.html#a82bcf2e518229c1c0eea946073285154", null ]
+    [ "DelayedCastMincharEvent", "dd/d65/a18754.html#a76d8a08ca273eec5b2e083d136336a15", null ],
+    [ "Execute", "dd/d65/a18754.html#a12aeff246d07e541ed192974320842cb", null ],
+    [ "_spellId", "dd/d65/a18754.html#af4ea90407b2c8a283f137d213ffe97be", null ],
+    [ "_trigger", "dd/d65/a18754.html#a9f3cd02e77ad35b98a6753b792383548", null ]
 ];

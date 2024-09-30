@@ -1,6 +1,7 @@
 var a26618 =
 [
-    [ "RaiseDeadCheck", "d3/d2a/a26618.html#abc6439e5b457f2f6e832f504167a392d", null ],
-    [ "operator()", "d3/d2a/a26618.html#a9647e6afd21e7397f05349e66bea4326", null ],
-    [ "_caster", "d3/d2a/a26618.html#a7b1647934c5e64de65d38b9fba2d343a", null ]
+    [ "HandleDummy", "d3/d2a/a26618.html#a00d36b914f5fd0466ae775e1fc95aa4f", null ],
+    [ "PrepareSpellScript", "d3/d2a/a26618.html#a86a5c2b8ff373af7e98645b8b380145c", null ],
+    [ "Register", "d3/d2a/a26618.html#a1b879ab84b8d6227ee5b2cccccd38bc2", null ],
+    [ "Validate", "d3/d2a/a26618.html#aa7d437146a96bb40c1a66a453e3e4339", null ]
 ];

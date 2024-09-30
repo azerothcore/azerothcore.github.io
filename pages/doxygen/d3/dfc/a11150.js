@@ -1,9 +1,7 @@
 var a11150 =
 [
-    [ "quest_commandscript", "d3/dfc/a11150.html#a98804583ded14bc50d252475289dda4f", null ],
-    [ "GetCommands", "d3/dfc/a11150.html#afaf8c4b169a2bc7457b8ab97d13a367c", null ],
-    [ "HandleQuestAdd", "d3/dfc/a11150.html#acd1410f224a1d69bba1321999ebf25bc", null ],
-    [ "HandleQuestComplete", "d3/dfc/a11150.html#a044c30fdaedd07060284bd37fd2e226c", null ],
-    [ "HandleQuestRemove", "d3/dfc/a11150.html#ac0a87854f99c510c8309e9e337d1e71f", null ],
-    [ "HandleQuestReward", "d3/dfc/a11150.html#ab8d38057b3630b75cf21c8e88c1ebaf0", null ]
+    [ "PlayerDumpReader", "d3/dfc/a11150.html#ad630b61e298fb1ddf165481c9a14e077", null ],
+    [ "LoadDump", "d3/dfc/a11150.html#a62ca90cbcb0d03ec0da52651d8c5f783", null ],
+    [ "LoadDumpFromFile", "d3/dfc/a11150.html#ae1ed88a6f181cf6ad952edb1285e192e", null ],
+    [ "LoadDumpFromString", "d3/dfc/a11150.html#abd4ce2c50a74922792a7b00d803f03b2", null ]
 ];

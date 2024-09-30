@@ -1,8 +1,10 @@
 var a08178 =
 [
-    [ "DiminishingReturn", "de/d75/a08178.html#acd4828637710636d0164fced285c854d", null ],
-    [ "DRGroup", "de/d75/a08178.html#add3ab95d65e283a326e1922129941ae4", null ],
-    [ "hitCount", "de/d75/a08178.html#a94b1fdc8e8d51b1c6f5e723e697ed323", null ],
-    [ "hitTime", "de/d75/a08178.html#ae3f5eecc2bc88fe236fe4c7c297b68c5", null ],
-    [ "stack", "de/d75/a08178.html#aeb40601df7e6507c7fd83e3152541ba5", null ]
+    [ "ObjectGuidGeneratorBase", "de/d75/a08178.html#a8af6741cc884915ee86b489fc970fed1", null ],
+    [ "~ObjectGuidGeneratorBase", "de/d75/a08178.html#aaa4430614e899fb1186f52875cf8d2ea", null ],
+    [ "Generate", "de/d75/a08178.html#a7a6d9e5a78eef31007a46c10805c3fbe", null ],
+    [ "GetNextAfterMaxUsed", "de/d75/a08178.html#abf1f20b97af8071459bd850e7106a442", null ],
+    [ "HandleCounterOverflow", "de/d75/a08178.html#ada7a44ac47b112491c575c38465740fc", null ],
+    [ "Set", "de/d75/a08178.html#a18b016edddec211c9cc4b0ff8682cb30", null ],
+    [ "_nextGuid", "de/d75/a08178.html#a4a14102e019aa10f41b050054cacca22", null ]
 ];

@@ -1,6 +1,7 @@
 var a26126 =
 [
-    [ "npc_enslaved_netherwing_drakeAI", "dd/dd0/a26130.html", "dd/dd0/a26130" ],
-    [ "npc_enslaved_netherwing_drake", "d9/d44/a26126.html#a63b473fa09b66e501f1496bf9239226f", null ],
-    [ "GetAI", "d9/d44/a26126.html#ad022cfa77d4dfca164f183bb5f5ec7cf", null ]
+    [ "CalculateAmount", "d9/d44/a26126.html#a5d4549ac73b46382c1beddbb65257ad0", null ],
+    [ "HandleUpdateSpellclick", "d9/d44/a26126.html#a89956d7f3a6404d5b60e46034867c82c", null ],
+    [ "PrepareAuraScript", "d9/d44/a26126.html#a7cbdc79c63306a8fcfcc06180998a290", null ],
+    [ "Register", "d9/d44/a26126.html#a2252719e6ea995b85b7b0c5ecb6a26d3", null ]
 ];

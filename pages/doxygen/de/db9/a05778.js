@@ -1,15 +1,10 @@
 var a05778 =
 [
-    [ "VehicleAI", "de/db9/a05778.html#aeb8d08eeea0ac12a72ff5dbaf40e9835", null ],
-    [ "AttackStart", "de/db9/a05778.html#ad06972054ef4525411e859d291226783", null ],
-    [ "CheckConditions", "de/db9/a05778.html#afcee52b5173ec8b9850da63c1d58cded", null ],
-    [ "LoadConditions", "de/db9/a05778.html#a2c49067fa9953ba4db4cc6b03a7a9fb0", null ],
-    [ "MoveInLineOfSight", "de/db9/a05778.html#a48213b69fa4f0034cdc3cd60841d0636", null ],
-    [ "OnCharmed", "de/db9/a05778.html#a2a593f895c6296c4100af075d971b5b3", null ],
-    [ "Permissible", "de/db9/a05778.html#a39ad0764dce6586aef86fcd96c2c221c", null ],
-    [ "UpdateAI", "de/db9/a05778.html#aac593372592d33fa008a66c6dcec1840", null ],
-    [ "conditions", "de/db9/a05778.html#ae95dc46465404271faaae4b2dc61277a", null ],
-    [ "m_ConditionsTimer", "de/db9/a05778.html#a3a46c5f18b019852460170e1200b11b4", null ],
-    [ "m_DismissTimer", "de/db9/a05778.html#a34000f32495dbee3a550147e1e86d761", null ],
-    [ "m_DoDismiss", "de/db9/a05778.html#a505c1bacb159950e19518ad3b5740a3e", null ]
+    [ "TransactionCallback", "de/db9/a05778.html#a89e9ebf06ffbad9dcf77a78f9f989450", null ],
+    [ "TransactionCallback", "de/db9/a05778.html#adeff62976c11d9d90169e4650640118b", null ],
+    [ "AfterComplete", "de/db9/a05778.html#af2ec892bbca8d2cc694b36fb931fc1e8", null ],
+    [ "InvokeIfReady", "de/db9/a05778.html#a7937d93dbd22617a2fd3893a6fe8c23c", null ],
+    [ "operator=", "de/db9/a05778.html#ab73d1741c21ea9fd86f65a647768e972", null ],
+    [ "m_callback", "de/db9/a05778.html#abb0dbcebb22ea716025ed6aca99f6afb", null ],
+    [ "m_future", "de/db9/a05778.html#a381e889074bc5ca48574d37fe6eea00f", null ]
 ];

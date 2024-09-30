@@ -1,9 +1,14 @@
 var a12814 =
 [
-    [ "HandleDummyTick", "d5/d06/a12814.html#aeeb63cb6e662c7e513b5953eb81b2cb1", null ],
-    [ "Load", "d5/d06/a12814.html#a4928bafbfbf01bdcc2cb970c50a83b32", null ],
-    [ "OnApply", "d5/d06/a12814.html#a88a767f3e15c6e70932c51f1aa8d61f2", null ],
-    [ "PrepareAuraScript", "d5/d06/a12814.html#a99473b1f1c13e5e7167a674d3e4e2a8d", null ],
-    [ "Register", "d5/d06/a12814.html#ac6ab0bc5a9b9f3b5643d59b103891b4b", null ],
-    [ "_forsakenSpell", "d5/d06/a12814.html#a02c0334f5154d908ab022d4acf41ef40", null ]
+    [ "boss_apothecary_hummelAI", "d5/d06/a12814.html#a75796eb8dc83729f2f726ff51317bd66", null ],
+    [ "DamageTaken", "d5/d06/a12814.html#a2af77fbe7f089b5da20d2ff693cfcedf", null ],
+    [ "DoAction", "d5/d06/a12814.html#a03fb543ba20f92d5528bf4667c457631", null ],
+    [ "JustDied", "d5/d06/a12814.html#a3c7bc5f9aa04f155debbdacafed6163d", null ],
+    [ "Reset", "d5/d06/a12814.html#a31381343d2533af670941baf872b3635", null ],
+    [ "sGossipSelect", "d5/d06/a12814.html#a1a9953c37286fd40c0aa0eebfec3eb86", null ],
+    [ "SummonedCreatureDies", "d5/d06/a12814.html#a8947cbd1c2856334a0d6529bc664f71b", null ],
+    [ "UpdateAI", "d5/d06/a12814.html#a61e4d85ecd592142ba07588512505990", null ],
+    [ "_deadCount", "d5/d06/a12814.html#aaac2018e16b80997f884745732605559", null ],
+    [ "_isDead", "d5/d06/a12814.html#aa3c37a38b95c6b3bec4e3b787d2155df", null ],
+    [ "_phase", "d5/d06/a12814.html#a951d68d4e645860cdb5c5e348bf1fff4", null ]
 ];

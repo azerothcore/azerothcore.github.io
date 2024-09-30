@@ -1,6 +1,7 @@
 var a22314 =
 [
-    [ "FilterTargets", "d5/d7f/a22314.html#a2728937c475a49b1e4af2fcdcfb5c9dd", null ],
-    [ "PrepareSpellScript", "d5/d7f/a22314.html#abb0985dcee9703dab742a5e452c894b2", null ],
-    [ "Register", "d5/d7f/a22314.html#af9b517343f0698efc63c0c47e9ef8cde", null ]
+    [ "npc_wg_siege_machineAI", "d5/d7f/a22314.html#aaeca9e73520701ce28f2cc9d1483cc6b", null ],
+    [ "CanControlVehicle", "d5/d7f/a22314.html#a7ce79406da48e245a0baa2fdd23622b9", null ],
+    [ "UpdateAI", "d5/d7f/a22314.html#a8ddd21047a857facc767a9edc0ec5408", null ],
+    [ "checkTimer", "d5/d7f/a22314.html#abf4b06eae50adeefedba02e2186ea48a", null ]
 ];

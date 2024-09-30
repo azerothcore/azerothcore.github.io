@@ -1,7 +1,7 @@
 var a18578 =
 [
-    [ "CheckRequirement", "d3/d36/a18578.html#a355fab9f6c76985ca439d159e25e44dd", null ],
-    [ "CheckRequirementInternal", "d3/d36/a18578.html#a07a3399c3a85520283a8b610b0f76f1e", null ],
-    [ "PrepareSpellScript", "d3/d36/a18578.html#ae5ba51f0eb3299371a725dd3ac18fd61", null ],
-    [ "Register", "d3/d36/a18578.html#aee0b3c6fc428d28dcea4efd44f4e8054", null ]
+    [ "HandleScript", "d3/d36/a18578.html#a87a2b32a9a20f032157df5ddb2cd9979", null ],
+    [ "PrepareSpellScript", "d3/d36/a18578.html#a9aca3a2a981a0cb61569200d77ca527a", null ],
+    [ "Register", "d3/d36/a18578.html#afb0289c9906d0383a22dfd0e848573f8", null ],
+    [ "Validate", "d3/d36/a18578.html#a69344370af56f033e1c1ba16f4dee174", null ]
 ];

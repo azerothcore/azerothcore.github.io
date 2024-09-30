@@ -1,9 +1,8 @@
 var a13826 =
 [
-    [ "go", "d3/d2f/a13826.html#ac14168f8c25efe7fa22ec802259b3a11", null ],
-    [ "npc", "d3/d2f/a13826.html#a04d6e67fa2fb208ca747798ccc53083d", null ],
-    [ "o", "d3/d2f/a13826.html#ad373b4889544b05525959b21e33e1a87", null ],
-    [ "x", "d3/d2f/a13826.html#a62ded7186ff0a2718d7f32084e6687e0", null ],
-    [ "y", "d3/d2f/a13826.html#ac4dbf51ebefdd80ef537ff0ec4297123", null ],
-    [ "z", "d3/d2f/a13826.html#aa4c6c3ef78633083bd33a13f7a7ace77", null ]
+    [ "FilterTargets", "d3/d2f/a13826.html#a28450a72f3d8510bdf35390f56a67f71", null ],
+    [ "HandleScriptEffect", "d3/d2f/a13826.html#af97c3c43da4b099bc37e2cf4f2733dce", null ],
+    [ "PrepareSpellScript", "d3/d2f/a13826.html#ac9298a59bc8b9735c210b630c68a536e", null ],
+    [ "Register", "d3/d2f/a13826.html#a3bfc71bb504a0eb0f63ff307c943c23e", null ],
+    [ "Validate", "d3/d2f/a13826.html#a41b2f12ebf919b781fdefab3a42bdb84", null ]
 ];

@@ -1,6 +1,6 @@
 var a22386 =
 [
-    [ "HandleScript", "d2/dba/a22386.html#a7836c79e2c52b4d0a67241dc7209f429", null ],
-    [ "PrepareSpellScript", "d2/dba/a22386.html#ab6294aa9a62d00f7cdf9698e55c59ebc", null ],
-    [ "Register", "d2/dba/a22386.html#aade9ef92025253ffcab69c4dbe8da4c5", null ]
+    [ "npc_overlord_drakuru_betrayalAI", "d0/d27/a22390.html", "d0/d27/a22390" ],
+    [ "npc_overlord_drakuru_betrayal", "d2/dba/a22386.html#af4092356ea86c25d91c73af1310c2eb0", null ],
+    [ "GetAI", "d2/dba/a22386.html#a3bd893f08212dc94a321beb7a95eea08", null ]
 ];

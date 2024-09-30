@@ -1,7 +1,14 @@
 var a11722 =
 [
-    [ "HandleDummy", "dc/d7d/a11722.html#a21c5eb1511cb4035f795ff1d22797e34", null ],
-    [ "PrepareSpellScript", "dc/d7d/a11722.html#a5308de47023b89e4ff8680158a502ac0", null ],
-    [ "Register", "dc/d7d/a11722.html#a5f148d259b1102b1046e6a3ac096fea8", null ],
-    [ "Validate", "dc/d7d/a11722.html#a75f89d90b9e68288e54e1e0bd3b2ce98", null ]
+    [ "boss_lord_valthalakAI", "dc/d7d/a11722.html#a7f10837eafefefb87b338410c5994362", null ],
+    [ "DamageTaken", "dc/d7d/a11722.html#a6fe691c8dd5c5b387eed08e3a010bec7", null ],
+    [ "IsSummonedBy", "dc/d7d/a11722.html#a852589ca84562ad1a9dcdd403fe5aa83", null ],
+    [ "JustDied", "dc/d7d/a11722.html#a4c9bd060e62f1c4d3819350bf549a39a", null ],
+    [ "JustEngagedWith", "dc/d7d/a11722.html#acee7b1758b670a688fe1afcdef3b9f8c", null ],
+    [ "Reset", "dc/d7d/a11722.html#abcc993a205602484fb46a67bc68dbbd9", null ],
+    [ "StartFighting", "dc/d7d/a11722.html#af06da24e8bedf922895c8c591c1def04", null ],
+    [ "StartTalking", "dc/d7d/a11722.html#ac1d7b3844f9019ea6485de7616caff95", null ],
+    [ "UpdateAI", "dc/d7d/a11722.html#a2b39a384ac7133aa013e21b0e873c4e2", null ],
+    [ "frenzy15", "dc/d7d/a11722.html#aabd65fc1a1bdbbc9c3a46c918bc7dff5", null ],
+    [ "frenzy40", "dc/d7d/a11722.html#a75aa55580bed475e88e9071fa5284267", null ]
 ];

@@ -1,6 +1,8 @@
 var a19146 =
 [
-    [ "spell_the_lich_king_teleport_to_frostmourne_hc_SpellScript", "da/d2c/a19150.html", "da/d2c/a19150" ],
-    [ "spell_the_lich_king_teleport_to_frostmourne_hc", "df/db6/a19146.html#a545cc9007139d0b4e153302763ef3253", null ],
-    [ "GetSpellScript", "df/db6/a19146.html#a9c352a23c9759f3a28f12d5db4035175", null ]
+    [ "FilterTargets", "df/db6/a19146.html#af6700817fd92dbe495e20d5c43b5d6b5", null ],
+    [ "Load", "df/db6/a19146.html#a639105c26214d9887b84a482ca93eb26", null ],
+    [ "PrepareSpellScript", "df/db6/a19146.html#a354ae20be436528b16095d4cd8d37859", null ],
+    [ "Register", "df/db6/a19146.html#a5fcc9cc654d6495f535600a6eef4c968", null ],
+    [ "DrakeGUID", "df/db6/a19146.html#ad4bbd7d559cdcc21ae5fafae75cd8eb3", null ]
 ];

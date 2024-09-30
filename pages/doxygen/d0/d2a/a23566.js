@@ -1,6 +1,6 @@
 var a23566 =
 [
-    [ "npc_plaguehound_trackerAI", "d0/d2a/a23566.html#a7530f500b42ad9bb38593193d3113da8", null ],
-    [ "Reset", "d0/d2a/a23566.html#a05c351ab3aca0cd18209405075bb0f47", null ],
-    [ "WaypointReached", "d0/d2a/a23566.html#a67c345f49572cde76d9109a1baff6788", null ]
+    [ "instance_magtheridons_lair_InstanceMapScript", "d9/d69/a23570.html", "d9/d69/a23570" ],
+    [ "instance_magtheridons_lair", "d0/d2a/a23566.html#a9bc61758478dc18ba413264eec2e3ca3", null ],
+    [ "GetInstanceScript", "d0/d2a/a23566.html#a6c9cc959cf4f294e6173d244f54bcd02", null ]
 ];

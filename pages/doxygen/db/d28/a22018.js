@@ -1,5 +1,6 @@
 var a22018 =
 [
-    [ "achievement_thorim_stand_in_the_lightning", "db/d28/a22018.html#a9339e89e4eb76151fdeacb6bcd53d7bc", null ],
-    [ "OnCheck", "db/d28/a22018.html#ade1aec4de4c503be5a62da3e6c35e90f", null ]
+    [ "npc_boneguard_footmanAI", "db/d28/a22018.html#a04eff1976824724b321f0c0d95e0940a", null ],
+    [ "UpdateAI", "db/d28/a22018.html#a9cba65867824daeb50cb2b39d68ad84b", null ],
+    [ "checkTimer", "db/d28/a22018.html#a46dd1fa8d111dca0584a8e6fb7a6a566", null ]
 ];

@@ -1,5 +1,5 @@
 var a19494 =
 [
-    [ "achievement_portal_jockey", "d5/d5a/a19494.html#a6c6c4779072386ab7b64bad92762e2ac", null ],
-    [ "OnCheck", "d5/d5a/a19494.html#a2695b1fee353be7340f319c632a43efc", null ]
+    [ "boss_sjonnir_dwarfAI", "d5/d5a/a19494.html#aee7608282bef500a7eb3e0d3130fa01c", null ],
+    [ "UpdateAI", "d5/d5a/a19494.html#afef50cec19e4cb2018c7c8a9e36ef41c", null ]
 ];

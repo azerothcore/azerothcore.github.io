@@ -1,6 +1,6 @@
 var a12490 =
 [
-    [ "HandleScriptEffect", "d7/db0/a12490.html#a7cf04c61085396f886ff7b9c80ed7c7f", null ],
-    [ "PrepareSpellScript", "d7/db0/a12490.html#a9bf6f10616ef03a70639d2d0d4503c2e", null ],
-    [ "Register", "d7/db0/a12490.html#aa8c07d4d88480b16993ca87d746978e1", null ]
+    [ "boss_warlord_salaris", "d7/db0/a12490.html#afe9ace28dcd302e9b9a9ebe806e2ada5", null ],
+    [ "JustEngagedWith", "d7/db0/a12490.html#a77b3b531466810ee17f9fd6eadf5872a", null ],
+    [ "UpdateAI", "d7/db0/a12490.html#a265aab47f95d952125c98773b53a67bf", null ]
 ];

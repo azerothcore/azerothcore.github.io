@@ -1,6 +1,7 @@
 var a17922 =
 [
-    [ "spell_deathbringer_blood_link_AuraScript", "d2/d79/a17926.html", "d2/d79/a17926" ],
-    [ "spell_deathbringer_blood_link_aura", "d5/d1f/a17922.html#ad1d80299ef39a896b4fa5937f69952ab", null ],
-    [ "GetAuraScript", "d5/d1f/a17922.html#a0224c55dd7b310be3f503897a40bd29a", null ]
+    [ "OnRemove", "d5/d1f/a17922.html#aa096174465120bde1994c85f72682be1", null ],
+    [ "PrepareAuraScript", "d5/d1f/a17922.html#a49ba4ed8ac0ee006c74a71e6779c1a3b", null ],
+    [ "Register", "d5/d1f/a17922.html#a6e9c95b06f3ec9dc0739beaabc016d5f", null ],
+    [ "Validate", "d5/d1f/a17922.html#a1b7ef2c14db8543a9128aa335548fa00", null ]
 ];

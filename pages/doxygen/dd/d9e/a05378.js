@@ -1,10 +1,9 @@
 var a05378 =
 [
-    [ "BasicStatementTask", "dd/d9e/a05378.html#a11c6f1259d1d6d9c50211784636e45c4", null ],
-    [ "~BasicStatementTask", "dd/d9e/a05378.html#a0db608b5bae77e5f83b0e1bf5850719f", null ],
-    [ "Execute", "dd/d9e/a05378.html#a7f500736cc0ec4cddf94510927989d4d", null ],
-    [ "GetFuture", "dd/d9e/a05378.html#aa574f8cc00ac956d23f93c7e96864fc9", null ],
-    [ "m_has_result", "dd/d9e/a05378.html#a8bfae5e5695a6bf6bf796d95efa21e7e", null ],
-    [ "m_result", "dd/d9e/a05378.html#af70bc95cbf0df481dacf034ff78d2eb8", null ],
-    [ "m_sql", "dd/d9e/a05378.html#a9320235413d1c4736301070e1faeb161", null ]
+    [ "IteratorPair", "dd/d9e/a05378.html#ad2e586dfd291c34c82ec71d66e59f36c", null ],
+    [ "IteratorPair", "dd/d9e/a05378.html#a446d4e8dd1146b053987d48d0dcef59d", null ],
+    [ "IteratorPair", "dd/d9e/a05378.html#ae8b79501762f0c0ba6e2d769c56e9f8f", null ],
+    [ "begin", "dd/d9e/a05378.html#a59ff07f1663a3f98f2e10a895ab37ae4", null ],
+    [ "end", "dd/d9e/a05378.html#aa515ca48852213fb51a4d83e9d5c91d2", null ],
+    [ "_iterators", "dd/d9e/a05378.html#a9b08728bc90076dd1db392982840c31e", null ]
 ];

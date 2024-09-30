@@ -1,9 +1,14 @@
 var a02249 =
 [
-    [ "Creature", "d7/d9e/a07744.html", "d7/d9e/a07744" ],
-    [ "AssistDelayEvent", "d7/d60/a07752.html", "d7/d60/a07752" ],
-    [ "ForcedDespawnDelayEvent", "dc/d65/a07756.html", "dc/d65/a07756" ],
-    [ "TemporaryThreatModifierEvent", "de/dbd/a07760.html", "de/dbd/a07760" ],
-    [ "CREATURE_Z_ATTACK_RANGE", "dd/dc3/a02249.html#a91a03a879f1b4df44968ae2f9f22fb0d", null ],
-    [ "MAX_VENDOR_ITEMS", "dd/dc3/a02249.html#a44c3a813b92331e325ba5aae11ed72a3", null ]
+    [ "TempSummonData", "d9/d64/a07874.html", "d9/d64/a07874" ],
+    [ "TempSummon", "d3/d8d/a07878.html", "d3/d8d/a07878" ],
+    [ "Minion", "de/dc5/a07882.html", "de/dc5/a07882" ],
+    [ "Guardian", "d4/da1/a07886.html", "d4/da1/a07886" ],
+    [ "Puppet", "da/de7/a07890.html", "da/de7/a07890" ],
+    [ "ForcedUnsummonDelayEvent", "d1/d53/a07894.html", "d1/d53/a07894" ],
+    [ "SummonerType", "dd/dc3/a02249.html#ac8a8d6d0515f6d559068f8aaae56e188", [
+      [ "SUMMONER_TYPE_CREATURE", "dd/dc3/a02249.html#ac8a8d6d0515f6d559068f8aaae56e188a13183f62876c427760b46d785c8dba3a", null ],
+      [ "SUMMONER_TYPE_GAMEOBJECT", "dd/dc3/a02249.html#ac8a8d6d0515f6d559068f8aaae56e188aadd184039208a2f49a392958ca9a2347", null ],
+      [ "SUMMONER_TYPE_MAP", "dd/dc3/a02249.html#ac8a8d6d0515f6d559068f8aaae56e188a0550300777cb9771bd92e040ccef0270", null ]
+    ] ]
 ];

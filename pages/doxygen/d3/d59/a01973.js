@@ -1,6 +1,6 @@
 var a01973 =
 [
-    [ "LogHeader", "d2/d86/a10648.html", "d2/d86/a10648" ],
-    [ "PacketHeader", "df/daa/a10652.html", "df/daa/a10652" ],
-    [ "PacketHeader::OptionalData", "d9/de1/a10656.html", "d9/de1/a10656" ]
+    [ "AuthSession", "da/d41/a05550.html", "da/d41/a05550" ],
+    [ "AccountInfo", "d1/d22/a05546.html", "d1/d22/a05546" ],
+    [ "compressBuff", "d3/d59/a01973.html#a3ec87fe2f43cce4ee6bfb90744e72a0d", null ]
 ];

@@ -1,6 +1,8 @@
 var a25682 =
 [
-    [ "spell_alar_ember_blast_SpellScript", "d7/d13/a25686.html", "d7/d13/a25686" ],
-    [ "spell_alar_ember_blast", "d8/ded/a25682.html#aa53ca4cbab4f04a6eb7a8bcbe29e3a63", null ],
-    [ "GetSpellScript", "d8/ded/a25682.html#a550c0cd97a5c04f3f1b948767fe9768b", null ]
+    [ "CheckProc", "d8/ded/a25682.html#a8b3f8cf17dda2322d0e9f8f4211cbd20", null ],
+    [ "HandleProc", "d8/ded/a25682.html#ae034bd626880858c9701ed963de993c9", null ],
+    [ "isException", "d8/ded/a25682.html#aa5f4fcd1b9b710e2931460207cfc6dea", null ],
+    [ "PrepareAuraScript", "d8/ded/a25682.html#a50348fd27947f67df03bf4ddbec89cca", null ],
+    [ "Register", "d8/ded/a25682.html#aaa14b34ac54b4caee76ff72d07dd5c2d", null ]
 ];

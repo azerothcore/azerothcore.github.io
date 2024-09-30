@@ -1,5 +1,6 @@
 var a15666 =
 [
-    [ "go_crystalline_tear", "d6/d94/a15666.html#a9e19c6538ecd1a758f2639171321d965", null ],
-    [ "OnQuestAccept", "d6/d94/a15666.html#a4efd6b2b8ca37462ba3a26d05f01ec2d", null ]
+    [ "ModDestHeight", "d6/d94/a15666.html#a8bda9327c4244af41c513528ad5c818c", null ],
+    [ "PrepareSpellScript", "d6/d94/a15666.html#aba5a03c94fa5d87c46a91369875c0ab2", null ],
+    [ "Register", "d6/d94/a15666.html#a62b0ce71caeff96705b15aa240ddd09f", null ]
 ];

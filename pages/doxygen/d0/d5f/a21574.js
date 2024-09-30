@@ -1,6 +1,6 @@
 var a21574 =
 [
-    [ "spell_hodir_toasty_fire_AuraScript", "d9/dee/a21578.html", "d9/dee/a21578" ],
-    [ "spell_hodir_toasty_fire", "d0/d5f/a21574.html#a56cff8f3b2eb0aca665b7d0ad344ba4d", null ],
-    [ "GetAuraScript", "d0/d5f/a21574.html#af7f8da6825fad5702b05dff4483ed5b7", null ]
+    [ "npc_thassarian2AI", "d9/dee/a21578.html", "d9/dee/a21578" ],
+    [ "npc_thassarian2", "d0/d5f/a21574.html#a8a2f1e1595349e4fa9968e85f17d0468", null ],
+    [ "GetAI", "d0/d5f/a21574.html#adb87c99f3375f88eca55b39e1cd0bbd5", null ]
 ];

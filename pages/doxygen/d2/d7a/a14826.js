@@ -1,6 +1,7 @@
 var a14826 =
 [
-    [ "boss_captain_skarlocAI", "db/d05/a14830.html", "db/d05/a14830" ],
-    [ "boss_captain_skarloc", "d2/d7a/a14826.html#a909292600f9cde107b195e3a54176d1e", null ],
-    [ "GetAI", "d2/d7a/a14826.html#a79ecc3a81b8f3693880f1e85b6c0231b", null ]
+    [ "FilterTargets", "d2/d7a/a14826.html#a59e477333a54ec828a429d15b35d4936", null ],
+    [ "HandleScript", "d2/d7a/a14826.html#a983fe53aa52e53a45685055fde04a3b7", null ],
+    [ "PrepareSpellScript", "d2/d7a/a14826.html#a873e7766aa1cb6ebabbc77c31db6701c", null ],
+    [ "Register", "d2/d7a/a14826.html#a45ac61990990f16c98eaa7136297afc5", null ]
 ];

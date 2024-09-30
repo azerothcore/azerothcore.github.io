@@ -1,10 +1,10 @@
 var a07598 =
 [
-    [ "BoxMessage", "d9/da8/a07598.html#a450f6063a89db2d152370bc997c844a3", null ],
-    [ "BoxMoney", "d9/da8/a07598.html#a52a12645b55f5757cc61e9a014a71f32", null ],
-    [ "IsCoded", "d9/da8/a07598.html#accca334730f578bd28c0e9a7fe7ec0ab", null ],
-    [ "MenuItemIcon", "d9/da8/a07598.html#a987724c4673be20f5386f44245267bc9", null ],
-    [ "Message", "d9/da8/a07598.html#af130b33294cd49261b3c093cf6f9542c", null ],
-    [ "OptionType", "d9/da8/a07598.html#a3df0c5fedb028b4fcce8ad5884cc0e6f", null ],
-    [ "Sender", "d9/da8/a07598.html#aacc07cb5c755d698fe4cb2e228185e34", null ]
+    [ "RedirectThreatInfo", "d9/da8/a07598.html#a23b5adf3087ddba3b92133199aa42cf8", null ],
+    [ "GetTargetGUID", "d9/da8/a07598.html#ae206110e4d7155bb87079ebd58800e3d", null ],
+    [ "GetThreatPct", "d9/da8/a07598.html#a58bd2c745f92625ff7eac0ddca6a23a0", null ],
+    [ "ModifyThreatPct", "d9/da8/a07598.html#ac7093218d9b8c6ea03683dd5624bde8f", null ],
+    [ "Set", "d9/da8/a07598.html#a140b7a0adb6e6b71b21e8d6db7125ae2", null ],
+    [ "_targetGUID", "d9/da8/a07598.html#a98f9efc5209ef7200e71ff39310520dd", null ],
+    [ "_threatPct", "d9/da8/a07598.html#a95d6d366d664888f532d40afd1cc57d2", null ]
 ];

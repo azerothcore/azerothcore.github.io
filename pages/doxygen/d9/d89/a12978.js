@@ -1,6 +1,7 @@
 var a12978 =
 [
-    [ "npc_demonic_vaporAI", "d0/d4e/a12982.html", "d0/d4e/a12982" ],
-    [ "npc_demonic_vapor", "d9/d89/a12978.html#a2cfec998b5d2a23670c4f5143c330652", null ],
-    [ "GetAI", "d9/d89/a12978.html#a53635886eaed04eab0b8c7c0b6d6e67e", null ]
+    [ "HandleApplyTouch", "d9/d89/a12978.html#a2d7866cda1e12ac2e3f843405d618d40", null ],
+    [ "PrepareSpellScript", "d9/d89/a12978.html#ae3fb5dbf490ef78d6990e4cd92bf3aa3", null ],
+    [ "Register", "d9/d89/a12978.html#a019ea17d4f02a69f331f9adc973a65a5", null ],
+    [ "Validate", "d9/d89/a12978.html#ae2a45916c1d5aefbe076e93c25ab23b6", null ]
 ];

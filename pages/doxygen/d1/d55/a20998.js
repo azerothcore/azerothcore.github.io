@@ -1,6 +1,12 @@
 var a20998 =
 [
-    [ "npc_auriaya_sanctum_sentryAI", "da/d6d/a21002.html", "da/d6d/a21002" ],
-    [ "npc_auriaya_sanctum_sentry", "d1/d55/a20998.html#aa275374ba3a19a2e6a8768d4f01752b2", null ],
-    [ "GetAI", "d1/d55/a20998.html#a6a8843d3f24378a2fd334e773618ab72", null ]
+    [ "boss_skarvald_the_constructorAI", "d1/d55/a20998.html#a90b669521db89c8c71fe72d17b620694", null ],
+    [ "DoAction", "d1/d55/a20998.html#ac12c072b23e89e0282e45373e4c03cd9", null ],
+    [ "JustDied", "d1/d55/a20998.html#aa10a8a1bd53804f2c0be6dd68b2b1f68", null ],
+    [ "JustEngagedWith", "d1/d55/a20998.html#a02ee99b1b5c3a6a053532dbb59b541a2", null ],
+    [ "KilledUnit", "d1/d55/a20998.html#a897415c1e9d4759d9c8b6d9346516f46", null ],
+    [ "Reset", "d1/d55/a20998.html#a55c1c9b1a3370741d97355569f11e9d4", null ],
+    [ "UpdateAI", "d1/d55/a20998.html#a5ee0df3039c5fc069c90ef06e6ae9604", null ],
+    [ "events", "d1/d55/a20998.html#aac3e019ac655ffcb0aea7f9ae9592795", null ],
+    [ "pInstance", "d1/d55/a20998.html#a7418a8541a8264a260495f8b19ef8699", null ]
 ];

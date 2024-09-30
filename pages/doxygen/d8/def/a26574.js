@@ -1,9 +1,9 @@
 var a26574 =
 [
-    [ "CheckCast", "d8/def/a26574.html#ad68a099d3167534be3d9978d1fc2b4fe", null ],
-    [ "EntryCheck", "d8/def/a26574.html#a8e8578447aafeea4a62e028dbe6c7419", null ],
-    [ "HandleBaseDummy", "d8/def/a26574.html#a8534cc52f42f0598088bf8500dd5e0e5", null ],
-    [ "HandleDummy", "d8/def/a26574.html#a34d9f5699f306b27830ced2129be506c", null ],
-    [ "PrepareSpellScript", "d8/def/a26574.html#af7aff878540dd34138aa479f532611b6", null ],
-    [ "Register", "d8/def/a26574.html#a78321d1589e8d7f7fe8957a4939b6197", null ]
+    [ "Absorb", "d8/def/a26574.html#adf0783559d4ca95bc09a5ef217291bc9", null ],
+    [ "CalculateAmount", "d8/def/a26574.html#a820c27c2161063307a10903cbbc5c0fa", null ],
+    [ "Load", "d8/def/a26574.html#a7b71990051faaa083110408c13b8401f", null ],
+    [ "PrepareAuraScript", "d8/def/a26574.html#ad7a3e297fcd38fc9d020a3c3db32ace2", null ],
+    [ "Register", "d8/def/a26574.html#aa443ab0eed74229883884fbced0426d7", null ],
+    [ "absorbPct", "d8/def/a26574.html#a55c4409f74c86853d0bf5b157f6c194c", null ]
 ];

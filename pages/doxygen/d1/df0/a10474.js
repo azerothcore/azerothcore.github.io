@@ -1,15 +1,7 @@
 var a10474 =
 [
-    [ "BaseSocketMgr", "d1/df0/a10474.html#a6f9671b94ae64c0c3482e085cb2a252f", null ],
-    [ "WorldSocketMgr", "d1/df0/a10474.html#a8e46ddcf7ba33a66c7226150400cc08b", null ],
-    [ "CreateThreads", "d1/df0/a10474.html#a04e98fcb25c09ff85e9536cf43fd4e6e", null ],
-    [ "GetApplicationSendBufferSize", "d1/df0/a10474.html#a8deeaffd7d25bacd8bfa15d29dff6aeb", null ],
-    [ "Instance", "d1/df0/a10474.html#aaa32a527707cb66916b1499a2e283250", null ],
-    [ "OnSocketAccept", "d1/df0/a10474.html#aec088639145bbea3fcb69714ac5b5b67", null ],
-    [ "OnSocketOpen", "d1/df0/a10474.html#a308aacca5450fca4a4b35009ddd6142f", null ],
-    [ "StartWorldNetwork", "d1/df0/a10474.html#acaf85b16b490bfda8532b49456a38b71", null ],
-    [ "StopNetwork", "d1/df0/a10474.html#aede126ecfe75f2917aaf730330ea3b82", null ],
-    [ "_socketApplicationSendBufferSize", "d1/df0/a10474.html#a7a5ca8c2c9165d3cb1f46adbdfe917b0", null ],
-    [ "_socketSystemSendBufferSize", "d1/df0/a10474.html#a043da77b04a29c4c5fe81698ae279985", null ],
-    [ "_tcpNoDelay", "d1/df0/a10474.html#a6f440c4cde2deaa72cbc5dbd348a00b6", null ]
+    [ "PlayMusic", "d1/df0/a10474.html#afee4b7ae9ac5f4f2b7365d3d00e7b581", null ],
+    [ "PlayMusic", "d1/df0/a10474.html#ad3d833f70de5937365c2351aa5206bbf", null ],
+    [ "Write", "d1/df0/a10474.html#ad01a67d76fe9dff269eac9108a27c75a", null ],
+    [ "SoundKitID", "d1/df0/a10474.html#ad2342dd0c1461283c595af29c3bc9fe6", null ]
 ];

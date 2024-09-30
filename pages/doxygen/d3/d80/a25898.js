@@ -1,6 +1,7 @@
 var a25898 =
 [
-    [ "npc_deaths_fel_cannonAI", "dc/deb/a25902.html", "dc/deb/a25902" ],
-    [ "npc_deaths_fel_cannon", "d3/d80/a25898.html#a87ecaca75061928600b5114d3913dd26", null ],
-    [ "GetAI", "d3/d80/a25898.html#a4cf91cd1f28637f359e06bccd30e0338", null ]
+    [ "CalcPeriodic", "d3/d80/a25898.html#a404e5309016cfcaa3071c0216978699e", null ],
+    [ "PrepareAuraScript", "d3/d80/a25898.html#a9675e5c417e5e9a5a358a3ffb371073e", null ],
+    [ "Register", "d3/d80/a25898.html#a60ffc059d00fd58abe7e758f06bbf35c", null ],
+    [ "AuraEffectHandleModes", "d3/d80/a25898.html#aa66ee788b7e09815b827a0f4ac954e1f", null ]
 ];

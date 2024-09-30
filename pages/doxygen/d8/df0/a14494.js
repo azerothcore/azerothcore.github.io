@@ -1,10 +1,8 @@
 var a14494 =
 [
-    [ "boss_azuregosAI", "d8/df0/a14494.html#a839ab1e096d30062d64c1c515a7462a4", null ],
-    [ "JustDied", "d8/df0/a14494.html#aea4d204173b7882d2d9acf8204410947", null ],
-    [ "JustEngagedWith", "d8/df0/a14494.html#ac17c09d4de27e3b3a299bb8288ef79f8", null ],
-    [ "KilledUnit", "d8/df0/a14494.html#aeefc791e17d2a687f8beae809c44d123", null ],
-    [ "Reset", "d8/df0/a14494.html#a3f9584a7cf4e27f57eec2c5babb7aff1", null ],
-    [ "UpdateAI", "d8/df0/a14494.html#aafdfce2d21d5890ead413a2d9fe1b65d", null ],
-    [ "_scheduler", "d8/df0/a14494.html#a9c0bff243b53e91739fdac8dfee45536", null ]
+    [ "hyjalThrallAI", "d8/df0/a14494.html#a5bc01b52edeaac62e3a9c3e48f90feb2", null ],
+    [ "JustDied", "d8/df0/a14494.html#aa13cb18c91802ad402e5fd97ec78572a", null ],
+    [ "JustEngagedWith", "d8/df0/a14494.html#a96706138634275ae7639c14f53cdd842", null ],
+    [ "Reset", "d8/df0/a14494.html#a6a341bfcc9d697dde64584a5a0231d73", null ],
+    [ "UpdateAI", "d8/df0/a14494.html#a57046716d7c45a5fa4e203d73c4a7b87", null ]
 ];

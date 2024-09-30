@@ -1,7 +1,7 @@
 var a26826 =
 [
-    [ "CheckRequirement", "dd/de5/a26826.html#a6be5f335a15226db87a04548490f488d", null ],
-    [ "PrepareSpellScript", "dd/de5/a26826.html#a25463eda0ce51a124e8715baf305c8f6", null ],
-    [ "Register", "dd/de5/a26826.html#a8db5a5597d8f6fe4064799766fb61502", null ],
-    [ "_level", "dd/de5/a26826.html#a3d6867e8eae9afde2b03acc2e6ebe961", null ]
+    [ "FilterTargets", "dd/de5/a26826.html#aeebe9395cefab1b87196a7ef466aa2c8", null ],
+    [ "PrepareSpellScript", "dd/de5/a26826.html#a954f00317eab544dd57e657368aab7fb", null ],
+    [ "Register", "dd/de5/a26826.html#a1804684c8685372faf2e88e56b48f5be", null ],
+    [ "Validate", "dd/de5/a26826.html#ab08386023ed3b3c8e51178da8973ef1a", null ]
 ];

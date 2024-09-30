@@ -1,15 +1,18 @@
 var a05570 =
 [
-    [ "TransactionBase", "d0/d5e/a05570.html#a663d13ba0b22e0711d135073ff80ee47", null ],
-    [ "~TransactionBase", "d0/d5e/a05570.html#a6ce7e6ef81bb466463bace35cdd49476", null ],
-    [ "Append", "d0/d5e/a05570.html#a867b7a92080104278aef5fb4975a4a52", null ],
-    [ "Append", "d0/d5e/a05570.html#aa0a81814abe26d456018c3bc9153cd4d", null ],
-    [ "AppendPreparedStatement", "d0/d5e/a05570.html#a8e099a4f8775b5e5e3b95ad0273a716f", null ],
-    [ "Cleanup", "d0/d5e/a05570.html#a35e0ce11de325a1b286d90a2936d4aa3", null ],
-    [ "GetSize", "d0/d5e/a05570.html#a261ad9d7423562ccbe2cac6d75c203bd", null ],
-    [ "DatabaseWorkerPool", "d0/d5e/a05570.html#a5d89109a06fa4fca3057b99bbfa84e58", null ],
-    [ "MySQLConnection", "d0/d5e/a05570.html#a06fa417f69e0a67da8f249333b1d189d", null ],
-    [ "TransactionTask", "d0/d5e/a05570.html#a377add6d6b5e34e774d2497d58f4a180", null ],
-    [ "_cleanedUp", "d0/d5e/a05570.html#aa82af96128bfcee997423a54396d40d4", null ],
-    [ "m_queries", "d0/d5e/a05570.html#a156f1a8316358c05285778e5734eade1", null ]
+    [ "RASession", "d0/d5e/a05570.html#aa2f68476e9ba2719693ec5c4839bb7fc", null ],
+    [ "CheckAccessLevel", "d0/d5e/a05570.html#a72963e43e085c28b7d4bb50dfa45433a", null ],
+    [ "CheckPassword", "d0/d5e/a05570.html#abf15291f3135a382d314feb8a5d72e9e", null ],
+    [ "CommandFinished", "d0/d5e/a05570.html#a547d5f26b74209003a8a3c7f8aa4af5d", null ],
+    [ "CommandPrint", "d0/d5e/a05570.html#adda3b14e26103155c0a154e4673e8627", null ],
+    [ "GetRemoteIpAddress", "d0/d5e/a05570.html#aff8957db5a0cceec4fddeb7950bba557", null ],
+    [ "GetRemotePort", "d0/d5e/a05570.html#a8320914f7d0fc769e2e3861b8df75f5a", null ],
+    [ "ProcessCommand", "d0/d5e/a05570.html#ad4f4c2ccb371867a882351b3f8f8a9ef", null ],
+    [ "ReadString", "d0/d5e/a05570.html#a55f31c8b5181bf5d95b353b875267783", null ],
+    [ "Send", "d0/d5e/a05570.html#a0f87da6517747387b3899b608328a8c5", null ],
+    [ "Start", "d0/d5e/a05570.html#af2cc6a74f520824fa739688e8d15d60c", null ],
+    [ "_commandExecuting", "d0/d5e/a05570.html#a817e53b23c54f2f6bbf7058eab0824b4", null ],
+    [ "_readBuffer", "d0/d5e/a05570.html#a899e34097702112e05e942a33ebcb1d2", null ],
+    [ "_socket", "d0/d5e/a05570.html#ac18177d4dfeb0c03d0b1d2015f5dd7e6", null ],
+    [ "_writeBuffer", "d0/d5e/a05570.html#a82ccb9ab8abf1403fd5d2384beac99b7", null ]
 ];

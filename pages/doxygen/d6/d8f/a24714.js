@@ -1,9 +1,6 @@
 var a24714 =
 [
-    [ "boss_najentusAI", "d6/d8f/a24714.html#a1c6a39e7402c2e25b0ed358c830583da", null ],
-    [ "JustDied", "d6/d8f/a24714.html#acd56bd2853e29982766947cc589ffba6", null ],
-    [ "JustEngagedWith", "d6/d8f/a24714.html#a572aae43f81fbcd8a00d12624fb5221d", null ],
-    [ "KilledUnit", "d6/d8f/a24714.html#a56c96e15a13bb7f58851256bc61a416a", null ],
-    [ "Reset", "d6/d8f/a24714.html#a294aa1d058cf227ab975f2636ea5a110", null ],
-    [ "UpdateAI", "d6/d8f/a24714.html#a6f61e35be90d3a9eab992b66f88b96be", null ]
+    [ "CheckCast", "d6/d8f/a24714.html#a8ab8394c56201264ac4f2d859dd52092", null ],
+    [ "PrepareSpellScript", "d6/d8f/a24714.html#acc6d27c8d869ec80ee5794405f6c238a", null ],
+    [ "Register", "d6/d8f/a24714.html#a191085bc21ce6f5ce1d5b43d6d70f069", null ]
 ];

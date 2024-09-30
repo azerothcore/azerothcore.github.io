@@ -1,5 +1,5 @@
 var a03194 =
 [
-    [ "message_commandscript", "d8/d1b/a11368.html", "d8/d1b/a11368" ],
-    [ "AddSC_message_commandscript", "d9/dc1/a03194.html#a85760eb92ac87e8dcb18c91d31f09fc0", null ]
+    [ "player_settings_commandscript", "d8/dc8/a11414.html", "d8/dc8/a11414" ],
+    [ "AddSC_player_settings_commandscript", "d9/dc1/a03194.html#a366685affd5565d164c65f8cd4a20b61", null ]
 ];

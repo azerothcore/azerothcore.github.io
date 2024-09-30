@@ -1,7 +1,8 @@
 var a13070 =
 [
-    [ "CheckCast", "d1/d06/a13070.html#ae3172987341c8dcb29fb1f63f0dc4b34", null ],
-    [ "HandleScriptEffect", "d1/d06/a13070.html#a3476eb885cc3344cd0757cdcd024dd38", null ],
-    [ "PrepareSpellScript", "d1/d06/a13070.html#a453522c1ce36ebeb9c2c6859f0bab96c", null ],
-    [ "Register", "d1/d06/a13070.html#a242e9966946ed8352c0410cdbe857e32", null ]
+    [ "FilterTargets", "d1/d06/a13070.html#a3aac5e364d04a4a086aaa911051417d5", null ],
+    [ "HandleDummy", "d1/d06/a13070.html#aa0705dee3edeca7b61f82581f367e94a", null ],
+    [ "PrepareSpellScript", "d1/d06/a13070.html#a1efa036eac25d789850849dc1b209379", null ],
+    [ "Register", "d1/d06/a13070.html#a656b512d5bef657004a72acbf7875760", null ],
+    [ "Validate", "d1/d06/a13070.html#a33534d9fd70af99bbde1e4a908d22084", null ]
 ];

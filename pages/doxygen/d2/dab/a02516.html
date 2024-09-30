@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/database/Database/MySQLPreparedStatement.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/database/Database/SQLOperation.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,101 +106,56 @@ $(document).ready(function(){initNavTree('d2/dab/a02516.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">MySQLPreparedStatement.cpp File Reference</div></div>
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">SQLOperation.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">MySQLPreparedStatement.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MySQLHacks.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">PreparedStatement.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">DatabaseEnvFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<code>#include &lt;variant&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d20/a05652.html">MySQLType&lt; T &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df9/a05758.html">SQLElementData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/a05656.html">MySQLType&lt; uint8 &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de8/a05660.html">MySQLType&lt; uint16 &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d56/a05664.html">MySQLType&lt; uint32 &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df1/a05668.html">MySQLType&lt; uint64 &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/da9/a05672.html">MySQLType&lt; int8 &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d0e/a05676.html">MySQLType&lt; int16 &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcd/a05680.html">MySQLType&lt; int32 &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d54/a05684.html">MySQLType&lt; int64 &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/daf/a05688.html">MySQLType&lt; float &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/a05692.html">MySQLType&lt; double &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/a05762.html">SQLOperation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a4c2b053ff0b94326f3c01cc7c6e61e8a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dab/a02516.html#a4c2b053ff0b94326f3c01cc7c6e61e8a">ParamenterIndexAssertFail</a> (<a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> stmtIndex, <a class="el" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> index, <a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> paramCount)</td></tr>
-<tr class="separator:a4c2b053ff0b94326f3c01cc7c6e61e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:abb4a6cfcce013f18b29779f1f435e627"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dab/a02516.html#abb4a6cfcce013f18b29779f1f435e627">SQLElementDataType</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/dab/a02516.html#abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a">SQL_ELEMENT_RAW</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d2/dab/a02516.html#abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d">SQL_ELEMENT_PREPARED</a>
+<br />
+ }</td></tr>
+<tr class="separator:abb4a6cfcce013f18b29779f1f435e627"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a4c2b053ff0b94326f3c01cc7c6e61e8a" name="a4c2b053ff0b94326f3c01cc7c6e61e8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c2b053ff0b94326f3c01cc7c6e61e8a">&#9670;&#160;</a></span>ParamenterIndexAssertFail()</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="abb4a6cfcce013f18b29779f1f435e627" name="abb4a6cfcce013f18b29779f1f435e627"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb4a6cfcce013f18b29779f1f435e627">&#9670;&#160;</a></span>SQLElementDataType</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool ParamenterIndexAssertFail </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>stmtIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>index</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>paramCount</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">enum <a class="el" href="../../d2/dab/a02516.html#abb4a6cfcce013f18b29779f1f435e627">SQLElementDataType</a></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  102</span>{</div>
-<div class="line"><span class="lineno">  103</span>    <a class="code hl_define" href="../../df/d03/a00062.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.driver&quot;</span>, <span class="stringliteral">&quot;Attempted to bind parameter {}{} on a PreparedStatement {} (statement has only {} parameters)&quot;</span>,</div>
-<div class="line"><span class="lineno">  104</span>        <a class="code hl_typedef" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(index) + 1, (index == 1 ? <span class="stringliteral">&quot;st&quot;</span> : (index == 2 ? <span class="stringliteral">&quot;nd&quot;</span> : (index == 3 ? <span class="stringliteral">&quot;rd&quot;</span> : <span class="stringliteral">&quot;nd&quot;</span>))), stmtIndex, paramCount);</div>
-<div class="line"><span class="lineno">  105</span> </div>
-<div class="line"><span class="lineno">  106</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  107</span>}</div>
-<div class="ttc" id="aa00062_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../df/d03/a00062.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:156</div></div>
-<div class="ttc" id="aa00488_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a" name="abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a"></a>SQL_ELEMENT_RAW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d" name="abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d"></a>SQL_ELEMENT_PREPARED&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d2/dab/a02516.html#abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a">SQL_ELEMENT_RAW</a>,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d2/dab/a02516.html#abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d">SQL_ELEMENT_PREPARED</a></div>
+<div class="line"><span class="lineno">   30</span>};</div>
+<div class="ttc" id="aa02516_html_abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a"><div class="ttname"><a href="../../d2/dab/a02516.html#abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a">SQL_ELEMENT_RAW</a></div><div class="ttdeci">@ SQL_ELEMENT_RAW</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:28</div></div>
+<div class="ttc" id="aa02516_html_abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d"><div class="ttname"><a href="../../d2/dab/a02516.html#abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d">SQL_ELEMENT_PREPARED</a></div><div class="ttdeci">@ SQL_ELEMENT_PREPARED</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:29</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00156">LOG_ERROR</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00110">MySQLPreparedStatement::AssertValidIndex()</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -208,8 +163,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_3906e801b468713a6f5b1f193c7ea10d.html">database</a></li><li class="navelem"><a class="el" href="../../dir_4135abd5956581eb408665f16b5c495d.html">Database</a></li><li class="navelem"><a class="el" href="../../d2/dab/a02516.html">MySQLPreparedStatement.cpp</a></li>
-    <li class="footer">Generated on Mon Sep 23 2024 20:40:30 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_3906e801b468713a6f5b1f193c7ea10d.html">database</a></li><li class="navelem"><a class="el" href="../../dir_4135abd5956581eb408665f16b5c495d.html">Database</a></li><li class="navelem"><a class="el" href="../../d2/dab/a02516.html">SQLOperation.h</a></li>
+    <li class="footer">Generated on Mon Sep 30 2024 20:40:26 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

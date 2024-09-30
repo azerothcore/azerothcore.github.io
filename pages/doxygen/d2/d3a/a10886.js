@@ -1,9 +1,7 @@
 var a10886 =
 [
-    [ "ClientKeySeed", "d2/d3a/a10886.html#a3e2df88e6fd716030d70a77850e96970", null ],
-    [ "ClientKeySeedHash", "d2/d3a/a10886.html#ae2523827d6f9abae5eed0b463c00062f", null ],
-    [ "Module", "d2/d3a/a10886.html#a1fcce28666a614c83d06729bc9c88bb4", null ],
-    [ "ModuleKey", "d2/d3a/a10886.html#ac34f4c4997f5f64a9dcf4ad7d914a215", null ],
-    [ "Seed", "d2/d3a/a10886.html#a3c8e1b5c642f12e29837800f0428f34e", null ],
-    [ "ServerKeySeed", "d2/d3a/a10886.html#ad29fe1f9ba6ef32f1d35657683b0e11b", null ]
+    [ "attributeMask", "d2/d3a/a10886.html#a6bbb4046cd4c068c990aa28844e4588b", null ],
+    [ "customChance", "d2/d3a/a10886.html#ac5d048f7ee803d61d5d3c59bb80a015d", null ],
+    [ "PPMChance", "d2/d3a/a10886.html#adb76c11f0073a2738374c98c01fda009", null ],
+    [ "procEx", "d2/d3a/a10886.html#a28bcdd11e64ad96be5a3ca0e0dd447c7", null ]
 ];

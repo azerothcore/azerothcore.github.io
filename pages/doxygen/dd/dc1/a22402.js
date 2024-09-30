@@ -1,6 +1,6 @@
 var a22402 =
 [
-    [ "achievement_yogg_saron_darkness", "dd/dc1/a22402.html#a536c7156305d47c41a062d3c1a1b16eb", null ],
-    [ "OnCheck", "dd/dc1/a22402.html#a809902fca87abaeb4334132763624ed6", null ],
-    [ "_keepersCount", "dd/dc1/a22402.html#a765ec4606bb489760ed1e15db10de1dc", null ]
+    [ "npc_captured_rageclawAI", "d6/d1e/a22406.html", "d6/d1e/a22406" ],
+    [ "npc_captured_rageclaw", "dd/dc1/a22402.html#ad49176279e9d16a6a24c0649c576c0be", null ],
+    [ "GetAI", "dd/dc1/a22402.html#aa39b6c518fe22d91b8673cfd576866a4", null ]
 ];

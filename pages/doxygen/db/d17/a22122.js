@@ -1,5 +1,5 @@
 var a22122 =
 [
-    [ "achievement_xt002_nerf_gravity_bombs", "db/d17/a22122.html#a9c6471da08acb7a0543d7cc07784dd85", null ],
-    [ "OnCheck", "db/d17/a22122.html#a03f61470694399ab32aea354cd697771", null ]
+    [ "go_pressure_valve", "db/d17/a22122.html#a43a91a1379001ecd3e825d7d4fcd3c6b", null ],
+    [ "OnGossipHello", "db/d17/a22122.html#a6b81a04a33cd5e1e577fc80a3b1f706c", null ]
 ];

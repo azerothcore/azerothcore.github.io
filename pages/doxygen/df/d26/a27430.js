@@ -1,8 +1,8 @@
 var a27430 =
 [
-    [ "OnApply", "df/d26/a27430.html#a75b45732648d5ba90b49725a48609a89", null ],
-    [ "OnBaseRemove", "df/d26/a27430.html#aa6d10399bba721ff7a3651508fcdf449", null ],
-    [ "OnRemove", "df/d26/a27430.html#a0331b3860691db793c5a7bcf53550c6f", null ],
-    [ "PrepareAuraScript", "df/d26/a27430.html#a34ad4890c7ce30427537e36980057e57", null ],
-    [ "Register", "df/d26/a27430.html#a713e694cad6f1cf533d45f5d633da36e", null ]
+    [ "npc_elder_clearwaterAI", "df/d15/a27434.html", "df/d15/a27434" ],
+    [ "npc_elder_clearwater", "df/d26/a27430.html#abeee1650938a71762bb0c148ea9834d1", null ],
+    [ "GetAI", "df/d26/a27430.html#a4ae2f507f61ee7cfc0c3b6d7dbfb7f04", null ],
+    [ "OnGossipHello", "df/d26/a27430.html#aae382c0a386b8bacd39c6e7a586519e4", null ],
+    [ "OnQuestReward", "df/d26/a27430.html#a2d316a2d2c892cecc134cea46b5bf2a8", null ]
 ];

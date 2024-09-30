@@ -1,8 +1,6 @@
 var a26394 =
 [
-    [ "npc_pet_gen_valkyr_guardian", "d2/dce/a26394.html#a546f0b0b4273de8216e9f688c2d68209", null ],
-    [ "InitializeAI", "d2/dce/a26394.html#ac32c8bb1e1014015a0ab92417bbc78a9", null ],
-    [ "OwnerAttacked", "d2/dce/a26394.html#a7f0bcedd78d88cdc802ba66c0ff7d927", null ],
-    [ "UpdateAI", "d2/dce/a26394.html#a9a5a233763365c6cca5618459a23a816", null ],
-    [ "targetCheck", "d2/dce/a26394.html#aa530b6b6415c85cd76f44d625329c2fb", null ]
+    [ "HandleEffectPeriodic", "d2/dce/a26394.html#ab283b40ceb6dcd0a835550531321ce92", null ],
+    [ "PrepareAuraScript", "d2/dce/a26394.html#a6d6efe0be7cefeb20c386c83dee561d4", null ],
+    [ "Register", "d2/dce/a26394.html#a4c69f350a68c1f4dd429ab52a791f3cd", null ]
 ];

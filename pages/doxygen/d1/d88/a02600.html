@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/HallsOfStone/halls_of_stone.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/HallsOfStone/instance_halls_of_stone.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,288 +105,51 @@ $(document).ready(function(){initNavTree('d1/d88/a02600.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">halls_of_stone.h File Reference</div></div>
+  <div class="headertitle"><div class="title">instance_halls_of_stone.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureAIImpl.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">halls_of_stone.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a042491ef36459046f3866e90f15aae0d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d88/a02600.html#a042491ef36459046f3866e90f15aae0d">DataHeader</a>&#160;&#160;&#160;&quot;HOS&quot;</td></tr>
-<tr class="separator:a042491ef36459046f3866e90f15aae0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fc40bc4c1a59259e2da1d545d7841df"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d88/a02600.html#a9fc40bc4c1a59259e2da1d545d7841df">HallsOfStoneScriptName</a>&#160;&#160;&#160;&quot;instance_halls_of_stone&quot;</td></tr>
-<tr class="separator:a9fc40bc4c1a59259e2da1d545d7841df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a64573ec9b8743a1169d84540f2ab9463"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463">Encounter</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463a7ba125997c106b951e55bf342c21bcd1">BOSS_KRYSTALLUS</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c">BOSS_MAIDEN_OF_GRIEF</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463ac7f6f9cbdbb2cd35ff344110e2aa662b">BOSS_TRIBUNAL_OF_AGES</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463af5f7dc4694276a77539caaf56919d5a7">BOSS_SJONNIR</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463aa20c9c8a39f4fd5ef266aa91c761f64c">BRANN_BRONZEBEARD</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463a7a0d142861e9dbe33e4d822c48020b7d">BRANN_DOOR</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463aa0bf8140afe40c0988666448e72ea45e">DATA_BRANN_ACHIEVEMENT</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463a46d75eb0814ac6bb50b5053af850d417">DATA_SJONNIR_ACHIEVEMENT</a>
-<br />
- }</td></tr>
-<tr class="separator:a64573ec9b8743a1169d84540f2ab9463"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90ca774f1a8c2c9c0ebb79f5980868b9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9">gobjects</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a72eaa669813855239b4b45d21f67d3f2">GO_TRIBUNAL_CONSOLE</a> = 193907
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a817f5cd077aa5003e59272fd5d781cc8">GO_TRIBUNAL_ACCESS_DOOR</a> = 191295
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4f92627b7c119df92500d601bdcf7555">GO_KADDRAK</a> = 191671
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9aca39bd4893330b2875c9ff0f47fbd0d5">GO_MARNAK</a> = 191670
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4d423f09b7f646a5e91fd3a4319e624d">GO_ABEDNEUM</a> = 191669
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad0205c64138779f72fe7ed8f794b537f">GO_SKY_FLOOR</a> = 191527
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad28a35a1d7687973b8d83632daa7c7c7">GO_SJONNIR_CONSOLE</a> = 193906
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a9f8ac76bebd7ea6680fdfba71cddbc84">GO_SJONNIR_DOOR</a> = 191296
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a60b4179cd50b218dbcd02d6b689037c6">GO_TRIBUNAL_CHEST</a> = 190586
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad8136ac890918a610fc1771425afdf55">GO_TRIBUNAL_CHEST_H</a> = 193996
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a5f811c762f307a0e37df5ce632c92370">GO_LEFT_PIPE</a> = 192163
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a642e6ade65a788c0c44aa9ff6c002c7c">GO_RIGHT_PIPE</a> = 192164
-<br />
- }</td></tr>
-<tr class="separator:a90ca774f1a8c2c9c0ebb79f5980868b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7569620d66559dad194b4764f6faf235"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d88/a02600.html#a7569620d66559dad194b4764f6faf235">npcs</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a7569620d66559dad194b4764f6faf235a0fd4c992b4e05db440cc0ea73c4ffaad">NPC_KADDRAK</a> = 30898
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a7569620d66559dad194b4764f6faf235abda16cd2dd9306be81ee1207b9989f0d">NPC_MARNAK</a> = 30897
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a7569620d66559dad194b4764f6faf235af1cdba2690be5588a967c9bd8f46815d">NPC_ABEDNEUM</a> = 30899
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a7569620d66559dad194b4764f6faf235ad018155cd74db3419f72fbf599cc6242">NPC_SJONNIR</a> = 27978
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d88/a02600.html#a7569620d66559dad194b4764f6faf235a557fa0e4f73adcfd231bf8165ef38c5c">NPC_BRANN</a> = 28070
-<br />
- }</td></tr>
-<tr class="separator:a7569620d66559dad194b4764f6faf235"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db0/a19558.html">instance_halls_of_stone</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db9/a19562.html">instance_halls_of_stone::instance_halls_of_stone_InstanceMapScript</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a856193f50a99a86279e43578f2b5ec0a"><td class="memTemplParams" colspan="2">template&lt;class AI , class T &gt; </td></tr>
-<tr class="memitem:a856193f50a99a86279e43578f2b5ec0a"><td class="memTemplItemLeft" align="right" valign="top">AI *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/d88/a02600.html#a856193f50a99a86279e43578f2b5ec0a">GetHallsOfStoneAI</a> (T *obj)</td></tr>
-<tr class="separator:a856193f50a99a86279e43578f2b5ec0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81d8c56de5920b1e73d7955e1c7399ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d88/a02600.html#a81d8c56de5920b1e73d7955e1c7399ed">AddSC_instance_halls_of_stone</a> ()</td></tr>
+<tr class="separator:a81d8c56de5920b1e73d7955e1c7399ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a042491ef36459046f3866e90f15aae0d" name="a042491ef36459046f3866e90f15aae0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a042491ef36459046f3866e90f15aae0d">&#9670;&#160;</a></span>DataHeader</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DataHeader&#160;&#160;&#160;&quot;HOS&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9fc40bc4c1a59259e2da1d545d7841df" name="a9fc40bc4c1a59259e2da1d545d7841df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fc40bc4c1a59259e2da1d545d7841df">&#9670;&#160;</a></span>HallsOfStoneScriptName</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HallsOfStoneScriptName&#160;&#160;&#160;&quot;instance_halls_of_stone&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a64573ec9b8743a1169d84540f2ab9463" name="a64573ec9b8743a1169d84540f2ab9463"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64573ec9b8743a1169d84540f2ab9463">&#9670;&#160;</a></span>Encounter</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463">Encounter</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463a7ba125997c106b951e55bf342c21bcd1" name="a64573ec9b8743a1169d84540f2ab9463a7ba125997c106b951e55bf342c21bcd1"></a>BOSS_KRYSTALLUS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c" name="a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c"></a>BOSS_MAIDEN_OF_GRIEF&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463ac7f6f9cbdbb2cd35ff344110e2aa662b" name="a64573ec9b8743a1169d84540f2ab9463ac7f6f9cbdbb2cd35ff344110e2aa662b"></a>BOSS_TRIBUNAL_OF_AGES&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463af5f7dc4694276a77539caaf56919d5a7" name="a64573ec9b8743a1169d84540f2ab9463af5f7dc4694276a77539caaf56919d5a7"></a>BOSS_SJONNIR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463aa20c9c8a39f4fd5ef266aa91c761f64c" name="a64573ec9b8743a1169d84540f2ab9463aa20c9c8a39f4fd5ef266aa91c761f64c"></a>BRANN_BRONZEBEARD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463a7a0d142861e9dbe33e4d822c48020b7d" name="a64573ec9b8743a1169d84540f2ab9463a7a0d142861e9dbe33e4d822c48020b7d"></a>BRANN_DOOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463a7913656ef56deb3793c0c5f3d999d80d" name="a64573ec9b8743a1169d84540f2ab9463a7913656ef56deb3793c0c5f3d999d80d"></a>MAX_ENCOUNTER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463aa0bf8140afe40c0988666448e72ea45e" name="a64573ec9b8743a1169d84540f2ab9463aa0bf8140afe40c0988666448e72ea45e"></a>DATA_BRANN_ACHIEVEMENT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463a46d75eb0814ac6bb50b5053af850d417" name="a64573ec9b8743a1169d84540f2ab9463a46d75eb0814ac6bb50b5053af850d417"></a>DATA_SJONNIR_ACHIEVEMENT&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463a7ba125997c106b951e55bf342c21bcd1">BOSS_KRYSTALLUS</a>             = 0,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c">BOSS_MAIDEN_OF_GRIEF</a>        = 1,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463ac7f6f9cbdbb2cd35ff344110e2aa662b">BOSS_TRIBUNAL_OF_AGES</a>       = 2,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463af5f7dc4694276a77539caaf56919d5a7">BOSS_SJONNIR</a>                = 3,</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463aa20c9c8a39f4fd5ef266aa91c761f64c">BRANN_BRONZEBEARD</a>           = 4,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463a7a0d142861e9dbe33e4d822c48020b7d">BRANN_DOOR</a>                  = 5,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a>               = 6,</div>
-<div class="line"><span class="lineno">   36</span> </div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463aa0bf8140afe40c0988666448e72ea45e">DATA_BRANN_ACHIEVEMENT</a>,</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463a46d75eb0814ac6bb50b5053af850d417">DATA_SJONNIR_ACHIEVEMENT</a>,</div>
-<div class="line"><span class="lineno">   39</span>};</div>
-<div class="ttc" id="aa02600_html_a64573ec9b8743a1169d84540f2ab9463a46d75eb0814ac6bb50b5053af850d417"><div class="ttname"><a href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463a46d75eb0814ac6bb50b5053af850d417">DATA_SJONNIR_ACHIEVEMENT</a></div><div class="ttdeci">@ DATA_SJONNIR_ACHIEVEMENT</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:38</div></div>
-<div class="ttc" id="aa02600_html_a64573ec9b8743a1169d84540f2ab9463a7913656ef56deb3793c0c5f3d999d80d"><div class="ttname"><a href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a></div><div class="ttdeci">@ MAX_ENCOUNTER</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:35</div></div>
-<div class="ttc" id="aa02600_html_a64573ec9b8743a1169d84540f2ab9463a7a0d142861e9dbe33e4d822c48020b7d"><div class="ttname"><a href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463a7a0d142861e9dbe33e4d822c48020b7d">BRANN_DOOR</a></div><div class="ttdeci">@ BRANN_DOOR</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:34</div></div>
-<div class="ttc" id="aa02600_html_a64573ec9b8743a1169d84540f2ab9463a7ba125997c106b951e55bf342c21bcd1"><div class="ttname"><a href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463a7ba125997c106b951e55bf342c21bcd1">BOSS_KRYSTALLUS</a></div><div class="ttdeci">@ BOSS_KRYSTALLUS</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:29</div></div>
-<div class="ttc" id="aa02600_html_a64573ec9b8743a1169d84540f2ab9463aa0bf8140afe40c0988666448e72ea45e"><div class="ttname"><a href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463aa0bf8140afe40c0988666448e72ea45e">DATA_BRANN_ACHIEVEMENT</a></div><div class="ttdeci">@ DATA_BRANN_ACHIEVEMENT</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:37</div></div>
-<div class="ttc" id="aa02600_html_a64573ec9b8743a1169d84540f2ab9463aa20c9c8a39f4fd5ef266aa91c761f64c"><div class="ttname"><a href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463aa20c9c8a39f4fd5ef266aa91c761f64c">BRANN_BRONZEBEARD</a></div><div class="ttdeci">@ BRANN_BRONZEBEARD</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:33</div></div>
-<div class="ttc" id="aa02600_html_a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c"><div class="ttname"><a href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c">BOSS_MAIDEN_OF_GRIEF</a></div><div class="ttdeci">@ BOSS_MAIDEN_OF_GRIEF</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:30</div></div>
-<div class="ttc" id="aa02600_html_a64573ec9b8743a1169d84540f2ab9463ac7f6f9cbdbb2cd35ff344110e2aa662b"><div class="ttname"><a href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463ac7f6f9cbdbb2cd35ff344110e2aa662b">BOSS_TRIBUNAL_OF_AGES</a></div><div class="ttdeci">@ BOSS_TRIBUNAL_OF_AGES</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:31</div></div>
-<div class="ttc" id="aa02600_html_a64573ec9b8743a1169d84540f2ab9463af5f7dc4694276a77539caaf56919d5a7"><div class="ttname"><a href="../../d1/d88/a02600.html#a64573ec9b8743a1169d84540f2ab9463af5f7dc4694276a77539caaf56919d5a7">BOSS_SJONNIR</a></div><div class="ttdeci">@ BOSS_SJONNIR</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:32</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a90ca774f1a8c2c9c0ebb79f5980868b9" name="a90ca774f1a8c2c9c0ebb79f5980868b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90ca774f1a8c2c9c0ebb79f5980868b9">&#9670;&#160;</a></span>gobjects</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9">gobjects</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9a72eaa669813855239b4b45d21f67d3f2" name="a90ca774f1a8c2c9c0ebb79f5980868b9a72eaa669813855239b4b45d21f67d3f2"></a>GO_TRIBUNAL_CONSOLE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9a817f5cd077aa5003e59272fd5d781cc8" name="a90ca774f1a8c2c9c0ebb79f5980868b9a817f5cd077aa5003e59272fd5d781cc8"></a>GO_TRIBUNAL_ACCESS_DOOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9a4f92627b7c119df92500d601bdcf7555" name="a90ca774f1a8c2c9c0ebb79f5980868b9a4f92627b7c119df92500d601bdcf7555"></a>GO_KADDRAK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9aca39bd4893330b2875c9ff0f47fbd0d5" name="a90ca774f1a8c2c9c0ebb79f5980868b9aca39bd4893330b2875c9ff0f47fbd0d5"></a>GO_MARNAK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9a4d423f09b7f646a5e91fd3a4319e624d" name="a90ca774f1a8c2c9c0ebb79f5980868b9a4d423f09b7f646a5e91fd3a4319e624d"></a>GO_ABEDNEUM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9ad0205c64138779f72fe7ed8f794b537f" name="a90ca774f1a8c2c9c0ebb79f5980868b9ad0205c64138779f72fe7ed8f794b537f"></a>GO_SKY_FLOOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9ad28a35a1d7687973b8d83632daa7c7c7" name="a90ca774f1a8c2c9c0ebb79f5980868b9ad28a35a1d7687973b8d83632daa7c7c7"></a>GO_SJONNIR_CONSOLE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9a9f8ac76bebd7ea6680fdfba71cddbc84" name="a90ca774f1a8c2c9c0ebb79f5980868b9a9f8ac76bebd7ea6680fdfba71cddbc84"></a>GO_SJONNIR_DOOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9a60b4179cd50b218dbcd02d6b689037c6" name="a90ca774f1a8c2c9c0ebb79f5980868b9a60b4179cd50b218dbcd02d6b689037c6"></a>GO_TRIBUNAL_CHEST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9ad8136ac890918a610fc1771425afdf55" name="a90ca774f1a8c2c9c0ebb79f5980868b9ad8136ac890918a610fc1771425afdf55"></a>GO_TRIBUNAL_CHEST_H&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9a5f811c762f307a0e37df5ce632c92370" name="a90ca774f1a8c2c9c0ebb79f5980868b9a5f811c762f307a0e37df5ce632c92370"></a>GO_LEFT_PIPE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9a642e6ade65a788c0c44aa9ff6c002c7c" name="a90ca774f1a8c2c9c0ebb79f5980868b9a642e6ade65a788c0c44aa9ff6c002c7c"></a>GO_RIGHT_PIPE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   42</span>{</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a72eaa669813855239b4b45d21f67d3f2">GO_TRIBUNAL_CONSOLE</a>         = 193907,</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a817f5cd077aa5003e59272fd5d781cc8">GO_TRIBUNAL_ACCESS_DOOR</a>     = 191295,</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4f92627b7c119df92500d601bdcf7555">GO_KADDRAK</a>                  = 191671,</div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9aca39bd4893330b2875c9ff0f47fbd0d5">GO_MARNAK</a>                   = 191670,</div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4d423f09b7f646a5e91fd3a4319e624d">GO_ABEDNEUM</a>                 = 191669,</div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad0205c64138779f72fe7ed8f794b537f">GO_SKY_FLOOR</a>                = 191527,</div>
-<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad28a35a1d7687973b8d83632daa7c7c7">GO_SJONNIR_CONSOLE</a>          = 193906,</div>
-<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a9f8ac76bebd7ea6680fdfba71cddbc84">GO_SJONNIR_DOOR</a>             = 191296,</div>
-<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a60b4179cd50b218dbcd02d6b689037c6">GO_TRIBUNAL_CHEST</a>           = 190586,</div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad8136ac890918a610fc1771425afdf55">GO_TRIBUNAL_CHEST_H</a>         = 193996,</div>
-<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a5f811c762f307a0e37df5ce632c92370">GO_LEFT_PIPE</a>                = 192163,</div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a642e6ade65a788c0c44aa9ff6c002c7c">GO_RIGHT_PIPE</a>               = 192164,</div>
-<div class="line"><span class="lineno">   55</span>};</div>
-<div class="ttc" id="aa02600_html_a90ca774f1a8c2c9c0ebb79f5980868b9a4d423f09b7f646a5e91fd3a4319e624d"><div class="ttname"><a href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4d423f09b7f646a5e91fd3a4319e624d">GO_ABEDNEUM</a></div><div class="ttdeci">@ GO_ABEDNEUM</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:47</div></div>
-<div class="ttc" id="aa02600_html_a90ca774f1a8c2c9c0ebb79f5980868b9a4f92627b7c119df92500d601bdcf7555"><div class="ttname"><a href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4f92627b7c119df92500d601bdcf7555">GO_KADDRAK</a></div><div class="ttdeci">@ GO_KADDRAK</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:45</div></div>
-<div class="ttc" id="aa02600_html_a90ca774f1a8c2c9c0ebb79f5980868b9a5f811c762f307a0e37df5ce632c92370"><div class="ttname"><a href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a5f811c762f307a0e37df5ce632c92370">GO_LEFT_PIPE</a></div><div class="ttdeci">@ GO_LEFT_PIPE</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:53</div></div>
-<div class="ttc" id="aa02600_html_a90ca774f1a8c2c9c0ebb79f5980868b9a60b4179cd50b218dbcd02d6b689037c6"><div class="ttname"><a href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a60b4179cd50b218dbcd02d6b689037c6">GO_TRIBUNAL_CHEST</a></div><div class="ttdeci">@ GO_TRIBUNAL_CHEST</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:51</div></div>
-<div class="ttc" id="aa02600_html_a90ca774f1a8c2c9c0ebb79f5980868b9a642e6ade65a788c0c44aa9ff6c002c7c"><div class="ttname"><a href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a642e6ade65a788c0c44aa9ff6c002c7c">GO_RIGHT_PIPE</a></div><div class="ttdeci">@ GO_RIGHT_PIPE</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:54</div></div>
-<div class="ttc" id="aa02600_html_a90ca774f1a8c2c9c0ebb79f5980868b9a72eaa669813855239b4b45d21f67d3f2"><div class="ttname"><a href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a72eaa669813855239b4b45d21f67d3f2">GO_TRIBUNAL_CONSOLE</a></div><div class="ttdeci">@ GO_TRIBUNAL_CONSOLE</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:43</div></div>
-<div class="ttc" id="aa02600_html_a90ca774f1a8c2c9c0ebb79f5980868b9a817f5cd077aa5003e59272fd5d781cc8"><div class="ttname"><a href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a817f5cd077aa5003e59272fd5d781cc8">GO_TRIBUNAL_ACCESS_DOOR</a></div><div class="ttdeci">@ GO_TRIBUNAL_ACCESS_DOOR</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:44</div></div>
-<div class="ttc" id="aa02600_html_a90ca774f1a8c2c9c0ebb79f5980868b9a9f8ac76bebd7ea6680fdfba71cddbc84"><div class="ttname"><a href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9a9f8ac76bebd7ea6680fdfba71cddbc84">GO_SJONNIR_DOOR</a></div><div class="ttdeci">@ GO_SJONNIR_DOOR</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:50</div></div>
-<div class="ttc" id="aa02600_html_a90ca774f1a8c2c9c0ebb79f5980868b9aca39bd4893330b2875c9ff0f47fbd0d5"><div class="ttname"><a href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9aca39bd4893330b2875c9ff0f47fbd0d5">GO_MARNAK</a></div><div class="ttdeci">@ GO_MARNAK</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:46</div></div>
-<div class="ttc" id="aa02600_html_a90ca774f1a8c2c9c0ebb79f5980868b9ad0205c64138779f72fe7ed8f794b537f"><div class="ttname"><a href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad0205c64138779f72fe7ed8f794b537f">GO_SKY_FLOOR</a></div><div class="ttdeci">@ GO_SKY_FLOOR</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:48</div></div>
-<div class="ttc" id="aa02600_html_a90ca774f1a8c2c9c0ebb79f5980868b9ad28a35a1d7687973b8d83632daa7c7c7"><div class="ttname"><a href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad28a35a1d7687973b8d83632daa7c7c7">GO_SJONNIR_CONSOLE</a></div><div class="ttdeci">@ GO_SJONNIR_CONSOLE</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:49</div></div>
-<div class="ttc" id="aa02600_html_a90ca774f1a8c2c9c0ebb79f5980868b9ad8136ac890918a610fc1771425afdf55"><div class="ttname"><a href="../../d1/d88/a02600.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad8136ac890918a610fc1771425afdf55">GO_TRIBUNAL_CHEST_H</a></div><div class="ttdeci">@ GO_TRIBUNAL_CHEST_H</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:52</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a7569620d66559dad194b4764f6faf235" name="a7569620d66559dad194b4764f6faf235"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7569620d66559dad194b4764f6faf235">&#9670;&#160;</a></span>npcs</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d1/d88/a02600.html#a7569620d66559dad194b4764f6faf235">npcs</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7569620d66559dad194b4764f6faf235a0fd4c992b4e05db440cc0ea73c4ffaad" name="a7569620d66559dad194b4764f6faf235a0fd4c992b4e05db440cc0ea73c4ffaad"></a>NPC_KADDRAK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7569620d66559dad194b4764f6faf235abda16cd2dd9306be81ee1207b9989f0d" name="a7569620d66559dad194b4764f6faf235abda16cd2dd9306be81ee1207b9989f0d"></a>NPC_MARNAK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7569620d66559dad194b4764f6faf235af1cdba2690be5588a967c9bd8f46815d" name="a7569620d66559dad194b4764f6faf235af1cdba2690be5588a967c9bd8f46815d"></a>NPC_ABEDNEUM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7569620d66559dad194b4764f6faf235ad018155cd74db3419f72fbf599cc6242" name="a7569620d66559dad194b4764f6faf235ad018155cd74db3419f72fbf599cc6242"></a>NPC_SJONNIR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7569620d66559dad194b4764f6faf235a557fa0e4f73adcfd231bf8165ef38c5c" name="a7569620d66559dad194b4764f6faf235a557fa0e4f73adcfd231bf8165ef38c5c"></a>NPC_BRANN&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   58</span>{</div>
-<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a7569620d66559dad194b4764f6faf235a0fd4c992b4e05db440cc0ea73c4ffaad">NPC_KADDRAK</a>                 = 30898,</div>
-<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a7569620d66559dad194b4764f6faf235abda16cd2dd9306be81ee1207b9989f0d">NPC_MARNAK</a>                  = 30897,</div>
-<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a7569620d66559dad194b4764f6faf235af1cdba2690be5588a967c9bd8f46815d">NPC_ABEDNEUM</a>                = 30899,</div>
-<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a7569620d66559dad194b4764f6faf235ad018155cd74db3419f72fbf599cc6242">NPC_SJONNIR</a>                 = 27978,</div>
-<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../d1/d88/a02600.html#a7569620d66559dad194b4764f6faf235a557fa0e4f73adcfd231bf8165ef38c5c">NPC_BRANN</a>                   = 28070,</div>
-<div class="line"><span class="lineno">   64</span>};</div>
-<div class="ttc" id="aa02600_html_a7569620d66559dad194b4764f6faf235a0fd4c992b4e05db440cc0ea73c4ffaad"><div class="ttname"><a href="../../d1/d88/a02600.html#a7569620d66559dad194b4764f6faf235a0fd4c992b4e05db440cc0ea73c4ffaad">NPC_KADDRAK</a></div><div class="ttdeci">@ NPC_KADDRAK</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:59</div></div>
-<div class="ttc" id="aa02600_html_a7569620d66559dad194b4764f6faf235a557fa0e4f73adcfd231bf8165ef38c5c"><div class="ttname"><a href="../../d1/d88/a02600.html#a7569620d66559dad194b4764f6faf235a557fa0e4f73adcfd231bf8165ef38c5c">NPC_BRANN</a></div><div class="ttdeci">@ NPC_BRANN</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:63</div></div>
-<div class="ttc" id="aa02600_html_a7569620d66559dad194b4764f6faf235abda16cd2dd9306be81ee1207b9989f0d"><div class="ttname"><a href="../../d1/d88/a02600.html#a7569620d66559dad194b4764f6faf235abda16cd2dd9306be81ee1207b9989f0d">NPC_MARNAK</a></div><div class="ttdeci">@ NPC_MARNAK</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:60</div></div>
-<div class="ttc" id="aa02600_html_a7569620d66559dad194b4764f6faf235ad018155cd74db3419f72fbf599cc6242"><div class="ttname"><a href="../../d1/d88/a02600.html#a7569620d66559dad194b4764f6faf235ad018155cd74db3419f72fbf599cc6242">NPC_SJONNIR</a></div><div class="ttdeci">@ NPC_SJONNIR</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:62</div></div>
-<div class="ttc" id="aa02600_html_a7569620d66559dad194b4764f6faf235af1cdba2690be5588a967c9bd8f46815d"><div class="ttname"><a href="../../d1/d88/a02600.html#a7569620d66559dad194b4764f6faf235af1cdba2690be5588a967c9bd8f46815d">NPC_ABEDNEUM</a></div><div class="ttdeci">@ NPC_ABEDNEUM</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:61</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a856193f50a99a86279e43578f2b5ec0a" name="a856193f50a99a86279e43578f2b5ec0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a856193f50a99a86279e43578f2b5ec0a">&#9670;&#160;</a></span>GetHallsOfStoneAI()</h2>
+<a id="a81d8c56de5920b1e73d7955e1c7399ed" name="a81d8c56de5920b1e73d7955e1c7399ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81d8c56de5920b1e73d7955e1c7399ed">&#9670;&#160;</a></span>AddSC_instance_halls_of_stone()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class AI , class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">AI * GetHallsOfStoneAI </td>
+          <td class="memname">void AddSC_instance_halls_of_stone </td>
           <td>(</td>
-          <td class="paramtype">T *&#160;</td>
-          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   68</span>{</div>
-<div class="line"><span class="lineno">   69</span>    <span class="keywordflow">return</span> GetInstanceAI&lt;AI&gt;(obj, <a class="code hl_define" href="../../d1/d88/a02600.html#a9fc40bc4c1a59259e2da1d545d7841df">HallsOfStoneScriptName</a>);</div>
-<div class="line"><span class="lineno">   70</span>}</div>
-<div class="ttc" id="aa02600_html_a9fc40bc4c1a59259e2da1d545d7841df"><div class="ttname"><a href="../../d1/d88/a02600.html#a9fc40bc4c1a59259e2da1d545d7841df">HallsOfStoneScriptName</a></div><div class="ttdeci">#define HallsOfStoneScriptName</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:25</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  268</span>{</div>
+<div class="line"><span class="lineno">  269</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/db0/a19558.html">instance_halls_of_stone</a>();</div>
+<div class="line"><span class="lineno">  270</span>}</div>
+<div class="ttc" id="aa19558_html"><div class="ttname"><a href="../../df/db0/a19558.html">instance_halls_of_stone</a></div><div class="ttdef"><b>Definition:</b> instance_halls_of_stone.cpp:24</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00025">HallsOfStoneScriptName</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00183">AddNorthrendScripts()</a>.</p>
 
 </div>
 </div>
@@ -395,8 +158,8 @@ template&lt;class AI , class T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_fd35eb90f0e73b64930f951fffa7a603.html">Ulduar</a></li><li class="navelem"><a class="el" href="../../dir_ba629fe3cce3d6c1ca366c03f65ff143.html">HallsOfStone</a></li><li class="navelem"><a class="el" href="../../d1/d88/a02600.html">halls_of_stone.h</a></li>
-    <li class="footer">Generated on Mon Sep 23 2024 20:41:10 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_fd35eb90f0e73b64930f951fffa7a603.html">Ulduar</a></li><li class="navelem"><a class="el" href="../../dir_ba629fe3cce3d6c1ca366c03f65ff143.html">HallsOfStone</a></li><li class="navelem"><a class="el" href="../../d1/d88/a02600.html">instance_halls_of_stone.cpp</a></li>
+    <li class="footer">Generated on Mon Sep 30 2024 20:41:05 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

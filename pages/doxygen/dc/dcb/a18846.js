@@ -1,6 +1,6 @@
 var a18846 =
 [
-    [ "spell_sindragosa_mystic_buffet_SpellScript", "d0/dbe/a18850.html", "d0/dbe/a18850" ],
-    [ "spell_sindragosa_mystic_buffet", "dc/dcb/a18846.html#a9f1eaac0a4ca59ed7150867b831059a5", null ],
-    [ "GetSpellScript", "dc/dcb/a18846.html#aaaf4722275f30b78464d7be03e2062aa", null ]
+    [ "boss_gluthAI", "d0/dbe/a18850.html", "d0/dbe/a18850" ],
+    [ "boss_gluth", "dc/dcb/a18846.html#a3ff6e361cd6799f41d00fa75784c4f76", null ],
+    [ "GetAI", "dc/dcb/a18846.html#a3b19c938aaecc897d6552715064be7f8", null ]
 ];

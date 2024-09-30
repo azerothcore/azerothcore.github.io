@@ -1,9 +1,9 @@
 var a25582 =
 [
-    [ "boss_harbinger_skyriss", "d6/da3/a25582.html#a245179f74d61c2671b397e8f2473b599", null ],
-    [ "JustDied", "d6/da3/a25582.html#a2b5152ddeb53d382294bd0fe7455a21e", null ],
-    [ "JustEngagedWith", "d6/da3/a25582.html#adb4cdec41f4b61f82efdb78fe995c313", null ],
-    [ "JustSummoned", "d6/da3/a25582.html#a97d84139a3e970e22d7d422f2f825f12", null ],
-    [ "KilledUnit", "d6/da3/a25582.html#a8f9e1bd87c80041e07b428ec300ceef8", null ],
-    [ "Reset", "d6/da3/a25582.html#a045ec2371ad99c3465b8f089eb604e0a", null ]
+    [ "spell_item_trigger_spell", "d6/da3/a25582.html#a619e9a5233e36157cbdaba70a3ba80da", null ],
+    [ "HandleDummy", "d6/da3/a25582.html#a49613255eea28e34cf5ff8a06798f89a", null ],
+    [ "PrepareSpellScript", "d6/da3/a25582.html#a78903f92c30fb23ff7297f7fa16c4861", null ],
+    [ "Register", "d6/da3/a25582.html#ab9abd9f01ce37c23d6502e6d86e3f998", null ],
+    [ "Validate", "d6/da3/a25582.html#a2f2df93e8f9d0e51273560665ea5c245", null ],
+    [ "_triggeredSpellId", "d6/da3/a25582.html#a610c5ac434fe788120ed101f7bf58f63", null ]
 ];

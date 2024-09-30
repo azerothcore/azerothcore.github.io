@@ -1,9 +1,8 @@
 var a21234 =
 [
-    [ "Absorb", "d8/df3/a21234.html#a3b52a917b2cfa7238de514590f9765d2", null ],
-    [ "CalculateAmount", "d8/df3/a21234.html#a6923d1ab706487355688c46a7138e24c", null ],
-    [ "Load", "d8/df3/a21234.html#a50de32f0781a713afa27f38b9f87f351", null ],
-    [ "PrepareAuraScript", "d8/df3/a21234.html#ae093bb68ec776c0791f02e2f2f1e7e0f", null ],
-    [ "Register", "d8/df3/a21234.html#abdb4511065e48994ff89a3c11f627af0", null ],
-    [ "absorbPct", "d8/df3/a21234.html#a8220c184e7cc17517d06a2f9297f154c", null ]
+    [ "npc_frozen_orbAI", "d8/df3/a21234.html#aa7456d1d876690e3723ee0a36866348b", null ],
+    [ "JustEngagedWith", "d8/df3/a21234.html#afd9686dbb8503d7f756b670269aed33d", null ],
+    [ "Reset", "d8/df3/a21234.html#a376dc1fcef9752e235008c4ba66e2463", null ],
+    [ "UpdateAI", "d8/df3/a21234.html#a37d7cf81197fe4344c8b847753997e93", null ],
+    [ "switchTimer", "d8/df3/a21234.html#afc63a3cf6b814df81a35b53278d722c9", null ]
 ];

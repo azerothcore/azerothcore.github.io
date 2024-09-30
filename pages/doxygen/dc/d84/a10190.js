@@ -1,6 +1,7 @@
 var a10190 =
 [
-    [ "PlayerSaveGuildEmblem", "dc/d84/a10190.html#ae1269fb7583f0ce1703cd89d592b1485", null ],
-    [ "Write", "dc/d84/a10190.html#a0427be2f46cba4ff6b2ca072924bca7b", null ],
-    [ "Error", "dc/d84/a10190.html#a76930d3b74bf7b84a311b24b53d03b21", null ]
+    [ "LogoutResponse", "dc/d84/a10190.html#a434ee19fbc4d3e336444b1c62ac2be84", null ],
+    [ "Write", "dc/d84/a10190.html#a0b08225b6ac303afd20ec213aafe4bcb", null ],
+    [ "Instant", "dc/d84/a10190.html#aad6819dc426b91b6ad43f180a53e12ef", null ],
+    [ "LogoutResult", "dc/d84/a10190.html#a5543bf1a6342e9a217cd906e4a185b2e", null ]
 ];

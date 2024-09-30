@@ -1,6 +1,7 @@
 var a27442 =
 [
-    [ "CheckProc", "df/d78/a27442.html#a8158e7338b29b072f0c851771d0e8eee", null ],
-    [ "PrepareAuraScript", "df/d78/a27442.html#a44a18144e276e7bdc80c5a19f1d442e2", null ],
-    [ "Register", "df/d78/a27442.html#ae24336f87db322e546bd858bc50f2351", null ]
+    [ "npc_riggle_bassbaitAI", "df/d78/a27442.html#ad7a1a7a6f4c4ebb7ab93878ebb3a9a5b", null ],
+    [ "CheckTournamentState", "df/d78/a27442.html#aa7b4393b93be92fbb595648cede832be", null ],
+    [ "UpdateAI", "df/d78/a27442.html#ad0fca96e2c770ef179d98dcdd9aaca6e", null ],
+    [ "m_uiTimer", "df/d78/a27442.html#aec45a971a5b7aa574e905e9a2338fe90", null ]
 ];

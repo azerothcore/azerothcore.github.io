@@ -1,6 +1,8 @@
 var a27382 =
 [
-    [ "HandleItemRemove", "df/d1b/a27382.html#a28f8f8e6823bad14900d08ba10cab7e6", null ],
-    [ "PrepareSpellScript", "df/d1b/a27382.html#a8b43e146724a2c8b3c495e886a79d021", null ],
-    [ "Register", "df/d1b/a27382.html#af8b02c31b81dce516ea47d6a1235d683", null ]
+    [ "npc_artoriusAI", "dd/d50/a27386.html", "dd/d50/a27386" ],
+    [ "npc_artorius", "df/d1b/a27382.html#a832831aa19ef3694eee5bbae4d1d39e1", null ],
+    [ "GetAI", "df/d1b/a27382.html#a2563f90fe1fd35c6bcf3f2296652981d", null ],
+    [ "OnGossipHello", "df/d1b/a27382.html#a2c91fcd777d0e0e7ab4927290ca04359", null ],
+    [ "OnGossipSelect", "df/d1b/a27382.html#ae0d8b09e4f7ad830cac9d82ef2d2fe57", null ]
 ];

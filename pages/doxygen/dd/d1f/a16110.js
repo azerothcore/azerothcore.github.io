@@ -1,6 +1,6 @@
 var a16110 =
 [
-    [ "boss_sartharion_vesperonAI", "d6/d78/a16114.html", "d6/d78/a16114" ],
-    [ "boss_sartharion_vesperon", "dd/d1f/a16110.html#a53af67abd9f9bff7f72ee2441e885500", null ],
-    [ "GetAI", "dd/d1f/a16110.html#ad045054b44910461e704c412a524bdc4", null ]
+    [ "npc_toc5_player_vehicleAI", "d6/d78/a16114.html", "d6/d78/a16114" ],
+    [ "npc_toc5_player_vehicle", "dd/d1f/a16110.html#a8786627999d3d1681d9de58cd8c46744", null ],
+    [ "GetAI", "dd/d1f/a16110.html#af89c559eff828130df821c0c30c61f7a", null ]
 ];

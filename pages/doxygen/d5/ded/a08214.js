@@ -1,11 +1,16 @@
 var a08214 =
 [
-    [ "SpellPeriodicAuraLogInfo", "d5/ded/a08214.html#a3c3c5908556cf765c5cbba3ca7034ae9", null ],
-    [ "absorb", "d5/ded/a08214.html#af69ed83578024b979dc9d65ff5ddc83b", null ],
-    [ "auraEff", "d5/ded/a08214.html#ae69913fad91a8e5b140c206d2c5733e0", null ],
-    [ "critical", "d5/ded/a08214.html#a51041b901727b4f595d2a886520626ff", null ],
-    [ "damage", "d5/ded/a08214.html#aa3839fed2e3de0f7a01ad209eec2bdcd", null ],
-    [ "multiplier", "d5/ded/a08214.html#a26b18592b0aebbdc6a00e8f91fd2a75a", null ],
-    [ "overDamage", "d5/ded/a08214.html#a51904be3790c99bded697b2cf7c8db23", null ],
-    [ "resist", "d5/ded/a08214.html#a5cb7dbeeb9d28037771a2f235a95e0fe", null ]
+    [ "WorldLocation", "d5/ded/a08214.html#a424e67f5a820f3396ed6a02c3daa05fb", null ],
+    [ "WorldLocation", "d5/ded/a08214.html#a04d7814f5d846259c5af562ce856f468", null ],
+    [ "GetDebugInfo", "d5/ded/a08214.html#a0b3f13522d288dde484c70cbf8ef5fc5", null ],
+    [ "GetMapId", "d5/ded/a08214.html#a2682e56ae4f0ce4b517a8ba3cd2798b1", null ],
+    [ "GetWorldLocation", "d5/ded/a08214.html#a48cad9058b04a5108c4b99c7fd4d0bfe", null ],
+    [ "GetWorldLocation", "d5/ded/a08214.html#aa2623109f914fd8592f865545696d27b", null ],
+    [ "GetWorldLocation", "d5/ded/a08214.html#a75c59d33f5aac8da8eb9b8c5e2711acf", null ],
+    [ "GetWorldLocation", "d5/ded/a08214.html#aed21eb7d191b1e34ebd1456b427fbb2c", null ],
+    [ "GetWorldLocation", "d5/ded/a08214.html#abb5d3b7c89fa4a39d2486f2f943159e4", null ],
+    [ "SetMapId", "d5/ded/a08214.html#ac425c27c61ecc169fe3df61991011988", null ],
+    [ "WorldRelocate", "d5/ded/a08214.html#a7f014ec2469e93ffca3ec7bbd03b1606", null ],
+    [ "WorldRelocate", "d5/ded/a08214.html#adc762865d564319245ffc3363c080365", null ],
+    [ "m_mapId", "d5/ded/a08214.html#a88161a79f13aa3ab267096cfa8e5d0ed", null ]
 ];

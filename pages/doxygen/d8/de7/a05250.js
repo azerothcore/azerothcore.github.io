@@ -1,20 +1,13 @@
 var a05250 =
 [
-    [ "Task", "d8/de7/a05250.html#a15fd2d39bf79bd4d8ea432b5543f5efc", null ],
-    [ "Task", "d8/de7/a05250.html#ad9b788727c5e8dfa5c424970f882b1dc", null ],
-    [ "Task", "d8/de7/a05250.html#a7eec23707deabeb93b600ad1b17812d6", null ],
-    [ "Task", "d8/de7/a05250.html#a9acec30a90c44ffcff66c256a9caf01a", null ],
-    [ "IsInGroup", "d8/de7/a05250.html#a0bbb86f1ed4357c9af9813e551fc41d7", null ],
-    [ "operator<", "d8/de7/a05250.html#aa53b9d06447478218858aaff7634daab", null ],
-    [ "operator=", "d8/de7/a05250.html#af7f962055b0324a6fedcdd91d9d375dd", null ],
-    [ "operator=", "d8/de7/a05250.html#a97319b03103a3013d96f7abe094ab6a5", null ],
-    [ "operator==", "d8/de7/a05250.html#ac245f8900a292b6ad6ece4c44da85e11", null ],
-    [ "operator>", "d8/de7/a05250.html#a45990c164939b2c5a4fafc541103f70f", null ],
-    [ "TaskContext", "d8/de7/a05250.html#ab75a9caf07880e5ba2bb9f75068bbe7e", null ],
-    [ "TaskScheduler", "d8/de7/a05250.html#a9f0573c5408a663c3874787eeb7d599e", null ],
-    [ "_duration", "d8/de7/a05250.html#add2dd72f389df2168012eb70160f6eb3", null ],
-    [ "_end", "d8/de7/a05250.html#a09a7b8fbb3878aef1cc5f76367e4d43b", null ],
-    [ "_group", "d8/de7/a05250.html#ad9e890cbd7ed9ff7b8829e132605d432", null ],
-    [ "_repeated", "d8/de7/a05250.html#a85e8a2803a79f877e94162cc824fabbe", null ],
-    [ "_task", "d8/de7/a05250.html#a0d846eeae80d54906771ba41281fbdc0", null ]
+    [ "Logger", "d8/de7/a05250.html#a79033d763c69dbfb95b1c591f1cc680b", null ],
+    [ "addAppender", "d8/de7/a05250.html#aabacae0a84994e5567f9c87829909fdd", null ],
+    [ "delAppender", "d8/de7/a05250.html#a1fb8747bf7b652b9dfbf9ee830a82c8b", null ],
+    [ "getLogLevel", "d8/de7/a05250.html#aba945b0f037b7de27976d3a6e1a0fbbd", null ],
+    [ "getName", "d8/de7/a05250.html#ae95167d7bb330ecc0a49779a5635d1e2", null ],
+    [ "setLogLevel", "d8/de7/a05250.html#a00fdcdbeb39a2d5d4fb27cc36c35c101", null ],
+    [ "write", "d8/de7/a05250.html#a3627f98e8676ee7b68a34a4d9439082e", null ],
+    [ "appenders", "d8/de7/a05250.html#aa93931f2386ebc6dbf2464f536ed54f9", null ],
+    [ "level", "d8/de7/a05250.html#a3b1d9dd7bd391ac7bed560918f82a03b", null ],
+    [ "name", "d8/de7/a05250.html#ada299a7dd268085371557213e36695a9", null ]
 ];

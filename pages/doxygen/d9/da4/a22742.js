@@ -1,7 +1,7 @@
 var a22742 =
 [
-    [ "PrepareAuraScript", "d9/da4/a22742.html#a633dc25fd58f0fb396b72103a1ec42d6", null ],
-    [ "Register", "d9/da4/a22742.html#ab46535a9b6fae458671cccbcdfc81eb9", null ],
-    [ "TriggerFists", "d9/da4/a22742.html#a912417196f46d7bdf6620cb4cb0a3698", null ],
-    [ "Validate", "d9/da4/a22742.html#a66a353872f430244e09fac32cadb1aa4", null ]
+    [ "HandleScriptEffect", "d9/da4/a22742.html#a16f131e42272bc75c99df2a9cf43470e", null ],
+    [ "PrepareSpellScript", "d9/da4/a22742.html#a510e80ef85ae3057e30c7c710aaf187b", null ],
+    [ "Register", "d9/da4/a22742.html#ae26ff6be3b2d4a1975ace3734603ab41", null ],
+    [ "Validate", "d9/da4/a22742.html#a58ff628906f3077a354ed486d3c56d23", null ]
 ];

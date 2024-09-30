@@ -1,6 +1,7 @@
 var a28642 =
 [
-    [ "FilterTargets", "d9/d92/a28642.html#a4a9762943ca9b0497bbe5d686cec185f", null ],
-    [ "PrepareSpellScript", "d9/d92/a28642.html#ad547ab3bfd0def222bd15d38fa3e3584", null ],
-    [ "Register", "d9/d92/a28642.html#ad8dea8bd199cde31ce9a44c08b4db950", null ]
+    [ "W", "d9/d92/a28642.html#adc2e55b935dcc2daefd60739bdb31cec", null ],
+    [ "X", "d9/d92/a28642.html#a2676f1a5ec3a2f69ebb953e4b5741c4b", null ],
+    [ "Y", "d9/d92/a28642.html#aa3353a9f5afdf3614e37f9681441ae05", null ],
+    [ "Z", "d9/d92/a28642.html#a533b5e90b6333d89190828f28721e61d", null ]
 ];

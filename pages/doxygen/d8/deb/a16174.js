@@ -1,6 +1,8 @@
 var a16174 =
 [
-    [ "npc_xerestraszaAI", "d7/da2/a16178.html", "d7/da2/a16178" ],
-    [ "npc_xerestrasza", "d8/deb/a16174.html#a49023756b5dab130e4ffd7e62fa80ce4", null ],
-    [ "GetAI", "d8/deb/a16174.html#a5e0ede0054969d4787db56781dc55846", null ]
+    [ "npc_frost_sphereAI", "d8/deb/a16174.html#ae697a98d23d94315768dc866852b6e07", null ],
+    [ "DamageTaken", "d8/deb/a16174.html#a3960f19b456f29a33016d799809a82a8", null ],
+    [ "SpellHit", "d8/deb/a16174.html#af842d47f1e8462fb6368e9dc7a070b84", null ],
+    [ "UpdateAI", "d8/deb/a16174.html#a4e866332045135c867f2b9ee871db0c2", null ],
+    [ "permafrostTimer", "d8/deb/a16174.html#adf7b1b447d0d05a498dd8603dbfab1ab", null ]
 ];

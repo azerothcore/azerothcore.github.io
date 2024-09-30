@@ -1,6 +1,7 @@
 var a20046 =
 [
-    [ "boss_grobbulusAI", "df/d2b/a20050.html", "df/d2b/a20050" ],
-    [ "boss_grobbulus", "de/df6/a20046.html#acf1b781e86e33a363b68354d34d3c015", null ],
-    [ "GetAI", "de/df6/a20046.html#ae918614566a0b9979aef4e1aeaac394c", null ]
+    [ "HandleAfterEffectApply", "de/df6/a20046.html#a672526de2c71dcae79bacef88f34dc26", null ],
+    [ "PrepareAuraScript", "de/df6/a20046.html#a1da221b63cb7fcd0dbb580e8cf0003ce", null ],
+    [ "Register", "de/df6/a20046.html#a9ba7c109fe96881dd47ba47366890e2b", null ],
+    [ "Validate", "de/df6/a20046.html#ab5833f6218760a7d9829b5d453436302", null ]
 ];

@@ -1,13 +1,11 @@
 var a11438 =
 [
-    [ "boss_gythAI", "d7/d35/a11438.html#aeec049af24b3a6f94051f1008ce107e6", null ],
-    [ "DamageTaken", "d7/d35/a11438.html#ae4a32afcb146157167649e873297a361", null ],
-    [ "EnterEvadeMode", "d7/d35/a11438.html#a20296c618ad366d7ac956f16671cc408", null ],
-    [ "IsSummonedBy", "d7/d35/a11438.html#a6800421a2e9e889e649e792ee642d8ac", null ],
-    [ "JustDied", "d7/d35/a11438.html#a979da1f3922d9575b6c237b85952fb6c", null ],
-    [ "JustEngagedWith", "d7/d35/a11438.html#a6c0ca15d87851c205d94679ea65e5193", null ],
-    [ "JustSummoned", "d7/d35/a11438.html#ab9024ce261129c82d4304d2a13834a5f", null ],
-    [ "Reset", "d7/d35/a11438.html#aa3c86b403af5394a4e4cb30781bcb46b", null ],
-    [ "UpdateAI", "d7/d35/a11438.html#a66f27f6d49b40dcc2894f177b281570f", null ],
-    [ "_summonedRend", "d7/d35/a11438.html#a0d19fedf0a77d7bcd73d5a52e2b907bf", null ]
+    [ "spectator_commandscript", "d7/d35/a11438.html#a1bf79d739a6af02405bc268c9bb50c26", null ],
+    [ "GetCommands", "d7/d35/a11438.html#a3451bcda07b51a33fd8368cf00ac190f", null ],
+    [ "HandleSpectatorCommand", "d7/d35/a11438.html#aaf331e54c3c19b5d16d9d5f5c9d28721", null ],
+    [ "HandleSpectatorLeaveCommand", "d7/d35/a11438.html#a15e661891f4e08c3efa0bd844c3954aa", null ],
+    [ "HandleSpectatorResetCommand", "d7/d35/a11438.html#a23a1a3740609a6d0caa6e0f10c7e8653", null ],
+    [ "HandleSpectatorSpectateCommand", "d7/d35/a11438.html#ad1f117a77c0154fc25e937dfe21870a2", null ],
+    [ "HandleSpectatorVersionCommand", "d7/d35/a11438.html#aaf7c57603d263f7ab919f12d9680f058", null ],
+    [ "HandleSpectatorWatchCommand", "d7/d35/a11438.html#a1ee822e332374b375962d1ae87adbc61", null ]
 ];

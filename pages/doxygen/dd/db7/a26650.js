@@ -1,7 +1,7 @@
 var a26650 =
 [
-    [ "CalculateAmount", "dd/db7/a26650.html#a44c3c1c97f0b87b261614e7eb0ce7d4d", null ],
-    [ "PrepareAuraScript", "dd/db7/a26650.html#aaf070525419cc8af56cd0002bbef2391", null ],
-    [ "Register", "dd/db7/a26650.html#ad37c82f88ebfb8c68aef2e574c0c4dcf", null ],
-    [ "Validate", "dd/db7/a26650.html#a3b8d5d04ec015240d941790bd02598f8", null ]
+    [ "HandleDummy", "dd/db7/a26650.html#abd35c974f5ebec4c8845c05ab4f6d309", null ],
+    [ "PrepareSpellScript", "dd/db7/a26650.html#a99deca1c5c8631342be400cb863eefb2", null ],
+    [ "Register", "dd/db7/a26650.html#aa5ecc51b030fe7280e824ade641216d3", null ],
+    [ "Validate", "dd/db7/a26650.html#a731503d3769718695d109ad71160e67a", null ]
 ];

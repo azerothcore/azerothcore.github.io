@@ -1,6 +1,6 @@
 var a19462 =
 [
-    [ "spell_dreamwalker_summoner_SpellScript", "d0/da9/a19466.html", "d0/da9/a19466" ],
-    [ "spell_dreamwalker_summoner", "d7/d58/a19462.html#ad10a4e75d8b22561630e33aac1165fa0", null ],
-    [ "GetSpellScript", "d7/d58/a19462.html#a9abc579bbdb01a26cae788bb58f6bbc9", null ]
+    [ "HandleScript", "d7/d58/a19462.html#a3af4741e2099fec9ba66639f896ba335", null ],
+    [ "PrepareSpellScript", "d7/d58/a19462.html#a9779e2fb43ce69f74678abd82439c752", null ],
+    [ "Register", "d7/d58/a19462.html#ac6ae892e75e52ae83321b2492eca6a1f", null ]
 ];

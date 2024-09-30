@@ -1,8 +1,11 @@
 var a05098 =
 [
-    [ "~Runnable", "d8/dc2/a05098.html#add1dc9a377ee89c32cc40c42907e5bd8", null ],
-    [ "decReference", "d8/dc2/a05098.html#a69bf63c7f684de6e278de0468ed8fa06", null ],
-    [ "incReference", "d8/dc2/a05098.html#a062323e141fa33ae094adbef16caf3d6", null ],
-    [ "run", "d8/dc2/a05098.html#ad92d9c0459fbcc59d2b0d8fe2ed620c9", null ],
-    [ "m_refs", "d8/dc2/a05098.html#ae047c0949843835f0b240484df01b7f8", null ]
+    [ "Record", "d8/dc2/a05098.html#a3303a6b7ba364777e368158052dbe1db", null ],
+    [ "getFloat", "d8/dc2/a05098.html#a1647694079553a20a7c6621aa6d4ecf6", null ],
+    [ "getString", "d8/dc2/a05098.html#a833c7017749b6b3109ebdee2ff0d3517", null ],
+    [ "getUInt", "d8/dc2/a05098.html#a6f22775adc36b8955009f3f0bd51f355", null ],
+    [ "getUInt8", "d8/dc2/a05098.html#af6a95de37b34f0204f57323d9a39d110", null ],
+    [ "DBCFileLoader", "d8/dc2/a05098.html#aa9814b507b472e781e08c803e025cc72", null ],
+    [ "file", "d8/dc2/a05098.html#a146dc23a5f24a0d8a1a34f29375b9bcd", null ],
+    [ "offset", "d8/dc2/a05098.html#a06e2c90771be91d9ca948840a07125e8", null ]
 ];

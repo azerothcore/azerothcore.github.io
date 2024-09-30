@@ -1,20 +1,20 @@
 var searchData=
 [
-  ['iccscriptname_0',['ICCScriptName',['../d6/d58/a02993.html#a8ad0adeac0057e9785ab4fce6f4d6697',1,'icecrown_citadel.h']]],
-  ['immune_5fto_5fmovement_5fimpairment_5fand_5floss_5fcontrol_5fmask_1',['IMMUNE_TO_MOVEMENT_IMPAIRMENT_AND_LOSS_CONTROL_MASK',['../da/d34/a04592.html#aad347546e73152f50df1695839e39ca1',1,'SharedDefines.h']]],
-  ['in_5flive_5fside_2',['IN_LIVE_SIDE',['../d5/d25/a02687.html#ad42058ab3d240d516651468d3d624008',1,'boss_gothik.cpp']]],
-  ['inner_5fportal_5fradius_3',['INNER_PORTAL_RADIUS',['../d8/de2/a03299.html#a767e697b64115cb679602f04a2271bfb',1,'boss_astromancer.cpp']]],
-  ['inoculated_5fhelper_4',['INOCULATED_HELPER',['../db/d1b/a02960.html#a2d47852dfe3c4764714970ae4caa3481',1,'boss_festergut.cpp']]],
-  ['inspect_5fdistance_5',['INSPECT_DISTANCE',['../df/de9/a02153.html#a627bc4be23b34b8b8be439d4010f5669',1,'ObjectDefines.h']]],
+  ['iccscriptname_0',['ICCScriptName',['../dc/d94/a02999.html#a8ad0adeac0057e9785ab4fce6f4d6697',1,'icecrown_citadel.h']]],
+  ['immune_5fto_5fmovement_5fimpairment_5fand_5floss_5fcontrol_5fmask_1',['IMMUNE_TO_MOVEMENT_IMPAIRMENT_AND_LOSS_CONTROL_MASK',['../d6/d71/a04598.html#aad347546e73152f50df1695839e39ca1',1,'SharedDefines.h']]],
+  ['in_5flive_5fside_2',['IN_LIVE_SIDE',['../d6/da8/a02693.html#ad42058ab3d240d516651468d3d624008',1,'boss_gothik.cpp']]],
+  ['inner_5fportal_5fradius_3',['INNER_PORTAL_RADIUS',['../d3/d34/a03305.html#a767e697b64115cb679602f04a2271bfb',1,'boss_astromancer.cpp']]],
+  ['inoculated_5fhelper_4',['INOCULATED_HELPER',['../df/d81/a02966.html#a2d47852dfe3c4764714970ae4caa3481',1,'boss_festergut.cpp']]],
+  ['inspect_5fdistance_5',['INSPECT_DISTANCE',['../d4/d9b/a02159.html#a627bc4be23b34b8b8be439d4010f5669',1,'ObjectDefines.h']]],
   ['instantiate_5fclass_5fmutex_6',['INSTANTIATE_CLASS_MUTEX',['../db/d7b/a00296.html#a517f069300d9fa1587cf281664c72a75',1,'ThreadingModel.h']]],
-  ['interaction_5fdistance_7',['INTERACTION_DISTANCE',['../df/de9/a02153.html#a54eb9ac4fb3942c956544c22e84743d4',1,'ObjectDefines.h']]],
-  ['intro_5fmovement_5finterval_8',['INTRO_MOVEMENT_INTERVAL',['../de/d09/a02861.html#a914791b23da531680a3fa365d19e7919',1,'eye_of_eternity.h']]],
-  ['invalid_5fheight_9',['INVALID_HEIGHT',['../dd/d09/a01118.html#ac08ed03fa837b2e3d2624e0123f0897b',1,'Map.h']]],
-  ['invalid_5fpolyref_10',['INVALID_POLYREF',['../d1/da7/a01709.html#a6ed37c24cf4f8cd0008c13f111e01092',1,'PathGenerator.h']]],
-  ['inventory_5fslot_5fbag_5f0_11',['INVENTORY_SLOT_BAG_0',['../d8/d1e/a02210.html#ad3dd8ed856e16139eaa67147d40cf24e',1,'Player.h']]],
+  ['interaction_5fdistance_7',['INTERACTION_DISTANCE',['../d4/d9b/a02159.html#a54eb9ac4fb3942c956544c22e84743d4',1,'ObjectDefines.h']]],
+  ['intro_5fmovement_5finterval_8',['INTRO_MOVEMENT_INTERVAL',['../d6/d92/a02867.html#a914791b23da531680a3fa365d19e7919',1,'eye_of_eternity.h']]],
+  ['invalid_5fheight_9',['INVALID_HEIGHT',['../d0/dc8/a01124.html#ac08ed03fa837b2e3d2624e0123f0897b',1,'Map.h']]],
+  ['invalid_5fpolyref_10',['INVALID_POLYREF',['../df/d9a/a01715.html#a6ed37c24cf4f8cd0008c13f111e01092',1,'PathGenerator.h']]],
+  ['inventory_5fslot_5fbag_5f0_11',['INVENTORY_SLOT_BAG_0',['../d8/d5f/a02216.html#ad3dd8ed856e16139eaa67147d40cf24e',1,'Player.h']]],
   ['iocontextbase_12',['IoContextBase',['../dd/dd7/a00260.html#a0ec391e3d78f246934f76abd937aecd8',1,'IoContext.h']]],
   ['iocontextbasenamespace_13',['IoContextBaseNamespace',['../dd/dd7/a00260.html#ad5308134581a9f19bfac4d556ec345b9',1,'IoContext.h']]],
   ['ir_14',['IR',['../d5/df1/a00206.html#aa54c7fcd0c551f1db5fc34a2f6b11e74',1,'VMapTools.h']]],
   ['isnan_15',['isnan',['../db/dd9/a00179.html#a075c8459d7e501109174c1a2fdc5cd7e',1,'BoundingIntervalHierarchy.cpp']]],
-  ['item_5fsubclass_5fmask_5fweapon_5franged_16',['ITEM_SUBCLASS_MASK_WEAPON_RANGED',['../d7/dc8/a02264.html#a0873187b0ac36dd5187c0f5486232e88',1,'ItemTemplate.h']]]
+  ['item_5fsubclass_5fmask_5fweapon_5franged_16',['ITEM_SUBCLASS_MASK_WEAPON_RANGED',['../d4/de7/a02270.html#a0873187b0ac36dd5187c0f5486232e88',1,'ItemTemplate.h']]]
 ];

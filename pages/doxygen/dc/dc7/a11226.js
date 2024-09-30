@@ -1,6 +1,5 @@
 var a11226 =
 [
-    [ "boss_galvangarAI", "d6/de4/a11230.html", "d6/de4/a11230" ],
-    [ "boss_galvangar", "dc/dc7/a11226.html#a3949cfd3c987bdf52d313568de9379ba", null ],
-    [ "GetAI", "dc/dc7/a11226.html#a9fd978eb38ae3e2d8d65cf4214e673e3", null ]
+    [ "data", "db/d7c/a04669.html#ga4e97bd1d129d33b86a11c79c8cfa437b", null ],
+    [ "ScriptId", "db/d7c/a04669.html#gaa452a9be01e00154512cb55980737ae6", null ]
 ];

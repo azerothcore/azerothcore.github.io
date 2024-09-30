@@ -1,6 +1,8 @@
 var a22874 =
 [
-    [ "instance_violet_hold_InstanceMapScript", "d2/d7d/a22878.html", "d2/d7d/a22878" ],
-    [ "instance_violet_hold", "d2/d11/a22874.html#ae66f018196cd90683506c3cc3d8c5d7a", null ],
-    [ "GetInstanceScript", "d2/d11/a22874.html#aeedcbb24b0709bd172ebbbc6d9851532", null ]
+    [ "HandleEffectApply", "d2/d11/a22874.html#a94993441ef94f84c85aa10c693cf34fe", null ],
+    [ "HandleEffectRemove", "d2/d11/a22874.html#a047a1dd4bab33d7d5b2631c0862ba4b0", null ],
+    [ "PrepareAuraScript", "d2/d11/a22874.html#a0ced86fc2e108e7bba9727d26eac3ff3", null ],
+    [ "Register", "d2/d11/a22874.html#a0dbd8b0bc1dfad8bda0e48ab57b4db3f", null ],
+    [ "Validate", "d2/d11/a22874.html#a964637541cd64e64b4e02c00d36abf2d", null ]
 ];

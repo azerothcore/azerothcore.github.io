@@ -1,6 +1,5 @@
 var a18590 =
 [
-    [ "HandleSummon", "d8/d3c/a18590.html#a5389b8f55d78c1733359dd1cadb203ff", null ],
-    [ "PrepareSpellScript", "d8/d3c/a18590.html#aeee6f9c93136065ad7a97bbe8df73bb1", null ],
-    [ "Register", "d8/d3c/a18590.html#aeb51460cc2391eea79182fbc90927a76", null ]
+    [ "at_icc_shutdown_traps", "d8/d3c/a18590.html#aa13f5d78d3032e8114e9978f42468f64", null ],
+    [ "OnTrigger", "d8/d3c/a18590.html#abb31b3f6d0b159b625d731ac47127005", null ]
 ];

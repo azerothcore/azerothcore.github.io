@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['vault_5fof_5farchavon_2eh_0',['vault_of_archavon.h',['../da/d8e/a02759.html',1,'']]],
+  ['vault_5fof_5farchavon_2eh_0',['vault_of_archavon.h',['../da/d73/a02765.html',1,'']]],
   ['vec3d_2eh_1',['vec3d.h',['../d8/deb/a00545.html',1,'']]],
-  ['vehicle_2ecpp_2',['Vehicle.cpp',['../d2/d50/a02081.html',1,'']]],
-  ['vehicle_2eh_3',['Vehicle.h',['../d6/d5b/a02078.html',1,'']]],
-  ['vehicledefines_2eh_4',['VehicleDefines.h',['../da/dbe/a02084.html',1,'']]],
-  ['vehiclehandler_2ecpp_5',['VehicleHandler.cpp',['../dd/d95/a01247.html',1,'']]],
+  ['vehicle_2ecpp_2',['Vehicle.cpp',['../d2/d31/a02087.html',1,'']]],
+  ['vehicle_2eh_3',['Vehicle.h',['../da/dbe/a02084.html',1,'']]],
+  ['vehicledefines_2eh_4',['VehicleDefines.h',['../d7/deb/a02090.html',1,'']]],
+  ['vehiclehandler_2ecpp_5',['VehicleHandler.cpp',['../d3/d0b/a01253.html',1,'']]],
   ['vehiclescript_2ecpp_6',['VehicleScript.cpp',['../dc/dce/a00740.html',1,'']]],
   ['vehiclescript_2eh_7',['VehicleScript.h',['../d0/d85/a00908.html',1,'']]],
-  ['violet_5fhold_2ecpp_8',['violet_hold.cpp',['../df/d48/a03071.html',1,'']]],
-  ['violet_5fhold_2eh_9',['violet_hold.h',['../d6/dfe/a03053.html',1,'']]],
+  ['violet_5fhold_2ecpp_8',['violet_hold.cpp',['../d7/deb/a03077.html',1,'']]],
+  ['violet_5fhold_2eh_9',['violet_hold.h',['../da/d9e/a03059.html',1,'']]],
   ['vmapassembler_2ecpp_10',['VMapAssembler.cpp',['../d7/db1/a00590.html',1,'']]],
   ['vmapdefinitions_2eh_11',['VMapDefinitions.h',['../dd/dc1/a00212.html',1,'']]],
   ['vmapexport_2ecpp_12',['vmapexport.cpp',['../dc/df9/a00554.html',1,'']]],
@@ -19,5 +19,5 @@ var searchData=
   ['vmapmgr2_2ecpp_16',['VMapMgr2.cpp',['../d5/ddf/a00224.html',1,'']]],
   ['vmapmgr2_2eh_17',['VMapMgr2.h',['../d9/d01/a00227.html',1,'']]],
   ['vmaptools_2eh_18',['VMapTools.h',['../d5/df1/a00206.html',1,'']]],
-  ['voicechathandler_2ecpp_19',['VoiceChatHandler.cpp',['../dd/d39/a01271.html',1,'']]]
+  ['voicechathandler_2ecpp_19',['VoiceChatHandler.cpp',['../d2/d1d/a01277.html',1,'']]]
 ];

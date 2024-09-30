@@ -1,6 +1,7 @@
 var a08082 =
 [
-    [ "SkillStatusData", "de/de3/a08082.html#a7594ceb20110da34f3aa68ac69996b94", null ],
-    [ "pos", "de/de3/a08082.html#a51ccb328b807f2c7fd275d843218f466", null ],
-    [ "uState", "de/de3/a08082.html#a232801ad25897a82739916d5be4fdc22", null ]
+    [ "EnchStoreItem", "de/de3/a08082.html#a89019e156774c5b978251479264e5463", null ],
+    [ "EnchStoreItem", "de/de3/a08082.html#aca83bb20eb6153faeaf599b07b97e357", null ],
+    [ "chance", "de/de3/a08082.html#a2d3d0cd28c79402b3625694d4676ed8b", null ],
+    [ "ench", "de/de3/a08082.html#ac2346b6c6c5c09bb63676d72c798d848", null ]
 ];

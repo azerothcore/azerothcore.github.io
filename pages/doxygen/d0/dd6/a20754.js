@@ -1,8 +1,10 @@
 var a20754 =
 [
-    [ "brann_bronzebeardAI", "d2/db8/a20758.html", "d2/db8/a20758" ],
-    [ "brann_bronzebeard", "d0/dd6/a20754.html#a66fd8785647896a1a5f7be041242cfd6", null ],
-    [ "GetAI", "d0/dd6/a20754.html#a66d4ae2f243f7869106c2372b3e7166c", null ],
-    [ "OnGossipHello", "d0/dd6/a20754.html#a2714a2dde596db76706b8a86f97f82b8", null ],
-    [ "OnGossipSelect", "d0/dd6/a20754.html#a0e0068a45012e50a9f645d393bdfe163", null ]
+    [ "boss_yoggsaron_constrictor_tentacleAI", "d0/dd6/a20754.html#a351df0050661628e3ab0be2f636f9c4e", null ],
+    [ "DoAction", "d0/dd6/a20754.html#ad84c2b479a2d7df7aec40f17287a2438", null ],
+    [ "JustDied", "d0/dd6/a20754.html#a832d1b1154b158c348f9d5883ad0fbd7", null ],
+    [ "SelectConstrictTarget", "d0/dd6/a20754.html#a174be8d1673e332f9dceb10d2917bb4a", null ],
+    [ "UpdateAI", "d0/dd6/a20754.html#a00c137429f2b565bf195dab4e9902a7c", null ],
+    [ "_checkTimer", "d0/dd6/a20754.html#ae5c189401dd04823449e7a16c197e65f", null ],
+    [ "_playerGUID", "d0/dd6/a20754.html#a01d889af8d8fe5712cde73cdc2bf3c95", null ]
 ];

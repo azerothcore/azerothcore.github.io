@@ -1,6 +1,7 @@
 var a22638 =
 [
-    [ "npc_ritual_channelerAI", "d5/d74/a22642.html", "d5/d74/a22642" ],
-    [ "npc_ritual_channeler", "db/d4b/a22638.html#adab372002549b009e3f937ec67e49f3f", null ],
-    [ "GetAI", "db/d4b/a22638.html#aa416545438d701cbfc2567ba5ae536c8", null ]
+    [ "npc_voidtraveler", "db/d4b/a22638.html#a07e473c14836a0612acd52078a93f2d8", null ],
+    [ "Reset", "db/d4b/a22638.html#a6efe0725917c92657220de2b60579289", null ],
+    [ "UpdateAI", "db/d4b/a22638.html#aaa907fe2f6ef1029a23fd819af0a44c3", null ],
+    [ "_scheduler", "db/d4b/a22638.html#a1809494e7803103f6bc1698e780dcfbc", null ]
 ];

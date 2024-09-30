@@ -1,11 +1,8 @@
 var a10846 =
 [
-    [ "WorldUpdateTime", "d5/d56/a10846.html#a97552c4ce99bd40919f199c17fe203ed", null ],
-    [ "LoadFromConfig", "d5/d56/a10846.html#acb2b9d56504fc760e7df1c93621ab788", null ],
-    [ "RecordUpdateTime", "d5/d56/a10846.html#a88d773c8029cebeab6b99444c25c8379", null ],
-    [ "RecordUpdateTimeDuration", "d5/d56/a10846.html#a3ae299cfba6adcbb4e38af40313428fc", null ],
-    [ "SetRecordUpdateTimeInterval", "d5/d56/a10846.html#ada81050229ccacc49d5b6a9f6101174c", null ],
-    [ "_lastRecordTime", "d5/d56/a10846.html#a7bc68a1a700deb4bc4d19992edf3ffa7", null ],
-    [ "_recordUpdateTimeInverval", "d5/d56/a10846.html#a5486477b0a604f0207336e423f42c2b1", null ],
-    [ "_recordUpdateTimeMin", "d5/d56/a10846.html#a6b8a8d1b61f9ecec591165fa334972fc", null ]
+    [ "ReflectEvent", "d5/d56/a10846.html#a1669aec08a3a09143c57e4889c8fad08", null ],
+    [ "Execute", "d5/d56/a10846.html#a37fb766d70932e8a431dba363c603531", null ],
+    [ "_caster", "d5/d56/a10846.html#a67ec85597bb887e7b8cb31b818910d1a", null ],
+    [ "_spellInfo", "d5/d56/a10846.html#ae05fc2092226695fa22dd1e72d58bc7b", null ],
+    [ "_targetGUID", "d5/d56/a10846.html#aa9f8c7bf1e22c74f3d134df2cfc014b5", null ]
 ];

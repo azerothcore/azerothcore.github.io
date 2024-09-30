@@ -1,12 +1,13 @@
 var a21066 =
 [
-    [ "npc_freya_wardAI", "dd/d73/a21066.html#afbc2f3d88173e240b87915cf0520b3cf", null ],
-    [ "DoAction", "dd/d73/a21066.html#a4c9418b5474eb572a76168d4a460159a", null ],
-    [ "JustSummoned", "dd/d73/a21066.html#a9075d763014ca50b4e0d2c815e1c23b7", null ],
-    [ "Reset", "dd/d73/a21066.html#a65d304edd3b00b4a45c58bf36b926900", null ],
-    [ "SummonedCreatureDespawn", "dd/d73/a21066.html#a6273b024ebde2fb36ed79eb122f7ac68", null ],
-    [ "UpdateAI", "dd/d73/a21066.html#a11dd073b70e5126f580ec5122dce7bbd", null ],
-    [ "_castTimer", "dd/d73/a21066.html#a6308aadc8ebf41cf045b04ac58e2244b", null ],
-    [ "_summoned", "dd/d73/a21066.html#a5df6604055c5f3936a95f8d0ca5be8c1", null ],
-    [ "summons", "dd/d73/a21066.html#a82932e9f2d570fa6d8394bfd3954c41e", null ]
+    [ "npc_ravenous_furbolgAI", "dd/d73/a21066.html#a3e2a0cac8a02d2d6105b06b5c21f1628", null ],
+    [ "DoAction", "dd/d73/a21066.html#a837b442d7812b0c5708995d35c0d45f6", null ],
+    [ "JustDied", "dd/d73/a21066.html#a03e5dd969fcc2e3dcebc714247e18bf2", null ],
+    [ "JustEngagedWith", "dd/d73/a21066.html#a003eb350a11f3f5c2355a58958633f36", null ],
+    [ "JustReachedHome", "dd/d73/a21066.html#a09fc5ba4680c1e5a7a49a81c50cee540", null ],
+    [ "MoveInLineOfSight", "dd/d73/a21066.html#a0b4db9708b9b0288ddb1be2f2205e03a", null ],
+    [ "Reset", "dd/d73/a21066.html#aca5ae47050590ec22e6e929f44e09276", null ],
+    [ "UpdateAI", "dd/d73/a21066.html#ad044c04381a8d61a8fefc55129453ddf", null ],
+    [ "events", "dd/d73/a21066.html#a8bf068c63d7ae10c6edf0af3aab1a6c3", null ],
+    [ "m_pInstance", "dd/d73/a21066.html#aeb0a7644ada4d44e649b4ae45e0d2dc2", null ]
 ];

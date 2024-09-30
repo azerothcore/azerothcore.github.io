@@ -1,6 +1,7 @@
 var a23670 =
 [
-    [ "ChangeSummonPos", "dc/d33/a23670.html#a90993dc8e875b759d80ee92f76100f15", null ],
-    [ "PrepareSpellScript", "dc/d33/a23670.html#a74120a96d56cca66dbe5568fdee9412a", null ],
-    [ "Register", "dc/d33/a23670.html#a4994a44f67732c5e5e436cf2dfe53cf2", null ]
+    [ "boss_zereketh_the_unbound", "dc/d33/a23670.html#abb2fc5cbe7514142160818016fda1936", null ],
+    [ "JustDied", "dc/d33/a23670.html#ac5d96da9a33a536f2002cce11453ded3", null ],
+    [ "JustEngagedWith", "dc/d33/a23670.html#ad0305f3eeb578d6dcd2db835331eb10f", null ],
+    [ "KilledUnit", "dc/d33/a23670.html#a07d3a1264e6d78c2696990755fc7fe45", null ]
 ];

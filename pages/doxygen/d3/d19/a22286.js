@@ -1,6 +1,7 @@
 var a22286 =
 [
-    [ "spell_yogg_saron_shadow_beacon_AuraScript", "db/d97/a22290.html", "db/d97/a22290" ],
-    [ "spell_yogg_saron_shadow_beacon", "d3/d19/a22286.html#a8c0bb2f6265a9859d03e437fe28946d2", null ],
-    [ "GetAuraScript", "d3/d19/a22286.html#a2f5fae237242c9623fbe487b171b1784", null ]
+    [ "npc_wg_demolisher_engineer", "d3/d19/a22286.html#a722ff6bac34730bfb5f36584d7a62ff8", null ],
+    [ "canBuild", "d3/d19/a22286.html#a5dd51b0d0a05ebfb648faab570e27881", null ],
+    [ "OnGossipHello", "d3/d19/a22286.html#ac3b0bbfd66bb94f29a6d733999b8c6ba", null ],
+    [ "OnGossipSelect", "d3/d19/a22286.html#a3ecf69f45918bef0cb51023327ac9693", null ]
 ];

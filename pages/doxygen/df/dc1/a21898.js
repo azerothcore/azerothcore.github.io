@@ -1,9 +1,9 @@
 var a21898 =
 [
-    [ "npc_ulduar_dark_rune_sentinelAI", "df/dc1/a21898.html#a533ae31e0507f12f7d94e347b6b7ebf2", null ],
-    [ "CanAIAttack", "df/dc1/a21898.html#a12b2e5c621a8b04a4d80dde706a4bb2b", null ],
-    [ "Reset", "df/dc1/a21898.html#ada2897f48effedd5d5baa5a260497b5a", null ],
-    [ "UpdateAI", "df/dc1/a21898.html#aa9b319928a9b23cf4d47a07c1eaeb0cd", null ],
-    [ "timer1", "df/dc1/a21898.html#a383a2ee113822b7eff52466f0cc0e137", null ],
-    [ "timer2", "df/dc1/a21898.html#ad5c4698c5d12ff42179d62c47d9f7719", null ]
+    [ "npc_venture_co_stragglerAI", "df/dc1/a21898.html#abc3cc04b89b95fd45969ba5859bf810c", null ],
+    [ "Reset", "df/dc1/a21898.html#acfeaad9db95d0b391a64cc65ca3a1cee", null ],
+    [ "SpellHit", "df/dc1/a21898.html#ae1919454c270d10342079b60a727a306", null ],
+    [ "UpdateAI", "df/dc1/a21898.html#a0846336d8d1333e2c2f50731a722c3b7", null ],
+    [ "_events", "df/dc1/a21898.html#a9cd6e6b549e10900f35838f04e10e0f5", null ],
+    [ "_playerGUID", "df/dc1/a21898.html#a649493944b143782d995b5bdda3714b4", null ]
 ];

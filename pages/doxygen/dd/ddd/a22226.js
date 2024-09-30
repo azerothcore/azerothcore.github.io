@@ -1,6 +1,8 @@
 var a22226 =
 [
-    [ "boss_yoggsaron_immortal_guardianAI", "de/da4/a22230.html", "de/da4/a22230" ],
-    [ "boss_yoggsaron_immortal_guardian", "dd/ddd/a22226.html#a4009759d284b54cb958ee0bb80c45f14", null ],
-    [ "GetAI", "dd/ddd/a22226.html#ac532ca090d93ce6d11a0332329111f2b", null ]
+    [ "AfterRemove", "dd/ddd/a22226.html#a06fd72c7754f34dbc62a99a9ed839302", null ],
+    [ "HandlePeriodic", "dd/ddd/a22226.html#a5aaadeed42e6a3cf1e2216a13c2d3ff9", null ],
+    [ "OnApply", "dd/ddd/a22226.html#a6617555d302923e5e95e7b1c6d8d74d6", null ],
+    [ "PrepareAuraScript", "dd/ddd/a22226.html#a47a6281c42dc9368357cc86912331c77", null ],
+    [ "Register", "dd/ddd/a22226.html#a868c79cda98b97b27b74d46f86cb980a", null ]
 ];

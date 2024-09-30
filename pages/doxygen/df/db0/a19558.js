@@ -1,7 +1,6 @@
 var a19558 =
 [
-    [ "npc_captain_arnathAI", "df/db0/a19558.html#a34e3d17b89010569bf7e9cb28361c2af", null ],
-    [ "FindFriendlyCreature", "df/db0/a19558.html#ad6411d2a87d2552bea2051f80ca16e14", null ],
-    [ "Reset", "df/db0/a19558.html#a016fbe51f31e1c5ec1636e8d20d8cb30", null ],
-    [ "UpdateAI", "df/db0/a19558.html#a020efd7adc0d60152007906e3229988d", null ]
+    [ "instance_halls_of_stone_InstanceMapScript", "d6/db9/a19562.html", "d6/db9/a19562" ],
+    [ "instance_halls_of_stone", "df/db0/a19558.html#ad0237cfaf2e48036f45181fd7746df2b", null ],
+    [ "GetInstanceScript", "df/db0/a19558.html#a784906c7710a216016101cf7a6a915f3", null ]
 ];

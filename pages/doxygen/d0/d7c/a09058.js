@@ -1,10 +1,8 @@
 var a09058 =
 [
-    [ "const_iterator", "d0/d7c/a09058.html#ac52d3ebfa7eaeb9d6fd08f0089b13918", null ],
-    [ "StorageType", "d0/d7c/a09058.html#a6825a379d1af4254b920c14ab0068e7b", null ],
-    [ "BossBoundaryData", "d0/d7c/a09058.html#a3f80cd89e43eae1a74e2b0a6a674d0cb", null ],
-    [ "~BossBoundaryData", "d0/d7c/a09058.html#a446a3ec16cdce76058761fce972f1e57", null ],
-    [ "begin", "d0/d7c/a09058.html#a326930360d22d5fdf9a895991f2c4e49", null ],
-    [ "end", "d0/d7c/a09058.html#ab3dc9905d861b62c4551f45ee8b08ba5", null ],
-    [ "_data", "d0/d7c/a09058.html#af60e90664c434a8d36115ca5dec889b5", null ]
+    [ "NearestHostileUnitInAttackDistanceCheck", "d0/d7c/a09058.html#a0b1d14f1347a3749a91ef6e888ccb23e", null ],
+    [ "NearestHostileUnitInAttackDistanceCheck", "d0/d7c/a09058.html#a5645c9808db082b0301ec8b2ea93ce7f", null ],
+    [ "operator()", "d0/d7c/a09058.html#adc28281742cd1f6a49152481b48f944e", null ],
+    [ "m_range", "d0/d7c/a09058.html#ab79296a88ed07257edbe3449c2515b40", null ],
+    [ "me", "d0/d7c/a09058.html#a298d2489b9bf30aa510407afca79a374", null ]
 ];

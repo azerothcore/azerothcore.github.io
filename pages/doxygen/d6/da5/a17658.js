@@ -1,6 +1,6 @@
 var a17658 =
 [
-    [ "ShockVortexExplodeEvent", "d6/da5/a17658.html#ad972aed372822e10a476d1592192f3ea", null ],
-    [ "Execute", "d6/da5/a17658.html#a601f777052b8a142db49e9b0ab1fa81a", null ],
-    [ "_owner", "d6/da5/a17658.html#a76b1887e486969fcd7a236a8eb7a9a2a", null ]
+    [ "npc_bone_spikeAI", "d4/daa/a17662.html", "d4/daa/a17662" ],
+    [ "npc_bone_spike", "d6/da5/a17658.html#ac93d7a45eaeae8d7adf2a3b313825aed", null ],
+    [ "GetAI", "d6/da5/a17658.html#a887a9156f550ca55047fa501e1709d95", null ]
 ];

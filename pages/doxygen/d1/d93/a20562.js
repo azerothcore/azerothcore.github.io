@@ -1,6 +1,6 @@
 var a20562 =
 [
-    [ "PrepareSpellScript", "d1/d93/a20562.html#a9eec638feaf9551c7708da8313df1d18", null ],
-    [ "Register", "d1/d93/a20562.html#a5e772755c48a7cdfe2348433bf849330", null ],
-    [ "SetDest", "d1/d93/a20562.html#ae5361ac583508a6efef19dbd1934199e", null ]
+    [ "boss_thorim_ancient_rune_giantAI", "dc/d04/a20566.html", "dc/d04/a20566" ],
+    [ "boss_thorim_ancient_rune_giant", "d1/d93/a20562.html#ad87dca7c6058e4b8b1234410644523dd", null ],
+    [ "GetAI", "d1/d93/a20562.html#aa8a0ff1416d5678a5d6bb7bdc36d6617", null ]
 ];

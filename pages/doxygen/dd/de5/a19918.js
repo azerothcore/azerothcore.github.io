@@ -1,6 +1,5 @@
 var a19918 =
 [
-    [ "boss_isle_of_conquestAI", "d9/d18/a19922.html", "d9/d18/a19922" ],
-    [ "boss_isle_of_conquest", "dd/de5/a19918.html#ad4052d1b6865585d32016e1240449659", null ],
-    [ "GetAI", "dd/de5/a19918.html#ae14201c4f8654bf2c0cd9ac8a82f3800", null ]
+    [ "achievement_flame_leviathan_shutout", "dd/de5/a19918.html#a555e0d206b7f730665d301c7e03b23e6", null ],
+    [ "OnCheck", "dd/de5/a19918.html#af548232f563fd387bc8ee25b696a2f99", null ]
 ];

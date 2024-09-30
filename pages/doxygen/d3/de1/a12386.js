@@ -1,6 +1,13 @@
 var a12386 =
 [
-    [ "boss_eramas_brightblazeAI", "d1/d54/a12390.html", "d1/d54/a12390" ],
-    [ "boss_eramas_brightblaze", "d3/de1/a12386.html#aa951c5b1cd08da6b5a93ac40dd49402f", null ],
-    [ "GetAI", "d3/de1/a12386.html#a65e998723710920ed77dc307b2d60b3f", null ]
+    [ "boss_crone", "d3/de1/a12386.html#a710bdf6fac05be54cf10e40cd661c837", null ],
+    [ "EnterEvadeMode", "d3/de1/a12386.html#a4dcdde0b699f445cfa6be7e0c7dbb8d0", null ],
+    [ "JustDied", "d3/de1/a12386.html#a545de2a25b48590d11896c41b6e94df0", null ],
+    [ "JustEngagedWith", "d3/de1/a12386.html#a9801cd39667d1a08770820bd17beac00", null ],
+    [ "JustReachedHome", "d3/de1/a12386.html#a59d40cda923cb8b72413b9d5f267f52a", null ],
+    [ "KilledUnit", "d3/de1/a12386.html#ae4d343636955589d740d1df4e21fba99", null ],
+    [ "Reset", "d3/de1/a12386.html#a247db7fc1329ef00e48fd9bd09fb27a1", null ],
+    [ "UpdateAI", "d3/de1/a12386.html#a8bd505acd55ca5292d29c96916a461e5", null ],
+    [ "_scheduler", "d3/de1/a12386.html#a7f9e2e45c0bbb60fc19dd54bc380f814", null ],
+    [ "instance", "d3/de1/a12386.html#a3795fe3185005693ed9bba49177bb35a", null ]
 ];

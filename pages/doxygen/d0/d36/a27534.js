@@ -1,7 +1,8 @@
 var a27534 =
 [
-    [ "HandleProc", "d0/d36/a27534.html#a8a844ca9970584aa4bcbc0107e923ff5", null ],
-    [ "PrepareAuraScript", "d0/d36/a27534.html#a0097e8c7603bf705115958dd5d96f6ad", null ],
-    [ "Register", "d0/d36/a27534.html#aca3cd3a1f4738e3e78c879239a80e9cc", null ],
-    [ "Validate", "d0/d36/a27534.html#a8df8750f53a7c618eb534f40fb17875e", null ]
+    [ "npc_wormholeAI", "d9/de7/a27538.html", "d9/de7/a27538" ],
+    [ "npc_wormhole", "d0/d36/a27534.html#aeace4cbf665409786b86140709191cb0", null ],
+    [ "GetAI", "d0/d36/a27534.html#af43ec809ce2efe2cd7127029f3c3ec45", null ],
+    [ "OnGossipHello", "d0/d36/a27534.html#a6ae1a84557f8dc0f0631b9cc7e88d78e", null ],
+    [ "OnGossipSelect", "d0/d36/a27534.html#a73e441bf05f8a4ea7f57d767945e2d5d", null ]
 ];

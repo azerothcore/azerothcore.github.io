@@ -1,8 +1,13 @@
 var a27946 =
 [
-    [ "HandleApply", "dd/db5/a27946.html#aafdf3712f163919f010d11d0becb398f", null ],
-    [ "HandleRemove", "dd/db5/a27946.html#ac3e33cb37d13b633f3938a48917a4975", null ],
-    [ "PrepareAuraScript", "dd/db5/a27946.html#a42590a0ef43a48c5309f995f9bec5c9b", null ],
-    [ "Register", "dd/db5/a27946.html#a84e7337494dc2e1772ca10dea26c675f", null ],
-    [ "Validate", "dd/db5/a27946.html#ac2558aafb3ce66ca7bbfd718eb8c6338", null ]
+    [ "HasFlag", "dd/db5/a27946.html#a5d13e1af17cddf3acdbfc5387869e43f", null ],
+    [ "CinematicSequence", "dd/db5/a27946.html#a33a01b1c26b21706d9898af246f2a0df", null ],
+    [ "expansion", "dd/db5/a27946.html#ab6547f8b08d4d1bf57a37f9574b71e43", null ],
+    [ "FactionID", "dd/db5/a27946.html#a5c66801f2f89aeb847699a2dd87486c7", null ],
+    [ "Flags", "dd/db5/a27946.html#a8c2d30fb87284806a93d4c1da4a6edb0", null ],
+    [ "model_f", "dd/db5/a27946.html#a4807227fd863e247b18d29db0ea8236a", null ],
+    [ "model_m", "dd/db5/a27946.html#a50b5409352d7fe3e6f5919d83c9a0eae", null ],
+    [ "name", "dd/db5/a27946.html#a4970323e45feb3f74b47420648371ab6", null ],
+    [ "RaceID", "dd/db5/a27946.html#a853f3262af3408cf2791e7cd08ec8d32", null ],
+    [ "TeamID", "dd/db5/a27946.html#addd21f5fbf6868e7cf2cd3c54c7172a1", null ]
 ];

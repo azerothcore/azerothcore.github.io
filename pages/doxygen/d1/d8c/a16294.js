@@ -1,6 +1,6 @@
 var a16294 =
 [
-    [ "spell_halion_clear_debuffs_SpellScript", "d3/dc4/a16298.html", "d3/dc4/a16298" ],
-    [ "spell_halion_clear_debuffs", "d1/d8c/a16294.html#a863f55f12480a315b4579b5f1134be96", null ],
-    [ "GetSpellScript", "d1/d8c/a16294.html#a75ca74031a845242dcea5489380207f3", null ]
+    [ "npc_toc_warriorAI", "d3/dc4/a16298.html", "d3/dc4/a16298" ],
+    [ "npc_toc_warrior", "d1/d8c/a16294.html#a3e969be07603ef59389106769010660c", null ],
+    [ "GetAI", "d1/d8c/a16294.html#a557d9aa512c485e37b4a05b57ab3d1a4", null ]
 ];

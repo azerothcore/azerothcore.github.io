@@ -1,5 +1,6 @@
 var a07538 =
 [
-    [ "BoxText", "d3/ddf/a07538.html#a00882f98df67222d396ae9992084a1cd", null ],
-    [ "OptionText", "d3/ddf/a07538.html#ab69f2dac8061cf8f6762a683243934fa", null ]
+    [ "value_type", "d3/ddf/a07538.html#abd675e353289166cc5c92524915d46af", null ],
+    [ "StoreTo", "d3/ddf/a07538.html#a9fa4a3c03be31b6f6c3c8996c5a7bf6f", null ],
+    [ "tag", "d3/ddf/a07538.html#a102ade7c095fcac914b95708958352f1", null ]
 ];

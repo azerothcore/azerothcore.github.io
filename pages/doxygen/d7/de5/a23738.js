@@ -1,5 +1,6 @@
 var a23738 =
 [
-    [ "go_pressure_valve", "d7/de5/a23738.html#a43a91a1379001ecd3e825d7d4fcd3c6b", null ],
-    [ "OnGossipHello", "d7/de5/a23738.html#a6b81a04a33cd5e1e577fc80a3b1f706c", null ]
+    [ "HandlePeriodic", "d7/de5/a23738.html#ad47e8edce33f9b923aa7bbfe8d0c082a", null ],
+    [ "PrepareAuraScript", "d7/de5/a23738.html#a2aa04c3c08ffc15b481b740d88a54918", null ],
+    [ "Register", "d7/de5/a23738.html#acf77c76f02671da215c7103b60ed77ac", null ]
 ];

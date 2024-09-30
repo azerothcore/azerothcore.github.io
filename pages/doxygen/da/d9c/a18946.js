@@ -1,5 +1,6 @@
 var a18946 =
 [
-    [ "FrozenThroneResetWorker", "da/d9c/a18946.html#afd21e9c1449d4e391713256e197bc92b", null ],
-    [ "operator()", "da/d9c/a18946.html#a7119548d30d760ae817a87cacf712cf6", null ]
+    [ "boss_loathebAI", "d9/d28/a18950.html", "d9/d28/a18950" ],
+    [ "boss_loatheb", "da/d9c/a18946.html#a93bf8055a9ed900c880ef8b81b87bafd", null ],
+    [ "GetAI", "da/d9c/a18946.html#aca9b3a2515777f81b354c01a9727276e", null ]
 ];

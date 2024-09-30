@@ -1,6 +1,7 @@
 var a16082 =
 [
-    [ "boss_sartharionAI", "de/db7/a16086.html", "de/db7/a16086" ],
-    [ "boss_sartharion", "d4/db8/a16082.html#a6605aee69372d08fba8f4b4523896588", null ],
-    [ "GetAI", "d4/db8/a16082.html#aca5d66e0f5cdcafd6f9cd2c173f43839", null ]
+    [ "HandleAfterEffectAbsorb", "d4/db8/a16082.html#ab3d9f3679931b4b3b29713602d08701d", null ],
+    [ "PrepareAuraScript", "d4/db8/a16082.html#a10ee3cda9edfec8140b94e13b88266bd", null ],
+    [ "Register", "d4/db8/a16082.html#ab68a5ccfb0d96390bb83c329eb849cdd", null ],
+    [ "Validate", "d4/db8/a16082.html#a87750183d2b2d6adb67bba4a1f767029", null ]
 ];

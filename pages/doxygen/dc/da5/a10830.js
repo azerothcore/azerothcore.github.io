@@ -1,9 +1,7 @@
 var a10830 =
 [
-    [ "CreatureTextLocalizer", "dc/da5/a10830.html#a799f1007b9977224d71da1451c3454e1", null ],
-    [ "~CreatureTextLocalizer", "dc/da5/a10830.html#a1a03d45dfd3c6c5f6f4995d5efe238a5", null ],
-    [ "operator()", "dc/da5/a10830.html#ab2c364aa9d45ca2267db2641b26821f7", null ],
-    [ "_builder", "dc/da5/a10830.html#a1d8d97d3e423810d044a8155b182899d", null ],
-    [ "_msgType", "dc/da5/a10830.html#adf9260955b0141e85ff47c66350244e2", null ],
-    [ "_packetCache", "dc/da5/a10830.html#afbd6fd63afd6e3362049627e5386ec08", null ]
+    [ "WorldObjectSpellNearbyTargetCheck", "dc/da5/a10830.html#afda548f6394c5d11a7ca229fe6b3d402", null ],
+    [ "operator()", "dc/da5/a10830.html#a731ee07d028a5ee63ecd14321c83664d", null ],
+    [ "_position", "dc/da5/a10830.html#a7b19899dd015a73bd1ae4c71fa9ae79d", null ],
+    [ "_range", "dc/da5/a10830.html#abfec0df490876b2b83dcdee4da75a77f", null ]
 ];

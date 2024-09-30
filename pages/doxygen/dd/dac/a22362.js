@@ -1,6 +1,5 @@
 var a22362 =
 [
-    [ "HandleScriptEffect", "dd/dac/a22362.html#ac342bdc5cf13f1575cd6c04911901154", null ],
-    [ "PrepareSpellScript", "dd/dac/a22362.html#aa3e93a5b8e14b705f9bc04bae8c61dd0", null ],
-    [ "Register", "dd/dac/a22362.html#adc8dc350a543e58130260dd9b7efc6f1", null ]
+    [ "achievement_wg_within_our_grasp", "dd/dac/a22362.html#a9edbd15bc6989c6948e21391a683d22d", null ],
+    [ "OnCheck", "dd/dac/a22362.html#a10b659c4b52322536333e3d191796c27", null ]
 ];

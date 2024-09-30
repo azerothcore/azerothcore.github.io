@@ -1,6 +1,6 @@
 var a23794 =
 [
-    [ "spell_q12589_shoot_rjr_SpellScript", "dd/dc3/a23798.html", "dd/dc3/a23798" ],
-    [ "spell_q12589_shoot_rjr", "dd/dd4/a23794.html#a7f70acaf058522d3266d059f0ca1b39a", null ],
-    [ "GetSpellScript", "dd/dd4/a23794.html#ad59417349e323e7befef6339661d2c24", null ]
+    [ "HandleBeforeCast", "dd/dd4/a23794.html#afe2869e6c91068a0ed7ce09858f774dc", null ],
+    [ "PrepareSpellScript", "dd/dd4/a23794.html#a8b75237de8d54dda3c7888f6d6a9684a", null ],
+    [ "Register", "dd/dd4/a23794.html#a45ae470002052c87d5270e3556f0e706", null ]
 ];

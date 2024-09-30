@@ -1,5 +1,6 @@
 var a23138 =
 [
-    [ "npc_leryssaAI", "d4/d2e/a23138.html#ad21a1e1572880ba8cbf6625e658989eb", null ],
-    [ "MovementInform", "d4/d2e/a23138.html#a36180f7351ab11a9942ec59ee24ae6ad", null ]
+    [ "HandleScriptEffect", "d4/d2e/a23138.html#a18fb2e73a00f1de7c62049eadfcbc658", null ],
+    [ "PrepareSpellScript", "d4/d2e/a23138.html#ae80b4ca96692035c399d1621b632fe66", null ],
+    [ "Register", "d4/d2e/a23138.html#ac655157c74104a51f045e114fc63a42d", null ]
 ];
