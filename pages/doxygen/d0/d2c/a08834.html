@@ -224,82 +224,82 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   42</span>{</div>
-<div class="line"><span class="lineno">   43</span>    <span class="comment">// at this moment i_clientGUIDs have guids that not iterate at grid level checks</span></div>
-<div class="line"><span class="lineno">   44</span>    <span class="comment">// but exist one case when this possible and object not out of range: transports</span></div>
-<div class="line"><span class="lineno">   45</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dd/d8f/a08406.html">Transport</a>* transport = <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../d4/dd5/a08154.html#a9ffd4691b1ebdb5011e800739b4dd4f5">GetTransport</a>())</div>
-<div class="line"><span class="lineno">   46</span>        <span class="keywordflow">for</span> (Transport::PassengerSet::const_iterator itr = transport-&gt;GetPassengers().begin(); itr != transport-&gt;GetPassengers().end(); ++itr)</div>
-<div class="line"><span class="lineno">   47</span>        {</div>
-<div class="line"><span class="lineno">   48</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/a08834.html#a6954721b71a55874c7f708bf822613bd">i_largeOnly</a> != (*itr)-&gt;IsVisibilityOverridden())</div>
-<div class="line"><span class="lineno">   49</span>                <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">   50</span> </div>
-<div class="line"><span class="lineno">   51</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/a08834.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c">vis_guids</a>.find((*itr)-&gt;GetGUID()) != <a class="code hl_variable" href="../../d0/d2c/a08834.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c">vis_guids</a>.end())</div>
-<div class="line"><span class="lineno">   52</span>            {</div>
-<div class="line"><span class="lineno">   53</span>                <a class="code hl_variable" href="../../d0/d2c/a08834.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c">vis_guids</a>.erase((*itr)-&gt;GetGUID());</div>
-<div class="line"><span class="lineno">   54</span> </div>
-<div class="line"><span class="lineno">   55</span>                <span class="keywordflow">switch</span> ((*itr)-&gt;GetTypeId())</div>
-<div class="line"><span class="lineno">   56</span>                {</div>
-<div class="line"><span class="lineno">   57</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/de9/a02153.html#a183c40b2ba67065929d70b3987da4cc2a91b74ac7ebfe7909332a6eec5054c60d">TYPEID_GAMEOBJECT</a>:</div>
-<div class="line"><span class="lineno">   58</span>                        <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../db/de7/a08366.html#a561292db1465ce3928026072248c66b2">UpdateVisibilityOf</a>((*itr)-&gt;ToGameObject(), <a class="code hl_variable" href="../../d0/d2c/a08834.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>, <a class="code hl_variable" href="../../d0/d2c/a08834.html#a34d766816baaad7b1b3623360ec9abeb">i_visibleNow</a>);</div>
-<div class="line"><span class="lineno">   59</span>                        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">   60</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/de9/a02153.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>:</div>
-<div class="line"><span class="lineno">   61</span>                        <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../db/de7/a08366.html#a561292db1465ce3928026072248c66b2">UpdateVisibilityOf</a>((*itr)-&gt;ToPlayer(), <a class="code hl_variable" href="../../d0/d2c/a08834.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>, <a class="code hl_variable" href="../../d0/d2c/a08834.html#a34d766816baaad7b1b3623360ec9abeb">i_visibleNow</a>);</div>
-<div class="line"><span class="lineno">   62</span>                        (*itr)-&gt;ToPlayer()-&gt;UpdateVisibilityOf(&amp;<a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>);</div>
-<div class="line"><span class="lineno">   63</span>                        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">   64</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/de9/a02153.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>:</div>
-<div class="line"><span class="lineno">   65</span>                        <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../db/de7/a08366.html#a561292db1465ce3928026072248c66b2">UpdateVisibilityOf</a>((*itr)-&gt;ToCreature(), <a class="code hl_variable" href="../../d0/d2c/a08834.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>, <a class="code hl_variable" href="../../d0/d2c/a08834.html#a34d766816baaad7b1b3623360ec9abeb">i_visibleNow</a>);</div>
-<div class="line"><span class="lineno">   66</span>                        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">   67</span>                    <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">   68</span>                        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">   69</span>                }</div>
-<div class="line"><span class="lineno">   70</span>            }</div>
-<div class="line"><span class="lineno">   71</span>        }</div>
-<div class="line"><span class="lineno">   72</span> </div>
-<div class="line"><span class="lineno">   73</span>    <span class="keywordflow">for</span> (GuidUnorderedSet::const_iterator it = <a class="code hl_variable" href="../../d0/d2c/a08834.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c">vis_guids</a>.begin(); it != <a class="code hl_variable" href="../../d0/d2c/a08834.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c">vis_guids</a>.end(); ++it)</div>
-<div class="line"><span class="lineno">   74</span>    {</div>
-<div class="line"><span class="lineno">   75</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d4/dd5/a08154.html">WorldObject</a>* obj = <a class="code hl_function" href="../../dc/d12/a04723.html#ade254f98439319c444ce701c75d4f93a">ObjectAccessor::GetWorldObject</a>(<a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>, *it))</div>
-<div class="line"><span class="lineno">   76</span>        {</div>
-<div class="line"><span class="lineno">   77</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/a08834.html#a6954721b71a55874c7f708bf822613bd">i_largeOnly</a> != obj-&gt;IsVisibilityOverridden())</div>
-<div class="line"><span class="lineno">   78</span>                <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">   79</span>        }</div>
-<div class="line"><span class="lineno">   80</span> </div>
-<div class="line"><span class="lineno">   81</span>        <span class="comment">// pussywizard: static transports are removed only in RemovePlayerFromMap and here if can no longer detect (eg. phase changed)</span></div>
-<div class="line"><span class="lineno">   82</span>        <span class="keywordflow">if</span> ((*it).IsTransport())</div>
-<div class="line"><span class="lineno">   83</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dc/d3d/a07926.html">GameObject</a>* staticTrans = <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../d4/dd5/a08154.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../d8/d6d/a09514.html#a92001d81940cdfec678ec714248052a5">GetGameObject</a>(*it))</div>
-<div class="line"><span class="lineno">   84</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../d4/dd5/a08154.html#addeafb9ef860ca79c7a6570ae75a4bd0">CanSeeOrDetect</a>(staticTrans, <span class="keyword">false</span>, <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">   85</span>                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">   86</span> </div>
-<div class="line"><span class="lineno">   87</span>        <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_variable" href="../../db/de7/a08366.html#a52884fe34f963bb66cf72d8e0f388186">m_clientGUIDs</a>.erase(*it);</div>
-<div class="line"><span class="lineno">   88</span>        <a class="code hl_variable" href="../../d0/d2c/a08834.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>.<a class="code hl_function" href="../../de/d68/a08218.html#a4c68f187e2f6e65da3bdb6a443ebcacf">AddOutOfRangeGUID</a>(*it);</div>
-<div class="line"><span class="lineno">   89</span> </div>
-<div class="line"><span class="lineno">   90</span>        <span class="keywordflow">if</span> ((*it).IsPlayer())</div>
-<div class="line"><span class="lineno">   91</span>        {</div>
-<div class="line"><span class="lineno">   92</span>            <a class="code hl_class" href="../../db/de7/a08366.html">Player</a>* player = <a class="code hl_function" href="../../dc/d12/a04723.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a>(*it);</div>
-<div class="line"><span class="lineno">   93</span>            <span class="keywordflow">if</span> (player &amp;&amp; player-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#aedc362bb48f474ee7291f4c82f585837">IsInMap</a>(&amp;<a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>))</div>
-<div class="line"><span class="lineno">   94</span>                player-&gt;<a class="code hl_function" href="../../db/de7/a08366.html#a561292db1465ce3928026072248c66b2">UpdateVisibilityOf</a>(&amp;<a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>);</div>
-<div class="line"><span class="lineno">   95</span>        }</div>
-<div class="line"><span class="lineno">   96</span>    }</div>
-<div class="line"><span class="lineno">   97</span> </div>
-<div class="line"><span class="lineno">   98</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d0/d2c/a08834.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>.<a class="code hl_function" href="../../de/d68/a08218.html#a067577372028ad59aea7942f0cd4a5c2">HasData</a>())</div>
-<div class="line"><span class="lineno">   99</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  100</span> </div>
-<div class="line"><span class="lineno">  101</span>    <a class="code hl_class" href="../../d6/d40/a10674.html">WorldPacket</a> packet;</div>
-<div class="line"><span class="lineno">  102</span>    <a class="code hl_variable" href="../../d0/d2c/a08834.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>.<a class="code hl_function" href="../../de/d68/a08218.html#a3bea592b01b6c9e41b863c26fd602d45">BuildPacket</a>(packet);</div>
-<div class="line"><span class="lineno">  103</span>    <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../db/de7/a08366.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>()-&gt;<a class="code hl_function" href="../../d1/de3/a10718.html#a2c74b80ca9b81765049e315813b29269">SendPacket</a>(&amp;packet);</div>
-<div class="line"><span class="lineno">  104</span> </div>
-<div class="line"><span class="lineno">  105</span>    <span class="keywordflow">for</span> (std::vector&lt;Unit*&gt;::const_iterator it = <a class="code hl_variable" href="../../d0/d2c/a08834.html#a34d766816baaad7b1b3623360ec9abeb">i_visibleNow</a>.begin(); it != <a class="code hl_variable" href="../../d0/d2c/a08834.html#a34d766816baaad7b1b3623360ec9abeb">i_visibleNow</a>.end(); ++it)</div>
-<div class="line"><span class="lineno">  106</span>    {</div>
-<div class="line"><span class="lineno">  107</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/a08834.html#a6954721b71a55874c7f708bf822613bd">i_largeOnly</a> != (*it)-&gt;IsVisibilityOverridden())</div>
-<div class="line"><span class="lineno">  108</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  109</span> </div>
-<div class="line"><span class="lineno">  110</span>        <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../db/de7/a08366.html#ab887cd27711ff0d2e37174fabd33a3ab">GetInitialVisiblePackets</a>(*it);</div>
-<div class="line"><span class="lineno">  111</span>    }</div>
-<div class="line"><span class="lineno">  112</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{</div>
+<div class="line"><span class="lineno">   42</span>    <span class="comment">// at this moment i_clientGUIDs have guids that not iterate at grid level checks</span></div>
+<div class="line"><span class="lineno">   43</span>    <span class="comment">// but exist one case when this possible and object not out of range: transports</span></div>
+<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dd/d8f/a08406.html">Transport</a>* transport = <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../d4/dd5/a08154.html#a9ffd4691b1ebdb5011e800739b4dd4f5">GetTransport</a>())</div>
+<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">for</span> (Transport::PassengerSet::const_iterator itr = transport-&gt;GetPassengers().begin(); itr != transport-&gt;GetPassengers().end(); ++itr)</div>
+<div class="line"><span class="lineno">   46</span>        {</div>
+<div class="line"><span class="lineno">   47</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/a08834.html#a6954721b71a55874c7f708bf822613bd">i_largeOnly</a> != (*itr)-&gt;IsVisibilityOverridden())</div>
+<div class="line"><span class="lineno">   48</span>                <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/a08834.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c">vis_guids</a>.find((*itr)-&gt;GetGUID()) != <a class="code hl_variable" href="../../d0/d2c/a08834.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c">vis_guids</a>.end())</div>
+<div class="line"><span class="lineno">   51</span>            {</div>
+<div class="line"><span class="lineno">   52</span>                <a class="code hl_variable" href="../../d0/d2c/a08834.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c">vis_guids</a>.erase((*itr)-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">   53</span> </div>
+<div class="line"><span class="lineno">   54</span>                <span class="keywordflow">switch</span> ((*itr)-&gt;GetTypeId())</div>
+<div class="line"><span class="lineno">   55</span>                {</div>
+<div class="line"><span class="lineno">   56</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/de9/a02153.html#a183c40b2ba67065929d70b3987da4cc2a91b74ac7ebfe7909332a6eec5054c60d">TYPEID_GAMEOBJECT</a>:</div>
+<div class="line"><span class="lineno">   57</span>                        <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../db/de7/a08366.html#a561292db1465ce3928026072248c66b2">UpdateVisibilityOf</a>((*itr)-&gt;ToGameObject(), <a class="code hl_variable" href="../../d0/d2c/a08834.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>, <a class="code hl_variable" href="../../d0/d2c/a08834.html#a34d766816baaad7b1b3623360ec9abeb">i_visibleNow</a>);</div>
+<div class="line"><span class="lineno">   58</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   59</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/de9/a02153.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>:</div>
+<div class="line"><span class="lineno">   60</span>                        <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../db/de7/a08366.html#a561292db1465ce3928026072248c66b2">UpdateVisibilityOf</a>((*itr)-&gt;ToPlayer(), <a class="code hl_variable" href="../../d0/d2c/a08834.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>, <a class="code hl_variable" href="../../d0/d2c/a08834.html#a34d766816baaad7b1b3623360ec9abeb">i_visibleNow</a>);</div>
+<div class="line"><span class="lineno">   61</span>                        (*itr)-&gt;ToPlayer()-&gt;UpdateVisibilityOf(&amp;<a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>);</div>
+<div class="line"><span class="lineno">   62</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   63</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/de9/a02153.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>:</div>
+<div class="line"><span class="lineno">   64</span>                        <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../db/de7/a08366.html#a561292db1465ce3928026072248c66b2">UpdateVisibilityOf</a>((*itr)-&gt;ToCreature(), <a class="code hl_variable" href="../../d0/d2c/a08834.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>, <a class="code hl_variable" href="../../d0/d2c/a08834.html#a34d766816baaad7b1b3623360ec9abeb">i_visibleNow</a>);</div>
+<div class="line"><span class="lineno">   65</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   66</span>                    <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">   67</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   68</span>                }</div>
+<div class="line"><span class="lineno">   69</span>            }</div>
+<div class="line"><span class="lineno">   70</span>        }</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>    <span class="keywordflow">for</span> (GuidUnorderedSet::const_iterator it = <a class="code hl_variable" href="../../d0/d2c/a08834.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c">vis_guids</a>.begin(); it != <a class="code hl_variable" href="../../d0/d2c/a08834.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c">vis_guids</a>.end(); ++it)</div>
+<div class="line"><span class="lineno">   73</span>    {</div>
+<div class="line"><span class="lineno">   74</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d4/dd5/a08154.html">WorldObject</a>* obj = <a class="code hl_function" href="../../dc/d12/a04723.html#ade254f98439319c444ce701c75d4f93a">ObjectAccessor::GetWorldObject</a>(<a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>, *it))</div>
+<div class="line"><span class="lineno">   75</span>        {</div>
+<div class="line"><span class="lineno">   76</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/a08834.html#a6954721b71a55874c7f708bf822613bd">i_largeOnly</a> != obj-&gt;IsVisibilityOverridden())</div>
+<div class="line"><span class="lineno">   77</span>                <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   78</span>        }</div>
+<div class="line"><span class="lineno">   79</span> </div>
+<div class="line"><span class="lineno">   80</span>        <span class="comment">// pussywizard: static transports are removed only in RemovePlayerFromMap and here if can no longer detect (eg. phase changed)</span></div>
+<div class="line"><span class="lineno">   81</span>        <span class="keywordflow">if</span> ((*it).IsTransport())</div>
+<div class="line"><span class="lineno">   82</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dc/d3d/a07926.html">GameObject</a>* staticTrans = <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../d4/dd5/a08154.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../d8/d6d/a09514.html#a92001d81940cdfec678ec714248052a5">GetGameObject</a>(*it))</div>
+<div class="line"><span class="lineno">   83</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../d4/dd5/a08154.html#addeafb9ef860ca79c7a6570ae75a4bd0">CanSeeOrDetect</a>(staticTrans, <span class="keyword">false</span>, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">   84</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   85</span> </div>
+<div class="line"><span class="lineno">   86</span>        <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_variable" href="../../db/de7/a08366.html#a52884fe34f963bb66cf72d8e0f388186">m_clientGUIDs</a>.erase(*it);</div>
+<div class="line"><span class="lineno">   87</span>        <a class="code hl_variable" href="../../d0/d2c/a08834.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>.<a class="code hl_function" href="../../de/d68/a08218.html#a4c68f187e2f6e65da3bdb6a443ebcacf">AddOutOfRangeGUID</a>(*it);</div>
+<div class="line"><span class="lineno">   88</span> </div>
+<div class="line"><span class="lineno">   89</span>        <span class="keywordflow">if</span> ((*it).IsPlayer())</div>
+<div class="line"><span class="lineno">   90</span>        {</div>
+<div class="line"><span class="lineno">   91</span>            <a class="code hl_class" href="../../db/de7/a08366.html">Player</a>* player = <a class="code hl_function" href="../../dc/d12/a04723.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a>(*it);</div>
+<div class="line"><span class="lineno">   92</span>            <span class="keywordflow">if</span> (player &amp;&amp; player-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#aedc362bb48f474ee7291f4c82f585837">IsInMap</a>(&amp;<a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>))</div>
+<div class="line"><span class="lineno">   93</span>                player-&gt;<a class="code hl_function" href="../../db/de7/a08366.html#a561292db1465ce3928026072248c66b2">UpdateVisibilityOf</a>(&amp;<a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>);</div>
+<div class="line"><span class="lineno">   94</span>        }</div>
+<div class="line"><span class="lineno">   95</span>    }</div>
+<div class="line"><span class="lineno">   96</span> </div>
+<div class="line"><span class="lineno">   97</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d0/d2c/a08834.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>.<a class="code hl_function" href="../../de/d68/a08218.html#a067577372028ad59aea7942f0cd4a5c2">HasData</a>())</div>
+<div class="line"><span class="lineno">   98</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   99</span> </div>
+<div class="line"><span class="lineno">  100</span>    <a class="code hl_class" href="../../d6/d40/a10674.html">WorldPacket</a> packet;</div>
+<div class="line"><span class="lineno">  101</span>    <a class="code hl_variable" href="../../d0/d2c/a08834.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>.<a class="code hl_function" href="../../de/d68/a08218.html#a3bea592b01b6c9e41b863c26fd602d45">BuildPacket</a>(packet);</div>
+<div class="line"><span class="lineno">  102</span>    <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../db/de7/a08366.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>()-&gt;<a class="code hl_function" href="../../d1/de3/a10718.html#a2c74b80ca9b81765049e315813b29269">SendPacket</a>(&amp;packet);</div>
+<div class="line"><span class="lineno">  103</span> </div>
+<div class="line"><span class="lineno">  104</span>    <span class="keywordflow">for</span> (std::vector&lt;Unit*&gt;::const_iterator it = <a class="code hl_variable" href="../../d0/d2c/a08834.html#a34d766816baaad7b1b3623360ec9abeb">i_visibleNow</a>.begin(); it != <a class="code hl_variable" href="../../d0/d2c/a08834.html#a34d766816baaad7b1b3623360ec9abeb">i_visibleNow</a>.end(); ++it)</div>
+<div class="line"><span class="lineno">  105</span>    {</div>
+<div class="line"><span class="lineno">  106</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/a08834.html#a6954721b71a55874c7f708bf822613bd">i_largeOnly</a> != (*it)-&gt;IsVisibilityOverridden())</div>
+<div class="line"><span class="lineno">  107</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  108</span> </div>
+<div class="line"><span class="lineno">  109</span>        <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../db/de7/a08366.html#ab887cd27711ff0d2e37174fabd33a3ab">GetInitialVisiblePackets</a>(*it);</div>
+<div class="line"><span class="lineno">  110</span>    }</div>
+<div class="line"><span class="lineno">  111</span>}</div>
 <div class="ttc" id="aa02153_html_a183c40b2ba67065929d70b3987da4cc2a91b74ac7ebfe7909332a6eec5054c60d"><div class="ttname"><a href="../../df/de9/a02153.html#a183c40b2ba67065929d70b3987da4cc2a91b74ac7ebfe7909332a6eec5054c60d">TYPEID_GAMEOBJECT</a></div><div class="ttdeci">@ TYPEID_GAMEOBJECT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:37</div></div>
 <div class="ttc" id="aa02153_html_a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9"><div class="ttname"><a href="../../df/de9/a02153.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a></div><div class="ttdeci">@ TYPEID_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:35</div></div>
 <div class="ttc" id="aa02153_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../df/de9/a02153.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:36</div></div>
-<div class="ttc" id="aa04723_html_a9ede56180a13f102ad195136eadb97ee"><div class="ttname"><a href="../../dc/d12/a04723.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a></div><div class="ttdeci">Player * FindPlayer(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:248</div></div>
-<div class="ttc" id="aa04723_html_ade254f98439319c444ce701c75d4f93a"><div class="ttname"><a href="../../dc/d12/a04723.html#ade254f98439319c444ce701c75d4f93a">ObjectAccessor::GetWorldObject</a></div><div class="ttdeci">WorldObject * GetWorldObject(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:118</div></div>
+<div class="ttc" id="aa04723_html_a9ede56180a13f102ad195136eadb97ee"><div class="ttname"><a href="../../dc/d12/a04723.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a></div><div class="ttdeci">Player * FindPlayer(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:245</div></div>
+<div class="ttc" id="aa04723_html_ade254f98439319c444ce701c75d4f93a"><div class="ttname"><a href="../../dc/d12/a04723.html#ade254f98439319c444ce701c75d4f93a">ObjectAccessor::GetWorldObject</a></div><div class="ttdeci">WorldObject * GetWorldObject(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:115</div></div>
 <div class="ttc" id="aa07926_html"><div class="ttname"><a href="../../dc/d3d/a07926.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:121</div></div>
 <div class="ttc" id="aa08154_html"><div class="ttname"><a href="../../d4/dd5/a08154.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> Object.h:405</div></div>
 <div class="ttc" id="aa08154_html_a1013c27be4347a1b1a4a986a07456deb"><div class="ttname"><a href="../../d4/dd5/a08154.html#a1013c27be4347a1b1a4a986a07456deb">WorldObject::GetMap</a></div><div class="ttdeci">Map * GetMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:531</div></div>
@@ -319,9 +319,9 @@ Public Attributes</h2></td></tr>
 <div class="ttc" id="aa10674_html"><div class="ttname"><a href="../../d6/d40/a10674.html">WorldPacket</a></div><div class="ttdef"><b>Definition:</b> WorldPacket.h:27</div></div>
 <div class="ttc" id="aa10718_html_a2c74b80ca9b81765049e315813b29269"><div class="ttname"><a href="../../d1/de3/a10718.html#a2c74b80ca9b81765049e315813b29269">WorldSession::SendPacket</a></div><div class="ttdeci">void SendPacket(WorldPacket const *packet)</div><div class="ttdoc">Send a packet to the client.</div><div class="ttdef"><b>Definition:</b> WorldSession.cpp:214</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00031">UpdateData::AddOutOfRangeGUID()</a>, <a class="el" href="../../#l00048">UpdateData::BuildPacket()</a>, <a class="el" href="../../#l01726">WorldObject::CanSeeOrDetect()</a>, <a class="el" href="../../#l00248">ObjectAccessor::FindPlayer()</a>, <a class="el" href="../../#l03319">Map::GetGameObject()</a>, <a class="el" href="../../#l01656">Player::GetInitialVisiblePackets()</a>, <a class="el" href="../../#l00531">WorldObject::GetMap()</a>, <a class="el" href="../../#l01980">Player::GetSession()</a>, <a class="el" href="../../#l00599">WorldObject::GetTransport()</a>, <a class="el" href="../../#l00118">ObjectAccessor::GetWorldObject()</a>, <a class="el" href="../../#l00060">UpdateData::HasData()</a>, <a class="el" href="../../#l00050">i_data</a>, <a class="el" href="../../#l00049">i_largeOnly</a>, <a class="el" href="../../#l00045">i_player</a>, <a class="el" href="../../#l00047">i_visibleNow</a>, <a class="el" href="../../#l01285">WorldObject::IsInMap()</a>, <a class="el" href="../../#l02363">Player::m_clientGUIDs</a>, <a class="el" href="../../#l00214">WorldSession::SendPacket()</a>, <a class="el" href="../../#l00037">TYPEID_GAMEOBJECT</a>, <a class="el" href="../../#l00036">TYPEID_PLAYER</a>, <a class="el" href="../../#l00035">TYPEID_UNIT</a>, <a class="el" href="../../#l01667">Player::UpdateVisibilityOf()</a>, and <a class="el" href="../../#l00046">vis_guids</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00031">UpdateData::AddOutOfRangeGUID()</a>, <a class="el" href="../../#l00048">UpdateData::BuildPacket()</a>, <a class="el" href="../../#l01726">WorldObject::CanSeeOrDetect()</a>, <a class="el" href="../../#l00245">ObjectAccessor::FindPlayer()</a>, <a class="el" href="../../#l03319">Map::GetGameObject()</a>, <a class="el" href="../../#l01656">Player::GetInitialVisiblePackets()</a>, <a class="el" href="../../#l00531">WorldObject::GetMap()</a>, <a class="el" href="../../#l01980">Player::GetSession()</a>, <a class="el" href="../../#l00599">WorldObject::GetTransport()</a>, <a class="el" href="../../#l00115">ObjectAccessor::GetWorldObject()</a>, <a class="el" href="../../#l00060">UpdateData::HasData()</a>, <a class="el" href="../../#l00050">i_data</a>, <a class="el" href="../../#l00049">i_largeOnly</a>, <a class="el" href="../../#l00045">i_player</a>, <a class="el" href="../../#l00047">i_visibleNow</a>, <a class="el" href="../../#l01285">WorldObject::IsInMap()</a>, <a class="el" href="../../#l02363">Player::m_clientGUIDs</a>, <a class="el" href="../../#l00214">WorldSession::SendPacket()</a>, <a class="el" href="../../#l00037">TYPEID_GAMEOBJECT</a>, <a class="el" href="../../#l00036">TYPEID_PLAYER</a>, <a class="el" href="../../#l00035">TYPEID_UNIT</a>, <a class="el" href="../../#l01667">Player::UpdateVisibilityOf()</a>, and <a class="el" href="../../#l00046">vis_guids</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l20368">Unit::ExecuteDelayedUnitRelocationEvent()</a>, and <a class="el" href="../../#l01542">Player::UpdateVisibilityForPlayer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l20378">Unit::ExecuteDelayedUnitRelocationEvent()</a>, and <a class="el" href="../../#l01542">Player::UpdateVisibilityForPlayer()</a>.</p>
 
 </div>
 </div>
@@ -340,17 +340,17 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   29</span>{</div>
-<div class="line"><span class="lineno">   30</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d2/dc4/a05134.html">GameObjectMapType::iterator</a> iter = m.<a class="code hl_function" href="../../d9/db0/a08822.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); iter != m.<a class="code hl_function" href="../../d9/db0/a08822.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++iter)</div>
-<div class="line"><span class="lineno">   31</span>    {</div>
-<div class="line"><span class="lineno">   32</span>        <a class="code hl_class" href="../../dc/d3d/a07926.html">GameObject</a>* go = iter-&gt;GetSource();</div>
-<div class="line"><span class="lineno">   33</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/a08834.html#a6954721b71a55874c7f708bf822613bd">i_largeOnly</a> != go-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#a4f4a4f64229ca85c4ed891ee566fcd7c">IsVisibilityOverridden</a>())</div>
-<div class="line"><span class="lineno">   34</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">   35</span> </div>
-<div class="line"><span class="lineno">   36</span>        <a class="code hl_variable" href="../../d0/d2c/a08834.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c">vis_guids</a>.erase(go-&gt;<a class="code hl_function" href="../../d8/dc8/a08122.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
-<div class="line"><span class="lineno">   37</span>        <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../db/de7/a08366.html#a561292db1465ce3928026072248c66b2">UpdateVisibilityOf</a>(go, <a class="code hl_variable" href="../../d0/d2c/a08834.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>, <a class="code hl_variable" href="../../d0/d2c/a08834.html#a34d766816baaad7b1b3623360ec9abeb">i_visibleNow</a>);</div>
-<div class="line"><span class="lineno">   38</span>    }</div>
-<div class="line"><span class="lineno">   39</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
+<div class="line"><span class="lineno">   29</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d2/dc4/a05134.html">GameObjectMapType::iterator</a> iter = m.<a class="code hl_function" href="../../d9/db0/a08822.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); iter != m.<a class="code hl_function" href="../../d9/db0/a08822.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++iter)</div>
+<div class="line"><span class="lineno">   30</span>    {</div>
+<div class="line"><span class="lineno">   31</span>        <a class="code hl_class" href="../../dc/d3d/a07926.html">GameObject</a>* go = iter-&gt;GetSource();</div>
+<div class="line"><span class="lineno">   32</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/a08834.html#a6954721b71a55874c7f708bf822613bd">i_largeOnly</a> != go-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#a4f4a4f64229ca85c4ed891ee566fcd7c">IsVisibilityOverridden</a>())</div>
+<div class="line"><span class="lineno">   33</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>        <a class="code hl_variable" href="../../d0/d2c/a08834.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c">vis_guids</a>.erase(go-&gt;<a class="code hl_function" href="../../d8/dc8/a08122.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">   36</span>        <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../db/de7/a08366.html#a561292db1465ce3928026072248c66b2">UpdateVisibilityOf</a>(go, <a class="code hl_variable" href="../../d0/d2c/a08834.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>, <a class="code hl_variable" href="../../d0/d2c/a08834.html#a34d766816baaad7b1b3623360ec9abeb">i_visibleNow</a>);</div>
+<div class="line"><span class="lineno">   37</span>    }</div>
+<div class="line"><span class="lineno">   38</span>}</div>
 <div class="ttc" id="aa05134_html"><div class="ttname"><a href="../../d2/dc4/a05134.html">LinkedListHead::Iterator</a></div><div class="ttdef"><b>Definition:</b> LinkedList.h:139</div></div>
 <div class="ttc" id="aa08122_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/dc8/a08122.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
 <div class="ttc" id="aa08154_html_a4f4a4f64229ca85c4ed891ee566fcd7c"><div class="ttname"><a href="../../d4/dd5/a08154.html#a4f4a4f64229ca85c4ed891ee566fcd7c">WorldObject::IsVisibilityOverridden</a></div><div class="ttdeci">bool IsVisibilityOverridden() const</div><div class="ttdef"><b>Definition:</b> Object.h:577</div></div>
@@ -388,20 +388,20 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
-<div class="line"><span class="lineno">   35</span>    <span class="comment">// Xinef: Update gameobjects only</span></div>
-<div class="line"><span class="lineno">   36</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/a08834.html#a019182fa8a629d796982f9cc565d9bc3">i_gobjOnly</a>)</div>
-<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">   38</span> </div>
-<div class="line"><span class="lineno">   39</span>    <span class="keywordflow">for</span> (<span class="keyword">typename</span> <a class="code hl_class" href="../../d2/dc4/a05134.html">GridRefMgr&lt;T&gt;::iterator</a> iter = m.<a class="code hl_function" href="../../d9/db0/a08822.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); iter != m.<a class="code hl_function" href="../../d9/db0/a08822.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++iter)</div>
-<div class="line"><span class="lineno">   40</span>    {</div>
-<div class="line"><span class="lineno">   41</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/a08834.html#a6954721b71a55874c7f708bf822613bd">i_largeOnly</a> != iter-&gt;GetSource()-&gt;IsVisibilityOverridden())</div>
-<div class="line"><span class="lineno">   42</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">   43</span> </div>
-<div class="line"><span class="lineno">   44</span>        <a class="code hl_variable" href="../../d0/d2c/a08834.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c">vis_guids</a>.erase(iter-&gt;GetSource()-&gt;GetGUID());</div>
-<div class="line"><span class="lineno">   45</span>        <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../db/de7/a08366.html#a561292db1465ce3928026072248c66b2">UpdateVisibilityOf</a>(iter-&gt;GetSource(), <a class="code hl_variable" href="../../d0/d2c/a08834.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>, <a class="code hl_variable" href="../../d0/d2c/a08834.html#a34d766816baaad7b1b3623360ec9abeb">i_visibleNow</a>);</div>
-<div class="line"><span class="lineno">   46</span>    }</div>
-<div class="line"><span class="lineno">   47</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    <span class="comment">// Xinef: Update gameobjects only</span></div>
+<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/a08834.html#a019182fa8a629d796982f9cc565d9bc3">i_gobjOnly</a>)</div>
+<div class="line"><span class="lineno">   34</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   35</span> </div>
+<div class="line"><span class="lineno">   36</span>    <span class="keywordflow">for</span> (<span class="keyword">typename</span> <a class="code hl_class" href="../../d2/dc4/a05134.html">GridRefMgr&lt;T&gt;::iterator</a> iter = m.<a class="code hl_function" href="../../d9/db0/a08822.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); iter != m.<a class="code hl_function" href="../../d9/db0/a08822.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++iter)</div>
+<div class="line"><span class="lineno">   37</span>    {</div>
+<div class="line"><span class="lineno">   38</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/a08834.html#a6954721b71a55874c7f708bf822613bd">i_largeOnly</a> != iter-&gt;GetSource()-&gt;IsVisibilityOverridden())</div>
+<div class="line"><span class="lineno">   39</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>        <a class="code hl_variable" href="../../d0/d2c/a08834.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c">vis_guids</a>.erase(iter-&gt;GetSource()-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">   42</span>        <a class="code hl_variable" href="../../d0/d2c/a08834.html#aaa324b9a9cffd59c7cbab0c08cf68395">i_player</a>.<a class="code hl_function" href="../../db/de7/a08366.html#a561292db1465ce3928026072248c66b2">UpdateVisibilityOf</a>(iter-&gt;GetSource(), <a class="code hl_variable" href="../../d0/d2c/a08834.html#a6cfba0f042e117cfdb7bdf1f1168c0ce">i_data</a>, <a class="code hl_variable" href="../../d0/d2c/a08834.html#a34d766816baaad7b1b3623360ec9abeb">i_visibleNow</a>);</div>
+<div class="line"><span class="lineno">   43</span>    }</div>
+<div class="line"><span class="lineno">   44</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00035">GridRefMgr&lt; OBJECT &gt;::begin()</a>, <a class="el" href="../../#l00036">GridRefMgr&lt; OBJECT &gt;::end()</a>, <a class="el" href="../../#l00050">i_data</a>, <a class="el" href="../../#l00048">i_gobjOnly</a>, <a class="el" href="../../#l00049">i_largeOnly</a>, <a class="el" href="../../#l00045">i_player</a>, <a class="el" href="../../#l00047">i_visibleNow</a>, <a class="el" href="../../#l01667">Player::UpdateVisibilityOf()</a>, and <a class="el" href="../../#l00046">vis_guids</a>.</p>
 
@@ -420,7 +420,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00041">SendToSelf()</a>, <a class="el" href="../../#l00028">Visit()</a>, and <a class="el" href="../../#l00169">Acore::PlayerRelocationNotifier::Visit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00040">SendToSelf()</a>, <a class="el" href="../../#l00027">Visit()</a>, and <a class="el" href="../../#l00168">Acore::PlayerRelocationNotifier::Visit()</a>.</p>
 
 </div>
 </div>
@@ -436,7 +436,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00033">Visit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00030">Visit()</a>.</p>
 
 </div>
 </div>
@@ -452,7 +452,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00041">SendToSelf()</a>, and <a class="el" href="../../#l00028">Visit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00040">SendToSelf()</a>, and <a class="el" href="../../#l00027">Visit()</a>.</p>
 
 </div>
 </div>
@@ -468,7 +468,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00041">SendToSelf()</a>, <a class="el" href="../../#l00028">Visit()</a>, and <a class="el" href="../../#l00169">Acore::PlayerRelocationNotifier::Visit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00040">SendToSelf()</a>, <a class="el" href="../../#l00027">Visit()</a>, and <a class="el" href="../../#l00168">Acore::PlayerRelocationNotifier::Visit()</a>.</p>
 
 </div>
 </div>
@@ -484,7 +484,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00041">SendToSelf()</a>, <a class="el" href="../../#l00052">VisibleNotifier()</a>, <a class="el" href="../../#l00028">Visit()</a>, and <a class="el" href="../../#l00169">Acore::PlayerRelocationNotifier::Visit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00040">SendToSelf()</a>, <a class="el" href="../../#l00052">VisibleNotifier()</a>, <a class="el" href="../../#l00027">Visit()</a>, and <a class="el" href="../../#l00168">Acore::PlayerRelocationNotifier::Visit()</a>.</p>
 
 </div>
 </div>
@@ -500,7 +500,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00041">SendToSelf()</a>, <a class="el" href="../../#l00028">Visit()</a>, and <a class="el" href="../../#l00169">Acore::PlayerRelocationNotifier::Visit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00040">SendToSelf()</a>, <a class="el" href="../../#l00027">Visit()</a>, and <a class="el" href="../../#l00168">Acore::PlayerRelocationNotifier::Visit()</a>.</p>
 
 </div>
 </div>
@@ -510,7 +510,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">Acore</a></li><li class="navelem"><a class="el" href="../../d0/d2c/a08834.html">VisibleNotifier</a></li>
-    <li class="footer">Generated on Mon Sep 30 2024 20:42:44 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Oct 7 2024 20:43:00 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

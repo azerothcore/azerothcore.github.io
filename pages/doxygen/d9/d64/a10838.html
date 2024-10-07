@@ -217,10 +217,10 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 9060</span>        : <a class="code hl_function" href="../../d3/dcf/a10834.html#a2b017300220426ac42de18e3a8699219">WorldObjectSpellAreaTargetCheck</a>(range, caster, caster, caster, spellInfo, selectionType, condList), <a class="code hl_variable" href="../../d9/d64/a10838.html#a8f946789292320ea8b205dec5d1e1975">_coneAngle</a>(coneAngle)</div>
-<div class="line"><span class="lineno"> 9061</span>    {</div>
-<div class="line"><span class="lineno"> 9062</span>    }</div>
-<div class="ttc" id="aa10834_html_a2b017300220426ac42de18e3a8699219"><div class="ttname"><a href="../../d3/dcf/a10834.html#a2b017300220426ac42de18e3a8699219">Acore::WorldObjectSpellAreaTargetCheck::WorldObjectSpellAreaTargetCheck</a></div><div class="ttdeci">WorldObjectSpellAreaTargetCheck(float range, Position const *position, Unit *caster, Unit *referer, SpellInfo const *spellInfo, SpellTargetCheckTypes selectionType, ConditionList *condList)</div><div class="ttdef"><b>Definition:</b> Spell.cpp:9038</div></div>
+<div class="fragment"><div class="line"><span class="lineno"> 9059</span>        : <a class="code hl_function" href="../../d3/dcf/a10834.html#a2b017300220426ac42de18e3a8699219">WorldObjectSpellAreaTargetCheck</a>(range, caster, caster, caster, spellInfo, selectionType, condList), <a class="code hl_variable" href="../../d9/d64/a10838.html#a8f946789292320ea8b205dec5d1e1975">_coneAngle</a>(coneAngle)</div>
+<div class="line"><span class="lineno"> 9060</span>    {</div>
+<div class="line"><span class="lineno"> 9061</span>    }</div>
+<div class="ttc" id="aa10834_html_a2b017300220426ac42de18e3a8699219"><div class="ttname"><a href="../../d3/dcf/a10834.html#a2b017300220426ac42de18e3a8699219">Acore::WorldObjectSpellAreaTargetCheck::WorldObjectSpellAreaTargetCheck</a></div><div class="ttdeci">WorldObjectSpellAreaTargetCheck(float range, Position const *position, Unit *caster, Unit *referer, SpellInfo const *spellInfo, SpellTargetCheckTypes selectionType, ConditionList *condList)</div><div class="ttdef"><b>Definition:</b> Spell.cpp:9037</div></div>
 <div class="ttc" id="aa10838_html_a8f946789292320ea8b205dec5d1e1975"><div class="ttname"><a href="../../d9/d64/a10838.html#a8f946789292320ea8b205dec5d1e1975">Acore::WorldObjectSpellConeTargetCheck::_coneAngle</a></div><div class="ttdeci">float _coneAngle</div><div class="ttdef"><b>Definition:</b> Spell.h:829</div></div>
 </div><!-- fragment -->
 </div>
@@ -241,24 +241,24 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 9065</span>    {</div>
-<div class="line"><span class="lineno"> 9066</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/dd9/a10826.html#a66bd07338943ee307be19f22326b29b7">_spellInfo</a>-&gt;<a class="code hl_function" href="../../d2/d74/a10874.html#a975746d6b737abb063ea037327abfc5a">HasAttribute</a>(<a class="code hl_enumvalue" href="../../d7/d54/a02342.html#a93795b2131c8cbe38a7b23768a5a146da6f734acb36c68fcc4881a4d4e844ee11">SPELL_ATTR0_CU_CONE_BACK</a>))</div>
-<div class="line"><span class="lineno"> 9067</span>        {</div>
-<div class="line"><span class="lineno"> 9068</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/dd9/a10826.html#ac090f8e47bcdfccb85fb791856355827">_caster</a>-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#ab1245a01671d8012b9aee4c915028900">isInBack</a>(target, <a class="code hl_variable" href="../../d9/d64/a10838.html#a8f946789292320ea8b205dec5d1e1975">_coneAngle</a>))</div>
-<div class="line"><span class="lineno"> 9069</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 9070</span>        }</div>
-<div class="line"><span class="lineno"> 9071</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/dd9/a10826.html#a66bd07338943ee307be19f22326b29b7">_spellInfo</a>-&gt;<a class="code hl_function" href="../../d2/d74/a10874.html#a975746d6b737abb063ea037327abfc5a">HasAttribute</a>(<a class="code hl_enumvalue" href="../../d7/d54/a02342.html#a93795b2131c8cbe38a7b23768a5a146daf56afff0380689f8a82952e2db4a584c">SPELL_ATTR0_CU_CONE_LINE</a>))</div>
-<div class="line"><span class="lineno"> 9072</span>        {</div>
-<div class="line"><span class="lineno"> 9073</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/dd9/a10826.html#ac090f8e47bcdfccb85fb791856355827">_caster</a>-&gt;<a class="code hl_function" href="../../d9/d08/a08198.html#a0c809407f6a671597467291f811e4a27">HasInLine</a>(target, <a class="code hl_variable" href="../../d6/dd9/a10826.html#ac090f8e47bcdfccb85fb791856355827">_caster</a>-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#ae3ccd7ee8fcb156805c61b83e5c016ae">GetObjectSize</a>() + target-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#ae3ccd7ee8fcb156805c61b83e5c016ae">GetObjectSize</a>()))</div>
-<div class="line"><span class="lineno"> 9074</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 9075</span>        }</div>
-<div class="line"><span class="lineno"> 9076</span>        <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 9077</span>        {</div>
-<div class="line"><span class="lineno"> 9078</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/dd9/a10826.html#ac090f8e47bcdfccb85fb791856355827">_caster</a>-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#a00db62e79f895c1fe3893c95ee30b6fe">isInFront</a>(target, <a class="code hl_variable" href="../../d9/d64/a10838.html#a8f946789292320ea8b205dec5d1e1975">_coneAngle</a>))</div>
-<div class="line"><span class="lineno"> 9079</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 9080</span>        }</div>
-<div class="line"><span class="lineno"> 9081</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d3/dcf/a10834.html#a36a7194e3ffbdc2ea1c4bd5ed5997da4">WorldObjectSpellAreaTargetCheck::operator ()</a>(target);</div>
-<div class="line"><span class="lineno"> 9082</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 9064</span>    {</div>
+<div class="line"><span class="lineno"> 9065</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/dd9/a10826.html#a66bd07338943ee307be19f22326b29b7">_spellInfo</a>-&gt;<a class="code hl_function" href="../../d2/d74/a10874.html#a975746d6b737abb063ea037327abfc5a">HasAttribute</a>(<a class="code hl_enumvalue" href="../../d7/d54/a02342.html#a93795b2131c8cbe38a7b23768a5a146da6f734acb36c68fcc4881a4d4e844ee11">SPELL_ATTR0_CU_CONE_BACK</a>))</div>
+<div class="line"><span class="lineno"> 9066</span>        {</div>
+<div class="line"><span class="lineno"> 9067</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/dd9/a10826.html#ac090f8e47bcdfccb85fb791856355827">_caster</a>-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#ab1245a01671d8012b9aee4c915028900">isInBack</a>(target, <a class="code hl_variable" href="../../d9/d64/a10838.html#a8f946789292320ea8b205dec5d1e1975">_coneAngle</a>))</div>
+<div class="line"><span class="lineno"> 9068</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 9069</span>        }</div>
+<div class="line"><span class="lineno"> 9070</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/dd9/a10826.html#a66bd07338943ee307be19f22326b29b7">_spellInfo</a>-&gt;<a class="code hl_function" href="../../d2/d74/a10874.html#a975746d6b737abb063ea037327abfc5a">HasAttribute</a>(<a class="code hl_enumvalue" href="../../d7/d54/a02342.html#a93795b2131c8cbe38a7b23768a5a146daf56afff0380689f8a82952e2db4a584c">SPELL_ATTR0_CU_CONE_LINE</a>))</div>
+<div class="line"><span class="lineno"> 9071</span>        {</div>
+<div class="line"><span class="lineno"> 9072</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/dd9/a10826.html#ac090f8e47bcdfccb85fb791856355827">_caster</a>-&gt;<a class="code hl_function" href="../../d9/d08/a08198.html#a0c809407f6a671597467291f811e4a27">HasInLine</a>(target, <a class="code hl_variable" href="../../d6/dd9/a10826.html#ac090f8e47bcdfccb85fb791856355827">_caster</a>-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#ae3ccd7ee8fcb156805c61b83e5c016ae">GetObjectSize</a>() + target-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#ae3ccd7ee8fcb156805c61b83e5c016ae">GetObjectSize</a>()))</div>
+<div class="line"><span class="lineno"> 9073</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 9074</span>        }</div>
+<div class="line"><span class="lineno"> 9075</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 9076</span>        {</div>
+<div class="line"><span class="lineno"> 9077</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/dd9/a10826.html#ac090f8e47bcdfccb85fb791856355827">_caster</a>-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#a00db62e79f895c1fe3893c95ee30b6fe">isInFront</a>(target, <a class="code hl_variable" href="../../d9/d64/a10838.html#a8f946789292320ea8b205dec5d1e1975">_coneAngle</a>))</div>
+<div class="line"><span class="lineno"> 9078</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 9079</span>        }</div>
+<div class="line"><span class="lineno"> 9080</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d3/dcf/a10834.html#a36a7194e3ffbdc2ea1c4bd5ed5997da4">WorldObjectSpellAreaTargetCheck::operator ()</a>(target);</div>
+<div class="line"><span class="lineno"> 9081</span>    }</div>
 <div class="ttc" id="aa02342_html_a93795b2131c8cbe38a7b23768a5a146da6f734acb36c68fcc4881a4d4e844ee11"><div class="ttname"><a href="../../d7/d54/a02342.html#a93795b2131c8cbe38a7b23768a5a146da6f734acb36c68fcc4881a4d4e844ee11">SPELL_ATTR0_CU_CONE_BACK</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_CONE_BACK</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:177</div></div>
 <div class="ttc" id="aa02342_html_a93795b2131c8cbe38a7b23768a5a146daf56afff0380689f8a82952e2db4a584c"><div class="ttname"><a href="../../d7/d54/a02342.html#a93795b2131c8cbe38a7b23768a5a146daf56afff0380689f8a82952e2db4a584c">SPELL_ATTR0_CU_CONE_LINE</a></div><div class="ttdeci">@ SPELL_ATTR0_CU_CONE_LINE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:178</div></div>
 <div class="ttc" id="aa08154_html_a00db62e79f895c1fe3893c95ee30b6fe"><div class="ttname"><a href="../../d4/dd5/a08154.html#a00db62e79f895c1fe3893c95ee30b6fe">WorldObject::isInFront</a></div><div class="ttdeci">bool isInFront(WorldObject const *target, float arc=M_PI) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1492</div></div>
@@ -267,10 +267,10 @@ Public Attributes</h2></td></tr>
 <div class="ttc" id="aa08198_html_a0c809407f6a671597467291f811e4a27"><div class="ttname"><a href="../../d9/d08/a08198.html#a0c809407f6a671597467291f811e4a27">Position::HasInLine</a></div><div class="ttdeci">bool HasInLine(Position const *pos, float width) const</div><div class="ttdef"><b>Definition:</b> Position.cpp:42</div></div>
 <div class="ttc" id="aa10826_html_a66bd07338943ee307be19f22326b29b7"><div class="ttname"><a href="../../d6/dd9/a10826.html#a66bd07338943ee307be19f22326b29b7">Acore::WorldObjectSpellTargetCheck::_spellInfo</a></div><div class="ttdeci">SpellInfo const  * _spellInfo</div><div class="ttdef"><b>Definition:</b> Spell.h:798</div></div>
 <div class="ttc" id="aa10826_html_ac090f8e47bcdfccb85fb791856355827"><div class="ttname"><a href="../../d6/dd9/a10826.html#ac090f8e47bcdfccb85fb791856355827">Acore::WorldObjectSpellTargetCheck::_caster</a></div><div class="ttdeci">Unit * _caster</div><div class="ttdef"><b>Definition:</b> Spell.h:796</div></div>
-<div class="ttc" id="aa10834_html_a36a7194e3ffbdc2ea1c4bd5ed5997da4"><div class="ttname"><a href="../../d3/dcf/a10834.html#a36a7194e3ffbdc2ea1c4bd5ed5997da4">Acore::WorldObjectSpellAreaTargetCheck::operator()</a></div><div class="ttdeci">bool operator()(WorldObject *target)</div><div class="ttdef"><b>Definition:</b> Spell.cpp:9044</div></div>
+<div class="ttc" id="aa10834_html_a36a7194e3ffbdc2ea1c4bd5ed5997da4"><div class="ttname"><a href="../../d3/dcf/a10834.html#a36a7194e3ffbdc2ea1c4bd5ed5997da4">Acore::WorldObjectSpellAreaTargetCheck::operator()</a></div><div class="ttdeci">bool operator()(WorldObject *target)</div><div class="ttdef"><b>Definition:</b> Spell.cpp:9043</div></div>
 <div class="ttc" id="aa10874_html_a975746d6b737abb063ea037327abfc5a"><div class="ttname"><a href="../../d2/d74/a10874.html#a975746d6b737abb063ea037327abfc5a">SpellInfo::HasAttribute</a></div><div class="ttdeci">bool HasAttribute(SpellAttr0 attribute) const</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:415</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00796">Acore::WorldObjectSpellTargetCheck::_caster</a>, <a class="el" href="../../#l00829">_coneAngle</a>, <a class="el" href="../../#l00798">Acore::WorldObjectSpellTargetCheck::_spellInfo</a>, <a class="el" href="../../#l02771">WorldObject::GetObjectSize()</a>, <a class="el" href="../../#l00415">SpellInfo::HasAttribute()</a>, <a class="el" href="../../#l00042">Position::HasInLine()</a>, <a class="el" href="../../#l01497">WorldObject::isInBack()</a>, <a class="el" href="../../#l01492">WorldObject::isInFront()</a>, <a class="el" href="../../#l09044">Acore::WorldObjectSpellAreaTargetCheck::operator()()</a>, <a class="el" href="../../#l00177">SPELL_ATTR0_CU_CONE_BACK</a>, and <a class="el" href="../../#l00178">SPELL_ATTR0_CU_CONE_LINE</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00796">Acore::WorldObjectSpellTargetCheck::_caster</a>, <a class="el" href="../../#l00829">_coneAngle</a>, <a class="el" href="../../#l00798">Acore::WorldObjectSpellTargetCheck::_spellInfo</a>, <a class="el" href="../../#l02771">WorldObject::GetObjectSize()</a>, <a class="el" href="../../#l00415">SpellInfo::HasAttribute()</a>, <a class="el" href="../../#l00042">Position::HasInLine()</a>, <a class="el" href="../../#l01497">WorldObject::isInBack()</a>, <a class="el" href="../../#l01492">WorldObject::isInFront()</a>, <a class="el" href="../../#l09043">Acore::WorldObjectSpellAreaTargetCheck::operator()()</a>, <a class="el" href="../../#l00177">SPELL_ATTR0_CU_CONE_BACK</a>, and <a class="el" href="../../#l00178">SPELL_ATTR0_CU_CONE_LINE</a>.</p>
 
 </div>
 </div>
@@ -287,7 +287,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l09064">operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l09063">operator()()</a>.</p>
 
 </div>
 </div>
@@ -297,7 +297,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">Acore</a></li><li class="navelem"><a class="el" href="../../d9/d64/a10838.html">WorldObjectSpellConeTargetCheck</a></li>
-    <li class="footer">Generated on Mon Sep 30 2024 20:42:44 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Oct 7 2024 20:43:00 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

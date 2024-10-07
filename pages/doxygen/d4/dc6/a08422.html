@@ -183,16 +183,16 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  411</span>{</div>
-<div class="line"><span class="lineno">  412</span>    <a class="code hl_variable" href="../../d4/dc6/a08422.html#a80d03691d36758733f326b65992f266e">m_GlobalCooldowns</a>[spellInfo-&gt;StartRecoveryCategory] = <a class="code hl_struct" href="../../d3/d58/a08418.html">GlobalCooldown</a>(gcd, <a class="code hl_function" href="../../d1/d86/a04746.html#a6d0d49f37e25e497391157b2a2ec90c1">GameTime::GetGameTimeMS</a>().count());</div>
-<div class="line"><span class="lineno">  413</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  412</span>{</div>
+<div class="line"><span class="lineno">  413</span>    <a class="code hl_variable" href="../../d4/dc6/a08422.html#a80d03691d36758733f326b65992f266e">m_GlobalCooldowns</a>[spellInfo-&gt;StartRecoveryCategory] = <a class="code hl_struct" href="../../d3/d58/a08418.html">GlobalCooldown</a>(gcd, <a class="code hl_function" href="../../d1/d86/a04746.html#a6d0d49f37e25e497391157b2a2ec90c1">GameTime::GetGameTimeMS</a>().count());</div>
+<div class="line"><span class="lineno">  414</span>}</div>
 <div class="ttc" id="aa04746_html_a6d0d49f37e25e497391157b2a2ec90c1"><div class="ttname"><a href="../../d1/d86/a04746.html#a6d0d49f37e25e497391157b2a2ec90c1">GameTime::GetGameTimeMS</a></div><div class="ttdeci">Milliseconds GetGameTimeMS()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:43</div></div>
 <div class="ttc" id="aa08418_html"><div class="ttname"><a href="../../d3/d58/a08418.html">GlobalCooldown</a></div><div class="ttdef"><b>Definition:</b> CharmInfo.h:69</div></div>
 <div class="ttc" id="aa08422_html_a80d03691d36758733f326b65992f266e"><div class="ttname"><a href="../../d4/dc6/a08422.html#a80d03691d36758733f326b65992f266e">GlobalCooldownMgr::m_GlobalCooldowns</a></div><div class="ttdeci">GlobalCooldownList m_GlobalCooldowns</div><div class="ttdef"><b>Definition:</b> CharmInfo.h:89</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00043">GameTime::GetGameTimeMS()</a>, <a class="el" href="../../#l00089">m_GlobalCooldowns</a>, and <a class="el" href="../../#l00350">SpellInfo::StartRecoveryCategory</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l02729">Player::EquipItem()</a>, and <a class="el" href="../../#l08839">Spell::TriggerGlobalCooldown()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l02729">Player::EquipItem()</a>, and <a class="el" href="../../#l08838">Spell::TriggerGlobalCooldown()</a>.</p>
 
 </div>
 </div>
@@ -211,13 +211,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  416</span>{</div>
-<div class="line"><span class="lineno">  417</span>    <a class="code hl_variable" href="../../d4/dc6/a08422.html#a80d03691d36758733f326b65992f266e">m_GlobalCooldowns</a>[spellInfo-&gt;StartRecoveryCategory].duration = 0;</div>
-<div class="line"><span class="lineno">  418</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  417</span>{</div>
+<div class="line"><span class="lineno">  418</span>    <a class="code hl_variable" href="../../d4/dc6/a08422.html#a80d03691d36758733f326b65992f266e">m_GlobalCooldowns</a>[spellInfo-&gt;StartRecoveryCategory].duration = 0;</div>
+<div class="line"><span class="lineno">  419</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00089">m_GlobalCooldowns</a>, and <a class="el" href="../../#l00350">SpellInfo::StartRecoveryCategory</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l08884">Spell::CancelGlobalCooldown()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l08883">Spell::CancelGlobalCooldown()</a>.</p>
 
 </div>
 </div>
@@ -236,15 +236,15 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  405</span>{</div>
-<div class="line"><span class="lineno">  406</span>    GlobalCooldownList::const_iterator itr = <a class="code hl_variable" href="../../d4/dc6/a08422.html#a80d03691d36758733f326b65992f266e">m_GlobalCooldowns</a>.find(spellInfo-&gt;StartRecoveryCategory);</div>
-<div class="line"><span class="lineno">  407</span>    <span class="keywordflow">return</span> itr != <a class="code hl_variable" href="../../d4/dc6/a08422.html#a80d03691d36758733f326b65992f266e">m_GlobalCooldowns</a>.end() &amp;&amp; itr-&gt;second.duration &amp;&amp; <a class="code hl_function" href="../../d9/dd1/a00398.html#ad9f0d19bcdfb695da4f399b36471c7de">getMSTimeDiff</a>(itr-&gt;second.cast_time, <a class="code hl_function" href="../../d1/d86/a04746.html#a6d0d49f37e25e497391157b2a2ec90c1">GameTime::GetGameTimeMS</a>().count()) &lt; itr-&gt;second.duration;</div>
-<div class="line"><span class="lineno">  408</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  406</span>{</div>
+<div class="line"><span class="lineno">  407</span>    GlobalCooldownList::const_iterator itr = <a class="code hl_variable" href="../../d4/dc6/a08422.html#a80d03691d36758733f326b65992f266e">m_GlobalCooldowns</a>.find(spellInfo-&gt;StartRecoveryCategory);</div>
+<div class="line"><span class="lineno">  408</span>    <span class="keywordflow">return</span> itr != <a class="code hl_variable" href="../../d4/dc6/a08422.html#a80d03691d36758733f326b65992f266e">m_GlobalCooldowns</a>.end() &amp;&amp; itr-&gt;second.duration &amp;&amp; <a class="code hl_function" href="../../d9/dd1/a00398.html#ad9f0d19bcdfb695da4f399b36471c7de">getMSTimeDiff</a>(itr-&gt;second.cast_time, <a class="code hl_function" href="../../d1/d86/a04746.html#a6d0d49f37e25e497391157b2a2ec90c1">GameTime::GetGameTimeMS</a>().count()) &lt; itr-&gt;second.duration;</div>
+<div class="line"><span class="lineno">  409</span>}</div>
 <div class="ttc" id="aa00398_html_ad9f0d19bcdfb695da4f399b36471c7de"><div class="ttname"><a href="../../d9/dd1/a00398.html#ad9f0d19bcdfb695da4f399b36471c7de">getMSTimeDiff</a></div><div class="ttdeci">uint32 getMSTimeDiff(uint32 oldMSTime, uint32 newMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:110</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00043">GameTime::GetGameTimeMS()</a>, <a class="el" href="../../#l00110">getMSTimeDiff()</a>, <a class="el" href="../../#l00089">m_GlobalCooldowns</a>, and <a class="el" href="../../#l00350">SpellInfo::StartRecoveryCategory</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l06813">Spell::CheckPetCast()</a>, <a class="el" href="../../#l08828">Spell::HasGlobalCooldown()</a>, and <a class="el" href="../../#l00148">PetAI::UpdateAI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l06812">Spell::CheckPetCast()</a>, <a class="el" href="../../#l08827">Spell::HasGlobalCooldown()</a>, and <a class="el" href="../../#l00148">PetAI::UpdateAI()</a>.</p>
 
 </div>
 </div>
@@ -269,7 +269,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00410">AddGlobalCooldown()</a>, <a class="el" href="../../#l00415">CancelGlobalCooldown()</a>, and <a class="el" href="../../#l00404">HasGlobalCooldown()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00411">AddGlobalCooldown()</a>, <a class="el" href="../../#l00416">CancelGlobalCooldown()</a>, and <a class="el" href="../../#l00405">HasGlobalCooldown()</a>.</p>
 
 </div>
 </div>
@@ -279,7 +279,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/dc6/a08422.html">GlobalCooldownMgr</a></li>
-    <li class="footer">Generated on Mon Sep 30 2024 20:41:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Oct 7 2024 20:41:56 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

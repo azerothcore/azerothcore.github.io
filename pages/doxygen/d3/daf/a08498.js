@@ -106,7 +106,7 @@ var a08498 =
     [ "CanEnterWater", "d3/daf/a08498.html#a7968406a9e0f19cd0901d2b34e225544", null ],
     [ "CanFly", "d3/daf/a08498.html#a49246ababd3b6facff07866b27a1d062", null ],
     [ "CanFreeMove", "d3/daf/a08498.html#a586b33c56c088c6bfb2085cb418b8f04", null ],
-    [ "CanHaveThreatList", "d3/daf/a08498.html#a17a3a280549173c861ab2de0f1d876af", null ],
+    [ "CanHaveThreatList", "d3/daf/a08498.html#ae0a72f8fa312caf442a6039bf9758ef6", null ],
     [ "CanInstantCast", "d3/daf/a08498.html#a4f5efceaae19edaf561d984e83426111", null ],
     [ "CanModifyStats", "d3/daf/a08498.html#aa7ee48856840fce3d7216603c22d3357", null ],
     [ "CanProc", "d3/daf/a08498.html#a3e021c02b1d25f663a046c57da4c0d1e", null ],

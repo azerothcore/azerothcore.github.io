@@ -210,10 +210,10 @@ template&lt;typename linktag &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  208</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d57/a07458.html#aef50fdfc79df3ca784eb90a69bd43076">val</a>; }</div>
-<div class="ttc" id="aa07458_html_aef50fdfc79df3ca784eb90a69bd43076"><div class="ttname"><a href="../../d2/d57/a07458.html#aef50fdfc79df3ca784eb90a69bd43076">Acore::ChatCommands::Hyperlink::val</a></div><div class="ttdeci">storage_type val</div><div class="ttdef"><b>Definition:</b> ChatCommandTags.h:236</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  204</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d57/a07458.html#aef50fdfc79df3ca784eb90a69bd43076">val</a>; }</div>
+<div class="ttc" id="aa07458_html_aef50fdfc79df3ca784eb90a69bd43076"><div class="ttname"><a href="../../d2/d57/a07458.html#aef50fdfc79df3ca784eb90a69bd43076">Acore::ChatCommands::Hyperlink::val</a></div><div class="ttdeci">storage_type val</div><div class="ttdef"><b>Definition:</b> ChatCommandTags.h:232</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00236">Acore::ChatCommands::Hyperlink&lt; linktag &gt;::val</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00232">Acore::ChatCommands::Hyperlink&lt; linktag &gt;::val</a>.</p>
 
 </div>
 </div>
@@ -241,9 +241,9 @@ template&lt;typename linktag &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  209</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d57/a07458.html#aef50fdfc79df3ca784eb90a69bd43076">val</a>; }</div>
+<div class="fragment"><div class="line"><span class="lineno">  205</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d57/a07458.html#aef50fdfc79df3ca784eb90a69bd43076">val</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00236">Acore::ChatCommands::Hyperlink&lt; linktag &gt;::val</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00232">Acore::ChatCommands::Hyperlink&lt; linktag &gt;::val</a>.</p>
 
 </div>
 </div>
@@ -271,9 +271,9 @@ template&lt;typename linktag &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  210</span>{ <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../d2/d57/a07458.html#aef50fdfc79df3ca784eb90a69bd43076">val</a>; }</div>
+<div class="fragment"><div class="line"><span class="lineno">  206</span>{ <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../d2/d57/a07458.html#aef50fdfc79df3ca784eb90a69bd43076">val</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00236">Acore::ChatCommands::Hyperlink&lt; linktag &gt;::val</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00232">Acore::ChatCommands::Hyperlink&lt; linktag &gt;::val</a>.</p>
 
 </div>
 </div>
@@ -312,37 +312,37 @@ template&lt;typename linktag &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  213</span>        {</div>
-<div class="line"><span class="lineno">  214</span>            <a class="code hl_struct" href="../../da/d6b/a07570.html">Acore::Hyperlinks::HyperlinkInfo</a> info = <a class="code hl_function" href="../../d7/de9/a04715.html#a2c5596879f4531eeedbe15d1e4987918">Acore::Hyperlinks::ParseSingleHyperlink</a>(args);</div>
-<div class="line"><span class="lineno">  215</span>            <span class="comment">// invalid hyperlinks cannot be consumed</span></div>
-<div class="line"><span class="lineno">  216</span>            <span class="keywordflow">if</span> (!info)</div>
+<div class="fragment"><div class="line"><span class="lineno">  209</span>        {</div>
+<div class="line"><span class="lineno">  210</span>            <a class="code hl_struct" href="../../da/d6b/a07570.html">Acore::Hyperlinks::HyperlinkInfo</a> info = <a class="code hl_function" href="../../d7/de9/a04715.html#a2c5596879f4531eeedbe15d1e4987918">Acore::Hyperlinks::ParseSingleHyperlink</a>(args);</div>
+<div class="line"><span class="lineno">  211</span>            <span class="comment">// invalid hyperlinks cannot be consumed</span></div>
+<div class="line"><span class="lineno">  212</span>            <span class="keywordflow">if</span> (!info)</div>
+<div class="line"><span class="lineno">  213</span>                <span class="keywordflow">return</span> std::nullopt;</div>
+<div class="line"><span class="lineno">  214</span> </div>
+<div class="line"><span class="lineno">  215</span>            <span class="comment">// check if we got the right tag</span></div>
+<div class="line"><span class="lineno">  216</span>            <span class="keywordflow">if</span> (info.<a class="code hl_variable" href="../../da/d6b/a07570.html#a2171d081c4eb0a23d00e637dfa64bcfc">tag</a> != linktag::tag())</div>
 <div class="line"><span class="lineno">  217</span>                <span class="keywordflow">return</span> std::nullopt;</div>
 <div class="line"><span class="lineno">  218</span> </div>
-<div class="line"><span class="lineno">  219</span>            <span class="comment">// check if we got the right tag</span></div>
-<div class="line"><span class="lineno">  220</span>            <span class="keywordflow">if</span> (info.<a class="code hl_variable" href="../../da/d6b/a07570.html#a2171d081c4eb0a23d00e637dfa64bcfc">tag</a> != linktag::tag())</div>
-<div class="line"><span class="lineno">  221</span>                <span class="keywordflow">return</span> std::nullopt;</div>
+<div class="line"><span class="lineno">  219</span>            <span class="comment">// store value</span></div>
+<div class="line"><span class="lineno">  220</span>            <span class="keywordflow">if</span> (!linktag::StoreTo(<a class="code hl_variable" href="../../d2/d57/a07458.html#aef50fdfc79df3ca784eb90a69bd43076">val</a>, info.<a class="code hl_variable" href="../../da/d6b/a07570.html#a7d7d839de8eb48a25e2b687b69a092ea">data</a>))</div>
+<div class="line"><span class="lineno">  221</span>                <span class="keywordflow">return</span> <a class="code hl_function" href="../../da/d6d/a04713.html#a671c2d8ee25e88cc8f58246b1486f1de">Acore::Impl::ChatCommands::GetAcoreString</a>(handler, <a class="code hl_enumvalue" href="../../de/da9/a01934.html#af9ee42b1cf006ecb2d2e74fe71c0761aac2186314785642f35591b3e5fdb3d608">LANG_CMDPARSER_LINKDATA_INVALID</a>);</div>
 <div class="line"><span class="lineno">  222</span> </div>
-<div class="line"><span class="lineno">  223</span>            <span class="comment">// store value</span></div>
-<div class="line"><span class="lineno">  224</span>            <span class="keywordflow">if</span> (!linktag::StoreTo(<a class="code hl_variable" href="../../d2/d57/a07458.html#aef50fdfc79df3ca784eb90a69bd43076">val</a>, info.<a class="code hl_variable" href="../../da/d6b/a07570.html#a7d7d839de8eb48a25e2b687b69a092ea">data</a>))</div>
-<div class="line"><span class="lineno">  225</span>                <span class="keywordflow">return</span> <a class="code hl_function" href="../../da/d6d/a04713.html#a671c2d8ee25e88cc8f58246b1486f1de">Acore::Impl::ChatCommands::GetAcoreString</a>(handler, <a class="code hl_enumvalue" href="../../de/da9/a01934.html#af9ee42b1cf006ecb2d2e74fe71c0761aac2186314785642f35591b3e5fdb3d608">LANG_CMDPARSER_LINKDATA_INVALID</a>);</div>
-<div class="line"><span class="lineno">  226</span> </div>
-<div class="line"><span class="lineno">  227</span>            <span class="comment">// finally, skip any potential delimiters</span></div>
-<div class="line"><span class="lineno">  228</span>            <span class="keyword">auto</span> [token, next] = <a class="code hl_function" href="../../da/d6d/a04713.html#aeca95018e8d551d917cf69e0764ccef7">Acore::Impl::ChatCommands::tokenize</a>(info.<a class="code hl_variable" href="../../da/d6b/a07570.html#a065d1a0942abbe5739f44126d5c3ce00">tail</a>);</div>
-<div class="line"><span class="lineno">  229</span>            <span class="keywordflow">if</span> (token.empty()) <span class="comment">/* empty token = first character is delimiter, skip past it */</span></div>
-<div class="line"><span class="lineno">  230</span>                <span class="keywordflow">return</span> next;</div>
-<div class="line"><span class="lineno">  231</span>            <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  232</span>                <span class="keywordflow">return</span> info.<a class="code hl_variable" href="../../da/d6b/a07570.html#a065d1a0942abbe5739f44126d5c3ce00">tail</a>;</div>
-<div class="line"><span class="lineno">  233</span>        }</div>
+<div class="line"><span class="lineno">  223</span>            <span class="comment">// finally, skip any potential delimiters</span></div>
+<div class="line"><span class="lineno">  224</span>            <span class="keyword">auto</span> [token, next] = <a class="code hl_function" href="../../da/d6d/a04713.html#aeca95018e8d551d917cf69e0764ccef7">Acore::Impl::ChatCommands::tokenize</a>(info.<a class="code hl_variable" href="../../da/d6b/a07570.html#a065d1a0942abbe5739f44126d5c3ce00">tail</a>);</div>
+<div class="line"><span class="lineno">  225</span>            <span class="keywordflow">if</span> (token.empty()) <span class="comment">/* empty token = first character is delimiter, skip past it */</span></div>
+<div class="line"><span class="lineno">  226</span>                <span class="keywordflow">return</span> next;</div>
+<div class="line"><span class="lineno">  227</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  228</span>                <span class="keywordflow">return</span> info.<a class="code hl_variable" href="../../da/d6b/a07570.html#a065d1a0942abbe5739f44126d5c3ce00">tail</a>;</div>
+<div class="line"><span class="lineno">  229</span>        }</div>
 <div class="ttc" id="aa01934_html_af9ee42b1cf006ecb2d2e74fe71c0761aac2186314785642f35591b3e5fdb3d608"><div class="ttname"><a href="../../de/da9/a01934.html#af9ee42b1cf006ecb2d2e74fe71c0761aac2186314785642f35591b3e5fdb3d608">LANG_CMDPARSER_LINKDATA_INVALID</a></div><div class="ttdeci">@ LANG_CMDPARSER_LINKDATA_INVALID</div><div class="ttdef"><b>Definition:</b> Language.h:995</div></div>
-<div class="ttc" id="aa04713_html_a671c2d8ee25e88cc8f58246b1486f1de"><div class="ttname"><a href="../../da/d6d/a04713.html#a671c2d8ee25e88cc8f58246b1486f1de">Acore::Impl::ChatCommands::GetAcoreString</a></div><div class="ttdeci">AC_GAME_API char const * GetAcoreString(ChatHandler const *handler, AcoreStrings which)</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.cpp:28</div></div>
-<div class="ttc" id="aa04713_html_aeca95018e8d551d917cf69e0764ccef7"><div class="ttname"><a href="../../da/d6d/a04713.html#aeca95018e8d551d917cf69e0764ccef7">Acore::Impl::ChatCommands::tokenize</a></div><div class="ttdeci">TokenizeResult tokenize(std::string_view args)</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:55</div></div>
+<div class="ttc" id="aa04713_html_a671c2d8ee25e88cc8f58246b1486f1de"><div class="ttname"><a href="../../da/d6d/a04713.html#a671c2d8ee25e88cc8f58246b1486f1de">Acore::Impl::ChatCommands::GetAcoreString</a></div><div class="ttdeci">AC_GAME_API char const * GetAcoreString(ChatHandler const *handler, AcoreStrings which)</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.cpp:27</div></div>
+<div class="ttc" id="aa04713_html_aeca95018e8d551d917cf69e0764ccef7"><div class="ttname"><a href="../../da/d6d/a04713.html#aeca95018e8d551d917cf69e0764ccef7">Acore::Impl::ChatCommands::tokenize</a></div><div class="ttdeci">TokenizeResult tokenize(std::string_view args)</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:54</div></div>
 <div class="ttc" id="aa04715_html_a2c5596879f4531eeedbe15d1e4987918"><div class="ttname"><a href="../../d7/de9/a04715.html#a2c5596879f4531eeedbe15d1e4987918">Acore::Hyperlinks::ParseSingleHyperlink</a></div><div class="ttdeci">HyperlinkInfo AC_GAME_API ParseSingleHyperlink(std::string_view str)</div><div class="ttdef"><b>Definition:</b> Hyperlinks.cpp:32</div></div>
-<div class="ttc" id="aa07570_html"><div class="ttname"><a href="../../da/d6b/a07570.html">Acore::Hyperlinks::HyperlinkInfo</a></div><div class="ttdef"><b>Definition:</b> Hyperlinks.h:237</div></div>
-<div class="ttc" id="aa07570_html_a065d1a0942abbe5739f44126d5c3ce00"><div class="ttname"><a href="../../da/d6b/a07570.html#a065d1a0942abbe5739f44126d5c3ce00">Acore::Hyperlinks::HyperlinkInfo::tail</a></div><div class="ttdeci">std::string_view const tail</div><div class="ttdef"><b>Definition:</b> Hyperlinks.h:244</div></div>
-<div class="ttc" id="aa07570_html_a2171d081c4eb0a23d00e637dfa64bcfc"><div class="ttname"><a href="../../da/d6b/a07570.html#a2171d081c4eb0a23d00e637dfa64bcfc">Acore::Hyperlinks::HyperlinkInfo::tag</a></div><div class="ttdeci">std::string_view const tag</div><div class="ttdef"><b>Definition:</b> Hyperlinks.h:246</div></div>
-<div class="ttc" id="aa07570_html_a7d7d839de8eb48a25e2b687b69a092ea"><div class="ttname"><a href="../../da/d6b/a07570.html#a7d7d839de8eb48a25e2b687b69a092ea">Acore::Hyperlinks::HyperlinkInfo::data</a></div><div class="ttdeci">std::string_view const data</div><div class="ttdef"><b>Definition:</b> Hyperlinks.h:247</div></div>
+<div class="ttc" id="aa07570_html"><div class="ttname"><a href="../../da/d6b/a07570.html">Acore::Hyperlinks::HyperlinkInfo</a></div><div class="ttdef"><b>Definition:</b> Hyperlinks.h:235</div></div>
+<div class="ttc" id="aa07570_html_a065d1a0942abbe5739f44126d5c3ce00"><div class="ttname"><a href="../../da/d6b/a07570.html#a065d1a0942abbe5739f44126d5c3ce00">Acore::Hyperlinks::HyperlinkInfo::tail</a></div><div class="ttdeci">std::string_view const tail</div><div class="ttdef"><b>Definition:</b> Hyperlinks.h:242</div></div>
+<div class="ttc" id="aa07570_html_a2171d081c4eb0a23d00e637dfa64bcfc"><div class="ttname"><a href="../../da/d6b/a07570.html#a2171d081c4eb0a23d00e637dfa64bcfc">Acore::Hyperlinks::HyperlinkInfo::tag</a></div><div class="ttdeci">std::string_view const tag</div><div class="ttdef"><b>Definition:</b> Hyperlinks.h:244</div></div>
+<div class="ttc" id="aa07570_html_a7d7d839de8eb48a25e2b687b69a092ea"><div class="ttname"><a href="../../da/d6b/a07570.html#a7d7d839de8eb48a25e2b687b69a092ea">Acore::Hyperlinks::HyperlinkInfo::data</a></div><div class="ttdeci">std::string_view const data</div><div class="ttdef"><b>Definition:</b> Hyperlinks.h:245</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00247">Acore::Hyperlinks::HyperlinkInfo::data</a>, <a class="el" href="../../#l00028">Acore::Impl::ChatCommands::GetAcoreString()</a>, <a class="el" href="../../#l00995">LANG_CMDPARSER_LINKDATA_INVALID</a>, <a class="el" href="../../#l00032">Acore::Hyperlinks::ParseSingleHyperlink()</a>, <a class="el" href="../../#l00246">Acore::Hyperlinks::HyperlinkInfo::tag</a>, <a class="el" href="../../#l00244">Acore::Hyperlinks::HyperlinkInfo::tail</a>, <a class="el" href="../../#l00055">Acore::Impl::ChatCommands::tokenize()</a>, and <a class="el" href="../../#l00236">Acore::ChatCommands::Hyperlink&lt; linktag &gt;::val</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00245">Acore::Hyperlinks::HyperlinkInfo::data</a>, <a class="el" href="../../#l00027">Acore::Impl::ChatCommands::GetAcoreString()</a>, <a class="el" href="../../#l00995">LANG_CMDPARSER_LINKDATA_INVALID</a>, <a class="el" href="../../#l00032">Acore::Hyperlinks::ParseSingleHyperlink()</a>, <a class="el" href="../../#l00244">Acore::Hyperlinks::HyperlinkInfo::tag</a>, <a class="el" href="../../#l00242">Acore::Hyperlinks::HyperlinkInfo::tail</a>, <a class="el" href="../../#l00054">Acore::Impl::ChatCommands::tokenize()</a>, and <a class="el" href="../../#l00232">Acore::ChatCommands::Hyperlink&lt; linktag &gt;::val</a>.</p>
 
 </div>
 </div>
@@ -369,7 +369,7 @@ template&lt;typename linktag &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00208">Acore::ChatCommands::Hyperlink&lt; linktag &gt;::operator value_type()</a>, <a class="el" href="../../#l00209">Acore::ChatCommands::Hyperlink&lt; linktag &gt;::operator*()</a>, <a class="el" href="../../#l00210">Acore::ChatCommands::Hyperlink&lt; linktag &gt;::operator-&gt;()</a>, and <a class="el" href="../../#l00212">Acore::ChatCommands::Hyperlink&lt; linktag &gt;::TryConsume()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00204">Acore::ChatCommands::Hyperlink&lt; linktag &gt;::operator value_type()</a>, <a class="el" href="../../#l00205">Acore::ChatCommands::Hyperlink&lt; linktag &gt;::operator*()</a>, <a class="el" href="../../#l00206">Acore::ChatCommands::Hyperlink&lt; linktag &gt;::operator-&gt;()</a>, and <a class="el" href="../../#l00208">Acore::ChatCommands::Hyperlink&lt; linktag &gt;::TryConsume()</a>.</p>
 
 </div>
 </div>
@@ -379,7 +379,7 @@ template&lt;typename linktag &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">Acore</a></li><li class="navelem"><a class="el" href="../../d1/d13/a04714.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../d2/d57/a07458.html">Hyperlink</a></li>
-    <li class="footer">Generated on Mon Sep 30 2024 20:42:44 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Oct 7 2024 20:43:00 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

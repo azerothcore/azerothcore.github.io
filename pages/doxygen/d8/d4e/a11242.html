@@ -190,9 +190,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 2555</span>: <a class="code hl_variable" href="../../d8/d4e/a11242.html#ab246baa9a8ce259d8190ac1c8318c75d">i_textId</a>(textId), <a class="code hl_variable" href="../../d8/d4e/a11242.html#ac2ae2ce8dc49ce7469142383e6e097d4">i_args</a>(args) {}</div>
-<div class="ttc" id="aa11242_html_ab246baa9a8ce259d8190ac1c8318c75d"><div class="ttname"><a href="../../d8/d4e/a11242.html#ab246baa9a8ce259d8190ac1c8318c75d">Acore::WorldWorldTextBuilder::i_textId</a></div><div class="ttdeci">uint32 i_textId</div><div class="ttdef"><b>Definition:</b> World.cpp:2588</div></div>
-<div class="ttc" id="aa11242_html_ac2ae2ce8dc49ce7469142383e6e097d4"><div class="ttname"><a href="../../d8/d4e/a11242.html#ac2ae2ce8dc49ce7469142383e6e097d4">Acore::WorldWorldTextBuilder::i_args</a></div><div class="ttdeci">va_list * i_args</div><div class="ttdef"><b>Definition:</b> World.cpp:2589</div></div>
+<div class="fragment"><div class="line"><span class="lineno"> 2554</span>: <a class="code hl_variable" href="../../d8/d4e/a11242.html#ab246baa9a8ce259d8190ac1c8318c75d">i_textId</a>(textId), <a class="code hl_variable" href="../../d8/d4e/a11242.html#ac2ae2ce8dc49ce7469142383e6e097d4">i_args</a>(args) {}</div>
+<div class="ttc" id="aa11242_html_ab246baa9a8ce259d8190ac1c8318c75d"><div class="ttname"><a href="../../d8/d4e/a11242.html#ab246baa9a8ce259d8190ac1c8318c75d">Acore::WorldWorldTextBuilder::i_textId</a></div><div class="ttdeci">uint32 i_textId</div><div class="ttdef"><b>Definition:</b> World.cpp:2587</div></div>
+<div class="ttc" id="aa11242_html_ac2ae2ce8dc49ce7469142383e6e097d4"><div class="ttname"><a href="../../d8/d4e/a11242.html#ac2ae2ce8dc49ce7469142383e6e097d4">Acore::WorldWorldTextBuilder::i_args</a></div><div class="ttdeci">va_list * i_args</div><div class="ttdef"><b>Definition:</b> World.cpp:2588</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -230,24 +230,24 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 2578</span>        {</div>
-<div class="line"><span class="lineno"> 2579</span>            <span class="keywordtype">char</span>* pos = text;</div>
-<div class="line"><span class="lineno"> 2580</span>            <span class="keywordflow">while</span> (<span class="keywordtype">char</span>* line = <a class="code hl_function" href="../../d8/d4e/a11242.html#a3a71edb992528d81471d370ba3d8d211">lineFromMessage</a>(pos))</div>
-<div class="line"><span class="lineno"> 2581</span>            {</div>
-<div class="line"><span class="lineno"> 2582</span>                <a class="code hl_class" href="../../d6/d40/a10674.html">WorldPacket</a>* data = <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d40/a10674.html">WorldPacket</a>();</div>
-<div class="line"><span class="lineno"> 2583</span>                <a class="code hl_function" href="../../db/d55/a07266.html#a3295cee708d267aac165f9ee55d2e615">ChatHandler::BuildChatPacket</a>(*data, <a class="code hl_enumvalue" href="../../d6/d71/a04598.html#a249e68b260c9857b5d0d4cf4697fae16a8fcd3e7170e686c1826b9f7fcdf5df96">CHAT_MSG_SYSTEM</a>, <a class="code hl_enumvalue" href="../../d6/d71/a04598.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, line);</div>
-<div class="line"><span class="lineno"> 2584</span>                data_list.push_back(data);</div>
-<div class="line"><span class="lineno"> 2585</span>            }</div>
-<div class="line"><span class="lineno"> 2586</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 2577</span>        {</div>
+<div class="line"><span class="lineno"> 2578</span>            <span class="keywordtype">char</span>* pos = text;</div>
+<div class="line"><span class="lineno"> 2579</span>            <span class="keywordflow">while</span> (<span class="keywordtype">char</span>* line = <a class="code hl_function" href="../../d8/d4e/a11242.html#a3a71edb992528d81471d370ba3d8d211">lineFromMessage</a>(pos))</div>
+<div class="line"><span class="lineno"> 2580</span>            {</div>
+<div class="line"><span class="lineno"> 2581</span>                <a class="code hl_class" href="../../d6/d40/a10674.html">WorldPacket</a>* data = <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d40/a10674.html">WorldPacket</a>();</div>
+<div class="line"><span class="lineno"> 2582</span>                <a class="code hl_function" href="../../db/d55/a07266.html#a3295cee708d267aac165f9ee55d2e615">ChatHandler::BuildChatPacket</a>(*data, <a class="code hl_enumvalue" href="../../d6/d71/a04598.html#a249e68b260c9857b5d0d4cf4697fae16a8fcd3e7170e686c1826b9f7fcdf5df96">CHAT_MSG_SYSTEM</a>, <a class="code hl_enumvalue" href="../../d6/d71/a04598.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, line);</div>
+<div class="line"><span class="lineno"> 2583</span>                data_list.push_back(data);</div>
+<div class="line"><span class="lineno"> 2584</span>            }</div>
+<div class="line"><span class="lineno"> 2585</span>        }</div>
 <div class="ttc" id="aa04598_html_a249e68b260c9857b5d0d4cf4697fae16a8fcd3e7170e686c1826b9f7fcdf5df96"><div class="ttname"><a href="../../d6/d71/a04598.html#a249e68b260c9857b5d0d4cf4697fae16a8fcd3e7170e686c1826b9f7fcdf5df96">CHAT_MSG_SYSTEM</a></div><div class="ttdeci">@ CHAT_MSG_SYSTEM</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3152</div></div>
 <div class="ttc" id="aa04598_html_a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a"><div class="ttname"><a href="../../d6/d71/a04598.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a></div><div class="ttdeci">@ LANG_UNIVERSAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:735</div></div>
-<div class="ttc" id="aa07266_html_a3295cee708d267aac165f9ee55d2e615"><div class="ttname"><a href="../../db/d55/a07266.html#a3295cee708d267aac165f9ee55d2e615">ChatHandler::BuildChatPacket</a></div><div class="ttdeci">static std::size_t BuildChatPacket(WorldPacket &amp;data, ChatMsg chatType, Language language, ObjectGuid senderGUID, ObjectGuid receiverGUID, std::string_view message, uint8 chatTag, std::string const &amp;senderName=&quot;&quot;, std::string const &amp;receiverName=&quot;&quot;, uint32 achievementId=0, bool gmMessage=false, std::string const &amp;channelName=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:267</div></div>
+<div class="ttc" id="aa07266_html_a3295cee708d267aac165f9ee55d2e615"><div class="ttname"><a href="../../db/d55/a07266.html#a3295cee708d267aac165f9ee55d2e615">ChatHandler::BuildChatPacket</a></div><div class="ttdeci">static std::size_t BuildChatPacket(WorldPacket &amp;data, ChatMsg chatType, Language language, ObjectGuid senderGUID, ObjectGuid receiverGUID, std::string_view message, uint8 chatTag, std::string const &amp;senderName=&quot;&quot;, std::string const &amp;receiverName=&quot;&quot;, uint32 achievementId=0, bool gmMessage=false, std::string const &amp;channelName=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:264</div></div>
 <div class="ttc" id="aa10674_html"><div class="ttname"><a href="../../d6/d40/a10674.html">WorldPacket</a></div><div class="ttdef"><b>Definition:</b> WorldPacket.h:27</div></div>
-<div class="ttc" id="aa11242_html_a3a71edb992528d81471d370ba3d8d211"><div class="ttname"><a href="../../d8/d4e/a11242.html#a3a71edb992528d81471d370ba3d8d211">Acore::WorldWorldTextBuilder::lineFromMessage</a></div><div class="ttdeci">char * lineFromMessage(char *&amp;pos)</div><div class="ttdef"><b>Definition:</b> World.cpp:2576</div></div>
+<div class="ttc" id="aa11242_html_a3a71edb992528d81471d370ba3d8d211"><div class="ttname"><a href="../../d8/d4e/a11242.html#a3a71edb992528d81471d370ba3d8d211">Acore::WorldWorldTextBuilder::lineFromMessage</a></div><div class="ttdeci">char * lineFromMessage(char *&amp;pos)</div><div class="ttdef"><b>Definition:</b> World.cpp:2575</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00267">ChatHandler::BuildChatPacket()</a>, <a class="el" href="../../#l03152">CHAT_MSG_SYSTEM</a>, <a class="el" href="../../#l00735">LANG_UNIVERSAL</a>, and <a class="el" href="../../#l02576">lineFromMessage()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00264">ChatHandler::BuildChatPacket()</a>, <a class="el" href="../../#l03152">CHAT_MSG_SYSTEM</a>, <a class="el" href="../../#l00735">LANG_UNIVERSAL</a>, and <a class="el" href="../../#l02575">lineFromMessage()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l02556">operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l02555">operator()()</a>.</p>
 
 </div>
 </div>
@@ -274,9 +274,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 2576</span>{ <span class="keywordtype">char</span>* start = strtok(pos, <span class="stringliteral">&quot;\n&quot;</span>); pos = <span class="keyword">nullptr</span>; <span class="keywordflow">return</span> start; }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 2575</span>{ <span class="keywordtype">char</span>* start = strtok(pos, <span class="stringliteral">&quot;\n&quot;</span>); pos = <span class="keyword">nullptr</span>; <span class="keywordflow">return</span> start; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l02577">do_helper()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l02576">do_helper()</a>.</p>
 
 </div>
 </div>
@@ -313,28 +313,28 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 2557</span>        {</div>
-<div class="line"><span class="lineno"> 2558</span>            <span class="keywordtype">char</span> <span class="keyword">const</span>* text = <a class="code hl_define" href="../../dd/d86/a01367.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetAcoreString(<a class="code hl_variable" href="../../d8/d4e/a11242.html#ab246baa9a8ce259d8190ac1c8318c75d">i_textId</a>, loc_idx);</div>
-<div class="line"><span class="lineno"> 2559</span> </div>
-<div class="line"><span class="lineno"> 2560</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d4e/a11242.html#ac2ae2ce8dc49ce7469142383e6e097d4">i_args</a>)</div>
-<div class="line"><span class="lineno"> 2561</span>            {</div>
-<div class="line"><span class="lineno"> 2562</span>                <span class="comment">// we need copy va_list before use or original va_list will corrupted</span></div>
-<div class="line"><span class="lineno"> 2563</span>                va_list ap;</div>
-<div class="line"><span class="lineno"> 2564</span>                va_copy(ap, *<a class="code hl_variable" href="../../d8/d4e/a11242.html#ac2ae2ce8dc49ce7469142383e6e097d4">i_args</a>);</div>
-<div class="line"><span class="lineno"> 2565</span> </div>
-<div class="line"><span class="lineno"> 2566</span>                <span class="keywordtype">char</span> str[2048];</div>
-<div class="line"><span class="lineno"> 2567</span>                vsnprintf(str, 2048, text, ap);</div>
-<div class="line"><span class="lineno"> 2568</span>                va_end(ap);</div>
-<div class="line"><span class="lineno"> 2569</span> </div>
-<div class="line"><span class="lineno"> 2570</span>                <a class="code hl_function" href="../../d8/d4e/a11242.html#ae8b58ec72a6c87aee46e9fe693deab32">do_helper</a>(data_list, &amp;str[0]);</div>
-<div class="line"><span class="lineno"> 2571</span>            }</div>
-<div class="line"><span class="lineno"> 2572</span>            <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 2573</span>                <a class="code hl_function" href="../../d8/d4e/a11242.html#ae8b58ec72a6c87aee46e9fe693deab32">do_helper</a>(data_list, (<span class="keywordtype">char</span>*)text);</div>
-<div class="line"><span class="lineno"> 2574</span>        }</div>
-<div class="ttc" id="aa01367_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../dd/d86/a01367.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1623</div></div>
-<div class="ttc" id="aa11242_html_ae8b58ec72a6c87aee46e9fe693deab32"><div class="ttname"><a href="../../d8/d4e/a11242.html#ae8b58ec72a6c87aee46e9fe693deab32">Acore::WorldWorldTextBuilder::do_helper</a></div><div class="ttdeci">void do_helper(WorldPacketList &amp;data_list, char *text)</div><div class="ttdef"><b>Definition:</b> World.cpp:2577</div></div>
+<div class="fragment"><div class="line"><span class="lineno"> 2556</span>        {</div>
+<div class="line"><span class="lineno"> 2557</span>            <span class="keywordtype">char</span> <span class="keyword">const</span>* text = <a class="code hl_define" href="../../dd/d86/a01367.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetAcoreString(<a class="code hl_variable" href="../../d8/d4e/a11242.html#ab246baa9a8ce259d8190ac1c8318c75d">i_textId</a>, loc_idx);</div>
+<div class="line"><span class="lineno"> 2558</span> </div>
+<div class="line"><span class="lineno"> 2559</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d4e/a11242.html#ac2ae2ce8dc49ce7469142383e6e097d4">i_args</a>)</div>
+<div class="line"><span class="lineno"> 2560</span>            {</div>
+<div class="line"><span class="lineno"> 2561</span>                <span class="comment">// we need copy va_list before use or original va_list will corrupted</span></div>
+<div class="line"><span class="lineno"> 2562</span>                va_list ap;</div>
+<div class="line"><span class="lineno"> 2563</span>                va_copy(ap, *<a class="code hl_variable" href="../../d8/d4e/a11242.html#ac2ae2ce8dc49ce7469142383e6e097d4">i_args</a>);</div>
+<div class="line"><span class="lineno"> 2564</span> </div>
+<div class="line"><span class="lineno"> 2565</span>                <span class="keywordtype">char</span> str[2048];</div>
+<div class="line"><span class="lineno"> 2566</span>                vsnprintf(str, 2048, text, ap);</div>
+<div class="line"><span class="lineno"> 2567</span>                va_end(ap);</div>
+<div class="line"><span class="lineno"> 2568</span> </div>
+<div class="line"><span class="lineno"> 2569</span>                <a class="code hl_function" href="../../d8/d4e/a11242.html#ae8b58ec72a6c87aee46e9fe693deab32">do_helper</a>(data_list, &amp;str[0]);</div>
+<div class="line"><span class="lineno"> 2570</span>            }</div>
+<div class="line"><span class="lineno"> 2571</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2572</span>                <a class="code hl_function" href="../../d8/d4e/a11242.html#ae8b58ec72a6c87aee46e9fe693deab32">do_helper</a>(data_list, (<span class="keywordtype">char</span>*)text);</div>
+<div class="line"><span class="lineno"> 2573</span>        }</div>
+<div class="ttc" id="aa01367_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../dd/d86/a01367.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1621</div></div>
+<div class="ttc" id="aa11242_html_ae8b58ec72a6c87aee46e9fe693deab32"><div class="ttname"><a href="../../d8/d4e/a11242.html#ae8b58ec72a6c87aee46e9fe693deab32">Acore::WorldWorldTextBuilder::do_helper</a></div><div class="ttdeci">void do_helper(WorldPacketList &amp;data_list, char *text)</div><div class="ttdef"><b>Definition:</b> World.cpp:2576</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l02577">do_helper()</a>, <a class="el" href="../../#l02589">i_args</a>, <a class="el" href="../../#l02588">i_textId</a>, and <a class="el" href="../../#l01623">sObjectMgr</a>.</p>
+<p class="reference">References <a class="el" href="../../#l02576">do_helper()</a>, <a class="el" href="../../#l02588">i_args</a>, <a class="el" href="../../#l02587">i_textId</a>, and <a class="el" href="../../#l01621">sObjectMgr</a>.</p>
 
 </div>
 </div>
@@ -359,7 +359,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l02556">operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l02555">operator()()</a>.</p>
 
 </div>
 </div>
@@ -383,7 +383,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l02556">operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l02555">operator()()</a>.</p>
 
 </div>
 </div>
@@ -393,7 +393,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">Acore</a></li><li class="navelem"><a class="el" href="../../d8/d4e/a11242.html">WorldWorldTextBuilder</a></li>
-    <li class="footer">Generated on Mon Sep 30 2024 20:42:44 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Oct 7 2024 20:43:00 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

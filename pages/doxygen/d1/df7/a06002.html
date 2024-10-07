@@ -578,13 +578,13 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   24</span>: <a class="code hl_class" href="../../d9/de2/a06062.html">CreatureAI</a>(c) { <a class="code hl_variable" href="../../d9/de2/a06062.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/d03/a07750.html#acb27b2a3a09a2a9c520fba6ba2c69c4e">SetReactState</a>(<a class="code hl_enumvalue" href="../../d9/dff/a02099.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>); }</div>
+<div class="fragment"><div class="line"><span class="lineno">   23</span>: <a class="code hl_class" href="../../d9/de2/a06062.html">CreatureAI</a>(c) { <a class="code hl_variable" href="../../d9/de2/a06062.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/d03/a07750.html#acb27b2a3a09a2a9c520fba6ba2c69c4e">SetReactState</a>(<a class="code hl_enumvalue" href="../../d9/dff/a02099.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>); }</div>
 <div class="ttc" id="aa02099_html_a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0"><div class="ttname"><a href="../../d9/dff/a02099.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a></div><div class="ttdeci">@ REACT_PASSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:548</div></div>
-<div class="ttc" id="aa06062_html"><div class="ttname"><a href="../../d9/de2/a06062.html">CreatureAI</a></div><div class="ttdef"><b>Definition:</b> CreatureAI.h:71</div></div>
-<div class="ttc" id="aa06062_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d9/de2/a06062.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:73</div></div>
+<div class="ttc" id="aa06062_html"><div class="ttname"><a href="../../d9/de2/a06062.html">CreatureAI</a></div><div class="ttdef"><b>Definition:</b> CreatureAI.h:70</div></div>
+<div class="ttc" id="aa06062_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d9/de2/a06062.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
 <div class="ttc" id="aa07750_html_acb27b2a3a09a2a9c520fba6ba2c69c4e"><div class="ttname"><a href="../../da/d03/a07750.html#acb27b2a3a09a2a9c520fba6ba2c69c4e">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates state)</div><div class="ttdoc">A creature can have 3 ReactStates : Agressive, Passive, Neutral.</div><div class="ttdef"><b>Definition:</b> Creature.h:97</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00073">CreatureAI::me</a>, <a class="el" href="../../#l00548">REACT_PASSIVE</a>, and <a class="el" href="../../#l00097">Creature::SetReactState()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00072">CreatureAI::me</a>, <a class="el" href="../../#l00548">REACT_PASSIVE</a>, and <a class="el" href="../../#l00097">Creature::SetReactState()</a>.</p>
 
 </div>
 </div>
@@ -736,20 +736,20 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
-<div class="line"><span class="lineno">   28</span>    <span class="keywordflow">if</span> (creature-&gt;HasNpcFlag(<a class="code hl_enumvalue" href="../../d3/d23/a02120.html#ab054baf099d873bce22a0e84ae1090e2ab12179bddd93a8ab4889165d2be55c8e">UNIT_NPC_FLAG_SPELLCLICK</a>))</div>
-<div class="line"><span class="lineno">   29</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d2/d41/a01493.html#adf806592547de59418c6070d69c5efb9a06a019c60b174cae59e682299512d78c">PERMIT_BASE_PROACTIVE</a> + 50;</div>
-<div class="line"><span class="lineno">   30</span> </div>
-<div class="line"><span class="lineno">   31</span>    <span class="keywordflow">if</span> (creature-&gt;IsTrigger())</div>
-<div class="line"><span class="lineno">   32</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d2/d41/a01493.html#adf806592547de59418c6070d69c5efb9a06a019c60b174cae59e682299512d78c">PERMIT_BASE_PROACTIVE</a>;</div>
-<div class="line"><span class="lineno">   33</span> </div>
-<div class="line"><span class="lineno">   34</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d2/d41/a01493.html#adf806592547de59418c6070d69c5efb9aa30fb6bbae2f275b7c269df6b7bac2c0">PERMIT_BASE_IDLE</a>;</div>
-<div class="line"><span class="lineno">   35</span>}</div>
-<div class="ttc" id="aa01493_html_adf806592547de59418c6070d69c5efb9a06a019c60b174cae59e682299512d78c"><div class="ttname"><a href="../../d2/d41/a01493.html#adf806592547de59418c6070d69c5efb9a06a019c60b174cae59e682299512d78c">PERMIT_BASE_PROACTIVE</a></div><div class="ttdeci">@ PERMIT_BASE_PROACTIVE</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:243</div></div>
-<div class="ttc" id="aa01493_html_adf806592547de59418c6070d69c5efb9aa30fb6bbae2f275b7c269df6b7bac2c0"><div class="ttname"><a href="../../d2/d41/a01493.html#adf806592547de59418c6070d69c5efb9aa30fb6bbae2f275b7c269df6b7bac2c0">PERMIT_BASE_IDLE</a></div><div class="ttdeci">@ PERMIT_BASE_IDLE</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:241</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <span class="keywordflow">if</span> (creature-&gt;HasNpcFlag(<a class="code hl_enumvalue" href="../../d3/d23/a02120.html#ab054baf099d873bce22a0e84ae1090e2ab12179bddd93a8ab4889165d2be55c8e">UNIT_NPC_FLAG_SPELLCLICK</a>))</div>
+<div class="line"><span class="lineno">   28</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d2/d41/a01493.html#adf806592547de59418c6070d69c5efb9a06a019c60b174cae59e682299512d78c">PERMIT_BASE_PROACTIVE</a> + 50;</div>
+<div class="line"><span class="lineno">   29</span> </div>
+<div class="line"><span class="lineno">   30</span>    <span class="keywordflow">if</span> (creature-&gt;IsTrigger())</div>
+<div class="line"><span class="lineno">   31</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d2/d41/a01493.html#adf806592547de59418c6070d69c5efb9a06a019c60b174cae59e682299512d78c">PERMIT_BASE_PROACTIVE</a>;</div>
+<div class="line"><span class="lineno">   32</span> </div>
+<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d2/d41/a01493.html#adf806592547de59418c6070d69c5efb9aa30fb6bbae2f275b7c269df6b7bac2c0">PERMIT_BASE_IDLE</a>;</div>
+<div class="line"><span class="lineno">   34</span>}</div>
+<div class="ttc" id="aa01493_html_adf806592547de59418c6070d69c5efb9a06a019c60b174cae59e682299512d78c"><div class="ttname"><a href="../../d2/d41/a01493.html#adf806592547de59418c6070d69c5efb9a06a019c60b174cae59e682299512d78c">PERMIT_BASE_PROACTIVE</a></div><div class="ttdeci">@ PERMIT_BASE_PROACTIVE</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:242</div></div>
+<div class="ttc" id="aa01493_html_adf806592547de59418c6070d69c5efb9aa30fb6bbae2f275b7c269df6b7bac2c0"><div class="ttname"><a href="../../d2/d41/a01493.html#adf806592547de59418c6070d69c5efb9aa30fb6bbae2f275b7c269df6b7bac2c0">PERMIT_BASE_IDLE</a></div><div class="ttdeci">@ PERMIT_BASE_IDLE</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:240</div></div>
 <div class="ttc" id="aa02120_html_ab054baf099d873bce22a0e84ae1090e2ab12179bddd93a8ab4889165d2be55c8e"><div class="ttname"><a href="../../d3/d23/a02120.html#ab054baf099d873bce22a0e84ae1090e2ab12179bddd93a8ab4889165d2be55c8e">UNIT_NPC_FLAG_SPELLCLICK</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_SPELLCLICK</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:318</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00694">Unit::HasNpcFlag()</a>, <a class="el" href="../../#l00078">Creature::IsTrigger()</a>, <a class="el" href="../../#l00241">PERMIT_BASE_IDLE</a>, <a class="el" href="../../#l00243">PERMIT_BASE_PROACTIVE</a>, and <a class="el" href="../../#l00318">UNIT_NPC_FLAG_SPELLCLICK</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00694">Unit::HasNpcFlag()</a>, <a class="el" href="../../#l00078">Creature::IsTrigger()</a>, <a class="el" href="../../#l00240">PERMIT_BASE_IDLE</a>, <a class="el" href="../../#l00242">PERMIT_BASE_PROACTIVE</a>, and <a class="el" href="../../#l00318">UNIT_NPC_FLAG_SPELLCLICK</a>.</p>
 
 </div>
 </div>
@@ -792,7 +792,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/df7/a06002.html">NullCreatureAI</a></li>
-    <li class="footer">Generated on Mon Sep 30 2024 20:42:12 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Oct 7 2024 20:42:25 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

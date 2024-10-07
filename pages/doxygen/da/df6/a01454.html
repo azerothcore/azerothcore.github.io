@@ -112,7 +112,6 @@ $(document).ready(function(){initNavTree('da/df6/a01454.html','../../'); initRes
 <div class="textblock"><code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Map.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">UpdateData.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
@@ -158,24 +157,24 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  150</span>{</div>
-<div class="line"><span class="lineno">  151</span>    <span class="keywordflow">if</span> (!u-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a5ea3f54af571493f7889220724667189">IsAlive</a>() || !c-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a5ea3f54af571493f7889220724667189">IsAlive</a>() || c == u || u-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a85b547eedd208db5f9dddc5f75a1a211">IsInFlight</a>())</div>
-<div class="line"><span class="lineno">  152</span>    {</div>
-<div class="line"><span class="lineno">  153</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  154</span>    }</div>
-<div class="line"><span class="lineno">  155</span> </div>
-<div class="line"><span class="lineno">  156</span>    <span class="keywordflow">if</span> (!c-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d3/d23/a02120.html#ae51d2ecb71f7a5cb3882982a622c9544a6109dcad21a2eaf7e1d57bc2ad917558">UNIT_STATE_SIGHTLESS</a>))</div>
-<div class="line"><span class="lineno">  157</span>    {</div>
-<div class="line"><span class="lineno">  158</span>        <span class="keywordflow">if</span> (c-&gt;<a class="code hl_variable" href="../../d3/daf/a08498.html#ab395fef0b407c0af40ba6274c32730a6">IsAIEnabled</a> &amp;&amp; c-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#addeafb9ef860ca79c7a6570ae75a4bd0">CanSeeOrDetect</a>(u, <span class="keyword">false</span>, <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">  159</span>        {</div>
-<div class="line"><span class="lineno">  160</span>            c-&gt;<a class="code hl_function" href="../../da/d03/a07750.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d9/de2/a06062.html#afd0302ecfe6e2381dc2bc5f89f2c2152">MoveInLineOfSight_Safe</a>(u);</div>
-<div class="line"><span class="lineno">  161</span>        }</div>
-<div class="line"><span class="lineno">  162</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (u-&gt;<a class="code hl_function" href="../../d8/dc8/a08122.html#a1b9ed00e8d7ac5fed698ef6431905296">IsPlayer</a>() &amp;&amp; u-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a671aa59743c8e3919295551a5f113ce1">HasStealthAura</a>() &amp;&amp; c-&gt;<a class="code hl_variable" href="../../d3/daf/a08498.html#ab395fef0b407c0af40ba6274c32730a6">IsAIEnabled</a> &amp;&amp; c-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#addeafb9ef860ca79c7a6570ae75a4bd0">CanSeeOrDetect</a>(u, <span class="keyword">false</span>, <span class="keyword">true</span>, <span class="keyword">true</span>))</div>
-<div class="line"><span class="lineno">  163</span>        {</div>
-<div class="line"><span class="lineno">  164</span>            c-&gt;<a class="code hl_function" href="../../da/d03/a07750.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d9/de2/a06062.html#a3a8fee035f2cd3ed05f46f6ab042cd50">TriggerAlert</a>(u);</div>
-<div class="line"><span class="lineno">  165</span>        }</div>
-<div class="line"><span class="lineno">  166</span>    }</div>
-<div class="line"><span class="lineno">  167</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  149</span>{</div>
+<div class="line"><span class="lineno">  150</span>    <span class="keywordflow">if</span> (!u-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a5ea3f54af571493f7889220724667189">IsAlive</a>() || !c-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a5ea3f54af571493f7889220724667189">IsAlive</a>() || c == u || u-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a85b547eedd208db5f9dddc5f75a1a211">IsInFlight</a>())</div>
+<div class="line"><span class="lineno">  151</span>    {</div>
+<div class="line"><span class="lineno">  152</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  153</span>    }</div>
+<div class="line"><span class="lineno">  154</span> </div>
+<div class="line"><span class="lineno">  155</span>    <span class="keywordflow">if</span> (!c-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d3/d23/a02120.html#ae51d2ecb71f7a5cb3882982a622c9544a6109dcad21a2eaf7e1d57bc2ad917558">UNIT_STATE_SIGHTLESS</a>))</div>
+<div class="line"><span class="lineno">  156</span>    {</div>
+<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">if</span> (c-&gt;<a class="code hl_variable" href="../../d3/daf/a08498.html#ab395fef0b407c0af40ba6274c32730a6">IsAIEnabled</a> &amp;&amp; c-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#addeafb9ef860ca79c7a6570ae75a4bd0">CanSeeOrDetect</a>(u, <span class="keyword">false</span>, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  158</span>        {</div>
+<div class="line"><span class="lineno">  159</span>            c-&gt;<a class="code hl_function" href="../../da/d03/a07750.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d9/de2/a06062.html#afd0302ecfe6e2381dc2bc5f89f2c2152">MoveInLineOfSight_Safe</a>(u);</div>
+<div class="line"><span class="lineno">  160</span>        }</div>
+<div class="line"><span class="lineno">  161</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (u-&gt;<a class="code hl_function" href="../../d8/dc8/a08122.html#a1b9ed00e8d7ac5fed698ef6431905296">IsPlayer</a>() &amp;&amp; u-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a671aa59743c8e3919295551a5f113ce1">HasStealthAura</a>() &amp;&amp; c-&gt;<a class="code hl_variable" href="../../d3/daf/a08498.html#ab395fef0b407c0af40ba6274c32730a6">IsAIEnabled</a> &amp;&amp; c-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#addeafb9ef860ca79c7a6570ae75a4bd0">CanSeeOrDetect</a>(u, <span class="keyword">false</span>, <span class="keyword">true</span>, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  162</span>        {</div>
+<div class="line"><span class="lineno">  163</span>            c-&gt;<a class="code hl_function" href="../../da/d03/a07750.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d9/de2/a06062.html#a3a8fee035f2cd3ed05f46f6ab042cd50">TriggerAlert</a>(u);</div>
+<div class="line"><span class="lineno">  164</span>        }</div>
+<div class="line"><span class="lineno">  165</span>    }</div>
+<div class="line"><span class="lineno">  166</span>}</div>
 <div class="ttc" id="aa02120_html_ae51d2ecb71f7a5cb3882982a622c9544a6109dcad21a2eaf7e1d57bc2ad917558"><div class="ttname"><a href="../../d3/d23/a02120.html#ae51d2ecb71f7a5cb3882982a622c9544a6109dcad21a2eaf7e1d57bc2ad917558">UNIT_STATE_SIGHTLESS</a></div><div class="ttdeci">@ UNIT_STATE_SIGHTLESS</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:192</div></div>
 <div class="ttc" id="aa06062_html_a3a8fee035f2cd3ed05f46f6ab042cd50"><div class="ttname"><a href="../../d9/de2/a06062.html#a3a8fee035f2cd3ed05f46f6ab042cd50">CreatureAI::TriggerAlert</a></div><div class="ttdeci">void TriggerAlert(Unit const *who) const</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:175</div></div>
 <div class="ttc" id="aa06062_html_afd0302ecfe6e2381dc2bc5f89f2c2152"><div class="ttname"><a href="../../d9/de2/a06062.html#afd0302ecfe6e2381dc2bc5f89f2c2152">CreatureAI::MoveInLineOfSight_Safe</a></div><div class="ttdeci">void MoveInLineOfSight_Safe(Unit *who)</div><div class="ttdoc">== Reactions At =================================</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:147</div></div>
@@ -190,7 +189,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00143">Creature::AI()</a>, <a class="el" href="../../#l01726">WorldObject::CanSeeOrDetect()</a>, <a class="el" href="../../#l01115">Unit::HasStealthAura()</a>, <a class="el" href="../../#l00673">Unit::HasUnitState()</a>, <a class="el" href="../../#l01818">Unit::IsAIEnabled</a>, <a class="el" href="../../#l01216">Unit::IsAlive()</a>, <a class="el" href="../../#l01108">Unit::IsInFlight()</a>, <a class="el" href="../../#l00197">Object::IsPlayer()</a>, <a class="el" href="../../#l00147">CreatureAI::MoveInLineOfSight_Safe()</a>, <a class="el" href="../../#l00175">CreatureAI::TriggerAlert()</a>, and <a class="el" href="../../#l00192">UNIT_STATE_SIGHTLESS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00196">Acore::AIRelocationNotifier::Visit()</a>, and <a class="el" href="../../#l00180">Acore::CreatureRelocationNotifier::Visit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00195">Acore::AIRelocationNotifier::Visit()</a>, and <a class="el" href="../../#l00179">Acore::CreatureRelocationNotifier::Visit()</a>.</p>
 
 </div>
 </div>
@@ -200,7 +199,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_444e7ca7970920cb061ebbb02397ba46.html">Grids</a></li><li class="navelem"><a class="el" href="../../dir_286feac6c5a6e67bcd5741cf96c61741.html">Notifiers</a></li><li class="navelem"><a class="el" href="../../da/df6/a01454.html">GridNotifiers.cpp</a></li>
-    <li class="footer">Generated on Mon Sep 30 2024 20:40:27 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Oct 7 2024 20:40:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

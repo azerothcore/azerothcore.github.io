@@ -932,8 +932,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a18e058a9566a211e4dc1c41229cf2197 inherit pub_methods_a08498"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05a7dcd96c1301724694c6934563b92e inherit pub_methods_a08498"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/a08498.html#a05a7dcd96c1301724694c6934563b92e">SetCombatTimer</a> (<a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> timer)</td></tr>
 <tr class="separator:a05a7dcd96c1301724694c6934563b92e inherit pub_methods_a08498"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17a3a280549173c861ab2de0f1d876af inherit pub_methods_a08498"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/a08498.html#a17a3a280549173c861ab2de0f1d876af">CanHaveThreatList</a> () const</td></tr>
-<tr class="separator:a17a3a280549173c861ab2de0f1d876af inherit pub_methods_a08498"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0a72f8fa312caf442a6039bf9758ef6 inherit pub_methods_a08498"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/a08498.html#ae0a72f8fa312caf442a6039bf9758ef6">CanHaveThreatList</a> (bool skipAliveCheck=false) const</td></tr>
+<tr class="separator:ae0a72f8fa312caf442a6039bf9758ef6 inherit pub_methods_a08498"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b4dad985e3b5dde28d89afc956999e4 inherit pub_methods_a08498"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/a08498.html#a3b4dad985e3b5dde28d89afc956999e4">AddThreat</a> (<a class="el" href="../../d3/daf/a08498.html">Unit</a> *victim, float fThreat, <a class="el" href="../../d6/d71/a04598.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> schoolMask=<a class="el" href="../../d6/d71/a04598.html#aff6913cfd69489c107a071be9ec2ec8fa12667dd3f55738c93e1ddb1351779b42">SPELL_SCHOOL_MASK_NORMAL</a>, <a class="el" href="../../d2/d74/a10874.html">SpellInfo</a> const *threatSpell=nullptr)</td></tr>
 <tr class="separator:a3b4dad985e3b5dde28d89afc956999e4 inherit pub_methods_a08498"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37bc079e17756196dd7dbb4f6722c1f9 inherit pub_methods_a08498"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/a08498.html#a37bc079e17756196dd7dbb4f6722c1f9">ApplyTotalThreatModifier</a> (float fThreat, <a class="el" href="../../d6/d71/a04598.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> schoolMask=<a class="el" href="../../d6/d71/a04598.html#aff6913cfd69489c107a071be9ec2ec8fa12667dd3f55738c93e1ddb1351779b42">SPELL_SCHOOL_MASK_NORMAL</a>)</td></tr>
@@ -3482,9 +3482,9 @@ Additional Inherited Members</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">  516</span>{</div>
 <div class="line"><span class="lineno">  517</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../dc/d12/a04723.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<span class="keyword">this</span>, <a class="code hl_variable" href="../../da/de7/a07890.html#adae18eabdba52ef8a9f7c5c8768e060c">m_owner</a>);</div>
 <div class="line"><span class="lineno">  518</span>}</div>
-<div class="ttc" id="aa04723_html_aeb3657e7ad09335b9a9ffa50473aa216"><div class="ttname"><a href="../../dc/d12/a04723.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer(Map const *, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:223</div></div>
+<div class="ttc" id="aa04723_html_aeb3657e7ad09335b9a9ffa50473aa216"><div class="ttname"><a href="../../dc/d12/a04723.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer(Map const *, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:220</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00223">ObjectAccessor::GetPlayer()</a>, and <a class="el" href="../../#l00123">m_owner</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00220">ObjectAccessor::GetPlayer()</a>, and <a class="el" href="../../#l00123">m_owner</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../#l00470">InitStats()</a>, and <a class="el" href="../../#l00477">InitSummon()</a>.</p>
 
@@ -3524,10 +3524,10 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aa07750_html_acb27b2a3a09a2a9c520fba6ba2c69c4e"><div class="ttname"><a href="../../da/d03/a07750.html#acb27b2a3a09a2a9c520fba6ba2c69c4e">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates state)</div><div class="ttdoc">A creature can have 3 ReactStates : Agressive, Passive, Neutral.</div><div class="ttdef"><b>Definition:</b> Creature.h:97</div></div>
 <div class="ttc" id="aa07882_html_ad11b2900e990e2b5ba7d10b811cd1e5d"><div class="ttname"><a href="../../de/dc5/a07882.html#ad11b2900e990e2b5ba7d10b811cd1e5d">Minion::InitStats</a></div><div class="ttdeci">void InitStats(uint32 duration) override</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:360</div></div>
 <div class="ttc" id="aa07890_html_a38760bce8e8ebf28ae0143ad2931afd5"><div class="ttname"><a href="../../da/de7/a07890.html#a38760bce8e8ebf28ae0143ad2931afd5">Puppet::GetOwner</a></div><div class="ttdeci">Player * GetOwner() const</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:515</div></div>
-<div class="ttc" id="aa08498_html_a815ff6e664524d768b65cc0428ad4d1f"><div class="ttname"><a href="../../d3/daf/a08498.html#a815ff6e664524d768b65cc0428ad4d1f">Unit::SetLevel</a></div><div class="ttdeci">void SetLevel(uint8 lvl, bool showLevelChange=true)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:15414</div></div>
+<div class="ttc" id="aa08498_html_a815ff6e664524d768b65cc0428ad4d1f"><div class="ttname"><a href="../../d3/daf/a08498.html#a815ff6e664524d768b65cc0428ad4d1f">Unit::SetLevel</a></div><div class="ttdeci">void SetLevel(uint8 lvl, bool showLevelChange=true)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:15424</div></div>
 <div class="ttc" id="aa08498_html_af4767dc4f1480f7c0527db4efe2643d9"><div class="ttname"><a href="../../d3/daf/a08498.html#af4767dc4f1480f7c0527db4efe2643d9">Unit::GetLevel</a></div><div class="ttdeci">uint8 GetLevel() const</div><div class="ttdef"><b>Definition:</b> Unit.h:855</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00855">Unit::GetLevel()</a>, <a class="el" href="../../#l00515">GetOwner()</a>, <a class="el" href="../../#l00360">Minion::InitStats()</a>, <a class="el" href="../../#l00548">REACT_PASSIVE</a>, <a class="el" href="../../#l15414">Unit::SetLevel()</a>, and <a class="el" href="../../#l00097">Creature::SetReactState()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00855">Unit::GetLevel()</a>, <a class="el" href="../../#l00515">GetOwner()</a>, <a class="el" href="../../#l00360">Minion::InitStats()</a>, <a class="el" href="../../#l00548">REACT_PASSIVE</a>, <a class="el" href="../../#l15424">Unit::SetLevel()</a>, and <a class="el" href="../../#l00097">Creature::SetReactState()</a>.</p>
 
 </div>
 </div>
@@ -3572,9 +3572,9 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aa02114_html_a8a31720d588fad9fce4a74dabc39df8ba2a5727b1c99073b12be5d2e5413cc9eb"><div class="ttname"><a href="../../da/d4a/a02114.html#a8a31720d588fad9fce4a74dabc39df8ba2a5727b1c99073b12be5d2e5413cc9eb">CHARM_TYPE_POSSESS</a></div><div class="ttdeci">@ CHARM_TYPE_POSSESS</div><div class="ttdef"><b>Definition:</b> CharmInfo.h:45</div></div>
 <div class="ttc" id="aa07878_html_a55ec70ec7811303644caea24642cc94c"><div class="ttname"><a href="../../d3/d8d/a07878.html#a55ec70ec7811303644caea24642cc94c">TempSummon::InitSummon</a></div><div class="ttdeci">virtual void InitSummon()</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:252</div></div>
 <div class="ttc" id="aa08366_html"><div class="ttname"><a href="../../db/de7/a08366.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1064</div></div>
-<div class="ttc" id="aa08498_html_ad02c1207bd4ccb5df03df1d4eec80293"><div class="ttname"><a href="../../d3/daf/a08498.html#ad02c1207bd4ccb5df03df1d4eec80293">Unit::SetCharmedBy</a></div><div class="ttdeci">bool SetCharmedBy(Unit *charmer, CharmType type, AuraApplication const *aurApp=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18305</div></div>
+<div class="ttc" id="aa08498_html_ad02c1207bd4ccb5df03df1d4eec80293"><div class="ttname"><a href="../../d3/daf/a08498.html#ad02c1207bd4ccb5df03df1d4eec80293">Unit::SetCharmedBy</a></div><div class="ttdeci">bool SetCharmedBy(Unit *charmer, CharmType type, AuraApplication const *aurApp=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18315</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00045">CHARM_TYPE_POSSESS</a>, <a class="el" href="../../#l00515">GetOwner()</a>, <a class="el" href="../../#l00252">TempSummon::InitSummon()</a>, <a class="el" href="../../#l00164">LOG_INFO</a>, and <a class="el" href="../../#l18305">Unit::SetCharmedBy()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00045">CHARM_TYPE_POSSESS</a>, <a class="el" href="../../#l00515">GetOwner()</a>, <a class="el" href="../../#l00252">TempSummon::InitSummon()</a>, <a class="el" href="../../#l00164">LOG_INFO</a>, and <a class="el" href="../../#l18315">Unit::SetCharmedBy()</a>.</p>
 
 </div>
 </div>
@@ -3611,9 +3611,9 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  513</span>}</div>
 <div class="ttc" id="aa07882_html_a35f8314d0a4bafeba1987eb0b1ececf3"><div class="ttname"><a href="../../de/dc5/a07882.html#a35f8314d0a4bafeba1987eb0b1ececf3">Minion::RemoveFromWorld</a></div><div class="ttdeci">void RemoveFromWorld() override</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:374</div></div>
 <div class="ttc" id="aa08122_html_a3aeab7def818ba6c50249f197ad2f9ca"><div class="ttname"><a href="../../d8/dc8/a08122.html#a3aeab7def818ba6c50249f197ad2f9ca">Object::IsInWorld</a></div><div class="ttdeci">bool IsInWorld() const</div><div class="ttdef"><b>Definition:</b> Object.h:104</div></div>
-<div class="ttc" id="aa08498_html_aa897a679d63c8d6272d4bc85395a708f"><div class="ttname"><a href="../../d3/daf/a08498.html#aa897a679d63c8d6272d4bc85395a708f">Unit::RemoveCharmedBy</a></div><div class="ttdeci">void RemoveCharmedBy(Unit *charmer)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18507</div></div>
+<div class="ttc" id="aa08498_html_aa897a679d63c8d6272d4bc85395a708f"><div class="ttname"><a href="../../d3/daf/a08498.html#aa897a679d63c8d6272d4bc85395a708f">Unit::RemoveCharmedBy</a></div><div class="ttdeci">void RemoveCharmedBy(Unit *charmer)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18517</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00104">Object::IsInWorld()</a>, <a class="el" href="../../#l18507">Unit::RemoveCharmedBy()</a>, and <a class="el" href="../../#l00374">Minion::RemoveFromWorld()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00104">Object::IsInWorld()</a>, <a class="el" href="../../#l18517">Unit::RemoveCharmedBy()</a>, and <a class="el" href="../../#l00374">Minion::RemoveFromWorld()</a>.</p>
 
 </div>
 </div>
@@ -3693,7 +3693,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/de7/a07890.html">Puppet</a></li>
-    <li class="footer">Generated on Mon Sep 30 2024 20:42:17 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Oct 7 2024 20:42:30 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

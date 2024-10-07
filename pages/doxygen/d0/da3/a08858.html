@@ -226,12 +226,12 @@ Public Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  154</span>        }</div>
 <div class="ttc" id="aa08366_html_a3f14db9604cd251d30cbab5afa1877af"><div class="ttname"><a href="../../db/de7/a08366.html#a3f14db9604cd251d30cbab5afa1877af">Player::HaveAtClient</a></div><div class="ttdeci">bool HaveAtClient(WorldObject const *u) const</div><div class="ttdef"><b>Definition:</b> Player.cpp:11411</div></div>
 <div class="ttc" id="aa08366_html_a6ab11ca64cde7c5cde1f53998a6f7253"><div class="ttname"><a href="../../db/de7/a08366.html#a6ab11ca64cde7c5cde1f53998a6f7253">Player::GetSession</a></div><div class="ttdeci">WorldSession * GetSession() const</div><div class="ttdef"><b>Definition:</b> Player.h:1980</div></div>
-<div class="ttc" id="aa08498_html_abdfe022523c40277d917754f75edb722"><div class="ttname"><a href="../../d3/daf/a08498.html#abdfe022523c40277d917754f75edb722">Unit::IsFriendlyTo</a></div><div class="ttdeci">bool IsFriendlyTo(Unit const *unit) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10202</div></div>
+<div class="ttc" id="aa08498_html_abdfe022523c40277d917754f75edb722"><div class="ttname"><a href="../../d3/daf/a08498.html#abdfe022523c40277d917754f75edb722">Unit::IsFriendlyTo</a></div><div class="ttdeci">bool IsFriendlyTo(Unit const *unit) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10210</div></div>
 <div class="ttc" id="aa10718_html_a2c74b80ca9b81765049e315813b29269"><div class="ttname"><a href="../../d1/de3/a10718.html#a2c74b80ca9b81765049e315813b29269">WorldSession::SendPacket</a></div><div class="ttdeci">void SendPacket(WorldPacket const *packet)</div><div class="ttdoc">Send a packet to the client.</div><div class="ttdef"><b>Definition:</b> WorldSession.cpp:214</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l01980">Player::GetSession()</a>, <a class="el" href="../../#l11411">Player::HaveAtClient()</a>, <a class="el" href="../../#l00135">i_message</a>, <a class="el" href="../../#l00134">i_source</a>, <a class="el" href="../../#l10202">Unit::IsFriendlyTo()</a>, and <a class="el" href="../../#l00214">WorldSession::SendPacket()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l01980">Player::GetSession()</a>, <a class="el" href="../../#l11411">Player::HaveAtClient()</a>, <a class="el" href="../../#l00135">i_message</a>, <a class="el" href="../../#l00134">i_source</a>, <a class="el" href="../../#l10210">Unit::IsFriendlyTo()</a>, and <a class="el" href="../../#l00214">WorldSession::SendPacket()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00296">Visit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00295">Visit()</a>.</p>
 
 </div>
 </div>
@@ -250,23 +250,23 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  322</span>{</div>
-<div class="line"><span class="lineno">  323</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d2/dc4/a05134.html">CreatureMapType::iterator</a> iter = m.<a class="code hl_function" href="../../d9/db0/a08822.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); iter != m.<a class="code hl_function" href="../../d9/db0/a08822.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++iter)</div>
-<div class="line"><span class="lineno">  324</span>    {</div>
-<div class="line"><span class="lineno">  325</span>        <a class="code hl_class" href="../../da/d03/a07750.html">Creature</a>* target = iter-&gt;GetSource();</div>
-<div class="line"><span class="lineno">  326</span>        <span class="keywordflow">if</span> (!target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#ad21189d267c060a1bac98efabe453780">HasSharedVision</a>() || !target-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#a9194d2edf982e08c6a17e2893d9969f9">InSamePhase</a>(<a class="code hl_variable" href="../../d0/da3/a08858.html#a0a932cd193e847ee0cfddae0946e39d1">i_phaseMask</a>))</div>
-<div class="line"><span class="lineno">  327</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  328</span> </div>
-<div class="line"><span class="lineno">  329</span>        <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d9/d08/a08198.html#a18d31b5e7b176a14502dcb667a898865">GetExactDist2dSq</a>(<a class="code hl_variable" href="../../d0/da3/a08858.html#a174aade6dc85233e8481a452f800ec0e">i_source</a>) &gt; <a class="code hl_variable" href="../../d0/da3/a08858.html#a0fc7e00f191801869c3fd8eeae032af8">i_distSq</a>)</div>
-<div class="line"><span class="lineno">  330</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  331</span> </div>
-<div class="line"><span class="lineno">  332</span>        <span class="comment">// Send packet to all who are sharing the creature&#39;s vision</span></div>
-<div class="line"><span class="lineno">  333</span>        SharedVisionList::const_iterator i = target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a91e49a7a4d0172934c7aa6eed1b093d6">GetSharedVisionList</a>().begin();</div>
-<div class="line"><span class="lineno">  334</span>        <span class="keywordflow">for</span> (; i != target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a91e49a7a4d0172934c7aa6eed1b093d6">GetSharedVisionList</a>().end(); ++i)</div>
-<div class="line"><span class="lineno">  335</span>            <span class="keywordflow">if</span> ((*i)-&gt;m_seer == target)</div>
-<div class="line"><span class="lineno">  336</span>                <a class="code hl_function" href="../../d0/da3/a08858.html#aced79e7b19918408fa4d81667fbeb7f0">SendPacket</a>(*i);</div>
-<div class="line"><span class="lineno">  337</span>    }</div>
-<div class="line"><span class="lineno">  338</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  321</span>{</div>
+<div class="line"><span class="lineno">  322</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d2/dc4/a05134.html">CreatureMapType::iterator</a> iter = m.<a class="code hl_function" href="../../d9/db0/a08822.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); iter != m.<a class="code hl_function" href="../../d9/db0/a08822.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++iter)</div>
+<div class="line"><span class="lineno">  323</span>    {</div>
+<div class="line"><span class="lineno">  324</span>        <a class="code hl_class" href="../../da/d03/a07750.html">Creature</a>* target = iter-&gt;GetSource();</div>
+<div class="line"><span class="lineno">  325</span>        <span class="keywordflow">if</span> (!target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#ad21189d267c060a1bac98efabe453780">HasSharedVision</a>() || !target-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#a9194d2edf982e08c6a17e2893d9969f9">InSamePhase</a>(<a class="code hl_variable" href="../../d0/da3/a08858.html#a0a932cd193e847ee0cfddae0946e39d1">i_phaseMask</a>))</div>
+<div class="line"><span class="lineno">  326</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  327</span> </div>
+<div class="line"><span class="lineno">  328</span>        <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d9/d08/a08198.html#a18d31b5e7b176a14502dcb667a898865">GetExactDist2dSq</a>(<a class="code hl_variable" href="../../d0/da3/a08858.html#a174aade6dc85233e8481a452f800ec0e">i_source</a>) &gt; <a class="code hl_variable" href="../../d0/da3/a08858.html#a0fc7e00f191801869c3fd8eeae032af8">i_distSq</a>)</div>
+<div class="line"><span class="lineno">  329</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  330</span> </div>
+<div class="line"><span class="lineno">  331</span>        <span class="comment">// Send packet to all who are sharing the creature&#39;s vision</span></div>
+<div class="line"><span class="lineno">  332</span>        SharedVisionList::const_iterator i = target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a91e49a7a4d0172934c7aa6eed1b093d6">GetSharedVisionList</a>().begin();</div>
+<div class="line"><span class="lineno">  333</span>        <span class="keywordflow">for</span> (; i != target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a91e49a7a4d0172934c7aa6eed1b093d6">GetSharedVisionList</a>().end(); ++i)</div>
+<div class="line"><span class="lineno">  334</span>            <span class="keywordflow">if</span> ((*i)-&gt;m_seer == target)</div>
+<div class="line"><span class="lineno">  335</span>                <a class="code hl_function" href="../../d0/da3/a08858.html#aced79e7b19918408fa4d81667fbeb7f0">SendPacket</a>(*i);</div>
+<div class="line"><span class="lineno">  336</span>    }</div>
+<div class="line"><span class="lineno">  337</span>}</div>
 <div class="ttc" id="aa05134_html"><div class="ttname"><a href="../../d2/dc4/a05134.html">LinkedListHead::Iterator</a></div><div class="ttdef"><b>Definition:</b> LinkedList.h:139</div></div>
 <div class="ttc" id="aa07750_html"><div class="ttname"><a href="../../da/d03/a07750.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
 <div class="ttc" id="aa08154_html_a9194d2edf982e08c6a17e2893d9969f9"><div class="ttname"><a href="../../d4/dd5/a08154.html#a9194d2edf982e08c6a17e2893d9969f9">WorldObject::InSamePhase</a></div><div class="ttdeci">bool InSamePhase(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.h:447</div></div>
@@ -296,22 +296,22 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  341</span>{</div>
-<div class="line"><span class="lineno">  342</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d2/dc4/a05134.html">DynamicObjectMapType::iterator</a> iter = m.<a class="code hl_function" href="../../d9/db0/a08822.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); iter != m.<a class="code hl_function" href="../../d9/db0/a08822.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++iter)</div>
-<div class="line"><span class="lineno">  343</span>    {</div>
-<div class="line"><span class="lineno">  344</span>        <a class="code hl_class" href="../../d6/d41/a07898.html">DynamicObject</a>* target = iter-&gt;GetSource();</div>
-<div class="line"><span class="lineno">  345</span>        <span class="keywordflow">if</span> (!target-&gt;<a class="code hl_function" href="../../d6/d41/a07898.html#aa327c9f2f09a1799b963c97d6a68918f">GetCasterGUID</a>().<a class="code hl_function" href="../../d2/d8c/a08170.html#a676c61adb79a8be696a771a116253ee1">IsPlayer</a>() || !target-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#a9194d2edf982e08c6a17e2893d9969f9">InSamePhase</a>(<a class="code hl_variable" href="../../d0/da3/a08858.html#a0a932cd193e847ee0cfddae0946e39d1">i_phaseMask</a>))</div>
-<div class="line"><span class="lineno">  346</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  347</span> </div>
-<div class="line"><span class="lineno">  348</span>        <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d9/d08/a08198.html#a18d31b5e7b176a14502dcb667a898865">GetExactDist2dSq</a>(<a class="code hl_variable" href="../../d0/da3/a08858.html#a174aade6dc85233e8481a452f800ec0e">i_source</a>) &gt; <a class="code hl_variable" href="../../d0/da3/a08858.html#a0fc7e00f191801869c3fd8eeae032af8">i_distSq</a>)</div>
-<div class="line"><span class="lineno">  349</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  350</span> </div>
-<div class="line"><span class="lineno">  351</span>        <span class="comment">// Send packet back to the caster if the caster has vision of dynamic object</span></div>
-<div class="line"><span class="lineno">  352</span>        <a class="code hl_class" href="../../db/de7/a08366.html">Player</a>* caster = (<a class="code hl_class" href="../../db/de7/a08366.html">Player</a>*)target-&gt;<a class="code hl_function" href="../../d6/d41/a07898.html#a1cf2186ab2a5f306d2a46db354767fdc">GetCaster</a>();</div>
-<div class="line"><span class="lineno">  353</span>        <span class="keywordflow">if</span> (caster &amp;&amp; caster-&gt;<a class="code hl_variable" href="../../db/de7/a08366.html#a627213e5abefc63f5e430cd8ecfbb06e">m_seer</a> == target)</div>
-<div class="line"><span class="lineno">  354</span>            <a class="code hl_function" href="../../d0/da3/a08858.html#aced79e7b19918408fa4d81667fbeb7f0">SendPacket</a>(caster);</div>
-<div class="line"><span class="lineno">  355</span>    }</div>
-<div class="line"><span class="lineno">  356</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  340</span>{</div>
+<div class="line"><span class="lineno">  341</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d2/dc4/a05134.html">DynamicObjectMapType::iterator</a> iter = m.<a class="code hl_function" href="../../d9/db0/a08822.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); iter != m.<a class="code hl_function" href="../../d9/db0/a08822.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++iter)</div>
+<div class="line"><span class="lineno">  342</span>    {</div>
+<div class="line"><span class="lineno">  343</span>        <a class="code hl_class" href="../../d6/d41/a07898.html">DynamicObject</a>* target = iter-&gt;GetSource();</div>
+<div class="line"><span class="lineno">  344</span>        <span class="keywordflow">if</span> (!target-&gt;<a class="code hl_function" href="../../d6/d41/a07898.html#aa327c9f2f09a1799b963c97d6a68918f">GetCasterGUID</a>().<a class="code hl_function" href="../../d2/d8c/a08170.html#a676c61adb79a8be696a771a116253ee1">IsPlayer</a>() || !target-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#a9194d2edf982e08c6a17e2893d9969f9">InSamePhase</a>(<a class="code hl_variable" href="../../d0/da3/a08858.html#a0a932cd193e847ee0cfddae0946e39d1">i_phaseMask</a>))</div>
+<div class="line"><span class="lineno">  345</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  346</span> </div>
+<div class="line"><span class="lineno">  347</span>        <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d9/d08/a08198.html#a18d31b5e7b176a14502dcb667a898865">GetExactDist2dSq</a>(<a class="code hl_variable" href="../../d0/da3/a08858.html#a174aade6dc85233e8481a452f800ec0e">i_source</a>) &gt; <a class="code hl_variable" href="../../d0/da3/a08858.html#a0fc7e00f191801869c3fd8eeae032af8">i_distSq</a>)</div>
+<div class="line"><span class="lineno">  348</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  349</span> </div>
+<div class="line"><span class="lineno">  350</span>        <span class="comment">// Send packet back to the caster if the caster has vision of dynamic object</span></div>
+<div class="line"><span class="lineno">  351</span>        <a class="code hl_class" href="../../db/de7/a08366.html">Player</a>* caster = (<a class="code hl_class" href="../../db/de7/a08366.html">Player</a>*)target-&gt;<a class="code hl_function" href="../../d6/d41/a07898.html#a1cf2186ab2a5f306d2a46db354767fdc">GetCaster</a>();</div>
+<div class="line"><span class="lineno">  352</span>        <span class="keywordflow">if</span> (caster &amp;&amp; caster-&gt;<a class="code hl_variable" href="../../db/de7/a08366.html#a627213e5abefc63f5e430cd8ecfbb06e">m_seer</a> == target)</div>
+<div class="line"><span class="lineno">  353</span>            <a class="code hl_function" href="../../d0/da3/a08858.html#aced79e7b19918408fa4d81667fbeb7f0">SendPacket</a>(caster);</div>
+<div class="line"><span class="lineno">  354</span>    }</div>
+<div class="line"><span class="lineno">  355</span>}</div>
 <div class="ttc" id="aa07898_html"><div class="ttname"><a href="../../d6/d41/a07898.html">DynamicObject</a></div><div class="ttdef"><b>Definition:</b> DynamicObject.h:35</div></div>
 <div class="ttc" id="aa07898_html_a1cf2186ab2a5f306d2a46db354767fdc"><div class="ttname"><a href="../../d6/d41/a07898.html#a1cf2186ab2a5f306d2a46db354767fdc">DynamicObject::GetCaster</a></div><div class="ttdeci">Unit * GetCaster() const</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:55</div></div>
 <div class="ttc" id="aa07898_html_aa327c9f2f09a1799b963c97d6a68918f"><div class="ttname"><a href="../../d6/d41/a07898.html#aa327c9f2f09a1799b963c97d6a68918f">DynamicObject::GetCasterGUID</a></div><div class="ttdeci">ObjectGuid GetCasterGUID() const</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:59</div></div>
@@ -367,29 +367,29 @@ template&lt;class SKIP &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  297</span>{</div>
-<div class="line"><span class="lineno">  298</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d2/dc4/a05134.html">PlayerMapType::iterator</a> iter = m.<a class="code hl_function" href="../../d9/db0/a08822.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); iter != m.<a class="code hl_function" href="../../d9/db0/a08822.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++iter)</div>
-<div class="line"><span class="lineno">  299</span>    {</div>
-<div class="line"><span class="lineno">  300</span>        <a class="code hl_class" href="../../db/de7/a08366.html">Player</a>* target = iter-&gt;GetSource();</div>
-<div class="line"><span class="lineno">  301</span>        <span class="keywordflow">if</span> (!target-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#a9194d2edf982e08c6a17e2893d9969f9">InSamePhase</a>(<a class="code hl_variable" href="../../d0/da3/a08858.html#a0a932cd193e847ee0cfddae0946e39d1">i_phaseMask</a>))</div>
-<div class="line"><span class="lineno">  302</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  303</span> </div>
-<div class="line"><span class="lineno">  304</span>        <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d9/d08/a08198.html#a18d31b5e7b176a14502dcb667a898865">GetExactDist2dSq</a>(<a class="code hl_variable" href="../../d0/da3/a08858.html#a174aade6dc85233e8481a452f800ec0e">i_source</a>) &gt; <a class="code hl_variable" href="../../d0/da3/a08858.html#a0fc7e00f191801869c3fd8eeae032af8">i_distSq</a>)</div>
-<div class="line"><span class="lineno">  305</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  306</span> </div>
-<div class="line"><span class="lineno">  307</span>        <span class="comment">// Send packet to all who are sharing the player&#39;s vision</span></div>
-<div class="line"><span class="lineno">  308</span>        <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#ad21189d267c060a1bac98efabe453780">HasSharedVision</a>())</div>
-<div class="line"><span class="lineno">  309</span>        {</div>
-<div class="line"><span class="lineno">  310</span>            SharedVisionList::const_iterator i = target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a91e49a7a4d0172934c7aa6eed1b093d6">GetSharedVisionList</a>().begin();</div>
-<div class="line"><span class="lineno">  311</span>            <span class="keywordflow">for</span> (; i != target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a91e49a7a4d0172934c7aa6eed1b093d6">GetSharedVisionList</a>().end(); ++i)</div>
-<div class="line"><span class="lineno">  312</span>                <span class="keywordflow">if</span> ((*i)-&gt;m_seer == target)</div>
-<div class="line"><span class="lineno">  313</span>                    <a class="code hl_function" href="../../d0/da3/a08858.html#aced79e7b19918408fa4d81667fbeb7f0">SendPacket</a>(*i);</div>
-<div class="line"><span class="lineno">  314</span>        }</div>
-<div class="line"><span class="lineno">  315</span> </div>
-<div class="line"><span class="lineno">  316</span>        <span class="keywordflow">if</span> (target-&gt;<a class="code hl_variable" href="../../db/de7/a08366.html#a627213e5abefc63f5e430cd8ecfbb06e">m_seer</a> == target || target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a0839378167049038c2857252d3b14738">GetVehicle</a>())</div>
-<div class="line"><span class="lineno">  317</span>            <a class="code hl_function" href="../../d0/da3/a08858.html#aced79e7b19918408fa4d81667fbeb7f0">SendPacket</a>(target);</div>
-<div class="line"><span class="lineno">  318</span>    }</div>
-<div class="line"><span class="lineno">  319</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  296</span>{</div>
+<div class="line"><span class="lineno">  297</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d2/dc4/a05134.html">PlayerMapType::iterator</a> iter = m.<a class="code hl_function" href="../../d9/db0/a08822.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); iter != m.<a class="code hl_function" href="../../d9/db0/a08822.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++iter)</div>
+<div class="line"><span class="lineno">  298</span>    {</div>
+<div class="line"><span class="lineno">  299</span>        <a class="code hl_class" href="../../db/de7/a08366.html">Player</a>* target = iter-&gt;GetSource();</div>
+<div class="line"><span class="lineno">  300</span>        <span class="keywordflow">if</span> (!target-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#a9194d2edf982e08c6a17e2893d9969f9">InSamePhase</a>(<a class="code hl_variable" href="../../d0/da3/a08858.html#a0a932cd193e847ee0cfddae0946e39d1">i_phaseMask</a>))</div>
+<div class="line"><span class="lineno">  301</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  302</span> </div>
+<div class="line"><span class="lineno">  303</span>        <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d9/d08/a08198.html#a18d31b5e7b176a14502dcb667a898865">GetExactDist2dSq</a>(<a class="code hl_variable" href="../../d0/da3/a08858.html#a174aade6dc85233e8481a452f800ec0e">i_source</a>) &gt; <a class="code hl_variable" href="../../d0/da3/a08858.html#a0fc7e00f191801869c3fd8eeae032af8">i_distSq</a>)</div>
+<div class="line"><span class="lineno">  304</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  305</span> </div>
+<div class="line"><span class="lineno">  306</span>        <span class="comment">// Send packet to all who are sharing the player&#39;s vision</span></div>
+<div class="line"><span class="lineno">  307</span>        <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#ad21189d267c060a1bac98efabe453780">HasSharedVision</a>())</div>
+<div class="line"><span class="lineno">  308</span>        {</div>
+<div class="line"><span class="lineno">  309</span>            SharedVisionList::const_iterator i = target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a91e49a7a4d0172934c7aa6eed1b093d6">GetSharedVisionList</a>().begin();</div>
+<div class="line"><span class="lineno">  310</span>            <span class="keywordflow">for</span> (; i != target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a91e49a7a4d0172934c7aa6eed1b093d6">GetSharedVisionList</a>().end(); ++i)</div>
+<div class="line"><span class="lineno">  311</span>                <span class="keywordflow">if</span> ((*i)-&gt;m_seer == target)</div>
+<div class="line"><span class="lineno">  312</span>                    <a class="code hl_function" href="../../d0/da3/a08858.html#aced79e7b19918408fa4d81667fbeb7f0">SendPacket</a>(*i);</div>
+<div class="line"><span class="lineno">  313</span>        }</div>
+<div class="line"><span class="lineno">  314</span> </div>
+<div class="line"><span class="lineno">  315</span>        <span class="keywordflow">if</span> (target-&gt;<a class="code hl_variable" href="../../db/de7/a08366.html#a627213e5abefc63f5e430cd8ecfbb06e">m_seer</a> == target || target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a0839378167049038c2857252d3b14738">GetVehicle</a>())</div>
+<div class="line"><span class="lineno">  316</span>            <a class="code hl_function" href="../../d0/da3/a08858.html#aced79e7b19918408fa4d81667fbeb7f0">SendPacket</a>(target);</div>
+<div class="line"><span class="lineno">  317</span>    }</div>
+<div class="line"><span class="lineno">  318</span>}</div>
 <div class="ttc" id="aa08498_html_a0839378167049038c2857252d3b14738"><div class="ttname"><a href="../../d3/daf/a08498.html#a0839378167049038c2857252d3b14738">Unit::GetVehicle</a></div><div class="ttdeci">Vehicle * GetVehicle() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1687</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00035">GridRefMgr&lt; OBJECT &gt;::begin()</a>, <a class="el" href="../../#l00036">GridRefMgr&lt; OBJECT &gt;::end()</a>, <a class="el" href="../../#l00157">Position::GetExactDist2dSq()</a>, <a class="el" href="../../#l01296">Unit::GetSharedVisionList()</a>, <a class="el" href="../../#l01687">Unit::GetVehicle()</a>, <a class="el" href="../../#l01299">Unit::HasSharedVision()</a>, <a class="el" href="../../#l00137">i_distSq</a>, <a class="el" href="../../#l00136">i_phaseMask</a>, <a class="el" href="../../#l00134">i_source</a>, <a class="el" href="../../#l00447">WorldObject::InSamePhase()</a>, <a class="el" href="../../#l02316">Player::m_seer</a>, and <a class="el" href="../../#l00147">SendPacket()</a>.</p>
@@ -409,7 +409,7 @@ template&lt;class SKIP &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00296">Visit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00295">Visit()</a>.</p>
 
 </div>
 </div>
@@ -441,7 +441,7 @@ template&lt;class SKIP &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00296">Visit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00295">Visit()</a>.</p>
 
 </div>
 </div>
@@ -457,7 +457,7 @@ template&lt;class SKIP &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00147">SendPacket()</a>, and <a class="el" href="../../#l00296">Visit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00147">SendPacket()</a>, and <a class="el" href="../../#l00295">Visit()</a>.</p>
 
 </div>
 </div>
@@ -467,7 +467,7 @@ template&lt;class SKIP &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">Acore</a></li><li class="navelem"><a class="el" href="../../d0/da3/a08858.html">MessageDistDelivererToHostile</a></li>
-    <li class="footer">Generated on Mon Sep 30 2024 20:42:44 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Oct 7 2024 20:43:00 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

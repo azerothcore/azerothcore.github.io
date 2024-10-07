@@ -188,9 +188,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  122</span>: <a class="code hl_variable" href="../../df/d21/a07298.html#a1605d492889200f2d18d6759882913aa">_wrapper</a>(<span class="keyword">nullptr</span>), <a class="code hl_variable" href="../../df/d21/a07298.html#af9bece7be346ed85c5b45cc07c7b176a">_handler</a>(<span class="keyword">nullptr</span>) {}</div>
-<div class="ttc" id="aa07298_html_a1605d492889200f2d18d6759882913aa"><div class="ttname"><a href="../../df/d21/a07298.html#a1605d492889200f2d18d6759882913aa">Acore::Impl::ChatCommands::CommandInvoker::_wrapper</a></div><div class="ttdeci">wrapper_func * _wrapper</div><div class="ttdef"><b>Definition:</b> ChatCommand.h:165</div></div>
-<div class="ttc" id="aa07298_html_af9bece7be346ed85c5b45cc07c7b176a"><div class="ttname"><a href="../../df/d21/a07298.html#af9bece7be346ed85c5b45cc07c7b176a">Acore::Impl::ChatCommands::CommandInvoker::_handler</a></div><div class="ttdeci">void * _handler</div><div class="ttdef"><b>Definition:</b> ChatCommand.h:166</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  121</span>: <a class="code hl_variable" href="../../df/d21/a07298.html#a1605d492889200f2d18d6759882913aa">_wrapper</a>(<span class="keyword">nullptr</span>), <a class="code hl_variable" href="../../df/d21/a07298.html#af9bece7be346ed85c5b45cc07c7b176a">_handler</a>(<span class="keyword">nullptr</span>) {}</div>
+<div class="ttc" id="aa07298_html_a1605d492889200f2d18d6759882913aa"><div class="ttname"><a href="../../df/d21/a07298.html#a1605d492889200f2d18d6759882913aa">Acore::Impl::ChatCommands::CommandInvoker::_wrapper</a></div><div class="ttdeci">wrapper_func * _wrapper</div><div class="ttdef"><b>Definition:</b> ChatCommand.h:164</div></div>
+<div class="ttc" id="aa07298_html_af9bece7be346ed85c5b45cc07c7b176a"><div class="ttname"><a href="../../df/d21/a07298.html#af9bece7be346ed85c5b45cc07c7b176a">Acore::Impl::ChatCommands::CommandInvoker::_handler</a></div><div class="ttdeci">void * _handler</div><div class="ttdef"><b>Definition:</b> ChatCommand.h:165</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -219,32 +219,32 @@ template&lt;typename TypedHandler &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  125</span>        {</div>
-<div class="line"><span class="lineno">  126</span>            <a class="code hl_variable" href="../../df/d21/a07298.html#a1605d492889200f2d18d6759882913aa">_wrapper</a> = [](<span class="keywordtype">void</span>* handler, <a class="code hl_class" href="../../db/d55/a07266.html">ChatHandler</a>* chatHandler, std::string_view argsStr)</div>
-<div class="line"><span class="lineno">  127</span>            {</div>
-<div class="line"><span class="lineno">  128</span>                <span class="keyword">using </span>Tuple = TupleType&lt;TypedHandler&gt;;</div>
-<div class="line"><span class="lineno">  129</span> </div>
-<div class="line"><span class="lineno">  130</span>                Tuple arguments;</div>
-<div class="line"><span class="lineno">  131</span>                std::get&lt;0&gt;(arguments) = chatHandler;</div>
-<div class="line"><span class="lineno">  132</span>                <a class="code hl_struct" href="../../d4/dec/a07422.html">ChatCommandResult</a> result = ConsumeFromOffset&lt;Tuple, 1&gt;(arguments, chatHandler, argsStr);</div>
-<div class="line"><span class="lineno">  133</span>                <span class="keywordflow">if</span> (result)</div>
-<div class="line"><span class="lineno">  134</span>                    <span class="keywordflow">return</span> std::apply(<span class="keyword">reinterpret_cast&lt;</span>TypedHandler*<span class="keyword">&gt;</span>(handler), std::move(arguments));</div>
-<div class="line"><span class="lineno">  135</span>                <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  136</span>                {</div>
-<div class="line"><span class="lineno">  137</span>                    <span class="keywordflow">if</span> (result.<a class="code hl_function" href="../../d4/dec/a07422.html#a74f331d2e68ddf7cefc14b4c47369311">HasErrorMessage</a>())</div>
-<div class="line"><span class="lineno">  138</span>                        <a class="code hl_function" href="../../da/d6d/a04713.html#aae4c9556d5cc172144fa280ca820226d">SendErrorMessageToHandler</a>(chatHandler, result.<a class="code hl_function" href="../../d4/dec/a07422.html#abb0aa9f55f86ab7d54b7b3a894dcd237">GetErrorMessage</a>());</div>
-<div class="line"><span class="lineno">  139</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  140</span>                }</div>
-<div class="line"><span class="lineno">  141</span>            };</div>
-<div class="line"><span class="lineno">  142</span>            <a class="code hl_variable" href="../../df/d21/a07298.html#af9bece7be346ed85c5b45cc07c7b176a">_handler</a> = <span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">void</span>*<span class="keyword">&gt;</span>(handler);</div>
-<div class="line"><span class="lineno">  143</span>        }</div>
-<div class="ttc" id="aa04713_html_aae4c9556d5cc172144fa280ca820226d"><div class="ttname"><a href="../../da/d6d/a04713.html#aae4c9556d5cc172144fa280ca820226d">Acore::Impl::ChatCommands::SendErrorMessageToHandler</a></div><div class="ttdeci">AC_GAME_API void SendErrorMessageToHandler(ChatHandler *handler, std::string_view str)</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.cpp:22</div></div>
-<div class="ttc" id="aa07266_html"><div class="ttname"><a href="../../db/d55/a07266.html">ChatHandler</a></div><div class="ttdef"><b>Definition:</b> Chat.h:39</div></div>
-<div class="ttc" id="aa07422_html"><div class="ttname"><a href="../../d4/dec/a07422.html">Acore::Impl::ChatCommands::ChatCommandResult</a></div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:101</div></div>
-<div class="ttc" id="aa07422_html_a74f331d2e68ddf7cefc14b4c47369311"><div class="ttname"><a href="../../d4/dec/a07422.html#a74f331d2e68ddf7cefc14b4c47369311">Acore::Impl::ChatCommands::ChatCommandResult::HasErrorMessage</a></div><div class="ttdeci">bool HasErrorMessage() const</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:116</div></div>
-<div class="ttc" id="aa07422_html_abb0aa9f55f86ab7d54b7b3a894dcd237"><div class="ttname"><a href="../../d4/dec/a07422.html#abb0aa9f55f86ab7d54b7b3a894dcd237">Acore::Impl::ChatCommands::ChatCommandResult::GetErrorMessage</a></div><div class="ttdeci">std::string const &amp; GetErrorMessage() const</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:117</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  124</span>        {</div>
+<div class="line"><span class="lineno">  125</span>            <a class="code hl_variable" href="../../df/d21/a07298.html#a1605d492889200f2d18d6759882913aa">_wrapper</a> = [](<span class="keywordtype">void</span>* handler, <a class="code hl_class" href="../../db/d55/a07266.html">ChatHandler</a>* chatHandler, std::string_view argsStr)</div>
+<div class="line"><span class="lineno">  126</span>            {</div>
+<div class="line"><span class="lineno">  127</span>                <span class="keyword">using </span>Tuple = TupleType&lt;TypedHandler&gt;;</div>
+<div class="line"><span class="lineno">  128</span> </div>
+<div class="line"><span class="lineno">  129</span>                Tuple arguments;</div>
+<div class="line"><span class="lineno">  130</span>                std::get&lt;0&gt;(arguments) = chatHandler;</div>
+<div class="line"><span class="lineno">  131</span>                <a class="code hl_struct" href="../../d4/dec/a07422.html">ChatCommandResult</a> result = ConsumeFromOffset&lt;Tuple, 1&gt;(arguments, chatHandler, argsStr);</div>
+<div class="line"><span class="lineno">  132</span>                <span class="keywordflow">if</span> (result)</div>
+<div class="line"><span class="lineno">  133</span>                    <span class="keywordflow">return</span> std::apply(<span class="keyword">reinterpret_cast&lt;</span>TypedHandler*<span class="keyword">&gt;</span>(handler), std::move(arguments));</div>
+<div class="line"><span class="lineno">  134</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  135</span>                {</div>
+<div class="line"><span class="lineno">  136</span>                    <span class="keywordflow">if</span> (result.<a class="code hl_function" href="../../d4/dec/a07422.html#a74f331d2e68ddf7cefc14b4c47369311">HasErrorMessage</a>())</div>
+<div class="line"><span class="lineno">  137</span>                        <a class="code hl_function" href="../../da/d6d/a04713.html#aae4c9556d5cc172144fa280ca820226d">SendErrorMessageToHandler</a>(chatHandler, result.<a class="code hl_function" href="../../d4/dec/a07422.html#abb0aa9f55f86ab7d54b7b3a894dcd237">GetErrorMessage</a>());</div>
+<div class="line"><span class="lineno">  138</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  139</span>                }</div>
+<div class="line"><span class="lineno">  140</span>            };</div>
+<div class="line"><span class="lineno">  141</span>            <a class="code hl_variable" href="../../df/d21/a07298.html#af9bece7be346ed85c5b45cc07c7b176a">_handler</a> = <span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">void</span>*<span class="keyword">&gt;</span>(handler);</div>
+<div class="line"><span class="lineno">  142</span>        }</div>
+<div class="ttc" id="aa04713_html_aae4c9556d5cc172144fa280ca820226d"><div class="ttname"><a href="../../da/d6d/a04713.html#aae4c9556d5cc172144fa280ca820226d">Acore::Impl::ChatCommands::SendErrorMessageToHandler</a></div><div class="ttdeci">AC_GAME_API void SendErrorMessageToHandler(ChatHandler *handler, std::string_view str)</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.cpp:21</div></div>
+<div class="ttc" id="aa07266_html"><div class="ttname"><a href="../../db/d55/a07266.html">ChatHandler</a></div><div class="ttdef"><b>Definition:</b> Chat.h:38</div></div>
+<div class="ttc" id="aa07422_html"><div class="ttname"><a href="../../d4/dec/a07422.html">Acore::Impl::ChatCommands::ChatCommandResult</a></div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:100</div></div>
+<div class="ttc" id="aa07422_html_a74f331d2e68ddf7cefc14b4c47369311"><div class="ttname"><a href="../../d4/dec/a07422.html#a74f331d2e68ddf7cefc14b4c47369311">Acore::Impl::ChatCommands::ChatCommandResult::HasErrorMessage</a></div><div class="ttdeci">bool HasErrorMessage() const</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:115</div></div>
+<div class="ttc" id="aa07422_html_abb0aa9f55f86ab7d54b7b3a894dcd237"><div class="ttname"><a href="../../d4/dec/a07422.html#abb0aa9f55f86ab7d54b7b3a894dcd237">Acore::Impl::ChatCommands::ChatCommandResult::GetErrorMessage</a></div><div class="ttdeci">std::string const &amp; GetErrorMessage() const</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:116</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00166">_handler</a>, <a class="el" href="../../#l00165">_wrapper</a>, <a class="el" href="../../#l00117">Acore::Impl::ChatCommands::ChatCommandResult::GetErrorMessage()</a>, <a class="el" href="../../#l00116">Acore::Impl::ChatCommands::ChatCommandResult::HasErrorMessage()</a>, and <a class="el" href="../../#l00022">Acore::Impl::ChatCommands::SendErrorMessageToHandler()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00165">_handler</a>, <a class="el" href="../../#l00164">_wrapper</a>, <a class="el" href="../../#l00116">Acore::Impl::ChatCommands::ChatCommandResult::GetErrorMessage()</a>, <a class="el" href="../../#l00115">Acore::Impl::ChatCommands::ChatCommandResult::HasErrorMessage()</a>, and <a class="el" href="../../#l00021">Acore::Impl::ChatCommands::SendErrorMessageToHandler()</a>.</p>
 
 </div>
 </div>
@@ -271,18 +271,18 @@ template&lt;typename TypedHandler &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  145</span>        {</div>
-<div class="line"><span class="lineno">  146</span>            <a class="code hl_variable" href="../../df/d21/a07298.html#a1605d492889200f2d18d6759882913aa">_wrapper</a> = [](<span class="keywordtype">void</span>* handler, <a class="code hl_class" href="../../db/d55/a07266.html">ChatHandler</a>* chatHandler, std::string_view argsStr)</div>
-<div class="line"><span class="lineno">  147</span>            {</div>
-<div class="line"><span class="lineno">  148</span>                <span class="comment">// make a copy of the argument string</span></div>
-<div class="line"><span class="lineno">  149</span>                <span class="comment">// legacy handlers can destroy input strings with strtok</span></div>
-<div class="line"><span class="lineno">  150</span>                std::string argsStrCopy(argsStr);</div>
-<div class="line"><span class="lineno">  151</span>                <span class="keywordflow">return</span> <span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">bool</span>(*)(<a class="code hl_class" href="../../db/d55/a07266.html">ChatHandler</a>*, <span class="keywordtype">char</span> const*)<span class="keyword">&gt;</span>(handler)(chatHandler, argsStrCopy.c_str());</div>
-<div class="line"><span class="lineno">  152</span>            };</div>
-<div class="line"><span class="lineno">  153</span>            <a class="code hl_variable" href="../../df/d21/a07298.html#af9bece7be346ed85c5b45cc07c7b176a">_handler</a> = <span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">void</span>*<span class="keyword">&gt;</span>(handler);</div>
-<div class="line"><span class="lineno">  154</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">  144</span>        {</div>
+<div class="line"><span class="lineno">  145</span>            <a class="code hl_variable" href="../../df/d21/a07298.html#a1605d492889200f2d18d6759882913aa">_wrapper</a> = [](<span class="keywordtype">void</span>* handler, <a class="code hl_class" href="../../db/d55/a07266.html">ChatHandler</a>* chatHandler, std::string_view argsStr)</div>
+<div class="line"><span class="lineno">  146</span>            {</div>
+<div class="line"><span class="lineno">  147</span>                <span class="comment">// make a copy of the argument string</span></div>
+<div class="line"><span class="lineno">  148</span>                <span class="comment">// legacy handlers can destroy input strings with strtok</span></div>
+<div class="line"><span class="lineno">  149</span>                std::string argsStrCopy(argsStr);</div>
+<div class="line"><span class="lineno">  150</span>                <span class="keywordflow">return</span> <span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">bool</span>(*)(<a class="code hl_class" href="../../db/d55/a07266.html">ChatHandler</a>*, <span class="keywordtype">char</span> const*)<span class="keyword">&gt;</span>(handler)(chatHandler, argsStrCopy.c_str());</div>
+<div class="line"><span class="lineno">  151</span>            };</div>
+<div class="line"><span class="lineno">  152</span>            <a class="code hl_variable" href="../../df/d21/a07298.html#af9bece7be346ed85c5b45cc07c7b176a">_handler</a> = <span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">void</span>*<span class="keyword">&gt;</span>(handler);</div>
+<div class="line"><span class="lineno">  153</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00166">_handler</a>, and <a class="el" href="../../#l00165">_wrapper</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00165">_handler</a>, and <a class="el" href="../../#l00164">_wrapper</a>.</p>
 
 </div>
 </div>
@@ -309,9 +309,9 @@ template&lt;typename TypedHandler &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  156</span>{ <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../df/d21/a07298.html#a1605d492889200f2d18d6759882913aa">_wrapper</a> != <span class="keyword">nullptr</span>); }</div>
+<div class="fragment"><div class="line"><span class="lineno">  155</span>{ <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../df/d21/a07298.html#a1605d492889200f2d18d6759882913aa">_wrapper</a> != <span class="keyword">nullptr</span>); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00165">_wrapper</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00164">_wrapper</a>.</p>
 
 </div>
 </div>
@@ -348,13 +348,13 @@ template&lt;typename TypedHandler &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  158</span>        {</div>
-<div class="line"><span class="lineno">  159</span>            <a class="code hl_define" href="../../d4/d1e/a00497.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../df/d21/a07298.html#a1605d492889200f2d18d6759882913aa">_wrapper</a> &amp;&amp; <a class="code hl_variable" href="../../df/d21/a07298.html#af9bece7be346ed85c5b45cc07c7b176a">_handler</a>);</div>
-<div class="line"><span class="lineno">  160</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d21/a07298.html#a1605d492889200f2d18d6759882913aa">_wrapper</a>(<a class="code hl_variable" href="../../df/d21/a07298.html#af9bece7be346ed85c5b45cc07c7b176a">_handler</a>, chatHandler, args);</div>
-<div class="line"><span class="lineno">  161</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">  157</span>        {</div>
+<div class="line"><span class="lineno">  158</span>            <a class="code hl_define" href="../../d4/d1e/a00497.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../df/d21/a07298.html#a1605d492889200f2d18d6759882913aa">_wrapper</a> &amp;&amp; <a class="code hl_variable" href="../../df/d21/a07298.html#af9bece7be346ed85c5b45cc07c7b176a">_handler</a>);</div>
+<div class="line"><span class="lineno">  159</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d21/a07298.html#a1605d492889200f2d18d6759882913aa">_wrapper</a>(<a class="code hl_variable" href="../../df/d21/a07298.html#af9bece7be346ed85c5b45cc07c7b176a">_handler</a>, chatHandler, args);</div>
+<div class="line"><span class="lineno">  160</span>        }</div>
 <div class="ttc" id="aa00497_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../d4/d1e/a00497.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00166">_handler</a>, <a class="el" href="../../#l00165">_wrapper</a>, and <a class="el" href="../../#l00068">ASSERT</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00165">_handler</a>, <a class="el" href="../../#l00164">_wrapper</a>, and <a class="el" href="../../#l00068">ASSERT</a>.</p>
 
 </div>
 </div>
@@ -379,7 +379,7 @@ template&lt;typename TypedHandler &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00124">CommandInvoker()</a>, and <a class="el" href="../../#l00157">operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00123">CommandInvoker()</a>, and <a class="el" href="../../#l00156">operator()()</a>.</p>
 
 </div>
 </div>
@@ -403,7 +403,7 @@ template&lt;typename TypedHandler &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00124">CommandInvoker()</a>, <a class="el" href="../../#l00156">operator bool()</a>, and <a class="el" href="../../#l00157">operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00123">CommandInvoker()</a>, <a class="el" href="../../#l00155">operator bool()</a>, and <a class="el" href="../../#l00156">operator()()</a>.</p>
 
 </div>
 </div>
@@ -413,7 +413,7 @@ template&lt;typename TypedHandler &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/de4/a04674.html">Acore</a></li><li class="navelem"><a class="el" href="../../d7/d47/a04685.html">Impl</a></li><li class="navelem"><a class="el" href="../../da/d6d/a04713.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../df/d21/a07298.html">CommandInvoker</a></li>
-    <li class="footer">Generated on Mon Sep 30 2024 20:42:44 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Oct 7 2024 20:43:00 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

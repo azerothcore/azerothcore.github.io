@@ -116,15 +116,12 @@ $(document).ready(function(){initNavTree('d7/d62/a01805.html','../../'); initRes
 <code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Realm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Tokenize.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">UpdateMask.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
@@ -181,14 +178,14 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8" name="a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8"></a>SPELL_LINK_CREATURE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7" name="a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7"></a>SPELL_LINK_GAMEOBJECT&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">  685</span>{</div>
-<div class="line"><span class="lineno">  686</span>    <a class="code hl_enumvalue" href="../../d7/d62/a01805.html#a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028">SPELL_LINK_PLAYER</a>     = 0,                              <span class="comment">// must be first for selection in not link case</span></div>
-<div class="line"><span class="lineno">  687</span>    <a class="code hl_enumvalue" href="../../d7/d62/a01805.html#a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8">SPELL_LINK_CREATURE</a>   = 1,</div>
-<div class="line"><span class="lineno">  688</span>    <a class="code hl_enumvalue" href="../../d7/d62/a01805.html#a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7">SPELL_LINK_GAMEOBJECT</a> = 2</div>
-<div class="line"><span class="lineno">  689</span>};</div>
-<div class="ttc" id="aa01805_html_a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028"><div class="ttname"><a href="../../d7/d62/a01805.html#a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028">SPELL_LINK_PLAYER</a></div><div class="ttdeci">@ SPELL_LINK_PLAYER</div><div class="ttdef"><b>Definition:</b> Chat.cpp:686</div></div>
-<div class="ttc" id="aa01805_html_a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8"><div class="ttname"><a href="../../d7/d62/a01805.html#a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8">SPELL_LINK_CREATURE</a></div><div class="ttdeci">@ SPELL_LINK_CREATURE</div><div class="ttdef"><b>Definition:</b> Chat.cpp:687</div></div>
-<div class="ttc" id="aa01805_html_a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7"><div class="ttname"><a href="../../d7/d62/a01805.html#a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7">SPELL_LINK_GAMEOBJECT</a></div><div class="ttdeci">@ SPELL_LINK_GAMEOBJECT</div><div class="ttdef"><b>Definition:</b> Chat.cpp:688</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  682</span>{</div>
+<div class="line"><span class="lineno">  683</span>    <a class="code hl_enumvalue" href="../../d7/d62/a01805.html#a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028">SPELL_LINK_PLAYER</a>     = 0,                              <span class="comment">// must be first for selection in not link case</span></div>
+<div class="line"><span class="lineno">  684</span>    <a class="code hl_enumvalue" href="../../d7/d62/a01805.html#a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8">SPELL_LINK_CREATURE</a>   = 1,</div>
+<div class="line"><span class="lineno">  685</span>    <a class="code hl_enumvalue" href="../../d7/d62/a01805.html#a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7">SPELL_LINK_GAMEOBJECT</a> = 2</div>
+<div class="line"><span class="lineno">  686</span>};</div>
+<div class="ttc" id="aa01805_html_a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028"><div class="ttname"><a href="../../d7/d62/a01805.html#a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028">SPELL_LINK_PLAYER</a></div><div class="ttdeci">@ SPELL_LINK_PLAYER</div><div class="ttdef"><b>Definition:</b> Chat.cpp:683</div></div>
+<div class="ttc" id="aa01805_html_a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8"><div class="ttname"><a href="../../d7/d62/a01805.html#a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8">SPELL_LINK_CREATURE</a></div><div class="ttdeci">@ SPELL_LINK_CREATURE</div><div class="ttdef"><b>Definition:</b> Chat.cpp:684</div></div>
+<div class="ttc" id="aa01805_html_a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7"><div class="ttname"><a href="../../d7/d62/a01805.html#a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7">SPELL_LINK_GAMEOBJECT</a></div><div class="ttdeci">@ SPELL_LINK_GAMEOBJECT</div><div class="ttdef"><b>Definition:</b> Chat.cpp:685</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -210,18 +207,18 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919" name="a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919"></a>SPELL_LINK_TRADE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e" name="a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e"></a>SPELL_LINK_GLYPH&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">  612</span>{</div>
-<div class="line"><span class="lineno">  613</span>    <a class="code hl_enumvalue" href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd">SPELL_LINK_SPELL</a>   = 0,</div>
-<div class="line"><span class="lineno">  614</span>    <a class="code hl_enumvalue" href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56">SPELL_LINK_TALENT</a>  = 1,</div>
-<div class="line"><span class="lineno">  615</span>    <a class="code hl_enumvalue" href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654">SPELL_LINK_ENCHANT</a> = 2,</div>
-<div class="line"><span class="lineno">  616</span>    <a class="code hl_enumvalue" href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919">SPELL_LINK_TRADE</a>   = 3,</div>
-<div class="line"><span class="lineno">  617</span>    <a class="code hl_enumvalue" href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e">SPELL_LINK_GLYPH</a>   = 4</div>
-<div class="line"><span class="lineno">  618</span>};</div>
-<div class="ttc" id="aa01805_html_a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd"><div class="ttname"><a href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd">SPELL_LINK_SPELL</a></div><div class="ttdeci">@ SPELL_LINK_SPELL</div><div class="ttdef"><b>Definition:</b> Chat.cpp:613</div></div>
-<div class="ttc" id="aa01805_html_a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e"><div class="ttname"><a href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e">SPELL_LINK_GLYPH</a></div><div class="ttdeci">@ SPELL_LINK_GLYPH</div><div class="ttdef"><b>Definition:</b> Chat.cpp:617</div></div>
-<div class="ttc" id="aa01805_html_a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56"><div class="ttname"><a href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56">SPELL_LINK_TALENT</a></div><div class="ttdeci">@ SPELL_LINK_TALENT</div><div class="ttdef"><b>Definition:</b> Chat.cpp:614</div></div>
-<div class="ttc" id="aa01805_html_a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654"><div class="ttname"><a href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654">SPELL_LINK_ENCHANT</a></div><div class="ttdeci">@ SPELL_LINK_ENCHANT</div><div class="ttdef"><b>Definition:</b> Chat.cpp:615</div></div>
-<div class="ttc" id="aa01805_html_a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919"><div class="ttname"><a href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919">SPELL_LINK_TRADE</a></div><div class="ttdeci">@ SPELL_LINK_TRADE</div><div class="ttdef"><b>Definition:</b> Chat.cpp:616</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  609</span>{</div>
+<div class="line"><span class="lineno">  610</span>    <a class="code hl_enumvalue" href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd">SPELL_LINK_SPELL</a>   = 0,</div>
+<div class="line"><span class="lineno">  611</span>    <a class="code hl_enumvalue" href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56">SPELL_LINK_TALENT</a>  = 1,</div>
+<div class="line"><span class="lineno">  612</span>    <a class="code hl_enumvalue" href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654">SPELL_LINK_ENCHANT</a> = 2,</div>
+<div class="line"><span class="lineno">  613</span>    <a class="code hl_enumvalue" href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919">SPELL_LINK_TRADE</a>   = 3,</div>
+<div class="line"><span class="lineno">  614</span>    <a class="code hl_enumvalue" href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e">SPELL_LINK_GLYPH</a>   = 4</div>
+<div class="line"><span class="lineno">  615</span>};</div>
+<div class="ttc" id="aa01805_html_a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd"><div class="ttname"><a href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd">SPELL_LINK_SPELL</a></div><div class="ttdeci">@ SPELL_LINK_SPELL</div><div class="ttdef"><b>Definition:</b> Chat.cpp:610</div></div>
+<div class="ttc" id="aa01805_html_a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e"><div class="ttname"><a href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e">SPELL_LINK_GLYPH</a></div><div class="ttdeci">@ SPELL_LINK_GLYPH</div><div class="ttdef"><b>Definition:</b> Chat.cpp:614</div></div>
+<div class="ttc" id="aa01805_html_a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56"><div class="ttname"><a href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56">SPELL_LINK_TALENT</a></div><div class="ttdeci">@ SPELL_LINK_TALENT</div><div class="ttdef"><b>Definition:</b> Chat.cpp:611</div></div>
+<div class="ttc" id="aa01805_html_a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654"><div class="ttname"><a href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654">SPELL_LINK_ENCHANT</a></div><div class="ttdeci">@ SPELL_LINK_ENCHANT</div><div class="ttdef"><b>Definition:</b> Chat.cpp:612</div></div>
+<div class="ttc" id="aa01805_html_a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919"><div class="ttname"><a href="../../d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919">SPELL_LINK_TRADE</a></div><div class="ttdeci">@ SPELL_LINK_TRADE</div><div class="ttdef"><b>Definition:</b> Chat.cpp:613</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -253,7 +250,7 @@ Variables</h2></td></tr>
 <div class="line">    0</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00699">ChatHandler::extractLowGuidFromLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00696">ChatHandler::extractLowGuidFromLink()</a>.</p>
 
 </div>
 </div>
@@ -286,7 +283,7 @@ Variables</h2></td></tr>
 <div class="line">    0</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00630">ChatHandler::extractSpellIdFromLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00627">ChatHandler::extractSpellIdFromLink()</a>.</p>
 
 </div>
 </div>
@@ -296,7 +293,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_696eb3df8c264f77a3b72ba3d62ed649.html">Chat</a></li><li class="navelem"><a class="el" href="../../d7/d62/a01805.html">Chat.cpp</a></li>
-    <li class="footer">Generated on Mon Sep 30 2024 20:40:26 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Oct 7 2024 20:40:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

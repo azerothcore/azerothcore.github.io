@@ -923,8 +923,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a18e058a9566a211e4dc1c41229cf2197 inherit pub_methods_a08498"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05a7dcd96c1301724694c6934563b92e inherit pub_methods_a08498"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/a08498.html#a05a7dcd96c1301724694c6934563b92e">SetCombatTimer</a> (<a class="el" href="../../d4/ddf/a00488.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> timer)</td></tr>
 <tr class="separator:a05a7dcd96c1301724694c6934563b92e inherit pub_methods_a08498"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17a3a280549173c861ab2de0f1d876af inherit pub_methods_a08498"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/a08498.html#a17a3a280549173c861ab2de0f1d876af">CanHaveThreatList</a> () const</td></tr>
-<tr class="separator:a17a3a280549173c861ab2de0f1d876af inherit pub_methods_a08498"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0a72f8fa312caf442a6039bf9758ef6 inherit pub_methods_a08498"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/a08498.html#ae0a72f8fa312caf442a6039bf9758ef6">CanHaveThreatList</a> (bool skipAliveCheck=false) const</td></tr>
+<tr class="separator:ae0a72f8fa312caf442a6039bf9758ef6 inherit pub_methods_a08498"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b4dad985e3b5dde28d89afc956999e4 inherit pub_methods_a08498"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/a08498.html#a3b4dad985e3b5dde28d89afc956999e4">AddThreat</a> (<a class="el" href="../../d3/daf/a08498.html">Unit</a> *victim, float fThreat, <a class="el" href="../../d6/d71/a04598.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> schoolMask=<a class="el" href="../../d6/d71/a04598.html#aff6913cfd69489c107a071be9ec2ec8fa12667dd3f55738c93e1ddb1351779b42">SPELL_SCHOOL_MASK_NORMAL</a>, <a class="el" href="../../d2/d74/a10874.html">SpellInfo</a> const *threatSpell=nullptr)</td></tr>
 <tr class="separator:a3b4dad985e3b5dde28d89afc956999e4 inherit pub_methods_a08498"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37bc079e17756196dd7dbb4f6722c1f9 inherit pub_methods_a08498"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/a08498.html#a37bc079e17756196dd7dbb4f6722c1f9">ApplyTotalThreatModifier</a> (float fThreat, <a class="el" href="../../d6/d71/a04598.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> schoolMask=<a class="el" href="../../d6/d71/a04598.html#aff6913cfd69489c107a071be9ec2ec8fa12667dd3f55738c93e1ddb1351779b42">SPELL_SCHOOL_MASK_NORMAL</a>)</td></tr>
@@ -3521,7 +3521,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00091">m_followAngle</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l05177">Spell::EffectResurrectPet()</a>, <a class="el" href="../../#l03562">AuraEffect::HandleModPossessPet()</a>, <a class="el" href="../../#l00215">Pet::LoadPetFromDB()</a>, and <a class="el" href="../../#l00657">Pet::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l05174">Spell::EffectResurrectPet()</a>, <a class="el" href="../../#l03562">AuraEffect::HandleModPossessPet()</a>, <a class="el" href="../../#l00215">Pet::LoadPetFromDB()</a>, and <a class="el" href="../../#l00657">Pet::Update()</a>.</p>
 
 </div>
 </div>
@@ -3542,11 +3542,11 @@ Additional Inherited Members</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">  386</span>{</div>
 <div class="line"><span class="lineno">  387</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../dc/d12/a04723.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<span class="keyword">this</span>, <a class="code hl_variable" href="../../de/dc5/a07882.html#a135c4341d5f617d1f69ee9f7deeea755">m_owner</a>);</div>
 <div class="line"><span class="lineno">  388</span>}</div>
-<div class="ttc" id="aa04723_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../dc/d12/a04723.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:202</div></div>
+<div class="ttc" id="aa04723_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../dc/d12/a04723.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:199</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00202">ObjectAccessor::GetUnit()</a>, and <a class="el" href="../../#l00090">m_owner</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00199">ObjectAccessor::GetUnit()</a>, and <a class="el" href="../../#l00090">m_owner</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00410">GetDebugInfo()</a>, <a class="el" href="../../#l00360">InitStats()</a>, <a class="el" href="../../#l00429">Guardian::InitStats()</a>, <a class="el" href="../../#l01021">Guardian::InitStatsForLevel()</a>, <a class="el" href="../../#l00444">Guardian::InitSummon()</a>, <a class="el" href="../../#l00080">Totem::InitSummon()</a>, <a class="el" href="../../#l00374">RemoveFromWorld()</a>, <a class="el" href="../../#l00395">setDeathState()</a>, <a class="el" href="../../#l05932">Spell::SummonGuardian()</a>, <a class="el" href="../../#l00122">Totem::UnSummon()</a>, and <a class="el" href="../../#l00034">Totem::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00410">GetDebugInfo()</a>, <a class="el" href="../../#l00360">InitStats()</a>, <a class="el" href="../../#l00429">Guardian::InitStats()</a>, <a class="el" href="../../#l01021">Guardian::InitStatsForLevel()</a>, <a class="el" href="../../#l00444">Guardian::InitSummon()</a>, <a class="el" href="../../#l00080">Totem::InitSummon()</a>, <a class="el" href="../../#l00374">RemoveFromWorld()</a>, <a class="el" href="../../#l00395">setDeathState()</a>, <a class="el" href="../../#l05929">Spell::SummonGuardian()</a>, <a class="el" href="../../#l00122">Totem::UnSummon()</a>, and <a class="el" href="../../#l00034">Totem::Update()</a>.</p>
 
 </div>
 </div>
@@ -3593,10 +3593,10 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aa07750_html_acb27b2a3a09a2a9c520fba6ba2c69c4e"><div class="ttname"><a href="../../da/d03/a07750.html#acb27b2a3a09a2a9c520fba6ba2c69c4e">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates state)</div><div class="ttdoc">A creature can have 3 ReactStates : Agressive, Passive, Neutral.</div><div class="ttdef"><b>Definition:</b> Creature.h:97</div></div>
 <div class="ttc" id="aa07878_html_a671477f035313e96517c1c92079d9911"><div class="ttname"><a href="../../d3/d8d/a07878.html#a671477f035313e96517c1c92079d9911">TempSummon::InitStats</a></div><div class="ttdeci">virtual void InitStats(uint32 lifetime)</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:200</div></div>
 <div class="ttc" id="aa08498_html"><div class="ttname"><a href="../../d3/daf/a08498.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:630</div></div>
-<div class="ttc" id="aa08498_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../d3/daf/a08498.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10017</div></div>
+<div class="ttc" id="aa08498_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../d3/daf/a08498.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10025</div></div>
 <div class="ttc" id="aa08498_html_ad5dfdae7e2ebb21335b459c6426e0cfc"><div class="ttname"><a href="../../d3/daf/a08498.html#ad5dfdae7e2ebb21335b459c6426e0cfc">Unit::SetCreatorGUID</a></div><div class="ttdeci">void SetCreatorGUID(ObjectGuid creator)</div><div class="ttdef"><b>Definition:</b> Unit.h:1225</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00385">GetOwner()</a>, <a class="el" href="../../#l00200">TempSummon::InitStats()</a>, <a class="el" href="../../#l00548">REACT_PASSIVE</a>, <a class="el" href="../../#l01225">Unit::SetCreatorGUID()</a>, <a class="el" href="../../#l10017">Unit::SetFaction()</a>, and <a class="el" href="../../#l00097">Creature::SetReactState()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00385">GetOwner()</a>, <a class="el" href="../../#l00200">TempSummon::InitStats()</a>, <a class="el" href="../../#l00548">REACT_PASSIVE</a>, <a class="el" href="../../#l01225">Unit::SetCreatorGUID()</a>, <a class="el" href="../../#l10025">Unit::SetFaction()</a>, and <a class="el" href="../../#l00097">Creature::SetReactState()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../#l00429">Guardian::InitStats()</a>, <a class="el" href="../../#l00470">Puppet::InitStats()</a>, and <a class="el" href="../../#l00047">Totem::InitStats()</a>.</p>
 
@@ -3626,7 +3626,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01910">SummonPropertiesEntry::Category</a>, <a class="el" href="../../#l00710">Unit::IsPet()</a>, <a class="el" href="../../#l00063">TempSummon::m_Properties</a>, and <a class="el" href="../../#l03285">SUMMON_CATEGORY_PET</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00395">setDeathState()</a>, and <a class="el" href="../../#l10641">Unit::SetMinion()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00395">setDeathState()</a>, and <a class="el" href="../../#l10649">Unit::SetMinion()</a>.</p>
 
 </div>
 </div>
@@ -3657,7 +3657,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00112">Object::GetEntry()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00215">Pet::LoadPetFromDB()</a>, <a class="el" href="../../#l00743">PetAI::ReceiveEmote()</a>, <a class="el" href="../../#l10641">Unit::SetMinion()</a>, <a class="el" href="../../#l08929">Player::SummonPet()</a>, <a class="el" href="../../#l00148">PetAI::UpdateAI()</a>, and <a class="el" href="../../#l01294">Guardian::UpdateAttackPowerAndDamage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00215">Pet::LoadPetFromDB()</a>, <a class="el" href="../../#l00743">PetAI::ReceiveEmote()</a>, <a class="el" href="../../#l10649">Unit::SetMinion()</a>, <a class="el" href="../../#l08929">Player::SummonPet()</a>, <a class="el" href="../../#l00148">PetAI::UpdateAI()</a>, and <a class="el" href="../../#l01294">Guardian::UpdateAttackPowerAndDamage()</a>.</p>
 
 </div>
 </div>
@@ -3864,7 +3864,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/dc5/a07882.html">Minion</a></li>
-    <li class="footer">Generated on Mon Sep 30 2024 20:41:51 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Oct 7 2024 20:42:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

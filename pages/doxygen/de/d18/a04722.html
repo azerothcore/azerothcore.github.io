@@ -164,20 +164,20 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  107</span>    {</div>
-<div class="line"><span class="lineno">  108</span>        std::string charName(name);</div>
-<div class="line"><span class="lineno">  109</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../de/d5c/a01358.html#af55111c173fd16ba2898f3046dfa3d9a">normalizePlayerName</a>(charName))</div>
-<div class="line"><span class="lineno">  110</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">  111</span> </div>
-<div class="line"><span class="lineno">  112</span>        <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../de/d18/a04722.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMap</a>.find(charName);</div>
-<div class="line"><span class="lineno">  113</span>        <span class="keywordflow">return</span> (itr != <a class="code hl_variable" href="../../de/d18/a04722.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMap</a>.end()) ? itr-&gt;second : <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">  114</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  104</span>    {</div>
+<div class="line"><span class="lineno">  105</span>        std::string charName(name);</div>
+<div class="line"><span class="lineno">  106</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../de/d5c/a01358.html#af55111c173fd16ba2898f3046dfa3d9a">normalizePlayerName</a>(charName))</div>
+<div class="line"><span class="lineno">  107</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  108</span> </div>
+<div class="line"><span class="lineno">  109</span>        <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../de/d18/a04722.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMap</a>.find(charName);</div>
+<div class="line"><span class="lineno">  110</span>        <span class="keywordflow">return</span> (itr != <a class="code hl_variable" href="../../de/d18/a04722.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMap</a>.end()) ? itr-&gt;second : <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  111</span>    }</div>
 <div class="ttc" id="aa01358_html_af55111c173fd16ba2898f3046dfa3d9a"><div class="ttname"><a href="../../de/d5c/a01358.html#af55111c173fd16ba2898f3046dfa3d9a">normalizePlayerName</a></div><div class="ttdeci">bool normalizePlayerName(std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:206</div></div>
-<div class="ttc" id="aa04722_html_aa8fcdd0ac947e92edddddd4e2daf61dd"><div class="ttname"><a href="../../de/d18/a04722.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMapHolder::PlayerNameMap</a></div><div class="ttdeci">static MapType PlayerNameMap</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:89</div></div>
+<div class="ttc" id="aa04722_html_aa8fcdd0ac947e92edddddd4e2daf61dd"><div class="ttname"><a href="../../de/d18/a04722.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMapHolder::PlayerNameMap</a></div><div class="ttdeci">static MapType PlayerNameMap</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:86</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00206">normalizePlayerName()</a>, and <a class="el" href="../../#l00089">PlayerNameMap</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00206">normalizePlayerName()</a>, and <a class="el" href="../../#l00086">PlayerNameMap</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00274">ObjectAccessor::FindPlayerByName()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00271">ObjectAccessor::FindPlayerByName()</a>.</p>
 
 </div>
 </div>
@@ -196,14 +196,14 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   92</span>    {</div>
-<div class="line"><span class="lineno">   93</span>        <a class="code hl_variable" href="../../de/d18/a04722.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMap</a>[p-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>()] = p;</div>
-<div class="line"><span class="lineno">   94</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">   89</span>    {</div>
+<div class="line"><span class="lineno">   90</span>        <a class="code hl_variable" href="../../de/d18/a04722.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMap</a>[p-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>()] = p;</div>
+<div class="line"><span class="lineno">   91</span>    }</div>
 <div class="ttc" id="aa08154_html_a7e67658eb5aa058bc7f46bf6b11a797c"><div class="ttname"><a href="../../d4/dd5/a08154.html#a7e67658eb5aa058bc7f46bf6b11a797c">WorldObject::GetName</a></div><div class="ttdeci">std::string const &amp; GetName() const</div><div class="ttdef"><b>Definition:</b> Object.h:458</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00458">WorldObject::GetName()</a>, and <a class="el" href="../../#l00089">PlayerNameMap</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00458">WorldObject::GetName()</a>, and <a class="el" href="../../#l00086">PlayerNameMap</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00336">ObjectAccessor::AddObject()</a>, and <a class="el" href="../../#l00349">ObjectAccessor::UpdatePlayerNameMapReference()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00333">ObjectAccessor::AddObject()</a>, and <a class="el" href="../../#l00346">ObjectAccessor::UpdatePlayerNameMapReference()</a>.</p>
 
 </div>
 </div>
@@ -222,13 +222,13 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   97</span>    {</div>
-<div class="line"><span class="lineno">   98</span>        <a class="code hl_variable" href="../../de/d18/a04722.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMap</a>.erase(p-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>());</div>
-<div class="line"><span class="lineno">   99</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">   94</span>    {</div>
+<div class="line"><span class="lineno">   95</span>        <a class="code hl_variable" href="../../de/d18/a04722.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMap</a>.erase(p-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>());</div>
+<div class="line"><span class="lineno">   96</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00458">WorldObject::GetName()</a>, and <a class="el" href="../../#l00089">PlayerNameMap</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00458">WorldObject::GetName()</a>, and <a class="el" href="../../#l00086">PlayerNameMap</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00343">ObjectAccessor::RemoveObject()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00340">ObjectAccessor::RemoveObject()</a>.</p>
 
 </div>
 </div>
@@ -247,13 +247,13 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  102</span>    {</div>
-<div class="line"><span class="lineno">  103</span>        <a class="code hl_variable" href="../../de/d18/a04722.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMap</a>.erase(name);</div>
-<div class="line"><span class="lineno">  104</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">   99</span>    {</div>
+<div class="line"><span class="lineno">  100</span>        <a class="code hl_variable" href="../../de/d18/a04722.html#aa8fcdd0ac947e92edddddd4e2daf61dd">PlayerNameMap</a>.erase(name);</div>
+<div class="line"><span class="lineno">  101</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00089">PlayerNameMap</a>, and <a class="el" href="../../#l00101">RemoveByName()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00086">PlayerNameMap</a>, and <a class="el" href="../../#l00098">RemoveByName()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00101">RemoveByName()</a>, and <a class="el" href="../../#l00349">ObjectAccessor::UpdatePlayerNameMapReference()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00098">RemoveByName()</a>, and <a class="el" href="../../#l00346">ObjectAccessor::UpdatePlayerNameMapReference()</a>.</p>
 
 </div>
 </div>
@@ -278,7 +278,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00106">Find()</a>, <a class="el" href="../../#l00091">Insert()</a>, <a class="el" href="../../#l00096">Remove()</a>, and <a class="el" href="../../#l00101">RemoveByName()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00103">Find()</a>, <a class="el" href="../../#l00088">Insert()</a>, <a class="el" href="../../#l00093">Remove()</a>, and <a class="el" href="../../#l00098">RemoveByName()</a>.</p>
 
 </div>
 </div>
@@ -288,7 +288,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d18/a04722.html">PlayerNameMapHolder</a></li>
-    <li class="footer">Generated on Mon Sep 30 2024 20:42:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Oct 7 2024 20:43:01 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>
