@@ -1,6 +1,8 @@
 var a17458 =
 [
-    [ "npc_gunship_boarding_add_realAI", "d4/da1/a17462.html", "d4/da1/a17462" ],
-    [ "npc_gunship_boarding_add", "dc/d9e/a17458.html#aa80871f80bae7186d3665f73d757e108", null ],
-    [ "GetAI", "dc/d9e/a17458.html#ad7e173bffccca6d852ba545427235447", null ]
+    [ "Load", "dc/d9e/a17458.html#ad1105149d5e42318382af6c07149d522", null ],
+    [ "PeriodicTick", "dc/d9e/a17458.html#a8e675178256746d08af50a6b75ec582e", null ],
+    [ "PrepareAuraScript", "dc/d9e/a17458.html#a88f4baca7ceac44e5d148b73386a10a7", null ],
+    [ "Register", "dc/d9e/a17458.html#a0fa7d86214827711edd019dd3b40c667", null ],
+    [ "_tickNo", "dc/d9e/a17458.html#a418212d2daa873d69a83b4c1341a8903", null ]
 ];

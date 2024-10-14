@@ -1,6 +1,5 @@
 var a23122 =
 [
-    [ "HandleScriptEffect", "db/d03/a23122.html#a766edc5924124c869b04ec82cd2bc693", null ],
-    [ "PrepareSpellScript", "db/d03/a23122.html#a1eac10c673b8f43ae08f8bbdf949f82f", null ],
-    [ "Register", "db/d03/a23122.html#a60d4e21bf31c997ef4105ad72c8b4e85", null ]
+    [ "go_strange_pool", "db/d03/a23122.html#aa44feb353ad1cb440e5b6707112af680", null ],
+    [ "OnGossipHello", "db/d03/a23122.html#a5a2ee56e277b062e6b4757cb8b8b09a0", null ]
 ];

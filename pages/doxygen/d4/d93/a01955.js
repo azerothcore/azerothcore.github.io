@@ -1,12 +1,26 @@
 var a01955 =
 [
-    [ "AddonInfo", "de/d4a/a05946.html", "de/d4a/a05946" ],
-    [ "SavedAddon", "d1/de1/a05950.html", "d1/de1/a05950" ],
-    [ "BannedAddon", "d9/d23/a05954.html", "d9/d23/a05954" ],
-    [ "STANDARD_ADDON_CRC", "d4/d93/a01955.html#a084249e215f787f3163d5d06ad2d256f", null ],
-    [ "BannedAddonList", "d4/d93/a01955.html#a2ea3deb6be3c64b7b58ed27ccf60c779", null ],
-    [ "GetAddonInfo", "d4/d93/a01955.html#a65cb6a88902972060e44c57d7d9ec738", null ],
-    [ "GetBannedAddons", "d4/d93/a01955.html#ad7d0938e7463238a86e8c811e1a58800", null ],
-    [ "LoadFromDB", "d4/d93/a01955.html#aaa12f5b754e6b664dbfb2428478bee03", null ],
-    [ "SaveAddon", "d4/d93/a01955.html#a85021021149b7eb4d78cbe81e43d3d45", null ]
+    [ "boss_supremus", "d2/d7d/a22878.html", "d2/d7d/a22878" ],
+    [ "npc_supremus_punch_invisible_stalker", "d5/dc4/a22882.html", "d5/dc4/a22882" ],
+    [ "Supremus", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1ab", [
+      [ "EMOTE_NEW_TARGET", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1abacce041f211d3aacd7153648b2b22657d", null ],
+      [ "EMOTE_PUNCH_GROUND", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1aba18c2c02f5902d5eb449f84ea9b0dda48", null ],
+      [ "EMOTE_GROUND_CRACK", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1abaf6e451c3b6d1ba936baa236a0676e9da", null ],
+      [ "EMOTE_BERSERK", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1abad4a2e4c34c9e4cf25e66544b1de3bdd9", null ],
+      [ "SPELL_SNARE_SELF", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1aba088a20b95bb9f7f7225f39e5785ef4ea", null ],
+      [ "SPELL_MOLTEN_PUNCH", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1abad4325a0886f125ee1e818a2b0b78ceed", null ],
+      [ "SPELL_MOLTEN_FLAME", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1aba75a6d3be947216957892ac27dcf52a1d", null ],
+      [ "SPELL_HATEFUL_STRIKE", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1ababad6e8ef38e36b223ac12f2dbb1711b1", null ],
+      [ "SPELL_VOLCANIC_ERUPTION", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1aba35f23f72605836bef98b77ae75bb8103", null ],
+      [ "SPELL_VOLCANIC_ERUPTION_TRIGGER", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1abad1c54825503fd69f4f3beb7d4079ad6c", null ],
+      [ "SPELL_VOLCANIC_GEYSER", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1aba6c3253da2383661bc757e74284163365", null ],
+      [ "SPELL_BERSERK", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1abad7b3e50b45f9949cd0e4030ca19a6b4f", null ],
+      [ "SPELL_CHARGE", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1aba379cd345f5bd4f776413760e5e279963", null ],
+      [ "SPELL_SERVERSIDE_RANDOM_TARGET", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1aba4afeaddc7e00f338f7033e0421934935", null ],
+      [ "NPC_SUPREMUS_VOLCANO", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1aba01e88a8ace84793859cb15cd5301cf2e", null ],
+      [ "GROUP_ABILITIES", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1abab77bbe102634006229e15f0a32fb6c9a", null ],
+      [ "GROUP_MOLTEN_PUNCH", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1abafd320e90ca8fd7f4c9b70c71f92e4bd6", null ],
+      [ "GROUP_PHASE_CHANGE", "d4/d93/a01955.html#a5a2dccece1c55769858f3285c94af1aba9ef91e5b4ca91a9b1f730f400fef1c78", null ]
+    ] ],
+    [ "AddSC_boss_supremus", "d4/d93/a01955.html#aca4140213fae739c682d7d7e241294e0", null ]
 ];

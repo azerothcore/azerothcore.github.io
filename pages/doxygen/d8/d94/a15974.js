@@ -1,7 +1,6 @@
 var a15974 =
 [
-    [ "OnApply", "d8/d94/a15974.html#ad072d243dd148e1b34aea29a2e5d175e", null ],
-    [ "PrepareAuraScript", "d8/d94/a15974.html#ae657ceca517aa3f725ba72c18ddbaf1c", null ],
-    [ "Register", "d8/d94/a15974.html#a4eab0bd70eb884f7736e90f9001d3cc7", null ],
-    [ "Validate", "d8/d94/a15974.html#a2c9e4d82bd25f439e01a05700563b122", null ]
+    [ "HandleScript", "d8/d94/a15974.html#a647f39eb125537cd7545ab4115be1091", null ],
+    [ "PrepareSpellScript", "d8/d94/a15974.html#a55dec84643f9bd536c7c73b5909ab303", null ],
+    [ "Register", "d8/d94/a15974.html#a0077abbe11092b9636c3bb7b5c367946", null ]
 ];

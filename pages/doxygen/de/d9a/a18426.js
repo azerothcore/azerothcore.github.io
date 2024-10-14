@@ -1,7 +1,6 @@
 var a18426 =
 [
-    [ "OnApply", "de/d9a/a18426.html#ac35f5d98980f54470a75a72b3578681f", null ],
-    [ "OnRemove", "de/d9a/a18426.html#a9844b3d82680bfc9756b141fcf29e1f9", null ],
-    [ "PrepareAuraScript", "de/d9a/a18426.html#a83c90d16fa151026a1e02927e31922ee", null ],
-    [ "Register", "de/d9a/a18426.html#a255e44ac6db7fd779d98fc3660ee91c6", null ]
+    [ "boss_sister_svalnaAI", "d4/dcf/a18430.html", "d4/dcf/a18430" ],
+    [ "boss_sister_svalna", "de/d9a/a18426.html#a233a9606db61f6ab945350e98a0929ff", null ],
+    [ "GetAI", "de/d9a/a18426.html#a5eb89badd75104dfe1dc3e03d372adc0", null ]
 ];

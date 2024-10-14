@@ -1,6 +1,7 @@
 var a17994 =
 [
-    [ "npc_sindragosa_trashAI", "da/da5/a17998.html", "da/da5/a17998" ],
-    [ "npc_sindragosa_trash", "df/dcf/a17994.html#a9634ea10e767b4d6e293fc3fdd491702", null ],
-    [ "GetAI", "df/dcf/a17994.html#ab1de715d98236a853a793d830bc601d7", null ]
+    [ "TriggerWickedSpirit", "df/dcf/a17994.html#ace62bc037a2bd8ca9c9c56202eb811e7", null ],
+    [ "Execute", "df/dcf/a17994.html#a7c8f1b5c33fac4d6a7cd89e3e71aa36d", null ],
+    [ "_counter", "df/dcf/a17994.html#a24b85a62208f881418f97b0a8cb10f27", null ],
+    [ "_owner", "df/dcf/a17994.html#ab460675158bfedd7f17a4b8e1cc06b3c", null ]
 ];

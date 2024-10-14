@@ -1,7 +1,6 @@
 var a18810 =
 [
-    [ "HandleTriggerSpell", "dc/dcc/a18810.html#a0e75076c2aed1544c544b976ee9cfbcd", null ],
-    [ "PrepareAuraScript", "dc/dcc/a18810.html#a6ce4c5c2b6797b38225ac3348aad5892", null ],
-    [ "Register", "dc/dcc/a18810.html#af87272995f6eeb3bc53cf472f5c3e9d3", null ],
-    [ "Validate", "dc/dcc/a18810.html#a813bad39641956fff697580f271416d2", null ]
+    [ "boss_gothikAI", "d1/d51/a18814.html", "d1/d51/a18814" ],
+    [ "boss_gothik", "dc/dcc/a18810.html#a0c3ee990a1caf020e9a4be000f0b77e0", null ],
+    [ "GetAI", "dc/dcc/a18810.html#aea7aec86c4132521fb7b9b6e87baf289", null ]
 ];

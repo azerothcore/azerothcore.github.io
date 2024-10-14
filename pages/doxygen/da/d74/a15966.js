@@ -1,8 +1,11 @@
 var a15966 =
 [
-    [ "Load", "da/d74/a15966.html#a55dc086667f0fe23e513608e951276ed", null ],
-    [ "Phase", "da/d74/a15966.html#af66a6bff13803e54b6ed1447d1285ad4", null ],
-    [ "PrepareSpellScript", "da/d74/a15966.html#ae2c7cbd68ccf893144e38581a6f86f04", null ],
-    [ "Register", "da/d74/a15966.html#a8ab7e05e98771abcf9bed9995875b71d", null ],
-    [ "Validate", "da/d74/a15966.html#a87192df547adaf3cb060155d9cf4da79", null ]
+    [ "boss_saviana_ragefireAI", "da/d74/a15966.html#ab4fa6a2cc57c9d110bfd3cf16a016942", null ],
+    [ "JustDied", "da/d74/a15966.html#a30331f9cdb141cd2dbc043888b48a6eb", null ],
+    [ "JustEngagedWith", "da/d74/a15966.html#a458eb370872c20441b5ec6ecd2c97500", null ],
+    [ "JustReachedHome", "da/d74/a15966.html#a74abf893a37874eb98aa5ba9883e8d62", null ],
+    [ "KilledUnit", "da/d74/a15966.html#ac07513681c72d6748246cc7c349d117c", null ],
+    [ "MovementInform", "da/d74/a15966.html#aed4c70f571586c8cbcc044c01bdc472d", null ],
+    [ "Reset", "da/d74/a15966.html#a4b7f103331c566cbf007a075161505af", null ],
+    [ "UpdateAI", "da/d74/a15966.html#af36ca2a359f950a10214d07aad240324", null ]
 ];

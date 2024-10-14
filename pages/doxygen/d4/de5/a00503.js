@@ -1,12 +1,10 @@
 var a00503 =
 [
-    [ "CSymbolInfoPackage", "dd/d94/a05102.html", "dd/d94/a05102" ],
-    [ "_NO_CVCONST_H", "d4/de5/a00503.html#af8660cbefcf140a8992e862e401bc473", null ],
-    [ "CrashFolder", "d4/de5/a00503.html#a55b3d8676a4478f058eeb12d4e8b35b2", null ],
-    [ "EXCEPTION", "d4/de5/a00503.html#a04a8ef8e5d1a39a04fed031f53ffa2db", null ],
-    [ "WIN32_LEAN_AND_MEAN", "d4/de5/a00503.html#ac7bef5d85e3dcd73eef56ad39ffc84a9", null ],
-    [ "ErrorMessage", "d4/de5/a00503.html#a75b4eb6a99991d301f7d44683ce13c9e", null ],
-    [ "ToTchar", "d4/de5/a00503.html#a9f2ce59205c508258855d0568854e367", null ],
-    [ "ToTchar", "d4/de5/a00503.html#a74d70382aec7501d6df3dcb969b85902", null ],
-    [ "g_WheatyExceptionReport", "d4/de5/a00503.html#a9fff8ce906026fe3179e50e97182d90d", null ]
+    [ "Acore::ACLogSink< T >", "dd/d15/a05414.html", "dd/d15/a05414" ],
+    [ "Acore::AsyncProcessResultImplementation", "d9/d54/a05418.html", "d9/d54/a05418" ],
+    [ "CreateChildProcess", "d4/de5/a00503.html#a18bbd8a6717e647e963654123259a033", null ],
+    [ "MakeACLogSink", "d4/de5/a00503.html#adcee37690522709ab4bd0b6f6e757dc5", null ],
+    [ "SearchExecutableInPath", "d4/de5/a00503.html#a9de098dac5e38f8c2cdbeb1d4d706881", null ],
+    [ "StartAsyncProcess", "d4/de5/a00503.html#a021f51138f5726e712f00bdddf9be729", null ],
+    [ "StartProcess", "d4/de5/a00503.html#acfaf2f89a55d299aa04c494719dfedc8", null ]
 ];

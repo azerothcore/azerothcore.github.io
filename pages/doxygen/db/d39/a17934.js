@@ -1,7 +1,7 @@
 var a17934 =
 [
-    [ "PeriodicTick", "db/d39/a17934.html#a79b63e30f37df8a961b57c4b10669800", null ],
-    [ "PrepareAuraScript", "db/d39/a17934.html#a091a72cf97d5fbd6ffbf95ad3e409aa6", null ],
-    [ "Register", "db/d39/a17934.html#a860e2bc444f5aeb78837cd1a6eff40a3", null ],
-    [ "Validate", "db/d39/a17934.html#a32cbe3a7eedf7b37229168a6154167b0", null ]
+    [ "HandleTriggerMissile", "db/d39/a17934.html#af6370594be48d35a12009fa10a38d91d", null ],
+    [ "PrepareSpellScript", "db/d39/a17934.html#aeeca4381273f382c3abb68f34d229213", null ],
+    [ "Register", "db/d39/a17934.html#a0b79f5ee23e53c18277712f1b26e13f3", null ],
+    [ "Validate", "db/d39/a17934.html#abe0b9290ddf9beaa60a583840d90d914", null ]
 ];

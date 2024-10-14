@@ -1,5 +1,6 @@
 var a14318 =
 [
-    [ "PrepareSpellScript", "d4/d35/a14318.html#aa5593d0da0fe9cb1cb22cb2ccab18e05", null ],
-    [ "Register", "d4/d35/a14318.html#a99f7d0be5668d5b005400140fc9865a4", null ]
+    [ "HandleScriptEffect", "d4/d35/a14318.html#a07ac70b6e91c61dcb59c368381a877dd", null ],
+    [ "PrepareSpellScript", "d4/d35/a14318.html#a55115ca986d5226588d168ced7ab1f55", null ],
+    [ "Register", "d4/d35/a14318.html#ad8811bf48dfb564afcd82cf51b860255", null ]
 ];

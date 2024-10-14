@@ -1,6 +1,8 @@
 var a20298 =
 [
-    [ "boss_mimironAI", "d0/da8/a20302.html", "d0/da8/a20302" ],
-    [ "boss_mimiron", "d7/dff/a20298.html#a72904837bd85e9f711fcf3da04c459c3", null ],
-    [ "GetAI", "d7/dff/a20298.html#a1d4f38ecee62a2c2a608afc158fad7f2", null ]
+    [ "npc_ulduar_magnetic_coreAI", "d7/dff/a20298.html#a585437dff0c49ac1a6bf7929ab266ff5", null ],
+    [ "SetData", "d7/dff/a20298.html#a27c31856d2bfe3228ae3b0b361064d7a", null ],
+    [ "UpdateAI", "d7/dff/a20298.html#ab9113a021844aa7ea8ac46df9c50b205", null ],
+    [ "despawnTimer", "d7/dff/a20298.html#ad244ccbaeda814b9e56fad93f06f12fe", null ],
+    [ "pInstance", "d7/dff/a20298.html#a3e01c612a689d89bdbe3529c429a413d", null ]
 ];

@@ -1,6 +1,6 @@
 var a24698 =
 [
-    [ "PrepareAuraScript", "de/d35/a24698.html#a31bde31b6db4f71ce65c6e1a862df771", null ],
-    [ "Register", "de/d35/a24698.html#aebe64c4760d13d8afaebcf4a4b1196fa", null ],
-    [ "UpdateAmount", "de/d35/a24698.html#a621e73a09438f3f9cbaa232125df3b87", null ]
+    [ "OnHit", "de/d35/a24698.html#a56ecd2ea05f48b874b2890d7f15cc362", null ],
+    [ "PrepareSpellScript", "de/d35/a24698.html#a0d74ce7c43f0cb7329ca990f1b0eecdf", null ],
+    [ "Register", "de/d35/a24698.html#a7cd2cc858eeb7805a3efb72b081c284e", null ]
 ];

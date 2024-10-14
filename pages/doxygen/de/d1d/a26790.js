@@ -1,10 +1,7 @@
 var a26790 =
 [
-    [ "CheckProc", "de/d1d/a26790.html#a257202ac9b80a67ce58d9e3491164d22", null ],
-    [ "HandleProc", "de/d1d/a26790.html#aa3c74b25fbe63ac77e10260159adb8ca", null ],
-    [ "HandleTick", "de/d1d/a26790.html#a5e436c530e5ef70bc4de4305676ed196", null ],
-    [ "PrepareAuraScript", "de/d1d/a26790.html#aef7d1a2bbd59af36cc130f07e1204081", null ],
-    [ "Register", "de/d1d/a26790.html#a11b0120ea8c8ccf1c96e5d1053d64895", null ],
-    [ "RemoveEffect", "de/d1d/a26790.html#a333ad80d8478f59713ee049f935d7885", null ],
-    [ "Validate", "de/d1d/a26790.html#aed3cb37f0230463978b210add84bd31d", null ]
+    [ "HandleDummy", "de/d1d/a26790.html#a0eae8fe2faee05bad7a34e84dddd3317", null ],
+    [ "PrepareSpellScript", "de/d1d/a26790.html#a24634405a8d0ccdd22f4832815262446", null ],
+    [ "Register", "de/d1d/a26790.html#a3394b9b9e5899550251d553ac9f77f8a", null ],
+    [ "Validate", "de/d1d/a26790.html#ae56a900b3484fd6397d38c4ad8efe5c2", null ]
 ];

@@ -1,6 +1,5 @@
 var a24266 =
 [
-    [ "PrepareSpellScript", "da/d9a/a24266.html#a190f6dc3d9b336324da29f627a743fe9", null ],
-    [ "Register", "da/d9a/a24266.html#a3afc8035b852bc31abd3228e88d59819", null ],
-    [ "SetDest", "da/d9a/a24266.html#a85d66a58597954501305ad5b674cc8a2", null ]
+    [ "npc_pet_dk_ghoulAI", "da/d9a/a24266.html#a7e747ba9e709eb532b0c16c8a1c1763a", null ],
+    [ "JustDied", "da/d9a/a24266.html#a7d964fafeb0a7746a7749a9e0eb93080", null ]
 ];

@@ -1,8 +1,9 @@
 var a19130 =
 [
-    [ "npc_alexstraszaAI", "d8/d0e/a19130.html#a36cf63109e379fa4a9e3f3426d70e50c", null ],
-    [ "AttackStart", "d8/d0e/a19130.html#a120931695bf3ea649289ee4f6df9a3fd", null ],
-    [ "MoveInLineOfSight", "d8/d0e/a19130.html#af93fc8e8877cc5730db7a9386ac3d815", null ],
-    [ "UpdateAI", "d8/d0e/a19130.html#aa8cc3ee1a2a4702349b39708cc172594", null ],
-    [ "events", "d8/d0e/a19130.html#aade88413d2f2998be6dcb9d15bf85ce0", null ]
+    [ "boss_commander_stoutbeardAI", "d8/d0e/a19130.html#a44bac0471ab37822be91c08e4cbd44d0", null ],
+    [ "JustDied", "d8/d0e/a19130.html#a8264fd42696a1f392b464b367f5e2933", null ],
+    [ "JustEngagedWith", "d8/d0e/a19130.html#a0bef61b70a285ab4b085ff7600fb7e77", null ],
+    [ "KilledUnit", "d8/d0e/a19130.html#ade8344d9cdf15625099d8b2550331ca6", null ],
+    [ "Reset", "d8/d0e/a19130.html#a5b7fe5b2a33eeb8f182aeca145cc62dd", null ],
+    [ "UpdateAI", "d8/d0e/a19130.html#a2e47e00e7e477c3abefe1549f1dd9c5f", null ]
 ];

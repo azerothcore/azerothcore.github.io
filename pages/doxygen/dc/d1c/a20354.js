@@ -1,6 +1,5 @@
 var a20354 =
 [
-    [ "npc_ulduar_bot_summon_triggerAI", "d2/dd7/a20358.html", "d2/dd7/a20358" ],
-    [ "npc_ulduar_bot_summon_trigger", "dc/d1c/a20354.html#a7a369b4826c6c2a86704088f5dcf1ce7", null ],
-    [ "GetAI", "dc/d1c/a20354.html#a0d7f74fc910c5adcaaa46a9d2ea10ea3", null ]
+    [ "achievement_mimiron_firefighter", "dc/d1c/a20354.html#ae26c3b2572bc9e3e75fb25537fe46a6c", null ],
+    [ "OnCheck", "dc/d1c/a20354.html#a1ebd287ef20c6d367f30b1c30ba68728", null ]
 ];

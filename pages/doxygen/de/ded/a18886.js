@@ -1,7 +1,7 @@
 var a18886 =
 [
-    [ "FilterTargets", "de/ded/a18886.html#a56ff062a6014099623466145a66284cc", null ],
-    [ "PrepareSpellScript", "de/ded/a18886.html#aa14623bb948ff457e52979facf74ffab", null ],
-    [ "Register", "de/ded/a18886.html#a9494bea35088161c9a520395d714fde1", null ],
-    [ "Validate", "de/ded/a18886.html#a6a02bc1a79a5f4fefe3b1e2900eaf0b4", null ]
+    [ "FilterTargets", "de/ded/a18886.html#af92aec0df6c962a10ccbebb366081cfd", null ],
+    [ "PrepareSpellScript", "de/ded/a18886.html#ad7ccb2b2024887ec0a9802454a8bfaec", null ],
+    [ "Register", "de/ded/a18886.html#af59416debfc7685bec92541a00e1dafe", null ],
+    [ "Validate", "de/ded/a18886.html#abbe7ae557fb510457504f72adfa0aedc", null ]
 ];

@@ -1,7 +1,6 @@
 var a23670 =
 [
-    [ "boss_zereketh_the_unbound", "dc/d33/a23670.html#abb2fc5cbe7514142160818016fda1936", null ],
-    [ "JustDied", "dc/d33/a23670.html#ac5d96da9a33a536f2002cce11453ded3", null ],
-    [ "JustEngagedWith", "dc/d33/a23670.html#ad0305f3eeb578d6dcd2db835331eb10f", null ],
-    [ "KilledUnit", "dc/d33/a23670.html#a07d3a1264e6d78c2696990755fc7fe45", null ]
+    [ "instance_the_botanica_InstanceMapScript", "df/d1c/a23674.html", "df/d1c/a23674" ],
+    [ "instance_the_botanica", "dc/d33/a23670.html#a8f8acda65f37e45e2439707f3979cf7c", null ],
+    [ "GetInstanceScript", "dc/d33/a23670.html#a335f671443ca0fb9db5956cefdf37182", null ]
 ];

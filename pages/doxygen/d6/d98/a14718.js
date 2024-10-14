@@ -1,7 +1,14 @@
 var a14718 =
 [
-    [ "npc_onyxian_lair_guard", "d6/d98/a14718.html#ae72d86cddafd8829fc9edd479a01ab1d", null ],
-    [ "JustEngagedWith", "d6/d98/a14718.html#a7b1d3bc68684202f9b4b95f6dc078be0", null ],
-    [ "UpdateAI", "d6/d98/a14718.html#ac8649636d5847813e49d2ada05f78645", null ],
-    [ "events", "d6/d98/a14718.html#a99acb2010853fcf9f7ac6f08143d06ed", null ]
+    [ "boss_ayamiss", "d6/d98/a14718.html#a0e923d4fa8bd6623ec58d7f64b5ea261", null ],
+    [ "DoAction", "d6/d98/a14718.html#a0114a79274c34fe3dfbc8a34f39920bc", null ],
+    [ "EnterEvadeMode", "d6/d98/a14718.html#a52f584da6d3d1b87fe91528dc25b8c5e", null ],
+    [ "JustDied", "d6/d98/a14718.html#acddcbb06b7d5980e199ef11103fabf7c", null ],
+    [ "JustEngagedWith", "d6/d98/a14718.html#aaaf1b765256f4a6342d16bd7767f92cf", null ],
+    [ "JustSummoned", "d6/d98/a14718.html#a4281f761256cd93c19aea0a76239512d", null ],
+    [ "MovementInform", "d6/d98/a14718.html#a6bc1f0767785efb5a5fb005b49338032", null ],
+    [ "Reset", "d6/d98/a14718.html#a10111f97236c2846181aa20f7d9b64fd", null ],
+    [ "ScheduleTasks", "d6/d98/a14718.html#a166238b9395a426a7333cf71a38c6c5c", null ],
+    [ "_swarmers", "d6/d98/a14718.html#aa6dd99f8085d1424acf07cc124ac210c", null ],
+    [ "homePos", "d6/d98/a14718.html#ab098ee0f8872d1cf9d34993c01971921", null ]
 ];

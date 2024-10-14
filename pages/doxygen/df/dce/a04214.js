@@ -1,30 +1,23 @@
 var a04214 =
 [
-    [ "npc_shenthul", "df/d05/a15346.html", "df/d05/a15346" ],
-    [ "npc_shenthul::npc_shenthulAI", "d0/d4f/a15350.html", "d0/d4f/a15350" ],
-    [ "npc_thrall_warchief", "d5/d31/a15354.html", "d5/d31/a15354" ],
-    [ "npc_thrall_warchief::npc_thrall_warchiefAI", "db/d9f/a15358.html", "db/d9f/a15358" ],
-    [ "Shenthul", "df/dce/a04214.html#a032512bb2693fda342f4d77dba794fbe", [
-      [ "QUEST_SHATTERED_SALUTE", "df/dce/a04214.html#a032512bb2693fda342f4d77dba794fbea38993f500c01e7bc0ae8dd3a83848ff0", null ]
-    ] ],
-    [ "ThrallWarchief", "df/dce/a04214.html#a1cdad3bda3b93500c342a64dce6d15d9", [
-      [ "SPELL_CHAIN_LIGHTNING", "df/dce/a04214.html#a1cdad3bda3b93500c342a64dce6d15d9ac0997e72929070d8e30cc0f49cc4539d", null ],
-      [ "SPELL_SHOCK", "df/dce/a04214.html#a1cdad3bda3b93500c342a64dce6d15d9a30aa4cac2f70a310466b3fb0f2d10eab", null ],
-      [ "QUEST_FOR_THE_HORDE", "df/dce/a04214.html#a1cdad3bda3b93500c342a64dce6d15d9aed442141280385194a0a8b73d7e489af", null ],
-      [ "SPELL_WARCHIEF_BLESSING", "df/dce/a04214.html#a1cdad3bda3b93500c342a64dce6d15d9a567e6044eaae260d8ab29c346613b225", null ],
-      [ "NPC_HERALD_OF_THRALL", "df/dce/a04214.html#a1cdad3bda3b93500c342a64dce6d15d9a3533aba0519168d4cfb3446a1bbde5bc", null ],
-      [ "ACTION_START_TALKING", "df/dce/a04214.html#a1cdad3bda3b93500c342a64dce6d15d9a322b9b49cd88bc70c039be2aa4e0c7fd", null ],
-      [ "SAY_THRALL_ON_QUEST_REWARD_0", "df/dce/a04214.html#a1cdad3bda3b93500c342a64dce6d15d9a64ac3588375f611524513fd4d4293a1b", null ],
-      [ "SAY_THRALL_ON_QUEST_REWARD_1", "df/dce/a04214.html#a1cdad3bda3b93500c342a64dce6d15d9a3a6a88801e0a276bd78e5299ffb76302", null ],
-      [ "AREA_ORGRIMMAR", "df/dce/a04214.html#a1cdad3bda3b93500c342a64dce6d15d9ad2dc06a1b56bb07677ef211cafd8a835", null ],
-      [ "AREA_RAZOR_HILL", "df/dce/a04214.html#a1cdad3bda3b93500c342a64dce6d15d9ae88321c626be966eda1d5aca34feda6e", null ],
-      [ "AREA_CAMP_TAURAJO", "df/dce/a04214.html#a1cdad3bda3b93500c342a64dce6d15d9a709f6c4a2cd059fc6e7da390a36546b9", null ],
-      [ "AREA_CROSSROADS", "df/dce/a04214.html#a1cdad3bda3b93500c342a64dce6d15d9ac472b1d2152c18bfc58b3ca21b3b64ec", null ],
-      [ "GO_UNADORNED_SPIKE", "df/dce/a04214.html#a1cdad3bda3b93500c342a64dce6d15d9a544ea295d906cebdf38aecb93e7ac153", null ],
-      [ "QUEST_WHAT_THE_WIND_CARRIES", "df/dce/a04214.html#a1cdad3bda3b93500c342a64dce6d15d9a5bc18876e7da8ddfc493ea155bb75287", null ],
-      [ "GOSSIP_MENU_THRALL", "df/dce/a04214.html#a1cdad3bda3b93500c342a64dce6d15d9a502d5aed1ed2917d36573a355656ce86", null ],
-      [ "GOSSIP_RESPONSE_THRALL_FIRST", "df/dce/a04214.html#a1cdad3bda3b93500c342a64dce6d15d9a710a8ed7a2d8ddb38e5e0f7db188132d", null ]
-    ] ],
-    [ "AddSC_orgrimmar", "df/dce/a04214.html#aec4388ea6d2e4bbc1d279b3a4687c4c6", null ],
-    [ "heraldOfThrallPos", "df/dce/a04214.html#a016aeee1d0eac9c78c522520663670f0", null ]
+    [ "PathGenerator", "d4/d01/a09702.html", "d4/d01/a09702" ],
+    [ "DISALLOW_TIME_AFTER_FAIL", "df/dce/a04214.html#ad29d27e72c40ec9a02fbdc29ee093857", null ],
+    [ "INVALID_POLYREF", "df/dce/a04214.html#a6ed37c24cf4f8cd0008c13f111e01092", null ],
+    [ "MAX_PATH_LENGTH", "df/dce/a04214.html#a9eb6992d76f02128388ae95c0415604a", null ],
+    [ "MAX_POINT_PATH_LENGTH", "df/dce/a04214.html#ac4c3ae34e2d3733cc39fc1c207d4b814", null ],
+    [ "SMOOTH_PATH_SLOP", "df/dce/a04214.html#a9439d6d260a5bf3c1bba446a935b2ce4", null ],
+    [ "SMOOTH_PATH_STEP_SIZE", "df/dce/a04214.html#ab1ec8eeebdd39a1cceb896f6fcb996bc", null ],
+    [ "VERTEX_SIZE", "df/dce/a04214.html#a14571eb5f0eee95bf614e04c59b0207a", null ],
+    [ "PathType", "df/dce/a04214.html#ae093c9a96eda0463cdd2501ba83f10c3", [
+      [ "PATHFIND_BLANK", "df/dce/a04214.html#ae093c9a96eda0463cdd2501ba83f10c3ae3e554bae74ad71bf12ba2eea8cc74d0", null ],
+      [ "PATHFIND_NORMAL", "df/dce/a04214.html#ae093c9a96eda0463cdd2501ba83f10c3a58a5a66492944c141d0f386ce330b2c1", null ],
+      [ "PATHFIND_SHORTCUT", "df/dce/a04214.html#ae093c9a96eda0463cdd2501ba83f10c3ae3c910a168f98f0694e99440aad8028f", null ],
+      [ "PATHFIND_INCOMPLETE", "df/dce/a04214.html#ae093c9a96eda0463cdd2501ba83f10c3aee2f2083277a36e471f1bf1170fba3be", null ],
+      [ "PATHFIND_NOPATH", "df/dce/a04214.html#ae093c9a96eda0463cdd2501ba83f10c3a5ab66bcba6eb689d881b4ebc85188984", null ],
+      [ "PATHFIND_NOT_USING_PATH", "df/dce/a04214.html#ae093c9a96eda0463cdd2501ba83f10c3a4246537a1b739abb599260d9fbb83cdf", null ],
+      [ "PATHFIND_SHORT", "df/dce/a04214.html#ae093c9a96eda0463cdd2501ba83f10c3a8a25c1fe0f8142291e2183102e647cc2", null ],
+      [ "PATHFIND_FARFROMPOLY_START", "df/dce/a04214.html#ae093c9a96eda0463cdd2501ba83f10c3a6a98cd66fb2172475b98b7fa120a64ab", null ],
+      [ "PATHFIND_FARFROMPOLY_END", "df/dce/a04214.html#ae093c9a96eda0463cdd2501ba83f10c3a100828592997ee8c90d192befefac0a9", null ],
+      [ "PATHFIND_FARFROMPOLY", "df/dce/a04214.html#ae093c9a96eda0463cdd2501ba83f10c3a71d670c0e84fb7296854813de6452e6c", null ]
+    ] ]
 ];

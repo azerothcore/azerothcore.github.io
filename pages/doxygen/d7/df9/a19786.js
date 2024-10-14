@@ -1,12 +1,6 @@
 var a19786 =
 [
-    [ "npc_freya_wardAI", "d7/df9/a19786.html#afbc2f3d88173e240b87915cf0520b3cf", null ],
-    [ "DoAction", "d7/df9/a19786.html#a4c9418b5474eb572a76168d4a460159a", null ],
-    [ "JustSummoned", "d7/df9/a19786.html#a9075d763014ca50b4e0d2c815e1c23b7", null ],
-    [ "Reset", "d7/df9/a19786.html#a65d304edd3b00b4a45c58bf36b926900", null ],
-    [ "SummonedCreatureDespawn", "d7/df9/a19786.html#a6273b024ebde2fb36ed79eb122f7ac68", null ],
-    [ "UpdateAI", "d7/df9/a19786.html#a11dd073b70e5126f580ec5122dce7bbd", null ],
-    [ "_castTimer", "d7/df9/a19786.html#a6308aadc8ebf41cf045b04ac58e2244b", null ],
-    [ "_summoned", "d7/df9/a19786.html#a5df6604055c5f3936a95f8d0ca5be8c1", null ],
-    [ "summons", "d7/df9/a19786.html#a82932e9f2d570fa6d8394bfd3954c41e", null ]
+    [ "boss_flame_leviathan_safety_containerAI", "d0/d4b/a19790.html", "d0/d4b/a19790" ],
+    [ "boss_flame_leviathan_safety_container", "d7/df9/a19786.html#ae14b2e13bd6358ad03d568f2bef042b7", null ],
+    [ "GetAI", "d7/df9/a19786.html#a6bcbc4e65214a0c667875271ff9aa0dd", null ]
 ];

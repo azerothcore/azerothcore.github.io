@@ -1,8 +1,7 @@
 var a14438 =
 [
-    [ "npc_doomfire_spirit", "d4/d9d/a14438.html#a3d16e8437c2e90ad1ab5de609f4fcff0", null ],
-    [ "Reset", "d4/d9d/a14438.html#a0600718fad91723eba74b903583c5942", null ],
-    [ "TryTeleportInDirection", "d4/d9d/a14438.html#a7fc48df636df66a006a8179fd63e2a65", null ],
-    [ "UpdateAI", "d4/d9d/a14438.html#aa0d953c28f25e2838f3b24364b51f10b", null ],
-    [ "turnConstant", "d4/d9d/a14438.html#afeab7c791c31457d86e98a0064fa6ad8", null ]
+    [ "hyjalThrallAI", "d5/d40/a14442.html", "d5/d40/a14442" ],
+    [ "npc_hyjal_thrall", "d4/d9d/a14438.html#a232f085f208a47f7fae08128de1d06b8", null ],
+    [ "GetAI", "d4/d9d/a14438.html#a699b5df19e4e84166348ecfba2dd0172", null ],
+    [ "OnGossipSelect", "d4/d9d/a14438.html#af833f26d79d34655c010aa04f984a94a", null ]
 ];

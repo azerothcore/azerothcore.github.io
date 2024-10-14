@@ -1,6 +1,6 @@
 var a17718 =
 [
-    [ "npc_gas_cloudAI", "dc/d2b/a17722.html", "dc/d2b/a17722" ],
-    [ "npc_gas_cloud", "d0/d83/a17718.html#a99c887cb8a5cc87bbfca026447368b8e", null ],
-    [ "GetAI", "d0/d83/a17718.html#a1c76a148f9c1acec473f102b6a24e3bb", null ]
+    [ "HandleScript", "d0/d83/a17718.html#a54ecb69bf0c54c170b12c9a4b88b55fb", null ],
+    [ "PrepareSpellScript", "d0/d83/a17718.html#a50560d754709e6b9ec6863142c1ffce3", null ],
+    [ "Register", "d0/d83/a17718.html#ab29deadceb953d6fb5d997b21ee4bb1c", null ]
 ];

@@ -1,7 +1,6 @@
 var a24262 =
 [
-    [ "HandlePeriodic", "d5/df0/a24262.html#a56dd6ce5acad6c8a10eabfc3f35879fe", null ],
-    [ "PrepareAuraScript", "d5/df0/a24262.html#a58dc6668172d046cef3046649928c124", null ],
-    [ "Register", "d5/df0/a24262.html#a5700d7cc8b52ec0351e3d7bf851274b7", null ],
-    [ "Validate", "d5/df0/a24262.html#afa6d5fe15882f33ae1a1d137db9caf8c", null ]
+    [ "npc_pet_dk_ghoulAI", "da/d9a/a24266.html", "da/d9a/a24266" ],
+    [ "npc_pet_dk_ghoul", "d5/df0/a24262.html#ac8af6ae753151a08e80d434a04ef58db", null ],
+    [ "GetAI", "d5/df0/a24262.html#a74b068bdccf5d9b25b4ef3bff0a193ef", null ]
 ];

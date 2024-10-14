@@ -1,7 +1,7 @@
 var a24706 =
 [
-    [ "CalculateAmount", "dc/da4/a24706.html#a2ed00d02a1685bc8b66e9cdfd430d1ad", null ],
-    [ "Load", "dc/da4/a24706.html#a7ba8da2fdc3bf18cd9925b280e60affa", null ],
-    [ "PrepareAuraScript", "dc/da4/a24706.html#a93df43072a344485c389160306b1fecd", null ],
-    [ "Register", "dc/da4/a24706.html#a6766b6ebbba04bc595373145e4eaaa7a", null ]
+    [ "FilterTargets", "dc/da4/a24706.html#a9abf4baaba572636dba3980e5ae777c5", null ],
+    [ "Load", "dc/da4/a24706.html#a812e4e461c0ebed6f7c4cc36e88a3367", null ],
+    [ "PrepareSpellScript", "dc/da4/a24706.html#a4e98fbf669c030263ed2e5759a5bd6e8", null ],
+    [ "Register", "dc/da4/a24706.html#a2d72f5771d6563260a6e81122e4a2be5", null ]
 ];

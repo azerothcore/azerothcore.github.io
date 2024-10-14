@@ -1,6 +1,11 @@
 var a21238 =
 [
-    [ "npc_frozen_orb_stalkerAI", "d7/dbb/a21242.html", "d7/dbb/a21242" ],
-    [ "npc_frozen_orb_stalker", "dd/d92/a21238.html#a7f025c829106aa6668427f913d07a722", null ],
-    [ "GetAI", "dd/d92/a21238.html#af33e27138a70286bac561113ed09f350", null ]
+    [ "npc_ichor_globuleAI", "dd/d92/a21238.html#a4d581f89c8385276fd407c000af9e569", null ],
+    [ "AttackStart", "dd/d92/a21238.html#aa4e1fc88a26d6ef41f1ca96c93abbc1a", null ],
+    [ "JustDied", "dd/d92/a21238.html#ad29c7659590933b0749e8e1c2c2e4c46", null ],
+    [ "MoveInLineOfSight", "dd/d92/a21238.html#af8ef8296512d57d934a171f1a5060e73", null ],
+    [ "SpellHit", "dd/d92/a21238.html#a1396538a446545408e3c304f3e56400f", null ],
+    [ "UpdateAI", "dd/d92/a21238.html#a6ff13c853583e5178fb3a690e17303de", null ],
+    [ "pInstance", "dd/d92/a21238.html#a94cbe93a69a28171fc3d91d71b6ec419", null ],
+    [ "uiRangeCheck_Timer", "dd/d92/a21238.html#a99914a55d2dc0b36a623dc7d6248e953", null ]
 ];

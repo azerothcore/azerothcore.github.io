@@ -1,8 +1,9 @@
 var a17490 =
 [
-    [ "HandlePeriodic", "dd/d8b/a17490.html#a5ff571c616b69bb50c736622feb9ed96", null ],
-    [ "HandleRemove", "dd/d8b/a17490.html#a624887bb5e6d8b72d6c0591661d6ba38", null ],
-    [ "PrepareAuraScript", "dd/d8b/a17490.html#a1b140274e283dd95e28fcb773e30f965", null ],
-    [ "Register", "dd/d8b/a17490.html#abcce83ef6ecbe539a3d8eaef83fb2d33", null ],
-    [ "Validate", "dd/d8b/a17490.html#a94c644e730c51c8edb6a74d68d6228a8", null ]
+    [ "CalculateDamage", "dd/d8b/a17490.html#a6a9e90d9463825b38b69afc234b35b39", null ],
+    [ "PrepareSpellScript", "dd/d8b/a17490.html#ae7a8d0cc36708b11f8eefebd5df0a980", null ],
+    [ "Register", "dd/d8b/a17490.html#a2722814a55469e5bae572766ed36309b", null ],
+    [ "RemoveEnergy", "dd/d8b/a17490.html#a0f16b4b35985d658dc185aa88ab099ed", null ],
+    [ "StoreEnergy", "dd/d8b/a17490.html#aca3ecc5a6219cb3813f17be404142c6d", null ],
+    [ "_energyLeft", "dd/d8b/a17490.html#af082a763f6524aeb5ae2eb3c82fd12e5", null ]
 ];

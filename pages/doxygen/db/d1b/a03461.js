@@ -1,12 +1,7 @@
 var a03461 =
 [
-    [ "ACScriptName", "db/d1b/a03461.html#a44e28f969fff2c33cf76b8eaaff1898c", null ],
-    [ "DataHeader", "db/d1b/a03461.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "RegisterAuchenaiCryptsCreatureAI", "db/d1b/a03461.html#abf97bec93b670890ad0eaa7d6b4bd4b9", null ],
-    [ "ACDataTypes", "db/d1b/a03461.html#aae3060cf5aa0b4d27bcbbfeee3db2856", [
-      [ "DATA_SHIRRAK_THE_DEAD_WATCHER", "db/d1b/a03461.html#aae3060cf5aa0b4d27bcbbfeee3db2856a5d80917a3a5f108f9e625372181b85fe", null ],
-      [ "DATA_EXARCH_MALADAAR", "db/d1b/a03461.html#aae3060cf5aa0b4d27bcbbfeee3db2856aa54edd3601b7953b0bf046fa8b1bd3f8", null ]
-    ] ],
-    [ "GetAuchenaiCryptsAI", "db/d1b/a03461.html#a8c9b9cbd7dca7c2e86d7ad3fe7bfd961", null ],
-    [ "EncounterCount", "db/d1b/a03461.html#a31d630c40753c29f94ceac2db5e451a8", null ]
+    [ "AddTime", "db/d1b/a03461.html#aae074176c44fa3d99280320c869fde46", null ],
+    [ "GetTime", "db/d1b/a03461.html#ae44f550ac340528abe454269c2273d73", null ],
+    [ "IsCorrectDelay", "db/d1b/a03461.html#a18121c73cd31656af9ee5e5da754e4bd", null ],
+    [ "_players", "db/d1b/a03461.html#af8ad5db2c36ddfbca0b6b18e3478c2c5", null ]
 ];

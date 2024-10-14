@@ -1,6 +1,6 @@
 var a21242 =
 [
-    [ "npc_frozen_orb_stalkerAI", "d7/dbb/a21242.html#afd8d187ecbf508d02824d1ff8f3cb5cf", null ],
-    [ "JustSummoned", "d7/dbb/a21242.html#a73d7d5e55d2a00c9aee6f595e2678b17", null ],
-    [ "Reset", "d7/dbb/a21242.html#a064ccb90afeb9b36d501850482c60bc4", null ]
+    [ "boss_lavanthorAI", "db/da9/a21246.html", "db/da9/a21246" ],
+    [ "boss_lavanthor", "d7/dbb/a21242.html#aa935ffe07f59db59b9b8484f22927026", null ],
+    [ "GetAI", "d7/dbb/a21242.html#aae09ecbe56efac6538bdfb6120e0be40", null ]
 ];

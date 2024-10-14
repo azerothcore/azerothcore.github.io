@@ -1,4 +1,6 @@
 var a00866 =
 [
-    [ "ScriptRegistry< DynamicObjectScript >", "dd/db2/a00866.html#a81c3616d496bf8bc2392d79508d2e446", null ]
+    [ "instance_razorfen_downs", "dd/ddb/a14686.html", "dd/ddb/a14686" ],
+    [ "instance_razorfen_downs::instance_razorfen_downs_InstanceMapScript", "db/d99/a14690.html", "db/d99/a14690" ],
+    [ "AddSC_instance_razorfen_downs", "dd/db2/a00866.html#a0db4d34b8ea594cf2808b93c362a49c4", null ]
 ];

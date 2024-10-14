@@ -1,9 +1,7 @@
 var a10274 =
 [
-    [ "GuildRoster", "d1/d6c/a10274.html#a2161128d6fb6fa53a5129a95ded2b5fc", null ],
-    [ "Write", "d1/d6c/a10274.html#a544a539999827d4eb8923cbbcdf42bac", null ],
-    [ "InfoText", "d1/d6c/a10274.html#a9d457ee8feb6c173d960b360aca90fc6", null ],
-    [ "MemberData", "d1/d6c/a10274.html#a964fc72bf3ada77c171fd1f691449241", null ],
-    [ "RankData", "d1/d6c/a10274.html#a67b0a12fae93c5807030c1062f328abb", null ],
-    [ "WelcomeText", "d1/d6c/a10274.html#a5ec2c209558d2c34feee4bfd8cda201c", null ]
+    [ "Flags", "d1/d6c/a10274.html#a46bfcae3e4788d6ea4e6ee71b8a16edd", null ],
+    [ "TabFlags", "d1/d6c/a10274.html#af9c7b68d1bd48da88f65fa40a01ccc72", null ],
+    [ "TabWithdrawItemLimit", "d1/d6c/a10274.html#af16392abbddf27a8b21fd21d998501e6", null ],
+    [ "WithdrawGoldLimit", "d1/d6c/a10274.html#a3dc50115a24b686d3a2fa9e28a7042af", null ]
 ];

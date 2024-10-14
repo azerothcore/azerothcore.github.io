@@ -1,5 +1,6 @@
 var a19074 =
 [
-    [ "at_naxxramas_hub_portal", "d9/dc5/a19074.html#a946086e8a4651240b84526a1b2d54065", null ],
-    [ "OnTrigger", "d9/dc5/a19074.html#af967b0f61b3257c8b8d802d4ed3af1da", null ]
+    [ "npc_alexstraszaAI", "df/d7e/a19078.html", "df/d7e/a19078" ],
+    [ "npc_alexstrasza", "d9/dc5/a19074.html#aa28858e8368031c2882e7e3c1c5968dd", null ],
+    [ "GetAI", "d9/dc5/a19074.html#ad155ccc4f7bca786229ee015d365e3ce", null ]
 ];

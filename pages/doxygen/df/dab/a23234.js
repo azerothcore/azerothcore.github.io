@@ -1,13 +1,7 @@
 var a23234 =
 [
-    [ "npc_ahune_bunny", "df/dab/a23234.html#ae28e0d2dbaab082488d5582b75cd8482", null ],
-    [ "DoAction", "df/dab/a23234.html#ad071787c47254f603ba7692889733202", null ],
-    [ "JustDied", "df/dab/a23234.html#a8733a3e495ebf69df4f9d1213df50170", null ],
-    [ "JustSummoned", "df/dab/a23234.html#a2c5c97b497cd15a1453bbd21d279a29b", null ],
-    [ "ResetFlameCallers", "df/dab/a23234.html#a60a74aabbf42116079081134a332a100", null ],
-    [ "UpdateAI", "df/dab/a23234.html#aa8dff40dde7820b1ce4e06c8d27e4ecb", null ],
-    [ "_events", "df/dab/a23234.html#af84154fff16cbdb15586b3b07223e010", null ],
-    [ "_instance", "df/dab/a23234.html#a9be0d062379e5a3dfa19af1eb1a4243e", null ],
-    [ "_submerged", "df/dab/a23234.html#a15fdcc2fda18e118f398ccc055f52942", null ],
-    [ "_summons", "df/dab/a23234.html#a8f9e25f0d8a66b18e887b061592c6950", null ]
+    [ "HandleProc", "df/dab/a23234.html#a03b2be5894d489a6021aff2744aee0e0", null ],
+    [ "PrepareAuraScript", "df/dab/a23234.html#a0ff401cd6d8e32ff458b7383b76a92a1", null ],
+    [ "Register", "df/dab/a23234.html#a804e1bc3d570d28cb2e06155054f3169", null ],
+    [ "Validate", "df/dab/a23234.html#a8d18e9ed9fa851f1c4d36c1f0bed8fcb", null ]
 ];

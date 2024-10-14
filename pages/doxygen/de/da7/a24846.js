@@ -1,5 +1,6 @@
 var a24846 =
 [
-    [ "PrepareSpellScript", "de/da7/a24846.html#a2d0e411f3b4a9efed35ee34c7bf03252", null ],
-    [ "Register", "de/da7/a24846.html#a560ff22e718e8a975a2e2dc2340da917", null ]
+    [ "HandleScriptEffect", "de/da7/a24846.html#a142d6a512ba6e937985a9c21725d8d33", null ],
+    [ "PrepareSpellScript", "de/da7/a24846.html#af46fd8adaf8fef92984376ad6aa4f9a2", null ],
+    [ "Register", "de/da7/a24846.html#a9cbf1c0678bd0775a452aa3270dff6a0", null ]
 ];

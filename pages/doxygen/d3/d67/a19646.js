@@ -1,6 +1,6 @@
 var a19646 =
 [
-    [ "PrepareSpellScript", "d3/d67/a19646.html#af280f3880e2e567188ba8ca3e45c00c0", null ],
-    [ "RecalculateDamage", "d3/d67/a19646.html#a54c26d24f62c36108f9fceb7a0c53e37", null ],
-    [ "Register", "d3/d67/a19646.html#aac131aa2d2e5342cf0303b918a077b45", null ]
+    [ "HandleInstaKill", "d3/d67/a19646.html#a9371a2cc86616fd04e47939d45f01cae", null ],
+    [ "PrepareSpellScript", "d3/d67/a19646.html#a38eed301f1db3ea7ac15b626e5927500", null ],
+    [ "Register", "d3/d67/a19646.html#a9aaf3e86a2c14ee79cc013b3978621ee", null ]
 ];

@@ -1,7 +1,6 @@
 var a14086 =
 [
-    [ "FilterTargets", "df/de8/a14086.html#af3954bbcbce6de5d4ddadd2af0ecac91", null ],
-    [ "HandleDummy", "df/de8/a14086.html#ad3688071ca786bbb4c27d5632d1a1e56", null ],
-    [ "PrepareSpellScript", "df/de8/a14086.html#a6ac4db072beae6ae7a700774667da613", null ],
-    [ "Register", "df/de8/a14086.html#ae981ec2b7e097ad0fe924df7738da5b7", null ]
+    [ "npc_cw_area_triggerAI", "d0/d7a/a14090.html", "d0/d7a/a14090" ],
+    [ "npc_cw_area_trigger", "df/de8/a14086.html#a11af64ac4ab078566bf8f68a36781939", null ],
+    [ "GetAI", "df/de8/a14086.html#a66c55b2984bab71be89ad7b6b96e3784", null ]
 ];

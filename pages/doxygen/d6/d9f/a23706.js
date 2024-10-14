@@ -1,10 +1,11 @@
 var a23706 =
 [
-    [ "boss_thorngrin_the_tender", "d6/d9f/a23706.html#ad960b1084fc08d2870975c7c6c44ab2b", null ],
-    [ "JustDied", "d6/d9f/a23706.html#a4bc13108f7cb240fedb44ccae2b54047", null ],
-    [ "JustEngagedWith", "d6/d9f/a23706.html#a647ed5b29861b719d3c4a11fd110c512", null ],
-    [ "KilledUnit", "d6/d9f/a23706.html#ab3731c5b56e1c01aa5d78d84a5e60234", null ],
-    [ "MoveInLineOfSight", "d6/d9f/a23706.html#a9467e59287b3e917907de82507d1a16d", null ],
-    [ "Reset", "d6/d9f/a23706.html#af3f1471cbcdadfe3a86421d7232fb4b9", null ],
-    [ "_intro", "d6/d9f/a23706.html#a48fc89c7e9814d90a8724ca38c5e2fe8", null ]
+    [ "boss_high_astromancer_solarian", "d6/d9f/a23706.html#a2db48cc179539f81b55188de08a7e180", null ],
+    [ "AttackStart", "d6/d9f/a23706.html#acaf94134aef553447e766a5e431c8b83", null ],
+    [ "JustDied", "d6/d9f/a23706.html#a510eb2e4f0770670d6767bc2545375b7", null ],
+    [ "JustEngagedWith", "d6/d9f/a23706.html#a86cd2162187f1a81932000ca1cfb7f85", null ],
+    [ "JustSummoned", "d6/d9f/a23706.html#ac5b209a45a5a3ea2a8421706d181a827", null ],
+    [ "KilledUnit", "d6/d9f/a23706.html#a561a78193615575b7e43e0f21387f1b8", null ],
+    [ "Reset", "d6/d9f/a23706.html#a58cbb2c8a6c30855a0f9f2275338c1b5", null ],
+    [ "UpdateAI", "d6/d9f/a23706.html#a07a76c34a978c31212390cf10ed3e382", null ]
 ];

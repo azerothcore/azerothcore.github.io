@@ -1,8 +1,8 @@
 var a17254 =
 [
-    [ "OnApply", "d8/dcf/a17254.html#a4741bfaaea8bc956fd1020aca13a51c2", null ],
-    [ "OnRemove", "d8/dcf/a17254.html#a21aad38fe91580d3b8e0cc71dce7b1ad", null ],
-    [ "PrepareAuraScript", "d8/dcf/a17254.html#a54b2ab23915e84b9c9728eb624dae47b", null ],
-    [ "Register", "d8/dcf/a17254.html#a6d552ff58f7bb267cf4d20f2f5aedc7a", null ],
-    [ "Validate", "d8/dcf/a17254.html#a5542dca73b5cc2ec1c724fe536e8a15f", null ]
+    [ "npc_saurfang_eventAI", "d8/dcf/a17254.html#a8436a87576c92ecc0b45106683d20e93", null ],
+    [ "DoAction", "d8/dcf/a17254.html#a45201c4a5b94fad948efe1d08e63e262", null ],
+    [ "SetData", "d8/dcf/a17254.html#a7f012a54ebce5307940eb7957f028d52", null ],
+    [ "SpellHit", "d8/dcf/a17254.html#a2ed920f949c4d8dbc6d6ff5b9149e749", null ],
+    [ "_index", "d8/dcf/a17254.html#a793d72078bd68b34fcdb7cd6587295dd", null ]
 ];

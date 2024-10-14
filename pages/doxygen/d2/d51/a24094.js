@@ -1,7 +1,6 @@
 var a24094 =
 [
-    [ "HandleEffectApply", "d2/d51/a24094.html#a362b5b818ab0029956fd22bd10b4b9ac", null ],
-    [ "HandleEffectRemove", "d2/d51/a24094.html#a96769390468dc132df62b5a0ec3a2da4", null ],
-    [ "PrepareAuraScript", "d2/d51/a24094.html#a7bad0d577281829e60c0fb577d6a7d6e", null ],
-    [ "Register", "d2/d51/a24094.html#a95905ec163c42463314a5f5bb023b4d6", null ]
+    [ "npcs_flanis_swiftwing_and_kagrosh", "d2/d51/a24094.html#aa95eceea94521947bd443805c8ddb52d", null ],
+    [ "OnGossipHello", "d2/d51/a24094.html#a7f331c38ec82d2c69bce4b1f861527a0", null ],
+    [ "OnGossipSelect", "d2/d51/a24094.html#aff34165955ba93e1fcd2b9731894d871", null ]
 ];

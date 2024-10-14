@@ -1,13 +1,6 @@
 var a18450 =
 [
-    [ "npc_highlord_tirion_fordringAI", "d5/d88/a18450.html#a8852f9196a6609f317b6113ac2eee9ee", null ],
-    [ "Reset", "d5/d88/a18450.html#a80051b1b2a663997304b1754a3f9ff25", null ],
-    [ "SetData", "d5/d88/a18450.html#a5642aab7afc50a7494c43ae7a130d571", null ],
-    [ "UpdateAI", "d5/d88/a18450.html#ac3c8dc2e5bf6e0c3f380f395a785ad49", null ],
-    [ "_bolvarFordragon", "d5/d88/a18450.html#a8e8ae990a6e70a70ce6de3a13300261c", null ],
-    [ "_damnedKills", "d5/d88/a18450.html#a56e035884d2ab94629c133efc1fc8feb", null ],
-    [ "_events", "d5/d88/a18450.html#a8d8d6f1b8dc65b28a8117426e3767762", null ],
-    [ "_factionNPC", "d5/d88/a18450.html#acf9a436edcbfe3fcf47f56c5cf90cfb2", null ],
-    [ "_instance", "d5/d88/a18450.html#acd16d6200b08df23576aa9ccbb060d31", null ],
-    [ "_theLichKing", "d5/d88/a18450.html#afbe85d7002e34cfcb9414f2beda4e0a2", null ]
+    [ "npc_captain_brandonAI", "d5/d88/a18450.html#a1fe09b93be658660ba3c127c142e2ee6", null ],
+    [ "Reset", "d5/d88/a18450.html#a13226b321707eee9faf5f073c81403e4", null ],
+    [ "UpdateAI", "d5/d88/a18450.html#a721f8f7395cd57d4dba74f66ae40169f", null ]
 ];

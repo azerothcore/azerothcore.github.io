@@ -1,7 +1,11 @@
 var a15742 =
 [
-    [ "HandleEffectRemove", "d2/dd6/a15742.html#a45ed6d3f1c80dcef3ee6c59e744f13c6", null ],
-    [ "PrepareAuraScript", "d2/dd6/a15742.html#a34b88963dd81e6a8855daaedb9c238d4", null ],
-    [ "Register", "d2/dd6/a15742.html#a7c0533650e772713233ea45b0264cbff", null ],
-    [ "Validate", "d2/dd6/a15742.html#a7690603bd7b01ca6da2a73ac8ed36114", null ]
+    [ "boss_sartharion_tenebronAI", "d2/dd6/a15742.html#a9996fce9320390ead967ad82bcef9554", null ],
+    [ "ClearInstance", "d2/dd6/a15742.html#af9e0459fff845bf4f6e53d06e4a9447f", null ],
+    [ "ExecuteEvent", "d2/dd6/a15742.html#a6a7f8255aa1dcbb979354467d0e6949d", null ],
+    [ "HandleExtraEvent", "d2/dd6/a15742.html#ad78a939f0584b775e29341ff08f0eee1", null ],
+    [ "JustDied", "d2/dd6/a15742.html#ac3e03263a174dd147854fa6d714ec003", null ],
+    [ "JustSummoned", "d2/dd6/a15742.html#a50d000b322e3d3a61cc02dea96c2979d", null ],
+    [ "Reset", "d2/dd6/a15742.html#a1aa8277ddc91989ed7480d4221a6e534", null ],
+    [ "summons2", "d2/dd6/a15742.html#a5060b01175ece5ad782e96bdf3d2c82d", null ]
 ];

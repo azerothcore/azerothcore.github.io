@@ -1,6 +1,8 @@
 var a26706 =
 [
-    [ "HandleBanish", "d5/dc8/a26706.html#ab8dd3ab2fd7b9aff3556e6284c515474", null ],
-    [ "PrepareSpellScript", "d5/dc8/a26706.html#a56118e3ed7525cdf575531a4c2f2d93f", null ],
-    [ "Register", "d5/dc8/a26706.html#ad6c066c9d6a64a5d89d3c347600559a9", null ]
+    [ "HandleDummyTick", "d5/dc8/a26706.html#ad35d90e5cdd68f4c1d3172a0860274bd", null ],
+    [ "HandleRemove", "d5/dc8/a26706.html#a92f2bb73ec58832eaada3c7140f7868d", null ],
+    [ "PrepareAuraScript", "d5/dc8/a26706.html#a06e45d5f63ef1395b5949482e8393098", null ],
+    [ "Register", "d5/dc8/a26706.html#abf1d49720ae43d4ed2fb1c2920387ace", null ],
+    [ "Validate", "d5/dc8/a26706.html#a9a2da4d163a96526e14f5de76798a784", null ]
 ];

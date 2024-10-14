@@ -1,6 +1,9 @@
 var a19586 =
 [
-    [ "npc_collapsing_starAI", "d5/db3/a19590.html", "d5/db3/a19590" ],
-    [ "npc_collapsing_star", "dc/d3e/a19586.html#a8d57987c9b4622746d4f42a2b4845b9e", null ],
-    [ "GetAI", "dc/d3e/a19586.html#a346af96d122e64c68defdeccb9183cd4", null ]
+    [ "CheckTargets", "dc/d3e/a19586.html#a9340c167ef70508635092e273c23dcde", null ],
+    [ "CountTargets", "dc/d3e/a19586.html#a996db37b678143fbc0a392032d29fff5", null ],
+    [ "Load", "dc/d3e/a19586.html#a716bcf5bb0a24f9a57534c9dafb1a56f", null ],
+    [ "PrepareSpellScript", "dc/d3e/a19586.html#a0b68ca6bdfe0f7c84236e5fe509d8fd9", null ],
+    [ "Register", "dc/d3e/a19586.html#aed312a4408134589fd02bbcb844fd1b7", null ],
+    [ "_targetCount", "dc/d3e/a19586.html#ac780614674e748274081f9f99a5165fe", null ]
 ];

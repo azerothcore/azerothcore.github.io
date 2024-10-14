@@ -1,6 +1,6 @@
 var a17918 =
 [
-    [ "CheckProc", "d9/de5/a17918.html#ad701d353f03eb5a1ccca28a6530555db", null ],
-    [ "PrepareAuraScript", "d9/de5/a17918.html#a51794aa0a42180d9a0f4e9f6d5febca4", null ],
-    [ "Register", "d9/de5/a17918.html#a4f787e29064c15f4dad9047ff618982a", null ]
+    [ "npc_spinestalkerAI", "d5/d1f/a17922.html", "d5/d1f/a17922" ],
+    [ "npc_spinestalker", "d9/de5/a17918.html#a477f951c79045d553901b1e6b6ad2d4f", null ],
+    [ "GetAI", "d9/de5/a17918.html#a725f1b1db90d700772bfb76e0f85f1f3", null ]
 ];

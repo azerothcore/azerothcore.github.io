@@ -1,6 +1,6 @@
 var a23254 =
 [
-    [ "HandleScript", "dd/ded/a23254.html#ad81007cd08ee18bfc7cda4221cbc8482", null ],
-    [ "PrepareSpellScript", "dd/ded/a23254.html#a60f0bb4882d3f75f0839cd0d8ab2707d", null ],
-    [ "Register", "dd/ded/a23254.html#ac06f4246c5cecc4875bc93811eaeb839", null ]
+    [ "boss_rokmar_the_crackler", "dd/ded/a23254.html#a0aca6a30d045bbea6f434979f4f1d2e9", null ],
+    [ "JustEngagedWith", "dd/ded/a23254.html#ae376e6a96fa07136790f3ed04ee1023b", null ],
+    [ "Reset", "dd/ded/a23254.html#aed9cf4a866d5e70647125a08885fb809", null ]
 ];

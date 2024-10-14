@@ -1,7 +1,9 @@
 var a27882 =
 [
-    [ "CalculateAmount", "d2/d42/a27882.html#a0934aa8eaf442314aa6050d85304c15b", null ],
-    [ "CalculateSpellAmount", "d2/d42/a27882.html#ab765b87350bd3e73ac43879abef72d98", null ],
-    [ "PrepareAuraScript", "d2/d42/a27882.html#a627c6a88ed6ce051b0d6a06d94288498", null ],
-    [ "Register", "d2/d42/a27882.html#ae1b5265f817f1f4ec011d4e2607686eb", null ]
+    [ "HolidayWorldStateId", "d2/d42/a27882.html#a3f70ffbb1abb5a96fe91c2eec3682c8b", null ],
+    [ "id", "d2/d42/a27882.html#a52f7840f9247d2af63062dd280b37341", null ],
+    [ "mapid", "d2/d42/a27882.html#a11e1326eeb24b436b10db53acc323c13", null ],
+    [ "maxGroupSize", "d2/d42/a27882.html#adbdae47b424c3b61b76b48ea5798f52d", null ],
+    [ "name", "d2/d42/a27882.html#a9a56ca930ff8425d4b77066e47a1e09f", null ],
+    [ "type", "d2/d42/a27882.html#a647669b97599d7edf02b5a38dd1d5116", null ]
 ];

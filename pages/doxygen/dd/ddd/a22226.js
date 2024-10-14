@@ -1,8 +1,6 @@
 var a22226 =
 [
-    [ "AfterRemove", "dd/ddd/a22226.html#a06fd72c7754f34dbc62a99a9ed839302", null ],
-    [ "HandlePeriodic", "dd/ddd/a22226.html#a5aaadeed42e6a3cf1e2216a13c2d3ff9", null ],
-    [ "OnApply", "dd/ddd/a22226.html#a6617555d302923e5e95e7b1c6d8d74d6", null ],
-    [ "PrepareAuraScript", "dd/ddd/a22226.html#a47a6281c42dc9368357cc86912331c77", null ],
-    [ "Register", "dd/ddd/a22226.html#a868c79cda98b97b27b74d46f86cb980a", null ]
+    [ "npc_vehicle_d16_propelled_deliveryAI", "de/da4/a22230.html", "de/da4/a22230" ],
+    [ "npc_vehicle_d16_propelled_delivery", "dd/ddd/a22226.html#a93bed362ae78231b21327994a3e4cafd", null ],
+    [ "GetAI", "dd/ddd/a22226.html#abda3dbcb251d7f1e614d089f630d0d1c", null ]
 ];

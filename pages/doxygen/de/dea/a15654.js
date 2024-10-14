@@ -1,8 +1,14 @@
 var a15654 =
 [
-    [ "HandleScriptEffect", "de/dea/a15654.html#af3e18fa5befc7124f2a3dbcd36259e6b", null ],
-    [ "Load", "de/dea/a15654.html#ab293f8b536957558fa8886e1f4a23e74", null ],
-    [ "PrepareSpellScript", "de/dea/a15654.html#ae4a1abf2e39c6806d804dea9ce5808ef", null ],
-    [ "Register", "de/dea/a15654.html#a9fb54f0662982dec90c2e6f8568421ed", null ],
-    [ "Validate", "de/dea/a15654.html#a2bee81d684c4739bb6247bfbdb74a21b", null ]
+    [ "boss_anub_arakAI", "de/dea/a15654.html#a9b9dc11d78456efd9c6ad69e0c12e022", null ],
+    [ "EnterEvadeMode", "de/dea/a15654.html#a016f17a11be149cbb6cc1343f2916a4f", null ],
+    [ "JustDied", "de/dea/a15654.html#abc93931e7698ffd717199a598e16c917", null ],
+    [ "JustEngagedWith", "de/dea/a15654.html#a589c252516b738a8f38f9d89da11912c", null ],
+    [ "JustSummoned", "de/dea/a15654.html#a8624e9dc8af370579bd7ef72063acbf8", null ],
+    [ "KilledUnit", "de/dea/a15654.html#a33e26ae3907e84ecc02514e4133e3002", null ],
+    [ "MoveInLineOfSight", "de/dea/a15654.html#ab89570d2d0ddb494fa20f24d95cac41b", null ],
+    [ "Reset", "de/dea/a15654.html#a254a51a901c0e82da6cb87ade5eba6fa", null ],
+    [ "SummonHelpers", "de/dea/a15654.html#a709ef4602ace41c9b9ccebe8795badec", null ],
+    [ "UpdateAI", "de/dea/a15654.html#acf3ddec273ded62c768631be2b3299fa", null ],
+    [ "intro", "de/dea/a15654.html#a4916d6a1ed06330e94698a13c404ee52", null ]
 ];

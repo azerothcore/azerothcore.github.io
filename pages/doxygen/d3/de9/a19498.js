@@ -1,6 +1,6 @@
 var a19498 =
 [
-    [ "boss_sjonnir_iron_sludgeAI", "d4/df9/a19502.html", "d4/df9/a19502" ],
-    [ "boss_sjonnir_iron_sludge", "d3/de9/a19498.html#ae1c523266aab3e8e2c337dede7390c7b", null ],
-    [ "GetAI", "d3/de9/a19498.html#a2d077bfeac6479d83240ee00ca5aa0e0", null ]
+    [ "spell_hos_dark_matter_AuraScript", "d4/df9/a19502.html", "d4/df9/a19502" ],
+    [ "spell_hos_dark_matter", "d3/de9/a19498.html#af170db9adc5adb20f8d6a3e95cd60124", null ],
+    [ "GetAuraScript", "d3/de9/a19498.html#a2277580897f7533440713157d9cd863f", null ]
 ];

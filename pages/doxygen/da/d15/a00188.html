@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Collision/Models/ModelInstance.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Cryptography/HMAC.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,49 +107,47 @@ $(document).ready(function(){initNavTree('da/d15/a00188.html','../../'); initRes
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">ModelInstance.h File Reference</div></div>
+<a href="#typedef-members">Typedefs</a>  </div>
+  <div class="headertitle"><div class="title">HMAC.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &lt;G3D/AABox.h&gt;</code><br />
-<code>#include &lt;G3D/Matrix3.h&gt;</code><br />
-<code>#include &lt;G3D/Ray.h&gt;</code><br />
-<code>#include &lt;G3D/Vector3.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CryptoConstants.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CryptoHash.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
+<code>#include &lt;array&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;string_view&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d92/a04962.html">VMAP::ModelSpawn</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5a/a04966.html">VMAP::ModelInstance</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df6/a05082.html">Acore::Impl::GenericHMAC&lt; HashCreator, DigestLength &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d5/dfd/a04680"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dfd/a04680.html">VMAP</a></td></tr>
+<tr class="memitem:d7/de4/a04674"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html">Acore</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d7/d47/a04685"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d47/a04685.html">Acore::Impl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d4/d70/a04684"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html">Acore::Crypto</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ac540ff16efadcc07eeb9d8511b94ccce"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dfd/a04680.html#ac540ff16efadcc07eeb9d8511b94ccce">VMAP::ModelFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../d5/dfd/a04680.html#ac540ff16efadcc07eeb9d8511b94ccceadfad2b6f6278e720b00314cd5117b673">VMAP::MOD_M2</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d5/dfd/a04680.html#ac540ff16efadcc07eeb9d8511b94cccea3a6165ebc7b838e28ef59670dc84dc46">VMAP::MOD_WORLDSPAWN</a> = 1 &lt;&lt; 1
-, <br />
-&#160;&#160;<a class="el" href="../../d5/dfd/a04680.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09">VMAP::MOD_HAS_BOUND</a> = 1 &lt;&lt; 2
-<br />
- }</td></tr>
-<tr class="separator:ac540ff16efadcc07eeb9d8511b94ccce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a5186a2a02e2301ec3ea7b37d8b41097f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html#a5186a2a02e2301ec3ea7b37d8b41097f">Acore::Crypto::HMAC_SHA1</a> = <a class="el" href="../../db/df6/a05082.html">Acore::Impl::GenericHMAC</a>&lt; EVP_sha1, Constants::SHA1_DIGEST_LENGTH_BYTES &gt;</td></tr>
+<tr class="separator:a5186a2a02e2301ec3ea7b37d8b41097f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d906d20826d6c963f50eba5f7c4c2a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d70/a04684.html#a80d906d20826d6c963f50eba5f7c4c2a">Acore::Crypto::HMAC_SHA256</a> = <a class="el" href="../../db/df6/a05082.html">Acore::Impl::GenericHMAC</a>&lt; EVP_sha256, Constants::SHA256_DIGEST_LENGTH_BYTES &gt;</td></tr>
+<tr class="separator:a80d906d20826d6c963f50eba5f7c4c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_34825b659a55315b272dfcc55a7a0f6a.html">Collision</a></li><li class="navelem"><a class="el" href="../../dir_4f6dd9407c30513885e39c17576c5e90.html">Models</a></li><li class="navelem"><a class="el" href="../../da/d15/a00188.html">ModelInstance.h</a></li>
-    <li class="footer">Generated on Mon Oct 7 2024 20:40:34 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_c55db428bdbf28a6b4d3b113733cf911.html">Cryptography</a></li><li class="navelem"><a class="el" href="../../da/d15/a00188.html">HMAC.h</a></li>
+    <li class="footer">Generated on Mon Oct 14 2024 20:40:18 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,6 @@
 var a20422 =
 [
-    [ "boss_razorscaleAI", "d2/d22/a20426.html", "d2/d22/a20426" ],
-    [ "boss_razorscale", "da/d61/a20422.html#ad8fe81f1b553414df3fa07c646029065", null ],
-    [ "GetAI", "da/d61/a20422.html#a01cf25d901a5eddae9ef3ea291020ba1", null ]
+    [ "npc_ulduar_dark_rune_sentinelAI", "d2/d22/a20426.html", "d2/d22/a20426" ],
+    [ "npc_ulduar_dark_rune_sentinel", "da/d61/a20422.html#ac59aa042fd188eaf1eb6a04eb7d545a9", null ],
+    [ "GetAI", "da/d61/a20422.html#a3884f50f894770ff94ad6977f62c45f3", null ]
 ];

@@ -1,6 +1,6 @@
 var a26830 =
 [
-    [ "HandleRemove", "d2/df5/a26830.html#a0ac8fe6a39ae00e50f219bf02c26f1a4", null ],
-    [ "PrepareAuraScript", "d2/df5/a26830.html#a0517fe77f15e1b9cf6153ed2aaf9cee8", null ],
-    [ "Register", "d2/df5/a26830.html#ac968ede75fd5d98ba9a10dc9f6bdbb85", null ]
+    [ "FilterTargets", "d2/df5/a26830.html#af85da0bcf8c311472e6a75667fa125d0", null ],
+    [ "PrepareSpellScript", "d2/df5/a26830.html#ad7478a1a70ebc52eda1c57dd4f143b67", null ],
+    [ "Register", "d2/df5/a26830.html#a2fab1592d19331239b1ef63045389886", null ]
 ];

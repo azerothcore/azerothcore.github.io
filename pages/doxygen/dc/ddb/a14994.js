@@ -1,15 +1,13 @@
 var a14994 =
 [
-    [ "boss_skeram", "dc/ddb/a14994.html#a293710a88c91a181ee1000939386e176", null ],
-    [ "DoTeleport", "dc/ddb/a14994.html#a96166ddebd5906868b872c39a6755a70", null ],
-    [ "EnterEvadeMode", "dc/ddb/a14994.html#ab050e31d661c8c089d175de231b0eeb2", null ],
-    [ "JustDied", "dc/ddb/a14994.html#a6b30a6ca5167aae41ad70bd502265d2b", null ],
-    [ "JustEngagedWith", "dc/ddb/a14994.html#a07bba9a1a62ad9ad15b9cd42b5d5b3d3", null ],
-    [ "JustSummoned", "dc/ddb/a14994.html#a3e3d74bc646a96e20a88d3541f806c62", null ],
-    [ "KilledUnit", "dc/ddb/a14994.html#a185cb6686d37e064278260ebe5fae13a", null ],
-    [ "Reset", "dc/ddb/a14994.html#a08c9c2c577ef4b713594ca67f4c87a68", null ],
-    [ "UpdateAI", "dc/ddb/a14994.html#aaf29331e0fac71479747d62fd9f1e301", null ],
-    [ "_copiesGUIDs", "dc/ddb/a14994.html#a28f1465938dc2141779d5171ea09ecd0", null ],
-    [ "_flag", "dc/ddb/a14994.html#a0abcf1e8721aa972be70774d5be7b53b", null ],
-    [ "_hpct", "dc/ddb/a14994.html#a5c8760788264a9a04a28c05a0247676c", null ]
+    [ "instance_temple_of_ahnqiraj_InstanceMapScript", "dc/ddb/a14994.html#a454f677dddce956534d6f5a253ed587b", null ],
+    [ "GetData", "dc/ddb/a14994.html#ad34ee1e43d05826c1b4e80e2df6ac5f6", null ],
+    [ "Initialize", "dc/ddb/a14994.html#a8d46d9aa082d306aa2c9cd8fde3eea1d", null ],
+    [ "OnCreatureCreate", "dc/ddb/a14994.html#affc7045f944251fb27683133f511029f", null ],
+    [ "OnGameObjectCreate", "dc/ddb/a14994.html#a36f22cb12a5d59b377627f7cacbffecb", null ],
+    [ "OnUnitDeath", "dc/ddb/a14994.html#a921a58152e075b9a64bf3c73aabdf1f2", null ],
+    [ "SetBossState", "dc/ddb/a14994.html#abb9fc9c7901d0c830d498f3fbdaebbe6", null ],
+    [ "SetData", "dc/ddb/a14994.html#a25f4e12aad6325e87b31770c1243d746", null ],
+    [ "BugTrioDeathCount", "dc/ddb/a14994.html#aab0191f5b31264f0632a24df0607d05b", null ],
+    [ "CThunGraspGUIDs", "dc/ddb/a14994.html#aea180c0b623e919f56f9210ce15724e8", null ]
 ];

@@ -1,10 +1,6 @@
 var a16674 =
 [
-    [ "HandleAfterEffectAbsorb", "d2/df6/a16674.html#a4af67c41afd7843a5cfe2b2e2e9e8055", null ],
-    [ "Load", "d2/df6/a16674.html#abab656d4ba7e14bf1ffdb1d40c395b5d", null ],
-    [ "PrepareAuraScript", "d2/df6/a16674.html#a0856d66c801715f16cd251ddf9b25a59", null ],
-    [ "Register", "d2/df6/a16674.html#a69d8dfebb981b51592770b7b5807bc80", null ],
-    [ "Validate", "d2/df6/a16674.html#a55ec42ce316978220103a3a39f3939a3", null ],
-    [ "amount", "d2/df6/a16674.html#aaf34ee04ae619a3ac108a8fd1c9dac99", null ],
-    [ "fired", "d2/df6/a16674.html#a6a7afa99044644608b16e83328bfd5fa", null ]
+    [ "npc_phantom_mageAI", "d0/dd6/a16678.html", "d0/dd6/a16678" ],
+    [ "npc_phantom_mage", "d2/df6/a16674.html#ad57414231c40917bf55d6155fa9c05db", null ],
+    [ "GetAI", "d2/df6/a16674.html#ae2134b8be3052da659390bde7c2aac2e", null ]
 ];

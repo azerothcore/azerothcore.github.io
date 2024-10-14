@@ -1,15 +1,13 @@
 var a19202 =
 [
-    [ "boss_magus_telestraAI", "d2/d40/a19202.html#a132b0f8f429a6aac111f09d4c594c801", null ],
-    [ "AttackStart", "d2/d40/a19202.html#a7fca7c0f53bbedd94db219208fe48126", null ],
-    [ "GetData", "d2/d40/a19202.html#a7895fb69b2599cb2455ffff0917a212c", null ],
-    [ "JustDied", "d2/d40/a19202.html#a08128021b57ab81bec206426834e6d08", null ],
-    [ "JustEngagedWith", "d2/d40/a19202.html#aea4ebd0b209edf1fb09ed5980c76110f", null ],
-    [ "JustSummoned", "d2/d40/a19202.html#a5d0ae6cb3ea8de7b287ce6b4bfc90ad2", null ],
-    [ "KilledUnit", "d2/d40/a19202.html#aa9e83d5f251c38d76ed427f50532b501", null ],
-    [ "Reset", "d2/d40/a19202.html#a2819ee975f6e67785115874fc825f8d1", null ],
-    [ "SpellHit", "d2/d40/a19202.html#af7533998daf2ac7816286295e05645e9", null ],
-    [ "UpdateAI", "d2/d40/a19202.html#a95325e9e6525d158407410722a5afc1e", null ],
-    [ "achievement", "d2/d40/a19202.html#a16760ea58d6f66c713de25cfaf4deff4", null ],
-    [ "copiesDied", "d2/d40/a19202.html#a720e188dcf17c43f032b45c99228c855", null ]
+    [ "boss_drakosAI", "d2/d40/a19202.html#a75d771095897081457353be898b332c3", null ],
+    [ "JustDied", "d2/d40/a19202.html#a7235760bd407f49802bc9e26e8f3f22c", null ],
+    [ "JustEngagedWith", "d2/d40/a19202.html#a4bc15075d9e9a913783da482a7a167c7", null ],
+    [ "JustSummoned", "d2/d40/a19202.html#a06e21c4e5bd1a882ada074b9595d4088", null ],
+    [ "KilledUnit", "d2/d40/a19202.html#a4bd3e45b45660311d7510f58a1850648", null ],
+    [ "MoveInLineOfSight", "d2/d40/a19202.html#a10b2ca39887e906e6e1e33df82afc1da", null ],
+    [ "Reset", "d2/d40/a19202.html#a6fd78f4f45b9f2104acc481fb0f2763f", null ],
+    [ "UpdateAI", "d2/d40/a19202.html#abf761c7cda4031c31354d8c8d42963e0", null ],
+    [ "events", "d2/d40/a19202.html#ae86ad4fcc57cc1137411c881355f2f51", null ],
+    [ "pInstance", "d2/d40/a19202.html#adc9461ae5334634a9140f338547688b4", null ]
 ];

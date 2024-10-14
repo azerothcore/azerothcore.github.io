@@ -1,6 +1,10 @@
 var a15898 =
 [
-    [ "SendEncounterUnit", "db/d75/a15898.html#a5300ba7c1a8001bbf52c56fc2e5dc331", null ],
-    [ "Execute", "db/d75/a15898.html#ae21b67f8fe8a0677778436563872495f", null ],
-    [ "_owner", "db/d75/a15898.html#a6e1569fb7fa159fe702defbab1e123b6", null ]
+    [ "spell_halion_combustion_consumption_aura", "db/d75/a15898.html#a8b67aee76c7288748757e6bec7f4cb78", null ],
+    [ "AddMarkStack", "db/d75/a15898.html#a337776c42bd6c42ecdffb508808ed070", null ],
+    [ "OnApply", "db/d75/a15898.html#afeea3e5026e6d8472440c9cffac9bce9", null ],
+    [ "OnRemove", "db/d75/a15898.html#a3959dbe8bbdf2d3953daf14072614708", null ],
+    [ "PrepareAuraScript", "db/d75/a15898.html#a334f2211429dde989b6beb6c10a71464", null ],
+    [ "Register", "db/d75/a15898.html#affc66a03e9d1eaef30a54b8a044734b8", null ],
+    [ "_markSpell", "db/d75/a15898.html#a8236d9d50f267a12216d90f8041da439", null ]
 ];

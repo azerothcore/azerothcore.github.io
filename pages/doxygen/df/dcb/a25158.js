@@ -1,9 +1,6 @@
 var a25158 =
 [
-    [ "spell_gen_lifebloom", "df/dcb/a25158.html#a5cb52a4dda841d9d31fd00a31ddc3350", null ],
-    [ "AfterRemove", "df/dcb/a25158.html#aea962f603e56c1bd33fccaef0c89d917", null ],
-    [ "PrepareAuraScript", "df/dcb/a25158.html#ac11134bdc3588795ce6e256c5b02055f", null ],
-    [ "Register", "df/dcb/a25158.html#ab4a552402ee9f90834320d6fc668cff3", null ],
-    [ "Validate", "df/dcb/a25158.html#a599634d92b92a5635b89733b7bb3c3c8", null ],
-    [ "_spellId", "df/dcb/a25158.html#a196484d01d2dc07163e18fdca9f60ca9", null ]
+    [ "PrepareSpellScript", "df/dcb/a25158.html#abb178100d4e5fa4032118f86aa34127d", null ],
+    [ "Register", "df/dcb/a25158.html#a50e902cc281b909259097a8bed5651f2", null ],
+    [ "RemoveVehicleAuras", "df/dcb/a25158.html#a4ec803f3164d6e38ddf10f4a0ca392e0", null ]
 ];

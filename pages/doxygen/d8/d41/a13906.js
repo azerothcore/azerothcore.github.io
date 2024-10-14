@@ -1,6 +1,8 @@
 var a13906 =
 [
-    [ "OnRemove", "d8/d41/a13906.html#abc6d916a2bebd7995cbdb4a603d9831a", null ],
-    [ "PrepareAuraScript", "d8/d41/a13906.html#ac90c6f7806a24f21cac4cbf2a64d0b57", null ],
-    [ "Register", "d8/d41/a13906.html#a7457949331552492cf6df83737729a08", null ]
+    [ "boss_venoxis", "d8/d41/a13906.html#a3e91a9022163a726cbc077d38459a5f5", null ],
+    [ "InitializeAI", "d8/d41/a13906.html#a1373b5fc673fce6aea1de40d970ac00d", null ],
+    [ "JustDied", "d8/d41/a13906.html#a63ccc5a9520ee30b0ebaf8c4d31e59b8", null ],
+    [ "JustEngagedWith", "d8/d41/a13906.html#afaa68ffbd5fecae48a044009326bcaed", null ],
+    [ "Reset", "d8/d41/a13906.html#a40cbcd4d41ff85ff71d5d913d8e62368", null ]
 ];

@@ -1,9 +1,8 @@
 var a25754 =
 [
-    [ "CheckRequirement", "d0/d0e/a25754.html#adab261a5221ca54b15cc414d291908fe", null ],
-    [ "HandleDummy", "d0/d0e/a25754.html#abb7a734244bb18d75304a0510f9efb8d", null ],
-    [ "Load", "d0/d0e/a25754.html#a418eef16d1e3aeff67013f45409c092a", null ],
-    [ "PrepareSpellScript", "d0/d0e/a25754.html#ab3e73a456ec7384720827a4ff7f5abc7", null ],
-    [ "Register", "d0/d0e/a25754.html#a5dbf60e33f2cdca3921f623cd1098948", null ],
-    [ "Validate", "d0/d0e/a25754.html#a1dcba4f3c2874a952ca422b0a3cdafb1", null ]
+    [ "HandleDummy", "d0/d0e/a25754.html#a13b4ea32e03dec26d0cdaa9537abb3b0", null ],
+    [ "Load", "d0/d0e/a25754.html#a78506404ba25b054a9ab3f7176a5d4fc", null ],
+    [ "PrepareSpellScript", "d0/d0e/a25754.html#a070e83b84feb418f02327240daebede7", null ],
+    [ "Register", "d0/d0e/a25754.html#a0c2965e62feb26ca764636fcd3a1f885", null ],
+    [ "Validate", "d0/d0e/a25754.html#a48934cde38c6f3b18087267b616ff338", null ]
 ];

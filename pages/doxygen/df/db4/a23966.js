@@ -1,7 +1,6 @@
 var a23966 =
 [
-    [ "HandleDummy", "df/db4/a23966.html#a08f2f0aef00ce075572ff84643905a0a", null ],
-    [ "PrepareSpellScript", "df/db4/a23966.html#ac1aacfbd71224d80eaed0b9a76ff673f", null ],
-    [ "Register", "df/db4/a23966.html#a2046ac7f24989ff0bf50a3ee66dda104", null ],
-    [ "Validate", "df/db4/a23966.html#aded9f2e46cc3bf46f5699ce6fdf154ba", null ]
+    [ "go_beaconAI", "df/db4/a23966.html#a95f0f62d4e34da650c22a7ce796fc85f", null ],
+    [ "OnStateChanged", "df/db4/a23966.html#a10bd78bf6c2451fe95163eb9083bdf44", null ],
+    [ "creatureList", "df/db4/a23966.html#a8f406b85752e42cc26741aa5a13e69bc", null ]
 ];

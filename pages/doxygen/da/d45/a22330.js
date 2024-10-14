@@ -1,6 +1,8 @@
 var a22330 =
 [
-    [ "HandleSummon", "da/d45/a22330.html#ac2f7b0d0772d72d69d58bb4b66616e21", null ],
-    [ "PrepareSpellScript", "da/d45/a22330.html#ae7f071e9d9a82892be31090385679c9f", null ],
-    [ "Register", "da/d45/a22330.html#a516ab0801cc93f15da434a0f0952c7e4", null ]
+    [ "npc_feedin_da_goolzAI", "da/d45/a22330.html#ada9ba6b4a0dfa5858b76986f8ebaa5d0", null ],
+    [ "UpdateAI", "da/d45/a22330.html#a7cbe5e54620e2356601c09effbe22928", null ],
+    [ "checkTimer", "da/d45/a22330.html#a834f91e84fc2dff6a07e46f0b677de3e", null ],
+    [ "findTimer", "da/d45/a22330.html#a91b49f7c12fed4ddd958171187ccfb47", null ],
+    [ "ghoulFed", "da/d45/a22330.html#adf256f6a4311f8b7cf6758259cc78f3f", null ]
 ];

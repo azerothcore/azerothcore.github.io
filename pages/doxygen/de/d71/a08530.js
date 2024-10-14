@@ -18,6 +18,7 @@ var a08530 =
     [ "GetCreatureEntry", "de/d71/a08530.html#a569bf72d77375db2e120d2737447461a", null ],
     [ "GetNextEmptySeat", "de/d71/a08530.html#a16e47819393af4335642a1e667b9582b", null ],
     [ "GetPassenger", "de/d71/a08530.html#a250a3ae75407ecbf79d3235a9c56679f", null ],
+    [ "GetSeatAddonForSeatOfPassenger", "de/d71/a08530.html#ad62a34478fb6e6d23e2c156a05ea83c7", null ],
     [ "GetSeatForPassenger", "de/d71/a08530.html#a9cf07492fbc0a7a2532ebaea9bc13c5d", null ],
     [ "GetSeatIteratorForPassenger", "de/d71/a08530.html#a38dd2b30d9d5da70bca0a4f9844d3e6c", null ],
     [ "GetVehicleInfo", "de/d71/a08530.html#a3eee3315aa0816f55f57bf38c6d12650", null ],

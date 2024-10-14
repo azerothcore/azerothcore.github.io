@@ -1,6 +1,6 @@
 var a15806 =
 [
-    [ "boss_sartharion_vesperonAI", "d5/d8c/a15810.html", "d5/d8c/a15810" ],
-    [ "boss_sartharion_vesperon", "dc/dd5/a15806.html#a53af67abd9f9bff7f72ee2441e885500", null ],
-    [ "GetAI", "dc/dd5/a15806.html#ad045054b44910461e704c412a524bdc4", null ]
+    [ "npc_baltharus_the_warborn_cloneAI", "d5/d8c/a15810.html", "d5/d8c/a15810" ],
+    [ "npc_baltharus_the_warborn_clone", "dc/dd5/a15806.html#a7ed0731a015709ecd3c0c26fafb795ff", null ],
+    [ "GetAI", "dc/dd5/a15806.html#a87b50fbc3a67345f375b41c3cb2ba754", null ]
 ];

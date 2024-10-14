@@ -1,7 +1,6 @@
 var a24630 =
 [
-    [ "AfterApply", "dc/db1/a24630.html#aee69eceead7e31cce2638ff252f6653d", null ],
-    [ "AfterRemove", "dc/db1/a24630.html#ad53d25cc04f1b6cc1f3d0a8d9fc69a89", null ],
-    [ "PrepareAuraScript", "dc/db1/a24630.html#a0ccde960cb328cd1c72b2504376e92b4", null ],
-    [ "Register", "dc/db1/a24630.html#ab5f8afbfa688ebd548a5508543498b55", null ]
+    [ "CalculateAmount", "dc/db1/a24630.html#a66fd870eff0f2a225630e26047d36225", null ],
+    [ "PrepareAuraScript", "dc/db1/a24630.html#afde8a1734c57e01094077af3d3bdf757", null ],
+    [ "Register", "dc/db1/a24630.html#a8e5b9dd71dfccb224e92784725f2a8a9", null ]
 ];

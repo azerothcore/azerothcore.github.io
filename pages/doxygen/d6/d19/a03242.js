@@ -1,6 +1,6 @@
 var a03242 =
 [
-    [ "event_commandscript", "d5/dd9/a11314.html", "d5/dd9/a11314" ],
-    [ "EventEntry", "d6/d19/a03242.html#accd9dac141ffd4618bb7d3f69e8eb716", null ],
-    [ "AddSC_event_commandscript", "d6/d19/a03242.html#a4f3834f706dcb17ca67ce6513f6aecad", null ]
+    [ "FlyByCamera", "db/d7b/a07638.html", "db/d7b/a07638" ],
+    [ "GetFlyByCameras", "d6/d19/a03242.html#a8079cfd87f117ce26e31f3da14e63cf9", null ],
+    [ "LoadM2Cameras", "d6/d19/a03242.html#a9971ebb80eba223b5767bcfa8f713267", null ]
 ];

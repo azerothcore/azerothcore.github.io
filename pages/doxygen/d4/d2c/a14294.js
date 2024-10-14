@@ -1,5 +1,5 @@
 var a14294 =
 [
-    [ "PrepareSpellScript", "d4/d2c/a14294.html#a50ee42c11937759b6c52c2ab994481c4", null ],
-    [ "Register", "d4/d2c/a14294.html#a8dc12a723c2da948c38119e3fc34df35", null ]
+    [ "npc_pilgrims_bounty_plate", "d4/d2c/a14294.html#ac0217b8fb3a0fbf418ce2d3ca286f2eb", null ],
+    [ "SpellHit", "d4/d2c/a14294.html#a7797b7a532336542ef37f0643df8dec0", null ]
 ];

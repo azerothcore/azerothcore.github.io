@@ -1,7 +1,5 @@
 var a20850 =
 [
-    [ "OnPeriodic", "de/d08/a20850.html#a529e89c1ae0074370da174defc086719", null ],
-    [ "PrepareAuraScript", "de/d08/a20850.html#a587652095a5dfae229787a0c0ceacfbe", null ],
-    [ "Register", "de/d08/a20850.html#acd5551b09882d720608bdec6036dee9a", null ],
-    [ "Validate", "de/d08/a20850.html#aaed6604e39dd977f4e7c671052d718e8", null ]
+    [ "achievement_yogg_saron_kiss_and_make_up", "de/d08/a20850.html#a9f2e5fe9de59a9b5a00c0e73e8f9b376", null ],
+    [ "OnCheck", "de/d08/a20850.html#a8ce7df713b804d5bdd5f6f47d77fc1b8", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Utilities/ByteConverter.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Debugging/WheatyExceptionReport.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,65 +105,123 @@ $(document).ready(function(){initNavTree('d4/dd3/a00428.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">ByteConverter.h File Reference</div></div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">WheatyExceptionReport.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CompilerDefs.h</a>&quot;</code><br />
+<code>#include &lt;windows.h&gt;</code><br />
+<code>#include &lt;tlhelp32.h&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;tchar.h&gt;</code><br />
+<code>#include &lt;dbghelp.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../">WheatyExceptionReport.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GitRevision.h</a>&quot;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d9/dcf/a04692"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcf/a04692.html">ByteConverter</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d94/a05102.html">CSymbolInfoPackage</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ac7bef5d85e3dcd73eef56ad39ffc84a9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#ac7bef5d85e3dcd73eef56ad39ffc84a9">WIN32_LEAN_AND_MEAN</a></td></tr>
+<tr class="separator:ac7bef5d85e3dcd73eef56ad39ffc84a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8660cbefcf140a8992e862e401bc473"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#af8660cbefcf140a8992e862e401bc473">_NO_CVCONST_H</a></td></tr>
+<tr class="separator:af8660cbefcf140a8992e862e401bc473"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55b3d8676a4478f058eeb12d4e8b35b2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#a55b3d8676a4478f058eeb12d4e8b35b2">CrashFolder</a>&#160;&#160;&#160;_T(&quot;Crashes&quot;)</td></tr>
+<tr class="separator:a55b3d8676a4478f058eeb12d4e8b35b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04a8ef8e5d1a39a04fed031f53ffa2db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#a04a8ef8e5d1a39a04fed031f53ffa2db">EXCEPTION</a>(x)&#160;&#160;&#160;case EXCEPTION_##x: return LPTSTR(_T(#x));</td></tr>
+<tr class="separator:a04a8ef8e5d1a39a04fed031f53ffa2db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5628479f846d755da3ff53b0e2a66c26"><td class="memTemplParams" colspan="2">template&lt;std::size_t T&gt; </td></tr>
-<tr class="memitem:a5628479f846d755da3ff53b0e2a66c26"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dcf/a04692.html#a5628479f846d755da3ff53b0e2a66c26">ByteConverter::convert</a> (char *val)</td></tr>
-<tr class="separator:a5628479f846d755da3ff53b0e2a66c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8017307aa0aa935f062b4f701563d09"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:aa8017307aa0aa935f062b4f701563d09"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dcf/a04692.html#aa8017307aa0aa935f062b4f701563d09">ByteConverter::convert&lt; 0 &gt;</a> (char *)</td></tr>
-<tr class="separator:aa8017307aa0aa935f062b4f701563d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3717e304a2b8b074fcd513ca8e0db116"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a3717e304a2b8b074fcd513ca8e0db116"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dcf/a04692.html#a3717e304a2b8b074fcd513ca8e0db116">ByteConverter::convert&lt; 1 &gt;</a> (char *)</td></tr>
-<tr class="separator:a3717e304a2b8b074fcd513ca8e0db116"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6177d7ac84a4ea6819c57a124345540e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a6177d7ac84a4ea6819c57a124345540e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dcf/a04692.html#a6177d7ac84a4ea6819c57a124345540e">ByteConverter::apply</a> (T *val)</td></tr>
-<tr class="separator:a6177d7ac84a4ea6819c57a124345540e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d20b1e463a04f0a22d79ca802902be6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a9d20b1e463a04f0a22d79ca802902be6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#a9d20b1e463a04f0a22d79ca802902be6">EndianConvert</a> (T &amp;val)</td></tr>
-<tr class="separator:a9d20b1e463a04f0a22d79ca802902be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71946d011105dec5ad60c6875066ed86"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a71946d011105dec5ad60c6875066ed86"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#a71946d011105dec5ad60c6875066ed86">EndianConvertReverse</a> (T &amp;)</td></tr>
-<tr class="separator:a71946d011105dec5ad60c6875066ed86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73b1f88261dfd018f7f185b0ea941c88"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a73b1f88261dfd018f7f185b0ea941c88"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#a73b1f88261dfd018f7f185b0ea941c88">EndianConvertPtr</a> (void *val)</td></tr>
-<tr class="separator:a73b1f88261dfd018f7f185b0ea941c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b9f1be37ef60cffbb862512d9374dd4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a8b9f1be37ef60cffbb862512d9374dd4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#a8b9f1be37ef60cffbb862512d9374dd4">EndianConvertPtrReverse</a> (void *)</td></tr>
-<tr class="separator:a8b9f1be37ef60cffbb862512d9374dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2e19073fdc053bb0299b663fa1ee757"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:af2e19073fdc053bb0299b663fa1ee757"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#af2e19073fdc053bb0299b663fa1ee757">EndianConvert</a> (T *)</td></tr>
-<tr class="separator:af2e19073fdc053bb0299b663fa1ee757"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fa1c447bec92bbf436d429b422cc2e7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a1fa1c447bec92bbf436d429b422cc2e7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#a1fa1c447bec92bbf436d429b422cc2e7">EndianConvertReverse</a> (T *)</td></tr>
-<tr class="separator:a1fa1c447bec92bbf436d429b422cc2e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a138a6c8a71f6e9bd8eb436a598f628"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#a7a138a6c8a71f6e9bd8eb436a598f628">EndianConvert</a> (<a class="el" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &amp;)</td></tr>
-<tr class="separator:a7a138a6c8a71f6e9bd8eb436a598f628"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49a7404e8b8e7030c609822047db18e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#a49a7404e8b8e7030c609822047db18e8">EndianConvert</a> (<a class="el" href="../../d4/ddf/a00488.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a> &amp;)</td></tr>
-<tr class="separator:a49a7404e8b8e7030c609822047db18e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2adbd00f9fd7adfc4bd3d26ae1565a0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#a2adbd00f9fd7adfc4bd3d26ae1565a0b">EndianConvertReverse</a> (<a class="el" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &amp;)</td></tr>
-<tr class="separator:a2adbd00f9fd7adfc4bd3d26ae1565a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdb2b3cf0ea55e72e1d4047380cbd260"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#acdb2b3cf0ea55e72e1d4047380cbd260">EndianConvertReverse</a> (<a class="el" href="../../d4/ddf/a00488.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a> &amp;)</td></tr>
-<tr class="separator:acdb2b3cf0ea55e72e1d4047380cbd260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75b4eb6a99991d301f7d44683ce13c9e"><td class="memItemLeft" align="right" valign="top">LPTSTR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#a75b4eb6a99991d301f7d44683ce13c9e">ErrorMessage</a> (DWORD dw)</td></tr>
+<tr class="separator:a75b4eb6a99991d301f7d44683ce13c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74d70382aec7501d6df3dcb969b85902"><td class="memTemplParams" colspan="2">template&lt;std::size_t size&gt; </td></tr>
+<tr class="memitem:a74d70382aec7501d6df3dcb969b85902"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#a74d70382aec7501d6df3dcb969b85902">ToTchar</a> (wchar_t const *src, TCHAR(&amp;dst)[size], std::true_type)</td></tr>
+<tr class="separator:a74d70382aec7501d6df3dcb969b85902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f2ce59205c508258855d0568854e367"><td class="memTemplParams" colspan="2">template&lt;std::size_t size&gt; </td></tr>
+<tr class="memitem:a9f2ce59205c508258855d0568854e367"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#a9f2ce59205c508258855d0568854e367">ToTchar</a> (wchar_t const *src, TCHAR(&amp;dst)[size], std::false_type)</td></tr>
+<tr class="separator:a9f2ce59205c508258855d0568854e367"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a9fff8ce906026fe3179e50e97182d90d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d80/a05114.html">WheatyExceptionReport</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dd3/a00428.html#a9fff8ce906026fe3179e50e97182d90d">g_WheatyExceptionReport</a></td></tr>
+<tr class="separator:a9fff8ce906026fe3179e50e97182d90d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="af8660cbefcf140a8992e862e401bc473" name="af8660cbefcf140a8992e862e401bc473"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8660cbefcf140a8992e862e401bc473">&#9670;&#160;</a></span>_NO_CVCONST_H</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _NO_CVCONST_H</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55b3d8676a4478f058eeb12d4e8b35b2" name="a55b3d8676a4478f058eeb12d4e8b35b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55b3d8676a4478f058eeb12d4e8b35b2">&#9670;&#160;</a></span>CrashFolder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CrashFolder&#160;&#160;&#160;_T(&quot;Crashes&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a04a8ef8e5d1a39a04fed031f53ffa2db" name="a04a8ef8e5d1a39a04fed031f53ffa2db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04a8ef8e5d1a39a04fed031f53ffa2db">&#9670;&#160;</a></span>EXCEPTION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EXCEPTION</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;case EXCEPTION_##x: return LPTSTR(_T(#x));</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7bef5d85e3dcd73eef56ad39ffc84a9" name="ac7bef5d85e3dcd73eef56ad39ffc84a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7bef5d85e3dcd73eef56ad39ffc84a9">&#9670;&#160;</a></span>WIN32_LEAN_AND_MEAN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WIN32_LEAN_AND_MEAN</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a49a7404e8b8e7030c609822047db18e8" name="a49a7404e8b8e7030c609822047db18e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49a7404e8b8e7030c609822047db18e8">&#9670;&#160;</a></span>EndianConvert() <span class="overload">[1/4]</span></h2>
+<a id="a75b4eb6a99991d301f7d44683ce13c9e" name="a75b4eb6a99991d301f7d44683ce13c9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75b4eb6a99991d301f7d44683ce13c9e">&#9670;&#160;</a></span>ErrorMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -172,10 +230,10 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void EndianConvert </td>
+          <td class="memname">LPTSTR ErrorMessage </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/ddf/a00488.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">DWORD&#160;</td>
+          <td class="paramname"><em>dw</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -185,249 +243,125 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   62</span>{ }</div>
+<div class="fragment"><div class="line"><span class="lineno">   33</span>{</div>
+<div class="line"><span class="lineno">   34</span>    LPVOID lpMsgBuf;</div>
+<div class="line"><span class="lineno">   35</span>    DWORD formatResult = FormatMessage(</div>
+<div class="line"><span class="lineno">   36</span>                             FORMAT_MESSAGE_ALLOCATE_BUFFER |</div>
+<div class="line"><span class="lineno">   37</span>                             FORMAT_MESSAGE_FROM_SYSTEM,</div>
+<div class="line"><span class="lineno">   38</span>                             <span class="keyword">nullptr</span>,</div>
+<div class="line"><span class="lineno">   39</span>                             dw,</div>
+<div class="line"><span class="lineno">   40</span>                             MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),</div>
+<div class="line"><span class="lineno">   41</span>                             (LPTSTR) &amp;lpMsgBuf,</div>
+<div class="line"><span class="lineno">   42</span>                             0, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   43</span>    <span class="keywordflow">if</span> (formatResult != 0)</div>
+<div class="line"><span class="lineno">   44</span>    {</div>
+<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">return</span> (LPTSTR)lpMsgBuf;</div>
+<div class="line"><span class="lineno">   46</span>    }</div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   48</span>    {</div>
+<div class="line"><span class="lineno">   49</span>        LPTSTR msgBuf = (LPTSTR)LocalAlloc(LPTR, 30);</div>
+<div class="line"><span class="lineno">   50</span>        sprintf(msgBuf, <span class="stringliteral">&quot;Unknown error: %u&quot;</span>, dw);</div>
+<div class="line"><span class="lineno">   51</span>        <span class="keywordflow">return</span> msgBuf;</div>
+<div class="line"><span class="lineno">   52</span>    }</div>
+<div class="line"><span class="lineno">   53</span>}</div>
 </div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00595">WheatyExceptionReport::GenerateExceptionReport()</a>.</p>
+
 </div>
 </div>
-<a id="a9d20b1e463a04f0a22d79ca802902be6" name="a9d20b1e463a04f0a22d79ca802902be6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d20b1e463a04f0a22d79ca802902be6">&#9670;&#160;</a></span>EndianConvert() <span class="overload">[2/4]</span></h2>
+<a id="a9f2ce59205c508258855d0568854e367" name="a9f2ce59205c508258855d0568854e367"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f2ce59205c508258855d0568854e367">&#9670;&#160;</a></span>ToTchar() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
+template&lt;std::size_t size&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void EndianConvert </td>
+          <td class="memname">void ToTchar </td>
           <td>(</td>
-          <td class="paramtype">T &amp;&#160;</td>
-          <td class="paramname"><em>val</em></td><td>)</td>
+          <td class="paramtype">wchar_t const *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">TCHAR(&amp;)&#160;</td>
+          <td class="paramname"><em>dst</em>[size], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::false_type&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   47</span>{ ByteConverter::apply&lt;T&gt;(&amp;val); }</div>
+<div class="fragment"><div class="line"><span class="lineno">  271</span>{</div>
+<div class="line"><span class="lineno">  272</span>    wcscpy_s(dst, src);</div>
+<div class="line"><span class="lineno">  273</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00129">ByteBuffer::append()</a>, <a class="el" href="../../#l00049">DBCFileLoader::Record::getFloat()</a>, <a class="el" href="../../#l00057">DBCFileLoader::Record::getUInt()</a>, <a class="el" href="../../#l00155">WardenWin::InitializeModule()</a>, <a class="el" href="../../#l00025">DBCFileLoader::Load()</a>, <a class="el" href="../../#l00137">ByteBuffer::put()</a>, <a class="el" href="../../#l00358">ByteBuffer::read()</a>, <a class="el" href="../../#l00302">WorldSocket::ReadHeaderHandler()</a>, and <a class="el" href="../../#l00074">Warden::RequestModule()</a>.</p>
-
 </div>
 </div>
-<a id="af2e19073fdc053bb0299b663fa1ee757" name="af2e19073fdc053bb0299b663fa1ee757"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2e19073fdc053bb0299b663fa1ee757">&#9670;&#160;</a></span>EndianConvert() <span class="overload">[3/4]</span></h2>
+<a id="a74d70382aec7501d6df3dcb969b85902" name="a74d70382aec7501d6df3dcb969b85902"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74d70382aec7501d6df3dcb969b85902">&#9670;&#160;</a></span>ToTchar() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;std::size_t size&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void EndianConvert </td>
+          <td class="memname">void ToTchar </td>
           <td>(</td>
-          <td class="paramtype">T *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">wchar_t const *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">TCHAR(&amp;)&#160;</td>
+          <td class="paramname"><em>dst</em>[size], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::true_type&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7a138a6c8a71f6e9bd8eb436a598f628" name="a7a138a6c8a71f6e9bd8eb436a598f628"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a138a6c8a71f6e9bd8eb436a598f628">&#9670;&#160;</a></span>EndianConvert() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void EndianConvert </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   61</span>{ }</div>
+<div class="fragment"><div class="line"><span class="lineno">  265</span>{</div>
+<div class="line"><span class="lineno">  266</span>    wcstombs_s(<span class="keyword">nullptr</span>, dst, src, size);</div>
+<div class="line"><span class="lineno">  267</span>}</div>
 </div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00275">WheatyExceptionReport::_GetWindowsVersion()</a>.</p>
+
 </div>
 </div>
-<a id="a73b1f88261dfd018f7f185b0ea941c88" name="a73b1f88261dfd018f7f185b0ea941c88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73b1f88261dfd018f7f185b0ea941c88">&#9670;&#160;</a></span>EndianConvertPtr()</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a9fff8ce906026fe3179e50e97182d90d" name="a9fff8ce906026fe3179e50e97182d90d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fff8ce906026fe3179e50e97182d90d">&#9670;&#160;</a></span>g_WheatyExceptionReport</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void EndianConvertPtr </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>val</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   49</span>{ ByteConverter::apply&lt;T&gt;(val); }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a8b9f1be37ef60cffbb862512d9374dd4" name="a8b9f1be37ef60cffbb862512d9374dd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b9f1be37ef60cffbb862512d9374dd4">&#9670;&#160;</a></span>EndianConvertPtrReverse()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void EndianConvertPtrReverse </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   50</span>{ }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="acdb2b3cf0ea55e72e1d4047380cbd260" name="acdb2b3cf0ea55e72e1d4047380cbd260"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acdb2b3cf0ea55e72e1d4047380cbd260">&#9670;&#160;</a></span>EndianConvertReverse() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void EndianConvertReverse </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/ddf/a00488.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   64</span>{ }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a71946d011105dec5ad60c6875066ed86" name="a71946d011105dec5ad60c6875066ed86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71946d011105dec5ad60c6875066ed86">&#9670;&#160;</a></span>EndianConvertReverse() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void EndianConvertReverse </td>
-          <td>(</td>
-          <td class="paramtype">T &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   48</span>{ }</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00302">WorldSocket::ReadHeaderHandler()</a>.</p>
-
-</div>
-</div>
-<a id="a1fa1c447bec92bbf436d429b422cc2e7" name="a1fa1c447bec92bbf436d429b422cc2e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fa1c447bec92bbf436d429b422cc2e7">&#9670;&#160;</a></span>EndianConvertReverse() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void EndianConvertReverse </td>
-          <td>(</td>
-          <td class="paramtype">T *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="../../d5/d80/a05114.html">WheatyExceptionReport</a> g_WheatyExceptionReport</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a2adbd00f9fd7adfc4bd3d26ae1565a0b" name="a2adbd00f9fd7adfc4bd3d26ae1565a0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2adbd00f9fd7adfc4bd3d26ae1565a0b">&#9670;&#160;</a></span>EndianConvertReverse() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void EndianConvertReverse </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   63</span>{ }</div>
-</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -435,8 +369,8 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_5b60c41b3dc3977dce15646b3e6a9085.html">Utilities</a></li><li class="navelem"><a class="el" href="../../d4/dd3/a00428.html">ByteConverter.h</a></li>
-    <li class="footer">Generated on Mon Oct 7 2024 20:40:34 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_6c98940a6e08261f1f635365628c2cb0.html">Debugging</a></li><li class="navelem"><a class="el" href="../../d4/dd3/a00428.html">WheatyExceptionReport.cpp</a></li>
+    <li class="footer">Generated on Mon Oct 14 2024 20:40:18 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

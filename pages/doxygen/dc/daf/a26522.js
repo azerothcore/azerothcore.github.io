@@ -1,8 +1,10 @@
 var a26522 =
 [
-    [ "HandleDummy", "dc/daf/a26522.html#ab653cf0414411c17ccc674395b08af7a", null ],
-    [ "Load", "dc/daf/a26522.html#a6eb80b68a00c91d92a2963adb753ed23", null ],
-    [ "PrepareSpellScript", "dc/daf/a26522.html#ae6c5ba4ed1918125594b31368c3bcf2f", null ],
-    [ "Register", "dc/daf/a26522.html#a92eb201b3ae3ab167cc338174a355b00", null ],
-    [ "Validate", "dc/daf/a26522.html#a3635089640297e059a183322c7e8f7b9", null ]
+    [ "CalculateAPAmount", "dc/daf/a26522.html#abba0772c18bf98696dc1f236da79401e", null ],
+    [ "CalculateResistanceAmount", "dc/daf/a26522.html#a2db04d2d4af16e34cb69b71dbcd0c066", null ],
+    [ "CalculateSPAmount", "dc/daf/a26522.html#a4ecc412bb7d5e89a886c9ad4cc562187", null ],
+    [ "CalculateStatAmount", "dc/daf/a26522.html#a9269eee5ef676c466e662305389988f0", null ],
+    [ "HandleEffectApply", "dc/daf/a26522.html#aa818ca9c4e7b1320f97931525faff1c4", null ],
+    [ "PrepareAuraScript", "dc/daf/a26522.html#a5b35686a2ddd761343d811a8472c1c3b", null ],
+    [ "Register", "dc/daf/a26522.html#a9bf7cd6309b4724462b03c1080324f83", null ]
 ];

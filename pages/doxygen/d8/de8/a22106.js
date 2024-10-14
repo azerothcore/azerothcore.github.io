@@ -1,13 +1,15 @@
 var a22106 =
 [
-    [ "npc_artruis_the_hearthlessAI", "d8/de8/a22106.html#ad64e86b038ea3c0cf119aa18493dceec", null ],
-    [ "JustDied", "d8/de8/a22106.html#a22baa7603ffb4a7b118f2a2f5de88633", null ],
-    [ "JustEngagedWith", "d8/de8/a22106.html#aafedd2a49c60923294a1e9de7012fb3a", null ],
-    [ "MoveInLineOfSight", "d8/de8/a22106.html#a1a592dd9f1834cc5efe63c227dcfe372", null ],
-    [ "Reset", "d8/de8/a22106.html#af24b77b5d154f5289105b67714f9d3a9", null ],
-    [ "SummonedCreatureDies", "d8/de8/a22106.html#a40041d3c1557effa4173eb660ca87a09", null ],
-    [ "SummonsAction", "d8/de8/a22106.html#aa34f581358c094d87a1c7259f4981b65", null ],
-    [ "UpdateAI", "d8/de8/a22106.html#a4795db544ac7e9702b2ac9094b969e7f", null ],
-    [ "events", "d8/de8/a22106.html#a151e92cb78e752e10896bd7586c539dc", null ],
-    [ "summons", "d8/de8/a22106.html#a24fd0452b154e7e4a2615691aa810d8d", null ]
+    [ "npc_jungle_punch_targetAI", "d8/de8/a22106.html#a04f09361f6bc4bc752ca773878187f79", null ],
+    [ "MoveInLineOfSight", "d8/de8/a22106.html#adc08551a256220bab144ef26d89c4263", null ],
+    [ "proceedCwEvent", "d8/de8/a22106.html#a54f8a5c7414f4a9fd019e02fede1970d", null ],
+    [ "Reset", "d8/de8/a22106.html#a56faff3edbe0d13969e8d20e6c3e03a2", null ],
+    [ "SpellHit", "d8/de8/a22106.html#a3515e873adf5a097f66764887e3cc5a3", null ],
+    [ "UpdateAI", "d8/de8/a22106.html#afa2a1bcdeef51e9f984307f576a1ff6e", null ],
+    [ "orphanGUID", "d8/de8/a22106.html#a5947a4415b63f8bbda4d53c44ccebf74", null ],
+    [ "phase", "d8/de8/a22106.html#a737a9016c93d621bf8cfa29d6b66b345", null ],
+    [ "playerGUID", "d8/de8/a22106.html#afbb4e4c74c2634a442171f06bb2eff08", null ],
+    [ "sayStep", "d8/de8/a22106.html#a1b1757dd6e0775f1f4791b4feafd86fb", null ],
+    [ "sayTimer", "d8/de8/a22106.html#a4edf558dbc54ff1acab15d6daf0a5613", null ],
+    [ "timer", "d8/de8/a22106.html#a0fa884bf3003267501f048d3f1287d42", null ]
 ];

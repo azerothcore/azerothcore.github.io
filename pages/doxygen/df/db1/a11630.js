@@ -1,7 +1,6 @@
 var a11630 =
 [
-    [ "boss_magmusAI", "df/db1/a11630.html#a8a3e5361bda492007013af9228899b8f", null ],
-    [ "JustEngagedWith", "df/db1/a11630.html#a11e4868628564078997694373315a9d6", null ],
-    [ "Reset", "df/db1/a11630.html#a5fe304cec86831b7e64f83caee1392d0", null ],
-    [ "UpdateAI", "df/db1/a11630.html#aa8bb8282c794ea02fe7bd95b3d32e5ea", null ]
+    [ "boss_magmusAI", "d5/def/a11634.html", "d5/def/a11634" ],
+    [ "boss_magmus", "df/db1/a11630.html#a97747c0d7e1fd33204033d6061d6d570", null ],
+    [ "GetAI", "df/db1/a11630.html#a171bc08a8dd9fa502f3b2b6cf736fd52", null ]
 ];

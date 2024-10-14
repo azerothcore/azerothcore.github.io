@@ -1,8 +1,6 @@
 var a24782 =
 [
-    [ "HandleSchoolDMG", "dd/d6c/a24782.html#ab273304fdbeea8768622c3e6b222aaf2", null ],
-    [ "HandleScriptEffect", "dd/d6c/a24782.html#a06f9cf29387b49f3e5950661173c77eb", null ],
-    [ "PrepareSpellScript", "dd/d6c/a24782.html#ac1a2b89eda37ed4e6c5946a93e7a58a2", null ],
-    [ "Register", "dd/d6c/a24782.html#a9bdbf7578509976d482a26869e9068aa", null ],
-    [ "Validate", "dd/d6c/a24782.html#a20a7b3a25711a90ab5f0e14991112ea0", null ]
+    [ "CalculateAmount", "dd/d6c/a24782.html#a9e54ae3e90ee8bf0fab966a497f761b3", null ],
+    [ "PrepareAuraScript", "dd/d6c/a24782.html#a51f9c0f92100c02e1fe7d127fecd902f", null ],
+    [ "Register", "dd/d6c/a24782.html#a5c89e7e53a7f41665ff25d57df8f7afb", null ]
 ];

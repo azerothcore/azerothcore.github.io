@@ -1,6 +1,9 @@
 var a14754 =
 [
-    [ "npc_idol_room_spawnerAI", "d7/d3b/a14758.html", "d7/d3b/a14758" ],
-    [ "npc_idol_room_spawner", "d8/d2f/a14754.html#ac51fed89c27ebf6ae3cf65ca8909eab1", null ],
-    [ "GetAI", "d8/d2f/a14754.html#a3017caa645e98a7647ec42a43c025624", null ]
+    [ "npc_buru_egg", "d8/d2f/a14754.html#a6aa2896342b802caecde1c1dffcf4907", null ],
+    [ "JustDied", "d8/d2f/a14754.html#a3de169b252374f0b2daed3ecb5a11502", null ],
+    [ "JustEngagedWith", "d8/d2f/a14754.html#a8cde6848569671876a17b00d75228ebe", null ],
+    [ "JustSummoned", "d8/d2f/a14754.html#abebb96dcb3d653bddd4210da6567fb87", null ],
+    [ "UpdateAI", "d8/d2f/a14754.html#a4d77f8b40ea8e936c9388aeff4927420", null ],
+    [ "_instance", "d8/d2f/a14754.html#a5b168226755a57368f17827e3457a0ca", null ]
 ];

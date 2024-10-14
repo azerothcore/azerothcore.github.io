@@ -1,10 +1,10 @@
 var a13898 =
 [
-    [ "npc_vilebranch_speaker", "dc/d07/a13898.html#acd8dfc95c5969fe67e1386d5dbd5884b", null ],
-    [ "JustDied", "dc/d07/a13898.html#aa7708f176879db3acd50399b74e4a90c", null ],
-    [ "JustEngagedWith", "dc/d07/a13898.html#a236afb8512c2d941479f8a7c18f688a6", null ],
-    [ "Reset", "dc/d07/a13898.html#a248195a137cb91f10a882ec12974c7c5", null ],
-    [ "UpdateAI", "dc/d07/a13898.html#a75f263fa9241319b58bf77cbf1b75088", null ],
-    [ "_scheduler", "dc/d07/a13898.html#abd52bbd2ce88b011176d93ae92b851d0", null ],
-    [ "instance", "dc/d07/a13898.html#a88fb28d2c39f0da967ab6706872e68b2", null ]
+    [ "npc_zealot_lorkhan", "dc/d07/a13898.html#a7df2ab658c1fda0d130815581ffbae4e", null ],
+    [ "JustDied", "dc/d07/a13898.html#abda06af9ccc78763e70ebf98f0a9dc03", null ],
+    [ "JustEngagedWith", "dc/d07/a13898.html#a7cb7da94799fa1689a5f16ef33d4d874", null ],
+    [ "Reset", "dc/d07/a13898.html#abecbd4a2ea2cf3281244933fe7484239", null ],
+    [ "UpdateAI", "dc/d07/a13898.html#a68c35734f8886b2c241dcbc178899206", null ],
+    [ "_scheduler", "dc/d07/a13898.html#a50ded84f7cdb698118b406c9cfab7e5c", null ],
+    [ "instance", "dc/d07/a13898.html#aa677f42d562fa6dc90a4913eed3763c8", null ]
 ];

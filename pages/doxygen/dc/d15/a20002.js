@@ -1,5 +1,5 @@
 var a20002 =
 [
-    [ "achievement_freya_getting_back_to_nature", "dc/d15/a20002.html#aa4078b573a9335fc52c9b9609590b12f", null ],
-    [ "OnCheck", "dc/d15/a20002.html#a850a32450379284784f019a5eb5ff0ff", null ]
+    [ "achievement_smell_saronite", "dc/d15/a20002.html#a42dce2aefa2561952dcf5289126035a8", null ],
+    [ "OnCheck", "dc/d15/a20002.html#a5180e3e53fa0f4d32d2a305d315bc8b3", null ]
 ];

@@ -1,7 +1,6 @@
 var a22818 =
 [
-    [ "PrepareAuraScript", "dd/d31/a22818.html#afb2e94c1e67b12b7350d83241b3f2864", null ],
-    [ "Register", "dd/d31/a22818.html#a0a5ac432eca09206ac032317e8aa8cfc", null ],
-    [ "Update", "dd/d31/a22818.html#aa0da369c2047df144c4a9af37a2ea13c", null ],
-    [ "Validate", "dd/d31/a22818.html#a70248cfa468dfb3a97ea7f8b6848bc5f", null ]
+    [ "boss_essence_of_angerAI", "da/daf/a22822.html", "da/daf/a22822" ],
+    [ "boss_essence_of_anger", "dd/d31/a22818.html#adf8151d1fbb4a258f174c4bdb8410cd6", null ],
+    [ "GetAI", "dd/d31/a22818.html#a70a460f31b7f878e532b695ca822ab5d", null ]
 ];

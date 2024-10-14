@@ -1,6 +1,7 @@
 var a23970 =
 [
-    [ "npc_aeranasAI", "d1/dcb/a23974.html", "d1/dcb/a23974" ],
-    [ "npc_aeranas", "d4/dda/a23970.html#a6ea71481ef6a223a329b805081122537", null ],
-    [ "GetAI", "d4/dda/a23970.html#a81167df6665bdca81ee13468dec19643", null ]
+    [ "npc_maghar_captiveAI", "d1/dcb/a23974.html", "d1/dcb/a23974" ],
+    [ "npc_maghar_captive", "d4/dda/a23970.html#a59e177f33306ed0bb3de9f640d3685e4", null ],
+    [ "GetAI", "d4/dda/a23970.html#a7f1528549b55edfb5286db4afe6ce50e", null ],
+    [ "OnQuestAccept", "d4/dda/a23970.html#a966fdfe66a65675eb1618b0698dfbb21", null ]
 ];

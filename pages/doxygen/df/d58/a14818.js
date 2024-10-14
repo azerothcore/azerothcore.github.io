@@ -1,7 +1,6 @@
 var a14818 =
 [
-    [ "go_sand_trap", "df/d58/a14818.html#a58d45acac672cb05988ddca78185b469", null ],
-    [ "Reset", "df/d58/a14818.html#a7071a3e420e9137ca133b471bc217bf3", null ],
-    [ "UpdateAI", "df/d58/a14818.html#a2e4a5fec4d4c790233ca97e6a7732ac4", null ],
-    [ "_scheduler", "df/d58/a14818.html#af845c0efb3d8ebe53d3620970a84f1e4", null ]
+    [ "instance_ruins_of_ahnqiraj_InstanceMapScript", "d6/d1c/a14822.html", "d6/d1c/a14822" ],
+    [ "instance_ruins_of_ahnqiraj", "df/d58/a14818.html#adeacb1c68e4b12995a335d1bedde075a", null ],
+    [ "GetInstanceScript", "df/d58/a14818.html#a6a661e961c2599498de0ccd41c0763b4", null ]
 ];

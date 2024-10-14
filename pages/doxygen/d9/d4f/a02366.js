@@ -1,7 +1,12 @@
 var a02366 =
 [
-    [ "IsAcceptedClientBuild", "d9/d4f/a02366.html#a50a906b5a3fdca3508aee0997881a717", null ],
-    [ "IsPostBCAcceptedClientBuild", "d9/d4f/a02366.html#ad4f22daf9d88367d90d92416f470a28c", null ],
-    [ "IsPreBCAcceptedClientBuild", "d9/d4f/a02366.html#a96896fc9dad2c304f681a24776f6726b", null ],
-    [ "MAX_PRE_BC_CLIENT_BUILD", "d9/d4f/a02366.html#ac023f15b280fc65fdefefb77f2f7be7b", null ]
+    [ "instance_stratholme", "d4/d1e/a12898.html", "d4/d1e/a12898" ],
+    [ "instance_stratholme::instance_stratholme_InstanceMapScript", "d3/d2f/a12902.html", "d3/d2f/a12902" ],
+    [ "AddSC_instance_stratholme", "d9/d4f/a02366.html#add44fd9ad05267cc5db256b112db2585", null ],
+    [ "aGateTrap", "d9/d4f/a02366.html#aa404f6799978911e2f0e4de3b4386c59", null ],
+    [ "aPlaguedCritters", "d9/d4f/a02366.html#a4108af811b2731f9784942b89f333054", null ],
+    [ "BarthilasPos", "d9/d4f/a02366.html#a3c5bc53064d7ed19146d61fbe2f25502", null ],
+    [ "BlackGuardPos", "d9/d4f/a02366.html#a8ed1ccc03c022b129aa9bb9464fedd0a", null ],
+    [ "MindlessUndeadPos", "d9/d4f/a02366.html#a1a89feed6c582c3bf3e51bf3a1027081", null ],
+    [ "SlaughterPos", "d9/d4f/a02366.html#aec64d79cbf450b10fd485f2e559e0472", null ]
 ];

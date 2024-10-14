@@ -1,9 +1,6 @@
 var a28426 =
 [
-    [ "CheckCast", "db/d83/a28426.html#a4db55f88e5809fa276f23b0c9fa35b8c", null ],
-    [ "FilterTargets", "db/d83/a28426.html#a0c5c6639d037e5358203b5a0b887dcff", null ],
-    [ "HandleDummy", "db/d83/a28426.html#a285291223fdfd499627337c03228172a", null ],
-    [ "PrepareSpellScript", "db/d83/a28426.html#a3a5b04c93e1afdf2a890b2f365759589", null ],
-    [ "Register", "db/d83/a28426.html#a04f8a563276d2c9c88087ef1f42af193", null ],
-    [ "Validate", "db/d83/a28426.html#a79dd4ae6102bda0438fb8b9272456b9f", null ]
+    [ "OffsetAttributes", "db/d83/a28426.html#a072918c298b316823e784c2e5779be2a", null ],
+    [ "OffsetInstances", "db/d83/a28426.html#abb618c81b9ee9de03c3d4cf8689f5cd4", null ],
+    [ "used", "db/d83/a28426.html#a20a458e613639ea26255dd772824a642", null ]
 ];

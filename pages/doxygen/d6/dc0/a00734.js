@@ -1,4 +1,5 @@
 var a00734 =
 [
-    [ "ScriptRegistry< AccountScript >", "d6/dc0/a00734.html#a737db11e5096ba1c596f469d64c2cc97", null ]
+    [ "gm_commandscript", "d0/dfa/a11326.html", "d0/dfa/a11326" ],
+    [ "AddSC_gm_commandscript", "d6/dc0/a00734.html#a65c7b128fdf4dd9807ef514c24918e7b", null ]
 ];

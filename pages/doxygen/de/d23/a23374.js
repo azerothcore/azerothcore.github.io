@@ -1,7 +1,8 @@
 var a23374 =
 [
-    [ "HandleScript", "de/d23/a23374.html#a7c1b4d0c8d2ad153cef62ce05fef814c", null ],
-    [ "PrepareSpellScript", "de/d23/a23374.html#ab826f4f249679ffe87f9e6ccf6b9ecf0", null ],
-    [ "Register", "de/d23/a23374.html#a82da72fd4eed6773c1f3a4288caa8963", null ],
-    [ "Validate", "de/d23/a23374.html#a46aca18049e02d50f57579b3fdc705bd", null ]
+    [ "ApplyStun", "de/d23/a23374.html#a5a5b921dc45418485919e599e80f8ca8", null ],
+    [ "HandleScriptEffect", "de/d23/a23374.html#a32619710179250a6a0b408856a888153", null ],
+    [ "PrepareSpellScript", "de/d23/a23374.html#afb61d7dcc8ad52da4dcad3d7593f08ad", null ],
+    [ "Register", "de/d23/a23374.html#aa753fd45caa1b515911d8fdf6fa78754", null ],
+    [ "Validate", "de/d23/a23374.html#a66d91a87078c663903cd836344eec867", null ]
 ];

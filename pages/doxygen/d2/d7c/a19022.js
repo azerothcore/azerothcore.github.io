@@ -1,6 +1,5 @@
 var a19022 =
 [
-    [ "boss_thaddiusAI", "d6/d54/a19026.html", "d6/d54/a19026" ],
-    [ "boss_thaddius", "d2/d7c/a19022.html#aff97b030b861feb646e1b22f60ee3605", null ],
-    [ "GetAI", "d2/d7c/a19022.html#acf841c6897396f517a74932fc3480e69", null ]
+    [ "at_naxxramas_hub_portal", "d2/d7c/a19022.html#a946086e8a4651240b84526a1b2d54065", null ],
+    [ "OnTrigger", "d2/d7c/a19022.html#af967b0f61b3257c8b8d802d4ed3af1da", null ]
 ];

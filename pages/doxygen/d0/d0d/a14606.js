@@ -1,6 +1,9 @@
 var a14606 =
 [
-    [ "instance_culling_of_stratholme_InstanceMapScript", "d5/d21/a14610.html", "d5/d21/a14610" ],
-    [ "instance_culling_of_stratholme", "d0/d0d/a14606.html#a0b07e751032e15e7fcf2f86bf29a39be", null ],
-    [ "GetInstanceScript", "d0/d0d/a14606.html#ad8cbcb198666d44d79d6255d066c8315", null ]
+    [ "boss_temporus", "d0/d0d/a14606.html#ab9f1495b18fe2c0ee33e9c238483ce0d", null ],
+    [ "JustDied", "d0/d0d/a14606.html#a9186e51d240aff2ffaab99e3b423ded9", null ],
+    [ "JustEngagedWith", "d0/d0d/a14606.html#abe7f18497c1c8b31693980e98b1d1859", null ],
+    [ "KilledUnit", "d0/d0d/a14606.html#a89c2a229b56b3a7dcb9e5a495ac6dbd7", null ],
+    [ "MoveInLineOfSight", "d0/d0d/a14606.html#a18a0279036324498a9daf8c7d0296ffc", null ],
+    [ "OwnTalk", "d0/d0d/a14606.html#a99356589a048debbc308b8431259da5c", null ]
 ];

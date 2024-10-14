@@ -1,6 +1,6 @@
 var a19290 =
 [
-    [ "instance_oculus_InstanceMapScript", "d9/d1c/a19294.html", "d9/d1c/a19294" ],
-    [ "instance_oculus", "dd/da3/a19290.html#a404205ea7106531ea57307c40b9589bb", null ],
-    [ "GetInstanceScript", "dd/da3/a19290.html#ae6d28dfd615e79d4308e4384b7c8857f", null ]
+    [ "HandleEffectCalcAmount", "dd/da3/a19290.html#afa50ce616d36dd59c7195209074d6182", null ],
+    [ "PrepareAuraScript", "dd/da3/a19290.html#a4638b99dac7653f13d59c3928a78b3b9", null ],
+    [ "Register", "dd/da3/a19290.html#a691d5a99eec9e367c518d0244f25bd41", null ]
 ];

@@ -1,8 +1,6 @@
 var a27986 =
 [
-    [ "DamagedDisplayId", "db/db7/a27986.html#a84d606d69c51f5e1fdecf9bc0f5705be", null ],
-    [ "DestroyedDisplayId", "db/db7/a27986.html#afc891df0c9491a34f784e8f141434be5", null ],
-    [ "Id", "db/db7/a27986.html#a65d7e0933cb53864413781cdeb56b6c2", null ],
-    [ "RebuildingDisplayId", "db/db7/a27986.html#aa4e1e6be7b5b1d15872fb310c1c299af", null ],
-    [ "SmokeDisplayId", "db/db7/a27986.html#a1a06c3e04bc2bb7d5bc29592d40b9239", null ]
+    [ "Id", "db/db7/a27986.html#a9f283a7c8339cc5b4fa67f3974ce8621", null ],
+    [ "SpellId", "db/db7/a27986.html#ae8c119bacf706916f331d3f316fb1347", null ],
+    [ "TypeFlags", "db/db7/a27986.html#aae92871758e9a738a888cacf0946f16b", null ]
 ];

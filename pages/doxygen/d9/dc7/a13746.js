@@ -1,6 +1,6 @@
 var a13746 =
 [
-    [ "npc_harrison_jonesAI", "da/d61/a13750.html", "da/d61/a13750" ],
-    [ "npc_harrison_jones", "d9/dc7/a13746.html#afbf1c2040c87f5ca8280d18a9db97c7f", null ],
-    [ "GetAI", "d9/dc7/a13746.html#ac7df55d850973073266509f6e09ea367", null ]
+    [ "boss_hakkarAI", "da/d61/a13750.html", "da/d61/a13750" ],
+    [ "boss_hakkar", "d9/dc7/a13746.html#a834bd1f223154fbf1be94bf43136da28", null ],
+    [ "GetAI", "d9/dc7/a13746.html#aff3a089e30dcddfde4db372104153723", null ]
 ];

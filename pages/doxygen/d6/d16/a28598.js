@@ -1,13 +1,7 @@
 var a28598 =
 [
-    [ "liquidTris", "d6/d16/a28598.html#ad166656bfa449d3093cb23e7bef2cc76", null ],
-    [ "liquidType", "d6/d16/a28598.html#afbbb20fcb4e597c2addcc47893a33f92", null ],
-    [ "liquidVerts", "d6/d16/a28598.html#a52796933ab018f27d12f625673f7f8a9", null ],
-    [ "offMeshConnectionDirs", "d6/d16/a28598.html#a58350c36d5b88fe255880f6c217d4ef9", null ],
-    [ "offMeshConnectionRads", "d6/d16/a28598.html#a56bbdeb5028302de0c5eb5a02cffa44c", null ],
-    [ "offMeshConnections", "d6/d16/a28598.html#a706feac90bb398da61296bac9d0b7176", null ],
-    [ "offMeshConnectionsAreas", "d6/d16/a28598.html#af5af113433bb2776e6735195e57ab6f7", null ],
-    [ "offMeshConnectionsFlags", "d6/d16/a28598.html#a8c819b625f1bb0b21bb756144b2e1266", null ],
-    [ "solidTris", "d6/d16/a28598.html#adb04d376bfa182cf9666689e6c5a7c68", null ],
-    [ "solidVerts", "d6/d16/a28598.html#a915387c2cfa7111de4a957646a2aace4", null ]
+    [ "W", "d6/d16/a28598.html#adc2e55b935dcc2daefd60739bdb31cec", null ],
+    [ "X", "d6/d16/a28598.html#a2676f1a5ec3a2f69ebb953e4b5741c4b", null ],
+    [ "Y", "d6/d16/a28598.html#aa3353a9f5afdf3614e37f9681441ae05", null ],
+    [ "Z", "d6/d16/a28598.html#a533b5e90b6333d89190828f28721e61d", null ]
 ];

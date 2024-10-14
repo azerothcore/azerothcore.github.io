@@ -1,6 +1,6 @@
 var a19738 =
 [
-    [ "FilterTargets", "dc/d11/a19738.html#a38c693dd3d8fb7e04fc1e26359f12399", null ],
-    [ "PrepareSpellScript", "dc/d11/a19738.html#a86c4bb91547d8ea7eebb8e4d7bfd592e", null ],
-    [ "Register", "dc/d11/a19738.html#a4e803984a3eded2736825f631786c204", null ]
+    [ "npc_hodirs_furyAI", "d7/d87/a19742.html", "d7/d87/a19742" ],
+    [ "npc_hodirs_fury", "dc/d11/a19738.html#af5e0f1cb4c478bd4fc9ec246aa7d7e08", null ],
+    [ "GetAI", "dc/d11/a19738.html#ad8856a6da86a8f4ce744d57614ee16e6", null ]
 ];

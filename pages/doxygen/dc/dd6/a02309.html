@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Mails/Mail.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/EasternKingdoms/MagistersTerrace/magisters_terrace.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,156 +105,133 @@ $(document).ready(function(){initNavTree('dc/dd6/a02309.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">Mail.h File Reference</div></div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">magisters_terrace.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DatabaseEnvFwd.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
-<code>#include &lt;map&gt;</code><br />
-<code>#include &lt;utility&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureAIImpl.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d8b/a09394.html">MailSender</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d93/a09398.html">MailReceiver</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4b/a09402.html">MailDraft</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d13/a09406.html">MailItemInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc8/a09410.html">Mail</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d10/a09414.html">ServerMail</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a400524cb6bb97f3dfaa616a2afae05db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#a400524cb6bb97f3dfaa616a2afae05db">MAIL_BODY_ITEM_TEMPLATE</a>&#160;&#160;&#160;9311</td></tr>
-<tr class="separator:a400524cb6bb97f3dfaa616a2afae05db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92d79b5b2210d828abe28a8834a50770"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#a92d79b5b2210d828abe28a8834a50770">MAX_MAIL_ITEMS</a>&#160;&#160;&#160;12</td></tr>
-<tr class="separator:a92d79b5b2210d828abe28a8834a50770"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a5f97bcac5adeb0d52a6360c8aa0d0938"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../d8/d13/a09406.html">MailItemInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#a5f97bcac5adeb0d52a6360c8aa0d0938">MailItemInfoVec</a></td></tr>
-<tr class="separator:a5f97bcac5adeb0d52a6360c8aa0d0938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a042491ef36459046f3866e90f15aae0d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#a042491ef36459046f3866e90f15aae0d">DataHeader</a>&#160;&#160;&#160;&quot;MT&quot;</td></tr>
+<tr class="separator:a042491ef36459046f3866e90f15aae0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a772413d8818d681e2261c99f58e1268c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#a772413d8818d681e2261c99f58e1268c">MTScriptName</a>&#160;&#160;&#160;&quot;instance_magisters_terrace&quot;</td></tr>
+<tr class="separator:a772413d8818d681e2261c99f58e1268c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a679c3c5e0520ffcbc6ca0827cddafeb0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#a679c3c5e0520ffcbc6ca0827cddafeb0">RegisterMagistersTerraceCreatureAI</a>(ai_name)&#160;&#160;&#160;<a class="el" href="../../d6/d9d/a03917.html#a25cc02ecf50f52ec8cdff096060b8be1">RegisterCreatureAIWithFactory</a>(ai_name, <a class="el" href="../../dc/dd6/a02309.html#ace003ea34649a460da4afbd65b38c987">GetMagistersTerraceAI</a>)</td></tr>
+<tr class="separator:a679c3c5e0520ffcbc6ca0827cddafeb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:afb83216fd8c410f5d4bdfef0f9b302ed"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#afb83216fd8c410f5d4bdfef0f9b302ed">MailMessageType</a> { <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#afb83216fd8c410f5d4bdfef0f9b302edaad2526a166df2caa50762ff348a2f54a">MAIL_NORMAL</a> = 0
+<tr class="memitem:abdc560adf84eb5994b289f952995d059"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059">MTData</a> { <br />
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059afd8c24b35ae0b3270c6446ed912864b8">DATA_SELIN_FIREHEART</a> = 0
 , <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#afb83216fd8c410f5d4bdfef0f9b302eda1c6b723dd78af975a7ec8a3562361330">MAIL_AUCTION</a> = 2
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059a7d511ceaf5f4b75dc6bf642fd4c002c3">DATA_VEXALLUS</a> = 1
 , <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#afb83216fd8c410f5d4bdfef0f9b302eda462b01f59d339ec67b080f100e97256c">MAIL_CREATURE</a> = 3
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059af977a73eff024af1676aeb0fe6503c2f">DATA_DELRISSA</a> = 2
 , <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#afb83216fd8c410f5d4bdfef0f9b302eda4398082ad7546f3811f818835522100d">MAIL_GAMEOBJECT</a> = 4
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059a9459cb9bb83f7a23115debb607cb25a3">DATA_KAELTHAS</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#afb83216fd8c410f5d4bdfef0f9b302eda99dc24213703b6afb3639762a349c258">MAIL_CALENDAR</a> = 5
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059a053405afb85048224c161919aebd795d">DATA_KALECGOS</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059a6c76e50a19d944f081dbe8c87034974f">DATA_ESCAPE_ORB</a> = 6
 <br />
  }</td></tr>
-<tr class="separator:afb83216fd8c410f5d4bdfef0f9b302ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9738cb9d4ddff5f3b2a406f8d9c469cc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cc">MailCheckMask</a> : uint8 { <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca65bb77bc25220e08e3c065ad070b9888">MAIL_CHECK_MASK_NONE</a> = 0x00
+<tr class="separator:abdc560adf84eb5994b289f952995d059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a402e3e622f03a1eed719db587960e18b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18b">MTCreatures</a> { <br />
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba5d0ab26a56a5212e4bbd0d2bd26b7127">NPC_DELRISSA</a> = 24560
 , <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca3b48ed5fecdcd88c0a15e74b0853c03b">MAIL_CHECK_MASK_READ</a> = 0x01
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18bad5c5384a148b47a2c59d671014db6d35">NPC_FEL_CRYSTAL</a> = 24722
 , <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca5f7f5d671d1137cc0dd8b88a6579454a">MAIL_CHECK_MASK_RETURNED</a> = 0x02
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba1cc740bbad14c06e879fe922c561957c">NPC_KAEL_THAS</a> = 24664
 , <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca9170ec2a04d365ca0a6167cad4a2e2fb">MAIL_CHECK_MASK_COPIED</a> = 0x04
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba93173f126c0dd252197a841ed9321048">NPC_PHOENIX</a> = 21362
 , <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca4cef0afe6ff002d8e7089cb2eddf1468">MAIL_CHECK_MASK_COD_PAYMENT</a> = 0x08
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba37c8f15ed65139715f18d3d09d17a970">NPC_PHOENIX_EGG</a> = 21364
 , <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca348c2227a2767173436f2f88dfe37716">MAIL_CHECK_MASK_HAS_BODY</a> = 0x10
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba7434f1d158db88e1befb3cf56e801613">NPC_KALECGOS</a> = 24844
+, <br />
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba937b694476b6a1c6dd4741a8fef2c0fe">NPC_HUMAN_KALECGOS</a> = 24848
 <br />
  }</td></tr>
-<tr class="separator:a9738cb9d4ddff5f3b2a406f8d9c469cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97c589393fcefa82854f195693493094"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094">MailStationery</a> { <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094a08c959967722eb59a73866b06fff4ee1">MAIL_STATIONERY_TEST</a> = 1
+<tr class="separator:a402e3e622f03a1eed719db587960e18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b0621589774d4cc3afba085bc39867d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867d">MTGameObjects</a> { <br />
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867da660139f819500a248283735c336cf4e7">GO_VEXALLUS_DOOR</a> = 187896
 , <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094ab18c50370e3504660676eeab1fed7a68">MAIL_STATIONERY_DEFAULT</a> = 41
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867da7ccc42cdb5402db90adb2298e29d4e64">GO_SELIN_DOOR</a> = 187979
 , <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094a39230800d1e1c4dbd3c46fbaaba39541">MAIL_STATIONERY_GM</a> = 61
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867da8b457fe7255a77748f94f13974791086">GO_SELIN_ENCOUNTER_DOOR</a> = 188065
 , <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094aef86d2a36ec87427177f03b971bf4fcd">MAIL_STATIONERY_AUCTION</a> = 62
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867da2ec22f0e669bef8a7bde879208fa8f6a">GO_DELRISSA_DOOR</a> = 187770
 , <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094acf69185a7c40dad17bf89924f8c89cd5">MAIL_STATIONERY_VAL</a> = 64
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867dacafc1a0b7422ea5365367a4c964fee25">GO_KAEL_DOOR</a> = 188064
 , <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094a3f6ed9e1ee49995d1854786d3ab7b5a0">MAIL_STATIONERY_CHR</a> = 65
-, <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094aa349afbb838c106b8d4e161b7611583c">MAIL_STATIONERY_ORP</a> = 67
+&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867daf0d8c802b02ba5d48c9d4126534812fd">GO_ESCAPE_ORB</a> = 188173
 <br />
  }</td></tr>
-<tr class="separator:a97c589393fcefa82854f195693493094"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38d587a785c6fa4c4342574233684a20"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#a38d587a785c6fa4c4342574233684a20">MailState</a> { <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a38d587a785c6fa4c4342574233684a20ae16408762dbf072dd193ffe6b3097047">MAIL_STATE_UNCHANGED</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a38d587a785c6fa4c4342574233684a20aac816c9be99273eb826bf89eda08f1bb">MAIL_STATE_CHANGED</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a38d587a785c6fa4c4342574233684a20a3645936325ffbfb6858bcbb312b9072a">MAIL_STATE_DELETED</a> = 3
-<br />
+<tr class="separator:a2b0621589774d4cc3afba085bc39867d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab51342a4a8f5976e51b0074f9a5746f8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#ab51342a4a8f5976e51b0074f9a5746f8">InstanceEventIds</a> { <a class="el" href="../../dc/dd6/a02309.html#ab51342a4a8f5976e51b0074f9a5746f8a2e000620a7210a65a43ee87d48b5d283">EVENT_SPAWN_KALECGOS</a> = 16547
  }</td></tr>
-<tr class="separator:a38d587a785c6fa4c4342574233684a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03de18fb5d90aaaa9daa333ddbe2d394"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#a03de18fb5d90aaaa9daa333ddbe2d394">MailShowFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a03de18fb5d90aaaa9daa333ddbe2d394a5d741597d486fff4283ab7bfeaa32ecc">MAIL_SHOW_UNK0</a> = 0x0001
-, <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a03de18fb5d90aaaa9daa333ddbe2d394a7d87ac4c7be1c9b63837bd39706eba07">MAIL_SHOW_DELETE</a> = 0x0002
-, <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a03de18fb5d90aaaa9daa333ddbe2d394ac82b5f53ff29204c00b9479712bfeb72">MAIL_SHOW_AUCTION</a> = 0x0004
-, <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a03de18fb5d90aaaa9daa333ddbe2d394a2fe725e9d54355a13c1322a8d81da6a3">MAIL_SHOW_UNK2</a> = 0x0008
-, <br />
-&#160;&#160;<a class="el" href="../../dc/dd6/a02309.html#a03de18fb5d90aaaa9daa333ddbe2d394a9bfa489acd6be01c57410679c81d5a9e">MAIL_SHOW_RETURN</a> = 0x0010
-<br />
+<tr class="separator:ab51342a4a8f5976e51b0074f9a5746f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69f3b25108e0729e4ed7fd361d8e0dcf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#a69f3b25108e0729e4ed7fd361d8e0dcf">InstanceText</a> { <a class="el" href="../../dc/dd6/a02309.html#a69f3b25108e0729e4ed7fd361d8e0dcfafb263d1cd011b49bf7cda725281fa940">SAY_KALECGOS_SPAWN</a> = 0
  }</td></tr>
-<tr class="separator:a03de18fb5d90aaaa9daa333ddbe2d394"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a69f3b25108e0729e4ed7fd361d8e0dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed5999eedcf185b65654ded53dc601d3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#aed5999eedcf185b65654ded53dc601d3">MovementData</a> { <a class="el" href="../../dc/dd6/a02309.html#aed5999eedcf185b65654ded53dc601d3a6b4587e5a1bc789ca7ac972cd1e54222">PATH_KALECGOS_FLIGHT</a> = 248440
+ }</td></tr>
+<tr class="separator:aed5999eedcf185b65654ded53dc601d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ace003ea34649a460da4afbd65b38c987"><td class="memTemplParams" colspan="2">template&lt;class AI , class T &gt; </td></tr>
+<tr class="memitem:ace003ea34649a460da4afbd65b38c987"><td class="memTemplItemLeft" align="right" valign="top">AI *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/dd6/a02309.html#ace003ea34649a460da4afbd65b38c987">GetMagistersTerraceAI</a> (T *obj)</td></tr>
+<tr class="separator:ace003ea34649a460da4afbd65b38c987"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a400524cb6bb97f3dfaa616a2afae05db" name="a400524cb6bb97f3dfaa616a2afae05db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a400524cb6bb97f3dfaa616a2afae05db">&#9670;&#160;</a></span>MAIL_BODY_ITEM_TEMPLATE</h2>
+<a id="a042491ef36459046f3866e90f15aae0d" name="a042491ef36459046f3866e90f15aae0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a042491ef36459046f3866e90f15aae0d">&#9670;&#160;</a></span>DataHeader</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MAIL_BODY_ITEM_TEMPLATE&#160;&#160;&#160;9311</td>
+          <td class="memname">#define DataHeader&#160;&#160;&#160;&quot;MT&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a92d79b5b2210d828abe28a8834a50770" name="a92d79b5b2210d828abe28a8834a50770"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92d79b5b2210d828abe28a8834a50770">&#9670;&#160;</a></span>MAX_MAIL_ITEMS</h2>
+<a id="a772413d8818d681e2261c99f58e1268c" name="a772413d8818d681e2261c99f58e1268c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a772413d8818d681e2261c99f58e1268c">&#9670;&#160;</a></span>MTScriptName</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MAX_MAIL_ITEMS&#160;&#160;&#160;12</td>
+          <td class="memname">#define MTScriptName&#160;&#160;&#160;&quot;instance_magisters_terrace&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a5f97bcac5adeb0d52a6360c8aa0d0938" name="a5f97bcac5adeb0d52a6360c8aa0d0938"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f97bcac5adeb0d52a6360c8aa0d0938">&#9670;&#160;</a></span>MailItemInfoVec</h2>
+<a id="a679c3c5e0520ffcbc6ca0827cddafeb0" name="a679c3c5e0520ffcbc6ca0827cddafeb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a679c3c5e0520ffcbc6ca0827cddafeb0">&#9670;&#160;</a></span>RegisterMagistersTerraceCreatureAI</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::vector&lt;<a class="el" href="../../d8/d13/a09406.html">MailItemInfo</a>&gt; <a class="el" href="../../dc/dd6/a02309.html#a5f97bcac5adeb0d52a6360c8aa0d0938">MailItemInfoVec</a></td>
+          <td class="memname">#define RegisterMagistersTerraceCreatureAI</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ai_name</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d6/d9d/a03917.html#a25cc02ecf50f52ec8cdff096060b8be1">RegisterCreatureAIWithFactory</a>(ai_name, <a class="el" href="../../dc/dd6/a02309.html#ace003ea34649a460da4afbd65b38c987">GetMagistersTerraceAI</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -262,174 +239,217 @@ Enumerations</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a9738cb9d4ddff5f3b2a406f8d9c469cc" name="a9738cb9d4ddff5f3b2a406f8d9c469cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9738cb9d4ddff5f3b2a406f8d9c469cc">&#9670;&#160;</a></span>MailCheckMask</h2>
+<a id="ab51342a4a8f5976e51b0074f9a5746f8" name="ab51342a4a8f5976e51b0074f9a5746f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab51342a4a8f5976e51b0074f9a5746f8">&#9670;&#160;</a></span>InstanceEventIds</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cc">MailCheckMask</a> : <a class="el" href="../../d4/ddf/a00488.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></td>
+          <td class="memname">enum <a class="el" href="../../dc/dd6/a02309.html#ab51342a4a8f5976e51b0074f9a5746f8">InstanceEventIds</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9738cb9d4ddff5f3b2a406f8d9c469cca65bb77bc25220e08e3c065ad070b9888" name="a9738cb9d4ddff5f3b2a406f8d9c469cca65bb77bc25220e08e3c065ad070b9888"></a>MAIL_CHECK_MASK_NONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9738cb9d4ddff5f3b2a406f8d9c469cca3b48ed5fecdcd88c0a15e74b0853c03b" name="a9738cb9d4ddff5f3b2a406f8d9c469cca3b48ed5fecdcd88c0a15e74b0853c03b"></a>MAIL_CHECK_MASK_READ&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9738cb9d4ddff5f3b2a406f8d9c469cca5f7f5d671d1137cc0dd8b88a6579454a" name="a9738cb9d4ddff5f3b2a406f8d9c469cca5f7f5d671d1137cc0dd8b88a6579454a"></a>MAIL_CHECK_MASK_RETURNED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9738cb9d4ddff5f3b2a406f8d9c469cca9170ec2a04d365ca0a6167cad4a2e2fb" name="a9738cb9d4ddff5f3b2a406f8d9c469cca9170ec2a04d365ca0a6167cad4a2e2fb"></a>MAIL_CHECK_MASK_COPIED&#160;</td><td class="fielddoc"><p >This mail was returned. Do not allow returning mail back again. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a9738cb9d4ddff5f3b2a406f8d9c469cca4cef0afe6ff002d8e7089cb2eddf1468" name="a9738cb9d4ddff5f3b2a406f8d9c469cca4cef0afe6ff002d8e7089cb2eddf1468"></a>MAIL_CHECK_MASK_COD_PAYMENT&#160;</td><td class="fielddoc"><p >This mail was copied. Do not allow making a copy of items in mail. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a9738cb9d4ddff5f3b2a406f8d9c469cca348c2227a2767173436f2f88dfe37716" name="a9738cb9d4ddff5f3b2a406f8d9c469cca348c2227a2767173436f2f88dfe37716"></a>MAIL_CHECK_MASK_HAS_BODY&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab51342a4a8f5976e51b0074f9a5746f8a2e000620a7210a65a43ee87d48b5d283" name="ab51342a4a8f5976e51b0074f9a5746f8a2e000620a7210a65a43ee87d48b5d283"></a>EVENT_SPAWN_KALECGOS&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   46</span>{</div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca65bb77bc25220e08e3c065ad070b9888">MAIL_CHECK_MASK_NONE</a>        = 0x00,</div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca3b48ed5fecdcd88c0a15e74b0853c03b">MAIL_CHECK_MASK_READ</a>        = 0x01,</div>
-<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca5f7f5d671d1137cc0dd8b88a6579454a">MAIL_CHECK_MASK_RETURNED</a>    = 0x02,                     </div>
-<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca9170ec2a04d365ca0a6167cad4a2e2fb">MAIL_CHECK_MASK_COPIED</a>      = 0x04,                     </div>
-<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca4cef0afe6ff002d8e7089cb2eddf1468">MAIL_CHECK_MASK_COD_PAYMENT</a> = 0x08,</div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca348c2227a2767173436f2f88dfe37716">MAIL_CHECK_MASK_HAS_BODY</a>    = 0x10,                     </div>
-<div class="line"><span class="lineno">   53</span>};</div>
-<div class="ttc" id="aa02309_html_a9738cb9d4ddff5f3b2a406f8d9c469cca348c2227a2767173436f2f88dfe37716"><div class="ttname"><a href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca348c2227a2767173436f2f88dfe37716">MAIL_CHECK_MASK_HAS_BODY</a></div><div class="ttdeci">@ MAIL_CHECK_MASK_HAS_BODY</div><div class="ttdef"><b>Definition:</b> Mail.h:52</div></div>
-<div class="ttc" id="aa02309_html_a9738cb9d4ddff5f3b2a406f8d9c469cca3b48ed5fecdcd88c0a15e74b0853c03b"><div class="ttname"><a href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca3b48ed5fecdcd88c0a15e74b0853c03b">MAIL_CHECK_MASK_READ</a></div><div class="ttdeci">@ MAIL_CHECK_MASK_READ</div><div class="ttdef"><b>Definition:</b> Mail.h:48</div></div>
-<div class="ttc" id="aa02309_html_a9738cb9d4ddff5f3b2a406f8d9c469cca4cef0afe6ff002d8e7089cb2eddf1468"><div class="ttname"><a href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca4cef0afe6ff002d8e7089cb2eddf1468">MAIL_CHECK_MASK_COD_PAYMENT</a></div><div class="ttdeci">@ MAIL_CHECK_MASK_COD_PAYMENT</div><div class="ttdoc">This mail was copied. Do not allow making a copy of items in mail.</div><div class="ttdef"><b>Definition:</b> Mail.h:51</div></div>
-<div class="ttc" id="aa02309_html_a9738cb9d4ddff5f3b2a406f8d9c469cca5f7f5d671d1137cc0dd8b88a6579454a"><div class="ttname"><a href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca5f7f5d671d1137cc0dd8b88a6579454a">MAIL_CHECK_MASK_RETURNED</a></div><div class="ttdeci">@ MAIL_CHECK_MASK_RETURNED</div><div class="ttdef"><b>Definition:</b> Mail.h:49</div></div>
-<div class="ttc" id="aa02309_html_a9738cb9d4ddff5f3b2a406f8d9c469cca65bb77bc25220e08e3c065ad070b9888"><div class="ttname"><a href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca65bb77bc25220e08e3c065ad070b9888">MAIL_CHECK_MASK_NONE</a></div><div class="ttdeci">@ MAIL_CHECK_MASK_NONE</div><div class="ttdef"><b>Definition:</b> Mail.h:47</div></div>
-<div class="ttc" id="aa02309_html_a9738cb9d4ddff5f3b2a406f8d9c469cca9170ec2a04d365ca0a6167cad4a2e2fb"><div class="ttname"><a href="../../dc/dd6/a02309.html#a9738cb9d4ddff5f3b2a406f8d9c469cca9170ec2a04d365ca0a6167cad4a2e2fb">MAIL_CHECK_MASK_COPIED</a></div><div class="ttdeci">@ MAIL_CHECK_MASK_COPIED</div><div class="ttdoc">This mail was returned. Do not allow returning mail back again.</div><div class="ttdef"><b>Definition:</b> Mail.h:50</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   60</span>{</div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#ab51342a4a8f5976e51b0074f9a5746f8a2e000620a7210a65a43ee87d48b5d283">EVENT_SPAWN_KALECGOS</a> = 16547</div>
+<div class="line"><span class="lineno">   62</span>};</div>
+<div class="ttc" id="aa02309_html_ab51342a4a8f5976e51b0074f9a5746f8a2e000620a7210a65a43ee87d48b5d283"><div class="ttname"><a href="../../dc/dd6/a02309.html#ab51342a4a8f5976e51b0074f9a5746f8a2e000620a7210a65a43ee87d48b5d283">EVENT_SPAWN_KALECGOS</a></div><div class="ttdeci">@ EVENT_SPAWN_KALECGOS</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:61</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="afb83216fd8c410f5d4bdfef0f9b302ed" name="afb83216fd8c410f5d4bdfef0f9b302ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb83216fd8c410f5d4bdfef0f9b302ed">&#9670;&#160;</a></span>MailMessageType</h2>
+<a id="a69f3b25108e0729e4ed7fd361d8e0dcf" name="a69f3b25108e0729e4ed7fd361d8e0dcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69f3b25108e0729e4ed7fd361d8e0dcf">&#9670;&#160;</a></span>InstanceText</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../dc/dd6/a02309.html#afb83216fd8c410f5d4bdfef0f9b302ed">MailMessageType</a></td>
+          <td class="memname">enum <a class="el" href="../../dc/dd6/a02309.html#a69f3b25108e0729e4ed7fd361d8e0dcf">InstanceText</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afb83216fd8c410f5d4bdfef0f9b302edaad2526a166df2caa50762ff348a2f54a" name="afb83216fd8c410f5d4bdfef0f9b302edaad2526a166df2caa50762ff348a2f54a"></a>MAIL_NORMAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afb83216fd8c410f5d4bdfef0f9b302eda1c6b723dd78af975a7ec8a3562361330" name="afb83216fd8c410f5d4bdfef0f9b302eda1c6b723dd78af975a7ec8a3562361330"></a>MAIL_AUCTION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afb83216fd8c410f5d4bdfef0f9b302eda462b01f59d339ec67b080f100e97256c" name="afb83216fd8c410f5d4bdfef0f9b302eda462b01f59d339ec67b080f100e97256c"></a>MAIL_CREATURE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afb83216fd8c410f5d4bdfef0f9b302eda4398082ad7546f3811f818835522100d" name="afb83216fd8c410f5d4bdfef0f9b302eda4398082ad7546f3811f818835522100d"></a>MAIL_GAMEOBJECT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afb83216fd8c410f5d4bdfef0f9b302eda99dc24213703b6afb3639762a349c258" name="afb83216fd8c410f5d4bdfef0f9b302eda99dc24213703b6afb3639762a349c258"></a>MAIL_CALENDAR&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a69f3b25108e0729e4ed7fd361d8e0dcfafb263d1cd011b49bf7cda725281fa940" name="a69f3b25108e0729e4ed7fd361d8e0dcfafb263d1cd011b49bf7cda725281fa940"></a>SAY_KALECGOS_SPAWN&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#afb83216fd8c410f5d4bdfef0f9b302edaad2526a166df2caa50762ff348a2f54a">MAIL_NORMAL</a>         = 0,</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#afb83216fd8c410f5d4bdfef0f9b302eda1c6b723dd78af975a7ec8a3562361330">MAIL_AUCTION</a>        = 2,</div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#afb83216fd8c410f5d4bdfef0f9b302eda462b01f59d339ec67b080f100e97256c">MAIL_CREATURE</a>       = 3,                                <span class="comment">// client send CMSG_CREATURE_QUERY on this mailmessagetype</span></div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#afb83216fd8c410f5d4bdfef0f9b302eda4398082ad7546f3811f818835522100d">MAIL_GAMEOBJECT</a>     = 4,                                <span class="comment">// client send CMSG_GAMEOBJECT_QUERY on this mailmessagetype</span></div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#afb83216fd8c410f5d4bdfef0f9b302eda99dc24213703b6afb3639762a349c258">MAIL_CALENDAR</a>       = 5</div>
-<div class="line"><span class="lineno">   43</span>};</div>
-<div class="ttc" id="aa02309_html_afb83216fd8c410f5d4bdfef0f9b302eda1c6b723dd78af975a7ec8a3562361330"><div class="ttname"><a href="../../dc/dd6/a02309.html#afb83216fd8c410f5d4bdfef0f9b302eda1c6b723dd78af975a7ec8a3562361330">MAIL_AUCTION</a></div><div class="ttdeci">@ MAIL_AUCTION</div><div class="ttdef"><b>Definition:</b> Mail.h:39</div></div>
-<div class="ttc" id="aa02309_html_afb83216fd8c410f5d4bdfef0f9b302eda4398082ad7546f3811f818835522100d"><div class="ttname"><a href="../../dc/dd6/a02309.html#afb83216fd8c410f5d4bdfef0f9b302eda4398082ad7546f3811f818835522100d">MAIL_GAMEOBJECT</a></div><div class="ttdeci">@ MAIL_GAMEOBJECT</div><div class="ttdef"><b>Definition:</b> Mail.h:41</div></div>
-<div class="ttc" id="aa02309_html_afb83216fd8c410f5d4bdfef0f9b302eda462b01f59d339ec67b080f100e97256c"><div class="ttname"><a href="../../dc/dd6/a02309.html#afb83216fd8c410f5d4bdfef0f9b302eda462b01f59d339ec67b080f100e97256c">MAIL_CREATURE</a></div><div class="ttdeci">@ MAIL_CREATURE</div><div class="ttdef"><b>Definition:</b> Mail.h:40</div></div>
-<div class="ttc" id="aa02309_html_afb83216fd8c410f5d4bdfef0f9b302eda99dc24213703b6afb3639762a349c258"><div class="ttname"><a href="../../dc/dd6/a02309.html#afb83216fd8c410f5d4bdfef0f9b302eda99dc24213703b6afb3639762a349c258">MAIL_CALENDAR</a></div><div class="ttdeci">@ MAIL_CALENDAR</div><div class="ttdef"><b>Definition:</b> Mail.h:42</div></div>
-<div class="ttc" id="aa02309_html_afb83216fd8c410f5d4bdfef0f9b302edaad2526a166df2caa50762ff348a2f54a"><div class="ttname"><a href="../../dc/dd6/a02309.html#afb83216fd8c410f5d4bdfef0f9b302edaad2526a166df2caa50762ff348a2f54a">MAIL_NORMAL</a></div><div class="ttdeci">@ MAIL_NORMAL</div><div class="ttdef"><b>Definition:</b> Mail.h:38</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   65</span>{</div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a69f3b25108e0729e4ed7fd361d8e0dcfafb263d1cd011b49bf7cda725281fa940">SAY_KALECGOS_SPAWN</a> = 0</div>
+<div class="line"><span class="lineno">   67</span>};</div>
+<div class="ttc" id="aa02309_html_a69f3b25108e0729e4ed7fd361d8e0dcfafb263d1cd011b49bf7cda725281fa940"><div class="ttname"><a href="../../dc/dd6/a02309.html#a69f3b25108e0729e4ed7fd361d8e0dcfafb263d1cd011b49bf7cda725281fa940">SAY_KALECGOS_SPAWN</a></div><div class="ttdeci">@ SAY_KALECGOS_SPAWN</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:66</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a03de18fb5d90aaaa9daa333ddbe2d394" name="a03de18fb5d90aaaa9daa333ddbe2d394"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03de18fb5d90aaaa9daa333ddbe2d394">&#9670;&#160;</a></span>MailShowFlags</h2>
+<a id="aed5999eedcf185b65654ded53dc601d3" name="aed5999eedcf185b65654ded53dc601d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed5999eedcf185b65654ded53dc601d3">&#9670;&#160;</a></span>MovementData</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../dc/dd6/a02309.html#a03de18fb5d90aaaa9daa333ddbe2d394">MailShowFlags</a></td>
+          <td class="memname">enum <a class="el" href="../../dc/dd6/a02309.html#aed5999eedcf185b65654ded53dc601d3">MovementData</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a03de18fb5d90aaaa9daa333ddbe2d394a5d741597d486fff4283ab7bfeaa32ecc" name="a03de18fb5d90aaaa9daa333ddbe2d394a5d741597d486fff4283ab7bfeaa32ecc"></a>MAIL_SHOW_UNK0&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a03de18fb5d90aaaa9daa333ddbe2d394a7d87ac4c7be1c9b63837bd39706eba07" name="a03de18fb5d90aaaa9daa333ddbe2d394a7d87ac4c7be1c9b63837bd39706eba07"></a>MAIL_SHOW_DELETE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a03de18fb5d90aaaa9daa333ddbe2d394ac82b5f53ff29204c00b9479712bfeb72" name="a03de18fb5d90aaaa9daa333ddbe2d394ac82b5f53ff29204c00b9479712bfeb72"></a>MAIL_SHOW_AUCTION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a03de18fb5d90aaaa9daa333ddbe2d394a2fe725e9d54355a13c1322a8d81da6a3" name="a03de18fb5d90aaaa9daa333ddbe2d394a2fe725e9d54355a13c1322a8d81da6a3"></a>MAIL_SHOW_UNK2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a03de18fb5d90aaaa9daa333ddbe2d394a9bfa489acd6be01c57410679c81d5a9e" name="a03de18fb5d90aaaa9daa333ddbe2d394a9bfa489acd6be01c57410679c81d5a9e"></a>MAIL_SHOW_RETURN&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aed5999eedcf185b65654ded53dc601d3a6b4587e5a1bc789ca7ac972cd1e54222" name="aed5999eedcf185b65654ded53dc601d3a6b4587e5a1bc789ca7ac972cd1e54222"></a>PATH_KALECGOS_FLIGHT&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   75</span>{</div>
-<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a03de18fb5d90aaaa9daa333ddbe2d394a5d741597d486fff4283ab7bfeaa32ecc">MAIL_SHOW_UNK0</a>    = 0x0001,</div>
-<div class="line"><span class="lineno">   77</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a03de18fb5d90aaaa9daa333ddbe2d394a7d87ac4c7be1c9b63837bd39706eba07">MAIL_SHOW_DELETE</a>  = 0x0002,                             <span class="comment">// forced show delete button instead return button</span></div>
-<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a03de18fb5d90aaaa9daa333ddbe2d394ac82b5f53ff29204c00b9479712bfeb72">MAIL_SHOW_AUCTION</a> = 0x0004,                             <span class="comment">// from old comment</span></div>
-<div class="line"><span class="lineno">   79</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a03de18fb5d90aaaa9daa333ddbe2d394a2fe725e9d54355a13c1322a8d81da6a3">MAIL_SHOW_UNK2</a>    = 0x0008,                             <span class="comment">// unknown, COD will be shown even without that flag</span></div>
-<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a03de18fb5d90aaaa9daa333ddbe2d394a9bfa489acd6be01c57410679c81d5a9e">MAIL_SHOW_RETURN</a>  = 0x0010,</div>
-<div class="line"><span class="lineno">   81</span>};</div>
-<div class="ttc" id="aa02309_html_a03de18fb5d90aaaa9daa333ddbe2d394a2fe725e9d54355a13c1322a8d81da6a3"><div class="ttname"><a href="../../dc/dd6/a02309.html#a03de18fb5d90aaaa9daa333ddbe2d394a2fe725e9d54355a13c1322a8d81da6a3">MAIL_SHOW_UNK2</a></div><div class="ttdeci">@ MAIL_SHOW_UNK2</div><div class="ttdef"><b>Definition:</b> Mail.h:79</div></div>
-<div class="ttc" id="aa02309_html_a03de18fb5d90aaaa9daa333ddbe2d394a5d741597d486fff4283ab7bfeaa32ecc"><div class="ttname"><a href="../../dc/dd6/a02309.html#a03de18fb5d90aaaa9daa333ddbe2d394a5d741597d486fff4283ab7bfeaa32ecc">MAIL_SHOW_UNK0</a></div><div class="ttdeci">@ MAIL_SHOW_UNK0</div><div class="ttdef"><b>Definition:</b> Mail.h:76</div></div>
-<div class="ttc" id="aa02309_html_a03de18fb5d90aaaa9daa333ddbe2d394a7d87ac4c7be1c9b63837bd39706eba07"><div class="ttname"><a href="../../dc/dd6/a02309.html#a03de18fb5d90aaaa9daa333ddbe2d394a7d87ac4c7be1c9b63837bd39706eba07">MAIL_SHOW_DELETE</a></div><div class="ttdeci">@ MAIL_SHOW_DELETE</div><div class="ttdef"><b>Definition:</b> Mail.h:77</div></div>
-<div class="ttc" id="aa02309_html_a03de18fb5d90aaaa9daa333ddbe2d394a9bfa489acd6be01c57410679c81d5a9e"><div class="ttname"><a href="../../dc/dd6/a02309.html#a03de18fb5d90aaaa9daa333ddbe2d394a9bfa489acd6be01c57410679c81d5a9e">MAIL_SHOW_RETURN</a></div><div class="ttdeci">@ MAIL_SHOW_RETURN</div><div class="ttdef"><b>Definition:</b> Mail.h:80</div></div>
-<div class="ttc" id="aa02309_html_a03de18fb5d90aaaa9daa333ddbe2d394ac82b5f53ff29204c00b9479712bfeb72"><div class="ttname"><a href="../../dc/dd6/a02309.html#a03de18fb5d90aaaa9daa333ddbe2d394ac82b5f53ff29204c00b9479712bfeb72">MAIL_SHOW_AUCTION</a></div><div class="ttdeci">@ MAIL_SHOW_AUCTION</div><div class="ttdef"><b>Definition:</b> Mail.h:78</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a38d587a785c6fa4c4342574233684a20" name="a38d587a785c6fa4c4342574233684a20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38d587a785c6fa4c4342574233684a20">&#9670;&#160;</a></span>MailState</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../dc/dd6/a02309.html#a38d587a785c6fa4c4342574233684a20">MailState</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a38d587a785c6fa4c4342574233684a20ae16408762dbf072dd193ffe6b3097047" name="a38d587a785c6fa4c4342574233684a20ae16408762dbf072dd193ffe6b3097047"></a>MAIL_STATE_UNCHANGED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a38d587a785c6fa4c4342574233684a20aac816c9be99273eb826bf89eda08f1bb" name="a38d587a785c6fa4c4342574233684a20aac816c9be99273eb826bf89eda08f1bb"></a>MAIL_STATE_CHANGED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a38d587a785c6fa4c4342574233684a20a3645936325ffbfb6858bcbb312b9072a" name="a38d587a785c6fa4c4342574233684a20a3645936325ffbfb6858bcbb312b9072a"></a>MAIL_STATE_DELETED&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   68</span>{</div>
-<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a38d587a785c6fa4c4342574233684a20ae16408762dbf072dd193ffe6b3097047">MAIL_STATE_UNCHANGED</a> = 1,</div>
-<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a38d587a785c6fa4c4342574233684a20aac816c9be99273eb826bf89eda08f1bb">MAIL_STATE_CHANGED</a>   = 2,</div>
-<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a38d587a785c6fa4c4342574233684a20a3645936325ffbfb6858bcbb312b9072a">MAIL_STATE_DELETED</a>   = 3</div>
+<div class="fragment"><div class="line"><span class="lineno">   70</span>{</div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#aed5999eedcf185b65654ded53dc601d3a6b4587e5a1bc789ca7ac972cd1e54222">PATH_KALECGOS_FLIGHT</a> = 248440</div>
 <div class="line"><span class="lineno">   72</span>};</div>
-<div class="ttc" id="aa02309_html_a38d587a785c6fa4c4342574233684a20a3645936325ffbfb6858bcbb312b9072a"><div class="ttname"><a href="../../dc/dd6/a02309.html#a38d587a785c6fa4c4342574233684a20a3645936325ffbfb6858bcbb312b9072a">MAIL_STATE_DELETED</a></div><div class="ttdeci">@ MAIL_STATE_DELETED</div><div class="ttdef"><b>Definition:</b> Mail.h:71</div></div>
-<div class="ttc" id="aa02309_html_a38d587a785c6fa4c4342574233684a20aac816c9be99273eb826bf89eda08f1bb"><div class="ttname"><a href="../../dc/dd6/a02309.html#a38d587a785c6fa4c4342574233684a20aac816c9be99273eb826bf89eda08f1bb">MAIL_STATE_CHANGED</a></div><div class="ttdeci">@ MAIL_STATE_CHANGED</div><div class="ttdef"><b>Definition:</b> Mail.h:70</div></div>
-<div class="ttc" id="aa02309_html_a38d587a785c6fa4c4342574233684a20ae16408762dbf072dd193ffe6b3097047"><div class="ttname"><a href="../../dc/dd6/a02309.html#a38d587a785c6fa4c4342574233684a20ae16408762dbf072dd193ffe6b3097047">MAIL_STATE_UNCHANGED</a></div><div class="ttdeci">@ MAIL_STATE_UNCHANGED</div><div class="ttdef"><b>Definition:</b> Mail.h:69</div></div>
+<div class="ttc" id="aa02309_html_aed5999eedcf185b65654ded53dc601d3a6b4587e5a1bc789ca7ac972cd1e54222"><div class="ttname"><a href="../../dc/dd6/a02309.html#aed5999eedcf185b65654ded53dc601d3a6b4587e5a1bc789ca7ac972cd1e54222">PATH_KALECGOS_FLIGHT</a></div><div class="ttdeci">@ PATH_KALECGOS_FLIGHT</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:71</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a97c589393fcefa82854f195693493094" name="a97c589393fcefa82854f195693493094"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97c589393fcefa82854f195693493094">&#9670;&#160;</a></span>MailStationery</h2>
+<a id="a402e3e622f03a1eed719db587960e18b" name="a402e3e622f03a1eed719db587960e18b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a402e3e622f03a1eed719db587960e18b">&#9670;&#160;</a></span>MTCreatures</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094">MailStationery</a></td>
+          <td class="memname">enum <a class="el" href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18b">MTCreatures</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a97c589393fcefa82854f195693493094a08c959967722eb59a73866b06fff4ee1" name="a97c589393fcefa82854f195693493094a08c959967722eb59a73866b06fff4ee1"></a>MAIL_STATIONERY_TEST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a97c589393fcefa82854f195693493094ab18c50370e3504660676eeab1fed7a68" name="a97c589393fcefa82854f195693493094ab18c50370e3504660676eeab1fed7a68"></a>MAIL_STATIONERY_DEFAULT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a97c589393fcefa82854f195693493094a39230800d1e1c4dbd3c46fbaaba39541" name="a97c589393fcefa82854f195693493094a39230800d1e1c4dbd3c46fbaaba39541"></a>MAIL_STATIONERY_GM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a97c589393fcefa82854f195693493094aef86d2a36ec87427177f03b971bf4fcd" name="a97c589393fcefa82854f195693493094aef86d2a36ec87427177f03b971bf4fcd"></a>MAIL_STATIONERY_AUCTION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a97c589393fcefa82854f195693493094acf69185a7c40dad17bf89924f8c89cd5" name="a97c589393fcefa82854f195693493094acf69185a7c40dad17bf89924f8c89cd5"></a>MAIL_STATIONERY_VAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a97c589393fcefa82854f195693493094a3f6ed9e1ee49995d1854786d3ab7b5a0" name="a97c589393fcefa82854f195693493094a3f6ed9e1ee49995d1854786d3ab7b5a0"></a>MAIL_STATIONERY_CHR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a97c589393fcefa82854f195693493094aa349afbb838c106b8d4e161b7611583c" name="a97c589393fcefa82854f195693493094aa349afbb838c106b8d4e161b7611583c"></a>MAIL_STATIONERY_ORP&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a402e3e622f03a1eed719db587960e18ba5d0ab26a56a5212e4bbd0d2bd26b7127" name="a402e3e622f03a1eed719db587960e18ba5d0ab26a56a5212e4bbd0d2bd26b7127"></a>NPC_DELRISSA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a402e3e622f03a1eed719db587960e18bad5c5384a148b47a2c59d671014db6d35" name="a402e3e622f03a1eed719db587960e18bad5c5384a148b47a2c59d671014db6d35"></a>NPC_FEL_CRYSTAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a402e3e622f03a1eed719db587960e18ba1cc740bbad14c06e879fe922c561957c" name="a402e3e622f03a1eed719db587960e18ba1cc740bbad14c06e879fe922c561957c"></a>NPC_KAEL_THAS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a402e3e622f03a1eed719db587960e18ba93173f126c0dd252197a841ed9321048" name="a402e3e622f03a1eed719db587960e18ba93173f126c0dd252197a841ed9321048"></a>NPC_PHOENIX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a402e3e622f03a1eed719db587960e18ba37c8f15ed65139715f18d3d09d17a970" name="a402e3e622f03a1eed719db587960e18ba37c8f15ed65139715f18d3d09d17a970"></a>NPC_PHOENIX_EGG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a402e3e622f03a1eed719db587960e18ba7434f1d158db88e1befb3cf56e801613" name="a402e3e622f03a1eed719db587960e18ba7434f1d158db88e1befb3cf56e801613"></a>NPC_KALECGOS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a402e3e622f03a1eed719db587960e18ba937b694476b6a1c6dd4741a8fef2c0fe" name="a402e3e622f03a1eed719db587960e18ba937b694476b6a1c6dd4741a8fef2c0fe"></a>NPC_HUMAN_KALECGOS&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   57</span>{</div>
-<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094a08c959967722eb59a73866b06fff4ee1">MAIL_STATIONERY_TEST</a>    = 1,</div>
-<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094ab18c50370e3504660676eeab1fed7a68">MAIL_STATIONERY_DEFAULT</a> = 41,</div>
-<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094a39230800d1e1c4dbd3c46fbaaba39541">MAIL_STATIONERY_GM</a>      = 61,</div>
-<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094aef86d2a36ec87427177f03b971bf4fcd">MAIL_STATIONERY_AUCTION</a> = 62,</div>
-<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094acf69185a7c40dad17bf89924f8c89cd5">MAIL_STATIONERY_VAL</a>     = 64,                           <span class="comment">// Valentine</span></div>
-<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094a3f6ed9e1ee49995d1854786d3ab7b5a0">MAIL_STATIONERY_CHR</a>     = 65,                           <span class="comment">// Christmas</span></div>
-<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094aa349afbb838c106b8d4e161b7611583c">MAIL_STATIONERY_ORP</a>     = 67,                           <span class="comment">// Orphan</span></div>
-<div class="line"><span class="lineno">   65</span>};</div>
-<div class="ttc" id="aa02309_html_a97c589393fcefa82854f195693493094a08c959967722eb59a73866b06fff4ee1"><div class="ttname"><a href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094a08c959967722eb59a73866b06fff4ee1">MAIL_STATIONERY_TEST</a></div><div class="ttdeci">@ MAIL_STATIONERY_TEST</div><div class="ttdef"><b>Definition:</b> Mail.h:58</div></div>
-<div class="ttc" id="aa02309_html_a97c589393fcefa82854f195693493094a39230800d1e1c4dbd3c46fbaaba39541"><div class="ttname"><a href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094a39230800d1e1c4dbd3c46fbaaba39541">MAIL_STATIONERY_GM</a></div><div class="ttdeci">@ MAIL_STATIONERY_GM</div><div class="ttdef"><b>Definition:</b> Mail.h:60</div></div>
-<div class="ttc" id="aa02309_html_a97c589393fcefa82854f195693493094a3f6ed9e1ee49995d1854786d3ab7b5a0"><div class="ttname"><a href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094a3f6ed9e1ee49995d1854786d3ab7b5a0">MAIL_STATIONERY_CHR</a></div><div class="ttdeci">@ MAIL_STATIONERY_CHR</div><div class="ttdef"><b>Definition:</b> Mail.h:63</div></div>
-<div class="ttc" id="aa02309_html_a97c589393fcefa82854f195693493094aa349afbb838c106b8d4e161b7611583c"><div class="ttname"><a href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094aa349afbb838c106b8d4e161b7611583c">MAIL_STATIONERY_ORP</a></div><div class="ttdeci">@ MAIL_STATIONERY_ORP</div><div class="ttdef"><b>Definition:</b> Mail.h:64</div></div>
-<div class="ttc" id="aa02309_html_a97c589393fcefa82854f195693493094ab18c50370e3504660676eeab1fed7a68"><div class="ttname"><a href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094ab18c50370e3504660676eeab1fed7a68">MAIL_STATIONERY_DEFAULT</a></div><div class="ttdeci">@ MAIL_STATIONERY_DEFAULT</div><div class="ttdef"><b>Definition:</b> Mail.h:59</div></div>
-<div class="ttc" id="aa02309_html_a97c589393fcefa82854f195693493094acf69185a7c40dad17bf89924f8c89cd5"><div class="ttname"><a href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094acf69185a7c40dad17bf89924f8c89cd5">MAIL_STATIONERY_VAL</a></div><div class="ttdeci">@ MAIL_STATIONERY_VAL</div><div class="ttdef"><b>Definition:</b> Mail.h:62</div></div>
-<div class="ttc" id="aa02309_html_a97c589393fcefa82854f195693493094aef86d2a36ec87427177f03b971bf4fcd"><div class="ttname"><a href="../../dc/dd6/a02309.html#a97c589393fcefa82854f195693493094aef86d2a36ec87427177f03b971bf4fcd">MAIL_STATIONERY_AUCTION</a></div><div class="ttdeci">@ MAIL_STATIONERY_AUCTION</div><div class="ttdef"><b>Definition:</b> Mail.h:61</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   39</span>{</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba5d0ab26a56a5212e4bbd0d2bd26b7127">NPC_DELRISSA</a>                = 24560,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18bad5c5384a148b47a2c59d671014db6d35">NPC_FEL_CRYSTAL</a>             = 24722,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba1cc740bbad14c06e879fe922c561957c">NPC_KAEL_THAS</a>               = 24664,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba93173f126c0dd252197a841ed9321048">NPC_PHOENIX</a>                 = 21362,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba37c8f15ed65139715f18d3d09d17a970">NPC_PHOENIX_EGG</a>             = 21364,</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba7434f1d158db88e1befb3cf56e801613">NPC_KALECGOS</a>                = 24844,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba937b694476b6a1c6dd4741a8fef2c0fe">NPC_HUMAN_KALECGOS</a>          = 24848</div>
+<div class="line"><span class="lineno">   47</span>};</div>
+<div class="ttc" id="aa02309_html_a402e3e622f03a1eed719db587960e18ba1cc740bbad14c06e879fe922c561957c"><div class="ttname"><a href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba1cc740bbad14c06e879fe922c561957c">NPC_KAEL_THAS</a></div><div class="ttdeci">@ NPC_KAEL_THAS</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:42</div></div>
+<div class="ttc" id="aa02309_html_a402e3e622f03a1eed719db587960e18ba37c8f15ed65139715f18d3d09d17a970"><div class="ttname"><a href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba37c8f15ed65139715f18d3d09d17a970">NPC_PHOENIX_EGG</a></div><div class="ttdeci">@ NPC_PHOENIX_EGG</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:44</div></div>
+<div class="ttc" id="aa02309_html_a402e3e622f03a1eed719db587960e18ba5d0ab26a56a5212e4bbd0d2bd26b7127"><div class="ttname"><a href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba5d0ab26a56a5212e4bbd0d2bd26b7127">NPC_DELRISSA</a></div><div class="ttdeci">@ NPC_DELRISSA</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:40</div></div>
+<div class="ttc" id="aa02309_html_a402e3e622f03a1eed719db587960e18ba7434f1d158db88e1befb3cf56e801613"><div class="ttname"><a href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba7434f1d158db88e1befb3cf56e801613">NPC_KALECGOS</a></div><div class="ttdeci">@ NPC_KALECGOS</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:45</div></div>
+<div class="ttc" id="aa02309_html_a402e3e622f03a1eed719db587960e18ba93173f126c0dd252197a841ed9321048"><div class="ttname"><a href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba93173f126c0dd252197a841ed9321048">NPC_PHOENIX</a></div><div class="ttdeci">@ NPC_PHOENIX</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:43</div></div>
+<div class="ttc" id="aa02309_html_a402e3e622f03a1eed719db587960e18ba937b694476b6a1c6dd4741a8fef2c0fe"><div class="ttname"><a href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18ba937b694476b6a1c6dd4741a8fef2c0fe">NPC_HUMAN_KALECGOS</a></div><div class="ttdeci">@ NPC_HUMAN_KALECGOS</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:46</div></div>
+<div class="ttc" id="aa02309_html_a402e3e622f03a1eed719db587960e18bad5c5384a148b47a2c59d671014db6d35"><div class="ttname"><a href="../../dc/dd6/a02309.html#a402e3e622f03a1eed719db587960e18bad5c5384a148b47a2c59d671014db6d35">NPC_FEL_CRYSTAL</a></div><div class="ttdeci">@ NPC_FEL_CRYSTAL</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:41</div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="abdc560adf84eb5994b289f952995d059" name="abdc560adf84eb5994b289f952995d059"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdc560adf84eb5994b289f952995d059">&#9670;&#160;</a></span>MTData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059">MTData</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abdc560adf84eb5994b289f952995d059afd8c24b35ae0b3270c6446ed912864b8" name="abdc560adf84eb5994b289f952995d059afd8c24b35ae0b3270c6446ed912864b8"></a>DATA_SELIN_FIREHEART&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abdc560adf84eb5994b289f952995d059a7d511ceaf5f4b75dc6bf642fd4c002c3" name="abdc560adf84eb5994b289f952995d059a7d511ceaf5f4b75dc6bf642fd4c002c3"></a>DATA_VEXALLUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abdc560adf84eb5994b289f952995d059af977a73eff024af1676aeb0fe6503c2f" name="abdc560adf84eb5994b289f952995d059af977a73eff024af1676aeb0fe6503c2f"></a>DATA_DELRISSA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abdc560adf84eb5994b289f952995d059a9459cb9bb83f7a23115debb607cb25a3" name="abdc560adf84eb5994b289f952995d059a9459cb9bb83f7a23115debb607cb25a3"></a>DATA_KAELTHAS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abdc560adf84eb5994b289f952995d059a7913656ef56deb3793c0c5f3d999d80d" name="abdc560adf84eb5994b289f952995d059a7913656ef56deb3793c0c5f3d999d80d"></a>MAX_ENCOUNTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abdc560adf84eb5994b289f952995d059a053405afb85048224c161919aebd795d" name="abdc560adf84eb5994b289f952995d059a053405afb85048224c161919aebd795d"></a>DATA_KALECGOS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abdc560adf84eb5994b289f952995d059a6c76e50a19d944f081dbe8c87034974f" name="abdc560adf84eb5994b289f952995d059a6c76e50a19d944f081dbe8c87034974f"></a>DATA_ESCAPE_ORB&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059afd8c24b35ae0b3270c6446ed912864b8">DATA_SELIN_FIREHEART</a>        = 0,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059a7d511ceaf5f4b75dc6bf642fd4c002c3">DATA_VEXALLUS</a>               = 1,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059af977a73eff024af1676aeb0fe6503c2f">DATA_DELRISSA</a>               = 2,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059a9459cb9bb83f7a23115debb607cb25a3">DATA_KAELTHAS</a>               = 3,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a>               = 4,</div>
+<div class="line"><span class="lineno">   33</span> </div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059a053405afb85048224c161919aebd795d">DATA_KALECGOS</a>               = 5,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059a6c76e50a19d944f081dbe8c87034974f">DATA_ESCAPE_ORB</a>             = 6</div>
+<div class="line"><span class="lineno">   36</span>};</div>
+<div class="ttc" id="aa02309_html_abdc560adf84eb5994b289f952995d059a053405afb85048224c161919aebd795d"><div class="ttname"><a href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059a053405afb85048224c161919aebd795d">DATA_KALECGOS</a></div><div class="ttdeci">@ DATA_KALECGOS</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:34</div></div>
+<div class="ttc" id="aa02309_html_abdc560adf84eb5994b289f952995d059a6c76e50a19d944f081dbe8c87034974f"><div class="ttname"><a href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059a6c76e50a19d944f081dbe8c87034974f">DATA_ESCAPE_ORB</a></div><div class="ttdeci">@ DATA_ESCAPE_ORB</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:35</div></div>
+<div class="ttc" id="aa02309_html_abdc560adf84eb5994b289f952995d059a7913656ef56deb3793c0c5f3d999d80d"><div class="ttname"><a href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a></div><div class="ttdeci">@ MAX_ENCOUNTER</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:32</div></div>
+<div class="ttc" id="aa02309_html_abdc560adf84eb5994b289f952995d059a7d511ceaf5f4b75dc6bf642fd4c002c3"><div class="ttname"><a href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059a7d511ceaf5f4b75dc6bf642fd4c002c3">DATA_VEXALLUS</a></div><div class="ttdeci">@ DATA_VEXALLUS</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:29</div></div>
+<div class="ttc" id="aa02309_html_abdc560adf84eb5994b289f952995d059a9459cb9bb83f7a23115debb607cb25a3"><div class="ttname"><a href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059a9459cb9bb83f7a23115debb607cb25a3">DATA_KAELTHAS</a></div><div class="ttdeci">@ DATA_KAELTHAS</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:31</div></div>
+<div class="ttc" id="aa02309_html_abdc560adf84eb5994b289f952995d059af977a73eff024af1676aeb0fe6503c2f"><div class="ttname"><a href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059af977a73eff024af1676aeb0fe6503c2f">DATA_DELRISSA</a></div><div class="ttdeci">@ DATA_DELRISSA</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:30</div></div>
+<div class="ttc" id="aa02309_html_abdc560adf84eb5994b289f952995d059afd8c24b35ae0b3270c6446ed912864b8"><div class="ttname"><a href="../../dc/dd6/a02309.html#abdc560adf84eb5994b289f952995d059afd8c24b35ae0b3270c6446ed912864b8">DATA_SELIN_FIREHEART</a></div><div class="ttdeci">@ DATA_SELIN_FIREHEART</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:28</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2b0621589774d4cc3afba085bc39867d" name="a2b0621589774d4cc3afba085bc39867d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b0621589774d4cc3afba085bc39867d">&#9670;&#160;</a></span>MTGameObjects</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867d">MTGameObjects</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2b0621589774d4cc3afba085bc39867da660139f819500a248283735c336cf4e7" name="a2b0621589774d4cc3afba085bc39867da660139f819500a248283735c336cf4e7"></a>GO_VEXALLUS_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b0621589774d4cc3afba085bc39867da7ccc42cdb5402db90adb2298e29d4e64" name="a2b0621589774d4cc3afba085bc39867da7ccc42cdb5402db90adb2298e29d4e64"></a>GO_SELIN_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b0621589774d4cc3afba085bc39867da8b457fe7255a77748f94f13974791086" name="a2b0621589774d4cc3afba085bc39867da8b457fe7255a77748f94f13974791086"></a>GO_SELIN_ENCOUNTER_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b0621589774d4cc3afba085bc39867da2ec22f0e669bef8a7bde879208fa8f6a" name="a2b0621589774d4cc3afba085bc39867da2ec22f0e669bef8a7bde879208fa8f6a"></a>GO_DELRISSA_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b0621589774d4cc3afba085bc39867dacafc1a0b7422ea5365367a4c964fee25" name="a2b0621589774d4cc3afba085bc39867dacafc1a0b7422ea5365367a4c964fee25"></a>GO_KAEL_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b0621589774d4cc3afba085bc39867daf0d8c802b02ba5d48c9d4126534812fd" name="a2b0621589774d4cc3afba085bc39867daf0d8c802b02ba5d48c9d4126534812fd"></a>GO_ESCAPE_ORB&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   50</span>{</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867da660139f819500a248283735c336cf4e7">GO_VEXALLUS_DOOR</a>            = 187896,</div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867da7ccc42cdb5402db90adb2298e29d4e64">GO_SELIN_DOOR</a>               = 187979,</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867da8b457fe7255a77748f94f13974791086">GO_SELIN_ENCOUNTER_DOOR</a>     = 188065,</div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867da2ec22f0e669bef8a7bde879208fa8f6a">GO_DELRISSA_DOOR</a>            = 187770,</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867dacafc1a0b7422ea5365367a4c964fee25">GO_KAEL_DOOR</a>                = 188064,</div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867daf0d8c802b02ba5d48c9d4126534812fd">GO_ESCAPE_ORB</a>               = 188173</div>
+<div class="line"><span class="lineno">   57</span>};</div>
+<div class="ttc" id="aa02309_html_a2b0621589774d4cc3afba085bc39867da2ec22f0e669bef8a7bde879208fa8f6a"><div class="ttname"><a href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867da2ec22f0e669bef8a7bde879208fa8f6a">GO_DELRISSA_DOOR</a></div><div class="ttdeci">@ GO_DELRISSA_DOOR</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:54</div></div>
+<div class="ttc" id="aa02309_html_a2b0621589774d4cc3afba085bc39867da660139f819500a248283735c336cf4e7"><div class="ttname"><a href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867da660139f819500a248283735c336cf4e7">GO_VEXALLUS_DOOR</a></div><div class="ttdeci">@ GO_VEXALLUS_DOOR</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:51</div></div>
+<div class="ttc" id="aa02309_html_a2b0621589774d4cc3afba085bc39867da7ccc42cdb5402db90adb2298e29d4e64"><div class="ttname"><a href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867da7ccc42cdb5402db90adb2298e29d4e64">GO_SELIN_DOOR</a></div><div class="ttdeci">@ GO_SELIN_DOOR</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:52</div></div>
+<div class="ttc" id="aa02309_html_a2b0621589774d4cc3afba085bc39867da8b457fe7255a77748f94f13974791086"><div class="ttname"><a href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867da8b457fe7255a77748f94f13974791086">GO_SELIN_ENCOUNTER_DOOR</a></div><div class="ttdeci">@ GO_SELIN_ENCOUNTER_DOOR</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:53</div></div>
+<div class="ttc" id="aa02309_html_a2b0621589774d4cc3afba085bc39867dacafc1a0b7422ea5365367a4c964fee25"><div class="ttname"><a href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867dacafc1a0b7422ea5365367a4c964fee25">GO_KAEL_DOOR</a></div><div class="ttdeci">@ GO_KAEL_DOOR</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:55</div></div>
+<div class="ttc" id="aa02309_html_a2b0621589774d4cc3afba085bc39867daf0d8c802b02ba5d48c9d4126534812fd"><div class="ttname"><a href="../../dc/dd6/a02309.html#a2b0621589774d4cc3afba085bc39867daf0d8c802b02ba5d48c9d4126534812fd">GO_ESCAPE_ORB</a></div><div class="ttdeci">@ GO_ESCAPE_ORB</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:56</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ace003ea34649a460da4afbd65b38c987" name="ace003ea34649a460da4afbd65b38c987"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace003ea34649a460da4afbd65b38c987">&#9670;&#160;</a></span>GetMagistersTerraceAI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class AI , class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AI * GetMagistersTerraceAI </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   76</span>{</div>
+<div class="line"><span class="lineno">   77</span>    <span class="keywordflow">return</span> GetInstanceAI&lt;AI&gt;(obj, <a class="code hl_define" href="../../dc/dd6/a02309.html#a772413d8818d681e2261c99f58e1268c">MTScriptName</a>);</div>
+<div class="line"><span class="lineno">   78</span>}</div>
+<div class="ttc" id="aa02309_html_a772413d8818d681e2261c99f58e1268c"><div class="ttname"><a href="../../dc/dd6/a02309.html#a772413d8818d681e2261c99f58e1268c">MTScriptName</a></div><div class="ttdeci">#define MTScriptName</div><div class="ttdef"><b>Definition:</b> magisters_terrace.h:24</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00024">MTScriptName</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -437,8 +457,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e5b41f27617119c832debc7577c7457a.html">Mails</a></li><li class="navelem"><a class="el" href="../../dc/dd6/a02309.html">Mail.h</a></li>
-    <li class="footer">Generated on Mon Oct 7 2024 20:40:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ddeb450e5fe586f747c0635391d1d1d6.html">EasternKingdoms</a></li><li class="navelem"><a class="el" href="../../dir_4833a0d44326dadb3d342e780b1ab9c5.html">MagistersTerrace</a></li><li class="navelem"><a class="el" href="../../dc/dd6/a02309.html">magisters_terrace.h</a></li>
+    <li class="footer">Generated on Mon Oct 14 2024 20:40:32 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

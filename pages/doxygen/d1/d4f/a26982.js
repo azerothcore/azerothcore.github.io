@@ -1,7 +1,9 @@
 var a26982 =
 [
-    [ "CharacterDeleteActionIpLogger", "d1/d4f/a26982.html#a37481de65409cf375dcff45615463949", null ],
-    [ "DeleteIPLogAction", "d1/d4f/a26982.html#a73a5ddacd8892d2300be313cfc12f534", null ],
-    [ "OnDelete", "d1/d4f/a26982.html#a35ea1362df09fccf0c4cee2e9ef6deb9", null ],
-    [ "OnFailedDelete", "d1/d4f/a26982.html#a34efd44289746078fdcfae63641b5580", null ]
+    [ "emerald_dragonAI", "d1/d4f/a26982.html#ae80aa90ad978b8e3254a3c116bf05959", null ],
+    [ "ExecuteEvent", "d1/d4f/a26982.html#a6e60f146c7b86a119f269bf755831ac6", null ],
+    [ "JustSummoned", "d1/d4f/a26982.html#a4ec04284cdebfc5b594e083aa850f7cb", null ],
+    [ "KilledUnit", "d1/d4f/a26982.html#a69b24bf865ecd38822d5602314cddf11", null ],
+    [ "Reset", "d1/d4f/a26982.html#aff24939b53a7d74b41ac9170a8a71e9c", null ],
+    [ "UpdateAI", "d1/d4f/a26982.html#a221768f9ad3c79bbcdefd3092228e3b0", null ]
 ];

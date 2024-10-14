@@ -1,10 +1,7 @@
 var a13330 =
 [
-    [ "npc_sentinel_leader", "dd/d99/a13330.html#a583c43b047dd5c172938d60ef647ecd5", null ],
-    [ "JustEngagedWith", "dd/d99/a13330.html#a92c83a7fcc04df1db3be1d16f4a461d0", null ],
-    [ "MovementInform", "dd/d99/a13330.html#a6d51ada16fac1f5eda8b09aede746a4b", null ],
-    [ "Reset", "dd/d99/a13330.html#ad638ba6ce33753af6a0165c053a90d78", null ],
-    [ "UpdateAI", "dd/d99/a13330.html#aa689bb8189eb8cf842a0aa63bb9f1a73", null ],
-    [ "_events", "dd/d99/a13330.html#ada65bdf153ae9b3262b0f55fb540be17", null ],
-    [ "_helpCalled", "dd/d99/a13330.html#a803c324e790cd74e90ff6c2adde37ba3", null ]
+    [ "npc_ranger_lilatha", "dd/d99/a13330.html#abd13a89b41a289edefb9bc21588f8d29", null ],
+    [ "Reset", "dd/d99/a13330.html#a3e804e483b51961193ee1079caba40be", null ],
+    [ "sQuestAccept", "dd/d99/a13330.html#acc38d4feacb5e7fa5ce9658b10447c4d", null ],
+    [ "WaypointReached", "dd/d99/a13330.html#a193bd47c7d7c4fb3d832a59bf55e8412", null ]
 ];

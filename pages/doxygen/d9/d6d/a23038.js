@@ -1,5 +1,6 @@
 var a23038 =
 [
-    [ "PrepareSpellScript", "d9/d6d/a23038.html#a0482d714ce0b4cfd81b2fc7fa8c87f0d", null ],
-    [ "Register", "d9/d6d/a23038.html#a7aa83bfd512ee0ff839f61bafe6dd27b", null ]
+    [ "OnPeriodic", "d9/d6d/a23038.html#a4d3d6350a06b6c7382792670c04e38e1", null ],
+    [ "PrepareAuraScript", "d9/d6d/a23038.html#ac9231c238adf7e733d55bc6098daddc0", null ],
+    [ "Register", "d9/d6d/a23038.html#aa6aa32b3adc89ac405f071fa9b804778", null ]
 ];

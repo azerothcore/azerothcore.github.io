@@ -1,6 +1,6 @@
 var a16510 =
 [
-    [ "boss_dredAI", "dc/d25/a16514.html", "dc/d25/a16514" ],
-    [ "boss_dred", "da/df6/a16510.html#a60a913f53c63f95680c29c72f48f9a1a", null ],
-    [ "GetAI", "da/df6/a16510.html#ab8276b185f80a92a54327ea28b19c704", null ]
+    [ "OnPeriodic", "da/df6/a16510.html#ab71faf6fb2900e176aac245317113758", null ],
+    [ "PrepareAuraScript", "da/df6/a16510.html#a5b4bf1fe2987cdebedaa2e7d048742d6", null ],
+    [ "Register", "da/df6/a16510.html#a8b90810bfc5416cdfeac2f6a72c55d3e", null ]
 ];

@@ -1,5 +1,6 @@
 var a17106 =
 [
-    [ "achievement_snakes_whyd_it_have_to_be_snakes", "d4/d05/a17106.html#a4245e53260b83f77f9b4313e13f1f7d3", null ],
-    [ "OnCheck", "d4/d05/a17106.html#a1bc62ef6dbdb98b9ca8ea3f3bfc742b0", null ]
+    [ "npc_dark_nucleusAI", "de/d71/a17110.html", "de/d71/a17110" ],
+    [ "npc_dark_nucleus", "d4/d05/a17106.html#a14459f4f41ef568decbc952fdcd4ffd5", null ],
+    [ "GetAI", "d4/d05/a17106.html#a1f59ae45c1a84a6faca5a8bb62fc16fc", null ]
 ];

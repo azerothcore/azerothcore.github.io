@@ -1,7 +1,6 @@
 var a16314 =
 [
-    [ "npc_toc_rogueAI", "d7/d89/a16314.html#a34027e7d10edbfba8e046f4785e37899", null ],
-    [ "myCanCast", "d7/d89/a16314.html#a85ed8e251dd8356e678536f1e3f3c93d", null ],
-    [ "UpdateAI", "d7/d89/a16314.html#a49b0655def227684f07bd60a3c1e0ce1", null ],
-    [ "events", "d7/d89/a16314.html#a1519bebb81b64d57b2b0b34a059b83f8", null ]
+    [ "npc_fel_infernalAI", "d3/d7e/a16318.html", "d3/d7e/a16318" ],
+    [ "npc_fel_infernal", "d7/d89/a16314.html#a2d2ed8cf09c97d30b6c79dcdf9153ed9", null ],
+    [ "GetAI", "d7/d89/a16314.html#a768201a7516c9972800c941cf2079a11", null ]
 ];

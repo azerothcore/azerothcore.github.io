@@ -1,6 +1,8 @@
 var a18406 =
 [
-    [ "PeriodicTick", "d8/dfd/a18406.html#ac0b2cf06027c2f658745d6a90dfc76a1", null ],
-    [ "PrepareAuraScript", "d8/dfd/a18406.html#a0767ac60151517b803e871a0fcb25967", null ],
-    [ "Register", "d8/dfd/a18406.html#afd1e28b224035aef5ac109f38d7e118d", null ]
+    [ "npc_rotting_frost_giantAI", "d8/dfd/a18406.html#a7b412075e17a81bf50aba63f96c16e53", null ],
+    [ "JustDied", "d8/dfd/a18406.html#a68b4e823de82fdfd31ccf765192e8768", null ],
+    [ "Reset", "d8/dfd/a18406.html#ae96994e7c02a1fb8df8ef9fe80d7bc41", null ],
+    [ "UpdateAI", "d8/dfd/a18406.html#a7bb99a6ff894c085bf3fb2e2708f3914", null ],
+    [ "_events", "d8/dfd/a18406.html#ab061ea54c2b36f6f1c2ec7841202e684", null ]
 ];

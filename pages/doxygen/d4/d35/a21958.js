@@ -1,12 +1,9 @@
 var a21958 =
 [
-    [ "npc_your_inner_turmoilAI", "d4/d35/a21958.html#a95e8039b174f6db267197e04b6bd2dd2", null ],
-    [ "DamageTaken", "d4/d35/a21958.html#a0e14a306db46e817e6d8f7a358519f83", null ],
-    [ "JustDied", "d4/d35/a21958.html#a142359bf1661542d044a7d27b764832b", null ],
-    [ "Reset", "d4/d35/a21958.html#a4e17e9642ec11712652f41495974b716", null ],
-    [ "setphase", "d4/d35/a21958.html#a17c00619bcf5818e49f67d4d8b8b35b0", null ],
-    [ "UpdateAI", "d4/d35/a21958.html#a2a4b20fccb4b5ef0f590f0a7ee92e4d2", null ],
-    [ "health50", "d4/d35/a21958.html#af5a9e355c2a5a927d38ea22fe96d89f0", null ],
-    [ "phase", "d4/d35/a21958.html#a60212e1504bcb6f7db05ba5ed09df71f", null ],
-    [ "timer", "d4/d35/a21958.html#af2c272de51aa15a41af9837f99256a62", null ]
+    [ "npc_lord_areteAI", "d4/d35/a21958.html#aebdbf8f4c2fe6948c78315e6b404119b", null ],
+    [ "InitializeAI", "d4/d35/a21958.html#a22d0c3e2445bff2d742b28bd99f37394", null ],
+    [ "UpdateAI", "d4/d35/a21958.html#a5cba8d4429ae191dd5b90ca5a4fe2866", null ],
+    [ "_landgrenGUID", "d4/d35/a21958.html#ac0e3753096dfe779024acc8400791171", null ],
+    [ "_landgrenSoulGUID", "d4/d35/a21958.html#aaa28c67691610136f0b418b30892f3cd", null ],
+    [ "events", "d4/d35/a21958.html#ae4ec90b30320cf0aeaec4415c4125605", null ]
 ];

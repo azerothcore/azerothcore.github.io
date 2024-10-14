@@ -1,13 +1,12 @@
 var a16114 =
 [
-    [ "npc_toc5_player_vehicleAI", "d6/d78/a16114.html#a38b9f917c253ceba275461841dbce96a", null ],
-    [ "AttackStart", "d6/d78/a16114.html#a508dc2b74c541f3ceb2adab52e04fc08", null ],
-    [ "JustEngagedWith", "d6/d78/a16114.html#a27c08c7bd31f9dd369c2bc48c2ad9d03", null ],
-    [ "MoveInLineOfSight", "d6/d78/a16114.html#a89b0d57bc63cbc3b4992a590546cb559", null ],
-    [ "OnCharmed", "d6/d78/a16114.html#ace805882a25a9d075d811714e607fa2b", null ],
-    [ "PassengerBoarded", "d6/d78/a16114.html#aca35804df751185193ff5865255d3687", null ],
-    [ "Reset", "d6/d78/a16114.html#a5439b98d544124836d2cf9762f764cea", null ],
-    [ "UpdateAI", "d6/d78/a16114.html#a8e537b6870f06a44718114a30fd149f8", null ],
-    [ "conditions", "d6/d78/a16114.html#a921cb8a3611224645d473ea516db0b7a", null ],
-    [ "m_ConditionsTimer", "d6/d78/a16114.html#a9989e1efd5f319dbc73ee9e01b0bb937", null ]
+    [ "npc_swarm_scarabAI", "d6/d78/a16114.html#a0d0cefd52543044773e7df772f90fd37", null ],
+    [ "CanAIAttack", "d6/d78/a16114.html#a95a27742f4f7fa1af45964b6270a9558", null ],
+    [ "DoAction", "d6/d78/a16114.html#ac1fe6742ef1e7bdee4c81a3933a31659", null ],
+    [ "JustDied", "d6/d78/a16114.html#a0fe99c71cac6d3ee8d360f0d46d03fcd", null ],
+    [ "JustEngagedWith", "d6/d78/a16114.html#a585e1e8800e97b2aa3d6c893d54c1d2b", null ],
+    [ "Reset", "d6/d78/a16114.html#aa24cc2f2b7aa4c5c534e8d2ce2957237", null ],
+    [ "UpdateAI", "d6/d78/a16114.html#aa33d9e101ba7de2a25a6213baccf6df1", null ],
+    [ "despawnTimer", "d6/d78/a16114.html#a6d35e43af695ac112b972badb665f06d", null ],
+    [ "determinationTimer", "d6/d78/a16114.html#af319dbf16bc1d3939602465f0a87d30c", null ]
 ];

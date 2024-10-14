@@ -1,4 +1,5 @@
 var a00755 =
 [
-    [ "ScriptRegistry< GroupScript >", "d2/ddd/a00755.html#a6ad2435b6116a997a5bacd47b955d688", null ]
+    [ "item_commandscript", "df/d0d/a11358.html", "df/d0d/a11358" ],
+    [ "AddSC_item_commandscript", "d2/ddd/a00755.html#ad129450eb89b9c3e5c98717b2c44de8e", null ]
 ];

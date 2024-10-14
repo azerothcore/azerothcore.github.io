@@ -1,6 +1,8 @@
 var a26810 =
 [
-    [ "HandleOnHit", "d2/db2/a26810.html#a94893e6dd048f0028540e5ce15ed7b1d", null ],
-    [ "PrepareSpellScript", "d2/db2/a26810.html#a999b019665dec9b0690a1019be428072", null ],
-    [ "Register", "d2/db2/a26810.html#ab21c47d1918a9e29ebe7b041421deaf7", null ]
+    [ "HandleEffect", "d2/db2/a26810.html#a1c1a06362742abcf83e1817c468de3d3", null ],
+    [ "PrepareSpellScript", "d2/db2/a26810.html#a0e2cce13a3b2c8b8e9ace8876def8b9c", null ],
+    [ "Register", "d2/db2/a26810.html#a56108b37bc69809ce80d424e2bcb3f55", null ],
+    [ "SendMiss", "d2/db2/a26810.html#afda727460aebc8fe97d5c18d0195ea2c", null ],
+    [ "Validate", "d2/db2/a26810.html#ab9533351a176f4e0d641a6e36a75d6b9", null ]
 ];

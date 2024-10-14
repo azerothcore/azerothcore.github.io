@@ -1,11 +1,9 @@
 var a22610 =
 [
-    [ "boss_talon_king_ikiss", "d3/dc6/a22610.html#acf8cbda5f7a33c026bfc0d6e7b31f43c", null ],
-    [ "CanAIAttack", "d3/dc6/a22610.html#ab4858d845f149b6333941d8f8ab59afb", null ],
-    [ "JustDied", "d3/dc6/a22610.html#ada1d993842d04453d6afad91e186a3fe", null ],
-    [ "JustEngagedWith", "d3/dc6/a22610.html#a325312ce6695435fcca701720434c64f", null ],
-    [ "KilledUnit", "d3/dc6/a22610.html#ae8d94f89a67f3a321c88327c076ddd77", null ],
-    [ "MoveInLineOfSight", "d3/dc6/a22610.html#ab13808b75b1ca79b856e5b2e64e67d89", null ],
-    [ "Reset", "d3/dc6/a22610.html#adcb1dca375ec548499da5a7690babc21", null ],
-    [ "_spoken", "d3/dc6/a22610.html#a3e9e3a8575dbf21262ba2b4226182373", null ]
+    [ "instance_shadow_labyrinth_InstanceMapScript", "d3/dc6/a22610.html#ada5f19c96bfe623b110389ede032ef53", null ],
+    [ "GetData", "d3/dc6/a22610.html#ad876ebd581c470f5a3075129076bd1fb", null ],
+    [ "Initialize", "d3/dc6/a22610.html#a9dc908fdaef98aa6eb81fd1709eee9e4", null ],
+    [ "OnCreatureCreate", "d3/dc6/a22610.html#a118b4a7a7c872327ec2868c5b0417636", null ],
+    [ "OnUnitDeath", "d3/dc6/a22610.html#a4275afcc93c5281d9865601a2d9dabaa", null ],
+    [ "_ritualistsAliveCount", "d3/dc6/a22610.html#a7752d5bfe1d1c5eef2c450df7677a69e", null ]
 ];

@@ -1,9 +1,9 @@
 var a24342 =
 [
-    [ "npc_pet_gen_soul_trader_beacon", "d1/d80/a24342.html#a58ef19b8c08aee764bdd55e480d9d750", null ],
-    [ "GetOwner", "d1/d80/a24342.html#a72bfd4cf6c734d1f1070a1560131667d", null ],
-    [ "SpellHitTarget", "d1/d80/a24342.html#a6c0d3181b913c5022325f66586f66bfa", null ],
-    [ "UpdateAI", "d1/d80/a24342.html#a18c06958e6b3d4306a6fdb5f9924d7ff", null ],
-    [ "events", "d1/d80/a24342.html#ae0a6d4850a0a0da4bd04227b11bae9e4", null ],
-    [ "ownerGUID", "d1/d80/a24342.html#a3a42e83216c0111a740a0c89e57c6f62", null ]
+    [ "npc_pet_gen_fetch_ball", "d1/d80/a24342.html#a4cd4dabd5df72ad1e64bdc8d6efb2f1b", null ],
+    [ "IsSummonedBy", "d1/d80/a24342.html#abaf6308f7c47fd05acb86055bec0aea8", null ],
+    [ "SpellHitTarget", "d1/d80/a24342.html#a87bdded236f6584d9b71507a1253f7d0", null ],
+    [ "UpdateAI", "d1/d80/a24342.html#a1e0f75d5cd438d500ad94c5024bf83ae", null ],
+    [ "checkTimer", "d1/d80/a24342.html#ab8d0a3a9ba2a8e0d6f58b3867f20974e", null ],
+    [ "targetGUID", "d1/d80/a24342.html#ae474374af7c2270e218ed236d90c789c", null ]
 ];

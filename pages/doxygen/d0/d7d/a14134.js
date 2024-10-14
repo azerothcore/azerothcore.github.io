@@ -1,5 +1,6 @@
 var a14134 =
 [
-    [ "at_bring_your_orphan_to", "d0/d7d/a14134.html#a160aae23dd3423dbc1afc8e3f8dbec7c", null ],
-    [ "OnTrigger", "d0/d7d/a14134.html#af5cb73f6ba0657eff8809711a5dba84c", null ]
+    [ "HandleScript", "d0/d7d/a14134.html#a465272dc4e693ab5ce5abd5a3905283b", null ],
+    [ "PrepareSpellScript", "d0/d7d/a14134.html#a26b296c1c4d9f5193dc3773509267284", null ],
+    [ "Register", "d0/d7d/a14134.html#aad66e4079ea9404b9057546d8959a395", null ]
 ];

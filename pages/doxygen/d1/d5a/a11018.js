@@ -1,6 +1,6 @@
 var a11018 =
 [
-    [ "EffectCalcPeriodicHandler", "d1/d5a/a11018.html#a17288ee3b2951f1f2a8dc36a598b9a27", null ],
-    [ "Call", "d1/d5a/a11018.html#a6a7eeb9599a10aa4ab918a2c2456a186", null ],
-    [ "pEffectHandlerScript", "d1/d5a/a11018.html#a57673f457c08edfbf7fc1877aa071721", null ]
+    [ "EffectCalcAmountHandler", "d1/d5a/a11018.html#a4fe66bbf0433e80b602683a278e3a709", null ],
+    [ "Call", "d1/d5a/a11018.html#a4b5af2593dcb80930c6a45b7035767ca", null ],
+    [ "pEffectHandlerScript", "d1/d5a/a11018.html#aa52c8c780dcc157e16d11f8222706f7a", null ]
 ];

@@ -1,5 +1,12 @@
 var a16526 =
 [
-    [ "achievement_better_off_dred", "d1/d9e/a16526.html#a1ff3442ab3e166a4001c4c10777bdf8a", null ],
-    [ "OnCheck", "d1/d9e/a16526.html#a9aab68b43fbf9f3c71c237b149f23b2d", null ]
+    [ "boss_trollgoreAI", "d1/d9e/a16526.html#a958deb54a8460cc2dc61958bd9acb338", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "d1/d9e/a16526.html#a39be832be97a27a3358c2f6c939ca728", null ],
+    [ "JustDied", "d1/d9e/a16526.html#a32a309084b6b7c4b4e5db10d9c8a95bd", null ],
+    [ "JustEngagedWith", "d1/d9e/a16526.html#a25414dc1b13aa1372e397c5cb11afdaa", null ],
+    [ "JustSummoned", "d1/d9e/a16526.html#abd2199877e0e1465a7e5783b80ad2a44", null ],
+    [ "KilledUnit", "d1/d9e/a16526.html#aa65d03d8879c6177753b8316c1343ad4", null ],
+    [ "Reset", "d1/d9e/a16526.html#a4fe22aebe6e814196ac1914d158a62de", null ],
+    [ "UpdateAI", "d1/d9e/a16526.html#a3fa3247442edb81136647f7fdf5834cf", null ],
+    [ "events2", "d1/d9e/a16526.html#a94e8c9616ac332f33f2b976c074092af", null ]
 ];

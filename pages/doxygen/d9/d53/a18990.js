@@ -1,11 +1,8 @@
 var a18990 =
 [
-    [ "boss_patchwerkAI", "d9/d53/a18990.html#a74dfcf9ef921aa2a53d877c0e5ee9a34", null ],
-    [ "JustDied", "d9/d53/a18990.html#aaed18187aa8e0058c70b29b1ccbe955f", null ],
-    [ "JustEngagedWith", "d9/d53/a18990.html#a1317cb819d6247f62e0c6c725157db30", null ],
-    [ "KilledUnit", "d9/d53/a18990.html#a17ccb5b2a1841656813a9408f5a05c4e", null ],
-    [ "Reset", "d9/d53/a18990.html#a1d03058bf53e670f4fe9384e9f047891", null ],
-    [ "UpdateAI", "d9/d53/a18990.html#a2db0df50a0faa88ebeaa035ea048157e", null ],
-    [ "events", "d9/d53/a18990.html#a00c98ee5cdb3c512ba0d92a48d441006", null ],
-    [ "pInstance", "d9/d53/a18990.html#a78a3e9a6ef289e82c3ccaedc4399607a", null ]
+    [ "HandleAfterCast", "d9/d53/a18990.html#ac816f81a668ac3018be8f5dc4698039b", null ],
+    [ "HandleDummy", "d9/d53/a18990.html#a3009faa525c22779a0b2534b96821cfd", null ],
+    [ "PrepareSpellScript", "d9/d53/a18990.html#aca38f23f080314ab73ec2494bf877716", null ],
+    [ "Register", "d9/d53/a18990.html#aa87e57dabec6e83029f4dd84913f22ca", null ],
+    [ "Validate", "d9/d53/a18990.html#af945e399992deb3aef5c81ad393ee50f", null ]
 ];

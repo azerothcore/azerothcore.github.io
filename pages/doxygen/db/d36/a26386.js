@@ -1,6 +1,7 @@
 var a26386 =
 [
-    [ "HandleTriggerSpell", "db/d36/a26386.html#acd2d96959b0d8e9bf9968662218f36a1", null ],
-    [ "PrepareAuraScript", "db/d36/a26386.html#afea43ae4a9b9e64ed8e85627d5523a1e", null ],
-    [ "Register", "db/d36/a26386.html#ace951b4fcd48b7d4434a387d666bed9b", null ]
+    [ "HandleDummy", "db/d36/a26386.html#a4c837e7342603519d1f23ab8702c3160", null ],
+    [ "PrepareSpellScript", "db/d36/a26386.html#ae9d6ab0c9b9cf87f7b86f28e9bb25371", null ],
+    [ "Register", "db/d36/a26386.html#a16a5ca3ec9a8c463c9a2975fa29eb1e9", null ],
+    [ "Validate", "db/d36/a26386.html#ad742f4ce0d0db70427f7ba849a4526df", null ]
 ];

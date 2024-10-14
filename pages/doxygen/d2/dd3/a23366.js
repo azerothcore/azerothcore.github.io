@@ -1,12 +1,11 @@
 var a23366 =
 [
-    [ "boss_swamplord_muselek", "d2/dd3/a23366.html#a94ca982b8b9c1785a59040d23e72fc0e", null ],
-    [ "AttackStart", "d2/dd3/a23366.html#a0732fdf14c972ae955eb43417a6d86a1", null ],
-    [ "CanShootVictim", "d2/dd3/a23366.html#af84af5e4b344fc5f5da9f2047519710a", null ],
-    [ "JustDied", "d2/dd3/a23366.html#a4020748c43bf03cb338e3d64a1dfd840", null ],
-    [ "JustEngagedWith", "d2/dd3/a23366.html#a7b22bff5b78dcd1e5e1cc42858735655", null ],
-    [ "KilledUnit", "d2/dd3/a23366.html#a9f2afd6aacb9befa956079a42fbace37", null ],
-    [ "Reset", "d2/dd3/a23366.html#a6e03d7feca2de668c82d8f056d95fc6a", null ],
-    [ "_canChase", "d2/dd3/a23366.html#aca3298f0e9bbbd7366f4e6456cfff621", null ],
-    [ "_markTarget", "d2/dd3/a23366.html#a957d3f9ad935dbfa0537c75e39316ce3", null ]
+    [ "boss_gruul", "d2/dd3/a23366.html#a9a14e75144c79d7ad4f65192edd385f9", null ],
+    [ "JustDied", "d2/dd3/a23366.html#a92d9e524dfaa0e4a22daf9b7bc6ac10d", null ],
+    [ "JustEngagedWith", "d2/dd3/a23366.html#afb0cc9bb5acad80cea8d3e572d45da94", null ],
+    [ "KilledUnit", "d2/dd3/a23366.html#afec4bb1b631cab0b167afb7cc2578b7d", null ],
+    [ "Reset", "d2/dd3/a23366.html#ace9cf892fc1cc345d6f82d6e9816e301", null ],
+    [ "UpdateAI", "d2/dd3/a23366.html#a3503b84f4fb896d439ccd49a997e4087", null ],
+    [ "_caveInTimer", "d2/dd3/a23366.html#a66766f93a5ff543bbb0c9b805aaf253c", null ],
+    [ "_recentlySpoken", "d2/dd3/a23366.html#a411ec67153dd4715eb397a420c45bb12", null ]
 ];

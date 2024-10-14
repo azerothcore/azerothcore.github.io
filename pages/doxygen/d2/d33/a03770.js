@@ -1,16 +1,9 @@
 var a03770 =
 [
-    [ "npc_corporal_keeshan", "d3/ddc/a13378.html", "d3/ddc/a13378" ],
-    [ "npc_corporal_keeshan::npc_corporal_keeshanAI", "d7/d3e/a13382.html", "d7/d3e/a13382" ],
-    [ "CorporalKeeshan", "d2/d33/a03770.html#aeff5ef215a48fcd7bb6837e1d77e4b45", [
-      [ "QUEST_MISSING_IN_ACTION", "d2/d33/a03770.html#aeff5ef215a48fcd7bb6837e1d77e4b45a5671553041dd72c404603a8d8306d210", null ],
-      [ "SAY_CORPORAL_1", "d2/d33/a03770.html#aeff5ef215a48fcd7bb6837e1d77e4b45ac38c6d842f842737e2ce32328ac9f364", null ],
-      [ "SAY_CORPORAL_2", "d2/d33/a03770.html#aeff5ef215a48fcd7bb6837e1d77e4b45a0f3bc1435df322537b377cf731568c3f", null ],
-      [ "SAY_CORPORAL_3", "d2/d33/a03770.html#aeff5ef215a48fcd7bb6837e1d77e4b45ac9f16a476377703de75fca38efc30445", null ],
-      [ "SAY_CORPORAL_4", "d2/d33/a03770.html#aeff5ef215a48fcd7bb6837e1d77e4b45af4b07584ff68de1c2cb9c2ffc72b0dbe", null ],
-      [ "SAY_CORPORAL_5", "d2/d33/a03770.html#aeff5ef215a48fcd7bb6837e1d77e4b45a6b6a9b8fdd7d72951451c7ae86adc8bf", null ],
-      [ "SPELL_MOCKING_BLOW", "d2/d33/a03770.html#aeff5ef215a48fcd7bb6837e1d77e4b45a187756168a83876d24db61f38ff5ec5e", null ],
-      [ "SPELL_SHIELD_BASH", "d2/d33/a03770.html#aeff5ef215a48fcd7bb6837e1d77e4b45a0d74cfe7662c959a043f01770a2c7bf4", null ]
-    ] ],
-    [ "AddSC_redridge_mountains", "d2/d33/a03770.html#a0e7af4a9a0f1dcec20ae3d284f9721c5", null ]
+    [ "DynamicObject", "d6/d41/a07898.html", "d6/d41/a07898" ],
+    [ "DynamicObjectType", "d2/d33/a03770.html#aee85c2f840289bcf773609333ee91131", [
+      [ "DYNAMIC_OBJECT_PORTAL", "d2/d33/a03770.html#aee85c2f840289bcf773609333ee91131a241a99bd67606cb106b003bab51e3a5b", null ],
+      [ "DYNAMIC_OBJECT_AREA_SPELL", "d2/d33/a03770.html#aee85c2f840289bcf773609333ee91131a7fb219efa9ce6ad8dc94e20c1feff546", null ],
+      [ "DYNAMIC_OBJECT_FARSIGHT_FOCUS", "d2/d33/a03770.html#aee85c2f840289bcf773609333ee91131a59fbc7f63f5d2715fbc29110f393168d", null ]
+    ] ]
 ];

@@ -1,5 +1,7 @@
 var a24310 =
 [
-    [ "npc_pet_dk_ghoulAI", "d0/d30/a24310.html#a7e747ba9e709eb532b0c16c8a1c1763a", null ],
-    [ "JustDied", "d0/d30/a24310.html#a7d964fafeb0a7746a7749a9e0eb93080", null ]
+    [ "npc_pet_gen_target_following_bomb", "d0/d30/a24310.html#a447c2cd258d784ca1d79c79412a1a426", null ],
+    [ "UpdateAI", "d0/d30/a24310.html#ac68f18d68a313623c04e885f9506f287", null ],
+    [ "bombSpellId", "d0/d30/a24310.html#a3c72bd26c66d3e7a85f3152557e399c4", null ],
+    [ "checkTimer", "d0/d30/a24310.html#a694ee5f884f1bd404f0ef3d3030a212f", null ]
 ];

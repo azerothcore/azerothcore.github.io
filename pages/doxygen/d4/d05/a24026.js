@@ -1,7 +1,7 @@
 var a24026 =
 [
-    [ "npc_creditmarker_visit_with_ancestorsAI", "d4/d05/a24026.html#a483e8fb0d73561e34a1078fdde1a1b5b", null ],
-    [ "JustEngagedWith", "d4/d05/a24026.html#a4038d707731f64f588e307c22c859902", null ],
-    [ "MoveInLineOfSight", "d4/d05/a24026.html#a40d92122cd4f879f52ff78a4f172c3b8", null ],
-    [ "Reset", "d4/d05/a24026.html#a29132346f117ba785039057619edb9e7", null ]
+    [ "npc_maxx_a_million_escortAI", "df/d4b/a24030.html", "df/d4b/a24030" ],
+    [ "npc_maxx_a_million_escort", "d4/d05/a24026.html#a958a88b495594dd8e14919d950ac917a", null ],
+    [ "GetAI", "d4/d05/a24026.html#af79619087908d442f503e0b0d633937d", null ],
+    [ "OnQuestAccept", "d4/d05/a24026.html#af3c2f2708702f7d25e712c63a45e69e0", null ]
 ];

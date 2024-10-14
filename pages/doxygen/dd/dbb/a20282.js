@@ -1,6 +1,12 @@
 var a20282 =
 [
-    [ "OnPeriodic", "dd/dbb/a20282.html#a8a12342f694499043e8ed4446fd92d36", null ],
-    [ "PrepareAuraScript", "dd/dbb/a20282.html#a9294210ece0c3bcda0639d1fc486cc9a", null ],
-    [ "Register", "dd/dbb/a20282.html#a381709d53101832de6b2161c4a33a0d4", null ]
+    [ "npc_ulduar_proximity_mineAI", "dd/dbb/a20282.html#aa3001a71c8a298be688631d618745495", null ],
+    [ "AttackStart", "dd/dbb/a20282.html#afe5572c8fd1f8acc64ca57304d8be254", null ],
+    [ "CanAIAttack", "dd/dbb/a20282.html#a0216f41bf596eb43a9b9eea13152d262", null ],
+    [ "MoveInLineOfSight", "dd/dbb/a20282.html#afe07e3cd341d6a84592ab9b33e02d6d5", null ],
+    [ "SpellHitTarget", "dd/dbb/a20282.html#aaf6c9c8843a61d29326ab6c662b174f9", null ],
+    [ "UpdateAI", "dd/dbb/a20282.html#adadc4c33ff356bd5eed6d82115dc888a", null ],
+    [ "exploded", "dd/dbb/a20282.html#a1706ff0cfd7192040c32f13a37610c43", null ],
+    [ "timer", "dd/dbb/a20282.html#a4c743646055b4c95bf379a751eb5892e", null ],
+    [ "timer2", "dd/dbb/a20282.html#a446b7658fa4c165f43947a05562827b2", null ]
 ];

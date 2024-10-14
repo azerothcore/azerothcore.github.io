@@ -1,5 +1,8 @@
 var a01895 =
 [
-    [ "keyData", "dd/d1c/a11158.html", "dd/d1c/a11158" ],
-    [ "GetWardenActionStr", "db/d29/a01895.html#a4e3c0063e5bf94a2e640c7b887fe14fc", null ]
+    [ "instance_the_botanica", "dc/d33/a23670.html", "dc/d33/a23670" ],
+    [ "instance_the_botanica::instance_the_botanica_InstanceMapScript", "df/d1c/a23674.html", "df/d1c/a23674" ],
+    [ "spell_botanica_call_of_the_falcon_aura", "d4/d77/a23678.html", "d4/d77/a23678" ],
+    [ "spell_botanica_shift_form_aura", "d4/d75/a23682.html", "d4/d75/a23682" ],
+    [ "AddSC_instance_the_botanica", "db/d29/a01895.html#a42bac8d93a9aac296390fec4cb6b94cb", null ]
 ];

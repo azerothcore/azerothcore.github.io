@@ -1,6 +1,10 @@
 var a23174 =
 [
-    [ "FilterTargets", "db/dfe/a23174.html#af545460920658bc8ee0444f7c0d51970", null ],
-    [ "PrepareSpellScript", "db/dfe/a23174.html#a0bf365a43b99905fb7ae8152fe5b2687", null ],
-    [ "Register", "db/dfe/a23174.html#ac12cde698f5b0bbcdf433821772c7519", null ]
+    [ "Spells", "db/dfe/a23174.html#a70ca1841fb1db54e6f76b96331e05cf1", [
+      [ "SPELL_GROW", "db/dfe/a23174.html#a70ca1841fb1db54e6f76b96331e05cf1a287a03bdb61355baf071dd8aa5802ccd", null ],
+      [ "SPELL_SPORE_CLOUD", "db/dfe/a23174.html#a70ca1841fb1db54e6f76b96331e05cf1afae99ec87dcd6bdf3631b9f273fecbd5", null ]
+    ] ],
+    [ "npc_rancid_mushroom", "db/dfe/a23174.html#a15896957b94de57de9eda5a199a05d4c", null ],
+    [ "InitializeAI", "db/dfe/a23174.html#afff169ff9d7a8411cf6d21f4f9be2545", null ],
+    [ "UpdateAI", "db/dfe/a23174.html#a13bfd343bdf54c829b3fcb0a775c0852", null ]
 ];

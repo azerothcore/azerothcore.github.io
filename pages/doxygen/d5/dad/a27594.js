@@ -1,7 +1,5 @@
 var a27594 =
 [
-    [ "npc_crashin_thrashin_robot", "d5/dad/a27594.html#ad21336d212498b1c9ef5d46979d147ab", null ],
-    [ "IsSummonedBy", "d5/dad/a27594.html#a0652cd455791461f613ab4ebf77d2c3c", null ],
-    [ "UpdateAI", "d5/dad/a27594.html#a1d21cd2075f3aeba2c7f1e735a33dfec", null ],
-    [ "_scheduler", "d5/dad/a27594.html#a55778501d154d0a9e77f76054e926f85", null ]
+    [ "ID", "d5/dad/a27594.html#a4a79da5825cf01d38d6ab9d98e033964", null ],
+    [ "parentCategory", "d5/dad/a27594.html#a705e301dff461a8d7aefdc6fb29d39cc", null ]
 ];

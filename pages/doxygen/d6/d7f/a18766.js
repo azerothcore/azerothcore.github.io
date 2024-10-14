@@ -1,6 +1,6 @@
 var a18766 =
 [
-    [ "npc_isle_of_conquest_turretAI", "db/dc3/a18770.html", "db/dc3/a18770" ],
-    [ "npc_isle_of_conquest_turret", "d6/d7f/a18766.html#ac080845203adef25e6841133b7e2f4dc", null ],
-    [ "GetAI", "d6/d7f/a18766.html#a0f532e12439e900b3cb77619f1ecd17d", null ]
+    [ "boss_anubrekhanAI", "db/dc3/a18770.html", "db/dc3/a18770" ],
+    [ "boss_anubrekhan", "d6/d7f/a18766.html#a6ff866300f8b0b58d4b7467def9747c0", null ],
+    [ "GetAI", "d6/d7f/a18766.html#aba5c31f182d6f600302f84ed21e9f7e9", null ]
 ];

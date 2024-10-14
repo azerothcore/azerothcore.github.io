@@ -1,6 +1,6 @@
 var a19954 =
 [
-    [ "boss_freya_elder_ironbranchAI", "d9/d21/a19958.html", "d9/d21/a19958" ],
-    [ "boss_freya_elder_ironbranch", "d7/d45/a19954.html#a066083e4d6fde6439f7dce80be209075", null ],
-    [ "GetAI", "d7/d45/a19954.html#a67f483d12fe801c1d840dd0f74396564", null ]
+    [ "achievement_freya_knock_on_wood", "d7/d45/a19954.html#ae28517e151cc9ec2b25ff57513f32d29", null ],
+    [ "OnCheck", "d7/d45/a19954.html#a07e5edf9d53d200506ab1b0d0b2eaa9e", null ],
+    [ "_elderCount", "d7/d45/a19954.html#a5a3cc4dedbc2cc6be825579cbb0a09b5", null ]
 ];

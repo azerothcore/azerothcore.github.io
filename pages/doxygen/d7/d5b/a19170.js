@@ -1,14 +1,11 @@
 var a19170 =
 [
-    [ "boss_anomalusAI", "d7/d5b/a19170.html#a5f7d1b7b4d7c4d298b22dbf4c8d2e6a6", null ],
-    [ "CheckEvadeIfOutOfCombatArea", "d7/d5b/a19170.html#a68c052fcb1a9bc96d82a4284eec0d132", null ],
-    [ "GetData", "d7/d5b/a19170.html#a561ad0c1bfc31e9c9d04e07492a96bb2", null ],
-    [ "JustDied", "d7/d5b/a19170.html#ae079850413f8f0e87a8d3677a475ba95", null ],
-    [ "JustEngagedWith", "d7/d5b/a19170.html#a85da2f5caadf2d38b710a731f4ffe957", null ],
-    [ "JustSummoned", "d7/d5b/a19170.html#a2e5306347151100436907dc8ea6b7c86", null ],
-    [ "Reset", "d7/d5b/a19170.html#a3e2711ea84cc728716c9e207d8b35ccc", null ],
-    [ "SetData", "d7/d5b/a19170.html#a26500dd41960a99400606ceca91bf3e9", null ],
-    [ "UpdateAI", "d7/d5b/a19170.html#a5429e5d51739b00f92b00460335f6830", null ],
-    [ "achievement", "d7/d5b/a19170.html#a40fa36e5c5fc131e7c063e90ea2468a6", null ],
-    [ "activeRifts", "d7/d5b/a19170.html#a66e477fb306404cc544e13417c835138", null ]
+    [ "boss_ormorokAI", "d7/d5b/a19170.html#a629b681ef2d496a7f6753776ec5b21c9", null ],
+    [ "JustDied", "d7/d5b/a19170.html#a221d29715aae6ca4ee527cb0b5d427c7", null ],
+    [ "JustEngagedWith", "d7/d5b/a19170.html#a0c943024e4ae7c981002dfebc1d15a78", null ],
+    [ "JustSummoned", "d7/d5b/a19170.html#a2ebbf4ba1abfcbf8c57de9ac65801ce1", null ],
+    [ "KilledUnit", "d7/d5b/a19170.html#aed375e4abb47337674f8bb71bafa4ec8", null ],
+    [ "Reset", "d7/d5b/a19170.html#ae0059fe689513c1d8073c530f1971de1", null ],
+    [ "UpdateAI", "d7/d5b/a19170.html#ac799ad65e2ac9cbb807953763ad01013", null ],
+    [ "_spikesCount", "d7/d5b/a19170.html#ac054b6f3659d4f2d9ad1019433a86e59", null ]
 ];

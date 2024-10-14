@@ -1,6 +1,6 @@
 var a16162 =
 [
-    [ "npc_swarm_scarabAI", "d7/def/a16166.html", "d7/def/a16166" ],
-    [ "npc_swarm_scarab", "d0/d1f/a16162.html#a1d0969526e57ca50c9a499c83f978fd2", null ],
-    [ "GetAI", "d0/d1f/a16162.html#ae12fe8a7c6ee09fc16bd152f59c2d936", null ]
+    [ "HandleAfterHit", "d0/d1f/a16162.html#a72252694da7e453387e9d79d12e7e2a4", null ],
+    [ "PrepareSpellScript", "d0/d1f/a16162.html#aff18e189296f7379a8fde5ad6eab8ada", null ],
+    [ "Register", "d0/d1f/a16162.html#aa6c511fa8eb6d1123be1243bac7f0606", null ]
 ];

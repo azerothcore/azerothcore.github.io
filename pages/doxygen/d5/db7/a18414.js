@@ -1,8 +1,7 @@
 var a18414 =
 [
-    [ "FilterTargets", "d5/db7/a18414.html#aed8b741160cbf50dde84cf059c8b52cb", null ],
-    [ "HandleForceCast", "d5/db7/a18414.html#ae783cf255be823bf7c9125f288479e97", null ],
-    [ "Load", "d5/db7/a18414.html#ac8f92e9284abc56d55ecf3aa73d350f8", null ],
-    [ "PrepareSpellScript", "d5/db7/a18414.html#a68074978fe2c1b137c6ddfd7b9082bfc", null ],
-    [ "Register", "d5/db7/a18414.html#a454a8909be4bb85f255ea696041ea447", null ]
+    [ "npc_frost_freeze_trapAI", "d5/db7/a18414.html#a95c64fbbc97f55e4d0cd0b239939fdc6", null ],
+    [ "DoAction", "d5/db7/a18414.html#a8dbe0fc5c84f49363254562166c8c0a7", null ],
+    [ "UpdateAI", "d5/db7/a18414.html#ae8efccb090f38968f3c0ca51f022013b", null ],
+    [ "_events", "d5/db7/a18414.html#ae0abd3d7fcb51ac02f8d325efa93b2f2", null ]
 ];

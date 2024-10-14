@@ -1,6 +1,6 @@
 var a26070 =
 [
-    [ "HandleDummy", "d4/d6d/a26070.html#a1e9ecf50304f5ccd8578befea898bf81", null ],
-    [ "PrepareSpellScript", "d4/d6d/a26070.html#a9cf7d1dd37f6df4651ffc83e6aa0b1c0", null ],
-    [ "Register", "d4/d6d/a26070.html#a98a5ad12cdb54f48d6014fda3915fd70", null ]
+    [ "FilterTargets", "d4/d6d/a26070.html#a17626abdbc4066956b76945b11b3f0c6", null ],
+    [ "PrepareSpellScript", "d4/d6d/a26070.html#abfeb75060c1f930b33003dd1e458f882", null ],
+    [ "Register", "d4/d6d/a26070.html#a8e5146a57f181b17280d198bcd2e216d", null ]
 ];

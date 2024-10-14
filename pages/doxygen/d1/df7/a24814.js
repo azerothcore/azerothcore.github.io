@@ -1,5 +1,6 @@
 var a24814 =
 [
-    [ "PrepareSpellScript", "d1/df7/a24814.html#a41169895bb29fe136e3fb0c2dd50d9fb", null ],
-    [ "Register", "d1/df7/a24814.html#ab6a32b26cc0277f71a71b9fd1d567bf1", null ]
+    [ "CheckProc", "d1/df7/a24814.html#ad1678a96784add01965d67c3d86bcd77", null ],
+    [ "PrepareAuraScript", "d1/df7/a24814.html#a6e164a8e3482b566b776c5ffeeb1b6ac", null ],
+    [ "Register", "d1/df7/a24814.html#a148f3fe7ee4bdc8e148fe71100779e56", null ]
 ];

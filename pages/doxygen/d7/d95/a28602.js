@@ -1,24 +1,10 @@
 var a28602 =
 [
-    [ "TerrainBuilder", "d7/d95/a28602.html#aa902f249e17be94980cc0b06da42d47e", null ],
-    [ "~TerrainBuilder", "d7/d95/a28602.html#a731cd606fd85b176b116512a2ccf86ee", null ],
-    [ "TerrainBuilder", "d7/d95/a28602.html#a8f23adef45880c3cd771ce9d29054bd8", null ],
-    [ "cleanVertices", "d7/d95/a28602.html#a7a3f53367758b6effcc7899894c148de", null ],
-    [ "copyIndices", "d7/d95/a28602.html#a5f4139193ad3708e234414131aa3be55", null ],
-    [ "copyIndices", "d7/d95/a28602.html#a8d5bfc11e790aae74d7b81fb7db27061", null ],
-    [ "copyVertices", "d7/d95/a28602.html#a26207130b8e5807986b36ea148e84457", null ],
-    [ "getHeightCoord", "d7/d95/a28602.html#aecdd8a0ae2dab523925111197afe8835", null ],
-    [ "getHeightTriangle", "d7/d95/a28602.html#ab15913dd11a60078205a9fc76ce99203", null ],
-    [ "getLiquidCoord", "d7/d95/a28602.html#ae29c5c0538049382e6b75d0393a7714f", null ],
-    [ "getLiquidType", "d7/d95/a28602.html#a2d7e5ef7722ce2f78fda293af4e2d08d", null ],
-    [ "getLoopVars", "d7/d95/a28602.html#af47da985fc495b4a5fd8b32774e36b82", null ],
-    [ "isHole", "d7/d95/a28602.html#a219be095026945890d4f76163903ea2c", null ],
-    [ "loadHeightMap", "d7/d95/a28602.html#a5ddd947c48dae0acf29c952eca5ebe56", null ],
-    [ "loadMap", "d7/d95/a28602.html#ab6f3b100ee1a40173c2e77c6ee5a0da9", null ],
-    [ "loadMap", "d7/d95/a28602.html#a4071ed1464f7beb4d8567def275139e4", null ],
-    [ "loadOffMeshConnections", "d7/d95/a28602.html#a8df6feed791e1b6ca3ab46e6001c0f32", null ],
-    [ "loadVMap", "d7/d95/a28602.html#ae816d445265bde3c3866069bcd9e5184", null ],
-    [ "transform", "d7/d95/a28602.html#a6c25e949e12eba48d7e250ba99ce6e85", null ],
-    [ "usesLiquids", "d7/d95/a28602.html#ab869d655ea5cb7f9d32dff63ed4df779", null ],
-    [ "m_skipLiquid", "d7/d95/a28602.html#aa4feec2075cdb31e940f2cf3dc0d136a", null ]
+    [ "WDTFile", "d7/d95/a28602.html#a10c133d9b2f8d39cb6c2b3d8c2791b78", null ],
+    [ "~WDTFile", "d7/d95/a28602.html#a445fe73204fd378e2b63a83d9f5dca0a", null ],
+    [ "GetMap", "d7/d95/a28602.html#aa952c5bfe52a1aa851984a7e6dc963c9", null ],
+    [ "init", "d7/d95/a28602.html#a91a33f89cae35254f52e8c4f1c33e2cb", null ],
+    [ "_file", "d7/d95/a28602.html#a54ab64288144b9cf4904e67bb359e524", null ],
+    [ "_wmoNames", "d7/d95/a28602.html#a6ec4f95ff866585403670b620a42a857", null ],
+    [ "filename", "d7/d95/a28602.html#ab3dac8623598bac1152a514a00126bf6", null ]
 ];

@@ -1,8 +1,6 @@
 var a22602 =
 [
-    [ "npc_anzu_spirit", "da/dce/a22602.html#adb1b66d6bf6ec1991465f85a504397d5", null ],
-    [ "IsSummonedBy", "da/dce/a22602.html#a26f0928593f75d242c8bbcc541f7b59b", null ],
-    [ "Reset", "da/dce/a22602.html#acef3f7093f93b6c227d145523cdc487a", null ],
-    [ "UpdateAI", "da/dce/a22602.html#a9866d91ffc04548a96cfcdc3a5c7496a", null ],
-    [ "_scheduler", "da/dce/a22602.html#ad14937df9ddddabcf96e2d1104ca153c", null ]
+    [ "PrepareSpellScript", "da/dce/a22602.html#abd6b61e7efbed1427b7603640ac7d474", null ],
+    [ "RecalculateDamage", "da/dce/a22602.html#a02b59e5ac84c8556c9a9441ff6414461", null ],
+    [ "Register", "da/dce/a22602.html#ab6183bf9e49d3c11c256e54053c13aa2", null ]
 ];

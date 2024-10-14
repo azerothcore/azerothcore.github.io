@@ -1,8 +1,7 @@
 var a26610 =
 [
-    [ "CheckFireTotem", "d6/dda/a26610.html#a9d6b4368f5c72b95c25415ea87575fce", null ],
-    [ "HandleDummy", "d6/dda/a26610.html#a179d07e7090cec396a7845754e545e8e", null ],
-    [ "PrepareSpellScript", "d6/dda/a26610.html#a8311cc106da26267e90acd98698cb737", null ],
-    [ "Register", "d6/dda/a26610.html#abae5a4961888e6ba2d876e450307e362", null ],
-    [ "Validate", "d6/dda/a26610.html#a2048b0e43dbe2df6e4dfc42d912a74a7", null ]
+    [ "AfterRemove", "d6/dda/a26610.html#ad0bad4a07d5a65a7834e7ab46e082b20", null ],
+    [ "PrepareAuraScript", "d6/dda/a26610.html#af338af238305f1872275e1e5e9fdee16", null ],
+    [ "Register", "d6/dda/a26610.html#aa266e794be35b51a399b13ee2d06199d", null ],
+    [ "Validate", "d6/dda/a26610.html#af58098eb7a904e20846cf728f5adc18b", null ]
 ];

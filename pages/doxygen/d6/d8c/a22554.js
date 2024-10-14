@@ -1,9 +1,8 @@
 var a22554 =
 [
-    [ "npc_stolen_soul", "d6/d8c/a22554.html#a84a0bb8320b2332545748e010d855884", null ],
-    [ "DoAction", "d6/d8c/a22554.html#abcfed6b9b46ce48a15b31d062a1618f4", null ],
-    [ "Reset", "d6/d8c/a22554.html#a9f18ffbb42c988067b6dfa8355a4aba6", null ],
-    [ "UpdateAI", "d6/d8c/a22554.html#a7bf369dd943ee36600a364d56b85db5a", null ],
-    [ "_scheduler", "d6/d8c/a22554.html#ab62526916f0ccd681383d37d19d94ccc", null ],
-    [ "myClass", "d6/d8c/a22554.html#ab2ad92983075320ce389aa583c341d21", null ]
+    [ "boss_darkweaver_syth", "d6/d8c/a22554.html#a4f719165e07206c5a378412b3f82ff86", null ],
+    [ "JustDied", "d6/d8c/a22554.html#adf7e44e3fdc7241baa5f9eddafcb6d40", null ],
+    [ "JustEngagedWith", "d6/d8c/a22554.html#aaf6dab75e66734e930c5732749f3d69a", null ],
+    [ "KilledUnit", "d6/d8c/a22554.html#a1904c2596dd455f84625974beec4a2c8", null ],
+    [ "Reset", "d6/d8c/a22554.html#a484a6dea12ca9e5a20f0a0761461c1f5", null ]
 ];

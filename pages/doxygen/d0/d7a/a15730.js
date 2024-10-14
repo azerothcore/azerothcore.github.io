@@ -1,6 +1,25 @@
 var a15730 =
 [
-    [ "npc_anub_ar_crusherAI", "da/d84/a15734.html", "da/d84/a15734" ],
-    [ "npc_anub_ar_crusher", "d0/d7a/a15730.html#a3397fab6358ce8c19aecaad734e0ef78", null ],
-    [ "GetAI", "d0/d7a/a15730.html#aeb8eb3e39612d0f7059f1910033cbbcc", null ]
+    [ "boss_sartharionAI", "d0/d7a/a15730.html#aea51fa7b0e55c9ae635a95f7a1aea161", null ],
+    [ "DamageTaken", "d0/d7a/a15730.html#a0f16f9865159338c46e140c01650a728", null ],
+    [ "DoAction", "d0/d7a/a15730.html#af3c28d7eff6df494bbca6156df5fb014", null ],
+    [ "GetData", "d0/d7a/a15730.html#a6d45699d2efacdc0aca88dba3f67d20a", null ],
+    [ "IsTargetInBounds", "d0/d7a/a15730.html#a5ed942da2e53ecc63ec15fa8cf8c3325", null ],
+    [ "JustDied", "d0/d7a/a15730.html#ac0a2915976f7dfb21786c161d5e43d3f", null ],
+    [ "JustEngagedWith", "d0/d7a/a15730.html#a15c50a40ae2a6caa873993c6e330600c", null ],
+    [ "JustSummoned", "d0/d7a/a15730.html#ac5dc745f044bdf673b7f92b194063d94", null ],
+    [ "KilledUnit", "d0/d7a/a15730.html#a8502d5c79b7baac2f9a68349e99b7b16", null ],
+    [ "Reset", "d0/d7a/a15730.html#ab72889e00eb1fad659f807620e81e23e", null ],
+    [ "RespawnDragons", "d0/d7a/a15730.html#a5014e6aebdda3b84cd22fd2f66ed691b", null ],
+    [ "SendLavaWaves", "d0/d7a/a15730.html#a14384c3853570d0f7580d72d0008b986", null ],
+    [ "SetData", "d0/d7a/a15730.html#ad992cf36966069dc00d5509a54445213", null ],
+    [ "SummonLavaWaves", "d0/d7a/a15730.html#aadd3b8f29b49b67685d67036c5f2775f", null ],
+    [ "SummonStartingTriggers", "d0/d7a/a15730.html#a17f64c07e9c83c7e25bf9fba5b9f3ba4", null ],
+    [ "UpdateAI", "d0/d7a/a15730.html#a7aaca15038bf53ff3baaeb39c7713bff", null ],
+    [ "below11PctReached", "d0/d7a/a15730.html#ae838ffe0fdee72f4d4b1c02a9cbde949", null ],
+    [ "dragonsCount", "d0/d7a/a15730.html#a3bb9defa2a2a3acc6caadaaa361027ee", null ],
+    [ "extraEvents", "d0/d7a/a15730.html#a4d2e7a5aae63664e437c1e9ac22846cb", null ],
+    [ "lastLavaSide", "d0/d7a/a15730.html#ab9c3a5d19c966e547328ce2a28674069", null ],
+    [ "usedBerserk", "d0/d7a/a15730.html#a4790e98b3e8d02021b00e14aafec3aff", null ],
+    [ "volcanoBlows", "d0/d7a/a15730.html#a1d6e306084fb64742d28beb1f65ef338", null ]
 ];

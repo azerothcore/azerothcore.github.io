@@ -1,5 +1,6 @@
 var a20454 =
 [
-    [ "go_ulduar_working_harpoon", "dc/d1b/a20454.html#a9aaaa16f23f07e402f20a048fd69d347", null ],
-    [ "OnGossipHello", "dc/d1b/a20454.html#a164bdd0a9538293699665a821c4f25f3", null ]
+    [ "boss_thorim_lightning_orbAI", "d7/ded/a20458.html", "d7/ded/a20458" ],
+    [ "boss_thorim_lightning_orb", "dc/d1b/a20454.html#a2aa29e8d2b3fb10e8be39d8fc3112ac2", null ],
+    [ "GetAI", "dc/d1b/a20454.html#ad24d28866145c4fccf7a3971856fa87f", null ]
 ];

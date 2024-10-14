@@ -1,6 +1,6 @@
 var a22142 =
 [
-    [ "npc_bushwhackerAI", "d8/d2b/a22142.html#a0cf480b75aa45a9f3572c4a65df2daee", null ],
-    [ "InitializeAI", "d8/d2b/a22142.html#a18db5870e62378ff49472f7a5881861c", null ],
-    [ "UpdateAI", "d8/d2b/a22142.html#aadc3384626d728942897fe93750f0c02", null ]
+    [ "npc_frosthoundAI", "da/d7b/a22146.html", "da/d7b/a22146" ],
+    [ "npc_frosthound", "d8/d2b/a22142.html#a3266f5186d1db0c010f586d3272725a6", null ],
+    [ "GetAI", "d8/d2b/a22142.html#a49cd41753c715f166fc903df9dcfdd6b", null ]
 ];

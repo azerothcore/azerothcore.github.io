@@ -1,6 +1,6 @@
 var a13658 =
 [
-    [ "npc_janalai_firebombAI", "df/dc8/a13662.html", "df/dc8/a13662" ],
-    [ "npc_janalai_firebomb", "db/dde/a13658.html#aaed2bc116d1118e1240310d27241c0df", null ],
-    [ "GetAI", "db/dde/a13658.html#a2a8d7372062720032b2811eb98c90dec", null ]
+    [ "npc_zuljin_vortexAI", "df/dc8/a13662.html", "df/dc8/a13662" ],
+    [ "npc_zuljin_vortex", "db/dde/a13658.html#a0f58fde79a4110f90be45190355e6161", null ],
+    [ "GetAI", "db/dde/a13658.html#af2878b4e5f11a6d43c6cc58dffddab09", null ]
 ];

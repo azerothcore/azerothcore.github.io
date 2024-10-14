@@ -1,7 +1,6 @@
 var a15278 =
 [
-    [ "HandleDummy", "d6/d65/a15278.html#a7657ffcc0b055b838408de4dd5f778f3", null ],
-    [ "PrepareSpellScript", "d6/d65/a15278.html#ace2c23ec11d09cfb6f101a2dbd8b9d89", null ],
-    [ "Register", "d6/d65/a15278.html#ae9be2e8124edf50b98824c584aaa32cf", null ],
-    [ "Validate", "d6/d65/a15278.html#a041c84fd605abd36b8f774903a5200dc", null ]
+    [ "npc_omenAI", "d6/d26/a15282.html", "d6/d26/a15282" ],
+    [ "npc_omen", "d6/d65/a15278.html#aff955303a8b9741838779a59dd496f62", null ],
+    [ "GetAI", "d6/d65/a15278.html#a8023ad3298000d9819c46f46a93166d4", null ]
 ];

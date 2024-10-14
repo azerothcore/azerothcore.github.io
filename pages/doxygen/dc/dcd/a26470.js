@@ -1,6 +1,7 @@
 var a26470 =
 [
-    [ "HandleScript", "dc/dcd/a26470.html#a54c724bd8786c894ecaa584c164c2e53", null ],
-    [ "PrepareSpellScript", "dc/dcd/a26470.html#a4505b9196609ae9339fe7e5948963663", null ],
-    [ "Register", "dc/dcd/a26470.html#ae293d6a2a477f716f357516781246069", null ]
+    [ "HandleEffectPeriodic", "dc/dcd/a26470.html#abb9ec1dd08954e80cf6dbcacbe44e2ba", null ],
+    [ "PrepareAuraScript", "dc/dcd/a26470.html#ae151331af09510cc91b63b65a30bdcbf", null ],
+    [ "Register", "dc/dcd/a26470.html#ac2e23fa8c9cfec9b9689512f3363a56e", null ],
+    [ "Validate", "dc/dcd/a26470.html#ad5cc7a5aa1164092f267071c82752bb5", null ]
 ];

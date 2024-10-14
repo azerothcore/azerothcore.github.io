@@ -1,5 +1,6 @@
 var a26994 =
 [
-    [ "AreaTrigger_at_legion_teleporter", "df/dc9/a26994.html#a2b648bd038f41025c19338367c696d25", null ],
-    [ "OnTrigger", "df/dc9/a26994.html#ae8239e5ad56d93627102dbd02989353d", null ]
+    [ "boss_ysondreAI", "dd/dc5/a26998.html", "dd/dc5/a26998" ],
+    [ "boss_ysondre", "df/dc9/a26994.html#ad12dbb728f4f0cdf2f4c0ba9cd2a167d", null ],
+    [ "GetAI", "df/dc9/a26994.html#a0da215d7bc8ee86216887e682b9335c3", null ]
 ];

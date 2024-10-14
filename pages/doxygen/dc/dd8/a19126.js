@@ -1,6 +1,6 @@
 var a19126 =
 [
-    [ "npc_alexstraszaAI", "d8/d0e/a19130.html", "d8/d0e/a19130" ],
-    [ "npc_alexstrasza", "dc/dd8/a19126.html#aa28858e8368031c2882e7e3c1c5968dd", null ],
-    [ "GetAI", "dc/dd8/a19126.html#ad155ccc4f7bca786229ee015d365e3ce", null ]
+    [ "boss_commander_stoutbeardAI", "d8/d0e/a19130.html", "d8/d0e/a19130" ],
+    [ "boss_commander_stoutbeard", "dc/dd8/a19126.html#a88d3d29efbfffc22dbe48bd9fa1de9d6", null ],
+    [ "GetAI", "dc/dd8/a19126.html#a890716f1c4adf9cd3d565b62cc675f64", null ]
 ];

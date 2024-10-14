@@ -1,6 +1,5 @@
 var a16334 =
 [
-    [ "npc_toc_pet_warlockAI", "d2/d8c/a16338.html", "d2/d8c/a16338" ],
-    [ "npc_toc_pet_warlock", "d2/d0c/a16334.html#a4703f506d677d7e490c6813c6d9b060b", null ],
-    [ "GetAI", "d2/d0c/a16334.html#aebcaff82726508a14028cb22a1ef944b", null ]
+    [ "PrepareAuraScript", "d2/d0c/a16334.html#adb50fc2f703618600640d2af55f02f56", null ],
+    [ "Register", "d2/d0c/a16334.html#a3b6782be136eafcc2cb6d03efb8bb033", null ]
 ];

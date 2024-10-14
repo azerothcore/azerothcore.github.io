@@ -1,9 +1,11 @@
 var a23182 =
 [
-    [ "FilterTargets", "d3/d76/a23182.html#a9049c113d65b15a9a8e1143980a84b23", null ],
-    [ "HandleDummy", "d3/d76/a23182.html#a21fd59ba177fd7b04eb1fcafe869f33a", null ],
-    [ "Load", "d3/d76/a23182.html#a8cad82701e0147e14f826243175e1c32", null ],
-    [ "PrepareSpellScript", "d3/d76/a23182.html#aa05839a8dd785a2472e8e5f3a9fc58b0", null ],
-    [ "Register", "d3/d76/a23182.html#a0e7e246c322b89c3b6ee08797984f7e6", null ],
-    [ "_targetNumber", "d3/d76/a23182.html#a34f80edf782ade371e7a6fc908b47b4f", null ]
+    [ "boss_ahune", "d3/d76/a23182.html#aa3d15e1ab37843761d9f7c56d2e5a319", null ],
+    [ "DoAction", "d3/d76/a23182.html#a9e197e8a5ecbad8487c7bad7647e6d2c", null ],
+    [ "Emerge", "d3/d76/a23182.html#a6404a8255566f2eaa061a89025e2bdcd", null ],
+    [ "EnterEvadeMode", "d3/d76/a23182.html#a2b906881621e59143a916c588beb70e7", null ],
+    [ "ExecuteEvent", "d3/d76/a23182.html#a46b477aef635de1d3ec88baa2465089f", null ],
+    [ "JustDied", "d3/d76/a23182.html#af2fc7c071321653a644ee569ead67d63", null ],
+    [ "JustEngagedWith", "d3/d76/a23182.html#aaffc4f54544c8aa4529b249560ddeeec", null ],
+    [ "Submerge", "d3/d76/a23182.html#aad68758720cc1cb703f8f2dc72c09af2", null ]
 ];

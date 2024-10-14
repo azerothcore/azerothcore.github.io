@@ -1,6 +1,7 @@
 var a16270 =
 [
-    [ "npc_toc_mageAI", "d6/db4/a16274.html", "d6/db4/a16274" ],
-    [ "npc_toc_mage", "d0/d63/a16270.html#a8270875c1da3e2e96f767362ef90cdc6", null ],
-    [ "GetAI", "d0/d63/a16270.html#a64b5b8b3a5933a0264537f2187e81e15", null ]
+    [ "npc_toc_enh_shamanAI", "d0/d63/a16270.html#ae1ef5395722e42660c1856d6faf52cbb", null ],
+    [ "myCanCast", "d0/d63/a16270.html#a8a38da4063a22361b25835a67f14ff52", null ],
+    [ "UpdateAI", "d0/d63/a16270.html#a4aa59b136b97859d15b39fd2fbbdf53d", null ],
+    [ "events", "d0/d63/a16270.html#adec973540bf3b046f54547fb845c06b1", null ]
 ];

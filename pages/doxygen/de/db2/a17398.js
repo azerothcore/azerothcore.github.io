@@ -1,8 +1,6 @@
 var a17398 =
 [
-    [ "ResetEncounterEvent", "de/db2/a17398.html#aaa1bc6d3d529524df6b0ed6be6e0966f", null ],
-    [ "Execute", "de/db2/a17398.html#ae8d52fc7c0689620bcef8c04643191f5", null ],
-    [ "_caster", "de/db2/a17398.html#abb37778222749b27791baa329e268c32", null ],
-    [ "_otherTransport", "de/db2/a17398.html#a7f2d0aaade5833381e3e7624745fc504", null ],
-    [ "_spellId", "de/db2/a17398.html#ad4c57e519201e15e23e0f56f4fbe70cb", null ]
+    [ "npc_gunship_boarding_leaderAI", "d4/d1a/a17402.html", "d4/d1a/a17402" ],
+    [ "npc_gunship_boarding_leader", "de/db2/a17398.html#a8390eadab34a89643252f573588b140a", null ],
+    [ "GetAI", "de/db2/a17398.html#ae422c8a1de8fb909a89d2ad2f516e3b4", null ]
 ];

@@ -1,9 +1,11 @@
 var a23958 =
 [
-    [ "npc_oscillating_frequency_scanner_master_bunnyAI", "d5/d77/a23958.html#a273d585416dc92d39d5ec3824c08504d", null ],
-    [ "IsSummonedBy", "d5/d77/a23958.html#a5f002d36c492ed2caf2290f4a073a7d0", null ],
-    [ "Reset", "d5/d77/a23958.html#a06fa50580efeab8d847a05f20956d175", null ],
-    [ "UpdateAI", "d5/d77/a23958.html#a8261a259cfbee0d3610ee441406fafcd", null ],
-    [ "playerGuid", "d5/d77/a23958.html#aab717dd49284c483759a6223dbd7e6ea", null ],
-    [ "timer", "d5/d77/a23958.html#afba1b71178c563a3db906057cd20de45", null ]
+    [ "npc_magister_aledis", "d5/d77/a23958.html#a0e30c5d4f9fe023537a1b29258967630", null ],
+    [ "DamageTaken", "d5/d77/a23958.html#a3c3b72de2dc3e2a1e2bdeab908f0691f", null ],
+    [ "Reset", "d5/d77/a23958.html#ae0a701eeaacc5188b382c59ecef14518", null ],
+    [ "sGossipSelect", "d5/d77/a23958.html#a9960de0b5be8b75e8b7bcc8f12c4f187", null ],
+    [ "StartFight", "d5/d77/a23958.html#a9149ce0a1df781043a5590fe4612511a", null ],
+    [ "UpdateAI", "d5/d77/a23958.html#aef885088193e2597e6990e3051a31ef7", null ],
+    [ "_events", "d5/d77/a23958.html#a5b4cd0ab4d214547dca28b8b384f83df", null ],
+    [ "_playerGUID", "d5/d77/a23958.html#a0954d3d1c9ad4eaff387bc2cf4f52aeb", null ]
 ];

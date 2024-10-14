@@ -1,5 +1,6 @@
 var a27122 =
 [
-    [ "go_ethereum_prison", "de/d55/a27122.html#a1872dab11a8470194ab35f87e217aa8a", null ],
-    [ "OnGossipHello", "de/d55/a27122.html#a73479b0512ea778336fad4bd5cd9b909", null ]
+    [ "go_l70_etc_musicAI", "df/d42/a27126.html", "df/d42/a27126" ],
+    [ "go_l70_etc_music", "de/d55/a27122.html#a766dccca12fc7959273ba1e3a278564f", null ],
+    [ "GetAI", "de/d55/a27122.html#a5231ffc778830f8a49ae85a8c1173deb", null ]
 ];

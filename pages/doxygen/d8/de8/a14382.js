@@ -1,7 +1,9 @@
 var a14382 =
 [
-    [ "HandleScript", "d8/de8/a14382.html#adc8ab610e3b816dcce57fe44b6585bdb", null ],
-    [ "PrepareSpellScript", "d8/de8/a14382.html#a05059d25127cd8d3aa51e4374963f9d9", null ],
-    [ "Register", "d8/de8/a14382.html#aabe7d4213bbafdb6d072ba50bcfd1793", null ],
-    [ "Validate", "d8/de8/a14382.html#aa1e74de390a8b71e43e43664981a36ff", null ]
+    [ "npc_ancient_wisp", "d8/de8/a14382.html#a70e45e500b3490a034b058ca2ec16d39", null ],
+    [ "DamageTaken", "d8/de8/a14382.html#ad7d96e6b54cdc23a5101338474125e71", null ],
+    [ "JustEngagedWith", "d8/de8/a14382.html#a755ed852b3149ada65c5750410776fc8", null ],
+    [ "Reset", "d8/de8/a14382.html#a1c33cc47d7f60b2b3eb60852f1c36820", null ],
+    [ "UpdateAI", "d8/de8/a14382.html#a51ca214de826d7126f32e49f6852bca3", null ],
+    [ "_instance", "d8/de8/a14382.html#a5e5e51944d49cc52bed4ff4953513f1f", null ]
 ];

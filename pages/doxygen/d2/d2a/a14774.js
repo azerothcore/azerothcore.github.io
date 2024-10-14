@@ -1,7 +1,7 @@
 var a14774 =
 [
-    [ "npc_hive_zara_larva", "d2/d2a/a14774.html#a50fb5738d7b0818689216fee0915a0de", null ],
-    [ "JustSummoned", "d2/d2a/a14774.html#a2a1d80f70ae265b1db50e3a7165fa099", null ],
-    [ "MovementInform", "d2/d2a/a14774.html#a6890c58106450d654062f548a80cb42f", null ],
-    [ "_instance", "d2/d2a/a14774.html#aa8333a25c0e184dd75db580b03ef9cb2", null ]
+    [ "FilterTargets", "d2/d2a/a14774.html#a59e477333a54ec828a429d15b35d4936", null ],
+    [ "HandleScript", "d2/d2a/a14774.html#a983fe53aa52e53a45685055fde04a3b7", null ],
+    [ "PrepareSpellScript", "d2/d2a/a14774.html#a873e7766aa1cb6ebabbc77c31db6701c", null ],
+    [ "Register", "d2/d2a/a14774.html#a45ac61990990f16c98eaa7136297afc5", null ]
 ];

@@ -1,7 +1,9 @@
 var a19330 =
 [
-    [ "CalcDamage", "d4/dd9/a19330.html#abb2bf75cc347597b17ed5e4ccd213132", null ],
-    [ "PrepareSpellScript", "d4/dd9/a19330.html#a705a6f0c9b10dc8e7e2e6c091a3ff89c", null ],
-    [ "Register", "d4/dd9/a19330.html#a2c2b391b223ab92b6d644b739419a1d3", null ],
-    [ "Validate", "d4/dd9/a19330.html#a773c608119a84cc3f02e7b4d786f2741", null ]
+    [ "npc_stormforged_lieutenantAI", "d4/dd9/a19330.html#a74d84534c39e7e6f3774099fd6b28d29", null ],
+    [ "JustEngagedWith", "d4/dd9/a19330.html#a112bd4adaa290afd04d229347a96ff4a", null ],
+    [ "Reset", "d4/dd9/a19330.html#aaef10316b8f7c3e980082cab722ffe9f", null ],
+    [ "UpdateAI", "d4/dd9/a19330.html#a3944886823dad81bcd5d72e020910143", null ],
+    [ "BjarngrimGUID", "d4/dd9/a19330.html#a4003deba30ff47ed3296325112b6cb0e", null ],
+    [ "events", "d4/dd9/a19330.html#a530d16086a9e613f6f0299186f8bcc33", null ]
 ];

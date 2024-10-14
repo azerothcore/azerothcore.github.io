@@ -1,8 +1,7 @@
 var a23814 =
 [
-    [ "HandleScriptEffect", "dc/dad/a23814.html#a7cde39fc0844f19604c8026a853e8216", null ],
-    [ "Load", "dc/dad/a23814.html#a5d3eb86208c4aa9c6592349d28c5df79", null ],
-    [ "PrepareSpellScript", "dc/dad/a23814.html#a962de50d1fa35ca16b4753f55e5cbd47", null ],
-    [ "Register", "dc/dad/a23814.html#aee6bd90e8b39132d4b53b67c22d6c331", null ],
-    [ "_currentSpellId", "dc/dad/a23814.html#a0ad25535ba345fe9672150af67687305", null ]
+    [ "boss_gatewatcher_iron_hand", "dc/dad/a23814.html#aef70e713007af38b510f0a3b8c082b24", null ],
+    [ "JustDied", "dc/dad/a23814.html#a36b10cd02b35b6e106687b08bc80bfa6", null ],
+    [ "JustEngagedWith", "dc/dad/a23814.html#aa6a9f456d158e4c0332816c7e65ec155", null ],
+    [ "KilledUnit", "dc/dad/a23814.html#a1973142412b4094dbd9fa51600741148", null ]
 ];

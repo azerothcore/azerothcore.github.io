@@ -1,6 +1,7 @@
 var a26726 =
 [
-    [ "FilterTargets", "d7/d88/a26726.html#a2bcc808d5869442e4c2e78be2d2a16af", null ],
-    [ "PrepareSpellScript", "d7/d88/a26726.html#a51d7035477ba4e3994ef3161edc4cc69", null ],
-    [ "Register", "d7/d88/a26726.html#adcc2ed25659208d0eeaec6d9673df3c6", null ]
+    [ "HandleDispel", "d7/d88/a26726.html#aaf6920cb0fec741f3cff1d3f6e6d2c0f", null ],
+    [ "PrepareAuraScript", "d7/d88/a26726.html#ace0ce4b85311893e1e6df403a6387cd9", null ],
+    [ "Register", "d7/d88/a26726.html#a2c67e4327fdd034978d4822311632980", null ],
+    [ "Validate", "d7/d88/a26726.html#ad8b5c381904c359ed608c808d5bbd9bd", null ]
 ];

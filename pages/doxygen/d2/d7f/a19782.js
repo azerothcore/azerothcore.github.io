@@ -1,6 +1,7 @@
 var a19782 =
 [
-    [ "npc_freya_wardAI", "d7/df9/a19786.html", "d7/df9/a19786" ],
-    [ "npc_freya_ward", "d2/d7f/a19782.html#aebaadcc001922c78e8ec43084a827ac9", null ],
-    [ "GetAI", "d2/d7f/a19782.html#a90c0e7a0be1717bf1793415b6fcafbed", null ]
+    [ "npc_storm_beacon_spawnAI", "d2/d7f/a19782.html#a031c1941f177a18af58efcf4a1270654", null ],
+    [ "UpdateAI", "d2/d7f/a19782.html#a249bf56b905ef0c8b34c737d95518c91", null ],
+    [ "_amount", "d2/d7f/a19782.html#a3d2286247853cb04b9cc23cd8c0bfdd6", null ],
+    [ "_checkTimer", "d2/d7f/a19782.html#a7fd6d449b6a20ba9463896244c513a67", null ]
 ];

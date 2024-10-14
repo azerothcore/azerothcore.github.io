@@ -1,7 +1,7 @@
 var a17734 =
 [
-    [ "HandleTriggerSpell", "df/db0/a17734.html#a7d7f1731c453e5d0b70e6093aeedea87", null ],
-    [ "PrepareAuraScript", "df/db0/a17734.html#afff0c81696ddcb427ce105d510ef93b1", null ],
-    [ "Register", "df/db0/a17734.html#aa50c6066115d7b60704eff48e77d10bd", null ],
-    [ "Validate", "df/db0/a17734.html#a6ef56d3d18bab2f81c810160ecf3ae96", null ]
+    [ "HandleSummon", "df/db0/a17734.html#a8a96bd3a1b3cfaff09e05535eca927a9", null ],
+    [ "PrepareSpellScript", "df/db0/a17734.html#a0213cd8e5e79aba8ba80583ceda88b95", null ],
+    [ "Register", "df/db0/a17734.html#a01281869dc98a0af5027695391f1221f", null ],
+    [ "Validate", "df/db0/a17734.html#a26675411e5f86e6d31f62762a3fdcd70", null ]
 ];

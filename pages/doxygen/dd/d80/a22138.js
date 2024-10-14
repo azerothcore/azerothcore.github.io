@@ -1,6 +1,6 @@
 var a22138 =
 [
-    [ "npc_bushwhackerAI", "d8/d2b/a22142.html", "d8/d2b/a22142" ],
-    [ "npc_bushwhacker", "dd/d80/a22138.html#ad87a9fdec3d5dbaef429c88905a5f6e8", null ],
-    [ "GetAI", "dd/d80/a22138.html#ab3190b66069e820abf3637bb877066a0", null ]
+    [ "HandleScriptEffect", "dd/d80/a22138.html#a1dac2806b74471332aec0595118005a3", null ],
+    [ "PrepareSpellScript", "dd/d80/a22138.html#adb1efd90b7ffa23887ca4aa3afb6d99e", null ],
+    [ "Register", "dd/d80/a22138.html#a2ff0986c88dcbd9aac263f62b772c992", null ]
 ];

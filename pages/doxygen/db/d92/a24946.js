@@ -1,6 +1,7 @@
 var a24946 =
 [
-    [ "HandleEffectPeriodicUpdate", "db/d92/a24946.html#a554353fede78b89bf488230254d7892b", null ],
-    [ "PrepareAuraScript", "db/d92/a24946.html#adf20aaafff83bae614ff3c614a08a54b", null ],
-    [ "Register", "db/d92/a24946.html#a6ee55cc41f7b69fc12bb3dc6c7fcbaf5", null ]
+    [ "HandleScript", "db/d92/a24946.html#a9fb69011ce5245925eb6a4fd011d18b2", null ],
+    [ "PrepareSpellScript", "db/d92/a24946.html#ab9300ff0efc4a36d652a1b56c031dc2f", null ],
+    [ "Register", "db/d92/a24946.html#aa0828fa1a3cf75e8222607a4f2fff950", null ],
+    [ "Validate", "db/d92/a24946.html#a9469ebca2d40dd2944f2fb7286fc64ff", null ]
 ];

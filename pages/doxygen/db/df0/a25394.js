@@ -1,8 +1,7 @@
 var a25394 =
 [
-    [ "CheckProc", "db/df0/a25394.html#ae0b0a45ddc782a523394e30414e0b2ba", null ],
-    [ "HandleProc", "db/df0/a25394.html#a9cb849a8ea8afb45cc1df4d260542937", null ],
-    [ "PrepareAuraScript", "db/df0/a25394.html#af65fc845e6625b1f0a4f4b88ba6db46e", null ],
-    [ "Register", "db/df0/a25394.html#acc5c7607ea7a23b66d1db6cb1a38833e", null ],
-    [ "Validate", "db/df0/a25394.html#a03621fd67cd9179ccc37a53c4d2056d9", null ]
+    [ "CalcPeriodic", "db/df0/a25394.html#a5847ba4daad49dca2527513055fa4429", null ],
+    [ "PrepareAuraScript", "db/df0/a25394.html#a8753419b2fa1b1bb96a08bf54995e82c", null ],
+    [ "Register", "db/df0/a25394.html#a08f851e5582831d5dd05878c4a55db67", null ],
+    [ "Update", "db/df0/a25394.html#a3ab2716cbccc1311992de44e6591d966", null ]
 ];

@@ -1,6 +1,6 @@
 var a19414 =
 [
-    [ "CalculateDamage", "d6/dfb/a19414.html#a857e907dcf40f0e630b8c05c5e549672", null ],
-    [ "PrepareSpellScript", "d6/dfb/a19414.html#aaa6c420d13dc3c88e9c1e5a053c932aa", null ],
-    [ "Register", "d6/dfb/a19414.html#ae142275e06fe6381304137f637e641ca", null ]
+    [ "spell_krystallus_shatter_effect_SpellScript", "de/d0d/a19418.html", "de/d0d/a19418" ],
+    [ "spell_krystallus_shatter_effect", "d6/dfb/a19414.html#a6386cca53ddb3fadc61694483e549d57", null ],
+    [ "GetSpellScript", "d6/dfb/a19414.html#a16dec11a63865243b2b0f467e394a1d3", null ]
 ];

@@ -1,6 +1,8 @@
 var a19978 =
 [
-    [ "boss_freya_healthy_sporeAI", "df/d15/a19982.html", "df/d15/a19982" ],
-    [ "boss_freya_healthy_spore", "de/d10/a19978.html#a16633136393061aa98c7a98f535d421e", null ],
-    [ "GetAI", "de/d10/a19978.html#ae76eb3b334f82c536f71fdcfc86e4382", null ]
+    [ "npc_ulduar_saronite_animusAI", "de/d10/a19978.html#a2b94427feb24a7bda075b6a8f403433a", null ],
+    [ "JustDied", "de/d10/a19978.html#a30abcab01de3732bc5525864576615b0", null ],
+    [ "UpdateAI", "de/d10/a19978.html#a1490961adc8fc03ab28a992aff55b43b", null ],
+    [ "pInstance", "de/d10/a19978.html#a5d3b297355f286b0ad08ed38dbd5b0d2", null ],
+    [ "timer", "de/d10/a19978.html#a3d0345d4c503eb3f0e4acbe346f1c5e5", null ]
 ];

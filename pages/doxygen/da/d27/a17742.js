@@ -1,6 +1,6 @@
 var a17742 =
 [
-    [ "FilterTargets", "da/d27/a17742.html#ac2396cbd000a8d58ff22dbb08c81dfb4", null ],
-    [ "PrepareSpellScript", "da/d27/a17742.html#abcdfe528430e299c2eb64b24f7ff8eb0", null ],
-    [ "Register", "da/d27/a17742.html#a32e04a1110d651701b8eab1648c69a57", null ]
+    [ "FilterTargetsInitial", "da/d27/a17742.html#a92cc71f268793c616bed66d9a489a145", null ],
+    [ "PrepareSpellScript", "da/d27/a17742.html#ae27e6ceab6b92e59c97307ed10f24ab2", null ],
+    [ "Register", "da/d27/a17742.html#a91b96940a9e72e632989b49f7e475dba", null ]
 ];

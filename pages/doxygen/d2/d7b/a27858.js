@@ -1,7 +1,14 @@
 var a27858 =
 [
-    [ "OnRemove", "d2/d7b/a27858.html#a8c39ba2fbd8c9c96de622afd8d04281e", null ],
-    [ "PrepareAuraScript", "d2/d7b/a27858.html#a9e13b76ceb256dec1a6c9dccd5c6c537", null ],
-    [ "Register", "d2/d7b/a27858.html#a9fbaec43bae2f4d6f4b94b18da0144fe", null ],
-    [ "Validate", "d2/d7b/a27858.html#a8f111779a3a0e68fe5a313e6eae716b3", null ]
+    [ "IsFlyable", "d2/d7b/a27858.html#a2a59297a617c9d3b582ede2a028bd07e", null ],
+    [ "IsSanctuary", "d2/d7b/a27858.html#ad239b4e381b6af858a181e9c361d6cbb", null ],
+    [ "area_level", "d2/d7b/a27858.html#a23434848cf8b2eab4de1b6530b8d5f8d", null ],
+    [ "area_name", "d2/d7b/a27858.html#a87653e6b7f7368a59af7adaf77a49e10", null ],
+    [ "exploreFlag", "d2/d7b/a27858.html#a78cf3009cd0fe49dc7870c7f65c79251", null ],
+    [ "flags", "d2/d7b/a27858.html#a5854e3f565d827dbad3d9a36f99e9a25", null ],
+    [ "ID", "d2/d7b/a27858.html#ad02bb9fce21f464e38223581074a9e21", null ],
+    [ "LiquidTypeOverride", "d2/d7b/a27858.html#abe743a4b542c4356aab9d41f3fae7457", null ],
+    [ "mapid", "d2/d7b/a27858.html#a048ac249318efd9aa35bb705bfb92dc8", null ],
+    [ "team", "d2/d7b/a27858.html#ae18e0efef83e663452715f6be15ecaef", null ],
+    [ "zone", "d2/d7b/a27858.html#a3b4f9e187629db5ced9a06c601fc7f78", null ]
 ];

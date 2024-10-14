@@ -1,6 +1,11 @@
 var a15570 =
 [
-    [ "instance_zulfarrak_InstanceMapScript", "db/da1/a15574.html", "db/da1/a15574" ],
-    [ "instance_zulfarrak", "dd/dae/a15570.html#a7c8594fe278dc9f6c3ab6f291cf9bad2", null ],
-    [ "GetInstanceScript", "dd/dae/a15570.html#a5f092341e49848c9d321452be2193d56", null ]
+    [ "npc_amanitar_mushrooms", "dd/dae/a15570.html#ad5603426c71c107ff439cea2efeea3f9", null ],
+    [ "AttackStart", "dd/dae/a15570.html#a0cc90c924a12a8be32c78e76ca798943", null ],
+    [ "DamageTaken", "dd/dae/a15570.html#a4c21a448535e1fc0f0116257194b9732", null ],
+    [ "EnterEvadeMode", "dd/dae/a15570.html#ae17ee367c9d206868c7dfc64d438806a", null ],
+    [ "JustEngagedWith", "dd/dae/a15570.html#ac50bf479e8c891af432cfccdf9d49c55", null ],
+    [ "Reset", "dd/dae/a15570.html#ae597d5a64765f5304773f9a38e9c719a", null ],
+    [ "UpdateAI", "dd/dae/a15570.html#ae71058353be43935aa45eb28eb41170f", null ],
+    [ "events", "dd/dae/a15570.html#a0be93d15582a5511963721510652e76d", null ]
 ];

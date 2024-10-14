@@ -1,7 +1,8 @@
 var a18618 =
 [
-    [ "HandleEffectPeriodic", "dc/ddd/a18618.html#a57615f1d8b891ab5a5c01de1543235cb", null ],
-    [ "PrepareAuraScript", "dc/ddd/a18618.html#ae040da0db1147652266e1f373838df37", null ],
-    [ "Register", "dc/ddd/a18618.html#ab11b84522134ee4d13504df3c19f69b8", null ],
-    [ "Validate", "dc/ddd/a18618.html#af3c3c90256913ffe188c11a21fc2dcc8", null ]
+    [ "Class", "dc/ddd/a18618.html#a095390e9023609f5836c4481ed79e1af", null ],
+    [ "cooldown_ms", "dc/ddd/a18618.html#a6f1fdab250e8557d16066c03a54fb2a4", null ],
+    [ "id", "dc/ddd/a18618.html#ae9fdf89271339b93f306c4aa0871f844", null ],
+    [ "range", "dc/ddd/a18618.html#aad126da206abceb6a66dcda1cbd3b28b", null ],
+    [ "targetType", "dc/ddd/a18618.html#ae5fc8cb423536f631591d3b72bfd06dd", null ]
 ];

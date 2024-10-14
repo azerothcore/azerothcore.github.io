@@ -1,8 +1,7 @@
 var a28142 =
 [
-    [ "areaTriggerText", "d6/dcc/a28142.html#a32bb8c4a4defce661d108627e25b645a", null ],
-    [ "Difficulty", "d6/dcc/a28142.html#add8ed75cd6aaa3412e6222b869bb4113", null ],
-    [ "MapId", "d6/dcc/a28142.html#aa107ad302ec2aa3ce2289ba392e1c32e", null ],
-    [ "maxPlayers", "d6/dcc/a28142.html#a7ab33229ffee11a27861439053c79831", null ],
-    [ "resetTime", "d6/dcc/a28142.html#a891a741efb049b51996e1a6110efc52d", null ]
+    [ "Id", "d6/dcc/a28142.html#a5e2447dd0f6b60e322105d8fcafd0010", null ],
+    [ "MaxLevel", "d6/dcc/a28142.html#a0392e52a26bb4e1d1927fa7f76c674b8", null ],
+    [ "Modifier", "d6/dcc/a28142.html#a5ce5b18749d3c75878b310bdc8427b1f", null ],
+    [ "StatMod", "d6/dcc/a28142.html#ab639dd94c53707ca160e13f71342730d", null ]
 ];

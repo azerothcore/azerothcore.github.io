@@ -1,7 +1,6 @@
 var a25258 =
 [
-    [ "OnPeriodic", "d2/d8f/a25258.html#a58f13f947b4daac98651f7fa46d7d674", null ],
-    [ "PrepareAuraScript", "d2/d8f/a25258.html#a85c4d84408becf2fb4ac55d9da369b25", null ],
-    [ "Register", "d2/d8f/a25258.html#ad0c688255e340c428624de7071b5df56", null ],
-    [ "Validate", "d2/d8f/a25258.html#a5ecd0e840bd94d4414acfb0aef9abd28", null ]
+    [ "CheckCast", "d2/d8f/a25258.html#a712900d0c9e9cc78b5de2886e416f34d", null ],
+    [ "PrepareSpellScript", "d2/d8f/a25258.html#a0bc2de519e0c84688fad609444d28afa", null ],
+    [ "Register", "d2/d8f/a25258.html#a7f438fb8ce7eda520a366437df65c6e8", null ]
 ];

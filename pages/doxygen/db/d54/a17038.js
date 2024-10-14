@@ -1,7 +1,5 @@
 var a17038 =
 [
-    [ "HandleDummy", "db/d54/a17038.html#ab614c27fbeb0fc6cac42c3e8f981e11d", null ],
-    [ "PrepareSpellScript", "db/d54/a17038.html#a3ef0564565ea49265800422c835432b0", null ],
-    [ "Register", "db/d54/a17038.html#a7b685926a8d511397889616e97bbd563", null ],
-    [ "Validate", "db/d54/a17038.html#aecd40c136e44dfc9c5e4dd572d577578", null ]
+    [ "achievement_less_rabi", "db/d54/a17038.html#aee43dd7623f7fecc20a0acb15f342a99", null ],
+    [ "OnCheck", "db/d54/a17038.html#a16b200bf93fa2571c8b31359ad7ca151", null ]
 ];

@@ -1,7 +1,10 @@
 var a25922 =
 [
-    [ "OnRemove", "d5/d8c/a25922.html#a8c39ba2fbd8c9c96de622afd8d04281e", null ],
-    [ "PrepareAuraScript", "d5/d8c/a25922.html#a9e13b76ceb256dec1a6c9dccd5c6c537", null ],
-    [ "Register", "d5/d8c/a25922.html#a9fbaec43bae2f4d6f4b94b18da0144fe", null ],
-    [ "Validate", "d5/d8c/a25922.html#a8f111779a3a0e68fe5a313e6eae716b3", null ]
+    [ "AfterCheckProc", "d5/d8c/a25922.html#aa6f32a97ece5fc68c0b0a2cfa36e33eb", null ],
+    [ "HandleProc", "d5/d8c/a25922.html#a613182c741769d0983206bdfa89242f6", null ],
+    [ "PrepareAuraScript", "d5/d8c/a25922.html#a4f614fe81d829d8a1ceb7500f9557948", null ],
+    [ "Register", "d5/d8c/a25922.html#acd807de02a83a97a78572d672fb16027", null ],
+    [ "Validate", "d5/d8c/a25922.html#a3d2d6f1a00825ac66f507a790f468198", null ],
+    [ "_spellInfo", "d5/d8c/a25922.html#a66a5eb4caa7b43c34b2830d9a3d2f994", null ],
+    [ "_ticksModifier", "d5/d8c/a25922.html#ae23b54499fff879a096bd459e264c4f0", null ]
 ];

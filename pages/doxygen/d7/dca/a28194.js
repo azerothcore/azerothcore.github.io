@@ -1,8 +1,7 @@
 var a28194 =
 [
-    [ "ClassMask", "d7/dca/a28194.html#a563ba1618ffefa5470696e37f65c70d4", null ],
-    [ "Flags", "d7/dca/a28194.html#af89c32a22f018557fe016e0784a82384", null ],
-    [ "RaceMask", "d7/dca/a28194.html#acff47bf5c075d669f95b0d229674f9bc", null ],
-    [ "SkillID", "d7/dca/a28194.html#ab9237a8776aa854e0f81cf228a247ef0", null ],
-    [ "SkillTierID", "d7/dca/a28194.html#ab6153043461b71336e12b00957499075", null ]
+    [ "Flags", "d7/dca/a28194.html#a12b3cb0e28ed0f47ff5ccea09fc8b860", null ],
+    [ "ID", "d7/dca/a28194.html#ab6ccf4a64672a6ade01f59cdeeeb85cb", null ],
+    [ "RangeMax", "d7/dca/a28194.html#a9691134e5cb1e15e3c93ea05a653975d", null ],
+    [ "RangeMin", "d7/dca/a28194.html#a127a46f2382edea750ca567d5ea3d304", null ]
 ];

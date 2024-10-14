@@ -1,15 +1,7 @@
 var a09394 =
 [
-    [ "MailSender", "d8/d8b/a09394.html#a16466924bf75ea8203ba27c0f3e6188b", null ],
-    [ "MailSender", "d8/d8b/a09394.html#a735cfef6950357644d6965978dde0309", null ],
-    [ "MailSender", "d8/d8b/a09394.html#a145000f5ef63627ee26a5699846e06cf", null ],
-    [ "MailSender", "d8/d8b/a09394.html#a9ddda06cf5ecc55efdc4525353471c5b", null ],
-    [ "MailSender", "d8/d8b/a09394.html#a7d5a5e40aa20de720f310b739f159225", null ],
-    [ "MailSender", "d8/d8b/a09394.html#a12c87bb414a3e8889c95091f3b51716b", null ],
-    [ "GetMailMessageType", "d8/d8b/a09394.html#a64c99a49ec01d2226b6bf740edb380fb", null ],
-    [ "GetSenderId", "d8/d8b/a09394.html#a03145c3fdc5bbabc64019e63e121132b", null ],
-    [ "GetStationery", "d8/d8b/a09394.html#a6a4446e52e20ad7ab4817bf024b38631", null ],
-    [ "m_messageType", "d8/d8b/a09394.html#a45a312eda342d2197f15d73b47d7787b", null ],
-    [ "m_senderId", "d8/d8b/a09394.html#a0954b3514cfcba4258b1b266dfd71ddb", null ],
-    [ "m_stationery", "d8/d8b/a09394.html#a1bbced35b4600f9a45a421d28a33393b", null ]
+    [ "LootView", "d8/d8b/a09394.html#a4cfc8ca1034e941a85d2955f38b2e894", null ],
+    [ "loot", "d8/d8b/a09394.html#ac95fa4805c79923b292e8984b00de929", null ],
+    [ "permission", "d8/d8b/a09394.html#a33d7eeebd6fbc854300275a4138d9030", null ],
+    [ "viewer", "d8/d8b/a09394.html#af9a6926c6c871dee245f876038e49995", null ]
 ];

@@ -1,9 +1,10 @@
 var a26746 =
 [
-    [ "CheckCast", "dd/df0/a26746.html#a846862b62f5750801cd804133f290d5d", null ],
-    [ "HandleDummy", "dd/df0/a26746.html#aa56609d3c75a69fb62e302622fd11c3c", null ],
-    [ "Load", "dd/df0/a26746.html#acec7437ba80e4ae491020448a36e4559", null ],
-    [ "PrepareSpellScript", "dd/df0/a26746.html#ab5e281028c009a4b317111de9a0a17e3", null ],
-    [ "Register", "dd/df0/a26746.html#a865fa526f2131703a668e113ba0d7849", null ],
-    [ "Validate", "dd/df0/a26746.html#a6c6dee3de2c54536765cfdd97f4fd0c0", null ]
+    [ "CheckProc", "dd/df0/a26746.html#a257202ac9b80a67ce58d9e3491164d22", null ],
+    [ "HandleProc", "dd/df0/a26746.html#aa3c74b25fbe63ac77e10260159adb8ca", null ],
+    [ "HandleTick", "dd/df0/a26746.html#a5e436c530e5ef70bc4de4305676ed196", null ],
+    [ "PrepareAuraScript", "dd/df0/a26746.html#aef7d1a2bbd59af36cc130f07e1204081", null ],
+    [ "Register", "dd/df0/a26746.html#a11b0120ea8c8ccf1c96e5d1053d64895", null ],
+    [ "RemoveEffect", "dd/df0/a26746.html#a333ad80d8478f59713ee049f935d7885", null ],
+    [ "Validate", "dd/df0/a26746.html#aed3cb37f0230463978b210add84bd31d", null ]
 ];

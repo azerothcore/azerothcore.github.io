@@ -1,8 +1,6 @@
 var a16874 =
 [
-    [ "boss_krickAI", "da/d29/a16874.html#ac085bae551fd4d9e48b05481a86cca9f", null ],
-    [ "DoAction", "da/d29/a16874.html#ace248881cb71c1e91f33ff93489b6f3f", null ],
-    [ "UpdateAI", "da/d29/a16874.html#aea8dd89c8e4de1bebd94a26ead852119", null ],
-    [ "events", "da/d29/a16874.html#a75349e2fc35832e7944fa4f772380baa", null ],
-    [ "pInstance", "da/d29/a16874.html#aecc2cdee32c4e4fa14ecaeca9b3eb65f", null ]
+    [ "npc_pos_tyrannus_eventsAI", "da/dd2/a16878.html", "da/dd2/a16878" ],
+    [ "npc_pos_tyrannus_events", "da/d29/a16874.html#a9e61db8b2b30e86fc5e554b3f4d51b7c", null ],
+    [ "GetAI", "da/d29/a16874.html#ae5863e99d77815de71c1774e908b3f65", null ]
 ];

@@ -1,9 +1,8 @@
 var a19810 =
 [
-    [ "npc_thorims_hammerAI", "d1/d43/a19810.html#aafda36c8d784252d271ef031ab6a3d34", null ],
-    [ "Reset", "d1/d43/a19810.html#a57975d0dc00c86946e547ba43c7151ec", null ],
-    [ "UpdateAI", "d1/d43/a19810.html#a4e01a61d09c11647e06c3547d6fa91fa", null ],
-    [ "_beamTimer", "d1/d43/a19810.html#aba7c6c078977a8187a7e673ba3126bfd", null ],
-    [ "_finishTime", "d1/d43/a19810.html#a218bd28d18a2c2f0aef6906619437209", null ],
-    [ "_removeTimer", "d1/d43/a19810.html#a958e4c975d1ae634745107af7d204f82", null ]
+    [ "FilterTargets", "d1/d43/a19810.html#a93b41db0e89710c6e0e3c764d51d37ad", null ],
+    [ "HandleScript", "d1/d43/a19810.html#a0c7d9007a9401b96a3c1f8614dc1a2db", null ],
+    [ "PrepareSpellScript", "d1/d43/a19810.html#aea46762f43b31923617f740e0545fe98", null ],
+    [ "Register", "d1/d43/a19810.html#a6ccde780ea9fba273b96d6fd9558a2d1", null ],
+    [ "Validate", "d1/d43/a19810.html#af526a7a7a82ec7621f8842e884d7b14f", null ]
 ];

@@ -1,5 +1,5 @@
 var a14242 =
 [
-    [ "go_loosely_turned_soilAI", "d7/d5b/a14242.html#a603641bc52d26521d64afaaeed3abc4d", null ],
-    [ "CanBeSeen", "d7/d5b/a14242.html#a424b51b08d17ceb04b015cd535256889", null ]
+    [ "PrepareSpellScript", "d7/d5b/a14242.html#a50ee42c11937759b6c52c2ab994481c4", null ],
+    [ "Register", "d7/d5b/a14242.html#a8dc12a723c2da948c38119e3fc34df35", null ]
 ];

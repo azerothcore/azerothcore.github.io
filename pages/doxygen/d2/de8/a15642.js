@@ -1,5 +1,8 @@
 var a15642 =
 [
-    [ "achievement_respect_your_elders", "d2/de8/a15642.html#a2fd66ada0ff7482c00b2cb417a12e88e", null ],
-    [ "OnCheck", "d2/de8/a15642.html#a770922be3ab19848f7a8f43a82d78b88", null ]
+    [ "instance_ahnkahet_InstanceScript", "d2/de8/a15642.html#aa9a72f2f757d0b3065a6e4e25b14e86d", null ],
+    [ "IsAllSpheresActivated", "d2/de8/a15642.html#a048a2b16ae9917c7edc9bf7023986ac3", null ],
+    [ "OnGameObjectCreate", "d2/de8/a15642.html#ad00fdc90a61e1c927323daa2149f8466", null ],
+    [ "SetData", "d2/de8/a15642.html#a8986038a2f25b16b9ab8ba4d41b5221a", null ],
+    [ "taldaramPlatform_GUID", "d2/de8/a15642.html#a840ce69595c384be321c1167513d151e", null ]
 ];

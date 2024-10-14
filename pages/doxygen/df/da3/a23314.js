@@ -1,7 +1,6 @@
 var a23314 =
 [
-    [ "boss_hydromancer_thespia", "df/da3/a23314.html#a5747c2da9914dcf4118ee0fb37a3a3fd", null ],
-    [ "JustDied", "df/da3/a23314.html#ad0662daabd636bbf544a6791187d71fa", null ],
-    [ "JustEngagedWith", "df/da3/a23314.html#af230e57ec259e5c92c4034a674d1b6a5", null ],
-    [ "KilledUnit", "df/da3/a23314.html#ae1bb4819867ef5718cb5d9130d62fa20", null ]
+    [ "HandlePeriodic", "df/da3/a23314.html#af6c30bb292a69d5eaaaf75c8a76111ea", null ],
+    [ "PrepareAuraScript", "df/da3/a23314.html#a75515896f3d94d227963a3c5258e2d0d", null ],
+    [ "Register", "df/da3/a23314.html#aeacb1ffc287cc7128366ee0484c2994b", null ]
 ];

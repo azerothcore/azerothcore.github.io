@@ -1,8 +1,6 @@
 var a26978 =
 [
-    [ "CharacterActionIpLogger", "d8/dc5/a26978.html#a39861f7348a79031a8215b435ba81059", null ],
-    [ "CharacterIPLogAction", "d8/dc5/a26978.html#abf461fe7e7d89057aeb122abbd27e30e", null ],
-    [ "OnCreate", "d8/dc5/a26978.html#ae25875eed131046444874c4109619748", null ],
-    [ "OnLogin", "d8/dc5/a26978.html#af430f10fe536ac40df50bc9424a7decb", null ],
-    [ "OnLogout", "d8/dc5/a26978.html#aca289740b022dcaa0ae681327785cb72", null ]
+    [ "AreaTrigger_at_area_52_entrance", "d8/dc5/a26978.html#a5b7e21903bca1c04bad1394c6965d032", null ],
+    [ "OnTrigger", "d8/dc5/a26978.html#a1e537d133ee5e6ad1dbb0c732e23a128", null ],
+    [ "_triggerTimes", "d8/dc5/a26978.html#a6c3225f46ea71d06b81b25d5fb6e8f25", null ]
 ];

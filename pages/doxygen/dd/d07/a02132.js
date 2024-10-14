@@ -1,10 +1,22 @@
 var a02132 =
 [
-    [ "ObjectPosSelector", "db/d40/a08190.html", "db/d40/a08190" ],
-    [ "ObjectPosSelector::UsedPos", "d7/d5b/a08194.html", "d7/d5b/a08194" ],
-    [ "UsedPosType", "dd/d07/a02132.html#a2f1e7723f9d73cff4490d29d2b3df397", [
-      [ "USED_POS_PLUS", "dd/d07/a02132.html#a2f1e7723f9d73cff4490d29d2b3df397abe9dd4cb0505777b122e4a2187d30f0e", null ],
-      [ "USED_POS_MINUS", "dd/d07/a02132.html#a2f1e7723f9d73cff4490d29d2b3df397ae6abf81c53f379fbbcad5001197f8816", null ]
+    [ "instance_blackwing_lair", "d2/d2c/a12014.html", "d2/d2c/a12014" ],
+    [ "instance_blackwing_lair::instance_blackwing_lair_InstanceMapScript", "d7/d87/a12018.html", "d7/d87/a12018" ],
+    [ "spell_bwl_shadowflame", "d9/df9/a12022.html", "d9/df9/a12022" ],
+    [ "at_orb_of_command", "d8/d02/a12026.html", "d8/d02/a12026" ],
+    [ "orb_of_command_misc", "dd/d07/a02132.html#a5ddae3d5f11ae5a5d826e7e18d4cded5", [
+      [ "QUEST_BLACKHANDS_COMMAND", "dd/d07/a02132.html#a5ddae3d5f11ae5a5d826e7e18d4cded5ae1d5923d960c45957f7789ee3d943db5", null ],
+      [ "MAP_BWL", "dd/d07/a02132.html#a5ddae3d5f11ae5a5d826e7e18d4cded5ae1b688e63ec4ff55cd01b4df30948cbc", null ]
     ] ],
-    [ "operator~", "dd/d07/a02132.html#a083d37b8f4388d54d83aeb6562b5fe09", null ]
+    [ "ShadowFlame", "dd/d07/a02132.html#a18a82309d32c08f1de5944fde20789fa", [
+      [ "SPELL_ONYXIA_SCALE_CLOAK", "dd/d07/a02132.html#a18a82309d32c08f1de5944fde20789faa2f64e1a42a1d2fb4d6c849100de2c7d0", null ],
+      [ "SPELL_SHADOW_FLAME_DOT", "dd/d07/a02132.html#a18a82309d32c08f1de5944fde20789faaed2cf39ef97aea751e32c5249fc8fc3e", null ]
+    ] ],
+    [ "AddSC_instance_blackwing_lair", "dd/d07/a02132.html#a942a9ad3e1b872492dfc7d62615df103", null ],
+    [ "creatureData", "dd/d07/a02132.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "doorData", "dd/d07/a02132.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],
+    [ "Entry", "dd/d07/a02132.html#a79d118516d0621008a183666ffecc3ad", null ],
+    [ "objectData", "dd/d07/a02132.html#a59ddfa91084111da23b5d47482e4ff8d", null ],
+    [ "orbOfCommandTP", "dd/d07/a02132.html#a9ee49a7ad7d4b8e8f52533faa578370f", null ],
+    [ "SummonPosition", "dd/d07/a02132.html#a2c79c628fd8c60d02dc0b2368a70be04", null ]
 ];

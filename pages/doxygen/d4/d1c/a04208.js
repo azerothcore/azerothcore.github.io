@@ -1,32 +1,22 @@
 var a04208 =
 [
-    [ "npc_muglash", "d0/ddd/a15110.html", "d0/ddd/a15110" ],
-    [ "npc_muglash::npc_muglashAI", "d9/df1/a15114.html", "d9/df1/a15114" ],
-    [ "Muglash", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057", [
-      [ "SAY_MUG_START1", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057a8f1263c089dd81c8bfe0e50dd08dbc3e", null ],
-      [ "SAY_MUG_START2", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057aa6ecd378ab24d862f8be4be085be2ac1", null ],
-      [ "SAY_MUG_BRAZIER", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057aa75eb8f63b1e11239c3e7692821201a5", null ],
-      [ "SAY_MUG_BRAZIER_WAIT", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057afc6a19f6790fbcaf0a7e0ea5e61e269a", null ],
-      [ "SAY_MUG_ON_GUARD", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057ad1908a7f2392471a96c8a4e2667812b8", null ],
-      [ "SAY_MUG_REST", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057acd07a7572fede15eb4c95479b05525ce", null ],
-      [ "SAY_MUG_DONE", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057aed6fe5718e188a37d7504397b80d2d1b", null ],
-      [ "SAY_MUG_GRATITUDE", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057ab4abdfdeeb30fa160aa35ae49a25ef63", null ],
-      [ "SAY_MUG_PATROL", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057a6d2374968adcf8d86491777fc2307c10", null ],
-      [ "SAY_MUG_RETURN", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057a513450df3bcff9f9b4909822f155d70d", null ],
-      [ "QUEST_VORSHA", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057ab7c8b31c047de9d4412c596681ff61e0", null ],
-      [ "GO_NAGA_BRAZIER", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057a09fae02b8c393729769fda6c507d80ab", null ],
-      [ "NPC_WRATH_RIDER", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057a776d3cf4369298d5e3f3c55c57d801c4", null ],
-      [ "NPC_WRATH_SORCERESS", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057a28edd059b13bec6dd1f8092d648fb5ff", null ],
-      [ "NPC_WRATH_RAZORTAIL", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057a9834947da78f9cbb0c1566379757a203", null ],
-      [ "NPC_WRATH_PRIESTESS", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057ae8f0e387b20dcfe4a4c0b3cf93196d8a", null ],
-      [ "NPC_WRATH_MYRMIDON", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057ac97e09870c98309d157f3b8243ea0a46", null ],
-      [ "NPC_WRATH_SEAWITCH", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057a28087f57cf60fb8024089f4fa9bd2494", null ],
-      [ "NPC_VORSHA", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057ab963d604f08a6fd8540d9711cfb91964", null ],
-      [ "NPC_MUGLASH", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057af96a3875f2bb850fcf7901fd8c6e3af7", null ],
-      [ "ACTION_EXTINGUISH_BLAZIER", "d4/d1c/a04208.html#a61aa1bf847260f3b69320f14a98eb057a591d41376c012165076387e91c32d4d9", null ]
+    [ "GameEventFinishCondition", "d3/db6/a08562.html", "d3/db6/a08562" ],
+    [ "GameEventQuestToEventConditionNum", "d3/d4a/a08566.html", "d3/d4a/a08566" ],
+    [ "GameEventData", "da/d8a/a08570.html", "da/d8a/a08570" ],
+    [ "ModelEquip", "d4/d3a/a08574.html", "d4/d3a/a08574" ],
+    [ "NPCVendorEntry", "d2/d54/a08578.html", "d2/d54/a08578" ],
+    [ "GameEventMgr", "da/d14/a08582.html", "da/d14/a08582" ],
+    [ "max_ge_check_delay", "d4/d1c/a04208.html#adaa73d920934a951856f7ce003ce2342", null ],
+    [ "sGameEventMgr", "d4/d1c/a04208.html#a3c1c916d94272dfe845b9cc5e8fc292a", null ],
+    [ "GameEventConditionMap", "d4/d1c/a04208.html#ac4262be385ac879bb433e00533d835c0", null ],
+    [ "GameEventState", "d4/d1c/a04208.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5", [
+      [ "GAMEEVENT_NORMAL", "d4/d1c/a04208.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5a0951d2c0686f93e6e7d0e002b4521921", null ],
+      [ "GAMEEVENT_WORLD_INACTIVE", "d4/d1c/a04208.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5ac5c7f13cfd107dd2d1efb99ce8dd5136", null ],
+      [ "GAMEEVENT_WORLD_CONDITIONS", "d4/d1c/a04208.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5a627f133a79fe9018b98ee3646e334ff7", null ],
+      [ "GAMEEVENT_WORLD_NEXTPHASE", "d4/d1c/a04208.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5aa9ecd88c85a086ee5273110051a00bc0", null ],
+      [ "GAMEEVENT_WORLD_FINISHED", "d4/d1c/a04208.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5a50f420580ff8bcf744a958e2613085bf", null ],
+      [ "GAMEEVENT_INTERNAL", "d4/d1c/a04208.html#aeb9f2334f35e9f2b2fd8c2ac5630e3b5a2612ea68e0c9d21dae1af2e9ac04bc81", null ]
     ] ],
-    [ "AddSC_ashenvale", "d4/d1c/a04208.html#a5bc25863ec332eb1c8498f84556810c2", null ],
-    [ "FirstNagaCoord", "d4/d1c/a04208.html#a44aaebd71b577ea90de1a8b853f557ed", null ],
-    [ "SecondNagaCoord", "d4/d1c/a04208.html#a2381a800b34807e7f0d47d7b60feb025", null ],
-    [ "VorshaCoord", "d4/d1c/a04208.html#ab15d952fc1bf94911661206ead25b5b1", null ]
+    [ "IsEventActive", "d4/d1c/a04208.html#aaddb0f1fada20faf4702603241206f91", null ],
+    [ "IsHolidayActive", "d4/d1c/a04208.html#a429db26781d2673aa2f031fc1327ffaf", null ]
 ];

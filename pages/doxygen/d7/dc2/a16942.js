@@ -1,6 +1,6 @@
 var a16942 =
 [
-    [ "npc_pos_collapsing_icicleAI", "d6/d3a/a16946.html", "d6/d3a/a16946" ],
-    [ "npc_pos_collapsing_icicle", "d7/dc2/a16942.html#a42b29fe5d4e106c1e5e5b866a0074664", null ],
-    [ "GetAI", "d7/dc2/a16942.html#a96969ebe749b49ceb38920c63ec6fce3", null ]
+    [ "HandleEffectPeriodic", "d7/dc2/a16942.html#a8a165d3931353fefc2e6a7c7f309150e", null ],
+    [ "PrepareAuraScript", "d7/dc2/a16942.html#a2de3b6d4e32832ec7ce4548df23d3d5c", null ],
+    [ "Register", "d7/dc2/a16942.html#a3593ab75583bb5b9b31b29ba2c3cdd76", null ]
 ];

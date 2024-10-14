@@ -1,7 +1,6 @@
 var a15866 =
 [
-    [ "CheckDistance", "df/de6/a15866.html#ac10f4cebab4966a220cd931afd0e0a30", null ],
-    [ "PrepareSpellScript", "df/de6/a15866.html#adb14940f47dc509d75a4e81bb90fc40d", null ],
-    [ "Register", "df/de6/a15866.html#a3a64ffc872e4650b1d226d20d9bedc65", null ],
-    [ "Validate", "df/de6/a15866.html#aa5d7a420154b156ca24e73de2faf912a", null ]
+    [ "npc_halion_controllerAI", "d4/d2f/a15870.html", "d4/d2f/a15870" ],
+    [ "npc_halion_controller", "df/de6/a15866.html#ac88ff15ce4d89d737eb6dd6b649e1218", null ],
+    [ "GetAI", "df/de6/a15866.html#a3c5ea3f0597c070005744ea788a05383", null ]
 ];

@@ -1,9 +1,6 @@
 var a22150 =
 [
-    [ "npc_engineer_heliceAI", "d2/d82/a22150.html#ab9d82a7d2886a0cc4edbc2f4c4c81341", null ],
-    [ "JustDied", "d2/d82/a22150.html#aba224727b86a2bfc39a47b70b424ccef", null ],
-    [ "Reset", "d2/d82/a22150.html#ade3f7f526dd8973c155aafb939db3778", null ],
-    [ "UpdateAI", "d2/d82/a22150.html#a1c333511dd6e82cd22af111e12a701c4", null ],
-    [ "WaypointReached", "d2/d82/a22150.html#a065698e61f0b7769ad2f58614c02ad5b", null ],
-    [ "m_uiChatTimer", "d2/d82/a22150.html#aa305bc2b5711d0745650f80275204ea8", null ]
+    [ "npc_iron_watcherAI", "d0/dbb/a22154.html", "d0/dbb/a22154" ],
+    [ "npc_iron_watcher", "d2/d82/a22150.html#a174e19241ca6cd1619fbae074d11c8ba", null ],
+    [ "GetAI", "d2/d82/a22150.html#af3b80b838e192737762ceed599b0be9a", null ]
 ];

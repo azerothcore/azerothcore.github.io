@@ -1,14 +1,12 @@
 var a22026 =
 [
-    [ "npc_tirions_gambit_tirionAI", "d6/de3/a22026.html#a38959c7a5b502b5716a5c09b0f6ae8a4", null ],
-    [ "DoAction", "d6/de3/a22026.html#a495e0762614020ef6d7b741447099326", null ],
-    [ "DoSummonAction", "d6/de3/a22026.html#a891b31661705ed4df634059e6165d499", null ],
-    [ "JustSummoned", "d6/de3/a22026.html#ac62ec499aba734d36249f8c00b36e2d4", null ],
-    [ "Reset", "d6/de3/a22026.html#afb398bda1d6ee4d35527208e6c5bffee", null ],
-    [ "SetData", "d6/de3/a22026.html#a41f24de5f824d84edb69c6b2bdca6d4e", null ],
-    [ "SummonedCreatureDespawn", "d6/de3/a22026.html#aca05fee85997dffba6ec998b144b9495", null ],
-    [ "UpdateEscortAI", "d6/de3/a22026.html#a0b681d6cc1566e6193f7eb143ab2bd5e", null ],
-    [ "WaypointReached", "d6/de3/a22026.html#af5fd69b799c6227dba901f434e30c434", null ],
-    [ "events", "d6/de3/a22026.html#a711c55c26187ae695644b770a358766e", null ],
-    [ "summons", "d6/de3/a22026.html#af574a4b136ff42c597e30c83e4d463ca", null ]
+    [ "npc_tournament_training_dummyAI", "d6/de3/a22026.html#ab84a35b5145c74f16dfbbe020dd9a73b", null ],
+    [ "DamageTaken", "d6/de3/a22026.html#a98c18794124922e6946a82a324410837", null ],
+    [ "EnterEvadeMode", "d6/de3/a22026.html#a3f31d705284b0fad2f00c9210ff06646", null ],
+    [ "MoveInLineOfSight", "d6/de3/a22026.html#a7a05c8682767f5a2d847e99eeed8e00f", null ],
+    [ "Reset", "d6/de3/a22026.html#a7339ffe52dc789f9480afca7141a169e", null ],
+    [ "SpellHit", "d6/de3/a22026.html#a5cd56075333fb59ddd8d4a48dc2eecdf", null ],
+    [ "UpdateAI", "d6/de3/a22026.html#a8bba917f0e0d67cd7a0121ab71d5a419", null ],
+    [ "events", "d6/de3/a22026.html#a77fa2ef2f15208ab8b284c71e0227fc4", null ],
+    [ "isVulnerable", "d6/de3/a22026.html#a4a4d3029a329e6eb253bc57c5f7b2a98", null ]
 ];

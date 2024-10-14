@@ -1,6 +1,6 @@
 var a20682 =
 [
-    [ "x", "de/df0/a20682.html#ae4223168378b602a0a96dbb424a22be4", null ],
-    [ "y", "de/df0/a20682.html#a30f361d8104e4de44541d75945105963", null ],
-    [ "z", "de/df0/a20682.html#ae68a79519c35302b89976ac29bb77e26", null ]
+    [ "boss_yoggsaron_crusher_tentacleAI", "dd/da4/a20686.html", "dd/da4/a20686" ],
+    [ "boss_yoggsaron_crusher_tentacle", "de/df0/a20682.html#a9bb0c5535bf98e186d39f235f5786ff0", null ],
+    [ "GetAI", "de/df0/a20682.html#a82b6a328197ec81223c1d00dabb79a66", null ]
 ];

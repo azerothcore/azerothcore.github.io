@@ -1,9 +1,10 @@
 var a27926 =
 [
-    [ "HolidayWorldStateId", "d3/df5/a27926.html#a3f70ffbb1abb5a96fe91c2eec3682c8b", null ],
-    [ "id", "d3/df5/a27926.html#a52f7840f9247d2af63062dd280b37341", null ],
-    [ "mapid", "d3/df5/a27926.html#a11e1326eeb24b436b10db53acc323c13", null ],
-    [ "maxGroupSize", "d3/df5/a27926.html#adbdae47b424c3b61b76b48ea5798f52d", null ],
-    [ "name", "d3/df5/a27926.html#a9a56ca930ff8425d4b77066e47a1e09f", null ],
-    [ "type", "d3/df5/a27926.html#a647669b97599d7edf02b5a38dd1d5116", null ]
+    [ "HasFlag", "d3/df5/a27926.html#abe23ca5437589a38ea57bc93a6197911", null ],
+    [ "CollisionHeight", "d3/df5/a27926.html#afd7385ab3dd949ebe230e0a01cec7158", null ],
+    [ "CollisionWidth", "d3/df5/a27926.html#ab79497759cf169348b8922301fc43b2f", null ],
+    [ "Flags", "d3/df5/a27926.html#a3bb96e232124771e78f8b5db53405106", null ],
+    [ "Id", "d3/df5/a27926.html#aa19fec147703c7542be260c8ec5a0446", null ],
+    [ "MountHeight", "d3/df5/a27926.html#a5300334ce02dd5a3b9ea6796eddb7ced", null ],
+    [ "Scale", "d3/df5/a27926.html#a08d8be1d2dbc9eb67e1f631650ea74da", null ]
 ];

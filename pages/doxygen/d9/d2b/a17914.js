@@ -1,6 +1,5 @@
 var a17914 =
 [
-    [ "FilterTargets", "d9/d2b/a17914.html#aa7e731de9e5ab1078b8ff7022393c9a7", null ],
-    [ "PrepareSpellScript", "d9/d2b/a17914.html#ae92968db6e5a1384f89e6aff9ab2d1f3", null ],
-    [ "Register", "d9/d2b/a17914.html#ae6ab0b56688bfc07262cc83e84102ccb", null ]
+    [ "achievement_all_you_can_eat", "d9/d2b/a17914.html#a0995024862a445ea1f0ff5c82475fc64", null ],
+    [ "OnCheck", "d9/d2b/a17914.html#a0baa07a7cbd239e4a5fcfd3e687aedf6", null ]
 ];

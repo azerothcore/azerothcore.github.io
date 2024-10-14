@@ -1,6 +1,6 @@
 var a24426 =
 [
-    [ "FilterTargets", "d9/d88/a24426.html#adab73c94c659d7421c9c6887d956cd83", null ],
-    [ "PrepareSpellScript", "d9/d88/a24426.html#a8cf5e4224f46b6f836d517f90fd135d4", null ],
-    [ "Register", "d9/d88/a24426.html#a3aaf93f3746b36d5bfa4fc475aabe43b", null ]
+    [ "CheckProc", "d9/d88/a24426.html#a451ceeda18638f88d2e0a24ac445f5e2", null ],
+    [ "PrepareAuraScript", "d9/d88/a24426.html#a0a6d4617ff3351411f4e13f53876db31", null ],
+    [ "Register", "d9/d88/a24426.html#a0e5d974111eeca075f38910223f5eaf4", null ]
 ];

@@ -1,6 +1,9 @@
 var a12758 =
 [
-    [ "boss_kirtonos_the_heraldAI", "d4/dba/a12762.html", "d4/dba/a12762" ],
-    [ "boss_kirtonos_the_herald", "d7/de3/a12758.html#a0e81153a0da7910cda4c9b6d32544318", null ],
-    [ "GetAI", "d7/de3/a12758.html#aa5e0fe2386aae52fd53ff309282db652", null ]
+    [ "npc_risen_guardianAI", "d7/de3/a12758.html#a50eb3de52205fc1bbc6936f0708c68a6", null ],
+    [ "IsSummonedBy", "d7/de3/a12758.html#ad9f45b9007c1ff74d0f725fbf7f00abe", null ],
+    [ "KilledUnit", "d7/de3/a12758.html#abc7afaa685a436b34ff76edcc6c25e54", null ],
+    [ "Gandling", "d7/de3/a12758.html#a93013b905260aa51341b22d1627cc986", null ],
+    [ "instance", "d7/de3/a12758.html#a96f1835989f646c708b8ef0cc9999e63", null ],
+    [ "room", "d7/de3/a12758.html#a5862a184b6daa92da133cc6c360a993d", null ]
 ];

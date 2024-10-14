@@ -1,16 +1,10 @@
 var a21326 =
 [
-    [ "boss_zuramatAI", "d0/d68/a21326.html#ab4c04fec01023295946d170a466d1c48", null ],
-    [ "EnterEvadeMode", "d0/d68/a21326.html#a991437ea0d9fd1ce7807ef9937c4cb0a", null ],
-    [ "JustDied", "d0/d68/a21326.html#a060df9b36f2f62f3fc7afb80386d51c5", null ],
-    [ "JustEngagedWith", "d0/d68/a21326.html#a85cc0f20b51e84ff1c5c16a3b2b004b9", null ],
-    [ "JustSummoned", "d0/d68/a21326.html#a6e925207ddc112f7dd7044c08023f90e", null ],
-    [ "KilledUnit", "d0/d68/a21326.html#adb79f8c244f57b88848dd44b592faf41", null ],
-    [ "MoveInLineOfSight", "d0/d68/a21326.html#aa3ef3256d203d264dee12eff4491a28c", null ],
-    [ "Reset", "d0/d68/a21326.html#a18498e4bc4bfac33ff2c591f5bf28d7d", null ],
-    [ "SummonedCreatureDespawn", "d0/d68/a21326.html#a242f814bfec2e937e1338097e78080e3", null ],
-    [ "UpdateAI", "d0/d68/a21326.html#adb591699b7d8ece0b1775afd40a4181b", null ],
-    [ "events", "d0/d68/a21326.html#a4406b42618f3e40fa90e0a34ec3ad09f", null ],
-    [ "pInstance", "d0/d68/a21326.html#a8ebb5ca6f9f18b0205e8b6a54492c06a", null ],
-    [ "summons", "d0/d68/a21326.html#a42cb09654095c8a157720f99e7957102", null ]
+    [ "npc_azure_binderAI", "d0/d68/a21326.html#ad532d350493a35804660f90a9f00f3cf", null ],
+    [ "Reset", "d0/d68/a21326.html#aa317ce32f3439286e9a4ac0928d48b3a", null ],
+    [ "UpdateAI", "d0/d68/a21326.html#a322ae0210ccb24206aee49c4fa7fe2bc", null ],
+    [ "uiArcainBarrageTimer", "d0/d68/a21326.html#a0e577611e3e11209cc175cd71cd86bc9", null ],
+    [ "uiArcaneExplosionTimer", "d0/d68/a21326.html#aa5cc777f777166e88a21e98a4ce2b8d3", null ],
+    [ "uiFrostboltTimer", "d0/d68/a21326.html#a405ec0f2d92e4a1f5f7901e725465604", null ],
+    [ "uiFrostNovaTimer", "d0/d68/a21326.html#a0f6396376e14711f87f1a046728ce386", null ]
 ];

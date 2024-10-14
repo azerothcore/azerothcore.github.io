@@ -1,7 +1,6 @@
 var a23550 =
 [
-    [ "HandleDummyApply", "d6/d90/a23550.html#a8a982bbbda94a2cf981c845161f05bdc", null ],
-    [ "HandleDummyRemove", "d6/d90/a23550.html#a5d68d9e15600119deca7179ffe00acda", null ],
-    [ "PrepareAuraScript", "d6/d90/a23550.html#a34d09e48b69d32dae6c127fa0837be4b", null ],
-    [ "Register", "d6/d90/a23550.html#a094004ccf6b4cae4d27bca639b76b899", null ]
+    [ "boss_porung", "d6/d90/a23550.html#acef31010461bbf716ac9b13d950807ee", null ],
+    [ "JustDied", "d6/d90/a23550.html#ac5c36f875692f49d1d0195694d85e5c1", null ],
+    [ "JustEngagedWith", "d6/d90/a23550.html#a9d44f51e4710e01bdc7d345ff3bba9dc", null ]
 ];

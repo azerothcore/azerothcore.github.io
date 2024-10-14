@@ -1,5 +1,7 @@
 var a14142 =
 [
-    [ "npc_cw_area_triggerAI", "dc/d1e/a14142.html#aede21e01dfe762922562b6f5d57bc406", null ],
-    [ "MoveInLineOfSight", "dc/d1e/a14142.html#a1fb90760dac1ae429429d84ed033aa7a", null ]
+    [ "HandleEffectApply", "dc/d1e/a14142.html#a22f3143b10155635194abe22994a397c", null ],
+    [ "HandleEffectRemove", "dc/d1e/a14142.html#a2ecc50fa3c14918b6eace63eac75eb96", null ],
+    [ "PrepareAuraScript", "dc/d1e/a14142.html#abb4f53a42e701323b2fc66598ec3503c", null ],
+    [ "Register", "dc/d1e/a14142.html#ad1ff6d29459d9a38fcdef3f6c7007f6b", null ]
 ];

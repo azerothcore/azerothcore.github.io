@@ -1,9 +1,8 @@
 var a22270 =
 [
-    [ "HandlePeriodic", "dd/d1a/a22270.html#a3d9ef90ec1ddebe2b2f3dd3a8b9eb25a", null ],
-    [ "Load", "dd/d1a/a22270.html#af5ed9dda3b2a2fd208fdc32de414c28a", null ],
-    [ "PrepareAuraScript", "dd/d1a/a22270.html#a1057e5262d413149a023bc904a3c3751", null ],
-    [ "Register", "dd/d1a/a22270.html#a47b9665b84742fd8cbb4e422d667b2ac", null ],
-    [ "Validate", "dd/d1a/a22270.html#a85d7ac258d50f690574ad7656256cd05", null ],
-    [ "_counter", "dd/d1a/a22270.html#a855bb93d5d9c5d8a9d06cfbb16d8d814", null ]
+    [ "go_wg_vehicle_teleporterAI", "dd/d1a/a22270.html#af84e73765b1a4d810b41613824999186", null ],
+    [ "IsFriendly", "dd/d1a/a22270.html#adca817c8919958db888d5e9c759ad545", null ],
+    [ "IsValidVehicle", "dd/d1a/a22270.html#a3f790a651d5f0c67c5d528828a6bb398", null ],
+    [ "UpdateAI", "dd/d1a/a22270.html#a8d8197cbfa6ab36d269f18020acbc565", null ],
+    [ "_checkTimer", "dd/d1a/a22270.html#a9cbb42b4f29f94e41e80caccd87d95f4", null ]
 ];

@@ -1,8 +1,5 @@
 var a23654 =
 [
-    [ "HandleEffectApply", "d3/df4/a23654.html#ad75c8c6279e606d6a557a61d97ee8f42", null ],
-    [ "HandleEffectRemove", "d3/df4/a23654.html#a7cd59f7ca82a6507024842ebcb1ba093", null ],
-    [ "PrepareAuraScript", "d3/df4/a23654.html#a438a8ba3688e0832853bae4183695494", null ],
-    [ "Register", "d3/df4/a23654.html#a52a86cce0afa66203cc5982ddbe5de4f", null ],
-    [ "Validate", "d3/df4/a23654.html#ab07b244e53b397bc9e9842655617a80d", null ]
+    [ "modelId", "d3/df4/a23654.html#a6a7f030a6445a46fe55640356e9c5124", null ],
+    [ "spellId", "d3/df4/a23654.html#a6cfbffba97934cc420964f9b6d7645a3", null ]
 ];

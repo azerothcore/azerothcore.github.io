@@ -1,6 +1,6 @@
 var a16910 =
 [
-    [ "npc_pos_deathwhisper_necrolyteAI", "d7/dc0/a16914.html", "d7/dc0/a16914" ],
-    [ "npc_pos_deathwhisper_necrolyte", "d1/d97/a16910.html#a0dcdb5b1dfed44f74b04663758b531a0", null ],
-    [ "GetAI", "d1/d97/a16910.html#ae765669f95f4f14b393b88bf7ecbbfd6", null ]
+    [ "npc_pos_freed_slaveAI", "d1/d97/a16910.html#ad5728e427f9f4a65cea13ec2c5a01453", null ],
+    [ "CanAIAttack", "d1/d97/a16910.html#a76818ee5fcfcc5678fa9d0957a424d9b", null ],
+    [ "EnterEvadeMode", "d1/d97/a16910.html#a234135e6bea0d91611fbdbae4dec2ea1", null ]
 ];

@@ -1,11 +1,13 @@
 var a14158 =
 [
-    [ "o", "da/de3/a14158.html#af0a1551e7a1ced5413b6096ba15db8b2", null ],
-    [ "rot0", "da/de3/a14158.html#a1cc2b7787c803a4e126e06ab5b5c0ee6", null ],
-    [ "rot1", "da/de3/a14158.html#a71696fa3f95eb20d950b6ba2ada153f4", null ],
-    [ "rot2", "da/de3/a14158.html#ac2e4113330ebc9d9db379fb87eb55c03", null ],
-    [ "rot3", "da/de3/a14158.html#a3fc28475914b0ed4afe46fd4f4ff66b1", null ],
-    [ "x", "da/de3/a14158.html#a6e527854cf0959995d6b0133dedc94c9", null ],
-    [ "y", "da/de3/a14158.html#a7536047696bd4883237369976b503131", null ],
-    [ "z", "da/de3/a14158.html#a33ba4ca8ce5f406aaa5f571ba7236eb5", null ]
+    [ "npc_costumed_orphan_matron", "da/de3/a14158.html#a0b913090588613ac00ea928f6273d56f", null ],
+    [ "DoAction", "da/de3/a14158.html#a7a7739f89604ffb5afc6bab75118340e", null ],
+    [ "GetInitXYZ", "da/de3/a14158.html#a3c6d0e6cecd1c4ef85b3d77c45ef6533", null ],
+    [ "Reset", "da/de3/a14158.html#a962de50b13079f3337c4e41eb2d98b55", null ],
+    [ "sGossipHello", "da/de3/a14158.html#a1a9c58c087b8addf8e482375737d6c49", null ],
+    [ "sQuestAccept", "da/de3/a14158.html#adac5d514261a210a701442da13ba1587", null ],
+    [ "UpdateAI", "da/de3/a14158.html#a4679d807df8749265ba0453c5b7588f1", null ],
+    [ "allowQuest", "da/de3/a14158.html#a722f4bfd0fb8b2665ff2b79d3208bc90", null ],
+    [ "eventStarted", "da/de3/a14158.html#a5292ab4e45fe3a858b3a59ef4a79bb34", null ],
+    [ "horseGUID", "da/de3/a14158.html#a92cfd09cefd26933ae322f2cc2716927", null ]
 ];

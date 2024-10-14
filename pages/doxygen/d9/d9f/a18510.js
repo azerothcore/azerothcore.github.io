@@ -1,6 +1,8 @@
 var a18510 =
 [
-    [ "npc_captain_grondelAI", "d9/d9f/a18510.html#afbc971fc03584b87229318309d51a2f5", null ],
-    [ "Reset", "d9/d9f/a18510.html#a7d3878822e77fba66891e87e23bd3740", null ],
-    [ "UpdateAI", "d9/d9f/a18510.html#a4af8548092b49653805224bd4c0ac0a2", null ]
+    [ "CountTargets", "d9/d9f/a18510.html#a3000d234134bb3d4b2e17fd1eff8f4f0", null ],
+    [ "HandleScript", "d9/d9f/a18510.html#af058a0c458463bdba4a4eb73aa91c113", null ],
+    [ "PrepareSpellScript", "d9/d9f/a18510.html#a83b2fad7cdc189a17129e25a015952ff", null ],
+    [ "Register", "d9/d9f/a18510.html#af5e214ab418ca05ddd637c83d7a7e71a", null ],
+    [ "Validate", "d9/d9f/a18510.html#a63e8e899cb1469dca26cd5fa34b85408", null ]
 ];

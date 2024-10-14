@@ -1,6 +1,8 @@
 var a19814 =
 [
-    [ "npc_pool_of_tarAI", "db/dd2/a19818.html", "db/dd2/a19818" ],
-    [ "npc_pool_of_tar", "dc/df5/a19814.html#a9c585318b4507babe77b3ba758b06a87", null ],
-    [ "GetAI", "dc/df5/a19814.html#ae77bf48a72ce49f821085f32127e91dc", null ]
+    [ "OnApply", "dc/df5/a19814.html#a5aec8606684637bbdb1e819254f5d483", null ],
+    [ "OnRemove", "dc/df5/a19814.html#add485a2fd5fdd068d7258d3c9c0d9c2b", null ],
+    [ "PrepareAuraScript", "dc/df5/a19814.html#adcc21606209dc2f32c1173c7ab4c5579", null ],
+    [ "Register", "dc/df5/a19814.html#af1db6ca387cf0733ba4b9c324172d692", null ],
+    [ "Validate", "dc/df5/a19814.html#a332d01b39295ea9a11773be9aa9c3fb3", null ]
 ];

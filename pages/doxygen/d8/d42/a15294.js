@@ -1,8 +1,7 @@
 var a15294 =
 [
-    [ "FilterTargets", "d8/d42/a15294.html#a47b8055fa1b28968e8323ca98613aa83", null ],
-    [ "HandleScript", "d8/d42/a15294.html#a8f7984e510d8947a2ae4b0734409866b", null ],
-    [ "PrepareSpellScript", "d8/d42/a15294.html#a5c12caf56e95a9f7960ed9f4a3945c7c", null ],
-    [ "Register", "d8/d42/a15294.html#adf76a5d9145f88aad5b3dd164fa4fcc4", null ],
-    [ "Validate", "d8/d42/a15294.html#aa3f9c6418eb804a2ddf235beb8491a19", null ]
+    [ "npc_shenthulAI", "d4/d38/a15298.html", "d4/d38/a15298" ],
+    [ "npc_shenthul", "d8/d42/a15294.html#a77815503c7d9c811fe3821232e308714", null ],
+    [ "GetAI", "d8/d42/a15294.html#a1683f8c89add6270277c59951c74027e", null ],
+    [ "OnQuestAccept", "d8/d42/a15294.html#a3a63fec338dca74eb7d071dfcc9c95b5", null ]
 ];

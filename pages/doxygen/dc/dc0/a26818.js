@@ -1,7 +1,8 @@
 var a26818 =
 [
-    [ "HandleApplyAura", "dc/dc0/a26818.html#ae364ff4048a2f59eadecd6934c7a0e13", null ],
-    [ "PrepareSpellScript", "dc/dc0/a26818.html#adf09900347264bc341884092ea0fee40", null ],
-    [ "Register", "dc/dc0/a26818.html#ac56484d4048817a164963e519a97d137", null ],
-    [ "Validate", "dc/dc0/a26818.html#ac028c0faf659fb74b2ffa5f85f58f8d1", null ]
+    [ "HandleDamage", "dc/dc0/a26818.html#a371d3112e619453b7c92933a145bf4d2", null ],
+    [ "HandleDummy", "dc/dc0/a26818.html#a051f68946f3c246b410bbaa2ac14e4b1", null ],
+    [ "PrepareSpellScript", "dc/dc0/a26818.html#a41d69ed3f8372c4e157aefbec6ad525c", null ],
+    [ "Register", "dc/dc0/a26818.html#aaa1e53f38a2ba835c12fa726c030ab08", null ],
+    [ "Validate", "dc/dc0/a26818.html#a180ab99bc257b841e0bbbfc0ddb83814", null ]
 ];

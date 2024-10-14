@@ -1,6 +1,6 @@
 var a24442 =
 [
-    [ "PrepareSpellScript", "df/dce/a24442.html#a2585b06bbebf291d170df58daf6fdd4e", null ],
-    [ "RecalculateDamage", "df/dce/a24442.html#a1fe9f9d4892b0ca8cb6699b555fb9268", null ],
-    [ "Register", "df/dce/a24442.html#a834484683d2d782b4f4c027091108172", null ]
+    [ "HandleProc", "df/dce/a24442.html#a8fb0e7e5e50fcb201e8e55ee9621034e", null ],
+    [ "PrepareAuraScript", "df/dce/a24442.html#a2f42e70482f71a4c275f70897b90ed72", null ],
+    [ "Register", "df/dce/a24442.html#a048f59b6b0d52232e3a953f173324fc2", null ]
 ];

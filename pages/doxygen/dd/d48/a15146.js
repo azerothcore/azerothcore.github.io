@@ -1,8 +1,10 @@
 var a15146 =
 [
-    [ "npc_injured_draeneiAI", "dd/d48/a15146.html#a6832ec8b005e75ff66b0fd04e5ff3daa", null ],
-    [ "JustEngagedWith", "dd/d48/a15146.html#adcc5750f0ab037a7ac38b9fa64b75a74", null ],
-    [ "MoveInLineOfSight", "dd/d48/a15146.html#a514556f4a81c6f1f8b7caaa526c08662", null ],
-    [ "Reset", "dd/d48/a15146.html#adcb601f739a91ce71926791885152471", null ],
-    [ "UpdateAI", "dd/d48/a15146.html#af4d723ac0a95f9dad12e82d5bc987f50", null ]
+    [ "npc_murkdeepAI", "dd/d48/a15146.html#abe78235ecb94e4735a6f8eaad7fe6adc", null ],
+    [ "JustEngagedWith", "dd/d48/a15146.html#ad33de7cb0caffcd255db38204ecfbb1c", null ],
+    [ "Reset", "dd/d48/a15146.html#aa89316a0fe4f99630a4a129aed305e24", null ],
+    [ "UpdateAI", "dd/d48/a15146.html#aeca85a1324791d18ac825401fb8a31e8", null ],
+    [ "events", "dd/d48/a15146.html#ae3d344829aeba22ef0c5947863720390", null ],
+    [ "phase", "dd/d48/a15146.html#a74a3a16cb3f2993aea9c5d6736a6914e", null ],
+    [ "spawnTimer", "dd/d48/a15146.html#a6b139fb5cc0776103934f14be15c34d1", null ]
 ];

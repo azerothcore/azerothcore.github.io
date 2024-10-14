@@ -1,7 +1,6 @@
 var a11538 =
 [
-    [ "npc_rocknotAI", "d2/df7/a11542.html", "d2/df7/a11542" ],
-    [ "npc_rocknot", "dd/d35/a11538.html#a64a0cd215c1f4881948e5a49cf1b86d7", null ],
-    [ "GetAI", "dd/d35/a11538.html#ac8a90d54e9303c40f0313fda1dcfea86", null ],
-    [ "OnQuestReward", "dd/d35/a11538.html#abd8ad3d7e6dd1e557398e268409a2c98", null ]
+    [ "npc_lokhtos_darkbargainer", "dd/d35/a11538.html#af91685ecf0f63313968b3d82373668d2", null ],
+    [ "OnGossipHello", "dd/d35/a11538.html#a39547487ef7db8a3942556665099893f", null ],
+    [ "OnGossipSelect", "dd/d35/a11538.html#a5a4640678a5669c75b1fa5d787999c02", null ]
 ];

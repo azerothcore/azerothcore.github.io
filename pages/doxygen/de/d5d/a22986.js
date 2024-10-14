@@ -1,9 +1,7 @@
 var a22986 =
 [
-    [ "HandleEffectApply", "de/d5d/a22986.html#aca8ff864832d30e45bccfca12256560a", null ],
-    [ "HandleEffectRemove", "de/d5d/a22986.html#a2e16e86ce6e3231cf3fabc1d5bb1a6e7", null ],
-    [ "Load", "de/d5d/a22986.html#a3b9838f26673ce344ca40f9f487ef878", null ],
-    [ "PrepareAuraScript", "de/d5d/a22986.html#a79b93c86a01d31d08cba15436856b794", null ],
-    [ "Register", "de/d5d/a22986.html#aa6c04279944abd31c42bb5dc4319aaf2", null ],
-    [ "_turtleSet", "de/d5d/a22986.html#a308b9e032576ae058e9f2469dcc8ff23", null ]
+    [ "OnPeriodic", "de/d5d/a22986.html#ad64b9ba13ef7d77cd778afb8e412ad04", null ],
+    [ "PrepareAuraScript", "de/d5d/a22986.html#a40faff90cb247203d3afafad9c44bfd7", null ],
+    [ "Register", "de/d5d/a22986.html#a8b2d4235784396b8c29b8e7de51e5708", null ],
+    [ "Validate", "de/d5d/a22986.html#a57b481cf462f53ec76f2db326b48c9b6", null ]
 ];

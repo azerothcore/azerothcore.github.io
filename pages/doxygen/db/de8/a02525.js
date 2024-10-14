@@ -1,6 +1,5 @@
 var a02525 =
 [
-    [ "DBUpdater< CharacterDatabaseConnection >", "db/de8/a02525.html#a753e207671f7af3815a056247f2de3ce", null ],
-    [ "DBUpdater< LoginDatabaseConnection >", "db/de8/a02525.html#a16a33693c8570aff221401b100547fb7", null ],
-    [ "DBUpdater< WorldDatabaseConnection >", "db/de8/a02525.html#ace05c45d1df6cb7f16487ef1aa8bc9f7", null ]
+    [ "spell_q12779_an_end_to_all_things", "df/d27/a12674.html", "df/d27/a12674" ],
+    [ "AddSC_the_scarlet_enclave_c3", "db/de8/a02525.html#add963c2bc2b515348b9b7c636d176927", null ]
 ];

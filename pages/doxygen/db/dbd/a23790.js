@@ -1,6 +1,6 @@
 var a23790 =
 [
-    [ "HandleScriptEffect", "db/dbd/a23790.html#acfe80e22e6c78dba50155f7f20c0678b", null ],
-    [ "PrepareSpellScript", "db/dbd/a23790.html#a17cb5f874343bd40c6aafaf9d627b047", null ],
-    [ "Register", "db/dbd/a23790.html#a4bb5cfd2cc8503b3a840fc68624a33c1", null ]
+    [ "HandleScriptEffect", "db/dbd/a23790.html#a9a7f29cde26344fb9af222a69ddbd4fa", null ],
+    [ "PrepareSpellScript", "db/dbd/a23790.html#af475c0968aabaf56e8ca38950ad651f0", null ],
+    [ "Register", "db/dbd/a23790.html#a86cd62582cc8b7c7fa10e0cd2da63822", null ]
 ];

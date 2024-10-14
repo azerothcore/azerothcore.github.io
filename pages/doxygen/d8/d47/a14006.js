@@ -1,19 +1,17 @@
 var a14006 =
 [
-    [ "npc_dark_iron_guzzler", "d8/d47/a14006.html#a53ce152d0bf8e727ed0b385bb2293363", null ],
-    [ "AttackStart", "d8/d47/a14006.html#a47295b69eaecf3c001c43a1550dd1a80", null ],
-    [ "DamageTaken", "d8/d47/a14006.html#affd1f78b5c1df26824b08416d6bd03a1", null ],
-    [ "FindNextKeg", "d8/d47/a14006.html#ac063799097f89c09f30bed79151e8ed6", null ],
-    [ "GetTarget", "d8/d47/a14006.html#a076305d37ce348b24b35f7956385e8fc", null ],
-    [ "JustEngagedWith", "d8/d47/a14006.html#ae8142b745e493ab4a77b9df12ea9474d", null ],
-    [ "KilledUnit", "d8/d47/a14006.html#a018513f23158fcd6f929a90cfecfde4c", null ],
-    [ "MoveInLineOfSight", "d8/d47/a14006.html#aaa4df56f1f587029b24626ae1aca552a", null ],
-    [ "MovementInform", "d8/d47/a14006.html#ada6c7f97e25eb545926d6531495bb397", null ],
-    [ "Reset", "d8/d47/a14006.html#af608024d4b41fa218a7baeae9bee72ef", null ],
-    [ "SayText", "d8/d47/a14006.html#a872bdd2e2ff2b72c983658c63d74e2c3", null ],
-    [ "SpellHit", "d8/d47/a14006.html#ae195867416885e570c2c9a4837ac33c1", null ],
-    [ "UpdateAI", "d8/d47/a14006.html#a5decab6f76369ec9ce037dd050898423", null ],
-    [ "attacking", "d8/d47/a14006.html#a18a1d7e61b99819666366c6791154e01", null ],
-    [ "targetGUID", "d8/d47/a14006.html#a620df1502373954020a910853cb6dd3a", null ],
-    [ "timer", "d8/d47/a14006.html#a9748d587b61c148a27be690a6354473f", null ]
+    [ "npc_coren_direbrew", "d8/d47/a14006.html#a51ab68feb3dde3fb23c708afcdcdbd34", null ],
+    [ "CanBeSeen", "d8/d47/a14006.html#ad4db2a85c92f69e54036f4133396f201", null ],
+    [ "DamageTaken", "d8/d47/a14006.html#a782a08ed525eab8a9e9044dc1d5814b3", null ],
+    [ "DoAction", "d8/d47/a14006.html#a2d417a9310b5b75df09879678d967794", null ],
+    [ "JustDied", "d8/d47/a14006.html#a39913e601440fcd6ffbc77ad7c204ac8", null ],
+    [ "JustSummoned", "d8/d47/a14006.html#a2cb3d9de6ccdffa73f709b82cfae790a", null ],
+    [ "MoveInLineOfSight", "d8/d47/a14006.html#a9c48c7e4a97998c2091992f51b734679", null ],
+    [ "Reset", "d8/d47/a14006.html#a49eb75eb89742ee70ca957d4e2f0b5d0", null ],
+    [ "sGossipSelect", "d8/d47/a14006.html#ad8b665606985984ad633f66ad9b73bd2", null ],
+    [ "SummonedCreatureDies", "d8/d47/a14006.html#aafdc2d271d1e267f5b3deba7d00e07fc", null ],
+    [ "SummonSister", "d8/d47/a14006.html#a358fe5922a85ea3eee6abe9451869b66", null ],
+    [ "UpdateAI", "d8/d47/a14006.html#af6615292fa853883979dc37c6e247289", null ],
+    [ "_events", "d8/d47/a14006.html#a81ee26c215b7581a13faf56ee041b9fe", null ],
+    [ "_summons", "d8/d47/a14006.html#a261d4c4dea56748e66752cb11588086a", null ]
 ];

@@ -1,8 +1,7 @@
 var a28330 =
 [
-    [ "MapDifficulty", "de/d08/a28330.html#abf514d1105541d5c5aaf52a91330a1e2", null ],
-    [ "MapDifficulty", "de/d08/a28330.html#a227aec55b5b774076882ea34f70d5d88", null ],
-    [ "hasErrorMessage", "de/d08/a28330.html#a8dd5436eaec4d0e67f8b41c8dd071148", null ],
-    [ "maxPlayers", "de/d08/a28330.html#af82ad844bc4ac9585cb9df1963697e1b", null ],
-    [ "resetTime", "de/d08/a28330.html#a7190131620b9eee0897ac7b4dd62949e", null ]
+    [ "RealmHandle", "de/d08/a28330.html#a120fb45f2301188a843ab2e712f768e4", null ],
+    [ "RealmHandle", "de/d08/a28330.html#ac3e04e9790e1ae75b9701f1a84b9f6e2", null ],
+    [ "operator<", "de/d08/a28330.html#ad414bab23a3ecfb3cabb146d5f43bf3e", null ],
+    [ "Realm", "de/d08/a28330.html#a31af0d9064a295b1579fce3c80217bfd", null ]
 ];

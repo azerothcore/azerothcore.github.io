@@ -1,7 +1,5 @@
 var a17754 =
 [
-    [ "HandleDummy", "d2/d54/a17754.html#aa61db53d7395fd45b8569e12978fed0b", null ],
-    [ "PrepareSpellScript", "d2/d54/a17754.html#ab63054debe6763027ab52ad122277719", null ],
-    [ "Register", "d2/d54/a17754.html#a6dee5fc9fafd7faa3eadbf9431568dcc", null ],
-    [ "Validate", "d2/d54/a17754.html#adb7e30d10c2071de5d5070b64a10af30", null ]
+    [ "RotfaceHeightCheck", "d2/d54/a17754.html#aabdeaee465989c339fc7a3f186e20498", null ],
+    [ "operator()", "d2/d54/a17754.html#a585743e0e76c64a5caa37acab46d04d5", null ]
 ];

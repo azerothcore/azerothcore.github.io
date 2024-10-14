@@ -1,58 +1,23 @@
 var a04340 =
 [
-    [ "npc_draenei_survivor", "df/d2f/a15134.html", "df/d2f/a15134" ],
-    [ "npc_draenei_survivor::npc_draenei_survivorAI", "d7/d02/a15138.html", "d7/d02/a15138" ],
-    [ "npc_injured_draenei", "d4/d3c/a15142.html", "d4/d3c/a15142" ],
-    [ "npc_injured_draenei::npc_injured_draeneiAI", "dd/d48/a15146.html", "dd/d48/a15146" ],
-    [ "npc_magwin", "d9/d91/a15150.html", "d9/d91/a15150" ],
-    [ "npc_magwin::npc_magwinAI", "da/d67/a15154.html", "da/d67/a15154" ],
-    [ "go_ravager_cage", "d5/d5b/a15158.html", "d5/d5b/a15158" ],
-    [ "npc_death_ravager", "dd/d7b/a15162.html", "dd/d7b/a15162" ],
-    [ "npc_death_ravager::npc_death_ravagerAI", "da/dcc/a15166.html", "da/dcc/a15166" ],
-    [ "npc_stillpine_capitive", "dc/df8/a15170.html", "dc/df8/a15170" ],
-    [ "npc_stillpine_capitive::npc_stillpine_capitiveAI", "d1/d06/a15174.html", "d1/d06/a15174" ],
-    [ "go_bristlelimb_cage", "d6/d63/a15178.html", "d6/d63/a15178" ],
-    [ "spell_inoculate_nestlewood_owlkin", "db/d45/a15182.html", "db/d45/a15182" ],
-    [ "BristlelimbCage", "d9/dd1/a04340.html#ab69bb59145b8e4a3ee5c269d141090a0", [
-      [ "QUEST_THE_PROPHECY_OF_AKIDA", "d9/dd1/a04340.html#ab69bb59145b8e4a3ee5c269d141090a0ae8d9e7f48db483f0e3497db05e0a8ab5", null ],
-      [ "NPC_STILLPINE_CAPITIVE", "d9/dd1/a04340.html#ab69bb59145b8e4a3ee5c269d141090a0af8664c69b400568c2fc8974230b57cdf", null ],
-      [ "GO_BRISTELIMB_CAGE", "d9/dd1/a04340.html#ab69bb59145b8e4a3ee5c269d141090a0aef32e220b187e5b1852e8f7a5bf67ed8", null ],
-      [ "CAPITIVE_SAY", "d9/dd1/a04340.html#ab69bb59145b8e4a3ee5c269d141090a0a98d7f3af2f348e324c78eca1ee3312e4", null ],
-      [ "POINT_INIT", "d9/dd1/a04340.html#ab69bb59145b8e4a3ee5c269d141090a0a965d8213c7e2bdb3d719b4dc8abe6175", null ],
-      [ "EVENT_DESPAWN", "d9/dd1/a04340.html#ab69bb59145b8e4a3ee5c269d141090a0a37c22b84c74c36e2af467a6bd1047f15", null ]
-    ] ],
-    [ "draeneiSurvivor", "d9/dd1/a04340.html#a4312325b44ff42e455a1955a0a0d0ce0", [
-      [ "SAY_HEAL", "d9/dd1/a04340.html#a4312325b44ff42e455a1955a0a0d0ce0a3bb81f47f40ebbd45afd95991300a0b6", null ],
-      [ "SAY_HELP", "d9/dd1/a04340.html#a4312325b44ff42e455a1955a0a0d0ce0a13e3c4fbf4ffac2b5a7fc5c14d049293", null ],
-      [ "SPELL_IRRIDATION", "d9/dd1/a04340.html#a4312325b44ff42e455a1955a0a0d0ce0a75ebf4ca85d16446e34a15b18cdf38ef", null ],
-      [ "SPELL_STUNNED", "d9/dd1/a04340.html#a4312325b44ff42e455a1955a0a0d0ce0acf37fb2b5fa94a29d651d4b9364de3b1", null ]
-    ] ],
-    [ "Magwin", "d9/dd1/a04340.html#a8f680a89d6b189116cd0885d3f8e0232", [
-      [ "SAY_START", "d9/dd1/a04340.html#a8f680a89d6b189116cd0885d3f8e0232a2eae21cbf7d110ee89a9798ef6f00239", null ],
-      [ "SAY_AGGRO", "d9/dd1/a04340.html#a8f680a89d6b189116cd0885d3f8e0232a47c752fff069f3e55065795eef2a9bfe", null ],
-      [ "SAY_PROGRESS", "d9/dd1/a04340.html#a8f680a89d6b189116cd0885d3f8e0232a0a1c1c8ee2f4fb58f4e107f259c6a7a5", null ],
-      [ "SAY_END1", "d9/dd1/a04340.html#a8f680a89d6b189116cd0885d3f8e0232a944891a3d2f715c9e1c8f47d65f16eca", null ],
-      [ "SAY_END2", "d9/dd1/a04340.html#a8f680a89d6b189116cd0885d3f8e0232aa0efc3eab3d2447cc17568f7ceed8cba", null ],
-      [ "EMOTE_HUG", "d9/dd1/a04340.html#a8f680a89d6b189116cd0885d3f8e0232a32c1d786a95676b42ba62cccb0249d6d", null ],
-      [ "NPC_COWLEN", "d9/dd1/a04340.html#a8f680a89d6b189116cd0885d3f8e0232a72a6ae36de9915698b0dbb6646852a3a", null ],
-      [ "SAY_COWLEN", "d9/dd1/a04340.html#a8f680a89d6b189116cd0885d3f8e0232a3b5ee5ee9166e2ca31e5271bfb24aead", null ],
-      [ "EVENT_ACCEPT_QUEST", "d9/dd1/a04340.html#a8f680a89d6b189116cd0885d3f8e0232ac570135999543136afc56b60cd580a2d", null ],
-      [ "EVENT_START_ESCORT", "d9/dd1/a04340.html#a8f680a89d6b189116cd0885d3f8e0232aac17b854a151f2f2ca72de93bf3c9e01", null ],
-      [ "EVENT_STAND", "d9/dd1/a04340.html#a8f680a89d6b189116cd0885d3f8e0232a306a9ab7ce63e6bdb9de7e1cb8ddb026", null ],
-      [ "EVENT_TALK_END", "d9/dd1/a04340.html#a8f680a89d6b189116cd0885d3f8e0232add701ab59fa34c09ea3a0c03ccad4b00", null ],
-      [ "EVENT_COWLEN_TALK", "d9/dd1/a04340.html#a8f680a89d6b189116cd0885d3f8e0232a87e4ec7fc1940c461ccea28f089583a7", null ],
-      [ "QUEST_A_CRY_FOR_HELP", "d9/dd1/a04340.html#a8f680a89d6b189116cd0885d3f8e0232a5e07ef0614c38548bc743a6622705cd8", null ]
-    ] ],
-    [ "NestlewoodOwlkin", "d9/dd1/a04340.html#a8399336a8832e4ae3f893a082e3f6a23", [
-      [ "NPC_NESTLEWOOD_OWLKIN_ENTRY", "d9/dd1/a04340.html#a8399336a8832e4ae3f893a082e3f6a23a042fac43f48aae1e0c20efae45c8edd4", null ],
-      [ "NPC_INOCULATED_OWLKIN_ENTRY", "d9/dd1/a04340.html#a8399336a8832e4ae3f893a082e3f6a23a81405be99e82dc85aab4f0a4a9560783", null ],
-      [ "TALK_OWLKIN", "d9/dd1/a04340.html#a8399336a8832e4ae3f893a082e3f6a23a018df08708e7e76f44efdb0f93a8dac7", null ]
-    ] ],
-    [ "RavegerCage", "d9/dd1/a04340.html#afbe1872b98459d496587a276f39f6172", [
-      [ "NPC_DEATH_RAVAGER", "d9/dd1/a04340.html#afbe1872b98459d496587a276f39f6172a3fc36348616e2274939b17da119f4cbb", null ],
-      [ "SPELL_REND", "d9/dd1/a04340.html#afbe1872b98459d496587a276f39f6172ac553ad24710435636bd9736df18484c6", null ],
-      [ "SPELL_ENRAGING_BITE", "d9/dd1/a04340.html#afbe1872b98459d496587a276f39f6172a441711efdb9fa90311571a2a0dbfe888", null ],
-      [ "QUEST_STRENGTH_ONE", "d9/dd1/a04340.html#afbe1872b98459d496587a276f39f6172a2ca7128123717d9b2be0d049b0180449", null ]
-    ] ],
-    [ "AddSC_azuremyst_isle", "d9/dd1/a04340.html#a92fc206251c5ac3ca89e584f0e69e0cb", null ]
+    [ "SPECTATOR_ADDON_PREFIX", "d9/dd1/a04340.html#ad208fe13d99ebdd4ecc344c284d15e68", null ],
+    [ "SPECTATOR_ADDON_VERSION", "d9/dd1/a04340.html#ae3d7b03163a946f567eb34e902d0b424", null ],
+    [ "SPECTATOR_BUFFER_LEN", "d9/dd1/a04340.html#adf210ab6f5a013e4f37def30f79b2a2c", null ],
+    [ "SPECTATOR_COOLDOWN_MAX", "d9/dd1/a04340.html#a5caad2c604ec8c4fe2b2653a9a629d23", null ],
+    [ "SPECTATOR_COOLDOWN_MIN", "d9/dd1/a04340.html#ad2182c49e417fd86e25b7c2a209d044b", null ],
+    [ "SPECTATOR_SPELL_BINDSIGHT", "d9/dd1/a04340.html#a45eed6b7e374a4b2ea26b3dd5ee915d0", null ],
+    [ "SPECTATOR_SPELL_SPEED", "d9/dd1/a04340.html#a3a183131cf51fa6957a40f07d8d524ef", null ],
+    [ "CreatePacket", "d9/dd1/a04340.html#a20983eb9cb8e3f584a4d8f752586d06b", null ],
+    [ "HandleResetCommand", "d9/dd1/a04340.html#a4508ccc26eb193b85e4d229a088c6be5", null ],
+    [ "HandleSpectatorSpectateCommand", "d9/dd1/a04340.html#ac3b35eed76fdcf00f43b226912317b4a", null ],
+    [ "HandleSpectatorWatchCommand", "d9/dd1/a04340.html#ae611c9f6783ca983d1ff667f36dd7c7d", null ],
+    [ "SendCommand", "d9/dd1/a04340.html#a4824203dd64e1ddcd47642df9d465ea0", null ],
+    [ "SendCommand_Aura", "d9/dd1/a04340.html#a918c7c3c9fd7d26b7a78f2e6d13e1e27", null ],
+    [ "SendCommand_Cooldown", "d9/dd1/a04340.html#a5e336b6d62f2d9e24551cfb96c7a8679", null ],
+    [ "SendCommand_GUID", "d9/dd1/a04340.html#af537ad9da6345b285d2d726b640a0340", null ],
+    [ "SendCommand_Spell", "d9/dd1/a04340.html#a461f69ba88de17058481bc77a3e9f7bb", null ],
+    [ "SendCommand_String", "d9/dd1/a04340.html#ac7839fd6177447b31578a19f8ee8e42a", null ],
+    [ "SendCommand_UInt32Value", "d9/dd1/a04340.html#ae899637e3543ca40ec63e98bf0426f58", null ],
+    [ "SendPacketTo", "d9/dd1/a04340.html#abc5c395f3697c21f09c4e70a81f02497", null ],
+    [ "ShouldSendAura", "d9/dd1/a04340.html#a29f78349223aca49d417c3f818b2dd4c", null ]
 ];

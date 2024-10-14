@@ -1,5 +1,8 @@
 var a14150 =
 [
-    [ "npc_grizzlemaw_cw_triggerAI", "d4/d55/a14150.html#a40207493c75d8a63284e08f1f75d56c4", null ],
-    [ "MoveInLineOfSight", "d4/d55/a14150.html#aef49ccdae1aff20fc469f0aa2663d8af", null ]
+    [ "HandleDummy", "d4/d55/a14150.html#a47b5a6741f2782359449dcaebd40fe1c", null ],
+    [ "Load", "d4/d55/a14150.html#a7877187ad7afb2dfbd28fb7c74d40478", null ],
+    [ "PrepareSpellScript", "d4/d55/a14150.html#af1d1ad32d41d79008d650b388353346b", null ],
+    [ "Register", "d4/d55/a14150.html#a53a7c4c025324b205a29f92dd48aefde", null ],
+    [ "handled", "d4/d55/a14150.html#acf3a9296a36f131f852afbf60beb7ea4", null ]
 ];

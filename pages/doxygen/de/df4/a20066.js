@@ -1,6 +1,6 @@
 var a20066 =
 [
-    [ "id", "de/df4/a20066.html#accc6fc59e13a0897ae168fae33ee4c7d", null ],
-    [ "x", "de/df4/a20066.html#afb67a1dce0819e0da0ceb9b303f43eb9", null ],
-    [ "y", "de/df4/a20066.html#aaf4fd9f1d5b020e102c0fec3863f7020", null ]
+    [ "npc_ulduar_hodir_shamanAI", "dc/dc1/a20070.html", "dc/dc1/a20070" ],
+    [ "npc_ulduar_hodir_shaman", "de/df4/a20066.html#ae73a416c72441ab531d8a5db88183d47", null ],
+    [ "GetAI", "de/df4/a20066.html#ab06a67b72a3954c65792a478ac90672c", null ]
 ];

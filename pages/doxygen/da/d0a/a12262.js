@@ -1,4 +1,5 @@
 var a12262 =
 [
-    [ "PrepareAuraScript", "da/d0a/a12262.html#aae5dc71af1a0fade2da9ee88875896a5", null ]
+    [ "npc_chess_move_trigger", "da/d0a/a12262.html#a6c0c37677db45ee11ebe158893d99632", null ],
+    [ "DamageTaken", "da/d0a/a12262.html#af413c7af2254c1cc06462b2a62ac88db", null ]
 ];

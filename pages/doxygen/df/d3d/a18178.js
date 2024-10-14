@@ -1,6 +1,7 @@
 var a18178 =
 [
-    [ "ModDest", "df/d3d/a18178.html#a71638bdecb0f580dceff7858441056d8", null ],
-    [ "PrepareSpellScript", "df/d3d/a18178.html#a741227928e07585b156ec716ae8b13da", null ],
-    [ "Register", "df/d3d/a18178.html#a19221c8453f23a7d384f6a2cb24c2fc2", null ]
+    [ "CalculateBonus", "df/d3d/a18178.html#ae149a739150cb7eb9fb67f19130c0510", null ],
+    [ "OnPeriodic", "df/d3d/a18178.html#a19697bd65a325870becc1c30d7deff36", null ],
+    [ "PrepareAuraScript", "df/d3d/a18178.html#a77c272d4a26323c421e4b264f79d5b66", null ],
+    [ "Register", "df/d3d/a18178.html#aecd8670e3a079c8460cddd5ce0b4f79b", null ]
 ];

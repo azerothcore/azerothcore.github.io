@@ -1,6 +1,10 @@
 var a26686 =
 [
-    [ "CheckCast", "d7/d0d/a26686.html#acdb69e605c4e3b5eb3e48f400957db28", null ],
-    [ "PrepareSpellScript", "d7/d0d/a26686.html#a1fb9a924ddba358d6d67943c5b2ffa24", null ],
-    [ "Register", "d7/d0d/a26686.html#a703b21a93ba41211ac6e6ee182eecb8b", null ]
+    [ "CalculateAmount", "d7/d0d/a26686.html#a9e0e28d871f9d3c89cf2dc862971321d", null ],
+    [ "Detonate", "d7/d0d/a26686.html#adc622aae157984546dfe3d8373c0c413", null ],
+    [ "HandleProc", "d7/d0d/a26686.html#a3b5812649b67830d8dc6d10b5dd1c937", null ],
+    [ "OnRemove", "d7/d0d/a26686.html#a5067cef0afc99d487f995f8d6edea21f", null ],
+    [ "PrepareAuraScript", "d7/d0d/a26686.html#abc23ebb3761e3505486ac578bdeaeeed", null ],
+    [ "Register", "d7/d0d/a26686.html#acc4819698e175889a0491d7f7cc680fd", null ],
+    [ "Validate", "d7/d0d/a26686.html#a0649826ce0d66c9f21be8d47c76f4941", null ]
 ];

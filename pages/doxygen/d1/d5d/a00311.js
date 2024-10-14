@@ -1,6 +1,12 @@
 var a00311 =
 [
-    [ "CONFIG_HIGH_PRIORITY", "d1/d5d/a00311.html#a04727fe99a83f6b774ac1fb1b8468f3e", null ],
-    [ "CONFIG_PROCESSOR_AFFINITY", "d1/d5d/a00311.html#a714853b6677573f2aa289978eee5b83f", null ],
-    [ "SetProcessPriority", "d1/d5d/a00311.html#ac0ccc1e4fc992fb43f068cb8f6b3fd7b", null ]
+    [ "MMAP::IMMapMgr", "d5/dab/a04850.html", "d5/dab/a04850" ],
+    [ "MMAP_LOAD_RESULT", "d1/d5d/a00311.html#a329271d76c3ed7ad6d255d45094b4868", [
+      [ "MMAP_LOAD_RESULT_ERROR", "d1/d5d/a00311.html#a329271d76c3ed7ad6d255d45094b4868a66ec06574c26cbc0b14b939c3cb09f85", null ],
+      [ "MMAP_LOAD_RESULT_OK", "d1/d5d/a00311.html#a329271d76c3ed7ad6d255d45094b4868ad7493681e0258dd1099139230f17df10", null ],
+      [ "MMAP_LOAD_RESULT_IGNORED", "d1/d5d/a00311.html#a329271d76c3ed7ad6d255d45094b4868a87dfee65ac7d1c8acf69eea806a151c8", null ],
+      [ "MMAP_LOAD_RESULT_ERROR", "d1/d5d/a00311.html#a329271d76c3ed7ad6d255d45094b4868a66ec06574c26cbc0b14b939c3cb09f85", null ],
+      [ "MMAP_LOAD_RESULT_OK", "d1/d5d/a00311.html#a329271d76c3ed7ad6d255d45094b4868ad7493681e0258dd1099139230f17df10", null ],
+      [ "MMAP_LOAD_RESULT_IGNORED", "d1/d5d/a00311.html#a329271d76c3ed7ad6d255d45094b4868a87dfee65ac7d1c8acf69eea806a151c8", null ]
+    ] ]
 ];

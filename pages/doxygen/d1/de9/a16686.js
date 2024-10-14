@@ -1,23 +1,8 @@
 var a16686 =
 [
-    [ "instance_forge_of_souls_InstanceScript", "d1/de9/a16686.html#ae39e116a01c17592037e12185a03201a", null ],
-    [ "CheckAchievementCriteriaMeet", "d1/de9/a16686.html#a534c7f97e7425160f9a2b1e555d0aa29", null ],
-    [ "GetGuidData", "d1/de9/a16686.html#aa2e295b46c826d701dafb2e6635ce723", null ],
-    [ "HandleOutro", "d1/de9/a16686.html#aadf4a99e89f354901ff63c600725b07f", null ],
-    [ "Initialize", "d1/de9/a16686.html#af0f6d3b0a9a5659affc9812de90fc8ae", null ],
-    [ "IsEncounterInProgress", "d1/de9/a16686.html#a698bfce6741edaccdbd32b1215def039", null ],
-    [ "OnCreatureCreate", "d1/de9/a16686.html#a7570ef3ca74178fec80c5018cbecf42a", null ],
-    [ "OnPlayerEnter", "d1/de9/a16686.html#a743f2f2accf6553353d85127260774f9", null ],
-    [ "ReadSaveDataMore", "d1/de9/a16686.html#a590164fab67dd90d63045671d22143c5", null ],
-    [ "SetData", "d1/de9/a16686.html#a7187a50cebadcf77d74c62b053830efb", null ],
-    [ "WriteSaveDataMore", "d1/de9/a16686.html#a1a3006add0aed0572d8b784a449fc75e", null ],
-    [ "m_auiEncounter", "d1/de9/a16686.html#ad5c847c647e45d23fa6df4ca66264c57", null ],
-    [ "NPC_BronjahmGUID", "d1/de9/a16686.html#affae42118c88fee6e7a300a45d74e63a", null ],
-    [ "NPC_DevourerGUID", "d1/de9/a16686.html#ae1da7da294210fd77199f98b23d3b665", null ],
-    [ "NPC_GuardFirstGUID", "d1/de9/a16686.html#acf04c40ff5c4b09fcafc5b5b8328eaab", null ],
-    [ "NPC_GuardSecondGUID", "d1/de9/a16686.html#aa2d81eabe8cf50f3c42b075581e4d6dd", null ],
-    [ "NPC_LeaderFirstGUID", "d1/de9/a16686.html#a10b3c39fb3c038932ddcff1ddfc4ab85", null ],
-    [ "NPC_LeaderSecondGUID", "d1/de9/a16686.html#a252639143b34c38ef106192cb2399b30", null ],
-    [ "str_data", "d1/de9/a16686.html#ad540fbbabef46015fb1730c5b6477b92", null ],
-    [ "teamIdInInstance", "d1/de9/a16686.html#aaba17e6fc33bcca175006486c5f21f81", null ]
+    [ "npc_phantom_hallucinationAI", "d1/de9/a16686.html#a7b27d1c859d77220dc1c3c8323e9eef9", null ],
+    [ "EnterEvadeMode", "d1/de9/a16686.html#a7ef7411ea780466d7c4dd185d9444aba", null ],
+    [ "JustDied", "d1/de9/a16686.html#a5a4f05c5930a7e5bd31df2e3131f4cec", null ],
+    [ "UpdateAI", "d1/de9/a16686.html#ad874a741c641dbac6380aa682d582d7c", null ],
+    [ "numOfUpd", "d1/de9/a16686.html#adb78f5dcd272e8223f895079885a5461", null ]
 ];

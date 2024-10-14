@@ -1,9 +1,6 @@
 var a17330 =
 [
-    [ "FilterTargetsInitial", "d9/da1/a17330.html#acebf4a9f8c4cdd6111ae816d7c24b00f", null ],
-    [ "FilterTargetsSubsequent", "d9/da1/a17330.html#a11732039155235c287757980129d5a8e", null ],
-    [ "Load", "d9/da1/a17330.html#a467272ccd10ec0aff7ad00a567c0049c", null ],
-    [ "PrepareSpellScript", "d9/da1/a17330.html#a6f97c9c1dc71a87d2a82de646809f063", null ],
-    [ "Register", "d9/da1/a17330.html#a56a4e65df08a95fddde75162358155c2", null ],
-    [ "_target", "d9/da1/a17330.html#abdd93e8e80826c71ead1d9e44aaf865a", null ]
+    [ "Cooldown", "d9/da1/a17330.html#ac2f21814be8269023a2069f3eb03dfe2", null ],
+    [ "Entry", "d9/da1/a17330.html#a28ff8bdab669f7b4aec95857cc460a2f", null ],
+    [ "TargetPosition", "d9/da1/a17330.html#ac47af49622012b4ad40357cadc5214b3", null ]
 ];

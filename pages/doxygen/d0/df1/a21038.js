@@ -1,6 +1,6 @@
 var a21038 =
 [
-    [ "boss_palehoofAI", "d8/d52/a21042.html", "d8/d52/a21042" ],
-    [ "boss_palehoof", "d0/df1/a21038.html#ac0e541befaad7e1e6e318d64ca4a1d94", null ],
-    [ "GetAI", "d0/df1/a21038.html#ae33ca6e71b251214be50168a5940d058", null ]
+    [ "boss_skadi_graufAI", "d8/d52/a21042.html", "d8/d52/a21042" ],
+    [ "boss_skadi_grauf", "d0/df1/a21038.html#a571db2d2ae21f38b7051319da0f042f6", null ],
+    [ "GetAI", "d0/df1/a21038.html#a9b637a93a572d21691b81b80ec45206d", null ]
 ];

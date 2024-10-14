@@ -1,7 +1,6 @@
 var a13458 =
 [
-    [ "o", "d0/db9/a13458.html#a455ab33d372dd2aeac9d591f3cce1013", null ],
-    [ "x", "d0/db9/a13458.html#a49ad07d6ecb902ae4818923a6414f3c1", null ],
-    [ "y", "d0/db9/a13458.html#a45ec9c234e9d909eb8fcc0db6e0d641e", null ],
-    [ "z", "d0/db9/a13458.html#abf42d988d416ebe409100c4b860d26db", null ]
+    [ "npc_parqual_fintallas", "d0/db9/a13458.html#a9edaf1f7cf4e81ce24c54faa4aed6cf6", null ],
+    [ "OnGossipHello", "d0/db9/a13458.html#af7c1f119d91aa63ee96765f2092b0a6c", null ],
+    [ "OnGossipSelect", "d0/db9/a13458.html#a39276ef82ec5214a1727ebd60235a506", null ]
 ];

@@ -1,6 +1,7 @@
 var a15546 =
 [
-    [ "SayerEntry", "dc/db2/a15546.html#a3f9e374ec2a49823d942c29572ac2fa0", null ],
-    [ "SayTimer", "dc/db2/a15546.html#a942073f24fd12da712184243d9f098f2", null ],
-    [ "TextEntry", "dc/db2/a15546.html#a360822e4c069be6019c0a465cb2499cf", null ]
+    [ "go_troll_cageAI", "dc/db2/a15546.html#ae742afdb7a37d64bb852b7ecd076d007", null ],
+    [ "GossipHello", "dc/db2/a15546.html#a5c91cb491021b15ba70cc8ef5f07d037", null ],
+    [ "initBlyCrewMember", "dc/db2/a15546.html#a6bfb77ec97367d8704885acfef801b74", null ],
+    [ "instance", "dc/db2/a15546.html#ad5d736dd6cbe7a23d03f21004cae530d", null ]
 ];

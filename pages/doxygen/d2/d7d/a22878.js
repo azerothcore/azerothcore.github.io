@@ -1,6 +1,11 @@
 var a22878 =
 [
-    [ "FilterTargets", "d2/d7d/a22878.html#a04973145ed594b88afe2acc0cacb10c6", null ],
-    [ "PrepareSpellScript", "d2/d7d/a22878.html#a90c0513a6dba2f2e6619dd8c77544991", null ],
-    [ "Register", "d2/d7d/a22878.html#a7c8ca525cd6822d21551331ce37ce5dd", null ]
+    [ "boss_supremus", "d2/d7d/a22878.html#af1f094534b0e2dec70422839a02327cd", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "d2/d7d/a22878.html#a2654bf5b1d5b6da723d4968219e069a9", null ],
+    [ "FindHatefulStrikeTarget", "d2/d7d/a22878.html#af560466902d0d372662020e1a67b627c", null ],
+    [ "JustEngagedWith", "d2/d7d/a22878.html#a7d3a5e2c183db7639a7c25f309359ed1", null ],
+    [ "JustSummoned", "d2/d7d/a22878.html#a7265a01fa79213ab6d8b82a4c92b7661", null ],
+    [ "Reset", "d2/d7d/a22878.html#a0eaa29849a2571417d4826d238d72e25", null ],
+    [ "SchedulePhase", "d2/d7d/a22878.html#a87e3943d6c645138853aa97644f9df0e", null ],
+    [ "SummonedCreatureDespawn", "d2/d7d/a22878.html#a2ae72bfef577654e676a64eb2e4efa7a", null ]
 ];

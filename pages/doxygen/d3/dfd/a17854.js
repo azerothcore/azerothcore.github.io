@@ -1,7 +1,10 @@
 var a17854 =
 [
-    [ "HandleCast", "d3/dfd/a17854.html#aaa3262bc782e342825d4caba2954e95d", null ],
-    [ "PrepareSpellScript", "d3/dfd/a17854.html#ae4d1f05b978e2a46d7dc3410def73978", null ],
-    [ "Register", "d3/dfd/a17854.html#ac59fb77c6a52d7a603dbb27e933a6814", null ],
-    [ "Validate", "d3/dfd/a17854.html#a6ca80316fe7bcbb4ebda095d633bb1bc", null ]
+    [ "CountTargets", "d3/dfd/a17854.html#a042c3f2ee73533b397a2d697d1da6563", null ],
+    [ "HandleDummy", "d3/dfd/a17854.html#ab314680d5349c0c3e449694b92ab7311", null ],
+    [ "Load", "d3/dfd/a17854.html#a534e9f5ee9aa29603cfc205c2c2d580f", null ],
+    [ "PrepareSpellScript", "d3/dfd/a17854.html#a8b831c01cd9fd997279f6a81170786de", null ],
+    [ "Register", "d3/dfd/a17854.html#ab0d87ba23eb252075cb0779b06813a31", null ],
+    [ "SelectDest", "d3/dfd/a17854.html#a6061486d0067af51c8ef079224ea63f1", null ],
+    [ "_targetCount", "d3/dfd/a17854.html#a58f839370a885c450e6742cbb3116784", null ]
 ];

@@ -1,7 +1,6 @@
 var a19326 =
 [
-    [ "HandleProc", "d5/db9/a19326.html#adb7714eca4c317ab76db0ecbc813669e", null ],
-    [ "PrepareAuraScript", "d5/db9/a19326.html#a70f2c5c4656abb4798ad39b015fc2a9a", null ],
-    [ "Register", "d5/db9/a19326.html#a445ce7331c36e507aa24466ff9a67781", null ],
-    [ "Validate", "d5/db9/a19326.html#ad0e44f34d7bd1671ef7dcc2165abaa66", null ]
+    [ "npc_stormforged_lieutenantAI", "d4/dd9/a19330.html", "d4/dd9/a19330" ],
+    [ "npc_stormforged_lieutenant", "d5/db9/a19326.html#ab58a73d33c6545815511c5c4f0ecfd9e", null ],
+    [ "GetAI", "d5/db9/a19326.html#ae3aba4b53e73097c261eaaed19f17950", null ]
 ];

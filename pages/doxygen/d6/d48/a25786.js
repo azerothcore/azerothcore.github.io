@@ -1,7 +1,6 @@
 var a25786 =
 [
-    [ "HandleEnergize", "d6/d48/a25786.html#a283e713252166a863aa96530d6e7608b", null ],
-    [ "Load", "d6/d48/a25786.html#a89847e0e9435a708c5722ff928f7033f", null ],
-    [ "PrepareSpellScript", "d6/d48/a25786.html#a8847e05e6eeafd801fca5423d0689432", null ],
-    [ "Register", "d6/d48/a25786.html#ae0778ffd8cf203e22510ee91b0394303", null ]
+    [ "CalculateDamage", "d6/d48/a25786.html#a05c6a249b32f41d8d33b40d07bd3c44d", null ],
+    [ "PrepareSpellScript", "d6/d48/a25786.html#ace682a64f3ca32e4f4151034ad936ea6", null ],
+    [ "Register", "d6/d48/a25786.html#a6dc3beb1f857c2c2a719bd882cc3568d", null ]
 ];

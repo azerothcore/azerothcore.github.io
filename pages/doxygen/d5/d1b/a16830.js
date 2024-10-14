@@ -1,5 +1,7 @@
 var a16830 =
 [
-    [ "at_hor_battered_hilt_start", "d5/d1b/a16830.html#a1b9e6d892525cf28d71757f7861e1d1a", null ],
-    [ "OnTrigger", "d5/d1b/a16830.html#a5d2d0a05b17dafe7ebb5447cfd168f69", null ]
+    [ "HandlePeriodicTick", "d5/d1b/a16830.html#a61417176afec531ca2bf6e80eb72ac6a", null ],
+    [ "PrepareAuraScript", "d5/d1b/a16830.html#ad5f954d5050bded2e6a5877cb9f81df5", null ],
+    [ "Register", "d5/d1b/a16830.html#a4653ccb0d93d056adf3b14056865787c", null ],
+    [ "Validate", "d5/d1b/a16830.html#a675b447cf1cf0e7d92c777ae31888a8c", null ]
 ];

@@ -1,7 +1,6 @@
 var a22038 =
 [
-    [ "Absorb", "de/d61/a22038.html#a784b48553696734abac77545df2fc045", null ],
-    [ "CalculateAmount", "de/d61/a22038.html#a456ee99a71062f6217bda7561e4e7766", null ],
-    [ "PrepareAuraScript", "de/d61/a22038.html#a456b1b70fd6d9b6642ec959677fe08ff", null ],
-    [ "Register", "de/d61/a22038.html#aa3260fa9a1a918e13ccfc9cd57f59d19", null ]
+    [ "npc_frostbrood_skytalonAI", "dd/d1b/a22042.html", "dd/d1b/a22042" ],
+    [ "npc_frostbrood_skytalon", "de/d61/a22038.html#a1bc95edf0e624709e3836bdcfb0c503c", null ],
+    [ "GetAI", "de/d61/a22038.html#af5b1c3e52076fb84b83e785762ff6b6d", null ]
 ];

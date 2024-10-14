@@ -1,7 +1,6 @@
 var a15494 =
 [
-    [ "npc_lakota_windsongAI", "d4/dfd/a15494.html#a922172a38ca75adef66a2653eda7fa98", null ],
-    [ "DoSpawnBandits", "d4/dfd/a15494.html#aa63601ac87b674cb5d0594213d1e7ea9", null ],
-    [ "Reset", "d4/dfd/a15494.html#aee7a86275f93021e0e5db249b636bcd4", null ],
-    [ "WaypointReached", "d4/dfd/a15494.html#a6435c8b1521206789131889e5fa527a6", null ]
+    [ "SayerEntry", "d4/dfd/a15494.html#a3f9e374ec2a49823d942c29572ac2fa0", null ],
+    [ "SayTimer", "d4/dfd/a15494.html#a942073f24fd12da712184243d9f098f2", null ],
+    [ "TextEntry", "d4/dfd/a15494.html#a360822e4c069be6019c0a465cb2499cf", null ]
 ];

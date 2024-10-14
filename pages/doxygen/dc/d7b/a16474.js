@@ -1,6 +1,5 @@
 var a16474 =
 [
-    [ "spell_valkyr_essence_auraAuraScript", "d9/db4/a16478.html", "d9/db4/a16478" ],
-    [ "spell_valkyr_essence", "dc/d7b/a16474.html#ab867f769df26243ad4cdb3aea3abbed7", null ],
-    [ "GetAuraScript", "dc/d7b/a16474.html#ace21eeaab7725a5e04b0a95dc61b1ea6", null ]
+    [ "achievement_better_off_dred", "dc/d7b/a16474.html#a1ff3442ab3e166a4001c4c10777bdf8a", null ],
+    [ "OnCheck", "dc/d7b/a16474.html#a9aab68b43fbf9f3c71c237b149f23b2d", null ]
 ];

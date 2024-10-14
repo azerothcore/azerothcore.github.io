@@ -1,10 +1,10 @@
 var a27314 =
 [
-    [ "guard_shattrath_aldorAI", "d1/d39/a27314.html#a88961dfe4100dfe207af693a1eed86ad", null ],
-    [ "Reset", "d1/d39/a27314.html#aef38e83e90c322bbef18b78e6339ef2e", null ],
-    [ "UpdateAI", "d1/d39/a27314.html#ac87ee12d4487971b68c70f06f63eb410", null ],
-    [ "banishTimer", "d1/d39/a27314.html#a8b6e4c2acb09c65f2dbebbd21df4f29e", null ],
-    [ "canTeleport", "d1/d39/a27314.html#af4d933b56431d2f2755d87fb05922458", null ],
-    [ "exileTimer", "d1/d39/a27314.html#a8d56205206f3e14184922f96873456ad", null ],
-    [ "playerGUID", "d1/d39/a27314.html#a16fe41ae30d54abaf12f68672b93dc32", null ]
+    [ "npc_prof_alchemy", "d1/d39/a27314.html#a43ea842214fc507c34586d12df8f7fea", null ],
+    [ "HasAlchemySpell", "d1/d39/a27314.html#ac9df824e0923ca86189a53ae391b43c0", null ],
+    [ "OnGossipHello", "d1/d39/a27314.html#add760c538c7882e1ad8331b8ded74f5c", null ],
+    [ "OnGossipSelect", "d1/d39/a27314.html#a2377df97a293fb3fcbe7f70d4d815b75", null ],
+    [ "SendActionMenu", "d1/d39/a27314.html#a2d4c7337b40be323a384a9e755fc3145", null ],
+    [ "SendConfirmLearn", "d1/d39/a27314.html#a548224b30494636b9ee292a533fc7b39", null ],
+    [ "SendConfirmUnlearn", "d1/d39/a27314.html#ae4c861cf383f39d2e5ceebc9be4b568c", null ]
 ];

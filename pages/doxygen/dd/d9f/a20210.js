@@ -1,6 +1,7 @@
 var a20210 =
 [
-    [ "boss_ignisAI", "d9/d98/a20214.html", "d9/d98/a20214" ],
-    [ "boss_ignis", "dd/d9f/a20210.html#a15f42f252e4f9472707d5b81f7fdaece", null ],
-    [ "GetAI", "dd/d9f/a20210.html#ac11ff148e9cbc985875f859268a3de01", null ]
+    [ "StoneGripTargetSelector", "dd/d9f/a20210.html#a74fc772e2bc0694dee05fe82de4463e2", null ],
+    [ "operator()", "dd/d9f/a20210.html#ae40653def55e656f2347029a97605395", null ],
+    [ "_me", "dd/d9f/a20210.html#ae5781d6b553491a1e3e8bfde2b965c3a", null ],
+    [ "_victim", "dd/d9f/a20210.html#a09c3c6f832c20776f11b72a468a4b0bb", null ]
 ];

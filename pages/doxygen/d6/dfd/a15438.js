@@ -1,9 +1,7 @@
 var a15438 =
 [
-    [ "npc_custodian_of_timeAI", "d6/dfd/a15438.html#a2434afcda3bc5681a124bdb1a2c8d56f", null ],
-    [ "JustEngagedWith", "d6/dfd/a15438.html#a3b12c06566b0c1d567b6edd8b57b8332", null ],
-    [ "MoveInLineOfSight", "d6/dfd/a15438.html#a97b21c4ecc89e4ddd5aef4dab30a7ecf", null ],
-    [ "Reset", "d6/dfd/a15438.html#a56bcc694ac286488ed4b3f2328c30573", null ],
-    [ "UpdateAI", "d6/dfd/a15438.html#a4b43c5f6eaf70fc93dcb18c183e456dc", null ],
-    [ "WaypointReached", "d6/dfd/a15438.html#a963736e62fbd0caea631ee3fb69fca46", null ]
+    [ "npc_lakota_windsongAI", "db/d8e/a15442.html", "db/d8e/a15442" ],
+    [ "npc_lakota_windsong", "d6/dfd/a15438.html#a08a585ac36189ec23354c7acb26d223d", null ],
+    [ "GetAI", "d6/dfd/a15438.html#af2f27ed2c4bd7298a9478495d2d7ca65", null ],
+    [ "OnQuestAccept", "d6/dfd/a15438.html#a47ccf0b8bef84724f7aa7e2ad564dfe6", null ]
 ];

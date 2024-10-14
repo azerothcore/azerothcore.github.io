@@ -1,6 +1,6 @@
 var a24402 =
 [
-    [ "DeathEvent", "d3/daf/a24402.html#a2fb9a98c077d715c4648aede6597276e", null ],
-    [ "Execute", "d3/daf/a24402.html#a497ac46ab1acf95816020fc6be8ce03a", null ],
-    [ "_owner", "d3/daf/a24402.html#a099d0d5ae50126f00220b3ed90907617", null ]
+    [ "HandlePeriodic", "d3/daf/a24402.html#a9d94b55656848d5b9f943b9b3bbfd889", null ],
+    [ "PrepareAuraScript", "d3/daf/a24402.html#a6b76add02d3a1eeddd845c4f97d0632a", null ],
+    [ "Register", "d3/daf/a24402.html#aa8c6fc66e1483370681ae6f7fdf5b676", null ]
 ];

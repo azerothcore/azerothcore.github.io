@@ -1,10 +1,6 @@
 var a24370 =
 [
-    [ "npc_pet_gen_imp_in_a_bottle", "df/d0d/a24370.html#aa32b7770c2719d77d46fcf6d22989284", null ],
-    [ "InitializeAI", "df/d0d/a24370.html#a9fde3fd30d48068a3ad1a19f65c61bf2", null ],
-    [ "UpdateAI", "df/d0d/a24370.html#a453ec855bb21a30cb72b540ff8f77035", null ],
-    [ "_data", "df/d0d/a24370.html#a982ec923536c2c33353a3673aa425b6a", null ],
-    [ "_hasParty", "df/d0d/a24370.html#a192d9e2ba340040cb6ba5c0f324ffb2d", null ],
-    [ "_ownerGUID", "df/d0d/a24370.html#a5452226bbe4f65a9bd7ce103a7648a2f", null ],
-    [ "_talkTimer", "df/d0d/a24370.html#a07eba859ad2d5db4f6d91734c04020cf", null ]
+    [ "npc_pet_pri_shadowfiend", "df/d0d/a24370.html#ac35e3bcf59dc2d65a313e315516ea09b", null ],
+    [ "JustDied", "df/d0d/a24370.html#a6d50edf62bf4547117f3f7b5b520f71b", null ],
+    [ "Reset", "df/d0d/a24370.html#aeff1bada59ee80ae0166a82207729bad", null ]
 ];

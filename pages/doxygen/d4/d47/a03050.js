@@ -1,8 +1,6 @@
 var a03050 =
 [
-    [ "instance_trial_of_the_champion", "d6/d36/a16134.html", "d6/d36/a16134" ],
-    [ "instance_trial_of_the_champion::instance_trial_of_the_champion_InstanceMapScript", "d6/d5e/a16138.html", "d6/d5e/a16138" ],
-    [ "CLEANUP_CHECK_INTERVAL", "d4/d47/a03050.html#a736c9181af440341040d67d6b54e5700", null ],
-    [ "AddSC_instance_trial_of_the_champion", "d4/d47/a03050.html#a15e8163b6e8598d38b9f8c3b0ab9d5bd", null ],
-    [ "SpawnPosition", "d4/d47/a03050.html#a70438d12d4153aa7d510c89551abf7c9", null ]
+    [ "SelectAI", "d4/d47/a03050.html#a10fef1ff3335f4642179ee423b1ff0d6", null ],
+    [ "SelectGameObjectAI", "d4/d47/a03050.html#a2ce404e9b85f551638d8783c01a19860", null ],
+    [ "SelectMovementGenerator", "d4/d47/a03050.html#a203d17bf72c42c0d3fdb77626b01b679", null ]
 ];

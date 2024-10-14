@@ -1,10 +1,6 @@
 var a18794 =
 [
-    [ "boss_isle_of_conquestAI", "da/d38/a18794.html#a7880ea86e7a03f5b14875065a83a206a", null ],
-    [ "CheckRageBuff", "da/d38/a18794.html#a6d60480e39fa89dbcc0facce9f0b69a3", null ],
-    [ "JustEngagedWith", "da/d38/a18794.html#a878635ef0673325943e6026ad76c2b06", null ],
-    [ "Reset", "da/d38/a18794.html#add59669e5f6c3c882ac008c720349573", null ],
-    [ "UpdateAI", "da/d38/a18794.html#ab33aa7e735c5837428a4cf2b76e4275e", null ],
-    [ "events", "da/d38/a18794.html#a38e308b66b0f35d3efe6916b03e4391c", null ],
-    [ "rage", "da/d38/a18794.html#aa16ebdd6e2f486d3a6e4b58f4cb5e696", null ]
+    [ "boss_gluthAI", "d9/d5d/a18798.html", "d9/d5d/a18798" ],
+    [ "boss_gluth", "da/d38/a18794.html#a3ff6e361cd6799f41d00fa75784c4f76", null ],
+    [ "GetAI", "da/d38/a18794.html#a3b19c938aaecc897d6552715064be7f8", null ]
 ];

@@ -1,6 +1,6 @@
 var a18478 =
 [
-    [ "boss_sister_svalnaAI", "d2/d0c/a18482.html", "d2/d0c/a18482" ],
-    [ "boss_sister_svalna", "d6/db5/a18478.html#a233a9606db61f6ab945350e98a0929ff", null ],
-    [ "GetAI", "d6/db5/a18478.html#a5eb89badd75104dfe1dc3e03d372adc0", null ]
+    [ "npc_impaling_spearAI", "d2/d0c/a18482.html", "d2/d0c/a18482" ],
+    [ "npc_impaling_spear", "d6/db5/a18478.html#af546ed9684fc085ad651bf5bd93e5bf7", null ],
+    [ "GetAI", "d6/db5/a18478.html#aad49164a3e7541b755c1c622b996bb9a", null ]
 ];

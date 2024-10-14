@@ -1,15 +1,10 @@
 var a21358 =
 [
-    [ "npc_vh_teleportation_portalAI", "d6/d7a/a21358.html#a9d062de34e4fbc8ccc487a633efa038d", null ],
-    [ "JustDied", "d6/d7a/a21358.html#aab2cc259d78492c54e21b4279697f909", null ],
-    [ "JustSummoned", "d6/d7a/a21358.html#a029b105ef6f92455c41e064aeb0fd5f6", null ],
-    [ "SummonedMobDied", "d6/d7a/a21358.html#ae6b5b15aeee2f7b02d5c54dd8d09aa51", null ],
-    [ "UpdateAI", "d6/d7a/a21358.html#a812e330e20924cc34262363ecc0a3fc1", null ],
-    [ "addValue", "d6/d7a/a21358.html#aa52f29a41d12320516737b437af62fc3", null ],
-    [ "bKorG", "d6/d7a/a21358.html#ad96efd06ebb1902cc30deb22e62d7873", null ],
-    [ "events", "d6/d7a/a21358.html#a329635246e80e7264cad6749ee70be40", null ],
-    [ "listOfMobs", "d6/d7a/a21358.html#a470a61cf7d424711b07770fd56c74b29", null ],
-    [ "pInstance", "d6/d7a/a21358.html#a10ebe705c55d898bfea2af104ce7f86e", null ],
-    [ "spawned", "d6/d7a/a21358.html#a8921c314c2f4b958e11136504971f427", null ],
-    [ "wave", "d6/d7a/a21358.html#a4dd689e6445e18c3e9883bc471fecdde", null ]
+    [ "npc_azure_spellbreakerAI", "d6/d7a/a21358.html#a1daf4cb20f4081380d8deda9a58da2fd", null ],
+    [ "Reset", "d6/d7a/a21358.html#a731ff2d4311359145c353de2d91935c8", null ],
+    [ "UpdateAI", "d6/d7a/a21358.html#a053ecfe5c78220c4fa1ac896ce161210", null ],
+    [ "uiArcaneBlastTimer", "d6/d7a/a21358.html#a1e752971a31c7d3415c1820eb3574a98", null ],
+    [ "uiChainsOfIceTimer", "d6/d7a/a21358.html#a2cbf33865a79a781d8b7aad04cd2095c", null ],
+    [ "uiConeOfColdTimer", "d6/d7a/a21358.html#a4970c7459b044b08bf36e17c703395fb", null ],
+    [ "uiSlowTimer", "d6/d7a/a21358.html#a2a02b42ec104cfb6682782a80f813eef", null ]
 ];

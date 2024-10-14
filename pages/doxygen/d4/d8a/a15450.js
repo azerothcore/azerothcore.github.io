@@ -1,7 +1,7 @@
 var a15450 =
 [
-    [ "npc_toogaAI", "df/d38/a15454.html", "df/d38/a15454" ],
-    [ "npc_tooga", "d4/d8a/a15450.html#a6ea6a9e4dea1ab98475dae13680ceeaf", null ],
-    [ "GetAI", "d4/d8a/a15450.html#a7847577589f3bdc1c3ea5ee0f1f9232f", null ],
-    [ "OnQuestAccept", "d4/d8a/a15450.html#ac0fdcb3959c239d614b1cc7c66623c5d", null ]
+    [ "npc_paoka_swiftmountainAI", "d4/d8a/a15450.html#a92a229f76de3bc46ae14910439db0004", null ],
+    [ "DoSpawnWyvern", "d4/d8a/a15450.html#a7997a3d398db82c205e3a8af77ac1684", null ],
+    [ "Reset", "d4/d8a/a15450.html#acae0427957aba04a54e6001823bc7eb4", null ],
+    [ "WaypointReached", "d4/d8a/a15450.html#a262781c90fe1b5a5af2c6f94e4cc52e2", null ]
 ];

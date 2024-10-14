@@ -1,8 +1,6 @@
 var a09602 =
 [
-    [ "GetAINotifyDelay", "dd/d5f/a09602.html#a9efd4acfe2ff5e4dfe0cc9e8fe802cc6", null ],
-    [ "GetReqMoveDistSq", "dd/d5f/a09602.html#a58687646bbf83723e8ad2925ee50452c", null ],
-    [ "GetVisibilityNotifyDelay", "dd/d5f/a09602.html#ac402ec0cb86192ce264d7909e09da5ac", null ],
-    [ "Update", "dd/d5f/a09602.html#aa95443d7050249a44cad2f16fa0026e5", null ],
-    [ "visibilitySettingsIndex", "dd/d5f/a09602.html#a35ebd0fcbdec8a3287f714cbe9becbcc", null ]
+    [ "aiNotifyDelay", "dd/d5f/a09602.html#af70453021c5ded85c73a4d5559dca2ea", null ],
+    [ "requiredMoveDistanceSq", "dd/d5f/a09602.html#aaa4faa0170181e409940b5441eb2f586", null ],
+    [ "visibilityNotifyDelay", "dd/d5f/a09602.html#ad566fd5eff102929247b75cf5092a60b", null ]
 ];

@@ -1,5 +1,5 @@
 var a27286 =
 [
-    [ "go_veil_skith_cage", "de/da3/a27286.html#ac3fe1fdf2f12571fafc56e71a932994e", null ],
-    [ "OnGossipHello", "de/da3/a27286.html#a6724dc73ecf83305e5234eb0a2ad1d3c", null ]
+    [ "item_disgusting_jar", "de/da3/a27286.html#add658cf7d026ac12d3eacc0c1dc8d7fb", null ],
+    [ "OnExpire", "de/da3/a27286.html#a4f6967035a4d247914a6034fcebac5c5", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Kalimdor/CavernsOfTime/TheBlackMorass/instance_the_black_morass.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Movement/MovementGenerators/TargetedMovementGenerator.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,108 +105,299 @@ $(document).ready(function(){initNavTree('db/d25/a04265.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">instance_the_black_morass.cpp File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">TargetedMovementGenerator.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">InstanceMapScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">TargetedMovementGenerator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MoveSplineInit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Pet.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellInfo.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">TemporarySummon.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">the_black_morass.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d21/a14662.html">instance_the_black_morass</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d28/a14666.html">instance_the_black_morass::instance_the_black_morass_InstanceMapScript</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a665f808519def7182fa25d9c0a4525f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d25/a04265.html#a665f808519def7182fa25d9c0a4525f6">AddSC_instance_the_black_morass</a> ()</td></tr>
-<tr class="separator:a665f808519def7182fa25d9c0a4525f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a744b7235a198467a51550de127971bb1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d9/d08/a08198.html">Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d25/a04265.html#a744b7235a198467a51550de127971bb1">PortalLocation</a> [4]</td></tr>
-<tr class="separator:a744b7235a198467a51550de127971bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a412286b689bd324fedd65ddd8dde8afb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6c/a09322.html">ObjectData</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d25/a04265.html#a412286b689bd324fedd65ddd8dde8afb">creatureData</a> []</td></tr>
-<tr class="separator:a412286b689bd324fedd65ddd8dde8afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53d496abdea10dead20c7e6a9cb09cd6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d25/a04265.html#a53d496abdea10dead20c7e6a9cb09cd6">IsMutualChase</a> (<a class="el" href="../../d3/daf/a08498.html">Unit</a> *owner, <a class="el" href="../../d3/daf/a08498.html">Unit</a> *target)</td></tr>
+<tr class="separator:a53d496abdea10dead20c7e6a9cb09cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24fd9652d12d1ba9d62b8d6273664c55"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d25/a04265.html#a24fd9652d12d1ba9d62b8d6273664c55">GetChaseRange</a> (<a class="el" href="../../d3/daf/a08498.html">Unit</a> const *owner, <a class="el" href="../../d3/daf/a08498.html">Unit</a> const *target)</td></tr>
+<tr class="separator:a24fd9652d12d1ba9d62b8d6273664c55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a955c196fa9c96bf11e2d887d6cbac50c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../db/d8e/a00482.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d25/a04265.html#a955c196fa9c96bf11e2d887d6cbac50c">GetVelocity</a> (<a class="el" href="../../d3/daf/a08498.html">Unit</a> *owner, <a class="el" href="../../d3/daf/a08498.html">Unit</a> *target, G3D::Vector3 const &amp;dest, bool playerPet)</td></tr>
+<tr class="separator:a955c196fa9c96bf11e2d887d6cbac50c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada5b031ff95410ba84fd734c95c68099"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d08/a08198.html">Position</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d25/a04265.html#ada5b031ff95410ba84fd734c95c68099">PredictPosition</a> (<a class="el" href="../../d3/daf/a08498.html">Unit</a> *target)</td></tr>
+<tr class="separator:ada5b031ff95410ba84fd734c95c68099"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a665f808519def7182fa25d9c0a4525f6" name="a665f808519def7182fa25d9c0a4525f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a665f808519def7182fa25d9c0a4525f6">&#9670;&#160;</a></span>AddSC_instance_the_black_morass()</h2>
+<a id="a24fd9652d12d1ba9d62b8d6273664c55" name="a24fd9652d12d1ba9d62b8d6273664c55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24fd9652d12d1ba9d62b8d6273664c55">&#9670;&#160;</a></span>GetChaseRange()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_instance_the_black_morass </td>
+          <td class="memname">float GetChaseRange </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d3/daf/a08498.html">Unit</a> const *&#160;</td>
+          <td class="paramname"><em>owner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/daf/a08498.html">Unit</a> const *&#160;</td>
+          <td class="paramname"><em>target</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   36</span>{</div>
+<div class="line"><span class="lineno">   37</span>    <span class="keywordtype">float</span> hitboxSum = owner-&gt;GetCombatReach() + target-&gt;GetCombatReach();</div>
+<div class="line"><span class="lineno">   38</span> </div>
+<div class="line"><span class="lineno">   39</span>    <span class="keywordtype">float</span> hoverDelta = owner-&gt;GetHoverHeight() - target-&gt;GetHoverHeight();</div>
+<div class="line"><span class="lineno">   40</span>    <span class="keywordflow">if</span> (hoverDelta != 0.0f)</div>
+<div class="line"><span class="lineno">   41</span>        <span class="keywordflow">return</span> std::sqrt(std::max(hitboxSum * hitboxSum - hoverDelta * hoverDelta, 0.0f));</div>
+<div class="line"><span class="lineno">   42</span> </div>
+<div class="line"><span class="lineno">   43</span>    <span class="keywordflow">return</span> hitboxSum;</div>
+<div class="line"><span class="lineno">   44</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00770">Unit::GetCombatReach()</a>, and <a class="el" href="../../#l01717">Unit::GetHoverHeight()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00066">ChaseMovementGenerator&lt; T &gt;::DoUpdate()</a>.</p>
+
+</div>
+</div>
+<a id="a955c196fa9c96bf11e2d887d6cbac50c" name="a955c196fa9c96bf11e2d887d6cbac50c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a955c196fa9c96bf11e2d887d6cbac50c">&#9670;&#160;</a></span>GetVelocity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../db/d8e/a00482.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; float &gt; GetVelocity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/daf/a08498.html">Unit</a> *&#160;</td>
+          <td class="paramname"><em>owner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/daf/a08498.html">Unit</a> *&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">G3D::Vector3 const &amp;&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>playerPet</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  335</span>{</div>
+<div class="line"><span class="lineno">  336</span>    <a class="code hl_typedef" href="../../db/d8e/a00482.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;float&gt;</a> speed = {};</div>
+<div class="line"><span class="lineno">  337</span>    <span class="keywordflow">if</span> (!owner-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#af5e75d013dfa8a8b888d7714992e3f2a">IsInCombat</a>() &amp;&amp; !owner-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a0414b693087d7f3acc4a13eadb619660">IsVehicle</a>() &amp;&amp; !owner-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a4af419c3eef4085ecaad8fd08e536800">HasUnitFlag</a>(<a class="code hl_enumvalue" href="../../dc/d0b/a03653.html#affdd0d554c8bcaaa85a879f5a9d60934a59096e3d543ac78cc5b57c9b88b79c03">UNIT_FLAG_POSSESSED</a>) &amp;&amp;</div>
+<div class="line"><span class="lineno">  338</span>        (owner-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a4ad2fdcc45e2c3c85ad59ff49268b58c">IsPet</a>() || owner-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#aad9476ff8867ed8013781b2601f12d1f">IsGuardian</a>() || owner-&gt;<a class="code hl_function" href="../../d8/dc8/a08122.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>() == target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#aa48dad40872b2d815bb08306bc228882">GetCritterGUID</a>() || owner-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#aff6c755067d9a6c33c846482faf1b6f1">GetCharmerOrOwnerGUID</a>() == target-&gt;<a class="code hl_function" href="../../d8/dc8/a08122.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>()))</div>
+<div class="line"><span class="lineno">  339</span>    {</div>
+<div class="line"><span class="lineno">  340</span>        <a class="code hl_typedef" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> moveFlags = target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a125e704efcc6b2b410fabc2790e2cafd">GetUnitMovementFlags</a>();</div>
+<div class="line"><span class="lineno">  341</span>        <span class="keywordflow">if</span> (target-&gt;<a class="code hl_variable" href="../../d3/daf/a08498.html#a1805acabea4c9a75ad7c0bcab734f627">movespline</a>-&gt;<a class="code hl_function" href="../../d2/d64/a09774.html#a97822562bcdf817cb8529aa6ad862ad7">isWalking</a>())</div>
+<div class="line"><span class="lineno">  342</span>        {</div>
+<div class="line"><span class="lineno">  343</span>            moveFlags |= <a class="code hl_enumvalue" href="../../dc/d0b/a03653.html#a083358a25d084fb928e170c453128f9daf3910f63fbfc30d508a4fd6a461ab84d">MOVEMENTFLAG_WALKING</a>;</div>
+<div class="line"><span class="lineno">  344</span>        }</div>
+<div class="line"><span class="lineno">  345</span> </div>
+<div class="line"><span class="lineno">  346</span>        <a class="code hl_enumeration" href="../../dc/d0b/a03653.html#af91f7580a89722b7dc45a018bb46fce4">UnitMoveType</a> moveType = <a class="code hl_function" href="../../d0/dae/a04721.html#a1f10281929f445f6d8150dc510bf1f2f">Movement::SelectSpeedType</a>(moveFlags);</div>
+<div class="line"><span class="lineno">  347</span>        speed = target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a1aa013dc05741dbd3bc5a13aca1f54df">GetSpeed</a>(moveType);</div>
+<div class="line"><span class="lineno">  348</span>        <span class="keywordflow">if</span> (playerPet)</div>
+<div class="line"><span class="lineno">  349</span>        {</div>
+<div class="line"><span class="lineno">  350</span>            <span class="keywordtype">float</span> distance = owner-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#a73f3c7fa817faebff6b2752ba3bb1a50">GetDistance2d</a>(dest.x, dest.y) - target-&gt;<a class="code hl_function" href="../../d4/dd5/a08154.html#ae3ccd7ee8fcb156805c61b83e5c016ae">GetObjectSize</a>() - (*speed / 2.f);</div>
+<div class="line"><span class="lineno">  351</span>            <span class="keywordflow">if</span> (distance &gt; 0.f)</div>
+<div class="line"><span class="lineno">  352</span>            {</div>
+<div class="line"><span class="lineno">  353</span>                <span class="keywordtype">float</span> multiplier = 1.f + (distance / 10.f);</div>
+<div class="line"><span class="lineno">  354</span>                *speed *= multiplier;</div>
+<div class="line"><span class="lineno">  355</span>            }</div>
+<div class="line"><span class="lineno">  356</span>        }</div>
+<div class="line"><span class="lineno">  357</span>    }</div>
+<div class="line"><span class="lineno">  358</span> </div>
+<div class="line"><span class="lineno">  359</span>    <span class="keywordflow">return</span> speed;</div>
+<div class="line"><span class="lineno">  360</span>}</div>
+<div class="ttc" id="aa00446_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa00482_html_aaf8f4d77efd311ec7818ab421294ef82"><div class="ttname"><a href="../../db/d8e/a00482.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a></div><div class="ttdeci">std::optional&lt; T &gt; Optional</div><div class="ttdoc">Optional helper class to wrap optional values within.</div><div class="ttdef"><b>Definition:</b> Optional.h:24</div></div>
+<div class="ttc" id="aa03653_html_a083358a25d084fb928e170c453128f9daf3910f63fbfc30d508a4fd6a461ab84d"><div class="ttname"><a href="../../dc/d0b/a03653.html#a083358a25d084fb928e170c453128f9daf3910f63fbfc30d508a4fd6a461ab84d">MOVEMENTFLAG_WALKING</a></div><div class="ttdeci">@ MOVEMENTFLAG_WALKING</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:352</div></div>
+<div class="ttc" id="aa03653_html_af91f7580a89722b7dc45a018bb46fce4"><div class="ttname"><a href="../../dc/d0b/a03653.html#af91f7580a89722b7dc45a018bb46fce4">UnitMoveType</a></div><div class="ttdeci">UnitMoveType</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:327</div></div>
+<div class="ttc" id="aa03653_html_affdd0d554c8bcaaa85a879f5a9d60934a59096e3d543ac78cc5b57c9b88b79c03"><div class="ttname"><a href="../../dc/d0b/a03653.html#affdd0d554c8bcaaa85a879f5a9d60934a59096e3d543ac78cc5b57c9b88b79c03">UNIT_FLAG_POSSESSED</a></div><div class="ttdeci">@ UNIT_FLAG_POSSESSED</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:253</div></div>
+<div class="ttc" id="aa04721_html_a1f10281929f445f6d8150dc510bf1f2f"><div class="ttname"><a href="../../d0/dae/a04721.html#a1f10281929f445f6d8150dc510bf1f2f">Movement::SelectSpeedType</a></div><div class="ttdeci">UnitMoveType SelectSpeedType(uint32 moveFlags)</div><div class="ttdef"><b>Definition:</b> MoveSplineInit.cpp:29</div></div>
+<div class="ttc" id="aa08122_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/dc8/a08122.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aa08154_html_a73f3c7fa817faebff6b2752ba3bb1a50"><div class="ttname"><a href="../../d4/dd5/a08154.html#a73f3c7fa817faebff6b2752ba3bb1a50">WorldObject::GetDistance2d</a></div><div class="ttdeci">float GetDistance2d(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1263</div></div>
+<div class="ttc" id="aa08154_html_ae3ccd7ee8fcb156805c61b83e5c016ae"><div class="ttname"><a href="../../d4/dd5/a08154.html#ae3ccd7ee8fcb156805c61b83e5c016ae">WorldObject::GetObjectSize</a></div><div class="ttdeci">float GetObjectSize() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2771</div></div>
+<div class="ttc" id="aa08498_html_a0414b693087d7f3acc4a13eadb619660"><div class="ttname"><a href="../../d3/daf/a08498.html#a0414b693087d7f3acc4a13eadb619660">Unit::IsVehicle</a></div><div class="ttdeci">bool IsVehicle() const</div><div class="ttdef"><b>Definition:</b> Unit.h:713</div></div>
+<div class="ttc" id="aa08498_html_a125e704efcc6b2b410fabc2790e2cafd"><div class="ttname"><a href="../../d3/daf/a08498.html#a125e704efcc6b2b410fabc2790e2cafd">Unit::GetUnitMovementFlags</a></div><div class="ttdeci">uint32 GetUnitMovementFlags() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1628</div></div>
+<div class="ttc" id="aa08498_html_a1805acabea4c9a75ad7c0bcab734f627"><div class="ttname"><a href="../../d3/daf/a08498.html#a1805acabea4c9a75ad7c0bcab734f627">Unit::movespline</a></div><div class="ttdeci">Movement::MoveSpline * movespline</div><div class="ttdef"><b>Definition:</b> Unit.h:1835</div></div>
+<div class="ttc" id="aa08498_html_a1aa013dc05741dbd3bc5a13aca1f54df"><div class="ttname"><a href="../../d3/daf/a08498.html#a1aa013dc05741dbd3bc5a13aca1f54df">Unit::GetSpeed</a></div><div class="ttdeci">float GetSpeed(UnitMoveType mtype) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14407</div></div>
+<div class="ttc" id="aa08498_html_a4ad2fdcc45e2c3c85ad59ff49268b58c"><div class="ttname"><a href="../../d3/daf/a08498.html#a4ad2fdcc45e2c3c85ad59ff49268b58c">Unit::IsPet</a></div><div class="ttdeci">bool IsPet() const</div><div class="ttdef"><b>Definition:</b> Unit.h:710</div></div>
+<div class="ttc" id="aa08498_html_a4af419c3eef4085ecaad8fd08e536800"><div class="ttname"><a href="../../d3/daf/a08498.html#a4af419c3eef4085ecaad8fd08e536800">Unit::HasUnitFlag</a></div><div class="ttdeci">bool HasUnitFlag(UnitFlags flags) const</div><div class="ttdef"><b>Definition:</b> Unit.h:682</div></div>
+<div class="ttc" id="aa08498_html_aa48dad40872b2d815bb08306bc228882"><div class="ttname"><a href="../../d3/daf/a08498.html#aa48dad40872b2d815bb08306bc228882">Unit::GetCritterGUID</a></div><div class="ttdeci">ObjectGuid GetCritterGUID() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1234</div></div>
+<div class="ttc" id="aa08498_html_aad9476ff8867ed8013781b2601f12d1f"><div class="ttname"><a href="../../d3/daf/a08498.html#aad9476ff8867ed8013781b2601f12d1f">Unit::IsGuardian</a></div><div class="ttdeci">bool IsGuardian() const</div><div class="ttdef"><b>Definition:</b> Unit.h:708</div></div>
+<div class="ttc" id="aa08498_html_af5e75d013dfa8a8b888d7714992e3f2a"><div class="ttname"><a href="../../d3/daf/a08498.html#af5e75d013dfa8a8b888d7714992e3f2a">Unit::IsInCombat</a></div><div class="ttdeci">bool IsInCombat() const</div><div class="ttdef"><b>Definition:</b> Unit.h:820</div></div>
+<div class="ttc" id="aa08498_html_aff6c755067d9a6c33c846482faf1b6f1"><div class="ttname"><a href="../../d3/daf/a08498.html#aff6c755067d9a6c33c846482faf1b6f1">Unit::GetCharmerOrOwnerGUID</a></div><div class="ttdeci">ObjectGuid GetCharmerOrOwnerGUID() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1238</div></div>
+<div class="ttc" id="aa09774_html_a97822562bcdf817cb8529aa6ad862ad7"><div class="ttname"><a href="../../d2/d64/a09774.html#a97822562bcdf817cb8529aa6ad862ad7">Movement::MoveSpline::isWalking</a></div><div class="ttdeci">bool isWalking() const</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:119</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l01238">Unit::GetCharmerOrOwnerGUID()</a>, <a class="el" href="../../#l01234">Unit::GetCritterGUID()</a>, <a class="el" href="../../#l01263">WorldObject::GetDistance2d()</a>, <a class="el" href="../../#l00109">Object::GetGUID()</a>, <a class="el" href="../../#l02771">WorldObject::GetObjectSize()</a>, <a class="el" href="../../#l14407">Unit::GetSpeed()</a>, <a class="el" href="../../#l01628">Unit::GetUnitMovementFlags()</a>, <a class="el" href="../../#l00682">Unit::HasUnitFlag()</a>, <a class="el" href="../../#l00708">Unit::IsGuardian()</a>, <a class="el" href="../../#l00820">Unit::IsInCombat()</a>, <a class="el" href="../../#l00710">Unit::IsPet()</a>, <a class="el" href="../../#l00713">Unit::IsVehicle()</a>, <a class="el" href="../../#l00119">Movement::MoveSpline::isWalking()</a>, <a class="el" href="../../#l00352">MOVEMENTFLAG_WALKING</a>, <a class="el" href="../../#l01835">Unit::movespline</a>, <a class="el" href="../../#l00029">Movement::SelectSpeedType()</a>, and <a class="el" href="../../#l00253">UNIT_FLAG_POSSESSED</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00441">FollowMovementGenerator&lt; T &gt;::DoUpdate()</a>.</p>
+
+</div>
+</div>
+<a id="a53d496abdea10dead20c7e6a9cb09cd6" name="a53d496abdea10dead20c7e6a9cb09cd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53d496abdea10dead20c7e6a9cb09cd6">&#9670;&#160;</a></span>IsMutualChase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool IsMutualChase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/daf/a08498.html">Unit</a> *&#160;</td>
+          <td class="paramname"><em>owner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/daf/a08498.html">Unit</a> *&#160;</td>
+          <td class="paramname"><em>target</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
+<div class="line"><span class="lineno">   29</span>    <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../d8/d6f/a09642.html#a41e9fbf11fd1a17752bf68a4a14cc8e5">GetCurrentMovementGeneratorType</a>() != <a class="code hl_enumvalue" href="../../de/d68/a04331.html#a4f12806b915efea564eae942207002f9a4a7484b1c685865cef43981b61d3a881">CHASE_MOTION_TYPE</a>)</div>
+<div class="line"><span class="lineno">   30</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   31</span> </div>
+<div class="line"><span class="lineno">   32</span>    <span class="keywordflow">return</span> target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>() == owner;</div>
+<div class="line"><span class="lineno">   33</span>}</div>
+<div class="ttc" id="aa04331_html_a4f12806b915efea564eae942207002f9a4a7484b1c685865cef43981b61d3a881"><div class="ttname"><a href="../../de/d68/a04331.html#a4f12806b915efea564eae942207002f9a4a7484b1c685865cef43981b61d3a881">CHASE_MOTION_TYPE</a></div><div class="ttdeci">@ CHASE_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:43</div></div>
+<div class="ttc" id="aa08498_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../d3/daf/a08498.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:1615</div></div>
+<div class="ttc" id="aa08498_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../d3/daf/a08498.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:789</div></div>
+<div class="ttc" id="aa09642_html_a41e9fbf11fd1a17752bf68a4a14cc8e5"><div class="ttname"><a href="../../d8/d6f/a09642.html#a41e9fbf11fd1a17752bf68a4a14cc8e5">MotionMaster::GetCurrentMovementGeneratorType</a></div><div class="ttdeci">MovementGeneratorType GetCurrentMovementGeneratorType() const</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:913</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00043">CHASE_MOTION_TYPE</a>, <a class="el" href="../../#l00913">MotionMaster::GetCurrentMovementGeneratorType()</a>, <a class="el" href="../../#l01615">Unit::GetMotionMaster()</a>, and <a class="el" href="../../#l00789">Unit::GetVictim()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00066">ChaseMovementGenerator&lt; T &gt;::DoUpdate()</a>.</p>
+
+</div>
+</div>
+<a id="ada5b031ff95410ba84fd734c95c68099" name="ada5b031ff95410ba84fd734c95c68099"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada5b031ff95410ba84fd734c95c68099">&#9670;&#160;</a></span>PredictPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d9/d08/a08198.html">Position</a> const PredictPosition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/daf/a08498.html">Unit</a> *&#160;</td>
+          <td class="paramname"><em>target</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  471</span>{</div>
-<div class="line"><span class="lineno">  472</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../df/d21/a14662.html">instance_the_black_morass</a>();</div>
-<div class="line"><span class="lineno">  473</span>}</div>
-<div class="ttc" id="aa14662_html"><div class="ttname"><a href="../../df/d21/a14662.html">instance_the_black_morass</a></div><div class="ttdef"><b>Definition:</b> instance_the_black_morass.cpp:40</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  363</span>{</div>
+<div class="line"><span class="lineno">  364</span>    <a class="code hl_struct" href="../../d9/d08/a08198.html">Position</a> pos = target-&gt;<a class="code hl_function" href="../../d9/d08/a08198.html#ad8e55f9b39618093aa625abe3a06e1ed">GetPosition</a>();</div>
+<div class="line"><span class="lineno">  365</span> </div>
+<div class="line"><span class="lineno">  366</span>     <span class="comment">// 0.5 - it&#39;s time (0.5 sec) between starting movement opcode (e.g. MSG_MOVE_START_FORWARD) and MSG_MOVE_HEARTBEAT sent by client</span></div>
+<div class="line"><span class="lineno">  367</span>    <span class="keywordtype">float</span> speed = target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a1aa013dc05741dbd3bc5a13aca1f54df">GetSpeed</a>(<a class="code hl_function" href="../../d0/dae/a04721.html#a1f10281929f445f6d8150dc510bf1f2f">Movement::SelectSpeedType</a>(target-&gt;<a class="code hl_function" href="../../d3/daf/a08498.html#a125e704efcc6b2b410fabc2790e2cafd">GetUnitMovementFlags</a>())) * 0.5f;</div>
+<div class="line"><span class="lineno">  368</span>    <span class="keywordtype">float</span> orientation = target-&gt;<a class="code hl_function" href="../../d9/d08/a08198.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>();</div>
+<div class="line"><span class="lineno">  369</span> </div>
+<div class="line"><span class="lineno">  370</span>    <span class="keywordflow">if</span> (target-&gt;<a class="code hl_variable" href="../../d4/dd5/a08154.html#ad7f9a1627d3568f34c381027145f39ee">m_movementInfo</a>.<a class="code hl_function" href="../../d8/d6f/a08130.html#ad9571cb899d58cc60fbe2412be79116e">HasMovementFlag</a>(<a class="code hl_enumvalue" href="../../dc/d0b/a03653.html#a083358a25d084fb928e170c453128f9da3b4db548f48d036a58b0181343a07ba3">MOVEMENTFLAG_FORWARD</a>))</div>
+<div class="line"><span class="lineno">  371</span>    {</div>
+<div class="line"><span class="lineno">  372</span>        pos.<a class="code hl_variable" href="../../d9/d08/a08198.html#a4d45ff71d05bb3ff3d570905460f61cd">m_positionX</a> += cos(orientation) * speed;</div>
+<div class="line"><span class="lineno">  373</span>        pos.<a class="code hl_variable" href="../../d9/d08/a08198.html#a4f8bb54eef056fd5a230c314d24c2ca6">m_positionY</a> += std::sin(orientation) * speed;</div>
+<div class="line"><span class="lineno">  374</span>    }</div>
+<div class="line"><span class="lineno">  375</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (target-&gt;<a class="code hl_variable" href="../../d4/dd5/a08154.html#ad7f9a1627d3568f34c381027145f39ee">m_movementInfo</a>.<a class="code hl_function" href="../../d8/d6f/a08130.html#ad9571cb899d58cc60fbe2412be79116e">HasMovementFlag</a>(<a class="code hl_enumvalue" href="../../dc/d0b/a03653.html#a083358a25d084fb928e170c453128f9da4f594eeed0c7872fe36c885b032a4d00">MOVEMENTFLAG_BACKWARD</a>))</div>
+<div class="line"><span class="lineno">  376</span>    {</div>
+<div class="line"><span class="lineno">  377</span>        pos.<a class="code hl_variable" href="../../d9/d08/a08198.html#a4d45ff71d05bb3ff3d570905460f61cd">m_positionX</a> -= cos(orientation) * speed;</div>
+<div class="line"><span class="lineno">  378</span>        pos.<a class="code hl_variable" href="../../d9/d08/a08198.html#a4f8bb54eef056fd5a230c314d24c2ca6">m_positionY</a> -= std::sin(orientation) * speed;</div>
+<div class="line"><span class="lineno">  379</span>    }</div>
+<div class="line"><span class="lineno">  380</span> </div>
+<div class="line"><span class="lineno">  381</span>    <span class="keywordflow">if</span> (target-&gt;<a class="code hl_variable" href="../../d4/dd5/a08154.html#ad7f9a1627d3568f34c381027145f39ee">m_movementInfo</a>.<a class="code hl_function" href="../../d8/d6f/a08130.html#ad9571cb899d58cc60fbe2412be79116e">HasMovementFlag</a>(<a class="code hl_enumvalue" href="../../dc/d0b/a03653.html#a083358a25d084fb928e170c453128f9da4755c7b398f16571b751687cc628b348">MOVEMENTFLAG_STRAFE_LEFT</a>))</div>
+<div class="line"><span class="lineno">  382</span>    {</div>
+<div class="line"><span class="lineno">  383</span>        pos.<a class="code hl_variable" href="../../d9/d08/a08198.html#a4d45ff71d05bb3ff3d570905460f61cd">m_positionX</a> += cos(orientation + M_PI / 2.f) * speed;</div>
+<div class="line"><span class="lineno">  384</span>        pos.<a class="code hl_variable" href="../../d9/d08/a08198.html#a4f8bb54eef056fd5a230c314d24c2ca6">m_positionY</a> += std::sin(orientation + M_PI / 2.f) * speed;</div>
+<div class="line"><span class="lineno">  385</span>    }</div>
+<div class="line"><span class="lineno">  386</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (target-&gt;<a class="code hl_variable" href="../../d4/dd5/a08154.html#ad7f9a1627d3568f34c381027145f39ee">m_movementInfo</a>.<a class="code hl_function" href="../../d8/d6f/a08130.html#ad9571cb899d58cc60fbe2412be79116e">HasMovementFlag</a>(<a class="code hl_enumvalue" href="../../dc/d0b/a03653.html#a083358a25d084fb928e170c453128f9dac4485d26f363d8dcb2a0826e7067d645">MOVEMENTFLAG_STRAFE_RIGHT</a>))</div>
+<div class="line"><span class="lineno">  387</span>    {</div>
+<div class="line"><span class="lineno">  388</span>        pos.<a class="code hl_variable" href="../../d9/d08/a08198.html#a4d45ff71d05bb3ff3d570905460f61cd">m_positionX</a> += cos(orientation - M_PI / 2.f) * speed;</div>
+<div class="line"><span class="lineno">  389</span>        pos.<a class="code hl_variable" href="../../d9/d08/a08198.html#a4f8bb54eef056fd5a230c314d24c2ca6">m_positionY</a> += std::sin(orientation - M_PI / 2.f) * speed;</div>
+<div class="line"><span class="lineno">  390</span>    }</div>
+<div class="line"><span class="lineno">  391</span> </div>
+<div class="line"><span class="lineno">  392</span>    <span class="keywordflow">return</span> pos;</div>
+<div class="line"><span class="lineno">  393</span>}</div>
+<div class="ttc" id="aa03653_html_a083358a25d084fb928e170c453128f9da3b4db548f48d036a58b0181343a07ba3"><div class="ttname"><a href="../../dc/d0b/a03653.html#a083358a25d084fb928e170c453128f9da3b4db548f48d036a58b0181343a07ba3">MOVEMENTFLAG_FORWARD</a></div><div class="ttdeci">@ MOVEMENTFLAG_FORWARD</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:344</div></div>
+<div class="ttc" id="aa03653_html_a083358a25d084fb928e170c453128f9da4755c7b398f16571b751687cc628b348"><div class="ttname"><a href="../../dc/d0b/a03653.html#a083358a25d084fb928e170c453128f9da4755c7b398f16571b751687cc628b348">MOVEMENTFLAG_STRAFE_LEFT</a></div><div class="ttdeci">@ MOVEMENTFLAG_STRAFE_LEFT</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:346</div></div>
+<div class="ttc" id="aa03653_html_a083358a25d084fb928e170c453128f9da4f594eeed0c7872fe36c885b032a4d00"><div class="ttname"><a href="../../dc/d0b/a03653.html#a083358a25d084fb928e170c453128f9da4f594eeed0c7872fe36c885b032a4d00">MOVEMENTFLAG_BACKWARD</a></div><div class="ttdeci">@ MOVEMENTFLAG_BACKWARD</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:345</div></div>
+<div class="ttc" id="aa03653_html_a083358a25d084fb928e170c453128f9dac4485d26f363d8dcb2a0826e7067d645"><div class="ttname"><a href="../../dc/d0b/a03653.html#a083358a25d084fb928e170c453128f9dac4485d26f363d8dcb2a0826e7067d645">MOVEMENTFLAG_STRAFE_RIGHT</a></div><div class="ttdeci">@ MOVEMENTFLAG_STRAFE_RIGHT</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:347</div></div>
+<div class="ttc" id="aa08130_html_ad9571cb899d58cc60fbe2412be79116e"><div class="ttname"><a href="../../d8/d6f/a08130.html#ad9571cb899d58cc60fbe2412be79116e">MovementInfo::HasMovementFlag</a></div><div class="ttdeci">bool HasMovementFlag(uint32 flag) const</div><div class="ttdef"><b>Definition:</b> Object.h:334</div></div>
+<div class="ttc" id="aa08154_html_ad7f9a1627d3568f34c381027145f39ee"><div class="ttname"><a href="../../d4/dd5/a08154.html#ad7f9a1627d3568f34c381027145f39ee">WorldObject::m_movementInfo</a></div><div class="ttdeci">MovementInfo m_movementInfo</div><div class="ttdef"><b>Definition:</b> Object.h:609</div></div>
+<div class="ttc" id="aa08198_html"><div class="ttname"><a href="../../d9/d08/a08198.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+<div class="ttc" id="aa08198_html_a4d45ff71d05bb3ff3d570905460f61cd"><div class="ttname"><a href="../../d9/d08/a08198.html#a4d45ff71d05bb3ff3d570905460f61cd">Position::m_positionX</a></div><div class="ttdeci">float m_positionX</div><div class="ttdef"><b>Definition:</b> Position.h:56</div></div>
+<div class="ttc" id="aa08198_html_a4f8bb54eef056fd5a230c314d24c2ca6"><div class="ttname"><a href="../../d9/d08/a08198.html#a4f8bb54eef056fd5a230c314d24c2ca6">Position::m_positionY</a></div><div class="ttdeci">float m_positionY</div><div class="ttdef"><b>Definition:</b> Position.h:57</div></div>
+<div class="ttc" id="aa08198_html_a74cabfb8f441acb38e1abd5bf6ecdc84"><div class="ttname"><a href="../../d9/d08/a08198.html#a74cabfb8f441acb38e1abd5bf6ecdc84">Position::GetOrientation</a></div><div class="ttdeci">float GetOrientation() const</div><div class="ttdef"><b>Definition:</b> Position.h:120</div></div>
+<div class="ttc" id="aa08198_html_ad8e55f9b39618093aa625abe3a06e1ed"><div class="ttname"><a href="../../d9/d08/a08198.html#ad8e55f9b39618093aa625abe3a06e1ed">Position::GetPosition</a></div><div class="ttdeci">void GetPosition(float &amp;x, float &amp;y) const</div><div class="ttdef"><b>Definition:</b> Position.h:122</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00100">AddKalimdorScripts()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00120">Position::GetOrientation()</a>, <a class="el" href="../../#l00122">Position::GetPosition()</a>, <a class="el" href="../../#l14407">Unit::GetSpeed()</a>, <a class="el" href="../../#l01628">Unit::GetUnitMovementFlags()</a>, <a class="el" href="../../#l00334">MovementInfo::HasMovementFlag()</a>, <a class="el" href="../../#l00609">WorldObject::m_movementInfo</a>, <a class="el" href="../../#l00056">Position::m_positionX</a>, <a class="el" href="../../#l00057">Position::m_positionY</a>, <a class="el" href="../../#l00345">MOVEMENTFLAG_BACKWARD</a>, <a class="el" href="../../#l00344">MOVEMENTFLAG_FORWARD</a>, <a class="el" href="../../#l00346">MOVEMENTFLAG_STRAFE_LEFT</a>, <a class="el" href="../../#l00347">MOVEMENTFLAG_STRAFE_RIGHT</a>, and <a class="el" href="../../#l00029">Movement::SelectSpeedType()</a>.</p>
 
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a412286b689bd324fedd65ddd8dde8afb" name="a412286b689bd324fedd65ddd8dde8afb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a412286b689bd324fedd65ddd8dde8afb">&#9670;&#160;</a></span>creatureData</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/d6c/a09322.html">ObjectData</a> const creatureData[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    { <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#a92f6fd626e1834a4cc509efc1186963ea9e034e8b11eeb7b7ba07599e8a15d8fe">NPC_MEDIVH</a>, <a class="code hl_enumvalue" href="../../d1/d7a/a04262.html#afb6eb4f28419b652027fad41104a6d22a0215f4ae99efc061f52ec79b9eb60ee0">DATA_MEDIVH</a> },</div>
-<div class="line">    { 0,          0           }</div>
-<div class="line">}</div>
-<div class="ttc" id="aa04262_html_a92f6fd626e1834a4cc509efc1186963ea9e034e8b11eeb7b7ba07599e8a15d8fe"><div class="ttname"><a href="../../d1/d7a/a04262.html#a92f6fd626e1834a4cc509efc1186963ea9e034e8b11eeb7b7ba07599e8a15d8fe">NPC_MEDIVH</a></div><div class="ttdeci">@ NPC_MEDIVH</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:64</div></div>
-<div class="ttc" id="aa04262_html_afb6eb4f28419b652027fad41104a6d22a0215f4ae99efc061f52ec79b9eb60ee0"><div class="ttname"><a href="../../d1/d7a/a04262.html#afb6eb4f28419b652027fad41104a6d22a0215f4ae99efc061f52ec79b9eb60ee0">DATA_MEDIVH</a></div><div class="ttdeci">@ DATA_MEDIVH</div><div class="ttdef"><b>Definition:</b> the_black_morass.h:36</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00051">instance_the_black_morass::instance_the_black_morass_InstanceMapScript::instance_the_black_morass_InstanceMapScript()</a>.</p>
-
-</div>
-</div>
-<a id="a744b7235a198467a51550de127971bb1" name="a744b7235a198467a51550de127971bb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a744b7235a198467a51550de127971bb1">&#9670;&#160;</a></span>PortalLocation</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../d9/d08/a08198.html">Position</a> PortalLocation[4]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    { -2030.8318f, 7024.9443f, 23.071817f, 3.14159f },</div>
-<div class="line">    { -1961.7335f, 7029.5280f, 21.811401f, 2.12931f },</div>
-<div class="line">    { -1887.6950f, 7106.5570f, 22.049500f, 4.95673f },</div>
-<div class="line">    { -1930.9106f, 7183.5970f, 23.007639f, 3.59537f }</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00063">instance_the_black_morass::instance_the_black_morass_InstanceMapScript::CleanupInstance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00441">FollowMovementGenerator&lt; T &gt;::DoUpdate()</a>.</p>
 
 </div>
 </div>
@@ -215,8 +406,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ee14a0f6ab8ad29bd27b6821baacc69.html">Kalimdor</a></li><li class="navelem"><a class="el" href="../../dir_5833980719a36b6f6a864b11e72f0bc7.html">CavernsOfTime</a></li><li class="navelem"><a class="el" href="../../dir_0a95014d09215914835c277ca75ca7c3.html">TheBlackMorass</a></li><li class="navelem"><a class="el" href="../../db/d25/a04265.html">instance_the_black_morass.cpp</a></li>
-    <li class="footer">Generated on Mon Oct 7 2024 20:40:58 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_0787b0a4fdc11b0654465feaa92c32a3.html">Movement</a></li><li class="navelem"><a class="el" href="../../dir_5b912817ccf0063e74cbee75ff3a7169.html">MovementGenerators</a></li><li class="navelem"><a class="el" href="../../db/d25/a04265.html">TargetedMovementGenerator.cpp</a></li>
+    <li class="footer">Generated on Mon Oct 14 2024 20:40:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

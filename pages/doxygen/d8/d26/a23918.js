@@ -1,7 +1,7 @@
 var a23918 =
 [
-    [ "OnPeriodic", "d8/d26/a23918.html#a7ef787ac13b97aa225a5340f7bfcc4e3", null ],
-    [ "PrepareAuraScript", "d8/d26/a23918.html#a6f7db06cc1ace68ee0076077773b1659", null ],
-    [ "Register", "d8/d26/a23918.html#a559347bedad9fd8a0e6f4c5b14333c06", null ],
-    [ "Validate", "d8/d26/a23918.html#aae1c2d5b8eb30341a67e261e69a4d294", null ]
+    [ "HandleEffect", "d8/d26/a23918.html#acb353dbdd050bfc6aa4b4b5f6433dc03", null ],
+    [ "PrepareSpellScript", "d8/d26/a23918.html#ad95bc33917e1aa968eedc636f6e3ddcb", null ],
+    [ "Register", "d8/d26/a23918.html#ac2b2bd2581a638553167d5c8099a70cd", null ],
+    [ "Validate", "d8/d26/a23918.html#a7702b0e876ab5ccd750d1072ee70ed69", null ]
 ];

@@ -1,13 +1,13 @@
 var a14934 =
 [
-    [ "npc_giant_claw_tentacle", "d8/d19/a14934.html#aa50511886122a337fc59585fba03b590", null ],
-    [ "Emerge", "d8/d19/a14934.html#ad5fd7a9246c9c7aba0fa71d331e1f512", null ],
-    [ "JustDied", "d8/d19/a14934.html#aaaed0a9fb39d30f5c9c7381e923a3d1e", null ],
-    [ "JustEngagedWith", "d8/d19/a14934.html#ad4dceaafa3bb12b2e5cb7d9530c59d31", null ],
-    [ "Reset", "d8/d19/a14934.html#a8da9c7e164bc7d7bc6e70a784420c3bc", null ],
-    [ "ScheduleTasks", "d8/d19/a14934.html#af62d155ec2cf4f56c956869aed8fa1f9", null ],
-    [ "Submerge", "d8/d19/a14934.html#ac4fedda976b2de295350363e9fef86ec", null ],
-    [ "UpdateAI", "d8/d19/a14934.html#aa3cc1eac6fe92e4325ec0b5a4f7a2604", null ],
-    [ "_canAttack", "d8/d19/a14934.html#a62be930ba345b1d2e0df832e72570752", null ],
-    [ "_portalGUID", "d8/d19/a14934.html#a175bd11b9d5651d44cc0dd213b2c4ef5", null ]
+    [ "boss_sartura", "d8/d19/a14934.html#a7faaf16a1a56badd1e65a3364d425f02", null ],
+    [ "DamageTaken", "d8/d19/a14934.html#a9a404743ac8491a9efc7091259706e0f", null ],
+    [ "InitializeAI", "d8/d19/a14934.html#ae86d0a6b0cd591b3bb18333195109c22", null ],
+    [ "JustDied", "d8/d19/a14934.html#aceff44022b8d53da41ecfcb1e2317e01", null ],
+    [ "JustEngagedWith", "d8/d19/a14934.html#ab1c024908117e8460eb89c062d3825dc", null ],
+    [ "KilledUnit", "d8/d19/a14934.html#a516a75910e872718a519c2a5c9805770", null ],
+    [ "Reset", "d8/d19/a14934.html#ab3514ad48f622f65d67063723601f8de", null ],
+    [ "UpdateAI", "d8/d19/a14934.html#af3d093dab3f5191d5da2df36ca9c4a11", null ],
+    [ "berserked", "d8/d19/a14934.html#a8ad40cee9667500cb0e9533256d216c6", null ],
+    [ "enraged", "d8/d19/a14934.html#af916ff3f6468b1e48d5b1944442594e5", null ]
 ];

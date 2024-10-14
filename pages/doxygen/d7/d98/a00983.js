@@ -1,7 +1,6 @@
 var a00983 =
 [
-    [ "ArenaTeamMgr", "de/d75/a07034.html", "de/d75/a07034" ],
-    [ "sArenaTeamMgr", "d7/d98/a00983.html#a94afc7262fb2f00293dc80de8ba547df", null ],
-    [ "MAX_ARENA_TEAM_ID", "d7/d98/a00983.html#aa472ba6cfd587021965aece0e77797b7", null ],
-    [ "MAX_TEMP_ARENA_TEAM_ID", "d7/d98/a00983.html#ade4bc52db611f6481d3c8f5e6f346b4c", null ]
+    [ "instance_culling_of_stratholme", "d4/d2c/a14554.html", "d4/d2c/a14554" ],
+    [ "instance_culling_of_stratholme::instance_culling_of_stratholme_InstanceMapScript", "d0/d2c/a14558.html", "d0/d2c/a14558" ],
+    [ "AddSC_instance_culling_of_stratholme", "d7/d98/a00983.html#adb1b78926a09436f6897c9050ef2d9ef", null ]
 ];

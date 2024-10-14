@@ -1,7 +1,7 @@
 var a21518 =
 [
-    [ "npc_mootoo_the_youngerAI", "d9/dbb/a21518.html#a70a5a502dab9a90a790a90eabc5c3acd", null ],
-    [ "JustDied", "d9/dbb/a21518.html#a766612f646a6d22d3f0e6f93298e34bc", null ],
-    [ "Reset", "d9/dbb/a21518.html#a04624b9b4d552d6b27308edc3ad44644", null ],
-    [ "WaypointReached", "d9/dbb/a21518.html#ac758a992ed0d62a272930c84d617b348", null ]
+    [ "npc_thassarianAI", "d9/dbb/a21518.html#a92e873dc3aa97f81919225ce75a5f894", null ],
+    [ "Reset", "d9/dbb/a21518.html#a8611ef17700c739dbd5e7a70660f1379", null ],
+    [ "UpdateAI", "d9/dbb/a21518.html#ad09a3a063d716bc43e23b5aad5e46a7b", null ],
+    [ "_events", "d9/dbb/a21518.html#aaecb5a402e4ffca1e819303dbb94f5b5", null ]
 ];

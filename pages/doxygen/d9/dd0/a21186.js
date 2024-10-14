@@ -1,6 +1,6 @@
 var a21186 =
 [
-    [ "HandleOnHit", "d9/dd0/a21186.html#a032001817b4c07dca0f3619116bd7158", null ],
-    [ "PrepareSpellScript", "d9/dd0/a21186.html#ab5b0e56ecac460d90be6036fcd146a20", null ],
-    [ "Register", "d9/dd0/a21186.html#ad809441bbb00ad6bf1ecafe394d9f24d", null ]
+    [ "npc_frozen_orb_stalkerAI", "d0/d37/a21190.html", "d0/d37/a21190" ],
+    [ "npc_frozen_orb_stalker", "d9/dd0/a21186.html#a7f025c829106aa6668427f913d07a722", null ],
+    [ "GetAI", "d9/dd0/a21186.html#af33e27138a70286bac561113ed09f350", null ]
 ];

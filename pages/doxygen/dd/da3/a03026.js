@@ -1,69 +1,13 @@
 var a03026 =
 [
-    [ "boss_jaraxxus", "d4/d26/a16358.html", "d4/d26/a16358" ],
-    [ "boss_jaraxxus::boss_jaraxxusAI", "da/d34/a16362.html", "da/d34/a16362" ],
-    [ "npc_fel_infernal", "d6/d10/a16366.html", "d6/d10/a16366" ],
-    [ "npc_fel_infernal::npc_fel_infernalAI", "dc/d19/a16370.html", "dc/d19/a16370" ],
-    [ "npc_mistress_of_pain", "d0/d21/a16374.html", "d0/d21/a16374" ],
-    [ "npc_mistress_of_pain::npc_mistress_of_painAI", "d6/d9f/a16378.html", "d6/d9f/a16378" ],
-    [ "spell_toc25_mistress_kiss", "de/d0c/a16382.html", "de/d0c/a16382" ],
-    [ "spell_toc25_mistress_kiss::spell_toc25_mistress_kiss_AuraScript", "d8/d28/a16386.html", "d8/d28/a16386" ],
-    [ "spell_mistress_kiss_area", "dc/d0d/a16390.html", "dc/d0d/a16390" ],
-    [ "spell_mistress_kiss_area::spell_mistress_kiss_area_SpellScript", "d1/db6/a16394.html", "d1/db6/a16394" ],
-    [ "JaraxxusEvents", "dd/da3/a03026.html#a8720becd3353ce4c1eaf4b10f65c3bf3", [
-      [ "EVENT_SPELL_FEL_FIREBALL", "dd/da3/a03026.html#a8720becd3353ce4c1eaf4b10f65c3bf3a9631463a0db16f2a5c6e611704b43508", null ],
-      [ "EVENT_SPELL_FEL_LIGHTNING", "dd/da3/a03026.html#a8720becd3353ce4c1eaf4b10f65c3bf3a1de9015cbd472ec6adbb63af3e399005", null ],
-      [ "EVENT_SPELL_INCINERATE_FLESH", "dd/da3/a03026.html#a8720becd3353ce4c1eaf4b10f65c3bf3a8ada8204aa9d3f27ef49a2f4bac31f5a", null ],
-      [ "EVENT_SPELL_NETHER_POWER", "dd/da3/a03026.html#a8720becd3353ce4c1eaf4b10f65c3bf3aa506cad881d3afd3b1c93cf7556eec6e", null ],
-      [ "EVENT_SPELL_LEGION_FLAME", "dd/da3/a03026.html#a8720becd3353ce4c1eaf4b10f65c3bf3aa8f6608d034390c00d5137bf7a07ef19", null ],
-      [ "EVENT_SPELL_TOUCH_OF_JARAXXUS", "dd/da3/a03026.html#a8720becd3353ce4c1eaf4b10f65c3bf3a871855c238290bffaa2d1d4b00ebfcda", null ],
-      [ "EVENT_SUMMON_VOLCANO", "dd/da3/a03026.html#a8720becd3353ce4c1eaf4b10f65c3bf3af2b15f4596bd312ee5a6b1f9aa9a65d4", null ],
-      [ "EVENT_SUMMON_NETHER_PORTAL", "dd/da3/a03026.html#a8720becd3353ce4c1eaf4b10f65c3bf3a99993495098d5b8e7e662a1cdcc70a74", null ],
-      [ "EVENT_SPELL_FEL_STEAK", "dd/da3/a03026.html#a8720becd3353ce4c1eaf4b10f65c3bf3a96a8166a72ca73a40f407cb8383f6a64", null ],
-      [ "EVENT_SPELL_SHIVAN_SLASH", "dd/da3/a03026.html#a8720becd3353ce4c1eaf4b10f65c3bf3a0cbc7f252a2f08714d920dfce6eeedd6", null ],
-      [ "EVENT_SPELL_SPINNING_PAIN_SPIKE", "dd/da3/a03026.html#a8720becd3353ce4c1eaf4b10f65c3bf3a4f57cac95020fd58e140584590321d3e", null ],
-      [ "EVENT_SPELL_MISTRESS_KISS", "dd/da3/a03026.html#a8720becd3353ce4c1eaf4b10f65c3bf3a5438b6e18c099033625132c8ad268b15", null ]
-    ] ],
-    [ "JaraxxusNPCs", "dd/da3/a03026.html#afe0d2ebcbbcebeb9d5c667bf982efe32", [
-      [ "NPC_LEGION_FLAME", "dd/da3/a03026.html#afe0d2ebcbbcebeb9d5c667bf982efe32a889c8b99e26ee87ba199ebcdf0867b76", null ],
-      [ "NPC_INFERNAL_VOLCANO", "dd/da3/a03026.html#afe0d2ebcbbcebeb9d5c667bf982efe32a6395ad405176040b022e963859646d11", null ],
-      [ "NPC_FEL_INFERNAL", "dd/da3/a03026.html#afe0d2ebcbbcebeb9d5c667bf982efe32a920f3d374a6bef7034505b5d2c9a4a34", null ],
-      [ "NPC_NETHER_PORTAL", "dd/da3/a03026.html#afe0d2ebcbbcebeb9d5c667bf982efe32a1d2be333e5a6ce48a4afea7ccf760e79", null ],
-      [ "NPC_MISTRESS_OF_PAIN", "dd/da3/a03026.html#afe0d2ebcbbcebeb9d5c667bf982efe32a1d4846e8c3400fd4728fb92351b215cc", null ]
-    ] ],
-    [ "JaraxxusSpells", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469", [
-      [ "SPELL_NETHER_POWER", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469a72e2c83a4c15fc78afe75ba3cbd9254d", null ],
-      [ "SPELL_INCINERATE_FLESH", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469a3befa83e54a8c2e9856f8d918e233b00", null ],
-      [ "SPELL_FEL_FIREBALL", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469a99ac159470e5ec6df42c6b4e8d239f19", null ],
-      [ "SPELL_FEL_LIGHTNING", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469a8d26c330ee3df2c044c9407a916b040e", null ],
-      [ "SPELL_TOUCH_OF_JARAXXUS", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469a195d3408a69cc4e4a0873ca2c73adc3f", null ],
-      [ "SPELL_LEGION_FLAME", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469aa406bcc5c080757175ce7795b2348c70", null ],
-      [ "SPELL_LEGION_FLAME_NPC_AURA", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469ab16d37ba8890749757bf299d9f850f7f", null ],
-      [ "SPELL_SUMMON_VOLCANO", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469a60fe386e24f058eaff5363e9d4e0ac2c", null ],
-      [ "SPELL_SUMMON_NETHER_PORTAL", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469ad5a8025e6e8f9cb91f856969245e08a7", null ],
-      [ "SPELL_FEL_STEAK", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469a0ec766dcad1678d56fbb0e8285b2c99c", null ],
-      [ "SPELL_FEL_STEAK_MORPH", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469a92e2410fcedce59d7c3607044065e91f", null ],
-      [ "SPELL_SHIVAN_SLASH", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469ab697c0d560ed6877bb6889bf294065f1", null ],
-      [ "SPELL_SPINNING_PAIN_SPIKE", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469a48db06fc7e7ea62bc6f77d3dd91747ec", null ],
-      [ "SPELL_MISTRESS_KISS", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469aa9a172d8dc0e7aee435b26174dc2ca8c", null ],
-      [ "SPELL_MISTRESS_KISS_PERIODIC_DUMMY", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469aec0a94cc1daae616809034f3a31043b6", null ],
-      [ "SPELL_MISTRESS_KISS_INTERRUPT", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469ac803602c1184b2893dfebf51eb171111", null ],
-      [ "SPELL_CHAINS", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469a66970a259c6d1ebdea3185981f3097e6", null ],
-      [ "SPELL_BERSERK", "dd/da3/a03026.html#a0bdea2820b7a1fb8a7c14d71a00e6469ad7b3e50b45f9949cd0e4030ca19a6b4f", null ]
-    ] ],
-    [ "JaraxxusTexts", "dd/da3/a03026.html#a0de5ed4733cf2c29f4248c9eddb9360e", [
-      [ "SAY_INTRO", "dd/da3/a03026.html#a0de5ed4733cf2c29f4248c9eddb9360eaf5bc3db04213b3bf118af6ce85b5a637", null ],
-      [ "SAY_AGGRO", "dd/da3/a03026.html#a0de5ed4733cf2c29f4248c9eddb9360ea47c752fff069f3e55065795eef2a9bfe", null ],
-      [ "EMOTE_LEGION_FLAME", "dd/da3/a03026.html#a0de5ed4733cf2c29f4248c9eddb9360ea7217192e0677e014f01747f589e4510f", null ],
-      [ "EMOTE_NETHER_PORTAL", "dd/da3/a03026.html#a0de5ed4733cf2c29f4248c9eddb9360ea53129d482821d39ef2e9ec6bc49be994", null ],
-      [ "SAY_MISTRESS_OF_PAIN", "dd/da3/a03026.html#a0de5ed4733cf2c29f4248c9eddb9360ea36d8706f7d591eeae67e5ab22e97ef2e", null ],
-      [ "EMOTE_INCINERATE", "dd/da3/a03026.html#a0de5ed4733cf2c29f4248c9eddb9360eaadb464bdc16c06288cb11d9fbd32232f", null ],
-      [ "SAY_INCINERATE", "dd/da3/a03026.html#a0de5ed4733cf2c29f4248c9eddb9360ea5cdb0d02f284b7b5291ce74280295247", null ],
-      [ "EMOTE_INFERNAL_ERUPTION", "dd/da3/a03026.html#a0de5ed4733cf2c29f4248c9eddb9360eabd232b7f412e11fae257acd4044638db", null ],
-      [ "SAY_INFERNAL_ERUPTION", "dd/da3/a03026.html#a0de5ed4733cf2c29f4248c9eddb9360ea6497a890096599c52269313b8a8605b7", null ],
-      [ "SAY_KILL_PLAYER", "dd/da3/a03026.html#a0de5ed4733cf2c29f4248c9eddb9360ead8ce3f4de5ecaa5762ee8b55570503a4", null ],
-      [ "SAY_DEATH", "dd/da3/a03026.html#a0de5ed4733cf2c29f4248c9eddb9360ea04c962d9b6aaafde54ff92a54369135e", null ],
-      [ "SAY_BERSERK", "dd/da3/a03026.html#a0de5ed4733cf2c29f4248c9eddb9360eada55f761193c5ce51964480004c8462b", null ]
-    ] ],
-    [ "AddSC_boss_jaraxxus", "dd/da3/a03026.html#ae05057811020071be5480076d0ffe62b", null ]
+    [ "FollowerAI", "d2/d44/a06130.html", "d2/d44/a06130" ],
+    [ "eFollowState", "dd/da3/a03026.html#a1ec9c3a60a913ecbf16778626ccf0138", [
+      [ "STATE_FOLLOW_NONE", "dd/da3/a03026.html#a1ec9c3a60a913ecbf16778626ccf0138a8d3724990b83869077eeef397588a9ae", null ],
+      [ "STATE_FOLLOW_INPROGRESS", "dd/da3/a03026.html#a1ec9c3a60a913ecbf16778626ccf0138aa4c302e4ec6ca00eb8d737e1b43e9e0b", null ],
+      [ "STATE_FOLLOW_RETURNING", "dd/da3/a03026.html#a1ec9c3a60a913ecbf16778626ccf0138abc2b0083c7efe88c6be3c67e20de2523", null ],
+      [ "STATE_FOLLOW_PAUSED", "dd/da3/a03026.html#a1ec9c3a60a913ecbf16778626ccf0138ab64828a6eee48ed5f0060f66fef4dbe6", null ],
+      [ "STATE_FOLLOW_COMPLETE", "dd/da3/a03026.html#a1ec9c3a60a913ecbf16778626ccf0138a73636e044fe9883bf259a17bc617e7c9", null ],
+      [ "STATE_FOLLOW_PREEVENT", "dd/da3/a03026.html#a1ec9c3a60a913ecbf16778626ccf0138a5ed17b2670a724e36c47de32fa5e821b", null ],
+      [ "STATE_FOLLOW_POSTEVENT", "dd/da3/a03026.html#a1ec9c3a60a913ecbf16778626ccf0138a77b50e5da22490d74b38dcebae6e6c6a", null ]
+    ] ]
 ];

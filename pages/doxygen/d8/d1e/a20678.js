@@ -1,5 +1,6 @@
 var a20678 =
 [
-    [ "achievement_xt002_nerf_gravity_bombs", "d8/d1e/a20678.html#a9c6471da08acb7a0543d7cc07784dd85", null ],
-    [ "OnCheck", "d8/d1e/a20678.html#a03f61470694399ab32aea354cd697771", null ]
+    [ "boss_yoggsaron_death_orbAI", "d8/d1e/a20678.html#a6e87b98e89748585a9f28c6f0e3a85e9", null ],
+    [ "UpdateAI", "d8/d1e/a20678.html#afde5311434966ff0459dca8ce0d6b8b0", null ],
+    [ "_startTimer", "d8/d1e/a20678.html#aebc8edef5f84219e1c50f2394d129443", null ]
 ];

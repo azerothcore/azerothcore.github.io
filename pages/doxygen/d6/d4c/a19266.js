@@ -1,6 +1,8 @@
 var a19266 =
 [
-    [ "boss_eregosAI", "da/da3/a19270.html", "da/da3/a19270" ],
-    [ "boss_eregos", "d6/d4c/a19266.html#a105820f29aa1391d77a56e024c4b5637", null ],
-    [ "GetAI", "d6/d4c/a19266.html#aee43f0dfee70ab9618c560a27504cb02", null ]
+    [ "npc_centrifuge_constructAI", "d6/d4c/a19266.html#a9219f4955ae82ca7f401ea1c63f66b09", null ],
+    [ "DamageTaken", "d6/d4c/a19266.html#aa568418de267a99108698e79baa1b3f4", null ],
+    [ "JustEngagedWith", "d6/d4c/a19266.html#ac6ecbb17624c2747253c68a50b93c40f", null ],
+    [ "Reset", "d6/d4c/a19266.html#a2f7750cea2f59d794c85e20b703370af", null ],
+    [ "UpdateAI", "d6/d4c/a19266.html#a28316416ad6c56d83c9e878511256445", null ]
 ];

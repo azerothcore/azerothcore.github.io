@@ -1,6 +1,6 @@
 var a10362 =
 [
-    [ "GuildOfficerRemoveMember", "d8/d78/a10362.html#acd0f767ff61006c7b3c78f3dbb6da558", null ],
-    [ "Read", "d8/d78/a10362.html#aa0c3cd629b73cb079cc3cf90bf6f8067", null ],
-    [ "Removee", "d8/d78/a10362.html#a18ece7d865fa1b5da005c7c03397b4e2", null ]
+    [ "GuildPromoteMember", "d8/d78/a10362.html#af623a381aa80e827c2c29987501626ae", null ],
+    [ "Read", "d8/d78/a10362.html#a3350c1a8c81aa1368a254288849b462b", null ],
+    [ "Promotee", "d8/d78/a10362.html#af8addf6e9bc45364f595582e8f285cde", null ]
 ];

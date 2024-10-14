@@ -1,6 +1,9 @@
 var a18582 =
 [
-    [ "PrepareSpellScript", "d6/dab/a18582.html#aac12da39c503615036120e3e0cd55622", null ],
-    [ "Register", "d6/dab/a18582.html#a808d2283be9714c14f22a2df0a52dd61", null ],
-    [ "RelocateDest", "d6/dab/a18582.html#a843c9dc403404ddd2de667e57e01f00c", null ]
+    [ "npc_icc_skybreaker_hierophantAI", "d6/dab/a18582.html#a18330d49e510f83af7ee0120df14e633", null ],
+    [ "AttackStart", "d6/dab/a18582.html#a9838b3edb758f6f8d0bcbb242862d5da", null ],
+    [ "JustEngagedWith", "d6/dab/a18582.html#adddd56260b41738d69fcdfe31b677c51", null ],
+    [ "Reset", "d6/dab/a18582.html#a2291e4a6bbf917a810b31776dee9dd24", null ],
+    [ "UpdateAI", "d6/dab/a18582.html#a971fa0e468d9d58ffdda7c7b8aa53485", null ],
+    [ "events", "d6/dab/a18582.html#a1c8a527d217f9b810f87da0fc020528a", null ]
 ];

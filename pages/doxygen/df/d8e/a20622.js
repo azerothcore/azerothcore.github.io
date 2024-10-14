@@ -1,6 +1,5 @@
 var a20622 =
 [
-    [ "npc_xt002_pummellerAI", "d8/d3a/a20626.html", "d8/d3a/a20626" ],
-    [ "npc_xt002_pummeller", "df/d8e/a20622.html#af620e31a231ca8fb812324521bad4673", null ],
-    [ "GetAI", "df/d8e/a20622.html#a9ec4e452a3763c3d03e581a17e5d7efe", null ]
+    [ "achievement_xt002_nerf_engineering", "df/d8e/a20622.html#a5be8c0a8a51d81c4014ec0ab92c21f79", null ],
+    [ "OnCheck", "df/d8e/a20622.html#a2b401f51d1ba7ed817f95d81d1048adf", null ]
 ];

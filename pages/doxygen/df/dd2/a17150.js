@@ -1,6 +1,6 @@
 var a17150 =
 [
-    [ "npc_blood_queen_lana_thelAI", "d5/da4/a17154.html", "d5/da4/a17154" ],
-    [ "npc_blood_queen_lana_thel", "df/dd2/a17150.html#a39adef3ae54efd4433805bd8ad4719be", null ],
-    [ "GetAI", "df/dd2/a17150.html#a02d928ac4ef1704cee2498ebe6533561", null ]
+    [ "ChangeSummonPos", "df/dd2/a17150.html#a2c3d69419762c7f78688a22017a8c535", null ],
+    [ "PrepareSpellScript", "df/dd2/a17150.html#a97c48254a0d7a0bd4bcf40f614bc5373", null ],
+    [ "Register", "df/dd2/a17150.html#a9c1aad0131ebe9635c9fdbb3d71c9cdd", null ]
 ];

@@ -1,6 +1,7 @@
 var a24818 =
 [
-    [ "PrepareSpellScript", "da/dfe/a24818.html#acfa320b33c00883a78c3696bbbeb7eb0", null ],
-    [ "Register", "da/dfe/a24818.html#a6d251ba1e88d4349dcffa96978389a7f", null ],
-    [ "SelectTarget", "da/dfe/a24818.html#a0d95f8ad8d05d2c0b100dc10988d00c9", null ]
+    [ "CheckProc", "da/dfe/a24818.html#ab376febda606dba5e9f7f5639f867859", null ],
+    [ "HandleProc", "da/dfe/a24818.html#aa8dac7f0a238f6f131553cbc7a142594", null ],
+    [ "PrepareAuraScript", "da/dfe/a24818.html#a7693a86824050ff5615996d0d03d0292", null ],
+    [ "Register", "da/dfe/a24818.html#a458745913288889f687bb19a147cb0fb", null ]
 ];

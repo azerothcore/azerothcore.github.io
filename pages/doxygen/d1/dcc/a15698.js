@@ -1,6 +1,6 @@
 var a15698 =
 [
-    [ "HandlePeriodic", "d1/dcc/a15698.html#ad22b433005b2678bde3516a01eaaaa60", null ],
-    [ "PrepareAuraScript", "d1/dcc/a15698.html#a3711004edaef7242d9cae1f23f9b7467", null ],
-    [ "Register", "d1/dcc/a15698.html#ad570e51a3d2dd5d3cc4b91aebeefd9ef", null ]
+    [ "boss_krik_thirAI", "dd/dae/a15702.html", "dd/dae/a15702" ],
+    [ "boss_krik_thir", "d1/dcc/a15698.html#ab7001cd05e8e5e371cbd6ee2b25f3522", null ],
+    [ "GetAI", "d1/dcc/a15698.html#a10e582440092d5c6558c2a11d60907aa", null ]
 ];

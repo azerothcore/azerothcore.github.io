@@ -1,14 +1,20 @@
 var a01094 =
 [
-    [ "BattlegroundData", "dd/d67/a07058.html", "dd/d67/a07058" ],
-    [ "BattlegroundTemplate", "d6/d0e/a07062.html", "d6/d0e/a07062" ],
-    [ "BattlegroundMgr", "dd/d41/a07066.html", "dd/d41/a07066" ],
-    [ "sBattlegroundMgr", "d6/dea/a01094.html#abe50926a988d0fff4ee6ba0358c6b278", null ],
-    [ "BattlegroundClientIdsContainer", "d6/dea/a01094.html#aa4d7efc49483e1820c6d759f0f3613f2", null ],
-    [ "BattlegroundContainer", "d6/dea/a01094.html#a33858c5514cd62b25f056e4ba170de59", null ],
-    [ "BattleMastersMap", "d6/dea/a01094.html#a0167dc8561c0fb4a41f0eaa6bea38980", null ],
-    [ "BGFreeSlotQueueContainer", "d6/dea/a01094.html#a356842317f4215b2ee31abb25b4d54e7", null ],
-    [ "bgMapRef", "d6/dea/a01094.html#a91490e6276f571e959bcc65a1a7e4007", null ],
-    [ "bgRef", "d6/dea/a01094.html#a1d8c1781106a97335f700c82ac98e915", null ],
-    [ "bgTypeRef", "d6/dea/a01094.html#ab13257a97cde6f35eb3aed651e61e20c", null ]
+    [ "AddSC_achievement_scripts", "d6/dea/a01094.html#a5091d6f933800f3313078304ad5c38ca", null ],
+    [ "AddSC_action_ip_logger", "d6/dea/a01094.html#a530be5efb251d5ca58e97804e48ad953", null ],
+    [ "AddSC_areatrigger_scripts", "d6/dea/a01094.html#a992f2da647f1f8748c7c9239b52079ad", null ],
+    [ "AddSC_chat_log", "d6/dea/a01094.html#ae796ad81a78a552e5c31fcf6c5c135fa", null ],
+    [ "AddSC_emerald_dragons", "d6/dea/a01094.html#aabef9c5c7a434027ce4d3af6e2b77430", null ],
+    [ "AddSC_generic_creature", "d6/dea/a01094.html#a50f66c4d6429b38157e35a75a0daa31d", null ],
+    [ "AddSC_go_scripts", "d6/dea/a01094.html#a279b19d9fff015d16fc8bbd2fbc9325a", null ],
+    [ "AddSC_guards", "d6/dea/a01094.html#acba582cbc90c710c629dd30926acdca4", null ],
+    [ "AddSC_item_scripts", "d6/dea/a01094.html#a3e28ebf5a580887bb117f786689a34c6", null ],
+    [ "AddSC_npc_innkeeper", "d6/dea/a01094.html#a3ffce1ea6cca981888af85ba67364df9", null ],
+    [ "AddSC_npc_professions", "d6/dea/a01094.html#a428ec531a2dc4e479b5c73e0d0694091", null ],
+    [ "AddSC_npc_stave_of_ancients", "d6/dea/a01094.html#a81e200e5d045a2403cd76a0559a6fd8c", null ],
+    [ "AddSC_npc_taxi", "d6/dea/a01094.html#a36f8a13e2844278c955f3a8155e7a11c", null ],
+    [ "AddSC_npcs_special", "d6/dea/a01094.html#aac822f73be6c9bf1dfaa4bbaec0e5aef", null ],
+    [ "AddSC_player_scripts", "d6/dea/a01094.html#a1f476a8466c12651b57fd55bf13b9617", null ],
+    [ "AddSC_server_mail", "d6/dea/a01094.html#a8c20fa2f42eb423e39f2aaafe8fadafc", null ],
+    [ "AddWorldScripts", "d6/dea/a01094.html#a5e7b18db76511725a47c51e9ce748575", null ]
 ];

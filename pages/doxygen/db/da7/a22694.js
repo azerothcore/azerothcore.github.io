@@ -1,8 +1,7 @@
 var a22694 =
 [
-    [ "npc_parasitic_shadowfiend", "db/da7/a22694.html#a09aa9baed84ec849bd5a34d02aec8db3", null ],
-    [ "CanAIAttack", "db/da7/a22694.html#ac7600aed313f1413cb9b522d60d30329", null ],
-    [ "EnterEvadeMode", "db/da7/a22694.html#a4dc9fe2b60fc97bd836701244a069d4d", null ],
-    [ "IsSummonedBy", "db/da7/a22694.html#a306c696d4243c4525d0a3908a212135d", null ],
-    [ "UpdateAI", "db/da7/a22694.html#a2706a4ba7876f299b02d2e720f512af2", null ]
+    [ "HandleScriptEffect", "db/da7/a22694.html#a16f131e42272bc75c99df2a9cf43470e", null ],
+    [ "PrepareSpellScript", "db/da7/a22694.html#a510e80ef85ae3057e30c7c710aaf187b", null ],
+    [ "Register", "db/da7/a22694.html#ae26ff6be3b2d4a1975ace3734603ab41", null ],
+    [ "Validate", "db/da7/a22694.html#a58ff628906f3077a354ed486d3c56d23", null ]
 ];

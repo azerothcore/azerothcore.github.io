@@ -1,6 +1,6 @@
 var a21110 =
 [
-    [ "npc_ritual_channelerAI", "d9/db1/a21114.html", "d9/db1/a21114" ],
-    [ "npc_ritual_channeler", "d2/d93/a21110.html#adab372002549b009e3f937ec67e49f3f", null ],
-    [ "GetAI", "d2/d93/a21110.html#aa416545438d701cbfc2567ba5ae536c8", null ]
+    [ "HandleScript", "d2/d93/a21110.html#ac5f5d82e34a924524bdb8f1b2d9f2e07", null ],
+    [ "PrepareSpellScript", "d2/d93/a21110.html#aad2f4314b8baba8efe18db46d81cd676", null ],
+    [ "Register", "d2/d93/a21110.html#a0335d861e6002c9fa58563027dc22632", null ]
 ];

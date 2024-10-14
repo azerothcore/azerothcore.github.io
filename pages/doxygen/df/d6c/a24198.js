@@ -1,11 +1,7 @@
 var a24198 =
 [
-    [ "npc_shadowmoon_tuber_nodeAI", "df/d6c/a24198.html#af24a8d5ead256d158c86379e032aa889", null ],
-    [ "Reset", "df/d6c/a24198.html#a9bcbd0b0b6b12058a8356ce274b6a597", null ],
-    [ "SetData", "df/d6c/a24198.html#aca6ad097bd7b8e5f1a0cde6bdebb23ad", null ],
-    [ "SpellHit", "df/d6c/a24198.html#a14523a24042d23efbafc7924f394dd04", null ],
-    [ "UpdateAI", "df/d6c/a24198.html#ae5cd38aa2a9cc1727141298323639660", null ],
-    [ "resetTimer", "df/d6c/a24198.html#a0d2649de651279fa6bbe3ae2f18571bb", null ],
-    [ "tapped", "df/d6c/a24198.html#af6412de701f14a7eb325e1aaf33f28cc", null ],
-    [ "tuberGUID", "df/d6c/a24198.html#a2deaa1aeed26b862e93055d90c9139d6", null ]
+    [ "HandleEffectRemove", "df/d6c/a24198.html#a63c0fede080591df9ebf8b3de2cd2fc3", null ],
+    [ "PrepareAuraScript", "df/d6c/a24198.html#a19ce53b5731b0789896612fa55f38849", null ],
+    [ "Register", "df/d6c/a24198.html#a7d60c5b18bbf77a18ab683a101782ada", null ],
+    [ "Validate", "df/d6c/a24198.html#ae3c3c1bce38882cd5de32295813b1a47", null ]
 ];

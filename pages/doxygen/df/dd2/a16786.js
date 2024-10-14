@@ -1,6 +1,7 @@
 var a16786 =
 [
-    [ "npc_hor_lich_kingAI", "d6/d87/a16790.html", "d6/d87/a16790" ],
-    [ "npc_hor_lich_king", "df/dd2/a16786.html#aab2562a7a204699735a89e7a15b3b472", null ],
-    [ "GetAI", "df/dd2/a16786.html#ad670ae69daa742c19c06267399445a11", null ]
+    [ "UtherBatteredHiltEvent", "df/dd2/a16786.html#a7bb34b75a3e371260a231aea72f75b40", null ],
+    [ "Execute", "df/dd2/a16786.html#ad2eb37877155b6dbc9916338e30d0306", null ],
+    [ "_eventId", "df/dd2/a16786.html#a5045e057b2c5d468aa579751d2c799b8", null ],
+    [ "_owner", "df/dd2/a16786.html#a588974708f4a48f5a7b097a63a0c0899", null ]
 ];

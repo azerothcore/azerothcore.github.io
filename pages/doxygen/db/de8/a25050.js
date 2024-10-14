@@ -1,6 +1,7 @@
 var a25050 =
 [
-    [ "CalculateAmount", "db/de8/a25050.html#a66b009487462241e573ea23f081a140a", null ],
-    [ "PrepareAuraScript", "db/de8/a25050.html#a0eee16c77a3c3cea882b67c78826a140", null ],
-    [ "Register", "db/de8/a25050.html#afeafc6922b0a0389fec969e3c7191dda", null ]
+    [ "HandleScript", "db/de8/a25050.html#a8b20e2ffed94ec9438dc9b756ba76693", null ],
+    [ "PrepareSpellScript", "db/de8/a25050.html#a9e29ea947d5415471d991a4e1cd699ac", null ],
+    [ "Register", "db/de8/a25050.html#aa4bc27415893009581b317637599a85a", null ],
+    [ "Validate", "db/de8/a25050.html#a77ed10819633ae2bc381023da0feb31b", null ]
 ];

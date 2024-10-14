@@ -1,9 +1,7 @@
 var a14038 =
 [
-    [ "CheckCast", "df/dfe/a14038.html#a02965b55e8efadbd21e5afdd824f1dec", null ],
-    [ "FilterTargets", "df/dfe/a14038.html#a9638048b4107db116474abf8e18d7760", null ],
-    [ "HandleBeforeHit", "df/dfe/a14038.html#a3567c72e999ad6ca9db15b4d6ddadafb", null ],
-    [ "HandleScriptEffect", "df/dfe/a14038.html#a47d6a6c1fcb2b04782e54d3797c1f42c", null ],
-    [ "PrepareSpellScript", "df/dfe/a14038.html#aab9211291bd9dab8255d94e4eb07bf8e", null ],
-    [ "Register", "df/dfe/a14038.html#a73e6c9c91dccb309207fa3aeb6bd9d6f", null ]
+    [ "HandleScriptEffect", "df/dfe/a14038.html#ae758c224878aebdde0124b5d4ec902a5", null ],
+    [ "PrepareSpellScript", "df/dfe/a14038.html#ac3755ef09a905d90ce7df328b83d51aa", null ],
+    [ "Register", "df/dfe/a14038.html#a051d0fe383e5675e39e4ac8ed7a6e329", null ],
+    [ "Validate", "df/dfe/a14038.html#a56f71954e122f651c6e2ec68453e16cc", null ]
 ];

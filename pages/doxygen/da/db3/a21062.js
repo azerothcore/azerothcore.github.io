@@ -1,6 +1,5 @@
 var a21062 =
 [
-    [ "npc_ravenous_furbolgAI", "dd/d73/a21066.html", "dd/d73/a21066" ],
-    [ "npc_ravenous_furbolg", "da/db3/a21062.html#a1d7adf8eb055cb6ba82db2f173256fe9", null ],
-    [ "GetAI", "da/db3/a21062.html#a284c366e6f5bd024d9627a83dd966669", null ]
+    [ "npc_ritual_channelerAI", "da/db3/a21062.html#aa770f8f2b9dd5fca86f9e63de7b4000f", null ],
+    [ "AttackStart", "da/db3/a21062.html#aff09fbdc1e701853c9953882ca73ce2a", null ]
 ];

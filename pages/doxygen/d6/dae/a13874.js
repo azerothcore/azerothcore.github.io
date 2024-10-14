@@ -1,5 +1,6 @@
 var a13874 =
 [
-    [ "npc_brain_wash_totem", "d6/dae/a13874.html#acdecde614ba82d60ee4a10ace8545fdf", null ],
-    [ "EnterEvadeMode", "d6/dae/a13874.html#abd32e3210cc384c0c365826ca1fbae1e", null ]
+    [ "HandleObjectAreaTargetSelect", "d6/dae/a13874.html#aa7695bddd766d5adefb04710d41894f6", null ],
+    [ "PrepareSpellScript", "d6/dae/a13874.html#a77ba184428cfbb8ec3cc4670f78741e0", null ],
+    [ "Register", "d6/dae/a13874.html#adbc2f1c4ec64b95ec72c82f36f12d928", null ]
 ];

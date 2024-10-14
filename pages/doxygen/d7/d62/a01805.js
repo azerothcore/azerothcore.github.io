@@ -1,17 +1,14 @@
 var a01805 =
 [
-    [ "GuidLinkType", "d7/d62/a01805.html#a7c58fae67eb0c9a1b6f18b403121b2f5", [
-      [ "SPELL_LINK_PLAYER", "d7/d62/a01805.html#a7c58fae67eb0c9a1b6f18b403121b2f5a5d767348c5c4c24512c158282864e028", null ],
-      [ "SPELL_LINK_CREATURE", "d7/d62/a01805.html#a7c58fae67eb0c9a1b6f18b403121b2f5aaed061119fe0e792ab485fd40a360bf8", null ],
-      [ "SPELL_LINK_GAMEOBJECT", "d7/d62/a01805.html#a7c58fae67eb0c9a1b6f18b403121b2f5ad11a1fa40770cd0fbd5f0ef62ee244f7", null ]
+    [ "DataHeader", "d7/d62/a01805.html#a042491ef36459046f3866e90f15aae0d", null ],
+    [ "MTScriptName", "d7/d62/a01805.html#a772413d8818d681e2261c99f58e1268c", null ],
+    [ "RegisterManaTombsCreatureAI", "d7/d62/a01805.html#a7e2e8ea768842320ce5d953aeaddb176", null ],
+    [ "MTDataTypes", "d7/d62/a01805.html#a9ffea4a6410ded9f327ba6e91f8766ee", [
+      [ "DATA_PANDEMONIUS", "d7/d62/a01805.html#a9ffea4a6410ded9f327ba6e91f8766eeab1efde1b4aaad2daab0c383563a9f02a", null ],
+      [ "DATA_TAVAROK", "d7/d62/a01805.html#a9ffea4a6410ded9f327ba6e91f8766eea9245929feb24a0840eeff34e8c87de57", null ],
+      [ "DATA_NEXUSPRINCE_SHAFFAR", "d7/d62/a01805.html#a9ffea4a6410ded9f327ba6e91f8766eea07473250c26fb3874461362f93a75a97", null ],
+      [ "DATA_YOR", "d7/d62/a01805.html#a9ffea4a6410ded9f327ba6e91f8766eea738b876feae2daf42423688ca0f13289", null ]
     ] ],
-    [ "SpellLinkType", "d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9", [
-      [ "SPELL_LINK_SPELL", "d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9a2670f404d5b38a26d1bd9e6567f5f2dd", null ],
-      [ "SPELL_LINK_TALENT", "d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56", null ],
-      [ "SPELL_LINK_ENCHANT", "d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654", null ],
-      [ "SPELL_LINK_TRADE", "d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919", null ],
-      [ "SPELL_LINK_GLYPH", "d7/d62/a01805.html#a39157073e48b2e925e7227a28d1f09f9a4560f8b79d96cfda475bb4ac266a255e", null ]
-    ] ],
-    [ "guidKeys", "d7/d62/a01805.html#ae39447b85bcee503ddb354d2950d638a", null ],
-    [ "spellKeys", "d7/d62/a01805.html#a493fba30c4b66be28baeb971844ea593", null ]
+    [ "GetManaTombsAI", "d7/d62/a01805.html#aaec5771a3ce0808b0a1bb0116b4fb9e3", null ],
+    [ "EncounterCount", "d7/d62/a01805.html#a31d630c40753c29f94ceac2db5e451a8", null ]
 ];

@@ -1,8 +1,9 @@
 var a21834 =
 [
-    [ "AfterApply", "db/dce/a21834.html#a57279552b867251e9d2ee6a4ff5d7914", null ],
-    [ "PeriodicTick", "db/dce/a21834.html#a2e86aa6efe6ab137926c1dfd1bd26a95", null ],
-    [ "PrepareAuraScript", "db/dce/a21834.html#a9e1b74bf2d28a367caefdc90c34743c8", null ],
-    [ "Register", "db/dce/a21834.html#a69eb0ca43a15d4995ad219459c2b39d6", null ],
-    [ "Validate", "db/dce/a21834.html#a946248656cb755f85dd93fd4d607c9a7", null ]
+    [ "npc_wounded_skirmisher", "db/dce/a21834.html#a30fe2d901df0cfd9b66f3dbd6a1e6aea", null ],
+    [ "Initialize", "db/dce/a21834.html#ae5fab920fcb16b57e0ed53a1177d319b", null ],
+    [ "JustEngagedWith", "db/dce/a21834.html#a80357b71a1eccdcdce8c8bea87de1b66", null ],
+    [ "Reset", "db/dce/a21834.html#acca266640c099718d2a0fd4f6a3c47ab", null ],
+    [ "SpellHit", "db/dce/a21834.html#a891e879af5da1f181c94e528c59a81f1", null ],
+    [ "UpdateAI", "db/dce/a21834.html#a52f8e7f8df05504cad4b4438c50814a4", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Metric/Metric.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/common/Collision/Maps/MapDefines.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,422 +106,107 @@ $(document).ready(function(){initNavTree('d6/de1/a00356.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">Metric.h File Reference</div></div>
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">MapDefines.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../">Define.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Duration.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MPSCQueue.h</a>&quot;</code><br />
-<code>#include &lt;functional&gt;</code><br />
-<code>#include &lt;memory&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &lt;unordered_map&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<code>#include &quot;DetourNavMesh.h&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df0/a05262.html">MetricData</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dc7/a05266.html">Metric</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4f/a05270.html">MetricStopWatch&lt; LoggerType &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d7/de4/a04674"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de4/a04674.html">Acore</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d1/d64/a04675"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d64/a04675.html">Acore::Asio</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd4/a04894.html">MmapTileHeader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a4e89926204845a9c9e315d6f0abec5ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#a4e89926204845a9c9e315d6f0abec5ef">sMetric</a>&#160;&#160;&#160;<a class="el" href="../../d7/dc7/a05266.html#a5013a4cfaa8e40a739e9f7439efae575">Metric::instance</a>()</td></tr>
-<tr class="separator:a4e89926204845a9c9e315d6f0abec5ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab81b5769123c1e5e3870b9b05f25fe0a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#ab81b5769123c1e5e3870b9b05f25fe0a">METRIC_TAG</a>(name,  value)&#160;&#160;&#160;{ name, value }</td></tr>
-<tr class="separator:ab81b5769123c1e5e3870b9b05f25fe0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa861206b38b55c4f39f1ed649defb338"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#aa861206b38b55c4f39f1ed649defb338">METRIC_DO_CONCAT</a>(a,  b)&#160;&#160;&#160;a##b</td></tr>
-<tr class="separator:aa861206b38b55c4f39f1ed649defb338"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad81585df46d4cee988a1222012dbabf1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#ad81585df46d4cee988a1222012dbabf1">METRIC_CONCAT</a>(a,  b)&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00356.html#aa861206b38b55c4f39f1ed649defb338">METRIC_DO_CONCAT</a>(a, b)</td></tr>
-<tr class="separator:ad81585df46d4cee988a1222012dbabf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf91483a75eca0531263536ce38d9339"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#adf91483a75eca0531263536ce38d9339">METRIC_UNIQUE_NAME</a>(name)&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00356.html#ad81585df46d4cee988a1222012dbabf1">METRIC_CONCAT</a>(name, __LINE__)</td></tr>
-<tr class="separator:adf91483a75eca0531263536ce38d9339"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad57573999508dbc7a2c953379996b542"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#ad57573999508dbc7a2c953379996b542">METRIC_EVENT</a>(category,  title,  description)</td></tr>
-<tr class="separator:ad57573999508dbc7a2c953379996b542"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92aedc832ddfc479ecc61289f12be449"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#a92aedc832ddfc479ecc61289f12be449">METRIC_VALUE</a>(category,  value, ...)</td></tr>
-<tr class="separator:a92aedc832ddfc479ecc61289f12be449"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad88ae7d281622a32a700443aa3dc51f9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#ad88ae7d281622a32a700443aa3dc51f9">METRIC_TIMER</a>(category, ...)</td></tr>
-<tr class="separator:ad88ae7d281622a32a700443aa3dc51f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac782d1c3265f7b707782545777d49d05"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#ac782d1c3265f7b707782545777d49d05">METRIC_DETAILED_EVENT</a>(category,  title,  description)&#160;&#160;&#160;((void)0)</td></tr>
-<tr class="separator:ac782d1c3265f7b707782545777d49d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22dcbf78f0d280a4b2b4e0662034efe9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#a22dcbf78f0d280a4b2b4e0662034efe9">METRIC_DETAILED_TIMER</a>(category, ...)&#160;&#160;&#160;((void)0)</td></tr>
-<tr class="separator:a22dcbf78f0d280a4b2b4e0662034efe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a281633f6f8b252d96029ce8fd29da746"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#a281633f6f8b252d96029ce8fd29da746">METRIC_DETAILED_NO_THRESHOLD_TIMER</a>(category, ...)&#160;&#160;&#160;((void)0)</td></tr>
-<tr class="separator:a281633f6f8b252d96029ce8fd29da746"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a8fdc9a93c03faef11e4c36679e79e3f1"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#a8fdc9a93c03faef11e4c36679e79e3f1">MetricTag</a></td></tr>
-<tr class="separator:a8fdc9a93c03faef11e4c36679e79e3f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a857252154f120575d940ffbdf63bace6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#a857252154f120575d940ffbdf63bace6">MAX_NUMBER_OF_GRIDS</a>&#160;&#160;&#160;64</td></tr>
+<tr class="separator:a857252154f120575d940ffbdf63bace6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55c9adba46c0c14cd4ac80ab51228816"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#a55c9adba46c0c14cd4ac80ab51228816">SIZE_OF_GRIDS</a>&#160;&#160;&#160;533.3333f</td></tr>
+<tr class="separator:a55c9adba46c0c14cd4ac80ab51228816"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7a9a5e840ab3ad1c160e832500016d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#af7a9a5e840ab3ad1c160e832500016d1">MMAP_MAGIC</a>&#160;&#160;&#160;0x4d4d4150</td></tr>
+<tr class="separator:af7a9a5e840ab3ad1c160e832500016d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea71555fdd0af33ccc21c76c67574421"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#aea71555fdd0af33ccc21c76c67574421">MMAP_VERSION</a>&#160;&#160;&#160;16</td></tr>
+<tr class="separator:aea71555fdd0af33ccc21c76c67574421"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a0bb9cc086e32544cb0e43338f83d8e62"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#a0bb9cc086e32544cb0e43338f83d8e62">MetricDataType</a> { <br />
-&#160;&#160;<a class="el" href="../../d6/de1/a00356.html#a0bb9cc086e32544cb0e43338f83d8e62a62f4e964751c180f1ab400ee1852b155">METRIC_DATA_VALUE</a>
+<tr class="memitem:a8a4d0b36dd46d60b691b894fb8c1c5db"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5db">NavTerrain</a> { <br />
+&#160;&#160;<a class="el" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba7e7367494e3519c95f1b756726fec9a5">NAV_EMPTY</a> = 0x00
 , <br />
-&#160;&#160;<a class="el" href="../../d6/de1/a00356.html#a0bb9cc086e32544cb0e43338f83d8e62a599565c733d02dcd1c4676c2ad463af2">METRIC_DATA_EVENT</a>
+&#160;&#160;<a class="el" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dbac2c74d40490a8ea42121c00a8249bd98">NAV_GROUND</a> = 0x01
+, <br />
+&#160;&#160;<a class="el" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba9ea5d0550a08be7bb291557f1fc4f670">NAV_MAGMA</a> = 0x02
+, <br />
+&#160;&#160;<a class="el" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dbad892c321d39d49cdb700eb27fc249f75">NAV_SLIME</a> = 0x04
+, <br />
+&#160;&#160;<a class="el" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dbae258322a4a7d7928a89ac183ecf137d1">NAV_WATER</a> = 0x08
+, <br />
+&#160;&#160;<a class="el" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba55b6c76a11113bfd585b61366a3f6d03">NAV_UNUSED1</a> = 0x10
+, <br />
+&#160;&#160;<a class="el" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba4c61900269be6dee2e26cbeb4e09d0bb">NAV_UNUSED2</a> = 0x20
+, <br />
+&#160;&#160;<a class="el" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba3055dd71ec523facb0cba2976316d530">NAV_UNUSED3</a> = 0x40
+, <br />
+&#160;&#160;<a class="el" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba94351935a3c7389b4667144d53923d56">NAV_UNUSED4</a> = 0x80
 <br />
  }</td></tr>
-<tr class="separator:a0bb9cc086e32544cb0e43338f83d8e62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ab339934305abce426aa1d43c99d65e9f"><td class="memTemplParams" colspan="2">template&lt;typename LoggerType &gt; </td></tr>
-<tr class="memitem:ab339934305abce426aa1d43c99d65e9f"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../de/d4f/a05270.html">MetricStopWatch</a>&lt; LoggerType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/de1/a00356.html#ab339934305abce426aa1d43c99d65e9f">MakeMetricStopWatch</a> (LoggerType &amp;&amp;loggerFunc)</td></tr>
-<tr class="separator:ab339934305abce426aa1d43c99d65e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a8a4d0b36dd46d60b691b894fb8c1c5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ad81585df46d4cee988a1222012dbabf1" name="ad81585df46d4cee988a1222012dbabf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad81585df46d4cee988a1222012dbabf1">&#9670;&#160;</a></span>METRIC_CONCAT</h2>
+<a id="a857252154f120575d940ffbdf63bace6" name="a857252154f120575d940ffbdf63bace6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a857252154f120575d940ffbdf63bace6">&#9670;&#160;</a></span>MAX_NUMBER_OF_GRIDS</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define METRIC_CONCAT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">a, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">b&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00356.html#aa861206b38b55c4f39f1ed649defb338">METRIC_DO_CONCAT</a>(a, b)</td>
+          <td class="memname">#define MAX_NUMBER_OF_GRIDS&#160;&#160;&#160;64</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ac782d1c3265f7b707782545777d49d05" name="ac782d1c3265f7b707782545777d49d05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac782d1c3265f7b707782545777d49d05">&#9670;&#160;</a></span>METRIC_DETAILED_EVENT</h2>
+<a id="af7a9a5e840ab3ad1c160e832500016d1" name="af7a9a5e840ab3ad1c160e832500016d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7a9a5e840ab3ad1c160e832500016d1">&#9670;&#160;</a></span>MMAP_MAGIC</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define METRIC_DETAILED_EVENT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">category, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">title, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">description&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((void)0)</td>
+          <td class="memname">#define MMAP_MAGIC&#160;&#160;&#160;0x4d4d4150</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a281633f6f8b252d96029ce8fd29da746" name="a281633f6f8b252d96029ce8fd29da746"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a281633f6f8b252d96029ce8fd29da746">&#9670;&#160;</a></span>METRIC_DETAILED_NO_THRESHOLD_TIMER</h2>
+<a id="aea71555fdd0af33ccc21c76c67574421" name="aea71555fdd0af33ccc21c76c67574421"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea71555fdd0af33ccc21c76c67574421">&#9670;&#160;</a></span>MMAP_VERSION</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define METRIC_DETAILED_NO_THRESHOLD_TIMER</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">category, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((void)0)</td>
+          <td class="memname">#define MMAP_VERSION&#160;&#160;&#160;16</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a22dcbf78f0d280a4b2b4e0662034efe9" name="a22dcbf78f0d280a4b2b4e0662034efe9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22dcbf78f0d280a4b2b4e0662034efe9">&#9670;&#160;</a></span>METRIC_DETAILED_TIMER</h2>
+<a id="a55c9adba46c0c14cd4ac80ab51228816" name="a55c9adba46c0c14cd4ac80ab51228816"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55c9adba46c0c14cd4ac80ab51228816">&#9670;&#160;</a></span>SIZE_OF_GRIDS</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define METRIC_DETAILED_TIMER</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">category, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((void)0)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa861206b38b55c4f39f1ed649defb338" name="aa861206b38b55c4f39f1ed649defb338"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa861206b38b55c4f39f1ed649defb338">&#9670;&#160;</a></span>METRIC_DO_CONCAT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define METRIC_DO_CONCAT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">a, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">b&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;a##b</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad57573999508dbc7a2c953379996b542" name="ad57573999508dbc7a2c953379996b542"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad57573999508dbc7a2c953379996b542">&#9670;&#160;</a></span>METRIC_EVENT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define METRIC_EVENT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">category, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">title, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">description&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">        __pragma(warning(push))                                        \</div>
-<div class="line">        __pragma(warning(disable:4127))                                \</div>
-<div class="line">        <span class="keywordflow">do</span> {                                                           \</div>
-<div class="line">            if (<a class="code hl_define" href="../../d6/de1/a00356.html#a4e89926204845a9c9e315d6f0abec5ef">sMetric</a>-&gt;IsEnabled())                                  \</div>
-<div class="line">                <a class="code hl_define" href="../../d6/de1/a00356.html#a4e89926204845a9c9e315d6f0abec5ef">sMetric</a>-&gt;LogEvent(category, title, description);       \</div>
-<div class="line">        } <span class="keywordflow">while</span> (0)                                                    \</div>
-<div class="line">        __pragma(warning(pop))</div>
-<div class="ttc" id="aa00356_html_a4e89926204845a9c9e315d6f0abec5ef"><div class="ttname"><a href="../../d6/de1/a00356.html#a4e89926204845a9c9e315d6f0abec5ef">sMetric</a></div><div class="ttdeci">#define sMetric</div><div class="ttdef"><b>Definition:</b> Metric.h:130</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ab81b5769123c1e5e3870b9b05f25fe0a" name="ab81b5769123c1e5e3870b9b05f25fe0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab81b5769123c1e5e3870b9b05f25fe0a">&#9670;&#160;</a></span>METRIC_TAG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define METRIC_TAG</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">name, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">value&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;{ name, value }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad88ae7d281622a32a700443aa3dc51f9" name="ad88ae7d281622a32a700443aa3dc51f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad88ae7d281622a32a700443aa3dc51f9">&#9670;&#160;</a></span>METRIC_TIMER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define METRIC_TIMER</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">category, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">        <a class="code hl_class" href="../../de/d4f/a05270.html">MetricStopWatch</a> <a class="code hl_define" href="../../d6/de1/a00356.html#adf91483a75eca0531263536ce38d9339">METRIC_UNIQUE_NAME</a>(__ac_metric_stop_watch) = <a class="code hl_function" href="../../d6/de1/a00356.html#ab339934305abce426aa1d43c99d65e9f">MakeMetricStopWatch</a>([&amp;](<a class="code hl_typedef" href="../../d9/d4a/a00479.html#ae5ca775e8d8c664b6edef818ce1251b9">TimePoint</a> start) \</div>
-<div class="line">        {                                                                                                        \</div>
-<div class="line">            <a class="code hl_define" href="../../d6/de1/a00356.html#a4e89926204845a9c9e315d6f0abec5ef">sMetric</a>-&gt;LogValue(category, std::chrono::steady_clock::now() - start, { __VA_ARGS__ });              \</div>
-<div class="line">        });</div>
-<div class="ttc" id="aa00356_html_ab339934305abce426aa1d43c99d65e9f"><div class="ttname"><a href="../../d6/de1/a00356.html#ab339934305abce426aa1d43c99d65e9f">MakeMetricStopWatch</a></div><div class="ttdeci">MetricStopWatch&lt; LoggerType &gt; MakeMetricStopWatch(LoggerType &amp;&amp;loggerFunc)</div><div class="ttdef"><b>Definition:</b> Metric.h:154</div></div>
-<div class="ttc" id="aa00356_html_adf91483a75eca0531263536ce38d9339"><div class="ttname"><a href="../../d6/de1/a00356.html#adf91483a75eca0531263536ce38d9339">METRIC_UNIQUE_NAME</a></div><div class="ttdeci">#define METRIC_UNIQUE_NAME(name)</div><div class="ttdef"><b>Definition:</b> Metric.h:163</div></div>
-<div class="ttc" id="aa00479_html_ae5ca775e8d8c664b6edef818ce1251b9"><div class="ttname"><a href="../../d9/d4a/a00479.html#ae5ca775e8d8c664b6edef818ce1251b9">TimePoint</a></div><div class="ttdeci">std::chrono::steady_clock::time_point TimePoint</div><div class="ttdoc">time_point shorthand typedefs</div><div class="ttdef"><b>Definition:</b> Duration.h:69</div></div>
-<div class="ttc" id="aa05270_html"><div class="ttname"><a href="../../de/d4f/a05270.html">MetricStopWatch</a></div><div class="ttdef"><b>Definition:</b> Metric.h:134</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="adf91483a75eca0531263536ce38d9339" name="adf91483a75eca0531263536ce38d9339"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf91483a75eca0531263536ce38d9339">&#9670;&#160;</a></span>METRIC_UNIQUE_NAME</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define METRIC_UNIQUE_NAME</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">name</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d6/de1/a00356.html#ad81585df46d4cee988a1222012dbabf1">METRIC_CONCAT</a>(name, __LINE__)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a92aedc832ddfc479ecc61289f12be449" name="a92aedc832ddfc479ecc61289f12be449"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92aedc832ddfc479ecc61289f12be449">&#9670;&#160;</a></span>METRIC_VALUE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define METRIC_VALUE</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">category, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">value, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">        __pragma(warning(push))                                        \</div>
-<div class="line">        __pragma(warning(disable:4127))                                \</div>
-<div class="line">        <span class="keywordflow">do</span> {                                                           \</div>
-<div class="line">            if (<a class="code hl_define" href="../../d6/de1/a00356.html#a4e89926204845a9c9e315d6f0abec5ef">sMetric</a>-&gt;IsEnabled())                                  \</div>
-<div class="line">                <a class="code hl_define" href="../../d6/de1/a00356.html#a4e89926204845a9c9e315d6f0abec5ef">sMetric</a>-&gt;LogValue(category, value, { __VA_ARGS__ });   \</div>
-<div class="line">        } <span class="keywordflow">while</span> (0)                                                    \</div>
-<div class="line">        __pragma(warning(pop))</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4e89926204845a9c9e315d6f0abec5ef" name="a4e89926204845a9c9e315d6f0abec5ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e89926204845a9c9e315d6f0abec5ef">&#9670;&#160;</a></span>sMetric</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define sMetric&#160;&#160;&#160;<a class="el" href="../../d7/dc7/a05266.html#a5013a4cfaa8e40a739e9f7439efae575">Metric::instance</a>()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a8fdc9a93c03faef11e4c36679e79e3f1" name="a8fdc9a93c03faef11e4c36679e79e3f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fdc9a93c03faef11e4c36679e79e3f1">&#9670;&#160;</a></span>MetricTag</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::pair&lt;std::string, std::string&gt; <a class="el" href="../../d6/de1/a00356.html#a8fdc9a93c03faef11e4c36679e79e3f1">MetricTag</a></td>
+          <td class="memname">#define SIZE_OF_GRIDS&#160;&#160;&#160;533.3333f</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -529,51 +214,49 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a0bb9cc086e32544cb0e43338f83d8e62" name="a0bb9cc086e32544cb0e43338f83d8e62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bb9cc086e32544cb0e43338f83d8e62">&#9670;&#160;</a></span>MetricDataType</h2>
+<a id="a8a4d0b36dd46d60b691b894fb8c1c5db" name="a8a4d0b36dd46d60b691b894fb8c1c5db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a4d0b36dd46d60b691b894fb8c1c5db">&#9670;&#160;</a></span>NavTerrain</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d6/de1/a00356.html#a0bb9cc086e32544cb0e43338f83d8e62">MetricDataType</a></td>
+          <td class="memname">enum <a class="el" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5db">NavTerrain</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0bb9cc086e32544cb0e43338f83d8e62a62f4e964751c180f1ab400ee1852b155" name="a0bb9cc086e32544cb0e43338f83d8e62a62f4e964751c180f1ab400ee1852b155"></a>METRIC_DATA_VALUE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0bb9cc086e32544cb0e43338f83d8e62a599565c733d02dcd1c4676c2ad463af2" name="a0bb9cc086e32544cb0e43338f83d8e62a599565c733d02dcd1c4676c2ad463af2"></a>METRIC_DATA_EVENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8a4d0b36dd46d60b691b894fb8c1c5dba7e7367494e3519c95f1b756726fec9a5" name="a8a4d0b36dd46d60b691b894fb8c1c5dba7e7367494e3519c95f1b756726fec9a5"></a>NAV_EMPTY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a4d0b36dd46d60b691b894fb8c1c5dbac2c74d40490a8ea42121c00a8249bd98" name="a8a4d0b36dd46d60b691b894fb8c1c5dbac2c74d40490a8ea42121c00a8249bd98"></a>NAV_GROUND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a4d0b36dd46d60b691b894fb8c1c5dba9ea5d0550a08be7bb291557f1fc4f670" name="a8a4d0b36dd46d60b691b894fb8c1c5dba9ea5d0550a08be7bb291557f1fc4f670"></a>NAV_MAGMA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a4d0b36dd46d60b691b894fb8c1c5dbad892c321d39d49cdb700eb27fc249f75" name="a8a4d0b36dd46d60b691b894fb8c1c5dbad892c321d39d49cdb700eb27fc249f75"></a>NAV_SLIME&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a4d0b36dd46d60b691b894fb8c1c5dbae258322a4a7d7928a89ac183ecf137d1" name="a8a4d0b36dd46d60b691b894fb8c1c5dbae258322a4a7d7928a89ac183ecf137d1"></a>NAV_WATER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a4d0b36dd46d60b691b894fb8c1c5dba55b6c76a11113bfd585b61366a3f6d03" name="a8a4d0b36dd46d60b691b894fb8c1c5dba55b6c76a11113bfd585b61366a3f6d03"></a>NAV_UNUSED1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a4d0b36dd46d60b691b894fb8c1c5dba4c61900269be6dee2e26cbeb4e09d0bb" name="a8a4d0b36dd46d60b691b894fb8c1c5dba4c61900269be6dee2e26cbeb4e09d0bb"></a>NAV_UNUSED2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a4d0b36dd46d60b691b894fb8c1c5dba3055dd71ec523facb0cba2976316d530" name="a8a4d0b36dd46d60b691b894fb8c1c5dba3055dd71ec523facb0cba2976316d530"></a>NAV_UNUSED3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a4d0b36dd46d60b691b894fb8c1c5dba94351935a3c7389b4667144d53923d56" name="a8a4d0b36dd46d60b691b894fb8c1c5dba94351935a3c7389b4667144d53923d56"></a>NAV_UNUSED4&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d6/de1/a00356.html#a0bb9cc086e32544cb0e43338f83d8e62a62f4e964751c180f1ab400ee1852b155">METRIC_DATA_VALUE</a>,</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d6/de1/a00356.html#a0bb9cc086e32544cb0e43338f83d8e62a599565c733d02dcd1c4676c2ad463af2">METRIC_DATA_EVENT</a></div>
-<div class="line"><span class="lineno">   40</span>};</div>
-<div class="ttc" id="aa00356_html_a0bb9cc086e32544cb0e43338f83d8e62a599565c733d02dcd1c4676c2ad463af2"><div class="ttname"><a href="../../d6/de1/a00356.html#a0bb9cc086e32544cb0e43338f83d8e62a599565c733d02dcd1c4676c2ad463af2">METRIC_DATA_EVENT</a></div><div class="ttdeci">@ METRIC_DATA_EVENT</div><div class="ttdef"><b>Definition:</b> Metric.h:39</div></div>
-<div class="ttc" id="aa00356_html_a0bb9cc086e32544cb0e43338f83d8e62a62f4e964751c180f1ab400ee1852b155"><div class="ttname"><a href="../../d6/de1/a00356.html#a0bb9cc086e32544cb0e43338f83d8e62a62f4e964751c180f1ab400ee1852b155">METRIC_DATA_VALUE</a></div><div class="ttdeci">@ METRIC_DATA_VALUE</div><div class="ttdef"><b>Definition:</b> Metric.h:38</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ab339934305abce426aa1d43c99d65e9f" name="ab339934305abce426aa1d43c99d65e9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab339934305abce426aa1d43c99d65e9f">&#9670;&#160;</a></span>MakeMetricStopWatch()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename LoggerType &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d4f/a05270.html">MetricStopWatch</a>&lt; LoggerType &gt; MakeMetricStopWatch </td>
-          <td>(</td>
-          <td class="paramtype">LoggerType &amp;&amp;&#160;</td>
-          <td class="paramname"><em>loggerFunc</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  155</span>{</div>
-<div class="line"><span class="lineno">  156</span>    <span class="keywordflow">return</span> { std::forward&lt;LoggerType&gt;(loggerFunc) };</div>
-<div class="line"><span class="lineno">  157</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">   52</span>{</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba7e7367494e3519c95f1b756726fec9a5">NAV_EMPTY</a>   = 0x00,</div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dbac2c74d40490a8ea42121c00a8249bd98">NAV_GROUND</a>  = 0x01,</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba9ea5d0550a08be7bb291557f1fc4f670">NAV_MAGMA</a>   = 0x02,</div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dbad892c321d39d49cdb700eb27fc249f75">NAV_SLIME</a>   = 0x04,</div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dbae258322a4a7d7928a89ac183ecf137d1">NAV_WATER</a>   = 0x08,</div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba55b6c76a11113bfd585b61366a3f6d03">NAV_UNUSED1</a> = 0x10,</div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba4c61900269be6dee2e26cbeb4e09d0bb">NAV_UNUSED2</a> = 0x20,</div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba3055dd71ec523facb0cba2976316d530">NAV_UNUSED3</a> = 0x40,</div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba94351935a3c7389b4667144d53923d56">NAV_UNUSED4</a> = 0x80</div>
+<div class="line"><span class="lineno">   62</span>                  <span class="comment">// we only have 8 bits</span></div>
+<div class="line"><span class="lineno">   63</span>};</div>
+<div class="ttc" id="aa00356_html_a8a4d0b36dd46d60b691b894fb8c1c5dba3055dd71ec523facb0cba2976316d530"><div class="ttname"><a href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba3055dd71ec523facb0cba2976316d530">NAV_UNUSED3</a></div><div class="ttdeci">@ NAV_UNUSED3</div><div class="ttdef"><b>Definition:</b> MapDefines.h:60</div></div>
+<div class="ttc" id="aa00356_html_a8a4d0b36dd46d60b691b894fb8c1c5dba4c61900269be6dee2e26cbeb4e09d0bb"><div class="ttname"><a href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba4c61900269be6dee2e26cbeb4e09d0bb">NAV_UNUSED2</a></div><div class="ttdeci">@ NAV_UNUSED2</div><div class="ttdef"><b>Definition:</b> MapDefines.h:59</div></div>
+<div class="ttc" id="aa00356_html_a8a4d0b36dd46d60b691b894fb8c1c5dba55b6c76a11113bfd585b61366a3f6d03"><div class="ttname"><a href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba55b6c76a11113bfd585b61366a3f6d03">NAV_UNUSED1</a></div><div class="ttdeci">@ NAV_UNUSED1</div><div class="ttdef"><b>Definition:</b> MapDefines.h:58</div></div>
+<div class="ttc" id="aa00356_html_a8a4d0b36dd46d60b691b894fb8c1c5dba7e7367494e3519c95f1b756726fec9a5"><div class="ttname"><a href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba7e7367494e3519c95f1b756726fec9a5">NAV_EMPTY</a></div><div class="ttdeci">@ NAV_EMPTY</div><div class="ttdef"><b>Definition:</b> MapDefines.h:53</div></div>
+<div class="ttc" id="aa00356_html_a8a4d0b36dd46d60b691b894fb8c1c5dba94351935a3c7389b4667144d53923d56"><div class="ttname"><a href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba94351935a3c7389b4667144d53923d56">NAV_UNUSED4</a></div><div class="ttdeci">@ NAV_UNUSED4</div><div class="ttdef"><b>Definition:</b> MapDefines.h:61</div></div>
+<div class="ttc" id="aa00356_html_a8a4d0b36dd46d60b691b894fb8c1c5dba9ea5d0550a08be7bb291557f1fc4f670"><div class="ttname"><a href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba9ea5d0550a08be7bb291557f1fc4f670">NAV_MAGMA</a></div><div class="ttdeci">@ NAV_MAGMA</div><div class="ttdef"><b>Definition:</b> MapDefines.h:55</div></div>
+<div class="ttc" id="aa00356_html_a8a4d0b36dd46d60b691b894fb8c1c5dbac2c74d40490a8ea42121c00a8249bd98"><div class="ttname"><a href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dbac2c74d40490a8ea42121c00a8249bd98">NAV_GROUND</a></div><div class="ttdeci">@ NAV_GROUND</div><div class="ttdef"><b>Definition:</b> MapDefines.h:54</div></div>
+<div class="ttc" id="aa00356_html_a8a4d0b36dd46d60b691b894fb8c1c5dbad892c321d39d49cdb700eb27fc249f75"><div class="ttname"><a href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dbad892c321d39d49cdb700eb27fc249f75">NAV_SLIME</a></div><div class="ttdeci">@ NAV_SLIME</div><div class="ttdef"><b>Definition:</b> MapDefines.h:56</div></div>
+<div class="ttc" id="aa00356_html_a8a4d0b36dd46d60b691b894fb8c1c5dbae258322a4a7d7928a89ac183ecf137d1"><div class="ttname"><a href="../../d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dbae258322a4a7d7928a89ac183ecf137d1">NAV_WATER</a></div><div class="ttdeci">@ NAV_WATER</div><div class="ttdef"><b>Definition:</b> MapDefines.h:57</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -582,8 +265,8 @@ template&lt;typename LoggerType &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_91ceca9fdbb4b9c87bdfaa4e4d598d9a.html">Metric</a></li><li class="navelem"><a class="el" href="../../d6/de1/a00356.html">Metric.h</a></li>
-    <li class="footer">Generated on Mon Oct 7 2024 20:40:34 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_34825b659a55315b272dfcc55a7a0f6a.html">Collision</a></li><li class="navelem"><a class="el" href="../../dir_8b777919d2ae980e2f3806300ea01226.html">Maps</a></li><li class="navelem"><a class="el" href="../../d6/de1/a00356.html">MapDefines.h</a></li>
+    <li class="footer">Generated on Mon Oct 14 2024 20:40:18 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

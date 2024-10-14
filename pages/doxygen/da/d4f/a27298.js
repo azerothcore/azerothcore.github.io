@@ -1,5 +1,5 @@
 var a27298 =
 [
-    [ "go_duskwither_spire_power_source", "da/d4f/a27298.html#aab69de16e8b744af2671e2ed882ee94a", null ],
-    [ "OnGossipHello", "da/d4f/a27298.html#a2c7fd017e7985b99bff187119157a041", null ]
+    [ "item_generic_limit_chance_above_60", "da/d4f/a27298.html#abc18809810f0a7668020d01c482be84b", null ],
+    [ "OnCastItemCombatSpell", "da/d4f/a27298.html#aa34809cfd53edb6a77d3fa415a079d72", null ]
 ];

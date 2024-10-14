@@ -1,6 +1,8 @@
 var a19798 =
 [
-    [ "npc_mimirons_infernoAI", "d7/d42/a19802.html", "d7/d42/a19802" ],
-    [ "npc_mimirons_inferno", "d0/d0d/a19798.html#a7a531a65a179b5d56c888c055b72d269", null ],
-    [ "GetAI", "d0/d0d/a19798.html#a69294c5e8f50727e5f1a6586a8a3682b", null ]
+    [ "npc_mechanoliftAI", "d0/d0d/a19798.html#ad772427e03c2bd2c3a51556b6e5968b5", null ],
+    [ "Reset", "d0/d0d/a19798.html#a8198e7db2c6f4f2ceec984cfd53982b1", null ],
+    [ "UpdateAI", "d0/d0d/a19798.html#a3f8634abde6b3aa00acf03c77df433be", null ],
+    [ "_evadeTimer", "d0/d0d/a19798.html#a53da6899ad0dcea569ca29f57e45bf61", null ],
+    [ "_startTimer", "d0/d0d/a19798.html#a9b1587bbadd8f0044e1d404d55b8ba1f", null ]
 ];

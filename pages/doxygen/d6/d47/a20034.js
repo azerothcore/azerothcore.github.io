@@ -1,8 +1,6 @@
 var a20034 =
 [
-    [ "OnApply", "d6/d47/a20034.html#a101aab87e9f45ebab1cbe77ecca65c5a", null ],
-    [ "OnRemove", "d6/d47/a20034.html#a4709f570f9014eb36bc8c65269470373", null ],
-    [ "PrepareAuraScript", "d6/d47/a20034.html#a6ac96ce73f9983915a05686eb5d411e7", null ],
-    [ "Register", "d6/d47/a20034.html#a7b4f44d86df652df78a10466bf64a2cf", null ],
-    [ "Validate", "d6/d47/a20034.html#a3b98409fa1ed8d4e53e526686bc25987", null ]
+    [ "npc_ulduar_flash_freezeAI", "d3/dd2/a20038.html", "d3/dd2/a20038" ],
+    [ "npc_ulduar_flash_freeze", "d6/d47/a20034.html#a0301ed1231d3b0d113e9fc9389e8f160", null ],
+    [ "GetAI", "d6/d47/a20034.html#a933f99c8d38ab98c8454919b6373bb41", null ]
 ];

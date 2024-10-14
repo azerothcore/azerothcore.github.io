@@ -1,6 +1,7 @@
 var a14186 =
 [
-    [ "HandleScript", "db/d1b/a14186.html#a465272dc4e693ab5ce5abd5a3905283b", null ],
-    [ "PrepareSpellScript", "db/d1b/a14186.html#a26b296c1c4d9f5193dc3773509267284", null ],
-    [ "Register", "db/d1b/a14186.html#aad66e4079ea9404b9057546d8959a395", null ]
+    [ "go_loosely_turned_soilAI", "dc/d98/a14190.html", "dc/d98/a14190" ],
+    [ "go_loosely_turned_soil", "db/d1b/a14186.html#a3b4d51e2b3a604e030962127269236f1", null ],
+    [ "GetAI", "db/d1b/a14186.html#acead5810a848f8837fa65af1f2ac00bd", null ],
+    [ "OnQuestReward", "db/d1b/a14186.html#a1ac57b34c5b3e21c033330eaeefaa6a8", null ]
 ];

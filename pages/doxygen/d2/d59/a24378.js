@@ -1,10 +1,9 @@
 var a24378 =
 [
-    [ "npc_pet_gen_plump_turkey", "d2/d59/a24378.html#acd5a9cb122cbf5a773461ce1027f28a1", null ],
-    [ "MovementInform", "d2/d59/a24378.html#af27c91388891add6d00e251bf3187743", null ],
-    [ "UpdateAI", "d2/d59/a24378.html#a93d2719bcc6a657a9a32cce06f566b19", null ],
-    [ "checkTimer", "d2/d59/a24378.html#af9e7339416ada0c3bb9829cbd8e1f5d3", null ],
-    [ "goGUID", "d2/d59/a24378.html#a5fa88e045430adea9e72a3744bf72780", null ],
-    [ "jumping", "d2/d59/a24378.html#a8486512b7594f2ce759fcb580f1baf34", null ],
-    [ "jumpTimer", "d2/d59/a24378.html#ad53a9abad41ab6a792a55b854155135d", null ]
+    [ "npc_pet_shaman_fire_elemental", "d2/d59/a24378.html#a3428642963fc9e7588ec92fd838f1af9", null ],
+    [ "InitializeAI", "d2/d59/a24378.html#aef4865f83ce0c73efe0c47a11ac87594", null ],
+    [ "JustEngagedWith", "d2/d59/a24378.html#ac274b9edb03ab13a8e95d8c4fe5055db", null ],
+    [ "UpdateAI", "d2/d59/a24378.html#a2280e5cc5187a91917a1e517e80e960d", null ],
+    [ "_events", "d2/d59/a24378.html#aa4578cdbe41d28e399247c84c9fe8049", null ],
+    [ "_initAttack", "d2/d59/a24378.html#a2df79acc05dd8489e9e994e044b45404", null ]
 ];

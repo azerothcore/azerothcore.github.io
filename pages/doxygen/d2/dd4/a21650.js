@@ -1,6 +1,6 @@
 var a21650 =
 [
-    [ "npc_dalaran_mageAI", "df/da4/a21654.html", "df/da4/a21654" ],
-    [ "npc_dalaran_mage", "d2/dd4/a21650.html#a764d637ab0c64e2a0cc0459269974d6d", null ],
-    [ "GetAI", "d2/dd4/a21650.html#ae2deef0546e2bf0df562e0a67b8b0b93", null ]
+    [ "npc_mindless_ghoulAI", "d2/dd4/a21650.html#a4cc0dbd4aa2366115348bc1db273a5e2", null ],
+    [ "CanAIAttack", "d2/dd4/a21650.html#a18fbc44ad760a69d952d003622ec75b2", null ],
+    [ "JustDied", "d2/dd4/a21650.html#a272067bef6dbab24024f7de990c10b64", null ]
 ];

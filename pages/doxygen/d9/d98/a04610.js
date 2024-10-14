@@ -1,5 +1,5 @@
 var a04610 =
 [
-    [ "AsyncAcceptor", "da/d0b/a28338.html", "da/d0b/a28338" ],
-    [ "ACORE_MAX_LISTEN_CONNECTIONS", "d9/d98/a04610.html#af747a74d5d7546f9c862f3516a0c028f", null ]
+    [ "AddonHandler", "d5/d59/a09258.html", "d5/d59/a09258" ],
+    [ "sAddOnHandler", "d9/d98/a04610.html#a53c18d341aaa47d117be75333e4ab43d", null ]
 ];

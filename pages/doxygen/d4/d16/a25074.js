@@ -1,7 +1,7 @@
 var a25074 =
 [
-    [ "HandleDummy", "d4/d16/a25074.html#a582208e608c9fdca7464b817c76c13b3", null ],
-    [ "PrepareSpellScript", "d4/d16/a25074.html#ac7abb7e01362a3333c0d73cd19dcee30", null ],
-    [ "Register", "d4/d16/a25074.html#a3882606b9e9201163cf76cb20b8e6364", null ],
-    [ "Validate", "d4/d16/a25074.html#a12a1cb4b6131d5959f6f541da5e8fc00", null ]
+    [ "CheckIfLanceEquipped", "d4/d16/a25074.html#aae1fe4d0329b7a2db5e4f2a28e3f04c5", null ],
+    [ "PrepareSpellScript", "d4/d16/a25074.html#a2af9ee2ccd34c97734c58bfcbb83c8b5", null ],
+    [ "Register", "d4/d16/a25074.html#a4421ceaedce16777f8f04b9c40855782", null ],
+    [ "Validate", "d4/d16/a25074.html#ab0908d7a15e7554c735d8e5554f7cd65", null ]
 ];

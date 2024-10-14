@@ -1,6 +1,6 @@
 var a17622 =
 [
-    [ "npc_darnavanAI", "d6/dc9/a17626.html", "d6/dc9/a17626" ],
-    [ "npc_darnavan", "d6/d62/a17622.html#ac358ca123155165395fa5f7ec02c9dab", null ],
-    [ "GetAI", "d6/d62/a17622.html#a9eeb6e5fba1e6d671af1f23f443c509a", null ]
+    [ "HandleScriptEffect", "d6/d62/a17622.html#ac6017cbe86b328aef00f707051c67e5f", null ],
+    [ "PrepareSpellScript", "d6/d62/a17622.html#a3e21794652b0ffea67571f9b294b4961", null ],
+    [ "Register", "d6/d62/a17622.html#a4d070dff98fed842e0a3839e918f7c5a", null ]
 ];

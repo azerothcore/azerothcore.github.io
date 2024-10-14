@@ -1,6 +1,5 @@
 var a23250 =
 [
-    [ "go_ahune_ice_stone", "d3/dc5/a23250.html#ab7b665f01da80751ea97705c5113bde7", null ],
-    [ "GossipSelect", "d3/dc5/a23250.html#aadb4db41ed84922c0a2d0463b8616876", null ],
-    [ "_instance", "d3/dc5/a23250.html#a43651f471ac777b59fb8ba67b830cd35", null ]
+    [ "boss_quagmirran", "d3/dc5/a23250.html#a7f6289b86216b052f434a1417023e22c", null ],
+    [ "JustEngagedWith", "d3/dc5/a23250.html#a28253b6653bd2e26e7f246c71a88b625", null ]
 ];

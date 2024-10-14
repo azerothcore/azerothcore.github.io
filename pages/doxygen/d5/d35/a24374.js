@@ -1,8 +1,9 @@
 var a24374 =
 [
-    [ "npc_pet_gen_wind_rider_cub", "d5/d35/a24374.html#a17e1f3155b9a9864459e48d1cd11c6a6", null ],
-    [ "UpdateAI", "d5/d35/a24374.html#a534d122522d553e106e6c7729d6c55db", null ],
-    [ "checkTimer", "d5/d35/a24374.html#a39fcfc5f5d9a630180713512db778b32", null ],
-    [ "checkTimer2", "d5/d35/a24374.html#aabeaf7a9b5b77df540e1111950860e98", null ],
-    [ "isFlying", "d5/d35/a24374.html#a57124f8172bd15a5e6c708edff41dc2f", null ]
+    [ "npc_pet_shaman_earth_elemental", "d5/d35/a24374.html#a07f3792cb3b5264d209f1b4726867773", null ],
+    [ "InitializeAI", "d5/d35/a24374.html#a8bbca6686ae324a50cd1598125280446", null ],
+    [ "JustEngagedWith", "d5/d35/a24374.html#ad9b48901b1d96e59ce60af6411a8baaf", null ],
+    [ "UpdateAI", "d5/d35/a24374.html#ab28951b483cab31bf5672fc74e7323e1", null ],
+    [ "_events", "d5/d35/a24374.html#ab7f72d0d574322965f1d0b23f144f1be", null ],
+    [ "_initAttack", "d5/d35/a24374.html#a2af73c97ef60b5b0ade26c9760b8b379", null ]
 ];

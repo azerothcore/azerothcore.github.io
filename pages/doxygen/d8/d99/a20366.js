@@ -1,9 +1,5 @@
 var a20366 =
 [
-    [ "HandleEffectPeriodic", "d8/d99/a20366.html#ae3cb0f7a3da5a72eaa59350d7df13ffc", null ],
-    [ "Load", "d8/d99/a20366.html#a60deabce505dd3993dca0e71402dc190", null ],
-    [ "PrepareAuraScript", "d8/d99/a20366.html#a9a2fae625718f854ec5d2587a01a2da7", null ],
-    [ "Register", "d8/d99/a20366.html#a524c071390365b7dab59bc7a79b50f15", null ],
-    [ "_lastMSTime", "d8/d99/a20366.html#a013e9e0eef93583722f7d347c2ebbc49", null ],
-    [ "_lastOrientation", "d8/d99/a20366.html#a2537b325ff57b867092f3d9a1bd0fa8b", null ]
+    [ "achievement_mimiron_set_up_us_the_bomb_13", "d8/d99/a20366.html#a74b0cafbc4be4261c8f8f2af3671cbd9", null ],
+    [ "OnCheck", "d8/d99/a20366.html#ac91196d094f159932ad871ffa9c0f405", null ]
 ];

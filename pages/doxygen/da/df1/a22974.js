@@ -1,6 +1,6 @@
 var a22974 =
 [
-    [ "HandleSchoolDamage", "da/df1/a22974.html#ab105ff1efd0fe20585ac3dc6c60f81a2", null ],
-    [ "PrepareSpellScript", "da/df1/a22974.html#a0296aa3d00d0d12e213d95b8520c50dc", null ],
-    [ "Register", "da/df1/a22974.html#a4cd7135ff9e4ef605635f1eccc01ba65", null ]
+    [ "HandleScriptEffect", "da/df1/a22974.html#a2b46490b70bf93effb7379686e648618", null ],
+    [ "PrepareSpellScript", "da/df1/a22974.html#a5030d071372ef12663f6a75be637476e", null ],
+    [ "Register", "da/df1/a22974.html#aa15afaa9990f29a9e71c1d6395d5de12", null ]
 ];

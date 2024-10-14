@@ -1,17 +1,21 @@
 var a01106 =
 [
-    [ "KeyFrame", "d4/df9/a09556.html", "d4/df9/a09556" ],
-    [ "TransportTemplate", "d1/db9/a09560.html", "d1/db9/a09560" ],
-    [ "TransportAnimation", "dd/d88/a09564.html", "dd/d88/a09564" ],
-    [ "TransportMgr", "d9/dfc/a09568.html", "d9/dfc/a09568" ],
-    [ "sTransportMgr", "da/d4e/a01106.html#a8490de0c5d2ca76c3c17a5f9241ad635", null ],
-    [ "KeyFrameVec", "da/d4e/a01106.html#a933345ef2cba8f20007b633f8bce737c", null ],
-    [ "TransportAnimationContainer", "da/d4e/a01106.html#a66190b362b4aab515b7cf6974acdc3ee", null ],
-    [ "TransportInstanceMap", "da/d4e/a01106.html#a5d0b038ae19d95dc969ce0306e61df37", null ],
-    [ "TransportMap", "da/d4e/a01106.html#a41b04a0a994912eda6d213e37d97a0a9", null ],
-    [ "TransportPathContainer", "da/d4e/a01106.html#a7905b31432c2140de30ffc9363c3e9b9", null ],
-    [ "TransportPathRotationContainer", "da/d4e/a01106.html#a58adfcebbe67029f647a3db4897a6558", null ],
-    [ "TransportSet", "da/d4e/a01106.html#abdd9e6bc913517c5ebd7f5e99f699e1e", null ],
-    [ "TransportSpline", "da/d4e/a01106.html#a05990a03a3ab902d6d79e9f33385b605", null ],
-    [ "TransportTemplates", "da/d4e/a01106.html#a95da4f79fff198b8042b47657f7ccb66", null ]
+    [ "AccountActionIpLogger", "d6/d22/a26930.html", "d6/d22/a26930" ],
+    [ "CharacterActionIpLogger", "d1/dca/a26934.html", "d1/dca/a26934" ],
+    [ "CharacterDeleteActionIpLogger", "dd/d99/a26938.html", "dd/d99/a26938" ],
+    [ "IPLoggingTypes", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137b", [
+      [ "ACCOUNT_LOGIN", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137ba8f9e397f01ecf6030118a21051f37eb8", null ],
+      [ "ACCOUNT_FAIL_LOGIN", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137baf5dfdd830d71ca55c98a2a6bbc49895f", null ],
+      [ "ACCOUNT_CHANGE_PW", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137ba38e1a216027e5110edeced016ff5c059", null ],
+      [ "ACCOUNT_CHANGE_PW_FAIL", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137baa0990c000cd17b2abe8225b66cac6b53", null ],
+      [ "ACCOUNT_CHANGE_EMAIL", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137baf435090459154eb1ba7b8c994842b06c", null ],
+      [ "ACCOUNT_CHANGE_EMAIL_FAIL", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137ba4bd2be99e9a5252be0bbf26a71541e30", null ],
+      [ "CHARACTER_CREATE", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137ba64dc5a829a5cecf5f19b805d05a32b85", null ],
+      [ "CHARACTER_LOGIN", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137ba69b7162ca378f801be6e30e2e4b86363", null ],
+      [ "CHARACTER_LOGOUT", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137ba742b5af30e35f2927eaa20bdf504b607", null ],
+      [ "CHARACTER_DELETE", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137ba04c86cce0401c766b99edbef52a91162", null ],
+      [ "CHARACTER_FAILED_DELETE", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137baf8aedeaf82227741e50fdf6be12a35e7", null ],
+      [ "UNKNOWN_ACTION", "da/d4e/a01106.html#a3b67d8dbf539fa5519b3e33da9d0137bae16d79bf07a3994731f4ac1a6ece5ec8", null ]
+    ] ],
+    [ "AddSC_action_ip_logger", "da/d4e/a01106.html#a530be5efb251d5ca58e97804e48ad953", null ]
 ];

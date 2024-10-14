@@ -1,8 +1,6 @@
 var a18270 =
 [
-    [ "npc_lk_spirit_bombAI", "d9/dbe/a18270.html#a366fb54e68c0e603000183cd68daf6b7", null ],
-    [ "IsSummonedBy", "d9/dbe/a18270.html#a9b3de8c6e2006a19ee1289455163f52c", null ],
-    [ "MovementInform", "d9/dbe/a18270.html#a0e4aa94a199439962095c1d2026b2a5f", null ],
-    [ "UpdateAI", "d9/dbe/a18270.html#a61b4f7c3a1dd9b9b2850b05f2117e55a", null ],
-    [ "timer", "d9/dbe/a18270.html#aa0d370113b753127d4f0fd7bd3a3ba11", null ]
+    [ "npc_green_dragon_combat_triggerAI", "d3/d96/a18274.html", "d3/d96/a18274" ],
+    [ "npc_green_dragon_combat_trigger", "d9/dbe/a18270.html#acec675494f5e5e9609bf34b7f25cb569", null ],
+    [ "GetAI", "d9/dbe/a18270.html#a945b7cd0084873c17d52b3c2cc3ede22", null ]
 ];

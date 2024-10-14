@@ -1,8 +1,6 @@
 var a15214 =
 [
-    [ "npc_prospector_remtravelAI", "d5/deb/a15214.html#a61f26115382f16f3d65c3d4e1c720f02", null ],
-    [ "JustEngagedWith", "d5/deb/a15214.html#adf388d36c17b69f881e3cb92d9b78b9b", null ],
-    [ "JustSummoned", "d5/deb/a15214.html#a6b3dd1552b5313dd04d07dc80eef06fe", null ],
-    [ "Reset", "d5/deb/a15214.html#ac145a4a4a24be227c31fcc5aefd922eb", null ],
-    [ "WaypointReached", "d5/deb/a15214.html#a7b02b22e9dc63e1fad6b15a44b2ff9b6", null ]
+    [ "npc_troll_volunteerAI", "d4/d27/a15218.html", "d4/d27/a15218" ],
+    [ "npc_troll_volunteer", "d5/deb/a15214.html#a3c5eb7108dc0480e07b77eceb01cd18a", null ],
+    [ "GetAI", "d5/deb/a15214.html#aba0208b0910ace75686941c462ecca56", null ]
 ];

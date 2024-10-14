@@ -1,6 +1,6 @@
 var a17214 =
 [
-    [ "KnockIntoAir", "d2/d39/a17214.html#a1f9fb1f258613ca6657abba26969961f", null ],
-    [ "PrepareSpellScript", "d2/d39/a17214.html#acf66a4b14ffce76b6c8dc7cc5906f229", null ],
-    [ "Register", "d2/d39/a17214.html#a35a7758630c1769228fedff84ad929e8", null ]
+    [ "FilterTargets", "d2/d39/a17214.html#a59255a2cee0f9d8a75ca183647851779", null ],
+    [ "PrepareSpellScript", "d2/d39/a17214.html#af8d1cc9c709aeb3a68d1f452bb605c71", null ],
+    [ "Register", "d2/d39/a17214.html#a6b6dbeaa8feb8eac4441a87cdf371a36", null ]
 ];

@@ -1,6 +1,7 @@
 var a20598 =
 [
-    [ "boss_xt002AI", "dd/df5/a20602.html", "dd/df5/a20602" ],
-    [ "boss_xt002", "d4/d6a/a20598.html#aebd7e513b3bef6a25ad0f9766d18174e", null ],
-    [ "GetAI", "d4/d6a/a20598.html#a146e4a10da7d81213e7f63d6e86c79f2", null ]
+    [ "FilterTargets", "d4/d6a/a20598.html#a582691eca81b6db6d78ca925ad8fb084", null ],
+    [ "PrepareSpellScript", "d4/d6a/a20598.html#a28ce9d2750c79b2b0061b00df5ae9e8b", null ],
+    [ "RecalculateDamage", "d4/d6a/a20598.html#a02c1af0414de344056b2375488f23c01", null ],
+    [ "Register", "d4/d6a/a20598.html#a1e030067944878000b731edf456d6bc8", null ]
 ];

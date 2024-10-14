@@ -1,7 +1,7 @@
 var a26850 =
 [
-    [ "OnProc", "d7/df5/a26850.html#a7ab183d734c543be2866c57f1e5cc508", null ],
-    [ "PrepareAuraScript", "d7/df5/a26850.html#a31118cda9f29318f4620caf38c09522a", null ],
-    [ "Register", "d7/df5/a26850.html#ac27f99aafa92ae85a247c6f25ece8c7b", null ],
-    [ "Validate", "d7/df5/a26850.html#aa193bddd2ba9efe70343c5501d737fa4", null ]
+    [ "HandleScript", "d7/df5/a26850.html#ab3f88b7443eb4f32339c3b687431fda2", null ],
+    [ "PrepareSpellScript", "d7/df5/a26850.html#ab363d596d2d1e030f0cc07126b40e921", null ],
+    [ "Register", "d7/df5/a26850.html#ab9041b811e80e220828d5db59b724682", null ],
+    [ "Validate", "d7/df5/a26850.html#a1b9a4c78a43cf406f1db75c518a343ea", null ]
 ];

@@ -1,6 +1,8 @@
 var a18362 =
 [
-    [ "npc_blazing_skeletonAI", "da/d0e/a18366.html", "da/d0e/a18366" ],
-    [ "npc_blazing_skeleton", "d2/dba/a18362.html#a158720704479946048472ffe0beec492", null ],
-    [ "GetAI", "d2/dba/a18362.html#af29ea4620ebafaa4d47ec9f37758af77", null ]
+    [ "FilterTargets", "d2/dba/a18362.html#aed8b741160cbf50dde84cf059c8b52cb", null ],
+    [ "HandleForceCast", "d2/dba/a18362.html#ae783cf255be823bf7c9125f288479e97", null ],
+    [ "Load", "d2/dba/a18362.html#ac8f92e9284abc56d55ecf3aa73d350f8", null ],
+    [ "PrepareSpellScript", "d2/dba/a18362.html#a68074978fe2c1b137c6ddfd7b9082bfc", null ],
+    [ "Register", "d2/dba/a18362.html#a454a8909be4bb85f255ea696041ea447", null ]
 ];

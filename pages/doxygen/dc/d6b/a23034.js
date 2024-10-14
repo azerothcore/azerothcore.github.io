@@ -1,7 +1,6 @@
 var a23034 =
 [
-    [ "HandleScriptEffect", "dc/d6b/a23034.html#a0038e566bc5054e4208fd727fcc266fa", null ],
-    [ "PrepareSpellScript", "dc/d6b/a23034.html#abb661bacf4cec1f2e15f4aeda2ab991e", null ],
-    [ "Register", "dc/d6b/a23034.html#a416b811c2676c598df0ac0e5906a94d3", null ],
-    [ "Validate", "dc/d6b/a23034.html#a11e82a2b40dbbd9949a1dda3bd715679", null ]
+    [ "OnPeriodic", "dc/d6b/a23034.html#a769d30c78e4feaa9cc0c581af5264c02", null ],
+    [ "PrepareAuraScript", "dc/d6b/a23034.html#a076e4b548de5cad64b7d81ddd8c5194f", null ],
+    [ "Register", "dc/d6b/a23034.html#af1c2b7baf0ff7164cafab8f1a53bbb18", null ]
 ];

@@ -1,5 +1,7 @@
 var a12958 =
 [
-    [ "AreaTrigger_at_sunwell_madrigosa", "dd/d57/a12958.html#a6202301b3ce2dd20df77e2fd3b2f6042", null ],
-    [ "OnTrigger", "dd/d57/a12958.html#a459fbbd650883aa69ea9a21cf61370f7", null ]
+    [ "HandleScriptEffect", "dd/d57/a12958.html#a703ac8467126f5c2aee393fcf2400ffc", null ],
+    [ "PrepareSpellScript", "dd/d57/a12958.html#a17c49de5f6a37ff83126398d96b43a51", null ],
+    [ "Register", "dd/d57/a12958.html#ae205d84cdbe3fbfa519e7d1c8f2ffe16", null ],
+    [ "Validate", "dd/d57/a12958.html#a17d53f598be9fe9e9790bb96dfcb4891", null ]
 ];

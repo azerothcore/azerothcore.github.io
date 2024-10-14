@@ -1,6 +1,6 @@
 var a00626 =
 [
-    [ "MapScript< BattlegroundMap >", "d6/dfa/a00626.html#a37068ff91511f7df359c3cf9be0e8d72", null ],
-    [ "MapScript< InstanceMap >", "d6/dfa/a00626.html#aad36f2a434a53db1767a65fa0a1dffdc", null ],
-    [ "MapScript< Map >", "d6/dfa/a00626.html#aacb4fdedfc86aea6c855e3be41e0c6e1", null ]
+    [ "event_commandscript", "d5/d08/a11318.html", "d5/d08/a11318" ],
+    [ "EventEntry", "d6/dfa/a00626.html#accd9dac141ffd4618bb7d3f69e8eb716", null ],
+    [ "AddSC_event_commandscript", "d6/dfa/a00626.html#a4f3834f706dcb17ca67ce6513f6aecad", null ]
 ];

@@ -1,7 +1,7 @@
 var a26754 =
 [
-    [ "HandleTeleport", "d3/d7b/a26754.html#a7ba7b82988dab5fd8e691b5b87c3d959", null ],
-    [ "PrepareAuraScript", "d3/d7b/a26754.html#a2307b7eccd4dd08d7e97ece704ddc4fb", null ],
-    [ "Register", "d3/d7b/a26754.html#a82432a4448d8c23ea2a39b4b26eb1b58", null ],
-    [ "Validate", "d3/d7b/a26754.html#adabf22bd591a10662ffbf0354a18a936", null ]
+    [ "HandleApply", "d3/d7b/a26754.html#a046abc4b8afd26d13bcb7140165aed80", null ],
+    [ "HandleRemove", "d3/d7b/a26754.html#ad35716d4210572057fe67d426849931a", null ],
+    [ "PrepareAuraScript", "d3/d7b/a26754.html#a9af96871b8b7ac19de01e316f4350ebf", null ],
+    [ "Register", "d3/d7b/a26754.html#a37c4c881c563882fb72693babe545fc4", null ]
 ];

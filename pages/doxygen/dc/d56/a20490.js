@@ -1,6 +1,12 @@
 var a20490 =
 [
-    [ "boss_thorimAI", "de/d35/a20494.html", "de/d35/a20494" ],
-    [ "boss_thorim", "dc/d56/a20490.html#a23a52a05aea5092cef8fe47be28b4bfb", null ],
-    [ "GetAI", "dc/d56/a20490.html#a70895451317569f50adc11474e653515", null ]
+    [ "boss_thorim_start_npcsAI", "dc/d56/a20490.html#a9602af25cbe9d4b3fe8534093c237a20", null ],
+    [ "DamageTaken", "dc/d56/a20490.html#a9a848662671380a726eb7288c6507f68", null ],
+    [ "JustDied", "dc/d56/a20490.html#a3c4b8928e1e0264e88eb49d930529c41", null ],
+    [ "JustEngagedWith", "dc/d56/a20490.html#ab6c0a8ae05a408cafb8ffe359d4d0d4e", null ],
+    [ "Reset", "dc/d56/a20490.html#aedf26a4b5baaf464d70316ce79ec32b3", null ],
+    [ "UpdateAI", "dc/d56/a20490.html#a5a84827d8d85e3a9b8e374da68d2c7ed", null ],
+    [ "_isCaster", "dc/d56/a20490.html#a6b2729ab9bce244da0a7d7fe6a4280f7", null ],
+    [ "_playerAttack", "dc/d56/a20490.html#adb868f1910859c79625cfb7f9a2b4101", null ],
+    [ "events", "dc/d56/a20490.html#a8dc5693814c49003727204623cef29b7", null ]
 ];

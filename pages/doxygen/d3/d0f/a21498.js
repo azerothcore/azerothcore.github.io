@@ -1,9 +1,14 @@
 var a21498 =
 [
-    [ "npc_captured_beryl_sorcererAI", "d3/d0f/a21498.html#a3c3f47022aee418f228803a2504470a3", null ],
-    [ "Initialize", "d3/d0f/a21498.html#a98b2ff2f0e152a41106eaace5273aa69", null ],
-    [ "MoveInLineOfSight", "d3/d0f/a21498.html#a4f7edf7bc7480bf0c9f6aec113b2e058", null ],
-    [ "Reset", "d3/d0f/a21498.html#ac96af1fd018e88950d1c58562dffdb83", null ],
-    [ "UpdateAI", "d3/d0f/a21498.html#a1bbefa59abce0c7b3d7b343ddc467c98", null ],
-    [ "_events", "d3/d0f/a21498.html#a0ba1f7ffa792c93ccd4df8ec2c80fb42", null ]
+    [ "npc_hidden_cultistAI", "d3/d0f/a21498.html#a970aaa2401664337147696624cc8cac4", null ],
+    [ "AttackPlayer", "d3/d0f/a21498.html#a55e3b02d05f35d134fc605a13efe9018", null ],
+    [ "Initialize", "d3/d0f/a21498.html#ab9199126a5a19cc3c6dc612bc428d79c", null ],
+    [ "PreScript", "d3/d0f/a21498.html#a92be5361e2b28152adcca0629b286bb8", null ],
+    [ "Reset", "d3/d0f/a21498.html#afe38e448d86cdf910870d72a3890ae1f", null ],
+    [ "sGossipSelect", "d3/d0f/a21498.html#adf6d85bc5a32c8bd7c125d24f67411d9", null ],
+    [ "UpdateAI", "d3/d0f/a21498.html#a0bba4d10439d47d44ff856c7fec18595", null ],
+    [ "_emoteState", "d3/d0f/a21498.html#adb4e884787dc480358c5be22d276ec49", null ],
+    [ "_events", "d3/d0f/a21498.html#ab0494e33d16a43aa1426784d1882e41c", null ],
+    [ "_npcFlags", "d3/d0f/a21498.html#aea867d06cb737e2a44445c2c8c7d6e45", null ],
+    [ "_playerGUID", "d3/d0f/a21498.html#ac7ecf525ed8c0d2a3d00b34f7afdbf18", null ]
 ];

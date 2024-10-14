@@ -1,7 +1,6 @@
 var a23866 =
 [
-    [ "HandleDamage", "d2/ded/a23866.html#add7e78111217d00bfa3dfa5b3eb490f9", null ],
-    [ "HandleTargets", "d2/ded/a23866.html#ac9e455d4ef5cc7b7ce424b70b4387c78", null ],
-    [ "PrepareSpellScript", "d2/ded/a23866.html#a46b62a09ea23cb102b0e5cf075c727d4", null ],
-    [ "Register", "d2/ded/a23866.html#a8873614ae22c908cb2cf49129fc53be2", null ]
+    [ "npc_deaths_fel_cannonAI", "de/d13/a23870.html", "de/d13/a23870" ],
+    [ "npc_deaths_fel_cannon", "d2/ded/a23866.html#a87ecaca75061928600b5114d3913dd26", null ],
+    [ "GetAI", "d2/ded/a23866.html#a4cf91cd1f28637f359e06bccd30e0338", null ]
 ];

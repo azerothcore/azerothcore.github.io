@@ -1,8 +1,6 @@
 var a19042 =
 [
-    [ "HandleAfterCast", "d9/d94/a19042.html#ac816f81a668ac3018be8f5dc4698039b", null ],
-    [ "HandleDummy", "d9/d94/a19042.html#a3009faa525c22779a0b2534b96821cfd", null ],
-    [ "PrepareSpellScript", "d9/d94/a19042.html#aca38f23f080314ab73ec2494bf877716", null ],
-    [ "Register", "d9/d94/a19042.html#aa87e57dabec6e83029f4dd84913f22ca", null ],
-    [ "Validate", "d9/d94/a19042.html#af945e399992deb3aef5c81ad393ee50f", null ]
+    [ "npc_power_sparkAI", "d8/d00/a19046.html", "d8/d00/a19046" ],
+    [ "npc_power_spark", "d9/d94/a19042.html#a9efd2810feb5f90f9f12f51ec7282410", null ],
+    [ "GetAI", "d9/d94/a19042.html#a573198b86697d222c693581bf430453f", null ]
 ];

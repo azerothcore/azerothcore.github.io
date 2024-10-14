@@ -1,8 +1,9 @@
 var a16806 =
 [
-    [ "npc_hor_raging_ghoulAI", "d6/da7/a16806.html#ac4b2b3acf8a7acda73c7158f1565a274", null ],
-    [ "JustDied", "d6/da7/a16806.html#a70e581c9b3f7d88d497c1540ac9ca04c", null ],
-    [ "Reset", "d6/da7/a16806.html#aa52576d94e230797209dfc938d62187f", null ],
-    [ "UpdateAI", "d6/da7/a16806.html#ac7c8571eac32f722a5fb0c28092b7e8f", null ],
-    [ "leaped", "d6/da7/a16806.html#a12f6e6d5911b2b8b9caa01a9a83570bc", null ]
+    [ "FilterTargets", "d6/da7/a16806.html#aefebf504286394cf3caffa566543e4a4", null ],
+    [ "FilterTargetsNext", "d6/da7/a16806.html#a356b6ace97d07df22a232d2287072b5e", null ],
+    [ "PrepareSpellScript", "d6/da7/a16806.html#a893e0eb620e19909b2f2a715ea946f6b", null ],
+    [ "Register", "d6/da7/a16806.html#a962651920a94190f4864a3b1c7fcd1d3", null ],
+    [ "Unload", "d6/da7/a16806.html#a6adc9b6ca86da6cd9465fa0da150dcca", null ],
+    [ "targetList", "d6/da7/a16806.html#a3c839185938e0b67b97f652d1d15e213", null ]
 ];

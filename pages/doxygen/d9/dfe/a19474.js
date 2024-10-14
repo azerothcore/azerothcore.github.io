@@ -1,6 +1,6 @@
 var a19474 =
 [
-    [ "boss_maiden_of_griefAI", "d6/ddc/a19478.html", "d6/ddc/a19478" ],
-    [ "boss_maiden_of_grief", "d9/dfe/a19474.html#a8361e4961ac1da09b803ca9e7fc67f95", null ],
-    [ "GetAI", "d9/dfe/a19474.html#af8d2e6392a0c73add801910945b2558e", null ]
+    [ "dark_rune_protectorsAI", "d6/ddc/a19478.html", "d6/ddc/a19478" ],
+    [ "dark_rune_protectors", "d9/dfe/a19474.html#a14225a2369a8deea416fc640a2d7b075", null ],
+    [ "GetAI", "d9/dfe/a19474.html#a359e4049b7ec828177d9a36d23e9b4ef", null ]
 ];

@@ -1,12 +1,6 @@
 var a18334 =
 [
-    [ "npc_the_lich_king_controllerAI", "d6/d73/a18334.html#a211c370e9c370e00fba3c83e51738886", null ],
-    [ "AttackStart", "d6/d73/a18334.html#a58e11746c14f6bbb1b5c56c1d0136d9f", null ],
-    [ "DoAction", "d6/d73/a18334.html#aaf940a0ca812d84dbde81fc7e41feaca", null ],
-    [ "JustSummoned", "d6/d73/a18334.html#aa610e24316505165cbb826ff5bece5c5", null ],
-    [ "MoveInLineOfSight", "d6/d73/a18334.html#a0ee33ab5733c12163e92213376e893e4", null ],
-    [ "Reset", "d6/d73/a18334.html#a2c4410cc2ad995452f742f79e8e4af8b", null ],
-    [ "UpdateAI", "d6/d73/a18334.html#a34a0295ad1a45a9bc060ff8595c22e14", null ],
-    [ "_events", "d6/d73/a18334.html#a90c3d818318004c7c21ec66d4d080615", null ],
-    [ "_instance", "d6/d73/a18334.html#a480a284881ba5f56bc6222607bd01a76", null ]
+    [ "npc_gluttonous_abominationAI", "da/df2/a18338.html", "da/df2/a18338" ],
+    [ "npc_gluttonous_abomination", "d6/d73/a18334.html#a895d1afcfc62bcaac6cc0d20465f1e7a", null ],
+    [ "GetAI", "d6/d73/a18334.html#aedbd808da5e8ea0e2111e78be9d846ce", null ]
 ];

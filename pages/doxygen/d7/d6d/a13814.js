@@ -1,5 +1,6 @@
 var a13814 =
 [
-    [ "at_zulgurub_temple_speech", "d7/d6d/a13814.html#ab727ad7cb7f0a0e8309bbab233766cde", null ],
-    [ "_OnTrigger", "d7/d6d/a13814.html#afd42cd408df7562a9dcd91e33750f3d4", null ]
+    [ "HandleOnHit", "d7/d6d/a13814.html#a76b09288d14d399735250607e2105eb3", null ],
+    [ "PrepareSpellScript", "d7/d6d/a13814.html#a2270ce546ae286ffa701d094df591aa2", null ],
+    [ "Register", "d7/d6d/a13814.html#a710f2a60bf6ae00909d279b98ac6b7d6", null ]
 ];

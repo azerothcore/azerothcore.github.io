@@ -1,7 +1,6 @@
 var a14022 =
 [
-    [ "FilterTargets", "d0/dcb/a14022.html#a3498c9eb96bf1a6a85ded114e995850c", null ],
-    [ "HandleDummyEffect", "d0/dcb/a14022.html#a3985ca8b79a234e44d9f46ffe6d5b232", null ],
-    [ "PrepareSpellScript", "d0/dcb/a14022.html#a03f752d4d4762698e5777a4ae0e395cf", null ],
-    [ "Register", "d0/dcb/a14022.html#a9af46e5f2fdb4719d65bb96f2b68a7f8", null ]
+    [ "go_direbrew_mole_machineAI", "d0/df0/a14026.html", "d0/df0/a14026" ],
+    [ "go_direbrew_mole_machine", "d0/dcb/a14022.html#a759d291a5be227d8beae3bbc779e56f4", null ],
+    [ "GetAI", "d0/dcb/a14022.html#a793e5e544664d6c2c3897161c9cccbbb", null ]
 ];

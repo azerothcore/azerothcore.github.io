@@ -1,6 +1,6 @@
 var a24254 =
 [
-    [ "HandleSendEvent", "dd/dd2/a24254.html#a698e367b59ce770a9b4d9fe6890edf46", null ],
-    [ "PrepareSpellScript", "dd/dd2/a24254.html#aed8815b1d068ba04f12c7714a64af769", null ],
-    [ "Register", "dd/dd2/a24254.html#aa55fa06e76b1f34e319e16984405ed20", null ]
+    [ "npc_pet_dk_ebon_gargoyleAI", "de/d7b/a24258.html", "de/d7b/a24258" ],
+    [ "npc_pet_dk_ebon_gargoyle", "dd/dd2/a24254.html#ae4dcaff120a52c20a8b73d97a08604d7", null ],
+    [ "GetAI", "dd/dd2/a24254.html#a19ff9fd627aab738c91ce23cf6acfffd", null ]
 ];

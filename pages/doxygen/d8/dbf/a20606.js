@@ -1,6 +1,8 @@
 var a20606 =
 [
-    [ "npc_xt002_heartAI", "d2/d36/a20610.html", "d2/d36/a20610" ],
-    [ "npc_xt002_heart", "d8/dbf/a20606.html#ab914ce1e945080b873cf6f93e3a6a32c", null ],
-    [ "GetAI", "d8/dbf/a20606.html#af59c6623b97d1adff765e8ba4958d482", null ]
+    [ "OnPeriodic", "d8/dbf/a20606.html#aa49d1186ca6f5cdd628728a8a30c06a0", null ],
+    [ "OnRemove", "d8/dbf/a20606.html#ad3a81506d71ed3d6ddffce7d8f902eb4", null ],
+    [ "PrepareAuraScript", "d8/dbf/a20606.html#a63b654cf540e331e4d2b4f4ece5c1fcc", null ],
+    [ "Register", "d8/dbf/a20606.html#a004ba2e0e83a14bef3cae208a45f222b", null ],
+    [ "Validate", "d8/dbf/a20606.html#aa56622a1e57c157260940023a6c70a35", null ]
 ];

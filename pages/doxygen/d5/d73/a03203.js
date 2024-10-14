@@ -1,5 +1,5 @@
 var a03203 =
 [
-    [ "bf_commandscript", "d8/dc5/a11274.html", "d8/dc5/a11274" ],
-    [ "AddSC_bf_commandscript", "d5/d73/a03203.html#a55cfeb06fb5af5d31e3c2627d0db8da8", null ]
+    [ "GroupMgr", "d4/d14/a09190.html", "d4/d14/a09190" ],
+    [ "sGroupMgr", "d5/d73/a03203.html#a9b001b22670103435cf11551af9fa71e", null ]
 ];

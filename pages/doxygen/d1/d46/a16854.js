@@ -1,18 +1,15 @@
 var a16854 =
 [
-    [ "boss_garfrostAI", "d1/d46/a16854.html#af9f0a6bc8b982b025312d6b2c1f91549", null ],
-    [ "DamageTaken", "d1/d46/a16854.html#a7a033f54f2c994c74b7125fb549af513", null ],
-    [ "EnterEvadeMode", "d1/d46/a16854.html#acca25c3bf34760ed1f0e451d8d304ab6", null ],
-    [ "JustDied", "d1/d46/a16854.html#a6439d3163c49973b36ae10c85b9dd11e", null ],
-    [ "JustEngagedWith", "d1/d46/a16854.html#a06e1b8d8e0b1f0fd5fac0b2a4bad4ad6", null ],
-    [ "KilledUnit", "d1/d46/a16854.html#af3751410e925a20c21b282d1b2de3bf3", null ],
-    [ "MovementInform", "d1/d46/a16854.html#aadebdb2dd4402be150711f98dfab3f5f", null ],
-    [ "Reset", "d1/d46/a16854.html#a916fd78cf3fd309ab8b13c96325002f2", null ],
-    [ "SetData", "d1/d46/a16854.html#a3563e70e731836857837b1d4ac135130", null ],
-    [ "SpellHitTarget", "d1/d46/a16854.html#ab7a4941d3d4565215ab3ac200ee1d534", null ],
-    [ "UpdateAI", "d1/d46/a16854.html#a27cf76c48504dfb21f1a4a0caf9dd4cb", null ],
-    [ "bCanSayBoulderHit", "d1/d46/a16854.html#a587196314c341334418ea19c7f9ea597", null ],
-    [ "events", "d1/d46/a16854.html#addafeb61c54f95e71d9c45de3bddd25b", null ],
-    [ "phase", "d1/d46/a16854.html#a917a6a57e8c55b9be92f01e2e7422508", null ],
-    [ "pInstance", "d1/d46/a16854.html#a57ded0b0c7085ea978c01efa28e7d096", null ]
+    [ "npc_pos_leaderAI", "d1/d46/a16854.html#a21973bccde394785f8619df7cae5270b", null ],
+    [ "AttackStart", "d1/d46/a16854.html#a6dc4161441752b8ea9baab642d6a0684", null ],
+    [ "JustSummoned", "d1/d46/a16854.html#a03bfcd0ea38073ff8481188d1b570553", null ],
+    [ "MoveInLineOfSight", "d1/d46/a16854.html#ad28f607b313f7729649261969912eba5", null ],
+    [ "Reset", "d1/d46/a16854.html#aee23a2835b84ac060a29b41c10116904", null ],
+    [ "SetData", "d1/d46/a16854.html#a2b49d5045e0d1e25e7a05b1e3ce65b4f", null ],
+    [ "SummonedCreatureDespawn", "d1/d46/a16854.html#a9a35459cf7b83c9f0afc557d1b0b40e7", null ],
+    [ "UpdateAI", "d1/d46/a16854.html#a1507ab4bdade501cf92f843cec20842d", null ],
+    [ "counter", "d1/d46/a16854.html#a7012a08c6409a40646dcd91a47eb6886", null ],
+    [ "events", "d1/d46/a16854.html#a7ea570e98c7a70ae604861c2166eb429", null ],
+    [ "pInstance", "d1/d46/a16854.html#a1ba3692738d6bd474d54fe8910a7f316", null ],
+    [ "summons", "d1/d46/a16854.html#a44b5ee694d96644da91167c7d793eeb3", null ]
 ];

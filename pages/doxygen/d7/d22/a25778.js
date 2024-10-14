@@ -1,9 +1,9 @@
 var a25778 =
 [
-    [ "CheckCast", "d7/d22/a25778.html#af92fe276563a8ca0d939d881dba8adda", null ],
-    [ "HandleDummy", "d7/d22/a25778.html#a86b4413dd25f96fb197604007171a8d1", null ],
-    [ "Load", "d7/d22/a25778.html#ab1800d2550b944dcfa9967cc0e79c5ee", null ],
-    [ "PrepareSpellScript", "d7/d22/a25778.html#a47aa868fbabee8a3988bcc93402b8cfb", null ],
-    [ "Register", "d7/d22/a25778.html#a1b4ff1b3b518a2e4bad1836de6793561", null ],
-    [ "Validate", "d7/d22/a25778.html#a8d0c2f18927e811f3d3cdee94e3623c0", null ]
+    [ "OnEffectHitTargetDisarm", "d7/d22/a25778.html#ae8ce5a315886ede30eda7d3682e4ef06", null ],
+    [ "OnEffectHitTargetStun", "d7/d22/a25778.html#a5a5253b6d152b1af78de663c09451536", null ],
+    [ "OnEffectLaunchTargetDisarm", "d7/d22/a25778.html#a2bbcf5ee2d41362c80a4649a4cf7e260", null ],
+    [ "OnEffectLaunchTargetStun", "d7/d22/a25778.html#ac3d5052bf045082fb8bc02c72a0dba39", null ],
+    [ "PrepareSpellScript", "d7/d22/a25778.html#a113219d3376a23f8889f26f10744e7cb", null ],
+    [ "Register", "d7/d22/a25778.html#a12ef13dbc3e9cd95fb1d57bf393735e3", null ]
 ];

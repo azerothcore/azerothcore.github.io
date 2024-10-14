@@ -1,9 +1,6 @@
 var a11558 =
 [
-    [ "npc_burning_spiritAI", "d6/d63/a11558.html#a52f63423d09794446b0c01da2feb325d", null ],
-    [ "EnterEvadeMode", "d6/d63/a11558.html#a567a7a023bb83a1228bb458ea16ee2fc", null ],
-    [ "IsSummonedBy", "d6/d63/a11558.html#a65ee7b6dd6d4394cc04a6260fc75827e", null ],
-    [ "MovementInform", "d6/d63/a11558.html#a0a02ece5a3ff1eefa30fd27a9cc84d10", null ],
-    [ "_events", "d6/d63/a11558.html#a9af0f46710741bba3d8401d1a1fb0556", null ],
-    [ "_flamelasherGUID", "d6/d63/a11558.html#abfc34e3e45d1e74b328a91f6f8981191", null ]
+    [ "npc_burning_spiritAI", "d7/dc0/a11562.html", "d7/dc0/a11562" ],
+    [ "npc_burning_spirit", "d6/d63/a11558.html#a596e654486c82d15d7a37b069a99856d", null ],
+    [ "GetAI", "d6/d63/a11558.html#a3c704a0856d669a1e684e5a858bc4334", null ]
 ];

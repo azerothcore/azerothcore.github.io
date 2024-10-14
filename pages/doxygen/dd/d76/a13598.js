@@ -1,8 +1,6 @@
 var a13598 =
 [
-    [ "boss_gazakrothAI", "dd/d76/a13598.html#a705cc9e116ff79246e07e19ab60908a0", null ],
-    [ "AttackStart", "dd/d76/a13598.html#abb981aa138bf171c69b2ce084fe3439a", null ],
-    [ "Reset", "dd/d76/a13598.html#adef359630b129a93d1ccbd4c0a8801ec", null ],
-    [ "UpdateAI", "dd/d76/a13598.html#a2f8c99fc9b3df5f39424eafa9875d6d2", null ],
-    [ "firebolt_timer", "dd/d76/a13598.html#a234a39199e724423debed5fc96289ff4", null ]
+    [ "boss_janalaiAI", "d6/d95/a13602.html", "d6/d95/a13602" ],
+    [ "boss_janalai", "dd/d76/a13598.html#adb902ccc4dfc4ef7bab3e3428ff1082b", null ],
+    [ "GetAI", "dd/d76/a13598.html#a1782fb8882fae9818c03feab00417619", null ]
 ];

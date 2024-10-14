@@ -1,7 +1,7 @@
 var a14034 =
 [
-    [ "GetEmptyEntry", "d5/dee/a14034.html#a46dfe7b2f8598d24f17868266d1571c6", null ],
-    [ "HandleAfterHit", "d5/dee/a14034.html#a4f8ab6e42ddf2188ccca2640363b9925", null ],
-    [ "PrepareSpellScript", "d5/dee/a14034.html#a35f0ab4b36df3d9ec1191cbd9ba88c9e", null ],
-    [ "Register", "d5/dee/a14034.html#a25e1858e1f81891443f4b7de50a5d495", null ]
+    [ "FilterTargets", "d5/dee/a14034.html#af3954bbcbce6de5d4ddadd2af0ecac91", null ],
+    [ "HandleDummy", "d5/dee/a14034.html#ad3688071ca786bbb4c27d5632d1a1e56", null ],
+    [ "PrepareSpellScript", "d5/dee/a14034.html#a6ac4db072beae6ae7a700774667da613", null ],
+    [ "Register", "d5/dee/a14034.html#ae981ec2b7e097ad0fe924df7738da5b7", null ]
 ];

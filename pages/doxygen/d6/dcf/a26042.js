@@ -1,6 +1,7 @@
 var a26042 =
 [
-    [ "FilterTargets", "d6/dcf/a26042.html#a9ee58cd4e7a0fa59bfb6ef1270d51f21", null ],
-    [ "PrepareSpellScript", "d6/dcf/a26042.html#a5992d94317d3da7400d5a9ab115e621e", null ],
-    [ "Register", "d6/dcf/a26042.html#a125ce6c8dfdc6419b4409c72f74fcf85", null ]
+    [ "HandleScriptEffect", "d6/dcf/a26042.html#a8c7ede10a8f7d0c1ea04c21166807995", null ],
+    [ "PrepareSpellScript", "d6/dcf/a26042.html#af52663b01774372d3e6f695d2f395cb5", null ],
+    [ "Register", "d6/dcf/a26042.html#abcefab06ff481fad88be4d7ad9289808", null ],
+    [ "Validate", "d6/dcf/a26042.html#af269a7085412b5a889dfb802d1dc7fbe", null ]
 ];

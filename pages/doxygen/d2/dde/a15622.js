@@ -1,11 +1,14 @@
 var a15622 =
 [
-    [ "npc_amanitar_mushrooms", "d2/dde/a15622.html#ad5603426c71c107ff439cea2efeea3f9", null ],
-    [ "AttackStart", "d2/dde/a15622.html#a0cc90c924a12a8be32c78e76ca798943", null ],
-    [ "DamageTaken", "d2/dde/a15622.html#a4c21a448535e1fc0f0116257194b9732", null ],
-    [ "EnterEvadeMode", "d2/dde/a15622.html#ae17ee367c9d206868c7dfc64d438806a", null ],
-    [ "JustEngagedWith", "d2/dde/a15622.html#ac50bf479e8c891af432cfccdf9d49c55", null ],
-    [ "Reset", "d2/dde/a15622.html#ae597d5a64765f5304773f9a38e9c719a", null ],
-    [ "UpdateAI", "d2/dde/a15622.html#ae71058353be43935aa45eb28eb41170f", null ],
-    [ "events", "d2/dde/a15622.html#a0be93d15582a5511963721510652e76d", null ]
+    [ "npc_taldaram_flamesphere", "d2/dde/a15622.html#aad7d6696b54e39c6abd27a7252353360", null ],
+    [ "DoAction", "d2/dde/a15622.html#aa79e370c1c30eccb44a46b622e2d5f2a", null ],
+    [ "IsSummonedBy", "d2/dde/a15622.html#acb232931bc181eedf4b39d5519dd45e2", null ],
+    [ "JustDied", "d2/dde/a15622.html#ae6dfff3df39257c55495707934d5d38b", null ],
+    [ "MovementInform", "d2/dde/a15622.html#a785c491b7144420cd4975e62c9a8a711", null ],
+    [ "SetVictimPos", "d2/dde/a15622.html#a51f1683806095c760d4accff9e23f8b6", null ],
+    [ "UpdateAI", "d2/dde/a15622.html#a163341c0ff0f56986e2486e06e21b4b2", null ],
+    [ "instance", "d2/dde/a15622.html#afd0ff83cb5fba1fbeb85b7d600f1b1de", null ],
+    [ "moveTimer", "d2/dde/a15622.html#afe50ac59ec441ab11745ca9461158a00", null ],
+    [ "uiDespawnTimer", "d2/dde/a15622.html#a883b4c6429e8a8bf02878caa14e02537", null ],
+    [ "victimPos", "d2/dde/a15622.html#ae681d84f2324faf22296dcb6e08484b0", null ]
 ];

@@ -1,6 +1,4 @@
 var a28030 =
 [
-    [ "Id", "d6/d28/a28030.html#a9f283a7c8339cc5b4fa67f3974ce8621", null ],
-    [ "SpellId", "d6/d28/a28030.html#ae8c119bacf706916f331d3f316fb1347", null ],
-    [ "TypeFlags", "d6/d28/a28030.html#aae92871758e9a738a888cacf0946f16b", null ]
+    [ "ratio", "d6/d28/a28030.html#ad3cdf9a27817d39d05b8b785f5ba5ac7", null ]
 ];

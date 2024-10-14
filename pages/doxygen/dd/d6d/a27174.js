@@ -1,6 +1,5 @@
 var a27174 =
 [
-    [ "go_brewfest_musicAI", "d9/d24/a27178.html", "d9/d24/a27178" ],
-    [ "go_brewfest_music", "dd/d6d/a27174.html#a787963a5ee591933d62fdb52911f9a77", null ],
-    [ "GetAI", "dd/d6d/a27174.html#a50f36a6d0a72e7188dbe1bdaa09f1888", null ]
+    [ "go_jump_a_tron", "dd/d6d/a27174.html#a23306caf54a4282d290eec5daa3bfbc5", null ],
+    [ "OnGossipHello", "dd/d6d/a27174.html#ae45085de26fc6ad4c3fa2bddf0bf20ec", null ]
 ];

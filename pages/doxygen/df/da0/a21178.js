@@ -1,6 +1,6 @@
 var a21178 =
 [
-    [ "HandlePeriodicDummy", "df/da0/a21178.html#a4d68f9d9021ec28fde64c38bce3f5bb2", null ],
-    [ "PrepareAuraScript", "df/da0/a21178.html#aad803ad4c185075a66f792e0aef9be2c", null ],
-    [ "Register", "df/da0/a21178.html#a48357a7c879ddd51710554918b92f6ce", null ]
+    [ "npc_frozen_orbAI", "dc/d68/a21182.html", "dc/d68/a21182" ],
+    [ "npc_frozen_orb", "df/da0/a21178.html#ac14966722e39b2b6b3a907756701ed98", null ],
+    [ "GetAI", "df/da0/a21178.html#a2f9e1a2cb14ee9e5f24e02aa97697116", null ]
 ];

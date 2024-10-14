@@ -1,4 +1,5 @@
 var a00737 =
 [
-    [ "ScriptRegistry< ArenaTeamScript >", "dd/db2/a00737.html#a5d2a56a9849b1ba119fd3224685406fe", null ]
+    [ "wp_commandscript", "d7/d97/a11458.html", "d7/d97/a11458" ],
+    [ "AddSC_wp_commandscript", "dd/db2/a00737.html#afc6bb2ca7e993730a57350142f7e6fd5", null ]
 ];

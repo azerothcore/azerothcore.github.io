@@ -1,5 +1,7 @@
 var a27326 =
 [
-    [ "item_mysterious_egg", "d7/dc8/a27326.html#ac32e296dcb700f32f6d0296f2921e6c7", null ],
-    [ "OnExpire", "d7/dc8/a27326.html#a5ea72284626826b75819f89b3b91c540", null ]
+    [ "npc_prof_leather", "d7/dc8/a27326.html#a4a96f0c41a2a75ed26f52b1b0377c800", null ],
+    [ "HasLeatherSpecialty", "d7/dc8/a27326.html#aefbf75b4109f8013335f36cd2d6e84de", null ],
+    [ "OnGossipHello", "d7/dc8/a27326.html#a1a0dc1574c814af5e4f992c7fb199215", null ],
+    [ "OnGossipSelect", "d7/dc8/a27326.html#afdf3a42c20903efd7f45ab0042f79de0", null ]
 ];

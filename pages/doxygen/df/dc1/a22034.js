@@ -1,7 +1,18 @@
 var a22034 =
 [
-    [ "HandleDummy", "df/dc1/a22034.html#abfb58e49821e6a563940e8ba518db850", null ],
-    [ "PrepareSpellScript", "df/dc1/a22034.html#a61ca2f71b0fa323a54f716415b25b75e", null ],
-    [ "Register", "df/dc1/a22034.html#a7a2cc833ae8d079b821caabf55b6f0e5", null ],
-    [ "Validate", "df/dc1/a22034.html#a21daeadffbfd28621d897dfe67dd11a8", null ]
+    [ "npc_blessed_bannerAI", "df/dc1/a22034.html#a563cd394d72a900d735f8639074deae1", null ],
+    [ "JustDied", "df/dc1/a22034.html#a06e0e0c1e673c13488bd47e130098915", null ],
+    [ "JustEngagedWith", "df/dc1/a22034.html#abfdd9e554fbbe16f6058d5cb10394a84", null ],
+    [ "JustSummoned", "df/dc1/a22034.html#a354921ca9a3603c48885a38a507347c4", null ],
+    [ "MoveInLineOfSight", "df/dc1/a22034.html#a34a0a856a4a4c05954ba300d8031e374", null ],
+    [ "Reset", "df/dc1/a22034.html#a6fe7e49f2077ed549a6406592aec345e", null ],
+    [ "UpdateAI", "df/dc1/a22034.html#a8ca070c63dd48e22823ac26d11da75be", null ],
+    [ "events", "df/dc1/a22034.html#a79b7fbee1492860fe64d42928e494e3d", null ],
+    [ "guidDalfors", "df/dc1/a22034.html#a369a837b6fa57d0960f24d9ea629ed04", null ],
+    [ "guidHalof", "df/dc1/a22034.html#aef28a7624fb88e65a7f79fe34c320a29", null ],
+    [ "guidMason", "df/dc1/a22034.html#a05e6dc20409e2271de8fe4f4b3ae7bfa", null ],
+    [ "guidPriest", "df/dc1/a22034.html#a25f4056b2d7fda02885f58502f809a9c", null ],
+    [ "HalofSpawned", "df/dc1/a22034.html#a38e98094f05c09ea19a4f44771194b2e", null ],
+    [ "PhaseCount", "df/dc1/a22034.html#a983110caf86d94374a299d7268f7458c", null ],
+    [ "Summons", "df/dc1/a22034.html#a92d7543e31c5cb367379711cb767ebd6", null ]
 ];

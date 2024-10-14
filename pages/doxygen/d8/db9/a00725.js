@@ -1,16 +1,7 @@
 var a00725 =
 [
-    [ "AccountScript", "d6/df3/a09906.html", "d6/df3/a09906" ],
-    [ "AccountHook", "d8/db9/a00725.html#a4b5c567266fc875ca26b1f3c273a0e3f", [
-      [ "ACCOUNTHOOK_ON_ACCOUNT_LOGIN", "d8/db9/a00725.html#a4b5c567266fc875ca26b1f3c273a0e3fa97110c19d0d3bf4985d037248fc9a520", null ],
-      [ "ACCOUNTHOOK_ON_BEFORE_ACCOUNT_DELETE", "d8/db9/a00725.html#a4b5c567266fc875ca26b1f3c273a0e3fa68eae28cd3d4824d5a1f43be23334ecb", null ],
-      [ "ACCOUNTHOOK_ON_LAST_IP_UPDATE", "d8/db9/a00725.html#a4b5c567266fc875ca26b1f3c273a0e3faef7c124ffc203147c487a3fdf3fb3993", null ],
-      [ "ACCOUNTHOOK_ON_FAILED_ACCOUNT_LOGIN", "d8/db9/a00725.html#a4b5c567266fc875ca26b1f3c273a0e3fad9e09c448ea9ea11d0dab7b19364a744", null ],
-      [ "ACCOUNTHOOK_ON_EMAIL_CHANGE", "d8/db9/a00725.html#a4b5c567266fc875ca26b1f3c273a0e3fa614cf50cd5271ecd85b56e2c96417982", null ],
-      [ "ACCOUNTHOOK_ON_FAILED_EMAIL_CHANGE", "d8/db9/a00725.html#a4b5c567266fc875ca26b1f3c273a0e3fa8d513341e8c3bd3b9ab3d56ad1854fdf", null ],
-      [ "ACCOUNTHOOK_ON_PASSWORD_CHANGE", "d8/db9/a00725.html#a4b5c567266fc875ca26b1f3c273a0e3fa1a346d78a8f0cd7fbf326655e791eec5", null ],
-      [ "ACCOUNTHOOK_ON_FAILED_PASSWORD_CHANGE", "d8/db9/a00725.html#a4b5c567266fc875ca26b1f3c273a0e3faa64f8339ee297e9e9d5591423f18f283", null ],
-      [ "ACCOUNTHOOK_CAN_ACCOUNT_CREATE_CHARACTER", "d8/db9/a00725.html#a4b5c567266fc875ca26b1f3c273a0e3fabbf594e3be51c108e40d535b8ba1baf3", null ],
-      [ "ACCOUNTHOOK_END", "d8/db9/a00725.html#a4b5c567266fc875ca26b1f3c273a0e3fafdbdba3262877bcac001a3013cdd4f5f", null ]
-    ] ]
+    [ "inventory_commandscript", "d2/d98/a11354.html", "d2/d98/a11354" ],
+    [ "AddSC_inventory_commandscript", "d8/db9/a00725.html#a8917ab2c5001702c3dc7a14313dbc562", null ],
+    [ "bagSpecsColors", "d8/db9/a00725.html#aabf9a2b965ae6153eb18635be4468eb6", null ],
+    [ "bagSpecsToString", "d8/db9/a00725.html#ac004d76eb746ea415b16f1b512a057b6", null ]
 ];

@@ -1,7 +1,9 @@
 var a15458 =
 [
-    [ "npc_giltharesAI", "d4/d39/a15462.html", "d4/d39/a15462" ],
-    [ "npc_gilthares", "d5/d33/a15458.html#af1e0746350b32b68825710e1c3ed91a5", null ],
-    [ "GetAI", "d5/d33/a15458.html#a96293e28237a092c64f6a91d91bc7ff3", null ],
-    [ "OnQuestAccept", "d5/d33/a15458.html#a018cc6240a79216acb371241f63e3234", null ]
+    [ "npc_pluckyAI", "d5/d33/a15458.html#a490198dfcf06b04f7ee9a6a5354dec7e", null ],
+    [ "ReceiveEmote", "d5/d33/a15458.html#a4a4a09d6a462011154a8d871562dcaf5", null ],
+    [ "Reset", "d5/d33/a15458.html#a1a6c4a479bbbfced1ad17f2604bdba32", null ],
+    [ "UpdateAI", "d5/d33/a15458.html#a4775a736e3568940c1b92e0cdae4de4b", null ],
+    [ "NormFaction", "d5/d33/a15458.html#afd9c6fccf4c30b4fbc62bfa951665949", null ],
+    [ "ResetTimer", "d5/d33/a15458.html#ac9808c21666cd17b0603e7e67a61d015", null ]
 ];

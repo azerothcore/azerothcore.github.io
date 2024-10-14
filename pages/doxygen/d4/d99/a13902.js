@@ -1,6 +1,10 @@
 var a13902 =
 [
-    [ "spell_threatening_gaze_AuraScript", "d8/d41/a13906.html", "d8/d41/a13906" ],
-    [ "spell_threatening_gaze", "d4/d99/a13902.html#a20ec140807d12fd521a4c8b8ea7a741a", null ],
-    [ "GetAuraScript", "d4/d99/a13902.html#a51aae442dabc59728c3ff8983b6db818", null ]
+    [ "npc_zealot_zath", "d4/d99/a13902.html#a845840d0a45dd6c4b6368ee4ecf6917b", null ],
+    [ "JustDied", "d4/d99/a13902.html#ae56e2e89a6ba623200e9ee36977cee13", null ],
+    [ "JustEngagedWith", "d4/d99/a13902.html#a25e059f40de51d880f4ec209ff4dd924", null ],
+    [ "Reset", "d4/d99/a13902.html#abc4e40afd644f2c89444f3fe475817c0", null ],
+    [ "UpdateAI", "d4/d99/a13902.html#a467ce2437ec112b42f864ef412c0c976", null ],
+    [ "_scheduler", "d4/d99/a13902.html#a146679c4eb3eec444ff1dcd9a780110a", null ],
+    [ "instance", "d4/d99/a13902.html#a66dfe3182b45e984b4d81d40051e5ecc", null ]
 ];

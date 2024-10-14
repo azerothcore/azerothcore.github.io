@@ -1,6 +1,6 @@
 var a20042 =
 [
-    [ "FilterTargets", "d8/d63/a20042.html#adb438b9bcf4be347aeabf6608fbfb8a4", null ],
-    [ "PrepareSpellScript", "d8/d63/a20042.html#a88f5ca3aaa575cff0ba778f9b575d656", null ],
-    [ "Register", "d8/d63/a20042.html#ac7337b4ee8511f72b129fccc83b3241e", null ]
+    [ "npc_ulduar_toasty_fireAI", "de/df6/a20046.html", "de/df6/a20046" ],
+    [ "npc_ulduar_toasty_fire", "d8/d63/a20042.html#a5a5b77088b24f1c5743c58034190d5ab", null ],
+    [ "GetAI", "d8/d63/a20042.html#a2518ec39c3cea2f3efc5000e0a7779d0", null ]
 ];

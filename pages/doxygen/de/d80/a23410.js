@@ -1,11 +1,11 @@
 var a23410 =
 [
-    [ "boss_gruul", "de/d80/a23410.html#a9a14e75144c79d7ad4f65192edd385f9", null ],
-    [ "JustDied", "de/d80/a23410.html#a92d9e524dfaa0e4a22daf9b7bc6ac10d", null ],
-    [ "JustEngagedWith", "de/d80/a23410.html#afb0cc9bb5acad80cea8d3e572d45da94", null ],
-    [ "KilledUnit", "de/d80/a23410.html#afec4bb1b631cab0b167afb7cc2578b7d", null ],
-    [ "Reset", "de/d80/a23410.html#ace9cf892fc1cc345d6f82d6e9816e301", null ],
-    [ "UpdateAI", "de/d80/a23410.html#a3503b84f4fb896d439ccd49a997e4087", null ],
-    [ "_caveInTimer", "de/d80/a23410.html#a66766f93a5ff543bbb0c9b805aaf253c", null ],
-    [ "_recentlySpoken", "de/d80/a23410.html#a411ec67153dd4715eb397a420c45bb12", null ]
+    [ "boss_krosh_firehand", "de/d80/a23410.html#a1ef3618844f086de7875f26e7e6190f9", null ],
+    [ "AttackStart", "de/d80/a23410.html#a74bd2c93ac45efcd163a904b9a52827b", null ],
+    [ "JustDied", "de/d80/a23410.html#ad20c86b4a3d0cccddf91982c26f56c09", null ],
+    [ "JustEngagedWith", "de/d80/a23410.html#ad6389c357fb6c09fdf4f3f3ef7095395", null ],
+    [ "Reset", "de/d80/a23410.html#a989c4b762a7cdb228b245e91881d97a2", null ],
+    [ "UpdateAI", "de/d80/a23410.html#a3d26a6f544e9d00514ca5b0ef7d4bf4f", null ],
+    [ "_scheduler", "de/d80/a23410.html#a261ced01dc1305ab7c2d2f3322022fe5", null ],
+    [ "instance", "de/d80/a23410.html#a876bb040d78cafa9aa22e818f60dce7f", null ]
 ];

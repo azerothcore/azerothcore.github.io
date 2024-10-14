@@ -1,6 +1,7 @@
 var a24218 =
 [
-    [ "npc_shattrathflaskvendors", "df/da0/a24218.html#ab74b234406c2022bf519242a7842458a", null ],
-    [ "OnGossipHello", "df/da0/a24218.html#af165d6f4640b41a92b36d77c1f1c1161", null ],
-    [ "OnGossipSelect", "df/da0/a24218.html#ad9eb60422dfc663e6d020a630c09ee05", null ]
+    [ "HandlePeriodic", "df/da0/a24218.html#a56dd6ce5acad6c8a10eabfc3f35879fe", null ],
+    [ "PrepareAuraScript", "df/da0/a24218.html#a58dc6668172d046cef3046649928c124", null ],
+    [ "Register", "df/da0/a24218.html#a5700d7cc8b52ec0351e3d7bf851274b7", null ],
+    [ "Validate", "df/da0/a24218.html#afa6d5fe15882f33ae1a1d137db9caf8c", null ]
 ];

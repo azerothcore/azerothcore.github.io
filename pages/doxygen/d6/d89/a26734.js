@@ -1,8 +1,8 @@
 var a26734 =
 [
-    [ "Detonate", "d6/d89/a26734.html#a89f46334c78fc190afd7b03706fa2513", null ],
-    [ "HandleProc", "d6/d89/a26734.html#a82ad88c757eed35f7e0f2af38ceb2273", null ],
-    [ "PrepareAuraScript", "d6/d89/a26734.html#a7268602da6dc74d7c501fb90c8167226", null ],
-    [ "Register", "d6/d89/a26734.html#ac1574e943840e5f15a808ed4d338cd5f", null ],
-    [ "Validate", "d6/d89/a26734.html#abbc5c9d069e716d9356ec366713abb84", null ]
+    [ "ApplyEffect", "d6/d89/a26734.html#a0c303c58064236969e17d1f2df3e0556", null ],
+    [ "PrepareAuraScript", "d6/d89/a26734.html#a716a483282946f840ac15d73c6e21a94", null ],
+    [ "Register", "d6/d89/a26734.html#ad72816bc73bdb1cf578f3c4599ec1682", null ],
+    [ "RemoveEffect", "d6/d89/a26734.html#a571b1b19f4d5b13e54288aa89ab1e9b6", null ],
+    [ "Validate", "d6/d89/a26734.html#a99eb27ead6f5c8c8f569626600f2daf9", null ]
 ];

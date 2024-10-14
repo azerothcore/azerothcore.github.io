@@ -1,20 +1,15 @@
 var a00518 =
 [
-    [ "map_fileheader", "d7/d33/a09464.html", "d7/d33/a09464" ],
-    [ "map_heightHeader", "d8/d21/a09472.html", "d8/d21/a09472" ],
-    [ "map_liquidHeader", "d5/d62/a09476.html", "d5/d62/a09476" ],
-    [ "MAP_HEIGHT_AS_INT16", "d5/dee/a00518.html#aefa74fa33f3eba2d39b407c2fd2e8aba", null ],
-    [ "MAP_HEIGHT_AS_INT8", "d5/dee/a00518.html#a15a9245a53c00f1a8a89dd2d798cea9d", null ],
-    [ "MAP_HEIGHT_NO_HEIGHT", "d5/dee/a00518.html#aa5c2437972b2be5c5ff23a7ac04e2680", null ],
-    [ "MAP_LIQUID_NO_HEIGHT", "d5/dee/a00518.html#a59daadc7c96729526e05982ec6600bb1", null ],
-    [ "MAP_LIQUID_NO_TYPE", "d5/dee/a00518.html#a42b8b790a3d284e7116bcad1c391b8f9", null ],
-    [ "MAP_LIQUID_TYPE_DARK_WATER", "d5/dee/a00518.html#a661f965d11d7da56890b64484d871441", null ],
-    [ "MAP_LIQUID_TYPE_MAGMA", "d5/dee/a00518.html#a14e2a0a2291347b0ef877bc9d70f7384", null ],
-    [ "MAP_LIQUID_TYPE_NO_WATER", "d5/dee/a00518.html#a17d4c5ea32412f0fbe04a27f63d50e13", null ],
-    [ "MAP_LIQUID_TYPE_OCEAN", "d5/dee/a00518.html#a6d257e0effb928fba7534eeee5de602d", null ],
-    [ "MAP_LIQUID_TYPE_SLIME", "d5/dee/a00518.html#aa56f76510545ed9c706b8fee3061b6cb", null ],
-    [ "MAP_LIQUID_TYPE_WATER", "d5/dee/a00518.html#a5ec110bd30ec47fcd087aaf5d572de28", null ],
-    [ "holetab_h", "d5/dee/a00518.html#abeb39e913287295598939165f99abe3b", null ],
-    [ "holetab_v", "d5/dee/a00518.html#a8c5ddef856ef804076860bb176c6d9e1", null ],
-    [ "MAP_VERSION_MAGIC", "d5/dee/a00518.html#aee23c8e21c084824373ce587f8fe1f04", null ]
+    [ "frand", "d5/dee/a00518.html#a19bd31014583536af788a65b398e4406", null ],
+    [ "GetRng", "d5/dee/a00518.html#a8602a67daa881e92c3eb9204c88b7733", null ],
+    [ "irand", "d5/dee/a00518.html#a6ae07d2bb0593d8339e65c136f63ecc0", null ],
+    [ "rand32", "d5/dee/a00518.html#ac699324b85bb2266ea8978796967c541", null ],
+    [ "rand_chance", "d5/dee/a00518.html#a66621d09a8cc2aa9476391004fe2c427", null ],
+    [ "rand_norm", "d5/dee/a00518.html#af2f9363ceebb6f78067b4a146d1de9df", null ],
+    [ "randtime", "d5/dee/a00518.html#a9ecda65ea9686c86f47934d04d38ec69", null ],
+    [ "urand", "d5/dee/a00518.html#ab17def34ccbbd868dc87a16bf35acdbd", null ],
+    [ "urandms", "d5/dee/a00518.html#af901d57f29ff48f701a375e44a0f1261", null ],
+    [ "urandweighted", "d5/dee/a00518.html#a3f7e714c8fc3a6f6ccbe91d524a84f23", null ],
+    [ "engine", "d5/dee/a00518.html#a8ab11e2fa939d9f333dfa1a858e7690b", null ],
+    [ "sfmtRand", "d5/dee/a00518.html#a131ba7587aa544a7e73ff9884d6bc784", null ]
 ];

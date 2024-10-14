@@ -1,7 +1,6 @@
 var a23934 =
 [
-    [ "npc_daranelleAI", "d5/dc6/a23934.html#a49eeff6e0aea079a0375a92074227d12", null ],
-    [ "JustEngagedWith", "d5/dc6/a23934.html#aeff39dfd84986186057cdaf7632eed4f", null ],
-    [ "MoveInLineOfSight", "d5/dc6/a23934.html#a353e27c1485b88f0751a64260898d35b", null ],
-    [ "Reset", "d5/dc6/a23934.html#a33b2fbec775257e3ba0bebe37fb86349", null ]
+    [ "npc_ancestral_wolfAI", "da/d00/a23938.html", "da/d00/a23938" ],
+    [ "npc_ancestral_wolf", "d5/dc6/a23934.html#a7cadf2848a086db63792f8068ee9463d", null ],
+    [ "GetAI", "d5/dc6/a23934.html#a201255a64d4e742ba8b118b4f2ec5cd5", null ]
 ];

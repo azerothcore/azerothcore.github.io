@@ -1,6 +1,11 @@
 var a24462 =
 [
-    [ "HandleSummon", "dd/d35/a24462.html#a00e265d830ea3e8a0a1952984c438071", null ],
-    [ "PrepareSpellScript", "dd/d35/a24462.html#a96df13b19964b6e89babb312465b90bc", null ],
-    [ "Register", "dd/d35/a24462.html#a5341e4ddf1b1ef94099c337114164ba8", null ]
+    [ "CalcPeriodic", "dd/d35/a24462.html#a330ab5ee4c9b16928b3fae701c80acd4", null ],
+    [ "CalculateHasteAmount", "dd/d35/a24462.html#a75d428e0b3619d53bd9436712d2e394e", null ],
+    [ "CalculateSPAmount", "dd/d35/a24462.html#a81805b43a47065281f83889d8be95c54", null ],
+    [ "CalculateStatAmount", "dd/d35/a24462.html#a763276aaa00bb6953e0b52118662e7a8", null ],
+    [ "HandleEffectApply", "dd/d35/a24462.html#ad5595d4a32336568ac143e1ee1823ab3", null ],
+    [ "HandlePeriodic", "dd/d35/a24462.html#ab3c7d479eae88ab4a59b06610af19429", null ],
+    [ "PrepareAuraScript", "dd/d35/a24462.html#a8dc2c51f3cccb640286fb081a34d90d2", null ],
+    [ "Register", "dd/d35/a24462.html#a6b3e219b03f89bf20f0d394c14cfe8cd", null ]
 ];

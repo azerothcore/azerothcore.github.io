@@ -1,9 +1,6 @@
 var a21646 =
 [
-    [ "npc_minigob_manabonk", "df/df0/a21646.html#aade5e005b68b25ede4e653629390ceb9", null ],
-    [ "Reset", "df/df0/a21646.html#a18b3fcf1e2ada8f0178a0efd2e206a8e", null ],
-    [ "SelectTargetInDalaran", "df/df0/a21646.html#a74a14a6e1839d7b8cc81712d57666ec5", null ],
-    [ "SendMailToPlayer", "df/df0/a21646.html#a1973b7885c9fce15aab9843722bf112e", null ],
-    [ "UpdateAI", "df/df0/a21646.html#abca8214a8c13d9d9c5c03f659fef53a9", null ],
-    [ "playerGUID", "df/df0/a21646.html#ac8dccd333691f717fdbffe22126330d5", null ]
+    [ "npc_mindless_ghoulAI", "d2/dd4/a21650.html", "d2/dd4/a21650" ],
+    [ "npc_mindless_ghoul", "df/df0/a21646.html#ac5bf71e719c0df04687f426a022fd65e", null ],
+    [ "GetAI", "df/df0/a21646.html#ac5a087aa742827dc8eb0f3dc195920ec", null ]
 ];

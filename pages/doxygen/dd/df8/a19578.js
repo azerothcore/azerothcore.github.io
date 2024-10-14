@@ -1,6 +1,7 @@
 var a19578 =
 [
-    [ "npc_brann_bronzebeard_algalonAI", "d8/df6/a19582.html", "d8/df6/a19582" ],
-    [ "npc_brann_bronzebeard_algalon", "dd/df8/a19578.html#a2760d42de8f78250ca5862bfcb23ed2e", null ],
-    [ "GetAI", "dd/df8/a19578.html#ad8bc8bde865adcce1e9f6fd6234f1a0a", null ]
+    [ "HandleDummyEffect", "dd/df8/a19578.html#ae95c1ce60db79c360e9c1431f27705cb", null ],
+    [ "PrepareSpellScript", "dd/df8/a19578.html#a84a4f52928873e58b1fc49e783c5083a", null ],
+    [ "Register", "dd/df8/a19578.html#a90c00bcb1768d696addab407425e406a", null ],
+    [ "SelectTarget", "dd/df8/a19578.html#a2e7a7c05a30ae1e0c5aa14dc2af19345", null ]
 ];

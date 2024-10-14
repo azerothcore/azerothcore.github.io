@@ -1,7 +1,7 @@
 var a25222 =
 [
-    [ "PrepareAuraScript", "d2/d2c/a25222.html#afeac0a8393b7d7bf787fca59988d0e14", null ],
-    [ "Register", "d2/d2c/a25222.html#a7cbcf46dbdddea12fd6ce04bcbcea097", null ],
-    [ "TriggerFoodBuff", "d2/d2c/a25222.html#a5d125413491dd377d61b8e30c4979fdd", null ],
-    [ "Validate", "d2/d2c/a25222.html#a6b69d7358eb8cfe6a8f9efd47882eb80", null ]
+    [ "HandleScript", "d2/d2c/a25222.html#a12f4c4a85f19ceb55d274428cf2b25a4", null ],
+    [ "PrepareSpellScript", "d2/d2c/a25222.html#acf1173670c35c84ae7aba29be00d31cf", null ],
+    [ "Register", "d2/d2c/a25222.html#a5a2c59463a0546b6f5cd375b3671b86b", null ],
+    [ "Validate", "d2/d2c/a25222.html#a437a018fd6917bee51bdbba7cf29e53d", null ]
 ];

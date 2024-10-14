@@ -1,5 +1,56 @@
 var a01868 =
 [
-    [ "achievIdByArenaSlot", "dd/de7/a01868.html#a5264f22d916c9472e9a16ac52140f87c", null ],
-    [ "achievIdForDungeon", "dd/de7/a01868.html#ac50d520adf892744d066d8c5187046b0", null ]
+    [ "npc_maghar_captive", "d4/dda/a23970.html", "d4/dda/a23970" ],
+    [ "npc_maghar_captive::npc_maghar_captiveAI", "d1/dcb/a23974.html", "d1/dcb/a23974" ],
+    [ "npc_creditmarker_visit_with_ancestors", "d8/d8f/a23978.html", "d8/d8f/a23978" ],
+    [ "npc_creditmarker_visit_with_ancestors::npc_creditmarker_visit_with_ancestorsAI", "d9/d8c/a23982.html", "d9/d8c/a23982" ],
+    [ "npc_kurenai_captive", "d7/d87/a23986.html", "d7/d87/a23986" ],
+    [ "npc_kurenai_captive::npc_kurenai_captiveAI", "d1/daf/a23990.html", "d1/daf/a23990" ],
+    [ "go_warmaul_prison", "d8/d4e/a23994.html", "d8/d4e/a23994" ],
+    [ "FindingTheSurvivorsData", "dd/de7/a01868.html#a05f629c8a0695e51bcc6a217d469c6d6", [
+      [ "QUEST_FINDING_THE_SURVIVORS", "dd/de7/a01868.html#a05f629c8a0695e51bcc6a217d469c6d6a9065a5318b6cfd6783abc721a30c2ce5", null ],
+      [ "NPC_MAGHAR_PRISONER", "dd/de7/a01868.html#a05f629c8a0695e51bcc6a217d469c6d6adcae59340797ae5aaa36b217e81dbe0f", null ],
+      [ "SAY_FREE", "dd/de7/a01868.html#a05f629c8a0695e51bcc6a217d469c6d6a27368277122194007f925387131a1eb9", null ]
+    ] ],
+    [ "KurenaiCaptive", "dd/de7/a01868.html#a0ebafaa2428c27b956f306522427fc5d", [
+      [ "SAY_KUR_START", "dd/de7/a01868.html#a0ebafaa2428c27b956f306522427fc5daf36e600606009fc75721c58ff3291777", null ],
+      [ "SAY_KUR_NO_ESCAPE", "dd/de7/a01868.html#a0ebafaa2428c27b956f306522427fc5da23c48674cfb86f376ec29a45dfc7bae7", null ],
+      [ "SAY_KUR_MORE", "dd/de7/a01868.html#a0ebafaa2428c27b956f306522427fc5daa43be8740522cf897de5d4034c52d874", null ],
+      [ "SAY_KUR_MORE_TWO", "dd/de7/a01868.html#a0ebafaa2428c27b956f306522427fc5da415a94ee05b8fad2385a6988ab1c554c", null ],
+      [ "SAY_KUR_LIGHTNING", "dd/de7/a01868.html#a0ebafaa2428c27b956f306522427fc5da83064d04d456c201f607bea516054183", null ],
+      [ "SAY_KUR_SHOCK", "dd/de7/a01868.html#a0ebafaa2428c27b956f306522427fc5daf550dcd801470acffb15daacb0d1303b", null ],
+      [ "SAY_KUR_COMPLETE", "dd/de7/a01868.html#a0ebafaa2428c27b956f306522427fc5daccc181ea2bfdaf46a258c6df185143cd", null ],
+      [ "SPELL_KUR_CHAIN_LIGHTNING", "dd/de7/a01868.html#a0ebafaa2428c27b956f306522427fc5da947d09acef568031d0a63aa3b491c6be", null ],
+      [ "SPELL_KUR_EARTHBIND_TOTEM", "dd/de7/a01868.html#a0ebafaa2428c27b956f306522427fc5da9036ad57839bc33a33771f3426f66b00", null ],
+      [ "SPELL_KUR_FROST_SHOCK", "dd/de7/a01868.html#a0ebafaa2428c27b956f306522427fc5da8a33a6376ae25b08e61a6c434797a76c", null ],
+      [ "SPELL_KUR_HEALING_WAVE", "dd/de7/a01868.html#a0ebafaa2428c27b956f306522427fc5da3ccb8a60d8d82c84658c9eb76cee2bdb", null ],
+      [ "QUEST_TOTEM_KARDASH_A", "dd/de7/a01868.html#a0ebafaa2428c27b956f306522427fc5da01677503ea95582bedb4bd6396f037e1", null ],
+      [ "NPC_KUR_MURK_RAIDER", "dd/de7/a01868.html#a0ebafaa2428c27b956f306522427fc5dafeb58f1ee686b5fa30edd41591ea25e3", null ],
+      [ "NPC_KUR_MURK_BRUTE", "dd/de7/a01868.html#a0ebafaa2428c27b956f306522427fc5da1d5b2ff1254efae5b9ebff19733b070a", null ],
+      [ "NPC_KUR_MURK_SCAVENGER", "dd/de7/a01868.html#a0ebafaa2428c27b956f306522427fc5dafda581d2af0e7405bfe68fb2156b753d", null ],
+      [ "NPC_KUR_MURK_PUTRIFIER", "dd/de7/a01868.html#a0ebafaa2428c27b956f306522427fc5daa9ec76c542a3b9a882fd5726109d5a17", null ]
+    ] ],
+    [ "MagharCaptive", "dd/de7/a01868.html#ac649bf8486588b328f8f21294adb4691", [
+      [ "SAY_MAG_START", "dd/de7/a01868.html#ac649bf8486588b328f8f21294adb4691a29faea8cf997895585774bb65c97b205", null ],
+      [ "SAY_MAG_NO_ESCAPE", "dd/de7/a01868.html#ac649bf8486588b328f8f21294adb4691aff816814506c0e82043fe9e276874ec6", null ],
+      [ "SAY_MAG_MORE", "dd/de7/a01868.html#ac649bf8486588b328f8f21294adb4691a6e5c0dfc40eb68f851dea6d3b488b247", null ],
+      [ "SAY_MAG_MORE_REPLY", "dd/de7/a01868.html#ac649bf8486588b328f8f21294adb4691a574b0d10ccf84ca4768fd3b39c57cb45", null ],
+      [ "SAY_MAG_LIGHTNING", "dd/de7/a01868.html#ac649bf8486588b328f8f21294adb4691a6723c065e3ed755f5efb93d02d35bec2", null ],
+      [ "SAY_MAG_SHOCK", "dd/de7/a01868.html#ac649bf8486588b328f8f21294adb4691a50d672d4f8be24fa62f23e2540f9db57", null ],
+      [ "SAY_MAG_COMPLETE", "dd/de7/a01868.html#ac649bf8486588b328f8f21294adb4691a7467c2088e602d856074e0039bf6ebae", null ],
+      [ "SPELL_CHAIN_LIGHTNING", "dd/de7/a01868.html#ac649bf8486588b328f8f21294adb4691ac0997e72929070d8e30cc0f49cc4539d", null ],
+      [ "SPELL_EARTHBIND_TOTEM", "dd/de7/a01868.html#ac649bf8486588b328f8f21294adb4691a13680bcb421d2a16426689737c48ec23", null ],
+      [ "SPELL_FROST_SHOCK", "dd/de7/a01868.html#ac649bf8486588b328f8f21294adb4691a73b0724093ccf1b7960c55c236c1502c", null ],
+      [ "SPELL_HEALING_WAVE", "dd/de7/a01868.html#ac649bf8486588b328f8f21294adb4691ab47ffc8cbbcb587bbe1a3e348c95bee3", null ],
+      [ "QUEST_TOTEM_KARDASH_H", "dd/de7/a01868.html#ac649bf8486588b328f8f21294adb4691a095bbe561ca6af50a827376ce33a4e8b", null ],
+      [ "NPC_MURK_RAIDER", "dd/de7/a01868.html#ac649bf8486588b328f8f21294adb4691a1fc0911b4a3959e89ede86e46a586c10", null ],
+      [ "NPC_MURK_BRUTE", "dd/de7/a01868.html#ac649bf8486588b328f8f21294adb4691ad944339a6462815fbe9e60d05957e345", null ],
+      [ "NPC_MURK_SCAVENGER", "dd/de7/a01868.html#ac649bf8486588b328f8f21294adb4691a1fb10d1a472423ae56074270a7309ec9", null ],
+      [ "NPC_MURK_PUTRIFIER", "dd/de7/a01868.html#ac649bf8486588b328f8f21294adb4691ab5280b4b4033ccf6ca5af78f1efc185e", null ]
+    ] ],
+    [ "AddSC_nagrand", "dd/de7/a01868.html#a2b4868ea3ab720314139038db0c44257", null ],
+    [ "kurenaiAmbushA", "dd/de7/a01868.html#aa062949c44a2a3ecfbcdc3f2bfcac8c1", null ],
+    [ "kurenaiAmbushB", "dd/de7/a01868.html#ae406cbcbcb2947b1f5ac7604043506b8", null ],
+    [ "m_afAmbushA", "dd/de7/a01868.html#ae32e4397b99880f7a5c6abf419f311ed", null ],
+    [ "m_afAmbushB", "dd/de7/a01868.html#ad37d6fb6fab11f73d99eb4c0d48e9162", null ]
 ];

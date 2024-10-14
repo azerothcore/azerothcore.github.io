@@ -1,11 +1,8 @@
 var a01937 =
 [
-    [ "BaseGain", "d9/d17/a01937.html#ada8e56c81ab672d85f2ff274d109e477", null ],
-    [ "Gain", "d9/d17/a01937.html#ab923dd9a0df7d75127965b40539d4a10", null ],
-    [ "GetColorCode", "d9/d17/a01937.html#a812c722ab7eb34807d8cad9659d34245", null ],
-    [ "GetGrayLevel", "d9/d17/a01937.html#a9c310a4423fd5ada14fac549e4b1a6fd", null ],
-    [ "GetZeroDifference", "d9/d17/a01937.html#a4152e9ef9972f6a20cbc990dce953c36", null ],
-    [ "hk_honor_at_level", "d9/d17/a01937.html#ad25519337dcc6370a39a072c53386f55", null ],
-    [ "hk_honor_at_level_f", "d9/d17/a01937.html#a218866625f1b3b8224fb44f5a0c8b416", null ],
-    [ "xp_in_group_rate", "d9/d17/a01937.html#a304088bebc0743c764589112d2ba3b7f", null ]
+    [ "instance_arcatraz", "da/d01/a23630.html", "da/d01/a23630" ],
+    [ "instance_arcatraz::instance_arcatraz_InstanceMapScript", "d8/ddc/a23634.html", "d8/ddc/a23634" ],
+    [ "AddSC_instance_arcatraz", "d9/d17/a01937.html#a80dfeb7f0ba2aa2c6cde3f26e3c50be4", null ],
+    [ "creatureData", "d9/d17/a01937.html#a412286b689bd324fedd65ddd8dde8afb", null ],
+    [ "doorData", "d9/d17/a01937.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
 ];

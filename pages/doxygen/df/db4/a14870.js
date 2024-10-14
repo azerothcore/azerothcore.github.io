@@ -1,6 +1,13 @@
 var a14870 =
 [
-    [ "instance_ruins_of_ahnqiraj_InstanceMapScript", "d6/d92/a14874.html", "d6/d92/a14874" ],
-    [ "instance_ruins_of_ahnqiraj", "df/db4/a14870.html#adeacb1c68e4b12995a335d1bedde075a", null ],
-    [ "GetInstanceScript", "df/db4/a14870.html#a6a661e961c2599498de0ccd41c0763b4", null ]
+    [ "boss_cthun", "df/db4/a14870.html#a287ee7b65708971e4fdfa7b814486935", null ],
+    [ "DoAction", "df/db4/a14870.html#a04ae38b67d358f1d34820b855aab3869", null ],
+    [ "JustDied", "df/db4/a14870.html#a3c6478e7de0e5a6f20f693a788bf8c86", null ],
+    [ "JustEngagedWith", "df/db4/a14870.html#a56fe3347ac41b67fb6912f372a5879ba", null ],
+    [ "Reset", "df/db4/a14870.html#a05bab8427cd4b4bfa50aee450e423f98", null ],
+    [ "ScheduleTasks", "df/db4/a14870.html#a5a0514e56217bb3b30b22b2681542adb", null ],
+    [ "SummonedCreatureDies", "df/db4/a14870.html#a49d76bb4cf30ee66fae6114313394961", null ],
+    [ "UpdateAI", "df/db4/a14870.html#a7d2685597f1eec2459fe509e5b97681f", null ],
+    [ "_fleshTentaclesKilled", "df/db4/a14870.html#a139de83ae488c40d40a4587509cd197d", null ],
+    [ "WisperTimer", "df/db4/a14870.html#abad23f1df9c6989e7a6d3d62143adb05", null ]
 ];

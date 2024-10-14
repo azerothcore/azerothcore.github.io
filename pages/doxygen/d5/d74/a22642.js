@@ -1,11 +1,12 @@
 var a22642 =
 [
-    [ "boss_murmur", "d5/d74/a22642.html#ad89ea433764c3017a3d33b37eb9e5602", null ],
-    [ "CanAIAttack", "d5/d74/a22642.html#a6b89c95747c0a37c0b37527cd360e524", null ],
-    [ "CastSupressionOOC", "d5/d74/a22642.html#a2b278a58870e9ad290177854fc011f76", null ],
-    [ "EnterEvadeMode", "d5/d74/a22642.html#aa0f549c83a92302ece2323c75dd29acc", null ],
-    [ "JustEngagedWith", "d5/d74/a22642.html#a3d872beeee7bf6ecd0c4aeaa3f8c603d", null ],
-    [ "Reset", "d5/d74/a22642.html#a1f40ead1b2269b97c69bd4db808d6bae", null ],
-    [ "SetGUID", "d5/d74/a22642.html#a88e18fd646a807ee92f1b24b43d500a6", null ],
-    [ "ShouldCastResonance", "d5/d74/a22642.html#ade07217a85655a513d7a472d24589691", null ]
+    [ "npc_maiev_illidan", "d5/d74/a22642.html#a0d19d9bb58c44662cdfb66a8fe373a60", null ],
+    [ "DamageTaken", "d5/d74/a22642.html#a780cc558c483efa3293d798cc6048a33", null ],
+    [ "DoAction", "d5/d74/a22642.html#a53607a158edf8fd772908b5d7af6edf1", null ],
+    [ "IsSummonedBy", "d5/d74/a22642.html#a1bf4f2f29132c5132e7903d089ace6e2", null ],
+    [ "JustEngagedWith", "d5/d74/a22642.html#ad1728d7d8b1b5f9db8db4d811c2ba630", null ],
+    [ "Reset", "d5/d74/a22642.html#a100db757c89634a58b9382216e2791ec", null ],
+    [ "SpellHit", "d5/d74/a22642.html#aa4d6626d6130a88519f86cfe70d9fb95", null ],
+    [ "UpdateAI", "d5/d74/a22642.html#a269e4a8f79b508e2da61cd5e2dc34664", null ],
+    [ "instance", "d5/d74/a22642.html#ad41b6deb9406232629ad60ba66cfac6b", null ]
 ];

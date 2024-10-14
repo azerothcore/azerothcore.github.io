@@ -1,6 +1,6 @@
 var a26326 =
 [
-    [ "HandleDummy", "df/d4a/a26326.html#aee5967205738ebaef70e1105e8d91b2c", null ],
-    [ "PrepareSpellScript", "df/d4a/a26326.html#a1ef5914adfd2c951a68f50658852e095", null ],
-    [ "Register", "df/d4a/a26326.html#af42b6d5a5fbb5eb84773818594813afc", null ]
+    [ "OnApply", "df/d4a/a26326.html#a50ced6d5a475ccad9429dfbb05130394", null ],
+    [ "PrepareAuraScript", "df/d4a/a26326.html#abd02e129b1201449d473a66aea77d569", null ],
+    [ "Register", "df/d4a/a26326.html#a8c09775f642335252c6e548900dc9d3a", null ]
 ];

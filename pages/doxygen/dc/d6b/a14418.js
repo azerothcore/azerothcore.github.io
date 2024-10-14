@@ -1,7 +1,6 @@
 var a14418 =
 [
-    [ "HandleOnHit", "dc/d6b/a14418.html#ae3241486a612293b5421a523f6d854d9", null ],
-    [ "PrepareSpellScript", "dc/d6b/a14418.html#a20b6f0f7d403065cde55dec7f50537f9", null ],
-    [ "Register", "dc/d6b/a14418.html#af6d4c6dfa15da815298ad5d88b3fede2", null ],
-    [ "Validate", "dc/d6b/a14418.html#a53773b6b18b1d3a5be24f3065e8a2875", null ]
+    [ "FilterTargets", "dc/d6b/a14418.html#a45b0713b2942199bf0e19752fe765aac", null ],
+    [ "PrepareSpellScript", "dc/d6b/a14418.html#a7f7177d7754a99743202f69a0342f587", null ],
+    [ "Register", "dc/d6b/a14418.html#a27b432d8571d48c3f5fb025bbbd29271", null ]
 ];

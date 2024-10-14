@@ -1,17 +1,17 @@
 var a23534 =
 [
-    [ "boss_magtheridon", "d1/d9e/a23534.html#a3d718a101047cd90448577ee520adf5e", null ],
-    [ "DoAction", "d1/d9e/a23534.html#a3015fd8503a0da84e7b78c551587f8a3", null ],
-    [ "JustDied", "d1/d9e/a23534.html#adca91ab2fbfe88cc79b19aaa4bff74cf", null ],
-    [ "JustEngagedWith", "d1/d9e/a23534.html#a93fb4d888ebd6273bca0a128c8303996", null ],
-    [ "KilledUnit", "d1/d9e/a23534.html#a42aa45e199f76f567bc7a677f3d3aedf", null ],
-    [ "Reset", "d1/d9e/a23534.html#a0999e13f434699bb14c2ef6d2467a043", null ],
-    [ "ScheduleCombatEvents", "d1/d9e/a23534.html#ae9b2f0929c2309e6bd57cc1241452d61", null ],
-    [ "UpdateAI", "d1/d9e/a23534.html#a656e9595b30d014c54cc456d7f81f657", null ],
-    [ "_castingQuake", "d1/d9e/a23534.html#ad1c95705a7018b4eb62cbee6f20fb65a", null ],
-    [ "_channelersKilled", "d1/d9e/a23534.html#a305f71322dbe10e12588ebe0c45eff5f", null ],
-    [ "_currentPhase", "d1/d9e/a23534.html#a2871d60efe88d3901bad9a4c5249fcfb", null ],
-    [ "_interruptScheduler", "d1/d9e/a23534.html#aae56fde097d925bcf58be1d8e6bf50f4", null ],
-    [ "_magReleased", "d1/d9e/a23534.html#a6dd4891771771acf5456a129113e864e", null ],
-    [ "_recentlySpoken", "d1/d9e/a23534.html#af860281db4d20e3d3b9589657c921a50", null ]
+    [ "boss_grand_warlock_nethekurse", "d1/d9e/a23534.html#a4eefeb639cf5f0753feb6cfd99cda187", null ],
+    [ "DoAction", "d1/d9e/a23534.html#a8288f8c28b61dac574254435534b5e3f", null ],
+    [ "IntroRP", "d1/d9e/a23534.html#ae071f8cc7ef44e6c6cf205295debea5f", null ],
+    [ "JustDied", "d1/d9e/a23534.html#a48a2ec7beeb5c9685fc627317acea949", null ],
+    [ "JustEngagedWith", "d1/d9e/a23534.html#a117d2d737433ea89b37ea1ee58e6c237", null ],
+    [ "JustReachedHome", "d1/d9e/a23534.html#afe62561de66fbe7fa92c365a51f01adc", null ],
+    [ "KilledUnit", "d1/d9e/a23534.html#ac29fa30bfa8377a07cbfdd1f0964ebfb", null ],
+    [ "Reset", "d1/d9e/a23534.html#aceef7aace38f5246ad67a1591b7f301c", null ],
+    [ "SetData", "d1/d9e/a23534.html#a6c647262ce7df78c46af6b725cbcc250", null ],
+    [ "UpdateAI", "d1/d9e/a23534.html#aca0bd4c71aafd2d1c54e2ca87d538e9a", null ],
+    [ "_canAggro", "d1/d9e/a23534.html#a9c577798d5bc87654e6984af02d95c34", null ],
+    [ "_introStarted", "d1/d9e/a23534.html#ac7d0737aa28c51cc63d93b8774e536f0", null ],
+    [ "PeonEngagedCount", "d1/d9e/a23534.html#a886a0e792cf5ac6afa9670703cb568ff", null ],
+    [ "PeonKilledCount", "d1/d9e/a23534.html#a8837d810df1d8b8a505d2d6c98ac8be8", null ]
 ];

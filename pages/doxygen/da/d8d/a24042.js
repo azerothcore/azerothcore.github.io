@@ -1,8 +1,7 @@
 var a24042 =
 [
-    [ "npc_captain_saeedAI", "dd/d25/a24046.html", "dd/d25/a24046" ],
-    [ "npc_captain_saeed", "da/d8d/a24042.html#a8a5bee9f908b10451b8d4720dff85670", null ],
-    [ "GetAI", "da/d8d/a24042.html#aa6a232f6c2dd39483273cac41af9a7d7", null ],
-    [ "OnGossipHello", "da/d8d/a24042.html#a7db9b76578743d4ee96b2c4f11dc265c", null ],
-    [ "OnGossipSelect", "da/d8d/a24042.html#a8ace4d924b6f33312d914fb6ce1e0ea6", null ]
+    [ "CheckRequirement", "da/d8d/a24042.html#a4ad521364c6156c0ecef818a23ce7aff", null ],
+    [ "PrepareSpellScript", "da/d8d/a24042.html#a0d995c6ae6d1da0014c053a62b37a7b7", null ],
+    [ "Register", "da/d8d/a24042.html#a25f275e84570f674071bfae03aeb0ddc", null ],
+    [ "Validate", "da/d8d/a24042.html#adc648151e2c61a61a0dc5883d9fa4ae0", null ]
 ];

@@ -1,7 +1,6 @@
 var a16298 =
 [
-    [ "npc_toc_warriorAI", "d3/dc4/a16298.html#a6eee7e4fc83ed56a0f775b6892dc8dcb", null ],
-    [ "myCanCast", "d3/dc4/a16298.html#ac815e13cbbe9a8833330e15213420c65", null ],
-    [ "UpdateAI", "d3/dc4/a16298.html#aa787deda09d9bbf2c54d51e618eb2a82", null ],
-    [ "events", "d3/dc4/a16298.html#ae8f9d3f5f2c9172442c7ba4a83275cc1", null ]
+    [ "spell_faction_champion_warl_unstable_affliction_AuraScript", "dd/da6/a16302.html", "dd/da6/a16302" ],
+    [ "spell_faction_champion_warl_unstable_affliction", "d3/dc4/a16298.html#abe931f01a51b99eae8c10c31cb816e3c", null ],
+    [ "GetAuraScript", "d3/dc4/a16298.html#a21e86741c8718c681dd167ef4b75ccca", null ]
 ];

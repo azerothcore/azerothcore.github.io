@@ -1,6 +1,6 @@
 var a24174 =
 [
-    [ "npc_illidari_spawnAI", "d5/dd0/a24178.html", "d5/dd0/a24178" ],
-    [ "npc_illidari_spawn", "d8/daa/a24174.html#ac8dbb30fe7f40d29a3434c8a888ace60", null ],
-    [ "GetAI", "d8/daa/a24174.html#a7198f506b0d4fd55d22fc72a90f42a09", null ]
+    [ "npc_shattrathflaskvendors", "d8/daa/a24174.html#ab74b234406c2022bf519242a7842458a", null ],
+    [ "OnGossipHello", "d8/daa/a24174.html#af165d6f4640b41a92b36d77c1f1c1161", null ],
+    [ "OnGossipSelect", "d8/daa/a24174.html#ad9eb60422dfc663e6d020a630c09ee05", null ]
 ];

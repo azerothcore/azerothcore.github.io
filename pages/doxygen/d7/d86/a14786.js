@@ -1,7 +1,6 @@
 var a14786 =
 [
-    [ "HandleScript", "d7/d86/a14786.html#ad1654a408e94012a0ac2ade09d61a63e", null ],
-    [ "PrepareSpellScript", "d7/d86/a14786.html#a53e1a8632ca51beefe4fc97a3e471ad7", null ],
-    [ "Register", "d7/d86/a14786.html#aff966352a2babe6e6daed91f02e1190a", null ],
-    [ "Validate", "d7/d86/a14786.html#a6ffcf81642f31ee93f3ec213cdc8f92e", null ]
+    [ "go_ossirian_crystalAI", "d6/d50/a14790.html", "d6/d50/a14790" ],
+    [ "go_ossirian_crystal", "d7/d86/a14786.html#a783f0f0570ee0f667920e29613b565b2", null ],
+    [ "GetAI", "d7/d86/a14786.html#a2f7b12eddc6504917614913e347ec0a0", null ]
 ];

@@ -1,23 +1,13 @@
 var a21014 =
 [
-    [ "instance_utgarde_keep_InstanceMapScript", "d4/da0/a21014.html#a6e1f9553dd78441d41eebf81eb0e743f", null ],
-    [ "CheckAchievementCriteriaMeet", "d4/da0/a21014.html#a136381727f59e41e2a44b1a2df96f531", null ],
-    [ "GetData", "d4/da0/a21014.html#a26b1a6a56c786708f247145dbae7e142", null ],
-    [ "Initialize", "d4/da0/a21014.html#aea59c925ddafa04fbfc7c0df32c0e6d8", null ],
-    [ "IsEncounterInProgress", "d4/da0/a21014.html#a373656d7281621244a9417a335bb6444", null ],
-    [ "OnCreatureCreate", "d4/da0/a21014.html#ab1a0732c93f1e57772a61cbce5edb7fb", null ],
-    [ "OnGameObjectCreate", "d4/da0/a21014.html#ab57bdeba49160c7992d9108c41c153d8", null ],
-    [ "OnPlayerEnter", "d4/da0/a21014.html#ad8310db74874b9f870f4f41dc866c7be", null ],
-    [ "ReadSaveDataMore", "d4/da0/a21014.html#a624b8f4b6b55a1aefd67a52e6097976f", null ],
-    [ "SetData", "d4/da0/a21014.html#a5ceeae5fe64d60c8e5e367c5dd8162cc", null ],
-    [ "WriteSaveDataMore", "d4/da0/a21014.html#add59d5cf1b5098bc303fef469ccfb034", null ],
-    [ "bRocksAchiev", "d4/da0/a21014.html#a727452275b30e8c7a64b69079790e754", null ],
-    [ "ForgeEventMask", "d4/da0/a21014.html#a13d0e3aeaa877a24e0007ad3de4082a0", null ],
-    [ "GO_ForgeAnvilGUID", "d4/da0/a21014.html#a089c9ac48cb3c495930a3708b4c72055", null ],
-    [ "GO_ForgeBellowGUID", "d4/da0/a21014.html#a7dbf5504651c521c971c8f9f63387992", null ],
-    [ "GO_ForgeFireGUID", "d4/da0/a21014.html#a1c84731d3f370ba4dc81a4489a33b14b", null ],
-    [ "GO_PortcullisGUID", "d4/da0/a21014.html#a4ba1247511e8a2a695887e3122958b3c", null ],
-    [ "m_auiEncounter", "d4/da0/a21014.html#a2152552f089d16dbfe43de24d62c692e", null ],
-    [ "NPC_SpecialDrakeGUID", "d4/da0/a21014.html#a8ffa659e32c32a5699b85b68c52239cf", null ],
-    [ "str_data", "d4/da0/a21014.html#a69ed0205bba93d86ff4a28f0317bf37e", null ]
+    [ "npc_ravenous_furbolgAI", "d4/da0/a21014.html#a3e2a0cac8a02d2d6105b06b5c21f1628", null ],
+    [ "DoAction", "d4/da0/a21014.html#a837b442d7812b0c5708995d35c0d45f6", null ],
+    [ "JustDied", "d4/da0/a21014.html#a03e5dd969fcc2e3dcebc714247e18bf2", null ],
+    [ "JustEngagedWith", "d4/da0/a21014.html#a003eb350a11f3f5c2355a58958633f36", null ],
+    [ "JustReachedHome", "d4/da0/a21014.html#a09fc5ba4680c1e5a7a49a81c50cee540", null ],
+    [ "MoveInLineOfSight", "d4/da0/a21014.html#a0b4db9708b9b0288ddb1be2f2205e03a", null ],
+    [ "Reset", "d4/da0/a21014.html#aca5ae47050590ec22e6e929f44e09276", null ],
+    [ "UpdateAI", "d4/da0/a21014.html#ad044c04381a8d61a8fefc55129453ddf", null ],
+    [ "events", "d4/da0/a21014.html#a8bf068c63d7ae10c6edf0af3aab1a6c3", null ],
+    [ "m_pInstance", "d4/da0/a21014.html#aeb0a7644ada4d44e649b4ae45e0d2dc2", null ]
 ];

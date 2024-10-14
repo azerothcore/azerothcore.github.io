@@ -1,17 +1,10 @@
 var a03746 =
 [
-    [ "instance_zulgurub", "da/da0/a13970.html", "da/da0/a13970" ],
-    [ "instance_zulgurub::instance_zulgurub_InstanceMapScript", "d0/d0d/a13974.html", "d0/d0d/a13974" ],
-    [ "go_brazier_of_madness", "df/d6a/a13978.html", "df/d6a/a13978" ],
-    [ "EdgeOfMadnessEnum", "d7/d4f/a03746.html#a45822838f1310b1a812eba191cb3d416", [
-      [ "EVENT_EDGE_OF_MADNESS_GRILEK", "d7/d4f/a03746.html#a45822838f1310b1a812eba191cb3d416ad02945634d7affb86fe4a6fa1baee9e7", null ],
-      [ "EVENT_EDGE_OF_MADNESS_HAZZARAH", "d7/d4f/a03746.html#a45822838f1310b1a812eba191cb3d416a8ec0daec449beba98b500943bcacc8e4", null ],
-      [ "EVENT_EDGE_OF_MADNESS_RENATAKI", "d7/d4f/a03746.html#a45822838f1310b1a812eba191cb3d416a4d7aeb529f52ed41b6c933726f9e2e1d", null ],
-      [ "EVENT_EDGE_OF_MADNESS_WUSHOOLAY", "d7/d4f/a03746.html#a45822838f1310b1a812eba191cb3d416ac13476b6183a6ba6aad91191ef3c1073", null ]
-    ] ],
-    [ "AddSC_instance_zulgurub", "d7/d4f/a03746.html#a224e147b1990c0996e0ac61a1865e34c", null ],
-    [ "BrazierOfMadnessContainer", "d7/d4f/a03746.html#a808ff75d7f4ab6555cdc154544ef727f", null ],
-    [ "creatureData", "d7/d4f/a03746.html#a412286b689bd324fedd65ddd8dde8afb", null ],
-    [ "doorData", "d7/d4f/a03746.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],
-    [ "edgeOfMagnessSummonPos", "d7/d4f/a03746.html#a352683729da59da9923d0f67d510f73c", null ]
+    [ "EnchStoreItem", "de/de3/a08082.html", "de/de3/a08082" ],
+    [ "EnchantmentStore", "d7/d4f/a03746.html#ab462bc366dd954f1c0b539c408b74c01", null ],
+    [ "EnchStoreList", "d7/d4f/a03746.html#ab5e9dd6a265a402e7a9499fdaae1e850", null ],
+    [ "GenerateEnchSuffixFactor", "d7/d4f/a03746.html#a25026e783b088b45eebd4db8295b1b87", null ],
+    [ "GetItemEnchantMod", "d7/d4f/a03746.html#a76d03c9ceb2d3ac35582eaea4624544f", null ],
+    [ "LoadRandomEnchantmentsTable", "d7/d4f/a03746.html#a376fabf7bba54eaf928217f860f1c33b", null ],
+    [ "RandomItemEnch", "d7/d4f/a03746.html#a6aeb6f30f019ca8d9839fcf41beb1ac7", null ]
 ];

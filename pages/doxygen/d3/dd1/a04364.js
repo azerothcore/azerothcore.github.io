@@ -1,6 +1,8 @@
 var a04364 =
 [
-    [ "instance_wailing_caverns", "d3/d85/a15102.html", "d3/d85/a15102" ],
-    [ "instance_wailing_caverns::instance_wailing_caverns_InstanceMapScript", "d0/d36/a15106.html", "d0/d36/a15106" ],
-    [ "AddSC_instance_wailing_caverns", "d3/dd1/a04364.html#a67427453c8ec357648c276eaed523225", null ]
+    [ "StoredLootItem", "d0/d0f/a09346.html", "d0/d0f/a09346" ],
+    [ "LootItemStorage", "d4/ddb/a09350.html", "d4/ddb/a09350" ],
+    [ "sLootItemStorage", "d3/dd1/a04364.html#a06515a8a4bd76cd02aa0ab99d3d7c64e", null ],
+    [ "LootItemContainer", "d3/dd1/a04364.html#a06cc23df363d1d767959d7ab5ec29ad5", null ],
+    [ "StoredLootItemList", "d3/dd1/a04364.html#aa16defe92374d7db2d28958ee8fce21d", null ]
 ];

@@ -1,7 +1,5 @@
 var a24282 =
 [
-    [ "npc_isla_starmaneAI", "d9/d41/a24286.html", "d9/d41/a24286" ],
-    [ "npc_isla_starmane", "dd/d1c/a24282.html#af30b3658d8f19be0dc07cb35eeb04668", null ],
-    [ "GetAI", "dd/d1c/a24282.html#a0ea2dbaab4115772f92849e06aa85575", null ],
-    [ "OnQuestAccept", "dd/d1c/a24282.html#afeda3da3761e96e2901ea06c5a26fa3a", null ]
+    [ "npc_pet_dk_army_of_the_deadAI", "dd/d1c/a24282.html#a2d934ed807d225f6b9f2206f0556f26d", null ],
+    [ "InitializeAI", "dd/d1c/a24282.html#af3ecec126ed3d902acd4bfe979382307", null ]
 ];

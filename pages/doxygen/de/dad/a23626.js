@@ -1,6 +1,7 @@
 var a23626 =
 [
-    [ "instance_shattered_halls_InstanceMapScript", "da/d01/a23630.html", "da/d01/a23630" ],
-    [ "instance_shattered_halls", "de/dad/a23626.html#a9d0d3b6baec34c679151791610cff3a7", null ],
-    [ "GetInstanceScript", "de/dad/a23626.html#a82388466811b022a725ba721845cadf3", null ]
+    [ "boss_zereketh_the_unbound", "de/dad/a23626.html#abb2fc5cbe7514142160818016fda1936", null ],
+    [ "JustDied", "de/dad/a23626.html#ac5d96da9a33a536f2002cce11453ded3", null ],
+    [ "JustEngagedWith", "de/dad/a23626.html#ad0305f3eeb578d6dcd2db835331eb10f", null ],
+    [ "KilledUnit", "de/dad/a23626.html#a07d3a1264e6d78c2696990755fc7fe45", null ]
 ];

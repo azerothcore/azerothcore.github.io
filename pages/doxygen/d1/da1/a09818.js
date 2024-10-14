@@ -1,13 +1,10 @@
 var a09818 =
 [
-    [ "entry", "d1/da1/a09818.html#a300fb240386044aab139e777d6244d19", null ],
-    [ "map", "d1/da1/a09818.html#a2ec529bbd5b03490899a5c3a41cf739a", null ],
-    [ "o", "d1/da1/a09818.html#a379e36eac68d8ff487c90fdb9be0e83d", null ],
-    [ "rot0", "d1/da1/a09818.html#a8b808a7545a7efaf0bf352ec663ca9ba", null ],
-    [ "rot1", "d1/da1/a09818.html#a9aa433644fc5bedbb3749eacfd9a57fd", null ],
-    [ "rot2", "d1/da1/a09818.html#ae7c9755e9ae6293b3be8bdc121040f7f", null ],
-    [ "rot3", "d1/da1/a09818.html#a60460fc3030b24eef0246dae28af2282", null ],
-    [ "x", "d1/da1/a09818.html#a1587c3d17c78e1a94a1f2bc30b831c02", null ],
-    [ "y", "d1/da1/a09818.html#ab42ebe981ba589e3d67110487bd88255", null ],
-    [ "z", "d1/da1/a09818.html#a389d430f290dbb66d46ccb81daac6f0d", null ]
+    [ "WaypointMgr", "d1/da1/a09818.html#a2f038884959f10348bd5b7af3abee7db", null ],
+    [ "~WaypointMgr", "d1/da1/a09818.html#a7b0fed55791df7ab040a46984700d18e", null ],
+    [ "GetPath", "d1/da1/a09818.html#a8492dcbb35f4bdb563f861c521eb5317", null ],
+    [ "instance", "d1/da1/a09818.html#aacd2ed943503288057b3fb9a935a56e9", null ],
+    [ "Load", "d1/da1/a09818.html#a69ae451ce07f2e68be81b1a86649115d", null ],
+    [ "ReloadPath", "d1/da1/a09818.html#ac1364780d1ab0c91ca95d366419ca3df", null ],
+    [ "_waypointStore", "d1/da1/a09818.html#af70ce7663d7f132339ea8d163311c248", null ]
 ];

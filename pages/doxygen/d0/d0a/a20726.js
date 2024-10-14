@@ -1,6 +1,6 @@
 var a20726 =
 [
-    [ "boss_yoggsaron_death_orbAI", "de/d3a/a20730.html", "de/d3a/a20730" ],
-    [ "boss_yoggsaron_death_orb", "d0/d0a/a20726.html#a862d01f012cee832b41bc7c584816b93", null ],
-    [ "GetAI", "d0/d0a/a20726.html#a3169cd0e78642503f394a6cb74307871", null ]
+    [ "boss_yoggsaron_immortal_guardianAI", "de/d3a/a20730.html", "de/d3a/a20730" ],
+    [ "boss_yoggsaron_immortal_guardian", "d0/d0a/a20726.html#a4009759d284b54cb958ee0bb80c45f14", null ],
+    [ "GetAI", "d0/d0a/a20726.html#ac532ca090d93ce6d11a0332329111f2b", null ]
 ];

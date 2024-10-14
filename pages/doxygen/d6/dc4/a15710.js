@@ -1,5 +1,6 @@
 var a15710 =
 [
-    [ "PrepareAuraScript", "d6/dc4/a15710.html#a94b3a8e0a610afa69c3a9771f8f22b13", null ],
-    [ "Register", "d6/dc4/a15710.html#a1203cbec26f64aa97d10783b567c2d62", null ]
+    [ "instance_azjol_nerub_InstanceScript", "da/d13/a15714.html", "da/d13/a15714" ],
+    [ "instance_azjol_nerub", "d6/dc4/a15710.html#a61476a0d15136d2bdb3a65eca72963da", null ],
+    [ "GetInstanceScript", "d6/dc4/a15710.html#a8bb8477669c6369afe508a400bd4d489", null ]
 ];

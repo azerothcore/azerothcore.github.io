@@ -1,6 +1,7 @@
 var a15890 =
 [
-    [ "npc_onyx_flamecallerAI", "d2/dc0/a15894.html", "d2/dc0/a15894" ],
-    [ "npc_onyx_flamecaller", "d8/dad/a15890.html#af27af3cb3bbaba0801481ba77a94f9c6", null ],
-    [ "GetAI", "d8/dad/a15890.html#a712284f1997635aaf7ecd7ca0a263c05", null ]
+    [ "HandlePeriodic", "d8/dad/a15890.html#ab49a636eaddea5c91f86f21a1d4d182e", null ],
+    [ "PrepareAuraScript", "d8/dad/a15890.html#a3a9a26b3e0964e08d67a89cd950b5a97", null ],
+    [ "Register", "d8/dad/a15890.html#aed8d41a9bf289b21caa9e93e66b004d2", null ],
+    [ "Validate", "d8/dad/a15890.html#a3a428e0e4f63770a35cdf6a6ac85e403", null ]
 ];

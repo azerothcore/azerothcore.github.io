@@ -1,6 +1,6 @@
 var a17270 =
 [
-    [ "HandleScript", "d3/df0/a17270.html#acd11d50f398857dc2a24bd2d63e52222", null ],
-    [ "PrepareSpellScript", "d3/df0/a17270.html#a3d218b009c195b6e0fab5152a95da8ad", null ],
-    [ "Register", "d3/df0/a17270.html#ad7f12515dc21ab6b19148370fd491629", null ]
+    [ "ModAuraValue", "d3/df0/a17270.html#a359453c6253beb6f729209c6d3d79af7", null ],
+    [ "PrepareSpellScript", "d3/df0/a17270.html#a4f916abef69782be10cc6be9ba0124f5", null ],
+    [ "Register", "d3/df0/a17270.html#a4a387df07c88144288c4327ce86b730a", null ]
 ];

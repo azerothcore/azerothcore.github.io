@@ -1,8 +1,6 @@
 var a14502 =
 [
-    [ "hyjalTyrandeAI", "d0/d1c/a14502.html#ac2f5449b60cd137dbc1f6ddc8afe5309", null ],
-    [ "JustDied", "d0/d1c/a14502.html#af5c7b843b8e1a7c0864b55853bc62097", null ],
-    [ "JustEngagedWith", "d0/d1c/a14502.html#a158589b567d22c8f6e0be462bad8299d", null ],
-    [ "Reset", "d0/d1c/a14502.html#a5ea52a1ee3730630d1efbdac4ad24c80", null ],
-    [ "UpdateAI", "d0/d1c/a14502.html#a9e825f9d87df6227b73eb965488eff8a", null ]
+    [ "boss_meathookAI", "d1/d89/a14506.html", "d1/d89/a14506" ],
+    [ "boss_meathook", "d0/d1c/a14502.html#a044c8ec4a419e5c5a8b290df9c0ad169", null ],
+    [ "GetAI", "d0/d1c/a14502.html#ae8ee3631ff1f80f4fad99e4eca042ad8", null ]
 ];

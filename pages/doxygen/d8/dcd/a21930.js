@@ -1,7 +1,6 @@
 var a21930 =
 [
-    [ "HandleDummy", "d8/dcd/a21930.html#a98e8a4b7bbe947b00f1bc32632736d59", null ],
-    [ "PrepareSpellScript", "d8/dcd/a21930.html#a65b1ddf275eb5ee14ca32a1e25bf6e0e", null ],
-    [ "Register", "d8/dcd/a21930.html#acdfa4e1fc8e26a887e80521b1bea5150", null ],
-    [ "Validate", "d8/dcd/a21930.html#aeec15705a41ad2ac0e59d90086591d96", null ]
+    [ "npc_black_knight_graveyardAI", "d4/d03/a21934.html", "d4/d03/a21934" ],
+    [ "npc_black_knight_graveyard", "d8/dcd/a21930.html#a2ce61ba254916f1f8b7a7658f96b67d5", null ],
+    [ "GetAI", "d8/dcd/a21930.html#aab382cd1b7561c0db9c9f4c81247e540", null ]
 ];

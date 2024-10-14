@@ -1,7 +1,6 @@
 var a24806 =
 [
-    [ "CheckRequirement", "dd/df7/a24806.html#a6be5f335a15226db87a04548490f488d", null ],
-    [ "PrepareSpellScript", "dd/df7/a24806.html#a25463eda0ce51a124e8715baf305c8f6", null ],
-    [ "Register", "dd/df7/a24806.html#a8db5a5597d8f6fe4064799766fb61502", null ],
-    [ "_level", "dd/df7/a24806.html#a3d6867e8eae9afde2b03acc2e6ebe961", null ]
+    [ "CheckProc", "dd/df7/a24806.html#af742bdfd97c9202d50ed7aa1cf8e7d49", null ],
+    [ "PrepareAuraScript", "dd/df7/a24806.html#a255a58ad99059ba28ab09a94e7cc683a", null ],
+    [ "Register", "dd/df7/a24806.html#a4ec4dd2342a5b75c975dc6ffe0b02b79", null ]
 ];

@@ -1,5 +1,6 @@
 var a20674 =
 [
-    [ "achievement_xt002_nerf_engineering", "dd/d35/a20674.html#a5be8c0a8a51d81c4014ec0ab92c21f79", null ],
-    [ "OnCheck", "dd/d35/a20674.html#a2b401f51d1ba7ed817f95d81d1048adf", null ]
+    [ "boss_yoggsaron_death_orbAI", "d8/d1e/a20678.html", "d8/d1e/a20678" ],
+    [ "boss_yoggsaron_death_orb", "dd/d35/a20674.html#a862d01f012cee832b41bc7c584816b93", null ],
+    [ "GetAI", "dd/d35/a20674.html#a3169cd0e78642503f394a6cb74307871", null ]
 ];

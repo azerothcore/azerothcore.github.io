@@ -1,6 +1,6 @@
 var a19594 =
 [
-    [ "npc_living_constellationAI", "db/d79/a19598.html", "db/d79/a19598" ],
-    [ "npc_living_constellation", "d4/d20/a19594.html#a6ee651a525498cb5715ccfedaa26e05d", null ],
-    [ "GetAI", "d4/d20/a19594.html#a4533812a4da72c0d9eff6d6c9eaf772a", null ]
+    [ "PrepareSpellScript", "d4/d20/a19594.html#af280f3880e2e567188ba8ca3e45c00c0", null ],
+    [ "RecalculateDamage", "d4/d20/a19594.html#a54c26d24f62c36108f9fceb7a0c53e37", null ],
+    [ "Register", "d4/d20/a19594.html#aac131aa2d2e5342cf0303b918a077b45", null ]
 ];

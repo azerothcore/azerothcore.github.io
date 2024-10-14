@@ -1,7 +1,5 @@
 var a25146 =
 [
-    [ "HandleStun", "d1/df0/a25146.html#aec7b18c9fe4d03e6e61dd2e43c842a93", null ],
-    [ "PrepareAuraScript", "d1/df0/a25146.html#a26bf4bfdbe5ccf890d75bc663f228639", null ],
-    [ "Register", "d1/df0/a25146.html#a660a0e41ac5918cd365f4c47fea9c230", null ],
-    [ "Validate", "d1/df0/a25146.html#a4e89cdbc719b32576f57dd6f7e5d3f2a", null ]
+    [ "PrepareSpellScript", "d1/df0/a25146.html#ae49ad5a4ad43099c4510e1666ff6415b", null ],
+    [ "Register", "d1/df0/a25146.html#ad31fa6c2099d984389c3fb12e53a5bd8", null ]
 ];

@@ -1,10 +1,9 @@
 var a08954 =
 [
-    [ "AnyDeadUnitObjectInRangeCheck", "dc/d5e/a08954.html#ad51c7d9c256d8d769e7e5df2a618f233", null ],
-    [ "operator()", "dc/d5e/a08954.html#a71355418a935e1e4c4f5294c0e6a244f", null ],
-    [ "operator()", "dc/d5e/a08954.html#ae885f49537043421a92b44c201bec358", null ],
-    [ "operator()", "dc/d5e/a08954.html#a92b2dcfedf97677e84f46ee0e3affb91", null ],
-    [ "operator()", "dc/d5e/a08954.html#ae7a76a9bcc28c6e4705a2885b02be20d", null ],
-    [ "i_range", "dc/d5e/a08954.html#a1a95cfd469f27284e6ff35e9856bddcb", null ],
-    [ "i_searchObj", "dc/d5e/a08954.html#acf10f61f95961ff4b9fd4a8c162fa029", null ]
+    [ "PlayerDistWorker", "dc/d5e/a08954.html#a53c207607485724ba7c3aa5e9fd02b51", null ],
+    [ "Visit", "dc/d5e/a08954.html#a6cb5d9bdf26bc96a24e5660ca3b3758b", null ],
+    [ "Visit", "dc/d5e/a08954.html#a2658f12f90953f1057a9377b21824879", null ],
+    [ "i_dist", "dc/d5e/a08954.html#aad16511b6a9aaa3eb561f636475ffe97", null ],
+    [ "i_do", "dc/d5e/a08954.html#a0e1738a71d7feda9f607ee964ff1fff2", null ],
+    [ "i_searcher", "dc/d5e/a08954.html#a3a3bf9b1a4bd06c54c99ceb7ba39941f", null ]
 ];

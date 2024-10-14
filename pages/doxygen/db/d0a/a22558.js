@@ -1,12 +1,11 @@
 var a22558 =
 [
-    [ "boss_shirrak_the_dead_watcher", "db/d0a/a22558.html#aaa6826de3b6563342b89544b38386d93", null ],
-    [ "EnterEvadeMode", "db/d0a/a22558.html#a23768629c4ab48954880c3c29099f432", null ],
-    [ "getStackCount", "db/d0a/a22558.html#aabca8240dfdc6603f0c244286a4d2cfe", null ],
-    [ "JustEngagedWith", "db/d0a/a22558.html#a095ce3401bf0e40255e3104c01ce5fb0", null ],
-    [ "JustSummoned", "db/d0a/a22558.html#a0a8e0d5126d14bd6d15004320b311f36", null ],
-    [ "Reset", "db/d0a/a22558.html#aa16810aeadfac21c53a28ffbca3babdc", null ],
-    [ "SpellHitTarget", "db/d0a/a22558.html#a7cb51a74e53dd6a22a3dbfe4e2220d37", null ],
-    [ "UpdateAI", "db/d0a/a22558.html#a855505f949f53f979187abcb5b2f617f", null ],
-    [ "focusGUID", "db/d0a/a22558.html#a81a7eade42ef595c173d7828ce59ef88", null ]
+    [ "boss_talon_king_ikiss", "db/d0a/a22558.html#acf8cbda5f7a33c026bfc0d6e7b31f43c", null ],
+    [ "CanAIAttack", "db/d0a/a22558.html#ab4858d845f149b6333941d8f8ab59afb", null ],
+    [ "JustDied", "db/d0a/a22558.html#ada1d993842d04453d6afad91e186a3fe", null ],
+    [ "JustEngagedWith", "db/d0a/a22558.html#a325312ce6695435fcca701720434c64f", null ],
+    [ "KilledUnit", "db/d0a/a22558.html#ae8d94f89a67f3a321c88327c076ddd77", null ],
+    [ "MoveInLineOfSight", "db/d0a/a22558.html#ab13808b75b1ca79b856e5b2e64e67d89", null ],
+    [ "Reset", "db/d0a/a22558.html#adcb1dca375ec548499da5a7690babc21", null ],
+    [ "_spoken", "db/d0a/a22558.html#a3e9e3a8575dbf21262ba2b4226182373", null ]
 ];

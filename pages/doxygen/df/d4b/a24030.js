@@ -1,7 +1,10 @@
 var a24030 =
 [
-    [ "npc_kurenai_captiveAI", "d1/d37/a24034.html", "d1/d37/a24034" ],
-    [ "npc_kurenai_captive", "df/d4b/a24030.html#ae0e283bfc476f2d9e602158fa8720cdc", null ],
-    [ "GetAI", "df/d4b/a24030.html#ad6f9abf280ca7c3a1b16f7e4815fb979", null ],
-    [ "OnQuestAccept", "df/d4b/a24030.html#a7ecdb782bf084f3fd0f9dc3e2e10bf4a", null ]
+    [ "npc_maxx_a_million_escortAI", "df/d4b/a24030.html#ab827933527ed7b4a04b162034876ced8", null ],
+    [ "JustDied", "df/d4b/a24030.html#a2106ab4d32d0f221f62eeffd93f71380", null ],
+    [ "Reset", "df/d4b/a24030.html#a6b9b2ed76e26f908ff2272ad8744a59e", null ],
+    [ "UpdateAI", "df/d4b/a24030.html#a3b022feb2303875d32ad981e84f66854", null ],
+    [ "WaypointReached", "df/d4b/a24030.html#acd6f45abb93f3f043cd85647405a50f6", null ],
+    [ "bTake", "df/d4b/a24030.html#ac697fc6cbc20c7f316845ed26436049b", null ],
+    [ "uiTakeTimer", "df/d4b/a24030.html#a5d4826dcf893f444a42dedba57460110", null ]
 ];

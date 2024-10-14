@@ -1,17 +1,12 @@
 var a18830 =
 [
-    [ "boss_faerlinaAI", "de/dd3/a18830.html#a3a97178599b9053c23a079ed1a2ed163", null ],
-    [ "JustDied", "de/dd3/a18830.html#a7ac2e510568a9dad710beaad42db0544", null ],
-    [ "JustEngagedWith", "de/dd3/a18830.html#a830dfa4fed62b4588ea8866174d3653a", null ],
-    [ "JustSummoned", "de/dd3/a18830.html#a4b8294cccdddc77ab3d47130ae640970", null ],
-    [ "KilledUnit", "de/dd3/a18830.html#a6f7a6e66abcf4f4dd685bbb805920900", null ],
-    [ "MoveInLineOfSight", "de/dd3/a18830.html#aa5cd735c22d46e1b756f87f3952033a1", null ],
-    [ "Reset", "de/dd3/a18830.html#acee81492b9b751df587a3a2cdd691ab3", null ],
-    [ "SpellHit", "de/dd3/a18830.html#aa4fac163e31dcd9353238f993259d5ec", null ],
-    [ "SummonHelpers", "de/dd3/a18830.html#af2fbf866f87d568ee6028f0931d3b74e", null ],
-    [ "UpdateAI", "de/dd3/a18830.html#af3f25749a8964ee48830faca7135ed3a", null ],
-    [ "events", "de/dd3/a18830.html#a61c02ce073bd4cf261aca8a46bb13175", null ],
-    [ "pInstance", "de/dd3/a18830.html#a7ee42aa0dc3d035e5f3033146a624fda", null ],
-    [ "sayGreet", "de/dd3/a18830.html#a5f20e23458886c4f38c8f4a032e903d6", null ],
-    [ "summons", "de/dd3/a18830.html#ae6eabcd889a786344b10165de952c5f7", null ]
+    [ "npc_gothik_triggerAI", "de/dd3/a18830.html#ae45c6de238755eb069e0c182943da58c", null ],
+    [ "DamageTaken", "de/dd3/a18830.html#ada8e501edfadbb55162532f081a4b48b", null ],
+    [ "EnterEvadeMode", "de/dd3/a18830.html#aae212c3aecdf82f509ed0bf841f16e59", null ],
+    [ "JustEngagedWith", "de/dd3/a18830.html#ab5403383f1fcd539cacf975dffbe2817", null ],
+    [ "JustSummoned", "de/dd3/a18830.html#a35be0135b77a3e62ac8d421910cf0674", null ],
+    [ "SelectRandomSkullPile", "de/dd3/a18830.html#aeafc63047c9059afdf668b8c22d2937f", null ],
+    [ "SpellHit", "de/dd3/a18830.html#a18a8135ab0395991afc4896950783ae5", null ],
+    [ "SummonedCreatureDespawn", "de/dd3/a18830.html#ad7ed092509dd41fddd44a4024c011364", null ],
+    [ "UpdateAI", "de/dd3/a18830.html#a388a20d6d720f5f44a67073fc40e98b6", null ]
 ];

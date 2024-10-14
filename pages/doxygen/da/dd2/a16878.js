@@ -1,7 +1,11 @@
 var a16878 =
 [
-    [ "HandlePeriodicTick", "da/dd2/a16878.html#ac8b3f1a826e3491d4315983a89d23d2e", null ],
-    [ "PrepareAuraScript", "da/dd2/a16878.html#ad54c3014195c5b848ab1f9cc978f72b3", null ],
-    [ "Register", "da/dd2/a16878.html#af8e1ee8ddf7ed8290eb71fb7697428fb", null ],
-    [ "Validate", "da/dd2/a16878.html#a6de2140f17790b63314f653b7dd0ddd3", null ]
+    [ "npc_pos_tyrannus_eventsAI", "da/dd2/a16878.html#a51769d22a4cb448fae90d827e2494581", null ],
+    [ "MovementInform", "da/dd2/a16878.html#ac0d1550855988fe6f562e8a0a6ada80f", null ],
+    [ "SetData", "da/dd2/a16878.html#a8f8bbb06c50215c90cf11ddbc925ba5d", null ],
+    [ "UpdateAI", "da/dd2/a16878.html#a6c4d82c46547bbb2f86dd7f9fa88c743", null ],
+    [ "deathbringerGUID", "da/dd2/a16878.html#a21ea8c66374403d0eca83e4d24c80a7a", null ],
+    [ "events", "da/dd2/a16878.html#a317d48c75a93ef5abaa3329ab10a1c8e", null ],
+    [ "killsLeft", "da/dd2/a16878.html#ac81d85e0ceb0b571373f44475baa36df", null ],
+    [ "pInstance", "da/dd2/a16878.html#a44460335986bcedf35dc295c242df6da", null ]
 ];

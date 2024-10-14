@@ -1,5 +1,6 @@
 var a21346 =
 [
-    [ "go_vh_activation_crystal", "d6/d6f/a21346.html#a4af485ac7ab6144282f3204a6d045cea", null ],
-    [ "OnGossipHello", "d6/d6f/a21346.html#a47a61ba67086580135559332931e9c6e", null ]
+    [ "npc_azure_stalkerAI", "da/dfc/a21350.html", "da/dfc/a21350" ],
+    [ "npc_azure_stalker", "d6/d6f/a21346.html#ad069edc43b4f489e0b2c7aa4952eeb63", null ],
+    [ "GetAI", "d6/d6f/a21346.html#a1c067809f98a4d7845d2fb4269742274", null ]
 ];

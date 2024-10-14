@@ -1,5 +1,5 @@
 var a26962 =
 [
-    [ "achievement_not_even_a_scratch", "d6/dd0/a26962.html#a0d025c09d35c3640016ab42e11dd96eb", null ],
-    [ "OnCheck", "d6/dd0/a26962.html#a81f6c9bd36e5a3eea3fe0af24c9f1649", null ]
+    [ "AreaTrigger_at_last_rites", "d6/dd0/a26962.html#a30d1930c76920ab12cf4f9b04fd5f0e4", null ],
+    [ "OnTrigger", "d6/dd0/a26962.html#a48f6e2041cda24812a165fa0fb62f1b6", null ]
 ];

@@ -1,6 +1,6 @@
 var a17190 =
 [
-    [ "HandleScript", "d7/df7/a17190.html#ace45b0d9ce3815046e842d462fdcc9b6", null ],
-    [ "PrepareSpellScript", "d7/df7/a17190.html#a0257968b3a4d9ef3241420bbc5abb63a", null ],
-    [ "Register", "d7/df7/a17190.html#aed524436eacc6f1dddcc2f3cb6f502fc", null ]
+    [ "FilterTargets", "d7/df7/a17190.html#aede4900c9b71bf60ca61e03dd0b63aa8", null ],
+    [ "PrepareSpellScript", "d7/df7/a17190.html#a2ddc1dc9c04297a80f6708e546fe5a58", null ],
+    [ "Register", "d7/df7/a17190.html#add40d7731b07b30b595f76f7d4e983f4", null ]
 ];

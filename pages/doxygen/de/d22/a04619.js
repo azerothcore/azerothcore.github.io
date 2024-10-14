@@ -1,5 +1,5 @@
 var a04619 =
 [
-    [ "DBCStorageBase", "de/d34/a27622.html", "de/d34/a27622" ],
-    [ "DBCStorage< T >", "d5/da6/a27626.html", "d5/da6/a27626" ]
+    [ "BuildPartyLockDungeonBlock", "de/d22/a04619.html#ad66b117794d47e10cfd7ba8bd40d4291", null ],
+    [ "BuildPlayerLockDungeonBlock", "de/d22/a04619.html#aded010efcdae2fc43acfab5ff8fbf4ad", null ]
 ];

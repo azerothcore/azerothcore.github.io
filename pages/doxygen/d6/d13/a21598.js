@@ -1,10 +1,6 @@
 var a21598 =
 [
-    [ "npc_preparations_for_war_vehicle", "d6/d13/a21598.html#a56b37aa1c2b50cac4dfb6b907ffb6d48", null ],
-    [ "InitializeAI", "d6/d13/a21598.html#a85eaba9e51498313f8498eaaf0e7d0d1", null ],
-    [ "MovementInform", "d6/d13/a21598.html#ac78c5675b42563f46cc2af0f0c97bee0", null ],
-    [ "UpdateAI", "d6/d13/a21598.html#ae40a23070d96ecf122e9de5571a845ef", null ],
-    [ "pointId", "d6/d13/a21598.html#ae75d286eb6116b41adb346861b3c1365", null ],
-    [ "searchForShipTimer", "d6/d13/a21598.html#a49f8a43891d61460b1d6cdde610a2e88", null ],
-    [ "transportEntry", "d6/d13/a21598.html#aa0083566387cd42750aaa56b1fa23fed", null ]
+    [ "npc_dalaran_mageAI", "d6/d2e/a21602.html", "d6/d2e/a21602" ],
+    [ "npc_dalaran_mage", "d6/d13/a21598.html#a764d637ab0c64e2a0cc0459269974d6d", null ],
+    [ "GetAI", "d6/d13/a21598.html#ae2deef0546e2bf0df562e0a67b8b0b93", null ]
 ];

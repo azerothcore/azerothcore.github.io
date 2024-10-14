@@ -1,7 +1,6 @@
 var a15962 =
 [
-    [ "HandleScriptEffect", "d0/dfb/a15962.html#a9582a8faa1b8ba973a76d651a7479348", null ],
-    [ "PrepareSpellScript", "d0/dfb/a15962.html#a681102507df3aa365ee2e2f064be5e54", null ],
-    [ "Register", "d0/dfb/a15962.html#aebfea5eb3339ede812b43a08a8cb82b9", null ],
-    [ "Validate", "d0/dfb/a15962.html#ae4a5c7952856caf2a2d3919b24b61949", null ]
+    [ "boss_saviana_ragefireAI", "da/d74/a15966.html", "da/d74/a15966" ],
+    [ "boss_saviana_ragefire", "d0/dfb/a15962.html#a5964bbc510355a8b1fd08bd5f9f5f8c0", null ],
+    [ "GetAI", "d0/dfb/a15962.html#a0a0073d8710af066d9711636f4d5b01e", null ]
 ];

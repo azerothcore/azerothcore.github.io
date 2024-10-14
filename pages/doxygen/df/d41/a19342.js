@@ -1,6 +1,6 @@
 var a19342 =
 [
-    [ "HandleEffectCalcAmount", "df/d41/a19342.html#afa50ce616d36dd59c7195209074d6182", null ],
-    [ "PrepareAuraScript", "df/d41/a19342.html#a4638b99dac7653f13d59c3928a78b3b9", null ],
-    [ "Register", "df/d41/a19342.html#a691d5a99eec9e367c518d0244f25bd41", null ]
+    [ "npc_spark_of_ionarAI", "dc/d36/a19346.html", "dc/d36/a19346" ],
+    [ "npc_spark_of_ionar", "df/d41/a19342.html#a63578a0d77331849b7a48272870af04d", null ],
+    [ "GetAI", "df/d41/a19342.html#aa1e524327b76ddc11a32e7a094e39dd1", null ]
 ];

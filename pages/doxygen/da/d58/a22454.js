@@ -1,13 +1,5 @@
 var a22454 =
 [
-    [ "OPvPCapturePointEP_PWT", "da/d58/a22454.html#a17e3d11c9b282f203bb0e1511fb5af02", null ],
-    [ "ChangeState", "da/d58/a22454.html#a1e26a3ed8d700533df0a51d8db510a4f", null ],
-    [ "FillInitialWorldStates", "da/d58/a22454.html#a823b74c3f4e2dac7e02b060ccfb93c89", null ],
-    [ "HandlePlayerEnter", "da/d58/a22454.html#ab9bf289c0814e60fd75902b4e87d1e46", null ],
-    [ "HandlePlayerLeave", "da/d58/a22454.html#a5772e54263c613eee365856def5e74e6", null ],
-    [ "SendChangePhase", "da/d58/a22454.html#af1cffc64adac5b64c04175ad1685d0b8", null ],
-    [ "SummonFlightMaster", "da/d58/a22454.html#ab3808f8d756cc5f0b48db9375ae2fa1c", null ],
-    [ "UpdateTowerState", "da/d58/a22454.html#af30325b43d2861eb667b33dcb23ffc1e", null ],
-    [ "m_FlightMasterSpawnedId", "da/d58/a22454.html#afeefd804849b925e6d0a880d8efb5319", null ],
-    [ "m_TowerState", "da/d58/a22454.html#a914dcbb37baf457750cfe9829d95d88c", null ]
+    [ "OutdoorPvP_silithus", "da/d58/a22454.html#a8b53dd86c265d277ad1cb49bd6a795bc", null ],
+    [ "GetOutdoorPvP", "da/d58/a22454.html#a126d6acc77218addd10072199ccd2470", null ]
 ];

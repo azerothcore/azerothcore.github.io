@@ -1,6 +1,7 @@
 var a22866 =
 [
-    [ "boss_essence_of_angerAI", "da/d65/a22870.html", "da/d65/a22870" ],
-    [ "boss_essence_of_anger", "d5/dda/a22866.html#adf8151d1fbb4a258f174c4bdb8410cd6", null ],
-    [ "GetAI", "d5/dda/a22866.html#a70a460f31b7f878e532b695ca822ab5d", null ]
+    [ "npc_ashtongue_channeler", "d5/dda/a22866.html#af7217d00f87e56e5cdb411fcad161b51", null ],
+    [ "Reset", "d5/dda/a22866.html#ab935559c19b18f9c94dd36c85be5b3b2", null ],
+    [ "UpdateAI", "d5/dda/a22866.html#af855dfa521404c4e6127a9bf12a75604", null ],
+    [ "scheduler", "d5/dda/a22866.html#a4f58bbd2c44f7a3f9835fd55408ffaf4", null ]
 ];

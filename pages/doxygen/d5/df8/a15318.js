@@ -1,6 +1,6 @@
 var a15318 =
 [
-    [ "npc_silva_filnaveth", "d5/df8/a15318.html#a5998381865214a7b3af7823bd2557cb0", null ],
-    [ "OnGossipHello", "d5/df8/a15318.html#a32019c17271a3f504d86cd694262fd53", null ],
-    [ "OnGossipSelect", "d5/df8/a15318.html#a10f81dce3dbc3ef0a84c8c33c2cb2e29", null ]
+    [ "SpellId", "d5/df8/a15318.html#a2c430be201c1fd866ee96224f1803a20", null ],
+    [ "Timer1", "d5/df8/a15318.html#a9a35c148286e88f48b174be8b74fc5d0", null ],
+    [ "Timer2", "d5/df8/a15318.html#a108dee679b1f5d9fb8351f7b4b4f3a56", null ]
 ];

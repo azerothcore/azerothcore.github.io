@@ -1,6 +1,5 @@
 var a26874 =
 [
-    [ "FilterTargets", "d6/d78/a26874.html#af85da0bcf8c311472e6a75667fa125d0", null ],
-    [ "PrepareSpellScript", "d6/d78/a26874.html#ad7478a1a70ebc52eda1c57dd4f143b67", null ],
-    [ "Register", "d6/d78/a26874.html#a2fab1592d19331239b1ef63045389886", null ]
+    [ "achievement_save_the_day", "d6/d78/a26874.html#a193e4060b6634a87b499b7c8a5e287a1", null ],
+    [ "OnCheck", "d6/d78/a26874.html#a95cfea6cd9ff955ba6800ebdf3a30eb7", null ]
 ];

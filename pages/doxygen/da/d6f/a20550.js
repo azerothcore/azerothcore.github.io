@@ -1,9 +1,23 @@
 var a20550 =
 [
-    [ "boss_thorim_gauntlet_npcsAI", "da/d6f/a20550.html#aaa7e94f653a1db001cd0c962fb855098", null ],
-    [ "JustEngagedWith", "da/d6f/a20550.html#afaf0a05b1fd2fc2187b52328340b65bb", null ],
-    [ "Reset", "da/d6f/a20550.html#a9e4c25742785809d788f2e910f7840bc", null ],
-    [ "UpdateAI", "da/d6f/a20550.html#a4dd5a9cbbb10d514a0473dfd7cdd3c29", null ],
-    [ "_isCaster", "da/d6f/a20550.html#a104f447cc52c285d59653a8ebff20fef", null ],
-    [ "events", "da/d6f/a20550.html#a650508e05b6fa1af538a0b34e04c8bf5", null ]
+    [ "boss_xt002AI", "da/d6f/a20550.html#a7a58f65a29c6c28639946532a4c5afce", null ],
+    [ "AttachHeart", "da/d6f/a20550.html#a26c4d37ac38434682e6ed357cb03c3f2", null ],
+    [ "DoAction", "da/d6f/a20550.html#a7a1f0462bdc64874d9ec04c3e4a1d097", null ],
+    [ "GetData", "da/d6f/a20550.html#a259aea1cd4fce938748d8ee3af75f9bd", null ],
+    [ "JustDied", "da/d6f/a20550.html#a6152a51884e5617ce76deae550df3e5c", null ],
+    [ "JustEngagedWith", "da/d6f/a20550.html#a4d00f75136c7770bb9f5fdfcc3e6a7bb", null ],
+    [ "JustReachedHome", "da/d6f/a20550.html#a98ef7a2c173f22ef748893b561b573cb", null ],
+    [ "JustSummoned", "da/d6f/a20550.html#a67a123574487a9d8a45023105fcdbd3f", null ],
+    [ "KilledUnit", "da/d6f/a20550.html#a0a0024d6f8f7937a062d6b51c5dcced4", null ],
+    [ "RescheduleEvents", "da/d6f/a20550.html#a046e8cdc1343e94823fa7dc7fa491590", null ],
+    [ "Reset", "da/d6f/a20550.html#a5e6022926c19360e6aa784acd6e3d964", null ],
+    [ "SummonedCreatureDespawn", "da/d6f/a20550.html#a73719780759cb75494c75d1b7985974c", null ],
+    [ "UpdateAI", "da/d6f/a20550.html#a46db16865544e10ba05bb637dade4bc3", null ],
+    [ "_gravityAchievement", "da/d6f/a20550.html#a70e91c1dc557117f48190e632b4332b2", null ],
+    [ "_hardMode", "da/d6f/a20550.html#a0933ed4cc6638e85146e92231dd82aab", null ],
+    [ "_healthCheck", "da/d6f/a20550.html#a60903f0bcf827503254d6e18c319e5d3", null ],
+    [ "_nerfAchievement", "da/d6f/a20550.html#addf29c529fa671f95678f62b5c00c246", null ],
+    [ "events", "da/d6f/a20550.html#a611d8e9ff1c84665f893a5638500dd29", null ],
+    [ "m_pInstance", "da/d6f/a20550.html#aeaaa5a6ef611324b6cd50d5a9a087b58", null ],
+    [ "summons", "da/d6f/a20550.html#aed6c11f1050a988a98ae325e822e8b88", null ]
 ];

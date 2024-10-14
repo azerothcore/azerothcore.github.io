@@ -1,10 +1,8 @@
 var a13742 =
 [
-    [ "npc_zulaman_hostageAI", "df/dca/a13742.html#a36a24241dfb0280a26c826ef9f1509dc", null ],
-    [ "JustDied", "df/dca/a13742.html#af87bdebb039f1da5736408cf3aad6487", null ],
-    [ "JustEngagedWith", "df/dca/a13742.html#af0aa229973da1a6230a854439658e9ed", null ],
-    [ "Reset", "df/dca/a13742.html#a20615cb22d64daf825889aeca5ee37f6", null ],
-    [ "UpdateAI", "df/dca/a13742.html#a2212a1f56cf151e8816d22095ebb7c9c", null ],
-    [ "IsLoot", "df/dca/a13742.html#a86e65ee76ce382ec26a5b5bfb3fbf2b1", null ],
-    [ "PlayerGUID", "df/dca/a13742.html#a49f15c5a94d005c56218d00ac6732b82", null ]
+    [ "boss_grilekAI", "df/dca/a13742.html#aea4d151ce75bf2cdf6d6910c369daf17", null ],
+    [ "JustEngagedWith", "df/dca/a13742.html#a76d2cddd8ebfc4df400ef43f8c5aa936", null ],
+    [ "Reset", "df/dca/a13742.html#acd8ce07ab3ef576580df16c0176fcaf3", null ],
+    [ "UpdateAI", "df/dca/a13742.html#a19438103c9a582a7d36d805c80131e8c", null ],
+    [ "_pursuitTargetGUID", "df/dca/a13742.html#ad20779cdb8d82ae8a54c12a8d4b0bada", null ]
 ];

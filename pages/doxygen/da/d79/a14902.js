@@ -1,5 +1,5 @@
 var a14902 =
 [
-    [ "boss_yauj", "da/d79/a14902.html#a15ab7b6b35d29fb1552b11586163320e", null ],
-    [ "JustEngagedWith", "da/d79/a14902.html#a94a2fa960e6924bde9ba6934a56ed684", null ]
+    [ "at_cthun_center", "da/d79/a14902.html#a75cf2b77215e0d50c1c89ec9b522ebc3", null ],
+    [ "OnTrigger", "da/d79/a14902.html#af744df9577e84ab64749076324e574c9", null ]
 ];

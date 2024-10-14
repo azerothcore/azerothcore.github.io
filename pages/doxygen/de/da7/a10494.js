@@ -1,12 +1,9 @@
 var a10494 =
 [
-    [ "StartMirrorTimer", "de/da7/a10494.html#a86039d4a721636477f266712682883f0", null ],
-    [ "StartMirrorTimer", "de/da7/a10494.html#a5202945882fb3cb5dd8574b6e6f8d5b0", null ],
-    [ "Write", "de/da7/a10494.html#afa6cc6032804e3d8f3f7797b2231847f", null ],
-    [ "MaxValue", "de/da7/a10494.html#a3f26c682d547be40d2800eff2189348d", null ],
-    [ "Paused", "de/da7/a10494.html#af3994b2c6a57e734f9d1ebeedcab7759", null ],
-    [ "Scale", "de/da7/a10494.html#a5879b6c796d7d7c2fd59001d2813a6b3", null ],
-    [ "SpellID", "de/da7/a10494.html#a3d90aa3046eb6272249f8fe171d7cd2f", null ],
-    [ "Timer", "de/da7/a10494.html#abb9dbec2c5df4b2dfbc96314a0465011", null ],
-    [ "Value", "de/da7/a10494.html#ad0f2f8f95fdea9a7555e3056bb49cc53", null ]
+    [ "RandomRoll", "de/da7/a10494.html#abc64acf498b3dc70b9afd23c399e3db8", null ],
+    [ "Write", "de/da7/a10494.html#aab5879874745603dd448a7f5084d60d4", null ],
+    [ "Max", "de/da7/a10494.html#a21460b09eddfbee6ba022f88b5f37cc7", null ],
+    [ "Min", "de/da7/a10494.html#aee5564c9fc17613b9f30fc8ce88944c6", null ],
+    [ "Result", "de/da7/a10494.html#a34fd2c1d018bb292836724671163ff07", null ],
+    [ "Roller", "de/da7/a10494.html#af02aa97826259885791d0f4afc0c1a84", null ]
 ];

@@ -1,5 +1,6 @@
 var a22354 =
 [
-    [ "achievement_wg_didnt_stand_a_chance", "d9/dd9/a22354.html#afb397c74f00d1f5c59a24ef74b0cd1cd", null ],
-    [ "OnCheck", "d9/dd9/a22354.html#ae575bae454689e05c161e8480a13fa18", null ]
+    [ "npc_captured_rageclawAI", "d9/dd9/a22354.html#a5bb483a323330b0895f87c5381d73314", null ],
+    [ "Reset", "d9/dd9/a22354.html#a9cde0a0e5015334ec8dcd277fcd99dc3", null ],
+    [ "SpellHit", "d9/dd9/a22354.html#a2c63911d27435a2271a7c89d9d88318c", null ]
 ];

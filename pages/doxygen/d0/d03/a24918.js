@@ -1,6 +1,7 @@
 var a24918 =
 [
-    [ "OnPeriodic", "d0/d03/a24918.html#a5fdf44f34765d0386d5c5490620c944a", null ],
-    [ "PrepareAuraScript", "d0/d03/a24918.html#a3c3044795e183eef2c801781100b11c7", null ],
-    [ "Register", "d0/d03/a24918.html#a1221c3287c3fd7add356e84430508684", null ]
+    [ "HandleProc", "d0/d03/a24918.html#af768269d315e998fc2042794c3a03b58", null ],
+    [ "PrepareAuraScript", "d0/d03/a24918.html#ae3da67d626ee11c57a85a3af99ff07a5", null ],
+    [ "Register", "d0/d03/a24918.html#a2df1cff47861cbf3198e573c6031b54e", null ],
+    [ "Validate", "d0/d03/a24918.html#a84f40eec148c55108085db5e7b05cb0e", null ]
 ];

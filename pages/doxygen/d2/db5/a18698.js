@@ -1,6 +1,6 @@
 var a18698 =
 [
-    [ "npc_icc_nerubar_broodkeeperAI", "d7/df5/a18702.html", "d7/df5/a18702" ],
-    [ "npc_icc_nerubar_broodkeeper", "d2/db5/a18698.html#adf9c3bfb444fed50420c2e780b373f34", null ],
-    [ "GetAI", "d2/db5/a18698.html#ad12186da36f7bbf99275a746bc874bfc", null ]
+    [ "RespawnEvent", "d2/db5/a18698.html#accc0d5638ff7a493fa116ac2e8f2e58b", null ],
+    [ "Execute", "d2/db5/a18698.html#a2e58f4e472fb72cf5401f11be6e5e136", null ],
+    [ "_owner", "d2/db5/a18698.html#adb0835b4a2e7a2795bb81f0a1e3c911a", null ]
 ];

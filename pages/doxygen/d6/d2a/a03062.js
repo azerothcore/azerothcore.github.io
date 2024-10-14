@@ -1,12 +1,12 @@
 var a03062 =
 [
-    [ "instance_violet_hold", "de/d15/a21338.html", "de/d15/a21338" ],
-    [ "instance_violet_hold::instance_violet_hold_InstanceMapScript", "d5/d6f/a21342.html", "d5/d6f/a21342" ],
-    [ "vYells", "d6/d2a/a03062.html#af81bfaea39a160ddb9422869d6637d65", [
-      [ "CYANIGOSA_SAY_SPAWN", "d6/d2a/a03062.html#af81bfaea39a160ddb9422869d6637d65ad55452f43eb6c2a7803dd3a6914ff586", null ],
-      [ "SAY_SINCLARI_LEAVING", "d6/d2a/a03062.html#af81bfaea39a160ddb9422869d6637d65a98abfd4974743840603721fea2cd0192", null ],
-      [ "SAY_SINCLARI_DOOR_LOCK", "d6/d2a/a03062.html#af81bfaea39a160ddb9422869d6637d65a009be97ca2bddcb508aeed20f057fd61", null ],
-      [ "SAY_SINCLARI_COMPLETE", "d6/d2a/a03062.html#af81bfaea39a160ddb9422869d6637d65aeb5bea74e085aa8ec9a176deb36cdcf1", null ]
+    [ "SpellEvent", "d4/da3/a10786.html", "d4/da3/a10786" ],
+    [ "CHECK_DIST", "d6/d2a/a03062.html#aa16c8b27baa496c2fdf0afffaf4485a0", null ],
+    [ "DEBUG_TRAJ", "d6/d2a/a03062.html#ac27bc73435b380df600d6da0b753a144", null ],
+    [ "GCDLimits", "d6/d2a/a03062.html#aea36520bcbaa2ebe9c062b9c5d9df777", [
+      [ "MIN_GCD", "d6/d2a/a03062.html#aea36520bcbaa2ebe9c062b9c5d9df777a08310e07fc7bc96f8485dbcc9487785f", null ],
+      [ "MAX_GCD", "d6/d2a/a03062.html#aea36520bcbaa2ebe9c062b9c5d9df777accf1639a1cf684725784e02ddf1aef8c", null ]
     ] ],
-    [ "AddSC_instance_violet_hold", "d6/d2a/a03062.html#a3d339190942c6b50cafaf9780d32ffb4", null ]
+    [ "tangent", "d6/d2a/a03062.html#a885f76b28cf9930383ddf099d75ccef1", null ],
+    [ "SpellEffects", "d6/d2a/a03062.html#a294b5954f08aebdafe9e5a6f00e2dc82", null ]
 ];

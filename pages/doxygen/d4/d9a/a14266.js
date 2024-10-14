@@ -1,7 +1,5 @@
 var a14266 =
 [
-    [ "HandleScript", "d4/d9a/a14266.html#a78899a874a645d531dd4d89f2bd5478a", null ],
-    [ "PrepareSpellScript", "d4/d9a/a14266.html#adc96c1dbf0b561a72d26dca57d5bfcec", null ],
-    [ "Register", "d4/d9a/a14266.html#a76942c06492a48ce16bb85cf55d1e58d", null ],
-    [ "Validate", "d4/d9a/a14266.html#a727f7c6ab1a2b5635e0b8fbd071d863d", null ]
+    [ "PrepareSpellScript", "d4/d9a/a14266.html#aa5593d0da0fe9cb1cb22cb2ccab18e05", null ],
+    [ "Register", "d4/d9a/a14266.html#a99f7d0be5668d5b005400140fc9865a4", null ]
 ];

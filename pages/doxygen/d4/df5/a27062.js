@@ -1,6 +1,5 @@
 var a27062 =
 [
-    [ "boss_emerissAI", "dd/d39/a27066.html", "dd/d39/a27066" ],
-    [ "boss_emeriss", "d4/df5/a27062.html#a2d373e5add3f007cf214ad9763039aa2", null ],
-    [ "GetAI", "d4/df5/a27062.html#a88a0696a12f12e612cce53c14f6b1f92", null ]
+    [ "go_mistwhisper_treasure", "d4/df5/a27062.html#a87c90caa9f6a628cb0eea3556b58449e", null ],
+    [ "OnGossipHello", "d4/df5/a27062.html#a03b6b19faba005ced7ff921fdf8ab493", null ]
 ];

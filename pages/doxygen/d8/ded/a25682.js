@@ -1,8 +1,6 @@
 var a25682 =
 [
-    [ "CheckProc", "d8/ded/a25682.html#a8b3f8cf17dda2322d0e9f8f4211cbd20", null ],
-    [ "HandleProc", "d8/ded/a25682.html#ae034bd626880858c9701ed963de993c9", null ],
-    [ "isException", "d8/ded/a25682.html#aa5f4fcd1b9b710e2931460207cfc6dea", null ],
-    [ "PrepareAuraScript", "d8/ded/a25682.html#a50348fd27947f67df03bf4ddbec89cca", null ],
-    [ "Register", "d8/ded/a25682.html#aaa14b34ac54b4caee76ff72d07dd5c2d", null ]
+    [ "HandleTriggerSpell", "d8/ded/a25682.html#a2c9f565aec4c42900037dd387549df18", null ],
+    [ "PrepareAuraScript", "d8/ded/a25682.html#a5864bbba50001cdb84b0015d08134c56", null ],
+    [ "Register", "d8/ded/a25682.html#a5a41ac9e41201ec3defc05c324a792c9", null ]
 ];

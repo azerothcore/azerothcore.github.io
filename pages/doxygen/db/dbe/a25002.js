@@ -1,7 +1,10 @@
 var a25002 =
 [
-    [ "HandleEffectApply", "db/dbe/a25002.html#a97a639459622c9e3e995057989cf9eda", null ],
-    [ "HandleEffectRemove", "db/dbe/a25002.html#a7477bb78ffcc082c111bad4e93b9fd73", null ],
-    [ "PrepareAuraScript", "db/dbe/a25002.html#aa3c4018e18eccd8f12e4607f4bc630ec", null ],
-    [ "Register", "db/dbe/a25002.html#a40793c696a759db4920c4c34f5b9fa66", null ]
+    [ "Load", "db/dbe/a25002.html#a6ae104e97dc9c0aa50e115fe1f17e161", null ],
+    [ "OnPeriodic", "db/dbe/a25002.html#ab1dc8acb8072f70625375480742fee5e", null ],
+    [ "PrepareAuraScript", "db/dbe/a25002.html#a2e81d03893b23aa8dc9c615683206f75", null ],
+    [ "Register", "db/dbe/a25002.html#ac2f2c8359487ad8c619e9faf8535b927", null ],
+    [ "Validate", "db/dbe/a25002.html#a0c88acf48d0ea7dd7ac3ac85aa3a126d", null ],
+    [ "_applyTimes", "db/dbe/a25002.html#a1bf9f3a1eb52bb64df59b381c412552f", null ],
+    [ "stackAmount", "db/dbe/a25002.html#ac8d762bdb40366c93602497e9aaa42eb", null ]
 ];

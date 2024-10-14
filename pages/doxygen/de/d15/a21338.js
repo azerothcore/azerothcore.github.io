@@ -1,6 +1,6 @@
 var a21338 =
 [
-    [ "instance_violet_hold_InstanceMapScript", "d5/d6f/a21342.html", "d5/d6f/a21342" ],
-    [ "instance_violet_hold", "de/d15/a21338.html#ae66f018196cd90683506c3cc3d8c5d7a", null ],
-    [ "GetInstanceScript", "de/d15/a21338.html#aeedcbb24b0709bd172ebbbc6d9851532", null ]
+    [ "npc_azure_raiderAI", "d5/d6f/a21342.html", "d5/d6f/a21342" ],
+    [ "npc_azure_raider", "de/d15/a21338.html#a249abee0df263e183341193b828a310c", null ],
+    [ "GetAI", "de/d15/a21338.html#a88a45e3b117c5105f7541d640dda8470", null ]
 ];

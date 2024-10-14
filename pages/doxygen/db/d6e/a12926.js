@@ -1,6 +1,6 @@
 var a12926 =
 [
-    [ "HandleSendEvent", "db/d6e/a12926.html#a0bc3c3995f8b66bf2f7ff39713b58cf1", null ],
-    [ "PrepareSpellScript", "db/d6e/a12926.html#a8535dcbf13fe48e8116258b8a572b692", null ],
-    [ "Register", "db/d6e/a12926.html#a8a5eef284845d7a4d76994c7a78b8d7d", null ]
+    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer_SpellScript", "d2/dc7/a12930.html", "d2/dc7/a12930" ],
+    [ "spell_temple_of_atal_hakkar_awaken_the_soulflayer", "db/d6e/a12926.html#a5eb6f05a4436b8edc8c7e71926328e30", null ],
+    [ "GetSpellScript", "db/d6e/a12926.html#ac76a5ea53843c60d0742245971b5448d", null ]
 ];

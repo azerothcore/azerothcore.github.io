@@ -1,11 +1,12 @@
 var a22206 =
 [
-    [ "npc_iron_watcherAI", "df/da6/a22206.html#a5f0c3d759dfba81cb2010d2a0b479909", null ],
-    [ "MovementInform", "df/da6/a22206.html#aaf329f0160efa778abdebf86b1cf230b", null ],
-    [ "Reset", "df/da6/a22206.html#a878f26cd41ccb9d777f9db00e2e30568", null ],
-    [ "SpellHit", "df/da6/a22206.html#afce7cebdb4a49d9e5618ac211b235c6b", null ],
-    [ "UpdateAI", "df/da6/a22206.html#a50391c9950fbbaf170600f13bab1e6bb", null ],
-    [ "charging", "df/da6/a22206.html#af5be6fc6d7d234cfd2ac78f636b0ad7c", null ],
-    [ "hpTimer", "df/da6/a22206.html#afcbb113387345361baf0351a19e6eb1d", null ],
-    [ "spellTimer", "df/da6/a22206.html#a9bcd8d80b0a74c7abf0fc8b3bb32aa30", null ]
+    [ "npc_icefangAI", "df/da6/a22206.html#ab74b58a77e3c1349ed308f7febef794a", null ],
+    [ "AttackStart", "df/da6/a22206.html#a56615ecdb45389aa793374d26a636d45", null ],
+    [ "EnterEvadeMode", "df/da6/a22206.html#a1465c4779ea8b080f934163c8db6c99c", null ],
+    [ "JustDied", "df/da6/a22206.html#a3140c8306a384833cca1580ad964d73a", null ],
+    [ "JustEngagedWith", "df/da6/a22206.html#a8455dd4afb5ef5a694ca9237848df907", null ],
+    [ "OnCharmed", "df/da6/a22206.html#ad7f3465f5730cd9ebd42bb4092ec8e68", null ],
+    [ "PassengerBoarded", "df/da6/a22206.html#acf6e8e273830d022eaca3a28a4bd5320", null ],
+    [ "UpdateAI", "df/da6/a22206.html#ab4d752f2273062c48339b53e611e617c", null ],
+    [ "WaypointReached", "df/da6/a22206.html#ae315a1d22317edb2864e4d796f808ffb", null ]
 ];

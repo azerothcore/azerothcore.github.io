@@ -1,8 +1,16 @@
 var a04427 =
 [
-    [ "instance_temple_of_ahnqiraj", "db/dbf/a15042.html", "db/dbf/a15042" ],
-    [ "instance_temple_of_ahnqiraj::instance_temple_of_ahnqiraj_InstanceMapScript", "de/da5/a15046.html", "de/da5/a15046" ],
-    [ "AddSC_instance_temple_of_ahnqiraj", "d1/dd3/a04427.html#a60077e2c1e4137c99545119e5eeb1bb3", null ],
-    [ "creatureData", "d1/dd3/a04427.html#a412286b689bd324fedd65ddd8dde8afb", null ],
-    [ "doorData", "d1/dd3/a04427.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
+    [ "WorldPackets::Misc::Weather", "da/d14/a10470.html", "da/d14/a10470" ],
+    [ "WorldPackets::Misc::LevelUpInfo", "d1/df0/a10474.html", "d1/df0/a10474" ],
+    [ "WorldPackets::Misc::PlayMusic", "d0/dd2/a10478.html", "d0/dd2/a10478" ],
+    [ "WorldPackets::Misc::PlayObjectSound", "df/d55/a10482.html", "df/d55/a10482" ],
+    [ "WorldPackets::Misc::Playsound", "dd/d95/a10486.html", "dd/d95/a10486" ],
+    [ "WorldPackets::Misc::RandomRollClient", "d6/df4/a10490.html", "d6/df4/a10490" ],
+    [ "WorldPackets::Misc::RandomRoll", "de/da7/a10494.html", "de/da7/a10494" ],
+    [ "WorldPackets::Misc::StartMirrorTimer", "d2/d5f/a10498.html", "d2/d5f/a10498" ],
+    [ "WorldPackets::Misc::PauseMirrorTimer", "dc/d63/a10502.html", "dc/d63/a10502" ],
+    [ "WorldPackets::Misc::StopMirrorTimer", "dc/d06/a10506.html", "dc/d06/a10506" ],
+    [ "WorldPackets::Misc::DurabilityDamageDeath", "dd/d31/a10510.html", "dd/d31/a10510" ],
+    [ "WorldPackets::Misc::CrossedInebriationThreshold", "db/ddb/a10514.html", "db/ddb/a10514" ],
+    [ "WorldPackets::Misc::UITime", "db/dab/a10518.html", "db/dab/a10518" ]
 ];

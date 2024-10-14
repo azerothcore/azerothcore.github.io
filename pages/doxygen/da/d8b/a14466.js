@@ -1,12 +1,10 @@
 var a14466 =
 [
-    [ "boss_kazrogal", "da/d8b/a14466.html#a2b3cc0e99c478c55f907898fbec2b8b2", null ],
-    [ "DoAction", "da/d8b/a14466.html#a7721debceeefaeb69e71855b8e8742f8", null ],
-    [ "GetMarkRepeatTimer", "da/d8b/a14466.html#a0b54f8c935d09367d7e6b7dbf6c4ce61", null ],
-    [ "JustDied", "da/d8b/a14466.html#abc839abddfbb5fb1e1dd3a67e0b661cb", null ],
-    [ "JustEngagedWith", "da/d8b/a14466.html#a2c0aafd271b2500d32f5add7e75cd990", null ],
-    [ "KilledUnit", "da/d8b/a14466.html#ab1439114a84d85947106d979f38d12fa", null ],
-    [ "Reset", "da/d8b/a14466.html#acb9f4ee5d97b43082bf6fc0c424685ab", null ],
-    [ "_markCounter", "da/d8b/a14466.html#a54ef8b88bf62e260e19a964d1926ef4a", null ],
-    [ "_recentlySpoken", "da/d8b/a14466.html#ad7401abae1b25d58ed93cc800d75bc26", null ]
+    [ "npc_hyjal_frost_wyrm", "da/d8b/a14466.html#a7cdc8ef87d5ccb88777fa823e199b9ce", null ],
+    [ "AttackStart", "da/d8b/a14466.html#abaaea3bcbb8806ed9d807742273eb06d", null ],
+    [ "DoAction", "da/d8b/a14466.html#adab2b42c582cee234aea37d187b66138", null ],
+    [ "JustEngagedWith", "da/d8b/a14466.html#a23dace13bb2811dea43b63f0b970a2ce", null ],
+    [ "PathEndReached", "da/d8b/a14466.html#a2ec3137dad743e4766ca402282d913c7", null ],
+    [ "Reset", "da/d8b/a14466.html#a550c20113f4ebe4015f9a8088888f99b", null ],
+    [ "UpdateAI", "da/d8b/a14466.html#a182c3b440f74a4ebe6dee64651bf701f", null ]
 ];

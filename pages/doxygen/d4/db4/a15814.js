@@ -1,6 +1,7 @@
 var a15814 =
 [
-    [ "npc_twilight_summonAI", "db/dd6/a15818.html", "db/dd6/a15818" ],
-    [ "npc_twilight_summon", "d4/db4/a15814.html#a2406ee3b02d9f1b1ebef54623d9a3c11", null ],
-    [ "GetAI", "d4/db4/a15814.html#a98bf5ce96c25bc252acd46163644bf33", null ]
+    [ "CheckDistance", "d4/db4/a15814.html#ac10f4cebab4966a220cd931afd0e0a30", null ],
+    [ "PrepareSpellScript", "d4/db4/a15814.html#adb14940f47dc509d75a4e81bb90fc40d", null ],
+    [ "Register", "d4/db4/a15814.html#a3a64ffc872e4650b1d226d20d9bedc65", null ],
+    [ "Validate", "d4/db4/a15814.html#aa5d7a420154b156ca24e73de2faf912a", null ]
 ];

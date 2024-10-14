@@ -1,9 +1,8 @@
 var a16822 =
 [
-    [ "npc_hor_lumbering_abominationAI", "d1/d82/a16822.html#acc1e6e72aee030ebf2d0daa50f880f60", null ],
-    [ "JustDied", "d1/d82/a16822.html#af243a79da3028d3d66facc8a15132f78", null ],
-    [ "JustEngagedWith", "d1/d82/a16822.html#a83d0add807b5d9647328b89fed8e9bc4", null ],
-    [ "Reset", "d1/d82/a16822.html#a4270f405bbade0028fce4df0655a1987", null ],
-    [ "UpdateAI", "d1/d82/a16822.html#a995d0f7902cb70280d1448ac7731a816", null ],
-    [ "events", "d1/d82/a16822.html#aee9063950477b50e38ec904e91882689", null ]
+    [ "boss_krickAI", "d1/d82/a16822.html#ac085bae551fd4d9e48b05481a86cca9f", null ],
+    [ "DoAction", "d1/d82/a16822.html#ace248881cb71c1e91f33ff93489b6f3f", null ],
+    [ "UpdateAI", "d1/d82/a16822.html#aea8dd89c8e4de1bebd94a26ead852119", null ],
+    [ "events", "d1/d82/a16822.html#a75349e2fc35832e7944fa4f772380baa", null ],
+    [ "pInstance", "d1/d82/a16822.html#aecc2cdee32c4e4fa14ecaeca9b3eb65f", null ]
 ];

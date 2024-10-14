@@ -1,6 +1,6 @@
 var a19910 =
 [
-    [ "CheckCast", "d6/d1d/a19910.html#a866fd47d51b5fc4c07c3733739d07c02", null ],
-    [ "PrepareSpellScript", "d6/d1d/a19910.html#a09cbe962ae1f18811db8c1d32b856c0d", null ],
-    [ "Register", "d6/d1d/a19910.html#a240989af43e5ad6eb81d600a2f1d4769", null ]
+    [ "boss_freya_iron_rootAI", "d6/d63/a19914.html", "d6/d63/a19914" ],
+    [ "boss_freya_iron_root", "d6/d1d/a19910.html#a9478144d6cb72d08698cbfc50893935b", null ],
+    [ "GetAI", "d6/d1d/a19910.html#acdda736e9259d59a30a40d989e70f95c", null ]
 ];

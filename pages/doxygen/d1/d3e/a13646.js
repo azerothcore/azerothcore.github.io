@@ -1,7 +1,6 @@
 var a13646 =
 [
-    [ "HandleDispel", "d1/d3e/a13646.html#a0eb612b20ae9cc548baf2e3e024b2e1d", null ],
-    [ "PrepareAuraScript", "d1/d3e/a13646.html#a54373f56e9957c8bac76d6905a34ae06", null ],
-    [ "Register", "d1/d3e/a13646.html#a95650ab4be4f6b9036793fac48f92465", null ],
-    [ "Validate", "d1/d3e/a13646.html#a84ebfae19459c4c6bb138c8e59cfe93e", null ]
+    [ "spell", "d1/d3e/a13646.html#a55423d09b2f1775dc386a36168ad764d", null ],
+    [ "text", "d1/d3e/a13646.html#ab604ad9429083f2e94f6a8d026bc46a5", null ],
+    [ "unaura", "d1/d3e/a13646.html#a1b71fc628793ccb9027687b31d9ebcb0", null ]
 ];

@@ -1,8 +1,10 @@
 var a13958 =
 [
-    [ "boss_venoxis", "d8/d98/a13958.html#a3e91a9022163a726cbc077d38459a5f5", null ],
-    [ "InitializeAI", "d8/d98/a13958.html#a1373b5fc673fce6aea1de40d970ac00d", null ],
-    [ "JustDied", "d8/d98/a13958.html#a63ccc5a9520ee30b0ebaf8c4d31e59b8", null ],
-    [ "JustEngagedWith", "d8/d98/a13958.html#afaa68ffbd5fecae48a044009326bcaed", null ],
-    [ "Reset", "d8/d98/a13958.html#a40cbcd4d41ff85ff71d5d913d8e62368", null ]
+    [ "npc_brewfest_super_brew_trigger", "d8/d98/a13958.html#a3d2189978683150b1c431fa0fd637358", null ],
+    [ "AttackStart", "d8/d98/a13958.html#a9ca158a2317a599cd4af64dad6ef04cc", null ],
+    [ "JustEngagedWith", "d8/d98/a13958.html#a61be52cb8ba0cc10285820ad5324816e", null ],
+    [ "MoveInLineOfSight", "d8/d98/a13958.html#aedd26ea4a274df9eb27f9f4a22670f1e", null ],
+    [ "Reset", "d8/d98/a13958.html#a5abf05543247a4f1209fe2a5bebb5d64", null ],
+    [ "UpdateAI", "d8/d98/a13958.html#a46db84e1eab29e7f4bf99d377962ad12", null ],
+    [ "timer", "d8/d98/a13958.html#a2ebb06175e3142cca156e57e8386fe02", null ]
 ];

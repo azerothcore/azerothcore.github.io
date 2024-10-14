@@ -1,6 +1,6 @@
 var a16926 =
 [
-    [ "npc_pos_tyrannus_eventsAI", "d6/d32/a16930.html", "d6/d32/a16930" ],
-    [ "npc_pos_tyrannus_events", "db/db1/a16926.html#a9e61db8b2b30e86fc5e554b3f4d51b7c", null ],
-    [ "GetAI", "db/db1/a16926.html#ae5863e99d77815de71c1774e908b3f65", null ]
+    [ "SlaveRunEvent", "db/db1/a16926.html#a4560b275b0870cdbd192b2610893b47c", null ],
+    [ "Execute", "db/db1/a16926.html#a81db67be136525dea5a9cd84180be165", null ],
+    [ "_owner", "db/db1/a16926.html#a33e2ce4cea1edf2e0967696c41667f15", null ]
 ];

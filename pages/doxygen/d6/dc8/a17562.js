@@ -1,7 +1,6 @@
 var a17562 =
 [
-    [ "HandleScript", "d6/dc8/a17562.html#ae3e8d811d3ad6561768dfff3a16ec9bd", null ],
-    [ "PrepareSpellScript", "d6/dc8/a17562.html#ab69926839f72ee76eba2b225aba9690c", null ],
-    [ "Register", "d6/dc8/a17562.html#aad8925e891d7537993f02f3bc2552fea", null ],
-    [ "SelectRandomTarget", "d6/dc8/a17562.html#aae77f6693a3e5d01e3d05cb990fd1fe5", null ]
+    [ "npc_vengeful_shadeAI", "d4/d67/a17566.html", "d4/d67/a17566" ],
+    [ "npc_vengeful_shade", "d6/dc8/a17562.html#a99c535efd94fbd5bded8fd9555bb6eaf", null ],
+    [ "GetAI", "d6/dc8/a17562.html#afa2c672015b43d83bd55050ed020f7e5", null ]
 ];

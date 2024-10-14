@@ -1,7 +1,10 @@
 var a24994 =
 [
-    [ "HandleEffectApply", "d9/dc0/a24994.html#a65ad32ded4246c3469f15b6ab167830e", null ],
-    [ "HandleEffectRemove", "d9/dc0/a24994.html#a8aab4a5dab173bd0296843a0c2991142", null ],
-    [ "PrepareAuraScript", "d9/dc0/a24994.html#a4925868cc5b61b7f35d59fdb27af27b6", null ],
-    [ "Register", "d9/dc0/a24994.html#a0635d5e34bfc62df1ec006b7818bffb2", null ]
+    [ "Load", "d9/dc0/a24994.html#a18e05511c2dc0b934a97e323fccc3f50", null ],
+    [ "OnApply", "d9/dc0/a24994.html#a1fe8240f5c553ba56ce9c2ff9338f75b", null ],
+    [ "OnRemove", "d9/dc0/a24994.html#a29834c598d6ef8299d54e48a3461e603", null ],
+    [ "PrepareAuraScript", "d9/dc0/a24994.html#a0529b56b30fa7bb97c014bbc2ee4a96a", null ],
+    [ "Register", "d9/dc0/a24994.html#a5174f07fde3469c2314a3c1fbba5f432", null ],
+    [ "Validate", "d9/dc0/a24994.html#aeaf16594f569af671d221234a4aa2c8b", null ],
+    [ "prevItem", "d9/dc0/a24994.html#ad4c0402ae71e663534ed8fd137a9afd2", null ]
 ];

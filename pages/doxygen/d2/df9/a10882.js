@@ -1,15 +1,12 @@
 var a10882 =
 [
-    [ "AttributesMask", "d2/df9/a10882.html#a7cc9dfa91e034f5052ebd3bf8eaea42a", null ],
-    [ "Chance", "d2/df9/a10882.html#aea5ca609c75ea7b314aec8ae0246297e", null ],
-    [ "Charges", "d2/df9/a10882.html#a75f0484dad60eec59b399a188fd9908f", null ],
-    [ "Cooldown", "d2/df9/a10882.html#a4e6185aea35599a3efc2e806145cb1d2", null ],
-    [ "HitMask", "d2/df9/a10882.html#a8ac3331576b4eb761157fa3d0d622bea", null ],
-    [ "ProcFlags", "d2/df9/a10882.html#a9e5de790c4f61537397a1ce2bce8a9b0", null ],
-    [ "ProcsPerMinute", "d2/df9/a10882.html#a3815765c08f6b95cae6efb93fa98623b", null ],
-    [ "SchoolMask", "d2/df9/a10882.html#acf72c4a783235770bbff952bdc002324", null ],
-    [ "SpellFamilyMask", "d2/df9/a10882.html#a8688e9282cb78d4f24b310cc2521c22b", null ],
-    [ "SpellFamilyName", "d2/df9/a10882.html#a2cb738b0d4579503fcb9bca7988f7e36", null ],
-    [ "SpellPhaseMask", "d2/df9/a10882.html#ab4c4bfa1493a7a5924d3cd094127f973", null ],
-    [ "SpellTypeMask", "d2/df9/a10882.html#a99e20d3979a532e1ca90ee83edcff3eb", null ]
+    [ "cooldown", "d2/df9/a10882.html#a0cd88c27979ccc5284aa46846db32a7c", null ],
+    [ "customChance", "d2/df9/a10882.html#adf6742b70f0b00abddf1da6f45da3d16", null ],
+    [ "ppmRate", "d2/df9/a10882.html#a931b2df4a187482e32ef252c3320080a", null ],
+    [ "procEx", "d2/df9/a10882.html#a911770f28fe36243593b12fe92d6fbec", null ],
+    [ "procFlags", "d2/df9/a10882.html#af253ef32b9de49fe85d0fe6f06855a60", null ],
+    [ "procPhase", "d2/df9/a10882.html#a179d83770a02e4ab13f809ed3943a399", null ],
+    [ "schoolMask", "d2/df9/a10882.html#a9a6d38ee4e4a35066780ef924c63f92f", null ],
+    [ "spellFamilyMask", "d2/df9/a10882.html#a2aa57bf419ab51129fe7240750ee8910", null ],
+    [ "spellFamilyName", "d2/df9/a10882.html#a5ffa91b3f66ebb0ac34f30e1c532fb3a", null ]
 ];

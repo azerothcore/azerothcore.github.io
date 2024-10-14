@@ -1,8 +1,10 @@
 var a27406 =
 [
-    [ "npc_nelsonAI", "d1/d05/a27410.html", "d1/d05/a27410" ],
-    [ "npc_nelson", "d6/d8d/a27406.html#ada597926a6db1aa7823ddabc19945b11", null ],
-    [ "GetAI", "d6/d8d/a27406.html#a75fea281fb49249345c48236bf44b1c8", null ],
-    [ "OnGossipHello", "d6/d8d/a27406.html#aa693b365a15d4617f214f9c3c229bf89", null ],
-    [ "OnGossipSelect", "d6/d8d/a27406.html#aff8e412cfcabd7b653cd30d29878be6a", null ]
+    [ "npc_training_dummyAI", "d6/d8d/a27406.html#a2f10fd0b4365e99446f728883a47eb6a", null ],
+    [ "DamageTaken", "d6/d8d/a27406.html#a641c40906a6365f068ccbdba9d033923", null ],
+    [ "EnterEvadeMode", "d6/d8d/a27406.html#adb1de124bdb2a986efcfcfc287b6d824", null ],
+    [ "MoveInLineOfSight", "d6/d8d/a27406.html#a52f3516e9da6895eeddcdef7a198a6b1", null ],
+    [ "Reset", "d6/d8d/a27406.html#af63f500cb3179964c90afab0d4a2c9b7", null ],
+    [ "UpdateAI", "d6/d8d/a27406.html#a5e7892a64cd1a5cf678b401b62497bfb", null ],
+    [ "resetTimer", "d6/d8d/a27406.html#a443f2f7de257af473d6e9793f34a2071", null ]
 ];

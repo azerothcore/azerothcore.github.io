@@ -1,4 +1,5 @@
 var a00692 =
 [
-    [ "ScriptRegistry< GlobalScript >", "d0/db6/a00692.html#aab5e9d371cdc72eb5a60f210f00cdc34", null ]
+    [ "message_commandscript", "d2/dbf/a11378.html", "d2/dbf/a11378" ],
+    [ "AddSC_message_commandscript", "d0/db6/a00692.html#a85760eb92ac87e8dcb18c91d31f09fc0", null ]
 ];

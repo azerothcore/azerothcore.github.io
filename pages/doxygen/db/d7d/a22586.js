@@ -1,8 +1,7 @@
 var a22586 =
 [
-    [ "boss_tavarok", "db/d7d/a22586.html#acf2e3ec6c28a59b205442c6ed07623af", null ],
-    [ "JustDied", "db/d7d/a22586.html#a937fc1864eab7fdf23e1be1464d9666d", null ],
-    [ "JustEngagedWith", "db/d7d/a22586.html#a64cae2439cd6e4334ced5d4ef01ef942", null ],
-    [ "KilledUnit", "db/d7d/a22586.html#a2c99df9457c548ee562fde920592ea88", null ],
-    [ "Reset", "db/d7d/a22586.html#a0bea2cc724d92616056b7c5ca2dd03c1", null ]
+    [ "npc_voidtraveler", "db/d7d/a22586.html#a07e473c14836a0612acd52078a93f2d8", null ],
+    [ "Reset", "db/d7d/a22586.html#a6efe0725917c92657220de2b60579289", null ],
+    [ "UpdateAI", "db/d7d/a22586.html#aaa907fe2f6ef1029a23fd819af0a44c3", null ],
+    [ "_scheduler", "db/d7d/a22586.html#a1809494e7803103f6bc1698e780dcfbc", null ]
 ];

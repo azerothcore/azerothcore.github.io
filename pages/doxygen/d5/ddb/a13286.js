@@ -1,7 +1,5 @@
 var a13286 =
 [
-    [ "npc_eris_hevenfireAI", "dd/d6c/a13290.html", "dd/d6c/a13290" ],
-    [ "npc_eris_hevenfire", "d5/ddb/a13286.html#a77f0836dc0b19114316b8b67839d8033", null ],
-    [ "GetAI", "d5/ddb/a13286.html#ad67a81ad20fac785c199c16fea8fe6f8", null ],
-    [ "OnQuestAccept", "d5/ddb/a13286.html#a1e0baec5706cfddd678b58eb9359997e", null ]
+    [ "at_twilight_grove", "d5/ddb/a13286.html#a2ef32dbac0a35aa7dc6ebbafe926125f", null ],
+    [ "OnTrigger", "d5/ddb/a13286.html#a8ee7239b8429df38a237926a7252322b", null ]
 ];

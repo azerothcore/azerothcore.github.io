@@ -1,6 +1,6 @@
 var a17598 =
 [
-    [ "npc_cult_fanaticAI", "d8/dd6/a17602.html", "d8/dd6/a17602" ],
-    [ "npc_cult_fanatic", "db/d81/a17598.html#af29ab8f7628b96b0f192bccab74ca02e", null ],
-    [ "GetAI", "db/d81/a17598.html#ae4d22bac12d17d79669d3fccd4029952", null ]
+    [ "npc_coldflameAI", "d8/dd6/a17602.html", "d8/dd6/a17602" ],
+    [ "npc_coldflame", "db/d81/a17598.html#a573b887358e2ba2281c4c119a267c33f", null ],
+    [ "GetAI", "db/d81/a17598.html#ac33d0528cdc3c3a0fb7acc4d46b1c2b1", null ]
 ];

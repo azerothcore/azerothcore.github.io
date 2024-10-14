@@ -1,10 +1,7 @@
 var a23230 =
 [
-    [ "npc_frozen_core", "d6/d9b/a23230.html#af00f67392d96aa1ab8ccdab5b168fc04", null ],
-    [ "DoAction", "d6/d9b/a23230.html#a7b2c684f0c4e88720fb0d921815026ab", null ],
-    [ "Initialize", "d6/d9b/a23230.html#a7e5824e31f600d10c3177e00ae443c7f", null ],
-    [ "JustDied", "d6/d9b/a23230.html#a476e086b0379e0cef3a44d250b020d6a", null ],
-    [ "UpdateAI", "d6/d9b/a23230.html#af09168b57b79d14d9a7ef6861e85cc1a", null ],
-    [ "_events", "d6/d9b/a23230.html#a3a5efec3279644ef713722e1556a3c84", null ],
-    [ "_instance", "d6/d9b/a23230.html#a80fa517cc7dffd4bf15f3393d1f4af14", null ]
+    [ "HandleScriptEffect", "d6/d9b/a23230.html#ad5e905710a20436f120c979c865571c9", null ],
+    [ "PrepareSpellScript", "d6/d9b/a23230.html#ab44aa98f47162b50f30622d67ac75395", null ],
+    [ "Register", "d6/d9b/a23230.html#ad4c2bf1a8556b6fb85c05d3c83494fed", null ],
+    [ "Validate", "d6/d9b/a23230.html#a9b1baeb7a677d5b0f72bbeeeab9a94a2", null ]
 ];

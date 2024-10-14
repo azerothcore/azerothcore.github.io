@@ -1,6 +1,7 @@
 var a15690 =
 [
-    [ "instance_ahnkahet_InstanceScript", "d4/d34/a15694.html", "d4/d34/a15694" ],
-    [ "instance_ahnkahet", "d4/de8/a15690.html#afbe11bc040019231878cf31cc357830b", null ],
-    [ "GetInstanceScript", "d4/de8/a15690.html#a8847099c88f11de363c45e27998f10b7", null ]
+    [ "HandleEffectRemove", "d4/de8/a15690.html#a45ed6d3f1c80dcef3ee6c59e744f13c6", null ],
+    [ "PrepareAuraScript", "d4/de8/a15690.html#a34b88963dd81e6a8855daaedb9c238d4", null ],
+    [ "Register", "d4/de8/a15690.html#a7c0533650e772713233ea45b0264cbff", null ],
+    [ "Validate", "d4/de8/a15690.html#a7690603bd7b01ca6da2a73ac8ed36114", null ]
 ];

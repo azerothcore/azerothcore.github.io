@@ -1,9 +1,6 @@
 var a18634 =
 [
-    [ "npc_icc_skybreaker_hierophantAI", "de/d6c/a18634.html#a18330d49e510f83af7ee0120df14e633", null ],
-    [ "AttackStart", "de/d6c/a18634.html#a9838b3edb758f6f8d0bcbb242862d5da", null ],
-    [ "JustEngagedWith", "de/d6c/a18634.html#adddd56260b41738d69fcdfe31b677c51", null ],
-    [ "Reset", "de/d6c/a18634.html#a2291e4a6bbf917a810b31776dee9dd24", null ],
-    [ "UpdateAI", "de/d6c/a18634.html#a971fa0e468d9d58ffdda7c7b8aa53485", null ],
-    [ "events", "de/d6c/a18634.html#a1c8a527d217f9b810f87da0fc020528a", null ]
+    [ "npc_icc_vengeful_fleshreaperAI", "d9/dab/a18638.html", "d9/dab/a18638" ],
+    [ "npc_icc_vengeful_fleshreaper", "de/d6c/a18634.html#aa95ec1e021f3d123e5a95c356765ac36", null ],
+    [ "GetAI", "de/d6c/a18634.html#abf1903616dbf52718313c8b404b504a5", null ]
 ];

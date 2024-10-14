@@ -1,12 +1,8 @@
 var a22690 =
 [
-    [ "npc_maiev_illidan", "d4/df1/a22690.html#a0d19d9bb58c44662cdfb66a8fe373a60", null ],
-    [ "DamageTaken", "d4/df1/a22690.html#a780cc558c483efa3293d798cc6048a33", null ],
-    [ "DoAction", "d4/df1/a22690.html#a53607a158edf8fd772908b5d7af6edf1", null ],
-    [ "IsSummonedBy", "d4/df1/a22690.html#a1bf4f2f29132c5132e7903d089ace6e2", null ],
-    [ "JustEngagedWith", "d4/df1/a22690.html#ad1728d7d8b1b5f9db8db4d811c2ba630", null ],
-    [ "Reset", "d4/df1/a22690.html#a100db757c89634a58b9382216e2791ec", null ],
-    [ "SpellHit", "d4/df1/a22690.html#aa4d6626d6130a88519f86cfe70d9fb95", null ],
-    [ "UpdateAI", "d4/df1/a22690.html#a269e4a8f79b508e2da61cd5e2dc34664", null ],
-    [ "instance", "d4/df1/a22690.html#ad41b6deb9406232629ad60ba66cfac6b", null ]
+    [ "Load", "d4/df1/a22690.html#a038301fbb547469574efff88455be663", null ],
+    [ "OnPeriodic", "d4/df1/a22690.html#a8df384cc329cf20ddc5ac0d7bed0345f", null ],
+    [ "PrepareAuraScript", "d4/df1/a22690.html#a386df1300e6a99b02efd13ef4968e99a", null ],
+    [ "Register", "d4/df1/a22690.html#a1b7b9bff5b3d906fa491846a4d5c6743", null ],
+    [ "Validate", "d4/df1/a22690.html#ad64a3fc1a66b9e8914099e501992f2aa", null ]
 ];

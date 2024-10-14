@@ -1,5 +1,6 @@
 var a11226 =
 [
-    [ "data", "db/d7c/a04669.html#ga4e97bd1d129d33b86a11c79c8cfa437b", null ],
-    [ "ScriptId", "db/d7c/a04669.html#gaa452a9be01e00154512cb55980737ae6", null ]
+    [ "rainChance", "db/d7c/a04669.html#ga8c3d9f1d251a9b167c9adc99101e5612", null ],
+    [ "snowChance", "db/d7c/a04669.html#ga474650c5237c4a7428e858775fea7b86", null ],
+    [ "stormChance", "db/d7c/a04669.html#gaa50e5243877e8283f30ee9376b2d519e", null ]
 ];

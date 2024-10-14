@@ -1,9 +1,6 @@
 var a14046 =
 [
-    [ "npc_brew_bubble", "d0/d6c/a14046.html#a188d1b68bb939d518e72e844e53e9a7d", null ],
-    [ "DoAction", "d0/d6c/a14046.html#a7223d3397b32cf2969ea628c06ac2f19", null ],
-    [ "MoveInLineOfSight", "d0/d6c/a14046.html#aea01d2c0f9ac883a8a8668164f16f932", null ],
-    [ "Reset", "d0/d6c/a14046.html#aa3ab8e07323b47751f72c5ebab24a1bb", null ],
-    [ "UpdateAI", "d0/d6c/a14046.html#a25018deaa206620f6e98ba722f689b8d", null ],
-    [ "timer", "d0/d6c/a14046.html#a4bee73add756ba4b3137818b2dacd27f", null ]
+    [ "PeriodicTick", "d0/d6c/a14046.html#a0832c36a9497674374b2998398bfc3a4", null ],
+    [ "PrepareAuraScript", "d0/d6c/a14046.html#a89acb64235da1ff59da90a509fbeec9d", null ],
+    [ "Register", "d0/d6c/a14046.html#aab689a2cb84dcd064736171035640584", null ]
 ];

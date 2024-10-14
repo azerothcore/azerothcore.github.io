@@ -1,14 +1,14 @@
 var a22522 =
 [
-    [ "OPvPCapturePointTF", "d8/d03/a22522.html#af71fd9e2b7cdfa8c4a352bb5f4ce3d33", null ],
-    [ "ChangeState", "d8/d03/a22522.html#aa1e2611ef1b260ab363fd2645de142b0", null ],
-    [ "FillInitialWorldStates", "d8/d03/a22522.html#ad8ec5b055da6a7d34b8db0e8a75e65c8", null ],
-    [ "HandlePlayerEnter", "d8/d03/a22522.html#ae73763b63f5c1522c9b9c5950a6e5dfe", null ],
-    [ "HandlePlayerLeave", "d8/d03/a22522.html#ace20d19311478a136ae0b75016c36ea8", null ],
-    [ "ResetToTeamControlled", "d8/d03/a22522.html#a7ad637f6a4005da3166601dafda52d1b", null ],
-    [ "SendChangePhase", "d8/d03/a22522.html#a16efee78249e510e211b18694ea868f2", null ],
-    [ "Update", "d8/d03/a22522.html#a15b0758d901bf98f65fa2ee87bb4b401", null ],
-    [ "UpdateTowerState", "d8/d03/a22522.html#a3f6cbfddd3322e3d948a1330cfa0e4d8", null ],
-    [ "m_TowerState", "d8/d03/a22522.html#a74e1c07d3186fb6ba54b65efa9700989", null ],
-    [ "m_TowerType", "d8/d03/a22522.html#ace7e183b6dd438b9649e9ee60c6d00e2", null ]
+    [ "boss_nexusprince_shaffar", "d8/d03/a22522.html#a2e861fb53bca7a40e967971b5e7be533", null ],
+    [ "JustDied", "d8/d03/a22522.html#abf2fef0888bced83511883027bf4d500", null ],
+    [ "JustEngagedWith", "d8/d03/a22522.html#af28242e0c0f2dcbfb2fb16514d912200", null ],
+    [ "JustSummoned", "d8/d03/a22522.html#a576240b46ce0988f0ef86e1460c831ef", null ],
+    [ "KilledUnit", "d8/d03/a22522.html#ad5dd5ab4178d968146e2205e60c49d07", null ],
+    [ "MoveInLineOfSight", "d8/d03/a22522.html#a71e501225d88851210d2e0e58de27f99", null ],
+    [ "Reset", "d8/d03/a22522.html#a35db119f5351a8ef9bef4588cbdd83cf", null ],
+    [ "SummonedCreatureDespawn", "d8/d03/a22522.html#ab806564e96708ca12f444249abd3c88c", null ],
+    [ "UpdateAI", "d8/d03/a22522.html#a147500575a3821262ec718ec023b458c", null ],
+    [ "HasTaunted", "d8/d03/a22522.html#aa7d55363fe9a326dc86bd4f4076d12ab", null ],
+    [ "summons", "d8/d03/a22522.html#a1d6ec0b04ee406d85aa5a39ed32e8c4a", null ]
 ];

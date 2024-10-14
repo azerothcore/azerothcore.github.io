@@ -1,5 +1,7 @@
 var a10350 =
 [
-    [ "GuildDelete", "db/d4f/a10350.html#a86733335c7b60d5b9eb8616692da3a7f", null ],
-    [ "Read", "db/d4f/a10350.html#ae5ca379b187902323638f4c10be0a4d0", null ]
+    [ "GuildSetMemberNote", "db/d4f/a10350.html#a4747c3d015cb1b0d0056928fd75e4d18", null ],
+    [ "Read", "db/d4f/a10350.html#a3d90b6ce26d55a55bac1d953dd39b049", null ],
+    [ "Note", "db/d4f/a10350.html#a33b7b73bd5d26c2a0ac99d6dc0131c41", null ],
+    [ "NoteeName", "db/d4f/a10350.html#acf6beb0a5b122a04162e9d2c027203af", null ]
 ];

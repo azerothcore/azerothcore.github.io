@@ -1,10 +1,7 @@
 var a19098 =
 [
-    [ "npc_power_sparkAI", "dc/d4b/a19098.html#a3f0fd553d859c5709ed2dbd9051db3d3", null ],
-    [ "DamageTaken", "dc/d4b/a19098.html#aebd86516e17e77711d3877a11a159105", null ],
-    [ "DoAction", "dc/d4b/a19098.html#a54b4578be614da76cc886dedbe3d853e", null ],
-    [ "UpdateAI", "dc/d4b/a19098.html#a7e9b2a161fc88d269e631d47c38bfd5e", null ],
-    [ "CheckTimer", "dc/d4b/a19098.html#af98dff7dd45c258d45ce81b8520e56a8", null ],
-    [ "MoveTimer", "dc/d4b/a19098.html#af16a57b82fb94eb464c51b6006f2a66b", null ],
-    [ "pInstance", "dc/d4b/a19098.html#a4142b3872dd17015eeabb2eaee0c3369", null ]
+    [ "EoEDrakeEnterVehicleEvent", "dc/d4b/a19098.html#afc529efe07da017e529dc6d5ebc6e7dc", null ],
+    [ "Execute", "dc/d4b/a19098.html#a368a613ba7861f7903b80e6f7f0dd64f", null ],
+    [ "_owner", "dc/d4b/a19098.html#ab48302fdff800afddfeec2c0d756873c", null ],
+    [ "_playerGUID", "dc/d4b/a19098.html#add56bff0695453e01f300e0434a39ec8", null ]
 ];

@@ -1,7 +1,13 @@
 var a27366 =
 [
-    [ "npc_engineering_tele_trinket", "da/d84/a27366.html#ab891a8378a7b1b63151d05801b8b2fd1", null ],
-    [ "CanLearn", "da/d84/a27366.html#a8a35f1c09a9df609561e76f4ed578647", null ],
-    [ "OnGossipHello", "da/d84/a27366.html#ad11f576fb7efad0f6ea4cf22d3bc4e59", null ],
-    [ "OnGossipSelect", "da/d84/a27366.html#a4d7125cf0333d4e5ebc299019c8feb1a", null ]
+    [ "npc_nelsonAI", "da/d84/a27366.html#af6aada5c34048ce6bda6d5c1541e0bf3", null ],
+    [ "DoAction", "da/d84/a27366.html#a13ec2adee9d671f949139dbf94c75cc3", null ],
+    [ "JustEngagedWith", "da/d84/a27366.html#accb9aeb3b3f3fc2233598b7fef40c3ec", null ],
+    [ "JustSummoned", "da/d84/a27366.html#a31d622d73a2540e159720d4c8ddc7d00", null ],
+    [ "Reset", "da/d84/a27366.html#a05fcb98153f0a24f50004f465d8f3c72", null ],
+    [ "SpellHit", "da/d84/a27366.html#afab81d8a6077c755c186bb619944d78d", null ],
+    [ "SummonedCreatureDies", "da/d84/a27366.html#ab3753c9b6848c1567ac596a5f6b498a1", null ],
+    [ "UpdateAI", "da/d84/a27366.html#ac68749942f37de5f9105556fe7b904b7", null ],
+    [ "events", "da/d84/a27366.html#a25eb289b79de306bbdc0dd099b23a2a0", null ],
+    [ "shouldDespawn", "da/d84/a27366.html#a09a68f903854fcedd8a4b2ee4c2597e2", null ]
 ];

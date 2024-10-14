@@ -1,5 +1,6 @@
 var a20950 =
 [
-    [ "AreaTrigger_at_celestial_planetarium_enterance", "da/d4e/a20950.html#ae1503a754a05a77991d9955a2fb74265", null ],
-    [ "OnTrigger", "da/d4e/a20950.html#aa7aa93e00170313de251af4e562c422c", null ]
+    [ "boss_dalronn_the_controllerAI", "d2/d93/a20954.html", "d2/d93/a20954" ],
+    [ "boss_dalronn_the_controller", "da/d4e/a20950.html#afb5f8ef1df5d2e70e48f88cf986d88b2", null ],
+    [ "GetAI", "da/d4e/a20950.html#a62a12d41c5c4ed808ea8d65068a92b1f", null ]
 ];

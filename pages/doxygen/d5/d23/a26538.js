@@ -1,8 +1,9 @@
 var a26538 =
 [
-    [ "HandleRootRemove", "d5/d23/a26538.html#a9678ce2254825b67eb7a16312e960ba9", null ],
-    [ "HandleSnareRemove", "d5/d23/a26538.html#a6a0716f500b3926e66c62a038a1e03d3", null ],
-    [ "PrepareSpellScript", "d5/d23/a26538.html#ab9dc5e2516e269b968cb995040bc00a0", null ],
-    [ "Register", "d5/d23/a26538.html#a119675dccea898932ca090577022b6ba", null ],
-    [ "Validate", "d5/d23/a26538.html#a1a90cf531ba1131952161ff9d10b2cb7", null ]
+    [ "HandleHeal", "d5/d23/a26538.html#ad2d854d275dc6f8b67b866d864b6febe", null ],
+    [ "Load", "d5/d23/a26538.html#a507a7a4ff11f8bf1157e034d086cd9ad", null ],
+    [ "PrepareSpellScript", "d5/d23/a26538.html#a91eb46af707897f228e5d1bbd199a833", null ],
+    [ "Register", "d5/d23/a26538.html#ae28f1b0c23511153eafc037cae067bc0", null ],
+    [ "firstHeal", "d5/d23/a26538.html#a405326e6e1cd82816aef1712fdf335a0", null ],
+    [ "riptide", "d5/d23/a26538.html#acaec32f6730bc2e04e613aa982d285bf", null ]
 ];

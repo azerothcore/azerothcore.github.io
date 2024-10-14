@@ -1,8 +1,7 @@
 var a23982 =
 [
-    [ "npc_ancestral_wolfAI", "d9/d8c/a23982.html#a59ccca7093575f4bcac57a4751d977d4", null ],
-    [ "MoveInLineOfSight", "d9/d8c/a23982.html#aec5788f0be3c1dcb63b3e61b50ae39c1", null ],
-    [ "Reset", "d9/d8c/a23982.html#a9778a1648ca0007f7daf4ee98308d8d2", null ],
-    [ "WaypointReached", "d9/d8c/a23982.html#a2b553c29823e5ef888ee02a3ed413386", null ],
-    [ "ryga", "d9/d8c/a23982.html#ac238214604720e298124b58c35d58e05", null ]
+    [ "npc_creditmarker_visit_with_ancestorsAI", "d9/d8c/a23982.html#a483e8fb0d73561e34a1078fdde1a1b5b", null ],
+    [ "JustEngagedWith", "d9/d8c/a23982.html#a4038d707731f64f588e307c22c859902", null ],
+    [ "MoveInLineOfSight", "d9/d8c/a23982.html#a40d92122cd4f879f52ff78a4f172c3b8", null ],
+    [ "Reset", "d9/d8c/a23982.html#a29132346f117ba785039057619edb9e7", null ]
 ];

@@ -1,9 +1,8 @@
 var a21642 =
 [
-    [ "npc_mageguard_dalaranAI", "d5/d2b/a21642.html#adb9c8b0003c070114b63f3b8e538bceb", null ],
-    [ "AttackStart", "d5/d2b/a21642.html#ac1e73ad92bd5db0d3b9fe23b36cd8dd7", null ],
-    [ "JustEngagedWith", "d5/d2b/a21642.html#aac463689ae5a488ec2acb8a0310689d8", null ],
-    [ "MoveInLineOfSight", "d5/d2b/a21642.html#aafb32462693e0efd9c80cf335f489754", null ],
-    [ "Reset", "d5/d2b/a21642.html#aa6dde0732bac407a62403bb8f0f24c26", null ],
-    [ "UpdateAI", "d5/d2b/a21642.html#a4d6ce701a4cc463a7e9c295c664d4440", null ]
+    [ "npc_future_youAI", "d5/d2b/a21642.html#a7608c050dd198e3133050e222b42f62b", null ],
+    [ "EnterEvadeMode", "d5/d2b/a21642.html#a0b15c8af6075e323e56b2170ce4eefc0", null ],
+    [ "MoveInLineOfSight", "d5/d2b/a21642.html#a35b67f9e948f5ffbde8a423190ece603", null ],
+    [ "Reset", "d5/d2b/a21642.html#a01a8cd8f94dd614de2ffefdb19cd9f29", null ],
+    [ "UpdateAI", "d5/d2b/a21642.html#ac110daa6b4cf6bf26d9e9f9829577fa6", null ]
 ];

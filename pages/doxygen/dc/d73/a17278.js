@@ -1,6 +1,9 @@
 var a17278 =
 [
-    [ "boss_deathbringer_saurfangAI", "d7/dbc/a17282.html", "d7/dbc/a17282" ],
-    [ "boss_deathbringer_saurfang", "dc/d73/a17278.html#ad19893be7dc3b4290d9b1ed3bb992e08", null ],
-    [ "GetAI", "dc/d73/a17278.html#a6bc1ef44b3ea9e860d62bf78cfa38c92", null ]
+    [ "FilterTargetsInitial", "dc/d73/a17278.html#acebf4a9f8c4cdd6111ae816d7c24b00f", null ],
+    [ "FilterTargetsSubsequent", "dc/d73/a17278.html#a11732039155235c287757980129d5a8e", null ],
+    [ "Load", "dc/d73/a17278.html#a467272ccd10ec0aff7ad00a567c0049c", null ],
+    [ "PrepareSpellScript", "dc/d73/a17278.html#a6f97c9c1dc71a87d2a82de646809f063", null ],
+    [ "Register", "dc/d73/a17278.html#a56a4e65df08a95fddde75162358155c2", null ],
+    [ "_target", "dc/d73/a17278.html#abdd93e8e80826c71ead1d9e44aaf865a", null ]
 ];

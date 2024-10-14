@@ -1,7 +1,9 @@
 var a22918 =
 [
-    [ "HandleEffectApply", "d9/dec/a22918.html#a5857dbdb088de67cc15717dca0c5f7b5", null ],
-    [ "HandleEffectRemove", "d9/dec/a22918.html#aab0536f7f73d9e354a526f56f587fff0", null ],
-    [ "PrepareAuraScript", "d9/dec/a22918.html#a80a6b51bc6c1457edc0fb8a0089513d1", null ],
-    [ "Register", "d9/dec/a22918.html#a194ff31e6168bca23881f3804154d479", null ]
+    [ "boss_najentus", "d9/dec/a22918.html#ac5d3d54a49524892fe844925d483c244", null ],
+    [ "JustDied", "d9/dec/a22918.html#afee32dd32033c7a45068ce12e961797c", null ],
+    [ "JustEngagedWith", "d9/dec/a22918.html#a46e3aab64c21b24ac6457acd598679ec", null ],
+    [ "KilledUnit", "d9/dec/a22918.html#ad55e1de3aa7a636b3d30b0d61a17dab9", null ],
+    [ "Reset", "d9/dec/a22918.html#ab7e0bdb8954722c9080146a88a3c5aa2", null ],
+    [ "_canTalk", "d9/dec/a22918.html#a25ac29a79cdcfb4ebc48de13d677f1d4", null ]
 ];

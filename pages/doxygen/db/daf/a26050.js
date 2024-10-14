@@ -1,8 +1,7 @@
 var a26050 =
 [
-    [ "Load", "db/daf/a26050.html#a7662d85a5469c20edf6d2eefca820db3", null ],
-    [ "PrepareAuraScript", "db/daf/a26050.html#a252bd975a7639eab4e151249db974b7c", null ],
-    [ "Register", "db/daf/a26050.html#a51723a22f1062f44e8eb6848e1398595", null ],
-    [ "Split", "db/daf/a26050.html#a08e982eae6030fdc679663bfd38bca47", null ],
-    [ "remainingAmount", "db/daf/a26050.html#afaab88988769ddc720deb44f06de3d7d", null ]
+    [ "FilterTargets", "db/daf/a26050.html#ad679149423fda97ad5744318520022b1", null ],
+    [ "PrepareSpellScript", "db/daf/a26050.html#ac57c48690c5ad1b907f56287aee949a4", null ],
+    [ "Register", "db/daf/a26050.html#aea9b3a6cc4abae242bde76634bcbacd3", null ],
+    [ "Validate", "db/daf/a26050.html#a2c755f4ce5c3736dd0b0dd79341a4570", null ]
 ];

@@ -1,8 +1,6 @@
 var a22298 =
 [
-    [ "npc_wg_queueAI", "d5/d5f/a22302.html", "d5/d5f/a22302" ],
-    [ "npc_wg_queue", "da/d26/a22298.html#a2cc9825e08e982ef195f117a4512c4ae", null ],
-    [ "GetAI", "da/d26/a22298.html#ad2d7746a32b520d37ea826b03627de4e", null ],
-    [ "OnGossipHello", "da/d26/a22298.html#a20fc6ae4e4377f237a620b7f5b1de8ee", null ],
-    [ "OnGossipSelect", "da/d26/a22298.html#afb707da5d85affc65f7ab5a0fc018c93", null ]
+    [ "PrepareSpellScript", "da/d26/a22298.html#ae9a4734c9b12473f86c91a49860d56dd", null ],
+    [ "RecalculateDamage", "da/d26/a22298.html#ad47d51e68c6ffe60f15beceaffc60b19", null ],
+    [ "Register", "da/d26/a22298.html#a0dbeb30ba0eb22f4eb762f0a14cc6f39", null ]
 ];

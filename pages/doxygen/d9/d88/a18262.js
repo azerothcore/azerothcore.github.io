@@ -1,6 +1,6 @@
 var a18262 =
 [
-    [ "HandleScript", "d9/d88/a18262.html#a910663e3fb2534c0e3aefcfd0adfe2fb", null ],
-    [ "PrepareSpellScript", "d9/d88/a18262.html#a2c6acef52962f606130d643cbd93104b", null ],
-    [ "Register", "d9/d88/a18262.html#a03ed4f257c313ba33361c16f313fdfcc", null ]
+    [ "boss_valithria_dreamwalkerAI", "d8/d59/a18266.html", "d8/d59/a18266" ],
+    [ "boss_valithria_dreamwalker", "d9/d88/a18262.html#afcc6dc92d94330d3aed67f71452f9cd2", null ],
+    [ "GetAI", "d9/d88/a18262.html#a0f0bacefa7e3d682a5db81a14f2ff947", null ]
 ];

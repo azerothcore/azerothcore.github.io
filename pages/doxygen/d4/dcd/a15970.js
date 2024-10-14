@@ -1,7 +1,7 @@
 var a15970 =
 [
-    [ "OnApply", "d4/dcd/a15970.html#a2e4fa91ed7b3270a1addb8e5b3a85d74", null ],
-    [ "OnRemove", "d4/dcd/a15970.html#a781994b0be4588f4df29399fc900ec69", null ],
-    [ "PrepareAuraScript", "d4/dcd/a15970.html#aee648b80e7352edffb20fd60697e1d88", null ],
-    [ "Register", "d4/dcd/a15970.html#a53c56711e31500f827123c08f44072cb", null ]
+    [ "HandleDummy", "d4/dcd/a15970.html#a687cff5dcfcd7d9253182eb604d7a780", null ],
+    [ "PrepareSpellScript", "d4/dcd/a15970.html#ab8544e2c9e3bea229abd270c108bfa14", null ],
+    [ "Register", "d4/dcd/a15970.html#a144224b42aabc0402b729dcc808d779d", null ],
+    [ "Validate", "d4/dcd/a15970.html#a985e843e856a7322bccf8544c45df48c", null ]
 ];

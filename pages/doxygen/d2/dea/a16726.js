@@ -1,6 +1,10 @@
 var a16726 =
 [
-    [ "npc_phantom_mageAI", "de/d9e/a16730.html", "de/d9e/a16730" ],
-    [ "npc_phantom_mage", "d2/dea/a16726.html#ad57414231c40917bf55d6155fa9c05db", null ],
-    [ "GetAI", "d2/dea/a16726.html#ae2134b8be3052da659390bde7c2aac2e", null ]
+    [ "npc_hor_spiritual_reflectionAI", "d2/dea/a16726.html#aac0a916bfa325284b354e7241fe857ab", null ],
+    [ "EnterEvadeMode", "d2/dea/a16726.html#a49f1c93206bfff53090c138a3dbf79e5", null ],
+    [ "JustDied", "d2/dea/a16726.html#a72073c44f881d4a78552de4119a716d7", null ],
+    [ "JustEngagedWith", "d2/dea/a16726.html#ac35e648b93bb39ca831390bf88f6a3e7", null ],
+    [ "Reset", "d2/dea/a16726.html#ad1f523fad45c34077e6d6ce7b9a4aefd", null ],
+    [ "UpdateAI", "d2/dea/a16726.html#af9613e9309b85317bc6e3a84013dcf89", null ],
+    [ "events", "d2/dea/a16726.html#a89a466917aa5634c4c86ecbce21280b7", null ]
 ];

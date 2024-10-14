@@ -1,5 +1,7 @@
 var a15878 =
 [
-    [ "at_baltharus_plateau", "d3/db4/a15878.html#ac7acc8816b298446ac9bb8d6b82f27b6", null ],
-    [ "OnTrigger", "d3/db4/a15878.html#aea08e30eb57d5d84b78b8891c4a45afb", null ]
+    [ "npc_orb_carrierAI", "d3/db4/a15878.html#a2011c247d2157f5f2a06db6e149743e0", null ],
+    [ "DoAction", "d3/db4/a15878.html#a501d0bdb9d77be1229dadf60d5f8af8c", null ],
+    [ "TriggerCutter", "d3/db4/a15878.html#a6b6b127db878ca3b79ac8d7aeff4156e", null ],
+    [ "UpdateAI", "d3/db4/a15878.html#a99a08390fcf2b0a058aee161932392d0", null ]
 ];

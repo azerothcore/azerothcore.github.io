@@ -1,5 +1,6 @@
 var a20230 =
 [
-    [ "achievement_ignis_shattered", "d9/d65/a20230.html#adbe893b0dd409eb3f10768f81f182f61", null ],
-    [ "OnCheck", "d9/d65/a20230.html#a8a77a6e6979b4b09f5208e51b4faa4c1", null ]
+    [ "OnPeriodic", "d9/d65/a20230.html#a8a12342f694499043e8ed4446fd92d36", null ],
+    [ "PrepareAuraScript", "d9/d65/a20230.html#a9294210ece0c3bcda0639d1fc486cc9a", null ],
+    [ "Register", "d9/d65/a20230.html#a381709d53101832de6b2161c4a33a0d4", null ]
 ];

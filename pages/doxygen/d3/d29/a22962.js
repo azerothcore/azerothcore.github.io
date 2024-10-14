@@ -1,7 +1,6 @@
 var a22962 =
 [
-    [ "HandleOnHit", "d3/d29/a22962.html#a9f368396cef39ba3bd70480f11c44700", null ],
-    [ "PrepareSpellScript", "d3/d29/a22962.html#a3240b42a9122e61b57ea91486cb3c97b", null ],
-    [ "Register", "d3/d29/a22962.html#a99f80adcebdd9726a8df51f99d415651", null ],
-    [ "Validate", "d3/d29/a22962.html#a25e3078f0b2d71ea0e6802aae0a6c7a4", null ]
+    [ "PrepareAuraScript", "d3/d29/a22962.html#a0dca39c324a5431d4861c1f20a34355e", null ],
+    [ "Register", "d3/d29/a22962.html#a8f52092f25bdbf453d4126c56ff69f0a", null ],
+    [ "Update", "d3/d29/a22962.html#a6201eaa3b961e838a535b80679996ada", null ]
 ];

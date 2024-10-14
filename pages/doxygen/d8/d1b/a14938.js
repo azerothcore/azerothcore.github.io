@@ -1,9 +1,7 @@
 var a14938 =
 [
-    [ "npc_giant_eye_tentacle", "d8/d1b/a14938.html#a1adebf586a8a4413bb048936b90ddd3c", null ],
-    [ "JustDied", "d8/d1b/a14938.html#a72cac50a711868256a41c543d0cef3da", null ],
-    [ "JustEngagedWith", "d8/d1b/a14938.html#ac26b16e709e62c429b7ca88815bbc4cd", null ],
-    [ "Reset", "d8/d1b/a14938.html#a4e605a585099d136d8f6bd42b6450f1d", null ],
-    [ "UpdateAI", "d8/d1b/a14938.html#aacae6ea2616af2ad9515167fc1bab61d", null ],
-    [ "_portalGUID", "d8/d1b/a14938.html#af9784b6d00e50ec28ed27361aaf3442f", null ]
+    [ "npc_sartura_royal_guard", "d8/d1b/a14938.html#a3ce2aeec4e5f26916ef50bdeea624c9d", null ],
+    [ "JustEngagedWith", "d8/d1b/a14938.html#a0b162e1fcc925f65fedbfe235b59eb0e", null ],
+    [ "Reset", "d8/d1b/a14938.html#a2b604aada12ca7f3e712cdbd1a3f397a", null ],
+    [ "UpdateAI", "d8/d1b/a14938.html#a2ed50f65847133c897facecbaa4711d8", null ]
 ];

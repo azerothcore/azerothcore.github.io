@@ -1,6 +1,8 @@
 var a19178 =
 [
-    [ "boss_commander_stoutbeardAI", "df/dd4/a19182.html", "df/dd4/a19182" ],
-    [ "boss_commander_stoutbeard", "d7/de0/a19178.html#a88d3d29efbfffc22dbe48bd9fa1de9d6", null ],
-    [ "GetAI", "d7/de0/a19178.html#a890716f1c4adf9cd3d565b62cc675f64", null ]
+    [ "npc_crystal_spikeAI", "d7/de0/a19178.html#ac30dc3941c92fa0cda6639864f803a55", null ],
+    [ "Reset", "d7/de0/a19178.html#ad8889e7a77daba18e3e5506855988537", null ],
+    [ "UpdateAI", "d7/de0/a19178.html#a158ca019d06e045358ba305bd6e20bc1", null ],
+    [ "_damageTimer", "d7/de0/a19178.html#a0bbd82d1c92be0ac595d1ab9704b6162", null ],
+    [ "_gameObjectGUID", "d7/de0/a19178.html#acdeacf285b083f4c802295d8d0583ed7", null ]
 ];

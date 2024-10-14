@@ -1,7 +1,7 @@
 var a19642 =
 [
-    [ "HandlePeriodic", "dc/d2b/a19642.html#a14fd25f78c9e2bfbdaeb07f3233628b6", null ],
-    [ "PrepareAuraScript", "dc/d2b/a19642.html#ad78b06733a8609dd39e885db2f23edba", null ],
-    [ "Register", "dc/d2b/a19642.html#ac9ae9be546964752869163896c4045dd", null ],
-    [ "Validate", "dc/d2b/a19642.html#afcca84d03b29ef7569c03f973a6c191b", null ]
+    [ "OnRemove", "dc/d2b/a19642.html#a4d7ec990112b4ed602bcacf5a6de6722", null ],
+    [ "PrepareAuraScript", "dc/d2b/a19642.html#a7cc9f0d6882b713c7b0a2585d6008437", null ],
+    [ "Register", "dc/d2b/a19642.html#ad3a66fdfb2a159461bb3deeab6f71c13", null ],
+    [ "Validate", "dc/d2b/a19642.html#a8bd121743d1153ae3fd8eb124e475d0f", null ]
 ];

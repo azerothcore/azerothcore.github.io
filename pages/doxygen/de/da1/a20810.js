@@ -1,6 +1,7 @@
 var a20810 =
 [
-    [ "boss_yoggsaron_voiceAI", "dc/d30/a20814.html", "dc/d30/a20814" ],
-    [ "boss_yoggsaron_voice", "de/da1/a20810.html#ae5d10416bb83e57c0e9d3ef5d6f5adc6", null ],
-    [ "GetAI", "de/da1/a20810.html#a50abcde0313df06a114a2f5f44a1d481", null ]
+    [ "HandleEffectCalcPeriodic", "de/da1/a20810.html#af01eb94174952de52615734055b17c1a", null ],
+    [ "HandleEffectPeriodic", "de/da1/a20810.html#a87b4517a6ad8630027ab2c3534b9fb8c", null ],
+    [ "PrepareAuraScript", "de/da1/a20810.html#a95bd054accb5b72c4cfb12caccf0e004", null ],
+    [ "Register", "de/da1/a20810.html#a2d506669ddc4c84e9ae3eb1746eadce1", null ]
 ];

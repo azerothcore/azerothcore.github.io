@@ -1,6 +1,6 @@
 var a21138 =
 [
-    [ "instance_utgarde_pinnacle_InstanceMapScript", "d0/dfd/a21142.html", "d0/dfd/a21142" ],
-    [ "instance_utgarde_pinnacle", "d3/dfa/a21138.html#a70c1528c9c1b0d830cc7af7debd5721b", null ],
-    [ "GetInstanceScript", "d3/dfa/a21138.html#a41bd06d5f42b09193c5f1b2bbb2323ac", null ]
+    [ "boss_koralonAI", "d0/dfd/a21142.html", "d0/dfd/a21142" ],
+    [ "boss_koralon", "d3/dfa/a21138.html#a43b9fb1224abeba44080fb02062451b0", null ],
+    [ "GetAI", "d3/dfa/a21138.html#a7afd462b2c43ee088c09fcb7ddcb141d", null ]
 ];

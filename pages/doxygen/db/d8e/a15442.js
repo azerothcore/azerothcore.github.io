@@ -1,7 +1,7 @@
 var a15442 =
 [
-    [ "npc_steward_of_time", "db/d8e/a15442.html#ad49973464c96f44506033b73a85f6360", null ],
-    [ "OnGossipHello", "db/d8e/a15442.html#a3b61038393c3addbbfa6643438164db3", null ],
-    [ "OnGossipSelect", "db/d8e/a15442.html#af4fe13e266a98129b92e5a25188d947c", null ],
-    [ "OnQuestAccept", "db/d8e/a15442.html#a53d552282da49e8246089b2799fff9ca", null ]
+    [ "npc_lakota_windsongAI", "db/d8e/a15442.html#a922172a38ca75adef66a2653eda7fa98", null ],
+    [ "DoSpawnBandits", "db/d8e/a15442.html#aa63601ac87b674cb5d0594213d1e7ea9", null ],
+    [ "Reset", "db/d8e/a15442.html#aee7a86275f93021e0e5db249b636bcd4", null ],
+    [ "WaypointReached", "db/d8e/a15442.html#a6435c8b1521206789131889e5fa527a6", null ]
 ];

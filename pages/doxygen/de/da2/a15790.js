@@ -1,6 +1,7 @@
 var a15790 =
 [
-    [ "boss_sartharion_tenebronAI", "d6/d09/a15794.html", "d6/d09/a15794" ],
-    [ "boss_sartharion_tenebron", "de/da2/a15790.html#ada445771d2d3d01fb586f15d62e21755", null ],
-    [ "GetAI", "de/da2/a15790.html#a2eb4555506167a4aee7b844e305d7107", null ]
+    [ "DelayedTalk", "de/da2/a15790.html#a8a7ea9e6ddebd73996cfe8d9723276bc", null ],
+    [ "Execute", "de/da2/a15790.html#a88c1915e73bcbd8ec253a537c416caf7", null ],
+    [ "_owner", "de/da2/a15790.html#a9d13769bb3fbaed32919fc919da35006", null ],
+    [ "_talkId", "de/da2/a15790.html#a3f3a1688a36807c653a5d071dd2bb389", null ]
 ];

@@ -1,10 +1,11 @@
 var a14062 =
 [
-    [ "npc_coren_direbrew_sisters", "df/d01/a14062.html#a415ea0ebd044236f5f4c4d6c28896e00", null ],
-    [ "GetGUID", "df/d01/a14062.html#a61863117e71ebfb7f1c4c83780ece7bc", null ],
-    [ "JustEngagedWith", "df/d01/a14062.html#a34e0b6af032240c152c463c221d99335", null ],
-    [ "SetGUID", "df/d01/a14062.html#ada2e446a929bbba088d3c7e09d117f93", null ],
-    [ "UpdateAI", "df/d01/a14062.html#a7434b08d12d3f0902d1944b75323560c", null ],
-    [ "_scheduler", "df/d01/a14062.html#a9d8ca85e7bbd3cc9c61c2bbb38b7d222", null ],
-    [ "_targetGUID", "df/d01/a14062.html#a801a6811124a7db3a31ec492ef954b20", null ]
+    [ "npc_the_biggest_tree", "df/d01/a14062.html#a7366f46c4864fa0f1372c920b94c6e97", null ],
+    [ "MoveInLineOfSight", "df/d01/a14062.html#a572c0b146d461b6a8504163452570954", null ],
+    [ "Reset", "df/d01/a14062.html#a3fd4c5e522e8945925124426a8ff870b", null ],
+    [ "UpdateAI", "df/d01/a14062.html#a3d1b33ab7cd28de5438f53a00657170a", null ],
+    [ "orphanGUID", "df/d01/a14062.html#a36c170fb178a19256fd41fb2cbbb7830", null ],
+    [ "phase", "df/d01/a14062.html#a7101fe10b15ce1779d3d131e597ef636", null ],
+    [ "playerGUID", "df/d01/a14062.html#ab39af61d9ab7d9f7210f96b65971654d", null ],
+    [ "timer", "df/d01/a14062.html#a7525783692c3bc9642f534296b71a5f5", null ]
 ];

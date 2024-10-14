@@ -1,6 +1,6 @@
 var a24742 =
 [
-    [ "OnHit", "dc/d85/a24742.html#a56ecd2ea05f48b874b2890d7f15cc362", null ],
-    [ "PrepareSpellScript", "dc/d85/a24742.html#a0d74ce7c43f0cb7329ca990f1b0eecdf", null ],
-    [ "Register", "dc/d85/a24742.html#a7cd2cc858eeb7805a3efb72b081c284e", null ]
+    [ "PrepareSpellScript", "dc/d85/a24742.html#ae8ef8bea1a6afa3f810c476e038bacc6", null ],
+    [ "RecalculateDamage", "dc/d85/a24742.html#a856fdecdde1c68a163caf61afb2b0b90", null ],
+    [ "Register", "dc/d85/a24742.html#a7f8c5c4920a87605b716e9e85b43ef47", null ]
 ];

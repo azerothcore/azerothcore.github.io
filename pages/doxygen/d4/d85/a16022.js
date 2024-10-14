@@ -1,7 +1,6 @@
 var a16022 =
 [
-    [ "HandleDummy", "d4/d85/a16022.html#a687cff5dcfcd7d9253182eb604d7a780", null ],
-    [ "PrepareSpellScript", "d4/d85/a16022.html#ab8544e2c9e3bea229abd270c108bfa14", null ],
-    [ "Register", "d4/d85/a16022.html#a144224b42aabc0402b729dcc808d779d", null ],
-    [ "Validate", "d4/d85/a16022.html#a985e843e856a7322bccf8544c45df48c", null ]
+    [ "FilterTargets", "d4/d85/a16022.html#a79d34d7e517b27e44c6a91d6056dfec7", null ],
+    [ "PrepareSpellScript", "d4/d85/a16022.html#a5ede43deece629a38f5482280983b59a", null ],
+    [ "Register", "d4/d85/a16022.html#aec3d0ed996e9cbfed9fb78c5f16e254f", null ]
 ];

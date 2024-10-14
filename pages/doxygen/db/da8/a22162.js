@@ -1,8 +1,12 @@
 var a22162 =
 [
-    [ "npc_adventurous_dwarfAI", "da/dde/a22166.html", "da/dde/a22166" ],
-    [ "npc_adventurous_dwarf", "db/da8/a22162.html#a15c39e217907189db9be7799e696f310", null ],
-    [ "GetAI", "db/da8/a22162.html#ac3f124fab8520a16ccd73e058a0383b1", null ],
-    [ "OnGossipHello", "db/da8/a22162.html#ab69e3e249f7075d5344ad79bf9c79b79", null ],
-    [ "OnGossipSelect", "db/da8/a22162.html#aebb2cd209f71d8ab56a29e5bfd668def", null ]
+    [ "npc_time_lost_proto_drakeAI", "db/da8/a22162.html#ab98805519233eda932c6131aca059a8b", null ],
+    [ "JustEngagedWith", "db/da8/a22162.html#a14f41b30451b8ac8fe2411ec7102ae81", null ],
+    [ "Reset", "db/da8/a22162.html#a418ea9621040e3c717c4e24f73539f44", null ],
+    [ "RollPath", "db/da8/a22162.html#aabb3dd1d54a1290d500429efc8fa9e41", null ],
+    [ "UpdateEscortAI", "db/da8/a22162.html#a1a5442a5796b27d04eaa3ab62c613199", null ],
+    [ "WaypointReached", "db/da8/a22162.html#ad262b9dbc0edd2bac126fafbb5eb5f01", null ],
+    [ "events", "db/da8/a22162.html#aa2e4c3396d63d85a5d0abc8c74e58a79", null ],
+    [ "rollPath", "db/da8/a22162.html#a5431fd5a0801569bc03507818461aa7d", null ],
+    [ "setVisible", "db/da8/a22162.html#a63558b3406c241ecb27f3e485eeb439b", null ]
 ];

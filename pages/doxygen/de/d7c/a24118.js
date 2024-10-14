@@ -1,14 +1,17 @@
 var a24118 =
 [
-    [ "npc_mature_netherwing_drakeAI", "de/d7c/a24118.html#a32281f8dfa1c8af8fe6bcac2a8be4220", null ],
-    [ "JustReachedHome", "de/d7c/a24118.html#a0de69b5fda6342217697ad264d64d4e6", null ],
-    [ "MovementInform", "de/d7c/a24118.html#a456b5de60672120f82506d177faf6b47", null ],
-    [ "Reset", "de/d7c/a24118.html#a72eb39e259aed0ab230d4d43722cba13", null ],
-    [ "SpellHit", "de/d7c/a24118.html#a749690b386c0c726d11b77bc705b9b01", null ],
-    [ "UpdateAI", "de/d7c/a24118.html#a624c256f29d3cefed0bb909da3841853", null ],
-    [ "bCanEat", "de/d7c/a24118.html#ad4c671be4f16f23ddf2f2f84b0bd4c94", null ],
-    [ "bIsEating", "de/d7c/a24118.html#a0519438fda724a06a0c6f8ed2d7d533d", null ],
-    [ "CastTimer", "de/d7c/a24118.html#a630312f70a2f22683311a66e5a4f9ec6", null ],
-    [ "EatTimer", "de/d7c/a24118.html#aa50d3a21103dc769d162b1c917100630", null ],
-    [ "uiPlayerGUID", "de/d7c/a24118.html#a6b9a435245ddce156d0657aa9e35175b", null ]
+    [ "npc_torloth_the_magnificentAI", "de/d7c/a24118.html#ad34b85c80ebfb2332709c7ee21c053b7", null ],
+    [ "HandleAnimation", "de/d7c/a24118.html#ab69f481e3871e5ce803ab1f389a2385c", null ],
+    [ "JustDied", "de/d7c/a24118.html#aef9d2bcc04b8c1a54bf59f4744eba3ae", null ],
+    [ "JustEngagedWith", "de/d7c/a24118.html#abf3fc3538e82fceaa916d4e217d6f9fd", null ],
+    [ "Reset", "de/d7c/a24118.html#aa7944f80bb6718a65a07128be830ed94", null ],
+    [ "UpdateAI", "de/d7c/a24118.html#ad5f7769462aa39fabb7ec5e79670cda1", null ],
+    [ "AggroTargetGUID", "de/d7c/a24118.html#a826ecad9e9a06050a3ebc0861bf52c1e", null ],
+    [ "AnimationCount", "de/d7c/a24118.html#afbe712b9e3dfe97417e1e621f4eff113", null ],
+    [ "AnimationTimer", "de/d7c/a24118.html#a2485ad15002946c0c5b2ebce65221629", null ],
+    [ "LordIllidanGUID", "de/d7c/a24118.html#ad135529fe083af2ce3e79823213d2735", null ],
+    [ "SpellTimer1", "de/d7c/a24118.html#a991868074e39e2a4d06c37afc642a756", null ],
+    [ "SpellTimer2", "de/d7c/a24118.html#a7da30509a017de1392cc3ba181a0dc53", null ],
+    [ "SpellTimer3", "de/d7c/a24118.html#a0caf2b2d48c78b2eb032ff73168e2556", null ],
+    [ "Timers", "de/d7c/a24118.html#a0eb0c24aff4cdab76d234ba17dbc4b5b", null ]
 ];

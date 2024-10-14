@@ -1,9 +1,6 @@
 var a25374 =
 [
-    [ "CheckProc", "d8/dbe/a25374.html#a073ed3648f5fd15db73d1620ba7031e3", null ],
-    [ "HandleProc", "d8/dbe/a25374.html#a5345da73b9c4c9fe4ae5d272e3574955", null ],
-    [ "OnRemove", "d8/dbe/a25374.html#a27b1b744d88b4c870c0baa0b8f88317f", null ],
-    [ "PrepareAuraScript", "d8/dbe/a25374.html#a2e13f63459342fb749594f7fbb517c80", null ],
-    [ "Register", "d8/dbe/a25374.html#a6fc9a3945a736ba4a62ad754090d8525", null ],
-    [ "Validate", "d8/dbe/a25374.html#a008ec43da50deb568ec453e992f89887", null ]
+    [ "HandleItemRemove", "d8/dbe/a25374.html#a28f8f8e6823bad14900d08ba10cab7e6", null ],
+    [ "PrepareSpellScript", "d8/dbe/a25374.html#a8b43e146724a2c8b3c495e886a79d021", null ],
+    [ "Register", "d8/dbe/a25374.html#af8b02c31b81dce516ea47d6a1235d683", null ]
 ];

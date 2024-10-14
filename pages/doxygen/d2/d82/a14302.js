@@ -1,8 +1,6 @@
 var a14302 =
 [
-    [ "OnApply", "d2/d82/a14302.html#a6bc23ff885f4fbc25d00fe35173bad3e", null ],
-    [ "OnRemove", "d2/d82/a14302.html#aed62006fe08bfaad0a8bb51d5e739c67", null ],
-    [ "PrepareAuraScript", "d2/d82/a14302.html#ac7388aa4c0746ce963cbbb97dbfb4765", null ],
-    [ "Register", "d2/d82/a14302.html#a95c3af6d3f1d510ad8a2d9be7e28b2dc", null ],
-    [ "Validate", "d2/d82/a14302.html#a0ed19bc16fa8e2da2332766bbc1110e5", null ]
+    [ "HandleDummy", "d2/d82/a14302.html#aa75140309e66c28590a64e10676356da", null ],
+    [ "PrepareSpellScript", "d2/d82/a14302.html#a21c4872e16c18c2918dfbea366e61df3", null ],
+    [ "Register", "d2/d82/a14302.html#a841c9277224cbae878946deb288b87a1", null ]
 ];

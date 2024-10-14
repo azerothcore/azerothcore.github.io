@@ -1,6 +1,7 @@
 var a25418 =
 [
-    [ "HandleItemRemove", "d1/dbe/a25418.html#a28f8f8e6823bad14900d08ba10cab7e6", null ],
-    [ "PrepareSpellScript", "d1/dbe/a25418.html#a8b43e146724a2c8b3c495e886a79d021", null ],
-    [ "Register", "d1/dbe/a25418.html#af8b02c31b81dce516ea47d6a1235d683", null ]
+    [ "CheckProc", "d1/dbe/a25418.html#a41c451e31b84a72af3a17bfa29ca02fe", null ],
+    [ "HandleProc", "d1/dbe/a25418.html#a5cf9cea911ead2f261522e55e94c745a", null ],
+    [ "PrepareAuraScript", "d1/dbe/a25418.html#a3f2b20607f90ad641769eb284ddfab85", null ],
+    [ "Register", "d1/dbe/a25418.html#a55557026689613e91aeabce1af442237", null ]
 ];

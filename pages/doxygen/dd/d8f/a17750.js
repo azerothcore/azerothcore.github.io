@@ -1,11 +1,6 @@
 var a17750 =
 [
-    [ "Load", "dd/d8f/a17750.html#a0dab3a666abd6d8c1486a6e71ce98c20", null ],
-    [ "PrepareSpellScript", "dd/d8f/a17750.html#a8338cc31a3c494c1cb24d015a11fbd64", null ],
-    [ "Register", "dd/d8f/a17750.html#a9adbad7cc2185b22fb16135e78114548", null ],
-    [ "SelectTarget", "dd/d8f/a17750.html#a296ec09cec9661123ea5c86f3f262f32", null ],
-    [ "SetTarget", "dd/d8f/a17750.html#a15373dc2a0767e011faf504f6377e24d", null ],
-    [ "StartAttack", "dd/d8f/a17750.html#a17b20a391d70ae487774d52ed0e5dbd7", null ],
-    [ "Validate", "dd/d8f/a17750.html#a7619f7ec6dc0ce14293414729731ed00", null ],
-    [ "_target", "dd/d8f/a17750.html#abe6d3ad0f06b2370f1a5985878d6af3d", null ]
+    [ "ExtraEffect", "dd/d8f/a17750.html#a10dfb36a835589208482e1c8833d8f46", null ],
+    [ "PrepareSpellScript", "dd/d8f/a17750.html#a972ff2bdc7d3660820e05326600be6f6", null ],
+    [ "Register", "dd/d8f/a17750.html#ae337e67a220b72b44878d02be33e3888", null ]
 ];

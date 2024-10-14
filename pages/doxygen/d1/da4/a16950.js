@@ -1,6 +1,5 @@
 var a16950 =
 [
-    [ "npc_pos_martin_or_gorkun_secondAI", "d3/d06/a16954.html", "d3/d06/a16954" ],
-    [ "npc_pos_martin_or_gorkun_second", "d1/da4/a16950.html#a3027c88a65aa523cc99f2fa79e1e376c", null ],
-    [ "GetAI", "d1/da4/a16950.html#a180936e3bb98eb55d29ebd51350906c0", null ]
+    [ "endPosition", "d1/da4/a16950.html#a8a88b0191d28ef6af8f41db627552602", null ],
+    [ "entry", "d1/da4/a16950.html#ac4e55af666e269440953ced038c1a8de", null ]
 ];

@@ -1,6 +1,6 @@
 var a17134 =
 [
-    [ "boss_prince_taldaramAI", "d5/dd2/a17138.html", "d5/dd2/a17138" ],
-    [ "boss_prince_taldaram_icc", "d5/d70/a17134.html#abe14f754e1daf597aa2b7d401f337c8d", null ],
-    [ "GetAI", "d5/d70/a17134.html#a2a8c89206ab72afc68260f41a246da3b", null ]
+    [ "AddExtraDamage", "d5/d70/a17134.html#adeedfdd7555dfd009c99db6f002f7488", null ],
+    [ "PrepareSpellScript", "d5/d70/a17134.html#a5d5c32f102c525f6c25d12281a58f5f4", null ],
+    [ "Register", "d5/d70/a17134.html#affe1d9a5e9c4776d1651fdb95283caf4", null ]
 ];

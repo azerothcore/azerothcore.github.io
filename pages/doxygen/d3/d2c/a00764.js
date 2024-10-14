@@ -1,4 +1,5 @@
 var a00764 =
 [
-    [ "ScriptRegistry< InstanceMapScript >", "d3/d2c/a00764.html#a1271f70bb9300f8012216659f38edaee", null ]
+    [ "player_commandscript", "d8/dc8/a11414.html", "d8/dc8/a11414" ],
+    [ "AddSC_player_commandscript", "d3/d2c/a00764.html#a3a4a77162d5b304dab9a8c8e397c3516", null ]
 ];

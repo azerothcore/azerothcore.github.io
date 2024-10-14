@@ -1,7 +1,6 @@
 var a23806 =
 [
-    [ "Load", "de/d93/a23806.html#aba7e1a0b87607386649bb842b5058c3e", null ],
-    [ "OnRemove", "de/d93/a23806.html#ac2f7a4532f62fb49f54c60b79aceb2e8", null ],
-    [ "PrepareAuraScript", "de/d93/a23806.html#ac62b18eedbadb0b3581d772909175e96", null ],
-    [ "Register", "de/d93/a23806.html#a17e8be131f01b2434b18740b20a08d6e", null ]
+    [ "PrepareAuraScript", "de/d93/a23806.html#a14d4d1a75130a77e7e59e41720491bec", null ],
+    [ "PrepareProc", "de/d93/a23806.html#abea217f4bfdffc70007fbc29849e9a49", null ],
+    [ "Register", "de/d93/a23806.html#a9dbcd4c940f5941472bebb64829125e3", null ]
 ];

@@ -1,7 +1,6 @@
 var a18094 =
 [
-    [ "HandleScript", "d5/dba/a18094.html#a0ddd74672b48fd7bf5d3b4d4b6467e4a", null ],
-    [ "PrepareSpellScript", "d5/dba/a18094.html#a598baad08c685bba54ad5306e0d521b4", null ],
-    [ "Register", "d5/dba/a18094.html#a471bac09c68708daefe6a39f283caa4c", null ],
-    [ "Validate", "d5/dba/a18094.html#a162e50b7136687aae7a8df0bb93dd8fe", null ]
+    [ "npc_raging_spiritAI", "d4/d57/a18098.html", "d4/d57/a18098" ],
+    [ "npc_raging_spirit", "d5/dba/a18094.html#ad1a580bd394adc8c58575b600c16f9db", null ],
+    [ "GetAI", "d5/dba/a18094.html#ab572a667f6ddd0d4051fe424c8d9e21c", null ]
 ];

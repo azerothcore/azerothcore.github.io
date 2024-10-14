@@ -1,6 +1,6 @@
 var a19550 =
 [
-    [ "spell_hos_dark_matter_AuraScript", "de/d6c/a19554.html", "de/d6c/a19554" ],
-    [ "spell_hos_dark_matter", "d8/d38/a19550.html#af170db9adc5adb20f8d6a3e95cd60124", null ],
-    [ "GetAuraScript", "d8/d38/a19550.html#a2277580897f7533440713157d9cd863f", null ]
+    [ "npc_algalon_worm_holeAI", "de/d6c/a19554.html", "de/d6c/a19554" ],
+    [ "npc_algalon_worm_hole", "d8/d38/a19550.html#a72516a4824fa61a331caff46d2784c64", null ],
+    [ "GetAI", "d8/d38/a19550.html#aac6ff3a41f08f5a11baa78c0526a3556", null ]
 ];

@@ -1,4 +1,5 @@
 var a00695 =
 [
-    [ "ScriptRegistry< GuildScript >", "d5/d5b/a00695.html#af7c126caabb7b664b2a28086b5f7737e", null ]
+    [ "group_commandscript", "d9/d07/a11338.html", "d9/d07/a11338" ],
+    [ "AddSC_group_commandscript", "d5/d5b/a00695.html#ac4c9434ed910cd9636e0a8644a8e91e1", null ]
 ];

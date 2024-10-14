@@ -1,7 +1,16 @@
 var a18910 =
 [
-    [ "HandleRemove", "df/d6f/a18910.html#a7c81c567ae10bf4fd4d3c1eb480b5761", null ],
-    [ "PrepareAuraScript", "df/d6f/a18910.html#aaefd5b15f7a3725b2663c0717fe22c92", null ],
-    [ "Register", "df/d6f/a18910.html#ad7ba015a7878adad0820cf378d2632ca", null ],
-    [ "Validate", "df/d6f/a18910.html#a570bb63c6ed7af58b0b886e8a954dea9", null ]
+    [ "boss_maexxnaAI", "df/d6f/a18910.html#a3bf898911798eaa891ef7638a3a2cc20", null ],
+    [ "DoCastWebWrap", "df/d6f/a18910.html#a5d78455f5ba6e30df6644897b4e6ad7e", null ],
+    [ "IsInRoom", "df/d6f/a18910.html#a957bd38232c020611fc24dd8a6e55640", null ],
+    [ "JustDied", "df/d6f/a18910.html#a4f0121aedeff9d44b28e888f5f3d0382", null ],
+    [ "JustEngagedWith", "df/d6f/a18910.html#a9974fc771b3663878964aeb20914fe43", null ],
+    [ "JustSummoned", "df/d6f/a18910.html#ab45b74b3067b42089fee804844ea41dd", null ],
+    [ "KilledUnit", "df/d6f/a18910.html#a11cda2b905ef2381c317a01e4163be00", null ],
+    [ "Reset", "df/d6f/a18910.html#a78385da6845ce8e3075616c24696d0cc", null ],
+    [ "UpdateAI", "df/d6f/a18910.html#a6f0453babfa84764467970369894eb97", null ],
+    [ "events", "df/d6f/a18910.html#a6ddb73eeb18560a08e72dd6ccc5d0c83", null ],
+    [ "pInstance", "df/d6f/a18910.html#adeda3cc5a174e3d940621e3024a1043f", null ],
+    [ "summons", "df/d6f/a18910.html#a7ea3de40dfd638db7e34c523a0461335", null ],
+    [ "wraps", "df/d6f/a18910.html#a3bfe3ab90ff6f401c3f7b8655e3abc05", null ]
 ];

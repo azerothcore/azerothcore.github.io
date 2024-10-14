@@ -1,7 +1,7 @@
 var a23690 =
 [
-    [ "HandleCast", "d8/dd6/a23690.html#a0084e7f81fcd032c1e04b8f86d821993", null ],
-    [ "PrepareSpellScript", "d8/dd6/a23690.html#acfd6b86e5afed08fd9cf43f64e948149", null ],
-    [ "Register", "d8/dd6/a23690.html#a6ae0573ea69573df64cd57ba84f99918", null ],
-    [ "Validate", "d8/dd6/a23690.html#ab5794ca5c0863ce40194ed40e156279a", null ]
+    [ "CastQuill", "d8/dd6/a23690.html#a923234809186bcbdf02457f4be095519", null ],
+    [ "Execute", "d8/dd6/a23690.html#a26a971a575e4b9503cd1da73d43ebd1e", null ],
+    [ "_caster", "d8/dd6/a23690.html#af809b9279aff141ce4007c8d1fbcc331", null ],
+    [ "_spellId", "d8/dd6/a23690.html#ad6f7d8eaf69873b0ba57be4189c145cf", null ]
 ];

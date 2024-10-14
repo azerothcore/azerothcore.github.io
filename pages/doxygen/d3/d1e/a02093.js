@@ -1,20 +1,10 @@
 var a02093 =
 [
-    [ "Corpse", "d6/dac/a07746.html", "d6/dac/a07746" ],
-    [ "CORPSE_RECLAIM_RADIUS", "d3/d1e/a02093.html#a1cebf109f41dcdac8a90086696642782", null ],
-    [ "MAX_CORPSE_TYPE", "d3/d1e/a02093.html#aec0512ffe7d6a8f7dd8330c334bb4fc3", null ],
-    [ "CorpseFlags", "d3/d1e/a02093.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537c", [
-      [ "CORPSE_FLAG_NONE", "d3/d1e/a02093.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca30260079b14373a47aef21b99e8757a2", null ],
-      [ "CORPSE_FLAG_BONES", "d3/d1e/a02093.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca47ec12fa0520573d7d8ff9231ca4eb8b", null ],
-      [ "CORPSE_FLAG_UNK1", "d3/d1e/a02093.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca043171119fe69fae07f3668763d40c7c", null ],
-      [ "CORPSE_FLAG_UNK2", "d3/d1e/a02093.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca769ec96151b713170c051ee6236bbd5e", null ],
-      [ "CORPSE_FLAG_HIDE_HELM", "d3/d1e/a02093.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca830d0cde7665a938cd48d4018ae0df79", null ],
-      [ "CORPSE_FLAG_HIDE_CLOAK", "d3/d1e/a02093.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537ca25bc5b9c02c2cce38be9bb32c2ad335a", null ],
-      [ "CORPSE_FLAG_LOOTABLE", "d3/d1e/a02093.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537caeb7f1630dc7c0b062b809e65cd4e5f80", null ]
+    [ "spell_razelikh_teleport_group", "d0/db6/a13270.html", "d0/db6/a13270" ],
+    [ "DeathlyUsher", "d3/d1e/a02093.html#aaff0e89586a03a5c2b80f93a4fe0ded7", [
+      [ "SPELL_TELEPORT_SINGLE", "d3/d1e/a02093.html#aaff0e89586a03a5c2b80f93a4fe0ded7a3cdd675db7120b3a968f19df07485e7d", null ],
+      [ "SPELL_TELEPORT_SINGLE_IN_GROUP", "d3/d1e/a02093.html#aaff0e89586a03a5c2b80f93a4fe0ded7a138ccf86c6441c7347a973d3e04c62a5", null ],
+      [ "SPELL_TELEPORT_GROUP", "d3/d1e/a02093.html#aaff0e89586a03a5c2b80f93a4fe0ded7a3efb41f1943511af5c5c1abbced10dcc", null ]
     ] ],
-    [ "CorpseType", "d3/d1e/a02093.html#a43260eb47484e62a16a868f79646c683", [
-      [ "CORPSE_BONES", "d3/d1e/a02093.html#a43260eb47484e62a16a868f79646c683ae7046aabaa7e6f435370eb1c49335356", null ],
-      [ "CORPSE_RESURRECTABLE_PVE", "d3/d1e/a02093.html#a43260eb47484e62a16a868f79646c683a79e10cac636d94dc5aa8379ecce5cc78", null ],
-      [ "CORPSE_RESURRECTABLE_PVP", "d3/d1e/a02093.html#a43260eb47484e62a16a868f79646c683a90cccb41a96804ac3340b13ff68241ba", null ]
-    ] ]
+    [ "AddSC_blasted_lands", "d3/d1e/a02093.html#a8c45aaff0bee880d1bac07d32d1747f1", null ]
 ];

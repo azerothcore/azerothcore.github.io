@@ -1,6 +1,6 @@
 var a22050 =
 [
-    [ "npc_infra_green_bomber_genericAI", "d8/da2/a22054.html", "d8/da2/a22054" ],
-    [ "npc_infra_green_bomber_generic", "df/dab/a22050.html#a39134a09376c35f15e99377cd28ac6ff", null ],
-    [ "GetAI", "df/dab/a22050.html#ad21ce86a9c88f2ee77acb1d130fd4696", null ]
+    [ "npc_artruis_the_hearthlessAI", "d8/da2/a22054.html", "d8/da2/a22054" ],
+    [ "npc_artruis_the_hearthless", "df/dab/a22050.html#abeed70f4306113bd5df242eae91bfdb0", null ],
+    [ "GetAI", "df/dab/a22050.html#a1a7674c5e3e9e0de848bfb0d906ac06c", null ]
 ];

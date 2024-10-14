@@ -1,8 +1,11 @@
 var a18062 =
 [
-    [ "HeightDifferenceCheck", "de/d3f/a18062.html#aa8b61811e435cce456e5cb1d798be66e", null ],
-    [ "operator()", "de/d3f/a18062.html#a1db203642683f85176f2a35eb3d10c34", null ],
-    [ "_baseObject", "de/d3f/a18062.html#a7c274be02ca58429dffaee2ea34153c6", null ],
-    [ "_difference", "de/d3f/a18062.html#af95e2bf67c8316dda982896978c45a68", null ],
-    [ "_reverse", "de/d3f/a18062.html#a89074844d5fd8b02ed99c09ac4cc5b85", null ]
+    [ "AddMissingStack", "de/d3f/a18062.html#ae23dc772e58db8648a7ddbf5255bd917", null ],
+    [ "CheckAura", "de/d3f/a18062.html#a9d9e5620f61c92d35b08bec100b5a12a", null ],
+    [ "FilterTargets", "de/d3f/a18062.html#ab6c86c3680823329d5f3aad985aa316a", null ],
+    [ "Load", "de/d3f/a18062.html#a823e600ee1a350ab60ea69043e4fbef9", null ],
+    [ "PrepareSpellScript", "de/d3f/a18062.html#aff3b52df65504d7d4928b1ff69c1fa4b", null ],
+    [ "Register", "de/d3f/a18062.html#af0e6f1fc6687de1abcc1689116150088", null ],
+    [ "_hadInitialAura", "de/d3f/a18062.html#a1b553c0ad5fc4e86f02829b5284db709", null ],
+    [ "_hadJumpingAura", "de/d3f/a18062.html#ade3c2e5f78cbfbc34a3cbc8259e241db", null ]
 ];

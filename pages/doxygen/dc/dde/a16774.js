@@ -1,6 +1,7 @@
 var a16774 =
 [
-    [ "npc_hor_spiritual_reflectionAI", "d2/d7e/a16778.html", "d2/d7e/a16778" ],
-    [ "npc_hor_spiritual_reflection", "dc/dde/a16774.html#a5f43c7b336335698468092f72c804fea", null ],
-    [ "GetAI", "dc/dde/a16774.html#ab6aafc6db10943662fb66b0f77fc34ec", null ]
+    [ "HandleEffectPeriodic", "dc/dde/a16774.html#aaefcf8ace7c109648c9220fb0ff9d4de", null ],
+    [ "PrepareAuraScript", "dc/dde/a16774.html#ae0ccb7d4566777e52b71e99a908d13fa", null ],
+    [ "Register", "dc/dde/a16774.html#a73e8ef9dbd3dd3dc332d4b3a2eb2c5ea", null ],
+    [ "Validate", "dc/dde/a16774.html#ab3fcbe5386e9529824228e8f3b6be797", null ]
 ];

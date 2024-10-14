@@ -1,7 +1,6 @@
 var a20158 =
 [
-    [ "HandleEffectPeriodic", "d5/dbf/a20158.html#af6c50396e9b47cd909184aea80244728", null ],
-    [ "PrepareAuraScript", "d5/dbf/a20158.html#aeb41825334049c8e3a39b48cbf271477", null ],
-    [ "Register", "d5/dbf/a20158.html#aaa44ceb54aa928c4436120f435bcdc4b", null ],
-    [ "Validate", "d5/dbf/a20158.html#a0098e4949fc75b1a2464128f4df869aa", null ]
+    [ "boss_ignisAI", "da/df9/a20162.html", "da/df9/a20162" ],
+    [ "boss_ignis", "d5/dbf/a20158.html#a15f42f252e4f9472707d5b81f7fdaece", null ],
+    [ "GetAI", "d5/dbf/a20158.html#ac11ff148e9cbc985875f859268a3de01", null ]
 ];

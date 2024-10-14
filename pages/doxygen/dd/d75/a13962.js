@@ -1,6 +1,9 @@
 var a13962 =
 [
-    [ "boss_wushoolayAI", "d3/dd5/a13966.html", "d3/dd5/a13966" ],
-    [ "boss_wushoolay", "dd/d75/a13962.html#a68359ee086bb4e86c3c16c4a03e54893", null ],
-    [ "GetAI", "dd/d75/a13962.html#a70b476358956fd05d6effb75517e2b3d", null ]
+    [ "HandleEffectPeriodic", "dd/d75/a13962.html#a798c8ddfc71e703bfe1e3c1f2d926cef", null ],
+    [ "HandleEffectRemove", "dd/d75/a13962.html#a96ed7366e568b70e82d622586740aa56", null ],
+    [ "Load", "dd/d75/a13962.html#a85cbc44e586330e2adfc0656a428bd7b", null ],
+    [ "PrepareAuraScript", "dd/d75/a13962.html#abd1f851112a50b79e815cdd894275bab", null ],
+    [ "Register", "dd/d75/a13962.html#aa3cd85aed063017c4737e7660fa81f37", null ],
+    [ "questTick", "dd/d75/a13962.html#ae2980e5f4934ce2ba5b755b7d45fab82", null ]
 ];

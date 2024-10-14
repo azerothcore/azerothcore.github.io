@@ -1,6 +1,6 @@
 var a04178 =
 [
-    [ "instance_deadmines", "dd/d16/a12214.html", "dd/d16/a12214" ],
-    [ "instance_deadmines::instance_deadmines_InstanceMapScript", "d4/d2d/a12218.html", "d4/d2d/a12218" ],
-    [ "AddSC_instance_deadmines", "de/dd1/a04178.html#a5c92c13d577422c37a1de0e3b5b4a020", null ]
+    [ "ScriptMgr", "d7/dfe/a10122.html", "d7/dfe/a10122" ],
+    [ "ScriptRegistry< TScript >", "d1/dab/a10126.html", "d1/dab/a10126" ],
+    [ "sScriptMgr", "de/dd1/a04178.html#ae8161e629869974bc49b1cbfc73c1087", null ]
 ];

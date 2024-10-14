@@ -1,7 +1,11 @@
 var a23402 =
 [
-    [ "OnApply", "d2/d4f/a23402.html#a6189a5ea90b1951b21a7e9ef36700ed9", null ],
-    [ "PeriodicTick", "d2/d4f/a23402.html#a1c79b1016361eabb5cef57a893bccfcf", null ],
-    [ "PrepareAuraScript", "d2/d4f/a23402.html#acfa6b5217a0e0e2654b7fa9c4092abd5", null ],
-    [ "Register", "d2/d4f/a23402.html#adddddd0689f4686a40b1db142b5d6ce2", null ]
+    [ "boss_kiggler_the_crazed", "d2/d4f/a23402.html#a6f6cd74a8d2b12809f2710f784340fda", null ],
+    [ "AttackStart", "d2/d4f/a23402.html#a47c18487637dcb911852573e3aec85a2", null ],
+    [ "JustDied", "d2/d4f/a23402.html#acf82f68ccfeabd33bc387dbe7ea0e997", null ],
+    [ "JustEngagedWith", "d2/d4f/a23402.html#acd10951a5b148579d0bd4196cc2e686e", null ],
+    [ "Reset", "d2/d4f/a23402.html#a3bd8ca2488b2db298a198038a849189e", null ],
+    [ "UpdateAI", "d2/d4f/a23402.html#a16e2b767ca4b05eba79726ccb6e11204", null ],
+    [ "_scheduler", "d2/d4f/a23402.html#af041c254910df663a03fcc815db635da", null ],
+    [ "instance", "d2/d4f/a23402.html#aa78db443f19814c66b977fe008de74fa", null ]
 ];

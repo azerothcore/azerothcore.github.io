@@ -1,11 +1,6 @@
 var a15262 =
 [
-    [ "npc_tiger_matriarchAI", "da/d02/a15262.html#accbe5feed1eb7363575f297d1b50f6ab", null ],
-    [ "DamageTaken", "da/d02/a15262.html#ab41c4275fe4f42b36615f746a100ccda", null ],
-    [ "IsSummonedBy", "da/d02/a15262.html#a8b02683be93944a65b38658bba0af4d8", null ],
-    [ "JustEngagedWith", "da/d02/a15262.html#a9a9295008552f5330f778dd3a0c591ea", null ],
-    [ "KilledUnit", "da/d02/a15262.html#aabde7633ac07966ee1cd2d9817582189", null ],
-    [ "UpdateAI", "da/d02/a15262.html#af8ed5b16a3f1ed04d439bc1ce1a07ede", null ],
-    [ "_events", "da/d02/a15262.html#a44632ddc3c4e57bee1791cda4027bc93", null ],
-    [ "_tigerGuid", "da/d02/a15262.html#ad557591ddebd4cece99b0e5793be3eb5", null ]
+    [ "npc_great_bear_spirit", "da/d02/a15262.html#a141470a3623aa1152d3505661f1532c8", null ],
+    [ "OnGossipHello", "da/d02/a15262.html#a2307b8d56fc117d918adc9814fa86f8f", null ],
+    [ "OnGossipSelect", "da/d02/a15262.html#aae026f4cf8b0de61d36a841dcfdbd92e", null ]
 ];

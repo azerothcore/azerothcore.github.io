@@ -1,8 +1,12 @@
 var a13714 =
 [
-    [ "npc_zuljin_vortexAI", "de/da9/a13714.html#ad0bcdf626133ed7ddebf86b95859ad53", null ],
-    [ "JustEngagedWith", "de/da9/a13714.html#a6f1a84b5795680728448bda61fa52c73", null ],
-    [ "Reset", "de/da9/a13714.html#aeae059a3c4a55e30bde641092d7d49d6", null ],
-    [ "SpellHit", "de/da9/a13714.html#a4bc620e49448383990efd392fcf60714", null ],
-    [ "UpdateAI", "de/da9/a13714.html#acb20f40de5d099f8bb28a5eb8f7f09dd", null ]
+    [ "npc_zulian_prowlerAI", "de/da9/a13714.html#a367613efead335b060173011267ddcff", null ],
+    [ "JustDied", "de/da9/a13714.html#a31258aadddfbf6c6e9e1d729452dd8b2", null ],
+    [ "JustEngagedWith", "de/da9/a13714.html#a207504b15ecd22b78088593b80433581", null ],
+    [ "Reset", "de/da9/a13714.html#a62d14bae970d8a70a997c683e0e94259", null ],
+    [ "SpellHit", "de/da9/a13714.html#a4051cd786d8c1974cf80c28f907cc02a", null ],
+    [ "UpdateAI", "de/da9/a13714.html#a708df3a95395f99f6ba3eebcc90a22ab", null ],
+    [ "_events", "de/da9/a13714.html#a994ae5b4e72429141155d1342830e5ad", null ],
+    [ "_instance", "de/da9/a13714.html#ad37ba6b6ff7f52a88d2a96dc4ea00c34", null ],
+    [ "_sideData", "de/da9/a13714.html#afa44e09c5677c2fc567be6a67b766bde", null ]
 ];

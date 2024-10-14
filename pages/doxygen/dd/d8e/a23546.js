@@ -1,8 +1,5 @@
 var a23546 =
 [
-    [ "HandleDummyApply", "dd/d8e/a23546.html#ae60ce9cdd5d68f3fd16af54acc3d6603", null ],
-    [ "HandleDummyRemove", "dd/d8e/a23546.html#a368376fe4262815b9b9a9811178cec6d", null ],
-    [ "HandlePeriodicRemove", "dd/d8e/a23546.html#a02a350060a9ce54be88c0ad62eac11d3", null ],
-    [ "PrepareAuraScript", "dd/d8e/a23546.html#a30a7b07fc37d13f9b3a96e95940410c1", null ],
-    [ "Register", "dd/d8e/a23546.html#afeb47a40cfea3d958fee7a410e83857f", null ]
+    [ "at_rp_nethekurse", "dd/d8e/a23546.html#ac0a1891f90b674ad0ccbeb27f170e643", null ],
+    [ "_OnTrigger", "dd/d8e/a23546.html#a93001d6dda7b2711f1efe100ffab5879", null ]
 ];

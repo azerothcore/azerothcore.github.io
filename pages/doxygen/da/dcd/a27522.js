@@ -1,7 +1,6 @@
 var a27522 =
 [
-    [ "npc_sayge", "da/dcd/a27522.html#a5b75c459665ece26cee5dbffcc0fc8ff", null ],
-    [ "OnGossipHello", "da/dcd/a27522.html#ad069e6cc7fe5271c3474c8bcf537cf4c", null ],
-    [ "OnGossipSelect", "da/dcd/a27522.html#aa049b4514fc2d18508d8d4f9b6616c99", null ],
-    [ "SendAction", "da/dcd/a27522.html#aed1988335672423d024546654aa95298", null ]
+    [ "npc_spring_rabbitAI", "db/dd5/a27526.html", "db/dd5/a27526" ],
+    [ "npc_spring_rabbit", "da/dcd/a27522.html#a4e2ed1f556edd535a8d262d7e0bdfa1a", null ],
+    [ "GetAI", "da/dcd/a27522.html#a968933658fbcc7f7cbdfca90fd9a68dc", null ]
 ];

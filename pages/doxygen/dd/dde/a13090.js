@@ -1,6 +1,6 @@
 var a13090 =
 [
-    [ "npc_kiljaeden_controllerAI", "db/d2c/a13094.html", "db/d2c/a13094" ],
-    [ "npc_kiljaeden_controller", "dd/dde/a13090.html#a28cec1ccf7e4e31fce0977dec75ef279", null ],
-    [ "GetAI", "dd/dde/a13090.html#a397c872adc60b245854465090611d1c9", null ]
+    [ "CastArmageddon", "dd/dde/a13090.html#a2e90929b63e6151252aa01a55dbd801f", null ],
+    [ "Execute", "dd/dde/a13090.html#a4f0651a38eaf03a07bcd73d0f88dda16", null ],
+    [ "_caster", "dd/dde/a13090.html#a1e70887099a7a47b7c26517d4363ad93", null ]
 ];

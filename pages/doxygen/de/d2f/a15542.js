@@ -1,6 +1,6 @@
 var a15542 =
 [
-    [ "npc_rivern_frostwind", "de/d2f/a15542.html#a0675c120fc28b26c7ea3c35f8d3f2a64", null ],
-    [ "OnGossipHello", "de/d2f/a15542.html#a90a6582633336de422c9f98973562b32", null ],
-    [ "OnGossipSelect", "de/d2f/a15542.html#a067ff91179f551633594d488eda269ed", null ]
+    [ "go_troll_cageAI", "dc/db2/a15546.html", "dc/db2/a15546" ],
+    [ "go_troll_cage", "de/d2f/a15542.html#ac571df719edabd9e9ecf5c8bb0e153c2", null ],
+    [ "GetAI", "de/d2f/a15542.html#a807f526225dc9a6b27ac64a7f4a3d9b8", null ]
 ];

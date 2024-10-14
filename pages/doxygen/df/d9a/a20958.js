@@ -1,6 +1,6 @@
 var a20958 =
 [
-    [ "boss_ingvar_the_plundererAI", "d0/d0f/a20962.html", "d0/d0f/a20962" ],
-    [ "boss_ingvar_the_plunderer", "df/d9a/a20958.html#a9e3612be4a81159dee2b883d434d811d", null ],
-    [ "GetAI", "df/d9a/a20958.html#aa0411c10b875bd1a804a7679f27dbf92", null ]
+    [ "instance_utgarde_keep_InstanceMapScript", "d0/d0f/a20962.html", "d0/d0f/a20962" ],
+    [ "instance_utgarde_keep", "df/d9a/a20958.html#abe013e4f086f63722a6398b2b7928c80", null ],
+    [ "GetInstanceScript", "df/d9a/a20958.html#a9a42e0dde1c7598eb2ef665f11e25e92", null ]
 ];

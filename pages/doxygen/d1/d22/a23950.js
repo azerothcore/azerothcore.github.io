@@ -1,6 +1,6 @@
 var a23950 =
 [
-    [ "go_apexis_relic", "d1/d22/a23950.html#a91ff5a986ee62b628456e9f5c75f6bc9", null ],
-    [ "OnGossipHello", "d1/d22/a23950.html#ae8f7167ba5b973881e32d604691dc15a", null ],
-    [ "OnGossipSelect", "d1/d22/a23950.html#a025cc7cc9c69f0eb461445170972ab52", null ]
+    [ "npc_fel_guard_houndAI", "d7/d64/a23954.html", "d7/d64/a23954" ],
+    [ "npc_fel_guard_hound", "d1/d22/a23950.html#a324179695f04a31b233b0ce94a46634c", null ],
+    [ "GetAI", "d1/d22/a23950.html#a5f5c20ec379994e7d0b65133d772e18f", null ]
 ];

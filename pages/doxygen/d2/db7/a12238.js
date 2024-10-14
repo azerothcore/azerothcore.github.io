@@ -1,6 +1,8 @@
 var a12238 =
 [
-    [ "spell_gnomeregan_radiation_bolt_SpellScript", "d4/d18/a12242.html", "d4/d18/a12242" ],
-    [ "spell_gnomeregan_radiation_bolt", "d2/db7/a12238.html#a572b64b0f8bed7c5393c59d4119e5c3f", null ],
-    [ "GetSpellScript", "d2/db7/a12238.html#a1a3b4afde75e1299a33e95163147dde4", null ]
+    [ "npc_kernobeeAI", "d2/db7/a12238.html#a9dfc478b7da1bf33463e3653aea3c4da", null ],
+    [ "SetGUID", "d2/db7/a12238.html#a34999b470697ba0a27701facd63625f8", null ],
+    [ "UpdateAI", "d2/db7/a12238.html#ae99836a836234ad441d6ac97c60d7fc6", null ],
+    [ "checkTimer", "d2/db7/a12238.html#ae4731b5dd7b92d6989b0960d88e1dc35", null ],
+    [ "playerGUID", "d2/db7/a12238.html#aca1009b03ee24200f5dbad788ec5c5c8", null ]
 ];

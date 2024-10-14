@@ -1,9 +1,9 @@
 var a21542 =
 [
-    [ "npc_warmage_coldarraAI", "de/dc4/a21542.html#a9a8c2afff61ad8457aab8a9c23a4b755", null ],
-    [ "AttackStart", "de/dc4/a21542.html#a41277824ae3f6bd9a099894b6dfc7537", null ],
-    [ "JustEngagedWith", "de/dc4/a21542.html#a23a8999e34142201c6ceadc64a3df6c2", null ],
-    [ "Reset", "de/dc4/a21542.html#adf5094ba2bee34ec793124e798d5af8f", null ],
-    [ "UpdateAI", "de/dc4/a21542.html#a14b221265cc38b4061c52b687274a398", null ],
-    [ "m_uiTimer", "de/dc4/a21542.html#a338ad26d40d395dfc6ed7e8fedcc6d60", null ]
+    [ "npc_counselor_talbotAI", "de/dc4/a21542.html#acf1865ab4225128b8edbc619f7d8fa93", null ],
+    [ "JustDied", "de/dc4/a21542.html#a4dbb0c9b91be5fa182bcc5c63ac9307b", null ],
+    [ "JustEngagedWith", "de/dc4/a21542.html#acacec95c5e74c4b71cf2345bbae2eacb", null ],
+    [ "Reset", "de/dc4/a21542.html#a03bfaedb136c3e107a4df8e4a1646ae2", null ],
+    [ "UpdateAI", "de/dc4/a21542.html#a7b5c739d7c85d5205a04f3c6adf367ef", null ],
+    [ "_events", "de/dc4/a21542.html#a094ce9839bb51b73e6b5826c24cda3b6", null ]
 ];

@@ -1,6 +1,6 @@
 var a18446 =
 [
-    [ "npc_highlord_tirion_fordringAI", "d5/d88/a18450.html", "d5/d88/a18450" ],
-    [ "npc_highlord_tirion_fordring_lh", "d5/d88/a18446.html#a96102a488330c54a3e3654c767e8e1a5", null ],
-    [ "GetAI", "d5/d88/a18446.html#aea42394c04c1763cffe10eb5eba09854", null ]
+    [ "npc_captain_brandonAI", "d5/d88/a18450.html", "d5/d88/a18450" ],
+    [ "npc_captain_brandon", "d5/d88/a18446.html#ad522dd280882d894b5d32e7c888f2360", null ],
+    [ "GetAI", "d5/d88/a18446.html#a3d77951d8d9dbc14fad2fd52d84118a3", null ]
 ];

@@ -1,17 +1,8 @@
 var a19486 =
 [
-    [ "boss_sjonnirAI", "d2/ded/a19486.html#a53127766553d1bee4d7331e6f4fcda05", null ],
-    [ "ActivatePipe", "d2/ded/a19486.html#aa3a3e765284cd29cef1d54a9390c3986", null ],
-    [ "DoAction", "d2/ded/a19486.html#afb2f73908bc17c763a8028af4b499481", null ],
-    [ "JustDied", "d2/ded/a19486.html#aac572b45c50d0e9c0e7fb3a036053859", null ],
-    [ "JustEngagedWith", "d2/ded/a19486.html#aade776baf55155bb3814129ddc2f9632", null ],
-    [ "KilledUnit", "d2/ded/a19486.html#ac79740a8c5e4263f2917647c74e995aa", null ],
-    [ "Reset", "d2/ded/a19486.html#a8a5f0c22eb6c1d3501c2abdabfc5a77c", null ],
-    [ "SummonDwarfes", "d2/ded/a19486.html#a0f0472fbd8be38501cedef6c9d0553ee", null ],
-    [ "UpdateAI", "d2/ded/a19486.html#ad357741fbf486671790f6e619f330460", null ],
-    [ "events", "d2/ded/a19486.html#ae40bf2206d0e6af3f15727fa5dfef5e7", null ],
-    [ "pInstance", "d2/ded/a19486.html#aa9aba0a76bfc58031c3f8133eb07c134", null ],
-    [ "SlugeCount", "d2/ded/a19486.html#ad1e05c8b4dbba7a73a368dc07ad94aaf", null ],
-    [ "SummonPhase", "d2/ded/a19486.html#ab409b352a20824dd1b274763aeab2c39", null ],
-    [ "summons", "d2/ded/a19486.html#a4888090a1b02403c80b83b7089eb0dfa", null ]
+    [ "dark_rune_stormcallerAI", "d2/ded/a19486.html#ad889fb0c50e879c958c9b8bb681e4bf7", null ],
+    [ "JustEngagedWith", "d2/ded/a19486.html#a7ddfb8afac3ff28a84b26255628fab50", null ],
+    [ "Reset", "d2/ded/a19486.html#afa9cc2e1a9f7d21cd885479e9afdcd12", null ],
+    [ "UpdateAI", "d2/ded/a19486.html#adbd245fc5180dc7c78704595a9592864", null ],
+    [ "events", "d2/ded/a19486.html#aa7d8d1d075eeb03952b47cc16846a3db", null ]
 ];

@@ -1,6 +1,7 @@
 var a24186 =
 [
-    [ "npc_enraged_spiritAI", "d1/df0/a24190.html", "d1/df0/a24190" ],
-    [ "npc_enraged_spirit", "d1/dea/a24186.html#a17d9e2e5fb8f2795fdeff26567bbf85f", null ],
-    [ "GetAI", "d1/dea/a24186.html#aa10d5f0147cf4064a49df735ac95575e", null ]
+    [ "npc_kservantAI", "d1/dea/a24186.html#a0687712690f2bacd24da1c94d222e761", null ],
+    [ "IsSummonedBy", "d1/dea/a24186.html#a6aa9c1544fffdd9916eda7a0941dc828", null ],
+    [ "Reset", "d1/dea/a24186.html#a0756ffacb97c83a3028afc620b32f349", null ],
+    [ "WaypointReached", "d1/dea/a24186.html#a577a2ebb91c08bfe2e09bc67eeebb4ef", null ]
 ];

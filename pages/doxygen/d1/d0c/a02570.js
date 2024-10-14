@@ -1,7 +1,5 @@
 var a02570 =
 [
-    [ "instance_ulduar", "de/d3c/a20906.html", "de/d3c/a20906" ],
-    [ "instance_ulduar::instance_ulduar_InstanceMapScript", "d9/d8f/a20910.html", "d9/d8f/a20910" ],
-    [ "AddSC_instance_ulduar", "d1/d0c/a02570.html#a93e6e71a7717be3946c53d3b6093e517", null ],
-    [ "vehiclePositions", "d1/d0c/a02570.html#a41c6fcb7a2c575fa74a8e566a49bf1e1", null ]
+    [ "OutdoorPvP_terokkar_forest", "d2/d8e/a22462.html", "d2/d8e/a22462" ],
+    [ "AddSC_outdoorpvp_tf", "d1/d0c/a02570.html#a6df553c8dd6e9b81e83110e7beab3646", null ]
 ];

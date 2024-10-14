@@ -1,11 +1,7 @@
 var a15174 =
 [
-    [ "npc_stillpine_capitiveAI", "d1/d06/a15174.html#a98560e7fc360dbfa3166805d9ab3feb4", null ],
-    [ "MovementInform", "d1/d06/a15174.html#a1e930b49da85a64aa87ba79b5fe72391", null ],
-    [ "Reset", "d1/d06/a15174.html#a9c884f892e64044057d477bdc0f89eed", null ],
-    [ "StartMoving", "d1/d06/a15174.html#a2552a79cf384cca1203afa7f241c1cb9", null ],
-    [ "UpdateAI", "d1/d06/a15174.html#a25dc06767382b5fee2a7098b58726fb2", null ],
-    [ "_events", "d1/d06/a15174.html#a93dd55d392836d8d085e34293344b700", null ],
-    [ "_movementComplete", "d1/d06/a15174.html#ae8e39ca782aee412e39d65a33d14014e", null ],
-    [ "_playerGUID", "d1/d06/a15174.html#a3fe9a4f01aebb602095d60eb606ce763", null ]
+    [ "npc_tharnarianAI", "d6/d63/a15178.html", "d6/d63/a15178" ],
+    [ "npc_tharnarian", "d1/d06/a15174.html#a39d9d9842a7a42c5381e38d10285aa15", null ],
+    [ "GetAI", "d1/d06/a15174.html#aaff8dad5d2bdb1571ed2e7a14c64899f", null ],
+    [ "OnQuestReward", "d1/d06/a15174.html#aedf88edfd99292a68b8e08f9f05d8f00", null ]
 ];

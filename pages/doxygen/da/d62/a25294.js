@@ -1,7 +1,8 @@
 var a25294 =
 [
-    [ "OnRemove", "da/d62/a25294.html#ab6371347f0dc4ffc8bab6c75ca1cdf59", null ],
-    [ "PrepareAuraScript", "da/d62/a25294.html#ac2b1a2311f97ab427439b45fb0770063", null ],
-    [ "Register", "da/d62/a25294.html#a39e4914aa01769e14f61e2369ad8eda5", null ],
-    [ "Validate", "da/d62/a25294.html#a71e47e70fd18affe1bd563f68fcb2efe", null ]
+    [ "CheckProc", "da/d62/a25294.html#a2b0ff2594877249d0bdb4656fa67b83f", null ],
+    [ "HandleProc", "da/d62/a25294.html#ac1aebc16e7944ac3f8305d9ff27bc998", null ],
+    [ "PrepareAuraScript", "da/d62/a25294.html#a19557020af9ca276f72c1d3e4ba8b27b", null ],
+    [ "Register", "da/d62/a25294.html#a43f7bb634cb165fab5e2187256f50c3f", null ],
+    [ "Validate", "da/d62/a25294.html#a7762ce25775b98dba14b4ac465cad711", null ]
 ];

@@ -1,7 +1,9 @@
 var a12270 =
 [
-    [ "boss_maiden_of_virtue", "dd/dec/a12270.html#a4cd0c7a566e23e5c3a43466214f35dd3", null ],
-    [ "JustDied", "dd/dec/a12270.html#a6eded246318f6b47b46f45168e4a8069", null ],
-    [ "JustEngagedWith", "dd/dec/a12270.html#a6ff1b9e0a17218ad4871bc5fc3748671", null ],
-    [ "KilledUnit", "dd/dec/a12270.html#a32dd66a297d11f5ffac1841bae15727a", null ]
+    [ "boss_curator", "dd/dec/a12270.html#a41b65078d0822ba87f3e40fc7bb10a40", null ],
+    [ "JustDied", "dd/dec/a12270.html#a5617f51f51304682d48af11fdb0c6b8b", null ],
+    [ "JustEngagedWith", "dd/dec/a12270.html#a848f477a101956662389cab5ffcc0727", null ],
+    [ "JustSummoned", "dd/dec/a12270.html#ac779d275e03e6ba190617d215b217ce5", null ],
+    [ "KilledUnit", "dd/dec/a12270.html#a9bfb89a8747251e4a84eb2f94a547f0d", null ],
+    [ "Reset", "dd/dec/a12270.html#af6fbf3c3d77f9f052f11974f7b54feab", null ]
 ];

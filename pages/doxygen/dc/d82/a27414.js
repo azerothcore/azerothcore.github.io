@@ -1,8 +1,9 @@
 var a27414 =
 [
-    [ "npc_franklinAI", "d7/db6/a27418.html", "d7/db6/a27418" ],
-    [ "npc_franklin", "dc/d82/a27414.html#aab059dfa69e52083892e3170c8838e0a", null ],
-    [ "GetAI", "dc/d82/a27414.html#a10933878afe9d0cc78fa1113341fd522", null ],
-    [ "OnGossipHello", "dc/d82/a27414.html#a318d512914b135800caabe0efbb1c467", null ],
-    [ "OnGossipSelect", "dc/d82/a27414.html#a8c37ff7ff15cc9ac49dadabd1650964d", null ]
+    [ "npc_target_dummyAI", "dc/d82/a27414.html#a117e45559ea721877d73df4b3c18a259", null ],
+    [ "EnterEvadeMode", "dc/d82/a27414.html#a8f7f2e4decc676e378b4929516f8a147", null ],
+    [ "MoveInLineOfSight", "dc/d82/a27414.html#a05f5b1f2cb8f0926bf425e7c31d618e2", null ],
+    [ "Reset", "dc/d82/a27414.html#a4e8f8d1da604a80b60d61f72ed4ecbcf", null ],
+    [ "UpdateAI", "dc/d82/a27414.html#ae686aa48ab7e91988e5b71c71695ce47", null ],
+    [ "deathTimer", "dc/d82/a27414.html#abf5bd5122e79a62a03c19a18cd68498b", null ]
 ];

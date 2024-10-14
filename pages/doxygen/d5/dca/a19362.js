@@ -1,9 +1,6 @@
 var a19362 =
 [
-    [ "HandleOnEffectApply", "d5/dca/a19362.html#a6ab047004cc901331d747641f218cf6a", null ],
-    [ "HandleOnEffectRemove", "d5/dca/a19362.html#a9f66217f4785c8240c4b074bbf04b96e", null ],
-    [ "PrepareAuraScript", "d5/dca/a19362.html#aa94b30468b2c853c0d8b86658a43dee4", null ],
-    [ "Register", "d5/dca/a19362.html#a83b0d414a6e97b434f82492fa01ac385", null ],
-    [ "Validate", "d5/dca/a19362.html#a88af7f269f56e474434d51c7ac0eb0a0", null ],
-    [ "_drakeGUID", "d5/dca/a19362.html#a2e0c7df73cc7246524f6d745ff1fbeb1", null ]
+    [ "CalculateDamage", "d5/dca/a19362.html#a857e907dcf40f0e630b8c05c5e549672", null ],
+    [ "PrepareSpellScript", "d5/dca/a19362.html#aaa6c420d13dc3c88e9c1e5a053c932aa", null ],
+    [ "Register", "d5/dca/a19362.html#ae142275e06fe6381304137f637e641ca", null ]
 ];

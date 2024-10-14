@@ -1,8 +1,5 @@
 var a28414 =
 [
-    [ "prepareLoadedData", "d4/d13/a28414.html#a696cfebd8fe66840b316919519e9b319", null ],
-    [ "fcc", "d4/d13/a28414.html#a83cb69fb9eb6eff82a513c75301e5bf6", null ],
-    [ "fcc_txt", "d4/d13/a28414.html#a9c7e27f948978d771115ca4f88f70b5d", null ],
-    [ "height_map", "d4/d13/a28414.html#a50a7fa80b59ba9c0fcd8d93bd924a13f", null ],
-    [ "size", "d4/d13/a28414.html#add2809c6e520cf4aa43807d61f973f0e", null ]
+    [ "Deep", "d4/d13/a28414.html#a9efcd2f19d9701713666f1ad2285d992", null ],
+    [ "Fishable", "d4/d13/a28414.html#a929299daf6bc46aa775b9b0fa055c9e2", null ]
 ];

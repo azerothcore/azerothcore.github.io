@@ -1,5 +1,5 @@
 var a26966 =
 [
-    [ "achievement_killed_exp_or_honor_target", "d4/d3b/a26966.html#aad432878c97af698dd1cc4019d716281", null ],
-    [ "OnCheck", "d4/d3b/a26966.html#ace8fc68ebb73e39626797be4caa45a3c", null ]
+    [ "AreaTrigger_at_nats_landing", "d4/d3b/a26966.html#ac366e5b1db489b4f8bb8a1d07caa83c2", null ],
+    [ "OnTrigger", "d4/d3b/a26966.html#a67434f74300fa3463e679afb7d344467", null ]
 ];

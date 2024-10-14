@@ -1,7 +1,7 @@
 var a25094 =
 [
-    [ "HandleScript", "db/d6c/a25094.html#a8b20e2ffed94ec9438dc9b756ba76693", null ],
-    [ "PrepareSpellScript", "db/d6c/a25094.html#a9e29ea947d5415471d991a4e1cd699ac", null ],
-    [ "Register", "db/d6c/a25094.html#aa4bc27415893009581b317637599a85a", null ],
-    [ "Validate", "db/d6c/a25094.html#a77ed10819633ae2bc381023da0feb31b", null ]
+    [ "HandleDummy", "db/d6c/a25094.html#a9037eddf4c9ce96c15c57e8906bd9a5f", null ],
+    [ "Load", "db/d6c/a25094.html#a738318535196b3d55e8f1b3da4f76c95", null ],
+    [ "PrepareSpellScript", "db/d6c/a25094.html#a941a097124ed9b4917faa18ff23fc366", null ],
+    [ "Register", "db/d6c/a25094.html#aaf9d269e7d052515f31b463999e92cf4", null ]
 ];

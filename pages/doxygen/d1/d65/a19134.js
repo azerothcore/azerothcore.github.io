@@ -1,6 +1,6 @@
 var a19134 =
 [
-    [ "npc_eoe_wyrmrest_skytalonAI", "db/dab/a19138.html", "db/dab/a19138" ],
-    [ "npc_eoe_wyrmrest_skytalon", "d1/d65/a19134.html#a55685de624b277840f8fc0c397b8aebf", null ],
-    [ "GetAI", "d1/d65/a19134.html#a01a384ab10cfccbd159f116e0bef52e8", null ]
+    [ "boss_keristraszaAI", "db/dab/a19138.html", "db/dab/a19138" ],
+    [ "boss_keristrasza", "d1/d65/a19134.html#a3d132df1687aae57345cd55ac80f9bf4", null ],
+    [ "GetAI", "d1/d65/a19134.html#aa94eb11d5ca7ff3063974d4ff81d4173", null ]
 ];

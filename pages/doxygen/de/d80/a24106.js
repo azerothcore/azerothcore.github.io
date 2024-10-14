@@ -1,6 +1,7 @@
 var a24106 =
 [
-    [ "npc_infernal_attackerAI", "d3/d25/a24110.html", "d3/d25/a24110" ],
-    [ "npc_infernal_attacker", "de/d80/a24106.html#ac6fbfcf8fc918b48d6b9416a71cfe3fa", null ],
-    [ "GetAI", "de/d80/a24106.html#ad1d9186c186de36efbe102a07fe89de4", null ]
+    [ "o", "de/d80/a24106.html#a3785e9b55ea3a7140086ce1f86232109", null ],
+    [ "x", "de/d80/a24106.html#ac81cc1119b7ac8ac70ee635f2e3d4bb7", null ],
+    [ "y", "de/d80/a24106.html#a10fbad67977d8dd3911eb629c1797684", null ],
+    [ "z", "de/d80/a24106.html#a69fc2438e52f6c0de3af13900ff38166", null ]
 ];

@@ -1,14 +1,5 @@
 var a18690 =
 [
-    [ "npc_icc_vengeful_fleshreaperAI", "d2/d02/a18690.html#a4a459289a55871990abc0adc4ba8278c", null ],
-    [ "AttackStart", "d2/d02/a18690.html#a3412c5664c1c1354b615e8f798824b91", null ],
-    [ "JustReachedHome", "d2/d02/a18690.html#a161fd53eca71cb0a3b8fb8d483b7e49b", null ],
-    [ "MoveInLineOfSight", "d2/d02/a18690.html#acfbaa73491940a916f8d0a0b852bcc61", null ],
-    [ "MovementInform", "d2/d02/a18690.html#ad14a1d8cfe749d54a801a3902aa49e1d", null ],
-    [ "Reset", "d2/d02/a18690.html#aa60d5d2d534aa6e9fe7c77703bab5fce", null ],
-    [ "UpdateAI", "d2/d02/a18690.html#a8946357cad01050641bcdf51edce192f", null ],
-    [ "currPipeWP", "d2/d02/a18690.html#af8a298ccbd6f22a0a4416ed6cb082e67", null ],
-    [ "events", "d2/d02/a18690.html#aa39171910383c74583f24663d6c23f3b", null ],
-    [ "forward", "d2/d02/a18690.html#a28eb6d3f007f45b9db4eafafe71b779c", null ],
-    [ "needMove", "d2/d02/a18690.html#ae08f9c54d08b0eae5ad71d69f06a6544", null ]
+    [ "at_frozen_throne_teleport", "d2/d02/a18690.html#a8065b9f9b55b267be1757775f84de349", null ],
+    [ "OnTrigger", "d2/d02/a18690.html#ae1f9476b7f47320f545e702e9317bd03", null ]
 ];

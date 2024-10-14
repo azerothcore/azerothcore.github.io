@@ -1,6 +1,6 @@
 var a18558 =
 [
-    [ "HandleEvent", "d6/da9/a18558.html#a7936a64a1142a47b2addfd746dccfcef", null ],
-    [ "PrepareSpellScript", "d6/da9/a18558.html#a00e2be07131c674558d0364df98849ab", null ],
-    [ "Register", "d6/da9/a18558.html#a89364583504d2eaa75473586850bc3d5", null ]
+    [ "HandleScript", "d6/da9/a18558.html#a33f15ecf0c0ff013d03742cb2130f372", null ],
+    [ "PrepareSpellScript", "d6/da9/a18558.html#ab3a832cf53f4438db0d9e58b89c0ef7f", null ],
+    [ "Register", "d6/da9/a18558.html#ad0c6d34103244cded41481c745dafe58", null ]
 ];

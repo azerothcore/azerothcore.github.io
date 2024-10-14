@@ -1,7 +1,6 @@
 var a25814 =
 [
-    [ "HandleScript", "dd/d94/a25814.html#aad0be226a2d294d3361c1afbf644c5e4", null ],
-    [ "PrepareSpellScript", "dd/d94/a25814.html#a85dee311aab08d796a3a0c1bc9e9390d", null ],
-    [ "Register", "dd/d94/a25814.html#a2b22be9826db241ecf3f99ff16c309c0", null ],
-    [ "Validate", "dd/d94/a25814.html#a98df659504307fc0666fe2b1001eaa00", null ]
+    [ "PrepareSpellScript", "dd/d94/a25814.html#a7099b8d28128cfea49288792ea02606c", null ],
+    [ "Register", "dd/d94/a25814.html#a7622be3b736678ebeb3982a8d6a5b601", null ],
+    [ "UpdateTarget", "dd/d94/a25814.html#a4e808b026c89d080e309a0ca8b4f57d1", null ]
 ];

@@ -1,7 +1,8 @@
 var a18494 =
 [
-    [ "npc_captain_arnathAI", "da/d4f/a18494.html#a34e3d17b89010569bf7e9cb28361c2af", null ],
-    [ "FindFriendlyCreature", "da/d4f/a18494.html#ad6411d2a87d2552bea2051f80ca16e14", null ],
-    [ "Reset", "da/d4f/a18494.html#a016fbe51f31e1c5ec1636e8d20d8cb30", null ],
-    [ "UpdateAI", "da/d4f/a18494.html#a020efd7adc0d60152007906e3229988d", null ]
+    [ "npc_arthas_teleport_visualAI", "da/d4f/a18494.html#a9b9b2ba725cde9aec898244a9e50c394", null ],
+    [ "Reset", "da/d4f/a18494.html#a27155b8880a2a86b733bcd074e977b59", null ],
+    [ "UpdateAI", "da/d4f/a18494.html#a23c200f2c7b9f5d02bed7af37bc69c33", null ],
+    [ "_events", "da/d4f/a18494.html#a986f19145e46f5975f22a84a3e1b10ee", null ],
+    [ "_instance", "da/d4f/a18494.html#a25bc023e061a0845421a652b571a6e1e", null ]
 ];

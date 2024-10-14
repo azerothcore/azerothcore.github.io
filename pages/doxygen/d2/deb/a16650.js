@@ -1,18 +1,14 @@
 var a16650 =
 [
-    [ "boss_devourer_of_soulsAI", "d2/deb/a16650.html#aa54d512a3bcf22ba64872bf60ed89ca3", null ],
-    [ "CanAIAttack", "d2/deb/a16650.html#a48b79a3429dec44486d6bd858d5b6edb", null ],
-    [ "EnterEvadeMode", "d2/deb/a16650.html#a0c2c380955e5b24c387b8dd8f00567cc", null ],
-    [ "GetData", "d2/deb/a16650.html#a7d99dba5d3c6725c5f6cbc8a0cc0ec9f", null ],
-    [ "JustDied", "d2/deb/a16650.html#a6e5a944ffbf325aa1bc591ef288c593f", null ],
-    [ "JustEngagedWith", "d2/deb/a16650.html#a1f3b4a9d31a0704807fb9b44237c7b4b", null ],
-    [ "JustSummoned", "d2/deb/a16650.html#ae3c5c0c1d905c424102a6e3a360d61d7", null ],
-    [ "KilledUnit", "d2/deb/a16650.html#aba4ed91e1f61ddd1db29509700a4e0c8", null ],
-    [ "Reset", "d2/deb/a16650.html#aefc761b1142cc6941394a4e3402662d7", null ],
-    [ "SpellHitTarget", "d2/deb/a16650.html#ad503ae8ea66c964bc5997019c9118856", null ],
-    [ "UpdateAI", "d2/deb/a16650.html#ac387b29bcb23f1697bc8b5b1a94e9ee1", null ],
-    [ "bAchiev", "d2/deb/a16650.html#ad57135868c5c631a4add0dea0067feb0", null ],
-    [ "events", "d2/deb/a16650.html#ac0467332ad699f9c60cc9dc257d9e1df", null ],
-    [ "pInstance", "d2/deb/a16650.html#a78204e146c22a80df48d8a6840e70790", null ],
-    [ "summons", "d2/deb/a16650.html#a6602605118c8d64dabec4b96c8e99436", null ]
+    [ "boss_marwynAI", "d2/deb/a16650.html#abfc074b89e4edcf461c4df4d00c90856", null ],
+    [ "DoAction", "d2/deb/a16650.html#adc68f202aa2e78bd3a7969bfddcce710", null ],
+    [ "EnterEvadeMode", "d2/deb/a16650.html#acb0b5675c2ff9f614ddafd88ff96e62e", null ],
+    [ "JustDied", "d2/deb/a16650.html#a11f64dbf0333c212584d441d4b719d9c", null ],
+    [ "JustEngagedWith", "d2/deb/a16650.html#ae7509cf8b3b93e97b2e617c1ac181c87", null ],
+    [ "KilledUnit", "d2/deb/a16650.html#a43b40959a22a1767c1c717f5bf7200ad", null ],
+    [ "Reset", "d2/deb/a16650.html#a7433e7ed2007ccde768e1e15640ac99d", null ],
+    [ "UpdateAI", "d2/deb/a16650.html#abaa8f609099423c9d8db5b93f2dd411e", null ],
+    [ "events", "d2/deb/a16650.html#a87c1f1785612cfd42667bd635ce16f2a", null ],
+    [ "pInstance", "d2/deb/a16650.html#a524e6c4145851d67edfdc0d9cb5b2e7c", null ],
+    [ "startFightTimer", "d2/deb/a16650.html#a2a1d7531025f136e368fc7d2b4c0d163", null ]
 ];

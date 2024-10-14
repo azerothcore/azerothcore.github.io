@@ -1,5 +1,6 @@
 var a22362 =
 [
-    [ "achievement_wg_within_our_grasp", "dd/dac/a22362.html#a9edbd15bc6989c6948e21391a683d22d", null ],
-    [ "OnCheck", "dd/dac/a22362.html#a10b659c4b52322536333e3d191796c27", null ]
+    [ "npc_released_offspring_harkoaAI", "dd/dac/a22362.html#ab1002f002987b6ea2366129afd48d65c", null ],
+    [ "MovementInform", "dd/dac/a22362.html#a56d52be3fdbc2e4176efe09ba58f55c7", null ],
+    [ "Reset", "dd/dac/a22362.html#a3ddc30ce39acef3bb5e6f8400a084393", null ]
 ];

@@ -1,6 +1,6 @@
 var a16342 =
 [
-    [ "npc_toc_pet_hunterAI", "da/db0/a16346.html", "da/db0/a16346" ],
-    [ "npc_toc_pet_hunter", "d9/dc6/a16342.html#a1aa59cca8cd71e9f17fb9f55cf03c1da", null ],
-    [ "GetAI", "d9/dc6/a16342.html#a9febc3086b0627324277f45d49cdd03f", null ]
+    [ "HandleScript", "d9/dc6/a16342.html#a8d694a38875d940112ff406b84eca6ef", null ],
+    [ "PrepareSpellScript", "d9/dc6/a16342.html#a68caa888893ff2aeb7ce0ee5ae28546d", null ],
+    [ "Register", "d9/dc6/a16342.html#acd72c6d884a8963318aa73bc520c98c4", null ]
 ];

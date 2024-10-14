@@ -1,7 +1,6 @@
 var a18578 =
 [
-    [ "HandleScript", "d3/d36/a18578.html#a87a2b32a9a20f032157df5ddb2cd9979", null ],
-    [ "PrepareSpellScript", "d3/d36/a18578.html#a9aca3a2a981a0cb61569200d77ca527a", null ],
-    [ "Register", "d3/d36/a18578.html#afb0289c9906d0383a22dfd0e848573f8", null ],
-    [ "Validate", "d3/d36/a18578.html#a69344370af56f033e1c1ba16f4dee174", null ]
+    [ "npc_icc_skybreaker_hierophantAI", "d6/dab/a18582.html", "d6/dab/a18582" ],
+    [ "npc_icc_skybreaker_hierophant", "d3/d36/a18578.html#a4cd3b2aa3d71c30853c687da8b8ca959", null ],
+    [ "GetAI", "d3/d36/a18578.html#a2b0627bf059dfbce556bfa3ed4e97552", null ]
 ];

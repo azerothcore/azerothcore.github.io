@@ -1,7 +1,8 @@
 var a15242 =
 [
-    [ "npc_aged_dying_ancient_kodoAI", "da/d79/a15246.html", "da/d79/a15246" ],
-    [ "npc_aged_dying_ancient_kodo", "da/d64/a15242.html#a676170a319d3a8e46c9d017e61396c28", null ],
-    [ "GetAI", "da/d64/a15242.html#a886bc82764e4ca6d98dc94ea73415375", null ],
-    [ "OnGossipHello", "da/d64/a15242.html#a8489b3f23d8eca39f2750711512672e4", null ]
+    [ "FilterTargets", "da/d64/a15242.html#a47b8055fa1b28968e8323ca98613aa83", null ],
+    [ "HandleScript", "da/d64/a15242.html#a8f7984e510d8947a2ae4b0734409866b", null ],
+    [ "PrepareSpellScript", "da/d64/a15242.html#a5c12caf56e95a9f7960ed9f4a3945c7c", null ],
+    [ "Register", "da/d64/a15242.html#adf76a5d9145f88aad5b3dd164fa4fcc4", null ],
+    [ "Validate", "da/d64/a15242.html#aa3f9c6418eb804a2ddf235beb8491a19", null ]
 ];

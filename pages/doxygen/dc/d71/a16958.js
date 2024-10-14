@@ -1,6 +1,6 @@
 var a16958 =
 [
-    [ "npc_pos_freed_slaveAI", "d3/d7a/a16962.html", "d3/d7a/a16962" ],
-    [ "npc_pos_freed_slave", "dc/d71/a16958.html#a19fd79279646cb1c49c04056636615fc", null ],
-    [ "GetAI", "dc/d71/a16958.html#ac798c2584d48892162cc2bc779701e16", null ]
+    [ "entry", "dc/d71/a16958.html#af2cf5df64adf9ac1575a8217b103e738", null ],
+    [ "x", "dc/d71/a16958.html#aad21475d521921ea30cc0ae5d260ce69", null ],
+    [ "y", "dc/d71/a16958.html#abd69e1c28ad36466c82807ea0ffb0fb7", null ]
 ];

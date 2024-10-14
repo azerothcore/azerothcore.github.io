@@ -1,5 +1,5 @@
 var a22070 =
 [
-    [ "npc_guardian_pavilionAI", "d6/df3/a22070.html#a2c116495e65c7f97063aa7dc6516f48c", null ],
-    [ "MoveInLineOfSight", "d6/df3/a22070.html#aeae26e28be93120062d9f77c069ff32a", null ]
+    [ "go_pressure_valve", "d6/df3/a22070.html#a43a91a1379001ecd3e825d7d4fcd3c6b", null ],
+    [ "OnGossipHello", "d6/df3/a22070.html#a6b81a04a33cd5e1e577fc80a3b1f706c", null ]
 ];

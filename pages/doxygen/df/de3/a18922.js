@@ -1,6 +1,7 @@
 var a18922 =
 [
-    [ "boss_kelthuzadAI", "db/dc9/a18926.html", "db/dc9/a18926" ],
-    [ "boss_kelthuzad", "df/de3/a18922.html#a52b0988d0ee9e41c8a7911f2d2460442", null ],
-    [ "GetAI", "df/de3/a18922.html#acf19b29d6c1eb0052baa7ff491f6a050", null ]
+    [ "OnPeriodic", "df/de3/a18922.html#ae685e9d36b85af8a7e33cefbd439a2f4", null ],
+    [ "PrepareAuraScript", "df/de3/a18922.html#a1362103840db4b3c40ef7d6b0aa5226c", null ],
+    [ "Register", "df/de3/a18922.html#a39b03ebd7f6233f373f52e34f18dad10", null ],
+    [ "Validate", "df/de3/a18922.html#a54cfed486827216817adb740efa6646e", null ]
 ];

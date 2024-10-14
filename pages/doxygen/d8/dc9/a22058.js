@@ -1,6 +1,6 @@
 var a22058 =
 [
-    [ "ChangeSummonPos", "d8/dc9/a22058.html#aeb2cf0a5d2e563e4983ddd237a2b1001", null ],
-    [ "PrepareSpellScript", "d8/dc9/a22058.html#a1654fec971696e613b5102b3ca5030f1", null ],
-    [ "Register", "d8/dc9/a22058.html#ab1e7d44914952dfb7f7ccf2de4da286f", null ]
+    [ "npc_still_at_it_triggerAI", "d6/dbe/a22062.html", "d6/dbe/a22062" ],
+    [ "npc_still_at_it_trigger", "d8/dc9/a22058.html#a23366d00bd3b8217bdca7f0fca05d9bd", null ],
+    [ "GetAI", "d8/dc9/a22058.html#ae273ea6295f50248d303983d4b4137df", null ]
 ];

@@ -1,8 +1,7 @@
 var a17294 =
 [
-    [ "npc_muradin_bronzebeard_iccAI", "d4/d6d/a17298.html", "d4/d6d/a17298" ],
-    [ "npc_muradin_bronzebeard_icc", "d9/d61/a17294.html#a7e4cecb0f4cabf024794045ed20e3563", null ],
-    [ "GetAI", "d9/d61/a17294.html#ab2b6a0bb1b8626e5a4064b9412234f4b", null ],
-    [ "OnGossipHello", "d9/d61/a17294.html#a7fb9838521dbae6ac0a8bb4ac1e07c37", null ],
-    [ "OnGossipSelect", "d9/d61/a17294.html#a46c4893be723a848d985ff55e28d55a2", null ]
+    [ "npc_icc_blood_beastAI", "d9/d61/a17294.html#af52eff9f66451444c5acba6930c1bff6", null ],
+    [ "DoAction", "d9/d61/a17294.html#a5de6e46fd21fd073fde2f0aaa5dc947a", null ],
+    [ "UpdateAI", "d9/d61/a17294.html#ac9da073c33dd33097f03ca35d36ea15e", null ],
+    [ "timer1", "d9/d61/a17294.html#a1074059162f818088808795119f081be", null ]
 ];

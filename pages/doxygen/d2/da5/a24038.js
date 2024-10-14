@@ -1,5 +1,6 @@
 var a24038 =
 [
-    [ "go_warmaul_prison", "d2/da5/a24038.html#adffbb532d7ee3c5a67543fe15ce5b67b", null ],
-    [ "OnGossipHello", "d2/da5/a24038.html#ac9e66eeb30bf951d37f2d0917a295705", null ]
+    [ "HandleEffectRemove", "d2/da5/a24038.html#a2e73fd55dd7e6e658bc6c6623b650732", null ],
+    [ "PrepareAuraScript", "d2/da5/a24038.html#a9aabae3a6c57be9b17394d4a39fe24ec", null ],
+    [ "Register", "d2/da5/a24038.html#ac02217c103db141d75377e233e1e4242", null ]
 ];

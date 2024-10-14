@@ -1,9 +1,10 @@
 var a23838 =
 [
-    [ "boss_void_reaver", "dd/d13/a23838.html#aa6373ef5b27255eca4d85345ae5fa729", null ],
-    [ "JustDied", "dd/d13/a23838.html#a49e6f52b11177bdac07adff92c2675f5", null ],
-    [ "JustEngagedWith", "dd/d13/a23838.html#a9260d05e11f4dec6fc25432a0524706b", null ],
-    [ "KilledUnit", "dd/d13/a23838.html#adc234fc43308771a42d99049876cad1b", null ],
-    [ "Reset", "dd/d13/a23838.html#a02c36ea960de24991f879943991a93c6", null ],
-    [ "_recentlySpoken", "dd/d13/a23838.html#adc1bb9a6a3340f157c3ffcbd7dcd71ac", null ]
+    [ "npc_raging_flames", "dd/d13/a23838.html#aa2cc5c8af07c202a7f0fab1af259a0db", null ],
+    [ "EnterEvadeMode", "dd/d13/a23838.html#a24a878560153dcf9cf5282c6d0a8f7f0", null ],
+    [ "FixateRandomTarget", "dd/d13/a23838.html#a0e015aa73efdafb1bb9683b2f3c1ba34", null ],
+    [ "InitializeAI", "dd/d13/a23838.html#a96d3a8ef364dc6bc3f15ffc82b14c4c0", null ],
+    [ "IsSummonedBy", "dd/d13/a23838.html#ae42c4329be355807af92c1c803e61500", null ],
+    [ "Reset", "dd/d13/a23838.html#a34ac2249e507784d81c4040e87a646e0", null ],
+    [ "UpdateAI", "dd/d13/a23838.html#a3e4feafe10e59ad9cb1d2275dc7954b0", null ]
 ];

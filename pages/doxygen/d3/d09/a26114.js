@@ -1,6 +1,7 @@
 var a26114 =
 [
-    [ "FilterTargets", "d3/d09/a26114.html#a17626abdbc4066956b76945b11b3f0c6", null ],
-    [ "PrepareSpellScript", "d3/d09/a26114.html#abfeb75060c1f930b33003dd1e458f882", null ],
-    [ "Register", "d3/d09/a26114.html#a8e5146a57f181b17280d198bcd2e216d", null ]
+    [ "HandleHeal", "d3/d09/a26114.html#a22e3dd3ac57c7cb95162ee56ab43bc93", null ],
+    [ "PrepareSpellScript", "d3/d09/a26114.html#a9de9260bc1e2582138c58a708e5d899c", null ],
+    [ "Register", "d3/d09/a26114.html#ab613ce86521f1381b79f6f9f3eaea3cc", null ],
+    [ "Validate", "d3/d09/a26114.html#aa300822cf5455404482124a6853fb314", null ]
 ];

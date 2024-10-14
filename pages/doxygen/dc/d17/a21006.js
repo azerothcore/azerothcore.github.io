@@ -1,14 +1,13 @@
 var a21006 =
 [
-    [ "boss_dalronn_the_controllerAI", "dc/d17/a21006.html#a74acf12255e669ba9e081be72ec10f26", null ],
-    [ "DoAction", "dc/d17/a21006.html#adce321ce3c7123db4520c83adeca4c70", null ],
-    [ "JustDied", "dc/d17/a21006.html#a179583ec5fc4e472175ac928f0593584", null ],
-    [ "JustEngagedWith", "dc/d17/a21006.html#af12427a7a194fecb51ab353176346b0f", null ],
-    [ "JustSummoned", "dc/d17/a21006.html#ac5bfbb9d2d98f70d4bede908a1187c48", null ],
-    [ "KilledUnit", "dc/d17/a21006.html#ab518322d3af739c546ee281a00c8b3f9", null ],
-    [ "Reset", "dc/d17/a21006.html#a2ad24e213c8843b231e064dd453db976", null ],
-    [ "UpdateAI", "dc/d17/a21006.html#a18b11c3046506d80f6295bcdb10957e9", null ],
-    [ "events", "dc/d17/a21006.html#ac055e216fb58f0386d0f6784584f087c", null ],
-    [ "pInstance", "dc/d17/a21006.html#a50970dde0b20e6219e755961671b741a", null ],
-    [ "summons", "dc/d17/a21006.html#adf7ff910666145f0680f2e34e040c674", null ]
+    [ "npc_ferocious_rhinoAI", "dc/d17/a21006.html#ad70d0aeba4b73330c5087bc84a533389", null ],
+    [ "DoAction", "dc/d17/a21006.html#a10395930fed95fb7809a0b5ffe224c4d", null ],
+    [ "JustDied", "dc/d17/a21006.html#a2b1af0402dc1b4940534d2e60d7ef33e", null ],
+    [ "JustEngagedWith", "dc/d17/a21006.html#aab35078fe4518b6647f98e316d02898a", null ],
+    [ "JustReachedHome", "dc/d17/a21006.html#ab8105d6c8c70037c208c83c13c35242d", null ],
+    [ "MoveInLineOfSight", "dc/d17/a21006.html#a97e32d32a692f223b96746f3ef1086c5", null ],
+    [ "Reset", "dc/d17/a21006.html#a6d317407c2de2f954b5dd2a6db137304", null ],
+    [ "UpdateAI", "dc/d17/a21006.html#a09b80e739e4df6e751c9c2846f3fb999", null ],
+    [ "events", "dc/d17/a21006.html#af23061de7d8566c7435c2c64c53dff89", null ],
+    [ "m_pInstance", "dc/d17/a21006.html#a97e00db40792c559dd06327c9960abe4", null ]
 ];

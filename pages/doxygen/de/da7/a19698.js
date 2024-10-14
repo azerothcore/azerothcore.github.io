@@ -1,6 +1,6 @@
 var a19698 =
 [
-    [ "HandleInstaKill", "de/da7/a19698.html#a9371a2cc86616fd04e47939d45f01cae", null ],
-    [ "PrepareSpellScript", "de/da7/a19698.html#a38eed301f1db3ea7ac15b626e5927500", null ],
-    [ "Register", "de/da7/a19698.html#a9aaf3e86a2c14ee79cc013b3978621ee", null ]
+    [ "boss_flame_leviathanAI", "d7/df7/a19702.html", "d7/df7/a19702" ],
+    [ "boss_flame_leviathan", "de/da7/a19698.html#af4fcd38fc7095701c6c31674d849aef4", null ],
+    [ "GetAI", "de/da7/a19698.html#a3a402b002472bfe4347b512f21654c50", null ]
 ];

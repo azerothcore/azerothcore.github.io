@@ -1,8 +1,14 @@
 var a10914 =
 [
-    [ "first", "d1/d6c/a10914.html#a49aea8bfed353c2c552f6195b8e9f60a", null ],
-    [ "last", "d1/d6c/a10914.html#a05a8077c7ec39bcca66fe84aa1da7040", null ],
-    [ "next", "d1/d6c/a10914.html#a0a7791b7069912a013299e7afaf4142f", null ],
-    [ "prev", "d1/d6c/a10914.html#ae27b7d0aa5a2ae5cb75a7f0d397c849f", null ],
-    [ "rank", "d1/d6c/a10914.html#a0b58cef8fc18f91fa59b8c7d7b9f9872", null ]
+    [ "IsFitToRequirements", "d1/d6c/a10914.html#af1585273701356a591bf9d9483e996a3", null ],
+    [ "areaId", "d1/d6c/a10914.html#af7e6f7b027388447a1f99e759975ca09", null ],
+    [ "auraSpell", "d1/d6c/a10914.html#adaf2f6f7c56701fe42a2674aca74fba0", null ],
+    [ "autocast", "d1/d6c/a10914.html#a38b42b82e4a588e102eb393cc907cd27", null ],
+    [ "gender", "d1/d6c/a10914.html#af4314cba9c91fd1e2c09905c17c67d22", null ],
+    [ "questEnd", "d1/d6c/a10914.html#a075cc2bc4d8c9663b2bdb2cf8ba77f5f", null ],
+    [ "questEndStatus", "d1/d6c/a10914.html#ac6c7ed326628642da138bb3835db9a1d", null ],
+    [ "questStart", "d1/d6c/a10914.html#afc99b14a3724fef7c5dd70e976a479a8", null ],
+    [ "questStartStatus", "d1/d6c/a10914.html#a7f4466dfd9ab56850a36d0d09ff84798", null ],
+    [ "raceMask", "d1/d6c/a10914.html#a402373ff841bd2aa47b4b36a581624cc", null ],
+    [ "spellId", "d1/d6c/a10914.html#a8a299d901e2c13cdc3c00d6cf0a856d3", null ]
 ];

@@ -1,6 +1,6 @@
 var a21506 =
 [
-    [ "npc_imprisoned_beryl_sorcererAI", "d1/dee/a21510.html", "d1/dee/a21510" ],
-    [ "npc_imprisoned_beryl_sorcerer", "df/d52/a21506.html#a6317eb89406cf6b99f63ecfa7f9999d1", null ],
-    [ "GetAI", "df/d52/a21506.html#aedb301f6da8460f3ed1d81d4b5f2f63c", null ]
+    [ "npc_bloodmage_laurithAI", "d1/dee/a21510.html", "d1/dee/a21510" ],
+    [ "npc_bloodmage_laurith", "df/d52/a21506.html#a40ab80342ddc86afca3b1bd37b1ca6b5", null ],
+    [ "GetAI", "df/d52/a21506.html#a5a5151a56de3ad1012d9a795dbfb5bd5", null ]
 ];

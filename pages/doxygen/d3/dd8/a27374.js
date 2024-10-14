@@ -1,10 +1,11 @@
 var a27374 =
 [
-    [ "npc_prof_tailor", "d3/dd8/a27374.html#a481157e49fb1c09f62a3cb9de85c9da1", null ],
-    [ "HasTailorSpell", "d3/dd8/a27374.html#a188c0ac66b1972bccd031aca26f7fecd", null ],
-    [ "OnGossipHello", "d3/dd8/a27374.html#a686098ac43916ea2f82b7c321527863d", null ],
-    [ "OnGossipSelect", "d3/dd8/a27374.html#a03545eaacf3bae0d407e0e20c32740dc", null ],
-    [ "SendActionMenu", "d3/dd8/a27374.html#a03ced7d6541535097a5e4e3bd9f415f2", null ],
-    [ "SendConfirmLearn", "d3/dd8/a27374.html#a93a8692cb2c0b30ee752ae3ecd5561e5", null ],
-    [ "SendConfirmUnlearn", "d3/dd8/a27374.html#ada0be1dc79f72b7b033191c8e17a8baf", null ]
+    [ "npc_franklinAI", "d3/dd8/a27374.html#a8385d2e39f2d051553cf84a54f3bc5ad", null ],
+    [ "DamageTaken", "d3/dd8/a27374.html#afa494098126ce3291e234cfc2b36336f", null ],
+    [ "JustEngagedWith", "d3/dd8/a27374.html#ab15fc7bcd912a6c583d4c219ba37c756", null ],
+    [ "Reset", "d3/dd8/a27374.html#a51a260460facf06ec6bb1486f434d885", null ],
+    [ "ScheduleEncounterStart", "d3/dd8/a27374.html#a2dcd6d0467eada6bd0d244e275c07d22", null ],
+    [ "SpellHit", "d3/dd8/a27374.html#aed6b5cfccbbe258f501b2da5c9dadb40", null ],
+    [ "UpdateAI", "d3/dd8/a27374.html#a8c3158b1e6c482dd82a6326954b8bbc5", null ],
+    [ "events", "d3/dd8/a27374.html#a2f72f9659aa62f80c5d8159df0d14e9f", null ]
 ];

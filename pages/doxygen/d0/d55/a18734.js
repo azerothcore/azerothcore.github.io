@@ -1,9 +1,7 @@
 var a18734 =
 [
-    [ "spell_trigger_spell_from_caster", "d0/d55/a18734.html#a0dc389ab8bd51fcfd839250a3bbc2dcd", null ],
-    [ "HandleTrigger", "d0/d55/a18734.html#afc11c9408ea11cb04e476999a9bdf522", null ],
-    [ "PrepareSpellScript", "d0/d55/a18734.html#a24a9bd70a58f051cd6c4ceaff5d7fffe", null ],
-    [ "Register", "d0/d55/a18734.html#ae44cc1a87267c1d08603d1aff2384957", null ],
-    [ "Validate", "d0/d55/a18734.html#a3aace9a309bc848b887b03c949c921bd", null ],
-    [ "_triggerId", "d0/d55/a18734.html#a29af52a9035f18936515a464889fefe5", null ]
+    [ "npc_ioc_gunship_captainAI", "d0/d55/a18734.html#a23477a6f29b13308067c1f42ced1e9fe", null ],
+    [ "DoAction", "d0/d55/a18734.html#a89fb251869d6bfbefbca1e2d3178178a", null ],
+    [ "UpdateAI", "d0/d55/a18734.html#a222b304633143bba47d3edde67ea093b", null ],
+    [ "_events", "d0/d55/a18734.html#aa8b7c262641a5f1f86c5ae39f8b62dca", null ]
 ];

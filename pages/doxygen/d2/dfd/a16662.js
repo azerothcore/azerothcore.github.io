@@ -1,8 +1,11 @@
 var a16662 =
 [
-    [ "npc_fos_leaderAI", "d2/dfd/a16662.html#ae6a80f77558e0f5a62efc3b5ef1f61d6", null ],
-    [ "DoAction", "d2/dfd/a16662.html#a1fd8cea6f8a6d8f76ba3c484b15c4054", null ],
-    [ "Reset", "d2/dfd/a16662.html#a33364da3af4681de9f9e21b9dcf7f16c", null ],
-    [ "UpdateAI", "d2/dfd/a16662.html#ac6f2aedc40e415ac0f7e8c212d4deae5", null ],
-    [ "events", "d2/dfd/a16662.html#ac02a0c34096086e7baf1dc004811f4c1", null ]
+    [ "npc_hor_leaderAI", "d2/dfd/a16662.html#a2072f9facbc476bb97f1a3ca9c24fcb7", null ],
+    [ "DoAction", "d2/dfd/a16662.html#a610700732a6cc197a40106adef654a62", null ],
+    [ "Reset", "d2/dfd/a16662.html#a40749d0294400e15bc28f6e728c6cb3c", null ],
+    [ "UpdateAI", "d2/dfd/a16662.html#acb29a6ddb6d06616e79f7431b66f167a", null ],
+    [ "events", "d2/dfd/a16662.html#a94128223bddd84b8a678e49f3189cb75", null ],
+    [ "first", "d2/dfd/a16662.html#add878d336fa7e20bee4d05ac0383dd0a", null ],
+    [ "pInstance", "d2/dfd/a16662.html#a8dd77a92b151acad640f1272acf0b65f", null ],
+    [ "shortver", "d2/dfd/a16662.html#a6e7b5d6f1b73bacb54d9aa1eb21fe6ee", null ]
 ];

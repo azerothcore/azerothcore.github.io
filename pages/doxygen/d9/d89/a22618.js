@@ -1,6 +1,12 @@
 var a22618 =
 [
-    [ "instance_sethekk_halls_InstanceMapScript", "db/d5d/a22622.html", "db/d5d/a22622" ],
-    [ "instance_sethekk_halls", "d9/d89/a22618.html#ab50d296266cf377bfb34750ec36963ef", null ],
-    [ "GetInstanceScript", "d9/d89/a22618.html#adc07afe1aa8132f70474f9a534ecb76c", null ]
+    [ "boss_gurtogg_bloodboil", "d9/d89/a22618.html#af6abec4e4db5ce939e4c9593656d16fb", null ],
+    [ "CanAIAttack", "d9/d89/a22618.html#a60e6439bab689eb88a18612b6b46c713", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "d9/d89/a22618.html#a42db4d9fab6edfc392e1886c7d2770cb", null ],
+    [ "JustDied", "d9/d89/a22618.html#a10456695efc6ea0b8eace24b94c37cc3", null ],
+    [ "JustEngagedWith", "d9/d89/a22618.html#a0847173efbae252c2fbbaf1be17097cb", null ],
+    [ "JustSummoned", "d9/d89/a22618.html#ae718666a1da0e93cb0965c42c40b51df", null ],
+    [ "KilledUnit", "d9/d89/a22618.html#ab2b8131fc06f0ff6dd9e3ac7799e72db", null ],
+    [ "Reset", "d9/d89/a22618.html#add25677d422b8bddcb753465451f0584", null ],
+    [ "_recentlySpoken", "d9/d89/a22618.html#a74af813b84f7787a5b764cfe574c087b", null ]
 ];

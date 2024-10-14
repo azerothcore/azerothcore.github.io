@@ -1,10 +1,10 @@
 var a15822 =
 [
-    [ "HandleDummy", "d3/d5f/a15822.html#aebbcaa1df9a6379998bb2069089f45bd", null ],
-    [ "HandleSchoolDamage", "d3/d5f/a15822.html#a8372b7d176c94689b1b7fe99add7812e", null ],
-    [ "Load", "d3/d5f/a15822.html#ae47e8a9c4223fd65b81c842687e19f44", null ],
-    [ "PrepareSpellScript", "d3/d5f/a15822.html#a3fd71e2a93f99f19443640a2147b1663", null ],
-    [ "Register", "d3/d5f/a15822.html#a8278d362a4354ccf81665ce0067c9a06", null ],
-    [ "Validate", "d3/d5f/a15822.html#a414b1e1396910b87a671305ce9dcab09", null ],
-    [ "_spawned", "d3/d5f/a15822.html#aa657a9869f04a1d1d2ce71f6d8464b17", null ]
+    [ "npc_xerestraszaAI", "d3/d5f/a15822.html#a768ae45296e16b8fcada6359dfd6c7e5", null ],
+    [ "DoAction", "d3/d5f/a15822.html#af696ecee315892b2bf0233113d2f89f9", null ],
+    [ "Reset", "d3/d5f/a15822.html#a0eceae8fb9bf5071bc8d9cddf783507b", null ],
+    [ "UpdateAI", "d3/d5f/a15822.html#a6389ab58f4b44c668590113ec75f2adf", null ],
+    [ "_events", "d3/d5f/a15822.html#ae998fc6aaee14bc313ff38bb76d79e43", null ],
+    [ "_introDone", "d3/d5f/a15822.html#a9d01014297290dafbb7ed25bffbe6fe6", null ],
+    [ "_isIntro", "d3/d5f/a15822.html#a71ffbf3fedb77bd693beabb4ee52f57a", null ]
 ];

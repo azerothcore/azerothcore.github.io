@@ -1,4 +1,4 @@
 var a00458 =
 [
-    [ "AsyncCallbackProcessor< T >", "dc/dcf/a05334.html", "dc/dcf/a05334" ]
+    [ "Acore::SignalHandler", "d5/d84/a05394.html", "d5/d84/a05394" ]
 ];

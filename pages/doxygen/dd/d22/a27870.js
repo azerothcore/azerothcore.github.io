@@ -1,7 +1,7 @@
 var a27870 =
 [
-    [ "HandleDummy", "dd/d22/a27870.html#a870b9834d0860a2d017b74fbf33ae668", null ],
-    [ "Load", "dd/d22/a27870.html#ae971bd1dccc9280620b6ea44dd552bd4", null ],
-    [ "PrepareSpellScript", "dd/d22/a27870.html#aac68e0f75f39ab25cf490dc381414b96", null ],
-    [ "Register", "dd/d22/a27870.html#ad2840c719abd010c629747da138e9e32", null ]
+    [ "cutPercent", "dd/d22/a27870.html#a8581a6a5198dab10680f477a477a7c80", null ],
+    [ "depositPercent", "dd/d22/a27870.html#af7bb868f1a1e8d570ce7b6cb10ad87d9", null ],
+    [ "faction", "dd/d22/a27870.html#a4b857e3c4c333b2a86f7f5d08bcc883d", null ],
+    [ "houseId", "dd/d22/a27870.html#a1bf77c1b14731def0e3de44143df2eed", null ]
 ];

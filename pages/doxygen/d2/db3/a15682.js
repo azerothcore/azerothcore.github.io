@@ -1,7 +1,11 @@
 var a15682 =
 [
-    [ "HandleScript", "d2/db3/a15682.html#ae9939f2795b8ba428277c7d658af715c", null ],
-    [ "PrepareSpellScript", "d2/db3/a15682.html#aabe244008103ff317e3fc1e26b04115a", null ],
-    [ "Register", "d2/db3/a15682.html#a4f492bdd96ef190354f37c95217bb696", null ],
-    [ "Validate", "d2/db3/a15682.html#a4a3a5e83b66d0ae3f6f95bcead932f55", null ]
+    [ "npc_anub_ar_crusherAI", "d2/db3/a15682.html#a35866e3cad208bb70bbc5a146301c28d", null ],
+    [ "DoAction", "d2/db3/a15682.html#ac11795153811d2465b106bc1fdea508a", null ],
+    [ "JustEngagedWith", "d2/db3/a15682.html#a02d3b78427bc247cde28620470c43331", null ],
+    [ "JustSummoned", "d2/db3/a15682.html#a6d484f8d3f54bb7c7ad572027501f2ab", null ],
+    [ "Reset", "d2/db3/a15682.html#a85f60e0733ac4ccd8f7941e8df0f88d9", null ],
+    [ "UpdateAI", "d2/db3/a15682.html#aaeda7e00410766857ee4bd73a8e15b89", null ],
+    [ "events", "d2/db3/a15682.html#ad4a2111d4301f0b928fbd01b6783fb6c", null ],
+    [ "summons", "d2/db3/a15682.html#a3136ecd40bf228fade0e40d3c5d22e5d", null ]
 ];

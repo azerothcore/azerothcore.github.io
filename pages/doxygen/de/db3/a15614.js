@@ -1,13 +1,6 @@
 var a15614 =
 [
-    [ "npc_shadowpriest_sezzizAI", "de/db3/a15614.html#a14c5cee1c3032b8df4ad902eb273e9b0", null ],
-    [ "AttackStart", "de/db3/a15614.html#a8278a73501ea33164cbdef8599144f4a", null ],
-    [ "Reset", "de/db3/a15614.html#ab08cc327c4206e4526e77eea3bf17e0b", null ],
-    [ "UpdateAI", "de/db3/a15614.html#a1c0236b52d4cd87634659991e0dfc728", null ],
-    [ "_missingHPForHealTimer", "de/db3/a15614.html#a1171f0cd40bd3d7198bab15b12edc131", null ],
-    [ "_missingHPForRenewTimer", "de/db3/a15614.html#a8df4e1046348599cd5d1e31e3dc4eb0c", null ],
-    [ "_physicScreemTimer", "de/db3/a15614.html#a43de246b93f3380d5b79ffba6434aa5a", null ],
-    [ "_shadowBoltTimer", "de/db3/a15614.html#a34a18991ff2c0aafac15694ed9667193", null ],
-    [ "_summmonAddsCount", "de/db3/a15614.html#a8ce2b172757d1f7d188152ecc0fe30f5", null ],
-    [ "_summonAddsTimer", "de/db3/a15614.html#aff413ce6f4106d212f35fb7abbfa047e", null ]
+    [ "ModDestHeight", "de/db3/a15614.html#a8bda9327c4244af41c513528ad5c818c", null ],
+    [ "PrepareSpellScript", "de/db3/a15614.html#aba5a03c94fa5d87c46a91369875c0ab2", null ],
+    [ "Register", "de/db3/a15614.html#a62b0ce71caeff96705b15aa240ddd09f", null ]
 ];

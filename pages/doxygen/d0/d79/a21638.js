@@ -1,6 +1,6 @@
 var a21638 =
 [
-    [ "npc_mageguard_dalaranAI", "d5/d2b/a21642.html", "d5/d2b/a21642" ],
-    [ "npc_mageguard_dalaran", "d0/d79/a21638.html#a0cec4f232b665325c421cecb5839885f", null ],
-    [ "GetAI", "d0/d79/a21638.html#a10cbddceb53a2d432da2224128c59b28", null ]
+    [ "npc_future_youAI", "d5/d2b/a21642.html", "d5/d2b/a21642" ],
+    [ "npc_future_you", "d0/d79/a21638.html#a36e363156bcb32fee468989062817bd5", null ],
+    [ "GetAI", "d0/d79/a21638.html#a2e1529fef3ce307d98057dc93ce5e5fe", null ]
 ];

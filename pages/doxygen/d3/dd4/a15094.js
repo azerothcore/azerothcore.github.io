@@ -1,6 +1,8 @@
 var a15094 =
 [
-    [ "HandleApply", "d3/dd4/a15094.html#aefef61bc68c13b20e9b41a6f148a9599", null ],
-    [ "PrepareAuraScript", "d3/dd4/a15094.html#aabe8dc8b99dc455dfcfaf58b64fa3f18", null ],
-    [ "Register", "d3/dd4/a15094.html#ade5c710416516760cc69f77750aa2a1f", null ]
+    [ "npc_injured_draeneiAI", "d3/dd4/a15094.html#a6832ec8b005e75ff66b0fd04e5ff3daa", null ],
+    [ "JustEngagedWith", "d3/dd4/a15094.html#adcc5750f0ab037a7ac38b9fa64b75a74", null ],
+    [ "MoveInLineOfSight", "d3/dd4/a15094.html#a514556f4a81c6f1f8b7caaa526c08662", null ],
+    [ "Reset", "d3/dd4/a15094.html#adcb601f739a91ce71926791885152471", null ],
+    [ "UpdateAI", "d3/dd4/a15094.html#af4d723ac0a95f9dad12e82d5bc987f50", null ]
 ];

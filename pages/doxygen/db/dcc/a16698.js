@@ -1,6 +1,6 @@
 var a16698 =
 [
-    [ "boss_marwynAI", "d5/dc6/a16702.html", "d5/dc6/a16702" ],
-    [ "boss_marwyn", "db/dcc/a16698.html#a4be337e1a6b4ab6d48aa1380f3956ad4", null ],
-    [ "GetAI", "db/dcc/a16698.html#af1c83878d2121163994bc327ae8e04f7", null ]
+    [ "npc_spectral_footmanAI", "d5/dc6/a16702.html", "d5/dc6/a16702" ],
+    [ "npc_spectral_footman", "db/dcc/a16698.html#a300fb06b896d2d08f9e3671422232ad2", null ],
+    [ "GetAI", "db/dcc/a16698.html#adbc1b961aba6cefb97dfff3014248735", null ]
 ];

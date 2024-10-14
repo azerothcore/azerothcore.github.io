@@ -1,4 +1,5 @@
 var a00674 =
 [
-    [ "ScriptRegistry< MiscScript >", "d8/d73/a00674.html#a925ee1bbb5e173c3d816d0ae35b38a67", null ]
+    [ "pet_commandscript", "db/d8f/a11410.html", "db/d8f/a11410" ],
+    [ "AddSC_pet_commandscript", "d8/d73/a00674.html#a9c7b2cae4f7afb6ae0c9ccc623877625", null ]
 ];

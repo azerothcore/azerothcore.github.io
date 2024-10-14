@@ -1,24 +1,45 @@
 var a03602 =
 [
-    [ "instance_black_temple", "d6/dee/a22978.html", "d6/dee/a22978" ],
-    [ "instance_black_temple::instance_black_temple_InstanceMapScript", "d8/dfd/a22982.html", "d8/dfd/a22982" ],
-    [ "spell_black_template_harpooners_mark_aura", "de/d5d/a22986.html", "de/d5d/a22986" ],
-    [ "spell_black_template_free_friend", "dc/d0a/a22990.html", "dc/d0a/a22990" ],
-    [ "spell_black_temple_curse_of_the_bleakheart_aura", "d1/d35/a22994.html", "d1/d35/a22994" ],
-    [ "spell_black_temple_skeleton_shot_aura", "db/d7e/a22998.html", "db/d7e/a22998" ],
-    [ "spell_black_temple_wyvern_sting_aura", "d7/d5b/a23002.html", "d7/d5b/a23002" ],
-    [ "spell_black_temple_charge_rage_aura", "de/d0f/a23006.html", "de/d0f/a23006" ],
-    [ "spell_black_temple_shadow_inferno_aura", "dc/dc6/a23010.html", "dc/dc6/a23010" ],
-    [ "spell_black_temple_spell_absorption_aura", "d2/d4d/a23014.html", "d2/d4d/a23014" ],
-    [ "spell_black_temple_bloodbolt", "d8/de4/a23018.html", "d8/de4/a23018" ],
-    [ "spell_black_temple_consuming_strikes_aura", "d5/d16/a23022.html", "d5/d16/a23022" ],
-    [ "spell_black_temple_curse_of_vitality_aura", "d8/d51/a23026.html", "d8/d51/a23026" ],
-    [ "spell_black_temple_dementia_aura", "de/dbe/a23030.html", "de/dbe/a23030" ],
-    [ "spell_black_temple_summon_shadowfiends", "dc/d6b/a23034.html", "dc/d6b/a23034" ],
-    [ "spell_black_temple_l5_arcane_charge", "d9/d6d/a23038.html", "d9/d6d/a23038" ],
-    [ "AddSC_instance_black_temple", "de/dc5/a03602.html#a15f766c45ce62741982e2a1711514aa8", null ],
-    [ "boundaries", "de/dc5/a03602.html#aa75d7d0ffe0cef214f982966c33db1c1", null ],
-    [ "creatureData", "de/dc5/a03602.html#a412286b689bd324fedd65ddd8dde8afb", null ],
-    [ "doorData", "de/dc5/a03602.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],
-    [ "objectData", "de/dc5/a03602.html#a59ddfa91084111da23b5d47482e4ff8d", null ]
+    [ "Object", "d8/dc8/a08122.html", "d8/dc8/a08122" ],
+    [ "MovementInfo", "d8/d6f/a08130.html", "d8/d6f/a08130" ],
+    [ "MovementInfo::TransportInfo", "d3/d3a/a08134.html", "d3/d3a/a08134" ],
+    [ "MovementInfo::JumpInfo", "d9/da8/a08138.html", "d9/da8/a08138" ],
+    [ "GridObject< T >", "df/d2d/a08142.html", "df/d2d/a08142" ],
+    [ "FlaggedValuesArray32< T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE >", "d7/d40/a08146.html", "d7/d40/a08146" ],
+    [ "MovableMapObject", "d6/d80/a08150.html", "d6/d80/a08150" ],
+    [ "WorldObject", "d4/dd5/a08154.html", "d4/dd5/a08154" ],
+    [ "Acore::ObjectDistanceOrderPred", "da/d63/a08158.html", "da/d63/a08158" ],
+    [ "UpdateDataMapType", "de/dc5/a03602.html#ac58dd2c514e262c6b68700fb72c69231", null ],
+    [ "UpdatePlayerSet", "de/dc5/a03602.html#abc4c822bd43dd0c1ea669b791c856405", null ],
+    [ "GOSummonType", "de/dc5/a03602.html#a3f5846dbc17f13c4c2b88a15593bbfba", [
+      [ "GO_SUMMON_TIMED_OR_CORPSE_DESPAWN", "de/dc5/a03602.html#a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1", null ],
+      [ "GO_SUMMON_TIMED_DESPAWN", "de/dc5/a03602.html#a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50", null ]
+    ] ],
+    [ "MapObjectCellMoveState", "de/dc5/a03602.html#a1833d9b1810b160d0c00f297af237b07", [
+      [ "MAP_OBJECT_CELL_MOVE_NONE", "de/dc5/a03602.html#a1833d9b1810b160d0c00f297af237b07afb882558defaa808483ae0d24e1d12e1", null ],
+      [ "MAP_OBJECT_CELL_MOVE_ACTIVE", "de/dc5/a03602.html#a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58", null ],
+      [ "MAP_OBJECT_CELL_MOVE_INACTIVE", "de/dc5/a03602.html#a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a", null ]
+    ] ],
+    [ "NotifyFlags", "de/dc5/a03602.html#ae6d03ea53b22c98f9dd7e3ce829cf389", [
+      [ "NOTIFY_NONE", "de/dc5/a03602.html#ae6d03ea53b22c98f9dd7e3ce829cf389aae40b53764f8cda7335d348860245cb9", null ],
+      [ "NOTIFY_AI_RELOCATION", "de/dc5/a03602.html#ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d", null ],
+      [ "NOTIFY_VISIBILITY_CHANGED", "de/dc5/a03602.html#ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053", null ],
+      [ "NOTIFY_ALL", "de/dc5/a03602.html#ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c", null ]
+    ] ],
+    [ "PhaseMasks", "de/dc5/a03602.html#a154255f23e41069883118fc4f0d23157", [
+      [ "PHASEMASK_NORMAL", "de/dc5/a03602.html#a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060", null ],
+      [ "PHASEMASK_ANYWHERE", "de/dc5/a03602.html#a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57", null ]
+    ] ],
+    [ "TempSummonType", "de/dc5/a03602.html#a38c6d8d01cbe0c49b035f348f7724148", [
+      [ "TEMPSUMMON_TIMED_OR_DEAD_DESPAWN", "de/dc5/a03602.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39", null ],
+      [ "TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN", "de/dc5/a03602.html#a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882", null ],
+      [ "TEMPSUMMON_TIMED_DESPAWN", "de/dc5/a03602.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2", null ],
+      [ "TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT", "de/dc5/a03602.html#a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a", null ],
+      [ "TEMPSUMMON_CORPSE_DESPAWN", "de/dc5/a03602.html#a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9", null ],
+      [ "TEMPSUMMON_CORPSE_TIMED_DESPAWN", "de/dc5/a03602.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a", null ],
+      [ "TEMPSUMMON_DEAD_DESPAWN", "de/dc5/a03602.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493", null ],
+      [ "TEMPSUMMON_MANUAL_DESPAWN", "de/dc5/a03602.html#a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a", null ],
+      [ "TEMPSUMMON_DESPAWNED", "de/dc5/a03602.html#a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687", null ],
+      [ "TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE", "de/dc5/a03602.html#a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7", null ]
+    ] ]
 ];

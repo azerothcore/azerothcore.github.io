@@ -1,13 +1,15 @@
 var a14230 =
 [
-    [ "boss_headless_horseman_head", "d3/d78/a14230.html#a12343a1bb6e30681b0c82ba649bd5b8a", null ],
-    [ "DamageTaken", "d3/d78/a14230.html#a73e75350937736ad7cfe725b785b3768", null ],
-    [ "GetOwner", "d3/d78/a14230.html#ab72d1f1891401754ffe032ed0534882d", null ],
-    [ "Reset", "d3/d78/a14230.html#a367e8b82d6d3bb08e7106c71295610f9", null ],
-    [ "SpellHit", "d3/d78/a14230.html#adcd9ce9755f8dbc1391b4d2b3f5e1669", null ],
-    [ "SpellHitTarget", "d3/d78/a14230.html#a0d73ba0831118d135137953f91e7c5d7", null ],
-    [ "UpdateAI", "d3/d78/a14230.html#a300dec039465535914bf6879423a0962", null ],
-    [ "handled", "d3/d78/a14230.html#a72c0d0c8c534fa8fdc1370203c30c3a3", null ],
-    [ "pct", "d3/d78/a14230.html#a9752326bac7ecbcdfde5b12f55b20be2", null ],
-    [ "timer", "d3/d78/a14230.html#ae7c669e65659459fd83f91b5e9ed1347", null ]
+    [ "npc_midsummer_bonfire", "d3/d78/a14230.html#a07c8b1add555697fdb29fda89f42c4af", null ],
+    [ "Ignite", "d3/d78/a14230.html#a2a398299b3584e3a871b1b6e83b4ff5f", null ],
+    [ "InitBonfire", "d3/d78/a14230.html#a9210a0a472d609f66895bfa0a8e324b0", null ],
+    [ "SpellHit", "d3/d78/a14230.html#a9ad2102b2dea60fbb81c1578b97f34dc", null ],
+    [ "StampOut", "d3/d78/a14230.html#a1f8bd11d0f49c0a44764a2f34e6ee147", null ],
+    [ "UpdateAI", "d3/d78/a14230.html#a46733a171006e4693a32391cfe954050", null ],
+    [ "UpdateBonfireBlessingBuffs", "d3/d78/a14230.html#a1236b61f21ff1a1b85bbc7058ca8e17c", null ],
+    [ "_bonfire", "d3/d78/a14230.html#aaa2f2822cb5c104ec2d90c2a344b409d", null ],
+    [ "_isStampedOut", "d3/d78/a14230.html#aa21c9f7a5d7ac29663d94da55ef34373", null ],
+    [ "_spellFocus", "d3/d78/a14230.html#abef815568f7d39bbda20f9611e3abc52", null ],
+    [ "_teamId", "d3/d78/a14230.html#a5c0894721d13dd49961c0687c100d7a5", null ],
+    [ "_type", "d3/d78/a14230.html#a7c26b81f24dc2fc0ed9fc53d1d5935f5", null ]
 ];

@@ -1,5 +1,6 @@
 var a01388 =
 [
-    [ "GroupMgr", "df/d6c/a09186.html", "df/d6c/a09186" ],
-    [ "sGroupMgr", "d0/d36/a01388.html#a9b001b22670103435cf11551af9fa71e", null ]
+    [ "instance_halls_of_stone", "d3/dca/a19506.html", "d3/dca/a19506" ],
+    [ "instance_halls_of_stone::instance_halls_of_stone_InstanceMapScript", "df/d00/a19510.html", "df/d00/a19510" ],
+    [ "AddSC_instance_halls_of_stone", "d0/d36/a01388.html#a81d8c56de5920b1e73d7955e1c7399ed", null ]
 ];

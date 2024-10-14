@@ -1,6 +1,7 @@
 var a14762 =
 [
-    [ "instance_razorfen_kraul_InstanceMapScript", "d0/d9d/a14766.html", "d0/d9d/a14766" ],
-    [ "instance_razorfen_kraul", "d1/d0d/a14762.html#aedd65b901c8131a7ac21e8576734f76f", null ],
-    [ "GetInstanceScript", "d1/d0d/a14762.html#a78e77010ebb055b9530733ca25533110", null ]
+    [ "boss_kurinnaxx", "d1/d0d/a14762.html#aa8b471e6239080b2a5f70e50e07a9621", null ],
+    [ "InitializeAI", "d1/d0d/a14762.html#a0e249007d5bf29eb0cff307045ef9eb3", null ],
+    [ "JustDied", "d1/d0d/a14762.html#adb749c8737888a099ad7a3d58292a612", null ],
+    [ "JustEngagedWith", "d1/d0d/a14762.html#a451cd7ee80b0428a199c33012562bdb3", null ]
 ];

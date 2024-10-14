@@ -1,8 +1,6 @@
 var a13826 =
 [
-    [ "FilterTargets", "d3/d2f/a13826.html#a28450a72f3d8510bdf35390f56a67f71", null ],
-    [ "HandleScriptEffect", "d3/d2f/a13826.html#af97c3c43da4b099bc37e2cf4f2733dce", null ],
-    [ "PrepareSpellScript", "d3/d2f/a13826.html#ac9298a59bc8b9735c210b630c68a536e", null ],
-    [ "Register", "d3/d2f/a13826.html#a3bfc71bb504a0eb0f63ff307c943c23e", null ],
-    [ "Validate", "d3/d2f/a13826.html#a41b2f12ebf919b781fdefab3a42bdb84", null ]
+    [ "boss_mandokirAI", "d6/d6c/a13830.html", "d6/d6c/a13830" ],
+    [ "boss_mandokir", "d3/d2f/a13826.html#aad13c8302cef7fb4981f0d2178630def", null ],
+    [ "GetAI", "d3/d2f/a13826.html#a215842d5ab23824ec20db64e2fa4407e", null ]
 ];

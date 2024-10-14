@@ -1,7 +1,11 @@
 var a26654 =
 [
-    [ "AfterRemove", "da/d91/a26654.html#ad0bad4a07d5a65a7834e7ab46e082b20", null ],
-    [ "PrepareAuraScript", "da/d91/a26654.html#af338af238305f1872275e1e5e9fdee16", null ],
-    [ "Register", "da/d91/a26654.html#aa266e794be35b51a399b13ee2d06199d", null ],
-    [ "Validate", "da/d91/a26654.html#af58098eb7a904e20846cf728f5adc18b", null ]
+    [ "CalcPeriodic", "da/d91/a26654.html#aeb804ef41ec5600c18b5b1c9fcf37479", null ],
+    [ "CalculateAPAmount", "da/d91/a26654.html#a72bd308dbeaa7eca5685f3e5055d7fad", null ],
+    [ "CalculateResistanceAmount", "da/d91/a26654.html#a12a0f547198d150b0c51e481dd0ff6aa", null ],
+    [ "CalculateSPAmount", "da/d91/a26654.html#a114c868f0dc31f3370588b1bd1f18894", null ],
+    [ "CalculateStatAmount", "da/d91/a26654.html#ae7ba2e3eca6c93325ede8b100e32bd3c", null ],
+    [ "HandlePeriodic", "da/d91/a26654.html#af5076795e8bf6abd45590a060f9e5b52", null ],
+    [ "PrepareAuraScript", "da/d91/a26654.html#aa512873852c0eea9947472fcb60fbfc2", null ],
+    [ "Register", "da/d91/a26654.html#a40ed4ca839b9783d9a8e9930f87a2eb8", null ]
 ];

@@ -1,6 +1,5 @@
 var a14098 =
 [
-    [ "PeriodicTick", "d1/db0/a14098.html#a0832c36a9497674374b2998398bfc3a4", null ],
-    [ "PrepareAuraScript", "d1/db0/a14098.html#a89acb64235da1ff59da90a509fbeec9d", null ],
-    [ "Register", "d1/db0/a14098.html#aab689a2cb84dcd064736171035640584", null ]
+    [ "npc_grizzlemaw_cw_triggerAI", "d1/db0/a14098.html#a40207493c75d8a63284e08f1f75d56c4", null ],
+    [ "MoveInLineOfSight", "d1/db0/a14098.html#aef49ccdae1aff20fc469f0aa2663d8af", null ]
 ];

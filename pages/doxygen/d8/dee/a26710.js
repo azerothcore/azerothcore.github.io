@@ -1,7 +1,7 @@
 var a26710 =
 [
-    [ "HandleScriptEffect", "d8/dee/a26710.html#a328c1ba6ccd98e25e477a3f784cb47ff", null ],
-    [ "PrepareSpellScript", "d8/dee/a26710.html#aa211032991d8fd11d574cb364533a515", null ],
-    [ "Register", "d8/dee/a26710.html#a13315f197f2e6975dca00b53cbc599d2", null ],
-    [ "Validate", "d8/dee/a26710.html#a3b752f07631223199ed7ac404ed1afed", null ]
+    [ "HandleTeleport", "d8/dee/a26710.html#a7ba7b82988dab5fd8e691b5b87c3d959", null ],
+    [ "PrepareAuraScript", "d8/dee/a26710.html#a2307b7eccd4dd08d7e97ece704ddc4fb", null ],
+    [ "Register", "d8/dee/a26710.html#a82432a4448d8c23ea2a39b4b26eb1b58", null ],
+    [ "Validate", "d8/dee/a26710.html#adabf22bd591a10662ffbf0354a18a936", null ]
 ];

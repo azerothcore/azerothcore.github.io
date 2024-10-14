@@ -1,6 +1,7 @@
 var a14446 =
 [
-    [ "HandleHit", "df/d5e/a14446.html#aec32d6b45bdcfe3a6a32c2fb7558edd1", null ],
-    [ "PrepareSpellScript", "df/d5e/a14446.html#a31fdc4d630a4a6647d2a9b1100aecdad", null ],
-    [ "Register", "df/d5e/a14446.html#a64a861b5c25df5780390aa55899393d7", null ]
+    [ "hyjalTyrandeAI", "d0/df2/a14450.html", "d0/df2/a14450" ],
+    [ "npc_hyjal_tyrande", "df/d5e/a14446.html#abd2ba500d8e2bbf20c00905012d47d12", null ],
+    [ "GetAI", "df/d5e/a14446.html#a2f863e616352a98763eef9a717d73388", null ],
+    [ "OnGossipSelect", "df/d5e/a14446.html#a014a63098e18b08b6f5cd33a0cba2072", null ]
 ];

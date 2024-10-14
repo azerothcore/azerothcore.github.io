@@ -1,12 +1,5 @@
 var a13766 =
 [
-    [ "npc_zulian_prowlerAI", "d4/d5b/a13766.html#a367613efead335b060173011267ddcff", null ],
-    [ "JustDied", "d4/d5b/a13766.html#a31258aadddfbf6c6e9e1d729452dd8b2", null ],
-    [ "JustEngagedWith", "d4/d5b/a13766.html#a207504b15ecd22b78088593b80433581", null ],
-    [ "Reset", "d4/d5b/a13766.html#a62d14bae970d8a70a997c683e0e94259", null ],
-    [ "SpellHit", "d4/d5b/a13766.html#a4051cd786d8c1974cf80c28f907cc02a", null ],
-    [ "UpdateAI", "d4/d5b/a13766.html#a708df3a95395f99f6ba3eebcc90a22ab", null ],
-    [ "_events", "d4/d5b/a13766.html#a994ae5b4e72429141155d1342830e5ad", null ],
-    [ "_instance", "d4/d5b/a13766.html#ad37ba6b6ff7f52a88d2a96dc4ea00c34", null ],
-    [ "_sideData", "d4/d5b/a13766.html#afa44e09c5677c2fc567be6a67b766bde", null ]
+    [ "at_zulgurub_bloodfire_pit_speech", "d4/d5b/a13766.html#a880058a08d7da3b8d3062a8bc17367a4", null ],
+    [ "_OnTrigger", "d4/d5b/a13766.html#a8f1e477942ba9a5f653077632a98930f", null ]
 ];

@@ -1,7 +1,8 @@
 var a20038 =
 [
-    [ "HandleEffectPeriodic", "d3/dd2/a20038.html#ae1c6062123fb62a48f542e43b34c7bcd", null ],
-    [ "PrepareAuraScript", "d3/dd2/a20038.html#a1c54b6c86fc39d96d601b24c5b30fbdd", null ],
-    [ "Register", "d3/dd2/a20038.html#af7a5a98b5cf784d2de8b57a183c19142", null ],
-    [ "Validate", "d3/dd2/a20038.html#a16c536c913d003826ef4b86c7a497fec", null ]
+    [ "npc_ulduar_flash_freezeAI", "d3/dd2/a20038.html#a478e7bc76a7b7ffeb25a0df731cb5ed8", null ],
+    [ "DamageTaken", "d3/dd2/a20038.html#af0c18460b4cc331f51c44a3306f516b8", null ],
+    [ "UpdateAI", "d3/dd2/a20038.html#ab2efa0a8d06297bff05502c40079efe9", null ],
+    [ "pInstance", "d3/dd2/a20038.html#a28be7874fee6dcaea6f205cb75f1450f", null ],
+    [ "timer", "d3/dd2/a20038.html#a590117afe9e9943d8dc8a44af9386066", null ]
 ];

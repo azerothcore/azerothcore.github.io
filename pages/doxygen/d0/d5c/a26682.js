@@ -1,10 +1,6 @@
 var a26682 =
 [
-    [ "CalcPeriodic", "d0/d5c/a26682.html#abd23b7e24d9688dd4b9cbe70cdd45d75", null ],
-    [ "CalculateAmount", "d0/d5c/a26682.html#a55aa6c6a23e4db0f407b86bcf95d3761", null ],
-    [ "HandleEffectCalcSpellMod", "d0/d5c/a26682.html#a8c888218fde2176a3c3b5cb97fdce5de", null ],
-    [ "HandlePeriodic", "d0/d5c/a26682.html#ae2c4de235fc727039a50f1b6ba729422", null ],
-    [ "Load", "d0/d5c/a26682.html#a9e1a5a07db18f6ff238276f9e1c44321", null ],
-    [ "PrepareAuraScript", "d0/d5c/a26682.html#a847c1db1bf92baeba47260ffbacbcdd9", null ],
-    [ "Register", "d0/d5c/a26682.html#a9241ab85d616f4f17c52b3730c5434e1", null ]
+    [ "FilterTargets", "d0/d5c/a26682.html#a2bcc808d5869442e4c2e78be2d2a16af", null ],
+    [ "PrepareSpellScript", "d0/d5c/a26682.html#a51d7035477ba4e3994ef3161edc4cc69", null ],
+    [ "Register", "d0/d5c/a26682.html#adcc2ed25659208d0eeaec6d9673df3c6", null ]
 ];

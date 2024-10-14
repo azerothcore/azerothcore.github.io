@@ -1,7 +1,6 @@
 var a13182 =
 [
-    [ "npc_singularityAI", "d6/dc0/a13182.html#a3385a5ff1216daed82fb8bf7bb830b21", null ],
-    [ "Reset", "d6/dc0/a13182.html#ac4fa5b0fe7e1bf62c7deb9197b54f939", null ],
-    [ "UpdateAI", "d6/dc0/a13182.html#aafa3ceeeb22492ef1ead260a33833bd3", null ],
-    [ "events", "d6/dc0/a13182.html#a68c7f293c67b7d014411d8f847925ef4", null ]
+    [ "npc_singularityAI", "de/d78/a13186.html", "de/d78/a13186" ],
+    [ "npc_singularity", "d6/dc0/a13182.html#a6ae83c9ce2eff2bb9d532264b80e9da2", null ],
+    [ "GetAI", "d6/dc0/a13182.html#a1eb97c468c5d1dee2662c986d78d3233", null ]
 ];

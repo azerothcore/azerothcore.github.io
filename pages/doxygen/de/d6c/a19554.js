@@ -1,6 +1,8 @@
 var a19554 =
 [
-    [ "HandleEffectRemove", "de/d6c/a19554.html#a529d6d96d7f7a682646ac76d2738afad", null ],
-    [ "PrepareAuraScript", "de/d6c/a19554.html#ad32012414b24efa48db05cba2d8e86f2", null ],
-    [ "Register", "de/d6c/a19554.html#aa38b273ed6e9482c8c2fca712ea5b459", null ]
+    [ "npc_algalon_worm_holeAI", "de/d6c/a19554.html#a07b36b40972bebea6b17890aa8fee50c", null ],
+    [ "JustSummoned", "de/d6c/a19554.html#a148de5da4502813e369ec6c52b1671a0", null ],
+    [ "Reset", "de/d6c/a19554.html#a915a8e5e23062cb10da9a3dbe387cf51", null ],
+    [ "UpdateAI", "de/d6c/a19554.html#a9df88d81aa4f4dd7e1dcdf6209832c32", null ],
+    [ "_summonTimer", "de/d6c/a19554.html#a73a55560e5ff7957d883f732bc0d2a82", null ]
 ];

@@ -1,6 +1,11 @@
 var a19898 =
 [
-    [ "PrepareSpellScript", "df/d76/a19898.html#a7eeb4e2b9c3bb6e7d02d6a5acf8e1d52", null ],
-    [ "RecalculateDamage", "df/d76/a19898.html#a094a21cf3cf109e704d3e334ad7dbad1", null ],
-    [ "Register", "df/d76/a19898.html#af2b5382122be41a6b1ee4ab721b417da", null ]
+    [ "boss_freya_elder_brightleafAI", "df/d76/a19898.html#a53de463d34b808b4c5d459e1339f6f30", null ],
+    [ "JustDied", "df/d76/a19898.html#aeea7300081f645d3fa83df6841c5a497", null ],
+    [ "JustEngagedWith", "df/d76/a19898.html#a956adeb9b6ea0c8fa71bdcbd3735c79d", null ],
+    [ "KilledUnit", "df/d76/a19898.html#a47935d017a2d34a888acb4079d3ff9aa", null ],
+    [ "Reset", "df/d76/a19898.html#aee11d2e1fad8bc1b18c17b1527610914", null ],
+    [ "UpdateAI", "df/d76/a19898.html#af28f94f278d279513d7f72cdc36528d4", null ],
+    [ "events", "df/d76/a19898.html#a45b4f0d12497dd8e3ffc1cde429116f6", null ],
+    [ "summons", "df/d76/a19898.html#a456123135a7fb4595d611a9e3995f461", null ]
 ];

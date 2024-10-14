@@ -1,6 +1,6 @@
 var a19686 =
 [
-    [ "boss_stormcaller_brundirAI", "d9/d1b/a19690.html", "d9/d1b/a19690" ],
-    [ "boss_stormcaller_brundir", "d3/d1f/a19686.html#aa966d1534a58e3832c46772043956533", null ],
-    [ "GetAI", "d3/d1f/a19686.html#a399b1b7cf2ee74c1e672231e922ff4fa", null ]
+    [ "FilterTargets", "d3/d1f/a19686.html#a38c693dd3d8fb7e04fc1e26359f12399", null ],
+    [ "PrepareSpellScript", "d3/d1f/a19686.html#a86c4bb91547d8ea7eebb8e4d7bfd592e", null ],
+    [ "Register", "d3/d1f/a19686.html#a4e803984a3eded2736825f631786c204", null ]
 ];

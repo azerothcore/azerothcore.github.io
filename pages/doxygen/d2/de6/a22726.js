@@ -1,7 +1,11 @@
 var a22726 =
 [
-    [ "OnPeriodic", "d2/de6/a22726.html#aa5d2f7530277a6a4d4a85ec5d244b9bc", null ],
-    [ "PrepareAuraScript", "d2/de6/a22726.html#a973ccf17f6499bc84306a18b07fcef7b", null ],
-    [ "Register", "d2/de6/a22726.html#a07b3b1df6626a9fb657270eb1d9f386a", null ],
-    [ "Validate", "d2/de6/a22726.html#a006d67e9e82cce68930b90b00d3555a4", null ]
+    [ "boss_high_nethermancer_zerevor", "d2/de6/a22726.html#a2d3ce1a6d972c0b58efe5aad31014c09", null ],
+    [ "AttackStart", "d2/de6/a22726.html#a270961bd3af6ce65eebc79130f4e3d47", null ],
+    [ "CastDampenMagicIfPossible", "d2/de6/a22726.html#ab0af23baf43d377935811c52a346c566", null ],
+    [ "JustEngagedWith", "d2/de6/a22726.html#a390f939ba01ee189fc55670eb4ff1a7e", null ],
+    [ "OnAuraRemove", "d2/de6/a22726.html#a7dd31808dbf00f77b59fce84249778fe", null ],
+    [ "Reset", "d2/de6/a22726.html#afd7a419de217b3d129f783ddc87780af", null ],
+    [ "UpdateAI", "d2/de6/a22726.html#ae1ec04a655525cbb2a6a3c7e382cf078", null ],
+    [ "_canCastDampenMagic", "d2/de6/a22726.html#a72c89454c2b0754690ae72fd7aacb0e8", null ]
 ];

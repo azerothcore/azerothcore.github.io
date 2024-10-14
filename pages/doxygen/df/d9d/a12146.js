@@ -1,7 +1,7 @@
 var a12146 =
 [
-    [ "HandleScript", "df/d9d/a12146.html#aa6a02fd6ac2fe27588cb17377e63125f", null ],
-    [ "PrepareSpellScript", "df/d9d/a12146.html#a8d200122bafb943ccb6aa1bd86a1d227", null ],
-    [ "Register", "df/d9d/a12146.html#ab1ee3baa1bd7341660bcc7a10978aff3", null ],
-    [ "Validate", "df/d9d/a12146.html#a931be0e5aa4b54e646a3ed3ade135423", null ]
+    [ "HandleScript", "df/d9d/a12146.html#ac09c2c6b997c2a5fc0bee0ba0ea185ae", null ],
+    [ "PrepareSpellScript", "df/d9d/a12146.html#ad3c052a9bd00d04c954f85218dcfcb0a", null ],
+    [ "Register", "df/d9d/a12146.html#a8658c2c7e32a66e4a1bcc048406653bb", null ],
+    [ "Validate", "df/d9d/a12146.html#aa03795d909e24dfe2ccd12e431b2575e", null ]
 ];

@@ -1,10 +1,10 @@
 var a01157 =
 [
-    [ "GraveyardStruct", "db/d36/a09606.html", "db/d36/a09606" ],
-    [ "GraveyardData", "d1/d2e/a09610.html", "d1/d2e/a09610" ],
-    [ "Graveyard", "d6/da7/a09614.html", "d6/da7/a09614" ],
-    [ "sGraveyard", "d9/d25/a01157.html#ac68c2a63982a6142e1931450d7b6115c", null ],
-    [ "GraveyardMapBounds", "d9/d25/a01157.html#aa5ea0c376a2e44483f8c5cb084b3b186", null ],
-    [ "GraveyardMapBoundsNonConst", "d9/d25/a01157.html#a6a551a1219fa9a26b5ed21656c2f9dd1", null ],
-    [ "WGGraveyardContainer", "d9/d25/a01157.html#a484cb47c00fe9b952853e3b04212437c", null ]
+    [ "AddPetScripts", "d9/d25/a01157.html#aaeb6a149e6495db19023f37a4f8bd882", null ],
+    [ "AddSC_deathknight_pet_scripts", "d9/d25/a01157.html#ac6a5b089240cd6b996928b3e7f9137b3", null ],
+    [ "AddSC_generic_pet_scripts", "d9/d25/a01157.html#a9852812a043673e45884dca938eff157", null ],
+    [ "AddSC_hunter_pet_scripts", "d9/d25/a01157.html#ab89117a79c55f003f82b06a1878e6534", null ],
+    [ "AddSC_mage_pet_scripts", "d9/d25/a01157.html#a689a4efb7777f4164aee994745a0e2d2", null ],
+    [ "AddSC_priest_pet_scripts", "d9/d25/a01157.html#ac0eaa77dc1cb9a092b318e3bc3f6d5b8", null ],
+    [ "AddSC_shaman_pet_scripts", "d9/d25/a01157.html#ab07e634ed761985e07d5c0e10f329231", null ]
 ];

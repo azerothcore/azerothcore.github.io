@@ -1,5 +1,7 @@
 var a17966 =
 [
-    [ "achievement_all_you_can_eat", "d3/d52/a17966.html#a0995024862a445ea1f0ff5c82475fc64", null ],
-    [ "OnCheck", "d3/d52/a17966.html#a0baa07a7cbd239e4a5fcfd3e687aedf6", null ]
+    [ "HandleInfusion", "d3/d52/a17966.html#a9f77330d81fef646dd5d5399800cba66", null ],
+    [ "PrepareSpellScript", "d3/d52/a17966.html#ae0a272902b0a9f74058c1dbe62974358", null ],
+    [ "Register", "d3/d52/a17966.html#ad759f6215e722f799156b4bdddcb7af1", null ],
+    [ "Validate", "d3/d52/a17966.html#a7b7254e7c6cb0d819dd003ffd19d0731", null ]
 ];

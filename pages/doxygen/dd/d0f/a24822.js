@@ -1,6 +1,7 @@
 var a24822 =
 [
-    [ "PrepareSpellScript", "dd/d0f/a24822.html#a209f68c2a9824ad771f7b6a25d4c4663", null ],
-    [ "Register", "dd/d0f/a24822.html#a759b195d4631a371bef3e6398e128034", null ],
-    [ "SelectTarget", "dd/d0f/a24822.html#a676c6fdbced0ea7e945c4724c9adf145", null ]
+    [ "HandleApply", "dd/d0f/a24822.html#a75f7fc139cf72aeaa2cc09ba30a8f119", null ],
+    [ "HandlePeriodicTimer", "dd/d0f/a24822.html#ae9f438dd0833b2ad214acef0e558a8be", null ],
+    [ "PrepareAuraScript", "dd/d0f/a24822.html#ac2040d944e47a4f1cc7721ead44aca77", null ],
+    [ "Register", "dd/d0f/a24822.html#abc9eb056267c7effcc7f68a3ad7891da", null ]
 ];

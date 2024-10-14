@@ -1,6 +1,7 @@
 var a17514 =
 [
-    [ "IgbExplosionCheck", "d2/d3e/a17514.html#ae67cca111f26a275614810cbe053bcd8", null ],
-    [ "operator()", "d2/d3e/a17514.html#a28ce6685366e99db2aa1e4022012f943", null ],
-    [ "_source", "d2/d3e/a17514.html#a413ee8f2218621d274d118aea967dc9b", null ]
+    [ "DamageGunship", "d2/d3e/a17514.html#a1dc0145cfff777b18b9241dfc0966f32", null ],
+    [ "PrepareSpellScript", "d2/d3e/a17514.html#aa698d016ae58d665c081976f20ec0385", null ],
+    [ "Register", "d2/d3e/a17514.html#ab8836babdea1fd963fdd53415db0a3ba", null ],
+    [ "Validate", "d2/d3e/a17514.html#ae80cd93b2f01ddb83493f9f818fc0ea1", null ]
 ];

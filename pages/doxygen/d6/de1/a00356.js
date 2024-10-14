@@ -1,23 +1,19 @@
 var a00356 =
 [
-    [ "MetricData", "dd/df0/a05262.html", "dd/df0/a05262" ],
-    [ "Metric", "d7/dc7/a05266.html", "d7/dc7/a05266" ],
-    [ "MetricStopWatch< LoggerType >", "de/d4f/a05270.html", "de/d4f/a05270" ],
-    [ "METRIC_CONCAT", "d6/de1/a00356.html#ad81585df46d4cee988a1222012dbabf1", null ],
-    [ "METRIC_DETAILED_EVENT", "d6/de1/a00356.html#ac782d1c3265f7b707782545777d49d05", null ],
-    [ "METRIC_DETAILED_NO_THRESHOLD_TIMER", "d6/de1/a00356.html#a281633f6f8b252d96029ce8fd29da746", null ],
-    [ "METRIC_DETAILED_TIMER", "d6/de1/a00356.html#a22dcbf78f0d280a4b2b4e0662034efe9", null ],
-    [ "METRIC_DO_CONCAT", "d6/de1/a00356.html#aa861206b38b55c4f39f1ed649defb338", null ],
-    [ "METRIC_EVENT", "d6/de1/a00356.html#ad57573999508dbc7a2c953379996b542", null ],
-    [ "METRIC_TAG", "d6/de1/a00356.html#ab81b5769123c1e5e3870b9b05f25fe0a", null ],
-    [ "METRIC_TIMER", "d6/de1/a00356.html#ad88ae7d281622a32a700443aa3dc51f9", null ],
-    [ "METRIC_UNIQUE_NAME", "d6/de1/a00356.html#adf91483a75eca0531263536ce38d9339", null ],
-    [ "METRIC_VALUE", "d6/de1/a00356.html#a92aedc832ddfc479ecc61289f12be449", null ],
-    [ "sMetric", "d6/de1/a00356.html#a4e89926204845a9c9e315d6f0abec5ef", null ],
-    [ "MetricTag", "d6/de1/a00356.html#a8fdc9a93c03faef11e4c36679e79e3f1", null ],
-    [ "MetricDataType", "d6/de1/a00356.html#a0bb9cc086e32544cb0e43338f83d8e62", [
-      [ "METRIC_DATA_VALUE", "d6/de1/a00356.html#a0bb9cc086e32544cb0e43338f83d8e62a62f4e964751c180f1ab400ee1852b155", null ],
-      [ "METRIC_DATA_EVENT", "d6/de1/a00356.html#a0bb9cc086e32544cb0e43338f83d8e62a599565c733d02dcd1c4676c2ad463af2", null ]
-    ] ],
-    [ "MakeMetricStopWatch", "d6/de1/a00356.html#ab339934305abce426aa1d43c99d65e9f", null ]
+    [ "MmapTileHeader", "d8/dd4/a04894.html", "d8/dd4/a04894" ],
+    [ "MAX_NUMBER_OF_GRIDS", "d6/de1/a00356.html#a857252154f120575d940ffbdf63bace6", null ],
+    [ "MMAP_MAGIC", "d6/de1/a00356.html#af7a9a5e840ab3ad1c160e832500016d1", null ],
+    [ "MMAP_VERSION", "d6/de1/a00356.html#aea71555fdd0af33ccc21c76c67574421", null ],
+    [ "SIZE_OF_GRIDS", "d6/de1/a00356.html#a55c9adba46c0c14cd4ac80ab51228816", null ],
+    [ "NavTerrain", "d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5db", [
+      [ "NAV_EMPTY", "d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba7e7367494e3519c95f1b756726fec9a5", null ],
+      [ "NAV_GROUND", "d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dbac2c74d40490a8ea42121c00a8249bd98", null ],
+      [ "NAV_MAGMA", "d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba9ea5d0550a08be7bb291557f1fc4f670", null ],
+      [ "NAV_SLIME", "d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dbad892c321d39d49cdb700eb27fc249f75", null ],
+      [ "NAV_WATER", "d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dbae258322a4a7d7928a89ac183ecf137d1", null ],
+      [ "NAV_UNUSED1", "d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba55b6c76a11113bfd585b61366a3f6d03", null ],
+      [ "NAV_UNUSED2", "d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba4c61900269be6dee2e26cbeb4e09d0bb", null ],
+      [ "NAV_UNUSED3", "d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba3055dd71ec523facb0cba2976316d530", null ],
+      [ "NAV_UNUSED4", "d6/de1/a00356.html#a8a4d0b36dd46d60b691b894fb8c1c5dba94351935a3c7389b4667144d53923d56", null ]
+    ] ]
 ];

@@ -1,6 +1,7 @@
 var a12066 =
 [
-    [ "boss_gehennasAI", "d5/d30/a12070.html", "d5/d30/a12070" ],
-    [ "boss_gehennas", "dd/d80/a12066.html#a380a24cbaad4e247c6c76fd63ac34f59", null ],
-    [ "GetAI", "dd/d80/a12066.html#a92f9ff0e957da5331b4a3ecc48be0ffa", null ]
+    [ "HandleHit", "dd/d80/a12066.html#a18f86449945ade16140ee934a7d8703e", null ],
+    [ "PrepareSpellScript", "dd/d80/a12066.html#abaf09043858db27b05fbe544d7a15a8f", null ],
+    [ "Register", "dd/d80/a12066.html#abe0733be2e32ff616c48acaeeb1d39e9", null ],
+    [ "Validate", "dd/d80/a12066.html#abc970a8b4a8f27f81f392cebf81dc574", null ]
 ];

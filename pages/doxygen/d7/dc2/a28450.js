@@ -1,7 +1,8 @@
 var a28450 =
 [
-    [ "asyncId", "d7/dc2/a28450.html#afd18849875b4562e4a532903676ce25d", null ],
-    [ "flags", "d7/dc2/a28450.html#a9b9c3cec4acbd87911aa047dd52ae443", null ],
-    [ "offsMCNK", "d7/dc2/a28450.html#a063c5dc62c44038e882340221bf8228a", null ],
-    [ "size", "d7/dc2/a28450.html#a47a5eeb595d53de009651ae02d2b416d", null ]
+    [ "ADT_file", "d7/dc2/a28450.html#ac7d3b65a1377d0c7358fe5e2d20dbe5e", null ],
+    [ "~ADT_file", "d7/dc2/a28450.html#a79fe542f34b0e7bf668e7e5ff94a7ded", null ],
+    [ "free", "d7/dc2/a28450.html#a8fc207b8cc83596577166a0008965dc6", null ],
+    [ "prepareLoadedData", "d7/dc2/a28450.html#ac9f498cb9c8e21a1947be87904e3760b", null ],
+    [ "a_grid", "d7/dc2/a28450.html#aad5263c4df4ab9d072f217ec8c19441c", null ]
 ];

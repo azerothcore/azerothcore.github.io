@@ -1,5 +1,9 @@
 var a28226 =
 [
-    [ "ID", "df/d25/a28226.html#a0272b3c1130508a2681035c91ee416e6", null ],
-    [ "SpellID", "df/d25/a28226.html#a231d22a763ddcd9f1fbdab81521dcf67", null ]
+    [ "Category", "df/d25/a28226.html#acd933f251a1faa1f705420307136681d", null ],
+    [ "Faction", "df/d25/a28226.html#a4876df0f9a92e10634b7bc0b389ade00", null ],
+    [ "Flags", "df/d25/a28226.html#a8b41ed573eae71196664a61bac83fe3e", null ],
+    [ "Id", "df/d25/a28226.html#ae0b89d5ae5f82b4f807a2f8dbbec351a", null ],
+    [ "Slot", "df/d25/a28226.html#a24449c3e3fd89ae3dbe4be3f64248115", null ],
+    [ "Type", "df/d25/a28226.html#aa1cbad19aaa973e21fdbd74cec5119f6", null ]
 ];

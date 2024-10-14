@@ -1,9 +1,5 @@
 var a18642 =
 [
-    [ "npc_icc_skybreaker_marksmanAI", "d1/d8a/a18642.html#af6d3e79627102acbf764aa7ee8c7433b", null ],
-    [ "AttackStart", "d1/d8a/a18642.html#a82403eecdea07bfc8ed9509eb5a30dcd", null ],
-    [ "JustEngagedWith", "d1/d8a/a18642.html#a7648c626ded6d3abef798b46c77f991d", null ],
-    [ "Reset", "d1/d8a/a18642.html#acaaac3624e262d89920fa8a7da9e3cc0", null ],
-    [ "UpdateAI", "d1/d8a/a18642.html#affcd7c16fe4a50a0743c0f9bb5a9d321", null ],
-    [ "events", "d1/d8a/a18642.html#a5aaffc1e78c255c95893be1537e520d6", null ]
+    [ "npc_icc_buff_switcher", "d1/d8a/a18642.html#aeabc3d97c88bf12177b824524af3ae1d", null ],
+    [ "OnGossipSelect", "d1/d8a/a18642.html#abb3310d3eb5cf4f1c2a0a3ac46ddd7ba", null ]
 ];

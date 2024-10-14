@@ -1,7 +1,5 @@
 var a23266 =
 [
-    [ "PeriodicTick", "d8/d23/a23266.html#a94bee50f214d0a61fa81c4cca1b38fb2", null ],
-    [ "PrepareAuraScript", "d8/d23/a23266.html#a2c34fbc5c12be43b1c054cf4b23542cb", null ],
-    [ "Register", "d8/d23/a23266.html#ae1479b53d8c0575947a7ce7cae4747c4", null ],
-    [ "Validate", "d8/d23/a23266.html#ade8d57db324f02734e1752f49976dc9d", null ]
+    [ "at_quagmirran_lair", "d8/d23/a23266.html#a1f8cb1f59e7a179d9e4a987f716ab26f", null ],
+    [ "OnTrigger", "d8/d23/a23266.html#aa0aab42516efaf842923b8a820942ac4", null ]
 ];

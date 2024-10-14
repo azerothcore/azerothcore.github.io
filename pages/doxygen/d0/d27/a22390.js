@@ -1,17 +1,13 @@
 var a22390 =
 [
-    [ "npc_overlord_drakuru_betrayalAI", "d0/d27/a22390.html#a52cda9357a3672871d2c52312cec7304", null ],
-    [ "DamageTaken", "d0/d27/a22390.html#a031c475bc9e3660f8efb01face303816", null ],
-    [ "EnterEvadeMode", "d0/d27/a22390.html#a3ab85c07b6cc186d37cef571bb9539c0", null ],
-    [ "JustEngagedWith", "d0/d27/a22390.html#a3e758268744c8f52410ebfa05f9d6635", null ],
-    [ "JustSummoned", "d0/d27/a22390.html#a34b76f7a4df8f28a8e80ffc406d60d98", null ],
-    [ "MoveInLineOfSight", "d0/d27/a22390.html#acf4ad45c1145c7b0cd6f05c847546005", null ],
-    [ "Reset", "d0/d27/a22390.html#ad154b8027917a1402840ced87aacac7d", null ],
-    [ "SpellHit", "d0/d27/a22390.html#a836f0886846ac3081a05800fffb0aa0b", null ],
-    [ "SpellHitTarget", "d0/d27/a22390.html#a58eb77bbfec0279908c3ed9a111c6cce", null ],
-    [ "UpdateAI", "d0/d27/a22390.html#aafcdcb353cdc6f19bebec63a31a0da6d", null ],
-    [ "events", "d0/d27/a22390.html#a305f08c7ee071bfe10a4be81715b60f2", null ],
-    [ "lichGUID", "d0/d27/a22390.html#a4cd410df9735a381800ec186572f2f74", null ],
-    [ "playerGUID", "d0/d27/a22390.html#a396917f16afc3bd03ade6c6822bd379e", null ],
-    [ "summons", "d0/d27/a22390.html#a8c2b70321771af8b668e5f76974f854b", null ]
+    [ "OPvPCapturePointEP_EWT", "d0/d27/a22390.html#a3740f069c46f9d3f0e11d97663bc0104", null ],
+    [ "ChangeState", "d0/d27/a22390.html#ac00c50b89e1218f87506778096a9d7cd", null ],
+    [ "FillInitialWorldStates", "d0/d27/a22390.html#ad051a1cc41632414eab071aef5cf2f99", null ],
+    [ "HandlePlayerEnter", "d0/d27/a22390.html#aed78ccf9ad517b4a94431e3355cba1dd", null ],
+    [ "HandlePlayerLeave", "d0/d27/a22390.html#a2638b24dca375420778845963e307db3", null ],
+    [ "SendChangePhase", "d0/d27/a22390.html#a6d45df918aea00e9cb85a8940cb5c1c9", null ],
+    [ "SummonSupportUnitAtNorthpassTower", "d0/d27/a22390.html#ad70a8cc485072cd9af892290584062d8", null ],
+    [ "UpdateTowerState", "d0/d27/a22390.html#ac0bcdfb9f2aeabc78b72c3cce674c479", null ],
+    [ "m_TowerState", "d0/d27/a22390.html#aa30e9cc01476eb20b188c7a13a405c3a", null ],
+    [ "m_UnitsSummonedSideId", "d0/d27/a22390.html#a0319f0d51624df44419976e7abd1b813", null ]
 ];

@@ -1,8 +1,6 @@
 var a25642 =
 [
-    [ "HandleDummy", "da/db5/a25642.html#ad303a5c1bbbab3766bd5e9ab753b2a01", null ],
-    [ "Load", "da/db5/a25642.html#a054d9083b24183f4427fc0cb4985ba62", null ],
-    [ "PrepareSpellScript", "da/db5/a25642.html#aa4904ed55b5e216e0af5e32508372d4e", null ],
-    [ "Register", "da/db5/a25642.html#a5679f34290f90dbcaf15f09eca0fb20f", null ],
-    [ "Validate", "da/db5/a25642.html#a0a01f5e290b91e58b4b0f8ba443eb7bf", null ]
+    [ "HandleProc", "da/db5/a25642.html#aa333d52d905e722554d8d61c4b9cb656", null ],
+    [ "PrepareAuraScript", "da/db5/a25642.html#aac4320b061d627e4ffef737d2e858ef3", null ],
+    [ "Register", "da/db5/a25642.html#ad58fea9afa6a3596437a324ec525982e", null ]
 ];

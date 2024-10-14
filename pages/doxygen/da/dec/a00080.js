@@ -1,5 +1,5 @@
 var a00080 =
 [
-    [ "Appender", "d7/d03/a05230.html", "d7/d03/a05230" ],
-    [ "InvalidAppenderArgsException", "d6/de6/a05234.html", "d6/de6/a05234" ]
+    [ "_CRT_SECURE_NO_DEPRECATE", "da/dec/a00080.html#a411c46599e926f8cdf49c63957255359", null ],
+    [ "MverMagic", "da/dec/a00080.html#a076cdc3e61f69e52913492840fc864cf", null ]
 ];

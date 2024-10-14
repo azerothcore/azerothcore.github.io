@@ -1,6 +1,6 @@
 var a24414 =
 [
-    [ "npc_pet_pri_shadowfiend", "d4/d76/a24414.html#ac35e3bcf59dc2d65a313e315516ea09b", null ],
-    [ "JustDied", "d4/d76/a24414.html#a6d50edf62bf4547117f3f7b5b520f71b", null ],
-    [ "Reset", "d4/d76/a24414.html#aeff1bada59ee80ae0166a82207729bad", null ]
+    [ "HandlePeriodic", "d4/d76/a24414.html#adc387a1b001119b95179856c030853ad", null ],
+    [ "PrepareAuraScript", "d4/d76/a24414.html#a64eb2c68651171f1cbda3aa98d58e68e", null ],
+    [ "Register", "d4/d76/a24414.html#a1234c3e7b32d5bed67c8e9c2afc1fdc5", null ]
 ];

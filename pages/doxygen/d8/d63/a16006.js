@@ -1,6 +1,6 @@
 var a16006 =
 [
-    [ "npc_living_infernoAI", "d3/d99/a16010.html", "d3/d99/a16010" ],
-    [ "npc_living_inferno", "d8/d63/a16006.html#a7df2bb522e67b6f1864604c7b0182078", null ],
-    [ "GetAI", "d8/d63/a16006.html#a53f0bbd0a502374664cfa54140f4b8c0", null ]
+    [ "npc_memoryAI", "d3/d99/a16010.html", "d3/d99/a16010" ],
+    [ "npc_memory", "d8/d63/a16006.html#acebf31813025d323f9486d6575a60483", null ],
+    [ "GetAI", "d8/d63/a16006.html#ad8e532d029217a06d11ae39810498976", null ]
 ];

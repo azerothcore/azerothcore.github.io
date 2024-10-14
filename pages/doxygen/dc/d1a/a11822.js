@@ -1,6 +1,7 @@
 var a11822 =
 [
-    [ "instance_blackrock_spireMapScript", "d0/d10/a11826.html", "d0/d10/a11826" ],
-    [ "instance_blackrock_spire", "dc/d1a/a11822.html#a3238be88efcdc9669e7e6a1d725649b3", null ],
-    [ "GetInstanceScript", "dc/d1a/a11822.html#a5ee2cc38a36ce2cd8c1196ce9f687e2a", null ]
+    [ "boss_warmastervooneAI", "dc/d1a/a11822.html#aa22519c8d3037cf07c275080b9bedcaf", null ],
+    [ "DamageTaken", "dc/d1a/a11822.html#adce28de25fa74557000d60188346e2d2", null ],
+    [ "ExecuteEvent", "dc/d1a/a11822.html#ac9dc6ef78503a87ea68d0e232b0376da", null ],
+    [ "JustEngagedWith", "dc/d1a/a11822.html#ac419c5118a45264e24e391f7575d90fb", null ]
 ];

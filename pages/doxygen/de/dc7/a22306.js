@@ -1,7 +1,5 @@
 var a22306 =
 [
-    [ "npc_wg_quest_giver", "de/dc7/a22306.html#a68589ab4ce9f43247154f3c66d8107b8", null ],
-    [ "GetDialogStatus", "de/dc7/a22306.html#acd5c1462fe51a350c80af4f3ab46bac8", null ],
-    [ "OnGossipHello", "de/dc7/a22306.html#ad08debc749cbaea6fad9b7bcfb5548e0", null ],
-    [ "OnGossipSelect", "de/dc7/a22306.html#a9d42e558d68eee9f0f96ac1f8cd1a409", null ]
+    [ "achievement_wg_vehicular_gnomeslaughter", "de/dc7/a22306.html#a441b8db113ef4843f433c1ea3f3052b5", null ],
+    [ "OnCheck", "de/dc7/a22306.html#ab23a2d90e536a3a9ecbb3b64c5b0e18f", null ]
 ];

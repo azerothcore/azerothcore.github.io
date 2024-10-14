@@ -1,17 +1,10 @@
 var a15906 =
 [
-    [ "boss_halionAI", "d5/d50/a15906.html#a24d41b904ec24029887869622fbce0eb", null ],
-    [ "AttackStart", "d5/d50/a15906.html#acad91c2b1e7e02f9662cc3342f272ae7", null ],
-    [ "CanAIAttack", "d5/d50/a15906.html#ad15cd8d44cd1779f45cacb38caa08fe2", null ],
-    [ "DamageTaken", "d5/d50/a15906.html#a911c636113639690bb6304e2f6d55499", null ],
-    [ "EnterEvadeMode", "d5/d50/a15906.html#a20e451a26914adcee83e5fb77155c59d", null ],
-    [ "IsAnyPlayerValid", "d5/d50/a15906.html#a6681f94156a46c75960038ed1ed80543", null ],
-    [ "JustDied", "d5/d50/a15906.html#a483fbaf88780d0714ffaa47bea00cc5f", null ],
-    [ "JustEngagedWith", "d5/d50/a15906.html#a16f121b5c7f3f924dc0c11adb53ff79a", null ],
-    [ "JustSummoned", "d5/d50/a15906.html#a4fdf03de55fdd35ff849a82704ce7a3c", null ],
-    [ "KilledUnit", "d5/d50/a15906.html#ac45ac7ceb0b761e90deeffcea364ceea", null ],
-    [ "Reset", "d5/d50/a15906.html#aa8c06f8a1642534efb14941d9c0d9f14", null ],
-    [ "UpdateAI", "d5/d50/a15906.html#abe0faa976bb1b14102b940fac9526e5b", null ],
-    [ "_events2", "d5/d50/a15906.html#a677448e015db869b718e15b6809586cc", null ],
-    [ "_livingEmberCount", "d5/d50/a15906.html#af6af6482467f3a08fbe1c65f3b2b1552", null ]
+    [ "spell_halion_damage_aoe_summon", "d5/d50/a15906.html#a6152e7a0515076af2c7c2155506257b0", null ],
+    [ "HandleSummon", "d5/d50/a15906.html#a47a810b94c515b7e48c9cc5f99c6bc23", null ],
+    [ "PrepareSpellScript", "d5/d50/a15906.html#ae05be3eca26724f57f3f4b37b723aa63", null ],
+    [ "Register", "d5/d50/a15906.html#aa1f9239a2910d53c85539abba6333893", null ],
+    [ "Validate", "d5/d50/a15906.html#acb359257b29354b5962d9865e06137e7", null ],
+    [ "_auraSpell", "d5/d50/a15906.html#a497a74eca703470964157639a6f372e2", null ],
+    [ "_explosionSpell", "d5/d50/a15906.html#ad1ad3a6f143bc84bad61070755752b2f", null ]
 ];

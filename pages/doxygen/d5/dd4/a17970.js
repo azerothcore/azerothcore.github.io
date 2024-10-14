@@ -1,6 +1,9 @@
 var a17970 =
 [
-    [ "npc_spinestalkerAI", "d5/d0e/a17974.html", "d5/d0e/a17974" ],
-    [ "npc_spinestalker", "d5/dd4/a17970.html#a477f951c79045d553901b1e6b6ad2d4f", null ],
-    [ "GetAI", "d5/dd4/a17970.html#a725f1b1db90d700772bfb76e0f85f1f3", null ]
+    [ "ShadowTrapLKTargetSelector", "d5/dd4/a17970.html#a33561775948e07ac6ade2037f237441d", null ],
+    [ "operator()", "d5/dd4/a17970.html#a3770329509c6ab2f16ae369ea8d72645", null ],
+    [ "_maxDist", "d5/dd4/a17970.html#a6ee78b1ca184a05d01aa053afe499a95", null ],
+    [ "_playerOnly", "d5/dd4/a17970.html#acfb3a657e430bc2ca26680bef6cf0159", null ],
+    [ "_reqLOS", "d5/dd4/a17970.html#a7911be23196f59d55028affc3be23c20", null ],
+    [ "_source", "d5/dd4/a17970.html#af416013aabf3b217b07228072076603d", null ]
 ];

@@ -1,11 +1,11 @@
 var a20450 =
 [
-    [ "npc_ulduar_expedition_engineerAI", "d1/d73/a20450.html#a48e29edad38f8ecbab54579203c93044", null ],
-    [ "Reset", "d1/d73/a20450.html#a8a68e3a58133913d0eb0bf9fd2532db2", null ],
-    [ "SetData", "d1/d73/a20450.html#a31db1ae61777b8f1a38d381e785ce158", null ],
-    [ "UpdateAI", "d1/d73/a20450.html#ab6d29aaae95038282fece78479448459", null ],
-    [ "fixingGUID", "d1/d73/a20450.html#ae0ba3ddbff054a948709e70f0bf9961a", null ],
-    [ "pInstance", "d1/d73/a20450.html#a6b858d46eda05493ec0cac22e174854c", null ],
-    [ "timer", "d1/d73/a20450.html#a926b343da3d3953d386b18f24bc72867", null ],
-    [ "working", "d1/d73/a20450.html#ab8e436472efd91f2d400c02c1b500746", null ]
+    [ "boss_thorim_sifAI", "d1/d73/a20450.html#af63f344d3a5650baaa9b96204abc39a9", null ],
+    [ "AttackStart", "d1/d73/a20450.html#ae9354f2e97c88cd1af86fae050e810d6", null ],
+    [ "DoAction", "d1/d73/a20450.html#a8aac66a64c5ca6491595c2b3b6cbbd95", null ],
+    [ "MoveInLineOfSight", "d1/d73/a20450.html#a3e7d07ca6fc8f4619173f3fd74d63ccb", null ],
+    [ "Reset", "d1/d73/a20450.html#ab30d73613bafac5b92021677d69b3aae", null ],
+    [ "UpdateAI", "d1/d73/a20450.html#a09ee3373177e84a5e4e51ebb48c68525", null ],
+    [ "_allowCast", "d1/d73/a20450.html#ade272764f09375d8e5fda937d42aad90", null ],
+    [ "events", "d1/d73/a20450.html#a8fd3c7073a250d054e3edc73d5867fbd", null ]
 ];

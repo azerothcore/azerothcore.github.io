@@ -1,7 +1,6 @@
 var a26630 =
 [
-    [ "HandleProc", "d6/ddc/a26630.html#a7e358f231f3ee72fcb95432a4705312a", null ],
-    [ "PrepareAuraScript", "d6/ddc/a26630.html#acda7b1b6e91a433b72c2a5dd0e165685", null ],
-    [ "Register", "d6/ddc/a26630.html#a33cd336a6ca68e66e6046cfdac776fee", null ],
-    [ "Validate", "d6/ddc/a26630.html#a5f2c7d754a37e6ae02d4aaec758841e5", null ]
+    [ "HandleSchoolDMG", "d6/ddc/a26630.html#a8f3ff0a48d5de4dcd33831400de0ba28", null ],
+    [ "PrepareSpellScript", "d6/ddc/a26630.html#a42bb397aa53fb43ba1b1799a7f162d9b", null ],
+    [ "Register", "d6/ddc/a26630.html#ac1271959fe8de3c11403b1e76acdbf15", null ]
 ];

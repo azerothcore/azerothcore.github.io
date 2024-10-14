@@ -1,11 +1,6 @@
 var a21922 =
 [
-    [ "npc_rocket_propelled_warheadAI", "d0/d18/a21922.html#aab27045dff817457d5858c48c174f3a2", null ],
-    [ "DoAction", "d0/d18/a21922.html#abfd9618bd029ae56d846cac9cf5b7e80", null ],
-    [ "FinishQuest", "d0/d18/a21922.html#a1ccb00801fbfc87cbe04f19dc15e4a10", null ],
-    [ "JustReachedHome", "d0/d18/a21922.html#a680f46b5d7c88bafc5d3af669e9886ef", null ],
-    [ "PassengerBoarded", "d0/d18/a21922.html#aba8121b207be2c7be161d9ea0c903d6e", null ],
-    [ "SpellHit", "d0/d18/a21922.html#ae347c0817e145ec333bd5b1c87dd01ef", null ],
-    [ "_faction", "d0/d18/a21922.html#a423bead0525222a132e22531f640c461", null ],
-    [ "_finished", "d0/d18/a21922.html#ad676c377ea08cbb33f1ff226f864849c", null ]
+    [ "npc_plaguehound_trackerAI", "d0/d18/a21922.html#a7530f500b42ad9bb38593193d3113da8", null ],
+    [ "Reset", "d0/d18/a21922.html#a05c351ab3aca0cd18209405075bb0f47", null ],
+    [ "WaypointReached", "d0/d18/a21922.html#a67c345f49572cde76d9109a1baff6788", null ]
 ];

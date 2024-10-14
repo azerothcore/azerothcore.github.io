@@ -1,6 +1,7 @@
 var a21938 =
 [
-    [ "HandleOnEffectRemove", "d7/d10/a21938.html#a5aeae7d8fc2fb8c8a1ce446ba1887c51", null ],
-    [ "PrepareAuraScript", "d7/d10/a21938.html#af415e4d7ea0b4b881af94eb7ea0c3f4c", null ],
-    [ "Register", "d7/d10/a21938.html#a242faa8822f9cdb7762d8ec3b6245b30", null ]
+    [ "npc_battle_at_valhalasAI", "d4/d76/a21942.html", "d4/d76/a21942" ],
+    [ "npc_battle_at_valhalas", "d7/d10/a21938.html#aacec717b5b91ae55307c9642779c15ec", null ],
+    [ "GetAI", "d7/d10/a21938.html#a3660ba847b3b40c2d358d63c63517a5e", null ],
+    [ "OnQuestAccept", "d7/d10/a21938.html#addd76fd9f4b4f8ce706693614b80966b", null ]
 ];

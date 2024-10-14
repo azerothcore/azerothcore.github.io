@@ -1,10 +1,6 @@
 var a00188 =
 [
-    [ "VMAP::ModelSpawn", "df/d92/a04962.html", "df/d92/a04962" ],
-    [ "VMAP::ModelInstance", "d6/d5a/a04966.html", "d6/d5a/a04966" ],
-    [ "ModelFlags", "da/d15/a00188.html#ac540ff16efadcc07eeb9d8511b94ccce", [
-      [ "MOD_M2", "da/d15/a00188.html#ac540ff16efadcc07eeb9d8511b94ccceadfad2b6f6278e720b00314cd5117b673", null ],
-      [ "MOD_WORLDSPAWN", "da/d15/a00188.html#ac540ff16efadcc07eeb9d8511b94cccea3a6165ebc7b838e28ef59670dc84dc46", null ],
-      [ "MOD_HAS_BOUND", "da/d15/a00188.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09", null ]
-    ] ]
+    [ "Acore::Impl::GenericHMAC< HashCreator, DigestLength >", "db/df6/a05082.html", "db/df6/a05082" ],
+    [ "HMAC_SHA1", "da/d15/a00188.html#a5186a2a02e2301ec3ea7b37d8b41097f", null ],
+    [ "HMAC_SHA256", "da/d15/a00188.html#a80d906d20826d6c963f50eba5f7c4c2a", null ]
 ];

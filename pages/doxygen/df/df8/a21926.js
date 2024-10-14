@@ -1,7 +1,6 @@
 var a21926 =
 [
-    [ "HandleDummy", "df/df8/a21926.html#abb5726c8afa66a946eefc8767094ea9b", null ],
-    [ "PrepareSpellScript", "df/df8/a21926.html#ab5d9f8125c75bbd8fbb2717516d3eddd", null ],
-    [ "Register", "df/df8/a21926.html#a38efc59fcbb40469521419723a1dceb3", null ],
-    [ "Validate", "df/df8/a21926.html#a93cf1b5dbc23bb25c4fe8aa24da0fd2e", null ]
+    [ "npc_razael_and_lyana", "df/df8/a21926.html#aec7257a1136a3580e2b4542e032429d6", null ],
+    [ "OnGossipHello", "df/df8/a21926.html#a9c9085db92853d5275c12e804a68b0fc", null ],
+    [ "OnGossipSelect", "df/df8/a21926.html#a407d8344280e8e38efb3991fda1d52cd", null ]
 ];

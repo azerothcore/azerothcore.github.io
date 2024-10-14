@@ -1,11 +1,7 @@
 var a26498 =
 [
-    [ "AddTarget", "df/d55/a26498.html#a18875ef707271a77c0c5867fa8de7ff7", null ],
-    [ "HandleApply", "df/d55/a26498.html#afad10ab0f64e688a18ed749c294a2fbe", null ],
-    [ "HandleEffectPeriodic", "df/d55/a26498.html#a339b71689056a61e4eebf77f1abcb3dd", null ],
-    [ "HandleRemove", "df/d55/a26498.html#a1bd9806323ad6b26a0c1fb8773596c98", null ],
-    [ "PrepareAuraScript", "df/d55/a26498.html#abd535f756fae06c9fae613d69ef4e353", null ],
-    [ "Register", "df/d55/a26498.html#a0f41f9287f5eb5046e6679d22c65416a", null ],
-    [ "Validate", "df/d55/a26498.html#a47351141df5e5e15a2d454cc653a9cf5", null ],
-    [ "_targets", "df/d55/a26498.html#ad2467bc150cb08766c57cca23d4d9843", null ]
+    [ "HandleEffect", "df/d55/a26498.html#ab33c9312c9ac4096140a82f381d83235", null ],
+    [ "PrepareSpellScript", "df/d55/a26498.html#a6117d7b2720f719d801b5f6e0e719f5f", null ],
+    [ "Register", "df/d55/a26498.html#a1f5983124756eca5666ca6adbe5a4544", null ],
+    [ "Validate", "df/d55/a26498.html#a08f7e508b50fc44ced0b7ff04e22b333", null ]
 ];

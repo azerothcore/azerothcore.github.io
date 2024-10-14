@@ -1,10 +1,6 @@
 var a19114 =
 [
-    [ "npc_scion_of_eternityAI", "d9/d93/a19114.html#a2893db70b6a1ffa14d02dd5cea7f7c0a", null ],
-    [ "AttackStart", "d9/d93/a19114.html#a1335f9e34ff73d5501455062be025ada", null ],
-    [ "JustDied", "d9/d93/a19114.html#a81dcae5ef2bbd28b891e46c377fbe153", null ],
-    [ "MoveInLineOfSight", "d9/d93/a19114.html#a74a69fa532f0921285ef678bbd2fa761", null ],
-    [ "UpdateAI", "d9/d93/a19114.html#adb16afb6ea1583a7156b80a8d833951a", null ],
-    [ "events", "d9/d93/a19114.html#ae0e194a24a14033a499e68524da1699d", null ],
-    [ "pInstance", "d9/d93/a19114.html#aa828ca4a75696645d7aa350f1f981f40", null ]
+    [ "boss_anomalusAI", "d5/df3/a19118.html", "d5/df3/a19118" ],
+    [ "boss_anomalus", "d9/d93/a19114.html#a0dc3f8d5e272327596a8c7b34ffbe434", null ],
+    [ "GetAI", "d9/d93/a19114.html#ae0a4a5047646a75fa492bf3d0383b127", null ]
 ];

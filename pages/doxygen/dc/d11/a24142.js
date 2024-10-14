@@ -1,5 +1,6 @@
 var a24142 =
 [
-    [ "npc_karynaku", "dc/d11/a24142.html#aa6a3cb409cdbc990f1eee4137c7519d2", null ],
-    [ "OnQuestAccept", "dc/d11/a24142.html#a4cae1950fe3b7b4ae6f2e6691800ec47", null ]
+    [ "npc_enraged_spiritAI", "da/df2/a24146.html", "da/df2/a24146" ],
+    [ "npc_enraged_spirit", "dc/d11/a24142.html#a17d9e2e5fb8f2795fdeff26567bbf85f", null ],
+    [ "GetAI", "dc/d11/a24142.html#aa10d5f0147cf4064a49df735ac95575e", null ]
 ];

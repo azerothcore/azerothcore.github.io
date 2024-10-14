@@ -1,6 +1,6 @@
 var a20614 =
 [
-    [ "npc_xt002_scrapbotAI", "d6/d75/a20618.html", "d6/d75/a20618" ],
-    [ "npc_xt002_scrapbot", "de/de7/a20614.html#accfd75266d058af3856bdb625728c18d", null ],
-    [ "GetAI", "de/de7/a20614.html#aa3639c32c94f0e031ba774e4eed659cd", null ]
+    [ "PrepareSpellScript", "de/de7/a20614.html#ac84dedbb3343c15e32ae3c57d80a4561", null ],
+    [ "Register", "de/de7/a20614.html#a27c5665b64c50df5d9c67d5136ab7567", null ],
+    [ "SelectTarget", "de/de7/a20614.html#a0f9c85168ad0c0fda61f4bb1e97bd518", null ]
 ];

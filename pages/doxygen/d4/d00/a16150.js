@@ -1,6 +1,6 @@
 var a16150 =
 [
-    [ "HideNpcEvent", "d4/d00/a16150.html#ab454295aab0f5d4586740140232e96eb", null ],
-    [ "Execute", "d4/d00/a16150.html#aecfbbbcac3fd98675913a6381c891a59", null ],
-    [ "_owner", "d4/d00/a16150.html#ac5481c94e180900f0a455dc1f1f9851c", null ]
+    [ "spell_gen_leeching_swarm_AuraScript", "d8/df3/a16154.html", "d8/df3/a16154" ],
+    [ "spell_gen_leeching_swarm", "d4/d00/a16150.html#a13eb1c202d4f253e9866f462e5c59ac1", null ],
+    [ "GetAuraScript", "d4/d00/a16150.html#a2c47410d2b61739f6f01ac8b2d2a0c9c", null ]
 ];

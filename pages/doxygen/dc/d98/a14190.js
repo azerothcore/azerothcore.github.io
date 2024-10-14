@@ -1,6 +1,5 @@
 var a14190 =
 [
-    [ "HandleDummy", "dc/d98/a14190.html#a7e6ecd28a6b1f161619e179bc386388e", null ],
-    [ "PrepareSpellScript", "dc/d98/a14190.html#a87a787c6ab3804847c90266f570381c6", null ],
-    [ "Register", "dc/d98/a14190.html#ad5c7ab8f3bb74882eed42c6e0868ab70", null ]
+    [ "go_loosely_turned_soilAI", "dc/d98/a14190.html#a603641bc52d26521d64afaaeed3abc4d", null ],
+    [ "CanBeSeen", "dc/d98/a14190.html#a424b51b08d17ceb04b015cd535256889", null ]
 ];

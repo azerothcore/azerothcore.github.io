@@ -1,16 +1,6 @@
 var a24130 =
 [
-    [ "npc_dragonmaw_peonAI", "de/dc3/a24130.html#a6f1255fead5357001ec85fdaa6980249", null ],
-    [ "CreditPlayer", "de/dc3/a24130.html#a5cf28e156cab2e2066bb94bc99233a2b", null ],
-    [ "JustEngagedWith", "de/dc3/a24130.html#abd5b37793aa2fb150c808b7dc7270763", null ],
-    [ "MovementInform", "de/dc3/a24130.html#a0ee4038f90d54c75c48b2448dacb5724", null ],
-    [ "Reset", "de/dc3/a24130.html#a9d876ec76b51f743c71e67749c21d939", null ],
-    [ "SpellHit", "de/dc3/a24130.html#abe5162608ba0acd7360a630562ff5935", null ],
-    [ "UpdateAI", "de/dc3/a24130.html#a98a045606d9e689ef25a5068b81b1ebf", null ],
-    [ "events", "de/dc3/a24130.html#a7d6fb37d1953630aa79f8665eca0db61", null ],
-    [ "PlayerGUID", "de/dc3/a24130.html#ad6838d98e34a32cbed42c77cdf096070", null ],
-    [ "Tapped", "de/dc3/a24130.html#ae393f8d3cb47f38a4c4314a262826d03", null ],
-    [ "x", "de/dc3/a24130.html#acebbfa8da88d8d683ba5ea6463f6b5f7", null ],
-    [ "y", "de/dc3/a24130.html#ae5a1d416c712803ec0b80ae7ccf29e2d", null ],
-    [ "z", "de/dc3/a24130.html#a7722420716c030b5abe7b760199df14d", null ]
+    [ "npc_illidari_spawnAI", "de/d76/a24134.html", "de/d76/a24134" ],
+    [ "npc_illidari_spawn", "de/dc3/a24130.html#ac8dbb30fe7f40d29a3434c8a888ace60", null ],
+    [ "GetAI", "de/dc3/a24130.html#a7198f506b0d4fd55d22fc72a90f42a09", null ]
 ];

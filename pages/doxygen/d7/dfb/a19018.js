@@ -1,6 +1,7 @@
 var a19018 =
 [
-    [ "FilterTargets", "d7/dfb/a19018.html#a4d5340e7b2e3326ff36b4d61d1faeaa9", null ],
-    [ "PrepareSpellScript", "d7/dfb/a19018.html#a452937a4e95b40366f915213ec475a84", null ],
-    [ "Register", "d7/dfb/a19018.html#a883e383928a9b0ad0aeccf7afee4f15e", null ]
+    [ "boss_naxxramas_miscAI", "d7/dfb/a19018.html#affd990236c101d91b31f60eea7135cdf", null ],
+    [ "JustDied", "d7/dfb/a19018.html#aae92d4b538907ef829f5f534f16feef1", null ],
+    [ "UpdateAI", "d7/dfb/a19018.html#a02fabc7b8669f3e9358a623b4cf0e84c", null ],
+    [ "timer", "d7/dfb/a19018.html#a39af06c7bc635bf85eebf4ed40798006", null ]
 ];

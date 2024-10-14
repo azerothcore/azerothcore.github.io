@@ -1,6 +1,6 @@
 var a13938 =
 [
-    [ "boss_renatakiAI", "d4/d2c/a13942.html", "d4/d2c/a13942" ],
-    [ "boss_renataki", "dd/df2/a13938.html#a8504ed2df8c8f8a85fc9d0e99cc24ec6", null ],
-    [ "GetAI", "dd/df2/a13938.html#a386b7ef3d1fc4070eb300cf4fdaa4d9a", null ]
+    [ "npc_brewfest_keg_reciver", "dd/df2/a13938.html#af12e7608f3f715650e6c265ac18920e4", null ],
+    [ "MoveInLineOfSight", "dd/df2/a13938.html#ae719a770598c6347d4ee6b9e77d30eae", null ],
+    [ "sGossipSelect", "dd/df2/a13938.html#ad56ba9921e94cbd4ba1d6c1ddd1efe24", null ]
 ];

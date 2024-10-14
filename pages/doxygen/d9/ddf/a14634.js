@@ -1,8 +1,8 @@
 var a14634 =
 [
-    [ "npc_thrall_old_hillsbradAI", "db/d23/a14638.html", "db/d23/a14638" ],
-    [ "npc_thrall_old_hillsbrad", "d9/ddf/a14634.html#a3e6fa750b095af3beac806a619e18328", null ],
-    [ "GetAI", "d9/ddf/a14634.html#a7b7baeb3e2e33dcb4ffb0af5d1f5930c", null ],
-    [ "OnGossipHello", "d9/ddf/a14634.html#a9b3f622ab9c0dc06011cb36cd084f2e7", null ],
-    [ "OnGossipSelect", "d9/ddf/a14634.html#a17fcb00850503903f430506654e035c0", null ]
+    [ "Load", "d9/ddf/a14634.html#a59e8723d8b73f45075db47e1e09e15fb", null ],
+    [ "PeriodicTick", "d9/ddf/a14634.html#ae4761ac3bce02903a7266511d80503f9", null ],
+    [ "PrepareAuraScript", "d9/ddf/a14634.html#a7bacc1ebd4b98e5e43b74e13471b2063", null ],
+    [ "Register", "d9/ddf/a14634.html#acc4db638e0d858085dc3fb2d6b45f7ec", null ],
+    [ "_ticks", "d9/ddf/a14634.html#ab858e9f6505fa32cc7325087d29fee8b", null ]
 ];

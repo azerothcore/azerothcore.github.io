@@ -1,6 +1,6 @@
 var a16454 =
 [
-    [ "boss_fjolaAI", "d5/d84/a16458.html", "d5/d84/a16458" ],
-    [ "boss_fjola", "d5/d4d/a16454.html#a44baccf91ab8c8bc5d5a9d0aa8ef943f", null ],
-    [ "GetAI", "d5/d4d/a16454.html#a96d9ea0716199758b60ad933ade28de4", null ]
+    [ "npc_announcer_toc10", "d5/d4d/a16454.html#ae495b19328c6a743dfd8f1cbf37a0bd6", null ],
+    [ "OnGossipHello", "d5/d4d/a16454.html#afcc5262e7c49b7456af146de14805a06", null ],
+    [ "OnGossipSelect", "d5/d4d/a16454.html#a9a2bf1d3a215332744ca473041cc0520", null ]
 ];

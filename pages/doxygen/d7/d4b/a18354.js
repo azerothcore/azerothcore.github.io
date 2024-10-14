@@ -1,6 +1,6 @@
 var a18354 =
 [
-    [ "npc_valithria_cloudAI", "d4/d91/a18358.html", "d4/d91/a18358" ],
-    [ "npc_valithria_cloud", "d7/d4b/a18354.html#a11d1bdc4c6e8210e2d0706f33d369dde", null ],
-    [ "GetAI", "d7/d4b/a18354.html#afeff905cec1245dbac6fa59673aef015", null ]
+    [ "PeriodicTick", "d7/d4b/a18354.html#ac0b2cf06027c2f658745d6a90dfc76a1", null ],
+    [ "PrepareAuraScript", "d7/d4b/a18354.html#a0767ac60151517b803e871a0fcb25967", null ],
+    [ "Register", "d7/d4b/a18354.html#afd1e28b224035aef5ac109f38d7e118d", null ]
 ];

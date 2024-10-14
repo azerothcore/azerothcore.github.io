@@ -1,15 +1,29 @@
 var a03374 =
 [
-    [ "boss_hydromancer_thespia", "df/da3/a23314.html", "df/da3/a23314" ],
-    [ "HydromancerThespia", "d4/d6f/a03374.html#a3f4b673ff8add0ad1c96080f6252130d", [
-      [ "SAY_SUMMON", "d4/d6f/a03374.html#a3f4b673ff8add0ad1c96080f6252130dacebbfa1f13b8de4f039f5d550063c7bf", null ],
-      [ "SAY_AGGRO", "d4/d6f/a03374.html#a3f4b673ff8add0ad1c96080f6252130da47c752fff069f3e55065795eef2a9bfe", null ],
-      [ "SAY_SLAY", "d4/d6f/a03374.html#a3f4b673ff8add0ad1c96080f6252130da9e64f6e600dd42567d18006912811f75", null ],
-      [ "SAY_DEAD", "d4/d6f/a03374.html#a3f4b673ff8add0ad1c96080f6252130dafeeb59e6533ea7f2f818422052e0b671", null ],
-      [ "SAY_SPELL", "d4/d6f/a03374.html#a3f4b673ff8add0ad1c96080f6252130dad25383e2c00eeae2e4b15e33298d79a2", null ],
-      [ "SPELL_LIGHTNING_CLOUD", "d4/d6f/a03374.html#a3f4b673ff8add0ad1c96080f6252130dae91e1d3d8c305d3f37313774206628f2", null ],
-      [ "SPELL_LUNG_BURST", "d4/d6f/a03374.html#a3f4b673ff8add0ad1c96080f6252130da56e2d21d9894c6b11ae15da9572894c6", null ],
-      [ "SPELL_ENVELOPING_WINDS", "d4/d6f/a03374.html#a3f4b673ff8add0ad1c96080f6252130dacf98b779c795324d47e44b043eeacf92", null ]
+    [ "MAX_ACCOUNT_STR", "d4/d6f/a03374.html#a134ebf22666a6525929447b2d869d400", null ],
+    [ "MAX_EMAIL_STR", "d4/d6f/a03374.html#ad64d9bd18bac10ab1af09b042d734c64", null ],
+    [ "MAX_PASS_STR", "d4/d6f/a03374.html#a45827712253b6d66092106cef5ae724b", null ],
+    [ "AccountOpResult", "d4/d6f/a03374.html#a0161874ada0cecbbd1fd5d31da73703e", [
+      [ "AOR_OK", "d4/d6f/a03374.html#a0161874ada0cecbbd1fd5d31da73703ea73449863bb0d97def55bd65307e97f18", null ],
+      [ "AOR_NAME_TOO_LONG", "d4/d6f/a03374.html#a0161874ada0cecbbd1fd5d31da73703eaec4fb519d9e6032adc269ca4a27c38f4", null ],
+      [ "AOR_PASS_TOO_LONG", "d4/d6f/a03374.html#a0161874ada0cecbbd1fd5d31da73703eaed91b79b9e639b8f988c5f06fcfd901c", null ],
+      [ "AOR_EMAIL_TOO_LONG", "d4/d6f/a03374.html#a0161874ada0cecbbd1fd5d31da73703eaaf639a81cbf8cf6bd685e34d73e895a1", null ],
+      [ "AOR_NAME_ALREADY_EXIST", "d4/d6f/a03374.html#a0161874ada0cecbbd1fd5d31da73703eae0b6297de7a7e8b516f5fc98a4d8750c", null ],
+      [ "AOR_NAME_NOT_EXIST", "d4/d6f/a03374.html#a0161874ada0cecbbd1fd5d31da73703ea05e659ba76ce9dd582551a24f2923b24", null ],
+      [ "AOR_DB_INTERNAL_ERROR", "d4/d6f/a03374.html#a0161874ada0cecbbd1fd5d31da73703ea368516df3522ada12ce8a39c789a687d", null ]
     ] ],
-    [ "AddSC_boss_hydromancer_thespia", "d4/d6f/a03374.html#a0a9bb9014bd5526d13141dcef207c234", null ]
+    [ "ChangeEmail", "d4/d6f/a03374.html#a2a6c83e2d4e6121855beb252f23c905b", null ],
+    [ "ChangePassword", "d4/d6f/a03374.html#a6a9cb892c15d78b5de65738005234ff6", null ],
+    [ "ChangeUsername", "d4/d6f/a03374.html#a3382c6430bfbf14e32ca11b5ac68fc23", null ],
+    [ "CheckPassword", "d4/d6f/a03374.html#a17c28dfcb31af8f4241bb5210408185a", null ],
+    [ "CreateAccount", "d4/d6f/a03374.html#a7a7668ab60ae56c7e71fce77780bb214", null ],
+    [ "DeleteAccount", "d4/d6f/a03374.html#a120323b16b2a5aefa6aa69e8be5ccef6", null ],
+    [ "GetCharactersCount", "d4/d6f/a03374.html#a4fb760897161c3d463f842b28bcf7c20", null ],
+    [ "GetId", "d4/d6f/a03374.html#aa215c9a96c37b8a5d76d980ecf8de114", null ],
+    [ "GetName", "d4/d6f/a03374.html#af911e3860ec519c541d6df35468ee41b", null ],
+    [ "GetSecurity", "d4/d6f/a03374.html#a8280510b2564ec6ea76727218c1687b3", null ],
+    [ "GetSecurity", "d4/d6f/a03374.html#a30b6e5cf1733f0143f86aaeff600215c", null ],
+    [ "IsAdminAccount", "d4/d6f/a03374.html#adb1b210137b09011677c74011addeefa", null ],
+    [ "IsConsoleAccount", "d4/d6f/a03374.html#a81bbc2af33211a3130c6aa215f5607b7", null ],
+    [ "IsPlayerAccount", "d4/d6f/a03374.html#a63751f144cb7acb57fc20f0caf5e7043", null ]
 ];

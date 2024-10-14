@@ -1,6 +1,7 @@
 var a24598 =
 [
-    [ "CheckTargets", "dd/dd7/a24598.html#abb6ffb41731b05b868f82498b373d8b9", null ],
-    [ "PrepareSpellScript", "dd/dd7/a24598.html#a4ce2790448bd39c19daf8caae7ef5a9d", null ],
-    [ "Register", "dd/dd7/a24598.html#aeefc7910c2960dbf3a49da6ed3c15523", null ]
+    [ "CalculateAmount", "dd/dd7/a24598.html#af51a8e22ddfe0648f08a4190d730fbda", null ],
+    [ "CheckProc", "dd/dd7/a24598.html#a2f80dcd9e5922af55dee096c95079062", null ],
+    [ "PrepareAuraScript", "dd/dd7/a24598.html#af54ef254d0897140255960146507e986", null ],
+    [ "Register", "dd/dd7/a24598.html#ad6e4bd4390f6f88494984af792a11b90", null ]
 ];

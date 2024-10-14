@@ -1,8 +1,6 @@
 var a26150 =
 [
-    [ "CalculateAmount", "de/d75/a26150.html#aa1810db9a7b8fbc3572621ff35e0eeb1", null ],
-    [ "PrepareAuraScript", "de/d75/a26150.html#ad40d44271840b8e2bd1dc22b6a04290e", null ],
-    [ "ReflectDamage", "de/d75/a26150.html#ad8b5f9a7952fc33d7e1fee28e4872212", null ],
-    [ "Register", "de/d75/a26150.html#a18b19ee8823e2d1747caeefaf457ad8d", null ],
-    [ "Validate", "de/d75/a26150.html#af2936ba4a29fc8735a3cabe805c77355", null ]
+    [ "HandleFinish", "de/d75/a26150.html#a53263ce51581f36c2df80b49c93fa9d3", null ],
+    [ "PrepareSpellScript", "de/d75/a26150.html#a8113f61816473399f0ceab18b104d058", null ],
+    [ "Register", "de/d75/a26150.html#a36bf50cdb7be7ba03eafd4848c6ceced", null ]
 ];

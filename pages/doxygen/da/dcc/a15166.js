@@ -1,8 +1,6 @@
 var a15166 =
 [
-    [ "npc_death_ravagerAI", "da/dcc/a15166.html#ad18242b078db0883029537562a41cc20", null ],
-    [ "Reset", "da/dcc/a15166.html#ac0fdbfe2f324785569fa742e0b244b83", null ],
-    [ "UpdateAI", "da/dcc/a15166.html#ac3dce7d79e67f20d7a8fe161da9d5279", null ],
-    [ "EnragingBiteTimer", "da/dcc/a15166.html#af33898ebd9bea6b1a58b673373de3c64", null ],
-    [ "RendTimer", "da/dcc/a15166.html#ad7ff02fe6e11a0fb0d8a3ae869ed5f6d", null ]
+    [ "npc_rabid_thistle_bearAI", "dc/df8/a15170.html", "dc/df8/a15170" ],
+    [ "npc_rabid_thistle_bear", "da/dcc/a15166.html#a34b20a4ea22d74352712dee105247d56", null ],
+    [ "GetAI", "da/dcc/a15166.html#ab5c21cd3afa0bd13c937e6acf1912af4", null ]
 ];

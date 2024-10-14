@@ -1,12 +1,8 @@
 var a22550 =
 [
-    [ "boss_exarch_maladaar", "d6/d1a/a22550.html#a5dac68e3dc6fc37736bf85b84eadd417", null ],
-    [ "JustDied", "d6/d1a/a22550.html#ab1179a19af8948d430559db4074c41ed", null ],
-    [ "JustEngagedWith", "d6/d1a/a22550.html#a69427e7a0ca70253ad8035b5e6b1e01e", null ],
-    [ "JustSummoned", "d6/d1a/a22550.html#a8f59e1b093af8c85da8c2fd38e01ca1b", null ],
-    [ "KilledUnit", "d6/d1a/a22550.html#adf35cb8b039676500d4040baa08b0d48", null ],
-    [ "MoveInLineOfSight", "d6/d1a/a22550.html#a14baacd30b9186c7492c981313421d5b", null ],
-    [ "Reset", "d6/d1a/a22550.html#accb21d3c4a6856d2de9641cf84c42ce9", null ],
-    [ "UpdateAI", "d6/d1a/a22550.html#a7646c4477135d3d3b8580432902babd4", null ],
-    [ "_talked", "d6/d1a/a22550.html#a15c4f122529b9f52823ea407c43433c5", null ]
+    [ "npc_anzu_spirit", "d6/d1a/a22550.html#adb1b66d6bf6ec1991465f85a504397d5", null ],
+    [ "IsSummonedBy", "d6/d1a/a22550.html#a26f0928593f75d242c8bbcc541f7b59b", null ],
+    [ "Reset", "d6/d1a/a22550.html#acef3f7093f93b6c227d145523cdc487a", null ],
+    [ "UpdateAI", "d6/d1a/a22550.html#a9866d91ffc04548a96cfcdc3a5c7496a", null ],
+    [ "_scheduler", "d6/d1a/a22550.html#ad14937df9ddddabcf96e2d1104ca153c", null ]
 ];

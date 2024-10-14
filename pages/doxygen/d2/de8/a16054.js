@@ -1,17 +1,11 @@
 var a16054 =
 [
-    [ "boss_paletressAI", "d2/de8/a16054.html#a3bd22d082434895c4779b121f926a8c4", null ],
-    [ "DamageTaken", "d2/de8/a16054.html#a54af3ec8de6d0fdb17ae0499645a02bd", null ],
-    [ "DoAction", "d2/de8/a16054.html#a30babeb3c9644af4e9c6cbc879317299", null ],
-    [ "JustEngagedWith", "d2/de8/a16054.html#ab8e8485765502d39cb4311d92ac98441", null ],
-    [ "JustSummoned", "d2/de8/a16054.html#a82df372b8216703b8377ff334aa64684", null ],
-    [ "KilledUnit", "d2/de8/a16054.html#af9aa74ec5a3c88475734f864ec307563", null ],
-    [ "MovementInform", "d2/de8/a16054.html#a0ececc88bc520584d1c7baf8d7a5e7f6", null ],
-    [ "Reset", "d2/de8/a16054.html#af216c7ce539b5e8ce80223270f202603", null ],
-    [ "SummonMemory", "d2/de8/a16054.html#ae9daef57101d1ab25e9c6fb6980b05ff", null ],
-    [ "UpdateAI", "d2/de8/a16054.html#a6f8c8d20fbfff32d34cd30f9c3a757a6", null ],
-    [ "events", "d2/de8/a16054.html#a4b19d38e2a84097c7c47c434d66be052", null ],
-    [ "MemoryGUID", "d2/de8/a16054.html#a5b2d80b38623174b7913ed4d893f03c9", null ],
-    [ "pInstance", "d2/de8/a16054.html#a9ef97ec685e516e80b792fa1d7e891c1", null ],
-    [ "summoned", "d2/de8/a16054.html#a6064594bc0e9bd008b76d498f4cdc36c", null ]
+    [ "npc_black_knight_ghoulAI", "d2/de8/a16054.html#a6e108052a7f9911dcd1b0ed13b2b8a0f", null ],
+    [ "JustEngagedWith", "d2/de8/a16054.html#a8353dea0de91017223c7624a5a96ebec", null ],
+    [ "Reset", "d2/de8/a16054.html#a8a33efa0719063a9565bc07143f8ad83", null ],
+    [ "SpellHit", "d2/de8/a16054.html#aa1b1fbb1a4633831774c7a7dd5cbb546", null ],
+    [ "SpellHitTarget", "d2/de8/a16054.html#a5f106a3b0edf353769db9021b9ca770d", null ],
+    [ "UpdateAI", "d2/de8/a16054.html#a6ccdb6a59b93999c01d434bcda593f25", null ],
+    [ "events", "d2/de8/a16054.html#acb56826a164e4d7da0a2f04c1efaf72b", null ],
+    [ "pInstance", "d2/de8/a16054.html#a35b8375f1b3407f5cee653ee118e0697", null ]
 ];

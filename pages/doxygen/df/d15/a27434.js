@@ -1,12 +1,9 @@
 var a27434 =
 [
-    [ "npc_elder_clearwaterAI", "df/d15/a27434.html#a4de89cf4a18918d577be4ac5cc55ba5a", null ],
-    [ "DoAction", "df/d15/a27434.html#ac46b0f66be3074f73f5a69cffee6d354", null ],
-    [ "GetData", "df/d15/a27434.html#a077c02bf06b16439225a5cf8d83babf2", null ],
-    [ "UpdateAI", "df/d15/a27434.html#afbec3c78d34ce4d11a11b56064f343f3", null ],
-    [ "events", "df/d15/a27434.html#a267fec22dc3d7272cae74267d0567618", null ],
-    [ "finished", "df/d15/a27434.html#af51d6abb8fc8b59d068156a4859a377e", null ],
-    [ "finishWarning", "df/d15/a27434.html#a83a2b8e6ceed45d4e6b834e13a4a4cdc", null ],
-    [ "preWarning", "df/d15/a27434.html#a64abe15565c7e97a3a0ef195d436fedc", null ],
-    [ "startWarning", "df/d15/a27434.html#a01545211dec4338ac44304ebc7f18a97", null ]
+    [ "npc_chicken_cluckAI", "df/d15/a27434.html#a4f2eaa107e2a8b4900fac54780ac9693", null ],
+    [ "JustEngagedWith", "df/d15/a27434.html#a854eae196c68cb1e4dd1c1773870ef9a", null ],
+    [ "ReceiveEmote", "df/d15/a27434.html#aa5d6d3ea3ad4d0f81781581a39933fc8", null ],
+    [ "Reset", "df/d15/a27434.html#a5a32f458a7f09282e7ac53fa7d6255b4", null ],
+    [ "UpdateAI", "df/d15/a27434.html#a86c8f74d0a55b9a041a789f16de8189d", null ],
+    [ "ResetFlagTimer", "df/d15/a27434.html#a0d0507ae7a1eca369df288515856e1b5", null ]
 ];

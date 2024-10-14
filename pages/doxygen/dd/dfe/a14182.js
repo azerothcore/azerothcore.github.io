@@ -1,9 +1,10 @@
 var a14182 =
 [
-    [ "spell_hallows_end_put_costume", "dd/dfe/a14182.html#ac1fcd0a32142744f353cdc01bce740e3", null ],
-    [ "HandleScript", "dd/dfe/a14182.html#ac4be92e73c08c06c1c9954547bfe8013", null ],
-    [ "PrepareSpellScript", "dd/dfe/a14182.html#ac0e4692be1527f052a23ed52af32d042", null ],
-    [ "Register", "dd/dfe/a14182.html#ac38299892d02c497e3bbae3c73a095ab", null ],
-    [ "_femaleSpell", "dd/dfe/a14182.html#a5ccb30abd83ed1d0be104bffc91deca2", null ],
-    [ "_maleSpell", "dd/dfe/a14182.html#af9b285133389942bea6738e518d34e48", null ]
+    [ "boss_headless_horseman_pumpkin", "dd/dfe/a14182.html#a62191ae523401ac57a947db96a245f7a", null ],
+    [ "AttackStart", "dd/dfe/a14182.html#a2d7cb1bc5f25f87b1452d6c1267958c4", null ],
+    [ "MoveInLineOfSight", "dd/dfe/a14182.html#a212f9803f66d297cd276ef842247776a", null ],
+    [ "Reset", "dd/dfe/a14182.html#a9d5f6922a52146b61168f1c50b378294", null ],
+    [ "SpellHit", "dd/dfe/a14182.html#a401db237c45efde3a30cdca6cb4f95c0", null ],
+    [ "UpdateAI", "dd/dfe/a14182.html#aca53b8839bce5e180ba8583490d694c3", null ],
+    [ "timer", "dd/dfe/a14182.html#a1f236cdfeec366f0d830e0fceafa6d25", null ]
 ];

@@ -1,12 +1,10 @@
 var a20978 =
 [
-    [ "boss_kelesethAI", "d3/dbe/a20978.html#a32c5c3745698cc8d546509c287bb75a8", null ],
-    [ "AttackStart", "d3/dbe/a20978.html#adcdedacd8308af95c2cd83f06e7defb7", null ],
-    [ "JustDied", "d3/dbe/a20978.html#ae9403839d9f7bcb3b746a96f923f5732", null ],
-    [ "JustEngagedWith", "d3/dbe/a20978.html#a93577fe11bbf913bcd9e8fc1673d0892", null ],
-    [ "KilledUnit", "d3/dbe/a20978.html#a04dd9045e4e6ebc9007a43753daba69f", null ],
-    [ "Reset", "d3/dbe/a20978.html#a5e15d439b3bb77228ab0126c0b74e956", null ],
-    [ "UpdateAI", "d3/dbe/a20978.html#a6c514fc76f1137e429a1250cf40b0842", null ],
-    [ "events", "d3/dbe/a20978.html#ac2791db07b1b6dc392ad76bea4e96e93", null ],
-    [ "pInstance", "d3/dbe/a20978.html#aeb63f88d6a5dbaa131f7b1d54ed0ab08", null ]
+    [ "npc_enslaved_proto_drakeAI", "d3/dbe/a20978.html#a948bacd9d69613110fa10e6e39032baf", null ],
+    [ "MovementInform", "d3/dbe/a20978.html#a4c15ed2904c72219d419efe98beb7857", null ],
+    [ "Reset", "d3/dbe/a20978.html#a3a99b691141024906e967f5876c3da08", null ],
+    [ "SetData", "d3/dbe/a20978.html#a1d1aa0027b94153b126c19688003eea8", null ],
+    [ "UpdateAI", "d3/dbe/a20978.html#a7d364a448269bc9bb25b5dbab3388236", null ],
+    [ "_events", "d3/dbe/a20978.html#adb4064cfb9c376945a2d6c42ed7c2420", null ],
+    [ "_setData", "d3/dbe/a20978.html#a3977c9229b92cc417a6732a0b2968de9", null ]
 ];

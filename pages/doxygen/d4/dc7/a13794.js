@@ -1,8 +1,10 @@
 var a13794 =
 [
-    [ "boss_grilekAI", "d4/dc7/a13794.html#aea4d151ce75bf2cdf6d6910c369daf17", null ],
-    [ "JustEngagedWith", "d4/dc7/a13794.html#a76d2cddd8ebfc4df400ef43f8c5aa936", null ],
-    [ "Reset", "d4/dc7/a13794.html#acd8ce07ab3ef576580df16c0176fcaf3", null ],
-    [ "UpdateAI", "d4/dc7/a13794.html#a19438103c9a582a7d36d805c80131e8c", null ],
-    [ "_pursuitTargetGUID", "d4/dc7/a13794.html#ad20779cdb8d82ae8a54c12a8d4b0bada", null ]
+    [ "npc_batrider", "d4/dc7/a13794.html#a6304a39ea92d48508a17dc059c47bc1b", null ],
+    [ "DamageTaken", "d4/dc7/a13794.html#ad4818b1363082a91223526908c38777c", null ],
+    [ "JustEngagedWith", "d4/dc7/a13794.html#a02e950fd30e4a0637d078d49c5c50d48", null ],
+    [ "Reset", "d4/dc7/a13794.html#abee249da6f3bb6c2fd859812b02d7b65", null ],
+    [ "UpdateAI", "d4/dc7/a13794.html#a828e5ab4b3ff52d7daf9a3a6a5412f52", null ],
+    [ "_mode", "d4/dc7/a13794.html#acd53ec78a754219511af1ad2f11422a9", null ],
+    [ "_scheduler", "d4/dc7/a13794.html#ad90beb6685c031a8b0ce4ec8ea3daa3f", null ]
 ];

@@ -1,6 +1,10 @@
 var a20762 =
 [
-    [ "boss_yoggsaron_descend_portalAI", "db/d0b/a20766.html", "db/d0b/a20766" ],
-    [ "boss_yoggsaron_descend_portal", "da/d1b/a20762.html#aaf546e4e546d87818bd501b4934e8ab2", null ],
-    [ "GetAI", "da/d1b/a20762.html#aceb50c808eed17ca468a80b823af1907", null ]
+    [ "boss_yoggsaron_voiceAI", "da/d1b/a20762.html#ac78b27f8d4df433e1fad2ae550a4da44", null ],
+    [ "Reset", "da/d1b/a20762.html#ae5561244ad7387a3614bb6f1e23a7001", null ],
+    [ "SpellHitTarget", "da/d1b/a20762.html#a0cc39577b4b70eb1be16f9c8b5cb5c72", null ],
+    [ "UpdateAI", "da/d1b/a20762.html#a3c8458c25f7389f5fb5218177590a4c6", null ],
+    [ "_current", "da/d1b/a20762.html#ad94ddde194a32b380ba1d309f1ece14a", null ],
+    [ "_targets", "da/d1b/a20762.html#ab6132214a2249fbb5de8a5115b114381", null ],
+    [ "events", "da/d1b/a20762.html#ac0c6aa9efe9d9e80b29fae8c190962dc", null ]
 ];

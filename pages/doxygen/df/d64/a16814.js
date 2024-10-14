@@ -1,9 +1,16 @@
 var a16814 =
 [
-    [ "npc_hor_risen_witch_doctorAI", "df/d64/a16814.html#acd33d4811521f6d41bce21270198db45", null ],
-    [ "JustDied", "df/d64/a16814.html#a49eb1c20ef810d0e4aeea8f99fcabebb", null ],
-    [ "JustEngagedWith", "df/d64/a16814.html#a54378daf294fcbee4ba1abf14927cc52", null ],
-    [ "Reset", "df/d64/a16814.html#a20742bb0fe610367283cd5dc7e8b36ff", null ],
-    [ "UpdateAI", "df/d64/a16814.html#af9baaf71fa53a42ab5d1507fdd6aa9fd", null ],
-    [ "events", "df/d64/a16814.html#abb39744cdcdc8e1fbf8fd06508af35f9", null ]
+    [ "boss_ickAI", "df/d64/a16814.html#a72c90af745b63202edc36b84b3f4df12", null ],
+    [ "CanAIAttack", "df/d64/a16814.html#afa3a7ef19f014ed9c46be4a3adc83aa3", null ],
+    [ "DamageTaken", "df/d64/a16814.html#a96d39b533a96503d59c41c9e7cdd4ac4", null ],
+    [ "GetKrick", "df/d64/a16814.html#a2d6192f314e76886204c7248d141260a", null ],
+    [ "JustDied", "df/d64/a16814.html#afd7752ee19dcc6be0b28181bb4485146", null ],
+    [ "JustEngagedWith", "df/d64/a16814.html#a27598604e65417225acd41d6f05cc717", null ],
+    [ "JustSummoned", "df/d64/a16814.html#abf700d993e1cfaa0cc64d90903bfa842", null ],
+    [ "KilledUnit", "df/d64/a16814.html#a618c4e704d9a90d8bf4fac2d22bda6b3", null ],
+    [ "Reset", "df/d64/a16814.html#a9ba668208cda4dd33fd4eacb04476e2e", null ],
+    [ "SpellHitTarget", "df/d64/a16814.html#a5d90395d45509f8aeb244f4a4743d07d", null ],
+    [ "UpdateAI", "df/d64/a16814.html#a74bd63ac9558ecec52affaa7440360a1", null ],
+    [ "events", "df/d64/a16814.html#aab514bb5f930d9eb545a279181632796", null ],
+    [ "pInstance", "df/d64/a16814.html#a1ad5a6809ffe750a5538dc650a437b81", null ]
 ];

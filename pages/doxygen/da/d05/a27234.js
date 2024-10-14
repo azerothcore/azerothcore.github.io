@@ -1,5 +1,5 @@
 var a27234 =
 [
-    [ "go_tele_to_violet_stand", "da/d05/a27234.html#a63350db1dfd400c565e30775378d48cc", null ],
-    [ "OnGossipHello", "da/d05/a27234.html#a4d075584f065501a2c3be9ef82387f43", null ]
+    [ "go_hive_pod", "da/d05/a27234.html#a7ec01a399e75ff2e64746166d1aa3539", null ],
+    [ "OnGossipHello", "da/d05/a27234.html#a4cfb09789edf6699444a7d817e4ccc70", null ]
 ];

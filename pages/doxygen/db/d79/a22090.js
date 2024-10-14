@@ -1,6 +1,6 @@
 var a22090 =
 [
-    [ "npc_frostbrood_skytalonAI", "d3/d7e/a22094.html", "d3/d7e/a22094" ],
-    [ "npc_frostbrood_skytalon", "db/d79/a22090.html#a1bc95edf0e624709e3836bdcfb0c503c", null ],
-    [ "GetAI", "db/d79/a22090.html#af5b1c3e52076fb84b83e785762ff6b6d", null ]
+    [ "npc_bushwhackerAI", "db/d79/a22090.html#a0cf480b75aa45a9f3572c4a65df2daee", null ],
+    [ "InitializeAI", "db/d79/a22090.html#a18db5870e62378ff49472f7a5881861c", null ],
+    [ "UpdateAI", "db/d79/a22090.html#aadc3384626d728942897fe93750f0c02", null ]
 ];

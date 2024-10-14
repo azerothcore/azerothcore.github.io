@@ -1,9 +1,6 @@
 var a25582 =
 [
-    [ "spell_item_trigger_spell", "d6/da3/a25582.html#a619e9a5233e36157cbdaba70a3ba80da", null ],
-    [ "HandleDummy", "d6/da3/a25582.html#a49613255eea28e34cf5ff8a06798f89a", null ],
-    [ "PrepareSpellScript", "d6/da3/a25582.html#a78903f92c30fb23ff7297f7fa16c4861", null ],
-    [ "Register", "d6/da3/a25582.html#ab9abd9f01ce37c23d6502e6d86e3f998", null ],
-    [ "Validate", "d6/da3/a25582.html#a2f2df93e8f9d0e51273560665ea5c245", null ],
-    [ "_triggeredSpellId", "d6/da3/a25582.html#a610c5ac434fe788120ed101f7bf58f63", null ]
+    [ "FilterTargets", "d6/da3/a25582.html#abe299fbad07f800e90b1614ec661c185", null ],
+    [ "PrepareSpellScript", "d6/da3/a25582.html#a53bae2b6575436705adff74caf9225b7", null ],
+    [ "Register", "d6/da3/a25582.html#a35fd5a1c8ab2400940da2d9f8f3ce9c2", null ]
 ];

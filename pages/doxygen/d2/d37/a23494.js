@@ -1,12 +1,8 @@
 var a23494 =
 [
-    [ "boss_omor_the_unscarred", "d2/d37/a23494.html#aeef6af0274425d9af5b5ada0d6aa7a2b", null ],
-    [ "JustDied", "d2/d37/a23494.html#a9ddae483a0f8cefd8a19975b60002660", null ],
-    [ "JustEngagedWith", "d2/d37/a23494.html#aa874d266d9a5ced45ea2ceb750370b1a", null ],
-    [ "JustSummoned", "d2/d37/a23494.html#a3503f9d13a5191c71013d77b79a8a4a3", null ],
-    [ "KilledUnit", "d2/d37/a23494.html#afc5c12a69d51638b67fcdf8098ff7da6", null ],
-    [ "Reset", "d2/d37/a23494.html#a0ec22c50cd096677a20299ab45a3c344", null ],
-    [ "UpdateAI", "d2/d37/a23494.html#aeb478325ea00f996b4c3c1584fe3965d", null ],
-    [ "_hasSpoken", "d2/d37/a23494.html#a3fe7684742f783cb1e68fcc7cfc0de7a", null ],
-    [ "_targetGUID", "d2/d37/a23494.html#a5ea9161b949e99f0a61498ed05d66d27", null ]
+    [ "npc_target_trigger", "d2/d37/a23494.html#a238058ba80130c6239b7267db3247196", null ],
+    [ "Reset", "d2/d37/a23494.html#ad23d465bfd78ede0a1556f2ce1742349", null ],
+    [ "UpdateAI", "d2/d37/a23494.html#ab5f482e209d2d8aa5c27666d3e1934f3", null ],
+    [ "_cast", "d2/d37/a23494.html#a4ec89ca960323f7ad135d5a425a82416", null ],
+    [ "_scheduler", "d2/d37/a23494.html#a9b418b09e25c8f96692b4e2626339c96", null ]
 ];

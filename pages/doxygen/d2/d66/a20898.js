@@ -1,6 +1,5 @@
 var a20898 =
 [
-    [ "achievement_yogg_saron_he_waits_dreaming", "d2/d66/a20898.html#a25f4950d1ccffe77aa9cf5de7a14ea37", null ],
-    [ "OnCheck", "d2/d66/a20898.html#a7ef7dfb0235fb2db5932e7415e3e6f61", null ],
-    [ "_requiredIllusion", "d2/d66/a20898.html#aa3e107cb3be6fa02687709e07466a094", null ]
+    [ "AreaTrigger_at_celestial_planetarium_enterance", "d2/d66/a20898.html#ae1503a754a05a77991d9955a2fb74265", null ],
+    [ "OnTrigger", "d2/d66/a20898.html#aa7aa93e00170313de251af4e562c422c", null ]
 ];

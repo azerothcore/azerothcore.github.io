@@ -1,8 +1,7 @@
 var a26774 =
 [
-    [ "Load", "df/d90/a26774.html#af6c19828b80a6cc06e4c9c207e7c52b8", null ],
-    [ "OnRemove", "df/d90/a26774.html#a097cf2a2abecda1e89f85bc4bd4ec029", null ],
-    [ "PrepareAuraScript", "df/d90/a26774.html#a2161d27a90b3f87fd07f75723b6d9e13", null ],
-    [ "Register", "df/d90/a26774.html#a932760326c822f1b47df1afdec6bb9cb", null ],
-    [ "Validate", "df/d90/a26774.html#a69bcfedb7f566c572201aadc9e75df08", null ]
+    [ "HandleApplyAura", "df/d90/a26774.html#ae364ff4048a2f59eadecd6934c7a0e13", null ],
+    [ "PrepareSpellScript", "df/d90/a26774.html#adf09900347264bc341884092ea0fee40", null ],
+    [ "Register", "df/d90/a26774.html#ac56484d4048817a164963e519a97d137", null ],
+    [ "Validate", "df/d90/a26774.html#ac028c0faf659fb74b2ffa5f85f58f8d1", null ]
 ];

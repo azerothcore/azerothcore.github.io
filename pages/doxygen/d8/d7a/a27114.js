@@ -1,6 +1,6 @@
 var a27114 =
 [
-    [ "go_witherbark_totem_bundleAI", "d8/d7a/a27114.html#a955625e2315008a2e36936d44f825060", null ],
-    [ "UpdateAI", "d8/d7a/a27114.html#af688bab2dc3d938951adb303e8b8d88b", null ],
-    [ "_timer", "d8/d7a/a27114.html#a509e6d8401380c326a0f565a6b903d7a", null ]
+    [ "go_bear_trapAI", "d1/d22/a27118.html", "d1/d22/a27118" ],
+    [ "go_bear_trap", "d8/d7a/a27114.html#a6301aa23009ac2599fc37b81bb3a0750", null ],
+    [ "GetAI", "d8/d7a/a27114.html#afb882fd4cc2e4379bb8d5afff210a679", null ]
 ];

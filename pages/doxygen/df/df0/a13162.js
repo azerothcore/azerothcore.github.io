@@ -1,6 +1,6 @@
 var a13162 =
 [
-    [ "boss_muruAI", "d8/d9e/a13166.html", "d8/d9e/a13166" ],
-    [ "boss_muru", "df/df0/a13162.html#aeb09997c72ec653df211bdec5873a57a", null ],
-    [ "GetAI", "df/df0/a13162.html#aba2fda1e0b3b6b972fe7df14247006c1", null ]
+    [ "FilterTargets", "df/df0/a13162.html#ae945b657d0fbee4d5ee5d6e7d15ef39b", null ],
+    [ "PrepareSpellScript", "df/df0/a13162.html#a905e1f979284a368463ad4829891b6ee", null ],
+    [ "Register", "df/df0/a13162.html#a6b0d2fc316bef6af20199b15795b00b4", null ]
 ];

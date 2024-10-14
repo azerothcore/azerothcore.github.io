@@ -1,9 +1,8 @@
 var a25350 =
 [
-    [ "DoCheckCast", "d8/d76/a25350.html#a09c7bd66988c38cb019656842ed87366", null ],
-    [ "HandleDummy", "d8/d76/a25350.html#a183e2ac37a432ea2902b31e24a474cea", null ],
-    [ "HandleScriptEffect", "d8/d76/a25350.html#a396b1129f15056d0b22c7887f56bea99", null ],
-    [ "PrepareSpellScript", "d8/d76/a25350.html#aad4de93de822a742e02ac8d5d395d482", null ],
-    [ "Register", "d8/d76/a25350.html#a84fc18d6a2d92aefa2cc4d8095780314", null ],
-    [ "Validate", "d8/d76/a25350.html#a2565f0ad3bb988ad37dd6a60f08c995c", null ]
+    [ "CheckProc", "d8/d76/a25350.html#ae0b0a45ddc782a523394e30414e0b2ba", null ],
+    [ "HandleProc", "d8/d76/a25350.html#a9cb849a8ea8afb45cc1df4d260542937", null ],
+    [ "PrepareAuraScript", "d8/d76/a25350.html#af65fc845e6625b1f0a4f4b88ba6db46e", null ],
+    [ "Register", "d8/d76/a25350.html#acc5c7607ea7a23b66d1db6cb1a38833e", null ],
+    [ "Validate", "d8/d76/a25350.html#a03621fd67cd9179ccc37a53c4d2056d9", null ]
 ];

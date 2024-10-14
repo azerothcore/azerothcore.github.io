@@ -1,11 +1,11 @@
 var a14106 =
 [
-    [ "npc_winterfin_playmate", "d1/d1b/a14106.html#a9c07fb9115c21ba5c3ef7459662e8f38", null ],
-    [ "MoveInLineOfSight", "d1/d1b/a14106.html#a7e8640e3bfe0a8f960ce22a2daf136a4", null ],
-    [ "Reset", "d1/d1b/a14106.html#aae6b51c22dc0448608c1cf9412565e25", null ],
-    [ "UpdateAI", "d1/d1b/a14106.html#a8e04dc18ee8a6d9412cd574994908eb6", null ],
-    [ "orphanGUID", "d1/d1b/a14106.html#a9189bf7b93e7c46e559c22f3504f919f", null ],
-    [ "phase", "d1/d1b/a14106.html#a0a1051dc971ef393843bd1ba655a2e1b", null ],
-    [ "playerGUID", "d1/d1b/a14106.html#a142fe7a438ee22384f682f26ff4a9f9c", null ],
-    [ "timer", "d1/d1b/a14106.html#abf4b5f3e16f32a3385b71ef002c5ee64", null ]
+    [ "o", "d1/d1b/a14106.html#af0a1551e7a1ced5413b6096ba15db8b2", null ],
+    [ "rot0", "d1/d1b/a14106.html#a1cc2b7787c803a4e126e06ab5b5c0ee6", null ],
+    [ "rot1", "d1/d1b/a14106.html#a71696fa3f95eb20d950b6ba2ada153f4", null ],
+    [ "rot2", "d1/d1b/a14106.html#ac2e4113330ebc9d9db379fb87eb55c03", null ],
+    [ "rot3", "d1/d1b/a14106.html#a3fc28475914b0ed4afe46fd4f4ff66b1", null ],
+    [ "x", "d1/d1b/a14106.html#a6e527854cf0959995d6b0133dedc94c9", null ],
+    [ "y", "d1/d1b/a14106.html#a7536047696bd4883237369976b503131", null ],
+    [ "z", "d1/d1b/a14106.html#a33ba4ca8ce5f406aaa5f571ba7236eb5", null ]
 ];

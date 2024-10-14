@@ -1,6 +1,9 @@
 var a13566 =
 [
-    [ "cooldown", "d9/d68/a13566.html#a435dff1f5801d4dda241ae37460eb9ac", null ],
-    [ "spell", "d9/d68/a13566.html#a00ee3238030686e1cc66562f7cefb27a", null ],
-    [ "target", "d9/d68/a13566.html#a16e54dbd059baac1b6e7229621339d83", null ]
+    [ "npc_halazzi_lynx", "d9/d68/a13566.html#a168ee019e1c75a89f6dbc9072b722ab2", null ],
+    [ "AttackStart", "d9/d68/a13566.html#a56d53ed05b674c1ee4ba35922cb3a5df", null ],
+    [ "DamageTaken", "d9/d68/a13566.html#a8cb6a034d663f1b4e00adc2e9366b268", null ],
+    [ "JustEngagedWith", "d9/d68/a13566.html#adb3e49eed663164aede9758d9aef70d7", null ],
+    [ "Reset", "d9/d68/a13566.html#a66c022846cde0cd3573bcc3cbfd37b38", null ],
+    [ "UpdateAI", "d9/d68/a13566.html#a14254c7a9e9b7f1a09ee414eee2ff21b", null ]
 ];

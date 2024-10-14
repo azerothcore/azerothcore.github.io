@@ -1,6 +1,6 @@
 var a18014 =
 [
-    [ "PeriodicTick", "d2/d2e/a18014.html#af47c7ea07ee3dbe824b1c294024d0c29", null ],
-    [ "PrepareAuraScript", "d2/d2e/a18014.html#aa2649c760e362cc7aa22cd770b15f7df", null ],
-    [ "Register", "d2/d2e/a18014.html#ad4290158ee9af93df11d1a46a5bd26a2", null ]
+    [ "boss_the_lich_kingAI", "d0/dab/a18018.html", "d0/dab/a18018" ],
+    [ "boss_the_lich_king", "d2/d2e/a18014.html#a10e2789a98a85907d24eabae6d7655f4", null ],
+    [ "GetAI", "d2/d2e/a18014.html#ab12d8cdfdb1c5428423f6db9dda6c97e", null ]
 ];

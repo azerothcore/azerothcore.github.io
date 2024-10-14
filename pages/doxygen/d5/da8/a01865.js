@@ -1,59 +1,64 @@
 var a01865 =
 [
-    [ "AchievementOfflinePlayerUpdate", "dc/d03/a05818.html", "dc/d03/a05818" ],
-    [ "CriteriaProgress", "da/d1d/a05822.html", "da/d1d/a05822" ],
-    [ "AchievementCriteriaData", "d7/d6f/a05826.html", "d7/d6f/a05826" ],
-    [ "AchievementCriteriaDataSet", "df/dc9/a05922.html", "df/dc9/a05922" ],
-    [ "AchievementReward", "de/d4c/a05926.html", "de/d4c/a05926" ],
-    [ "AchievementRewardLocale", "d8/d5e/a05930.html", "d8/d5e/a05930" ],
-    [ "CompletedAchievementData", "da/d76/a05934.html", "da/d76/a05934" ],
-    [ "AchievementMgr", "dc/d8f/a05938.html", "dc/d8f/a05938" ],
-    [ "AchievementGlobalMgr", "df/de3/a05942.html", "df/de3/a05942" ],
-    [ "MAX_ACHIEVEMENT_CRITERIA_DATA_TYPE", "d5/da8/a01865.html#aa36806d2931b69d34909b50f40ca8c0e", null ],
-    [ "sAchievementMgr", "d5/da8/a01865.html#af422afe119839b631fd67247eddff1e6", null ],
-    [ "AchievementCriteriaDataMap", "d5/da8/a01865.html#ac16b4d5f47fe0db16d59dc67e86e42be", null ],
-    [ "AchievementCriteriaEntryList", "d5/da8/a01865.html#a7a5f365d092f508da6ae8d510f0e3117", null ],
-    [ "AchievementCriteriaListByAchievement", "d5/da8/a01865.html#ad5e4b1cd98f21804a508642d8475033f", null ],
-    [ "AchievementEntryList", "d5/da8/a01865.html#a9d70fd67a3069b6a55c0145265bffc4b", null ],
-    [ "AchievementListByReferencedId", "d5/da8/a01865.html#af3b606f4c218a7e68902cd9ff9470f5b", null ],
-    [ "AchievementRewardLocales", "d5/da8/a01865.html#a3d51ce6b9e37b72772cea78f064e5a77", null ],
-    [ "AchievementRewards", "d5/da8/a01865.html#a471572afc0467790ccff565b39f61720", null ],
-    [ "CompletedAchievementMap", "d5/da8/a01865.html#aee097fd9426b25c1101af73a551a37e1", null ],
-    [ "CriteriaProgressMap", "d5/da8/a01865.html#a649527d8ab61f39ad17fe709d2b1aabc", null ],
-    [ "AchievementCommonCategories", "d5/da8/a01865.html#ac0bc114e07c706c7192e14e80355a213", [
-      [ "ACHIEVEMENT_CATEOGRY_GENERAL", "d5/da8/a01865.html#ac0bc114e07c706c7192e14e80355a213a4c91db703d7b5c8f8756bc6136bc5207", null ],
-      [ "ACHIEVEMENT_CATEGORY_STATISTICS", "d5/da8/a01865.html#ac0bc114e07c706c7192e14e80355a213a142173b7c79b8a90cd7854fd7b03509a", null ]
+    [ "spell_q10935_the_exorcism_of_colonel_jules", "df/da9/a23922.html", "df/da9/a23922" ],
+    [ "npc_aeranas", "d0/d14/a23926.html", "d0/d14/a23926" ],
+    [ "npc_aeranas::npc_aeranasAI", "d6/d03/a23930.html", "d6/d03/a23930" ],
+    [ "npc_ancestral_wolf", "d5/dc6/a23934.html", "d5/dc6/a23934" ],
+    [ "npc_ancestral_wolf::npc_ancestral_wolfAI", "da/d00/a23938.html", "da/d00/a23938" ],
+    [ "npc_wounded_blood_elf", "d6/dfe/a23942.html", "d6/dfe/a23942" ],
+    [ "npc_wounded_blood_elf::npc_wounded_blood_elfAI", "d5/df2/a23946.html", "d5/df2/a23946" ],
+    [ "npc_fel_guard_hound", "d1/d22/a23950.html", "d1/d22/a23950" ],
+    [ "npc_fel_guard_hound::npc_fel_guard_houndAI", "d7/d64/a23954.html", "d7/d64/a23954" ],
+    [ "npc_magister_aledis", "d5/d77/a23958.html", "d5/d77/a23958" ],
+    [ "go_beacon", "dc/dfe/a23962.html", "dc/dfe/a23962" ],
+    [ "go_beacon::go_beaconAI", "df/db4/a23966.html", "df/db4/a23966" ],
+    [ "Aeranas", "d5/da8/a01865.html#a35e86459585ec89189aab3acab8ed4ca", [
+      [ "SAY_SUMMON", "d5/da8/a01865.html#a35e86459585ec89189aab3acab8ed4caacebbfa1f13b8de4f039f5d550063c7bf", null ],
+      [ "SAY_FREE", "d5/da8/a01865.html#a35e86459585ec89189aab3acab8ed4caa27368277122194007f925387131a1eb9", null ],
+      [ "SPELL_ENVELOPING_WINDS", "d5/da8/a01865.html#a35e86459585ec89189aab3acab8ed4caacf98b779c795324d47e44b043eeacf92", null ],
+      [ "SPELL_SHOCK", "d5/da8/a01865.html#a35e86459585ec89189aab3acab8ed4caa30aa4cac2f70a310466b3fb0f2d10eab", null ]
     ] ],
-    [ "AchievementCriteriaDataType", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0", [
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_NONE", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0ae9d5b8759c2ee53b9e210a15ad049943", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_T_CREATURE", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0abc70f9063061689cbf95c04df5a9a448", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_T_PLAYER_CLASS_RACE", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0a22786f73e7cc8966c60614e88f0d5cb1", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_T_PLAYER_LESS_HEALTH", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0ac6775a92c029d4c2be529461e23e4ca3", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_T_PLAYER_DEAD", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0adc76e0c15e881d6848994a911d1a8ef6", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_S_AURA", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0a9507639d721e63f182ebd53d593d5465", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_S_AREA", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0a19b830790eb46adb27e8a65b85eceed1", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_T_AURA", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0aa0b32101ef67881083e58a6a6c55c75b", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_VALUE", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0a3fd659753b9d41caa4b58c51d2cb6ea7", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_T_LEVEL", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0ab055e5273ac4250d273fa5592af3ed39", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_T_GENDER", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0a10fc4cfb0da2c0c72c12d5e6e4a1bdd6", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_SCRIPT", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0a0578b3122b1b69df3af04c2d45df266c", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_MAP_DIFFICULTY", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0a5813a09c9977d3d5f80595d529f7f420", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_MAP_PLAYER_COUNT", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0a1046e477766a7c60f4446fef1b13a6f5", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_T_TEAM", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0ad5967db594cc30c247c785d5c753cc18", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_S_DRUNK", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0a7fcb85cf04be09a3a5f1214553bf329a", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_HOLIDAY", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0a9dba74c8f01c9292cf8afa6b77be2a34", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_BG_LOSS_TEAM_SCORE", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0aab81f29c4cb17f066e8d2bd95f37d954", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_INSTANCE_SCRIPT", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0adb7d56866cf7afe8c4145c300a06ec4c", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_S_EQUIPPED_ITEM", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0a77677f4d00c6fab053e7f632ef59b4e5", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_MAP_ID", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0a84b46b516fde8adcd492cb856d32e722", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_S_PLAYER_CLASS_RACE", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0aaa861458fcfe5aed7f8714be2b68a1db", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_NTH_BIRTHDAY", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0a003a15517532a95903cb8c6673db418f", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_S_KNOWN_TITLE", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0a158d186341dd9798da3921a4a6bd2fda", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_BG_TEAMS_SCORES", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0af734713c1c6764e61fddab192904518a", null ],
-      [ "ACHIEVEMENT_CRITERIA_DATA_TYPE_S_ITEM_QUALITY", "d5/da8/a01865.html#a72f8a725cd1b257556ae7aa080f477c0af53705f7958654cf4ca99c99dd320735", null ]
+    [ "Aledis", "d5/da8/a01865.html#a03c6f57f8a159946f896f5702ca14dce", [
+      [ "SAY_CHALLENGE", "d5/da8/a01865.html#a03c6f57f8a159946f896f5702ca14dcea3673de22d7f7ff97fa58d05bda2e1e19", null ],
+      [ "SAY_DEFEATED", "d5/da8/a01865.html#a03c6f57f8a159946f896f5702ca14dceac03c09df1ddcc4faeb33ce6334bdf677", null ],
+      [ "EVENT_TALK", "d5/da8/a01865.html#a03c6f57f8a159946f896f5702ca14dcead8d5fcaf7b3bfdd91e6337d222c1620f", null ],
+      [ "EVENT_ATTACK", "d5/da8/a01865.html#a03c6f57f8a159946f896f5702ca14dcea0ae9cb03e0fdc3b6ba005dcf01279360", null ],
+      [ "EVENT_EVADE", "d5/da8/a01865.html#a03c6f57f8a159946f896f5702ca14dceac76f74b24db9c237bcec4674c4783ca4", null ],
+      [ "EVENT_FIREBALL", "d5/da8/a01865.html#a03c6f57f8a159946f896f5702ca14dcea2f41794aafc9d878c1d2e3aa735cbf44", null ],
+      [ "EVENT_FROSTNOVA", "d5/da8/a01865.html#a03c6f57f8a159946f896f5702ca14dceadaeaec1cfb428809aea8f40a63d94a3e", null ],
+      [ "SPELL_FIREBALL", "d5/da8/a01865.html#a03c6f57f8a159946f896f5702ca14dcea846055c995374082714483a6b39bc963", null ],
+      [ "SPELL_FROSTNOVA", "d5/da8/a01865.html#a03c6f57f8a159946f896f5702ca14dcead434ff150c6b4a05fa0e2d914374690b", null ]
     ] ],
-    [ "AchievementOfflinePlayerUpdateType", "d5/da8/a01865.html#a9c52752c50b87261f43020b3cfaa06e6", [
-      [ "ACHIEVEMENT_OFFLINE_PLAYER_UPDATE_TYPE_COMPLETE_ACHIEVEMENT", "d5/da8/a01865.html#a9c52752c50b87261f43020b3cfaa06e6a2976d6d0cc93ac389d7683d092aff8ee", null ],
-      [ "ACHIEVEMENT_OFFLINE_PLAYER_UPDATE_TYPE_UPDATE_CRITERIA", "d5/da8/a01865.html#a9c52752c50b87261f43020b3cfaa06e6a7d91d50e1acd06739fbc20bd87c8a4a3", null ]
-    ] ]
+    [ "AncestralWolf", "d5/da8/a01865.html#ae0ad636572003d2f340b9f5853329b31", [
+      [ "EMOTE_WOLF_LIFT_HEAD", "d5/da8/a01865.html#ae0ad636572003d2f340b9f5853329b31a3d71eb68225f60940079e2c6d5b848bb", null ],
+      [ "EMOTE_WOLF_HOWL", "d5/da8/a01865.html#ae0ad636572003d2f340b9f5853329b31a89cae72f3324d089afca2e6ec3bab2b0", null ],
+      [ "SAY_WOLF_WELCOME", "d5/da8/a01865.html#ae0ad636572003d2f340b9f5853329b31a129ec8cc004776adf7eede6faee16398", null ],
+      [ "SPELL_GUIDED_BY_THE_SPIRITS", "d5/da8/a01865.html#ae0ad636572003d2f340b9f5853329b31a49de5a0a57dffbeebdb91a8ad307328d", null ],
+      [ "NPC_RYGA", "d5/da8/a01865.html#ae0ad636572003d2f340b9f5853329b31a4c5c75439f08ad6a8f448db8931dd14d", null ]
+    ] ],
+    [ "Beacon", "d5/da8/a01865.html#aa0353d38e414033b4eac645836037a9c", [
+      [ "NPC_STONESCHYE_WHELP", "d5/da8/a01865.html#aa0353d38e414033b4eac645836037a9ca735f9b0923e7a2f2b40c91e7bfd5a6c8", null ]
+    ] ],
+    [ "FelGuard", "d5/da8/a01865.html#af0944e670cdc4872cb4e1de78159ef88", [
+      [ "SPELL_SUMMON_POO", "d5/da8/a01865.html#af0944e670cdc4872cb4e1de78159ef88acaf3b07d165603ce6a87d5e137c8bc6c", null ],
+      [ "NPC_DERANGED_HELBOAR", "d5/da8/a01865.html#af0944e670cdc4872cb4e1de78159ef88a74a22ffd9e172700137c4a85ec978333", null ],
+      [ "QUEST_SHIZZ_WORK", "d5/da8/a01865.html#af0944e670cdc4872cb4e1de78159ef88a22cc94ada0c254f3d3848e67f5701588", null ]
+    ] ],
+    [ "q10935Exorcism", "d5/da8/a01865.html#a2b917ea5e39342011ca6dcdac24e869e", [
+      [ "SPELL_HOLY_FIRE", "d5/da8/a01865.html#a2b917ea5e39342011ca6dcdac24e869eac3a4396238fbb11f537aa061424abe2b", null ],
+      [ "SPELL_HEAL_BARADA", "d5/da8/a01865.html#a2b917ea5e39342011ca6dcdac24e869eae33e5e18452ad49b09d4403d2b856efd", null ]
+    ] ],
+    [ "WoundedBloodElf", "d5/da8/a01865.html#a1b44ea4940860848073d89e7761e5d9e", [
+      [ "SAY_ELF_START", "d5/da8/a01865.html#a1b44ea4940860848073d89e7761e5d9ea52186d9cbaa4a5d1e385d2fe13503a97", null ],
+      [ "SAY_ELF_SUMMON1", "d5/da8/a01865.html#a1b44ea4940860848073d89e7761e5d9ea3b168b2787eb695fadbe796416731ba3", null ],
+      [ "SAY_ELF_RESTING", "d5/da8/a01865.html#a1b44ea4940860848073d89e7761e5d9ea6cd155f2503f730d0d12456613b29964", null ],
+      [ "SAY_ELF_SUMMON2", "d5/da8/a01865.html#a1b44ea4940860848073d89e7761e5d9ea678e628b153b8961e58fe7f936fd9c61", null ],
+      [ "SAY_ELF_COMPLETE", "d5/da8/a01865.html#a1b44ea4940860848073d89e7761e5d9eae06761dd5b07e038a394a2c7e72e93a7", null ],
+      [ "SAY_ELF_AGGRO", "d5/da8/a01865.html#a1b44ea4940860848073d89e7761e5d9eabfc964a1cc07a0fdf8782361353d8a5c", null ],
+      [ "QUEST_ROAD_TO_FALCON_WATCH", "d5/da8/a01865.html#a1b44ea4940860848073d89e7761e5d9eaaca23046d9ea87abc77d28689e3349ed", null ],
+      [ "NPC_HAALESHI_WINDWALKER", "d5/da8/a01865.html#a1b44ea4940860848073d89e7761e5d9eafbcba9ddc06cf15e740c08aa796f43ba", null ],
+      [ "NPC_HAALESHI_TALONGUARD", "d5/da8/a01865.html#a1b44ea4940860848073d89e7761e5d9ea338245af1e86a4794f18dc3072957088", null ],
+      [ "ARAKKOA_CAGE", "d5/da8/a01865.html#a1b44ea4940860848073d89e7761e5d9eafe47930a46107b8a21f186ef6f97ddf7", null ]
+    ] ],
+    [ "AddSC_hellfire_peninsula", "d5/da8/a01865.html#ae450311c68322300a0e6fb8091cd8936", null ]
 ];

@@ -1,6 +1,6 @@
 var a19830 =
 [
-    [ "npc_storm_beacon_spawnAI", "d5/d70/a19834.html", "d5/d70/a19834" ],
-    [ "npc_storm_beacon_spawn", "d5/dc2/a19830.html#a0316646f43fd0ed6fe4576bf691116a0", null ],
-    [ "GetAI", "d5/dc2/a19830.html#a780dd823962e259dbeda7089224aa23e", null ]
+    [ "OnPeriodic", "d5/dc2/a19830.html#a379c55df994c58932fef7e7a59fd8426", null ],
+    [ "PrepareAuraScript", "d5/dc2/a19830.html#ab180f54264f0c90376587d1b4c4dfd40", null ],
+    [ "Register", "d5/dc2/a19830.html#aacfaa385ca4cbe64217ef191a32936e2", null ]
 ];

@@ -1,6 +1,7 @@
 var a21766 =
 [
-    [ "SACDeactivateEvent", "d4/d4f/a21766.html#a14f1db2f3bf7e82d0e5c5b5135d46cf9", null ],
-    [ "Execute", "d4/d4f/a21766.html#a12179c55d1999b3cd0cfc5d51d039a31", null ],
-    [ "_owner", "d4/d4f/a21766.html#acc87b2f689bf2e6a3f19440dceb6ea6d", null ]
+    [ "HandleDummy", "d4/d4f/a21766.html#ae180aea347e73fcce44e9ac3ff33d0ce", null ],
+    [ "PrepareSpellScript", "d4/d4f/a21766.html#a9d863ad1d44a9d5dc2b212ef0c414626", null ],
+    [ "Register", "d4/d4f/a21766.html#a45f80e0436f93a597deb4653852df6a1", null ],
+    [ "Validate", "d4/d4f/a21766.html#ad13fdade1fb7455485bfd68687de53c5", null ]
 ];

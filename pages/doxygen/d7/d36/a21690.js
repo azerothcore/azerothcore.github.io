@@ -1,6 +1,7 @@
 var a21690 =
 [
-    [ "npc_future_youAI", "dc/dd7/a21694.html", "dc/dd7/a21694" ],
-    [ "npc_future_you", "d7/d36/a21690.html#a36e363156bcb32fee468989062817bd5", null ],
-    [ "GetAI", "d7/d36/a21690.html#a2e1529fef3ce307d98057dc93ce5e5fe", null ]
+    [ "HandleApplyEffect", "d7/d36/a21690.html#aab7bd30368c51a6a209f6cad5a93ba79", null ],
+    [ "HandleRemoveEffect", "d7/d36/a21690.html#a243933fec9ccd650303ea5badbea725b", null ],
+    [ "PrepareAuraScript", "d7/d36/a21690.html#ac0e1fc0694dd51e245340d3658592447", null ],
+    [ "Register", "d7/d36/a21690.html#a0f6e6c6892d56a6fceb927f68c734bde", null ]
 ];

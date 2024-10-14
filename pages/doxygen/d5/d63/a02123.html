@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Entities/Object/Object.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/EasternKingdoms/ScarletMonastery/scarletmonastery.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,99 +105,89 @@ $(document).ready(function(){initNavTree('d5/d63/a02123.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">Object.cpp File Reference</div></div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">scarletmonastery.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Object.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Battlefield.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">BattlefieldMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DynamicVisibility.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameObjectAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MiscPackets.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">MovementPacketBuilder.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">OutdoorPvPMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Physics.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">StringConvert.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">TargetedMovementGenerator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">TemporarySummon.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Tokenize.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Totem.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">UpdateData.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">UpdateFieldFlags.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">UpdateMask.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureAIImpl.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4e/a08118.html">WorldObjectChangeAccumulator</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a042491ef36459046f3866e90f15aae0d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d63/a02123.html#a042491ef36459046f3866e90f15aae0d">DataHeader</a>&#160;&#160;&#160;&quot;SM&quot;</td></tr>
+<tr class="separator:a042491ef36459046f3866e90f15aae0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac64beb71a88e1265849782b79406b585"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d63/a02123.html#ac64beb71a88e1265849782b79406b585">ScarletMonasteryScriptName</a>&#160;&#160;&#160;&quot;instance_scarlet_monastery&quot;</td></tr>
+<tr class="separator:ac64beb71a88e1265849782b79406b585"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a6165c6736a6e152a38f7dea1aa2c956b"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d63/a02123.html#a6165c6736a6e152a38f7dea1aa2c956b">VisibilityDistances</a> [<a class="el" href="../../d9/de6/a00404.html#aa9f8f55551b813f0996c6fd351a4e4be">AsUnderlyingType</a>(<a class="el" href="../../d4/d9b/a02159.html#ae675d6469643e2aca0b1840013245a1da6a061313d22e51e0f25b7cd4dc065233">VisibilityDistanceType::Max</a>)]</td></tr>
-<tr class="separator:a6165c6736a6e152a38f7dea1aa2c956b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aecdcabc87b1cc31996b702fd11416f35"><td class="memTemplParams" colspan="2">template&lt;class AI , class T &gt; </td></tr>
+<tr class="memitem:aecdcabc87b1cc31996b702fd11416f35"><td class="memTemplItemLeft" align="right" valign="top">AI *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d63/a02123.html#aecdcabc87b1cc31996b702fd11416f35">GetScarletMonasteryAI</a> (T *obj)</td></tr>
+<tr class="separator:aecdcabc87b1cc31996b702fd11416f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a6165c6736a6e152a38f7dea1aa2c956b" name="a6165c6736a6e152a38f7dea1aa2c956b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6165c6736a6e152a38f7dea1aa2c956b">&#9670;&#160;</a></span>VisibilityDistances</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a042491ef36459046f3866e90f15aae0d" name="a042491ef36459046f3866e90f15aae0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a042491ef36459046f3866e90f15aae0d">&#9670;&#160;</a></span>DataHeader</h2>
 
 <div class="memitem">
 <div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DataHeader&#160;&#160;&#160;&quot;SM&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac64beb71a88e1265849782b79406b585" name="ac64beb71a88e1265849782b79406b585"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac64beb71a88e1265849782b79406b585">&#9670;&#160;</a></span>ScarletMonasteryScriptName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ScarletMonasteryScriptName&#160;&#160;&#160;&quot;instance_scarlet_monastery&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aecdcabc87b1cc31996b702fd11416f35" name="aecdcabc87b1cc31996b702fd11416f35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecdcabc87b1cc31996b702fd11416f35">&#9670;&#160;</a></span>GetScarletMonasteryAI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class AI , class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr float VisibilityDistances[<a class="el" href="../../d9/de6/a00404.html#aa9f8f55551b813f0996c6fd351a4e4be">AsUnderlyingType</a>(<a class="el" href="../../d4/d9b/a02159.html#ae675d6469643e2aca0b1840013245a1da6a061313d22e51e0f25b7cd4dc065233">VisibilityDistanceType::Max</a>)]</td>
+          <td class="memname">AI * GetScarletMonasteryAI </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">{</div>
-<div class="line">    <a class="code hl_define" href="../../d4/d9b/a02159.html#a22c041da6769a0cb3ef89726dd33981d">DEFAULT_VISIBILITY_DISTANCE</a>,</div>
-<div class="line">    <a class="code hl_define" href="../../d4/d9b/a02159.html#a3e2fbd681c4b511f283f7b4d429a5f80">VISIBILITY_DISTANCE_TINY</a>,</div>
-<div class="line">    <a class="code hl_define" href="../../d4/d9b/a02159.html#ae57720dd4437b418bb332db290c71d45">VISIBILITY_DISTANCE_SMALL</a>,</div>
-<div class="line">    <a class="code hl_define" href="../../d4/d9b/a02159.html#a2c7e0d3a0783990d50e50d41a916a595">VISIBILITY_DISTANCE_LARGE</a>,</div>
-<div class="line">    <a class="code hl_define" href="../../d4/d9b/a02159.html#ac42804b48d734699eef6b8f584e2fb90">VISIBILITY_DISTANCE_GIGANTIC</a>,</div>
-<div class="line">    <a class="code hl_define" href="../../d4/d9b/a02159.html#a383cb16bb626159d72cc6b5928429f90">VISIBILITY_DISTANCE_INFINITE</a></div>
-<div class="line">}</div>
-<div class="ttc" id="aa02159_html_a22c041da6769a0cb3ef89726dd33981d"><div class="ttname"><a href="../../d4/d9b/a02159.html#a22c041da6769a0cb3ef89726dd33981d">DEFAULT_VISIBILITY_DISTANCE</a></div><div class="ttdeci">#define DEFAULT_VISIBILITY_DISTANCE</div><div class="ttdef"><b>Definition:</b> ObjectDefines.h:40</div></div>
-<div class="ttc" id="aa02159_html_a2c7e0d3a0783990d50e50d41a916a595"><div class="ttname"><a href="../../d4/d9b/a02159.html#a2c7e0d3a0783990d50e50d41a916a595">VISIBILITY_DISTANCE_LARGE</a></div><div class="ttdeci">#define VISIBILITY_DISTANCE_LARGE</div><div class="ttdef"><b>Definition:</b> ObjectDefines.h:36</div></div>
-<div class="ttc" id="aa02159_html_a383cb16bb626159d72cc6b5928429f90"><div class="ttname"><a href="../../d4/d9b/a02159.html#a383cb16bb626159d72cc6b5928429f90">VISIBILITY_DISTANCE_INFINITE</a></div><div class="ttdeci">#define VISIBILITY_DISTANCE_INFINITE</div><div class="ttdef"><b>Definition:</b> ObjectDefines.h:34</div></div>
-<div class="ttc" id="aa02159_html_a3e2fbd681c4b511f283f7b4d429a5f80"><div class="ttname"><a href="../../d4/d9b/a02159.html#a3e2fbd681c4b511f283f7b4d429a5f80">VISIBILITY_DISTANCE_TINY</a></div><div class="ttdeci">#define VISIBILITY_DISTANCE_TINY</div><div class="ttdef"><b>Definition:</b> ObjectDefines.h:39</div></div>
-<div class="ttc" id="aa02159_html_ac42804b48d734699eef6b8f584e2fb90"><div class="ttname"><a href="../../d4/d9b/a02159.html#ac42804b48d734699eef6b8f584e2fb90">VISIBILITY_DISTANCE_GIGANTIC</a></div><div class="ttdeci">#define VISIBILITY_DISTANCE_GIGANTIC</div><div class="ttdef"><b>Definition:</b> ObjectDefines.h:35</div></div>
-<div class="ttc" id="aa02159_html_ae57720dd4437b418bb332db290c71d45"><div class="ttname"><a href="../../d4/d9b/a02159.html#ae57720dd4437b418bb332db290c71d45">VISIBILITY_DISTANCE_SMALL</a></div><div class="ttdeci">#define VISIBILITY_DISTANCE_SMALL</div><div class="ttdef"><b>Definition:</b> ObjectDefines.h:38</div></div>
-</div><!-- fragment --><dl class="todo"><dt><b><a class="el" href="../../d1/d62/a04664.html#_todo000040">Todo:</a></b></dt><dd>: this import is not necessary for compilation and marked as unused by the IDE </dd></dl>
-
-<p class="reference">Referenced by <a class="el" href="../../#l01122">WorldObject::SetVisibilityDistanceOverride()</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   29</span>{</div>
+<div class="line"><span class="lineno">   30</span>    <span class="keywordflow">return</span> GetInstanceAI&lt;AI&gt;(obj, <a class="code hl_define" href="../../d5/d63/a02123.html#ac64beb71a88e1265849782b79406b585">ScarletMonasteryScriptName</a>);</div>
+<div class="line"><span class="lineno">   31</span>}</div>
+<div class="ttc" id="aa02123_html_ac64beb71a88e1265849782b79406b585"><div class="ttname"><a href="../../d5/d63/a02123.html#ac64beb71a88e1265849782b79406b585">ScarletMonasteryScriptName</a></div><div class="ttdeci">#define ScarletMonasteryScriptName</div><div class="ttdef"><b>Definition:</b> scarletmonastery.h:25</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00025">ScarletMonasteryScriptName</a>.</p>
 
 </div>
 </div>
@@ -206,8 +196,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_7cceb56be83a77325820340cc4b7f0cb.html">Object</a></li><li class="navelem"><a class="el" href="../../d5/d63/a02123.html">Object.cpp</a></li>
-    <li class="footer">Generated on Mon Oct 7 2024 20:40:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ddeb450e5fe586f747c0635391d1d1d6.html">EasternKingdoms</a></li><li class="navelem"><a class="el" href="../../dir_d24bca12e9309aa7fe30851098c5d03d.html">ScarletMonastery</a></li><li class="navelem"><a class="el" href="../../d5/d63/a02123.html">scarletmonastery.h</a></li>
+    <li class="footer">Generated on Mon Oct 14 2024 20:40:32 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

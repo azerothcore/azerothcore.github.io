@@ -1,9 +1,6 @@
 var a20758 =
 [
-    [ "boss_yoggsaron_keeper", "d2/db8/a20758.html#ad2098933656371b1bf80ec3ea859c418", null ],
-    [ "DoAction", "d2/db8/a20758.html#a9e3d251810b55072458003356213ae15", null ],
-    [ "JustEngagedWith", "d2/db8/a20758.html#a36bac93a46710f0cd3f51958b4e4223b", null ],
-    [ "JustSummoned", "d2/db8/a20758.html#a272a77cb6f147f38825cd68d54f56a9a", null ],
-    [ "UpdateAI", "d2/db8/a20758.html#afe9c18d91443f2ba3b2fd2a2fdd7dca5", null ],
-    [ "_summons", "d2/db8/a20758.html#aa840eff5f3d8b24225046113737936b4", null ]
+    [ "boss_yoggsaron_voiceAI", "da/d1b/a20762.html", "da/d1b/a20762" ],
+    [ "boss_yoggsaron_voice", "d2/db8/a20758.html#ae5d10416bb83e57c0e9d3ef5d6f5adc6", null ],
+    [ "GetAI", "d2/db8/a20758.html#a50abcde0313df06a114a2f5f44a1d481", null ]
 ];

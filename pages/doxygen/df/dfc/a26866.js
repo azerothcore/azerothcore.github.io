@@ -1,6 +1,5 @@
 var a26866 =
 [
-    [ "HandleHeal", "df/dfc/a26866.html#a03afbdbdc8555fc2d558a5e48f7340a0", null ],
-    [ "PrepareSpellScript", "df/dfc/a26866.html#a61a601108cd59e5d87634c02b002e20d", null ],
-    [ "Register", "df/dfc/a26866.html#ae46c965fc77aa61aaa3c426c8ecc585c", null ]
+    [ "achievement_resilient_victory", "df/dfc/a26866.html#a6224c8a4b1b1ee7c1ab09d8873e86aa8", null ],
+    [ "OnCheck", "df/dfc/a26866.html#a21445d406f67771a20608260b3f9b033", null ]
 ];

@@ -1,5 +1,6 @@
 var a24182 =
 [
-    [ "go_crystal_prison", "d6/d4b/a24182.html#a0faca8b76f9650ee5cc7825b90463365", null ],
-    [ "OnQuestAccept", "d6/d4b/a24182.html#ad19d8bdf8361d5d7fca2917a6bf0977a", null ]
+    [ "npc_kservantAI", "d1/dea/a24186.html", "d1/dea/a24186" ],
+    [ "npc_kservant", "d6/d4b/a24182.html#af04c8a87516e41f7d35071664034af9d", null ],
+    [ "GetAI", "d6/d4b/a24182.html#a3ae7327ec2ead5a2d3ffb043f18ccc09", null ]
 ];

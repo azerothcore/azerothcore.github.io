@@ -1,6 +1,5 @@
 var a22410 =
 [
-    [ "npc_released_offspring_harkoaAI", "da/dd7/a22414.html", "da/dd7/a22414" ],
-    [ "npc_released_offspring_harkoa", "d4/dca/a22410.html#a10f583320e3b617cf2b327cfb6fed6f5", null ],
-    [ "GetAI", "d4/dca/a22410.html#ae3d2a02c496be1b2606fce596625d12e", null ]
+    [ "OutdoorPvP_grizzly_hills", "d4/dca/a22410.html#aa020d8120c62874fb15b4623bbb714d9", null ],
+    [ "GetOutdoorPvP", "d4/dca/a22410.html#add8a0c81bcc55c7b382c25fa077b80ce", null ]
 ];

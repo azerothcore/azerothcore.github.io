@@ -1,9 +1,9 @@
 var a27094 =
 [
-    [ "ChatLogScript", "dd/dba/a27094.html#ade8c407083cf094f0767412e7b6d7730", null ],
-    [ "OnChat", "dd/dba/a27094.html#a44694358d5babfd988c6c64e738a4f80", null ],
-    [ "OnChat", "dd/dba/a27094.html#ac0a0f2e7d63cb5ff94be3d1a7c7a62b4", null ],
-    [ "OnChat", "dd/dba/a27094.html#a53b69eaa690266d38f08aa3920048353", null ],
-    [ "OnChat", "dd/dba/a27094.html#a7b6ce21ddcda078a0ed32ce130a3b376", null ],
-    [ "OnChat", "dd/dba/a27094.html#ab7e9d4f50e33c4ddd49e98157deb29ba", null ]
+    [ "go_tadpole_cageAI", "dd/dba/a27094.html#a87dc192a13cecf834d49cd04451224cd", null ],
+    [ "GossipHello", "dd/dba/a27094.html#a5c59db4b4d21b9e7de9bbb8835f31f2a", null ],
+    [ "OnStateChanged", "dd/dba/a27094.html#aa545ba4659b288c1ce1f5c2332d5e61f", null ],
+    [ "SummonTadpoles", "dd/dba/a27094.html#ab4903827c78b1b042cc17aef661a0b4f", null ],
+    [ "UpdateAI", "dd/dba/a27094.html#af6d4f5c3fe822815f58665a0207e3c32", null ],
+    [ "requireSummon", "dd/dba/a27094.html#a9884081855fc45776a6b12b9a68890e4", null ]
 ];

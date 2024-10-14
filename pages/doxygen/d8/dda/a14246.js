@@ -1,5 +1,6 @@
 var a14246 =
 [
-    [ "go_pumpkin_shrine", "d8/dda/a14246.html#ab9b05caa7ef7d740a0c46171c2160a19", null ],
-    [ "OnGossipSelect", "d8/dda/a14246.html#a35763a67d39c1d68974a9602ce26b699", null ]
+    [ "OnApply", "d8/dda/a14246.html#a30d33268b58507c228a4628031bffca0", null ],
+    [ "PrepareAuraScript", "d8/dda/a14246.html#a16dc3f52152d63b5512690c761f9915a", null ],
+    [ "Register", "d8/dda/a14246.html#a6494e4d7277e910ffa3b30c333117f00", null ]
 ];

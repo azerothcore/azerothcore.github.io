@@ -1,13 +1,16 @@
 var a13890 =
 [
-    [ "npc_ohganAI", "d5/dd2/a13890.html#a43f7fa66ff39bca177d30fc1d0d78080", null ],
-    [ "JustDied", "d5/dd2/a13890.html#a89e506868e3191362545e34d21528b8f", null ],
-    [ "JustEngagedWith", "d5/dd2/a13890.html#a5b6171794c5b49e8ee439de7bdc51ba5", null ],
-    [ "KilledUnit", "d5/dd2/a13890.html#a4e202eef928e54bd52160705bba5cc35", null ],
-    [ "Reset", "d5/dd2/a13890.html#ac3e1bc9dc819138741eb3b4448051547", null ],
-    [ "SetGUID", "d5/dd2/a13890.html#a5baf8e15902d4d8ff06c8410314327f6", null ],
-    [ "UpdateAI", "d5/dd2/a13890.html#aea7c169bc2b7c52ff7d4d9a5dd7a6f0a", null ],
-    [ "_scheduler", "d5/dd2/a13890.html#a838f1354e24c47e1c52e4b50e2b93c85", null ],
-    [ "instance", "d5/dd2/a13890.html#aeb6f6bddf881edf818fdc31fc639d5d5", null ],
-    [ "reviveGUID", "d5/dd2/a13890.html#afc066ae0c6d370f6632408b08de3c3bb", null ]
+    [ "boss_renatakiAI", "d5/dd2/a13890.html#ac154bfadeb99d67f59e1682de257e8bf", null ],
+    [ "CanAIAttack", "d5/dd2/a13890.html#af20dc14dc56500e568a3a11bfb34a227", null ],
+    [ "CanAlwaysBeDetectable", "d5/dd2/a13890.html#af75108eacb982586f43a175beede78ef", null ],
+    [ "CanBeSeen", "d5/dd2/a13890.html#ac79db0d4488702be0cd12b5e03a9bcb9", null ],
+    [ "CanSeeAlways", "d5/dd2/a13890.html#a6e4a1e9bec67a1bdac4c9cef3da4b17d", null ],
+    [ "DamageTaken", "d5/dd2/a13890.html#a62d97adb310b55a2235737b854dc4aca", null ],
+    [ "JustEngagedWith", "d5/dd2/a13890.html#a72e9a85d2215d3da197d50b6aa0b769e", null ],
+    [ "Reset", "d5/dd2/a13890.html#ad50d8e24fb4168186497c5cdb5b39a68", null ],
+    [ "UpdateAI", "d5/dd2/a13890.html#a3a1abaef460d9abe1298080080d74c9d", null ],
+    [ "_dynamicFlags", "d5/dd2/a13890.html#a502bfa737cf97ae909144278a3e39bd0", null ],
+    [ "_enraged", "d5/dd2/a13890.html#a71e717a2ea732729762aff7970439f74", null ],
+    [ "_thousandBladesCount", "d5/dd2/a13890.html#a29dd57c66245f30d12f32d31cc25cd55", null ],
+    [ "_thousandBladesTargets", "d5/dd2/a13890.html#ab8b2b52a2ef8ea6586381234c9a3e3fc", null ]
 ];

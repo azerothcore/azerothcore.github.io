@@ -1,5 +1,5 @@
 var a26910 =
 [
-    [ "achievement_resilient_victory", "d6/de7/a26910.html#a6224c8a4b1b1ee7c1ab09d8873e86aa8", null ],
-    [ "OnCheck", "d6/de7/a26910.html#a21445d406f67771a20608260b3f9b033", null ]
+    [ "achievement_sa_defense_of_the_ancients", "d6/de7/a26910.html#a678cffdece32710a42a92db0c092f3a5", null ],
+    [ "OnCheck", "d6/de7/a26910.html#af23e346f9b022f490b84c8081f847a2f", null ]
 ];

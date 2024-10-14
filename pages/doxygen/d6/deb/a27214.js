@@ -1,5 +1,5 @@
 var a27214 =
 [
-    [ "go_tablet_of_the_seven", "d6/deb/a27214.html#aa5bcd36c6d0250571f6721f71864ab59", null ],
-    [ "OnGossipHello", "d6/deb/a27214.html#a54d27dc2a52d69d8fd9605c358a855fc", null ]
+    [ "go_table_theka", "d6/deb/a27214.html#a9e25a1c9313437b533e1d88a2db04a58", null ],
+    [ "OnGossipHello", "d6/deb/a27214.html#ab04480f032ce074daacdc0dcfa37ee12", null ]
 ];

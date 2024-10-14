@@ -1,6 +1,6 @@
 var a24194 =
 [
-    [ "npc_shadowmoon_tuber_nodeAI", "df/d6c/a24198.html", "df/d6c/a24198" ],
-    [ "npc_shadowmoon_tuber_node", "d9/df7/a24194.html#a98e8c7a84789457900fa342cca209d41", null ],
-    [ "GetAI", "d9/df7/a24194.html#a5f641af77e2fd78fe67b34fa18bf6b73", null ]
+    [ "PrepareSpellScript", "d9/df7/a24194.html#a6b5c1227e2d12ee5f2040dc6dacd60ac", null ],
+    [ "Register", "d9/df7/a24194.html#ac57aee08a131bcf7db11bc105f32242c", null ],
+    [ "SetDest", "d9/df7/a24194.html#a26362c4873890bb60c2526bf07058746", null ]
 ];

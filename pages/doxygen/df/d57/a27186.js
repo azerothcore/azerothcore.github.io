@@ -1,7 +1,5 @@
 var a27186 =
 [
-    [ "go_pirate_day_musicAI", "df/d57/a27186.html#a1abe263949b7a07e5143779efcddc7eb", null ],
-    [ "UpdateAI", "df/d57/a27186.html#a5373bb46c866df31a3827ceb8ee4ef9b", null ],
-    [ "_events", "df/d57/a27186.html#a233ae55a05876c665455b106ef50d57e", null ],
-    [ "rnd", "df/d57/a27186.html#ad0ced4b4f569b91b5dde4ad93a298568", null ]
+    [ "go_tele_to_dalaran_crystal", "df/d57/a27186.html#ab41268b7d568e8f189338f27cd90a62c", null ],
+    [ "OnGossipHello", "df/d57/a27186.html#a7f754a29249653ca7848494310ef1a8d", null ]
 ];

@@ -1,6 +1,6 @@
 var a16478 =
 [
-    [ "if", "d9/db4/a16478.html#a05a4c1db7e7d6810209175a22db5a639", null ],
-    [ "PrepareAuraScript", "d9/db4/a16478.html#ab918782945539513ae49cff3280fc352", null ],
-    [ "absorbAmount", "d9/db4/a16478.html#a72d148ef61ff66cbc2afdb3defec15ce", null ]
+    [ "boss_novosAI", "dd/d26/a16482.html", "dd/d26/a16482" ],
+    [ "boss_novos", "d9/db4/a16478.html#a898a5ee1de69df17fde66c84dd065ac1", null ],
+    [ "GetAI", "d9/db4/a16478.html#aaf28e2a23a8139197dccc92ae29a8be4", null ]
 ];

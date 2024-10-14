@@ -1,6 +1,6 @@
 var a14538 =
 [
-    [ "boss_infinite_corruptorAI", "dc/d37/a14542.html", "dc/d37/a14542" ],
-    [ "boss_infinite_corruptor", "d2/dd0/a14538.html#a78a939073ab44b818cefdb25419f92be", null ],
-    [ "GetAI", "d2/dd0/a14538.html#ab6eaf2f9d1928817e45b092a3a87bda4", null ]
+    [ "npc_cos_chromie_start", "d2/dd0/a14538.html#ae8f810af1e593ad16958049f6ad19616", null ],
+    [ "OnGossipSelect", "d2/dd0/a14538.html#a35cba5a1b7865b07a4e843648cea50c8", null ],
+    [ "OnQuestAccept", "d2/dd0/a14538.html#aa730cb17e6cfe917bc32f7e7ae52e8ef", null ]
 ];

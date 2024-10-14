@@ -1,6 +1,6 @@
 var a24294 =
 [
-    [ "npc_slim", "df/d7c/a24294.html#aa227fbe22126bed821939873973e6a20", null ],
-    [ "OnGossipHello", "df/d7c/a24294.html#a34dafb9f3a82c1d2f52a95436345dd0b", null ],
-    [ "OnGossipSelect", "df/d7c/a24294.html#a426963b7bf831a3b5a75dcf0629917a9", null ]
+    [ "HandleDamageCalc", "df/d7c/a24294.html#a9e0f6fe8bb10950c2130fb7d1f07017a", null ],
+    [ "PrepareSpellScript", "df/d7c/a24294.html#a183477b6269dbc705a10e60ab36c13b1", null ],
+    [ "Register", "df/d7c/a24294.html#ae93d958a3a439e3401685b0d2a570f0e", null ]
 ];

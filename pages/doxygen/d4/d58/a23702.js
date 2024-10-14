@@ -1,8 +1,6 @@
 var a23702 =
 [
-    [ "boss_laj", "d4/d58/a23702.html#a3c9323ab4b5530504588ea62aed2edff", null ],
-    [ "Reset", "d4/d58/a23702.html#ace690a0662376addaa40093f3f119c31", null ],
-    [ "ScheduleTasks", "d4/d58/a23702.html#a6bd0db1ed4c963cdceb681c84469b06c", null ],
-    [ "_lastTransform", "d4/d58/a23702.html#a097eacaaf77a09bec087530bad587b11", null ],
-    [ "_transformContainer", "d4/d58/a23702.html#a313e66ceeb4e359251dad65383e7f568", null ]
+    [ "OnApply", "d4/d58/a23702.html#a472220f22165c6d21eab5f4b5f75921e", null ],
+    [ "PrepareAuraScript", "d4/d58/a23702.html#a12dba24d5aa3d41671980d8dd509d6f2", null ],
+    [ "Register", "d4/d58/a23702.html#aa8530071a4053e6c6f8b194a9cc723e2", null ]
 ];

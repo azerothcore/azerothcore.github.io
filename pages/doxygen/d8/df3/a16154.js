@@ -1,6 +1,7 @@
 var a16154 =
 [
-    [ "boss_anubarak_trialAI", "df/d0b/a16158.html", "df/d0b/a16158" ],
-    [ "boss_anubarak_trial", "d8/df3/a16154.html#a5204e33a412608b53cc155a043356d58", null ],
-    [ "GetAI", "d8/df3/a16154.html#a9b8fe9ed3370434612cbd46e7649213d", null ]
+    [ "HandleEffectPeriodic", "d8/df3/a16154.html#ab31e19327817ea9d311e50e1aff05cc5", null ],
+    [ "PrepareAuraScript", "d8/df3/a16154.html#a60c5051d0f57dae074fe0dfea9890f64", null ],
+    [ "Register", "d8/df3/a16154.html#a7e143ce548143579547135243a241f6a", null ],
+    [ "Validate", "d8/df3/a16154.html#aeea29570486b923365015b98fb4e2d0f", null ]
 ];

@@ -1,6 +1,6 @@
 var a19722 =
 [
-    [ "npc_auriaya_sanctum_sentryAI", "d1/d41/a19726.html", "d1/d41/a19726" ],
-    [ "npc_auriaya_sanctum_sentry", "d5/d8d/a19722.html#aa275374ba3a19a2e6a8768d4f01752b2", null ],
-    [ "GetAI", "d5/d8d/a19722.html#a6a8843d3f24378a2fd334e773618ab72", null ]
+    [ "boss_flame_leviathan_overload_deviceAI", "d1/d41/a19726.html", "d1/d41/a19726" ],
+    [ "boss_flame_leviathan_overload_device", "d5/d8d/a19722.html#ad00f601170c1af833aadb17eab5d19a8", null ],
+    [ "GetAI", "d5/d8d/a19722.html#a73988d2b1cfe61d0356ec1f317d90162", null ]
 ];

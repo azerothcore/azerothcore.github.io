@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/scripts/EasternKingdoms/zone_burning_steppes.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Achievements/AchievementMgr.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,126 +105,105 @@ $(document).ready(function(){initNavTree('de/d6a/a03833.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">zone_burning_steppes.cpp File Reference</div></div>
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">AchievementMgr.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureScript.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">AchievementMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">AccountMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ArenaTeam.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ArenaTeamMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Battleground.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlegroundAB.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ChatTextBuilder.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DBCEnums.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DisableMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameEventMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Guild.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GuildMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Map.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ReputationMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db6/a13270.html">npc_maredis_firestar</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4e/a13274.html">npc_maredis_firestar::npc_maredis_firestarAI</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a85e4eeb368c070d1186f1c7c07ab1a42"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42">MaredisFirestar</a> { <br />
-&#160;&#160;<a class="el" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a677909b58ffc52e1a197d376f77a711e">ITEM_LIBRAM_OF_RUMINATION</a> = 11732
-, <br />
-&#160;&#160;<a class="el" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a160f2d52664367620f0ef85b255b3277">ITEM_LIBRAM_OF_CONSTITUTION</a> = 11733
-, <br />
-&#160;&#160;<a class="el" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42acee05c856cffac557e6f7f8b4b32f173">ITEM_LIBRAM_OF_TENACITY</a> = 11734
-, <br />
-&#160;&#160;<a class="el" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a1dc0b7882355b2615ad112a6ffb2d5eb">ITEM_LIBRAM_OF_RESILIENCE</a> = 11736
-, <br />
-&#160;&#160;<a class="el" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a500bb7292e2d51375145250bffb2031f">ITEM_LIBRAM_OF_VORACITY</a> = 11737
-, <br />
-&#160;&#160;<a class="el" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a25fa31f89537239dc264cdc4afa11c44">GOSSIP_LIBRAM_OF_RUMINATION</a> = 2299
-, <br />
-&#160;&#160;<a class="el" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42ab11fb925c43c8e71171b5468f9bfbb41">GOSSIP_LIBRAM_OF_CONSTITUTION</a> = 2300
-, <br />
-&#160;&#160;<a class="el" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a7e1d61976fe826333b77ae3822af1d4e">GOSSIP_LIBRAM_OF_TENACITY</a> = 2301
-, <br />
-&#160;&#160;<a class="el" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a5c617ffeaa015ea23b065a79ac6e8bde">GOSSIP_LIBRAM_OF_RESILIENCE</a> = 2302
-, <br />
-&#160;&#160;<a class="el" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a2bc47c8c26124b40bfcf34e4fc21d733">GOSSIP_LIBRAM_OF_VORACITY</a> = 2303
-<br />
- }</td></tr>
-<tr class="separator:a85e4eeb368c070d1186f1c7c07ab1a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a8cf2165dba1d5e845d5e20fbc1ce33d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6a/a03833.html#a8cf2165dba1d5e845d5e20fbc1ce33d6">AddSC_burning_steppes</a> ()</td></tr>
-<tr class="separator:a8cf2165dba1d5e845d5e20fbc1ce33d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a5264f22d916c9472e9a16ac52140f87c"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6a/a03833.html#a5264f22d916c9472e9a16ac52140f87c">achievIdByArenaSlot</a> [<a class="el" href="../../d8/d2e/a03548.html#a3ed680b9b5f263a9c57435bf412b89f6">MAX_ARENA_SLOT</a>] = { 1057, 1107, 1108 }</td></tr>
+<tr class="separator:a5264f22d916c9472e9a16ac52140f87c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac50d520adf892744d066d8c5187046b0"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6a/a03833.html#ac50d520adf892744d066d8c5187046b0">achievIdForDungeon</a> [][4]</td></tr>
+<tr class="separator:ac50d520adf892744d066d8c5187046b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a85e4eeb368c070d1186f1c7c07ab1a42" name="a85e4eeb368c070d1186f1c7c07ab1a42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85e4eeb368c070d1186f1c7c07ab1a42">&#9670;&#160;</a></span>MaredisFirestar</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a5264f22d916c9472e9a16ac52140f87c" name="a5264f22d916c9472e9a16ac52140f87c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5264f22d916c9472e9a16ac52140f87c">&#9670;&#160;</a></span>achievIdByArenaSlot</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42">MaredisFirestar</a></td>
+          <td class="memname">const <a class="el" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> achievIdByArenaSlot[<a class="el" href="../../d8/d2e/a03548.html#a3ed680b9b5f263a9c57435bf412b89f6">MAX_ARENA_SLOT</a>] = { 1057, 1107, 1108 }</td>
         </tr>
       </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a85e4eeb368c070d1186f1c7c07ab1a42a677909b58ffc52e1a197d376f77a711e" name="a85e4eeb368c070d1186f1c7c07ab1a42a677909b58ffc52e1a197d376f77a711e"></a>ITEM_LIBRAM_OF_RUMINATION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85e4eeb368c070d1186f1c7c07ab1a42a160f2d52664367620f0ef85b255b3277" name="a85e4eeb368c070d1186f1c7c07ab1a42a160f2d52664367620f0ef85b255b3277"></a>ITEM_LIBRAM_OF_CONSTITUTION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85e4eeb368c070d1186f1c7c07ab1a42acee05c856cffac557e6f7f8b4b32f173" name="a85e4eeb368c070d1186f1c7c07ab1a42acee05c856cffac557e6f7f8b4b32f173"></a>ITEM_LIBRAM_OF_TENACITY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85e4eeb368c070d1186f1c7c07ab1a42a1dc0b7882355b2615ad112a6ffb2d5eb" name="a85e4eeb368c070d1186f1c7c07ab1a42a1dc0b7882355b2615ad112a6ffb2d5eb"></a>ITEM_LIBRAM_OF_RESILIENCE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85e4eeb368c070d1186f1c7c07ab1a42a500bb7292e2d51375145250bffb2031f" name="a85e4eeb368c070d1186f1c7c07ab1a42a500bb7292e2d51375145250bffb2031f"></a>ITEM_LIBRAM_OF_VORACITY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85e4eeb368c070d1186f1c7c07ab1a42a25fa31f89537239dc264cdc4afa11c44" name="a85e4eeb368c070d1186f1c7c07ab1a42a25fa31f89537239dc264cdc4afa11c44"></a>GOSSIP_LIBRAM_OF_RUMINATION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85e4eeb368c070d1186f1c7c07ab1a42ab11fb925c43c8e71171b5468f9bfbb41" name="a85e4eeb368c070d1186f1c7c07ab1a42ab11fb925c43c8e71171b5468f9bfbb41"></a>GOSSIP_LIBRAM_OF_CONSTITUTION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85e4eeb368c070d1186f1c7c07ab1a42a7e1d61976fe826333b77ae3822af1d4e" name="a85e4eeb368c070d1186f1c7c07ab1a42a7e1d61976fe826333b77ae3822af1d4e"></a>GOSSIP_LIBRAM_OF_TENACITY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85e4eeb368c070d1186f1c7c07ab1a42a5c617ffeaa015ea23b065a79ac6e8bde" name="a85e4eeb368c070d1186f1c7c07ab1a42a5c617ffeaa015ea23b065a79ac6e8bde"></a>GOSSIP_LIBRAM_OF_RESILIENCE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85e4eeb368c070d1186f1c7c07ab1a42a2bc47c8c26124b40bfcf34e4fc21d733" name="a85e4eeb368c070d1186f1c7c07ab1a42a2bc47c8c26124b40bfcf34e4fc21d733"></a>GOSSIP_LIBRAM_OF_VORACITY&#160;</td><td class="fielddoc"></td></tr>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a677909b58ffc52e1a197d376f77a711e">ITEM_LIBRAM_OF_RUMINATION</a>     = 11732,</div>
-<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a160f2d52664367620f0ef85b255b3277">ITEM_LIBRAM_OF_CONSTITUTION</a>   = 11733,</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42acee05c856cffac557e6f7f8b4b32f173">ITEM_LIBRAM_OF_TENACITY</a>       = 11734,</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a1dc0b7882355b2615ad112a6ffb2d5eb">ITEM_LIBRAM_OF_RESILIENCE</a>     = 11736,</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a500bb7292e2d51375145250bffb2031f">ITEM_LIBRAM_OF_VORACITY</a>       = 11737,</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a25fa31f89537239dc264cdc4afa11c44">GOSSIP_LIBRAM_OF_RUMINATION</a>   = 2299,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42ab11fb925c43c8e71171b5468f9bfbb41">GOSSIP_LIBRAM_OF_CONSTITUTION</a> = 2300,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a7e1d61976fe826333b77ae3822af1d4e">GOSSIP_LIBRAM_OF_TENACITY</a>     = 2301,</div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a5c617ffeaa015ea23b065a79ac6e8bde">GOSSIP_LIBRAM_OF_RESILIENCE</a>   = 2302,</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a2bc47c8c26124b40bfcf34e4fc21d733">GOSSIP_LIBRAM_OF_VORACITY</a>     = 2303</div>
-<div class="line"><span class="lineno">   38</span>};</div>
-<div class="ttc" id="aa03833_html_a85e4eeb368c070d1186f1c7c07ab1a42a160f2d52664367620f0ef85b255b3277"><div class="ttname"><a href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a160f2d52664367620f0ef85b255b3277">ITEM_LIBRAM_OF_CONSTITUTION</a></div><div class="ttdeci">@ ITEM_LIBRAM_OF_CONSTITUTION</div><div class="ttdef"><b>Definition:</b> zone_burning_steppes.cpp:29</div></div>
-<div class="ttc" id="aa03833_html_a85e4eeb368c070d1186f1c7c07ab1a42a1dc0b7882355b2615ad112a6ffb2d5eb"><div class="ttname"><a href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a1dc0b7882355b2615ad112a6ffb2d5eb">ITEM_LIBRAM_OF_RESILIENCE</a></div><div class="ttdeci">@ ITEM_LIBRAM_OF_RESILIENCE</div><div class="ttdef"><b>Definition:</b> zone_burning_steppes.cpp:31</div></div>
-<div class="ttc" id="aa03833_html_a85e4eeb368c070d1186f1c7c07ab1a42a25fa31f89537239dc264cdc4afa11c44"><div class="ttname"><a href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a25fa31f89537239dc264cdc4afa11c44">GOSSIP_LIBRAM_OF_RUMINATION</a></div><div class="ttdeci">@ GOSSIP_LIBRAM_OF_RUMINATION</div><div class="ttdef"><b>Definition:</b> zone_burning_steppes.cpp:33</div></div>
-<div class="ttc" id="aa03833_html_a85e4eeb368c070d1186f1c7c07ab1a42a2bc47c8c26124b40bfcf34e4fc21d733"><div class="ttname"><a href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a2bc47c8c26124b40bfcf34e4fc21d733">GOSSIP_LIBRAM_OF_VORACITY</a></div><div class="ttdeci">@ GOSSIP_LIBRAM_OF_VORACITY</div><div class="ttdef"><b>Definition:</b> zone_burning_steppes.cpp:37</div></div>
-<div class="ttc" id="aa03833_html_a85e4eeb368c070d1186f1c7c07ab1a42a500bb7292e2d51375145250bffb2031f"><div class="ttname"><a href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a500bb7292e2d51375145250bffb2031f">ITEM_LIBRAM_OF_VORACITY</a></div><div class="ttdeci">@ ITEM_LIBRAM_OF_VORACITY</div><div class="ttdef"><b>Definition:</b> zone_burning_steppes.cpp:32</div></div>
-<div class="ttc" id="aa03833_html_a85e4eeb368c070d1186f1c7c07ab1a42a5c617ffeaa015ea23b065a79ac6e8bde"><div class="ttname"><a href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a5c617ffeaa015ea23b065a79ac6e8bde">GOSSIP_LIBRAM_OF_RESILIENCE</a></div><div class="ttdeci">@ GOSSIP_LIBRAM_OF_RESILIENCE</div><div class="ttdef"><b>Definition:</b> zone_burning_steppes.cpp:36</div></div>
-<div class="ttc" id="aa03833_html_a85e4eeb368c070d1186f1c7c07ab1a42a677909b58ffc52e1a197d376f77a711e"><div class="ttname"><a href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a677909b58ffc52e1a197d376f77a711e">ITEM_LIBRAM_OF_RUMINATION</a></div><div class="ttdeci">@ ITEM_LIBRAM_OF_RUMINATION</div><div class="ttdef"><b>Definition:</b> zone_burning_steppes.cpp:28</div></div>
-<div class="ttc" id="aa03833_html_a85e4eeb368c070d1186f1c7c07ab1a42a7e1d61976fe826333b77ae3822af1d4e"><div class="ttname"><a href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42a7e1d61976fe826333b77ae3822af1d4e">GOSSIP_LIBRAM_OF_TENACITY</a></div><div class="ttdeci">@ GOSSIP_LIBRAM_OF_TENACITY</div><div class="ttdef"><b>Definition:</b> zone_burning_steppes.cpp:35</div></div>
-<div class="ttc" id="aa03833_html_a85e4eeb368c070d1186f1c7c07ab1a42ab11fb925c43c8e71171b5468f9bfbb41"><div class="ttname"><a href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42ab11fb925c43c8e71171b5468f9bfbb41">GOSSIP_LIBRAM_OF_CONSTITUTION</a></div><div class="ttdeci">@ GOSSIP_LIBRAM_OF_CONSTITUTION</div><div class="ttdef"><b>Definition:</b> zone_burning_steppes.cpp:34</div></div>
-<div class="ttc" id="aa03833_html_a85e4eeb368c070d1186f1c7c07ab1a42acee05c856cffac557e6f7f8b4b32f173"><div class="ttname"><a href="../../de/d6a/a03833.html#a85e4eeb368c070d1186f1c7c07ab1a42acee05c856cffac557e6f7f8b4b32f173">ITEM_LIBRAM_OF_TENACITY</a></div><div class="ttdeci">@ ITEM_LIBRAM_OF_TENACITY</div><div class="ttdef"><b>Definition:</b> zone_burning_steppes.cpp:30</div></div>
-</div><!-- fragment -->
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00822">AchievementMgr::UpdateAchievementCriteria()</a>.</p>
+
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a8cf2165dba1d5e845d5e20fbc1ce33d6" name="a8cf2165dba1d5e845d5e20fbc1ce33d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cf2165dba1d5e845d5e20fbc1ce33d6">&#9670;&#160;</a></span>AddSC_burning_steppes()</h2>
+<a id="ac50d520adf892744d066d8c5187046b0" name="ac50d520adf892744d066d8c5187046b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac50d520adf892744d066d8c5187046b0">&#9670;&#160;</a></span>achievIdForDungeon</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AddSC_burning_steppes </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">const <a class="el" href="../../d3/def/a00446.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> achievIdForDungeon[][4]</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   90</span>{</div>
-<div class="line"><span class="lineno">   91</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/db6/a13270.html">npc_maredis_firestar</a>();</div>
-<div class="line"><span class="lineno">   92</span>}</div>
-<div class="ttc" id="aa13270_html"><div class="ttname"><a href="../../d0/db6/a13270.html">npc_maredis_firestar</a></div><div class="ttdef"><b>Definition:</b> zone_burning_steppes.cpp:41</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    </div>
+<div class="line">    { 321,       <span class="keyword">true</span>,      <span class="keyword">true</span>,   <span class="keyword">true</span>  },</div>
+<div class="line">    { 916,       <span class="keyword">false</span>,     <span class="keyword">true</span>,   <span class="keyword">false</span> },</div>
+<div class="line">    { 917,       <span class="keyword">false</span>,     <span class="keyword">true</span>,   <span class="keyword">false</span> },</div>
+<div class="line">    { 918,       <span class="keyword">true</span>,      <span class="keyword">false</span>,  <span class="keyword">false</span> },</div>
+<div class="line">    { 2219,      <span class="keyword">false</span>,     <span class="keyword">false</span>,  <span class="keyword">true</span>  },</div>
+<div class="line">    { 0,         <span class="keyword">false</span>,     <span class="keyword">false</span>,  <span class="keyword">false</span> }</div>
+<div class="line">}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00168">AddEasternKingdomsScripts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00822">AchievementMgr::UpdateAchievementCriteria()</a>.</p>
 
 </div>
 </div>
@@ -233,8 +212,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ddeb450e5fe586f747c0635391d1d1d6.html">EasternKingdoms</a></li><li class="navelem"><a class="el" href="../../de/d6a/a03833.html">zone_burning_steppes.cpp</a></li>
-    <li class="footer">Generated on Mon Oct 7 2024 20:40:50 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_15083f8b5066937009b1e1e793a7b821.html">Achievements</a></li><li class="navelem"><a class="el" href="../../de/d6a/a03833.html">AchievementMgr.cpp</a></li>
+    <li class="footer">Generated on Mon Oct 14 2024 20:40:19 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

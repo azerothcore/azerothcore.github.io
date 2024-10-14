@@ -1,7 +1,6 @@
 var a13630 =
 [
-    [ "boss_fenstalkerAI", "d1/db3/a13630.html#a971234c97e2769a2fbf36b7a954198df", null ],
-    [ "Reset", "d1/db3/a13630.html#a91865286d096bcd5bc89a2b69addb422", null ],
-    [ "UpdateAI", "d1/db3/a13630.html#a6f1f861ff540f54eb99a30909feb922b", null ],
-    [ "volatileinf_timer", "d1/db3/a13630.html#ae18ae9cf7bcaff73bb341593b8d8b816", null ]
+    [ "npc_janalai_eggAI", "dd/dee/a13634.html", "dd/dee/a13634" ],
+    [ "npc_janalai_egg", "d1/db3/a13630.html#a3dc748dbefbbac4230603798f113697a", null ],
+    [ "GetAI", "d1/db3/a13630.html#a2ba1dd9e288342944a34b96604c6bb1e", null ]
 ];

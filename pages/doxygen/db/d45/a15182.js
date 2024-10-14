@@ -1,7 +1,7 @@
 var a15182 =
 [
-    [ "HandleEffectRemove", "db/d45/a15182.html#aa07e0bdaac9cad239bae1b24d16b433c", null ],
-    [ "PrepareAuraScript", "db/d45/a15182.html#a8ab8433afb22bbca79e028e8f082da2b", null ],
-    [ "Register", "db/d45/a15182.html#a2ee3afd6fdcb0991e419396ed65e6d4a", null ],
-    [ "AuraEffectHandleModes", "db/d45/a15182.html#af8a46c99290ce700e765c7ad5e8c866c", null ]
+    [ "npc_cork_gizeltonAI", "da/d72/a15186.html", "da/d72/a15186" ],
+    [ "npc_cork_gizelton", "db/d45/a15182.html#a915aa2abc18109e7d0197863f59536f2", null ],
+    [ "GetAI", "db/d45/a15182.html#a8a5fe5c46767aa37fd6e5b10e1bfc372", null ],
+    [ "OnQuestAccept", "db/d45/a15182.html#a11dc1fea0a24add451272b537298fc13", null ]
 ];

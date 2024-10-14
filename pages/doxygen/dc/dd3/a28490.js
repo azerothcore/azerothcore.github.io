@@ -1,8 +1,13 @@
 var a28490 =
 [
-    [ "FilterTargets", "dc/dd3/a28490.html#a3766e5ed1f75c242f45b24c90eef7e11", null ],
-    [ "HandleDummy", "dc/dd3/a28490.html#a2214b10da042a3af2fd3311872cc5286", null ],
-    [ "PrepareSpellScript", "dc/dd3/a28490.html#a9959966856601f79a83931a7a7ecff91", null ],
-    [ "Register", "dc/dd3/a28490.html#a6ac1d4f1d82aabb39526aca92636a41f", null ],
-    [ "Validate", "dc/dd3/a28490.html#a67d4b92cc494b6081247a90e8d4c9628", null ]
+    [ "MPQArchive", "dc/dd3/a28490.html#a58d57322334966ca16a22e52e5198d9f", null ],
+    [ "~MPQArchive", "dc/dd3/a28490.html#a5bce22525ca16381fbb4729540a165e2", null ],
+    [ "MPQArchive", "dc/dd3/a28490.html#a58d57322334966ca16a22e52e5198d9f", null ],
+    [ "~MPQArchive", "dc/dd3/a28490.html#a5bce22525ca16381fbb4729540a165e2", null ],
+    [ "close", "dc/dd3/a28490.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
+    [ "close", "dc/dd3/a28490.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
+    [ "GetFileListTo", "dc/dd3/a28490.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
+    [ "GetFileListTo", "dc/dd3/a28490.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
+    [ "isOpened", "dc/dd3/a28490.html#a2026335b9ede29197acfaac8513456d5", null ],
+    [ "mpq_a", "dc/dd3/a28490.html#a72b9fb96b1e3db6c7be652e426978b4a", null ]
 ];

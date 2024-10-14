@@ -1,10 +1,11 @@
 var a23726 =
 [
-    [ "CheckProc", "d0/d4f/a23726.html#ac176c59497cc2196c19dc8a1b9f8056d", null ],
-    [ "Load", "d0/d4f/a23726.html#aad39e53d6b3fc673c115f79ca0bc9b68", null ],
-    [ "PrepareAuraScript", "d0/d4f/a23726.html#a990cab2c1d9fb544bf11c9fd4e5495ac", null ],
-    [ "Register", "d0/d4f/a23726.html#ae2cf612df18cf249bc4a90ce9332fc9b", null ],
-    [ "_lastForm", "d0/d4f/a23726.html#ad392a897546cb64e550dd8b0709ba0ab", null ],
-    [ "_lastSchool", "d0/d4f/a23726.html#afc2e3e388615ed5cf0f4dd672f26de85", null ],
-    [ "_swapTime", "d0/d4f/a23726.html#af832dc200e928df3849ab7d7f93cb412", null ]
+    [ "npc_capernian", "d0/d4f/a23726.html#a0acb568664c777797eeb7104f454699d", null ],
+    [ "AttackStart", "d0/d4f/a23726.html#a81e89eacbae30a1229fda5e9fe924e2b", null ],
+    [ "JustDied", "d0/d4f/a23726.html#acf4b5b8e6c10cb87435723705f551c6f", null ],
+    [ "JustEngagedWith", "d0/d4f/a23726.html#ae2d07a3e4031a831248b84e8b36f6972", null ],
+    [ "Reset", "d0/d4f/a23726.html#ad9b91c94833a899ff33f81de2187b6ad", null ],
+    [ "UpdateAI", "d0/d4f/a23726.html#a7e9116c766fa828c9bd5d0b2118e8fa1", null ],
+    [ "_hasDied", "d0/d4f/a23726.html#a05976816642fad6c31a1ffe9066e5606", null ],
+    [ "_instance", "d0/d4f/a23726.html#a307f6f388f96df3fb0311737f8e7ce96", null ]
 ];

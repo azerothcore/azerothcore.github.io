@@ -1,26 +1,43 @@
 var a02081 =
 [
-    [ "boss_supremus", "df/d96/a22920.html", "df/d96/a22920" ],
-    [ "npc_supremus_punch_invisible_stalker", "d7/d24/a22924.html", "d7/d24/a22924" ],
-    [ "Supremus", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1ab", [
-      [ "EMOTE_NEW_TARGET", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1abacce041f211d3aacd7153648b2b22657d", null ],
-      [ "EMOTE_PUNCH_GROUND", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1aba18c2c02f5902d5eb449f84ea9b0dda48", null ],
-      [ "EMOTE_GROUND_CRACK", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1abaf6e451c3b6d1ba936baa236a0676e9da", null ],
-      [ "EMOTE_BERSERK", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1abad4a2e4c34c9e4cf25e66544b1de3bdd9", null ],
-      [ "SPELL_SNARE_SELF", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1aba088a20b95bb9f7f7225f39e5785ef4ea", null ],
-      [ "SPELL_MOLTEN_PUNCH", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1abad4325a0886f125ee1e818a2b0b78ceed", null ],
-      [ "SPELL_MOLTEN_FLAME", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1aba75a6d3be947216957892ac27dcf52a1d", null ],
-      [ "SPELL_HATEFUL_STRIKE", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1ababad6e8ef38e36b223ac12f2dbb1711b1", null ],
-      [ "SPELL_VOLCANIC_ERUPTION", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1aba35f23f72605836bef98b77ae75bb8103", null ],
-      [ "SPELL_VOLCANIC_ERUPTION_TRIGGER", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1abad1c54825503fd69f4f3beb7d4079ad6c", null ],
-      [ "SPELL_VOLCANIC_GEYSER", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1aba6c3253da2383661bc757e74284163365", null ],
-      [ "SPELL_BERSERK", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1abad7b3e50b45f9949cd0e4030ca19a6b4f", null ],
-      [ "SPELL_CHARGE", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1aba379cd345f5bd4f776413760e5e279963", null ],
-      [ "SPELL_SERVERSIDE_RANDOM_TARGET", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1aba4afeaddc7e00f338f7033e0421934935", null ],
-      [ "NPC_SUPREMUS_VOLCANO", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1aba01e88a8ace84793859cb15cd5301cf2e", null ],
-      [ "GROUP_ABILITIES", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1abab77bbe102634006229e15f0a32fb6c9a", null ],
-      [ "GROUP_MOLTEN_PUNCH", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1abafd320e90ca8fd7f4c9b70c71f92e4bd6", null ],
-      [ "GROUP_PHASE_CHANGE", "d2/d50/a02081.html#a5a2dccece1c55769858f3285c94af1aba9ef91e5b4ca91a9b1f730f400fef1c78", null ]
+    [ "npc_ranger_lilatha", "dd/d99/a13330.html", "dd/d99/a13330" ],
+    [ "npc_sentinel_leader", "df/d68/a13334.html", "df/d68/a13334" ],
+    [ "npc_sentinel_infiltrator", "d2/dc0/a13338.html", "d2/dc0/a13338" ],
+    [ "RangerLilatha", "d2/d50/a02081.html#a74dc890829d87be230ff5350c12e090a", [
+      [ "SAY_START", "d2/d50/a02081.html#a74dc890829d87be230ff5350c12e090aa2eae21cbf7d110ee89a9798ef6f00239", null ],
+      [ "SAY_PROGRESS1", "d2/d50/a02081.html#a74dc890829d87be230ff5350c12e090aa1a7ff39fa30eb8719e4a1d4d8eea41bd", null ],
+      [ "SAY_PROGRESS2", "d2/d50/a02081.html#a74dc890829d87be230ff5350c12e090aa6b66c233baa6dd334abb1b7798066894", null ],
+      [ "SAY_PROGRESS3", "d2/d50/a02081.html#a74dc890829d87be230ff5350c12e090aa541cce8e829316638c92542a766209b6", null ],
+      [ "SAY_END1", "d2/d50/a02081.html#a74dc890829d87be230ff5350c12e090aa944891a3d2f715c9e1c8f47d65f16eca", null ],
+      [ "SAY_END2", "d2/d50/a02081.html#a74dc890829d87be230ff5350c12e090aaa0efc3eab3d2447cc17568f7ceed8cba", null ],
+      [ "SAY_CAPTAIN_ANSWER", "d2/d50/a02081.html#a74dc890829d87be230ff5350c12e090aaf92ec5f68682db4db5c776edd0e207c0", null ],
+      [ "QUEST_ESCAPE_FROM_THE_CATACOMBS", "d2/d50/a02081.html#a74dc890829d87be230ff5350c12e090aaf838b4afb069e6a501691db32ccd1e16", null ],
+      [ "GO_CAGE", "d2/d50/a02081.html#a74dc890829d87be230ff5350c12e090aab8d35951eed2c9e47bed2aa4da3fab8b", null ],
+      [ "NPC_CAPTAIN_HELIOS", "d2/d50/a02081.html#a74dc890829d87be230ff5350c12e090aaf9140f9834cba6679a2dd4d3dccc02a8", null ],
+      [ "NPC_MUMMIFIED_HEADHUNTER", "d2/d50/a02081.html#a74dc890829d87be230ff5350c12e090aa981d62936965028299a53927f91db057", null ],
+      [ "NPC_SHADOWPINE_ORACLE", "d2/d50/a02081.html#a74dc890829d87be230ff5350c12e090aa84adb37d4c2fc9348d6fc31abfd0306a", null ]
     ] ],
-    [ "AddSC_boss_supremus", "d2/d50/a02081.html#aca4140213fae739c682d7d7e241294e0", null ]
+    [ "SentinelInfiltrator", "d2/d50/a02081.html#a0b373714eadff6852c9ed5560abd70e5", [
+      [ "EMOTE_FLEE", "d2/d50/a02081.html#a0b373714eadff6852c9ed5560abd70e5a9d88a2f0a0929d045f07a5386f6a4431", null ],
+      [ "EVENT_TALK2", "d2/d50/a02081.html#a0b373714eadff6852c9ed5560abd70e5a5fbd3336be08db01eeeefc355f4fa541", null ],
+      [ "EVENT_QUESTION2", "d2/d50/a02081.html#a0b373714eadff6852c9ed5560abd70e5a16f3686cedbbcd372b458f36b8fef69d", null ],
+      [ "EVENT_EXCLAMATION", "d2/d50/a02081.html#a0b373714eadff6852c9ed5560abd70e5a235ba44e8ac06bf6c5da1072784d2736", null ],
+      [ "EVENT_SALUTE", "d2/d50/a02081.html#a0b373714eadff6852c9ed5560abd70e5a20c28745aea8562e2f30166e0ceec0ea", null ],
+      [ "EVENT_GOUGE2", "d2/d50/a02081.html#a0b373714eadff6852c9ed5560abd70e5a9c0323353380c86a1dd4583ba40430da", null ],
+      [ "EVENT_BACKSTAB2", "d2/d50/a02081.html#a0b373714eadff6852c9ed5560abd70e5aaf1d9b7bb592c2a5e42e3e0f3e2671cc", null ],
+      [ "NPC_SENTINEL_INFILTRATOR", "d2/d50/a02081.html#a0b373714eadff6852c9ed5560abd70e5a7cb437b950b46596afc196f0864a74fe", null ],
+      [ "PATH_ONE", "d2/d50/a02081.html#a0b373714eadff6852c9ed5560abd70e5a9dabcd3a092570c71edfb732f847d854", null ],
+      [ "PATH_TWO", "d2/d50/a02081.html#a0b373714eadff6852c9ed5560abd70e5a5c1049e5a354a320e8c4ead179675760", null ],
+      [ "SPELL_GOUGE", "d2/d50/a02081.html#a0b373714eadff6852c9ed5560abd70e5ad29cb58b32c3fccaec3fde84e2355de6", null ]
+    ] ],
+    [ "SentinelLeader", "d2/d50/a02081.html#acb58e7629bec88c770da1efed549d96c", [
+      [ "EVENT_QUESTION", "d2/d50/a02081.html#acb58e7629bec88c770da1efed549d96cae7206febd87cb3058c3f99ed717131a7", null ],
+      [ "EVENT_TALK", "d2/d50/a02081.html#acb58e7629bec88c770da1efed549d96cad8d5fcaf7b3bfdd91e6337d222c1620f", null ],
+      [ "EVENT_SINISTER_STRIKE", "d2/d50/a02081.html#acb58e7629bec88c770da1efed549d96ca23b5677e1eb390f2bbe16d2b30a05498", null ],
+      [ "EVENT_BACKSTAB", "d2/d50/a02081.html#acb58e7629bec88c770da1efed549d96ca1c1d8055d31bb2fb8238437b243852ca", null ],
+      [ "NPC_SENTINEL_SPY", "d2/d50/a02081.html#acb58e7629bec88c770da1efed549d96cae75b24a241dff855e6dc0e3d51e0c9e9", null ],
+      [ "SPELL_SINISTER_STRIKE", "d2/d50/a02081.html#acb58e7629bec88c770da1efed549d96ca3217132d497cc70e674432067fd431a7", null ],
+      [ "SPELL_BACKSTAB", "d2/d50/a02081.html#acb58e7629bec88c770da1efed549d96ca4ff7524487add866a452db82c2791b68", null ]
+    ] ],
+    [ "AddSC_ghostlands", "d2/d50/a02081.html#a1093517f6bb08d3a1c9e52cf36b6a054", null ]
 ];

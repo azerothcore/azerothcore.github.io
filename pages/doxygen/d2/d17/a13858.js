@@ -1,9 +1,6 @@
 var a13858 =
 [
-    [ "npc_healing_ward", "d2/d17/a13858.html#a3d3c35f61502d3a83cb2581119e08903", null ],
-    [ "JustEngagedWith", "d2/d17/a13858.html#a5faf7c5633c44ec1fa70b60b2071b97b", null ],
-    [ "Reset", "d2/d17/a13858.html#a756d27a43d86c7ecde859df255c6bd62", null ],
-    [ "UpdateAI", "d2/d17/a13858.html#a8b8635af33ce814602206064e0815520", null ],
-    [ "_instance", "d2/d17/a13858.html#a65f227041ad4bdc7240637dd6cb680ec", null ],
-    [ "_scheduler", "d2/d17/a13858.html#a0c62fe945b491cab76175217a7d10c06", null ]
+    [ "LaunchHit", "d2/d17/a13858.html#a715c86c4057fe8c60abf02d895ac3c5a", null ],
+    [ "PrepareSpellScript", "d2/d17/a13858.html#a4ad316b68d84921255577aedabb5ad3f", null ],
+    [ "Register", "d2/d17/a13858.html#a50fa3ede9bebb2b54c4ec10091017c07", null ]
 ];

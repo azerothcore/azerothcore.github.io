@@ -1,6 +1,5 @@
 var a25230 =
 [
-    [ "HandleScriptEffect", "d2/d3f/a25230.html#a78a131bdf6a1406604edd130c28d664b", null ],
-    [ "PrepareSpellScript", "d2/d3f/a25230.html#a3b2d739227e57667a284ae4600ec1bb6", null ],
-    [ "Register", "d2/d3f/a25230.html#a8a70913369aa733160366f37ff1c3470", null ]
+    [ "PrepareSpellScript", "d2/d3f/a25230.html#a5e100554f868649d4edea011fe767b8b", null ],
+    [ "Register", "d2/d3f/a25230.html#a0ffb1cb313060770227621edb16c3a0d", null ]
 ];

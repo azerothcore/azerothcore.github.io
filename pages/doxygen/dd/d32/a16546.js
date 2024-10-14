@@ -1,7 +1,6 @@
 var a16546 =
 [
-    [ "HandleScript", "dd/d32/a16546.html#a927cc2ab0e5bba58a2b49e3e4e52ebaa", null ],
-    [ "PrepareSpellScript", "dd/d32/a16546.html#a71b28156c628aacbc6cb481038c0e76c", null ],
-    [ "Register", "dd/d32/a16546.html#a6f036bb2d42f248e0c252158a5ecedf1", null ],
-    [ "Validate", "dd/d32/a16546.html#a7c8a5a7c47bd7a9624028f92b1d9cf9c", null ]
+    [ "instance_drak_tharon_keep_InstanceScript", "d9/dea/a16550.html", "d9/dea/a16550" ],
+    [ "instance_drak_tharon_keep", "dd/d32/a16546.html#a1f375185dba1619fee36160549eb91f4", null ],
+    [ "GetInstanceScript", "dd/d32/a16546.html#aca6364452dc39e747af152695d479bf8", null ]
 ];

@@ -1,9 +1,8 @@
 var a14170 =
 [
-    [ "CheckCast", "d9/d12/a14170.html#a02965b55e8efadbd21e5afdd824f1dec", null ],
-    [ "FilterTargets", "d9/d12/a14170.html#a9638048b4107db116474abf8e18d7760", null ],
-    [ "HandleBeforeHit", "d9/d12/a14170.html#a3567c72e999ad6ca9db15b4d6ddadafb", null ],
-    [ "HandleScriptEffect", "d9/d12/a14170.html#a47d6a6c1fcb2b04782e54d3797c1f42c", null ],
-    [ "PrepareSpellScript", "d9/d12/a14170.html#aab9211291bd9dab8255d94e4eb07bf8e", null ],
-    [ "Register", "d9/d12/a14170.html#a73e6c9c91dccb309207fa3aeb6bd9d6f", null ]
+    [ "npc_hallows_end_train_fire", "d9/d12/a14170.html#a0aacc53a7410590e8d1f05aa8d3e37ba", null ],
+    [ "Reset", "d9/d12/a14170.html#afdda52e0adce23f56fa9d1357469a17d", null ],
+    [ "SpellHit", "d9/d12/a14170.html#a5767b2a5a2ca1813812cf078b0dd1189", null ],
+    [ "UpdateAI", "d9/d12/a14170.html#a686a565e1743c31166d8d57f67a0adce", null ],
+    [ "timer", "d9/d12/a14170.html#a7fa7d23a587ab632d1b9a2b803f83cd4", null ]
 ];

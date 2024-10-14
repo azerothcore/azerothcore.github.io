@@ -1,9 +1,10 @@
 var a19906 =
 [
-    [ "Absorb", "da/dcc/a19906.html#a16c2e931950102fc0ae5c88ef14587c1", null ],
-    [ "CalculateAmount", "da/dcc/a19906.html#a9166627cbaa536405975444c4ef601de", null ],
-    [ "Load", "da/dcc/a19906.html#abe7c08d2f26cef3603cf1b1f243f9e38", null ],
-    [ "PrepareAuraScript", "da/dcc/a19906.html#aa5793741c2f8179db68a9fb1222a9085", null ],
-    [ "Register", "da/dcc/a19906.html#a17fed57aed8953c7a7e401d1ac925e67", null ],
-    [ "_absorbPct", "da/dcc/a19906.html#ad9e1dcfd8ce7038173ac5b71d448d80a", null ]
+    [ "boss_freya_elder_ironbranchAI", "da/dcc/a19906.html#a4a7350a2bf7c813b1b18fe32566e4d56", null ],
+    [ "JustDied", "da/dcc/a19906.html#aab878773508fcbb437661d316266b942", null ],
+    [ "JustEngagedWith", "da/dcc/a19906.html#ab7b5df914ee5b22c25098c188306d123", null ],
+    [ "KilledUnit", "da/dcc/a19906.html#a7dc8d3b497c2297b35f6aec70cc5447b", null ],
+    [ "Reset", "da/dcc/a19906.html#afd87a8fc3ca55d1a91f4cc08b34095c8", null ],
+    [ "UpdateAI", "da/dcc/a19906.html#a711cd2788bff7fbc648c039921297eac", null ],
+    [ "events", "da/dcc/a19906.html#a88193ba77c8a0269a5b8bdc4f3dc96d2", null ]
 ];

@@ -1,6 +1,6 @@
 var a17678 =
 [
-    [ "PrepareSpellScript", "d8/dc3/a17678.html#a9041ce6139de9a48621d6898ddcca673", null ],
-    [ "RecalculateDamage", "d8/dc3/a17678.html#abfb7c002577a59864fb2aa069b713c0a", null ],
-    [ "Register", "d8/dc3/a17678.html#a4308449e8cbe7ed59598a837024141cb", null ]
+    [ "PrepareSpellScript", "d8/dc3/a17678.html#a16eadb50b6038f16ea28464d00df3381", null ],
+    [ "Register", "d8/dc3/a17678.html#ac6e304d391011863b8eff8105fab5191", null ],
+    [ "SelectDest", "d8/dc3/a17678.html#a8ff5d684c0b91d0f068d03698c1ee92c", null ]
 ];

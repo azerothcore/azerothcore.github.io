@@ -1,10 +1,10 @@
 var a13846 =
 [
-    [ "npc_batrider", "dd/db6/a13846.html#a6304a39ea92d48508a17dc059c47bc1b", null ],
-    [ "DamageTaken", "dd/db6/a13846.html#ad4818b1363082a91223526908c38777c", null ],
-    [ "JustEngagedWith", "dd/db6/a13846.html#a02e950fd30e4a0637d078d49c5c50d48", null ],
-    [ "Reset", "dd/db6/a13846.html#abee249da6f3bb6c2fd859812b02d7b65", null ],
-    [ "UpdateAI", "dd/db6/a13846.html#a828e5ab4b3ff52d7daf9a3a6a5412f52", null ],
-    [ "_mode", "dd/db6/a13846.html#acd53ec78a754219511af1ad2f11422a9", null ],
-    [ "_scheduler", "dd/db6/a13846.html#ad90beb6685c031a8b0ce4ec8ea3daa3f", null ]
+    [ "npc_vilebranch_speaker", "dd/db6/a13846.html#acd8dfc95c5969fe67e1386d5dbd5884b", null ],
+    [ "JustDied", "dd/db6/a13846.html#aa7708f176879db3acd50399b74e4a90c", null ],
+    [ "JustEngagedWith", "dd/db6/a13846.html#a236afb8512c2d941479f8a7c18f688a6", null ],
+    [ "Reset", "dd/db6/a13846.html#a248195a137cb91f10a882ec12974c7c5", null ],
+    [ "UpdateAI", "dd/db6/a13846.html#a75f263fa9241319b58bf77cbf1b75088", null ],
+    [ "_scheduler", "dd/db6/a13846.html#abd52bbd2ce88b011176d93ae92b851d0", null ],
+    [ "instance", "dd/db6/a13846.html#a88fb28d2c39f0da967ab6706872e68b2", null ]
 ];

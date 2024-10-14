@@ -1,38 +1,25 @@
 var a01277 =
 [
-    [ "DataHeader", "d2/d1d/a01277.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "HallsOfStoneScriptName", "d2/d1d/a01277.html#a9fc40bc4c1a59259e2da1d545d7841df", null ],
-    [ "Encounter", "d2/d1d/a01277.html#a64573ec9b8743a1169d84540f2ab9463", [
-      [ "BOSS_KRYSTALLUS", "d2/d1d/a01277.html#a64573ec9b8743a1169d84540f2ab9463a7ba125997c106b951e55bf342c21bcd1", null ],
-      [ "BOSS_MAIDEN_OF_GRIEF", "d2/d1d/a01277.html#a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c", null ],
-      [ "BOSS_TRIBUNAL_OF_AGES", "d2/d1d/a01277.html#a64573ec9b8743a1169d84540f2ab9463ac7f6f9cbdbb2cd35ff344110e2aa662b", null ],
-      [ "BOSS_SJONNIR", "d2/d1d/a01277.html#a64573ec9b8743a1169d84540f2ab9463af5f7dc4694276a77539caaf56919d5a7", null ],
-      [ "BRANN_BRONZEBEARD", "d2/d1d/a01277.html#a64573ec9b8743a1169d84540f2ab9463aa20c9c8a39f4fd5ef266aa91c761f64c", null ],
-      [ "BRANN_DOOR", "d2/d1d/a01277.html#a64573ec9b8743a1169d84540f2ab9463a7a0d142861e9dbe33e4d822c48020b7d", null ],
-      [ "MAX_ENCOUNTER", "d2/d1d/a01277.html#a64573ec9b8743a1169d84540f2ab9463a7913656ef56deb3793c0c5f3d999d80d", null ],
-      [ "DATA_BRANN_ACHIEVEMENT", "d2/d1d/a01277.html#a64573ec9b8743a1169d84540f2ab9463aa0bf8140afe40c0988666448e72ea45e", null ],
-      [ "DATA_SJONNIR_ACHIEVEMENT", "d2/d1d/a01277.html#a64573ec9b8743a1169d84540f2ab9463a46d75eb0814ac6bb50b5053af850d417", null ]
+    [ "npc_dragonflayer_forge_master", "de/dbb/a20966.html", "de/dbb/a20966" ],
+    [ "npc_dragonflayer_forge_master::npc_dragonflayer_forge_masterAI", "d7/d49/a20970.html", "d7/d49/a20970" ],
+    [ "npc_enslaved_proto_drake", "dd/d2f/a20974.html", "dd/d2f/a20974" ],
+    [ "npc_enslaved_proto_drake::npc_enslaved_proto_drakeAI", "d3/dbe/a20978.html", "d3/dbe/a20978" ],
+    [ "spell_ticking_time_bomb_aura", "d3/de6/a20982.html", "d3/de6/a20982" ],
+    [ "EnslavedProtoDrake", "d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278", [
+      [ "TYPE_PROTODRAKE_AT", "d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a67b1878880ae995cdbaec79457546a56", null ],
+      [ "DATA_PROTODRAKE_MOVE", "d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a70a656538162760f8556efa23d8e4aad", null ],
+      [ "PATH_PROTODRAKE", "d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a9657512d7b2350f4b622e2e6abbb5076", null ],
+      [ "EVENT_REND", "d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a4330423ee013a070a273cb7ffefebd5d", null ],
+      [ "EVENT_FLAME_BREATH", "d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a150e396f9798bfba68078c51afc82d40", null ],
+      [ "EVENT_KNOCKAWAY", "d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278ae40c8bf9c431d3b6ad432c7193166517", null ],
+      [ "SPELL_REND", "d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278ac553ad24710435636bd9736df18484c6", null ],
+      [ "SPELL_FLAME_BREATH", "d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a4ee087423aeceb0f7c0aa5108e9b443b", null ],
+      [ "SPELL_KNOCK_AWAY", "d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278aa72ede58fa3714726fab8d4b7252f5fa", null ],
+      [ "POINT_LAST", "d2/d1d/a01277.html#a5858242a9c3f514606e1286c62fcf278a9075532cf57e3c71280e99da7ca250ee", null ]
     ] ],
-    [ "gobjects", "d2/d1d/a01277.html#a90ca774f1a8c2c9c0ebb79f5980868b9", [
-      [ "GO_TRIBUNAL_CONSOLE", "d2/d1d/a01277.html#a90ca774f1a8c2c9c0ebb79f5980868b9a72eaa669813855239b4b45d21f67d3f2", null ],
-      [ "GO_TRIBUNAL_ACCESS_DOOR", "d2/d1d/a01277.html#a90ca774f1a8c2c9c0ebb79f5980868b9a817f5cd077aa5003e59272fd5d781cc8", null ],
-      [ "GO_KADDRAK", "d2/d1d/a01277.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4f92627b7c119df92500d601bdcf7555", null ],
-      [ "GO_MARNAK", "d2/d1d/a01277.html#a90ca774f1a8c2c9c0ebb79f5980868b9aca39bd4893330b2875c9ff0f47fbd0d5", null ],
-      [ "GO_ABEDNEUM", "d2/d1d/a01277.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4d423f09b7f646a5e91fd3a4319e624d", null ],
-      [ "GO_SKY_FLOOR", "d2/d1d/a01277.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad0205c64138779f72fe7ed8f794b537f", null ],
-      [ "GO_SJONNIR_CONSOLE", "d2/d1d/a01277.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad28a35a1d7687973b8d83632daa7c7c7", null ],
-      [ "GO_SJONNIR_DOOR", "d2/d1d/a01277.html#a90ca774f1a8c2c9c0ebb79f5980868b9a9f8ac76bebd7ea6680fdfba71cddbc84", null ],
-      [ "GO_TRIBUNAL_CHEST", "d2/d1d/a01277.html#a90ca774f1a8c2c9c0ebb79f5980868b9a60b4179cd50b218dbcd02d6b689037c6", null ],
-      [ "GO_TRIBUNAL_CHEST_H", "d2/d1d/a01277.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad8136ac890918a610fc1771425afdf55", null ],
-      [ "GO_LEFT_PIPE", "d2/d1d/a01277.html#a90ca774f1a8c2c9c0ebb79f5980868b9a5f811c762f307a0e37df5ce632c92370", null ],
-      [ "GO_RIGHT_PIPE", "d2/d1d/a01277.html#a90ca774f1a8c2c9c0ebb79f5980868b9a642e6ade65a788c0c44aa9ff6c002c7c", null ]
+    [ "TickingTimeBomb", "d2/d1d/a01277.html#a9126ee26be77d9dcf83d14c8abae1cca", [
+      [ "SPELL_TICKING_TIME_BOMB_EXPLODE", "d2/d1d/a01277.html#a9126ee26be77d9dcf83d14c8abae1ccaa7a62cc5b3c327da89b890c8c1ecac56b", null ]
     ] ],
-    [ "npcs", "d2/d1d/a01277.html#a7569620d66559dad194b4764f6faf235", [
-      [ "NPC_KADDRAK", "d2/d1d/a01277.html#a7569620d66559dad194b4764f6faf235a0fd4c992b4e05db440cc0ea73c4ffaad", null ],
-      [ "NPC_MARNAK", "d2/d1d/a01277.html#a7569620d66559dad194b4764f6faf235abda16cd2dd9306be81ee1207b9989f0d", null ],
-      [ "NPC_ABEDNEUM", "d2/d1d/a01277.html#a7569620d66559dad194b4764f6faf235af1cdba2690be5588a967c9bd8f46815d", null ],
-      [ "NPC_SJONNIR", "d2/d1d/a01277.html#a7569620d66559dad194b4764f6faf235ad018155cd74db3419f72fbf599cc6242", null ],
-      [ "NPC_BRANN", "d2/d1d/a01277.html#a7569620d66559dad194b4764f6faf235a557fa0e4f73adcfd231bf8165ef38c5c", null ]
-    ] ],
-    [ "GetHallsOfStoneAI", "d2/d1d/a01277.html#a856193f50a99a86279e43578f2b5ec0a", null ]
+    [ "AddSC_utgarde_keep", "d2/d1d/a01277.html#a3252f1bf2be160c6d8960f41e595db47", null ],
+    [ "protodrakeCheckPos", "d2/d1d/a01277.html#a0a556a898032cb18eabb6df4a3f482e1", null ]
 ];

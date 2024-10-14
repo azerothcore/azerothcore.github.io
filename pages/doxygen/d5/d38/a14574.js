@@ -1,8 +1,6 @@
 var a14574 =
 [
-    [ "npc_arthasAI", "d1/d18/a14578.html", "d1/d18/a14578" ],
-    [ "npc_arthas", "d5/d38/a14574.html#a87c280ff9861187b0a713f795e657266", null ],
-    [ "GetAI", "d5/d38/a14574.html#a4a613dd76cde27f7df834b9bb837ab6c", null ],
-    [ "OnGossipHello", "d5/d38/a14574.html#a4bd3d5dd8eebe48b525e2bd162787172", null ],
-    [ "OnGossipSelect", "d5/d38/a14574.html#aeca2f4baa3c943281c676c6498393165", null ]
+    [ "instance_old_hillsbrad_InstanceMapScript", "d1/d18/a14578.html", "d1/d18/a14578" ],
+    [ "instance_old_hillsbrad", "d5/d38/a14574.html#a1ba2d39ae8f9209055de4b944cc535d8", null ],
+    [ "GetInstanceScript", "d5/d38/a14574.html#a1929c38b1c745b2df1ccaf462113e220", null ]
 ];

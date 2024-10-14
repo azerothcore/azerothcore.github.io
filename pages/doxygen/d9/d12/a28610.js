@@ -1,12 +1,8 @@
 var a28610 =
 [
-    [ "Bounds", "d9/d12/a28610.html#a1e982b341ac3859fad38b2efc81ab8ea", null ],
-    [ "DoodadSet", "d9/d12/a28610.html#abbf6e50e76b120be17215cfcf227a524", null ],
-    [ "Flags", "d9/d12/a28610.html#a06f5e96119239356eea45b9acdadf6e1", null ],
-    [ "Id", "d9/d12/a28610.html#a952442c180e8d3710af31272b54eb6ec", null ],
-    [ "NameSet", "d9/d12/a28610.html#a55df9aed38d8cf1503b21f5fd9d5e5d0", null ],
-    [ "Position", "d9/d12/a28610.html#a7e6463db89eaf53bc20832afb1842a5b", null ],
-    [ "Rotation", "d9/d12/a28610.html#a2c04715e800b9f375c287cced96643d1", null ],
-    [ "Scale", "d9/d12/a28610.html#a142716fecae07abc013c7f3bd053c0ea", null ],
-    [ "UniqueId", "d9/d12/a28610.html#a749e920740b9e91547fe1f87933d1c7d", null ]
+    [ "Color", "d9/d12/a28610.html#a379e4cf61345dbb4d93da5a8603138c0", null ],
+    [ "NameIndex", "d9/d12/a28610.html#add893e045d13a3633fd7346457a10477", null ],
+    [ "Position", "d9/d12/a28610.html#afae9056582e71160c151de2c172bc60a", null ],
+    [ "Rotation", "d9/d12/a28610.html#a48d372bc1371fa5f94db9aa39669942a", null ],
+    [ "Scale", "d9/d12/a28610.html#aefacaaf0be0745c95ffc53f410da6e8d", null ]
 ];

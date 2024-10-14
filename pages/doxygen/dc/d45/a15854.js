@@ -1,14 +1,17 @@
 var a15854 =
 [
-    [ "boss_baltharus_the_warbornAI", "dc/d45/a15854.html#adaf6cb6ab81a461b202d40900b4b744c", null ],
-    [ "DoAction", "dc/d45/a15854.html#ab22f46e2514c10ce0e8141b3f69f069d", null ],
-    [ "InitializeAI", "dc/d45/a15854.html#ac188db2a727e2fb3c411f8616f8a2f41", null ],
-    [ "JustDied", "dc/d45/a15854.html#aaeb3e9b1bd25464cec4a1b0adf88afbe", null ],
-    [ "JustEngagedWith", "dc/d45/a15854.html#a4b670f4d89f9ed9ffeebf9d9426d79dc", null ],
-    [ "JustReachedHome", "dc/d45/a15854.html#ab178ccb3ee8bfa2649f03bfc18f1e424", null ],
-    [ "JustSummoned", "dc/d45/a15854.html#a7947c96290ea2cbe1b7ed6b6a8db65fe", null ],
-    [ "KilledUnit", "dc/d45/a15854.html#adb1a9e2af865292215c02cc1fb959cd3", null ],
-    [ "Reset", "dc/d45/a15854.html#a68e503ddac7be2f4e08d68e64aa2e725", null ],
-    [ "UpdateAI", "dc/d45/a15854.html#abe2e7188e33e70d52ab1985f821fa9c5", null ],
-    [ "_introDone", "dc/d45/a15854.html#a463209610cbc8e34d9839abeaf6df0e6", null ]
+    [ "boss_halionAI", "dc/d45/a15854.html#a24d41b904ec24029887869622fbce0eb", null ],
+    [ "AttackStart", "dc/d45/a15854.html#acad91c2b1e7e02f9662cc3342f272ae7", null ],
+    [ "CanAIAttack", "dc/d45/a15854.html#ad15cd8d44cd1779f45cacb38caa08fe2", null ],
+    [ "DamageTaken", "dc/d45/a15854.html#a911c636113639690bb6304e2f6d55499", null ],
+    [ "EnterEvadeMode", "dc/d45/a15854.html#a20e451a26914adcee83e5fb77155c59d", null ],
+    [ "IsAnyPlayerValid", "dc/d45/a15854.html#a6681f94156a46c75960038ed1ed80543", null ],
+    [ "JustDied", "dc/d45/a15854.html#a483fbaf88780d0714ffaa47bea00cc5f", null ],
+    [ "JustEngagedWith", "dc/d45/a15854.html#a16f121b5c7f3f924dc0c11adb53ff79a", null ],
+    [ "JustSummoned", "dc/d45/a15854.html#a4fdf03de55fdd35ff849a82704ce7a3c", null ],
+    [ "KilledUnit", "dc/d45/a15854.html#ac45ac7ceb0b761e90deeffcea364ceea", null ],
+    [ "Reset", "dc/d45/a15854.html#aa8c06f8a1642534efb14941d9c0d9f14", null ],
+    [ "UpdateAI", "dc/d45/a15854.html#abe0faa976bb1b14102b940fac9526e5b", null ],
+    [ "_events2", "dc/d45/a15854.html#a677448e015db869b718e15b6809586cc", null ],
+    [ "_livingEmberCount", "dc/d45/a15854.html#af6af6482467f3a08fbe1c65f3b2b1552", null ]
 ];

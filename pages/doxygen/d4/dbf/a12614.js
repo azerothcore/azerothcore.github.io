@@ -1,6 +1,8 @@
 var a12614 =
 [
-    [ "npc_scarlet_minerAI", "d3/d70/a12618.html", "d3/d70/a12618" ],
-    [ "npc_scarlet_miner", "d4/dbf/a12614.html#a8948afd8a41c23ab3afbda9949d9019d", null ],
-    [ "GetAI", "d4/dbf/a12614.html#abd2973972788ce9b39572aaa819d0690", null ]
+    [ "npc_scarlet_miner_cartAI", "d4/dbf/a12614.html#a4256e3bc9f6678dc85a3b702e1c531f8", null ],
+    [ "DoAction", "d4/dbf/a12614.html#a99ac60b1a60cc5f269aa7f02f3fd5083", null ],
+    [ "PassengerBoarded", "d4/dbf/a12614.html#a3539847efa7014a8e31a78ace83b6bc5", null ],
+    [ "SetGUID", "d4/dbf/a12614.html#a5679fef6f40d0e48547e7bd57a93a176", null ],
+    [ "minerGUID", "d4/dbf/a12614.html#a084e80b43b5b30b5e1794feff305e9b3", null ]
 ];

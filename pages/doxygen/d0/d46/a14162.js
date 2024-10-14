@@ -1,6 +1,6 @@
 var a14162 =
 [
-    [ "gameobjectId", "d0/d46/a14162.html#a5cebf652fccc66cb5f98968036405d14", null ],
-    [ "spawnIndex", "d0/d46/a14162.html#a5e8b95d6ecf69db8736941b67e2478d8", null ],
-    [ "timestamp", "d0/d46/a14162.html#a0c49f62b35e906637890fee896c74951", null ]
+    [ "npc_soh_fire_trigger", "d0/d46/a14162.html#a8bddde264f4848c9a8ed83dcad190223", null ],
+    [ "Reset", "d0/d46/a14162.html#acbec442907a8b40ae04496c53f210aa2", null ],
+    [ "SpellHit", "d0/d46/a14162.html#a6b96cc998d38c9fbf0ce93e0529c0f4c", null ]
 ];

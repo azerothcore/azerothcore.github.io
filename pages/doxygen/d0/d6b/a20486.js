@@ -1,5 +1,6 @@
 var a20486 =
 [
-    [ "achievement_iron_dwarf_medium_rare", "d0/d6b/a20486.html#afb3716aab7693ba0493db24999e4b1ee", null ],
-    [ "OnCheck", "d0/d6b/a20486.html#aabef3a345057265ac70c6cc0c98d552d", null ]
+    [ "boss_thorim_start_npcsAI", "dc/d56/a20490.html", "dc/d56/a20490" ],
+    [ "boss_thorim_start_npcs", "d0/d6b/a20486.html#a3aa11a487ae00b2e397fd25ed2e42702", null ],
+    [ "GetAI", "d0/d6b/a20486.html#a6c529b19d071b4966ccc74b44279cb08", null ]
 ];

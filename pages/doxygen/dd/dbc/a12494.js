@@ -1,7 +1,6 @@
 var a12494 =
 [
-    [ "boss_garaxxas", "dd/dbc/a12494.html#af34e3ef5dac400fb7c217f46345ee9bb", null ],
-    [ "JustEngagedWith", "dd/dbc/a12494.html#aebfd7b63d714468ed69e920fb89c345d", null ],
-    [ "Reset", "dd/dbc/a12494.html#a56e6489ce49971cb066444888355626e", null ],
-    [ "UpdateAI", "dd/dbc/a12494.html#a26c8ced268eba327211ad07be8293e9b", null ]
+    [ "boss_warlord_salaris", "dd/dbc/a12494.html#afe9ace28dcd302e9b9a9ebe806e2ada5", null ],
+    [ "JustEngagedWith", "dd/dbc/a12494.html#a77b3b531466810ee17f9fd6eadf5872a", null ],
+    [ "UpdateAI", "dd/dbc/a12494.html#a265aab47f95d952125c98773b53a67bf", null ]
 ];

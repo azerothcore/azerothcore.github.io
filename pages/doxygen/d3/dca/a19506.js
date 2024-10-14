@@ -1,6 +1,6 @@
 var a19506 =
 [
-    [ "boss_sjonnir_malformed_oozeAI", "df/d00/a19510.html", "df/d00/a19510" ],
-    [ "boss_sjonnir_malformed_ooze", "d3/dca/a19506.html#ad151bc07b032b6cceed046d1b25ecc08", null ],
-    [ "GetAI", "d3/dca/a19506.html#a22807bb07692511c5ec87073d98c2604", null ]
+    [ "instance_halls_of_stone_InstanceMapScript", "df/d00/a19510.html", "df/d00/a19510" ],
+    [ "instance_halls_of_stone", "d3/dca/a19506.html#ad0237cfaf2e48036f45181fd7746df2b", null ],
+    [ "GetInstanceScript", "d3/dca/a19506.html#a784906c7710a216016101cf7a6a915f3", null ]
 ];

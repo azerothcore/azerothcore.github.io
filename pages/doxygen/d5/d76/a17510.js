@@ -1,8 +1,7 @@
 var a17510 =
 [
-    [ "Load", "d5/d76/a17510.html#ad1105149d5e42318382af6c07149d522", null ],
-    [ "PeriodicTick", "d5/d76/a17510.html#a8e675178256746d08af50a6b75ec582e", null ],
-    [ "PrepareAuraScript", "d5/d76/a17510.html#a88f4baca7ceac44e5d148b73386a10a7", null ],
-    [ "Register", "d5/d76/a17510.html#a0fa7d86214827711edd019dd3b40c667", null ],
-    [ "_tickNo", "d5/d76/a17510.html#a418212d2daa873d69a83b4c1341a8903", null ]
+    [ "HandleScript", "d5/d76/a17510.html#ae3e8d811d3ad6561768dfff3a16ec9bd", null ],
+    [ "PrepareSpellScript", "d5/d76/a17510.html#ab69926839f72ee76eba2b225aba9690c", null ],
+    [ "Register", "d5/d76/a17510.html#aad8925e891d7537993f02f3bc2552fea", null ],
+    [ "SelectRandomTarget", "d5/d76/a17510.html#aae77f6693a3e5d01e3d05cb990fd1fe5", null ]
 ];

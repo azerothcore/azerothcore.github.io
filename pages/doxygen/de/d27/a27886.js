@@ -1,7 +1,7 @@
 var a27886 =
 [
-    [ "CalculateSpellAmount", "de/d27/a27886.html#a2f93ff69f30b243fe787d72f78a2d159", null ],
-    [ "CheckCast", "de/d27/a27886.html#af043f7ee0f80baf667e64225effd57d1", null ],
-    [ "PrepareSpellScript", "de/d27/a27886.html#a233ac4020722078d865cf980d7fa76cf", null ],
-    [ "Register", "de/d27/a27886.html#a3648ecd94430e21dd014795156c1eb98", null ]
+    [ "Class", "de/d27/a27886.html#abaaa0cd4d1b7f3ef5b297c5afdbc99fe", null ],
+    [ "Gender", "de/d27/a27886.html#aba6251a7020c6e66b9fc7a21859df271", null ],
+    [ "ItemId", "de/d27/a27886.html#a7d17ef6151f6b746223e44164ab5c20d", null ],
+    [ "Race", "de/d27/a27886.html#aee768679c4b8ee7cd28ea3fa899206e3", null ]
 ];

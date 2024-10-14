@@ -1,6 +1,6 @@
 var a18610 =
 [
-    [ "HandleScript", "df/d97/a18610.html#a33f15ecf0c0ff013d03742cb2130f372", null ],
-    [ "PrepareSpellScript", "df/d97/a18610.html#ab3a832cf53f4438db0d9e58b89c0ef7f", null ],
-    [ "Register", "df/d97/a18610.html#ad0c6d34103244cded41481c745dafe58", null ]
+    [ "npc_icc_valkyr_heraldAI", "d9/dde/a18614.html", "d9/dde/a18614" ],
+    [ "npc_icc_valkyr_herald", "df/d97/a18610.html#a9d06e0dec8cb960d34c2089c1c0d8ccb", null ],
+    [ "GetAI", "df/d97/a18610.html#a7537269841d0380d2dc9e4641705acf9", null ]
 ];

@@ -1,6 +1,6 @@
 var a00632 =
 [
-    [ "TSpellSummary", "dc/d9a/a06090.html", "dc/d9a/a06090" ],
-    [ "SCR_CLEAR", "d4/d2a/a00632.html#ab71e08e3f39b7ee7bda0306cd39b96a0", null ],
-    [ "SpellSummary", "d4/d2a/a00632.html#ae56af266ccaa1794f1f014938b07e9cc", null ]
+    [ "debug_commandscript", "d2/da2/a11302.html", "d2/da2/a11302" ],
+    [ "debug_commandscript::CreatureCountWorker", "d2/dfa/a11306.html", "d2/dfa/a11306" ],
+    [ "AddSC_debug_commandscript", "d4/d2a/a00632.html#abae44bbc8eb2fb66a5596017ea83583f", null ]
 ];

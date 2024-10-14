@@ -1,6 +1,12 @@
 var a23458 =
 [
-    [ "instance_gruuls_lair_InstanceMapScript", "dd/d44/a23462.html", "dd/d44/a23462" ],
-    [ "instance_gruuls_lair", "d5/d4d/a23458.html#ae091404d09e614fe893c20e8ed90d2c4", null ],
-    [ "GetInstanceScript", "d5/d4d/a23458.html#ab8b5b000f6099111244b4ea48f0ab029", null ]
+    [ "boss_nazan", "d5/d4d/a23458.html#a4390d3e181c4db46e364df3302612763", null ],
+    [ "AttackStart", "d5/d4d/a23458.html#a7acea69f908e7a004c2a78c103528975", null ],
+    [ "DoAction", "d5/d4d/a23458.html#abdb49e50dabda61c5d16b420ae69ae77", null ],
+    [ "EnterEvadeMode", "d5/d4d/a23458.html#ab6338a7d240014e548b22044b788ce8f", null ],
+    [ "JustEngagedWith", "d5/d4d/a23458.html#a4d44b759530f32207a46a608fb7d6209", null ],
+    [ "MovementInform", "d5/d4d/a23458.html#ad35866322ff55263b1f8b105d2cad952", null ],
+    [ "Reset", "d5/d4d/a23458.html#a5c10e932075130399a9127869f45ce1d", null ],
+    [ "UpdateAI", "d5/d4d/a23458.html#a17942f19444ad324058d7b8c8a9aa9de", null ],
+    [ "_scheduler", "d5/d4d/a23458.html#a8915d84ec4ffb8dade18041d5e910018", null ]
 ];

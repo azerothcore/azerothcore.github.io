@@ -1,12 +1,12 @@
 var a19682 =
 [
-    [ "npc_assembly_lightningAI", "df/ddb/a19682.html#a4b778b6545e7c93e66a07160db793651", null ],
-    [ "AttackStart", "df/ddb/a19682.html#afd4657e8c6a2eb39346e99cb54a7ab1a", null ],
-    [ "EnterEvadeMode", "df/ddb/a19682.html#a4c0bb838053412a3945648ed1a5a13b9", null ],
-    [ "MoveInLineOfSight", "df/ddb/a19682.html#a077f788e67cdb67683ac13f3a3d1322b", null ],
-    [ "MovementInform", "df/ddb/a19682.html#a95227f93c5ac6871bfcea603ebb2188d", null ],
-    [ "OnCharmed", "df/ddb/a19682.html#aa08e4c286723c76251bd75aa54b24f5f", null ],
-    [ "Reset", "df/ddb/a19682.html#a1f03885bfd91d9b9cdde1d90b51d2c96", null ],
-    [ "UpdateAI", "df/ddb/a19682.html#a94edd1ea5278bd5ca8d5d64619e9c8b4", null ],
-    [ "_boomed", "df/ddb/a19682.html#aa6b4a46674a7d4106a49ef308ec27b9e", null ]
+    [ "npc_auriaya_feral_defenderAI", "df/ddb/a19682.html#a32e6fa30e4c56fdd055a728ba7227beb", null ],
+    [ "DoAction", "df/ddb/a19682.html#a2b0a176dba865e90bdc22727b2860509", null ],
+    [ "JustDied", "df/ddb/a19682.html#a7e9c49d8dc47663e70c8fcbed68746e5", null ],
+    [ "Reset", "df/ddb/a19682.html#ae127a88f18f3348a0bc388d79dcd13d4", null ],
+    [ "UpdateAI", "df/ddb/a19682.html#a1edc249808e1ebdb88605c56e19c272a", null ],
+    [ "_feralEssenceStack", "df/ddb/a19682.html#aab51096b8f57528a0a27e23a306d6762", null ],
+    [ "_feralPounceTimer", "df/ddb/a19682.html#ab91df5ebee9c12d067ff83ee64effece", null ],
+    [ "_feralRushTimer", "df/ddb/a19682.html#aa45e0baf1ad43cc4b2c223d1b9d1c3c6", null ],
+    [ "summons", "df/ddb/a19682.html#a599679f93e4fc4b3b9aa00ea33dcb047", null ]
 ];

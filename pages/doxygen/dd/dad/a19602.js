@@ -1,6 +1,5 @@
 var a19602 =
 [
-    [ "npc_algalon_worm_holeAI", "db/da5/a19606.html", "db/da5/a19606" ],
-    [ "npc_algalon_worm_hole", "dd/dad/a19602.html#a72516a4824fa61a331caff46d2784c64", null ],
-    [ "GetAI", "dd/dad/a19602.html#aac6ff3a41f08f5a11baa78c0526a3556", null ]
+    [ "achievement_algalon_herald_of_the_titans", "dd/dad/a19602.html#a13c75b878f4669d212eeb09b55336384", null ],
+    [ "OnCheck", "dd/dad/a19602.html#a20811d7bb453b1758967c11545e630e9", null ]
 ];

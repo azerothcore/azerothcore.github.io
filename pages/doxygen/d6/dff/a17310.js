@@ -1,9 +1,7 @@
 var a17310 =
 [
-    [ "CheckProc", "d6/dff/a17310.html#a13426f7a45e9434f980b42f174b22da8", null ],
-    [ "HandlePeriodicTick", "d6/dff/a17310.html#a6380b4d03e4c48cd1a1f89227a1ebae8", null ],
-    [ "HandleProc", "d6/dff/a17310.html#abf744d64dae5835bff3877eeaa919af3", null ],
-    [ "PrepareAuraScript", "d6/dff/a17310.html#a5836fb240ae612d36a9e80c88bebdc48", null ],
-    [ "Register", "d6/dff/a17310.html#a1b72c10256365de71b8f9fadf5886338", null ],
-    [ "Validate", "d6/dff/a17310.html#acc3a0e0ae60291646514c1ae6f41f421", null ]
+    [ "ExtraEffect", "d6/dff/a17310.html#a65b5bc8d053a69325f42a7f23ae4dbdc", null ],
+    [ "PrepareAuraScript", "d6/dff/a17310.html#a53d6013e5ec473854e1537969cb31988", null ],
+    [ "Register", "d6/dff/a17310.html#a85be360bb15482ff34b7f1d04d949b1d", null ],
+    [ "Validate", "d6/dff/a17310.html#ab14e7410cf542d9f4043800a3b86c664", null ]
 ];

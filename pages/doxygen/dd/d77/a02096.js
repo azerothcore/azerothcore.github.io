@@ -1,17 +1,21 @@
 var a02096 =
 [
-    [ "SplineHandler", "d1/d54/a08428.html", "d1/d54/a08428" ],
-    [ "spellIdImmunityPredicate", "d5/d3e/a08432.html", "d5/d3e/a08432" ],
-    [ "ProcTriggeredData", "d2/d95/a08436.html", "d2/d95/a08436" ],
-    [ "AuraMunchingQueue", "d3/d5b/a08440.html", "d3/d5b/a08440" ],
-    [ "ProcTriggeredList", "dd/d77/a02096.html#af5ec5d5b1ba4d4454c1bdcbc139de758", null ],
-    [ "createProcExtendMask", "dd/d77/a02096.html#afb539370dad036ff97905efdbb4270c0", null ],
-    [ "createProcFlags", "dd/d77/a02096.html#a7d920511c20f084098c0f68a75006159", null ],
-    [ "InitTriggerAuraData", "dd/d77/a02096.html#a70fb722e03fe637ce7c9979a00725a3c", null ],
-    [ "baseMoveSpeed", "dd/d77/a02096.html#a2ede1cce0416c74db2d4599bab36eb57", null ],
-    [ "isAlwaysTriggeredAura", "dd/d77/a02096.html#a59735a3ed46ce3add4f949e4c9e041f8", null ],
-    [ "isNonTriggerAura", "dd/d77/a02096.html#a993ff0928a2b90204efd437a0726e787", null ],
-    [ "isTriggerAura", "dd/d77/a02096.html#ad51bed43268eefcceebdda05d85c6a61", null ],
-    [ "playerBaseMoveSpeed", "dd/d77/a02096.html#afef08589b9944f10d66bdc1de74d0270", null ],
-    [ "procPrepared", "dd/d77/a02096.html#a11410c456e972de7cfb44bbe17709cc4", null ]
+    [ "LocationXYZ", "d6/d72/a13342.html", "d6/d72/a13342" ],
+    [ "npc_rinji", "d3/d4e/a13346.html", "d3/d4e/a13346" ],
+    [ "npc_rinji::npc_rinjiAI", "d0/d3e/a13350.html", "d0/d3e/a13350" ],
+    [ "Rinji", "dd/d77/a02096.html#ab769c87cc823749a5fe9cc0ed4f59133", [
+      [ "SAY_RIN_BY_OUTRUNNER", "dd/d77/a02096.html#ab769c87cc823749a5fe9cc0ed4f59133a3aaaf930cf9ab49ca1d76cc6ed5e766c", null ],
+      [ "SAY_RIN_FREE", "dd/d77/a02096.html#ab769c87cc823749a5fe9cc0ed4f59133a18a3ea60620bdbd5ef82292e56df01d3", null ],
+      [ "SAY_RIN_HELP", "dd/d77/a02096.html#ab769c87cc823749a5fe9cc0ed4f59133af6414cba0564a077856ea0ee01cde0e0", null ],
+      [ "SAY_RIN_COMPLETE", "dd/d77/a02096.html#ab769c87cc823749a5fe9cc0ed4f59133a2e8b271174b0c30e02c7d465daca4632", null ],
+      [ "SAY_RIN_PROGRESS_1", "dd/d77/a02096.html#ab769c87cc823749a5fe9cc0ed4f59133a8f06b066d2b30fd7440ab8d0c0450aa5", null ],
+      [ "SAY_RIN_PROGRESS_2", "dd/d77/a02096.html#ab769c87cc823749a5fe9cc0ed4f59133a9d77a031db4f3a40f412949a95be80c5", null ],
+      [ "QUEST_RINJI_TRAPPED", "dd/d77/a02096.html#ab769c87cc823749a5fe9cc0ed4f59133aeb5734ecb62da42fe708673351c073e8", null ],
+      [ "NPC_RANGER", "dd/d77/a02096.html#ab769c87cc823749a5fe9cc0ed4f59133aec7fcfc9b715f5aeadff781115a0e69e", null ],
+      [ "NPC_OUTRUNNER", "dd/d77/a02096.html#ab769c87cc823749a5fe9cc0ed4f59133abc36fa763814aa6d572492b462e191a2", null ],
+      [ "GO_RINJI_CAGE", "dd/d77/a02096.html#ab769c87cc823749a5fe9cc0ed4f59133a8b71e8dfde4865f3891f672d000410fb", null ]
+    ] ],
+    [ "AddSC_hinterlands", "dd/d77/a02096.html#a0b6f7497a7db75be5fe9d90d14c46720", null ],
+    [ "AmbushMoveTo", "dd/d77/a02096.html#aa2e998c0f3d966c32be9106221fe957c", null ],
+    [ "AmbushSpawn", "dd/d77/a02096.html#ace1d91ebeb7be507ec886616fad7eef4", null ]
 ];

@@ -1,6 +1,10 @@
 var a19378 =
 [
-    [ "npc_stormforged_lieutenantAI", "d5/d41/a19382.html", "d5/d41/a19382" ],
-    [ "npc_stormforged_lieutenant", "d3/d16/a19378.html#ab58a73d33c6545815511c5c4f0ecfd9e", null ],
-    [ "GetAI", "d3/d16/a19378.html#ae3aba4b53e73097c261eaaed19f17950", null ]
+    [ "npc_molten_golemAI", "d3/d16/a19378.html#a5172d70649be5030fd91e1adbcad4f06", null ],
+    [ "DamageTaken", "d3/d16/a19378.html#a0dd2ca5b83f5d75c51dfa358544c018a", null ],
+    [ "DoAction", "d3/d16/a19378.html#ada2e9c39ce16f00b47df2f52971d99b1", null ],
+    [ "Reset", "d3/d16/a19378.html#a9f90e791c77377c02c66e5d809c555cc", null ],
+    [ "UpdateAI", "d3/d16/a19378.html#ade3cfd0deb27508f5f084b1b49caf13f", null ],
+    [ "events", "d3/d16/a19378.html#ad97142df8344df59eddfb92471d1a737", null ],
+    [ "m_pInstance", "d3/d16/a19378.html#ad1a300c13e98965b935c1e3fc26b9606", null ]
 ];

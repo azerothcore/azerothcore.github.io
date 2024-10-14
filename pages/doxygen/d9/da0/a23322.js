@@ -1,10 +1,12 @@
 var a23322 =
 [
-    [ "boss_warlord_kalithresh", "d9/da0/a23322.html#afcf2288fbea2d5010c41344ce0247559", null ],
-    [ "JustDied", "d9/da0/a23322.html#a1947562aa9dafea371e2f2da824a3f65", null ],
-    [ "JustEngagedWith", "d9/da0/a23322.html#a2712f5c363c3929550b77ef2536b1385", null ],
-    [ "KilledUnit", "d9/da0/a23322.html#a06855288497f5335a236867ef681d3f8", null ],
-    [ "MoveInLineOfSight", "d9/da0/a23322.html#a544da19b6c3a6f159ed6b1639def1071", null ],
-    [ "Reset", "d9/da0/a23322.html#a89e3bac7eeb3a77e0a7a22d8de9f1024", null ],
-    [ "_introDone", "d9/da0/a23322.html#a8e07118bb6fa249178cc081e2b393d2d", null ]
+    [ "boss_swamplord_muselek", "d9/da0/a23322.html#a94ca982b8b9c1785a59040d23e72fc0e", null ],
+    [ "AttackStart", "d9/da0/a23322.html#a0732fdf14c972ae955eb43417a6d86a1", null ],
+    [ "CanShootVictim", "d9/da0/a23322.html#af84af5e4b344fc5f5da9f2047519710a", null ],
+    [ "JustDied", "d9/da0/a23322.html#a4020748c43bf03cb338e3d64a1dfd840", null ],
+    [ "JustEngagedWith", "d9/da0/a23322.html#a7b22bff5b78dcd1e5e1cc42858735655", null ],
+    [ "KilledUnit", "d9/da0/a23322.html#a9f2afd6aacb9befa956079a42fbace37", null ],
+    [ "Reset", "d9/da0/a23322.html#a6e03d7feca2de668c82d8f056d95fc6a", null ],
+    [ "_canChase", "d9/da0/a23322.html#aca3298f0e9bbbd7366f4e6456cfff621", null ],
+    [ "_markTarget", "d9/da0/a23322.html#a957d3f9ad935dbfa0537c75e39316ce3", null ]
 ];

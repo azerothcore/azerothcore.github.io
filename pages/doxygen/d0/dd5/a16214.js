@@ -1,6 +1,8 @@
 var a16214 =
 [
-    [ "HandleAfterHit", "d0/dd5/a16214.html#a72252694da7e453387e9d79d12e7e2a4", null ],
-    [ "PrepareSpellScript", "d0/dd5/a16214.html#aff18e189296f7379a8fde5ad6eab8ada", null ],
-    [ "Register", "d0/dd5/a16214.html#aa6c511fa8eb6d1123be1243bac7f0606", null ]
+    [ "npc_toc_warlockAI", "d0/dd5/a16214.html#a4c4c2f502f00ca48bb7419434d88ea3a", null ],
+    [ "JustSummoned", "d0/dd5/a16214.html#a203ef748afaa400aa1f8365b5d7bf6b1", null ],
+    [ "myCanCast", "d0/dd5/a16214.html#a62b2df362bc07aa4a9c14cbc63a10e05", null ],
+    [ "UpdateAI", "d0/dd5/a16214.html#a554849d02d923439bd810b7d8c242afa", null ],
+    [ "events", "d0/dd5/a16214.html#a3b84c70d246bbf5b70ab4dec06c647b3", null ]
 ];

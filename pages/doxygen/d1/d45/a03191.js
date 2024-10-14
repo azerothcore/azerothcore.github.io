@@ -1,5 +1,5 @@
 var a03191 =
 [
-    [ "go_commandscript", "d0/dfa/a11326.html", "d0/dfa/a11326" ],
-    [ "AddSC_go_commandscript", "d1/d45/a03191.html#a95fcb467686a27e069827ed3775df197", null ]
+    [ "keyData", "de/d4c/a11162.html", "de/d4c/a11162" ],
+    [ "GetWardenActionStr", "d1/d45/a03191.html#a4e3c0063e5bf94a2e640c7b887fe14fc", null ]
 ];

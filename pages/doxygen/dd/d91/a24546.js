@@ -1,9 +1,6 @@
 var a24546 =
 [
-    [ "CheckCast", "dd/d91/a24546.html#ad68a099d3167534be3d9978d1fc2b4fe", null ],
-    [ "EntryCheck", "dd/d91/a24546.html#a8e8578447aafeea4a62e028dbe6c7419", null ],
-    [ "HandleBaseDummy", "dd/d91/a24546.html#a8534cc52f42f0598088bf8500dd5e0e5", null ],
-    [ "HandleDummy", "dd/d91/a24546.html#a34d9f5699f306b27830ced2129be506c", null ],
-    [ "PrepareSpellScript", "dd/d91/a24546.html#af7aff878540dd34138aa479f532611b6", null ],
-    [ "Register", "dd/d91/a24546.html#a78321d1589e8d7f7fe8957a4939b6197", null ]
+    [ "RaiseDeadCheck", "dd/d91/a24546.html#abc6439e5b457f2f6e832f504167a392d", null ],
+    [ "operator()", "dd/d91/a24546.html#a9647e6afd21e7397f05349e66bea4326", null ],
+    [ "_caster", "dd/d91/a24546.html#a7b1647934c5e64de65d38b9fba2d343a", null ]
 ];

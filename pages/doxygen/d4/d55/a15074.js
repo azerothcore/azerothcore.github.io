@@ -1,8 +1,6 @@
 var a15074 =
 [
-    [ "npc_obsidian_eradicator", "d4/d55/a15074.html#a84a6c414b3d74468143984e57f83e383", null ],
-    [ "JustEngagedWith", "d4/d55/a15074.html#ab03b7138306a04a00938bf1cdb9a7966", null ],
-    [ "Reset", "d4/d55/a15074.html#a7c76c7d3a69e464c0dcb6a96226baa61", null ],
-    [ "UpdateAI", "d4/d55/a15074.html#a1697d83e89559f047d5bab652007bb61", null ],
-    [ "_targetGUIDs", "d4/d55/a15074.html#abd83775d1eab5ab2a3aadd7fd925c3ae", null ]
+    [ "npc_depth_chargeAI", "d7/d8d/a15078.html", "d7/d8d/a15078" ],
+    [ "npc_depth_charge", "d4/d55/a15074.html#ad16e3431b06fdd6797bfb51dda9005f5", null ],
+    [ "GetAI", "d4/d55/a15074.html#a16de1a207304ea2ad7f47d5674deeec1", null ]
 ];

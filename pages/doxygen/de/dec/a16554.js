@@ -1,6 +1,7 @@
 var a16554 =
 [
-    [ "boss_tharon_jaAI", "d6/d43/a16558.html", "d6/d43/a16558" ],
-    [ "boss_tharon_ja", "de/dec/a16554.html#ac34f8f33ea75dc0107222d3720788f7a", null ],
-    [ "GetAI", "de/dec/a16554.html#ab24612418cb66ed0c1e64fba5ebaa50f", null ]
+    [ "HandleEffectRemove", "de/dec/a16554.html#aa6a118f956cbdc5ad1ce0109c3a0e8e3", null ],
+    [ "Load", "de/dec/a16554.html#a71a31b421f192662c14bd6bf3d5eed9f", null ],
+    [ "PrepareAuraScript", "de/dec/a16554.html#a97411ddf89a10a962ba74d294eb653e7", null ],
+    [ "Register", "de/dec/a16554.html#a1207c9b2ba2e110c3f6c1309f5329d2a", null ]
 ];

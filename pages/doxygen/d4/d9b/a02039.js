@@ -1,16 +1,23 @@
 var a02039 =
 [
-    [ "WorldPackets::Misc::Weather", "d1/d4e/a10466.html", "d1/d4e/a10466" ],
-    [ "WorldPackets::Misc::LevelUpInfo", "da/d14/a10470.html", "da/d14/a10470" ],
-    [ "WorldPackets::Misc::PlayMusic", "d1/df0/a10474.html", "d1/df0/a10474" ],
-    [ "WorldPackets::Misc::PlayObjectSound", "d0/dd2/a10478.html", "d0/dd2/a10478" ],
-    [ "WorldPackets::Misc::Playsound", "df/d55/a10482.html", "df/d55/a10482" ],
-    [ "WorldPackets::Misc::RandomRollClient", "dd/d95/a10486.html", "dd/d95/a10486" ],
-    [ "WorldPackets::Misc::RandomRoll", "d6/df4/a10490.html", "d6/df4/a10490" ],
-    [ "WorldPackets::Misc::StartMirrorTimer", "de/da7/a10494.html", "de/da7/a10494" ],
-    [ "WorldPackets::Misc::PauseMirrorTimer", "d2/d5f/a10498.html", "d2/d5f/a10498" ],
-    [ "WorldPackets::Misc::StopMirrorTimer", "dc/d63/a10502.html", "dc/d63/a10502" ],
-    [ "WorldPackets::Misc::DurabilityDamageDeath", "dc/d06/a10506.html", "dc/d06/a10506" ],
-    [ "WorldPackets::Misc::CrossedInebriationThreshold", "dd/d31/a10510.html", "dd/d31/a10510" ],
-    [ "WorldPackets::Misc::UITime", "db/ddb/a10514.html", "db/ddb/a10514" ]
+    [ "boss_ghazan", "d0/d55/a23298.html", "d0/d55/a23298" ],
+    [ "at_underbog_ghazan", "d7/d72/a23302.html", "d7/d72/a23302" ],
+    [ "eBlackStalker", "d4/d9b/a02039.html#afbee42c6927db9ad2cf9d9096eeac954", [
+      [ "SPELL_ACID_BREATH", "d4/d9b/a02039.html#afbee42c6927db9ad2cf9d9096eeac954af39adcb38f10e84d7ff9bac76f41031c", null ],
+      [ "SPELL_ACID_SPIT", "d4/d9b/a02039.html#afbee42c6927db9ad2cf9d9096eeac954af69c625b663facf12cc5d8a20a280806", null ],
+      [ "SPELL_TAIL_SWEEP", "d4/d9b/a02039.html#afbee42c6927db9ad2cf9d9096eeac954addcb3daa6cdc61ef04c65580e44ef823", null ],
+      [ "SPELL_ENRAGE", "d4/d9b/a02039.html#afbee42c6927db9ad2cf9d9096eeac954a2a20f56307679be4d4f01a0d3d93cc7e", null ],
+      [ "ACTION_MOVE_TO_PLATFORM", "d4/d9b/a02039.html#afbee42c6927db9ad2cf9d9096eeac954a7e5366df9a5dd5e5bca840226b0755fa", null ],
+      [ "SPELL_LEVITATE", "d7/d13/a02045.html#afbee42c6927db9ad2cf9d9096eeac954ad2a574f606c6448dd086526c15b6fdd2", null ],
+      [ "SPELL_CHAIN_LIGHTNING", "d7/d13/a02045.html#afbee42c6927db9ad2cf9d9096eeac954ac0997e72929070d8e30cc0f49cc4539d", null ],
+      [ "SPELL_STATIC_CHARGE", "d7/d13/a02045.html#afbee42c6927db9ad2cf9d9096eeac954ad174c0c15c17e6a55eec42eab77d89e0", null ],
+      [ "SPELL_SUMMON_SPORE_STRIDER", "d7/d13/a02045.html#afbee42c6927db9ad2cf9d9096eeac954a754dcc3138f3b4acb829bc54bc02b9ed", null ],
+      [ "SPELL_LEVITATION_PULSE", "d7/d13/a02045.html#afbee42c6927db9ad2cf9d9096eeac954ade4ad87d3a67412155f3ce6b143275b1", null ],
+      [ "SPELL_SOMEONE_GRAB_ME", "d7/d13/a02045.html#afbee42c6927db9ad2cf9d9096eeac954aa07d1c28d9fea727b3885a967461d13b", null ],
+      [ "SPELL_MAGNETIC_PULL", "d7/d13/a02045.html#afbee42c6927db9ad2cf9d9096eeac954a3917f87779ff3a60876e0373a10855d5", null ],
+      [ "SPELL_SUSPENSION_PRIMER", "d7/d13/a02045.html#afbee42c6927db9ad2cf9d9096eeac954a38589209a4f90f4db2f89b249f6840de", null ],
+      [ "SPELL_SUSPENSION", "d7/d13/a02045.html#afbee42c6927db9ad2cf9d9096eeac954a0b7462c628390d15bd33088fb3d2a6a0", null ],
+      [ "ENTRY_SPORE_STRIDER", "d7/d13/a02045.html#afbee42c6927db9ad2cf9d9096eeac954a461a6686eb7320e609d5675753241cd2", null ]
+    ] ],
+    [ "AddSC_boss_ghazan", "d4/d9b/a02039.html#a6b7605f750dab7f676edcd83f54c249a", null ]
 ];

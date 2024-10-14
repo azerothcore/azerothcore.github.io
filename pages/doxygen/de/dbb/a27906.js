@@ -1,6 +1,8 @@
 var a27906 =
 [
-    [ "AreaGroupId", "de/dbb/a27906.html#a2868a59574e635d5f5859cfa01811151", null ],
-    [ "AreaId", "de/dbb/a27906.html#aabde46a6c77db2c7fb92ca211c86727a", null ],
-    [ "nextGroup", "de/dbb/a27906.html#a1f966f2d6848e8aba2ae3c6bd8120503", null ]
+    [ "ID", "de/dbb/a27906.html#a36958c346c8554d9ab1cfb73ac583818", null ],
+    [ "Model", "de/dbb/a27906.html#a8877a066a16c8c246a2d5a24a3661e56", null ],
+    [ "Origin", "de/dbb/a27906.html#a684c69add50ee545ee606ae456a93336", null ],
+    [ "OriginFacing", "de/dbb/a27906.html#a460723250353c7720cd87677991283cf", null ],
+    [ "SoundID", "de/dbb/a27906.html#aa56be05c7ab4015738e049d75ff365c6", null ]
 ];

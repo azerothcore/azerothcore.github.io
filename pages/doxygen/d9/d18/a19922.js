@@ -1,7 +1,7 @@
 var a19922 =
 [
-    [ "achievement_flame_leviathan_garage", "d9/d18/a19922.html#a1893b4059d7212d023c45bb828bb1905", null ],
-    [ "OnCheck", "d9/d18/a19922.html#aa5897eb1fadeda4dda9f2390053d89b6", null ],
-    [ "_entry1", "d9/d18/a19922.html#af482d6c1b2681b9fec572281620a86b7", null ],
-    [ "_entry2", "d9/d18/a19922.html#a41e83b47c411dc6a6aff310ae7059f4e", null ]
+    [ "boss_freya_lifebinderAI", "d9/d18/a19922.html#ae421aa209690e4a2908995b6b7d322cd", null ],
+    [ "Reset", "d9/d18/a19922.html#a972bd7d390d444e0ea2bc513d5d3816a", null ],
+    [ "UpdateAI", "d9/d18/a19922.html#afb06c217c1012d6463e44689359eada9", null ],
+    [ "_healTimer", "d9/d18/a19922.html#a7021d13dceb9af343f0e820cf086046e", null ]
 ];

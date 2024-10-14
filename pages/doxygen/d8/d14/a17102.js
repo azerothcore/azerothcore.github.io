@@ -1,7 +1,11 @@
 var a17102 =
 [
-    [ "HandlePeriodic", "d8/d14/a17102.html#a2087e4de62f7aabb72315e92c28c7bd6", null ],
-    [ "PrepareAuraScript", "d8/d14/a17102.html#ab71db011b1cc1f3a2e85cd6b6f115242", null ],
-    [ "Register", "d8/d14/a17102.html#ad8a16d599a11fa4409d132f66e37e04e", null ],
-    [ "Validate", "d8/d14/a17102.html#afe821a7eb4eaf959d803c7c846f3bdf0", null ]
+    [ "npc_blood_queen_lana_thelAI", "d8/d14/a17102.html#a7b099b90600e433e304dee1f356a9909", null ],
+    [ "MoveInLineOfSight", "d8/d14/a17102.html#af1aafdc45abcdfbdbea7f5b67f3bc620", null ],
+    [ "MovementInform", "d8/d14/a17102.html#a004a878ccb5fe68b249342f6a0fce31d", null ],
+    [ "Reset", "d8/d14/a17102.html#a539b0e158c800e1aade54f37aa99751e", null ],
+    [ "UpdateAI", "d8/d14/a17102.html#ae9d2f6b53898db04da58efe0deeceea5", null ],
+    [ "_events", "d8/d14/a17102.html#a8ec7641bab991fc584b066fae55690bf", null ],
+    [ "_instance", "d8/d14/a17102.html#a9058ce72bb956d7e90eff740c0f9633a", null ],
+    [ "_introDone", "d8/d14/a17102.html#a40c642758a751e072e41343bb75ad306", null ]
 ];

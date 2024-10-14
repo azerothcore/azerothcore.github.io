@@ -1,7 +1,5 @@
 var a22434 =
 [
-    [ "npc_storm_cloudAI", "d9/dc3/a22434.html#aa4dd9409cd74f3c2c878974715e43394", null ],
-    [ "JustRespawned", "d9/dc3/a22434.html#ad0f99362f7ab506b322b6d75890881c1", null ],
-    [ "Reset", "d9/dc3/a22434.html#a99654ac86502e3ac2f899082269ccb01", null ],
-    [ "SpellHit", "d9/dc3/a22434.html#ac51313cec4d76216f3c716d988fc4857", null ]
+    [ "OutdoorPvP_nagrand", "d9/dc3/a22434.html#ac6e0f41eafb915604bd1b1d84e915f87", null ],
+    [ "GetOutdoorPvP", "d9/dc3/a22434.html#ae8ce0bf210e2be8229b9ac4d8615b058", null ]
 ];

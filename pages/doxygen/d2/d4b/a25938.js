@@ -1,8 +1,6 @@
 var a25938 =
 [
-    [ "Absorb", "d2/d4b/a25938.html#a9378cde1cc6daab0dc111b94aef4f6c8", null ],
-    [ "CalculateAmount", "d2/d4b/a25938.html#a20d5b4776ebeb859b0641af640e41d80", null ],
-    [ "PrepareAuraScript", "d2/d4b/a25938.html#ae1a70e11e89c4252e481ad737ad00ae0", null ],
-    [ "Register", "d2/d4b/a25938.html#a8c5399ba68554f4c2e842c5492ad715c", null ],
-    [ "Validate", "d2/d4b/a25938.html#aa6264e4dbff71b0d82e3403984c59c03", null ]
+    [ "CheckProc", "d2/d4b/a25938.html#a5b8ee53249a19954e4d46b17422207d5", null ],
+    [ "PrepareAuraScript", "d2/d4b/a25938.html#a2640f58f3e7442c37615b61ecf938a6f", null ],
+    [ "Register", "d2/d4b/a25938.html#a55be2362ac226caa615e07a2a3b5ea38", null ]
 ];

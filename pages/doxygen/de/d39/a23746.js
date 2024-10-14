@@ -1,6 +1,6 @@
 var a23746 =
 [
-    [ "OnApply", "de/d39/a23746.html#a472220f22165c6d21eab5f4b5f75921e", null ],
-    [ "PrepareAuraScript", "de/d39/a23746.html#a12dba24d5aa3d41671980d8dd509d6f2", null ],
-    [ "Register", "de/d39/a23746.html#aa8530071a4053e6c6f8b194a9cc723e2", null ]
+    [ "HandleScriptEffect", "de/d39/a23746.html#acfe80e22e6c78dba50155f7f20c0678b", null ],
+    [ "PrepareSpellScript", "de/d39/a23746.html#a17cb5f874343bd40c6aafaf9d627b047", null ],
+    [ "Register", "de/d39/a23746.html#a4bb5cfd2cc8503b3a840fc68624a33c1", null ]
 ];

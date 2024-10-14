@@ -1,6 +1,5 @@
 var a27290 =
 [
-    [ "go_bellsAI", "d1/d8c/a27294.html", "d1/d8c/a27294" ],
-    [ "go_bells", "d6/d2d/a27290.html#a9f40a13aa1aaee28ebd1254d428c0519", null ],
-    [ "GetAI", "d6/d2d/a27290.html#a4f1272fb8856310d7924f8e7be1e39f8", null ]
+    [ "item_petrov_cluster_bombs", "d6/d2d/a27290.html#a1a76760f7c4617a40d96b9833e7466df", null ],
+    [ "OnUse", "d6/d2d/a27290.html#a14e8a00a532b5aebc8469ff538848f53", null ]
 ];

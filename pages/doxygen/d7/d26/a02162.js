@@ -1,6 +1,16 @@
 var a02162 =
 [
-    [ "instance_auchenai_crypts", "db/d24/a22560.html", "db/d24/a22560" ],
-    [ "instance_auchenai_crypts::instance_auchenai_crypts_InstanceMapScript", "d3/d57/a22564.html", "d3/d57/a22564" ],
-    [ "AddSC_instance_auchenai_crypts", "d7/d26/a02162.html#a3a9866226f3a0e32fdb3501e506ab0b5", null ]
+    [ "boss_grizzle", "d4/d0f/a11606.html", "d4/d0f/a11606" ],
+    [ "boss_grizzle::boss_grizzleAI", "d2/d96/a11610.html", "d2/d96/a11610" ],
+    [ "Grizzle", "d7/d26/a02162.html#acfff5d4b983e4db1d5efb6bd5da7e7aa", [
+      [ "SPELL_GROUNDTREMOR", "d7/d26/a02162.html#acfff5d4b983e4db1d5efb6bd5da7e7aaa4426ae7fabf4ddb0d8355b0049b5a6bb", null ],
+      [ "SPELL_FRENZY", "d7/d26/a02162.html#acfff5d4b983e4db1d5efb6bd5da7e7aaab54f261ba282273bed875abe6642a293", null ],
+      [ "EMOTE_FRENZY_KILL", "d7/d26/a02162.html#acfff5d4b983e4db1d5efb6bd5da7e7aaaebdb26e3a90dde560c1c4f7fd5615f63", null ]
+    ] ],
+    [ "Timer", "d7/d26/a02162.html#a6e0035edd58cc6ca8c94b5f9723a0d80", [
+      [ "TIMER_GROUNDTREMOR", "d7/d26/a02162.html#a6e0035edd58cc6ca8c94b5f9723a0d80a5046fe24f2bd1c59407d77496c82dd59", null ],
+      [ "TIMER_FRENZY", "d7/d26/a02162.html#a6e0035edd58cc6ca8c94b5f9723a0d80a31ac972cb44128c4662a608b8f6eeb83", null ],
+      [ "TIMER_WAR_STOMP", "d6/d41/a02222.html#a6e0035edd58cc6ca8c94b5f9723a0d80a77d3bf4a5b183f5934aa399d3e185eef", null ]
+    ] ],
+    [ "AddSC_boss_grizzle", "d7/d26/a02162.html#adb6c19fe584b9ecd11ab67084570a0be", null ]
 ];

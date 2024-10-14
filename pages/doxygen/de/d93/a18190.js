@@ -1,7 +1,9 @@
 var a18190 =
 [
-    [ "PrepareSpellScript", "de/d93/a18190.html#a3283e829757b50bb52f66ee1e64033ae", null ],
-    [ "Register", "de/d93/a18190.html#a0162c92c32210f2873686610f4f00b87", null ],
-    [ "TriggerHeal", "de/d93/a18190.html#a3cdfca33a535bad0942beea24aefa1bb", null ],
-    [ "Validate", "de/d93/a18190.html#a6545fe9f40c0aed036192008a2d6e28e", null ]
+    [ "npc_spirit_wardenAI", "de/d93/a18190.html#a3391168478345d8b5c1fee151f6e9f04", null ],
+    [ "JustDied", "de/d93/a18190.html#aa762c0bea6361107312e8231508dc655", null ],
+    [ "Reset", "de/d93/a18190.html#ad6076663f65f43874feb0ecfc57718a4", null ],
+    [ "UpdateAI", "de/d93/a18190.html#af845e3e2c38af5baa84c94f6074c0caf", null ],
+    [ "_events", "de/d93/a18190.html#a1bc5cfdee62efdd622e0fe1aa503c260", null ],
+    [ "_instance", "de/d93/a18190.html#a58ebb8e42e77add79fc888248013eb24", null ]
 ];

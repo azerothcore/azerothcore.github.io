@@ -1,7 +1,7 @@
 var a15026 =
 [
-    [ "boss_glob_of_viscidus", "d8/d53/a15026.html#a1ba72393766110382dc4ce4122dfd1ee", null ],
-    [ "InitializeAI", "d8/d53/a15026.html#a0247055fc4f3a60c880ffb78e96edcb9", null ],
-    [ "MovementInform", "d8/d53/a15026.html#abe0cd95930fe52fdb5a40c704d092b90", null ],
-    [ "UpdateAI", "d8/d53/a15026.html#a2e8e38ccdf4ab5e32bd750d73daf1605", null ]
+    [ "npc_anubisath_warder", "d8/d53/a15026.html#aebe14673e5c31000a9626e39d87c6775", null ],
+    [ "JustEngagedWith", "d8/d53/a15026.html#a579318fa519eb669573b2cea78c2fee3", null ],
+    [ "Reset", "d8/d53/a15026.html#aea0fac8f1eb28591b141ace55c49beeb", null ],
+    [ "UpdateAI", "d8/d53/a15026.html#aba428f1f1a016191aa4f168c616c3a29", null ]
 ];

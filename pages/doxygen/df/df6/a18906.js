@@ -1,6 +1,6 @@
 var a18906 =
 [
-    [ "FilterTargets", "df/df6/a18906.html#a2df81e30554809a0d5b45d2f471bb71f", null ],
-    [ "PrepareSpellScript", "df/df6/a18906.html#aa51d9c578b782fbe0e7e3cf13789b702", null ],
-    [ "Register", "df/df6/a18906.html#a4c1eab348e54011f1a2f827fc251ca13", null ]
+    [ "boss_maexxnaAI", "df/d6f/a18910.html", "df/d6f/a18910" ],
+    [ "boss_maexxna", "df/df6/a18906.html#ae47a789ac8abe50932b9e000c83b02b2", null ],
+    [ "GetAI", "df/df6/a18906.html#ab438df4cb61625da35552ca7c867dc64", null ]
 ];

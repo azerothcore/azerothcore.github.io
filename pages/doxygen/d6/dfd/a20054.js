@@ -1,5 +1,14 @@
 var a20054 =
 [
-    [ "achievement_smell_saronite", "d6/dfd/a20054.html#a42dce2aefa2561952dcf5289126035a8", null ],
-    [ "OnCheck", "d6/dfd/a20054.html#a5180e3e53fa0f4d32d2a305d315bc8b3", null ]
+    [ "npc_ulduar_hodir_priestAI", "d6/dfd/a20054.html#aaa57c813d15ebf0c08a43e4530e5acdd", null ],
+    [ "AttackStart", "d6/dfd/a20054.html#a54058aacbf9e49f42f4f84779e0ec8ea", null ],
+    [ "CanAIAttack", "d6/dfd/a20054.html#a769a825c8e33bce3a130dbec53072aa4", null ],
+    [ "EnterEvadeMode", "d6/dfd/a20054.html#a2d92c0e03de238de439ccb3a10819cd1", null ],
+    [ "JustDied", "d6/dfd/a20054.html#a23a3783dc151bb7f1c5c4183b22578b0", null ],
+    [ "MoveInLineOfSight", "d6/dfd/a20054.html#aaa3764a042473d20526758553b968a39", null ],
+    [ "ScheduleAbilities", "d6/dfd/a20054.html#aab32336d42900a275613a227ccba18a7", null ],
+    [ "SpellHit", "d6/dfd/a20054.html#af6afbd5b0560fc4665ecb0d00010ecbc", null ],
+    [ "UpdateAI", "d6/dfd/a20054.html#af2b162485414ea0cdda3b19d15c2686f", null ],
+    [ "events", "d6/dfd/a20054.html#afdc842e08125223760d1eac105aef65b", null ],
+    [ "pInstance", "d6/dfd/a20054.html#a9630107a0a8f128c6b62493163a9e246", null ]
 ];

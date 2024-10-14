@@ -1,7 +1,7 @@
 var a28234 =
 [
-    [ "ID", "d5/dc1/a28234.html#aa5db020808990dc98fc143e4a5e0d2b2", null ],
-    [ "RadiusMax", "d5/dc1/a28234.html#ab82c1acb9309b17104958182d80b01d1", null ],
-    [ "RadiusMin", "d5/dc1/a28234.html#acaee7da373b94a262e01d4bd3bea4f08", null ],
-    [ "RadiusPerLevel", "d5/dc1/a28234.html#a74bb59afb808af45ceff6367468fca1e", null ]
+    [ "ClassMask", "d5/dc1/a28234.html#acae4582c147b5fd95780ae7b55d36fdc", null ],
+    [ "petTalentMask", "d5/dc1/a28234.html#a22ab1cf8ad05e57d91a63e3876ae2b77", null ],
+    [ "tabpage", "d5/dc1/a28234.html#aa6389276582adeb4cae76c257734795c", null ],
+    [ "TalentTabID", "d5/dc1/a28234.html#ae3a71c61223b59185365819164715dc2", null ]
 ];

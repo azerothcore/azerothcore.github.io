@@ -1,13 +1,6 @@
 var a23238 =
 [
-    [ "npc_earthen_ring_flamecaller", "da/df3/a23238.html#ab402dd321fa0df641b674324386d7591", null ],
-    [ "DoAction", "da/df3/a23238.html#af745c83529a34a89c430d6113703fff5", null ],
-    [ "LookOpening", "da/df3/a23238.html#adfc752e7700a816b66b639007a1a90fa", null ],
-    [ "MovementInform", "da/df3/a23238.html#a2e6337402c07413ed9aa39c2de58e0d9", null ],
-    [ "Reset", "da/df3/a23238.html#ac7be4763e09cb9ce1a4a0774f4c02237", null ],
-    [ "SpellHit", "da/df3/a23238.html#ab9c5ad7e56033997042031566748ee2b", null ],
-    [ "UpdateAI", "da/df3/a23238.html#aa9aaf58b67108a934a756afdfc2bc734", null ],
-    [ "_events", "da/df3/a23238.html#a79829a993048f8678b5f7c1dfe55eafb", null ],
-    [ "_instance", "da/df3/a23238.html#a79aa6e628a50ed485cc55513c28362dc", null ],
-    [ "_mySpot", "da/df3/a23238.html#a18b476dfdf65ca7e84856b31027b11f1", null ]
+    [ "HandleScript", "da/df3/a23238.html#a9451ed26358c77ab4d35781fd8fb4b55", null ],
+    [ "PrepareSpellScript", "da/df3/a23238.html#ad24e7fa45f35f2cd6071328c60cb2732", null ],
+    [ "Register", "da/df3/a23238.html#a1bd01e1103d4959a5b3116e178a16a8f", null ]
 ];

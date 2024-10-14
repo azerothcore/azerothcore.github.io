@@ -1,6 +1,6 @@
 var a11014 =
 [
-    [ "EffectCalcAmountHandler", "df/d55/a11014.html#a4fe66bbf0433e80b602683a278e3a709", null ],
-    [ "Call", "df/d55/a11014.html#a4b5af2593dcb80930c6a45b7035767ca", null ],
-    [ "pEffectHandlerScript", "df/d55/a11014.html#aa52c8c780dcc157e16d11f8222706f7a", null ]
+    [ "EffectUpdatePeriodicHandler", "df/d55/a11014.html#a6b18a259aa84c847bcc064c5243eb590", null ],
+    [ "Call", "df/d55/a11014.html#a38802863e7859453cbbe58ad91018c67", null ],
+    [ "pEffectHandlerScript", "df/d55/a11014.html#a0e51245e089fcd9532d5789056ab944c", null ]
 ];

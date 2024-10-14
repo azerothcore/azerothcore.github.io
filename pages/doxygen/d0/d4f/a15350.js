@@ -1,13 +1,7 @@
 var a15350 =
 [
-    [ "npc_shenthulAI", "d0/d4f/a15350.html#ae056474022c27be5565bf018a1b56f0b", null ],
-    [ "JustEngagedWith", "d0/d4f/a15350.html#acb202ef530bc11ea807f580ff5dfc621", null ],
-    [ "ReceiveEmote", "d0/d4f/a15350.html#ab2ddc3e447b36cb0fceffdaff0fca592", null ],
-    [ "Reset", "d0/d4f/a15350.html#af077e96eb8bf89af2d6eb79907444a17", null ],
-    [ "UpdateAI", "d0/d4f/a15350.html#a2ae643c11c6ea3808be922de96a24e8f", null ],
-    [ "CanEmote", "d0/d4f/a15350.html#a920209c374e611e96347d209337c044f", null ],
-    [ "CanTalk", "d0/d4f/a15350.html#a82ea8d2ee50538135add120be7616f86", null ],
-    [ "PlayerGUID", "d0/d4f/a15350.html#a4b262388aca789d19231426a8cb73379", null ],
-    [ "ResetTimer", "d0/d4f/a15350.html#a475a141d639f0136ac943e6afb1ecd15", null ],
-    [ "SaluteTimer", "d0/d4f/a15350.html#ae76b4bbde77b6029a788abfbbbe84df8", null ]
+    [ "DelayedWindstoneSummonEvent", "d0/d4f/a15350.html#aa97daf8cf3479395ffd6558b6699436a", null ],
+    [ "Execute", "d0/d4f/a15350.html#aa413bc8709bc543b89ffb3df42185475", null ],
+    [ "_playerGUID", "d0/d4f/a15350.html#ad83bb6d87b569f59e99abcc16517745b", null ],
+    [ "_summon", "d0/d4f/a15350.html#af9804d276da5daebab3a37f2c75301ea", null ]
 ];

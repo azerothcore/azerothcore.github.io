@@ -1,6 +1,7 @@
 var a14030 =
 [
-    [ "HandleAfterHit", "d0/df8/a14030.html#a4a3122d1b69baeae76f1ae3b6818bfb5", null ],
-    [ "PrepareSpellScript", "d0/df8/a14030.html#a284796ec70bdfaea9919f54da94f0021", null ],
-    [ "Register", "d0/df8/a14030.html#a30dcb608c20df17de9597ece1930d59d", null ]
+    [ "HandleScriptEffect", "d0/df8/a14030.html#aaad3c8870d8ad748e3ac07287da32e84", null ],
+    [ "PrepareSpellScript", "d0/df8/a14030.html#a3d906994c11e52e89c842189be73ddfd", null ],
+    [ "Register", "d0/df8/a14030.html#a4cdab36e2265c696207a39e16549ab13", null ],
+    [ "Validate", "d0/df8/a14030.html#a8aaf57bd54d3b2beb48b4e29053c1125", null ]
 ];

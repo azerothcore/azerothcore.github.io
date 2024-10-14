@@ -1,7 +1,6 @@
 var a15942 =
 [
-    [ "HandlePeriodic", "db/d73/a15942.html#ab49a636eaddea5c91f86f21a1d4d182e", null ],
-    [ "PrepareAuraScript", "db/d73/a15942.html#a3a9a26b3e0964e08d67a89cd950b5a97", null ],
-    [ "Register", "db/d73/a15942.html#aed8d41a9bf289b21caa9e93e66b004d2", null ],
-    [ "Validate", "db/d73/a15942.html#a3a428e0e4f63770a35cdf6a6ac85e403", null ]
+    [ "OnSummon", "db/d73/a15942.html#ae2766d12fb686356b46126848f356c5a", null ],
+    [ "PrepareSpellScript", "db/d73/a15942.html#a6b9af3b70d2ce07fe8aee5292367a982", null ],
+    [ "Register", "db/d73/a15942.html#a717394bfbea621ae637f9e87efddda62", null ]
 ];

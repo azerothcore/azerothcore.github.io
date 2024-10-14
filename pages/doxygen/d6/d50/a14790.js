@@ -1,7 +1,9 @@
 var a14790 =
 [
-    [ "HandleScript", "d6/d50/a14790.html#a8aea4a40472aec4cbb7001fbd63db24c", null ],
-    [ "Load", "d6/d50/a14790.html#a2dc1edf537f58133fb4daabde9f43843", null ],
-    [ "PrepareSpellScript", "d6/d50/a14790.html#ae856c6e70ededa95c0308596a9f980af", null ],
-    [ "Register", "d6/d50/a14790.html#ac2e82c7e626658faa968f75c26688b43", null ]
+    [ "go_ossirian_crystalAI", "d6/d50/a14790.html#ae4d3c0c2cff08bd9fe86cbfee2cbb980", null ],
+    [ "DoAction", "d6/d50/a14790.html#a581436335d190466520c07fde56ad441", null ],
+    [ "GossipHello", "d6/d50/a14790.html#ad1aff0e18d8f4ef7fe5d4cfa7ef17875", null ],
+    [ "SetGUID", "d6/d50/a14790.html#a9c983aa02285dbebc545b4056191200c", null ],
+    [ "_instance", "d6/d50/a14790.html#aa2c83296cbe8d49de7bc7262b792e8b3", null ],
+    [ "_triggerGUID", "d6/d50/a14790.html#abd96d9b4f2c5f41e4a85606b22e1b0cf", null ]
 ];

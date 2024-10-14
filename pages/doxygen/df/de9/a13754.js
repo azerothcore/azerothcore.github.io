@@ -1,6 +1,5 @@
 var a13754 =
 [
-    [ "boss_arlokkAI", "dc/d42/a13758.html", "dc/d42/a13758" ],
-    [ "boss_arlokk", "df/de9/a13754.html#a55bb21239e05acff18d2fb147449800e", null ],
-    [ "GetAI", "df/de9/a13754.html#a58b8cc7a198784b48faaab1b069d397c", null ]
+    [ "at_zulgurub_entrance_speech", "df/de9/a13754.html#afef11c6a7e97befd07072826fa13be55", null ],
+    [ "_OnTrigger", "df/de9/a13754.html#a55cda55ed70c63f2a0b2ce39b2ffc0a5", null ]
 ];

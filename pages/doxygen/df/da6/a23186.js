@@ -1,7 +1,10 @@
 var a23186 =
 [
-    [ "FilterTargets", "df/da6/a23186.html#adb8581b4b92aa49eda8f531e6d6de1ea", null ],
-    [ "HandleDummy", "df/da6/a23186.html#a2fe7441bd9753cb912d11f8d36632f44", null ],
-    [ "PrepareSpellScript", "df/da6/a23186.html#ae7714acbe0a08781e3bc297847c47870", null ],
-    [ "Register", "df/da6/a23186.html#ade51d4cb00b63c46582c7a5e6e031e9d", null ]
+    [ "npc_frozen_core", "df/da6/a23186.html#af00f67392d96aa1ab8ccdab5b168fc04", null ],
+    [ "DoAction", "df/da6/a23186.html#a7b2c684f0c4e88720fb0d921815026ab", null ],
+    [ "Initialize", "df/da6/a23186.html#a7e5824e31f600d10c3177e00ae443c7f", null ],
+    [ "JustDied", "df/da6/a23186.html#a476e086b0379e0cef3a44d250b020d6a", null ],
+    [ "UpdateAI", "df/da6/a23186.html#af09168b57b79d14d9a7ef6861e85cc1a", null ],
+    [ "_events", "df/da6/a23186.html#a3a5efec3279644ef713722e1556a3c84", null ],
+    [ "_instance", "df/da6/a23186.html#a80fa517cc7dffd4bf15f3393d1f4af14", null ]
 ];

@@ -1,7 +1,10 @@
 var a14594 =
 [
-    [ "npc_cos_chromie_middle", "d6/d56/a14594.html#a1bb7229781c122d362e781d2737d0fd3", null ],
-    [ "OnGossipHello", "d6/d56/a14594.html#a105b62bd24fe3912c0f66c234a6dc670", null ],
-    [ "OnGossipSelect", "d6/d56/a14594.html#a37ebdd257ef22554c81cf3c062856141", null ],
-    [ "OnQuestAccept", "d6/d56/a14594.html#a6af52ce23a90e7d8418e2c414c9c0fd4", null ]
+    [ "npc_tarethaAI", "d6/d56/a14594.html#ad403cdcdc2648bb23687e3a3a7bdbb03", null ],
+    [ "AttackStart", "d6/d56/a14594.html#a09d91ea8e5923ebc3c0ad01f09f93408", null ],
+    [ "DoAction", "d6/d56/a14594.html#adbb40db0b70532a20731cf5039e44d0b", null ],
+    [ "MoveInLineOfSight", "d6/d56/a14594.html#afa0427372e43316851018bf78274707f", null ],
+    [ "Reset", "d6/d56/a14594.html#ae4d9f3d5751e8a8e0468a80d46f4a4c4", null ],
+    [ "WaypointReached", "d6/d56/a14594.html#a6946bc02ec686c8af943c9e913c8aee6", null ],
+    [ "instance", "d6/d56/a14594.html#a3c0f4a61cf5b8da6b885ef7bf9813205", null ]
 ];

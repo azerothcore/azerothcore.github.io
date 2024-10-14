@@ -1,7 +1,6 @@
 var a14618 =
 [
-    [ "boss_epoch_hunter", "db/df3/a14618.html#a652d14ebfced39b8164687a713780600", null ],
-    [ "JustDied", "db/df3/a14618.html#a38d3cbed2ce8f810fd169e0004fd91dc", null ],
-    [ "JustEngagedWith", "db/df3/a14618.html#a2571f98f36d1271f3911617e0fdfba54", null ],
-    [ "KilledUnit", "db/df3/a14618.html#a61456e680e9108dd841e83d97536ef1b", null ]
+    [ "NpcRunToHome", "db/df3/a14618.html#ac190e89b494554e391e6ebd878d7f8e8", null ],
+    [ "Execute", "db/df3/a14618.html#a0da766e3bae0d8d97a46ef82b3873cc0", null ],
+    [ "_owner", "db/df3/a14618.html#a7dd38171a6e55665fc28a74212313e51", null ]
 ];

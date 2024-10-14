@@ -1,10 +1,11 @@
 var a13950 =
 [
-    [ "npc_zealot_lorkhan", "d1/ddf/a13950.html#a7df2ab658c1fda0d130815581ffbae4e", null ],
-    [ "JustDied", "d1/ddf/a13950.html#abda06af9ccc78763e70ebf98f0a9dc03", null ],
-    [ "JustEngagedWith", "d1/ddf/a13950.html#a7cb7da94799fa1689a5f16ef33d4d874", null ],
-    [ "Reset", "d1/ddf/a13950.html#abecbd4a2ea2cf3281244933fe7484239", null ],
-    [ "UpdateAI", "d1/ddf/a13950.html#a68c35734f8886b2c241dcbc178899206", null ],
-    [ "_scheduler", "d1/ddf/a13950.html#a50ded84f7cdb698118b406c9cfab7e5c", null ],
-    [ "instance", "d1/ddf/a13950.html#aa677f42d562fa6dc90a4913eed3763c8", null ]
+    [ "npc_dark_iron_attack_mole_machine", "d1/ddf/a13950.html#a473a8fb4905e5d1333196797d7d0f371", null ],
+    [ "AttackStart", "d1/ddf/a13950.html#a999dd932fbaf22a8275dfdba150c3291", null ],
+    [ "JustEngagedWith", "d1/ddf/a13950.html#a50e0657f33f15bf2ffe83ca4041eb483", null ],
+    [ "MoveInLineOfSight", "d1/ddf/a13950.html#a2be5de913ca9d472a31cd44c07bcde57", null ],
+    [ "Reset", "d1/ddf/a13950.html#a0727aab751ddfbd94ae070e60e47e768", null ],
+    [ "UpdateAI", "d1/ddf/a13950.html#a1217ed510a846d011143ae0a386c6236", null ],
+    [ "goTimer", "d1/ddf/a13950.html#a8686845ebef564c9fcaa115866c99749", null ],
+    [ "summonTimer", "d1/ddf/a13950.html#a4713da02f4a86547a0f796167e24d8bb", null ]
 ];

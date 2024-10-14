@@ -1,8 +1,8 @@
 var a25026 =
 [
-    [ "CheckRequirement", "df/d39/a25026.html#ad967ae7e2affa312fa4adbca6e86dd7c", null ],
-    [ "HandleScript", "df/d39/a25026.html#aa89b60b2d757ef1ceacebae38aa5d9d9", null ],
-    [ "Load", "df/d39/a25026.html#a9dfb5501ad6324a25966af44f233b5fb", null ],
-    [ "PrepareSpellScript", "df/d39/a25026.html#ace75db8a6e5628df6e2edba91cd2852f", null ],
-    [ "Register", "df/d39/a25026.html#a89d053e0ee793017c74188aac32d99d5", null ]
+    [ "OnApply", "df/d39/a25026.html#a9ea247d39fa51d9722c17e6ea83a0e55", null ],
+    [ "OnRemove", "df/d39/a25026.html#abd45d59ecd41274bd02c17fb066a521e", null ],
+    [ "PrepareAuraScript", "df/d39/a25026.html#af30811301599459bf2a99a68608a053f", null ],
+    [ "Register", "df/d39/a25026.html#a0eb56dc80c02932a0d7cf4cca7079c75", null ],
+    [ "Validate", "df/d39/a25026.html#a29c5049e4455737ff96596a18af118d0", null ]
 ];

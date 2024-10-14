@@ -1,5 +1,6 @@
 var a20590 =
 [
-    [ "achievement_thorim_stand_in_the_lightning", "d6/d9b/a20590.html#a9339e89e4eb76151fdeacb6bcd53d7bc", null ],
-    [ "OnCheck", "d6/d9b/a20590.html#ade1aec4de4c503be5a62da3e6c35e90f", null ]
+    [ "npc_xt002_life_sparkAI", "d7/dbb/a20594.html", "d7/dbb/a20594" ],
+    [ "npc_xt002_life_spark", "d6/d9b/a20590.html#a9644718d192708e391b833468a0ff21e", null ],
+    [ "GetAI", "d6/d9b/a20590.html#a09a1ce332d55fad146947c94bb53f564", null ]
 ];

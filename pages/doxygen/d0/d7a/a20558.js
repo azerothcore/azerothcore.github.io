@@ -1,16 +1,19 @@
 var a20558 =
 [
-    [ "boss_thorim_runic_colossusAI", "d0/d7a/a20558.html#a55e64ee89eb7b491b20a10d49e664f53", null ],
-    [ "JustDied", "d0/d7a/a20558.html#aa42165bcf6984a19a838535186db3bdb", null ],
-    [ "JustEngagedWith", "d0/d7a/a20558.html#a1965559164451e8ee7e47d65e148b67c", null ],
-    [ "Reset", "d0/d7a/a20558.html#a098974cdd91b61aa4b003d6f16a339d2", null ],
-    [ "RunRunicSmash", "d0/d7a/a20558.html#a324328498de2474134ccbee2be129573", null ],
-    [ "SpellHit", "d0/d7a/a20558.html#a0c39e574e8d93093be2c3c8bb2dc5b06", null ],
-    [ "UpdateAI", "d0/d7a/a20558.html#a7a45846fe6ada067a5b955a51ee2fdc4", null ],
-    [ "_checkTarget", "d0/d7a/a20558.html#a2cc71f0ef8627b133016a963ba087dc8", null ],
-    [ "_leftHand", "d0/d7a/a20558.html#a4332a514588e77494a4033b67dc8145e", null ],
-    [ "_nextTriggerPos", "d0/d7a/a20558.html#a3dbd585e96f8843e04ffab040318b977", null ],
-    [ "_triggerLeftGUID", "d0/d7a/a20558.html#a5d27abb654e240174122cdb11b9c4b75", null ],
-    [ "_triggerRightGUID", "d0/d7a/a20558.html#a376600de56ab1af36287c2d922c7361f", null ],
-    [ "events", "d0/d7a/a20558.html#aab87f0308fc4546718bcb5209f69764d", null ]
+    [ "npc_xt002_heartAI", "d0/d7a/a20558.html#a4bdfd8574fb343c800934d53424596bc", null ],
+    [ "AttackStart", "d0/d7a/a20558.html#ac55f7e4215a7ae03f096778f71a952ef", null ],
+    [ "DamageTaken", "d0/d7a/a20558.html#a97bc8a5934b9ed345416c1295813edd0", null ],
+    [ "DoAction", "d0/d7a/a20558.html#a31476950c38e83b7436eab555d5cc7ff", null ],
+    [ "JustDied", "d0/d7a/a20558.html#ac385cce7c349417a28f1d6673d9ae6cd", null ],
+    [ "JustSummoned", "d0/d7a/a20558.html#aeae848dbb84417f563342b05e9339680", null ],
+    [ "MoveInLineOfSight", "d0/d7a/a20558.html#ad077207bb0ae0498b208312ddbd7ed91", null ],
+    [ "SendEnergyToCorner", "d0/d7a/a20558.html#a80204c6952b40770c0816f1895d70119", null ],
+    [ "SpellHitTarget", "d0/d7a/a20558.html#aeb37afc22d7f77ce84e983e63fe7e78f", null ],
+    [ "SummonPiles", "d0/d7a/a20558.html#a6180aaee9aaca9d2744cc6bef4265640", null ],
+    [ "UpdateAI", "d0/d7a/a20558.html#ac58b8690136ed260020e76a0dc4f3432", null ],
+    [ "_damageDone", "d0/d7a/a20558.html#aaa9f701197998f2cba942cc4f292a8f9", null ],
+    [ "_pummelerCount", "d0/d7a/a20558.html#a8179da94f961897085289568468d2bba", null ],
+    [ "_spawnSelection", "d0/d7a/a20558.html#a62187aab1a7fabedb1adaad33d422506", null ],
+    [ "_timerSpawn", "d0/d7a/a20558.html#ad4f2db86cd841b96c20cea4469f4aed4", null ],
+    [ "summons", "d0/d7a/a20558.html#a50869f121bf9d7aa790efb6c74799c83", null ]
 ];

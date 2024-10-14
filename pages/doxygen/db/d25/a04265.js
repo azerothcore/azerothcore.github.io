@@ -1,8 +1,7 @@
 var a04265 =
 [
-    [ "instance_the_black_morass", "df/d21/a14662.html", "df/d21/a14662" ],
-    [ "instance_the_black_morass::instance_the_black_morass_InstanceMapScript", "d3/d28/a14666.html", "d3/d28/a14666" ],
-    [ "AddSC_instance_the_black_morass", "db/d25/a04265.html#a665f808519def7182fa25d9c0a4525f6", null ],
-    [ "creatureData", "db/d25/a04265.html#a412286b689bd324fedd65ddd8dde8afb", null ],
-    [ "PortalLocation", "db/d25/a04265.html#a744b7235a198467a51550de127971bb1", null ]
+    [ "GetChaseRange", "db/d25/a04265.html#a24fd9652d12d1ba9d62b8d6273664c55", null ],
+    [ "GetVelocity", "db/d25/a04265.html#a955c196fa9c96bf11e2d887d6cbac50c", null ],
+    [ "IsMutualChase", "db/d25/a04265.html#a53d496abdea10dead20c7e6a9cb09cd6", null ],
+    [ "PredictPosition", "db/d25/a04265.html#ada5b031ff95410ba84fd734c95c68099", null ]
 ];

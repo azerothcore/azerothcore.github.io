@@ -1,6 +1,6 @@
 var a16978 =
 [
-    [ "SlaveRunEvent", "df/d21/a16978.html#a4560b275b0870cdbd192b2610893b47c", null ],
-    [ "Execute", "df/d21/a16978.html#a81db67be136525dea5a9cd84180be165", null ],
-    [ "_owner", "df/d21/a16978.html#a33e2ce4cea1edf2e0967696c41667f15", null ]
+    [ "npc_living_mojoAI", "db/dd3/a16982.html", "db/dd3/a16982" ],
+    [ "npc_living_mojo", "df/d21/a16978.html#af24190023549b4ec5fa47b5959618a8a", null ],
+    [ "GetAI", "df/d21/a16978.html#a2b8ca6e1b26debfafd74e022825c889e", null ]
 ];

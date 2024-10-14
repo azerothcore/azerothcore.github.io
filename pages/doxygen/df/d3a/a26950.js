@@ -1,5 +1,5 @@
 var a26950 =
 [
-    [ "achievement_bg_av_perfection", "df/d3a/a26950.html#a8a0ef996bdb1244026268922b301184c", null ],
-    [ "OnCheck", "df/d3a/a26950.html#a17e700c17b5144b571f2aeed92a77749", null ]
+    [ "AreaTrigger_at_legion_teleporter", "df/d3a/a26950.html#a2b648bd038f41025c19338367c696d25", null ],
+    [ "OnTrigger", "df/d3a/a26950.html#ae8239e5ad56d93627102dbd02989353d", null ]
 ];

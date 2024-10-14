@@ -1,8 +1,6 @@
 var a24394 =
 [
-    [ "npc_pet_darting_hatchling", "df/d5a/a24394.html#a7ae5973061068396bf382dc21e88cd44", null ],
-    [ "SpellHit", "df/d5a/a24394.html#a29ea5438bab7e606175c02165a607f9b", null ],
-    [ "UpdateAI", "df/d5a/a24394.html#a23196d05aebe5fa4a65455c55368820a", null ],
-    [ "checkTimer", "df/d5a/a24394.html#a3539276158abb5fd183ed1aa03a8ead8", null ],
-    [ "goFast", "df/d5a/a24394.html#aaf80b40200f2b8eb2861c69b1dbd2dde", null ]
+    [ "FilterTargets", "df/d5a/a24394.html#a991a944f31680e4d53cc2a46d8c8b8bf", null ],
+    [ "PrepareSpellScript", "df/d5a/a24394.html#aea49df3f6b93223ed72c3a9875232b74", null ],
+    [ "Register", "df/d5a/a24394.html#a8f0e0b6363303def780d35415c88b4d6", null ]
 ];

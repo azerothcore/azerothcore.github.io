@@ -1,9 +1,7 @@
 var a22010 =
 [
-    [ "npc_lord_areteAI", "d5/dd0/a22010.html#aebdbf8f4c2fe6948c78315e6b404119b", null ],
-    [ "InitializeAI", "d5/dd0/a22010.html#a22d0c3e2445bff2d742b28bd99f37394", null ],
-    [ "UpdateAI", "d5/dd0/a22010.html#a5cba8d4429ae191dd5b90ca5a4fe2866", null ],
-    [ "_landgrenGUID", "d5/dd0/a22010.html#ac0e3753096dfe779024acc8400791171", null ],
-    [ "_landgrenSoulGUID", "d5/dd0/a22010.html#aaa28c67691610136f0b418b30892f3cd", null ],
-    [ "events", "d5/dd0/a22010.html#ae4ec90b30320cf0aeaec4415c4125605", null ]
+    [ "HandleScriptEffect", "d5/dd0/a22010.html#ad20cf97a7dd442d5670a22095b487a01", null ],
+    [ "PrepareSpellScript", "d5/dd0/a22010.html#ab0f6da0cb3115e54dbb59f0e6f823d02", null ],
+    [ "Register", "d5/dd0/a22010.html#a996ea344ea2a3312cb8886565b80972d", null ],
+    [ "Validate", "d5/dd0/a22010.html#a29bf5a9615e02281f426bf521a045567", null ]
 ];

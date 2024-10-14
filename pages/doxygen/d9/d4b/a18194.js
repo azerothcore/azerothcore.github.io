@@ -1,8 +1,7 @@
 var a18194 =
 [
-    [ "Load", "d9/d4b/a18194.html#add67e02f44e3658bff98faf7a9466ba3", null ],
-    [ "OnPeriodic", "d9/d4b/a18194.html#a3e523e0bb23e4aba279ba6704206bfc4", null ],
-    [ "PrepareAuraScript", "d9/d4b/a18194.html#a399fc30c23c03d3c4964ec23faed7c18", null ],
-    [ "Register", "d9/d4b/a18194.html#a4ee6fe23e45481eea16f77d8de72742e", null ],
-    [ "_is25Man", "d9/d4b/a18194.html#ab7776e2d8eff0de1176d5d5efa853c6d", null ]
+    [ "HandleProc", "d9/d4b/a18194.html#af06730a865009127c7d3e5423afd4d44", null ],
+    [ "PrepareAuraScript", "d9/d4b/a18194.html#a71a81a19a0c543a4aa43d6bf002b7bb9", null ],
+    [ "Register", "d9/d4b/a18194.html#a6c97b787ce00491a259c575d26189f8c", null ],
+    [ "Validate", "d9/d4b/a18194.html#aed9c98e20d916359629e119d6dd2a94f", null ]
 ];

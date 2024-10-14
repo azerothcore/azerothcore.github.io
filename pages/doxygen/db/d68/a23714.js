@@ -1,6 +1,7 @@
 var a23714 =
 [
-    [ "instance_the_botanica_InstanceMapScript", "d0/d96/a23718.html", "d0/d96/a23718" ],
-    [ "instance_the_botanica", "db/d68/a23714.html#a8f8acda65f37e45e2439707f3979cf7c", null ],
-    [ "GetInstanceScript", "db/d68/a23714.html#a335f671443ca0fb9db5956cefdf37182", null ]
+    [ "OnApply", "db/d68/a23714.html#abab02b8307b762d070ba12358f59916d", null ],
+    [ "OnRemove", "db/d68/a23714.html#a5ac45a5cfa17689d241c44241216ff38", null ],
+    [ "PrepareAuraScript", "db/d68/a23714.html#a54f128745c3c35d7e52e9de7bb69a39a", null ],
+    [ "Register", "db/d68/a23714.html#ae130b3cddbe0d9ce21d888e21472d64b", null ]
 ];

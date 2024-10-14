@@ -1,14 +1,9 @@
 var a23126 =
 [
-    [ "SpellIds", "d3/db8/a23126.html#a2d0e9022edc8a9f6fc0e34330fda114a", [
-      [ "SPELL_SUMMON_WAVE_A_MOB", "d3/db8/a23126.html#a2d0e9022edc8a9f6fc0e34330fda114aa19ea6e555692392677c74fccd206380b", null ],
-      [ "SPELL_SUMMON_WAVE_B_MOB", "d3/db8/a23126.html#a2d0e9022edc8a9f6fc0e34330fda114aa938130293fb55c96d06462e407a24a89", null ],
-      [ "SPELL_SUMMON_WAVE_C_MOB", "d3/db8/a23126.html#a2d0e9022edc8a9f6fc0e34330fda114aadc855654104e4ec0a09540e9b51cb098", null ],
-      [ "SPELL_SUMMON_WAVE_D_MOB", "d3/db8/a23126.html#a2d0e9022edc8a9f6fc0e34330fda114aa3bbb32a8c4da3b06e9bf5da83f39970d", null ]
-    ] ],
-    [ "FilterTargets", "d3/db8/a23126.html#a2a1a2e5069587f52ae968c84cd702eaf", null ],
-    [ "HandleHit", "d3/db8/a23126.html#aa670812f42c3082f42e0f232ee6bee16", null ],
-    [ "PrepareSpellScript", "d3/db8/a23126.html#a7fe65229c64c27909868f02439c1ef66", null ],
-    [ "Register", "d3/db8/a23126.html#a0a8f29b524391ff257aba5cbdc355115", null ],
-    [ "Validate", "d3/db8/a23126.html#ab8bcdcfcad2a9998d95567006817711e", null ]
+    [ "CalcPeriodic", "d3/db8/a23126.html#a5cd39919a088cab2fd160ea6e16ee7c8", null ],
+    [ "HandleEffectApply", "d3/db8/a23126.html#adb983cc531fa666648bbdb432684ff1d", null ],
+    [ "HandleEffectRemove", "d3/db8/a23126.html#a99c1bfc5aa4b67318bb3572589a42b1a", null ],
+    [ "OnPeriodic", "d3/db8/a23126.html#aecefab535157dbe8e42aff3b23cd685b", null ],
+    [ "PrepareAuraScript", "d3/db8/a23126.html#ad9ecc1fd4bcf1a2ecb5e2d1ec2ea37f7", null ],
+    [ "Register", "d3/db8/a23126.html#a3771abcc829883ba0cbae9587adbe751", null ]
 ];

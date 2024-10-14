@@ -1,6 +1,9 @@
 var a26546 =
 [
-    [ "HandleAfterCast", "d7/d5b/a26546.html#a6f21938e84e45848fad74a16f1f52c48", null ],
-    [ "PrepareSpellScript", "d7/d5b/a26546.html#ac7abeee05c117595696faf1ec55e11bd", null ],
-    [ "Register", "d7/d5b/a26546.html#a9e90a6fa037627ac682f4ea050f557de", null ]
+    [ "CalculateAmount", "d7/d5b/a26546.html#a55d778b049e26c28bfa9d2e08d7920a8", null ],
+    [ "CheckProc", "d7/d5b/a26546.html#aa0144f9a0260a74010ced913dd8cadbd", null ],
+    [ "HandleProc", "d7/d5b/a26546.html#a741570ba77f70d90b437198f63e565f3", null ],
+    [ "PrepareAuraScript", "d7/d5b/a26546.html#af4e49e2362994f247c119c16c013e4b3", null ],
+    [ "Register", "d7/d5b/a26546.html#a06a3c11618cbdf15427bbaa6ac8a4273", null ],
+    [ "Validate", "d7/d5b/a26546.html#a939d6815bcaee9b9d2b062313aac912a", null ]
 ];

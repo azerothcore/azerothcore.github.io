@@ -1,6 +1,6 @@
 var a26662 =
 [
-    [ "CheckProc", "db/da8/a26662.html#a945c4617cba249ee76045ce032f12c3c", null ],
-    [ "PrepareAuraScript", "db/da8/a26662.html#abdcb401acb80eb732dbf56bbbcf79801", null ],
-    [ "Register", "db/da8/a26662.html#a912dd7ea10038103bb6d242bb7723830", null ]
+    [ "HandleBanish", "db/da8/a26662.html#ab8dd3ab2fd7b9aff3556e6284c515474", null ],
+    [ "PrepareSpellScript", "db/da8/a26662.html#a56118e3ed7525cdf575531a4c2f2d93f", null ],
+    [ "Register", "db/da8/a26662.html#ad6c066c9d6a64a5d89d3c347600559a9", null ]
 ];

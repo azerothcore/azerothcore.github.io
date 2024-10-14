@@ -1,6 +1,7 @@
 var a23754 =
 [
-    [ "AfterRemove", "d6/d28/a23754.html#a1794dcf8ebca0bd0c4fce5acb8b45de0", null ],
-    [ "PrepareAuraScript", "d6/d28/a23754.html#ad5871ce865820456177362c6b790778f", null ],
-    [ "Register", "d6/d28/a23754.html#a41e19fb2509051bbd2d9e43c59f16486", null ]
+    [ "HandleEffect", "d6/d28/a23754.html#ac0fb38f62cc9a41eb70b2ca951f9d1dc", null ],
+    [ "PrepareSpellScript", "d6/d28/a23754.html#abbbffa0a53dc2a55df5e7b17a7f4d38f", null ],
+    [ "Register", "d6/d28/a23754.html#ac406946bb793125d49006e3a877c9638", null ],
+    [ "SelectTarget", "d6/d28/a23754.html#ac36f3d88a0ef8ccaee5bac17bffcaf49", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/AuctionHouse/AuctionHouseMgr.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/HallsOfStone/halls_of_stone.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,328 +105,288 @@ $(document).ready(function(){initNavTree('d6/d2f/a01394.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">AuctionHouseMgr.cpp File Reference</div></div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">halls_of_stone.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">AuctionHouseMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DBCStores.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Item.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Logging/Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">UpdateTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CreatureAIImpl.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a042491ef36459046f3866e90f15aae0d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2f/a01394.html#a042491ef36459046f3866e90f15aae0d">DataHeader</a>&#160;&#160;&#160;&quot;HOS&quot;</td></tr>
+<tr class="separator:a042491ef36459046f3866e90f15aae0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fc40bc4c1a59259e2da1d545d7841df"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2f/a01394.html#a9fc40bc4c1a59259e2da1d545d7841df">HallsOfStoneScriptName</a>&#160;&#160;&#160;&quot;instance_halls_of_stone&quot;</td></tr>
+<tr class="separator:a9fc40bc4c1a59259e2da1d545d7841df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a64573ec9b8743a1169d84540f2ab9463"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463">Encounter</a> { <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463a7ba125997c106b951e55bf342c21bcd1">BOSS_KRYSTALLUS</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c">BOSS_MAIDEN_OF_GRIEF</a> = 1
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463ac7f6f9cbdbb2cd35ff344110e2aa662b">BOSS_TRIBUNAL_OF_AGES</a> = 2
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463af5f7dc4694276a77539caaf56919d5a7">BOSS_SJONNIR</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463aa20c9c8a39f4fd5ef266aa91c761f64c">BRANN_BRONZEBEARD</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463a7a0d142861e9dbe33e4d822c48020b7d">BRANN_DOOR</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a> = 6
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463aa0bf8140afe40c0988666448e72ea45e">DATA_BRANN_ACHIEVEMENT</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463a46d75eb0814ac6bb50b5053af850d417">DATA_SJONNIR_ACHIEVEMENT</a>
+<br />
+ }</td></tr>
+<tr class="separator:a64573ec9b8743a1169d84540f2ab9463"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90ca774f1a8c2c9c0ebb79f5980868b9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9">gobjects</a> { <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a72eaa669813855239b4b45d21f67d3f2">GO_TRIBUNAL_CONSOLE</a> = 193907
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a817f5cd077aa5003e59272fd5d781cc8">GO_TRIBUNAL_ACCESS_DOOR</a> = 191295
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4f92627b7c119df92500d601bdcf7555">GO_KADDRAK</a> = 191671
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9aca39bd4893330b2875c9ff0f47fbd0d5">GO_MARNAK</a> = 191670
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4d423f09b7f646a5e91fd3a4319e624d">GO_ABEDNEUM</a> = 191669
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad0205c64138779f72fe7ed8f794b537f">GO_SKY_FLOOR</a> = 191527
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad28a35a1d7687973b8d83632daa7c7c7">GO_SJONNIR_CONSOLE</a> = 193906
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a9f8ac76bebd7ea6680fdfba71cddbc84">GO_SJONNIR_DOOR</a> = 191296
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a60b4179cd50b218dbcd02d6b689037c6">GO_TRIBUNAL_CHEST</a> = 190586
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad8136ac890918a610fc1771425afdf55">GO_TRIBUNAL_CHEST_H</a> = 193996
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a5f811c762f307a0e37df5ce632c92370">GO_LEFT_PIPE</a> = 192163
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a642e6ade65a788c0c44aa9ff6c002c7c">GO_RIGHT_PIPE</a> = 192164
+<br />
+ }</td></tr>
+<tr class="separator:a90ca774f1a8c2c9c0ebb79f5980868b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7569620d66559dad194b4764f6faf235"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2f/a01394.html#a7569620d66559dad194b4764f6faf235">npcs</a> { <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a7569620d66559dad194b4764f6faf235a0fd4c992b4e05db440cc0ea73c4ffaad">NPC_KADDRAK</a> = 30898
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a7569620d66559dad194b4764f6faf235abda16cd2dd9306be81ee1207b9989f0d">NPC_MARNAK</a> = 30897
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a7569620d66559dad194b4764f6faf235af1cdba2690be5588a967c9bd8f46815d">NPC_ABEDNEUM</a> = 30899
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a7569620d66559dad194b4764f6faf235ad018155cd74db3419f72fbf599cc6242">NPC_SJONNIR</a> = 27978
+, <br />
+&#160;&#160;<a class="el" href="../../d6/d2f/a01394.html#a7569620d66559dad194b4764f6faf235a557fa0e4f73adcfd231bf8165ef38c5c">NPC_BRANN</a> = 28070
+<br />
+ }</td></tr>
+<tr class="separator:a7569620d66559dad194b4764f6faf235"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a133d1ac4ff60f0426e9f1472373251fd"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2f/a01394.html#a133d1ac4ff60f0426e9f1472373251fd">SortAuction</a> (<a class="el" href="../../d7/db6/a06930.html">AuctionEntry</a> *left, <a class="el" href="../../d7/db6/a06930.html">AuctionEntry</a> *right, <a class="el" href="../../dc/dbc/a01391.html#afefbc3444cfffa5e2fe0ded42a20e407">AuctionSortOrderVector</a> &amp;sortOrder, <a class="el" href="../../db/de7/a08366.html">Player</a> *player, bool checkMinBidBuyout)</td></tr>
-<tr class="separator:a133d1ac4ff60f0426e9f1472373251fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ae6debe42dd0e5674dcf1b874cebafe98"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2f/a01394.html#ae6debe42dd0e5674dcf1b874cebafe98">AH_MINIMUM_DEPOSIT</a> = 100</td></tr>
-<tr class="separator:ae6debe42dd0e5674dcf1b874cebafe98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a856193f50a99a86279e43578f2b5ec0a"><td class="memTemplParams" colspan="2">template&lt;class AI , class T &gt; </td></tr>
+<tr class="memitem:a856193f50a99a86279e43578f2b5ec0a"><td class="memTemplItemLeft" align="right" valign="top">AI *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d2f/a01394.html#a856193f50a99a86279e43578f2b5ec0a">GetHallsOfStoneAI</a> (T *obj)</td></tr>
+<tr class="separator:a856193f50a99a86279e43578f2b5ec0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a133d1ac4ff60f0426e9f1472373251fd" name="a133d1ac4ff60f0426e9f1472373251fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a133d1ac4ff60f0426e9f1472373251fd">&#9670;&#160;</a></span>SortAuction()</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a042491ef36459046f3866e90f15aae0d" name="a042491ef36459046f3866e90f15aae0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a042491ef36459046f3866e90f15aae0d">&#9670;&#160;</a></span>DataHeader</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool SortAuction </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/db6/a06930.html">AuctionEntry</a> *&#160;</td>
-          <td class="paramname"><em>left</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db6/a06930.html">AuctionEntry</a> *&#160;</td>
-          <td class="paramname"><em>right</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/dbc/a01391.html#afefbc3444cfffa5e2fe0ded42a20e407">AuctionSortOrderVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>sortOrder</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/de7/a08366.html">Player</a> *&#160;</td>
-          <td class="paramname"><em>player</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>checkMinBidBuyout</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">#define DataHeader&#160;&#160;&#160;&quot;HOS&quot;</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
-<div class="line"><span class="lineno">   38</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; thisOrder : sortOrder)</div>
-<div class="line"><span class="lineno">   39</span>    {</div>
-<div class="line"><span class="lineno">   40</span>        <span class="keywordflow">switch</span> (thisOrder.sortOrder)</div>
-<div class="line"><span class="lineno">   41</span>        {</div>
-<div class="line"><span class="lineno">   42</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420a26c2c32eb02df2a5e1690e0ec6bf221a">AUCTION_SORT_BID</a>:</div>
-<div class="line"><span class="lineno">   43</span>            {</div>
-<div class="line"><span class="lineno">   44</span>                <span class="keywordflow">if</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a11521c90c74d1eba7d7d3ef55e960a93">bid</a> == right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a11521c90c74d1eba7d7d3ef55e960a93">bid</a>)</div>
-<div class="line"><span class="lineno">   45</span>                {</div>
-<div class="line"><span class="lineno">   46</span>                    <span class="keywordflow">if</span> (checkMinBidBuyout)</div>
-<div class="line"><span class="lineno">   47</span>                    {</div>
-<div class="line"><span class="lineno">   48</span>                        <span class="keywordflow">if</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> == right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a>)</div>
-<div class="line"><span class="lineno">   49</span>                        {</div>
-<div class="line"><span class="lineno">   50</span>                            <span class="keywordflow">if</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a> == right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a>)</div>
-<div class="line"><span class="lineno">   51</span>                            {</div>
-<div class="line"><span class="lineno">   52</span>                                <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">   53</span>                            }</div>
-<div class="line"><span class="lineno">   54</span> </div>
-<div class="line"><span class="lineno">   55</span>                            <span class="keywordflow">return</span> thisOrder.isDesc ? left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a> &gt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a> : left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a> &lt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a>;</div>
-<div class="line"><span class="lineno">   56</span>                        }</div>
-<div class="line"><span class="lineno">   57</span> </div>
-<div class="line"><span class="lineno">   58</span>                        <span class="keywordflow">return</span> thisOrder.isDesc ? left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> &gt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> : left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> &lt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a>;</div>
-<div class="line"><span class="lineno">   59</span>                    }</div>
-<div class="line"><span class="lineno">   60</span> </div>
-<div class="line"><span class="lineno">   61</span>                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">   62</span>                }</div>
-<div class="line"><span class="lineno">   63</span> </div>
-<div class="line"><span class="lineno">   64</span>                <span class="keywordflow">return</span> thisOrder.isDesc ? left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a11521c90c74d1eba7d7d3ef55e960a93">bid</a> &gt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a11521c90c74d1eba7d7d3ef55e960a93">bid</a> : left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a11521c90c74d1eba7d7d3ef55e960a93">bid</a> &lt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a11521c90c74d1eba7d7d3ef55e960a93">bid</a>;</div>
-<div class="line"><span class="lineno">   65</span>            }</div>
-<div class="line"><span class="lineno">   66</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420a29d9f97d625896cd9e9729e0971ca215">AUCTION_SORT_BUYOUT</a>:</div>
-<div class="line"><span class="lineno">   67</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094">AUCTION_SORT_BUYOUT_2</a>:</div>
-<div class="line"><span class="lineno">   68</span>            {</div>
-<div class="line"><span class="lineno">   69</span>                <span class="keywordflow">if</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> == right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a>)</div>
-<div class="line"><span class="lineno">   70</span>                {</div>
-<div class="line"><span class="lineno">   71</span>                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">   72</span>                }</div>
-<div class="line"><span class="lineno">   73</span> </div>
-<div class="line"><span class="lineno">   74</span>                <span class="keywordflow">return</span> thisOrder.isDesc ? left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> &gt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> : left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> &lt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a>;</div>
-<div class="line"><span class="lineno">   75</span>            }</div>
-<div class="line"><span class="lineno">   76</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420ad941e54aa0ae31a89638b48d169f88ea">AUCTION_SORT_ITEM</a>:</div>
-<div class="line"><span class="lineno">   77</span>            {</div>
-<div class="line"><span class="lineno">   78</span>                <a class="code hl_struct" href="../../d1/d6d/a08102.html">ItemTemplate</a> <span class="keyword">const</span>* protoLeft = <a class="code hl_define" href="../../dd/d86/a01367.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#ac8935b680716aa5c0d50d750fb934bab">item_template</a>);</div>
-<div class="line"><span class="lineno">   79</span>                <a class="code hl_struct" href="../../d1/d6d/a08102.html">ItemTemplate</a> <span class="keyword">const</span>* protoRight = <a class="code hl_define" href="../../dd/d86/a01367.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#ac8935b680716aa5c0d50d750fb934bab">item_template</a>);</div>
-<div class="line"><span class="lineno">   80</span>                <span class="keywordflow">if</span> (!protoLeft || !protoRight)</div>
-<div class="line"><span class="lineno">   81</span>                {</div>
-<div class="line"><span class="lineno">   82</span>                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">   83</span>                }</div>
-<div class="line"><span class="lineno">   84</span> </div>
-<div class="line"><span class="lineno">   85</span>                std::string leftName = protoLeft-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a7a5bba25307f2ca6037d6c82a3cd3c3c">Name1</a>;</div>
-<div class="line"><span class="lineno">   86</span>                std::string rightName = protoRight-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a7a5bba25307f2ca6037d6c82a3cd3c3c">Name1</a>;</div>
-<div class="line"><span class="lineno">   87</span>                <span class="keywordflow">if</span> (leftName.empty() || rightName.empty())</div>
-<div class="line"><span class="lineno">   88</span>                {</div>
-<div class="line"><span class="lineno">   89</span>                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">   90</span>                }</div>
-<div class="line"><span class="lineno">   91</span> </div>
-<div class="line"><span class="lineno">   92</span>                <a class="code hl_enumeration" href="../../dc/d87/a00032.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a> locale = <a class="code hl_enumvalue" href="../../dc/d87/a00032.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a>;</div>
-<div class="line"><span class="lineno">   93</span>                <span class="keywordflow">if</span> (player &amp;&amp; player-&gt;<a class="code hl_function" href="../../db/de7/a08366.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>())</div>
-<div class="line"><span class="lineno">   94</span>                {</div>
-<div class="line"><span class="lineno">   95</span>                    locale = player-&gt;<a class="code hl_function" href="../../db/de7/a08366.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>()-&gt;<a class="code hl_function" href="../../d1/de3/a10718.html#a38ff97828c0efe89c092f5772c543564">GetSessionDbLocaleIndex</a>();</div>
-<div class="line"><span class="lineno">   96</span>                }</div>
-<div class="line"><span class="lineno">   97</span> </div>
-<div class="line"><span class="lineno">   98</span>                <span class="keywordflow">if</span> (locale &gt; <a class="code hl_enumvalue" href="../../dc/d87/a00032.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a>)</div>
-<div class="line"><span class="lineno">   99</span>                {</div>
-<div class="line"><span class="lineno">  100</span>                    <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d9/d36/a08106.html">ItemLocale</a> <span class="keyword">const</span>* leftIl = <a class="code hl_define" href="../../dd/d86/a01367.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemLocale(protoLeft-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#af8e238c0d7bc950b984de7ed656e5bae">ItemId</a>))</div>
-<div class="line"><span class="lineno">  101</span>                    {</div>
-<div class="line"><span class="lineno">  102</span>                        <a class="code hl_function" href="../../d5/d78/a08786.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a>(leftIl-&gt;Name, locale, leftName);</div>
-<div class="line"><span class="lineno">  103</span>                    }</div>
-<div class="line"><span class="lineno">  104</span> </div>
-<div class="line"><span class="lineno">  105</span>                    <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d9/d36/a08106.html">ItemLocale</a> <span class="keyword">const</span>* rightIl = <a class="code hl_define" href="../../dd/d86/a01367.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemLocale(protoRight-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#af8e238c0d7bc950b984de7ed656e5bae">ItemId</a>))</div>
-<div class="line"><span class="lineno">  106</span>                    {</div>
-<div class="line"><span class="lineno">  107</span>                        <a class="code hl_function" href="../../d5/d78/a08786.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a>(rightIl-&gt;Name, locale, rightName);</div>
-<div class="line"><span class="lineno">  108</span>                    }</div>
-<div class="line"><span class="lineno">  109</span>                }</div>
-<div class="line"><span class="lineno">  110</span> </div>
-<div class="line"><span class="lineno">  111</span>                <span class="keywordtype">int</span> result = leftName.compare(rightName);</div>
-<div class="line"><span class="lineno">  112</span>                <span class="keywordflow">if</span> (result == 0)</div>
-<div class="line"><span class="lineno">  113</span>                {</div>
-<div class="line"><span class="lineno">  114</span>                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  115</span>                }</div>
-<div class="line"><span class="lineno">  116</span> </div>
-<div class="line"><span class="lineno">  117</span>                <span class="keywordflow">return</span> thisOrder.isDesc ? result &gt; 0 : result &lt; 0;</div>
-<div class="line"><span class="lineno">  118</span>            }</div>
-<div class="line"><span class="lineno">  119</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420a30585d5b267baaa6ff0ff1c1f2d900e4">AUCTION_SORT_MINLEVEL</a>:</div>
-<div class="line"><span class="lineno">  120</span>            {</div>
-<div class="line"><span class="lineno">  121</span>                <a class="code hl_struct" href="../../d1/d6d/a08102.html">ItemTemplate</a> <span class="keyword">const</span>* protoLeft  = <a class="code hl_define" href="../../dd/d86/a01367.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#ac8935b680716aa5c0d50d750fb934bab">item_template</a>);</div>
-<div class="line"><span class="lineno">  122</span>                <a class="code hl_struct" href="../../d1/d6d/a08102.html">ItemTemplate</a> <span class="keyword">const</span>* protoRight = <a class="code hl_define" href="../../dd/d86/a01367.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#ac8935b680716aa5c0d50d750fb934bab">item_template</a>);</div>
-<div class="line"><span class="lineno">  123</span>                <span class="keywordflow">if</span> (!protoLeft || !protoRight)</div>
-<div class="line"><span class="lineno">  124</span>                {</div>
-<div class="line"><span class="lineno">  125</span>                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  126</span>                }</div>
-<div class="line"><span class="lineno">  127</span> </div>
-<div class="line"><span class="lineno">  128</span>                <span class="keywordflow">if</span> (protoLeft-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a6e3121554bc0b3c829d300e7da4c5b15">RequiredLevel</a> == protoRight-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a6e3121554bc0b3c829d300e7da4c5b15">RequiredLevel</a>)</div>
-<div class="line"><span class="lineno">  129</span>                {</div>
-<div class="line"><span class="lineno">  130</span>                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  131</span>                }</div>
-<div class="line"><span class="lineno">  132</span> </div>
-<div class="line"><span class="lineno">  133</span>                <span class="keywordflow">return</span> thisOrder.isDesc ? protoLeft-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a6e3121554bc0b3c829d300e7da4c5b15">RequiredLevel</a> &gt; protoRight-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a6e3121554bc0b3c829d300e7da4c5b15">RequiredLevel</a> : protoLeft-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a6e3121554bc0b3c829d300e7da4c5b15">RequiredLevel</a> &lt; protoRight-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a6e3121554bc0b3c829d300e7da4c5b15">RequiredLevel</a>;</div>
-<div class="line"><span class="lineno">  134</span>            }</div>
-<div class="line"><span class="lineno">  135</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420ab092607020b20ea5308b1ea257df844e">AUCTION_SORT_OWNER</a>:</div>
-<div class="line"><span class="lineno">  136</span>            {</div>
-<div class="line"><span class="lineno">  137</span>                std::string leftName;</div>
-<div class="line"><span class="lineno">  138</span>                <a class="code hl_define" href="../../d2/dbd/a01844.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a>-&gt;GetCharacterNameByGuid(left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#adf2b61be66a9afc7114198fe993d526d">owner</a>, leftName);</div>
-<div class="line"><span class="lineno">  139</span> </div>
-<div class="line"><span class="lineno">  140</span>                std::string rightName;</div>
-<div class="line"><span class="lineno">  141</span>                <a class="code hl_define" href="../../d2/dbd/a01844.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a>-&gt;GetCharacterNameByGuid(right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#adf2b61be66a9afc7114198fe993d526d">owner</a>, rightName);</div>
-<div class="line"><span class="lineno">  142</span> </div>
-<div class="line"><span class="lineno">  143</span>                <span class="keywordtype">int</span> result = leftName.compare(rightName);</div>
-<div class="line"><span class="lineno">  144</span>                <span class="keywordflow">if</span> (result == 0)</div>
-<div class="line"><span class="lineno">  145</span>                {</div>
-<div class="line"><span class="lineno">  146</span>                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  147</span>                }</div>
-<div class="line"><span class="lineno">  148</span> </div>
-<div class="line"><span class="lineno">  149</span>                <span class="keywordflow">return</span> thisOrder.isDesc ? result &gt; 0 : result &lt; 0;</div>
-<div class="line"><span class="lineno">  150</span>            }</div>
-<div class="line"><span class="lineno">  151</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420ae73234222b3a934423cb2c47827d9055">AUCTION_SORT_RARITY</a>:</div>
-<div class="line"><span class="lineno">  152</span>            {</div>
-<div class="line"><span class="lineno">  153</span>                <a class="code hl_struct" href="../../d1/d6d/a08102.html">ItemTemplate</a> <span class="keyword">const</span>* protoLeft  = <a class="code hl_define" href="../../dd/d86/a01367.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#ac8935b680716aa5c0d50d750fb934bab">item_template</a>);</div>
-<div class="line"><span class="lineno">  154</span>                <a class="code hl_struct" href="../../d1/d6d/a08102.html">ItemTemplate</a> <span class="keyword">const</span>*  protoRight = <a class="code hl_define" href="../../dd/d86/a01367.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#ac8935b680716aa5c0d50d750fb934bab">item_template</a>);</div>
-<div class="line"><span class="lineno">  155</span>                <span class="keywordflow">if</span> (!protoLeft || !protoRight)</div>
-<div class="line"><span class="lineno">  156</span>                {</div>
-<div class="line"><span class="lineno">  157</span>                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  158</span>                }</div>
-<div class="line"><span class="lineno">  159</span> </div>
-<div class="line"><span class="lineno">  160</span>                <span class="keywordflow">if</span> (protoLeft-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a1b4b51353503f83db3be63f5a5786a1f">Quality</a> == protoRight-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a1b4b51353503f83db3be63f5a5786a1f">Quality</a>)</div>
-<div class="line"><span class="lineno">  161</span>                {</div>
-<div class="line"><span class="lineno">  162</span>                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  163</span>                }</div>
-<div class="line"><span class="lineno">  164</span> </div>
-<div class="line"><span class="lineno">  165</span>                <span class="keywordflow">return</span> thisOrder.isDesc ? protoLeft-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a1b4b51353503f83db3be63f5a5786a1f">Quality</a> &gt; protoRight-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a1b4b51353503f83db3be63f5a5786a1f">Quality</a> : protoLeft-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a1b4b51353503f83db3be63f5a5786a1f">Quality</a> &lt; protoRight-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#a1b4b51353503f83db3be63f5a5786a1f">Quality</a>;</div>
-<div class="line"><span class="lineno">  166</span>            }</div>
-<div class="line"><span class="lineno">  167</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420add1499675819fe1f00e71390131dade4">AUCTION_SORT_STACK</a>:</div>
-<div class="line"><span class="lineno">  168</span>            {</div>
-<div class="line"><span class="lineno">  169</span>                <span class="keywordflow">if</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa67975f37a4ef343422a471ef65a98fd">itemCount</a> == right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa67975f37a4ef343422a471ef65a98fd">itemCount</a>)</div>
-<div class="line"><span class="lineno">  170</span>                {</div>
-<div class="line"><span class="lineno">  171</span>                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  172</span>                }</div>
-<div class="line"><span class="lineno">  173</span> </div>
-<div class="line"><span class="lineno">  174</span>                <span class="keywordflow">if</span> (!thisOrder.isDesc)</div>
-<div class="line"><span class="lineno">  175</span>                {</div>
-<div class="line"><span class="lineno">  176</span>                    <span class="keywordflow">return</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa67975f37a4ef343422a471ef65a98fd">itemCount</a> &lt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa67975f37a4ef343422a471ef65a98fd">itemCount</a>);</div>
-<div class="line"><span class="lineno">  177</span>                }</div>
-<div class="line"><span class="lineno">  178</span> </div>
-<div class="line"><span class="lineno">  179</span>                <span class="keywordflow">return</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa67975f37a4ef343422a471ef65a98fd">itemCount</a> &gt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa67975f37a4ef343422a471ef65a98fd">itemCount</a>);</div>
-<div class="line"><span class="lineno">  180</span>            }</div>
-<div class="line"><span class="lineno">  181</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420a25b565bb3a4f39cecd688a6a95cbc595">AUCTION_SORT_TIMELEFT</a>:</div>
-<div class="line"><span class="lineno">  182</span>            {</div>
-<div class="line"><span class="lineno">  183</span>                <span class="keywordflow">if</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a8520c9664918d452d8e6b643df8486b5">expire_time</a> == right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a8520c9664918d452d8e6b643df8486b5">expire_time</a>)</div>
-<div class="line"><span class="lineno">  184</span>                {</div>
-<div class="line"><span class="lineno">  185</span>                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  186</span>                }</div>
-<div class="line"><span class="lineno">  187</span> </div>
-<div class="line"><span class="lineno">  188</span>                <span class="keywordflow">return</span> thisOrder.isDesc ? left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a8520c9664918d452d8e6b643df8486b5">expire_time</a> &gt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a8520c9664918d452d8e6b643df8486b5">expire_time</a> : left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a8520c9664918d452d8e6b643df8486b5">expire_time</a> &lt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#a8520c9664918d452d8e6b643df8486b5">expire_time</a>;</div>
-<div class="line"><span class="lineno">  189</span>            }</div>
-<div class="line"><span class="lineno">  190</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420a83dbe3e4571275be914a9c72907895ef">AUCTION_SORT_MINBIDBUY</a>:</div>
-<div class="line"><span class="lineno">  191</span>            {</div>
-<div class="line"><span class="lineno">  192</span>                <span class="keywordflow">if</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> == right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a>)</div>
-<div class="line"><span class="lineno">  193</span>                {</div>
-<div class="line"><span class="lineno">  194</span>                    <span class="keywordflow">if</span> (left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a> == right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a>)</div>
-<div class="line"><span class="lineno">  195</span>                    {</div>
-<div class="line"><span class="lineno">  196</span>                        <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  197</span>                    }</div>
-<div class="line"><span class="lineno">  198</span> </div>
-<div class="line"><span class="lineno">  199</span>                    <span class="keywordflow">return</span> thisOrder.isDesc ? left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a> &gt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a> : left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a> &lt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">startbid</a>;</div>
-<div class="line"><span class="lineno">  200</span>                }</div>
-<div class="line"><span class="lineno">  201</span> </div>
-<div class="line"><span class="lineno">  202</span>                <span class="keywordflow">return</span> thisOrder.isDesc ? left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> &gt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> : left-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a> &lt; right-&gt;<a class="code hl_variable" href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">buyout</a>;</div>
-<div class="line"><span class="lineno">  203</span>            }</div>
-<div class="line"><span class="lineno">  204</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420a607c80ce155cba82b2aa1d27532c970d">AUCTION_SORT_MAX</a>:</div>
-<div class="line"><span class="lineno">  205</span>                <span class="comment">// Such sad travis appeasement</span></div>
-<div class="line"><span class="lineno">  206</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420a45cabc5fc139ebe5f9ab99ba04442ee4">AUCTION_SORT_UNK4</a>:</div>
-<div class="line"><span class="lineno">  207</span>            <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">  208</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  209</span>        }</div>
-<div class="line"><span class="lineno">  210</span>    }</div>
-<div class="line"><span class="lineno">  211</span> </div>
-<div class="line"><span class="lineno">  212</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  213</span>}</div>
-<div class="ttc" id="aa00032_html_a54c9b637be7283ba1a04fb5215594332"><div class="ttname"><a href="../../dc/d87/a00032.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a></div><div class="ttdeci">LocaleConstant</div><div class="ttdef"><b>Definition:</b> Common.h:65</div></div>
-<div class="ttc" id="aa00032_html_a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3"><div class="ttname"><a href="../../dc/d87/a00032.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a></div><div class="ttdeci">@ LOCALE_enUS</div><div class="ttdef"><b>Definition:</b> Common.h:66</div></div>
-<div class="ttc" id="aa01367_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../dd/d86/a01367.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1621</div></div>
-<div class="ttc" id="aa01391_html_abce5a6a07f5c4ef07bed8f8f5fba2420a25b565bb3a4f39cecd688a6a95cbc595"><div class="ttname"><a href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420a25b565bb3a4f39cecd688a6a95cbc595">AUCTION_SORT_TIMELEFT</a></div><div class="ttdeci">@ AUCTION_SORT_TIMELEFT</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:78</div></div>
-<div class="ttc" id="aa01391_html_abce5a6a07f5c4ef07bed8f8f5fba2420a26c2c32eb02df2a5e1690e0ec6bf221a"><div class="ttname"><a href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420a26c2c32eb02df2a5e1690e0ec6bf221a">AUCTION_SORT_BID</a></div><div class="ttdeci">@ AUCTION_SORT_BID</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:83</div></div>
-<div class="ttc" id="aa01391_html_abce5a6a07f5c4ef07bed8f8f5fba2420a29d9f97d625896cd9e9729e0971ca215"><div class="ttname"><a href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420a29d9f97d625896cd9e9729e0971ca215">AUCTION_SORT_BUYOUT</a></div><div class="ttdeci">@ AUCTION_SORT_BUYOUT</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:77</div></div>
-<div class="ttc" id="aa01391_html_abce5a6a07f5c4ef07bed8f8f5fba2420a30585d5b267baaa6ff0ff1c1f2d900e4"><div class="ttname"><a href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420a30585d5b267baaa6ff0ff1c1f2d900e4">AUCTION_SORT_MINLEVEL</a></div><div class="ttdeci">@ AUCTION_SORT_MINLEVEL</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:75</div></div>
-<div class="ttc" id="aa01391_html_abce5a6a07f5c4ef07bed8f8f5fba2420a45cabc5fc139ebe5f9ab99ba04442ee4"><div class="ttname"><a href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420a45cabc5fc139ebe5f9ab99ba04442ee4">AUCTION_SORT_UNK4</a></div><div class="ttdeci">@ AUCTION_SORT_UNK4</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:79</div></div>
-<div class="ttc" id="aa01391_html_abce5a6a07f5c4ef07bed8f8f5fba2420a607c80ce155cba82b2aa1d27532c970d"><div class="ttname"><a href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420a607c80ce155cba82b2aa1d27532c970d">AUCTION_SORT_MAX</a></div><div class="ttdeci">@ AUCTION_SORT_MAX</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:87</div></div>
-<div class="ttc" id="aa01391_html_abce5a6a07f5c4ef07bed8f8f5fba2420a83dbe3e4571275be914a9c72907895ef"><div class="ttname"><a href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420a83dbe3e4571275be914a9c72907895ef">AUCTION_SORT_MINBIDBUY</a></div><div class="ttdeci">@ AUCTION_SORT_MINBIDBUY</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:81</div></div>
-<div class="ttc" id="aa01391_html_abce5a6a07f5c4ef07bed8f8f5fba2420ab092607020b20ea5308b1ea257df844e"><div class="ttname"><a href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420ab092607020b20ea5308b1ea257df844e">AUCTION_SORT_OWNER</a></div><div class="ttdeci">@ AUCTION_SORT_OWNER</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:82</div></div>
-<div class="ttc" id="aa01391_html_abce5a6a07f5c4ef07bed8f8f5fba2420ad941e54aa0ae31a89638b48d169f88ea"><div class="ttname"><a href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420ad941e54aa0ae31a89638b48d169f88ea">AUCTION_SORT_ITEM</a></div><div class="ttdeci">@ AUCTION_SORT_ITEM</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:80</div></div>
-<div class="ttc" id="aa01391_html_abce5a6a07f5c4ef07bed8f8f5fba2420add1499675819fe1f00e71390131dade4"><div class="ttname"><a href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420add1499675819fe1f00e71390131dade4">AUCTION_SORT_STACK</a></div><div class="ttdeci">@ AUCTION_SORT_STACK</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:84</div></div>
-<div class="ttc" id="aa01391_html_abce5a6a07f5c4ef07bed8f8f5fba2420ae73234222b3a934423cb2c47827d9055"><div class="ttname"><a href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420ae73234222b3a934423cb2c47827d9055">AUCTION_SORT_RARITY</a></div><div class="ttdeci">@ AUCTION_SORT_RARITY</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:76</div></div>
-<div class="ttc" id="aa01391_html_abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094"><div class="ttname"><a href="../../dc/dbc/a01391.html#abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094">AUCTION_SORT_BUYOUT_2</a></div><div class="ttdeci">@ AUCTION_SORT_BUYOUT_2</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:85</div></div>
-<div class="ttc" id="aa01844_html_a7a32c898b33d6163d83a32f46d58517c"><div class="ttname"><a href="../../d2/dbd/a01844.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a></div><div class="ttdeci">#define sCharacterCache</div><div class="ttdef"><b>Definition:</b> CharacterCache.h:83</div></div>
-<div class="ttc" id="aa06930_html_a11521c90c74d1eba7d7d3ef55e960a93"><div class="ttname"><a href="../../d7/db6/a06930.html#a11521c90c74d1eba7d7d3ef55e960a93">AuctionEntry::bid</a></div><div class="ttdeci">uint32 bid</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:109</div></div>
-<div class="ttc" id="aa06930_html_a8520c9664918d452d8e6b643df8486b5"><div class="ttname"><a href="../../d7/db6/a06930.html#a8520c9664918d452d8e6b643df8486b5">AuctionEntry::expire_time</a></div><div class="ttdeci">time_t expire_time</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:111</div></div>
-<div class="ttc" id="aa06930_html_aa1e6771187c237136d34645db9f852f9"><div class="ttname"><a href="../../d7/db6/a06930.html#aa1e6771187c237136d34645db9f852f9">AuctionEntry::startbid</a></div><div class="ttdeci">uint32 startbid</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:108</div></div>
-<div class="ttc" id="aa06930_html_aa67975f37a4ef343422a471ef65a98fd"><div class="ttname"><a href="../../d7/db6/a06930.html#aa67975f37a4ef343422a471ef65a98fd">AuctionEntry::itemCount</a></div><div class="ttdeci">uint32 itemCount</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:106</div></div>
-<div class="ttc" id="aa06930_html_aa75d261f77460c16f98f211b481a9af0"><div class="ttname"><a href="../../d7/db6/a06930.html#aa75d261f77460c16f98f211b481a9af0">AuctionEntry::buyout</a></div><div class="ttdeci">uint32 buyout</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:110</div></div>
-<div class="ttc" id="aa06930_html_ac8935b680716aa5c0d50d750fb934bab"><div class="ttname"><a href="../../d7/db6/a06930.html#ac8935b680716aa5c0d50d750fb934bab">AuctionEntry::item_template</a></div><div class="ttdeci">uint32 item_template</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:105</div></div>
-<div class="ttc" id="aa06930_html_adf2b61be66a9afc7114198fe993d526d"><div class="ttname"><a href="../../d7/db6/a06930.html#adf2b61be66a9afc7114198fe993d526d">AuctionEntry::owner</a></div><div class="ttdeci">ObjectGuid owner</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:107</div></div>
-<div class="ttc" id="aa08102_html"><div class="ttname"><a href="../../d1/d6d/a08102.html">ItemTemplate</a></div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:619</div></div>
-<div class="ttc" id="aa08102_html_a1b4b51353503f83db3be63f5a5786a1f"><div class="ttname"><a href="../../d1/d6d/a08102.html#a1b4b51353503f83db3be63f5a5786a1f">ItemTemplate::Quality</a></div><div class="ttdeci">uint32 Quality</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:626</div></div>
-<div class="ttc" id="aa08102_html_a6e3121554bc0b3c829d300e7da4c5b15"><div class="ttname"><a href="../../d1/d6d/a08102.html#a6e3121554bc0b3c829d300e7da4c5b15">ItemTemplate::RequiredLevel</a></div><div class="ttdeci">uint32 RequiredLevel</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:636</div></div>
-<div class="ttc" id="aa08102_html_a7a5bba25307f2ca6037d6c82a3cd3c3c"><div class="ttname"><a href="../../d1/d6d/a08102.html#a7a5bba25307f2ca6037d6c82a3cd3c3c">ItemTemplate::Name1</a></div><div class="ttdeci">std::string Name1</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:624</div></div>
-<div class="ttc" id="aa08102_html_af8e238c0d7bc950b984de7ed656e5bae"><div class="ttname"><a href="../../d1/d6d/a08102.html#af8e238c0d7bc950b984de7ed656e5bae">ItemTemplate::ItemId</a></div><div class="ttdeci">uint32 ItemId</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:620</div></div>
-<div class="ttc" id="aa08106_html"><div class="ttname"><a href="../../d9/d36/a08106.html">ItemLocale</a></div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:838</div></div>
-<div class="ttc" id="aa08366_html_a6ab11ca64cde7c5cde1f53998a6f7253"><div class="ttname"><a href="../../db/de7/a08366.html#a6ab11ca64cde7c5cde1f53998a6f7253">Player::GetSession</a></div><div class="ttdeci">WorldSession * GetSession() const</div><div class="ttdef"><b>Definition:</b> Player.h:1980</div></div>
-<div class="ttc" id="aa08786_html_afaf0c44e499261c10276edc4c3cb15a0"><div class="ttname"><a href="../../d5/d78/a08786.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a></div><div class="ttdeci">static std::string_view GetLocaleString(std::vector&lt; std::string &gt; const &amp;data, std::size_t locale)</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1403</div></div>
-<div class="ttc" id="aa10718_html_a38ff97828c0efe89c092f5772c543564"><div class="ttname"><a href="../../d1/de3/a10718.html#a38ff97828c0efe89c092f5772c543564">WorldSession::GetSessionDbLocaleIndex</a></div><div class="ttdeci">LocaleConstant GetSessionDbLocaleIndex() const</div><div class="ttdef"><b>Definition:</b> WorldSession.h:498</div></div>
+
+</div>
+</div>
+<a id="a9fc40bc4c1a59259e2da1d545d7841df" name="a9fc40bc4c1a59259e2da1d545d7841df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fc40bc4c1a59259e2da1d545d7841df">&#9670;&#160;</a></span>HallsOfStoneScriptName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HallsOfStoneScriptName&#160;&#160;&#160;&quot;instance_halls_of_stone&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a64573ec9b8743a1169d84540f2ab9463" name="a64573ec9b8743a1169d84540f2ab9463"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64573ec9b8743a1169d84540f2ab9463">&#9670;&#160;</a></span>Encounter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463">Encounter</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463a7ba125997c106b951e55bf342c21bcd1" name="a64573ec9b8743a1169d84540f2ab9463a7ba125997c106b951e55bf342c21bcd1"></a>BOSS_KRYSTALLUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c" name="a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c"></a>BOSS_MAIDEN_OF_GRIEF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463ac7f6f9cbdbb2cd35ff344110e2aa662b" name="a64573ec9b8743a1169d84540f2ab9463ac7f6f9cbdbb2cd35ff344110e2aa662b"></a>BOSS_TRIBUNAL_OF_AGES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463af5f7dc4694276a77539caaf56919d5a7" name="a64573ec9b8743a1169d84540f2ab9463af5f7dc4694276a77539caaf56919d5a7"></a>BOSS_SJONNIR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463aa20c9c8a39f4fd5ef266aa91c761f64c" name="a64573ec9b8743a1169d84540f2ab9463aa20c9c8a39f4fd5ef266aa91c761f64c"></a>BRANN_BRONZEBEARD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463a7a0d142861e9dbe33e4d822c48020b7d" name="a64573ec9b8743a1169d84540f2ab9463a7a0d142861e9dbe33e4d822c48020b7d"></a>BRANN_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463a7913656ef56deb3793c0c5f3d999d80d" name="a64573ec9b8743a1169d84540f2ab9463a7913656ef56deb3793c0c5f3d999d80d"></a>MAX_ENCOUNTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463aa0bf8140afe40c0988666448e72ea45e" name="a64573ec9b8743a1169d84540f2ab9463aa0bf8140afe40c0988666448e72ea45e"></a>DATA_BRANN_ACHIEVEMENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64573ec9b8743a1169d84540f2ab9463a46d75eb0814ac6bb50b5053af850d417" name="a64573ec9b8743a1169d84540f2ab9463a46d75eb0814ac6bb50b5053af850d417"></a>DATA_SJONNIR_ACHIEVEMENT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463a7ba125997c106b951e55bf342c21bcd1">BOSS_KRYSTALLUS</a>             = 0,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c">BOSS_MAIDEN_OF_GRIEF</a>        = 1,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463ac7f6f9cbdbb2cd35ff344110e2aa662b">BOSS_TRIBUNAL_OF_AGES</a>       = 2,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463af5f7dc4694276a77539caaf56919d5a7">BOSS_SJONNIR</a>                = 3,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463aa20c9c8a39f4fd5ef266aa91c761f64c">BRANN_BRONZEBEARD</a>           = 4,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463a7a0d142861e9dbe33e4d822c48020b7d">BRANN_DOOR</a>                  = 5,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a>               = 6,</div>
+<div class="line"><span class="lineno">   36</span> </div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463aa0bf8140afe40c0988666448e72ea45e">DATA_BRANN_ACHIEVEMENT</a>,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463a46d75eb0814ac6bb50b5053af850d417">DATA_SJONNIR_ACHIEVEMENT</a>,</div>
+<div class="line"><span class="lineno">   39</span>};</div>
+<div class="ttc" id="aa01394_html_a64573ec9b8743a1169d84540f2ab9463a46d75eb0814ac6bb50b5053af850d417"><div class="ttname"><a href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463a46d75eb0814ac6bb50b5053af850d417">DATA_SJONNIR_ACHIEVEMENT</a></div><div class="ttdeci">@ DATA_SJONNIR_ACHIEVEMENT</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:38</div></div>
+<div class="ttc" id="aa01394_html_a64573ec9b8743a1169d84540f2ab9463a7913656ef56deb3793c0c5f3d999d80d"><div class="ttname"><a href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463a7913656ef56deb3793c0c5f3d999d80d">MAX_ENCOUNTER</a></div><div class="ttdeci">@ MAX_ENCOUNTER</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:35</div></div>
+<div class="ttc" id="aa01394_html_a64573ec9b8743a1169d84540f2ab9463a7a0d142861e9dbe33e4d822c48020b7d"><div class="ttname"><a href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463a7a0d142861e9dbe33e4d822c48020b7d">BRANN_DOOR</a></div><div class="ttdeci">@ BRANN_DOOR</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:34</div></div>
+<div class="ttc" id="aa01394_html_a64573ec9b8743a1169d84540f2ab9463a7ba125997c106b951e55bf342c21bcd1"><div class="ttname"><a href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463a7ba125997c106b951e55bf342c21bcd1">BOSS_KRYSTALLUS</a></div><div class="ttdeci">@ BOSS_KRYSTALLUS</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:29</div></div>
+<div class="ttc" id="aa01394_html_a64573ec9b8743a1169d84540f2ab9463aa0bf8140afe40c0988666448e72ea45e"><div class="ttname"><a href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463aa0bf8140afe40c0988666448e72ea45e">DATA_BRANN_ACHIEVEMENT</a></div><div class="ttdeci">@ DATA_BRANN_ACHIEVEMENT</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:37</div></div>
+<div class="ttc" id="aa01394_html_a64573ec9b8743a1169d84540f2ab9463aa20c9c8a39f4fd5ef266aa91c761f64c"><div class="ttname"><a href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463aa20c9c8a39f4fd5ef266aa91c761f64c">BRANN_BRONZEBEARD</a></div><div class="ttdeci">@ BRANN_BRONZEBEARD</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:33</div></div>
+<div class="ttc" id="aa01394_html_a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c"><div class="ttname"><a href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463ac68ee382aa3c26c77cc5faffef8dcf4c">BOSS_MAIDEN_OF_GRIEF</a></div><div class="ttdeci">@ BOSS_MAIDEN_OF_GRIEF</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:30</div></div>
+<div class="ttc" id="aa01394_html_a64573ec9b8743a1169d84540f2ab9463ac7f6f9cbdbb2cd35ff344110e2aa662b"><div class="ttname"><a href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463ac7f6f9cbdbb2cd35ff344110e2aa662b">BOSS_TRIBUNAL_OF_AGES</a></div><div class="ttdeci">@ BOSS_TRIBUNAL_OF_AGES</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:31</div></div>
+<div class="ttc" id="aa01394_html_a64573ec9b8743a1169d84540f2ab9463af5f7dc4694276a77539caaf56919d5a7"><div class="ttname"><a href="../../d6/d2f/a01394.html#a64573ec9b8743a1169d84540f2ab9463af5f7dc4694276a77539caaf56919d5a7">BOSS_SJONNIR</a></div><div class="ttdeci">@ BOSS_SJONNIR</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:32</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00083">AUCTION_SORT_BID</a>, <a class="el" href="../../#l00077">AUCTION_SORT_BUYOUT</a>, <a class="el" href="../../#l00085">AUCTION_SORT_BUYOUT_2</a>, <a class="el" href="../../#l00080">AUCTION_SORT_ITEM</a>, <a class="el" href="../../#l00087">AUCTION_SORT_MAX</a>, <a class="el" href="../../#l00081">AUCTION_SORT_MINBIDBUY</a>, <a class="el" href="../../#l00075">AUCTION_SORT_MINLEVEL</a>, <a class="el" href="../../#l00082">AUCTION_SORT_OWNER</a>, <a class="el" href="../../#l00076">AUCTION_SORT_RARITY</a>, <a class="el" href="../../#l00084">AUCTION_SORT_STACK</a>, <a class="el" href="../../#l00078">AUCTION_SORT_TIMELEFT</a>, <a class="el" href="../../#l00079">AUCTION_SORT_UNK4</a>, <a class="el" href="../../#l00109">AuctionEntry::bid</a>, <a class="el" href="../../#l00110">AuctionEntry::buyout</a>, <a class="el" href="../../#l00111">AuctionEntry::expire_time</a>, <a class="el" href="../../#l01403">ObjectMgr::GetLocaleString()</a>, <a class="el" href="../../#l01980">Player::GetSession()</a>, <a class="el" href="../../#l00498">WorldSession::GetSessionDbLocaleIndex()</a>, <a class="el" href="../../#l00105">AuctionEntry::item_template</a>, <a class="el" href="../../#l00106">AuctionEntry::itemCount</a>, <a class="el" href="../../#l00620">ItemTemplate::ItemId</a>, <a class="el" href="../../#l00066">LOCALE_enUS</a>, <a class="el" href="../../#l00624">ItemTemplate::Name1</a>, <a class="el" href="../../#l00107">AuctionEntry::owner</a>, <a class="el" href="../../#l00626">ItemTemplate::Quality</a>, <a class="el" href="../../#l00636">ItemTemplate::RequiredLevel</a>, <a class="el" href="../../#l00083">sCharacterCache</a>, <a class="el" href="../../#l01621">sObjectMgr</a>, and <a class="el" href="../../#l00108">AuctionEntry::startbid</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00733">AuctionHouseObject::BuildListAuctionItems()</a>.</p>
-
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="ae6debe42dd0e5674dcf1b874cebafe98" name="ae6debe42dd0e5674dcf1b874cebafe98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6debe42dd0e5674dcf1b874cebafe98">&#9670;&#160;</a></span>AH_MINIMUM_DEPOSIT</h2>
+<a id="a90ca774f1a8c2c9c0ebb79f5980868b9" name="a90ca774f1a8c2c9c0ebb79f5980868b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90ca774f1a8c2c9c0ebb79f5980868b9">&#9670;&#160;</a></span>gobjects</h2>
 
 <div class="memitem">
 <div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9">gobjects</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9a72eaa669813855239b4b45d21f67d3f2" name="a90ca774f1a8c2c9c0ebb79f5980868b9a72eaa669813855239b4b45d21f67d3f2"></a>GO_TRIBUNAL_CONSOLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9a817f5cd077aa5003e59272fd5d781cc8" name="a90ca774f1a8c2c9c0ebb79f5980868b9a817f5cd077aa5003e59272fd5d781cc8"></a>GO_TRIBUNAL_ACCESS_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9a4f92627b7c119df92500d601bdcf7555" name="a90ca774f1a8c2c9c0ebb79f5980868b9a4f92627b7c119df92500d601bdcf7555"></a>GO_KADDRAK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9aca39bd4893330b2875c9ff0f47fbd0d5" name="a90ca774f1a8c2c9c0ebb79f5980868b9aca39bd4893330b2875c9ff0f47fbd0d5"></a>GO_MARNAK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9a4d423f09b7f646a5e91fd3a4319e624d" name="a90ca774f1a8c2c9c0ebb79f5980868b9a4d423f09b7f646a5e91fd3a4319e624d"></a>GO_ABEDNEUM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9ad0205c64138779f72fe7ed8f794b537f" name="a90ca774f1a8c2c9c0ebb79f5980868b9ad0205c64138779f72fe7ed8f794b537f"></a>GO_SKY_FLOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9ad28a35a1d7687973b8d83632daa7c7c7" name="a90ca774f1a8c2c9c0ebb79f5980868b9ad28a35a1d7687973b8d83632daa7c7c7"></a>GO_SJONNIR_CONSOLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9a9f8ac76bebd7ea6680fdfba71cddbc84" name="a90ca774f1a8c2c9c0ebb79f5980868b9a9f8ac76bebd7ea6680fdfba71cddbc84"></a>GO_SJONNIR_DOOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9a60b4179cd50b218dbcd02d6b689037c6" name="a90ca774f1a8c2c9c0ebb79f5980868b9a60b4179cd50b218dbcd02d6b689037c6"></a>GO_TRIBUNAL_CHEST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9ad8136ac890918a610fc1771425afdf55" name="a90ca774f1a8c2c9c0ebb79f5980868b9ad8136ac890918a610fc1771425afdf55"></a>GO_TRIBUNAL_CHEST_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9a5f811c762f307a0e37df5ce632c92370" name="a90ca774f1a8c2c9c0ebb79f5980868b9a5f811c762f307a0e37df5ce632c92370"></a>GO_LEFT_PIPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a90ca774f1a8c2c9c0ebb79f5980868b9a642e6ade65a788c0c44aa9ff6c002c7c" name="a90ca774f1a8c2c9c0ebb79f5980868b9a642e6ade65a788c0c44aa9ff6c002c7c"></a>GO_RIGHT_PIPE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   42</span>{</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a72eaa669813855239b4b45d21f67d3f2">GO_TRIBUNAL_CONSOLE</a>         = 193907,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a817f5cd077aa5003e59272fd5d781cc8">GO_TRIBUNAL_ACCESS_DOOR</a>     = 191295,</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4f92627b7c119df92500d601bdcf7555">GO_KADDRAK</a>                  = 191671,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9aca39bd4893330b2875c9ff0f47fbd0d5">GO_MARNAK</a>                   = 191670,</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4d423f09b7f646a5e91fd3a4319e624d">GO_ABEDNEUM</a>                 = 191669,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad0205c64138779f72fe7ed8f794b537f">GO_SKY_FLOOR</a>                = 191527,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad28a35a1d7687973b8d83632daa7c7c7">GO_SJONNIR_CONSOLE</a>          = 193906,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a9f8ac76bebd7ea6680fdfba71cddbc84">GO_SJONNIR_DOOR</a>             = 191296,</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a60b4179cd50b218dbcd02d6b689037c6">GO_TRIBUNAL_CHEST</a>           = 190586,</div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad8136ac890918a610fc1771425afdf55">GO_TRIBUNAL_CHEST_H</a>         = 193996,</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a5f811c762f307a0e37df5ce632c92370">GO_LEFT_PIPE</a>                = 192163,</div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a642e6ade65a788c0c44aa9ff6c002c7c">GO_RIGHT_PIPE</a>               = 192164,</div>
+<div class="line"><span class="lineno">   55</span>};</div>
+<div class="ttc" id="aa01394_html_a90ca774f1a8c2c9c0ebb79f5980868b9a4d423f09b7f646a5e91fd3a4319e624d"><div class="ttname"><a href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4d423f09b7f646a5e91fd3a4319e624d">GO_ABEDNEUM</a></div><div class="ttdeci">@ GO_ABEDNEUM</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:47</div></div>
+<div class="ttc" id="aa01394_html_a90ca774f1a8c2c9c0ebb79f5980868b9a4f92627b7c119df92500d601bdcf7555"><div class="ttname"><a href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a4f92627b7c119df92500d601bdcf7555">GO_KADDRAK</a></div><div class="ttdeci">@ GO_KADDRAK</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:45</div></div>
+<div class="ttc" id="aa01394_html_a90ca774f1a8c2c9c0ebb79f5980868b9a5f811c762f307a0e37df5ce632c92370"><div class="ttname"><a href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a5f811c762f307a0e37df5ce632c92370">GO_LEFT_PIPE</a></div><div class="ttdeci">@ GO_LEFT_PIPE</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:53</div></div>
+<div class="ttc" id="aa01394_html_a90ca774f1a8c2c9c0ebb79f5980868b9a60b4179cd50b218dbcd02d6b689037c6"><div class="ttname"><a href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a60b4179cd50b218dbcd02d6b689037c6">GO_TRIBUNAL_CHEST</a></div><div class="ttdeci">@ GO_TRIBUNAL_CHEST</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:51</div></div>
+<div class="ttc" id="aa01394_html_a90ca774f1a8c2c9c0ebb79f5980868b9a642e6ade65a788c0c44aa9ff6c002c7c"><div class="ttname"><a href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a642e6ade65a788c0c44aa9ff6c002c7c">GO_RIGHT_PIPE</a></div><div class="ttdeci">@ GO_RIGHT_PIPE</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:54</div></div>
+<div class="ttc" id="aa01394_html_a90ca774f1a8c2c9c0ebb79f5980868b9a72eaa669813855239b4b45d21f67d3f2"><div class="ttname"><a href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a72eaa669813855239b4b45d21f67d3f2">GO_TRIBUNAL_CONSOLE</a></div><div class="ttdeci">@ GO_TRIBUNAL_CONSOLE</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:43</div></div>
+<div class="ttc" id="aa01394_html_a90ca774f1a8c2c9c0ebb79f5980868b9a817f5cd077aa5003e59272fd5d781cc8"><div class="ttname"><a href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a817f5cd077aa5003e59272fd5d781cc8">GO_TRIBUNAL_ACCESS_DOOR</a></div><div class="ttdeci">@ GO_TRIBUNAL_ACCESS_DOOR</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:44</div></div>
+<div class="ttc" id="aa01394_html_a90ca774f1a8c2c9c0ebb79f5980868b9a9f8ac76bebd7ea6680fdfba71cddbc84"><div class="ttname"><a href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9a9f8ac76bebd7ea6680fdfba71cddbc84">GO_SJONNIR_DOOR</a></div><div class="ttdeci">@ GO_SJONNIR_DOOR</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:50</div></div>
+<div class="ttc" id="aa01394_html_a90ca774f1a8c2c9c0ebb79f5980868b9aca39bd4893330b2875c9ff0f47fbd0d5"><div class="ttname"><a href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9aca39bd4893330b2875c9ff0f47fbd0d5">GO_MARNAK</a></div><div class="ttdeci">@ GO_MARNAK</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:46</div></div>
+<div class="ttc" id="aa01394_html_a90ca774f1a8c2c9c0ebb79f5980868b9ad0205c64138779f72fe7ed8f794b537f"><div class="ttname"><a href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad0205c64138779f72fe7ed8f794b537f">GO_SKY_FLOOR</a></div><div class="ttdeci">@ GO_SKY_FLOOR</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:48</div></div>
+<div class="ttc" id="aa01394_html_a90ca774f1a8c2c9c0ebb79f5980868b9ad28a35a1d7687973b8d83632daa7c7c7"><div class="ttname"><a href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad28a35a1d7687973b8d83632daa7c7c7">GO_SJONNIR_CONSOLE</a></div><div class="ttdeci">@ GO_SJONNIR_CONSOLE</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:49</div></div>
+<div class="ttc" id="aa01394_html_a90ca774f1a8c2c9c0ebb79f5980868b9ad8136ac890918a610fc1771425afdf55"><div class="ttname"><a href="../../d6/d2f/a01394.html#a90ca774f1a8c2c9c0ebb79f5980868b9ad8136ac890918a610fc1771425afdf55">GO_TRIBUNAL_CHEST_H</a></div><div class="ttdeci">@ GO_TRIBUNAL_CHEST_H</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:52</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a7569620d66559dad194b4764f6faf235" name="a7569620d66559dad194b4764f6faf235"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7569620d66559dad194b4764f6faf235">&#9670;&#160;</a></span>npcs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d6/d2f/a01394.html#a7569620d66559dad194b4764f6faf235">npcs</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7569620d66559dad194b4764f6faf235a0fd4c992b4e05db440cc0ea73c4ffaad" name="a7569620d66559dad194b4764f6faf235a0fd4c992b4e05db440cc0ea73c4ffaad"></a>NPC_KADDRAK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7569620d66559dad194b4764f6faf235abda16cd2dd9306be81ee1207b9989f0d" name="a7569620d66559dad194b4764f6faf235abda16cd2dd9306be81ee1207b9989f0d"></a>NPC_MARNAK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7569620d66559dad194b4764f6faf235af1cdba2690be5588a967c9bd8f46815d" name="a7569620d66559dad194b4764f6faf235af1cdba2690be5588a967c9bd8f46815d"></a>NPC_ABEDNEUM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7569620d66559dad194b4764f6faf235ad018155cd74db3419f72fbf599cc6242" name="a7569620d66559dad194b4764f6faf235ad018155cd74db3419f72fbf599cc6242"></a>NPC_SJONNIR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7569620d66559dad194b4764f6faf235a557fa0e4f73adcfd231bf8165ef38c5c" name="a7569620d66559dad194b4764f6faf235a557fa0e4f73adcfd231bf8165ef38c5c"></a>NPC_BRANN&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   58</span>{</div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a7569620d66559dad194b4764f6faf235a0fd4c992b4e05db440cc0ea73c4ffaad">NPC_KADDRAK</a>                 = 30898,</div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a7569620d66559dad194b4764f6faf235abda16cd2dd9306be81ee1207b9989f0d">NPC_MARNAK</a>                  = 30897,</div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a7569620d66559dad194b4764f6faf235af1cdba2690be5588a967c9bd8f46815d">NPC_ABEDNEUM</a>                = 30899,</div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a7569620d66559dad194b4764f6faf235ad018155cd74db3419f72fbf599cc6242">NPC_SJONNIR</a>                 = 27978,</div>
+<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../d6/d2f/a01394.html#a7569620d66559dad194b4764f6faf235a557fa0e4f73adcfd231bf8165ef38c5c">NPC_BRANN</a>                   = 28070,</div>
+<div class="line"><span class="lineno">   64</span>};</div>
+<div class="ttc" id="aa01394_html_a7569620d66559dad194b4764f6faf235a0fd4c992b4e05db440cc0ea73c4ffaad"><div class="ttname"><a href="../../d6/d2f/a01394.html#a7569620d66559dad194b4764f6faf235a0fd4c992b4e05db440cc0ea73c4ffaad">NPC_KADDRAK</a></div><div class="ttdeci">@ NPC_KADDRAK</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:59</div></div>
+<div class="ttc" id="aa01394_html_a7569620d66559dad194b4764f6faf235a557fa0e4f73adcfd231bf8165ef38c5c"><div class="ttname"><a href="../../d6/d2f/a01394.html#a7569620d66559dad194b4764f6faf235a557fa0e4f73adcfd231bf8165ef38c5c">NPC_BRANN</a></div><div class="ttdeci">@ NPC_BRANN</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:63</div></div>
+<div class="ttc" id="aa01394_html_a7569620d66559dad194b4764f6faf235abda16cd2dd9306be81ee1207b9989f0d"><div class="ttname"><a href="../../d6/d2f/a01394.html#a7569620d66559dad194b4764f6faf235abda16cd2dd9306be81ee1207b9989f0d">NPC_MARNAK</a></div><div class="ttdeci">@ NPC_MARNAK</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:60</div></div>
+<div class="ttc" id="aa01394_html_a7569620d66559dad194b4764f6faf235ad018155cd74db3419f72fbf599cc6242"><div class="ttname"><a href="../../d6/d2f/a01394.html#a7569620d66559dad194b4764f6faf235ad018155cd74db3419f72fbf599cc6242">NPC_SJONNIR</a></div><div class="ttdeci">@ NPC_SJONNIR</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:62</div></div>
+<div class="ttc" id="aa01394_html_a7569620d66559dad194b4764f6faf235af1cdba2690be5588a967c9bd8f46815d"><div class="ttname"><a href="../../d6/d2f/a01394.html#a7569620d66559dad194b4764f6faf235af1cdba2690be5588a967c9bd8f46815d">NPC_ABEDNEUM</a></div><div class="ttdeci">@ NPC_ABEDNEUM</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:61</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a856193f50a99a86279e43578f2b5ec0a" name="a856193f50a99a86279e43578f2b5ec0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a856193f50a99a86279e43578f2b5ec0a">&#9670;&#160;</a></span>GetHallsOfStoneAI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class AI , class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto AH_MINIMUM_DEPOSIT = 100</td>
+          <td class="memname">AI * GetHallsOfStoneAI </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00265">AuctionHouseMgr::GetAuctionDeposit()</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   68</span>{</div>
+<div class="line"><span class="lineno">   69</span>    <span class="keywordflow">return</span> GetInstanceAI&lt;AI&gt;(obj, <a class="code hl_define" href="../../d6/d2f/a01394.html#a9fc40bc4c1a59259e2da1d545d7841df">HallsOfStoneScriptName</a>);</div>
+<div class="line"><span class="lineno">   70</span>}</div>
+<div class="ttc" id="aa01394_html_a9fc40bc4c1a59259e2da1d545d7841df"><div class="ttname"><a href="../../d6/d2f/a01394.html#a9fc40bc4c1a59259e2da1d545d7841df">HallsOfStoneScriptName</a></div><div class="ttdeci">#define HallsOfStoneScriptName</div><div class="ttdef"><b>Definition:</b> halls_of_stone.h:25</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00025">HallsOfStoneScriptName</a>.</p>
 
 </div>
 </div>
@@ -435,8 +395,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_a1ce599ad2b2438c4a079c0c47195cb6.html">AuctionHouse</a></li><li class="navelem"><a class="el" href="../../d6/d2f/a01394.html">AuctionHouseMgr.cpp</a></li>
-    <li class="footer">Generated on Mon Oct 7 2024 20:40:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_fd35eb90f0e73b64930f951fffa7a603.html">Ulduar</a></li><li class="navelem"><a class="el" href="../../dir_ba629fe3cce3d6c1ca366c03f65ff143.html">HallsOfStone</a></li><li class="navelem"><a class="el" href="../../d6/d2f/a01394.html">halls_of_stone.h</a></li>
+    <li class="footer">Generated on Mon Oct 14 2024 20:40:59 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

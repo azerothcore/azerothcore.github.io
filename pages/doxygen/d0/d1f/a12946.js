@@ -1,6 +1,8 @@
 var a12946 =
 [
-    [ "HandleActivateObject", "d0/d1f/a12946.html#afd73a7f5ec26c9ecb0424ee09ce638fe", null ],
-    [ "PrepareSpellScript", "d0/d1f/a12946.html#ad55914fdc6771e09a508572d59ad30ed", null ],
-    [ "Register", "d0/d1f/a12946.html#a6a0fe507ca7a382122d55e04d3c021d9", null ]
+    [ "npc_madrigosaAI", "d0/d1f/a12946.html#adadbaa53623774750e5e897e8be1fb39", null ],
+    [ "DoAction", "d0/d1f/a12946.html#a2ecaba614301d681cadf129ea58813cf", null ],
+    [ "UpdateAI", "d0/d1f/a12946.html#ab2a5f3c7ec1f94af2e1ffe34828b81cc", null ],
+    [ "events", "d0/d1f/a12946.html#ad8f4f69543c968a21253bd52da4d82ac", null ],
+    [ "instance", "d0/d1f/a12946.html#abe6708e5053490c70ed88799a762f08e", null ]
 ];

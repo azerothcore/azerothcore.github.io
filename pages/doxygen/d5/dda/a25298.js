@@ -1,8 +1,7 @@
 var a25298 =
 [
-    [ "OnApply", "d5/dda/a25298.html#acf25199409ab6f991db15a784749aaf1", null ],
-    [ "OnRemove", "d5/dda/a25298.html#a700513c27a2ae22581bbc61c8c4b523a", null ],
-    [ "PrepareAuraScript", "d5/dda/a25298.html#ae6f93ab542d8f05a95745d7b10d1856a", null ],
-    [ "Register", "d5/dda/a25298.html#a9332cb72f66e83f648b4ed02c8c074eb", null ],
-    [ "Validate", "d5/dda/a25298.html#a09017d12ecf0ae0c3091cea17640782c", null ]
+    [ "HandleScriptEffect", "d5/dda/a25298.html#ae3c2900d98c2fd51ff0888ea5d1072c4", null ],
+    [ "PrepareSpellScript", "d5/dda/a25298.html#a29ac1789b8023ef3339a7b40ee9c31ab", null ],
+    [ "Register", "d5/dda/a25298.html#a321098d2325bfb9cea674d1137348350", null ],
+    [ "Validate", "d5/dda/a25298.html#aa16a67bf42f51b838d22dcbe4b5b6f7b", null ]
 ];

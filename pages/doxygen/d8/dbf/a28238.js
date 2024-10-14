@@ -1,7 +1,10 @@
 var a28238 =
 [
-    [ "Flags", "d8/dbf/a28238.html#a12b3cb0e28ed0f47ff5ccea09fc8b860", null ],
-    [ "ID", "d8/dbf/a28238.html#ab6ccf4a64672a6ade01f59cdeeeb85cb", null ],
-    [ "RangeMax", "d8/dbf/a28238.html#a9691134e5cb1e15e3c93ea05a653975d", null ],
-    [ "RangeMin", "d8/dbf/a28238.html#a127a46f2382edea750ca567d5ea3d304", null ]
+    [ "ID", "d8/dbf/a28238.html#a090069d13cbbcc5762ecca600c506492", null ],
+    [ "map_id", "d8/dbf/a28238.html#a685931e2a361f9e0fc81c004c7467d19", null ],
+    [ "MountCreatureID", "d8/dbf/a28238.html#ab59ab7e8b302ac8858bfd67bc10d803f", null ],
+    [ "name", "d8/dbf/a28238.html#ae00db3ea736c3a470f6f0690c178e758", null ],
+    [ "x", "d8/dbf/a28238.html#a7cbd40848094fa367862d653b0f7170d", null ],
+    [ "y", "d8/dbf/a28238.html#a9380befd45cab3104003b2487464bd71", null ],
+    [ "z", "d8/dbf/a28238.html#a2e6ce98f7c96ba1469fca8ff3946404a", null ]
 ];

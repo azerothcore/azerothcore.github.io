@@ -1,6 +1,7 @@
 var a17474 =
 [
-    [ "npc_gunship_gunnerAI", "d9/dc9/a17478.html", "d9/dc9/a17478" ],
-    [ "npc_gunship_gunner", "d9/d78/a17474.html#a409711f22b35eae0c0d48bc23545e592", null ],
-    [ "GetAI", "d9/d78/a17474.html#a2b28f5edfddf7a8c94a2a5475ec575dc", null ]
+    [ "FilterTargets", "d9/d78/a17474.html#a32b2fa87fb2eaca3db0801fbfe4b8aaa", null ],
+    [ "Load", "d9/d78/a17474.html#a39e8ec4726a1f6c2911c165c7187f291", null ],
+    [ "PrepareSpellScript", "d9/d78/a17474.html#a7526a6df4c25136f4be78e753c6abf62", null ],
+    [ "Register", "d9/d78/a17474.html#a0d01b8292c1c071a5c828a5a88617bd5", null ]
 ];

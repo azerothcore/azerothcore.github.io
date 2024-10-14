@@ -1,5 +1,6 @@
 var a18586 =
 [
-    [ "at_icc_saurfang_portal", "d1/d89/a18586.html#a7f30058251c520634a0b7bad08380e5d", null ],
-    [ "OnTrigger", "d1/d89/a18586.html#a8980fe0e67aa33335f0fdb947a294213", null ]
+    [ "npc_icc_skybreaker_marksmanAI", "d8/d3c/a18590.html", "d8/d3c/a18590" ],
+    [ "npc_icc_skybreaker_marksman", "d1/d89/a18586.html#a1d870b78e1acf2d17782265e28698d1c", null ],
+    [ "GetAI", "d1/d89/a18586.html#a374017d37da15705d51ab8edc75683ff", null ]
 ];

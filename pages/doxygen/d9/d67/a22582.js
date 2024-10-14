@@ -1,8 +1,15 @@
 var a22582 =
 [
-    [ "boss_pandemonius", "d9/d67/a22582.html#a650746de74bb8a91e0c9c59d8a6a09ea", null ],
-    [ "JustDied", "d9/d67/a22582.html#a64a493c0dd4bcf5917e00c3e2713f4ce", null ],
-    [ "JustEngagedWith", "d9/d67/a22582.html#a3dbedc67006db89b95443f783cd8dbd9", null ],
-    [ "KilledUnit", "d9/d67/a22582.html#a26a012afe8c418c8da283c7b9f983e89", null ],
-    [ "PullRoom", "d9/d67/a22582.html#a05011127290350f11cc1a333b23dbb04", null ]
+    [ "boss_grandmaster_vorpil", "d9/d67/a22582.html#a0196ae46acba9c640b6fdfe30ac63f31", null ],
+    [ "counterVoidSpawns", "d9/d67/a22582.html#a7a7c5679fe784025423119dd31d0e6ef", null ],
+    [ "JustDied", "d9/d67/a22582.html#ab492fff8a9a275c662b44eeff3300b90", null ],
+    [ "JustEngagedWith", "d9/d67/a22582.html#af1e6da02cd33742efad568424cf32c4f", null ],
+    [ "JustSummoned", "d9/d67/a22582.html#a8a661b495d7fca340f3bd291d34ab3fc", null ],
+    [ "KilledUnit", "d9/d67/a22582.html#af7779029f926e6d1c805b2f6c78cfd06", null ],
+    [ "MoveInLineOfSight", "d9/d67/a22582.html#adb24a3d337b64f37759a3a39802d7e27", null ],
+    [ "Reset", "d9/d67/a22582.html#a6471121ee02a834591b36d03fae28672", null ],
+    [ "spawnVoidTraveler", "d9/d67/a22582.html#aa842bc3d88d0a3a411dcba3711809956", null ],
+    [ "summonPortals", "d9/d67/a22582.html#a7cbdb7e7652dcac799b6f59424c8e9fd", null ],
+    [ "sayHelp", "d9/d67/a22582.html#a3c83e1f9305fc17aebb4ec5f16225e17", null ],
+    [ "sayIntro", "d9/d67/a22582.html#a5dd0edce19b33a1dd87d5b6e4458949f", null ]
 ];

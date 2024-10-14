@@ -1,7 +1,5 @@
 var a27058 =
 [
-    [ "npc_spirit_shadeAI", "d9/dc9/a27058.html#a8b7bf7c7cc541a47be79aad76a9bbcbc", null ],
-    [ "IsSummonedBy", "d9/dc9/a27058.html#a3a7fcb4af8e3b27e06b4665e8a864b38", null ],
-    [ "MovementInform", "d9/dc9/a27058.html#ab001fdc09efe9f8c03ad1b7610124e6d", null ],
-    [ "_summonerGuid", "d9/dc9/a27058.html#aa7c6abb848ab37f407a3553d04d0ad81", null ]
+    [ "go_seer_of_zebhalak", "d9/dc9/a27058.html#a423f16e878d67f7dc6ec3860afabacf4", null ],
+    [ "OnGossipHello", "d9/dc9/a27058.html#a84009789ce8e8d0d7c42996fde161135", null ]
 ];

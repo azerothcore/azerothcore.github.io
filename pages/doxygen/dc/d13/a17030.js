@@ -1,6 +1,11 @@
 var a17030 =
 [
-    [ "npc_living_mojoAI", "da/d3d/a17034.html", "da/d3d/a17034" ],
-    [ "npc_living_mojo", "dc/d13/a17030.html#af24190023549b4ec5fa47b5959618a8a", null ],
-    [ "GetAI", "dc/d13/a17030.html#a2b8ca6e1b26debfafd74e022825c889e", null ]
+    [ "boss_moorabiAI", "dc/d13/a17030.html#a60a03c3840a3743719996929d2ca9e59", null ],
+    [ "JustDied", "dc/d13/a17030.html#a6d866bf54dc06e4f20eb4d62ea97928a", null ],
+    [ "JustEngagedWith", "dc/d13/a17030.html#a1fa46ac21b28ff49382c7389a46fad75", null ],
+    [ "KilledUnit", "dc/d13/a17030.html#a265855d2972e534e927bfa609fbf2cf5", null ],
+    [ "Reset", "dc/d13/a17030.html#a9daf89ed0f4e5795cafc63a6a81e5d1d", null ],
+    [ "SpellHitTarget", "dc/d13/a17030.html#af1f30a0f3bf0f88725f8a146c528b77a", null ],
+    [ "UpdateAI", "dc/d13/a17030.html#a9f9956aaaa60d5d0005a55a87d0424eb", null ],
+    [ "events2", "dc/d13/a17030.html#a02a3bc20ca7b1b750bfd1bd29f093dd2", null ]
 ];

@@ -1,7 +1,9 @@
 var a17334 =
 [
-    [ "FilterTargets", "d3/dda/a17334.html#aeae290d20ade37eb839c1bf3c9ae59bf", null ],
-    [ "Load", "d3/dda/a17334.html#a38bf6d96c6a78e5105d0369eb993e58c", null ],
-    [ "PrepareSpellScript", "d3/dda/a17334.html#a815c99e9ef570287af5d45c32bdc5b8c", null ],
-    [ "Register", "d3/dda/a17334.html#a33342cc676adaabe5e3896fa559631b7", null ]
+    [ "BattleExperienceEvent", "d3/dda/a17334.html#a3091b403089533ce2ebbb40fa38f28c9", null ],
+    [ "Execute", "d3/dda/a17334.html#a3971962ec90f682baeae96fe6098fa97", null ],
+    [ "_creature", "d3/dda/a17334.html#a0155536d5c2be329a1f3b57c4d852098", null ],
+    [ "_level", "d3/dda/a17334.html#a22f0d7e59f579362be4576180d0977b8", null ],
+    [ "ExperiencedSpells", "d3/dda/a17334.html#a5e2e06a386059ba2d9aff676648fa56b", null ],
+    [ "ExperiencedTimes", "d3/dda/a17334.html#a4daf5818472ebe7c8d3938e2189d8e02", null ]
 ];

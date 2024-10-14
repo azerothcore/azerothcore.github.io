@@ -1,6 +1,6 @@
 var a15666 =
 [
-    [ "ModDestHeight", "d6/d94/a15666.html#a8bda9327c4244af41c513528ad5c818c", null ],
-    [ "PrepareSpellScript", "d6/d94/a15666.html#aba5a03c94fa5d87c46a91369875c0ab2", null ],
-    [ "Register", "d6/d94/a15666.html#a62b0ce71caeff96705b15aa240ddd09f", null ]
+    [ "PrepareSpellScript", "d6/d94/a15666.html#a2a3602af522bb8658c1bfdede1234efd", null ],
+    [ "Register", "d6/d94/a15666.html#aba235111ea4e186064a85295466f2a3f", null ],
+    [ "SetDest", "d6/d94/a15666.html#a89827e4db37bea4847c79265d95386c6", null ]
 ];

@@ -1,5 +1,7 @@
 var a20594 =
 [
-    [ "achievement_thorim_lose_your_illusion", "d7/dbb/a20594.html#a449dda8a7a3f19d0aabaf9ca353d70bb", null ],
-    [ "OnCheck", "d7/dbb/a20594.html#a322df4f30445a84085615925f74a8a6b", null ]
+    [ "npc_xt002_life_sparkAI", "d7/dbb/a20594.html#a763ec1834d3b71c88bfa80bc0e34966a", null ],
+    [ "Reset", "d7/dbb/a20594.html#a596e2ed45b9221915781b03bf2d18e5b", null ],
+    [ "UpdateAI", "d7/dbb/a20594.html#af0a1e717b08b2fa35dd4ff83778a87c1", null ],
+    [ "_attackTimer", "d7/dbb/a20594.html#a79bf005de95aa1fee60dfc73b8920dad", null ]
 ];

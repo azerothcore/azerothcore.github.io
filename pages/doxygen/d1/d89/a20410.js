@@ -1,5 +1,8 @@
 var a20410 =
 [
-    [ "achievement_mimiron_set_up_us_the_bomb_11", "d1/d89/a20410.html#a5d8980111e029b4c9311737f3985ab61", null ],
-    [ "OnCheck", "d1/d89/a20410.html#a7682a7f2f4417dcf75ec58e34e4fd6bc", null ]
+    [ "npc_ulduar_dark_rune_guardianAI", "d1/d89/a20410.html#aedb43124c923621aadecb77511204fc6", null ],
+    [ "CanAIAttack", "d1/d89/a20410.html#af23cb4a19d28f5aa57ba96de95f87c87", null ],
+    [ "Reset", "d1/d89/a20410.html#a4c1f53fbbc6189ca9ee0420bc4198684", null ],
+    [ "UpdateAI", "d1/d89/a20410.html#ad21127654d5511b6b1d9b22cdd77bd08", null ],
+    [ "timer2", "d1/d89/a20410.html#aa66f1aa48cf928ac12751cb3ca2358f3", null ]
 ];

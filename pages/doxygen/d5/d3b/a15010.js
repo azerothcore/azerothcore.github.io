@@ -1,8 +1,6 @@
 var a15010 =
 [
-    [ "boss_veklor", "d5/d3b/a15010.html#acbbe1a2e6ffcb00a28f7ae5413cd02c1", null ],
-    [ "AttackStart", "d5/d3b/a15010.html#a7ecfff13457bf177c1ec250bbee75cbf", null ],
-    [ "IAmVeklor", "d5/d3b/a15010.html#a4c43713c24b5537f292be1e0fcaee703", null ],
-    [ "JustEngagedWith", "d5/d3b/a15010.html#a05913da666b1715eac68441195dd9df4", null ],
-    [ "SpellHit", "d5/d3b/a15010.html#ab5d9ec12c18e360ce2c8749dd97f2ab0", null ]
+    [ "HandleDummy", "d5/d3b/a15010.html#ac06b2b8e07ebc51a281c70663796dcc3", null ],
+    [ "PrepareSpellScript", "d5/d3b/a15010.html#aa60cc00f33e329fe8d010c0e1c00989a", null ],
+    [ "Register", "d5/d3b/a15010.html#aee9d14b3f45cb43478f970e9e6e173fd", null ]
 ];

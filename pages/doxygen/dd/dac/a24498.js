@@ -1,6 +1,7 @@
 var a24498 =
 [
-    [ "HandleEffectApply", "dd/dac/a24498.html#a4bc121ecc9357709ec2f1ea395d0b6b1", null ],
-    [ "PrepareAuraScript", "dd/dac/a24498.html#ac7f16aed55aedba6da0672c3102a5fae", null ],
-    [ "Register", "dd/dac/a24498.html#a83e15d7db1b9aa4ce4fbc8a359795091", null ]
+    [ "CheckClass", "dd/dac/a24498.html#a931d7a6aa2f1b574c225d3e803edbab4", null ],
+    [ "HandleScript", "dd/dac/a24498.html#a4f4f7004be5629efdc48b52b6667edba", null ],
+    [ "PrepareSpellScript", "dd/dac/a24498.html#a599ce758681c5196bd40e4c7b86635cc", null ],
+    [ "Register", "dd/dac/a24498.html#ab184b23aa446c826db39928eb3ff3ecc", null ]
 ];

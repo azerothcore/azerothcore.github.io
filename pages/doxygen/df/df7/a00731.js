@@ -1,5 +1,5 @@
 var a00731 =
 [
-    [ "ScriptRegistry< AllItemScript >", "df/df7/a00731.html#a0f69164743e657905c670df85e97a29c", null ],
-    [ "ScriptRegistry< ItemScript >", "df/df7/a00731.html#a9f258d1e2f9fb6ce144923451b63f995", null ]
+    [ "gear_commandscript", "db/db8/a11322.html", "db/db8/a11322" ],
+    [ "AddSC_gear_commandscript", "df/df7/a00731.html#a8f5ae2609cea7d63d76141e1a5feaf27", null ]
 ];

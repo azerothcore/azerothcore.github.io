@@ -1,6 +1,6 @@
 var a26718 =
 [
-    [ "HandleScriptEffect", "d9/d25/a26718.html#a3f8988017d088d08df08ba8b696b552b", null ],
-    [ "PrepareSpellScript", "d9/d25/a26718.html#a56f5c59c7dc8d4f8117dc64d5a5a3a0b", null ],
-    [ "Register", "d9/d25/a26718.html#a4ebc3c83dd77134af2ee81a46b121d19", null ]
+    [ "HandleAfterHit", "d9/d25/a26718.html#a177bcf10d6b8fa586ff0cac3834367f9", null ],
+    [ "PrepareSpellScript", "d9/d25/a26718.html#ac16ef2ff92440deab6c69f4824bdd619", null ],
+    [ "Register", "d9/d25/a26718.html#a46fe3d7ebd663d1cb27aa473a56e81eb", null ]
 ];

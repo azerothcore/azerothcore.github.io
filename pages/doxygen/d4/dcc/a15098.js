@@ -1,5 +1,6 @@
 var a15098 =
 [
-    [ "at_battleguard_sartura", "d4/dcc/a15098.html#a9247cdebeb57d2ddbfa75f60da125d36", null ],
-    [ "OnTrigger", "d4/dcc/a15098.html#a6a7b9f210ce0c2844b4f2412c0fe440e", null ]
+    [ "npc_magwinAI", "d3/d85/a15102.html", "d3/d85/a15102" ],
+    [ "npc_magwin", "d4/dcc/a15098.html#a1a45602fd312a4c436b09fb7b90ac1d4", null ],
+    [ "GetAI", "d4/dcc/a15098.html#a83bee0fd5c1494f2bb732fe9e0ed1594", null ]
 ];

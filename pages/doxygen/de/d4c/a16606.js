@@ -1,7 +1,8 @@
 var a16606 =
 [
-    [ "HandleEffectRemove", "de/d4c/a16606.html#aa6a118f956cbdc5ad1ce0109c3a0e8e3", null ],
-    [ "Load", "de/d4c/a16606.html#a71a31b421f192662c14bd6bf3d5eed9f", null ],
-    [ "PrepareAuraScript", "de/d4c/a16606.html#a97411ddf89a10a962ba74d294eb653e7", null ],
-    [ "Register", "de/d4c/a16606.html#a1207c9b2ba2e110c3f6c1309f5329d2a", null ]
+    [ "npc_fos_leaderAI", "d6/df0/a16610.html", "d6/df0/a16610" ],
+    [ "npc_fos_leader", "de/d4c/a16606.html#a4223072bc180e990ff9e01bf772def5b", null ],
+    [ "GetAI", "de/d4c/a16606.html#a6eca5c95aa3a8498790d8bf52f0741f8", null ],
+    [ "OnGossipHello", "de/d4c/a16606.html#a3858054505d439902624378b9355f40d", null ],
+    [ "OnGossipSelect", "de/d4c/a16606.html#a1b743c6f270a2bdbd09940a414a1b437", null ]
 ];

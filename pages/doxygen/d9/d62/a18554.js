@@ -1,7 +1,7 @@
 var a18554 =
 [
-    [ "HandleEvent", "d9/d62/a18554.html#a7aea0f5c4cd3765a8266e5478322910b", null ],
-    [ "PrepareSpellScript", "d9/d62/a18554.html#a2e59f7f9eb67790c59c2e94cf877b4f3", null ],
-    [ "Register", "d9/d62/a18554.html#a96c6a479141f765b9c0f96b5f148a428", null ],
-    [ "Validate", "d9/d62/a18554.html#aa86d2cea5cb41b1e0a86248d95b5bfdb", null ]
+    [ "OnPeriodic", "d9/d62/a18554.html#a32c4b856d6248062fbdc1dea13d876ac", null ],
+    [ "PrepareAuraScript", "d9/d62/a18554.html#a87260a1cd06190f5412f3cab0f448a01", null ],
+    [ "Register", "d9/d62/a18554.html#a00827210671b959a030655f6be5edac6", null ],
+    [ "Validate", "d9/d62/a18554.html#a7163fb09fd8568a7ef5a5c37147ed5b0", null ]
 ];

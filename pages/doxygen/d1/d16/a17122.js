@@ -1,6 +1,6 @@
 var a17122 =
 [
-    [ "ShockVortexExplodeEvent", "d1/d16/a17122.html#ad972aed372822e10a476d1592192f3ea", null ],
-    [ "Execute", "d1/d16/a17122.html#a601f777052b8a142db49e9b0ab1fa81a", null ],
-    [ "_owner", "d1/d16/a17122.html#a76b1887e486969fcd7a236a8eb7a9a2a", null ]
+    [ "npc_kinetic_bombAI", "db/d36/a17126.html", "db/d36/a17126" ],
+    [ "npc_kinetic_bomb", "d1/d16/a17122.html#abca5a72d3ac0d50a27e604e8e1491957", null ],
+    [ "GetAI", "d1/d16/a17122.html#ae00630d96dc7a93ea13841c1f9e9be3b", null ]
 ];

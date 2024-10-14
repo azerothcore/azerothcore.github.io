@@ -1,6 +1,9 @@
 var a13986 =
 [
-    [ "npc_brewfest_keg_thrower", "de/d11/a13986.html#a29da1efd21fe6737684607e5b360ea84", null ],
-    [ "CanBeSeen", "de/d11/a13986.html#a36212d0f17c0070d3ef3cc25577ff7b9", null ],
-    [ "MoveInLineOfSight", "de/d11/a13986.html#a3938b0e63553e79302ba966c6cdcf9be", null ]
+    [ "CheckCast", "de/d11/a13986.html#a02965b55e8efadbd21e5afdd824f1dec", null ],
+    [ "FilterTargets", "de/d11/a13986.html#a9638048b4107db116474abf8e18d7760", null ],
+    [ "HandleBeforeHit", "de/d11/a13986.html#a3567c72e999ad6ca9db15b4d6ddadafb", null ],
+    [ "HandleScriptEffect", "de/d11/a13986.html#a47d6a6c1fcb2b04782e54d3797c1f42c", null ],
+    [ "PrepareSpellScript", "de/d11/a13986.html#aab9211291bd9dab8255d94e4eb07bf8e", null ],
+    [ "Register", "de/d11/a13986.html#a73e6c9c91dccb309207fa3aeb6bd9d6f", null ]
 ];

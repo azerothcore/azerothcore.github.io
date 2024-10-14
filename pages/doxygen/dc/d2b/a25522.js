@@ -1,6 +1,6 @@
 var a25522 =
 [
-    [ "HandleActivateObject", "dc/d2b/a25522.html#a0d14ca0b21716855a04a0a9267f3e019", null ],
-    [ "PrepareSpellScript", "dc/d2b/a25522.html#a684079434128bacd3d8b8b71c14dc56a", null ],
-    [ "Register", "dc/d2b/a25522.html#a266301f59c809c03d0ccfc48a2ace302", null ]
+    [ "HandlePeriodicTick", "dc/d2b/a25522.html#a058eeb1e0489340763a58d92d4bed832", null ],
+    [ "PrepareAuraScript", "dc/d2b/a25522.html#a3d71859b7e7f914a395f131dd4a6b4ab", null ],
+    [ "Register", "dc/d2b/a25522.html#ae5a8adc3fe7cc5c5d7dd715449d3442f", null ]
 ];

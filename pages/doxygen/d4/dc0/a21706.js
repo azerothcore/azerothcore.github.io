@@ -1,6 +1,5 @@
 var a21706 =
 [
-    [ "npc_injured_7th_legion_soldierAI", "d2/d0e/a21710.html", "d2/d0e/a21710" ],
-    [ "npc_injured_7th_legion_soldier", "d4/dc0/a21706.html#a9d3c647f485dbca5efeec8f784efba1b", null ],
-    [ "GetAI", "d4/dc0/a21706.html#a0feca7aedcf3c07253d4d402266189cc", null ]
+    [ "at_q24545_frostmourne_cavern", "d4/dc0/a21706.html#a76e2d8424b5fcd037fabfa9b878d21e1", null ],
+    [ "OnTrigger", "d4/dc0/a21706.html#a9016ef31fde1bbcaf57a17e64ea8d503", null ]
 ];

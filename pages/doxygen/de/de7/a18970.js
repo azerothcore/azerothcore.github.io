@@ -1,8 +1,6 @@
 var a18970 =
 [
-    [ "boss_maexxna_webwrapAI", "de/de7/a18970.html#a1423b619676f650f71c8e7215aa2a2b7", null ],
-    [ "IsSummonedBy", "de/de7/a18970.html#a1d434373ccc7dd54c5de7bc99487170a", null ],
-    [ "JustDied", "de/de7/a18970.html#a1ed18e791d2a5ae26cd1c2f3cdf37d82", null ],
-    [ "UpdateAI", "de/de7/a18970.html#a05220fcded67e15bbd94d13d0b9581a2", null ],
-    [ "victimGUID", "de/de7/a18970.html#a54081ebfc0df639b7e18b5f079802c92", null ]
+    [ "boss_thaddiusAI", "dc/d84/a18974.html", "dc/d84/a18974" ],
+    [ "boss_thaddius", "de/de7/a18970.html#aff97b030b861feb646e1b22f60ee3605", null ],
+    [ "GetAI", "de/de7/a18970.html#acf841c6897396f517a74932fc3480e69", null ]
 ];

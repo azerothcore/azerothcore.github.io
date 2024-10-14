@@ -1,6 +1,5 @@
 var a23902 =
 [
-    [ "npc_deaths_door_fell_cannon_target_bunnyAI", "db/dbb/a23906.html", "db/dbb/a23906" ],
-    [ "npc_deaths_door_fell_cannon_target_bunny", "d8/d38/a23902.html#a1385e50777282fae0c8f8ca2f9f8a3e6", null ],
-    [ "GetAI", "d8/d38/a23902.html#a250707096229da28024960beeb7725bf", null ]
+    [ "go_simon_cluster", "d8/d38/a23902.html#adac53a8451abd6ace227a66afc7e61e8", null ],
+    [ "OnGossipHello", "d8/d38/a23902.html#a9fd9799604de44c91803511c45b67786", null ]
 ];

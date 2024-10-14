@@ -1,7 +1,6 @@
 var a21742 =
 [
-    [ "HandleApplyEffect", "d8/d89/a21742.html#aab7bd30368c51a6a209f6cad5a93ba79", null ],
-    [ "HandleRemoveEffect", "d8/d89/a21742.html#a243933fec9ccd650303ea5badbea725b", null ],
-    [ "PrepareAuraScript", "d8/d89/a21742.html#ac0e1fc0694dd51e245340d3658592447", null ],
-    [ "Register", "d8/d89/a21742.html#a0f6e6c6892d56a6fceb927f68c734bde", null ]
+    [ "npc_q24545_vegardAI", "d4/d25/a21746.html", "d4/d25/a21746" ],
+    [ "npc_q24545_vegard", "d8/d89/a21742.html#ac12e2f143fab6b93950eaea06f5f7d85", null ],
+    [ "GetAI", "d8/d89/a21742.html#a9a7accfb3eea9f08efbb82fbd4bd7e76", null ]
 ];

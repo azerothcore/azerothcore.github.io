@@ -1,7 +1,10 @@
 var a25118 =
 [
-    [ "CheckIfLanceEquipped", "db/d6a/a25118.html#aae1fe4d0329b7a2db5e4f2a28e3f04c5", null ],
-    [ "PrepareSpellScript", "db/d6a/a25118.html#a2af9ee2ccd34c97734c58bfcbb83c8b5", null ],
-    [ "Register", "db/d6a/a25118.html#a4421ceaedce16777f8f04b9c40855782", null ],
-    [ "Validate", "db/d6a/a25118.html#ab0908d7a15e7554c735d8e5554f7cd65", null ]
+    [ "spell_gen_summon_elemental", "db/d6a/a25118.html#ae2dece3ac20afe16430e741fab909fa1", null ],
+    [ "AfterApply", "db/d6a/a25118.html#a97fbc7e3f60b6aae5d9783bbd9a2415d", null ],
+    [ "AfterRemove", "db/d6a/a25118.html#aeec3688e66a7e9f0207b219e9dcdb265", null ],
+    [ "PrepareAuraScript", "db/d6a/a25118.html#a3ad6e5615bb080abae4e18673cd40b6d", null ],
+    [ "Register", "db/d6a/a25118.html#ac364e1a3c4b5a1cfd35d8dcec0a42345", null ],
+    [ "Validate", "db/d6a/a25118.html#ac2284d4f192fe402ebcf6ad75e777c2a", null ],
+    [ "_spellId", "db/d6a/a25118.html#a6ac27b65f909a8c832cf3d301c8db0ce", null ]
 ];

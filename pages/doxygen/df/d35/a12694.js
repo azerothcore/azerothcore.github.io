@@ -1,6 +1,7 @@
 var a12694 =
 [
-    [ "spell_chapter5_rebuke_SpellScript", "df/d4c/a12698.html", "df/d4c/a12698" ],
-    [ "spell_chapter5_rebuke", "df/d35/a12694.html#a93b0fd57566722c98653f66619727717", null ],
-    [ "GetSpellScript", "df/d35/a12694.html#ab17f0009b91b00dba9678fe681ffe683", null ]
+    [ "OnApply", "df/d35/a12694.html#abc991d627be4235b8aa805aa89afb51a", null ],
+    [ "OnRemove", "df/d35/a12694.html#a172599e75fc719d9d48784ffe6ca07b9", null ],
+    [ "PrepareAuraScript", "df/d35/a12694.html#a7c89653c38a534ca5deb4d19c538b1f5", null ],
+    [ "Register", "df/d35/a12694.html#a8bf20b9da91a6f339b857ecfcd98d772", null ]
 ];

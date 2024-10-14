@@ -1,9 +1,8 @@
 var a26714 =
 [
-    [ "CheckCast", "d3/d8b/a26714.html#a441927e0d8d7304030440c19458eb34d", null ],
-    [ "HandleScriptEffect", "d3/d8b/a26714.html#a10e9691aa15869c82fba79072a314d7e", null ],
-    [ "PrepareSpellScript", "d3/d8b/a26714.html#a90b8ae945aeb85ad6e8a120501288979", null ],
-    [ "Register", "d3/d8b/a26714.html#aac95bd6f7409e1ae9d3f9cf0c7212990", null ],
-    [ "Validate", "d3/d8b/a26714.html#a00c67b65bcfdeaf56295da6a64689d58", null ],
-    [ "iTypes", "d3/d8b/a26714.html#ae852b9df34612c074eab23b025c86870", null ]
+    [ "CheckProc", "d3/d8b/a26714.html#a610313f5085c7c0109b5936e94de00fe", null ],
+    [ "OnProc", "d3/d8b/a26714.html#ad87c4cbd332dc19be3bc8ec9982a385b", null ],
+    [ "PrepareAuraScript", "d3/d8b/a26714.html#aae4d26e262f80681811c9b50c2a63642", null ],
+    [ "Register", "d3/d8b/a26714.html#a8fdcd2b4489011294d9f58d5ff0beb3f", null ],
+    [ "Validate", "d3/d8b/a26714.html#a00ef3cd4b2ee5739f5f7288ccbd6a1c6", null ]
 ];

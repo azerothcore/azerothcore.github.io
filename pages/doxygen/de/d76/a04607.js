@@ -1,4 +1,4 @@
 var a04607 =
 [
-    [ "SocketMgr< SocketType >", "dc/df0/a28350.html", "dc/df0/a28350" ]
+    [ "MOVEMENT_PACKET_TIME_DELAY", "de/d76/a04607.html#a69e254ae3a119a96053add6b9732296c", null ]
 ];

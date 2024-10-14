@@ -1,9 +1,6 @@
 var a17538 =
 [
-    [ "CalculatePower", "da/d7d/a17538.html#a66acc23548f88c31e9fe45db76af2bcc", null ],
-    [ "Load", "da/d7d/a17538.html#a820032e169929fd9969ecf1ee2c7f1be", null ],
-    [ "PrepareSpellScript", "da/d7d/a17538.html#a49489a8e4e39735efa560f53236dfc2c", null ],
-    [ "PreventPowerGainOnHit", "da/d7d/a17538.html#a5eebe6f82a6d7306d6e232b755531939", null ],
-    [ "Register", "da/d7d/a17538.html#a67b59c096848adaad5566cbc2140da59", null ],
-    [ "Validate", "da/d7d/a17538.html#a355500a6f3bfed084030738041d0e3b9", null ]
+    [ "boss_lady_deathwhisperAI", "de/dd5/a17542.html", "de/dd5/a17542" ],
+    [ "boss_lady_deathwhisper", "da/d7d/a17538.html#a979411cb834611b1239f3bf9058d316d", null ],
+    [ "GetAI", "da/d7d/a17538.html#ac0b86fee1e2e9dbf794ed1b53aab11d2", null ]
 ];

@@ -1,7 +1,6 @@
 var a24626 =
 [
-    [ "CheckProc", "d1/dbc/a24626.html#a5a74f30b941460c8347dca81dcee1bf6", null ],
-    [ "HandleProc", "d1/dbc/a24626.html#a15592382213762145eb30d85bfcbd60a", null ],
-    [ "PrepareAuraScript", "d1/dbc/a24626.html#a82201b03b7b642e7898889412a617712", null ],
-    [ "Register", "d1/dbc/a24626.html#aba014f9b0000d19cabbc5a9c763b934b", null ]
+    [ "HandleEffectCalcSpellMod", "d1/dbc/a24626.html#aaf21dafa72b58245f548ed946a49659d", null ],
+    [ "PrepareAuraScript", "d1/dbc/a24626.html#ac05d3ae466ad64ac590f399827aac0c9", null ],
+    [ "Register", "d1/dbc/a24626.html#a46a643985647d8a8e033b637b31214a5", null ]
 ];

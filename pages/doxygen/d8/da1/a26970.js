@@ -1,5 +1,5 @@
 var a26970 =
 [
-    [ "achievement_flirt_with_disaster_perf_check", "d8/da1/a26970.html#a8cb843ed26248ceff594ef552b0ae9ae", null ],
-    [ "OnCheck", "d8/da1/a26970.html#a15e620be2f37f930477ba94293dbaf63", null ]
+    [ "AreaTrigger_at_sentry_point", "d8/da1/a26970.html#a9c27f669aba3be1a83fdd1c99a8af4cf", null ],
+    [ "OnTrigger", "d8/da1/a26970.html#ab59fb74f4f988c208359855d2e4d9918", null ]
 ];

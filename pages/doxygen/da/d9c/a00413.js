@@ -1,15 +1,14 @@
 var a00413 =
 [
-    [ "RandomEngine", "d0/d12/a05386.html", "d0/d12/a05386" ],
-    [ "frand", "da/d9c/a00413.html#aa28484fcb823a22578601847e4b0ddb4", null ],
-    [ "irand", "da/d9c/a00413.html#a0a5e53ee066789ecb565abc05fe36dbc", null ],
-    [ "rand32", "da/d9c/a00413.html#ab91ed86274e1e52eb314784862b61696", null ],
-    [ "rand_chance", "da/d9c/a00413.html#a60564a0d93e0c87809379e0c1fa7acd1", null ],
-    [ "rand_norm", "da/d9c/a00413.html#ad552d8147f66d6ec0cd44271e8799599", null ],
-    [ "randtime", "da/d9c/a00413.html#a2fc61a89dc958460e6eabe08d87a4021", null ],
-    [ "roll_chance_f", "da/d9c/a00413.html#a4b15099bc81731469c5078a778673c94", null ],
-    [ "roll_chance_i", "da/d9c/a00413.html#a50320d4edff86db31b25138ae72161ad", null ],
-    [ "urand", "da/d9c/a00413.html#a3648faa6a1353eac6d2eec0b399c5aba", null ],
-    [ "urandms", "da/d9c/a00413.html#a1a4ee564518371004a4d34135600bfa0", null ],
-    [ "urandweighted", "da/d9c/a00413.html#a673de62907a2657190e58678691d3b36", null ]
+    [ "Acore::Runnable", "de/dd6/a05298.html", "de/dd6/a05298" ],
+    [ "Acore::Thread", "db/dd7/a05302.html", "db/dd7/a05302" ],
+    [ "Priority", "da/d9c/a00413.html#a98ce3c3a6bb5eee03a544054eae9f9f0", [
+      [ "Priority_Idle", "da/d9c/a00413.html#a98ce3c3a6bb5eee03a544054eae9f9f0a6540dbe098806722de7130f0cf978d24", null ],
+      [ "Priority_Lowest", "da/d9c/a00413.html#a98ce3c3a6bb5eee03a544054eae9f9f0a2c1092f67a3addf9410ac00e8a8f62b0", null ],
+      [ "Priority_Low", "da/d9c/a00413.html#a98ce3c3a6bb5eee03a544054eae9f9f0a726dc1791c20e19bbdb47763ffec6cc8", null ],
+      [ "Priority_Normal", "da/d9c/a00413.html#a98ce3c3a6bb5eee03a544054eae9f9f0a9724af5d135432316625274c94d9d53c", null ],
+      [ "Priority_High", "da/d9c/a00413.html#a98ce3c3a6bb5eee03a544054eae9f9f0ae26951cdc5145b7d4710a65f64fcc15d", null ],
+      [ "Priority_Highest", "da/d9c/a00413.html#a98ce3c3a6bb5eee03a544054eae9f9f0afe73cf9f67a66d8eeb50511bffc0349f", null ],
+      [ "Priority_Realtime", "da/d9c/a00413.html#a98ce3c3a6bb5eee03a544054eae9f9f0aea947a97dfe2d923de21531be29b1fe1", null ]
+    ] ]
 ];

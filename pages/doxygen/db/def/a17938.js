@@ -1,5 +1,5 @@
 var a17938 =
 [
-    [ "operator()", "db/def/a17938.html#a6a8c02f9b797ed7df8960e5ddc44f93f", null ],
-    [ "operator()", "db/def/a17938.html#a3847988d35a9cb0c5aab4ad73ff1a427", null ]
+    [ "at_sindragosa_lair", "db/def/a17938.html#a60ce46f248e66faa1f13a8b5c088bdc6", null ],
+    [ "OnTrigger", "db/def/a17938.html#a07074bff20272042ed05be83dd818ee9", null ]
 ];

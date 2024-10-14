@@ -1,6 +1,6 @@
 var a19110 =
 [
-    [ "npc_scion_of_eternityAI", "d9/d93/a19114.html", "d9/d93/a19114" ],
-    [ "npc_scion_of_eternity", "d4/d8e/a19110.html#ac1d66d65b5d4468b908443a64dc2de1c", null ],
-    [ "GetAI", "d4/d8e/a19110.html#a7c27a55f177fb9e31f73fa1cb227fa27", null ]
+    [ "ChargeRifts", "d4/d8e/a19110.html#aec98a12dec1f2ad98e00d399b0e2a1d5", null ],
+    [ "Execute", "d4/d8e/a19110.html#a8d01bf861d37c25413dc14eee16a2939", null ],
+    [ "_caster", "d4/d8e/a19110.html#a3cbf5f7e26de337dadd9d96a43d728b0", null ]
 ];

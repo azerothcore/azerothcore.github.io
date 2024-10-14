@@ -1,9 +1,6 @@
 var a17386 =
 [
-    [ "BattleExperienceEvent", "de/da3/a17386.html#a3091b403089533ce2ebbb40fa38f28c9", null ],
-    [ "Execute", "de/da3/a17386.html#a3971962ec90f682baeae96fe6098fa97", null ],
-    [ "_creature", "de/da3/a17386.html#a0155536d5c2be329a1f3b57c4d852098", null ],
-    [ "_level", "de/da3/a17386.html#a22f0d7e59f579362be4576180d0977b8", null ],
-    [ "ExperiencedSpells", "de/da3/a17386.html#a5e2e06a386059ba2d9aff676648fa56b", null ],
-    [ "ExperiencedTimes", "de/da3/a17386.html#a4daf5818472ebe7c8d3938e2189d8e02", null ]
+    [ "npc_igb_ship_crewAI", "de/da3/a17386.html#a3ca741b305e3235b0521f094d7abe732", null ],
+    [ "CanAIAttack", "de/da3/a17386.html#a2c834dc151493957fc116865699ae7f5", null ],
+    [ "_instance", "de/da3/a17386.html#a288bd5f8b4eaed7b1a960ed738330ae4", null ]
 ];

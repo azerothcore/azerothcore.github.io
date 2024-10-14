@@ -1,6 +1,8 @@
 var a19094 =
 [
-    [ "npc_power_sparkAI", "dc/d4b/a19098.html", "dc/d4b/a19098" ],
-    [ "npc_power_spark", "d1/d49/a19094.html#a9efd2810feb5f90f9f12f51ec7282410", null ],
-    [ "GetAI", "d1/d49/a19094.html#a573198b86697d222c693581bf430453f", null ]
+    [ "FilterTargets", "d1/d49/a19094.html#af6700817fd92dbe495e20d5c43b5d6b5", null ],
+    [ "Load", "d1/d49/a19094.html#a639105c26214d9887b84a482ca93eb26", null ],
+    [ "PrepareSpellScript", "d1/d49/a19094.html#a354ae20be436528b16095d4cd8d37859", null ],
+    [ "Register", "d1/d49/a19094.html#a5fcc9cc654d6495f535600a6eef4c968", null ],
+    [ "DrakeGUID", "d1/d49/a19094.html#ad4bbd7d559cdcc21ae5fafae75cd8eb3", null ]
 ];

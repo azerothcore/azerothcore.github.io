@@ -1,6 +1,7 @@
 var a18758 =
 [
-    [ "instance_icecrown_citadel_InstanceMapScript", "db/d63/a18762.html", "db/d63/a18762" ],
-    [ "instance_icecrown_citadel", "d6/d1c/a18758.html#a0901e23025cff08d1a7516bbef099ffa", null ],
-    [ "GetInstanceScript", "d6/d1c/a18758.html#a787c32626681f15f5515385a9ba6b848", null ]
+    [ "HandleTriggerSpell", "d6/d1c/a18758.html#a0e75076c2aed1544c544b976ee9cfbcd", null ],
+    [ "PrepareAuraScript", "d6/d1c/a18758.html#a6ce4c5c2b6797b38225ac3348aad5892", null ],
+    [ "Register", "d6/d1c/a18758.html#af87272995f6eeb3bc53cf472f5c3e9d3", null ],
+    [ "Validate", "d6/d1c/a18758.html#a813bad39641956fff697580f271416d2", null ]
 ];

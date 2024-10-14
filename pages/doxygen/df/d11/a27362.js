@@ -1,10 +1,8 @@
 var a27362 =
 [
-    [ "npc_prof_blacksmith", "df/d11/a27362.html#af9bd62c4c2514d79daf467e4d6d7a92e", null ],
-    [ "HasWeaponSub", "df/d11/a27362.html#a7ee47d061de5e2f482406469b4eaac3b", null ],
-    [ "OnGossipHello", "df/d11/a27362.html#a9a432c1ec33578949110c877fc6a686d", null ],
-    [ "OnGossipSelect", "df/d11/a27362.html#ab1edaf3dc0a8dddf064368d26930a2af", null ],
-    [ "SendActionMenu", "df/d11/a27362.html#af2ac8f9bfa212c34be3e45cc358dd773", null ],
-    [ "SendConfirmLearn", "df/d11/a27362.html#acbec7fe3eebf7eaed09e5755c6775eaa", null ],
-    [ "SendConfirmUnlearn", "df/d11/a27362.html#a851dc241d944bc888a00df85bff17e3a", null ]
+    [ "npc_nelsonAI", "da/d84/a27366.html", "da/d84/a27366" ],
+    [ "npc_nelson", "df/d11/a27362.html#ada597926a6db1aa7823ddabc19945b11", null ],
+    [ "GetAI", "df/d11/a27362.html#a75fea281fb49249345c48236bf44b1c8", null ],
+    [ "OnGossipHello", "df/d11/a27362.html#aa693b365a15d4617f214f9c3c229bf89", null ],
+    [ "OnGossipSelect", "df/d11/a27362.html#aff8e412cfcabd7b653cd30d29878be6a", null ]
 ];

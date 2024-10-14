@@ -1,29 +1,44 @@
 var a02630 =
 [
-    [ "DataHeader", "d0/d3f/a02630.html#a042491ef36459046f3866e90f15aae0d", null ],
-    [ "HallsOfLightningScriptName", "d0/d3f/a02630.html#aba51f7e18d1bf5bcc9ac3cce40574989", null ],
-    [ "HoLEvents", "d0/d3f/a02630.html#aefe92b165daab54a3444c2b628b30e3d", [
-      [ "TYPE_BJARNGRIM", "d0/d3f/a02630.html#aefe92b165daab54a3444c2b628b30e3da608e0501ee5efb86eaa345e411780421", null ],
-      [ "TYPE_IONAR", "d0/d3f/a02630.html#aefe92b165daab54a3444c2b628b30e3da59c88d60acb5b3ce493a62ec2c6b39a8", null ],
-      [ "TYPE_LOKEN", "d0/d3f/a02630.html#aefe92b165daab54a3444c2b628b30e3daea98d03c17066d22bf4213faf6e7ce37", null ],
-      [ "TYPE_VOLKHAN", "d0/d3f/a02630.html#aefe92b165daab54a3444c2b628b30e3dae4210212c84f56ef4d82bf8ea8827989", null ],
-      [ "TYPE_LOKEN_INTRO", "d0/d3f/a02630.html#aefe92b165daab54a3444c2b628b30e3dad8aa4deed6efe52d7977576c5372bb6b", null ],
-      [ "MAX_ENCOUNTER", "d0/d3f/a02630.html#aefe92b165daab54a3444c2b628b30e3da7913656ef56deb3793c0c5f3d999d80d", null ],
-      [ "DATA_BJARNGRIM_ACHIEVEMENT", "d0/d3f/a02630.html#aefe92b165daab54a3444c2b628b30e3daa53ad80b7b459e535100197347853cd0", null ],
-      [ "DATA_VOLKHAN_ACHIEVEMENT", "d0/d3f/a02630.html#aefe92b165daab54a3444c2b628b30e3da7e42579182aec175c25270808bec35b0", null ]
-    ] ],
-    [ "HoLGOs", "d0/d3f/a02630.html#a32c56077197ba30bb4a0f7c7ed0e30ba", [
-      [ "GO_BJARNGRIM_DOOR", "d0/d3f/a02630.html#a32c56077197ba30bb4a0f7c7ed0e30baac1bbf7a6b906762c973aacbe8d096a4f", null ],
-      [ "GO_VOLKHAN_DOOR", "d0/d3f/a02630.html#a32c56077197ba30bb4a0f7c7ed0e30baa43791493fa131c96383129d276d9ebfc", null ],
-      [ "GO_IONAR_DOOR", "d0/d3f/a02630.html#a32c56077197ba30bb4a0f7c7ed0e30baa98de6bec77b9ffcc83fbe12864534b5a", null ],
-      [ "GO_LOKEN_DOOR", "d0/d3f/a02630.html#a32c56077197ba30bb4a0f7c7ed0e30baa8eab9585e6640e1543ecee2cfc2753c7", null ],
-      [ "GO_LOKEN_THRONE", "d0/d3f/a02630.html#a32c56077197ba30bb4a0f7c7ed0e30baa34f7d3fb54b571aef3f476e267de512a", null ]
-    ] ],
-    [ "HoLNPCs", "d0/d3f/a02630.html#a142cf2087e521648bd7ea9b7495afc85", [
-      [ "NPC_BJARNGRIM", "d0/d3f/a02630.html#a142cf2087e521648bd7ea9b7495afc85a90b60cbba2fea788c3a7d279124aac96", null ],
-      [ "NPC_VOLKHAN", "d0/d3f/a02630.html#a142cf2087e521648bd7ea9b7495afc85ad22174c12671fe5c85401bb03873d3f1", null ],
-      [ "NPC_IONAR", "d0/d3f/a02630.html#a142cf2087e521648bd7ea9b7495afc85ac505a17c17ad621b6be0363e7c51fe22", null ],
-      [ "NPC_LOKEN", "d0/d3f/a02630.html#a142cf2087e521648bd7ea9b7495afc85abf84dbe001b0bc7669edfe88687365f6", null ]
-    ] ],
-    [ "GetHallsOfLightningAI", "d0/d3f/a02630.html#ae17388a1ba919f74b2068aafe1637537", null ]
+    [ "FireworkShowGameobject", "d1/d1b/a14106.html", "d1/d1b/a14106" ],
+    [ "FireworkShowScheduleEntry", "dc/da1/a14110.html", "dc/da1/a14110" ],
+    [ "FireworkShow", "d0/d5e/a14114.html", "d0/d5e/a14114" ],
+    [ "eFireworks", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1ef", [
+      [ "GO_FIREWORK_SHOW_TYPE_1_RED", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efafbfc2514c5e6777576f0478c218599b6", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_2_RED", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efab509f3c7c1a228c449d5921991eb24fe", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_1_RED_BIG", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa202f3aa19fe8e05412d5530d9901e1aa", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_2_RED_BIG", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efad38d73c037c438c074cb764d1b6bcef2", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_1_BLUE", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa64e73e866c8b8d47e5fece07e8ae7f69", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_2_BLUE", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efacad0b27b1ad4597690afdd5a9f76493e", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_1_BLUE_BIG", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efac2360c7b4141339c3e7446732a0115af", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_2_BLUE_BIG", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa624e0f3603c4ae40b94134d2191421e4", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_1_GREEN", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa4f78b2161c527cad45d2851a92786e54", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_2_GREEN_BIG", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1eface68791945ed391faebebd1edc9ead9d", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_1_GREEN_BIG", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efaa76280fe62eb56416c6b1a95599c8e0a", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_2_GREEN", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa6eaa27ba103b2dacd7ea93222229b152", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_1_WHITE", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa20ad345d5f090a50593ad75453c86921", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_1_WHITE_BIG", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa9325caf16f5fd01b96b4a7202d11c954", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_2_WHITE", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efadacc9a35a6c947101cb66aa1bf63b840", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_2_WHITE_BIG", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa2886fea4a859cc1302b89fb5bd4894bb", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_2_PURPLE_BIG", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa1b1201d7f92af2d6b96543a7e4d84d57", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_1_YELLOW", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efac4278f6ad0be67e8a6e38428f8d1d1b2", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_1_YELLOW_BIG", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa0eaa7ffa7a231487c100494c0d4a0071", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_2_YELLOW", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa5d0d683844dcf126a16099bb8c98a7e6", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_2_YELLOW_BIG", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa6e4ef0854b7a7dc4f54c5ce29bb4e852", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_2_PURPLE", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efacc9beca607ac3622472393a21b34e710", null ],
+      [ "GO_FIREWORK_SHOW_TYPE_1_PURPLE_BIG", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa9df2eb3577191bd673390e9cb95febcb", null ],
+      [ "GO_TOASTING_GOBLET", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa6097510945f53abb088a289583e7058e", null ],
+      [ "NPC_STORMWIND_REVELER", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa4f1d578423c04b16414575365bbc4e00", null ],
+      [ "NPC_THUNDER_BLUFF_REVELER", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa14b578ff5b019a5c087624fb502d5a91", null ],
+      [ "NPC_BOOTY_BAY_REVELER", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa1090c52a9da63c5051300b8cf7f61fd5", null ],
+      [ "NPC_DARNASSUS_REVELER", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efad98d5145db42090ecdf5e6a68d3ca57b", null ],
+      [ "NPC_IRONFORGE_REVELER", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa19b63e50c89c9e9eb12fe6a22108c967", null ],
+      [ "NPC_UNDERCITY_REVELER", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa6ec14bd98619d5e959cb71a3fcf53b75", null ],
+      [ "NPC_ORGRIMMAR_REVELER", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa630143f3002e80e19936e357e05f3250", null ],
+      [ "NPC_SCRYER_REVELER", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa6feeae2411613b9320f948d76ca62d87", null ],
+      [ "NPC_ALDOR_REVELER", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa07470be1382b761cebae5516586f3e44", null ],
+      [ "NPC_DRAENEI_REVELER", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efafa0fbaac554e9b1afdb5c581e95918d8", null ],
+      [ "NPC_BLOOD_ELF_REVELER", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa9fdc19e9345d45dafd482ba9431772aa", null ],
+      [ "COUNT_REVELER_ID", "d0/d3f/a02630.html#ad6101dc8b1197f1113132f0abce2b1efa31fdcda6fb9f3dc253b3afc77eacbe2b", null ]
+    ] ]
 ];

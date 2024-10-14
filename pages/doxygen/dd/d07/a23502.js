@@ -1,12 +1,8 @@
 var a23502 =
 [
-    [ "boss_nazan", "dd/d07/a23502.html#a4390d3e181c4db46e364df3302612763", null ],
-    [ "AttackStart", "dd/d07/a23502.html#a7acea69f908e7a004c2a78c103528975", null ],
-    [ "DoAction", "dd/d07/a23502.html#abdb49e50dabda61c5d16b420ae69ae77", null ],
-    [ "EnterEvadeMode", "dd/d07/a23502.html#ab6338a7d240014e548b22044b788ce8f", null ],
-    [ "JustEngagedWith", "dd/d07/a23502.html#a4d44b759530f32207a46a608fb7d6209", null ],
-    [ "MovementInform", "dd/d07/a23502.html#ad35866322ff55263b1f8b105d2cad952", null ],
-    [ "Reset", "dd/d07/a23502.html#a5c10e932075130399a9127869f45ce1d", null ],
-    [ "UpdateAI", "dd/d07/a23502.html#a17942f19444ad324058d7b8c8a9aa9de", null ],
-    [ "_scheduler", "dd/d07/a23502.html#a8915d84ec4ffb8dade18041d5e910018", null ]
+    [ "HandleDummyApply", "dd/d07/a23502.html#ae60ce9cdd5d68f3fd16af54acc3d6603", null ],
+    [ "HandleDummyRemove", "dd/d07/a23502.html#a368376fe4262815b9b9a9811178cec6d", null ],
+    [ "HandlePeriodicRemove", "dd/d07/a23502.html#a02a350060a9ce54be88c0ad62eac11d3", null ],
+    [ "PrepareAuraScript", "dd/d07/a23502.html#a30a7b07fc37d13f9b3a96e95940410c1", null ],
+    [ "Register", "dd/d07/a23502.html#afeb47a40cfea3d958fee7a410e83857f", null ]
 ];

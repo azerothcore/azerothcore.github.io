@@ -1,5 +1,7 @@
 var a12994 =
 [
-    [ "AreaTrigger_at_sunwell_eredar_twins", "d5/de1/a12994.html#a6cfb22079d94f8e83c76514fa73368b0", null ],
-    [ "OnTrigger", "d5/de1/a12994.html#af8e25da855daca5ac3114523e9af07fd", null ]
+    [ "HandleScript", "d5/de1/a12994.html#aae2f572a523431f6764f08e4719adbcf", null ],
+    [ "PrepareSpellScript", "d5/de1/a12994.html#a20fdb423d5db4f1fa629a0f0480e2a9f", null ],
+    [ "Register", "d5/de1/a12994.html#ae3b002197564318cc92242bd925d35af", null ],
+    [ "Validate", "d5/de1/a12994.html#a98d9d84fd26d110efbbbaba9a19ef423", null ]
 ];

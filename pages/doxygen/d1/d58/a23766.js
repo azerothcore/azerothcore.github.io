@@ -1,10 +1,6 @@
 var a23766 =
 [
-    [ "npc_lord_sanguinar", "d1/d58/a23766.html#aa5ec2023d72561fe9cf062a2ba5a5469", null ],
-    [ "JustDied", "d1/d58/a23766.html#a97fbf79087f34898c87df2d88a33bd2c", null ],
-    [ "JustEngagedWith", "d1/d58/a23766.html#a8a6871900d2f49e7ce5a66d0620fec09", null ],
-    [ "Reset", "d1/d58/a23766.html#a25d998de67f88d4618f8f8d88681e68b", null ],
-    [ "UpdateAI", "d1/d58/a23766.html#a27df1dbb76a650b8039690cab4ddad68", null ],
-    [ "_hasDied", "d1/d58/a23766.html#a6f0a66b88b95412f443998190b142eaf", null ],
-    [ "_instance", "d1/d58/a23766.html#aa610a2ca98d2fff376821dd243947096", null ]
+    [ "lapseTeleport", "d1/d58/a23766.html#a55c4330397214bf3a43628b3067d4634", null ],
+    [ "Execute", "d1/d58/a23766.html#a122023ed13fce2f5bb3721e459964443", null ],
+    [ "_owner", "d1/d58/a23766.html#a0e678c5cdb862390ea50c8d6057b7093", null ]
 ];

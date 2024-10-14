@@ -1,7 +1,16 @@
 var a21942 =
 [
-    [ "HandleScript", "d4/d76/a21942.html#a7fec959237546201ea94d5f87068e1c5", null ],
-    [ "PrepareSpellScript", "d4/d76/a21942.html#ae0c3eafc8b227078a2dcaccf1c0a278b", null ],
-    [ "Register", "d4/d76/a21942.html#a0aab07a4950f60a290491aa13103b332", null ],
-    [ "Validate", "d4/d76/a21942.html#a92d5493a43fca5c54ef89cb19ce00aa2", null ]
+    [ "npc_battle_at_valhalasAI", "d4/d76/a21942.html#a2118bb3a502d2082297631e3dab298da", null ],
+    [ "CheckSummons", "d4/d76/a21942.html#a6ec21ce185cba4756dc4a00d1f65140c", null ],
+    [ "JustSummoned", "d4/d76/a21942.html#ac2c766dd298bf074f20968006a361036", null ],
+    [ "PrepareSummons", "d4/d76/a21942.html#a80e97ceef22290d241fa3f5894331c08", null ],
+    [ "Reset", "d4/d76/a21942.html#a303f268cbcc0e2c731c505c721c55da6", null ],
+    [ "ResetData", "d4/d76/a21942.html#a3bc670704f0e235ae4022ba796a333b9", null ],
+    [ "StartBattle", "d4/d76/a21942.html#a01dff1aba876527951d3c83ae8b240ff", null ],
+    [ "UpdateAI", "d4/d76/a21942.html#a3294ef4eb601df5156db0ba416d3aabe", null ],
+    [ "currentQuest", "d4/d76/a21942.html#a7c8a2c0710f68d617bd7edd71632c744", null ],
+    [ "events", "d4/d76/a21942.html#a74ac913100bb6ecd904f0b2f0e590271", null ],
+    [ "playerGUID", "d4/d76/a21942.html#aac5d72cbc9f07d43dc6d9b722d0626b8", null ],
+    [ "playerGUID2", "d4/d76/a21942.html#af29a4ea9c3c9c62364eb997258e5fa70", null ],
+    [ "summons", "d4/d76/a21942.html#a3e894857fd5e3f4ccc5fc40c47a8cabe", null ]
 ];

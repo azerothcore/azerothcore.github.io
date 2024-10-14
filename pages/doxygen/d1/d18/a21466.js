@@ -1,6 +1,7 @@
 var a21466 =
 [
-    [ "npc_iruk", "d1/d18/a21466.html#a721aeefd23371cc6bc16738a797bf50a", null ],
-    [ "OnGossipHello", "d1/d18/a21466.html#a774669099330c75ab5e0bea8d460f517", null ],
-    [ "OnGossipSelect", "d1/d18/a21466.html#ae6f7d54d224488a9e29c59c560eba471", null ]
+    [ "npc_mootoo_the_youngerAI", "d1/d18/a21466.html#a70a5a502dab9a90a790a90eabc5c3acd", null ],
+    [ "JustDied", "d1/d18/a21466.html#a766612f646a6d22d3f0e6f93298e34bc", null ],
+    [ "Reset", "d1/d18/a21466.html#a04624b9b4d552d6b27308edc3ad44644", null ],
+    [ "WaypointReached", "d1/d18/a21466.html#ac758a992ed0d62a272930c84d617b348", null ]
 ];

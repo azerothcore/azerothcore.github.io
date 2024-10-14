@@ -1,12 +1,11 @@
 var a28622 =
 [
-    [ "Model", "d6/dfc/a28622.html#ae102b5fc584185113e89fb7b39a72bd1", null ],
-    [ "~Model", "d6/dfc/a28622.html#ad6ebd2062a0b823db841a0b88baac4c0", null ],
-    [ "_unload", "d6/dfc/a28622.html#a9b02ed73fa006bc057157b636029ab6f", null ],
-    [ "ConvertToVMAPModel", "d6/dfc/a28622.html#ae6fd5d754d9a880359b8afaf50c5753e", null ],
-    [ "open", "d6/dfc/a28622.html#a6ed3a71ff468f5acaccc61f5c2c87a0e", null ],
-    [ "filename", "d6/dfc/a28622.html#a4c43746e9c460e29cabd1ba2db6ba222", null ],
-    [ "header", "d6/dfc/a28622.html#a2f6e66bbf4acc662d73e8fe8e5a0e085", null ],
-    [ "indices", "d6/dfc/a28622.html#a3b61d3316481e7b9c38bf50806ebded6", null ],
-    [ "vertices", "d6/dfc/a28622.html#a1af9857df4d0e16ab9940846300fa8fe", null ]
+    [ "material", "d6/dfc/a28622.html#a7079e8817a9684602084eb224f2540fc", null ],
+    [ "pos_x", "d6/dfc/a28622.html#ac4d971cc46506be14716124afbb5ad9c", null ],
+    [ "pos_y", "d6/dfc/a28622.html#a6cd85f2a674d732e88371ffce5e46077", null ],
+    [ "pos_z", "d6/dfc/a28622.html#a183ec8ec2d8d30726494c6b3d3b8606a", null ],
+    [ "xtiles", "d6/dfc/a28622.html#aca34dfa64624cfe04c314c13bbed0062", null ],
+    [ "xverts", "d6/dfc/a28622.html#aa5ad7ff660f7f0b5ddfd2d186496d928", null ],
+    [ "ytiles", "d6/dfc/a28622.html#a9901a7e9828ac840bc290b0768831d66", null ],
+    [ "yverts", "d6/dfc/a28622.html#abf24042b85692cd0df05d65d734dd99e", null ]
 ];

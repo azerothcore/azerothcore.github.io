@@ -1,8 +1,17 @@
 var a13922 =
 [
-    [ "npc_spawn_of_marli", "d2/d0f/a13922.html#a1dcd5066de108203903f5767c4b375ea", null ],
-    [ "JustEngagedWith", "d2/d0f/a13922.html#a1b8afff5d90df02d16b81785026b2ff0", null ],
-    [ "Reset", "d2/d0f/a13922.html#a79ef192d41af75e0dad0494776c75189", null ],
-    [ "UpdateAI", "d2/d0f/a13922.html#a1c456e7deb43d2e4dd1abc6f702c3f75", null ],
-    [ "_scheduler", "d2/d0f/a13922.html#ae9d30ec62ff25a454824ff4334ad2d99", null ]
+    [ "instance_zulgurub_InstanceMapScript", "d2/d0f/a13922.html#aacbb3bb0d212ffafae475c74790d9c63", null ],
+    [ "GetData", "d2/d0f/a13922.html#ae8c0fa463d3e5b5dafb7b14b5d32a4b1", null ],
+    [ "GetGuidData", "d2/d0f/a13922.html#a0da827e64e90a1f97b75038621a195ff", null ],
+    [ "OnCreatureCreate", "d2/d0f/a13922.html#a951c6f5e1dc460cd820fba49add52898", null ],
+    [ "OnGameObjectCreate", "d2/d0f/a13922.html#a7649a9bcdfafd3c8d7001555e60910af", null ],
+    [ "RemoveHakkarPowerStack", "d2/d0f/a13922.html#a0234565dc9c87e32bcd0a7f19e2336b6", null ],
+    [ "SetBossState", "d2/d0f/a13922.html#aaf5d69e4993591e0f936e2109df1fb07", null ],
+    [ "_arlokkGUID", "d2/d0f/a13922.html#a92d30a8e0691e5bc6a58ff26cc06df36", null ],
+    [ "_edgeOfMadnessGUID", "d2/d0f/a13922.html#aa7bbbb942592651857f933503da0e808", null ],
+    [ "_gahzrankaGUID", "d2/d0f/a13922.html#af0e854382a2316363c50d60f03095097", null ],
+    [ "_goGongOfBethekkGUID", "d2/d0f/a13922.html#a1f33ff891c8289a49dd2b979a064c323", null ],
+    [ "_hakkarGUID", "d2/d0f/a13922.html#aeca34a55f3c378311ae1b46313cf22de", null ],
+    [ "_jindoTheHexxerGUID", "d2/d0f/a13922.html#a48ec95fa51ddf50aa0249a3798bbc898", null ],
+    [ "_vilebranchSpeakerGUID", "d2/d0f/a13922.html#a07cff6b252eb9b08855bc8bd7e5d7735", null ]
 ];

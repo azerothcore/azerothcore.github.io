@@ -1,6 +1,6 @@
 var a21354 =
 [
-    [ "npc_vh_teleportation_portalAI", "d6/d7a/a21358.html", "d6/d7a/a21358" ],
-    [ "npc_vh_teleportation_portal", "db/df9/a21354.html#a9a554058f594f992a17dbb3887117a6f", null ],
-    [ "GetAI", "db/df9/a21354.html#a0721c64c01ae69bd78dfc15637c97f49", null ]
+    [ "npc_azure_spellbreakerAI", "d6/d7a/a21358.html", "d6/d7a/a21358" ],
+    [ "npc_azure_spellbreaker", "db/df9/a21354.html#a36f09ff7a60a04e6dd99bc37146000f8", null ],
+    [ "GetAI", "db/df9/a21354.html#a7b2e89c33deef7fb5237b271dd5b0d12", null ]
 ];

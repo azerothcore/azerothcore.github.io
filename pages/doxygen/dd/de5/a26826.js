@@ -1,7 +1,7 @@
 var a26826 =
 [
-    [ "FilterTargets", "dd/de5/a26826.html#aeebe9395cefab1b87196a7ef466aa2c8", null ],
-    [ "PrepareSpellScript", "dd/de5/a26826.html#a954f00317eab544dd57e657368aab7fb", null ],
-    [ "Register", "dd/de5/a26826.html#a1804684c8685372faf2e88e56b48f5be", null ],
-    [ "Validate", "dd/de5/a26826.html#ab08386023ed3b3c8e51178da8973ef1a", null ]
+    [ "HandleEffect", "dd/de5/a26826.html#a83b2bd3a3f9a9027766f15f23cae95f0", null ],
+    [ "PrepareSpellScript", "dd/de5/a26826.html#a7645af1c876e1f6ad91ef92884d220ac", null ],
+    [ "Register", "dd/de5/a26826.html#a15d4ce9c947ca2f25e29f97119c4106e", null ],
+    [ "Validate", "dd/de5/a26826.html#ab6d78ecb650f13df3376baced8c40a63", null ]
 ];

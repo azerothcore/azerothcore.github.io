@@ -1,11 +1,10 @@
 var a14426 =
 [
-    [ "boss_anetheron", "d9/d76/a14426.html#a6c103caa3f137756599a75bff03a6648", null ],
-    [ "DoAction", "d9/d76/a14426.html#a2fd485de26c820fec5240f9141a09964", null ],
-    [ "JustDied", "d9/d76/a14426.html#a7c8b2039ee7e379bed8387b7236b7ee5", null ],
-    [ "JustEngagedWith", "d9/d76/a14426.html#aa34ac87ad4014fbecb481be7896c577c", null ],
-    [ "JustSummoned", "d9/d76/a14426.html#af9c156e28c7eca710d8367bd2a99387d", null ],
-    [ "KilledUnit", "d9/d76/a14426.html#a4471af823278a3664574729bf5c749be", null ],
-    [ "PathEndReached", "d9/d76/a14426.html#a75ed708e2769a77defa5c9a0b22dcae9", null ],
-    [ "_recentlySpoken", "d9/d76/a14426.html#accd9455c3b1d536ca177be6028f3503d", null ]
+    [ "boss_rage_winterchill", "d9/d76/a14426.html#a66fed2a7cc6135d41a2c40bdf4ffe02e", null ],
+    [ "DoAction", "d9/d76/a14426.html#a45333aea6d6a180473ca4823ea83920a", null ],
+    [ "JustDied", "d9/d76/a14426.html#ab10c7df81a9e71b2c114465c30e40a9b", null ],
+    [ "JustEngagedWith", "d9/d76/a14426.html#ad36a840c65949c54d5ee3ae8cb6f1f7b", null ],
+    [ "KilledUnit", "d9/d76/a14426.html#a69d69530a080379add7be73c552f4937", null ],
+    [ "PathEndReached", "d9/d76/a14426.html#aec47befdf3246710a5158780fa797fa7", null ],
+    [ "_recentlySpoken", "d9/d76/a14426.html#ae2141b4ea1d10cb74146aec63d65214c", null ]
 ];

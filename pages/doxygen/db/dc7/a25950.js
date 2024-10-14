@@ -1,7 +1,6 @@
 var a25950 =
 [
-    [ "CalculateSpellAmount", "db/dc7/a25950.html#a2f93ff69f30b243fe787d72f78a2d159", null ],
-    [ "CheckCast", "db/dc7/a25950.html#af043f7ee0f80baf667e64225effd57d1", null ],
-    [ "PrepareSpellScript", "db/dc7/a25950.html#a233ac4020722078d865cf980d7fa76cf", null ],
-    [ "Register", "db/dc7/a25950.html#a3648ecd94430e21dd014795156c1eb98", null ]
+    [ "HandleRemove", "db/dc7/a25950.html#a491765056e8c4d97d9cdaaea9d11a0af", null ],
+    [ "PrepareAuraScript", "db/dc7/a25950.html#abe5d45b960fda879f48e3e98db9ad4ac", null ],
+    [ "Register", "db/dc7/a25950.html#ab00f3119d6c1bd1ad185374144f2987e", null ]
 ];

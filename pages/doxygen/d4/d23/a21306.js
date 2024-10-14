@@ -1,12 +1,15 @@
 var a21306 =
 [
-    [ "boss_moraggAI", "d4/d23/a21306.html#a3ae881c9adca20a2cb894af85297d53e", null ],
-    [ "EnterEvadeMode", "d4/d23/a21306.html#a4e70e42407f452c4685c732949fd2b52", null ],
-    [ "JustDied", "d4/d23/a21306.html#a97516e6ad5f7f35d0329674130e76dd3", null ],
-    [ "JustEngagedWith", "d4/d23/a21306.html#ab1d4d863a537a3c567eeda6f95f385ca", null ],
-    [ "MoveInLineOfSight", "d4/d23/a21306.html#a52a99d72dfa017baacb76717e6db931b", null ],
-    [ "Reset", "d4/d23/a21306.html#a8b7419c94e36b4b2292cf110a2eccb01", null ],
-    [ "UpdateAI", "d4/d23/a21306.html#aec7645eaae190d1e7982aae181ff9224", null ],
-    [ "events", "d4/d23/a21306.html#acd021e4216e3920f0534da95d69ba5eb", null ],
-    [ "pInstance", "d4/d23/a21306.html#a9f179ea9b180095a1e6df11b4842c5e5", null ]
+    [ "npc_vh_teleportation_portalAI", "d4/d23/a21306.html#a9d062de34e4fbc8ccc487a633efa038d", null ],
+    [ "JustDied", "d4/d23/a21306.html#aab2cc259d78492c54e21b4279697f909", null ],
+    [ "JustSummoned", "d4/d23/a21306.html#a029b105ef6f92455c41e064aeb0fd5f6", null ],
+    [ "SummonedMobDied", "d4/d23/a21306.html#ae6b5b15aeee2f7b02d5c54dd8d09aa51", null ],
+    [ "UpdateAI", "d4/d23/a21306.html#a812e330e20924cc34262363ecc0a3fc1", null ],
+    [ "addValue", "d4/d23/a21306.html#aa52f29a41d12320516737b437af62fc3", null ],
+    [ "bKorG", "d4/d23/a21306.html#ad96efd06ebb1902cc30deb22e62d7873", null ],
+    [ "events", "d4/d23/a21306.html#a329635246e80e7264cad6749ee70be40", null ],
+    [ "listOfMobs", "d4/d23/a21306.html#a470a61cf7d424711b07770fd56c74b29", null ],
+    [ "pInstance", "d4/d23/a21306.html#a10ebe705c55d898bfea2af104ce7f86e", null ],
+    [ "spawned", "d4/d23/a21306.html#a8921c314c2f4b958e11136504971f427", null ],
+    [ "wave", "d4/d23/a21306.html#a4dd689e6445e18c3e9883bc471fecdde", null ]
 ];

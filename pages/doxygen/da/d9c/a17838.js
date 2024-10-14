@@ -1,6 +1,6 @@
 var a17838 =
 [
-    [ "ExtraRemoveEffect", "da/d9c/a17838.html#a49b1087d66606ddeebe6918ad05d4b37", null ],
-    [ "PrepareAuraScript", "da/d9c/a17838.html#a41992ed6c23275d3a910915755b682f9", null ],
-    [ "Register", "da/d9c/a17838.html#ab956cb95473cf0c5fc9fb2af14fc945e", null ]
+    [ "boss_sindragosaAI", "d3/d6c/a17842.html", "d3/d6c/a17842" ],
+    [ "boss_sindragosa", "da/d9c/a17838.html#af5cdf4798b8b87467fa45dbda7fcbee1", null ],
+    [ "GetAI", "da/d9c/a17838.html#a005a6da9f4f9690416a108872b3c2b36", null ]
 ];

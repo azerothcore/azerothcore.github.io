@@ -1,6 +1,5 @@
 var a25406 =
 [
-    [ "CheckProc", "da/d07/a25406.html#a393946dd3404c4b03a9a8ced7913ccaa", null ],
-    [ "PrepareAuraScript", "da/d07/a25406.html#ae28075d0d66c99fb77a2c7fef678f4e2", null ],
-    [ "Register", "da/d07/a25406.html#a3e0279f7dc724b4d49bfda4f0e417353", null ]
+    [ "PrepareSpellScript", "da/d07/a25406.html#adaaa520c889970d91f3f38c958efdad4", null ],
+    [ "Register", "da/d07/a25406.html#a80fe694c669aa86494bd73bfa7b8ffc8", null ]
 ];

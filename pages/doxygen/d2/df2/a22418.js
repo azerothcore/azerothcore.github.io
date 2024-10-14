@@ -1,6 +1,9 @@
 var a22418 =
 [
-    [ "npc_crusade_recruitAI", "d2/da3/a22422.html", "d2/da3/a22422" ],
-    [ "npc_crusade_recruit", "d2/df2/a22418.html#a6e130f153c506255ef5ece1baf006028", null ],
-    [ "GetAI", "d2/df2/a22418.html#a412f0d153676758fda8c1f7f1e9dda44", null ]
+    [ "OPvPCapturePointGH", "d2/df2/a22418.html#a6e46100e50212310af4301c492d5773e", null ],
+    [ "ChangeState", "d2/df2/a22418.html#afe53e37a3a1dc4a7068c03302f26b981", null ],
+    [ "FillInitialWorldStates", "d2/df2/a22418.html#ad1c3ece363da12750c851cf510228a06", null ],
+    [ "HandlePlayerEnter", "d2/df2/a22418.html#afea733c44d129d9a5af78a8337d9e04a", null ],
+    [ "HandlePlayerLeave", "d2/df2/a22418.html#a1e5d9c6f02eb02dfed654078c910635b", null ],
+    [ "SendChangePhase", "d2/df2/a22418.html#aec741b9102829bf77850dc06a49bb8da", null ]
 ];

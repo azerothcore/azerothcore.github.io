@@ -1,12 +1,10 @@
 var a11338 =
 [
-    [ "guild_commandscript", "d9/d07/a11338.html#a4394d242740505ad128e4cebf4b617f0", null ],
-    [ "GetCommands", "d9/d07/a11338.html#a6b0a700e7fa3251373c1405d245f6931", null ],
-    [ "HandleGuildCreateCommand", "d9/d07/a11338.html#a2d2c2414b9b08a5d510fccd223b34a36", null ],
-    [ "HandleGuildDeleteCommand", "d9/d07/a11338.html#a4bbef641c86de37611e7ff1c906b4048", null ],
-    [ "HandleGuildInfoCommand", "d9/d07/a11338.html#adbe43a3a362608e37dd7d6652a83adfc", null ],
-    [ "HandleGuildInviteCommand", "d9/d07/a11338.html#a67210b9845ca4475e6ab3d0d7cc0dbab", null ],
-    [ "HandleGuildRankCommand", "d9/d07/a11338.html#adbea3b610c98354866fec52a43fedda0", null ],
-    [ "HandleGuildRenameCommand", "d9/d07/a11338.html#ac946b4284c85e43b1ca29f69df9a8f27", null ],
-    [ "HandleGuildUninviteCommand", "d9/d07/a11338.html#aa7b134de9c3632cc1e147064c9ffcb5f", null ]
+    [ "group_commandscript", "d9/d07/a11338.html#ad2890427cfe3649b2e0fe0896693372c", null ],
+    [ "GetCommands", "d9/d07/a11338.html#a5e7e069c58ecc5baca4ef1118e6c143e", null ],
+    [ "HandleGroupDisbandCommand", "d9/d07/a11338.html#a538539340a697e02453ddcfa669fb646", null ],
+    [ "HandleGroupJoinCommand", "d9/d07/a11338.html#a382e8532c653464e90b45569e813ae37", null ],
+    [ "HandleGroupLeaderCommand", "d9/d07/a11338.html#a899858a63add3c68e0e1446d29216c00", null ],
+    [ "HandleGroupListCommand", "d9/d07/a11338.html#a1b841d1c4bc59b56f2d166767089b93f", null ],
+    [ "HandleGroupRemoveCommand", "d9/d07/a11338.html#a2bbb27e0f221ce533f0b0e94e944f7fb", null ]
 ];

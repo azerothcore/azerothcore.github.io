@@ -1,6 +1,6 @@
 var a21554 =
 [
-    [ "HandleEffect", "d9/da7/a21554.html#a6732d51d5de34b3e737cc785fb2ab43e", null ],
-    [ "PrepareSpellScript", "d9/da7/a21554.html#aec199e9f9651267fac88bd86be326bb4", null ],
-    [ "Register", "d9/da7/a21554.html#a14bd854db86750704c8377d457dea360", null ]
+    [ "npc_steam_powered_auctioneerAI", "df/d6b/a21558.html", "df/d6b/a21558" ],
+    [ "npc_steam_powered_auctioneer", "d9/da7/a21554.html#ae8c918c639ce0c3ddc14b8cf7f0ef855", null ],
+    [ "GetAI", "d9/da7/a21554.html#a39a2f0c187078c759bc4a391e0a81068", null ]
 ];

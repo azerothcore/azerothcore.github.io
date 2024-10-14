@@ -1,10 +1,8 @@
 var a04640 =
 [
-    [ "SecretMgr", "db/d7b/a28384.html", "db/d7b/a28384" ],
-    [ "SecretMgr::Secret", "db/d36/a28388.html", "db/d36/a28388" ],
-    [ "sSecretMgr", "d9/d32/a04640.html#a5104e1ebeb8cbf71ec16e9492a3ad622", null ],
-    [ "Secrets", "d9/d32/a04640.html#ab54b0ec728a299f0ff9e8a7796297a01", [
-      [ "SECRET_TOTP_MASTER_KEY", "d9/d32/a04640.html#ab54b0ec728a299f0ff9e8a7796297a01a414121b0e05fa3a392ffe0da5afe0fe9", null ],
-      [ "NUM_SECRETS", "d9/d32/a04640.html#ab54b0ec728a299f0ff9e8a7796297a01a087643d0aa89a708bad0f254697489c6", null ]
-    ] ]
+    [ "VisibilitySettingData", "dd/d5f/a09602.html", "dd/d5f/a09602" ],
+    [ "DynamicVisibilityMgr", "db/d36/a09606.html", "db/d36/a09606" ],
+    [ "VISIBILITY_SETTINGS_MAX_INTERVAL_NUM", "d9/d32/a04640.html#ae515340ce2037b26a80e4db46e653b59", null ],
+    [ "VISIBILITY_SETTINGS_PLAYER_INTERVAL", "d9/d32/a04640.html#a2733c1a6a4018078df00a4c426661436", null ],
+    [ "VisibilitySettings", "d9/d32/a04640.html#ab01e98c3eef9241e381bb20d29d66cbd", null ]
 ];

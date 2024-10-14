@@ -1,6 +1,6 @@
 var a21202 =
 [
-    [ "HandleDummy", "da/d3b/a21202.html#a9a4cee98bd023da694ac8fe76cd06078", null ],
-    [ "PrepareSpellScript", "da/d3b/a21202.html#abb80edac9217487c4be085f12295691e", null ],
-    [ "Register", "da/d3b/a21202.html#a2e483fb5c3e176f694eb7c39548a9903", null ]
+    [ "boss_cyanigosaAI", "dc/d08/a21206.html", "dc/d08/a21206" ],
+    [ "boss_cyanigosa", "da/d3b/a21202.html#a4db12e2fb873ad3595a437df09663a22", null ],
+    [ "GetAI", "da/d3b/a21202.html#a779c7c3a5f0002501361fa92fe14af69", null ]
 ];

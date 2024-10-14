@@ -1,9 +1,8 @@
 var a27942 =
 [
-    [ "CinematicSequence", "dc/d03/a27942.html#a7a0a35bbb69320565d991f4a349dc01b", null ],
-    [ "ClassID", "dc/d03/a27942.html#a9da8d8d20126e9dc161b1dd64a19fe59", null ],
-    [ "expansion", "dc/d03/a27942.html#a7c57eabd8d94849cd8536b013a8d4138", null ],
-    [ "name", "dc/d03/a27942.html#a2d0b7155b03af29bd982f31eba26ec24", null ],
-    [ "powerType", "dc/d03/a27942.html#a74aec35dc161a7e830453b9365a6f107", null ],
-    [ "spellfamily", "dc/d03/a27942.html#a43fbe48c99e297ea09e9e1f2edd6a4ea", null ]
+    [ "DamagedDisplayId", "dc/d03/a27942.html#a84d606d69c51f5e1fdecf9bc0f5705be", null ],
+    [ "DestroyedDisplayId", "dc/d03/a27942.html#afc891df0c9491a34f784e8f141434be5", null ],
+    [ "Id", "dc/d03/a27942.html#a65d7e0933cb53864413781cdeb56b6c2", null ],
+    [ "RebuildingDisplayId", "dc/d03/a27942.html#aa4e1e6be7b5b1d15872fb310c1c299af", null ],
+    [ "SmokeDisplayId", "dc/d03/a27942.html#a1a06c3e04bc2bb7d5bc29592d40b9239", null ]
 ];

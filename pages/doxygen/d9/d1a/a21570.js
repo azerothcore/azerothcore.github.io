@@ -1,7 +1,8 @@
 var a21570 =
 [
-    [ "npc_thassarianAI", "d9/d1a/a21570.html#a92e873dc3aa97f81919225ce75a5f894", null ],
-    [ "Reset", "d9/d1a/a21570.html#a8611ef17700c739dbd5e7a70660f1379", null ],
-    [ "UpdateAI", "d9/d1a/a21570.html#ad09a3a063d716bc43e23b5aad5e46a7b", null ],
-    [ "_events", "d9/d1a/a21570.html#aaecb5a402e4ffca1e819303dbb94f5b5", null ]
+    [ "npc_shandy_dalaranAI", "d0/d5f/a21574.html", "d0/d5f/a21574" ],
+    [ "npc_shandy_dalaran", "d9/d1a/a21570.html#a7077c769a252af8ba37b5ff5d524463e", null ],
+    [ "GetAI", "d9/d1a/a21570.html#a641551a2aef739e1679912ae27ddb888", null ],
+    [ "OnGossipHello", "d9/d1a/a21570.html#a91287aaba09fce091c9d826e75208f84", null ],
+    [ "OnGossipSelect", "d9/d1a/a21570.html#ad005a17da187e0cfd03d2faf0099c448", null ]
 ];

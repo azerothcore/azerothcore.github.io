@@ -1,7 +1,6 @@
 var a17634 =
 [
-    [ "OnPeriodic", "dd/d7a/a17634.html#a402e6c1a23070e3cef9b66ca0992d1af", null ],
-    [ "PrepareAuraScript", "dd/d7a/a17634.html#a0e87dae1be4f69e6412129f14056eb79", null ],
-    [ "Register", "dd/d7a/a17634.html#a1b26d102252bf7e0fd480076820d343f", null ],
-    [ "Validate", "dd/d7a/a17634.html#a211d52aa385a874730abc43b083f2d22", null ]
+    [ "AbominationDespawner", "dd/d7a/a17634.html#a3bbf8c5d4e42569ffe993a3c3b8ff95e", null ],
+    [ "operator()", "dd/d7a/a17634.html#a58b8faac1cdffa7230783a1d6439fcfb", null ],
+    [ "_owner", "dd/d7a/a17634.html#af9089e566905b885887a5714ad5b0741", null ]
 ];

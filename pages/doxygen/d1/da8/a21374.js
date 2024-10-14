@@ -1,6 +1,9 @@
 var a21374 =
 [
-    [ "npc_azure_binderAI", "d2/d3b/a21378.html", "d2/d3b/a21378" ],
-    [ "npc_azure_binder", "d1/da8/a21374.html#a25b8b19b6ccdae92418c47fe68537c42", null ],
-    [ "GetAI", "d1/da8/a21374.html#aad091206a8bd06a1064b68b81510eb56", null ]
+    [ "npc_azure_sorcerorAI", "d1/da8/a21374.html#a474a7144908d4820341dc56f77436b90", null ],
+    [ "Reset", "d1/da8/a21374.html#a4c637288f79e1da4bdace6516cd887b1", null ],
+    [ "UpdateAI", "d1/da8/a21374.html#a928d789e2cbd35b228857a23c4204ea1", null ],
+    [ "uiArcaneStreamTimer", "d1/da8/a21374.html#ad238fe8fed4dcefd923d901e4f73ed05", null ],
+    [ "uiArcaneStreamTimerStartingValueHolder", "d1/da8/a21374.html#af044879e8e064e28a491c87d0c6cde74", null ],
+    [ "uiManaDetonationTimer", "d1/da8/a21374.html#a3ebe4eb452296f3c45db5c1b6cdaa243", null ]
 ];

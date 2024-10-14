@@ -1,5 +1,5 @@
 var a13770 =
 [
-    [ "go_gong_of_bethekk", "d6/d8f/a13770.html#ae261467be63f1a744eb20f81473c2239", null ],
-    [ "OnGossipHello", "d6/d8f/a13770.html#a82072ff8c030aec1a5ed447865680788", null ]
+    [ "at_zulgurub_edge_of_madness_speech", "d6/d8f/a13770.html#a7d4007716e3ed634ac7e3d3dba26e6f7", null ],
+    [ "_OnTrigger", "d6/d8f/a13770.html#a725de49be12116f2f7e77edd31a096ae", null ]
 ];

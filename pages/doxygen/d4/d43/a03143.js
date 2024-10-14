@@ -1,7 +1,7 @@
 var a03143 =
 [
-    [ "gobject_commandscript", "d5/d8e/a11330.html", "d5/d8e/a11330" ],
-    [ "GameObjectEntry", "d4/d43/a03143.html#af6e4fdc2f36213d5f2a9fa6f335517b8", null ],
-    [ "GameObjectSpawnId", "d4/d43/a03143.html#ad5bd2a208bd6c6213df595ee7369126f", null ],
-    [ "AddSC_gobject_commandscript", "d4/d43/a03143.html#a0cc4be9c12b1a892f031cb1ff47e23d9", null ]
+    [ "Acore::WorldWorldTextBuilder", "d8/df3/a11246.html", "d8/df3/a11246" ],
+    [ "getWorldInstance", "db/d7c/a04669.html#ga6bf640d0ef6703c32d9fa1618826319b", null ],
+    [ "playersSaveScheduler", "d4/d43/a03143.html#a77424e6a2dc4291e8f21eaade812e141", null ],
+    [ "realm", "db/d7c/a04669.html#gab842e78f86995775c494437356620779", null ]
 ];

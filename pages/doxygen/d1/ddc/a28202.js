@@ -1,13 +1,10 @@
 var a28202 =
 [
-    [ "AcquireMethod", "d1/ddc/a28202.html#a31a8f5d642b2826b58bc7dfaf5f26719", null ],
-    [ "ClassMask", "d1/ddc/a28202.html#a868a7a346c1da7fa74ed36f0bfb59e3e", null ],
-    [ "ID", "d1/ddc/a28202.html#a95cab9102e1dd6c4f449aba2ecf14372", null ],
-    [ "MinSkillLineRank", "d1/ddc/a28202.html#a2a6c4b50a288ea023099fb49aaca37e4", null ],
-    [ "RaceMask", "d1/ddc/a28202.html#acfd38780584b90ca40a1e1cd59605832", null ],
-    [ "SkillLine", "d1/ddc/a28202.html#a0050dcf5c82f785dfc93079debe54a13", null ],
-    [ "Spell", "d1/ddc/a28202.html#a19e1a55dadce68e6e9c1bd7bb2ca51dd", null ],
-    [ "SupercededBySpell", "d1/ddc/a28202.html#a0eabe8b18fa4bf67eaaaa56f2264ad5d", null ],
-    [ "TrivialSkillLineRankHigh", "d1/ddc/a28202.html#aa8f0c15da1d4d14853bd42e7e20bc963", null ],
-    [ "TrivialSkillLineRankLow", "d1/ddc/a28202.html#aca5e15003099e1fdbd2eaa701b96f162", null ]
+    [ "attackSpeed", "d1/ddc/a28202.html#ab5242f7367e8799a556176178c72fc88", null ],
+    [ "creatureType", "d1/ddc/a28202.html#a3dff9074b85261932ed8a8a550c5395b", null ],
+    [ "flags1", "d1/ddc/a28202.html#a026745f2ce754d754858d69ee219b518", null ],
+    [ "ID", "d1/ddc/a28202.html#a72853ed36016e05e4cd14a9d89e9d6a8", null ],
+    [ "modelID_A", "d1/ddc/a28202.html#a86dfa61342583d920b7d8496bce4b49d", null ],
+    [ "modelID_H", "d1/ddc/a28202.html#a1ee597d6fd02507b682874929645e01d", null ],
+    [ "stanceSpell", "d1/ddc/a28202.html#a08f54b905e905fb5a59e449f8c613c08", null ]
 ];

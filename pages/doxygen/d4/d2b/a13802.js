@@ -1,11 +1,10 @@
 var a13802 =
 [
-    [ "boss_hakkarAI", "d4/d2b/a13802.html#ae29c8c0816fc3efb83d7912c559747e4", null ],
-    [ "ApplyHakkarPowerStacks", "d4/d2b/a13802.html#aca5b7ee8d026ff7ee808e9ebd64c8dcf", null ],
-    [ "CheckInRoom", "d4/d2b/a13802.html#a8a70e82f6c72760143148d9c9f8095cc", null ],
-    [ "EnterEvadeMode", "d4/d2b/a13802.html#a6ca87d663714ddecfe562f0c705fa6f8", null ],
-    [ "JustDied", "d4/d2b/a13802.html#ae6b8c72ad3d36ee6eea624a7d79ca26b", null ],
-    [ "JustEngagedWith", "d4/d2b/a13802.html#ae023eb68fc066ba5713baaf3b0595f0c", null ],
-    [ "Reset", "d4/d2b/a13802.html#a52db5743c09088e2e9f1aff1513960f2", null ],
-    [ "UpdateAI", "d4/d2b/a13802.html#a1119212465bcf293991d7a520c6ffe42", null ]
+    [ "boss_jindo", "d4/d2b/a13802.html#a9aafe0282e0b5de90ce62b3f8b3cfb14", null ],
+    [ "CanAIAttack", "d4/d2b/a13802.html#a6e24b8e31cda0834563d126dc74d99de", null ],
+    [ "EnterEvadeMode", "d4/d2b/a13802.html#a8b80f12d0b9b8e9c7aa7ec46fbb71500", null ],
+    [ "JustEngagedWith", "d4/d2b/a13802.html#a7f612a1e5033c5097856222cee41f2af", null ],
+    [ "JustSummoned", "d4/d2b/a13802.html#ac7382289d174ec70703b76dc4e451d39", null ],
+    [ "UpdateAI", "d4/d2b/a13802.html#aad8885f79fc527954102fc1b78ca8ad7", null ],
+    [ "_scheduler", "d4/d2b/a13802.html#a7ddbdc4d85936fd54fced20ff31e91cd", null ]
 ];

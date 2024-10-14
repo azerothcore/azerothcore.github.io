@@ -1,5 +1,5 @@
 var a26918 =
 [
-    [ "achievement_save_the_day", "dd/d2f/a26918.html#a193e4060b6634a87b499b7c8a5e287a1", null ],
-    [ "OnCheck", "dd/d2f/a26918.html#a95cfea6cd9ff955ba6800ebdf3a30eb7", null ]
+    [ "achievement_not_even_a_scratch", "dd/d2f/a26918.html#a0d025c09d35c3640016ab42e11dd96eb", null ],
+    [ "OnCheck", "dd/d2f/a26918.html#a81f6c9bd36e5a3eea3fe0af24c9f1649", null ]
 ];

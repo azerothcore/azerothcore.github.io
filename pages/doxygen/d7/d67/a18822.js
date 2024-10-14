@@ -1,18 +1,12 @@
 var a18822 =
 [
-    [ "boss_anubrekhanAI", "d7/d67/a18822.html#a6ff658a5aab3b13c4594f5bc44a62818", null ],
-    [ "JustDied", "d7/d67/a18822.html#a8a32a256b39558e802d45ae5f4038b79", null ],
-    [ "JustEngagedWith", "d7/d67/a18822.html#a0cd5bd7a04b52abcc23a2131d5cbfd2e", null ],
-    [ "JustSummoned", "d7/d67/a18822.html#a9fa11bc9192f0b75220383b3ef876219", null ],
-    [ "KilledUnit", "d7/d67/a18822.html#a9070ebcd6ca976fc89af88b3de177bcc", null ],
-    [ "MoveInLineOfSight", "d7/d67/a18822.html#a75dd903dd059a0fe20e291713e880bc3", null ],
-    [ "Reset", "d7/d67/a18822.html#acd6ae267a6848e146128d56196d1af79", null ],
-    [ "SummonCryptGuards", "d7/d67/a18822.html#a1dbf747694350bdc835f19ed0b22741c", null ],
-    [ "SummonedCreatureDespawn", "d7/d67/a18822.html#aed898275510001cf963cf3456cbbfb25", null ],
-    [ "SummonedCreatureDies", "d7/d67/a18822.html#a4889de03a80cc4c3bc0fd41042d1d905", null ],
-    [ "UpdateAI", "d7/d67/a18822.html#acc6a5828a634f89d20984e5acfde566c", null ],
-    [ "events", "d7/d67/a18822.html#a87aec60fd4f7ffc6f93a46b6ff970bac", null ],
-    [ "pInstance", "d7/d67/a18822.html#a7a0add9c387d09b391e32e6523f35beb", null ],
-    [ "sayGreet", "d7/d67/a18822.html#ab2210c62a9a21f426f0ef0b1b1d27162", null ],
-    [ "summons", "d7/d67/a18822.html#adb999cdeb1d510798f02541184ce1637", null ]
+    [ "npc_boss_gothik_minionAI", "d7/d67/a18822.html#aa719d87c65294fc483b424b125619a10", null ],
+    [ "IsOnSameSide", "d7/d67/a18822.html#a7d305be5e3d66c1317fa91e588223da0", null ],
+    [ "JustDied", "d7/d67/a18822.html#a752b6eab9cf1b016962c6f535586b59d", null ],
+    [ "JustEngagedWith", "d7/d67/a18822.html#ad86778d5a0e883a839b4a43425a57d7f", null ],
+    [ "KilledUnit", "d7/d67/a18822.html#a6a09440d623dcee51b7e0d4ed77d624e", null ],
+    [ "Reset", "d7/d67/a18822.html#a309401236c254cd850759a0cbb4004e0", null ],
+    [ "UpdateAI", "d7/d67/a18822.html#a43744e96be00d8bc0afc34a570e79947", null ],
+    [ "events", "d7/d67/a18822.html#ae2dde7b4fc655b1ae27410d299776c49", null ],
+    [ "livingSide", "d7/d67/a18822.html#a2545d00e04bae9ee0a1bf9f9d6162c74", null ]
 ];

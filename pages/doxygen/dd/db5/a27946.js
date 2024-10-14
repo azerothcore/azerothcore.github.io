@@ -1,13 +1,8 @@
 var a27946 =
 [
-    [ "HasFlag", "dd/db5/a27946.html#a5d13e1af17cddf3acdbfc5387869e43f", null ],
-    [ "CinematicSequence", "dd/db5/a27946.html#a33a01b1c26b21706d9898af246f2a0df", null ],
-    [ "expansion", "dd/db5/a27946.html#ab6547f8b08d4d1bf57a37f9574b71e43", null ],
-    [ "FactionID", "dd/db5/a27946.html#a5c66801f2f89aeb847699a2dd87486c7", null ],
-    [ "Flags", "dd/db5/a27946.html#a8c2d30fb87284806a93d4c1da4a6edb0", null ],
-    [ "model_f", "dd/db5/a27946.html#a4807227fd863e247b18d29db0ea8236a", null ],
-    [ "model_m", "dd/db5/a27946.html#a50b5409352d7fe3e6f5919d83c9a0eae", null ],
-    [ "name", "dd/db5/a27946.html#a4970323e45feb3f74b47420648371ab6", null ],
-    [ "RaceID", "dd/db5/a27946.html#a853f3262af3408cf2791e7cd08ec8d32", null ],
-    [ "TeamID", "dd/db5/a27946.html#addd21f5fbf6868e7cf2cd3c54c7172a1", null ]
+    [ "difficulty", "dd/db5/a27946.html#a2a04df701c13dc49053b09a9587a72a8", null ],
+    [ "encounterIndex", "dd/db5/a27946.html#a3d35560824a3aaeecb8db4bf8628ebfd", null ],
+    [ "encounterName", "dd/db5/a27946.html#af4f26f56526b945e392ddaf6b2d43fa1", null ],
+    [ "id", "dd/db5/a27946.html#aa9828ccc644a11f9cb35fbcc7d31a827", null ],
+    [ "mapId", "dd/db5/a27946.html#a61c1ac724c8eb96907d2ea9402a8f9ce", null ]
 ];

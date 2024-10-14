@@ -1,6 +1,7 @@
 var a17498 =
 [
-    [ "PrepareSpellScript", "d9/d30/a17498.html#a47df21229183b628c1d82bf34cbbe396", null ],
-    [ "Register", "d9/d30/a17498.html#a3cc4a1180f66cd9fe19020c1e5f2fccb", null ],
-    [ "RelocateTransportOffset", "d9/d30/a17498.html#acab29d77b4806f5d59ddc5dc3493c8ae", null ]
+    [ "FilterTargets", "d9/d30/a17498.html#a77afd0b56c9bddd74999d5df30457b7f", null ],
+    [ "HandleDummy", "d9/d30/a17498.html#a04166e4e5a4ba082755433555855cb30", null ],
+    [ "PrepareSpellScript", "d9/d30/a17498.html#aaefa58014db12fb76e3416ae807c69e8", null ],
+    [ "Register", "d9/d30/a17498.html#a497ee30669d45341023abe549c91ddaf", null ]
 ];

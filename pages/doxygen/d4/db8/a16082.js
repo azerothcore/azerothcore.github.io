@@ -1,7 +1,6 @@
 var a16082 =
 [
-    [ "HandleAfterEffectAbsorb", "d4/db8/a16082.html#ab3d9f3679931b4b3b29713602d08701d", null ],
-    [ "PrepareAuraScript", "d4/db8/a16082.html#a10ee3cda9edfec8140b94e13b88266bd", null ],
-    [ "Register", "d4/db8/a16082.html#ab68a5ccfb0d96390bb83c329eb849cdd", null ],
-    [ "Validate", "d4/db8/a16082.html#a87750183d2b2d6adb67bba4a1f767029", null ]
+    [ "instance_trial_of_the_champion_InstanceMapScript", "de/db7/a16086.html", "de/db7/a16086" ],
+    [ "instance_trial_of_the_champion", "d4/db8/a16082.html#a7b97e3da119a7ad33a87c74647407bd8", null ],
+    [ "GetInstanceScript", "d4/db8/a16082.html#a9227119fc47f38cd82a1fc07c04b0c86", null ]
 ];

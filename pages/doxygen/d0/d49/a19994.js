@@ -1,6 +1,7 @@
 var a19994 =
 [
-    [ "boss_freya_nature_bombAI", "dd/d2b/a19998.html", "dd/d2b/a19998" ],
-    [ "boss_freya_nature_bomb", "d0/d49/a19994.html#a18fa6ff862a1b367ac23eb1b7bda0ed4", null ],
-    [ "GetAI", "d0/d49/a19994.html#a73e24282c6bb29cf3f6a7da14a4de582", null ]
+    [ "HandleAfterEffectApply", "d0/d49/a19994.html#a672526de2c71dcae79bacef88f34dc26", null ],
+    [ "PrepareAuraScript", "d0/d49/a19994.html#a1da221b63cb7fcd0dbb580e8cf0003ce", null ],
+    [ "Register", "d0/d49/a19994.html#a9ba7c109fe96881dd47ba47366890e2b", null ],
+    [ "Validate", "d0/d49/a19994.html#ab5833f6218760a7d9829b5d453436302", null ]
 ];

@@ -1,7 +1,6 @@
 var a15202 =
 [
-    [ "npc_kerlonianAI", "d0/d53/a15206.html", "d0/d53/a15206" ],
-    [ "npc_kerlonian", "d6/d55/a15202.html#a8a5ab1fde9f21ac256d5168ef3f17f87", null ],
-    [ "GetAI", "d6/d55/a15202.html#a93d93ba13d8521fee39801473b7c4b6a", null ],
-    [ "OnQuestAccept", "d6/d55/a15202.html#a257d24295318605ac2fd5554315dfd63", null ]
+    [ "npc_tiger_matriarch_creditAI", "d6/d55/a15202.html#a628772971a9c2a190ffe2fae6b0b6865", null ],
+    [ "UpdateAI", "d6/d55/a15202.html#a0fc7ca1313a21c5f74539ce2dbd7465d", null ],
+    [ "events", "d6/d55/a15202.html#ae96e0de4a36dde3237520e8a0ddd9f5f", null ]
 ];

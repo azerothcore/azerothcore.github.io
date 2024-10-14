@@ -1,6 +1,7 @@
 var a24590 =
 [
-    [ "RaiseDeadCheck", "da/d59/a24590.html#abc6439e5b457f2f6e832f504167a392d", null ],
-    [ "operator()", "da/d59/a24590.html#a9647e6afd21e7397f05349e66bea4326", null ],
-    [ "_caster", "da/d59/a24590.html#a7b1647934c5e64de65d38b9fba2d343a", null ]
+    [ "AfterApply", "da/d59/a24590.html#adae232af9445638b3d54e81d414483b7", null ],
+    [ "AfterRemove", "da/d59/a24590.html#abf458f1f1dd5abfbba88325cad044ab1", null ],
+    [ "PrepareAuraScript", "da/d59/a24590.html#a305c532aa0e8740e8c8a87a6ba0abcff", null ],
+    [ "Register", "da/d59/a24590.html#abff75ea597dcc017a359a5ef3ada4314", null ]
 ];

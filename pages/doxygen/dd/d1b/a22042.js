@@ -1,7 +1,9 @@
 var a22042 =
 [
-    [ "HandleDummy", "dd/d1b/a22042.html#a85874062bceced2694fff725649df892", null ],
-    [ "PrepareSpellScript", "dd/d1b/a22042.html#a47bae4bdc488480f91517465d8e1b784", null ],
-    [ "Register", "dd/d1b/a22042.html#a7131340678ca685db98e2087661321a9", null ],
-    [ "Validate", "dd/d1b/a22042.html#af1b74ceee10fc48a0b85d4a284103950", null ]
+    [ "npc_frostbrood_skytalonAI", "dd/d1b/a22042.html#afc14c60466f9f0f1b20062758f18c00d", null ],
+    [ "IsSummonedBy", "dd/d1b/a22042.html#a2c5729ee3371e562869878ff3a7b84bd", null ],
+    [ "MovementInform", "dd/d1b/a22042.html#ae763333503176eb7e8ce407868243958", null ],
+    [ "SpellHit", "dd/d1b/a22042.html#a24bb49f47dcf85c95039d0495a89e126", null ],
+    [ "UpdateAI", "dd/d1b/a22042.html#a0ffc4cd2e9b61ad17c516f062d161feb", null ],
+    [ "events", "dd/d1b/a22042.html#a8575d258d63e28626cffd7fc2160bee6", null ]
 ];

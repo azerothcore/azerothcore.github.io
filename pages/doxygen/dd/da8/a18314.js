@@ -1,6 +1,7 @@
 var a18314 =
 [
-    [ "boss_valithria_dreamwalkerAI", "d3/d82/a18318.html", "d3/d82/a18318" ],
-    [ "boss_valithria_dreamwalker", "dd/da8/a18314.html#afcc6dc92d94330d3aed67f71452f9cd2", null ],
-    [ "GetAI", "dd/da8/a18314.html#a0f0bacefa7e3d682a5db81a14f2ff947", null ]
+    [ "npc_blazing_skeletonAI", "dd/da8/a18314.html#ad4f997a7a4cc0fa96594da35434fd921", null ],
+    [ "Reset", "dd/da8/a18314.html#a3bbc4cf7b6dbe11d6768a0fb0626e84a", null ],
+    [ "UpdateAI", "dd/da8/a18314.html#a0010c4befd13ec6beada0de1607f3f7a", null ],
+    [ "_events", "dd/da8/a18314.html#aab1b04989d5e3fc289f00bc121df193d", null ]
 ];

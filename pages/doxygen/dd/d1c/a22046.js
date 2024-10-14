@@ -1,6 +1,6 @@
 var a22046 =
 [
-    [ "HandleDummy", "dd/d1c/a22046.html#a05a38c1b8e3b674f3c6e79c59c7caddd", null ],
-    [ "PrepareSpellScript", "dd/d1c/a22046.html#a0bfebaf099ef573b51bec0a511ceeb39", null ],
-    [ "Register", "dd/d1c/a22046.html#a9c71b084ce6b86ccaeb9a94d1f8de2b1", null ]
+    [ "HandleHealPct", "dd/d1c/a22046.html#aa297ef88b58849610b1b3bfdb0142eab", null ],
+    [ "PrepareSpellScript", "dd/d1c/a22046.html#a902b733a4b106439c49f8c80de8e9bf3", null ],
+    [ "Register", "dd/d1c/a22046.html#a52f253d2a3b9b3890020107b7722ad96", null ]
 ];

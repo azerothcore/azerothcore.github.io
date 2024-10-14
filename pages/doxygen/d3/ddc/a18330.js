@@ -1,6 +1,8 @@
 var a18330 =
 [
-    [ "npc_the_lich_king_controllerAI", "d6/d73/a18334.html", "d6/d73/a18334" ],
-    [ "npc_the_lich_king_controller", "d3/ddc/a18330.html#a32b14d699737497ba7c90d8ef17557d7", null ],
-    [ "GetAI", "d3/ddc/a18330.html#ae9b6dacb0f4e8e6f12f187ab0dfd2165", null ]
+    [ "npc_blistering_zombieAI", "d3/ddc/a18330.html#acf278cd2249ac45a4b043427ba36b3ce", null ],
+    [ "DamageTaken", "d3/ddc/a18330.html#adf031992078214f90d859df2b54aac91", null ],
+    [ "UpdateAI", "d3/ddc/a18330.html#ae081898b8dcaf45cd3069e79021de452", null ],
+    [ "casted", "d3/ddc/a18330.html#a0f70f5d58ef0bb20f64b0aec4df04905", null ],
+    [ "timer", "d3/ddc/a18330.html#a8b865c2a87b1fc020d8250767febab0a", null ]
 ];

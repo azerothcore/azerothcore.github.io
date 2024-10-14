@@ -1,10 +1,9 @@
 var a01655 =
 [
-    [ "MovementGenerator", "d6/d5d/a09636.html", "d6/d5d/a09636" ],
-    [ "MovementGeneratorMedium< T, D >", "df/df9/a09640.html", "df/df9/a09640" ],
-    [ "MovementGeneratorFactory< Movement >", "d2/d1c/a09644.html", "d2/d1c/a09644" ],
-    [ "IdleMovementFactory", "d2/d7b/a09648.html", "d2/d7b/a09648" ],
-    [ "sMovementGeneratorRegistry", "df/ddd/a01655.html#aa270c1b96e4671274975a07340ba687a", null ],
-    [ "MovementGeneratorCreator", "df/ddd/a01655.html#ae7a6c44762ef974149bfb8d00247a013", null ],
-    [ "MovementGeneratorRegistry", "df/ddd/a01655.html#ae78e82cd7b1aea7744a0dbb2e65f8e79", null ]
+    [ "instance_ruby_sanctum", "d4/d35/a15978.html", "d4/d35/a15978" ],
+    [ "instance_ruby_sanctum::instance_ruby_sanctum_InstanceMapScript", "d9/d96/a15982.html", "d9/d96/a15982" ],
+    [ "spell_ruby_sanctum_rallying_shout", "dd/dc8/a15986.html", "dd/dc8/a15986" ],
+    [ "AddSC_instance_ruby_sanctum", "df/ddd/a01655.html#a93f8126d2e36ad7caab980f1c3f83a14", null ],
+    [ "boundaries", "df/ddd/a01655.html#aa75d7d0ffe0cef214f982966c33db1c1", null ],
+    [ "doorData", "df/ddd/a01655.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
 ];

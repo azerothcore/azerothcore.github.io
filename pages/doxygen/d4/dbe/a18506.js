@@ -1,6 +1,6 @@
 var a18506 =
 [
-    [ "npc_captain_grondelAI", "d9/d9f/a18510.html", "d9/d9f/a18510" ],
-    [ "npc_captain_grondel", "d4/dbe/a18506.html#a54a53f8e3cde87405219c815a56d523c", null ],
-    [ "GetAI", "d4/dbe/a18506.html#a2a7725e81294e80701b7742d2605ec00", null ]
+    [ "HandleEvent", "d4/dbe/a18506.html#a7936a64a1142a47b2addfd746dccfcef", null ],
+    [ "PrepareSpellScript", "d4/dbe/a18506.html#a00e2be07131c674558d0364df98849ab", null ],
+    [ "Register", "d4/dbe/a18506.html#a89364583504d2eaa75473586850bc3d5", null ]
 ];

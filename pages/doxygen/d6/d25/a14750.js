@@ -1,16 +1,14 @@
 var a14750 =
 [
-    [ "npc_belnistraszAI", "d6/d25/a14750.html#ac57c5de9140d8d37b15b4a30f4ffc0a1", null ],
-    [ "JustDied", "d6/d25/a14750.html#aece63cabcfb2bcf54992dc2b4832ca92", null ],
-    [ "JustEngagedWith", "d6/d25/a14750.html#ab03f29b1f76b7d67e7d7bb3407e2cd41", null ],
-    [ "MovementInform", "d6/d25/a14750.html#ae64e10d0cc860bf033b76538455b9f8e", null ],
-    [ "Reset", "d6/d25/a14750.html#aecf1ef9b7f6eecec9489d27ce41deea2", null ],
-    [ "sQuestAccept", "d6/d25/a14750.html#aa18258b7f80c040d6a5fb9fbbb321efe", null ],
-    [ "UpdateAI", "d6/d25/a14750.html#a45481c2ef18ab3fec727813de96eb1b6", null ],
-    [ "channeling", "d6/d25/a14750.html#a88ff13ec705d11475de5a2080998c905", null ],
-    [ "eventInProgress", "d6/d25/a14750.html#ae9ce796b17c7791d83e949fa406a2b80", null ],
-    [ "eventProgress", "d6/d25/a14750.html#ad32a0387dbf95b6aa40b3311d6ba8348", null ],
-    [ "events", "d6/d25/a14750.html#af9c1f14a7a7b7380e9fb99ecdaf80126", null ],
-    [ "instance", "d6/d25/a14750.html#a61f3bcbf36e630bbb455405eb89ccf00", null ],
-    [ "spawnerCount", "d6/d25/a14750.html#aa5124160ecba044a3752f68945068776", null ]
+    [ "boss_buru", "d6/d25/a14750.html#a586dfec9d3b0cb9497e616afb1c0b86d", null ],
+    [ "ChaseNewVictim", "d6/d25/a14750.html#a177ec0ac9dcfbd9de51088bf50c5785c", null ],
+    [ "DamageTaken", "d6/d25/a14750.html#a5ec0141994aac2b8e1fdce12b30c13b0", null ],
+    [ "EnterEvadeMode", "d6/d25/a14750.html#aa534cca1e46299e8db917cc8aa5d5b51", null ],
+    [ "JustDied", "d6/d25/a14750.html#a6d8f3265dca889bc49e747471da8597f", null ],
+    [ "JustEngagedWith", "d6/d25/a14750.html#a61eeeb3eb1684943e94367a9318b3035", null ],
+    [ "KilledUnit", "d6/d25/a14750.html#a7c780a29ea9f7b3d2f72eaa11bf7e19c", null ],
+    [ "ManipulateEggs", "d6/d25/a14750.html#a4f8a92eab729c975443579560edb03a3", null ],
+    [ "SpellHit", "d6/d25/a14750.html#ac3bc641c6bb67e585541c4e5d93dd7fa", null ],
+    [ "UpdateAI", "d6/d25/a14750.html#af65d0026b2ea78edb6d48e3c48b6b37b", null ],
+    [ "_phase", "d6/d25/a14750.html#aa395967af50f2a422bf1e81a087efc43", null ]
 ];

@@ -1,6 +1,6 @@
 var a17166 =
 [
-    [ "npc_ball_of_flameAI", "df/da2/a17170.html", "df/da2/a17170" ],
-    [ "npc_ball_of_flame", "da/d20/a17166.html#a353bf8385dea6c2e4a489bd14c87e0fe", null ],
-    [ "GetAI", "da/d20/a17166.html#ac0309668f9f0ca85a644d4928966e577", null ]
+    [ "PrepareSpellScript", "da/d20/a17166.html#a37899f12707930d038de38bae92c9aff", null ],
+    [ "Register", "da/d20/a17166.html#a3677d2e7db842f899e6e2d2c8c9a3d42", null ],
+    [ "SelectDest", "da/d20/a17166.html#a4caabf8afac621ef70bbbac1a2b5177e", null ]
 ];

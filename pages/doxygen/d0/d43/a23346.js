@@ -1,5 +1,6 @@
 var a23346 =
 [
-    [ "at_underbog_ghazan", "d0/d43/a23346.html#aa6c74496bb30bf04e66ac3cd06110811", null ],
-    [ "_OnTrigger", "d0/d43/a23346.html#aff03fc0bbded7bf7fa68d0c736bfaff2", null ]
+    [ "instance_the_underbog_InstanceMapScript", "d5/dd0/a23350.html", "d5/dd0/a23350" ],
+    [ "instance_the_underbog", "d0/d43/a23346.html#afaf8740a3e367a1a54eaa3e76ffa483e", null ],
+    [ "GetInstanceScript", "d0/d43/a23346.html#ace939fb7fd89e7c9c84c17d3ca31208b", null ]
 ];

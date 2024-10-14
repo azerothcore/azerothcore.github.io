@@ -1,7 +1,6 @@
 var a26414 =
 [
-    [ "HandleDummy", "d2/d6f/a26414.html#a2ea424e6c740305340001b1c09bfec91", null ],
-    [ "PrepareSpellScript", "d2/d6f/a26414.html#afe722c970155b47eac94bb9861a4eb46", null ],
-    [ "Register", "d2/d6f/a26414.html#a2c2b96f1c00da9884ec9d01fe897c8c1", null ],
-    [ "Validate", "d2/d6f/a26414.html#ac5f782da8b5e387c31e048759baf3e16", null ]
+    [ "PrepareAuraScript", "d2/d6f/a26414.html#a059fe9aa1ea5ea4d0fa797e70a146fc5", null ],
+    [ "Register", "d2/d6f/a26414.html#a91f4b2b8796c7efab2f622893a393619", null ],
+    [ "AuraEffectHandleModes", "d2/d6f/a26414.html#ab93d08a85de86b0efdec59006ebbdf97", null ]
 ];

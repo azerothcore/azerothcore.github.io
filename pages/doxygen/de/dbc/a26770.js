@@ -1,7 +1,6 @@
 var a26770 =
 [
-    [ "HandleDispel", "de/dbc/a26770.html#aaf6920cb0fec741f3cff1d3f6e6d2c0f", null ],
-    [ "PrepareAuraScript", "de/dbc/a26770.html#ace0ce4b85311893e1e6df403a6387cd9", null ],
-    [ "Register", "de/dbc/a26770.html#a2c67e4327fdd034978d4822311632980", null ],
-    [ "Validate", "de/dbc/a26770.html#ad8b5c381904c359ed608c808d5bbd9bd", null ]
+    [ "PrepareSpellScript", "de/dbc/a26770.html#aa784c7af6fe38069fca4dcff9a09a22b", null ],
+    [ "Register", "de/dbc/a26770.html#a81bc86c83ffc70602410912870e61700", null ],
+    [ "VictoryRushHit", "de/dbc/a26770.html#a89387a25e67af1d47ef7f5b95344ccb0", null ]
 ];

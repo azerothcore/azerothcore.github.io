@@ -1,9 +1,7 @@
 var a22262 =
 [
-    [ "npc_hyldsmeet_protodrakeAI", "dc/db6/a22266.html", "dc/db6/a22266" ],
-    [ "NPCs", "df/d55/a22262.html#a8f2ea95c836ba6bab370301fbf3e6822", [
-      [ "NPC_HYLDSMEET_DRAKERIDER", "df/d55/a22262.html#a8f2ea95c836ba6bab370301fbf3e6822a1b77c38a75142cff5392a89db3e765df", null ]
-    ] ],
-    [ "npc_hyldsmeet_protodrake", "df/d55/a22262.html#a2471f1d858d7ae8f801208e35860a95e", null ],
-    [ "GetAI", "df/d55/a22262.html#a791e5cff3901f9a3ec365d4049b82d25", null ]
+    [ "npc_wg_siege_machineAI", "df/d55/a22262.html#aaeca9e73520701ce28f2cc9d1483cc6b", null ],
+    [ "CanControlVehicle", "df/d55/a22262.html#a7ce79406da48e245a0baa2fdd23622b9", null ],
+    [ "UpdateAI", "df/d55/a22262.html#a8ddd21047a857facc767a9edc0ec5408", null ],
+    [ "checkTimer", "df/d55/a22262.html#abf4b06eae50adeefedba02e2186ea48a", null ]
 ];

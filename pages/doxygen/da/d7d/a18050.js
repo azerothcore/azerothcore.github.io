@@ -1,6 +1,10 @@
 var a18050 =
 [
-    [ "LichKingDeathEvent", "da/d7d/a18050.html#a9aa328b60358034355b1eed5caacb9f8", null ],
-    [ "Execute", "da/d7d/a18050.html#a06b9a77d3c5efb228368a1e423a620ae", null ],
-    [ "_owner", "da/d7d/a18050.html#a75ccb1b2bd5a8149aff85404b5e0ce21", null ]
+    [ "npc_shambling_horror_iccAI", "da/d7d/a18050.html#a0d15c62bead7a4da3c8a8abd0b2ee612", null ],
+    [ "CanAIAttack", "da/d7d/a18050.html#a6d77fdd16c4b089049ade7f7b081b4e9", null ],
+    [ "DamageTaken", "da/d7d/a18050.html#aed90f2c487c28190c7af630f4ea2fa13", null ],
+    [ "Reset", "da/d7d/a18050.html#ac5bab3d9f360e4e00dcab9abc3799865", null ],
+    [ "UpdateAI", "da/d7d/a18050.html#abae6058591022057e93d48da3db1b8bc", null ],
+    [ "_events", "da/d7d/a18050.html#af12b65fe4f77e8b2d3f5c87379dd69d2", null ],
+    [ "_frenzied", "da/d7d/a18050.html#a34347cbecea4c6f538345b7285e8f1c0", null ]
 ];

@@ -1,7 +1,6 @@
 var a23602 =
 [
-    [ "FilterTargets", "d6/d86/a23602.html#a834163302ff10875227806d7d4945988", null ],
-    [ "HandleScriptEffect", "d6/d86/a23602.html#a5dd125da7dd46e2d81ab5e0f10bc00c3", null ],
-    [ "PrepareSpellScript", "d6/d86/a23602.html#a079e72d57550e03956088b4be1d11422", null ],
-    [ "Register", "d6/d86/a23602.html#abd4e0f268652652d3828ba8d350de849", null ]
+    [ "npc_warden_mellicharAI", "d9/ddd/a23606.html", "d9/ddd/a23606" ],
+    [ "npc_warden_mellichar", "d6/d86/a23602.html#aba5c3d005097430941bd40bbbb0d3562", null ],
+    [ "GetAI", "d6/d86/a23602.html#a7cb7437a61b49d8110c3b7fee43e495b", null ]
 ];

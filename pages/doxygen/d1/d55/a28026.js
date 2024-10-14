@@ -1,6 +1,4 @@
 var a28026 =
 [
-    [ "color", "d1/d55/a28026.html#a2e4ee1d687af07445684907d1bcec4f4", null ],
-    [ "ID", "d1/d55/a28026.html#ac125147c2dc5546a0116f48e08f36e59", null ],
-    [ "spellitemenchantement", "d1/d55/a28026.html#a3a6329c8f5caa3cd6e61138339f37f4d", null ]
+    [ "ratio", "d1/d55/a28026.html#ac22c096d41c6fb7ebdc824fc1ca8601b", null ]
 ];

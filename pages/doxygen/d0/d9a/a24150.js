@@ -1,7 +1,6 @@
 var a24150 =
 [
-    [ "o", "d0/d9a/a24150.html#a3785e9b55ea3a7140086ce1f86232109", null ],
-    [ "x", "d0/d9a/a24150.html#ac81cc1119b7ac8ac70ee635f2e3d4bb7", null ],
-    [ "y", "d0/d9a/a24150.html#a10fbad67977d8dd3911eb629c1797684", null ],
-    [ "z", "d0/d9a/a24150.html#a69fc2438e52f6c0de3af13900ff38166", null ]
+    [ "npc_shadowmoon_tuber_nodeAI", "d4/d99/a24154.html", "d4/d99/a24154" ],
+    [ "npc_shadowmoon_tuber_node", "d0/d9a/a24150.html#a98e8c7a84789457900fa342cca209d41", null ],
+    [ "GetAI", "d0/d9a/a24150.html#a5f641af77e2fd78fe67b34fa18bf6b73", null ]
 ];

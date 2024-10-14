@@ -1,7 +1,8 @@
 var a21882 =
 [
-    [ "npc_amberpine_woodsmanAI", "d4/d55/a21882.html#aa0f37b54c5bfc2f923d09437b8b30424", null ],
-    [ "Reset", "d4/d55/a21882.html#a8da613c7bbaadf331c95667e7a361702", null ],
-    [ "UpdateAI", "d4/d55/a21882.html#a64dbf41424a710c400d51507f6457b41", null ],
-    [ "_events", "d4/d55/a21882.html#aac8cd045a5518e3eaa9c24e0fb83ddaa", null ]
+    [ "HandleEffectApply", "d4/d55/a21882.html#a8ebf9488a7eed99c3651424754cc95c5", null ],
+    [ "HandleEffectPeriodic", "d4/d55/a21882.html#a183976530ebf604656db12e41449427e", null ],
+    [ "PrepareAuraScript", "d4/d55/a21882.html#a03faa2eda84ac74dcff9a7a6a4e57440", null ],
+    [ "Register", "d4/d55/a21882.html#a76be53d506933d4b3c758578b7c33d5f", null ],
+    [ "_posZ", "d4/d55/a21882.html#a488ded8ff40240fe8fbef1567eb091b9", null ]
 ];

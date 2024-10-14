@@ -1,6 +1,6 @@
 var a23894 =
 [
-    [ "instance_mechanar_InstanceMapScript", "d2/db5/a23898.html", "d2/db5/a23898" ],
-    [ "instance_mechanar", "d9/dd6/a23894.html#ab31a66a0eb8b9ac6f79af479528ff4fd", null ],
-    [ "GetInstanceScript", "d9/dd6/a23894.html#ae8e9810a9bfd6b0ec256dd6a288392ed", null ]
+    [ "npc_simon_bunnyAI", "d2/db5/a23898.html", "d2/db5/a23898" ],
+    [ "npc_simon_bunny", "d9/dd6/a23894.html#afd3f3a24450bc8b748c0ff5b05b10da1", null ],
+    [ "GetAI", "d9/dd6/a23894.html#ac0c97609916321a1599c0722803a050f", null ]
 ];

@@ -1,6 +1,6 @@
 var a24082 =
 [
-    [ "HandleEffectRemove", "d9/d49/a24082.html#a2e73fd55dd7e6e658bc6c6623b650732", null ],
-    [ "PrepareAuraScript", "d9/d49/a24082.html#a9aabae3a6c57be9b17394d4a39fe24ec", null ],
-    [ "Register", "d9/d49/a24082.html#ac02217c103db141d75377e233e1e4242", null ]
+    [ "npc_dragonmaw_peonAI", "db/d2e/a24086.html", "db/d2e/a24086" ],
+    [ "npc_dragonmaw_peon", "d9/d49/a24082.html#a356f8f1181d62dd5a4bc41c98ab21720", null ],
+    [ "GetAI", "d9/d49/a24082.html#aab1e4aee65a5465bc545a9c067200d2a", null ]
 ];

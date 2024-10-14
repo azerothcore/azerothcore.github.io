@@ -1,13 +1,13 @@
 var a21074 =
 [
-    [ "npc_frenzied_worgenAI", "d5/d82/a21074.html#a3a87e1285fb40a4fe31e7e9c2916f2a8", null ],
-    [ "DoAction", "d5/d82/a21074.html#a7b7b34c2206cd1003c2abff3fb839c34", null ],
-    [ "JustDied", "d5/d82/a21074.html#a33b723baef468ef79e67aaadba1b2691", null ],
-    [ "JustEngagedWith", "d5/d82/a21074.html#a902bb6f89a2a210f2e0d18ebad7613f9", null ],
-    [ "JustReachedHome", "d5/d82/a21074.html#a9b50182cd407811d0f0aeeba378a37ee", null ],
-    [ "MoveInLineOfSight", "d5/d82/a21074.html#a3c2b76ccb6e00a24619f769f0d44ba2b", null ],
-    [ "Reset", "d5/d82/a21074.html#adccac21b6eff18db096eb79dab4a27a0", null ],
-    [ "UpdateAI", "d5/d82/a21074.html#ad83478b5946fd93e1b4fe7916342b1ee", null ],
-    [ "events", "d5/d82/a21074.html#a8619650ae4396aafbdc1533f8b174ab8", null ],
-    [ "m_pInstance", "d5/d82/a21074.html#a425720ce11714b145685f6d9c78a3dc1", null ]
+    [ "MoveX", "d5/d82/a21074.html#aaae6e8ea168850a934b887ec006d7d8b", null ],
+    [ "MoveY", "d5/d82/a21074.html#a62cd7f778cea049a1a6a4c34d21545a7", null ],
+    [ "MoveZ", "d5/d82/a21074.html#a80b842f55108fec58fe04cf02e8e0b35", null ],
+    [ "npc", "d5/d82/a21074.html#a4bdccc14156f7e5822c9a8eefc29adaa", null ],
+    [ "say", "d5/d82/a21074.html#adcd8647fc0ee9799e24173780209f2d9", null ],
+    [ "SpawnO", "d5/d82/a21074.html#a3b6b89143c8a875cda01b000cea6a7c7", null ],
+    [ "SpawnX", "d5/d82/a21074.html#af3ae27adaecafe9a09802bc202973d68", null ],
+    [ "SpawnY", "d5/d82/a21074.html#a749e9c6edcc87f258f250344d652145c", null ],
+    [ "SpawnZ", "d5/d82/a21074.html#a06a0f8e5a7d63204d57992dc9623f83b", null ],
+    [ "trigger", "d5/d82/a21074.html#ad2291d89a874c79859b3140754594ed7", null ]
 ];

@@ -1,9 +1,5 @@
 var a27562 =
 [
-    [ "npc_fireworkAI", "d9/d31/a27562.html#a8fad089d1edc09edbaf215f07722e9e6", null ],
-    [ "FindNearestLauncher", "d9/d31/a27562.html#a156e63c90f9b64cfd71c0262d28f1383", null ],
-    [ "GetFireworkGameObjectId", "d9/d31/a27562.html#ae17b4abbbb2088799cec188457677d44", null ],
-    [ "GetFireworkSpell", "d9/d31/a27562.html#a6270e753ab81062a7c39ca6c6b46c993", null ],
-    [ "isCluster", "d9/d31/a27562.html#a4b3cdedaa2a57d23bf9f509cabdaff0c", null ],
-    [ "Reset", "d9/d31/a27562.html#a3e2ce8787cd08b8bb900c009bd7e8af0", null ]
+    [ "ServerMailReward", "d9/d31/a27562.html#aba48b4c171e8e8a40fca2d3bed6b7f63", null ],
+    [ "OnLogin", "d9/d31/a27562.html#a8ab4fb6042c3f32ca327cf965330afd2", null ]
 ];

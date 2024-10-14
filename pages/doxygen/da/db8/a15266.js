@@ -1,6 +1,6 @@
 var a15266 =
 [
-    [ "npc_troll_volunteerAI", "d7/d36/a15270.html", "d7/d36/a15270" ],
-    [ "npc_troll_volunteer", "da/db8/a15266.html#a3c5eb7108dc0480e07b77eceb01cd18a", null ],
-    [ "GetAI", "da/db8/a15266.html#aba0208b0910ace75686941c462ecca56", null ]
+    [ "npc_silva_filnaveth", "da/db8/a15266.html#a5998381865214a7b3af7823bd2557cb0", null ],
+    [ "OnGossipHello", "da/db8/a15266.html#a32019c17271a3f504d86cd694262fd53", null ],
+    [ "OnGossipSelect", "da/db8/a15266.html#a10f81dce3dbc3ef0a84c8c33c2cb2e29", null ]
 ];

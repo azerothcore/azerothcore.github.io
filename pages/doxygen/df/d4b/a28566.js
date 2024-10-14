@@ -1,9 +1,12 @@
 var a28566 =
 [
-    [ "WDT_file", "df/d4b/a28566.html#afa32849d31abde3cb2c9f3b558816368", null ],
-    [ "~WDT_file", "df/d4b/a28566.html#a29bf710b8346204eb848017450afebe1", null ],
-    [ "free", "df/d4b/a28566.html#aee6c7e1e402cf986e754753c5e8aee72", null ],
-    [ "prepareLoadedData", "df/d4b/a28566.html#add675f96f010e67ca1df01b029c9ebfb", null ],
-    [ "main", "df/d4b/a28566.html#a89ddf5d1527ac16a5d05790769d266b3", null ],
-    [ "mphd", "df/d4b/a28566.html#a1d216a266e5e6390e9bd2e02c9d3c7f2", null ]
+    [ "Bounds", "df/d4b/a28566.html#a1e982b341ac3859fad38b2efc81ab8ea", null ],
+    [ "DoodadSet", "df/d4b/a28566.html#abbf6e50e76b120be17215cfcf227a524", null ],
+    [ "Flags", "df/d4b/a28566.html#a06f5e96119239356eea45b9acdadf6e1", null ],
+    [ "Id", "df/d4b/a28566.html#a952442c180e8d3710af31272b54eb6ec", null ],
+    [ "NameSet", "df/d4b/a28566.html#a55df9aed38d8cf1503b21f5fd9d5e5d0", null ],
+    [ "Position", "df/d4b/a28566.html#a7e6463db89eaf53bc20832afb1842a5b", null ],
+    [ "Rotation", "df/d4b/a28566.html#a2c04715e800b9f375c287cced96643d1", null ],
+    [ "Scale", "df/d4b/a28566.html#a142716fecae07abc013c7f3bd053c0ea", null ],
+    [ "UniqueId", "df/d4b/a28566.html#a749e920740b9e91547fe1f87933d1c7d", null ]
 ];

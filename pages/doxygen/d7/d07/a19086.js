@@ -1,6 +1,6 @@
 var a19086 =
 [
-    [ "npc_vortex_rideAI", "dc/da4/a19090.html", "dc/da4/a19090" ],
-    [ "npc_vortex_ride", "d7/d07/a19086.html#ad794cda407c9dfc35dd9bc2724f5014a", null ],
-    [ "GetAI", "d7/d07/a19086.html#a23ef53feb432127db2620810a55d02ff", null ]
+    [ "npc_eoe_wyrmrest_skytalonAI", "d7/d07/a19086.html#a0878695bc4179e3b6e92dde9f2b5cf19", null ],
+    [ "JustDied", "d7/d07/a19086.html#aaa88ff236fd49a9c672ab29feb7377b8", null ],
+    [ "PassengerBoarded", "d7/d07/a19086.html#aa3352276e87d805cc8722eb97d10ca46", null ]
 ];

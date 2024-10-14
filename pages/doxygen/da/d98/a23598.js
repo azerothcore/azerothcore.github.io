@@ -1,15 +1,16 @@
 var a23598 =
 [
-    [ "npc_shattered_hand_scout", "da/d98/a23598.html#a51a57eaaad75817a9b5a81210e01ed51", null ],
-    [ "DamageTaken", "da/d98/a23598.html#ad37c34ae2dee082f1b4eed90bc4a3618", null ],
-    [ "FireArrows", "da/d98/a23598.html#aa3043011d7d9e7b7c5826b9afc7581d1", null ],
-    [ "GetPorung", "da/d98/a23598.html#a575b12c40aeccd6d0cdd63f71a3b93d6", null ],
-    [ "MoveInLineOfSight", "da/d98/a23598.html#a2ddb6fd6aa6221768ff71257f4bdd81b", null ],
-    [ "MovementInform", "da/d98/a23598.html#a6f6198c2faf68823b1d4c8237044784b", null ],
-    [ "Reset", "da/d98/a23598.html#a1fcf0da2cc4a0554f04b3624b68de598", null ],
-    [ "SetData", "da/d98/a23598.html#a9416dd89c4728538971abc5975c7080f", null ],
-    [ "UpdateAI", "da/d98/a23598.html#a91c2c7eca064d6eaafe5ecaeca4344b4", null ],
-    [ "_firstZealots", "da/d98/a23598.html#a2b5fd63b01e4ecb96b006e3870b37609", null ],
-    [ "_scheduler", "da/d98/a23598.html#a376f6eab11f8399493d5d33b5c4ea35a", null ],
-    [ "_zealotGUIDs", "da/d98/a23598.html#a26381a05bb007fdb4b7da97a19a878da", null ]
+    [ "npc_millhouse_manastormAI", "da/d98/a23598.html#ac86df4d5887c4c1b719ce47f00b32995", null ],
+    [ "AttackStart", "da/d98/a23598.html#a032cc1ad7a07ead4ced3afe99601d94f", null ],
+    [ "DamageTaken", "da/d98/a23598.html#a30ed336d552596211b3bfc316d223968", null ],
+    [ "InitializeAI", "da/d98/a23598.html#a7e8f7483b7cf4ba5d87386940e632339", null ],
+    [ "JustDied", "da/d98/a23598.html#aaa22ed7812600c1670d12d6887d316d6", null ],
+    [ "JustEngagedWith", "da/d98/a23598.html#a5e643192572f29f954a31b7b949f6525", null ],
+    [ "KilledUnit", "da/d98/a23598.html#ac3ba302f496d03c171d1d3f4dbf175da", null ],
+    [ "Reset", "da/d98/a23598.html#a74076048ea382816fa9c98a0d759af46", null ],
+    [ "UpdateAI", "da/d98/a23598.html#a7dad659c4ba1db0460c23a3dc573eff2", null ],
+    [ "_usedIceblock", "da/d98/a23598.html#af0ce341df018dafdce89f75fcb9f0063", null ],
+    [ "events", "da/d98/a23598.html#aa9aadd461e32cf8a65b185d77f62d838", null ],
+    [ "events2", "da/d98/a23598.html#ac762ce5981457cbcf6ec73236bab2486", null ],
+    [ "instance", "da/d98/a23598.html#aff28c68ed9575440f5732df855ab4372", null ]
 ];

@@ -1,6 +1,7 @@
 var a16886 =
 [
-    [ "boss_tyrannusAI", "d3/d58/a16890.html", "d3/d58/a16890" ],
-    [ "boss_tyrannus", "d7/d49/a16886.html#a81373192ffea8817cb72b80f4629da43", null ],
-    [ "GetAI", "d7/d49/a16886.html#ad107030de1427d070305f5dcef96c016", null ]
+    [ "npc_pos_icicle_triggerAI", "d7/d49/a16886.html#a28477c5f88b5ec77dc3e021ec01401ce", null ],
+    [ "UpdateAI", "d7/d49/a16886.html#a32d9b6bd2f0b994adb33e2bd99dd34ce", null ],
+    [ "pInstance", "d7/d49/a16886.html#ad4ed0e2380c62cc6dd7d309edfd34ac1", null ],
+    [ "timer", "d7/d49/a16886.html#a91277c41ddebffed7e9dac7098cd78bd", null ]
 ];

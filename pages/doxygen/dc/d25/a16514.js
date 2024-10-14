@@ -1,10 +1,8 @@
 var a16514 =
 [
-    [ "boss_dredAI", "dc/d25/a16514.html#a4ad04fe31990a37fd6d3a23329350248", null ],
-    [ "GetData", "dc/d25/a16514.html#a7a93506d77eaf40c6f7be9e433f211e1", null ],
-    [ "JustEngagedWith", "dc/d25/a16514.html#ae6e1181dcdea763460ca72148abfcb3f", null ],
-    [ "Reset", "dc/d25/a16514.html#a5fe153ab58b1feedce5afa6b10a0d3de", null ],
-    [ "SetData", "dc/d25/a16514.html#a884f48aabc26b054dcd303a91cb88301", null ],
-    [ "UpdateAI", "dc/d25/a16514.html#afc12ced9b5026fe3b297560c30e129ed", null ],
-    [ "_raptorCount", "dc/d25/a16514.html#a95aa63c18d7e1f2dec2491ac4649a378", null ]
+    [ "HandleEffectApply", "dc/d25/a16514.html#a92b98d9b9be98c330b6efbe34dae235b", null ],
+    [ "HandleEffectRemove", "dc/d25/a16514.html#a04504220319ec562b1b6691f471c1b8d", null ],
+    [ "PrepareAuraScript", "dc/d25/a16514.html#a10fd29809373bcfaf38fd587fcdd1dee", null ],
+    [ "Register", "dc/d25/a16514.html#a9160c940913e4829bd0a6fe269c3b5d3", null ],
+    [ "Validate", "dc/d25/a16514.html#a7f7750933e122e8c672b6b93f4801cd7", null ]
 ];

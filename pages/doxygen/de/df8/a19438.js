@@ -1,12 +1,6 @@
 var a19438 =
 [
-    [ "npc_hol_monumentAI", "de/df8/a19438.html#a4a59b95e32acf8920082e4159b7e384c", null ],
-    [ "AttackStart", "de/df8/a19438.html#a6db6528cf3d53bc6de9caf55fb18a28b", null ],
-    [ "JustEngagedWith", "de/df8/a19438.html#a105f8e66ba3cf752af455c787df7568e", null ],
-    [ "MoveInLineOfSight", "de/df8/a19438.html#ab37c5c22456c06f78b53505ae7973658", null ],
-    [ "Reset", "de/df8/a19438.html#a03dd56d6801194333288a2edc7ae4eaa", null ],
-    [ "UpdateAI", "de/df8/a19438.html#a7c911cf24b21c959ee5c62d664e1879a", null ],
-    [ "_attackGUID", "de/df8/a19438.html#a0421f258f2cd871ad1f87decf5e23bc8", null ],
-    [ "_isActive", "de/df8/a19438.html#a0993cfde30a492ae8dfeeda2e01a1124", null ],
-    [ "events", "de/df8/a19438.html#aeff0f7526f12f0e09e53c0e43a423799", null ]
+    [ "boss_sjonnir_dwarfAI", "d2/d34/a19442.html", "d2/d34/a19442" ],
+    [ "boss_sjonnir_dwarf", "de/df8/a19438.html#a3589ae3bef1bbfe0fc5381e341c0995b", null ],
+    [ "GetAI", "de/df8/a19438.html#a945d8e753e1a54dc348848b9c2dd6cce", null ]
 ];

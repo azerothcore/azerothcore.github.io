@@ -1,7 +1,6 @@
 var a21718 =
 [
-    [ "CheckCast", "d8/d88/a21718.html#af0eb00a8dbff89d780beb07f3a714fff", null ],
-    [ "HandleScript", "d8/d88/a21718.html#a8128bb2d7588409dae73bed78d5285a7", null ],
-    [ "PrepareSpellScript", "d8/d88/a21718.html#aee17a8a21ec5df027082c6990189dccc", null ],
-    [ "Register", "d8/d88/a21718.html#a2a97265e102e9ce31997d99275b42973", null ]
+    [ "npc_q24545_wretched_ghoulAI", "d6/d28/a21722.html", "d6/d28/a21722" ],
+    [ "npc_q24545_wretched_ghoul", "d8/d88/a21718.html#a3842b5bd89c911d29d561307113fb032", null ],
+    [ "GetAI", "d8/d88/a21718.html#ada973de0ff7295f0441cbd6b6aaca9ac", null ]
 ];

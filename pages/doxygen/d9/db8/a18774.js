@@ -1,6 +1,6 @@
 var a18774 =
 [
-    [ "npc_four_car_garageAI", "db/d3c/a18778.html", "db/d3c/a18778" ],
-    [ "npc_four_car_garage", "d9/db8/a18774.html#ae9b811544ab5cbdcb9c44abdc2da41a8", null ],
-    [ "GetAI", "d9/db8/a18774.html#ac55346f9733c5502a9e9f2d6d48feefb", null ]
+    [ "boss_faerlinaAI", "db/d3c/a18778.html", "db/d3c/a18778" ],
+    [ "boss_faerlina", "d9/db8/a18774.html#a86543ac855287e3de2e3ffcde66fb1cb", null ],
+    [ "GetAI", "d9/db8/a18774.html#aed8214323ff5b792d9bd6aae478e7848", null ]
 ];

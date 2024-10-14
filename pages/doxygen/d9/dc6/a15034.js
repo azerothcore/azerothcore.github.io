@@ -1,6 +1,8 @@
 var a15034 =
 [
-    [ "HandleOnHit", "d9/dc6/a15034.html#abf5a21f1c88241024e6d3b3c5bffe449", null ],
-    [ "PrepareSpellScript", "d9/dc6/a15034.html#aa78fc03dacb373c5108e6a5d92e035c6", null ],
-    [ "Register", "d9/dc6/a15034.html#a1e608d67914c0071a913d96d70c625d6", null ]
+    [ "npc_ahnqiraji_critter", "d9/dc6/a15034.html#a60e2dc1c52579a410d3435126bf39684", null ],
+    [ "JustDied", "d9/dc6/a15034.html#a71d3d5262bde847a18932fea89cb6648", null ],
+    [ "JustEngagedWith", "d9/dc6/a15034.html#aca1df706306f9181db26cd77e5b66452", null ],
+    [ "Reset", "d9/dc6/a15034.html#a645e16e9da29f6579320394201d0ada7", null ],
+    [ "UpdateAI", "d9/dc6/a15034.html#a68c5ded8563c2de9429a13cdb7d38f89", null ]
 ];

@@ -1,5 +1,5 @@
 var a27954 =
 [
-    [ "cinematicCamera", "d3/dad/a27954.html#a87e5f6de255dc0c75423eace2768a1dc", null ],
-    [ "Id", "d3/dad/a27954.html#a9c3dc0e60728c1c76594385d6860f265", null ]
+    [ "Id", "d3/dad/a27954.html#a79e4b857b811a044aed0ce33422df801", null ],
+    [ "quality_mod", "d3/dad/a27954.html#a756e7b316cc365f15f24e5e4637303a6", null ]
 ];

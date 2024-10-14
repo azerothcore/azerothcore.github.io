@@ -1,4 +1,5 @@
 var a00638 =
 [
-    [ "AllGameObjectScript", "d3/d6f/a09930.html", "d3/d6f/a09930" ]
+    [ "reload_commandscript", "d4/d19/a11426.html", "d4/d19/a11426" ],
+    [ "AddSC_reload_commandscript", "d1/daa/a00638.html#ab72bc0a4ad4d6f90fa1e05f5591ed68f", null ]
 ];

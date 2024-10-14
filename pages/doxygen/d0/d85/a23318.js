@@ -1,8 +1,6 @@
 var a23318 =
 [
-    [ "boss_mekgineer_steamrigger", "d0/d85/a23318.html#a930dcbade7135d0c689bcc0718815547", null ],
-    [ "JustDied", "d0/d85/a23318.html#a79272c233bc0256cca62700fc7a01421", null ],
-    [ "JustEngagedWith", "d0/d85/a23318.html#aa75dea00ffd73b45ba5115ea1e48a006", null ],
-    [ "JustSummoned", "d0/d85/a23318.html#a7a55a9dffaf239e73962356eb0fa88ad", null ],
-    [ "KilledUnit", "d0/d85/a23318.html#a84374438458cb7e034f91d4b65cd22f1", null ]
+    [ "HandleScript", "d0/d85/a23318.html#ae45f8a366c1594d3723b83ee6e006957", null ],
+    [ "PrepareSpellScript", "d0/d85/a23318.html#a217953fda43e2c3abdd0d24ddbabc75d", null ],
+    [ "Register", "d0/d85/a23318.html#a6b9e449a64747f0a5715424295b1c30f", null ]
 ];

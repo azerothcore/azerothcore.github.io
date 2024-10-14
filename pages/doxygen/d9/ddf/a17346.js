@@ -1,7 +1,8 @@
 var a17346 =
 [
-    [ "npc_icc_blood_beastAI", "d9/ddf/a17346.html#af52eff9f66451444c5acba6930c1bff6", null ],
-    [ "DoAction", "d9/ddf/a17346.html#a5de6e46fd21fd073fde2f0aaa5dc947a", null ],
-    [ "UpdateAI", "d9/ddf/a17346.html#ac9da073c33dd33097f03ca35d36ea15e", null ],
-    [ "timer1", "d9/ddf/a17346.html#a1074059162f818088808795119f081be", null ]
+    [ "ResetEncounterEvent", "d9/ddf/a17346.html#aaa1bc6d3d529524df6b0ed6be6e0966f", null ],
+    [ "Execute", "d9/ddf/a17346.html#ae8d52fc7c0689620bcef8c04643191f5", null ],
+    [ "_caster", "d9/ddf/a17346.html#abb37778222749b27791baa329e268c32", null ],
+    [ "_otherTransport", "d9/ddf/a17346.html#a7f2d0aaade5833381e3e7624745fc504", null ],
+    [ "_spellId", "d9/ddf/a17346.html#ad4c57e519201e15e23e0f56f4fbe70cb", null ]
 ];

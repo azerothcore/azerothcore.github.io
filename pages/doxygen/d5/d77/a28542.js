@@ -1,6 +1,8 @@
 var a28542 =
 [
-    [ "id", "d5/d77/a28542.html#a5acc1b246a76073e1c97513251a4143d", null ],
-    [ "id", "d5/d77/a28542.html#aaf844f570afdf7439ae7fbe0bbdc39e7", null ],
-    [ "name", "d5/d77/a28542.html#ae5d1244981224aed1b7477caedd70175", null ]
+    [ "TileInfo", "d5/d77/a28542.html#af1a25ded4212f141ab4f32db95709210", null ],
+    [ "m_mapId", "d5/d77/a28542.html#a41f4be7d3fce716754b9ac0310b9ecf9", null ],
+    [ "m_navMeshParams", "d5/d77/a28542.html#a9d7c909370359edafa8a9b6a91cef354", null ],
+    [ "m_tileX", "d5/d77/a28542.html#a54cc23d82dfe690e0d62b6156d440fc1", null ],
+    [ "m_tileY", "d5/d77/a28542.html#ab7fba310dd471fddcf2e7d6fba3205ed", null ]
 ];

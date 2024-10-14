@@ -1,4 +1,5 @@
 var a00758 =
 [
-    [ "ScriptRegistry< WorldObjectScript >", "d2/d4a/a00758.html#a2e5b964820eedff4e7b34c6c79cfca6d", null ]
+    [ "mmaps_commandscript", "d4/d18/a11386.html", "d4/d18/a11386" ],
+    [ "AddSC_mmaps_commandscript", "d2/d4a/a00758.html#aa9672a1e32f85f31a4be02f505768ecd", null ]
 ];

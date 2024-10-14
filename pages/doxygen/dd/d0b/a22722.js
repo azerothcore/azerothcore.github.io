@@ -1,7 +1,10 @@
 var a22722 =
 [
-    [ "HandleDummy", "dd/d0b/a22722.html#af5ac581f7d471300fba2c23548037eea", null ],
-    [ "PrepareSpellScript", "dd/d0b/a22722.html#adda61c05b544b52d98af5b7a76d4f808", null ],
-    [ "Register", "dd/d0b/a22722.html#a270a64dffdce230d97515f116ec49706", null ],
-    [ "Validate", "dd/d0b/a22722.html#a7cf3637ea33ad30913723b4fd33e5546", null ]
+    [ "boss_gathios_the_shatterer", "dd/d0b/a22722.html#a34708f52c610e567c5acf62962e90d4e", null ],
+    [ "JustEngagedWith", "dd/d0b/a22722.html#a98ad625cf2ac9b1d8d9b41001ba4fb34", null ],
+    [ "SelectCouncilMember", "dd/d0b/a22722.html#a3d33c1a29b7ba2feb22ea9d3941b39ed", null ],
+    [ "UpdateAI", "dd/d0b/a22722.html#a1541f1efd3978a4c91b80e411aec6442", null ],
+    [ "_toggleAura", "dd/d0b/a22722.html#aa983e2d9018a9e53ee29840781f47c33", null ],
+    [ "_toggleBlessing", "dd/d0b/a22722.html#a52e9b7d3b1af46d3ecb6ca9432ee3957", null ],
+    [ "_toggleSeal", "dd/d0b/a22722.html#ad7e6f9e03968e2abac570d0c7a5de9e2", null ]
 ];

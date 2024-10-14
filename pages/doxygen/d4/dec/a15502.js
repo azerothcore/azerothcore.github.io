@@ -1,7 +1,7 @@
 var a15502 =
 [
-    [ "npc_paoka_swiftmountainAI", "d4/dec/a15502.html#a92a229f76de3bc46ae14910439db0004", null ],
-    [ "DoSpawnWyvern", "d4/dec/a15502.html#a7997a3d398db82c205e3a8af77ac1684", null ],
-    [ "Reset", "d4/dec/a15502.html#acae0427957aba04a54e6001823bc7eb4", null ],
-    [ "WaypointReached", "d4/dec/a15502.html#a262781c90fe1b5a5af2c6f94e4cc52e2", null ]
+    [ "npc_ranshallaAI", "d6/d5e/a15506.html", "d6/d5e/a15506" ],
+    [ "npc_ranshalla", "d4/dec/a15502.html#a0b9848c68cf955d24024071ae9beb8e5", null ],
+    [ "GetAI", "d4/dec/a15502.html#a1a81651366cc05d3ad6e9929160fe059", null ],
+    [ "OnQuestAccept", "d4/dec/a15502.html#a4ed77a4c0a48dc4922fa5ebb71949e28", null ]
 ];

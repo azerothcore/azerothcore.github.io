@@ -1,7 +1,6 @@
 var a00935 =
 [
-    [ "GetExplicitDiscoverySpell", "d8/d19/a00935.html#a7cdb9e342efe04c1ba8caf202b7b0d96", null ],
-    [ "GetSkillDiscoverySpell", "d8/d19/a00935.html#ab50472e4f1f892eb77ce660ef00d808a", null ],
-    [ "HasDiscoveredAllSpells", "d8/d19/a00935.html#abdf3c2fcf65212466dfb54053e35024c", null ],
-    [ "LoadSkillDiscoveryTable", "d8/d19/a00935.html#addd95f0a239a27ed32cd943aa1052019", null ]
+    [ "instance_blackfathom_deeps", "d8/dee/a14350.html", "d8/dee/a14350" ],
+    [ "instance_blackfathom_deeps::instance_blackfathom_deeps_InstanceMapScript", "d6/d7b/a14354.html", "d6/d7b/a14354" ],
+    [ "AddSC_instance_blackfathom_deeps", "d8/d19/a00935.html#a6df6617d1b66a2f3d1f610218af85c18", null ]
 ];

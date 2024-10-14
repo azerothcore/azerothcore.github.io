@@ -1,6 +1,6 @@
 var a25826 =
 [
-    [ "PrepareSpellScript", "d3/d99/a25826.html#a738e105a48f6c603f3d9a690f44b8745", null ],
-    [ "Register", "d3/d99/a25826.html#a6bc9791d0f08440e19b89daa9b65892c", null ],
-    [ "SetDest", "d3/d99/a25826.html#a59641895cead08de4a4503262505ee73", null ]
+    [ "OnPeriodic", "d3/d99/a25826.html#a889285ef034aaa7eaaa8e86fb5380cf0", null ],
+    [ "PrepareAuraScript", "d3/d99/a25826.html#a3fd2da3d7b1b8a78916515b7e3e188cf", null ],
+    [ "Register", "d3/d99/a25826.html#a62e5ab81f9548e4d983d0c4dde14eaad", null ]
 ];

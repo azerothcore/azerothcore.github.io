@@ -1,5 +1,6 @@
 var a27010 =
 [
-    [ "AreaTrigger_at_nats_landing", "db/d4e/a27010.html#ac366e5b1db489b4f8bb8a1d07caa83c2", null ],
-    [ "OnTrigger", "db/d4e/a27010.html#a67434f74300fa3463e679afb7d344467", null ]
+    [ "npc_spirit_shadeAI", "d2/d80/a27014.html", "d2/d80/a27014" ],
+    [ "npc_spirit_shade", "db/d4e/a27010.html#a891ede5651789274496d6426daf9937d", null ],
+    [ "GetAI", "db/d4e/a27010.html#a166f6a9abf7c0e33374c2f998c0524c3", null ]
 ];

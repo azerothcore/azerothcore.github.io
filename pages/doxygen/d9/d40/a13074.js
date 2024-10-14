@@ -1,8 +1,8 @@
 var a13074 =
 [
-    [ "OnPeriodic", "d9/d40/a13074.html#acd400b0a061d1814591e33d16bf4180a", null ],
-    [ "OnRemove", "d9/d40/a13074.html#a3da85c726007690220e9b4f81d30f185", null ],
-    [ "PrepareAuraScript", "d9/d40/a13074.html#a216d723f309ffa46df4bba7af79752c8", null ],
-    [ "Register", "d9/d40/a13074.html#a43fe84c2717d73e20a2562f596a84f36", null ],
-    [ "Validate", "d9/d40/a13074.html#a4ab8e285bae57560eee85d3a837ac2f5", null ]
+    [ "FilterTargets", "d9/d40/a13074.html#a3aac5e364d04a4a086aaa911051417d5", null ],
+    [ "HandleDummy", "d9/d40/a13074.html#aa0705dee3edeca7b61f82581f367e94a", null ],
+    [ "PrepareSpellScript", "d9/d40/a13074.html#a1efa036eac25d789850849dc1b209379", null ],
+    [ "Register", "d9/d40/a13074.html#a656b512d5bef657004a72acbf7875760", null ],
+    [ "Validate", "d9/d40/a13074.html#a33534d9fd70af99bbde1e4a908d22084", null ]
 ];

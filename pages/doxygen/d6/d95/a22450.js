@@ -1,13 +1,14 @@
 var a22450 =
 [
-    [ "OPvPCapturePointEP_CGT", "d6/d95/a22450.html#a82d8e9bff56eed1870b098dcf21f77cd", null ],
-    [ "ChangeState", "d6/d95/a22450.html#ab9d32c9a60bbdca9fc54d7e0b2bf8a5d", null ],
-    [ "FillInitialWorldStates", "d6/d95/a22450.html#af3fae27818d6213c2c96ce68676ede82", null ],
-    [ "HandlePlayerEnter", "d6/d95/a22450.html#a48cb29473f25ed9b469c7ff54acc9d88", null ],
-    [ "HandlePlayerLeave", "d6/d95/a22450.html#ad1886046ecf8c382e1fd0e01d6394614", null ],
-    [ "LinkGraveyard", "d6/d95/a22450.html#ada14179a31fb6235b7882a190dc96c40", null ],
-    [ "SendChangePhase", "d6/d95/a22450.html#a30d9f8701dd6a78740f7df0d2c7ceb9d", null ],
-    [ "UpdateTowerState", "d6/d95/a22450.html#a764284d6143d4879b5bc003acc52048c", null ],
-    [ "m_GraveyardSide", "d6/d95/a22450.html#aaf1f8440dc891ed45857bb7d15149d9a", null ],
-    [ "m_TowerState", "d6/d95/a22450.html#a6f434f86ed97f88368e3194a3bc3183b", null ]
+    [ "OutdoorPvPNA", "d6/d95/a22450.html#acbdae42245c71e4274296649d8d08e9e", null ],
+    [ "FillInitialWorldStates", "d6/d95/a22450.html#ac4eaab1f8d69ac45f168899267801198", null ],
+    [ "GetCapturePoint", "d6/d95/a22450.html#a7bab429e723c0ac1eb2f8cd3501f13be", null ],
+    [ "HandleKill", "d6/d95/a22450.html#ab55683b771104878c69239314a9782f4", null ],
+    [ "HandleKillImpl", "d6/d95/a22450.html#a2ede6e7dc54424d9729a094557b14792", null ],
+    [ "HandlePlayerEnterZone", "d6/d95/a22450.html#a312c5f2aaa35a9f83740c1bdd9772b9e", null ],
+    [ "HandlePlayerLeaveZone", "d6/d95/a22450.html#ae7dd540746946513cd7bf8e29296c068", null ],
+    [ "SendRemoveWorldStates", "d6/d95/a22450.html#ae9a93ddac1ca439f0f269d7ac7597593", null ],
+    [ "SetupOutdoorPvP", "d6/d95/a22450.html#a09369a62ec5584dd6ce5eddf7b2bb80f", null ],
+    [ "Update", "d6/d95/a22450.html#a4074a96974fe1b5e6d9149c8eee36e71", null ],
+    [ "m_obj", "d6/d95/a22450.html#a7538d64bb494644eae3cc7db03dd631f", null ]
 ];

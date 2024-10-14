@@ -1,9 +1,7 @@
 var a22094 =
 [
-    [ "npc_frostbrood_skytalonAI", "d3/d7e/a22094.html#afc14c60466f9f0f1b20062758f18c00d", null ],
-    [ "IsSummonedBy", "d3/d7e/a22094.html#a2c5729ee3371e562869878ff3a7b84bd", null ],
-    [ "MovementInform", "d3/d7e/a22094.html#ae763333503176eb7e8ce407868243958", null ],
-    [ "SpellHit", "d3/d7e/a22094.html#a24bb49f47dcf85c95039d0495a89e126", null ],
-    [ "UpdateAI", "d3/d7e/a22094.html#a0ffc4cd2e9b61ad17c516f062d161feb", null ],
-    [ "events", "d3/d7e/a22094.html#a8575d258d63e28626cffd7fc2160bee6", null ]
+    [ "npc_engineer_heliceAI", "d3/d5a/a22098.html", "d3/d5a/a22098" ],
+    [ "npc_engineer_helice", "d3/d7e/a22094.html#a445ed6b85e95db817c8117d5473a3c9d", null ],
+    [ "GetAI", "d3/d7e/a22094.html#ad48e3c1ed22a71e8a45273e1338dd0f8", null ],
+    [ "OnQuestAccept", "d3/d7e/a22094.html#ae0979d68744372d5d4669b6f014eb123", null ]
 ];

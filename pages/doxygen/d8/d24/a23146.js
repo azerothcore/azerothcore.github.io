@@ -1,6 +1,6 @@
 var a23146 =
 [
-    [ "FilterTargets", "d8/d24/a23146.html#ac20676c292d87276e444bad56d71960d", null ],
-    [ "PrepareSpellScript", "d8/d24/a23146.html#a8622bc4d61c5c236349d4b12c2a6b10d", null ],
-    [ "Register", "d8/d24/a23146.html#ae356b768872de3e87806c19bf8cccb08", null ]
+    [ "instance_serpentshrine_cavern_InstanceMapScript", "d0/daf/a23150.html", "d0/daf/a23150" ],
+    [ "instance_serpent_shrine", "d8/d24/a23146.html#aac4fc7113307805138ba4ce4a9adff09", null ],
+    [ "GetInstanceScript", "d8/d24/a23146.html#aa81add2f4aeb8b2084bcc81c05b606c7", null ]
 ];

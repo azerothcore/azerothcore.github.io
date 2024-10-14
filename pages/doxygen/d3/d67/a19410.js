@@ -1,6 +1,6 @@
 var a19410 =
 [
-    [ "spell_loken_pulsing_shockwave_SpellScript", "d6/dfb/a19414.html", "d6/dfb/a19414" ],
-    [ "spell_loken_pulsing_shockwave", "d3/d67/a19410.html#a02151186fe627a2da0d0576a0cbac0ed", null ],
-    [ "GetSpellScript", "d3/d67/a19410.html#a5cf81ce86ea77d7ce5d761e83f25a4f8", null ]
+    [ "HandleScript", "d3/d67/a19410.html#a3af4741e2099fec9ba66639f896ba335", null ],
+    [ "PrepareSpellScript", "d3/d67/a19410.html#a9779e2fb43ce69f74678abd82439c752", null ],
+    [ "Register", "d3/d67/a19410.html#ac6ae892e75e52ae83321b2492eca6a1f", null ]
 ];

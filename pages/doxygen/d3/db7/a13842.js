@@ -1,10 +1,12 @@
 var a13842 =
 [
-    [ "boss_jeklik", "d3/db7/a13842.html#a826bdba66fee3bb82b64ca6174b66c44", null ],
-    [ "EnterEvadeMode", "d3/db7/a13842.html#a70dc363e0690e72846db5f779375edc1", null ],
-    [ "JustDied", "d3/db7/a13842.html#ae648ba9ff49f4970612a8c3351789b66", null ],
-    [ "JustEngagedWith", "d3/db7/a13842.html#aeb57cfc66104f6e2b2e36b6551207dd8", null ],
-    [ "PathEndReached", "d3/db7/a13842.html#a689e8f91361de45e6f885fea0dec900a", null ],
-    [ "Reset", "d3/db7/a13842.html#a7959106123e60e3584b32b50a272746c", null ],
-    [ "batRidersCount", "d3/db7/a13842.html#a3d81395ec4518d4e2ca7f273fc658395", null ]
+    [ "npc_chained_spirit", "d3/db7/a13842.html#a5f407e700a2086f971bed0e8c0def0db", null ],
+    [ "DoAction", "d3/db7/a13842.html#a7205ef13ca0d164a9222c049bc582254", null ],
+    [ "JustDied", "d3/db7/a13842.html#a3b405503231173e7ff7aa52e34f63da5", null ],
+    [ "MovementInform", "d3/db7/a13842.html#a469a8fdc4a40857ff1dc0af9ead74d3c", null ],
+    [ "Reset", "d3/db7/a13842.html#a2a8a8a429492511aac697878b5dc4cc3", null ],
+    [ "SetGUID", "d3/db7/a13842.html#acbe42c0692e8c1d671f2745ff8c2f9bb", null ],
+    [ "UpdateAI", "d3/db7/a13842.html#a38d14b69c71bf2902a916028580fbfad", null ],
+    [ "instance", "d3/db7/a13842.html#ad5dd92208d6a23954fef6348f4abbd23", null ],
+    [ "revivePlayerGUID", "d3/db7/a13842.html#a193fddae1d3eb84bc36842adbb1fe86a", null ]
 ];

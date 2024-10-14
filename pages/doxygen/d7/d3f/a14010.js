@@ -1,10 +1,10 @@
 var a14010 =
 [
-    [ "npc_brewfest_super_brew_trigger", "d7/d3f/a14010.html#a3d2189978683150b1c431fa0fd637358", null ],
-    [ "AttackStart", "d7/d3f/a14010.html#a9ca158a2317a599cd4af64dad6ef04cc", null ],
-    [ "JustEngagedWith", "d7/d3f/a14010.html#a61be52cb8ba0cc10285820ad5324816e", null ],
-    [ "MoveInLineOfSight", "d7/d3f/a14010.html#aedd26ea4a274df9eb27f9f4a22670f1e", null ],
-    [ "Reset", "d7/d3f/a14010.html#a5abf05543247a4f1209fe2a5bebb5d64", null ],
-    [ "UpdateAI", "d7/d3f/a14010.html#a46db84e1eab29e7f4bf99d377962ad12", null ],
-    [ "timer", "d7/d3f/a14010.html#a2ebb06175e3142cca156e57e8386fe02", null ]
+    [ "npc_coren_direbrew_sisters", "d7/d3f/a14010.html#a415ea0ebd044236f5f4c4d6c28896e00", null ],
+    [ "GetGUID", "d7/d3f/a14010.html#a61863117e71ebfb7f1c4c83780ece7bc", null ],
+    [ "JustEngagedWith", "d7/d3f/a14010.html#a34e0b6af032240c152c463c221d99335", null ],
+    [ "SetGUID", "d7/d3f/a14010.html#ada2e446a929bbba088d3c7e09d117f93", null ],
+    [ "UpdateAI", "d7/d3f/a14010.html#a7434b08d12d3f0902d1944b75323560c", null ],
+    [ "_scheduler", "d7/d3f/a14010.html#a9d8ca85e7bbd3cc9c61c2bbb38b7d222", null ],
+    [ "_targetGUID", "d7/d3f/a14010.html#a801a6811124a7db3a31ec492ef954b20", null ]
 ];

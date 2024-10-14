@@ -1,7 +1,7 @@
 var a22706 =
 [
-    [ "HandleScriptEffect", "db/d6d/a22706.html#a6ec6e79849c618d009eae3551e16ff0a", null ],
-    [ "PrepareSpellScript", "db/d6d/a22706.html#a4f00eca7c78a785780be4379c1a56a6b", null ],
-    [ "Register", "db/d6d/a22706.html#adb676b9d6f36c30efbb8286b1e5edf6d", null ],
-    [ "Validate", "db/d6d/a22706.html#a9ce122d497e72e3a46b1857d722af48d", null ]
+    [ "OnPeriodic", "db/d6d/a22706.html#a165d47b116b0a53e37b05f664960e6ec", null ],
+    [ "PrepareAuraScript", "db/d6d/a22706.html#ac46af3566c5c03622f8146f1bb6f0ac7", null ],
+    [ "Register", "db/d6d/a22706.html#a1ac8741542c921f5e4c42b0a9a02ed3c", null ],
+    [ "Validate", "db/d6d/a22706.html#adf76f9183dd9c5e0f00c2115aaafb119", null ]
 ];

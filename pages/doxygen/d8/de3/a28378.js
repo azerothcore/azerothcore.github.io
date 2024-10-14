@@ -1,16 +1,13 @@
 var a28378 =
 [
-    [ "GetAddressForClient", "d8/de3/a28378.html#a2a3f3db57bb7e6f69ca4f030b65c7331", null ],
-    [ "AllowedSecurityLevel", "d8/de3/a28378.html#a25e953d80aa3c80e068afe6b57f67d99", null ],
-    [ "Build", "d8/de3/a28378.html#a64533e919d8c3a37bd5668af77d09166", null ],
-    [ "ExternalAddress", "d8/de3/a28378.html#a703504aaf54f1ecf934b9184e9737367", null ],
-    [ "Flags", "d8/de3/a28378.html#a1984cc9564b01b6456f31f77fd65a6d6", null ],
-    [ "Id", "d8/de3/a28378.html#ab0ccda7e7a58eee0965261767f3ee2ee", null ],
-    [ "LocalAddress", "d8/de3/a28378.html#a61f429ddc92895e66dff2808e17cc322", null ],
-    [ "LocalSubnetMask", "d8/de3/a28378.html#a52a4b2704e7f76d8ea296148cefb9482", null ],
-    [ "Name", "d8/de3/a28378.html#a9381717fdc924158ecd61a8f00488fc0", null ],
-    [ "PopulationLevel", "d8/de3/a28378.html#a63cdbd47c50f368974b43c3db2f32cee", null ],
-    [ "Port", "d8/de3/a28378.html#a0131d758f10cbae0c610c2c088299feb", null ],
-    [ "Timezone", "d8/de3/a28378.html#a377055c4729f21beecb8601cd79017db", null ],
-    [ "Type", "d8/de3/a28378.html#af77452a4cf7f632d692079615af4737c", null ]
+    [ "liquid_data", "da/d36/a28386.html", "da/d36/a28386" ],
+    [ "prepareLoadedData", "d8/de3/a28378.html#a999cde9ad5c0e4ee49e620c2ff52cb06", null ],
+    [ "data", "d8/de3/a28378.html#aa3f6e6de7453b4a1acc7dfe4c83eac69", null ],
+    [ "fcc", "d8/de3/a28378.html#ab0181729f82eb0f02da5cb95ec48cda1", null ],
+    [ "fcc_txt", "d8/de3/a28378.html#a9a2576f7b8923089b3b6020d4f8d97fc", null ],
+    [ "flags", "d8/de3/a28378.html#ac21d785a3a457baa84cbfd33ebb69bd4", null ],
+    [ "height1", "d8/de3/a28378.html#a7b4a59ac372261c74236b2b4cfc3626a", null ],
+    [ "height2", "d8/de3/a28378.html#ab03dc912a304c0585d2725596adb4b49", null ],
+    [ "liquid", "d8/de3/a28378.html#aae29940e6fdf046f9a29cf519ef61936", null ],
+    [ "size", "d8/de3/a28378.html#a11581f9fb52a4ca433765e6312168288", null ]
 ];

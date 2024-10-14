@@ -1,10 +1,6 @@
 var a01457 =
 [
-    [ "ObjectWorldLoader", "d2/dd7/a09158.html", "d2/dd7/a09158" ],
-    [ "AddObjectHelper", "da/df7/a01457.html#a68fc5e61b78a475e024a4f3e0f1f7197", null ],
-    [ "AddObjectHelper", "da/df7/a01457.html#a0881e3c2e2147fefcd2460f09f1fce04", null ],
-    [ "AddObjectHelper", "da/df7/a01457.html#af04925817412dce977fbf9dd300f0d94", null ],
-    [ "LoadHelper", "da/df7/a01457.html#a230249fa0e98051e01a6fb2b61b3c74d", null ],
-    [ "LoadHelper", "da/df7/a01457.html#afee9d1c6de56ec77cc8f4c9936f1d7fd", null ],
-    [ "LoadHelper", "da/df7/a01457.html#a58b3bbef087ecc286d081a0f8d4c1fde", null ]
+    [ "instance_pit_of_saron", "d0/dd4/a16842.html", "d0/dd4/a16842" ],
+    [ "instance_pit_of_saron::instance_pit_of_saron_InstanceScript", "dc/d5a/a16846.html", "dc/d5a/a16846" ],
+    [ "AddSC_instance_pit_of_saron", "da/df7/a01457.html#a0793b7a11993f477eea1066a2da4bbb2", null ]
 ];

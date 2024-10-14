@@ -1,7 +1,6 @@
 var a13934 =
 [
-    [ "HandleApply", "df/d4b/a13934.html#a92734043e53b5e1ef81fa9b5ccce135e", null ],
-    [ "HandleRemove", "df/d4b/a13934.html#a56bf9c77cf96b1e34543a59fc2a308b2", null ],
-    [ "PrepareAuraScript", "df/d4b/a13934.html#ae3bcbf588e46cb0e81160fdd48502566", null ],
-    [ "Register", "df/d4b/a13934.html#af2343add2ed014832bd34d11519b391b", null ]
+    [ "npc_brewfest_keg_thrower", "df/d4b/a13934.html#a29da1efd21fe6737684607e5b360ea84", null ],
+    [ "CanBeSeen", "df/d4b/a13934.html#a36212d0f17c0070d3ef3cc25577ff7b9", null ],
+    [ "MoveInLineOfSight", "df/d4b/a13934.html#a3938b0e63553e79302ba966c6cdcf9be", null ]
 ];

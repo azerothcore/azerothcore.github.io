@@ -1,6 +1,6 @@
 var a13786 =
 [
-    [ "OnEffect", "dd/d08/a13786.html#a50c7e1c65315b5d46749b335e85e15e4", null ],
-    [ "PrepareSpellScript", "dd/d08/a13786.html#ab99c723bb71c5fdd844898eaf21cc520", null ],
-    [ "Register", "dd/d08/a13786.html#a892faa83f748d36c9c8638a12ac7f2aa", null ]
+    [ "FilterTargets", "dd/d08/a13786.html#ac29f6792f36f1b5ef4a463754c725a2e", null ],
+    [ "PrepareSpellScript", "dd/d08/a13786.html#a0a1cbde8aff10303d91a791276a865f4", null ],
+    [ "Register", "dd/d08/a13786.html#a9f7d21ab52f581ad154a242ce84d8a5d", null ]
 ];

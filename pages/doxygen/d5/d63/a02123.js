@@ -1,5 +1,6 @@
 var a02123 =
 [
-    [ "WorldObjectChangeAccumulator", "df/d4e/a08118.html", "df/d4e/a08118" ],
-    [ "VisibilityDistances", "d5/d63/a02123.html#a6165c6736a6e152a38f7dea1aa2c956b", null ]
+    [ "DataHeader", "d5/d63/a02123.html#a042491ef36459046f3866e90f15aae0d", null ],
+    [ "ScarletMonasteryScriptName", "d5/d63/a02123.html#ac64beb71a88e1265849782b79406b585", null ],
+    [ "GetScarletMonasteryAI", "d5/d63/a02123.html#aecdcabc87b1cc31996b702fd11416f35", null ]
 ];

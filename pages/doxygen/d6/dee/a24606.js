@@ -1,11 +1,10 @@
 var a24606 =
 [
-    [ "HandleAfterHit", "d6/dee/a24606.html#a3cfb75da66372934ba5aaa1c9ad6c6f3", null ],
-    [ "HandleDummy", "d6/dee/a24606.html#abb3f92850fa6fff94c682b990c361fe6", null ],
-    [ "Load", "d6/dee/a24606.html#ae5900d64c9b9b2de48c494458d4bed8b", null ],
-    [ "PrepareSpellScript", "d6/dee/a24606.html#adea0e24654cd87b3aee07ce2183b9517", null ],
-    [ "Register", "d6/dee/a24606.html#a3e155e336d6a5a6a4d44eae422ef7939", null ],
-    [ "Validate", "d6/dee/a24606.html#a28bb9111c8e5116a82d4e54b7eacb92b", null ],
-    [ "guid", "d6/dee/a24606.html#a6e177d68e1d39dcb27e6643d267328a5", null ],
-    [ "multiplier", "d6/dee/a24606.html#a04ed6aae0ea28a4f1b7c1ed5f4f73a0b", null ]
+    [ "CalculateAPAmount", "d6/dee/a24606.html#af1d4558f6132d3c2abc71ec1dabee2e8", null ],
+    [ "CalculateResistanceAmount", "d6/dee/a24606.html#a5d6e7b92f4335176388a877e72c0e92c", null ],
+    [ "CalculateSPAmount", "d6/dee/a24606.html#a40c96996d19b9f7eeed3fda4271b9f87", null ],
+    [ "CalculateStatAmount", "d6/dee/a24606.html#ae4f96de2c558a4b0fd7659442aa3d92b", null ],
+    [ "HandleEffectApply", "d6/dee/a24606.html#aeebb14424a6ae336edd4b66d824d648a", null ],
+    [ "PrepareAuraScript", "d6/dee/a24606.html#a7e3dc351574f6d6ad3424eb7df7092df", null ],
+    [ "Register", "d6/dee/a24606.html#ab5713a34ced4d2e2a67b43e98d7a55c0", null ]
 ];

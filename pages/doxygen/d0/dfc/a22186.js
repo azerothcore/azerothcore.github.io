@@ -1,6 +1,6 @@
 var a22186 =
 [
-    [ "HandleScript", "d0/dfc/a22186.html#acb343eafcfddf6fedcdef26c9b86e0ec", null ],
-    [ "PrepareSpellScript", "d0/dfc/a22186.html#a5a4ce9453638d61fe52514240f0a9384", null ],
-    [ "Register", "d0/dfc/a22186.html#a889f931aaa37d3a283f4d585b384a68e", null ]
+    [ "npc_brunnhildar_prisonerAI", "de/d50/a22190.html", "de/d50/a22190" ],
+    [ "npc_brunnhildar_prisoner", "d0/dfc/a22186.html#a4dd1b440366c0a5c4fa7c1dfab7607b5", null ],
+    [ "GetAI", "d0/dfc/a22186.html#aa2a1787849c74a5163a39137c9d03d57", null ]
 ];

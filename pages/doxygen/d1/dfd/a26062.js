@@ -1,8 +1,7 @@
 var a26062 =
 [
-    [ "CheckCast", "d1/dfd/a26062.html#a0d7910cd2b9d9f4174575532502d40f9", null ],
-    [ "HandleDummy", "d1/dfd/a26062.html#a1eac1eb5f39093ff48942e82728478dd", null ],
-    [ "PrepareSpellScript", "d1/dfd/a26062.html#adbb58b75232560d101b291c0d99a2a20", null ],
-    [ "Register", "d1/dfd/a26062.html#a6acb46e81171e13f50ac1f01bf83013b", null ],
-    [ "Validate", "d1/dfd/a26062.html#a4b67c348685a8094668e4ed2f0c78446", null ]
+    [ "HandleProc", "d1/dfd/a26062.html#a72463db57f87387aa3ff3175c45ca9df", null ],
+    [ "PrepareAuraScript", "d1/dfd/a26062.html#ae158b4b624b50ad984b2c5e9c16d7670", null ],
+    [ "Register", "d1/dfd/a26062.html#a2da64a27cfa5a68464f8f3a885e09751", null ],
+    [ "Validate", "d1/dfd/a26062.html#a798f51ee6333d3ebb2bbb617ea88ea2b", null ]
 ];

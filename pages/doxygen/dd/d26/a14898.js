@@ -1,5 +1,5 @@
 var a14898 =
 [
-    [ "boss_vem", "dd/d26/a14898.html#a8e303ece8ba209c6dea0ed6c888077d3", null ],
-    [ "JustEngagedWith", "dd/d26/a14898.html#ae4b7fa599d31155bdee566b31c60b237", null ]
+    [ "at_cthun_stomach_exit", "dd/d26/a14898.html#ab37174eff353cdbba1f300464645ac63", null ],
+    [ "OnTrigger", "dd/d26/a14898.html#ab56dca3fe200dc7822459a22912247bf", null ]
 ];

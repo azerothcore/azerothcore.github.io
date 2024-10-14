@@ -1,11 +1,8 @@
 var a23226 =
 [
-    [ "boss_ahune", "db/d45/a23226.html#aa3d15e1ab37843761d9f7c56d2e5a319", null ],
-    [ "DoAction", "db/d45/a23226.html#a9e197e8a5ecbad8487c7bad7647e6d2c", null ],
-    [ "Emerge", "db/d45/a23226.html#a6404a8255566f2eaa061a89025e2bdcd", null ],
-    [ "EnterEvadeMode", "db/d45/a23226.html#a2b906881621e59143a916c588beb70e7", null ],
-    [ "ExecuteEvent", "db/d45/a23226.html#a46b477aef635de1d3ec88baa2465089f", null ],
-    [ "JustDied", "db/d45/a23226.html#af2fc7c071321653a644ee569ead67d63", null ],
-    [ "JustEngagedWith", "db/d45/a23226.html#aaffc4f54544c8aa4529b249560ddeeec", null ],
-    [ "Submerge", "db/d45/a23226.html#aad68758720cc1cb703f8f2dc72c09af2", null ]
+    [ "FilterTargets", "db/d45/a23226.html#a8687ba9c22299e62e5911a3729fa4a0a", null ],
+    [ "HandleDummy", "db/d45/a23226.html#addb3580259be74126b7de36d1b0a8a97", null ],
+    [ "PrepareSpellScript", "db/d45/a23226.html#aba82de0886d03037de4564f9908b8c89", null ],
+    [ "Register", "db/d45/a23226.html#a1650962493d48f5553a9e2771e594f1f", null ],
+    [ "Validate", "db/d45/a23226.html#a0a29926e43bd5ff58ca7ad79df6f8cc1", null ]
 ];

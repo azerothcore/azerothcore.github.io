@@ -1,6 +1,7 @@
 var a18054 =
 [
-    [ "LichKingMovieEvent", "d8/d9e/a18054.html#a3e48e13dc5166c73a9f379045988f86a", null ],
-    [ "Execute", "d8/d9e/a18054.html#a22d6181fd2651d62dcb6cdbabe0561fe", null ],
-    [ "_owner", "d8/d9e/a18054.html#a7ed68f442a644d6bb7a036812351d89e", null ]
+    [ "OnPeriodic", "d8/d9e/a18054.html#accd12b06341f3168c74cb18926614f7f", null ],
+    [ "OnUpdate", "d8/d9e/a18054.html#abd725d08f2ef14cd375b6b94e9c1dcf0", null ],
+    [ "PrepareAuraScript", "d8/d9e/a18054.html#aa7dea3d079ae88aafd145ce949a6eb02", null ],
+    [ "Register", "d8/d9e/a18054.html#aa4a548a222dd79554e3e4e8f837c1d49", null ]
 ];

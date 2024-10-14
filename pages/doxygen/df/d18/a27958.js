@@ -1,7 +1,7 @@
 var a27958 =
 [
-    [ "Displayid", "df/d18/a27958.html#adc5aee11b1e27752576b0b98156d3b3c", null ],
-    [ "ExtendedDisplayInfoID", "df/d18/a27958.html#a174d6f73393e6dcfeecf487fc09c2e6f", null ],
-    [ "ModelId", "df/d18/a27958.html#ada31381a4ee360e2fcb68403bc6d14e5", null ],
-    [ "scale", "df/d18/a27958.html#ae15b89669bf5d711cc57c21d8c8be0dd", null ]
+    [ "EmoteType", "df/d18/a27958.html#a2d319652021081fdb02472c32a28e318", null ],
+    [ "Flags", "df/d18/a27958.html#aa1794d3ffd7f7da82f5754e1be580fe9", null ],
+    [ "Id", "df/d18/a27958.html#a3b3b641fbdb8dc88afc2421e358a75a1", null ],
+    [ "UnitStandState", "df/d18/a27958.html#ada83e548faa01917a5db19eaa15dbbec", null ]
 ];

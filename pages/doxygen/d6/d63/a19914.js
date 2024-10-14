@@ -1,6 +1,5 @@
 var a19914 =
 [
-    [ "achievement_flame_leviathan_towers", "d6/d63/a19914.html#a491d66bdd373b6044e406126719ef910", null ],
-    [ "OnCheck", "d6/d63/a19914.html#ad6e9dee3f05afaca0a355b714bf75ea6", null ],
-    [ "_towerCount", "d6/d63/a19914.html#a1099385340b30a1a75655e2e7d2ba3cc", null ]
+    [ "boss_freya_iron_rootAI", "d6/d63/a19914.html#a5e982f5f41433f43a7a0e1d18e009b7b", null ],
+    [ "JustDied", "d6/d63/a19914.html#ad35297f0fa2039749b89d38c2b4f08b9", null ]
 ];

@@ -1,8 +1,7 @@
 var a24734 =
 [
-    [ "AfterApply", "dc/d7b/a24734.html#a9c2591beacd941893338109719c03e3f", null ],
-    [ "AfterRemove", "dc/d7b/a24734.html#a0be2a66b615dd926de7073392a8e5062", null ],
-    [ "PrepareAuraScript", "dc/d7b/a24734.html#a4763d0c69c12611244f68ba5a5b1ccce", null ],
-    [ "Register", "dc/d7b/a24734.html#a36fb81d0bf4cf92773db60a70de52dda", null ],
-    [ "Validate", "dc/d7b/a24734.html#a86b51ec85105b0396972f0c3d7b770c1", null ]
+    [ "if", "dc/d7b/a24734.html#a6b9c0d513b24e9a5c0eef8307b2eb3a8", null ],
+    [ "PrepareAuraScript", "dc/d7b/a24734.html#a01d974333043452a37ec3124d23b49f2", null ],
+    [ "Register", "dc/d7b/a24734.html#aeb6c695819e894aad8b210a237e6d315", null ],
+    [ "AuraEffectHandleModes", "dc/d7b/a24734.html#a9b235517305f9b2fcf2d31eb3a4edbd2", null ]
 ];

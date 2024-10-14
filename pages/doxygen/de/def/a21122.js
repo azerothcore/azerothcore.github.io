@@ -1,6 +1,6 @@
 var a21122 =
 [
-    [ "CalculateAmount", "de/def/a21122.html#a79019ef395c9b66f6a88759b0517005d", null ],
-    [ "PrepareAuraScript", "de/def/a21122.html#a1336ab2b7f560deeeeaaf017578bd524", null ],
-    [ "Register", "de/def/a21122.html#a9bce52699983fe798c903385faa42462", null ]
+    [ "spell_voa_overcharge_AuraScript", "d9/daa/a21126.html", "d9/daa/a21126" ],
+    [ "spell_voa_overcharge", "de/def/a21122.html#a3868ca8282174080439b65c27e52275e", null ],
+    [ "GetAuraScript", "de/def/a21122.html#a0a538287130e76d7c0545f81d8342bd6", null ]
 ];

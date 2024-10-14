@@ -1,6 +1,7 @@
 var a19314 =
 [
-    [ "npc_centrifuge_constructAI", "d9/d0e/a19318.html", "d9/d0e/a19318" ],
-    [ "npc_centrifuge_construct", "dc/d06/a19314.html#a3822eca10ab4a96126e0b4685751f4d3", null ],
-    [ "GetAI", "dc/d06/a19314.html#a7356047de8a6d7bc6e903e982db2bc00", null ]
+    [ "HandleOnEffectApply", "dc/d06/a19314.html#a4841f7a44f5df964c4eb9965383fd747", null ],
+    [ "PrepareAuraScript", "dc/d06/a19314.html#a4cf9cf2aadb43920384ec745f6be484f", null ],
+    [ "Register", "dc/d06/a19314.html#a68fba646552678744f49d10b59704a35", null ],
+    [ "Validate", "dc/d06/a19314.html#a01169ee095aa2f0051eac1b253a5daf5", null ]
 ];

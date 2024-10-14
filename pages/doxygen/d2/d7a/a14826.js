@@ -1,7 +1,7 @@
 var a14826 =
 [
-    [ "FilterTargets", "d2/d7a/a14826.html#a59e477333a54ec828a429d15b35d4936", null ],
-    [ "HandleScript", "d2/d7a/a14826.html#a983fe53aa52e53a45685055fde04a3b7", null ],
-    [ "PrepareSpellScript", "d2/d7a/a14826.html#a873e7766aa1cb6ebabbc77c31db6701c", null ],
-    [ "Register", "d2/d7a/a14826.html#a45ac61990990f16c98eaa7136297afc5", null ]
+    [ "npc_hivezara_stinger", "d2/d7a/a14826.html#ac9438c9dd260a41d6248f2adcc14b555", null ],
+    [ "JustEngagedWith", "d2/d7a/a14826.html#a433d31057f1732ef7ef15d2023e18b8a", null ],
+    [ "Reset", "d2/d7a/a14826.html#ae8e893c90942a469628c393d5b5380cc", null ],
+    [ "UpdateAI", "d2/d7a/a14826.html#a35a6511ebc0301ae0bb22aafc91c8524", null ]
 ];

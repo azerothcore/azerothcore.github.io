@@ -1,6 +1,8 @@
 var a27046 =
 [
-    [ "boss_lethonAI", "dc/d8d/a27050.html", "dc/d8d/a27050" ],
-    [ "boss_lethon", "df/d3f/a27046.html#a5d758979b061646830373de64b2b3af4", null ],
-    [ "GetAI", "df/d3f/a27046.html#a493baf37aac400635dd0409e79375a1c", null ]
+    [ "FilterTargets", "df/d3f/a27046.html#a53c6d73f3588e50c2be7ce68595a704c", null ],
+    [ "HandleEffect", "df/d3f/a27046.html#a2edac19abf8aa765ada369e00cd7ea69", null ],
+    [ "PrepareSpellScript", "df/d3f/a27046.html#ae1e1ff5456cb7c558ff4fe415de6a691", null ],
+    [ "Register", "df/d3f/a27046.html#acb4d6abeb0e293728ae3dd0d248e0844", null ],
+    [ "Validate", "df/d3f/a27046.html#aabc063155fad404ffd044c9f79b88051", null ]
 ];

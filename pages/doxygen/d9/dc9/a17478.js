@@ -1,10 +1,6 @@
 var a17478 =
 [
-    [ "npc_gunship_gunnerAI", "d9/dc9/a17478.html#a3001e77b4a20feb0eee5a9605f13ba81", null ],
-    [ "AttackStart", "d9/dc9/a17478.html#ac21b90c1892c15882794384517ef9fd2", null ],
-    [ "CanAIAttack", "d9/dc9/a17478.html#aef351305ef34fa316809697125a3bc9a", null ],
-    [ "MovementInform", "d9/dc9/a17478.html#a94d81b882dd59dd00b0952b45d61a7cb", null ],
-    [ "UpdateAI", "d9/dc9/a17478.html#a8fbb601c3accdf3b0494d317bc0d5733", null ],
-    [ "anyValid", "d9/dc9/a17478.html#a00c7dc23618c60826241133a0067c1c4", null ],
-    [ "checkTimer", "d9/dc9/a17478.html#af80cee9c2c86fa8b4c643d262042ba3c", null ]
+    [ "HandlePeriodicTick", "d9/dc9/a17478.html#accfe8a0cea8af9c9474d25fc3e7c7e22", null ],
+    [ "PrepareAuraScript", "d9/dc9/a17478.html#a9962029ce4a5223d7aa05068e8d83326", null ],
+    [ "Register", "d9/dc9/a17478.html#a64cf56299c8ab5292dbc9cddcee5f841", null ]
 ];

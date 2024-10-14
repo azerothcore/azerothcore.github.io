@@ -1,8 +1,12 @@
 var a00605 =
 [
-    [ "wdt_MPHD", "d9/d21/a28546.html", "d9/d21/a28546" ],
-    [ "wdt_MAIN", "df/d27/a28554.html", "df/d27/a28554" ],
-    [ "wdt_MAIN::adtData", "d9/d06/a28562.html", "d9/d06/a28562" ],
-    [ "WDT_file", "df/d4b/a28566.html", "df/d4b/a28566" ],
-    [ "WDT_MAP_SIZE", "d0/d1c/a00605.html#a0cf0c1d4bd3ed48612ab2a5e36b8cf10", null ]
+    [ "address_to_uint", "d0/d1c/a00605.html#abb8b9761e1df323f5c258c0a12da7bd4", null ],
+    [ "make_address", "d0/d1c/a00605.html#ac80c495c6580128a469eba313692d1cd", null ],
+    [ "make_address", "d0/d1c/a00605.html#a343cf4089c9d51c02c94ffe0d4839202", null ],
+    [ "make_address", "d0/d1c/a00605.html#aa8694b0a7f5d153bd9665fbaf7d1bf9e", null ],
+    [ "make_address", "d0/d1c/a00605.html#ae75b341a89c6b5e5af9b874e18f0d68b", null ],
+    [ "make_address_v4", "d0/d1c/a00605.html#ab2f4b01d81930dc12b3843012d676953", null ],
+    [ "make_address_v4", "d0/d1c/a00605.html#aaa19a330638c4ebb60cf33897718402e", null ],
+    [ "make_address_v4", "d0/d1c/a00605.html#a2b8976497f6d80395aaa34e8485656b1", null ],
+    [ "make_address_v4", "d0/d1c/a00605.html#a53a0c1a3dc9a8eab17cbee7bb36f81c9", null ]
 ];

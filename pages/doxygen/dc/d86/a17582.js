@@ -1,6 +1,7 @@
 var a17582 =
 [
-    [ "CheckProc", "dc/d86/a17582.html#a86e62fa26606a77284c80583e7b35d27", null ],
-    [ "PrepareAuraScript", "dc/d86/a17582.html#a2c10a09e9e5015eb4f3c66d5086dbe1a", null ],
-    [ "Register", "dc/d86/a17582.html#a6214f78c5c7eb3f60371fa12530d5991", null ]
+    [ "OnPeriodic", "dc/d86/a17582.html#a402e6c1a23070e3cef9b66ca0992d1af", null ],
+    [ "PrepareAuraScript", "dc/d86/a17582.html#a0e87dae1be4f69e6412129f14056eb79", null ],
+    [ "Register", "dc/d86/a17582.html#a1b26d102252bf7e0fd480076820d343f", null ],
+    [ "Validate", "dc/d86/a17582.html#a211d52aa385a874730abc43b083f2d22", null ]
 ];

@@ -1,6 +1,6 @@
 var a21002 =
 [
-    [ "boss_dalronn_the_controllerAI", "dc/d17/a21006.html", "dc/d17/a21006" ],
-    [ "boss_dalronn_the_controller", "da/d6d/a21002.html#afb5f8ef1df5d2e70e48f88cf986d88b2", null ],
-    [ "GetAI", "da/d6d/a21002.html#a62a12d41c5c4ed808ea8d65068a92b1f", null ]
+    [ "npc_ferocious_rhinoAI", "dc/d17/a21006.html", "dc/d17/a21006" ],
+    [ "npc_ferocious_rhino", "da/d6d/a21002.html#a480c1d0c24cdbe7cd3c47332ee925466", null ],
+    [ "GetAI", "da/d6d/a21002.html#aa5c3cba6b1ed6cffaac578c5449b9b4e", null ]
 ];

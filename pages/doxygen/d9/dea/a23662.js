@@ -1,10 +1,10 @@
 var a23662 =
 [
-    [ "boss_harbinger_skyriss", "d9/dea/a23662.html#a245179f74d61c2671b397e8f2473b599", null ],
-    [ "EnterEvadeMode", "d9/dea/a23662.html#a873413da06569343225e6659f8277b2c", null ],
-    [ "JustDied", "d9/dea/a23662.html#a2b5152ddeb53d382294bd0fe7455a21e", null ],
-    [ "JustEngagedWith", "d9/dea/a23662.html#adb4cdec41f4b61f82efdb78fe995c313", null ],
-    [ "JustSummoned", "d9/dea/a23662.html#a97d84139a3e970e22d7d422f2f825f12", null ],
-    [ "KilledUnit", "d9/dea/a23662.html#a8f9e1bd87c80041e07b428ec300ceef8", null ],
-    [ "Reset", "d9/dea/a23662.html#a045ec2371ad99c3465b8f089eb604e0a", null ]
+    [ "boss_thorngrin_the_tender", "d9/dea/a23662.html#ad960b1084fc08d2870975c7c6c44ab2b", null ],
+    [ "JustDied", "d9/dea/a23662.html#a4bc13108f7cb240fedb44ccae2b54047", null ],
+    [ "JustEngagedWith", "d9/dea/a23662.html#a647ed5b29861b719d3c4a11fd110c512", null ],
+    [ "KilledUnit", "d9/dea/a23662.html#ab3731c5b56e1c01aa5d78d84a5e60234", null ],
+    [ "MoveInLineOfSight", "d9/dea/a23662.html#a9467e59287b3e917907de82507d1a16d", null ],
+    [ "Reset", "d9/dea/a23662.html#af3f1471cbcdadfe3a86421d7232fb4b9", null ],
+    [ "_intro", "d9/dea/a23662.html#a48fc89c7e9814d90a8724ca38c5e2fe8", null ]
 ];

@@ -1,12 +1,12 @@
 var a14690 =
 [
-    [ "boss_isalien", "db/d99/a14690.html#a736a25e60ae367a45c7d6451be96126d", null ],
-    [ "DamageTaken", "db/d99/a14690.html#a95d461e099193b5e2c1363acb1b5939a", null ],
-    [ "JustDied", "db/d99/a14690.html#a6544b5eb398eb2fc9cae05709e4a5cc1", null ],
-    [ "JustEngagedWith", "db/d99/a14690.html#ad6714da515db77c7299ee80b3268433e", null ],
-    [ "JustSummoned", "db/d99/a14690.html#a84a94a1a8889b48cd02d5cb6a205a487", null ],
-    [ "Reset", "db/d99/a14690.html#a4995c18e2baa62d05717617d0b1e3529", null ],
-    [ "UpdateAI", "db/d99/a14690.html#aa067bea34557a4b2fe840ef305852bc0", null ],
-    [ "_phase", "db/d99/a14690.html#a954bbd32948e6c416197199d96142056", null ],
-    [ "_scheduler", "db/d99/a14690.html#a8eb56a907e3395b9e81588aab7c07ca6", null ]
+    [ "instance_razorfen_downs_InstanceMapScript", "db/d99/a14690.html#a04d36b66a5570d03bb95ef2225a5c902", null ],
+    [ "GetData", "db/d99/a14690.html#a3d1611870945cd0c8cd7d4e7728cfd84", null ],
+    [ "Initialize", "db/d99/a14690.html#aed9ab9542badb0296ca0660c39541cb8", null ],
+    [ "OnGameObjectCreate", "db/d99/a14690.html#a567ac5d9a17514ede5b84c5d78204072", null ],
+    [ "ReadSaveDataMore", "db/d99/a14690.html#a7d6fefed563b0b9763b9c63136c65952", null ],
+    [ "SetData", "db/d99/a14690.html#a1dfd39d65b16bb6e1373fe83ba4053c5", null ],
+    [ "WriteSaveDataMore", "db/d99/a14690.html#ae5cd5cf84e8db976f3006dc52bb5fab4", null ],
+    [ "_firesState", "db/d99/a14690.html#a74809429d3d2b1db5374dacf34d8a1b7", null ],
+    [ "_gongPhase", "db/d99/a14690.html#a23485a35f0aa2f2ffad53398882d163a", null ]
 ];

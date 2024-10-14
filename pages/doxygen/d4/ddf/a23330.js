@@ -1,5 +1,7 @@
 var a23330 =
 [
-    [ "go_main_chambers_access_panel", "d4/ddf/a23330.html#a30c3c20be1892b5107ef53683d593b75", null ],
-    [ "OnGossipHello", "d4/ddf/a23330.html#af4b3a4a0260de68dcfac7202e0a728ee", null ]
+    [ "HandleScript", "d4/ddf/a23330.html#a7c1b4d0c8d2ad153cef62ce05fef814c", null ],
+    [ "PrepareSpellScript", "d4/ddf/a23330.html#ab826f4f249679ffe87f9e6ccf6b9ecf0", null ],
+    [ "Register", "d4/ddf/a23330.html#a82da72fd4eed6773c1f3a4288caa8963", null ],
+    [ "Validate", "d4/ddf/a23330.html#a46aca18049e02d50f57579b3fdc705bd", null ]
 ];

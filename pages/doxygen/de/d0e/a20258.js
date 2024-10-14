@@ -1,7 +1,18 @@
 var a20258 =
 [
-    [ "boss_kologarn_pit_kill_bunny", "de/d0e/a20258.html#a0ecbc2ae8850d4cfb84f40d2a13f4976", null ],
-    [ "Reset", "de/d0e/a20258.html#afd7482896b66f040b8d57b9b6ac37059", null ],
-    [ "UpdateAI", "de/d0e/a20258.html#ad863666aec3db81f73165148ffc98033", null ],
-    [ "_boundaryIntersect", "de/d0e/a20258.html#abc0560637830e70d54ce1fb6b6881ca6", null ]
+    [ "npc_ulduar_leviathan_mkiiAI", "de/d0e/a20258.html#a5502ef972b889513a3d3d9b85d256af4", null ],
+    [ "DamageTaken", "de/d0e/a20258.html#a773f86b23d373bae4e57d4d67b270b6d", null ],
+    [ "EnterEvadeMode", "de/d0e/a20258.html#ab6d02d90b4fe5f6bda0eed4f8f05c001", null ],
+    [ "GetS3", "de/d0e/a20258.html#af76019911ce9bb993ebb7c658d30188d", null ],
+    [ "KilledUnit", "de/d0e/a20258.html#a53acdf5b1703a3feca814184a018cc3d", null ],
+    [ "MoveInLineOfSight", "de/d0e/a20258.html#a0f4f1b5876d608b01376430444e472e3", null ],
+    [ "PassengerBoarded", "de/d0e/a20258.html#a55f76a830084d7aaa3df0d6bf0630121", null ],
+    [ "Reset", "de/d0e/a20258.html#a63174d9dcdf5a0d433f9694bda6d7086", null ],
+    [ "SetData", "de/d0e/a20258.html#a214491b36ca047f666d5931365649c4c", null ],
+    [ "SpellHit", "de/d0e/a20258.html#ad9c47de936a986e6698a1b8ed6caf68f", null ],
+    [ "UpdateAI", "de/d0e/a20258.html#a4267062c75d3bee348c946be6f8d5878", null ],
+    [ "bIsEvading", "de/d0e/a20258.html#ac142b9abf799b944cd5e20cc0e9979c8", null ],
+    [ "events", "de/d0e/a20258.html#a6f12f0d68459399cf85ce030cb633d4f", null ],
+    [ "Phase", "de/d0e/a20258.html#ad9e8d511cbd34ff024799f6ec61fe1ff", null ],
+    [ "pInstance", "de/d0e/a20258.html#aa991c7f1cf64ca7e0963323222ffc1dd", null ]
 ];

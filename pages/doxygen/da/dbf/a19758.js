@@ -1,6 +1,9 @@
 var a19758 =
 [
-    [ "boss_flame_leviathan_seatAI", "d8/d14/a19762.html", "d8/d14/a19762" ],
-    [ "boss_flame_leviathan_seat", "da/dbf/a19758.html#a0fc90640a5142d889f1c043270582a16", null ],
-    [ "GetAI", "da/dbf/a19758.html#a0e17225aeb93e0a5f5442c4ac2362af8", null ]
+    [ "npc_thorims_hammerAI", "da/dbf/a19758.html#aafda36c8d784252d271ef031ab6a3d34", null ],
+    [ "Reset", "da/dbf/a19758.html#a57975d0dc00c86946e547ba43c7151ec", null ],
+    [ "UpdateAI", "da/dbf/a19758.html#a4e01a61d09c11647e06c3547d6fa91fa", null ],
+    [ "_beamTimer", "da/dbf/a19758.html#aba7c6c078977a8187a7e673ba3126bfd", null ],
+    [ "_finishTime", "da/dbf/a19758.html#a218bd28d18a2c2f0aef6906619437209", null ],
+    [ "_removeTimer", "da/dbf/a19758.html#a958e4c975d1ae634745107af7d204f82", null ]
 ];

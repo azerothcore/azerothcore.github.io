@@ -1,8 +1,6 @@
 var a15978 =
 [
-    [ "OnApply", "d4/d35/a15978.html#a7165da94ce589afcd24411a308802c18", null ],
-    [ "OnRemove", "d4/d35/a15978.html#a8a43050c44b4d3d5b48f4e2c6fcc0b49", null ],
-    [ "PrepareAuraScript", "d4/d35/a15978.html#ab8361bc1d2cc786b52f1fc2b7ff09527", null ],
-    [ "Register", "d4/d35/a15978.html#a0ff7bbd0dea458b15231ecf419b1c49c", null ],
-    [ "Validate", "d4/d35/a15978.html#acf29b80b7b74c3f409e1f046b8062994", null ]
+    [ "instance_ruby_sanctum_InstanceMapScript", "d9/d96/a15982.html", "d9/d96/a15982" ],
+    [ "instance_ruby_sanctum", "d4/d35/a15978.html#a9fc9d56cfcd7d0163f25f49e1ed0baeb", null ],
+    [ "GetInstanceScript", "d4/d35/a15978.html#ad0329f328d4be2c475d8bcd5ccefd4e1", null ]
 ];

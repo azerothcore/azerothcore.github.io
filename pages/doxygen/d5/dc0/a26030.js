@@ -1,9 +1,10 @@
 var a26030 =
 [
-    [ "CountTargets", "d5/dc0/a26030.html#a85a60a3ada7ea2b8c995bc156be36fe2", null ],
-    [ "HandleDummy", "d5/dc0/a26030.html#af51f59f6cb8e2a6d99b3c05cebfcfa89", null ],
-    [ "PrepareSpellScript", "d5/dc0/a26030.html#adfb7e3fbb52aa349573b95c457823900", null ],
-    [ "Register", "d5/dc0/a26030.html#a9180a01674a1f56c287d40bfbdf6d841", null ],
-    [ "Validate", "d5/dc0/a26030.html#a5dd09977efde2d3433aff4d35687d5e8", null ],
-    [ "_targetCount", "d5/dc0/a26030.html#aa9a0fb36eafd8535fcd2bddda56d7107", null ]
+    [ "CheckCast", "d5/dc0/a26030.html#a49676a65c99a9a2d99ad78fee54d2302", null ],
+    [ "HandleScript", "d5/dc0/a26030.html#a35b9d69b8147ef06527b8533ef376e72", null ],
+    [ "Load", "d5/dc0/a26030.html#a25c373762375f207e6c3ba0a18d4a6e7", null ],
+    [ "PrepareSpellScript", "d5/dc0/a26030.html#a31d3339531f75dfa0ca3a339d34d3012", null ],
+    [ "Register", "d5/dc0/a26030.html#afd716f555ac73287bd268c6124b15b1c", null ],
+    [ "Validate", "d5/dc0/a26030.html#a0938262e1f45821b9fbef42f5c96cc56", null ],
+    [ "_manaAmount", "d5/dc0/a26030.html#add7d1cdf3abca0ada57cd719ad22602a", null ]
 ];

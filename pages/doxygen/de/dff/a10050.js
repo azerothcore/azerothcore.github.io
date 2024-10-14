@@ -1,5 +1,6 @@
 var a10050 =
 [
-    [ "MailScript", "de/dff/a10050.html#a009eaf9dd8d44427e8e5c91a92ebb5c5", null ],
-    [ "OnBeforeMailDraftSendMailTo", "de/dff/a10050.html#ab4e3f0552ffc705ef44e8ca6c36f2be7", null ]
+    [ "LootScript", "de/dff/a10050.html#a57fd5dffc97f62a595f0ff4c2856dbd4", null ],
+    [ "IsDatabaseBound", "de/dff/a10050.html#ad60b605eac89be48efd339127e9cb9cd", null ],
+    [ "OnLootMoney", "de/dff/a10050.html#a56a57baead49f6815a9979b181a55375", null ]
 ];

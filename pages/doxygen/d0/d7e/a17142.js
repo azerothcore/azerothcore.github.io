@@ -1,6 +1,7 @@
 var a17142 =
 [
-    [ "boss_prince_valanarAI", "de/dcc/a17146.html", "de/dcc/a17146" ],
-    [ "boss_prince_valanar_icc", "d0/d7e/a17142.html#a7bfa4e13fa5cc19313c7ce9877d1c631", null ],
-    [ "GetAI", "d0/d7e/a17142.html#a2f7f58d57f5ed107d1f972d061105fd4", null ]
+    [ "HandleScript", "d0/d7e/a17142.html#a4b1e392acea30a9259e65a75667704c5", null ],
+    [ "Load", "d0/d7e/a17142.html#a9af7bb4defb7c590aaff1a709dad4573", null ],
+    [ "PrepareSpellScript", "d0/d7e/a17142.html#a17301c4ef9623ec04ec3c15dfd4e316f", null ],
+    [ "Register", "d0/d7e/a17142.html#a77632d11a172e5552c0c49de830a1639", null ]
 ];

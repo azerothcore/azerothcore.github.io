@@ -1,6 +1,11 @@
 var a22346 =
 [
-    [ "HandlePeriodicDummy", "dd/de6/a22346.html#a0096e0521c37a4f7f9ab1f2173a807d4", null ],
-    [ "PrepareAuraScript", "dd/de6/a22346.html#ad55ab81c39e8bf53d1e2066bbeefa712", null ],
-    [ "Register", "dd/de6/a22346.html#afeccfe29a0e0f192a4242217f9d4b7e5", null ]
+    [ "npc_drakuru_shacklesAI", "dd/de6/a22346.html#aeb55bf23d97e963b0fb9a18596bb58b1", null ],
+    [ "LockRageclaw", "dd/de6/a22346.html#aa58fff9ee8e6cbe4d2dd0d391215f1f4", null ],
+    [ "Reset", "dd/de6/a22346.html#a566fba51edcddab8c5b0bf5688571f80", null ],
+    [ "SpellHit", "dd/de6/a22346.html#a04a9f0cc28cd8cab89120e66972b74cf", null ],
+    [ "UnlockRageclaw", "dd/de6/a22346.html#a65a4b408ac09ffa3155b955dc054d971", null ],
+    [ "UpdateAI", "dd/de6/a22346.html#a8a04ac89e5ec9ce841445913765a1a73", null ],
+    [ "_rageclawGUID", "dd/de6/a22346.html#a1c991305f4ef30146930747881e57de4", null ],
+    [ "timer", "dd/de6/a22346.html#a2a6484216abd731ad016284a79575e1c", null ]
 ];

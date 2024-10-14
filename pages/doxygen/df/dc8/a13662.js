@@ -1,10 +1,8 @@
 var a13662 =
 [
-    [ "npc_janalai_firebombAI", "df/dc8/a13662.html#a82d0bb69a9e2b0dca40fd2a586bfb44b", null ],
-    [ "AttackStart", "df/dc8/a13662.html#a3109ec5b72bf481f4b4cee8aabc9e877", null ],
-    [ "JustEngagedWith", "df/dc8/a13662.html#ab82415e3306fe41922566ded0a33a678", null ],
-    [ "MoveInLineOfSight", "df/dc8/a13662.html#a53d1063c3c321a09c174f4c456380096", null ],
-    [ "Reset", "df/dc8/a13662.html#af13197a0cdb42b5c0feb15a425dde547", null ],
-    [ "SpellHit", "df/dc8/a13662.html#ad5a722460b77700bb567201962c4959f", null ],
-    [ "UpdateAI", "df/dc8/a13662.html#adf9c1a779979c439c26afe7872259c9b", null ]
+    [ "npc_zuljin_vortexAI", "df/dc8/a13662.html#ad0bcdf626133ed7ddebf86b95859ad53", null ],
+    [ "JustEngagedWith", "df/dc8/a13662.html#a6f1a84b5795680728448bda61fa52c73", null ],
+    [ "Reset", "df/dc8/a13662.html#aeae059a3c4a55e30bde641092d7d49d6", null ],
+    [ "SpellHit", "df/dc8/a13662.html#a4bc620e49448383990efd392fcf60714", null ],
+    [ "UpdateAI", "df/dc8/a13662.html#acb20f40de5d099f8bb28a5eb8f7f09dd", null ]
 ];

@@ -1,6 +1,6 @@
 var a24166 =
 [
-    [ "npc_lord_illidan_stormrageAI", "db/ddf/a24170.html", "db/ddf/a24170" ],
-    [ "npc_lord_illidan_stormrage", "de/dc6/a24166.html#ad2f213749e170ec4f9903396d132f5f3", null ],
-    [ "GetAI", "de/dc6/a24166.html#a9aaedc4326b90621965dad522f4af897", null ]
+    [ "CheckRequirement", "de/dc6/a24166.html#aa53bdc1b4b57150dbebce61ac87d2b88", null ],
+    [ "PrepareSpellScript", "de/dc6/a24166.html#a8e3d6659174d4c920e65f85afb9308b1", null ],
+    [ "Register", "de/dc6/a24166.html#aa4f62292b32347179a5534e4bc0417f8", null ]
 ];

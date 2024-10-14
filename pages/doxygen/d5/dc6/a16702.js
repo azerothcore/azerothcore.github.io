@@ -1,14 +1,12 @@
 var a16702 =
 [
-    [ "boss_marwynAI", "d5/dc6/a16702.html#abfc074b89e4edcf461c4df4d00c90856", null ],
-    [ "DoAction", "d5/dc6/a16702.html#adc68f202aa2e78bd3a7969bfddcce710", null ],
-    [ "EnterEvadeMode", "d5/dc6/a16702.html#acb0b5675c2ff9f614ddafd88ff96e62e", null ],
-    [ "JustDied", "d5/dc6/a16702.html#a11f64dbf0333c212584d441d4b719d9c", null ],
-    [ "JustEngagedWith", "d5/dc6/a16702.html#ae7509cf8b3b93e97b2e617c1ac181c87", null ],
-    [ "KilledUnit", "d5/dc6/a16702.html#a43b40959a22a1767c1c717f5bf7200ad", null ],
-    [ "Reset", "d5/dc6/a16702.html#a7433e7ed2007ccde768e1e15640ac99d", null ],
-    [ "UpdateAI", "d5/dc6/a16702.html#abaa8f609099423c9d8db5b93f2dd411e", null ],
-    [ "events", "d5/dc6/a16702.html#a87c1f1785612cfd42667bd635ce16f2a", null ],
-    [ "pInstance", "d5/dc6/a16702.html#a524e6c4145851d67edfdc0d9cb5b2e7c", null ],
-    [ "startFightTimer", "d5/dc6/a16702.html#a2a1d7531025f136e368fc7d2b4c0d163", null ]
+    [ "npc_spectral_footmanAI", "d5/dc6/a16702.html#a746b1d15b70be293f61669ce4a945732", null ],
+    [ "AttackStart", "d5/dc6/a16702.html#ac6f9dadff44c805adfac855778b1c9d2", null ],
+    [ "DoAction", "d5/dc6/a16702.html#a466b878e60c1bf89603c261110d88b25", null ],
+    [ "EnterEvadeMode", "d5/dc6/a16702.html#a66c9cceae4c2ae5574369744486e3e57", null ],
+    [ "JustDied", "d5/dc6/a16702.html#afbab6772ff97ca9355ca5f4ac194ce0d", null ],
+    [ "JustEngagedWith", "d5/dc6/a16702.html#a3d3eff22cb453e2ea0164e7f45bb6e5b", null ],
+    [ "Reset", "d5/dc6/a16702.html#a3a8151da7ec1d63966ffc5e5b7e9e931", null ],
+    [ "UpdateAI", "d5/dc6/a16702.html#ad1da2bc8fdc3a3fce51b9a633fd56574", null ],
+    [ "events", "d5/dc6/a16702.html#aa5420d5e57447c7f89c0560ae07b3503", null ]
 ];

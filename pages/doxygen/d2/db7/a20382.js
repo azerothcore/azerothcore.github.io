@@ -1,6 +1,7 @@
 var a20382 =
 [
-    [ "npc_ulduar_flames_spreadAI", "d7/d51/a20386.html", "d7/d51/a20386" ],
-    [ "npc_ulduar_flames_spread", "d2/db7/a20382.html#aca9713b28d6d0c7b13b85a00c8a53ab0", null ],
-    [ "GetAI", "d2/db7/a20382.html#af492a5bc9304a05f8475a39458c6abdb", null ]
+    [ "npc_ulduar_expedition_commanderAI", "d2/db7/a20382.html#a100678bddd6a0e859c72035d4642d8e2", null ],
+    [ "MoveInLineOfSight", "d2/db7/a20382.html#a870bdc842d8d7078302a36a20ef661e4", null ],
+    [ "_instance", "d2/db7/a20382.html#a64d925b08f3f0ae59f5053121dbc495c", null ],
+    [ "_introSpoken", "d2/db7/a20382.html#ac6784a66111406f917ae4d07dbeb60a4", null ]
 ];

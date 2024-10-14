@@ -1,5 +1,7 @@
 var a18746 =
 [
-    [ "creatureEntry", "dd/d7a/a18746.html#afab12c40af70303dff2a9553d47dbb7d", null ],
-    [ "questId", "dd/d7a/a18746.html#ace2a7dd58d442b6afb2173311c89593b", null ]
+    [ "OnRemove", "dd/d7a/a18746.html#a4e6a66934a01d01c50208459f6771353", null ],
+    [ "PrepareAuraScript", "dd/d7a/a18746.html#a2320044c6c81a89af0fefd4f90c05bd5", null ],
+    [ "Register", "dd/d7a/a18746.html#a4890d35f2b0889156a437c95e49f528c", null ],
+    [ "Validate", "dd/d7a/a18746.html#a1b90f1288b3b45267edd4da2b3418b21", null ]
 ];

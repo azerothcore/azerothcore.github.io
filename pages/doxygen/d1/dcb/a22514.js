@@ -1,5 +1,6 @@
 var a22514 =
 [
-    [ "OutdoorPvP_terokkar_forest", "d1/dcb/a22514.html#ac98a2b4c1dae9a8b75249eedeb7d8cb8", null ],
-    [ "GetOutdoorPvP", "d1/dcb/a22514.html#acf268293812d7a1a233e7f1fcba1e733", null ]
+    [ "instance_auchenai_crypts_InstanceMapScript", "d9/d53/a22518.html", "d9/d53/a22518" ],
+    [ "instance_auchenai_crypts", "d1/dcb/a22514.html#a8b16924167c54a9d8120bac67bc10fed", null ],
+    [ "GetInstanceScript", "d1/dcb/a22514.html#a99e47df95fde07d4a6e7687634805b93", null ]
 ];

@@ -1,10 +1,5 @@
 var a21410 =
 [
-    [ "npc_azure_spellbreakerAI", "d6/d2e/a21410.html#a1daf4cb20f4081380d8deda9a58da2fd", null ],
-    [ "Reset", "d6/d2e/a21410.html#a731ff2d4311359145c353de2d91935c8", null ],
-    [ "UpdateAI", "d6/d2e/a21410.html#a053ecfe5c78220c4fa1ac896ce161210", null ],
-    [ "uiArcaneBlastTimer", "d6/d2e/a21410.html#a1e752971a31c7d3415c1820eb3574a98", null ],
-    [ "uiChainsOfIceTimer", "d6/d2e/a21410.html#a2cbf33865a79a781d8b7aad04cd2095c", null ],
-    [ "uiConeOfColdTimer", "d6/d2e/a21410.html#a4970c7459b044b08bf36e17c703395fb", null ],
-    [ "uiSlowTimer", "d6/d2e/a21410.html#a2a02b42ec104cfb6682782a80f813eef", null ]
+    [ "npc_khunok_the_behemothAI", "d6/d2e/a21410.html#a435ac0418fe4bba1d2877ce6bea6451c", null ],
+    [ "MoveInLineOfSight", "d6/d2e/a21410.html#a5d54954a159da764aa7b83579e03688c", null ]
 ];

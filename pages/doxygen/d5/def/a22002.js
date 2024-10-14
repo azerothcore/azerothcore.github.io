@@ -1,8 +1,10 @@
 var a22002 =
 [
-    [ "npc_llod_genericAI", "d5/def/a22002.html#ac75d85ae4b59416952788102cd1db132", null ],
-    [ "Reset", "d5/def/a22002.html#a15bd7442fef36a551cc8797f7919f57c", null ],
-    [ "UpdateAI", "d5/def/a22002.html#aa7dce553fb699127f63281b2c47a2f02", null ],
-    [ "attackTimer", "d5/def/a22002.html#a28a6e700d24995e477e7e7c4cc8b5d68", null ],
-    [ "summonTimer", "d5/def/a22002.html#aeeeef545aee565c14d86d8587923c677", null ]
+    [ "npc_infra_green_bomber_genericAI", "d5/def/a22002.html#aed712ea3625971e059e2ecd158227287", null ],
+    [ "DamageTaken", "d5/def/a22002.html#a8f860368df96e430b441c8316db99c93", null ],
+    [ "GetSummoner", "d5/def/a22002.html#aaf7b91ce2bbf65c3f6c4bd41f04682bc", null ],
+    [ "IsSummonedBy", "d5/def/a22002.html#a79676717b7c6219ea74ebe5a580eab28", null ],
+    [ "SpreadFire", "d5/def/a22002.html#a5727c839b7dd02ea64eccce3606688d1", null ],
+    [ "UpdateAI", "d5/def/a22002.html#a252875777655e963965676a24c15e766", null ],
+    [ "events", "d5/def/a22002.html#ae8795439197b9cbfb70bbf5a672b8019", null ]
 ];

@@ -1,5 +1,5 @@
 var a28134 =
 [
-    [ "content", "d9/db7/a28134.html#a936eb07adb8a41480dfc196127b7e5c0", null ],
-    [ "ID", "d9/db7/a28134.html#a1a33aff67b979c3c7a76c26debb5fc25", null ]
+    [ "id", "d9/db7/a28134.html#a4667f55651f20c85f5b3da9384bac078", null ],
+    [ "QuestRewFactionValue", "d9/db7/a28134.html#a9a42feddeef8e054cd52b72cfc812867", null ]
 ];

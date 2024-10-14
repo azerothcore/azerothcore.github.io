@@ -1,6 +1,7 @@
 var a18254 =
 [
-    [ "npc_icc_lk_checktargetAI", "df/da5/a18258.html", "df/da5/a18258" ],
-    [ "npc_icc_lk_checktarget", "d4/d70/a18254.html#a3a2cc943e731e472694dcb13417090da", null ],
-    [ "GetAI", "d4/d70/a18254.html#a2cd9a5c7fec791ba8786cf1bb5b7c8bd", null ]
+    [ "AuraRemoveEvent", "d4/d70/a18254.html#a094b9437c7cadb465738daf5684c9725", null ],
+    [ "Execute", "d4/d70/a18254.html#a14ac906a0fcff86f61983c570b0bd6ad", null ],
+    [ "_spellId", "d4/d70/a18254.html#a6fad41839e07e9545859be7c3afcfc36", null ],
+    [ "_trigger", "d4/d70/a18254.html#aad8c27befc102dae6823d5d74fed50b4", null ]
 ];

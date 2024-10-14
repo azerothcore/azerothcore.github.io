@@ -1,9 +1,9 @@
 var a23170 =
 [
-    [ "CalcPeriodic", "d8/d44/a23170.html#a5cd39919a088cab2fd160ea6e16ee7c8", null ],
-    [ "HandleEffectApply", "d8/d44/a23170.html#adb983cc531fa666648bbdb432684ff1d", null ],
-    [ "HandleEffectRemove", "d8/d44/a23170.html#a99c1bfc5aa4b67318bb3572589a42b1a", null ],
-    [ "OnPeriodic", "d8/d44/a23170.html#aecefab535157dbe8e42aff3b23cd685b", null ],
-    [ "PrepareAuraScript", "d8/d44/a23170.html#ad9ecc1fd4bcf1a2ecb5e2d1ec2ea37f7", null ],
-    [ "Register", "d8/d44/a23170.html#a3771abcc829883ba0cbae9587adbe751", null ]
+    [ "CalcPeriodic", "d8/d44/a23170.html#a4c5a034d23253b2cf08cb86f12821184", null ],
+    [ "HandleEffectApply", "d8/d44/a23170.html#af60491946062054504b20e16273ed594", null ],
+    [ "HandleEffectRemove", "d8/d44/a23170.html#abfd43cd8e9df873e6c0867779bad13c1", null ],
+    [ "HandlePeriodic", "d8/d44/a23170.html#a5137e24394fa14129c44d92c79eef117", null ],
+    [ "PrepareAuraScript", "d8/d44/a23170.html#ac1f10b9e9d9883c25e28ae313242d41e", null ],
+    [ "Register", "d8/d44/a23170.html#a69108d90f7c3fa95adfc29c14bd8c9fe", null ]
 ];

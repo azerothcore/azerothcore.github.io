@@ -1,5 +1,6 @@
 var a20182 =
 [
-    [ "achievement_getting_cold_in_here", "d7/df4/a20182.html#a57fe7262a09036ffa88e985cb7e2f123", null ],
-    [ "OnCheck", "d7/df4/a20182.html#aeafd382d378381f754da6ee04d382276", null ]
+    [ "boss_kologarnAI", "de/d0a/a20186.html", "de/d0a/a20186" ],
+    [ "boss_kologarn", "d7/df4/a20182.html#a5f654a0f534c4ec6c1164ea08e40a476", null ],
+    [ "GetAI", "d7/df4/a20182.html#ad78c2d269e68d8c3bbd86b844ada9435", null ]
 ];

@@ -1,6 +1,7 @@
 var a26602 =
 [
-    [ "FilterTargets", "db/ddf/a26602.html#af7035627c3d6dd3fd8381ee258391a0b", null ],
-    [ "PrepareSpellScript", "db/ddf/a26602.html#a3211fda7263bc513d14a8f2fd1507ef8", null ],
-    [ "Register", "db/ddf/a26602.html#abe63ec69fe15fd8924fb63235489e088", null ]
+    [ "HandleDummy", "db/ddf/a26602.html#a6990bc24605167d38772f391aa2a5376", null ],
+    [ "PrepareSpellScript", "db/ddf/a26602.html#af85da0790eb36b91266ffa45888068d6", null ],
+    [ "Register", "db/ddf/a26602.html#a619dab878b3d6e332a15d772dd148e26", null ],
+    [ "Validate", "db/ddf/a26602.html#a5a39713deabac73334442e1bdeb00aad", null ]
 ];

@@ -1,8 +1,8 @@
 var a23418 =
 [
-    [ "ApplyStun", "db/d80/a23418.html#a5a5b921dc45418485919e599e80f8ca8", null ],
-    [ "HandleScriptEffect", "db/d80/a23418.html#a32619710179250a6a0b408856a888153", null ],
-    [ "PrepareSpellScript", "db/d80/a23418.html#afb61d7dcc8ad52da4dcad3d7593f08ad", null ],
-    [ "Register", "db/d80/a23418.html#aa753fd45caa1b515911d8fdf6fa78754", null ],
-    [ "Validate", "db/d80/a23418.html#a66d91a87078c663903cd836344eec867", null ]
+    [ "instance_gruuls_lair_InstanceMapScript", "db/d80/a23418.html#a1ad656ccd4d41c756c4f525d079fd9b6", null ],
+    [ "GetData", "db/d80/a23418.html#a410630dbbe00acf0b69603cfc357d503", null ],
+    [ "SetBossState", "db/d80/a23418.html#a9f0752eb0ec1d9ca0681ddc5fc8d3752", null ],
+    [ "SetData", "db/d80/a23418.html#a4cbe09489797fa0076d976f9a717a2bd", null ],
+    [ "_addsKilled", "db/d80/a23418.html#a7a003811fcf620f3c2d11ff3498cb298", null ]
 ];

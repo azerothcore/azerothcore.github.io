@@ -1,8 +1,10 @@
 var a24066 =
 [
-    [ "npc_bessyAI", "dc/d30/a24066.html#ad1300a563888b34689bedf97c387707c", null ],
-    [ "JustDied", "dc/d30/a24066.html#af98e9235b2432b619e4cc01c0c1111ef", null ],
-    [ "JustSummoned", "dc/d30/a24066.html#a4197fb122299fd152e5da335bb832ae5", null ],
-    [ "Reset", "dc/d30/a24066.html#aed64386629e52c3b65abadde54a63cc4", null ],
-    [ "WaypointReached", "dc/d30/a24066.html#a4611a8f41f66a1a846fb42ba1d4062c8", null ]
+    [ "npc_infernal_attackerAI", "dc/d30/a24066.html#ae04c4e026f22bd650bb33940b923df9a", null ],
+    [ "IsSummonedBy", "dc/d30/a24066.html#a926e6cd6772784872a905de7245007ac", null ],
+    [ "JustDied", "dc/d30/a24066.html#a1822131520f98dd5f1dd637282f20ae3", null ],
+    [ "Reset", "dc/d30/a24066.html#a6c871d05d4fd0a6f72f409285f012f9c", null ],
+    [ "SpellHit", "dc/d30/a24066.html#a956f3fb1e341519817599df08afc2589", null ],
+    [ "UpdateAI", "dc/d30/a24066.html#a458ba4c884a95080e1088a07a04a9cb9", null ],
+    [ "casterGUID", "dc/d30/a24066.html#ab2e791cc0a67012bc56c3b07e3f327e9", null ]
 ];

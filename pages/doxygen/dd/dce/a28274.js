@@ -1,11 +1,9 @@
 var a28274 =
 [
-    [ "addToSpellBook", "dd/dce/a28274.html#ad312934d24abcc78c02d50cc5cb5403f", null ],
-    [ "Col", "dd/dce/a28274.html#a0bc589c5b1425d5e889cd290b805169e", null ],
-    [ "DependsOn", "dd/dce/a28274.html#a7b1aa1384777b8d94dceed3c387bb628", null ],
-    [ "DependsOnRank", "dd/dce/a28274.html#a608f232669981da3423b959479ca8683", null ],
-    [ "RankID", "dd/dce/a28274.html#a96d0fd120ed3aa7fbd287d104fd87c26", null ],
-    [ "Row", "dd/dce/a28274.html#a136b889d2e8875b01fc7aa2be06847ac", null ],
-    [ "TalentID", "dd/dce/a28274.html#aa769574106b0e5afdbc7c71c51c3b9a2", null ],
-    [ "TalentTab", "dd/dce/a28274.html#acefe6f8c0a5b3893e2a9f828d500df68", null ]
+    [ "adtId", "dd/dce/a28274.html#a9bf7e7dd9dd55e5b1ffeffb0ad3e92e0", null ],
+    [ "areaId", "dd/dce/a28274.html#a7f652c68036429350543fc5a2cc6861e", null ],
+    [ "Flags", "dd/dce/a28274.html#a60f9a61948d1e28587c9d1a338730f37", null ],
+    [ "groupId", "dd/dce/a28274.html#a09052bad3028899580ffedd556672b64", null ],
+    [ "Id", "dd/dce/a28274.html#a70e3e94df9d0b0b1c114ed1001768066", null ],
+    [ "rootId", "dd/dce/a28274.html#a7997c7ac31abdb40f2e7f0e0a7e04403", null ]
 ];

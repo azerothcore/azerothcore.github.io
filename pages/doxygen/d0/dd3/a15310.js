@@ -1,6 +1,6 @@
 var a15310 =
 [
-    [ "npc_bunthen_plainswind", "d0/dd3/a15310.html#ad9b789ad3e958dee4733b142813b6302", null ],
-    [ "OnGossipHello", "d0/dd3/a15310.html#ae2fe8bfb957dd8ea84d2585293c3b6eb", null ],
-    [ "OnGossipSelect", "d0/dd3/a15310.html#a117f28d513ac645b9d3d908d052d2146", null ]
+    [ "Creature", "d0/dd3/a15310.html#a77b33f8998f85808b58052079b1cab54", null ],
+    [ "TextId", "d0/dd3/a15310.html#ad691f3cd40035e96547adf7528229119", null ],
+    [ "Timer", "d0/dd3/a15310.html#accfccceaedffb3ad4d02231fb0bfeee5", null ]
 ];

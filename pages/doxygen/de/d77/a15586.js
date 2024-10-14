@@ -1,6 +1,7 @@
 var a15586 =
 [
-    [ "npc_sergeant_blyAI", "d7/d7c/a15590.html", "d7/d7c/a15590" ],
-    [ "npc_sergeant_bly", "de/d77/a15586.html#afd5c6129098e4939e2b9f3d12b8c7058", null ],
-    [ "GetAI", "de/d77/a15586.html#ad54ff5aabbc30de759c8f31b7ef9f46e", null ]
+    [ "HandleDummy", "de/d77/a15586.html#a5d619c13c620fedeea803a0802fd9ee6", null ],
+    [ "PrepareSpellScript", "de/d77/a15586.html#a04ed0daa21e66b842b8443b5e102ec1d", null ],
+    [ "Register", "de/d77/a15586.html#a4359ad73b513a368509a066a039ddf53", null ],
+    [ "_targetCount", "de/d77/a15586.html#a3ba108d63ef38af0a8730c1bf1aa69e9", null ]
 ];

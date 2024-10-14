@@ -1,6 +1,6 @@
 var a24986 =
 [
-    [ "HandleScript", "df/d99/a24986.html#a913c8c461f291ccaad2f48614c0146c6", null ],
-    [ "PrepareSpellScript", "df/d99/a24986.html#a18913a7455cf3f158136f2d3bb415779", null ],
-    [ "Register", "df/d99/a24986.html#ac24208b646e95d87fbb340d7779cb7c5", null ]
+    [ "HandleScriptEffect", "df/d99/a24986.html#a514697f3fdcbf9274453d6d71c0c4816", null ],
+    [ "PrepareSpellScript", "df/d99/a24986.html#a5bcff624e9a396a2f90115dc99d93ae9", null ],
+    [ "Register", "df/d99/a24986.html#aebcc23e4f4a1c5ab90fb06a47755ec2b", null ]
 ];

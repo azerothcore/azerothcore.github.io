@@ -1,6 +1,6 @@
 var a16962 =
 [
-    [ "npc_pos_freed_slaveAI", "d3/d7a/a16962.html#ad5728e427f9f4a65cea13ec2c5a01453", null ],
-    [ "CanAIAttack", "d3/d7a/a16962.html#a76818ee5fcfcc5678fa9d0957a424d9b", null ],
-    [ "EnterEvadeMode", "d3/d7a/a16962.html#a234135e6bea0d91611fbdbae4dec2ea1", null ]
+    [ "boss_drakkari_colossusAI", "d6/def/a16966.html", "d6/def/a16966" ],
+    [ "boss_drakkari_colossus", "d3/d7a/a16962.html#abe1bf28b9147b72c81e5c5efcdeeaf84", null ],
+    [ "GetAI", "d3/d7a/a16962.html#a75c6c9c56fe11342dd8aece031059e77", null ]
 ];

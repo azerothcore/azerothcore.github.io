@@ -1,6 +1,5 @@
 var a24098 =
 [
-    [ "npc_invis_infernal_casterAI", "dc/d8e/a24102.html", "dc/d8e/a24102" ],
-    [ "npc_invis_infernal_caster", "d3/d03/a24098.html#a9aed081ef904075830428bbc76f53874", null ],
-    [ "GetAI", "d3/d03/a24098.html#aede0c5cc390ea423169b1cba66d929cd", null ]
+    [ "npc_karynaku", "d3/d03/a24098.html#aa6a3cb409cdbc990f1eee4137c7519d2", null ],
+    [ "OnQuestAccept", "d3/d03/a24098.html#a4cae1950fe3b7b4ae6f2e6691800ec47", null ]
 ];

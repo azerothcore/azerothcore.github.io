@@ -1,9 +1,6 @@
 var a17534 =
 [
-    [ "HandleApply", "df/df8/a17534.html#a5f23d41765ec949486094a0da45be7e8", null ],
-    [ "HandleRemove", "df/df8/a17534.html#a8737bad17bf7aa3e52cb2e0b7fbc9178", null ],
-    [ "Load", "df/df8/a17534.html#a7c2644d06592b0d929a0b59cf8fa0f1b", null ],
-    [ "PrepareAuraScript", "df/df8/a17534.html#aabf5fdf4578935db11e041e638fba187", null ],
-    [ "Register", "df/df8/a17534.html#a6bdc66b6028002b5fc873803a434b6b1", null ],
-    [ "SendClientControl", "df/df8/a17534.html#a24f79a4c59d4bf615a6de745ffa11d81", null ]
+    [ "DaranavanMoveEvent", "df/df8/a17534.html#add38d87b9108c09aa9b9fd60f12abcde", null ],
+    [ "Execute", "df/df8/a17534.html#ada0ebc4a9c9f949dd0155a554a553543", null ],
+    [ "_darnavan", "df/df8/a17534.html#a7585edb957755efbc6064f232d50ea4e", null ]
 ];

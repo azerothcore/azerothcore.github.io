@@ -1,7 +1,5 @@
 var a26870 =
 [
-    [ "HandleEffect", "d8/d83/a26870.html#a83b2bd3a3f9a9027766f15f23cae95f0", null ],
-    [ "PrepareSpellScript", "d8/d83/a26870.html#a7645af1c876e1f6ad91ef92884d220ac", null ],
-    [ "Register", "d8/d83/a26870.html#a15d4ce9c947ca2f25e29f97119c4106e", null ],
-    [ "Validate", "d8/d83/a26870.html#ab6d78ecb650f13df3376baced8c40a63", null ]
+    [ "achievement_bg_control_all_nodes", "d8/d83/a26870.html#afa3c06227adff7a03998ac7c5f8147cf", null ],
+    [ "OnCheck", "d8/d83/a26870.html#a69609eb5488519fa5a1f43b13a80e280", null ]
 ];

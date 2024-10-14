@@ -1,6 +1,6 @@
 var a15362 =
 [
-    [ "Creature", "d7/dd7/a15362.html#a77b33f8998f85808b58052079b1cab54", null ],
-    [ "TextId", "d7/dd7/a15362.html#ad691f3cd40035e96547adf7528229119", null ],
-    [ "Timer", "d7/dd7/a15362.html#accfccceaedffb3ad4d02231fb0bfeee5", null ]
+    [ "npc_braug_dimspirit", "d7/dd7/a15362.html#ade08e9ad549d80c2f7918dbfcfbf41dc", null ],
+    [ "OnGossipHello", "d7/dd7/a15362.html#aeaed026edf5a1fa82c941f667c05815b", null ],
+    [ "OnGossipSelect", "d7/dd7/a15362.html#a87ea1ba3e247c9b14c1f6c72b3addea0", null ]
 ];

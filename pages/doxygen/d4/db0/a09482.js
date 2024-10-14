@@ -1,12 +1,7 @@
 var a09482 =
 [
-    [ "flags", "d4/db0/a09482.html#ab1c2612a57fcfce78e10de45dfc1c28d", null ],
-    [ "fourcc", "d4/db0/a09482.html#a5e7b1d32e42afbeb6898ee02014847cd", null ],
-    [ "height", "d4/db0/a09482.html#ab064dde684394c3aa84f9b151749d524", null ],
-    [ "liquidFlags", "d4/db0/a09482.html#a90f22c454f03ecee6aa1b9f9392e10a0", null ],
-    [ "liquidLevel", "d4/db0/a09482.html#ae4f34f9b8139b18416862bcd413f4aaa", null ],
-    [ "liquidType", "d4/db0/a09482.html#ab2ce1920efaec0a4fc0a81df9d6539e3", null ],
-    [ "offsetX", "d4/db0/a09482.html#a2ddee980eda8b7321b55ba44697688b5", null ],
-    [ "offsetY", "d4/db0/a09482.html#abc57f9e6c2f9fae58f575d8e1309f420", null ],
-    [ "width", "d4/db0/a09482.html#aabcbad9f4c0cae9d2e1b015a93f2a0ed", null ]
+    [ "flags", "d4/db0/a09482.html#a2faab5766bd3cbc09ed4e541be7e7f94", null ],
+    [ "fourcc", "d4/db0/a09482.html#a93b48dd741d13ff036eac8a77df9f916", null ],
+    [ "gridHeight", "d4/db0/a09482.html#a3fbdc02ff4769b6f2eacbdc02ba4d370", null ],
+    [ "gridMaxHeight", "d4/db0/a09482.html#a1146dfae7dc4f89dddc94cda5deb7a4c", null ]
 ];

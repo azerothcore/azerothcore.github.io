@@ -1,6 +1,7 @@
 var a15918 =
 [
-    [ "npc_halion_controllerAI", "d3/d87/a15922.html", "d3/d87/a15922" ],
-    [ "npc_halion_controller", "d3/d6c/a15918.html#ac88ff15ce4d89d737eb6dd6b649e1218", null ],
-    [ "GetAI", "d3/d6c/a15918.html#a3c5ea3f0597c070005744ea788a05383", null ]
+    [ "OnApply", "d3/d6c/a15918.html#a2e4fa91ed7b3270a1addb8e5b3a85d74", null ],
+    [ "OnRemove", "d3/d6c/a15918.html#a781994b0be4588f4df29399fc900ec69", null ],
+    [ "PrepareAuraScript", "d3/d6c/a15918.html#aee648b80e7352edffb20fd60697e1d88", null ],
+    [ "Register", "d3/d6c/a15918.html#a53c56711e31500f827123c08f44072cb", null ]
 ];

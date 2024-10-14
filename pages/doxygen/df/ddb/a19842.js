@@ -1,7 +1,6 @@
 var a19842 =
 [
-    [ "boss_flame_leviathan_safety_containerAI", "df/ddb/a19842.html#ab9191e20df488df184c468ca1ac41084", null ],
-    [ "MovementInform", "df/ddb/a19842.html#a1b472a233ebebbb4c1fbf639aeb4bed6", null ],
-    [ "UpdateAI", "df/ddb/a19842.html#a77b3a493c5650d91c903879db324651d", null ],
-    [ "_allowTimer", "df/ddb/a19842.html#a2185c9fe04fa7288fab452c5c1de3819", null ]
+    [ "CheckAreaTarget", "df/ddb/a19842.html#ad1930e308f450cb84dba4f4b28b19f58", null ],
+    [ "PrepareAuraScript", "df/ddb/a19842.html#a921b2f67c417244310398bd93061d61c", null ],
+    [ "Register", "df/ddb/a19842.html#ab21972706bae9fdc3fc6859da2f3f63e", null ]
 ];

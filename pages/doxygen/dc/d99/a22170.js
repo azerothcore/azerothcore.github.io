@@ -1,7 +1,22 @@
 var a22170 =
 [
-    [ "HandleSendEvent", "dc/d99/a22170.html#afd34935d8ab7d66589ca3c99ba0bfe48", null ],
-    [ "PrepareSpellScript", "dc/d99/a22170.html#af698a946e07235c18c8b785a1f775ec9", null ],
-    [ "Register", "dc/d99/a22170.html#a3f6a7e6265221e9536728256f1ec88c0", null ],
-    [ "Validate", "dc/d99/a22170.html#a72d441fdeb7e2fdc37ab9868f9f8ee04", null ]
+    [ "npc_wild_wyrmAI", "dc/d99/a22170.html#a2540d13f92341c615e3998d14c13bdeb", null ],
+    [ "AttackStart", "dc/d99/a22170.html#a59dd8724a6e7225950c5354784a4940b", null ],
+    [ "DamageTaken", "dc/d99/a22170.html#a9ed22adf4f9f5fad611dfbfe60cbe75d", null ],
+    [ "EnterEvadeMode", "dc/d99/a22170.html#ae9794e6d7720813df191180ee9ff8b82", null ],
+    [ "GetValidPlayer", "dc/d99/a22170.html#a73b6b1e855253665861d2c6304f17a38", null ],
+    [ "MoveInLineOfSight", "dc/d99/a22170.html#a8bfc44c2a69ddcf15304a2f32acea652", null ],
+    [ "MovementInform", "dc/d99/a22170.html#aa8c1d051996c4093ac71a60a08be2775", null ],
+    [ "OnCharmed", "dc/d99/a22170.html#add4d5e7c089831a63bf7b4d44b7110f9", null ],
+    [ "PassengerBoarded", "dc/d99/a22170.html#a5c836960f7449608904116dc67f09fd4", null ],
+    [ "Reset", "dc/d99/a22170.html#ae3229b737fba56e69fe75d92cc188ebe", null ],
+    [ "SpellHit", "dc/d99/a22170.html#a9e1a027515f7c90900acacc7d102a267", null ],
+    [ "UpdateAI", "dc/d99/a22170.html#aeeb7705770ed09ed97baf4d61d697ffc", null ],
+    [ "announceAttackTimer", "dc/d99/a22170.html#a0e6fcddaeda1877376161310301770ad", null ],
+    [ "attackTimer", "dc/d99/a22170.html#ac0657362e8e4c70af6976ec771612642", null ],
+    [ "checkTimer", "dc/d99/a22170.html#a72f98db7ff7cf048eb1c9772bf99e46d", null ],
+    [ "playerGUID", "dc/d99/a22170.html#ad321e939986dec9506b85f30e93cb54a", null ],
+    [ "setCharm", "dc/d99/a22170.html#a3b8875f47f5e383b97ebda4d214e7eb2", null ],
+    [ "startPath", "dc/d99/a22170.html#a35b4a0958c53d745700b859636c091bc", null ],
+    [ "switching", "dc/d99/a22170.html#a9e6d01f8034382b318f008229be8e25f", null ]
 ];

@@ -1,6 +1,6 @@
 var a17774 =
 [
-    [ "HandleScript", "d1/d62/a17774.html#abd766c298f8aa363d28198b6a5d7e374", null ],
-    [ "PrepareSpellScript", "d1/d62/a17774.html#a5a4e7d674c09ebbbc9d918cf877418a3", null ],
-    [ "Register", "d1/d62/a17774.html#ae9bd26c97b3dc9c1af96304e3c67d532", null ]
+    [ "npc_big_oozeAI", "de/da1/a17778.html", "de/da1/a17778" ],
+    [ "npc_big_ooze", "d1/d62/a17774.html#a8ae667b2782c53cd808f2e02e29713ee", null ],
+    [ "GetAI", "d1/d62/a17774.html#ad06308602d69b51ff3f269bda6c465b5", null ]
 ];

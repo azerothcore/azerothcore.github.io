@@ -1,6 +1,5 @@
 var a20098 =
 [
-    [ "npc_ulduar_toasty_fireAI", "d8/dd1/a20098.html#a145001c6f1c1d505f810ae545ec62c69", null ],
-    [ "DoAction", "d8/dd1/a20098.html#a8ab71582cc5d8386f788fb95203fbab5", null ],
-    [ "SpellHit", "d8/dd1/a20098.html#a0e4475382dfd754dc119d2e8dba61b7e", null ]
+    [ "FlashFreezeCheck", "d8/dd1/a20098.html#a47d07a686a7c74dc8914a98762b16fe3", null ],
+    [ "operator()", "d8/dd1/a20098.html#a87475dc9e2f1b0eb508e9f56aa5c1e2f", null ]
 ];

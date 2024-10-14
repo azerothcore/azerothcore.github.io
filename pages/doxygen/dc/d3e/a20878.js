@@ -1,6 +1,6 @@
 var a20878 =
 [
-    [ "CheckCast", "dc/d3e/a20878.html#a715a58956db4253c8adfed039833debd", null ],
-    [ "PrepareSpellScript", "dc/d3e/a20878.html#a3b03178d8ab54db36a19ba5a27444917", null ],
-    [ "Register", "dc/d3e/a20878.html#a6309c53b9e3828e76d34a77a8fe35df1", null ]
+    [ "npc_ulduar_storm_tempered_keeperAI", "de/de3/a20882.html", "de/de3/a20882" ],
+    [ "npc_ulduar_storm_tempered_keeper", "dc/d3e/a20878.html#aaf2ef154cad4f2ba5796e410dabf02fc", null ],
+    [ "GetAI", "dc/d3e/a20878.html#aa0860236d2abedba1e521ee1610c89e8", null ]
 ];

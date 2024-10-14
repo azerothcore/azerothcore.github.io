@@ -1,8 +1,8 @@
 var a27430 =
 [
-    [ "npc_elder_clearwaterAI", "df/d15/a27434.html", "df/d15/a27434" ],
-    [ "npc_elder_clearwater", "df/d26/a27430.html#abeee1650938a71762bb0c148ea9834d1", null ],
-    [ "GetAI", "df/d26/a27430.html#a4ae2f507f61ee7cfc0c3b6d7dbfb7f04", null ],
-    [ "OnGossipHello", "df/d26/a27430.html#aae382c0a386b8bacd39c6e7a586519e4", null ],
-    [ "OnQuestReward", "df/d26/a27430.html#a2d316a2d2c892cecc134cea46b5bf2a8", null ]
+    [ "npc_chicken_cluckAI", "df/d15/a27434.html", "df/d15/a27434" ],
+    [ "npc_chicken_cluck", "df/d26/a27430.html#a7bc08c81fca730886c47e0f3a3d8062c", null ],
+    [ "GetAI", "df/d26/a27430.html#abf986f555672823477c3c17e0f59bdbe", null ],
+    [ "OnQuestAccept", "df/d26/a27430.html#acca62c027b5b0cdff107e04cf2c276ea", null ],
+    [ "OnQuestComplete", "df/d26/a27430.html#a8f22520166a557e066502eb16bdae774", null ]
 ];

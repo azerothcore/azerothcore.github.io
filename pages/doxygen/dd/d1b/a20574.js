@@ -1,11 +1,9 @@
 var a20574 =
 [
-    [ "boss_thorim_arena_npcsAI", "dd/d1b/a20574.html#aab66eff737c803f6680ca5f93baaa6ca", null ],
-    [ "CanAIAttack", "dd/d1b/a20574.html#ae214fabcc4db1f40a15be3369e66b030", null ],
-    [ "JustEngagedWith", "dd/d1b/a20574.html#a60530453c2cbf5f22fb0d45088f90706", null ],
-    [ "Reset", "dd/d1b/a20574.html#a83cb4bdb14a757733333f94d02fbf8db", null ],
-    [ "SelectT", "dd/d1b/a20574.html#a84f22d142aad0ed7354784192bd5df3b", null ],
-    [ "UpdateAI", "dd/d1b/a20574.html#acf09c7b12bce41c38980905457d4dbb4", null ],
-    [ "_isCaster", "dd/d1b/a20574.html#a2c55eacc7b16be459935b586a0654500", null ],
-    [ "events", "dd/d1b/a20574.html#aea5a9f9c915a7827316c48a504bc992e", null ]
+    [ "npc_xt002_pummellerAI", "dd/d1b/a20574.html#a2942c05c93036c2e02b9a72c784441b1", null ],
+    [ "Reset", "dd/d1b/a20574.html#a6542fb3e585f100f06f6be14a1346306", null ],
+    [ "UpdateAI", "dd/d1b/a20574.html#a959990310303ff2102f1c03852b4ab8e", null ],
+    [ "_arcingSmashTimer", "dd/d1b/a20574.html#a830fda66756dc3f34a530939116e7556", null ],
+    [ "_trampleTimer", "dd/d1b/a20574.html#ae5e450601861f83b20419405bb92ef6d", null ],
+    [ "_uppercutTimer", "dd/d1b/a20574.html#a5a1bdb380438070effc091ec37db6aec", null ]
 ];

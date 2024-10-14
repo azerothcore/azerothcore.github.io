@@ -1,7 +1,6 @@
 var a21866 =
 [
-    [ "HandleScriptEffect", "dd/daf/a21866.html#a2d39a073c351860db735301b4cf9c79f", null ],
-    [ "PrepareSpellScript", "dd/daf/a21866.html#a3674adaef23f1531af360a65c14efadd", null ],
-    [ "Register", "dd/daf/a21866.html#a11b217c0066217f2da5ff42ce35c9a0a", null ],
-    [ "Validate", "dd/daf/a21866.html#a3dadb61ca7dd8195ba5fdac5bf49583c", null ]
+    [ "npc_rocket_propelled_warheadAI", "da/d7c/a21870.html", "da/d7c/a21870" ],
+    [ "npc_rocket_propelled_warhead", "dd/daf/a21866.html#a5c945efc6e3ca847363ac47abc5f51ca", null ],
+    [ "GetAI", "dd/daf/a21866.html#a803702c480107d197845a0ef447a5380", null ]
 ];

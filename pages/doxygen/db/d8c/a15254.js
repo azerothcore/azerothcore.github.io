@@ -1,6 +1,6 @@
 var a15254 =
 [
-    [ "npc_tiger_matriarch_creditAI", "db/d8c/a15254.html#a628772971a9c2a190ffe2fae6b0b6865", null ],
-    [ "UpdateAI", "db/d8c/a15254.html#a0fc7ca1313a21c5f74539ce2dbd7465d", null ],
-    [ "events", "db/d8c/a15254.html#ae96e0de4a36dde3237520e8a0ddd9f5f", null ]
+    [ "HandleDummy", "db/d8c/a15254.html#af9c26a7e5f6cba4f1146cb626dbcf8ed", null ],
+    [ "PrepareSpellScript", "db/d8c/a15254.html#adc581ed46587afcc8be3800ae79105f6", null ],
+    [ "Register", "db/d8c/a15254.html#a7d09808ea2fdec450fcd129e996bd245", null ]
 ];

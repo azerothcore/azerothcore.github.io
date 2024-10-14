@@ -1,6 +1,8 @@
 var a15162 =
 [
-    [ "npc_death_ravagerAI", "da/dcc/a15166.html", "da/dcc/a15166" ],
-    [ "npc_death_ravager", "dd/d7b/a15162.html#a6aa04a28ce5aa0e467e638c8ffe11657", null ],
-    [ "GetAI", "dd/d7b/a15162.html#a284d0b8ccf902d3f03ddfc6750fe0f1c", null ]
+    [ "npc_prospector_remtravelAI", "dd/d7b/a15162.html#a61f26115382f16f3d65c3d4e1c720f02", null ],
+    [ "JustEngagedWith", "dd/d7b/a15162.html#adf388d36c17b69f881e3cb92d9b78b9b", null ],
+    [ "JustSummoned", "dd/d7b/a15162.html#a6b3dd1552b5313dd04d07dc80eef06fe", null ],
+    [ "Reset", "dd/d7b/a15162.html#ac145a4a4a24be227c31fcc5aefd922eb", null ],
+    [ "WaypointReached", "dd/d7b/a15162.html#a7b02b22e9dc63e1fad6b15a44b2ff9b6", null ]
 ];

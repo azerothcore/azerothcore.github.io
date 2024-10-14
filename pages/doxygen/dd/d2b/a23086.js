@@ -1,15 +1,11 @@
 var a23086 =
 [
-    [ "boss_hydross_the_unstable", "dd/d2b/a23086.html#a8e385f4f7f448033b00828540aa16cde", null ],
-    [ "JustDied", "dd/d2b/a23086.html#ad05fa00eade9614ed54b03a9a4d5d348", null ],
-    [ "JustEngagedWith", "dd/d2b/a23086.html#a4fd2138ce9962d89410b57702d7df33d", null ],
-    [ "JustReachedHome", "dd/d2b/a23086.html#a03cbe48effc4cd3a2821312e60578ed4", null ],
-    [ "JustSummoned", "dd/d2b/a23086.html#a3e9031d95c9e62cbd83eeba4af6c965a", null ],
-    [ "KilledUnit", "dd/d2b/a23086.html#a252d3abdf24c06922c88823bc5e535f3", null ],
-    [ "Reset", "dd/d2b/a23086.html#a0bcad41c74800ab58df8b5ea54d2ec8e", null ],
-    [ "SetForm", "dd/d2b/a23086.html#ac80b0611533998d15406d45385d37629", null ],
-    [ "SummonedCreatureDespawn", "dd/d2b/a23086.html#afe4b76f528045506586f8289eaee27aa", null ],
-    [ "SummonMovementInform", "dd/d2b/a23086.html#af74b63bf239de38f8dd04e69a6ea2b54", null ],
-    [ "SummonTaintedElementalOOC", "dd/d2b/a23086.html#a219094dc5a81acb7d7ae86d5d7945da8", null ],
-    [ "_recentlySpoken", "dd/d2b/a23086.html#acfd0f1a6331b08659c5fffa7850d30b4", null ]
+    [ "boss_leotheras_the_blind", "dd/d2b/a23086.html#a9229850f996812366a20508931965a87", null ],
+    [ "DemonTime", "dd/d2b/a23086.html#af62091f4c045b1a85ef022fdc81b6d30", null ],
+    [ "DoAction", "dd/d2b/a23086.html#a4f3fd791f12b3f176ce109237c516889", null ],
+    [ "ElfTime", "dd/d2b/a23086.html#a52f101530de8883231faa7f5fe689691", null ],
+    [ "MoveToTargetIfOutOfRange", "dd/d2b/a23086.html#a3481cfa1883988b8c1c3f65b9009860d", null ],
+    [ "Reset", "dd/d2b/a23086.html#a5d4be42da1c7ae15c98b608f39ef82db", null ],
+    [ "UpdateAI", "dd/d2b/a23086.html#a89deeb1888046d1f4756bcb6447d8f0d", null ],
+    [ "_recentlySpoken", "dd/d2b/a23086.html#ad5231f13a247247dd7095b16c381fc7c", null ]
 ];

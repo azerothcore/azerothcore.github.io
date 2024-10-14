@@ -1,5 +1,6 @@
 var a20198 =
 [
-    [ "achievement_staying_buffed_all_winter_25", "d5/d80/a20198.html#a91f0ab3bada837cff6414350b98a27a3", null ],
-    [ "OnCheck", "d5/d80/a20198.html#a36591082184bc8466e124bad9a910545", null ]
+    [ "boss_kologarn_eyebeamAI", "df/d0d/a20202.html", "df/d0d/a20202" ],
+    [ "boss_kologarn_eyebeam", "d5/d80/a20198.html#af28ff60e3b42f7316cc3d63624a91ee9", null ],
+    [ "GetAI", "d5/d80/a20198.html#a34f5533a6bfe84c52fe0b0e854e694f8", null ]
 ];

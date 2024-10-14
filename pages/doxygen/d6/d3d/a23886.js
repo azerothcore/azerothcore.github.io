@@ -1,6 +1,6 @@
 var a23886 =
 [
-    [ "HandlePeriodic", "d6/d3d/a23886.html#a0838d4449351f46a1f9f485abaf35c2b", null ],
-    [ "PrepareAuraScript", "d6/d3d/a23886.html#a438425f3002028a0978e0dbab580ca03", null ],
-    [ "Register", "d6/d3d/a23886.html#af4b26607e8838b7bbbe8777f57601341", null ]
+    [ "npc_daranelleAI", "d6/d23/a23890.html", "d6/d23/a23890" ],
+    [ "npc_daranelle", "d6/d3d/a23886.html#a0a6e26b95d6d97821bc9e0c00b205704", null ],
+    [ "GetAI", "d6/d3d/a23886.html#ad2ba5e4dfded886acaf2f9821e15738d", null ]
 ];

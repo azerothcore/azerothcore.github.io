@@ -1,10 +1,9 @@
 var a24618 =
 [
-    [ "Absorb", "da/dd9/a24618.html#a5ab2041dcc342b087d8c6fd9b8d2635f", null ],
-    [ "CalculateAmount", "da/dd9/a24618.html#aed6e525b71f18dafb6f458bc255a6495", null ],
-    [ "Load", "da/dd9/a24618.html#af73fcf4a73ba60e214c045471569f7b0", null ],
-    [ "PrepareAuraScript", "da/dd9/a24618.html#a884927612b8ab2712a057da72f8180c6", null ],
-    [ "Register", "da/dd9/a24618.html#a380b63aec7c567c8db60f4c69a4e6043", null ],
-    [ "Validate", "da/dd9/a24618.html#af58ba552be9c91e8885ef1ccd567c96a", null ],
-    [ "absorbPct", "da/dd9/a24618.html#a64e8bcde6ee27dd00e77d7bfa0864e81", null ]
+    [ "HandleApply", "da/dd9/a24618.html#a1a612d0b35ed6e67042b4d038f8927ca", null ],
+    [ "HandleRemove", "da/dd9/a24618.html#a54b5ffcf247f7385b50b401bc82f43ce", null ],
+    [ "PrepareAuraScript", "da/dd9/a24618.html#af2b8e669737cd4282beb6a5035f496fc", null ],
+    [ "RecalculateBaseArmor", "da/dd9/a24618.html#a693720558c7b2b22c41a49a402522014", null ],
+    [ "Register", "da/dd9/a24618.html#aff9bc58342383afe5a08be696cddedf6", null ],
+    [ "Validate", "da/dd9/a24618.html#ad712e1e05d94372defdfa4fe67e65716", null ]
 ];

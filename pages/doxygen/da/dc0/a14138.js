@@ -1,6 +1,6 @@
 var a14138 =
 [
-    [ "npc_cw_area_triggerAI", "dc/d1e/a14142.html", "dc/d1e/a14142" ],
-    [ "npc_cw_area_trigger", "da/dc0/a14138.html#a11af64ac4ab078566bf8f68a36781939", null ],
-    [ "GetAI", "da/dc0/a14138.html#a66c55b2984bab71be89ad7b6b96e3784", null ]
+    [ "HandleDummy", "da/dc0/a14138.html#a7e6ecd28a6b1f161619e179bc386388e", null ],
+    [ "PrepareSpellScript", "da/dc0/a14138.html#a87a787c6ab3804847c90266f570381c6", null ],
+    [ "Register", "da/dc0/a14138.html#ad5c7ab8f3bb74882eed42c6e0868ab70", null ]
 ];

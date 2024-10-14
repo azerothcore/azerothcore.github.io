@@ -1,9 +1,7 @@
 var a23214 =
 [
-    [ "CalcPeriodic", "da/d3c/a23214.html#a4c5a034d23253b2cf08cb86f12821184", null ],
-    [ "HandleEffectApply", "da/d3c/a23214.html#af60491946062054504b20e16273ed594", null ],
-    [ "HandleEffectRemove", "da/d3c/a23214.html#abfd43cd8e9df873e6c0867779bad13c1", null ],
-    [ "HandlePeriodic", "da/d3c/a23214.html#a5137e24394fa14129c44d92c79eef117", null ],
-    [ "PrepareAuraScript", "da/d3c/a23214.html#ac1f10b9e9d9883c25e28ae313242d41e", null ],
-    [ "Register", "da/d3c/a23214.html#a69108d90f7c3fa95adfc29c14bd8c9fe", null ]
+    [ "PeriodicTick", "da/d3c/a23214.html#a789d2d4d2bc75e412abe80a33102fa06", null ],
+    [ "PrepareAuraScript", "da/d3c/a23214.html#a49db8ade3bc3a3da9e043e8b9ad1759d", null ],
+    [ "Register", "da/d3c/a23214.html#aec2d7f564107f5b294a5d5c3dd3f9b25", null ],
+    [ "Validate", "da/d3c/a23214.html#a7c2309d3192b2a18d8035c8067849d6d", null ]
 ];

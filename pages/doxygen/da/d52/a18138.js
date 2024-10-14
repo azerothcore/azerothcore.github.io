@@ -1,9 +1,7 @@
 var a18138 =
 [
-    [ "npc_icc_ice_sphereAI", "da/d52/a18138.html#a685f45e5cd15b005646e596ff61088e8", null ],
-    [ "DoAction", "da/d52/a18138.html#ac056ecdd93bc716964054f38ab81014e", null ],
-    [ "SelectNewTarget", "da/d52/a18138.html#a9274e05e45c07d14c7df5c623e2769d4", null ],
-    [ "UpdateAI", "da/d52/a18138.html#a5a4117de9e45cea9e9086b3b4daed404", null ],
-    [ "targetGUID", "da/d52/a18138.html#a3e202f9bde2a202d329066f7aab8897c", null ],
-    [ "timer", "da/d52/a18138.html#a42842e92926e18ef2589687d81a7d0d4", null ]
+    [ "PrepareSpellScript", "da/d52/a18138.html#a3283e829757b50bb52f66ee1e64033ae", null ],
+    [ "Register", "da/d52/a18138.html#a0162c92c32210f2873686610f4f00b87", null ],
+    [ "TriggerHeal", "da/d52/a18138.html#a3cdfca33a535bad0942beea24aefa1bb", null ],
+    [ "Validate", "da/d52/a18138.html#a6545fe9f40c0aed036192008a2d6e28e", null ]
 ];

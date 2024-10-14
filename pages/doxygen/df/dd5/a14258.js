@@ -1,8 +1,5 @@
 var a14258 =
 [
-    [ "npc_love_in_air_snivel_real", "df/dd5/a14258.html#a9f5b36d35ced9eb27375ca13fcfbc55d", null ],
-    [ "Talk", "df/dd5/a14258.html#a0b5cc8dd6bdf7c4fbd7b7aa2ba02b028", null ],
-    [ "UpdateAI", "df/dd5/a14258.html#a22ed25da8fe3441ef0e4183390983f40", null ],
-    [ "actionCounter", "df/dd5/a14258.html#ab1685b1ee34c81c689af3c3466b185f0", null ],
-    [ "actionTimer", "df/dd5/a14258.html#a3bbee1ff355581772b337268775b8fbc", null ]
+    [ "PrepareSpellScript", "df/dd5/a14258.html#af219083d127afe24b2541a95bfd449ff", null ],
+    [ "Register", "df/dd5/a14258.html#a03f7ac8d5968970f769191c7df7f5899", null ]
 ];

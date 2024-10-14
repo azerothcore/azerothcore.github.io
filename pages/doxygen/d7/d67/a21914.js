@@ -1,7 +1,9 @@
 var a21914 =
 [
-    [ "HandleAfterEffectApply", "d7/d67/a21914.html#ab54795dc49ca453db40494a694158a98", null ],
-    [ "PrepareAuraScript", "d7/d67/a21914.html#a3e5902a79b9d2c5cad69ad2ece8592ec", null ],
-    [ "Register", "d7/d67/a21914.html#addd4fac4cc8a93d800abacb144e3303c", null ],
-    [ "Validate", "d7/d67/a21914.html#a3ee65a1391c340e471adfc7ac653dd50", null ]
+    [ "npc_Apothecary_HanesAI", "d7/d67/a21914.html#a8e209b142a58b3b3c0d84c430a086ade", null ],
+    [ "JustDied", "d7/d67/a21914.html#a4c681936d8e7053ace5cdeeaa1ee5ca9", null ],
+    [ "Reset", "d7/d67/a21914.html#a23d54542e6debf39798c2a2d6e2a255d", null ],
+    [ "UpdateEscortAI", "d7/d67/a21914.html#ab54eb5115b9c41b39f0de0f8f4412ef9", null ],
+    [ "WaypointReached", "d7/d67/a21914.html#a7105ea4c83ddd0fd08c96a0b0ff40bd2", null ],
+    [ "PotTimer", "d7/d67/a21914.html#a252858818b61cf15e2e031ceaaadc6b8", null ]
 ];

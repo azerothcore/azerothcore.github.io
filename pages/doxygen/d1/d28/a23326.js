@@ -1,6 +1,8 @@
 var a23326 =
 [
-    [ "HandleAfterRemove", "d1/d28/a23326.html#a74610b06095572aa2c898cd84e0fb229", null ],
-    [ "PrepareAuraScript", "d1/d28/a23326.html#ac0d686490ff37810e0116dea4d0b6077", null ],
-    [ "Register", "d1/d28/a23326.html#aad72f4aaa19f92f7a71241311f5d0582", null ]
+    [ "boss_the_black_stalker", "d1/d28/a23326.html#ac33519b374509cefe43b8e97701719ee", null ],
+    [ "JustEngagedWith", "d1/d28/a23326.html#ad118347103ec463a09492e81dbd61418", null ],
+    [ "JustSummoned", "d1/d28/a23326.html#a9e0299a99df83abb7de476a765b667b9", null ],
+    [ "SummonedCreatureDies", "d1/d28/a23326.html#aede25dbe426ec26ccb0509eca0c9c6af", null ],
+    [ "UpdateAI", "d1/d28/a23326.html#a441d3a7e3d9b98703f5870c4ddb4b88c", null ]
 ];

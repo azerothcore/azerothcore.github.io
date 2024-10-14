@@ -1,8 +1,9 @@
 var a01484 =
 [
-    [ "ePoints", "d2/d21/a01484.html#a2604bd06487e34b78d3e50cd892f3c4d", [
-      [ "POINT_LAST_POINT", "d2/d21/a01484.html#a2604bd06487e34b78d3e50cd892f3c4da7d10089a0c5a8c42786b90cd3ba643cb", null ],
-      [ "POINT_HOME", "d2/d21/a01484.html#a2604bd06487e34b78d3e50cd892f3c4da032be97ee26935943c3313fb24491162", null ],
-      [ "POINT_COMBAT_START", "d9/d8b/a01469.html#a2604bd06487e34b78d3e50cd892f3c4da91adf90069f0b0a515897fbdc91e20b4", null ]
-    ] ]
+    [ "instance_drak_tharon_keep", "dd/d32/a16546.html", "dd/d32/a16546" ],
+    [ "instance_drak_tharon_keep::instance_drak_tharon_keep_InstanceScript", "d9/dea/a16550.html", "d9/dea/a16550" ],
+    [ "spell_dtk_raise_dead_aura", "de/dec/a16554.html", "de/dec/a16554" ],
+    [ "spell_dtk_summon_random_drakkari", "d6/d43/a16558.html", "d6/d43/a16558" ],
+    [ "AddSC_instance_drak_tharon_keep", "d2/d21/a01484.html#a5644ddec1299c3c3988ffb003d0c3367", null ],
+    [ "doorData", "d2/d21/a01484.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ]
 ];

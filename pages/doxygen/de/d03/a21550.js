@@ -1,14 +1,7 @@
 var a21550 =
 [
-    [ "npc_hidden_cultistAI", "de/d03/a21550.html#a970aaa2401664337147696624cc8cac4", null ],
-    [ "AttackPlayer", "de/d03/a21550.html#a55e3b02d05f35d134fc605a13efe9018", null ],
-    [ "Initialize", "de/d03/a21550.html#ab9199126a5a19cc3c6dc612bc428d79c", null ],
-    [ "PreScript", "de/d03/a21550.html#a92be5361e2b28152adcca0629b286bb8", null ],
-    [ "Reset", "de/d03/a21550.html#afe38e448d86cdf910870d72a3890ae1f", null ],
-    [ "sGossipSelect", "de/d03/a21550.html#adf6d85bc5a32c8bd7c125d24f67411d9", null ],
-    [ "UpdateAI", "de/d03/a21550.html#a0bba4d10439d47d44ff856c7fec18595", null ],
-    [ "_emoteState", "de/d03/a21550.html#adb4e884787dc480358c5be22d276ec49", null ],
-    [ "_events", "de/d03/a21550.html#ab0494e33d16a43aa1426784d1882e41c", null ],
-    [ "_npcFlags", "de/d03/a21550.html#aea867d06cb737e2a44445c2c8c7d6e45", null ],
-    [ "_playerGUID", "de/d03/a21550.html#ac7ecf525ed8c0d2a3d00b34f7afdbf18", null ]
+    [ "npc_warmage_violetstand", "de/d03/a21550.html#a1f67c9521cc3bd63886a8936b28e6622", null ],
+    [ "Reset", "de/d03/a21550.html#a99015610597f43f184cc686c9fab2fa9", null ],
+    [ "UpdateAI", "de/d03/a21550.html#aa0eac837ab697c3e0cd5ab753f0bd0b4", null ],
+    [ "targetGUID", "de/d03/a21550.html#a46560aa7aa90778967a79c931a81721b", null ]
 ];

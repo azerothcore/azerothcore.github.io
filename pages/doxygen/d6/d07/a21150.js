@@ -1,6 +1,6 @@
 var a21150 =
 [
-    [ "boss_archavonAI", "d2/d89/a21154.html", "d2/d89/a21154" ],
-    [ "boss_archavon", "d6/d07/a21150.html#a44e20480f8d86cf763afe67de49c6c33", null ],
-    [ "GetAI", "d6/d07/a21150.html#a5eb62d54fe1559ef9df51c2bd01f7de4", null ]
+    [ "HandleDummy", "d6/d07/a21150.html#a9a4cee98bd023da694ac8fe76cd06078", null ],
+    [ "PrepareSpellScript", "d6/d07/a21150.html#abb80edac9217487c4be085f12295691e", null ],
+    [ "Register", "d6/d07/a21150.html#a2e483fb5c3e176f694eb7c39548a9903", null ]
 ];

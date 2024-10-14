@@ -1,5 +1,6 @@
 var a21678 =
 [
-    [ "go_the_pearl_of_the_depths", "d7/dd5/a21678.html#a0e09ddcde0eef050400d90e9a268823a", null ],
-    [ "OnGossipHello", "d7/dd5/a21678.html#a745ea14136a78759a3afd7714c6d784a", null ]
+    [ "npc_heated_battleAI", "d0/d09/a21682.html", "d0/d09/a21682" ],
+    [ "npc_heated_battle", "d7/dd5/a21678.html#aceafde04a60940c1027a6e838ffdc137", null ],
+    [ "GetAI", "d7/dd5/a21678.html#af73fc1f330bf2fd224e53be39da1c9d3", null ]
 ];

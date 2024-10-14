@@ -1,7 +1,6 @@
 var a14350 =
 [
-    [ "GetVisualThrow", "d8/dee/a14350.html#afe59e0c21eaa06e2b1d614613b1d2f73", null ],
-    [ "HandleDummy", "d8/dee/a14350.html#adca1aacf89dcf452f1c98cae97f09690", null ],
-    [ "PrepareSpellScript", "d8/dee/a14350.html#a642f2d3992e7e3a4393d2b0c6b521597", null ],
-    [ "Register", "d8/dee/a14350.html#a68a6e9b307500a56e66bc19c41daf9dc", null ]
+    [ "instance_blackfathom_deeps_InstanceMapScript", "d6/d7b/a14354.html", "d6/d7b/a14354" ],
+    [ "instance_blackfathom_deeps", "d8/dee/a14350.html#a4600a7e6191582c1bee684989a970e0f", null ],
+    [ "GetInstanceScript", "d8/dee/a14350.html#a62cdab4f3118ab030b4ef55243690f73", null ]
 ];

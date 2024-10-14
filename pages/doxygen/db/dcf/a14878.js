@@ -1,7 +1,9 @@
 var a14878 =
 [
-    [ "npc_hivezara_stinger", "db/dcf/a14878.html#ac9438c9dd260a41d6248f2adcc14b555", null ],
-    [ "JustEngagedWith", "db/dcf/a14878.html#a433d31057f1732ef7ef15d2023e18b8a", null ],
-    [ "Reset", "db/dcf/a14878.html#ae8e893c90942a469628c393d5b5380cc", null ],
-    [ "UpdateAI", "db/dcf/a14878.html#a35a6511ebc0301ae0bb22aafc91c8524", null ]
+    [ "npc_claw_tentacle", "db/dcf/a14878.html#a10f1c68d5f49dd1614e7e939498db37b", null ],
+    [ "JustDied", "db/dcf/a14878.html#aa566b417d1b766668133dd1d6a58293f", null ],
+    [ "JustEngagedWith", "db/dcf/a14878.html#a9fbe9b30f973d3c8509ab4bbfcfe5bcc", null ],
+    [ "Reset", "db/dcf/a14878.html#aaf3a3380a33aadc2023d192dfa85cfb2", null ],
+    [ "UpdateAI", "db/dcf/a14878.html#ae7d521445680167add653717c7ae4c86", null ],
+    [ "_portalGUID", "db/dcf/a14878.html#ab979781a8f77267348595cfa17341bae", null ]
 ];

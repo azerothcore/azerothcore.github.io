@@ -1,6 +1,9 @@
 var a24478 =
 [
-    [ "PrepareSpellScript", "d4/d72/a24478.html#a6c49fad4dc5d080b9a5550f8f30cae4d", null ],
-    [ "RecalculateDamage", "d4/d72/a24478.html#ab6a781160532d7cbb3bb3304eb412514", null ],
-    [ "Register", "d4/d72/a24478.html#a82395d00066e90abc58103b18a5ef4dc", null ]
+    [ "HandleAfterHit", "d4/d72/a24478.html#ae1b4b01bd1a6903bcd594d2191e2770b", null ],
+    [ "Load", "d4/d72/a24478.html#a7f0dae9dd4ead6ea10e8343810671282", null ],
+    [ "PrepareSpellScript", "d4/d72/a24478.html#a293ff5d232851bce7cbc4a83aa8253b5", null ],
+    [ "Register", "d4/d72/a24478.html#ae9eeb78d006bc01dd05fdd726dea9b90", null ],
+    [ "Validate", "d4/d72/a24478.html#afdbb71f81aacc9ac1a5119707952ec52", null ],
+    [ "_executed", "d4/d72/a24478.html#a2fe77cc280a5fa3bb324d969f1081b65", null ]
 ];

@@ -25,6 +25,7 @@ var a06114 =
     [ "UpdateAI", "de/d8c/a06114.html#a840cc108b3135ee19402e61d591f18d0", null ],
     [ "_bossId", "de/d8c/a06114.html#a8260f7bb18e7e78fa15cdbafdb3c5747", null ],
     [ "_healthCheckEvents", "de/d8c/a06114.html#a8c6f620e880cea2f4f40123d18d9241e", null ],
+    [ "_nextHealthCheck", "de/d8c/a06114.html#a277c7dedf132f6d807790077b9b70114", null ],
     [ "callForHelpRange", "de/d8c/a06114.html#a589eb1e1cc2d7aeaf061b65374c4eeee", null ],
     [ "instance", "de/d8c/a06114.html#a05890dbd00c482b204af44f69d3efdc0", null ],
     [ "summons", "de/d8c/a06114.html#a9deaaae20cd3bd12dcc3889f79b2c6cc", null ]
